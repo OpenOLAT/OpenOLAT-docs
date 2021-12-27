@@ -1,0 +1,5 @@
+site_name: User Manual
+
+nav:
+  - Dieses ist wichtig: "this.md"
+  - und auch das: "that.md"

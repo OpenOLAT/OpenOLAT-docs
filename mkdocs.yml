@@ -1,0 +1,51 @@
+site_name: OpenOlat Documentation
+site_url: https://www.openolat.org
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: cyan
+      accent: orange
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - scheme: slate 
+      primary: cyan
+      accent: orange
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+  favicon: assets/favicon64.png
+  logo: assets/OpenOlat_Button_Quadrat_RGB.png
+  features:
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.top
+    
+#markdown_extensions:
+#  - meta
+
+#include_homepage_in_sidebar: false
+#prev_next_buttons_location: none
+#navigation_depth: 10
+#collapse_navigation: true
+#titles_only: false
+#sticky_navigation: false
+
+plugins:
+  - i18n:
+      default_language: de
+      languages:
+        de: Deutsch
+        en: English
+  - monorepo
+  - search
+  
+nav:
+  - Übersicht: index.md
+  - Release Notes: '!include ./sites/release_notes/mkdocs.yml'
+  - Benutzerhandbuch: '!include ./sites/manual_user/mkdocs.yml' 
+  - Administration: '!include ./sites/manual_admin/mkdocs.yml' 
+  - Impressum: imprint.md
+

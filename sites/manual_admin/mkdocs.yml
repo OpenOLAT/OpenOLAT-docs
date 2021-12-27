@@ -1,0 +1,5 @@
+site_name: Admin Manual
+
+nav:
+  - Das konfigurieren: "this.md"
+  - und das nicht: "that.md"
