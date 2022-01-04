@@ -21,15 +21,20 @@ The OpenOlat documentation is based on MkDocs using the material theme and some 
 	- Page files are located in `/docs/` folder within the site
 	- For more info see the [monorepo plugin docu](https://github.com/backstage/mkdocs-monorepo-plugin)
 - i18n
-	- Normal `xyz.md` files are in DE (default)
-	- The corresponding EN version have the `xyz.en.md` file ending
+	- Normal `xyz.md` files are in EN (default) since not all spaces are available in all languages
+	- The corresponding DE version have the `xyz.de.md` file ending
 	- The same file pattern applies to images as well.
 	- For more info see the [static i18n plugin docu](https://github.com/ultrabug/mkdocs-static-i18n)
 
 
 ## Referencing from OpenOlat
 
-OpenOlat uses the page URL including anchors to link to specific areas of the documentation. Thus, changing page names and anchors must be modified in sync with the corresponding references within the OpenOlat code. The URL is derived from the page file name: `about.md` will lead to the URL `..../about/`
+OpenOlat uses the page URL including anchors to link to specific areas of the documentation. Thus, changing page names and anchors must be modified in sync with the corresponding references within the OpenOlat code. The URL is derived from the page file name: `about.md` will lead to the URL `..../about/`. 
+
+Normally markdown generates HTML anchors for each title element automatically. This is unhandy when writing a multi-language documentation where not only the link to pages but also the link to the dedicated chapter in the page must be linkable from OpenOlat. Thus, the anchors must be set explicitly using the `attr-listattr-list` markdown extension:
+ 
+	# This is a title {: #this-is-the-anchor-to-this-title }
+ 
 
 The hierarchical structure of URL's is defined in the `mkdocs.yml` file. 
 

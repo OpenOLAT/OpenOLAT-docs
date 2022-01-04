@@ -1,14 +1,13 @@
 ![Logo: OpenOlat – infinite learning](assets/OpenOlat_Logo_claim_RGB.png)
 
-# Willkommen zur OpenOlat Dokumentation
+# Welcome to the OpenOlat manual
 
-Informationen betreffend OpenOlat, seiner Funktionen und neuesten Änderungen finden Sie hier. Wählen Sie aus der Bereichsliste das Handbuch, das der Version ihres LMS entspricht.
-
+Find information on OpenOlat, its features and latest changes here. Navigate in the spaces overview to the manual corresponding to the version of your LMS.
 ##Aktuelle Version:
 
-- [Release Notes 16.1](/release-notes/16.1/)
-- [OpenOlat Benutzerhandbuch](/user-manual/)
+- [Release notes 16.1](/release-notes/16.1/)
+- [OpenOlat User Manual](/user-manual/)
 
 
-
-> Mit dem Prädikat "Sehr gut" hat das renommierte eLearning-Journal die Open Source Lernplattform OpenOlat erneut umfangreich getestet. Dabei wurden die neuen Funktionen des Releases 14 wie Curriculum, Organisationseinheiten und Qualitätsmanagement sowie der Lernpfad in Release 15 im Detail angeschaut und bewertet. Besonders hervorgehoben wurde der grosse Funktionsumfang der Lernplattform.
+[![eLearning-Journal OpenOlat test tesult: very good](assets/frentix - Testsiegel_2020.png)](assets/eLJ12020_TEST_Frentix.pdf)
+> With the rating "Very good", the renowned eLearning Journal has once again extensively tested the open source learning platform OpenOlat. The new features of Release 14 such as curriculum, organizational units and quality management as well as the learning path in Release 15 were examined and evaluated in detail. The large range of functions of the learning platform was especially emphasized.

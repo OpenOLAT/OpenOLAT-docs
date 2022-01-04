@@ -1,6 +1,6 @@
 # Non mihi domo gradere
 
-## Theseus utque etiam natos Carpathius posset corpore {: #gugus }
+## Theseus utque etiam natos Carpathius posset corpore
 
 Lorem markdownum si colle enim Cnosiacaeque filia discrimine *et* quae! Nonam
 tollensque iam tunc aversos, suem Perseu si at timeas! Lambebat conpellat ferax.
@@ -14,7 +14,7 @@ maiestatemque cuncta novis Hic.
 > aevum volucrem. Illac idque iam, ambo, Pygmalion viribus luctus et **per**
 > deum, tulit vires alii, fore mentitur.
 
-## Quas quid Hyantea ubi petit frementis Echo {: #gugus2}
+## Quas quid Hyantea ubi petit frementis Echo
 
 Voces squalentia suos Agenorides esse aeratas restitit, aequora. Smilace vidi:
 dum solutis mergor **faciemque vento**. Est tacito spem pasci: Elis: [deos Panes

@@ -1,5 +1,5 @@
 site_name: OpenOlat Documentation
-site_url: https://www.openolat.org
+site_url: https://docs.openolat.org
 
 theme:
   name: material
@@ -22,9 +22,11 @@ theme:
     - navigation.tracking
     - navigation.tabs
     - navigation.top
+    - navigation.sections
     
-#markdown_extensions:
-#  - meta
+markdown_extensions:
+  - meta
+  - attr_list
 
 #include_homepage_in_sidebar: false
 #prev_next_buttons_location: none
@@ -34,18 +36,31 @@ theme:
 #sticky_navigation: false
 
 plugins:
+  - monorepo
+  - search
   - i18n:
-      default_language: de
+      default_language: en
       languages:
         de: Deutsch
         en: English
-  - monorepo
-  - search
-  
+      nav_translations:
+        de:
+          Start: Start
+          Overview: Übersicht
+          Imprint: Impressum
+          License: Lizenz
+          Release notes: Release Notes
+          User manual: Benutzerhandbuch
+          Admin manual: Administrationshandbuch
+          Developer cookbook: Developer Cookbook
+          
 nav:
-  - Übersicht: index.md
-  - Release Notes: '!include ./sites/release_notes/mkdocs.yml'
-  - Benutzerhandbuch: '!include ./sites/manual_user/mkdocs.yml' 
-  - Administration: '!include ./sites/manual_admin/mkdocs.yml' 
-  - Impressum: imprint.md
+  - Start: 
+    - Overview: index.md
+    - Imprint: imprint.md
+    - License: license.md
+  - Release notes: '!include ./sites/release_notes/mkdocs.yml'
+  - User manual: '!include ./sites/manual_user/mkdocs.yml' 
+  - Admin manual: '!include ./sites/manual_admin/mkdocs.yml' 
+  - Developer cookbook: '!include ./sites/manual_dev/mkdocs.yml' 
 
