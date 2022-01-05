@@ -9,7 +9,7 @@ The OpenOlat documentation is based on MkDocs using the material theme and some 
 - [https://github.com/ultrabug/mkdocs-static-i18n](https://github.com/ultrabug/mkdocs-static-i18n)
 
 
-## Document structure
+## File structure
 
 - Landing page:
 	- The page structure is defined in the `mkdocs.yml` file within the space
@@ -44,30 +44,43 @@ The hierarchical structure of URL's is defined in the `mkdocs.yml` file.
 The manual is published from the GIT master version on the server in the `/current/` directory. Whenever a new main OpenOlat version is published, the documentation is tagged with the same tag and a branch is created. This docu branch is then published in a version directory like `16.1`.
 
 
-## Install docu development environment
+## Working on the documentation
+
+
+### Install docu development environment
 
 MkDocs uses the Python programming language. You first need to install python3 and pip3 to use MkDocs. 
 
 *MacOS*: there are several ways to to install MkDocs on MacOS, one simple ways is to use the brew package manager. 
 To continue you must first install [brew](https://brew.sh).    
 
+	# Basic Python 3 installation
 	brew install python
+	
+	# Install MkDocs
+	pip3 install mkdocs
 
-1. Install MkDocs   
-
-	pip3 install mkdocs  
-
-2. Install MkDocs theme  
-
+	#Install MkDocs theme and plugins
 	pip3 install mkdocs-material
-
-2. Install MkDocs plugins  
-
 	pip3 install mkdocs-monorepo-plugin   
 	pip3 install mkdocs-static-i18n
 
 
-## Local development
+### Editors
+
+Any Markdown editor can be used. 
+
+On the Mac the macdown tool is pretty handy and simple to install:
+
+	brew install --cask macdown
+	open -a MacDown
+
+### Repository access
+
+TBD
+
+
+### Local preview
 
 When editing the files it is recommended to start a local server to preview the changes. The server reloads the pages on every change.
 
@@ -77,7 +90,7 @@ When editing the files it is recommended to start a local server to preview the 
 Now open [http://127.0.0.1:8000/](http://127.0.0.1:8000/) in your browser to navigate and preview. 
 
 
-## Export site as static HTML files
+### Export site as static HTML files
 
 For publishing the documentation, compile it and publish it on your server. 
 
