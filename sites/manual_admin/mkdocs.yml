@@ -1,5 +1,17 @@
 site_name: Admin Manual
 
 nav:
-  - Das konfigurieren: "this.md"
-  - und das nicht: "that.md"
+  - Installation:
+    - Installation guide: "installation/installGuide.md"
+    - Update guide: "installation/updateGuide.md"
+    - Special topics:
+      - MySQL DB: "installation/mysql.md"
+      - Windows support: "installation/windows.md"
+
+      
+
+# TODO
+# - hardware requirements
+# - Shibboleth
+# - services: handbrake, imagemagik, athenapdf, covid-cert
+# - addons: hints to bbb, onlyoffice...
