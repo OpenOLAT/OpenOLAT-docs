@@ -64,3 +64,15 @@ As a general rule, a layout should contain a single primary button that makes it
 When using multiple buttons, the position of the primary button is the most important part. To sum up, a primary button will be left-aligned and positioned to the left of the secondary/tertiary button.
 
 If the Model is right aligned, the primary button will be right-aligned and appear to the right of the secondary/tertiary button.
+
+
+## Switch
+2 States, changes are applied instant.
+
+### Examples
+
+### Structure
+
+### Guidelines
+
+Cannot be used for states, in wich you need to save something.
