@@ -2,9 +2,10 @@ site_name: Developer Manual
 
 nav:
   - Developer installation:
-    - Components: "ux/components.md"
+    - Testseite: "Testseite.md"
   - Architecture:
-    - Components: "ux/components.md"
+    - Testseite: "Testseite.md"
   - UX Guidelines:
     - Components: "ux/components.md"
+    - Elements: "ux/elements.md"
     - Patterns: "ux/patterns.md"

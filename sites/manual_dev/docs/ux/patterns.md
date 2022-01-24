@@ -1,10 +1,8 @@
-# Non mihi domo gradere
+# Unter Bearbeitung
 
 ## Theseus utque etiam natos Carpathius posset corpore
 
-Lorem markdownum si colle enim Cnosiacaeque filia discrimine *et* quae! Nonam
-tollensque iam tunc aversos, suem Perseu si at timeas! Lambebat conpellat ferax.
-Dei mors virginei non quae desertaque onus et *vicit* lacerto ille.
+Hier kommen die generellen Muster und Ideen hin, wie man z.b. ein Dialog oder eine Toolbar in OpenOlat baut.
 
 Cum nudis, sit roboris hoc luna voluisti sacra ponto fluminea *frondes inferius
 fusus*; placidi obscena, tamen. Suus mutare primumque labore occupat mors
