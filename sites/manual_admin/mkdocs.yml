@@ -8,6 +8,55 @@ nav:
       - MySQL DB: "installation/mysql.md"
       - Windows support: "installation/windows.md"
 
+  - Administration:
+    - System: "administration/System.md"
+    - Core functions:
+      - Core functions: "administration/Core_functions.md"
+      - REST API: "administration/REST_API.md"
+      - Landing pages: "administration/Landing_pages.md"
+      - E-Mail Settings: "administration/E-Mail_Settings.md"
+      - Files and Folders: "administration/Files_and_Folders.md"
+      - WebDAV: "administration/WebDAV.md"
+      - Licenses: "administration/Licenses.md"
+    - Login:
+      - Login: "administration/Login.md"
+      - Security: "administration/Security.md"
+      - Guest and invitation: "administration/Guest_and_invitation.md"
+    - Modules:
+      - Modules: "administration/Modules.md"
+      - Modules Contact Tracing: "administration/Modules_Contact_Tracing.md"
+      - Modules Document pool: "administration/Modules_Document_pool.md"
+      - Modules Taxonomy: "administration/Modules_Taxonomy.md"
+      - Lektionen: "administration/Lecture_and_roll_call_management.md"
+      - Modules Organisations: "administration/Modules_Organisations.md"
+      - Modules Curriculum: "administration/Modules_Curriculum.md"
+      - Instant Messaging: "administration/Instant_Messaging.md"
+    - Lebenszyklen:
+      - Lebenszyklen : "administration/Life_cycles_-_Administration.md"
+      - Automatic Group Lifecycle: "administration/Automatic_Group_Lifecycle.md"
+    - Payment modules:
+      - Payment modules: "administration/Payment_modules.md"
+      - PayPal Configuration: "administration/PayPal_Configuration.md"
+    - Reports: "administration/Reports.md"
+    - e-Assessment Administration:
+      - e-Assessment Administration: "administration/e-Assessment_Administration.md"
+      - eAssessment ePortfolio: "administration/eAssessment_ePortfolio.md"
+      - eAssessment Question bank: "administration/eAssessment_Question_bank.md"
+    - External tools :
+      - External tools : "administration/External_Tools_-_Administration.md"
+      - BigBlueButton module: "administration/BigBlueButton_module.md"
+      - Analytics module: "administration/Analytics_module.md"
+    - Customizing: "administration/Customizing.md"
+
+  - User management:
+    - User management: "administration/User_management.md"
+    - Create User: "administration/Create_User.md"
+    - Assign roles: "administration/Assign_roles.md"
+    - Configure User: "administration/Configure_User.md"
+    - Data protection: "administration/Data_protection.md"
+
+
+
       
 
 # TODO

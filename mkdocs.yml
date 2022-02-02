@@ -53,6 +53,221 @@ plugins:
           User manual: Benutzerhandbuch
           Admin manual: Administrationshandbuch
           Developer cookbook: Developer Cookbook
+          Introduction : Einführung
+          General Information on this Learning Platform : Allgemeines zur Lernplattform
+          Information on OpenOlat : Informationen zu OpenOlat
+          Requirements when Working with OpenOlat : Voraussetzungen für die Arbeit mit OpenOlat
+          The Idea of Open-Source Software : Der Open-Source-Gedanke
+          Technology and Navigation : Technologie und Navigation
+          Roles and Rights : Rollen und Rechte
+          Coach : Betreuer
+          Guest access : Gastzugang
+          Registration, Login and Logout : Registrierung, Login und Logout
+          Login Page : Login-Seite
+          Session Timeout and Logout : Session-Timeout und Logout
+          Personal menu and general components : Persönliches Menü und allgemeine Funktionen
+          Personal Menu : Persönliche Werkzeuge
+          Calendar : Kalender
+          Personal folders : Persönliche Ordner
+          E-Mail : E-Mail
+          Configuration : Konfiguration
+          COVID certificate : COVID Zertifikat
+          Full-Text Search : Volltextsuche
+          Chat : Chat
+          Portal configuration : Portal konfigurieren
+          Math formula : Mathematische Formel
+          Working with tables : mit Tabellen arbeiten
+          Groups : Gruppen
+          Create Groups : Gruppen erstellen
+          Group Administration : Gruppenadministration
+          Using Group Tools : Gruppenwerkzeuge nutzen
+          Group Management : Gruppenverwaltung
+          Courses and Catalog : Kurse und Katalog
+          Finding courses : Kurse finden
+          Info page : Infoseite
+          Learning Activities in Courses : Lernaktivitäten im Kurs
+          Working With Course Elements : Arbeiten mit Kursbausteinen
+          Working with Tasks and Group Tasks : Arbeiten mit Foren
+          Working with Tests : Arbeiten mit der Themenvergabe
+          Working with Topic Assignment : Arbeiten mit Tests
+          Working with Wiki : Arbeiten mit Wiki
+          Additional Course Features : Zusätzliche Kursfunktionen
+          Exams : Prüfungen
+          Course Problems and Error Messages : Probleme und Fehlermeldungen im Kurs
+          Authoring : Autorenbereich
+          Various Types of Learning Resources : Verschiedene Typen von Lernressourcen
+          Actions in the Authoring section : Aktionen im Autorenbereich
+          Detailed View of Learning Resources : Detailansicht einer Lernressource
+          Set up info page : Infoseite einrichten
+          Technical Information on Resources and Usage : Automatische Informationen zur Lernressource
+          Creating Courses : Kurs erstellen
+          General Information : Allgemeines
+          In Five Steps to Your Course With the Course Editor : Mit dem Kurseditor in fünf Schritten zu Ihrem OpenOlat-Kurs
+          Just a Few Clicks and the Course Wizard Will Create Your OpenOlat Course : Mit dem Kursassistenten in wenigen Mausklicks zu Ihrem OpenOlat-Kurs
+          Lernpfad Kurs  : Lernpfad Kurs
+          Creating learning path courses : Lernpfad Kurse erstellen
+          Lernpfad Kurs  : Lernpfad Kurs
+          Lernpfad Kurse  : Lernpfad Kurse
+          General Configuration of Course Elements : Allgemeine Konfiguration von Kursbausteinen
+          Deleting, Moving and Copying Course Elements : Löschen, Verschieben und Kopieren von Kursbausteinen
+          Access Restrictions in the Expert Mode : Zugriffsbeschränkungen im Expertenmodus
+          Using additional Course Editor Tools : Verwendung weiterer Kurseditorwerkzeuge
+          Course Settings : Kurseinstellungen
+          Design possibilities of courses and course elements : Gestalterische Möglichkeiten von Kursen und Kursbausteinen
+          Access configuration : Zugangskonfiguration
+          Types of Course Element : Kursbausteine
+          Knowledge Transfer : Wissensvermittlung
+          Course Element Folder : Kursbaustein Ordner
+          Course Element Single Page : Kursbaustein Einzelne Seite
+          Course Element SCORM Learning Content : Kursbaustein SCORM-Lerninhalt
+          Course Element card2brain Flashcards : Kursbaustein card2brain Lernkarten
+          Assessment : Wissensüberprüfung
+          Course Element Assessment : Kursbaustein Bewertung
+          Course Element Checklist : Kursbaustein Checkliste
+          Communication and Collaboration : Kommunikation und Kollaboration
+          Virtual classrooms : Virtuelle Klassenzimmer
+          Course element BigBlueButton : Kursbaustein BigBlueButton
+          Häufig gestellte Fragen  : Häufig gestellte Fragen
+          Course element GoToMeeting : Kursbaustein GoToMeeting
+          Course element OpenMeetings : Kursbaustein OpenMeetings
+          Course element vitero : Kursbaustein vitero
+          Course element Microsoft Teams : Kursbaustein Microsoft Teams
+          Administration and Organisation : Verwaltung und Organisation
+          Other : Andere
+          Course Operation : Kursbetrieb
+          Using Course Tools : Einsatz der Kurswerkzeuge
+          Members management : Mitgliederverwaltung
+          Storage folder : Ablageordner
+          Bewertungswerkzeug  : Bewertungswerkzeug
+          Bewertungswerkzeug  : Bewertungswerkzeug
+          Assessment of learners : Lernende bewerten
+          Assessment of course modules : Bewertung von Kursbausteinen
+          Assessing tasks and group tasks : Aufgaben und Gruppenaufgaben bewerten
+          Assessing tests : Tests bewerten
+          The assessment form : Das Bewertungsformular
+          Lectures and absences : Lektionen und Absenzen
+          Lektionen  : Lektionen
+          Lektionen  : Lektionen
+          Course Reminders : Erinnerung
+          Data archiving : Datenarchivierung
+          Record of Course Activities : Aufzeichnung der Kursaktivitäten
+          Using Additional Course Features : Einsatz weiterer Kursfunktionen der Toolbar
+          How-to : How-to
+          create a bulk assessment for submission tasks : eine Massenbewertung für Einsendeaufgaben erstellen
+          customize the course design with CSS (Expert) : Kursdesign mittels CSS manipulieren (Expert)
+          use the same files in several courses : dieselben Dateien in mehreren Kursen einsetzen
+          eAssessment : Online Prüfungen
+          Assessment mode : Prüfungsmodus
+          Performance assessment : Leistungsbewertung
+          Coaching : Coaching
+          Creating CP Learning Content : CP-Lerninhalt erstellen
+          In Five Steps to Your Content Package : Fünf Schritte zu Ihrem Content-Packaging
+          CP Editor : CP Editor
+          Creating Wikis : Wiki erstellen
+          Four Steps to Your Wiki : Vier Schritte zu Ihrem Wiki
+          Creating Videos : Video erstellen
+          Learning resource Video : Lernressource Video
+          Course Element_Video : Kursbaustein Video einrichten
+          Single Page_Add_edit video : Einzelne Seite_Video hinzufügen_editieren
+          Video Upload : Video hochladen
+          Creating Podcasts : Podcast erstellen
+          Four Steps to Your Podcast : Vier Schritte zu Ihrem Podcast
+          Podcast  : Podcast
+          Creating Blogs : Blog erstellen
+          Four Steps to Your Blog : Vier Schritte zu Ihrem Blog
+          Blog  : Blog
+          Creating Tasks : Aufgabe erstellen
+          Three Steps to Your Task : Drei Schritte zu Ihrer Aufgabe
+          Aufgabe  : Aufgabe
+          Assess tasks : Aufgaben bewerten
+          Creating Portfolios : Portfolio erstellen
+          Portfolio - General Information : Allgemeines zum Portfolio
+          Components of the portfolio : Bestandteile des Portfolios
+          My portfolio binders : Meine Portfolio Mappen
+          My entries : Meine Einträge
+          Media center : Mediathek
+          Shared by me : Von mir freigegeben
+          Shared with me : An mich freigegeben
+          Three steps to your portfolio binder : Drei Schritte zu Ihrer Mappe
+          The portfolio editor : Der Portfolio Editor
+          Multiple use of entries : Mehrfachverwendung von Einträgen
+          Competences tags : Kompetenzen verschlagworten
+          Process of an assessment portfolio : Prozess eines Bewertungsportfolios
+          Portfolio template Creation : Portfoliovorlage Erstellung
+          Portfolio template Administration and editing : Portfoliovorlage Administration und Bearbeitung
+          Creating Portfolio Tasks : Portfolioaufgabe erstellen
+          Portfolio task and assignment Collecting and editing : Portfolioaufgabe abholen und bearbeiten
+          Portfolio assignment Grading : Portfolioaufgabe kommentieren und bewerten
+          Managing Topics of Topic Assignments : Themen einer Themenvergabe verwalten
+          Three Steps to Create and Manage Topics : Drei Schritte zur Erstellung und Verwaltung von Themen
+          Creating Forms : Formulare erstellen
+          General information on Forms : Allgemeines zu Formularen
+          Three Steps to your Form : Drei Schritte zu Ihrem Formular
+          Form editor (Questionnaire editor) : Formular Editor
+          Rubric : Rubrik
+          Question rules : Frageregeln
+          Forms in Courses : Formulare in Kursen
+          Forms in Forms Element : Formular in Formularen
+          Forms in Questionnaires : Formular in Umfragen
+          Forms in Rubric Scoring : Formular als Rubrik Bewertung
+          Forms in the ePortfolio template : Formular in der Portfolio 2.0 Vorlage
+          Creating Tests : Tests erstellen
+          General Information on Tests : Allgemeines zu Tests
+          Four Steps to Your Test or Self-test : Vier Schritte zu Ihrem Test oder Selbsttest
+          Test editor QTI 2.1 : Testeditor
+          Test question types : Test Fragetypen
+          Configure test questions : Test Fragen konfigurieren
+          Configure tests : Test konfigurieren
+          Test settings : Test Einstellungen
+          Tests at course level : Tests auf Kursebene
+          Question Bank : Fragenpool
+          Data Management : Handhabung der Daten
+          Item Detailed View : Detailansicht einer Frage
+          Question bank possible operations : Mögliche Aktionen im Fragenpool
+          Search : Suchfunktion
+          Question Pool Sharing Options : Fragenpool Freigabemöglichkeiten
+          Question Bank Review Process : Fragenpool Beurteilungsprozess
+          Question Bank Administration : Fragenpool Administration
+          Curriculum Management : Curriculumverwaltung
+          Supported Technologies : Unterstützende Technologien
+          Using WebDAV : Einsatz von WebDAV
+          Administration : Administration
+          System : System
+          Core functions : Core Konfiguration
+          REST API : REST API
+          Landing pages : Startseite
+          E-Mail Settings : E-Mail Einstellungen
+          Files and Folders : Dateien und Ordner
+          WebDAV : WebDAV
+          Licenses : Lizenzen
+          Login : Login
+          Security : Sicherheit
+          Guest and invitation : Gast und Einladung
+          Modules : Module
+          Modules Contact Tracing : Modul Kontaktverfolgung
+          Modules Document pool : Modules Dokumentenpool
+          Modules Taxonomy : Modules Taxonomie
+          Lektionen : Lektionen
+          Modules Organisations : Modules Organisationen
+          Modules Curriculum : Modul Curriculum
+          Instant Messaging : Instant Messaging
+          Lebenszyklen  : Lebenszyklen
+          Automatic Group Lifecycle : Automatischer Gruppenlebenszyklus
+          Payment modules : Bezahlungsmodule
+          PayPal Configuration : PayPal Konfiguration
+          Reports : Reports
+          e-Assessment Administration : e-Assessment Administration
+          eAssessment ePortfolio : e-Assessment ePortfolio
+          eAssessment Question bank : e-Assessment Fragenpool
+          Externe Werkzeuge  : Externe Werkzeuge
+          BigBlueButton module : Modul BigBlueButton
+          Analytics module : Analytics Modul
+          Customizing : Customizing
+          User management : Benutzerverwaltung
+          Create User : Benutzer erstellen
+          Assign roles : Rollen zuweisen
+          Configure User : Benutzer konfigurieren
+          Data protection : Datenschutz
           
 nav:
   - Start: 
