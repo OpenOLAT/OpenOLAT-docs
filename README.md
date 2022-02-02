@@ -97,4 +97,4 @@ For publishing the documentation, compile it and publish it on your server.
 	cd OpenOLAT-docs
 	python3 -m mkdocs build
 	cd site
-	scp -r ??* www@yourserver:/path/to/your/webserver/docroot/.
+	scp -r ??* oodocs@docs.openolat.org:/home/oodocs/html/.
