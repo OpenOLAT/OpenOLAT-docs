@@ -360,7 +360,8 @@ participants have to be accepted by the topic author you will see on the home
 page of topic assignments the note "Check participant" in a table as soon as
 somebody has applied for your topic.
 
-![](../../download/attachments/108600600/Topic_Assignement_TN_EN.png)![](../../download/attachments/108600600/Topic_Assignement_TN2_EN.png)
+![](../../download/attachments/108600600/Topic_Assignement_TN_EN.png)
+![](../../download/attachments/108600600/Topic_Assignement_TN2_EN.png)
 
 Now open the tab "Topic assignment" and accept the application of your
 candidate(s).

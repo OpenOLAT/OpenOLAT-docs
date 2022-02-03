@@ -1,6 +1,6 @@
 #  [Release Notes 15.5](Release+Notes+15.5.html)
 
-Mit OpenOlat 16.1 geben wir unseren nächsten Major Release frei.
+
 
 Mit der neuen **LTI 1.3-Integration (BETA-Stadium!)** können zum Beispiel
 h5p-Inhalte von [h5p.com](https://h5p.com/), oder auch Gruppen und Kurse von
@@ -29,9 +29,9 @@ OpenOlat hinzugefügt. Hier finden Sie die wichtigsten neuen Funktionen und
 der Änderungen in 15.4 – 15.4.7 finden Sie
 [hier](Release+Notes+15.4.html#ReleaseNotes15.4-ReleaseNotes-Versionen).
 
-![](../../download/attachments/108593515/Features_Improvements_Labels_DE.png)
+![](assets/155/Features_Improvements_Labels_DE.png)
 
-![](../../download/attachments/108593515/press-release-15.5.png)
+![](assets/155/press-release-15.5.png)
 
 Releasedatum: 07.05.2021
 
@@ -62,7 +62,7 @@ Letzte Veröffentlichung: 10.12.2021
 
   
 
-# Formular Erweiterungen
+## Formular Erweiterungen
 
 **Der Fragebogen heisst jetzt Formular!**
 
@@ -90,7 +90,7 @@ einzelnen Elemente **dupliziert** werden. Dies ist besonders hilfreich, wenn
 viele ähnlich konfigurierte Elemente (z. B. gleiche Fragetypen mit gleicher
 Struktur und Skala) verwendet werden.
 
-![](../../download/attachments/108593515/Frageregeln%20DE.png)
+![](assets/155/Frageregeln%20DE.png)
 
   
 
@@ -98,7 +98,7 @@ Struktur und Skala) verwendet werden.
 
   
 
-# Kursbaustein Formular
+## Kursbaustein Formular
 
 Wo Anmeldungen für Wahlkurse oder Prüfungen mit dem Umfragebaustein nur
 bedingt abzubilden sind, können diese und weitere Szenarien mit dem neuen
@@ -123,7 +123,7 @@ Excel-Export zur Verfügung.
 
   
 
-![](../../download/attachments/108593515/FormularKBS%20DE.png)
+![](assets/155/FormularKBS%20DE.png)
 
   
 
@@ -131,12 +131,12 @@ Excel-Export zur Verfügung.
 
   
 
-# Aufgabenbaustein
+## Aufgabenbaustein
 
 Mit der Einbindung und Aktivierung der Dokumenten-Editoren ergeben sich auch
 am Aufgabenbaustein neue Möglichkeiten.
 
-### Ansicht Teilnehmende
+#### Ansicht Teilnehmende
 
 Zum einen wurde eine Option ergänzt, um eine **Aufgabenstellung als Vorlage**
 für die Teilnehmenden bereitzustellen, beispielsweise eine vorbereitete Excel-
@@ -144,16 +144,16 @@ oder Word-Datei. Bei Auswahl der Aufgabenstellung durch Teilnehmende wird eine
 Kopie des Aufgabendokumentes erzeugt und zur **Bearbeitung direkt im Browser**
 geöffnet.
 
-![](../../download/attachments/108593515/Aufgabenstellung_DE.png)
+![](assets/155/Aufgabenstellung_DE.png)
 
-### Ansicht Betreuende
+#### Ansicht Betreuende
 
 Zum anderen können eingereichte **Lösungsdokumente** der Teilnehmenden vom
 Betreuenden direkt im Browser geöffnet und **im Online-Editor korrigiert**
 werden. Die bearbeitete Version der Dokumente kann anschliessend zur weiteren
 Überarbeitung an den Teilnehmenden zurückgegeben werden.
 
-![](../../download/attachments/108593515/GTA%20feedback%20DE.png)
+![](assets/155/GTA%20feedback%20DE.png)
 
   
 
@@ -161,7 +161,7 @@ werden. Die bearbeitete Version der Dokumente kann anschliessend zur weiteren
 
   
 
-# QTI / eAssessment
+## QTI / eAssessment
 
 Für den Zugriff auf das Testcockpit und die Korrektur von Tests mussten
 Betreuende bisher ins Bewertungswerkzeug des Kurses wechseln. Bei Bausteinen
@@ -176,7 +176,7 @@ Ansicht gestartet bzw. beendet werden.
 
 In einem zweiten Tab wird eine Vorschau des Tests angeboten.
 
-![](../../download/attachments/108593515/Test%20direkt%20DE.png)
+![](assets/155/Test%20direkt%20DE.png)
 
 Enthält eine durchgeführte Online-Prüfung eine fehlerhafte Frage, ist meist
 eine **Anpassung der Punktzahl** bei allen Teilnehmenden gewünscht. Diese
@@ -191,7 +191,7 @@ Die Maximalpunktzahl der Frage kann dabei nicht überschritten werden.
 
   
 
-![](../../download/attachments/108593515/Bulk%20test%20DE.png)
+![](assets/155/Bulk%20test%20DE.png)
 
 Als Hilfestellung für Teilnehmende wird bei Freitext-Fragen unterhalb des
 Textfeldes die **aktuelle Wortanzahl** des bereits geschriebenen Textes
@@ -202,14 +202,14 @@ Die Anzeige ist ebenfalls im Bewertungswerkzeug im Korrekturworkflow
 verfügbar, um die Betreuenden bei der Bewertung der Freitext-Fragen zu
 unterstützen.
 
-![](../../download/attachments/108593515/Wortz%C3%A4hler%20DE.png)
+![](assets/155/Wortz%C3%A4hler%20DE.png)
 
 Der Fragetyp "Zeichnen" wurde komplett neu umgesetzt und um ein
 **Textwerkzeug** ergänzt. Eingefügte Texte können in Farbe und Grösse
 angepasst, gedreht sowie neu positioniert werden. Somit ist auch eine
 Beschriftung von Grafiken einfacher möglich.
 
-![](../../download/attachments/108593515/Drawing%20Interaction%20DE.png)
+![](assets/155/Drawing%20Interaction%20DE.png)
 
   
 
@@ -217,9 +217,9 @@ Beschriftung von Grafiken einfacher möglich.
 
   
 
-# Neue Features rund um Kurse
+## Neue Features rund um Kurse
 
-### Erweiterte Benutzerberechtigungen
+#### Erweiterte Benutzerberechtigungen
 
 Mit OpenOlat 15.0 wurden die Einstellungen der Benutzerrechte in
 Kursbausteinen (z.B. "Hochladen" im Kursbaustein "Ordner") aus dem Tab
@@ -232,7 +232,7 @@ ausserdem zeitlich zu begrenzen. Beim Wechsel zwischen der rollenbasierten und
 der erweiterten Konfiguration werden bestehende Einstellungen - soweit möglich
 - übernommen.
 
-![](../../download/attachments/108593515/User%20rigths%20DE.png)
+![](assets/155/User%20rigths%20DE.png)
 
 In Kursbausteinen, bei denen aufgrund der Abwärtskompatibilität noch die
 "alte" Konfiguration im Tab "Zugriff" verfügbar ist, wird auf die neue
@@ -241,9 +241,9 @@ Konfigurationsmöglichkeiten zu wechseln.
 
   
 
-![](../../download/attachments/108593515/Screenshot_2021-05-20_at_20_26_33.png)
+![](assets/155/Screenshot_2021-05-20_at_20_26_33.png)
 
-### Kursbaustein "Dokument": Verlinkung zu Ablageordner
+#### Kursbaustein "Dokument": Verlinkung zu Ablageordner
 
 Im Dokumentenbaustein kann ein Dokument aus dem Kurs-Ablageordner verlinkt
 werden. Dies ist zum Beispiel hilfreich, wenn ein Ressourcenordner im Kurs
@@ -252,7 +252,7 @@ enthält, die in mehreren Kursen eingesetzt werden.
 
   
 
-### Konfiguration für Prüfungsmodus im Prüfungskurs-Wizard
+#### Konfiguration für Prüfungsmodus im Prüfungskurs-Wizard
 
 Im Prüfungskurs-Wizard stehen weitere Einstellungen für den Prüfungsmodus zur
 Verfügung. So kann entschieden werden, ob überhaupt ein Prüfungsmodus
@@ -265,9 +265,9 @@ es lassen sich Vor- und Nachlaufzeiten definieren.
 
   
 
-# ePortfolio Erweiterungen
+## ePortfolio Erweiterungen
 
-### **Mehrfachnutzung von Einträgen**
+#### **Mehrfachnutzung von Einträgen**
 
 Einträge können ab sofort auch mehrfach in [verschiedenen ePortfolio-
 Mappen](../../pages/viewpage.action%EF%B9%96pageId=108593178.html) verwendet
@@ -281,9 +281,9 @@ Referenzierte Einträge werden als solche gekennzeichnet. Bei Änderung eines
 referenzierten Eintrags in einer Mappe wird dieser auch in allen anderen
 Mappen aktualisiert.
 
-![](../../download/attachments/108593515/eP%20Import%20DE.png)
+![](assets/155/eP%20Import%20DE.png)
 
-### **Verschlagwortung von Einträgen mit Kompetenzen (Taxonomie)**
+#### **Verschlagwortung von Einträgen mit Kompetenzen (Taxonomie)**
 
 Neu ist die Verknüpfung einer oder mehrere Taxonomien mit dem ePortfolio
 möglich. Innerhalb der Taxonomien können die Stufen als
@@ -296,7 +296,7 @@ Benutzer zusätzlich mit einem Verfallsdatum versehen werden.
 Eine Übersicht aller verwendeten Kompetenzen erhält der Benutzers im
 persönlichen Menü unter "Kompetenzen".
 
-![](../../download/attachments/108593515/eP%20Eintr%C3%A4ge%20DE.png)
+![](assets/155/eP%20Eintr%C3%A4ge%20DE.png)
 
   
 
@@ -312,7 +312,7 @@ freigegeben werden.
 
   
 
-# LTI 1.3 Beta
+## LTI 1.3 Beta
 
 Die **L** earning **T** ools **I** nteroperability (LTI) ist ein Standard zur
 Integration von Tools in Lernplattformen. OpenOlat unterstützt diesen Standard
@@ -356,7 +356,7 @@ Fragen oder Anregungen zu LTI 1.3 (auch beispielsweise interessanten LTI
 
   
 
-# Usability: Tabellen
+## Usability: Tabellen
 
 In diesem Release wurden vor allem **Neuerungen bei Tabellen** vorgenommen.
 
@@ -364,20 +364,20 @@ Mehr Informationen erhalten Benutzende durch die neuen spezifischen **"Empty
 States"** bei Tabellen, wenn keine Daten vorhanden sind. Ergänzende Aktionen
 unterstützen bei den nächsten Schritten.
 
-![](../../download/attachments/108593515/Empty%20State%20DE.png)
+![](assets/155/Empty%20State%20DE.png)
 
   
 
 Das **Zahnrad-Symbol** für weitere Aktionen am rechten Rand der Tabelle wurde
 beispielsweise durch das neue
-Icon![](../../download/attachments/108593515/Icon%20Aktionen.png) **ersetzt**.
+Icon![](assets/155/Icon%20Aktionen.png) **ersetzt**.
 Das ist nicht nur platzsparender, sondern auch weniger aufdringlich.
 
 Ein Refactoring wurde für die **Auswahl von Zeilen** in Tabellen durchgeführt.
 So können nun alle Einträge der Seite oder der gesamten Tabelle über die
 Checkbox oben links selektiert werden.
 
-![](../../download/attachments/108593515/UX_tabelle_DE.png)
+![](assets/155/UX_tabelle_DE.png)
 
   
 
@@ -385,7 +385,7 @@ Checkbox oben links selektiert werden.
 
   
 
-# Weiteres, kurz notiert
+## Weiteres, kurz notiert
 
   * Anzeige ausstehender Bestätigungen für Kurs- und Gruppenmitgliedschaften im Gruppenbereich (Screenshot)
   * Unterstützung mehrerer separater Anhänge für Kurs-Mitteilungen
@@ -397,7 +397,7 @@ Checkbox oben links selektiert werden.
   * Verbesserung Locking-Funktion und Metadatenanzeige von Dokumenten
   * Neue SCORM-Integration für die Einbindung von SCORM-Lernmodulen
 
-![](../../download/attachments/108593515/Best%C3%A4tigung%20Gruppe%20DE.png)
+![](assets/155/Best%C3%A4tigung%20Gruppe%20DE.png)
 
   
 
@@ -405,7 +405,7 @@ Checkbox oben links selektiert werden.
 
   
 
-# Ankündigung Support-Ende QTI 1.2
+## Ankündigung Support-Ende QTI 1.2
 
 Die Unterstützung für QTI 1.2 endet mit Release 16.0. Die Konvertierung von
 QTI 1.2 Fragen, Tests und Fragebögen ist dann nur noch über den Export auf
@@ -422,7 +422,7 @@ nicht unterstützt, diese müssen neu aufgebaut werden.
 
   
 
-# Technisches
+## Technisches
 
   * Umsetzung eines Tocco Login Providers
   * Unterstützung des automatischen Redirects beim Login für Keycloak und oAuth Provider
@@ -436,7 +436,7 @@ nicht unterstützt, diese müssen neu aufgebaut werden.
 
   
 
-# Release Notes - Versionen
+## Release Notes - Versionen
 
   * [15.5.14](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=17803)
   * [15.5.13](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=17801)
@@ -453,175 +453,4 @@ nicht unterstützt, diese müssen neu aufgebaut werden.
   * [15.5.2](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=17104)
   * [15.5.1](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=17102)
   * [15.5](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=17004)
-
-  
-
-  1. [OpenOlat 16.1 Benutzerhandbuch](../OO161DE.html)
-  2. [Seiten](https://confluence.openolat.org/collector/pages.action?key=OO161DE)
-  3. [OpenOlat 16.1 Benutzerhandbuch](OpenOLAT+16.1+Benutzerhandbuch.html)
-  4. [Release Notes](Release+Notes.html)
-  5. [Release Notes 15.5](Release+Notes+15.5.html)
-
-Sie sind nicht angemeldet. Ihre Änderungen werden mit anonym markiert. Sie
-sollten sich
-[anmelden](https://confluence.openolat.org/login.action?os_destination=%2Fdisplay%2FOO161DE%2FRelease%2BNotes%2B15.5),
-wenn Sie bereits über ein Konto verfügen.
-
-search
-
-attachments
-
-weblink
-
-advanced
-
-image-effects
-
-image-attributes
-
-  * Absatz
-    * Absatz
-    * Überschrift 1
-    * Überschrift 2
-    * Überschrift 3
-    * Überschrift 4
-    * Überschrift 5
-    * Überschrift 6
-    * Vorformatiert
-    * Zitat
-
-  * Fett
-  * Kursiv
-  * Unterstreichen
-  * Farbauswahl
-
-Weitere Farben
-
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-
-  * Formate
-
-    * Durchgestrichen 
-    * Tiefgestellt 
-    * Hochgestellt 
-    * Festbreitenschriftart 
-
-    * Formatierung zurücksetzen 
-
-  * Aufzählung
-  * Nummerierte Liste
-
-  * Aufgabenliste
-
-  * Einzug verkleinern
-  * Einzug vergrößern
-
-  * Linksbündig ausrichten
-  * Zentriert ausrichten
-  * Rechtsbündig ausrichten
-
-  * Seitenlayout
-
-  * Verknüpfung
-
-  * Tabelle
-
-  * Einfügen
-
-Inhalt einfügen
-
-    * Dateien und Bilder 
-    * Verknüpfung 
-    * Markup 
-    * Horizontale Trennlinie einfügen 
-    * Aufgabenliste 
-    * Datum 
-    * Emoticon 
-    * Sonderzeichen 
-Makro einfügen
-
-    * Benutzererwähnung 
-    * Jira-Vorgang/-Filter 
-    * Info 
-    * Status 
-    * Galerie 
-    * Inhalt 
-
-    * Andere Makros 
-
-  * Seitenlayout
-    * Kein Layout
-    * Zweispaltig (einfach)
-    * Zweispaltig (einfach, linke Randleiste)
-    * Zweispaltig (einfach, rechte Randleiste)
-    * Dreispaltig (einfach)
-    * Zweispaltig
-    * Zweispaltig (linke Randleiste)
-    * Zweispaltig (rechte Randleiste)
-    * Dreispaltig
-    * Dreispaltig (Randleisten links und rechts)
-
-  * Rückgängig
-  * Wiederholen
-
-  * Suchen/Ersetzen
-
-  * Hilfe für Tastenkombinationen
-
-Sie sind nicht angemeldet. Ihre Änderungen werden mit anonym markiert. Sie
-sollten sich
-[anmelden](https://confluence.openolat.org/login.action?os_destination=%2Fdisplay%2FOO161DE%2FRelease%2BNotes%2B15.5),
-wenn Sie bereits über ein Konto verfügen.
-
-Diese Seite wird auch von  bearbeitet. Ihre Änderungen werden mit seinen/ihren
-zusammengeführt, wenn Sie speichern.
-
-
-
-Bearbeiten
-
-Vorschau
-
-Speichern
-
-Schließen
 

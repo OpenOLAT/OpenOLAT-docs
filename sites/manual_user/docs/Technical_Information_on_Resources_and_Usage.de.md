@@ -11,7 +11,9 @@ geändert werden.
 
 Hier ein Überblick der Informationen:
 
-![](../../download/attachments/590041/Technische_Infos.png)![](../../download/attachments/590041/Infos_Verwerndung_test_autor.png)![](../../download/attachments/590041/Infos_meine_daten.png)
+![](../../download/attachments/590041/Technische_Infos.png)
+![](../../download/attachments/590041/Infos_Verwerndung_test_autor.png)
+![](../../download/attachments/590041/Infos_meine_daten.png)
 
 ### Technische Informationen
 

@@ -163,7 +163,8 @@ option allows you to see the effects directly. In this tab, you also determine
 whether the course element is displayed with the stored short title the (long)
 title or without title.  Here is an example:
 
-![](../../download/attachments/590041/Tab_Layouta.png)![](../../download/attachments/590041/Tab_Layoutb.png)
+![](../../download/attachments/590041/Tab_Layouta.png)
+![](../../download/attachments/590041/Tab_Layoutb.png)
 
   
 

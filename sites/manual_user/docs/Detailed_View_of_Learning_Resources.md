@@ -10,7 +10,8 @@ from both the learning resource and the information page.
 
 Examples of a course and a test toolbar:
 
-![](../../download/attachments/590936/administration_toolbar.png)![](../../download/attachments/590936/administration_test.png)
+![](../../download/attachments/590936/administration_toolbar.png)
+![](../../download/attachments/590936/administration_test.png)
 
 The "Administration" drop-down menu provides all the tools for configuring and
 setting up a learning resource and is quite extensive. Die genauen

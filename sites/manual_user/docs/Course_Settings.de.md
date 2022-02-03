@@ -9,13 +9,6 @@ Einstellungen von herkömmlichen und Lernpfad Kursen leicht.
 
   
 
-  
-
-  
-
-  
-
-  
 
 **Kurseinstellungen**
 
@@ -153,7 +146,8 @@ unterschiedliche Bedürfnisse eingestellt werden.
 
   
 
-![](../../download/attachments/108593388/LP%20und%20Icons%20DE.png)![](../../download/attachments/108593388/Kein%20LP%20und%20keine%20Icons.png)
+![](../../download/attachments/108593388/LP%20und%20Icons%20DE.png)
+![](../../download/attachments/108593388/Kein%20LP%20und%20keine%20Icons.png)
 
 ![](../../download/attachments/108593388/Navigation_Lernpfad.png)
 

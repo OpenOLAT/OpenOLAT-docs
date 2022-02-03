@@ -104,7 +104,8 @@ Wenn nicht die gesamte Gruppe bestanden hat oder nicht alle dieselbe Punktzahl
 erhalten sollen, darf "Für die ganze Gruppe" nicht ausgewählt sein. Dadurch
 wird eine individuelle Bewertung pro Benutzer möglich.
 
-![](../../download/attachments/590041/Gruppenbewertung_einzeln.png)![](../../download/attachments/590041/Gruppenbewertung1.png)
+![](../../download/attachments/590041/Gruppenbewertung_einzeln.png)
+![](../../download/attachments/590041/Gruppenbewertung1.png)
 
   
 

@@ -1,4 +1,4 @@
-#  [Release notes 16.0](Release+notes+16.0.html)
+# [Release notes 16.0](Release+notes+16.0.html)
 
 With OpenOlat 16.1 we release our next major release.
 
@@ -23,9 +23,9 @@ addition, more than 105 bugs have been fixed. The complete list of changes in
 15.5 - 15.5.6 can be found
 [here](Release+notes+15.5.html#Releasenotes15.5-Releasenotes-versions).
 
-![](../../download/attachments/108600552/Features_Improvements_Labels_EN.png)
+![](assets/160/Features_Improvements_Labels_EN.png)
 
-![](../../download/attachments/108600552/press-release-16.png)
+![](assets/160/press-release-16.png)
 
 Release date: 08-27-2021
 
@@ -55,7 +55,7 @@ Last update: 12-10-2021
 
   
 
-# 3G Covid certificate
+## 3G Covid certificate
 
 Proof of a [3G Covid certificate](COVID+certificate.html) can be stored in the
 user profile.
@@ -64,7 +64,7 @@ If the presentation is a prerequisite for attending an event, users can scan
 or upload a valid COVID certificate beforehand or manually add 3G data
 details.
 
-![](../../download/attachments/108600552/Bildschirmfoto%202021-10-01%20um%2017.01.19.png)
+![](assets/160/Bildschirmfoto%202021-10-01%20um%2017.01.19.png)
 
 No data is stored in the process, only the information is validated. The
 status of the certificate (green, yellow or red) can be called up by users in
@@ -84,9 +84,9 @@ module: [contact@frentix.com](mailto:contact@frentix.com)
 
   
 
-# Custom course layout, course element preview, and advanced metadata
+## Custom course layout, course element preview, and advanced metadata
 
-### Custom course layout
+#### Custom course layout
 
 In the Layout tab of the course settings, the default style for the header of
 the course elements can now be defined. With the selection of a **teaser
@@ -103,16 +103,16 @@ images or colors, or each element can be given its own specific header layout.
 
   
 
-![](../../download/attachments/108600552/Kurs%20Layout%20EN.png)
+![](assets/160/Kurs%20Layout%20EN.png)
 
-### Optimized course element preview
+#### Optimized course element preview
 
 The header design for course elements also results in an attractive design of
 the automatically generated overview pages at the top course node and at the
 structure element. These preview overviews have been adapted to the display of
 the course element layouts.
 
-### New metadata fields for course elements
+#### New metadata fields for course elements
 
 The description field for course elements is often not enough to include all
 the necessary information and to display them in a structured way for the
@@ -123,7 +123,7 @@ information on the **learning objectives** of the course element as well as
 same time, the display of the field contents in the course run has also been
 optimized.
 
-![](../../download/attachments/108600552/Kurslayout%20EN.png)
+![](assets/160/Kurslayout%20EN.png)
 
   
 
@@ -131,7 +131,7 @@ optimized.
 
   
 
-# Usability for tables
+## Usability for tables
 
 In Release 16.0, we have once again dedicated ourselves to the tables in
 OpenOlat and, in addition to minor visual adjustments, we primarily made the
@@ -139,7 +139,7 @@ filter and search function more compact.
 
   
 
-### Tabs, filter menu and search
+#### Tabs, filter menu and search
 
 The display above the tables has become slimmer. Instead of tabs, the previous
 areas are available as predefined filters. The new **dynamic filter function**
@@ -150,13 +150,13 @@ according to different criteria, individually or in combination.
 
 A full text search is available across the whole table.
 
-### Bulk actions
+#### Bulk actions
 
 For a reduced and clear display, mass actions for table data are now only
 shown if data is actually selected. Available mass actions then appear above
 the table.
 
-### Visual improvements
+#### Visual improvements
 
 For very wide tables that require horizontal scrolling, the left and/or right
 side is visually highlighted with a shadow to show that there are additional
@@ -166,7 +166,7 @@ horizontally. This way, both functions are always available.
 
 For visual support, selected columns are highlighted with color.
 
-![](../../download/attachments/108600552/Tabellenfilter%20EN.png)
+![](assets/160/Tabellenfilter%20EN.png)
 
   
 
@@ -174,7 +174,7 @@ For visual support, selected columns are highlighted with color.
 
   
 
-# Copy Wizard for learn path courses
+## Copy Wizard for learn path courses
 
 When copying courses, the requirements as to what exactly should and should
 not be copied are often very different. Once, for example, groups, folder
@@ -193,7 +193,7 @@ The Copy Wizard also allows you to **move existing dates** , such as course
 execution period, survey release date, or assignment submission deadlines, to
 specifically match these dates to a new course execution.
 
-![](../../download/attachments/108600552/CCW%20EN.png)
+![](assets/160/CCW%20EN.png)
 
   
 
@@ -201,7 +201,7 @@ specifically match these dates to a new course execution.
 
   
 
-# QTI: End of support for QTI 1.2
+## QTI: End of support for QTI 1.2
 
   
 
@@ -225,9 +225,9 @@ not supported, they have to be rebuilt.
 
   
 
-# QTI / eAssessment
+## QTI / eAssessment
 
-### Additions to question types
+#### Additions to question types
 
  **Essay**  questions have been equipped with an option to prevent copying and
 pasting text from external sources (office documents, web pages, chat
@@ -237,16 +237,16 @@ The question type **File Upload** now supports uploading of up to 10 separate
 files. The author can specify the maximum number of uploads allowed to answer
 the question.
 
-![](../../download/attachments/108600552/File%20UPload%20EN.png)
+![](assets/160/File%20UPload%20EN.png)
 
 In the question type **Hotspot** , the positioning of hotspots has been
 improved. Elements can now be copied and aligned horizontally or vertically
 via button. This makes creating identical shapes and visually appealing
 positioning quick and easy.
 
-![](../../download/attachments/108600552/HotSpot%20EN.png)
+![](assets/160/HotSpot%20EN.png)
 
-### Optimization of the displayed information about the test period
+#### Optimization of the displayed information about the test period
 
 Before and during the test, it is important for participants to be able to
 gather all necessary information about the test period and the current test
@@ -254,11 +254,11 @@ time as quickly as possible and at one glance. The display of time information
 has been extensively optimized in Release 16.0.
 
 **Display before test
-start**![](../../download/attachments/108600552/Testzeit%20Vor%20Start%20EN.png)
+start**![](assets/160/Testzeit%20Vor%20Start%20EN.png)
 
  **Displays during test execution**
 
- **![](../../download/attachments/108600552/Testrun%20Zeiten%20DE.png)**
+ **![](assets/160/Testrun%20Zeiten%20DE.png)**
 
   
 
@@ -266,11 +266,11 @@ start**![](../../download/attachments/108600552/Testzeit%20Vor%20Start%20EN.png)
 
   
 
-# Course reminders
+## Course reminders
 
   
 
-### Reminders at the course element
+#### Reminders at the course element
 
 Reminders at the course element  
 Reminders could previously be created via the course administration. This
@@ -286,9 +286,9 @@ respective course element type are available for selection.
 At the top course node all reminders are listed that are not bound to a
 specific course element. A log of already sent reminders is also available.
 
-![](../../download/attachments/108600552/Reminder%20am%20KBS%20EN.png)
+![](assets/160/Reminder%20am%20KBS%20EN.png)
 
-### Additional recipients
+#### Additional recipients
 
 Reminders are sent only to participants by default. In certain cases it is
 important to inform additional recipients about certain events. Optionally, a
@@ -296,12 +296,12 @@ copy of the reminder email can now also be sent to course owners, assigned
 coaches or an external mail address (e.g. secretary's office or
 administration).
 
-### Further improvements
+#### Further improvements
 
 The rule "Passed" has been extended to cover the state Not yet assessed in
 addition to Passed / Not passed.
 
-![](../../download/attachments/108600552/Reminder%20Zusatzmail%20EN.png)
+![](assets/160/Reminder%20Zusatzmail%20EN.png)
 
   
 
@@ -309,9 +309,9 @@ addition to Passed / Not passed.
 
   
 
-# Videos in OpenOlat
+## Videos in OpenOlat
 
-### Prevent fast-forwarding in videos
+#### Prevent fast-forwarding in videos
 
 This option in the **video course element** prevents participants from using
 the slider in the video navigation to fast-forward in the video. If the option
@@ -324,16 +324,16 @@ progress of the course element and is displayed in the learning path tool. If
 participants open the course element again and the video was not finished the
 first time, a continuation dialog appears.
 
-### Hide video title
+#### Hide video title
 
 Sometimes the display of the video title is not desired or not useful,
 therefore this can be activated or deactivated using a new option.
 
   
 
-![](../../download/attachments/108600552/Video_Vorspulen_EN.png)
+![](assets/160/Video_Vorspulen_EN.png)
 
-### Learning path: Watch video to the end
+#### Learning path: Watch video to the end
 
 Videos in the learning path previously had to be completed manually by
 participants. The information about how far participants have already watched
@@ -343,9 +343,9 @@ criteria** in the learning path. The criterion "video watched to the end
 
   
 
-![](../../download/attachments/108600552/Video%20erledigt%20EN.png)
+![](assets/160/Video%20erledigt%20EN.png)
 
-### Download video
+#### Download video
 
 A download button for locally stored video files has been added to the "Video"
 learning resource. If multiple transcodes are available, they are displayed in
@@ -357,7 +357,7 @@ a drop-down menu including the master file.
 
   
 
-# Other innovations regarding courses
+## Other innovations regarding courses
 
   * **Participant folder** : Show defined "time window for submission" of documents as information for participants
   *  **Task module** : configuration for administration of tasks and sample solutions by coaches placed centrally (screenshot)
@@ -368,7 +368,7 @@ a drop-down menu including the master file.
   * Selection of multiple files for final deletion in course folder added
   * Addition of didactic course types, visual identification in the course overview and on the course info page.
 
-![](../../download/attachments/108600552/GTA%20Konfig%20EN.png)
+![](assets/160/GTA%20Konfig%20EN.png)
 
   
 
@@ -376,14 +376,14 @@ a drop-down menu including the master file.
 
   
 
-# New in the learning path
+## New in the learning path
 
   * Completion criteria "E-mail sent" for course element "E-mail" (screenshot)
   * Course element-specific default values for completion criteria
   * Additional course navigation below the content
   * Manual assessment: Automatic status change "Correction" if participant access granted
 
-![](../../download/attachments/108600552/Mail%20Erledigt%20EN.png)
+![](assets/160/Mail%20Erledigt%20EN.png)
 
   
 
@@ -391,7 +391,7 @@ a drop-down menu including the master file.
 
   
 
-# BigBlueButton extensions
+## BigBlueButton extensions
 
 An existing meeting can be used as a **configuration template** for another
 one by copying it. The "Create Meeting" dialog will open and already contains
@@ -407,7 +407,7 @@ guest.
 In the list of recordings, the type "Download" is supported and indicated
 accordingly with its own icon.
 
-![](../../download/attachments/108600552/OO%20Authentifizerung%20DE.png)
+![](assets/160/OO%20Authentifizerung%20DE.png)
 
   
 
@@ -415,7 +415,7 @@ accordingly with its own icon.
 
   
 
-# Additional notes
+## Additional notes
 
   * Calendar:
     * Individual color customization of calendar entries (screenshot)
@@ -426,7 +426,7 @@ accordingly with its own icon.
   * Enhanced display of radio button as "card" for additional details, e.g. description and images
   * Send mail copy to user life-cycle mails to configurable mail address
 
-![](../../download/attachments/108600552/Kalender%20bunt%20EN.png)
+![](assets/160/Kalender%20bunt%20EN.png)
 
   
 
@@ -434,7 +434,7 @@ accordingly with its own icon.
 
   
 
-# Technical details
+## Technical details
 
   * LDAP: Support for fields containing multiple values
   * New technical implementation of the learning path progress bar based on SVG
@@ -447,7 +447,7 @@ accordingly with its own icon.
 
   
 
-# Release notes - versions
+## Release notes - versions
 
   * [16.0.7](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=17804)
   * [16.0.6](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=17800)

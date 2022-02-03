@@ -1,6 +1,6 @@
 #  [Release Notes 16.0](Release+Notes+16.0.html)
 
-Mit OpenOlat 16.1 geben wir unseren nächsten Major Release frei.
+
 
 Dieser bringt neue Gestaltungsmöglichkeiten am Kurs und in der
 **Kursvorschau** mit sich, **optimierte Usability** und flexiblere
@@ -25,9 +25,9 @@ OpenOlat hinzugefügt. Hier finden Sie die wichtigsten neuen Funktionen und
 Liste der Änderungen in 15.5 – 15.5.6 finden Sie
 [hier](Release+Notes+15.5.html#ReleaseNotes15.5-ReleaseNotes-Versionen).
 
-![](../../download/attachments/108593166/Features_Improvements_Labels_DE.png)
+![](assets/160/Features_Improvements_Labels_DE.png)
 
-![](../../download/attachments/108593166/press-release-16.png)
+![](assets/160/press-release-16.png)
 
 Releasedatum: 27.08.2021
 
@@ -61,7 +61,7 @@ Letztes Update: 10.12.2021
 
   
 
-# 3G-Covid-Zertifikat
+### 3G-Covid-Zertifikat
 
 Im Benutzerprofil kann der Nachweis über ein [3G-Covid-
 Zertifikat](COVID+Zertifikat.html) hinterlegt werden.
@@ -70,7 +70,7 @@ Ist die Vorlage Voraussetzung für den Besuch einer Veranstaltung, können
 Benutzer und Benutzerinnen vorher ein gültiges COVID-Zertifikat scannen oder
 hochladen bzw. manuell Angaben zu 3G-Daten hinzufügen.
 
-![](../../download/attachments/108593166/Bildschirmfoto%202021-10-01%20um%2017.01.19.png)
+![](assets/160/Bildschirmfoto%202021-10-01%20um%2017.01.19.png)
 
 Es werden dabei keine Daten gespeichert, sondern lediglich die Angaben
 validiert. Der Status des Zertifikats (grün, gelb oder rot) ist von den
@@ -90,9 +90,9 @@ Scan%20in%20OpenOlat)
 
   
 
-# Individuelles Kurslayout, Kursbaustein-Vorschau und erweiterte Metadaten
+### Individuelles Kurslayout, Kursbaustein-Vorschau und erweiterte Metadaten
 
-### Individuelles Kurslayout
+#### Individuelles Kurslayout
 
 Im Tab Layout der Kurseinstellungen kann neu der Standardstil für die
 Kopfzeile der Kursbausteine definiert werden. Mit der Auswahl eines
@@ -110,16 +110,16 @@ werden. So können bestimmte Kursbausteine mit anderen Bildern oder Farben
 ausgestattet werden oder auch jeder Baustein ein eigenes, spezifisches
 Kopfzeilen-Layout erhalten.
 
-![](../../download/attachments/108593166/Kurs%20Layout%20DE.png)
+![](assets/160/Kurs%20Layout%20DE.png)
 
-### Optimierte Kursbaustein-Vorschau
+#### Optimierte Kursbaustein-Vorschau
 
 Das Kopfzeilen-Design für Kursbausteine führt auch zu einer attraktiven
 Gestaltung der automatisch generierten Übersichtsseiten am obersten Kursknoten
 und am Strukturbaustein. Diese Vorschau-Übersichten wurden auf die Anzeige der
 Kursbaustein-Layouts abgestimmt.
 
-### Neue Metadatenfelder für Kursbausteine
+#### Neue Metadatenfelder für Kursbausteine
 
 Das Beschreibungsfeld bei Kursbausteinen ist oft nicht ausreichend, um alle
 notwendigen Informationen zu erfassen und diese für Teilnehmende strukturiert
@@ -129,7 +129,7 @@ der Bearbeitung des Bausteins anzugeben. Zusätzlich können  **Hinweise für de
 Betreuer** des Kurses vom Kursautor hinterlegt werden. Gleichzeitig wurde auch
 die Anzeige der Feldinhalte im Kursdurchlauf optimiert.
 
-![](../../download/attachments/108593166/Kurslayout%20DE.png)
+![](assets/160/Kurslayout%20DE.png)
 
   
 
@@ -137,7 +137,7 @@ die Anzeige der Feldinhalte im Kursdurchlauf optimiert.
 
   
 
-# Usability rund um Tabellen
+### Usability rund um Tabellen
 
 Im Release 16.0 haben wir uns erneut den Tabellen in OpenOlat gewidmet und
 neben kleineren visuellen Anpassungen vor allem die Filter- und Suchfunktion
@@ -145,7 +145,7 @@ kompakter gestaltet.
 
   
 
-### Tabs, Filtermenü und Suche
+#### Tabs, Filtermenü und Suche
 
 Die Anzeige oberhalb der Tabellen ist schlanker geworden. Anstelle der Tabs
 sind die bisherigen Bereiche als vordefinierte Filter verfügbar. Die neue
@@ -158,13 +158,13 @@ werden.
 
 Eine Volltextsuche steht übergreifend zur Verfügung.
 
-### Massenaktionen
+#### Massenaktionen
 
 Für eine reduzierte und übersichtliche Darstellung werden Massenaktionen für
 Tabellendaten nur noch angezeigt, wenn auch tatsächlich Daten selektiert sind.
 Verfügbare Massenaktionen erscheinen dann neu oberhalb der Tabelle.
 
-### Visuelle Verbesserungen
+#### Visuelle Verbesserungen
 
 Bei sehr breiten Tabellen, die ein horizontales Scrolling erfordern, wird die
 linke und/oder rechte Seite mit einem Schatten visuell hervorgehoben, um zu
@@ -175,7 +175,7 @@ verfügbar.
 
 Zur visuellen Unterstützung werden selektierte Spalten farblich hervorgehoben.
 
-![](../../download/attachments/108593166/Tabellenfilter%20DE.png)
+![](assets/160/Tabellenfilter%20DE.png)
 
   
 
@@ -183,7 +183,7 @@ Zur visuellen Unterstützung werden selektierte Spalten farblich hervorgehoben.
 
   
 
-# Kopie-Wizard für Lernpfadkurse
+### Kopie-Wizard für Lernpfadkurse
 
 Beim Kopieren von Kursen sind die Anforderungen, was genau kopiert werden soll
 und was nicht, oft sehr unterschiedlich. Einmal sollen beispielsweise Gruppen,
@@ -205,7 +205,7 @@ Datumsangaben**, wie z.B. Durchführungszeitraum des Kurses, Freigabedatum
 einer Umfrage oder Abgabefristen von Aufgaben, und somit die gezielte
 Anpassung dieser Daten an eine neue Kursdurchführung.
 
-![](../../download/attachments/108593166/CCW%20DE.png)
+![](assets/160/CCW%20DE.png)
 
   
 
@@ -213,7 +213,7 @@ Anpassung dieser Daten an eine neue Kursdurchführung.
 
   
 
-# QTI: Support-Ende QTI 1.2
+### QTI: Support-Ende QTI 1.2
 
 Wichtiger Hinweis
 
@@ -236,9 +236,9 @@ werden.
 
   
 
-# QTI / eAssessment
+### QTI / eAssessment
 
-### Ergänzungen in Fragetypen
+#### Ergänzungen in Fragetypen
 
  **Freitext** -Fragen wurden um eine Option erweitert, die das Kopieren und
 Einfügen von Texten aus externen Quellen (Office-Dokumente, Webseiten, Chat-
@@ -252,7 +252,7 @@ viele Uploads maximal zum Beantworten der Frage erlaubt sind.
 
   
 
-![](../../download/attachments/108593166/File%20UPload%20DE.png)
+![](assets/160/File%20UPload%20DE.png)
 
   
 
@@ -261,11 +261,11 @@ Elemente können nun über Button horizontal oder vertikal kopiert und
 ausgerichtet werden. Dadurch sind identische Formen und eine optisch
 ansprechende Positionierung schnell und einfach realisierbar.
 
-![](../../download/attachments/108593166/HotSpot%20DE.png)
+![](assets/160/HotSpot%20DE.png)
 
   
 
-### Optimierung der angezeigten Informationen zur Testlaufzeit
+#### Optimierung der angezeigten Informationen zur Testlaufzeit
 
 Vor und während der Prüfung ist es für Teilnehmende wichtig, alle notwendigen
 Informationen zum Testzeitraum und zur laufenden Testzeit möglichst schnell
@@ -273,13 +273,13 @@ und auf einen Blick erfassen zu können. Die Anzeige der Zeitangaben wurde in
 Release 16.0 umfassend optimiert.
 
 **Anzeige vor
-Teststart**![](../../download/attachments/108593166/Testzeit%20Vor%20Start%20DE.png)
+Teststart**![](assets/160/Testzeit%20Vor%20Start%20DE.png)
 
   
 
  **Anzeigen Testdurchführung**
 
-![](../../download/attachments/108593166/Testrun%20Zeiten%20DE.png)
+![](assets/160/Testrun%20Zeiten%20DE.png)
 
   
 
@@ -287,9 +287,9 @@ Teststart**![](../../download/attachments/108593166/Testzeit%20Vor%20Start%20DE.
 
   
 
-# Kurserinnerungen
+### Kurserinnerungen
 
-### Erinnerungen am Kursbaustein
+#### Erinnerungen am Kursbaustein
 
 Erinnerungsmails konnten bisher über die Kursadministration angelegt werden.
 Diese bisher recht versteckte Funktion ist nun auch direkt am jeweiligen
@@ -306,11 +306,11 @@ Am obersten Kursknoten werden alle Erinnerungen aufgelistet, die an keinen
 bestimmten Kursbaustein gebunden sind. Ein Log über bereits versendete
 Erinnerungen ist ebenfalls verfügbar.
 
-![](../../download/attachments/108593166/Reminder%20am%20KBS%20DE.png)
+![](assets/160/Reminder%20am%20KBS%20DE.png)
 
   
 
-### Zusätzliche Empfänger
+#### Zusätzliche Empfänger
 
 Erinnerungsmails werden standardmässig nur an Teilnehmende verschickt. In
 bestimmten Fällen ist es wichtig, auch weitere Empfänger über bestimmte
@@ -318,12 +318,12 @@ Ereignisse zu informieren. Optional kann nun zusätzlich auch eine Kopie der
 Erinnerungsmail an Kursbesitzer, zugewiesene Betreuer oder eine externe
 Mailadresse (z.B. Sekretariat oder Verwaltung) gesendet wird.
 
-### Weitere Verbesserungen
+#### Weitere Verbesserungen
 
 Die Regel "Bestanden" wurde erweitert, um neben Bestanden / Nicht bestanden
 auch den Zustand Noch nicht bewertet abzudecken.
 
-![](../../download/attachments/108593166/Reminder%20Zusatzmail%20DE.png)
+![](assets/160/Reminder%20Zusatzmail%20DE.png)
 
   
 
@@ -331,9 +331,9 @@ auch den Zustand Noch nicht bewertet abzudecken.
 
   
 
-# Videos in OpenOlat
+### Videos in OpenOlat
 
-### Vorwärtsspulen in Videos unterbinden
+#### Vorwärtsspulen in Videos unterbinden
 
 Mit dieser Option im **Video-Baustein** wird verhindert, dass Teilnehmende den
 Schieberegler in der Videonavigation zum Vorwärtsspulen im Video verwenden
@@ -346,18 +346,18 @@ Fortschritt des Kursbausteins gespeichert und im Lernpfadwerkzeug angezeigt.
 Öffnen Teilnehmende den Kursbaustein erneut und das Video wurde beim ersten
 Mal nicht beendet, so erscheint ein Fortsetzungsdialog.
 
-### Videotitel ausblenden
+#### Videotitel ausblenden
 
 Die Anzeige des Videotitels ist manchmal nicht erwünscht oder nicht sinnvoll,
 daher kann dies über eine neue Option aktiviert oder deaktiviert werden.
 
   
 
-![](../../download/attachments/108593166/Video%20Vorspulen%20DE.png)
+![](assets/160/Video%20Vorspulen%20DE.png)
 
   
 
-### Lernpfad: Video bis zu Ende ansehen
+#### Lernpfad: Video bis zu Ende ansehen
 
 Videos im Lernpfad mussten bislang von den Teilnehmenden manuell abgeschlossen
 werden. Die Information, wie weit Teilnehmende bereits ein Video geschaut
@@ -367,7 +367,7 @@ bis zum Ende geschaut (95%)" ergänzt.
 
   
 
-![](../../download/attachments/108593166/Video%20erledigt%20DE.png)
+![](assets/160/Video%20erledigt%20DE.png)
 
   
 
@@ -383,7 +383,7 @@ inklusive der Masterdatei in einem Dropdown-Menü angezeigt.
 
   
 
-# Weitere Neuerungen rund um Kurse
+### Weitere Neuerungen rund um Kurse
 
   * **Teilnehmer-Ordner** : Definiertes "Zeitfenster für Abgabe" von Dokumenten als Information für Teilnehmende anzeigen
   *  **Aufgabenbaustein** : Konfiguration zur Verwaltung von Aufgabenstellungen und Musterlösungen durch Betreuer zentral platziert (Screenshot)
@@ -394,7 +394,7 @@ inklusive der Masterdatei in einem Dropdown-Menü angezeigt.
   * Auswahl mehrerer Dateien zum endgültigen Löschen in Kursordner ergänzt
   * Ergänzung der didaktischen Kurstypen, visueller Ausweis in der Kursübersicht und auf der Kurs-Infoseite
 
-![](../../download/attachments/108593166/GTA%20Konfig%20DE.png)
+![](assets/160/GTA%20Konfig%20DE.png)
 
   
 
@@ -402,14 +402,14 @@ inklusive der Masterdatei in einem Dropdown-Menü angezeigt.
 
   
 
-# Neues im Lernpfad
+### Neues im Lernpfad
 
   * Erledigungskriterium "E-Mail versendet" für Kursbaustein "E-Mail" (Screenshot)
   * Kursbaustein-spezifische Standardwerte für Erledigungskriterien
   * Zusätzliche Kursnavigation unterhalb des Inhalts
   * Manuelle Bewertung: Automatischer Statuswechsel "Korrektur", wenn Teilnehmer-Zugriff gewährt
 
-![](../../download/attachments/108593166/Mail%20Erledigt%20DE.png)
+![](assets/160/Mail%20Erledigt%20DE.png)
 
   
 
@@ -417,7 +417,7 @@ inklusive der Masterdatei in einem Dropdown-Menü angezeigt.
 
   
 
-# BigBlueButton Erweiterungen
+### BigBlueButton Erweiterungen
 
 Ein vorhandenes Meeting kann als **Konfigurationsvorlage** für ein weiteres
 verwendet werden, indem es kopiert wird. Der "Meeting erstellen"-Dialog wird
@@ -434,7 +434,7 @@ neben der Anmeldung als anonymer Meeting-Gast auch mit seinem OpenOlat-Account
 In der Liste der Aufzeichnungen wird der Typ "Download" unterstützt und mit
 eigenem Symbol entsprechend ausgewiesen.
 
-![](../../download/attachments/108593166/OO%20Authentifizerung%20DE.png)
+![](assets/160/OO%20Authentifizerung%20DE.png)
 
   
 
@@ -442,7 +442,7 @@ eigenem Symbol entsprechend ausgewiesen.
 
   
 
-# Weiteres, kurz notiert
+### Weiteres, kurz notiert
 
   * Kalender:
     * Individuelle Farbanpassung von Kalendereinträgen (Screenshot)
@@ -453,7 +453,7 @@ eigenem Symbol entsprechend ausgewiesen.
   * Erweiterte Darstellung von Radiobutton als "Karte" für zusätzliche Angaben, z.B. Beschreibung und Bilder
   * Versand von Mail-Kopien der Benutzer-Lebenszyklus-Mails an konfigurierbare Mail-Adresse
 
-![](../../download/attachments/108593166/Kalender%20bunt%20DE.png)
+![](assets/160/Kalender%20bunt%20DE.png)
 
   
 
@@ -461,7 +461,7 @@ eigenem Symbol entsprechend ausgewiesen.
 
   
 
-# Technisches
+### Technisches
 
   * LDAP: Unterstützung von Feldern, die mehrere Werte enthalten
   * Neue technische Umsetzung des Lernpfad-Fortschrittsbalkens auf Basis von SVG
@@ -474,7 +474,7 @@ eigenem Symbol entsprechend ausgewiesen.
 
   
 
-# Release Notes - Versionen
+### Release Notes - Versionen
 
   * [16.0.7](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=17804)
   * [16.0.6](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=17800)

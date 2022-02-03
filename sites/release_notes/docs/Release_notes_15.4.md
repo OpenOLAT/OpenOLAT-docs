@@ -1,6 +1,6 @@
 #  [Release notes 15.4](Release+notes+15.4.html)
 
-With OpenOlat 16.1 we release our next major release.
+
 
 With the integration of **Microsoft Teams Online Meetings** , the range of
 virtual rooms in OpenOlat is again supplemented, this function is available in

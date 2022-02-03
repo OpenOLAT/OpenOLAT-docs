@@ -164,5 +164,6 @@ The following roles are available under "Add Users":
 
   
 
-![](../../download/attachments/590041/Curriculum_Benutzer_hinzufuegen.png)![](../../download/attachments/590041/Curriculum_Benutzer_hinzufuegen1.png)
+![](../../download/attachments/590041/Curriculum_Benutzer_hinzufuegen.png)
+![](../../download/attachments/590041/Curriculum_Benutzer_hinzufuegen1.png)
 

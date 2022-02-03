@@ -9,8 +9,8 @@
 
 
   - 16.1: "Release_notes_16.1.md"   assets done, 
-  - 16.0: "Release_notes_16.0.md"
-  - 15.5: "Release_notes_15.5.md"
+  - 16.0: "Release_notes_16.0.md"   assets done,
+  - 15.5: "Release_notes_15.5.md"   assets done,
   - 15.4: "Release_notes_15.4.md"
   - 15.3: "Release_notes_15.3.md"
   - 15.2: "Release_notes_15.2.md"

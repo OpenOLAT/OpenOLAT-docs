@@ -28,9 +28,9 @@ improvements, more than 95 bugs have been fixed. The complete list of changes
 for 15.4 – 15.4.7 can be found
 [here](Release+notes+15.4.html#Releasenotes15.4-Releasenotes-versions).
 
-![](../../download/attachments/108600578/Features_Improvements_Labels_EN.png)  
+![](assets/155/Features_Improvements_Labels_EN.png)  
 
-![](../../download/attachments/108600578/press-release-15.5.png)
+![](assets/155/press-release-15.5.png)
 
 Release date: 07-05-2021
 
@@ -58,7 +58,7 @@ Last update: 12-10-2021
 
   
 
-# Form extensions
+## Form extensions
 
 **The survey is now called a form!**
 
@@ -84,7 +84,7 @@ To assist authors in creating questionnaires, individual elements can be
 **duplicated**. This is especially helpful if many similarly configured
 elements are used (e.g. same question types with same structure and scale).
 
-![](../../download/attachments/108600578/Frageregeln%20EN.png)
+![](assets/155/Frageregeln%20EN.png)
 
   
 
@@ -92,7 +92,7 @@ elements are used (e.g. same question types with same structure and scale).
 
   
 
-# Course element "Form"
+## Course element "Form"
 
 Where registrations for optional courses or exams can only be mapped to a
 limited extent with the survey element, these and other scenarios can be
@@ -113,7 +113,7 @@ further processing by the participant, or they can be completely reset. By
 clicking on the participant, the completed form can be viewed. The form data
 of all participants is available as an Excel export.
 
-![](../../download/attachments/108600578/FormularKBS%20EN.png)
+![](assets/155/FormularKBS%20EN.png)
 
   
 
@@ -121,28 +121,28 @@ of all participants is available as an Excel export.
 
   
 
-# Course element "Task"
+## Course element "Task"
 
 With the integration and activation of the document editors, new possibilities
 also arise at the task course element.
 
-### Participant view
+#### Participant view
 
 On the one hand, an option was added to provide a **task as a template** for
 the participants, for example a prepared Excel or Word file. When participants
 select the task, a copy of the task document is generated and **opened
 directly in the browser for editing**.
 
-![](../../download/attachments/108600578/Aufgabenstellung_EN.png)
+![](assets/155/Aufgabenstellung_EN.png)
 
-### Coach view
+#### Coach view
 
 On the other hand, submitted **solution documents** of the participants can be
 opened directly in the browser by the coach and **corrected in the online
 editor**. The edited version of the documents can then be returned to the
 participant for further revision.
 
-![](../../download/attachments/108600578/GTA%20feedback%20EN.png)
+![](assets/155/GTA%20feedback%20EN.png)
 
   
 
@@ -150,7 +150,7 @@ participant for further revision.
 
   
 
-# QTI / eAssessment
+## QTI / eAssessment
 
 Until now, coaches had to switch to the course's assessment tool to access the
 test cockpit and correct tests. In the case of elements such as assignments or
@@ -164,7 +164,7 @@ usual. The assessment mode can also be started or ended in this view.
 
 A preview of the test is offered in a second tab.
 
-![](../../download/attachments/108600578/Test%20direkt%20EN.png)
+![](assets/155/Test%20direkt%20EN.png)
 
 If a completed online test contains an incorrect question, an **adjustment of
 the score** is usually desired for all participants. Until now, this
@@ -177,7 +177,7 @@ the appropriate question:
 
 The maximum score of the question cannot be exceeded.
 
-![](../../download/attachments/108600578/Bulk%20test%20EN.png)
+![](assets/155/Bulk%20test%20EN.png)
 
   
 
@@ -188,13 +188,13 @@ followed by the configured minimum or maximum number of words.
 The display is also available in the assessment tool in the correction
 workflow to support the coaches in assessing the essay questions.
 
-![](../../download/attachments/108600578/Wortz%C3%A4hler%20EN.png)
+![](assets/155/Wortz%C3%A4hler%20EN.png)
 
 The "Drawing" question type has been completely reimplemented and a **text
 tool** has been added. Inserted texts can be adjusted in color and size,
 rotated as well as repositioned. This makes it easier to label graphics.
 
-![](../../download/attachments/108600578/Drawing%20Interaction%20DE.png)
+![](assets/155/Drawing%20Interaction%20DE.png)
 
   
 
@@ -202,9 +202,9 @@ rotated as well as repositioned. This makes it easier to label graphics.
 
   
 
-# New features related to courses
+## New features related to courses
 
-### Extended user permissions
+#### Extended user permissions
 
 With OpenOlat 15.0, the settings of user permissions in course elements (e.g.
 "Upload" in the course element "Folder") have been moved from the tab "Access"
@@ -216,7 +216,7 @@ group or user and to limit the different accesses for a certain period of
 time. When switching between the role-based and the advanced configuration,
 existing settings will be adopted - as far as possible.
 
-![](../../download/attachments/108600578/User%20rights%20EN.png)
+![](assets/155/User%20rights%20EN.png)
 
   
 
@@ -227,16 +227,16 @@ options.
 
   
 
-![](../../download/attachments/108600578/User%20rigths%20note%20EN.png)
+![](assets/155/User%20rigths%20note%20EN.png)
 
-### Course element "Document": Link to storage folder
+#### Course element "Document": Link to storage folder
 
 In the document course element a document from the course storage folder can
 be linked. This is helpful, for example, if a resource folder is included in
 the course that already contains a structured collection of materials that
 will be used in several courses.
 
-### Configuration for assessment mode in the exam course wizard
+#### Configuration for assessment mode in the exam course wizard
 
 Further settings for the assessment mode are available in the exam course
 wizard. You can decide whether you want an assessment mode at all, whether it
@@ -249,9 +249,9 @@ follow-up times.
 
   
 
-# ePortfolio extensions
+## ePortfolio extensions
 
-### Multiple use of entries
+#### Multiple use of entries
 
 Entries can now be used multiple times in [different ePortfolio
 binders](Multiple+use+of+entries.html). This is practical, for example, if
@@ -263,9 +263,9 @@ can be created directly from existing entries. Referenced entries are marked
 as such. When a referenced entry is changed in a folder, it is also updated in
 all other folders.
 
-![](../../download/attachments/108600578/eP%20Import%20EN.png)
+![](assets/155/eP%20Import%20EN.png)
 
-### Keywording of entries with competencies (taxonomy)
+#### Keywording of entries with competencies (taxonomy)
 
 It is now possible to link one or more taxonomies to the ePortfolio. Within
 the taxonomies, the levels can be identified as
@@ -278,7 +278,7 @@ expiration date per user.
 The user gets an overview of all used competencies in the personal menu under
 "Competencies".
 
-![](../../download/attachments/108600578/eP%20Eintr%C3%A4ge%20EN.png)
+![](assets/155/eP%20Eintr%C3%A4ge%20EN.png)
 
   
 
@@ -293,7 +293,7 @@ also be shared directly with course owners.
 
   
 
-# LTI 1.3 Beta
+## LTI 1.3 Beta
 
 **L** earning **T** ools **I** nteroperability (LTI) is a standard for
 integrating tools into learning platforms. OpenOlat has supported this
@@ -334,7 +334,7 @@ welcome at [support@frentix.com](mailto:support@frentix.com).
 
   
 
-# Usability: Tables
+## Usability: Tables
 
 In this release, **new** **table features** have been implemented in
 particular.
@@ -343,18 +343,18 @@ Users receive more information through the new specific **"Empty States"** for
 tables when no data is available. Supplementary actions support the next
 steps.
 
-![](../../download/attachments/108600578/Empty%20State%20EN.png)
+![](assets/155/Empty%20State%20EN.png)
 
 For example, the **cogwheel icon** for further actions on the right edge of
 the table has been **replaced** by the new
-icon![](../../download/attachments/108600578/Icon%20Aktionen.png). This is not
+icon![](assets/155/Icon%20Aktionen.png). This is not
 only more space-saving, but also less intrusive.
 
 A refactoring was done for the **selection of rows** in tables. Now all
 entries of the page or the entire table can be selected via the checkbox in
 the upper left corner.
 
-![](../../download/attachments/108600578/UX_Tabelle_EN.png)
+![](assets/155/UX_Tabelle_EN.png)
 
   
 
@@ -362,7 +362,7 @@ the upper left corner.
 
   
 
-# Additional notes
+## Additional notes
 
   * Display of pending confirmations for course and group memberships in the group area (screenshot)
   * Support for multiple separate attachments for course notifications
@@ -374,7 +374,7 @@ the upper left corner.
   * Improved locking function and metadata display of documents
   * New SCORM integration for inclusion of SCORM learning modules
 
-![](../../download/attachments/108600578/Best%C3%A4tigung%20Gruppe%20EN.png)
+![](assets/155/Best%C3%A4tigung%20Gruppe%20EN.png)
 
   
 
@@ -382,7 +382,7 @@ the upper left corner.
 
   
 
-# Announcement support end QTI 1.2
+## Announcement support end QTI 1.2
 
 Support for QTI 1.2 will end with Release 16.0. Conversion of QTI 1.2
 questions, tests and questionnaires will then only be possible via export to
@@ -399,7 +399,7 @@ rebuilt.
 
   
 
-# Technical details
+## Technical details
 
   * Implementation of a Tocco login provider
 
@@ -417,7 +417,7 @@ rebuilt.
 
   
 
-# Release notes - versions
+## Release notes - versions
 
   * [15.5.14](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=17803)
   * [15.5.13](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=17801)
@@ -435,174 +435,4 @@ rebuilt.
   * [15.5.1](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=17102)
   * [15.5](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=17004)
 
-  
-
-  1. [OpenOlat 16.1 User Manual](../OO161EN.html)
-  2. [Seiten](https://confluence.openolat.org/collector/pages.action?key=OO161EN)
-  3. [OpenOlat 16.1 User Manual](OpenOLAT+16.1+User+Manual.html)
-  4. [Release notes](Release+notes.html)
-  5. [Release notes 15.5](Release+notes+15.5.html)
-
-Sie sind nicht angemeldet. Ihre Änderungen werden mit anonym markiert. Sie
-sollten sich
-[anmelden](https://confluence.openolat.org/login.action?os_destination=%2Fdisplay%2FOO161EN%2FRelease%2Bnotes%2B15.5),
-wenn Sie bereits über ein Konto verfügen.
-
-search
-
-attachments
-
-weblink
-
-advanced
-
-image-effects
-
-image-attributes
-
-  * Absatz
-    * Absatz
-    * Überschrift 1
-    * Überschrift 2
-    * Überschrift 3
-    * Überschrift 4
-    * Überschrift 5
-    * Überschrift 6
-    * Vorformatiert
-    * Zitat
-
-  * Fett
-  * Kursiv
-  * Unterstreichen
-  * Farbauswahl
-
-Weitere Farben
-
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-
-  * Formate
-
-    * Durchgestrichen 
-    * Tiefgestellt 
-    * Hochgestellt 
-    * Festbreitenschriftart 
-
-    * Formatierung zurücksetzen 
-
-  * Aufzählung
-  * Nummerierte Liste
-
-  * Aufgabenliste
-
-  * Einzug verkleinern
-  * Einzug vergrößern
-
-  * Linksbündig ausrichten
-  * Zentriert ausrichten
-  * Rechtsbündig ausrichten
-
-  * Seitenlayout
-
-  * Verknüpfung
-
-  * Tabelle
-
-  * Einfügen
-
-Inhalt einfügen
-
-    * Dateien und Bilder 
-    * Verknüpfung 
-    * Markup 
-    * Horizontale Trennlinie einfügen 
-    * Aufgabenliste 
-    * Datum 
-    * Emoticon 
-    * Sonderzeichen 
-Makro einfügen
-
-    * Benutzererwähnung 
-    * Jira-Vorgang/-Filter 
-    * Info 
-    * Status 
-    * Galerie 
-    * Inhalt 
-
-    * Andere Makros 
-
-  * Seitenlayout
-    * Kein Layout
-    * Zweispaltig (einfach)
-    * Zweispaltig (einfach, linke Randleiste)
-    * Zweispaltig (einfach, rechte Randleiste)
-    * Dreispaltig (einfach)
-    * Zweispaltig
-    * Zweispaltig (linke Randleiste)
-    * Zweispaltig (rechte Randleiste)
-    * Dreispaltig
-    * Dreispaltig (Randleisten links und rechts)
-
-  * Rückgängig
-  * Wiederholen
-
-  * Suchen/Ersetzen
-
-  * Hilfe für Tastenkombinationen
-
-Sie sind nicht angemeldet. Ihre Änderungen werden mit anonym markiert. Sie
-sollten sich
-[anmelden](https://confluence.openolat.org/login.action?os_destination=%2Fdisplay%2FOO161EN%2FRelease%2Bnotes%2B15.5),
-wenn Sie bereits über ein Konto verfügen.
-
-Diese Seite wird auch von  bearbeitet. Ihre Änderungen werden mit seinen/ihren
-zusammengeführt, wenn Sie speichern.
-
-
-
-Bearbeiten
-
-Vorschau
-
-Speichern
-
-Schließen
 

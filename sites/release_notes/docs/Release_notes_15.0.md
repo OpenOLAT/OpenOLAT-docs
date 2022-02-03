@@ -85,7 +85,8 @@ learning path courses.
 
   
 
-![](../../download/attachments/108600723/Screenshot%202020-05-12%20at%2016.27.51.png)![](../../download/attachments/108600723/Screenshot%202020-05-12%20at%2016.28.13.png)
+![](../../download/attachments/108600723/Screenshot%202020-05-12%20at%2016.27.51.png)
+![](../../download/attachments/108600723/Screenshot%202020-05-12%20at%2016.28.13.png)
 
 ## Processing and assessment of the learning path course
 
