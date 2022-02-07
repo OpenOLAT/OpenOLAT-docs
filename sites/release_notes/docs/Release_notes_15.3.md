@@ -137,7 +137,7 @@ Microsoft 365 logins are now supported in OpenOlat via Azure Active Directory.
 For consulting and introduction please contact
 [support@openolat.com](mailto:support@openolat.com).
 
-![](assets/153/Azure_EN%EF%B9%96version=1&modificationDate=1604938299000&api=v2.png)
+![](assets/153/Azure_EN.png)
 
   
 

@@ -13,7 +13,7 @@ Here administrators can set which OpenOlat
 by default, e.g. calendar, personal folders, e-portfolio, chat, etc. as well
 as which tools are enabled in the menu bar for quick access (Preset).
 
-![](assets/Usertools%2001%20EN.png)![](assets/Usertools%2002%20EN.png)
+![](assets/Usertools 01 EN.png)![](assets/Usertools 02 EN.png)
 
 ## Calendar Administration
 

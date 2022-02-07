@@ -6,13 +6,16 @@
 [ ] auto TOC im Header bereinigen
 [ ] Footer bereinigen
 
+[ ] Cross-Links bereinigen
+[ ] Tabellen bereinigen
+[ ] Info und Warnboxen
+[ ] Anchors in pages und subelementen
+[ ] OO Refs
+    
+  
 
 Erledigt
   - Introduction: "Introduction.md"
-
-
-Hier gehts weiter: 
-=================
   - General Information on this Learning Platform: "General_Information_on_this_Learning_Platform.md"
     - Information on OpenOlat: "Information_on_OpenOlat.md"
     - Requirements when Working with OpenOlat: "Requirements_when_Working_with_OpenOlat.md"
@@ -24,6 +27,11 @@ Hier gehts weiter:
   - Registration, Login and Logout: "Registration,_Login_and_Logout.md"
     - Login Page: "Login_Page.md"
     - Session Timeout and Logout: "Session_Timeout_and_Logout.md"
+
+
+Hier gehts weiter: 
+=================
+      
   - Personal menu and general components: "Personal_menu_and_general_components.md"
     - Personal Menu: "Personal_Menu.md"
       - Calendar: "Calendar.md"

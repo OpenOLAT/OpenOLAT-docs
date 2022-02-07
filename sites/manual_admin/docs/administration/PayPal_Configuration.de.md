@@ -65,7 +65,7 @@ eingestellte Währung.
 
 |
 
-![](assets/Bildschirmfoto%202020-11-13%20um%2010.37.20.png)  
+![](assets/Bildschirmfoto 2020-11-13 um 10.37.20.png)  
   
 Schritt 5: Wenn Sie eine Währung erhalten, die von Ihnen nicht akzeptiert ist,
 wird die Buchung auf den Status "pendent" gestellt. Damit das nicht passiert,
@@ -80,14 +80,14 @@ Einstellungen". Anschliessend links in der Navigation auf
 
 |
 
-![](assets/Bildschirmfoto%202020-11-13%20um%2010.49.05.png)  
+![](assets/Bildschirmfoto 2020-11-13 um 10.49.05.png)  
   
 Schritt 6: In dem neuen Fenster klicken Sie bei "Zahlungseingänge in einer
 anderen Währung zulassen" auf "Ja, akzeptieren und umrechnen in Schweizer
 Franken". Bei "Doppelte Zahlungen vermeiden" sollte "Ja, versehentlich doppelt
 gesendete Zahlungen pro Rechnungsnummer ablehnen" angeklickt sein.|
 
-![](assets/Bildschirmfoto%202020-11-13%20um%2010.49.27.png)  
+![](assets/Bildschirmfoto 2020-11-13 um 10.49.27.png)  
   
 Schritt 7: loggen Sie sich nun mit einem Systemadministrator-Account bei Ihrem
 OpenOlat System ein.

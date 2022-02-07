@@ -19,7 +19,7 @@ a hierarchical curriculum is Course → Semester → Module → Course.
 
 In the table the already created curriculum types are displayed. Editing the
 data is possible via the
-![](assets/Symbol_Bearbeiten%EF%B9%96version=1&modificationDate=1638462127000&api=v2.png)-symbol.
+![](assets/Symbol_Bearbeiten.png)-symbol.
 The respective type can be copied or deleted via the 3-dot link.
 
 ![](assets/curriculum_types.png)

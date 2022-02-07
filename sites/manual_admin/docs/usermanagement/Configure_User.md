@@ -73,7 +73,7 @@ Here a disadvantage compensation can be added. The disadvantage compensation
 entitles participants of a test to use more time for a test due to a certain
 handicap.
 
-![](assets/disadvantage_compensation%EF%B9%96version=1&modificationDate=1606055182000&api=v2.jpg)  
+![](assets/disadvantage_compensation.jpg)  
   
 #### Subscriptions
 

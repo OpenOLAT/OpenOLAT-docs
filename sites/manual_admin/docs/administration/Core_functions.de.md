@@ -14,8 +14,8 @@ Usern standardmässig zur Verfügung gestellt werden, z.B. Kalender, persönlich
 Ordner, E-Portfolio, Chat usw. sowie welche Werkzeuge in der Menüleiste für
 den Schnellzugriff aktiviert sind (Voreinstellung).
 
-![](assets/Usertools%2001%20DE.png)
-![](assets/Usertools%2002%20DE.png)  
+![](assets/Usertools 01 DE.png)
+![](assets/Usertools 02 DE.png)  
 
 ## Kalender Administration
 

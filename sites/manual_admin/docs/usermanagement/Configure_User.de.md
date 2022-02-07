@@ -79,7 +79,7 @@ Hier kann ein Nachteilsausgleich hinzugefügt werden. Der Nachteilausgleich
 berechtigt Teilnehmende einer Prüfung für einen Test aufgrund einer
 Einschränkung mehr Zeit zu verwenden.
 
-![](assets/Nachteilsausgleich%EF%B9%96version=1&modificationDate=1606052872000&api=v2.jpg)  
+![](assets/Nachteilsausgleich.jpg)  
   
 #### Abonnements
 

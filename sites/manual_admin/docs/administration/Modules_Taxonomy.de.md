@@ -32,11 +32,11 @@ wird diese hier mit dem Titel "Question Pool" angezeigt.
 Es können mehrere Taxonomiestrukturen erstellt und für verschiedene Zwecke
 (Fragenpool oder Dokumentenpool) aktiviert werden.
 
-![](assets/Taxonomy%20overview%20DE.png)
+![](assets/Taxonomy overview DE.png)
 
 Lässt man sich eine Taxonomie anzeigen gelangt man zur folgenden Übersicht:
 
-![](assets/Tax%20Metatdata%20DE.png)
+![](assets/Tax Metatdata DE.png)
 
   
 
@@ -73,7 +73,7 @@ erstellt werden.
 
   
 
-![](assets/Tax%20Ebenentypen%20DE.png)
+![](assets/Tax Ebenentypen DE.png)
 
 ## Taxonomie
 

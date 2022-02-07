@@ -98,12 +98,11 @@ def convertMigrateAssets(filename, assetDir, confluenceDownloadDir):
 				#print(type, number, assetname)
 				# 2) copy all assets
 				oldasset_spaced = confluenceDownloadDir + type + '/' + number + '/' + assetname_spaced
-				newasset_spaced = assetDir + assetname_spaced
-				shutil.copyfile(oldasset_spaced, fixFilename(newasset_spaced))
+				newasset_spaced = fixFilename(assetDir + assetname_spaced)
+				shutil.copyfile(oldasset_spaced, newasset_spaced)
 				# 3) replace asset path in file
 				oldasset = '../../download/' + type + '/' + number + '/' + assetname
-				newasset = assetDir + fixFilename(assetname)
-				print(line.replace(oldasset, newasset), end='')
+				print(line.replace(oldasset, newasset_spaced), end='')
 			else:
 				if (line.startswith('  1. [OpenOlat 16.1 Benutzerhandbuch](../OO161DE.html)')):
 					skipRestOfFile = True

@@ -29,11 +29,11 @@ with the title Question pool.
 Several taxonomy structures can be created and used for different reasons
 (question bank or document pool).
 
-![](assets/Taxonomy%20overview%20EN.png)
+![](assets/Taxonomy overview EN.png)
 
 If you display a taxonomy, you will get to the following overview:
 
-![](assets/Tax%20Metatdata%20EN.png)
+![](assets/Tax Metatdata EN.png)
 
 ## Metadata
 
@@ -64,7 +64,7 @@ In the tab "Level types" a new type can be created with "Add new level type".
   *  _Description:_ If desired a short description of the level type can be added.
   *  _Sub types:_ Out of the already existing level types a sub type can be chosen. Like this it becomes possible to create a hierarchical structure. It will get visible when creating the taxonomy level.
 
-![](assets/Tax%20Ebenentypen%20EN.png)
+![](assets/Tax Ebenentypen EN.png)
 
 ## Taxonomy
 
@@ -79,7 +79,7 @@ When creating the following attributes are necessary:
   * Order: Hereby a manual order is possible.
   * Description: If desired a short description of the taxonomy level can be added.
 
-![](assets/Taxebenen%20EN.png)
+![](assets/Taxebenen EN.png)
 
 In the overview a hierarchical structure is now visible.
 

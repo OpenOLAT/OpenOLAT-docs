@@ -114,7 +114,7 @@ Auswahl. Die Vorlagen steuern:
 
  **Voreinstellungen für gesperrte Teilnehmer**
 
-![](assets/bbb_administration_voreinstellungen_gesp_Teilnehmer%EF%B9%96version=2&modificationDate=1618752978000&api=v2.png)
+![](assets/bbb_administration_voreinstellungen_gesp_Teilnehmer.png)
 
 ## Online-Termine
 

@@ -11,7 +11,7 @@ administrators can
   * configure user
   * displaying users according to different roles and assignments
 
-![](assets/Org_EN%EF%B9%96version=1&modificationDate=1562923850000&api=v2.png)
+![](assets/Org_EN.png)
 
 ## Organizations
 
@@ -42,7 +42,7 @@ If an OpenOlat instance uses the curriculum, there are other roles available
 in addition to the usual course roles, whose members can be displayed and
 edited.
 
-![](assets/CurRoles_EN%EF%B9%96version=1&modificationDate=1562923858000&api=v2.png)
+![](assets/CurRoles_EN.png)
 
 ## User roles
 

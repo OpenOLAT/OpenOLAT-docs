@@ -5,7 +5,7 @@ OpenOlat administrator or user manager. Either this is done via an external
 user management system or directly in OpenOlat in the "User Management" tab.
 Only administrators and user administrators can create and delete users.
 
-![](assets/User%20management%20EN.png)
+![](assets/User management EN.png)
 
 Furthermore, self-registration is also possible with the corresponding
 activation.
@@ -37,7 +37,7 @@ created can be specified, prefixes for the relevant user data as well as the
 date for the expiration of the temporary users can be set. In this way, the
 creation of many accounts is possible in a very short time.
 
-![](assets/Temp%20User%20anlegen%20EN.png)
+![](assets/Temp User anlegen EN.png)
 
   
 
@@ -53,7 +53,7 @@ The "Delete user" link allows to view the users without activity and
 deactivated users, as well as to select and delete specific users. This will
 delete the entire user account including all personal data.
 
-![](assets/User%20l%C3%B6schen%20EN.png)
+![](assets/User l%C3%B6schen EN.png)
 
   
 

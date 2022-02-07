@@ -98,7 +98,7 @@ In addition you can define when a course is considered "passed" by several
 options such as "Learning progress 100%," "All course elements passed," or
 "Score reached".
 
-![](assets/150/Screenshot%202020-05-12%20at%2014.34.50%EF%B9%96version=1&modificationDate=1589286906000&api=v2.png)
+![](assets/150/Screenshot%202020-05-12%20at%2014.34.50.png)
 
   
 
@@ -148,7 +148,7 @@ author takes a test in the course owner view no data is transferred to the
 assessment tool, and when editing course elements in a learning path course no
 learning progress is recorded.
 
-![](assets/150/Screenshot%202020-03-22%20at%2018.00.14%EF%B9%96version=1&modificationDate=1589287522000&api=v2.png)
+![](assets/150/Screenshot%202020-03-22%20at%2018.00.14.png)
 
 ## Course-related terms of use and data policy
 

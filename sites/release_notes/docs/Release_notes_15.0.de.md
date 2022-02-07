@@ -115,7 +115,7 @@ Am Lernpfadkurs kann ausserdem aus mehreren Optionen wie "Lernfortschritt
 100%", "Alle Kursbausteine bestanden" oder "Punkteschwelle erreicht" definiert
 werden, wann der gesamte Kurs als "Bestanden" gilt.
 
-![](assets/150/Screenshot%202020-05-11%20at%2018.19.39%EF%B9%96version=1&modificationDate=1589213990000&api=v2.png)
+![](assets/150/Screenshot%202020-05-11%20at%2018.19.39.png)
 
   
 
@@ -169,7 +169,7 @@ durchführt, werden keine Daten ins Bewertungswerkzeug übernommen, bei der
 Bearbeitung von Kurselementen in einem Lernpfadkurs wird der Lernfortschritt
 nicht erfasst.
 
-![](assets/150/Ansicht_Rollenwahl%EF%B9%96version=1&modificationDate=1589204162000&api=v2.png)
+![](assets/150/Ansicht_Rollenwahl.png)
 
 ## Kursbezogene Nutzungsbedingungen und Datenschutzerklärung
 

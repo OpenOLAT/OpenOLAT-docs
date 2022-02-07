@@ -117,7 +117,7 @@ Lösungsvarianten Punkte abzuziehen.
 
   
 
-![](assets/142/Gaptext_neue_Optionen_DE%EF%B9%96version=1&modificationDate=1581593066000&api=v2.png)
+![](assets/142/Gaptext_neue_Optionen_DE.png)
 
 #### Korrekturzeit für QTI-Fragen
 

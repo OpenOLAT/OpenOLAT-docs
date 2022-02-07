@@ -22,5 +22,5 @@ Klick auf die Pfeile.
 
  Zusammenhänge verbildlicht
 
-![](assets/Beispielkonfiguration%EF%B9%96version=2&modificationDate=1639655234000&api=v2.jpg)
+![](assets/Beispielkonfiguration.jpg)
 

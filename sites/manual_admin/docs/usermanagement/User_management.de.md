@@ -11,7 +11,7 @@ Administratoren können ...
   * Benutzer konfigurieren
   * Benutzer nach unterschiedlichen Rollen und Zuordnungen anzeigen lassen
 
-![](assets/Benutzerverwaltung%EF%B9%96version=1&modificationDate=1562497463000&api=v2.png)
+![](assets/Benutzerverwaltung.png)
 
 ## Organisationen
 
@@ -48,7 +48,7 @@ Nutzt eine OpenOlat Instanz das Curriculum stehen neben üblichen Kursrollen
 noch weitere Rollen zur Verfügung, deren Mitglieder angezeigt und bearbeitet
 werden können.
 
-![](assets/Curriculumrollen%EF%B9%96version=1&modificationDate=1562497788000&api=v2.png)
+![](assets/Curriculumrollen.png)
 
 ## Benutzerrollen
 
