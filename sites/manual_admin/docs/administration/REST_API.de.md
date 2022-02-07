@@ -12,7 +12,7 @@ und Kreieren von verschiedensten strukturellen Eigenschaften.
 
 Das REST API kann unter Administration aktiviert / deaktiviert werden.
 
-![](../../download/attachments/108593233/Bildschirmfoto%202019-10-10%20um%2016.20.10.png)
+![](assets/Bildschirmfoto%202019-10-10%20um%2016.20.10.png)
 
   * 1Konzept
     * 1.1Benutzung

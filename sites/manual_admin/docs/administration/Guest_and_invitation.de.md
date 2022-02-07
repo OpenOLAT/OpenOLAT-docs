@@ -19,5 +19,5 @@ zu durchsuchen.
 
   
 
-![](../../download/attachments/108593211/admin_Login_gast%EF%B9%96version=1&modificationDate=1582478336000&api=v2.jpg)
+![](assets/admin_Login_gast%EF%B9%96version=1&modificationDate=1582478336000&api=v2.jpg)
 

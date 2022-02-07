@@ -33,7 +33,7 @@ dem der Lizenzname, ein zugehöriger Lizenztext sowie eine CSS-Klasse
 eingetragen werden können. So erstellte Lizenztypen können nachträglich nur
 bearbeitet, aber nicht gelöscht werden.
 
-![](../../download/attachments/108593578/LizenzMgmt_eigeneLizenz_DE.png)
+![](assets/LizenzMgmt_eigeneLizenz_DE.png)
 
   
 
@@ -48,7 +48,7 @@ nur sichtbar, wenn die Lizenzen generell für den jeweiligen Bereich aktiviert
 sind. Es ist hier möglich, für die einzelnen Bereiche nur bestimmte
 Lizenztypen zu aktivieren.
 
-![](../../download/attachments/108593578/LizenzMgmt_Lizenztypen_DE.png)
+![](assets/LizenzMgmt_Lizenztypen_DE.png)
 
   
 
@@ -65,7 +65,7 @@ im Fragenpool bzw. einer neuen Lernressource im Autorenbereich wird
 automatisch die hinterlegte Lizenz sowie der angegebene Lizenzgeber
 zugeordnet.
 
-![](../../download/attachments/108593578/LizenzMgmt_initiale_DE.png)
+![](assets/LizenzMgmt_initiale_DE.png)
 
   
 

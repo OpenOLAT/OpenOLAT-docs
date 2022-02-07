@@ -4,7 +4,7 @@ Here you can configure the question pool from the system administrator's point
 of view. Some of the settings can also be made in the [pool manager's
 administration](Question+Bank+Administration.html).
 
-![](../../download/attachments/108600821/Question%20bank%20administration%20EN.png)
+![](assets/Question%20bank%20administration%20EN.png)
 
 ### Tab Question bank
 
@@ -58,7 +58,7 @@ question bank to find their way around.
 
 ### Tab Review process
 
-![](../../download/attachments/108600821/Review%20process%20-%20administration%20EN.png)
+![](assets/Review%20process%20-%20administration%20EN.png)
 
   * Decision method: For the time being, only the assessment method Lower limit can be selected. The decision method "Lower limit" changes the status of a question to "Final", if the minimum number of ratings is reached and if all ratings are equal or higher than the lower limit. If a rating is lower than the lower limit, the question status this immediately changed to "Revision", even if the minimum number of ratings is not reached yet.
   * Number of ratings per question: This number of people must give a positive rating per question, i.e. above the lower limit, for the questions to change to Final status.

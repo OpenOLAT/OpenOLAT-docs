@@ -32,7 +32,7 @@ angelegten OpenMeetings Räume.
 
   
 
-![](../../download/attachments/590041/externe_Werkzeuge_16.png)
+![](assets/externe_Werkzeuge_16.png)
 
 ## Adobe Connect
 

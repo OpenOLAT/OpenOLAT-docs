@@ -16,7 +16,7 @@ persönlich festlegt, überschreibt die systemweite Startseite.
 
   
 
-![](../../download/attachments/590041/admin_landingPage_DE.png)
+![](assets/admin_landingPage_DE.png)
 
   
 
@@ -65,7 +65,7 @@ für einen Kurs sieht das folgendermassen aus:
 Wenn Sie also einen Link aus der Adresszeile des Browsers verwenden, müssen
 Sie immer die URL nach dem entsprechenden Schema kürzen:
 
-![](../../download/attachments/5013553/landingPage_URL.png)  
+![](assets/landingPage_URL.png)  
 
 Es können zwei Kurse festgelegt werden, die zusätzlich zu den bekannten
 Bereich nach Wunsch in die Navigation aufgenommen werden können. Dies sind die

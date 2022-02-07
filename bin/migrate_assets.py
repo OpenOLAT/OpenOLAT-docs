@@ -58,45 +58,67 @@ def previewAssetDetection(sourcedir):
 						print(idx,attachment,filename)
 					elif attachment:
 #						print(attachment[0])
-						print(idx,unquote(attachment[0][1]))
+						print(idx,fixFilename(unquote(attachment[0][1])),'\t\t\t', attachment[0])
 
 
+def fixFilename(filename):
+	if '﹖' in filename:
+		splitted = filename.split('﹖')
+		name = splitted[0]
+		ending = splitted[1][-4:]
+		return name + ending
+	else:
+		return filename
 
-def convertMigrateAssets(filename, targetDir, sourceDir):
-	if not targetDir.endswith('/'):
-		targetDir = targetDir + '/'
-	if not sourceDir.endswith('/'):
-		sourceDir = sourceDir + '/'
+
+def convertMigrateAssets(filename, assetDir, confluenceDownloadDir):
+	if not assetDir.endswith('/'):
+		assetDir = assetDir + '/'
+	if not confluenceDownloadDir.endswith('/'):
+		confluenceDownloadDir = confluenceDownloadDir + '/'
 	# 1) search all assets
 	with fileinput.FileInput(filename, inplace=True, backup='.bak') as file:
 		skipRestOfFile = False
 		for idx, line in enumerate(file):
+			"""
 			if idx > 0:
-				line = line.replace('### ','#### ')
-				line = line.replace('## ','### ')
-				line = line.replace('# ','## ')
+				if line.startswith('### '):
+					line = line.replace('### ','#### ')
+				elif line.startswith('## '):
+					line = line.replace('## ','### ')
+				elif line.startswith('# '):
+					line = line.replace('# ','## ')
+			"""
 			attachment = re.search('../../download/(\w*)/(\d*)/([^\)]*)\)',line)
 			if attachment:
 				type = attachment.group(1)
 				number = attachment.group(2)
 				assetname = attachment.group(3)
-#				assetname_spaced = assetname.replace('%20', ' ').replace('%C3%A4','ä')
 				assetname_spaced = unquote(assetname)
 				#print(type, number, assetname)
 				# 2) copy all assets
-				oldasset_spaced = sourceDir + type + '/' + number + '/' + assetname_spaced
-				newasset_spaced = targetDir + assetname_spaced
-				shutil.copyfile(oldasset_spaced, newasset_spaced)
+				oldasset_spaced = confluenceDownloadDir + type + '/' + number + '/' + assetname_spaced
+				newasset_spaced = assetDir + assetname_spaced
+				shutil.copyfile(oldasset_spaced, fixFilename(newasset_spaced))
 				# 3) replace asset path in file
 				oldasset = '../../download/' + type + '/' + number + '/' + assetname
-				newasset = targetDir + assetname
+				newasset = assetDir + fixFilename(assetname)
 				print(line.replace(oldasset, newasset), end='')
 			else:
 				if (line.startswith('  1. [OpenOlat 16.1 Benutzerhandbuch](../OO161DE.html)')):
 					skipRestOfFile = True
+				elif (line.startswith('  1. [OpenOlat 16.1 User Manual](../OO161EN.html)')):
+					skipRestOfFile = True
 				if not skipRestOfFile:
 					print(line, end='')
 
+
+
+def convertMigrateAssetsDirectory(sourcedir, assetDir, confluenceDownloadDir):
+	for entry in recurse_findfiles(sourcedir):
+		filename = entry.path
+		if (filename.endswith('.md')):
+			convertMigrateAssets(filename, assetDir, confluenceDownloadDir);
 
 def main(argv):
 	inputfile = ''
@@ -110,7 +132,8 @@ def main(argv):
 		if opt == '-h':
 			print('migrate_assets.py -d <directory>')
 			print('migrate_assets.py -f <htmlfile>')
-			print('migrate_assets.py -a <mdfile> <confluencedownloaddir> <assetdir>')
+			print('migrate_assets.py -a <mdfile> <assetdir> <confluencedownloaddir> ')
+			print('migrate_assets.py -a <mddir> <assetdir> <confluencedownloaddir> ')
 			sys.exit()
 		elif opt in ("-d", "--convertdir"):
 			dir = arg
@@ -125,10 +148,14 @@ def main(argv):
 			print(dir)
 			previewAssetDetection(dir)
 		elif opt in ("-a"):
-			file = arg
-			targetDir = args[0]
-			sourceDir = args[1]
-			convertMigrateAssets(file, targetDir, sourceDir)
+			assetDir = args[0]
+			confluenceDownloadDir = args[1]
+			if os.path.isdir(arg):
+				dir = arg
+				convertMigrateAssetsDirectory(dir, assetDir, confluenceDownloadDir)
+			else:
+				file = arg
+				convertMigrateAssets(file, assetDir, confluenceDownloadDir)
 			
 			
 			

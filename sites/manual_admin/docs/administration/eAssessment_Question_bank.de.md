@@ -4,7 +4,7 @@ Hier können Sie den Fragenpool aus Sicht des Systemadministrators
 konfigurieren. Einige der Einstellungen können auch in der [Administration des
 Poolverwalters](Fragenpool+Administration.html) vorgenommen werden.
 
-![](../../download/attachments/590041/Fragenpool_admin.png)
+![](assets/Fragenpool_admin.png)
 
 ### Tab Fragenpool
 
@@ -62,7 +62,7 @@ erleichtert den Benutzern des Fragenpools das Zurechtfinden.
 
 ### Tab Beurteilungsprozess
 
-![](../../download/attachments/590041/admin_fp_beurteilungsprozess.png)
+![](assets/admin_fp_beurteilungsprozess.png)
 
   * Beurteilungsmethode: Vorerst kann nur die Beurteilungsmethode Untergrenze ausgewählt werden. Bei der Beurteilungsmethode "Untergrenze" wird eine Frage auf den Status "Final" gesetzt, wenn die minimale Anzahl der Bewertungen erreicht ist und alle Bewertungen höher oder gleich hoch sind wie die Untergrenze. Wenn eine Bewertung unterhalb der Untergrenze liegt, dann wird der Status der Frage sofort auf "Revision" gesetzt, auch wenn die minimale Anzahl Bewertungen noch nicht erreicht ist.
   * Anzahl Beurteilungen pro Frage: Diese Anzahl an Personen muss pro Frage eine positive Beurteilung, also oberhalb der Untergrenze, abgeben, damit die Frage in den Status Final wechselt.

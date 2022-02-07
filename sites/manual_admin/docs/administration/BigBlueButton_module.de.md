@@ -45,7 +45,7 @@ als belegt.
 
   
 
-![](../../download/attachments/108593250/configuration-overview.png)
+![](assets/configuration-overview.png)
 
   
 
@@ -56,7 +56,7 @@ als belegt.
   *  **Capacity factor** : Server-Gewichtung im Load-Balancing
   *  **Server aktivieren** : Server steht für das Load-Balancing zur Verfügung
 
-![](../../download/attachments/108593250/add-server.png)
+![](assets/add-server.png)
 
 ## Load-Balancing
 
@@ -84,7 +84,7 @@ Audio-Benutzer, Viewer_
 
   
 
-![](../../download/attachments/108593250/image2020-4-14_14-21-13.png)
+![](assets/image2020-4-14_14-21-13.png)
 
 ## Raumvorlagen
 
@@ -106,15 +106,15 @@ Auswahl. Die Vorlagen steuern:
   *  **Offen für externe Benutzer:** Es wird automatisch ein Direktlink für Externe generiert, so dass sie den BigBlueButton Raum betreten können ohne vorher OpenOlat aufrufen zu müssen. Der Link wird dann in der Raumkonfiguration angezeigt und kann auch bei Bedarf vom Kursbesitzer oder -Betreuer geändert werden sowie an Gäste weitergegeben werden.
   *  **Raumvorlage aktiviert für _< Rolle>_:** Bestimmt, welche Rollen die Raumvorlage für neue Online-Termine nutzen können. Wird die Option "Gruppenmitglied" aktiviert, kann die Vorlage auch in OpenOlat [Gruppen ](Gruppenwerkzeuge+nutzen.html)verwendet und weiter konfiguriert werden.
 
-![](../../download/attachments/590041/BBB_Raumvorlage.png)
+![](assets/BBB_Raumvorlage.png)
 
  **Voreinstellungen der Raumvorlage**
 
-![](../../download/attachments/590041/bbb_administration_voreinstellungen_Raumvorlage.png)
+![](assets/bbb_administration_voreinstellungen_Raumvorlage.png)
 
  **Voreinstellungen für gesperrte Teilnehmer**
 
-![](../../download/thumbnails/590041/bbb_administration_voreinstellungen_gesp_Teilnehmer%EF%B9%96version=2&modificationDate=1618752978000&api=v2.png)
+![](assets/bbb_administration_voreinstellungen_gesp_Teilnehmer%EF%B9%96version=2&modificationDate=1618752978000&api=v2.png)
 
 ## Online-Termine
 
@@ -123,12 +123,12 @@ Kurs/Gruppe (Kontext) zu wechseln und/oder diesen Online-Termin zu löschen.
 Über die Suche können auch gezielt BigBlueButton Räume ermittelt und zum
 Beispiel schnell markiert und gelöscht werden.
 
-![](../../download/attachments/590041/bbb_administration_online-termine.png)
+![](assets/bbb_administration_online-termine.png)
 
 ## Kalender
 
 Kalenderübersicht über aller erfassten Online-Termine, um Zeiten mit hoher
 Belegung zu prüfen und Überschneidungen grafisch anzuzeigen.
 
-![](../../download/attachments/590041/bbb_administration_voreinstellungen_kalender.png)
+![](assets/bbb_administration_voreinstellungen_kalender.png)
 

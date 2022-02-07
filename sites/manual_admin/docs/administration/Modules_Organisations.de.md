@@ -9,7 +9,7 @@ können diverse zusätzliche Einstellungen für die systemweite Konfiguration
 vorgenommen werden. Bei Systemen mit dem fx-Release werden diese Anpassung
 durch frentix vorgenommen.
 
-![](../../download/attachments/108593591/Org_Aktivierung_DE.png)
+![](assets/Org_Aktivierung_DE.png)
 
   
 
@@ -52,7 +52,7 @@ direkt eine neue Unterorganisation zu erstellen.
 
   
 
-![](../../download/attachments/590041/Org_Optionen_de1.png)
+![](assets/Org_Optionen_de1.png)
 
 **Metadaten**
 
@@ -61,7 +61,7 @@ Organisationselementes angepasst oder ergänzt werden. Neben dem Namen und der
 Bezeichnung kann die Beschreibung oder der zugeordnete Organisationstyp für
 das Element aktualisiert werden.
 
-![](../../download/attachments/108593591/Org_Metadata_DE.png)
+![](assets/Org_Metadata_DE.png)
 
   
 
@@ -77,7 +77,7 @@ ausgewählt. Im anschliessenden Dialog kann nach Benutzern gesucht und
 entsprechend der Auswahl hinzugefügt werden. Das Hinzufügen von mehreren
 Benutzern ist möglich.
 
-![](../../download/attachments/108593591/Org_Benutzerverwaltung_DE.png)
+![](assets/Org_Benutzerverwaltung_DE.png)
 
   
 

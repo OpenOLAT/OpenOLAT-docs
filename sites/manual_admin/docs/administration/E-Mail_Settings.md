@@ -25,7 +25,7 @@ up for users having an email address. The following limitations can occur
   * Login with email address is deactivated in general. This means that any user cannot login with the email address, but only with the username. This is also valid for users who possess a unique email address. 
   * Users without a unique email address can reset their password only by inserting the username, but not the email address.
 
-![](../../download/attachments/590936/email_EN.png)
+![](assets/email_EN.png)
 
 Warnung
 

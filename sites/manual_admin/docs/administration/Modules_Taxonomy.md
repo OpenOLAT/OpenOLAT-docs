@@ -20,7 +20,7 @@ competences can be added to users which allows them access to the taxonomy.
 
 Example of a taxonomy structure according to subjects for the document pool:
 
-![](../../download/attachments/108600620/Taxonomie_Struktur_DE.png)
+![](assets/Taxonomie_Struktur_DE.png)
 
 Directly on the overview page a new taxonomy can be created. If a subject
 structure has already been created in the question pool, it will be shown here
@@ -29,11 +29,11 @@ with the title Question pool.
 Several taxonomy structures can be created and used for different reasons
 (question bank or document pool).
 
-![](../../download/attachments/108600620/Taxonomy%20overview%20EN.png)
+![](assets/Taxonomy%20overview%20EN.png)
 
 If you display a taxonomy, you will get to the following overview:
 
-![](../../download/attachments/108600620/Tax%20Metatdata%20EN.png)
+![](assets/Tax%20Metatdata%20EN.png)
 
 ## Metadata
 
@@ -64,7 +64,7 @@ In the tab "Level types" a new type can be created with "Add new level type".
   *  _Description:_ If desired a short description of the level type can be added.
   *  _Sub types:_ Out of the already existing level types a sub type can be chosen. Like this it becomes possible to create a hierarchical structure. It will get visible when creating the taxonomy level.
 
-![](../../download/attachments/108600620/Tax%20Ebenentypen%20EN.png)
+![](assets/Tax%20Ebenentypen%20EN.png)
 
 ## Taxonomy
 
@@ -79,11 +79,11 @@ When creating the following attributes are necessary:
   * Order: Hereby a manual order is possible.
   * Description: If desired a short description of the taxonomy level can be added.
 
-![](../../download/attachments/108600620/Taxebenen%20EN.png)
+![](assets/Taxebenen%20EN.png)
 
 In the overview a hierarchical structure is now visible.
 
-![](../../download/attachments/590936/Taxonomy_taxonomy.png)
+![](assets/Taxonomy_taxonomy.png)
 
 In the detail view competences can be added afterwards. Like this users get
 access rights for the single taxonomy levels. In OpenOlat competences have
@@ -97,7 +97,7 @@ shortly:
   * Have: This competence is not yet used in OpenOlat. In the future this competence can be gained by a learner through learning activities in OpenOlat (e.g. test). This competence has an expiry date.
   * Target: This competence is not yet used in OpenOlat. A learner has a target he wants to reach. It is the target to gain this competence.
 
-![](../../download/attachments/590936/taxonomy_competences.png)
+![](assets/taxonomy_competences.png)
 
 ## Lost+Found
 

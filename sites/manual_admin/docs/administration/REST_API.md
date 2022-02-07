@@ -9,7 +9,7 @@ specific objects and creating various amounts of structural behaviors.
 
 The REST API can be activated / deactivated under administration.
 
-![](../../download/attachments/108600820/Bildschirmfoto%202019-10-10%20um%2016.18.32.png)
+![](assets/Bildschirmfoto%202019-10-10%20um%2016.18.32.png)
 
   * 1Concepts
     * 1.1Usage

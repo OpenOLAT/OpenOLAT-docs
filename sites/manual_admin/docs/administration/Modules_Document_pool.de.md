@@ -19,7 +19,7 @@ Weitere Informationen finden Sie im Kapitel
 Der Dokumentenpool kann als Site in der Hauptnavigation oben eingeschaltet
 werden.
 
-![](../../download/attachments/590041/Dokumentenpool_beispiel_DE.png)
+![](assets/Dokumentenpool_beispiel_DE.png)
 
 ## Tab Dokumentenpool
 
@@ -36,7 +36,7 @@ Dokumentenpool direkt unter der Hauptnavigation angezeigt. Dort können
 Systemadministratoren Dokumente hochladen und allen zur Verfügung stellen,
 unabhängig von ihren Zugriffsrechten im Dokumentpool.
 
-![](../../download/attachments/590041/Dokumentenpool_DE.png)
+![](assets/Dokumentenpool_DE.png)
 
 ## Tab Zugangsberechtigung
 
@@ -74,7 +74,7 @@ Taxonomy möglich.
 Ferner können hier Einstellungen für die Kompetenztypen "Handlungsfeld" und
 "Fach" vorgenommen werden.
 
-![](../../download/attachments/590041/Dokumentenpool_Zugangsberechtigung_DE.png)
+![](assets/Dokumentenpool_Zugangsberechtigung_DE.png)
 
 ## Tab Infoseite
 
@@ -82,5 +82,5 @@ Zum Schluss kann eine Infoseite gestaltet werden. Diese erscheint auf der
 obersten Ebene des Dokumentenpools. Es empfiehlt sich, hier beispielsweise
 eine Anleitung zum Gebrauch des Dokumentenpools zu hinterlegen.
 
-![](../../download/attachments/590041/Dokumentenpool_Infoseite.png)
+![](assets/Dokumentenpool_Infoseite.png)
 

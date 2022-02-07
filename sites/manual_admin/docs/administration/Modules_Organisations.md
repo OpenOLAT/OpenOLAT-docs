@@ -8,7 +8,7 @@ activated in Administration. Customers of frentix please contact
 various additional settings can be made for the system-wide configuration. For
 systems with the fx-Release, these adjustments are made by frentix.
 
-![](../../download/attachments/108600677/Org_Aktivierung_DE.png)
+![](assets/Org_Aktivierung_DE.png)
 
 ## Creating organizational structures
 
@@ -48,7 +48,7 @@ suborganization directly.
 
   
 
-![](../../download/attachments/108600677/Org_Optionen_de1.png)
+![](assets/Org_Optionen_de1.png)
 
 **Metadata**
 
@@ -56,7 +56,7 @@ If an organizational structure is selected, the metadata of the organizational
 element can be adjusted or supplemented. Next to the name and label, the
 description or the assigned organization type for the element can be updated.
 
-![](../../download/attachments/108600677/Org_Metadata_DE.png)
+![](assets/Org_Metadata_DE.png)
 
 **User administration**
 
@@ -68,7 +68,7 @@ the desired role is selected from the listed roles. In the following dialog,
 users can be searched for and added according to the selection. It is possible
 to add multiple users.
 
-![](../../download/attachments/108600677/Org_Benutzerverwaltung_DE.png)
+![](assets/Org_Benutzerverwaltung_DE.png)
 
 **Learning resources**
 

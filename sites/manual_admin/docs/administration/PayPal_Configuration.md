@@ -33,22 +33,22 @@ define and will be subtracted from the payment made by your clients.
 Log into your PayPal business account and perform the following steps:
 
 Step 1: select "Profile"|
-![](../../download/attachments/590936/paypalconfig1_en.png)  
+![](assets/paypalconfig1_en.png)  
 ---|---  
 Step 2: select "My selling tools"|
-![](../../download/attachments/590936/paypalconfig23_en.png)  
+![](assets/paypalconfig23_en.png)  
 Step 3: select "API access"  
 Step 4: selection option 2 to request the API-Credentials|
-![](../../download/attachments/590936/paypalconfig4_en.png)  
+![](assets/paypalconfig4_en.png)  
 Step 5: select the method with the API-Signature|
-![](../../download/attachments/590936/paypalconfig56_en.png)  
+![](assets/paypalconfig56_en.png)  
 Step 6: submit the form  
 Step 7: copy the API Username, the API Password and the Signature to the
 PayPal configuration form in OLAT|
-![](../../download/attachments/590936/paypalconfig7_en.png)  
+![](assets/paypalconfig7_en.png)  
 Step 8: go back in PayPal to step 2 and select "Block payments" in the selling
-tools| ![](../../download/attachments/590936/paypalconfig8_en.png)  
+tools| ![](assets/paypalconfig8_en.png)  
 Step 9: select the option "No, accept them and convert" for the configuration
 "Block payments sent to me in a currency I do not hold" Step 10: Don't forget
-to save| ![](../../download/attachments/590936/paypalconfig910_en.png)
+to save| ![](assets/paypalconfig910_en.png)
 

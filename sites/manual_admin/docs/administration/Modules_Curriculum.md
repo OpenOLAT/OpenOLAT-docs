@@ -8,7 +8,7 @@ activated in the administration. Customers of frentix please contact
 the display of the personal curriculum (= "Courses") can additionally be
 activated in the "Courses" area.
 
-![](../../download/attachments/108600591/curriculum_activation.png)
+![](assets/curriculum_activation.png)
 
 ## Defining curriculum types
 
@@ -19,10 +19,10 @@ a hierarchical curriculum is Course → Semester → Module → Course.
 
 In the table the already created curriculum types are displayed. Editing the
 data is possible via the
-![](../../download/thumbnails/108600591/Symbol_Bearbeiten%EF%B9%96version=1&modificationDate=1638462127000&api=v2.png)-symbol.
+![](assets/Symbol_Bearbeiten%EF%B9%96version=1&modificationDate=1638462127000&api=v2.png)-symbol.
 The respective type can be copied or deleted via the 3-dot link.
 
-![](../../download/attachments/108600591/curriculum_types.png)
+![](assets/curriculum_types.png)
 
 ## Creating a curriculum type
 
@@ -38,5 +38,5 @@ curriculum element.
 
 Existing curriculum types can be subordinated to the new type as sub-types.
 
-![](../../download/attachments/108600591/create_curriculum_type.png)
+![](assets/create_curriculum_type.png)
 

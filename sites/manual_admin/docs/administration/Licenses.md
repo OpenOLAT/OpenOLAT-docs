@@ -18,7 +18,7 @@ sections.
 
   
 
-![](../../download/attachments/108600775/LizenzMgmt_aktivieren_EN.png)
+![](assets/LizenzMgmt_aktivieren_EN.png)
 
 ### Types of licenses
 
@@ -36,7 +36,7 @@ dialog opens to fill in a license name, a corresponding licenses text and a
 CSS class. Licenses created in such a way can just be edited afterwards, they
 can not be deleted.
 
-![](../../download/attachments/108600775/LizenzMgmt_eigeneLizenz_EN.png)
+![](assets/LizenzMgmt_eigeneLizenz_EN.png)
 
   
 
@@ -50,7 +50,7 @@ visible in the overview if the licenses have been generally activated for the
 corresponding section. You can activate specific licenses to individual
 section if required.
 
-![](../../download/attachments/108600775/LizenzMgmt_Lizenztypen_EN.png)
+![](assets/LizenzMgmt_Lizenztypen_EN.png)
 
   
 
@@ -67,5 +67,5 @@ the Question pool, or a new learning resource to the authoring section, the
 system will automatically assign the deposited license and the appropriate
 licensor.
 
-![](../../download/attachments/108600775/LizenzMgmt_initiale_EN.png)
+![](assets/LizenzMgmt_initiale_EN.png)
 

@@ -44,7 +44,7 @@ room template.
 
   
 
-![](../../download/attachments/108600553/configuration-overview.png)
+![](assets/configuration-overview.png)
 
 ## Add BigBlueButton-Server
 
@@ -56,7 +56,7 @@ room template.
 
   *  **Activate server** : Server is available for load balancing
 
-![](../../download/attachments/108600553/add-server.png)
+![](assets/add-server.png)
 
 ## Load balancing
 
@@ -83,7 +83,7 @@ viewer_
 
   
 
-![](../../download/attachments/108600553/image2020-4-14_14-21-13.png)
+![](assets/image2020-4-14_14-21-13.png)
 
 ## Room templates
 
@@ -116,24 +116,24 @@ meeting. Templates control the following characteristics:
 
   
 
-![](../../download/attachments/590936/bbb_room_template.png)
+![](assets/bbb_room_template.png)
 
   
 
  **Default settings of the room template**
 
-![](../../download/attachments/108600553/edit-room-template-2.png)
+![](assets/edit-room-template-2.png)
 
  **Default settings for locked participants**
 
-![](../../download/attachments/108600553/edit-room-template-3.png)
+![](assets/edit-room-template-3.png)
 
 Online-Meetings
 
 Overview of configured online-meetings with the possibility to switch directly
 to the course/group (context) and/or delete this online-meeting.
 
-![](../../download/attachments/590936/bbb_administration_online-meetings.png)
+![](assets/bbb_administration_online-meetings.png)
 
 ## Calendar
 
@@ -142,7 +142,7 @@ occupancy and graphically display overlaps. This gives you a quick overview of
 the scheduled synchronous meetings of the entire OpenOlat instance and, if
 necessary, you can quickly select an alternative date.
 
-![](../../download/attachments/590936/bbb_administration_calendar.png)
+![](assets/bbb_administration_calendar.png)
 
   
 

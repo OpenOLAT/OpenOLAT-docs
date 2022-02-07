@@ -117,7 +117,7 @@ ausgewählt werden. Wenn in der Administration keine Begründungen hinterlegt
 sind, erschient die Begründungsauswahl beim Schliessen des Lektionenblocks
 nicht.
 
-![](../../download/attachments/590041/Absenz_Begruendung.png)
+![](assets/Absenz_Begruendung.png)
 
 ## Tab Lektionenblockreport
 

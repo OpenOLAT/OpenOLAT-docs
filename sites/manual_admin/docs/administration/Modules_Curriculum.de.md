@@ -10,7 +10,7 @@ zusätzlich die Anzeige des persönlichen Curriculums (= "Lehrgänge") im Bereic
 
   
 
-![](../../download/attachments/590041/Curriciulum_Aktivierung_de.png)
+![](assets/Curriciulum_Aktivierung_de.png)
 
   
 
@@ -24,11 +24,11 @@ Semester → Modul → Kurs.
 
 In der Tabelle werden die bereits angelegten Curriculum-Typen angezeigt. Eine
 Bearbeitung der Daten ist über das
-![](../../download/attachments/108593491/Symbol_Bearbeiten.png)-Symbol
+![](assets/Symbol_Bearbeiten.png)-Symbol
 möglich. Über den 3-Punkte Link  kann der jeweilige Typ kopiert oder gelöscht
 werden.
 
-![](../../download/attachments/590041/Curriculum_Typen.png)
+![](assets/Curriculum_Typen.png)
 
   
 
@@ -47,7 +47,7 @@ Curriculum-Element zugeordneten Kurse.
 Bereits bestehende Curriculum-Typen können dem neuen Typ ausserdem als Sub-
 Typen untergeordnet werden.
 
-![](../../download/attachments/590041/Curriculum_Typen_erstellen.png)
+![](assets/Curriculum_Typen_erstellen.png)
 
   
 

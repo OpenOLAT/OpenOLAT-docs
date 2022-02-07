@@ -23,7 +23,7 @@ auf die Taxonomie erlauben.
 
 Beispiel einer Taxonomiestruktur nach Fächern für den Dokumentenpool:
 
-![](../../download/attachments/590041/Taxonomie_Struktur_DE.png)
+![](assets/Taxonomie_Struktur_DE.png)
 
 Direkt auf der Übersichtsseite kann eine neue Taxonomie erstellt werden.
 Sofern Sie im Fragenpool bereits eine Fachbereichsstruktur angelegt haben,
@@ -32,11 +32,11 @@ wird diese hier mit dem Titel "Question Pool" angezeigt.
 Es können mehrere Taxonomiestrukturen erstellt und für verschiedene Zwecke
 (Fragenpool oder Dokumentenpool) aktiviert werden.
 
-![](../../download/attachments/108593662/Taxonomy%20overview%20DE.png)
+![](assets/Taxonomy%20overview%20DE.png)
 
 Lässt man sich eine Taxonomie anzeigen gelangt man zur folgenden Übersicht:
 
-![](../../download/attachments/108593662/Tax%20Metatdata%20DE.png)
+![](assets/Tax%20Metatdata%20DE.png)
 
   
 
@@ -73,7 +73,7 @@ erstellt werden.
 
   
 
-![](../../download/attachments/108593662/Tax%20Ebenentypen%20DE.png)
+![](assets/Tax%20Ebenentypen%20DE.png)
 
 ## Taxonomie
 
@@ -88,11 +88,11 @@ Beim Erstellen werden folgende Angaben benötigt:
   * Sortierung: Hiermit ist eine manuelle Sortierung möglich.
   * Beschreibung: Falls gewünscht kann eine kurze Beschreibung der Taxonomieebene hinzugefügt werden.
 
-![](../../download/attachments/108593662/Taxebenen.png)
+![](assets/Taxebenen.png)
 
 In der Übersicht ist nun die hierarchische Struktur sichtbar.
 
-![](../../download/attachments/590041/taxonomy_taxonomie_DE.png)
+![](assets/taxonomy_taxonomie_DE.png)
 
 In der Detailansicht können anschliessend Kompetenzen hinzugefügt werden. So
 erhalten Benutzer die Zugriffsrechte für die einzelnen Taxonomieebenen. Im
@@ -106,7 +106,7 @@ kurz umrissen:
   * Haben: Diese Kompetenz wird momentan im OpenOlat noch nicht verwendet. Diese Kompetenz sollen zukünftig Lernende durch eine Lernaktivität im OpenOlat (z.B. absolvierter Test) erhalten. Diese Kompetenz wird auch ein Verfallsdatum haben.
   * Ziel: Diese Kompetenz wird momentan im OpenOlat noch nicht verwendet. Ein Lernender hat ein Ziel, das er erreichen möchte. Sein Ziel ist es, diese Kompetenz zu erwerben.
 
-![](../../download/attachments/590041/taxonomy_detail_DE.png)
+![](assets/taxonomy_detail_DE.png)
 
 ## Lost+Found
 

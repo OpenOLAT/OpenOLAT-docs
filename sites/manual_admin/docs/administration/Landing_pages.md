@@ -15,7 +15,7 @@ Each user can choose his or her preferred landing page in the personal menu in
 Settings](Configuration.html#Configuration-_specifics). However, this
 overrides the system default.
 
-![](../../download/attachments/590936/admin_landingPage_EN.png)
+![](assets/admin_landingPage_EN.png)
 
 The **position** defines the order in which the rules are applied: the first
 rule to match with a user role or an attribute, is applied, and the
@@ -59,7 +59,7 @@ which would look for a course accordingly:
 If you are planning to use a custom link from the browser address bar, the URL
 always needs to be shortened according to the following pattern:  
 
-![](../../download/attachments/5013553/landingPage_URL.png)
+![](assets/landingPage_URL.png)
 
 You can predefine two courses that will be displayed in the top navigation in
 addition to the default sites. These are the Info courses 1 & 2\. Which

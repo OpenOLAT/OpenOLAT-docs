@@ -1,15 +1,17 @@
 
 [x] alle md files in space verschieben
 [x] Page ins Navigation einfügen
-[ ] assets bereinigen
-[ ] Cross-Links bereinigen
-[ ] auto TOC im Header bereinigen
-[ ] Footer bereinigen
+[x] assets bereinigen
+[-] auto TOC im Header bereinigen
+[x] Footer bereinigen
 
+[ ] Cross-Links bereinigen
+[ ] Tabellen bereinigen
+[ ] Info und Warnboxen
     
   - Administration: "Administration.md"
     - System: "System.md"
-    - Core functions: "Core_functions.md"							assets done
+    - Core functions: "Core_functions.md"							
       - REST API: "REST_API.md"
       - Landing pages: "Landing_pages.md"
       - E-Mail Settings: "E-Mail_Settings.md"
