@@ -26,7 +26,7 @@ der Änderungen in 15.0 – 15.0.6 finden Sie
 [hier](https://confluence.openolat.org/display/OO150DE/Release+Notes+15.0#ReleaseNotes15.0-ReleaseNotes-
 Versionen).
 
-![](../../download/attachments/108593405/Features_Improvements_Labels_DE.png)
+![](assets/151/Features_Improvements_Labels_DE.png)
 
   * 1 Release Notes 15.1 
   * 2Kursbaustein Terminplanung
@@ -44,7 +44,7 @@ Versionen).
 
   
 
-# Kursbaustein Terminplanung
+## Kursbaustein Terminplanung
 
 Der Kursbaustein unterstützt zwei Szenarien: Einschreibung und Terminfindung.
 Für beides können sowohl Einzeltermine als auch wiederkehrende Serientermine
@@ -53,7 +53,7 @@ Teilnehmerkreis die Termine sichtbar sind. So lässt sich innerhalb des
 Bausteins die Terminplanung für verschiedene Gruppen-, Kurs- und
 Curriculumteilnehmer abbilden.
 
-## Einschreibung
+#### Einschreibung
 
 Teilnehmer wählen einen oder mehrere Termine aus einer Reihe verfügbarer
 Termine aus. Sind alle freien Plätze eines Termins belegt, ist er für andere
@@ -66,7 +66,7 @@ Betreuer bestätigt werden.
 
   
 
-## Terminfindung
+#### Terminfindung
 
 Teilnehmer wählen aus einer Reihe von Terminen einen oder mehrere aus, um den
 bestmöglichen Termin für einen gemeinsamen Anlass zu finden.
@@ -78,9 +78,9 @@ eingetragen haben und kann abschliessend den besten Termin fixieren.
 
   
 
-![](../../download/attachments/108593405/Coachview_Einschreibung.png)
+![](assets/151/Coachview_Einschreibung.png)
 
-![](../../download/attachments/108593405/Coachview_Terminfindung.png)
+![](assets/151/Coachview_Terminfindung.png)
 
 Der Betreuer kann Teilnehmer auch manuell zu Terminen hinzufügen, löschen oder
 auch umbuchen, wenn beispielsweise der zur Auswahl gestellte Termin entfällt.
@@ -93,14 +93,14 @@ Die Teilnehmer sehen auf einen Blick die wichtigsten Informationen zu bereits
 bestätigten Terminen, Angaben zu geplanten (noch nicht bestätigten) Terminen,
 und auch zu welchem Thema sie noch keinen Termin gewählt haben.
 
-![](../../download/attachments/108593405/Screenshot%202020-07-07%20at%2017.26.23.png)
+![](assets/151/Screenshot%202020-07-07%20at%2017.26.23.png)
 
   
 
 Gewählte und bestätigte Termine werden automatisch im persönlichen Kalender
 des Teilnehmers eingetragen.
 
-![](../../download/attachments/108593405/Screenshot%202020-07-07%20at%2017.14.20.png)
+![](assets/151/Screenshot%202020-07-07%20at%2017.14.20.png)
 
   
 
@@ -108,7 +108,7 @@ des Teilnehmers eingetragen.
 
   
 
-# BigBlueButton - neue Funktionen
+## BigBlueButton - neue Funktionen
 
 Der BigBlueButton-Baustein wurde um zahlreiche Funktionalitäten erweitert:
 
@@ -122,7 +122,7 @@ Der BigBlueButton-Baustein wurde um zahlreiche Funktionalitäten erweitert:
 
   
 
-![](../../download/attachments/108593405/Screenshot%202020-07-13%20at%2015.27.31.png)
+![](assets/151/Screenshot%202020-07-13%20at%2015.27.31.png)
 
   
 
@@ -130,7 +130,7 @@ Der BigBlueButton-Baustein wurde um zahlreiche Funktionalitäten erweitert:
 
   
 
-# Tests: Optionen zur Anzeige der Resultate
+## Tests: Optionen zur Anzeige der Resultate
 
 Die Anzeige von Testresultaten am Testbaustein kann nun anhand des Bestanden /
 Nicht bestanden-Status des Teilnehmenden und auch in Kombination mit einem
@@ -142,7 +142,7 @@ Folgende Optionen sind möglich: Nie, Immer, Nur wenn nicht bestanden (Datum
 von bis), Unterschiedliches Freischaltungsdatum für Bestanden / Nicht
 bestanden, Wenn Bestanden oder Nicht bestanden (Datum von bis)
 
-![](../../download/attachments/108593405/Screenshot%202020-07-09%20at%2009.38.48.png)
+![](assets/151/Screenshot%202020-07-09%20at%2009.38.48.png)
 
   
 
@@ -150,7 +150,7 @@ bestanden, Wenn Bestanden oder Nicht bestanden (Datum von bis)
 
   
 
-# Automatisierter Benutzer-Lebenszyklus
+## Automatisierter Benutzer-Lebenszyklus
 
 Ähnlich dem automatisch gesteuerten Kurs-Lifecycle kann nun auch der
 Lebenszyklus von OpenOlat-Benutzern automatisiert werden. In einem ersten
@@ -161,7 +161,7 @@ Login, so wird das Benutzerkonto gelöscht. Je nach Konfiguration können die
 Benutzer vor bzw. nach der Deaktivierung oder Löschung des Kontos eine E-Mail
 mit einem entsprechenden Hinweis erhalten.
 
-![](../../download/attachments/108593405/Screenshot%202020-07-13%20at%2017.46.01.png)
+![](assets/151/Screenshot%202020-07-13%20at%2017.46.01.png)
 
   
 
@@ -169,7 +169,7 @@ mit einem entsprechenden Hinweis erhalten.
 
   
 
-# Erweitertes Hilfe-Modul in OpenOlat
+## Erweitertes Hilfe-Modul in OpenOlat
 
 In der Administration können verschiedene Hilfsangebote in OpenOlat für die
 Bereiche Loginseite, Autorenbereich und Benutzerwerkzeuge freigeschaltet
@@ -186,7 +186,7 @@ Webseiten oder ähnliches definiert werden.
 
   
 
-![](../../download/attachments/108593405/Screenshot_2020-07-13_at_18_11_02.png)
+![](assets/151/Screenshot_2020-07-13_at_18_11_02.png)
 
   
 
@@ -194,7 +194,7 @@ Webseiten oder ähnliches definiert werden.
 
   
 
-# Weiteres, kurz notiert
+## Weiteres, kurz notiert
 
   * Kursbaustein edu-sharing zum Einbinden von edu-sharing-Inhalten analog zur Einzelseite
   * Unterstützung von Bildern innerhalb von Forum-Beiträgen
@@ -212,7 +212,7 @@ Webseiten oder ähnliches definiert werden.
 
   
 
-# Technisches
+## Technisches
 
   * Performance Verbesserungen
   * Library Updates
@@ -223,7 +223,7 @@ Webseiten oder ähnliches definiert werden.
 
   
 
-# Release Notes - Versionen
+## Release Notes - Versionen
 
   * [15.1.4](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=16938)
   * [15.1.3](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=16935)

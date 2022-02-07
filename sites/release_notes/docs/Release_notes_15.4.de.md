@@ -25,9 +25,9 @@ OpenOlat hinzugefügt. Hier finden Sie die wichtigsten neuen Funktionen und
 Liste der Änderungen in 15.3 – 15.3.9 finden Sie
 [hier](Release+Notes+15.3.html#ReleaseNotes15.3-ReleaseNotes-Versionen).
 
-![](../../download/attachments/108593159/Features_Improvements_Labels_DE.png)
+![](assets/154/Features_Improvements_Labels_DE.png)
 
-![](../../download/attachments/108593159/press-release.png)  
+![](assets/154/press-release.png)  
 
 Releasedatum: 22.01.2021
 
@@ -53,7 +53,7 @@ Letzte Veröffentlichung: 07.05.2021
 
   
 
-# Microsoft Teams Online Meeting Integration
+## Microsoft Teams Online Meeting Integration
 
 Ab sofort steht auch die Nutzung von Microsoft Teams Online Meetings in
 OpenOlat zur Verfügung. Die Integration wurde - analog zu BigBlueButton - in
@@ -66,7 +66,7 @@ folgenden Bereichen umgesetzt:
 
   
 
-![](../../download/attachments/108593159/Teams%20Kurs%20DE.png)
+![](assets/154/Teams%20Kurs%20DE.png)
 
 Microsoft Teams ist ein Produkt von Microsoft. Um Microsoft Teams Online-
 Meetings in OpenOlat nutzen zu können, muss in Azure eine App angelegt und mit
@@ -91,7 +91,7 @@ Für Beratung und Support zur Einführung melden Sie sich unter
 
   
 
-# Kurstypisierung
+## Kurstypisierung
 
 Mit der Kurstypisierung werden Kurse zum einen "Technisch" und zum anderen
 "Didaktisch" differenziert. Dies sorgt im Autorenbereich für einen besseren
@@ -114,7 +114,7 @@ Technischer und didaktischer Kurstyp sind unabhängig voneinander. So kann ein
 Selbstlernkurs sowohl als herkömmlicher als auch in Form eines Lernpfadkurses
 aufgebaut werden.
 
-![](../../download/attachments/108593159/Kurstypisierung%20DE.png)
+![](assets/154/Kurstypisierung%20DE.png)
 
   
 
@@ -122,7 +122,7 @@ aufgebaut werden.
 
   
 
-# Wizard für Prüfungskurs
+## Wizard für Prüfungskurs
 
 Das Anlegen eines einfachen Kurses mit Hilfe eines Wizards ist in OpenOlat
 schon länger möglich. Mit dem neuen Prüfungskurs-Wizard kann nun auch gezielt
@@ -136,7 +136,7 @@ und Prüfungsteilnehmer zugeordnet werden.
 Sofern ein Prüfungszeitraum eingetragen wird, ist im erstellten Prüfungskurs
 automatisch ein Prüfungsmodus für diese Zeit konfiguriert.
 
-![](../../download/attachments/108593159/Wizard%20Exam%20Course%20DE.png)
+![](assets/154/Wizard%20Exam%20Course%20DE.png)
 
   
 
@@ -144,7 +144,7 @@ automatisch ein Prüfungsmodus für diese Zeit konfiguriert.
 
   
 
-# Optimierung Kursbaustein "Terminplanung"
+## Optimierung Kursbaustein "Terminplanung"
 
 Neben umfänglichen Usability-Verbesserungen ist es nun möglich, einen Anlass
 (vormals "Thema") inkl. aller oder ausgewählter Termine zu duplizieren, was
@@ -158,15 +158,15 @@ für Termine aktiviert werden.
 
   
 
-![](../../download/attachments/108593159/Anlass%20duplizieren%20DE.png)
+![](assets/154/Anlass%20duplizieren%20DE.png)
 
 **Ansicht Teilnehmende**
 
-![](../../download/attachments/108593159/TN-View%20DE.png)
+![](assets/154/TN-View%20DE.png)
 
 **Ansicht Kursbetreuer**
 
- **![](../../download/attachments/108593159/Betreuer-View%20DE.png)  
+ **![](assets/154/Betreuer-View%20DE.png)  
 **
 
   
@@ -175,7 +175,7 @@ für Termine aktiviert werden.
 
   
 
-# BigBlueButton - Erweiterungen
+## BigBlueButton - Erweiterungen
 
 Um die Autoren und Betreuer bei der Administration und Vorbereitung des
 virtuellen Klassenraumes zu unterstützen, wurde die Integration von
@@ -199,7 +199,7 @@ Server verwendet, so können diese Aufzeichnungen als " _Dauerhaft_ " markiert
 werden. Beim Löschen des Meetings oder des Kurses werden diese Aufzeichnungen
 dann nur auf OpenOlat gelöscht - nicht auf dem Opencast-Server.
 
-![](../../download/attachments/108593159/BBB%20Opt.%20DE.png)
+![](assets/154/BBB%20Opt.%20DE.png)
 
   
 
@@ -207,21 +207,21 @@ dann nur auf OpenOlat gelöscht - nicht auf dem Opencast-Server.
 
   
 
-# Neuerungen im Kurs
+## Neuerungen im Kurs
 
 BigBlueButton und Microsoft Teams Online Meetings stehen nun auch als
 _Kurswerkzeuge_ zur Verfügung. Durch den zentralen Zugriff über das Kursmenü
 bleibt der eigentliche Lernablauf (insbesondere im sequenzierten Lernpfad)
 ungestört.
 
-![](../../download/attachments/108593159/Kurs-Tools%20DE.png)  
+![](assets/154/Kurs-Tools%20DE.png)  
 
   
 
 Ein neuer Wizard für das Mitgliedermanagement im Kurs verbessert den Workflow,
 um Rollen zum Kurs hinzuzufügen und aus dem Kurs zu entfernen.
 
-![](../../download/attachments/108593159/Kurs%20Usermgmt%20DE.png)
+![](assets/154/Kurs%20Usermgmt%20DE.png)
 
 Variablen, die in E-Mail-Formularen und Kurs-Mails zur Verfügung stehen,
 wurden OpenOlat-weit harmonisiert, der Mail-Footer ergänzt.
@@ -229,7 +229,7 @@ wurden OpenOlat-weit harmonisiert, der Mail-Footer ergänzt.
 Beim optionalen Mail-Versand von Mitteilungen können als _Empfänger_ auch
 _Gruppen_ bzw. _Curricula_ ausgewählt werden.
 
-![](../../download/attachments/108593159/Mitteilung%20Empf%C3%A4nger%20EN.png)
+![](assets/154/Mitteilung%20Empf%C3%A4nger%20EN.png)
 
   
 
@@ -237,7 +237,7 @@ _Gruppen_ bzw. _Curricula_ ausgewählt werden.
 
   
 
-# Ergänzungen im Autorenbereich
+## Ergänzungen im Autorenbereich
 
   * Sammelaktion, um Besitzer zu Lernressourcen hinzuzufügen oder zu entfernen
   * Anzeige der "Externen Referenz" im Auswahldialog von Lernressourcen
@@ -248,7 +248,7 @@ _Gruppen_ bzw. _Curricula_ ausgewählt werden.
 
   
 
-# Erweiterungen in der Benutzerverwaltung
+## Erweiterungen in der Benutzerverwaltung
 
   * Einführung eines Ablaufdatums für zeitlich begrenzte Benutzerkonten (s. Screenshot)
     * Tool zum Erstellen von temporären Benutzern
@@ -257,7 +257,7 @@ _Gruppen_ bzw. _Curricula_ ausgewählt werden.
   * Massensuche: Suche nach mehreren Benutzern anhand von Username, E-Mail oder Institutionsnummer möglich
   * Bestätigung der Änderung der E-Mail-Adresse eines Benutzers kann durch Administrator übersteuert werden
 
-![](../../download/attachments/108593159/Screenshot%202021-02-03%20at%2015.13.13.png)
+![](assets/154/Screenshot%202021-02-03%20at%2015.13.13.png)
 
   
 
@@ -265,7 +265,7 @@ _Gruppen_ bzw. _Curricula_ ausgewählt werden.
 
   
 
-# Usability
+## Usability
 
   * Anzeige der Zeilennummern bei Importformularen (z.B. Benutzerimport)
   * Anzeige der Spaltensortierung in OpenOlat-Tabellen verbessert
@@ -278,7 +278,7 @@ _Gruppen_ bzw. _Curricula_ ausgewählt werden.
 
   
 
-# Weiteres, kurz notiert
+## Weiteres, kurz notiert
 
   * Dokument-Baustein: Höhe der Dokumenten-Vorschau kann optional festgelegt werden
   * Dokumenten-Editoren: Letzter Bearbeitender des Dokumentes wird in den Metadaten angeben
@@ -293,7 +293,7 @@ _Gruppen_ bzw. _Curricula_ ausgewählt werden.
 
   
 
-# Technisches
+## Technisches
 
   * Codepflege: Upgrader für OpenOlat 10.x and 11.x entfernt
   * Support JBoss EAP 7.3
@@ -306,7 +306,7 @@ _Gruppen_ bzw. _Curricula_ ausgewählt werden.
 
   
 
-# Release Notes - Versionen
+## Release Notes - Versionen
 
   * [15.4.7](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=17101)
   * [15.4.6](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=17027)
@@ -316,175 +316,4 @@ _Gruppen_ bzw. _Curricula_ ausgewählt werden.
   * [15.4.2](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=17018)
   * [15.4.1](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=17015)
   * [15.4](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=16941)
-
-  
-
-  1. [OpenOlat 16.1 Benutzerhandbuch](../OO161DE.html)
-  2. [Seiten](https://confluence.openolat.org/collector/pages.action?key=OO161DE)
-  3. [OpenOlat 16.1 Benutzerhandbuch](OpenOLAT+16.1+Benutzerhandbuch.html)
-  4. [Release Notes](Release+Notes.html)
-  5. [Release Notes 15.4](Release+Notes+15.4.html)
-
-Sie sind nicht angemeldet. Ihre Änderungen werden mit anonym markiert. Sie
-sollten sich
-[anmelden](https://confluence.openolat.org/login.action?os_destination=%2Fdisplay%2FOO161DE%2FRelease%2BNotes%2B15.4),
-wenn Sie bereits über ein Konto verfügen.
-
-search
-
-attachments
-
-weblink
-
-advanced
-
-image-effects
-
-image-attributes
-
-  * Absatz
-    * Absatz
-    * Überschrift 1
-    * Überschrift 2
-    * Überschrift 3
-    * Überschrift 4
-    * Überschrift 5
-    * Überschrift 6
-    * Vorformatiert
-    * Zitat
-
-  * Fett
-  * Kursiv
-  * Unterstreichen
-  * Farbauswahl
-
-Weitere Farben
-
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-
-  * Formate
-
-    * Durchgestrichen 
-    * Tiefgestellt 
-    * Hochgestellt 
-    * Festbreitenschriftart 
-
-    * Formatierung zurücksetzen 
-
-  * Aufzählung
-  * Nummerierte Liste
-
-  * Aufgabenliste
-
-  * Einzug verkleinern
-  * Einzug vergrößern
-
-  * Linksbündig ausrichten
-  * Zentriert ausrichten
-  * Rechtsbündig ausrichten
-
-  * Seitenlayout
-
-  * Verknüpfung
-
-  * Tabelle
-
-  * Einfügen
-
-Inhalt einfügen
-
-    * Dateien und Bilder 
-    * Verknüpfung 
-    * Markup 
-    * Horizontale Trennlinie einfügen 
-    * Aufgabenliste 
-    * Datum 
-    * Emoticon 
-    * Sonderzeichen 
-Makro einfügen
-
-    * Benutzererwähnung 
-    * Jira-Vorgang/-Filter 
-    * Info 
-    * Status 
-    * Galerie 
-    * Inhalt 
-
-    * Andere Makros 
-
-  * Seitenlayout
-    * Kein Layout
-    * Zweispaltig (einfach)
-    * Zweispaltig (einfach, linke Randleiste)
-    * Zweispaltig (einfach, rechte Randleiste)
-    * Dreispaltig (einfach)
-    * Zweispaltig
-    * Zweispaltig (linke Randleiste)
-    * Zweispaltig (rechte Randleiste)
-    * Dreispaltig
-    * Dreispaltig (Randleisten links und rechts)
-
-  * Rückgängig
-  * Wiederholen
-
-  * Suchen/Ersetzen
-
-  * Hilfe für Tastenkombinationen
-
-Sie sind nicht angemeldet. Ihre Änderungen werden mit anonym markiert. Sie
-sollten sich
-[anmelden](https://confluence.openolat.org/login.action?os_destination=%2Fdisplay%2FOO161DE%2FRelease%2BNotes%2B15.4),
-wenn Sie bereits über ein Konto verfügen.
-
-Diese Seite wird auch von  bearbeitet. Ihre Änderungen werden mit seinen/ihren
-zusammengeführt, wenn Sie speichern.
-
-
-
-Bearbeiten
-
-Vorschau
-
-Speichern
-
-Schließen
 

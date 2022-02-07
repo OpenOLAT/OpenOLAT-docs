@@ -34,7 +34,7 @@ der Änderungen in 15.2 – 15.2.8 finden Sie
 [hier](https://confluence.openolat.org/display/OO152DE/Release+Notes+15.2#ReleaseNotes15.2-ReleaseNotes-
 Versionen).
 
-![](../../download/attachments/108593670/Features_Improvements_Labels_DE.png)
+![](assets/153/Features_Improvements_Labels_DE.png)
 
   * 1 Release Notes 15.3 
   * 2Contact Tracing Modul
@@ -57,7 +57,7 @@ Versionen).
 
   
 
-# Contact Tracing Modul
+## Contact Tracing Modul
 
 Mit der Kontaktverfolgung in OpenOlat lassen sich weitgehend anonyme
 Aufenthaltsnachweise generieren, um im Bedarfsfall zur Pandemie-Eindämmung
@@ -84,7 +84,7 @@ erklärt. Für Beratung und Support zur Einführung melden Sie sich unter
 
   
 
-# Kursbaustein "Dokument"
+## Kursbaustein "Dokument"
 
 Mit dem Dokument-Kursbaustein werden Office-Dokumente, PDF und auch Bilder
 direkt in den Kurs eingebunden.
@@ -104,14 +104,14 @@ ihnen lokale Kopien angefertigt werden.
 
   
 
-![](../../download/attachments/108593670/Dok_KBS2_DE.png)
+![](assets/153/Dok_KBS2_DE.png)
 
 Textverarbeitungsdokumente und PDF werden über den integrierten Dokument
 Viewer angezeigt. Eine Bearbeitung der Textdokumente ist bei Aktivierung
 entsprechender Lizenzen möglich, der Editor öffnet sich dann in einem
 separaten Fenster.
 
-![](../../download/attachments/108593670/Dok_KBS_DE.png)
+![](assets/153/Dok_KBS_DE.png)
 
   
 
@@ -119,7 +119,7 @@ separaten Fenster.
 
   
 
-# OnlyOffice Einsatz
+## OnlyOffice Einsatz
 
 Die Integration von OnlyOffice unterstützt ab sofort die Generierung der
 Vorschaubilder (Thumbnails) von Dokumenten.
@@ -135,7 +135,7 @@ OpenOlat eingebunden.
 Dokumente werden zur Ansicht und Bearbeitung in einem separaten Fenster
 geöffnet.
 
-![](../../download/attachments/108593670/Thumbnail_DE.png)
+![](assets/153/Thumbnail_DE.png)
 
   
 
@@ -143,9 +143,9 @@ geöffnet.
 
   
 
-# Office for the web Editor
+## Office for the web Editor
 
-# Authentifizierung via Microsoft Azure Directory
+## Authentifizierung via Microsoft Azure Directory
 
 Die Integration der Microsoft Office 365-Editoren für Office Dokumente
 befindet sich derzeit im Rollout in der frentix Cloud (geplant bis Ende 2020).
@@ -159,7 +159,7 @@ Neu werden Microsoft 365 Logins in OpenOlat über Azure Active Directory
 unterstützt. Für Beratung und Einführung melden Sie sich unter
 [support@openolat.com](mailto:support@openolat.com).
 
-![](../../download/thumbnails/108593670/Azure_DE%EF%B9%96version=1&modificationDate=1604920089000&api=v2.png)
+![](assets/153/Azure_DE%EF%B9%96version=1&modificationDate=1604920089000&api=v2.png)
 
   
 
@@ -167,7 +167,7 @@ unterstützt. Für Beratung und Einführung melden Sie sich unter
 
   
 
-# Nachteilsausgleich bei Online-Prüfungen
+## Nachteilsausgleich bei Online-Prüfungen
 
 Für Prüfungsteilnehmende mit körperlicher oder geistiger Behinderung kann vor
 der Prüfung ein Nachteilsausgleich definiert werden. Teilnehmende erhalten
@@ -176,13 +176,13 @@ dabei mehr Zeit für den Test.
 Der Nachteilsausgleich wird über die Benutzerverwaltung oder direkt im Kurs im
 Bewertungswerkzeug am jeweiligen Teilnehmenden eingestellt.
 
-![](../../download/attachments/108593670/Screenshot%202020-11-09%20at%2013.24.01.png)
+![](assets/153/Screenshot%202020-11-09%20at%2013.24.01.png)
 
 Im Bewertungswerkzeug und auch in den Testresultaten ist die Verlängerung
 transparent ausgewiesen. Die Testzeit und der Prüfungsmodus (bei manueller
 Steuerung) wird automatisch um den Nachteilsausgleich verlängert.
 
-![](../../download/attachments/108593670/Nachteilsausgleich_Assessment_DE.png)
+![](assets/153/Nachteilsausgleich_Assessment_DE.png)
 
   
 
@@ -190,7 +190,7 @@ Steuerung) wird automatisch um den Nachteilsausgleich verlängert.
 
   
 
-# Optimierungen im Bereich E-Assessment und E-Testing
+## Optimierungen im Bereich E-Assessment und E-Testing
 
   * Optimierte Berechnung der Maximalpunktzahl bei X aus Y Fragen in Tests
   * Anzeige der individuellen Teststartzeit der Teilnehmenden im Bewertungswerkzeug
@@ -202,7 +202,7 @@ Steuerung) wird automatisch um den Nachteilsausgleich verlängert.
     * Weitere Spalten in der Fragenübersicht-Tabelle
   * Optionale Anonymisierung im KorretorenTool für externe Korrektoren
 
-![](../../download/attachments/108593670/Korrektur_DE.png)
+![](assets/153/Korrektur_DE.png)
 
   
 
@@ -210,7 +210,7 @@ Steuerung) wird automatisch um den Nachteilsausgleich verlängert.
 
   
 
-# Benutzerbeziehungen im Coachingtool
+## Benutzerbeziehungen im Coachingtool
 
 Mit der Benutzer-zu-Benutzerbeziehung in OpenOlat können kursübergreifende
 Betreuungsfunktionen für beispielsweise Mentoren, Lernbegleiter und
@@ -219,14 +219,14 @@ Vorgesetzte abgebildet werden.
 Über das Coachingtool ist nun für Betreuende der einfache und übersichtliche
 Zugang zu den betreuten Benutzern realisiert.
 
-![](../../download/attachments/108593670/Coaching_DE.png)
+![](assets/153/Coaching_DE.png)
 
 Für jede Benutzer-zu-Benutzerbeziehung können spezifische Rechte definiert und
 somit der Zugriff auf explizit freigegebene Inhalte der Betreuten erteilt
 werden, wie z.B. Kursliste, Kalender, Absenzenübersicht, Leistungsnachweise
 und Zertifikate.
 
-![](../../download/attachments/108593670/Userbeziehung_DE.png)
+![](assets/153/Userbeziehung_DE.png)
 
   
 
@@ -240,7 +240,7 @@ Organisationseinheit zugegriffen werden.
 
   
 
-# Ergänzungen im Autorenbereich
+## Ergänzungen im Autorenbereich
 
   * Automatischer Lebenszyklus von Kursen um "Endgültig löschen" erweitert (s. Screenshot)
 
@@ -248,7 +248,7 @@ Organisationseinheit zugegriffen werden.
 
   
 
-![](../../download/attachments/108593670/Kurs%20LifeCycle_DE.png)
+![](assets/153/Kurs%20LifeCycle_DE.png)
 
   
 
@@ -256,7 +256,7 @@ Organisationseinheit zugegriffen werden.
 
   
 
-# Erweiterungen in der Benutzerverwaltung
+## Erweiterungen in der Benutzerverwaltung
 
   * Übergangszeitraum (Grace-Periode) von 30 Tagen für reaktivierte Benutzer
   * Separate Behandlung von nicht löschbaren Benutzern im Benutzer-Lebenszyklus
@@ -268,7 +268,7 @@ Organisationseinheit zugegriffen werden.
 
   
 
-# Weiteres, kurz notiert
+## Weiteres, kurz notiert
 
   * BigBlueButton Neuerungen:
 
@@ -294,7 +294,7 @@ Organisationseinheit zugegriffen werden.
 
   * LinkedIn Feld im Benutzerprofil
 
-![](../../download/attachments/108593670/BBB%20Terminvergabe_DE.png)
+![](assets/153/BBB%20Terminvergabe_DE.png)
 
   
 
@@ -302,7 +302,7 @@ Organisationseinheit zugegriffen werden.
 
   
 
-# Technisches
+## Technisches
 
   * Technische Unterstützung von Java 11 und Servlet 4.0 (Tomcat 9.0 notwendig)
   * Codepflege nach Security Audit mit Sonarqube
@@ -315,7 +315,7 @@ Organisationseinheit zugegriffen werden.
 
   
 
-# Release Notes - Versionen
+## Release Notes - Versionen
 
   * [15.3.18](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=17107)
   * [15.3.17](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=17105)
@@ -338,173 +338,3 @@ Organisationseinheit zugegriffen werden.
   * [15.3](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=16933)
 
   
-
-  1. [OpenOlat 16.1 Benutzerhandbuch](../OO161DE.html)
-  2. [Seiten](https://confluence.openolat.org/collector/pages.action?key=OO161DE)
-  3. [OpenOlat 16.1 Benutzerhandbuch](OpenOLAT+16.1+Benutzerhandbuch.html)
-  4. [Release Notes](Release+Notes.html)
-  5. [Release Notes 15.3](Release+Notes+15.3.html)
-
-Sie sind nicht angemeldet. Ihre Änderungen werden mit anonym markiert. Sie
-sollten sich
-[anmelden](https://confluence.openolat.org/login.action?os_destination=%2Fdisplay%2FOO161DE%2FRelease%2BNotes%2B15.3),
-wenn Sie bereits über ein Konto verfügen.
-
-search
-
-attachments
-
-weblink
-
-advanced
-
-image-effects
-
-image-attributes
-
-  * Absatz
-    * Absatz
-    * Überschrift 1
-    * Überschrift 2
-    * Überschrift 3
-    * Überschrift 4
-    * Überschrift 5
-    * Überschrift 6
-    * Vorformatiert
-    * Zitat
-
-  * Fett
-  * Kursiv
-  * Unterstreichen
-  * Farbauswahl
-
-Weitere Farben
-
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-
-  * Formate
-
-    * Durchgestrichen 
-    * Tiefgestellt 
-    * Hochgestellt 
-    * Festbreitenschriftart 
-
-    * Formatierung zurücksetzen 
-
-  * Aufzählung
-  * Nummerierte Liste
-
-  * Aufgabenliste
-
-  * Einzug verkleinern
-  * Einzug vergrößern
-
-  * Linksbündig ausrichten
-  * Zentriert ausrichten
-  * Rechtsbündig ausrichten
-
-  * Seitenlayout
-
-  * Verknüpfung
-
-  * Tabelle
-
-  * Einfügen
-
-Inhalt einfügen
-
-    * Dateien und Bilder 
-    * Verknüpfung 
-    * Markup 
-    * Horizontale Trennlinie einfügen 
-    * Aufgabenliste 
-    * Datum 
-    * Emoticon 
-    * Sonderzeichen 
-Makro einfügen
-
-    * Benutzererwähnung 
-    * Jira-Vorgang/-Filter 
-    * Info 
-    * Status 
-    * Galerie 
-    * Inhalt 
-
-    * Andere Makros 
-
-  * Seitenlayout
-    * Kein Layout
-    * Zweispaltig (einfach)
-    * Zweispaltig (einfach, linke Randleiste)
-    * Zweispaltig (einfach, rechte Randleiste)
-    * Dreispaltig (einfach)
-    * Zweispaltig
-    * Zweispaltig (linke Randleiste)
-    * Zweispaltig (rechte Randleiste)
-    * Dreispaltig
-    * Dreispaltig (Randleisten links und rechts)
-
-  * Rückgängig
-  * Wiederholen
-
-  * Suchen/Ersetzen
-
-  * Hilfe für Tastenkombinationen
-
-Sie sind nicht angemeldet. Ihre Änderungen werden mit anonym markiert. Sie
-sollten sich
-[anmelden](https://confluence.openolat.org/login.action?os_destination=%2Fdisplay%2FOO161DE%2FRelease%2BNotes%2B15.3),
-wenn Sie bereits über ein Konto verfügen.
-
-Diese Seite wird auch von  bearbeitet. Ihre Änderungen werden mit seinen/ihren
-zusammengeführt, wenn Sie speichern.
-
-
-
-Bearbeiten
-
-Vorschau
-
-Speichern
-
-Schließen
-

@@ -33,7 +33,7 @@ for 15.2 – 15.2.8 can be found
 [here](https://confluence.openolat.org/display/OO152DE/Release+Notes+15.2#ReleaseNotes15.2-ReleaseNotes-
 Versionen).
 
-![](../../download/attachments/108600598/Features_Improvements_Labels_EN.png)
+![](assets/153/Features_Improvements_Labels_EN.png)
 
   
 
@@ -41,7 +41,7 @@ Versionen).
 
   
 
-# Contact Tracing Module
+## Contact Tracing Module
 
 With the contact tracing in OpenOlat, anonymous proofs of location can be
 generated in order to reconstruct possible contagious contacts if necessary to
@@ -70,7 +70,7 @@ contact us at [support@openolat.com](mailto:support@openolat.com).
 
   
 
-# Course element "Document"
+## Course element "Document"
 
 With the document course element, Office documents, PDF and also images are
 directly integrated into the course.
@@ -85,13 +85,13 @@ New documents can also be converted into learning resources, for example, to
 re-integrate them into other courses. Existing document learning resources can
 also be used as templates by making local copies of them.
 
-![](../../download/attachments/108600598/Dok_KBS2_EN.png)
+![](assets/153/Dok_KBS2_EN.png)
 
 Office documents and PDF are displayed via the integrated Document viewer.
 Text documents can be edited if the corresponding licenses are activated. The
 editor then opens in a separate window.
 
-![](../../download/attachments/108600598/DOK_KBS_EN.png)
+![](assets/153/DOK_KBS_EN.png)
 
   
 
@@ -99,7 +99,7 @@ editor then opens in a separate window.
 
   
 
-# OnlyOffice Application
+## OnlyOffice Application
 
 The integration of OnlyOffice now supports the generation of thumbnails of
 documents.
@@ -113,7 +113,7 @@ the mobile OnlyOffice Viewer / Editor has been integrated into OpenOlat.
 
 Documents are opened in a separate window for viewing and editing.
 
-![](../../download/attachments/108600598/Thumbnail_EN.png)
+![](assets/153/Thumbnail_EN.png)
 
   
 
@@ -121,9 +121,9 @@ Documents are opened in a separate window for viewing and editing.
 
   
 
-# Office for the web Editor
+## Office for the web Editor
 
-# Authentication via Microsoft Azure Directory
+## Authentication via Microsoft Azure Directory
 
 The integration of Microsoft Office 365 editors for Office documents is
 currently being rolled out in the frentix cloud (planned by the end of 2020).
@@ -137,7 +137,7 @@ Microsoft 365 logins are now supported in OpenOlat via Azure Active Directory.
 For consulting and introduction please contact
 [support@openolat.com](mailto:support@openolat.com).
 
-![](../../download/thumbnails/108600598/Azure_EN%EF%B9%96version=1&modificationDate=1604938299000&api=v2.png)
+![](assets/153/Azure_EN%EF%B9%96version=1&modificationDate=1604938299000&api=v2.png)
 
   
 
@@ -145,7 +145,7 @@ For consulting and introduction please contact
 
   
 
-# Disadvantage compensation for online exams
+## Disadvantage compensation for online exams
 
 For examinee with physical or mental handicap, a compensation for
 disadvantages can be defined before the exam. Participants are given more time
@@ -154,13 +154,13 @@ for the test.
 The compensation of disadvantages can be set via the user administration or
 directly in the course in the assessment tool on the respective participant.
 
-![](../../download/attachments/108600598/Nachteilsausgleich_EN.png)
+![](assets/153/Nachteilsausgleich_EN.png)
 
 In the assessment tool and also in the test results the extension is
 transparently shown. The test time and the test mode (in case of manual
 control) are automatically extended by the disadvantage compensation.
 
-![](../../download/attachments/108600598/Nachteilsausgleich_Assessment_EN.png)
+![](assets/153/Nachteilsausgleich_Assessment_EN.png)
 
   
 
@@ -168,7 +168,7 @@ control) are automatically extended by the disadvantage compensation.
 
   
 
-# Optimization in the area of e-assessment and e-testing
+## Optimization in the area of e-assessment and e-testing
 
   * Optimized calculation of the maximum score for X from Y questions in tests
   * Display of the participants' individual test start time in the assessment tool
@@ -180,7 +180,7 @@ control) are automatically extended by the disadvantage compensation.
     * Additional columns in the question overview table
   * Optional anonymization in the correction tool for external graders
 
-![](../../download/attachments/108600598/Korrektur_EN.png)
+![](assets/153/Korrektur_EN.png)
 
   
 
@@ -188,21 +188,21 @@ control) are automatically extended by the disadvantage compensation.
 
   
 
-# User relations in coaching tool
+## User relations in coaching tool
 
 With the user-to-user relationship in OpenOlat, cross-course support functions
 for mentors, learning guides and supervisors can be represented.
 
 The coaching tool now provides easy and clear access to the coached users.
 
-![](../../download/attachments/108600598/Coaching_EN.png)
+![](assets/153/Coaching_EN.png)
 
 For each user-to-user relationship, specific rights can be defined and thus
 access to explicitly released content of the coaches can be granted, e.g.
 course list, calendar, absence overview, evidences of achievement and
 certificates.
 
-![](../../download/attachments/108600598/Userbeziehung_EN.png)
+![](assets/153/Userbeziehung_EN.png)
 
   
 
@@ -216,12 +216,12 @@ organizational unit.
 
   
 
-# Additions in authoring area
+## Additions in authoring area
 
   * Automatic lifecycle of courses extended by "Definitely delete" (see screenshot)
   * Filter learning resources by taxonomy
 
-![](../../download/attachments/108600598/Kurs%20LifeCycle_EN.png)
+![](assets/153/Kurs%20LifeCycle_EN.png)
 
   
 
@@ -229,7 +229,7 @@ organizational unit.
 
   
 
-# Enhancements in the user administration
+## Enhancements in the user administration
 
   * 30-day grace period for reactivated users
   * Separate handling of non-deletable users in the user life cycle
@@ -241,7 +241,7 @@ organizational unit.
 
   
 
-# Additional notes
+## Additional notes
 
   * BigBlueButton innovations:
     * Integration in course element "Appointment scheduling" (see screenshot)
@@ -256,7 +256,7 @@ organizational unit.
   * Deactivation of reasons for lecture completion in absence management
   * LinkedIn field in user profile
 
-![](../../download/attachments/108600598/BBB%20Terminvergabe_EN.png)
+![](assets/153/BBB%20Terminvergabe_EN.png)
 
   
 
@@ -264,7 +264,7 @@ organizational unit.
 
   
 
-# Technical details
+## Technical details
 
   * Technical support of Java 11 and Servlet 4.0 (Tomcat 9.0 required)
   * Code maintenance after security audit with Sonarqube
@@ -277,7 +277,7 @@ organizational unit.
 
   
 
-# Release notes - versions
+## Release notes - versions
 
   * [15.3.18](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=17107)
   * [15.3.17](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=17105)

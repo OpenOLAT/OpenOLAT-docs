@@ -30,7 +30,7 @@ improvements, more than 105 bugs have been fixed. The complete list of changes
 for 14.2 – 14.2.9 can be found
 [here](Release+notes+14.2.html#Releasenotes14.2-Releasenotes-versions).
 
-![](../../download/attachments/108600723/Features_Improvements_Labels_EN.png)
+![](assets/150/Features_Improvements_Labels_EN.png)
 
   * 1 Release notes 15.0 
   * 2Learning path - the new OpenOlat standard course
@@ -53,14 +53,14 @@ for 14.2 – 14.2.9 can be found
 
   
 
-# Learning path - the new OpenOlat standard course
+## Learning path - the new OpenOlat standard course
 
 The new course type Learning Path is more simple and the visualization helps
 learners to keep track of their activities. This is a particular advantage in
 self-learning or blended learning setups. But authors and coaches also benefit
 from the new course type.
 
-## Participants
+#### Participants
 
 For participants, the learning path offers a fundamentally improved navigation
 and orientation guidance within the course. The visualisation of the learning
@@ -68,13 +68,13 @@ path shows at a glance what they have already completed, where they are in the
 course at the moment and which modules they are still allowed or have to work
 on.
 
-## Coach
+#### Coach
 
 The learning path report provides coaches with improved participant tracking.
 This allows to react to the individual learning progress of the participants
 and to offer individual support.
 
-## Authors
+#### Authors
 
 For educational designers, the design of different learning scenarios can be
 made more filigree and flexible. Course elements can be marked as obligatory
@@ -85,10 +85,10 @@ learning path courses.
 
   
 
-![](../../download/attachments/108600723/Screenshot%202020-05-12%20at%2016.27.51.png)
-![](../../download/attachments/108600723/Screenshot%202020-05-12%20at%2016.28.13.png)
+![](assets/150/Screenshot%202020-05-12%20at%2016.27.51.png)
+![](assets/150/Screenshot%202020-05-12%20at%2016.28.13.png)
 
-## Processing and assessment of the learning path course
+#### Processing and assessment of the learning path course
 
 For each course element there are different completion criteria available such
 as "Confirmation by participant," "Passed," "Score," or "Execution done". If
@@ -98,7 +98,7 @@ In addition you can define when a course is considered "passed" by several
 options such as "Learning progress 100%," "All course elements passed," or
 "Score reached".
 
-![](../../download/thumbnails/108600723/Screenshot%202020-05-12%20at%2014.34.50%EF%B9%96version=1&modificationDate=1589286906000&api=v2.png)
+![](assets/150/Screenshot%202020-05-12%20at%2014.34.50%EF%B9%96version=1&modificationDate=1589286906000&api=v2.png)
 
   
 
@@ -106,7 +106,7 @@ options such as "Learning progress 100%," "All course elements passed," or
 
   
 
-# Course configuration overview
+## Course configuration overview
 
 In the course editor of both course types you can now call up a configuration
 overview that provides an overview of all course elements and their settings.
@@ -116,7 +116,7 @@ possible to adjust settings for several course elements at once. For example,
 you can change several previously mandatory course elements to the setting
 optional in one step.
 
-![](../../download/attachments/108600723/Screenshot%202020-05-12%20at%2011.32.23.png)
+![](assets/150/Screenshot%202020-05-12%20at%2011.32.23.png)
 
   
 
@@ -124,7 +124,7 @@ optional in one step.
 
   
 
-# Extended range of course tools
+## Extended range of course tools
 
 Many course components such as the participant list, notifications or even a
 course forum are unique to the course and serve primarily for information and
@@ -133,9 +133,9 @@ learning contents in the course and to ensure central access, these components
 have been additionally supplemented as tools for the course toolbar. The
 individual tools can be activated individually in the course settings.
 
-![](../../download/attachments/108600723/toolbar_b.png)
+![](assets/150/toolbar_b.png)
 
-# In-Course role change
+## In-Course role change
 
 In order to view the course presentation from the learner's or coach's
 perspective, authors can now quickly and easily switch between their roles in
@@ -148,9 +148,9 @@ author takes a test in the course owner view no data is transferred to the
 assessment tool, and when editing course elements in a learning path course no
 learning progress is recorded.
 
-![](../../download/thumbnails/108600723/Screenshot%202020-03-22%20at%2018.00.14%EF%B9%96version=1&modificationDate=1589287522000&api=v2.png)
+![](assets/150/Screenshot%202020-03-22%20at%2018.00.14%EF%B9%96version=1&modificationDate=1589287522000&api=v2.png)
 
-# Course-related terms of use and data policy
+## Course-related terms of use and data policy
 
 Courses often contain protected material or sensitive data and confirmation is
 required to ensure that the material is kept confidential and not used or
@@ -158,7 +158,7 @@ shared outside the course context. By activating the course-related terms of
 use or privacy policy, such confirmation can be obtained per course before
 accessing the actual course content.
 
-![](../../download/attachments/108600723/Screenshot%202020-05-11%20at%2011.35.07.png)
+![](assets/150/Screenshot%202020-05-11%20at%2011.35.07.png)
 
   
 
@@ -166,7 +166,7 @@ accessing the actual course content.
 
   
 
-# BigBlueButton Integration
+## BigBlueButton Integration
 
 Another virtual classroom was integrated into OpenOlat: BigBlueButton. The
 activation of the tool and the configuration of the access parameters is done
@@ -177,7 +177,7 @@ parallel rooms as well as settings such as microphone and webcam availability
 for participants and the possibility for breakout rooms in the online room are
 already configured.
 
-## Course element BigBlueButton
+#### Course element BigBlueButton
 
 With the new course element the coach can create meeting rooms directly in the
 course. From the room templates configured you can select the one that fits
@@ -188,7 +188,7 @@ will be available to course members.
 
   
 
-## Group tool BigBlueButton
+#### Group tool BigBlueButton
 
 As a collaborative tool, BigBlueButton can also be used as a group tool. If
 the room templates are released accordingly, both group coaches and group
@@ -196,7 +196,7 @@ members can create new meetings for a shared online session. In the group
 tool, the recordings are also available for further access at the end of the
 meeting.
 
-![](../../download/attachments/108600723/BBB_KBS_DE.png)
+![](assets/150/BBB_KBS_DE.png)
 
   
 
@@ -204,21 +204,21 @@ meeting.
 
   
 
-# New QTI 2.1 question type: Order
+## New QTI 2.1 question type: Order
 
 A new question type Order is available and offers the possibility to arrange
 both text and image elements in a certain sequence. Learners must use drag &
 drop to put the elements in the correct order.
 
-![](../../download/attachments/108600723/Screenshot%202020-05-11%20at%2011.12.59.png)
+![](assets/150/Screenshot%202020-05-11%20at%2011.12.59.png)
 
-# Manual sorting of catalog entries
+## Manual sorting of catalog entries
 
 Catalogue administrators have a free (manual) sorting of catalogue entries at
 their disposal, for example to reflect the existing structure of the
 educational institution or a specific thematic course sequence.
 
-![](../../download/attachments/108600723/Screenshot_2020-05-12_at_14_53_45.png)
+![](assets/150/Screenshot_2020-05-12_at_14_53_45.png)
 
   
 
@@ -226,7 +226,7 @@ educational institution or a specific thematic course sequence.
 
   
 
-# Grading assignments in the coaching tool
+## Grading assignments in the coaching tool
 
 Until now, the assessment and correction of online tests in OpenOlat was only
 possible within the course via the assessment tool. You needed access to the
@@ -245,11 +245,11 @@ The tool offers the following functions:
 
 **Graders: overview own grading assignments**
 
-![](../../download/attachments/108600723/Screenshot%202020-05-12%20at%2015.21.14.png)
+![](assets/150/Screenshot%202020-05-12%20at%2015.21.14.png)
 
  **Learning resource manager / course owner: overview of all graders**
 
-![](../../download/attachments/108600723/Screenshot%202020-05-12%20at%2015.03.05.png)
+![](assets/150/Screenshot%202020-05-12%20at%2015.03.05.png)
 
   
 
@@ -257,7 +257,7 @@ The tool offers the following functions:
 
   
 
-# Additional notes
+## Additional notes
 
   * Manual sorting of groups in the enrolment course module possible
   * Automatic creation of test sections during test creation based on the assigned subjects of the questions
@@ -273,7 +273,7 @@ The tool offers the following functions:
 
   
 
-# End of support
+## End of support
 
 Import and execution of QTI 1.2 questions, tests and questionnaires is no
 longer supported as of Release 15.0. Conversion to QTI 2.1 is still possible.
@@ -287,7 +287,7 @@ deleted.
 
   
 
-# Technical details
+## Technical details
 
   * Library updates
 
@@ -302,7 +302,7 @@ deleted.
 
   
 
-# Release notes - versions
+## Release notes - versions
 
   * [15.0.6](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=16927)
   * [15.0.5](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=16925)

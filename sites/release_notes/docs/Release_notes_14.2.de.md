@@ -40,7 +40,7 @@ funktionen-14-1/#jira).
 
   
 
-# BigBlueButton Integration
+## BigBlueButton Integration
 
 Ein weiterer virtueller Klassenraum wurde in OpenOlat integriert:
 BigBlueButton. Die Aktivierung des Tools und die Konfiguration der
@@ -51,7 +51,7 @@ Teilnehmeranzahl, Meetingdauer und Anzahl paralleler Räume sowie Einstellungen
 wie beispielsweise Mikrofon- und Webcam-Verfügbarkeit für Teilnehmer und die
 Möglichkeit für Breakout-Rooms im Online-Raum bereits konfiguriert.
 
-## Kursbaustein BigBlueButton
+#### Kursbaustein BigBlueButton
 
 Mit dem neuen Kursbaustein kann der Betreuer Meetingräume direkt im Kurs
 anlegen. Dabei kann aus den konfigurierten Raumvorlagen das zum Szenario
@@ -63,7 +63,7 @@ Verfügung.
 
   
 
-## Gruppenwerkzeug BigBlueButton
+#### Gruppenwerkzeug BigBlueButton
 
 Als kollaboratives Werkzeug kann BigBlueButton auch als Gruppenwerkzeug
 genutzt werden. Bei entsprechender Freigabe der Raumvorlagen können sowohl
@@ -71,7 +71,7 @@ Gruppenbetreuer als auch Gruppenmitglieder neue Meetings für gemeinsame
 Online-Session anlegen. Auch im Gruppenwerkzeug stehen die Aufzeichnungen nach
 Meeting-Ende für einen weiteren Zugriff bereit.
 
-![](../../download/attachments/108593615/BBB_KBS_DE.png)
+![](assets/142/BBB_KBS_DE.png)
 
   
 
@@ -79,9 +79,9 @@ Meeting-Ende für einen weiteren Zugriff bereit.
 
   
 
-# QTI und eTesting
+## QTI und eTesting
 
-## Test-Sektionen nach dem Zufallsprinzip anordnen
+#### Test-Sektionen nach dem Zufallsprinzip anordnen
 
 Die zufällige Reihenfolge der Fragen in Online-Tests ist in OpenOlat schon
 lange verfügbar. Zusätzlich ist nun auch die zufällige Anordnung von Test-
@@ -89,13 +89,13 @@ Sektionen während der Testdurchführung möglich. So können z.B. ähnliche Fra
 in Sektionen gruppiert werden und für die Teilnehmer am laufenden Test in
 unterschiedlicher Reihenfolge aufscheinen.
 
-## Erweiterung des Fragentyps Lückentext
+#### Erweiterung des Fragentyps Lückentext
 
 Zwei neue Optionen ermöglichen einen noch flexibleren Einsatz des Fragentyps
 [Lückentext](Test+Fragetypen.html#TestFragetypen-
 details_testeditor_fragetypen_fib):
 
-### Erlauben Sie doppelte Antworten
+###### Erlauben Sie doppelte Antworten
 
 Insbesondere bei mathematischen Aufgaben kann es vorkommen, dass mehrere
 Lücken die gleichen Antwortalternativen enthalten. Die Eingabe der gleichen
@@ -104,7 +104,7 @@ werden. Um dies zu vermeiden, kann in solchen Fällen die Eingabe von doppelten
 Werten explizit verhindert werden. Standardmässig sind doppelte Antworten
 erlaubt.
 
-### Punkte für Antwortvarianten
+###### Punkte für Antwortvarianten
 
 Wenn Antwortvarianten am Lückentext gespeichert werden, können von nun an für
 jede dieser Varianten separate
@@ -117,9 +117,9 @@ Lösungsvarianten Punkte abzuziehen.
 
   
 
-![](../../download/thumbnails/108593615/Gaptext_neue_Optionen_DE%EF%B9%96version=1&modificationDate=1581593066000&api=v2.png)
+![](assets/142/Gaptext_neue_Optionen_DE%EF%B9%96version=1&modificationDate=1581593066000&api=v2.png)
 
-## Korrekturzeit für QTI-Fragen
+#### Korrekturzeit für QTI-Fragen
 
 Zur Korrektur von Online-Tests werden häufig externe Korrektoren eingesetzt.
 Zukünftig sollte die Zuordnung von externen Korrektoren im Korrekturprozess in
@@ -133,7 +133,7 @@ sowie die Gesamtkorrekturzeit für den Test angezeigt.
 
   
 
-![](../../download/attachments/108593615/Korrekturzeit_DE.png)
+![](assets/142/Korrekturzeit_DE.png)
 
   
 
@@ -141,18 +141,18 @@ sowie die Gesamtkorrekturzeit für den Test angezeigt.
 
   
 
-# Neue Funktionen im Kurs
+## Neue Funktionen im Kurs
 
-## Livestream
+#### Livestream
 
 Durch die Integration des Paella-Players ist der Livestream-Kursbaustein nun
 Multistream-fähig. Es können entweder zwei parallele Streams, oder nur Stream
 1 oder Stream 2 angezeigt werden. Die neue Statistik zeigt für vergangene
 Livestreams an, wie viele Benutzer den jeweiligen Livestream verfolgt haben.
 
-![](../../download/attachments/108593615/Multi-Livestream_DE.png)
+![](assets/142/Multi-Livestream_DE.png)
 
-## Aufgaben-Kursbaustein
+#### Aufgaben-Kursbaustein
 
 Der Aufgabenbaustein wurde weiter ausgebaut. Beispielsweise kann zusätzlich
 zur bisherigen Maximalzahl auch eine Mindestanzahl von Dokumenten definiert
@@ -161,7 +161,7 @@ für eingereichte Aufgaben kann nun direkt in ein Textfeld im Browser
 eingegeben werden. Für Übersichts- und Auswertungszwecke steht zusätzlich ein
 Tabellenexport zur Verfügung.
 
-## Weitere Neuerungen
+#### Weitere Neuerungen
 
   * Am Video-Kursbaustein steht eine Abonnementfunktion zur Verfügung. Die Abonnenten werden automatisch über neue Kommentare informiert.
   * Termine in Gruppenkalendern können im Kurskalender für alle Kursteilnehmer sichtbar gemacht werden, wenn sie auf "öffentlich" gesetzt sind.
@@ -172,7 +172,7 @@ Tabellenexport zur Verfügung.
 
   
 
-# Datei- und Versionsverwaltung
+## Datei- und Versionsverwaltung
 
 Zur Unterstützung der Systemadministratoren wurde in der Verwaltung ein neues
 Werkzeug für die Datei- und Versionsverwaltung geschaffen. Bestehende
@@ -183,7 +183,7 @@ Informationen über den Dateikontext (z.B. Link, Größe, Alter, Autor)
 angezeigt. Über ein Mailformular kann bei Bedarf Kontakt zum Autor der Datei
 aufgenommen werden.
 
-![](../../download/attachments/108593615/File%20management%20DE.png)
+![](assets/142/File%20management%20DE.png)
 
   
 
@@ -191,7 +191,7 @@ aufgenommen werden.
 
   
 
-# Weiteres, kurz notiert
+## Weiteres, kurz notiert
 
   * Qualitätsmanagement: Der Zugriff auf Datensammlungen im Qualitätsmanagement über die Organisationszugehörigkeit wurde verbessert. Für E-Mails aus dem Qualitätsmanagement heraus kann eine eigene Absender-E-Mail-Adresse konfiguriert werden.
   * Die Konfiguration der Schriftgröße in den Benutzereinstellungen wurde entfernt.
@@ -202,7 +202,7 @@ aufgenommen werden.
 
   
 
-# Support-Ende
+## Support-Ende
 
   * Die Unterstützung für QTI 1.2 endet mit dem Release 15.0
 
@@ -214,7 +214,7 @@ aufgenommen werden.
 
   
 
-# Technisches
+## Technisches
 
   * Library-Updates
   * Flexi UI Erweiterungen
@@ -226,7 +226,7 @@ aufgenommen werden.
 
   
 
-# Release Notes - Versionen
+## Release Notes - Versionen
 
   * [14.2.18](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=16934)
   * [14.2.17](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=16931)

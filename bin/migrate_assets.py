@@ -1,5 +1,6 @@
 import os, re, sys, fileinput, getopt, shutil, csv, html2text
 from os import walk
+from urllib.parse import unquote
 
 
 class Converter:
@@ -51,12 +52,13 @@ def previewAssetDetection(sourcedir):
 		filename = entry.path
 		if (filename.endswith('.md')):
 			with fileinput.FileInput(filename) as file:
-				for line in file:
+				for idx, line in enumerate(file):
 					attachment = re.findall('../../download/attachments/(\d*)/([^\)]*)\)',line)
 					if len(attachment) > 1:
-						print(attachment,filename)
+						print(idx,attachment,filename)
 					elif attachment:
-						print(attachment)
+#						print(attachment[0])
+						print(idx,unquote(attachment[0][1]))
 
 
 
@@ -67,13 +69,19 @@ def convertMigrateAssets(filename, targetDir, sourceDir):
 		sourceDir = sourceDir + '/'
 	# 1) search all assets
 	with fileinput.FileInput(filename, inplace=True, backup='.bak') as file:
-		for line in file:
+		skipRestOfFile = False
+		for idx, line in enumerate(file):
+			if idx > 0:
+				line = line.replace('### ','#### ')
+				line = line.replace('## ','### ')
+				line = line.replace('# ','## ')
 			attachment = re.search('../../download/(\w*)/(\d*)/([^\)]*)\)',line)
 			if attachment:
 				type = attachment.group(1)
 				number = attachment.group(2)
 				assetname = attachment.group(3)
-				assetname_spaced = assetname.replace('%20', ' ').replace('%C3%A4','ä')
+#				assetname_spaced = assetname.replace('%20', ' ').replace('%C3%A4','ä')
+				assetname_spaced = unquote(assetname)
 				#print(type, number, assetname)
 				# 2) copy all assets
 				oldasset_spaced = sourceDir + type + '/' + number + '/' + assetname_spaced
@@ -84,8 +92,10 @@ def convertMigrateAssets(filename, targetDir, sourceDir):
 				newasset = targetDir + assetname
 				print(line.replace(oldasset, newasset), end='')
 			else:
-				print(line, end='')
-			# fix header size
+				if (line.startswith('  1. [OpenOlat 16.1 Benutzerhandbuch](../OO161DE.html)')):
+					skipRestOfFile = True
+				if not skipRestOfFile:
+					print(line, end='')
 
 
 def main(argv):

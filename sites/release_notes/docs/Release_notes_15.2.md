@@ -22,7 +22,7 @@ for 15.1 – 15.1.4 can be found
 [here](https://confluence.openolat.org/display/OO151EN/Release+notes+15.1#Releasenotes15.1-Releasenotes-
 versions).
 
-![](../../download/attachments/108600794/Features_Improvements_Labels_EN.png)
+![](assets/152/Features_Improvements_Labels_EN.png)
 
   
 
@@ -30,7 +30,7 @@ versions).
 
   
 
-# BigBlueButton - Extensions
+## BigBlueButton - Extensions
 
 If BigBlueButton meetings are recorded, the publication of the recordings can
 now be controlled specifically. For this purpose, a list of participants is
@@ -48,7 +48,7 @@ In addition, an infrastructure was created that allows BBB recordings to be
 stored on an Opencast server. A re-integration of these recordings at other
 OpenOlat locations is possible via the Opencast module.
 
-![](../../download/attachments/108600794/Screenshot%202020-08-26%20at%2016.19.07.png)
+![](assets/152/Screenshot%202020-08-26%20at%2016.19.07.png)
 
   
 
@@ -56,14 +56,14 @@ OpenOlat locations is possible via the Opencast module.
 
   
 
-# Course element Opencast
+## Course element Opencast
 
 With the course element Opencast, recordings of meetings and courses stored on
 an Opencast server can be integrated into OpenOlat courses. The configuration
 and connection of the Opencast server is done in the administration. In the
 course element either single videos or whole series can be integrated.
 
-![](../../download/attachments/108600794/Screenshot%202020-08-28%20at%2009.35.51.png)
+![](assets/152/Screenshot%202020-08-28%20at%2009.35.51.png)
 
   
 
@@ -71,7 +71,7 @@ course element either single videos or whole series can be integrated.
 
   
 
-# Additional notes
+## Additional notes
 
   * Change of username is possible, frentix customers please contact the frentix support
   * Course tools can be integrated into Single pages and opened directly via link (see screenshot)
@@ -79,7 +79,7 @@ course element either single videos or whole series can be integrated.
   * Users can be added to courses, groups, etc. using first and last names
   * Course tool "Calendar" can also be opened in a new window
 
-![](../../download/attachments/108600794/Screenshot%202020-08-28%20at%2010.44.53.png)
+![](assets/152/Screenshot%202020-08-28%20at%2010.44.53.png)
 
   
 
@@ -87,7 +87,7 @@ course element either single videos or whole series can be integrated.
 
   
 
-# Important note for administrators
+## Important note for administrators
 
 The JDBC driver for MySQL has been updated. Please check if the timezone is
 set in the database, because the driver does not accept undefined timezones.
@@ -112,7 +112,7 @@ database.
 
   
 
-# Technical details
+## Technical details
 
   * Framework feature to create new windows from within a controller
   * Detach LDAP user name from OpenOlat user name and enable LDAP users via Excel import
@@ -125,7 +125,7 @@ database.
 
   
 
-# Release notes - versions
+## Release notes - versions
 
   * [15.2.13](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=17012)
   * [15.2.12](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=17011)

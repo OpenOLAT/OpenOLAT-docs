@@ -33,7 +33,7 @@ Liste der Änderungen in 14.2 – 14.2.9 finden Sie
 [hier](https://confluence.openolat.org/display/OO142DE/Release+Notes+14.2#ReleaseNotes14.2-ReleaseNotes-
 Versionen).
 
-![](../../download/attachments/108593240/Features_Improvements_Labels_DE.png)
+![](assets/150/Features_Improvements_Labels_DE.png)
 
   * 1 Release Notes 15.0 
   * 2Lernpfad - der neue OpenOlat Standardkurs
@@ -61,7 +61,7 @@ Versionen).
 
   
 
-# Lernpfad - der neue OpenOlat Standardkurs
+## Lernpfad - der neue OpenOlat Standardkurs
 
 Der neue Kurstyp Lernpfad ist insgesamt einfacher und die Visualisierung hilft
 den Lernenden, den Überblick über ihre Aktivitäten zu behalten. Dies ist
@@ -70,7 +70,7 @@ auch Autoren und Betreuer profitieren vom neuen Kurstyp.
 
   
 
-## Teilnehmer
+#### Teilnehmer
 
 Für Teilnehmende bietet der Lernpfad eine grundlegend verbesserte Navigations-
 und Orientierungshilfe innerhalb des Kurses. Die Visualisierung des Lernpfades
@@ -78,13 +78,13 @@ zeigt auf einen Blick, was sie bereits absolviert haben, an welcher Stelle im
 Kurs sie gerade stehen und welche Module sie noch bearbeiten dürfen oder
 müssen.
 
-## Betreuer
+#### Betreuer
 
 Für Betreuer steht mit dem Lernpfadreport ein verbessertes Teilnehmertracking
 zur Verfügung. Dadurch kann auf den individuellen Lernfortschritt der
 Teilnehmer reagiert und gezielte Unterstützung angeboten werden.
 
-## Autoren
+#### Autoren
 
 Für Bildungsgestalter ist die Gestaltung unterschiedlicher Lernszenarien
 filigraner und flexibler möglich. Kursbausteine können als obligatorisch oder
@@ -96,7 +96,7 @@ werden.
 
   
 
-![](../../download/attachments/108593240/7aef91b4-2512-4851-96ca-c5b47c633d27.png)
+![](assets/150/7aef91b4-2512-4851-96ca-c5b47c633d27.png)
 ![](../../download/attachments/108593240/e86b5161-e856-45cd-
 ab99-4172a052f88e.png)
 
@@ -104,7 +104,7 @@ ab99-4172a052f88e.png)
 
   
 
-## Bearbeitung und Bewertung des Lernpfadkurses
+#### Bearbeitung und Bewertung des Lernpfadkurses
 
 Es stehen pro Kursbaustein verschiedene Erledigungskriterien wie
 beispielsweise "Bestätigung durch den Benutzer", "Bestanden", "Punkte" oder
@@ -115,7 +115,7 @@ Am Lernpfadkurs kann ausserdem aus mehreren Optionen wie "Lernfortschritt
 100%", "Alle Kursbausteine bestanden" oder "Punkteschwelle erreicht" definiert
 werden, wann der gesamte Kurs als "Bestanden" gilt.
 
-![](../../download/thumbnails/108593240/Screenshot%202020-05-11%20at%2018.19.39%EF%B9%96version=1&modificationDate=1589213990000&api=v2.png)
+![](assets/150/Screenshot%202020-05-11%20at%2018.19.39%EF%B9%96version=1&modificationDate=1589213990000&api=v2.png)
 
   
 
@@ -123,7 +123,7 @@ werden, wann der gesamte Kurs als "Bestanden" gilt.
 
   
 
-# Kurs Konfigurationsübersicht
+## Kurs Konfigurationsübersicht
 
 Im Kurseditor beider Kurstypen kann neu eine Konfigurationsübersicht
 aufgerufen werden, welche einen Überblick über alle Kurselemente und deren
@@ -134,7 +134,7 @@ für mehrere Kurselemente gleichzeitig möglich, so können z. B. mehrere bisher
 verpflichtende Kurselemente in einem Schritt auf die Option freiwillig
 umgestellt werden.
 
-![](../../download/attachments/108593240/Screenshot%202020-05-12%20at%2011.30.59.png)
+![](assets/150/Screenshot%202020-05-12%20at%2011.30.59.png)
 
   
 
@@ -142,7 +142,7 @@ umgestellt werden.
 
   
 
-# Erweiterte Kurstool-Palette
+## Erweiterte Kurstool-Palette
 
 Viele Kursbausteine wie z.B. die Teilnehmerliste, Mitteilungen oder auch ein
 Kursforum sind einmalig im Kurs vorhanden und dienen vor allem der Information
@@ -152,9 +152,9 @@ ist, wurden diese Bausteine zusätzlich auch als Werkzeuge für die Kurstoolbar
 ergänzt. Die einzelnen Tools können in den Kurseinstellungen individuell
 aktiviert werden.
 
-![](../../download/attachments/108593240/Screenshot%202020-04-27%20at%2016.28.32.png)
+![](assets/150/Screenshot%202020-04-27%20at%2016.28.32.png)
 
-# In-Kurs-Rollenwechsel
+## In-Kurs-Rollenwechsel
 
 Um die Kursdarstellung aus der Lernenden- bzw. Betreuer-Perspektive
 anzuschauen, können Autoren nun schnell und einfach zwischen ihren Rollen im
@@ -169,9 +169,9 @@ durchführt, werden keine Daten ins Bewertungswerkzeug übernommen, bei der
 Bearbeitung von Kurselementen in einem Lernpfadkurs wird der Lernfortschritt
 nicht erfasst.
 
-![](../../download/thumbnails/108593240/Ansicht_Rollenwahl%EF%B9%96version=1&modificationDate=1589204162000&api=v2.png)
+![](assets/150/Ansicht_Rollenwahl%EF%B9%96version=1&modificationDate=1589204162000&api=v2.png)
 
-# Kursbezogene Nutzungsbedingungen und Datenschutzerklärung
+## Kursbezogene Nutzungsbedingungen und Datenschutzerklärung
 
 Kurse enthalten oft geschütztes Material oder sensible Daten und es ist eine
 Bestätigung erforderlich, damit das Material vertraulich behandelt und nicht
@@ -180,7 +180,7 @@ Aktivierung der kursbezogenen Nutzungsbedingungen bzw. Datenschutzerklärung
 kann pro Kurs eine solche Bestätigung vor dem Zugriff auf den eigentlichen
 Kursinhalt eingeholt werden.
 
-![](../../download/attachments/108593240/Screenshot%202020-05-11%20at%2011.37.48.png)
+![](assets/150/Screenshot%202020-05-11%20at%2011.37.48.png)
 
   
 
@@ -188,7 +188,7 @@ Kursinhalt eingeholt werden.
 
   
 
-# BigBlueButton Integration
+## BigBlueButton Integration
 
 Ein weiterer virtueller Klassenraum wurde in OpenOlat integriert:
 BigBlueButton. Die Aktivierung des Tools und die Konfiguration der
@@ -199,7 +199,7 @@ Teilnehmeranzahl, Meetingdauer und Anzahl paralleler Räume sowie Einstellungen
 wie beispielsweise Mikrofon- und Webcam-Verfügbarkeit für Teilnehmer und die
 Möglichkeit für Breakout-Rooms im Online-Raum bereits konfiguriert.
 
-## Kursbaustein BigBlueButton
+#### Kursbaustein BigBlueButton
 
 Mit dem neuen Kursbaustein kann der Betreuer Meetingräume direkt im Kurs
 anlegen. Dabei kann aus den konfigurierten Raumvorlagen das zum Szenario
@@ -211,7 +211,7 @@ Verfügung.
 
   
 
-## Gruppenwerkzeug BigBlueButton
+#### Gruppenwerkzeug BigBlueButton
 
 Als kollaboratives Werkzeug kann BigBlueButton auch als Gruppenwerkzeug
 genutzt werden. Bei entsprechender Freigabe der Raumvorlagen können sowohl
@@ -219,7 +219,7 @@ Gruppenbetreuer als auch Gruppenmitglieder neue Meetings für gemeinsame
 Online-Session anlegen. Auch im Gruppenwerkzeug stehen die Aufzeichnungen nach
 Meeting-Ende für einen weiteren Zugriff bereit.
 
-![](../../download/attachments/108593240/BBB_KBS_DE.png)
+![](assets/150/BBB_KBS_DE.png)
 
   
 
@@ -227,23 +227,23 @@ Meeting-Ende für einen weiteren Zugriff bereit.
 
   
 
-# **Neuer QTI 2.1 Fragetyp: Reihenfolge (Order)**
+## **Neuer QTI 2.1 Fragetyp: Reihenfolge (Order)**
 
 Ein neuer Fragetyp Reihenfolge steht zur Verfügung und bietet die Möglichkeit,
 sowohl Text- als auch Bild-Elemente in einer bestimmten Abfolge anzuordnen.
 Lernende müssen dabei die Elemente per Drag & Drop in die richtige Reihenfolge
 bringen.
 
-![](../../download/attachments/108593240/Screenshot%202020-05-11%20at%2011.06.07.png)
+![](assets/150/Screenshot%202020-05-11%20at%2011.06.07.png)
 
-# Manuelle Sortierung von Katalogeinträgen
+## Manuelle Sortierung von Katalogeinträgen
 
 Katalogverwaltern steht eine freie (manuelle) Sortierung von Katalogeinträgen
 zur Verfügung, um beispielsweise die bestehende Struktur der
 Bildungseinrichtung oder eine bestimmte thematische Kursreihenfolge
 abzubilden.
 
-![](../../download/attachments/108593240/Screenshot%202020-05-11%20at%2017.21.43.png)
+![](assets/150/Screenshot%202020-05-11%20at%2017.21.43.png)
 
   
 
@@ -271,11 +271,11 @@ Das Tool bietet folgende Funktionen:
 
 **Korrektoren: Ansicht eigene Korrekturaufträge**
 
-![](../../download/attachments/108593240/Screenshot%202020-05-11%20at%2016.47.34.png)
+![](assets/150/Screenshot%202020-05-11%20at%2016.47.34.png)
 
  **Lernressourcenmanager / Kursbesitzer:  Übersicht aller Korrektoren**
 
-![](../../download/attachments/108593240/Screenshot%202020-05-11%20at%2016.42.59.png)
+![](assets/150/Screenshot%202020-05-11%20at%2016.42.59.png)
 
   
 
@@ -283,7 +283,7 @@ Das Tool bietet folgende Funktionen:
 
   
 
-# **Weiteres, kurz notiert**
+## **Weiteres, kurz notiert**
 
   * Manuelle Sortierung von Gruppen im Einschreibe-Kursbaustein möglich
   * Automatisches Anlegen von Test-Sektionen bei der Test-Erstellung anhand der zugeordneten Fachbereiche der Fragen
@@ -299,7 +299,7 @@ Das Tool bietet folgende Funktionen:
 
   
 
-# Support-Ende
+## Support-Ende
 
 Import und Ausführung von QTI 1.2 Fragen, Tests und Fragebögen wird ab Release
 15.0 nicht mehr unterstützt. Eine Konvertierung in QTI 2.1 ist weiterhin
@@ -314,7 +314,7 @@ Einträge werden gelöscht.
 
   
 
-# Technisches
+## Technisches
 
   * Library-Updates
   * Vorbereitendes Framework-Refactoring, um zukünftig das Open-in-New-Window Verhalten in Browsern zu unterstützen
@@ -328,7 +328,7 @@ Einträge werden gelöscht.
 
   
 
-# Release Notes - Versionen
+## Release Notes - Versionen
 
   * [15.0.6](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=16927)
   * [15.0.5](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=16925)
