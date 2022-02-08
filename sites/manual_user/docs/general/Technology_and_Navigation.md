@@ -1,4 +1,4 @@
-#  [Technology and Navigation](Technology+and+Navigation.html)
+# Technology and Navigation
 
 OpenOlat is a web application and is mostly written in Java. Furthermore we
 use standard web applications such as: Apache (web server), Tomcat

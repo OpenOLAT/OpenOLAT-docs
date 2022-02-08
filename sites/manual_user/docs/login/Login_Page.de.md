@@ -1,4 +1,4 @@
-#  [Login-Seite](Login-Seite.html)
+# Login-Seite
 
 Sie können sich jederzeit über die Zugangsseite Ihrer Organisation in OpenOlat
 einloggen. Beachten Sie, dass die genauen Zugangsmöglichkeiten je nach

@@ -1,4 +1,4 @@
-#  [Roles and Rights](Roles+and+Rights.html)
+# Roles and Rights
 
   * 1 Roles and Rights 
   * 2OpenOlat system wide roles and rights

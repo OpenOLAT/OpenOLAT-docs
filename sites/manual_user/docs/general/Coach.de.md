@@ -1,4 +1,4 @@
-#  [Betreuer](Betreuer.html)
+# Betreuer
 
 Hier finden Sie eine Übersicht über die Rechte des Betreuers.
 

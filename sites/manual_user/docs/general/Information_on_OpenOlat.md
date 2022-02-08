@@ -1,4 +1,4 @@
-#  [Information on OpenOlat](Information+on+OpenOlat.html)
+# Information on OpenOlat
 
 OpenOlat derives from OLAT which means "Online Learning and Training", and is
 an open-source learning platform. In 1999 OLAT was launched by the Computer

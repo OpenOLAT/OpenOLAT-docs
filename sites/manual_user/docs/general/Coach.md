@@ -1,4 +1,4 @@
-#  [Coach](Coach.html)
+# Coach
 
 Here you will find an overview of the rights of the coach.
 

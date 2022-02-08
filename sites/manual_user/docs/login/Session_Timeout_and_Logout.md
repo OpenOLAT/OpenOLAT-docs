@@ -1,4 +1,4 @@
-#  [Session Timeout and Logout](Session+Timeout+and+Logout.html)
+# Session Timeout and Logout
 
 OpenOlat administers a session for all users. Each click (e.g. on a question
 in a test) restarts the session time of your session. System administrators

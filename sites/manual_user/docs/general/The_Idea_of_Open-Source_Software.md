@@ -1,4 +1,4 @@
-#  [The Idea of Open-Source Software](The+Idea+of+Open-Source+Software.html)
+# The Idea of Open-Source Software
 
 OpenOlat is an open-source software which means that its code is at your
 disposal for free. You can download it, use it, adapt it, and develop it

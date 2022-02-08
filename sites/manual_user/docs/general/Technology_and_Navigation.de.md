@@ -1,4 +1,4 @@
-#  [Technologie und Navigation](Technologie+und+Navigation.html)
+# Technologie und Navigation
 
 OpenOlat ist eine Webapplikation und ist hauptsächlich in Java geschrieben.
 Weiter werden die heute üblichen Standards für Webanwendungen verwendet:

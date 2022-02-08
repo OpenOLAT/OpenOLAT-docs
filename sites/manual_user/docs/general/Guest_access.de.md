@@ -1,4 +1,4 @@
-#  [Gastzugang](Gastzugang.html)
+# Gastzugang
 
 Neben registrierten Benutzern können auch Personen ohne OpenOlat Account als
 Gäste Zugang zum System erhalten. Gäste sind anonyme, nicht registrierte

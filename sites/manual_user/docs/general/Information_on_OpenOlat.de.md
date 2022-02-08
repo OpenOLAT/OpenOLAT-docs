@@ -1,4 +1,4 @@
-#  [Informationen zu OpenOlat](Informationen+zu+OpenOlat.html)
+# Informationen zu OpenOlat
 
 OpenOlat basiert auf dem LMS OLAT und steht für „Open Online Learning and
 Training“ und ist eine Open-Source Lernplattform. 1999 entstand OLAT am

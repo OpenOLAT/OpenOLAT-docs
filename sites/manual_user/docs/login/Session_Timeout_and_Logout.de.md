@@ -1,4 +1,4 @@
-#  [Session-Timeout und Logout](Session-Timeout+und+Logout.html)
+# Session-Timeout und Logout
 
 Für jeden eingeloggten Benutzer verwaltet OpenOlat eine Session. Bei jedem
 Klick (beispielsweise Aufrufen einer Frage in einem Test) beginnt die Session-

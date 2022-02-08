@@ -1,4 +1,4 @@
-#  [Der Open-Source-Gedanke](Der+Open-Source-Gedanke.html)
+# Der Open-Source-Gedanke
 
 OpenOlat ist Open-Source-Software, d.h. der Programmcode steht frei zur
 Verfügung und kann ohne Lizenzkosten heruntergeladen, genutzt, angepasst und

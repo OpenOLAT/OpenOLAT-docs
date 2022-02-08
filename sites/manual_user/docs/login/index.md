@@ -1,10 +1,9 @@
-#  [Registration, Login and Logout](Registration,+Login+and+Logout.html)
+# Registration, Login and Logout
 
   * [Login Page](Login+Page.html)
   * [Session Timeout and Logout](Session+Timeout+and+Logout.html)
 
   
-
 In this chapter you will learn how to register in OpenOlat and how to log out.
 Additionally you will come to know more about the information available on the
 login page.

@@ -1,4 +1,4 @@
-#  Requirements when Working with OpenOlat (Requirements+when+Working+with+OpenOlat.html)
+#  Requirements when Working with OpenOlat
 
 OpenOlat is a web application. In order to work with OpenOlat you will need an
 internet connection as well as a modern web browser.  Please perform a

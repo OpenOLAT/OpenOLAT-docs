@@ -1,4 +1,4 @@
-#  [Registrierung, Login und Logout](Registrierung,+Login+und+Logout.html)
+# Registrierung, Login und Logout
 
   * [Login-Seite](Login-Seite.html)
   * [Session-Timeout und Logout](Session-Timeout+und+Logout.html)

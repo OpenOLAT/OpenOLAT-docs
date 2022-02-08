@@ -1,4 +1,4 @@
-#  [Guest access](Guest+access.html)
+# Guest access
 
 Beside system users a guest access can be enabled. Guests are anonymous, not
 registered users, which cannot be managed in the user management.
