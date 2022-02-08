@@ -1,4 +1,4 @@
-#  [Release notes 15.2](Release+notes+15.2.html)
+# Release notes 15.2
 
 **Keywords:**  BigBlueButton recordings: publication -- Opencast recording
 handler -- Opencast course element

@@ -1,4 +1,4 @@
-#  [e-Assessment: ePortfolio](e-Assessment%EF%B9%95+ePortfolio.html)
+# e-Assessment: ePortfolio
 
 Der Administrator kann im Bereich "eAssessment" → "ePortfolio" das ePortfolio
 2.0 ein- oder ausschalten.

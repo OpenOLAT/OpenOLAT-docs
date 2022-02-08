@@ -1,4 +1,4 @@
-#  [REST API](REST+API.html)
+# REST API
 
 The goal of the REST API is to provide an easy way to exchange URLs. It is
 e.g. possible to manage users and learning groups, import courses, or assemble

@@ -1,4 +1,4 @@
-# Updating from a previous version
+## Updating from a previous version
 
 This guide has been designed with our [Installation Guide](installGuide.md) in mind. You should think about what data to backup if you didn't use those guides. _A backup is mandatory!_
 

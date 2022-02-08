@@ -1,4 +1,4 @@
-#  [Customizing](Customizing.html)
+# Customizing
 
 The "Customizing" menu contains settings regarding:
 

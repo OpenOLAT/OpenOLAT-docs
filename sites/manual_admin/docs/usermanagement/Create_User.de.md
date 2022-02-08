@@ -1,4 +1,4 @@
-#  [Benutzer erstellen](Benutzer+erstellen.html)
+# Benutzer erstellen
 
 Um mit OpenOlat arbeiten zu können, muss zunächst vom OpenOlat Administrator
 bzw. Benutzerverwalter ein Benutzeraccount erstellt werden. Entweder geschieht

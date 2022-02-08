@@ -1,4 +1,4 @@
-#  [Modules: Taxonomy](Modules%EF%B9%95+Taxonomy.html)
+# Modules: Taxonomy
 
 What is a taxonomy?
 

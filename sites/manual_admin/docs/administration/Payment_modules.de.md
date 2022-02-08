@@ -1,4 +1,4 @@
-#  [Bezahlungsmodule](Bezahlungsmodule.html)
+# Bezahlungsmodule
 
   * [Paypal](PayPal+Konfiguration.html)
   * Legacy PayPal

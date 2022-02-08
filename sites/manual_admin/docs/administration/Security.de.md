@@ -1,4 +1,4 @@
-#  [Sicherheit](Sicherheit.html)
+# Sicherheit
 
 ### Systemweite Sicherheitseinstellungen
 

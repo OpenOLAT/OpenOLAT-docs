@@ -1,4 +1,4 @@
-#  [System](System.html)
+# System
 
 In the System section of the OpenOlat Administration, administrators can
 obtain general information about the system runtime, such as the quota used,

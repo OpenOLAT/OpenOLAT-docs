@@ -61,6 +61,27 @@ def previewAssetDetection(sourcedir):
 						print(idx,fixFilename(unquote(attachment[0][1])),'\t\t\t', attachment[0])
 
 
+def fixAllHeaders(sourcedir):
+	for entry in recurse_findfiles(sourcedir):
+		filename = entry.path
+		if (filename.endswith('.md')):
+			fixHeader(filename)
+
+def fixHeader(filename):
+	with fileinput.FileInput(filename, inplace=True) as file:
+		for idx, line in enumerate(file):
+			if idx == 0:
+				if line.startswith('# '):
+					line = line.replace('# ','## ')
+					title = re.search('^#.*\[(.*)\].*\(.*\)$',line)
+					if title:
+						print('# ' + title.group(1))
+					else:
+						print(line, end='')
+			else:
+				print(line, end='')
+
+
 def fixFilename(filename):
 	if '﹖' in filename:
 		splitted = filename.split('﹖')
@@ -123,7 +144,7 @@ def main(argv):
 	inputfile = ''
 	outputfile = ''
 	try:
-		opts, args = getopt.getopt(argv,"d:f:a:p:",["convertdir=","convertfile="])
+		opts, args = getopt.getopt(argv,"m:M:d:f:a:p:h:H:")
 	except getopt.GetoptError:
 		print('migrate_assets.py -h')
 		sys.exit(2)
@@ -134,19 +155,23 @@ def main(argv):
 			print('migrate_assets.py -a <mdfile> <assetdir> <confluencedownloaddir> ')
 			print('migrate_assets.py -a <mddir> <assetdir> <confluencedownloaddir> ')
 			sys.exit()
-		elif opt in ("-d", "--convertdir"):
-			dir = arg
-			converter = Converter(out_dir=dir)
-			converter.convert()
-		elif opt in ("-f", "--convertfile"):
+		elif opt in ("-m"):
+			#Convert file to Markdown
 			file = arg
 			converter = Converter(out_dir='')
 			converter.convertFile(file)
+		elif opt in ("-M"):
+			#Convert files in directory to Markdown
+			dir = arg
+			converter = Converter(out_dir=dir)
+			converter.convert()
 		elif opt in ("-p"):
+			#Preview asset migration
 			dir = arg
 			print(dir)
 			previewAssetDetection(dir)
 		elif opt in ("-a"):
+			#Migrate assets for files or directories
 			assetDir = args[0]
 			confluenceDownloadDir = args[1]
 			if os.path.isdir(arg):
@@ -155,84 +180,16 @@ def main(argv):
 			else:
 				file = arg
 				convertMigrateAssets(file, assetDir, confluenceDownloadDir)
-			
-			
+		elif opt in ("-h"):
+			# Fix header for single file
+			file = arg
+			fixHeader(file)
+		elif opt in ("-H"):
+			# Fix headers for all files in directory
+			dir = arg
+			fixAllHeaders(dir)
+
 			
 
 if __name__ == "__main__":
 	main(sys.argv[1:])
-   
-   
-   
-"""
-if __name__ == "__main__":
-	de_src = 'src/OO161DE' 
-	en_src = 'src/OO161EN' 
-	de_pages = []
-	en_pages = []
-	for (dirpath, dirnames, filenames) in walk(de_src):
-		de_pages.extend(filenames)
-	for (dirpath, dirnames, filenames) in walk(en_src):
-		en_pages.extend(filenames)
-	
-	mappings = open('16.1-mapping.csv', 'r', encoding="utf-8") 
-	reader = csv.reader(mappings, delimiter=',', quotechar='"')
-
-##EN
-	for page in en_pages:
-		# Reset mappings reader for each page loop
-		newpage = page
-		newpage = newpage.replace('+',' ')
-		newpage = newpage.replace('﹕','')
-		newpage = newpage.replace(':','')
-		newpage = newpage.replace('  ',' ')
-		
-		# Check if page exists
-		if not os.path.isfile(en_src + '/' + page):
-			print('Error resolving::' + page + '::')
-
-		newpage = newpage.replace(' ','_')
-		shutil.copyfile(en_src + '/' + page, 'target/' + newpage)
-
-
-## DE
-	for page in de_pages:
-		# Reset mappings reader for each page loop
-		newpage = page
-		newpage = newpage.replace('+',' ')
-		newpage = newpage.replace('﹕','')
-		newpage = newpage.replace(':','')
-		newpage = newpage.replace('  ',' ')
-		
-		mappings.seek(0)
-		for pair in reader:
-			de = pair[0]
-			en = pair[1]
-			if de == '': 
-				continue
-			if en == '':
-				continue
-			if newpage == de + '.html':
-				newpage = newpage.replace(de + '.html', en + '.de.html')
-		
-		# Check if we missed a page
-		if not newpage.endswith('de.html'):
-			print(newpage)
-
-		# Check if page exists
-		if not os.path.isfile(de_src + '/' + page):
-			print('Error resolving::' + page + '::')
-
-		newpage = newpage.replace(' ','_')	
-		shutil.copyfile(de_src + '/' + page, 'target/' + newpage)
-
-		# Check if there is also an EN page
-		if not os.path.isfile('target/' + newpage.replace('de.html','html')):
-			print('Error resolving EN::' + newpage.replace('de.html','html') + '::')
-
-	mappings.close()
-
-	converter = Converter(out_dir='target/')
-	converter.convert()
-"""
-

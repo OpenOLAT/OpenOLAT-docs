@@ -1,4 +1,4 @@
-#  [Release Notes 15.5](Release+Notes+15.5.html)
+# Release Notes 15.5
 
 
 

@@ -1,4 +1,4 @@
-#  [BigBlueButton module](BigBlueButton+module.html)
+# BigBlueButton module
 
 In the administration the virtual classroom BigBlueButton can be activated.
 This article describes the configuration of multiple BigBlueButton servers,

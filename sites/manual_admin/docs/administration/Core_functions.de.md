@@ -1,4 +1,4 @@
-#  [Core Konfiguration](Core+Konfiguration.html)
+# Core Konfiguration
 
 ## Sprachen
 

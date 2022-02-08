@@ -1,4 +1,4 @@
-#  [Release Notes 16.1](Release+Notes+16.1.html)
+# Release Notes 16.1
 
 Mit OpenOlat 16.1 geben wir unseren nächsten Major Release frei.
 

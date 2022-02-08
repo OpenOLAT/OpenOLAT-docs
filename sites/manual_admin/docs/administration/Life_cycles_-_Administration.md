@@ -1,4 +1,4 @@
-#  [Life cycles - Administration](Life+cycles+-+Administration.html)
+# Life cycles - Administration
 
 ## Automatic life cycle management
 

@@ -1,4 +1,4 @@
-#  [Release notes 15.0](Release+notes+15.0.html)
+# Release notes 15.0
 
 **Keywords:** Learning path -- Course configuration overview -- Course tools
 -- In course role change -- Course-related terms of use -- BigBlueButton --

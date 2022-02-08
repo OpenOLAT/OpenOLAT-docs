@@ -1,4 +1,4 @@
-#  [Create User](Create+User.html)
+# Create User
 
 In order to work with OpenOlat, a user account must first be created by the
 OpenOlat administrator or user manager. Either this is done via an external

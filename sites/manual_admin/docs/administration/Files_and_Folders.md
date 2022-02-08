@@ -1,4 +1,4 @@
-#  [Files and Folders](Files+and+Folders.html)
+# Files and Folders
 
 In the administration in the "[Core functions](Core+functions.html)" area,
 settings can also be made regarding the files, including versions and quotas.

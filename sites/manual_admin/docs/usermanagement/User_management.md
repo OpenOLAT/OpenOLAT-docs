@@ -1,4 +1,4 @@
-#  [User management](User+management.html)
+# User management
 
 The user administration is a separate tab in the OpenOlat menu. Here you have
 access to the roles in different contexts. User administrators and

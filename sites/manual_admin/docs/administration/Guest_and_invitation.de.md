@@ -1,4 +1,4 @@
-#  [Gast und Einladung](Gast+und+Einladung.html)
+# Gast und Einladung
 
 Im Bereich "Gast und Einladung" in der Login Konfiguration wird definiert ob
 ein Gastlogin möglich ist, sowie weitere Detaileinstellungen in diesem

@@ -1,4 +1,4 @@
-#  [Security](Security.html)
+# Security
 
 ### System wide security settings
 

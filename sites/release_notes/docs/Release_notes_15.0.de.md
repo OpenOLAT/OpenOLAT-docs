@@ -1,4 +1,4 @@
-#  [Release Notes 15.0](Release+Notes+15.0.html)
+# Release Notes 15.0
 
 **Keywords:**  Lernpfad -- Kurs-Konfigurationsübersicht -- Kurstools \-- In-
 Kurs-Rollenwechsel -- Kursbezogene Nutzungsbedingungen  \-- BigBlueButton --

@@ -1,4 +1,4 @@
-#  [Release Notes 15.3](Release+Notes+15.3.html)
+# Release Notes 15.3
 
 **Keywords:**  Kontaktverfolgung -- Kursbaustein Dokument \-- OnlyOffice
 Erweiterungen \-- Microsoft Azure Directory Login -- Office for the web --

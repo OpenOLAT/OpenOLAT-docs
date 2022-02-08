@@ -1,4 +1,4 @@
-#  [Analytics module](Analytics+module.html)
+# Analytics module
 
 In OpenOlat the infrastructure to support external analytics tools is built.
 Therewith a detailed analysis of user behavior or the applied equipment while

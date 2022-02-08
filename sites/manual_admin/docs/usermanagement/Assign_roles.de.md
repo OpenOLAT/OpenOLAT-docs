@@ -1,4 +1,4 @@
-#  [Rollen zuweisen](Rollen+zuweisen.html)
+# Rollen zuweisen
 
 Sobald ein User erstellt wurde und ein Account angelegt wurde, kann dieser
 weiter konfiguriert werden. Eine wichtige Einstellung ist die Zuordnung der

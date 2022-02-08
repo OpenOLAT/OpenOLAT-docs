@@ -1,4 +1,4 @@
-#  [Core functions](Core+functions.html)
+# Core functions
 
 ## Languages
 

@@ -1,4 +1,4 @@
-#  [Release notes 15.3](Release+notes+15.3.html)
+# Release notes 15.3
 
 **Keywords:**  Contact Tracing -- Course element Document \-- OnlyOffice
 enhancements -- Microsoft Azure Directory Login -- Office for the web --

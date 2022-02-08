@@ -1,4 +1,4 @@
-#  [PayPal Configuration](PayPal+Configuration.html)
+# PayPal Configuration
 
 The PayPal booking module allows authors of courses and project groups to
 charge money to grant access to those resources. Your clients can either pay

@@ -1,4 +1,4 @@
-#  [Modules: Curriculum](Modules%EF%B9%95+Curriculum.html)
+# Modules: Curriculum
 
 ## Activation of the Curriculum
 

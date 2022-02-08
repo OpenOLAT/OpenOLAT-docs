@@ -1,4 +1,4 @@
-# Install OpenOlat with MySQL
+## Install OpenOlat with MySQL
 
 This installation guide is an extension to the general [Installation Guide](installGuide.md). Replace the database relevant parts with the MySQL counterparts you will find here. 
 

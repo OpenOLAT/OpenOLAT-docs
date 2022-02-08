@@ -1,4 +1,4 @@
-#  [Release notes 14.2](Release+notes+14.2.html)
+# Release notes 14.2
 
 **Keywords:  **BigBlueButton -- Correction time -- Shuffle sections -- Gap
 question enhancement -- Multi-Livestream -- Task element enhancement -- File

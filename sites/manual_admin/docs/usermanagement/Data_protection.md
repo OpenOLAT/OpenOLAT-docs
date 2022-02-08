@@ -1,4 +1,4 @@
-#  [Data protection](Data+protection.html)
+# Data protection
 
 The EU General Data Protection Regulation (GDPR), which has been in force
 since 25 May 2018, regulates the basic principles of user data protection. To

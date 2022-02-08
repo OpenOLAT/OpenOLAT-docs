@@ -1,4 +1,4 @@
-#  [Release notes 15.5](Release+notes+15.5.html)
+# Release notes 15.5
 
 With OpenOlat 16.1 we release our next major release.
 

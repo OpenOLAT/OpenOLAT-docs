@@ -1,4 +1,4 @@
-#  [Datenschutz](Datenschutz.html)
+# Datenschutz
 
 Die seit dem 25. Mai 2018 gültige Datenschutzgrundverordnung (DSGVO) der EU
 regelt die Grundlagen für den Datenschutz von Benutzern. Zur Erfüllung der

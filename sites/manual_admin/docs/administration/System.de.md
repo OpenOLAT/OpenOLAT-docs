@@ -1,4 +1,4 @@
-#  [System](System.html)
+# System
 
 Im Bereich System der OpenOlat Administration erhalten Administratoren
 allgemeine Informationen zur System Runtime, wie genutzter Speicher, aktuelle

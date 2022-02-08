@@ -1,4 +1,4 @@
-#  [Benutzer konfigurieren](Benutzer+konfigurieren.html)
+# Benutzer konfigurieren
 
 Über die Benutzersuche können Personen mit dem Recht der Benutzerverwaltung
 nach Personen suchen und weitere Konfigurationen vornehmen. So kann der

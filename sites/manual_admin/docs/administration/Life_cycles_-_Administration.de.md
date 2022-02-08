@@ -1,4 +1,4 @@
-#  [Lebenszyklen - Administration](Lebenszyklen+-+Administration.html)
+# Lebenszyklen - Administration
 
 ##  Automatisches Lebenszyklusmanagement
 

@@ -1,4 +1,4 @@
-#  [Startseite](Startseite.html)
+# Startseite
 
 Hier legen Sie feingranular fest, welche Benutzergruppen welche Startseite
 angezeigt bekommen, wenn sie sich in OpenOlat einloggen. Sie definieren

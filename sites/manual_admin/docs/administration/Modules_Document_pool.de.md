@@ -1,4 +1,4 @@
-#  [Modules: Dokumentenpool](Modules%EF%B9%95+Dokumentenpool.html)
+# Modules: Dokumentenpool
 
 Was ist der Dokumentenpool?
 

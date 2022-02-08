@@ -1,4 +1,4 @@
-#  [Configure User](Configure+User.html)
+# Configure User
 
 Via the user search, people with user administration rights can search for
 people and make further configurations. For example, the person found can be

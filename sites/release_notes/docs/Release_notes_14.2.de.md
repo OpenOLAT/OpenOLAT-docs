@@ -1,4 +1,4 @@
-#  [Release Notes 14.2](Release+Notes+14.2.html)
+# Release Notes 14.2
 
 **Keywords:**  BigBlueButton -- Korrekturzeit -- zufällige Sektions-
 Reihenfolge -- Verbesserung der Lückentextfrage -- Multi-Livestream --

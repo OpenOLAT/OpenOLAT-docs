@@ -1,4 +1,4 @@
-#  [Modul BigBlueButton](Modul+BigBlueButton.html)
+# Modul BigBlueButton
 
 In der Verwaltung kann das virtuelle Klassenzimmer BigBlueButton aktiviert
 werden. Dieser Artikel beschreibt die Konfiguration von mehreren

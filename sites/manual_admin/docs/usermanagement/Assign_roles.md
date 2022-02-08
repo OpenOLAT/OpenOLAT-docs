@@ -1,4 +1,4 @@
-#  [Assign roles](Assign+roles.html)
+# Assign roles
 
 As soon as a user has been created and an account has been set up, it can be
 further configured. An important setting is the assignment of the desired

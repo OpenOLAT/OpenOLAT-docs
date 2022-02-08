@@ -1,4 +1,4 @@
-#  [Release Notes 16.0](Release+Notes+16.0.html)
+# Release Notes 16.0
 
 
 

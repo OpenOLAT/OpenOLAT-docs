@@ -1,4 +1,4 @@
-#  [Login](Login.html)
+# Login
 
 Configuration of the login in the OpenOlat Administration
 

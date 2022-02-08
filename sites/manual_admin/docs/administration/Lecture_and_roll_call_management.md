@@ -1,4 +1,4 @@
-#  [Lecture and roll call management](Lecture+and+roll+call+management.html)
+# Lecture and roll call management
 
 Before the lectures and absence management can be used it need to be activated
 in the administration. As frentix-client please contact

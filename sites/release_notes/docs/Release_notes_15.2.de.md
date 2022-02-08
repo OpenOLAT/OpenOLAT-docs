@@ -1,4 +1,4 @@
-#  [Release Notes 15.2](Release+Notes+15.2.html)
+# Release Notes 15.2
 
 **Keywords:**  BigBlueButton Recordings: Freigabe -- Opencast Recording
 Handler -- OpenCast Kursbaustein

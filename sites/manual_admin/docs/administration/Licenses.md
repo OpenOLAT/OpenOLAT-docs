@@ -1,4 +1,4 @@
-#  [Licenses](Licenses.html)
+# Licenses
 
 The OpenOlat license management is optional and can be managed in the
 administration.

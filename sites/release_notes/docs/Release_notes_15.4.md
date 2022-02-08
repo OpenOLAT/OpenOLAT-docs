@@ -1,4 +1,4 @@
-#  [Release notes 15.4](Release+notes+15.4.html)
+# Release notes 15.4
 
 
 

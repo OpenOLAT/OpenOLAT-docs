@@ -1,4 +1,4 @@
-#  [eAssessment: ePortfolio](eAssessment%EF%B9%95+ePortfolio.html)
+# eAssessment: ePortfolio
 
 In this form the OpenOlat administrator can activate / deactivate the
 ePortfolio 2.0.

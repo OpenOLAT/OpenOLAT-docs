@@ -1,4 +1,4 @@
-#  [eAssessment: Question bank](eAssessment%EF%B9%95+Question+bank.html)
+# eAssessment: Question bank
 
 Here you can configure the question pool from the system administrator's point
 of view. Some of the settings can also be made in the [pool manager's

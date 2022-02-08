@@ -1,4 +1,4 @@
-#  [Lektionen- und Absenzenmanagement](Lektionen-+und+Absenzenmanagement.html)
+# Lektionen- und Absenzenmanagement
 
 Bevor das Lektionen- und Absenzenmanagement genutzt werden kann, muss dies in
 der Administration aktiviert werden. Kunden von frentix kontaktieren dafür

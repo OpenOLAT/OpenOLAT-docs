@@ -1,4 +1,4 @@
-#  [Instant Messaging](Instant+Messaging.html)
+# Instant Messaging
 
 The Instant-Messaging module allows enabling of the "chat" and "messaging"
 features. The following configuration parameters are available:

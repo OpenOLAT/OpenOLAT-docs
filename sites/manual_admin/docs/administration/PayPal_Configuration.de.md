@@ -1,4 +1,4 @@
-#  [PayPal Konfiguration](PayPal+Konfiguration.html)
+# PayPal Konfiguration
 
 Das PayPal Buchungsmodul erlaubt es Autoren Kurse und Arbeitsgruppen gegen
 Geld freizuschalten. Ihre Kunden können dabei entweder mit Kreditkarte oder

@@ -1,4 +1,4 @@
-#  [Dateien und Ordner](Dateien+und+Ordner.html)
+# Dateien und Ordner
 
 In der Administration im Bereich "[Core
 Konfiguration](Core+Konfiguration.html)" können auch Einstellungen bezüglich

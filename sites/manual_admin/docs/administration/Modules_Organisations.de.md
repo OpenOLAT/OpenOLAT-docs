@@ -1,4 +1,4 @@
-#  [Modules: Organisationen](Modules%EF%B9%95+Organisationen.html)
+# Modules: Organisationen
 
 ## Aktivierung der Organisationsstrukturen
 

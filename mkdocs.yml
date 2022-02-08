@@ -164,6 +164,7 @@ plugins:
           Info page : Infoseite
           Information on OpenOlat : Informationen zu OpenOlat
           Instant Messaging : Instant Messaging
+          Introduction : Einführung
           Item Detailed View : Detailansicht einer Frage
           Just a Few Clicks and the Course Wizard Will Create Your OpenOlat Course : Mit dem Kursassistenten in wenigen Mausklicks zu Ihrem OpenOlat-Kurs
           Knowledge Transfer : Wissensvermittlung
@@ -202,7 +203,6 @@ plugins:
           Performance assessment : Leistungsbewertung
           Personal folders : Persönliche Ordner
           Personal Menu : Persönliche Werkzeuge
-          Personal menu and general components : Persönliches Menü und allgemeine Funktionen
           Podcast  : Podcast
           Portal configuration : Portal konfigurieren
           Portfolio - General Information : Allgemeines zum Portfolio

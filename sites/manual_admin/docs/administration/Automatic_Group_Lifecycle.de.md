@@ -1,4 +1,4 @@
-#  [Automatischer Gruppenlebenszyklus](Automatischer+Gruppenlebenszyklus.html)
+# Automatischer Gruppenlebenszyklus
 
 Der neue Gruppenlebenszyklus macht es einfach, nicht benutzte Gruppen nach
 einer bestimmten Frist **automatisch** zu inaktivieren und dann zu löschen,

@@ -1,4 +1,4 @@
-#  [E-Mail Einstellungen](E-Mail+Einstellungen.html)
+# E-Mail Einstellungen
 
 Hier kann definiert werden, welche Einschränkungen Benutzer in Bezug auf die
 Emailadresse haben.

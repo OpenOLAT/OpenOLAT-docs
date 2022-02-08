@@ -1,4 +1,4 @@
-# Installation guide for OpenOlat 15.3 and greater
+## Installation guide for OpenOlat 15.3 and greater
 
 This guide walks you through installing OpenOlat Version 15.3.x or newer on a local GNU/Linux or similar system using _Tomcat 9_, _Java 11_ and _PostgreSQL 12_. If you already have an up and running installation, see our [Update Guide](updateGuide.md)
 

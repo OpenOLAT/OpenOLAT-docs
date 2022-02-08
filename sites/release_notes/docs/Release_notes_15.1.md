@@ -1,4 +1,4 @@
-#  [Release notes 15.1](Release+notes+15.1.html)
+# Release notes 15.1
 
 **Keywords:**  Appointment scheduling course element -- New BigBlueButton
 functions -- Options for displaying test results -- User life cycle -- Help

@@ -1,4 +1,4 @@
-#  [Analytics Modul](Analytics+Modul.html)
+# Analytics Modul
 
 In OpenOlat ist die Infrastruktur zur Unterstützung externer Analytics
 Werkzeuge bereitgestellt. Diese dienen der detaillierten Auswertung des

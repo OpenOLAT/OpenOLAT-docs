@@ -1,4 +1,4 @@
-# Install OpenOlat on Microsoft Windows
+## Install OpenOlat on Microsoft Windows
 
 ## On the server
 

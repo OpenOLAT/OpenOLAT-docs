@@ -1,4 +1,4 @@
-#  [Release Notes 15.1](Release+Notes+15.1.html)
+# Release Notes 15.1
 
 **Keywords:**  Kursbaustein Terminplanung -- Neue BigBlueButton Funktionen --
 Optionen zur Anzeige von Testresultaten -- Benutzer-Lebenszyklus -- Hilfe-

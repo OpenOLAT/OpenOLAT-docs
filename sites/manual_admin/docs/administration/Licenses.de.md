@@ -1,4 +1,4 @@
-#  [Lizenzen](Lizenzen.html)
+# Lizenzen
 
 Das Lizenzmanagement in OpenOlat ist optional und kann in der Administration
 konfiguriert werden.

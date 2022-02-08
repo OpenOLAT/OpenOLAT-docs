@@ -1,4 +1,4 @@
-#  [Benutzerverwaltung](Benutzerverwaltung.html)
+# Benutzerverwaltung
 
 Die Benutzerverwaltung ist ein separater Tab im OpenOlat Menü. Hier hat man
 Zugriff auf die Rollen in unterschiedlichen Kontexten. Benutzerverwalter und

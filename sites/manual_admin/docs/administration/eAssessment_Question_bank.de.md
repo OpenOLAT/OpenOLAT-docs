@@ -1,4 +1,4 @@
-#  [e-Assessment: Fragenpool](e-Assessment%EF%B9%95+Fragenpool.html)
+# e-Assessment: Fragenpool
 
 Hier können Sie den Fragenpool aus Sicht des Systemadministrators
 konfigurieren. Einige der Einstellungen können auch in der [Administration des
