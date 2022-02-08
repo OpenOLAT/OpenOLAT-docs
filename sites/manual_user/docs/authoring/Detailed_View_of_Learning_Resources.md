@@ -1,5 +1,4 @@
-##  [Detailed View of Learning
-Resources](Detailed+View+of+Learning+Resources.html)
+#  Detailed View of Learning Resources
 
 ## Toolbar
 

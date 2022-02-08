@@ -73,25 +73,30 @@ Erledigt
       - Set up info page: "authoring/Set_up_info_page.md"
       - Technical Information on Resources and Usage: "authoring/Technical_Information_on_Resources_and_Usage.md"
     
+  - Creating Courses: 
+    - course_create/index.md
+    - General Information: "course_create/General_Information.md"
+    - In Five Steps to Your Course With the Course Editor: "course_create/In_Five_Steps_to_Your_Course_With_the_Course_Editor.md"
+    - Just a Few Clicks and the Course Wizard Will Create Your OpenOlat Course: "course_create/Just_a_Few_Clicks_and_the_Course_Wizard_Will_Create_Your_OpenOlat_Course.md"
+    - Lernpfad Kurs : 
+      - Lernpfad Kurs : "course_create/Learning_path_course.md"
+      - Creating learning path courses: "course_create/Creating_learning_path_courses.md"
+      - Lernpfad Kurs : "course_create/Learning_path_course_-_Course_editor.md"
+      - Lernpfad Kurse : "course_create/Learning_path_course_-_Participant_view.md"
+    - General Configuration of Course Elements:
+      - General Configuration of Course Elements: "course_create/General_Configuration_of_Course_Elements.md"
+      - Deleting, Moving and Copying Course Elements: "course_create/Deleting_Moving_and_Copying_Course_Elements.md"
+      - Access Restrictions in the Expert Mode: "course_create/Access_Restrictions_in_the_Expert_Mode.md"
+    - Using additional Course Editor Tools: "course_create/Using_additional_Course_Editor_Tools.md"
+    - Course Settings:
+      - Course Settings: "course_create/Course_Settings.md"
+      - Design possibilities of courses and course elements: "course_create/Design_possibilities_of_courses_and_course_elements.md"
+    - Access configuration: "course_create/Access_configuration.md"
+
 
 Hier gehts weiter: 
 =================
       
-  - Creating Courses: "Creating_Courses.md"
-    - General Information: "General_Information.md"
-    - In Five Steps to Your Course With the Course Editor: "In_Five_Steps_to_Your_Course_With_the_Course_Editor.md"
-    - Just a Few Clicks and the Course Wizard Will Create Your OpenOlat Course: "Just_a_Few_Clicks_and_the_Course_Wizard_Will_Create_Your_OpenOlat_Course.md"
-    - Lernpfad Kurs : "Learning_path_course.md"
-      - Creating learning path courses: "Creating_learning_path_courses.md"
-      - Lernpfad Kurs : "Learning_path_course_-_Course_editor.md"
-      - Lernpfad Kurse : "Learning_path_course_-_Participant_view.md"
-    - General Configuration of Course Elements: "General_Configuration_of_Course_Elements.md"
-      - Deleting, Moving and Copying Course Elements: "Deleting,_Moving_and_Copying_Course_Elements.md"
-      - Access Restrictions in the Expert Mode: "Access_Restrictions_in_the_Expert_Mode.md"
-    - Using additional Course Editor Tools: "Using_additional_Course_Editor_Tools.md"
-    - Course Settings: "Course_Settings.md"
-      - Design possibilities of courses and course elements: "Design_possibilities_of_courses_and_course_elements.md"
-    - Access configuration: "Access_configuration.md"
   - Types of Course Element: "Types_of_Course_Element.md"
     - Knowledge Transfer: "Knowledge_Transfer.md"
       - Course Element Folder: "Course_Element_Folder.md"

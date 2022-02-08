@@ -46,18 +46,23 @@ def recurse_findfiles(path):
 			raise NotImplemented()
 
 
-def previewAssetDetection(sourcedir):
+def previewAssetDetection(sourcedir, confluenceDownloadDir):
 	for entry in recurse_findfiles(sourcedir):
 		filename = entry.path
 		if (filename.endswith('.md')):
 			with fileinput.FileInput(filename) as file:
 				for idx, line in enumerate(file):
-					attachment = re.findall('../../download/attachments/(\d*)/([^\)]*)\)',line)
+					attachment = re.findall('(../)*download/(.*)/(\d*)/([^\)]*)\)',line)
 					if len(attachment) > 1:
 						print(idx,attachment,filename)
 					elif attachment:
-#						print(attachment[0])
-						print(idx,fixFilename(unquote(attachment[0][1])),'\t\t\t', attachment[0])
+						fullPath = confluenceDownloadDir + '/' + attachment[0][1] + '/' + attachment[0][2] + '/' + unquote(unquote(attachment[0][3]))
+						exists = os.path.exists(fullPath)
+						if (not exists) :
+							print('*** NOT FOUND', filename, fullPath)
+#						else :
+#							print(idx,fixFilename(unquote(attachment[0][2])),'\t\t\t', attachment[0])
+
 
 
 def fixAllHeadersAndFooters(sourcedir):
@@ -116,11 +121,11 @@ def convertMigrateAssets(filename, assetDir, confluenceDownloadDir):
 				elif line.startswith('# '):
 					line = line.replace('# ','## ')
 			"""
-			attachment = re.search('../../download/(\w*)/(\d*)/([^\)]*)\)',line)
+			attachment = re.search('(../)*download/(\w*)/(\d*)/([^\)]*)\)',line)
 			if attachment:
-				type = attachment.group(1)
-				number = attachment.group(2)
-				assetname = attachment.group(3)
+				type = attachment.group(2)
+				number = attachment.group(3)
+				assetname = attachment.group(4)
 				assetname_spaced = unquote(assetname)
 				#print(type, number, assetname)
 				# 2) copy all assets
@@ -128,7 +133,7 @@ def convertMigrateAssets(filename, assetDir, confluenceDownloadDir):
 				newasset_spaced = fixFilename(assetDir + assetname_spaced)
 				shutil.copyfile(oldasset_spaced, newasset_spaced)
 				# 3) replace asset path in file
-				oldasset = '../../download/' + type + '/' + number + '/' + assetname
+				oldasset = attachment.group(1) + 'download/' + type + '/' + number + '/' + assetname
 				print(line.replace(oldasset, newasset_spaced), end='')
 			else:
 				print(line, end='')
@@ -171,7 +176,7 @@ def main(argv):
 			#Preview asset migration
 			dir = arg
 			print(dir)
-			previewAssetDetection(dir)
+			previewAssetDetection(dir, confluenceDownloadDir)
 		elif opt in ("-a"):
 			#Migrate assets for files or directories
 			if os.path.isdir(arg):
