@@ -52,12 +52,9 @@ Erledigt
     - catalog/index.md
     - Finding courses: "catalog/Finding_courses.md"
     - Info page: "catalog/Info_page.md"
-    
 
-Hier gehts weiter: 
-=================
-      
-  - Learning Activities in Courses: "Learning_Activities_in_Courses.md"
+  - Learning Activities in Courses: 
+    - "Learning_Activities_in_Courses.md"
     - Working With Course Elements: "Working_With_Course_Elements.md"
       - Working with Tasks and Group Tasks: "Working_with_Tasks_and_Group_Tasks.md"
       - Working with Tests: "Working_with_Tests.md"
@@ -66,12 +63,20 @@ Hier gehts weiter:
     - Additional Course Features: "Additional_Course_Features.md"
     - Exams: "Exams.md"
     - Course Problems and Error Messages: "Course_Problems_and_Error_Messages.md"
-  - Authoring: "Authoring.md"
-    - Various Types of Learning Resources: "Various_Types_of_Learning_Resources.md"
-    - Actions in the Authoring section: "Actions_in_the_'Authoring'_section.md"
-    - Detailed View of Learning Resources: "Detailed_View_of_Learning_Resources.md"
-      - Set up info page: "Set_up_info_page.md"
-      - Technical Information on Resources and Usage: "Technical_Information_on_Resources_and_Usage.md"
+
+  - Authoring: 
+    - authoring/index.md
+    - Various Types of Learning Resources: "authoring/Various_Types_of_Learning_Resources.md"
+    - Actions in the Authoring section: "authoring/Actions_in_the_'Authoring'_section.md"
+    - Detailed View of Learning Resources:
+      - Detailed View of Learning Resources: "authoring/Detailed_View_of_Learning_Resources.md"
+      - Set up info page: "authoring/Set_up_info_page.md"
+      - Technical Information on Resources and Usage: "authoring/Technical_Information_on_Resources_and_Usage.md"
+    
+
+Hier gehts weiter: 
+=================
+      
   - Creating Courses: "Creating_Courses.md"
     - General Information: "General_Information.md"
     - In Five Steps to Your Course With the Course Editor: "In_Five_Steps_to_Your_Course_With_the_Course_Editor.md"

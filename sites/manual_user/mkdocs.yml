@@ -43,3 +43,23 @@ nav:
     - catalog/index.md
     - Finding courses: "catalog/Finding_courses.md"
     - Info page: "catalog/Info_page.md"
+
+  - Learning Activities in Courses: 
+    - "learning_activities/index.md"
+    - Working With Course Elements: 
+      - Working With Course Elements: "learning_activities/Working_With_Course_Elements.md"
+      - Working with Tasks and Group Tasks: "learning_activities/Working_with_Tasks_and_Group_Tasks.md"
+      - Working with Tests: "learning_activities/Working_with_Tests.md"
+      - Working with Topic Assignment: "learning_activities/Working_with_Topic_Assignment.md"
+      - Working with Wiki: "learning_activities/Working_with_Wiki.md"
+    - Additional Course Features: "learning_activities/Additional_Course_Features.md"
+    - Exams: "learning_activities/Exams.md"
+    - Course Problems and Error Messages: "learning_activities/Course_Problems_and_Error_Messages.md"
+    
+  - Authoring: 
+    - authoring/index.md
+    - Various Types of Learning Resources: "authoring/Various_Types_of_Learning_Resources.md"
+    - Actions in the Authoring section: "authoring/Actions_in_the_'Authoring'_section.md"
+    - Detailed View of Learning Resources: "authoring/Detailed_View_of_Learning_Resources.md"
+    - Set up info page: "authoring/Set_up_info_page.md"
+    - Technical Information on Resources and Usage: "authoring/Technical_Information_on_Resources_and_Usage.md"
