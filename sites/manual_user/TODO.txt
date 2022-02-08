@@ -94,28 +94,38 @@ Erledigt
     - Access configuration: "course_create/Access_configuration.md"
 
 
+  - Types of Course Element: 
+    - "course_elements/index.md"
+    - Knowledge Transfer:
+      - Knowledge Transfer: "course_elements/Knowledge_Transfer.md"
+      - Course Element Structure: "course_elements/Course_Element_Structure.md"
+      - Course Element Folder: "course_elements/Course_Element_Folder.md"
+      - Course Element Single Page: "course_elements/Course_Element_Single_Page.md"
+      - Course Element SCORM Learning Content: "course_elements/Course_Element_SCORM_Learning_Content.md"
+      - Course Element card2brain Flashcards: "course_elements/Course_Element_card2brain_Flashcards.md"
+      - Course Element Mediasite: "course_elements/Course_Element_Mediasite.md"
+      - Course Element Video: "course_elements/Course_Element_Video.md"
+    - Assessment: 
+      - Assessment: "course_elements/Assessment.md"
+      - Course Element Assessment: "course_elements/Course_Element_Assessment.md"
+      - Course Element Checklist: "course_elements/Course_Element_Checklist.md"
+    - Communication and Collaboration:
+      - Communication and Collaboration: "course_elements/Communication_and_Collaboration.md"
+      - Virtual classrooms: "course_elements/Virtual_classrooms.md"
+      - Course element Adobe Connect: "course_elements/Course_element_Adobe_Connect.md"
+      - Course element BigBlueButton: "course_elements/Course_element_BigBlueButton.md"
+      - BBB - Frequently asked questions : "course_elements/Frequentyl_asked_questions_-_BigBlueButton.md"
+      - Course element GoToMeeting: "course_elements/Course_element_GoToMeeting.md"
+      - Course element OpenMeetings: "course_elements/Course_element_OpenMeetings.md"
+      - Course element vitero: "course_elements/Course_element_vitero.md"
+      - Course element Microsoft Teams: "course_elements/Course_element_Microsoft_Teams.md"
+    - Administration and Organisation: "course_elements/Administration_and_Organisation.md"
+    - Other: "course_elements/Other.md"
+
+
 Hier gehts weiter: 
-=================
-      
-  - Types of Course Element: "Types_of_Course_Element.md"
-    - Knowledge Transfer: "Knowledge_Transfer.md"
-      - Course Element Folder: "Course_Element_Folder.md"
-      - Course Element Single Page: "Course_Element_Single_Page.md"
-      - Course Element SCORM Learning Content: "Course_Element_SCORM_Learning_Content.md"
-      - Course Element card2brain Flashcards: "Course_Element_card2brain_Flashcards.md"
-    - Assessment: "Assessment.md"
-      - Course Element Assessment: "Course_Element_Assessment.md"
-      - Course Element Checklist: "Course_Element_Checklist.md"
-    - Communication and Collaboration: "Communication_and_Collaboration.md"
-      - Virtual classrooms: "Virtual_classrooms.md"
-      - Course element BigBlueButton: "Course_element_BigBlueButton.md"
-        - Häufig gestellte Fragen : "Frequentyl_asked_questions_-_BigBlueButton.md"
-      - Course element GoToMeeting: "Course_element_GoToMeeting.md"
-      - Course element OpenMeetings: "Course_element_OpenMeetings.md"
-      - Course element vitero: "Course_element_vitero.md"
-      - Course element Microsoft Teams: "Course_element_Microsoft_Teams.md"
-    - Administration and Organisation: "Administration_and_Organisation.md"
-    - Other: "Other.md"
+=================    
+    
   - Course Operation: "Course_Operation.md"
     - Using Course Tools: "Using_Course_Tools.md"
       - Members management: "Members_management.md"

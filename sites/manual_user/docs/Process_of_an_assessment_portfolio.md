@@ -1,5 +1,4 @@
-#  [Process of an assessment
-portfolio](Process+of+an+assessment+portfolio.html)
+#  [Process of an assessment portfolio](Process+of+an+assessment+portfolio.html)
 
 There are different variations of how a portfolio can be used. Here the
 process of a learning portfolio is shown exemplarily including provided tasks,
@@ -17,7 +16,8 @@ corresponding process step.
 
   
 
-## Authoring![](../../download/attachments/590936/place_in_OO_EN.png)
+## Authoring
+![](../../download/attachments/590936/place_in_OO_EN.png)
 
 ## Authoring
 

@@ -1,5 +1,4 @@
-##  [Externe Werkzeuge -
-Administration](Externe+Werkzeuge+-+Administration.html)
+# Externe Werkzeuge - Administration
 
 In diesem Bereich können die OpenOlat Administratoren diverse externe Tools
 ein- und ausschalten und je nach Tool bestimmte Basiseinstellungen, die

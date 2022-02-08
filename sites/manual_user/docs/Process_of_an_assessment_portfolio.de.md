@@ -1,5 +1,4 @@
-#  [Prozess eines
-Bewertungsportfolios](Prozess+eines+Bewertungsportfolios.html)
+#  [Prozess eines Bewertungsportfolios](Prozess+eines+Bewertungsportfolios.html)
 
 Es gibt verschiedene Varianten, ein E-Portfolio zu nutzen. Hier wird
 exemplarisch der Prozess für ein Lernportfolio mit vom Lehrenden
@@ -18,7 +17,8 @@ jeweiligen Prozessschritt.
 
   
 
-## Autorenbereich![](../../download/attachments/590041/Ort_im_OO_DE.png.jpeg)
+## Autorenbereich
+![](../../download/attachments/590041/Ort_im_OO_DE.png.jpeg)
 
 ## Autorenbereich
 

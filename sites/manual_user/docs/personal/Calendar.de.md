@@ -1,6 +1,6 @@
 # Kalender
 
-## ![](assets/calendar.png)Kalender in OpenOlat
+![](assets/calendar.png)Kalender in OpenOlat
 
 Die Kalenderfunktion steht Ihnen an verschiedenen Orten zur Verfügung
 

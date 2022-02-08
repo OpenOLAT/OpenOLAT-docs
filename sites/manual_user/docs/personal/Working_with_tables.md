@@ -41,7 +41,7 @@ menu as filter tabs.
 Click on the "All Filters" option to display all available filter options in
 full screen mode. You can also set the individual filters there.
 
-## ![](assets/search.png)
+![](assets/search.png)
 
 ## Filter tabs
 

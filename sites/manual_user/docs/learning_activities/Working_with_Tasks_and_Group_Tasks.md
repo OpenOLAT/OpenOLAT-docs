@@ -1,5 +1,4 @@
-##  [Working with Tasks and Group
-Tasks](Working+with+Tasks+and+Group+Tasks.html)
+# Working with Tasks and Group Tasks
 
 ![](assets/task.png)
 

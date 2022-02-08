@@ -26,7 +26,7 @@ Die Gruppen können gefiltert dargestellt werden, was besonders bei vielen
 Gruppen hilfreich ist. Um die Filtermöglichkeiten zu sehen müssen diese mit
 Hilfe des kleinen Pfeils aufgeklappt werden.
 
-## ![](assets/Gruppe.png)
+![](assets/Gruppe.png)
 
 Weitere Infos zu den Aktionsmöglichkeiten im Menü "Gruppen" finden Sie im
 Kapitel [Gruppenverwaltung](Gruppenverwaltung.html).

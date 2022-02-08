@@ -1,6 +1,6 @@
 # Calendar
 
-## ![](assets/calendar.png)Calendar in OpenOlat
+![](assets/calendar.png)Calendar in OpenOlat
 
 You have threefold access to the calendar
 
@@ -13,13 +13,6 @@ Course calendars, like group calendars, are automatically added to your
 events will be displayed there for you.
 
   
-
-  
-
-  
-
-  
-
 ### Create / Edit entry
 
 In order to add a new event to your calendar you have to click inside the

@@ -1,5 +1,4 @@
-##  [Arbeiten mit Aufgaben und
-Gruppenaufgaben](Arbeiten+mit+Aufgaben+und+Gruppenaufgaben.html)
+# Arbeiten mit Aufgaben und Gruppenaufgaben
 
 ![](assets/task.png)
 

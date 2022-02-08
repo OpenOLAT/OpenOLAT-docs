@@ -39,7 +39,7 @@ Verantwortliche Personen:
   * Christian Meier (Content), TU Dresden
 
 
-##  [Weitere Informationsquellen](Weitere+Informationsquellen.html)
+## Weitere Informationsquellen
 
 ### Hilfe
 

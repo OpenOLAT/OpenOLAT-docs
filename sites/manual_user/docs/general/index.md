@@ -54,7 +54,7 @@ Responsible people:
   * Christian Meier (Content), TU Dresden
 
 
-##  [Further Sources of Information](Further+Sources+of+Information.html)
+## Further Sources of Information
 
 ### HELP
 
