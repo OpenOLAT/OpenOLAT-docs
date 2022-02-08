@@ -103,6 +103,7 @@ def convertMigrateAssets(filename, assetDir, confluenceDownloadDir):
 	if not confluenceDownloadDir.endswith('/'):
 		confluenceDownloadDir = confluenceDownloadDir + '/'
 	os.makedirs(assetDir, exist_ok=True)
+	os.makedirs(assetDir + '../bak', exist_ok=True)
 	# 1) search all assets
 	with fileinput.FileInput(filename, inplace=True, backup='.bak') as file:
 		for idx, line in enumerate(file):
@@ -131,8 +132,6 @@ def convertMigrateAssets(filename, assetDir, confluenceDownloadDir):
 				print(line.replace(oldasset, newasset_spaced), end='')
 			else:
 				print(line, end='')
-	os.makedirs(assetDir + '../bak', exist_ok=True)
-	os.rename(filename + '.bak', 'bak/' + filename + '.bak')
 
 
 def convertMigrateAssetsDirectory(sourcedir, assetDir, confluenceDownloadDir):
@@ -143,6 +142,7 @@ def convertMigrateAssetsDirectory(sourcedir, assetDir, confluenceDownloadDir):
 
 def main(argv):
 	confluenceDownloadDir = '/Users/gnaegi/Desktop/us.sitesucker.mac.sitesucker/confluence.openolat.org/download'
+	assetDir = 'assets/'
 	inputfile = ''
 	outputfile = ''
 	try:
@@ -174,7 +174,6 @@ def main(argv):
 			previewAssetDetection(dir)
 		elif opt in ("-a"):
 			#Migrate assets for files or directories
-			assetDir = args[0]
 			if os.path.isdir(arg):
 				dir = arg
 				convertMigrateAssetsDirectory(dir, assetDir, confluenceDownloadDir)

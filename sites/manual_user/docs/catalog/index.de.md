@@ -1,6 +1,6 @@
-#  [Kurse und Katalog](Kurse+und+Katalog.html)
+# Kurse und Katalog
 
-![](../../download/attachments/590041/Meine_kurse.png)
+![](assets/Meine_kurse.png)
 
 Dreh- und Angelpunkt in OpenOlat sind die Kurse sowie weitere Lernressourcen,
 also Lerninhalte und Lernaktivitäten aller Art. Dieses Kapitel erläutert die

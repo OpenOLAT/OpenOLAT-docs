@@ -31,3 +31,15 @@ nav:
     - Portal configuration: "personal/Portal_configuration.md"
     - Math formula: "personal/Math_formula.md"
     - Working with tables: "personal/Working_with_tables.md"
+
+  - Groups:
+    - groups/index.md
+    - Create Groups: "groups/Create_Groups.md"
+    - Group Administration: "groups/Group_Administration.md"
+    - Using Group Tools: "groups/Using_Group_Tools.md"
+    - Group Management: "groups/Group_Management.md"
+    
+  - Courses and Catalog: 
+    - catalog/index.md
+    - Finding courses: "catalog/Finding_courses.md"
+    - Info page: "catalog/Info_page.md"

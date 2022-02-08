@@ -1,4 +1,4 @@
-#  [Infoseite](Infoseite.html)
+# Infoseite
 
 Jeder Kurs und jede OpenOlat Lernressource verfügt über eine Infoseite. Bei
 Kursen wird diese Seite als „Kursinfo“ bezeichnet. Die hier eingestellten
@@ -20,7 +20,7 @@ sowie ein erster Teil der Beschreibung erscheinen dann auch in der Übersicht
 unter „Meine Kurse“ bzw. „Favoriten“ sofern nicht die Tabellenansicht gewählt
 wurde.
 
-![](../../download/attachments/590041/Infoseite1.png)
+![](assets/Infoseite1.png)
 
 Die Infoseite enthält auch einen Link um den Kurs zu starten bzw. zu buchen.
 OpenOlat generiert automatisch weitere Informationen die für die Nutzer
@@ -31,16 +31,16 @@ wichtig sind. Hierzu zählen:
   * Infos zur Verwendung mit Lizenzangaben zur Lernressource bzw. zum Kurs
   * Meine Daten mit dem aktuellen Status, dem letzten Zugriff usw.
 
-![](../../download/attachments/590041/Infoseite2.png)
+![](assets/Infoseite2.png)
 
 Ferner besteht die Möglichkeit den Kurs bzw. die Lernressource mit Sternen zu
 bewerten (sofern vom OLAT Admin aktiviert).
 
-![](../../download/attachments/590041/Infoseite_Link.png)
+![](assets/Infoseite_Link.png)
 
 ### Technische Informationen
 
-![](../../download/attachments/590041/Technische_Infos.png)
+![](assets/Technische_Infos.png)
 
 Die Infos zu den Zugriffsberechtigungen, dem Ersteller und den aktuellen
 Autoren sind nur für die OLAT Besitzer sichtbar.
@@ -49,11 +49,11 @@ Autoren sind nur für die OLAT Besitzer sichtbar.
 
 Beispiel für eine User Ansicht
 
-![](../../download/attachments/590041/Infos_Vewerndung.png)
+![](assets/Infos_Vewerndung.png)
 
 Beispiel für eine Besitzer Ansicht
 
-![](../../download/attachments/590041/Infos_Verwerndung_test_autor.png)
+![](assets/Infos_Verwerndung_test_autor.png)
 
  **Lizenzinformationen:** Anzeige der zur Lernressource zugeordneten Lizenz
 sowie - falls angegeben - Lizenzgeber und -text.
@@ -84,7 +84,7 @@ können Sie auch einen Bookmark auf den Kurs/die Lernressource setzen. Falls
 der Besitzer des Kurses das Verlassen des Kurses gestattet, können Sie dies
 hier ebenfalls tun.
 
-![](../../download/attachments/590041/Infos_meine_daten.png)
+![](assets/Infos_meine_daten.png)
 
 ## Wie findet man die Infoseite?
 
@@ -92,7 +92,7 @@ Zur Infoseite einer Lernressource gelangen Sie, wenn Sie im Bereich „Kurse“
 oder „Katalog“ in der Liste auf den Link „Infoseite“ klicken oder wenn Sie im
 Kursbetrieb in der Kurstoolbar das Icon  wählen.
 
-![](../../download/attachments/590041/Toolbar_Kursinfo.png)
+![](assets/Toolbar_Kursinfo.png)
 
 Wenn Ihre gewählte Veranstaltung kaum Informationen umfasst, dann liegt es
 daran, dass Ihr Lehrender diese Seite (noch) nicht weiter eingerichtet hat.

@@ -41,19 +41,22 @@ Erledigt
     - Math formula: "Math_formula.md"
     - Working with tables: "Working_with_tables.md"
     
+  - Groups: 
+  	- groups/index.md
+    - Create Groups: "groups/Create_Groups.md"
+    - Group Administration: "groups/Group_Administration.md"
+    - Using Group Tools: "groups/Using_Group_Tools.md"
+    - Group Management: "groups/Group_Management.md"
+
+  - Courses and Catalog: 
+    - catalog/index.md
+    - Finding courses: "catalog/Finding_courses.md"
+    - Info page: "catalog/Info_page.md"
     
 
 Hier gehts weiter: 
 =================
       
-  - Groups: "Groups.md"
-    - Create Groups: "Create_Groups.md"
-    - Group Administration: "Group_Administration.md"
-    - Using Group Tools: "Using_Group_Tools.md"
-    - Group Management: "Group_Management.md"
-  - Courses and Catalog: "Courses_and_Catalog.md"
-    - Finding courses: "Finding_courses.md"
-    - Info page: "Info_page.md"
   - Learning Activities in Courses: "Learning_Activities_in_Courses.md"
     - Working With Course Elements: "Working_With_Course_Elements.md"
       - Working with Tasks and Group Tasks: "Working_with_Tasks_and_Group_Tasks.md"

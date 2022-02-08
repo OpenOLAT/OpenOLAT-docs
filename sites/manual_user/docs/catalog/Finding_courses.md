@@ -1,4 +1,4 @@
-#  [Finding courses](Finding+courses.html)
+# Finding courses
 
 The "Courses" menu item gives you access to the courses and possibly other
 learning resources available to you. Click on the "Courses" menu item in the
@@ -16,7 +16,7 @@ timeline, membership status, and results. To do so, click the small arrow and
 more filter options will appear. Learn more about how to best filter your
 tables [here](Working+with+tables.html).
 
-![](../../download/attachments/108600829/courses.png)
+![](assets/courses.png)
 
 ## Search
 
@@ -29,13 +29,13 @@ If you do not find a course, make sure that you have not activated a filter
 that you do not want, e.g. only courses that you have not yet passed are
 found. In this case, remove the corresponding filter.
 
-![](../../download/attachments/108600829/search.png)
+![](assets/search.png)
 
 Mark the course as a favorite when you have found it. To do this, click on the
 white flag, which will then turn red. The next time you log in, you will find
 the course directly in your favorites.
 
-![](../../download/attachments/108600829/favorites.png)
+![](assets/favorites.png)
 
 ## Catalog
 
@@ -52,7 +52,7 @@ Use the search mask in case you should not find the appropriate course in the
 catalog. It may be that the course author has not yet listed that course in
 the OpenOlat catalog.
 
-![](../../download/attachments/108600829/catalog.png)
+![](assets/catalog.png)
 
 Use the search mask if you cannot find the desired course in the catalog. The
 owner may not have entered the course in the catalog yet.

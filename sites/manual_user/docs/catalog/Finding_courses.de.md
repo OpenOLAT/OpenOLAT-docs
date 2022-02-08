@@ -1,4 +1,4 @@
-#  [Kurse finden](Kurse+finden.html)
+# Kurse finden
 
 Der Menüpunkt „Kurse“ bietet Ihnen den Zugang zu den für Sie zugänglichen
 Kursen und eventuell weiteren Lernressourcen. Klicken Sie in der
@@ -18,7 +18,7 @@ auf den kleinen Pfeil und weitere Filteroptionen erscheinen.
 [Hier](mit+Tabellen+arbeiten.html) erfahren Sie mehr darüber wie Sie Ihre
 Ansicht optimal filtern können.
 
-![](../../download/attachments/108593608/Meine%20Kurse.png)
+![](assets/Meine Kurse.png)
 
 ### Suchen
 
@@ -34,13 +34,13 @@ nicht bestanden haben. Entfernen Sie in diesem Fall den entsprechenden Filter.
 
   
 
-![](../../download/attachments/108593608/Suche.png)
+![](assets/Suche.png)
 
 Markieren Sie den Kurs als Favorit, wenn Sie ihn gefunden haben. Klicken Sie
 dazu die weisse Flagge an, die sich dann rot färbt. Beim nächsten Login finden
 Sie den Kurs dann direkt in Ihren Favoriten.
 
-![](../../download/attachments/108593608/Favoriten_markieren.png)
+![](assets/Favoriten_markieren.png)
 
 ## Katalog
 
@@ -54,7 +54,7 @@ werden.
 Für OpenOlat Benutzer bietet sich der Katalog für die Suche nach bestimmten
 Kursen und Lernressourcen an.
 
-![](../../download/attachments/108593608/Katalog.png)
+![](assets/Katalog.png)
 
   
 
@@ -86,173 +86,4 @@ der Bereich "Lehrgänge".
   
 
   
-
-  1. [OpenOlat 16.1 Benutzerhandbuch](../OO161DE.html)
-  2. [Seiten](https://confluence.openolat.org/collector/pages.action?key=OO161DE)
-  3. [OpenOlat 16.1 Benutzerhandbuch](OpenOLAT+16.1+Benutzerhandbuch.html)
-  4. [Kurse und Katalog](Kurse+und+Katalog.html)
-  5. [Kurse finden](Kurse+finden.html)
-
-Sie sind nicht angemeldet. Ihre Änderungen werden mit anonym markiert. Sie
-sollten sich
-[anmelden](https://confluence.openolat.org/login.action?os_destination=%2Fdisplay%2FOO161DE%2FKurse%2Bfinden),
-wenn Sie bereits über ein Konto verfügen.
-
-search
-
-attachments
-
-weblink
-
-advanced
-
-image-effects
-
-image-attributes
-
-  * Absatz
-    * Absatz
-    * Überschrift 1
-    * Überschrift 2
-    * Überschrift 3
-    * Überschrift 4
-    * Überschrift 5
-    * Überschrift 6
-    * Vorformatiert
-    * Zitat
-
-  * Fett
-  * Kursiv
-  * Unterstreichen
-  * Farbauswahl
-
-Weitere Farben
-
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-
-  * Formate
-
-    * Durchgestrichen 
-    * Tiefgestellt 
-    * Hochgestellt 
-    * Festbreitenschriftart 
-
-    * Formatierung zurücksetzen 
-
-  * Aufzählung
-  * Nummerierte Liste
-
-  * Aufgabenliste
-
-  * Einzug verkleinern
-  * Einzug vergrößern
-
-  * Linksbündig ausrichten
-  * Zentriert ausrichten
-  * Rechtsbündig ausrichten
-
-  * Seitenlayout
-
-  * Verknüpfung
-
-  * Tabelle
-
-  * Einfügen
-
-Inhalt einfügen
-
-    * Dateien und Bilder 
-    * Verknüpfung 
-    * Markup 
-    * Horizontale Trennlinie einfügen 
-    * Aufgabenliste 
-    * Datum 
-    * Emoticon 
-    * Sonderzeichen 
-Makro einfügen
-
-    * Benutzererwähnung 
-    * Jira-Vorgang/-Filter 
-    * Info 
-    * Status 
-    * Galerie 
-    * Inhalt 
-
-    * Andere Makros 
-
-  * Seitenlayout
-    * Kein Layout
-    * Zweispaltig (einfach)
-    * Zweispaltig (einfach, linke Randleiste)
-    * Zweispaltig (einfach, rechte Randleiste)
-    * Dreispaltig (einfach)
-    * Zweispaltig
-    * Zweispaltig (linke Randleiste)
-    * Zweispaltig (rechte Randleiste)
-    * Dreispaltig
-    * Dreispaltig (Randleisten links und rechts)
-
-  * Rückgängig
-  * Wiederholen
-
-  * Suchen/Ersetzen
-
-  * Hilfe für Tastenkombinationen
-
-Sie sind nicht angemeldet. Ihre Änderungen werden mit anonym markiert. Sie
-sollten sich
-[anmelden](https://confluence.openolat.org/login.action?os_destination=%2Fdisplay%2FOO161DE%2FKurse%2Bfinden),
-wenn Sie bereits über ein Konto verfügen.
-
-Diese Seite wird auch von  bearbeitet. Ihre Änderungen werden mit seinen/ihren
-zusammengeführt, wenn Sie speichern.
-
-
-
-Bearbeiten
-
-Vorschau
-
-Speichern
-
-Schließen
 

@@ -1,4 +1,4 @@
-#  [Info page](Info+page.html)
+# Info page
 
 Each course and each OpenOlat learning resource has an information page. For
 courses, this page is referred to as the "Course Info" page. The information
@@ -18,7 +18,7 @@ Many teachers also add a picture or video to the event. This picture and a
 first part of the description will appear in the overview under "My Courses"
 or "Favorites" if the table view has not been selected.
 
-![](../../download/attachments/590936/detailed_view.gif)
+![](assets/detailed_view.gif)
 
 OpenOlat also automatically generates additional information that is important
 for users. This includes
