@@ -28,10 +28,6 @@ Erledigt
     - Login Page: "Login_Page.md"
     - Session Timeout and Logout: "Session_Timeout_and_Logout.md"
 
-
-Hier gehts weiter: 
-=================
-      
   - Personal menu and general components: "Personal_menu_and_general_components.md"
     - Personal Menu: "Personal_Menu.md"
       - Calendar: "Calendar.md"
@@ -44,6 +40,12 @@ Hier gehts weiter:
     - Portal configuration: "Portal_configuration.md"
     - Math formula: "Math_formula.md"
     - Working with tables: "Working_with_tables.md"
+    
+    
+
+Hier gehts weiter: 
+=================
+      
   - Groups: "Groups.md"
     - Create Groups: "Create_Groups.md"
     - Group Administration: "Group_Administration.md"

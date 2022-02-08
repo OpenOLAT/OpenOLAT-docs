@@ -2,7 +2,6 @@ import os, re, sys, fileinput, getopt, shutil, csv, html2text
 from os import walk
 from urllib.parse import unquote
 
-
 class Converter:
 	def __init__(self, out_dir):
 		self.__out_dir = out_dir
@@ -61,14 +60,15 @@ def previewAssetDetection(sourcedir):
 						print(idx,fixFilename(unquote(attachment[0][1])),'\t\t\t', attachment[0])
 
 
-def fixAllHeaders(sourcedir):
+def fixAllHeadersAndFooters(sourcedir):
 	for entry in recurse_findfiles(sourcedir):
 		filename = entry.path
 		if (filename.endswith('.md')):
-			fixHeader(filename)
+			fixHeaderAndFooter(filename)
 
-def fixHeader(filename):
+def fixHeaderAndFooter(filename):
 	with fileinput.FileInput(filename, inplace=True) as file:
+		skipRestOfFile = False
 		for idx, line in enumerate(file):
 			if idx == 0:
 				if line.startswith('# '):
@@ -79,7 +79,12 @@ def fixHeader(filename):
 					else:
 						print(line, end='')
 			else:
-				print(line, end='')
+				if (line.startswith('  1. [OpenOlat 16.1 Benutzerhandbuch](../OO161DE.html)')):
+					skipRestOfFile = True
+				elif (line.startswith('  1. [OpenOlat 16.1 User Manual](../OO161EN.html)')):
+					skipRestOfFile = True
+				if not skipRestOfFile:
+					print(line, end='')
 
 
 def fixFilename(filename):
@@ -97,9 +102,9 @@ def convertMigrateAssets(filename, assetDir, confluenceDownloadDir):
 		assetDir = assetDir + '/'
 	if not confluenceDownloadDir.endswith('/'):
 		confluenceDownloadDir = confluenceDownloadDir + '/'
+	os.makedirs(assetDir, exist_ok=True)
 	# 1) search all assets
 	with fileinput.FileInput(filename, inplace=True, backup='.bak') as file:
-		skipRestOfFile = False
 		for idx, line in enumerate(file):
 			"""
 			if idx > 0:
@@ -125,13 +130,9 @@ def convertMigrateAssets(filename, assetDir, confluenceDownloadDir):
 				oldasset = '../../download/' + type + '/' + number + '/' + assetname
 				print(line.replace(oldasset, newasset_spaced), end='')
 			else:
-				if (line.startswith('  1. [OpenOlat 16.1 Benutzerhandbuch](../OO161DE.html)')):
-					skipRestOfFile = True
-				elif (line.startswith('  1. [OpenOlat 16.1 User Manual](../OO161EN.html)')):
-					skipRestOfFile = True
-				if not skipRestOfFile:
-					print(line, end='')
-
+				print(line, end='')
+	os.makedirs(assetDir + '../bak', exist_ok=True)
+	os.rename(filename + '.bak', 'bak/' + filename + '.bak')
 
 
 def convertMigrateAssetsDirectory(sourcedir, assetDir, confluenceDownloadDir):
@@ -141,6 +142,7 @@ def convertMigrateAssetsDirectory(sourcedir, assetDir, confluenceDownloadDir):
 			convertMigrateAssets(filename, assetDir, confluenceDownloadDir);
 
 def main(argv):
+	confluenceDownloadDir = '/Users/gnaegi/Desktop/us.sitesucker.mac.sitesucker/confluence.openolat.org/download'
 	inputfile = ''
 	outputfile = ''
 	try:
@@ -173,7 +175,6 @@ def main(argv):
 		elif opt in ("-a"):
 			#Migrate assets for files or directories
 			assetDir = args[0]
-			confluenceDownloadDir = args[1]
 			if os.path.isdir(arg):
 				dir = arg
 				convertMigrateAssetsDirectory(dir, assetDir, confluenceDownloadDir)
@@ -183,11 +184,11 @@ def main(argv):
 		elif opt in ("-h"):
 			# Fix header for single file
 			file = arg
-			fixHeader(file)
+			fixHeaderAndFooter(file)
 		elif opt in ("-H"):
 			# Fix headers for all files in directory
 			dir = arg
-			fixAllHeaders(dir)
+			fixAllHeadersAndFooters(dir)
 
 			
 

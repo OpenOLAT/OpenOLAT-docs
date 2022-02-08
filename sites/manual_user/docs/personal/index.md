@@ -1,7 +1,6 @@
-#  [Personal menu and general
-components](Personal+menu+and+general+components.html)
+##  Personal menu and general components
 
-![](../../download/attachments/590039/home.png)
+![](assets/home.png)
 
 After your login you will navigate either to your personal homepage in
 OpenOlat, an info page, a page which usually contains general information on
@@ -39,5 +38,5 @@ the right.
 
   
 
-![](../../download/attachments/590936/en_navigation.png)
+![](assets/en_navigation.png)
 

@@ -16,4 +16,18 @@ nav:
     - Login Page: "login/Login_Page.md"
     - Session Timeout and Logout: "login/Session_Timeout_and_Logout.md"
 
-  
+  - Personal menu and general components: 
+    - personal/index.md
+    - Personal Menu: 
+      - Personal Menu: "personal/Personal_Menu.md"
+      - Calendar: "personal/Calendar.md"
+      - Personal folders: "personal/Personal_folders.md"
+      - E-Mail: "personal/E-Mail.md"
+    - Configuration: 
+      - Configuration: "personal/Configuration.md"
+      - COVID certificate: "personal/COVID_certificate.md"
+    - Full-Text Search: "personal/Full-Text_Search.md"
+    - Chat: "personal/Chat.md"
+    - Portal configuration: "personal/Portal_configuration.md"
+    - Math formula: "personal/Math_formula.md"
+    - Working with tables: "personal/Working_with_tables.md"
