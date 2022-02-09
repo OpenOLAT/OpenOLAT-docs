@@ -144,16 +144,17 @@ Erledigt
       - Record of Course Activities: "course_operation/Record_of_Course_Activities.md"
     - Using Additional Course Features: "course_operation/Using_Additional_Course_Features.md"
 
+  - How-to: 
+    - how-to/index.md "How-to.md"
+    - create a bulk assessment for submission tasks: "how-to/create_a_bulk_assessment_for_submission_tasks.md"
+    - customize the course design with CSS (Expert): "how-to/customize_the_course_design_with_CSS_(Expert).md"
+    - use the same files in several courses: "how-to/use_the_same_files_in_several_courses.md"
 
 
 
 Hier gehts weiter: 
 =================    
     
-  - How-to: "How-to.md"
-    - create a bulk assessment for submission tasks: "create_a_bulk_assessment_for_submission_tasks.md"
-    - customize the course design with CSS (Expert): "customize_the_course_design_with_CSS_(Expert).md"
-    - use the same files in several courses: "use_the_same_files_in_several_courses.md"
   - eAssessment: "eAssessment.md"
     - Assessment mode: "Assessment_mode.md"
     - Performance assessment: "Performance_assessment.md"

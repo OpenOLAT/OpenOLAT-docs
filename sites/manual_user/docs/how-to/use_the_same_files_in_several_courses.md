@@ -1,5 +1,4 @@
-#  [... use the same files in several
-courses](+use+the+same+files+in+several+courses.html)
+# ... use the same files in several courses
 
 If you want to implement a teaching scenario with several courses, e.g. a
 course of studies, and many files are to be used in all courses, it is
@@ -30,7 +29,7 @@ Create a Resource Folder
 Go to the [authoring area](Authoring.html) and select "Create" -> "Resource
 folder".
 
-![](../../download/attachments/108600671/resourcefolder_create%EF%B9%96version=1&modificationDate=1539087813000&api=v2.jpg)  
+![](assets/resourcefolder_create.jpg)  
   
 2.|
 
@@ -47,7 +46,7 @@ Click on the name of your resource folder in the bread-crumb navigation to
 make further settings and upload your files. Alternatively, you can also
 create HTML files directly here.
 
-![](../../download/attachments/590936/Ressourcenordner.png)
+![](assets/Ressourcenordner.png)
 
 Use [WebDAV ](Using+WebDAV.html)if you want to upload many files.  
   
@@ -63,20 +62,20 @@ Use [WebDAV ](Using+WebDAV.html)if you want to upload many files.
 Open the desired course and select the "Options" tab in the "Administration"
 submenu of the "Settings" submenu.
 
-![](../../download/attachments/590936/resource_folder_options.png)  
+![](assets/resource_folder_options.png)  
   
 2.|
 
 Choose "Replace" under "Selected resource folder".
 
-![](../../download/attachments/108600671/Resource_folder_replace_EN.png)  
+![](assets/Resource_folder_replace_EN.png)  
   
 3.|
 
 Here you can select your previously created resource folder and link it to the
 course.
 
-![](../../download/attachments/108600671/Choose_resource_folder_EN.png)
+![](assets/Choose_resource_folder_EN.png)
 
 If you have selected a resource folder, its name appears as well as the button
 "Deselect", with which you can deselect it again.  
@@ -89,7 +88,7 @@ centrally. However, if it is necessary to overwrite (single) central files
 again in the course and only for the respective course, you can remove the
 write protection in the "Options" menu of the course.
 
-![](../../download/attachments/108600671/Reseoruce_folder_read_only_EN.png)  
+![](assets/Reseoruce_folder_read_only_EN.png)  
   
   
 
@@ -104,7 +103,7 @@ To access the resource folder files within the course, go to the storage
 folder. Here you will find the automatically created subfolder
 "_sharedfolder".
 
-![](../../download/attachments/590936/13_sharedfolder.png)  
+![](assets/13_sharedfolder.png)  
   
 2.|
 
