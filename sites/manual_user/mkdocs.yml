@@ -94,7 +94,6 @@ nav:
       - Course Element SCORM Learning Content: "course_elements/Course_Element_SCORM_Learning_Content.md"
       - Course Element card2brain Flashcards: "course_elements/Course_Element_card2brain_Flashcards.md"
       - Course Element Mediasite: "course_elements/Course_Element_Mediasite.md"
-      - Course Element Video: "course_elements/Course_Element_Video.md"
     - Assessment: 
       - Overview: "course_elements/Assessment.md"
       - Course Element Assessment: "course_elements/Course_Element_Assessment.md"
@@ -146,5 +145,37 @@ nav:
     - Assessment mode: "e-assessment/Assessment_mode.md"
     - Performance assessment: "e-assessment/Performance_assessment.md"
     - Coaching: "e-assessment/Coaching.md"
+    
+  - Creating CP Learning Content: 
+    - resource_cp/index.md
+    - In Five Steps to Your Content Package: "resource_cp/In_Five_Steps_to_Your_Content_Package.md"
+    - CP Editor: "resource_cp/CP_Editor.md"
+    
+  - Creating Wikis:
+    - resource_wiki/index.md
+    - Four Steps to Your Wiki: "resource_wiki/Four_Steps_to_Your_Wiki.md"
+    
+  - Creating Videos:
+    - resource_video/index.md
+    - Learning resource Video: "resource_video/Learning_resource_Video.md"
+    - Course Element_Video: "resource_video/Course_Element_Video.md"
+    - Single Page_Add_edit video: "resource_video/Single_Page_Add_edit_video.md"
+    - Video Upload: "resource_video/Video_Upload.md"
+
+  - Creating Podcasts:
+    - resource_podcast/index.md
+    - Four Steps to Your Podcast: "resource_podcast/Four_Steps_to_Your_Podcast.md"
+    - Podcast : "resource_podcast/Podcast_-_Further_Configurations.md"
+
+  - Creating Blogs:
+    - resource_blog/index.md
+    - Four Steps to Your Blog: "resource_blog/Four_Steps_to_Your_Blog.md"
+    - Blog : "resource_blog/Blog_-_Further_Configurations.md"
+
+  - Creating Tasks:
+    - task/index.md
+    - Three Steps to Your Task: "task/Three_Steps_to_Your_Task.md"
+    - Aufgabe : "task/Task_-_Further_Configurations.md"
+    - Assess tasks: "task/Assess_tasks.md"
 
     
