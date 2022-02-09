@@ -103,7 +103,6 @@ plugins:
           Courses and Catalog : Kurse und Katalog
           COVID certificate : COVID Zertifikat
           CP Editor : CP Editor
-          create a bulk assessment for submission tasks : eine Massenbewertung für Einsendeaufgaben erstellen
           Create Groups : Gruppen erstellen
           Create User : Benutzer erstellen
           Creating Blogs : Blog erstellen
@@ -119,7 +118,6 @@ plugins:
           Creating Videos : Video erstellen
           Creating Wikis : Wiki erstellen
           Curriculum Management : Curriculumverwaltung
-          customize the course design with CSS (Expert) : Kursdesign mittels CSS manipulieren (Expert)
           Customizing : Customizing
           Data archiving : Datenarchivierung
           Data Management : Handhabung der Daten
@@ -159,7 +157,7 @@ plugins:
           Guest access : Gastzugang
           Guest and invitation : Gast und Einladung
           Häufig gestellte Fragen  : Häufig gestellte Fragen
-          How-to : How-to
+          How-to... : How-to...
           Imprint: Impressum
           In Five Steps to Your Content Package : Fünf Schritte zu Ihrem Content-Packaging
           In Five Steps to Your Course With the Course Editor : Mit dem Kurseditor in fünf Schritten zu Ihrem OpenOlat-Kurs
@@ -253,7 +251,6 @@ plugins:
           Three steps to your portfolio binder : Drei Schritte zu Ihrer Mappe
           Three Steps to Your Task : Drei Schritte zu Ihrer Aufgabe
           Types of Course Element : Kursbausteine
-          use the same files in several courses : dieselben Dateien in mehreren Kursen einsetzen
           User management : Benutzerverwaltung
           User manual: Benutzerhandbuch
           Using additional Course Editor Tools : Verwendung weiterer Kurseditorwerkzeuge
@@ -271,6 +268,10 @@ plugins:
           Working with Tests : Arbeiten mit der Themenvergabe
           Working with Topic Assignment : Arbeiten mit Tests
           Working with Wiki : Arbeiten mit Wiki
+          ...create a bulk assessment for submission tasks : ...eine Massenbewertung für Einsendeaufgaben erstellen
+          ...customize the course design with CSS (Expert) : ...Kursdesign mittels CSS manipulieren (Expert)
+          ...use the same files in several courses : ...dieselben Dateien in mehreren Kursen einsetzen
+          
 
 nav:
   - Start: 

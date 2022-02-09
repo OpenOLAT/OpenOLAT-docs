@@ -231,3 +231,20 @@ nav:
     - Test settings: "tests/Test_settings.md"
     - Tests at course level: "tests/Tests_at_course_level.md"
     
+  - Question Bank:
+    - question_bank/index.md
+    - Data Management: "question_bank/Data_Management.md"
+    - Item Detailed View: "question_bank/Item_Detailed_View.md"
+    - Question bank possible operations: "question_bank/Question_bank_possible_operations.md"
+    - Search: "question_bank/Search.md"
+    - Question Pool Sharing Options: "question_bank/Question_Pool_Sharing_Options.md"
+    - Question Bank Review Process: "question_bank/Question_Bank_Review_Process.md"
+    - Question Bank Administration: "question_bank/Question_Bank_Administration.md"
+
+  - Curriculum Management: "curriculum/Curriculum_Management.md"
+    
+  - Supported Technologies: 
+    - supported_tech/index.md 
+    - Using WebDAV: "supported_tech/Using_WebDAV.md"
+    
+    
