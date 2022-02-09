@@ -150,15 +150,16 @@ Erledigt
     - customize the course design with CSS (Expert): "how-to/customize_the_course_design_with_CSS_(Expert).md"
     - use the same files in several courses: "how-to/use_the_same_files_in_several_courses.md"
 
+  - eAssessment: 
+    - e-assessment/index.md
+    - Assessment mode: "e-assessment/Assessment_mode.md"
+    - Performance assessment: "e-assessment/Performance_assessment.md"
+    - Coaching: "e-assessment/Coaching.md"
 
 
 Hier gehts weiter: 
 =================    
     
-  - eAssessment: "eAssessment.md"
-    - Assessment mode: "Assessment_mode.md"
-    - Performance assessment: "Performance_assessment.md"
-    - Coaching: "Coaching.md"
   - Creating CP Learning Content: "Creating_CP_Learning_Content.md"
     - In Five Steps to Your Content Package: "In_Five_Steps_to_Your_Content_Package.md"
     - CP Editor: "CP_Editor.md"

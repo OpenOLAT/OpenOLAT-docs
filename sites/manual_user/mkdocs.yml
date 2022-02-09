@@ -141,4 +141,10 @@ nav:
     - ... customize the course design with CSS (Expert): "how-to/customize_the_course_design_with_CSS_Expert.md"
     - ... use the same files in several courses: "how-to/use_the_same_files_in_several_courses.md"
 
+  - eAssessment: 
+    - e-assessment/index.md
+    - Assessment mode: "e-assessment/Assessment_mode.md"
+    - Performance assessment: "e-assessment/Performance_assessment.md"
+    - Coaching: "e-assessment/Coaching.md"
+
     

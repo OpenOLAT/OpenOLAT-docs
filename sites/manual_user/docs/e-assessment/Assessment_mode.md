@@ -1,4 +1,4 @@
-#  [Assessment mode](Assessment+mode.html)
+# Assessment mode
 
 The assessment mode allows you to create exam settings where tests and
 assessment are carried out in safe mode during a fixed time span, during which
@@ -11,7 +11,7 @@ You can create an assessment mode by selecting the link "Assessment mode" in
 the course "Administration" and clicking on the button "Create test
 configuration".
 
-![](../../download/attachments/590936/assessment_mode_15.png)
+![](assets/assessment_mode_15.png)
 
 The starting page offers an overview of all previous, current and future exam
 settings. Future settings may be edited at any time, while previous settings
@@ -35,7 +35,7 @@ follow-up time at the end of the exam, users will be notified of that, too.
 
 A running assessment mode can be terminated automatically or manually.
 
-![](../../download/attachments/590041/Pruefung_beenden%EF%B9%96version=1&modificationDate=1606054356000&api=v2.jpg)
+![](assets/Pruefung_beenden.jpg)
 
 A running assessment mode is also terminated when the corresponding course is
 closed or deleted.

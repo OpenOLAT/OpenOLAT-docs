@@ -1,4 +1,4 @@
-#  [Coaching](Coaching.html)
+# Coaching
 
 Das Coaching Tool dient der kursübergreifenden Organisation und Verwaltung von
 Kursen, Teilnehmenden und Gruppen sowie der kursübergreifenden Korrektur von
@@ -36,7 +36,7 @@ können, wenn der Kurshauptknoten ebenfalls entsprechend konfiguriert wurde.
 Wird das [Absenzmanagement ](Lektionen+und+Absenzen.html)von OpenOlat genutzt,
 erscheint im Coaching-Modul der Bereich „Lektionen“.
 
-![](../../download/attachments/590041/Coaching_start.png)
+![](assets/Coaching_start.png)
 
 ### Tab Cockpit
 
@@ -62,7 +62,7 @@ Gründen für die Abwesenheit gesucht werden.
 Ähnlich wie im Tab Absenzen können hier Abmeldungen und Dispensen nach
 bestimmten Kriterien angezeigt und auch neue Dispensen erfasst werden.
 
-![](../../download/attachments/590041/Coaching_Dispens.png)
+![](assets/Coaching_Dispens.png)
 
 ### Tab Rekurse
 
@@ -94,7 +94,7 @@ erhält der Lehrende Zugriff auf die Assessmentbereiche eines Kurses der Person
 inklusive des Zugriffes auf den jeweiligen Leistungsnachweis, das
 Bewertungswerkzeug des Kurses sowie die jeweiligen Lektionen.
 
-![](../../download/attachments/590041/Coaching_Teilnehmer.png)
+![](assets/Coaching_Teilnehmer.png)
 
 ## Gruppen
 
@@ -164,7 +164,7 @@ Anzeige, wie viele Aufträge noch offen bzw. überfällig sind.
 
 Hier finden Sie alle Ihrer noch offenen Bewertungen.
 
-![](../../download/attachments/108593554/offene%20Bewertungen.png)
+![](assets/offene Bewertungen.png)
 
 ### Freizugebende Bewertungen
 
@@ -176,7 +176,7 @@ Hier kann der Bearbeitungsstand der Korrekturaufträge der unterschiedlichen
 Korrektoren der Tests, bei denen man Besitzer ist, angezeigt und nach
 verschiedenen Kriterien gefiltert werden.
 
-![](../../download/attachments/108593554/Korrekturauftraege.png)
+![](assets/Korrekturauftraege.png)
 
 Ein Hinzufügen von Korrektoren ist ebenfalls direkt bei der jeweiligen [Test
 ](Test+Einstellungen.html)Lernressource möglich.
@@ -211,7 +211,7 @@ Hier kann der Bearbeitungsstand der Korrekturaufträge der unterschiedlichen
 Korrektoren der Tests, bei denen man Besitzer ist, angezeigt und nach
 verschiedenen Kriterien gefiltert werden.
 
-![](../../download/attachments/590041/Korrekturauftraege.png)
+![](assets/Korrekturauftraege.png)
 
 ### Tab Meine Korrekturaufträge
 
@@ -226,174 +226,5 @@ Konfiguration kann die Bewertung auch anonym erfolgen.
 Die übersichtliche Darstellung der Bewertung von einzelnen Testfragen zeigt
 sehr gut an, wo es noch Handlungsbedarf gibt.
 
-![](../../download/attachments/590041/Coaching_Korrekturauftraege_Uebersicht.png)
-
-  1. [OpenOlat 16.1 Benutzerhandbuch](../OO161DE.html)
-  2. [Seiten](https://confluence.openolat.org/collector/pages.action?key=OO161DE)
-  3. [OpenOlat 16.1 Benutzerhandbuch](OpenOLAT+16.1+Benutzerhandbuch.html)
-  4. [Online Prüfungen](../../pages/viewpage.action%EF%B9%96pageId=108593356.html)
-  5. [Coaching](Coaching.html)
-
-Sie sind nicht angemeldet. Ihre Änderungen werden mit anonym markiert. Sie
-sollten sich
-[anmelden](https://confluence.openolat.org/login.action?os_destination=%2Fdisplay%2FOO161DE%2FCoaching),
-wenn Sie bereits über ein Konto verfügen.
-
-search
-
-attachments
-
-weblink
-
-advanced
-
-image-effects
-
-image-attributes
-
-  * Absatz
-    * Absatz
-    * Überschrift 1
-    * Überschrift 2
-    * Überschrift 3
-    * Überschrift 4
-    * Überschrift 5
-    * Überschrift 6
-    * Vorformatiert
-    * Zitat
-
-  * Fett
-  * Kursiv
-  * Unterstreichen
-  * Farbauswahl
-
-Weitere Farben
-
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-    *  
-
-  * Formate
-
-    * Durchgestrichen 
-    * Tiefgestellt 
-    * Hochgestellt 
-    * Festbreitenschriftart 
-
-    * Formatierung zurücksetzen 
-
-  * Aufzählung
-  * Nummerierte Liste
-
-  * Aufgabenliste
-
-  * Einzug verkleinern
-  * Einzug vergrößern
-
-  * Linksbündig ausrichten
-  * Zentriert ausrichten
-  * Rechtsbündig ausrichten
-
-  * Seitenlayout
-
-  * Verknüpfung
-
-  * Tabelle
-
-  * Einfügen
-
-Inhalt einfügen
-
-    * Dateien und Bilder 
-    * Verknüpfung 
-    * Markup 
-    * Horizontale Trennlinie einfügen 
-    * Aufgabenliste 
-    * Datum 
-    * Emoticon 
-    * Sonderzeichen 
-Makro einfügen
-
-    * Benutzererwähnung 
-    * Jira-Vorgang/-Filter 
-    * Info 
-    * Status 
-    * Galerie 
-    * Inhalt 
-
-    * Andere Makros 
-
-  * Seitenlayout
-    * Kein Layout
-    * Zweispaltig (einfach)
-    * Zweispaltig (einfach, linke Randleiste)
-    * Zweispaltig (einfach, rechte Randleiste)
-    * Dreispaltig (einfach)
-    * Zweispaltig
-    * Zweispaltig (linke Randleiste)
-    * Zweispaltig (rechte Randleiste)
-    * Dreispaltig
-    * Dreispaltig (Randleisten links und rechts)
-
-  * Rückgängig
-  * Wiederholen
-
-  * Suchen/Ersetzen
-
-  * Hilfe für Tastenkombinationen
-
-Sie sind nicht angemeldet. Ihre Änderungen werden mit anonym markiert. Sie
-sollten sich
-[anmelden](https://confluence.openolat.org/login.action?os_destination=%2Fdisplay%2FOO161DE%2FCoaching),
-wenn Sie bereits über ein Konto verfügen.
-
-Diese Seite wird auch von  bearbeitet. Ihre Änderungen werden mit seinen/ihren
-zusammengeführt, wenn Sie speichern.
-
-
-
-Bearbeiten
-
-Vorschau
-
-Speichern
-
-Schließen
+![](assets/Coaching_Korrekturauftraege_Uebersicht.png)
 

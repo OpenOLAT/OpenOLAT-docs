@@ -1,4 +1,4 @@
-#  [Coaching](Coaching.html)
+# Coaching
 
 The Coaching tool is used for the cross-course organisation and administration
 of courses, participants and groups as well as for cross-course correction of
@@ -34,7 +34,7 @@ management](https://confluence.openolat.org/display/OO150EN/Lectures+and+absence
 of OpenOlat is used, the area " Lectures " also appears in the coaching
 module.
 
-![](../../download/attachments/108600816/Coaching_start.png)
+![](assets/Coaching_start.png)
 
 ### Tab Cockpit
 
@@ -61,7 +61,7 @@ Similar to the Absences tab, notices of absences and dispensations can be
 displayed here according to certain criteria and new dispensations can also be
 entered.
 
-![](../../download/attachments/108600816/Coaching_Dispens.png)
+![](assets/Coaching_Dispens.png)
 
 ### Tab Appeals
 
@@ -93,7 +93,7 @@ This gives the teacher access to the assessment areas of a person's course,
 including access to the respective credits, the course's assessment tool and
 the respective lessons.
 
-![](../../download/attachments/108600816/Coaching_Teilnehmer.png)
+![](assets/Coaching_Teilnehmer.png)
 
 ## Groups
 
@@ -175,7 +175,7 @@ Here you can view the processing status of the grading assignments of the
 different graders of the tests you are the owner of and filter them according
 to various criteria.
 
-![](../../download/attachments/108600816/Korrekturauftraege.png)
+![](assets/Korrekturauftraege.png)
 
 ### Tab My grading assignments
 
@@ -189,7 +189,7 @@ Depending on the configuration, the assessment can also be anonymous.
 The clear display of the evaluation of individual test questions shows very
 well where there is still need for action.
 
-![](../../download/attachments/108600816/Coaching_Korrekturauftraege_Uebersicht.png)
+![](assets/Coaching_Korrekturauftraege_Uebersicht.png)
 
   
 

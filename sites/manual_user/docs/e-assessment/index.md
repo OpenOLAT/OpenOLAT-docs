@@ -1,4 +1,4 @@
-#  [eAssessment](eAssessment.html)
+# eAssessment
 
   * [Assessment mode](Assessment+mode.html)
   * [Performance assessment](Performance+assessment.html)
