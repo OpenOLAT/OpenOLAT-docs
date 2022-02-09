@@ -1,4 +1,4 @@
-#  [LTI Integrations](LTI+Integrations.html)
+# LTI - External platforms
 
 Beta
 

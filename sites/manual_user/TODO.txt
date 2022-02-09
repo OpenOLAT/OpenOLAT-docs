@@ -1,10 +1,9 @@
 
 [x] alle md files in space verschieben
-[-] Page ins Navigation einfügen
-[ ] assets bereinigen
-[ ] Cross-Links bereinigen
-[ ] auto TOC im Header bereinigen
-[ ] Footer bereinigen
+[x] Page ins Navigation einfügen
+[x] assets bereinigen
+[x] auto TOC im Header bereinigen
+[x] Footer bereinigen
 
 [ ] Cross-Links bereinigen
 [ ] Tabellen bereinigen

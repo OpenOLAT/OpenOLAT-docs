@@ -1,5 +1,4 @@
-#  [Course Problems and Error
-Messages](Course+Problems+and+Error+Messages.html)
+#  Course Problems and Error Messages
 
 If you cannot open a course or single course elements it may be that the
 course author has not given you the relevant rights or the course is being

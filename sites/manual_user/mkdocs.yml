@@ -36,6 +36,7 @@ nav:
     - groups/index.md
     - Create Groups: "groups/Create_Groups.md"
     - Group Administration: "groups/Group_Administration.md"
+    - LTI access: "groups/LTI_Share_groups.md"
     - Using Group Tools: "groups/Using_Group_Tools.md"
     - Group Management: "groups/Group_Management.md"
     
@@ -81,6 +82,7 @@ nav:
     - Using additional Course Editor Tools: "course_create/Using_additional_Course_Editor_Tools.md"
     - Course Settings:
       - Overview: "course_create/Course_Settings.md"
+      - LTI access: "course_create/LTI_Share_courses.md"
       - Design possibilities of courses and course elements: "course_create/Design_possibilities_of_courses_and_course_elements.md"
     - Access configuration: "course_create/Access_configuration.md"
     
@@ -230,6 +232,7 @@ nav:
       - Configure tests: "tests/Configure_tests.md"
     - Test settings: "tests/Test_settings.md"
     - Tests at course level: "tests/Tests_at_course_level.md"
+    - Changing from QTI 1.2 to QTI 2.1: "tests/Changing_from_QTI_1.2_to_QTI_2.1.md"
     
   - Question Bank:
     - question_bank/index.md

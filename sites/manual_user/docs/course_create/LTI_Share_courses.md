@@ -1,4 +1,4 @@
-#  [Share groups](Share+groups.html)
+# Configure LTI access to course
 
 Beta
 

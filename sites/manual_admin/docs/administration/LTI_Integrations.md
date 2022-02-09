@@ -1,4 +1,4 @@
-#  [Share courses](Share+courses.html)
+# LTI 1.3 Integrations
 
 Beta
 

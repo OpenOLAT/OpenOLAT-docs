@@ -1,5 +1,4 @@
-#  [Probleme und Fehlermeldungen im
-Kurs](Probleme+und+Fehlermeldungen+im+Kurs.html)
+# Probleme und Fehlermeldungen im Kurs
 
 Wenn Sie den gewünschten Kurs oder einzelne Kursbausteine nicht öffnen können,
 hat der Kursbesitzer Ihnen die Berechtigung dazu nicht gegeben oder ist gerade

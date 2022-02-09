@@ -1,0 +1,3 @@
+# LTI - Extere Platformen
+
+TBD

@@ -73,6 +73,7 @@ plugins:
           BigBlueButton module : Modul BigBlueButton
           Blog  : Blog
           Calendar : Kalender
+          Changing from QTI 1.2 to QTI 2.1 : Von QTI 1.2 zu QTI 2.1          
           Chat : Chat
           Coach : Betreuer
           Coaching : Coaching
@@ -133,7 +134,8 @@ plugins:
           eAssessment ePortfolio : e-Assessment ePortfolio
           eAssessment Question bank : e-Assessment Fragenpool
           Exams : Prüfungen
-          Externe Werkzeuge  : Externe Werkzeuge
+          External platforms : Externe Platformen
+          External tools : Externe Werkzeuge
           Files and Folders : Dateien und Ordner
           Finding courses : Kurse finden
           Form editor (Questionnaire editor) : Formular Editor
@@ -183,6 +185,8 @@ plugins:
           Licenses : Lizenzen
           Login : Login
           Login Page : Login-Seite
+          LTI 1.3 Integrations: LTI 1.3 Integrationen
+          LTI access: LTI Zugang
           Managing Topics of Topic Assignments : Themen einer Themenvergabe verwalten
           Math formula : Mathematische Formel
           Media center : Mediathek

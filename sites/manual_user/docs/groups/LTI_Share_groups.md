@@ -1,4 +1,4 @@
-#  [External tools](External+tools.html)
+# Configure LTI access to group
 
 Beta
 

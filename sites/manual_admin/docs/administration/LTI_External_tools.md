@@ -1,4 +1,4 @@
-#  [External platforms](External+platforms.html)
+# LTI - External tools
 
 Beta
 
