@@ -178,4 +178,25 @@ nav:
     - Aufgabe : "task/Task_-_Further_Configurations.md"
     - Assess tasks: "task/Assess_tasks.md"
 
+  - Creating Portfolios:
+    - portfolio/index.md
+    - Portfolio - General Information: "portfolio/Portfolio_-_General_Information.md"
+    - Components of the portfolio: 
+      - Overview: "portfolio/Components_of_the_portfolio.md"
+      - My portfolio binders: "portfolio/My_portfolio_binders.md"
+      - My entries: "portfolio/My_entries.md"
+      - Media center: "portfolio/Media_center.md"
+      - Shared by me: "portfolio/Shared_by_me.md"
+      - Shared with me: "portfolio/Shared_with_me.md"
+    - Three steps to your portfolio binder: "portfolio/Three_steps_to_your_portfolio_binder.md"
+    - The portfolio editor: "portfolio/The_portfolio_editor.md"
+    - Multiple use of entries: "portfolio/Multiple_use_of_entries.md"
+    - Competences tags: "portfolio/Competences_tags.md"
+    - Process of an assessment portfolio: 
+      - Overview: "portfolio/Process_of_an_assessment_portfolio.md"
+      - Portfolio template Creation: "portfolio/Portfolio_template_Creation.md"
+      - Portfolio template Administration and editing: "portfolio/Portfolio_template_Administration_and_editing.md"
+      - Creating Portfolio Tasks: "portfolio/Creating_Portfolio_Tasks.md"
+      - Portfolio task and assignment Collecting and editing: "portfolio/Portfolio_task_and_assignment_Collecting_and_editing.md"
+      - Portfolio assignment Grading: "portfolio/Portfolio_assignment_Grading.md"
     

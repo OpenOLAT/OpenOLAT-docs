@@ -156,48 +156,62 @@ Erledigt
     - Performance assessment: "e-assessment/Performance_assessment.md"
     - Coaching: "e-assessment/Coaching.md"
 
+  - Creating CP Learning Content: 
+    - resource_cp/index.md   "Creating_CP_Learning_Content.md"
+    - In Five Steps to Your Content Package: "resource_cp/In_Five_Steps_to_Your_Content_Package.md"
+    - CP Editor: "resource_cp/CP_Editor.md"
+
+  - Creating Wikis:
+    - resource_wiki/index.md
+    - Four Steps to Your Wiki: "resource_wiki/Four_Steps_to_Your_Wiki.md"
+
+  - Creating Videos: "Creating_Videos.md"
+    - resource_video/index.md
+    - Learning resource Video: "resource_video/Learning_resource_Video.md"
+    - Course Element_Video: "course_elements/Course_Element_Video.md"
+    - Single Page_Add_edit video: "resource_video/Single_Page_Add_edit_video.md"
+    - Video Upload: "resource_video/Video_Upload.md"
+
+  - Creating Podcasts:
+    - resource_podcast/index.md
+    - Four Steps to Your Podcast: "resource_podcast/Four_Steps_to_Your_Podcast.md"
+    - Podcast : "resource_podcast/Podcast_-_Further_Configurations.md"
+
+  - Creating Blogs: "Creating_Blogs.md"
+    - resource_blog/index.md
+    - Four Steps to Your Blog: "resource_blog/Four_Steps_to_Your_Blog.md"
+    - Blog : "resource_blog/Blog_-_Further_Configurations.md"
+
+  - Creating Tasks: "Creating_Tasks.md"
+    - task/index.md
+    - Three Steps to Your Task: "task/Three_Steps_to_Your_Task.md"
+    - Aufgabe : "task/Task_-_Further_Configurations.md"
+    - Assess tasks: "task/Assess_tasks.md"
+
+  - Creating Portfolios: "Creating_Portfolios.md"
+    - portfolio/index.md
+    - Portfolio - General Information: "portfolio/Portfolio_-_General_Information.md"
+    - Components of the portfolio: "portfolio/Components_of_the_portfolio.md"
+      - My portfolio binders: "portfolio/My_portfolio_binders.md"
+      - My entries: "portfolio/My_entries.md"
+      - Media center: "portfolio/Media_center.md"
+      - Shared by me: "portfolio/Shared_by_me.md"
+      - Shared with me: "portfolio/Shared_with_me.md"
+    - Three steps to your portfolio binder: "portfolio/Three_steps_to_your_portfolio_binder.md"
+    - The portfolio editor: "portfolio/The_portfolio_editor.md"
+    - Multiple use of entries: "portfolio/Multiple_use_of_entries.md"
+    - Competences tags: "portfolio/Competences_tags.md"
+    - Process of an assessment portfolio: "portfolio/Process_of_an_assessment_portfolio.md"
+      - Portfolio template Creation: "portfolio/Portfolio_template_Creation.md"
+      - Portfolio template Administration and editing: "portfolio/Portfolio_template_Administration_and_editing.md"
+      - Creating Portfolio Tasks: "portfolio/Creating_Portfolio_Tasks.md"
+      - Portfolio task and assignment Collecting and editing: "portfolio/Portfolio_task_and_assignment_Collecting_and_editing.md"
+      - Portfolio assignment Grading: "portfolio/Portfolio_assignment_Grading.md"
 
 Hier gehts weiter: 
 =================    
     
-  - Creating CP Learning Content: "Creating_CP_Learning_Content.md"
-    - In Five Steps to Your Content Package: "In_Five_Steps_to_Your_Content_Package.md"
-    - CP Editor: "CP_Editor.md"
-  - Creating Wikis: "Creating_Wikis.md"
-    - Four Steps to Your Wiki: "Four_Steps_to_Your_Wiki.md"
-  - Creating Videos: "Creating_Videos.md"
-    - Learning resource Video: "Learning_resource_Video.md"
-    - Course Element_Video: "Course_Element_Video.md"
-    - Single Page_Add_edit video: "Single_Page_Add_edit_video.md"
-    - Video Upload: "Video_Upload.md"
-  - Creating Podcasts: "Creating_Podcasts.md"
-    - Four Steps to Your Podcast: "Four_Steps_to_Your_Podcast.md"
-  - Podcast : "Podcast_-_Further_Configurations.md"
-  - Creating Blogs: "Creating_Blogs.md"
-    - Four Steps to Your Blog: "Four_Steps_to_Your_Blog.md"
-    - Blog : "Blog_-_Further_Configurations.md"
-  - Creating Tasks: "Creating_Tasks.md"
-    - Three Steps to Your Task: "Three_Steps_to_Your_Task.md"
-    - Aufgabe : "Task_-_Further_Configurations.md"
-    - Assess tasks: "Assess_tasks.md"
-  - Creating Portfolios: "Creating_Portfolios.md"
-    - Portfolio - General Information: "Portfolio_-_General_Information.md"
-    - Components of the portfolio: "Components_of_the_portfolio.md"
-      - My portfolio binders: "My_portfolio_binders.md"
-      - My entries: "My_entries.md"
-      - Media center: "Media_center.md"
-      - Shared by me: "Shared_by_me.md"
-      - Shared with me: "Shared_with_me.md"
-    - Three steps to your portfolio binder: "Three_steps_to_your_portfolio_binder.md"
-    - The portfolio editor: "The_portfolio_editor.md"
-    - Multiple use of entries: "Multiple_use_of_entries.md"
-    - Competences tags: "Competences_tags.md"
-    - Process of an assessment portfolio: "Process_of_an_assessment_portfolio.md"
-      - Portfolio template Creation: "Portfolio_template_Creation.md"
-      - Portfolio template Administration and editing: "Portfolio_template_Administration_and_editing.md"
-      - Creating Portfolio Tasks: "Creating_Portfolio_Tasks.md"
-      - Portfolio task and assignment Collecting and editing: "Portfolio_task_and_assignment_Collecting_and_editing.md"
-      - Portfolio assignment Grading: "Portfolio_assignment_Grading.md"
+      
   - Managing Topics of Topic Assignments: "Managing_Topics_of_Topic_Assignments.md"
     - Three Steps to Create and Manage Topics: "Three_Steps_to_Create_and_Manage_Topics.md"
   - Creating Forms: "Creating_Forms.md"
