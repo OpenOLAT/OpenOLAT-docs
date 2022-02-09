@@ -1,5 +1,4 @@
-#  [General information on
-Questionnaires](General+information+on+Questionnaires.html)
+# General information on Questionnaires
 
 Since OpenOlat version 15.5 the term survey is no longer used for the
 corresponding learning resource. The learning resource is now called "Form"
