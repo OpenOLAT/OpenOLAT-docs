@@ -21,7 +21,7 @@ Sie Zugriff haben.
 
 Um die Suche zu verfeinern, benutzen Sie die erweiterte Suche.
 
-![](assets/Volltextsuche_erweitert.png)![](../../download/attachments/590041/Volltextsuche_erweitert2.png)
+![](assets/Volltextsuche_erweitert.png)![](assets/Volltextsuche_erweitert2.png)
 
 Im Modus _Erweiterte Suche_ können Sie Ihre Sucheingabe verfeinern. Beachten
 Sie, dass die verschiedenen Suchfelder mit dem boolschen AND-Operator

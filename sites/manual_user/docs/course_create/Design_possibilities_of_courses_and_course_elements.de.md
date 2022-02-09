@@ -90,7 +90,7 @@ spezifizierten Bilder und gibt diese aus.
 auf 4MB beschränkt. Das Bild sollte bei Stil "Cover" grösser sein, als bei
 Links und rechts, da dieser die gesamte Fläche bedeckt.  
   
-![](../download/attachments/108593163/Dokumentation_de.png)
+![](assets/Dokumentation_de.png)
 
 * * *
 
@@ -131,7 +131,7 @@ Farbkategorie| Hier kann man die Farbkategorie einstellen oder mit einer neuen
 überschreiben.  Einstellungen sind "Kurs Standard", "Geerbt", "eigene
 Kategorie" (die Farbkategorie überschreiben) und "ohne".  
   
-![](../download/attachments/108593163/image2021-8-19_11-6-52.png)
+![](assets/image2021-8-19_11-6-52.png)
 
 * * *
 
@@ -147,6 +147,6 @@ Kursbausteine mit Vorschau anzeigen lassen will oder nur die
 Strukturbausteine. Dies eignet sich vor allem bei einer Lernpfad-
 Strukturierung nach Lerntagen oder Wochen.
 
-![](../download/attachments/108593163/image2021-8-20_7-44-8.png)
+![](assets/image2021-8-20_7-44-8.png)
 
-![](../download/attachments/108593163/image2021-8-19_15-10-11.png)
+![](assets/image2021-8-19_15-10-11.png)

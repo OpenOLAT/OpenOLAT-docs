@@ -26,8 +26,7 @@ dar.
 ### Erstellen
 
 Im Autorenbereich können OpenOlat Autoren neue Kurse und weitere
-[Lernressourcen
-](assets/Verschiedene Typen von Lernressourcen.html)anlegen. Der
+[Lernressourcen](assets/Verschiedene Typen von Lernressourcen.html)anlegen. Der
 konkrete Erstellungsprozess mit den verschiedenen Editoren ist in den Kapiteln
 [„Kurs erstellen"](../display/OO161DE/Kurs+erstellen.html), [„CP-Lerninhalt
 erstellen"](../display/OO161DE/CP-Lerninhalt+erstellen.html), [„Wiki
@@ -80,7 +79,7 @@ werden.
 In der Übersicht des Autorenbereichs werden die zugeordneten Lizenzen in der
 Spalte «Lizenz» angezeigt werden. Mit Klick auf die Lizenz erhält man
 detaillierte Informationen zur jeweiligen Lizenz.  
-![](../download/attachments/590041/Autorenbereich_Lizenz.png)
+![](assets/Autorenbereich_Lizenz.png)
 
 ## Tabellenansicht konfigurieren
 
@@ -99,7 +98,7 @@ Erstellungsdatum.
 direkt aufrufen. Hierzu zählen:
 
   * Ein Klick auf den Titel einer Lernressource öffnet die entsprechende Ressource.
-  * Die Infoseite öffnen Sie über ![](../download/thumbnails/108593439/infopage_5e89ac_64%EF%B9%96version=1&modificationDate=1524127348000&api=v2.png). Bei editierbaren Lernressourcen wie Kurse, Glossare, Tests, PCs, Blogs und Podcasts öffnet das Icon „Editieren“ den entsprechenden Editor.
+  * Die Infoseite öffnen Sie über ![](assets/infopage_5e89ac_64.png). Bei editierbaren Lernressourcen wie Kurse, Glossare, Tests, PCs, Blogs und Podcasts öffnet das Icon „Editieren“ den entsprechenden Editor.
   * Die 3-Punkte führen schnell zu grundlegenden Menüs die im Folgenden kurz angerissen werden:
 
 ![](assets/Autorenbereich_3_Punkte.png)

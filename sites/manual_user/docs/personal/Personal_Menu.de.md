@@ -1,11 +1,11 @@
-## Persönliche Werkzeuge
+# Persönliche Werkzeuge
 
 
 Die persönlichen Werkzeuge können über das Ausklappmenü rechts oben angezeigt
 und konkreter eingerichtet werden. In Persönliche Werkzeuge erscheinen jene
 Werkzeuge, die einem Benutzer zur Verfügung stehen.
 
-![](../download/thumbnails/590041/DE_pers_menu%EF%B9%96version=1&modificationDate=1487148339000&api=v2.png)
+![](assets/DE_pers_menu.png)
 
 In den Einstellungen können einige Werkzeuge auch dem Schnellzugriff
 hinzugefügt werden. Dann erscheinen sie direkt in der oberen
@@ -25,7 +25,8 @@ Folgende persönliche Werkzeuge werden hier kurz erklärt:
   * 10 Portfolio 2.0
   * 11 E-Mails
 
-![](../download/thumbnails/108593349/User%20tools%20DE%EF%B9%96version=1&modificationDate=1627561086000&api=v2.png)![](../download/attachments/590041/Benutzerwerkzeuge2%EF%B9%96version=2&modificationDate=1509207603000&api=v2.jpg)
+![](assets/User tools DE.png)
+![](assets/Benutzerwerkzeuge2.jpg)
 
   
 
@@ -96,7 +97,7 @@ einen sogenannten RSS-Reader.
  **Wo finde ich die Adresse der RSS-Datei?:**
 
 Klicken Sie auf das Icon
-![](../download/thumbnails/590039/rss%EF%B9%96version=1&modificationDate=1441026636000&api=v2.png)Ein
+![](assets/rss.png)Ein
 neues Browser-Fenster öffnet sich. Ignorieren Sie den Inhalt der Seite und
 kopieren Sie die Webadresse (URL) in die Zwischenablage. Fügen Sie die
 Webadresse dann in Ihren RSS-Reader ein.

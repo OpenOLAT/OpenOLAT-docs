@@ -1,5 +1,5 @@
 
-![](../download/attachments/590039/home.png)
+![](assets/home.png)
 
 Nach dem Login gelangen Sie entweder auf Ihre persönliche Startseite in
 OpenOlat, auf eine Infoseite, eine Seite die in der Regel generelle
@@ -36,5 +36,5 @@ persönliche Menü aufrufbar.
 Weitere Informationen zu den einzelnen Elementen finden Sie unter den
 entsprechenden Links
 
-![](../download/attachments/590041/DE_Navigationsleiste.png)
+![](assets/DE_Navigationsleiste.png)
 

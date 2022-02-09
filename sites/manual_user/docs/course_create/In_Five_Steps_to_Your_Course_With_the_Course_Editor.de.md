@@ -144,7 +144,7 @@ können Sie die Auswirkungen direkt nachvollziehen. In diesem Tab bestimmen Sie
 auch ob der Kursbaustein mit dem hinterlegten Kurztitel dem (langen) Titel
 oder ohne Titel angezeigt wird.  Hier ein Beispiel:
 
-![](assets/Tab_Layouta.png)![](../download/attachments/590041/Tab_Layoutb.png)
+![](assets/Tab_Layouta.png)![](assets/Tab_Layoutb.png)
 
 Wenn Sie die gewünschten Kursbausteine hinzugefügt haben, müssen Sie noch den
 Kurs publizieren.

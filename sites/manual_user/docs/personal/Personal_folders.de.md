@@ -1,7 +1,7 @@
 # Persönliche Ordner
 
 
-![](../download/attachments/16056552/folder.png)
+![](assets/folder.png)
 
 ## Ordner im persönlichen Menu
 
@@ -25,7 +25,7 @@ des Users sichtbar. In den persönlichen Werkzeugen kann unter "Andere
 Benutzer" nach dem Benutzer gesucht werden, der ein Dokument dort hochgeladen
 hat. Dies vereinfacht den Datenaustausch zwischen OpenOlat Nutzern.
 
-![](../download/attachments/590041/pers_ordner_DE.png)
+![](assets/pers_ordner_DE.png)
 
 Allgemeines zum Ordner
 
