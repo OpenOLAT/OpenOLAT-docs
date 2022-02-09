@@ -219,4 +219,15 @@ nav:
       - Forms in Rubric Scoring: "forms/Forms_in_Rubric_Scoring.md"
       - Forms in the ePortfolio template: "forms/Forms_in_the_ePortfolio_template.md"
     
+  - Creating Tests:
+    - tests/index.md
+    - General Information on Tests: "tests/General_Information_on_Tests.md"
+    - Four Steps to Your Test or Self-test: "tests/Four_Steps_to_Your_Test_or_Self-test.md"
+    - Test editor QTI 2.1: 
+      - Overview: "tests/Test_editor_QTI_2.1.md"
+      - Test question types: "tests/Test_question_types.md"
+      - Configure test questions: "tests/Configure_test_questions.md"
+      - Configure tests: "tests/Configure_tests.md"
+    - Test settings: "tests/Test_settings.md"
+    - Tests at course level: "tests/Tests_at_course_level.md"
     
