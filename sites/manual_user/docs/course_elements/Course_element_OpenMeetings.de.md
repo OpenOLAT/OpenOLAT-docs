@@ -36,7 +36,7 @@ OpenMeetings Raum angelegt und die Raumeinstellungen konfiguriert werden.
 Diese Einstellungen können später sowohl im Kurseditor als auch im Kursun
 angepasst werden.
 
-![](../assets/OPM_Raumeinstellungen_praesentation.png)
+![](assets/OPM_Raumeinstellungen_praesentation.png)
 
 Unter "Typ" kann der gewünschte Raumtyp gewählt werden. Die genauen Raum
 Bezeichnungen können je nach OpenMeetings Instanz variieren. Während sich
@@ -67,7 +67,7 @@ automatisch Moderationsrechte.
   
  **Konfiguration im Kursrun (geschlossener Editor)**|
 
-![](../assets/OPM_kursrun.png)
+![](assets/OPM_kursrun.png)
 
 Über "Sitzungsraum betreten" gelangt man in den Meetingraum. Liegen
 Aufzeichnungen vor, können diese über den Link "Aufzeichnungen" aufgerufen

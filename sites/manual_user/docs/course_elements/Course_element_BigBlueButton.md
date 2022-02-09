@@ -31,7 +31,7 @@ scheduled online meeting can be started by the moderator only or also by
 participants. If this option is activated participants will not be able to
 enter the meeting until the moderator has started it.
 
-![](../assets/image2020-4-14_11-19-9.png)
+![](assets/image2020-4-14_11-19-9.png)
 
   
   
@@ -46,7 +46,7 @@ In the course, tutors can create new events in the BigBlueButton module in the
 event administration via "Add online event". Also, already created
 appointments can be copied or deleted.
 
-![](../assets/image2020-4-14_11-20-49.png)
+![](assets/image2020-4-14_11-20-49.png)
 
  **The following variants for creating online-meeting are distinguished:**
 
@@ -60,7 +60,7 @@ meetings/reservations are created, which can then be edited separately.
 Depending on the configuration of the server, different options can be
 available here.
 
-![](../assets/bbb_creating.png)
+![](assets/bbb_creating.png)
 
  Add online-meeting: details
 
@@ -113,7 +113,7 @@ Guests can enter a name of their choice during dial-in.
 The link will then also appear for course owners and coaches before entering
 the room. Participants will not see the link.
 
-![](../assets/bbb_externe2.png)
+![](assets/bbb_externe2.png)
 
 In addition, a password can also be generated for guests in the configuration
 of the course element, which they must enter before dialing into the room.
@@ -135,7 +135,7 @@ Course owners and course coaches can upload their presentation(s) in advance
 so that they are available at the start of the meeting. The top document of
 the list is displayed directly.
 
-![](../assets/BBB_praesentation.png)  
+![](assets/BBB_praesentation.png)  
   
  **Calendar view**|
 
@@ -148,7 +148,7 @@ In addition, the online appointments created in BigBlueButton are
 automatically entered into the course-specific calendar. From here, all course
 members can quickly reach the correspondingly linked BigBlueButton room.
 
-![](../assets/image2020-4-7_14-14-5.png)  
+![](assets/image2020-4-7_14-14-5.png)  
   
  **Recordings**|
 
@@ -170,7 +170,7 @@ the whole recording will be deleted.
 
   
 
-![](../assets/bbb_recordings.png)  
+![](assets/bbb_recordings.png)  
   
  **View for participants**|
 
@@ -178,12 +178,12 @@ When a course participant calls up a BigBlueButton course element, he/she will
 see an overview of the current, expired and permanent rooms, if available.  A
 click on "Select" will take you to the login area of the respective room.
 
-![](../assets/BBB_Uebersicht.png)
+![](assets/BBB_Uebersicht.png)
 
 Current sessions can be started by "Join meeting" and the specific
 BigBlueButton room can be accessed.
 
-![](../assets/BBB_Meeting_beitreten.png)
+![](assets/BBB_Meeting_beitreten.png)
 
 Once a meeting is over, the rooms can no longer be entered, but you can access
 any recordings of the meeting. Coaches and course owners can also delete
@@ -191,7 +191,7 @@ recordings here.
   
  **BigBlueButton Room**|
 
- **![](../assets/BBB-Raum.png)**
+ **![](assets/BBB-Raum.png)**
 
 The welcome text displayed can be customized when setting up the room. If the
 users have stored a profile picture, this is also displayed in the list of

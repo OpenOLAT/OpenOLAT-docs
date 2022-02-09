@@ -1,7 +1,7 @@
 # Course Element: Assessment
 
 ##
-![](../assets/manual_score.png)
+![](assets/manual_score.png)
 Create and set up Assessment
 
 You configure the assessment module in the course editor in the tab
@@ -30,7 +30,7 @@ for the course.
 In addition, special notes can be added for all users and for other coaches,
 which are always displayed.
 
-![](../assets/Bewertung_tab.png)
+![](assets/Bewertung_tab.png)
 
 The settings influence the subsequent evaluation options and the information
 visible to the participants.
@@ -57,7 +57,7 @@ a manual scoring system can be selected or no points at all can be awarded.
 
 The following options are available:
 
-![](../assets/Bewertung_Punkte.jpg)
+![](assets/Bewertung_Punkte.jpg)
 
 The rubric-related points only appear if a rubric form has also been selected
 for the evaluation.
@@ -99,11 +99,11 @@ out here or the data of all participants can be reset.
 
  **In the course run:**
 
-![](../assets/Bewertung_kursrun16.png)
+![](assets/Bewertung_kursrun16.png)
 
  **In the assessment tool:**
 
-![](../assets/Bewertung_Bewertungswerkzeug_16.jpg.png)
+![](assets/Bewertung_Bewertungswerkzeug_16.jpg.png)
 
   
 
@@ -111,12 +111,12 @@ Now the corresponding course participant is selected and the displayed fields
 are filled in or, in the case of rubric assessments, the rubric fields are
 filled in.
 
-![](../assets/Rubric_Formular_EN.png)
+![](assets/Rubric_Formular_EN.png)
 
 The user now has direct access to his assessment including the assessment
 rubrics.
 
   
 
-![](../assets/Rubric_TN_Performance_EN.png)
+![](assets/Rubric_TN_Performance_EN.png)
 

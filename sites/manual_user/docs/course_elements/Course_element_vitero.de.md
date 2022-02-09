@@ -26,7 +26,7 @@ vitero GmbH:
   
  **Konfiguration im Kurseditor**|
 
-![](../assets/vitero_Kurseditor.png)
+![](assets/vitero_Kurseditor.png)
 
 Im Kurseditor oder in der publizierten Ansicht können Sie Ihre vitero Termine
 erfassen. Wählen Sie dazu die Schaltfläche "Termin anlegen". Zuvor können Sie
@@ -35,7 +35,7 @@ verfügbaren Teamräume ansehen um einen freien Termin zu finden.
   
  **Konfiguration im Kursrun (geschlossener Editor)**|
 
-![](../assets/Vitero_Konfiguration.png)
+![](assets/Vitero_Konfiguration.png)
 
 Geben Sie nun das Start- und das Enddatum des Termins ein und wählen Sie die
 Grösse des Raums. Mit "Zeitpuffer vor Terminbeginn" können sie festlegen wie

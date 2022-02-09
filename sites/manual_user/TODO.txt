@@ -93,7 +93,6 @@ Erledigt
       - Design possibilities of courses and course elements: "course_create/Design_possibilities_of_courses_and_course_elements.md"
     - Access configuration: "course_create/Access_configuration.md"
 
-
   - Types of Course Element: 
     - "course_elements/index.md"
     - Knowledge Transfer:
@@ -122,28 +121,35 @@ Erledigt
     - Administration and Organisation: "course_elements/Administration_and_Organisation.md"
     - Other: "course_elements/Other.md"
 
+  - Course Operation: 
+    - course_operation/index.md
+    - Using Course Tools:
+      - Using Course Tools: "course_operation/Using_Course_Tools.md"
+      - Members management: "course_operation/Members_management.md"
+      - Storage folder: "course_operation/Storage_folder.md"
+      - Assessment tool :
+        - Overview : "course_operation/Assessment_tool_-_overview.md"
+        - Tab users: "course_operation/Assessment_tool_-_tab_Users.md"
+        - Assessment of learners: "course_operation/Assessment_of_learners.md"
+        - Assessment of course modules: "course_operation/Assessment_of_course_modules.md"
+        - Assessing tasks and group tasks: "course_operation/Assessing_tasks_and_group_tasks.md"
+        - Assessing tests: "course_operation/Assessing_tests.md"
+        - The assessment form: "course_operation/The_assessment_form.md"
+      - Lectures and absences:
+        - Overview: "course_operation/Lectures_and_absences.md"
+        - Lektionen : "course_operation/Lectures_-_User_view.md"
+        - Lektionen : "course_operation/Lectures_-_Teacher_view.md"
+      - Course Reminders: "course_operation/Course_Reminders.md"
+      - Data archiving: "course_operation/Data_archiving.md"
+      - Record of Course Activities: "course_operation/Record_of_Course_Activities.md"
+    - Using Additional Course Features: "course_operation/Using_Additional_Course_Features.md"
+
+
+
 
 Hier gehts weiter: 
 =================    
     
-  - Course Operation: "Course_Operation.md"
-    - Using Course Tools: "Using_Course_Tools.md"
-      - Members management: "Members_management.md"
-      - Storage folder: "Storage_folder.md"
-        - Bewertungswerkzeug : "Assessment_tool_-_overview.md"
-          - Bewertungswerkzeug : "Assessment_tool_-_tab_Users.md"
-          - Assessment of learners: "Assessment_of_learners.md"
-          - Assessment of course modules: "Assessment_of_course_modules.md"
-            - Assessing tasks and group tasks: "Assessing_tasks_and_group_tasks.md"
-            - Assessing tests: "Assessing_tests.md"
-          - The assessment form: "The_assessment_form.md"
-        - Lectures and absences: "Lectures_and_absences.md"
-          - Lektionen : "Lectures_-_User_view.md"
-          - Lektionen : "Lectures_-_Teacher_view.md"
-        - Course Reminders: "Course_Reminders.md"
-        - Data archiving: "Data_archiving.md"
-          - Record of Course Activities: "Record_of_Course_Activities.md"
-      - Using Additional Course Features: "Using_Additional_Course_Features.md"
   - How-to: "How-to.md"
     - create a bulk assessment for submission tasks: "create_a_bulk_assessment_for_submission_tasks.md"
     - customize the course design with CSS (Expert): "customize_the_course_design_with_CSS_(Expert).md"

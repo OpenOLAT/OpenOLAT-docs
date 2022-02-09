@@ -31,7 +31,7 @@ After adding the course element, you must first create an OpenMeetings room in
 the "Room" tab and configure the room settings. These settings can be adjusted
 later in the course editor as well as in the course unit.
 
-![](../assets/Openmeetings_EN.png)
+![](assets/Openmeetings_EN.png)
 
 The desired room type can be selected under "Room's type". The exact room
 designations can vary depending on the OpenMeetings instance. While
@@ -58,7 +58,7 @@ receives moderation rights.
   
  **Configuration in the course run (closed editor)**|
 
-![](../assets/OPM_kursrun.png)
+![](assets/OPM_kursrun.png)
 
 Via "Enter meeting room" you enter the meeting room. If recordings are
 available, they can be accessed via the "Recordings" link. The room can also

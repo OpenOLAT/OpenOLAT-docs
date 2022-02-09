@@ -62,6 +62,7 @@ plugins:
           Assessment mode : Prüfungsmodus
           Assessment of course modules : Bewertung von Kursbausteinen
           Assessment of learners : Lernende bewerten
+          Assessment tool : Bewertungswerkzeug
           Assign roles : Rollen zuweisen
           Aufgabe  : Aufgabe
           Authoring : Autorenbereich
@@ -237,6 +238,7 @@ plugins:
           Storage folder : Ablageordner
           Supported Technologies : Unterstützende Technologien
           System : System
+          Tab Users : Tab Übersicht
           Technical Information on Resources and Usage : Automatische Informationen zur Lernressource
           Technology and Navigation : Technologie und Navigation
           Test editor QTI 2.1 : Testeditor

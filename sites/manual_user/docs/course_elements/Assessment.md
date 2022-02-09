@@ -17,7 +17,7 @@ the manual.
     * 1.8 Course Element: Survey
     * 1.9 Course Element: Checklist
 
-![](../assets/assessment_elements.png)
+![](assets/assessment_elements.png)
 
 OpenOlat provides various course elements for knowledge testing. The central
 course elements for this are the two course elements for OpenOlat
@@ -50,7 +50,7 @@ element Survey can also be found in the assessment category.
 
 ##  Course Element: Assessment
 
-![](../assets/manual_score.png)
+![](assets/manual_score.png)
 
 The course element "Assessment" is suitable for evaluating services which are
 not explicitly submitted electronically, e.g. presence presentations or online
@@ -63,7 +63,7 @@ On separate pages you will learn how to set up, perform and configure an
 
 ##  Course Element: Task
 
-![](../assets/task.png)
+![](assets/task.png)
 
 Coaches can use the Task course element to organize actions and submission
 tasks. Learners upload their submissions to the OpenOlat course and receive
@@ -146,7 +146,7 @@ General information on the subject of portfolios and e-portfolios can be found
 
 ## Course Element: Group Task
 
-![](../assets/task.png)
+![](assets/task.png)
 
 The course element Group task functions largely like the course element
 [Task](Creating+Tasks.html). Only the following differences have to be
@@ -165,7 +165,7 @@ is only valid for a certain group member.
 
 ##  Course Element: Test
 
-![](../assets/test.png)
+![](assets/test.png)
 
 The course element "Test" integrates tests into a course. A test in a course
 is used to assess achievements and includes various question types. Depending
@@ -239,7 +239,7 @@ level](Tests+at+course+level.html)" is particularly relevant here.
 
 ## Course Element: Form
 
-![](../assets/Forular_icon.png)
+![](assets/Forular_icon.png)
 
 Using the course element "Form" you can add the learning resource form to a
 course. The form works similar to the course element "Survey" and can also be
@@ -265,7 +265,7 @@ as confirmation for the independent performance of a service.
 
 ##  Course Element: Survey
 
-![](../assets/formular_434343_64.png)
+![](assets/formular_434343_64.png)
 
 With the course element "Survey" you can add an online questionnaire to your
 course. This can be used to carry out different types of online surveys. You
@@ -335,7 +335,7 @@ number should be shown. At least one of the above options need to be selected.
 
   
 
-![](../assets/Highscore_EN.png)
+![](assets/Highscore_EN.png)
 
   
 

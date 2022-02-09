@@ -12,7 +12,7 @@
 
 Im Bereich "Konfiguration" kann ein neues Meeting erstellt werden.
 
-![](../assets/goto_meeting_erstellen.png)
+![](assets/goto_meeting_erstellen.png)
 
 Im Bereich "Schulungen" erhält man Zugang zum Meeting Raum.
 

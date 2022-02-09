@@ -1,6 +1,6 @@
 # Course Element: Structure
 
-![](../assets/structure.png)
+![](assets/structure.png)
 
 The course element Structure is primarily used to structure the course. The
 concrete setting options depend on whether the course element is used in
@@ -8,11 +8,11 @@ conventional or in learning path courses.
 
  **Tabs in learning path courses**
 
- **![](../assets/structure_tabs_lpc_en.png)**
+ **![](assets/structure_tabs_lpc_en.png)**
 
  **Tabs in conventional courses**
 
- **![](../assets/sturcture_tabs_cc_en.png)**
+ **![](assets/sturcture_tabs_cc_en.png)**
 
   
 
@@ -73,7 +73,7 @@ have a  _«Passed»._
  **Calculate failed score?:  **It is also possible to calculate "Failed".
 Therefore 3 options are available.
 
-![](../assets/structure_score_tab.png)
+![](assets/structure_score_tab.png)
 
   * Failed as not passed: As long as the conditions for passed are not reached, the structure is shown as "Failed". 
   * Failed as not passed after end date of course: As long as the conditions for passed are not reached, the structure is shown as "Failed". This calculation is only done after the end date of the course is reached. Before the end date is reached no status or Passed is shown when the conditions are reached. 

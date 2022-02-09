@@ -7,7 +7,7 @@
 
 ## Kursbaustein „LTI-Seite“
 
-![](../assets/basiclti.png)
+![](assets/basiclti.png)
 
 Mit Hilfe des Kursbausteins „LTI-Seite“ können Sie externe Lernapplikationen
 in Ihren Kurs integrieren und den Inhalt im OpenOlat-Fenster anzeigen lassen.
@@ -133,7 +133,7 @@ der Lernapplikation.
 
 ## Kursbaustein „Themenvergabe“
 
-![](../assets/projectbroker.png)
+![](assets/projectbroker.png)
 
 Der Kursbaustein „Themenvergabe“ eignet sich dazu, wenn Sie in Ihrem Kurs
 Themen wie beispielsweise Semesterarbeiten ausschreiben und betreuen lassen
@@ -201,7 +201,7 @@ detaillierten Themenbeschreibung.
 
 Über "Feld entfernen" können Sie zusätzliche Felder wieder löschen.
 
-![](../assets/Tehmenvergabe_Zusatzfelder.jpg)
+![](assets/Tehmenvergabe_Zusatzfelder.jpg)
 
   
  **Einschreibetermin:** Der Themenverantwortliche kann eine Einschreibefrist
@@ -340,7 +340,7 @@ werden.
 wählen, werden Sie per E-Mail benachrichtigt, wenn Kursteilnehmer Ihr Thema
 aus- oder abwählen.
 
-![](../assets/Themen_belegt.jpg)
+![](assets/Themen_belegt.jpg)
 
 Über "Thema editieren" gelangen Sie in den Bearbeitungsmodus und können die
 aufgeführten Felder ändern.
@@ -365,8 +365,8 @@ Kursteilnehmer vom Themenverantwortlichen akzeptiert werden muss, sehen Sie
 auf der Startseite der Themenvergabe in der Tabelle den Vermerk „Teilnehmer
 prüfen“, sobald sich jemand für Ihr Thema eingeschrieben hat.
 
-![](../assets/Themen_Teilnehmer_pruefen.png)
-![](../assets/Themen_Teilnehmerverwaltung.png)
+![](assets/Themen_Teilnehmer_pruefen.png)
+![](assets/Themen_Teilnehmerverwaltung.png)
 
 Öffnen Sie den Tab „Teilnehmerverwaltung“ und akzeptieren Sie den/die
 Kandidaten.
@@ -410,7 +410,7 @@ Themenverantwortliche als Teilnehmer akzeptiert, wird der Themenstatus auf
 
 ## Kursbaustein „Linkliste“
 
-![](../assets/linklist.png)
+![](assets/linklist.png)
 
 Der Kursbaustein "Linkliste" erlaubt es schnell und einfach eine Linksammlung
 für einen Kurs anzulegen. Keinerlei HTML-Kenntnisse werden dazu benötigt. In
@@ -425,5 +425,5 @@ Schaltfläche werden bestehende Links gelöscht oder neue hinzugefügt.
 
 Beispiel:
 
-![](../assets/Linkliste.jpg)
+![](assets/Linkliste.jpg)
 

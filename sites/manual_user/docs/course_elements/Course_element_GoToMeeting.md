@@ -13,7 +13,7 @@
 
 A new meeting can be created in the "Configuration" area.
 
-![](../assets/Gotomeeting_EN.png)
+![](assets/Gotomeeting_EN.png)
 
 In the "Training" area you get access to the meeting room.  
 

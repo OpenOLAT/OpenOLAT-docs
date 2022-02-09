@@ -19,7 +19,7 @@
 
 ##  Kursbaustein „Struktur“
 
-![](../assets/structure.png)
+![](assets/structure.png)
 
 Der Kursbaustein „Struktur“ dient der Gliederung des Kurses und bietet
 standardmässig eine automatische Übersicht über alle ihm untergeordneten
@@ -30,7 +30,7 @@ trennen. Weitere Informationen finden Sie
 
 ##  Kursbaustein "Einzelne Seite"
 
-![](../assets/single_page.png)
+![](assets/single_page.png)
 
 Im Kursbaustein „Einzelne Seite“ können Sie verschiedene Dateien direkt in die
 Kursstruktur eingebunden werden. Diese webspezifischen Dateien (pdf, html)
@@ -46,7 +46,7 @@ Inhalten. Weitere Informationen zu den Kursbausteinen "Einzelne Seite" und
 
 ##  Kursbaustein "Externe Seite"
 
-![](../assets/external_page.png)
+![](assets/external_page.png)
 
 Mit Hilfe des Kursbausteins „Externe Seite“ können Sie eine externe
 Internetseite aufrufen. Geben Sie einfach die gewünschte URL in der
@@ -99,7 +99,7 @@ angezeigt wird.
 
 ## Kursbaustein „CP-Lerninhalt“
 
-![](../assets/content.png)
+![](assets/content.png)
 
 Nutzen Sie den Kursbaustein „CP-Lerninhalt“, um einen Lerninhalt im IMS-CP-
 Format (IMS-CP Version 1.1.2) in Ihren Kurs einzubinden. Das CP können Sie
@@ -112,7 +112,7 @@ Weitere Infos zum CP finden Sie [hier](CP-Lerninhalt+erstellen.html).
 
 ##  Kursbaustein „SCORM-Lerninhalt“
 
-![](../assets/scorm.png)
+![](assets/scorm.png)
 
 Über den Kursbaustein "SCORM Lerninhalt" können extern erstellte SCORM-Pakete
 in OpenOlat Kurse eingebunden werden. SCORM ist ein Standard mit dem Inhalte
@@ -122,7 +122,7 @@ des Kursbausteins SCORM finden Sie im Kapitel "Kursbaustein "[SCORM-
 Lerninhalt"](../../pages/viewpage.action%EF%B9%96pageId=108593330.html).
 
 ## Kursbaustein "Dokument"  
-![](../assets/document_icon.jpg)
+![](assets/document_icon.jpg)
 
 Mit dem Kursbaustein „Dokument“ können verschieden Dokumentformate direkt
 sichtbar in den Kurs eingebunden werden. Der Kursbaustein ist besonders für
@@ -159,7 +159,7 @@ werden
 
 ##  Kursbaustein „Ordner“
 
-![](../assets/folder.png)
+![](assets/folder.png)
 
 Im Kursbaustein „Ordner“ können Sie Dateien zum Download anbieten. Vielfach
 wird der Kursbaustein Ordner dazu verwendet, Kursmaterialien wie Folien oder
@@ -175,7 +175,7 @@ Weitere Informationen zur Konfiguration und Verwendung des Kursbausteins
 
 ## Kursbaustein „Podcast“
 
-![](../assets/podcast.png)
+![](assets/podcast.png)
 
 Den Kursbaustein „Podcast“ können Sie entweder dazu benutzen, Ihre eigenen
 Audio- und Videodateien oder externe Podcast-Episoden einfach in OpenOlat
@@ -188,7 +188,7 @@ Wie Sie einen Podcast [erstellen ](Vier+Schritte+zu+Ihrem+Podcast.html)und
 separaten Kapiteln.
 
 ## Kursbaustein "Blog"  
-![](../assets/blog.png)
+![](assets/blog.png)
 
 Über den „Blog“ können Sie die Teilnehmer des Kurses über aktuelle Themen in
 Form von Text, Bild oder Video informieren. Sie können sowohl externe Blogs
@@ -206,7 +206,7 @@ separaten Seiten.
 
 ## Kursbaustein „Video“
 
-![](../assets/video_64_0_434343_none.png)
+![](assets/video_64_0_434343_none.png)
 
 Mit dem Kursbaustein "Video" können Sie selbst erstellte Videos oder über eine
 URL importierte Videos, die als Lernressource Video in OLAT vorliegen, Ihrem
@@ -238,7 +238,7 @@ oder ganze Serien eingebunden werden.
 
 ##  Kursbaustein "card2brain"
 
-![](../assets/card2brain_434343_64.png)
+![](assets/card2brain_434343_64.png)
 
 Der Baustein card2brain ermöglicht das Lernen mit Lernkarten. Um diesen
 Baustein zu nutzen, müssen Sie zwingend ein Entreprise-Account von card2brain
@@ -251,7 +251,7 @@ Weitere Informationen zum Kursbaustein finden Sie
 
 ##  Kursbaustein "Edubase"
 
-![](../assets/edubas_icon.png)
+![](assets/edubas_icon.png)
 
 Mit diesem Kursbaustein können e-Books von Edubase verlinkt und direkt in
 OpenOlat aufgerufen werden.
@@ -269,5 +269,5 @@ Kurs hinzugefügt werden. Für die eingebundenen eBooks ist es im Editor
 möglich, Leseaufträge zu bestimmten Buchpassagen für Kursteilnehmer zu
 erstellen.
 
-![](../assets/Edubase_DE.png)
+![](assets/Edubase_DE.png)
 

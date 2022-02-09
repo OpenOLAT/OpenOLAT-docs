@@ -9,7 +9,7 @@
 
 ##  Course Element: Enrolment
 
-![](../assets/enrolment.png)
+![](assets/enrolment.png)
 
 The course element "Enrolment" is used to let course participants enroll in
 one or more groups. You can also define the order of the groups in the
@@ -36,7 +36,7 @@ areas in the "Configuration" tab of the enrollment course element.
 
 ## Course Element: Notifications
 
-![](../assets/infomessage.png)
+![](assets/infomessage.png)
 
 This course element allows you to embed notifications in your course
 structure. These notifications will be visible in your course as well as in
@@ -75,7 +75,7 @@ Info](Using+Additional+Course+Features.html)".
 
 ##  Course Element: E-Mail
 
-![](../assets/contact.png)
+![](assets/contact.png)
 
 By means of the course element "E-Mail" you provide your course participants
 with the possibility to send an e-mail to pre-defined recipients.
@@ -165,7 +165,7 @@ configuration, can also be found in the
 
 ##  Course Element: Calendar
 
-![](../assets/calendar.png)
+![](assets/calendar.png)
 
 By means of the course element "Calendar" you can embed a course calendar in
 the course structure. It is also possible to add several instances of the same
@@ -198,7 +198,7 @@ disabled by a system administrator.
 
 ##  Course Element: Appointment scheduling
 
-![](../assets/dateentry.png)
+![](assets/dateentry.png)
 
 The course element Appointment Scheduling can be used to organize enrollments
 for specific appointments as well as to find appointments. In general, you can
@@ -219,13 +219,13 @@ run with the editor closed. For this purpose, a new enrollment or appointment
 is first created via the button "Create occasion" and the basic configuration
 is carried out as well as appointments are entered.
 
-![](../assets/create_occasion.png)
+![](assets/create_occasion.png)
 
 Via the button "Add appointment" you can also add further appointments to this
 voting later.  Also, already created appointments can be revised again via the
 three-point link.
 
-![](../assets/Termin_hinzufuegen.jpg)
+![](assets/Termin_hinzufuegen.jpg)
 
 **Appointments: create & edit**
 
@@ -283,20 +283,20 @@ the cogwheel. The number of participants for the event can also be restricted
 to certain groups. An export of the participants for an event is also
 possible.
 
-![](../assets/Terminplanung_anlass.jpg)
+![](assets/Terminplanung_anlass.jpg)
 
 The specific dates of already created schedules can be viewed in more detail
 via the "View appointments" link and edited by the course owner or coach. Here
 you can add, delete, rebook participants, adjust the description, change
 appointments or confirm appointments.
 
-![](../assets/Terminfindung_punkte.jpg)
+![](assets/Terminfindung_punkte.jpg)
 
 Participants can use the "Select appointments" link to see and select the
 appointments they want. If an appointment has been confirmed, this is also
 visible.
 
-![](../assets/Terminfindung.png)
+![](assets/Terminfindung.png)
 
   
 

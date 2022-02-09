@@ -1,6 +1,6 @@
 # Course Element: card2brain Flashcards
 
-![](../assets/card2brain_434343_64.png)
+![](assets/card2brain_434343_64.png)
 
 To use this course element an enterprise login of card2brain is compulsory.
 Clients of frentix please contact
@@ -23,14 +23,14 @@ details. The alias is the last part of the weblink, e.g.
 20170425_sea_geografie. Copy the alias and add it to OpenOlat. Afterward the
 course element is saved.
 
-![](../assets/card2brain_details_EN.png)
+![](assets/card2brain_details_EN.png)
 
   
 
 To make sure that the course participants are able to work with the course
 element the following settings of the flashcard are relevant:
 
-![](../assets/card2brain_settings_EN.png)
+![](assets/card2brain_settings_EN.png)
 
 This setting can be done in OpenOlat. After publishing the course click on the
 course element card2brain. Click then on Edit set of flashcards. In Sharing

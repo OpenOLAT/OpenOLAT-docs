@@ -36,7 +36,7 @@ geplantes Online-Meeting nur durch den Moderator oder auch durch Teilnehmer
 gestartet werden kann. Bei aktivierter Option können Teilnehmer das Meeting
 erst betreten, wenn der Moderator das Meeting gestartet hat.
 
-![](../assets/OpenOlat - Testkurs Rico - Kurseditor 2020-04-07 13-19-07.png)  
+![](assets/OpenOlat - Testkurs Rico - Kurseditor 2020-04-07 13-19-07.png)  
   
  **Raum erstellen**
 
@@ -48,7 +48,7 @@ Im Kurs können Kursbesitzer und Betreuer im BigBlueButton-Baustein in der
 "Terminverwaltung" über "Online-Termin hinzufügen" neue Termine anlegen. Auch
 können bereits angelegte Termine kopiert oder gelöscht werden.
 
-![](../assets/image2020-4-7_13-29-23.png)
+![](assets/image2020-4-7_13-29-23.png)
 
  **Folgende Varianten bei der Erstellung von Online-Terminen werden
 unterschieden:**
@@ -63,7 +63,7 @@ separate Online-Termine/Reservierungen erstellt, welche anschliessend separat
 bearbeitet werden können. Je nach Konfiguration des Servers können hier auch
 unterschiedliche Auswahlmöglichkeiten bereitstehen.  
 
-![](../assets/bbb_erstellen.png)
+![](assets/bbb_erstellen.png)
 
  Online-Termin hinzufügen: Die Einstellungen im Detail
 
@@ -111,7 +111,7 @@ herkömmlichen, keinen Lernpfad Kurs handelt und der Kurs selbst auch für Gäst
 freigeschaltet wurde.  Gäste können bei der Einwahl einen beliebigen Namen
 eingeben.
 
-![](../assets/bbb_externe2.png)
+![](assets/bbb_externe2.png)
 
   
 
@@ -132,7 +132,7 @@ Kursbesitzer und Kursbetreuer können bereits im Vorfeld ihre Präsentation(en)
 hochladen, so dass sie bei Beginn des Meetings zur Verfügung stehen. Direkt
 angezeigt wird das oberste Dokument der Liste.
 
-![](../assets/BBB_praesentation.png)
+![](assets/BBB_praesentation.png)
 
   
 
@@ -151,7 +151,7 @@ Zusätzlich werden die in BigBlueButton erstellten Online-Termine automatisch
 in den kursspezifischen Kalender eingetragen. Von hier aus gelangen alle
 Kursmitglieder rasch in den entsprechend verlinkten BigBlueButton Raum.
 
-![](../assets/image2020-4-7_14-14-5.png)  
+![](assets/image2020-4-7_14-14-5.png)  
   
  **Aufzeichnungen**|
 
@@ -169,7 +169,7 @@ gelöscht.
 
   
 
-![](../assets/bbb_manuell_publizieren.png)  
+![](assets/bbb_manuell_publizieren.png)  
   
  **Teilnehmerperspektive**|
 
@@ -178,12 +178,12 @@ Ruft ein Kursteilnehmer einen BigBlueButton Kursbaustein auf, sieht er eine
 vorhanden.  Ein Klick auf "Auswählen" führt zum Login-Bereich des jeweiligen
 Raums.
 
-![](../assets/BBB_Uebersicht.png)
+![](assets/BBB_Uebersicht.png)
 
 Aktuelle Sessions können durch "Meeting beitreten" gestartet und der konkrete
 BigBlueButton Raum aufgerufen werden.
 
-![](../assets/BBB_Meeting_beitreten.png)
+![](assets/BBB_Meeting_beitreten.png)
 
 Bei abgelaufenen Meetings können die Räume nicht mehr betreten werden, aber
 man erhält hier Zugriff auf eventuelle Aufzeichnungen des Meetings. Betreuer
@@ -191,7 +191,7 @@ und Kursbesitzer können hier auch Aufzeichnungen löschen.
   
  **BigBlueButton Meeting Raum**|
 
- **![](../assets/BBB-Raum.png)**
+ **![](assets/BBB-Raum.png)**
 
 Der angezeigte Willkommen Text kann bei der Einrichtung des Raums angepasst
 werden. Sofern die User ein Profilbild hinterlegt haben, wird dieses auch in

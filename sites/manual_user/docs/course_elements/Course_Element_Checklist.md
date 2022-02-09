@@ -1,7 +1,7 @@
 # Course Element: Checklist
 
 ##
-![](../assets/checklist.png)
+![](assets/checklist.png)
 Create and configure a checklist
 
 By means of the course element "Checklist" you can add different kinds of
@@ -136,7 +136,7 @@ last name, to facilitate matching your participants list with the checklist.
 
 ##  Course element: Multiple checklists
 
-![](../assets/wizard_434343_64.png)
+![](assets/wizard_434343_64.png)
 
 If activated by the OpenOlat Admin, the option "Multiple checklists" is also
 available. It opens the checklist wizard, which enables you to create multiple

@@ -11,7 +11,7 @@ as well as several [Virtual classrooms](Virtual+classrooms.html)
 
 ## Course Element: Wiki
 
-![](../assets/wiki.png)
+![](assets/wiki.png)
 
 Use a Wiki to easily create learning content together with your course
 participants. A Wiki is suitable for doing group work; it can serve as
@@ -47,7 +47,7 @@ disabled by a system administrator.
 
 ##  Course Element: Forum
 
-![](../assets/forum.png)
+![](assets/forum.png)
 
 With the course element "Forum" you can easily enable asynchronous online
 discussions for different purposes in your course. For example, course
@@ -84,7 +84,7 @@ used by several users. Furthermore, it can be set that the use of a pseudonym
 is activated by default. To do this, select the checkbox "Pseudonym activated
 in individual forum posts".
 
-![](../assets/Screenshot 2020-05-03 at 14.55.37.png)
+![](assets/Screenshot 2020-05-03 at 14.55.37.png)
 
 ### Moderation rights
 
@@ -121,7 +121,7 @@ made here.
 
 ##  Course Element: File Dialog
 
-![](../assets/file_discussion.png)
+![](assets/file_discussion.png)
 
 The course element File Dialog can be understood as a combination of forum and
 folder. The course element "File dialog" provides you with preset discussion
@@ -144,11 +144,11 @@ _filedis_lerner).
 Who besides the course owner can take which actions will be defined in the
 course editor in the user permissions of the tab "Configuration".
 
-![](../assets/Screenshot 2020-05-03 at 15.02.48.png)
+![](assets/Screenshot 2020-05-03 at 15.02.48.png)
 
 ##  Course Element: Participant folder
 
-![](../assets/pfolder_434343_64.png)
+![](assets/pfolder_434343_64.png)
 
 The course element "Participant folder" allows you to exchange files between
 participants and coaches. With the creation of the course element there are
@@ -192,7 +192,7 @@ evaluation or allocation of points can be made....
 
 ##  Course Element: Participant list
 
-![](../assets/group.png)
+![](assets/group.png)
 
 In the participant list, the members of the course can be made visible to
 everyone. Unlike the [member
@@ -203,7 +203,7 @@ users allowed to open the respective course. Members are listed depending on
 their role within the course as either course administrator, coach or
 participant. Select the user groups to be displayed to course users.
 
-![](../assets/participantlist_config_EN.png)
+![](assets/participantlist_config_EN.png)
 
 By linking the member names to their OpenOlat visiting card as well as the
 OpenOlat mail service, this course element facilitates contacting your fellow

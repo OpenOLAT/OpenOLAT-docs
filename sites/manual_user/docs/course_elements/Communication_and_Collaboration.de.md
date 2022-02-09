@@ -11,7 +11,7 @@ sowie mehrere [Virtuelle Klassenzimmer](Virtuelle+Klassenzimmer.html)
 
 ## Kursbaustein „Wiki“
 
-![](../assets/wiki.png)
+![](assets/wiki.png)
 
 Verwenden Sie ein Wiki, um auf einfache Weise mit Kursteilnehmenden gemeinsam
 Inhalte zu erstellen. Ein Wiki kann für Gruppenarbeiten, als
@@ -48,7 +48,7 @@ so wurde dies systemweit von einem Administrator ausgeschaltet.
 
 ## Kursbaustein „Forum“
 
-![](../assets/forum.png)
+![](assets/forum.png)
 
 Mit dem Kursbaustein „Forum“ können Sie in Ihrem Kurs auf einfache Weise
 asynchrone Online-Diskussionen für unterschiedliche Zwecke ermöglichen.
@@ -84,7 +84,7 @@ eingestellt werden, dass die Verwendung eines Pseudonyms standardmässig
 eingeschaltet ist. Wählen Sie dazu die Checkbox "Pseudonym im einzelnen Forum-
 Post aktiviert".
 
-![](../assets/Forum_Tab_Konfiguration1.png)
+![](assets/Forum_Tab_Konfiguration1.png)
 
 ### Moderationsrechte
 
@@ -130,7 +130,7 @@ Vergabe von Moderationsrechten vorgenommen werden.
 
 ## Kursbaustein „Dateidiskussion“
 
-![](../assets/file_discussion.png)
+![](assets/file_discussion.png)
 
 Der Kursbaustein Dateidiskussion kann als eine Kombination aus Forum und
 Ordner verstanden werden. Im Kursbaustein „Dateidiskussion“ stehen Ihnen
@@ -157,13 +157,13 @@ können.
 Wer neben dem Kursbesitzer noch welche Aktionen vornehmen kann, wird im
 Kurseditor in den Benutzerberechtigungen des Tabs "Konfiguration" definiert.
 
-![](../assets/Dateidiskussion_Tab_Konfiguration.png)
+![](assets/Dateidiskussion_Tab_Konfiguration.png)
 
   
 
 ##  Kursbaustein "Teilnehmer Ordner"
 
-![](../assets/pfolder_434343_64.png)
+![](assets/pfolder_434343_64.png)
 
 Der Kursbaustein "Teilnehmer Ordner" ermöglicht einen Dateiaustausch zwischen
 Teilnehmenden und Betreuenden. Dafür stehen zwei Ordner zur Verfügung. Zum
@@ -212,7 +212,7 @@ vorgenommen werden kann.
 
 ## Kursbaustein „Teilnehmerliste“
 
-![](../assets/group_users_434343_64.png)
+![](assets/group_users_434343_64.png)
 
 In der Teilnehmerliste können die Mitglieder des Kurses für alle sichtbar
 gemacht werden. Im Gegensatz zum Kurswerkzeug
@@ -225,7 +225,7 @@ mit Foto nach ihrer "höchsten" Rolle aufgelistet. In der Konfiguration können
 Sie festlegen, welche Benutzergruppen in der Teilnehmerliste angezeigt werden
 sollen.
 
-![](../assets/teilnehmerliste_konfig_DE.png)
+![](assets/teilnehmerliste_konfig_DE.png)
 
 Durch die Verlinkung auf die OpenOlat-Visitenkarte sowie der Möglichkeit aus
 dem Kursbaustein heraus eine OpenOlat-Mail an jedes gewünschte Mitglied des

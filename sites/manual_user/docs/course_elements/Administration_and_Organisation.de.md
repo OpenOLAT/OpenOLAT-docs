@@ -9,7 +9,7 @@
 
 ## Kursbaustein „Einschreibung“
 
-![](../assets/enrolment.png)
+![](assets/enrolment.png)
 
 Der Kursbaustein „Einschreibung“ wird verwendet, damit sich Kursteilnehmer in
 eine oder mehrere OpenOlat Gruppen eintragen können. Definieren Sie dazu im
@@ -37,7 +37,7 @@ auch im Tab "Konfiguration" des Einschreibebausteins zugreifen.
 
 ## Kursbaustein „Mitteilungen“
 
-![](../assets/infomessage.png)
+![](assets/infomessage.png)
 
 Der Kursbaustein bietet die Möglichkeit, Mitteilungen in der Kursstruktur
 einzubetten. Diese Mitteilungen sind sowohl im Kurs als auch bei den
@@ -79,7 +79,7 @@ Infos](Einsatz+weiterer+Kursfunktionen+der+Toolbar.html)".
   
 
 ## Kursbaustein „E-Mail“  
-![](../assets/contact.png)
+![](assets/contact.png)
 
   
 
@@ -175,7 +175,7 @@ Konfiguration, findet man auch in der
 
 ##  Kursbaustein „Kalender“
 
-![](../assets/calendar.png)
+![](assets/calendar.png)
 
 Mit dem Kursbaustein „Kalender“ können Sie den Kurskalender in die
 Kursstruktur einbetten. Es ist auch möglich mehrere Instanzen desselben
@@ -213,7 +213,7 @@ können, so wurde dies systemweit von einem Administrator ausgeschaltet.
 
 ##  Kursbaustein "Terminplanung"
 
-![](../assets/dateentry.png)
+![](assets/dateentry.png)
 
 Mit dem Kursbaustein Terminplanung können sowohl Einschreibungen für bestimmte
 Termine als auch Terminfindungen organisiert werden. Generell kann
@@ -233,13 +233,13 @@ Kursrun bei geschlossenem Editor. Dafür werden zunächst über den Button
 "Anlass erstellen" eine neue Einschreibung oder Terminfindung angelegt und die
 Basiskonfiguration vorgenommen sowie Termine eingetragen.
 
-![](../assets/Anlass_erstellen.png)
+![](assets/Anlass_erstellen.png)
 
 Über den Button "Termin hinzufügen" können Sie auch später noch weitere
 Termine dieser Abstimmung hinzufügen.  Auch können bereits angelegte Termine
 über den Drei-Punkte-Link wieder überarbeitet werden.
 
-![](../assets/Termin_hinzufuegen.jpg)
+![](assets/Termin_hinzufuegen.jpg)
 
 ####
 
@@ -302,20 +302,20 @@ dupliziert oder gelöscht werden. Auch kann der Teilnehmerkreis für den Anlass
 auf bestimmte Gruppen eingeschränkt werden. Ein Export der Teilnehmenden für
 einen Anlass ist ebenfalls möglich.
 
-![](../assets/Terminplanung_anlass.jpg)
+![](assets/Terminplanung_anlass.jpg)
 
 Die konkreten Termine von bereits angelegten Terminplanungen können über den
 Link "Termine anzeigen" näher betrachtet und vom Kursbesitzer bzw. Betreuer
 editiert werden. Sie können hier Teilnehmende hinzufügen, löschen, umbuchen,
 die Beschreibung anpassen, Termine ändern oder Termine bestätigen.
 
-![](../assets/Terminfindung_punkte.jpg)
+![](assets/Terminfindung_punkte.jpg)
 
 Teilnehmende können über den Link "Termine auswählen" bzw. "Eintragen" die
 gewünschten Termine sehen und auswählen. Wurde ein Termin bestätigt, ist das
 ebenfalls sichtbar.
 
-![](../assets/Einschreibung.png)
+![](assets/Einschreibung.png)
 
   
 

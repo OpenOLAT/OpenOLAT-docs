@@ -99,12 +99,12 @@ Ruft ein Kursteilnehmer einen MS Teams Kursbaustein auf, sieht er eine
 vorhanden.  Ein Klick auf "Auswählen" führt zum Login-Bereich des jeweiligen
 Raums.
 
-![](../assets/BBB_Uebersicht.png)
+![](assets/BBB_Uebersicht.png)
 
 Aktuelle Sessions können durch "Meeting beitreten" gestartet und der konkrete
 Raum aufgerufen werden.
 
-![](../assets/BBB_Meeting_beitreten.png)
+![](assets/BBB_Meeting_beitreten.png)
 
 Bei abgelaufenen Meetings können die Räume nicht mehr betreten werden, aber
 man erhält hier Zugriff auf eventuelle Aufzeichnungen des Meetings. Betreuer

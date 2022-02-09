@@ -2,7 +2,7 @@
 
 ##
 
-![](../assets/single_page_icon.png)
+![](assets/single_page_icon.png)
 
 In the course element "Single page" you can insert various files in your
 course. In this way you can, for example, provide central information, the
@@ -23,7 +23,7 @@ There are three possibilities to embed a page's content in your course:
   * Select any file from the storage folder
   * Upload file in storage folder
 
-![](../assets/single_page_page_content.png)
+![](assets/single_page_page_content.png)
 
 For further editing of HTML pages you can use the OpenOlat Editor. It works
 similar to a word processing program. The automatically created file when you
@@ -31,7 +31,7 @@ create a page for the first time already has the name of the course element.
 Once created, open the file with the link "Open file in editor" and you will
 get to the OpenOlat HTML Editor.
 
-![](../assets/html_editor.png)
+![](assets/html_editor.png)
 
 In the HTML editor you can insert links to pictures, videos, the individual
 course elements of the course and to the tools in the
@@ -132,7 +132,7 @@ are suitable for 90% of the courses.
 
 ## Multiple single pages
 
-![](../assets/wizard_434343_64.png)
+![](assets/wizard_434343_64.png)
 
 With this option you can easily add and organize single pages in the course
 and quickly make the files visible in the course structure. Clicking on

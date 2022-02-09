@@ -15,7 +15,7 @@ Aufzeichnungen sind in OpenOlat für die Kursbesitzer und Betreuer sichtbar und
 können den Kursteilnehmenden alle oder teilweise zur Verfügung gestellt
 werden.
 
-![](../assets/connect_aufzeichnung.png)  
+![](assets/connect_aufzeichnung.png)  
   
  **Konfiguration im Kurseditor**|  Hier steht der Reiter Konfiguration für
 weitere Einstellungen zur Verfügung.  
@@ -25,7 +25,7 @@ Nachdem der Kursbaustein hinzugefügt wurde, muss ein Meetingraum im Tab
 "Konfiguration" über den Button "Meeting hinzufügen" erstellt werden.
 Anschließend erscheint der folgende Dialog:
 
-![](../assets/connect_meeting_hinzufuegen.jpg)
+![](assets/connect_meeting_hinzufuegen.jpg)
 
 Unter dem eingetragenen Namen wird der Raum im Bereich der Meetings angezeigt.
 Die Beschreibung wird sichtbar nachdem man den Raum ausgewählt hat.
@@ -49,7 +49,7 @@ Im Tab "Meetings" wird die Übersicht der eingerichteten virtuellen Räume so
 angezeigt, wie sie auch für Teilnehmende sichtbar sind. Terminlich
 abgelaufene, termingebundene Meetings werden entsprechend gekennzeichnet.
 
-![](../assets/connect_meetings.jpg)
+![](assets/connect_meetings.jpg)
 
 Über "Auswählen" gelangt man in das entsprechende virtuelle Klassenzimmer.
 Beim ersten Aufruf muss man sich für das Meeting "anmelden" und anschließend

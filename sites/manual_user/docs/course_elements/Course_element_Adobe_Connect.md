@@ -14,7 +14,7 @@ uploaded presentation files and the recordings are visible in OpenOlat for
 course owners and supervisors and can be made available to course participants
 in full or in part.
 
-![](../assets/AC_Files_EN.png)  
+![](assets/AC_Files_EN.png)  
   
  **Configuration in the course editor**|  Here the configuration tab is
 available for further settings.  
@@ -24,7 +24,7 @@ After the course element has been added, a meeting room must be created in the
 tab "Configuration" via the button "Add Meeting". Then the following dialog
 appears:
 
-![](../assets/AC_Anlegen_EN.png)
+![](assets/AC_Anlegen_EN.png)
 
 Under the entered title the room is displayed in the meeting area. The
 description becomes visible after you have selected the room.
@@ -49,7 +49,7 @@ In the "Meetings" tab, the overview of the virtual rooms set up is displayed
 in the same way as they are visible to participants. Scheduled meetings are
 marked accordingly.
 
-![](../assets/AC_overview_EN.png)
+![](assets/AC_overview_EN.png)
 
 "Select" takes you to the corresponding virtual classroom. At the first call
 you have to "register" for the meeting and afterwards you have the possibility

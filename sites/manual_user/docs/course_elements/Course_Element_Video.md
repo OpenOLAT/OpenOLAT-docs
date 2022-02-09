@@ -1,12 +1,12 @@
 # Course Element: Video
 
 ##
-![](../assets/video_64_0_434343_none.png)  
+![](assets/video_64_0_434343_none.png)  
 
 Go to the course editor and add the course element "Video" to your course.
 
-![](../assets/CourseElement_Video_EN.png)
-![](../assets/Video_einbinden_EN.png)
+![](assets/CourseElement_Video_EN.png)
+![](assets/Video_einbinden_EN.png)
 
   
 
@@ -39,7 +39,7 @@ In learning path courses, the tab "Learning path" can also be used to define
 as a completion criterion whether learners have to finish watching the video
 (95%) for the course element to be considered completed.
 
-![](../assets/eingebundenes_video.png)
+![](assets/eingebundenes_video.png)
 
 In addition, all videos created in OpenOlat as learning resources and
 integrated into the course can be further configured. This is done directly in

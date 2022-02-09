@@ -26,7 +26,7 @@ of vitero GmbH:
   
  **Configuration in the course editor**|
 
-![](../assets/Vitero_EN.png)
+![](assets/Vitero_EN.png)
 
 You can enter your vitero dates in the course editor or in the published view.
 Select the button "Create meeting". Before you do this, you can use the "Team
@@ -35,7 +35,7 @@ rooms in order to find a free appointment.
   
  **Configuration in the course run (closed editor)**|
 
-![](../assets/Vitero_1_EN.png)
+![](assets/Vitero_1_EN.png)
 
 Now enter the start and end date of the appointment and select the size of the
 room. With "Start buffer" you can define how many minutes before the start

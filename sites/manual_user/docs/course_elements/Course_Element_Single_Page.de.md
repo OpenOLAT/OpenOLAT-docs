@@ -1,6 +1,6 @@
 # Kursbaustein "Einzelne Seite"
 
-![](../assets/single_page.png)
+![](assets/single_page.png)
 
 Im Kursbaustein „Einzelne Seite“ können Sie HTML und PDF Dateien direkt in die
 Kursstruktur einbinden. Geben Sie auf diesem Weg beispielsweise zentrale
@@ -32,7 +32,7 @@ trägt bereits den Namen des Kurselements. Einmal angelegt, öffnen Sie die
 Datei mit dem Link "Datei im Editor öffnen" und Sie gelangen in den OpenOLAT
 HTML Editor.
 
-![](../assets/html_editor.png)
+![](assets/html_editor.png)
 
 Im HTML Editor können Sie neben den verschiedenen Formatierungen auch
 Verlinkungen zu Bildern, Videos, den einzelnen Kursbausteinen des Kurses und
@@ -135,7 +135,7 @@ Standardeinstellungen passen für 90% der Kurse.
 
 #  Mehrere Einzelseiten
 
-![](../assets/wizard_434343_64.png)
+![](assets/wizard_434343_64.png)
 
 Mit dieser Option können Sie sich das Hinzufügen und organisieren von
 Einzelseiten in den Kurs erleichtern und die Dateien rasch in der Kursstruktur

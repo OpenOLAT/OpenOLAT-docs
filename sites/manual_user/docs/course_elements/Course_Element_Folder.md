@@ -2,7 +2,7 @@
 
 ##
 
-![](../assets/folder.png)
+![](assets/folder.png)
 
 In the course element "Folder" you can offer files to be downloaded. Often
 folders are used to provide course participants with scripts or slides
@@ -15,7 +15,7 @@ according to the columns by name, size and modification date.
 
 ##  Tab Folder Configuration
 
-![](../assets/folger_configuration_15.png)
+![](assets/folger_configuration_15.png)
 
 In the tab "Folder configuration" of the course element you define where
 exactly the files of this folder should be stored in the folder of the course.
@@ -50,7 +50,7 @@ not the participants.
 
 ## Settings with closed editor
 
-![](../assets/Folder_EN.png)
+![](assets/Folder_EN.png)
 
 In the course run, course owners and persons with the right to save files in
 the folder can ...

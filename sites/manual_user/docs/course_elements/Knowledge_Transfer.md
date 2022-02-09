@@ -19,7 +19,7 @@
 
 ##  Course Element: Structure
 
-![](../assets/structure.png)
+![](assets/structure.png)
 
 The course element " Structure" serves to arrange your course. By default it
 offers an automatic overview of all sub-elements along with short title,
@@ -29,7 +29,7 @@ and/or to clearly separate your modules. Further information can be found
 
 ##  Course Element: Single Page
 
-![](../assets/single_page.png)
+![](assets/single_page.png)
 
 In the course element "Single page" you can integrate various files directly
 into the course structure. These web-specific files (pdf, html) can already be
@@ -44,7 +44,7 @@ content. Further information on the course elements "Single Page" and
 
 ##  Course Element: External Page
 
-![](../assets/external_page.png)
+![](assets/external_page.png)
 
 With the help of the course element "External page" you can call up an
 external website. Simply enter the desired URL in the configuration in the tab
@@ -100,7 +100,7 @@ the linked page is displayed as desired.
 
 ##  Course Element: CP Learning Content
 
-![](../assets/content.png)
+![](assets/content.png)
 
 Use the course element "CP Learning Content" to integrate learning content in
 IMS-CP format (IMS-CP Version 1.1.2) into your course. You can either create
@@ -114,7 +114,7 @@ Further information on the CP can be found
 
 ##  Course Element: SCORM Learning Content
 
-![](../assets/scorm.png)
+![](assets/scorm.png)
 
 Using the course element "SCORM Learning Content", externally created SCORM
 packages can be integrated into OpenOlat courses. SCORM is a standard with
@@ -126,7 +126,7 @@ content](Course+Element%EF%B9%95+SCORM+Learning+Content.html)".
 
 ## Course Element: Document
 
-![](../assets/document_icon.jpg)
+![](assets/document_icon.jpg)
 
 By means of the course element "Document" different document formats can be
 integrated directly into the course. This course element is especially
@@ -160,7 +160,7 @@ the course element "Single page".
 ##  
 Course Element: Folder
 
-![](../assets/folder.png)
+![](assets/folder.png)
 
 In the course element "Folder" you can offer files for download. The course
 element folder is often used to provide course materials such as slides or
@@ -172,7 +172,7 @@ Further information on the configuration and use of the course element
 
 ##  Course Element: Podcast
 
-![](../assets/podcast.png)
+![](assets/podcast.png)
 
 The course element "Podcast" can either be used to easily provide others with
 your own audio and video files or with external podcast episodes in OpenOlat.
@@ -186,7 +186,7 @@ separate chapters.
 
 ##  Course Element: Blog
 
-![](../assets/blog.png)
+![](assets/blog.png)
 
 Via the "Blog" you can inform the participants of the course about current
 topics in the form of text, pictures or video. You can integrate external
@@ -203,7 +203,7 @@ separate pages.
 
 ##  Course Element: Video
 
-![](../assets/video_64_0_434343_none.png)
+![](assets/video_64_0_434343_none.png)
 
 With the course element "Video" you can add self-made videos or videos
 imported via a URL, which are available as learning resource video in OLAT, to
@@ -236,7 +236,7 @@ be integrated.
 
 ##  Course Element: card2brain
 
-![](../assets/card2brain_434343_64.png)
+![](assets/card2brain_434343_64.png)
 
 The course element card2brain allows learning with flashcards. To use this
 course element an enterprise login of card2brain is compulsory. Clients of
@@ -252,7 +252,7 @@ Further information on the course element can be found
 
 ##  Course Element: Edubase
 
-![](../assets/edubas_icon.png)
+![](assets/edubas_icon.png)
 
 This course element allows you to link to e-books from Edubase. The e-books
 can then be opened in OpenOlat.
@@ -268,5 +268,5 @@ settings are done, the course element can be added in OpenOlat. By using the
 editor, you can define specific reading orders for the users for an embedded
 e-book.
 
-![](../assets/Edubase_EN.png)
+![](assets/Edubase_EN.png)
 

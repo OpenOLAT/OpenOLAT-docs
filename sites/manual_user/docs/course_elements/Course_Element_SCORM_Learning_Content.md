@@ -1,6 +1,6 @@
 # Course Element: SCORM Learning Content
 
-![](../assets/scorm.png)
+![](assets/scorm.png)
 
 SCORM means "Sharable Content Object Reference Model" and is another
 standardized e-learning format supported by OpenOlat. Use the course element

@@ -10,7 +10,7 @@
 
 ##  Course Element: LTI Page
 
-![](../assets/basiclti.png)
+![](assets/basiclti.png)
 
 By means of the course element "LTI page" it is possible to integrate external
 learning applications in your course before having their content displayed in
@@ -136,7 +136,7 @@ learning application.
 
 ##  Course Element: Topic Assignment
 
-![](../assets/projectbroker.png)
+![](assets/projectbroker.png)
 
 The course element "Topic assignment" is useful if you want to announce e.g.
 topics for term papers in your course before having them supervised. Course
@@ -199,7 +199,7 @@ topic description.
 
 By means of "Delete field" you can delete additional fields.
 
-![](../assets/Themenvergabe_Zusatz_EN.png)
+![](assets/Themenvergabe_Zusatz_EN.png)
 
   
 
@@ -338,7 +338,7 @@ Several files can be uploaded as single ZIP file.
 option you will get an e-mail notification in case a course participant
 selects or deselects your Topic.
 
-![](../assets/Topic Assignment_EN.png)
+![](assets/Topic Assignment_EN.png)
 
 Via "Edit Topic" you will get to the editing mode.
 
@@ -360,8 +360,8 @@ participants have to be accepted by the topic author you will see on the home
 page of topic assignments the note "Check participant" in a table as soon as
 somebody has applied for your topic.
 
-![](../assets/Topic_Assignement_TN_EN.png)
-![](../assets/Topic_Assignement_TN2_EN.png)
+![](assets/Topic_Assignement_TN_EN.png)
+![](assets/Topic_Assignement_TN2_EN.png)
 
 Now open the tab "Topic assignment" and accept the application of your
 candidate(s).
@@ -404,7 +404,7 @@ assigned".
 
 ##  Course Element: Link list
 
-![](../assets/linklist.png)
+![](assets/linklist.png)
 
 The course element "Link list" enables the author to quickly assemble a
 collection of links relevant to the course. No HTML proficiency is required.
@@ -417,13 +417,13 @@ description or other additional information on the link can be added through
 the comment field, located beneath the address field. Remove or add links by
 using the trash / + buttons.
 
-![](../assets/Linklist_EN.png)
+![](assets/Linklist_EN.png)
 
-![](../assets/Linklist_output_EN.png)
+![](assets/Linklist_output_EN.png)
 
 ##  Course Element "Assignment of dates"
 
-![](../assets/dateentry.png)
+![](assets/dateentry.png)
 
 Here you can create and edit those dates for which users can enroll. It is
 also possible to define if cancelling an enrollment shall be allowed.
