@@ -48,7 +48,7 @@ The manual is published from the GIT master version on the server in the `/curre
 ## Working on the documentation
 
 
-### Install docu development environment [#install-dev]
+### Install docu development environment {: #install-dev}
 
 MkDocs uses the Python programming language. You first need to install python3 and pip3 to use MkDocs. 
 

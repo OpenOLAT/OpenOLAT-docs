@@ -28,8 +28,14 @@ theme:
 markdown_extensions:
   - meta
   - attr_list
+  - md_in_html
   - admonition
+  - def_list
   - pymdownx.snippets
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
 
 #include_homepage_in_sidebar: false
 #prev_next_buttons_location: none

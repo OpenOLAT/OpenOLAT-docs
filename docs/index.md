@@ -9,8 +9,7 @@ Find information on OpenOlat, its features and latest changes here. Navigate in 
 - [Release notes 16.1](/release-notes/16.1/)
 - [OpenOlat User Manual](/user-manual/)
 
-
-[![eLearning-Journal OpenOlat test tesult: very good](assets/frentix - Testsiegel_2020.png)](assets/eLJ12020_TEST_Frentix.pdf)
-
 !!! quote "eLearning Journal"
+	[![eLearning-Journal OpenOlat test tesult: very good](assets/frentix - Testsiegel_2020.png){ align=left width=200px }](assets/eLJ12020_TEST_Frentix.pdf)
+	
 	With the rating "Very good", the renowned eLearning Journal has once again extensively tested the open source learning platform OpenOlat. The new features of Release 14 such as curriculum, organizational units and quality management as well as the learning path in Release 15 were examined and evaluated in detail. The large range of functions of the learning platform was especially emphasized.
