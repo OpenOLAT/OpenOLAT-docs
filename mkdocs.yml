@@ -28,6 +28,8 @@ theme:
 markdown_extensions:
   - meta
   - attr_list
+  - admonition
+  - pymdownx.snippets
 
 #include_homepage_in_sidebar: false
 #prev_next_buttons_location: none
