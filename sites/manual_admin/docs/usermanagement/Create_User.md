@@ -11,7 +11,7 @@ Furthermore, self-registration is also possible with the corresponding
 activation.
 
 If nothing else has been defined, newly created accounts first have the
-organizational role "User". Further [roles](Configure+User.html) can be
+organizational role "User". Further [roles](Configure_User.md) can be
 assigned in the next step.
 
 As soon as a user is created, he/she has access to OpenOlat and the rights
@@ -43,7 +43,7 @@ creation of many accounts is possible in a very short time.
 
 ## Users create their own account
 
-If self-registration is enabled in the "[Login](Login.html)" area of the
+If self-registration is enabled in the "[Login](../administration/Login.de.md)" area of the
 administration, any person can register themselves in the system. Further
 restrictions can be defined during self-registration.
 

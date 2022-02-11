@@ -1,6 +1,6 @@
 # Creating Tasks
 
-  * [Three Steps to Your Task](Three+Steps+to+Your+Task.html)
+  * [Three Steps to Your Task](Three_Steps_to_Your_Task.md)
   * [Task - Further Configurations](Task+-+Further+Configurations.html)
   * [Assess tasks](Assess+tasks.html)
 

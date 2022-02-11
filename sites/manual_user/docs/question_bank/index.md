@@ -11,11 +11,11 @@ resource back into OpenOlat.
 
 The question bank is your personal collection of questions available for
 further use. The main activities in the question pool are the administration,
-[search](Search.html) and publication of test questions, as well as the
+[search](Search.md) and publication of test questions, as well as the
 compilation of questions for test creation.
 
-  * [Data Management](Data+Management.html)
-  * [Item Detailed View](Item+Detailed+View.html)
+  * [Data Management](Data_Management.md)
+  * [Item Detailed View](Item_Detailed_View.md)
   * [Question bank possible operations](Question+bank+possible+operations.html)
   * [Search](Search.html)
   * [Question Pool Sharing Options](Question+Pool+Sharing+Options.html)

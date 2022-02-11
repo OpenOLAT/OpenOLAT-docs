@@ -3,7 +3,7 @@
 In the assessment tool, assessments can be made for the following course
 elements.
 
-  * [Task and group task](Assessing+tasks+and+group+tasks.html) 
+  * [Task and group task](Assessing_tasks_and_group_tasks.md) 
   * [Tests](https://confluence.openolat.org/display/OO153DE/Tests+bewerten)
 
 Here, the general aspects are explained first and then the specifics of the

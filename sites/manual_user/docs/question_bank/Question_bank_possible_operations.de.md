@@ -57,7 +57,7 @@ Personen grundsätzlich zunächst das Recht auf den Zugriff zum Fragenpool
 besitzen müssen. Beispielsweise besitzen normale Benutzer normalerweise nicht
 das Zugriffsrecht auf den Fragenpool.
 
-Der [Poolverwalter ](../display/OO131DE/Fragenpool+Administration.html)(eine
+Der [Poolverwalter ](Question_Bank_Administration.de.md)(eine
 spezifische OpenOlat Rolle) kann eine unbegrenzte Anzahl an Pools anlegen.
 Diese können entweder öffentlich, und damit für alle Benutzer sichtbar sein,
 oder privat. Die Anzahl der angezeigten Pools kann daher von Benutzer zu

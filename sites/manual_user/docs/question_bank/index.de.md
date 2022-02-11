@@ -6,11 +6,11 @@ Ein Fragenpool ist eine Datenbank an einzelnen Testfragen oder -items, in der
 Regel im QTI-Format, inklusive aller zugehörigen Informationen und Metadaten.
 Die Fragendatenbank ist Ihre persönliche Sammlung an Fragen die Ihnen zur
 Weiterverwendung zur Verfügung stehen. Die Haupttätigkeiten im Fragenpool sind
-die Verwaltung, die [Suche ](Suchfunktion.html)und die Publikation von
+die Verwaltung, die [Suche ](Search.de.md)und die Publikation von
 Testfragen, sowie die Zusammenstellung von Fragen zur Testerstellung.
 
-  * [Handhabung der Daten](Handhabung+der+Daten.html)
-  * [Detailansicht einer Frage](Detailansicht+einer+Frage.html)
+  * [Handhabung der Daten](Data_Management.de.md)
+  * [Detailansicht einer Frage](Item_Detailed_View.de.md)
   * [Mögliche Aktionen im Fragenpool](../../pages/viewpage.action%EF%B9%96pageId=108593760.html)
   * [Suchfunktion](Suchfunktion.html)
   * [Fragenpool Freigabemöglichkeiten](../../pages/viewpage.action%EF%B9%96pageId=108593761.html)

@@ -7,7 +7,7 @@
     * 1.4 Kursbaustein "Teilnehmer Ordner"
     * 1.5Kursbaustein „Teilnehmerliste“
 
-sowie mehrere [Virtuelle Klassenzimmer](Virtuelle+Klassenzimmer.html)
+sowie mehrere [Virtuelle Klassenzimmer](Virtual_classrooms.de.md)
 
 ## Kursbaustein „Wiki“
 

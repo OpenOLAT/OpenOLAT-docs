@@ -6,7 +6,7 @@ Im Kursbaustein „Einzelne Seite“ können Sie HTML und PDF Dateien direkt in 
 Kursstruktur einbinden. Geben Sie auf diesem Weg beispielsweise zentrale
 Informationen, den Kursablauf oder Literaturtipps zu Ihrem Kurs bekannt oder
 platzieren Sie Inhalte wie Bilder oder Videos gezielt im Kurs. Die Dateien
-selbst werden dabei im [Ablageordner ](Ablageordner.html)des Kurses angelegt.
+selbst werden dabei im [Ablageordner ](../course_operation/Storage_folder.de.md)des Kurses angelegt.
 
   
 

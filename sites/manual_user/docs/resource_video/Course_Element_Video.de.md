@@ -12,7 +12,7 @@ Ihrem Kursbaustein ein Video zuzuordnen. Klicken Sie auf „Importieren“ bzw.
 "Importieren URL", um ein neues Video hochzuladen bzw. zu verlinken, oder
 wählen Sie ein bestehendes Video aus Ihren Einträgen aus. Videos können nicht
 nur im Kurseditor, sondern auch im [„Autorenbereich"
-importiert](../display/OO160DE/Lernressource%EF%B9%95+Video.html) werden. Wenn
+importiert](Learning_resource_Video.de.md) werden. Wenn
 Sie noch kein Video zugewiesen haben, erscheint beim Titel **Gewähltes Video**
 die Meldung _Kein Video ausgewählt_.
 

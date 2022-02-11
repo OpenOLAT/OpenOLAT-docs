@@ -7,7 +7,7 @@ Im OpenOlat ist eine Taxonomie eine hierarchische Verschlagwortung,
 
 Taxonomie kann in mehreren OpenOlat Bereichen aktiviert und eingesetzt werden:
 
-  * [Dokumentenpool](Modules%EF%B9%95+Dokumentenpool.html)
+  * [Dokumentenpool](Modules_Document_pool.de.md)
   * [Fragenpool](Fragenpool.html)
   * [ePortfolio](Kompetenzen+verschlagworten.html)
   * Verknüpfung mit Lernressourcen

@@ -168,7 +168,7 @@ course members with the specified user property.
 
 |  **Example** : All users with the zip code 8000  
   
-g) Progress (only for [learning path courses](Learning+path+course.html))|  
+g) Progress (only for [learning path courses](../course_create/Learning_path_course.md))|  
   
 ---|---  
   

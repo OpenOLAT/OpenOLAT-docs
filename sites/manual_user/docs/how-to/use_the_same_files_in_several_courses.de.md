@@ -13,7 +13,7 @@ usw.
 ### Was Sie benötigen:
 
   * Autorenrechte
-  * Lernressource "[Ressourcenordner](Kurseinstellungen.html)"
+  * Lernressource "[Ressourcenordner](../course_create/Course_Settings.de.md)"
   * Mehrere Lernressourcen "Kurs"
   * Übergreifende Dateien
 

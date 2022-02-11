@@ -1,4 +1,4 @@
-Elements](General+Configuration+of+Course+Elements.html)
+Elements](General_Configuration_of_Course_Elements.md)
 
 Adding Course Elements
 

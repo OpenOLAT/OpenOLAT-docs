@@ -10,9 +10,9 @@ verwenden, und sie andererseits in verschiedenen LMS einzusetzen, welche
 dieselbe Version des IMS-QTI-Formats unterstützen.
 
 Liegen Fragen in dem älteren Format QTI 1.2 vor (z.B. aus einer alten OpenOlat
-Version) können diese [konvertiert ](Von+QTI+1.2+zu+QTI+2.1.html)werden.
+Version) können diese [konvertiert ](Changing_from_QTI_1.2_to_QTI_2.1.de.md)werden.
 Informationen wie Sie schnell einen Test erstellen finden Sie
-[hier](Vier+Schritte+zu+Ihrem+Test+oder+Selbsttest.html).
+[hier](Four_Steps_to_Your_Test_or_Self-test.de.md).
 
 Auf den folgenden Seiten erfahren Sie ausführlich welche Möglichkeiten und
 Einstellungen der OpenOlat Testeditor bietet:

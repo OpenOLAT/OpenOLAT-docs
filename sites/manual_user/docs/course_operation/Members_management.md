@@ -47,7 +47,7 @@ administration. They create the course structure and usually create the
 OpenOlat course. The person who creates a course is automatically the course
 owner. Course owners can also add other owners to the course.
 
-  *  **[Coaches](Coach.html)**  
+  *  **[Coaches](../general/Coach.md)**  
 Coaches typically play a role in course delivery, but are not involved in
 course creation. Course coaches have access to the assessment tool and
 statistics, as well as other options and course elements depending on their
@@ -61,7 +61,7 @@ administration and the menus it contains.
 
 A course member can have multiple roles in the course at the same time. In
 this case these persons will see the possibility to [change
-roles](Roles+and+Rights.html#RolesandRights-_rollenwechsel) in the course
+roles](../general/Roles_and_Rights.md#RolesandRights-_rollenwechsel) in the course
 toolbar and thus to view the course from different course roles.
 
 ![](assets/role_change.png)

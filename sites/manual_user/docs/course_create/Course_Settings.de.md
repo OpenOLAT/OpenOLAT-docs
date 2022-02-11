@@ -3,7 +3,7 @@
 Das Menü "Einstellungen" der "Administration" bietet weitere zentrale
 Konfigurationen für Ihren OpenOlat Kurs.
 
-Jede [Lernressource](Verschiedene+Typen+von+Lernressourcen.html), nicht nur
+Jede [Lernressource](../authoring/Various_Types_of_Learning_Resources.de.md), nicht nur
 Kurse, verfügen über ein Menü "Einstellungen". Ferner variieren die
 Einstellungen von herkömmlichen und Lernpfad Kursen leicht.
 
@@ -36,7 +36,7 @@ Anforderungen an die Bescheinigung, Titelbild und Teaser-Film. Diese Infos
 sind für Interessierte auch ohne Kurszugang unter (Kurs)info sichtbar. Unter
 dem hier definierten Titel erscheint die Lernressource in der alphabetischen
 Kursliste und ist für Anfragen über die Suchmaske relevant. Weitere Infos
-finden Sie [hier](Infoseite+einrichten.html).
+finden Sie [hier](../authoring/Set_up_info_page.de.md).
 
 ## Tab Metadaten
 
@@ -48,7 +48,7 @@ Besonders relevant ist auch der Eintrag der Lizenz des Kurses.
 ## Tab Durchführung
 
 Hier können Sie den Durchführungszeitraum des Kurses definieren, das
-„[Lektionen- und Absenzmanagement](Lektionen+und+Absenzen.html)“ einschalten
+„[Lektionen- und Absenzmanagement](../course_operation/Lectures_and_absences.de.md)“ einschalten
 und weiter konfigurieren (sofern vom Administrator aktiviert), existierende
 herkömmliche Kurse in Lernpfad Kurse konvertieren bzw. bei [Lernpfad
 Kursen](../../pages/viewpage.action%EF%B9%96pageId=108593191.html) definieren,

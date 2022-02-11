@@ -51,7 +51,7 @@ elements to single or multiple choice.
 
 #### **Question type rubric**
 
-[Rubrics ](Rubric.html)are useful if you want to use several questions for the
+[Rubrics ](Rubric.md)are useful if you want to use several questions for the
 same rating scale. This question type is created slightly differently.
 
 Select the editor element "Rubric" and enter a rubric name. Configure the type

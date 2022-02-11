@@ -28,9 +28,9 @@ Autorenbereich
 
 ![](assets/course.png)
 
-[![](assets/PF_Prozess_Feld1_DE.png)](Portfoliovorlage%EF%B9%95+Erstellung.html)
+[![](assets/PF_Prozess_Feld1_DE.png)](Portfolio_template_Creation.de.md)
 
-[![](assets/pf_Prozess_Feld2_DE.jpg)](Portfoliovorlage%EF%B9%95+Administration+und+Bearbeitung.html)
+[![](assets/pf_Prozess_Feld2_DE.jpg)](Portfolio_template_Administration_and_editing.de.md)
 
 [![](assets/pf_Prozess_Feld3_DE.png)](Portfolioaufgabe+erstellen.html)
 

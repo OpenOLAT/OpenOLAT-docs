@@ -6,7 +6,7 @@ erstellen. Standardmäßig haben alle Beteiligten Lese- und Schreibrechte.
 
 Ein Wiki ist in OpenOlat eine Lernressource, die sowohl kursunabhängig als
 auch integriert in einen Kurs verwendet werden kann. Ferner beinhalten Gruppen
-ebenfalls ein [Gruppenwerkzeug "Wiki"](Gruppenwerkzeuge+nutzen.html).
+ebenfalls ein [Gruppenwerkzeug "Wiki"](../groups/Using_Group_Tools.de.md).
 
 Wird ein Wiki in einen Kurs eingebunden, kann ein und dasselbe Wiki in
 mehreren Kursen verwendet werden. Wenn Sie noch keinen Kurs erstellt haben,

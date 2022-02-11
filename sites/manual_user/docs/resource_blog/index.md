@@ -1,6 +1,6 @@
 # Creating Blogs
 
-  * [Four Steps to Your Blog](Four+Steps+to+Your+Blog.html)
+  * [Four Steps to Your Blog](Four_Steps_to_Your_Blog.md)
   * [Blog - Further Configurations](Blog+-+Further+Configurations.html)
 
   

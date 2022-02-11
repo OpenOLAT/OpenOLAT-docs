@@ -6,6 +6,6 @@ Ziel oder Szenario vor Augen haben. Wenn Sie Anregungen haben, oder eine
 erfolgreiche Vorgehensweise hier für andere Benutzer dokumentieren möchten,
 kontaktieren Sie uns!
 
-  * [... eine Massenbewertung für Einsendeaufgaben erstellen](viewpage.action%EF%B9%96pageId=108593558.html)
+  * [... eine Massenbewertung für Einsendeaufgaben erstellen](create_a_bulk_assessment_for_submission_tasks.de.md)
   * [... Kursdesign mittels CSS manipulieren (Expert)](viewpage.action%EF%B9%96pageId=108593626.html)
   * [... dieselben Dateien in mehreren Kursen einsetzen](../display/OO161DE/+dieselben+Dateien+in+mehreren+Kursen+einsetzen.html)

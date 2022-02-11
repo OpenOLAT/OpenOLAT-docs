@@ -27,7 +27,7 @@ Authoring
 
 ![](assets/course.png)
 
-[![](assets/pf_prozess_feld1_EN.png)](Portfolio+template%EF%B9%95+Creation.html)
+[![](assets/pf_prozess_feld1_EN.png)](Portfolio_template_Creation.md)
 
 [![](assets/pf_prozess_feld2_EN.png)](Portfolio+template%EF%B9%95+Administration+and+editing.html)
 

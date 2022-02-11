@@ -5,7 +5,7 @@
 A number of course elements can be used either for summative or formative
 assessment, or serves as performance control tool. The following course
 elements can be viewed and assessed in the [assessment
-tool.](Using+Course+Tools.html#UsingCourseTools-_bewertungswerkzeug) Further
+tool.](../course_operation/Using_Course_Tools.md#UsingCourseTools-_bewertungswerkzeug) Further
 information on these modules can be found, among other things, in the chapter
 "[Assessment](Assessment.html)":
 

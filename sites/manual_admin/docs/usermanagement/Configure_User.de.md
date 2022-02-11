@@ -15,7 +15,7 @@ für die Benutzerkonfiguration zur Verfügung:
 
 | Hier werden die Personalien, Angaben zur Person, Kontaktdaten und Angaben
 zur Institution erfasst (vergl. User Konfiguration
-[Profil](Konfiguration.html#Konfiguration-_profil)). Ferner sind die vom User
+[Profil](../../manual_user/personal/Configuration.de.md#Konfiguration-_profil)). Ferner sind die vom User
 eingetragenen Informationen zur Person sowie die jeweilige Visitenkarte und
 das gewählte persönliche Bild/Foto sichtbar. Zu den verbindlichen Einträgen
 des Benutzerprofils gehören: Vorname, Nachname und E-Mail.  
@@ -89,7 +89,7 @@ hier gelöscht werden.
 #### Rollen
 
 | In diesem Reiter wird der Benutzertyp, die Rollen sowie der Status des Users
-definiert, siehe ["Rollen zuweisen"](Rollen+zuweisen.html). Auch der letzte
+definiert, siehe ["Rollen zuweisen"](Assign_roles.de.md). Auch der letzte
 login in auslesbar.  
   
 #### Beziehungen

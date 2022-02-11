@@ -1,7 +1,7 @@
 # Online Prüfungen
 
-  * [Prüfungsmodus](viewpage.action%EF%B9%96pageId=108593203.html)
-  * [Leistungsbewertung](../display/OO161DE/Leistungsbewertung.html)
+  * [Prüfungsmodus](Assessment_mode.de.md)
+  * [Leistungsbewertung](Performance_assessment.de.md)
   * [Coaching](../display/OO161DE/Coaching.html)
 
 Mit OpenOlat können Sie Leistungskontrollen verschiedener Art durchführen.

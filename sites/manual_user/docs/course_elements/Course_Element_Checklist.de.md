@@ -192,4 +192,4 @@ Im unteren Teil des Formulars legen Sie fest ob Bewertungsinformationen aus
 den Checklisten im Strukturbaustein angezeigt werden sollen, und wie die
 Bewertung vorgenommen wird. Informationen zum Struktur-Kursbaustein und der
 Bewertung weiterer Kursbausteine finden Sie im Kapitel Wissensvermittlung-
-[Strukturbaustein: Punkte](../display/OO161DE/Wissensvermittlung.html#Wissensvermittlung-_displayscore).
+[Strukturbaustein: Punkte](Knowledge_Transfer.de.md#Wissensvermittlung-_displayscore).

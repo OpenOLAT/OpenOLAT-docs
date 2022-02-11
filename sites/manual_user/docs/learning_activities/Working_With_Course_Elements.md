@@ -15,7 +15,7 @@ element type. For learning path courses, no icons are displayed.
 More detailed descriptions of the functionality of the following course
 elements can be found on separate pages:
 
-  * [Forum](Working+with+Forums.html)
+  * [Forum](Working_with_Forums.md)
   * [Group Task](Working+with+Tasks+and+Group+Tasks.html)
   * [Self-Test](Working+with+Tests.html)
   * [Task](Working+with+Tasks+and+Group+Tasks.html)

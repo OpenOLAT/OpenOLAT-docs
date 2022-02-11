@@ -36,7 +36,7 @@ bereits sinnvoll im Ablageordners des Kurses strukturiert hochgeladen haben.
 Wählen Sie im nächsten Schritt einen existierenden Ordner des Ablageordners
 aus oder erstellen Sie im Ablageordner einen neuen Unterordner. Über den
 Ablageordner können Sie, sofern in den 
-[Kurseinstellungen](../display/OO161DE/Kurseinstellungen.html)entsprechend konfiguriert, auch
+[Kurseinstellungen](../course_create/Course_Settings.de.md)entsprechend konfiguriert, auch
 auf einen verknüpften Ressourcenordner zugreifen.
 
 Anschließend können sie im Bereich "Dateien hochladen" über den Link "Ordner

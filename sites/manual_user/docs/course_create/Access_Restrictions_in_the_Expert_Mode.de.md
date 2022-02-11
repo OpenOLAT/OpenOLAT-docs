@@ -5,7 +5,7 @@
 Die Einstellungen in den Tabs "Sichtbarkeit" und "Zugang" stehen nur in
 herkömmlichen Kursen zur Verfügung. Der Expertenmodus kann also **nur in
 herkömmlichen Kursen** nicht in "[Lernpfad
-Kursen](viewpage.action%EF%B9%96pageId=108593191.html)" verwendet werden.
+Kursen](Learning_path_course.de.md)" verwendet werden.
 
 Bei Kursbausteinen von herkömmlichen Kursen können Sie in den Tabs
 Sichtbarkeit und Zugang weitere Einstellungen vornehmen. Sie können den

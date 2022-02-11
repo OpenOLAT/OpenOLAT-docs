@@ -4,7 +4,7 @@
 
 Im Administrationsbereich des Fragenpools verwalten Poolverwalter fünf
 Bereiche zur Organisation des Fragenpool-Moduls. Der Poolverwalter ist wie
-z.B. der Benutzerverwalter oder Autor eine [Rolle](Rollen+und+Rechte.html),
+z.B. der Benutzerverwalter oder Autor eine [Rolle](../general/Roles_and_Rights.de.md),
 die ein Systembenutzer von einem Systemadministrator zugewiesen bekommt. Der
 Poolverwalter hat das Recht, organisatorische Aspekte der Fragenbank zu
 ändern, er hat jedoch keinen Einfluss auf den Inhalt der Fragenbank sowie
@@ -66,7 +66,7 @@ bestehende Pools können ebenfalls bearbeitet, oder gelöscht werden.
 
 ###  Fragetyp
 
-OpenOlat verfügt über diverse Test [Fragetypen ](Test+Fragetypen.html)die
+OpenOlat verfügt über diverse Test [Fragetypen ](../tests/Test_question_types.de.md)die
 entweder im Testeditor der Lernressource Test oder im Itemeditor der
 Fragenbank erstellt werden können. Erstellen Sie zusätzliche Fragetypen, wenn
 die Standard Fragetypen von OpenOlat nicht genügen. Die Standard Fragetypen

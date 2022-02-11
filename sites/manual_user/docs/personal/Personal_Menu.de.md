@@ -50,7 +50,7 @@ Kalender sehen können.
 
 Informationen zur Kalenderliste, Termine erstellen sowie weiterer
 Kursfunktionen finden Sie im Kapitel
-[Kalender](../display/OO161DE/Kalender.html).
+[Kalender](Calendar.de.md).
 
   
 
@@ -123,7 +123,7 @@ Im persönlichen Ordner stellt OpenOlat Ihnen Speicherplatz zur Verfügung. Sie
 können dort beispielsweise Präsentationen ablegen, auf die Sie von einem
 anderen Rechner zugreifen möchten, Forschungsarbeiten zwischenspeichern, etc.
 Weitere Infos finden Sie
-[hier](viewpage.action%EF%B9%96pageId=108593736.html).
+[hier](Personal_folders.de.md).
 
 ## Notizen
 

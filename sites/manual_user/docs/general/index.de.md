@@ -51,7 +51,7 @@ Fragezeichen![](../../download/thumbnails/590039/help_question-
 circle_434343_64.png).
 
 Falls der Link nicht erscheint wurde er bei den Benutzerwerkzeugen in den
-persönlichen [Einstellungen ](Konfiguration.html)ausgeblendet.
+persönlichen [Einstellungen ](../personal/Configuration.de.md)ausgeblendet.
 
 ### Kontextsensitive Hilfe
 

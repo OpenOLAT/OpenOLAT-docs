@@ -5,7 +5,7 @@
 ![](assets/video_64_0_434343_none.png)
 
 A video learning resource is created in authoring with the feature
-"[Import](Actions+in+the+'Authoring'+section.html)" or "Import URL".
+"[Import](../authoring/Actions_in_the_'Authoring'_section.md)" or "Import URL".
 
 Therefore you select the desired video-file in the upload window and click on
 "Import". In the following step the form opens on info page.

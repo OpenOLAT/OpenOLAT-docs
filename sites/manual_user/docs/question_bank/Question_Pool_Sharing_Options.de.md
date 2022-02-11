@@ -49,5 +49,5 @@ Möchten Sie die Ursprungsfrage behalten sollten Sie diese vorher kopieren.
 
 Für die gemeinsame Arbeit an Fragen bietet sich auch die Verwendung des
 [Beurteilungsprozesses
-](../display/OO161DE/Fragenpool+Beurteilungsprozess.html)sowie die Nutzung des
+](Question_Bank_Review_Process.de.md)sowie die Nutzung des
 Status an.

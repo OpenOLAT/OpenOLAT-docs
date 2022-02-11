@@ -10,7 +10,7 @@ personal menu. The following chart shows the overview page of the Portfolio
 
 The links on the overview page lead to further portfolio areas.
 
- **To[my binders](My+portfolio+binders.html): **
+ **To[my binders](My_portfolio_binders.md): **
 
 Here all personal folders are displayed and the user can create new folders.
 

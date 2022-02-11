@@ -27,7 +27,7 @@ nun nacheinander die Kursbausteine aus die Sie bewerten möchten.
 
 ![](assets/bewertung_person.png)  
   
-4\. Sie gelangen nun zum [Bewertungsformular ](Das+Bewertungsformular.html)des
+4\. Sie gelangen nun zum [Bewertungsformular ](The_assessment_form.de.md)des
 jeweiligen Kursbausteins. Die genauen Möglichkeiten sind vom Bausteintyp und
 den zugehörigen Einstellungen abhängig.
 

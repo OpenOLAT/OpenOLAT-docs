@@ -16,7 +16,7 @@ Hier werden alle persönlichen Mappen angezeigt und der User kann neue Mappen
 erstellen.
 
  **Zeige[meine
-Einträge](../../pages/viewpage.action%EF%B9%96pageId=58261575.html):  ** ****
+Einträge](My_entries.de.md):  ** ****
 
 Hier werden alle persönlich erstellten Einträge angezeigt und es können neue
 Einträge erstellt werden.

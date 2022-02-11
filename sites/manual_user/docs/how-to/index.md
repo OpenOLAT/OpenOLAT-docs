@@ -7,7 +7,7 @@ suggestions or even a successful best practice we could document.
 
   
 
-  * [... create a bulk assessment for submission tasks](../display/OO161EN/+create+a+bulk+assessment+for+submission+tasks.html)
+  * [... create a bulk assessment for submission tasks](create_a_bulk_assessment_for_submission_tasks.md)
   * [... customize the course design with CSS (Expert)](viewpage.action%EF%B9%96pageId=108600624.html)
   * [... use the same files in several courses](../display/OO161EN/+use+the+same+files+in+several+courses.html)
 

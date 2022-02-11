@@ -17,7 +17,7 @@ keine Icons angezeigt.
 Umfangreichere Beschreibungen zur Funktionsweise der folgenden Bausteine
 finden Sie auf separaten Seiten:
 
-  * [Aufgabe](Arbeiten+mit+Aufgaben+und+Gruppenaufgaben.html)
+  * [Aufgabe](Working_with_Forums.de.md)
   * [Forum](Arbeiten+mit+Foren.html)
   * [Gruppenaufgabe](Arbeiten+mit+Aufgaben+und+Gruppenaufgaben.html)
   * [Selbsttest](Arbeiten+mit+Tests.html)

@@ -56,7 +56,7 @@ erstellen.
 4| Zusätzlich können eine Zusammenfassung, ein Titelbild und Kategorien
 hinzugefügt werden.  
 5| Anschliessend können verschiedene
-[Inhalte](Meine+Portfolio+Mappen.html#MeinePortfolioMappen-portfolioinhalt)
+[Inhalte](My_portfolio_binders.de.md#MeinePortfolioMappen-portfolioinhalt)
 bzw. Artefakte hinzugefügt werden.  
   
 Solange ein Eintrag noch bearbeitet wird, befindet er sich im Status

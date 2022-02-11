@@ -5,7 +5,7 @@
 Wenn Sie eine neue Gruppe erstellen, sind Sie automatisch Betreuer dieser
 Gruppe. Betreuer der Gruppe erhalten den Link "Administration" im Menu.
 Generell können Sie die Gruppe administrieren, die Gruppe [löschen
-](Gruppenverwaltung.html)und diverse weitere Einstellungen vornehmen.
+](Group_Management.de.md)und diverse weitere Einstellungen vornehmen.
 
 ![](assets/Gruppe_Administration.png)
 

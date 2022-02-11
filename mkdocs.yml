@@ -50,8 +50,12 @@ plugins:
   - i18n:
       default_language: en
       languages:
-        de: Deutsch
-        en: English
+        en: 
+          name: English
+          build: true
+        de: 
+          name: Deutsch
+          build: true
       nav_translations:
         de:
           About this manual: Über dieses Handbuch

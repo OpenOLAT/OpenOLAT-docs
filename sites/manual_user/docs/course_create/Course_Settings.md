@@ -3,7 +3,7 @@
 The menu "Settings" of the "Administration" offers further central
 configurations for your OpenOlat course.
 
-Each [learning resource](Various+Types+of+Learning+Resources.html), not just
+Each [learning resource](../authoring/Various_Types_of_Learning_Resources.md), not just
 courses, have a menu "Settings". Furthermore, the settings of conventional and
 learning path courses vary slightly.
 

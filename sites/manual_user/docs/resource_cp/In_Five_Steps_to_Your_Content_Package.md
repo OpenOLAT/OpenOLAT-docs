@@ -1,5 +1,5 @@
 ##  [In Five Steps to Your Content
-Package](In+Five+Steps+to+Your+Content+Package.html)
+Package](In_Five_Steps_to_Your_Content_Package.md)
 
 The following helps you to create a Content Package in no time before
 embedding it in your course and activating it for your participants.

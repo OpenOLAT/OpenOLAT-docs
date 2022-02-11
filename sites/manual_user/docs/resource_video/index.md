@@ -1,6 +1,6 @@
 # Creating Videos
 
-  * [Learning resource: Video](Learning+resource%EF%B9%95+Video.html)
+  * [Learning resource: Video](Learning_resource_Video.md)
   * [Course Element: Video](Course+Element%EF%B9%95+Video.html)
   * [Single Page: Add / edit video](../../pages/viewpage.action%EF%B9%96pageId=108600564.html)
   * [Video Upload](Video+Upload.html)

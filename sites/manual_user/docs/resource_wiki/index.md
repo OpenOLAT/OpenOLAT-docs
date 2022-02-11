@@ -6,7 +6,7 @@ default, all participants have read and write access.
 
 In OpenOlat a Wiki is a learning resource that can be used independently of a
 course or integrated into a course. Furthermore groups also contain a [group
-tool "Wiki"](Using+Group+Tools.html).
+tool "Wiki"](../groups/Using_Group_Tools.md).
 
 If a Wiki is integrated into a course it can be used in several courses. If
 you have not yet created a course you will find information on that in the

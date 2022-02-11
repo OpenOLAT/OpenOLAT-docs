@@ -10,7 +10,7 @@ You can send e-mails with open body from various instances
 
   * in the course (course elements Mail, Participant list)
   * in the course toolbar
-  * via [course reminders](Course+Reminders.html)
+  * via [course reminders](../course_operation/Course_Reminders.md)
   * invitations for courses or groups
   * via visiting card
   * using the group tool Mail

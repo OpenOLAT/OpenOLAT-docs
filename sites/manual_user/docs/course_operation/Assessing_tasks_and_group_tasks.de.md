@@ -24,7 +24,7 @@ Lernenden abgegebenen Lösungsversuch oder die letzte korrigierte Version
 herunter.
 
 Wie Sie die Aufgaben einzelner Personen bewerten erfahren Sie hier in einer
-[Schritt für Schritt Anleitung](Lernende+bewerten.html).
+[Schritt für Schritt Anleitung](Assessment_of_learners.de.md).
 
 ### Alle abgegebenen Dokumente herunterladen
 

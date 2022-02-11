@@ -1,4 +1,4 @@
-#  [Zusätzliche Kursfunktionen](viewpage.action%EF%B9%96pageId=108593252.html)
+#  [Zusätzliche Kursfunktionen](Additional_Course_Features.de.md)
 
 Im Kurs stehen Usern eine Reihe von weiteren Kursfunktionen zur Verfügung, die
 der Besitzer des Kurses nach Bedarf ein- und ausschalten kann. So kann eine

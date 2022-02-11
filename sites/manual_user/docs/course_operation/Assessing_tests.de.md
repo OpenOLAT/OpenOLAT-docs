@@ -165,7 +165,7 @@ ergänzen die Möglichkeiten. Die Vorschau zeigt die User-Perspektive an und im
 Tab "Erinnerungen" besteht die Möglichkeit eine Erinnerungsmail für bestimmte
 Bedingungen  z.B. bei einer bestimmten Punktzahl, bestimmter Anzahl der
 Versuche oder beim bestehen/nicht bestehen zu verschicken (vergl. auch
-[Erinnerung](Erinnerung.html)).
+[Erinnerung](Course_Reminders.de.md)).
 
 ![](assets/Test_Kursrun16.png)
 

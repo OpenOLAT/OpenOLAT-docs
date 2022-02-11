@@ -3,8 +3,8 @@
 Im Bewertungswerkzeug können die Bewertungen für die folgenden Kursbausteine
 vorgenommen werden.
 
-  * [Aufgabe und Gruppenaufgabe](Aufgaben+und+Gruppenaufgaben+bewerten.html) 
-  * [Tests](Tests+bewerten.html)
+  * [Aufgabe und Gruppenaufgabe](Assessing_tasks_and_group_tasks.de.md) 
+  * [Tests](Assessing_tests.de.md)
 
 Hier werden zunächst die generellen Aspekte erläutert und anschließend die
 Spezifika der einzelnen bewertbaren Kursbausteine mit den zugehörigen

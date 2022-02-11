@@ -12,7 +12,7 @@ you will quickly know what you have to do.
 ![](assets/Screenshot 2020-05-03 at 16.01.48.png)
 
 From the overview page you can also access the concrete assessment areas of
-the individual [course elements](Assessment+of+course+modules.html) and
+the individual [course elements](Assessment_of_course_modules.md) and
 [persons](Assessment+of+learners.html).
 
 ## Tab "Overview" of the evaluation tool

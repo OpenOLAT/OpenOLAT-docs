@@ -71,7 +71,7 @@ tool, the recordings are also available for further access after the meeting
 ends.
 
 The functionality is described in the [course element
-BigBlueButton](Course+element+BigBlueButton.html).  
+BigBlueButton](../course_elements/Course_element_BigBlueButton.md).  
   
 ![](assets/openmeetings.png)
 

@@ -1,4 +1,4 @@
-editor](Learning+path+course+-+Course+editor.html)
+editor](Learning_path_course_-_Course_editor.md)
 
 ## Sequence of learning steps
 

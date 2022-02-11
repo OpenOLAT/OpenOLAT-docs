@@ -22,7 +22,7 @@ To assess tasks and group tasks, first download the solution attempt submitted
 by the learner or the last corrected version.
 
 To learn how to assess the tasks of individuals, click here for a [step-by-
-step guide](Assessment+of+learners.html).
+step guide](Assessment_of_learners.md).
 
 ### Download all submitted documents
 
@@ -31,7 +31,7 @@ learners, it is recommended to download all solution attempts at once using
 the "Download all submitted documents" button. In the downloaded folder you
 will also find all assignment documents.
 
-Afterwards, you can fill out the [assessment form](The+assessment+form.html).
+Afterwards, you can fill out the [assessment form](The_assessment_form.md).
 
 ### Start a new bulk assessment
 

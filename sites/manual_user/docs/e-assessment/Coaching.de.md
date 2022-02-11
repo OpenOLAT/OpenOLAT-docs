@@ -33,7 +33,7 @@ können, wenn der Kurshauptknoten ebenfalls entsprechend konfiguriert wurde.
 
 ## Lektionen
 
-Wird das [Absenzmanagement ](Lektionen+und+Absenzen.html)von OpenOlat genutzt,
+Wird das [Absenzmanagement ](../course_operation/Lectures_and_absences.de.md)von OpenOlat genutzt,
 erscheint im Coaching-Modul der Bereich „Lektionen“.
 
 ![](assets/Coaching_start.png)

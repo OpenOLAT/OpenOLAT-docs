@@ -2,7 +2,7 @@
 
 Formulare können mit Hilfe des Kursbausteins Formular in einen OpenOlat Kurs
 eingebunden werden. Wie Sie Formulare erstellen und in Kurse einbinden
-erfahren Sie [hier](Drei+Schritte+zu+Ihrem+Formular.html).
+erfahren Sie [hier](Three_Steps_to_your_Form.de.md).
 
 Nachdem Sie den Kursbaustein Formular dem Kurs hinzugefügt haben stehen Ihnen
 im Kurseditor folgende Tabs zur Verfügung:
@@ -12,7 +12,7 @@ im Kurseditor folgende Tabs zur Verfügung:
 Im Tab "Titel und Beschreibung" sowie "Layout" können allgemeine
 Beschreibungen und Informationen zum jeweiligen Kursbaustein hinterlegt und
 die optische Darstellung definiert werden. Im [Tab Lernpfad
-](Lernpfad+Kurs++-+Kurseditor.html)werden spezielle Einstellungen die für
+](../course_create/Learning_path_course_-_Course_editor.de.md)werden spezielle Einstellungen die für
 Lernpfad Kurse gelten definiert. Herkömmliche Kurs verfügen dagegen über die
 Tabs Sichtbarkeit und Zugang. Hier wird definiert, wer diesen Kursbaustein
 sehen bzw. bearbeiten kann.

@@ -8,9 +8,9 @@ and to use them in different LMS supporting the same version of the IMS QTI
 format on the other.
 
 If there are questions in the older format QTI 1.2 (e.g. from an old OpenOlat
-version) they can be [converted](Changing+from+QTI+1.2+to+QTI+2.1.html).
+version) they can be [converted](Changing_from_QTI_1.2_to_QTI_2.1.md).
 Information on how to quickly create a test can be found
-[here](Four+Steps+to+Your+Test+or+Self-test.html).
+[here](Four_Steps_to_Your_Test_or_Self-test.md).
 
 Tests created in OpenOlat can also be exported as Word files. Click on "Export
 as Word file" under Export in the Test Editor. The test is then downloaded in
@@ -22,7 +22,7 @@ for offline tests.
 On the following pages you will learn in detail which possibilities and
 settings the OpenOlat test editor offers:
 
-  * [Test question types](Test+question+types.html)
+  * [Test question types](Test_question_types.md)
   * [Configure test questions](Configure+test+questions.html)
   * [Configure tests](Configure+tests.html)
 

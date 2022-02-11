@@ -25,7 +25,7 @@ The course element " Structure" serves to arrange your course. By default it
 offers an automatic overview of all sub-elements along with short title,
 title, and description. Use this course element to arrange your course content
 and/or to clearly separate your modules. Further information can be found
-[here](Course+Element%EF%B9%95+Structure.html).
+[here](Course_Element_Structure.md).
 
 ##  Course Element: Single Page
 
@@ -40,7 +40,7 @@ the course element "Folder". The course element "Single Page" is particularly
 suitable for the provision of quickly visible information and hypertext-based
 content. Further information on the course elements "Single Page" and
 "Multiple Single Pages" can be found
-[here](Course+Element%EF%B9%95+Single+Page.html).
+[here](Course_Element_Single_Page.md).
 
 ##  Course Element: External Page
 

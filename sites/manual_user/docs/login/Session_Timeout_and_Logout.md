@@ -10,7 +10,7 @@ have to log in anew. All data that have not been saved will be lost. You
 should therefore periodically save your work.
 
 It is possible to log off of OpenOlat at any time by using the logout icon on
-your top right. You will then get back to the [login page](Login+Page.html).
+your top right. You will then get back to the [login page](Login_Page.md).
 If you do not log off but only close the browser or the browser window your
 session will go on till your session timeout is reached.
 

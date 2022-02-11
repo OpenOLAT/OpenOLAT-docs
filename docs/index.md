@@ -6,8 +6,8 @@ Find information on OpenOlat, its features and latest changes here. Navigate in 
 
 ##Aktuelle Version:
 
-- [Release notes 16.1](/release-notes/16.1/)
-- [OpenOlat User Manual](/user-manual/)
+- [Release notes 16.1](release_notes/Release_notes_16.1.md)
+- [OpenOlat User Manual](user-manual/)
 
 !!! quote "eLearning Journal"
 	[![eLearning-Journal OpenOlat test tesult: very good](assets/frentix - Testsiegel_2020.png){ align=left width=200px }](assets/eLJ12020_TEST_Frentix.pdf)

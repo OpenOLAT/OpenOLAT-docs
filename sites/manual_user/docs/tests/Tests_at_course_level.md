@@ -35,7 +35,7 @@ possible:
 Ignore in course assessment|
 
 If the check mark is set here, the test is not taken into account when
-calculating progress in a [learning path course](Learning+path+course.html).
+calculating progress in a [learning path course](../course_create/Learning_path_course.md).
 This setting is not available for a conventional course.  
   
 Set assessment period| The test can be started during the test period. As soon

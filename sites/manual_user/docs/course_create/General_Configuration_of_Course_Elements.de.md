@@ -1,4 +1,4 @@
-Kursbausteinen](Allgemeine+Konfiguration+von+Kursbausteinen.html)
+Kursbausteinen](General_Configuration_of_Course_Elements.de.md)
 
 ## Hinzufügen von Kursbausteinen
 

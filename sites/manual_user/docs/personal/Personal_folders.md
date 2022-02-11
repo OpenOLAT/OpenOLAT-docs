@@ -47,7 +47,7 @@ unzip it in the OpenOlat folder. On the other side several files can be
 transferred and organized by WebDAV. All folders are WebDAV compatible. This
 means OpenOlat is available as a normal net-device, with which you can easily
 copy, move and delete files. Further information can be found in the chapter
-"[Using WebDAV](Using+WebDAV.html)".
+"[Using WebDAV](../supported_tech/Using_WebDAV.md)".
 
 In order for the WebDAV access to work, it needs to be [activated
 ](WebDAV.html)by your OpenOlat administrator first.

@@ -1,6 +1,6 @@
 # eAssessment
 
-  * [Assessment mode](Assessment+mode.html)
+  * [Assessment mode](Assessment_mode.md)
   * [Performance assessment](Performance+assessment.html)
   * [Coaching](Coaching.html)
 

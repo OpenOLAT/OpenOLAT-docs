@@ -1,6 +1,6 @@
 # Tests erstellen
 
-  * [Allgemeines zu Tests](Allgemeines+zu+Tests.html)
+  * [Allgemeines zu Tests](General_Information_on_Tests.de.md)
     * [Von QTI 1.2 zu QTI 2.1](Von+QTI+1.2+zu+QTI+2.1.html)
   * [Vier Schritte zu Ihrem Test oder Selbsttest](Vier+Schritte+zu+Ihrem+Test+oder+Selbsttest.html)
   * [Testeditor](Testeditor.html)

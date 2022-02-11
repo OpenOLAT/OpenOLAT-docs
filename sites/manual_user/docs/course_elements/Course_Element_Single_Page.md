@@ -11,7 +11,7 @@ pictures or videos precisely in the course. The files themselves are created
 in the storage folder of the course.
 
 For integrating Office documents please use the course element
-"[Document](Knowledge+Transfer.html)".
+"[Document](Knowledge_Transfer.md)".
 
   
 
@@ -35,7 +35,7 @@ get to the OpenOlat HTML Editor.
 
 In the HTML editor you can insert links to pictures, videos, the individual
 course elements of the course and to the tools in the
-[toolbar](Using+additional+Course+Editor+Tools.html) in addition to the
+[toolbar](../course_create/Using_additional_Course_Editor_Tools.md) in addition to the
 different formatting.
 
 You can also upload files that you have previously created to the storage

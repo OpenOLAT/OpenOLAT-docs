@@ -53,7 +53,7 @@ organized using the same element.
 
 ![](assets/rubic.png)
 
-Further information can be found [here](../display/OO161EN/Rubric.html).  
+Further information can be found [here](Rubric.md).  
   
 Single choice|
 

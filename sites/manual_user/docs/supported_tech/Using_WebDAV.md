@@ -26,9 +26,9 @@ Via WebDAV you can access the following OpenOlat folders. Thereby the
 structure of how the elements are generated in OpenOlat  is taken
 automatically:
 
-  * [Personal folder](Personal+folders.html) (every user)  
+  * [Personal folder](../personal/Personal_folders.md) (every user)  
 
-  * [Folders of groups](Using+Group+Tools.html)
+  * [Folders of groups](../groups/Using_Group_Tools.md)
   * [Folder - course element ](Course+Element%EF%B9%95+Folder.html)
   * [Storage folders](Storage+folder.html) of courses (course owners only)
   * [Resource folder](Various+Types+of+Learning+Resources.html)s (only Learning Resource Owner)

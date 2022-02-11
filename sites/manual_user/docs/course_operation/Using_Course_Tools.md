@@ -26,10 +26,10 @@ Some course administration tools are presented on separate pages.
 
 On further pages you will find information about:
 
-  * [Course settings](Course+Settings.html)
-  * [Members management](Members+management.html)
+  * [Course settings](../course_create/Course_Settings.md)
+  * [Members management](Members_management.md)
   * Course elements of the [Course editor](https://confluence.openolat.org/display/OO161EN/Course+Elements+and+Course+Editor)
-  * [Storage folder](Storage+folder.html)
+  * [Storage folder](Storage_folder.md)
   * [Lectures and Absences](Lecture+and+roll+call+management.html)
   * [Reminder](Course+Reminders.html)
   * [Assessment mode](Assessment+mode.html)

@@ -8,7 +8,7 @@ Kursbausteine können im
 [Bewertungswerkzeug](Einsatz+der+Kurswerkzeuge.html#EinsatzderKurswerkzeuge-
 _bewertungswerkzeug) eingesehen und bearbeitet werden. Weitere Informationen
 zu diesen Bausteinen finden Sie u.a. im Kapitel
-"[Wissensüberprüfung](../../pages/viewpage.action%EF%B9%96pageId=108593581.html)":
+"[Wissensüberprüfung](../course_elements/Assessment.de.md)":
 
   * [Aufgabe](../../pages/viewpage.action%EF%B9%96pageId=108593581.html#Wissens%C3%BCberpr%C3%BCfung-_task_kursbaustein) (manuelle Bewertung)
   * [Gruppenaufgabe ](../../pages/viewpage.action%EF%B9%96pageId=108593581.html)(manuelle Bewertung)

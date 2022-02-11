@@ -45,6 +45,6 @@ info page of the course.
   
 
 Administrative settings are made by OpenOlat administrators in the section
-Login → ["Guest and Invitation"](Guest+and+invitation.html) and under
+Login → ["Guest and Invitation"](../../manual_admin/administration/Guest_and_invitation.md) and under
 ["Customizing"](Customizing.html) → "Sites.
 

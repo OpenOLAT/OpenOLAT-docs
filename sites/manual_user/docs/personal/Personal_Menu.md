@@ -34,7 +34,7 @@ private entries, all registered OpenOlat users can see public entries
 including all details on your calendar.
 
 Further information on the calendar list, how to create entries and other
-calendar functions is available in the [calendar](Calendar.html) chapter.
+calendar functions is available in the [calendar](Calendar.md) chapter.
 
 ##  Subscriptions
 
@@ -102,7 +102,7 @@ expires if you are no longer a member of the corresponding course or module
 OpenOlat provides you with storage space in your personal folder. You can, for
 example, store presentations that you would like to access from another
 computer, cache research work, etc. Further information can be found
-[here](Personal+folders.html).
+[here](Personal_folders.md).
 
 ##  Notes
 

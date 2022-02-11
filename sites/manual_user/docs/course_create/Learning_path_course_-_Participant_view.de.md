@@ -1,4 +1,4 @@
-Teilnehmeransicht](Lernpfad+Kurse+-+Teilnehmeransicht.html)
+Teilnehmeransicht](Learning_path_course_-_Participant_view.de.md)
 
 Ein Lernpfad Kurs unterscheidet sich auch für die Lernenden von einem
 herkömmlichen Kurs. Die größten Unterschiede liegen in der Fortschrittsanzeige

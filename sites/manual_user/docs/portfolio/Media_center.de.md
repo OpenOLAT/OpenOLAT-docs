@@ -3,7 +3,7 @@
 Die Mediathek ist die zentrale Sammelstelle für alle individuell gesammelten
 Elemente (Artefakte) einer Person. Artefakte können unterschiedliche Dokumente
 und Medien oder auch OpenOlat spezifische Dinge sein. Die einzelnen Artefakte
-können in Portfolio [Mappen ](Meine+Portfolio+Mappen.html)zusammengestellt und
+können in Portfolio [Mappen ](My_portfolio_binders.de.md)zusammengestellt und
 so strukturiert und weiter ausgestaltet werden.
 
 Dabei können die Elemente auf unterschiedliche Art und Weise in die Mediathek

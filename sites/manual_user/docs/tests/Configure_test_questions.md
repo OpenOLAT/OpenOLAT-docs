@@ -1,6 +1,6 @@
 # Configure test questions
 
-With each [question type](Test+question+types.html) you have the following
+With each [question type](Test_question_types.md) you have the following
 tabs available: Name of the question type, Score, Feedback, Preview, and
 Preview Solution. In the following, the individual tabs for setting up a test
 question are explained in more detail.

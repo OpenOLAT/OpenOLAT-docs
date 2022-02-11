@@ -1,6 +1,6 @@
 # Creating Podcasts
 
-  * [Four Steps to Your Podcast](Four+Steps+to+Your+Podcast.html)
+  * [Four Steps to Your Podcast](Four_Steps_to_Your_Podcast.md)
   * [Podcast - Further Configurations](Podcast+-+Further+Configurations.html)
 
   

@@ -1,7 +1,7 @@
 # Formular als Rubrik Bewertung
 
 Die Lernressource Formular, insbesondere das dort integrierte [Rubrik
-](Rubrik.html)Element eignet sich optimal für eine kriterienbasierte Bewertung
+](Rubric.de.md)Element eignet sich optimal für eine kriterienbasierte Bewertung
 von Leistungen. Dafür wird ein zuvor erstelltes Formular mit einem Rubrik
 Element in den Kursbaustein "Bewertung" eines Kurses eingebaut.
 

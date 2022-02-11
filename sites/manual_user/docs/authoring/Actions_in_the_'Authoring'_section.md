@@ -30,7 +30,7 @@ deleted.
 ###  Create
 
 OpenOlat authors can create new courses and additional [learning
-resources](Various+Types+of+Learning+Resources.html) in the "My Entries and
+resources](Various_Types_of_Learning_Resources.md) in the "My Entries and
 Favorites" tabs. How to use various editors will be further explained in the
 chapters ["Creating Courses"](Creating+Courses.html), ["Creating CP Learning
 Content"](Creating+CP+Learning+Content.html), ["Creating

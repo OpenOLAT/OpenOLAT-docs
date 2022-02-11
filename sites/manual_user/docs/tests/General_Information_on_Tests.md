@@ -24,9 +24,9 @@ Summative tests are only used at the end of a learning process or event. This
 checks whether the planned learning goals have been achieved. An example of
 this are sharp exams or online exams.
 
-Tests are created using the [OpenOlat test editor](Test+editor+QTI+2.1.html)
+Tests are created using the [OpenOlat test editor](Test_editor_QTI_2.1.md)
 as a QTI 2.1 test. The length of the test, the [question
-types](Test+question+types.html) and a number of other configurations can be
+types](Test_question_types.md) and a number of other configurations can be
 determined.
 
 Test participants cannot read in the source code of the test or self-test

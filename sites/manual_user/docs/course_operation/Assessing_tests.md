@@ -152,7 +152,7 @@ options are mostly identical. Only the "Preview" and "Reminders" tabs
 supplement the options. The preview shows the user perspective and in the tab
 "Reminders" there is the possibility to send a reminder email for certain
 conditions e.g. at a certain score, certain number of attempts or at pass/fail
-(see also [Reminder](Course+Reminders.html)).
+(see also [Reminder](Course_Reminders.md)).
 
 ![](assets/Test_kursrun.jpg)
 

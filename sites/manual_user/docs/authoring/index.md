@@ -11,7 +11,7 @@ entries") as well as to the search and to the deleted learning resources.
 Further filtering of the display is also possible. So also completely new
 filter queries, which are frequently needed, can be generated and saved.
 
-  * [Various Types of Learning Resources](Various+Types+of+Learning+Resources.html)
+  * [Various Types of Learning Resources](Various_Types_of_Learning_Resources.md)
   * [Actions in the 'Authoring' section](Actions+in+the+'Authoring'+section.html)
   * [Detailed View of Learning Resources](Detailed+View+of+Learning+Resources.html)
 

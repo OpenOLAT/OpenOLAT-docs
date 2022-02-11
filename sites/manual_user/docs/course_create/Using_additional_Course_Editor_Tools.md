@@ -1,4 +1,4 @@
-Tools](Using+additional+Course+Editor+Tools.html)
+Tools](Using_additional_Course_Editor_Tools.md)
 
 In the course editor menu you have access to the administration area with
 various other configuration tools. Here you can insert and modify course

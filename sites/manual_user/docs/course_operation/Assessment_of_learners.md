@@ -24,7 +24,7 @@ Go to the assessment tool and follow these steps:
 
 ![](assets/3.png)  
   
-4. You will now be taken to the [assessment form](The+assessment+form.html) of the respective course element. The exact possibilities depend on the course element type and the corresponding settings.
+4. You will now be taken to the [assessment form](The_assessment_form.md) of the respective course element. The exact possibilities depend on the course element type and the corresponding settings.
 
 |
 

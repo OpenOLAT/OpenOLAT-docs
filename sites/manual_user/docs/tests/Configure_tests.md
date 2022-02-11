@@ -73,7 +73,7 @@ feedback over the whole test and the review are also part of the time limit.
 A time limit of the test can either be done in the test editor as described
 here or after embedding the test into the course in the course editor in the
 tab "Options". If necessary the test time can be extended for single users in
-the [assessment tool](Assessment+tool+-+overview.html).  
+the [assessment tool](../course_operation/Assessment_tool_-_overview.md).  
   
   
 

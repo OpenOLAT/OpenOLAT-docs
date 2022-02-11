@@ -13,7 +13,7 @@ The following tabs are available for user configuration:
 
 | The personal data, personal details, contact data and details of the
 institution are entered here (cf. user configuration
-[profile](Configuration.html#Configuration-_profile)). Furthermore, the
+[profile](../../manual_user/personal/Configuration.md#Configuration-_profile)). Furthermore, the
 personal information entered by the user as well as the respective business
 card and the selected personal picture/photo are visible. The binding entries
 of the user profile include: First name, surname and e-mail.  
@@ -22,7 +22,7 @@ of the user profile include: First name, surname and e-mail.
 #### System settings
 
 | The system settings made by the user are displayed here (see User
-Configuration [Settings](Configuration.html#Configuration-_einstellungen)).  
+Configuration [Settings](../../manual_user/personal/Configuration.md#Configuration-_einstellungen)).  
   
 #### Change password
 

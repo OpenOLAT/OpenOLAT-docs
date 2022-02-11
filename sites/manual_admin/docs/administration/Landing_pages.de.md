@@ -11,7 +11,7 @@ zutreffen, lediglich die Reihenfolge ist relevant.
 
 Die benutzerspezifische Startseite, die der Benutzer im persönlichen Menü
 unter [Einstellungen/System/Spezielle
-Systemeinstellungen](Konfiguration.html#Konfiguration-_specifics) für sich
+Systemeinstellungen](../../manual_user/personal/Configuration.de.md#Konfiguration-_specifics) für sich
 persönlich festlegt, überschreibt die systemweite Startseite.
 
   

@@ -2,7 +2,7 @@
 
 Hier können Sie den Fragenpool aus Sicht des Systemadministrators
 konfigurieren. Einige der Einstellungen können auch in der [Administration des
-Poolverwalters](Fragenpool+Administration.html) vorgenommen werden.
+Poolverwalters](../../manual_user/question_bank/Question_Bank_Administration.de.md) vorgenommen werden.
 
 ![](assets/Fragenpool_admin.png)
 
@@ -22,7 +22,7 @@ sind dieselben Fragen wie zuvor in den entsprechenden Listen verknüpft. Genau
 gleich verhält es sich mit Pools und Gruppen.
 
 Weitere Informationen zum
-[Beurteilungsprozess](Fragenpool+Beurteilungsprozess.html) finden Sie im
+[Beurteilungsprozess](../../manual_user/question_bank/Question_Bank_Review_Process.de.md) finden Sie im
 entsprechenden Kapitel.
 
   * Taxonomie: Jedem Fragenpool ist die Taxonomie "Question pool" zugeordnet. Diese Taxonomie wurde automatisch aus den ehemaligen Fachbereichen erstellt. Änderungen können im Tab "Fachbereiche" vorgenommen werden. Weitere Informationen zur Taxonomie finden Sie [hier](Modules%EF%B9%95+Taxonomie.html).

@@ -1,7 +1,7 @@
 # Formulare erstellen
 
-  * [Allgemeines zu Formularen](Allgemeines+zu+Formularen.html)
-  * [Drei Schritte zu Ihrem Formular](Drei+Schritte+zu+Ihrem+Formular.html)
+  * [Allgemeines zu Formularen](General_information_on_Forms.de.md)
+  * [Drei Schritte zu Ihrem Formular](Three_Steps_to_your_Form.de.md)
   * [Formular Editor](Formular+Editor.html)
     * [Rubrik](Rubrik.html)
     * [Frageregeln](Frageregeln.html)

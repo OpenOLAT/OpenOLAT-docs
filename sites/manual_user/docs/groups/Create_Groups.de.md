@@ -26,7 +26,7 @@ in der Übersichtsseite, wenn Sie die Gruppe gestartet haben.
 
 Da die Beschreibung auch in der Übersicht der Gruppen als Spalte angezeigt
 werden kann empfiehlt es sich nur kurze Beschreibungen zu verwenden. Längere
-Texte sollten lieber über das [Gruppen-Werkzeug](Gruppenwerkzeuge+nutzen.html)
+Texte sollten lieber über das [Gruppen-Werkzeug](Using_Group_Tools.de.md)
 "Information an Mitglieder" bereitgestellt werden.
 
 ###  Vorgesehene Anzahl Teilnehmer

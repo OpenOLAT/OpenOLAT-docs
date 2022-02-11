@@ -61,7 +61,7 @@ optimiert werden.
 Mithilfe des html-Editors kann "normaler" Text hinzugefügt werden. Dabei kann
 die übliche Formatierung vorgenommen werden.  
 Unter "Einfügen" können auch [mathematische
-Formeln](Mathematische+Formel.html) eingefügt werden.
+Formeln](../personal/Math_formula.de.md) eingefügt werden.
 
 ![](assets/portfolio_Textabschnitt.png)
 

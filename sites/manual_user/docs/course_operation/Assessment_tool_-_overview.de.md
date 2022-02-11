@@ -14,8 +14,8 @@ Bewertungen. So wissen Sie schnell, was aktuell zu tun ist.
 
 Von der Übersichtsseite aus gelangen Sie auch zu den konkreten
 Bewertungsbereichen der einzelnen [Kursbausteine
-](../display/OO161DE/Bewertung+von+Kursbausteinen.html)und
-[Personen](../display/OO161DE/Lernende+bewerten.html).
+](Assessment_of_course_modules.de.md)und
+[Personen](Assessment_of_learners.de.md).
 
 ## Tab „Übersicht“ des Bewertungswerkzeugs
 

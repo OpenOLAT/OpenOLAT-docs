@@ -30,7 +30,7 @@ Es werden grundsätzlich zwei Arten von Mappen unterschieden:
 
 Abgeholte Mappen erkennt man an dem roten Randstreifen und dem Hinweis auf den
 zugehörigen Kurs. Diese Mappen basieren auf einer "[Portfolio 2.0
-Vorlage](Portfoliovorlage%EF%B9%95+Erstellung.html)" und werden in der Regel
+Vorlage](Portfolio_template_Creation.de.md)" und werden in der Regel
 von einer anderen Person, meist dem Lehrenden, erstellt. Die Abholung erfolgt
 im Kurs über die "[Portfolio
 Aufgabe](Portfolioaufgabe%EF%B9%95+abholen+und+bearbeiten.html)". Alternativ

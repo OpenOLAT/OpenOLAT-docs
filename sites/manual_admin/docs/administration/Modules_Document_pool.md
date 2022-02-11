@@ -12,7 +12,7 @@ The documents in the document pool are only available in the document pool and
 cannot be added into a course.
 
 Further information can be found in the chapter
-[Taxonomy](Modules%EF%B9%95+Taxonomy.html).
+[Taxonomy](Modules_Taxonomy.md).
 
 The document pool can be added as a site in the main navigation on top.
 

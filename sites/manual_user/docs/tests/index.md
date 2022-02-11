@@ -1,8 +1,8 @@
 # Creating Tests
 
-  * [General Information on Tests](General+Information+on+Tests.html)
-    * [Changing from QTI 1.2 to QTI 2.1](Changing+from+QTI+1.2+to+QTI+2.1.html)
-  * [Four Steps to Your Test or Self-test](Four+Steps+to+Your+Test+or+Self-test.html)
+  * [General Information on Tests](General_Information_on_Tests.md)
+    * [Changing from QTI 1.2 to QTI 2.1](Changing_from_QTI_1.2_to_QTI_2.1.md)
+  * [Four Steps to Your Test or Self-test](Four_Steps_to_Your_Test_or_Self-test.md)
   * [Test editor QTI 2.1](Test+editor+QTI+2.1.html)
     * [Test question types](Test+question+types.html)
     * [Configure test questions](Configure+test+questions.html)

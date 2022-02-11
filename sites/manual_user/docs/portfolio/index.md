@@ -5,10 +5,10 @@ e-portfolios learners are able to arrange, reflect and document their learning
 and development processes. In the Portfolio 2.0 of OpenOlat different types
 can be implemented. As far as the access rights are given by the
 administrator, every OpenOlat user can
-[create](Three+steps+to+your+portfolio+binder.html) a own portfolio (binder)
+[create](Three_steps_to_your_portfolio_binder.md) a own portfolio (binder)
 of any type. Specifically it is aligned to the [assessment
-portfolio](Process+of+an+assessment+portfolio.html). Therefore a [portfolio
-template](Portfolio+template%EF%B9%95+Creation.html) with assignments is
+portfolio](Process_of_an_assessment_portfolio.md). Therefore a [portfolio
+template](Portfolio_template_Creation.md) with assignments is
 created be the author which can be
 [edited](Portfolio+template%EF%B9%95+Administration+and+editing.html) by the
 users afterward.

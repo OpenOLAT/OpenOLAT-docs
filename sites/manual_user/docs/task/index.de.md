@@ -1,7 +1,7 @@
 # Aufgabe erstellen
 
-  * [Drei Schritte zu Ihrer Aufgabe](Drei+Schritte+zu+Ihrer+Aufgabe.html)
-  * [Aufgabe - Weitere Konfigurationen](Aufgabe+-+Weitere+Konfigurationen.html)
+  * [Drei Schritte zu Ihrer Aufgabe](Three_Steps_to_Your_Task.de.md)
+  * [Aufgabe - Weitere Konfigurationen](Task_-_Further_Configurations.de.md)
   * [Aufgaben bewerten](Aufgaben+bewerten.html)
 
   

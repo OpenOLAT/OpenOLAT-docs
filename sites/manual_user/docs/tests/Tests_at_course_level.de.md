@@ -42,7 +42,7 @@ Lernressource Test erstellt oder zugeordnet haben:
 ---|---  
 Bei Kursbewertung ausschliessen| Wird hier der Haken gesetzt, bleibt der Test
 bei der Fortschrittsberechnung in einem [Lernpfad Kurs -
-Überblick](../../pages/viewpage.action%EF%B9%96pageId=108593191.html)
+Überblick](../course_create/Learning_path_course.de.md)
 unberücksichtigt. Bei einem herkömmlichen Kurs ist diese Einstellung nicht
 vorhanden.  
 Testzeitraum festlegen| Während des Testzeitraum kann der Test gestartet

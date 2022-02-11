@@ -143,6 +143,6 @@ Weitere Details zu den aufgezeichneten Logfiles erfahren Sie im Kapitel
 Kursaktivitäten](../../pages/viewpage.action%EF%B9%96pageId=60358847.html)".
 
 Über die Rechtevergabe in der [Mitgliederverwaltung
-](Mitgliederverwaltung.html)kann auch weiteren Personen das Recht für die
+](Members_management.de.md)kann auch weiteren Personen das Recht für die
 gesamte Datenarchivierung gegeben werden.
 

@@ -7,7 +7,7 @@ zur Verfügung stehen und wie Sie Kursaktivitäten aufzeichnen können. Die
 meisten zentralen Einstellungen nehmen Sie über die Werkzeuge, die Sie in der
 Administration des Kurses bzw. der jeweiligen Lernressource finden, vor.
 Weitere Informationen dazu finden Sie im Kapitel "[Einsatz der
-Kurswerkzeuge](Einsatz+der+Kurswerkzeuge.html)".
+Kurswerkzeuge](Using_Course_Tools.de.md)".
 
   * [Einsatz der Kurswerkzeuge](Einsatz+der+Kurswerkzeuge.html)
     * [Mitgliederverwaltung](Mitgliederverwaltung.html)

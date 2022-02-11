@@ -28,7 +28,7 @@ OpenOlat since release 14.2 and many processes have been improved. Here, you
 can find the most important new features and changes. In addition to these
 improvements, more than 105 bugs have been fixed. The complete list of changes
 for 14.2 – 14.2.9 can be found
-[here](Release+notes+14.2.html#Releasenotes14.2-Releasenotes-versions).
+[here](Release_notes_14.2.md#Releasenotes14.2-Releasenotes-versions).
 
 ![](assets/150/Features_Improvements_Labels_EN.png)
 

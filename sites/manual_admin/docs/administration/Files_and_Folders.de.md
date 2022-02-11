@@ -1,7 +1,6 @@
 # Dateien und Ordner
 
-In der Administration im Bereich "[Core
-Konfiguration](Core+Konfiguration.html)" können auch Einstellungen bezüglich
+In der Administration im Bereich "[Core Konfiguration](Core_functions.de.md)" können auch Einstellungen bezüglich
 der Dateiein, inklusive Versionen und Quotas vorgenommen werden.
 
 Im Tab Überblick erhalten Administratoren einen schnellen Gesamtüberblick über

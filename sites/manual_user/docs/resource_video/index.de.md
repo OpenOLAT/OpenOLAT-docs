@@ -1,6 +1,6 @@
 # Video erstellen
 
-  * [Lernressource: Video](Lernressource%EF%B9%95+Video.html)
+  * [Lernressource: Video](Learning_resource_Video.de.md)
   * [Kursbaustein "Video" einrichten](../../pages/viewpage.action%EF%B9%96pageId=108593229.html)
   * [Einzelne Seite: Video hinzufügen / editieren](../../pages/viewpage.action%EF%B9%96pageId=108593630.html)
   * [Video hochladen](Video+hochladen.html)

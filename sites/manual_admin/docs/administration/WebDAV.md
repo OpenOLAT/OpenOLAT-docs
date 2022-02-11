@@ -41,7 +41,7 @@ courses of this curriculum group.
 
   *  **Group Managed Course**
   *  **Prepend external course reference to title**  
-Decide whether the course [reference](Set+up+info+page.html) should prepend
+Decide whether the course [reference](../../manual_user/authoring/Set_up_info_page.md) should prepend
 the course title in order to be able to distinguish between similar course
 titles.  
 
@@ -60,5 +60,5 @@ folders will be displayed.
  **Usage**
 
 More information about WebDAV usage in OpenOlat: [Using
-WebDAV](Using+WebDAV.html)
+WebDAV](../../manual_user/supported_tech/Using_WebDAV.md)
 

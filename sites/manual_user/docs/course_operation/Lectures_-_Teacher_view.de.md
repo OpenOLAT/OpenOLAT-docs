@@ -101,7 +101,7 @@ der Lektionenblock erneut abgeschlossen werden.
 ## Coaching Tool
 
 Um eine Übersicht der Absenzen über mehrere Kurse oder über ein gesamtes
-Semester zu erhalten, kann das [Coaching Tool](Coaching.html) genutzt werden.
+Semester zu erhalten, kann das [Coaching Tool](../e-assessment/Coaching.de.md) genutzt werden.
 Im Coaching Menü wird der Tab "Lektionen" gewählt und man kommt zum selben
 Menü wie unter der zuvor beschriebenen "Übersicht Lektionenblöcke".
 

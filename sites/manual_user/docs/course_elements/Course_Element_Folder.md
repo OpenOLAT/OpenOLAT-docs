@@ -32,7 +32,7 @@ folder from the course folder. This is especially useful if you have already
 uploaded the files you want to make available in a structured way in the
 course's folder. In the next step, select an existing folder in the storage
 folder and create a new subfolder in the storage folder. If configured in the
-[course settings](Course+Settings.html), you can also access a linked resource
+[course settings](../course_create/Course_Settings.md), you can also access a linked resource
 folder via the storage folder.
 
 You can then upload files to the previously defined location in the "Upload

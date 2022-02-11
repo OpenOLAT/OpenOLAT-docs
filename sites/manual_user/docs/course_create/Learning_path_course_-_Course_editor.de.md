@@ -87,7 +87,7 @@ Ausnahmen aktiviert und eine Gruppe hinzugefügt:
 
 Die Bearbeitungszeit ist besonders relevant, wenn in den Kurseinstellungen für
 die Durchführung der Lernfortschritt anhand der Bearbeitungszeit ermittelt
-wird (siehe [Lernpfad Kurse](Lernpfad+Kurse+erstellen.html) erstellen). In
+wird (siehe [Lernpfad Kurse](Creating_learning_path_courses.de.md) erstellen). In
 diesem Fall werden alle Zeitangaben der einzelnen Kursbausteine summiert und
 die Gesamtsumme als Basis für 100 % genommen.
 

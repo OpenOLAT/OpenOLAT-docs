@@ -15,8 +15,8 @@ course elements in courses.
 The following virtual classrooms can be integrated in OpenOlat as external
 tools:
 
-  * [Adobe Connect](Course+element+Adobe+Connect.html)
-  * [BigBlueButton](Course+element+BigBlueButton.html)
+  * [Adobe Connect](Course_element_Adobe_Connect.md)
+  * [BigBlueButton](Course_element_BigBlueButton.md)
   * [GoTo Meeting](Course+element+GoToMeeting.html)
   * [OpenMeetings](Course+element+OpenMeetings.html)
   * [Vitero](Course+element+vitero.html)

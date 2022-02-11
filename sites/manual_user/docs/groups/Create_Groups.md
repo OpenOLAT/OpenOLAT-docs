@@ -61,6 +61,6 @@ If you wish to create a group associated with a course, there are two more
 methods to create a group in addition to the one mentioned above:
 
   * In the course, you will find the settings for member management in the drop-down menu "Administration" in the upper left corner. There you can create new groups or add existing groups to the course.
-  * Learning areas to subsume several course associated groups are created with the "[Learning areas](Using+additional+Course+Editor+Tools.html#UsingadditionalCourseEditorTools-_lernbereich)“ tool, which you will also find in the course tools. The menu item "Groups" in the members management also allows you to edit all linked groups, add new members, configure collaborative tools or even delete groups.
+  * Learning areas to subsume several course associated groups are created with the "[Learning areas](../course_create/Using_additional_Course_Editor_Tools.md#UsingadditionalCourseEditorTools-_lernbereich)“ tool, which you will also find in the course tools. The menu item "Groups" in the members management also allows you to edit all linked groups, add new members, configure collaborative tools or even delete groups.
   * In the course editor: When configuring the registration element or when using the tabs "Visibility" and "Access" you can create groups directly. However, it is not possible to add members or to activate collaborative tools. To do that, either navigate to the members management, or open the relevant group in a separate tab.
 

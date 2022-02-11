@@ -1,7 +1,7 @@
 # Formular in der Portfolio 2.0 Vorlage
 
 In die Lernressource "[Portfolio 2.0
-Vorlage](Portfoliovorlage%EF%B9%95+Erstellung.html)" können ebenfalls
+Vorlage](../portfolio/Portfolio_template_Creation.de.md)" können ebenfalls
 Formulare z.B. zur Selbstreflexion oder für die Bewertung von eigenen
 Leistungen oder auch im Sinne eines Fragebogens eingebunden werden.
 
@@ -9,7 +9,7 @@ Hierfür muss zunächst eine Portfolio 2.0 Vorlage erstellt werden. Wählen oder
 erstellen Sie dann einen Portfolio "Bereich" und wählen sie "Neue Aufgabe".
 Weitere generelle Informationen zur Erstellung einer Portfolio 2.0 Vorlage
 finden sie
-[hier](Portfoliovorlage%EF%B9%95+Administration+und+Bearbeitung.html).
+[hier](../portfolio/Portfolio_template_Administration_and_editing.de.md).
 
 ![](assets/Formular_eportfolio.png)
 

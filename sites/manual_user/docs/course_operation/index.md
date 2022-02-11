@@ -8,7 +8,7 @@ used by course authors during course operation, which additional features are
 at their disposal and how they can archive course activities. You make most of
 the central settings via the tools that you find in the administration of the
 course or the respective learning resource. For more information, please refer
-to the chapter "[Using the course tools](Using+Course+Tools.html)".
+to the chapter "[Using the course tools](Using_Course_Tools.md)".
 
   * [Using Course Tools](Using+Course+Tools.html)
     * [Members management](Members+management.html)

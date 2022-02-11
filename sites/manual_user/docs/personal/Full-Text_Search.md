@@ -35,7 +35,7 @@ learning content along with your search term.
 Info
 
 Beside the full-text search for the whole OpenOlat there exists also a [course
-search](Course+Settings.html#CourseSettings-course_search), which can be
+search](../course_create/Course_Settings.md#CourseSettings-course_search), which can be
 activated for every course in the course options. The course search searches
 only the corresponding course.
 

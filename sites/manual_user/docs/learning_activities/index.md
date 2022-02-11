@@ -1,7 +1,7 @@
 # Learning Activities in Courses
 
-  * [Working With Course Elements](Working+With+Course+Elements.html)
-    * [Working with Forums](Working+with+Forums.html)
+  * [Working With Course Elements](Working_With_Course_Elements.md)
+    * [Working with Forums](Working_with_Forums.md)
     * [Working with Tasks and Group Tasks](Working+with+Tasks+and+Group+Tasks.html)
     * [Working with Tests](Working+with+Tests.html)
     * [Working with Topic Assignment](Working+with+Topic+Assignment.html)

@@ -1,7 +1,7 @@
 # Podcast erstellen
 
-  * [Vier Schritte zu Ihrem Podcast](Vier+Schritte+zu+Ihrem+Podcast.html)
-  * [Podcast - Weitere Konfigurationen](Podcast+-+Weitere+Konfigurationen.html)
+  * [Vier Schritte zu Ihrem Podcast](Four_Steps_to_Your_Podcast.de.md)
+  * [Podcast - Weitere Konfigurationen](Podcast_-_Further_Configurations.de.md)
 
   
 

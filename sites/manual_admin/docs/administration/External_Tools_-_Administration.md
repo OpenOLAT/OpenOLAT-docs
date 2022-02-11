@@ -21,7 +21,7 @@ document tools, analysis tools and a PDF generator.
 
 ## BigBlueButton
 
-[BigBlueButton module](BigBlueButton+module.html)
+[BigBlueButton module](BigBlueButton_module.md)
 
 ## OpenMeetings
 

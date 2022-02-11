@@ -1,4 +1,4 @@
-Kurseditorwerkzeuge](Verwendung+weiterer+Kurseditorwerkzeuge.html)
+Kurseditorwerkzeuge](Using_additional_Course_Editor_Tools.de.md)
 
 Im Menü des Kurseditors haben Sie Zugriff auf den Administrationsbereich mit
 diversen weiteren Konfigurationstools. Hier können Sie Kursbausteine einfügen

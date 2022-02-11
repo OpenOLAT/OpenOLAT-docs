@@ -50,7 +50,7 @@ erstellen der alle Kurses dieser Curriculum-Gruppe enthält.
 
   *  **Managed Kurs gruppieren**
   *  **Kennzeichen dem Titel voranstellen**  
-Legen Sie fest ob das [Kennzeichen](Infoseite+einrichten.html) dem Kurstitel
+Legen Sie fest ob das [Kennzeichen](../../manual_user/authoring/Set_up_info_page.de.md) dem Kurstitel
 zur besseren Unterscheidung ähnlicher Titel vorangestellt werden soll.  
 
 * * *
@@ -72,5 +72,5 @@ eingebundener Ressourcenordner.
  **Verwendung**
 
 Weitere Informationen zur Anwendung von WebDAV in OpenOlat finden Sie unter
-[Einsatz von WebDAV](Einsatz+von+WebDAV.html).
+[Einsatz von WebDAV](../../manual_user/supported_tech/Using_WebDAV.de.md).
 

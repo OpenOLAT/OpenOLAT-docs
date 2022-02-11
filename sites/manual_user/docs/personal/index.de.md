@@ -11,7 +11,7 @@ individuell anpassen können. Falls Sie den Tab „Portal“ nicht sehen, wurde
 diese Seite von ihrem Systemadministrator systemweit abgeschaltet.
 
   
-  * [Persönliche Werkzeuge](viewpage.action%EF%B9%96pageId=108593349.html)
+  * [Persönliche Werkzeuge](Personal_Menu.de.md)
   * [Konfiguration](../display/OO161DE/Konfiguration.html)
   * [Volltextsuche](../display/OO161DE/Volltextsuche.html)
   * [Chat](../display/OO161DE/Chat.html)

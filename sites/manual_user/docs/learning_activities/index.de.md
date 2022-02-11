@@ -2,8 +2,8 @@
 
 Zum Anfang der Metadaten
 
-  * [Arbeiten mit Kursbausteinen](../display/OO161DE/Arbeiten+mit+Kursbausteinen.html)
-    * [Arbeiten mit Aufgaben und Gruppenaufgaben](../display/OO161DE/Arbeiten+mit+Aufgaben+und+Gruppenaufgaben.html)
+  * [Arbeiten mit Kursbausteinen](Working_With_Course_Elements.de.md)
+    * [Arbeiten mit Aufgaben und Gruppenaufgaben](Working_with_Forums.de.md)
     * [Arbeiten mit Foren](../display/OO161DE/Arbeiten+mit+Foren.html)
     * [Arbeiten mit der Themenvergabe](../display/OO161DE/Arbeiten+mit+der+Themenvergabe.html)
     * [Arbeiten mit Tests](../display/OO161DE/Arbeiten+mit+Tests.html)

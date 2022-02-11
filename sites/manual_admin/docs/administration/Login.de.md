@@ -2,8 +2,8 @@
 
 Konfiguration des Logins in der OpenOlat Administration
 
-  * [Sicherheit](Sicherheit.html)
-  * [Gast und Einladung](Gast+und+Einladung.html)
+  * [Sicherheit](Security.de.md)
+  * [Gast und Einladung](Guest_and_invitation.de.md)
   * Passwörter
   * Selbstregistration
   * Cloud Login

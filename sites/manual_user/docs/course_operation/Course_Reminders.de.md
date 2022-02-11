@@ -168,7 +168,7 @@ ausgewählte Profilattribut besitzen.|  **Beispiel** : Benutzer aus der Stadt
 Zürich.  
   
 g) Fortschritt (nur bei [Lernpfad
-Kursen](../../pages/viewpage.action%EF%B9%96pageId=108593191.html))|  
+Kursen](../course_create/Learning_path_course.de.md))|  
   
 ---|---  
   

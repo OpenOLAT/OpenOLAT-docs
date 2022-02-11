@@ -6,7 +6,7 @@ Bewertung im Kurseditor erstellen und einrichten
 Die Konfiguration des Kursbausteins Bewertung nehmen Sie im Kurseditor im Tab
 „Bewertung“ vor. Hier können Sie die Bewertung so konfigurieren, dass
 
-  * Ein [Rubrik ](../display/OO161DE/Rubrik.html)als Basis für die Bewertung verwendet wird
+  * Ein [Rubrik ](../forms/Rubric.de.md)als Basis für die Bewertung verwendet wird
   * Punkte vergeben werden (oder nicht)
   * Bestanden/nicht bestanden angezeigt wird
   * Ein individueller Kommentar hinzugefügt werden kann

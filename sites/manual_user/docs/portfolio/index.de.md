@@ -6,12 +6,12 @@ beinhaltet es Informationen für Autoren bezüglich der Erstellung einer
 Portfoliovorlage 2.0, inklusive Einbindung in OpenOlat Kurse. Zum anderen
 finden OpenOlat Benutzer hier Informationen wie sie mit bereitgestellten
 Portfolioaufgaben umgehen und auch eigene, [kursunabhängige Portfolios
-erstellen ](Drei+Schritte+zu+Ihrer+Mappe.html)können. Jeder OpenOlat-User
+erstellen ](Three_steps_to_your_portfolio_binder.de.md)können. Jeder OpenOlat-User
 kann, sofern vom Administrator freigegeben, selbst eine Portfolio Mappe
 erstellen.
 
 Ein zentrales Element des OpenOlat Portfolios ist jedoch das
-[Bewertungsportfolio](Prozess+eines+Bewertungsportfolios.html). Dazu werden
+[Bewertungsportfolio](Process_of_an_assessment_portfolio.de.md). Dazu werden
 vom OpenOlat Autor [Portfoliovorlagen
 ](Portfoliovorlage%EF%B9%95+Erstellung.html)mit Aufgaben und Portfolio-
 Strukturen erstellt und in OLAT-Kursen zur Verfügung gestellt. Dort können sie

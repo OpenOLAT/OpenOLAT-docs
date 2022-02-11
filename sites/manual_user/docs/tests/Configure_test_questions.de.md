@@ -1,6 +1,6 @@
 # Test Fragen konfigurieren
 
-Zu jedem [Fragetyp ](Test+Fragetypen.html)können die Tabs Auswahl/[Name des
+Zu jedem [Fragetyp ](Test_question_types.de.md)können die Tabs Auswahl/[Name des
 Fragetyps], Punkte, Feedback, Vorschau, Vorschau Lösung und Metadaten
 bearbeitet werden. Im Folgenden werden die einzelnen Tabs für die Einrichtung
 einer Testfrage näher erläutert.

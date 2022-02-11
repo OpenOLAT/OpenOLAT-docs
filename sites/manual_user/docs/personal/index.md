@@ -12,7 +12,7 @@ most probably disabled by the system administrator.
 
 ### Navigation
 
-In the navigation the [chat](Chat.html) is shown first. It is followed by the
+In the navigation the [chat](Chat.de.md) is shown first. It is followed by the
 number of active users and the full text search. In the navigation your
 personal menu can be opened as well. It is divided into [personal
 tools](Personal+Menu.html), [configuration](Configuration.html) and system.

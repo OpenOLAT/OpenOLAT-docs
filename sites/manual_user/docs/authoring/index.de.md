@@ -30,7 +30,7 @@ hier können sie wieder hergestellt oder durch den Administrator dauerhaft
 gelöscht werden.
 
 Weitere Details zum Umgang mit den Filteroptionen erfahren Sie
-[hier](mit+Tabellen+arbeiten.html).
+[hier](../personal/Working_with_tables.de.md).
 
 Falls Sie einmal einen Kurs oder eine Lernressource nicht (mehr) finden, dann
 überprüfen Sie doch mal die Einstellungen im Lebenszyklus. Vielleicht wurde
@@ -65,9 +65,9 @@ konfiguriert werden. Beispielsweise können hier Metadaten hinterlegt und
 definiert werden wer Zugriff auf die Lernressource hat.
 
 In den folgenden Kapiteln finden Sie Erläuterungen zu den einzelnen [OpenOlat
-Lernressourcen](Verschiedene+Typen+von+Lernressourcen.html), welche Aktionen
+Lernressourcen](Various_Types_of_Learning_Resources.de.md), welche Aktionen
 sie im Autorenbereich vornehmen können, und Informationen zur [Infoseite
-](Infoseite+einrichten.html)einer Lernressource.
+](Set_up_info_page.de.md)einer Lernressource.
 
 ![](assets/erstellen161.png)
 

@@ -1,4 +1,4 @@
-view](Learning+path+course+-+Participant+view.html)
+view](Learning_path_course_-_Participant_view.md)
 
 A learning path course also differs from a traditional course for learners.
 The biggest differences are in the progress indicator and the learning path
@@ -41,7 +41,7 @@ will be displayed. If new elements are added or deleted in the current course,
 this is taken into account in the total and the learner's previous percentage
 value is adjusted accordingly.
 
-The coach can also configure [reminder e-mails](Course+Reminders.html) to be
+The coach can also configure [reminder e-mails](../course_operation/Course_Reminders.md) to be
 sent when a certain percentage has been completed, e.g. anyone who has
 completed less than 60% will be motivated once again to complete the remaining
 work in the course.

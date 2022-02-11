@@ -2,7 +2,7 @@
 
 OpenOlat is a web application. In order to work with OpenOlat you will need an
 internet connection as well as a modern web browser.  Please perform a
-[browser check](Login+Page.html#LoginPage-login_browsercheck) to be sure that
+[browser check](../login/Login_Page.md#LoginPage-login_browsercheck) to be sure that
 your browser will support all of OpenOlat's features.
 
 If you want to offer courses in OpenOlat you have to apply first for author

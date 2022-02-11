@@ -1,6 +1,6 @@
 # Payment modules
 
-  * [Paypal](PayPal+Configuration.html)
+  * [Paypal](PayPal_Configuration.md)
   * Legacy PayPal
 
 In the Paypal section, Paypal is enabled. Configure the PayPal API

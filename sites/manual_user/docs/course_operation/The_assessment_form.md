@@ -16,7 +16,7 @@ corresponding setting options vary between course elements.
 ![](assets/Bewertungsformular.png)
 
 For the course elements [Task and Group
-tasks](Assessing+tasks+and+group+tasks.html), the submission process is
+tasks](Assessing_tasks_and_group_tasks.md), the submission process is
 displayed in addition to the assessment form. Here, assessments can be made in
 the individual assessment steps.
 

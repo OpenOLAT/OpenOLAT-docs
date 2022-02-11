@@ -3,7 +3,7 @@
 The media center allows you to collect various media files and other artefacts
 which can then be used in different portfolios. There are several options how
 to add elements to the media center, see below. The individual artifacts can
-be compiled in portfolio [binders](My+portfolio+binders.html) and thus
+be compiled in portfolio [binders](My_portfolio_binders.md) and thus
 structured and further developed.
 
 In doing so, the items can enter the media library in different ways. One can:

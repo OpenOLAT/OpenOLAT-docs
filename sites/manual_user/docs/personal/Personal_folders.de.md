@@ -49,7 +49,7 @@ OpenOlat-Ordner entzippen. Zum anderen können Sie mehrere Dateien per WebDAV
 OpenOlat stehen Ihnen als gewöhnliches Netzlaufwerk zur Verfügung, über
 welches Sie sehr einfach Dateien kopieren, verschieben und löschen können.
 Weitere Infos finden Sie im Kapitel „[Einsatz von
-WebDAV](../display/OO161DE/Einsatz+von+WebDAV.html)“.
+WebDAV](../supported_tech/Using_WebDAV.de.md)“.
 
 Damit der Zugriff via WebDAV auf OpenOlat funktioniert muss WebDAV von Ihrem
 OpenOlat Administrator [aktiviert ](../display/OO141EN/WebDAV.html)werden.

@@ -48,7 +48,7 @@ Note that even when sharing through a pool or a group, the respective persons
 must first have the right to access the question bank. For example, normal
 users do not normally have the right to access the question bank.  
 
-The [pool administrator](Question+Bank+Administration.html) (a specific
+The [pool administrator](Question_Bank_Administration.md) (a specific
 OpenOlat role) can create an unlimited number of pools. These can be either
 public, and thus visible to all users, or private. The number of pools
 displayed can therefore vary from user to user. Contact your pool

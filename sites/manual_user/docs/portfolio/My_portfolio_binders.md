@@ -30,7 +30,7 @@ There are basically two types of folders:
 
 You can recognize the retrieved folders by the red border and the reference to
 the corresponding course. These folders are based on a "[Portfolio 2.0
-template](Portfolio+template%EF%B9%95+Creation.html)" and are usually created
+template](Portfolio_template_Creation.md)" and are usually created
 by another person, usually the teacher. The collection takes place in the
 course via the "[Portfolio
 Task](Portfolio+task+and+assignment%EF%B9%95+Collecting+and+editing.html)".

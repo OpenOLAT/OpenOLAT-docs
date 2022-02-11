@@ -8,7 +8,7 @@ Besonders wichtig sind dabei die Menüs "Einstellungen" und "Inhalt editieren".
 Das "Bewertungswerkzeug" des Tests ist nur relevant, wenn der Test
 kursunabhängig verwendet werden soll.
 
-Unter ["Inhalt editieren"](Testeditor.html) gelangt man in den Test Editor.
+Unter ["Inhalt editieren"](Test_editor_QTI_2.1.de.md) gelangt man in den Test Editor.
 Hier wird der eigentliche Test angelegt. Die grundsätzliche Konfiguration des
 gesamten Test erfolgt größtenteils in den "Einstellungen", besonders im Tab
 "Optionen". Der Tab "Optionen" wird in diesem Kapitel näher erläutert.
@@ -156,7 +156,7 @@ anzeigen möchten.
   
   
 Die Einstellungen, welche unter Optionen vorgenommen werden, werden beim
-Einbinden des Tests in einen [Kurs ](Tests+auf+Kursebene.html)automatisch
+Einbinden des Tests in einen [Kurs ](Tests_at_course_level.de.md)automatisch
 übernommen und können falls gewünscht im jeweiligen Kursbaustein Test im
 Kurseditor in den Tabs "Test-Konfiguration" bzw.  "Optionen" angepasst werden.
 
@@ -204,7 +204,7 @@ Hier kann der Bearbeitungsstand der Korrekturaufträge der unterschiedlichen
 Korrektoren angezeigt und nach verschiedenen Kriterien gefiltert werden.
 
 Weitere Informationen zur kursübergreifenden Korrektur findet man im [Coaching
-Tool](Coaching.html).
+Tool](../e-assessment/Coaching.de.md).
 
   
 

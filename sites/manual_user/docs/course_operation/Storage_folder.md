@@ -22,7 +22,7 @@ Word, Excel or PowerPoint files can also be created.
 
 When uploading a file the file size limit as well as the folder space limit
 has to be taken into consideration. Also those limits apply when uploading
-files via [WebDAV](WebDAV.html) to the storage folder.
+files via [WebDAV](../../manual_admin/administration/WebDAV.de.md) to the storage folder.
 
 ![](assets/upload_file.png)
 

@@ -22,7 +22,7 @@ Schritt 1: Lernressource Test erstellen
 Es erscheint ein Menü. Hier können Sie in den unterschiedlichen Tabs bei
 Bedarf weitere Einstellungen vornehmen.
 
-Das Menü entspricht den "[Einstellungen](Kurseinstellungen.html)" im Bereich
+Das Menü entspricht den "[Einstellungen](../course_create/Course_Settings.de.md)" im Bereich
 "Administration" und kann auch später noch bearbeitbar werden.
 
 |

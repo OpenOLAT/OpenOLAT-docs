@@ -1,6 +1,6 @@
 # Blog erstellen
 
-  * [Vier Schritte zu Ihrem Blog](Vier+Schritte+zu+Ihrem+Blog.html)
+  * [Vier Schritte zu Ihrem Blog](Four_Steps_to_Your_Blog.de.md)
   * [Blog - Weitere Konfigurationen](Blog+-+Weitere+Konfigurationen.html)
 
   

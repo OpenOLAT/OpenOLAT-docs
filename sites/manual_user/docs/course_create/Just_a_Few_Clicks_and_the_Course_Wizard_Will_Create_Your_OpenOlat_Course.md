@@ -1,4 +1,4 @@
-Course](Just+a+Few+Clicks+and+the+Course+Wizard+Will+Create+Your+OpenOlat+Course.html)
+Course](Just_a_Few_Clicks_and_the_Course_Wizard_Will_Create_Your_OpenOlat_Course.md)
 
 There is a wizard to help you create conventional courses. This Wizard is
 meant for course authors who prefer to use only the most popular course

@@ -45,7 +45,7 @@ Crumb-Leiste auf den Titel der gerade erstellten Portfolio Vorlage klicken.
 Nun kann mit der Bearbeitung der Portfolio Vorlage begonnen werden.  
 Weitere Informationen zur Bearbeitung und Gestaltung der Portfolio Vorlage 2.0
 finden Sie
-[hier](Portfoliovorlage%EF%B9%95+Administration+und+Bearbeitung.html).  
+[hier](Portfolio_template_Administration_and_editing.de.md).  
   
 Wenn Sie in Ihrer Portfolio 2.0 Vorlage auch den Aufgaben Typ Formular nutzen
 möchten, müssen sie zusätzlich noch eine entsprechende Lernressource

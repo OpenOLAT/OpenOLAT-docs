@@ -109,7 +109,7 @@ Checkbox, wenn Betreuer der ausgewählten Benutzergruppe(n) dieselbe Ansicht
 erhalten sollen.
 
 Ein laufender Prüfungsmodus kann vom Lehrenden im [Bewertungswerkzeug
-](viewpage.action%EF%B9%96pageId=108593653.html)verfolgt werden. Bewertungen
+](../course_operation/Assessment_tool_-_overview.de.md)verfolgt werden. Bewertungen
 z.B. für Einsendeaufgaben oder Freitext Elemente von Tests können auch direkt
 bewertet und für die User freigeschaltet bzw. sichtbar gemacht werden. So wird
 direkt eine Prüfungseinsicht- und –besprechung ermöglicht. Ferner kann der

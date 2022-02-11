@@ -26,8 +26,8 @@ Einige Tools der Menüs werden auf separaten Seiten vorgestellt.
 
 Auf weiteren Seiten finden Sie nähere Informationen zu:
 
-  * [Kurs Einstellungen](Kurseinstellungen.html)
-  * [Mitgliederverwaltung](Mitgliederverwaltung.html)
+  * [Kurs Einstellungen](../course_create/Course_Settings.de.md)
+  * [Mitgliederverwaltung](Members_management.de.md)
   * Kursbausteine des [Kurseditors](Kursbausteine.html)
   * [Ablageordner](Ablageordner.html)
   * [Lektionen und Absenzen](Lektionen+und+Absenzen.html)

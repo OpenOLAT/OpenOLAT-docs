@@ -1,5 +1,5 @@
 ##  [Einsatz weiterer Kursfunktionen der
-Toolbar](Einsatz+weiterer+Kursfunktionen+der+Toolbar.html)
+Toolbar](Using_Additional_Course_Features.de.md)
 
 In der Kurs "Administration" unter "Einstellungen" können Sie im Tab "Toolbar"
 die folgenden weiteren Funktionen einrichten.

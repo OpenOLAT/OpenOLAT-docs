@@ -67,7 +67,7 @@ und eine HTML-Seite auswählen. „Importieren“ klicken.|
 
 Fügen Sie nun weitere Seiten nach demselben Prinzip ein. Mehr Informationen zu
 den verschiedenen Funktionen des Editors finden Sie im Kapitel [**CP
-Editor**](../display/OO161DE/CP+Editor.html).
+Editor**](CP_Editor.de.md).
 
 Sie können mehrere HTML-Seiten auf einmal importieren, wenn Sie diese zippen
 und dann die ZIP-Datei hochladen.

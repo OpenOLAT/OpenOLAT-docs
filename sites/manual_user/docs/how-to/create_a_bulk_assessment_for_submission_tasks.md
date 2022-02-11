@@ -12,7 +12,7 @@ values.
 ![](assets/bulk_assessment_excel.png)
 
 Bulk assessments can be made for the [assessment course
-elements](Assessment+of+course+modules.html) task, group task and assessment.
+elements](../course_operation/Assessment_of_course_modules.md) task, group task and assessment.
 Bulk assessment for the modules task and assessment is carried out via the tab
 "Users". The bulk assessment for groups is done via the tab "Groups".
 

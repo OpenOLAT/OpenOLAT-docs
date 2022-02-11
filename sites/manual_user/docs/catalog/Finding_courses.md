@@ -14,7 +14,7 @@ course or learning resource based on a keyword.
 You can also filter your courses based on various criteria, including the
 timeline, membership status, and results. To do so, click the small arrow and
 more filter options will appear. Learn more about how to best filter your
-tables [here](Working+with+tables.html).
+tables [here](../personal/Working_with_tables.md).
 
 ![](assets/courses.png)
 
@@ -83,7 +83,7 @@ All OpenOlat users| Bookable, Open| "Published" or "Finished"
 Guests| Open & Access without login enabled| "Published" or "Finished"  
   
 If a user also has courses assigned to a curriculum, the
-„[Curricula](Curriculum+Management.html)" section will also appear in the
+„[Curricula](../curriculum/Curriculum_Management.md)" section will also appear in the
 "Courses" menu.
 
   

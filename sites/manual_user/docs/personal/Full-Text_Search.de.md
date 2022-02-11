@@ -11,7 +11,7 @@ Die Volltextsuche sucht in verschiedenen Kurs- und Gruppeninhalten nach
 Suchbegriffen, beispielsweise auch in Forumsbeiträgen, PDF- und Word-Dateien.
 Weiter können Sie auch nach Benutzern, nach Portfoliomappen und Artefakten
 sowie nach Dokumenten in den [Benutzerordnern
-](../../pages/viewpage.action%EF%B9%96pageId=108593736.html)suchen. Eine
+](Personal_folders.de.md)suchen. Eine
 Ausnahme ist der private Ordner, welcher nicht indexiert wird.
 
 ![](assets/generelle_Suche.png)
@@ -37,7 +37,7 @@ Suchbegriff springen.
 Info
 
 Neben der Volltextsuche über das gesamte OpenOlat gibt es auch eine
-[Kurssuche](Kurseinstellungen.html#Kurseinstellungen-Optionen), welche pro
+[Kurssuche](../course_create/Course_Settings.de.md#Kurseinstellungen-Optionen), welche pro
 Kurs in den Kursoptionen aktiviert werden kann. Die Kurssuche durchsucht nur
 den entsprechenden Kurs.
 

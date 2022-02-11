@@ -26,7 +26,7 @@ additional functions.
 
 ## Course Search
 
-In addition to a [full text search](Full-Text+Search.html) for the total of
+In addition to a [full text search](../personal/Full-Text_Search.md) for the total of
 OpenOlat you can activate a search within a course. You can search for the
 following elements:
 
@@ -75,7 +75,7 @@ you can configure the permissions.
 Here all course owners, coaches and participants of a course can be displayed
 centrally. Course participants can send e-mails to specific persons, even to
 individual course members. In contrast to the [course element "Participant
-list"](Working+With+Course+Elements.html) no further configurations can be
+list"](../learning_activities/Working_With_Course_Elements.md) no further configurations can be
 made here.
 
   

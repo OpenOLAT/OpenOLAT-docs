@@ -14,7 +14,7 @@ Eingabeseite der "Einstellungen".
 
   
 
-Eine zum Import [vorbereitete](Video+hochladen.html) Videodatei muss im .mp4
+Eine zum Import [vorbereitete](Video_Upload.de.md) Videodatei muss im .mp4
 Format vorliegen, damit sie in OpenOlat als Video-Lernressource erkannt werden
 kann.
 
@@ -31,7 +31,7 @@ Metadaten der YouTube Datei, wie der Titel oder ein Startbild übernommen.
 In den Tabs des Menüs "Einstellungen" können Sie nun Ihr Video weiter
 konfigurieren. Die Tabs "Info", "Freigabe" und "Katalog" sind analog zu
 anderen Lernressourcen. Generelle Informationen zum Menü "Einstellungen"
-finden Sie [hier](Kurseinstellungen.html).
+finden Sie [hier](../course_create/Course_Settings.de.md).
 
 ### Metadaten
 

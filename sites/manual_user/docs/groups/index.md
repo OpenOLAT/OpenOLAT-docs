@@ -2,7 +2,7 @@
 
 ![](assets/group.png)
 
-  * [Create Groups](Create+Groups.html)
+  * [Create Groups](Create_Groups.md)
   * [Group Administration](Group+Administration.html)
   * [Using Group Tools](Using+Group+Tools.html)
   * [Group Management](Group+Management.html)

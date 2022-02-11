@@ -108,7 +108,7 @@ erlaubt.
 
 Wenn Antwortvarianten am Lückentext gespeichert werden, können von nun an für
 jede dieser Varianten separate
-[Punkte](Test+Fragen+konfigurieren.html#TestFragenkonfigurieren-_tab_score)
+[Punkte](../manual_user/tests#TestFragenkonfigurieren-_tab_score)
 hinterlegt werden. So können z.B. "halb richtige" Antworten auch mit
 Teilpunkten bewertet werden. Es ist auch möglich, für bestimmte
 Lösungsvarianten Punkte abzuziehen.

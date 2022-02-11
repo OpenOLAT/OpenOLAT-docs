@@ -28,9 +28,9 @@ Veranstaltung eingesetzt. Dabei wird geprüft ob die geplanten Lernziele
 erreicht wurden. Ein Beispiel dafür sind scharfe Prüfungen bzw. Online-
 Klausuren.
 
-Tests werden mit dem [OpenOlat-Testeditor](Testeditor.html) als QTI 2.1 Test
+Tests werden mit dem [OpenOlat-Testeditor](Test_editor_QTI_2.1.de.md) als QTI 2.1 Test
 erstellt. Dabei können die Länge des Tests, die
-[Fragetypen](Test+Fragetypen.html) und eine Reihe von weiteren Konfigurationen
+[Fragetypen](Test_question_types.de.md) und eine Reihe von weiteren Konfigurationen
 bestimmt werden.
 
 Testpersonen können im Quellcode des Tests oder Selbsttests nicht nachlesen,

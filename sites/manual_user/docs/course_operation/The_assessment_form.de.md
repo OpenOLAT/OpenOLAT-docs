@@ -17,7 +17,7 @@ Grundsätzlich können im Bewertungsformular:
 ![](assets/Bewertungsformular.png)
 
 Bei den Kursbausteinen [Aufgabe und Gruppenaufgaben
-](Aufgaben+und+Gruppenaufgaben+bewerten.html)werden neben dem
+](Assessing_tasks_and_group_tasks.de.md)werden neben dem
 Bewertungsformular auch der Einreichungsprozess angezeigt. Hier können in den
 einzelnen Bewertungsschritten Bewertungen vorgenommen werden.
 

@@ -47,14 +47,14 @@ can thus also be sent out of the members list.
 | Calendar| You can put a calendar at the disposal of your group to record
 joint events. Furthermore you can determine the calendar's write access, that
 is, who will have the right to record data. Further information on calendar
-functions can be found in the [calendar](Calendar.html) chapter.  
+functions can be found in the [calendar](../personal/Calendar.md) chapter.  
   
 ![](assets/folder.png)
 
 | Folder| You enable members of your group to exchange files by using a
 folder. The available storage capacity is 10 MB. Furthermore you can determine
 the folder's write access, that is, who will have the right to record files.
-Further information to the folder can be found [here](Personal+folders.html).  
+Further information to the folder can be found [here](../personal/Personal_folders.md).  
   
 ![](assets/forum.png)
 
@@ -62,7 +62,7 @@ Further information to the folder can be found [here](Personal+folders.html).
 group you have the right to edit and delete contributions as well as to write
 new ones. Participants of a group can write contributions, however, they are
 not allowed to neither edit nor delete contributions of others. For more info
-on working with forums, click [here](Working+with+Forums.html).  
+on working with forums, click [here](../learning_activities/Working_with_Forums.md).  
   
 ![](assets/chat_icon.png)
 

@@ -145,7 +145,7 @@ Sitzungswiederherstellung.
 ### Tab WebDAV
 
 Im Tab "WebDAV" finden Sie den [WebDAV-Link zu Ihrer OpenOlat-
-Instanz](Einsatz+von+WebDAV.html), mit der bequem Dateien verwaltet werden
+Instanz](../supported_tech/Using_WebDAV.de.md), mit der bequem Dateien verwaltet werden
 können. Über WebDAV können Sie als OpenOlat User auf ihren persönlichen Ordner
 zugreifen. OpenOlat Autoren können über WebDAV ihre gesamten Kursdateien
 organisieren.

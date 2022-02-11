@@ -74,7 +74,7 @@ Rubrik
 
 |
 
-Für die Darstellung eines [Rubrik ](Rubrik.html)stehen drei unterschiedliche
+Für die Darstellung eines [Rubrik ](Rubric.de.md)stehen drei unterschiedliche
 Typen zur Verfügung. Die Bewertungen können sich wie bei Single-Choice Fragen
 nur auf einen Aspekt beziehen oder kontinuierlich erfolgen. Anders als bei den
 anderen Fragetypen werden hier Fragen und Antworten über dasselbe Element

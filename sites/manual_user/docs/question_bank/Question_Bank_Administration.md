@@ -5,7 +5,7 @@
 The administration area of the question bank provides question bank managers
 with access to the five organisational domains of the question bank. Just like
 e.g. the user manager or the author, question bank manager is a
-[role](Roles+and+Rights.html) assigned to a system user by an administrator.
+[role](../general/Roles_and_Rights.md) assigned to a system user by an administrator.
 The question bank manager has the right to change / manipulate/regulate
 organisational aspects of the question bank, but he has no control over the
 content of the question bank or individual pools. The question bank manager,
@@ -66,7 +66,7 @@ may also be edited or deleted.
 
 ###  Question Type
 
-OpenOlat has several standardized [question types](Test+question+types.html)
+OpenOlat has several standardized [question types](../tests/Test_question_types.md)
 that can be created either in the test editor of the learning resource Test or
 in the item editor of the question bank. Create additional question types if
 the default question types of OpenOlat are not sufficient. The default

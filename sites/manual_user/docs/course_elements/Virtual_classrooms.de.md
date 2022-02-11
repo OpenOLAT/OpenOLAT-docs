@@ -15,10 +15,10 @@ entsprechende virtuelle Klassenzimmer als Kursbaustein in Kursen einsetzen.
 Folgende Virtuelle Klassenzimmer können in OpenOlat als externe Tools
 eingebunden werden:
 
-  * [Kursbaustein Adobe Connect](Kursbaustein+Adobe+Connect.html)
-  * [Kursbaustein BigBlueButton](Kursbaustein+BigBlueButton.html)
-    * [Häufig gestellte Fragen - BigBlueButton](../../pages/viewpage.action%EF%B9%96pageId=108593359.html)
-  * [Kursbaustein GoToMeeting](Kursbaustein+GoToMeeting.html)
+  * [Kursbaustein Adobe Connect](Course_element_Adobe_Connect.de.md)
+  * [Kursbaustein BigBlueButton](Course_element_BigBlueButton.de.md)
+    * [Häufig gestellte Fragen - BigBlueButton](Frequentyl_asked_questions_-_BigBlueButton.de.md)
+  * [Kursbaustein GoToMeeting](Course_element_GoToMeeting.de.md)
   * [Kursbaustein OpenMeetings](Kursbaustein+OpenMeetings.html)
   * [Kursbaustein vitero](Kursbaustein+vitero.html)
   * [Kursbaustein Microsoft Teams](Kursbaustein+Microsoft+Teams.html)

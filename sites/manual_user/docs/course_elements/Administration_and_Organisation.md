@@ -20,7 +20,7 @@ course participants can enroll. You can also define the order of the groups in
 the selection list. If you have not yet created any groups or need more, you
 can do so directly in the "Configuration" tab by clicking on "Select" and
 "Create". Existing and newly created groups can be edited in the [member
-management](Members+management.html).
+management](../course_operation/Members_management.md).
 
 Use the field " **Allow multiple enrolments** " in order to allow course
 participants to enrol in more than one, and if so how many, groups.
@@ -71,7 +71,7 @@ actual number of HTML code is used.
 
 An element with similar functions, but without specific configuration, can
 also be found in the toolbar. This is the "[Participant
-Info](Using+Additional+Course+Features.html)".
+Info](../course_operation/Using_Additional_Course_Features.md)".
 
 ##  Course Element: E-Mail
 

@@ -78,7 +78,7 @@ that the topic owner has returned to you.
 If you are authorized by the course author to act as topic author you can
 announce a topic. More information on accepting and supervising participants
 can be found in the chapter "Course Elements" → "Others" under the item
-"[Course Element Topic Assignment](Other.html#Other-_bb_themenvergabe)".  
+"[Course Element Topic Assignment](../course_elements/Other.md#Other-_bb_themenvergabe)".  
 
   
 

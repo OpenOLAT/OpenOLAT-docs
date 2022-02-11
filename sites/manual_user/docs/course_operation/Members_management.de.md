@@ -47,7 +47,7 @@ Es gibt drei spezifische Kurs-Rollen:
 
   * **Besitzer**   
 Besitzer haben alle Rechte innerhalb eines Kurses und können auf alle Menüs
-der [Kurs-Administration](Einsatz+der+Kurswerkzeuge.html) zugreifen. Sie legen
+der [Kurs-Administration](Using_Course_Tools.de.md) zugreifen. Sie legen
 die Kursstruktur an und erstellen in der Regel den OpenOlat Kurs. Die Person,
 die einen Kurs anlegt ist automatisch Kurs-Besitzer. Kurs-Besitzer können auch
 weitere Besitzer des Kurses hinzufügen.
