@@ -7,7 +7,7 @@ Informationen betreffend OpenOlat, seiner Funktionen und neuesten Änderungen fi
 ## Aktuelle Version:
 
 - [Release notes 16.1](release_notes/Release_notes_16.1.de.md)
-- [OpenOlat Benutzerhandbuch](manual_user/)
+- [OpenOlat Benutzerhandbuch](manual_user/general/)
 
 
 !!! quote "eLearning Journal"
