@@ -101,3 +101,16 @@ For publishing the documentation, compile it and publish it on your server.
 	python3 -m mkdocs build
 	cd site
 	scp -r ??* oodocs@docs.openolat.org:/home/oodocs/html/.
+
+
+### Addendum: update everything to the newest version
+	# Basic Python 3 installation. Example how this is done on the mac
+	brew upgrade python
+	
+	# Update MkDocs
+	pip3 install mkdocs --upgrade
+
+	#Install MkDocs theme and plugins
+	pip3 install mkdocs-material --upgrade
+	pip3 install mkdocs-monorepo-plugin --upgrade
+	pip3 install mkdocs-static-i18n --upgrade
