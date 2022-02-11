@@ -3,10 +3,8 @@
 OpenOlat basiert auf dem LMS OLAT und steht für „Open Online Learning and
 Training“ und ist eine Open-Source Lernplattform. 1999 entstand OLAT am
 Institut für Informatik an der Universität Zürich (UZH). Im September 2000
-gewann das damalige OLAT-Team den [MEDIDA-Prix](http://www.medidaprix.org/
-"MEDIDA-Prix"). Der erfolgreiche Einsatz sowie der Preisgewinn eröffneten neue
-Möglichkeiten: 2001 übernahmen die [Informatikdienste der
-UZH](http://www.id.uzh.ch "Informatikdienste der UZH") OLAT und garantierten
+gewann das damalige OLAT-Team den [MEDIDA-Prix](http://www.medidaprix.org/). Der erfolgreiche Einsatz sowie der Preisgewinn eröffneten neue
+Möglichkeiten: 2001 übernahmen die [Informatikdienste der UZH](http://www.id.uzh.ch) OLAT und garantierten
 damit einerseits einen professionellen Betrieb und Support und andererseits
 die Weiterentwicklung der Software. OLAT wurde 2004 die strategische
 Lernplattform der UZH.
@@ -36,20 +34,18 @@ importieren. Für die Erstellung einfacher Seiten wurden in OpenOlat jedoch
 entsprechende Hilfsmittel eingebaut (z.B. ein HTML-Editor).
 
 [![](assets/frentix-
-Testsiegel_2020-1280x1112.png)](https://www.frentix.com/testbericht-
-openolat-2020-sehr-gut/)
+Testsiegel_2020-1280x1112.png)](https://www.frentix.com/testbericht-openolat-2020-sehr-gut/)
 
 Das renommierte [eLearning-Journal](http://www.elearning-journal.de/) hat die
 Open-Source Lösung wiederholt in einem umfassenden Vergleichstest mit dem
 Prädikat "Sehr gut" bewertet. Besonders hervorgehoben wurde der grossen
 Funktionsumfang von OpenOlat. Eine weitere Stärke ist die Sicherheit.
 
-[Testbericht OpenOlat 16.1](http://www.frentix.com/wp-
-uploads/2015/08/elearningJournal_Test_OpenOlat_2015.pdf)
+[Testbericht OpenOlat 16.1](https://www.frentix.com/wp-uploads/2015/08/elearningJournal_Test_OpenOlat_2015.pdf)
 
 Weitere Informationen zu OpenOlat finden Sie auf der Produktseite
-[www.openolat.org](http://www.openolat.org) von frentix. Auf dem
-[Demoserver](http://learn.olat.com "Demoserver") von frentix erhalten Personen
+[www.openolat.org](https://www.openolat.org) von frentix. Auf dem
+[Demoserver](https://learn.olat.com) von frentix erhalten Personen
 ohne eigene OpenOlat-Installation einen ersten Einblick in den Funktionsumfang
 von OpenOlat.
 
