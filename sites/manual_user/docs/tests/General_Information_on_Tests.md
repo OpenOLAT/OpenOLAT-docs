@@ -33,7 +33,9 @@ Test participants cannot read in the source code of the test or self-test
 which solutions are right and which are wrong, since the answers are sent to
 the OpenOlat server and only evaluated there.
 
-If you include a test in your [course](Tests+at+course+level.html), you can
+
+sites/manual_user/docs/tests/General_Information_on_Tests.md §Tests_at_course_level.md§ 481
+If you include a test in your [course](Tests_at_course_level.md), you can
 decide whether you want to use it as a self-test, i.e. for practice purposes,
 or as a test ("sharp" test). In the first case you use the course element
 "Self-test" when integrating the test into the course, in the second case you
@@ -56,6 +58,8 @@ created in the question pool and then integrated into the test. In the chapter
 test.html)" you will learn how to create a test.
 
 Information on how to use the question pool can be found
+
+sites/manual_user/docs/tests/General_Information_on_Tests.md §Question_Bank.md§ 481
 [here](Question+Bank.html).
 
 When you import a question from the question pool into a test, a copy of the

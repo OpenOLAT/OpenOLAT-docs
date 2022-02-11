@@ -32,6 +32,12 @@ Bitte beachten: Lernpfad Kurse können nicht für Gäste freigeschaltet werden.
 Ist das für Ihre Umsetzung ein wichtiger Aspekt, dann verwenden Sie bitte
 einen herkömmlichen Kurs.
 
-  * [Lernpfad Kurse erstellen](../display/OO161DE/Lernpfad+Kurse+erstellen.html)
-  * [Lernpfad Kurs - Kurseditor](../display/OO161DE/Lernpfad+Kurs++-+Kurseditor.html)
-  * [Lernpfad Kurse - Teilnehmeransicht](../display/OO161DE/Lernpfad+Kurse+-+Teilnehmeransicht.html)
+
+sites/manual_user/docs/course_create/Learning_path_course.de.md §Creating_learning_path_courses.de.md§ 481
+  * [Lernpfad Kurse erstellen](Creating_learning_path_courses.de.md)
+
+sites/manual_user/docs/course_create/Learning_path_course.de.md §Learning_path_course_-_Course_editor.de.md§ 481
+  * [Lernpfad Kurs - Kurseditor](Learning_path_course_-_Course_editor.de.md)
+
+sites/manual_user/docs/course_create/Learning_path_course.de.md §Learning_path_course_-_Participant_view.de.md§ 481
+  * [Lernpfad Kurse - Teilnehmeransicht](Learning_path_course_-_Participant_view.de.md)

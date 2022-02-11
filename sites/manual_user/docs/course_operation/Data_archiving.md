@@ -19,9 +19,13 @@ e.g. for log files.
 
 Questionnaires
 
+
+sites/manual_user/docs/course_operation/Data_archiving.md §Old_Questionnaire_Editor_QTI_1.2.md§ 481
 | Storage of old [questionnaires](Old+Questionnaire+Editor+QTI+1.2.html)  
 ---|---  
 Surveys| All surveys of the course are displayed. The desired
+
+sites/manual_user/docs/course_operation/Data_archiving.md §General_information_on_Questionnaires.md§ 481
 [questionnaires](General+information+on+Questionnaires.html) to be archived
 can be selected and saved as a zip file.  
 Tests|
@@ -105,10 +109,14 @@ When you delete a course, all course data (not the course elements!) are
 automatically saved in your personal folder.
 
 For more details about the recorded log files, see the chapter "[Record of
-course activities](Record+of+Course+Activities.html)".
+
+sites/manual_user/docs/course_operation/Data_archiving.md §Record_of_Course_Activities.md§ 481
+course activities](Record_of_Course_Activities.md)".
 
 Via the assignment of rights in the [member
-administration](Members+management.html), other persons can also be given the
+
+sites/manual_user/docs/course_operation/Data_archiving.md §Members_management.md§ 481
+administration](Members_management.md), other persons can also be given the
 right for the entire data archiving.
 
   

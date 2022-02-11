@@ -23,8 +23,12 @@ the individual assessment steps.
 If files are submitted via the assessed course element, the number of attempts
 by the learners can also be adjusted manually.
 
-In the case of the course element "[Assessment](Performance+assessment.html)",
-if activated accordingly, a [rubric](Rubric.html) for assessment is also
+
+sites/manual_user/docs/course_operation/The_assessment_form.md §Performance_assessment.md§ 481
+In the case of the course element "[Assessment](../e-assessment/Performance_assessment.md)",
+
+sites/manual_user/docs/course_operation/The_assessment_form.md §Rubric.md§ 481
+if activated accordingly, a [rubric](../forms/Rubric.md) for assessment is also
 available.
 
 ##  Visibility of the result

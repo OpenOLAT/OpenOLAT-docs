@@ -80,7 +80,9 @@ Fragen aus den Reports auszuschliessen.
 
 Ein bearbeitetes Rubrik kann somit auch automatisch eine entsprechende
 Punktzahl erhalten, was besonders bei der Verwendung im Kursbaustein
-„[Bewertung](../../pages/viewpage.action%EF%B9%96pageId=108593581.html)“
+
+sites/manual_user/docs/forms/Rubric.de.md §Assessment.de.md§ 481
+„[Bewertung](../course_elements/Assessment.de.md)“
 relevant ist. ** **
 
 Wird ein Rubrik in einem Kursbaustein Bewertung eingebunden kann die

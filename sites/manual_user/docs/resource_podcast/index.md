@@ -1,7 +1,9 @@
 # Creating Podcasts
 
   * [Four Steps to Your Podcast](Four_Steps_to_Your_Podcast.md)
-  * [Podcast - Further Configurations](Podcast+-+Further+Configurations.html)
+
+sites/manual_user/docs/resource_podcast/index.md §Podcast_-_Further_Configurations.md§ 481
+  * [Podcast - Further Configurations](Podcast_-_Further_Configurations.md)
 
   
 

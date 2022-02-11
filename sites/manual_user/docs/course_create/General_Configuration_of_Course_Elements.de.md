@@ -10,6 +10,8 @@ Lernenden im Blick behalten.
 
 Um einen Kursbaustein dem Kurs hinzuzufügen wählen Sie im Kurseditor
 "Kursbaustein einfügen" und klicken auf den gewünschten
+
+sites/manual_user/docs/course_create/General_Configuration_of_Course_Elements.de.md §Types_of_Course_Element.de.md§ 481
 [Kursbaustein](Kursbausteine.html). Der gewählte Kursbaustein wird in der
 linken Navigation hinzugefügt. Dabei wird der ausgewählte Baustein
 grundsätzlich unterhalb des im Vorfeld ausgewählten bzw. angeklickten
@@ -38,7 +40,9 @@ Kursbaustein auch innerhalb des Kurses verschoben oder dupliziert werden.
 Jeder Kursbaustein beinhaltet die Tabs "Titel und Beschreibung" sowie
 "Layout". Alle Kursbausteine eines herkömmlichen Kurses verfügen zusätzlich
 über die Tabs "Sichtbarkeit" und "Zugang". Dagegen verfügen die [Lernpfad
-Kurse](../../pages/viewpage.action%EF%B9%96pageId=108593191.html) zusätzlich
+
+sites/manual_user/docs/course_create/General_Configuration_of_Course_Elements.de.md §Learning_path_course.de.md§ 481
+Kurse](Learning_path_course.de.md) zusätzlich
 über den Tab "Lernpfad".
 
 Daneben gibt es einen oder mehrere Tabs zur individuellen Konfiguration des
@@ -180,7 +184,9 @@ bestanden wurde.
  **Nur im Prüfungsmodus** : Sollen bestimmte Kursbaustein nur während einer
 OpenOlat Prüfungssituation angezeigt werden bzw. zugänglich sein, wählen Sie
 diese Einstellung. Weitere Informationen finden Sie im Abschnitt
-[Prüfungsmodus](../../pages/viewpage.action%EF%B9%96pageId=108593203.html).
+
+sites/manual_user/docs/course_create/General_Configuration_of_Course_Elements.de.md §Assessment_mode.de.md§ 481
+[Prüfungsmodus](../e-assessment/Assessment_mode.de.md).
 
 Damit eine vorgenommene Einschränkung auch für die Kursbesitzer und
 Gruppenbetreuer gilt, muss die Option „ _Regeln auch bei Besitzern und
@@ -189,7 +195,9 @@ ankreuzen, können Betreuer und Administrator den Kursbaustein immer sehen -
 unabhängig davon, welche Sichtbarkeits-Regeln Sie gesetzt haben.
 
 Über die Schaltfläche
-"[Expertenmodus](../../pages/viewpage.action%EF%B9%96pageId=108593655.html)
+
+sites/manual_user/docs/course_create/General_Configuration_of_Course_Elements.de.md §Access_Restrictions_in_the_Expert_Mode.de.md§ 481
+"[Expertenmodus](Access_Restrictions_in_the_Expert_Mode.de.md)
 anzeigen" gelangen Sie zu einem Eingabefeld, wo Sie eine komplexere
 Konfiguration Ihren Bedürfnissen entsprechend vornehmen können. Es ist auch
 möglich erst eine Grundeinstellung über die generellen Einstellungen
@@ -217,7 +225,9 @@ diese spezifischen selektiven Freigaben, müssen Sie einen herkömmlichen Kurs
 verwenden.
 
 Informationen zum Tab "Lernpfad" von Lernpfad Kursen finden Sie
-[hier](Lernpfad+Kurs++-+Kurseditor.html).
+
+sites/manual_user/docs/course_create/General_Configuration_of_Course_Elements.de.md §Learning_path_course_-_Course_editor.de.md§ 481
+[hier](Learning_path_course_-_Course_editor.de.md).
 
   
 

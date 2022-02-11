@@ -28,27 +28,51 @@ Auf weiteren Seiten finden Sie nähere Informationen zu:
 
   * [Kurs Einstellungen](../course_create/Course_Settings.de.md)
   * [Mitgliederverwaltung](Members_management.de.md)
+
+sites/manual_user/docs/course_operation/Using_Course_Tools.de.md §Types_of_Course_Element.de.md§ 481
   * Kursbausteine des [Kurseditors](Kursbausteine.html)
-  * [Ablageordner](Ablageordner.html)
-  * [Lektionen und Absenzen](Lektionen+und+Absenzen.html)
-  * [Erinnerung](Erinnerung.html)
-  * [Prüfungsmodus](../../pages/viewpage.action%EF%B9%96pageId=108593203.html)
-  * [Datenarchivierung](Datenarchivierung.html)
+
+sites/manual_user/docs/course_operation/Using_Course_Tools.de.md §Storage_folder.de.md§ 481
+  * [Ablageordner](Storage_folder.de.md)
+
+sites/manual_user/docs/course_operation/Using_Course_Tools.de.md §Lectures_and_absences.de.md§ 481
+  * [Lektionen und Absenzen](Lectures_and_absences.de.md)
+
+sites/manual_user/docs/course_operation/Using_Course_Tools.de.md §Course_Reminders.de.md§ 481
+  * [Erinnerung](Course_Reminders.de.md)
+
+sites/manual_user/docs/course_operation/Using_Course_Tools.de.md §Assessment_mode.de.md§ 481
+  * [Prüfungsmodus](../e-assessment/Assessment_mode.de.md)
+
+sites/manual_user/docs/course_operation/Using_Course_Tools.de.md §Data_archiving.de.md§ 481
+  * [Datenarchivierung](Data_archiving.de.md)
 
 In Ihrem Kurs stehen Ihnen im Bereich der "Administration" eine Reihe von
 Werkzeugen zur Verfügung. Sie können in der [Mitgliederverwaltung
-](Mitgliederverwaltung.html)die Kursteilnehmer und kursbezogenen Gruppen sowie
+
+sites/manual_user/docs/course_operation/Using_Course_Tools.de.md §Members_management.de.md§ 481
+](Members_management.de.md)die Kursteilnehmer und kursbezogenen Gruppen sowie
 Rechte organisieren. Die Kursstruktur und die Kursbausteine werden im
-Kurseditor eingerichtet. Im [Ablageordner ](Ablageordner.html)werden die
+
+sites/manual_user/docs/course_operation/Using_Course_Tools.de.md §Storage_folder.de.md§ 481
+Kurseditor eingerichtet. Im [Ablageordner ](Storage_folder.de.md)werden die
 Kursdateien gesammelt.
 
 Während der Durchführung des Kurses ist das [Bewertungswerkezug
-](../../pages/viewpage.action%EF%B9%96pageId=108593653.html)relevant. Auch
-kursbezogene Erinnerungen und [Lektionen ](Lektionen+und+Absenzen.html)können
+
+sites/manual_user/docs/course_operation/Using_Course_Tools.de.md §Assessment_tool_-_overview.de.md§ 481
+](Assessment_tool_-_overview.de.md)relevant. Auch
+
+sites/manual_user/docs/course_operation/Using_Course_Tools.de.md §Lectures_and_absences.de.md§ 481
+kursbezogene Erinnerungen und [Lektionen ](Lectures_and_absences.de.md)können
 organisiert werden. Für Online-Klausuren bietet sich der [Prüfungsmodus
-](../../pages/viewpage.action%EF%B9%96pageId=108593203.html)an. Es können auch
+
+sites/manual_user/docs/course_operation/Using_Course_Tools.de.md §Assessment_mode.de.md§ 481
+](../e-assessment/Assessment_mode.de.md)an. Es können auch
 bestimmte statistische Daten abgerufen und Daten
-[archiviert](Datenarchivierung.html) werden. Und natürlich können Kurse und
+
+sites/manual_user/docs/course_operation/Using_Course_Tools.de.md §Data_archiving.de.md§ 481
+[archiviert](Data_archiving.de.md) werden. Und natürlich können Kurse und
 Lernressourcen kopiert, exportiert oder gelöscht werden.
 
 Hier ein Überblick über die einzelnen Menüs:
@@ -75,7 +99,9 @@ Abonnieren Sie den Benachrichtigungsservice, entweder für neu eingegangenen
 Testresultaten und/oder neu erstellte Zertifikate.
 
 Weitere Informationen zum Bewertungswerkzeug finden Sie
-[hier](../../pages/viewpage.action%EF%B9%96pageId=108593653.html).
+
+sites/manual_user/docs/course_operation/Using_Course_Tools.de.md §Assessment_tool_-_overview.de.md§ 481
+[hier](Assessment_tool_-_overview.de.md).
 
 ##  Kurs Statistiken
 
@@ -135,7 +161,9 @@ Betreuer des Kurses.
 
 ##  Datenarchivierung  
 
-Über die [Datenarchivierung ](Datenarchivierung.html)können die Ergebnisse
+
+sites/manual_user/docs/course_operation/Using_Course_Tools.de.md §Data_archiving.de.md§ 481
+Über die [Datenarchivierung ](Data_archiving.de.md)können die Ergebnisse
 diverser Kursbausteine eines Kurses gespeichert werden. Insbesondere die
 Speicherung von Ergebnissen der durchgeführten Umfragen, Tests, Selbsttests,
 Aufgaben, Gruppenaufgaben und die Kursresultate sind wichtige Elemente, die
@@ -213,7 +241,9 @@ vor Beginn der Durchführung als Backup erstellt werden.
 
 Herkömmliche Kurse und Kurse die vor der OpenOlat Version 15 erstellt wurden,
 können über diesen Link in einen [Lernpfad-
-Kurs](../../pages/viewpage.action%EF%B9%96pageId=108593191.html) konvertiert
+
+sites/manual_user/docs/course_operation/Using_Course_Tools.de.md §Learning_path_course.de.md§ 481
+Kurs](../course_create/Learning_path_course.de.md) konvertiert
 werden.
 
 ##  Inhalt exportieren
@@ -248,7 +278,9 @@ ist nur durch den OpenOlat Administrator möglich.
 
 Wenn Sie einen Kurs löschen, werden Benutzerdaten (z.B. Testresultate) zuerst
 als Excel-Datei in Ihrem[ persönlichen
-Ordner](../../pages/viewpage.action%EF%B9%96pageId=108593736.html) archiviert
+
+sites/manual_user/docs/course_operation/Using_Course_Tools.de.md §Personal_folders.de.md§ 481
+Ordner](../personal/Personal_folders.de.md) archiviert
 und im Anschluss gelöscht.
 
 Es ist möglich, andere Kursbesitzer via E-Mail über das Beenden oder Löschen

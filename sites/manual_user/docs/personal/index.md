@@ -15,7 +15,11 @@ most probably disabled by the system administrator.
 In the navigation the [chat](Chat.de.md) is shown first. It is followed by the
 number of active users and the full text search. In the navigation your
 personal menu can be opened as well. It is divided into [personal
-tools](Personal+Menu.html), [configuration](Configuration.html) and system.
+
+sites/manual_user/docs/personal/index.md §Personal_Menu.md§ 481
+
+sites/manual_user/docs/personal/index.md §Configuration.md§ 481
+tools](Personal_Menu.md), [configuration](Configuration.md) and system.
 Further information about the single elements can be found under the
 corresponding link.
 
@@ -28,13 +32,27 @@ found. Depending on the tools selected in "System settings" certain personal
 tools are moved in the navigation on the top or stay in the personal menu on
 the right.
 
-  * [Personal Menu](Personal+Menu.html)
-  * [Configuration](Configuration.html)
-  * [Full-Text Search](Full-Text+Search.html)
-  * [Chat](Chat.html)
-  * [Portal configuration](Portal+configuration.html)
-  * [Math formula](Math+formula.html)
-  * [Working with tables](Working+with+tables.html)
+
+sites/manual_user/docs/personal/index.md §Personal_Menu.md§ 481
+  * [Personal Menu](Personal_Menu.md)
+
+sites/manual_user/docs/personal/index.md §Configuration.md§ 481
+  * [Configuration](Configuration.md)
+
+sites/manual_user/docs/personal/index.md §Full-Text_Search.md§ 481
+  * [Full-Text Search](Full-Text_Search.md)
+
+sites/manual_user/docs/personal/index.md §Chat.de.md§ 481
+  * [Chat](Chat.de.md)
+
+sites/manual_user/docs/personal/index.md §Portal_configuration.md§ 481
+  * [Portal configuration](Portal_configuration.md)
+
+sites/manual_user/docs/personal/index.md §Math_formula.md§ 481
+  * [Math formula](Math_formula.md)
+
+sites/manual_user/docs/personal/index.md §Working_with_tables.md§ 481
+  * [Working with tables](Working_with_tables.md)
 
   
 

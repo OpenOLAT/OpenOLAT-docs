@@ -16,6 +16,8 @@ alle Einträge angezeigt.
   * Notizen: Hier können Sie kursspezifische Notizen eintragen, die nur Sie als Kursteilnehmer lesen können.
   * Der Leistungsnachweis zeigt Ihre Bewertungen im Kurs in Tabellenform an und gibt, sofern aktiviert, Zugriff auf das Zertifikat des Kurses
   * Bookmark: Aktivieren Sie den Bookmark, dann erscheinen diese Kurse im Menü "Kurse" im Tab "Favoriten".
+
+sites/manual_user/docs/learning_activities/Additional_Course_Features.de.md §Groups.de.md§ 481
   * [Gruppen:](../display/OO161DE/Gruppen.html) Hier sehe Sie alle _kursspezifischen_ Gruppen in denen Sie Mitglied sind.
   * Mit "Kurs verlassen" können Sie sich aus dem Kurs austragen.
 
@@ -56,7 +58,9 @@ Fenster, das sich auch als Druckformat eignet.
 
 ## Weitere Elemente der Toolbar
 
-Standardmäßig ist die [Kursinfo ](../display/OO161DE/Infoseite.html)in der
+
+sites/manual_user/docs/learning_activities/Additional_Course_Features.de.md §Info_page.de.md§ 481
+Standardmäßig ist die [Kursinfo ](../catalog/Info_page.de.md)in der
 Toolbar sichtbar. Folgende weitere Tools können ebenfalls über die Toolbar
 aufrufbar sein:
 
@@ -72,7 +76,9 @@ aufrufbar sein:
   * Forum: Zugriff auf ein zentrales Kurs-Forum
   * Dokumente: Zugriff auf einen zentralen Dokumenten Ordner
   * Glossar: Zugriff auf das Glossar des Kurses
-  * [Kurs-Chat:](../display/OO161DE/Chat.html) Für den synchronen Austausch der Kurs-Mitglieder
+
+sites/manual_user/docs/learning_activities/Additional_Course_Features.de.md §Chat.de.md§ 481
+  * [Kurs-Chat:](../personal/Chat.de.md) Für den synchronen Austausch der Kurs-Mitglieder
   * Kurssuche: Durchsuchen Sie den Kurs nach Schlüsselbegriffen
 
 ### Lernpfad
@@ -87,11 +93,15 @@ aufgerufen werden müssen.
 
 Der Kalender geht in einem neuen Fenster auf. Termine im Kurskalender
 eintragen dürfen nur Kursbesitzer. Kurskalender werden automatisch zu Ihrem
-[personlichen Kalender](viewpage.action%EF%B9%96pageId=108593349.html)
+
+sites/manual_user/docs/learning_activities/Additional_Course_Features.de.md §Personal_Menu.de.md§ 481
+[personlichen Kalender](../personal/Personal_Menu.de.md)
 hinzugefügt. Wählen Sie dazu den Kurskalender in der Kalenderliste des
 persönlichen Kalenders aus. Informationen zur Kalenderliste sowie weiterer
 Kursfunktionen finden Sie im Kapitel
-[Kalender](../display/OO161DE/Kalender.html).
+
+sites/manual_user/docs/learning_activities/Additional_Course_Features.de.md §Calendar.de.md§ 481
+[Kalender](../personal/Calendar.de.md).
 
 ### Glossar
 
@@ -104,7 +114,9 @@ Maus über den Begriff fahren. Das Glossar kann auch ausgedruckt werden.
 
 Eventuell können Sie die Glossareinträge auch bearbeiten, sofern diese Option
 vom Lehrenden aktiviert wurde. Weitere Infos dazu finden Sie
-[hier](../display/OO161DE/Einsatz+weiterer+Kursfunktionen+der+Toolbar.html).
+
+sites/manual_user/docs/learning_activities/Additional_Course_Features.de.md §Using_Additional_Course_Features.de.md§ 481
+[hier](../course_operation/Using_Additional_Course_Features.de.md).
 
   
 
@@ -114,6 +126,8 @@ Klicken Sie auf den Link „Kurs-Chat“ um das Chatfenster zu öffnen. Dabei si
 Sie zuerst immer anonym im Chatraum. Sie finden rechts vom Textfeld die
 Möglichkeit, Ihren Anonymous zu ändern bzw. Ihren  Benutzernamen anzeigen zu
 lassen. Allgemeine Chat-Funktionen sind im Kapitel „Persönliches Menü,
-Volltextsuche und Chat“ unter dem Punkt [„Chat"](../display/OO161DE/Chat.html)
+
+sites/manual_user/docs/learning_activities/Additional_Course_Features.de.md §Chat.de.md§ 481
+Volltextsuche und Chat“ unter dem Punkt [„Chat"](../personal/Chat.de.md)
 detailliert beschrieben.
 

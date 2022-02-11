@@ -13,7 +13,9 @@ erstellen.
 Ein zentrales Element des OpenOlat Portfolios ist jedoch das
 [Bewertungsportfolio](Process_of_an_assessment_portfolio.de.md). Dazu werden
 vom OpenOlat Autor [Portfoliovorlagen
-](Portfoliovorlage%EF%B9%95+Erstellung.html)mit Aufgaben und Portfolio-
+
+sites/manual_user/docs/portfolio/index.de.md §Portfolio_template_Creation.de.md§ 481
+](Portfolio_template_Creation.de.md)mit Aufgaben und Portfolio-
 Strukturen erstellt und in OLAT-Kursen zur Verfügung gestellt. Dort können sie
 von den Lernenden abgeholt und im persönlichen Bereich des Lernenden weiter
 bearbeitet werden.
@@ -24,13 +26,27 @@ selbst eine Portfolio-Mappe erstellen und organisieren und wie Sie eine
 bestimmte Form des Portfolios, ein Assessment-Portfolio, mit Hilfe der
 Portfolio-Vorlage erstellen können.  
 
-  * [Allgemeines zum Portfolio](Allgemeines+zum+Portfolio.html)
-  * [Bestandteile des Portfolios](Bestandteile+des+Portfolios.html)
-  * [Drei Schritte zu Ihrer Mappe](Drei+Schritte+zu+Ihrer+Mappe.html)
-  * [Der Portfolio Editor](Der+Portfolio+Editor.html)
-  * [Mehrfachverwendung von Einträgen](../../pages/viewpage.action%EF%B9%96pageId=108593178.html)
-  * [Kompetenzen verschlagworten](Kompetenzen+verschlagworten.html)
-  * [Prozess eines Bewertungsportfolios](Prozess+eines+Bewertungsportfolios.html)
+
+sites/manual_user/docs/portfolio/index.de.md §Portfolio_-_General_Information.de.md§ 481
+  * [Allgemeines zum Portfolio](Portfolio_-_General_Information.de.md)
+
+sites/manual_user/docs/portfolio/index.de.md §Components_of_the_portfolio.de.md§ 481
+  * [Bestandteile des Portfolios](Components_of_the_portfolio.de.md)
+
+sites/manual_user/docs/portfolio/index.de.md §Three_steps_to_your_portfolio_binder.de.md§ 481
+  * [Drei Schritte zu Ihrer Mappe](Three_steps_to_your_portfolio_binder.de.md)
+
+sites/manual_user/docs/portfolio/index.de.md §The_portfolio_editor.de.md§ 481
+  * [Der Portfolio Editor](The_portfolio_editor.de.md)
+
+sites/manual_user/docs/portfolio/index.de.md §Multiple_use_of_entries.de.md§ 481
+  * [Mehrfachverwendung von Einträgen](Multiple_use_of_entries.de.md)
+
+sites/manual_user/docs/portfolio/index.de.md §Competences_tags.de.md§ 481
+  * [Kompetenzen verschlagworten](Competences_tags.de.md)
+
+sites/manual_user/docs/portfolio/index.de.md §Process_of_an_assessment_portfolio.de.md§ 481
+  * [Prozess eines Bewertungsportfolios](Process_of_an_assessment_portfolio.de.md)
 
   
 

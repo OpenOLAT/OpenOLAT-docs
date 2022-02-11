@@ -112,7 +112,9 @@ implementation period can be defined. The following options are possible:
 
   *  _None:_  Choose this option if the course does not start and end on a specific date or if you do not want to include the date explicitly in the information.
   *  _With begin and end date:_  The course owner can enter the start and end date of the course here. The date then appears as information in the course overview. However, the date entered is independent of the course status and the course access rights (see chapter "[Access configuration](../course_create/Access_configuration.md)"). It has no effect on the visibility and the access for the course members.
-  *  _Semester:_  If semester data has been configured at system level by the OpenOlat Administrator, one of the displayed semester options can be selected here. The semester then appears as information in the course overview. However, the semester is independent of the course status and the course access rights (see chapter "[Access configuration](Access+configuration.html)"). It therefore has no effect on the visibility and access for course members.
+
+sites/manual_user/docs/authoring/Set_up_info_page.md §Access_configuration.md§ 481
+  *  _Semester:_  If semester data has been configured at system level by the OpenOlat Administrator, one of the displayed semester options can be selected here. The semester then appears as information in the course overview. However, the semester is independent of the course status and the course access rights (see chapter "[Access configuration](../course_create/Access_configuration.md)"). It therefore has no effect on the visibility and access for course members.
 
 The configured execution period is displayed in the list of learning resources
 and the metadata.

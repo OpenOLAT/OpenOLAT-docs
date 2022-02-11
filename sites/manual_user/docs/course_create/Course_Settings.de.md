@@ -51,7 +51,9 @@ Hier können Sie den Durchführungszeitraum des Kurses definieren, das
 „[Lektionen- und Absenzmanagement](../course_operation/Lectures_and_absences.de.md)“ einschalten
 und weiter konfigurieren (sofern vom Administrator aktiviert), existierende
 herkömmliche Kurse in Lernpfad Kurse konvertieren bzw. bei [Lernpfad
-Kursen](../../pages/viewpage.action%EF%B9%96pageId=108593191.html) definieren,
+
+sites/manual_user/docs/course_create/Course_Settings.de.md §Learning_path_course.de.md§ 481
+Kursen](Learning_path_course.de.md) definieren,
 wie der Lernfortschritt berechnet wird, anhand der Anzahl der Kursbausteine
 oder anhand der Bearbeitungsdauer der Kursbausteine.
 
@@ -59,7 +61,9 @@ oder anhand der Bearbeitungsdauer der Kursbausteine.
 
 Im Tab "Freigabe" definieren Sie wie und für wen ein Kurs oder eine
 Lernressource freigegeben wird. Weitere Informationen zur Einrichtung der
-passenden Zugangskonfiguration finden Sie [hier](Zugangskonfiguration.html).
+
+sites/manual_user/docs/course_create/Course_Settings.de.md §Access_configuration.de.md§ 481
+passenden Zugangskonfiguration finden Sie [hier](Access_configuration.de.md).
 
 ## Tab Katalog
 
@@ -70,7 +74,9 @@ einzutragen muss der Schritt wiederholt werden. Anschließend erscheinen alle
 Katalogeinträge hier im Tab "Katalog" und können hier auch wieder entfernt
 werden.
 
-Der gesamte OpenOlat [Katalog ](Kurse+finden.html)ist für alle User im Menü
+
+sites/manual_user/docs/course_create/Course_Settings.de.md §Finding_courses.de.md§ 481
+Der gesamte OpenOlat [Katalog ](../catalog/Finding_courses.de.md)ist für alle User im Menü
 "Kurse" einsehbar.
 
 Tragen Sie Ihre Kurse erst in den Katalog ein, wenn diese fertiggestellt sind
@@ -84,7 +90,9 @@ Hier können frei definierbare kursbezogene Nutzungsbedingungen und eine
 kursbezogene Datenschutzerklärung aktiviert und hinterlegt werden. Startet
 eine Person den Kurs, muss sie zunächst die Bedingungen akzeptieren, ansonsten
 ist ein Kurszugang nicht möglich. In der [Mitgliederverwaltung
-](Mitgliederverwaltung.html)sehen Sie im Bereich "Einwilligungen" welche
+
+sites/manual_user/docs/course_create/Course_Settings.de.md §Members_management.de.md§ 481
+](../course_operation/Members_management.de.md)sehen Sie im Bereich "Einwilligungen" welche
 Personen die Bedingungen bereits akzeptiert haben.
 
 ![](assets/Datenschutz_Kurs.png)
@@ -96,7 +104,9 @@ Kursnavigation und auch die Krümelnavigation für Teilnehmende ausgeblendet
 werden. Je nach Einstellungen durch den Kursadministrator stehen Ihnen
 bestimmte Layoutvorlagen, mindestens aber eine Standard Vorlage zur Verfügung.
 Darüber hinaus können Sie im [Ablageordner
-](Einsatz+der+Kurswerkzeuge.html#EinsatzderKurswerkzeuge-_ablageordner)des
+
+sites/manual_user/docs/course_create/Course_Settings.de.md §Using_Course_Tools.de.md§ 481
+](../course_operation/Using_Course_Tools.de.md#EinsatzderKurswerkzeuge-_ablageordner)des
 Kurses eigene CSS Kursvorlagen hinterlegen und im Menü Layout verknüpfen. So
 lassen sich z.B. Schriften und Farben für Texte, Überschriften, Links, das
 Menü und die Toolbox individuell gestalten und mit einem passenden Logo
@@ -112,17 +122,25 @@ Sie die Auswirkungen.
 Hier schalten Sie die Toolbar sowie die konkreten einzelnen Werkzeuge der
 Toolbar ein oder aus. Auf diesem Weg können Tools, die kontinuierlich zur
 Verfügung stehen sollen, an einer zentralen Stelle aufgerufen werden. Zu den
-[Tools ](Einsatz+weiterer+Kursfunktionen+der+Toolbar.html)zählen neben der
+
+sites/manual_user/docs/course_create/Course_Settings.de.md §Using_Additional_Course_Features.de.md§ 481
+[Tools ](../course_operation/Using_Additional_Course_Features.de.md)zählen neben der
 Kurssuche, dem Glossar und dem Kurs-Chat diverse Werkzeuge, die auch als
 Kursbausteine aufrufbar sind, z.B. Kalender, Teilnehmerliste, E-Mail, Blog,
+
+sites/manual_user/docs/course_create/Course_Settings.de.md §Creating_Wikis.de.md§ 481
 Wiki, Forum und Dokumenten Ordner. Bei [Wiki ](Wiki+erstellen.html)und [Blog
+
+sites/manual_user/docs/course_create/Course_Settings.de.md §Creating_Blogs.de.md§ 481
 ](Blog+erstellen.html)kann auch auf bereits erstellte Lernressourcen
 zurückgegriffen werden. Die anderen Tools ähneln zwar den entsprechenden
 Kursbausteinen, bieten aber nicht die weiteren Konfigurationsmöglichkeiten wie
 sie in den Kursbausteinen im Kurseditor zur Verfügung stehen.
 
 Die Nutzung der Tools der Toolbar ist besonders für linear gestaltete
-[Lernpfad Kurse](../../pages/viewpage.action%EF%B9%96pageId=108593191.html)
+
+sites/manual_user/docs/course_create/Course_Settings.de.md §Learning_path_course.de.md§ 481
+[Lernpfad Kurse](Learning_path_course.de.md)
 wichtig, um unabhängig von einer sequenziellen Abfolge der Lernschritt,
 wichtige Tools kontinuierlich und zentral zur Verfügung zu stellen.
 
@@ -156,7 +174,9 @@ unterschiedliche Bedürfnisse eingestellt werden.
 In diesem Tab können Sie die Verwendung von **Leistungsnachweisen** aktivieren
 und ein **Zertifikat** automatisiert erzeugen lassen. Wenn Sie die Option
 "Leistungsnachweise verwenden" aktivieren, erscheint im Kurs im Toolbar Menü
-"[Mein Kurs](../../pages/viewpage.action%EF%B9%96pageId=108593252.html)" die
+
+sites/manual_user/docs/course_create/Course_Settings.de.md §Additional_Course_Features.de.md§ 481
+"[Mein Kurs](../learning_activities/Additional_Course_Features.de.md)" die
 Option "Leistungsnachweis" und die Kursteilnehmer sehen einen Überblick über
 die bewertbaren Kursbausteine mit ihrem jeweiligen aktuellen Bewertungsstatus.
 Wurde auch die Option "PDF Zertifikat erzeugen" aktiviert, erscheint hier auch
@@ -164,7 +184,9 @@ das erhaltene Zertifikat, sobald alle Bedingungen für einen bestandenen Kurs
 erfüllt sind.
 
 Sie können die Zertifikaterstellung auch im
-"[Bewertungswerkzeug](../../pages/viewpage.action%EF%B9%96pageId=108593653.html)"
+
+sites/manual_user/docs/course_create/Course_Settings.de.md §Assessment_tool_-_overview.de.md§ 481
+"[Bewertungswerkzeug](../course_operation/Assessment_tool_-_overview.de.md)"
 aktivieren.
 
 Der Link zum Leistungsnachweis erscheint im Kurs erst dann, wenn im Kurs
@@ -363,7 +385,9 @@ verbunden sind, verfügbar und kann jeweils separat konfiguriert werden.
 ### Tab Bewertung für Lernpfad Kurse
 
 Bei [Lernpfad
-Kursen](../../pages/viewpage.action%EF%B9%96pageId=108593191.html) werden in
+
+sites/manual_user/docs/course_create/Course_Settings.de.md §Learning_path_course.de.md§ 481
+Kursen](Learning_path_course.de.md) werden in
 dem Tab Bewertung zusätzlich auch die Kriterien für das **Bestehen** des
 gesamten Kurses eingestellt. Ein Bestehen kann z.B. erfolgen, wenn ein Lerner
 100% beim Lernfortschritt erreicht hat, alle oder eine bestimmte Anzahl von
@@ -393,8 +417,12 @@ Kursstartseite angezeigt.
 ##  Optionen
 
 Hier können Sie ein kurspezifisches [Glossar
-](Einsatz+weiterer+Kursfunktionen+der+Toolbar.html)und einen [Ressourcenordner
-](Verschiedene+Typen+von+Lernressourcen.html)aktivieren, konfigurieren und so
+
+sites/manual_user/docs/course_create/Course_Settings.de.md §Using_Additional_Course_Features.de.md§ 481
+](../course_operation/Using_Additional_Course_Features.de.md)und einen [Ressourcenordner
+
+sites/manual_user/docs/course_create/Course_Settings.de.md §Various_Types_of_Learning_Resources.de.md§ 481
+](../authoring/Various_Types_of_Learning_Resources.de.md)aktivieren, konfigurieren und so
 mit Ihrem Kurs verbinden sowie einen speziellen Ordner für Betreuer erstellen.
 
 ### Glossar einbinden
@@ -420,7 +448,9 @@ entfernt werden.
 
 Weitere Informationen und eine Schritt-für-Schritt-Anleitung zur Einbindung
 eines Ressourcenorders finden Sie
-[hier](+dieselben+Dateien+in+mehreren+Kursen+einsetzen.html).
+
+sites/manual_user/docs/course_create/Course_Settings.de.md §use_the_same_files_in_several_courses.de.md§ 481
+[hier](../how-to/use_the_same_files_in_several_courses.de.md).
 
 Beachten Sie: Sie können lediglich _einen_ Ressourcenordner pro Kurs
 einbinden. Überlegen Sie deshalb im Vorfeld genau, welche Dateien Sie über

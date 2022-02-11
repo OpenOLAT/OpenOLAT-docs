@@ -32,7 +32,9 @@ Autorenbereich
 
 [![](assets/pf_Prozess_Feld2_DE.jpg)](Portfolio_template_Administration_and_editing.de.md)
 
-[![](assets/pf_Prozess_Feld3_DE.png)](Portfolioaufgabe+erstellen.html)
+
+sites/manual_user/docs/portfolio/Process_of_an_assessment_portfolio.de.md §Creating_Portfolio_Tasks.de.md§ 481
+[![](assets/pf_Prozess_Feld3_DE.png)](Creating_Portfolio_Tasks.de.md)
 
 ![](assets/course.png)
 
@@ -44,19 +46,29 @@ Autorenbereich
 
 ![](assets/portfolio_434343_64.png)
 
-[![](assets/pf_Prozess_Feld4_DE.png)](Portfolioaufgabe%EF%B9%95+abholen+und+bearbeiten.html)
 
-[![](assets/pf_Prozess_Feld5_DE.png)](Portfolioaufgabe%EF%B9%95+abholen+und+bearbeiten.html)
+sites/manual_user/docs/portfolio/Process_of_an_assessment_portfolio.de.md §Portfolio_task_and_assignment_Collecting_and_editing.de.md§ 481
+[![](assets/pf_Prozess_Feld4_DE.png)](Portfolio_task_and_assignment_Collecting_and_editing.de.md)
 
-[![](assets/pf_Prozess_Feld6_DE.png)](Portfolioaufgabe%EF%B9%95+abholen+und+bearbeiten.html)
+
+sites/manual_user/docs/portfolio/Process_of_an_assessment_portfolio.de.md §Portfolio_task_and_assignment_Collecting_and_editing.de.md§ 481
+[![](assets/pf_Prozess_Feld5_DE.png)](Portfolio_task_and_assignment_Collecting_and_editing.de.md)
+
+
+sites/manual_user/docs/portfolio/Process_of_an_assessment_portfolio.de.md §Portfolio_task_and_assignment_Collecting_and_editing.de.md§ 481
+[![](assets/pf_Prozess_Feld6_DE.png)](Portfolio_task_and_assignment_Collecting_and_editing.de.md)
 
 ![](assets/portfolio_434343_64.png)
 
 ![](assets/portfolio_434343_64.png)
 
-[![](assets/pf_Prozess_Feld7_DE.png)](Portfolioaufgabe%EF%B9%95+kommentieren+und+bewerten.html)
 
-[![](assets/pf_Prozess_Feld8_DE.png)](Portfolioaufgabe%EF%B9%95+kommentieren+und+bewerten.html)
+sites/manual_user/docs/portfolio/Process_of_an_assessment_portfolio.de.md §Portfolio_assignment_Grading.de.md§ 481
+[![](assets/pf_Prozess_Feld7_DE.png)](Portfolio_assignment_Grading.de.md)
+
+
+sites/manual_user/docs/portfolio/Process_of_an_assessment_portfolio.de.md §Portfolio_assignment_Grading.de.md§ 481
+[![](assets/pf_Prozess_Feld8_DE.png)](Portfolio_assignment_Grading.de.md)
 
 ![](assets/Legende_Prozess_Portfolio_DE.jpg)
 

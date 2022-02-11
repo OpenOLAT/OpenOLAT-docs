@@ -8,8 +8,12 @@ approach.
 Taxonomy can be activated and used in several OpenOlat areas:
 
   * [Document pool](Modules_Document_pool.md)
+
+sites/manual_admin/docs/administration/Modules_Taxonomy.md §Question_Bank.md§ 481
   * [Question bank](Question+Bank.html)
-  * [ePortfolio](Competences+tags.html)
+
+sites/manual_admin/docs/administration/Modules_Taxonomy.md §Competences_tags.md§ 481
+  * [ePortfolio](../../manual_user/portfolio/Competences_tags.md)
   * Linking with learning resources
 
 The usage of the taxonomy will be developed continuously.

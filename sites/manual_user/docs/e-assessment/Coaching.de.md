@@ -50,7 +50,9 @@ Informationen.
 Hier kann ein Zeitfenster ausgewählt und nach Stichworten gesucht werden. Es
 wird eine Übersicht über unterschiedliche Lektionenblöcke angezeigt. Weitere
 Informationen zum Thema „Lektionen“ finden Sie
-[hier](Lektionen+-+Sicht+Dozent.html).
+
+sites/manual_user/docs/e-assessment/Coaching.de.md §Lectures_-_Teacher_view.de.md§ 481
+[hier](../course_operation/Lectures_-_Teacher_view.de.md).
 
 ### Tab Absenzen
 
@@ -134,6 +136,8 @@ Leistungsübersicht oder das Absenzenmanagement angezeigt werden.
 ## Benutzerbeziehungen
 
 Mit der Benutzer-zu-Benutzerbeziehung in OpenOlat können in der Administration
+
+sites/manual_user/docs/e-assessment/Coaching.de.md §User_management.de.md§ 481
 bzw. in der [Benutzerverwaltung ](Benutzerverwaltung.html)kursübergreifende
 Betreuungsfunktionen für beispielsweise Mentoren, Lernbegleiter und
 Vorgesetzte eingerichtet werden. Ist dies der Fall, können Betreuende im
@@ -179,7 +183,9 @@ verschiedenen Kriterien gefiltert werden.
 ![](assets/Korrekturauftraege.png)
 
 Ein Hinzufügen von Korrektoren ist ebenfalls direkt bei der jeweiligen [Test
-](Test+Einstellungen.html)Lernressource möglich.
+
+sites/manual_user/docs/e-assessment/Coaching.de.md §Test_settings.de.md§ 481
+](../tests/Test_settings.de.md)Lernressource möglich.
 
 ## Auftragsverwaltung
 
@@ -203,7 +209,9 @@ Testbesitzer können an dieser Stelle auch weitere Korrektoren zu den eigenen
 Tests hinzufügen.
 
 Ein Hinzufügen von Korrektoren ist ebenfalls direkt bei der jeweiligen [Test
-](Test+Einstellungen.html)Lernressource möglich.
+
+sites/manual_user/docs/e-assessment/Coaching.de.md §Test_settings.de.md§ 481
+](../tests/Test_settings.de.md)Lernressource möglich.
 
 ### Tab Korrekturaufträge
 

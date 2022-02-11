@@ -1,7 +1,9 @@
 # Creating Blogs
 
   * [Four Steps to Your Blog](Four_Steps_to_Your_Blog.md)
-  * [Blog - Further Configurations](Blog+-+Further+Configurations.html)
+
+sites/manual_user/docs/resource_blog/index.md §Blog_-_Further_Configurations.md§ 481
+  * [Blog - Further Configurations](Blog_-_Further_Configurations.md)
 
   
 

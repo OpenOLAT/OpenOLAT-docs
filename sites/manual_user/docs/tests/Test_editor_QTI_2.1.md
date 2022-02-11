@@ -23,8 +23,12 @@ On the following pages you will learn in detail which possibilities and
 settings the OpenOlat test editor offers:
 
   * [Test question types](Test_question_types.md)
-  * [Configure test questions](Configure+test+questions.html)
-  * [Configure tests](Configure+tests.html)
+
+sites/manual_user/docs/tests/Test_editor_QTI_2.1.md §Configure_test_questions.md§ 481
+  * [Configure test questions](Configure_test_questions.md)
+
+sites/manual_user/docs/tests/Test_editor_QTI_2.1.md §Configure_tests.md§ 481
+  * [Configure tests](Configure_tests.md)
 
   
 

@@ -6,6 +6,8 @@ In order to use questionnaires or surveys, they have to be integrated into an
 OpenOlat course. For this purpose, the course element "Survey" has to be added
 in the course editor and either an already existing learning resource "Form"
 (formerly survey) has to be integrated or a new form has to be created (see
+
+sites/manual_user/docs/forms/Forms_in_Courses.md §4_steps_to_your_Questionnaire.md§ 481
 also [4 steps to your questionnaire](4+steps+to+your+Questionnaire.html)).
 
 ![](assets/insert_course_elements_survey.png.jpg)

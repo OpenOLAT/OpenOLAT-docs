@@ -12,6 +12,8 @@ speichern Sie sie in einem der angegebenen Formate: MP3, MP4, M4V, M4A oder
 AAC und achten Sie auf die angegebene Maximalgrösse.
 
 Wenn Sie noch keinen Kurs erstellt haben, steht im Kapitel [„Kurs
+
+sites/manual_user/docs/resource_podcast/Four_Steps_to_Your_Podcast.de.md §Creating_Courses.de.md§ 481
 erstellen"](Kurs+erstellen.html), wie Sie vorgehen müssen, bevor Sie mit Hilfe
 der folgenden Anleitung Ihren Podcast erstellen.
 

@@ -130,7 +130,9 @@ Filter the table beforehand by group. You can then sort by either first or
 last name, to facilitate matching your participants list with the checklist.
 
   3. The " **Edit** " button opens the table overview in edit mode, which allows you to edit all checkboxes across all participants.
-  4. And finally, checkboxes of participants can also be edited in the [assessment tool](Assessment+of+course+modules.html).
+
+sites/manual_user/docs/course_elements/Course_Element_Checklist.md §Assessment_of_course_modules.md§ 481
+  4. And finally, checkboxes of participants can also be edited in the [assessment tool](../course_operation/Assessment_of_course_modules.md).
 
   
 
@@ -174,7 +176,9 @@ should be displayed in the course element "Structure", and how the assessment
 should be conducted. For more information on the course element "Structure"
 and the assessment information of other course elements, please refer to the
 chapter Knowledge Transfer- [Structural element:
-Score](Knowledge+Transfer.html#KnowledgeTransfer-_displayscore).
+
+sites/manual_user/docs/course_elements/Course_Element_Checklist.md §Knowledge_Transfer.md§ 481
+Score](Knowledge_Transfer.md#KnowledgeTransfer-_displayscore).
 
   
 

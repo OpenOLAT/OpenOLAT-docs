@@ -119,7 +119,9 @@ From the following options, you can select the ones you want to display.
 ![](assets/Test_results_EN.png)  
   
 The settings made under Options are automatically adopted when the test is
-included in a [course](Tests+at+course+level.html) and, if desired, can be
+
+sites/manual_user/docs/tests/Test_settings.md §Tests_at_course_level.md§ 481
+included in a [course](Tests_at_course_level.md) and, if desired, can be
 adapted in the respective course element Test in the course editor in the tabs
 "Test configuration" or "Options".
 
@@ -163,7 +165,9 @@ Here the processing status of the grading assignments of the different graders
 can be displayed and filtered according to various criteria.
 
 For more information on cross-course correction, see the [Coaching
-Tool](Coaching.html).
+
+sites/manual_user/docs/tests/Test_settings.md §Coaching.de.md§ 481
+Tool](../e-assessment/Coaching.de.md).
 
   
 

@@ -3,9 +3,15 @@
 ![](assets/group.png)
 
   * [Create Groups](Create_Groups.md)
-  * [Group Administration](Group+Administration.html)
-  * [Using Group Tools](Using+Group+Tools.html)
-  * [Group Management](Group+Management.html)
+
+sites/manual_user/docs/groups/index.md §Group_Administration.md§ 481
+  * [Group Administration](Group_Administration.md)
+
+sites/manual_user/docs/groups/index.md §Using_Group_Tools.md§ 481
+  * [Using Group Tools](Using_Group_Tools.md)
+
+sites/manual_user/docs/groups/index.md §Group_Management.md§ 481
+  * [Group Management](Group_Management.md)
 
 OpenOlat works with a comprehensive group system which allows to configure
 groups as desired in order to meet different requirements. OpenOlat users can

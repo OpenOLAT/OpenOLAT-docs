@@ -162,14 +162,18 @@ passed.
  **Only in assessment mode:** If you want certain course elements to be
 displayed or accessible only during an OpenOlat assessment situation, select
 this setting. For more information, refer to the section [Assessment
-Mode](Assessment+mode.html).
+
+sites/manual_user/docs/course_create/General_Configuration_of_Course_Elements.md §Assessment_mode.md§ 481
+Mode](../e-assessment/Assessment_mode.md).
 
 In order for a restriction to apply to course owners and group coaches, the
 option " _Apply rules also for owners and tutors_ " must be selected. If you
 do not check this box, the administrator and the owner can always see the
 course element - regardless of which visibility rules you have set.
 
-The "Display [expert mode](Access+Restrictions+in+the+Expert+Mode.html)"
+
+sites/manual_user/docs/course_create/General_Configuration_of_Course_Elements.md §Access_Restrictions_in_the_Expert_Mode.md§ 481
+The "Display [expert mode](Access_Restrictions_in_the_Expert_Mode.md)"
 button takes you to an input field where you can make a more complex
 configuration according to your needs. It is also possible to first make a
 basic setting using the general settings and then extend the syntax in expert
@@ -193,7 +197,9 @@ Learning path courses do not allow these restrictions. If you need these
 specific selective releases, you must use a traditional course.
 
 You can find information about the tab "learning path"
-[here](Learning+path+course+-+Course+editor.html).
+
+sites/manual_user/docs/course_create/General_Configuration_of_Course_Elements.md §Learning_path_course_-_Course_editor.md§ 481
+[here](Learning_path_course_-_Course_editor.md).
 
 ~~![](assets/element_ID.png)~~
 

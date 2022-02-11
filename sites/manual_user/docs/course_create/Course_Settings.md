@@ -32,7 +32,9 @@ information is also visible to interested parties without course access under
 (Course)info. This includes, for example: Title, relevant description,
 certificate, cover image and teaser movie. The learning resource appears under
 the title in the alphabetical course list and for queries via the search mask.
-Further information can be found [here](Set+up+info+page.html).
+
+sites/manual_user/docs/course_create/Course_Settings.md §Set_up_info_page.md§ 481
+Further information can be found [here](../authoring/Set_up_info_page.md).
 
 ## Metadata
 
@@ -44,9 +46,13 @@ the entry of the license of the course.
 ## Execution
 
 Here you can activate the "[Lecture and Absence
-Managemen](Lectures+and+absences.html)t" if activated by the administrator,
+
+sites/manual_user/docs/course_create/Course_Settings.md §Lectures_and_absences.md§ 481
+Managemen](../course_operation/Lectures_and_absences.md)t" if activated by the administrator,
 convert existing conventional courses into learning path courses or, in case
-of [learning path courses](Learning+path+course.html), define how the learning
+
+sites/manual_user/docs/course_create/Course_Settings.md §Learning_path_course.md§ 481
+of [learning path courses](Learning_path_course.md), define how the learning
 progress is calculated on the basis of the number of course elements or on the
 basis of the learning time of the course elements.  
 
@@ -54,7 +60,9 @@ basis of the learning time of the course elements.
 
 In this tab you define how and for whom a course or a learning resource is
 released. Further information on setting up the appropriate access
-configuration can be found [here](Access+configuration.html).
+
+sites/manual_user/docs/course_create/Course_Settings.md §Access_configuration.md§ 481
+configuration can be found [here](Access_configuration.md).
 
 ## Catalog  
 
@@ -77,7 +85,9 @@ visible to the users.
 Here you can activate and set course-related terms of use or a course-related
 privacy policy. If a person starts the course, he/she must first accept the
 conditions, otherwise access to the course is not possible. In the [member
-administration](Members+management.html) you can see in the area "Consents"
+
+sites/manual_user/docs/course_create/Course_Settings.md §Members_management.md§ 481
+administration](../course_operation/Members_management.md) you can see in the area "Consents"
 which persons have already accepted the conditions.
 
 ![](assets/Screenshot 2020-07-29 at 21.08.42.png)
@@ -89,7 +99,9 @@ course navigation and also the bread-crumb navigation for participants.
 Depending on the settings by the course administrator, certain layout
 templates are available, but at least one default template. In addition, you
 can store your own CSS course templates in the course [storage
-folder](Storage+folder.html) and link them in the Layout menu. For example,
+
+sites/manual_user/docs/course_create/Course_Settings.md §Storage_folder.md§ 481
+folder](../course_operation/Storage_folder.md) and link them in the Layout menu. For example,
 fonts and colors for texts, headlines, links, the menu and the toolbox can be
 individually designed and provided with a suitable logo.
 
@@ -114,7 +126,9 @@ do not offer the further configuration options as they are available in the
 course elements in the course editor.
 
 The use of the tools in the toolbar is particularly important for linear
-[learning path courses](Learning+path+course.html) in order to make important
+
+sites/manual_user/docs/course_create/Course_Settings.md §Learning_path_course.md§ 481
+[learning path courses](Learning_path_course.md) in order to make important
 tools available continuously and centrally, regardless of the sequential order
 of the learning steps.
 
@@ -348,7 +362,9 @@ course start page.
 ##  Options
 
 Here you can activate and configure a course-specific
-[glossary](Using+Additional+Course+Features.html) and a resource folder. And
+
+sites/manual_user/docs/course_create/Course_Settings.md §Using_Additional_Course_Features.md§ 481
+[glossary](../course_operation/Using_Additional_Course_Features.md) and a resource folder. And
 so connect with your course as well as create a special folder for Coaches.
 
 ### Include glossary
@@ -373,7 +389,9 @@ in the course, this option need to be deselected in the course settings at
 "Read only".
 
 For more information or the step-by-step instructions on integrating a
-resource folder, click [here](+use+the+same+files+in+several+courses.html).  
+
+sites/manual_user/docs/course_create/Course_Settings.md §use_the_same_files_in_several_courses.md§ 481
+resource folder, click [here](../how-to/use_the_same_files_in_several_courses.md).  
 
 You can only add _one_ resource folder to a course. We strongly recommend to
 first define a general strategy: Which files should be stored in an overall

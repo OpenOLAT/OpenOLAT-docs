@@ -1,8 +1,12 @@
 # Creating Tasks
 
   * [Three Steps to Your Task](Three_Steps_to_Your_Task.md)
-  * [Task - Further Configurations](Task+-+Further+Configurations.html)
-  * [Assess tasks](Assess+tasks.html)
+
+sites/manual_user/docs/task/index.md §Task_-_Further_Configurations.md§ 481
+  * [Task - Further Configurations](Task_-_Further_Configurations.md)
+
+sites/manual_user/docs/task/index.md §Assess_tasks.md§ 481
+  * [Assess tasks](Assess_tasks.md)
 
   
 

@@ -14,7 +14,9 @@ applies to the entire course.
 If certain areas of the course are to be given a different setting, this can
 be done by adding and configuring the course element "Structure". The selected
 setting will then apply to all course elements subordinate to this [course
-element "Structure"](Course+Element%EF%B9%95+Structure.html). For example, a
+
+sites/manual_user/docs/course_create/Learning_path_course_-_Course_editor.md §Course_Element_Structure.md§ 481
+element "Structure"](../course_elements/Course_Element_Structure.md). For example, a
 course can be configured as sequential by default, but a certain area in the
 course can be permanently accessed in any order.
 

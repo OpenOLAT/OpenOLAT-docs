@@ -34,6 +34,10 @@ an important aspect for your implementation, please use a conventional course.
   
 
   * [Creating learning path courses](Creating_learning_path_courses.md)
-  * [Learning path course - Course editor](Learning+path+course+-+Course+editor.html)
-  * [Learning path course - Participant view](Learning+path+course+-+Participant+view.html)
+
+sites/manual_user/docs/course_create/Learning_path_course.md §Learning_path_course_-_Course_editor.md§ 481
+  * [Learning path course - Course editor](Learning_path_course_-_Course_editor.md)
+
+sites/manual_user/docs/course_create/Learning_path_course.md §Learning_path_course_-_Participant_view.md§ 481
+  * [Learning path course - Participant view](Learning_path_course_-_Participant_view.md)
 

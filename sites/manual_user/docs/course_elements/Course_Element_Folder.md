@@ -62,7 +62,9 @@ the folder can ...
   * Create new subfolders within the course element. So a course element "Folder" can contain several subfolders. The use of several course element folders is only necessary if the folders are to be integrated at different places in the course structure or if the folders are connected with different selective releases.
 
 To facilitate the upload and download of multiple files, the files can be
-zipped or unzipped. In addition, the use of [WebDAV](Using+WebDAV.html) is
+
+sites/manual_user/docs/course_elements/Course_Element_Folder.md §Using_WebDAV.md§ 481
+zipped or unzipped. In addition, the use of [WebDAV](../supported_tech/Using_WebDAV.md) is
 recommended for uploading more extensive materials.
 
 Furthermore, all users can ...
@@ -90,7 +92,9 @@ can also access the file depends on the access settings of the course.
 ### Edit Files
 
 Depending on the file type and activation in OpenOlat
-[Administration](External+Tools+-+Administration.html), it is possible to edit
+
+sites/manual_user/docs/course_elements/Course_Element_Folder.md §External_Tools_-_Administration.md§ 481
+[Administration](../../manual_admin/administration/External_Tools_-_Administration.md), it is possible to edit
 files located in the course element "Folder". If editing is possible, the
 editing icon ![](../../download/thumbnails/108600658/test_pencil-square-
 o_434343_64%EF%B9%96version=1&modificationDate=1567432177000&api=v2.png)appears

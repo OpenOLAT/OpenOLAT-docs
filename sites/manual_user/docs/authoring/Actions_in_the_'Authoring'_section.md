@@ -32,12 +32,28 @@ deleted.
 OpenOlat authors can create new courses and additional [learning
 resources](Various_Types_of_Learning_Resources.md) in the "My Entries and
 Favorites" tabs. How to use various editors will be further explained in the
+
+sites/manual_user/docs/authoring/Actions_in_the_'Authoring'_section.md §Creating_Courses.md§ 481
 chapters ["Creating Courses"](Creating+Courses.html), ["Creating CP Learning
+
+sites/manual_user/docs/authoring/Actions_in_the_'Authoring'_section.md §Creating_CP_Learning_Content.md§ 481
 Content"](Creating+CP+Learning+Content.html), ["Creating
+
+sites/manual_user/docs/authoring/Actions_in_the_'Authoring'_section.md §Creating_Wikis.md§ 481
+
+sites/manual_user/docs/authoring/Actions_in_the_'Authoring'_section.md §Creating_Podcasts.md§ 481
 Wikis"](Creating+Wikis.html), ["Creating Podcasts"](Creating+Podcasts.html),
+
+sites/manual_user/docs/authoring/Actions_in_the_'Authoring'_section.md §Creating_Blogs.md§ 481
 ["Creating Blogs"](Creating+Blogs.html), ["Creating Portfolio
-Tasks"](Creating+Portfolio+Tasks.html), ["Creating
+
+sites/manual_user/docs/authoring/Actions_in_the_'Authoring'_section.md §Creating_Portfolio_Tasks.md§ 481
+Tasks"](../portfolio/Creating_Portfolio_Tasks.md), ["Creating
+
+sites/manual_user/docs/authoring/Actions_in_the_'Authoring'_section.md §Creating_Tests.md§ 481
 Tests"](Creating+Tests.html) and ["Creating
+
+sites/manual_user/docs/authoring/Actions_in_the_'Authoring'_section.md §Creating_Questionnaires.md§ 481
 Questionnaires"](Creating+Questionnaires.html).
 
 If you build your courses systematically and if you want to use your learning
@@ -49,7 +65,9 @@ in the authoring
 Learning resources generated outside of OpenOlat can be imported if they have
 a format that is compatible. Suitable formats have been commented on in the
 section ["Various Types of Learning
-Resources"](Various+Types+of+Learning+Resources.html). Using the "Import URL"
+
+sites/manual_user/docs/authoring/Actions_in_the_'Authoring'_section.md §Various_Types_of_Learning_Resources.md§ 481
+Resources"](Various_Types_of_Learning_Resources.md). Using the "Import URL"
 link, you can also set links to external videos, e.g. YouTube, and create them
 as OpenOlat learning resource videos.
 
@@ -108,18 +126,24 @@ resources. These include
 
 Opens the form for changing the content of the info page. You can find more
 information on the page "[Change
-infopage](Course+Settings.html#CourseSettings-d14e1774)".
+
+sites/manual_user/docs/authoring/Actions_in_the_'Authoring'_section.md §Course_Settings.md§ 481
+infopage](../course_create/Course_Settings.md#CourseSettings-d14e1774)".
 
 #### Catalogue entries
 
 Create new catalogue entries or edit existing entries. For further information
 please refer to the chapter "Course Settings", section "[Catalog
-entries](Course+Settings.html#CourseSettings-d14e1825)".
+
+sites/manual_user/docs/authoring/Actions_in_the_'Authoring'_section.md §Course_Settings.md§ 481
+entries](../course_create/Course_Settings.md#CourseSettings-d14e1825)".
 
 #### Members management
 
 Opens the members management of the respective learning resource. You can find
-more information on the page "[Members management](Members+management.html)".
+
+sites/manual_user/docs/authoring/Actions_in_the_'Authoring'_section.md §Members_management.md§ 481
+more information on the page "[Members management](../course_operation/Members_management.md)".
 
 #### Copy
 

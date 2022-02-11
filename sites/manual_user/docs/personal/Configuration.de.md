@@ -153,7 +153,9 @@ organisieren.
 ### Tab Instant-Messaging
 
 Im Tab „Instant-Messaging“ legen Sie die Einstellungen für die [Chat-
-Funktion](Instant+Messaging.html) und Ihren Kommunikations-Status nach dem
+
+sites/manual_user/docs/personal/Configuration.de.md §Instant_Messaging.de.md§ 481
+Funktion](../../manual_admin/administration/Instant_Messaging.de.md) und Ihren Kommunikations-Status nach dem
 Login fest.
 
 ![](assets/Instant_Status.png)

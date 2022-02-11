@@ -14,9 +14,13 @@ anschliessend der Fragetyp und zum Schluss, wenn vorhanden, der Fachbereich
 ausgewählt. Die so erstellten Fragen kann dann in die OpenOlat Lernressource
 Test importiert und verwendet werden.
 
+
+sites/manual_user/docs/question_bank/Data_Management.de.md §Creating_Tests.de.md§ 481
 Informationen zur _Testerstellung_ finden [hier](Tests+erstellen.html).
 Informationen zur weiteren Ausgestaltung einer Frage im Kapitel
-"[Detailansicht einer Frage"](Detailansicht+einer+Frage.html).
+
+sites/manual_user/docs/question_bank/Data_Management.de.md §Item_Detailed_View.de.md§ 481
+"[Detailansicht einer Frage"](Item_Detailed_View.de.md).
 
   
 

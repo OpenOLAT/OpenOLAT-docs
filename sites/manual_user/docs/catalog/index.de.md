@@ -11,7 +11,9 @@ reguläre OpenOlat-Benutzer erläutert und aufgezeigt, wie man Kurse suchen
 kann. Auch findet sich eine Übersicht, was der Katalog ist und wie er im
 Kursalltag helfen kann.
 
-Unter "[Infoseite](Infoseite.html)" wird die Infoseite, die detaillierte
+
+sites/manual_user/docs/catalog/index.de.md §Info_page.de.md§ 481
+Unter "[Infoseite](Info_page.de.md)" wird die Infoseite, die detaillierte
 Informationen über den Kurs bereitstellt, vorgestellt. Auch ist hier
 ersichtlich welche Aktionen OpenOlat Benutzern zur Verfügung stehen.
 

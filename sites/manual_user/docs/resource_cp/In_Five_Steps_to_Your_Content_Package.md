@@ -66,7 +66,9 @@ selecting a HTML page. Click on "Import."|
   
 Now you can insert more pages following the same pattern. More information on
 the available editor features can be found in the **[CP
-Editor](CP+Editor.html)** chapter.
+
+sites/manual_user/docs/resource_cp/In_Five_Steps_to_Your_Content_Package.md §CP_Editor.de.md§ 481
+Editor](CP_Editor.de.md)** chapter.
 
 You can import several HTML pages at once by zipping them before uploading the
 resulting ZIP file.

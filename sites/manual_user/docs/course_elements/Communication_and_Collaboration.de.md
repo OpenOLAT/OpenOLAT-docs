@@ -22,6 +22,8 @@ Mit dem Kursbaustein „Wiki“ binden Sie das Wiki in Ihren Kurs ein. Klicken S
 im Tab „ **Wiki-Lerninhalt** “ auf „Wiki wählen, erstellen oder importieren“,
 ordnen ein bereits erstelltes Wiki zu oder erstellen ein neues. Eine Schritt-
 für-Schritt-Anleitung zu Ihrem Wiki finden Sie im Kapitel [„Wiki
+
+sites/manual_user/docs/course_elements/Communication_and_Collaboration.de.md §Creating_Wikis.de.md§ 481
 erstellen"](Wiki+erstellen.html). Wenn Sie noch kein Wiki ausgewählt haben,
 erscheint beim Titel **Gewähltes Wiki** die Meldung _Kein Wiki ausgewählt_.
 
@@ -88,7 +90,9 @@ Post aktiviert".
 
 ### Moderationsrechte
 
-Alle Kursbesitzer und [Betreuer ](Betreuer.html)verfügen über folgende weitere
+
+sites/manual_user/docs/course_elements/Communication_and_Collaboration.de.md §Coach.de.md§ 481
+Alle Kursbesitzer und [Betreuer ](../general/Coach.de.md)verfügen über folgende weitere
 Moderationsrechte. Sie können:
 
   * Alle Forumsbeiträge editieren, löschen und Dateien anhängen.
@@ -122,7 +126,9 @@ Ersteller des Beitrages keinen Zugriff hat.
 
 Neben dem Kursbaustein "Forum" gibt es auch die Möglichkeit ein zentrales
 Forum für den gesamten Kurs in der [Kurs
-Toolbar](Einsatz+weiterer+Kursfunktionen+der+Toolbar.html) anzeigen zu lassen.
+
+sites/manual_user/docs/course_elements/Communication_and_Collaboration.de.md §Using_Additional_Course_Features.de.md§ 481
+Toolbar](../course_operation/Using_Additional_Course_Features.de.md) anzeigen zu lassen.
 Hier können jedoch keine weiteren Einstellungen wie Pseudonymisierung oder
 Vergabe von Moderationsrechten vorgenommen werden.
 
@@ -205,6 +211,8 @@ Upload der Datei und die Begrenzung des gesamten Ordners wird angezeigt, wenn
 man versucht eine Datei hochzuladen.
 
 Eine ähnliche Konfiguration der Abgabe von Dateien + Dateirückgabe durch
+
+sites/manual_user/docs/course_elements/Communication_and_Collaboration.de.md §Creating_Tasks.de.md§ 481
 Betreuer kann auch mit dem [Kursbaustein "Aufgabe"](Aufgabe+erstellen.html)
 umgesetzt werden, nur dass die Möglichkeiten des Aufgabenbausteins deutlich
 umfassender und komplexer sind und hier auch eine Bewertung bzw. Punktevergabe

@@ -13,9 +13,13 @@ Sie als erstes
   * einen neuen Podcast erstellen oder
   * einen Podcast importieren
 
+
+sites/manual_user/docs/resource_podcast/Podcast_-_Further_Configurations.de.md §Creating_Podcasts.de.md§ 481
 Siehe Schritt 2 der [4-Schritte Anleitung](Podcast+erstellen.html). Wurde
 bereits eine Verknüpfung zu einer Lernressource Podcast hergestellt, kann
 diese ausgewechselt oder editiert werden (siehe Schritt 3 der [4-Schritte
+
+sites/manual_user/docs/resource_podcast/Podcast_-_Further_Configurations.de.md §Creating_Podcasts.de.md§ 481
 Anleitung](Podcast+erstellen.html)).
 
 ###  Externen Podcast einbinden

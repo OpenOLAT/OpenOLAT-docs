@@ -52,7 +52,9 @@ die Kursstruktur an und erstellen in der Regel den OpenOlat Kurs. Die Person,
 die einen Kurs anlegt ist automatisch Kurs-Besitzer. Kurs-Besitzer können auch
 weitere Besitzer des Kurses hinzufügen.
 
-  *  **[Betreuer](Betreuer.html)**  
+
+sites/manual_user/docs/course_operation/Members_management.de.md §Coach.de.md§ 481
+  *  **[Betreuer](../general/Coach.de.md)**  
 Betreuer spielen in der Regel bei der Kursdurchführung eine Rolle, sind jedoch
 bei der Erstellung nicht involviert. Kurs-Betreuer haben Zugriff auf das
 Bewertungswerkzeug und die Statistiken sowie je nach Einstellung auf weitere
@@ -79,7 +81,9 @@ Teilnehmer einzutragen, um sich den Kurs aus der entsprechenden Perspektive
 anzusehen.
 
 Besitzt der User noch darüberhinausgehende bestimmte [System-
-Rollen](Rollen+und+Rechte.html),  wie Lernressoucrenverwalter oder
+
+sites/manual_user/docs/course_operation/Members_management.de.md §Roles_and_Rights.de.md§ 481
+Rollen](../general/Roles_and_Rights.de.md),  wie Lernressoucrenverwalter oder
 Administrator, werden diese ebenfalls als Auswahlelement für die entsprechende
 Perspektive angezeigt.
 
@@ -93,11 +97,15 @@ a) durch das direkte Eintragen in die Mitgliederliste durch den Kursbesitzer
 über die Button "Mitglied hinzufügen" oder "Mitglieder importieren".
 
 b) durch Buchung des Kurses durch den Lernenden (siehe
-[Zugangskonfiguration](Zugangskonfiguration.html))
+
+sites/manual_user/docs/course_operation/Members_management.de.md §Access_configuration.de.md§ 481
+[Zugangskonfiguration](../course_create/Access_configuration.de.md))
 
 c) durch Hinzufügen einer OpenOlat Gruppe
 
-d) durch ein übergeordnetes OpenOlat [Curriculum](Curriculumverwaltung.html)
+
+sites/manual_user/docs/course_operation/Members_management.de.md §Curriculum_Management.de.md§ 481
+d) durch ein übergeordnetes OpenOlat [Curriculum](../curriculum/Curriculum_Management.de.md)
 
 Wir empfehlen nur mit Gruppen zu arbeiten, wenn dies aus didaktischen oder
 organisatorischen Gründen wirklich notwendig ist und einen Mehrwert bietet,
@@ -114,6 +122,8 @@ und die Anzahl der Gruppen Teilnehmenden.
 Klickt man auf einen Gruppennamen oder auf "Ändern" öffnet sich die Gruppe
 selbst in einem neuen OpenOlat-Tab und man gelangt als Gruppen-Betreuer in die
 Gruppenadministration. Wie Gruppen erstellt und konfiguriert werden, und man
+
+sites/manual_user/docs/course_operation/Members_management.de.md §Groups.de.md§ 481
 Gruppenmitglieder verwaltet, wird im Kapitel „[Gruppen](Gruppen.html)“
 behandelt.
 
@@ -128,7 +138,9 @@ Typische Beispiele sind:
 
 Unter  **Buchungen**  können Sie sich alle Buchungen für diesen Kurs ansehen,
 sortiert nach Status, sofern der Kurszugang über die [Buchungsmethode
-](Zugangskonfiguration.html)organisiert wird.
+
+sites/manual_user/docs/course_operation/Members_management.de.md §Access_configuration.de.md§ 481
+](../course_create/Access_configuration.de.md)organisiert wird.
 
 ##  Bereich "Rechte"
 
@@ -184,14 +196,18 @@ u.a.  bereitgestellt.
 Es erscheint zusätzlich das Menü "Administration".
 
 Mitglieder haben Zugriff alle Bereiche der [Datenarchivierung
-](Datenarchivierung.html)und damit auf alle Daten des Kurses. Sie dürfen
+
+sites/manual_user/docs/course_operation/Members_management.de.md §Data_archiving.de.md§ 481
+](Data_archiving.de.md)und damit auf alle Daten des Kurses. Sie dürfen
 Kursdaten wie z.B. Foren oder Testresultate von allen Teilnehmenden
 archivieren.  
   
  **Bewertungs-Werkzeug**|
 
 Es erscheint zusätzlich das Menü "Administration" mit dem
-[Bewertungswerkzeug](../../pages/viewpage.action%EF%B9%96pageId=108593653.html).
+
+sites/manual_user/docs/course_operation/Members_management.de.md §Assessment_tool_-_overview.de.md§ 481
+[Bewertungswerkzeug](Assessment_tool_-_overview.de.md).
 
 Auch ohne Betreuerrechte können so Mitglieder mit diesem Recht sämtliche
 Leistungen der Kursteilnehmenden bewerten und kommentieren. Ein Zugriff auf
@@ -199,7 +215,9 @@ die Bewertung im Kursrun besteht dabei aber nicht.
   
  **Glossar-Werkzeug**|  Dieses Recht erlaubt es den Mitgliedern das Glossar
 des Kurses zu bearbeiten, was natürlich nur Sinn macht, wem dem Kurs auch ein
-[Glossar ](Einsatz+weiterer+Kursfunktionen+der+Toolbar.html)zugeordnet ist.
+
+sites/manual_user/docs/course_operation/Members_management.de.md §Using_Additional_Course_Features.de.md§ 481
+[Glossar ](Using_Additional_Course_Features.de.md)zugeordnet ist.
 Der Zugriff erfolgt direkt über das Werkzeug "Glossar" in der Toolbar.  
  **Statistiken**|
 
@@ -215,7 +233,9 @@ heruntergeladen werden.
 Es erscheint zusätzlich das Menü "Administration"
 
 Mitglieder dürfen neue [Prüfungskonfigurationen
-](../../pages/viewpage.action%EF%B9%96pageId=108593203.html)einrichten,
+
+sites/manual_user/docs/course_operation/Members_management.de.md §Assessment_mode.de.md§ 481
+](../e-assessment/Assessment_mode.de.md)einrichten,
 bearbeiten und löschen.  
   
  **Kurs Datenbank**|
@@ -238,7 +258,9 @@ einer Gruppe zu vergeben
 ##  Bereich "Einwilligungen"
 
 Sind kursbezogene Nutzungsbedingungen bzw. die kursbezogene
-Datenschutzerklärung [aktiviert](Kurseinstellungen.html), werden die
+
+sites/manual_user/docs/course_operation/Members_management.de.md §Course_Settings.de.md§ 481
+Datenschutzerklärung [aktiviert](../course_create/Course_Settings.de.md), werden die
 gespeicherten Einwilligungen der einzelnen Benutzer hier aufgelistet.
 Ausgewählte Einwilligungen können an dieser Stelle widerrufen oder auch
 gelöscht werden. Beim Widerruf wird die Einwilligung zurückgesetzt, der

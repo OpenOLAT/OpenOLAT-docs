@@ -4,7 +4,7 @@
 
 Find information on OpenOlat, its features and latest changes here. Navigate in the spaces overview to the manual corresponding to the version of your LMS.
 
-##Aktuelle Version:
+## Aktuelle Version:
 
 - [Release notes 16.1](release_notes/Release_notes_16.1.md)
 - [OpenOlat User Manual](user-manual/)

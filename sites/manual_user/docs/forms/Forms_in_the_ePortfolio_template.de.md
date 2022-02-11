@@ -27,11 +27,15 @@ ausgewählt werden.
 
 Ein neu erstelltes Formular beinhaltet zunächst noch keine Elemente, Fragen
 oder Textfelder. Diese müssen im Kurs über "Bearbeiten" oder alternativ direkt
+
+sites/manual_user/docs/forms/Forms_in_the_ePortfolio_template.de.md §Form_editor_(Questionnaire_editor).de.md§ 481
 in der Lernressource im [Formular Editor](Formular+Editor.html) hinzugefügt
 werden.
 
 Wenn ein Formular direkt im Kurseditor erstellt wird, wird automatisch eine
 neue Lernressource Formular angelegt, die auch im [Autorenbereich
+
+sites/manual_user/docs/forms/Forms_in_the_ePortfolio_template.de.md §Authoring.de.md§ 481
 ](Autorenbereich.html)unter "Meine Einträge" zu finden ist und in weiteren
 Kursen und Kursbausteinen eingebunden werden kann.
 
@@ -47,7 +51,9 @@ können auch weitere Personen eingeladen werden. Die Bewertung kann offen oder
 anonym erfolgen.
 
 Die Portfolio 2.0 Vorlage kann dann über den Kursbaustein
-"[Portfolioaufgabe](Portfolioaufgabe+erstellen.html)" auch in einen Kurs
+
+sites/manual_user/docs/forms/Forms_in_the_ePortfolio_template.de.md §Creating_Portfolio_Tasks.de.md§ 481
+"[Portfolioaufgabe](../portfolio/Creating_Portfolio_Tasks.de.md)" auch in einen Kurs
 eingebaut werden.
 
 ### Beispiel für ein Portfolio Formular:
@@ -57,7 +63,11 @@ eingebaut werden.
   
 
 Generelle Informationen zum Thema E-Portfolio finden Sie im Kapitel
+
+sites/manual_user/docs/forms/Forms_in_the_ePortfolio_template.de.md §Creating_Portfolios.de.md§ 481
 "[Portfolio erstellen](Portfolio+erstellen.html)", insbesondere im
 Unterkapitel "[Prozess eines
-Bewertungspprtfolios](Prozess+eines+Bewertungsportfolios.html)".
+
+sites/manual_user/docs/forms/Forms_in_the_ePortfolio_template.de.md §Process_of_an_assessment_portfolio.de.md§ 481
+Bewertungspprtfolios](../portfolio/Process_of_an_assessment_portfolio.de.md)".
 

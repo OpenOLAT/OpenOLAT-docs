@@ -11,7 +11,9 @@ login page.
 ## Your first OpenOlat registration
 
 In order to work with OpenOlat you need an internet connection as well as a
-[browser](Login+Page.html#LoginPage-login_browsercheck). The kind of the first
+
+sites/manual_user/docs/login/index.md §Login_Page.md§ 481
+[browser](Login_Page.md#LoginPage-login_browsercheck). The kind of the first
 registration as well as the concrete procedure varies depending of the
 OpenOlat instance. However, usually the procedure is visible on the
 corresponding OpenOlat login page. In the case of dubieties or queries please
@@ -22,5 +24,7 @@ in your organization.
 After successful registration you will be directed to the systemwide landing
 page, which can differ between systems and also between OpenOlat authors and
 users. Further information on how to set your personal landing can be found in
-[Settings](Configuration.html#Configuration-_einstellungen).
+
+sites/manual_user/docs/login/index.md §Configuration.md§ 481
+[Settings](../personal/Configuration.md#Configuration-_einstellungen).
 

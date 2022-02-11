@@ -13,7 +13,9 @@ Therefore you select the desired video-file in the upload window and click on
 Warning
 
 To be recognized in OpenOlat as a video learning resource a video file
-[prepared](Video+Upload.html) for the import needs to be in the .mp4 form.
+
+sites/manual_user/docs/resource_video/Learning_resource_Video.md §Video_Upload.md§ 481
+[prepared](Video_Upload.md) for the import needs to be in the .mp4 form.
 
 If a description is indicated on the [info
 page](https://confluence.openolat.org/display/OO161EN/Info+Page%3A+Add+Meta+Data)
@@ -43,7 +45,9 @@ YouTube file, such as the title or a start image, are also imported.
 You can now further configure your video in the tabs of the "Settings" menu.
 The "Info", "Share" and "Catalog" tabs are analogous to other learning
 resources. For general information about the Settings menu, click
-[here](Course+Settings.html).
+
+sites/manual_user/docs/resource_video/Learning_resource_Video.md §Course_Settings.md§ 481
+[here](../course_create/Course_Settings.md).
 
 #### Metadata
 
@@ -110,7 +114,9 @@ based on different criteria can be added.
 Further information on the general settings of quiz and tests can be found in
 the chapter "Configuring test questions". For more information on the
 different question types, see the "[Test Question
-Types](Test+question+types.html)" chapter.
+
+sites/manual_user/docs/resource_video/Learning_resource_Video.md §Test_question_types.md§ 481
+Types](../tests/Test_question_types.md)" chapter.
 
   
 

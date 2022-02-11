@@ -103,7 +103,9 @@ Meetings für gemeinsame Online-Session anlegen.
 Virtuelle Klassenräume
 
 Je nach Konfiguration durch den OpenOlat
-[Administrator](Externe+Werkzeuge+-+Administration.html), stehen
+
+sites/manual_user/docs/groups/Using_Group_Tools.de.md §External_Tools_-_Administration.de.md§ 481
+[Administrator](../../manual_admin/administration/External_Tools_-_Administration.de.md), stehen
 unterschiedliche virtuelle Klassenräume (OpenMeetings, BigBlueButton,
 Microsoft Teams) als Gruppenwerkzeug zur Verfügung.
 

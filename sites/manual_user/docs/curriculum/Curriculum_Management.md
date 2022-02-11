@@ -19,6 +19,8 @@ curriculum elements:
   * Curriculum owner
   * Curriculum element owner
 
+
+sites/manual_user/docs/curriculum/Curriculum_Management.md §User_management.md§ 481
 Detailed information on the roles can be found [here](User+management.html).
 
   

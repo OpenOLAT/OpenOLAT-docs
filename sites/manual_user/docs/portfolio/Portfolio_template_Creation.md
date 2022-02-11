@@ -54,5 +54,7 @@ like portfolio template.
 
 To integrate an already created Portfolio 2.0 template in an OpenOlat course
 you have to add the course element "[Portfolio
-task](Creating+Portfolio+Tasks.html)" to this course.
+
+sites/manual_user/docs/portfolio/Portfolio_template_Creation.md §Creating_Portfolio_Tasks.md§ 481
+task](Creating_Portfolio_Tasks.md)" to this course.
 

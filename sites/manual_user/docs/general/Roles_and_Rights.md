@@ -33,6 +33,8 @@ is an overview of all OpenOlat roles.
 
   *  **Author** : The author has access to the authoring area. This allows the author to create courses and all other learning resources. In the search mask the author finds all courses and learning resources such as tests, films and portfolio templates which are accessible to authors. This role is often assigned to teachers or e-learning managers.
 
+
+sites/manual_user/docs/general/Roles_and_Rights.md §User_management.md§ 481
   *  **User manager** : The user manager has access to the [user management](User+management.html) and all users of the own organization. He/She can create, edit and inactivate users. Further more he can assign the Author role.
 
   *  **Role manager** : The role administrator has access to the user administration and all users of his or her own organization. Apart from the roles Administrator and System Administrator, he/she can change, assign and remove all user roles.
@@ -87,7 +89,9 @@ should get in this course.
   *  **Participant** : A participant can open the course and edit everything where he got access right. A participant hasn't any further rights.
 
 In addition to the course-related roles, depending on the configuration,
-[guests](Guest+access.html) without an OpenOlat account can also have access
+
+sites/manual_user/docs/general/Roles_and_Rights.md §Guest_access.md§ 481
+[guests](Guest_access.md) without an OpenOlat account can also have access
 to a course.
 
 ![](assets/en_rights.png)

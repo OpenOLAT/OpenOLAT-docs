@@ -10,22 +10,40 @@ of any type. Specifically it is aligned to the [assessment
 portfolio](Process_of_an_assessment_portfolio.md). Therefore a [portfolio
 template](Portfolio_template_Creation.md) with assignments is
 created be the author which can be
-[edited](Portfolio+template%EF%B9%95+Administration+and+editing.html) by the
+
+sites/manual_user/docs/portfolio/index.md §Portfolio_template_Administration_and_editing.md§ 481
+[edited](Portfolio_template_Administration_and_editing.md) by the
 users afterward.
 
 The following chapter explains how to use the Portfolio 2.0. On the one hand
 it supports the authors in creating the portfolio template, on the other hand
 it helps the users in solving portfolio assignments and [creating own
-portfolios](Three+steps+to+your+portfolio+binder.html).
 
-  * [Portfolio - General Information](Portfolio+-+General+Information.html)
-  * [Components of the portfolio](Components+of+the+portfolio.html)
-  * [Three steps to your portfolio binder](Three+steps+to+your+portfolio+binder.html)
-  * [Multiple use of entries](Multiple+use+of+entries.html)
-  * [Competences tags](Competences+tags.html)
-  * [Process of an assessment portfolio](Process+of+an+assessment+portfolio.html)
+sites/manual_user/docs/portfolio/index.md §Three_steps_to_your_portfolio_binder.md§ 481
+portfolios](Three_steps_to_your_portfolio_binder.md).
 
-In addition the [complete process](Process+of+an+assessment+portfolio.html)
+
+sites/manual_user/docs/portfolio/index.md §Portfolio_-_General_Information.md§ 481
+  * [Portfolio - General Information](Portfolio_-_General_Information.md)
+
+sites/manual_user/docs/portfolio/index.md §Components_of_the_portfolio.md§ 481
+  * [Components of the portfolio](Components_of_the_portfolio.md)
+
+sites/manual_user/docs/portfolio/index.md §Three_steps_to_your_portfolio_binder.md§ 481
+  * [Three steps to your portfolio binder](Three_steps_to_your_portfolio_binder.md)
+
+sites/manual_user/docs/portfolio/index.md §Multiple_use_of_entries.md§ 481
+  * [Multiple use of entries](Multiple_use_of_entries.md)
+
+sites/manual_user/docs/portfolio/index.md §Competences_tags.md§ 481
+  * [Competences tags](Competences_tags.md)
+
+sites/manual_user/docs/portfolio/index.md §Process_of_an_assessment_portfolio.md§ 481
+  * [Process of an assessment portfolio](Process_of_an_assessment_portfolio.md)
+
+
+sites/manual_user/docs/portfolio/index.md §Process_of_an_assessment_portfolio.md§ 481
+In addition the [complete process](Process_of_an_assessment_portfolio.md)
 including the grading is shown.
 
   

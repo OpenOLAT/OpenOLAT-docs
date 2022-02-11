@@ -23,7 +23,11 @@ Lernpfad Kurs oder einen herkömmlichen Kurs handelt.
 ### Wie können Sie starten?
 
 Verschaffen Sie sich am besten zunächst einen Überblick über den gesamten
-[Kurszyklus ](Allgemeines.html)und gehen schauen Sie sich dann die einzelnen
+
+sites/manual_user/docs/course_create/index.de.md §General_Information.de.md§ 481
+[Kurszyklus ](General_Information.de.md)und gehen schauen Sie sich dann die einzelnen
+
+sites/manual_user/docs/course_create/index.de.md §Types_of_Course_Element.de.md§ 481
 Bereiche an.  Die konkreten [Kursbausteine](Kursbausteine.html), die Sie für
 den Aufbau von Kursen verwenden können, werden in einem separaten Kapitel
 ausführlich erläutert. Die Erstellung der Kursstruktur erfolgt sowohl bei

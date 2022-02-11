@@ -18,6 +18,8 @@ finden Sie auf den separaten Seiten der Werkzeuge.
 
 ## Kursbaustein einfügen
 
+
+sites/manual_user/docs/course_create/Using_additional_Course_Editor_Tools.de.md §Types_of_Course_Element.de.md§ 481
 Hier haben Sie Zugriff auf alle [Kursbausteine](Kursbausteine.html), die Sie
 in einen Kurs einbauen können.
 
@@ -61,7 +63,9 @@ eingetragen sind.
 Die Spalten zeigen _nicht die Bewertungen_ für einzelne Personen an, sondern
 geben lediglich einen Überblick über die Konfiguration der Bausteine. Sollen
 Punkte vergeben oder ein bestanden/nicht bestanden werden, erfolgt dies im
-"[Bewertungswerkzeug](../../pages/viewpage.action%EF%B9%96pageId=108593653.html)"
+
+sites/manual_user/docs/course_create/Using_additional_Course_Editor_Tools.de.md §Assessment_tool_-_overview.de.md§ 481
+"[Bewertungswerkzeug](../course_operation/Assessment_tool_-_overview.de.md)"
 des Kurses.
 
 ![](assets/Kurseditor_Konfiguration_Spalten.png)
@@ -128,7 +132,9 @@ Diese Eingabe zeigt den Kurs, wie er sich den Studierenden der Fachrichtung
 Chemie präsentiert.  
   
 Hier finden Sie weiterführende Informationen:  
-[AAI-Attribute ](../../pages/viewpage.action%EF%B9%96pageId=108593655.html)  
+
+sites/manual_user/docs/course_create/Using_additional_Course_Editor_Tools.de.md §Access_Restrictions_in_the_Expert_Mode.de.md§ 481
+[AAI-Attribute ](Access_Restrictions_in_the_Expert_Mode.de.md)  
 [__ AAI - Generelle Informationen](http://www.switch.ch/aai/)
 
 Die Kursvorschau bietet sich z.B. an um einen Kurs vor dem Start aus der
@@ -155,7 +161,9 @@ des Kurseditors publiziert werden. Erst wenn Sie den Kurs publizieren, wird
 dieser im Kursrun bei geschlossenem Editor sichtbar. Das bedeutet aber noch
 nicht, dass die Lernenden auch schon den Kurs sehen. Hierfür muss dieser
 veröffentlicht und der Zugang konfiguriert sein (vergl. Kapitel
-"[Zugangskonfiguration](Zugangskonfiguration.html)")
+
+sites/manual_user/docs/course_create/Using_additional_Course_Editor_Tools.de.md §Access_configuration.de.md§ 481
+"[Zugangskonfiguration](Access_configuration.de.md)")
 
 Wollen Sie differenziertere Einstellungen beim Publizieren vornehmen, wählen
 Sie den "Publizieren" Button in der Toolbar des Kurseditors.
@@ -169,7 +177,9 @@ Kursbausteine begrenzt.
 Schritt 2: Hier erhalten Sie Zugang zu den generellen
 Veröffentlichungsoptionen eines Kurses. Bestimmen Sie, welche OpenOlat-
 Benutzer Zugriff auf Ihren Kurs haben sollen. Lesen Sie im Kapitel
-„[Kurseinstellungen](Kurseinstellungen.html)“ welche  Optionen Ihnen hier zur
+
+sites/manual_user/docs/course_create/Using_additional_Course_Editor_Tools.de.md §Course_Settings.de.md§ 481
+„[Kurseinstellungen](Course_Settings.de.md)“ welche  Optionen Ihnen hier zur
 Verfügung stehen. Nach diesem Schritt kann der Vorgang des Publizierens
 bereits abgeschlossen werden. Klicken Sie dazu auf „Fertigstellen“.
 

@@ -3,6 +3,14 @@ from os import walk
 from urllib.parse import unquote
 from pathlib import Path
 
+#Home
+
+#confluencePath = '/Users/gnaegi/Desktop/us.sitesucker.mac.sitesucker/confluence.openolat.org/'
+projectPath = '/Users/gnaegi/OpenOLAT-docs/'
+
+#Office
+confluencePath = '/Users/gnaegi/Desktop/us.sitesucker.mac.sitesucker_full/confluence.openolat.org/'
+projectPath = '/Users/gnaegi/workspace/OpenOLAT-docs/'
 
 def recurse_findDirs(path):
 	for entry in os.scandir(path):
@@ -13,6 +21,15 @@ def recurse_findDirs(path):
 		else:
 			raise NotImplemented()
 
+def findAllPages(dir):
+	for entry in recurse_findDirs(dir):
+		filename = entry.path
+		if filename.endswith('.md'):
+			filename = filename.split('OpenOLAT-docs/')[1]
+			parts = filename.split('/')
+			#print(parts)
+			yield parts
+	
 
 def cleanFilename(name):
 	name = name.replace(' / ', '_')
@@ -28,7 +45,7 @@ def lookupByPageId(orig):
 	idmatch = re.search("pageId=(\d*)", orig)
 	if idmatch:
 		id = idmatch.group(1)
-	path = '/Users/gnaegi/Desktop/us.sitesucker.mac.sitesucker/confluence.openolat.org/pages/viewpage.action﹖pageId=' + id + '.html'
+	path = confluencePath + 'pages/viewpage.action﹖pageId=' + id + '.html'
 	if os.path.exists(path):
 		file = open(path, "r+", encoding='utf-8', errors='ignore')
 		match = re.search('<a href="viewpage.action%EF%B9%96pageId=' + id + '.html">(.*)</a>', file.read())
@@ -41,7 +58,7 @@ def lookupByPageId(orig):
 def lookupFilename(orig):
 	cleaned = unquote(orig)
 	cleaned = cleanFilename(cleaned)
-	mappings = open('/Users/gnaegi/OpenOLAT-docs/bin/16.1-mapping.csv', 'r', encoding="utf-8") 
+	mappings = open(projectPath + 'bin/16.1-mapping.csv', 'r', encoding="utf-8")
 	reader = csv.reader(mappings, delimiter=',', quotechar='"')
 	for pair in reader:
 		de = pair[0]
@@ -63,39 +80,99 @@ def lookupFilename(orig):
 #			return cleaned
 
 
-def listReferencesDir(dir):
+def listReferencesDir(dir, replace):
 	for entry in recurse_findDirs(dir):
 		filename = entry.path
-		if filename.endswith('.md') and 'OpenOLAT_16.1_User_Manual' not in filename:
-			listReferences(filename)
+		if filename.endswith('.md'):
+			listReferences(filename, replace)
 
-def listReferences(filename):
-	with fileinput.FileInput(filename) as file:
+def listReferences(filename, replace):
+	allPages = list(findAllPages(projectPath))
+	with fileinput.FileInput(filename, inplace=replace) as file:
 		for idx, line in enumerate(file):
-			#(Personal+menu+and+general+components.html) 
-			references = re.findall('\(([^\s\)]*)\.(html|md)(#\S*){0,1}\)',line)
+			newline = line
+#			print(line)
+			#(Personal+menu+and+general+components.html)
+			references = re.findall('(\(([^\s\)]*)\.(html|md)(#\S*){0,1}\))',line)
 			for ref in references:
 				# don't change external references
-				if (ref[0].startswith('http')):
+				if (ref[1].startswith('http')):
 					continue
-				name = os.path.basename(ref[0])
-				type = ref[1]
+				name = os.path.basename(ref[1])
+				type = ref[2]
 				hash = ''
 				if len(ref) > 2:
-					hash = ref[2]
+					hash = ref[3]
 
 				# skip md files for now TODO later
 				if type == 'html':
 					# fallback to pagees
 					if ('viewpage.action' in name):
 						name = lookupByPageId(name)
-
+					if (not name):
+						if not replace:
+							print("*** ERROR1 ***", ref[0])
+#							TODO manual treatment
+						continue
 					clean = cleanFilename(name)
 					lookup = lookupFilename(clean)
-					if (lookup):
-						print(filename, type, name, '\t\t', hash, clean, lookup)
-#					else:
+					if lookup:
+						lookup = lookup + '.md'
+						replacementPath = findReplacementPath(filename, lookup, allPages)
+						if replacementPath:
+							line = line.replace(ref[0],'(' + replacementPath + hash + ')')
+							if not replace:
+#								print(1,ref[0], ' in ', filename)
+#								print(2,replacementPath)
+#								print(3,line)
+								print(filename, type, name, '\t\t', hash, clean, lookup, replacementPath)
+#								print(filename, type, name, '\t\t', hash, clean, lookup)
+
+					elif not replace:
+						print("*** ERROR2 ***", ref[0])
 #						TODO manual treatment
+			if replace:
+				print(line, end='')
+
+def findReplacementPath(filePath, targetPage, allPages):
+	print('\n' + filePath + ' §' + targetPage + '§', len(allPages))
+	for page in allPages:
+		#print(page[len(page)-1])
+		if page[len(page)-1] == targetPage:
+
+			file = filePath.split('/')
+			myPage = page
+			# remove stuff that does not appear in URL
+			if 'docs' in file: file.remove('docs')
+			if 'sites' in file: file.remove('sites')
+			if 'docs' in myPage: myPage.remove('docs')
+			if 'sites' in myPage: myPage.remove('sites')
+			"""
+			print(myPage)
+			print(file)
+			"""
+
+			newPath = ''
+			i = 0
+			branched = False
+			while i < len(myPage) and i < len(file):
+				pageElem = myPage[i]
+				fileElem = file[i]
+				i += 1
+				if fileElem == pageElem and not branched:
+					if pageElem == targetPage:
+						newPath = targetPage
+					else:
+						continue
+				else:
+					branched = True
+					if len(newPath) == 0:
+						newPath = pageElem
+					else:
+						newPath = '../' + newPath + '/' + pageElem
+			
+#			print('XXX', targetPage, newPath)
+			return newPath
 
 
 def main(argv):
@@ -103,18 +180,32 @@ def main(argv):
 	inputfile = ''
 	outputfile = ''
 	try:
-		opts, args = getopt.getopt(argv,"l")
+		opts, args = getopt.getopt(argv,"l:r:p:")
 	except getopt.GetoptError:
 		print('migrate_assets.py -l')
 		sys.exit(2)
 	for opt, arg in opts:
 		if opt in ("-l"):
-			path = args[0]
+			# Only list found references, read-only
+			path = arg
 			if os.path.isdir(path):
-				listReferencesDir(path)
+				listReferencesDir(path, False)
 			else:
-				listReferences(path)
-			
+				listReferences(path, False)
+		if opt in ("-r"):
+			# Replace found references
+			path = arg
+			if os.path.isdir(path):
+				listReferencesDir(path, True)
+			else:
+				listReferences(path, True)
+		if opt in ("-p"):
+			# List all the pages from the dictionary
+			path = arg
+			if os.path.isdir(path):
+				for entry in findAllPages(path):
+					print(entry)
+
 
 			
 

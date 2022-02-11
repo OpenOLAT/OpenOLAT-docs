@@ -20,9 +20,13 @@ type and, if available, the subject selected at the end. The questions created
 this way can then be imported into the OpenOlat learning resource Test and be
 utilized.
 
+
+sites/manual_user/docs/question_bank/Data_Management.md §Creating_Tests.md§ 481
 Information on test creation can be found [here](Creating+Tests.html).
 Information on the further design of a question in the chapter "[Item Detailed
-view](Item+Detailed+View.html)".
+
+sites/manual_user/docs/question_bank/Data_Management.md §Item_Detailed_View.md§ 481
+view](Item_Detailed_View.md)".
 
 ##  Import questions
 

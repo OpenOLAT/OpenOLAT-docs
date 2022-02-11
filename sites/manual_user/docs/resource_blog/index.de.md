@@ -1,7 +1,9 @@
 # Blog erstellen
 
   * [Vier Schritte zu Ihrem Blog](Four_Steps_to_Your_Blog.de.md)
-  * [Blog - Weitere Konfigurationen](Blog+-+Weitere+Konfigurationen.html)
+
+sites/manual_user/docs/resource_blog/index.de.md §Blog_-_Further_Configurations.de.md§ 481
+  * [Blog - Weitere Konfigurationen](Blog_-_Further_Configurations.de.md)
 
   
 

@@ -18,12 +18,24 @@ Umfangreichere Beschreibungen zur Funktionsweise der folgenden Bausteine
 finden Sie auf separaten Seiten:
 
   * [Aufgabe](Working_with_Forums.de.md)
-  * [Forum](Arbeiten+mit+Foren.html)
-  * [Gruppenaufgabe](Arbeiten+mit+Aufgaben+und+Gruppenaufgaben.html)
-  * [Selbsttest](Arbeiten+mit+Tests.html)
-  * [Test](Arbeiten+mit+Tests.html)
-  * [Themenvergabe](Arbeiten+mit+der+Themenvergabe.html)
-  * [Wiki](Arbeiten+mit+Wiki.html)
+
+sites/manual_user/docs/learning_activities/Working_With_Course_Elements.de.md §Working_with_Tasks_and_Group_Tasks.de.md§ 481
+  * [Forum](Working_with_Tasks_and_Group_Tasks.de.md)
+
+sites/manual_user/docs/learning_activities/Working_With_Course_Elements.de.md §Working_with_Forums.de.md§ 481
+  * [Gruppenaufgabe](Working_with_Forums.de.md)
+
+sites/manual_user/docs/learning_activities/Working_With_Course_Elements.de.md §Working_with_Topic_Assignment.de.md§ 481
+  * [Selbsttest](Working_with_Topic_Assignment.de.md)
+
+sites/manual_user/docs/learning_activities/Working_With_Course_Elements.de.md §Working_with_Topic_Assignment.de.md§ 481
+  * [Test](Working_with_Topic_Assignment.de.md)
+
+sites/manual_user/docs/learning_activities/Working_With_Course_Elements.de.md §Working_with_Tests.de.md§ 481
+  * [Themenvergabe](Working_with_Tests.de.md)
+
+sites/manual_user/docs/learning_activities/Working_With_Course_Elements.de.md §Working_with_Wiki.de.md§ 481
+  * [Wiki](Working_with_Wiki.de.md)
 
   * 1Bewertung
   * 2Blog
@@ -131,6 +143,8 @@ Wählen Sie den Link „Einschreiben“, um Mitglied einer Gruppe zu werden.
 Abhängig von der Konfiguration können Sie sich entweder nur in eine Gruppe
 einschreiben, oder in mehrere gleichzeitig. Die Einschreibung bewirkt, dass
 nun rechts im Dropdown-Menü "Mein Kurs" die Links zu den entsprechenden
+
+sites/manual_user/docs/learning_activities/Working_With_Course_Elements.de.md §Groups.de.md§ 481
 Kurs-[Gruppe](Gruppen.html)n in denen Sie Mitglied sind, sichtbar werden.
 
 Bei einigen Gruppen ist die Anzahl Mitglieder limitiert. Ist die Gruppe voll,
@@ -189,7 +203,9 @@ hochladen dürfen, finden Sie in der Leiste über den Dateien, die
 entsprechenden Funktionen. Sie können dann auch Dateien löschen, Unterordner
 einrichten. Wenn Sie verhindern möchten, dass jemand Ihre Dateien löscht,
 können Sie in der Tabellenansicht auf das Icon
-„[Metadaten](Volltextsuche.html#Volltextsuche-_metadata)“ klicken und die
+
+sites/manual_user/docs/learning_activities/Working_With_Course_Elements.de.md §Full-Text_Search.de.md§ 481
+„[Metadaten](../personal/Full-Text_Search.de.md#Volltextsuche-_metadata)“ klicken und die
 Datei sperren. Gesperrte Dateien sind mit einem Schloss gekennzeichnet.
 
 ![](assets/KB_Ordner_schloss.png)
@@ -198,7 +214,9 @@ Datei sperren. Gesperrte Dateien sind mit einem Schloss gekennzeichnet.
 
 Achtung nicht verwechseln: Neben den Download Ordnern in Kursen stehen
 Lernenden auch [Persönliche
-Ordner](../../pages/viewpage.action%EF%B9%96pageId=108593736.html) zur
+
+sites/manual_user/docs/learning_activities/Working_With_Course_Elements.de.md §Personal_folders.de.md§ 481
+Ordner](../personal/Personal_folders.de.md) zur
 Verfügung, die kursunabhängig für das individuelle Lernen genutzt werden
 können. Ferner gibt es den Kursbaustein "Teilnehmer Ordner" (siehe unten).
 
@@ -254,13 +272,19 @@ vornehmen.
 
 Sobald Sie die Portfolioaufgabe im Kurs abgeholt haben, finden Sie diese auch
 in Ihrem [persönlichen
-Menü](../../pages/viewpage.action%EF%B9%96pageId=108593349.html) unter
+
+sites/manual_user/docs/learning_activities/Working_With_Course_Elements.de.md §Personal_Menu.de.md§ 481
+Menü](../personal/Personal_Menu.de.md) unter
 „Portfolio 2.0“ - „Meine Portfolio Mappen“.
 
 Um die fertige Bearbeitung einzureichen, publizieren Sie die Aufgaben und
-geben Sie den Bereich [frei](Von+mir+freigegeben.html). Weitere Informationen
+
+sites/manual_user/docs/learning_activities/Working_With_Course_Elements.de.md §Shared_by_me.de.md§ 481
+geben Sie den Bereich [frei](../portfolio/Shared_by_me.de.md). Weitere Informationen
 zur Bearbeitung einer Portfolioaufgabe finden Sie
-[hier](Portfolioaufgabe%EF%B9%95+abholen+und+bearbeiten.html).
+
+sites/manual_user/docs/learning_activities/Working_With_Course_Elements.de.md §Portfolio_task_and_assignment_Collecting_and_editing.de.md§ 481
+[hier](../portfolio/Portfolio_task_and_assignment_Collecting_and_editing.de.md).
 
 ## Terminplanung
 
@@ -318,12 +342,24 @@ Beantwortung von Quizfragen oder der Aufruf von Verlinkungen möglich.
 
 ![](assets/vitero.png)
 
-Mit den Kursbausteinen [Adobe Connect](Kursbaustein+Adobe+Connect.html),
-[GoToMeeting](Kursbaustein+GoToMeeting.html),
-[Vitero](Kursbaustein+vitero.html) [BigBlueButton
-](Kursbaustein+BigBlueButton.html)und
-[OpenMeetings](Kursbaustein+OpenMeetings.html) können in OpenOlat
-unterschiedliche [Virtuelle Klassenzimmer](Virtuelle+Klassenzimmer.html) für
+
+sites/manual_user/docs/learning_activities/Working_With_Course_Elements.de.md §Course_element_Adobe_Connect.de.md§ 481
+Mit den Kursbausteinen [Adobe Connect](../course_elements/Course_element_Adobe_Connect.de.md),
+
+sites/manual_user/docs/learning_activities/Working_With_Course_Elements.de.md §Course_element_GoToMeeting.de.md§ 481
+[GoToMeeting](../course_elements/Course_element_GoToMeeting.de.md),
+
+sites/manual_user/docs/learning_activities/Working_With_Course_Elements.de.md §Course_element_vitero.de.md§ 481
+[Vitero](../course_elements/Course_element_vitero.de.md) [BigBlueButton
+
+sites/manual_user/docs/learning_activities/Working_With_Course_Elements.de.md §Course_element_BigBlueButton.de.md§ 481
+](../course_elements/Course_element_BigBlueButton.de.md)und
+
+sites/manual_user/docs/learning_activities/Working_With_Course_Elements.de.md §Course_element_OpenMeetings.de.md§ 481
+[OpenMeetings](../course_elements/Course_element_OpenMeetings.de.md) können in OpenOlat
+
+sites/manual_user/docs/learning_activities/Working_With_Course_Elements.de.md §Virtual_classrooms.de.md§ 481
+unterschiedliche [Virtuelle Klassenzimmer](../course_elements/Virtual_classrooms.de.md) für
 synchrone Meetings, Video-Konferenzen oder Webinare zum Einsatz kommen.
 Welcher Kursbaustein eingebunden wird, und welche Funktionalitäten damit zur
 Verfügung stehen, hängt davon ab welche Konfiguration ihr OpenOlat

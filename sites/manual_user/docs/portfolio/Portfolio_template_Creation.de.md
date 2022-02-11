@@ -54,5 +54,7 @@ Lernressource ist identisch wie bei der Erstellung der Portfolio Vorlage.
 
 Um eine erstellte und eingerichtete Portfolio 2.0 Vorlage in einen OpenOlat
 Kurs einzubinden fügen sie ihrem Kurs den Kursbaustein [Portfolioaufgabe
-](Portfolioaufgabe+erstellen.html)hinzu.
+
+sites/manual_user/docs/portfolio/Portfolio_template_Creation.de.md §Creating_Portfolio_Tasks.de.md§ 481
+](Creating_Portfolio_Tasks.de.md)hinzu.
 

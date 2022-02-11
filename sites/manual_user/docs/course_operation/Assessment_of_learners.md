@@ -58,7 +58,9 @@ Go to the assessment tool and follow these steps:
 
 ![](assets/3.1.png)  
   
-4\. You will now be taken to the [assessment form](The+assessment+form.html)
+
+sites/manual_user/docs/course_operation/Assessment_of_learners.md §The_assessment_form.md§ 481
+4\. You will now be taken to the [assessment form](The_assessment_form.md)
 of the respective course element. The exact possibilities depend on the course
 element type and the corresponding settings.
 
@@ -72,15 +74,21 @@ element type and the corresponding settings.
 
 ![](assets/5.1.png)  
   
-The course elements "[Task](Assessing+tasks+and+group+tasks.html)" and
-"[Assessment](Assessment+of+course+modules.html)" also offer the possibility
+
+sites/manual_user/docs/course_operation/Assessment_of_learners.md §Assessing_tasks_and_group_tasks.md§ 481
+The course elements "[Task](Assessing_tasks_and_group_tasks.md)" and
+
+sites/manual_user/docs/course_operation/Assessment_of_learners.md §Assessment_of_course_modules.md§ 481
+"[Assessment](Assessment_of_course_modules.md)" also offer the possibility
 of bulk assessment.
 
 If you want to assess all or many users at once, you can start a "New bulk
 assessment". To do this, create an assessment in a spreadsheet program and
 paste the data into the mass assessment field using copy+paste. You can find
 more information about bulk assessment
-[here](+create+a+bulk+assessment+for+submission+tasks.html).
+
+sites/manual_user/docs/course_operation/Assessment_of_learners.md §create_a_bulk_assessment_for_submission_tasks.md§ 481
+[here](../how-to/create_a_bulk_assessment_for_submission_tasks.md).
 
 To rate all members of a group you can use the filter function in the tab
 "Users" to display only the respective group members and then rate them

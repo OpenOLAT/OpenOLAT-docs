@@ -19,7 +19,9 @@ learning resources, a questionnaire can also be copied, exported, and deleted.
 Using the course element "Survey", a questionnaire can be added to a course
 and then completed by the participants. In addition, questionnaires can also
 be used as a [rubric ](Rubric.md)evaluation in the course element
-"[Assessment](Course+Element%EF%B9%95+Assessment.html)".
+
+sites/manual_user/docs/forms/General_information_on_Forms.md §Course_Element_Assessment.md§ 481
+"[Assessment](../course_elements/Course_Element_Assessment.md)".
 
 OpenOlat ensures that each course participant can only complete the
 questionnaire once. Questionnaire results are saved anonymously by default.

@@ -43,7 +43,9 @@ As far as possible you can upload a citation in the media center. It allows
 you to insert a citation more than once in a portfolio without entering the
 whole source every time again and again. Therefore it is essential to
 implement carefully and completely the [source of
-citation](My+portfolio+binders.html#Myportfoliobinders-zitat) already the
+
+sites/manual_user/docs/portfolio/Media_center.md §My_portfolio_binders.md§ 481
+citation](My_portfolio_binders.md#Myportfoliobinders-zitat) already the
 first time.  
 
   
@@ -71,7 +73,9 @@ entries or wiki pages. It is not sufficient to just have editing rights.
 
 When creating a new entry within a portfolio binder, you may upload files to
 the binder directly. More information is provided under [My portfolio
-binders](My+portfolio+binders.html).
+
+sites/manual_user/docs/portfolio/Media_center.md §My_portfolio_binders.md§ 481
+binders](My_portfolio_binders.md).
 
   
 

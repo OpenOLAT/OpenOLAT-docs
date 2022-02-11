@@ -25,7 +25,9 @@ Weitere Informationen zum
 [Beurteilungsprozess](../../manual_user/question_bank/Question_Bank_Review_Process.de.md) finden Sie im
 entsprechenden Kapitel.
 
-  * Taxonomie: Jedem Fragenpool ist die Taxonomie "Question pool" zugeordnet. Diese Taxonomie wurde automatisch aus den ehemaligen Fachbereichen erstellt. Änderungen können im Tab "Fachbereiche" vorgenommen werden. Weitere Informationen zur Taxonomie finden Sie [hier](Modules%EF%B9%95+Taxonomie.html).
+
+sites/manual_admin/docs/administration/eAssessment_Question_bank.de.md §Modules_Taxonomy.de.md§ 481
+  * Taxonomie: Jedem Fragenpool ist die Taxonomie "Question pool" zugeordnet. Diese Taxonomie wurde automatisch aus den ehemaligen Fachbereichen erstellt. Änderungen können im Tab "Fachbereiche" vorgenommen werden. Weitere Informationen zur Taxonomie finden Sie [hier](Modules_Taxonomy.de.md).
   * Auswählbare Fachbereiche: Wenn "Alle Fachbereiche" ausgewählt ist, kann bei einer Frage jeder Fachbereich ausgewählt werden, unabhängig von den eigenen Kompetenzen.   
 Wenn jedoch "Fachbereiche mit der Kompetenz "Dozieren" oder "Verwalten""
 ausgewählt ist, können im Fragenpool die Fragen nur denjenigen Fachbereichen
@@ -34,7 +36,9 @@ Diese Kompetenzen werden entweder unter Administration → Modules → Taxonomie
 oder in der Benutzerverwaltung hinzugefügt.
 
   * Fachbereich beim Import erzeugen: Fragen können via Excel-Import im Fragenpool hinzugefügt werden. Bei jeder Frage kann als Metadaten der Fachbereich importiert werden. Wenn diese Option aktiviert ist, bedeutet dies, dass durch den Import neue Fachbereiche angelegt werden, sofern diese noch nicht bestehen. Wenn es sich nur um einen Tippfehler handelt, wird auch ein neuer Fachbereich erstellt.
-  * Stufen: Hier kann die Verwendung von [Stufen ](Fragenpool+Administration.html)aktiviert werden.
+
+sites/manual_admin/docs/administration/eAssessment_Question_bank.de.md §Question_Bank_Administration.de.md§ 481
+  * Stufen: Hier kann die Verwendung von [Stufen ](../../manual_user/question_bank/Question_Bank_Administration.de.md)aktiviert werden.
   * Fragen löschen, wenn Autor gelöscht: Wenn der letzte Autor einer Frage aus der Benutzerverwaltung von OpenOlat gelöscht wird, werden alle diese Fragen gelöscht, sofern diese Option hier aktiviert wird. Ansonsten bleiben die Fragen im Fragenpool drin, ohne zugeordneten Autor. Als Systemadministrator können Sie im Fragenpool unter "Fragen" → "Ohne Autor" all diejenigen Fragen suchen und einen neuen Autor zuordnen.
 
 Tipp
@@ -73,7 +77,9 @@ erleichtert den Benutzern des Fragenpools das Zurechtfinden.
 
 Hier können neue Fachbereiche hinzugefügt, bearbeitet, zusammengefügt und
 gelöscht werden. Weitere Informationen finden Sie unter
-[Taxonomie](Modules%EF%B9%95+Taxonomie.html).
+
+sites/manual_admin/docs/administration/eAssessment_Question_bank.de.md §Modules_Taxonomy.de.md§ 481
+[Taxonomie](Modules_Taxonomy.de.md).
 
 ### Tab Pool-Verwaltung
 
@@ -87,7 +93,9 @@ teilen.
 ### Tab Fragetypen
 
 Hier werden alle Fragetypen aufgelistet, welche im Fragenpool auftauchen. Dies
-sind zum einen die [Fragetypen](Test+Fragetypen.html), die im OpenOlat
+
+sites/manual_admin/docs/administration/eAssessment_Question_bank.de.md §Test_question_types.de.md§ 481
+sind zum einen die [Fragetypen](../../manual_user/tests/Test_question_types.de.md), die im OpenOlat
 erstellt werden können. Zum anderen sind dies jedoch auch Fragetypen, welche
 von externen Systemen importiert worden sind. Erstellen Sie hier zusätzliche
 Fragetypen, wenn die Standard Fragetypen von OpenOlat nicht genügen. Die

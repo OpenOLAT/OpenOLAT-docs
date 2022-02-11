@@ -5,16 +5,22 @@ einrichten und in einen Kurs einbinden können.
 
 Schritt 1: Lernressource Formular erstellen  
 ---  
+
+sites/manual_user/docs/forms/Three_Steps_to_your_Form.de.md §Authoring.de.md§ 481
 1| Im [Autorenbereich ](Autorenbereich.html)den Link "Erstellen" anklicken und
 die Lernressource "Formular " wählen.  
 2| Vergeben Sie einen Titel für das Formular.  
 3|
 
-Es erscheint das Menü "[Einstellungen](Kurseinstellungen.html)" der
+
+sites/manual_user/docs/forms/Three_Steps_to_your_Form.de.md §Course_Settings.de.md§ 481
+Es erscheint das Menü "[Einstellungen](../course_create/Course_Settings.de.md)" der
 Administration. Hier können Sie optional gleich oder später weitere
 Einstellungen vornehmen, z.B. eine Lizenz hinterlegen.  
   
-Wenn Sie das [Formular in Kursen](Formulare+in+Kursen.html) verwenden wollen
+
+sites/manual_user/docs/forms/Three_Steps_to_your_Form.de.md §Forms_in_Courses.de.md§ 481
+Wenn Sie das [Formular in Kursen](Forms_in_Courses.de.md) verwenden wollen
 brauchen Sie die den Tab "Freigabe" der Lernressource Formular _nicht_ weiter
 einreichten. Die Einrichtung des Tabs "Freigabe" ist vorrangig relevant, wenn
 Sie die Lernressource stand-alone verwenden wollen.
@@ -27,6 +33,8 @@ später das Auffinden und Zuordnen.
 Schritt 2: Formular gestalten + finalisieren  
 ---  
 1| In der "Administration" der Lernressource Formular → "Inhalt editieren"
+
+sites/manual_user/docs/forms/Three_Steps_to_your_Form.de.md §Form_editor_(Questionnaire_editor).de.md§ 481
 wählen und sie gelangen in den [Formular Editor](Formular+Editor.html)|  
   
 2|
@@ -65,12 +73,16 @@ Je nachdem welche Art von Fragen Sie erstellen möchten wählen Sie „Rubrik“
 „Einzelauswahl“, „Mehrfachauswahl“, „Datei hochladen“ oder „Texteingabe“.
 
 Weitere Einzelheiten zur Verwendung des Formular Editors finden Sie im Kapitel
+
+sites/manual_user/docs/forms/Three_Steps_to_your_Form.de.md §Form_editor_(Questionnaire_editor).de.md§ 481
 "[Formular Editor"](Formular+Editor.html).
 
 Schritt 3: Formular direkt im Kurs einbinden  
 ---  
 1|
 
+
+sites/manual_user/docs/forms/Three_Steps_to_your_Form.de.md §Authoring.de.md§ 481
 Gehen Sie in den [Autorenbereich](Autorenbereich.html). Im Bereich "Meine
 Kurse sowie unter "Meine Einträge" und gegebenenfalls unter "Favoriten" finden
 Sie Ihre Kurse. Starten Sie den Kurs in dem das Formular eingebunden werden
@@ -79,12 +91,16 @@ soll.
 2|
 
 Öffnen Sie über die "Administration" den
-"[Kurseditor](../../pages/viewpage.action%EF%B9%96pageId=108593713.html)".  
+
+sites/manual_user/docs/forms/Three_Steps_to_your_Form.de.md §In_Five_Steps_to_Your_Course_With_the_Course_Editor.de.md§ 481
+"[Kurseditor](../course_create/In_Five_Steps_to_Your_Course_With_the_Course_Editor.de.md)".  
   
   
 | Wählen sie "Kursbausteine einfügen" und klicken auf den gewünschten
 [Kursbaustein
-](../../pages/viewpage.action%EF%B9%96pageId=108593581.html)Formular, Umfrage
+
+sites/manual_user/docs/forms/Three_Steps_to_your_Form.de.md §Assessment.de.md§ 481
+](../course_elements/Assessment.de.md)Formular, Umfrage
 oder [Bewertung](../../pages/viewpage.action%EF%B9%96pageId=108593280.html),
 je nach Ihrem Szenario.  
 3|
@@ -116,5 +132,7 @@ die Auswahl "Ja" manuell oder automatisch erlauben. Alternativ kann auch der
 Achten Sie gegebenenfalls auch darauf, dass nicht die Konfiguration vorheriger
 Kursbausteine oder des obersten Kursknotens die Bearbeitung unerwünscht
 einschränkt, z.B. durch sequenzielle Lernschritte oder unerwünschte
-Erledigungskriterien im [Tab "Lernpfad".](Lernpfad+Kurs++-+Kurseditor.html)
+
+sites/manual_user/docs/forms/Three_Steps_to_your_Form.de.md §Learning_path_course_-_Course_editor.de.md§ 481
+Erledigungskriterien im [Tab "Lernpfad".](../course_create/Learning_path_course_-_Course_editor.de.md)
 
