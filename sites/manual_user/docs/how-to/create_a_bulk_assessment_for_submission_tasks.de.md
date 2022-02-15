@@ -1,7 +1,7 @@
 # ... eine Massenbewertung für Einsendeaufgaben erstellen
 
 Mit der Massenbewertung können Sie im [Bewertungswerkzeug
-](viewpage.action%EF%B9%96pageId=108593653.html)mehrere Kursteilnehmer zu
+](../course_operation/Assessment_tool_-_overview.de.md)mehrere Kursteilnehmer zu
 einem von Ihnen gewünschten Zeitpunkt auf einmal bewerten. Sie benötigen dazu
 eine Liste die die Benutzeridentifikation (Benutzername, registrierte E-Mail-
 Adresse oder Institutionsnummer/Matrikelnummer), die Anzahl Punkte, Status und
@@ -16,7 +16,9 @@ diese mit Werten zu füllen.
 ![](assets/Tabelle_Massenbewertung.png)
 
 Massenbewertungen können für die [Assessment
-Kursbausteine](viewpage.action%EF%B9%96pageId=108593581.html) Aufgabe,
+
+sites/manual_user/docs/how-to/create_a_bulk_assessment_for_submission_tasks.de.md §Assessment.de.md§ 481
+Kursbausteine](../course_elements/Assessment.de.md) Aufgabe,
 Gruppenaufgabe und Bewertung vorgenommen werden. Die Massenbewertung für die
 Bausteine Aufgabe und Bewertung erfolgt über den Tab „Benutzer“. Die Massen-
 Gruppenbewertung erfolgt über den Tab „Gruppen“.
@@ -24,8 +26,12 @@ Gruppenbewertung erfolgt über den Tab „Gruppen“.
   
 
  **Erstellung einer Massenbewertung für die Kursbausteine[Aufgabe
-](../display/OO161DE/Aufgaben+und+Gruppenaufgaben+bewerten.html)oder
-[Bewertung](../display/OO161DE/Bewertung+von+Kursbausteinen.html)**
+
+sites/manual_user/docs/how-to/create_a_bulk_assessment_for_submission_tasks.de.md §Assessing_tasks_and_group_tasks.de.md§ 481
+](../course_operation/Assessing_tasks_and_group_tasks.de.md)oder
+
+sites/manual_user/docs/how-to/create_a_bulk_assessment_for_submission_tasks.de.md §Assessment_of_course_modules.de.md§ 481
+[Bewertung](../course_operation/Assessment_of_course_modules.de.md)**
 
 Verwenden Sie ein externes Tabellenprogramm, erstellen Sie die gewünschten
 bzw. benötigten Spalten und tragen Sie die Bewertungen ein. Kopieren Sie

@@ -50,7 +50,7 @@ using the preview.
   
 You add further questions according to the same principle. The details of the
 settings can vary depending on the question type. You can also use [sections
-or test parts](Configure+tests.html) to further structure your test.
+or test parts](Configure_tests.md) to further structure your test.
 
 Please note that a single choice question has already been created by default
 and you should use it and edit or delete it.
@@ -134,7 +134,7 @@ of the toolbar.
 The test or self-test is now integrated in the course and visible and editable
 for the user. Tests (not self-tests) worked on by learners can be subsequently
 assessed by the teacher in the course run or in the assessment tool. For more
-info, see the chapter "[Assessing tests](Assessing+tests.html)".
+info, see the chapter "[Assessing tests](../course_operation/Assessing_tests.md)".
 
 The prerequisite for the learner to be able to take the test is that the
 course has been published and the respective persons have access to the

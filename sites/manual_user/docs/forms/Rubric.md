@@ -71,7 +71,7 @@ reports.
 
 An edited rubric can therefore automatically receive a corresponding number of
 points, which is particularly relevant when used in the course element
-"[Assessment](Knowledge+Transfer.html)".
+"[Assessment](../course_elements/Knowledge_Transfer.md)".
 
 If a rubric is included in a course module evaluation, the weighting can no
 longer be changed.

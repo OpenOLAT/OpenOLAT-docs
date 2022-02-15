@@ -21,7 +21,7 @@ element. If a score calculation has been set up for the top course element
 "Structure", the total points of a course or the points defined for the top
 element can also be displayed on the top level of the user view and the total
 results of the course participants ([evidence of
-achievement](Performance+assessment.html)) can be saved as a PDF file.
+achievement](../e-assessment/Performance_assessment.md)) can be saved as a PDF file.
 
 ### Display and column selection
 

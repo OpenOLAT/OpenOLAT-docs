@@ -14,6 +14,6 @@ specific settings under "Access control".
 ![](assets/pf_sharedbyme_EN.png)
 
 Click
-[here](Portfolio+task+and+assignment%EF%B9%95+Collecting+and+editing.html) to
+[here](Portfolio_task_and_assignment_Collecting_and_editing.md) to
 get more information about the Portfolio access control.
 

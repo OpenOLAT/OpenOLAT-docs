@@ -2,9 +2,9 @@
 
 Configuration of the login in the OpenOlat Administration
 
-  * [Security](Security.html)
+  * [Security](Security.md)
 
-  * [Guest and invitation](Guest+and+invitation.html)
+  * [Guest and invitation](Guest_and_invitation.md)
   * Passwords
   * Self-registration
 

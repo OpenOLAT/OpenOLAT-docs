@@ -5,7 +5,7 @@
 Wenn Sie eine neue Gruppe erstellen, sind Sie automatisch Betreuer dieser
 Gruppe. Betreuer der Gruppe erhalten den Link "Administration" im Menu.
 Generell können Sie die Gruppe administrieren, die Gruppe [löschen
-](Gruppenverwaltung.html)und diverse weitere Einstellungen vornehmen.
+](Group_Management.de.md)und diverse weitere Einstellungen vornehmen.
 
 ![](assets/Gruppe_Administration.png)
 
@@ -67,7 +67,9 @@ Teilnehmer oder alle Mitglieder) Nachrichten schicken.
 Sie gemeinsame Termine eintragen können. Wenn der Kalender aktiviert ist und
 gespeichert wurde, können Sie die Schreibberechtigungen dafür konfigurieren,
 d.h. festlegen wer Termine erfassen darf. Weitere generelle Informationen zu
-Kalenderfunktionen finden Sie im Kapitel [Kalender](Kalender.html).  
+
+sites/manual_user/docs/groups/Group_Administration.de.md §Calendar.de.md§ 481
+Kalenderfunktionen finden Sie im Kapitel [Kalender](../personal/Calendar.de.md).  
   
 ![](assets/folder.png)
 
@@ -78,14 +80,18 @@ Der verfügbare Speicherplatz beträgt 10 MB. Wenn der Ordner aktiviert ist und
 gespeichert wurde, können Sie die Schreibberechtigungen dafür konfigurieren,
 d.h. festlegen wer Dateien hochladen und erstellen darf. Weitere Informationen
 zum Ordner finden Sie
-[hier](../../pages/viewpage.action%EF%B9%96pageId=108593736.html).  
+
+sites/manual_user/docs/groups/Group_Administration.de.md §Personal_folders.de.md§ 481
+[hier](../personal/Personal_folders.de.md).  
   
 ![](assets/forum.png)
 
 | Forum| Hier stellen Sie Ihrer Gruppe ein Forum für Diskussionen zur
 Verfügung. Als Betreuer der Gruppe haben Sie das Recht, Beiträge zu editieren
 und zu löschen sowie neue Beiträge zu verfassen. Weitere Infos zur Arbeit mit
-Foren finden Sie [hier](Arbeiten+mit+Foren.html).  
+
+sites/manual_user/docs/groups/Group_Administration.de.md §Working_with_Tasks_and_Group_Tasks.de.md§ 481
+Foren finden Sie [hier](../learning_activities/Working_with_Tasks_and_Group_Tasks.de.md).  
   
 ![](assets/chat_icon.png)
 
@@ -96,11 +102,15 @@ welche anderen Mitglieder sich im Gruppenchat befinden.
 
 | Wiki| Sie können der Gruppe ein Wiki zur Verfügung stellen, um gemeinsam
 Inhalte zu erstellen. Weitere Infos zur Arbeit mit Wikis finden Sie
-[hier](Arbeiten+mit+Wiki.html).  
+
+sites/manual_user/docs/groups/Group_Administration.de.md §Working_with_Wiki.de.md§ 481
+[hier](../learning_activities/Working_with_Wiki.de.md).  
   
 ![](assets/portfolio_434343_64.png)
 
 | Portfolio| Sie können der Gruppe ein [Portfolio
+
+sites/manual_user/docs/groups/Group_Administration.de.md §Creating_Portfolios.de.md§ 481
 ](Portfolio+erstellen.html)2.0 zur Verfügung stellen.  
   
 ![](assets/openmeetings.png)
@@ -116,7 +126,9 @@ virtueller Meetingraum bzw. ein virtuelles Klassenzimmer zur Verfügung.
 
 Mit der Wahl von BigBlueButton können einer Gruppe mehrere BigBlueButton Räume
 zur Verfügung gestellt werden. Die Funktionalität ist ähnlich wie beim
-entsprechenden [Kursbaustein BigBlueButton](Kursbaustein+BigBlueButton.html).
+
+sites/manual_user/docs/groups/Group_Administration.de.md §Course_element_BigBlueButton.de.md§ 481
+entsprechenden [Kursbaustein BigBlueButton](../course_elements/Course_element_BigBlueButton.de.md).
 
 In der Gruppe stehen nur die für Gruppen generell aktivierten BigBlueButton
 Vorlagen zur Verfügung. Diese können von den Raum-Vorlagen in Kursen
@@ -130,7 +142,9 @@ Templates zur Verfügung.
 
 Mit der Wahl von Microsoft Teams können einer Gruppe mehrere BigBlueButton
 Räume zur Verfügung gestellt werden. Weitere Informationen zu MS Teams finden
-Sie [hier](Kursbaustein+Microsoft+Teams.html).  
+
+sites/manual_user/docs/groups/Group_Administration.de.md §Course_element_Microsoft_Teams.de.md§ 481
+Sie [hier](../course_elements/Course_element_Microsoft_Teams.de.md).  
   
 Jedes Werkzeug kann nur einmal in eine Gruppe eingebunden werden. Es ist also
 nicht möglich, einer Gruppe mehrere Ordner, Wiki oder Foren Bausteine zur
@@ -140,7 +154,9 @@ sollten Sie statt einer Gruppe einen Kurs verwenden.
   
 
 Infos zur Nutzung der Werkzeuge durch die Gruppen-Teilnehmer finden Sie
-[hier](Gruppenwerkzeuge+nutzen.html).
+
+sites/manual_user/docs/groups/Group_Administration.de.md §Using_Group_Tools.de.md§ 481
+[hier](Using_Group_Tools.de.md).
 
   
 
@@ -262,7 +278,9 @@ Kursen.
 
 Gruppen und Kurse können auf zwei Wegen verknüpft werden. Entweder ausgehend
 von der Gruppe im Tab "Kurse" oder ausgehend vom Kurs über die
-"[Mitgliederverwaltung](Mitgliederverwaltung.html)" → "Gruppen"
+
+sites/manual_user/docs/groups/Group_Administration.de.md §Members_management.de.md§ 481
+"[Mitgliederverwaltung](../course_operation/Members_management.de.md)" → "Gruppen"
 
 in der Gruppenansicht im Menüpunkt Administration unter dem **Tab „Kurse** “
 wählt man "Kurs hinzufügen". Es können nur Kurse verbunden werden bei denen
@@ -287,5 +305,7 @@ eine inaktive Gruppe gelöscht oder reaktiviert werden.
 ![](assets/Gruppe_status.png)
 
 Weitere Informationen finden Sie im separaten Kapitel "[Automatischer Gruppen-
-Lebenszyklus".](Automatischer+Gruppenlebenszyklus.html)
+
+sites/manual_user/docs/groups/Group_Administration.de.md §Automatic_Group_Lifecycle.de.md§ 481
+Lebenszyklus".](../../manual_admin/administration/Automatic_Group_Lifecycle.de.md)
 

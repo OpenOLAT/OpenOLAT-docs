@@ -30,6 +30,8 @@ liegen somit beide Test-Versionen vor unter "Meine Einträge" vor.
 ## Konvertieren von einzelnen Fragen
 
 Neben Tests können auch einzelne Fragen konvertiert werden. Fragen werden im
+
+sites/manual_user/docs/tests/Changing_from_QTI_1.2_to_QTI_2.1.de.md §Question_Bank.de.md§ 481
 Fragenpool konvertiert. Öffnen Sie dazu den [Fragenpool](Fragenpool.html),
 markieren Sie die Fragen, welche Sie konvertieren möchten (solche im Format
 IMS QTI 1.2) und betätigen Sie die Schaltfläche Konvertieren.

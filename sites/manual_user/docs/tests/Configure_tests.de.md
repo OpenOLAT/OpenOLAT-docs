@@ -74,7 +74,7 @@ Eine zeitliche Beschränkung des Kurses kann sowohl direkt im Testeditor wie
 hier beschrieben oder nach dem Einbinden des Tests in einen Kurs im Kurseditor
 im Tab „Optionen“ eingerichtet werden.  Wenn nötig kann die Testzeit auch für
 einzelne Personen im [Bewertungswerkzeug
-](../../pages/viewpage.action%EF%B9%96pageId=108593653.html)verlängert werden.  
+](../course_operation/Assessment_tool_-_overview.de.md)verlängert werden.  
   
 ### Tab Feedback
 

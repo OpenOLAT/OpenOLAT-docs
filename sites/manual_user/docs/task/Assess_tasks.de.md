@@ -8,9 +8,9 @@ Aufgaben vornehmen.
 
 Wie Aufgaben und Gruppenaufgaben im Bewertungswerkezug bewertet werden
 erfahren Sie ausführlich im Kapitel
-"[Bewertungswerkzeug](../../pages/viewpage.action%EF%B9%96pageId=108593653.html)"
+"[Bewertungswerkzeug](../course_operation/Assessment_tool_-_overview.de.md)"
 → "[Aufgaben und Gruppenaufgaben
-bewerten](Aufgaben+und+Gruppenaufgaben+bewerten.html)". Im Folgenden wird kurz
+bewerten](../course_operation/Assessing_tasks_and_group_tasks.de.md)". Im Folgenden wird kurz
 beschrieben, wie die Bewertung im Kursrun erfolgt:
 
 ## Übersicht für Betreuer

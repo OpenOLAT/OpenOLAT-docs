@@ -6,23 +6,23 @@
   * Contact tracing
   * Course reminders
   * COVID certificate
-  * [Document pool](Modules%EF%B9%95+Document+pool.html)
-  * [Taxonomy](Modules%EF%B9%95+Taxonomy.html)
+  * [Document pool](Modules_Document_pool.md)
+  * [Taxonomy](Modules_Taxonomy.md)
   * Live stream
   * Semester terms
   * Privacy
   * Bookings
   * Group
-  * [Lectures](Lecture+and+roll+call+management.html)
+  * [Lectures](Lecture_and_roll_call_management.md)
   * Library
   * Forum
   * Course
   * Catalog
   * Repository
-  * [Organisations](Modules%EF%B9%95+Organisations.html)
+  * [Organisations](Modules_Organisations.md)
   * Role user to user
   * Request account deletion
-  * Curriculum
+  * [Curriculum](Modules_Curriculum.md)
   * Quality management
 
   

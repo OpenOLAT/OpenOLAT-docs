@@ -27,13 +27,13 @@ filtered display:
 
 ## Course roles
 
-Three course roles are distinguished: course owner, [course coach](Coach.html)
+Three course roles are distinguished: course owner, [course coach](../../manual_user/general/Coach.md)
 and course participant. The members of the respective roles can be displayed
 and edited here.
 
 ## Group Roles
 
-There are two group roles: [group coach](Group+Administration.html) and group
+There are two group roles: [group coach](../../manual_user/groups/Group_Administration.md) and group
 participants. These can be displayed and edited.
 
 ## Curriculum Roles

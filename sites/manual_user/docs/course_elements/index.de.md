@@ -3,6 +3,8 @@
 In diesem Kapitel erfahren Kursautoren im Detail, welche Kursbausteine im
 Kurseditor eines Kurses zur Verfügung stehen und wie sie konfiguriert werden.
 Folgen Sie zuerst den Anleitungen im Kapitel [„Kurs
+
+sites/manual_user/docs/course_elements/index.de.md §Creating_Courses.de.md§ 481
 erstellen"](Kurs+erstellen.html), wenn Sie noch keinen Kurs erstellt haben.
 
 Alle Kursbausteine verfügen über die Tabs " **Titel und Beschreibung** " sowie
@@ -17,61 +19,137 @@ bei den herkömmlichen Kursen.
 
 **Wissensvermittlung**
 
-  * [Kursbaustein „Struktur“](Wissensvermittlung.html#Wissensvermittlung-_strukturStrukturKursbaustein%E2%80%9EStruktur%E2%80%9C)
-  * [Kursbaustein "Einzelne Seite"](Wissensvermittlung.html#Wissensvermittlung-_einzelseiteEinzelneSeiteKursbaustein%22EinzelneSeite)
-  * [Kursbaustein "Externe Seite"](Wissensvermittlung.html#Wissensvermittlung-_expageExterneSeiteKursbaustein%22ExterneSeite)
-  * [Kursbaustein „CP-Lerninhalt“](Wissensvermittlung.html#Wissensvermittlung-Kursbaustein%E2%80%9ECP-Lerninhalt%E2%80%9C)
-  * [Kursbaustein „SCORM-Lerninhalt“](Wissensvermittlung.html#Wissensvermittlung-_scorm_kursbausteinSCORM-LerninhaltKursbaustein%E2%80%9ESCORM-Lerninhalt%E2%80%9C)
-  * [Kursbaustein "Dokument"](Wissensvermittlung.html#Wissensvermittlung-Kursbaustein%22Dokument)
-  * [Kursbaustein „Ordner“](Wissensvermittlung.html#Wissensvermittlung-_ordnerOrdnerKursbaustein%E2%80%9EOrdner%E2%80%9C)
-  * [Kursbaustein „Podcast“](Wissensvermittlung.html#Wissensvermittlung-Kursbaustein%E2%80%9EPodcast%E2%80%9C)
-  * [Kursbaustein "Blog"](Wissensvermittlung.html#Wissensvermittlung-Kursbaustein%22Blog)
-  * [Kursbaustein „Video“](Wissensvermittlung.html#Wissensvermittlung-Kursbaustein%E2%80%9EVideo%E2%80%9C)
-  * [Kursbaustein "Video Livestream"](Wissensvermittlung.html#Wissensvermittlung-_livestreamKursbaustein%22VideoLivestream)
-  * [Kursbaustein "Opencast"](Wissensvermittlung.html#Wissensvermittlung-_opencastKursbaustein%22Opencast)
-  * [Kursbaustein "edu-sharing"](Wissensvermittlung.html#Wissensvermittlung-_edusharingKursbaustein%22edu-sharing)
-  * [Kursbaustein "card2brain"](Wissensvermittlung.html#Wissensvermittlung-_card2braincard2brainKursbaustein%22card2brain)
-  * [Kursbaustein "Edubase"](Wissensvermittlung.html#Wissensvermittlung-_edubaseedubaseKursbaustein%22Edubase)
+
+sites/manual_user/docs/course_elements/index.de.md §Knowledge_Transfer.de.md§ 481
+  * [Kursbaustein „Struktur“](Knowledge_Transfer.de.md#Wissensvermittlung-_strukturStrukturKursbaustein%E2%80%9EStruktur%E2%80%9C)
+
+sites/manual_user/docs/course_elements/index.de.md §Knowledge_Transfer.de.md§ 481
+  * [Kursbaustein "Einzelne Seite"](Knowledge_Transfer.de.md#Wissensvermittlung-_einzelseiteEinzelneSeiteKursbaustein%22EinzelneSeite)
+
+sites/manual_user/docs/course_elements/index.de.md §Knowledge_Transfer.de.md§ 481
+  * [Kursbaustein "Externe Seite"](Knowledge_Transfer.de.md#Wissensvermittlung-_expageExterneSeiteKursbaustein%22ExterneSeite)
+
+sites/manual_user/docs/course_elements/index.de.md §Knowledge_Transfer.de.md§ 481
+  * [Kursbaustein „CP-Lerninhalt“](Knowledge_Transfer.de.md#Wissensvermittlung-Kursbaustein%E2%80%9ECP-Lerninhalt%E2%80%9C)
+
+sites/manual_user/docs/course_elements/index.de.md §Knowledge_Transfer.de.md§ 481
+  * [Kursbaustein „SCORM-Lerninhalt“](Knowledge_Transfer.de.md#Wissensvermittlung-_scorm_kursbausteinSCORM-LerninhaltKursbaustein%E2%80%9ESCORM-Lerninhalt%E2%80%9C)
+
+sites/manual_user/docs/course_elements/index.de.md §Knowledge_Transfer.de.md§ 481
+  * [Kursbaustein "Dokument"](Knowledge_Transfer.de.md#Wissensvermittlung-Kursbaustein%22Dokument)
+
+sites/manual_user/docs/course_elements/index.de.md §Knowledge_Transfer.de.md§ 481
+  * [Kursbaustein „Ordner“](Knowledge_Transfer.de.md#Wissensvermittlung-_ordnerOrdnerKursbaustein%E2%80%9EOrdner%E2%80%9C)
+
+sites/manual_user/docs/course_elements/index.de.md §Knowledge_Transfer.de.md§ 481
+  * [Kursbaustein „Podcast“](Knowledge_Transfer.de.md#Wissensvermittlung-Kursbaustein%E2%80%9EPodcast%E2%80%9C)
+
+sites/manual_user/docs/course_elements/index.de.md §Knowledge_Transfer.de.md§ 481
+  * [Kursbaustein "Blog"](Knowledge_Transfer.de.md#Wissensvermittlung-Kursbaustein%22Blog)
+
+sites/manual_user/docs/course_elements/index.de.md §Knowledge_Transfer.de.md§ 481
+  * [Kursbaustein „Video“](Knowledge_Transfer.de.md#Wissensvermittlung-Kursbaustein%E2%80%9EVideo%E2%80%9C)
+
+sites/manual_user/docs/course_elements/index.de.md §Knowledge_Transfer.de.md§ 481
+  * [Kursbaustein "Video Livestream"](Knowledge_Transfer.de.md#Wissensvermittlung-_livestreamKursbaustein%22VideoLivestream)
+
+sites/manual_user/docs/course_elements/index.de.md §Knowledge_Transfer.de.md§ 481
+  * [Kursbaustein "Opencast"](Knowledge_Transfer.de.md#Wissensvermittlung-_opencastKursbaustein%22Opencast)
+
+sites/manual_user/docs/course_elements/index.de.md §Knowledge_Transfer.de.md§ 481
+  * [Kursbaustein "edu-sharing"](Knowledge_Transfer.de.md#Wissensvermittlung-_edusharingKursbaustein%22edu-sharing)
+
+sites/manual_user/docs/course_elements/index.de.md §Knowledge_Transfer.de.md§ 481
+  * [Kursbaustein "card2brain"](Knowledge_Transfer.de.md#Wissensvermittlung-_card2braincard2brainKursbaustein%22card2brain)
+
+sites/manual_user/docs/course_elements/index.de.md §Knowledge_Transfer.de.md§ 481
+  * [Kursbaustein "Edubase"](Knowledge_Transfer.de.md#Wissensvermittlung-_edubaseedubaseKursbaustein%22Edubase)
 
 **Wissensüberprüfung**
 
-  * [Kursbaustein „Bewertung“](../../pages/viewpage.action%EF%B9%96pageId=108593581.html#Wissens%C3%BCberpr%C3%BCfung-BewertungKursbaustein%E2%80%9EBewertung%E2%80%9C)
-  * [Kursbaustein "Aufgabe"](../../pages/viewpage.action%EF%B9%96pageId=108593581.html#Wissens%C3%BCberpr%C3%BCfung-_task_kursbaustein_task_workflowGruppenaufgabeAufgabeKursbaustein%22Aufgabe)
-  * [Kursbaustein „Portfolioaufgabe“](../../pages/viewpage.action%EF%B9%96pageId=108593581.html#Wissens%C3%BCberpr%C3%BCfung-Kursbaustein%E2%80%9EPortfolioaufgabe%E2%80%9C)
-  * [Kursbaustein "Gruppenaufgabe"](../../pages/viewpage.action%EF%B9%96pageId=108593581.html#Wissens%C3%BCberpr%C3%BCfung-Kursbaustein%22Gruppenaufgabe)
-  * [Kursbaustein „Test“](../../pages/viewpage.action%EF%B9%96pageId=108593581.html#Wissens%C3%BCberpr%C3%BCfung-_test_kursbausteinTestKursbaustein%E2%80%9ETest%E2%80%9C)
-  * [Kursbaustein „Selbsttest“](../../pages/viewpage.action%EF%B9%96pageId=108593581.html#Wissens%C3%BCberpr%C3%BCfung-Selbsttest_selbsttest_kursbausteinKursbaustein%E2%80%9ESelbsttest%E2%80%9C)
-  * [Kursbaustein "Formular"](../../pages/viewpage.action%EF%B9%96pageId=108593581.html#Wissens%C3%BCberpr%C3%BCfung-Kursbaustein%22Formular)
-  * [Kursbaustein „Umfrage“](../../pages/viewpage.action%EF%B9%96pageId=108593581.html#Wissens%C3%BCberpr%C3%BCfung-fragebogenFragebogenKursbaustein%E2%80%9EUmfrage%E2%80%9C)
-  * [Kursbaustein „Checkliste“](../../pages/viewpage.action%EF%B9%96pageId=108593581.html#Wissens%C3%BCberpr%C3%BCfung-Kursbaustein%E2%80%9ECheckliste%E2%80%9C)
+
+sites/manual_user/docs/course_elements/index.de.md §Assessment.de.md§ 481
+  * [Kursbaustein „Bewertung“](Assessment.de.md#Wissens%C3%BCberpr%C3%BCfung-BewertungKursbaustein%E2%80%9EBewertung%E2%80%9C)
+
+sites/manual_user/docs/course_elements/index.de.md §Assessment.de.md§ 481
+  * [Kursbaustein "Aufgabe"](Assessment.de.md#Wissens%C3%BCberpr%C3%BCfung-_task_kursbaustein_task_workflowGruppenaufgabeAufgabeKursbaustein%22Aufgabe)
+
+sites/manual_user/docs/course_elements/index.de.md §Assessment.de.md§ 481
+  * [Kursbaustein „Portfolioaufgabe“](Assessment.de.md#Wissens%C3%BCberpr%C3%BCfung-Kursbaustein%E2%80%9EPortfolioaufgabe%E2%80%9C)
+
+sites/manual_user/docs/course_elements/index.de.md §Assessment.de.md§ 481
+  * [Kursbaustein "Gruppenaufgabe"](Assessment.de.md#Wissens%C3%BCberpr%C3%BCfung-Kursbaustein%22Gruppenaufgabe)
+
+sites/manual_user/docs/course_elements/index.de.md §Assessment.de.md§ 481
+  * [Kursbaustein „Test“](Assessment.de.md#Wissens%C3%BCberpr%C3%BCfung-_test_kursbausteinTestKursbaustein%E2%80%9ETest%E2%80%9C)
+
+sites/manual_user/docs/course_elements/index.de.md §Assessment.de.md§ 481
+  * [Kursbaustein „Selbsttest“](Assessment.de.md#Wissens%C3%BCberpr%C3%BCfung-Selbsttest_selbsttest_kursbausteinKursbaustein%E2%80%9ESelbsttest%E2%80%9C)
+
+sites/manual_user/docs/course_elements/index.de.md §Assessment.de.md§ 481
+  * [Kursbaustein "Formular"](Assessment.de.md#Wissens%C3%BCberpr%C3%BCfung-Kursbaustein%22Formular)
+
+sites/manual_user/docs/course_elements/index.de.md §Assessment.de.md§ 481
+  * [Kursbaustein „Umfrage“](Assessment.de.md#Wissens%C3%BCberpr%C3%BCfung-fragebogenFragebogenKursbaustein%E2%80%9EUmfrage%E2%80%9C)
+
+sites/manual_user/docs/course_elements/index.de.md §Assessment.de.md§ 481
+  * [Kursbaustein „Checkliste“](Assessment.de.md#Wissens%C3%BCberpr%C3%BCfung-Kursbaustein%E2%80%9ECheckliste%E2%80%9C)
 
 **Kommunikation & Kollaboration**
 
-  * [Kursbaustein „Wiki“](Kommunikation+und+Kollaboration.html#KommunikationundKollaboration-Kursbaustein%E2%80%9EWiki%E2%80%9C)
-  * [Kursbaustein „Forum“](Kommunikation+und+Kollaboration.html#KommunikationundKollaboration-Kursbaustein%E2%80%9EForum%E2%80%9C)
-  * [Kursbaustein „Dateidiskussion“](Kommunikation+und+Kollaboration.html#KommunikationundKollaboration-Kursbaustein%E2%80%9EDateidiskussion%E2%80%9C)
-  * [Kursbaustein "Teilnehmer Ordner"](Kommunikation+und+Kollaboration.html#KommunikationundKollaboration-_participantfolderKursbaustein%22TeilnehmerOrdner)
-  * [Kursbaustein „Teilnehmerliste“](Kommunikation+und+Kollaboration.html#KommunikationundKollaboration-Kursbaustein%E2%80%9ETeilnehmerliste%E2%80%9C)
 
-sowie mehrere [Virtuelle Klassenzimmer](Virtuelle+Klassenzimmer.html)
+sites/manual_user/docs/course_elements/index.de.md §Communication_and_Collaboration.de.md§ 481
+  * [Kursbaustein „Wiki“](Communication_and_Collaboration.de.md#KommunikationundKollaboration-Kursbaustein%E2%80%9EWiki%E2%80%9C)
+
+sites/manual_user/docs/course_elements/index.de.md §Communication_and_Collaboration.de.md§ 481
+  * [Kursbaustein „Forum“](Communication_and_Collaboration.de.md#KommunikationundKollaboration-Kursbaustein%E2%80%9EForum%E2%80%9C)
+
+sites/manual_user/docs/course_elements/index.de.md §Communication_and_Collaboration.de.md§ 481
+  * [Kursbaustein „Dateidiskussion“](Communication_and_Collaboration.de.md#KommunikationundKollaboration-Kursbaustein%E2%80%9EDateidiskussion%E2%80%9C)
+
+sites/manual_user/docs/course_elements/index.de.md §Communication_and_Collaboration.de.md§ 481
+  * [Kursbaustein "Teilnehmer Ordner"](Communication_and_Collaboration.de.md#KommunikationundKollaboration-_participantfolderKursbaustein%22TeilnehmerOrdner)
+
+sites/manual_user/docs/course_elements/index.de.md §Communication_and_Collaboration.de.md§ 481
+  * [Kursbaustein „Teilnehmerliste“](Communication_and_Collaboration.de.md#KommunikationundKollaboration-Kursbaustein%E2%80%9ETeilnehmerliste%E2%80%9C)
+
+
+sites/manual_user/docs/course_elements/index.de.md §Virtual_classrooms.de.md§ 481
+sowie mehrere [Virtuelle Klassenzimmer](Virtual_classrooms.de.md)
 
 **Verwaltung & Organisation**
 
 
 
-  * [Kursbaustein „Einschreibung“](Verwaltung+und+Organisation.html#VerwaltungundOrganisation-Kursbaustein%E2%80%9EEinschreibung%E2%80%9C)
-  * [Kursbaustein „Mitteilungen“](Verwaltung+und+Organisation.html#VerwaltungundOrganisation-Kursbaustein%E2%80%9EMitteilungen%E2%80%9C)
-  * [Kursbaustein „E-Mail“](Verwaltung+und+Organisation.html#VerwaltungundOrganisation-Kursbaustein%E2%80%9EE-Mail%E2%80%9C)
-  * [Kursbaustein „Kalender“](Verwaltung+und+Organisation.html#VerwaltungundOrganisation-_kalenderKalenderKursbaustein%E2%80%9EKalender%E2%80%9C)
-  * [Kursbaustein "Terminplanung"](Verwaltung+und+Organisation.html#VerwaltungundOrganisation-_terminvergabeTerminvergabeKursbaustein%22Terminplanung)
+
+sites/manual_user/docs/course_elements/index.de.md §Administration_and_Organisation.de.md§ 481
+  * [Kursbaustein „Einschreibung“](Administration_and_Organisation.de.md#VerwaltungundOrganisation-Kursbaustein%E2%80%9EEinschreibung%E2%80%9C)
+
+sites/manual_user/docs/course_elements/index.de.md §Administration_and_Organisation.de.md§ 481
+  * [Kursbaustein „Mitteilungen“](Administration_and_Organisation.de.md#VerwaltungundOrganisation-Kursbaustein%E2%80%9EMitteilungen%E2%80%9C)
+
+sites/manual_user/docs/course_elements/index.de.md §Administration_and_Organisation.de.md§ 481
+  * [Kursbaustein „E-Mail“](Administration_and_Organisation.de.md#VerwaltungundOrganisation-Kursbaustein%E2%80%9EE-Mail%E2%80%9C)
+
+sites/manual_user/docs/course_elements/index.de.md §Administration_and_Organisation.de.md§ 481
+  * [Kursbaustein „Kalender“](Administration_and_Organisation.de.md#VerwaltungundOrganisation-_kalenderKalenderKursbaustein%E2%80%9EKalender%E2%80%9C)
+
+sites/manual_user/docs/course_elements/index.de.md §Administration_and_Organisation.de.md§ 481
+  * [Kursbaustein "Terminplanung"](Administration_and_Organisation.de.md#VerwaltungundOrganisation-_terminvergabeTerminvergabeKursbaustein%22Terminplanung)
 
 **Andere**
 
 
 
-  * [Kursbaustein „LTI-Seite“](Andere.html#Andere-Kursbaustein%E2%80%9ELTI-Seite%E2%80%9C)
-  * [Kursbaustein „Themenvergabe“](Andere.html#Andere-Kursbaustein%E2%80%9EThemenvergabe%E2%80%9C)
-  * [Kursbaustein „Linkliste“](Andere.html#Andere-Kursbaustein%E2%80%9ELinkliste%E2%80%9C)
+
+sites/manual_user/docs/course_elements/index.de.md §Other.de.md§ 481
+  * [Kursbaustein „LTI-Seite“](Other.de.md#Andere-Kursbaustein%E2%80%9ELTI-Seite%E2%80%9C)
+
+sites/manual_user/docs/course_elements/index.de.md §Other.de.md§ 481
+  * [Kursbaustein „Themenvergabe“](Other.de.md#Andere-Kursbaustein%E2%80%9EThemenvergabe%E2%80%9C)
+
+sites/manual_user/docs/course_elements/index.de.md §Other.de.md§ 481
+  * [Kursbaustein „Linkliste“](Other.de.md#Andere-Kursbaustein%E2%80%9ELinkliste%E2%80%9C)
 
   
 

@@ -61,7 +61,7 @@ optimiert werden.
 Mithilfe des html-Editors kann "normaler" Text hinzugefügt werden. Dabei kann
 die übliche Formatierung vorgenommen werden.  
 Unter "Einfügen" können auch [mathematische
-Formeln](Mathematische+Formel.html) eingefügt werden.
+Formeln](../personal/Math_formula.de.md) eingefügt werden.
 
 ![](assets/portfolio_Textabschnitt.png)
 
@@ -97,7 +97,9 @@ Hier können diverse Dateiformate hochgeladen und per Link bereitgestellt
 werden.
 
 Ist ein externer [Dokumenteneditor
-](Externe+Werkzeuge+-+Administration.html)aktiviert und liegen die Dateien in
+
+sites/manual_user/docs/portfolio/The_portfolio_editor.de.md §External_Tools_-_Administration.de.md§ 481
+](../../manual_admin/administration/External_Tools_-_Administration.de.md)aktiviert und liegen die Dateien in
 einem Format vor, das von diesem unterstützt wird, können die Dateien auch
 direkt online weiter bearbeitet werden.
 
@@ -111,7 +113,9 @@ direkt online weiter bearbeitet werden.
 
 ### Aus Mediathek wählen
 
-Dateien, welche sich bereits in der [Mediathek ](Mediathek.html)befinden,
+
+sites/manual_user/docs/portfolio/The_portfolio_editor.de.md §Media_center.de.md§ 481
+Dateien, welche sich bereits in der [Mediathek ](Media_center.de.md)befinden,
 können hiermit einem Eintrag hinzugefügt werden. Die Such- und Filteroptionen
 helfen, die gewünschte Datei schneller zu finden.
 

@@ -3,6 +3,8 @@
 In this chapter course authors learn in detail which course elements are
 available in OpenOlat courses and how to configure them. If you have not yet
 created a course, follow the instructions in the chapter "[Creating
+
+sites/manual_user/docs/course_elements/index.md §Creating_Courses.md§ 481
 courses](Creating+Courses.html)" first.
 
   
@@ -17,58 +19,136 @@ throughout, depending on the technical course type.
 
 **Knowledge Transfer**
 
-  * [Course Element: Structure](Knowledge+Transfer.html#KnowledgeTransfer-_strukturStructureCourseElement:Structure)
-  * [Course Element: Single Page](Knowledge+Transfer.html#KnowledgeTransfer-_einzelseiteSinglepageCourseElement:SinglePage)
-  * [Course Element: External Page](Knowledge+Transfer.html#KnowledgeTransfer-_expageExternalpageCourseElement:ExternalPage)
-  * [Course Element: CP Learning Content](Knowledge+Transfer.html#KnowledgeTransfer-_cp_kursbausteinCPlearningcontentCourseElement:CPLearningContent)
-  * [Course Element: SCORM Learning Content](Knowledge+Transfer.html#KnowledgeTransfer-_scorm_kursbausteinSCORMlearningcontentCourseElement:SCORMLearningContent)
-  * [Course Element: Document](Knowledge+Transfer.html#KnowledgeTransfer-CourseElement:Document)
-  * [Course Element: Folder](Knowledge+Transfer.html#KnowledgeTransfer-_ordnerFolderCourseElement:Folder)
-  * [Course Element: Podcast](Knowledge+Transfer.html#KnowledgeTransfer-_podcastPodcastCourseElement:Podcast)
-  * [Course Element: Blog](Knowledge+Transfer.html#KnowledgeTransfer-_blogBlogCourseElement:Blog)
-  * [Course Element: Video](Knowledge+Transfer.html#KnowledgeTransfer-_video_kursbausteinVideoCourseElement:Video)
-  * [Course Element: Video Livestream](Knowledge+Transfer.html#KnowledgeTransfer-_livestreamCourseElement:VideoLivestream)
-  * [Course Element: Opencast](Knowledge+Transfer.html#KnowledgeTransfer-_opencastCourseElement:Opencast)
-  * [Course Element: edu-sharing](Knowledge+Transfer.html#KnowledgeTransfer-_edusharingCourseElement:edu-sharing)
-  * [Course Element: card2brain](Knowledge+Transfer.html#KnowledgeTransfer-_card2braincard2brainCourseElement:card2brain)
-  * [Course Element: Edubase](Knowledge+Transfer.html#KnowledgeTransfer-_edubaseedubaseCourseElement:Edubase)
+
+sites/manual_user/docs/course_elements/index.md §Knowledge_Transfer.md§ 481
+  * [Course Element: Structure](Knowledge_Transfer.md#KnowledgeTransfer-_strukturStructureCourseElement:Structure)
+
+sites/manual_user/docs/course_elements/index.md §Knowledge_Transfer.md§ 481
+  * [Course Element: Single Page](Knowledge_Transfer.md#KnowledgeTransfer-_einzelseiteSinglepageCourseElement:SinglePage)
+
+sites/manual_user/docs/course_elements/index.md §Knowledge_Transfer.md§ 481
+  * [Course Element: External Page](Knowledge_Transfer.md#KnowledgeTransfer-_expageExternalpageCourseElement:ExternalPage)
+
+sites/manual_user/docs/course_elements/index.md §Knowledge_Transfer.md§ 481
+  * [Course Element: CP Learning Content](Knowledge_Transfer.md#KnowledgeTransfer-_cp_kursbausteinCPlearningcontentCourseElement:CPLearningContent)
+
+sites/manual_user/docs/course_elements/index.md §Knowledge_Transfer.md§ 481
+  * [Course Element: SCORM Learning Content](Knowledge_Transfer.md#KnowledgeTransfer-_scorm_kursbausteinSCORMlearningcontentCourseElement:SCORMLearningContent)
+
+sites/manual_user/docs/course_elements/index.md §Knowledge_Transfer.md§ 481
+  * [Course Element: Document](Knowledge_Transfer.md#KnowledgeTransfer-CourseElement:Document)
+
+sites/manual_user/docs/course_elements/index.md §Knowledge_Transfer.md§ 481
+  * [Course Element: Folder](Knowledge_Transfer.md#KnowledgeTransfer-_ordnerFolderCourseElement:Folder)
+
+sites/manual_user/docs/course_elements/index.md §Knowledge_Transfer.md§ 481
+  * [Course Element: Podcast](Knowledge_Transfer.md#KnowledgeTransfer-_podcastPodcastCourseElement:Podcast)
+
+sites/manual_user/docs/course_elements/index.md §Knowledge_Transfer.md§ 481
+  * [Course Element: Blog](Knowledge_Transfer.md#KnowledgeTransfer-_blogBlogCourseElement:Blog)
+
+sites/manual_user/docs/course_elements/index.md §Knowledge_Transfer.md§ 481
+  * [Course Element: Video](Knowledge_Transfer.md#KnowledgeTransfer-_video_kursbausteinVideoCourseElement:Video)
+
+sites/manual_user/docs/course_elements/index.md §Knowledge_Transfer.md§ 481
+  * [Course Element: Video Livestream](Knowledge_Transfer.md#KnowledgeTransfer-_livestreamCourseElement:VideoLivestream)
+
+sites/manual_user/docs/course_elements/index.md §Knowledge_Transfer.md§ 481
+  * [Course Element: Opencast](Knowledge_Transfer.md#KnowledgeTransfer-_opencastCourseElement:Opencast)
+
+sites/manual_user/docs/course_elements/index.md §Knowledge_Transfer.md§ 481
+  * [Course Element: edu-sharing](Knowledge_Transfer.md#KnowledgeTransfer-_edusharingCourseElement:edu-sharing)
+
+sites/manual_user/docs/course_elements/index.md §Knowledge_Transfer.md§ 481
+  * [Course Element: card2brain](Knowledge_Transfer.md#KnowledgeTransfer-_card2braincard2brainCourseElement:card2brain)
+
+sites/manual_user/docs/course_elements/index.md §Knowledge_Transfer.md§ 481
+  * [Course Element: Edubase](Knowledge_Transfer.md#KnowledgeTransfer-_edubaseedubaseCourseElement:Edubase)
 
 **Assessment**
 
-  * [Course Element: Assessment](Assessment.html#Assessment-_bewertung_kursbausteinAssessmentCourseElement:Assessment)
-  * [Course Element: Task](Assessment.html#Assessment-GrouptaskTask_task_kursbausteinCourseElement:Task)
-  * [Course Element: Portfolio Task](Assessment.html#Assessment-_bb_portfolioPortfoliotaskCourseElement:PortfolioTask)
-  * [Course Element: Group Task](Assessment.html#Assessment-CourseElement:GroupTask)
-  * [Course Element: Test](Assessment.html#Assessment-_test_kursbausteinTestCourseElement:Test)
-  * [Course Element: Self-test](Assessment.html#Assessment-_selbsttest_kursbausteinSelf-testCourseElement:Self-test)
-  * [Course Element: Form](Assessment.html#Assessment-CourseElement:Form)
-  * [Course Element: Survey](Assessment.html#Assessment-_fragebogenQuestionnaireCourseElement:Survey)
-  * [Course Element: Checklist](Assessment.html#Assessment-_checklist_kursbausteinChecklistCourseElement:Checklist)
+
+sites/manual_user/docs/course_elements/index.md §Assessment.md§ 481
+  * [Course Element: Assessment](Assessment.md#Assessment-_bewertung_kursbausteinAssessmentCourseElement:Assessment)
+
+sites/manual_user/docs/course_elements/index.md §Assessment.md§ 481
+  * [Course Element: Task](Assessment.md#Assessment-GrouptaskTask_task_kursbausteinCourseElement:Task)
+
+sites/manual_user/docs/course_elements/index.md §Assessment.md§ 481
+  * [Course Element: Portfolio Task](Assessment.md#Assessment-_bb_portfolioPortfoliotaskCourseElement:PortfolioTask)
+
+sites/manual_user/docs/course_elements/index.md §Assessment.md§ 481
+  * [Course Element: Group Task](Assessment.md#Assessment-CourseElement:GroupTask)
+
+sites/manual_user/docs/course_elements/index.md §Assessment.md§ 481
+  * [Course Element: Test](Assessment.md#Assessment-_test_kursbausteinTestCourseElement:Test)
+
+sites/manual_user/docs/course_elements/index.md §Assessment.md§ 481
+  * [Course Element: Self-test](Assessment.md#Assessment-_selbsttest_kursbausteinSelf-testCourseElement:Self-test)
+
+sites/manual_user/docs/course_elements/index.md §Assessment.md§ 481
+  * [Course Element: Form](Assessment.md#Assessment-CourseElement:Form)
+
+sites/manual_user/docs/course_elements/index.md §Assessment.md§ 481
+  * [Course Element: Survey](Assessment.md#Assessment-_fragebogenQuestionnaireCourseElement:Survey)
+
+sites/manual_user/docs/course_elements/index.md §Assessment.md§ 481
+  * [Course Element: Checklist](Assessment.md#Assessment-_checklist_kursbausteinChecklistCourseElement:Checklist)
 
 **Communication and Collaboration**
 
-  * [Course Element: Wiki](Communication+and+Collaboration.html#CommunicationandCollaboration-CourseElement:Wiki)
-  * [Course Element: Forum](Communication+and+Collaboration.html#CommunicationandCollaboration-d14e3744ForumCourseElement:Forum)
-  * [Course Element: File Dialog](Communication+and+Collaboration.html#CommunicationandCollaboration-_dateidiskussion_dateidiskussion_accessCourseElement:FileDialog)
-  * [Course Element: Participant folder](Communication+and+Collaboration.html#CommunicationandCollaboration-_participantfolderCourseElement:Participantfolder)
-  * [Course Element: Participant list](Communication+and+Collaboration.html#CommunicationandCollaboration-_teilnehmerlisteParticipantlistCourseElement:Participantlist)
 
-as well as several [Virtual classrooms](Virtual+classrooms.html)
+sites/manual_user/docs/course_elements/index.md §Communication_and_Collaboration.md§ 481
+  * [Course Element: Wiki](Communication_and_Collaboration.md#CommunicationandCollaboration-CourseElement:Wiki)
+
+sites/manual_user/docs/course_elements/index.md §Communication_and_Collaboration.md§ 481
+  * [Course Element: Forum](Communication_and_Collaboration.md#CommunicationandCollaboration-d14e3744ForumCourseElement:Forum)
+
+sites/manual_user/docs/course_elements/index.md §Communication_and_Collaboration.md§ 481
+  * [Course Element: File Dialog](Communication_and_Collaboration.md#CommunicationandCollaboration-_dateidiskussion_dateidiskussion_accessCourseElement:FileDialog)
+
+sites/manual_user/docs/course_elements/index.md §Communication_and_Collaboration.md§ 481
+  * [Course Element: Participant folder](Communication_and_Collaboration.md#CommunicationandCollaboration-_participantfolderCourseElement:Participantfolder)
+
+sites/manual_user/docs/course_elements/index.md §Communication_and_Collaboration.md§ 481
+  * [Course Element: Participant list](Communication_and_Collaboration.md#CommunicationandCollaboration-_teilnehmerlisteParticipantlistCourseElement:Participantlist)
+
+
+sites/manual_user/docs/course_elements/index.md §Virtual_classrooms.md§ 481
+as well as several [Virtual classrooms](Virtual_classrooms.md)
 
 **Administration and Organisation**
 
-  * [Course Element: Enrolment](Administration+and+Organisation.html#AdministrationandOrganisation-_einschreibungEnrolmentCourseElement:Enrolment)
-  * [Course Element: Notifications](Administration+and+Organisation.html#AdministrationandOrganisation-CourseElement:Notifications)
-  * [Course Element: E-Mail](Administration+and+Organisation.html#AdministrationandOrganisation-_mailE-MailCourseElement:E-Mail)
-  * [Course Element: Calendar](Administration+and+Organisation.html#AdministrationandOrganisation-_kalenderCalendarCourseElement:Calendar)
-  * [Course Element: Appointment scheduling](Administration+and+Organisation.html#AdministrationandOrganisation-_terminvergabeCourseElement:Appointmentscheduling)
+
+sites/manual_user/docs/course_elements/index.md §Administration_and_Organisation.md§ 481
+  * [Course Element: Enrolment](Administration_and_Organisation.md#AdministrationandOrganisation-_einschreibungEnrolmentCourseElement:Enrolment)
+
+sites/manual_user/docs/course_elements/index.md §Administration_and_Organisation.md§ 481
+  * [Course Element: Notifications](Administration_and_Organisation.md#AdministrationandOrganisation-CourseElement:Notifications)
+
+sites/manual_user/docs/course_elements/index.md §Administration_and_Organisation.md§ 481
+  * [Course Element: E-Mail](Administration_and_Organisation.md#AdministrationandOrganisation-_mailE-MailCourseElement:E-Mail)
+
+sites/manual_user/docs/course_elements/index.md §Administration_and_Organisation.md§ 481
+  * [Course Element: Calendar](Administration_and_Organisation.md#AdministrationandOrganisation-_kalenderCalendarCourseElement:Calendar)
+
+sites/manual_user/docs/course_elements/index.md §Administration_and_Organisation.md§ 481
+  * [Course Element: Appointment scheduling](Administration_and_Organisation.md#AdministrationandOrganisation-_terminvergabeCourseElement:Appointmentscheduling)
 
 **Other**
 
-  * [Course Element: LTI Page](Other.html#Other-_lti_kursbausteinLTIpageCourseElement:LTIPage)
-  * [Course Element: Topic Assignment](Other.html#Other-_bb_themenvergabeTopicassignmentCourseElement:TopicAssignment)
-  * [Course Element: Link list](Other.html#Other-_linklisteLinklistCourseElement:Linklist)
-  * [Course Element "Assignment of dates"](Other.html#Other-_terminvergabeTerminvergabeCourseElement%22Assignmentofdates)
+
+sites/manual_user/docs/course_elements/index.md §Other.md§ 481
+  * [Course Element: LTI Page](Other.md#Other-_lti_kursbausteinLTIpageCourseElement:LTIPage)
+
+sites/manual_user/docs/course_elements/index.md §Other.md§ 481
+  * [Course Element: Topic Assignment](Other.md#Other-_bb_themenvergabeTopicassignmentCourseElement:TopicAssignment)
+
+sites/manual_user/docs/course_elements/index.md §Other.md§ 481
+  * [Course Element: Link list](Other.md#Other-_linklisteLinklistCourseElement:Linklist)
+
+sites/manual_user/docs/course_elements/index.md §Other.md§ 481
+  * [Course Element "Assignment of dates"](Other.md#Other-_terminvergabeTerminvergabeCourseElement%22Assignmentofdates)
 
   
 

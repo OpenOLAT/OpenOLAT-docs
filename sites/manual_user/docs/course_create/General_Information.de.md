@@ -4,6 +4,8 @@ OpenOlat-Kurse ermöglichen das Abbilden von diversen Veranstaltungsformaten
 z.B. Vorlesungen, Seminare, Online-Tutorien oder Gruppenpuzzle, genauso wie
 die Umsetzung verschiedener Arten von Lernen, z.B. problembasiertes Lernen,
 kooperatives Lernen, selbstorganisiertes Lernen usw. Durch den Einsatz
+
+sites/manual_user/docs/course_create/General_Information.de.md §Types_of_Course_Element.de.md§ 481
 beliebig vieler [Kursbausteine ](Kursbausteine.html)in frei wählbarer
 Reihenfolge, gewährt Ihnen OpenOlat maximale Flexibilität bei der Umsetzung
 Ihres didaktischen Konzepts.
@@ -48,9 +50,15 @@ Lernressource Kurs im "Autorenbereich" erstellen und den gewünschten Kurstyp
 
 |
 
+
+sites/manual_user/docs/course_create/General_Information.de.md §Creating_Courses.de.md§ 481
   * [Kurs erstellen](Kurs+erstellen.html)
-  * [Mit dem Kurseditor in fünf Schritten zu Ihrem OpenOlat Kurs](../../pages/viewpage.action%EF%B9%96pageId=108593713.html)
-  * [Lernpfad Kurse erstellen](Lernpfad+Kurse+erstellen.html)
+
+sites/manual_user/docs/course_create/General_Information.de.md §In_Five_Steps_to_Your_Course_With_the_Course_Editor.de.md§ 481
+  * [Mit dem Kurseditor in fünf Schritten zu Ihrem OpenOlat Kurs](In_Five_Steps_to_Your_Course_With_the_Course_Editor.de.md)
+
+sites/manual_user/docs/course_create/General_Information.de.md §Creating_learning_path_courses.de.md§ 481
+  * [Lernpfad Kurse erstellen](Creating_learning_path_courses.de.md)
 
   
   
@@ -66,12 +74,24 @@ gewünscht konfigurieren.
 
 |
 
+
+sites/manual_user/docs/course_create/General_Information.de.md §Types_of_Course_Element.de.md§ 481
   * [Kursbausteine](Kursbausteine.html)
-  * [Verwendung von Kurseditorwerkzeugen](Verwendung+weiterer+Kurseditorwerkzeuge.html)
-  * [Lernpfad Kurs - Kurseditor](Lernpfad+Kurs++-+Kurseditor.html)
-  * [Lernressourcen](Verschiedene+Typen+von+Lernressourcen.html)
-  * [Allgemeine Konfiguration von Kursbausteinen](Allgemeine+Konfiguration+von+Kursbausteinen.html)
-  * [Kurseinstellungen](Kurseinstellungen.html)
+
+sites/manual_user/docs/course_create/General_Information.de.md §Using_additional_Course_Editor_Tools.de.md§ 481
+  * [Verwendung von Kurseditorwerkzeugen](Using_additional_Course_Editor_Tools.de.md)
+
+sites/manual_user/docs/course_create/General_Information.de.md §Learning_path_course_-_Course_editor.de.md§ 481
+  * [Lernpfad Kurs - Kurseditor](Learning_path_course_-_Course_editor.de.md)
+
+sites/manual_user/docs/course_create/General_Information.de.md §Various_Types_of_Learning_Resources.de.md§ 481
+  * [Lernressourcen](../authoring/Various_Types_of_Learning_Resources.de.md)
+
+sites/manual_user/docs/course_create/General_Information.de.md §General_Configuration_of_Course_Elements.de.md§ 481
+  * [Allgemeine Konfiguration von Kursbausteinen](General_Configuration_of_Course_Elements.de.md)
+
+sites/manual_user/docs/course_create/General_Information.de.md §Course_Settings.de.md§ 481
+  * [Kurseinstellungen](Course_Settings.de.md)
 
   
   
@@ -87,8 +107,12 @@ den Zugang vorgenommen. Insbesondere der Tab "Freigabe" ist dabei wichtig.
 
 |
 
-  * [Zugangskonfiguration](Zugangskonfiguration.html)
-  * [Kurseinstellungen](Kurseinstellungen.html)
+
+sites/manual_user/docs/course_create/General_Information.de.md §Access_configuration.de.md§ 481
+  * [Zugangskonfiguration](Access_configuration.de.md)
+
+sites/manual_user/docs/course_create/General_Information.de.md §Course_Settings.de.md§ 481
+  * [Kurseinstellungen](Course_Settings.de.md)
 
   
   
@@ -103,7 +127,9 @@ auch für die Lernenden sichtbar wird.
 
 |
 
-[Zugangskonfiguration](Zugangskonfiguration.html)  
+
+sites/manual_user/docs/course_create/General_Information.de.md §Access_configuration.de.md§ 481
+[Zugangskonfiguration](Access_configuration.de.md)  
   
 5\. Kurs durchführen und Assessmentbausteine bewerten
 
@@ -117,7 +143,11 @@ Handlungen vor.
 
 |
 
+
+sites/manual_user/docs/course_create/General_Information.de.md §Course_Operation.de.md§ 481
   * [Kursbetrieb](Kursbetrieb.html)
+
+sites/manual_user/docs/course_create/General_Information.de.md §Learning_Activities_in_Courses.de.md§ 481
   * [Lernaktivitäten (Lerner Perspektive)](../../pages/viewpage.action%EF%B9%96pageId=108593198.html)
 
   
@@ -132,7 +162,9 @@ Ist der Kurs abgelaufen sollten Sie den Status auf „beendet“ setzen.
 
 |
 
-[Zugangskonfiguration](Zugangskonfiguration.html)  
+
+sites/manual_user/docs/course_create/General_Information.de.md §Access_configuration.de.md§ 481
+[Zugangskonfiguration](Access_configuration.de.md)  
   
 7\. Kurs löschen
 
@@ -147,7 +179,9 @@ angezeigt werden.
 
 |
 
-[Zugangskonfiguration](Zugangskonfiguration.html)  
+
+sites/manual_user/docs/course_create/General_Information.de.md §Access_configuration.de.md§ 481
+[Zugangskonfiguration](Access_configuration.de.md)  
   
 Wichtig: Bevor Sie Ihren OpenOlat Kurs erstellen:
 

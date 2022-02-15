@@ -12,7 +12,7 @@ Ihrem Kursbaustein ein Video zuzuordnen. Klicken Sie auf „Importieren“ bzw.
 "Importieren URL", um ein neues Video hochzuladen bzw. zu verlinken, oder
 wählen Sie ein bestehendes Video aus Ihren Einträgen aus. Videos können nicht
 nur im Kurseditor, sondern auch im [„Autorenbereich"
-importiert](../display/OO160DE/Lernressource%EF%B9%95+Video.html) werden. Wenn
+importiert](Learning_resource_Video.de.md) werden. Wenn
 Sie noch kein Video zugewiesen haben, erscheint beim Titel **Gewähltes Video**
 die Meldung _Kein Video ausgewählt_.
 
@@ -29,7 +29,9 @@ können Sie den Titel des Videos und/oder eine Beschreibung des Videos anzeigen
 lassen. Beides erscheint dann unterhalb des Videos. Sie können entweder eine
 _Eigene Beschreibung_ in dem erscheinenden Eingabefeld hinzufügen, die
 _Beschreibung_ der Lernressource _aus_ deren zugehörigen [_Infoseite_
-](../display/OO160DE/Infoseite.html)verwenden, oder die Beschreibung ganz
+
+sites/manual_user/docs/resource_video/Course_Element_Video.de.md §Info_page.de.md§ 481
+](../catalog/Info_page.de.md)verwenden, oder die Beschreibung ganz
 weglassen.
 
 In Lernpfad Kursen kann im Tab "Lernpfad" zusätzlich als Erledigungskriterium
@@ -43,7 +45,9 @@ im Kurs eingebunden werden noch weiter konfiguriert werden. Dies erfolgt
 direkt in der Lernressource im Autorenbereich. Hier können beispielsweise ein
 Startbild (Poster) definiert, Kapitelmarken gesetzt oder Quizfragen ergänzt
 werden. Die einzelnen Möglichkeiten werden im Kapitel "[Lernressource:
-Video](../display/OO160DE/Lernressource%EF%B9%95+Video.html)" erläutert.
+
+sites/manual_user/docs/resource_video/Course_Element_Video.de.md §Learning_resource_Video.de.md§ 481
+Video](Learning_resource_Video.de.md)" erläutert.
 
 Verwenden Sie den Kursbaustein „Video“, um ein Video im MPEG-4 Format (.mp4)
 in Ihren Kurs einzubinden. Das Video muss extern erstellt werden.

@@ -33,7 +33,7 @@ Edubase|
 Assessment| view only = participant|
 
 An evaluation of learners is however possible for coaches via the "[assessment
-tool](Assessment+of+learners.html)".  
+tool](../course_operation/Assessment_of_learners.md)".  
   
 Task| correct tasks, extend deadlines| create new task  
 Portfolio task| collect = participant|  
@@ -80,7 +80,7 @@ create forums
   
 File dialog|
 
-files: upload but not from the [storage folder](Using+Course+Tools.html)
+files: upload but not from the [storage folder](../course_operation/Using_Course_Tools.md)
 (="copy file")
 
 forum part like course element "Forum"

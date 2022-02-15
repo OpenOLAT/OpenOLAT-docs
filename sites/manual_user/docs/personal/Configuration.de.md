@@ -145,7 +145,7 @@ Sitzungswiederherstellung.
 ### Tab WebDAV
 
 Im Tab "WebDAV" finden Sie den [WebDAV-Link zu Ihrer OpenOlat-
-Instanz](Einsatz+von+WebDAV.html), mit der bequem Dateien verwaltet werden
+Instanz](../supported_tech/Using_WebDAV.de.md), mit der bequem Dateien verwaltet werden
 können. Über WebDAV können Sie als OpenOlat User auf ihren persönlichen Ordner
 zugreifen. OpenOlat Autoren können über WebDAV ihre gesamten Kursdateien
 organisieren.
@@ -153,7 +153,9 @@ organisieren.
 ### Tab Instant-Messaging
 
 Im Tab „Instant-Messaging“ legen Sie die Einstellungen für die [Chat-
-Funktion](Instant+Messaging.html) und Ihren Kommunikations-Status nach dem
+
+sites/manual_user/docs/personal/Configuration.de.md §Instant_Messaging.de.md§ 481
+Funktion](../../manual_admin/administration/Instant_Messaging.de.md) und Ihren Kommunikations-Status nach dem
 Login fest.
 
 ![](assets/Instant_Status.png)

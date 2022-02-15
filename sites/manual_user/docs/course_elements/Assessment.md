@@ -21,10 +21,18 @@ the manual.
 
 OpenOlat provides various course elements for knowledge testing. The central
 course elements for this are the two course elements for OpenOlat
+
+sites/manual_user/docs/course_elements/Assessment.md §Creating_Tests.md§ 481
 [tests](Creating+Tests.html) and the two course elements for [submission
+
+sites/manual_user/docs/course_elements/Assessment.md §Creating_Tasks.md§ 481
 tasks](Creating+Tasks.html). But also the other elements such as [portfolio
-task](Creating+Portfolio+Tasks.html),
-[assessments](Course+Element%EF%B9%95+Assessment.html) with and without
+
+sites/manual_user/docs/course_elements/Assessment.md §Creating_Portfolio_Tasks.md§ 481
+task](../portfolio/Creating_Portfolio_Tasks.md),
+
+sites/manual_user/docs/course_elements/Assessment.md §Course_Element_Assessment.md§ 481
+[assessments](Course_Element_Assessment.md) with and without
 evaluation grid (rubric) or the checklists offer a lot of potential for
 certain scenarios.
 
@@ -32,7 +40,9 @@ Most course elements in the assessment category can also be given points if
 required and then will be given the "Highscore" configuration tab. With the
 allocation of points, further features such as the addition of points or the
 passing/failing of a course based on the assessments of different course
-elements can be added. A course element [structure](Knowledge+Transfer.html)
+
+sites/manual_user/docs/course_elements/Assessment.md §Knowledge_Transfer.md§ 481
+elements can be added. A course element [structure](Knowledge_Transfer.md)
 is used for this.
 
 Another configuration tab that is available for most assessment course
@@ -41,8 +51,12 @@ e-mails can be sent depending on the progress of the respective course
 element. For example, a mail can be sent if a task has not yet been worked on
 by a certain date. The possibilities are similar to those in the menu
 "Reminder" in the course administration for which you can find more
-information [here](Course+Reminders.html).
 
+sites/manual_user/docs/course_elements/Assessment.md §Course_Reminders.md§ 481
+information [here](../course_operation/Course_Reminders.md).
+
+
+sites/manual_user/docs/course_elements/Assessment.md §Creating_Questionnaires.md§ 481
 The OpenOlat [questionnaire](Creating+Questionnaires.html) or the course
 element Survey can also be found in the assessment category.
 
@@ -57,7 +71,9 @@ not explicitly submitted electronically, e.g. presence presentations or online
 websites.
 
 On separate pages you will learn how to set up, perform and configure an
-[assessment](Course+Element%EF%B9%95+Assessment.html).
+
+sites/manual_user/docs/course_elements/Assessment.md §Course_Element_Assessment.md§ 481
+[assessment](Course_Element_Assessment.md).
 
   
 
@@ -88,7 +104,9 @@ want to use:
   *  **Assessment** : create individual assessments for each course participant or for participants of a group as a whole.
 
 How to create tasks step by step and further information on other
-[configuration possibilities](Task+-+Further+Configurations.html) can be found
+
+sites/manual_user/docs/course_elements/Assessment.md §Task_-_Further_Configurations.md§ 481
+[configuration possibilities](../task/Task_-_Further_Configurations.md) can be found
 in the chapter ["Creating
 Tasks"](https://confluence.openolat.org/display/OO141EN/Creating+Tasks).
 
@@ -109,7 +127,9 @@ For the course element Portfolio task you need a "Portfolio 2.0 template",
 which you link to the course element. If you have not yet created a Portfolio
 Template learning resource, you can also create a new Portfolio Template or
 link to a previously created one directly in the course via "Select or create
-Portfolio Template".  Click [here](Creating+Portfolio+Tasks.html) to find out
+
+sites/manual_user/docs/course_elements/Assessment.md §Creating_Portfolio_Tasks.md§ 481
+Portfolio Template".  Click [here](../portfolio/Creating_Portfolio_Tasks.md) to find out
 exactly how to create a portfolio task.
 
   
@@ -133,7 +153,9 @@ Further information on how learners can pick up and use a portfolio task can
 be found in the chapter "[Portfolio task and assignment: Collecting and
 editing](Portfolio+task+and+assignment%EF%B9%95+Collecting+and+editing%EF%B9%96src=contextnavpagetreemode.html)".
 How teachers can evaluate a portfolio task can be found in the chapter
-"[Portfolio assignment: Grading](Portfolio+assignment%EF%B9%95+Grading.html)".
+
+sites/manual_user/docs/course_elements/Assessment.md §Portfolio_assignment_Grading.md§ 481
+"[Portfolio assignment: Grading](../portfolio/Portfolio_assignment_Grading.md)".
 
 How the portfolio component looks like from the students' point of view and
 how it can be solved can be found in the chapter "Learning activities in the
@@ -142,6 +164,8 @@ task"](Working+With+Course+Elements.html#WorkingWithCourseElements-
 _portfolio_lerner).
 
 General information on the subject of portfolios and e-portfolios can be found
+
+sites/manual_user/docs/course_elements/Assessment.md §Creating_Portfolios.md§ 481
 [here](Creating+Portfolios.html).
 
 ## Course Element: Group Task
@@ -149,6 +173,8 @@ General information on the subject of portfolios and e-portfolios can be found
 ![](assets/task.png)
 
 The course element Group task functions largely like the course element
+
+sites/manual_user/docs/course_elements/Assessment.md §Creating_Tasks.md§ 481
 [Task](Creating+Tasks.html). Only the following differences have to be
 considered:
 
@@ -181,10 +207,14 @@ respectively. In case you have already selected a test the name of this
 learning resource will be displayed after _Selected file_. Click on the name
 to open a preview of the test. Click on "Replace file" if you would like to
 exchange the learning resource with another one. Further information can be
+
+sites/manual_user/docs/course_elements/Assessment.md §Creating_Tests.md§ 481
 found in the chapter "[Creating Tests](Creating+Tests.html)".
 
 The two main tabs for test configuration are " **[Test
-configuration](Tests+at+course+level.html)** " and " **Options** ".
+
+sites/manual_user/docs/course_elements/Assessment.md §Tests_at_course_level.md§ 481
+configuration](../tests/Tests_at_course_level.md)** " and " **Options** ".
 
 The settings under "Options" are initially being copied from the options of
 the learning resource. However, the options can be adjusted if needed. To do
@@ -231,11 +261,17 @@ practice; results of self-tests will be saved anonymously. Self-tests can be
 taken as often as needed. The course element "Self-test" contains learning
 resources of the type "Test." If you have not generated a test before please
 follow the instructions in the chapter ["Four Steps to Your Test or Self-
-test"](Four+Steps+to+Your+Test+or+Self-test.html).
+
+sites/manual_user/docs/course_elements/Assessment.md §Four_Steps_to_Your_Test_or_Self-test.md§ 481
+test"](../tests/Four_Steps_to_Your_Test_or_Self-test.md).
 
 For more information on tests, refer to the chapter "[Creating
+
+sites/manual_user/docs/course_elements/Assessment.md §Creating_Tests.md§ 481
 Tests](Creating+Tests.html)". The chapter "[Tests at course
-level](Tests+at+course+level.html)" is particularly relevant here.
+
+sites/manual_user/docs/course_elements/Assessment.md §Tests_at_course_level.md§ 481
+level](../tests/Tests_at_course_level.md)" is particularly relevant here.
 
 ## Course Element: Form
 
@@ -247,7 +283,9 @@ filled out only once. However, with the form it is visible which participant
 has filled in what in the form. Thus, in contrast to the survey (at least in
 the standard setting), filling in the form is not anonymous. For the
 completion of the course element, a last deadline can be defined in the tab
-"Form". A [course reminder](Course+Reminders.html) can also be linked in
+
+sites/manual_user/docs/course_elements/Assessment.md §Course_Reminders.md§ 481
+"Form". A [course reminder](../course_operation/Course_Reminders.md) can also be linked in
 addition. In contrast to the survey module, participants automatically receive
 a confirmation e-mail with the date and time of submission as well as their
 completed form as a PDF attachment when they submit the completed form.
@@ -274,9 +312,13 @@ beginning of the course or evaluate the course offerings at the end of the
 course. By default, the results are stored anonymously. A questionnaire must
 first be created with the learning resource "Form" in the author area. If you
 have not yet created a questionnaire, follow the instructions in chapter "[4
+
+sites/manual_user/docs/course_elements/Assessment.md §4_steps_to_your_Questionnaire.md§ 481
 steps to your questionnaire](4+steps+to+your+Questionnaire.html)".
 
 Further information on the subject of questionnaires and surveys can be found
+
+sites/manual_user/docs/course_elements/Assessment.md §Creating_Questionnaires.md§ 481
 in the chapter "[Creating questionnaires](Creating+Questionnaires.html)" and
 the corresponding subchapters.
 
@@ -310,7 +352,9 @@ dates or for checking the same object at different times (development) can be
 created relatively quickly.
 
 Further information can be found
-[here](Course+Element%EF%B9%95+Checklist.html).
+
+sites/manual_user/docs/course_elements/Assessment.md §Course_Element_Checklist.md§ 481
+[here](Course_Element_Checklist.md).
 
   
 

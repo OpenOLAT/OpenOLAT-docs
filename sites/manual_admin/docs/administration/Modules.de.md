@@ -3,26 +3,26 @@
   * Instant-Messaging
   * Wiki
   * Video
-  * [Kontaktverfolgung](Modul%EF%B9%95+Kontaktverfolgung.html)
+  * [Kontaktverfolgung](Modules_Contact_Tracing.de.md)
   * Kurserinnerungen
   * COVID-Zertifikat
-  * [Dokumentenpool](Modules%EF%B9%95+Dokumentenpool.html)
-  * [Taxonomie](Modules%EF%B9%95+Taxonomie.html)
+  * [Dokumentenpool](Modules_Document_pool.de.md)
+  * [Taxonomie](Modules_Taxonomy.de.md)
   * Livestream
   * Semesterdaten
   * Datenschutz
   * Buchungen
   * Gruppen
-  * [Lektionen](Lektionen-+und+Absenzenmanagement.html)
+  * [Lektionen](Lecture_and_roll_call_management.de.md)
   * Bibliothek
   * Forum
   * Kurs
   * Katalog
   * Repository
-  * [Organisationen](Modules%EF%B9%95+Organisationen.html)
+  * [Organisationen](Modules_Organisations.de.md)
   * Rolle Benutzer zu Benutzer
   * Anfrage Konto löschen
-  * [Curriculum](Modul%EF%B9%95+Curriculum.html)
+  * [Curriculum](Modules_Curriculum.de.md)
   * Qualitätsmanagement
 
 ## Instant Messaging

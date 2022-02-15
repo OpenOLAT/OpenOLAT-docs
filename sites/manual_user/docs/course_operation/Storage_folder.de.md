@@ -25,7 +25,7 @@ oder PowerPoint Dateien erstellt werden.
 Werden Dateien hochgeladen muss die Grössen Begrenzung sowohl für die einzelne
 Datei als auch das Speicherlimit des gesamten Ablageordners berücksichtigt
 werden. Dieses Limit gilt auch wenn die Dateien per
-[WebDAV](Einsatz+von+WebDAV.html) in den Ablageordner hochgeladen werden.
+[WebDAV](../supported_tech/Using_WebDAV.de.md) in den Ablageordner hochgeladen werden.
 
 ![](assets/Datei_hochladen.jpg)
 
@@ -34,19 +34,21 @@ versehen werden und so eine systematische Strukturierung von kursbezogenen
 Dateien umgesetzt werden.
 
 Zusätzlich legt OpenOlat, wenn der Kurs mindestens einen [Kursbaustein
-"Ordner"](Wissensvermittlung.html#Wissensvermittlung-_ordner) enthält oder der
+"Ordner"](../course_elements/Knowledge_Transfer.de.md#Wissensvermittlung-_ordner) enthält oder der
 Kurs mit einem Ressourcenordner verknüpft wird, automatisch die Ordner „
 **_courseelementdata** “ bzw. „ **_sharedfolder** " an.
 
 Im Unterordner „ **_courseelementdata** “ befinden sich alle Kursbausteine
 "[Ordner](../../pages/viewpage.action%EF%B9%96pageId=108593373.html)" und
-"[Teilnehmer Ordner](Arbeiten+mit+Kursbausteinen.html)" eines Kurses. Die
+"[Teilnehmer Ordner](../learning_activities/Working_With_Course_Elements.de.md)" eines Kurses. Die
 entsprechenden Ordner mit den jeweiligen Dateien erscheinen hier nachdem sie
 im Kurseditor angelegt wurden automatisch und können im Ablageordner auch
 editiert werden.
 
 Ein dem Kurs zugewiesener [Ressourcenordner
-](Verschiedene+Typen+von+Lernressourcen.html)kann im Ablageordner über den
+
+sites/manual_user/docs/course_operation/Storage_folder.de.md §Various_Types_of_Learning_Resources.de.md§ 481
+](../authoring/Various_Types_of_Learning_Resources.de.md)kann im Ablageordner über den
 Unterordner „ **_sharedfolder** “ eingesehen, jedoch per default nicht
 editiert werden. Soll eine Bearbeitung über den Ablageordner möglich sein,
 muss in den Kurs Optionen bei der Wahl des Ressourcenordners die Option

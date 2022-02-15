@@ -21,7 +21,7 @@ Since release 15.5, over 95 new functions and improvements have been added to
 OpenOlat. Here you can find the most important new features and changes. In
 addition, more than 105 bugs have been fixed. The complete list of changes in
 15.5 - 15.5.6 can be found
-[here](Release+notes+15.5.html#Releasenotes15.5-Releasenotes-versions).
+[here](Release_notes_15.5.md#Releasenotes15.5-Releasenotes-versions).
 
 ![](assets/160/Features_Improvements_Labels_EN.png)
 
@@ -57,7 +57,7 @@ Last update: 12-10-2021
 
 ## 3G Covid certificate
 
-Proof of a [3G Covid certificate](COVID+certificate.html) can be stored in the
+Proof of a [3G Covid certificate](../manual_user/personal) can be stored in the
 user profile.
 
 If the presentation is a prerequisite for attending an event, users can scan

@@ -26,7 +26,7 @@ additional functions.
 
 ## Course Search
 
-In addition to a [full text search](Full-Text+Search.html) for the total of
+In addition to a [full text search](../personal/Full-Text_Search.md) for the total of
 OpenOlat you can activate a search within a course. You can search for the
 following elements:
 
@@ -75,7 +75,7 @@ you can configure the permissions.
 Here all course owners, coaches and participants of a course can be displayed
 centrally. Course participants can send e-mails to specific persons, even to
 individual course members. In contrast to the [course element "Participant
-list"](Working+With+Course+Elements.html) no further configurations can be
+list"](../learning_activities/Working_With_Course_Elements.md) no further configurations can be
 made here.
 
   
@@ -114,7 +114,9 @@ can be created here.
 ## BigBlueButton online meetings
 
 Similar to the [course element
-BigBlueButton](Course+element+BigBlueButton.html), rooms for synchronous
+
+sites/manual_user/docs/course_operation/Using_Additional_Course_Features.md §Course_element_BigBlueButton.md§ 481
+BigBlueButton](../course_elements/Course_element_BigBlueButton.md), rooms for synchronous
 meetings can be created here.
 
   
@@ -122,6 +124,8 @@ meetings can be created here.
 ## Blog
 
 Here you can create or import a [blog (learning
+
+sites/manual_user/docs/course_operation/Using_Additional_Course_Features.md §Creating_Blogs.md§ 481
 resource)](Creating+Blogs.html). Learners can subscribe to the central course
 blog.
 
@@ -130,6 +134,8 @@ blog.
 ## Wiki
 
 Here you can create or import a [Wiki (learning
+
+sites/manual_user/docs/course_operation/Using_Additional_Course_Features.md §Creating_Wikis.md§ 481
 resource)](Creating+Wikis.html). Learners can subscribe to the central Wiki.
 
   
@@ -138,7 +144,9 @@ resource)](Creating+Wikis.html). Learners can subscribe to the central Wiki.
 
 A central forum can be activated for a course. Course members can subscribe to
 the forum as usual. However, differentiated settings as in the [course element
-"Forum"](Communication+and+Collaboration.html#CommunicationandCollaboration-d14e3744)
+
+sites/manual_user/docs/course_operation/Using_Additional_Course_Features.md §Communication_and_Collaboration.md§ 481
+"Forum"](../course_elements/Communication_and_Collaboration.md#CommunicationandCollaboration-d14e3744)
 are not possible here.
 
   
@@ -149,7 +157,9 @@ The teacher can use this link to provide important central documents of the
 course for download. Students can download the documents, be notified when new
 documents are available (subscribe) and, if required, send the files by
 e-mail. However, configuration options are not as extensive as in the [course
-element "Folder"](Course+Element%EF%B9%95+Folder.html).
+
+sites/manual_user/docs/course_operation/Using_Additional_Course_Features.md §Course_Element_Folder.md§ 481
+element "Folder"](../course_elements/Course_Element_Folder.md).
 
   
 
@@ -225,7 +235,9 @@ owners.
 
 If you only want to give certain people, e.g. the participants of a course,
 the right to write a glossary, you take a different approach. For this
-purpose, the "[Members management](Members+management.html)" of a course is
+
+sites/manual_user/docs/course_operation/Using_Additional_Course_Features.md §Members_management.md§ 481
+purpose, the "[Members management](Members_management.md)" of a course is
 used. Create a new group there and add the desired persons as participants to
 that group. Then go to "Rights" in the course's "Members management" and check
 the box "Glossary tool" for course participants of that group. Now persons in

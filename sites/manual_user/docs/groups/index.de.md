@@ -2,10 +2,10 @@
 
 ![](assets/group.png)
 
-  * [Gruppen erstellen](Gruppen+erstellen.html)
-  * [Gruppenadministration](Gruppenadministration.html)
-  * [Gruppenwerkzeuge nutzen](Gruppenwerkzeuge+nutzen.html)
-  * [Gruppenverwaltung](Gruppenverwaltung.html)
+  * [Gruppen erstellen](Create_Groups.de.md)
+  * [Gruppenadministration](Group_Administration.de.md)
+  * [Gruppenwerkzeuge nutzen](Using_Group_Tools.de.md)
+  * [Gruppenverwaltung](Group_Management.de.md)
 
 OpenOlat arbeitet mit einem übergreifenden Gruppensystem das es gestattet,
 Gruppen nach Wunsch zu konfigurieren und dem Verwendungszweck anzupassen.
@@ -29,7 +29,9 @@ Hilfe des kleinen Pfeils aufgeklappt werden.
 ![](assets/Gruppe.png)
 
 Weitere Infos zu den Aktionsmöglichkeiten im Menü "Gruppen" finden Sie im
-Kapitel [Gruppenverwaltung](Gruppenverwaltung.html).
+
+sites/manual_user/docs/groups/index.de.md §Group_Management.de.md§ 481
+Kapitel [Gruppenverwaltung](Group_Management.de.md).
 
 ## Kombination mit Kursen
 

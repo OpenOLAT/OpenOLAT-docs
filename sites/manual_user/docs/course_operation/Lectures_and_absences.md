@@ -8,12 +8,12 @@ lessons from a lecture block and not have the entire lecture block entered as
 absent.
 
 The general settings are made system-wide in the
-[administration](Lecture+and+roll+call+management.html). Furthermore, absence
+[administration](../../manual_admin/administration/Lecture_and_roll_call_management.md). Furthermore, absence
 management can generally be switched on or off by the OpenOlat administrator.
 
 On this page you will find the course owner's view. Information on handling
-for the [course coach](Lectures+-+Teacher+view.html) and the [course
-participants](Lectures+-+User+view.html) can be found in the corresponding
+for the [course coach](Lectures_-_Teacher_view.md) and the [course
+participants](Lectures_-_User_view.md) can be found in the corresponding
 chapters. The roll call is then carried out by individual instructors (course
 coaches). If a course does not contain course coaches, the tool cannot be used
 meaningfully.

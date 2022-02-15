@@ -32,7 +32,7 @@ Edubase|
   
 Bewertung| nur Ansicht = TN| Eine Bewertung von Lernenden ist jedoch für
 Betreuer über das
-"[Bewertungswerkzeug](../../pages/viewpage.action%EF%B9%96pageId=108593653.html)"
+"[Bewertungswerkzeug](../course_operation/Assessment_tool_-_overview.de.md)"
 möglich.  
 Aufgabe| Aufgaben korrigieren, Fristen verlängern| Neue Aufgabe erstellen  
 Portfolioaufgabe| abholen = TN|  

@@ -7,7 +7,7 @@ Klassenzimmer sowie Dokumenten Tools, Analyse Werkzeuge und ein PDF Generator.
 
 ## BigBlueButton
 
-[Administrative Konfiguration ](Modul+BigBlueButton.html)von BigBlueButton
+[Administrative Konfiguration ](BigBlueButton_module.de.md)von BigBlueButton
 
 ## OpenMeetings
 

@@ -14,7 +14,7 @@ Eingabeseite der "Einstellungen".
 
   
 
-Eine zum Import [vorbereitete](Video+hochladen.html) Videodatei muss im .mp4
+Eine zum Import [vorbereitete](Video_Upload.de.md) Videodatei muss im .mp4
 Format vorliegen, damit sie in OpenOlat als Video-Lernressource erkannt werden
 kann.
 
@@ -31,7 +31,7 @@ Metadaten der YouTube Datei, wie der Titel oder ein Startbild übernommen.
 In den Tabs des Menüs "Einstellungen" können Sie nun Ihr Video weiter
 konfigurieren. Die Tabs "Info", "Freigabe" und "Katalog" sind analog zu
 anderen Lernressourcen. Generelle Informationen zum Menü "Einstellungen"
-finden Sie [hier](Kurseinstellungen.html).
+finden Sie [hier](../course_create/Course_Settings.de.md).
 
 ### Metadaten
 
@@ -98,9 +98,13 @@ unterschiedlichen Kriterien hinzugefügt werden.
 
 Weitere Informationen zu den generellen Einstellungen von Quiz und Tests
 finden Sie im Kapitel "[Testfragen
-konfigurieren](Test+Fragen+konfigurieren.html)". Weitere Informationen zu den
+
+sites/manual_user/docs/resource_video/Learning_resource_Video.de.md §Configure_test_questions.de.md§ 481
+konfigurieren](../tests/Configure_test_questions.de.md)". Weitere Informationen zu den
 unterschiedlichen Fragetypen im Kapitel ["Test
-Fragetypen"](Test+Fragetypen.html).
+
+sites/manual_user/docs/resource_video/Learning_resource_Video.de.md §Test_question_types.de.md§ 481
+Fragetypen"](../tests/Test_question_types.de.md).
 
 ![](assets/Video_Quiz1.png)
 
@@ -188,7 +192,9 @@ Erstellte Video Lernressourcen können zusätzlich noch über den [Kursbaustein
 "Video" ](../../pages/viewpage.action%EF%B9%96pageId=108593229.html)in
 OpenOlat Kurse eingebunden werden. So eingebundene Videos erlauben - im
 Gegensatz zu Videos die über das [Kurselement "Einzelne Seite"
-eingebunden](../../pages/viewpage.action%EF%B9%96pageId=108593630.html)
+
+sites/manual_user/docs/resource_video/Learning_resource_Video.de.md §Single_Page_Add_edit_video.de.md§ 481
+eingebunden](Single_Page_Add_edit_video.de.md)
 werden:
 
   * die Wiedergabe mit Untertiteln
@@ -196,7 +202,9 @@ werden:
   * Kommentare
   * Bewertungen
   * ein Startbild nach Wunsch
-  * Kombination mit bestimmten Erledigungskriterien in [Lernpfad Kursen](../../pages/viewpage.action%EF%B9%96pageId=108593191.html)
+
+sites/manual_user/docs/resource_video/Learning_resource_Video.de.md §Learning_path_course.de.md§ 481
+  * Kombination mit bestimmten Erledigungskriterien in [Lernpfad Kursen](../course_create/Learning_path_course.de.md)
 
 ##  Video Collection
 

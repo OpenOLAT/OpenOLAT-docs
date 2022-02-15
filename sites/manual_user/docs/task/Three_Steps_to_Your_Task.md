@@ -8,6 +8,8 @@ possible though to create both the tasks and the sample solutions directly in
 OpenOlat.
 
 In case you have not created a course yet the chapter ["Creating
+
+sites/manual_user/docs/task/Three_Steps_to_Your_Task.md §Creating_Courses.md§ 481
 Courses"](Creating+Courses.html) will help you to do so before creating your
 tasks by means of the following instruction.
 
@@ -96,7 +98,9 @@ in the tab " **Sample solution** ".
 7|
 
 If "Score granted" is activated in the tab "Grading" the tab
-"[Highscore](Assessment.html#highscore)" is available as well.
+
+sites/manual_user/docs/task/Three_Steps_to_Your_Task.md §Assessment.md§ 481
+"[Highscore](../course_elements/Assessment.md#highscore)" is available as well.
 
 Determine here whether a "Congratulations title", a "Podium", a "Histogram"
 and/or the ranking list should be displayed. The display can be with name or
@@ -115,7 +119,9 @@ and submit their solution. Course authors and coaches can then view and return
 all submitted and corrected files. With an enabled revision phase, coaches can
 even place revision requests for their participants. Assessment can be carried
 out either directly in the course element or by means of the [assessment
-tool](Using+Course+Tools.html#UsingCourseTools-_bewertungswerkzeug).
+
+sites/manual_user/docs/task/Three_Steps_to_Your_Task.md §Using_Course_Tools.md§ 481
+tool](../course_operation/Using_Course_Tools.md#UsingCourseTools-_bewertungswerkzeug).
 
 Subscribe to the course element in the course view. Whenever a course
 participant submits a file you will receive a corresponding e-mail or a

@@ -30,7 +30,7 @@ gefilterte Darstellung verwendet werden:
 Es werden drei Kursrollen unterschieden:
 
   * Kursbesitzer,
-  * [Kursbetreuer ](Betreuer.html)und
+  * [Kursbetreuer ](../../manual_user/general/Coach.de.md)und
   * Kursteilnehmer.
 
 Die Mitglieder der jeweiligen Rollen können hier angezeigt und bearbeitet
@@ -39,7 +39,7 @@ werden.
 ## Gruppenrollen
 
 Es existieren zwei Gruppenrollen: [Gruppenbetreuer
-](Gruppenadministration.html)und Gruppenteilnehmer. Diese können jeweils
+](../../manual_user/groups/Group_Administration.de.md)und Gruppenteilnehmer. Diese können jeweils
 angezeigt und bearbeitet werden.
 
 ## Curriculumrollen
@@ -53,7 +53,7 @@ werden können.
 ## Benutzerrollen
 
 Je nach Konfiguration in der Administration im Bereich
-"[Modules](Module.html)" → "Benutzer zu Benutzer" stehen hier weitere Rollen
+"[Modules](../administration/Modules.de.md)" → "Benutzer zu Benutzer" stehen hier weitere Rollen
 zur Verfügung, die gefiltert angezeigt und definiert werden können.
 
 ## Status

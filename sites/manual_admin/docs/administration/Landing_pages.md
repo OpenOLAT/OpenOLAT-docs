@@ -12,7 +12,7 @@ some consideration.
 
 Each user can choose his or her preferred landing page in the personal menu in
 [System Settings/System/Specific System
-Settings](Configuration.html#Configuration-_specifics). However, this
+Settings](../../manual_user/personal/Configuration.md#Configuration-_specifics). However, this
 overrides the system default.
 
 ![](assets/admin_landingPage_EN.png)

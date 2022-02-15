@@ -13,7 +13,7 @@ usw.
 ### Was Sie benötigen:
 
   * Autorenrechte
-  * Lernressource "[Ressourcenordner](Kurseinstellungen.html)"
+  * Lernressource "[Ressourcenordner](../course_create/Course_Settings.de.md)"
   * Mehrere Lernressourcen "Kurs"
   * Übergreifende Dateien
 
@@ -24,6 +24,8 @@ usw.
 ---|---  
 1.|
 
+
+sites/manual_user/docs/how-to/use_the_same_files_in_several_courses.de.md §Authoring.de.md§ 481
 Gehen Sie hierfür in den [Autorenbereich ](Autorenbereich.html)und wählen Sie
 „Erstellen“ -> „Ressourcenordner“.
 
@@ -47,7 +49,9 @@ direkt erstellen.
 
 ![](assets/13_dieselben_Dateien.png)
 
-Nutzen Sie [WebDAV, ](Einsatz+von+WebDAV.html)wenn Sie viele Dateien hochladen
+
+sites/manual_user/docs/how-to/use_the_same_files_in_several_courses.de.md §Using_WebDAV.de.md§ 481
+Nutzen Sie [WebDAV, ](../supported_tech/Using_WebDAV.de.md)wenn Sie viele Dateien hochladen
 wollen.  
   
   
@@ -102,7 +106,9 @@ angelegten Unterordner „_sharedfolder“.
 2.|
 
 Diese Dateien können Sie nun wie alle anderen Dateien des Ablageordners über
-den Kursbaustein "[Einzelne Seite](Wissensvermittlung.html)" im Kurseditor
+
+sites/manual_user/docs/how-to/use_the_same_files_in_several_courses.de.md §Knowledge_Transfer.de.md§ 481
+den Kursbaustein "[Einzelne Seite](../course_elements/Knowledge_Transfer.de.md)" im Kurseditor
 hinzufügen.  
   
 Sie können lediglich _einen_ Ressourcenordner pro Kurs einbinden. Überlegen

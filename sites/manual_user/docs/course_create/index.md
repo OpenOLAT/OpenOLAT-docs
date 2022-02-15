@@ -7,7 +7,7 @@ course. There are two variants of OpenOlat courses: Conventional courses and
 Learning path courses, which differ partly in the configuration options.
 
 Learning path courses have, among other things, a [progress
-indicator](Learning+path+course+-+Participant+view.html), whereas conventional
+indicator](Learning_path_course_-_Participant_view.md), whereas conventional
 courses are suitable for more complex scenarios with more differentiated
 selective approvals. In the authoring area, course owners can directly display
 whether a course is a learning path course or a conventional course by
@@ -27,6 +27,8 @@ course can be created. For most teaching scenarios, however, the default
 setting without a wizard is the appropriate choice.
 
   
+
+sites/manual_user/docs/course_create/index.md §Types_of_Course_Element.md§ 481
 The concrete [course elements](Types+of+Course+Element.html) that you can use
 to set up courses are explained in detail in a separate chapter.
 

@@ -88,7 +88,7 @@ Use explicit short titles for all of your assessable course elements to be
 able to clearly distinguish them in the tab "Score."
 
 By means of the button "Display  [expert
-mode](Access+Restrictions+in+the+Expert+Mode.html)" an entry field will appear
+mode](../course_create/Access_Restrictions_in_the_Expert_Mode.md)" an entry field will appear
 in order to be able to make a more complex configuration according to your
 needs.
 
@@ -99,7 +99,9 @@ the password.
 An exception to this is the course root node. It cannot be deleted or moved,
 and you can't set a password. If you wish to issue an evidence of achievements
 for users for this course, the settings in the
-"[Score](Knowledge+Transfer.html#KnowledgeTransfer-_displayscore)" tab need to
+
+sites/manual_user/docs/course_elements/Course_Element_Structure.md §Knowledge_Transfer.md§ 481
+"[Score](Knowledge_Transfer.md#KnowledgeTransfer-_displayscore)" tab need to
 be configured accordingly.
 
 ## Settings for learning path courses

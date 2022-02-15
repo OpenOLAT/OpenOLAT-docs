@@ -1,6 +1,8 @@
 # mit Tabellen arbeiten
 
-Die Tabellen im Bereich [Kurse ](Kurse+finden.html)und im [Autorenbereich
+Die Tabellen im Bereich [Kurse ](../catalog/Finding_courses.de.md)und im [Autorenbereich
+
+sites/manual_user/docs/personal/Working_with_tables.de.md §Authoring.de.md§ 481
 ](Autorenbereich.html)(für Autoren) bieten verschiedene Filter- und
 Einstellungsoptionen.
 

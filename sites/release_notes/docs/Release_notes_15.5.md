@@ -26,7 +26,7 @@ OpenOlat since release 15.4 and many processes have been improved. Here, you
 can find the most important new features and changes. In addition to these
 improvements, more than 95 bugs have been fixed. The complete list of changes
 for 15.4 – 15.4.7 can be found
-[here](Release+notes+15.4.html#Releasenotes15.4-Releasenotes-versions).
+[here](Release_notes_15.4.md#Releasenotes15.4-Releasenotes-versions).
 
 ![](assets/155/Features_Improvements_Labels_EN.png)  
 
@@ -76,7 +76,7 @@ date must be selected.
 
 Now, **dependencies** between individual form elements are also possible.
 Elements can be linked to each other via **[question
-rules](Question+rules.html)**. Participants who select a certain answer to a
+rules](../manual_user/forms)**. Participants who select a certain answer to a
 question can thus skip other questions and go directly to the next related
 question.
 
@@ -254,7 +254,7 @@ follow-up times.
 #### Multiple use of entries
 
 Entries can now be used multiple times in [different ePortfolio
-binders](Multiple+use+of+entries.html). This is practical, for example, if
+binders](../manual_user/portfolio). This is practical, for example, if
 users want to continuously compile the most important entries on their
 education in a collective folder and use them to present themselves.
 
@@ -269,7 +269,9 @@ all other folders.
 
 It is now possible to link one or more taxonomies to the ePortfolio. Within
 the taxonomies, the levels can be identified as
-[competencies](Competences+tags.html).
+
+sites/release_notes/docs/Release_notes_15.5.md §Competences_tags.md§ 481
+[competencies](../manual_user/portfolio).
 
 In the portfolio, the user can then keyword the entries with the competencies
 available for selection. The competencies can additionally be provided with an

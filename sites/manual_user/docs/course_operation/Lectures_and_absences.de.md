@@ -8,13 +8,13 @@ Lektionen aus einem Lektionenblock fehlen können und nicht gleich den gesamten
 Lektionenblock als abwesend eingetragen bekommen.
 
 Die allgemeinen Einstellungen werden systemweit in der
-[Administration](Lektionen-+und+Absenzenmanagement.html) vorgenommen. Ferner
+[Administration](../../manual_admin/administration/Lecture_and_roll_call_management.de.md) vorgenommen. Ferner
 kann das Absenzmanagement generell vom OpenOlat Administrator ein- oder
 ausgeschaltet werden.
 
 Auf dieser Seite finden Sie die Ansicht des Kursbesitzers. Informationen zur
-Handhabung für den [Dozenten](Lektionen+-+Sicht+Dozent.html) und die
-[Kursteilnehmenden](Lektionen+-+Sicht+Benutzer.html) finden Sie in den
+Handhabung für den [Dozenten](Lectures_-_Teacher_view.de.md) und die
+[Kursteilnehmenden](Lectures_-_User_view.de.md) finden Sie in den
 entsprechenden Kapiteln. Die Anwesenheitskontrolle wird anschliessend durch
 einzelne Dozenten (Kursbetreuer) durchgeführt. Enthält ein Kurs keine
 Kursbetreuer kann das Werkzeug nicht sinnvoll genutzt werden.  

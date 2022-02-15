@@ -9,7 +9,7 @@ You have threefold access to the calendar
   * in your personal menu: aggregates all your OpenOlat calendars.
 
 Course calendars, like group calendars, are automatically added to your
-[personal calendar](Personal+Menu.html#PersonalMenu-_pers_kalender); course
+[personal calendar](Personal_Menu.md#PersonalMenu-_pers_kalender); course
 events will be displayed there for you.
 
   

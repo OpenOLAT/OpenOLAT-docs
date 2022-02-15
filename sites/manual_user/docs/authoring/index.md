@@ -11,9 +11,13 @@ entries") as well as to the search and to the deleted learning resources.
 Further filtering of the display is also possible. So also completely new
 filter queries, which are frequently needed, can be generated and saved.
 
-  * [Various Types of Learning Resources](Various+Types+of+Learning+Resources.html)
-  * [Actions in the 'Authoring' section](Actions+in+the+'Authoring'+section.html)
-  * [Detailed View of Learning Resources](Detailed+View+of+Learning+Resources.html)
+  * [Various Types of Learning Resources](Various_Types_of_Learning_Resources.md)
+
+sites/manual_user/docs/authoring/index.md §Actions_in_the_'Authoring'_section.md§ 481
+  * [Actions in the 'Authoring' section](Actions_in_the_'Authoring'_section.md)
+
+sites/manual_user/docs/authoring/index.md §Detailed_View_of_Learning_Resources.md§ 481
+  * [Detailed View of Learning Resources](Detailed_View_of_Learning_Resources.md)
 
 In the " **Favorites** " filter tab, you will find all learning resources that
 you have marked as favorites yourself.
@@ -34,7 +38,9 @@ resources for which you are entered as owner (co-author). From here they can
 be restored or permanently deleted by the administrator.
 
 For more details on how to use the filter options, click
-[here](Working+with+tables.html).
+
+sites/manual_user/docs/authoring/index.md §Working_with_tables.md§ 481
+[here](../personal/Working_with_tables.md).
 
 If you can't find a course or learning resource (anymore), then check the
 settings in the life cycle. Maybe the wrong selection was made here.
@@ -70,9 +76,13 @@ administration. For example, metadata can be stored here and it can be defined
 who has access to the learning resource.
 
 In the following chapters you will find explanations about the individual
-[OpenOlat learning resources](Various+Types+of+Learning+Resources.html), which
+
+sites/manual_user/docs/authoring/index.md §Various_Types_of_Learning_Resources.md§ 481
+[OpenOlat learning resources](Various_Types_of_Learning_Resources.md), which
 actions you can perform in the author section, and information about the [info
-page](Set+up+info+page.html) of a learning resource.
+
+sites/manual_user/docs/authoring/index.md §Set_up_info_page.md§ 481
+page](Set_up_info_page.md) of a learning resource.
 
 ![](assets/create161.png)
 

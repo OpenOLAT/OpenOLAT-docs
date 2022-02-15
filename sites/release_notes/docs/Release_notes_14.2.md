@@ -97,7 +97,7 @@ by default.
 ###### Points for answer variants
 
 If answer variants are stored with the gap text, separate
-[points](Configure+test+questions.html#Configuretestquestions-_tab_score) can
+[points](../manual_user/tests#Configuretestquestions-_tab_score) can
 be stored for each of these from now on. Thus, for example, "half correct"
 answers can also be evaluated with partial points. It is also possible to
 deduct points for certain solution variants.

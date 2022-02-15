@@ -26,6 +26,8 @@ Create a Resource Folder
 ---|---  
 1.|
 
+
+sites/manual_user/docs/how-to/use_the_same_files_in_several_courses.md §Authoring.md§ 481
 Go to the [authoring area](Authoring.html) and select "Create" -> "Resource
 folder".
 
@@ -48,7 +50,9 @@ create HTML files directly here.
 
 ![](assets/Ressourcenordner.png)
 
-Use [WebDAV ](Using+WebDAV.html)if you want to upload many files.  
+
+sites/manual_user/docs/how-to/use_the_same_files_in_several_courses.md §Using_WebDAV.md§ 481
+Use [WebDAV ](../supported_tech/Using_WebDAV.md)if you want to upload many files.  
   
   
 
@@ -108,7 +112,9 @@ folder. Here you will find the automatically created subfolder
 2.|
 
 You can now add these files like all other files in the folder using the
-course element "[Single page](Knowledge+Transfer.html)" in the course editor.  
+
+sites/manual_user/docs/how-to/use_the_same_files_in_several_courses.md §Knowledge_Transfer.md§ 481
+course element "[Single page](../course_elements/Knowledge_Transfer.md)" in the course editor.  
   
 You can only include _one_ resource folder per course. You should therefore
 carefully consider in advance which files you want to organize using a cross-

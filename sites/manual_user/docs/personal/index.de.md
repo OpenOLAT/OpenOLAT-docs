@@ -11,24 +11,42 @@ individuell anpassen können. Falls Sie den Tab „Portal“ nicht sehen, wurde
 diese Seite von ihrem Systemadministrator systemweit abgeschaltet.
 
   
-  * [Persönliche Werkzeuge](viewpage.action%EF%B9%96pageId=108593349.html)
-  * [Konfiguration](../display/OO161DE/Konfiguration.html)
-  * [Volltextsuche](../display/OO161DE/Volltextsuche.html)
-  * [Chat](../display/OO161DE/Chat.html)
-  * [Portal konfigurieren](../display/OO161DE/Portal+konfigurieren.html)
-  * [Mathematische Formel](../display/OO161DE/Mathematische+Formel.html)
-  * [mit Tabellen arbeiten](../display/OO161DE/mit+Tabellen+arbeiten.html)
+  * [Persönliche Werkzeuge](Personal_Menu.de.md)
+
+sites/manual_user/docs/personal/index.de.md §Configuration.de.md§ 481
+  * [Konfiguration](Configuration.de.md)
+
+sites/manual_user/docs/personal/index.de.md §Full-Text_Search.de.md§ 481
+  * [Volltextsuche](Full-Text_Search.de.md)
+
+sites/manual_user/docs/personal/index.de.md §Chat.de.md§ 481
+  * [Chat](Chat.de.md)
+
+sites/manual_user/docs/personal/index.de.md §Portal_configuration.de.md§ 481
+  * [Portal konfigurieren](Portal_configuration.de.md)
+
+sites/manual_user/docs/personal/index.de.md §Math_formula.de.md§ 481
+  * [Mathematische Formel](Math_formula.de.md)
+
+sites/manual_user/docs/personal/index.de.md §Working_with_tables.de.md§ 481
+  * [mit Tabellen arbeiten](Working_with_tables.de.md)
 
 ## Navigationsleiste
 
 In der oberen Navigationsleiste generell verfügbar ist der
-[Chat](../display/OO161DE/Chat.html) (instant Messnger).  Welche weiteren
+
+sites/manual_user/docs/personal/index.de.md §Chat.de.md§ 481
+[Chat](Chat.de.md) (instant Messnger).  Welche weiteren
 Elemente in der Navigationsleiste rechts oben angezeigt werden, ist abhängig
 von Ihren Einstellungen.
 
 Im persönlichen Menü finden Sie die Bereiche [Persönliche
-Werkzeuge,](viewpage.action%EF%B9%96pageId=108593349.html)
-[Konfiguration](../display/OO161DE/Konfiguration.html) und System. Je nach
+
+sites/manual_user/docs/personal/index.de.md §Personal_Menu.de.md§ 481
+Werkzeuge,](Personal_Menu.de.md)
+
+sites/manual_user/docs/personal/index.de.md §Configuration.de.md§ 481
+[Konfiguration](Configuration.de.md) und System. Je nach
 unter "Einstellungen" ausgewählten Werkzeugen werden bestimmte persönliche
 Tools in die obere Navigationsleiste verschoben oder bleiben über das
 persönliche Menü aufrufbar.

@@ -13,7 +13,7 @@ The following tabs are available for user configuration:
 
 | The personal data, personal details, contact data and details of the
 institution are entered here (cf. user configuration
-[profile](Configuration.html#Configuration-_profile)). Furthermore, the
+[profile](../../manual_user/personal/Configuration.md#Configuration-_profile)). Furthermore, the
 personal information entered by the user as well as the respective business
 card and the selected personal picture/photo are visible. The binding entries
 of the user profile include: First name, surname and e-mail.  
@@ -22,7 +22,7 @@ of the user profile include: First name, surname and e-mail.
 #### System settings
 
 | The system settings made by the user are displayed here (see User
-Configuration [Settings](Configuration.html#Configuration-_einstellungen)).  
+Configuration [Settings](../../manual_user/personal/Configuration.md#Configuration-_einstellungen)).  
   
 #### Change password
 
@@ -83,11 +83,15 @@ here.
 #### Roles
 
 | In this tab the user type, the roles and the status are defined, see
-"[Assign roles](Assign+roles.html)".  
+
+sites/manual_admin/docs/usermanagement/Configure_User.md §Assign_roles.md§ 481
+"[Assign roles](Assign_roles.md)".  
   
 #### Relations
 
 | In this tab, new relationships between the selected user and other OpenOlat
+
+sites/manual_admin/docs/usermanagement/Configure_User.md §User_management.md§ 481
 users can be defined (see [User Roles](User+management.html)).  
   
 #### Quota

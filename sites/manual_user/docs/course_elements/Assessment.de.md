@@ -18,11 +18,17 @@ existieren vertiefende, separate Seiten oder Kapitel hier im Handbuch.
 
 OpenOlat stellt diverse Kursbausteine für die Wissensüberprüfung zur
 Verfügung. Die zentralen Kursbausteine hierfür sind die beiden Kursbausteine
+
+sites/manual_user/docs/course_elements/Assessment.de.md §Creating_Tests.de.md§ 481
 zu OpenOlat [Tests ](../display/OO161DE/Tests+erstellen.html)und die beiden
 Kursbausteine für
+
+sites/manual_user/docs/course_elements/Assessment.de.md §Creating_Tasks.de.md§ 481
 [Einsendeaufgaben](../display/OO161DE/Aufgabe+erstellen.html). Aber auch die
 anderen Bausteine wie
-[Portfolioaufgabe](../display/OO161DE/Portfolioaufgabe+erstellen.html),
+
+sites/manual_user/docs/course_elements/Assessment.de.md §Creating_Portfolio_Tasks.de.md§ 481
+[Portfolioaufgabe](../portfolio/Creating_Portfolio_Tasks.de.md),
 [Bewertungen ](viewpage.action%EF%B9%96pageId=108593280.html)mit und ohne
 Bewertungsraster (Rubrik) oder die Checklisten bieten für bestimmte Szenarien
 viel Potenzial.
@@ -33,7 +39,9 @@ auch mit Punkten versehen werden und erhalten dann den Konfigurations-Tab
 Addition von Punkten oder das Bestehen /Nicht bestehen eines Kurses basierend
 auf den Bewertungen verschiedener Kursbausteine hinzugefügt werden. Verwendet
 wird hierfür ein Kursbaustein
-[Struktur](../display/OO161DE/Wissensvermittlung.html) bei herkömmlichen
+
+sites/manual_user/docs/course_elements/Assessment.de.md §Knowledge_Transfer.de.md§ 481
+[Struktur](Knowledge_Transfer.de.md) bei herkömmlichen
 Kursen.
 
 Ein weiterer Konfigurations-Tab der bei den meisten Kursbausteinen der
@@ -43,7 +51,9 @@ jeweiligen Kursbausteins E-Mails verschickt werden. Zum Beispiel kann eine
 Mail verschickt werden, wenn zu einem bestimmten Datum eine Aufgabe noch nicht
 bearbeitet wurde. Die Möglichkeiten sind ähnlich wie im Menü "Erinnerung" in
 der Kurs-Administration zu der Sie [hier
-](../display/OO161DE/Erinnerung.html)weitere Informationen finden.
+
+sites/manual_user/docs/course_elements/Assessment.de.md §Course_Reminders.de.md§ 481
+](../course_operation/Course_Reminders.de.md)weitere Informationen finden.
 
 In der Kategorie Wissensüberprüfung findet man auch den OpenOlat Fragebogen
 bzw. den Kursbaustein Umfrage.
@@ -88,7 +98,11 @@ möchten:
 
 Eine Schritt-für-Schritt-Anleitung zum Erstellen einer Aufgabe und die
 detaillierten [Konfigurationsmöglichkeiten
-](../display/OO161DE/Aufgabe+-+Weitere+Konfigurationen.html)finden Sie im
+
+sites/manual_user/docs/course_elements/Assessment.de.md §Task_-_Further_Configurations.de.md§ 481
+](../task/Task_-_Further_Configurations.de.md)finden Sie im
+
+sites/manual_user/docs/course_elements/Assessment.de.md §Creating_Tasks.de.md§ 481
 Kapitel [„Aufgabe erstellen"](../display/OO161DE/Aufgabe+erstellen.html).
 
   
@@ -110,7 +124,9 @@ Lernressource Portfoliovorlage erstellt haben, können Sie auch direkt im Kurs
 über "Portfoliovorlage wählen oder erstellen" eine neue Portfoliovorlage
 erstellen bzw. eine zuvor erstellte verlinken.  Wie Sie eine Portfolioaufgabe
 genau erstellen erfahren Sie
-[hier](../display/OO161DE/Portfolioaufgabe+erstellen.html).
+
+sites/manual_user/docs/course_elements/Assessment.de.md §Creating_Portfolio_Tasks.de.md§ 481
+[hier](../portfolio/Creating_Portfolio_Tasks.de.md).
 
   
 
@@ -132,12 +148,18 @@ Sie allgemeine Informationen zur Bewertung an alle Kursteilnehmer und
 
 Weitere Informationen wie Lernende eine Portfolioaufgabe abholen und nutzen
 finden Sie im Kapitel „[Portfolioaufgabe: abholen und
-bearbeiten](../display/OO161DE/Portfolioaufgabe%EF%B9%95+abholen+und+bearbeiten.html)“.
+
+sites/manual_user/docs/course_elements/Assessment.de.md §Portfolio_task_and_assignment_Collecting_and_editing.de.md§ 481
+bearbeiten](../portfolio/Portfolio_task_and_assignment_Collecting_and_editing.de.md)“.
 Wie Lehrende eine Portfolioaufgabe bewerten können, erfahren Sie im Kapitel
 „[Portfolioaufgabe: kommentieren und
-bewerten](../display/OO161DE/Portfolioaufgabe%EF%B9%95+kommentieren+und+bewerten.html)“.
+
+sites/manual_user/docs/course_elements/Assessment.de.md §Portfolio_assignment_Grading.de.md§ 481
+bewerten](../portfolio/Portfolio_assignment_Grading.de.md)“.
 
 Generelle Infos zum Thema Portfolio bzw. E-Portfolio finden Sie
+
+sites/manual_user/docs/course_elements/Assessment.de.md §Creating_Portfolios.de.md§ 481
 [hier](../display/OO161DE/Portfolio+erstellen.html).
 
 ## Kursbaustein "Gruppenaufgabe"  
@@ -178,11 +200,15 @@ haben, erscheint der Name dieser Lernressource hinter  _Gewählte Datei_. Mit
 Klick auf den Namen starten Sie die Vorschau des Tests. Mittels "Datei
 auswechseln" können Sie die Lernressource austauschen. Weitere Informationen
 finden Sie im Kapitel „[Tests
+
+sites/manual_user/docs/course_elements/Assessment.de.md §Creating_Tests.de.md§ 481
 erstellen](../display/OO161DE/Tests+erstellen.html)“.
 
 Die zwei zentralen Tabs in denen Sie Einstellungen für Ihren Test vornehmen
 können sind „[ **Test-
-Konfiguration**](../display/OO161DE/Tests+auf+Kursebene.html)“ und „
+
+sites/manual_user/docs/course_elements/Assessment.de.md §Tests_at_course_level.de.md§ 481
+Konfiguration**](../tests/Tests_at_course_level.de.md)“ und „
 **Optionen** “.
 
 Die Einstellungen unter "Optionen" werden zunächst aus den Optionen in der
@@ -240,12 +266,18 @@ Selbsttests können so oft wie erwünscht gelöst werden. Im Kursbaustein
 „Selbsttest“ werden genau wie beim Kursbaustein "Test" Lernressourcen vom Typ
 Test eingebunden. Wenn Sie noch keinen Test erstellt haben, folgen Sie den
 Anweisungen im Kapitel „[Vier Schritte zu Ihrem Test oder
-Selbsttest“](../display/OO161DE/Vier+Schritte+zu+Ihrem+Test+oder+Selbsttest.html).
+
+sites/manual_user/docs/course_elements/Assessment.de.md §Four_Steps_to_Your_Test_or_Self-test.de.md§ 481
+Selbsttest“](../tests/Four_Steps_to_Your_Test_or_Self-test.de.md).
 
 Weitere Informationen zu Tests finden Sie im Kapitel „[Tests
+
+sites/manual_user/docs/course_elements/Assessment.de.md §Creating_Tests.de.md§ 481
 erstellen](../display/OO161DE/Tests+erstellen.html)“. Relevant ist hier vor
 allem das Kapitel „[Tests auf
-Kursebene](../display/OO161DE/Tests+auf+Kursebene.html).
+
+sites/manual_user/docs/course_elements/Assessment.de.md §Tests_at_course_level.de.md§ 481
+Kursebene](../tests/Tests_at_course_level.de.md).
 
 ## Kursbaustein "Formular"
 
@@ -258,7 +290,9 @@ Formular sichtbar, welcher Teilnehmer was im Formular ausgefüllt hat. Das
 Ausfüllen ist also im Gegensatz zur Umfrage (zumindest in der Standard
 Einstellung) nicht anonym. Für das Ausfüllen des Kursbausteins kann im Tab
 "Formular" ein letzter Abgabetermin definiert werden. Eine [Kurs-
-Erinnerung](../display/OO161DE/Erinnerung.html) kann ebenfalls ergänzend
+
+sites/manual_user/docs/course_elements/Assessment.de.md §Course_Reminders.de.md§ 481
+Erinnerung](../course_operation/Course_Reminders.de.md) kann ebenfalls ergänzend
 verknüpft werden. Anders als beim Umfragebaustein erhalten die Teilnehmenden
 bei Abgabe des ausgefüllten Formulars automatisch eine Bestätigungsmail mit
 Datum und Zeitpunkt der Abgabe sowie ihr ausgefülltes Formular als PDF im
@@ -295,6 +329,8 @@ Sie noch keinen Fragebogen erstellt haben, folgen Sie den Anweisungen im
 Kapitel
 
 Weitere Informationen zum Thema Fragebogen und Umfrage finden Sie im Kapitel
+
+sites/manual_user/docs/course_elements/Assessment.de.md §Creating_Forms.de.md§ 481
 „[Formulare erstellen](../display/OO161DE/Formulare+erstellen.html)“ und den
 entsprechenden Unterkapiteln.
 

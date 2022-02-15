@@ -1,4 +1,4 @@
-site_name: Release Notes
+site_name: release_notes
 
 nav:
   - 16.1: "Release_notes_16.1.md"

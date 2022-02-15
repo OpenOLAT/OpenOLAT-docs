@@ -10,24 +10,32 @@ personal menu. The following chart shows the overview page of the Portfolio
 
 The links on the overview page lead to further portfolio areas.
 
- **To[my binders](My+portfolio+binders.html): **
+ **To[my binders](My_portfolio_binders.md): **
 
 Here all personal folders are displayed and the user can create new folders.
 
- **Show[my entries](My+entries.html):  **
+
+sites/manual_user/docs/portfolio/Components_of_the_portfolio.md §My_entries.md§ 481
+ **Show[my entries](My_entries.md):  **
 
 All entries are displayed here and new entries can be created.
 
- **Open[media center](Media+center.html):**
+
+sites/manual_user/docs/portfolio/Components_of_the_portfolio.md §Media_center.md§ 481
+ **Open[media center](Media_center.md):**
 
 Here you can find your artifacts and create or import new artifacts. An
 artifact can be, for example, a document, a media file, or a text.
 
- **To[my shares](Shared+by+me.html):**
+
+sites/manual_user/docs/portfolio/Components_of_the_portfolio.md §Shared_by_me.md§ 481
+ **To[my shares](Shared_by_me.md):**
 
 Here the own folders are shown, which were released for further persons.
 
- **Show items[shared with me](Shared+with+me.html):**
+
+sites/manual_user/docs/portfolio/Components_of_the_portfolio.md §Shared_with_me.md§ 481
+ **Show items[shared with me](Shared_with_me.md):**
 
 Here all folders are indicated, which were provided by other persons and
 released for the respective user. For example, teachers can see the folders

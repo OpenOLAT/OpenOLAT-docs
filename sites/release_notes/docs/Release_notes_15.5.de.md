@@ -27,7 +27,7 @@ Seit Release 15.4 wurden über 100 neue Funktionen und Verbesserungen zu
 OpenOlat hinzugefügt. Hier finden Sie die wichtigsten neuen Funktionen und
 Änderungen. Zusätzlich zu wurden mehr als 95 Bugs behoben. Die komplette Liste
 der Änderungen in 15.4 – 15.4.7 finden Sie
-[hier](Release+Notes+15.4.html#ReleaseNotes15.4-ReleaseNotes-Versionen).
+[hier](Release_notes_15.4.de.md#ReleaseNotes15.4-ReleaseNotes-Versionen).
 
 ![](assets/155/Features_Improvements_Labels_DE.png)
 
@@ -80,7 +80,7 @@ Textfeld kann eingeschränkt werden, so dass als Eingabe entweder nur Text bzw.
 nur Zahlen erlaubt sind, oder aber ein Datum gewählt werden muss.
 
 Ab sofort sind auch **Abhängigkeiten** zwischen einzelnen Formularelementen
-möglich. Über **[Frageregeln](Frageregeln.html)** können Elemente miteinander
+möglich. Über **[Frageregeln](../manual_user/forms)** können Elemente miteinander
 verknüpft werden. Teilnehmende, die eine bestimmte Antwort auf eine Frage
 wählen, können dadurch andere Fragen überspringen und direkt zur nächsten,
 damit verbundenen Frage gelangen.
@@ -270,7 +270,7 @@ es lassen sich Vor- und Nachlaufzeiten definieren.
 #### **Mehrfachnutzung von Einträgen**
 
 Einträge können ab sofort auch mehrfach in [verschiedenen ePortfolio-
-Mappen](../../pages/viewpage.action%EF%B9%96pageId=108593178.html) verwendet
+Mappen](../manual_user/portfolio) verwendet
 werden. Dies ist beispielsweise praktisch, wenn Benutzer in einer Sammelmappe
 laufend die wichtigsten Einträgen zu ihrer Ausbildung zusammenstellen und sich
 damit präsentieren möchten.
@@ -287,7 +287,7 @@ Mappen aktualisiert.
 
 Neu ist die Verknüpfung einer oder mehrere Taxonomien mit dem ePortfolio
 möglich. Innerhalb der Taxonomien können die Stufen als
-[Kompetenzen](Kompetenzen+verschlagworten.html) ausgewiesen werden.
+[Kompetenzen](../manual_user/portfolio) ausgewiesen werden.
 
 Im Portfolio können dann vom Benutzer selbst die Einträge mit den zur Auswahl
 stehenden Kompetenzen verschlagwortet werden. Die Kompetenzen können pro

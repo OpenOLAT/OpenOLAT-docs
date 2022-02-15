@@ -15,7 +15,7 @@ Button "Portfolioaufgabe abholen" anklicken.
 ![](assets/pf_aufgabeabholen_s1_DE.png)  
   
 4| Die Portfolioaufgabe ist nun abgeholt und im Portfolio unter "[Meine
-Mappen](Meine+Portfolio+Mappen.html)" gespeichert.  
+Mappen](My_portfolio_binders.de.md)" gespeichert.  
   
 | Beim nächsten Zugriff kann die Portfolioaufgabe direkt im persönlichen
 Portfolio geöffnet werden.  

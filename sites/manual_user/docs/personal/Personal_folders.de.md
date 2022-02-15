@@ -49,10 +49,12 @@ OpenOlat-Ordner entzippen. Zum anderen können Sie mehrere Dateien per WebDAV
 OpenOlat stehen Ihnen als gewöhnliches Netzlaufwerk zur Verfügung, über
 welches Sie sehr einfach Dateien kopieren, verschieben und löschen können.
 Weitere Infos finden Sie im Kapitel „[Einsatz von
-WebDAV](../display/OO161DE/Einsatz+von+WebDAV.html)“.
+WebDAV](../supported_tech/Using_WebDAV.de.md)“.
 
 Damit der Zugriff via WebDAV auf OpenOlat funktioniert muss WebDAV von Ihrem
-OpenOlat Administrator [aktiviert ](../display/OO141EN/WebDAV.html)werden.
+
+sites/manual_user/docs/personal/Personal_folders.de.md §WebDAV.de.md§ 481
+OpenOlat Administrator [aktiviert ](../../manual_admin/administration/WebDAV.de.md)werden.
 
 ## Quota
 
@@ -68,9 +70,17 @@ In OpenOlat gibt es mehrere unterschiedliche Varianten von Ordnern. Neben den
 beiden Ordnern im persönlichen Menü existieren in OpenOlat noch folgende
 Ordner Varianten:
 
-  * [Ablageordner](../display/OO161DE/Einsatz+der+Kurswerkzeuge.html) (in Kursen)   
-  * [Kursbaustein Ordner](../display/OO161DE/Wissensvermittlung.html#Wissensvermittlung-_ordner) (in Kursen) 
+
+sites/manual_user/docs/personal/Personal_folders.de.md §Using_Course_Tools.de.md§ 481
+  * [Ablageordner](../course_operation/Using_Course_Tools.de.md) (in Kursen)   
+
+sites/manual_user/docs/personal/Personal_folders.de.md §Knowledge_Transfer.de.md§ 481
+  * [Kursbaustein Ordner](../course_elements/Knowledge_Transfer.de.md#Wissensvermittlung-_ordner) (in Kursen) 
   * Ordner der Themenwahl (in Kursen)
-  * [Teilnehmer Ordner](../display/OO161DE/Kommunikation+und+Kollaboration.html#KommunikationundKollaboration-_participantfolder) (in Kursen)
-  * [Ressourcenordner ](../display/OO161DE/Kurseinstellungen.html#Kurseinstellungen-_detail_ressourcen)(Lernressource) 
+
+sites/manual_user/docs/personal/Personal_folders.de.md §Communication_and_Collaboration.de.md§ 481
+  * [Teilnehmer Ordner](../course_elements/Communication_and_Collaboration.de.md#KommunikationundKollaboration-_participantfolder) (in Kursen)
+
+sites/manual_user/docs/personal/Personal_folders.de.md §Course_Settings.de.md§ 481
+  * [Ressourcenordner ](../course_create/Course_Settings.de.md#Kurseinstellungen-_detail_ressourcen)(Lernressource) 
 

@@ -15,7 +15,7 @@ basierend auf einem Stichwort zu finden.
 Ihre Kurse können Sie auch anhand verschiedener Kriterien filtern, darunter
 nach Aktualität, Mitgliedsstatus und nach Bewertungsstatus. Klicken Sie dafür
 auf den kleinen Pfeil und weitere Filteroptionen erscheinen.
-[Hier](mit+Tabellen+arbeiten.html) erfahren Sie mehr darüber wie Sie Ihre
+[Hier](../personal/Working_with_tables.de.md) erfahren Sie mehr darüber wie Sie Ihre
 Ansicht optimal filtern können.
 
 ![](assets/Meine Kurse.png)
@@ -80,7 +80,7 @@ Alle OpenOlat Benutzer| Buchbar, Offen| "Veröffentlicht" oder "Beendet"
 Gäste| Offen & Gastzugang aktiviert| "Veröffentlicht" oder "Beendet"  
   
 Verfügt ein User auch über Kurse, die einem [Curriculum
-](Curriculumverwaltung.html)zugeordnet sind, erscheint im Menü "Kurse" auch
+](../curriculum/Curriculum_Management.de.md)zugeordnet sind, erscheint im Menü "Kurse" auch
 der Bereich "Lehrgänge".
 
   

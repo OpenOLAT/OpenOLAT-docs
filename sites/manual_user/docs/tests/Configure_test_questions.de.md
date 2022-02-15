@@ -1,6 +1,6 @@
 # Test Fragen konfigurieren
 
-Zu jedem [Fragetyp ](Test+Fragetypen.html)können die Tabs Auswahl/[Name des
+Zu jedem [Fragetyp ](Test_question_types.de.md)können die Tabs Auswahl/[Name des
 Fragetyps], Punkte, Feedback, Vorschau, Vorschau Lösung und Metadaten
 bearbeitet werden. Im Folgenden werden die einzelnen Tabs für die Einrichtung
 einer Testfrage näher erläutert.
@@ -100,7 +100,9 @@ Die Option „Feedback bei Wahl einer falschen Antwort“ wird nicht wirksam, we
 in einer Multiple-Choice-Frage zwar keine falschen, aber nicht alle richtigen
 Antworten angekreuzt werden.
 
-Auf [Test Ebene ](Test+konfigurieren.html)können Sie im Testeditor im Tab
+
+sites/manual_user/docs/tests/Configure_test_questions.de.md §Configure_tests.de.md§ 481
+Auf [Test Ebene ](Configure_tests.de.md)können Sie im Testeditor im Tab
 "Feedback" das Gesamtfeedback eines Tests einrichten.  
 Unter Administration → Einstellungen → Optionen können die Feedbacks für einen
 Test generell ein oder ausgeschaltet werden.
@@ -132,6 +134,10 @@ werden.
 
 Im Bereich "Technik" werden weitere Informationen angezeigt. Diese
 Einstellungen sowie weitere Informationen zu den [Metadaten
-](Detailansicht+einer+Frage.html)finden Sie ebenfalls im
+
+sites/manual_user/docs/tests/Configure_test_questions.de.md §Item_Detailed_View.de.md§ 481
+](../question_bank/Item_Detailed_View.de.md)finden Sie ebenfalls im
+
+sites/manual_user/docs/tests/Configure_test_questions.de.md §Question_Bank.de.md§ 481
 [Fragenpool](Fragenpool.html).
 

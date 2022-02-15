@@ -14,7 +14,7 @@ Die Dokumente aus dem Dokumentenpool stehen nur im Dokumentenpool zur
 Verfügung und können nicht in einen Kurs eingebunden werden.
 
 Weitere Informationen finden Sie im Kapitel
-[Taxonomie](Modules%EF%B9%95+Taxonomie.html).
+[Taxonomie](Modules_Taxonomy.de.md).
 
 Der Dokumentenpool kann als Site in der Hauptnavigation oben eingeschaltet
 werden.

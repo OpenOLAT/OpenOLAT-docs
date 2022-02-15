@@ -7,7 +7,7 @@ Create and set up Assessment
 You configure the assessment module in the course editor in the tab
 "Assessment". Here you can configure the evaluation in such a way that
 
-  * A [rubric](Rubric.html) is used as the basis for the evaluation
+  * A [rubric](../forms/Rubric.md) is used as the basis for the evaluation
   * Points are awarded (or not)
   * An individual comment can be added to
   * An individual document can be added

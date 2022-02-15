@@ -132,6 +132,8 @@ overview or absence management.
 ## User relations
 
 With the user-to-user relationship in OpenOlat, cross-course support functions
+
+sites/manual_user/docs/e-assessment/Coaching.md §User_management.md§ 481
 can be set up in the administration or [user management](User+management.html)
 for mentors, learning guides and supervisors, for example. If this is the
 case, coaches can easily access the persons to be coached in the coaching tool

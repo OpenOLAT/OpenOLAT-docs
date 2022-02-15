@@ -28,12 +28,26 @@ dar.
 Im Autorenbereich können OpenOlat Autoren neue Kurse und weitere
 [Lernressourcen](assets/Verschiedene Typen von Lernressourcen.html)anlegen. Der
 konkrete Erstellungsprozess mit den verschiedenen Editoren ist in den Kapiteln
+
+sites/manual_user/docs/authoring/Actions_in_the_'Authoring'_section.de.md §Creating_Courses.de.md§ 481
 [„Kurs erstellen"](../display/OO161DE/Kurs+erstellen.html), [„CP-Lerninhalt
+
+sites/manual_user/docs/authoring/Actions_in_the_'Authoring'_section.de.md §Creating_CP_Learning_Content.de.md§ 481
 erstellen"](../display/OO161DE/CP-Lerninhalt+erstellen.html), [„Wiki
+
+sites/manual_user/docs/authoring/Actions_in_the_'Authoring'_section.de.md §Creating_Wikis.de.md§ 481
 erstellen"](../display/OO161DE/Wiki+erstellen.html), [„Podcast
+
+sites/manual_user/docs/authoring/Actions_in_the_'Authoring'_section.de.md §Creating_Podcasts.de.md§ 481
 erstellen"](../display/OO161DE/Podcast+erstellen.html), [„Blog
+
+sites/manual_user/docs/authoring/Actions_in_the_'Authoring'_section.de.md §Creating_Blogs.de.md§ 481
 erstellen"](../display/OO161DE/Blog+erstellen.html), ["Portfolio
+
+sites/manual_user/docs/authoring/Actions_in_the_'Authoring'_section.de.md §Creating_Portfolios.de.md§ 481
 erstellen",](../display/OO161DE/Portfolio+erstellen.html) ["Tests erstellen"
+
+sites/manual_user/docs/authoring/Actions_in_the_'Authoring'_section.de.md §Creating_Tests.de.md§ 481
 ](../display/OO161DE/Tests+erstellen.html) beschrieben.
 
 Wenn Sie Ihre Kurse systematisch aufbauen und Lernressourcen in mehreren
@@ -50,10 +64,14 @@ Ausserhalb von OpenOlat erstellte oder aus einem OpenOlat System exportierte
 Lernressourcen können in OpenOlat importiert werden, wenn Sie in einem für
 OpenOlat kompatiblen Format vorliegen. Mögliche Typen werden unter dem Punkt
 [„Verschiedene Typen von
-Lernressourcen"](../display/OO161DE/Verschiedene+Typen+von+Lernressourcen.html)
+
+sites/manual_user/docs/authoring/Actions_in_the_'Authoring'_section.de.md §Various_Types_of_Learning_Resources.de.md§ 481
+Lernressourcen"](Various_Types_of_Learning_Resources.de.md)
 erklärt. Darüber können über den Link "Importieren URL" auch Links zu externen
 Videos z.B. YouTube gesetzt und als OpenOlat [Lernressource
-Video](../display/OO161DE/Lernressource%EF%B9%95+Video.html) angelegt werden.
+
+sites/manual_user/docs/authoring/Actions_in_the_'Authoring'_section.de.md §Learning_resource_Video.de.md§ 481
+Video](../resource_video/Learning_resource_Video.de.md) angelegt werden.
 
 Wenn Sie einen Kurs z.B. aus einer anderen OpenOlat Instanz importieren
 möchten, werden Sie gefragt, ob Sie die vom Kurs referenzierten Lernressourcen
@@ -108,20 +126,26 @@ direkt aufrufen. Hierzu zählen:
 Damit gelangen Sie in den Bereich "Einstellungen" und können die
 Informationen, die auf der Infoseite erscheinen, ändern. Mehr Informationen
 dazu finden Sie auf der Seite "[Infoseite
-einrichten](assets/Infoseite+einrichten.html)".
+
+sites/manual_user/docs/authoring/Actions_in_the_'Authoring'_section.de.md §Set_up_info_page.de.md§ 481
+einrichten](Set_up_info_page.de.md)".
 
 #### Katalogeinträge
 
 Damit können Sie neue Katalogeinträge erstellen und bereits bestehende
 Einträge bearbeiten. Mehr Informationen dazu finden Sie im Kapitel
 „Kurseinstellungen“ unter dem Punkt
-„[Katalogeinträge](assets/Kurseinstellungen.html#Kurseinstellungen-d13e1856)“.
+
+sites/manual_user/docs/authoring/Actions_in_the_'Authoring'_section.de.md §Course_Settings.de.md§ 481
+„[Katalogeinträge](../course_create/Course_Settings.de.md#Kurseinstellungen-d13e1856)“.
 
 #### Mitgliederverwaltung
 
 Hier können Sie Mitglieder einer Lernressource organisieren. Mehr
 Informationen dazu finden Sie im Kapitel
-„[Mitgliederverwaltung](../display/OO161DE/Mitgliederverwaltung.html)“.
+
+sites/manual_user/docs/authoring/Actions_in_the_'Authoring'_section.de.md §Members_management.de.md§ 481
+„[Mitgliederverwaltung](../course_operation/Members_management.de.md)“.
 
 #### Kopieren
 
@@ -140,7 +164,9 @@ wird, und nur von ihrem Besitzer.
 
 Herkömmliche Kurse erhalten noch das Menü "In Lernpfad konvertieren" um einen
 herkömmlichen Kurs in einen Kurs vom Typ [Lernpfad
-](viewpage.action%EF%B9%96pageId=108593191.html)umzuwandeln und somit eine
+
+sites/manual_user/docs/authoring/Actions_in_the_'Authoring'_section.de.md §Learning_path_course.de.md§ 481
+](../course_create/Learning_path_course.de.md)umzuwandeln und somit eine
 Kopie des Ursprungskurses zu erstellen.
 
 ## Weitere Aktionen

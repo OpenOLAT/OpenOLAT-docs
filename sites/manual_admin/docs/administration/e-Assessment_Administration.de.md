@@ -1,8 +1,8 @@
 # e-Assessment Administration
 
-  * [ePortfolio](e-Assessment%EF%B9%95+ePortfolio.html)
+  * [ePortfolio](eAssessment_ePortfolio.de.md)
   * Coaching
-  * [Fragenpool](e-Assessment%EF%B9%95+ePortfolio.html)
+  * [Fragenpool](eAssessment_ePortfolio.de.md)
   * Prüfungsmodus
   * Zertifikate
   * Korrektur

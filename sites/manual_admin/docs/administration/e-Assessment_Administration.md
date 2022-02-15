@@ -1,8 +1,8 @@
 # e-Assessment Administration
 
-  * [ePortfolio](eAssessment%EF%B9%95+ePortfolio.html)
+  * [ePortfolio](eAssessment_ePortfolio.md)
   * Coaching
-  * [Question bank](eAssessment%EF%B9%95+Question+bank.html)
+  * [Question bank](eAssessment_Question_bank.md)
   * Assessment mode
   * Certificates
   * Grading

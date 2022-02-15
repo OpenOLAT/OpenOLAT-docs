@@ -27,7 +27,7 @@ verschicken dürfen.
 
 | Kalender*| Verwalten Sie die Termine Ihrer Gruppe über den Gruppenkalender.
 Je nach Konfiguration haben Sie Schreib- oder nur Leserechte. Weitere
-allgemeine Informationen zum Kalender finden Sie [hier](Kalender.html)  
+allgemeine Informationen zum Kalender finden Sie [hier](../personal/Calendar.de.md)  
   
 ![](assets/course.png)
 
@@ -84,7 +84,7 @@ virtuellen Räumen. Bei entsprechender Freigabe der Raumvorlagen können sowohl
 Gruppenbetreuer als auch Gruppenmitglieder neue Meetings für gemeinsame
 Online-Session anlegen. Auch im Gruppenwerkzeug stehen die Aufzeichnungen nach
 Meeting-Ende für einen weiteren Zugriff bereit. Die Funktionalität ist im
-[Kursbaustein BigBlueButton](Kursbaustein+BigBlueButton.html) näher
+[Kursbaustein BigBlueButton](../course_elements/Course_element_BigBlueButton.de.md) näher
 beschrieben.  
   
 ![](assets/openmeetings.png)
@@ -103,7 +103,9 @@ Meetings für gemeinsame Online-Session anlegen.
 Virtuelle Klassenräume
 
 Je nach Konfiguration durch den OpenOlat
-[Administrator](Externe+Werkzeuge+-+Administration.html), stehen
+
+sites/manual_user/docs/groups/Using_Group_Tools.de.md §External_Tools_-_Administration.de.md§ 481
+[Administrator](../../manual_admin/administration/External_Tools_-_Administration.de.md), stehen
 unterschiedliche virtuelle Klassenräume (OpenMeetings, BigBlueButton,
 Microsoft Teams) als Gruppenwerkzeug zur Verfügung.
 

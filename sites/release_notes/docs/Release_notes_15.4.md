@@ -24,7 +24,7 @@ since release 15.3 and many processes have been improved. Here, you can find
 the most important new features and changes. In addition to these
 improvements, more than 120 bugs have been fixed. The complete list of changes
 for 15.3 – 15.3.9 can be found
-[here](Release+notes+15.3.html#Releasenotes15.3-Releasenotes-versions).
+[here](Release_notes_15.3.md#Releasenotes15.3-Releasenotes-versions).
 
 ![](assets/154/Features_Improvements_Labels_EN.png)  
 

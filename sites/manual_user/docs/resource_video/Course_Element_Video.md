@@ -31,7 +31,7 @@ video and whether the video should be started automatically or not. You can
 also enter a description for the video. This will then appear below the video.
 You can either add your _own description_ in the appearing input field, use
 the _description of the learning resource_ from its corresponding [_info
-page_](Info+page.html), or omit the description completely.
+page_](../catalog/Info_page.md), or omit the description completely.
 
   
 
@@ -46,7 +46,7 @@ integrated into the course can be further configured. This is done directly in
 the learning resource in the author area. Here, for example, a start image
 (poster) can be defined, chapter markers can be set or quiz questions can be
 added. The individual options are explained in the chapter "[Learning
-Resource: Video](Learning+resource%EF%B9%95+Video.html)".
+Resource: Video](Learning_resource_Video.md)".
 
 Use the course element "Video" to include videos in MPEG-4 format (.mp4) in
 your course. Your video has to be created externally.

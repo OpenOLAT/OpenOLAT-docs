@@ -1,6 +1,6 @@
 # Files and Folders
 
-In the administration in the "[Core functions](Core+functions.html)" area,
+In the administration in the "[Core functions](Core_functions.md)" area,
 settings can also be made regarding the files, including versions and quotas.
 
 In the Overview tab, administrators can get a quick overview of the number and

@@ -23,7 +23,7 @@ bei herkömmlichen Kursen eine Punkteberechnung eingerichtet, können auf der
 obersten Ebene der Benutzeransicht auch die Gesamtpunkte eines Kurses bzw. die
 für den obersten Baustein definierten Punkte, angezeigt und die
 Gesamtergebnisse der Kursteilnehmenden
-([Leistungsnachweise](../display/OO161DE/Leistungsbewertung.html)) als PDF
+(../e-assessment/Performance_assessment.de.md)) als PDF
 Datei gespeichert werden.
 
 ### Anzeige und Spaltenauswahl

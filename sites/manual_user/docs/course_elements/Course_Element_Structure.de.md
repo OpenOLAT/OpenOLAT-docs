@@ -17,7 +17,7 @@ der Kursbaustein in herkömmlichen oder in Lernpfad Kursen verwendet wird
 
 Weitere Informationen zu den allgemeinen Tabs "Titel und Beschreibung",
 Layout" sowie "Sichtbarkeit" und "Zugang" finden Sie
-[hier](../display/OO161DE/Allgemeine+Konfiguration+von+Kursbausteinen.html).
+[hier](../course_create/General_Configuration_of_Course_Elements.de.md).
 
 ## Tab Übersicht
 
@@ -50,7 +50,7 @@ Darstellung ist hier möglich.
 
 Einen Sonderfall des Bausteins Struktur stellt der Hauptkursknoten dar. Er
 enthält zusätzlich den Tab
-"[Erinnerungen](../display/OO161DE/Erinnerung.html)" und kann weder gelöscht
+"[Erinnerungen](../course_operation/Course_Reminders.de.md)" und kann weder gelöscht
 noch verschoben werden.
 
 ## Spezielle Einstellungen des Kursbausteins Struktur je nach Kurstyp

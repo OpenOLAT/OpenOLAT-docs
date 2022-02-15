@@ -2,7 +2,7 @@
 
 Formulare können mit Hilfe des Kursbausteins Formular in einen OpenOlat Kurs
 eingebunden werden. Wie Sie Formulare erstellen und in Kurse einbinden
-erfahren Sie [hier](Drei+Schritte+zu+Ihrem+Formular.html).
+erfahren Sie [hier](Three_Steps_to_your_Form.de.md).
 
 Nachdem Sie den Kursbaustein Formular dem Kurs hinzugefügt haben stehen Ihnen
 im Kurseditor folgende Tabs zur Verfügung:
@@ -12,7 +12,7 @@ im Kurseditor folgende Tabs zur Verfügung:
 Im Tab "Titel und Beschreibung" sowie "Layout" können allgemeine
 Beschreibungen und Informationen zum jeweiligen Kursbaustein hinterlegt und
 die optische Darstellung definiert werden. Im [Tab Lernpfad
-](Lernpfad+Kurs++-+Kurseditor.html)werden spezielle Einstellungen die für
+](../course_create/Learning_path_course_-_Course_editor.de.md)werden spezielle Einstellungen die für
 Lernpfad Kurse gelten definiert. Herkömmliche Kurs verfügen dagegen über die
 Tabs Sichtbarkeit und Zugang. Hier wird definiert, wer diesen Kursbaustein
 sehen bzw. bearbeiten kann.
@@ -38,11 +38,15 @@ ausgewählt werden.
 
 Ein neu erstelltes Formular beinhaltet zunächst noch keine Elemente, Fragen
 oder Textfelder. Diese müssen im Kurs über "Bearbeiten" oder alternativ direkt
+
+sites/manual_user/docs/forms/Forms_in_Forms_Element.de.md §Form_editor_(Questionnaire_editor).de.md§ 481
 in der Lernressource im [Formular Editor](Formular+Editor.html) hinzugefügt
 werden.
 
 Wenn ein Formular im Kurseditor erstellt wird, wird automatisch eine neue
 Lernressource Formular angelegt, die auch im [Autorenbereich
+
+sites/manual_user/docs/forms/Forms_in_Forms_Element.de.md §Authoring.de.md§ 481
 ](Autorenbereich.html)unter "Meine Einträge" zu finden ist und in weiteren
 Kursen und Kursbausteinen eingebunden werden kann.
 
@@ -55,7 +59,9 @@ eine Bearbeitung nicht mehr nötig.
 Zusätzlich kann in dem Tab definiert werden bis wann das Formular von den
 Lernenden ausgefüllt werden kann. Hierfür kann ein festes oder ein relatives
 Datum verwendet werden, z.B. x Tage nach dem ersten Kursbesuch. Sobald ein
-Enddatum definiert wurde wird auch der Tab "[Erinnerungen](Erinnerung.html)"
+
+sites/manual_user/docs/forms/Forms_in_Forms_Element.de.md §Course_Reminders.de.md§ 481
+Enddatum definiert wurde wird auch der Tab "[Erinnerungen](../course_operation/Course_Reminders.de.md)"
 aktiviert. Zum Beispiel könnte man eine Erinnerung erstellen, die die
 Lernenden wenige Tage vor der Abgabedeadline noch einmal per Mail an das
 Ausfüllen des Formulars erinnert. Wird die E-Mail Bestätigung aktiviert
@@ -80,7 +86,9 @@ Besitzer haben ferner noch die Möglichkeit, die Daten einzelner Personen oder
 alle Daten zurückzusetzen und verfügen zusätzlich noch über den Tab
 "Erinnerungen", wenn die Formularabgabe mit einer Deadline versehen ist. Hier
 können sie neue Erinnerungen erstellen und sehen welche [Erinnerungen
-](Erinnerung.html)schon versandt wurden.
+
+sites/manual_user/docs/forms/Forms_in_Forms_Element.de.md §Course_Reminders.de.md§ 481
+](../course_operation/Course_Reminders.de.md)schon versandt wurden.
 
 ![](assets/Fromular_kursrun.png)
 

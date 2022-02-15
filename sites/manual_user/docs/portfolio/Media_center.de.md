@@ -3,7 +3,7 @@
 Die Mediathek ist die zentrale Sammelstelle für alle individuell gesammelten
 Elemente (Artefakte) einer Person. Artefakte können unterschiedliche Dokumente
 und Medien oder auch OpenOlat spezifische Dinge sein. Die einzelnen Artefakte
-können in Portfolio [Mappen ](Meine+Portfolio+Mappen.html)zusammengestellt und
+können in Portfolio [Mappen ](My_portfolio_binders.de.md)zusammengestellt und
 so strukturiert und weiter ausgestaltet werden.
 
 Dabei können die Elemente auf unterschiedliche Art und Weise in die Mediathek
@@ -49,7 +49,9 @@ Es besteht die Möglichkeit, Zitate direkt in der Mediathek zu erstellen.
 Dadurch wird es möglich, ein Zitat an mehreren Stellen im Portfolio
 einzufügen, ohne immer wieder die gesamte Quelle eintragen zu müssen. Dafür
 ist es jedoch unerlässlich, die Quellenangaben bei der [Ersterfassung eines
-Zitats](Meine+Portfolio+Mappen.html#MeinePortfolioMappen-zitat) sorgfältig und
+
+sites/manual_user/docs/portfolio/Media_center.de.md §My_portfolio_binders.de.md§ 481
+Zitats](My_portfolio_binders.de.md#MeinePortfolioMappen-zitat) sorgfältig und
 vollständig zu vollziehen.
 
 # OpenOlat spezifische Artefakte in der Medieathek verknüpfen

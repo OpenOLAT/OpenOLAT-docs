@@ -7,8 +7,8 @@ Anwendungsbereich von Rubrik Bewertungen ist gross. Generell können Rubrik
 Elemente in allen Formularen und für sämtliche Kursbausteine und
 Lernressourcen, die Formulare nutzen, verwendet werden. Besonders relevant
 sind sie allerdings für den Ei[nsatz im Kursbaustein
-"Bewertung"](Formular+als+Rubrik+Bewertung.html) und in der [Portfolio 2.0
-Vorlage.](Formular+in+der+Portfolio+2.0+Vorlage.html)
+"Bewertung"](Forms_in_Rubric_Scoring.de.md) und in der [Portfolio 2.0
+Vorlage.](Forms_in_the_ePortfolio_template.de.md)
 
 In OpenOlat können Rubriks z.B. eingesetzt werden um
 
@@ -80,7 +80,9 @@ Fragen aus den Reports auszuschliessen.
 
 Ein bearbeitetes Rubrik kann somit auch automatisch eine entsprechende
 Punktzahl erhalten, was besonders bei der Verwendung im Kursbaustein
-„[Bewertung](../../pages/viewpage.action%EF%B9%96pageId=108593581.html)“
+
+sites/manual_user/docs/forms/Rubric.de.md §Assessment.de.md§ 481
+„[Bewertung](../course_elements/Assessment.de.md)“
 relevant ist. ** **
 
 Wird ein Rubrik in einem Kursbaustein Bewertung eingebunden kann die

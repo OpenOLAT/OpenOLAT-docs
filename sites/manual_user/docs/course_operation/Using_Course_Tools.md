@@ -26,24 +26,40 @@ Some course administration tools are presented on separate pages.
 
 On further pages you will find information about:
 
-  * [Course settings](Course+Settings.html)
-  * [Members management](Members+management.html)
+  * [Course settings](../course_create/Course_Settings.md)
+  * [Members management](Members_management.md)
   * Course elements of the [Course editor](https://confluence.openolat.org/display/OO161EN/Course+Elements+and+Course+Editor)
-  * [Storage folder](Storage+folder.html)
-  * [Lectures and Absences](Lecture+and+roll+call+management.html)
-  * [Reminder](Course+Reminders.html)
-  * [Assessment mode](Assessment+mode.html)
-  * [Data archiving](Data+archiving.html)
+  * [Storage folder](Storage_folder.md)
+
+sites/manual_user/docs/course_operation/Using_Course_Tools.md §Lecture_and_roll_call_management.md§ 481
+  * [Lectures and Absences](../../manual_admin/administration/Lecture_and_roll_call_management.md)
+
+sites/manual_user/docs/course_operation/Using_Course_Tools.md §Course_Reminders.md§ 481
+  * [Reminder](Course_Reminders.md)
+
+sites/manual_user/docs/course_operation/Using_Course_Tools.md §Assessment_mode.md§ 481
+  * [Assessment mode](../e-assessment/Assessment_mode.md)
+
+sites/manual_user/docs/course_operation/Using_Course_Tools.md §Data_archiving.md§ 481
+  * [Data archiving](Data_archiving.md)
 
 A number of tools are available in the "Administration" area of your course.
 You can organize course participants and course-related groups in the [members
-management](Members+management.html). Groups can also be bundled in learning
+
+sites/manual_user/docs/course_operation/Using_Course_Tools.md §Members_management.md§ 481
+management](Members_management.md). Groups can also be bundled in learning
 areas. The course structure and the course tools are set up in the course
 editor. Furthermore, you have access to the storage folder of a course.
 
 During the course itself the [assessment
-tool](Assessment+tool+-+overview.html) is relevant. Course-related [reminders
-](Course+Reminders.html)and [lectures ](Lectures+and+absences.html)can also be
+
+sites/manual_user/docs/course_operation/Using_Course_Tools.md §Assessment_tool_-_overview.md§ 481
+tool](Assessment_tool_-_overview.md) is relevant. Course-related [reminders
+
+sites/manual_user/docs/course_operation/Using_Course_Tools.md §Course_Reminders.md§ 481
+
+sites/manual_user/docs/course_operation/Using_Course_Tools.md §Lectures_and_absences.md§ 481
+](Course_Reminders.md)and [lectures ](Lectures_and_absences.md)can also be
 organized. The assessment mode is suitable for online exams. Certain
 statistical data can also be retrieved and data archived. And of course
 courses and learning resources can be copied, exported or deleted.
@@ -73,7 +89,9 @@ turned on an assessment in the assessment tool becomes possible. To pass a
 course, the tab "Score" in the course element needs to be filled in.
 
 Further information about the assessment tool you can found
-[here](Assessment+tool+-+overview.html).
+
+sites/manual_user/docs/course_operation/Using_Course_Tools.md §Assessment_tool_-_overview.md§ 481
+[here](Assessment_tool_-_overview.md).
 
 ##  Course Statistics
 
@@ -143,7 +161,9 @@ for text formats. If other files are included in the archiving, they will be
 provided in subfolders within the zip file.
 
 To save the results, first select a tool-specific block in the "[Archive
-tool](Data+archiving.html)" area and then select the concrete blocks that you
+
+sites/manual_user/docs/course_operation/Using_Course_Tools.md §Data_archiving.md§ 481
+tool](Data_archiving.md)" area and then select the concrete blocks that you
 want to save. Of course you can also click on "select all". The results can
 then be downloaded by selecting the "Archive" option. The user will be
 informed by mail if the download takes longer, as is the case with the log
@@ -155,7 +175,9 @@ contain the summarized overall evaluation of a course, not individual
 elements. The Wiki packs all pages and uploaded files into one ZIP file. The
 participant folder is saved according to the folder structure of this module.
 Further details on the recorded log files can be found in the chapter ["Record
-of Course Activities"](Record+of+Course+Activities.html).
+
+sites/manual_user/docs/course_operation/Using_Course_Tools.md §Record_of_Course_Activities.md§ 481
+of Course Activities"](Record_of_Course_Activities.md).
 
 In the archive tool you can also delete the chat history by clicking the
 button "Delete" under "Chat history".
@@ -278,7 +300,9 @@ deleted.
 The final deletion of a course is only possible by the administrator.
 
 When you delete a course, user data (e.g. test results) is first archived as
-an Excel file in your [personal folder](Personal+folders.html) and then
+
+sites/manual_user/docs/course_operation/Using_Course_Tools.md §Personal_folders.md§ 481
+an Excel file in your [personal folder](../personal/Personal_folders.md) and then
 deleted.
 
 It is possible to inform other course owners via e-mail about the completion

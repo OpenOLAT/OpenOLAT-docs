@@ -23,7 +23,7 @@ Seit Release 15.5 wurden über 95 neue Funktionen und Verbesserungen zu
 OpenOlat hinzugefügt. Hier finden Sie die wichtigsten neuen Funktionen und
 Änderungen. Zusätzlich zu wurden mehr als 105 Bugs behoben. Die komplette
 Liste der Änderungen in 15.5 – 15.5.6 finden Sie
-[hier](Release+Notes+15.5.html#ReleaseNotes15.5-ReleaseNotes-Versionen).
+[hier](Release_notes_15.5.de.md#ReleaseNotes15.5-ReleaseNotes-Versionen).
 
 ![](assets/160/Features_Improvements_Labels_DE.png)
 
@@ -64,7 +64,7 @@ Letztes Update: 10.12.2021
 ### 3G-Covid-Zertifikat
 
 Im Benutzerprofil kann der Nachweis über ein [3G-Covid-
-Zertifikat](COVID+Zertifikat.html) hinterlegt werden.
+Zertifikat](../manual_user/personal) hinterlegt werden.
 
 Ist die Vorlage Voraussetzung für den Besuch einer Veranstaltung, können
 Benutzer und Benutzerinnen vorher ein gültiges COVID-Zertifikat scannen oder

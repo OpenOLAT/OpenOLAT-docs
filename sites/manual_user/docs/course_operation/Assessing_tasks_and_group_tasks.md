@@ -22,7 +22,7 @@ To assess tasks and group tasks, first download the solution attempt submitted
 by the learner or the last corrected version.
 
 To learn how to assess the tasks of individuals, click here for a [step-by-
-step guide](Assessment+of+learners.html).
+step guide](Assessment_of_learners.md).
 
 ### Download all submitted documents
 
@@ -31,12 +31,14 @@ learners, it is recommended to download all solution attempts at once using
 the "Download all submitted documents" button. In the downloaded folder you
 will also find all assignment documents.
 
-Afterwards, you can fill out the [assessment form](The+assessment+form.html).
+Afterwards, you can fill out the [assessment form](The_assessment_form.md).
 
 ### Start a new bulk assessment
 
 How to create a bulk assessment for tasks exactly you can learn
-[here](+create+a+bulk+assessment+for+submission+tasks.html).
+
+sites/manual_user/docs/course_operation/Assessing_tasks_and_group_tasks.md §create_a_bulk_assessment_for_submission_tasks.md§ 481
+[here](../how-to/create_a_bulk_assessment_for_submission_tasks.md).
 
 ### Assessment workflow course element "Task
 
@@ -68,7 +70,9 @@ submission" and thus enable the learner to upload another submission.
 
 How a task or group task can be assessed, e.g. with a "pass/fail" or a score,
 is defined in the configuration of the course element
-"[Task](Task+-+Further+Configurations.html)" or "Group task". In the
+
+sites/manual_user/docs/course_operation/Assessing_tasks_and_group_tasks.md §Task_-_Further_Configurations.md§ 481
+"[Task](../task/Task_-_Further_Configurations.md)" or "Group task". In the
 assessment tool, the assessment options can no longer be changed.
 
 ### Assessment workflow course element "Group task

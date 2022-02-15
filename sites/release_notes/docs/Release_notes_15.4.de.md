@@ -23,7 +23,7 @@ Seit Release 15.3 wurden über 80 neue Funktionen und Verbesserungen zu
 OpenOlat hinzugefügt. Hier finden Sie die wichtigsten neuen Funktionen und
 Änderungen. Zusätzlich zu wurden mehr als 120 Bugs behoben. Die komplette
 Liste der Änderungen in 15.3 – 15.3.9 finden Sie
-[hier](Release+Notes+15.3.html#ReleaseNotes15.3-ReleaseNotes-Versionen).
+[hier](Release_notes_15.3.de.md#ReleaseNotes15.3-ReleaseNotes-Versionen).
 
 ![](assets/154/Features_Improvements_Labels_DE.png)
 

@@ -48,7 +48,7 @@ Note that even when sharing through a pool or a group, the respective persons
 must first have the right to access the question bank. For example, normal
 users do not normally have the right to access the question bank.  
 
-The [pool administrator](Question+Bank+Administration.html) (a specific
+The [pool administrator](Question_Bank_Administration.md) (a specific
 OpenOlat role) can create an unlimited number of pools. These can be either
 public, and thus visible to all users, or private. The number of pools
 displayed can therefore vary from user to user. Contact your pool
@@ -75,7 +75,9 @@ The questions that are converted within lists or shares are also stored under
 the respective list or share in addition to "My questions".
 
 For more information on converting, see [changing from QTI 1.2 to QTI
-2.1](Changing+from+QTI+1.2+to+QTI+2.1.html).
+
+sites/manual_user/docs/question_bank/Question_bank_possible_operations.md §Changing_from_QTI_1.2_to_QTI_2.1.md§ 481
+2.1](../tests/Changing_from_QTI_1.2_to_QTI_2.1.md).
 
 ##  Author rights
 
@@ -101,7 +103,9 @@ this function. The "Change metadata" function allows you to adjust single
 information statements simultaneously for multiple items, without entering the
 detailed view. Changes cannot be canceled. More information on the individual
 metadata fields can be found in the chapter "Item Detailed View" - [Meta
-Data](Item+Detailed+View.html#ItemDetailedView-item_details_metadaten).
+
+sites/manual_user/docs/question_bank/Question_bank_possible_operations.md §Item_Detailed_View.md§ 481
+Data](Item_Detailed_View.md#ItemDetailedView-item_details_metadaten).
 
 To get a preview of an item and an overview of relevant metadata, select the
 table row of the corresponding item by clicking into the row.

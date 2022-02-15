@@ -47,14 +47,14 @@ can thus also be sent out of the members list.
 | Calendar| You can put a calendar at the disposal of your group to record
 joint events. Furthermore you can determine the calendar's write access, that
 is, who will have the right to record data. Further information on calendar
-functions can be found in the [calendar](Calendar.html) chapter.  
+functions can be found in the [calendar](../personal/Calendar.md) chapter.  
   
 ![](assets/folder.png)
 
 | Folder| You enable members of your group to exchange files by using a
 folder. The available storage capacity is 10 MB. Furthermore you can determine
 the folder's write access, that is, who will have the right to record files.
-Further information to the folder can be found [here](Personal+folders.html).  
+Further information to the folder can be found [here](../personal/Personal_folders.md).  
   
 ![](assets/forum.png)
 
@@ -62,7 +62,7 @@ Further information to the folder can be found [here](Personal+folders.html).
 group you have the right to edit and delete contributions as well as to write
 new ones. Participants of a group can write contributions, however, they are
 not allowed to neither edit nor delete contributions of others. For more info
-on working with forums, click [here](Working+with+Forums.html).  
+on working with forums, click [here](../learning_activities/Working_with_Forums.md).  
   
 ![](assets/chat_icon.png)
 
@@ -103,11 +103,15 @@ OpenOlat system, other BigBlueButton room templates may be available to
 him/her.
 
 The functionality of BigBlueButton is described in the [course element
-BigBlueButton](Course+element+BigBlueButton.html).  
+
+sites/manual_user/docs/groups/Group_Administration.md §Course_element_BigBlueButton.md§ 481
+BigBlueButton](../course_elements/Course_element_BigBlueButton.md).  
   
 Each tool can only be used once in a group. It is therefore not possible to
 e.g. provide your members with more than one folder. If you want to work with
 more than one forum or Wiki or if you want to provide documents in more than
+
+sites/manual_user/docs/groups/Group_Administration.md §Types_of_Course_Element.md§ 481
 one folder it is better to use [course elements](Types+of+Course+Element.html)
 instead. Link one or more courses to the group, and configure the courses or
 the course elements to be only visible or accessible to the respective group.

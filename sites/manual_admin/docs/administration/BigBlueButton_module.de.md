@@ -6,7 +6,7 @@ BigBlueButton-Server, das Load-Balancing und das Einrichten von systemweiten
 Raumvorlagen.
 
 Die Anleitung zur Konfiguration von einzelnen Online-Terminen für Kursbesitzer
-wird im Kapitel [Kursbaustein BigBlueButton](Kursbaustein+BigBlueButton.html)
+wird im Kapitel [Kursbaustein BigBlueButton](../../manual_user/course_elements/Course_element_BigBlueButton.de.md)
 beschrieben.
 
  **Inhaltsverzeichnis**
@@ -104,7 +104,7 @@ Auswahl. Die Vorlagen steuern:
   *  **Raumvorlage aktivieren:** Aktivierte Raumvorlagen stehen in Kursen/Gruppen für neue Online-Termine zur Verfügung und können von Kursbesitzern gewählt werden
   *  **Anzahl Räume:** Maximale Anzahl der gleichzeitigen Räume dieser Raumvorlage
   *  **Offen für externe Benutzer:** Es wird automatisch ein Direktlink für Externe generiert, so dass sie den BigBlueButton Raum betreten können ohne vorher OpenOlat aufrufen zu müssen. Der Link wird dann in der Raumkonfiguration angezeigt und kann auch bei Bedarf vom Kursbesitzer oder -Betreuer geändert werden sowie an Gäste weitergegeben werden.
-  *  **Raumvorlage aktiviert für _< Rolle>_:** Bestimmt, welche Rollen die Raumvorlage für neue Online-Termine nutzen können. Wird die Option "Gruppenmitglied" aktiviert, kann die Vorlage auch in OpenOlat [Gruppen ](Gruppenwerkzeuge+nutzen.html)verwendet und weiter konfiguriert werden.
+  *  **Raumvorlage aktiviert für _< Rolle>_:** Bestimmt, welche Rollen die Raumvorlage für neue Online-Termine nutzen können. Wird die Option "Gruppenmitglied" aktiviert, kann die Vorlage auch in OpenOlat [Gruppen ](../../manual_user/groups/Using_Group_Tools.de.md)verwendet und weiter konfiguriert werden.
 
 ![](assets/BBB_Raumvorlage.png)
 

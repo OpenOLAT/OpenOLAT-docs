@@ -108,6 +108,8 @@ Content-Packaging"](../../pages/viewpage.action%EF%B9%96pageId=68255959.html)
 erklärt wird. Oder Sie erstellen das CP extern, beispielsweise mit
 [eLML](http://www.elml.org "eLML ").
 
+
+sites/manual_user/docs/course_elements/Knowledge_Transfer.de.md §Creating_CP_Learning_Content.de.md§ 481
 Weitere Infos zum CP finden Sie [hier](CP-Lerninhalt+erstellen.html).  
 
 ##  Kursbaustein „SCORM-Lerninhalt“
@@ -183,8 +185,12 @@ bereitzustellen. Kursteilnehmer können sich Episoden direkt in OpenOlat
 anzeigen lassen oder den Podcast abonnieren, die Episoden in Portale wie
 iTunes laden und auf ihre mobilen Endgeräte kopieren.
 
-Wie Sie einen Podcast [erstellen ](Vier+Schritte+zu+Ihrem+Podcast.html)und
-[konfigurieren ](Podcast+-+Weitere+Konfigurationen.html)erfahren Sie in
+
+sites/manual_user/docs/course_elements/Knowledge_Transfer.de.md §Four_Steps_to_Your_Podcast.de.md§ 481
+Wie Sie einen Podcast [erstellen ](../resource_podcast/Four_Steps_to_Your_Podcast.de.md)und
+
+sites/manual_user/docs/course_elements/Knowledge_Transfer.de.md §Podcast_-_Further_Configurations.de.md§ 481
+[konfigurieren ](../resource_podcast/Podcast_-_Further_Configurations.de.md)erfahren Sie in
 separaten Kapiteln.
 
 ## Kursbaustein "Blog"  
@@ -200,8 +206,12 @@ können diese Beiträge dann kommentieren und auch mit 1-5 Sternen bewerten.
 Ferner ist es möglich, den Kursteilnehmenden das Schreibrecht für einen Blog
 zu geben, so dass sie gemeinsam einen Kursblog führen können.
 
-Wie Sie einen Blog [erstellen ](Vier+Schritte+zu+Ihrem+Blog.html)und
-[konfigurieren ](Blog+-+Weitere+Konfigurationen.html)erfahren Sie auf
+
+sites/manual_user/docs/course_elements/Knowledge_Transfer.de.md §Four_Steps_to_Your_Blog.de.md§ 481
+Wie Sie einen Blog [erstellen ](../resource_blog/Four_Steps_to_Your_Blog.de.md)und
+
+sites/manual_user/docs/course_elements/Knowledge_Transfer.de.md §Blog_-_Further_Configurations.de.md§ 481
+[konfigurieren ](../resource_blog/Blog_-_Further_Configurations.de.md)erfahren Sie auf
 separaten Seiten.
 
 ## Kursbaustein „Video“
@@ -218,7 +228,9 @@ Weitere Informationen zum Kursbaustein Video finden Sie
 [hier](../../pages/viewpage.action%EF%B9%96pageId=108593229.html).
 Informationen zur Nachbearbeitung des Videos mit OLAT Quiz und Sprungmarken
 finden Sie im Kapitel "[Lernressource:
-Video](Lernressource%EF%B9%95+Video.html)".
+
+sites/manual_user/docs/course_elements/Knowledge_Transfer.de.md §Learning_resource_Video.de.md§ 481
+Video](../resource_video/Learning_resource_Video.de.md)".
 
 ##  Kursbaustein "Video Livestream"
 

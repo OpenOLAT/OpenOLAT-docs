@@ -84,7 +84,7 @@ sofern noch niemand auf Ihren Beitrag geantwortet hat.
 Es ist möglich, dass Kursteilnehmende vom Lehrenden zusätzlich
 Moderationsrechte in einem Forum erhalten. Was genau damit verbunden ist,
 erfahren Sie im Kapitel „[Kommunikation und
-Kollaboration](Kommunikation+und+Kollaboration.html)“.
+Kollaboration](../course_elements/Communication_and_Collaboration.de.md)“.
 
 ### Welche Darstellungsmöglichkeiten für Foren-Threads gibt es?
 

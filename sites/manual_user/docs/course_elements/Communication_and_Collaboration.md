@@ -7,7 +7,7 @@
     * 1.4 Course Element: Participant folder
     * 1.5 Course Element: Participant list
 
-as well as several [Virtual classrooms](Virtual+classrooms.html)
+as well as several [Virtual classrooms](Virtual_classrooms.md)
 
 ## Course Element: Wiki
 
@@ -21,7 +21,7 @@ projects.
 The course element "Wiki" helps you to embed a Wiki in your course. Just click
 on "Select, create or import Wiki" in the tab " **Wiki learning content** " to
 assign a Wiki already existing or to create a new one. The chapter ["Creating
-Wikis"](Four+Steps+to+Your+Wiki.html) will tell you how to do so step by step.
+Wikis"](../resource_wiki/Four_Steps_to_Your_Wiki.md) will tell you how to do so step by step.
 If you have not already selected a Wiki yet the title **Selected Wiki** will
 show the message _No Wiki selected_.
 
@@ -88,7 +88,7 @@ in individual forum posts".
 
 ### Moderation rights
 
-All course owners and [coaches](Coach.html) have the following additional
+All course owners and [coaches](../general/Coach.md) have the following additional
 moderation rights. You can:
 
   * Editing and deleting all posts in a forum; attaching files.
@@ -196,7 +196,7 @@ evaluation or allocation of points can be made....
 
 In the participant list, the members of the course can be made visible to
 everyone. Unlike the [member
-management](Using+Course+Tools.html#UsingCourseTools-_mitgliederverwaltung)
+management](../course_operation/Using_Course_Tools.md#UsingCourseTools-_mitgliederverwaltung)
 course tool, which is only visible for course owners, the course element
 "Participant list" provides a list of all course members to those OpenOlat
 users allowed to open the respective course. Members are listed depending on

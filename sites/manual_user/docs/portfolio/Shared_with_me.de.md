@@ -5,7 +5,7 @@
 Sie gelangen zu den für Sie freigegebenen Mappen über den Klick auf "Zeige an
 mich freigegebene Mappen". Es erscheint das folgende Menü mit den drei Tabs
 "Favoriten", "Einträge/To do" und "Mappen". Auch sehen Sie, welche Einträge
-bereits eine [Bewertung ](Prozess+eines+Bewertungsportfolios.html)erhalten
+bereits eine [Bewertung ](Process_of_an_assessment_portfolio.de.md)erhalten
 haben.  
 
 ![](assets/Portfolio_freigegeben1.jpg)

@@ -45,7 +45,7 @@ portfolio template just created in the bread-crumb bar.
 Now you can start editing the portfolio template.
 
 Further information on editing and designing the Portfolio Template 2.0 can be
-found [here](Portfolio+template%EF%B9%95+Administration+and+editing.html).  
+found [here](Portfolio_template_Administration_and_editing.md).  
   
 If you want to use the type "Form" in your assignement, you must also create
 and integrate a corresponding learning resource "Form". The procedure for
@@ -54,5 +54,7 @@ like portfolio template.
 
 To integrate an already created Portfolio 2.0 template in an OpenOlat course
 you have to add the course element "[Portfolio
-task](Creating+Portfolio+Tasks.html)" to this course.
+
+sites/manual_user/docs/portfolio/Portfolio_template_Creation.md §Creating_Portfolio_Tasks.md§ 481
+task](Creating_Portfolio_Tasks.md)" to this course.
 

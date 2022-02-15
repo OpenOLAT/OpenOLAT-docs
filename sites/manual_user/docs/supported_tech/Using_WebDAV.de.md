@@ -29,11 +29,13 @@ den Ablageordner eines Kurses kopieren.
 Struktur, sobald die Elemente über OpenOlat angelegt wurden, automatisch
 erstellt:
 
-  * [Persönlicher Ordner](../../pages/viewpage.action%EF%B9%96pageId=108593736.html) (jeder)
+  * [Persönlicher Ordner](../personal/Personal_folders.de.md) (jeder)
   * Ordner von Gruppen
-  * [Ablageordner von Kurse](Einsatz+der+Kurswerkzeuge.html#EinsatzderKurswerkzeuge-_ablageordner)n (nur Kursbesitzer)
+  * [Ablageordner von Kurse](../course_operation/Using_Course_Tools.de.md#EinsatzderKurswerkzeuge-_ablageordner)n (nur Kursbesitzer)
   * Kursbaustein Ordner
-  * [Ressourcenordner ](Kurseinstellungen.html#Kurseinstellungen-_detail_ressourcen)(nur Lernressourcenbesitzer)
+
+sites/manual_user/docs/supported_tech/Using_WebDAV.de.md §Course_Settings.de.md§ 481
+  * [Ressourcenordner ](../course_create/Course_Settings.de.md#Kurseinstellungen-_detail_ressourcen)(nur Lernressourcenbesitzer)
 
 Wer in den jeweiligen Ordnern Dateien per WebDAV hochladen darf ist abhängig
 von der jeweiligen Konfiguration.

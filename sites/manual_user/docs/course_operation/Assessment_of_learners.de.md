@@ -27,7 +27,7 @@ nun nacheinander die Kursbausteine aus die Sie bewerten möchten.
 
 ![](assets/bewertung_person.png)  
   
-4\. Sie gelangen nun zum [Bewertungsformular ](Das+Bewertungsformular.html)des
+4\. Sie gelangen nun zum [Bewertungsformular ](The_assessment_form.de.md)des
 jeweiligen Kursbausteins. Die genauen Möglichkeiten sind vom Bausteintyp und
 den zugehörigen Einstellungen abhängig.
 
@@ -67,7 +67,9 @@ jeweiligen Namen klicken.
 
 ![](assets/Lernende_bewerten_Schritt3a.png)  
   
-4\. Sie gelangen nun zum [Bewertungsformular](Das+Bewertungsformular.html) des
+
+sites/manual_user/docs/course_operation/Assessment_of_learners.de.md §The_assessment_form.de.md§ 481
+4\. Sie gelangen nun zum [Bewertungsformular](The_assessment_form.de.md) des
 jeweiligen Kursbausteins. Die genauen Möglichkeiten sind vom Bausteintyp und
 den zugehörigen Einstellungen abhängig.
 
@@ -82,15 +84,21 @@ Person für diesen Baustein navigieren.
 
 ![](assets/Lernende_bewerten_Schritt5a.png)  
   
-Die Kursbausteine „[Aufgabe](Aufgaben+und+Gruppenaufgaben+bewerten.html)“ und
-„[Bewertung](Bewertung+von+Kursbausteinen.html)“ bieten auch die Möglichkeit
+
+sites/manual_user/docs/course_operation/Assessment_of_learners.de.md §Assessing_tasks_and_group_tasks.de.md§ 481
+Die Kursbausteine „[Aufgabe](Assessing_tasks_and_group_tasks.de.md)“ und
+
+sites/manual_user/docs/course_operation/Assessment_of_learners.de.md §Assessment_of_course_modules.de.md§ 481
+„[Bewertung](Assessment_of_course_modules.de.md)“ bieten auch die Möglichkeit
 der Massenbewertung.
 
 Wollen Sie alle oder sehr viele Benutzer auf einmal bewerten können Sie eine
 „Neue Massenbewertung starten“. Hierfür erstellen Sie eine Bewertung in einem
 Tabellenprogramm und fügen die Daten per copy+paste in das Feld der
 Massenbewertung ein. Weitere Informationen zur Massenbewertung finden Sie
-[hier](../../pages/viewpage.action%EF%B9%96pageId=108593558.html).
+
+sites/manual_user/docs/course_operation/Assessment_of_learners.de.md §create_a_bulk_assessment_for_submission_tasks.de.md§ 481
+[hier](../how-to/create_a_bulk_assessment_for_submission_tasks.de.md).
 
 Um alle Mitglieder einer Gruppe zu bewerten können Sie sich über die
 Filterfunktion im Tab "Benutzer" ausschließlich die jeweiligen

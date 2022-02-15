@@ -30,10 +30,12 @@ There are basically two types of folders:
 
 You can recognize the retrieved folders by the red border and the reference to
 the corresponding course. These folders are based on a "[Portfolio 2.0
-template](Portfolio+template%EF%B9%95+Creation.html)" and are usually created
+template](Portfolio_template_Creation.md)" and are usually created
 by another person, usually the teacher. The collection takes place in the
 course via the "[Portfolio
-Task](Portfolio+task+and+assignment%EF%B9%95+Collecting+and+editing.html)".
+
+sites/manual_user/docs/portfolio/My_portfolio_binders.md §Portfolio_task_and_assignment_Collecting_and_editing.md§ 481
+Task](Portfolio_task_and_assignment_Collecting_and_editing.md)".
 Alternatively, it is also possible to book and collect portfolio templates
 independently of the price.
 
@@ -47,7 +49,9 @@ various artefacts (texts, files, etc.) or filling in a form.
 Hint
 
 By default it is not possible to create own entries in a collected binder. But
-all contents of the [media center](Media+center.html) can be inserted into an
+
+sites/manual_user/docs/portfolio/My_portfolio_binders.md §Media_center.md§ 481
+all contents of the [media center](Media_center.md) can be inserted into an
 entry.
 
 The "Add content" button takes you to the Portfolio Editor. Here various
@@ -61,14 +65,18 @@ then possible at all referenced points.
 # Self created binders
 
 In general, all OpenOlat users are allowed to create their [own portfolio
-binders](Three+steps+to+your+portfolio+binder.html) with sections and entries.  
+
+sites/manual_user/docs/portfolio/My_portfolio_binders.md §Three_steps_to_your_portfolio_binder.md§ 481
+binders](Three_steps_to_your_portfolio_binder.md) with sections and entries.  
 
 Info
 
 The possibility to create own binders can be restricted by your administrator.
 
 You can find out how to add content to the portfolios in the chapter "[Three
-steps to your portfolio binder](Three+steps+to+your+portfolio+binder.html)"
+
+sites/manual_user/docs/portfolio/My_portfolio_binders.md §Three_steps_to_your_portfolio_binder.md§ 481
+steps to your portfolio binder](Three_steps_to_your_portfolio_binder.md)"
 and "The Portfolio Editor".
 
 (move the following content to a sep. file)
@@ -136,7 +144,9 @@ The positioning can also be further optimized by using the container element.
 With the help of the html-editor a "normal" text can be added. The common
 formatting is possible.
 
-With "Insert" a [math formula](Math+formula.html) can be inserted as well.
+
+sites/manual_user/docs/portfolio/My_portfolio_binders.md §Math_formula.md§ 481
+With "Insert" a [math formula](../personal/Math_formula.md) can be inserted as well.
 
   
 

@@ -3,8 +3,8 @@
 Im Bewertungswerkzeug können die Bewertungen für die folgenden Kursbausteine
 vorgenommen werden.
 
-  * [Aufgabe und Gruppenaufgabe](Aufgaben+und+Gruppenaufgaben+bewerten.html) 
-  * [Tests](Tests+bewerten.html)
+  * [Aufgabe und Gruppenaufgabe](Assessing_tasks_and_group_tasks.de.md) 
+  * [Tests](Assessing_tests.de.md)
 
 Hier werden zunächst die generellen Aspekte erläutert und anschließend die
 Spezifika der einzelnen bewertbaren Kursbausteine mit den zugehörigen
@@ -70,7 +70,9 @@ Bewertungsformular.
 
 ![](assets/Bewertungsformular.png)
 
-Haben Sie ein [Rubrik ](Rubrik.html)als Bewertungsgrundlage hinterlegt können
+
+sites/manual_user/docs/course_operation/Assessment_of_course_modules.de.md §Rubric.de.md§ 481
+Haben Sie ein [Rubrik ](../forms/Rubric.de.md)als Bewertungsgrundlage hinterlegt können
 Sie schnell und effektiv eine Kriterien basierte Bewertung vornehmen. Hier ein
 Beispiel:
 
@@ -82,7 +84,9 @@ möglich.
 ## Portfolioaufgabe
 
 Die Bewertung des Kursbausteins
-„[Portfolioaufgabe](Portfolioaufgabe+erstellen.html)“ umfasst folgende
+
+sites/manual_user/docs/course_operation/Assessment_of_course_modules.de.md §Creating_Portfolio_Tasks.de.md§ 481
+„[Portfolioaufgabe](../portfolio/Creating_Portfolio_Tasks.de.md)“ umfasst folgende
 Möglichkeiten:
 
 ![](assets/Portfolioaufgabe_Bewertung.png)

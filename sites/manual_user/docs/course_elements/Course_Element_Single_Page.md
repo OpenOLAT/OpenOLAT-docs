@@ -11,7 +11,7 @@ pictures or videos precisely in the course. The files themselves are created
 in the storage folder of the course.
 
 For integrating Office documents please use the course element
-"[Document](Knowledge+Transfer.html)".
+"[Document](Knowledge_Transfer.md)".
 
   
 
@@ -35,7 +35,7 @@ get to the OpenOlat HTML Editor.
 
 In the HTML editor you can insert links to pictures, videos, the individual
 course elements of the course and to the tools in the
-[toolbar](Using+additional+Course+Editor+Tools.html) in addition to the
+[toolbar](../course_create/Using_additional_Course_Editor_Tools.md) in addition to the
 different formatting.
 
 You can also upload files that you have previously created to the storage
@@ -52,7 +52,9 @@ HTML files, which can also be displayed directly.
 
 With the "Single page", videos and audios can be integrated into the course in
 various ways. Detailed information can be found
-[here](../../pages/viewpage.action%EF%B9%96pageId=108600564.html).
+
+sites/manual_user/docs/course_elements/Course_Element_Single_Page.md §Single_Page_Add_edit_video.md§ 481
+[here](../resource_video/Single_Page_Add_edit_video.md).
 
 The Files can also be swapped later using the link "Replace page".
 
@@ -150,7 +152,9 @@ you should name the file names as they should appear later in the course,
 because the file name is used as course element title.
 
 Several individual pages can also be bundled very well with a [course element
-"Structure"](Course+Element%EF%B9%95+Structure.html). This way, overview pages
+
+sites/manual_user/docs/course_elements/Course_Element_Single_Page.md §Course_Element_Structure.md§ 481
+"Structure"](Course_Element_Structure.md). This way, overview pages
 can be created automatically for the respective contents and the individual
 pages can be better structured.
 

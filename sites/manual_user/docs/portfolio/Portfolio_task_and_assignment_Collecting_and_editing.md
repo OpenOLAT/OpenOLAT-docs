@@ -19,7 +19,7 @@ Open the course where the portfolio task is located.
 4|
 
 Now, the portfolio task is collected and your portfolio is saved in "[My
-portfolio binders](My+portfolio+binders.html)".  
+portfolio binders](My_portfolio_binders.md)".  
   
   
 | For the next access you can open the portfolio task directly in the

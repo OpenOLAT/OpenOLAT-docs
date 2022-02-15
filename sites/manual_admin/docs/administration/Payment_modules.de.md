@@ -1,6 +1,6 @@
 # Bezahlungsmodule
 
-  * [Paypal](PayPal+Konfiguration.html)
+  * [Paypal](PayPal_Configuration.de.md)
   * Legacy PayPal
 
   
