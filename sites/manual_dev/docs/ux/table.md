@@ -7,19 +7,17 @@ Table in his basic form contains a columns and rows and a header row.
 ## Filter
 
 === "General Table Filter"
-
-  ![Table-Filter](assets/Tabelle.jpg)
+	![Table-Filter](assets/Tabelle.jpg)
 
 === "Code"
+	``` c++
+	#include <iostream>
 
-    ``` c++
-    #include <iostream>
-
-    int main(void) {
-      std::cout << "Hello world!" << std::endl;
-      return 0;
-    }
-    ```
+	int main(void) {
+		std::cout << "Hello world!" << std::endl;
+		return 0;
+	}
+	```
 
 
 ### Add Search and Results 
@@ -40,17 +38,15 @@ On mobile or with more filter tabs than the browser window allows, the filter li
 
 
 === "Image"
-
-  ![Image title](assets/Tabelle.jpg){ align=left }
+	![Image title](assets/Tabelle.jpg){ align=left }
 
 === "Code"
+	``` c++
+	#include <iostream>
 
-    ``` c++
-    #include <iostream>
-
-    int main(void) {
-      std::cout << "Hello world!" << std::endl;
-      return 0;
-    }
-    ```
+	int main(void) {
+		std::cout << "Hello world!" << std::endl;
+		return 0;
+	}
+	```
 
