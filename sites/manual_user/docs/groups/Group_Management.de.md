@@ -15,8 +15,8 @@ ausführen:
   *  **Inaktivieren** : Die Gruppe erhält den Status "inaktiv"
   *  **Löschen** : Als Betreuer können Sie alle von Ihnen betreuten Gruppen löschen.
 
-Damit Sie die entsprechenden Optionen sehen und nutzen können, müssen Sie
-mindestens eine Gruppe ausgewählt haben und Betreuer der Gruppe sein.
+!!! hint
+	Damit Sie die entsprechenden Optionen sehen und nutzen können, müssen Sie mindestens eine Gruppe ausgewählt haben und Betreuer der Gruppe sein.
 
 ##  Veröffentlichte Gruppen
 

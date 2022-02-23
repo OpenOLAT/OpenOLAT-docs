@@ -125,27 +125,18 @@ direkt aufrufen. Hierzu zählen:
 
 Damit gelangen Sie in den Bereich "Einstellungen" und können die
 Informationen, die auf der Infoseite erscheinen, ändern. Mehr Informationen
-dazu finden Sie auf der Seite "[Infoseite
-
-sites/manual_user/docs/authoring/Actions_in_the_'Authoring'_section.de.md §Set_up_info_page.de.md§ 481
-einrichten](Set_up_info_page.de.md)".
+dazu finden Sie auf der Seite "[Infoseite einrichten](Set_up_info_page.de.md)".
 
 #### Katalogeinträge
 
 Damit können Sie neue Katalogeinträge erstellen und bereits bestehende
 Einträge bearbeiten. Mehr Informationen dazu finden Sie im Kapitel
-„Kurseinstellungen“ unter dem Punkt
-
-sites/manual_user/docs/authoring/Actions_in_the_'Authoring'_section.de.md §Course_Settings.de.md§ 481
-„[Katalogeinträge](../course_create/Course_Settings.de.md#Kurseinstellungen-d13e1856)“.
+„Kurseinstellungen“ unter dem Punkt [Katalogeinträge](../course_create/Course_Settings.de.md)
 
 #### Mitgliederverwaltung
 
 Hier können Sie Mitglieder einer Lernressource organisieren. Mehr
-Informationen dazu finden Sie im Kapitel
-
-sites/manual_user/docs/authoring/Actions_in_the_'Authoring'_section.de.md §Members_management.de.md§ 481
-„[Mitgliederverwaltung](../course_operation/Members_management.de.md)“.
+Informationen dazu finden Sie im Kapitel [Mitgliederverwaltung](../course_operation/Members_management.de.md)
 
 #### Kopieren
 
@@ -163,11 +154,8 @@ Eine Lernressource kann nur gelöscht werden, wenn sie in keinem Kurs verwendet
 wird, und nur von ihrem Besitzer.
 
 Herkömmliche Kurse erhalten noch das Menü "In Lernpfad konvertieren" um einen
-herkömmlichen Kurs in einen Kurs vom Typ [Lernpfad
-
-sites/manual_user/docs/authoring/Actions_in_the_'Authoring'_section.de.md §Learning_path_course.de.md§ 481
-](../course_create/Learning_path_course.de.md)umzuwandeln und somit eine
-Kopie des Ursprungskurses zu erstellen.
+herkömmlichen Kurs in einen Kurs vom Typ [Lernpfad](../course_create/Learning_path_course.de.md)
+umzuwandeln und somit eine Kopie des Ursprungskurses zu erstellen.
 
 ## Weitere Aktionen
 

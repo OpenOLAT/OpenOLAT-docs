@@ -18,8 +18,8 @@ perform the following actions below the table:
   * Send E-mail: Send E-mails to multiple groups simultaneously.
   * Delete: Coaches are able to delete all the groups they supervise.
 
-In order to see and use the corresponding options, you must have at least one
-group selected.
+!!! hint
+	In order to see and use the corresponding options, you must have at least one group selected.
 
 ## Published Groups
 

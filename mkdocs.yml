@@ -31,6 +31,8 @@ markdown_extensions:
   - md_in_html
   - admonition
   - def_list
+  - tables
+  - footnotes
   - pymdownx.snippets
   - pymdownx.details
   - pymdownx.superfences
@@ -38,6 +40,9 @@ markdown_extensions:
       alternate_style: true 
   - pymdownx.tasklist:
       custom_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
 
 #include_homepage_in_sidebar: false
 #prev_next_buttons_location: none
@@ -52,12 +57,8 @@ plugins:
   - i18n:
       default_language: en
       languages:
-        en: 
-          name: English
-          build: true
-        de: 
-          name: Deutsch
-          build: true
+        en: English
+        de: Deutsch
       nav_translations:
         de:
           About this manual: Über dieses Handbuch
