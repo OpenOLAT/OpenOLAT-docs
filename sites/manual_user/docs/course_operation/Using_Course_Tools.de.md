@@ -77,7 +77,7 @@ Testresultaten und/oder neu erstellte Zertifikate.
 Weitere Informationen zum Bewertungswerkzeug finden Sie
 [hier](Assessment_tool_-_overview.de.md).
 
-##  Kurs Statistiken
+##  Kurs Statistiken {: #statistics}
 
 Diese Kursfunktion zeigt Ihnen Statistiken über den Zugriff auf Ihren
 OpenOlat-Kurs an. Zugang zu den Statistiken haben alle Besitzer des Kurses.
@@ -133,7 +133,7 @@ sind anonymisiert.
 Zugang zu den Fragebogen Statistiken haben neben den Kursbesitzern auch alle
 Betreuer des Kurses.
 
-##  Datenarchivierung  
+##  Datenarchivierung   {: #archive}
 
 Über die [Datenarchivierung ](Data_archiving.de.md)können die Ergebnisse
 diverser Kursbausteine eines Kurses gespeichert werden. Insbesondere die

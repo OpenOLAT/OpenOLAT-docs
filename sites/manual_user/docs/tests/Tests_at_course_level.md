@@ -167,14 +167,11 @@ automatically scorable question types can also be used for points.
 Embedding with course element:| Test| Self-test  
 Results appear...|
 
-in the [assessment tool](../course_operation/Assessing_tests.md) and in the [test
-statistics](Using+Course+Tools.html#UsingCourseTools-
-_datenarchivierungDataArchivingDataArchiving) and are visible for coaches
+in the [assessment tool](../course_operation/Assessing_tests.md) and in the 
+[test statistics](../course_operation/Using_Course_Tools.md#statistics) and are visible for coaches
 
 |  _not_  in the [assessment tool](../course_operation/Assessing_tests.md) and in the 
-[test statistics](Using+Course+Tools.html#UsingCourseTools-
-_datenarchivierungDataArchivingDataArchiving) and are thus not visible for
-coaches and owners  
+[test statistics](../course_operation/Using_Course_Tools.md#statistics) and are thus not visible for coaches and owners  
 Archiving of results:| yes, personalized| yes, anonymized - however, a
 personal correlation or feedbacks are not possible  
   
@@ -223,8 +220,7 @@ If external graders have also been activated for a test, they can use the
 
 ## Test results and archiving
 
-Select the link "[Data archiving](Using+Course+Tools.html#UsingCourseTools-
-_datenarchivierungDataArchivingDataArchiving)" from the "Administration" in
+Select the link "[Data archiving](../course_operation/Using_Course_Tools.md#archive)" from the "Administration" in
 the course view. Go to "Tests" or "Course results" on the left and save the
 displayed file. The results of self-tests are saved anonymously.
 
@@ -232,9 +228,7 @@ After archiving, you will find all information about who answered which
 questions, which answers were given and how many points were achieved during
 the self-test.
 
-Via "Administration" ->"[Test
-Statistics](Using+Course+Tools.html#UsingCourseTools-
-_qti_statisticsSurveyStatisticsTestStatisticsTest/Surveystatistics)" you can
+Via "Administration" ->"[Test Statistics](../course_operation/Using_Course_Tools.md#statistics)" you can
 also quickly access the graphical evaluation of your test data.
 
   

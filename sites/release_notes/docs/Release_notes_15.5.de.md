@@ -202,7 +202,7 @@ Die Anzeige ist ebenfalls im Bewertungswerkzeug im Korrekturworkflow
 verfügbar, um die Betreuenden bei der Bewertung der Freitext-Fragen zu
 unterstützen.
 
-![](assets/155/Wortz%C3%A4hler%20DE.png)
+![](assets/155/Wortzaehler%20DE.png)
 
 Der Fragetyp "Zeichnen" wurde komplett neu umgesetzt und um ein
 **Textwerkzeug** ergänzt. Eingefügte Texte können in Farbe und Grösse
@@ -296,7 +296,7 @@ Benutzer zusätzlich mit einem Verfallsdatum versehen werden.
 Eine Übersicht aller verwendeten Kompetenzen erhält der Benutzers im
 persönlichen Menü unter "Kompetenzen".
 
-![](assets/155/eP%20Eintr%C3%A4ge%20DE.png)
+![](assets/155/eP%20Eintraege%20DE.png)
 
   
 
@@ -397,7 +397,7 @@ Checkbox oben links selektiert werden.
   * Verbesserung Locking-Funktion und Metadatenanzeige von Dokumenten
   * Neue SCORM-Integration für die Einbindung von SCORM-Lernmodulen
 
-![](assets/155/Best%C3%A4tigung%20Gruppe%20DE.png)
+![](assets/155/Bestaetigung%20Gruppe%20DE.png)
 
   
 

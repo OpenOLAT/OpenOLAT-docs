@@ -75,7 +75,7 @@ course, the tab "Score" in the course element needs to be filled in.
 Further information about the assessment tool you can found
 [here](Assessment_tool_-_overview.md).
 
-##  Course Statistics
+##  Course Statistics {: #statistics}
 
 This course function provides you with statistics regarding access to your
 OpenOlat course. All course owners have access to those statistics. You will
@@ -131,7 +131,7 @@ individual questionnaire. All accesses are anonymous.
 
 Besides course owners all coaches have access to questionnaire statistics.
 
-##  Data Archiving
+##  Data Archiving  {: #archive}
 
 Data archiving can be used to store the results of various course elements of
 a course. In particular, saving the results of surveys, tests, self-tests,

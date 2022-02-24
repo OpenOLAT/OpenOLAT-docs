@@ -1,4 +1,4 @@
-Tools](Using_additional_Course_Editor_Tools.md)
+# Course editor tools
 
 In the course editor menu you have access to the administration area with
 various other configuration tools. Here you can insert and modify course
@@ -16,7 +16,7 @@ on the separate pages of the tools.
 
 ## Insert course elements
 
-Here you have access to all [course elements](Types+of+Course+Element.html)
+Here you have access to all [course elements](../course_elements/index.md)
 that you can integrate into a course.
 
 ## Modify course element

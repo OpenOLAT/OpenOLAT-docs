@@ -188,7 +188,7 @@ followed by the configured minimum or maximum number of words.
 The display is also available in the assessment tool in the correction
 workflow to support the coaches in assessing the essay questions.
 
-![](assets/155/Wortz%C3%A4hler%20EN.png)
+![](assets/155/Wortzaehler%20EN.png)
 
 The "Drawing" question type has been completely reimplemented and a **text
 tool** has been added. Inserted texts can be adjusted in color and size,
@@ -278,7 +278,7 @@ expiration date per user.
 The user gets an overview of all used competencies in the personal menu under
 "Competencies".
 
-![](assets/155/eP%20Eintr%C3%A4ge%20EN.png)
+![](assets/155/eP%20Eintraege%20EN.png)
 
   
 
@@ -374,7 +374,7 @@ the upper left corner.
   * Improved locking function and metadata display of documents
   * New SCORM integration for inclusion of SCORM learning modules
 
-![](assets/155/Best%C3%A4tigung%20Gruppe%20EN.png)
+![](assets/155/Bestaetigung%20Gruppe%20EN.png)
 
   
 

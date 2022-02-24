@@ -184,12 +184,10 @@ auswertbare Fragetypten können auch für Punkte verwendet werden.
   
 Einbindung mit Kursbaustein:| Test| Selbsttest  
 Anzahl Aufrufe durch Kursteilnehmer:| konfigurierbar| unlimitiert  
-Ergebnisse erscheinen ...| im [Bewertungswerkzeug](../course_operation/Assessment_tool_-_overview.de.md)und in den [Test
-Statistiken](Einsatz+der+Kurswerkzeuge.html#EinsatzderKurswerkzeuge-
-test_statistikenTestStatistiken) und sind für Betreuer einsehbar|  _nicht_ im
-[Bewertungswerkzeug](../course_operation/Assessment_tool_-_overview.de.md)und in den [Test
-Statistiken](Einsatz+der+Kurswerkzeuge.html#EinsatzderKurswerkzeuge-
-test_statistikenTestStatistiken) und sind so nicht personalisiert für Betreuer
+Ergebnisse erscheinen ...| im [Bewertungswerkzeug](../course_operation/Assessment_tool_-_overview.de.md) und in den 
+[Test Statistiken](../course_operation/Using_Course_Tools.de.md#statistics) und sind für Betreuer einsehbar|  _nicht_ im
+[Bewertungswerkzeug](../course_operation/Assessment_tool_-_overview.de.md) und in den [Test
+Statistiken](../course_operation/Using_Course_Tools.de.md#statistics) und sind so nicht personalisiert für Betreuer
 und Besitzer einsehbar.  
 Datenarchivierung:| ja, personalisiert| ja, anonymisiert. Eine
 personenbezogene Zuordnung oder Feedbacks sind aber nicht möglich  
@@ -246,8 +244,7 @@ die Bewertungen über das[ Coaching Tool](../e-assessment/Coaching.de.md) vorneh
 ## Testergebnisse und Archivierung
 
 Wählen Sie in der Kursansicht aus der „Administration“ den Link
-„[Datenarchivierung](Einsatz+der+Kurswerkzeuge.html#EinsatzderKurswerkzeuge-
-_datenarchivierung)“. Gehen Sie links zu „Tests" oder auch komplett zu
+„[Datenarchivierung](../course_operation/Using_Course_Tools.demd#archive)“. Gehen Sie links zu „Tests" oder auch komplett zu
 "Kursresultate" und speichern Sie die angezeigte Datei. Die Resultate von
 Selbsttests werden anonymisiert gespeichert.
 
@@ -256,8 +253,7 @@ Selbsttest anonymisiert durch eine Laufnummer) welche Fragen beantwortet hat,
 welche Antworten sie gegeben hat und beim Selbsttest wie viele Punkte erreicht
 wurden.
 
-Über "Administration" ->[„Test Statistiken"](Einsatz+der+Kurswerkzeuge.html#EinsatzderKurswerkzeuge-
-test_statistikenTestStatistiken) können Sie auch schnell auf die grafische
+Über "Administration" ->[„Test Statistiken"](../course_operation/Using_Course_Tools.de.md#statistics) können Sie auch schnell auf die grafische
 Auswertung Ihrer Testdaten zugreifen.
 
   
