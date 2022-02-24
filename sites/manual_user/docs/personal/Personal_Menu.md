@@ -36,7 +36,7 @@ including all details on your calendar.
 Further information on the calendar list, how to create entries and other
 calendar functions is available in the [calendar](Calendar.md) chapter.
 
-##  Subscriptions
+##  Subscriptions {: #subscriptions}
 
 Thanks to OpenOlat's notifications you are always up-to-date regarding your
 courses or groups. OpenOlat assists you in getting information on

@@ -170,7 +170,7 @@ groups with rights to the data archiving tool.
 
 ![](assets/Archive_Tool_EN.png)
 
-##  Learning Areas
+##  Learning Areas {: #learning_area}
 
 Learning areas are used to easily assign groups to different elements within a
 course.
@@ -240,7 +240,7 @@ been completed and before the course begins.
 
 Traditional courses and courses created before OpenOlat version 15 can be
 converted into a [learning path
-course](https://confluence.openolat.org/display/OO150EN/Learning+path+course)
+course](../course_create/Learning_path_course.md)
 via this link.
 
 ##  Export content
@@ -284,12 +284,12 @@ deleted.
 It is possible to inform other course owners via e-mail about the completion
 or deletion of a course. This can either be optionally selected in the
 Finish/Delete dialog or set in the
-[administration](https://confluence.openolat.org/display/OO161EN/Modules%3A+Repository)
+[administration](Modules_Repository.md)
 system-wide.
 
 A course can also be closed or deleted automatically. The administrator makes
 the appropriate settings under
-[Administration](https://confluence.openolat.org/display/OO161EN/Modules%3A+Repository).
+[Administration](Modules_Repository.md).
 
   
 

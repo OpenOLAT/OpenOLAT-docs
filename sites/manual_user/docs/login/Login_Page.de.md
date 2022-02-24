@@ -25,7 +25,7 @@ Sie [hier](../general/Guest_access.de.md).
 
 ![](assets/DE_Loginscreen.png)
 
-## Browser
+## Browser {: #browsercheck}
 
 OpenOlat funktioniert optimal, wenn Sie mit folgenden Browsern arbeiten:
 

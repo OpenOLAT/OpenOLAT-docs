@@ -2,7 +2,7 @@
 
 ![](assets/Fragenpool_aktionen.png)
 
-##  Listen
+##  Listen {: #lists}
 
 Listen gestatten Ihnen die Sammlung von Frageitems nach Ihren persönlichen
 Kriterien. Wählen Sie dazu unter Meine Fragen oder einem Pool die
@@ -37,7 +37,7 @@ Möglichkeiten stehen zur Verfügung:
   * QTI Testdatei für Austausch mit anderen kompatiblen LMS
   * ZIP Datei für Austausch mit anderen OpenOlat Systemen oder Archivierung
 
-##  Freigeben
+##  Freigeben {: #share}
 
 Vorab markierte Items können mit dieser Funktion zu Gruppen oder Pools
 hinzugefügt werden auf die der Benutzer Zugriff hat.
@@ -89,7 +89,7 @@ brauchen nicht konvertiert zu werden.
 Weitere Informationen zum Konvertieren finden Sie unter "[Von QTI 1.2 zu QTI
 2.1"](../tests/Changing_from_QTI_1.2_to_QTI_2.1.de.md).
 
-##  Autorenrechte
+##  Autorenrechte {: #rights}
 
 Weitere Autoren - und damit deren Zugriffsrechte - fügen Sie hier zu einer
 oder mehreren Fragen hinzu.
@@ -108,7 +108,7 @@ Um eine Frage endgültig von allen Listen, Gruppen und Pools zu löschen, müsse
 Sie die entsprechende Frage in Ihrem Fragenpool unter "Meine Fragen" löschen.
 Dort wird sie endgültig gelöscht und kann nicht mehr wiederhergestellt werden.
 
-##  Metadaten ändern
+##  Metadaten ändern {: #metadata}
 
 Metainformationen zu Fragen können hier oder in der Detailansicht eines Items
 angepasst werden. Mit der Funktion „Metadaten ändern“ können einzelne

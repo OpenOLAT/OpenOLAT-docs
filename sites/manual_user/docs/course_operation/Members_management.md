@@ -213,7 +213,7 @@ group. Furthermore, they may make changes to the coached groups.
 Tip: In most cases, it makes more sense to grant additional rights only to the
 _participants_ of a group.
 
-##  Consents
+##  Consents {: #consent}
 
 If course-related terms of use or the course-related privacy policy are
 [activated](../course_create/Course_Settings.md), the stored consent of the individual users

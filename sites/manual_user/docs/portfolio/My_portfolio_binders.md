@@ -73,7 +73,7 @@ and "The Portfolio Editor".
 
 (move the following content to a sep. file)
 
-##  Contents
+##  Contents {: #content}
 
 To every entry different contents can be added.
 

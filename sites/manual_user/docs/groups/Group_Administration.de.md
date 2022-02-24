@@ -144,7 +144,7 @@ Infos zur Nutzung der Werkzeuge durch die Gruppen-Teilnehmer finden Sie
 
   
 
-### Mitglieder ...
+### Mitglieder ... {: #members}
 
 In diesem Tab können weitere Personen der Gruppe hinzugefügt, die Sichtbarkeit
 der Personen definiert und die Austrittsmöglichkeit konfiguriert werden.
@@ -192,7 +192,7 @@ können als Teilnehmer oder als Gruppen-Betreuer  hinzugefügt werden.
   *  **Gruppen-Betreuer:** Haben Zugriff auf die Einstellungen der Gruppen Administration. Hier Können sie z.B. Mitglieder ernennen oder entfernen und die Gruppe mit kollaborativen Werkzeugen ausstatten. Auch können Gruppen-Betreuer eine Gruppe löschen. Wenn die Gruppe mit einem Kurs verbunden ist, haben Betreuer im Kurs zusätzlich noch Zugriff auf das Bewertungswerkzeug und Teststatistiken der eigenen Gruppe.
   *  **Teilnehmer:**  Können die kollaborativen Werkzeuge einer Gruppe nutzen.
 
-###  Veröffentlichung und Buchungskonfiguration
+###  Veröffentlichung und Buchungskonfiguration {: #booking}
 
 Eine weitere Möglichkeit Personen einer Gruppe hinzuzufügen erfolgt im Tab
 "Veröffentlichung und Buchungskonfiguration". Hier kann eine Buchungsmethode
@@ -246,7 +246,7 @@ Kurs zuordnen wollen oder wenn die Teilnehmerzahl begrenzt und die Organiation
 der Teilnehmenden über diese Gruppe erfolgen soll und beispielsweise ein
 automatisches Nachrücken ermöglicht werden soll.
 
-###  Kurse
+###  Kurse {: #courses}
 
 Dieser Tab ist nur verfügbar, wenn die Gruppe mit einem oder mehreren Kursen
 verbunden ist oder der Gruppenbesitzer auch über Autorenrechte verfügt.
@@ -270,8 +270,7 @@ Sie als Besitzer eingetragen sind. Klicken Sie dafür entweder auf den
 Kursnamen oder auf den Haken unter " _Auswählen_ " rechts vom Kursnamen.
 Weiterführende Informationen zum Kurs, wie z.B. Autor, Sprache oder
 Beschreibung, erhalten Sie mit einem Klick auf das
-![](../../download/thumbnails/108593587/fa-info-
-circle_64_1_48779d_none%EF%B9%96version=1&modificationDate=1640377437000&api=v2.png)
+![](assets/fa-info-circle_64_1_48779d_none.png)
 Icon. Über die Schaltfläche " **Kurs einbinden** " am Ende der Tabelle können
 schnell beliebig viele Kurse mit einem Klick eingebunden werden. Ferner können
 an dieser Stelle auch Kurse erstellt oder importiert werden.

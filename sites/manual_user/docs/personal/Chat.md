@@ -122,7 +122,7 @@ then not see your real identity. This option must be enabled by the system
 amdinistrator. It might not be available on your system. If you want to exit
 the chat room, just close that window.
 
-## Settings
+## Settings {: #settings}
 
 In the tab "Instant Messaging" you can specify whether other users should be
 able to contact you. If you do not wish to receive messages from other users,

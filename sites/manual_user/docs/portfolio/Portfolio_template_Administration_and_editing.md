@@ -25,11 +25,12 @@ Create a section
 3| In addition you can write a summary to give an overview and choose a begin
 and end date for the visibility of the section.  
   
-Hint
+!!! Hint
 
-Sections can only be edited, deleted and moved in "Overview".  
-Sections cannot be divided into subsections. To every section assignments can
-be added.  
+	Sections can only be edited, deleted and moved in "Overview".  
+	Sections cannot be divided into subsections. To every section assignments can
+	be added.  
+	
 
 Create and edit assignments - Essay  
   
@@ -133,12 +134,11 @@ the tab "Access control" after picking up the portfolio task.
 These persons can then use the questionnaire and make assessments. Several
 ratings can also be displayed in a spider's web.
 
-Since OpenOlat version 15.5 the learning resource "Form" is used instead of
-the type "Questionnaire".
+!!! hint "" 
+	Since OpenOlat version 15.5 the learning resource "Form" is used instead of the type "Questionnaire".
 
-Hint
-
-In general the author creates assignments and not entries.
+!!! hint
+		In general the author creates assignments and not entries.
 
 Further configurations are possible via the portfolio toolbar and the
 "Administration" menu.

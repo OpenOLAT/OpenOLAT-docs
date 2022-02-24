@@ -35,7 +35,7 @@ following configurations can also be selected:
 
 ![](assets/test_configuration.png)
 
- **Tab Test configuration**
+#### Tab Test configuration
 
 title| This field is mandatory  
 ---|---  
@@ -77,7 +77,7 @@ the [assessment tool](../course_operation/Assessment_tool_-_overview.md).
   
   
 
- **Tab Feedback**
+#### Tab Feedback
 
 Title| Title of the feedback for passed  
 ---|---  
@@ -89,7 +89,7 @@ feedback here if the score is not sufficient.
   
   
 
- ** Tab Expert**
+#### Tab Expert {: #expert}
 
 In the tab expert (or on the level of the part, as far as a part has been
 added), the following configurations can be done:
@@ -157,7 +157,7 @@ without restrictions.
 
   
 
-###  Section level
+###  Section level {: #section}
 
 Several sections can be subordinated to a test part. Several nested sections
 with descriptions are displayed one below the other and can be shown and

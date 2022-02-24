@@ -61,7 +61,7 @@ Um sich die Visitenkarten anderer OpenOlat-Benutzer anzuschauen, wählen Sie
 **Andere Benutzer** im persönlichen Menü und suchen die gewünschte Person über
 die Suchmaske.
 
-## Einstellungen
+## Einstellungen {: #settings}
 
 Mit Hilfe der Einstellungen können Sie OpenOlat nach Ihren Bedürfnissen
 anpassen.
@@ -70,7 +70,7 @@ anpassen.
 
 ### Tab System
 
-#### Allgemeine Systemeinstellungen:
+#### Allgemeine Systemeinstellungen: {: #general}
 
 Hier können Sie Ihren Benutzernamen und Ihre OpenOlat Rolle auslesen. Darüber
 hinaus können Sie Ihre individuelle Systemsprache auswählen. OpenOlat ist in

@@ -114,7 +114,7 @@ the course elements to be only visible or accessible to the respective group.
 
   
 
-## Managing Members of Groups
+## Managing Members of Groups {: #members}
 
 In the tab "Members" you determine whom the members are allowed to see, the
 coaches and/or participants. With the option "Alls users can see coaches" and
@@ -172,7 +172,7 @@ coach rights mentioned above.
 When clicking on the icon "Download table" (below the button "Add users") an
 excel file containing all owners or participants of a group will be generated.
 
-## Courses
+## Courses {: #courses}
 
 A group can be linked to several courses, and a a course may have several
 embedded groups. OpenOlat does not restrict the number of embedded courses.
@@ -187,7 +187,7 @@ two ways:
 
   * In the course members management as well as in the editor view of individual course elements: You can either use the button "Create Group" to create a new linked group, or add an already existing group you own via the button "Add group". If you are in the editor view on course element level, you can also create new groups under the access and visibility tabs. The same goes for learning areas.
 
-## Publishing and booking configuration
+## Publishing and booking configuration {: #booking}
 
 In the tab "Publishing and booking configuration" you configure the access
 control for that specific group. This is especially important, if a group is

@@ -235,7 +235,7 @@ dürfen sie Änderungen an den betreuten Gruppen vornehmen.
 Tipp: Meist ist es sinnvoller ergänzende Rechte nur an die _Teilnehmenden_
 einer Gruppe zu vergeben
 
-##  Bereich "Einwilligungen"
+##  Bereich "Einwilligungen"  {: #consent}
 
 Sind kursbezogene Nutzungsbedingungen bzw. die kursbezogene
 Datenschutzerklärung [aktiviert](../course_create/Course_Settings.de.md), werden die

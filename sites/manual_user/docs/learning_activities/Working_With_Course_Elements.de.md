@@ -50,7 +50,8 @@ können Sie auf diesem Weg erhalten. Der Baustein wird häufig verwendet, wenn
 Aktionen bewertet werden, die nicht zuvor online in OpenOlat eingereicht
 wurden z.B. Präsenz-Referate oder reale Produkte.
 
-## Blog
+
+## Blog {: #blog}
 
 ![](assets/blog.png)
 
@@ -98,8 +99,9 @@ Veröffentlichung wählen oder den Eintrag als Entwurf speichern.
 
 Abonnieren Sie den RSS-Feed des Blogs, um keine neuen Einträge zu verpassen.
 
-##
-Checkliste![](assets/checklist.png)
+## Checkliste
+
+![](assets/checklist.png)
 
 Erreichte Ziele, fehlende Aufgaben, richtige oder falsche Lösungen -
 Checklisten machen dies sichtbar und dadurch für den Betreuer auch bewertbar.
@@ -202,7 +204,9 @@ Ordner](../personal/Personal_folders.de.md) zur
 Verfügung, die kursunabhängig für das individuelle Lernen genutzt werden
 können. Ferner gibt es den Kursbaustein "Teilnehmer Ordner" (siehe unten).
 
-##  Podcast
+
+##  Podcast {: #podcast}
+
 ![](assets/podcast.png)
 
 Ein Podcast stellt Informationen in Form von Audio- oder Videodateien bereit.
@@ -235,7 +239,7 @@ klicken Sie auf den Link „Kommentare“.
 Abonnieren Sie den RSS-Feed des Podcasts, um keine neuen Episoden zu
 verpassen.
 
-Portfolioaufgabe
+## Portfolioaufgabe
 
 ![](assets/portfolio_434343_64.png)  
 

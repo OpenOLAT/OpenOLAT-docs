@@ -50,7 +50,7 @@ check boxes cannot be edited. These are predefined system-wide.
 To view the business cards of other OpenOlat users, select Other users in the
 personal menu and search for the desired person using the search mask.
 
-##  Settings
+##  Settings {: #settings}
 
 The settings allow you to adapt OpenOlat according to your needs.
 
@@ -58,7 +58,7 @@ The settings allow you to adapt OpenOlat according to your needs.
 
 ### Tab System
 
-#### General system settings:
+#### General system settings: {: #general}
 
 Here you can read out your user name and your OpenOlat role. You can also
 select your individual system language. OpenOlat has been translated into
@@ -83,6 +83,7 @@ files that you download via data archiving should be stored. This concerns the
 download of test and questionnaire results as well as course results. The
 default character set is ISO-8859-1. If your tests or questionnaires contain
 e.g. Arabic characters you have to select the character set UTF-8.
+
 
 In the Specific system settings you can view and change the settings that can
 make your daily start and work with OpenOlat easier.

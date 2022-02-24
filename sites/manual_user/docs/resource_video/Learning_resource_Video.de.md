@@ -54,7 +54,7 @@ Bitte beachten Sie, dass ein solches Bild dieselben Abmessungen in Pixel haben
 sollte wie das Originalvideo. Die entsprechenden Daten dazu finden Sie im Tab
 "Metadaten".
 
-### Kapitel
+### Kapitel {: #video_chapter}
 
 Jedem Video können "Kapitel" als Sprungmarken hinzugefügt werden. Dies
 erleichtert die Navigation im Video und sollte bei längeren Videos auf jeden

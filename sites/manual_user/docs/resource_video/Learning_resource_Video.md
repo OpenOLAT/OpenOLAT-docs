@@ -66,7 +66,7 @@ original video. The corresponding data can be found in the tab "Metadata".
 
   
 
-#### Chapter
+#### Chapter {: #video_chapter}
 
 To group a video, chapters can be added. This simplifies especially the
 navigation in the video. A chapter is added with the button "Add chapter". The

@@ -145,7 +145,7 @@ Die Archivierungen erfolgen in der Regel im ZIP Format und enthalten Excel
 Dateien. Gehören zur Archivierung noch weitere Dateien, werden diese in
 Unterordnern innerhalb der ZIP Datei bereitgestellt.
 
-##  Lernbereich
+##  Lernbereich {: #learning_area}
 
 Möchte man mehrere Gruppen zu einem Aspekt zusammenstellen, bieten sich
 Lernbereiche an. Dafür werden mehrere Gruppen einem Lernbereich zugeordnet und
@@ -212,8 +212,7 @@ vor Beginn der Durchführung als Backup erstellt werden.
 ## In Lernpfad-Kurs konvertieren
 
 Herkömmliche Kurse und Kurse die vor der OpenOlat Version 15 erstellt wurden,
-können über diesen Link in einen [Lernpfad-
-Kurs](../course_create/Learning_path_course.de.md) konvertiert
+können über diesen Link in einen [Lernpfad-Kurs](../course_create/Learning_path_course.de.md) konvertiert
 werden.
 
 ##  Inhalt exportieren
@@ -254,7 +253,7 @@ und im Anschluss gelöscht.
 Es ist möglich, andere Kursbesitzer via E-Mail über das Beenden oder Löschen
 eines Kurses zu informieren. Dies kann entweder im Beenden/Löschen-Dialog
 optional ausgewählt oder in der
-[Administration](https://confluence.openolat.org/pages/viewpage.action?pageId=108593381)
+[Administration](Modules_Repository.de.md)
 systemweit eingestellt werden.
 
 Ebenso kann ein Kurs auch automatisiert beendet bzw. gelöscht werden.

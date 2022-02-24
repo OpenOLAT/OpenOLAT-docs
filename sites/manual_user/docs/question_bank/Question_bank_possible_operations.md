@@ -2,7 +2,7 @@
 
 ![](assets/question_bank_operations.png.jpg)
 
-##  Lists
+##  Lists {: #lists}
 
 Lists allow for you to compile question items taylored to your needs. To do
 this, select the corresponding questions under My questions or a pool and then
@@ -32,7 +32,7 @@ are available:
   * QTI test file for exchange with other compatible LMSs
   * ZIP file for exchange with other OpenOlat systems or archiving
 
-##  Share
+##  Share {: #share}
 
 Shares items with pools and groups a user has access to.
 
@@ -77,7 +77,7 @@ the respective list or share in addition to "My questions".
 For more information on converting, see [changing from QTI 1.2 to QTI
 2.1](../tests/Changing_from_QTI_1.2_to_QTI_2.1.md).
 
-##  Author rights
+##  Author rights {: #rights}
 
 Use this function to add more authors and thus their access rights to one or
 more items.
@@ -94,7 +94,7 @@ are affected.
 In order to irrevocably remove an item from all lists, groups and pools, you
 have to delete the item in your question database under "My questions".
 
-##  Change metadata
+##  Change metadata {: #metadata}
 
 Metadata about items can be either adapted in an items detail view or with
 this function. The "Change metadata" function allows you to adjust single

@@ -26,7 +26,7 @@ Here you can define when a question, for which an assessment process has been
 started, receives the status "final". If an item is below this limit, the item
 is set to "revision".
 
-###  Subject
+###  Subject {: #subject}
 
 Subject areas are used for subject-specific keywording of the questions
 (items), and are presented in a hierarchical structure. This represents, for
@@ -37,7 +37,7 @@ Already existing departments can also be edited.
 
 ![](assets/create_taxonomy.png)
 
-###  Pool administration
+###  Pool administration {: #pool}
 
 A pool is a question bank that allows all system users with the appropriate
 rights (authors) the exchange of question items. Pools can be either public,
@@ -64,7 +64,7 @@ may also be edited or deleted.
   4. Edit name or visibility for already existing pools
   5. Add or remove owners - only relevant for private pools
 
-###  Question Type
+###  Question Type {: #type}
 
 OpenOlat has several standardized [question types](../tests/Test_question_types.md)
 that can be created either in the test editor of the learning resource Test or
@@ -116,7 +116,7 @@ opens:
 
 Repeat these steps for all languages available in your OpenOlat system.
 
-###  Level
+###  Level {: #level}
 
 Level add another categorisation option to the question bank, and can be
 compared to difficulty levels. Create those levels that apply to your

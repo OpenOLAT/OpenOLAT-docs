@@ -25,7 +25,7 @@ have access to other material and activities you will have to register first.
 Further information to the guest access can be found
 [here](../general/Guest_access.md).
 
-## Browser Check
+## Browser Check {: #browsercheck}
 
 OpenOlat is optimized for the following browser software:
 

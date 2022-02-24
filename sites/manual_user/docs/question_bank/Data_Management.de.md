@@ -20,7 +20,7 @@ Informationen zur weiteren Ausgestaltung einer Frage im Kapitel
 
   
 
-##  Fragen importieren
+##  Fragen importieren {: #import}
 
   
 

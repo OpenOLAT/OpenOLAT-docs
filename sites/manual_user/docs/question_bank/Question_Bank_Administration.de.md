@@ -23,7 +23,7 @@ Hier kann definiert werden wann eine Frage, für die ein Beurteilungsprozess
 gestartet wurde, den Status "final" erhält. Liegt ein Item unterhalb dieser
 Grenze wird das Item auf "Revision" gesetzt.
 
-###  Fachbereich
+###  Fachbereich {: #subject}
 
 Fachbereiche dienen der fachlichen Verschlagwortung der Fragen (Items), und
 werden in einer hierarchischen Struktur dargestellt. Diese bildet z.B. in
@@ -35,7 +35,7 @@ bearbeitet werden.
 
 ![](assets/Fragenpool_Taxonomie_erstellen.jpg)
 
-###  Pool-Verwaltung
+###  Pool-Verwaltung {: #pool}
 
 Ein Pool (engl. Sammelbecken, Reservoir etc.) ist eine Fragendatenbank, die
 dafür freigegebenen Benutzern (Autoren) des Systems für den Austausch von
@@ -64,7 +64,7 @@ bestehende Pools können ebenfalls bearbeitet, oder gelöscht werden.
   4. Für bereits bestehende Pools können Sie den Namen und die Sichtbarkeit ändern,
   5. Besitzer hinzufügen oder entfernen
 
-###  Fragetyp
+###  Fragetyp {: #type}
 
 OpenOlat verfügt über diverse Test [Fragetypen ](../tests/Test_question_types.de.md)die
 entweder im Testeditor der Lernressource Test oder im Itemeditor der
@@ -112,7 +112,7 @@ Es öffnet sich das folgende Formular:
 
 Wiederholen Sie diese Schritte für jede in ihrer Instanz verfügbaren Sprache.
 
-###  Stufe
+###  Stufe {: #level}
 
 Stufen stellen eine weitere Kategorisierungsmöglichkeit dar, und können z.B.
 mit einer Schwierigkeitsstufe verglichen werden. Hier erstellen Sie Stufen die

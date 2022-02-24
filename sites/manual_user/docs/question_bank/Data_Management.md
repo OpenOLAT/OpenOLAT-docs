@@ -24,7 +24,7 @@ Information on test creation can be found [here](Creating+Tests.html).
 Information on the further design of a question in the chapter "[Item Detailed
 view](Item_Detailed_View.md)".
 
-##  Import questions
+##  Import questions {: #import}
 
 Add QTI 2.1 items to the question bank by importing test or questionnaire
 learning resources from OpenOlat, from external files or by via Copy & Paste

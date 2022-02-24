@@ -1,7 +1,5 @@
 # Test konfigurieren
 
-##
-
 Für die OpenOlat Tests stehen weitere Strukturierungs- und
 Konfigurationsmöglichkeiten zur Verfügung. Grundsätzlich besteht jeder Test
 mindestens aus einer Sektion und einer Frage. Deshalb finden Sie beim
@@ -41,7 +39,7 @@ Zudem können folgende Konfigurationen ausgewählt werden:
 
   ![](assets/Test_Ebene_Konfig.png)
 
-### Tab Testkonfiguration
+#### Tab Testkonfiguration
 
   
 
@@ -76,7 +74,7 @@ im Tab „Optionen“ eingerichtet werden.  Wenn nötig kann die Testzeit auch f
 einzelne Personen im [Bewertungswerkzeug
 ](../course_operation/Assessment_tool_-_overview.de.md)verlängert werden.  
   
-### Tab Feedback
+#### Tab Feedback
 
 Titel| Titel des Feedbacks für bestanden  
 ---|---  
@@ -86,7 +84,7 @@ Titel| Titel des Feedbacks für nicht bestanden
 Feedback, wenn notwendige Punktzahl für "Bestanden" _nicht_ erreicht| Tragen
 sie hier ein Gesamtfeedback ein, wenn die Punktzahl nicht ausreicht.  
   
-###  Tab Expert
+####  Tab Expert {: #expert}
 
 Im Tab "Expert" (oder auf der Ebene Part, sofern ein Part hinzugefügt wurde)
 können folgende Konfigurationen vorgenommen werden:
@@ -139,7 +137,7 @@ z.B. ein Bereich in dem Fragen übersprungen werden dürfen und einen in dem
 alle Fragen beantwortet werden müssen oder ein Bereich mit eingeschränkten
 Lösungen und ein Bereich ohne Einschränkung.  
 
-###  Sektion Ebene
+###  Sektion Ebene {: #section}
 
 Einem Test Part können mehrere Sektionen untergeordnet werden. Mehrere
 verschachtelte Sektionen mit Beschreibung werden untereinander angezeigt und

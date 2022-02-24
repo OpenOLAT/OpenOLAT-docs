@@ -125,7 +125,7 @@ Option muss vom Systemadministrator eingeschaltet werden und ist auf Ihrem
 System unter Umständen nicht verfügbar. Falls Sie den Raum wieder verlassen
 möchten, schliessen Sie das Fenster.
 
-## Einstellungen
+## Einstellungen {: #settings}
 
 Im Tab „Instant-Messaging“ können Sie festlegen ob andere Benutzer Sie
 kontaktieren dürfen. Wenn Sie keine Nachrichten von anderen Benutzern

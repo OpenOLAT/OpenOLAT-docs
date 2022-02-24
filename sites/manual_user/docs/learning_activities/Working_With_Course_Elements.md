@@ -65,7 +65,7 @@ enroll directly. You can select the date(s) that suits you by clicking on the
 ? button. Depending on the configuration, there may be a deadline for the
 entry.
 
-## Blog
+## Blog {: #blog}
 
 ![](assets/blog.png)
 
@@ -222,7 +222,7 @@ further information and can also contact them via synchronous chat. If
 configured, you can also send e-mails to all or selected participants or
 download or print the entire participant list.
 
-## Podcast
+## Podcast {: #podcast}
 
 ![](assets/podcast.png)
 

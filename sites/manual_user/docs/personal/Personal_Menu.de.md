@@ -54,7 +54,7 @@ Kursfunktionen finden Sie im Kapitel
 
   
 
-##  Abonnements
+##  Abonnements {: #subscriptions}
 
 Dank Benachrichtigungen von OpenOlat sind Sie immer auf dem aktuellen Stand
 der Dinge. OpenOlat bietet Ihnen die Möglichkeit, über Änderungen in
