@@ -8,7 +8,7 @@ Element in den Kursbaustein "Bewertung" eines Kurses eingebaut.
 ## Im Kurseditor:
 
 Gehen Sie in den Kurseditor und fügen Sie den [Kursbaustein
-"Bewertung"](../../pages/viewpage.action%EF%B9%96pageId=108593280.html) hinzu.
+"Bewertung"](../course_elements/Course_Element_Assessment.de.md) hinzu.
 Gehen Sie anschließend in den Tab "Bewertung" und aktivieren Sie die "Rubrik-
 Bewertung"
 
@@ -19,8 +19,8 @@ erstellen.
 
 ![](assets/Rubrik-Formular_waehlen.png)
 
-Die Basis des Rubriks ist die Lernressource Formular der im[ Formular-Editor
-](Formular+Editor.html)ein Rubrik Element hinzugefügt wurde.
+Die Basis des Rubriks ist die Lernressource Formular der im 
+[Formular-Editor](Form_editor_Questionnaire_editor.de.md) ein Rubrik Element hinzugefügt wurde.
 
 In der erscheinenden Übersicht werden alle Formulare, bei denen Sie Besitzer
 sind, angezeigt. Das gewünscht Formular mit dem Bewertungsrubrik kann einfach
@@ -33,11 +33,10 @@ importierte Formular ebenfalls in der Liste und kann ausgewählt werden.
 
 Ein neu erstelltes Formular beinhaltet zunächst noch kein Rubrik Element.
 Dieses muss im Kurs über "Bearbeiten" oder alternativ direkt in der
-Lernressource im [Formular Editor](Formular+Editor.html) hinzugefügt werden.
+Lernressource im [Formular Editor](Form_editor_Questionnaire_editor.de.md) hinzugefügt werden.
 
 Wenn ein Formular direkt im Kurseditor erstellt wird, wird automatisch eine
-neue Lernressource Formular angelegt, die auch im [Autorenbereich
-](Autorenbereich.html)unter "Meine Einträge" zu finden ist und in weiteren
+neue Lernressource Formular angelegt, die auch im [Autorenbereich](../authoring/index.de.md)unter "Meine Einträge" zu finden ist und in weiteren
 Kursen eingebunden werden kann.
 
 Nachdem ein Formular ausgewählt wurde kann es über den Link "Bearbeiten"
@@ -88,7 +87,7 @@ Hinweise für alle Benutzer| Hier können Hinweise für Betreuer hinterlassen
 werden. Die Teilnehmenden sehen die Hinweise nicht.  
   
 Weitere Informationen zum Kursbaustein Bewertung finden Sie
-[hier](../../pages/viewpage.action%EF%B9%96pageId=108593280.html).
+[hier](../course_elements/Course_Element_Assessment.de.md).
 
 ### Rubrik-Bewertung vornehmen
 

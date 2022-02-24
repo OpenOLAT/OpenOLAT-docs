@@ -10,11 +10,10 @@ das Bewertungswerkzeug aufrufen, erscheint zunächst die Übersichtsseite mit
 zentralen Informationen sowie eine Übersicht der aktuell anstehenden
 Bewertungen. So wissen Sie schnell, was aktuell zu tun ist.
 
-![](assets/bewertungswerkzeug_übersicht.png)
+![](assets/bewertungswerkzeug_uebersicht.png)
 
 Von der Übersichtsseite aus gelangen Sie auch zu den konkreten
-Bewertungsbereichen der einzelnen [Kursbausteine
-](Assessment_of_course_modules.de.md)und
+Bewertungsbereichen der einzelnen [Kursbausteine](Assessment_of_course_modules.de.md) und
 [Personen](Assessment_of_learners.de.md).
 
 ## Tab „Übersicht“ des Bewertungswerkzeugs

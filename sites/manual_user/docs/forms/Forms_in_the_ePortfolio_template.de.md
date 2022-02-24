@@ -27,12 +27,11 @@ ausgewählt werden.
 
 Ein neu erstelltes Formular beinhaltet zunächst noch keine Elemente, Fragen
 oder Textfelder. Diese müssen im Kurs über "Bearbeiten" oder alternativ direkt
-in der Lernressource im [Formular Editor](Formular+Editor.html) hinzugefügt
+in der Lernressource im [Formular Editor](Form_editor_Questionnaire_editor.de.md) hinzugefügt
 werden.
 
 Wenn ein Formular direkt im Kurseditor erstellt wird, wird automatisch eine
-neue Lernressource Formular angelegt, die auch im [Autorenbereich
-](Autorenbereich.html)unter "Meine Einträge" zu finden ist und in weiteren
+neue Lernressource Formular angelegt, die auch im [Autorenbereich](../authoring/index.de.md) unter "Meine Einträge" zu finden ist und in weiteren
 Kursen und Kursbausteinen eingebunden werden kann.
 
 Nachdem ein Formular ausgewählt wurde, kann es über den Link "Bearbeiten"
@@ -57,7 +56,6 @@ eingebaut werden.
   
 
 Generelle Informationen zum Thema E-Portfolio finden Sie im Kapitel
-"[Portfolio erstellen](Portfolio+erstellen.html)", insbesondere im
-Unterkapitel "[Prozess eines
-Bewertungspprtfolios](../portfolio/Process_of_an_assessment_portfolio.de.md)".
+"[Portfolio erstellen](../portfolio/index.de.md)", insbesondere im
+Unterkapitel "[Prozess eines Bewertungspprtfolios](../portfolio/Process_of_an_assessment_portfolio.de.md)".
 

@@ -17,7 +17,7 @@ können anschliessend aus einer Liste gefiltert und selektiert werden.
 
 |
 
-![](assets/Mappe aus Einträgen DE.png)  
+![](assets/Mappe aus Eintraegen DE.png)  
   
 ---|---  
   
@@ -77,4 +77,4 @@ Bearbeitungsmaske der Metadaten kann entschieden werden, ob die Änderungen für
 alle referenzierten Einträge übernommen werden sollen, oder - z.B. im Sinne
 eines spezifischen Kontextes - nur im vorliegenden Eintrag angepasst werden.
 
-![](assets/Metadaten ändern Referenz DE.png)
+![](assets/Metadaten aendern Referenz DE.png)

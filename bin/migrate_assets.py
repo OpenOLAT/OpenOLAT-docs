@@ -163,6 +163,24 @@ def copyMissingPage(pageId, pageName, assetDir, confluenceDownloadDir):
 		print('page does not exist::', pagePath)
 
 
+def	fixUmlaute(dir):
+	for entry in recurse_findfiles(dir):
+		filename = entry.path
+		if 'ä' in filename:
+			print(filename)
+		if 'ö' in filename:
+			print(filename)
+		if 'ü' in filename:
+			print(filename)
+		'''
+		if (filename.endswith('.md')):
+			with fileinput.FileInput(filename, inplace=false) as file:
+				for idx, line in enumerate(file):
+					attachment = re.findall('[^\(/]*[^\.]\.png\)',line)
+					if len(attachment) > 1:
+						print(idx,attachment,filename)
+		'''
+
 def main(argv):
 #	confluenceDownloadDir = '/Users/gnaegi/Desktop/us.sitesucker.mac.sitesucker/confluence.openolat.org/download'
 	confluenceDownloadDir = '/Users/gnaegi/Desktop/us.sitesucker.mac.sitesucker_full/confluence.openolat.org/download'
@@ -170,7 +188,7 @@ def main(argv):
 	inputfile = ''
 	outputfile = ''
 	try:
-		opts, args = getopt.getopt(argv,"m:M:d:f:a:p:h:H:i:")
+		opts, args = getopt.getopt(argv,"m:M:d:f:a:p:h:H:i:u:")
 	except getopt.GetoptError:
 		print('migrate_assets.py -h')
 		sys.exit(2)
@@ -217,8 +235,10 @@ def main(argv):
 			id = argv[1]
 			name = argv[2]
 			copyMissingPage(id, name, assetDir, confluenceDownloadDir)
-
-			
+		elif opt in ("-u"):
+			# replace umlaute etc in asset names
+			dir = arg
+			fixUmlaute(dir)
 
 if __name__ == "__main__":
 	main(sys.argv[1:])

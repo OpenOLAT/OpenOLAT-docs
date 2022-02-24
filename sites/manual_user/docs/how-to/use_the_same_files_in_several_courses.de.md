@@ -84,7 +84,7 @@ aktualisieren möchte. Ist es jedoch notwendig (einzelne) zentrale Dateien noch
 einmal im Kurs und zwar nur für den jeweiligen Kurs zu überschreiben, können
 Sie den Schreibschutz im Menü "Optionen" des Kurses entfernen.
 
-![](assets/Ressourcenordner ändern.png)  
+![](assets/Ressourcenordner aendern.png)  
   
 Wiederholen Sie das Vorgehen für alle relevanten Kurse.
 

@@ -17,7 +17,7 @@ from a list.
 
 |
 
-![](assets/Mappe aus Einträgen EN.png)  
+![](assets/Mappe aus Eintraegen EN.png)  
   
 ---|---  
   
@@ -74,5 +74,5 @@ you can decide whether the changes should be applied to all referenced entries
 or - e.g. in the sense of a specific context - only adapted in the current
 entry.
 
-![](assets/Metadaten ändern Referenz EN.png)
+![](assets/Metadaten aendern Referenz EN.png)
 
