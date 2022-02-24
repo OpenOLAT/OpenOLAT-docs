@@ -1,8 +1,6 @@
 # Mit dem Kurseditor in fünf Schritten zu Ihrem OpenOlat-Kurs
 
 
-
-sites/manual_user/docs/course_create/In_Five_Steps_to_Your_Course_With_the_Course_Editor.de.md §Types_of_Course_Element.de.md§ 481
 Im Kurseditor können Sie dem Kurs [Kursbausteine](../display/OO161DE/Kursbausteine.html)hinzufügen und bereits eingebaute
 Kursbausteine einrichten und verändern. Im Folgenden wird die Erstellung eines
 Kurses ohne die Verwendung eines Wizards beschrieben.
@@ -13,8 +11,6 @@ Sie die gewünschten Kursbausteine hinzu.
 Schritt 1: Kurs anlegen  
 ---  
 1| In der Hauptnavigation den
-
-sites/manual_user/docs/course_create/In_Five_Steps_to_Your_Course_With_the_Course_Editor.de.md §Authoring.de.md§ 481
 „[Autorenbereich](../display/OO161DE/Autorenbereich.html)“ öffnen.|
 
 ![](assets/Kurs_erstellen_16.png)  
@@ -28,8 +24,6 @@ sites/manual_user/docs/course_create/In_Five_Steps_to_Your_Course_With_the_Cours
 ![](assets/Kurs_Einstellungen_Info.jpg)  
   
 4| Kurstyp (herkömmlicher Kurs oder [Lernpfad
-
-sites/manual_user/docs/course_create/In_Five_Steps_to_Your_Course_With_the_Course_Editor.de.md §Learning_path_course.de.md§ 481
 Kurs](Learning_path_course.de.md)) wählen und mit
 "Erstellen" bestätigen.  
 5|
@@ -56,8 +50,6 @@ finden.
 allen verfügbaren Kursbausteinen, die Sie Ihrem Kurs hinzufügen können.  
   
 Die genaue weitere Ausgestaltung und die Wahl der benötigten [Kursbausteine
-
-sites/manual_user/docs/course_create/In_Five_Steps_to_Your_Course_With_the_Course_Editor.de.md §Types_of_Course_Element.de.md§ 481
 ](../display/OO161DE/Kursbausteine.html)sind von Ihrem didaktischen Konzept
 abhängig.
 
@@ -120,8 +112,6 @@ Es gibt generell mehrere Möglichkeiten und Wege um Kursunterlagen
 bereitzustellen. Schauen Sie sich auch die anderen Kursbausteine aus dem
 Bereich Wissensvermittlung an. Darüber hinaus können Sie einen Order auch in
 der [Toolbar
-
-sites/manual_user/docs/course_create/In_Five_Steps_to_Your_Course_With_the_Course_Editor.de.md §Using_Additional_Course_Features.de.md§ 481
 ](../course_operation/Using_Additional_Course_Features.de.md)aktivieren
 (hier unter der Bezeichnung "Dokumente"). Auf diesem Weg steht der Ordner
 kontinuierlich zur Verfügung.
@@ -191,8 +181,6 @@ Schritt 6: Freigabe konfigurieren
 die Teilnehmer den Kurs buchen können, ob Sie die Teilnehmer eintragen wollen
 oder ob der Zugang generell offen sein soll. Weitere Details zur
 Zugangskonfiguration finden Sie
-
-sites/manual_user/docs/course_create/In_Five_Steps_to_Your_Course_With_the_Course_Editor.de.md §Access_configuration.de.md§ 481
 [hier](Access_configuration.de.md).  
 4| Damit der Kurs für die Lernenden sichtbar und zugänglich wird, muss der
 Status von "Vorbereitung" auf "Veröffentlicht" gesetzt werden.  
@@ -203,8 +191,6 @@ Ihr Kurs ist nun für die OpenOlat-Benutzer sichtbar und kann besucht werden.
 
 Damit Ihr Kurs von den Lernenden auch optimal gefunden wird, empfehlen wir den
 komplett fertiggestellten Kurs auch in den [Katalog
-
-sites/manual_user/docs/course_create/In_Five_Steps_to_Your_Course_With_the_Course_Editor.de.md §Courses_and_Catalog.de.md§ 481
 ](../display/OO161DE/Kurse+und+Katalog.html)einzutragen. Diese Einstellung
 finden Sie im Menü "Einstellungen", im Tab "Katalog". Kursteilnehmende finden
 den Kurs anschließend unter "Kurse" → "Katalog" in der entsprechenden
@@ -212,8 +198,6 @@ Kategorie.
 
 Viele der zentralen Elemente eines Kurses, die permanent verfügbar sein
 sollen, können auch in der [Toolbar
-
-sites/manual_user/docs/course_create/In_Five_Steps_to_Your_Course_With_the_Course_Editor.de.md §Using_Additional_Course_Features.de.md§ 481
 ](../course_operation/Using_Additional_Course_Features.de.md)statt in
 der linken Kursnavigation eingefügt werden. Dabei werden statt der
 Kursbausteine im Kurseditor einfach die passenden Tools in der Toolbar

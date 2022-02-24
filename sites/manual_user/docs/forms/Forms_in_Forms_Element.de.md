@@ -38,15 +38,11 @@ ausgewählt werden.
 
 Ein neu erstelltes Formular beinhaltet zunächst noch keine Elemente, Fragen
 oder Textfelder. Diese müssen im Kurs über "Bearbeiten" oder alternativ direkt
-
-sites/manual_user/docs/forms/Forms_in_Forms_Element.de.md §Form_editor_(Questionnaire_editor).de.md§ 481
 in der Lernressource im [Formular Editor](Formular+Editor.html) hinzugefügt
 werden.
 
 Wenn ein Formular im Kurseditor erstellt wird, wird automatisch eine neue
 Lernressource Formular angelegt, die auch im [Autorenbereich
-
-sites/manual_user/docs/forms/Forms_in_Forms_Element.de.md §Authoring.de.md§ 481
 ](Autorenbereich.html)unter "Meine Einträge" zu finden ist und in weiteren
 Kursen und Kursbausteinen eingebunden werden kann.
 
@@ -59,8 +55,6 @@ eine Bearbeitung nicht mehr nötig.
 Zusätzlich kann in dem Tab definiert werden bis wann das Formular von den
 Lernenden ausgefüllt werden kann. Hierfür kann ein festes oder ein relatives
 Datum verwendet werden, z.B. x Tage nach dem ersten Kursbesuch. Sobald ein
-
-sites/manual_user/docs/forms/Forms_in_Forms_Element.de.md §Course_Reminders.de.md§ 481
 Enddatum definiert wurde wird auch der Tab "[Erinnerungen](../course_operation/Course_Reminders.de.md)"
 aktiviert. Zum Beispiel könnte man eine Erinnerung erstellen, die die
 Lernenden wenige Tage vor der Abgabedeadline noch einmal per Mail an das
@@ -86,8 +80,6 @@ Besitzer haben ferner noch die Möglichkeit, die Daten einzelner Personen oder
 alle Daten zurückzusetzen und verfügen zusätzlich noch über den Tab
 "Erinnerungen", wenn die Formularabgabe mit einer Deadline versehen ist. Hier
 können sie neue Erinnerungen erstellen und sehen welche [Erinnerungen
-
-sites/manual_user/docs/forms/Forms_in_Forms_Element.de.md §Course_Reminders.de.md§ 481
 ](../course_operation/Course_Reminders.de.md)schon versandt wurden.
 
 ![](assets/Fromular_kursrun.png)

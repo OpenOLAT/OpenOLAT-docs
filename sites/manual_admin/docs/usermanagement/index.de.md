@@ -60,7 +60,7 @@ zur Verfügung, die gefiltert angezeigt und definiert werden können.
 
 Hier können ausstehende Benutzer, inaktive, gesperrte Benutzer und gelöschte
 Benutzer der OpenOlat Instanz angezeigt
-werden.![](assets/Gel%C3%B6schte_Benutzer_DE.png)
+werden.![](assets/Geloeschte_Benutzer_DE.png)
 
 Die Tabelle «Gelöschte Benutzer» in der Benutzerverwaltung enthält folgende
 Informationen, die im Prozess der Benutzer-Löschung relevant sind:

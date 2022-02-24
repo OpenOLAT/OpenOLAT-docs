@@ -41,4 +41,4 @@ Tables are cumbersome and error prone:
 
 See the [manual](https://squidfunk.github.io/mkdocs-material/reference/data-tables/) for more info.
 
-As an example have a look at the table in the OpenOlat [group section](../../manual_user/groups/Using_Group_Tools/)
+As an example have a look at the table in the OpenOlat [group section](../../../manual_user/groups/Using_Group_Tools/)

@@ -13,8 +13,6 @@ you will quickly know what you have to do.
 
 From the overview page you can also access the concrete assessment areas of
 the individual [course elements](Assessment_of_course_modules.md) and
-
-sites/manual_user/docs/course_operation/Assessment_tool_-_overview.md §Assessment_of_learners.md§ 481
 [persons](Assessment_of_learners.md).
 
 ## Tab "Overview" of the evaluation tool
@@ -81,8 +79,6 @@ calculation for passed and also manually set "passed" can be reset.
 With the tool "bulk assessment", evaluation data such as points, status
 information, comments as well as return files can be transmitted for several
 participants in one step. You can find out how to create a mass evaluation
-
-sites/manual_user/docs/course_operation/Assessment_tool_-_overview.md §create_a_bulk_assessment_for_submission_tasks.md§ 481
 [here](../how-to/create_a_bulk_assessment_for_submission_tasks.md).
 
 ## Assessment mode

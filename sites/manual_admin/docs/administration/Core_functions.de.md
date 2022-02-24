@@ -9,8 +9,6 @@ Sprachpakete importiert und exportiert werden.
 ##  Benutzerwerkzeug
 
 Hier können Administratoren einstellen, welche OpenOlat
-
-sites/manual_admin/docs/administration/Core_functions.de.md §Personal_menu_and_general_components.de.md§ 481
 [Werkzeuge](../../pages/viewpage.action%EF%B9%96pageId=108593709.html) den
 Usern standardmässig zur Verfügung gestellt werden, z.B. Kalender, persönliche
 Ordner, E-Portfolio, Chat usw. sowie welche Werkzeuge in der Menüleiste für

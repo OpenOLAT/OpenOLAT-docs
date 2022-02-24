@@ -63,8 +63,6 @@ attachments before storing them in your personal folder.
 
 In order to be kept informed on new forum entries you should select
 "Subscribe" in the overview of topics. Then you will get a notification by
-
-sites/manual_user/docs/learning_activities/Working_with_Forums.md §Personal_menu_and_general_components.md§ 481
 e-mail or in your "[Subscriptions](Personal+menu+and+general+components.html)"
 in the "Personal Tools" section. It does not matter whether a new post was
 posted by a registered OpenOlat user or a guest.
@@ -81,8 +79,6 @@ yet replied to your post.
 It is possible that course participants may receive additional moderation
 rights in a forum from the coach. You can find out exactly what this means in
 the chapter "[Communication and
-
-sites/manual_user/docs/learning_activities/Working_with_Forums.md §Communication_and_Collaboration.md§ 481
 Collaboration](../course_elements/Communication_and_Collaboration.md)".
 
 ### What display options are available for forum threads?
@@ -109,8 +105,6 @@ asterisk.
 
   
 
-
-sites/manual_user/docs/learning_activities/Working_with_Forums.md §Personal_Menu.md§ 481
 Upload a photo in the "[Profile](../personal/Personal_Menu.md)" so that your photo
 appears next to your forum posts instead of the standard profile picture.
 

@@ -52,8 +52,6 @@ HTML files, which can also be displayed directly.
 
 With the "Single page", videos and audios can be integrated into the course in
 various ways. Detailed information can be found
-
-sites/manual_user/docs/course_elements/Course_Element_Single_Page.md §Single_Page_Add_edit_video.md§ 481
 [here](../resource_video/Single_Page_Add_edit_video.md).
 
 The Files can also be swapped later using the link "Replace page".
@@ -152,8 +150,6 @@ you should name the file names as they should appear later in the course,
 because the file name is used as course element title.
 
 Several individual pages can also be bundled very well with a [course element
-
-sites/manual_user/docs/course_elements/Course_Element_Single_Page.md §Course_Element_Structure.md§ 481
 "Structure"](Course_Element_Structure.md). This way, overview pages
 can be created automatically for the respective contents and the individual
 pages can be better structured.

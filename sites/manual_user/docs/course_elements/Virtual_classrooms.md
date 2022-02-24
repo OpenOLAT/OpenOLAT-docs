@@ -17,14 +17,8 @@ tools:
 
   * [Adobe Connect](Course_element_Adobe_Connect.md)
   * [BigBlueButton](Course_element_BigBlueButton.md)
-
-sites/manual_user/docs/course_elements/Virtual_classrooms.md §Course_element_GoToMeeting.md§ 481
   * [GoTo Meeting](Course_element_GoToMeeting.md)
-
-sites/manual_user/docs/course_elements/Virtual_classrooms.md §Course_element_OpenMeetings.md§ 481
   * [OpenMeetings](Course_element_OpenMeetings.md)
-
-sites/manual_user/docs/course_elements/Virtual_classrooms.md §Course_element_vitero.md§ 481
   * [Vitero](Course_element_vitero.md)
 
 Typically, the following functions are available in virtual classrooms:

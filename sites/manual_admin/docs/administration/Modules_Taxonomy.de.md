@@ -8,11 +8,7 @@ Im OpenOlat ist eine Taxonomie eine hierarchische Verschlagwortung,
 Taxonomie kann in mehreren OpenOlat Bereichen aktiviert und eingesetzt werden:
 
   * [Dokumentenpool](Modules_Document_pool.de.md)
-
-sites/manual_admin/docs/administration/Modules_Taxonomy.de.md §Question_Bank.de.md§ 481
   * [Fragenpool](Fragenpool.html)
-
-sites/manual_admin/docs/administration/Modules_Taxonomy.de.md §Competences_tags.de.md§ 481
   * [ePortfolio](../../manual_user/portfolio/Competences_tags.de.md)
   * Verknüpfung mit Lernressourcen
 
@@ -105,8 +101,6 @@ OpenOlat wurde die Kompetenz auf den Release 12.2 neu hinzugefügt.
 Es werden 4 verschiedene Kompetenzen unterschieden. Diese werden im Folgenden
 kurz umrissen:
 
-
-sites/manual_admin/docs/administration/Modules_Taxonomy.de.md §Modules_Document_pool.de.md§ 481
   * Dozieren: Ein Benutzer mit einer Dozierkompetenz ist in dieser Kompetenz befähigt. Meist bedeutet dies, er hat ein gewisses Fachwissen, das er weitergeben kann. Somit hat ein Lernender nie eine Dozierkompetenz, denn eine Dozierkompetenz kann im OpenOlat nicht erworben werden. Die Dozierkompetenz wird dem Benutzer entweder manuell oder durch ein externes Verwaltungssystem hinzugefügt. Diese Kompetenz steuert den Zugriff sowohl im [Dokumentenpool](Modules_Document_pool.de.md) als auch im Fragenpool.
   * Verwalten: Benutzer können für gewisse Bereiche in der Taxonomie eine verwaltende Funktion haben. Dabei müssen sie nicht zwingend auch die Dozierkompetenz haben. Diese Kompetenz wird vor allem im Fragenpool benutzt.
   * Haben: Diese Kompetenz wird momentan im OpenOlat noch nicht verwendet. Diese Kompetenz sollen zukünftig Lernende durch eine Lernaktivität im OpenOlat (z.B. absolvierter Test) erhalten. Diese Kompetenz wird auch ein Verfallsdatum haben.

@@ -29,8 +29,6 @@ Hilfe des kleinen Pfeils aufgeklappt werden.
 ![](assets/Gruppe.png)
 
 Weitere Infos zu den Aktionsmöglichkeiten im Menü "Gruppen" finden Sie im
-
-sites/manual_user/docs/groups/index.de.md §Group_Management.de.md§ 481
 Kapitel [Gruppenverwaltung](Group_Management.de.md).
 
 ## Kombination mit Kursen

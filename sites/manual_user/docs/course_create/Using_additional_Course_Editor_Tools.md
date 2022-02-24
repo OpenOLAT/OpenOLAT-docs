@@ -16,8 +16,6 @@ on the separate pages of the tools.
 
 ## Insert course elements
 
-
-sites/manual_user/docs/course_create/Using_additional_Course_Editor_Tools.md §Types_of_Course_Element.md§ 481
 Here you have access to all [course elements](Types+of+Course+Element.html)
 that you can integrate into a course.
 
@@ -58,8 +56,6 @@ are no long texts in course elements.
 The columns do not show the ratings for individual persons, but only give an
 overview of the configuration of the course elements. If points are to be
 awarded or a pass/fail is to be given, this will be done in the course's
-
-sites/manual_user/docs/course_create/Using_additional_Course_Editor_Tools.md §Assessment_tool_-_overview.md§ 481
 "[Assessment tool](../course_operation/Assessment_tool_-_overview.md)".
 
 ![](assets/Screenshot 2020-03-22 at 17.54.20.png)
@@ -119,8 +115,6 @@ Attribute value: 4600
 This is how the course is presented to Chemistry students.  
   
 For more information:  
-
-sites/manual_user/docs/course_create/Using_additional_Course_Editor_Tools.md §Access_Restrictions_in_the_Expert_Mode.md§ 481
 [AAI attributes ](Access_Restrictions_in_the_Expert_Mode.md)  
 [__ General information on AAI](http://www.switch.ch/aai/)
 
@@ -147,8 +141,6 @@ or directly when closing your course editor. Only once you have published your
 course it will become visible in the course run with closed editor. This does
 not mean that learners will already see your course. In order to be able to do
 that you have to publish your course and configure your access (see chapter
-
-sites/manual_user/docs/course_create/Using_additional_Course_Editor_Tools.md §Access_configuration.md§ 481
 "[Access configuration](Access_configuration.md)").
 
 If you want to make more differentiated settings when publishing, select the
@@ -161,8 +153,6 @@ and want to publish. Your choice will be reduced to course elements that are
 available for publishing.
 
 Step 2: Then you determine who should have access to your OpenOlat course. See
-
-sites/manual_user/docs/course_create/Using_additional_Course_Editor_Tools.md §Course_Settings.md§ 481
 section ["Course Settings](Course_Settings.md)" to learn more about those
 four options at your disposal. Now you can complete your publishing process.
 Just click on "Finish."

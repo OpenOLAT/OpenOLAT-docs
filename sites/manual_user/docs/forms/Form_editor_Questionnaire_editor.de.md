@@ -82,8 +82,6 @@ organisiert.
 
 ![](assets/formular_rubrik.jpg)
 
-
-sites/manual_user/docs/forms/Form_editor_Questionnaire_editor.de.md §Rubric.de.md§ 481
 Weitere Infos finden Sie [hier](Rubric.de.md).
 
 |

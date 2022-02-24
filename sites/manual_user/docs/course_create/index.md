@@ -27,8 +27,6 @@ course can be created. For most teaching scenarios, however, the default
 setting without a wizard is the appropriate choice.
 
   
-
-sites/manual_user/docs/course_create/index.md §Types_of_Course_Element.md§ 481
 The concrete [course elements](Types+of+Course+Element.html) that you can use
 to set up courses are explained in detail in a separate chapter.
 

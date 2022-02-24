@@ -23,15 +23,9 @@ werden. Ein OLAT-Kurs ist ein OpenOlat-eigener Dokumententyp der beliebig
 viele "Kursbausteine" sowie weitere Funktionalitäten enthalten kann. Wie man
 mit den verschiedenen Kursbausteinen arbeitet, wird im Kapitel
 [„Lernaktivitäten im
-
-sites/manual_user/docs/authoring/Various_Types_of_Learning_Resources.de.md §Learning_Activities_in_Courses.de.md§ 481
 Kurs“](../../pages/viewpage.action%EF%B9%96pageId=108593198.html) ausführlich
 erklärt. Wie Kurse erstellt werden, erfahren Sie im Kapitel [„Kurs
-
-sites/manual_user/docs/authoring/Various_Types_of_Learning_Resources.de.md §Creating_Courses.de.md§ 481
 erstellen"](Kurs+erstellen.html). Details zu Kursbausteinen und dem Kurseditor
-
-sites/manual_user/docs/authoring/Various_Types_of_Learning_Resources.de.md §Types_of_Course_Element.de.md§ 481
 erfahren Sie im Kapitel [„Kursbausteine"](Kursbausteine.html).
 
 ## Test (QTI 2.1)
@@ -44,8 +38,6 @@ gespeichert. Jeder Test liegt in einem standardisierten Dokumentformat, dem
 IMS-QTI-Format, vor.
 
 Mehr Informationen zum Einsatz und Erstellung von Tests finden Sie im Kapitel
-
-sites/manual_user/docs/authoring/Various_Types_of_Learning_Resources.de.md §Creating_Tests.de.md§ 481
 [„Tests erstellen“](Tests+erstellen.html) .
 
 ## CP-Lerninhalt
@@ -58,8 +50,6 @@ Version 1.1.2. CPs eignen sich für die Verwendung in OpenOlat-Kursen oder auch
 ausserhalb von OpenOlat. OpenOlat unterstützt dieses Format, damit Lerninhalte
 nicht nur in OpenOlat, sondern auch in anderen LMS verwendet werden können.
 Mehr Informationen zur Erstellung von Content-Packagings finden Sie im Kapitel
-
-sites/manual_user/docs/authoring/Various_Types_of_Learning_Resources.de.md §Creating_CP_Learning_Content.de.md§ 481
 [„CP-Lerninhalt erstellen"](CP-Lerninhalt+erstellen.html).
 
 ##
@@ -70,11 +60,7 @@ Ein Wiki kann für Gruppenarbeiten, als Dokumentationswerkzeug oder als
 Wissensbasis für Ihre Studien- oder Projektarbeit verwendet werden.
 
 Mehr Informationen zur Erstellung von Wikis finden Sie im Kapitel [ „Wiki
-
-sites/manual_user/docs/authoring/Various_Types_of_Learning_Resources.de.md §Creating_Wikis.de.md§ 481
 erstellen"](Wiki+erstellen.html). Wie Sie im Wiki Inhalte erstellen und
-
-sites/manual_user/docs/authoring/Various_Types_of_Learning_Resources.de.md §Working_with_Wiki.de.md§ 481
 sinnvoll arbeiten erfahren Sie [hier](../learning_activities/Working_with_Wiki.de.md).
 
 ## Podcast
@@ -89,8 +75,6 @@ bewerten und kommentieren.
 
 Informationen dazu, wie Sie einen Podcast erstellen und in Ihren Kurs
 einbinden, finden Sie im Kapitel [„Podcast
-
-sites/manual_user/docs/authoring/Various_Types_of_Learning_Resources.de.md §Creating_Podcasts.de.md§ 481
 erstellen"](Podcast+erstellen.html).
 
 ## Blog
@@ -102,8 +86,6 @@ Online-Tagebuch oder Journal eingesetzt. Kursteilnehmer können Blogeinträge
 auf einfache Art bewerten und kommentieren.
 
 Informationen dazu, wie Sie einen Blog erstellen und in Ihren Kurs einbinden,
-
-sites/manual_user/docs/authoring/Various_Types_of_Learning_Resources.de.md §Creating_Blogs.de.md§ 481
 finden Sie im Kapitel [„Blog erstellen"](Blog+erstellen.html). Wie Sie als
 Kursteilnehmer den Blog verwenden, erfahren Sie im Kapitel „Lernaktivitäten im
 Kurs“ unter dem Punkt
@@ -144,15 +126,9 @@ Eine Portfolio 2.0 Vorlage beinhaltet Aufgaben die im Rahmen eines Portfolio-
 Assessments genutzt und als Portfolioaufgabe in einen OpenOlat-Kurs
 eingebunden werden können. Mit Hilfe einer Portfolio 2.0 Vorlage können
 Lehrende eine strukturierte Portfolio-Mappe gestalten, die die Lernenden
-
-sites/manual_user/docs/authoring/Various_Types_of_Learning_Resources.de.md §Portfolio_task_and_assignment_Collecting_and_editing.de.md§ 481
 [abholen ](../portfolio/Portfolio_task_and_assignment_Collecting_and_editing.de.md)und
 bearbeiten können. Weitere Informationen zur [Portfolio
-
-sites/manual_user/docs/authoring/Various_Types_of_Learning_Resources.de.md §Portfolio_template_Creation.de.md§ 481
 Vorlage](../portfolio/Portfolio_template_Creation.de.md) und generell zum Thema
-
-sites/manual_user/docs/authoring/Various_Types_of_Learning_Resources.de.md §Creating_Portfolios.de.md§ 481
 [ePortfolio](Portfolio+erstellen.html) erfahren Sie im entsprechenden Kapitel.
 
 ## Glossar
@@ -201,8 +177,6 @@ hinzugefügt werden und anschließend weiter konfiguriert werden. OpenOlat
 unterstützt die Anzeige von Untertiteln in mehreren Sprachen, integrierte
 Quizzes, Anmerkungen und Sprungmarken. Generelle Informationen zu
 Videoformaten und Upload in OpenOlat finden Sie im Kapitel "[Video
-
-sites/manual_user/docs/authoring/Various_Types_of_Learning_Resources.de.md §Creating_Videos.de.md§ 481
 erstellen](Video+erstellen.html)".
 
 ## Lernressourcen vom Typ Datei und andere Dateien

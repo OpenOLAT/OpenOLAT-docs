@@ -12,8 +12,6 @@ die folgenden weiteren Funktionen einrichten.
 
 ## Kurssuche
 
-
-sites/manual_user/docs/course_operation/Using_Additional_Course_Features.de.md §Full-Text_Search.de.md§ 481
 Neben der [Volltextsuche ](../personal/Full-Text_Search.de.md)für das gesamte OpenOlat kann
 pro Kurs eine Kurssuche aktiviert werden. In dieser Suche werden folgende
 Elemente gefunden:
@@ -29,8 +27,6 @@ Elemente gefunden:
 
 Pro Kurs kann ein Kalender aktiviert werden. Für die Einbindung gibt es zwei
 Optionen. Der Kalender kann entweder als [Kursbaustein
-
-sites/manual_user/docs/course_operation/Using_Additional_Course_Features.de.md §Administration_and_Organisation.de.md§ 481
 ](../course_elements/Administration_and_Organisation.de.md)oder an zentraler Position oben in der
 Kurstoolbar angezeigt werden und somit einen guten Überblick geben.
 
@@ -66,8 +62,6 @@ konfigurieren.
 Hier können alle Kursbesitzer, Betreuer und Teilnehmenden eines Kurses zentral
 angezeigt werden. Kursteilnehmende können über die Teilnehmerliste E-Mails an
 bestimmte Personen, auch an einzelne Kursmitglieder, verschicken. Anders als
-
-sites/manual_user/docs/course_operation/Using_Additional_Course_Features.de.md §Working_With_Course_Elements.de.md§ 481
 im [Kursbaustein Teilnehmerliste](../learning_activities/Working_With_Course_Elements.de.md) können
 hier jedoch keine weiteren Konfigurationen vorgenommen werden.  
 
@@ -86,8 +80,6 @@ Mails verschicken können. Zur Auswahl stehen die drei Kursrollen
 „Kursbesitzer“, „Betreuer“ und „Teilnehmer“. Eine weitere Differenzierung ist
 nicht möglich. Falls Sie differenziertere Einstellungen für den Versand an
 Kursmitglieder benötigen, sollten Sie den [Kursbaustein
-
-sites/manual_user/docs/course_operation/Using_Additional_Course_Features.de.md §Administration_and_Organisation.de.md§ 481
 "E-Mail"](../course_elements/Administration_and_Organisation.de.md#VerwaltungundOrganisation-_mail)
 oder den [Kursbaustein
 „Teilnehmerliste](Kommunikation+und+Kollaboration.html#KommunikationundKollaboration-
@@ -100,22 +92,16 @@ Meetings angelegt werden.
 
 ## BigBlueButton Online-Termine
 
-
-sites/manual_user/docs/course_operation/Using_Additional_Course_Features.de.md §Course_element_BigBlueButton.de.md§ 481
 Ähnlich wie im [Kursbaustein BigBlueButton](../course_elements/Course_element_BigBlueButton.de.md)
 können hier Räume für synchrone Meetings angelegt werden.
 
 ## Blog
 
-
-sites/manual_user/docs/course_operation/Using_Additional_Course_Features.de.md §Creating_Blogs.de.md§ 481
 Hier können Sie einen [Blog (Lernressource)](Blog+erstellen.html) erstellen
 oder importieren. Die Lernenden können den zentralen Kursblog abonnieren.
 
 ## Wiki
 
-
-sites/manual_user/docs/course_operation/Using_Additional_Course_Features.de.md §Creating_Wikis.de.md§ 481
 Hier können Sie ein[ Wiki (Lernressource) ](Wiki+erstellen.html)erstellen oder
 importieren. Die Lernenden können das zentrale Wiki abonnieren.
 
@@ -124,8 +110,6 @@ importieren. Die Lernenden können das zentrale Wiki abonnieren.
 Für einen Kurs kann ein zentrales Forum aktiviert werden. Kursmitglieder
 können das Forum wie gewohnt abonnieren. Differenzierte Einstellungen wie
 beim[ Kursbaustein
-
-sites/manual_user/docs/course_operation/Using_Additional_Course_Features.de.md §Communication_and_Collaboration.de.md§ 481
 "Forum"](../course_elements/Communication_and_Collaboration.de.md#KommunikationundKollaboration-d13e3776)
 sind hier allerdings nicht möglich.
 
@@ -185,8 +169,6 @@ gelöscht werden.
 
 Wenn Sie das Glossar nicht mehr verwenden oder ein anderes Glossar einbinden
 möchten, können im Menü "Einstellungen unter
-
-sites/manual_user/docs/course_operation/Using_Additional_Course_Features.de.md §Course_Settings.de.md§ 481
 "[Optionen](../course_create/Course_Settings.de.md#Kurseinstellungen-d13e3167)" die gewünschte
 Änderung vornehmen.
 
@@ -211,8 +193,6 @@ Kursbesitzer vorgenommen werden.
 
 Möchte man nur bestimmten Personen z.B. den Teilnehmenden eines Kurses das
 Schreibrecht für ein Glossar vergeben, geht man einen anderen Weg. Hierfür
-
-sites/manual_user/docs/course_operation/Using_Additional_Course_Features.de.md §Members_management.de.md§ 481
 wird die „[Mitgliederverwaltung](Members_management.de.md)“ eines Kurses
 verwendet. Erstellen Sie dort eine neue Gruppe und fügen Sie die gewünschten
 Personen als Teilnehmer der Gruppe hinzu. Gehen Sie anschließend in der
@@ -233,10 +213,6 @@ Besitzer der jeweiligen Lernressource "Glossar" eingetragen werden.
   
 
 Darüber hinaus erscheint in der Kurs-Toolbar noch der Link zur
-
-sites/manual_user/docs/course_operation/Using_Additional_Course_Features.de.md §Set_up_info_page.de.md§ 481
 "[Kursinfo](../authoring/Set_up_info_page.de.md)" und zu den
-
-sites/manual_user/docs/course_operation/Using_Additional_Course_Features.de.md §Lectures_-_Teacher_view.de.md§ 481
 "[Lektionen](Lectures_-_Teacher_view.de.md)", sofern eingerichtet.
 

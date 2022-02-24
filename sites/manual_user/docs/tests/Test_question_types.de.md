@@ -388,11 +388,7 @@ Pinselgrösse steuern.
   
 
 Neben dem direkten Erstellen, können Fragen auch intern aus dem OLAT
-
-sites/manual_user/docs/tests/Test_question_types.de.md §Question_Bank.de.md§ 481
 [Fragenpool ](Fragenpool.html)oder extern aus einer [Excel
-
-sites/manual_user/docs/tests/Test_question_types.de.md §Data_Management.de.md§ 481
 Datei](../question_bank/Data_Management.de.md#HandhabungderDaten-qb_import) importiert
 werden.
 

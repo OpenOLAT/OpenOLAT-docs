@@ -4,12 +4,8 @@
 
 Die Kalenderfunktion steht Ihnen an verschiedenen Orten zur Verfügung
 
-
-sites/manual_user/docs/personal/Calendar.de.md §Groups.de.md§ 481
   * in der [Gruppe](Gruppen.html): Zugriff auf den Gruppenkalender sowie eventuell externe importierte Kalender.
   * im Kurs: Zugriff auf Kurstermine sowie Zugriff auf alle Kalender von eingebundenen Gruppen. Kalender können sowohl im Kursrun als auch in der Toolbar eingebunden sein.
-
-sites/manual_user/docs/personal/Calendar.de.md §Personal_Menu.de.md§ 481
   * im [persönlichen Menü](Personal_Menu.de.md): Übersicht über die Termine aller ihrer Gruppen und Kurse.
 
 Kurskalender, wie Gruppenkalender, werden automatisch in die Kalenderliste

@@ -34,15 +34,11 @@ Dokumente herunterladen" alle Lösungsversuche auf einmal herunterzuladen. Im
 heruntergeladenen Ordner finden Sie ebenfalls alle Aufgabenzuweisungen.
 
 Anschliessend können Sie das [Bewertungsformular
-
-sites/manual_user/docs/course_operation/Assessing_tasks_and_group_tasks.de.md §The_assessment_form.de.md§ 481
 ](The_assessment_form.de.md)ausfüllen.
 
 ### Neue Massenbewertung starten
 
 Wie man eine Massenbewertung für Aufgaben genau erstellt erfahren Sie
-
-sites/manual_user/docs/course_operation/Assessing_tasks_and_group_tasks.de.md §create_a_bulk_assessment_for_submission_tasks.de.md§ 481
 [hier](../how-to/create_a_bulk_assessment_for_submission_tasks.de.md).
 
 ### Bewertungsflow Kursbaustein „Aufgabe“
@@ -82,8 +78,6 @@ weitere Abgabe hochzuladen.
 Wie eine Aufgabe oder Gruppenaufgabe bewertet werden kann, z.B. mit einem
 „bestanden/nicht bestanden“ oder einer Punktzahl, legen Sie in der
 Konfiguration des Kursbausteins
-
-sites/manual_user/docs/course_operation/Assessing_tasks_and_group_tasks.de.md §Task_-_Further_Configurations.de.md§ 481
 „[Aufgabe](../task/Task_-_Further_Configurations.de.md)“ bzw. "Gruppenaufgabe"
 fest. Im Bewertungswerkzeug können die Bewertungsoptionen nicht mehr geändert
 werden.

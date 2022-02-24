@@ -50,8 +50,6 @@ copy, move and delete files. Further information can be found in the chapter
 "[Using WebDAV](../supported_tech/Using_WebDAV.md)".
 
 In order for the WebDAV access to work, it needs to be [activated
-
-sites/manual_user/docs/personal/Personal_folders.md §WebDAV.de.md§ 481
 ](../../manual_admin/administration/WebDAV.de.md)by your OpenOlat administrator first.
 
 ## Quota
@@ -65,17 +63,9 @@ contact the corresponding contact person.
 In OpenOlat exist several different versions of folders. Beside the two
 folders in the personal menu in OpenOlat exist the following folder versions:
 
-
-sites/manual_user/docs/personal/Personal_folders.md §Using_Course_Tools.md§ 481
   * [Storage folder](../course_operation/Using_Course_Tools.md) (in courses)
-
-sites/manual_user/docs/personal/Personal_folders.md §Knowledge_Transfer.md§ 481
   * [Course element folder](../course_elements/Knowledge_Transfer.md#KnowledgeTransfer-_ordner) (in courses)
   * Folders in Topic assignment (in courses)
-
-sites/manual_user/docs/personal/Personal_folders.md §Communication_and_Collaboration.md§ 481
   * [Participant folder](../course_elements/Communication_and_Collaboration.md#CommunicationandCollaboration-_participantfolder) (in courses)
-
-sites/manual_user/docs/personal/Personal_folders.md §Course_Settings.md§ 481
   * [Resource folder ](../course_create/Course_Settings.md#CourseSettings-_detail_ressourcen)(learning resource)  
 

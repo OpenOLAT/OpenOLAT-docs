@@ -46,8 +46,6 @@ im Kurseditor angelegt wurden automatisch und können im Ablageordner auch
 editiert werden.
 
 Ein dem Kurs zugewiesener [Ressourcenordner
-
-sites/manual_user/docs/course_operation/Storage_folder.de.md §Various_Types_of_Learning_Resources.de.md§ 481
 ](../authoring/Various_Types_of_Learning_Resources.de.md)kann im Ablageordner über den
 Unterordner „ **_sharedfolder** “ eingesehen, jedoch per default nicht
 editiert werden. Soll eine Bearbeitung über den Ablageordner möglich sein,

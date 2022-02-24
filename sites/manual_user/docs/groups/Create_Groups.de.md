@@ -53,8 +53,6 @@ Benutzer rückt nach.
 
 Sofern von OpenOlat Administrator aktiviert kann jeder OpenOlat-Benutzer,
 nicht nur Autoren, selbständig Gruppen erstellen, den Gruppen vielfältige
-
-sites/manual_user/docs/groups/Create_Groups.de.md §Using_Group_Tools.de.md§ 481
 [Werkzeuge ](Using_Group_Tools.de.md)zuordnen und den Gruppen beliebig
 viele andere OpenOlat-Benutzer einladen.
 
@@ -62,18 +60,12 @@ viele andere OpenOlat-Benutzer einladen.
 
 OpenOlat Autoren haben darüber hinaus auch die Möglichkeit, kursspezifische
 Gruppen direkt im gewünschten Kurs
-
-sites/manual_user/docs/groups/Create_Groups.de.md §Members_management.de.md§ 481
 [Mitgliederverwaltung](../course_operation/Members_management.de.md) zu erstellen. Dies geschieht
 im Normalfall in der Mitgliederverwaltung eines Kurses im Untermenü "Gruppen.
 Darüber hinaus können auch im Kurseditor an einigen Stellen Gruppen im
 jeweiligen Kontext erstellt werden. Hierzu zählen der
-
-sites/manual_user/docs/groups/Create_Groups.de.md §Administration_and_Organisation.de.md§ 481
 [Einschreibebaustein](../course_elements/Administration_and_Organisation.de.md) und die
 Gruppenaufgabe. Darüber hinaus können in herkömmlichen Kursen im [Tab
-
-sites/manual_user/docs/groups/Create_Groups.de.md §General_Configuration_of_Course_Elements.de.md§ 481
 Sichtbarkeit oder Zugang](../course_create/General_Configuration_of_Course_Elements.de.md)
 ebenfalls Gruppen erstellt werden.
 

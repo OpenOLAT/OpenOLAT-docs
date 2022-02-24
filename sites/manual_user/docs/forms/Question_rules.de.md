@@ -1,8 +1,6 @@
 # Frageregeln
 
 Frageregeln (Arbeitsname: "Branching") können ab jetzt neu in OpenOlat im
-
-sites/manual_user/docs/forms/Question_rules.de.md §Form_editor_(Questionnaire_editor).de.md§ 481
 [Fragebogeneditor](Formular+Editor.html) eingebaut werden. Abhängig von
 bestimmten Antworten im Fragebaustein
 "![](assets/image2021-5-5_9-32-45.png)Mehrfachauswahl"

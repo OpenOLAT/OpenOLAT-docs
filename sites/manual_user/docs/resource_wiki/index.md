@@ -10,12 +10,8 @@ tool "Wiki"](../groups/Using_Group_Tools.md).
 
 If a Wiki is integrated into a course it can be used in several courses. If
 you have not yet created a course you will find information on that in the
-
-sites/manual_user/docs/resource_wiki/index.md §Creating_Courses.md§ 481
 chapter "[Creating Courses](Creating+Courses.html)" before you create your
 Wiki by means of the guide "[Four steps to your
-
-sites/manual_user/docs/resource_wiki/index.md §Four_Steps_to_Your_Wiki.md§ 481
 Wiki](Four_Steps_to_Your_Wiki.md)".
 
 ## Possible applications of Wikis

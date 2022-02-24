@@ -119,8 +119,6 @@ Durchführungszeitraum festgelegt werden. Folgende Optionen sind möglich:
 
   *  _Mit Begin- und Enddatum_ : Der Kursbesitzer kann hier das Start- und Enddatum des Kurses eintragen. Das Datum erscheint anschließend als Information in der Kursübersicht. Das eingetragene Datum ist jedoch unabhängig vom Kursstatus und den Kurszugangsrechten (siehe Kapitel „[Zugangskonfiguration](../course_create/Access_configuration.de.md)“). Es hat also keine Auswirkung auf die Sichtbarkeit und den Zugang für die Kursmitglieder.
 
-
-sites/manual_user/docs/authoring/Set_up_info_page.de.md §Access_configuration.de.md§ 481
   *  _Semester_ : Wenn auf Systemebene vom OpenOlat Administrator Semesterdaten konfiguriert wurden, kann hier eine der angezeigten Semester Optionen ausgewählt werden. Das Semester erscheint anschließend als Information in der Kursübersicht. Das Semester ist jedoch unabhängig vom Kursstatus und den Kurszugangsrechten (siehe Kapitel „[Zugangskonfiguration](../course_create/Access_configuration.de.md)“). Es hat also keine Auswirkung auf die Sichtbarkeit und den Zugang für die Kursmitglieder.
 
 Der konfigurierte Durchführungszeitraum wird auch in den Informationen der

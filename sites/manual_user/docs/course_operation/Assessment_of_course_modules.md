@@ -49,8 +49,6 @@ The checkboxes of the individual users can be added manually and the
 assessment form can be filled in. Depending on the course element
 configuration, either points and/or the attribute Passed can be assigned.
 Further information on the checklist can be found
-
-sites/manual_user/docs/course_operation/Assessment_of_course_modules.md §Course_Element_Checklist.md§ 481
 [here](../course_elements/Course_Element_Checklist.md).
 
 ![](assets/Checkliste_Bewertungswerkzeug.jpg)
@@ -80,15 +78,11 @@ In addition, bulk assessment is also possible for the course element
 ## Portfolio task
 
 The assessment of the course element "[Portfolio
-
-sites/manual_user/docs/course_operation/Assessment_of_course_modules.md §Creating_Portfolio_Tasks.md§ 481
 task](../portfolio/Creating_Portfolio_Tasks.md)" includes the following options:
 
 ![](assets/Portfolioaufgabe.png)
 
 The assessment for the portfolio is the same in the assessment tool as in the
-
-sites/manual_user/docs/course_operation/Assessment_of_course_modules.md §Process_of_an_assessment_portfolio.md§ 481
 ["Assessment" tab in the portfolio](../portfolio/Process_of_an_assessment_portfolio.md)
 itself. However, the individual areas cannot be opened here, only assessed. It
 is therefore recommended to perform the assessment directly in the portfolio.
@@ -108,8 +102,6 @@ elements, for example, one point value for all the assignments and one point
 value for all the tests.
 
 Setting up the assessment of [structural
-
-sites/manual_user/docs/course_operation/Assessment_of_course_modules.md §Course_Element_Structure.md§ 481
 elements](../course_elements/Course_Element_Structure.md) is done in the course
 editor. Only the results are displayed in the assessment tool.
 
@@ -125,8 +117,6 @@ SCORM
 For the SCORM element the assessment form can be filled in. It is important
 that either Score or Transfer Passed is selected in the course element under
 Learning Content. More information can be found
-
-sites/manual_user/docs/course_operation/Assessment_of_course_modules.md §Course_Element_SCORM_Learning_Content.md§ 481
 [here](../course_elements/Course_Element_SCORM_Learning_Content.md).
 
 ### LTI
@@ -135,8 +125,6 @@ The assessment form can also be filled out and customized for the LTI element.
 In the course element under Page content, it is mandatory that "Transfer
 points" is selected. Depending on this, a scaling factor must be entered and
 the passing score defined. Further information on configuring LTI pages can be
-
-sites/manual_user/docs/course_operation/Assessment_of_course_modules.md §Other.md§ 481
 found [here](../course_elements/Other.md).
 
   

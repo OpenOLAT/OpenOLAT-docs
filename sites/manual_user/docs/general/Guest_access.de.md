@@ -2,8 +2,6 @@
 
 Neben registrierten Benutzern können auch Personen ohne OpenOlat Account als
 Gäste Zugang zum System erhalten. Gäste sind anonyme, nicht registrierte
-
-sites/manual_user/docs/general/Guest_access.de.md §User_management.de.md§ 481
 Benutzer, welche in der [Benutzerverwaltung ](Benutzerverwaltung.html)nicht
 verwaltet werden können.
 
@@ -46,10 +44,6 @@ Link finden Sie auf der Infoseite des Kurses.
 ![](assets/gastlink.png)
 
 Administrative Einstellungen werden von OLAT Administratoren im Bereich Login
-
-sites/manual_user/docs/general/Guest_access.de.md §Guest_and_invitation.de.md§ 481
 → ["Gast und Einladung](../../manual_admin/administration/Guest_and_invitation.de.md)" und unter
-
-sites/manual_user/docs/general/Guest_access.de.md §Customizing.de.md§ 481
 "[Customizing](../../manual_admin/administration/Customizing.de.md)" → "Sites" vorgenommen.
 

@@ -16,20 +16,10 @@ compilation of questions for test creation.
 
   * [Data Management](Data_Management.md)
   * [Item Detailed View](Item_Detailed_View.md)
-
-sites/manual_user/docs/question_bank/index.md §Question_bank_possible_operations.md§ 481
   * [Question bank possible operations](Question_bank_possible_operations.md)
-
-sites/manual_user/docs/question_bank/index.md §Search.md§ 481
   * [Search](Search.md)
-
-sites/manual_user/docs/question_bank/index.md §Question_Pool_Sharing_Options.md§ 481
   * [Question Pool Sharing Options](Question_Pool_Sharing_Options.md)
-
-sites/manual_user/docs/question_bank/index.md §Question_Bank_Review_Process.md§ 481
   * [Question Bank Review Process](Question_Bank_Review_Process.md)
-
-sites/manual_user/docs/question_bank/index.md §Question_Bank_Administration.md§ 481
   * [Question Bank Administration](Question_Bank_Administration.md)
 
 The main activities in the question bank are the administration, search and
@@ -42,8 +32,6 @@ The question bank is separated in three parts:
   * The last block is only visible if the review process is activated. In addition you will find your own subjects under "My question bank". When having the appropriate competencies also the blocks "Review" and "Final" appear.
 
 Individual questions, entire sections or tests can also be exported directly
-
-sites/manual_user/docs/question_bank/index.md §Test_editor_QTI_2.1.md§ 481
 from the [test editor](../tests/Test_editor_QTI_2.1.md) to the . To do this, select
 the "Export" → "Export to pool" link in the toolbar of the test editor.
 Depending on which level you are on in the menu tree on the left, either
@@ -54,8 +42,6 @@ The collaborative question pool in OpenOlat allows authors to store, create,
 edit, and reuse test questions as standalone items in a catalog-like
 structure. The questions can be shared with other people who have access to
 the pool according to the configuration in OpenOlat [System
-
-sites/manual_user/docs/question_bank/index.md §Customizing.de.md§ 481
 Administration](../../manual_admin/administration/Customizing.de.md).
 
 This chapter explains how individual test questions, called items, can be
@@ -64,8 +50,6 @@ only the question and the corresponding answers, but also information about
 e.g. author, creation date, keywords, but also characteristic values for item
 analysis can be added.
 
-
-sites/manual_user/docs/question_bank/index.md §Question_Bank_Administration.md§ 481
 [Pool-administrators](Question_Bank_Administration.md) have additional
 access to further specific configurations in the administration section of the
 question bank.

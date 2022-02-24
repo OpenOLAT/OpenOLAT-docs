@@ -21,14 +21,10 @@ bereitstellen. Beispielsweise kann etwas angekreuzt bzw. eine Auswahl
 getroffen oder eigenener Text eingefügt werden. Je nach Umsetzung und weiterer
 Einbindung in einen Kurs sind die Angaben anonym oder personenbezogen.
 
-
-sites/manual_user/docs/forms/General_information_on_Forms.de.md §Form_editor_(Questionnaire_editor).de.md§ 481
 In Formularen stehen viele verschiedene [Fragetypen ](Formular+Editor.html)wie
 Rubrik, Einzelauswahl, Mehrfachauswahl, Texteingabe und Datei hochladen zur
 Verfügung. Jedes Formular besteht aus einer Seite mit einer oder mehreren
 Fragen bzw. Elementen. Eine Verzweigung ist über [Frageregeln
-
-sites/manual_user/docs/forms/General_information_on_Forms.de.md §Question_rules.de.md§ 481
 ](Question_rules.de.md)ebenfalls möglich.
 
 ##  Änderungen an Formularen und eingebundenen Fragebögen

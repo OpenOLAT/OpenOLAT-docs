@@ -159,8 +159,6 @@ addresses in your e-mail form.
 
 An element "E-mail" with similar functions, but without specific
 configuration, can also be found in the
-
-sites/manual_user/docs/course_elements/Administration_and_Organisation.md §Using_Additional_Course_Features.md§ 481
 [toolbar](../course_operation/Using_Additional_Course_Features.md).
 
   
@@ -175,8 +173,6 @@ calendar to the course.
 
 This course element offers an alternative view on the course calendar to be
 found in the course toolbar (see "[Using additional course
-
-sites/manual_user/docs/course_elements/Administration_and_Organisation.md §Using_Additional_Course_Features.md§ 481
 features](../course_operation/Using_Additional_Course_Features.md)"). Only course authors and
 moderators are allowed to create calendar entries by default. However, all
 course participants are able to read entries.
@@ -185,8 +181,6 @@ In the tab "Calendar configuration" you can define whether participants and
 tutors of a course may also set and edit calendar entries. Also you can decide
 which date should be displayed when a course calendar is activated from the
 course structure. Course calendars will automatically be added to the
-
-sites/manual_user/docs/course_elements/Administration_and_Organisation.md §Calendar.md§ 481
 [personal calendars](../personal/Calendar.md) of the course members.
 
 When displaying a certain semester week in your calendar and inserting links
@@ -195,11 +189,7 @@ events and tasks of that week.
 
 Check whether the course element "Calendar" is really the optimal choice for
 you. In many cases, especially with [learning path
-
-sites/manual_user/docs/course_elements/Administration_and_Organisation.md §Learning_path_course.md§ 481
 courses](../course_create/Learning_path_course.md), it makes more sense to activate the
-
-sites/manual_user/docs/course_elements/Administration_and_Organisation.md §Using_Additional_Course_Features.md§ 481
 calendar in the [toolbar](../course_operation/Using_Additional_Course_Features.md) in the
 settings.
 

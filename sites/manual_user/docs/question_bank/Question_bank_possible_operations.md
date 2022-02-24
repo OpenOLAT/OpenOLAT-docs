@@ -75,8 +75,6 @@ The questions that are converted within lists or shares are also stored under
 the respective list or share in addition to "My questions".
 
 For more information on converting, see [changing from QTI 1.2 to QTI
-
-sites/manual_user/docs/question_bank/Question_bank_possible_operations.md §Changing_from_QTI_1.2_to_QTI_2.1.md§ 481
 2.1](../tests/Changing_from_QTI_1.2_to_QTI_2.1.md).
 
 ##  Author rights
@@ -103,8 +101,6 @@ this function. The "Change metadata" function allows you to adjust single
 information statements simultaneously for multiple items, without entering the
 detailed view. Changes cannot be canceled. More information on the individual
 metadata fields can be found in the chapter "Item Detailed View" - [Meta
-
-sites/manual_user/docs/question_bank/Question_bank_possible_operations.md §Item_Detailed_View.md§ 481
 Data](Item_Detailed_View.md#ItemDetailedView-item_details_metadaten).
 
 To get a preview of an item and an overview of relevant metadata, select the

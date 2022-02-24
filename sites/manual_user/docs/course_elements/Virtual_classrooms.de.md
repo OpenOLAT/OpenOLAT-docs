@@ -19,14 +19,8 @@ eingebunden werden:
   * [Kursbaustein BigBlueButton](Course_element_BigBlueButton.de.md)
     * [Häufig gestellte Fragen - BigBlueButton](Frequentyl_asked_questions_-_BigBlueButton.de.md)
   * [Kursbaustein GoToMeeting](Course_element_GoToMeeting.de.md)
-
-sites/manual_user/docs/course_elements/Virtual_classrooms.de.md §Course_element_OpenMeetings.de.md§ 481
   * [Kursbaustein OpenMeetings](Course_element_OpenMeetings.de.md)
-
-sites/manual_user/docs/course_elements/Virtual_classrooms.de.md §Course_element_vitero.de.md§ 481
   * [Kursbaustein vitero](Course_element_vitero.de.md)
-
-sites/manual_user/docs/course_elements/Virtual_classrooms.de.md §Course_element_Microsoft_Teams.de.md§ 481
   * [Kursbaustein Microsoft Teams](Course_element_Microsoft_Teams.de.md)
 
 Typischerweise stehen in Virtuellen Klassenzimmern folgende Funktionen zur

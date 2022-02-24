@@ -56,8 +56,6 @@ Vorschau anschauen
   
 Nach dem gleichen Prinzip fügen Sie weitere Fragen hinzu. Dabei können die
 Details der Einstellungen je nach Fragetyp variieren. Sie können Ihren Test
-
-sites/manual_user/docs/tests/Four_Steps_to_Your_Test_or_Self-test.de.md §Configure_tests.de.md§ 481
 auch mit [Sektionen oder Test-Parts](Configure_tests.de.md) weiter
 strukturieren.
 
@@ -148,15 +146,11 @@ Der Test bzw. Selbsttest ist nun im Kurs eingebunden und für die User sichtbar
 und bearbeitbar. Von den Lernenden bearbeitete Tests (nicht Selbsttests)
 können anschließend vom Lehrenden im Kursrun oder im Bewertungswerkzeug
 bewertet werden. Weitere Infos dazu finden Sie im Kapitel "[Tests
-
-sites/manual_user/docs/tests/Four_Steps_to_Your_Test_or_Self-test.de.md §Assessing_tests.de.md§ 481
 bewerten](../course_operation/Assessing_tests.de.md)".
 
   
 
 Voraussetzung dafür, dass die Lernenden den Test bearbeiten können, ist dass
 der Kurs auch veröffentlicht wurde und die jeweiligen Personen [Zugang
-
-sites/manual_user/docs/tests/Four_Steps_to_Your_Test_or_Self-test.de.md §Access_configuration.de.md§ 481
 ](../course_create/Access_configuration.de.md)zum Kurs haben.
 

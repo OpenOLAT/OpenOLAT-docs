@@ -28,50 +28,26 @@ Auf weiteren Seiten finden Sie nähere Informationen zu:
 
   * [Kurs Einstellungen](../course_create/Course_Settings.de.md)
   * [Mitgliederverwaltung](Members_management.de.md)
-
-sites/manual_user/docs/course_operation/Using_Course_Tools.de.md §Types_of_Course_Element.de.md§ 481
   * Kursbausteine des [Kurseditors](Kursbausteine.html)
-
-sites/manual_user/docs/course_operation/Using_Course_Tools.de.md §Storage_folder.de.md§ 481
   * [Ablageordner](Storage_folder.de.md)
-
-sites/manual_user/docs/course_operation/Using_Course_Tools.de.md §Lectures_and_absences.de.md§ 481
   * [Lektionen und Absenzen](Lectures_and_absences.de.md)
-
-sites/manual_user/docs/course_operation/Using_Course_Tools.de.md §Course_Reminders.de.md§ 481
   * [Erinnerung](Course_Reminders.de.md)
-
-sites/manual_user/docs/course_operation/Using_Course_Tools.de.md §Assessment_mode.de.md§ 481
   * [Prüfungsmodus](../e-assessment/Assessment_mode.de.md)
-
-sites/manual_user/docs/course_operation/Using_Course_Tools.de.md §Data_archiving.de.md§ 481
   * [Datenarchivierung](Data_archiving.de.md)
 
 In Ihrem Kurs stehen Ihnen im Bereich der "Administration" eine Reihe von
 Werkzeugen zur Verfügung. Sie können in der [Mitgliederverwaltung
-
-sites/manual_user/docs/course_operation/Using_Course_Tools.de.md §Members_management.de.md§ 481
 ](Members_management.de.md)die Kursteilnehmer und kursbezogenen Gruppen sowie
 Rechte organisieren. Die Kursstruktur und die Kursbausteine werden im
-
-sites/manual_user/docs/course_operation/Using_Course_Tools.de.md §Storage_folder.de.md§ 481
 Kurseditor eingerichtet. Im [Ablageordner ](Storage_folder.de.md)werden die
 Kursdateien gesammelt.
 
 Während der Durchführung des Kurses ist das [Bewertungswerkezug
-
-sites/manual_user/docs/course_operation/Using_Course_Tools.de.md §Assessment_tool_-_overview.de.md§ 481
 ](Assessment_tool_-_overview.de.md)relevant. Auch
-
-sites/manual_user/docs/course_operation/Using_Course_Tools.de.md §Lectures_and_absences.de.md§ 481
 kursbezogene Erinnerungen und [Lektionen ](Lectures_and_absences.de.md)können
 organisiert werden. Für Online-Klausuren bietet sich der [Prüfungsmodus
-
-sites/manual_user/docs/course_operation/Using_Course_Tools.de.md §Assessment_mode.de.md§ 481
 ](../e-assessment/Assessment_mode.de.md)an. Es können auch
 bestimmte statistische Daten abgerufen und Daten
-
-sites/manual_user/docs/course_operation/Using_Course_Tools.de.md §Data_archiving.de.md§ 481
 [archiviert](Data_archiving.de.md) werden. Und natürlich können Kurse und
 Lernressourcen kopiert, exportiert oder gelöscht werden.
 
@@ -99,8 +75,6 @@ Abonnieren Sie den Benachrichtigungsservice, entweder für neu eingegangenen
 Testresultaten und/oder neu erstellte Zertifikate.
 
 Weitere Informationen zum Bewertungswerkzeug finden Sie
-
-sites/manual_user/docs/course_operation/Using_Course_Tools.de.md §Assessment_tool_-_overview.de.md§ 481
 [hier](Assessment_tool_-_overview.de.md).
 
 ##  Kurs Statistiken
@@ -161,8 +135,6 @@ Betreuer des Kurses.
 
 ##  Datenarchivierung  
 
-
-sites/manual_user/docs/course_operation/Using_Course_Tools.de.md §Data_archiving.de.md§ 481
 Über die [Datenarchivierung ](Data_archiving.de.md)können die Ergebnisse
 diverser Kursbausteine eines Kurses gespeichert werden. Insbesondere die
 Speicherung von Ergebnissen der durchgeführten Umfragen, Tests, Selbsttests,
@@ -241,8 +213,6 @@ vor Beginn der Durchführung als Backup erstellt werden.
 
 Herkömmliche Kurse und Kurse die vor der OpenOlat Version 15 erstellt wurden,
 können über diesen Link in einen [Lernpfad-
-
-sites/manual_user/docs/course_operation/Using_Course_Tools.de.md §Learning_path_course.de.md§ 481
 Kurs](../course_create/Learning_path_course.de.md) konvertiert
 werden.
 
@@ -278,8 +248,6 @@ ist nur durch den OpenOlat Administrator möglich.
 
 Wenn Sie einen Kurs löschen, werden Benutzerdaten (z.B. Testresultate) zuerst
 als Excel-Datei in Ihrem[ persönlichen
-
-sites/manual_user/docs/course_operation/Using_Course_Tools.de.md §Personal_folders.de.md§ 481
 Ordner](../personal/Personal_folders.de.md) archiviert
 und im Anschluss gelöscht.
 

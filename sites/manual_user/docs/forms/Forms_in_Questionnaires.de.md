@@ -9,13 +9,9 @@ angezeigt.
 OpenOlat stellt sicher, dass Kursteilnehmende die Umfrage bzw. den Fragebogen
 nur einmal ausfüllen können. Die Resultate werden standardmässig anonymisiert
 gespeichert. Eine Personalisierung ist jedoch durch die Auswahl der passenden
-
-sites/manual_user/docs/forms/Forms_in_Questionnaires.de.md §Form_editor_(Questionnaire_editor).de.md§ 481
 Formular Elemente [Formular Editor](Formular+Editor.html) möglich.
 
 Wie Sie Formulare erstellen und in Kurse einbinden erfahren Sie
-
-sites/manual_user/docs/forms/Forms_in_Questionnaires.de.md §Three_Steps_to_your_Form.de.md§ 481
 [hier](Three_Steps_to_your_Form.de.md).
 
 ## Im Kurseditor:
@@ -31,8 +27,6 @@ im Kurseditor folgende Tabs zur Verfügung:
 Im Tab "Titel und Beschreibung" sowie "Layout" können allgemeine
 Beschreibungen und Informationen zum jeweiligen Kursbaustein hinterlegt und
 die optische Darstellung definiert werden. Im [Tab Lernpfad
-
-sites/manual_user/docs/forms/Forms_in_Questionnaires.de.md §Learning_path_course_-_Course_editor.de.md§ 481
 ](../course_create/Learning_path_course_-_Course_editor.de.md)werden spezielle Einstellungen die für
 Lernpfad Kurse gelten definiert, z.B. kann als Erledigungskriterium "Umfrage
 teilgenommen" gewählt werden.
@@ -57,15 +51,11 @@ importierte Formular ebenfalls in der Liste und kann ausgewählt werden.
 
 Ein neu erstelltes Formular beinhaltet zunächst noch keine Elemente, Fragen
 oder Textfelder. Diese müssen im Kurs über "Bearbeiten" oder alternativ direkt
-
-sites/manual_user/docs/forms/Forms_in_Questionnaires.de.md §Form_editor_(Questionnaire_editor).de.md§ 481
 in der Lernressource im [Formular Editor](Formular+Editor.html) hinzugefügt
 werden.
 
 Wenn ein Formular direkt im Kurseditor erstellt wird, wird automatisch eine
 neue Lernressource Formular angelegt, die auch im [Autorenbereich
-
-sites/manual_user/docs/forms/Forms_in_Questionnaires.de.md §Authoring.de.md§ 481
 ](Autorenbereich.html)unter "Meine Einträge" zu finden ist und in weiteren
 Kursen eingebunden werden kann.
 
@@ -98,8 +88,6 @@ Voraussetzung für die Bearbeitung der Umfrage ist jedoch, dass der gesamte
 Kurs auch für die jeweilige Personengruppe freigegeben ist. Soll also
 beispielsweise eine Umfrage auch von externen Personen (Gästen) ausfüllbar
 sein, muss auch der Kurs im Menü „Einstellungen“- > unter [Freigabe
-
-sites/manual_user/docs/forms/Forms_in_Questionnaires.de.md §Access_configuration.de.md§ 481
 ](../course_create/Access_configuration.de.md)„offen ohne Buchung" für Gaste frei gegeben sein.
 
 Wird ein Formular als Umfrage in einem Kurs eingebunden, kann das Formular im
@@ -165,8 +153,6 @@ Dieselbe Auswertung finden Sie auch im Menü „Administration“ -> „Fragebog
 Statistiken“.
 
 Die Ergebnisse können auch über das Menü
-
-sites/manual_user/docs/forms/Forms_in_Questionnaires.de.md §Using_Course_Tools.de.md§ 481
 "[Datenarchivierung](../course_operation/Using_Course_Tools.de.md)"  -> “Umfragen“
 gespeichert werden. Es handelt sich dabei um dieselbe Datei wie unter „Export“
 im Kursrun.

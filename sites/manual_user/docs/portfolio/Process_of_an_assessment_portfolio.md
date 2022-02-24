@@ -29,12 +29,8 @@ Authoring
 
 [![](assets/pf_prozess_feld1_EN.png)](Portfolio_template_Creation.md)
 
-
-sites/manual_user/docs/portfolio/Process_of_an_assessment_portfolio.md §Portfolio_template_Administration_and_editing.md§ 481
 [![](assets/pf_prozess_feld2_EN.png)](Portfolio_template_Administration_and_editing.md)
 
-
-sites/manual_user/docs/portfolio/Process_of_an_assessment_portfolio.md §Portfolio_template_Creation.md§ 481
 [![](assets/pf_prozess_feld3_EN.png)](Portfolio_template_Creation.md)
 
 ![](assets/course.png)
@@ -47,28 +43,18 @@ sites/manual_user/docs/portfolio/Process_of_an_assessment_portfolio.md §Portfol
 
 ![](assets/portfolio_434343_64.png)
 
-
-sites/manual_user/docs/portfolio/Process_of_an_assessment_portfolio.md §Portfolio_task_and_assignment_Collecting_and_editing.md§ 481
 [![](assets/pf_prozess_feld4_EN.png)](Portfolio_task_and_assignment_Collecting_and_editing.md)
 
-
-sites/manual_user/docs/portfolio/Process_of_an_assessment_portfolio.md §Portfolio_task_and_assignment_Collecting_and_editing.md§ 481
 [![](assets/pf_prozess_feld5_EN.png)](Portfolio_task_and_assignment_Collecting_and_editing.md)
 
-
-sites/manual_user/docs/portfolio/Process_of_an_assessment_portfolio.md §Portfolio_task_and_assignment_Collecting_and_editing.md§ 481
 [![](assets/pf_prozess_feld6_EN.png)](Portfolio_task_and_assignment_Collecting_and_editing.md)
 
 ![](assets/portfolio_434343_64.png)
 
 ![](assets/portfolio_434343_64.png)
   
-
-sites/manual_user/docs/portfolio/Process_of_an_assessment_portfolio.md §Portfolio_assignment_Grading.md§ 481
 [![](assets/pf_prozess_feld7_EN.png)](Portfolio_assignment_Grading.md)
 
-
-sites/manual_user/docs/portfolio/Process_of_an_assessment_portfolio.md §Portfolio_assignment_Grading.md§ 481
 [![](assets/pf_prozess_feld8_EN.png)](Portfolio_assignment_Grading.md)
 
 ![](assets/pf_legend_process_EN.png)

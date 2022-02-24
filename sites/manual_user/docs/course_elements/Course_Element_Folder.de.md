@@ -66,8 +66,6 @@ Berechtigung
 Um das Hoch- und Herunterladen von mehreren Dateien zu erleichtern können die
 Dateien gezippt zw. entzippt werden. Darüber hinaus empfiehlt sich für den
 Upload von umfangreicheren Materialien die Verwendung von
-
-sites/manual_user/docs/course_elements/Course_Element_Folder.de.md §Using_WebDAV.de.md§ 481
 [WebDAV](../supported_tech/Using_WebDAV.de.md).
 
 Ferner können alle User ...
@@ -79,8 +77,6 @@ Ferner können alle User ...
 ###  Metadaten
 
 Über das Zahnradsymbol können die 
-
-sites/manual_user/docs/course_elements/Course_Element_Folder.de.md §Full-Text_Search.de.md§ 481
 [Metadaten ](../personal/Full-Text_Search.de.md#Volltextsuche-_metadata)einer Datei
 konfiguriert werden und so diverse Informationen hinzugefügt werden. Neben der
 Beschreibung und Sperreigenschaften sind besonders die Lizenzangaben relevant.
@@ -99,8 +95,6 @@ Zugangseinstellungen des Kurses abhängig.
 ### Dateien bearbeiten
 
 Je nach Dateityp und Aktivierung in der OpenOlat 
-
-sites/manual_user/docs/course_elements/Course_Element_Folder.de.md §External_Tools_-_Administration.de.md§ 481
 [Administration ](../../manual_admin/administration/External_Tools_-_Administration.de.md)ist es möglich
 Dateien, die sich im Kursbaustein "Ordner" befinden, zu bearbeiten. Sofern
 eine Bearbeitung möglich ist, erscheint in der Tabelle das Bearbeitungsicon

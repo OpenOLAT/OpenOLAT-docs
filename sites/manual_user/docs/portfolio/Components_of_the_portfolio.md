@@ -14,27 +14,19 @@ The links on the overview page lead to further portfolio areas.
 
 Here all personal folders are displayed and the user can create new folders.
 
-
-sites/manual_user/docs/portfolio/Components_of_the_portfolio.md §My_entries.md§ 481
  **Show[my entries](My_entries.md):  **
 
 All entries are displayed here and new entries can be created.
 
-
-sites/manual_user/docs/portfolio/Components_of_the_portfolio.md §Media_center.md§ 481
  **Open[media center](Media_center.md):**
 
 Here you can find your artifacts and create or import new artifacts. An
 artifact can be, for example, a document, a media file, or a text.
 
-
-sites/manual_user/docs/portfolio/Components_of_the_portfolio.md §Shared_by_me.md§ 481
  **To[my shares](Shared_by_me.md):**
 
 Here the own folders are shown, which were released for further persons.
 
-
-sites/manual_user/docs/portfolio/Components_of_the_portfolio.md §Shared_with_me.md§ 481
  **Show items[shared with me](Shared_with_me.md):**
 
 Here all folders are indicated, which were provided by other persons and

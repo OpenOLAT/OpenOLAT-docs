@@ -97,8 +97,6 @@ login in auslesbar.
 | In diesem Reiter können neue Beziehungen zwischen dem gewählten User und
 weiteren OpenOlat Nutzern definiert werden, z.B. Vorgesetzter, Elternteil,
 Ausbildungsverantwortlicher, Schüler usw. sofern generell eine Systematik
-
-sites/manual_admin/docs/usermanagement/Configure_User.de.md §User_management.de.md§ 481
 verwendet wird  (vergl. [Benutzerrollen](Benutzerverwaltung.html)).  
   
 #### Quota

@@ -383,11 +383,7 @@ text size can be customized using the brush size.
 ![](assets/drawing_EN.png)  
   
 Beside the direct creation, questions can also be imported out of the pool
-
-sites/manual_user/docs/tests/Test_question_types.md §Question_Bank.md§ 481
 ([question bank](Question+Bank.html)) or by
-
-sites/manual_user/docs/tests/Test_question_types.md §Data_Management.md§ 481
 [excel](../question_bank/Data_Management.md#DataManagement-qb_import).
 
   

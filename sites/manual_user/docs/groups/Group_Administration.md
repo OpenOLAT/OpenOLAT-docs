@@ -103,15 +103,11 @@ OpenOlat system, other BigBlueButton room templates may be available to
 him/her.
 
 The functionality of BigBlueButton is described in the [course element
-
-sites/manual_user/docs/groups/Group_Administration.md §Course_element_BigBlueButton.md§ 481
 BigBlueButton](../course_elements/Course_element_BigBlueButton.md).  
   
 Each tool can only be used once in a group. It is therefore not possible to
 e.g. provide your members with more than one folder. If you want to work with
 more than one forum or Wiki or if you want to provide documents in more than
-
-sites/manual_user/docs/groups/Group_Administration.md §Types_of_Course_Element.md§ 481
 one folder it is better to use [course elements](Types+of+Course+Element.html)
 instead. Link one or more courses to the group, and configure the courses or
 the course elements to be only visible or accessible to the respective group.

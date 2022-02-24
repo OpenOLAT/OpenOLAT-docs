@@ -16,23 +16,11 @@ More detailed descriptions of the functionality of the following course
 elements can be found on separate pages:
 
   * [Forum](Working_with_Forums.md)
-
-sites/manual_user/docs/learning_activities/Working_With_Course_Elements.md §Working_with_Tasks_and_Group_Tasks.md§ 481
   * [Group Task](Working_with_Tasks_and_Group_Tasks.md)
-
-sites/manual_user/docs/learning_activities/Working_With_Course_Elements.md §Working_with_Tests.md§ 481
   * [Self-Test](Working_with_Tests.md)
-
-sites/manual_user/docs/learning_activities/Working_With_Course_Elements.md §Working_with_Tasks_and_Group_Tasks.md§ 481
   * [Task](Working_with_Tasks_and_Group_Tasks.md)
-
-sites/manual_user/docs/learning_activities/Working_With_Course_Elements.md §Working_with_Tests.md§ 481
   * [Test](Working_with_Tests.md)
-
-sites/manual_user/docs/learning_activities/Working_With_Course_Elements.md §Working_with_Topic_Assignment.md§ 481
   * [Topic Assignment](Working_with_Topic_Assignment.md)
-
-sites/manual_user/docs/learning_activities/Working_With_Course_Elements.md §Working_with_Wiki.md§ 481
   * [Wiki](Working_with_Wiki.md)
 
   * 1 Working With Course Elements 
@@ -197,16 +185,12 @@ If course participants are also allowed to upload files they will find a
 corresponding link on their top right. In order to store those files in a
 structured way you can then create subfolders and also delete files. If you
 want to prevent others from deleting your files you should click on the icon
-
-sites/manual_user/docs/learning_activities/Working_With_Course_Elements.md §Full-Text_Search.md§ 481
 "[Meta data](../personal/Full-Text_Search.md#Full-TextSearch-_metadata)" in the table
 view and lock the file. Locked files are marked with a lock.
 
 ![](assets/folder_locked.png)
 
 Attention, don't mix them up: In addition to the download folders in courses,
-
-sites/manual_user/docs/learning_activities/Working_With_Course_Elements.md §Personal_folders.md§ 481
 learners also have access to [Personal folders](../personal/Personal_folders.md), that
 can be used for individual learning independent of the course. Furthermore
 there is the course element "Participant folder" (see below).  
@@ -287,18 +271,12 @@ In the portfolio task, you can, for example, document and reflect on your
 learning process or carry out editing over a longer period of time.
 
 Once you have collected the portfolio task in the course, you will also find
-
-sites/manual_user/docs/learning_activities/Working_With_Course_Elements.md §Personal_Menu.md§ 481
 it in your [personal menu](../personal/Personal_Menu.md) under "Portfolio 2.0" - "My
 portfolio binders".
 
 To hand in a solution, publish your assignment and [give access
-
-sites/manual_user/docs/learning_activities/Working_With_Course_Elements.md §Shared_by_me.md§ 481
 rights](../portfolio/Shared_by_me.md). Further information to the editing of a portfolio
 task you will find
-
-sites/manual_user/docs/learning_activities/Working_With_Course_Elements.md §Portfolio_task_and_assignment_Collecting_and_editing.md§ 481
 [here](../portfolio/Portfolio_task_and_assignment_Collecting_and_editing.md).
 
 ## Questionnaire, Survey
@@ -326,20 +304,10 @@ as answering quiz questions or calling up links.
 
 ![](assets/virtual_class.png)
 
-
-sites/manual_user/docs/learning_activities/Working_With_Course_Elements.md §Course_element_Adobe_Connect.md§ 481
 With the course elements [Adobe Connect](../course_elements/Course_element_Adobe_Connect.md),
-
-sites/manual_user/docs/learning_activities/Working_With_Course_Elements.md §Course_element_GoToMeeting.md§ 481
 [GoToMeeting](../course_elements/Course_element_GoToMeeting.md),
-
-sites/manual_user/docs/learning_activities/Working_With_Course_Elements.md §Course_element_vitero.md§ 481
 [Vitero](../course_elements/Course_element_vitero.md) BigBllueButton and
-
-sites/manual_user/docs/learning_activities/Working_With_Course_Elements.md §Course_element_OpenMeetings.md§ 481
 [OpenMeetings](../course_elements/Course_element_OpenMeetings.md), different [virtual
-
-sites/manual_user/docs/learning_activities/Working_With_Course_Elements.md §Virtual_classrooms.md§ 481
 classrooms](../course_elements/Virtual_classrooms.md) can be used in OpenOlat for synchronous
 meetings, video conferences or webinars. Which course element will be
 integrated and which functionalities will be available depends on which

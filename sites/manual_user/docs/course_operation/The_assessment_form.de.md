@@ -24,11 +24,7 @@ einzelnen Bewertungsschritten Bewertungen vorgenommen werden.
 Sofern über den bewerteten Kursbaustein Dateien eingereicht werden, kann auch
 die Anzahl der Versuche der Lernenden manuell angepasst werden.
 
-
-sites/manual_user/docs/course_operation/The_assessment_form.de.md §Assessment_of_course_modules.de.md§ 481
 Bei dem Kursbaustein „[Bewertung](Assessment_of_course_modules.de.md)“ steht,
-
-sites/manual_user/docs/course_operation/The_assessment_form.de.md §Rubric.de.md§ 481
 sofern entsprechend aktiviert, ergänzend ein [Rubrik ](../forms/Rubric.de.md)zur
 Bewertung zur Verfügung.
 

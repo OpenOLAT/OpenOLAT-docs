@@ -37,8 +37,6 @@ Testpersonen können im Quellcode des Tests oder Selbsttests nicht nachlesen,
 welche Lösungen richtig und welche falsch sind, da die Antworten an den
 OpenOlat-Server geschickt und erst dort ausgewertet werden.
 
-
-sites/manual_user/docs/tests/General_Information_on_Tests.de.md §Tests_at_course_level.de.md§ 481
 Wenn Sie einen Test in Ihrem [Kurs ](Tests_at_course_level.de.md)einbinden,
 können Sie entscheiden, ob sie ihn als Selbsttest, also zu Übungszwecken, oder
 als Prüfungstest („scharfer“ Test) einsetzen wollen. Im ersten Fall verwenden
@@ -58,12 +56,8 @@ Baustein der jeweils passende ist.
 ## Wie kommen die Fragen in einen Test?
 
 Fragen können entweder direkt in der Lernressource Test erstellt werden oder
-
-sites/manual_user/docs/tests/General_Information_on_Tests.de.md §Question_Bank.de.md§ 481
 im [Fragenpool ](Fragenpool.html)erstellt und dann in den Test eingebunden
 werden. Im Kapitel "[Vier Schritte zu Ihrem Test oder
-
-sites/manual_user/docs/tests/General_Information_on_Tests.de.md §Four_Steps_to_Your_Test_or_Self-test.de.md§ 481
 Selbsttest"](Four_Steps_to_Your_Test_or_Self-test.de.md) erfahren Sie
 wie Sie einen Test erstellen können.
 

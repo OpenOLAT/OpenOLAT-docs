@@ -2,26 +2,12 @@
 
   * [Working With Course Elements](Working_With_Course_Elements.md)
     * [Working with Forums](Working_with_Forums.md)
-
-sites/manual_user/docs/learning_activities/index.md §Working_with_Tasks_and_Group_Tasks.md§ 481
     * [Working with Tasks and Group Tasks](Working_with_Tasks_and_Group_Tasks.md)
-
-sites/manual_user/docs/learning_activities/index.md §Working_with_Tests.md§ 481
     * [Working with Tests](Working_with_Tests.md)
-
-sites/manual_user/docs/learning_activities/index.md §Working_with_Topic_Assignment.md§ 481
     * [Working with Topic Assignment](Working_with_Topic_Assignment.md)
-
-sites/manual_user/docs/learning_activities/index.md §Working_with_Wiki.md§ 481
     * [Working with Wiki](Working_with_Wiki.md)
-
-sites/manual_user/docs/learning_activities/index.md §Additional_Course_Features.md§ 481
   * [Additional Course Features](Additional_Course_Features.md)
-
-sites/manual_user/docs/learning_activities/index.md §Exams.md§ 481
   * [Exams](Exams.md)
-
-sites/manual_user/docs/learning_activities/index.md §Course_Problems_and_Error_Messages.md§ 481
   * [Course Problems and Error Messages](Course_Problems_and_Error_Messages.md)
 
 In this chapter learning activities within a course will be explained from the

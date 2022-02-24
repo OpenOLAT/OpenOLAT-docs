@@ -29,8 +29,6 @@ Die Erstellung von OpenOlat-Kursen ist ziemlich einfach. Der Assistent ist in
 den meisten Fällen gar nicht nötig, zumal Sie um eine spätere Überarbeitung im
 [Kurseditor ](General_Configuration_of_Course_Elements.de.md)nicht wirklich
 herumkommen. Schauen Sie sich lieber den beschriebenen
-
-sites/manual_user/docs/course_create/Just_a_Few_Clicks_and_the_Course_Wizard_Will_Create_Your_OpenOlat_Course.de.md §General_Information.de.md§ 481
 [Kurszyklus](General_Information.de.md) an und richten Sie Ihren Kurs direkt mit dem
 Kurseditor ein.
 

@@ -105,15 +105,11 @@ the linked page is displayed as desired.
 Use the course element "CP Learning Content" to integrate learning content in
 IMS-CP format (IMS-CP Version 1.1.2) into your course. You can either create
 the CP directly in OpenOlat, which is explained in the chapter "[Five steps to
-
-sites/manual_user/docs/course_elements/Knowledge_Transfer.md §In_Five_Steps_to_Your_Content_Package.md§ 481
 your content packaging](../resource_cp/In_Five_Steps_to_Your_Content_Package.md)". Or you
 can create the CP externally, for example with [eLML](http://www.elml.org
 "eLML ").
 
 Further information on the CP can be found
-
-sites/manual_user/docs/course_elements/Knowledge_Transfer.md §Creating_CP_Learning_Content.md§ 481
 [here](Creating+CP+Learning+Content.html).
 
 ##  Course Element: SCORM Learning Content
@@ -126,8 +122,6 @@ which content as well as interactive e-learning modules can be encapsulated
 and integrated into different systems. Further information on the
 configuration of the course element SCORM can be found in the chapter "[Course
 element: SCORM learning
-
-sites/manual_user/docs/course_elements/Knowledge_Transfer.md §Course_Element_SCORM_Learning_Content.md§ 481
 content](Course_Element_SCORM_Learning_Content.md)".
 
 ## Course Element: Document
@@ -174,8 +168,6 @@ scripts. In addition, the course element "Folder" can also be configured as a
 collaborative tool for the learner's file upload.
 
 Further information on the configuration and use of the course element
-
-sites/manual_user/docs/course_elements/Knowledge_Transfer.md §Course_Element_Folder.md§ 481
 "Folder" can be found [here](Course_Element_Folder.md).
 
 ##  Course Element: Podcast
@@ -188,11 +180,7 @@ Course participants can see episodes directly within OpenOlat; or they can
 subscribe to podcasts, upload those by means of online services such as iTunes
 before copying them to a mobile device.
 
-
-sites/manual_user/docs/course_elements/Knowledge_Transfer.md §Four_Steps_to_Your_Podcast.md§ 481
 How to [create](../resource_podcast/Four_Steps_to_Your_Podcast.md) and
-
-sites/manual_user/docs/course_elements/Knowledge_Transfer.md §Podcast_-_Further_Configurations.md§ 481
 [configure](../resource_podcast/Podcast_-_Further_Configurations.md) a podcast is explained in
 separate chapters.
 
@@ -209,11 +197,7 @@ Participants can then comment on these contributions and rate them with 1-5
 stars. It is also possible to give course participants the right to write a
 blog, so that they can jointly run a course blog.
 
-
-sites/manual_user/docs/course_elements/Knowledge_Transfer.md §Four_Steps_to_Your_Blog.md§ 481
 How to [create](../resource_blog/Four_Steps_to_Your_Blog.md) and
-
-sites/manual_user/docs/course_elements/Knowledge_Transfer.md §Blog_-_Further_Configurations.md§ 481
 [configure](../resource_blog/Blog_-_Further_Configurations.md) a blog is explained on
 separate pages.
 
@@ -228,12 +212,8 @@ annotated and evaluated and thus optimally integrated into the learning and
 teaching process of a course.
 
 Further information about the course element video can be found
-
-sites/manual_user/docs/course_elements/Knowledge_Transfer.md §Course_Element_Video_.de.md§ 481
 [here](Course+Element%EF%B9%95+Video.html). Information on postprocessing the
 video with OLAT Quiz and jump marks can be found in chapter "[Learning
-
-sites/manual_user/docs/course_elements/Knowledge_Transfer.md §Learning_resource_Video.md§ 481
 Resource: Video](../resource_video/Learning_resource_Video.md)".
 
   
@@ -266,8 +246,6 @@ Non-clients please contact [card2brain](http://card2brain.ch/info/contact)
 directly.
 
 Further information on the course element can be found
-
-sites/manual_user/docs/course_elements/Knowledge_Transfer.md §Course_Element_card2brain_Flashcards.md§ 481
 [here](Course_Element_card2brain_Flashcards.md).
 
   

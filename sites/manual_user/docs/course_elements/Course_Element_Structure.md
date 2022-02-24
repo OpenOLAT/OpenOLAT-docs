@@ -99,8 +99,6 @@ the password.
 An exception to this is the course root node. It cannot be deleted or moved,
 and you can't set a password. If you wish to issue an evidence of achievements
 for users for this course, the settings in the
-
-sites/manual_user/docs/course_elements/Course_Element_Structure.md §Knowledge_Transfer.md§ 481
 "[Score](Knowledge_Transfer.md#KnowledgeTransfer-_displayscore)" tab need to
 be configured accordingly.
 

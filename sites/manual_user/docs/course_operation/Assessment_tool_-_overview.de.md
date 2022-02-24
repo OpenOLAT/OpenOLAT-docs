@@ -82,15 +82,11 @@ Mit dem Werkzeug "Massenbewertung" können für mehrere Teilnehmer
 Bewertungsdaten wie Punkte, Statusinformationen, Kommentare sowie
 Rückgabedateien in einem Schritt übermittelt werden. Wie man eine
 Massenbewertung erstellt erfahren Sie
-
-sites/manual_user/docs/course_operation/Assessment_tool_-_overview.de.md §create_a_bulk_assessment_for_submission_tasks.de.md§ 481
 [hier](../how-to/create_a_bulk_assessment_for_submission_tasks.de.md).
 
 ## Im Prüfungsmodus
 
 Befindet sich der Kurs im [Prufungsmodus
-
-sites/manual_user/docs/course_operation/Assessment_tool_-_overview.de.md §Assessment_mode.de.md§ 481
 ](../e-assessment/Assessment_mode.de.md)wird dies ebenfalls im
 Bewertungswerkzeug angezeigt. Auch ist erkennbar wie viele Personen bereits
 eingeloggt sind und auf den Start der Prüfung warten.

@@ -96,8 +96,6 @@ edited, but it is not possible to add new feedback.
 "Feedback for all correct answers" is not effective in a Multiple Choice
 question where no wrong, but not all correct answers are chosen.
 
-
-sites/manual_user/docs/tests/Configure_test_questions.md §Configure_tests.md§ 481
 At the [test level](Configure_tests.md), you can set the overall feedback of
 a test in the Test Editor in the "Feedback" tab. Under Administration →
 Settings → Options, the feedbacks for a test can generally be switched on or
@@ -125,11 +123,7 @@ of test, etc. In the area "Item analysis" the average processing time of the
 question, the difficulty, the selectivity, the required correction time, etc.
 can be specified. In the " Technical" area, further information is displayed.
 These settings as well as further information on the
-
-sites/manual_user/docs/tests/Configure_test_questions.md §Item_Detailed_View.md§ 481
 [metadata](../question_bank/Item_Detailed_View.md) can also be found in the [question
-
-sites/manual_user/docs/tests/Configure_test_questions.md §Question_Bank.md§ 481
 pool](Question+Bank.html).
 
   

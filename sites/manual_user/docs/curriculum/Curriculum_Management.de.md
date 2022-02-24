@@ -20,8 +20,6 @@ folgenden Rollen:
   * Curriculumelementbesitzer
 
 Detaillierte Informationen zu den Rollen finden Sie
-
-sites/manual_user/docs/curriculum/Curriculum_Management.de.md §User_management.de.md§ 481
 [hier](Benutzerverwaltung.html).
 
   

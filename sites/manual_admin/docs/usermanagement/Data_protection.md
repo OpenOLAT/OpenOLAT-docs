@@ -11,8 +11,6 @@ and their data.
 Deleting OpenOlat users has the following effect:
 
   * For users without a system role, all user data is deleted.
-
-sites/manual_admin/docs/usermanagement/Data_protection.md §User_management.md§ 481
   * For users with administrative roles, all user data except first and last name is deleted to ensure a transparent and consistent display of administrative actions in the log files (e.g. of courses). If required, the data can also be deleted in the [user management](User+management.html#Usermanagement-Table_Deleted_Users) via the “Clear” action in the “Deleted Users” table.
   * Personal data is deleted from the log tables. The user name is deleted and replaced by an ID in the log tables.
   * Personal data is deleted from the log file. Instead of the user name, only one ID is written into the log file.

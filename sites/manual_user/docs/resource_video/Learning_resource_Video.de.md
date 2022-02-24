@@ -98,12 +98,8 @@ unterschiedlichen Kriterien hinzugefügt werden.
 
 Weitere Informationen zu den generellen Einstellungen von Quiz und Tests
 finden Sie im Kapitel "[Testfragen
-
-sites/manual_user/docs/resource_video/Learning_resource_Video.de.md §Configure_test_questions.de.md§ 481
 konfigurieren](../tests/Configure_test_questions.de.md)". Weitere Informationen zu den
 unterschiedlichen Fragetypen im Kapitel ["Test
-
-sites/manual_user/docs/resource_video/Learning_resource_Video.de.md §Test_question_types.de.md§ 481
 Fragetypen"](../tests/Test_question_types.de.md).
 
 ![](assets/Video_Quiz1.png)
@@ -192,8 +188,6 @@ Erstellte Video Lernressourcen können zusätzlich noch über den [Kursbaustein
 "Video" ](../../pages/viewpage.action%EF%B9%96pageId=108593229.html)in
 OpenOlat Kurse eingebunden werden. So eingebundene Videos erlauben - im
 Gegensatz zu Videos die über das [Kurselement "Einzelne Seite"
-
-sites/manual_user/docs/resource_video/Learning_resource_Video.de.md §Single_Page_Add_edit_video.de.md§ 481
 eingebunden](Single_Page_Add_edit_video.de.md)
 werden:
 
@@ -202,8 +196,6 @@ werden:
   * Kommentare
   * Bewertungen
   * ein Startbild nach Wunsch
-
-sites/manual_user/docs/resource_video/Learning_resource_Video.de.md §Learning_path_course.de.md§ 481
   * Kombination mit bestimmten Erledigungskriterien in [Lernpfad Kursen](../course_create/Learning_path_course.de.md)
 
 ##  Video Collection

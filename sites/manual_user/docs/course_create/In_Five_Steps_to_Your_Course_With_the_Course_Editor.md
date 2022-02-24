@@ -1,8 +1,6 @@
 # In Five Steps to Your Course With the Course Editor
 
 In the course editor you can add [course
-
-sites/manual_user/docs/course_create/In_Five_Steps_to_Your_Course_With_the_Course_Editor.md §Types_of_Course_Element.md§ 481
 elements](Types+of+Course+Element.html) to the course and set up and modify
 already installed course elements. The following describes how to create a
 course without using a wizard.
@@ -32,8 +30,6 @@ Click on the button "Create" and choose "Course".
 ![](assets/settings_16.png)  
   
 4| Select course type (conventional course or [learning path
-
-sites/manual_user/docs/course_create/In_Five_Steps_to_Your_Course_With_the_Course_Editor.md §Learning_path_course.md§ 481
 course](Learning_path_course.md)) and confirm with "Create".  
 5|
 
@@ -59,8 +55,6 @@ The function "Insert course elements" opens a selection window with all
 available course elements that you can add to your course.  
   
 The exact further design and the choice of the [course
-
-sites/manual_user/docs/course_create/In_Five_Steps_to_Your_Course_With_the_Course_Editor.md §Types_of_Course_Element.md§ 481
 elements](Types+of+Course+Element.html) required depend on your didactic
 concept. The following is _an example_ of a course similar to the course
 wizard.
@@ -206,8 +200,6 @@ Step 6: Configure share
 Configure the access for the participants here and decide whether the
 participants can book the course, whether you want to enter the participants
 or whether the access should be open in general. You can find further details
-
-sites/manual_user/docs/course_create/In_Five_Steps_to_Your_Course_With_the_Course_Editor.md §Access_configuration.md§ 481
 on access configuration [here](Access_configuration.md).  
   
 4|
@@ -225,8 +217,6 @@ changed from "Preparation" to "Published".
 Now your course is visible for OpenOlat users and can be used.
 
 To ensure that your course is found by the learners, we recommend that you
-
-sites/manual_user/docs/course_create/In_Five_Steps_to_Your_Course_With_the_Course_Editor.md §Courses_and_Catalog.md§ 481
 enter the completed course in the [catalogue](Courses+and+Catalog.html). This
 setting can be found in the menu "Preferences," tab "Catalog". Course
 participants will then find your course under "Courses" → "Catalog" in the

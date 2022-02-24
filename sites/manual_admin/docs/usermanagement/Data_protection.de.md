@@ -11,13 +11,9 @@ deren Daten.
 Das Löschen von OpenOlat Benutzern bewirkt folgendes:
 
   * Für Benutzer ohne Systemrolle werden alle Benutzerdaten gelöscht.
-
-sites/manual_admin/docs/usermanagement/Data_protection.de.md §User_management.de.md§ 481
   * Für Benutzer mit administrativer Rolle werden alle Benutzerdaten bis auf Vor- und Nachnamen gelöscht, um eine transparente und konsistente Darstellung der administrativen Aktionen in den Logdateien (z. B. von Kursen) gewährleisten zu können. Die Daten können bei Bedarf in der [Benutzerverwaltung](Benutzerverwaltung.html) über die Aktion «Entfernen» in der Tabelle «Gelöschte Benutzer» ebenfalls gelöscht werden.
   * Persönliche Daten werden aus den Log-Tabellen gelöscht. Der Benutzername wird gelöscht und in den Log-Tabellen durch eine ID ersetzt.
   * Persönliche Daten werden aus dem Logfile gelöscht. Anstelle des Benutzernamens wird nur noch eine ID ins Logfile geschrieben.
-
-sites/manual_admin/docs/usermanagement/Data_protection.de.md §Portfolio_-_General_Information.de.md§ 481
   * Das [Portfolio ](../../manual_user/portfolio/Portfolio_-_General_Information.de.md)sowie eigene Inhalte der Mediathek des Benutzers werden gelöscht.
   * Persönliche Chat-Nachrichten des Benutzers werden gelöscht.
   * Persönliche Forum-Posts und -Kommentare werden nach der Löschung des Nutzers anonymisiert und mit «unknown user» ausgewiesen.

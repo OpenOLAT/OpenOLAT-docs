@@ -4,8 +4,6 @@ OpenOlat courses enable the mapping of various event formats e.g. lectures,
 seminars, online tutorials or group puzzles, as well as the implementation of
 different types of learning, e.g. problem-based learning, cooperative
 learning, self-organized learning etc. A maximum of flexibility is guaranteed
-
-sites/manual_user/docs/course_create/General_Information.md §Types_of_Course_Element.md§ 481
 by using any number of [course elements](Types+of+Course+Element.html) in any
 order of your choice; therefore it is easy to realize your didactic concept.
 
@@ -47,12 +45,8 @@ typ "Learning path" or "Conventional course"
 
 |
 
-
-sites/manual_user/docs/course_create/General_Information.md §Creating_Courses.md§ 481
   * [Creating Courses](Creating+Courses.html)
   * [In Five Steps to Your Course With the Course Editor](https://confluence.openolat.org/display/OO101EN/In+Five+Steps+to+Your+Course+With+the+Course+Editor)
-
-sites/manual_user/docs/course_create/General_Information.md §Creating_learning_path_courses.md§ 481
   * [Creating learning path courses](Creating_learning_path_courses.md)
 
   
@@ -69,26 +63,12 @@ as desired.
 
 |
 
-
-sites/manual_user/docs/course_create/General_Information.md §Types_of_Course_Element.md§ 481
   * [Course elements](Types+of+Course+Element.html)
-
-sites/manual_user/docs/course_create/General_Information.md §Using_additional_Course_Editor_Tools.md§ 481
   * [Using additional Course Editor Tools](Using_additional_Course_Editor_Tools.md)
-
-sites/manual_user/docs/course_create/General_Information.md §Learning_path_course_-_Course_editor.md§ 481
   * [Learning path course - Course editor](Learning_path_course_-_Course_editor.md)
-
-sites/manual_user/docs/course_create/General_Information.md §Learning_path_course_-_Course_editor.md§ 481
   * [Learning path course - Course editor](Learning_path_course_-_Course_editor.md)
-
-sites/manual_user/docs/course_create/General_Information.md §Various_Types_of_Learning_Resources.md§ 481
   * [Various types of learning resources](../authoring/Various_Types_of_Learning_Resources.md)
-
-sites/manual_user/docs/course_create/General_Information.md §General_Configuration_of_Course_Elements.md§ 481
   * [General Configuration of Course Elements](General_Configuration_of_Course_Elements.md)
-
-sites/manual_user/docs/course_create/General_Information.md §Course_Settings.md§ 481
   * [Course Settings](Course_Settings.md)
 
   
@@ -104,11 +84,7 @@ are made. The "Share" tab is particularly important here.
 
 |
 
-
-sites/manual_user/docs/course_create/General_Information.md §Access_configuration.md§ 481
   * [Access configuration](Access_configuration.md)
-
-sites/manual_user/docs/course_create/General_Information.md §Course_Settings.md§ 481
   * [Course Settings](Course_Settings.md)
 
   
@@ -123,8 +99,6 @@ In the course toolbar set the status to "published".
 
 |
 
-
-sites/manual_user/docs/course_create/General_Information.md §Access_configuration.md§ 481
 [Access configuration](Access_configuration.md)  
   
 5. Execute course and evaluate assessment modules
@@ -140,11 +114,7 @@ tool_EN%EF%B9%96version=1&modificationDate=1564387515000&api=v2.png)
 
 |
 
-
-sites/manual_user/docs/course_create/General_Information.md §Course_Operation.md§ 481
   * [Course Operation](Course+Operation.html)
-
-sites/manual_user/docs/course_create/General_Information.md §Learning_Activities_in_Courses.md§ 481
   * [Learning activities in courses (learner perspective)](Learning+Activities+in+Courses.html)
 
   
@@ -159,8 +129,6 @@ If the course has expired, the status is set to "finished".
 
 |
 
-
-sites/manual_user/docs/course_create/General_Information.md §Access_configuration.md§ 481
 [Access configuration](Access_configuration.md)  
   
 7\. Delete course
@@ -176,8 +144,6 @@ via the filter option in the life cycle or specifically displayed in the
 
 |
 
-
-sites/manual_user/docs/course_create/General_Information.md §Access_configuration.md§ 481
 [Access configuration](Access_configuration.md)  
   
 Note: Before you create your OpenOlat course:

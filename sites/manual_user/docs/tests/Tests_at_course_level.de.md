@@ -57,8 +57,6 @@ ist.
  **automatisch oder manuell?**
 
 Die Korrektur wird entweder automatisch oder manuell durchgeführt. Sobald ein
-
-sites/manual_user/docs/tests/Tests_at_course_level.de.md §Test_question_types.de.md§ 481
 manuell auszuwertender [Fragetyp ](Test_question_types.de.md)z.B. Freitext
 vorhanden ist, muss zwingend eine manuelle Variante gewählt werden. Bei der
 automatischen Korrektur werden alle Fragen automatisch, direkt korrigiert und

@@ -172,24 +172,14 @@ Lernergebnissen und Lernprozessen sowie zur Förderung der Reflexion über den
 eigenen Entwicklungsprozess. Lernprodukte können hier gesammelt und bei Bedarf
 bestimmten Personen zugänglich gemacht werden. Unter dem Menueintrag Portfolio
 2.0 können Sie [Portfolio-Sammelmappen
-
-sites/manual_user/docs/personal/Personal_Menu.de.md §Creating_Portfolios.de.md§ 481
 erstellen](../display/OO161DE/Portfolio+erstellen.html), diese bestimmten
 Personen (OpenOlat-Benutzern sowie Externen) [zugänglich
-
-sites/manual_user/docs/personal/Personal_Menu.de.md §Shared_by_me.de.md§ 481
 machen](../portfolio/Shared_by_me.de.md), die Mappen anderer
-
-sites/manual_user/docs/personal/Personal_Menu.de.md §Shared_with_me.de.md§ 481
 Benutzer [betrachten ](../portfolio/Shared_with_me.de.md)und auch
 [Portfolioaufgaben
-
-sites/manual_user/docs/personal/Personal_Menu.de.md §Portfolio_task_and_assignment_Collecting_and_editing.de.md§ 481
 ](../portfolio/Portfolio_task_and_assignment_Collecting_and_editing.de.md)die
 Lehrende im Rahmen eines OpenOlat-Kurses  bereitgestellt haben, bearbeiten.
 Weitere Informationen dazu finden Sie unter
-
-sites/manual_user/docs/personal/Personal_Menu.de.md §Portfolio_-_General_Information.de.md§ 481
 [hier](../portfolio/Portfolio_-_General_Information.de.md).  
 
   

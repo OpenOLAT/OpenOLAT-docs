@@ -10,12 +10,8 @@ ebenfalls ein [Gruppenwerkzeug "Wiki"](../groups/Using_Group_Tools.de.md).
 
 Wird ein Wiki in einen Kurs eingebunden, kann ein und dasselbe Wiki in
 mehreren Kursen verwendet werden. Wenn Sie noch keinen Kurs erstellt haben,
-
-sites/manual_user/docs/resource_wiki/index.de.md §Creating_Courses.de.md§ 481
 finden Sie im Kapitel [„Kurs erstellen"](Kurs+erstellen.html) Informationen
 dazu, bevor Sie mit Hilfe der Anleitung „[Vier Schritte zu Ihrem
-
-sites/manual_user/docs/resource_wiki/index.de.md §Four_Steps_to_Your_Wiki.de.md§ 481
 Wiki](Four_Steps_to_Your_Wiki.de.md)“ Ihr Wiki erstellen.
 
 ## Einsatzmöglichkeiten von Wikis
@@ -42,8 +38,6 @@ der Lernressource bzw. des Kurses gelöscht werden. Im Kurs können Sie im Tab
 „Wiki-Lerninhalt“ auch die Benutzerberechtigungen für Teilnehmer und Betreuer
 anpassen.
 
-
-sites/manual_user/docs/resource_wiki/index.de.md §Working_with_Wiki.de.md§ 481
 Wiki-Seiten werden mit Hilfe einer [Wiki-Syntax](../learning_activities/Working_with_Wiki.de.md)
 erstellt, bearbeitet und untereinander verlinkt.
 

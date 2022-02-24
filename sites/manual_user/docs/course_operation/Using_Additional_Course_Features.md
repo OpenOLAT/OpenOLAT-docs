@@ -114,8 +114,6 @@ can be created here.
 ## BigBlueButton online meetings
 
 Similar to the [course element
-
-sites/manual_user/docs/course_operation/Using_Additional_Course_Features.md §Course_element_BigBlueButton.md§ 481
 BigBlueButton](../course_elements/Course_element_BigBlueButton.md), rooms for synchronous
 meetings can be created here.
 
@@ -124,8 +122,6 @@ meetings can be created here.
 ## Blog
 
 Here you can create or import a [blog (learning
-
-sites/manual_user/docs/course_operation/Using_Additional_Course_Features.md §Creating_Blogs.md§ 481
 resource)](Creating+Blogs.html). Learners can subscribe to the central course
 blog.
 
@@ -134,8 +130,6 @@ blog.
 ## Wiki
 
 Here you can create or import a [Wiki (learning
-
-sites/manual_user/docs/course_operation/Using_Additional_Course_Features.md §Creating_Wikis.md§ 481
 resource)](Creating+Wikis.html). Learners can subscribe to the central Wiki.
 
   
@@ -144,8 +138,6 @@ resource)](Creating+Wikis.html). Learners can subscribe to the central Wiki.
 
 A central forum can be activated for a course. Course members can subscribe to
 the forum as usual. However, differentiated settings as in the [course element
-
-sites/manual_user/docs/course_operation/Using_Additional_Course_Features.md §Communication_and_Collaboration.md§ 481
 "Forum"](../course_elements/Communication_and_Collaboration.md#CommunicationandCollaboration-d14e3744)
 are not possible here.
 
@@ -157,8 +149,6 @@ The teacher can use this link to provide important central documents of the
 course for download. Students can download the documents, be notified when new
 documents are available (subscribe) and, if required, send the files by
 e-mail. However, configuration options are not as extensive as in the [course
-
-sites/manual_user/docs/course_operation/Using_Additional_Course_Features.md §Course_Element_Folder.md§ 481
 element "Folder"](../course_elements/Course_Element_Folder.md).
 
   
@@ -235,8 +225,6 @@ owners.
 
 If you only want to give certain people, e.g. the participants of a course,
 the right to write a glossary, you take a different approach. For this
-
-sites/manual_user/docs/course_operation/Using_Additional_Course_Features.md §Members_management.md§ 481
 purpose, the "[Members management](Members_management.md)" of a course is
 used. Create a new group there and add the desired persons as participants to
 that group. Then go to "Rights" in the course's "Members management" and check

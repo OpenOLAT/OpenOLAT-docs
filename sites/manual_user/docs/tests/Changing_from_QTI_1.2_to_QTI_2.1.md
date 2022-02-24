@@ -34,8 +34,6 @@ visibility/access to the old test.
 ## Convert single questions
 
 Beside tests also single questions can be converted. Questions are converted
-
-sites/manual_user/docs/tests/Changing_from_QTI_1.2_to_QTI_2.1.md §Question_Bank.md§ 481
 in the question bank. Therefore open the [question bank](Question+Bank.html),
 mark the questions (in the format IMS QTI 1.2) you want to convert and confirm
 with the button Convert.

@@ -7,8 +7,6 @@ your browser will support all of OpenOlat's features.
 
 If you want to offer courses in OpenOlat you have to apply first for author
 rights by contacting your local support team. As OpenOlat [author](Roles_and_Rights.md) you can create online courses and other learning
-
-sites/manual_user/docs/general/Requirements_when_Working_with_OpenOlat.md §Authoring.md§ 481
 resources on your own. For this purpose, the [authoring](authoring/index.md) area
 is available to you with a wide range of options.
 

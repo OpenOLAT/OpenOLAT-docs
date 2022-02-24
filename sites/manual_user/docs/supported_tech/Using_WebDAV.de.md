@@ -33,8 +33,6 @@ erstellt:
   * Ordner von Gruppen
   * [Ablageordner von Kurse](../course_operation/Using_Course_Tools.de.md#EinsatzderKurswerkzeuge-_ablageordner)n (nur Kursbesitzer)
   * Kursbaustein Ordner
-
-sites/manual_user/docs/supported_tech/Using_WebDAV.de.md §Course_Settings.de.md§ 481
   * [Ressourcenordner ](../course_create/Course_Settings.de.md#Kurseinstellungen-_detail_ressourcen)(nur Lernressourcenbesitzer)
 
 Wer in den jeweiligen Ordnern Dateien per WebDAV hochladen darf ist abhängig

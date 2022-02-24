@@ -29,8 +29,6 @@ können Sie den Titel des Videos und/oder eine Beschreibung des Videos anzeigen
 lassen. Beides erscheint dann unterhalb des Videos. Sie können entweder eine
 _Eigene Beschreibung_ in dem erscheinenden Eingabefeld hinzufügen, die
 _Beschreibung_ der Lernressource _aus_ deren zugehörigen [_Infoseite_
-
-sites/manual_user/docs/resource_video/Course_Element_Video.de.md §Info_page.de.md§ 481
 ](../catalog/Info_page.de.md)verwenden, oder die Beschreibung ganz
 weglassen.
 
@@ -45,8 +43,6 @@ im Kurs eingebunden werden noch weiter konfiguriert werden. Dies erfolgt
 direkt in der Lernressource im Autorenbereich. Hier können beispielsweise ein
 Startbild (Poster) definiert, Kapitelmarken gesetzt oder Quizfragen ergänzt
 werden. Die einzelnen Möglichkeiten werden im Kapitel "[Lernressource:
-
-sites/manual_user/docs/resource_video/Course_Element_Video.de.md §Learning_resource_Video.de.md§ 481
 Video](Learning_resource_Video.de.md)" erläutert.
 
 Verwenden Sie den Kursbaustein „Video“, um ein Video im MPEG-4 Format (.mp4)

@@ -11,8 +11,6 @@ selbst werden dabei im [Ablageordner ](../course_operation/Storage_folder.de.md)
   
 
 Für die Einbindung von Office-Dokumenten nutzen Sie bitte den [Kursbaustein
-
-sites/manual_user/docs/course_elements/Course_Element_Single_Page.de.md §Knowledge_Transfer.de.md§ 481
 "Dokument".](Knowledge_Transfer.de.md)
 
 ## Tab Seiteninhalt
@@ -39,8 +37,6 @@ HTML Editor.
 Im HTML Editor können Sie neben den verschiedenen Formatierungen auch
 Verlinkungen zu Bildern, Videos, den einzelnen Kursbausteinen des Kurses und
 zu den Tools in der [Toolbar
-
-sites/manual_user/docs/course_elements/Course_Element_Single_Page.de.md §Using_Additional_Course_Features.de.md§ 481
 ](../course_operation/Using_Additional_Course_Features.de.md)einfügen.
 
 Sie können auch Dateien die Sie zuvor erstellt haben in den Ablageordner des
@@ -53,8 +49,6 @@ Ablageordners selbst beeinflussen möchten.
 
 Mit der "Einzelnen Seite" können auf verschiedene Weise Videos und Audios in
 den Kurs eingebunden werden. Detaillierte Information finden Sie
-
-sites/manual_user/docs/course_elements/Course_Element_Single_Page.de.md §Single_Page_Add_edit_video.de.md§ 481
 [hier](../resource_video/Single_Page_Add_edit_video.de.md).
 
 Die Dateien können bei Bedarf später auch über den Link "Seite ersetzen"
@@ -155,8 +149,6 @@ verändert werden.
 
 Die Funktion "Mehrere Einzelseiten" bietet sich an, wenn Sie bereits mehrere
 HTML-Dateien bzw. komplexe Hypermedia-Dateien extern erstellt und im
-
-sites/manual_user/docs/course_elements/Course_Element_Single_Page.de.md §Storage_folder.de.md§ 481
 [Ablageordner ](../course_operation/Storage_folder.de.md)des Kurses abgelegt haben. Achten Sie bei
 komplexen Seiten mit diversen Verlinkungen zu Grafiken u.ä. darauf die Option
 "Link im gesamten Ablageordner erlauben" zu aktivieren. Ferner sollten Sie die

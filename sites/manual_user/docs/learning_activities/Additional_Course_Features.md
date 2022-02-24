@@ -16,8 +16,6 @@ options are available.
   * Notes: Here you can enter course-specific notes that only you as a course participant can read.
   * Evidence of achievement displays your assessments in the course in table form and, if activated, gives access to the certificate of the course
   * Bookmark: Bookmarked courses can be found in the Courses section in the "Favourites" tab.
-
-sites/manual_user/docs/learning_activities/Additional_Course_Features.md §Groups.md§ 481
   * [Groups](Groups.html): Here you can see all course-specific groups in which you are a member.
   * Leave course: With "Leave course" you can sign out of the course.
 
@@ -70,8 +68,6 @@ tools can also be called up via the toolbar:
   * Forum: Access to a central course forum
   * Documents: Access to a central documents folder
   * Glossary: Access to the glossary of the course
-
-sites/manual_user/docs/learning_activities/Additional_Course_Features.md §Chat.de.md§ 481
   * [Course chat](../personal/Chat.de.md): For the synchronous exchange of course members
   * Course search: Search the course by keywords
 
@@ -91,13 +87,9 @@ Course Calendar
 
 The calendar opens in a new window. Only course authors are allowed to add
 events to the course calendar. Course calendars are automatically added to
-
-sites/manual_user/docs/learning_activities/Additional_Course_Features.md §Personal_Menu.md§ 481
 your [personal calendar](../personal/Personal_Menu.md#PersonalMenu-_pers_kalender). Just
 select the course calendar from your personal calendar list. Information on
 the calendar list and further course functions can be found in the chapter
-
-sites/manual_user/docs/learning_activities/Additional_Course_Features.md §Calendar.md§ 481
 [calendar](../personal/Calendar.md).
 
 ###   Glossary
@@ -111,8 +103,6 @@ The glossary can also be printed.
 
 You may also be able to edit glossary entries if this option has been
 activated by the teacher. Further information can be found
-
-sites/manual_user/docs/learning_activities/Additional_Course_Features.md §Using_Additional_Course_Features.md§ 481
 [here](../course_operation/Using_Additional_Course_Features.md).
 
 ###   Course chat
@@ -122,8 +112,6 @@ chat room in the course toolbar; you can enter any time. Just click on "Course
 chat" in order to open the chat window. At first you will always be anonymous.
 On the right side of the chat window there is the possibility to choose your
 alias or put your user name on display. General chat features will be further
-
-sites/manual_user/docs/learning_activities/Additional_Course_Features.md §Chat.de.md§ 481
 explained in the section ["Chat"](../personal/Chat.de.md).
 
   

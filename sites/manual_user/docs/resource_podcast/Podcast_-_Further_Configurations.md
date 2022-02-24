@@ -14,8 +14,6 @@ When you have added a new course element Podcast to your course, you can first
 
 See step 2 of the [4-step guide](Four_Steps_to_Your_Podcast.md). If a link
 to a learning resource podcast has already been created, it can be replaced or
-
-sites/manual_user/docs/resource_podcast/Podcast_-_Further_Configurations.md §Four_Steps_to_Your_Podcast.md§ 481
 edited (see step 3 of the [4-step guide](Four_Steps_to_Your_Podcast.md)).
 
 ### Include external podcast

@@ -68,8 +68,6 @@ question bank to find their way around.
 ### Tab Subjects
 
 Here you can add, edit, merge and delete new subjects. For more information,
-
-sites/manual_admin/docs/administration/eAssessment_Question_bank.md §Modules_Taxonomy.md§ 481
 see [Taxonomy](Modules_Taxonomy.md).
 
 ### Tab Pools

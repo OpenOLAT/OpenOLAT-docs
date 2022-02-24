@@ -8,8 +8,6 @@ Dokumente). Sie können jedoch die Aufgabe und die Musterlösung auch direkt in
 OpenOlat erstellen.
 
 Wenn Sie noch keinen Kurs erstellt haben, steht im Kapitel [„Kurs
-
-sites/manual_user/docs/task/Three_Steps_to_Your_Task.de.md §Creating_Courses.de.md§ 481
 erstellen"](Kurs+erstellen.html), wie Sie vorgehen müssen, bevor Sie mit Hilfe
 der folgenden Anleitung Ihre Aufgabe erstellen.
 
@@ -129,7 +127,5 @@ Kursteilnehmer etwas abgegeben hat, erfahren Sie das per E-Mail oder im
 persönlichen Menü unter „Abonnements“. Die Benachrichtigung wird erst dann
 ausgelöst, wenn eine Aktion abgeschlossen ist. Alternativ können Sie auch die
 Einreichungen für alle bewertbaren Kursbausteine im [Bewertungswerkzeug
-
-sites/manual_user/docs/task/Three_Steps_to_Your_Task.de.md §Assessment_tool_-_overview.de.md§ 481
 ](../course_operation/Assessment_tool_-_overview.de.md)abonnieren.
 

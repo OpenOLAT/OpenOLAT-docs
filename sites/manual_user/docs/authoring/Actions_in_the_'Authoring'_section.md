@@ -32,14 +32,15 @@ deleted.
 OpenOlat authors can create new courses and additional [learning resources](Various_Types_of_Learning_Resources.md) in the "My Entries and
 Favorites" tabs. How to use various editors will be further explained in the
 chapters 
-["Creating Courses"](Creating+Courses.html), 
-["Creating CP Learning Content"](Creating+CP+Learning+Content.html), 
-["Creating Wikis"](Creating+Wikis.html), 
-["Creating Podcasts"](Creating+Podcasts.html),
-["Creating Blogs"](Creating+Blogs.html), 
-["Creating Portfolio Tasks"](../portfolio/Creating_Portfolio_Tasks.md), 
-["Creating Tests"](Creating+Tests.html) and 
-["Creating Questionnaires"](Creating+Questionnaires.html).
+[„Creating Courses"](../course_create/index.md), 
+[„Creating CP Learning Content"](../resource_cp/index.md), 
+[„Creating wikis"](../resource_wiki/index.md), 
+[„Creating Podcasts"](../resource_podcast/index.md), 
+[„Creating Blogs"](../resource_blog/index.md), 
+["Creating Portfolio Tasks",](../portfolio/index.md),
+["Creating Tests" ](../tests/index.md) and
+["Creating Forms and Questionnaires" ](../forms/index.md).
+
 
 If you build your courses systematically and if you want to use your learning
 resources in several courses, you should better created the learning resources

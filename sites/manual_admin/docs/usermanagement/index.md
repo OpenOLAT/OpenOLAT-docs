@@ -55,7 +55,7 @@ displayed filtered.
 Pending users, inactive users, blocked users and deleted users of the OpenOlat
 instance can be displayed here.
 
-![](assets/Gel%C3%B6schte_Benutzer_EN.png)
+![](assets/Geloeschte_Benutzer_EN.png)
 
 The "Deleted Users" table in the user management contains the following
 information that is relevant to the user deletion process:

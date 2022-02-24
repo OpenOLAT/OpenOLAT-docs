@@ -52,8 +52,6 @@ Weitere Infos finden Sie im Kapitel „[Einsatz von
 WebDAV](../supported_tech/Using_WebDAV.de.md)“.
 
 Damit der Zugriff via WebDAV auf OpenOlat funktioniert muss WebDAV von Ihrem
-
-sites/manual_user/docs/personal/Personal_folders.de.md §WebDAV.de.md§ 481
 OpenOlat Administrator [aktiviert ](../../manual_admin/administration/WebDAV.de.md)werden.
 
 ## Quota
@@ -70,17 +68,9 @@ In OpenOlat gibt es mehrere unterschiedliche Varianten von Ordnern. Neben den
 beiden Ordnern im persönlichen Menü existieren in OpenOlat noch folgende
 Ordner Varianten:
 
-
-sites/manual_user/docs/personal/Personal_folders.de.md §Using_Course_Tools.de.md§ 481
   * [Ablageordner](../course_operation/Using_Course_Tools.de.md) (in Kursen)   
-
-sites/manual_user/docs/personal/Personal_folders.de.md §Knowledge_Transfer.de.md§ 481
   * [Kursbaustein Ordner](../course_elements/Knowledge_Transfer.de.md#Wissensvermittlung-_ordner) (in Kursen) 
   * Ordner der Themenwahl (in Kursen)
-
-sites/manual_user/docs/personal/Personal_folders.de.md §Communication_and_Collaboration.de.md§ 481
   * [Teilnehmer Ordner](../course_elements/Communication_and_Collaboration.de.md#KommunikationundKollaboration-_participantfolder) (in Kursen)
-
-sites/manual_user/docs/personal/Personal_folders.de.md §Course_Settings.de.md§ 481
   * [Ressourcenordner ](../course_create/Course_Settings.de.md#Kurseinstellungen-_detail_ressourcen)(Lernressource) 
 

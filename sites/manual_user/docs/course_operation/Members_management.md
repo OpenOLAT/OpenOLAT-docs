@@ -70,8 +70,6 @@ Multiple roles are often useful for course owners in order to quickly
 recognize all user-specific possibilities. The normal participant usually does
 not need any further global membership rights.
 
-
-sites/manual_user/docs/course_operation/Members_management.md §Roles_and_Rights.md§ 481
 If the user has additional [system roles](../general/Roles_and_Rights.md), such as
 learning resource manager or administrator, these are also displayed as
 selection elements for the corresponding perspective.
@@ -84,14 +82,10 @@ a) by directly entering them in the member list by the course owner via the
 button "Add member" or "Import members".
 
 b) by booking the course by the learner (see [access
-
-sites/manual_user/docs/course_operation/Members_management.md §Access_configuration.md§ 481
 configuration](../course_create/Access_configuration.md))
 
 c) by adding a group
 
-
-sites/manual_user/docs/course_operation/Members_management.md §Curriculum_Management.md§ 481
 d) by a superordinate OpenOlat [Curriculum](../curriculum/Curriculum_Management.md)
 
 We recommend working with groups only if it is absolutely required, hence for
@@ -108,8 +102,6 @@ participants.
 Clicking on a group name or on "Modify" opens the group itself in a new
 OpenOlat tab and takes you as a group coach to the group administration. How
 to create and configure groups and how to manage group members is covered in
-
-sites/manual_user/docs/course_operation/Members_management.md §Groups.md§ 481
 the chapter "[Groups](Groups.html)".
 
 Groups can have different functions in an OpenOlat course. Typical examples
@@ -123,8 +115,6 @@ are:
 
 Under Bookings you can view all bookings for this course, sorted by status, if
 the course access is organized via the [booking
-
-sites/manual_user/docs/course_operation/Members_management.md §Access_configuration.md§ 481
 method](../course_create/Access_configuration.md).
 
 ##  Rights
@@ -184,16 +174,12 @@ may archive course data such as forums or test results.
 The "Administration" menu also appears.
 
 Even without coach rights, members with these rights can use the [assessment
-
-sites/manual_user/docs/course_operation/Members_management.md §Assessment_tool_-_overview.md§ 481
 tool](Assessment_tool_-_overview.md) to evaluate and comment on all of the
 course participants' achievements.  
   
  **Glossary tool**|
 
 This right allows members to edit the glossary, which of course only makes
-
-sites/manual_user/docs/course_operation/Members_management.md §Using_Additional_Course_Features.md§ 481
 sense if a [glossary](Using_Additional_Course_Features.md) is assigned to
 the course.  
   
@@ -207,8 +193,6 @@ Members are allowed to access and download course statistics.
 
 The "Administration" menu also appears.
 
-
-sites/manual_user/docs/course_operation/Members_management.md §Assessment_mode.md§ 481
 Members are allowed to set up the [test configuration](../e-assessment/Assessment_mode.md)
 of the course.  
   
@@ -223,8 +207,6 @@ Often, the specific assignment of certain rights, instead of the entry as
 owner, is already useful or necessary for data protection reasons.
 
 Attention: Group coaches basically also get access to the [assessment
-
-sites/manual_user/docs/course_operation/Members_management.md §Assessment_tool_-_overview.md§ 481
 tool](Assessment_tool_-_overview.md) and can also assess all members of the
 group. Furthermore, they may make changes to the coached groups.
 
@@ -234,8 +216,6 @@ _participants_ of a group.
 ##  Consents
 
 If course-related terms of use or the course-related privacy policy are
-
-sites/manual_user/docs/course_operation/Members_management.md §Course_Settings.md§ 481
 [activated](../course_create/Course_Settings.md), the stored consent of the individual users
 is listed here. Selected consents can be revoked or deleted at this point.
 When revoking, the consent is reset, but the entry is retained. If a user is

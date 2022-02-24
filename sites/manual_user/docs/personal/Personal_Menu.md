@@ -148,8 +148,6 @@ development. The menu entry Portfolio 2.0 serves to create binders of
 portfolios before making those accessible to certain people (OpenOlat users as
 well as external people). You can also have a look at other users' portfolios
 or perform portfolio tasks of an OpenOlat course. Further information you fin
-
-sites/manual_user/docs/personal/Personal_Menu.md §Creating_Portfolios.md§ 481
 in [creating portfolio](Creating+Portfolios.html)s.
 
  What's a reflection?

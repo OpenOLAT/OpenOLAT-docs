@@ -131,7 +131,5 @@ would be read accordingly (database operation: update / modify): Add user
 [user name] to [group].
 
 Options to analyze log files graphically will be further described in the
-
-sites/manual_user/docs/course_operation/Record_of_Course_Activities.md §Using_Course_Tools.md§ 481
 section ["Statistics"](Using_Course_Tools.md#UsingCourseTools-_statistiken).
 

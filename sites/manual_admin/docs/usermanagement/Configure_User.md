@@ -83,15 +83,11 @@ here.
 #### Roles
 
 | In this tab the user type, the roles and the status are defined, see
-
-sites/manual_admin/docs/usermanagement/Configure_User.md §Assign_roles.md§ 481
 "[Assign roles](Assign_roles.md)".  
   
 #### Relations
 
 | In this tab, new relationships between the selected user and other OpenOlat
-
-sites/manual_admin/docs/usermanagement/Configure_User.md §User_management.md§ 481
 users can be defined (see [User Roles](User+management.html)).  
   
 #### Quota

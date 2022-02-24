@@ -100,8 +100,6 @@ Die Option „Feedback bei Wahl einer falschen Antwort“ wird nicht wirksam, we
 in einer Multiple-Choice-Frage zwar keine falschen, aber nicht alle richtigen
 Antworten angekreuzt werden.
 
-
-sites/manual_user/docs/tests/Configure_test_questions.de.md §Configure_tests.de.md§ 481
 Auf [Test Ebene ](Configure_tests.de.md)können Sie im Testeditor im Tab
 "Feedback" das Gesamtfeedback eines Tests einrichten.  
 Unter Administration → Einstellungen → Optionen können die Feedbacks für einen
@@ -134,10 +132,6 @@ werden.
 
 Im Bereich "Technik" werden weitere Informationen angezeigt. Diese
 Einstellungen sowie weitere Informationen zu den [Metadaten
-
-sites/manual_user/docs/tests/Configure_test_questions.de.md §Item_Detailed_View.de.md§ 481
 ](../question_bank/Item_Detailed_View.de.md)finden Sie ebenfalls im
-
-sites/manual_user/docs/tests/Configure_test_questions.de.md §Question_Bank.de.md§ 481
 [Fragenpool](Fragenpool.html).
 

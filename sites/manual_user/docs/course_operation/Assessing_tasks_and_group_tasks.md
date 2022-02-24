@@ -36,8 +36,6 @@ Afterwards, you can fill out the [assessment form](The_assessment_form.md).
 ### Start a new bulk assessment
 
 How to create a bulk assessment for tasks exactly you can learn
-
-sites/manual_user/docs/course_operation/Assessing_tasks_and_group_tasks.md §create_a_bulk_assessment_for_submission_tasks.md§ 481
 [here](../how-to/create_a_bulk_assessment_for_submission_tasks.md).
 
 ### Assessment workflow course element "Task
@@ -70,8 +68,6 @@ submission" and thus enable the learner to upload another submission.
 
 How a task or group task can be assessed, e.g. with a "pass/fail" or a score,
 is defined in the configuration of the course element
-
-sites/manual_user/docs/course_operation/Assessing_tasks_and_group_tasks.md §Task_-_Further_Configurations.md§ 481
 "[Task](../task/Task_-_Further_Configurations.md)" or "Group task". In the
 assessment tool, the assessment options can no longer be changed.
 

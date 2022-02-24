@@ -74,8 +74,6 @@ ab, da für die tatsächliche Anzahl der HTML Code verwendet wird.
 
 Ein Element mit ähnlichen Funktionen, jedoch ohne spezifische Konfiguration,
 findet man auch in der Toolbar. Es handelt sich um die "[Teilnehmer
-
-sites/manual_user/docs/course_elements/Administration_and_Organisation.de.md §Using_Additional_Course_Features.de.md§ 481
 Infos](../course_operation/Using_Additional_Course_Features.de.md)".
 
   
@@ -173,8 +171,6 @@ Empfängeradressen aus Gründen des Datenschutzes nicht angezeigt.
 
 Ein Element  "E-Mail" mit ähnlichen Funktionen, jedoch ohne spezifische
 Konfiguration, findet man auch in der
-
-sites/manual_user/docs/course_elements/Administration_and_Organisation.de.md §Using_Additional_Course_Features.de.md§ 481
 [Toolbar](../course_operation/Using_Additional_Course_Features.de.md).
 
 ##  Kursbaustein „Kalender“
@@ -187,8 +183,6 @@ Kalenders dem Kurs hinzuzufügen.
 
 Diese Einbindung ist eine Alternative gegenüber der Einbindung des Kalenders
 in der Kurstoolbar (vergl. "[Einsatz weiterer Kursfunktionen der
-
-sites/manual_user/docs/course_elements/Administration_and_Organisation.de.md §Using_Additional_Course_Features.de.md§ 481
 Toolbar](../course_operation/Using_Additional_Course_Features.de.md)").
 
 Standardmässig dürfen nur Besitzer und Betreuer Termine erstellen. Alle
@@ -197,8 +191,6 @@ Konfiguration“ können Sie definieren, ob neben den Kursbesitzern auch
 Teilnehmer und Betreuer des Kurses Kalendereinträge einstellen und bearbeiten
 dürfen. Ferner können Sie hier konfigurieren, welches Datum angezeigt wird,
 wenn der Kurskalender aus der Kursstruktur aufgerufen wird. Kurskalender
-
-sites/manual_user/docs/course_elements/Administration_and_Organisation.de.md §Calendar.de.md§ 481
 werden automatisch den[ persönlichen Kalendern](../personal/Calendar.de.md) der
 Kursteilnehmer hinzugefügt.
 
@@ -212,12 +204,8 @@ und Aufgaben der Woche.
 
 Prüfen Sie, ob der _Kursbaustein_ "Kalender" wirklich für Sie die optimale
 Wahl darstellt. In vielen Fällen, insbesondere bei[ Lernpfad
-
-sites/manual_user/docs/course_elements/Administration_and_Organisation.de.md §Learning_path_course.de.md§ 481
 Kursen](../course_create/Learning_path_course.de.md), ist es
 sinnvoller in den Einstellungen den Kalender in der [Toolbar
-
-sites/manual_user/docs/course_elements/Administration_and_Organisation.de.md §Using_Additional_Course_Features.de.md§ 481
 ](../course_operation/Using_Additional_Course_Features.de.md)zu aktivieren.
 
 Wenn Sie in Ihrer OpenOlat Instanz keinen Kursbaustein "Kalender" finden

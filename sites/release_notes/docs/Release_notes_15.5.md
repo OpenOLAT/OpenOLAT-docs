@@ -269,8 +269,6 @@ all other folders.
 
 It is now possible to link one or more taxonomies to the ePortfolio. Within
 the taxonomies, the levels can be identified as
-
-sites/release_notes/docs/Release_notes_15.5.md §Competences_tags.md§ 481
 [competencies](../manual_user/portfolio).
 
 In the portfolio, the user can then keyword the entries with the competencies
