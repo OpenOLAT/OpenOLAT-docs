@@ -21,8 +21,7 @@ since release 14.1 and many processes have been improved. Here, you can find
 the most important new features and changes. In addition to these
 improvements, more than 125 bugs have been fixed. The complete list of changes
 for 14.1 – 14.1.7 can be found
-[here](https://www.openolat.com/features/releasenotes/new-
-features-14-0/?lang=en#jira).
+[here](https://www.openolat.com/features/releasenotes/new-features-14-0/?lang=en#jira).
 
   
 
@@ -43,7 +42,7 @@ parallel rooms as well as settings such as microphone and webcam availability
 for participants and the possibility for breakout rooms in the online room are
 already configured.
 
-#### Course element BigBlueButton
+### Course element BigBlueButton
 
 With the new course element the coach can create meeting rooms directly in the
 course. From the room templates configured you can select the one that fits
@@ -54,7 +53,7 @@ will be available to course members.
 
   
 
-#### Group tool BigBlueButton
+### Group tool BigBlueButton
 
 As a collaborative tool, BigBlueButton can also be used as a group tool. If
 the room templates are released accordingly, both group coaches and group
@@ -72,7 +71,7 @@ meeting.
 
 ## QTI and eTesting
 
-#### Arrange test sections randomly
+### Arrange test sections randomly
 
 The random order of questions in online tests has been available in OpenOlat
 for a long time. Additionally, the random arrangement of test sections during
@@ -80,13 +79,13 @@ test execution is now possible. Thus, for example, similar questions can be
 grouped by sections and appear differently sorted for the participants in the
 running test.
 
-#### Expansion of gap text question type
+### Expansion of gap text question type
 
-Two new options allow even more flexible use of the [gap question
-type](Test+question+types.html#Testquestiontypes-
-details_testeditor_fragetypen_fib):
+Two new options allow even more flexible use of the 
+[gap question type](../manual_user/tests/Test_question_types.md#TestFragetypen-details_testeditor_fragetypen_fib):
 
-###### Allow double answers
+
+#### Allow double answers
 
 Especially with mathematical tasks it can happen that several gaps contain the
 same answer alternatives. Entering the same answer in each gap could be
@@ -94,21 +93,18 @@ considered correct for all these gaps. To avoid this, the entry of duplicate
 values can be explicitly prevented in such cases. Double answers are allowed
 by default.
 
-###### Points for answer variants
+#### Points for answer variants
 
 If answer variants are stored with the gap text, separate
-[points](../manual_user/tests#Configuretestquestions-_tab_score) can
+[points](../manual_user/tests/Configure_test_questions.md) can
 be stored for each of these from now on. Thus, for example, "half correct"
 answers can also be evaluated with partial points. It is also possible to
 deduct points for certain solution variants.
-
-  
-
   
 
 ![](assets/142/Gaptext_neue_Optionen_EN.png)
 
-#### Correction time for question items
+### Correction time for question items
 
 External graders are often used to correct online tests. In the future, the
 assignment of external graders in the correction process in OpenOlat should be
@@ -132,7 +128,7 @@ displayed.
 
 ## New features in the course
 
-#### Livestream
+### Livestream
 
 Due to the integration of the Paella Player the livestream course module is
 now multistream capable. Either two parallel streams can be displayed, or only
@@ -141,7 +137,7 @@ users have followed the livestream.
 
 ![](assets/142/Multi-Livestream_EN.png)
 
-#### Task module
+### Task module
 
 The task module was further expanded. For example, a minimum number of
 documents can now be defined for document submission by participants in
@@ -150,7 +146,7 @@ tasks can now also be entered directly in a text field in the browser. An
 additional table export is also available for overview and evaluation
 purposes.
 
-#### Miscellaneous
+### Miscellaneous
 
   * A subscription function for the video course element is available. Subscribers are automatically informed of new comments.
   * Group calendar dates can be made visible in the course calendar for all course participants if they are set to "public.

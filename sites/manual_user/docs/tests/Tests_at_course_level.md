@@ -161,24 +161,18 @@ all question types possible
 
 |
 
-
-sites/manual_user/docs/tests/Tests_at_course_level.md §Test_question_types.md§ 481
 All [question types](Test_question_types.md) possible, but only
 automatically scorable question types can also be used for points.  
   
 Embedding with course element:| Test| Self-test  
 Results appear...|
 
-
-sites/manual_user/docs/tests/Tests_at_course_level.md §Assessing_tests.md§ 481
 in the [assessment tool](../course_operation/Assessing_tests.md) and in the [test
 statistics](Using+Course+Tools.html#UsingCourseTools-
 _datenarchivierungDataArchivingDataArchiving) and are visible for coaches
 
-
-sites/manual_user/docs/tests/Tests_at_course_level.md §Assessing_tests.md§ 481
-|  _not_  in the [assessment tool](../course_operation/Assessing_tests.md) and in the [test
-statistics](Using+Course+Tools.html#UsingCourseTools-
+|  _not_  in the [assessment tool](../course_operation/Assessing_tests.md) and in the 
+[test statistics](Using+Course+Tools.html#UsingCourseTools-
 _datenarchivierungDataArchivingDataArchiving) and are thus not visible for
 coaches and owners  
 Archiving of results:| yes, personalized| yes, anonymized - however, a
@@ -214,8 +208,6 @@ taken the test about the change.
 ## View and grade tests
 
 Access to tests completed by course participants is available in the
-
-sites/manual_user/docs/tests/Tests_at_course_level.md §Assessing_tests.md§ 481
 "[Assessment tool](../course_operation/Assessing_tests.md)". The assessment tool can be found in
 the "Administration" of the course. All tests and other assessable course
 elements of a course are displayed under "User" and can be called up, viewed,
@@ -227,8 +219,6 @@ test and thus trigger a condition-dependent mail dispatch.
 ![](assets/Test_Kursrun.png)
 
 If external graders have also been activated for a test, they can use the
-
-sites/manual_user/docs/tests/Tests_at_course_level.md §Coaching.de.md§ 481
 [Coaching Tool](../e-assessment/Coaching.de.md) to make the assessments.
 
 ## Test results and archiving

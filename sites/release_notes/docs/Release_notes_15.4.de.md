@@ -229,8 +229,7 @@ wurden OpenOlat-weit harmonisiert, der Mail-Footer ergänzt.
 Beim optionalen Mail-Versand von Mitteilungen können als _Empfänger_ auch
 _Gruppen_ bzw. _Curricula_ ausgewählt werden.
 
-![](assets/154/Mitteilung%20Empf%C3%A4nger%20EN.png)
-
+![](assets/154/Mitteilung_Empfaenger_EN.png)
   
 
 * * *

@@ -4,7 +4,6 @@
 Reihenfolge -- Verbesserung der Lückentextfrage -- Multi-Livestream --
 Verbesserung Aufgaben-Kursbaustein -- Datei- und Versionsverwaltungstool
 
-  
 
 Mit OpenOlat 14.2 geben wir unseren nächsten Major Release frei. Mit der
 Integration der OpenSource Software BigBlueButton steht nun ein weiterer
@@ -21,8 +20,7 @@ Seit Release 14.1 wurden über 65 neue Funktionen und Verbesserungen zu
 OpenOlat hinzugefügt. Hier finden Sie die wichtigsten neuen Funktionen und
 Änderungen. Zusätzlich zu wurden mehr als 125 Bugs behoben. Die komplette
 Liste der Änderungen in 14.1 – 14.1.7 finden Sie
-[hier](https://www.openolat.com/funktionen/releasenotes_e/neue-
-funktionen-14-1/#jira).
+[hier](https://www.openolat.com/funktionen/releasenotes_e/neue-funktionen-14-1/#jira).
 
   * 1 Release Notes 14.2 
   * 2BigBlueButton Integration
@@ -34,12 +32,8 @@ funktionen-14-1/#jira).
   * 8Technisches
   * 9Release Notes - Versionen
 
-  
-
 * * *
-
   
-
 ## BigBlueButton Integration
 
 Ein weiterer virtueller Klassenraum wurde in OpenOlat integriert:
@@ -81,7 +75,7 @@ Meeting-Ende für einen weiteren Zugriff bereit.
 
 ## QTI und eTesting
 
-#### Test-Sektionen nach dem Zufallsprinzip anordnen
+### Test-Sektionen nach dem Zufallsprinzip anordnen
 
 Die zufällige Reihenfolge der Fragen in Online-Tests ist in OpenOlat schon
 lange verfügbar. Zusätzlich ist nun auch die zufällige Anordnung von Test-
@@ -89,13 +83,12 @@ Sektionen während der Testdurchführung möglich. So können z.B. ähnliche Fra
 in Sektionen gruppiert werden und für die Teilnehmer am laufenden Test in
 unterschiedlicher Reihenfolge aufscheinen.
 
-#### Erweiterung des Fragentyps Lückentext
+### Erweiterung des Fragentyps Lückentext
 
 Zwei neue Optionen ermöglichen einen noch flexibleren Einsatz des Fragentyps
-[Lückentext](Test+Fragetypen.html#TestFragetypen-
-details_testeditor_fragetypen_fib):
+[Lückentext](../manual_user/tests/Test_question_types.de.md#TestFragetypen-details_testeditor_fragetypen_fib):
 
-###### Erlauben Sie doppelte Antworten
+#### Erlauben Sie doppelte Antworten
 
 Insbesondere bei mathematischen Aufgaben kann es vorkommen, dass mehrere
 Lücken die gleichen Antwortalternativen enthalten. Die Eingabe der gleichen
@@ -104,11 +97,11 @@ werden. Um dies zu vermeiden, kann in solchen Fällen die Eingabe von doppelten
 Werten explizit verhindert werden. Standardmässig sind doppelte Antworten
 erlaubt.
 
-###### Punkte für Antwortvarianten
+#### Punkte für Antwortvarianten
 
 Wenn Antwortvarianten am Lückentext gespeichert werden, können von nun an für
 jede dieser Varianten separate
-[Punkte](../manual_user/tests#TestFragenkonfigurieren-_tab_score)
+[Punkte](../manual_user/tests/Configure_test_questions.de.md)
 hinterlegt werden. So können z.B. "halb richtige" Antworten auch mit
 Teilpunkten bewertet werden. Es ist auch möglich, für bestimmte
 Lösungsvarianten Punkte abzuziehen.
@@ -119,7 +112,7 @@ Lösungsvarianten Punkte abzuziehen.
 
 ![](assets/142/Gaptext_neue_Optionen_DE.png)
 
-#### Korrekturzeit für QTI-Fragen
+### Korrekturzeit für QTI-Fragen
 
 Zur Korrektur von Online-Tests werden häufig externe Korrektoren eingesetzt.
 Zukünftig sollte die Zuordnung von externen Korrektoren im Korrekturprozess in
@@ -143,7 +136,7 @@ sowie die Gesamtkorrekturzeit für den Test angezeigt.
 
 ## Neue Funktionen im Kurs
 
-#### Livestream
+### Livestream
 
 Durch die Integration des Paella-Players ist der Livestream-Kursbaustein nun
 Multistream-fähig. Es können entweder zwei parallele Streams, oder nur Stream
@@ -152,7 +145,7 @@ Livestreams an, wie viele Benutzer den jeweiligen Livestream verfolgt haben.
 
 ![](assets/142/Multi-Livestream_DE.png)
 
-#### Aufgaben-Kursbaustein
+### Aufgaben-Kursbaustein
 
 Der Aufgabenbaustein wurde weiter ausgebaut. Beispielsweise kann zusätzlich
 zur bisherigen Maximalzahl auch eine Mindestanzahl von Dokumenten definiert
@@ -161,7 +154,7 @@ für eingereichte Aufgaben kann nun direkt in ein Textfeld im Browser
 eingegeben werden. Für Übersichts- und Auswertungszwecke steht zusätzlich ein
 Tabellenexport zur Verfügung.
 
-#### Weitere Neuerungen
+### Weitere Neuerungen
 
   * Am Video-Kursbaustein steht eine Abonnementfunktion zur Verfügung. Die Abonnenten werden automatisch über neue Kommentare informiert.
   * Termine in Gruppenkalendern können im Kurskalender für alle Kursteilnehmer sichtbar gemacht werden, wenn sie auf "öffentlich" gesetzt sind.

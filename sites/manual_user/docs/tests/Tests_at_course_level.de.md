@@ -79,10 +79,7 @@ aktiviert und man erkennt, wer als Korrektor dem Test zugeordnet ist.
 ![](assets/Test_Tab_Korrektor.png)
 
 Steht die Option "Manuell durch externe Korrektoren" nicht zur Verfügung,
-wurden in der Lernressource Test keine [externen Korrektoren
-
-sites/manual_user/docs/tests/Tests_at_course_level.de.md §Test_settings.de.md§ 481
-](Test_settings.de.md)konfiguriert.
+wurden in der Lernressource Test keine [externen Korrektoren](Test_settings.de.md)konfiguriert.
 
  **Freigeben oder nicht freigeben**
 
@@ -126,10 +123,7 @@ Hier wird konfiguriert, welche Informationen die Lernenden erhalten:
 Bei der Testzusammenfassung wird u.a. die erreichte Prozentzahl, die
 Bearbeitungsdauer, die Anzahl der bearbeiteten Fragen und die erreichte
 Punktzahl sowie der Status angezeigt.  
-Die Sektionszusammenfassung ist nur relevant, wenn ein Test auch [Sektionen
-
-sites/manual_user/docs/tests/Tests_at_course_level.de.md §Configure_tests.de.md§ 481
-](Configure_tests.de.md)enthält.  
+Die Sektionszusammenfassung ist nur relevant, wenn ein Test auch [Sektionen](Configure_tests.de.md)enthält.  
 Bei der Fragenzusammenfassung wird der Titel der Frage, die jeweils erreichte
 Punkte bzw. der passende Prozentwert angezeigt aber nicht die Fragestellung
 selbst.  
@@ -147,13 +141,8 @@ unterschiedliche Arten von Feedback hinterlassen werden.
 ### Tab "Optionen"
 
 Bindet man einen Test in einen Kurs ein, werden die Einstellungen aus der
-Konfiguration der Lernressource Test (siehe  "[Test
-
-sites/manual_user/docs/tests/Tests_at_course_level.de.md §Test_settings.de.md§ 481
-Einstellungen](Test_settings.de.md)" und "[Test
-
-sites/manual_user/docs/tests/Tests_at_course_level.de.md §Configure_tests.de.md§ 481
-konfigurieren](Configure_tests.de.md)")  standardmässig übernommen. Im Tab
+Konfiguration der Lernressource Test (siehe  "[Test Einstellungen](Test_settings.de.md)" und 
+"[Test konfigurieren](Configure_tests.de.md)")  standardmässig übernommen. Im Tab
 "Optionen" ist deshalb "Konfiguration von Lernressource übernehmen" ausgewählt
 und die entsprechenden Einstellungen, die in der Lernressource Test
 vorgenommen wurden, werden hier angezeigt.
@@ -185,37 +174,22 @@ Selbsttest
   
 ---|---|---  
 Einsatzzweck:| Prüfungstest, Test mit Prüfungsmöglichkeit durch den Lehrenden|
-Übung, Selbstevaluation  
-
-sites/manual_user/docs/tests/Tests_at_course_level.de.md §Test_editor_QTI_2.1.de.md§ 481
-
-sites/manual_user/docs/tests/Tests_at_course_level.de.md §Test_editor_QTI_2.1.de.md§ 481
-Herstellung mit:| [Testeditor](Test_editor_QTI_2.1.de.md)| [Testeditor](Test_editor_QTI_2.1.de.md)  
+Übung, Selbstevaluation  Herstellung mit:| [Testeditor](Test_editor_QTI_2.1.de.md)| [Testeditor](Test_editor_QTI_2.1.de.md)  
 Fragetypen QTI 2.1:|
 
-
-sites/manual_user/docs/tests/Tests_at_course_level.de.md §Test_question_types.de.md§ 481
 Alle [Fragetypen ](Test_question_types.de.md)möglich
 
 |
 
-
-sites/manual_user/docs/tests/Tests_at_course_level.de.md §Test_question_types.de.md§ 481
 Alle [Fragetypen ](Test_question_types.de.md)möglich aber nur automatisch
 auswertbare Fragetypten können auch für Punkte verwendet werden.  
   
 Einbindung mit Kursbaustein:| Test| Selbsttest  
 Anzahl Aufrufe durch Kursteilnehmer:| konfigurierbar| unlimitiert  
-Ergebnisse erscheinen ...| im [Bewertungswerkzeug
-
-sites/manual_user/docs/tests/Tests_at_course_level.de.md §Assessment_tool_-_overview.de.md§ 481
-](../course_operation/Assessment_tool_-_overview.de.md)und in den [Test
+Ergebnisse erscheinen ...| im [Bewertungswerkzeug](../course_operation/Assessment_tool_-_overview.de.md)und in den [Test
 Statistiken](Einsatz+der+Kurswerkzeuge.html#EinsatzderKurswerkzeuge-
 test_statistikenTestStatistiken) und sind für Betreuer einsehbar|  _nicht_ im
-[Bewertungswerkzeug
-
-sites/manual_user/docs/tests/Tests_at_course_level.de.md §Assessment_tool_-_overview.de.md§ 481
-](../course_operation/Assessment_tool_-_overview.de.md)und in den [Test
+[Bewertungswerkzeug](../course_operation/Assessment_tool_-_overview.de.md)und in den [Test
 Statistiken](Einsatz+der+Kurswerkzeuge.html#EinsatzderKurswerkzeuge-
 test_statistikenTestStatistiken) und sind so nicht personalisiert für Betreuer
 und Besitzer einsehbar.  
@@ -257,8 +231,6 @@ die den Test bereits absolviert haben, über die Änderung informieren soll.
 ## Tests einsehen und bewerten
 
 Zugriff auf von Kursteilnehmern ausgefüllte Tests erhalten Sie im
-
-sites/manual_user/docs/tests/Tests_at_course_level.de.md §Assessment_tool_-_overview.de.md§ 481
 "[Bewertungswerkzeug](../course_operation/Assessment_tool_-_overview.de.md)".
 Das Bewertungswerkzeug finden Sie in der "Administration" des Kurses. Unter
 "Benutzer" werden sämtliche Tests und weitere bewertbare Kursbausteine eines
@@ -271,8 +243,6 @@ einen bedingungsabhängigen Mailversand auszulösen.
 ![](assets/Test_Kursrun.png)
 
 Sofern für einen Test auch externe Korrektoren aktiviert wurden, können diese
-
-sites/manual_user/docs/tests/Tests_at_course_level.de.md §Coaching.de.md§ 481
 die Bewertungen über das[ Coaching Tool](../e-assessment/Coaching.de.md) vornehmen.
 
 ## Testergebnisse und Archivierung
@@ -288,8 +258,7 @@ Selbsttest anonymisiert durch eine Laufnummer) welche Fragen beantwortet hat,
 welche Antworten sie gegeben hat und beim Selbsttest wie viele Punkte erreicht
 wurden.
 
-Über "Administration" ->[„Test
-Statistiken"](Einsatz+der+Kurswerkzeuge.html#EinsatzderKurswerkzeuge-
+Über "Administration" ->[„Test Statistiken"](Einsatz+der+Kurswerkzeuge.html#EinsatzderKurswerkzeuge-
 test_statistikenTestStatistiken) können Sie auch schnell auf die grafische
 Auswertung Ihrer Testdaten zugreifen.
 

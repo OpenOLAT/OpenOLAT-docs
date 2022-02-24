@@ -88,7 +88,7 @@ Note that this is a read-only repository. If you are frentix staff and want to m
 When editing the files it is recommended to start a local server to preview the changes. The server reloads the pages on every change. Since the manual is large, reloading of changes can take quite some time. 
 
 	cd OpenOLAT-docs  
-	python3 -m mkdocs serve
+	python3 -m mkdocs serve --dirtyreload
 
 Now open [http://127.0.0.1:8000/](http://127.0.0.1:8000/) in your browser to navigate and preview. 
 
@@ -99,8 +99,7 @@ For publishing the documentation, compile it and publish it on your server.
 
 	cd OpenOLAT-docs
 	python3 -m mkdocs build
-	cd site
-	scp -r ??* oodocs@docs.openolat.org:/home/oodocs/html/.
+	scp -r site/??* oodocs@docs.openolat.org:/home/oodocs/html/.
 
 
 ### Addendum: update everything to the newest version

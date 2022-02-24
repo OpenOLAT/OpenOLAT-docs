@@ -18,12 +18,7 @@ Auf den folgenden Seiten erfahren Sie ausführlich welche Möglichkeiten und
 Einstellungen der OpenOlat Testeditor bietet:
 
 
-sites/manual_user/docs/tests/Test_editor_QTI_2.1.de.md §Test_question_types.de.md§ 481
   * [Test Fragetypen](Test_question_types.de.md)
-
-sites/manual_user/docs/tests/Test_editor_QTI_2.1.de.md §Configure_test_questions.de.md§ 481
   * [Test Fragen konfigurieren](Configure_test_questions.de.md)
-
-sites/manual_user/docs/tests/Test_editor_QTI_2.1.de.md §Configure_tests.de.md§ 481
   * [Test konfigurieren](Configure_tests.de.md)
 

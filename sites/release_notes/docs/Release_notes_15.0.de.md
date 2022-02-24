@@ -30,8 +30,7 @@ Seit Release 14.2 wurden über 115 neue Funktionen und Verbesserungen zu
 OpenOlat hinzugefügt. Hier finden Sie die wichtigsten neuen Funktionen und
 Änderungen. Zusätzlich zu wurden mehr als 105 Bugs behoben. Die komplette
 Liste der Änderungen in 14.2 – 14.2.9 finden Sie
-[hier](https://confluence.openolat.org/display/OO142DE/Release+Notes+14.2#ReleaseNotes14.2-ReleaseNotes-
-Versionen).
+[hier](https://confluence.openolat.org/display/OO142DE/Release+Notes+14.2#ReleaseNotes14.2-ReleaseNotes-Versionen).
 
 ![](assets/150/Features_Improvements_Labels_DE.png)
 
@@ -97,13 +96,9 @@ werden.
   
 
 ![](assets/150/7aef91b4-2512-4851-96ca-c5b47c633d27.png)
-![](../../download/attachments/108593240/e86b5161-e856-45cd-
-ab99-4172a052f88e.png)
+![](assets/150/e86b5161-e856-45cd-ab99-4172a052f88e.png)
 
   
-
-  
-
 #### Bearbeitung und Bewertung des Lernpfadkurses
 
 Es stehen pro Kursbaustein verschiedene Erledigungskriterien wie
