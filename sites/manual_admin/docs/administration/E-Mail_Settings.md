@@ -56,7 +56,7 @@ behavior.
 
   
 
-##  E-mail template
+##  E-mail template {: #template}
 
 OpenOlat is sending e-mails for various events. To make the e-mails look more
 attractive, those e-mails are sent as HTML mails including formatting. Using

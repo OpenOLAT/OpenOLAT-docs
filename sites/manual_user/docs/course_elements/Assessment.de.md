@@ -48,22 +48,20 @@ der Kurs-Administration zu der Sie [hier
 In der Kategorie Wissensüberprüfung findet man auch den OpenOlat Fragebogen
 bzw. den Kursbaustein Umfrage.
 
-## Kursbaustein „Bewertung“  
-![](../download/thumbnails/590039/manual_score_thumbs-o-
-up_434343_64%EF%B9%96version=1&modificationDate=1487251971000&api=v2.png)
+## Kursbaustein „Bewertung“  {: #course_element_assessment}
+![](assets/manual_score_thumbs-o-up.png)
 
 Der Kursbaustein „Bewertung“ eignet sich, um Leistungen zu bewerten, welche
 nicht explizit elektronisch abgegeben werden, z.B. Präsenz-Referate oder
 Online-Webseiten.
 
-Auf separaten Seiten erfahren Sie wie man eine [Bewertung
-](viewpage.action%EF%B9%96pageId=108593280.html)einrichtet, durchführt und
+Auf separaten Seiten erfahren Sie wie man eine 
+[Bewertung](Course_Element_Assessment.de.md) einrichtet, durchführt und
 konfiguriert.
 
   
 
-##  
-Kursbaustein "Aufgabe"
+## Kursbaustein "Aufgabe" {: #course_element_task}
 
 ![](assets/task.png)
 
@@ -87,13 +85,13 @@ möchten:
   *  **Bewertung** : Bewertet werden einzelne Teilnehmer individuell oder die Gruppe, d.h. alle Gruppenmitglieder erhalten dieselbe Bewertung.
 
 Eine Schritt-für-Schritt-Anleitung zum Erstellen einer Aufgabe und die
-detaillierten [Konfigurationsmöglichkeiten
-](../task/Task_-_Further_Configurations.de.md)finden Sie im
-Kapitel [„Aufgabe erstellen"](../display/OO161DE/Aufgabe+erstellen.html).
+detaillierten 
+[Konfigurationsmöglichkeiten](../task/Task_-_Further_Configurations.de.md)finden Sie im
+Kapitel [„Aufgabe erstellen"](../task/index.md).
 
   
 
-## Kursbaustein „Portfolioaufgabe“
+## Kursbaustein „Portfolioaufgabe“ {: #course_element_portfolio}
 
 ![](assets/portfolio_434343_64.png)
 
@@ -140,7 +138,7 @@ bewerten](../portfolio/Portfolio_assignment_Grading.de.md)“.
 Generelle Infos zum Thema Portfolio bzw. E-Portfolio finden Sie
 [hier](../display/OO161DE/Portfolio+erstellen.html).
 
-## Kursbaustein "Gruppenaufgabe"  
+## Kursbaustein "Gruppenaufgabe"  {: #course_element_group_tasks}
 ![](assets/task.png)
 
 Der Kursbaustein Gruppenaufgabe funktioniert größtenteils wie der Kursbaustein
@@ -159,8 +157,7 @@ angezeigt, die dann ausgewählt und bewertet werden können. Im Rahmen des
 Bewertungsprozesses kann entschieden werden, ob die Bewertung für die gesamte
 Gruppe gilt oder ob die Bewertung nur für ein bestimmtes Gruppenmitglied gilt.  
 
-##  
-Kursbaustein „Test“  
+##  Kursbaustein „Test“  {: #course_element_test}
 ![](assets/test.png)
 
 Mit dem Kursbaustein „Test“ binden Sie eine OpenOlat Lernressource „Test“ in
@@ -247,7 +244,7 @@ erstellen](../display/OO161DE/Tests+erstellen.html)“. Relevant ist hier vor
 allem das Kapitel „[Tests auf
 Kursebene](../tests/Tests_at_course_level.de.md).
 
-## Kursbaustein "Formular"
+## Kursbaustein "Formular"  {: #course_element_form}
 
 ![](assets/Forular_icon.png)
 
@@ -278,7 +275,7 @@ bestimmte Formulare verpflichtend ausfüllen müssen, z.B. vor der Aufnahme
 eines Laborpraktikums oder als Bestätigung für das eigenständige Erbringen
 einer Leistung.
 
-##  Kursbaustein „Umfrage“
+##  Kursbaustein „Umfrage“ {: #course_element_survey}
 
 ![](assets/formular_434343_64.png)
 
@@ -307,7 +304,7 @@ Danach können nur noch Tippfehler korrigiert werden.
 Achtung: Wenn Teilnehmende aktuell die Umfrage ausführen, jedoch noch nicht
 abgeschlossen haben, gehen deren Resultate verloren.
 
-## Kursbaustein „Checkliste“
+## Kursbaustein „Checkliste“  {: #course_element_checklist}
 
 ![](assets/checklist.png)
 
@@ -335,7 +332,7 @@ Gegenstandes zu unterschiedlichen Zeitpunkten (Entwicklung) erstellt werden.
 Weitere Informationen finden Sie
 [hier](viewpage.action%EF%B9%96pageId=108593318.html).
 
-### Highscore
+### Highscore {: #highscore}
 
 Alle bewertbaren Kursbaustein und auch der Kursbaustein „Struktur“ verfügen
 zusätzlich über den Tab „Highscore“.

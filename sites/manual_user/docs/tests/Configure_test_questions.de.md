@@ -39,7 +39,7 @@ mathematische Formel oder sonstige Formatierungen enthalten soll, die mit dem
 OpenOlat HTML Editor erstellt werden können.  
 ![](assets/formatiert1.jpg)
 
-###  Tab Punkte
+###  Tab Punkte {: #score}
 
 Im Tab „Punkte“ können die Anzahl der Lösungsversuche für die einzelne Frage
 eingeschränkt werden, die minimale und maximale Punktzahl definiert sowie die
@@ -62,7 +62,7 @@ Folgende Konfigurationen stehen zur Verfügung:
     * Für Lückentext-Fragen können zudem unterschiedliche "Punkte pro Antwort und Varianten" vergeben und somit z.B. auch Teilpunkte für "halb richtige" Antworten hinterlegt werden.
     * Die Bewertungsmethode steht bei KPrim, Datei hochladen, Zeichnen und Freitext nicht zur Verfügung.
 
-###  Tab Feedback
+###  Tab Feedback {: #feedback}
 
 Pro Frage können unterschiedliche Arten von Feedbacks hinzugefügt werden.
 Angefangen von Lösungshinweisen bis hinzu korrekten Lösungen unter bestimmten

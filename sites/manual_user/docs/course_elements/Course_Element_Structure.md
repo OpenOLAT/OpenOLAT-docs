@@ -39,7 +39,7 @@ other files stored in OpenOlat, you must select the option "Allow links in the
 entire storage folder" under "Security settings". You can also allow coaches
 to edit the HTML page without access to the course editor.
 
-##  Tab Score (only with conventional courses)
+##  Tab Score (only with conventional courses) {: #score}
 
 By means of this field you can process results of course elements of the type
 _Structure_ ,  _Assessment_ ,  _Group_  /  _Task, SCORM learning content,

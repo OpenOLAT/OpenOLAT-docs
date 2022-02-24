@@ -9,7 +9,7 @@
 
 sowie mehrere [Virtuelle Klassenzimmer](Virtual_classrooms.de.md)
 
-## Kursbaustein „Wiki“
+## Kursbaustein „Wiki“ {: #wiki}
 
 ![](assets/wiki.png)
 
@@ -46,7 +46,7 @@ einer Seite betrachten können.
 Wenn Sie in Ihrer OpenOlat Instanz keinen Kursbaustein "Wiki" finden können,
 so wurde dies systemweit von einem Administrator ausgeschaltet.
 
-## Kursbaustein „Forum“
+## Kursbaustein „Forum“ {: #forum}
 
 ![](assets/forum.png)
 
@@ -128,7 +128,7 @@ Vergabe von Moderationsrechten vorgenommen werden.
 
   
 
-## Kursbaustein „Dateidiskussion“
+## Kursbaustein „Dateidiskussion“ {: #file_dialog}
 
 ![](assets/file_discussion.png)
 
@@ -161,7 +161,7 @@ Kurseditor in den Benutzerberechtigungen des Tabs "Konfiguration" definiert.
 
   
 
-##  Kursbaustein "Teilnehmer Ordner"
+##  Kursbaustein "Teilnehmer Ordner" {: #participant_folder}
 
 ![](assets/pfolder_434343_64.png)
 
@@ -210,7 +210,7 @@ umgesetzt werden, nur dass die Möglichkeiten des Aufgabenbausteins deutlich
 umfassender und komplexer sind und hier auch eine Bewertung bzw. Punktevergabe
 vorgenommen werden kann.
 
-## Kursbaustein „Teilnehmerliste“
+## Kursbaustein „Teilnehmerliste“  {: #participant_list}
 
 ![](assets/group_users_434343_64.png)
 

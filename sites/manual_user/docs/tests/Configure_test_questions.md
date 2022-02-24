@@ -30,7 +30,7 @@ OpenOlat.
 
 ![](assets/formatted_editor.jpg)
 
-###  ** Tab Score**
+###  Tab Score {: #score}
 
 In the tab "Score" you can define the number of attempts for a question, set
 the minimum and maximum score, and define how the question shall be rated.
@@ -55,7 +55,7 @@ The following settings are possible:
     * For gap text questions, different "Score per answer and alternatives" can also be assigned and thus, for example, partial points can be stored for "half correct" answers.
     * The method of assessment cannot be chosen for Kprim, upload file, drawing or essay.
 
-###  ** Tab Feedback**
+###  Tab Feedback {: #feedback}
 
 You can add different types of feedback to each question. E.g. hints to help
 with the answer, or provide the correct answer if certain conditions are met.

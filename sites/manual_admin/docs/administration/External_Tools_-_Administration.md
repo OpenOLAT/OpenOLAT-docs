@@ -59,7 +59,7 @@ This LTI version is currently in the trial phase.
 
 Activation and configuration if license available
 
-## vitero
+## vitero {: #vitero}
 
 In order to use the vitero connection, you must have a vitero license and make
 the following settings in the administration environment:

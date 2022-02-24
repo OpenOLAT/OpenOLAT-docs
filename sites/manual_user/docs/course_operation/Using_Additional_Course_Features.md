@@ -56,9 +56,7 @@ set links to course elements or external websites used in the course. If you
 would like to delete all dates of a course calendar, simply click on the gear
 symbol in the calendar area and select "Reset calendar".
 
-Course calendars are also automatically transferred to the [personal
-calendars](https://confluence.openolat.org/display/OO130EN/Personal+Menu#PersonalMenu-
-_pers_kalender) of course members. Thus all dates can be called up also
+Course calendars are also automatically transferred to the [personal calendars](../personal/Calendar.md) of course members. Thus all dates can be called up also
 directly over the personal OpenOlat calendar. The same applies to group
 calendars. In the case of group calendars, it is possible to set in the group
 administration which write/read rights the members receive.
@@ -74,17 +72,14 @@ you can configure the permissions.
 
 Here all course owners, coaches and participants of a course can be displayed
 centrally. Course participants can send e-mails to specific persons, even to
-individual course members. In contrast to the [course element "Participant
-list"](../learning_activities/Working_With_Course_Elements.md) no further configurations can be
+individual course members. In contrast to the [course element "Participant list"](../learning_activities/Working_With_Course_Elements.md) no further configurations can be
 made here.
 
   
 
 ## Participant infos
 
-This tool corresponds to the [course element
-"Notifications".](Administration+and+Organisation.html#AdministrationandOrganisation-
-_mitteilung) Participants can subscribe to the tool and thus be notified when
+This tool corresponds to the [course element "Notifications".](../course_elements/Administration_and_Organisation.md) Participants can subscribe to the tool and thus be notified when
 there is new information. In contrast to the course element no further
 configurations can be made here.
 
@@ -96,11 +91,7 @@ Here the course owner can configure to whom the learners can send mails via
 this link. There are three course roles to choose from: "course owner,"
 "coach," and "participant". A further differentiation is not possible. In case
 you need more differentiated settings for sending mails to course members you
-should use the [course element
-"E-mail"](Administration+and+Organisation.html#AdministrationandOrganisation-
-_mail) or the [course element "List of
-participants"](Communication+and+Collaboration.html#CommunicationandCollaboration-
-_teilnehmerliste).
+should use the [course element "E-mail"](../course_elements/Administration_and_Organisation.md) or the [course element "List of participants"](../course_elements/Communication_and_Collaboration.md).
 
   
 
@@ -113,32 +104,29 @@ can be created here.
 
 ## BigBlueButton online meetings
 
-Similar to the [course element
-BigBlueButton](../course_elements/Course_element_BigBlueButton.md), rooms for synchronous
+Similar to the [course element BigBlueButton](../course_elements/Course_element_BigBlueButton.md), rooms for synchronous
 meetings can be created here.
 
   
 
 ## Blog
 
-Here you can create or import a [blog (learning
-resource)](Creating+Blogs.html). Learners can subscribe to the central course
+Here you can create or import a [blog (learning resource)](../resource_blog/index.md). Learners can subscribe to the central course
 blog.
 
   
 
 ## Wiki
 
-Here you can create or import a [Wiki (learning
-resource)](Creating+Wikis.html). Learners can subscribe to the central Wiki.
+Here you can create or import a [Wiki (learning resource)](../resource_wiki/index.md). Learners can subscribe to the central Wiki.
 
   
 
 ## Forum
 
 A central forum can be activated for a course. Course members can subscribe to
-the forum as usual. However, differentiated settings as in the [course element
-"Forum"](../course_elements/Communication_and_Collaboration.md#CommunicationandCollaboration-d14e3744)
+the forum as usual. However, differentiated settings as in the 
+[course element "Forum"](../course_elements/Communication_and_Collaboration.md)
 are not possible here.
 
   
@@ -148,8 +136,8 @@ are not possible here.
 The teacher can use this link to provide important central documents of the
 course for download. Students can download the documents, be notified when new
 documents are available (subscribe) and, if required, send the files by
-e-mail. However, configuration options are not as extensive as in the [course
-element "Folder"](../course_elements/Course_Element_Folder.md).
+e-mail. However, configuration options are not as extensive as in the 
+[course element "Folder"](../course_elements/Course_Element_Folder.md).
 
   
 
@@ -184,7 +172,7 @@ Whether the chat function is available in your OpenOlat system depends on your
 contract. In case you cannot activate the course chat, please send a message
 to [contact@frentix.com](mailto:contact@frentix.com).
 
-##  Glossary
+##  Glossary {: #glossary}
 
 A glossary explains the terms of a course, subject or event to the
 participants. Glossaries are OpenOlat learning resources that can be used
@@ -207,8 +195,7 @@ afterwards.
 If you no longer use the glossary or want to integrate another glossary you
 can make the desired changes in the course or on the info page by using the
 drop-down menu "Course" via the menu item
-"[Options](https://confluence.openolat.org/display/OO141EN/Course+Settings#CourseSettings-
-Toolbar)".
+"[Options](../course_create/Course_Settings.md)".
 
 In the learning resource "Glossary" you can define in the tab "Write
 permission" if only owners of that learning resource are allowed to create and

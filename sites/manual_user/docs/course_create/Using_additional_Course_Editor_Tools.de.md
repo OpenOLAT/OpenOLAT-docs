@@ -76,7 +76,7 @@ zur Bewertungskonfiguration und zum Lernpfad möglich.
 
 ![](assets/Kurseditor_Konfiguration_aendern.png)
 
-## Kursvorschau
+## Kursvorschau {: #preview}
 
 Das Editorwerkzeug „Kursvorschau“ gibt Ihnen die Möglichkeit, die
 Kurseinstellungen und Inhalte aus der Sicht von Kursteilnehmenden zu

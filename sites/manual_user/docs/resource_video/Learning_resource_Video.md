@@ -116,7 +116,7 @@ Types](../tests/Test_question_types.md)" chapter.
 
 ![](assets/VideoLR_Quiz_EN.png)
 
-####  Subtitle configuration
+####  Subtitle configuration {: #video_subtitles}
 
 A video can be assigned with subtitles in any amount of languages. In OpenOlat
 subtitles are uploaded in the [WebVTT format](https://w3c.github.io/webvtt/)
@@ -165,7 +165,7 @@ OpenOlat it looks like the following:
 As soon as you move the cursor over the icon the list with the existing
 subtitles expands. The current selection is dyed.
 
-####  Video quality
+####  Video quality {: #video_quality}
 
 In the tab "Video quality" the resolution of the video is shown. As soon as a
 video is uploaded, videos in different resolutions will be created. This
@@ -186,7 +186,7 @@ available. For videos added via "Import URL", the settings cannot be made.
 In the Download tab you can set whether the users are allowed to download the
 video or not.
 
-## Embed videos in courses
+## Embed videos in courses {: #video_courseelement}
 
 The course element "[Video](Knowledge+Transfer.html#KnowledgeTransfer-
 _video_kursbausteinVideoCourseElement:Video)" allows the author to embed

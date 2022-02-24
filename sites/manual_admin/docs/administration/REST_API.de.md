@@ -158,7 +158,7 @@ direkt mit dem adressierten System interagieren.
 
   
 
-###  Extern verwaltete Kurse und Gruppen
+###  Extern verwaltete Kurse und Gruppen {: #managed}
 
 Kurse und Gruppen können über das REST API erstellt werden. Solch extern
 erstellte Kurse und Gruppen werden als "managed" bezeichnet, da ein externes

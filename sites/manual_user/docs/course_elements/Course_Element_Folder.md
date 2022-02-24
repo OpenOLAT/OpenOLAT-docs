@@ -13,7 +13,7 @@ configuration" to allow participants to upload and edit files.
 Please note: The order of the files is not fixed. The user can sort the files
 according to the columns by name, size and modification date.
 
-##  Tab Folder Configuration
+##  Tab Folder Configuration {: #config}
 
 ![](assets/folger_configuration_15.png)
 
@@ -71,7 +71,7 @@ Furthermore, all users can ...
   * Search the files in the folder for keywords
   * Subscribe to the folder and be quickly informed about changes
 
-###  Metadata
+###  Metadata  {: #metadata}
 
 The gear symbol can be used to configure the metadata of a file and thus add
 various information. In addition to the description and lock properties, the

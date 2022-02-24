@@ -7,7 +7,7 @@
     * 1.4 Kursbaustein „Kalender“
     * 1.5 Kursbaustein "Terminplanung"
 
-## Kursbaustein „Einschreibung“
+## Kursbaustein „Einschreibung“ {: #enrolment}
 
 ![](assets/enrolment.png)
 
@@ -35,7 +35,7 @@ Sofern Sie zuvor einen oder mehrere Lernbereiche in der Administration
 angelegt und hier Gruppen zugeordnet haben, können Sie auf diese Lernbereiche
 auch im Tab "Konfiguration" des Einschreibebausteins zugreifen.
 
-## Kursbaustein „Mitteilungen“
+## Kursbaustein „Mitteilungen“ {: #notification}
 
 ![](assets/infomessage.png)
 
@@ -78,7 +78,7 @@ Infos](../course_operation/Using_Additional_Course_Features.de.md)".
 
   
 
-## Kursbaustein „E-Mail“  
+## Kursbaustein „E-Mail“  {: #mail}
 ![](assets/contact.png)
 
   
@@ -173,7 +173,7 @@ Ein Element  "E-Mail" mit ähnlichen Funktionen, jedoch ohne spezifische
 Konfiguration, findet man auch in der
 [Toolbar](../course_operation/Using_Additional_Course_Features.de.md).
 
-##  Kursbaustein „Kalender“
+##  Kursbaustein „Kalender“ {: #cal}
 
 ![](assets/calendar.png)
 
@@ -211,7 +211,7 @@ sinnvoller in den Einstellungen den Kalender in der [Toolbar
 Wenn Sie in Ihrer OpenOlat Instanz keinen Kursbaustein "Kalender" finden
 können, so wurde dies systemweit von einem Administrator ausgeschaltet.
 
-##  Kursbaustein "Terminplanung"
+##  Kursbaustein "Terminplanung"  {: #appointment_scheduling}
 
 ![](assets/dateentry.png)
 
@@ -241,9 +241,7 @@ Termine dieser Abstimmung hinzufügen.  Auch können bereits angelegte Termine
 
 ![](assets/Termin_hinzufuegen.jpg)
 
-####
-
-**Termine: erstellen & bearbeiten**
+#### Termine: erstellen & bearbeiten
 
 Menü "Anlass erstellen"
 

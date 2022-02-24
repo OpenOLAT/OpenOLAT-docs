@@ -22,7 +22,7 @@ The REST API can be activated / deactivated under administration.
 
   
 
-### **Concepts**
+### Concepts
 
 Representational State Transfer or REST is a style of architecture to be
 primarily used with the HTTP protocol, but not exclusively. In the case of
@@ -36,7 +36,7 @@ used as a backend for the implementation of our REST API. JSR-311 is a
 standard from J2EE. We use the reference implementation from the following
 standard: [Jersey](https://jersey.dev.java.net/).
 
-####  **Usage**
+####  Usage
 
 The OpenOlat REST API has been developed with remote management applications
 in mind. It does not implement all features available in the web UI and many
@@ -53,7 +53,7 @@ settings.
 While theoretically possible, it is not meant as an API to implement
 alternative UI clients for end users. Keep this in mind when using the API.
 
-###  **Security**
+###  Security
 
 The security is based on a two level mechanism, as it is in OpenOlat.
 
@@ -66,7 +66,7 @@ two methods:
   1. Reuse the session cookie on every request. The advantage of this method is that OpenOlat doesn't need to create a session on every request.
   2. If you cannot use the session cookie, the filter always adds an HTTP Header (X-OLAT-TOKEN) to the response. Send this token with the next request to maintain your privileges.
 
-####  **Best practice usage**
+####  Best practice usage
 
 If the REST API is used to implement specific features in the OpenOlat web
 user interface such as using the course database, the OpenOlat web session
@@ -93,7 +93,7 @@ well.
 
   
 
-###  **Configuration**
+###  Configuration
 
 A spring bean allows to configure Resources, Singletons and Providers; either
 statically with the XML configuration of the bean (
@@ -109,7 +109,7 @@ annotations.
  **Very important!** All configuration settings must be done before the
 Jersey's servlet starts.
 
-####  **Example**
+####  Example
 
 Here is a little example on how to create a user and add it to a learning
 group:
@@ -126,7 +126,7 @@ group:
     PUT http://www.frentix.com/Olat/restapi/groups/{groupId}/users/{identityKey}
     Response: 200
 
-### **Documentation**
+### Documentation
 
 The documentation is based on the OpenAPI specification (formerly Swagger
 Specification), which is an API description format for REST APIs. The OpenAPI
@@ -143,7 +143,7 @@ these requests are binding and directly interacting with the addressed system.
 
   
 
-###  Externally managed courses and groups
+###  Externally managed courses and groups  {: #managed}
 
 Courses and groups can be created via REST API. Such externally managed
 courses and groups are called "managed" as an external system is responsible

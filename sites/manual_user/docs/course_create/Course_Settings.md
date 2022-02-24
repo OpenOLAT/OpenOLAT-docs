@@ -72,7 +72,7 @@ menu.
 Only enter your courses in the catalog when they are finished and should be
 visible to the users.
 
-##  Disclaimer
+##  Disclaimer {: #disclaimer}
 
 Here you can activate and set course-related terms of use or a course-related
 privacy policy. If a person starts the course, he/she must first accept the
@@ -122,7 +122,7 @@ of the learning steps.
 
 ![](assets/Kurs_struktur.png)
 
-##  Assessment
+##  Assessment {: #assessment}
 
 In this tab you can activate performance records and have a certificate
 generated automatically. If you activate the option "Use certificates of
@@ -345,7 +345,7 @@ For conventional courses, the criteria for passing a course are set in the
 course editor on the top course element and the result is displayed on the
 course start page.
 
-##  Options
+##  Options  {: #options}
 
 Here you can activate and configure a course-specific
 [glossary](../course_operation/Using_Additional_Course_Features.md) and a resource folder. And

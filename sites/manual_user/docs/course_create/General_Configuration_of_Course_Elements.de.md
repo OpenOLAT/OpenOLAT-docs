@@ -1,4 +1,4 @@
-Kursbausteinen](General_Configuration_of_Course_Elements.de.md)
+# Kursbausteinen
 
 ## Hinzufügen von Kursbausteinen
 
@@ -44,7 +44,7 @@ Kurse](Learning_path_course.de.md) zusätzlich
 Daneben gibt es einen oder mehrere Tabs zur individuellen Konfiguration des
 jeweiligen Kursbausteins.
 
-###  Tab „Titel und Beschreibung“
+###  Tab „Titel und Beschreibung“ {: #desc}
 
 Im Tab „Titel und Beschreibung“ beschreiben Sie den Kursbaustein genauer. Das
 Feld „ **Titel** “ ist ein Pflichtfeld und muss ausgefüllt werden. Der "
@@ -126,9 +126,7 @@ Kursbausteins aussehen wird.
 
 ![](assets/Tab_Layoutd.png)
 
-##
-
-###  Tab „Sichtbarkeit“ und „Zugang“ der herkömmlichen Kurse
+###  Tab „Sichtbarkeit“ und „Zugang“ der herkömmlichen Kurse  {: #access}
 
 Über die Tabs Sichtbarkeit und Zugang kann der Zugriff auf einen Kursbaustein
 und aller untergeordneten Kursbausteine eingeschränkt werden, so dass nur

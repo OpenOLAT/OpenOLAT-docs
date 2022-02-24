@@ -14,7 +14,7 @@ Bitte beachten: Die Reihenfolge der Dateien ist nicht fix. Der User kann sich
 die Dateien entsprechend der Spalten nach Namen, Grösse und Änderungsdatum
 sortieren.
 
-##  Tab Ordnerkonfiguration
+##  Tab Ordnerkonfiguration {: #config}
 
 ![](assets/KB_Ordner_16.png)
 
@@ -74,7 +74,7 @@ Ferner können alle User ...
   * die Dateien des Ordners nach Stichworten durchsuchen
   * den Ordner abonnieren und so schnell informiert über Änderungen informiert werden
 
-###  Metadaten
+###  Metadaten {: #metadata}
 
 Über das Zahnradsymbol können die 
 [Metadaten ](../personal/Full-Text_Search.de.md#Volltextsuche-_metadata)einer Datei

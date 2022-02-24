@@ -104,7 +104,7 @@ Fragetypen"](../tests/Test_question_types.de.md).
 
 ![](assets/Video_Quiz1.png)
 
-###  Untertitel konfigurieren
+###  Untertitel konfigurieren  {: #video_subtitles}
 
 Einem Video können Untertitel in beliebig vielen Sprachen zugewiesen werden.
 Untertitel werden in OpenOlat im [WebVTT
@@ -156,7 +156,7 @@ Benutzer aktiviert werden. In OpenOlat sieht das dann folgendermassen aus:
 Sobald Sie mit dem Mauszeiger über das Icon fahren klappt sich die Liste der
 bestehenden Untertitel aus. Die aktuelle Auswahl ist dabei eingefärbt.
 
-###  Videoqualitäten
+###  Videoqualitäten {: #video_quality}
 
 Im Tab Videoqualität sehen Sie in welchen Auflösungen das Video vorliegt.
 Sobald ein Video hochgeladen wird, werden Videos in den verschiedenen
@@ -182,7 +182,7 @@ Einstellungen nicht vorgenommen werden.
 Im Tab Download kann eingestellt werden, ob die User das Video herunterladen
 dürfen oder nicht.
 
-## Videos in Kurse einbinden
+## Videos in Kurse einbinden {: #video_courseelement}
 
 Erstellte Video Lernressourcen können zusätzlich noch über den [Kursbaustein
 "Video" ](../../pages/viewpage.action%EF%B9%96pageId=108593229.html)in

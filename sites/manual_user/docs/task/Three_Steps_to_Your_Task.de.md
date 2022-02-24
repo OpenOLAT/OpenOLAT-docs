@@ -31,7 +31,7 @@ wählen.
 5| Im Tab „Titel und Beschreibung“ kurzen Titel des Kursbausteins eingeben und
 speichern.  
   
-Schritt 2: Aufgabe konfigurieren  
+Schritt 2: Aufgabe konfigurieren  {: #configuration}
 ---  
 1|
 

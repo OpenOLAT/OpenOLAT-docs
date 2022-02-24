@@ -23,9 +23,10 @@ Gruppenbewertung erfolgt über den Tab „Gruppen“.
 
   
 
- **Erstellung einer Massenbewertung für die Kursbausteine[Aufgabe
-](../course_operation/Assessing_tasks_and_group_tasks.de.md)oder
-[Bewertung](../course_operation/Assessment_of_course_modules.de.md)**
+## Erstellung einer Massenbewertung für die Kursbausteine Aufgabe oder Bewertung {: #node}
+
+  * [Aufgabe](../course_operation/Assessing_tasks_and_group_tasks.de.md)
+  * [Bewertung](../course_operation/Assessment_of_course_modules.de.md)  
 
 Verwenden Sie ein externes Tabellenprogramm, erstellen Sie die gewünschten
 bzw. benötigten Spalten und tragen Sie die Bewertungen ein. Kopieren Sie
@@ -37,7 +38,7 @@ Verfügung.
 Ist die Option „Bewertung“ im Baustein nicht aktiviert kann auch keine
 Massenbewertung vorgenommen werden.
 
-Hilfestellung zur Erstellung von Massenbewertungen
+### Hilfestellung zur Erstellung von Massenbewertungen
 
 Wählen Sie zunächst im Bewertungswerkzeug den Kursbaustein Ihres Kurses aus,
 für den eine Massenbewertung durchgeführt werden soll. Er muss so konfiguriert
@@ -63,7 +64,7 @@ Beim Kursbaustein Aufgabe kann zusätzlich gewählt werden ob die Abgabe
 akzeptiert wurde und es können gezippt Rückgabedateien hochgeladen werden.
 
   
-**1\. Bewertungsdaten**
+#### 1. Bewertungsdaten
 
 Laden Sie hier die außerhalb von OpenOlat erstellten Bewertungsdaten hoch
 indem Sie die Infos mit copy+paste in das freie Feld einfügen. Wenn Sie sich
@@ -103,19 +104,19 @@ einen Ordner. Legen Sie dort das individuelle Feedback für die jeweilige
 Person ab. Zippen Sie die Datei und laden Sie diese im ersten Schritt unter
 „Bewertungsdaten“ hoch.
 
- **2\. Spaltenzuweisung**
+#### 2. Spaltenzuweisung {: #map}
 
 Hier können Sie definieren welche Spalten ihrer extern erstellten Bewertung
 für welches Feld stehen (z.B. Identifikator, Punkte, bestanden, Kommentar).
 
 ![](assets/Spaltenzuweisung.png)
 
-**3\. Daten überprüfen**
+#### 3. Daten überprüfen
 
 Hier wird Ihnen noch einmal angezeigt welche Informationen wie übernommen
 werden und ob es Probleme gibt.
 
- **4\. Planung**
+#### 4. Planung {: #schedule}
 
 Hier können Sie definieren ob die Bewertung sofort erfolgt oder erst zu einem
 bestimmten Datum.

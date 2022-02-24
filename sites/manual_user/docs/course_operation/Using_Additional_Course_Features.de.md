@@ -1,5 +1,4 @@
-##  [Einsatz weiterer Kursfunktionen der
-Toolbar](Using_Additional_Course_Features.de.md)
+# Einsatz weiterer Kursfunktionen der Toolbar
 
 In der Kurs "Administration" unter "Einstellungen" können Sie im Tab "Toolbar"
 die folgenden weiteren Funktionen einrichten.
@@ -26,8 +25,7 @@ Elemente gefunden:
 ## Kurskalender
 
 Pro Kurs kann ein Kalender aktiviert werden. Für die Einbindung gibt es zwei
-Optionen. Der Kalender kann entweder als [Kursbaustein
-](../course_elements/Administration_and_Organisation.de.md)oder an zentraler Position oben in der
+Optionen. Der Kalender kann entweder als [Kursbaustein](../course_elements/Administration_and_Organisation.de.md)oder an zentraler Position oben in der
 Kurstoolbar angezeigt werden und somit einen guten Überblick geben.
 
 Neue Termine werden einfach mit Klick auf das gewünschte Datum erstellt.
@@ -43,9 +41,7 @@ setzen. Möchten sie alle Termine eines Kurskalenders löschen, klicken Sie
 einfach auf das Zahnradsymbol im Kalenderbereich und wählen Sie "Kalender
 zurücksetzen".
 
-Kurskalender werden ferner automatisch in den[ persönlichen
-Kalender](../../pages/viewpage.action%EF%B9%96pageId=108593349.html#Pers%C3%B6nlicheWerkzeuge-
-_pers_kalender) der Kursmitglieder übertragen. So können alle Termine auch
+Kurskalender werden ferner automatisch in den [persönlichen Kalender](../personal/Calendar.de.md) der Kursmitglieder übertragen. So können alle Termine auch
 direkt über den persönlichen OpenOlat Kalender aufgerufen werden. Gleiches
 gilt für Gruppenkalender. Bei Gruppenkalendern kann in der
 Gruppenadministration eingestellt werden welche Schreib-/bzw. Leserechte die
@@ -67,9 +63,7 @@ hier jedoch keine weiteren Konfigurationen vorgenommen werden.
 
 ## Teilnehmer Infos
 
-Das Tool entspricht dem [Kursbaustein
-„Mitteilungen"](Verwaltung+und+Organisation.html#VerwaltungundOrganisation-
-_mitteilung). Teilnehmende können das Tool abonnieren und somit benachrichtigt
+Das Tool entspricht dem [Kursbaustein „Mitteilungen"](../course_elements/Administration_and_Organisation.de.md). Teilnehmende können das Tool abonnieren und somit benachrichtigt
 werden, wenn es neue Informationen gibt. Anders als im Kursbaustein können
 hier jedoch keine weiteren Konfigurationen vorgenommen werden.  
 
@@ -79,11 +73,8 @@ Hier kann der Kursbesitzer konfigurieren an wen die Lernenden über diesen Link
 Mails verschicken können. Zur Auswahl stehen die drei Kursrollen
 „Kursbesitzer“, „Betreuer“ und „Teilnehmer“. Eine weitere Differenzierung ist
 nicht möglich. Falls Sie differenziertere Einstellungen für den Versand an
-Kursmitglieder benötigen, sollten Sie den [Kursbaustein
-"E-Mail"](../course_elements/Administration_and_Organisation.de.md#VerwaltungundOrganisation-_mail)
-oder den [Kursbaustein
-„Teilnehmerliste](Kommunikation+und+Kollaboration.html#KommunikationundKollaboration-
-_teilnehmerliste)“ nutzen.
+Kursmitglieder benötigen, sollten Sie den [Kursbaustein "E-Mail"](../course_elements/Administration_and_Organisation.de.md#mail)
+oder den [Kursbaustein „Teilnehmerliste](../course_elements/Communication_and_Collaboration.md)“ nutzen.
 
 ## Teams Online-Meeting
 
@@ -97,20 +88,19 @@ können hier Räume für synchrone Meetings angelegt werden.
 
 ## Blog
 
-Hier können Sie einen [Blog (Lernressource)](Blog+erstellen.html) erstellen
+Hier können Sie einen [Blog (Lernressource)](../resource_blog/index.de.md) erstellen
 oder importieren. Die Lernenden können den zentralen Kursblog abonnieren.
 
 ## Wiki
 
-Hier können Sie ein[ Wiki (Lernressource) ](Wiki+erstellen.html)erstellen oder
+Hier können Sie ein[ Wiki (Lernressource) ](../resource_wiki/index.de.md) erstellen oder
 importieren. Die Lernenden können das zentrale Wiki abonnieren.
 
 ## Forum
 
 Für einen Kurs kann ein zentrales Forum aktiviert werden. Kursmitglieder
 können das Forum wie gewohnt abonnieren. Differenzierte Einstellungen wie
-beim[ Kursbaustein
-"Forum"](../course_elements/Communication_and_Collaboration.de.md#KommunikationundKollaboration-d13e3776)
+beim[ Kursbaustein "Forum"](../course_elements/Communication_and_Collaboration.de.md)
 sind hier allerdings nicht möglich.
 
 ## Dokumente
@@ -119,8 +109,7 @@ sind hier allerdings nicht möglich.
 Download bereitstellen. Die Lernenden können die Dokumente herunterladen, sich
 benachrichtigen lassen, wenn neue Dokumente bereitstehen (abonnieren) und bei
 Bedarf die Dateien per Mail versenden. Die Konfigurationsmöglichkeiten sind
-aber nicht so umfangreich wie beim [Kursbaustein
-„Ordner"](../../pages/viewpage.action%EF%B9%96pageId=108593373.html).
+aber nicht so umfangreich wie beim [Kursbaustein „Ordner"](../course_elements/Course_Element_Folder.md).
 
 ##  Kurs-Chat
 
@@ -146,7 +135,7 @@ Ob die Chat-Funktion in Ihrem OpenOlat zur Verfügung steht, ist abhängig von
 Ihrem Vertrag. Falls Sie den Kurschat nicht aktivieren können, wenden Sie sich
 bitte an [contact@frentix.com](mailto:contact@frentix.com).
 
-## Glossar
+## Glossar {: #glossary}
 
 In einem Glossar können die Begriffe eines Kurses, eines Fachs bzw. einer
 Veranstaltung erklärt werden. Glossare sind OpenOlat Lernressourcen, die
@@ -169,7 +158,7 @@ gelöscht werden.
 
 Wenn Sie das Glossar nicht mehr verwenden oder ein anderes Glossar einbinden
 möchten, können im Menü "Einstellungen unter
-"[Optionen](../course_create/Course_Settings.de.md#Kurseinstellungen-d13e3167)" die gewünschte
+"[Optionen](../course_create/Course_Settings.de.md)" die gewünschte
 Änderung vornehmen.
 
 In der Lernressource „Glossar“ kann im Tab „Schreibberechtigung“ definiert

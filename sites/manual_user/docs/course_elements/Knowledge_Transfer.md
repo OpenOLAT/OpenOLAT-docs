@@ -42,7 +42,7 @@ content. Further information on the course elements "Single Page" and
 "Multiple Single Pages" can be found
 [here](Course_Element_Single_Page.md).
 
-##  Course Element: External Page
+##  Course Element: External Page {: #external_page}
 
 ![](assets/external_page.png)
 
@@ -104,8 +104,7 @@ the linked page is displayed as desired.
 
 Use the course element "CP Learning Content" to integrate learning content in
 IMS-CP format (IMS-CP Version 1.1.2) into your course. You can either create
-the CP directly in OpenOlat, which is explained in the chapter "[Five steps to
-your content packaging](../resource_cp/In_Five_Steps_to_Your_Content_Package.md)". Or you
+the CP directly in OpenOlat, which is explained in the chapter "[Five steps to your content packaging](../resource_cp/In_Five_Steps_to_Your_Content_Package.md)". Or you
 can create the CP externally, for example with [eLML](http://www.elml.org
 "eLML ").
 
@@ -217,12 +216,12 @@ video with OLAT Quiz and jump marks can be found in chapter "[Learning
 Resource: Video](../resource_video/Learning_resource_Video.md)".
 
   
-
-##  Course Element: Video Livestream
+ 
+##  Course Element: Video Livestream {: #livestream}
 
   
 
-##  Course Element: Opencast
+##  Course Element: Opencast  {: #opencast}
 
 With the course element Opencast, recordings of meetings and courses that are
 stored on an Opencast server can be integrated into OpenOlat courses. The
@@ -234,7 +233,7 @@ be integrated.
 
   
 
-##  Course Element: card2brain
+##  Course Element: card2brain {: #card2brain}
 
 ![](assets/card2brain_434343_64.png)
 
@@ -250,7 +249,7 @@ Further information on the course element can be found
 
   
 
-##  Course Element: Edubase
+##  Course Element: Edubase {: #edubase_config}
 
 ![](assets/edubas_icon.png)
 

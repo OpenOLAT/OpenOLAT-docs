@@ -1,87 +1,68 @@
-# Arbeiten mit der Themenvergabe
+# Arbeiten mit Tests
 
-![](assets/projectbroker.png)
+![](assets/test.png)
 
-## Thema auswählen
+In der Regel dienen Tests in OpenOlat der Wissensüberprüfung.  Hier ein paar
+Beispiele für den Einsatz von Tests:
 
-In der Themenvergabe stellen Themenverantwortliche Themen von beispielsweise
-Semesterarbeiten, Referaten, Webinarthemen oder Projekten zur Verfügung. Je
-nach Konfiguration können Sie eines oder mehrere Themen auswählen, Dateien
-hochladen und die vom Themenverantwortlichen zurückgegebenen Dateien einsehen.
+  * Tests zur Wissensüberprüfung nach einer Phase der Wissensvermittlung
+  * Tests zur Überprüfung des aktuellen Wissensstandes vor einem Kurs, um zu ermitteln wo noch Defizite bestehen bzw. um zu definieren auf welche Aspekte im Kurs besonders eingegangen werden soll
+  * Tests zur Überprüfung des eigenen Wissensstandes zu einem Thema, zur Identifikation von Vorlieben und Interessen
+  * Tests im Sinne von Quiz als spielerische Komponente
+  * Tests als Online-Klausur
 
-## Tabellenübersicht Themenvergabe
+In Tests können vom Lehrenden diverse [Fragetypen
+](../tests/Test_question_types.de.md)verwendet werden. Je nach Fragetyp können Sie eine oder
+mehrere Antworten ankreuzen, Elemente per drag & drop verschieben, Texte
+und/oder Zahlen einfügen, Dateien hinzufügen, Markierungen vornehmen oder
+(sehr einfache) Zeichnungen vornehmen.  Pro OpenOlat Kurs können auch mehrere
+Tests für unterschiedliche Zwecke zum Einsatz kommen.
 
-Als Kursteilnehmer sehen Sie in der Tabelle die ausgeschriebenen Themen sowie
-weitere Informationen wie die Namen der Verantwortlichen, den Einschreibe- und
-Abgabezeitraum oder die Anzahl der freien Plätze und können Ihr gewünschtes
-Thema „wählen“. Je nach Konfiguration können Sie eines oder mehrere Themen
-auswählen.
+## So bearbeiten Sie einen Test:  
 
- **Themenstatus** : Falls der Themenstatus auf "Frei" ist, können Sie sich für
-ein Thema eintragen. Das ist so lange möglich bis die maximale Teilnehmerzahl
-oder ein Enddatum erreicht ist. Ist der Themenstatus auf "Belegt", können sich
-bei diesem Thema keine weiteren Benutzer eintragen. Wenn Sie bereits ein Thema
-gewählt haben, ist der Themenstatus entweder auf "Provisorisch zugewiesen",
-wenn der Themenverantwortliche Sie als Teilnehmer akzeptieren muss. Sobald Sie
-der Themenverantwortliche als Teilnehmer akzeptiert, wird der Themenstatus auf
-"Definitiv zugewiesen" gesetzt. Alternativ ist auch eine automatische
-Akzeptanz möglich.
+Um mit der Bearbeitung eines Tests zu beginnen drücken Sie „Start“.
+Beantworten Sie die angezeigten Fragen und klicken Sie anschließend bei jeder
+Frage auf „Antwort speichern“. Sofern generell sichtbar, kann man in der
+linken Navigation sehen, welche Fragen bereits beantwortet wurden, welche
+Fragen nur angeschaut wurden und welche noch gar nicht angeklickt wurden.
 
-Sobald ihre Wahl definitiv ist, sehen Sie den entsprechenden Eintrag in der
-Tabelle und finden rechts oben den Link zu der Gruppe mit dem Titel Ihres
-Themas (eventuell erscheint der Eintrag erst nach dem nächsten OLAT Login).
-Sie können ein Thema nur dann abwählen, wenn der Themenverantwortliche es für
-das betroffene Thema gestattet. Besteht eine Einschreibefrist, können Sie sich
-nach Ablauf dieser Frist in jedem Fall nicht mehr austragen.
+![](assets/Test_Anzeige.png)
 
-Möglicherweise sehen Sie nicht alle der aufgeführten Dinge, da Ihr Dozent
-nicht alle Funktionen verwendet.
+Je nach Einstellung können Sie über den Button „Nächste Frage“ und/oder einem
+Link in der linken Navigation weiter navigieren oder es wird automatisch die
+nächste Frage angezeigt. Ob Sie Fragen überspringen können oder Sie einen
+Beantwortungsfortschritt sehen, ist ebenfalls von der Konfiguration des
+Lehrenden abhängig. Je nach Konfiguration dürfen Sie den Test unterbrechen und
+zu einem späteren Zeitpunkt fortfahren oder generell abbrechen ohne dass
+Resultate gespeichert werden.
 
-Klicken Sie auf ein Thema um weitere Informationen dazu zu erhalten:
+Wenn Sie fertig sind mit der Bearbeitung und den Test abschließen wollen,
+klicken Sie auf den Button „Test beenden“. Es erfolgt noch einmal eine
+Sicherheitsabfrage und wenn Sie diese bestätigen, wird der Test gespeichert
+und ist für die Lehrenden sichtbar.
 
-## Themendetails:
+Je nach verwendeten Fragetypen wird der Test automatisch ausgewertet oder muss
+noch manuell vom Lehrenden bewertet werden. Eine entsprechende Info wird
+angezeigt. Der Besitzer des Kurses stellt auch ein, wann und wie detailliert
+Sie über Ihre Testresultate informiert werden.
 
- **Thema** : Im Titel ist die Bezeichnung des Themas aufgeführt
+Im Bereich „Leistungsübersicht“ erhalten Sie weitere Informationen z.B.
 
- **Verantwortlich** : Hier sind die Themenverantwortlichen aufgelistet. Wenn
-Sie auf den Namen des Themenverantwortlichen klicken, gelangen Sie zu seiner
-Visitenkarte und können ihn kontaktieren.
+![](assets/Test_Leistungsuebersicht_kurs.png)
 
- **Beschreibung** : Im Feld Beschreibung finden Sie, sofern angegeben,
-Detailinformationen zum Thema.
+Wenn Ihnen weitere Versuche zur Bearbeitung des Tests zur Verfügung stehen,
+können Sie mit „Start“ den Test noch einmal durchlaufen. Bisherige Durchläufe
+bleiben dabei erhalten.
 
- **Zusätzliche Felder** : Eventuell werden Ihnen noch weitere Informationen in
-Zusatzfeldern bereitgestellt.  
+![](assets/selftest.png)
+**Selbsttest**
 
- **Einschreibetermin** : Wenn die Themenverantwortlichen eine Einschreibefrist
-definiert haben, können Sie nur in der entsprechenden Zeitspanne ein Thema
-aus- bzw. abwählen. Vor und nach Ablauf der Einschreibefrist kann Sie der
-Themenverantwortliche manuell ein- oder austragen.
+In OpenOlat gibt es zwei unterschiedliche Kursbausteine für Tests: „Tests“ und
+„Selbsttests“. Im Gegensatz zum Test werden im Selbsttest die Testresultate
+anonymisiert gespeichert. Selbsttests eignen sich für Übungszwecke und können
+unlimitiert absolviert werden. Auch werden bei Selbsttests die Ergebnisse nach
+Beenden des Tests automatisch angezeigt.
 
- **Abgabetermin** : Bis zu diesem Datum können Dateien im Ordner der
-Themenvergabe eingereicht werden.
-
- **Anhang** : Im Feld Anhang können die Themenverantwortlichen eine Datei
-bereitstellen.
-
-## Einreichungsprozess
-
-Optional können bei der Themenvergabe auch Einsendungen verwaltet werden.
-
- **Dateien in den Abgabeordner der Themenvergabe hochladen**
-
-Klicken Sie auf den Titel des Themas. Im Tab „Ordner“ finden Sie den
-Abgabeordner. Je nach Konfiguration ist die Abgabe termingebunden und Sie
-können nur innerhalb der Abgabefrist Dateien hochladen. Genaue Information zu
-den Terminen finden Sie im Tab „Beschreibung“.
-
- **Dateien aus dem Rückgabeordner herunterladen**
-
-Im Tab „Ordner“ finden Sie im Abschnitt „Rückgabeordner“ die Dateien, die
-Ihnen der Themenverantwortliche zurückgegeben hat.
-
-Wenn Sie als Themenverantwortlicher eingesetzt werden, können Sie Themen
-ausschreiben. Mehr dazu und dem Akzeptieren und Betreuen von Teilnehmern
-erfahren Sie im Kapitel „Kursbausteine“ → "Andere" unter dem Punkt
-"[Kursbaustein Themenvergabe](../course_elements/Other.de.md#Andere-_bb_themenvergabe)".
+Der Umgang mit Selbsttests ist ansonsten identisch mit der Handhabung der
+Tests (siehe oben).
 

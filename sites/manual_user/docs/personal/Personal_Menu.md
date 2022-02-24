@@ -62,9 +62,8 @@ e-mail. _The tab "_ Subscriptions _"_ provides you with a list of all
 subscribed objects _._ You have also the possibility to get information on
 modifications via RSS.
 
-  
 
- News via RSS
+### News via RSS {: #rss}
 
 **Why should I know what RSS is?:**
 

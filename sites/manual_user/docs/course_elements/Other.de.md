@@ -5,7 +5,7 @@
     * 1.2Kursbaustein „Themenvergabe“
     * 1.3Kursbaustein „Linkliste“
 
-## Kursbaustein „LTI-Seite“
+## Kursbaustein „LTI-Seite“ {: #lti}
 
 ![](assets/basiclti.png)
 
@@ -131,7 +131,7 @@ der Kursansicht auf die Schaltfläche "Launch Endpoint with BasicLTI Data"
 oberhalb der Anzeige der gesendeten Daten drücken, gelangen Sie zur Startseite
 der Lernapplikation.
 
-## Kursbaustein „Themenvergabe“
+## Kursbaustein „Themenvergabe“  {: #topic_assignment}
 
 ![](assets/projectbroker.png)
 
@@ -258,7 +258,7 @@ Wenn Sie die Option  _Text zusätzlich als E-Mail verschicken_ auswählen, so
 wird dem Benutzer nach erfolgreicher Abgabe seiner Datei ein E-Mail mit dem
 obigen Bestätigungstext geschickt.
 
-###  Kursansicht
+###  Kursansicht {: #topic_assignment_runtime}
 
 #### Neues Thema erstellen
 
@@ -408,7 +408,7 @@ Themenverantwortliche Sie als Teilnehmer akzeptieren muss, oder auf
 Themenverantwortliche als Teilnehmer akzeptiert, wird der Themenstatus auf
 "Definitiv zugewiesen" gesetzt.
 
-## Kursbaustein „Linkliste“
+## Kursbaustein „Linkliste“ {: #linklist}
 
 ![](assets/linklist.png)
 

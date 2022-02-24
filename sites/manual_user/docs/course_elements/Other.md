@@ -8,7 +8,7 @@
 
   
 
-##  Course Element: LTI Page
+##  Course Element: LTI Page {: #lti}
 
 ![](assets/basiclti.png)
 
@@ -134,7 +134,7 @@ learning application.
 
   
 
-##  Course Element: Topic Assignment
+##  Course Element: Topic Assignment {: #topic_assignment}
 
 ![](assets/projectbroker.png)
 
@@ -262,7 +262,7 @@ a file.
 
   
 
-###  Course view
+###  Course view {: #topic_assignment_runtime}
 
 #### How to create a new topic
 
@@ -402,7 +402,7 @@ assigned".
 
   
 
-##  Course Element: Link list
+##  Course Element: Link list {: #linklist}
 
 ![](assets/linklist.png)
 

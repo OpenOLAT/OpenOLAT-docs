@@ -90,7 +90,7 @@ Handlungen vor.
 	  * [Lernaktivitäten (Lerner Perspektive)](../learning_activities/index.de.md)
 
 
-### 6. Kurs beenden
+### 6. Kurs beenden {: #end_course}
 
 Ist der Kurs abgelaufen sollten Sie den Status auf „beendet“ setzen.
 

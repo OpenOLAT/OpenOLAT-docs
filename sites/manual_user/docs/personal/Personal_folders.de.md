@@ -27,7 +27,7 @@ hat. Dies vereinfacht den Datenaustausch zwischen OpenOlat Nutzern.
 
 ![](assets/pers_ordner_DE.png)
 
-Allgemeines zum Ordner
+## Allgemeines zum Ordner
 
 In Ordnern werden Dokumente abgelegt, zum Download bereitgestellt oder sie
 dienen als Austauschplattform zwischen verschiedenen Benutzern. Wenn Sie über

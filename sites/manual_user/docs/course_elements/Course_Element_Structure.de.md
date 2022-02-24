@@ -57,7 +57,7 @@ noch verschoben werden.
 
 ## Einstellungen für herkömmliche Kurse
 
-###  Tab Punkte  
+###  Tab Punkte   {: #score}
 
 Der Kursbaustein Struktur bietet sich auch an um Punkte, die in anderen
 bewertbaren OpenOlat Kursbausteinen (z.B.  _Bewertung_ , _Gruppen-/Aufgabe,

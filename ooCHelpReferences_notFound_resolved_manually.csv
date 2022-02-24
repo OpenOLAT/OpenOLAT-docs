@@ -1,0 +1,42 @@
+Call	Search	Page	Anchor	NewPage	NewAnchor	Replacement	
+contextHelpWithWrapper("Course settings#_delete")	"Course settings#_delete"	Course settings	_delete	manual_user/course_create/Course_Settings	delete		
+setFormContextHelp("Modules: Repository")	"Modules: Repository"	Modules: Repository					gibts nicht
+contextHelpWithWrapper("Learning path profile")	"Learning path profile"	Learning path profile					gibts nicht
+setFormContextHelp("Learning path element")	"Learning path element"	Learning path element					gibts nicht
+contextHelpWithWrapper("Content#_document")	"Content#_document"	Content	_document				gibts nicht
+setFormContextHelp("Learning Path")	"Learning Path"	Learning Path					gibts nicht
+setFormContextHelp("... create a bulk assessment for submission tasks")	"... create a bulk assessment for submission tasks"	... create a bulk assessment for submission tasks		manual_user/how-to/create_a_bulk_assessment_for_submission_tasks/			
+contextHelpWithWrapper("... create a bulk assessment for submission tasks")	"... create a bulk assessment for submission tasks"	... create a bulk assessment for submission tasks		manual_user/how-to/create_a_bulk_assessment_for_submission_tasks/			
+contextHelpWithWrapper("Using Editor Tools#_preview")	"Using Editor Tools#_preview"	Using Editor Tools	_preview	manual_user/course_create/Using_additional_Course_Editor_Tools/	preview		
+setFormContextHelp("Folders#_metadata")	"Folders#_metadata"	Folders	_metadata	manual_user/personal/Personal_folders/	metadata		?? metadata
+setFormContextHelp("Versioning")	"Versioning"	Versioning		manual_admin/administration/Files_and_Folders/			
+getManualProvider().getURL(locale, "Video")	locale, "Video"	Video		manual_user/resource_video/			
+contextHelpLink("User management")	"User management"	User management		manual_admin/usermanagement/			
+contextHelpWithWrapper("Landing Pages")	"Landing Pages"	Landing Pages		manual_admin/administration/Landing_pages/			
+setFormContextHelp("User management")	"User management"	User management		manual_admin/usermanagement/			
+contextHelpWithWrapper("User management")	"User management"	User management		manual_admin/usermanagement/			
+contextHelpWithWrapper("User management")	"User management"	User management		manual_admin/usermanagement/			
+contextHelpWithWrapper("User management")	"User management"	User management		manual_admin/usermanagement/			
+contextHelpWithWrapper("User management")	"User management"	User management		manual_admin/usermanagement/			
+contextHelpWithWrapper("User management")	"User management"	User management		manual_admin/usermanagement/			
+setFormContextHelp("Share groups")	"Share groups"	Share groups		manual_user/groups/LTI_Share_groups/			
+setFormContextHelp("Share courses")	"Share courses"	Share courses		manual_user/course_create/LTI_Share_courses/			
+contextHelpWithWrapper("External tools")	"External tools"	External tools		manual_admin/administration/LTI_External_tools/			
+contextHelpWithWrapper("External platforms")	"External platforms"	External platforms		manual_admin/administration/LTI_External_platforms/			
+setFormContextHelp("Test editor QTI 2.1 in detail#details_testeditor_options")	"Test editor QTI 2.1 in detail#details_testeditor_options"	Test editor QTI 2.1 in detail	details_testeditor_options				in confluence gelöscht
+setFormContextHelp("Test editor QTI 2.1 in detail#details_testeditor_feedback")	"Test editor QTI 2.1 in detail#details_testeditor_feedback"	Test editor QTI 2.1 in detail	details_testeditor_feedback				in confluence gelöscht
+setFormContextHelp("Introduction")	"Introduction"	Introduction		manual_user/general/			
+setFormContextHelp("Folders#Folders-MetaData")	"Folders#Folders-MetaData"	Folders	Folders-MetaData	manual_user/personal/Personal_folders/	metadata		?? metadata
+setFormContextHelp("ok")	"ok"	ok					gibts nicht
+contextHelpWithWrapper("Survey in the portfolio")	"Survey in the portfolio"	Survey in the portfolio		manual_user/forms/Forms_in_the_ePortfolio_template/			
+setFormContextHelp("Mediasite module")	"Mediasite module"	Mediasite module		manual_user/course_elements/Course_Element_Mediasite/			
+setFormContextHelp("Contact tracing: Configuration")	"Contact tracing: Configuration"	Contact tracing: Configuration		manual_admin/administration/Modules_Contact_Tracing/			
+contextHelpLink("Change+from+QTI+1.2+to+QTI+2.1")	"Change+from+QTI+1.2+to+QTI+2.1"	Change+from+QTI+1.2+to+QTI+2.1		manual_user/tests/Changing_from_QTI_1.2_to_QTI_2.1.de/			
+contextHelpWithWrapper("Question Bank")	"Question Bank"	Question Bank		manual_user/question_bank/			
+contextHelpWithWrapper("Working with wiki")	"Working with wiki"	Working with wiki		manual_user/learning_activities/Working_with_Wiki/			
+setFormContextHelp("Teams+module")	"Teams+module"	Teams+module		manual_user/course_elements/Course_element_Microsoft_Teams/			
+setFormContextHelp("KnowledgeTransfer#_edubase_config")	"KnowledgeTransfer#_edubase_config"	KnowledgeTransfer	_edubase_config	manual_user/course_elements/Knowledge_Transfer/	edubase		
+contextHelpWithWrapper("Quick links")	"Quick links"	Quick links		manual_user/portfolio/Components_of_the_portfolio/			
+contextHelpWithWrapper("Survey in the portfolio")	"Survey in the portfolio"	Survey in the portfolio		manual_user/forms/Forms_in_the_ePortfolio_template/			
+setFormContextHelp("KnowledgeTransfer#_card2brain_config")	"KnowledgeTransfer#_card2brain_config"	KnowledgeTransfer	_card2brain_config	manual_user/course_elements/Knowledge_Transfer/	card2brain		
+getManualProvider().getURL(ureq.getLocale(), "")	ureq.getLocale(), ""						link zu help

@@ -48,7 +48,7 @@ element Survey can also be found in the assessment category.
 
   
 
-##  Course Element: Assessment
+##  Course Element: Assessment {: #course_element_assessment}
 
 ![](assets/manual_score.png)
 
@@ -61,7 +61,7 @@ On separate pages you will learn how to set up, perform and configure an
 
   
 
-##  Course Element: Task
+##  Course Element: Task {: #course_element_task}
 
 ![](assets/task.png)
 
@@ -89,10 +89,10 @@ want to use:
 
 How to create tasks step by step and further information on other
 [configuration possibilities](../task/Task_-_Further_Configurations.md) can be found
-in the chapter ["Creating
-Tasks"](https://confluence.openolat.org/display/OO141EN/Creating+Tasks).
+in the chapter 
+["Creating Tasks"](Course_Element_Task).
 
-##  Course Element: Portfolio Task
+##  Course Element: Portfolio Task {: #course_element_portfolio}
 
 ![portfolio_434343_64.png](../assets/portfolio_434343_64.png)
 
@@ -130,21 +130,18 @@ passed/failed and individual comments. In the fields "Note for all users" and
 all course participants and coaches.
 
 Further information on how learners can pick up and use a portfolio task can
-be found in the chapter "[Portfolio task and assignment: Collecting and
-editing](Portfolio+task+and+assignment%EF%B9%95+Collecting+and+editing%EF%B9%96src=contextnavpagetreemode.html)".
+be found in the chapter "[Portfolio task and assignment: Collecting and editing](Portfolio+task+and+assignment%EF%B9%95+Collecting+and+editing%EF%B9%96src=contextnavpagetreemode.html)".
 How teachers can evaluate a portfolio task can be found in the chapter
 "[Portfolio assignment: Grading](../portfolio/Portfolio_assignment_Grading.md)".
 
 How the portfolio component looks like from the students' point of view and
 how it can be solved can be found in the chapter "Learning activities in the
-course" under the item ["Portfolio
-task"](Working+With+Course+Elements.html#WorkingWithCourseElements-
-_portfolio_lerner).
+course" under the item ["Portfolio task"](Working+With+Course+Elements.html#WorkingWithCourseElements-_portfolio_lerner).
 
 General information on the subject of portfolios and e-portfolios can be found
 [here](Creating+Portfolios.html).
 
-## Course Element: Group Task
+## Course Element: Group Task {: #course_element_group_tasks}
 
 ![](assets/task.png)
 
@@ -163,7 +160,7 @@ be selected and evaluated. Within the evaluation process it can be decided
 whether the evaluation is valid for the entire group or whether the evaluation
 is only valid for a certain group member.
 
-##  Course Element: Test
+##  Course Element: Test {: #course_element_test}
 
 ![](assets/test.png)
 
@@ -183,8 +180,7 @@ to open a preview of the test. Click on "Replace file" if you would like to
 exchange the learning resource with another one. Further information can be
 found in the chapter "[Creating Tests](Creating+Tests.html)".
 
-The two main tabs for test configuration are " **[Test
-configuration](../tests/Tests_at_course_level.md)** " and " **Options** ".
+The two main tabs for test configuration are "[Test configuration](../tests/Tests_at_course_level.md)" and " **Options** ".
 
 The settings under "Options" are initially being copied from the options of
 the learning resource. However, the options can be adjusted if needed. To do
@@ -233,11 +229,10 @@ resources of the type "Test." If you have not generated a test before please
 follow the instructions in the chapter ["Four Steps to Your Test or Self-
 test"](../tests/Four_Steps_to_Your_Test_or_Self-test.md).
 
-For more information on tests, refer to the chapter "[Creating
-Tests](Creating+Tests.html)". The chapter "[Tests at course
-level](../tests/Tests_at_course_level.md)" is particularly relevant here.
+For more information on tests, refer to the chapter "[Creating Tests](Creating+Tests.html)". 
+The chapter "[Tests at course level](../tests/Tests_at_course_level.md)" is particularly relevant here.
 
-## Course Element: Form
+## Course Element: Form  {: #course_element_form}
 
 ![](assets/Forular_icon.png)
 
@@ -263,7 +258,7 @@ The use of this course element makes sense e.g. if the learners have to fill
 in certain forms obligatorily, e.g. before starting a laboratory internship or
 as confirmation for the independent performance of a service.
 
-##  Course Element: Survey
+##  Course Element: Survey {: #course_element_survey}
 
 ![](assets/formular_434343_64.png)
 
@@ -273,8 +268,7 @@ can, for example, determine the expectations of the participants at the
 beginning of the course or evaluate the course offerings at the end of the
 course. By default, the results are stored anonymously. A questionnaire must
 first be created with the learning resource "Form" in the author area. If you
-have not yet created a questionnaire, follow the instructions in chapter "[4
-steps to your questionnaire](4+steps+to+your+Questionnaire.html)".
+have not yet created a questionnaire, follow the instructions in chapter "[4 steps to your questionnaire](4+steps+to+your+Questionnaire.html)".
 
 Further information on the subject of questionnaires and surveys can be found
 in the chapter "[Creating questionnaires](Creating+Questionnaires.html)" and
@@ -287,7 +281,7 @@ can be corrected.
 Note: If participants are currently running the questionnaire but have not yet
 completed it, their results will be lost.
 
-##  Course Element: Checklist
+##  Course Element: Checklist {: #course_element_checklist}
 
 ![checklist.png](../assets/checklist.png)
 
@@ -314,7 +308,7 @@ Further information can be found
 
   
 
-###  Highscore
+###  Highscore  {: #highscore}
 
 The highscore can be added for all assessable course element as well as for
 structure elements.

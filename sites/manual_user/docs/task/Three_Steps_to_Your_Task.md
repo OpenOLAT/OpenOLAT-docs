@@ -32,7 +32,7 @@ toolbar.
 5| Indicate a short title for your course element in the tab "Title and
 description" and save your settings.  
   
-Step 2: Configure task  
+Step 2: Configure task  {: #configuration}
 ---  
 1| Select your favored sub-elements in the tab "Workflow". Only sub-elements
 selected can be configured in the following tabs. In the group task this is

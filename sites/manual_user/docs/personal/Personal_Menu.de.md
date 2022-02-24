@@ -82,7 +82,7 @@ verschicken. Die Gesamtzahl der von Ihnen abonnierten Objekten ist im Tab
 "Abonnements" aufgelistet.  Sie haben auch die Möglichkeit, sich mittels RSS
 über den Änderungsverlauf zu informieren.
 
- Neuigkeiten per RSS
+### Neuigkeiten per RSS {: #rss}
 
 **Warum sollte ich wissen, was RSS ist?:**
 

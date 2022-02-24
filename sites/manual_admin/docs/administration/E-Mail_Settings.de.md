@@ -53,7 +53,7 @@ festlegen:
   * E-Mails an das interne OLAT Postfach und die persönliche E-Mail-Adresse zustellen  
   
 
-##  Tab E-Mail-Vorlage
+##  Tab E-Mail-Vorlage {: #template}
 
 OpenOlat versendet für verschiedene Ereignisse E-Mails. Um die E-Mails
 attraktiver zu gestalten werden diese als HTML-Mails inklusive Formatierung

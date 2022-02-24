@@ -9,7 +9,7 @@
 
 as well as several [Virtual classrooms](Virtual_classrooms.md)
 
-## Course Element: Wiki
+## Course Element: Wiki {: #wiki}
 
 ![](assets/wiki.png)
 
@@ -45,7 +45,7 @@ how to create new pages, and how to view different versions of a Wiki page.
 If you can't find the "Wiki" course element in the course editor, it was
 disabled by a system administrator.
 
-##  Course Element: Forum
+##  Course Element: Forum {: #forum}
 
 ![](assets/forum.png)
 
@@ -86,7 +86,7 @@ in individual forum posts".
 
 ![](assets/Screenshot 2020-05-03 at 14.55.37.png)
 
-### Moderation rights
+### Moderation rights forum_rights
 
 All course owners and [coaches](../general/Coach.md) have the following additional
 moderation rights. You can:
@@ -119,7 +119,7 @@ made here.
 
   
 
-##  Course Element: File Dialog
+##  Course Element: File Dialog {: #file_dialog}
 
 ![](assets/file_discussion.png)
 
@@ -146,7 +146,7 @@ course editor in the user permissions of the tab "Configuration".
 
 ![](assets/Screenshot 2020-05-03 at 15.02.48.png)
 
-##  Course Element: Participant folder
+##  Course Element: Participant folder {: #participant_folder}
 
 ![](assets/pfolder_434343_64.png)
 
@@ -190,7 +190,7 @@ implemented with the course element "Task", only that the possibilities of the
 task element are much more comprehensive and complex and here also an
 evaluation or allocation of points can be made....
 
-##  Course Element: Participant list
+##  Course Element: Participant list {: #participant_list}
 
 ![](assets/group.png)
 

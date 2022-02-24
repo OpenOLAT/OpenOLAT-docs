@@ -48,7 +48,7 @@ Diese LTI Version befindet sich aktuell in der Versuchsphase.
 
 Aktivierung und Konfiguration sofern Lizenz vorhanden
 
-## vitero
+## vitero {: #vitero}
 
 Um die vitero Anbindung nutzen zu können müssen Sie über eine vitero Lizenz
 verfügen und in der Administrationsumgebung folgende Einstellungen vornehmen:

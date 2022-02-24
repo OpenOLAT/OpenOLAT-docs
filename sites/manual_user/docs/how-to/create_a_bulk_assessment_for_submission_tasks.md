@@ -11,15 +11,14 @@ values.
 
 ![](assets/bulk_assessment_excel.png)
 
-Bulk assessments can be made for the [assessment course
-elements](../course_operation/Assessment_of_course_modules.md) task, group task and assessment.
+Bulk assessments can be made for the [assessment course elements](../course_operation/Assessment_of_course_modules.md) task, group task and assessment.
 Bulk assessment for the modules task and assessment is carried out via the tab
 "Users". The bulk assessment for groups is done via the tab "Groups".
 
- **  
-**
 
- **Creation of a bulk assessment for the course elements task or assessment**
+## Creation of a bulk assessment for the course elements task or assessment {: #node}
+  * [Task](../course_operation/Assessing_tasks_and_group_tasks.de.md)
+  * [Assessment](../course_operation/Assessment_of_course_modules.de.md)  
 
 Use an external table processing program, create the required columns and
 enter the value assignments. Then copy the table data to the bulk assessment
@@ -29,7 +28,7 @@ Depending on the configuration of the course element, different options are
 available. If the "grading" option is not activated in the course element, no
 bulk assessment can be carried out.
 
- How to create a bulk assessment
+## How to create a bulk assessment
 
 Select the assessable course element for which a bulk assessment should be
 carried out. All course elements are displayed for which at least one of the
@@ -47,17 +46,16 @@ evaluation overview and then download the empty or only partially filled
 table. In this way you get an optimal Excel table, which you only have to fill
 in accordingly.
 
-###  **The individual steps of a bulk assessment:**
+###  The individual steps of a bulk assessment:
 
-**![](assets/Bulk_assessment_EN.png)  
-**
+![](assets/Bulk_assessment_EN.png)  
 
 With the course element Task you can additionally choose whether the
 submission was accepted or not and you can upload zipped return files.
 
   
 
- **1\. Assessment data**
+#### 1. Assessment data**
 
 Upload the assessment data created outside of OLAT by inserting the
 information into the free field with copy+paste. If you have exported the
@@ -98,7 +96,7 @@ Create a folder for each individual student who receives a return file. Enter
 the individual feedback for each person there. Zip the file and upload it in
 the first step under "Assessment values".
 
- **2\. Column mapping**
+#### 2. Column mapping {: #map}
 
 Here you can define which columns of your externally created scoring stand for
 which field (for example, identifier, score, passed, comment). If you have not
@@ -106,12 +104,12 @@ selected these options, the step can be skipped.
 
 ![](assets/BulkAssessment2_EN.png)
 
- **3\. Validation**
+#### 3. Validation
 
 Here you can see again which information is transferred how and if there are
 any problems.
 
- **4\. Schedule**
+#### 4. Schedule {: #schedule}
 
 Here you can define whether the valuation takes place immediately or only on a
 certain date.

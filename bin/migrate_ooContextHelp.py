@@ -40,6 +40,7 @@ def cleanFilename(name):
 	name = name.replace('﹕','')
 	name = name.replace(':','')
 	name = name.replace('  ',' ')
+	name = name.replace(' ','_')
 	name = name.replace('... ','').lstrip()
 	return name
 
@@ -83,120 +84,83 @@ def lookupFilename(orig):
 
 
 def listCHelpDir(dir, replace):
+	export = open("ooCHelpReferences.csv", 'w', newline='', encoding='UTF8')
+	writer = csv.writer(export)
+	writer.writerow(["Call", "Search", "Page", "Anchor", "NewPage", "NewAnchor", "Replacement"])
+	exportNotFount = open("ooCHelpReferences_notFound.csv", 'w', newline='', encoding='UTF8')
+	writerNotFound = csv.writer(exportNotFount)
+	writerNotFound.writerow(["Call", "Search", "Page", "Anchor", "NewPage", "NewAnchor", "Replacement"])
+
 	for entry in recurse_findDirs(dir):
 		filename = entry.path
 		if filename.endswith('.html') or filename.endswith('.java'):
-			listCHelpFile(filename, replace)
+			listCHelpFile(filename, replace, writer, writerNotFound)
+			
+	export.close()
 
-def listCHelpFile(filename, replace):
+def convertAndWriteCSV(matches, writer, writerNotFound, allPages):
+	for match in matches:
+		if (match[2].startswith("$")) or match[2] == '': print("Skipping variable usage", match)
+		else:
+			cleaned = cleanFilename(match[2])
+			replacementPath = findReplacementPage(cleaned, allPages)
+			result = list(match)
+			if replacementPath:
+				result.append(replacementPath)
+				if match[3]:
+					newAnchor = match[3][1:]
+					result.append(newAnchor)
+					result.append('"' + replacementPath + '#' + newAnchor + '"')
+				else:
+					result.append('')
+					result.append('"' + replacementPath + '"')
+				writer.writerow(result)
+			else:
+				writerNotFound.writerow(result)
+
+
+
+def listCHelpFile(filename, replace, writer, writerNotFound):
 	allPages = list(findAllPages(projectPath))
 	with fileinput.FileInput(filename, inplace=replace) as file:
 		for idx, line in enumerate(file):
 			newline = line
-#			print(line)
-			#setFormContextHelp(String url)
-			#$r.contextHelpWithWrapper("$off_chelp_url")
-			#$r.contextHelpJSCommand(String page)
-			#$r.contextHelpLink(String page)
-			#getManualProvider().getURL(locale, page)
-			
-#			references = re.findall('(setFormContextHelp\("([^#"]*)[#]{0,1}([^"]*)"\))',line)
-#			references = re.findall('(contextHelpWithWrapper\("([^#"]*)[#]{0,1}([^"]*)"\))',line)
-#			references = re.findall('(contextHelpJSCommand\("([^#"]*)[#]{0,1}([^"]*)"\))',line)
-#			references = re.findall('(contextHelpLink\("([^#"]*)[#]{0,1}([^"]*)"\))',line)
-			references = re.findall('(getManualProvider\(\)\.getURL\(\s*[^,]*\s*,\s*"([^#"]*)[#]{0,1}([^"]*)"\))',line)
-			for ref in references:
-				print(ref)
-				'''
-				# don't change external references
-				if (ref[1].startswith('http')):
-					continue
-				name = os.path.basename(ref[1])
-				type = ref[2]
-				hash = ''
-				if len(ref) > 2:
-					hash = ref[3]
+			matches = re.findall('(setFormContextHelp\(("([^#"]*)[#]{0,1}([^"]*)")\))',line)
+			convertAndWriteCSV(matches, writer, writerNotFound, allPages)
+			matches = re.findall('(contextHelpWithWrapper\(("([^#"]*)[#]{0,1}([^"]*)")\))',line)
+			convertAndWriteCSV(matches, writer, writerNotFound, allPages)
+			matches = re.findall('(contextHelpJSCommand\(("([^#"]*)[#]{0,1}([^"]*)")\))',line)
+			convertAndWriteCSV(matches, writer, writerNotFound, allPages)
+			matches = re.findall('(contextHelpLink\(("([^#"]*)[#]{0,1}([^"]*)")\))',line)
+			convertAndWriteCSV(matches, writer, writerNotFound, allPages)
+			matches = re.findall('(getManualProvider\(\)\.getURL\((\s*[^,]*\s*,\s*"([^#"]*)[#]{0,1}([^"]*)")\))',line)
+			convertAndWriteCSV(matches, writer, writerNotFound, allPages)
 
-				# skip md files for now TODO later
-				if type == 'html':
-					# fallback to pagees
-					if ('viewpage.action' in name):
-						name = lookupByPageId(name)
-					if (not name):
-						if not replace:
-							print("*** ERROR1 ***", ref[0])
-#							TODO manual treatment
-						continue
-					clean = cleanFilename(name)
-					lookup = lookupFilename(clean)
-					if lookup:
-						lookup = lookup + '.md'
-						replacementPath = findReplacementPath(filename, lookup, allPages)
-						if replacementPath:
-							line = line.replace(ref[0],'(' + replacementPath + hash + ')')
-							if not replace:
-#								print(1,ref[0], ' in ', filename)
-#								print(2,replacementPath)
-#								print(3,line)
-								print(filename, type, name, '\t\t', hash, clean, lookup, replacementPath)
-#								print(filename, type, name, '\t\t', hash, clean, lookup)
 
-					elif not replace:
-						print("*** ERROR2 ***", ref[0])
-#						TODO manual treatment
-				'''
-			if replace:
-				print(line, end='')
 
-def findReplacementPath(filePath, targetPage, allPages):
-	print('\n' + filePath + ' §' + targetPage + '§', len(allPages))
+def findReplacementPage(targetPage, allPages):
 	for page in allPages:
-		#print(page[len(page)-1])
-		if page[len(page)-1] == targetPage:
-
-			file = filePath.split('/')
-			myPage = page
-			# remove stuff that does not appear in URL
-			if 'docs' in file: file.remove('docs')
-			if 'sites' in file: file.remove('sites')
-			if 'docs' in myPage: myPage.remove('docs')
-			if 'sites' in myPage: myPage.remove('sites')
-			"""
-			print(myPage)
-			print(file)
-			"""
-
-			newPath = ''
-			i = 0
-			branched = False
-			while i < len(myPage) and i < len(file):
-				pageElem = myPage[i]
-				fileElem = file[i]
-				i += 1
-				if fileElem == pageElem and not branched:
-					if pageElem == targetPage:
-						newPath = targetPage
-					else:
-						continue
-				else:
-					branched = True
-					if len(newPath) == 0:
-						newPath = pageElem
-					else:
-						newPath = '../' + newPath + '/' + pageElem
-			
-#			print('XXX', targetPage, newPath)
-			return newPath
+		if page[len(page)-1].endswith(".de.md"):
+			continue
+		elif not page[len(page)-1].endswith(".md"):
+			continue
+		# continue only with en files
+#		print(page[len(page)-1].split(".")[0],targetPage)
+		if page[len(page)-1].split(".")[0] == targetPage:
+			replacement = ''
+			for part in page:
+				if part == 'docs' or part == 'sites':
+					continue
+				replacement = replacement + part.split(".")[0] + '/'
+#				print(replacement)
+			if len(replacement) > 0:
+				return replacement
 
 
 def main(argv):
-	assetDir = 'assets/'
-	inputfile = ''
-	outputfile = ''
 	try:
-		opts, args = getopt.getopt(argv,"l:r:p:")
+		opts, args = getopt.getopt(argv,"l:")
 	except getopt.GetoptError:
-		print('migrate_assets.py -l')
 		sys.exit(2)
 	for opt, arg in opts:
 		if opt in ("-l"):
@@ -206,22 +170,6 @@ def main(argv):
 				listCHelpDir(path, False)
 			else:
 				listCHelpFile(path, False)
-		'''
-		if opt in ("-r"):
-			# Replace found references
-			path = arg
-			if os.path.isdir(path):
-				listReferencesDir(path, True)
-			else:
-				listReferences(path, True)
-		if opt in ("-p"):
-			# List all the pages from the dictionary
-			path = arg
-			if os.path.isdir(path):
-				for entry in findAllPages(path):
-					print(entry)
-		'''
-
 			
 
 if __name__ == "__main__":

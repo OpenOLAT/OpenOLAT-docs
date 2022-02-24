@@ -7,7 +7,7 @@
     * 1.4 Course Element: Calendar
     * 1.5 Course Element: Appointment scheduling
 
-##  Course Element: Enrolment
+##  Course Element: Enrolment {: #enrolment}
 
 ![](assets/enrolment.png)
 
@@ -34,7 +34,7 @@ If you have previously created one or more learning areas in the
 administration and assigned groups here, you can also access these learning
 areas in the "Configuration" tab of the enrollment course element.
 
-## Course Element: Notifications
+## Course Element: Notifications {: #notification}
 
 ![](assets/infomessage.png)
 
@@ -73,7 +73,7 @@ An element with similar functions, but without specific configuration, can
 also be found in the toolbar. This is the "[Participant
 Info](../course_operation/Using_Additional_Course_Features.md)".
 
-##  Course Element: E-Mail
+##  Course Element: E-Mail  {: #mail}
 
 ![](assets/contact.png)
 
@@ -163,7 +163,7 @@ configuration, can also be found in the
 
   
 
-##  Course Element: Calendar
+##  Course Element: Calendar  {: #cal}
 
 ![](assets/calendar.png)
 
@@ -196,7 +196,7 @@ settings.
 If you can't find the "Calendar" course element in the course editor, it was
 disabled by a system administrator.
 
-##  Course Element: Appointment scheduling
+##  Course Element: Appointment scheduling {: #appointment_scheduling}
 
 ![](assets/dateentry.png)
 
@@ -227,7 +227,7 @@ three-point link.
 
 ![](assets/Termin_hinzufuegen.jpg)
 
-**Appointments: create & edit**
+### Appointments: create & edit
 
 Menu "Create occasion"
 

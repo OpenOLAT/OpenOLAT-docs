@@ -2,7 +2,7 @@
 
 ![](assets/projectbroker.png)
 
-## Select topic
+## Select topic {: #select}
 
 In the topic assignment, the persons responsible for the topic provide topics
 for term papers, presentations, webinar topics or projects, for example.

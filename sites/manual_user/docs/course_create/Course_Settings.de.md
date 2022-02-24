@@ -78,7 +78,7 @@ und für die Benutzer sichtbar sein sollen.
 
   
 
-##  Tab Nutzungsbedingungen
+##  Tab Nutzungsbedingungen  {: #disclaimer}
 
 Hier können frei definierbare kursbezogene Nutzungsbedingungen und eine
 kursbezogene Datenschutzerklärung aktiviert und hinterlegt werden. Startet
@@ -151,7 +151,7 @@ unterschiedliche Bedürfnisse eingestellt werden.
 
 ![](assets/Navigation_Lernpfad.png)
 
-##  Tab Bewertung
+##  Tab Bewertung {: #assessment}
 
 In diesem Tab können Sie die Verwendung von **Leistungsnachweisen** aktivieren
 und ein **Zertifikat** automatisiert erzeugen lassen. Wenn Sie die Option
@@ -390,7 +390,7 @@ Bei herkömmlichen Kursen werden die Kriterien für das Bestehen eines Kurses im
 Kurseditor auf dem obersten Kursbaustein eingestellt und das Ergebnis auf der
 Kursstartseite angezeigt.
 
-##  Optionen
+##  Optionen {: #options}
 
 Hier können Sie ein kurspezifisches [Glossar
 ](../course_operation/Using_Additional_Course_Features.de.md)und einen [Ressourcenordner

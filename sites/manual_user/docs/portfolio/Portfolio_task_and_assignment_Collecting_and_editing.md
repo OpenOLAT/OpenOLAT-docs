@@ -4,7 +4,7 @@ The following section describes how a learner can collect an available
 portfolio task (portfolio binder with assignments based on a portfolio
 template) in a course and edit it.
 
-Collect portfolio task  
+## Collect portfolio task  
 ---  
 1|
 
@@ -29,7 +29,7 @@ portfolio.
 
   
 
-Edit portfolio task  
+## Edit portfolio task  
 ---  
 1| Open portfolio.|
 
@@ -89,7 +89,7 @@ Under "Entries" all assigned tasks which have not been collected yet are
 available in a dropdown list. Collected tasks will be shown under the
 portfolio section title.
 
-Publish portfolio  
+## Publish portfolio {: #publish}
   
 ---  
 1| During editing the status of the entry/assignment is "Draft".|

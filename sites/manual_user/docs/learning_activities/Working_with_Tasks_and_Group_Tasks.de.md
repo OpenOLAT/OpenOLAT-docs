@@ -1,140 +1,124 @@
-# Arbeiten mit Foren
+# Arbeiten mit Aufgaben und Gruppenaufgaben
 
-##
-![](assets/forum.png)
+![](assets/task.png)
 
-### Wofür kann ein Forum verwendet werden?
+Über die Kursbausteine **Aufgabe** und **Gruppenaufgabe** werden
+Übungsaufgaben bereitgestellt, die Sie elektronisch abgeben können. Über diese
+Bausteine können Sie auch Feedbacks zu Ihren Einsendungen, Punkte und
+Musterlösungen erhalten und Ihnen kann angezeigt werden, ob Sie die Aufgabe
+bestanden haben oder nicht. Möglicherweise sehen Sie nicht alle der genannten
+Dinge, da nicht alle Optionen für Ihre Aufgabe verwendet werden.
 
-Foren sind die zentralen Werkzeuge für die asynchrone Diskussion in Online-
-Kursen und auch in OLAT Gruppen. Foren können für den Austausch zwischen den
-Kursteilnehmenden, für organisatorische Absprachen oder die fachliche
-Diskussion mit dem Lehrenden verwendet werden. Einige Online-Methoden
-verwenden auch gezielt Foren z.B. für Pro-Contra-Diskussionen, die
-strukturierte Sammlung von Ideen zu bestimmten Aspekten (Brainstorming) usw.
+Abonnieren Sie den jeweiligen Aufgabenbaustein um schnell per Mail über
+Änderungen informiert zu werden.
 
-### Wie können Lernende ein Forum nutzen?
+![](assets/task.gif)
 
-In einem Forumsthread stehen Ihnen folgende Optionen zur Verfügung:
+### „Zuweisung Aufgabenstellung“:  Zugewiesene Aufgabe herunterladen
 
-![](assets/Forum_Optionen.png)
+Je nach Konfiguration stehen im Schritt Aufgabenstellung eine oder mehrere
+Aufgaben zur Auswahl oder eine Aufgabe wird Ihnen automatisch zugewiesen. Wenn
+bei mehreren Aufgaben der Titel der Aufgabendatei verlinkt ist, können Sie die
+Aufgabenstellung vor der Auswahl ansehen. Wenn Sie nur die Schaltfläche
+„Wählen“ haben, können Sie die Aufgabe nicht im Vorfeld ansehen. Eine
+automatische Zuweisung einer Aufgabe erfolgt direkt sobald Sie die Aufgabe vor
+Ablauf einer eventuellen Abgabedeadline anklicken.
 
-Teilnehmer können in Foren ...
+Wenn Sie eine Aufgabe gewählt haben oder Ihnen eine Aufgabe automatisch
+zugewiesen wurde, klicken Sie auf „Aufgabe herunterladen“, um die
+Aufgabenstellung herunterzuladen bzw. anzeigen zu lassen. Wenn Sie auf den
+Dateinamen der Aufgabenstellung klicken wird die Aufgabe angezeigt. Die
+Aufgabe können Sie dann jederzeit wiederholt herunterladen.
 
- **Diskussionsthemen eröffnen**
+Es ist auch möglich, dass Ihr Dozent die Aufgabenstellung nicht in dem
+Kursbaustein „Aufgabe“ hinterlegt hat, sondern einen anderen Ort z.B. eine
+Einzelseite oder eine externe Seite gewählt hat oder die Aufgabenstellung
+mündlich in Präsenz oder in einem Online-Meeting gestellt hat. In diesem Fall
+erscheint der Abschnitt „Zuweisung Aufgabenstellung“ nicht.
 
-Wenn Sie im Forum eine neue Nachricht verfassen möchten, wählen Sie
-„Diskussionsthema eröffnen“. Titel und Beitrag sind obligatorische Angaben.
-Achten Sie darauf einen aussagekräftigen Titel zu verwenden und bei Reply-
-Postings angemessen zu verändern.
+### „Abgabe“: Lösung abgeben
 
-![](assets/Diskussionsthema_eroeffnen.png)
+Wenn Sie Ihre Aufgabe gelöst haben laden Sie diese im Schritt „Abgabe“ hoch.
+Eventuell ist die Anzahl der abzugebenden Dateien und der Zeitraum für die
+Abgabe eingeschränkt.
 
-Mit Hilfe des Foren-Editors können Sie Ihren Beitrag erstellen und formatieren
-und auch Dateien anhängen. Je nach Konfiguration durch den Kursbesitzer können
-Sie Ihren Beitrag eventuell auch unter einem Pseudonym veröffentlichen.
+Falls von Ihrem Betreuer entsprechend konfiguriert, können Sie die Lösung der
+Aufgabe auch direkt online erstellen. Standardmässig besteht hier die
+Möglichkeit eine HTML Datei zu erstellen. Klicken Sie dazu auf die
+Schaltfläche „Dokument erstellen“. Geben Sie einen Namen an, und erstellen Sie
+dann den Inhalt. Das Dokument kann zwischengespeichert werden, und bleibt
+solange für Sie bearbeitbar bis Sie über die Schaltfläche „Endgültige Abgabe“
+Ihre Aufgabe einreichen. Sie erhalten eine Bestätigung, dass Sie Dokumente
+abgegeben haben.
 
-![](assets/Posting.png)
+Sind in der Administration ergänzende Dokumenteneditoren aktiviert, können
+auch noch weitere Dateiformate erstellt werden. Beispielsweise können bei
+Verwendung von Only Office oder der Verknüpfung mit einem kommerziellen MS
+Office 365-Abonnement auch Word, Excel oder PowerPoint Dateien erstellt und
+abgegeben werden.
 
- **Forumsbeiträge beantworten**
+Im Abgabe-Schritt, der nun mit einem grünen Häkchen als erledigt markiert
+wird, erhalten Sie eine Übersicht über abgegebenen Dateien. Sie können sich
+die Dateien zwar noch ansehen aber keine Änderungen mehr vornehmen.
 
-Wenn Sie einen bestehenden Forumsbeitrag beantworten möchten, öffnen Sie das
-Diskussionsthema, indem Sie auf den Titel des Themas klicken. Wählen Sie dann
-„Antwort mit Zitat“, wenn der Anfangsbeitrag unter Ihrer Antwort erscheinen
-soll bzw. Sie direkt auf einzelne Passagen des Beitrags eingehen wollen. Oder
-wählen Sie „Antwort ohne Zitat“, um den Anfangsbeitrag nicht nochmals
-aufzuführen.
+### „Rückgabe und Feedback“: Beurteilung herunterladen
 
-![](assets/Posting_beantworten.png)
+Wenn Sie noch _keine_ Einreichung vorgenommen haben, und der Betreuer keine
+Rückmeldung bereitgestellt hat, ist dieser Bereich leer.
 
- **Forumsbeiträge markieren**
+Wenn Sie eine Bearbeitung eingereicht haben und der Betreuer noch keine
+Rückmeldung erstellt hat, erscheint die entsprechende Information:
 
-Einzelne Forumsbeiträge können markiert werden. Klicken Sie dazu in der
-Detailansicht eines Themas auf die kleine Flagge in der rechten oberen Ecke
-eines Beitrags. In der Forumsübersicht sehen Sie wie viele Beiträge pro Thema
-markiert wurden. Auf diese Weise können einzelne Beiträge leichter
-wiedergefunden oder für eine spätere Beantwortung gekennzeichnet werden.
+![](assets/Rueckgabe_Info.png)
 
-![](assets/Posting_markieren.png)
+Sobald Ihr Betreuer ein Feedback erstellt hat finden Sie im Schritt „Rückgabe
+und Feedback“ die Feedback Information.
 
- **Foren archivieren**
+![](assets/Rueckgabe_Info_akzeptiert.png)
 
-Wenn Sie das Forum archivieren, werden Forumsbeiträge und angefügte Dateien in
-eine ZIP-Datei verpackt und können gespeichert werden.
+Wenn Ihre Bearbeitung nicht ausreichend war und der Betreuer eine
+Überarbeitung einfordert erscheint ebenfalls eine entsprechende Anzeige und
+Sie haben die Möglichkeit, eine neue Bearbeitung im Schritt „Überarbeitung“
+einzureichen. Eventuell wird dafür eine Deadline gesetzt.
 
- **Foren abonnieren**
+![](assets/Rueckgabe_ueberareiten.png)
 
-Um bei neuen Forumsbeiträgen benachrichtigt zu werden, stellen Sie in der
-Übersicht der Diskussionsthemen den Schieberegler bei den "Änderungen“ auf
-"Ein". Dann erhalten Sie per E-Mail oder unter
-„[Abonnements](../../pages/viewpage.action%EF%B9%96pageId=68255886.html)“ im
-Bereich "Persönliche Werkzeuge" eine Benachrichtigung. Dabei ist es egal ob
-ein neuer Beitrag von einem registrierten OLAT Benutzer oder einem Gast
-eingestellt wurde.
+### „Überarbeitung“: Aufgabe überarbeiten
 
-Eine Benachrichtigung erfolgt nur, wenn ein neuer Beitrag erstellt wurde,
-nicht aber wenn ein bestehender Beitrag geändert wurde!
+Wenn Sie eine Überarbeitung vornehmen müssen, gehen Sie wie unter „Abgabe“
+erläutert vor. Im Abschnitt "Überarbeitung" kann es auch sein, dass Ihr
+Betreuer Ihnen Ihre Arbeit mehrfach zur Korrektur zurückgibt.
 
-Sie können Ihrem Posting auch Dateien anhängen, z.B. wenn Ihr Beitrag
-umfangreicher ist oder Sie sich auf eine bestimmte Datei beziehen. Als
-Faustregel gilt: Postings, die länger sind als eine DIN A4 Seite sollten im
-Anhang angefügt und im Posting selbst nur kurz angerissen werden. Sie können
-Ihr Posting zu einem späteren Zeitpunkt auch wieder editieren oder löschen,
-sofern noch niemand auf Ihren Beitrag geantwortet hat.
+Sobald er die Aufgabe als gelöst ansieht, wird er die Überarbeitungsperiode
+schliessen. Zu jedem Zeitpunkt sehen Sie welche Dokumente von Ihnen und Ihrem
+Betreuer abgegeben wurden und können diese einsehen.
 
-Es ist möglich, dass Kursteilnehmende vom Lehrenden zusätzlich
-Moderationsrechte in einem Forum erhalten. Was genau damit verbunden ist,
-erfahren Sie im Kapitel „[Kommunikation und
-Kollaboration](../course_elements/Communication_and_Collaboration.de.md)“.
+### „Musterlösung“ betrachten
 
-### Welche Darstellungsmöglichkeiten für Foren-Threads gibt es?
+Ihr Dozent kann der Aufgabe eine Musterlösung anfügen, welche zu einem von ihm
+festgelegten Zeitpunkt sichtbar wird, aber immer erst nachdem ihre Lösung vom
+Betreuer akzeptiert wurde. Klicken Sie auf den Dateinamen bzw. den Button
+„Musterlösungen herunterladen“, um die Musterlösung anzuschauen oder
+herunterzuladen.
 
-Es gibt verschiedene Darstellungsmöglichkeiten:
+### „Bewertung“ vom Betreuer lesen
 
-  * alle (geschachtelt)
-  * alle (flach)
-  * einer
-  * markiert
-  * neu
+Die Bewertung kann folgende individuelle Informationen beinhalten: Eine
+Leistungsübersicht mit dem Status und Informationen zum Punktestand, ein
+Kommentarfeld sowie Bewertungsdokumente. Darüber hinaus kann der Betreuer hier
+auch noch allgemeine Informationen hinterlassen.
 
-User können sich alle Beiträge untereinander anzeigen lassen (alle), mit oder
-ohne Einrückung. Der Startbeitrag erscheint dabei als erster und die weiteren
-Beiträge werden entsprechend der Diskussionsstruktur angezeigt. Bei
-umfangreichen Foren mit vielen Beiträgen bietet es sich an, sich über den
-Button "neu", nur die neuen Beiträge anzeigen zu lassen. Besonders interessant
-für komplexere Diskussionen ist auch die Ansicht "einer". Hier wird die
-gesamte Thread-Struktur angezeigt und kann so sehr gut nachvollzogen werden.
-Hilfreich dabei ist es, dass sich einzelne Parts ein- und ausblenden lassen.
-Darüber hinaus erkennt man in dieser Darstellung auch rasch neue Forenbeiträge
-an dem Sternchen.
+![](assets/Bewertung_Info.png)
 
-![](assets/Forum_Aufbau-1.png)
+## Gruppenaufgabe
 
-Laden Sie im
-"[Profil](../../pages/viewpage.action%EF%B9%96pageId=68255886.html#Pers%C3%B6nlicheWerkzeuge-
-_profil)" ein Foto hoch, damit neben Ihren Forumsbeiträgen anstelle des
-Standard-Profilbildes Ihr Foto erscheint.
+Die Ansicht für OLAT Aufgaben und Gruppenaufgaben ist dieselbe. Sämtliche
+Entscheidungen und Einsendungen die während des Workflows getroffen werden,
+gelten jedoch immer für die gesamte Gruppe. Deshalb ist es wichtig, sich in
+der Gruppe abzustimmen _bevor_ eine endgültige Abgabe erfolgt. Gleichzeitig
+sollte man darauf achten, keine Deadline zu verpassen.
 
-###
-![](assets/file_discussion.png)
-**Dateidiskussion**
-
-Die Dateidiskussion stellt eine Kombination aus Forum und Dateibereitstellung
-dar. So können in Kursen Foren-Diskussionen zu bestimmten Dokumenten erstellt
-werden z.B. zu einem Entwurf einer Seminararbeit, einem Bild, einem Konzept
-oder einem inhaltlichen Dokument. Zu jeder hochgeladenen Datei wird
-automatisch ein Forum erstellt.
-
-Um an einer Diskussion teilzunehmen, klicken Sie auf den Link „Anzeigen“ neben
-dem Dateinamen. Nun haben Sie dieselben Möglichkeiten, Diskussionsthemen zu
-eröffnen oder Beiträge zu beantworten wie im Forum.
-
- **Datei hochladen**
-
-Standardmäßig können Kursteilnehmer keine Dateien hochladen. Diese Option kann
-aber vom Kursbesitzer im Kurseditor aktiviert werden. Wenn Sie über diese
-Möglichkeit verfügen, wählen Sie „Datei hochladen“, um eine eigene Datei
-hochzuladen. Wer wann welche Datei hochgeladen hat ist über die Spalten
-Vorname, Nachname bzw. Datum erkennbar.
-
-  
+Die Rückmeldungen des Betreuers werden für die gesamte Gruppe ebenfalls hier
+bereitgestellt. Bei Bedarf kann der Betreuer aber auch individuelle Punkte
+oder Feedbacks innerhalb einer Gruppenaufgabe verteilen.
 

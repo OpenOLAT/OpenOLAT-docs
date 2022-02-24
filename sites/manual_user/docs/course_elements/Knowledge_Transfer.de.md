@@ -44,7 +44,7 @@ Inhalten. Weitere Informationen zu den Kursbausteinen "Einzelne Seite" und
 "Mehrere Einzelseiten" finden Sie
 [hier](../../pages/viewpage.action%EF%B9%96pageId=108593372.html).
 
-##  Kursbaustein "Externe Seite"
+##  Kursbaustein "Externe Seite" {: #external_page}
 
 ![](assets/external_page.png)
 
@@ -103,12 +103,11 @@ angezeigt wird.
 
 Nutzen Sie den Kursbaustein „CP-Lerninhalt“, um einen Lerninhalt im IMS-CP-
 Format (IMS-CP Version 1.1.2) in Ihren Kurs einzubinden. Das CP können Sie
-entweder direkt in OpenOlat erstellen, was im Kapitel ["Fünf Schritte zu Ihrem
-Content-Packaging"](../../pages/viewpage.action%EF%B9%96pageId=68255959.html)
+entweder direkt in OpenOlat erstellen, was im Kapitel ["Fünf Schritte zu Ihrem Content-Packaging"](../resource_cp/In_Five_Steps_to_Your_Content_Package.de.md)
 erklärt wird. Oder Sie erstellen das CP extern, beispielsweise mit
 [eLML](http://www.elml.org "eLML ").
 
-Weitere Infos zum CP finden Sie [hier](CP-Lerninhalt+erstellen.html).  
+Weitere Infos zum CP finden Sie [hier](../resource_cp/index.de.md).  
 
 ##  Kursbaustein „SCORM-Lerninhalt“
 
@@ -118,8 +117,7 @@ Weitere Infos zum CP finden Sie [hier](CP-Lerninhalt+erstellen.html).
 in OpenOlat Kurse eingebunden werden. SCORM ist ein Standard mit dem Inhalte
 aber auch interaktive E-Learning Module gekapselt und in unterschiedlichen
 Systemen eingebunden werden können. Weitere Informationen zur Konfiguration
-des Kursbausteins SCORM finden Sie im Kapitel "Kursbaustein "[SCORM-
-Lerninhalt"](../../pages/viewpage.action%EF%B9%96pageId=108593330.html).
+des Kursbausteins SCORM finden Sie im Kapitel "Kursbaustein "[SCORM-Lerninhalt"](../resource_scorm/index.de.md).
 
 ## Kursbaustein "Dokument"  
 ![](assets/document_icon.jpg)
@@ -220,11 +218,11 @@ Informationen zur Nachbearbeitung des Videos mit OLAT Quiz und Sprungmarken
 finden Sie im Kapitel "[Lernressource:
 Video](../resource_video/Learning_resource_Video.de.md)".
 
-##  Kursbaustein "Video Livestream"
+##  Kursbaustein "Video Livestream"  {: #livestream}
 
   
 
-##  Kursbaustein "Opencast"
+##  Kursbaustein "Opencast"  {: #opencast}
 
 Mit dem Kursbaustein Opencast können Aufzeichnungen von Meetings und
 Lehrveranstaltungen, die auf einem Opencast-Server abgelegt sind, in OpenOlat-
@@ -236,7 +234,7 @@ oder ganze Serien eingebunden werden.
 
   
 
-##  Kursbaustein "card2brain"
+##  Kursbaustein "card2brain" {: #card2brain}
 
 ![](assets/card2brain_434343_64.png)
 
@@ -249,7 +247,7 @@ kontaktieren direkt [card2brain](http://card2brain.ch/info/contact).
 Weitere Informationen zum Kursbaustein finden Sie
 [hier](../../pages/viewpage.action%EF%B9%96pageId=108593228.html).
 
-##  Kursbaustein "Edubase"
+##  Kursbaustein "Edubase" {: #edubase}
 
 ![](assets/edubas_icon.png)
 

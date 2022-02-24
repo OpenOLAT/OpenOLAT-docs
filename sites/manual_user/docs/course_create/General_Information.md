@@ -92,7 +92,7 @@ etc.
 
 
   
-### 6. End course
+### 6. End course {: #end_course}
 
 If the course has expired, the status is set to "finished".
 
@@ -103,7 +103,7 @@ If the course has expired, the status is set to "finished".
 
 
   
-### 7. Delete course
+### 7. Delete course 
 
 The "Delete" of the course is done via the appropriate menu in the course
 administration. Deleted courses can be shown or hidden in the authoring area

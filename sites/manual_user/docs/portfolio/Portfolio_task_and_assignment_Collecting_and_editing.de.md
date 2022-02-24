@@ -1,10 +1,10 @@
-#  [Portfolioaufgabe: abholen und bearbeiten
+# Portfolioaufgabe: abholen und bearbeiten
 
 Im Folgenden wird beschrieben wie Lernende eine im Kurs bereitgestellte
 Portfolioaufgabe (auf einer Portfoliovorlage basierende Portfoliomappe mit
 Aufgaben) abholen und bearbeiten können.
 
-Portfolioaufgabe abholen  
+## Portfolioaufgabe abholen  
 ---  
 1| Kurs, indem sich die Portfolioaufgabe befindet, öffnen.  
 2| Kursbaustein Portfolioaufgabe auswählen.  
@@ -74,7 +74,7 @@ In dem Tab "Einträge" werden noch nicht ausgewählte Aufgaben in einem Dropdown
 Menü gebündelt, während abgeholte Aufgaben unter der Bereichsüberschrift
 erscheinen.
 
-Portfolio publizieren  
+## Portfolio publizieren   {: #publish}
   
 ---  
 1| Während der Bearbeitung ist der Status des Eintrags auf Entwurf.|
@@ -108,7 +108,7 @@ Auch Mappen aus Kursen sind nicht automatisch für die Kursbesitzer sichtbar.
 Sie können Portfolio Mappen sowohl an andere OLAT User (Lehrende, Lernende)
 als auch an externe Personen freigeben.
 
-Portfolio Freigabe einrichten  
+## Portfolio Freigabe einrichten  
   
 ---  
 1| Öffnen Sie den Tab Freigabe.  

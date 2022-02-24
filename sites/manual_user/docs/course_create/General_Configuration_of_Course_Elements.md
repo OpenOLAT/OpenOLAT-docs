@@ -1,6 +1,6 @@
-Elements](General_Configuration_of_Course_Elements.md)
+# Elements
 
-Adding Course Elements
+## Adding Course Elements
 
 A course can comprise any number of course elements. In a course you can use
 several course elements of the same type; they can be nested as well. However,
@@ -31,7 +31,7 @@ path".
 In addition there are one or more tabs for individual configuration of that
 course element.
 
-###  Configuration of "Title and Description"
+###  Configuration of "Title and Description" {: #desc}
 
 In the tab "Title and description" you can describe your course element
 further. The field "T **itle** " is mandatory. This "Title in course menu"
@@ -113,7 +113,7 @@ like.
 
 ![](assets/Tab_Layoutd.png)
 
-##  Configuration of the Tabs "Visibility and Access" of conventional courses
+##  Configuration of the Tabs "Visibility and Access" of conventional courses {: #access}
 
 The Visibility and Access tabs can be used to restrict access to a course
 element and all subordinate course elements so that only certain persons have

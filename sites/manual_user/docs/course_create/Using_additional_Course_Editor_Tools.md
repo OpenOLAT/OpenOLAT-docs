@@ -70,7 +70,7 @@ configuration and learning path are possible.
 
 ![](assets/Screenshot 2020-03-22 at 17.57.20.png)
 
-Course preview
+## Course preview  {: #preview}
 
 The editor tool "Course preview" enables you to see course settings and
 content from the course participant's point of view. By clicking on "Course
@@ -130,7 +130,7 @@ views while the course editor is closed.
 ![](assets/Screenshot 2020-03-22 at 17.58.56.png)
 ![](assets/Screenshot 2020-03-22 at 18.00.14.png)
 
-Publishing
+## Publishing
 
 All settings and modifications made in the course editor will be released by
 means of "Publish". This way you can prepare, set up and design your course in
