@@ -2,7 +2,6 @@
 
 Design Patterns are high level not bound to specific components and are best practice solutions for how a user achieves a goal.  
 
-## Enabling / Disabling Functions and Modules in OO
 ## Empty States in OO
 
 Empty states are moments in an app where there is no data to display to the user. 

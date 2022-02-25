@@ -1,14 +1,11 @@
 site_name: manual_dev
 
 nav:
-  - Developer installation:
-    - Testseite: Testseite.md
-  - Architecture:
-    - Testseite: Testseite.md
   - UX Guidelines:
     - Design Pattern: ux/patterns.md
-    - files: ux/files.md
-    - table: ux/table.md
+    - Files: ux/files.md
+    - Table: ux/table.md
+    - Tab / Tab pane: ux/tab.md
     - Button: ux/button.md
   - Documentation:
     - documentation/index.md
