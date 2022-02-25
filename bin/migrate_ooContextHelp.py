@@ -3,6 +3,11 @@ from os import walk
 from urllib.parse import unquote
 from pathlib import Path
 
+from multiprocessing import Process
+from concurrent.futures import ThreadPoolExecutor
+import concurrent.futures
+import urllib.request
+
 #Home
 
 #confluencePath = '/Users/gnaegi/Desktop/us.sitesucker.mac.sitesucker/confluence.openolat.org/'
@@ -44,46 +49,7 @@ def cleanFilename(name):
 	name = name.replace('... ','').lstrip()
 	return name
 
-def lookupByPageId(orig):
-	idmatch = re.search("pageId=(\d*)", orig)
-	if idmatch:
-		id = idmatch.group(1)
-	path = confluencePath + 'pages/viewpage.action﹖pageId=' + id + '.html'
-	if os.path.exists(path):
-		file = open(path, "r+", encoding='utf-8', errors='ignore')
-		match = re.search('<a href="viewpage.action%EF%B9%96pageId=' + id + '.html">(.*)</a>', file.read())
-		if match:
-			name = match.group(1)
-			return name	
-		file.close()
-	
-
-def lookupFilename(orig):
-	cleaned = unquote(orig)
-	cleaned = cleanFilename(cleaned)
-	mappings = open(projectPath + 'bin/16.1-mapping.csv', 'r', encoding="utf-8")
-	reader = csv.reader(mappings, delimiter=',', quotechar='"')
-	for pair in reader:
-		de = pair[0]
-		en = pair[1]
-		if de == '': 
-			continue
-		if en == '':
-			continue
-		if cleaned == de:
-			newName = cleaned.replace(cleaned, en + '.de')
-			newName = newName.replace(' ', '_')
-			return newName
-		elif cleaned == en:
-			newName = cleaned.replace(cleaned, en)
-			newName = newName.replace(' ', '_')
-			return newName
-#		else:
-#			print(cleaned)
-#			return cleaned
-
-
-def listCHelpDir(dir, replace):
+def listCHelpDir(dir):
 	export = open("ooCHelpReferences.csv", 'w', newline='', encoding='UTF8')
 	writer = csv.writer(export)
 	writer.writerow(["Call", "Search", "Page", "Anchor", "NewPage", "NewAnchor", "Replacement"])
@@ -94,9 +60,27 @@ def listCHelpDir(dir, replace):
 	for entry in recurse_findDirs(dir):
 		filename = entry.path
 		if filename.endswith('.html') or filename.endswith('.java'):
-			listCHelpFile(filename, replace, writer, writerNotFound)
+			listCHelpFile(filename, writer, writerNotFound)
 			
 	export.close()
+
+def listCHelpFile(filename, writer, writerNotFound):
+	allPages = list(findAllPages(projectPath))
+	with fileinput.FileInput(filename, inplace=False) as file:
+		for idx, line in enumerate(file):
+			newline = line
+			matches = re.findall('(setFormContextHelp\(("([^#"]*)[#]{0,1}([^"]*)")\))',line)
+			convertAndWriteCSV(matches, writer, writerNotFound, allPages)
+			matches = re.findall('(contextHelpWithWrapper\(("([^#"]*)[#]{0,1}([^"]*)")\))',line)
+			convertAndWriteCSV(matches, writer, writerNotFound, allPages)
+			matches = re.findall('(contextHelpJSCommand\(("([^#"]*)[#]{0,1}([^"]*)")\))',line)
+			convertAndWriteCSV(matches, writer, writerNotFound, allPages)
+			matches = re.findall('(contextHelpLink\(("([^#"]*)[#]{0,1}([^"]*)")\))',line)
+			convertAndWriteCSV(matches, writer, writerNotFound, allPages)
+			matches = re.findall('(getManualProvider\(\)\.getURL\((\s*[^,]*\s*,\s*"([^#"]*)[#]{0,1}([^"]*)")\))',line)
+			convertAndWriteCSV(matches, writer, writerNotFound, allPages)
+
+
 
 def convertAndWriteCSV(matches, writer, writerNotFound, allPages):
 	for match in matches:
@@ -118,26 +102,6 @@ def convertAndWriteCSV(matches, writer, writerNotFound, allPages):
 			else:
 				writerNotFound.writerow(result)
 
-
-
-def listCHelpFile(filename, replace, writer, writerNotFound):
-	allPages = list(findAllPages(projectPath))
-	with fileinput.FileInput(filename, inplace=replace) as file:
-		for idx, line in enumerate(file):
-			newline = line
-			matches = re.findall('(setFormContextHelp\(("([^#"]*)[#]{0,1}([^"]*)")\))',line)
-			convertAndWriteCSV(matches, writer, writerNotFound, allPages)
-			matches = re.findall('(contextHelpWithWrapper\(("([^#"]*)[#]{0,1}([^"]*)")\))',line)
-			convertAndWriteCSV(matches, writer, writerNotFound, allPages)
-			matches = re.findall('(contextHelpJSCommand\(("([^#"]*)[#]{0,1}([^"]*)")\))',line)
-			convertAndWriteCSV(matches, writer, writerNotFound, allPages)
-			matches = re.findall('(contextHelpLink\(("([^#"]*)[#]{0,1}([^"]*)")\))',line)
-			convertAndWriteCSV(matches, writer, writerNotFound, allPages)
-			matches = re.findall('(getManualProvider\(\)\.getURL\((\s*[^,]*\s*,\s*"([^#"]*)[#]{0,1}([^"]*)")\))',line)
-			convertAndWriteCSV(matches, writer, writerNotFound, allPages)
-
-
-
 def findReplacementPage(targetPage, allPages):
 	for page in allPages:
 		if page[len(page)-1].endswith(".de.md"):
@@ -157,9 +121,60 @@ def findReplacementPage(targetPage, allPages):
 				return replacement
 
 
+def replaceCHelpDirXX(dir, mappings, doReplace):
+	## for all html and java files...
+	executor = ThreadPoolExecutor(max_workers=100)
+	allDirs = recurse_findDirs(dir)
+	future_replaced = {executor.submit(replaceCHelpFile,entry.path, mappings, doReplace): entry for entry in allDirs}
+	for future in concurrent.futures.as_completed(future_replaced):
+		entry = future_replaced[future]
+		found = future.result()
+		print(found)
+
+def replaceCHelpDir(dir, mappings, doReplace):
+	## for all html and java files...
+	for entry in recurse_findDirs(dir):
+		filename = entry.path
+		if filename.endswith('.html') or filename.endswith('.java'):
+			replaceCHelpFile(filename, mappings, doReplace)
+
+
+def replaceCHelpFile(filename, mappings, doReplace):
+	if filename.endswith('.html') or filename.endswith('.java'):
+#		mappings = open(projectPath + 'ooCHelpReferences_finalMapping.csv', 'r', encoding="utf-8")
+		mapper = csv.reader(mappings, delimiter='\t', quotechar="'")
+		## go though all lines of the file...
+		found = 0
+		with fileinput.FileInput(filename, inplace=doReplace) as file:
+			for idx, line in enumerate(file):
+				## and check if the line contains a mapped string...
+				mappings.seek(0)
+				newLine = line
+				for cHelpReference in mapper:
+					oldValue = cHelpReference[0]
+					if oldValue == "Call":
+						continue
+					newValue = cHelpReference[6]
+					newLine = line.replace(oldValue, newValue)
+					if (newLine != line):
+						found += 1;
+						if not doReplace:
+							print(filename, oldValue, newLine, end='')
+						continue
+				if doReplace:
+					print(newLine, end='')
+
+		if found > 0:
+			return (found, filename)
+		else:
+			return found
+
+
+###################################
+
 def main(argv):
 	try:
-		opts, args = getopt.getopt(argv,"l:")
+		opts, args = getopt.getopt(argv,"l:r:")
 	except getopt.GetoptError:
 		sys.exit(2)
 	for opt, arg in opts:
@@ -167,10 +182,20 @@ def main(argv):
 			# Only list found context helps, read-only
 			path = ooPath + arg
 			if os.path.isdir(path):
-				listCHelpDir(path, False)
+				listCHelpDir(path)
 			else:
-				listCHelpFile(path, False)
-			
+				listCHelpFile(path)
+		if opt in ("-r"):
+			# Only list found context helps, read-only
+			path = ooPath + arg
+			mappings = open(projectPath + 'ooCHelpReferences_finalMapping.csv', 'r', encoding="utf-8")
+			if os.path.isdir(path):
+				replaceCHelpDir(path, mappings, True)
+			else:
+				replaceCHelpFile(path, mappings, False)
+			mappings.close()
+
+
 
 if __name__ == "__main__":
 	main(sys.argv[1:])
