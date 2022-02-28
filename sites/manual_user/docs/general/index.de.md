@@ -22,21 +22,23 @@ Some rights reserved! This document is copyright protected by the owners and com
 
 Verantwortliche Personen:
 
-  * Sabine Hemsing (Overall), VCRP
-  * Mandy Menzel (Overall), frentix
-  * Tina Frenzel (Overall), frentix
-  * Sabrina Scheiwiler (Overall), frentix
-  * Oliver Kant (Technic), frentix
-  * Florian Gnägi (Content), frentix
-  * Christian Franck (Content), frentix
-  * Michael Enz (Migration), frentix
-  * Kirsten Scherer Auberson (Overall), frentix
-  * Sandra Arnold (Overall), Universität Zürich, MELS
-  * Renata Sevcikova (Overall), Universität Zürich, MELS
-  * Kristina Isacson (Overall), Universität Zürich, MELS 
-  * Joël Fisler (Specials), Universität Zürich, MELS
-  * Sandra Hübner (Content), Hochschule Furtwangen
-  * Christian Meier (Content), TU Dresden
+| Name | Beitrag | Sponsoring durch |
+| ---- | ------------ | ----------- |
+| Sabine Hemsing | Allgemein | VCRP |
+| Mandy Menzel | Allgemein | frentix |
+| Tina Frenzel | Allgemein | frentix |
+| Sabrina Scheiwiler | Allgemein | frentix |
+| Oliver Kant | Technik | frentix |
+| Florian Gnägi | Inhalt, Migration | frentix |
+| Christian Franck | Inhalt | frentix |
+| Michael Enz | Migration | frentix |
+| Kirsten Scherer Auberson | Allgemein | frentix |
+| Sandra Arnold | Allgemein | Universität Zürich, MELS |
+| Renata Sevcikova | Allgemein | Universität Zürich, MELS |
+| Kristina Isacson | Allgemein | Universität Zürich, MELS  |
+| Joël Fisler | Spezielles | Universität Zürich, MELS |
+| Sandra Hübner | Inhalt | Hochschule Furtwangen |
+| Christian Meier | Inhalt | TU Dresden |
 
 
 ## Weitere Informationsquellen
@@ -91,5 +93,5 @@ die Sie betrachten können.
 ### Support
 
 Bitte wenden Sie sich an die jeweilige Supportstelle(n) Ihrer OpenOlat
-Instanz.
+Instanz. Die Supportadresse ist normalerweise im Hilfemenü im Kopfbereich der Seite zu finden oder im Impressum im Kopfbereich oder im Fussbereich der Seite. 
 

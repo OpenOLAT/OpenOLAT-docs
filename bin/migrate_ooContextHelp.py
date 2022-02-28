@@ -192,7 +192,7 @@ def main(argv):
 		if opt in ("-r"):
 			# Only list found context helps, read-only
 			path = ooPath + arg
-			mappings = open(projectPath + 'ooCHelpReferences_finalMapping.csv', 'r', encoding="utf-8")
+			mappings = open(projectPath + 'bin/ooCHelpReferences_finalMapping.csv', 'r', encoding="utf-8")
 			if os.path.isdir(path):
 				replaceCHelpDir(path, mappings, True)
 			else:

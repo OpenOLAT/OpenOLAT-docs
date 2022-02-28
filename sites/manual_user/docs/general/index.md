@@ -37,21 +37,23 @@ Commons license. For more information check:
 
 Responsible people:
 
-  * Sabine Hemsing (Overall), VCRP
-  * Mandy Menzel (Overall), frentix
-  * Tina Frenzel (Overall), frentix
-  * Sabrina Scheiwiler (Overall), frentix
-  * Oliver Kant (Technic), frentix
-  * Florian Gnägi (Content), frentix
-  * Christian Franck (Content), frentix
-  * Michael Enz (Migration), frentix
-  * Kirsten Scherer Auberson (Overall), frentix
-  * Sandra Arnold (Overall), Universität Zürich, MELS
-  * Renata Sevcikova (Overall), Universität Zürich, MELS
-  * Kristina Isacson (Overall), Universität Zürich, MELS 
-  * Joël Fisler (Specials), Universität Zürich, MELS
-  * Sandra Hübner (Content), Hochschule Furtwangen
-  * Christian Meier (Content), TU Dresden
+| Name | Contribution | Sponsored by |
+| ---- | ------------ | ----------- |
+| Sabine Hemsing | Overall | VCRP |
+| Mandy Menzel | Overall | frentix |
+| Tina Frenzel | Overall | frentix |
+| Sabrina Scheiwiler | Overall | frentix |
+| Oliver Kant | Technic | frentix |
+| Florian Gnägi | Content, Migration | frentix |
+| Christian Franck | Content | frentix |
+| Michael Enz | Migration | frentix |
+| Kirsten Scherer Auberson | Overall | frentix |
+| Sandra Arnold | Overall | Universität Zürich, MELS |
+| Renata Sevcikova | Overall | Universität Zürich, MELS |
+| Kristina Isacson | Overall | Universität Zürich, MELS  |
+| Joël Fisler | Specials | Universität Zürich, MELS |
+| Sandra Hübner | Content | Hochschule Furtwangen |
+| Christian Meier | Content | TU Dresden |
 
 
 ## Further Sources of Information
@@ -99,6 +101,6 @@ provides information about the what's required.
 
 ### Support
 
-Please contact your local support team.
+Please contact your local support team. Normally this is found on the OpenOlat login page in the help menu in the header of the page or in the imprint in the header or the footer. 
 
   
