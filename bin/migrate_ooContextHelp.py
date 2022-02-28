@@ -145,7 +145,8 @@ def replaceCHelpFile(filename, mappings, doReplace):
 		mapper = csv.reader(mappings, delimiter='\t', quotechar="'")
 		## go though all lines of the file...
 		found = 0
-		with fileinput.FileInput(filename, inplace=doReplace) as file:
+		replacement = ''
+		with fileinput.FileInput(filename, inplace=False) as file:
 			for idx, line in enumerate(file):
 				## and check if the line contains a mapped string...
 				mappings.seek(0)
@@ -158,13 +159,16 @@ def replaceCHelpFile(filename, mappings, doReplace):
 					newLine = line.replace(oldValue, newValue)
 					if (newLine != line):
 						found += 1;
-						if not doReplace:
-							print(filename, oldValue, newLine, end='')
-						continue
-				if doReplace:
-					print(newLine, end='')
+						break
+				replacement = replacement + newLine
 
 		if found > 0:
+			if doReplace:
+				print("Replaced cHelp in", filename)
+				#shutil.copyfile(filename, filename + '.bak')
+				text_file = open(filename, "w")
+				text_file.write(replacement)
+				text_file.close()
 			return (found, filename)
 		else:
 			return found
@@ -192,7 +196,7 @@ def main(argv):
 			if os.path.isdir(path):
 				replaceCHelpDir(path, mappings, True)
 			else:
-				replaceCHelpFile(path, mappings, False)
+				replaceCHelpFile(path, mappings, True)
 			mappings.close()
 
 

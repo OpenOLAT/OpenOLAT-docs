@@ -1,6 +1,6 @@
 # Modules: Taxonomy
 
-What is a taxonomy?
+## What is a taxonomy?
 
 In OpenOlat, a taxonomy is a hierarchical indexing, usually with a competence
 approach.
@@ -8,7 +8,7 @@ approach.
 Taxonomy can be activated and used in several OpenOlat areas:
 
   * [Document pool](Modules_Document_pool.md)
-  * [Question bank](Question+Bank.html)
+  * [Question bank](../../manual_user/question_bank/index.md)
   * [ePortfolio](../../manual_user/portfolio/Competences_tags.md)
   * Linking with learning resources
 

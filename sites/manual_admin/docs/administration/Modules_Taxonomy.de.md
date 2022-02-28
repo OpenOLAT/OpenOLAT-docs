@@ -1,6 +1,6 @@
 # Modules: Taxonomie
 
-Was ist eine Taxonomie?
+## Was ist eine Taxonomie?
 
 Im OpenOlat ist eine Taxonomie eine hierarchische Verschlagwortung,
 üblicherweise mit einem Kompetenzansatz.
@@ -8,7 +8,7 @@ Im OpenOlat ist eine Taxonomie eine hierarchische Verschlagwortung,
 Taxonomie kann in mehreren OpenOlat Bereichen aktiviert und eingesetzt werden:
 
   * [Dokumentenpool](Modules_Document_pool.de.md)
-  * [Fragenpool](Fragenpool.html)
+  * [Fragenpool](../../manual_user/question_bank/index.de.md)
   * [ePortfolio](../../manual_user/portfolio/Competences_tags.de.md)
   * Verknüpfung mit Lernressourcen
 
