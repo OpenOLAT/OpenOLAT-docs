@@ -14,15 +14,6 @@ The Primary button is for all the action of high emphasis, as Save / primary act
 
 The secondary button has more emphasis then a text button. Mostly used for secondary important actions beside a primary button to highlight a hierarchy.
 
-
-### Ghost Button
-
-![Ghost Button](assets/Ghost%20button.jpg "Ghost Button")
-
-<span style="color: crimson;">In Development. Only Proposal</span>.
-
-Other than a Text link inside a text, this is a standalone element, used for tertiary elements.
-
 ### Text Button
 
 ![Text Button](assets/text_button.png "Text Button")

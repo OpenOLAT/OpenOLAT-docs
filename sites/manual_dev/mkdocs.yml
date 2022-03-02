@@ -2,8 +2,8 @@ site_name: manual_dev
 
 nav:
   - UX Guidelines:
+    - ux/index.md
     - Design Pattern: ux/patterns.md
-    - Files: ux/files.md
     - Table: ux/table.md
     - Tab / Tab pane: ux/tab.md
     - Button: ux/button.md
