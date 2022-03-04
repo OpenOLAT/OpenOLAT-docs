@@ -1,12 +1,12 @@
 # Roles and Rights
 
   * 1 Roles and Rights 
-  * 2OpenOlat system wide roles and rights
-    * 2.1User type
-    * 2.2Roles
-  * 3Course rights and roles
-    * 3.1Course roles
-    * 3.2Group roles
+  * 2 OpenOlat system wide roles and rights
+    * 2.1 User type
+    * 2.2 Roles
+  * 3 Course rights and roles
+    * 3.1 Course roles
+    * 3.2 Group roles
 
 # OpenOlat system wide roles and rights
 
@@ -18,7 +18,9 @@ differentiated. These are:
   *  **Anonymous guest:**  Guests have - without registration - limited access to OpenOlat. They can only have a look at learning content enabled for guests, but cannot take part in learning activities. The link to the guest access can be found on the login page. Further information about guest can be found [here](Guest_access.md). 
   *  **System user:**  Every user has a distinct user name, which cannot be changed after the registration anymore. Users can use enabled learning content and can take part in learning activities. Additionally every users has an individual configurable landing page and storage available. Further more he can create groups. 
 
-Normally registered users without any further roles or rights are learners.
+!!! info inline end
+
+    Normally registered users without any further roles or rights are learners.
 
 ## Roles
 
@@ -58,10 +60,16 @@ is an overview of all OpenOlat roles.
 
   
 
-The role "Administrator" used up to OpenOlat 12.5 is divided into
-"Administrator" and "System Administrator" as of Release 13.
+!!! info "Info"
 
-Note
+    The role "Administrator" used up to OpenOlat 12.5 is divided into "Administrator" and "System Administrator" as of Release 13.
+
+!!! warning "Note"
+
+    The mentioned roles represent options to give normal users system-wide extensive additional rights. Usually an appropriate role composition is selected for an OpenOlat instance and not all specific roles are assigned.
+    Typical is a combination of user, author and administrator or system administrator. Additional roles result from the structure of the respective institution and the use of certain tools such as [curriculum] (../curriculum/Curriculum_Management.md) or [absences](../course_operation/Lectures_and_absences.md). It is therefore possible that not all potential OpenOlat roles are used in your instance.
+    
+    If you have any questions regarding the role management please contact the support of your own OpenOlat instance.
 
 The mentioned roles represent options to give normal users system-wide
 extensive additional rights. Usually an appropriate role composition is
@@ -92,18 +100,13 @@ to a course.
 
 ![](assets/en_rights.png)
 
-Role change
-
-It is also possible for people to be given multiple course roles and thus have
-different perspectives on the course. Once a person has been assigned several
-course-related roles, it is possible to change roles by changing the "User
-role" in the course toolbar.
-
-Furthermore, it is a good idea that the owner of the course also enters
-himself in the other roles in the course in order to view the course from a
-different perspective/role.
-
-![](assets/user_role.png)
+!!! success "Role change"
+  
+    It is also possible for people to be given multiple course roles and thus have different perspectives on the course. Once a person has been assigned several course-related roles, it is possible to change roles by changing the "User role" in the course toolbar.
+    
+    Furthermore, it is a good idea that the owner of the course also enters himself in the other roles in the course in order to view the course from a different perspective/role.
+    
+    ![](assets/user_role.png)
 
 ## Group roles
 
@@ -119,16 +122,15 @@ see the **participants** of his group.
 
 ![](assets/memebers_managent15.png)
 
-Note
+!!! warning "Note"
 
-Course rights as well as group rights are independent of the role which a user
-got system wide in the user management. A system user without an assigned role
-can be course owner, course coach or group coach.
+    Course rights as well as group rights are independent of the role which a user got system wide in the user management. A system user without an assigned role can be course owner, course coach or group coach. 
+    
+!!! danger "Attention"
+    
+    To avoid the access to the assessment tool for a given user, do not give any coach rights neither in the course nor in the group.
 
-To avoid the access to the assessment tool for a given user, do not give any
-coach rights neither in the course nor in the group.
+!!! danger ""
 
-Users with the right "Members management" can give more rights, remove it or
-reduce the rights of themselves as well as other members of the course, also
-the creator or other owners.
+    Users with the right "Members management" can give more rights, remove it or reduce the rights of themselves as well as other members of the course, also the creator or other owners.
 
