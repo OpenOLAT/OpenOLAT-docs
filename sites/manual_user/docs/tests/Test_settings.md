@@ -1,6 +1,6 @@
 # Test settings
 
-# Test administration
+## Test administration
 
 In the "Administration" area of a test, you will find further menus, similar
 to other learning resources. Here you can configure the test in more detail.
@@ -27,7 +27,7 @@ settings.
 
 The following configurations can be made:
 
-Standard settings|
+#### Standard settings
 
 Here you select a preconfigured selection of typical settings for different
 test usage situations.
@@ -39,27 +39,35 @@ individual adjustments are still possible.
 
 ![](assets/Test_profile_EN.png)  
   
----|---  
-Limit number of test attempts|
+#### Limit number of test attempts
 
 Enter the maximum number of possible solution attempts for a test here. The
 value can be a maximum of 20.  
   
-First successful attempt counts| Once the result is "passed", the user cannot
+#### First successful attempt counts
+
+Once the result is "passed", the user cannot
 perform the test again.  
-Anonym users (guests) allowed| Persons without OpenOlat account can also
+
+#### Anonym users (guests) allowed {: #guest}
+
+Persons without OpenOlat account can also
 complete the course. The results are also available in the test statistics.
 However, guests cannot interrupt the test. Only completed tests are counted.  
-Display only module, hide LMS| This is chosen to prevent a user from having
+
+#### Display only module, hide LMS
+
+This is chosen to prevent a user from having
 access to other OpenOlat functions during a test. OpenOlat is hidden and only
 displayed again after the test has been completed.  
-Show question title|
 
+#### Show question title
+	
 Select the checkbox to display the titles of the questions to the users. If
 the titles should not be displayed but the navigation is activated then an
 anonymous title appears in the menu navigation.  
   
-Show menu navigation|
+#### Show menu navigation
 
 If you do _not_ allow menu navigation:
 
@@ -67,20 +75,36 @@ If you do _not_ allow menu navigation:
   * If the test is set to "linear navigation", the next question will automatically appear after an answer is submitted and the test person will not be able to navigate to other questions.
 
   
-Personal notes| You can allow users to create personal notes during the test
+#### Personal notes You can allow users to create personal notes during the test {: #notes}
 that are no longer available when the test is complete.  
-Show number of questions and progress in test| Select the checkbox to display
+
+#### Show number of questions and progress in test
+
+Select the checkbox to display
 the number of questions to the users.  
-Show points and score in test| Select the checkbox to show the users current
+
+#### Show points and score in test
+
+Select the checkbox to show the users current
 score in the test run.  
-Show questions max. points| If the checkbox is checked, the maximum achievable
+
+#### Show questions max. points
+
+If the checkbox is checked, the maximum achievable
 points per question are displayed in the test.  
-Allow to suspend| Selecting the checkbox allows users to interrupt the test.
+
+#### Allow to suspend
+
+Selecting the checkbox allows users to interrupt the test.
 The previous answers are saved and the users can continue answering the
 questions at a later time.  
-Allow to cancel| By ticking the checkbox you allow the course participants to
+
+#### Allow to cancel
+
+By ticking the checkbox you allow the course participants to
 cancel the test without saving the answers.  
-Generate a test receipt|
+
+#### Generate a test receipt
 
 If this option is selected, a test receipt will be generated after the test is
 finished, which can be downloaded as an XML file. It is used to verify the
@@ -88,19 +112,22 @@ test.
 
 ![](assets/test_receipt_EN.png)  
   
-Send the test receipt per mail| If the option "Create test receipt" is
+#### Send the test receipt per mail
+
+If the option "Create test receipt" is
 selected, the option "Send test receipt by mail" can be activated
 additionally. The created XML file will then be sent to the participant by
 e-mail.  
-Show feedbacks| As long as this checkbox is selected, the feedback will be
+
+#### Show feedbacks
+
+As long as this checkbox is selected, the feedback will be
 displayed during the test process. If the checkbox is no longer selected, no
 more feedback will be displayed. This concerns the feedback of all question
 items and also the feedback that can be added at the test level. The
 individual feedbacks are configured in the test editor.  
   
-Show results after test has been submitted
-
-|
+#### Show results after test has been submitted {: #results}
 
 If this checkbox is selected, the result will be displayed when the test is
 finished. However, the result is not displayed on the test home page. This
@@ -118,10 +145,11 @@ From the following options, you can select the ones you want to display.
 
 ![](assets/Test_results_EN.png)  
   
-The settings made under Options are automatically adopted when the test is
-included in a [course](Tests_at_course_level.md) and, if desired, can be
-adapted in the respective course element Test in the course editor in the tabs
-"Test configuration" or "Options".
+!!! info  
+	The settings made under Options are automatically adopted when the test is
+	included in a [course](Tests_at_course_level.md) and, if desired, can be
+	adapted in the respective course element Test in the course editor in the tabs
+	"Test configuration" or "Options".
 
 ### Settings: Tab Metadata, Share, Catalog
 

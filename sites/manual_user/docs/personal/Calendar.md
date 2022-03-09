@@ -53,7 +53,7 @@ adapted before.
 
   
 
-### Visibility
+### Visibility {: #visibility}
 
 Please determine who may see your calendar's entries.
 

@@ -69,7 +69,7 @@ wurden.
 
 ![](assets/serientermine_DE.png)
 
-## Sichtbarkeit
+## Sichtbarkeit {: #visibility}
 
 Legen Sie hier fest, wer den Kalendereintrag sehen darf.
 

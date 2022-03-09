@@ -72,7 +72,7 @@ Furthermore, you can define under "Security Settings" whether coaches are
 allowed to edit the stored HTML file. The coaches do not need any coach rights
 or access to the course editor.
 
-## Tab Layout
+## Tab Layout {: #layout}
 
 In the " **Layout** " tab you can define the settings for the display of page
 contents. Here you determine whether the page should be displayed unaltered,

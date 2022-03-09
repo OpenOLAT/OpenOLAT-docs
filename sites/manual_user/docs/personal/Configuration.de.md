@@ -3,17 +3,7 @@
 Die Konfiguration gewährt Ihnen den Zugriff auf die Menüs Profil,
 Einstellungen und Passwort.  
 
-  * 1 Konfiguration 
-    * 1.1 Profil
-    * 1.2Einstellungen
-      * 1.2.1Tab System
-      * 1.2.2Tab WebDAV
-      * 1.2.3Tab Instant-Messaging
-      * 1.2.4Tab Nutzungsbedingungen
-      * 1.2.5Tab Benutzerdaten
-    * 1.3  Passwort
-
-##  Profil
+##  Profil {: #profile}
 
 Im persönlichen Menu unter der Option „Profil“ können Sie Ihre persönlichen
 Daten ändern und ihre Visitenkarte einrichten. Vervollständigen Sie einfach
@@ -47,8 +37,8 @@ Ihrer Visitenkarte, bei Forenbeiträgen oder in der Teilnehmerliste. Das Bild
 wird von OpenOlat auf eine Breite von 100 Pixel zugeschnitten.
 
   
-
-Einige Felder können eventuell nicht geändert werden.
+!!! attention 
+	Einige Felder können eventuell nicht geändert werden.
 
 Tab "Meine Visitenkarte"
 
@@ -57,9 +47,10 @@ Visitenkarte erscheinen und somit von anderen OpenOlat- Benutzern eingesehen
 werden können. Einige Check-Boxen können nicht bearbeitet werden. Diese sind
 systemweit vorgegeben.
 
-Um sich die Visitenkarten anderer OpenOlat-Benutzer anzuschauen, wählen Sie
-**Andere Benutzer** im persönlichen Menü und suchen die gewünschte Person über
-die Suchmaske.
+!!! tip
+	Um sich die Visitenkarten anderer OpenOlat-Benutzer anzuschauen, wählen Sie
+	**Andere Benutzer** im persönlichen Menü und suchen die gewünschte Person über
+	die Suchmaske.
 
 ## Einstellungen {: #settings}
 
@@ -77,8 +68,9 @@ hinaus können Sie Ihre individuelle Systemsprache auswählen. OpenOlat ist in
 zahlreiche Sprachen übersetzt worden. Die Änderung der Sprache wird erst nach
 dem nächsten Einloggen aktiv.
 
-Die Sprache von Kursinhalten wird von der Sprachwahl hier aber nicht
-beeinflusst.
+!!! attention 
+	Die Sprache von Kursinhalten wird von der Sprachwahl hier aber nicht
+	beeinflusst.
 
 Darüber hinaus können Sie einstellen, wie oft Sie Benachrichtigungen per
 E-Mail erhalten wollen. Zur Auswahl stehen: ausgeschaltet, monatlich,
@@ -97,7 +89,7 @@ sowie der Kursresultate. Voreingestellt ist der Zeichensatz ISO-8859-1.
 Enthalten Ihre Tests oder Fragebogen z.B. Arabische Zeichen, müssen Sie hier
 den Zeichensatz UTF-8 wählen.
 
- ** ****** In den Speziellen Systemeinstellungen sehen und ändern Sie die
+In den Speziellen Systemeinstellungen sehen und ändern Sie die
 Einstellungen, die Ihnen den tagtäglichen Einstieg und die Arbeit mit OpenOlat
 erleichtern können.
 
@@ -121,7 +113,9 @@ die Sie Zugriff haben, gewählt werden.
 
   
 
- ** **** Benutzerwerkzeuge: **Hier wählen Sie aus, welche Benutzerwerkzeuge
+#### Benutzerwerkzeuge: 
+
+Hier wählen Sie aus, welche Benutzerwerkzeuge
 direkt oben rechts in der Menüleiste (neben Ihrem Profilbild) erscheinen
 sollen, so dass Sie sehr schnell auf diese Werkzeuge zugreifen können.
 
@@ -132,9 +126,10 @@ als Menüeintrag im persönlichen Menü verfügbar. Mit Hilfe kommen Sie auf die
 Startseite des Benutzerhandbuchs und mit Drucken können Sie die aktuell
 geöffnete Seite drucken.
 
-Versuchen Sie nicht alle Werkzeuge zu aktivieren, sondern wählen sie gezielt
-die Werkezeuge aus, Sie Sie häufig benutzen. So bleibt die Menüleiste
-übersichtlich.
+!!! tip
+	Versuchen Sie nicht alle Werkzeuge zu aktivieren, sondern wählen sie gezielt
+	die Werkezeuge aus, Sie Sie häufig benutzen. So bleibt die Menüleiste
+	übersichtlich.
 
 Als letztes haben Sie unter "Einstellungen" im Tab "System" die Möglichkeit,
 ihre vorgenommenen systembezogenen Änderungen wieder **auf die
@@ -142,7 +137,7 @@ Standardeinstellungen zurückzusetzen** , Hierzu zählen Einstellungen bezüglic
 der Personalisierung, der Benachrichtigungen und der
 Sitzungswiederherstellung.
 
-### Tab WebDAV
+### Tab WebDAV {: #webdav}
 
 Im Tab "WebDAV" finden Sie den [WebDAV-Link zu Ihrer OpenOlat-
 Instanz](../supported_tech/Using_WebDAV.de.md), mit der bequem Dateien verwaltet werden

@@ -73,7 +73,7 @@ Ferner können Sie definieren, ob Betreuer die hinterlegte HTML-Datei
 bearbeiten dürfen. Die Betreuer benötigen dafür keine Kursbesitzerrechte oder
 Zugang zum Kurseditor.
 
-## Tab Anzeige Inhalt
+## Tab Anzeige Inhalt  {: #layout}
 
 Im Tab „ **Anzeige Inhalt** “ definieren Sie die Einstellungen für die Anzeige
 des Seiteninhalts. Hier legen Sie fest ob die Seite unverändert, oder

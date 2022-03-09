@@ -3,11 +3,7 @@
 The configuration gives you access to the Profile, Settings and Password
 menus.
 
-  
-
-  
-
-## Profile
+## Profile {: #profile}
 
 In the personal menu under the option "Profile" you can change your personal
 data and set up your business card. Simply complete the fields provided.
@@ -38,17 +34,18 @@ business card, in forum posts or in the list of participants. OpenOlat will
 crop the picture to a width of 100 pixels.
 
   
+!!! attention
+	Some fields may not be changeable.
 
-Some fields may not be changeable.
-
-###  **Tab "My visiting card"**
+### Tab "My visiting card"
 
 With the help of the check boxes you can determine which entries appear on
 your business card and can therefore be viewed by other OpenOlat users. Some
 check boxes cannot be edited. These are predefined system-wide.
 
-To view the business cards of other OpenOlat users, select Other users in the
-personal menu and search for the desired person using the search mask.
+!!! tip
+	To view the business cards of other OpenOlat users, select Other users in the
+	personal menu and search for the desired person using the search mask.
 
 ##  Settings {: #settings}
 
@@ -65,9 +62,8 @@ select your individual system language. OpenOlat has been translated into
 numerous languages. Changing the language will only become active after the
 next login.
 
-  
-
-The language of course content is not affected by the language selection here.
+!!! attention
+	The language of course content is not affected by the language selection here.
 
 You can also set how often you want to receive email notifications. You can
 choose between: switched off, monthly, weekly, daily, half-day, every four and
@@ -107,7 +103,8 @@ selected for this purpose.
 
   
 
-**User tools:**  Here you select which user tools should appear in the top
+#### User tools:
+  Here you select which user tools should appear in the top
 right-hand corner of the menu bar (next to your profile picture) so that you
 can access these tools very quickly.
 
@@ -117,16 +114,16 @@ Tools that are not available as quick access in the navigation bar are
 available as menu items in the personal menu. Use Help to get to the start
 page of the user manual and Print to print the currently opened page.
 
-Do not try to activate all tools, but select the tools you use frequently.
-This keeps the menu bar clear.
-
+!!! tip
+	Do not try to activate all tools, but select the tools you use frequently.
+	This keeps the menu bar clear.
   
 
 Finally, under "Settings" in the "System" tab, you have the option of
 **resetting** your system-related changes **to the  ** **default settings** ,
 including settings for personalization, notifications and session restore.
 
-###  **Tab WebDAV**
+###  Tab WebDAV {: #webdav}
 
 The tab "WebDAV" provides you with the [WebDAV link to your OpenOlat
 system](../supported_tech/Using_WebDAV.md), which can be used to conveniently manage files. As

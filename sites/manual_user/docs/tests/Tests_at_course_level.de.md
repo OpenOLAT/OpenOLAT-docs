@@ -50,7 +50,7 @@ werden. Sobald die "bis-Zeit" erreicht ist, wird der Test automatisch beendet.
 Auch dann, wenn die definierte Bearbeitungszeitdauer noch nicht aufgebraucht
 ist.  
   
-### Korrektur
+### Korrektur {: #correction}
 
 |
 
@@ -89,7 +89,7 @@ Teilnehmer eingesehen werden.
 
 ![](assets/testkonfig_bewertung.jpeg)  
   
-### Report
+### Report {: #report}
 
 |  
   

@@ -1,13 +1,6 @@
 site_name: manual_admin
 
 nav:
-  - Installation:
-    - Installation guide: "installation/installGuide.md"
-    - Update guide: "installation/updateGuide.md"
-    - Special topics:
-      - MySQL DB: "installation/mysql.md"
-      - Windows support: "installation/windows.md"
-
   - Administration:
     - System: "administration/System.md"
     - Core functions:
@@ -60,6 +53,13 @@ nav:
     - Assign roles: "usermanagement/Assign_roles.md"
     - Configure User: "usermanagement/Configure_User.md"
     - Data protection: "usermanagement/Data_protection.md"
+
+  - Installation:
+    - Installation guide: "installation/installGuide.md"
+    - Update guide: "installation/updateGuide.md"
+    - Special topics:
+      - MySQL DB: "installation/mysql.md"
+      - Windows support: "installation/windows.md"
 
 
 

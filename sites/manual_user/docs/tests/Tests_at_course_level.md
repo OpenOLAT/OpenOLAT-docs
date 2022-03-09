@@ -29,7 +29,7 @@ settings can be made, e.g. the type of correction or the type of display of
 the test results can be defined. In detail, the following settings are
 possible:
 
- **Test**|  
+## Test
   
 ---|---  
 Ignore in course assessment|
@@ -41,7 +41,8 @@ This setting is not available for a conventional course.
 Set assessment period| The test can be started during the test period. As soon
 as the "to" time is reached, the test is automatically terminated. This is
 also the case if the defined test time has not yet been used up.  
- **Correction**|
+
+### Correction  {: #correction}
 
  **automatically or manually**
 
@@ -70,7 +71,7 @@ test as corrector.
 If the option "Manual by external graders" is not available, no external
 correctors were configured in the learning resource Test.  
   
- **Report**|  
+### Report {: #report}  
   
 Show score on test homepage|
 

@@ -1,6 +1,6 @@
 # Test Einstellungen
 
-# Test Administration
+## Test Administration
 
 Im Bereich "Administration" eines Tests findet man, ähnlich wie bei anderen
 Lernressourcen weitere Menüs. Hier kann man den Test näher konfigurieren.
@@ -42,9 +42,6 @@ gewählten Antworten generieren lassen.
 
   4. Die Zusammenfassung beinhaltet eine Übersicht aller getätigter Einstellung sowie eine Vorschau der zu generierten Tests. Bitte beachten, dass bei einer grösseren Anzahl von Generierungen, diese etwas dauern kann und der Browser möglicherweise nicht immer reagiert.  
 ![](assets/image2021-12-8_15-40-49.png)
-
-  
-
   
 
 ## Menü "Einstellungen" eines Tests
@@ -58,7 +55,7 @@ nehmen Sie die gewünschten Einstellungen vor.
 
 Folgende Konfigurationen können vorgenommen werden:
 
-Standardeinstellungen|
+#### Standardeinstellungen
 
 Hier wählen Sie eine vorkonfigurierte Auswahl von typischen Einstellungen für
 unterschiedliche Nutzungssituationen von Tests.
@@ -71,29 +68,37 @@ aber weiterhin möglich.
 
 ![](assets/Test_standardeinstellungen.png)  
   
----|---  
-Anzahl Lösungsversuche limitieren|
+#### Anzahl Lösungsversuche limitieren
 
 Tragen Sie hier die maximale Anzahl der möglichen Lösungsversuche für einen
 Test ein. Der Wert kann maximal 20 betragen.  
   
-Erster bestandener Lösungsversuch zählt| Sobald das Ergebnis "bestanden"
+#### Erster bestandener Lösungsversuch zählt
+
+Sobald das Ergebnis "bestanden"
 erreicht wird, kann der Benutzer den Test nicht noch einmal durchführen.  
-Anonyme Benutzer (Gäste) erlauben| Personen ohne OpenOlat Account können
+
+#### Anonyme Benutzer (Gäste) erlauben {: #guest}
+
+Personen ohne OpenOlat Account können
 ebenfalls den Test absolvieren. Gäste können den Test jedoch nicht
 unterbrechen. Es werden nur abgeschlossene Tests gezählt. Die Resultate stehen
 ebenfalls in der Teststatistik zur Verfügung.  
-Nur Modul anzeigen, LMS ausblenden| Diese Auswahl wird gewählt, um zu
+
+#### Nur Modul anzeigen, LMS ausblenden
+
+Diese Auswahl wird gewählt, um zu
 verhindern, dass ein Benutzer während eines Tests auf andere OpenOlat-
 Funktionen Zugriff hat. OpenOlat wird dabei ausgeblendet und erst wieder nach
 Beenden des Testes angezeigt.  
-Fragetitel anzeigen|
+
+#### Fragetitel anzeigen
 
 Markieren Sie die Checkbox, um den Benutzern die Titel der Fragen anzuzeigen.
 Wenn die Titel nicht angezeigt werden sollen, aber die Navigation aktiviert
 ist, dann erscheint in der Menü-Navigation ein anonymisierter Titel.  
   
-Menu-Navigation anzeigen|
+#### Menu-Navigation anzeigen
 
 Wenn Sie die Menu-Navigation _nicht_ erlauben:
 
@@ -101,23 +106,41 @@ Wenn Sie die Menu-Navigation _nicht_ erlauben:
   * ist am Test "lineare Navigation" eingestellt, erscheint nach dem Abschicken einer Antwort automatisch die nächste Frage und die Testperson kann nicht zu anderen Fragen navigieren.
 
   
-Persönliche Notizen| Sie können den Benutzern erlauben, während des Tests
+#### Persönliche Notizen  {: #notes}
+
+Sie können den Benutzern erlauben, während des Tests
 persönliche Notizen zu erstellen, die nach Abschluss des Tests nicht mehr zur
 Verfügung stehen.  
-Anzahl Fragen und Fortschritt im Test anzeigen| Markieren Sie die Checkbox, um
+
+#### Anzahl Fragen und Fortschritt im Test anzeigen
+
+Markieren Sie die Checkbox, um
 den Benutzern die Anzahl Fragen anzuzeigen.  
-Anzahl Punkte und Punktestand im Test anzeigen| Markieren Sie die Checkbox, um
+
+#### Anzahl Punkte und Punktestand im Test anzeigen
+
+Markieren Sie die Checkbox, um
 den Benutzern ihre momentane Punktezahl im Testverlauf anzuzeigen.  
-Max. Punkte der Frage anzeigen| Ist die Checkbox markiert, werden die maximal
+
+#### Max. Punkte der Frage anzeigen
+
+Ist die Checkbox markiert, werden die maximal
 erreichbaren Punkte pro Frage im Test angezeigt.  
-Unterbrechen erlauben| Das Ankreuzen der Checkbox bewirkt, dass die Benutzer
+
+#### Unterbrechen erlauben
+
+Das Ankreuzen der Checkbox bewirkt, dass die Benutzer
 den Test unterbrechen können. Hierbei werden die bisherigen Antworten
 gespeichert und die Benutzer haben die Möglichkeit zu einem späteren Zeitpunkt
 mit der Beantwortung der Fragen fortzufahren.  
-Abbrechen erlauben| Mit dem Ankreuzen der Checkbox erlauben Sie den
+
+#### Abbrechen erlauben
+
+Mit dem Ankreuzen der Checkbox erlauben Sie den
 Kursteilnehmern den Test abzubrechen, ohne dass die Antworten gespeichert
 werden.  
-Testquittung erstellen|
+
+#### Testquittung erstellen
 
 Wenn diese Option angewählt wird, wird nach Beenden des Tests eine
 Testquittung erstellt, welche als XML-File heruntergeladen werden kann. Es
@@ -125,19 +148,21 @@ dient der Verifizierung des Tests.
 
 ![](assets/testquittung_DE.png)  
   
-Testquittung per Mail schicken| Wenn die Option "Testquittung erstellen"
+#### Testquittung per Mail schicken
+
+Wenn die Option "Testquittung erstellen"
 ausgewählt ist, kann die Option Testquittung per Mail schicken zusätzlich
 aktiviert werden. Das erstellte XML-File wird dann zusätzlich per Mail an den
 Teilnehmer verschickt.  
-Feedbacks anzeigen| Solange diese Checkbox ausgewählt ist, werden die
+#### Feedbacks anzeigen
+
+Solange diese Checkbox ausgewählt ist, werden die
 Feedbacks im Testverlauf angezeigt. Wenn die Checkbox nicht mehr ausgewählt
 ist, werden keine Feedbacks mehr angezeigt. Dies betrifft die Feedbacks aller
 Frageitems und auch das Feedback, welches auf der Ebene Test hinzugefügt
 werden kann. Die einzelnen Feedbacks werden im Testeditor konfiguriert  
   
-Resultate nach Testabschluss anzeigen
-
-|
+#### Resultate nach Testabschluss anzeigen {: #results}
 
 Wenn diese Checkbox ausgewählt ist, wird das Resultat nach Beenden des Tests
 angezeigt. Das Resultat wird jedoch nicht auf der Test-Startseite angezeigt.
@@ -154,11 +179,12 @@ anzeigen möchten.
   * ![](assets/resultreport_DE.png)
 
   
-  
-Die Einstellungen, welche unter Optionen vorgenommen werden, werden beim
-Einbinden des Tests in einen [Kurs ](Tests_at_course_level.de.md)automatisch
-übernommen und können falls gewünscht im jeweiligen Kursbaustein Test im
-Kurseditor in den Tabs "Test-Konfiguration" bzw.  "Optionen" angepasst werden.
+!!! info 
+	  
+	Die Einstellungen, welche unter Optionen vorgenommen werden, werden beim
+	Einbinden des Tests in einen [Kurs ](Tests_at_course_level.de.md)automatisch
+	übernommen und können falls gewünscht im jeweiligen Kursbaustein Test im
+	Kurseditor in den Tabs "Test-Konfiguration" bzw.  "Optionen" angepasst werden.
 
 ### Einstellungen: Tabs Info, Metadaten, Freigabe und Katalog
 
