@@ -1,5 +1,7 @@
 # Gastzugang
 
+![](assets/DE_gastlogin.png) { align=right }
+
 Neben registrierten Benutzern können auch Personen ohne OpenOlat Account als
 Gäste Zugang zum System erhalten. Gäste sind anonyme, nicht registrierte
 Benutzer, welche in der [Benutzerverwaltung ](Benutzerverwaltung.html)nicht
@@ -11,11 +13,12 @@ Bereiche Gäste Zugriff haben und auf welche nicht. Diese Basis-Einstellungen
 sind nur durch den Systemadministrator möglich.
 
   
+!!! warning "Hinweis"
 
-Der Gastzugang ist nur bei herkömmlichen Kursen, nicht bei Lernpfad Kursen
-aktivierbar.
+    Der Gastzugang ist nur bei herkömmlichen Kursen, nicht bei Lernpfad Kursen
+    aktivierbar.
 
-![](assets/DE_gastlogin.png)
+
 
 ## Kursbereich  
 
@@ -27,14 +30,14 @@ Kurs erhalten.
 
 Folgende Kursbausteine kann ein Gast sehen:
 
-  * Lesen: CP Lerninhalt, Blog, Wiki, Mitteilung, Kalender, Einzelseite, externe Seite, Dateidiskussion, Linkliste
-  * Forum: Der Kursitzer kann im Kurseditor einstellen, ob auch Gäste Forenbeiträge erstellen dürfen
-  * Podcast und Video schauen
-  * Ordner: Dateien herunterladen
-  * Teilnehmer Ordner: gleich wie normaler Benutzer (hochladen etc)
-  * SCORM: durchführen
-  * Test: je nach Konfiguration durchführen
-  * Selbsttest: durchführen (auch wenn Option nicht angewählt)
+  * **Lesen**: CP Lerninhalt, Blog, Wiki, Mitteilung, Kalender, Einzelseite, externe Seite, Dateidiskussion, Linkliste
+  * **Forum**: Der Kursitzer kann im Kurseditor einstellen, ob auch Gäste Forenbeiträge erstellen dürfen
+  * **Podcast und Video** schauen
+  * **Ordner**: Dateien herunterladen
+  * **Teilnehmer Ordner**: gleich wie normaler Benutzer (hochladen etc)
+  * **SCORM**: durchführen
+  * **Test**: je nach Konfiguration durchführen
+  * **Selbsttest**: durchführen (auch wenn Option nicht angewählt)
 
 Wenn Sie einem Gast einen direkten Zugriff zu einem Kurs geben, können Sie ihm
 den Externen Link zum  Kurs schicken. Wichtig ist, dass der Kurs in der
@@ -43,7 +46,9 @@ Link finden Sie auf der Infoseite des Kurses.
 
 ![](assets/gastlink.png)
 
-Administrative Einstellungen werden von OLAT Administratoren im Bereich Login
-→ ["Gast und Einladung](../../manual_admin/administration/Guest_and_invitation.de.md)" und unter
-"[Customizing](../../manual_admin/administration/Customizing.de.md)" → "Sites" vorgenommen.
+!!! info "Info"
+    
+    Administrative Einstellungen werden von OLAT Administratoren im Bereich Login
+    → ["Gast und Einladung](../../manual_admin/administration/Guest_and_invitation.de.md)" und unter
+    "[Customizing](../../manual_admin/administration/Customizing.de.md)" → "Sites" vorgenommen.
 
