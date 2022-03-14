@@ -4,7 +4,7 @@ The following question types can be used in OpenOlat tests:
 
 The question types marked with an * must be evaluated manually.
 
-## ![](assets/scItem.png){ width=24px } Single Choice
+## ![](assets/scItem.png){ class=size24 } Single Choice
 
 A single-choice question comprises a question and at least two answers; only
 one of them can be selected. In a test only one of those two answers is
@@ -18,15 +18,15 @@ boxes are aligned left or right.
 
 Then the answer texts can be added. Additional answers can be added with the
 button
-![](assets/plus_337ab7_64.png){ width=16px }.
+![](assets/plus_337ab7_64.png){ class=size16 }.
 Questions can be deleted with the button
-![](assets/minus_a87e7e_64.png){ width=16px }.
+![](assets/minus_a87e7e_64.png){ class=size16 }.
 The correct answer can be selected in column  _Correct Answer.  _The order of
 the questions can be changed with the arrows.
 
 ![](assets/scitem.gif)  
   
-## ![](assets/mcItem.png){ width=24px } Multiple Choice
+## ![](assets/mcItem.png){ class=size24 } Multiple Choice
 
 A multiple-choice question comprises one question and at least two answers;
 several answers can be selected. In a test several answers can be correct.
@@ -39,9 +39,9 @@ boxes are aligned left or right.
 
 Then the answer texts can be added. Additional answers can be added with the
 button
-![](assets/plus_337ab7_64.png){ width=16px }.
+![](assets/plus_337ab7_64.png){ class=size16 }.
 Questions can be deleted with the button
-![](assets/minus_a87e7e_64.png){ width=16px }.
+![](assets/minus_a87e7e_64.png){ class=size16 }.
 The correct answer can be selected in column  _Correct Answer.  _The order of
 the questions can be changed with the arrows.
 
@@ -51,7 +51,7 @@ number of possible answers" can be defined.
 
 ![](assets/mcitem.gif)  
   
-## ![](assets/kprimItem.png){ width=24px } Kprim
+## ![](assets/kprimItem.png){ class=size24 } Kprim
 
 A Kprim question can only be used in a test. It comprises one answer and
 exactly four answers. The one taking that test has to decide for every single
@@ -74,7 +74,7 @@ All correct answers = 100% score
 
 ![](assets/kprim.jpg)  
   
-## ![](assets/table_434343_64.png){ width=24px } Matrix
+## ![](assets/table_434343_64.png){ class=size24 } Matrix
 
 A matrix question consists of several rows and columns, where the answer can
 be filled in for every row, either as single choice or as multiple choice.
@@ -92,7 +92,7 @@ possible.
 
 ![](assets/match_EN.png)  
   
-## ![](assets/draganddrop_434343_64.png){ width=24px } Drag&Drop
+## ![](assets/draganddrop_434343_64.png){ class=size24 } Drag&Drop
 
 In general the Drag&Drop questions has the same behavior as the matrix
 question. However, the test participants do not select the checkboxes, but
@@ -115,7 +115,7 @@ drag&drop the items can be moved into the categories afterward.
 
 ![](assets/draganddrop_EN.png)  
   
-## ![](assets/Icon_true_false.png){ width=24px } True/false
+## ![](assets/Icon_true_false.png){ class=size24 } True/false
 
 The question type True/False is similar to Kprim. In each line the
 corresponding statement has to be assessed.
@@ -132,7 +132,7 @@ The scores can be defined as needed. You may even give points for the option
 ![](assets/True_false_EN.png)
   
   
-## Gap text ![](assets/fibItem.png){ width=24px }  {: #fib}
+## Gap text ![](assets/fibItem.png){ class=size24 }  {: #fib}
 
 In a gap text question the sought terms are replaced by empty fields, which
 need to be filled in by the participants.
@@ -161,7 +161,7 @@ The entry of the same answer in several gaps can be allowed or disallowed.
 ![](assets/tap-text3.jpg)
     
 
-## Numerical input ![](assets/numerical_input_434343_64.png){ width=24px } {: #ni}
+## Numerical input ![](assets/numerical_input_434343_64.png){ class=size24 } {: #ni}
 
 In general the numerical input is the same as the gap text. But as solution
 there are numbers and no texts required.
@@ -187,7 +187,7 @@ bound plus 10% (20+2).
 ![](assets/NIitem_EN.png)  
   
  
-## ![](assets/hottext_434343_64.png){ width=24px } Hottext
+## ![](assets/hottext_434343_64.png){ class=size24 } Hottext
 
 The hottext questions is similar to the gap text. In a running text different
 terms are marked, and can then be selected by the test participants.
@@ -200,7 +200,7 @@ Finally the correct answers need to be marked by selecting the check boxes.
 ![](assets/hottext_EN.png)  
     
 
-## ![](assets/hotspot_434343_64.png){ width=24px } Hotspot
+## ![](assets/hotspot_434343_64.png){ class=size24 } Hotspot
 
 In a hotspot questions hotspots/areas are graphically presented on an image
 and need to be selected by the participant correctly. Thereby the question can
@@ -218,7 +218,7 @@ participant.
 
 ![](assets/hotspot_drink.jpg)  
   
-## ![](assets/bars-black.png){ width=24px } Order 
+## ![](assets/bars-black.png){ class=size24 } Order 
 
 This type of question requires learners to put elements (text or images) in a
 correct order. This question type behaves similar to a drag and drop question.
@@ -231,7 +231,7 @@ display can be set vertically or horizontally.
 ![](assets/order.png)  
   
   
-## ![](assets/essayItem.png){ width=24px } Essay
+## ![](assets/essayItem.png){ class=size24 } Essay
 
 The answer to a free-text question is inserted into a field of variable size.
 In a test environment, the free-text question must be evaluated separately and
@@ -259,7 +259,7 @@ answers can be formatted more easily, e.g. by displaying columns.
 	every minute. Further information about the configuration of essays can be found in the excursion below this table.
 
   
-## ![](assets/fileupload_434343_64.png){ width=24px } File upload
+## ![](assets/fileupload_434343_64.png){ class=size24 } File upload
 
 For this question type participants need to upload a file.
 
@@ -272,7 +272,7 @@ only possible manually.
 
 ![](assets/fileupload_EN.png)  
   
-## ![](assets/drawing_434343_64.png){ width=24px } Drawing
+## ![](assets/drawing_434343_64.png){ class=size24 } Drawing
 
 For the questions type drawing the participant get the task to edit a given
 picture with the available drawing tools.

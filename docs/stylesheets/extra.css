@@ -1,0 +1,53 @@
+/* OpenOlat-docs extra stylesheet */
+/* 1) variables */
+/* 2) custome styles */
+img {
+  /* image border styles */
+  /* image sizes */
+  /* thumbnail styles */
+  /* lighbox style and marker class */
+}
+img.shadow {
+  box-shadow: 0 4px 10px 1px silver;
+}
+img.border {
+  border: 1px solid darkgray;
+}
+img.size16 {
+  width: 16px;
+  height: 16px;
+}
+img.size24 {
+  width: 24px;
+  height: 24px;
+}
+img.size32 {
+  width: 32px;
+  height: 32px;
+}
+img.size48 {
+  width: 48px;
+  height: 48px;
+}
+img.size64 {
+  width: 64px;
+  height: 64px;
+}
+img.thumbnail-sm {
+  max-width: 150px;
+  max-height: 100px;
+}
+img.thumbnail {
+  max-width: 250px;
+  max-height: 150px;
+}
+img.thumbnail-lg {
+  max-width: 300px;
+  max-height: 200px;
+}
+img.lightbox:hover {
+  cursor: pointer;
+  border: 2px solid #ff9100;
+  border-radius: 2px;
+  border-style: inset;
+}

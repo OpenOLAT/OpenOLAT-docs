@@ -51,6 +51,14 @@ markdown_extensions:
 #titles_only: false
 #sticky_navigation: false
 
+extra_css:
+ - lighbox/basicLightbox.min.css
+ - stylesheets/extra.css
+extra_javascript:
+  - lighbox/basicLightbox.min.js
+  - javascripts/extra.js
+
+
 plugins:
   - monorepo
   - search
@@ -70,6 +78,7 @@ plugins:
           Administration : Administration
           Administration and Organisation : Verwaltung und Organisation
           Analytics module : Analytics Modul
+          Archive : Archiv
           Assess tasks : Aufgaben bewerten
           Assessing tasks and group tasks : Aufgaben und Gruppenaufgaben bewerten
           Assessing tests : Tests bewerten
@@ -296,6 +305,7 @@ plugins:
 nav:
   - Start: 
     - Overview: index.md
+    - Archive: archive.md
     - Imprint: imprint.md
     - License: license.md
   - Release notes: '!include ./sites/release_notes/mkdocs.yml'

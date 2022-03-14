@@ -4,7 +4,7 @@ Folgende Fragetypen können in OpenOlat Tests verwendet werden:
 
 Die mit einem * versehenen Fragetypen müssen manuell ausgewertet werden.
 
-## ![](assets/scItem.png){ width=24px } Single Choice
+## ![](assets/scItem.png){ class=size24 } Single Choice
 
 Eine Single-Choice-Frage besteht aus einer Frage und Antworten, von denen nur
 eine ausgewählt werden kann. Im Test ist nur eine Antwort richtig.
@@ -17,9 +17,9 @@ die Check-Boxen links oder rechts ausgerichtet sind.
 
 Dann können Antworttexte eingefügt werden. Zusätzliche Antworten erstellen Sie
 mit der Schaltfläche
-![](assets/plus_337ab7_64.png){ width=16px },
+![](assets/plus_337ab7_64.png){ class=size16 },
 entfernt werden die Antworten mit der Schaltfläche
-![](assets/minus_a87e7e_64.png){ width=16px }.
+![](assets/minus_a87e7e_64.png){ class=size16 }.
 Die richtige Antwort können Sie bestimmen, indem Sie in der Spalte _Korrekt_
 die gewünschte Antwort markieren. Die Reihenfolge der Antworten können Sie mit
 den Pfeilen verändern.
@@ -27,7 +27,7 @@ den Pfeilen verändern.
 ![](assets/Single_choice.jpg)  
 
   
-## ![](assets/mcItem.png){ width=24px } Multiple Choice
+## ![](assets/mcItem.png){ class=size24 } Multiple Choice
 
 Eine Multiple-Choice-Frage besteht aus einer Frage und mindestens zwei
 Antworten, wobei mehrere Antworten ausgewählt werden können. Im Test können
@@ -41,9 +41,9 @@ die Check-Boxen links oder rechts ausgerichtet sind.
 
 Dann können Antworttexte eingefügt werden. Zusätzliche Antworten erstellen Sie
 mit der Schaltfläche
-![](assets/plus_337ab7_64.png){ width=16px },
+![](assets/plus_337ab7_64.png){ class=size16 },
 entfernt werden die Antworten mit der Schaltfläche
-![](assets/minus_a87e7e_64.png){ width=16px }.
+![](assets/minus_a87e7e_64.png){ class=size16 }.
 Die richtigen Antworten können Sie bestimmen, indem Sie in der Spalte
 _Korrekt_ die gewünschten Antworten markieren. Die Reihenfolge der Antworten
 können Sie mit den Pfeilen verändern.
@@ -54,7 +54,7 @@ Anzahl der Antwortmöglichkeiten des Users definiert werden.
 ![](assets/Multiple_choice.jpg)  
   
   
-## ![](assets/kprimItem.png){ width=24px } Kprim
+## ![](assets/kprimItem.png){ class=size24 } Kprim
 
 Eine Kprim-Frage besteht immer aus einer Frage und genau vier Antworten. Für
 jede dieser vier Antworten muss die Testperson entscheiden, ob sie zutrifft
@@ -80,7 +80,7 @@ Alle Antworten korrekt = 100% der Punktzahl
 
 ![](assets/KPrim.jpg)  
   
-## ![](assets/table_434343_64.png){ width=24px } Matrix
+## ![](assets/table_434343_64.png){ class=size24 } Matrix
 
 Eine Matrix-Frage besteht aus mehreren Spalten und Zeilen, wobei die Antwort
 entweder als Single Choice oder als Multiple Choice pro Zeile ausgefüllt
@@ -101,7 +101,7 @@ dies mehrere korrekte Antworten pro Zeile sein.
 
 ![](assets/Matrix.jpg)  
   
-## ![](assets/draganddrop_434343_64.png){ width=24px } Drag&Drop
+## ![](assets/draganddrop_434343_64.png){ class=size24 } Drag&Drop
 
 Eine Drag&Drop-Frage verhält sich im Grunde gleich wie die Matrix Frage. Die
 Testteilnehmer müssen die Antworten jedoch nicht in Checkboxen ankreuzen,
@@ -126,7 +126,7 @@ gezogen werden.
 
 ![](assets/dragandrop_DE.png)  
   
-## ![](assets/Icon_true_false.png){ width=24px } True/false
+## ![](assets/Icon_true_false.png){ class=size24 } True/false
 
 Eine True/False-Frage ähnelt dem Kprim-Fragentyp, jedoch mit beliebiger
 Zeilenzahl Pro Zeile müssen Aussagen bewertet werden.
@@ -141,7 +141,7 @@ Antwortoption "Unbeantwortet" können ebenfalls Punkte vergeben werden.
 ![](assets/True_false_DE.png)
 
   
-## ![](assets/fibItem.png){ width=24px } Lückentext
+## ![](assets/fibItem.png){ class=size24 } Lückentext
 
 Eine Lückentextfrage besteht aus einem Text in dem (Text-)Lücken integriert
 sind. Lücken können über das Icon mit den drei Punkten per Editor eingefügt
@@ -168,7 +168,7 @@ unterbunden werden.
 ![](assets/Quiz_Luecke.jpg)  
   
   
-## ![](assets/numerical_input_434343_64.png){ width=24px } Numerische Eingabe {: #ni}
+## ![](assets/numerical_input_434343_64.png){ class=size24 } Numerische Eingabe {: #ni}
 
 Die Numerische Eingabe verhält sich vom Prinzip her gleich wie der Lückentext.
 Als Lösung können hier jedoch nur Zahlen und nicht Texte eingegeben werden
@@ -191,7 +191,7 @@ zwischen 18 und 22 sind gültig, denn die untere Schranke bedeutet minus 10%
 
 ![](assets/qti_ni_erklaerung_DE.png)  
   
-## ![](assets/hottext_434343_64.png){ width=24px } Hottext
+## ![](assets/hottext_434343_64.png){ class=size24 } Hottext
 
 Die Hottext-Frage verhält sich ähnlich wie ein Lückentext. In einem Fliesstext
 werden verschiedene Begriffe markiert, welche anschliessend vom Testteilnehmer
@@ -205,7 +205,7 @@ werden, indem die Checkbox angewählt wird.
 
 ![](assets/Hottext_DE.png)  
   
-## ![](assets/hotspot_434343_64.png){ width=24px } Hotspot
+## ![](assets/hotspot_434343_64.png){ class=size24 } Hotspot
 
 Bei einer Hotspot-Frage werden Hotspots bzw. Bereiche grafisch auf einem Bild
 dargestellt und müssen vom Testteilnehmer korrekt ausgewählt werden. Dabei
@@ -225,7 +225,7 @@ duplizieren.
 ![](assets/Hotspot_Beispiel.png)
 
   
-## ![](assets/bars-black.png){ width=24px } Reihenfolge
+## ![](assets/bars-black.png){ class=size24 } Reihenfolge
 
 Bei diesem Fragetyp müssen die Lernenden Elemente (Texte oder Bilder) in eine
 korrekte Reihenfolge bringen. Dabei verhält sich dieser Fragetyp ähnlich wie
@@ -238,7 +238,7 @@ Ausrichtung der Darstellung vertikal oder horizontal gesetzt werden.
 
 ![](assets/Test_order.png)  
   
-## ![](assets/essayItem.png){ width=24px } Freitext {: #fib}
+## ![](assets/essayItem.png){ class=size24 } Freitext {: #fib}
 
 
 Die Antwort auf die Freitext-Frage füllen Testteilnehmer frei formuliert in
@@ -273,7 +273,7 @@ Spalten abgebildet werden.
 	Exkurs unterhalb dieser Tabelle.
   
   
-## ![](assets/fileupload_434343_64.png){ width=24px } Datei hochladen 
+## ![](assets/fileupload_434343_64.png){ class=size24 } Datei hochladen 
 
 Bei diesem Fragetyp müssen die Testteilnehmenden als Antwort eine Datei
 hochladen.
@@ -289,7 +289,7 @@ ausschliesslich manuell möglich ist.
 ![](assets/datei_hochladen.png)  
   
   
-## ![](assets/drawing_434343_64.png){ width=24px } Zeichnen 
+## ![](assets/drawing_434343_64.png){ class=size24 } Zeichnen 
 
 Die Testteilnehmenden haben beim Fragetyp Zeichnen die Aufgabe, ein
 vorgegebenes Bild mit den zur Verfügung stehenden Zeichnungsinstrumenten zu

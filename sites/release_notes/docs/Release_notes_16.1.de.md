@@ -26,11 +26,9 @@ Liste der Änderungen in 16.0 – 16.0.7 finden Sie
 
 ![](assets/161/press-release-16.1.png)
 
-Releasedatum: 17.12.2021
+:material-calendar-month-outline: **Releasedatum: 17.12.2021 • Letztes Update: 17.12.2021**
 
-Letztes Update: 17.12.2021
-
-  
+ 
 
 * * *
 
@@ -71,7 +69,7 @@ einer Gruppe bzw. einer Organisation.
 
   
 
-![](assets/161/LP%20Ausnahmen%20DE.png)
+![](assets/161/LP%20Ausnahmen%20DE.png){ class="shadow lightbox" }
 
 **Neugierig?**
 
@@ -81,7 +79,7 @@ Im **Whitepaper**  sind die wichtigsten Informationen zum Lernpfad und den
 Ausnahmen kompakt zusammengefasst:
 
 <a href="../assets/161/Whitepaper_Lernpfadkurse_final.pdf">
-![](assets/161/whitepaper-thumpnail.png)
+![](assets/161/whitepaper-thumpnail.png){ class="border" }
 <br />
 Whitepaper_Lernpfadkurse_final.pdf
 </a>
@@ -105,7 +103,7 @@ ersten Kursbesuchs der Teilnehmenden und ermöglichen sowohl eine
 individuellere Begleitung der Teilnehmenden als auch den einfacheren Einsatz
 von Kurstemplates als Kopiervorlage.
 
-![](assets/161/Relative%20Daten%20DE.png)
+![](assets/161/Relative%20Daten%20DE.png){ class="shadow lightbox" }
 
   
 
@@ -125,7 +123,7 @@ unterschiedliche Bedürfnisse eingestellt werden.
 
 Lernpfad und Baustein-Icons aktiviert vs. nicht aktiviert:
 
-![](assets/161/LP%20und%20Icons%20DE.png)![](assets/161/Kein%20LP%20und%20keine%20Icons.png)
+![](assets/161/LP%20und%20Icons%20DE.png)![](assets/161/Kein%20LP%20und%20keine%20Icons.png){ class="shadow lightbox" }
 
   
 
@@ -159,7 +157,7 @@ teilweise **automatischem und manuellem** Prozess ist empfehlenswert.
 
   
 
-![](assets/161/group%20life%20cycle%20DE.png)
+![](assets/161/group%20life%20cycle%20DE.png){ class="shadow lightbox" }
 
   
 
@@ -190,7 +188,7 @@ Verschiedene Optionen erlauben eine Anpassung an das Prüfungssetting:
   * Erstellung eines **Deckblattes** mit konfigurierbaren Attributen wie beispielsweise Platzhalter für Name der Prüflinge, Datum oder Anzeige von Prüfungsdauer
   *  **Zusatzseite** mit weiteren Informationen zur Prüfung, z.B. für Instruktionen
 
-![](assets/161/Test-Export%20DE.png)
+![](assets/161/Test-Export%20DE.png){ class="shadow lightbox" }
 
   
 
@@ -208,7 +206,7 @@ Verschiedene Optionen erlauben eine Anpassung an das Prüfungssetting:
 
   
 
-![](assets/161/QTI%20Tests%20DE.png)
+![](assets/161/QTI%20Tests%20DE.png){ class="shadow lightbox" }
 
 **Testdurchführung**
 
@@ -225,11 +223,11 @@ Verschiedene Optionen erlauben eine Anpassung an das Prüfungssetting:
       * Besitzer kann "Bestanden / Nicht bestanden" überschreiben
     * Überarbeitung der Freigabe-Optionen (ehemals "Sichtbarkeit setzen") für Bewertungen (s. Screenshot)
 
-![](assets/161/Freigabe%20DE.png)
+![](assets/161/Freigabe%20DE.png){ class="shadow lightbox" }
 
   
 
-![](assets/161/Betreuer%20darf%20DE.png)
+![](assets/161/Betreuer%20darf%20DE.png){ class="shadow lightbox" }
 
   
 
@@ -262,7 +260,7 @@ Beispiel im Ablageordner vorliegen, zur Auswahl angezeigt. So können auch
 vorhandene HTML-Seiten oder verwendete Bilder wieder in den neuen Kurs
 importiert werden.
 
-![](assets/161/KBS%20Import%20DE.png)
+![](assets/161/KBS%20Import%20DE.png){ class="shadow lightbox" }
 
   
 
@@ -279,7 +277,7 @@ importiert werden.
 
   
 
-![](assets/161/Warnings%20Kurseditor%20DE2.png)
+![](assets/161/Warnings%20Kurseditor%20DE2.png){ class="shadow lightbox" }
 
 **Für Teilnehmende:**
 
@@ -291,7 +289,7 @@ importiert werden.
 
   
 
-![](assets/161/Kein%20Zugriff%20DE.png)
+![](assets/161/Kein%20Zugriff%20DE.png){ class="shadow lightbox" }
 
   
 
@@ -314,7 +312,7 @@ auch für Benutzerverwalter, Linienvorgesetzte derselben Organisation oder für
 verantwortliche Personen, die über eine Benutzer-zu-Benutzer-Beziehungen
 verbunden sind, verfügbar und kann jeweils separat konfiguriert werden.
 
-![](assets/161/Externe%20Zertifikate%20DE.png)
+![](assets/161/Externe%20Zertifikate%20DE.png){ class="shadow lightbox" }
 
 **Coaching Tool:  Offene und freizugebende Bewertungen**
 

@@ -24,8 +24,10 @@ in 16.0 - 16.0.8 can be found
 
 ![](assets/161/press-release-16.1.png)
 
-Release: 12-17-2021
 
+:material-calendar-month-outline: **Release: 17.12.2021 • Last update: 17.12.2021**
+
+ 
 Last update: 12-17-2021
 
   * 1 Release notes 16.1 
@@ -75,7 +77,7 @@ attribute, a passed test, or membership in a group or organization.
 
   
 
-![](assets/161/LP%20Ausnahmen%20EN.png)
+![](assets/161/LP%20Ausnahmen%20EN.png){ class="shadow lightbox" }
 
 **Interested?**
 
@@ -88,7 +90,7 @@ The whitepaper summarizes the most important information about the learning
 path and the exceptions in a compact way:
 
 <a href="../assets/161/whitepaper_learning_path_courses_en_final.pdf">
-![](assets/161/whitepaper-thumpnail.png)
+![](assets/161/whitepaper-thumpnail.png){ class="border" }
 <br />
 Whitepaper_Lernpfadkurse_final.pdf
 </a>
@@ -111,7 +113,7 @@ enrollment or the first course attendance of the participants and allow both a
 more individual support of the participants and the easier use of course
 templates as a copy template.
 
-![](assets/161/Relative%20Daten%20EN.png)
+![](assets/161/Relative%20Daten%20EN.png){ class="shadow lightbox" }
 
 **Configuration of the navigation menu display**
 
@@ -127,7 +129,7 @@ needs.
 
 Learning path and building block icons enabled vs. not enabled:
 
-![](assets/161/LP%20und%20Icons%20DE.png)![](assets/161/Kein%20LP%20und%20keine%20Icons.png)
+![](assets/161/LP%20und%20Icons%20DE.png){ class="shadow lightbox" }![](assets/161/Kein%20LP%20und%20keine%20Icons.png){ class="shadow lightbox" }
 
   
 
@@ -161,7 +163,7 @@ manual process** is recommended.
 
   
 
-![](assets/161/group%20life%20cycle%20EN.png)
+![](assets/161/group%20life%20cycle%20EN.png){ class="shadow lightbox" }
 
   
 
@@ -177,7 +179,7 @@ manual process** is recommended.
   * Extension of import template for question type "Numerical input"
   * Action for Word export of tests from test editor moved to administration menu
 
-![](assets/161/QTI%20Tests%20EN.png)
+![](assets/161/QTI%20Tests%20EN.png){ class="shadow lightbox" }
 
 **Test execution**
 
@@ -195,9 +197,9 @@ manual process** is recommended.
     * Owner can override "Passed / Failed
   * Revised sharing options (formerly "Set Visibility") for assessments (see screenshot)
 
-![](assets/161/Freigabe%20EN.png)
+![](assets/161/Freigabe%20EN.png){ class="shadow lightbox" }
 
-![](assets/161/Betreuer%20darf%20EN.png)
+![](assets/161/Betreuer%20darf%20EN.png){ class="shadow lightbox" }
 
   
 
@@ -226,7 +228,7 @@ In the last step, files from the original course that exist in the storage
 folder, for example, are also displayed for selection. In this way, existing
 HTML pages or used images can also be imported back into the new course.
 
-![](assets/161/KBS%20Import%20EN.png)
+![](assets/161/KBS%20Import%20EN.png){ class="shadow lightbox" }
 
   
 
@@ -241,7 +243,7 @@ HTML pages or used images can also be imported back into the new course.
   * Improved display of warnings about incomplete course elements (see screenshot)
   * Placement of actions for course elements (delete, move, duplicate) on the element itself
 
-![](assets/161/Warnings%20Kurseditor%20EN2.png)
+![](assets/161/Warnings%20Kurseditor%20EN2.png){ class="shadow lightbox" }
 
 **For participants:**
 
@@ -249,7 +251,7 @@ HTML pages or used images can also be imported back into the new course.
   * Improved display of information on the course info page
   * Improved messages in the course, why certain course elements are not (yet) accessible (see screenshot on the right)
 
-![](assets/161/Kein%20Zugriff%20EN.png)
+![](assets/161/Kein%20Zugriff%20EN.png){ class="shadow lightbox" }
 
   
 
@@ -269,7 +271,7 @@ addition, this feature is also available for user administrators, line
 managers of the same organization, or responsible users connected via a user-
 to-user relationship, and can be configured separately for each.
 
-![](assets/161/Externe%20Zertifikate%20EN.png)
+![](assets/161/Externe%20Zertifikate%20EN.png){ class="shadow lightbox" }
 
 **Coaching Tool:  Open reviews and reviews to be released**
 
