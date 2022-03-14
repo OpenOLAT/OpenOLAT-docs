@@ -1,5 +1,5 @@
 
-Design Patterns are high level not bound to specific components and are best practice solutions for how a user achieves a goal.
+Design Patterns are high level not bound to specific components and are best practice solutions for how a user achieves a goal
   
 ---
 
@@ -17,4 +17,3 @@ Empty states are moments in an app where there is no data to display to the user
 ### When to use
 
 Empty states always appear in the otherwise empty space, in the context of the data that’s missing. They can occur anywhere your app can display data, including but not limited to dashboards and tables.
-
