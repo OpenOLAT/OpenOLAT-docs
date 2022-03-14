@@ -16,7 +16,7 @@ helpdesk.
 
 ![](assets/DE_Loginscreen.png)
 
-Guest Access
+## Guest Access
 
 You can use OpenOlat as guest as well. The so-called guest access provides an
 insight into OpenOlat with limited access to certain features: you will only

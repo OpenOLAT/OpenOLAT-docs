@@ -12,6 +12,8 @@ OpenOlat-Konto. So können Sie die volle Funktionalität von OpenOlat benutzen.
 Sollten Sie ihre Zugangsdaten (Benutzername und/oder Passwort) nicht mehr zu
 Hand haben, wenden Sie sich an Ihre zuständige Beratungsstelle.
 
+
+![](assets/DE_Loginscreen.png)
   
 
 ## Gastzugang
@@ -23,7 +25,6 @@ Zugang zu weiteren Lernmaterialien und -aktivitäten zu erhalten, müssen Sie
 sich bei OpenOlat registrieren. Weitere Informationen zum Gastzugang finden
 Sie [hier](../general/Guest_access.de.md).
 
-![](assets/DE_Loginscreen.png)
 
 ## Browser {: #browsercheck}
 
