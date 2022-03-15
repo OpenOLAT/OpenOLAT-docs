@@ -31,10 +31,10 @@ Here an example link to [this chapter](#anchor-example)
 Image styles and css classes can be added to the image markup like this: 
 
 === "Markup"
-	`![Your image title](assets/smile.jpg){ width=100px align=right class="border shadow" }`
+	`![Your image alt text](assets/smile.jpg){ width=100px align=right class="border shadow" }`
 
 === "Output"
-	![Your image title](assets/smile.jpg){ width=100px align=right class="border shadow" }
+	![Your image alt text](assets/smile.jpg){ width=100px align=right class="border shadow" }
 
 !!! important
 	The following notation to add special parameters to images is extremely sensitive to whitespace! Make sure
@@ -60,9 +60,10 @@ There are some predefined image sizes that can be applied by assigning CSS class
 | `size32` | shrink to match 32x32px | ![32x32](assets/smile.jpg){ class=size32 } |
 | `size48` | shrink to match 48x48px | ![48x48](assets/smile.jpg){ class=size48 } |
 | `size64` | shrink to match 64x64px | ![64x64](assets/smile.jpg){ class=size64 } |
-| `thumbnail-sm` | shrink to fit 150x100px | ![64x64](assets/example-screenshot.png){ class=thumbnail-sm } |
-| `thumbnail` | shrink to fit 250x150px | ![64x64](assets/example-screenshot.png){ class=thumbnail } |
-| `thumbnail-lg` | shrink to fit 300x200px | ![64x64](assets/example-screenshot.png){ class=thumbnail-lg } |
+| `thumbnail-sm` | shrink to fit 150x100px | ![thumbnail-sm](assets/example-screenshot.png){ class=thumbnail-sm } |
+| `thumbnail` | shrink to fit 250x150px | ![thumbnail](assets/example-screenshot.png){ class=thumbnail } |
+| `thumbnail-lg` | shrink to fit 300x200px | ![thumbnail-lg](assets/example-screenshot.png){ class=thumbnail-lg } |
+| `thumbnail-xl` | shrink to fit 400x300px | ![thumbnail-xl](assets/example-screenshot.png){ class=thumbnail-xl } |
 
 
 ### Styles
@@ -75,15 +76,28 @@ The following box styles are available
 | `border` | image with border | ![border](assets/smile.jpg){ class="size64 border" } |
 
 
+### Captions and figures
+
+Images can be converted to figures with captions by adding an image title attribute with `title="some caption here`. See the example below:
+
+=== "Markup"
+	`![Your image alt text](assets/smile.jpg){ class=thumbnail-xl title="A great OpenOlat screenshot" }`
+
+=== "Output"	
+	![Your image alt text](assets/smile.jpg){ class=thumbnail-xl title="Keep smiling :-)" }
+
+!!! info
+	Note that the **alt text** is an accessibility feature to describe the content of the image for users who can not see the picture while the **title / caption** is an additional text that conceptually explains or gives more insights about the meaning of the image. 
+
 ### Lightbox
 
 Use the `lightbox` CSS class to enable the lightbox on an image. This makes the image clickable and enlargable. It is usefull to use this in combination with the thumbnail styles: 
 
 === "Markup"
-	`![Your image title](assets/smile.jpg){ width=30px align=right class="thumbnail lightbox" }`
+	`![Your image alt text](assets/smile.jpg){ width=30px align=right class="thumbnail lightbox" }`
 
 === "Output"	
-	![Your image title](assets/example-screenshot.png){ class="thumbnail lightbox" }
+	![Your image alt text](assets/example-screenshot.png){ class="thumbnail lightbox" }
  
 
 ## Tables
