@@ -70,18 +70,13 @@ einer Gruppe bzw. einer Organisation.
 
 Im **Video** erhalten Sie einen Überblick zu den Ausnahmen im Lernpfad:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/MWWUmma2Cr0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="688" height="387" src="https://www.youtube.com/embed/MWWUmma2Cr0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 Im **Whitepaper**  sind die wichtigsten Informationen zum Lernpfad und den
 Ausnahmen kompakt zusammengefasst:
 
-<a href="../assets/161/Whitepaper_Lernpfadkurse_final.pdf">
-![](assets/161/whitepaper-thumpnail.png){ class="border" }
-<br />
-Whitepaper_Lernpfadkurse_final.pdf
-</a>
-  
+[![](assets/161/whitepaper-thumpnail.png){ class="thumbnail-xl border" }<br>Whitepaper_Lernpfadkurse_final.pdf](assets/161/Whitepaper_Lernpfadkurse_final.pdf)
 
 * * *
   

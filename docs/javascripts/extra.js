@@ -6,7 +6,7 @@
  */
 try {	
 	/* 
-		Convert images to figures if they have a title element specified
+		Convert images to figures if they have a title element
 	*/
 	document.querySelectorAll("img").forEach(function(item) {
 		var title = item.getAttribute('title');
@@ -14,6 +14,20 @@ try {
 			const newItem = document.createElement('figure');
 			newItem.innerHTML = item.outerHTML + '<figcaption>' + title + '</figcaption>';
 			item.parentNode.replaceChild(newItem, item);			
+		}
+	});
+
+	/* 
+		Open downloads in new window
+	*/
+	document.querySelectorAll("a").forEach(function(item) {
+		const types = ['pdf', 'odt', 'xlsx', 'docx'];
+		var href = item.getAttribute('href');		
+		if (href && href != '' && (href.lastIndexOf('.') > 0)) {
+			type = href.substring(href.lastIndexOf('.') + 1);
+			if (types.includes(type)) {
+				item.setAttribute('target','_blank');			
+			}			
 		}
 	});
 	

@@ -67,17 +67,13 @@ attribute, a passed test, or membership in a group or organization.
 
 Watch the **video** for an overview of the exceptions in the learning path (german only):
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/MWWUmma2Cr0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="688" height="387" src="https://www.youtube.com/embed/MWWUmma2Cr0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
   
 The **whitepaper** summarizes the most important information about the learning
 path and the exceptions in a compact way:
 
-<a href="../assets/161/whitepaper_learning_path_courses_en_final.pdf">
-![](assets/161/whitepaper-thumpnail.png){ class="border" }
-<br />
-Whitepaper_Lernpfadkurse_final.pdf
-</a>
+[![](assets/161/whitepaper-thumpnail.png){ class="thumbnail-xl border" }<br>whitepaper_learning_path_courses_en_final.pdf](assets/161/whitepaper_learning_path_courses_en_final)
   
 
 * * *

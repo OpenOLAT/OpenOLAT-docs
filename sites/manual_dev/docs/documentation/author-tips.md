@@ -1,6 +1,8 @@
 # Tips and tricks for authors
 
-We use the Material theme for MkDocs. See the [Material for MkDocs Reference](https://squidfunk.github.io/mkdocs-material/reference/) for a complete reference. 
+We use the Material theme for MkDocs. For a complete reference and inspiration please consult:
+
+:fontawesome-regular-hand-point-right: [Material for MkDocs Reference](https://squidfunk.github.io/mkdocs-material/reference/) :fontawesome-regular-hand-point-left:
 
 The following are a list of things we use commonly: 
 
@@ -19,19 +21,60 @@ Details are the same as admonitions but expandable / collapsable. Use Just use ?
 
 See [the pymdown extension page](https://facelessuser.github.io/pymdown-extensions/extensions/details/) to learn how this works in detail. 
 
+***
 
-## In-Page references Just use {: #anchor-example}
+## Links
+
+Links to other pages from the manual are written as relative links to the corresponding Markdown file. Make sure you reference the correct language! Just review other pages, you will find many examples. 
+
+=== "Markup"
+		[External link to frentix.com](https://www.frentix.com)
+
+		[Internal link to the group section](../../manual_user/groups/Using_Group_Tools.md)
+
+=== "Output"	
+	[External link to frentix.com](https://www.frentix.com)
+
+	[Internal link to the group section](../../manual_user/groups/Using_Group_Tools.md)
+
+
+
+### In-Page references Just use
 
 Add `{: #anchor-example}` to any title element to create an anchor that can be referenced by other pages or in an external link. Make sure you use the same anchor name for all languages of the same page. 
  
-Here an example link to [this chapter](#anchor-example) 
+=== "Markup"
+		[Link to the tables section in this page](#tables)
+	
+		[Link to the courses section in a different page](../../manual_user/groups/Group_Administration.md#courses) 
+
+=== "Output"	
+	[Link to the tables section in this page](#tables)
+
+	[Link to the courses section in a different page](../../manual_user/groups/Group_Administration.md#courses) 
+ 
+ 
+### Downloads
+
+Downloadable files such as PDF can be written as standard Markdown link. Some JS code will automatically add a target to open the file in a new window instead of replacing the current page. 
+Supported types are `pdf, odt, xlsx, docx`.
+
+If the download is represented with an image, the image tag can be embedded into the link tag. This is a bit cumbersome, but works well. See the example below
+
+=== "Markup"
+		[![](assets/whitepaper-thumpnail.png){ class="thumbnail-xl border"}<br>whitepaper_learning_path_courses_en_final.pdf](assets/whitepaper_learning_path_courses_en_final.pdf)
+
+=== "Output"	
+	[![](assets/whitepaper-thumpnail.png){ class="thumbnail-xl border"}<br>whitepaper_learning_path_courses_en_final.pdf](assets/whitepaper_learning_path_courses_en_final.pdf)
+
+***
 
 ## Images
 
 Image styles and css classes can be added to the image markup like this: 
 
 === "Markup"
-	`![Your image alt text](assets/smile.jpg){ width=100px align=right class="border shadow" }`
+		![Your image alt text](assets/smile.jpg){ width=100px align=right class="border shadow" }
 
 === "Output"
 	![Your image alt text](assets/smile.jpg){ width=100px align=right class="border shadow" }
@@ -81,7 +124,7 @@ The following box styles are available
 Images can be converted to figures with captions by adding an image title attribute with `title="some caption here`. See the example below:
 
 === "Markup"
-	`![Your image alt text](assets/smile.jpg){ class=thumbnail-xl title="A great OpenOlat screenshot" }`
+		![Your image alt text](assets/smile.jpg){ class=thumbnail-xl title="A great OpenOlat screenshot" }
 
 === "Output"	
 	![Your image alt text](assets/smile.jpg){ class=thumbnail-xl title="Keep smiling :-)" }
@@ -91,16 +134,17 @@ Images can be converted to figures with captions by adding an image title attrib
 
 ### Lightbox
 
-Use the `lightbox` CSS class to enable the lightbox on an image. This makes the image clickable and enlargable. It is usefull to use this in combination with the thumbnail styles: 
+Use the `lightbox` CSS class to enable the lightbox on an image. This makes the image clickable and enlargable. It is useful to use this in combination with the thumbnail styles: 
 
 === "Markup"
-	`![Your image alt text](assets/smile.jpg){ width=30px align=right class="thumbnail lightbox" }`
+		![Your image alt text](assets/smile.jpg){ width=30px align=right class="thumbnail lightbox" }
 
 === "Output"	
 	![Your image alt text](assets/example-screenshot.png){ class="thumbnail lightbox" }
- 
 
-## Tables
+***
+
+## Tables {: #tables}
 
 Tables are cumbersome and error prone: 
 - Tables need a header row and a separator in the second line
