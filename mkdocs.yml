@@ -18,6 +18,7 @@ theme:
         name: Switch to light mode
   favicon: assets/favicon64.png
   logo: assets/OpenOlat_Button_Quadrat_RGB.png
+  font: false
   features:
     - navigation.tracking
     - navigation.tabs
@@ -33,6 +34,8 @@ markdown_extensions:
   - def_list
   - tables
   - footnotes
+  - toc:
+      toc_depth: 3
   - pymdownx.snippets
   - pymdownx.details
   - pymdownx.superfences

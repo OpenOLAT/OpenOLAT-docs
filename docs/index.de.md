@@ -10,13 +10,13 @@ Informationen betreffend OpenOlat, seiner Funktionen und neuesten Änderungen fi
 
 ## Ältere Versionen:
 
-- [OpenOlat 16.1 Benutzerhandbuch](archive/display/OO161DE.html) | [Release Notes 16.1](release_notes/Release_notes_16.1.de.md)
-- [OpenOlat 16.0 Benutzerhandbuch](archive/display/OO160DE.html) | [Release Notes 16.1](release_notes/Release_notes_16.0.de.md)
-- [OpenOlat 15.3 Benutzerhandbuch](archive/display/OO153DE.html) | [Release Notes 15.3](release_notes/Release_notes_15.3.de.md)
+- [OpenOlat 16.1 Benutzerhandbuch](archive_confluence/display/OO161DE.html) | [Release Notes 16.1](release_notes/Release_notes_16.1.de.md)
+- [OpenOlat 16.0 Benutzerhandbuch](archive_confluence/display/OO160DE.html) | [Release Notes 16.1](release_notes/Release_notes_16.0.de.md)
+- [OpenOlat 15.3 Benutzerhandbuch](archive_confluence/display/OO153DE.html) | [Release Notes 15.3](release_notes/Release_notes_15.3.de.md)
 
 
 !!! tip ""
-	Noch ältere und andere Versionen sind zu finden im [OpenOlat Handbuch Archiv](archive.de.md)
+	Gesuchte Version nicht gefunden? Versuche es im [OpenOlat Handbuch Archiv](archive.de.md)
 
 
 [![eLearning-Journal OpenOlat Testsiegel: Sehr-Gut](assets/frentix - Testsiegel_2020.png){ align=left width=200px }](assets/eLJ12020_TEST_Frentix.pdf)

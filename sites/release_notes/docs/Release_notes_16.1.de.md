@@ -1,4 +1,5 @@
 # Release Notes 16.1
+![](assets/161/press-release-16.1.png)
 
 Mit OpenOlat 16.1 geben wir unseren nächsten Major Release frei.
 
@@ -16,19 +17,17 @@ die überarbeitete Positionierung von Metadaten in der Testdurchführung und in
 der Kursübersicht unter "Meine Kurse" angestossen sowie **weitere Filter** auf
 den Weg gebracht.
 
+![](assets/161/Features_Improvements_Labels_DE.png)
+
 Seit Release 16.0 wurden über 80 neue Funktionen und Verbesserungen zu
 OpenOlat hinzugefügt. Hier finden Sie die wichtigsten neuen Funktionen und
 Änderungen. Zusätzlich zu wurden mehr als 100 Bugs behoben. Die komplette
 Liste der Änderungen in 16.0 – 16.0.7 finden Sie
 [hier](Release_notes_16.0.md).
 
-![](assets/161/Features_Improvements_Labels_DE.png)
+* * *
 
-![](assets/161/press-release-16.1.png)
-
-:material-calendar-month-outline: **Releasedatum: 17.12.2021 • Letztes Update: 17.12.2021**
-
- 
+:material-calendar-month-outline: **Releasedatum: 17.12.2021 • Letztes Update: 17.12.2021** 
 
 * * *
 
@@ -45,7 +44,7 @@ Kursbausteine für bestimmte Benutzer ausgeschlossen werden - sei es durch ein
 entsprechendes Attribut, einen bestandenen Test oder die Zugehörigkeit zu
 einer Gruppe bzw. einer Organisation.
 
-**Neue Funktionen**
+#### Neue Funktionen
 
   * Erweiterte Ausnahmensteuerung: Zustand "Ausgenommen" für Kurs- und Strukturbausteine
   * Ausnahmen für Lernende anhand bestimmter Kriterien konfigurierbar:
@@ -55,25 +54,24 @@ einer Gruppe bzw. einer Organisation.
     * Bestanden/Nicht bestanden eines bewertbaren Bausteins
   * Kennzeichnung eines Kursbausteines im Editor-Modus, wenn dieser Ausnahmeregeln besitzt
 
- **Individuelle Lernpfadsteuerung bei den Lernenden**
+#### Individuelle Lernpfadsteuerung bei den Lernenden
 
   * Ausnahmen können bei Bedarf in der individuellen Lernpfadsteuerung durch den Betreuer überschrieben werden
   * Anzeige der nur für diese Person zugänglichen Kursbausteine oder aller Kursbausteine des Lernpfades
 
- **Änderungen an bestehenden Elementen**
+#### Änderungen an bestehenden Elementen
 
   * Umbenennen des Labels "Pflicht" in "Durchführung" im Tab Lernpfad
   * Strukturbaustein: Umbenennen der Durchführungsoptionen im Lernpfad-Tab in "Teil des Lernpfades" und "Ausgenommen"
 
-  
-
-  
-
 ![](assets/161/LP%20Ausnahmen%20DE.png){ class="shadow lightbox" }
 
-**Neugierig?**
+#### Neugierig?
 
 Im **Video** erhalten Sie einen Überblick zu den Ausnahmen im Lernpfad:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MWWUmma2Cr0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 Im **Whitepaper**  sind die wichtigsten Informationen zum Lernpfad und den
 Ausnahmen kompakt zusammengefasst:
@@ -86,12 +84,11 @@ Whitepaper_Lernpfadkurse_final.pdf
   
 
 * * *
-
   
 
 ## Weitere Neuerungen im Lernpfadkurs
 
-**Konfiguration von relativen Daten**
+#### Konfiguration von relativen Daten
 
 Im Lernpfad können für die Bearbeitung eines Kursbausteines ein absolutes
 Beginn- und Enddatum konfiguriert werden. Starten Teilnehmende den Kurs zu
@@ -105,9 +102,8 @@ von Kurstemplates als Kopiervorlage.
 
 ![](assets/161/Relative%20Daten%20DE.png){ class="shadow lightbox" }
 
-  
 
-**Konfiguration der Anzeige des Navigationsmenüs**
+#### Konfiguration der Anzeige des Navigationsmenüs
 
 In Lernpfadkursen wird der Lernpfad auch im Navigationsmenü visualisiert. Dies
 ist für strengere Lernpfadszenarios mit überwiegend obligatorischen
@@ -116,21 +112,18 @@ Bearbeitungsreihenfolge braucht es diese Visualisierung nicht, die typischen
 Kursbaustein-Icons eignen sich dafür besser.
 
 Mit den neuen Konfigurationsmöglichkeiten für die Anzeige von Pfad und Icons
-(Kurseinstellungen > Layout > Navigation) können diese flexibel für
+(`Kurseinstellungen > Layout > Navigation`) können diese flexibel für
 unterschiedliche Bedürfnisse eingestellt werden.
 
   
-
 Lernpfad und Baustein-Icons aktiviert vs. nicht aktiviert:
 
-![](assets/161/LP%20und%20Icons%20DE.png)![](assets/161/Kein%20LP%20und%20keine%20Icons.png){ class="shadow lightbox" }
+![](assets/161/LP%20und%20Icons%20DE.png)![](assets/161/Kein%20LP%20und%20keine%20Icons.png)
 
-  
 
 * * *
 
   
-
 ## Automatischer Lebenszyklus für Gruppen
 
 Gruppen werden in OpenOlat sehr oft verwendet, die Verwaltung und insbesondere
@@ -198,44 +191,34 @@ Verschiedene Optionen erlauben eine Anpassung an das Prüfungssetting:
 
 ## Weitere Features im Bereich eAssessment, Tests und Bewertung
 
-**Lernressource "Test"**
+#### Lernressource "Test"
 
-  *     * Umbenennung Test-Lernressourcen zur besseren Unterscheidung des Formats beim Filtern (s. Screenshot)
-    * Erweiterung Importvorlage für Fragetyp "Numerische Eingabe"
-    * Aktion für Word-Export von Tests aus Testeditor ins Administrationsmenü verschoben
-
-  
+  * Umbenennung Test-Lernressourcen zur besseren Unterscheidung des Formats beim Filtern (s. Screenshot)
+  * Erweiterung Importvorlage für Fragetyp "Numerische Eingabe"
+  * Aktion für Word-Export von Tests aus Testeditor ins Administrationsmenü verschoben
 
 ![](assets/161/QTI%20Tests%20DE.png){ class="shadow lightbox" }
 
-**Testdurchführung**
+#### Testdurchführung
 
-  *     * Verbesserte Positionierung der Titel- und Punkte-Anzeige bei Testdurchführung
+  * Verbesserte Positionierung der Titel- und Punkte-Anzeige bei Testdurchführung
 
-  
 
-**Bewertung**
+#### Bewertung
 
-  *     * Anzeige der individuellen Maximalpunktzahl des Kurses im Bewertungswerkzeug > Leistungsübersicht des Benutzers
-    * Verbesserte Filter im Bewertungswerkzeug
-    * Lernpfad:
-      * Freigabe von Bewertungen nur für Kursbesitzer, wenn nicht für Betreuer erlaubt (s. Screenshot rechts)
-      * Besitzer kann "Bestanden / Nicht bestanden" überschreiben
-    * Überarbeitung der Freigabe-Optionen (ehemals "Sichtbarkeit setzen") für Bewertungen (s. Screenshot)
+  * Anzeige der individuellen Maximalpunktzahl des Kurses im `Bewertungswerkzeug > Leistungsübersicht des Benutzers`
+  * Verbesserte Filter im Bewertungswerkzeug
+  * Lernpfad:
+     * Freigabe von Bewertungen nur für Kursbesitzer, wenn nicht für Betreuer erlaubt (s. Screenshot rechts)
+     * Besitzer kann "Bestanden / Nicht bestanden" überschreiben
+  * Überarbeitung der Freigabe-Optionen (ehemals "Sichtbarkeit setzen") für Bewertungen (s. Screenshot)
 
-![](assets/161/Freigabe%20DE.png){ class="shadow lightbox" }
-
-  
+![](assets/161/Freigabe%20DE.png){ class="shadow lightbox" } 
 
 ![](assets/161/Betreuer%20darf%20DE.png){ class="shadow lightbox" }
 
   
-
-  
-
 * * *
-
-  
 
 ## Import von Kursbausteinen aus anderen Kursen
 
@@ -270,58 +253,48 @@ importiert werden.
 
 ## Weitere Verbesserungen rund um Kurse
 
-**Für Autoren:**
+#### Für Autoren:
 
   * Verbesserte Anzeige von Warnmeldungen zu unvollständigen Kursbausteinen (s. Screenshot)
   * Platzierung der Aktionen für Kursbausteine (Löschen, Verschieben, Duplizieren) auf dem Baustein selbst
 
-  
-
 ![](assets/161/Warnings%20Kurseditor%20DE2.png){ class="shadow lightbox" }
 
-**Für Teilnehmende:**
+#### Für Teilnehmende:
 
   * Verbesserte Darstellung von Kursinformationen (wie z.B. Titel, Durchführungszeitraum, Durchführungsort) in der Kursübersicht (Meine Kurse)
   * Verbesserte Darstellung der Angaben auf der Kurs-Infoseite
   * Verbesserte Meldungen im Kurs, warum bestimmte Kursbausteine (noch) nicht zugänglich sind (s. Screenshot rechts)
 
-  
-
-  
 
 ![](assets/161/Kein%20Zugriff%20DE.png){ class="shadow lightbox" }
 
-  
-
-  
 
 * * *
 
-  
-
 ## Weiteres, kurz notiert
 
-**Import von extern erstellten Zertifikaten**
+#### Import von extern erstellten Zertifikaten
 
 Manchmal möchten Benutzer ihre Leistungsnachweise in OpenOlat mit extern
 erstellten Zertifikaten oder Teilnahmebestätigungen ergänzen, um ihr Profil
 abzurunden. Der Upload externer Zertifikate kann nun für die Benutzer im
 persönlichen Bereich "Leistungsnachweise" freigeschaltet werden
-(Administration > eAssessment > Zertifikate). Zusätzlich ist diese Funktion
+(`Administration > eAssessment > Zertifikate`). Zusätzlich ist diese Funktion
 auch für Benutzerverwalter, Linienvorgesetzte derselben Organisation oder für
 verantwortliche Personen, die über eine Benutzer-zu-Benutzer-Beziehungen
 verbunden sind, verfügbar und kann jeweils separat konfiguriert werden.
 
 ![](assets/161/Externe%20Zertifikate%20DE.png){ class="shadow lightbox" }
 
-**Coaching Tool:  Offene und freizugebende Bewertungen**
+#### Coaching Tool:  Offene und freizugebende Bewertungen
 
 Damit Betreuende den Überblick über noch offene oder freizugebende Bewertungen
 sowie ihre anstehenden Korrekturaufträge behalten, wurde das Coaching-Tool
 erweitert. Die Verwaltung von Korrektoren und Korrekturaufträgen erfolgt in
 einem separaten Bereich.
 
- **Sonstiges**
+#### Sonstiges
 
   * Lektionenmanagement: Verbesserte Erfassung von Absenzen
   * Leistungsnachweise auch in Curriculumsansicht verfügbar in den Bereichen CoachingTool, Benutzerverwaltung und dem persönlichen Bereich Leistungsnachweise

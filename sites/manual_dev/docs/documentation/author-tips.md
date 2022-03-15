@@ -26,11 +26,65 @@ Add `{: #anchor-example}` to any title element to create an anchor that can be r
  
 Here an example link to [this chapter](#anchor-example) 
 
-## Image width and alignment
+## Images
 
-Add `{ align=left}` or `{ align=right}` to format images left or right of text. More on this [here](https://squidfunk.github.io/mkdocs-material/reference/images/)
+Image styles and css classes can be added to the image markup like this: 
 
-Add `{ width=200px}` for the size. This can also be combiend like this: `{ align=left width=200px}`
+=== "Markup"
+	`![Your image title](assets/smile.jpg){ width=100px align=right class="border shadow" }`
+
+=== "Output"
+	![Your image title](assets/smile.jpg){ width=100px align=right class="border shadow" }
+
+!!! important
+	The following notation to add special parameters to images is extremely sensitive to whitespace! Make sure
+		1. between the image markup und the left curly bracket is **no space**
+		2. after the left opening curly bracket and before the closing right curly bracket there is **one space** 
+	Otherwise the image styles will not be applied. 
+
+### Width and alignment
+
+Add `{ align=left }` or `{ align=right }` to format images left or right of text. More on this [here](https://squidfunk.github.io/mkdocs-material/reference/images/)
+
+Add `{ width=200px}` for a custom size. This can also be combiend like this: `{ align=left width=200px }`. Use custom width only if needed, if possible use the [standard sizes](#sizes) using the predefined CSS classes. 
+
+
+### Sizes
+
+There are some predefined image sizes that can be applied by assigning CSS classes. Use technique preferably over manually adding width or height: 
+
+| CSS class | Description | Example |
+| --------- | ----------- | ------- |
+| `size16` | shrink to match 16x16px | ![16x16](assets/smile.jpg){ class=size16 } |
+| `size24` | shrink to match 24x24px | ![24x24](assets/smile.jpg){ class=size24 } |
+| `size32` | shrink to match 32x32px | ![32x32](assets/smile.jpg){ class=size32 } |
+| `size48` | shrink to match 48x48px | ![48x48](assets/smile.jpg){ class=size48 } |
+| `size64` | shrink to match 64x64px | ![64x64](assets/smile.jpg){ class=size64 } |
+| `thumbnail-sm` | shrink to fit 150x100px | ![64x64](assets/example-screenshot.png){ class=thumbnail-sm } |
+| `thumbnail` | shrink to fit 250x150px | ![64x64](assets/example-screenshot.png){ class=thumbnail } |
+| `thumbnail-lg` | shrink to fit 300x200px | ![64x64](assets/example-screenshot.png){ class=thumbnail-lg } |
+
+
+### Styles
+
+The following box styles are available
+
+| CSS class | Description | Example |
+| --------- | ----------- | ------- |
+| `shadow` | image with shadow | ![shadow](assets/smile.jpg){ class="size64 shadow" } |
+| `border` | image with border | ![border](assets/smile.jpg){ class="size64 border" } |
+
+
+### Lightbox
+
+Use the `lightbox` CSS class to enable the lightbox on an image. This makes the image clickable and enlargable. It is usefull to use this in combination with the thumbnail styles: 
+
+=== "Markup"
+	`![Your image title](assets/smile.jpg){ width=30px align=right class="thumbnail lightbox" }`
+
+=== "Output"	
+	![Your image title](assets/example-screenshot.png){ class="thumbnail lightbox" }
+ 
 
 ## Tables
 
@@ -40,5 +94,19 @@ Tables are cumbersome and error prone:
 - cells can contain images, code block, foot notes etc, it is trial-and-error
 
 See the [manual](https://squidfunk.github.io/mkdocs-material/reference/data-tables/) for more info.
+
+=== "Markup"
+		| CSS class | Description | Example |
+		| --------- | ----------- | ------- |
+		| `shadow` | image with shadow | ![shadow](assets/smile.jpg){ class="size64 shadow" } |
+		| `border` | image with border | ![border](assets/smile.jpg){ class="size64 border" } |
+	
+=== "Output"
+	| CSS class | Description | Example |
+	| --------- | ----------- | ------- |
+	| `shadow` | image with shadow | ![shadow](assets/smile.jpg){ class="size64 shadow" } |
+	| `border` | image with border | ![border](assets/smile.jpg){ class="size64 border" } |
+	
+
 
 As an example have a look at the table in the OpenOlat [group section](../../../manual_user/groups/Using_Group_Tools/)

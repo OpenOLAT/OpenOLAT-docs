@@ -1,4 +1,5 @@
 # Release notes 16.1
+![](assets/161/press-release-16.1.png)
 
 With OpenOlat 16.1 we release our next major release.
 
@@ -14,35 +15,20 @@ took care of **improved hints** to support authors and participants, as well
 as triggered the revised positioning of metadata in the test execution and in
 the course overview under "My courses", and launched **additional filters**.
 
+![](assets/161/Features_Improvements_Labels_EN.png)
+
 Since release 16.0, over 80 new features and improvements have been added to
 OpenOlat. Here you can find the most important new features and changes. In
 addition to, more than 100 bugs have been fixed. The complete list of changes
 in 16.0 - 16.0.8 can be found
 [here](Release_notes_16.0.md).
 
-![](assets/161/Features_Improvements_Labels_EN.png)
-
-![](assets/161/press-release-16.1.png)
-
+* * *
 
 :material-calendar-month-outline: **Release: 17.12.2021 • Last update: 17.12.2021**
 
- 
-Last update: 12-17-2021
-
-  * 1 Release notes 16.1 
-  * 2Exceptions in the learning path
-  * 3Other innovations in the learning path course
-  * 4Automatic life cycle for groups
-  * 5Additional features in the area of eAssessment, tests and evaluation
-  * 6Import of course elements from other courses
-  * 7Further improvements around courses
-  * 8Additional notes
-  * 9Technical details
-  * 10Release notes - versions
-
-
 * * *
+
 
 ## Exceptions in the learning path
 
@@ -54,7 +40,7 @@ paths for different learners in a course. This makes it possible to exclude
 access to course elements for certain users - be it through a corresponding
 attribute, a passed test, or membership in a group or organization.
 
-**New functions**
+#### New functions
 
   * Extended exception control: "Excluded" state for course and structure elements
   * Exceptions for learners configurable based on specific criteria:  
@@ -65,28 +51,26 @@ attribute, a passed test, or membership in a group or organization.
     * Passed/failed status of an assessable course element
   * Marking of a course element in editor mode if it has exception rules
 
- **Individual learning path control for learners**
+#### Individual learning path control for learners
 
   * Exceptions can be overwritten in the individual learning path control by the Coach if required
   * Display of course elements only accessible for this user or all course elements of the learning path
 
- **Modifications of existing elements**
+#### Modifications of existing elements
 
   * Renaming of label "Obligatory" to "Execution" in Learning path tab
   * Structure element: Rename implementation options in learning path tab to "Part of learning path" and "Excluded"
-
   
-
 ![](assets/161/LP%20Ausnahmen%20EN.png){ class="shadow lightbox" }
 
-**Interested?**
+#### Interested?
+
+Watch the **video** for an overview of the exceptions in the learning path (german only):
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MWWUmma2Cr0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
   
-
-Watch the **video** for an overview of the exceptions in the learning path
-(german only):
-
-The whitepaper summarizes the most important information about the learning
+The **whitepaper** summarizes the most important information about the learning
 path and the exceptions in a compact way:
 
 <a href="../assets/161/whitepaper_learning_path_courses_en_final.pdf">
@@ -99,10 +83,9 @@ Whitepaper_Lernpfadkurse_final.pdf
 * * *
 
   
-
 ## Other innovations in the learning path course
 
-**Configuration of relative dates**
+#### Configuration of relative dates
 
 In the learning path, an absolute start and end date can be configured for
 completing a course element. If participants start the course at different
@@ -115,7 +98,7 @@ templates as a copy template.
 
 ![](assets/161/Relative%20Daten%20EN.png){ class="shadow lightbox" }
 
-**Configuration of the navigation menu display**
+#### Configuration of the navigation menu display
 
 In learning path courses, the learning path is also visualized in the
 navigation menu. This is useful for stricter learning path scenarios with
@@ -123,13 +106,12 @@ predominantly mandatory course elements. For more open courses without a
 predefined processing sequence, this visualization is not needed; the typical
 course element icons are more suitable for this purpose.
 
-With the new configuration options for the display of path and icons (Course
-settings > Layout > Navigation), these can be flexibly set for different
+With the new configuration options for the display of path and icons `Course settings > Layout > Navigation`), these can be flexibly set for different
 needs.
 
 Learning path and building block icons enabled vs. not enabled:
 
-![](assets/161/LP%20und%20Icons%20DE.png){ class="shadow lightbox" }![](assets/161/Kein%20LP%20und%20keine%20Icons.png){ class="shadow lightbox" }
+![](assets/161/LP%20und%20Icons%20DE.png)![](assets/161/Kein%20LP%20und%20keine%20Icons.png)
 
   
 
@@ -162,10 +144,8 @@ administrators, a combined lifecycle management of partially **automatic and
 manual process** is recommended.
 
   
-
 ![](assets/161/group%20life%20cycle%20EN.png){ class="shadow lightbox" }
 
-  
 
 * * *
 
@@ -173,7 +153,7 @@ manual process** is recommended.
 
 ## Additional features in the area of eAssessment, tests and evaluation
 
-**Learning resource "Test"**
+#### Learning resource "Test"
 
   * Renaming test learning resources to better distinguish the format when filtering (see screenshot)
   * Extension of import template for question type "Numerical input"
@@ -181,15 +161,14 @@ manual process** is recommended.
 
 ![](assets/161/QTI%20Tests%20EN.png){ class="shadow lightbox" }
 
-**Test execution**
+#### Test execution
 
   * Improved positioning of title and points display during test execution
 
-  
 
-**Assessment**
+#### Assessment
 
-  * Display of the individual maximum score of the course in the assessment tool > User's performance overview
+  * Display of the individual maximum score of the course in the `assessment tool > User's performance overview`
   * Improved filters in the assessment tool
   * Learning Path:  
 
@@ -199,7 +178,7 @@ manual process** is recommended.
 
 ![](assets/161/Freigabe%20EN.png){ class="shadow lightbox" }
 
-![](assets/161/Betreuer%20darf%20EN.png){ class="shadow lightbox" }
+![](assets/161/Betreuer%20darf%20EN.png){ class="shadow lightbox" width=400px }
 
   
 
@@ -238,14 +217,14 @@ HTML pages or used images can also be imported back into the new course.
 
 ## Further improvements around courses
 
-**For authors:**
+#### For authors:
 
   * Improved display of warnings about incomplete course elements (see screenshot)
   * Placement of actions for course elements (delete, move, duplicate) on the element itself
 
 ![](assets/161/Warnings%20Kurseditor%20EN2.png){ class="shadow lightbox" }
 
-**For participants:**
+#### For participants:
 
   * Improved display of course information (such as title, implementation period, implementation location) in the course overview (My Courses)
   * Improved display of information on the course info page
@@ -261,26 +240,26 @@ HTML pages or used images can also be imported back into the new course.
 
 ## Additional notes
 
-**Import of externally created certificates**
+#### Import of externally created certificates
 
 Sometimes users want to add externally created certificates or attendance
 confirmations to their track record in OpenOlat to round out their profile.
 Uploading external certificates can now be enabled for users in the personal
-"Track record" area (Administration > eAssessment > Certificates). In
+"Track record" area (`Administration > eAssessment > Certificates`). In
 addition, this feature is also available for user administrators, line
 managers of the same organization, or responsible users connected via a user-
 to-user relationship, and can be configured separately for each.
 
 ![](assets/161/Externe%20Zertifikate%20EN.png){ class="shadow lightbox" }
 
-**Coaching Tool:  Open reviews and reviews to be released**
+#### Coaching Tool:  Open reviews and reviews to be released
 
 The Coaching Tool has been expanded so that coaches can keep track of
 assessments that are still open or need to be released, as well as their
 pending correction orders. The administration of reviewers and correction
 orders is done in a separate area.
 
- **Other**
+#### Other
 
   * Lectures management: Improved recording of absences
   * Certificates of achievement also available in curriculum view in Coaching Tool, user management and the personal area Certificates of achievement
