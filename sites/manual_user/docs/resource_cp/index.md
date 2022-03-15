@@ -1,5 +1,9 @@
 # Creating CP Learning Content
 
+This chapter explains course authors how to create Content Packagings.
+Additionally, you will find information on how to embed your CPs in courses
+and explains the features of the CP editor.
+
 CP stands for "Content Packaging" and is an e-learning standard for learning
 content. A content packaging is a self-contained learning content in a
 standardized e-learning format, for example an online module for your subject
@@ -14,9 +18,4 @@ guidance in the chapter ["Creating courses"](Creating+Courses.html) before
 creating your CP by means of the following instruction.
 
 If you want to create large learning contents we recommend using
-[eLML](http://www.elml.org "eLML").
-
-This chapter explains course authors how to create Content Packagings.
-Additionally, you will find information on how to embed your CPs in courses
-and explains the features of the CP editor.
-
+[eLML](http://www.elml.org "eLML.org").

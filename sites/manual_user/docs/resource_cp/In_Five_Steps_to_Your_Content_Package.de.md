@@ -7,44 +7,36 @@ freigeschaltet.
 ## Schritt 1: Kurseditor öffnen und CP-Kursbaustein einfügen  
   
  1. Im Autorenbereich unter “Meine Einträge“ Kurs suchen und öffnen.
-
 ![Kurs-meine-Eintraege](assets/Kurs_waehlen.png)  
-
-2. Oben im Dropdown-Menü “Administration“ auf “Kurseditor“ klicken.  
-3. Kurselement, unter dem der CP-Kursbaustein eingefügt werden soll, durch Klicken auswählen.  
-4. Oben im Pop-Up “Kursbausteine einfügen“ “CP-Lerninhalt“ wählen.  
-5. Im Tab “Titel und Beschreibung“ kurzen Titel des Kursbausteins eingeben und speichern.  
+ 2. Oben im Dropdown-Menü “Administration“ auf “Kurseditor“ klicken.  
+ 3. Kurselement, unter dem der CP-Kursbaustein eingefügt werden soll, durch Klicken auswählen.  
+ 4. Oben im Pop-Up “Kursbausteine einfügen“ “CP-Lerninhalt“ wählen.  
+ 5. Im Tab “Titel und Beschreibung“ kurzen Titel des Kursbausteins eingeben und speichern.  
   
 ## Schritt 2: CP-Lerninhalt erstellen  
 
-1. Im Tab “Lerninhalt“ auf “CP-Lerninhalt wählen, erstellen oder importieren“ klicken.
-
-![](assets/choosecp.gif)  
-  
-2. “Erstellen“ klicken.  
-3. Titel des CPs eingeben und auf "Erstellen" klicken.  
+ 1. Im Tab “Lerninhalt“ auf “CP-Lerninhalt wählen, erstellen oder importieren“ klicken.
+![choose-cp](assets/choosecp.gif)
+ 2. “Erstellen“ klicken.  
+ 3. Titel des CPs eingeben und auf "Erstellen" klicken.  
   
 Sie befinden sich nun im Editor. Ein neues CP besteht standardmässig aus einem Kapitel (“CP-Lerninhalt“) und einer Seite (“Neue Seite“).
 
 ## Schritt 3: CP bearbeiten
 
-1. Auf “Editieren“ klicken.
+1. Auf “Editieren“ klicken.     
 ![content-package editieren](assets/editcp.gif)
 
 2. **Titel bearbeiten**: Oben in der Toolbar auf "Seiteneigenschaften bearbeiten" klicken und neuen Titel eingeben.
-![Seiteneigenschaften](assets/13_cp_seiteneigenschaften.png)  
-  
-3. **Inhalt bearbeiten**: Im vorgesehenen Feld Seite bearbeiten und formatieren.Speichern.  
+![Seiteneigenschaften](assets/13_cp_seiteneigenschaften.png)
 
+3. **Inhalt bearbeiten**: Im vorgesehenen Feld Seite bearbeiten und formatieren.Speichern.
 4. **Neue Seite einfügen:** Icon “Seite hinzufügen“ klicken. Die neue Seite wird unterhalb des markierten Elements eingefügt.
 ![Seite_hinzufuegen](assets/13_cp_Seite_hinzufuegen.png)
 
 5. **Seite kopieren**: Icon “Seite kopieren“ klicken. Die kopierte Seite wird unterhalb des markierten Elements eingefügt.
-
 6. **Seite importieren**: Icon “Seite importieren“ klicken. “Datei wählen“ klicken und eine HTML-Seite auswählen. “Importieren“ klicken. Sie können mehrere HTML-Seiten auf einmal importieren, wenn Sie diese zippen und dann die ZIP-Datei hochladen.
-
 7. **Seite löschen**: Icon “Seite löschen“ klicken und bestätigen.
-
 8. **Vorschau**: Klicken Sie rechts oben in der Toolbar auf das “Vorschau“-Icon, um das CP vor dem Speichern zu betrachten.
 
 Fügen Sie nun weitere Seiten nach demselben Prinzip ein. Mehr Informationen zu den verschiedenen Funktionen des Editors finden Sie im Kapitel [**CP Editor**](CP_Editor.de.md).
@@ -56,7 +48,7 @@ Fügen Sie nun weitere Seiten nach demselben Prinzip ein. Mehr Informationen zu 
 
 ## Schritt 5: Kurs publizieren und freischalten  
 
-1. Oben in der Toolbar “Publizieren“ wählen. 
+1. Oben in der Toolbar “Publizieren“ wählen.
 ![Publizieren](assets/13_publizieren.png)
 ![Publish_cp](assets/publishcp.gif)  
 
@@ -68,7 +60,7 @@ Das Content-Packaging ist nun in Ihren Kurs eingebunden und Kursteilnehmer könn
 
 Unter Abschnitt “Darstellung“ können Sie bestimmen, ob das CP-eigene Komponentenmenü in die Kursnavigation integriert werden soll.
 
-Im Tab “Layout“ definieren Sie die Einstellungen für die Anzeige des CPs. Die Einstellungsmöglichkeiten sind identisch mit denen einer [Einzelseite](https://confluence.openolat.org/display/OO161DE/Kursbaustein+%22Einzelne+Seite%22#Kursbaustein%22EinzelneSeite%22-_splayout).
+Im Tab “Layout“ definieren Sie die Einstellungen für die Anzeige des CPs. Die Einstellungsmöglichkeiten sind identisch mit denen einer [Einzelseite](Course_Element_Single_Page.de.md).
 
 ![Content Package eingebunden](assets/CP_DE.png)
 
