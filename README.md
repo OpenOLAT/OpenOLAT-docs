@@ -42,7 +42,7 @@ The hierarchical structure of URL's is defined in the `mkdocs.yml` file.
 
 ## Manual versions
 
-The manual is published from the GIT master version on the server in the `/current/` directory. Whenever a new main OpenOlat version is published, the documentation is tagged with the same tag and a branch is created. This docu branch is then published in a version directory like `16.1`.
+The manual is published from the GIT master version on the server in the `/` directory. Whenever a new main OpenOlat version is published, the documentation is tagged with the same tag and a branch is created. This docu branch is then published in a version directory like `16.2`.
 
 
 ## Working on the documentation
@@ -75,6 +75,9 @@ On the Mac the installation is very simple:
 
 	brew install --cask visual-studio-code
 
+More information about this topic can be found in the [https://docs.openolat.org/manual_dev/documentation/howto-visual-studio/](Working with Visual Studio Code) guide. 
+
+
 ### Git project URL
 
 The public repository is available at the following Git URL: 
@@ -82,6 +85,12 @@ The public repository is available at the following Git URL:
 	https://github.com/OpenOLAT/OpenOLAT-docs.git
 
 Note that this is a read-only repository. If you are frentix staff and want to modify the repo, please ask for our interal Git Repo. 
+
+
+### Author documentation
+
+Please read the [OpenOlat manual documentation](https://docs.openolat.org/manual_dev/documentation/) carefully, you will find tips and trick and usefull information.  
+
 
 ### Local preview
 
