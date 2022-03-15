@@ -1,6 +1,6 @@
 # Frequently asked questions - BigBlueButton
 
-!!! note "Open Source Solution BigBlueButton".
+!!! note "Open Source Solution BigBlueButton"
 
     BigBlueButton is an open source solution for virtual conference, meeting and classroom scenarios. The official documentation and help can be found at the links below. The compilation of frequently asked questions (FAQ) on this page are not exhaustive and refer to the use of BigBlueButton in combination with OpenOlat.
     
