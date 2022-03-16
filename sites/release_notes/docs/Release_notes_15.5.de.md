@@ -1,6 +1,5 @@
 # Release Notes 15.5
-
-
+![](assets/155/press-release-15.5.png)
 
 Mit der neuen **LTI 1.3-Integration (BETA-Stadium!)** können zum Beispiel
 h5p-Inhalte von [h5p.com](https://h5p.com/), oder auch Gruppen und Kurse von
@@ -23,40 +22,23 @@ Profil in der **Kompetenzübersicht** verfügbar. Zahlreiche weitere Neuerungen
 und einer **verbesserte Usability bei Tabellen**  komplettieren diesen
 Release.
 
+![](assets/155/Features_Improvements_Labels_DE.png)
+
 Seit Release 15.4 wurden über 100 neue Funktionen und Verbesserungen zu
 OpenOlat hinzugefügt. Hier finden Sie die wichtigsten neuen Funktionen und
 Änderungen. Zusätzlich zu wurden mehr als 95 Bugs behoben. Die komplette Liste
 der Änderungen in 15.4 – 15.4.7 finden Sie
 [hier](Release_notes_15.4.de.md#ReleaseNotes15.4-ReleaseNotes-Versionen).
 
-![](assets/155/Features_Improvements_Labels_DE.png)
-
-![](assets/155/press-release-15.5.png)
-
-Releasedatum: 07.05.2021
-
-Letzte Veröffentlichung: 10.12.2021
-
-  * 1Formular Erweiterungen
-  * 2Kursbaustein Formular
-  * 3Aufgabenbaustein
-  * 4QTI / eAssessment
-  * 5Neue Features rund um Kurse
-  * 6ePortfolio Erweiterungen
-  * 7LTI 1.3 Beta
-  * 8Usability: Tabellen
-  * 9Weiteres, kurz notiert
-  * 10Ankündigung Support-Ende QTI 1.2
-  * 11Technisches
-  * 12Release Notes - Versionen
-
-  
 
 * * *
 
-  
+:material-calendar-month-outline: ** Releasedatum: 07.05.2021 • Letzte Veröffentlichung: 10.12.2021**
 
-  
+
+* * *
+
+<iframe width="800" height="450" src="https://www.youtube.com/embed/4QIL8yhfQl8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 * * *
 
@@ -64,12 +46,14 @@ Letzte Veröffentlichung: 10.12.2021
 
 ## Formular Erweiterungen
 
-**Der Fragebogen heisst jetzt Formular!**
+!!! warning "Der Fragebogen heisst jetzt Formular!"
 
-Der Fragebogen hat sich zu einer Lernressource mit vielfältigen Möglichkeiten
-entwickelt, die weit über einen einfachen Fragebogen hinausgehen. Um dem
-gerecht zu werden, wird die Lernressource "Fragebogen" ab Release 15.5. neu
-"Formular" genannt.
+	Der Fragebogen hat sich zu einer Lernressource mit vielfältigen Möglichkeiten
+	entwickelt, die weit über einen einfachen Fragebogen hinausgehen. Um dem
+	gerecht zu werden, wird die Lernressource "Fragebogen" ab Release 15.5. neu
+	"Formular" genannt.
+
+![](assets/155/Frageregeln%20DE.png){ class="shadow lightbox aside-right-lg" }
 
 Die Lernressource "Formular" (ehemals Fragebogen) wartet mit tollen neuen
 Features auf.
@@ -90,15 +74,13 @@ einzelnen Elemente **dupliziert** werden. Dies ist besonders hilfreich, wenn
 viele ähnlich konfigurierte Elemente (z. B. gleiche Fragetypen mit gleicher
 Struktur und Skala) verwendet werden.
 
-![](assets/155/Frageregeln%20DE.png)
-
-  
-
 * * *
 
   
 
 ## Kursbaustein Formular
+
+![](assets/155/FormularKBS%20DE.png){ class="shadow lightbox aside-right-lg" }
 
 Wo Anmeldungen für Wahlkurse oder Prüfungen mit dem Umfragebaustein nur
 bedingt abzubilden sind, können diese und weitere Szenarien mit dem neuen
@@ -123,8 +105,6 @@ Excel-Export zur Verfügung.
 
   
 
-![](assets/155/FormularKBS%20DE.png)
-
   
 
 * * *
@@ -132,6 +112,9 @@ Excel-Export zur Verfügung.
   
 
 ## Aufgabenbaustein
+
+![](assets/155/Aufgabenstellung_DE.png){ class="shadow lightbox aside-right-lg" }
+
 
 Mit der Einbindung und Aktivierung der Dokumenten-Editoren ergeben sich auch
 am Aufgabenbaustein neue Möglichkeiten.
@@ -144,16 +127,14 @@ oder Word-Datei. Bei Auswahl der Aufgabenstellung durch Teilnehmende wird eine
 Kopie des Aufgabendokumentes erzeugt und zur **Bearbeitung direkt im Browser**
 geöffnet.
 
-![](assets/155/Aufgabenstellung_DE.png)
-
 #### Ansicht Betreuende
+
+![](assets/155/GTA%20feedback%20DE.png){ class="shadow lightbox aside-right-lg" }
 
 Zum anderen können eingereichte **Lösungsdokumente** der Teilnehmenden vom
 Betreuenden direkt im Browser geöffnet und **im Online-Editor korrigiert**
 werden. Die bearbeitete Version der Dokumente kann anschliessend zur weiteren
 Überarbeitung an den Teilnehmenden zurückgegeben werden.
-
-![](assets/155/GTA%20feedback%20DE.png)
 
   
 
@@ -162,6 +143,8 @@ werden. Die bearbeitete Version der Dokumente kann anschliessend zur weiteren
   
 
 ## QTI / eAssessment
+
+![](assets/155/Test%20direkt%20DE.png){ class="shadow lightbox aside-right-lg" }
 
 Für den Zugriff auf das Testcockpit und die Korrektur von Tests mussten
 Betreuende bisher ins Bewertungswerkzeug des Kurses wechseln. Bei Bausteinen
@@ -176,7 +159,7 @@ Ansicht gestartet bzw. beendet werden.
 
 In einem zweiten Tab wird eine Vorschau des Tests angeboten.
 
-![](assets/155/Test%20direkt%20DE.png)
+![](assets/155/Bulk%20test%20DE.png){ class="shadow lightbox aside-right-lg" }
 
 Enthält eine durchgeführte Online-Prüfung eine fehlerhafte Frage, ist meist
 eine **Anpassung der Punktzahl** bei allen Teilnehmenden gewünscht. Diese
@@ -189,9 +172,7 @@ Teilnehmenden bei der entsprechenden Frage
 
 Die Maximalpunktzahl der Frage kann dabei nicht überschritten werden.
 
-  
-
-![](assets/155/Bulk%20test%20DE.png)
+![](assets/155/Wortzaehler%20DE.png){ class="shadow lightbox aside-right-lg" }
 
 Als Hilfestellung für Teilnehmende wird bei Freitext-Fragen unterhalb des
 Textfeldes die **aktuelle Wortanzahl** des bereits geschriebenen Textes
@@ -202,14 +183,12 @@ Die Anzeige ist ebenfalls im Bewertungswerkzeug im Korrekturworkflow
 verfügbar, um die Betreuenden bei der Bewertung der Freitext-Fragen zu
 unterstützen.
 
-![](assets/155/Wortzaehler%20DE.png)
+![](assets/155/Drawing%20Interaction%20DE.png){ class="shadow lightbox aside-right-lg" }
 
 Der Fragetyp "Zeichnen" wurde komplett neu umgesetzt und um ein
 **Textwerkzeug** ergänzt. Eingefügte Texte können in Farbe und Grösse
 angepasst, gedreht sowie neu positioniert werden. Somit ist auch eine
 Beschriftung von Grafiken einfacher möglich.
-
-![](assets/155/Drawing%20Interaction%20DE.png)
 
   
 
@@ -218,6 +197,8 @@ Beschriftung von Grafiken einfacher möglich.
   
 
 ## Neue Features rund um Kurse
+
+![](assets/155/User%20rigths%20DE.png){ class="shadow lightbox aside-right-lg" }
 
 #### Erweiterte Benutzerberechtigungen
 
@@ -232,7 +213,7 @@ ausserdem zeitlich zu begrenzen. Beim Wechsel zwischen der rollenbasierten und
 der erweiterten Konfiguration werden bestehende Einstellungen - soweit möglich
 - übernommen.
 
-![](assets/155/User%20rigths%20DE.png)
+![](assets/155/Screenshot_2021-05-20_at_20_26_33.png){ class="shadow lightbox aside-right-lg" }
 
 In Kursbausteinen, bei denen aufgrund der Abwärtskompatibilität noch die
 "alte" Konfiguration im Tab "Zugriff" verfügbar ist, wird auf die neue
@@ -240,8 +221,6 @@ Konfiguration hingewiesen und eine Aktion angeboten, um auf die neuen
 Konfigurationsmöglichkeiten zu wechseln.
 
   
-
-![](assets/155/Screenshot_2021-05-20_at_20_26_33.png)
 
 #### Kursbaustein "Dokument": Verlinkung zu Ablageordner
 
@@ -267,7 +246,9 @@ es lassen sich Vor- und Nachlaufzeiten definieren.
 
 ## ePortfolio Erweiterungen
 
-#### **Mehrfachnutzung von Einträgen**
+#### Mehrfachnutzung von Einträgen
+
+![](assets/155/eP%20Import%20DE.png){ class="shadow lightbox aside-right-lg" }
 
 Einträge können ab sofort auch mehrfach in [verschiedenen ePortfolio-
 Mappen](../manual_user/portfolio) verwendet
@@ -281,9 +262,9 @@ Referenzierte Einträge werden als solche gekennzeichnet. Bei Änderung eines
 referenzierten Eintrags in einer Mappe wird dieser auch in allen anderen
 Mappen aktualisiert.
 
-![](assets/155/eP%20Import%20DE.png)
+#### Verschlagwortung von Einträgen mit Kompetenzen (Taxonomie)
 
-#### **Verschlagwortung von Einträgen mit Kompetenzen (Taxonomie)**
+![](assets/155/eP%20Eintraege%20DE.png){ class="shadow lightbox aside-right-lg" }
 
 Neu ist die Verknüpfung einer oder mehrere Taxonomien mit dem ePortfolio
 möglich. Innerhalb der Taxonomien können die Stufen als
@@ -295,8 +276,6 @@ Benutzer zusätzlich mit einem Verfallsdatum versehen werden.
 
 Eine Übersicht aller verwendeten Kompetenzen erhält der Benutzers im
 persönlichen Menü unter "Kompetenzen".
-
-![](assets/155/eP%20Eintraege%20DE.png)
 
   
 
@@ -343,12 +322,12 @@ OpenOlat-Kursen und -Gruppen)
 
   
 
-Neugierig auf LTI 1.3 geworden (Funktion im Beta-Stadium)
-
-Wir freuen uns auf den Austausch mit Ihnen zu den geplanten Einsatz-Szenarien.
-Fragen oder Anregungen zu LTI 1.3 (auch beispielsweise interessanten LTI
-1.3-fähigen Tools, die Sie gerne integrieren möchten) nehmen wir gerne unter
-[support@frentix.com](mailto:support@frentix.com) entgegen.
+!!! info "Neugierig auf LTI 1.3 geworden (Funktion im Beta-Stadium)"
+	
+	Wir freuen uns auf den Austausch mit Ihnen zu den geplanten Einsatz-Szenarien.
+	Fragen oder Anregungen zu LTI 1.3 (auch beispielsweise interessanten LTI
+	1.3-fähigen Tools, die Sie gerne integrieren möchten) nehmen wir gerne unter
+	[support@frentix.com](mailto:support@frentix.com) entgegen.
 
   
 
@@ -358,26 +337,25 @@ Fragen oder Anregungen zu LTI 1.3 (auch beispielsweise interessanten LTI
 
 ## Usability: Tabellen
 
+![](assets/155/Empty%20State%20DE.png){ class="shadow lightbox aside-right-lg" }
+
 In diesem Release wurden vor allem **Neuerungen bei Tabellen** vorgenommen.
 
 Mehr Informationen erhalten Benutzende durch die neuen spezifischen **"Empty
 States"** bei Tabellen, wenn keine Daten vorhanden sind. Ergänzende Aktionen
 unterstützen bei den nächsten Schritten.
 
-![](assets/155/Empty%20State%20DE.png)
 
-  
+![](assets/155/UX_tabelle_DE.png){ class="shadow lightbox aside-right-lg" }
 
 Das **Zahnrad-Symbol** für weitere Aktionen am rechten Rand der Tabelle wurde
-beispielsweise durch das neue
-Icon![](assets/155/Icon%20Aktionen.png) **ersetzt**.
+beispielsweise durch das **neue
+Icon :fontawesome-solid-ellipsis-vertical: ersetzt**.
 Das ist nicht nur platzsparender, sondern auch weniger aufdringlich.
 
 Ein Refactoring wurde für die **Auswahl von Zeilen** in Tabellen durchgeführt.
 So können nun alle Einträge der Seite oder der gesamten Tabelle über die
 Checkbox oben links selektiert werden.
-
-![](assets/155/UX_tabelle_DE.png)
 
   
 
@@ -386,6 +364,8 @@ Checkbox oben links selektiert werden.
   
 
 ## Weiteres, kurz notiert
+
+![](assets/155/Bestaetigung%20Gruppe%20DE.png){ class="shadow lightbox aside-right-lg" }
 
   * Anzeige ausstehender Bestätigungen für Kurs- und Gruppenmitgliedschaften im Gruppenbereich (Screenshot)
   * Unterstützung mehrerer separater Anhänge für Kurs-Mitteilungen
@@ -397,8 +377,6 @@ Checkbox oben links selektiert werden.
   * Verbesserung Locking-Funktion und Metadatenanzeige von Dokumenten
   * Neue SCORM-Integration für die Einbindung von SCORM-Lernmodulen
 
-![](assets/155/Bestaetigung%20Gruppe%20DE.png)
-
   
 
 * * *
@@ -407,14 +385,15 @@ Checkbox oben links selektiert werden.
 
 ## Ankündigung Support-Ende QTI 1.2
 
-Die Unterstützung für QTI 1.2 endet mit Release 16.0. Die Konvertierung von
-QTI 1.2 Fragen, Tests und Fragebögen ist dann nur noch über den Export auf
-ältere Release-Versionen möglich.
-
-Bitte prüfen Sie, ob noch QTI 1.2-Inhalte auf ihrem OpenOlat-System vorhanden
-sind, die Sie weiter verwenden möchten und konvertieren Sie diese zu QTI 2.1.
-Die Konvertierung von QTI 1.2-Fragebögen in neue Fragebögen / Formulare wird
-nicht unterstützt, diese müssen neu aufgebaut werden.
+!!! warning "QTI 1.2 Support endet bald"
+	Die Unterstützung für QTI 1.2 endet mit Release 16.0. Die Konvertierung von
+	QTI 1.2 Fragen, Tests und Fragebögen ist dann nur noch über den Export auf
+	ältere Release-Versionen möglich.
+	
+	Bitte prüfen Sie, ob noch QTI 1.2-Inhalte auf ihrem OpenOlat-System vorhanden
+	sind, die Sie weiter verwenden möchten und konvertieren Sie diese zu QTI 2.1.
+	Die Konvertierung von QTI 1.2-Fragebögen in neue Fragebögen / Formulare wird
+	nicht unterstützt, diese müssen neu aufgebaut werden.
 
   
 

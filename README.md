@@ -66,6 +66,20 @@ To continue you must first install [brew](https://brew.sh).
 	pip3 install mkdocs-monorepo-plugin   
 	pip3 install mkdocs-static-i18n
 
+You need to install mkdocs-material >= version 8.2.
+
+#### Update 
+
+From time to time you need to update everything: 
+
+	# Upgrade python really only if you need
+	brew upgrade python
+	
+	# Update mkdocs if new releases have been published
+	pip3 install mkdocs -U
+	pip3 install mkdocs-material -U	
+	pip3 install mkdocs-monorepo-plugin -U
+	pip3 install mkdocs-static-i18n -U
 
 ### Markdown editor and Git client 
 

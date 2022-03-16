@@ -25,7 +25,7 @@ nav:
       - Modules Organisations: "administration/Modules_Organisations.md"
       - Modules Curriculum: "administration/Modules_Curriculum.md"
       - Instant Messaging: "administration/Instant_Messaging.md"
-    - Lebenszyklen:
+    - Life cycles:
       - Overview : "administration/Life_cycles_-_Administration.md"
       - Automatic Group Lifecycle: "administration/Automatic_Group_Lifecycle.md"
     - Payment modules:

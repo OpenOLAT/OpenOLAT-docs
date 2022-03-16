@@ -25,6 +25,8 @@ theme:
     - navigation.top
     - navigation.indexes
 #    - navigation.sections
+    - search.suggest
+    - search.highlight
     
 markdown_extensions:
   - meta
@@ -35,7 +37,7 @@ markdown_extensions:
   - tables
   - footnotes
   - toc:
-      toc_depth: 3
+      toc_depth: 2
   - pymdownx.snippets
   - pymdownx.details
   - pymdownx.superfences
@@ -47,13 +49,18 @@ markdown_extensions:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
 
-#include_homepage_in_sidebar: false
-#prev_next_buttons_location: none
-#navigation_depth: 10
-#collapse_navigation: true
-#titles_only: false
-#sticky_navigation: false
+extra:
+  social:
+    - icon: fontawesome/brands/twitter 
+      link: https://twitter.com/openolat
+    - icon: fontawesome/brands/linkedin 
+      link: https://www.linkedin.com/groups/1473557/
+    - icon: fontawesome/brands/github 
+      link: https://github.com/openOLAT/
 
+copyright: Copyright &copy; 2006 - 2022 <a href="https://frentix.com">frentix GmbH</a>
+      
+           
 extra_css:
  - lighbox/basicLightbox.min.css
  - stylesheets/extra.css
@@ -64,7 +71,11 @@ extra_javascript:
 
 plugins:
   - monorepo
-  - search
+#  - tags
+  - search:
+      lang:
+        - en
+        - de
   - i18n:
       default_language: en
       languages:
@@ -200,7 +211,7 @@ plugins:
           Landing pages : Startseite
           Learning Activities in Courses : Lernaktivitäten im Kurs
           Learning resource Video : Lernressource Video
-          Lebenszyklen  : Lebenszyklen
+          Life cycles  : Lebenszyklen
           Lectures and absences : Lektionen und Absenzen
           Lektionen  : Lektionen
           Lektionen  : Lektionen

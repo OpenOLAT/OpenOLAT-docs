@@ -149,13 +149,13 @@ manual process** is recommended.
 
 ## Additional features in the area of eAssessment, tests and evaluation
 
+![](assets/161/QTI%20Tests%20EN.png){ class="shadow lightbox aside-right-lg" }
+
 #### Learning resource "Test"
 
   * Renaming test learning resources to better distinguish the format when filtering (see screenshot)
   * Extension of import template for question type "Numerical input"
   * Action for Word export of tests from test editor moved to administration menu
-
-![](assets/161/QTI%20Tests%20EN.png){ class="shadow lightbox" }
 
 #### Test execution
 
@@ -163,6 +163,8 @@ manual process** is recommended.
 
 
 #### Assessment
+
+![](assets/161/Betreuer%20darf%20EN.png){ class="shadow lightbox aside-right-lg" }
 
   * Display of the individual maximum score of the course in the `assessment tool > User's performance overview`
   * Improved filters in the assessment tool
@@ -173,8 +175,6 @@ manual process** is recommended.
   * Revised sharing options (formerly "Set Visibility") for assessments (see screenshot)
 
 ![](assets/161/Freigabe%20EN.png){ class="shadow lightbox" }
-
-![](assets/161/Betreuer%20darf%20EN.png){ class="shadow lightbox" width=400px }
 
   
 

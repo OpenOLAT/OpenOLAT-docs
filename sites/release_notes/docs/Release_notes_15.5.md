@@ -1,4 +1,5 @@
 # Release notes 15.5
+![](assets/155/press-release-15.5.png)
 
 With OpenOlat 16.1 we release our next major release.
 
@@ -21,6 +22,8 @@ collected display is available in the profile in the **competency overview**.
 Numerous other innovations and **improved usability for tables** complete this
 release.
 
+![](assets/155/Features_Improvements_Labels_EN.png)  
+
 Overall more than 100 new features and improvements have been added to
 OpenOlat since release 15.4 and many processes have been improved. Here, you
 can find the most important new features and changes. In addition to these
@@ -28,30 +31,10 @@ improvements, more than 95 bugs have been fixed. The complete list of changes
 for 15.4 – 15.4.7 can be found
 [here](Release_notes_15.4.md#Releasenotes15.4-Releasenotes-versions).
 
-![](assets/155/Features_Improvements_Labels_EN.png)  
 
-![](assets/155/press-release-15.5.png)
+* * *
 
-Release date: 07-05-2021
-
-Last update: 12-10-2021
-
-  * 1 Release notes 15.5 
-  * 2Form extensions
-  * 3Course element "Form"
-  * 4Course element "Task"
-  * 5QTI / eAssessment
-  * 6New features related to courses
-  * 7ePortfolio extensions
-  * 8LTI 1.3 Beta
-  * 9Usability: Tables
-  * 10Additional notes
-  * 11Announcement support end QTI 1.2
-  * 12Technical details
-  * 13Release notes - versions
-
-  
-
+:material-calendar-month-outline: **Release date: 07-05-2021 • Last update: 12-10-2021**
   
 
 * * *
@@ -60,11 +43,13 @@ Last update: 12-10-2021
 
 ## Form extensions
 
-**The survey is now called a form!**
+!!! warning "The survey is now called a form!"
 
-The survey has developed into a learning resource with a wide range of
-possibilities that go far beyond a simple questionnaire. To do credit to this,
-the learning resource "Survey" is now called "Form" as of release 15.5.
+	The survey has developed into a learning resource with a wide range of
+	possibilities that go far beyond a simple questionnaire. To do credit to this,
+	the learning resource "Survey" is now called "Form" as of release 15.5.
+
+![](assets/155/Frageregeln%20EN.png){ class="shadow lightbox aside-right-lg" }
 
 The learning resource "Form" (formerly Survey) comes up with great new
 features.
@@ -84,15 +69,13 @@ To assist authors in creating questionnaires, individual elements can be
 **duplicated**. This is especially helpful if many similarly configured
 elements are used (e.g. same question types with same structure and scale).
 
-![](assets/155/Frageregeln%20EN.png)
-
   
-
 * * *
 
-  
 
 ## Course element "Form"
+
+![](assets/155/FormularKBS%20EN.png){ class="shadow lightbox aside-right-lg" }
 
 Where registrations for optional courses or exams can only be mapped to a
 limited extent with the survey element, these and other scenarios can be
@@ -113,8 +96,6 @@ further processing by the participant, or they can be completely reset. By
 clicking on the participant, the completed form can be viewed. The form data
 of all participants is available as an Excel export.
 
-![](assets/155/FormularKBS%20EN.png)
-
   
 
 * * *
@@ -122,6 +103,8 @@ of all participants is available as an Excel export.
   
 
 ## Course element "Task"
+
+![](assets/155/Aufgabenstellung_EN.png){ class="shadow lightbox aside-right-lg" }
 
 With the integration and activation of the document editors, new possibilities
 also arise at the task course element.
@@ -133,16 +116,14 @@ the participants, for example a prepared Excel or Word file. When participants
 select the task, a copy of the task document is generated and **opened
 directly in the browser for editing**.
 
-![](assets/155/Aufgabenstellung_EN.png)
-
 #### Coach view
+
+![](assets/155/GTA%20feedback%20EN.png){ class="shadow lightbox aside-right-lg" }
 
 On the other hand, submitted **solution documents** of the participants can be
 opened directly in the browser by the coach and **corrected in the online
 editor**. The edited version of the documents can then be returned to the
 participant for further revision.
-
-![](assets/155/GTA%20feedback%20EN.png)
 
   
 
@@ -151,6 +132,8 @@ participant for further revision.
   
 
 ## QTI / eAssessment
+
+![](assets/155/Test%20direkt%20EN.png){ class="shadow lightbox aside-right-lg" }
 
 Until now, coaches had to switch to the course's assessment tool to access the
 test cockpit and correct tests. In the case of elements such as assignments or
@@ -164,7 +147,7 @@ usual. The assessment mode can also be started or ended in this view.
 
 A preview of the test is offered in a second tab.
 
-![](assets/155/Test%20direkt%20EN.png)
+![](assets/155/Bulk%20test%20EN.png){ class="shadow lightbox aside-right-lg" }
 
 If a completed online test contains an incorrect question, an **adjustment of
 the score** is usually desired for all participants. Until now, this
@@ -177,9 +160,7 @@ the appropriate question:
 
 The maximum score of the question cannot be exceeded.
 
-![](assets/155/Bulk%20test%20EN.png)
-
-  
+![](assets/155/Wortzaehler%20EN.png){ class="shadow lightbox aside-right-lg" }  
 
 To help participants, the **current word count** of the text already written
 is displayed below the text field for essay questions. If available, this is
@@ -188,21 +169,20 @@ followed by the configured minimum or maximum number of words.
 The display is also available in the assessment tool in the correction
 workflow to support the coaches in assessing the essay questions.
 
-![](assets/155/Wortzaehler%20EN.png)
+![](assets/155/Drawing%20Interaction%20DE.png){ class="shadow lightbox aside-right-lg" }
 
 The "Drawing" question type has been completely reimplemented and a **text
 tool** has been added. Inserted texts can be adjusted in color and size,
 rotated as well as repositioned. This makes it easier to label graphics.
 
-![](assets/155/Drawing%20Interaction%20DE.png)
-
-  
 
 * * *
 
   
 
 ## New features related to courses
+
+![](assets/155/User%20rights%20EN.png){ class="shadow lightbox aside-right-lg" }
 
 #### Extended user permissions
 
@@ -216,9 +196,7 @@ group or user and to limit the different accesses for a certain period of
 time. When switching between the role-based and the advanced configuration,
 existing settings will be adopted - as far as possible.
 
-![](assets/155/User%20rights%20EN.png)
-
-  
+![](assets/155/User%20rigths%20note%20EN.png){ class="shadow lightbox aside-right-lg" }
 
 In course elements where the "old" configuration is still available in the
 "Access" tab due to backward compatibility, the new configuration will be
@@ -226,8 +204,6 @@ pointed out and an action will be offered to switch to the new configuration
 options.
 
   
-
-![](assets/155/User%20rigths%20note%20EN.png)
 
 #### Course element "Document": Link to storage folder
 
@@ -253,6 +229,8 @@ follow-up times.
 
 #### Multiple use of entries
 
+![](assets/155/eP%20Import%20EN.png){ class="shadow lightbox aside-right-lg" }
+
 Entries can now be used multiple times in [different ePortfolio
 binders](../manual_user/portfolio). This is practical, for example, if
 users want to continuously compile the most important entries on their
@@ -263,9 +241,9 @@ can be created directly from existing entries. Referenced entries are marked
 as such. When a referenced entry is changed in a folder, it is also updated in
 all other folders.
 
-![](assets/155/eP%20Import%20EN.png)
-
 #### Keywording of entries with competencies (taxonomy)
+
+![](assets/155/eP%20Eintraege%20EN.png){ class="shadow lightbox aside-right-lg" }
 
 It is now possible to link one or more taxonomies to the ePortfolio. Within
 the taxonomies, the levels can be identified as
@@ -277,8 +255,6 @@ expiration date per user.
 
 The user gets an overview of all used competencies in the personal menu under
 "Competencies".
-
-![](assets/155/eP%20Eintraege%20EN.png)
 
   
 
@@ -321,12 +297,12 @@ experience the full range of great functions in OpenOlat courses and groups).
 
   
 
-Curious about LTI 1.3 (feature in beta)
+!!! info "Curious about LTI 1.3 (feature in beta)"
 
-We look forward to exchanging ideas with you on the planned deployment
-scenarios. Questions or suggestions about LTI 1.3 (also, for example,
-interesting LTI 1.3-capable tools that you would like to integrate) are
-welcome at [support@frentix.com](mailto:support@frentix.com).
+	We look forward to exchanging ideas with you on the planned deployment
+	scenarios. Questions or suggestions about LTI 1.3 (also, for example,
+	interesting LTI 1.3-capable tools that you would like to integrate) are
+	welcome at [support@frentix.com](mailto:support@frentix.com).
 
   
 
@@ -336,6 +312,8 @@ welcome at [support@frentix.com](mailto:support@frentix.com).
 
 ## Usability: Tables
 
+![](assets/155/Empty%20State%20EN.png){ class="shadow lightbox aside-right-lg" }
+
 In this release, **new** **table features** have been implemented in
 particular.
 
@@ -343,18 +321,15 @@ Users receive more information through the new specific **"Empty States"** for
 tables when no data is available. Supplementary actions support the next
 steps.
 
-![](assets/155/Empty%20State%20EN.png)
+![](assets/155/UX_Tabelle_EN.png){ class="shadow lightbox aside-right-lg" }
 
 For example, the **cogwheel icon** for further actions on the right edge of
-the table has been **replaced** by the new
-icon![](assets/155/Icon%20Aktionen.png). This is not
+the table has been **replaced** by the new :fontawesome-solid-ellipsis-vertical: icon. This is not
 only more space-saving, but also less intrusive.
 
 A refactoring was done for the **selection of rows** in tables. Now all
 entries of the page or the entire table can be selected via the checkbox in
 the upper left corner.
-
-![](assets/155/UX_Tabelle_EN.png)
 
   
 
@@ -363,6 +338,8 @@ the upper left corner.
   
 
 ## Additional notes
+
+![](assets/155/Bestaetigung%20Gruppe%20EN.png){ class="shadow lightbox aside-right-lg" }
 
   * Display of pending confirmations for course and group memberships in the group area (screenshot)
   * Support for multiple separate attachments for course notifications
@@ -374,8 +351,6 @@ the upper left corner.
   * Improved locking function and metadata display of documents
   * New SCORM integration for inclusion of SCORM learning modules
 
-![](assets/155/Bestaetigung%20Gruppe%20EN.png)
-
   
 
 * * *
@@ -384,14 +359,15 @@ the upper left corner.
 
 ## Announcement support end QTI 1.2
 
-Support for QTI 1.2 will end with Release 16.0. Conversion of QTI 1.2
-questions, tests and questionnaires will then only be possible via export to
-older release versions.
-
-Please check if there is still QTI 1.2 content on your OpenOlat system that
-you would like to continue using and convert it to QTI 2.1. The conversion of
-QTI 1.2 questionnaires to new surveys / forms is not supported, these must be
-rebuilt.
+!!! warning "QTI 1.2 support is ending soon"
+	Support for QTI 1.2 will end with Release 16.0. Conversion of QTI 1.2
+	questions, tests and questionnaires will then only be possible via export to
+	older release versions.
+	
+	Please check if there is still QTI 1.2 content on your OpenOlat system that
+	you would like to continue using and convert it to QTI 2.1. The conversion of
+	QTI 1.2 questionnaires to new surveys / forms is not supported, these must be
+	rebuilt.
 
   
 
@@ -402,16 +378,10 @@ rebuilt.
 ## Technical details
 
   * Implementation of a Tocco login provider
-
   * Support of automatic redirect at login for Keycloak and oAuth providers
-
   * oAuth: option to skip registration steps / disclaimer during account creation
-
   * LDAP: support multiple user values fields
-
-  * Library Updates
-
-  
+  * Library Updates  
 
 * * *
 
