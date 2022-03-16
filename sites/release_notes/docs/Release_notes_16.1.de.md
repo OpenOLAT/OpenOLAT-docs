@@ -199,7 +199,8 @@ Verschiedene Optionen erlauben eine Anpassung an das Prüfungssetting:
   * Verbesserte Positionierung der Titel- und Punkte-Anzeige bei Testdurchführung
 
 
-![](assets/161/Freigabe%20DE.png){ class="shadow lightbox aside-right-lg" } 
+
+![](assets/161/Betreuer%20darf%20DE.png){ class="shadow lightbox aside-right-lg" }
 
 #### Bewertung
 
@@ -210,8 +211,7 @@ Verschiedene Optionen erlauben eine Anpassung an das Prüfungssetting:
      * Besitzer kann "Bestanden / Nicht bestanden" überschreiben
   * Überarbeitung der Freigabe-Optionen (ehemals "Sichtbarkeit setzen") für Bewertungen (s. Screenshot)
 
-![](assets/161/Betreuer%20darf%20DE.png){ class="shadow lightbox" }
-
+![](assets/161/Freigabe%20DE.png){ class="shadow lightbox" } 
   
 * * *
 
