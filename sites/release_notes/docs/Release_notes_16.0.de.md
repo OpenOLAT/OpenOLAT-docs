@@ -218,7 +218,7 @@ Der Fragetyp **Datei-Upload** unterstützt ab sofort das Hochladen von bis zu
 10 separaten Dateien. Der Autor kann beim Erstellen der Frage festlegen, wie
 viele Uploads maximal zum Beantworten der Frage erlaubt sind.
 
-<div style="clear:both"/>  
+<clear/>  
 ![](assets/160/HotSpot%20DE.png){ class="shadow lightbox aside-right-lg"}
 
 Im **Hotspot** -Fragetyp wurde die Positionierung der Hotspots verbessert.

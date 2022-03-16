@@ -197,7 +197,7 @@ The question type **File Upload** now supports uploading of up to 10 separate
 files. The author can specify the maximum number of uploads allowed to answer
 the question.
 
-<div style="clear:both" />
+<clear/>
 ![](assets/160/HotSpot%20EN.png){ class="shadow lightbox aside-right-lg"}
 
 In the question type **Hotspot** , the positioning of hotspots has been

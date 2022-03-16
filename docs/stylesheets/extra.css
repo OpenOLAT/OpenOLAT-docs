@@ -86,10 +86,18 @@ img.lightbox:hover {
   box-shadow: 0 0px 15px 0px #ff9100;
 }
 
+/* always use hr to clear floating images */
 hr {
   clear: both;
 }
 
+/* custom element to clear floats without writing too much stuff in the markdown file */
+clear {
+  clear: both;
+  display: block;
+}
+
+/* default size of captions are too large */
 figcaption {
   font-size: 85%;
 }

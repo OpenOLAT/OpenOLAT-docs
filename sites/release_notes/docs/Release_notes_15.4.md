@@ -1,6 +1,5 @@
 # Release notes 15.4
-
-
+![](assets/154/press-release-15.4.png)
 
 With the integration of **Microsoft Teams Online Meetings** , the range of
 virtual rooms in OpenOlat is again supplemented, this function is available in
@@ -19,43 +18,24 @@ maintain an overview. The support of **Keycloak oAuth Login** , the
 introduction of **temporary user accounts** and other numerous adjustments
 complete this release.
 
+![](assets/154/Features_Improvements_Labels_EN.png)  
+
 Overall more than 80 new features and improvements have been added to OpenOlat
 since release 15.3 and many processes have been improved. Here, you can find
 the most important new features and changes. In addition to these
 improvements, more than 120 bugs have been fixed. The complete list of changes
-for 15.3 – 15.3.9 can be found
-[here](Release_notes_15.3.md#Releasenotes15.3-Releasenotes-versions).
-
-![](assets/154/Features_Improvements_Labels_EN.png)  
-
-![](assets/154/press-release-15.4.png)Release date:
-22.01.2021
-
-Last release: 07.05.2021
-
-  * 1 Release notes 15.4 
-  * 2Microsoft Teams Online Meeting integration
-  * 3Course typification
-  * 4Exam course wizard
-  * 5Optimization for "Appointment Scheduling"
-  * 6BigBlueButton - Enhancements
-  * 7New features in the course
-  * 8Additions to the author area
-  * 9Enhancements in the user administration
-  * 10Usability
-  * 11Additional notes
-  * 12Technical details
-  * 13Release notes - versions
-
-  
-
-  
+for 15.3 – 15.3.9 can be found [here](Release_notes_15.3.md#Releasenotes15.3-Releasenotes-versions).
 
 * * *
 
-  
+:material-calendar-month-outline: **Release date: 22.01.2021 • Last release: 07.05.2021**
 
+* * *
+
+ 
 ## Microsoft Teams Online Meeting integration
+
+![](assets/154/Teams%20Kurs%20EN.png){ class="shadow lightbox aside-right-lg" }
 
 From now on, the use of Microsoft Teams Online Meetings is also available in
 OpenOlat. The integration was implemented - analogous to BigBlueButton - in
@@ -66,12 +46,11 @@ Microsoft Teams course tool in the course menu
 Microsoft Teams group tool  
 Microsoft Teams meeting tool in the course element appointment scheduling
 
-![](assets/154/Teams%20Kurs%20EN.png)
-
-Microsoft Teams is a product from Microsoft. To be able to use Microsoft Teams
-online meetings in OpenOlat, an app must be created in Azure and equipped with
-the appropriate rights. This requires at least one Microsoft license, e.g.
-"Microsoft 365 Business Standard".
+!!! info
+	Microsoft Teams is a product from Microsoft. To be able to use Microsoft Teams
+	online meetings in OpenOlat, an app must be created in Azure and equipped with
+	the appropriate rights. This requires at least one Microsoft license, e.g.
+	"Microsoft 365 Business Standard".
 
 The Microsoft Teams Online Meeting feature is optionally available in OpenOlat
 and must be enabled and configured in the administration.
@@ -114,8 +93,8 @@ Technical and didactical course types are independent of each other. Thus, a
 self-learning course can be set up both as a conventional course and as a
 learning path course.
 
-![](assets/154/Kurstypisierung%20EN.png)
 
+![](assets/154/Kurstypisierung%20EN.png){ class="shadow lightbox" }
   
 
 * * *
@@ -123,6 +102,8 @@ learning path course.
   
 
 ## Exam course wizard
+
+![](assets/154/Wizard%20Exam%20Course%20EN.png){ class="shadow lightbox aside-right-lg" }
 
 Creating a simple course with the help of a wizard has been possible in
 OpenOlat for some time. With the new exam course wizard, an exam course can
@@ -135,8 +116,6 @@ and provide a certificate. Finally, coaches and examinees can be assigned.
 If an examination period is entered, an assessment mode for this period is
 automatically configured in the created examination course.
 
-![](assets/154/Wizard%20Exam%20Course%20EN.png)
-
   
 
 * * *
@@ -144,6 +123,8 @@ automatically configured in the created examination course.
   
 
 ## Optimization for "Appointment Scheduling"
+
+![](assets/154/Anlass%20duplizieren%20EN.png){ class="shadow lightbox aside-right-lg" }
 
 In addition to extensive usability improvements, it is now possible to
 duplicate an occasion (formerly "topic") including all or selected
@@ -156,15 +137,13 @@ of enrolled participants per appointment can be hidden. In addition to
 BigBlueButton rooms, Microsoft Teams Online Meeting rooms can be activated for
 appointments analogously.
 
-![](assets/154/Anlass%20duplizieren%20EN.png)
-
 **Participant view**
 
-![](assets/154/TN-View%20EN.png)
+![](assets/154/TN-View%20EN.png){ class="shadow lightbox" }
 
 **Owner view**
 
- **![](assets/154/Betreuer-View%20EN.png)**
+ ![](assets/154/Betreuer-View%20EN.png){ class="shadow lightbox" }
 
   
 
@@ -173,6 +152,8 @@ appointments analogously.
   
 
 ## BigBlueButton - Enhancements
+
+![](assets/154/BBB%20Opt.%20EN.png){ class="shadow lightbox aside-right-lg" }
 
 To support the authors and coaches in the administration and preparation of
 the virtual classroom, the integration of BigBlueButton has been extended by
@@ -196,8 +177,6 @@ these recordings can be marked as " _Permanent_ ". When deleting the meeting
 or course, these recordings will then only be deleted on OpenOlat - not on the
 Opencast server.
 
-![](assets/154/BBB%20Opt.%20EN.png)
-
   
 
 * * *
@@ -211,12 +190,12 @@ _course tools_. Centralized access via the course menu means that the actual
 learning process (especially in the sequenced learning path) remains
 undisturbed.
 
-![](assets/154/Kurs-Tools%20EN.png)
+![](assets/154/Kurs-Tools%20EN.png){ class="shadow lightbox" }
 
 A new wizard for course member management improves the workflow to add and
 remove roles from the course.
 
-![](assets/154/Kurs%20Usermgmt%20EN.png)
+![](assets/154/Kurs%20Usermgmt%20EN.png){ class="shadow lightbox" }
 
 Variables available in e-mail forms and course mails have been harmonized
 OpenOlat-wide, the mail footer has been supplemented.
@@ -224,7 +203,7 @@ OpenOlat-wide, the mail footer has been supplemented.
 When optionally sending mail messages, _groups_ or _curricula_ can also be
 selected as _recipients_.
 
-![](assets/154/Mitteilung_Empfaenger_EN.png)
+![](assets/154/Mitteilung_Empfaenger_EN.png){ class="shadow lightbox" }
 
   
 
@@ -245,6 +224,8 @@ selected as _recipients_.
 
 ## Enhancements in the user administration
 
+![](assets/154/Kontoablauf%20EN.png){ class="shadow lightbox aside-right-lg" }
+
   * Introduction of an expiration date for temporary user accounts (see screenshot).  
 
     * Tool for creating temporary users
@@ -252,8 +233,6 @@ selected as _recipients_.
   * Login via [Keycloak](https://www.keycloak.org/) oAuth provider is supported
   * Mass search: search for multiple users by username, email or institution number possible
   * Confirmation of change of a user's e-mail address can be overridden by administrator
-
-![](assets/154/Kontoablauf%20EN.png)
 
   
 
@@ -292,9 +271,7 @@ selected as _recipients_.
 ## Technical details
 
   * Code maintenance: Upgraders for OpenOlat 10.x and 11.x removed
-
   * Support JBoss EAP 7.3
-
   * Library updates (especially Hibernate 5.4.23)
 
   

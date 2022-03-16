@@ -135,6 +135,12 @@ Aside classes behave respsonsive, meaning the images get smaller if there is not
 	Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
 
 
+!!! tip
+	Aside images use CSS float layouts. All following paragraphs stay on the left side until the image is finished. Sometimes this is not what you want, e.g. because a 
+	new chapter starts. In such a case you need to manually clear the floating before the next chapter or paragraph or even image starts. 
+	
+	We have two options for this: 1) Use a horizontal ruler with `***` or 2) use a custom markup `<clear />`
+
 
 ### Styles
 

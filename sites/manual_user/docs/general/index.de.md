@@ -1,4 +1,5 @@
 # Introduction
+![Logo: OpenOlat – infinite learning](../../../assets/OpenOlat_Logo_claim_RGB.png)
 
 ## Über dieses Handbuch
 
@@ -12,52 +13,26 @@ Falls Sie schon OLAT-Experte sind, dient Ihnen dieses Handbuch als Nachschlagewe
 
 In diesem Handbuch wird die weibliche Form der männlichen nicht beigestellt. Der Grund dafür ist allein die bessere Lesbarkeit. Wo sinnvoll, ist selbstverständlich immer auch die weibliche Form gemeint.
 
-Das Handbuch wird von der Firma frentix finanziert und gepflegt [frentix
-GmbH](https://www.frentix.com/)
-
-### © Copyright
-
-Some rights reserved! This document is copyright protected by the owners and companies listed below under the Attribution-NonCommercial-ShareAlike Creative Commons license. For more information check:
-<http://creativecommons.org/licenses/by-nc-sa/3.0/ch/>
-
-Verantwortliche Personen:
-
-| Name | Beitrag | Sponsoring durch |
-| ---- | ------------ | ----------- |
-| Sabine Hemsing | Allgemein | VCRP |
-| Mandy Menzel | Allgemein | frentix |
-| Tina Frenzel | Allgemein | frentix |
-| Sabrina Scheiwiler | Allgemein | frentix |
-| Oliver Kant | Technik | frentix |
-| Florian Gnägi | Inhalt, Migration | frentix |
-| Christian Franck | Inhalt | frentix |
-| Michael Enz | Migration | frentix |
-| Kirsten Scherer Auberson | Allgemein | frentix |
-| Sandra Arnold | Allgemein | Universität Zürich, MELS |
-| Renata Sevcikova | Allgemein | Universität Zürich, MELS |
-| Kristina Isacson | Allgemein | Universität Zürich, MELS  |
-| Joël Fisler | Spezielles | Universität Zürich, MELS |
-| Sandra Hübner | Inhalt | Hochschule Furtwangen |
-| Christian Meier | Inhalt | TU Dresden |
 
 
 ## Weitere Informationsquellen
 
-### Hilfe
+### Hilfe in OpenOlat
+
+#### Handbuch Link
 
 Rechts oben in der der Hauptmenüleiste besteht jederzeit Zugang zum OpenOlat
 Handbuch (hier befinden Sie sich aktuell) und eventuell zu weiteren
 Hilfeseiten, je nach Konfiguration durch den System Administrator.  Klicken
-Sie einfach auf das
-Fragezeichen![](../../download/thumbnails/590039/help_question-
-circle_434343_64.png).
+Sie einfach auf das Fragezeichen! :fontawesome-solid-circle-question:.
 
-Falls der Link nicht erscheint wurde er bei den Benutzerwerkzeugen in den
-persönlichen [Einstellungen ](../personal/Configuration.de.md)ausgeblendet.
+!!! info
+	Falls der Link nicht erscheint wurde er bei den Benutzerwerkzeugen in den
+	persönlichen [Einstellungen ](../personal/Configuration.de.md)ausgeblendet.
 
-### Kontextsensitive Hilfe
+#### Kontextsensitive Hilfe
 
-![](assets/Hilfe.png)
+![](assets/Hilfe.png){ height=24px }
 
 Bei Ihrer täglichen Arbeit mit OpenOlat steht Ihnen dieses OpenOlat-Handbuch
 zur Seite, sowie an wichtigen Stellen im System die  kontextsensitive Hilfe.
@@ -66,32 +41,81 @@ erklärt Ihnen die Konfigurationsmöglichkeiten für den Ort an dem Sie sich
 gerade befinden. Sie erkennen diese Hilfestellung am Fragezeichen-Icon.
 Klicken Sie darauf und das Manual öffnet sich in einem neuen Fenster.
 
+
+#### Hilfe in Formularen
+
 Des weiteren finden Sie vor allem in Formularen drei weitere Hilfestellungen,
 die Ihnen kurz und knapp benötigte oder weiterführende Informationen zu z.B.
 einzelnen Formularfeldern. Wenn Sie dieses Icon
-![](assets/hover_help.png)
+![](assets/hover_help.png){ class=size16 }
 neben einer Feldbeschriftung sehen, fahren Sie mit der Maus darüber um eine
 kurze Information zu erhalten. Hier ein Beispiel aus der Konfiguration eines
 Tests im Kurseditor:
 
-![](assets/Beispiel_Fragezeichen.jpg)
+![](assets/Beispiel_Fragezeichen.jpg){ class="shadow" width=400px }
 
-Hellgrauer Text innerhalb von Feldern gibt Hilfestellung **wie** die Felder
-ausgefüllt werden sollen,
 
-![](assets/help_gui_demo.jpg)
+#### Hellgrauer Text innerhalb von Feldern...
 
-während der hellgraue Text unterhalb von Feldern direkt benötigte
-Informationen **über** den Feldinhalt zur Verfügung stellt.
-![](assets/help_gui_demo1.png)
+![](assets/help_gui_demo.jpg){ class="shadow" width=150px }
 
-### Kursvorlagen und Demokurse
+...gibt Hilfestellung **wie** die Felder ausgefüllt werden sollen,
 
-Auf dem [Demoserver](http://learn.olat.com "Demoserver") gibt es Demokurse,
+
+#### Hellgrauer Text unterhalb von Feldern 
+
+![](assets/help_gui_demo1.png){ class="shadow" width=420px }
+
+stellt direkt benötigte Informationen **über** den Feldinhalt zur Verfügung.
+
+
+### Community, Kursvorlagen und Demokurse
+
+Auf dem [Community Server](https://community.openolat.org) sowie auf dem [Demoserver](https://learn.olat.com "Demoserver") gibt es Demokurse,
 die Sie betrachten können.
 
 ### Support
 
 Bitte wenden Sie sich an die jeweilige Supportstelle(n) Ihrer OpenOlat
 Instanz. Die Supportadresse ist normalerweise im Hilfemenü im Kopfbereich der Seite zu finden oder im Impressum im Kopfbereich oder im Fussbereich der Seite. 
+
+
+
+## Copyright
+
+Dieses Handbuch basiert auf einer adaptierten Version des "OLAT 7.1 Handbuch" und wird unter einer 
+**Creative Commons Attribution-NonCommercial-ShareAlike license** Lizenz veröffentlicht.
+
+Seit 2015 wird das Handbuch von der Firma [frentix GmbH](https://www.frentix.com/) finanziert und gepflegt, dies
+ist die Firma die auch hinter der [https://www.openolat.org](Entwicklung des Open Source LMS OpenOlat) steht.  
+
+In der langen Zeit der Entwicklung des Handbuches waren viele Personen involviert. Bitte respektieren Sie 
+das geistige Eigentum und die Lizenz, under der das Handbuch veröffentlicht wird. 
+
+!!! info ""
+	Some rights reserved! This document is copyright protected by the owners and companies listed below under the Attribution-NonCommercial-ShareAlike Creative Commons license. For more information check:
+	<http://creativecommons.org/licenses/by-nc-sa/3.0/ch/>
+
+##### Verantwortliche Personen (sortiert nach Vorname):
+
+| Name | Beitrag | Sponsoring durch |
+| ---- | ------------ | ----------- |
+| Benjamin Glock | Inhalt | frentix |
+| Christian Franck | Inhalt | frentix |
+| Christian Meier | Inhalt | TU Dresden |
+| Florian Gnägi | Inhalt, Migration | frentix |
+| Joël Fisler | Spezielles | Universität Zürich, MELS |
+| Kirsten Scherer Auberson | Inhalt | frentix |
+| Kristina Isacson | Inhalt | Universität Zürich, MELS  |
+| Lukas Witschi | Inhalt | frentix |
+| Mandy Menzel | Inhalt | frentix |
+| Michael Enz | Migration | frentix |
+| Oliver Kant | Technik | frentix |
+| Renata Sevcikova | Inhalt | Universität Zürich, MELS |
+| Rico Eberle | Inhalt | frentix |
+| Sabine Hemsing | Inhalt | VCRP |
+| Sabrina Scheiwiler | Inhalt | frentix |
+| Sandra Arnold | Inhalt | Universität Zürich, MELS |
+| Sandra Hübner | Inhalt | Hochschule Furtwangen |
+| Tina Frenzel | Inhalt | frentix |
 

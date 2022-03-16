@@ -37,7 +37,7 @@ markdown_extensions:
   - tables
   - footnotes
   - toc:
-      toc_depth: 2
+      toc_depth: 3
   - pymdownx.snippets
   - pymdownx.details
   - pymdownx.superfences

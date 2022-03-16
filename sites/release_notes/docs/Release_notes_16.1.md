@@ -220,7 +220,7 @@ HTML pages or used images can also be imported back into the new course.
   * Improved display of warnings about incomplete course elements (see screenshot)
   * Placement of actions for course elements (delete, move, duplicate) on the element itself
 
-<div style="clear:both" />
+<clear/>
 ![](assets/161/Kein%20Zugriff%20EN.png){ class="shadow lightbox aside-right-lg" }
 
 #### For participants:

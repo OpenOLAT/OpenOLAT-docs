@@ -255,7 +255,7 @@ importiert werden.
   * Verbesserte Anzeige von Warnmeldungen zu unvollständigen Kursbausteinen (s. Screenshot)
   * Platzierung der Aktionen für Kursbausteine (Löschen, Verschieben, Duplizieren) auf dem Baustein selbst
 
-<div style="clear:both;" />
+<clear/>
 ![](assets/161/Kein%20Zugriff%20DE.png){ class="shadow lightbox aside-right-lg" }
 
 #### Für Teilnehmende:
