@@ -1,4 +1,5 @@
 # Release notes 16.0
+![](assets/160/press-release-16.png)
 
 With OpenOlat 16.1 we release our next major release.
 
@@ -17,44 +18,22 @@ pictures** provide personalization and a good overview. Numerous enhancements
 for individual course elements, additions to the Learn Path course, and
 **optimized displays** complete this release.
 
+![](assets/160/Features_Improvements_Labels_EN.png)
+
 Since release 15.5, over 95 new functions and improvements have been added to
 OpenOlat. Here you can find the most important new features and changes. In
 addition, more than 105 bugs have been fixed. The complete list of changes in
 15.5 - 15.5.6 can be found
 [here](Release_notes_15.5.md#Releasenotes15.5-Releasenotes-versions).
 
-![](assets/160/Features_Improvements_Labels_EN.png)
 
-![](assets/160/press-release-16.png)
+* * *
 
-Release date: 08-27-2021
-
-Last update: 12-10-2021
-
-  * 1 Release notes 16.0 
-  * 23G Covid certificate
-  * 3Custom course layout, course element preview, and advanced metadata
-  * 4Usability for tables
-  * 5Copy Wizard for learn path courses
-  * 6QTI: End of support for QTI 1.2
-  * 7QTI / eAssessment
-  * 8Course reminders
-  * 9Videos in OpenOlat
-  * 10Other innovations regarding courses
-  * 11New in the learning path
-  * 12BigBlueButton extensions
-  * 13Additional notes
-  * 14Technical details
-  * 15Release notes - versions
-
-  
-
-  
+:material-calendar-month-outline: **Release date: 08-27-2021 • Last update: 12-10-2021**
 
 * * *
 
   
-
 ## 3G Covid certificate
 
 Proof of a [3G Covid certificate](../manual_user/personal) can be stored in the
@@ -64,7 +43,7 @@ If the presentation is a prerequisite for attending an event, users can scan
 or upload a valid COVID certificate beforehand or manually add 3G data
 details.
 
-![](assets/160/Bildschirmfoto%202021-10-01%20um%2017.01.19.png)
+![](assets/160/Bildschirmfoto%202021-10-01%20um%2017.01.19.png){ class="shadow lightbox" }
 
 No data is stored in the process, only the information is validated. The
 status of the certificate (green, yellow or red) can be called up by users in
@@ -76,14 +55,13 @@ representatives, e.g. the secretary's office.
 We will be happy to advise you on the activation and introduction of the
 module: [contact@frentix.com](mailto:contact@frentix.com)
 
-(German only)
+<iframe width="400" height="300" src="https://www.youtube.com/embed/863v3ug_QaM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-  
+(German only)
 
 * * *
 
-  
-
+ 
 ## Custom course layout, course element preview, and advanced metadata
 
 #### Custom course layout
@@ -101,9 +79,7 @@ On the course element level, the standard style defined for the course can be
 overwritten. In this way, certain course elements can be equipped with other
 images or colors, or each element can be given its own specific header layout.
 
-  
-
-![](assets/160/Kurs%20Layout%20EN.png)
+![](assets/160/Kurs%20Layout%20EN.png){ class="shadow lightbox" }
 
 #### Optimized course element preview
 
@@ -123,21 +99,16 @@ information on the **learning objectives** of the course element as well as
 same time, the display of the field contents in the course run has also been
 optimized.
 
-![](assets/160/Kurslayout%20EN.png)
-
-  
+![](assets/160/Kurslayout%20EN.png){ class="shadow lightbox" }
 
 * * *
 
-  
-
+ 
 ## Usability for tables
 
 In Release 16.0, we have once again dedicated ourselves to the tables in
 OpenOlat and, in addition to minor visual adjustments, we primarily made the
-filter and search function more compact.
-
-  
+filter and search function more compact.  
 
 #### Tabs, filter menu and search
 
@@ -149,6 +120,8 @@ according to different criteria, individually or in combination.
  **Individual filters** can be saved for later use.
 
 A full text search is available across the whole table.
+
+![](assets/160/Tabellenfilter%20EN.png){ class="shadow lightbox" }
 
 #### Bulk actions
 
@@ -165,16 +138,13 @@ columns in the table are now always displayed, even when scrolling
 horizontally. This way, both functions are always available.
 
 For visual support, selected columns are highlighted with color.
-
-![](assets/160/Tabellenfilter%20EN.png)
-
-  
-
+ 
 * * *
 
-  
-
+ 
 ## Copy Wizard for learn path courses
+
+![](assets/160/CCW%20EN.png){ class="shadow lightbox aside-right-lg" }
 
 When copying courses, the requirements as to what exactly should and should
 not be copied are often very different. Once, for example, groups, folder
@@ -193,41 +163,31 @@ The Copy Wizard also allows you to **move existing dates** , such as course
 execution period, survey release date, or assignment submission deadlines, to
 specifically match these dates to a new course execution.
 
-![](assets/160/CCW%20EN.png)
-
-  
-
 * * *
 
-  
-
+ 
 ## QTI: End of support for QTI 1.2
 
-  
-
-Note
-
-  
-
-**The support for QTI 1.2 ends with release 16.0!**
-
-The conversion of QTI 1.2 questions, tests and questionnaires is only possible
-via export to older release versions.
-
- **Before updating** , please check if there is still QTI 1.2 content on your
-OpenOlat system that you would like to continue using and convert it to QTI
-2.1. The conversion of QTI 1.2 questionnaires to new questionnaires / forms is
-not supported, they have to be rebuilt.
+ 
+!!! warning "The support for QTI 1.2 ends with release 16.0!"
+	
+	The conversion of QTI 1.2 questions, tests and questionnaires is only possible
+	via export to older release versions.
+	
+	 **Before updating** , please check if there is still QTI 1.2 content on your
+	OpenOlat system that you would like to continue using and convert it to QTI
+	2.1. The conversion of QTI 1.2 questionnaires to new questionnaires / forms is
+	not supported, they have to be rebuilt.
 
   
-
 * * *
 
-  
-
+ 
 ## QTI / eAssessment
 
 #### Additions to question types
+
+![](assets/160/File%20UPload%20EN.png){ class="shadow lightbox aside-right-lg"}
 
  **Essay**  questions have been equipped with an option to prevent copying and
 pasting text from external sources (office documents, web pages, chat
@@ -237,14 +197,13 @@ The question type **File Upload** now supports uploading of up to 10 separate
 files. The author can specify the maximum number of uploads allowed to answer
 the question.
 
-![](assets/160/File%20UPload%20EN.png)
+<div style="clear:both" />
+![](assets/160/HotSpot%20EN.png){ class="shadow lightbox aside-right-lg"}
 
 In the question type **Hotspot** , the positioning of hotspots has been
 improved. Elements can now be copied and aligned horizontally or vertically
 via button. This makes creating identical shapes and visually appealing
 positioning quick and easy.
-
-![](assets/160/HotSpot%20EN.png)
 
 #### Optimization of the displayed information about the test period
 
@@ -253,22 +212,14 @@ gather all necessary information about the test period and the current test
 time as quickly as possible and at one glance. The display of time information
 has been extensively optimized in Release 16.0.
 
-**Display before test
-start**![](assets/160/Testzeit%20Vor%20Start%20EN.png)
+![](assets/160/Testzeit%20Vor%20Start%20EN.png){ class="shadow lightbox" title="Display before test start" }
 
- **Displays during test execution**
-
- **![](assets/160/Testrun%20Zeiten%20DE.png)**
-
-  
+![](assets/160/Testrun%20Zeiten%20DE.png){ class="shadow lightbox" title="Displays during test execution" }
 
 * * *
-
   
 
 ## Course reminders
-
-  
 
 #### Reminders at the course element
 
@@ -286,7 +237,7 @@ respective course element type are available for selection.
 At the top course node all reminders are listed that are not bound to a
 specific course element. A log of already sent reminders is also available.
 
-![](assets/160/Reminder%20am%20KBS%20EN.png)
+![](assets/160/Reminder%20am%20KBS%20EN.png){ class="shadow lightbox" }
 
 #### Additional recipients
 
@@ -301,15 +252,15 @@ administration).
 The rule "Passed" has been extended to cover the state Not yet assessed in
 addition to Passed / Not passed.
 
-![](assets/160/Reminder%20Zusatzmail%20EN.png)
+![](assets/160/Reminder%20Zusatzmail%20EN.png){ class="shadow lightbox" }
 
-  
-
+ 
 * * *
 
-  
-
+ 
 ## Videos in OpenOlat
+
+![](assets/160/Video_Vorspulen_EN.png){ class="shadow lightbox aside-right-lg"}
 
 #### Prevent fast-forwarding in videos
 
@@ -329,9 +280,8 @@ first time, a continuation dialog appears.
 Sometimes the display of the video title is not desired or not useful,
 therefore this can be activated or deactivated using a new option.
 
-  
 
-![](assets/160/Video_Vorspulen_EN.png)
+![](assets/160/Video%20erledigt%20EN.png){ class="shadow lightbox aside-right-lg"}
 
 #### Learning path: Watch video to the end
 
@@ -341,10 +291,6 @@ a video now makes it possible to use this progress as a **completion
 criteria** in the learning path. The criterion "video watched to the end
 (95%)" has therefore been added for video modules.
 
-  
-
-![](assets/160/Video%20erledigt%20EN.png)
-
 #### Download video
 
 A download button for locally stored video files has been added to the "Video"
@@ -352,46 +298,42 @@ learning resource. If multiple transcodes are available, they are displayed in
 a drop-down menu including the master file.
 
   
-
 * * *
 
-  
-
+ 
 ## Other innovations regarding courses
 
+![](assets/160/GTA%20Konfig%20EN.png){ class="shadow lightbox aside-right-lg"}
+
   * **Participant folder** : Show defined "time window for submission" of documents as information for participants
-  *  **Task module** : configuration for administration of tasks and sample solutions by coaches placed centrally (screenshot)
-  *  **Group task** : File upload for group or individual assessment documents added
-  *  **Individual page** : improved readability of "Edit page" function
+  * **Task module** : configuration for administration of tasks and sample solutions by coaches placed centrally (screenshot)
+  * **Group task** : File upload for group or individual assessment documents added
+  * **Individual page** : improved readability of "Edit page" function
   * Separate course folder for coaches (no access for participant)
   * Removed "Groups" tab in assessment tool in favor of new table filters
   * Selection of multiple files for final deletion in course folder added
   * Addition of didactic course types, visual identification in the course overview and on the course info page.
 
-![](assets/160/GTA%20Konfig%20EN.png)
-
-  
-
+ 
 * * *
 
   
-
 ## New in the learning path
+
+![](assets/160/Mail%20Erledigt%20EN.png){ class="shadow lightboxt aside-right-lg"}
 
   * Completion criteria "E-mail sent" for course element "E-mail" (screenshot)
   * Course element-specific default values for completion criteria
   * Additional course navigation below the content
   * Manual assessment: Automatic status change "Correction" if participant access granted
 
-![](assets/160/Mail%20Erledigt%20EN.png)
-
-  
-
+ 
 * * *
 
-  
-
+ 
 ## BigBlueButton extensions
+
+![](assets/160/OO%20Authentifizerung%20DE.png){ class="shadow lightbox aside-right-lg"}
 
 An existing meeting can be used as a **configuration template** for another
 one by copying it. The "Create Meeting" dialog will open and already contains
@@ -407,15 +349,13 @@ guest.
 In the list of recordings, the type "Download" is supported and indicated
 accordingly with its own icon.
 
-![](assets/160/OO%20Authentifizerung%20DE.png)
-
-  
-
+ 
 * * *
 
-  
-
+ 
 ## Additional notes
+
+![](assets/160/Kalender%20bunt%20EN.png){ class="shadow lightbox aside-right-lg"}
 
   * Calendar:
     * Individual color customization of calendar entries (screenshot)
@@ -426,14 +366,10 @@ accordingly with its own icon.
   * Enhanced display of radio button as "card" for additional details, e.g. description and images
   * Send mail copy to user life-cycle mails to configurable mail address
 
-![](assets/160/Kalender%20bunt%20EN.png)
-
-  
-
+ 
 * * *
 
-  
-
+ 
 ## Technical details
 
   * LDAP: Support for fields containing multiple values
@@ -441,8 +377,7 @@ accordingly with its own icon.
   * "Forgot password" link to external page for Tocco login provider
   * Unsupported Transcodings removed from Administration
 
-  
-
+ 
 * * *
 
   

@@ -184,6 +184,8 @@ manual process** is recommended.
 
 ## Import of course elements from other courses
 
+![](assets/161/KBS%20Import%20EN.png){ class="shadow lightbox aside-right-lg" }
+
 If individual course contents and structures from existing courses are to be
 used again in other courses, this can now be solved using the import function
 of course elements in the course editor.
@@ -203,8 +205,6 @@ In the last step, files from the original course that exist in the storage
 folder, for example, are also displayed for selection. In this way, existing
 HTML pages or used images can also be imported back into the new course.
 
-![](assets/161/KBS%20Import%20EN.png){ class="shadow lightbox" }
-
   
 
 * * *
@@ -213,20 +213,21 @@ HTML pages or used images can also be imported back into the new course.
 
 ## Further improvements around courses
 
+![](assets/161/Warnings%20Kurseditor%20EN2.png){ class="shadow lightbox aside-right-lg" }
+
 #### For authors:
 
   * Improved display of warnings about incomplete course elements (see screenshot)
   * Placement of actions for course elements (delete, move, duplicate) on the element itself
 
-![](assets/161/Warnings%20Kurseditor%20EN2.png){ class="shadow lightbox" }
+<div style="clear:both" />
+![](assets/161/Kein%20Zugriff%20EN.png){ class="shadow lightbox aside-right-lg" }
 
 #### For participants:
 
   * Improved display of course information (such as title, implementation period, implementation location) in the course overview (My Courses)
   * Improved display of information on the course info page
   * Improved messages in the course, why certain course elements are not (yet) accessible (see screenshot on the right)
-
-![](assets/161/Kein%20Zugriff%20EN.png){ class="shadow lightbox" }
 
   
 
@@ -235,6 +236,8 @@ HTML pages or used images can also be imported back into the new course.
   
 
 ## Additional notes
+
+![](assets/161/Externe%20Zertifikate%20EN.png){ class="shadow lightbox aside-right-lg" }
 
 #### Import of externally created certificates
 
@@ -245,8 +248,6 @@ Uploading external certificates can now be enabled for users in the personal
 addition, this feature is also available for user administrators, line
 managers of the same organization, or responsible users connected via a user-
 to-user relationship, and can be configured separately for each.
-
-![](assets/161/Externe%20Zertifikate%20EN.png){ class="shadow lightbox" }
 
 #### Coaching Tool:  Open reviews and reviews to be released
 

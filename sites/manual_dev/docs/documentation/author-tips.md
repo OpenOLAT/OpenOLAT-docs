@@ -108,6 +108,33 @@ There are some predefined image sizes that can be applied by assigning CSS class
 | `thumbnail-lg` | shrink to fit 300x200px | ![thumbnail-lg](assets/example-screenshot.png){ class=thumbnail-lg } |
 | `thumbnail-xl` | shrink to fit 400x300px | ![thumbnail-xl](assets/example-screenshot.png){ class=thumbnail-xl } |
 
+### Aside images
+
+Sometimes it is handy to have all images in the same width displayed at the right side. For this purpose we have the aside classes. 
+
+Aside classes behave respsonsive, meaning the images get smaller if there is not enough space on the screen
+
+!!! info
+	Note that aside images must be placed **before** the content. 
+
+
+| CSS class | Description | Example |
+| --------- | ----------- | ------- |
+| `aside-right-sm` | shrink to fit 150px width | ![thumbnail-sm](assets/example-screenshot.png){ class=aside-right-sm } |
+| `aside-right` | shrink to fit 250px width | ![thumbnail](assets/example-screenshot.png){ class=aside-right } |
+| `aside-right-lg` | shrink to fit 300px width | ![thumbnail-lg](assets/example-screenshot.png){ class=aside-right-lg } |
+| `aside-right-xl` | shrink to fit 400px width | ![thumbnail-xl](assets/example-screenshot.png){ class=aside-right-xl } |
+
+
+=== "Markup"
+		![](assets/smile.jpg){ class=aside-right }
+		Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+=== "Output"	
+	![](assets/smile.jpg){ class=aside-right }
+	Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+
 
 ### Styles
 

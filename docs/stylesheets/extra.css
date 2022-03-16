@@ -5,6 +5,7 @@ img {
   /* image border styles */
   /* image sizes */
   /* thumbnail styles */
+  /* aside styles */
   /* lighbox style and marker class */
 }
 img.shadow {
@@ -49,9 +50,48 @@ img.thumbnail-xl {
   max-width: 400px;
   max-height: 300px;
 }
+img.aside-right-sm, img.aside-right, img.aside-right-lg, img.aside-right-xl {
+  float: right;
+  margin: 0 0 1.5em 1.5em;
+}
+img.aside-right-sm {
+  max-width: 150px;
+}
+img.aside-right {
+  max-width: 250px;
+}
+img.aside-right-lg {
+  max-width: 300px;
+}
+img.aside-right-xl {
+  max-width: 400px;
+}
+@media (max-width: 800px) {
+  img.aside-right-lg, img.aside-right-xl {
+    max-width: 300px;
+  }
+}
+@media (max-width: 600px) {
+  img.aside-right-lg, img.aside-right-xl {
+    max-width: 250px;
+  }
+}
+@media (max-width: 500px) {
+  img.aside-right, img.aside-right-lg, img.aside-right-xl {
+    max-width: 150px;
+  }
+}
 img.lightbox:hover {
   cursor: pointer;
   box-shadow: 0 0px 15px 0px #ff9100;
+}
+
+hr {
+  clear: both;
+}
+
+figcaption {
+  font-size: 85%;
 }
 
 @media print {

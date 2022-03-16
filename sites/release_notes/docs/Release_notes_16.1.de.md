@@ -155,6 +155,8 @@ teilweise **automatischem und manuellem** Prozess ist empfehlenswert.
 
 ## Test-Export Wizard: Handschriftliche Prüfung mit Deckblatt generieren
 
+![](assets/161/Test-Export%20DE.png){ class="shadow lightbox aside-right-lg" }
+
 Tests in OpenOlat können als Word-Dokument (mit und Lösungen) exportiert
 werden. Diese Möglichkeit ist vor allem für Ablagezwecke nützlich, für Paper-
 Pencil-Tests ist es eher nicht geeignet.
@@ -176,8 +178,6 @@ Verschiedene Optionen erlauben eine Anpassung an das Prüfungssetting:
   * Erstellung eines **Deckblattes** mit konfigurierbaren Attributen wie beispielsweise Platzhalter für Name der Prüflinge, Datum oder Anzeige von Prüfungsdauer
   *  **Zusatzseite** mit weiteren Informationen zur Prüfung, z.B. für Instruktionen
 
-![](assets/161/Test-Export%20DE.png){ class="shadow lightbox" }
-
   
 
 * * *
@@ -186,18 +186,20 @@ Verschiedene Optionen erlauben eine Anpassung an das Prüfungssetting:
 
 ## Weitere Features im Bereich eAssessment, Tests und Bewertung
 
+![](assets/161/QTI%20Tests%20DE.png){ class="shadow lightbox aside-right-lg" }
+
 #### Lernressource "Test"
 
   * Umbenennung Test-Lernressourcen zur besseren Unterscheidung des Formats beim Filtern (s. Screenshot)
   * Erweiterung Importvorlage für Fragetyp "Numerische Eingabe"
   * Aktion für Word-Export von Tests aus Testeditor ins Administrationsmenü verschoben
 
-![](assets/161/QTI%20Tests%20DE.png){ class="shadow lightbox" }
-
 #### Testdurchführung
 
   * Verbesserte Positionierung der Titel- und Punkte-Anzeige bei Testdurchführung
 
+
+![](assets/161/Freigabe%20DE.png){ class="shadow lightbox aside-right-lg" } 
 
 #### Bewertung
 
@@ -208,14 +210,14 @@ Verschiedene Optionen erlauben eine Anpassung an das Prüfungssetting:
      * Besitzer kann "Bestanden / Nicht bestanden" überschreiben
   * Überarbeitung der Freigabe-Optionen (ehemals "Sichtbarkeit setzen") für Bewertungen (s. Screenshot)
 
-![](assets/161/Freigabe%20DE.png){ class="shadow lightbox" } 
-
 ![](assets/161/Betreuer%20darf%20DE.png){ class="shadow lightbox" }
 
   
 * * *
 
 ## Import von Kursbausteinen aus anderen Kursen
+
+![](assets/161/KBS%20Import%20DE.png){ class="shadow lightbox aside-right-lg" }
 
 Sollen einzelne Kursinhalte und -strukturen aus bestehenden Kursen erneut in
 anderen Kursen verwendet werden, ist dies nun über die **Importfunktion** von
@@ -238,8 +240,6 @@ Beispiel im Ablageordner vorliegen, zur Auswahl angezeigt. So können auch
 vorhandene HTML-Seiten oder verwendete Bilder wieder in den neuen Kurs
 importiert werden.
 
-![](assets/161/KBS%20Import%20DE.png){ class="shadow lightbox" }
-
   
 
 * * *
@@ -248,12 +248,15 @@ importiert werden.
 
 ## Weitere Verbesserungen rund um Kurse
 
+![](assets/161/Warnings%20Kurseditor%20DE2.png){ class="shadow lightbox aside-right-lg" }
+
 #### Für Autoren:
 
   * Verbesserte Anzeige von Warnmeldungen zu unvollständigen Kursbausteinen (s. Screenshot)
   * Platzierung der Aktionen für Kursbausteine (Löschen, Verschieben, Duplizieren) auf dem Baustein selbst
 
-![](assets/161/Warnings%20Kurseditor%20DE2.png){ class="shadow lightbox" }
+<div style="clear:both;" />
+![](assets/161/Kein%20Zugriff%20DE.png){ class="shadow lightbox aside-right-lg" }
 
 #### Für Teilnehmende:
 
@@ -262,12 +265,12 @@ importiert werden.
   * Verbesserte Meldungen im Kurs, warum bestimmte Kursbausteine (noch) nicht zugänglich sind (s. Screenshot rechts)
 
 
-![](assets/161/Kein%20Zugriff%20DE.png){ class="shadow lightbox" }
-
 
 * * *
 
 ## Weiteres, kurz notiert
+
+![](assets/161/Externe%20Zertifikate%20DE.png){ class="shadow lightbox aside-right-lg" }
 
 #### Import von extern erstellten Zertifikaten
 
@@ -279,8 +282,6 @@ persönlichen Bereich "Leistungsnachweise" freigeschaltet werden
 auch für Benutzerverwalter, Linienvorgesetzte derselben Organisation oder für
 verantwortliche Personen, die über eine Benutzer-zu-Benutzer-Beziehungen
 verbunden sind, verfügbar und kann jeweils separat konfiguriert werden.
-
-![](assets/161/Externe%20Zertifikate%20DE.png){ class="shadow lightbox" }
 
 #### Coaching Tool:  Offene und freizugebende Bewertungen
 
