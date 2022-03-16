@@ -35,7 +35,6 @@ button "Copy page" in the title bar.
 
 ## Import content
 
-
 This feature enables you to upload files such as pictures, videos, HTML pages,
 and PDFs to the editor before integrating those new pages into the structure
 already existing. If you need to insert several files at once you have to zip
@@ -71,14 +70,12 @@ cancel your modification. Use the enter key to activate it.
 
 ## Edit page content
 
-
 Select the page you want to edit. Its content will be shown in an editor to be
 able to make any necessary modifications. Formatting is also possible by means
 of buttons. Just click "Save" at the bottom of your editor to apply changes.
 We recommend to cache longer texts.
 
 ## Preview
-
 
 The button "Preview" in the title bar enables you to check up on your learning
 module anytime.

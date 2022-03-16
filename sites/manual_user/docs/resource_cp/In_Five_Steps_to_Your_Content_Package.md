@@ -6,7 +6,7 @@ embedding it in your course and activating it for your participants.
 ## Step 1: Start course editor and insert CP course element  
 
  1. Search for your course in "Authoring", section "My entries," and open it.
-![open-course](assets/opencourse.gif)  
+![open-course](assets/opencourse.gif){ class="shadow" }
  2. Click on "Course editor" in the drop-down menu "Administration" in the toolbar.  
  3. Select position at which your CP course element should be inserted by clicking on it.  
  4. Select "CP learning content" in the pop-up "Insert course elements" in the toolbar.  
@@ -15,7 +15,7 @@ embedding it in your course and activating it for your participants.
 ## Step 2: Creating CP learning content  
 
  1. Click on "Select, create or import CP learning content" in the tab "Learning content."
-![choose-content-package](assets/choosecp.gif)
+![choose-content-package](assets/choosecp.gif){ class="shadow" }
  2. Click on "Create."  
  3. Indicate the title of your CP and click on "Create".  
   
@@ -24,14 +24,19 @@ learning content") and one page ("New page").
 
 ## Step 3: Edit CP  
 
- 1. Click on "Edit."        
-![edit-content-package](assets/editcp.gif)
+ 1. Click on "Edit."
+    
+    ![edit-content-package](assets/editcp.gif){ class="shadow" }
 
  2. **Edit title**: Click on icon "Edit page properties" and insert a new one.
- ![edit-page-properties](assets/cp_edit_page_properties.png)
+
+    ![edit-page-properties](assets/cp_edit_page_properties.png){ class="shadow" }
+
  3. Edit content: Edit page in the provided field and format before saving it.
  4. **Insert new page**: Click on icon "Add page." Your new page will be inserted underneath the highlighted element.
- ![content-package-add-page](assets/cp_add_page.png)
+
+    ![content-package-add-page](assets/cp_add_page.png){ class="shadow" }
+
  5. **Copy page**: Click on icon "Copy page." Your copied page will be inserted underneath the highlighted element.
  6. **Import page**: Click on "Import page." Then click on "Select file" before
 selecting a HTML page. Click on "Import." You can import several HTML pages at once by zipping them before uploading the
@@ -49,8 +54,10 @@ Now you can insert more pages following the same pattern. More information on th
 ## Step 5: Publish and activate your course  
 
 1. Select "Publish" in the toolbar on top.
-![Publish-cp](assets/publishcp.gif)
-![publish-cp-second-step](assets/CP_EN.png)
+
+    ![Publish-cp](assets/publishcp.gif){ class="shadow" }
+
+    ![publish-cp-second-step](assets/CP_EN.png){ class="shadow" }
 
 2. Check course element and then go "Next."  
 3. Select "All registered OpenOlat users" from the pull-down menu in
@@ -65,7 +72,7 @@ Under " Display" you can determine whether the CP's own component menu
 should be integrate into course navigation.
 
 In the tab "Layout" you define the settings for the display of the CP.
-The setting options are identical to those of a [single page](Course_Element_Single_Page.md).
+The setting options are identical to those of a [single page](Course_Element_Single_Page.md)
 
 !!! tip "Alternative Way"
     A Content Package can be created just like any other learning resource in the author area and then integrated into the desired course. This procedure is recommended to understand that learning resources are cross-course tools and that integration into the selected course is only one possibility. The same CP can be integrated and used in several OLAT courses.
