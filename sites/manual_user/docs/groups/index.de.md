@@ -1,11 +1,12 @@
-# Gruppen
+# :fontawesome-solid-user-group: Gruppen
 
-![](assets/group.png)
+!!! note "Quick Links"
 
-  * [Gruppen erstellen](Create_Groups.de.md)
-  * [Gruppenadministration](Group_Administration.de.md)
-  * [Gruppenwerkzeuge nutzen](Using_Group_Tools.de.md)
-  * [Gruppenverwaltung](Group_Management.de.md)
+    * [Gruppen erstellen](Create_Groups.de.md)
+    * [Gruppenadministration](Group_Administration.de.md)
+    * [Gruppenwerkzeuge nutzen](Using_Group_Tools.de.md)
+    * [LTI Freigabe konfigurieren](LTI_Share_groups.de.md)
+    * [Gruppenverwaltung](Group_Management.de.md)
 
 OpenOlat arbeitet mit einem übergreifenden Gruppensystem das es gestattet,
 Gruppen nach Wunsch zu konfigurieren und dem Verwendungszweck anzupassen.
@@ -26,7 +27,7 @@ Die Gruppen können gefiltert dargestellt werden, was besonders bei vielen
 Gruppen hilfreich ist. Um die Filtermöglichkeiten zu sehen müssen diese mit
 Hilfe des kleinen Pfeils aufgeklappt werden.
 
-![](assets/Gruppe.png)
+![Gruppen](assets/Gruppe.png){ class="shadow lightbox" }
 
 Weitere Infos zu den Aktionsmöglichkeiten im Menü "Gruppen" finden Sie im
 Kapitel [Gruppenverwaltung](Group_Management.de.md).
@@ -37,6 +38,3 @@ Auf Wunsch können Gruppen zu OpenOlat-Kurse hinzugefügt werden. Auf diese
 Weise können Gruppen für die Gruppenarbeit in Kursen und auch für das
 Rechtemanagement verwendet werden. Wird eine Gruppe gelöscht die mit einem
 Kurs verbunden ist, wird lediglich die Gruppe gelöscht, nicht aber der Kurs.
-
-  
-

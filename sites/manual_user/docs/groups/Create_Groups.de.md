@@ -24,10 +24,12 @@ Gruppennamen hinzu.
 Optional können Sie der Gruppe eine nähere Beschreibung geben. Sie erscheint
 in der Übersichtsseite, wenn Sie die Gruppe gestartet haben.
 
-Da die Beschreibung auch in der Übersicht der Gruppen als Spalte angezeigt
-werden kann empfiehlt es sich nur kurze Beschreibungen zu verwenden. Längere
-Texte sollten lieber über das [Gruppen-Werkzeug](Using_Group_Tools.de.md)
-"Information an Mitglieder" bereitgestellt werden.
+!!! check
+
+    Da die Beschreibung auch in der Übersicht der Gruppen als Spalte angezeigt
+    werden kann empfiehlt es sich nur kurze Beschreibungen zu verwenden. Längere
+    Texte sollten lieber über das [Gruppen-Werkzeug](Using_Group_Tools.de.md)
+    "Information an Mitglieder" bereitgestellt werden.
 
 ###  Vorgesehene Anzahl Teilnehmer
 
@@ -68,4 +70,3 @@ jeweiligen Kontext erstellt werden. Hierzu zählen der
 Gruppenaufgabe. Darüber hinaus können in herkömmlichen Kursen im [Tab
 Sichtbarkeit oder Zugang](../course_create/General_Configuration_of_Course_Elements.de.md)
 ebenfalls Gruppen erstellt werden.
-

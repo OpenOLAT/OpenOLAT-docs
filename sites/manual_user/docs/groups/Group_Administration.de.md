@@ -7,7 +7,7 @@ Gruppe. Betreuer der Gruppe erhalten den Link "Administration" im Menu.
 Generell können Sie die Gruppe administrieren, die Gruppe [löschen
 ](Group_Management.de.md)und diverse weitere Einstellungen vornehmen.
 
-![](assets/Gruppe_Administration.png)
+![Gruppe administrieren](assets/Gruppe_Administration.png){ class="shadow lightbox"}
 
 Über die Menüs im Bereich Administration können Sie:
 
@@ -16,15 +16,6 @@ Generell können Sie die Gruppe administrieren, die Gruppe [löschen
   * die Gruppe Kursen zuordnen,
   * den Zugang konfigurieren und
   * die Gruppe inaktiv setzen.
-
-  * 1 Gruppenadministration 
-    * 1.1Gruppenbetreuer
-      * 1.1.1Beschreibung
-      * 1.1.2Werkzeuge
-      * 1.1.3Mitglieder ...
-      * 1.1.4 Veröffentlichung und Buchungskonfiguration
-      * 1.1.5 Kurse
-      * 1.1.6Gruppen-Lebenszyklus
 
 ### Beschreibung
 
@@ -39,110 +30,37 @@ Im Tab Werkzeuge können Sie die Gruppe mit kollaborativen Werkzeugen
 ausstatten. Wurde ein Werkzeug aktiviert, erscheint der entsprechende Eintrag
 inkl. Icon im Menü links.
 
-Damit die Werkzeuge in Gruppen zur Verfügung stehen, müssen Sie vom OpenOlat
-Administrator aktiviert werden. Das gilt insbesondere für BigBlueButton,
-OpenMeetings, Wiki, Kalender. Stehen Ihnen bestimmte Werkzeuge als
-Gruppenbesitzer nicht zur Verfügung, wurden diese vom OpenOlat Administrator
-deaktiviert.
+!!! Info
 
-![](assets/information.png)
+    Damit die Werkzeuge in Gruppen zur Verfügung stehen, müssen Sie vom OpenOlat
+    Administrator aktiviert werden. Das gilt insbesondere für BigBlueButton,
+    OpenMeetings, Wiki, Kalender. Stehen Ihnen bestimmte Werkzeuge als
+    Gruppenbesitzer nicht zur Verfügung, wurden diese vom OpenOlat Administrator
+    deaktiviert.
 
-| Information an Mitglieder| Ist das Werkzeug „Information“ aktiviert, kann
-definiert werden, ob nur Gruppenbetreuer oder auch Gruppenmitglieder
-Mitteilungen erstellen können. Eigene Mitteilungen können immer editiert
-werden. Als Gruppenbetreuer können alle Mitteilungen editiert und gelöscht
-werden.  
----|---|---  
-  
-![](assets/contact.png)
 
-| E-Mail| Ist das Werkzeug „E-Mail“ aktiviert, können auch nicht-Mitglieder
-auf die E-Mail-Funktionalität zugreifen und so an Gruppenmitglieder (Betreuer,
-Teilnehmer oder alle Mitglieder) Nachrichten schicken.  
-  
-  
-![](assets/calendar.png)
 
-| Kalender| Sie können der Gruppe einen Kalender zur Verfügung stellen, in den
-Sie gemeinsame Termine eintragen können. Wenn der Kalender aktiviert ist und
-gespeichert wurde, können Sie die Schreibberechtigungen dafür konfigurieren,
-d.h. festlegen wer Termine erfassen darf. Weitere generelle Informationen zu
-Kalenderfunktionen finden Sie im Kapitel [Kalender](../personal/Calendar.de.md).  
-  
-![](assets/folder.png)
-
-| Ordner| Mit einem Ordner ermöglichen Sie den Austausch von Dateien zwischen
-den Mitgliedern Ihrer Gruppe. Auch eine gemeinsame Bearbeitung von Office
-Dokumenten ist je nach Konfiguration durch den OpenOlat Administrator möglich.
-Der verfügbare Speicherplatz beträgt 10 MB. Wenn der Ordner aktiviert ist und
-gespeichert wurde, können Sie die Schreibberechtigungen dafür konfigurieren,
-d.h. festlegen wer Dateien hochladen und erstellen darf. Weitere Informationen
-zum Ordner finden Sie
-[hier](../personal/Personal_folders.de.md).  
-  
-![](assets/forum.png)
-
-| Forum| Hier stellen Sie Ihrer Gruppe ein Forum für Diskussionen zur
-Verfügung. Als Betreuer der Gruppe haben Sie das Recht, Beiträge zu editieren
-und zu löschen sowie neue Beiträge zu verfassen. Weitere Infos zur Arbeit mit
-Foren finden Sie [hier](../learning_activities/Working_with_Tasks_and_Group_Tasks.de.md).  
-  
-![](assets/chat_icon.png)
-
-| Chat| Sie können der Gruppe einen Chatraum zur Verfügung stellen. Sie sehen,
-welche anderen Mitglieder sich im Gruppenchat befinden.  
-  
-![](assets/wiki.png)
-
-| Wiki| Sie können der Gruppe ein Wiki zur Verfügung stellen, um gemeinsam
-Inhalte zu erstellen. Weitere Infos zur Arbeit mit Wikis finden Sie
-[hier](../learning_activities/Working_with_Wiki.de.md).  
-  
-![](assets/portfolio_434343_64.png)
-
-| Portfolio| Sie können der Gruppe ein [Portfolio
-](Portfolio+erstellen.html)2.0 zur Verfügung stellen.  
-  
-![](assets/openmeetings.png)
-
-| OpenMeetings|
-
-Wenn OpenMeetings aktiviert und gespeichert wurde, steht der Gruppe ein
-virtueller Meetingraum bzw. ein virtuelles Klassenzimmer zur Verfügung.  
-  
-![](assets/openmeetings.png)
-
-| BigBlueButton|
-
-Mit der Wahl von BigBlueButton können einer Gruppe mehrere BigBlueButton Räume
-zur Verfügung gestellt werden. Die Funktionalität ist ähnlich wie beim
-entsprechenden [Kursbaustein BigBlueButton](../course_elements/Course_element_BigBlueButton.de.md).
-
-In der Gruppe stehen nur die für Gruppen generell aktivierten BigBlueButton
-Vorlagen zur Verfügung. Diese können von den Raum-Vorlagen in Kursen
-abweichen.  
-Ist ein Gruppenmitglied im OpenOlat System Betreuer, Kursbesitzer, Autor oder
-Administrator, stehen ihm gegebenenfalls noch weitere BigBlueButton Raum-
-Templates zur Verfügung.  
-  
-  
-| Microsoft Teams|
-
-Mit der Wahl von Microsoft Teams können einer Gruppe mehrere BigBlueButton
-Räume zur Verfügung gestellt werden. Weitere Informationen zu MS Teams finden
-Sie [hier](../course_elements/Course_element_Microsoft_Teams.de.md).  
+Werkzeug | | Beschreibung
+---|---|---
+:fontawesome-solid-circle-info: | Information an Mitglieder| Ist das Werkzeug „Information“ aktiviert, kan definiert werden, ob nur Gruppenbetreuer oder auch Gruppenmitglieder Mitteilungen erstellen können. Eigene Mitteilungen können immer editiert werden. Als Gruppenbetreuer können alle Mitteilungen editiert und gelöscht werden.  
+:fontawesome-regular-envelope:| E-Mail| Ist das Werkzeug „E-Mail“ aktiviert, können auch nicht-Mitglieder auf die E-Mail-Funktionalität zugreifen und so an Gruppenmitglieder (Betreuer, Teilnehmer oder alle Mitglieder) Nachrichten schicken.  
+:fontawesome-solid-calendar-days: | Kalender| Sie können der Gruppe einen Kalender zur Verfügung stellen, in den Sie gemeinsame Termine eintragen können. Wenn der Kalender aktiviert ist und gespeichert wurde, können Sie die Schreibberechtigungen dafür konfigurieren, d.h. festlegen wer Termine erfassen darf. Weitere generelle Informationen zu Kalenderfunktionen finden Sie im Kapitel [Kalender](../personal/Calendar.de.md).  
+:fontawesome-regular-folder: | Ordner| Mit einem Ordner ermöglichen Sie den Austausch von Dateien zwischen den Mitgliedern Ihrer Gruppe. Auch eine gemeinsame Bearbeitung von Office Dokumenten ist je nach Konfiguration durch den OpenOlat Administrator möglich. Der verfügbare Speicherplatz beträgt 10 MB. Wenn der Ordner aktiviert ist und gespeichert wurde, können Sie die Schreibberechtigungen dafür konfigurieren, d.h. festlegen wer Dateien hochladen und erstellen darf. Weitere Informationen zum Ordner finden Sie [hier](../personal/Personal_folders.de.md).  
+:fontawesome-brands-rocketchat:| Forum| Hier stellen Sie Ihrer Gruppe ein Forum für Diskussionen zur Verfügung. Als Betreuer der Gruppe haben Sie das Recht, Beiträge zu editieren und zu löschen sowie neue Beiträge zu verfassen. Weitere Infos zur Arbeit mit Foren finden Sie [hier](../learning_activities/Working_with_Tasks_and_Group_Tasks.de.md).  
+:fontawesome-solid-comment-sms: | Chat| Sie können der Gruppe einen Chatraum zur Verfügung stellen. Sie sehen, welche anderen Mitglieder sich im Gruppenchat befinden.  
+:fontawesome-solid-globe: | Wiki| Sie können der Gruppe ein Wiki zur Verfügung stellen, um gemeinsam Inhalte zu erstellen. Weitere Infos zur Arbeit mit Wikis finden Sie [hier](../learning_activities/Working_with_Wiki.de.md).  
+:octicons-briefcase-24: | Portfolio| Sie können der Gruppe ein [Portfolio](Portfolio+erstellen.html)2.0 zur Verfügung stellen.  
+:material-monitor: | OpenMeetings| Wenn OpenMeetings aktiviert und gespeichert wurde, steht der Gruppe ein virtueller Meetingraum bzw. ein virtuelles Klassenzimmer zur Verfügung.  
+:material-monitor: | BigBlueButton| Mit der Wahl von BigBlueButton können einer Gruppe mehrere BigBlueButton Räume zur Verfügung gestellt werden. Die Funktionalität ist ähnlich wie beim entsprechenden [Kursbaustein BigBlueButton](../course_elements/Course_element_BigBlueButton.de.md). In der Gruppe stehen nur die für Gruppen generell aktivierten BigBlueButton Vorlagen zur Verfügung. Diese können von den Raum-Vorlagen in Kursen abweichen. Ist ein Gruppenmitglied im OpenOlat System Betreuer, Kursbesitzer, Autor oder Administrator, stehen ihm gegebenenfalls noch weitere BigBlueButton Raum- Templates zur Verfügung.  
+:material-monitor: | Microsoft Teams| Mit der Wahl von Microsoft Teams können einer Gruppe mehrere BigBlueButton Räume zur Verfügung gestellt werden. Weitere Informationen zu MS Teams finden Sie [hier](../course_elements/Course_element_Microsoft_Teams.de.md).  
   
 Jedes Werkzeug kann nur einmal in eine Gruppe eingebunden werden. Es ist also
 nicht möglich, einer Gruppe mehrere Ordner, Wiki oder Foren Bausteine zur
 Verfügung zu stellen. Wenn Sie mit mehreren Werkzeugen eines Typs benötigen
 sollten Sie statt einer Gruppe einen Kurs verwenden.
 
-  
-
 Infos zur Nutzung der Werkzeuge durch die Gruppen-Teilnehmer finden Sie
 [hier](Using_Group_Tools.de.md).
-
-  
 
 ### Mitglieder ... {: #members}
 

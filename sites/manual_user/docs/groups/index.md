@@ -1,11 +1,12 @@
-# Groups
+# :fontawesome-solid-user-group: Groups
 
-![](assets/group.png)
+!!! note "Quick Links"
 
-  * [Create Groups](Create_Groups.md)
-  * [Group Administration](Group_Administration.md)
-  * [Using Group Tools](Using_Group_Tools.md)
-  * [Group Management](Group_Management.md)
+    * [Create Groups](Create_Groups.md)
+    * [Group Administration](Group_Administration.md)
+    * [Using Group Tools](Using_Group_Tools.md)
+    * [LTI Sharing](LTI_Share_groups.md)
+    * [Group Management](Group_Management.md)
 
 OpenOlat works with a comprehensive group system which allows to configure
 groups as desired in order to meet different requirements. OpenOlat users can
@@ -15,7 +16,7 @@ corresponding menus. Further filtering by favorites or by role is also
 possible. For further configuration, simply expand the filter area using the
 small arrow.
 
-![](assets/groups16.jpg)
+![Groups](assets/groups16.jpg)
 
 All groups you are a member of are always accessible under "Groups" in the "My
 Groups" tab.
@@ -28,4 +29,3 @@ also for rights management.
 
 This chapter further explains the different configuration settings and
 illustrates how to configure groups for various purposes.
-
