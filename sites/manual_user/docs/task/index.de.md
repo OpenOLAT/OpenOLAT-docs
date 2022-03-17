@@ -4,8 +4,6 @@
   * [Aufgabe - Weitere Konfigurationen](Task_-_Further_Configurations.de.md)
   * [Aufgaben bewerten](Assess_tasks.de.md)
 
-  
-
 Dieses Kapitel erklärt Kursautoren in einer Schritt-für-Schritt-Anleitung, wie
 die Kursbausteine "Aufgabe" und "Gruppenaufgabe" in einem OpenOlat Kurs
 erstellt und konfiguriert werden können. Mit Hilfe dieser beiden Kursbausteine
