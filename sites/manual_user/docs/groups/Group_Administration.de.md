@@ -49,7 +49,7 @@ Werkzeug | | Beschreibung
 :fontawesome-brands-rocketchat:| Forum| Hier stellen Sie Ihrer Gruppe ein Forum für Diskussionen zur Verfügung. Als Betreuer der Gruppe haben Sie das Recht, Beiträge zu editieren und zu löschen sowie neue Beiträge zu verfassen. Weitere Infos zur Arbeit mit Foren finden Sie [hier](../learning_activities/Working_with_Tasks_and_Group_Tasks.de.md).  
 :fontawesome-solid-comment-sms: | Chat| Sie können der Gruppe einen Chatraum zur Verfügung stellen. Sie sehen, welche anderen Mitglieder sich im Gruppenchat befinden.  
 :fontawesome-solid-globe: | Wiki| Sie können der Gruppe ein Wiki zur Verfügung stellen, um gemeinsam Inhalte zu erstellen. Weitere Infos zur Arbeit mit Wikis finden Sie [hier](../learning_activities/Working_with_Wiki.de.md).  
-:octicons-briefcase-24: | Portfolio| Sie können der Gruppe ein [Portfolio](Portfolio+erstellen.html)2.0 zur Verfügung stellen.  
+:octicons-briefcase-24: | Portfolio| Sie können der Gruppe ein [Portfolio](../portfolio/Creating_Portfolio_Tasks.de.md)2.0 zur Verfügung stellen.  
 :material-monitor: | OpenMeetings| Wenn OpenMeetings aktiviert und gespeichert wurde, steht der Gruppe ein virtueller Meetingraum bzw. ein virtuelles Klassenzimmer zur Verfügung.  
 :material-monitor: | BigBlueButton| Mit der Wahl von BigBlueButton können einer Gruppe mehrere BigBlueButton Räume zur Verfügung gestellt werden. Die Funktionalität ist ähnlich wie beim entsprechenden [Kursbaustein BigBlueButton](../course_elements/Course_element_BigBlueButton.de.md). In der Gruppe stehen nur die für Gruppen generell aktivierten BigBlueButton Vorlagen zur Verfügung. Diese können von den Raum-Vorlagen in Kursen abweichen. Ist ein Gruppenmitglied im OpenOlat System Betreuer, Kursbesitzer, Autor oder Administrator, stehen ihm gegebenenfalls noch weitere BigBlueButton Raum- Templates zur Verfügung.  
 :material-monitor: | Microsoft Teams| Mit der Wahl von Microsoft Teams können einer Gruppe mehrere BigBlueButton Räume zur Verfügung gestellt werden. Weitere Informationen zu MS Teams finden Sie [hier](../course_elements/Course_element_Microsoft_Teams.de.md).  
@@ -123,9 +123,9 @@ dieser Tab nicht extra eingerichtet werden.
 
 Folgende Optionen stehen unter "Buchungsmethode hinzufügen" zur Auswahl:
 
-  *  **![](assets/key.png)Zugangscode** : Wählen Sie die Buchungsmethode "Zugangscode" um die Buchung auf diejenigen zu begrenzen, die über das hinterlegte Passwort verfügen. Hierfür wird manuell ein Zugangscode festgelegt, der vom Gruppenbesitzer weitergegeben wird. Nur Personen die über diesen Zugangscode verfügen können die Gruppe buchen. Vor dem ersten Öffnen der Gruppe muss dieser Code vom Benutzer eingegeben werden.
-  *  **![](assets/gift.png)Frei verfügbar** : Wählen Sie die freie Buchungsmethode, wenn keine weiteren Einschränkungen gelten. Alle Systembenutzer können die Ressource buchen. Ein Benutzer wird dadurch als Teilnehmer der Gruppe angelegt.
-  *  **![](assets/cc-paypal.png)PayPal und Kreditkarte**  (nur verfügbar, wenn vom Administrator freigeschaltet): Wählen Sie die PayPal/Kreditkarten Buchungsmethode um eine Buchung gegen eine finanzielle Vergütung zu ermöglichen. Bei dieser Buchungsmethode können Sie einen Betrag definieren, der mit einem PayPal Konto oder mit einer Kreditkarte (Visa/Mastercard) bezahlt werden muss. Die Warteliste kann mit dieser Buchungsmethode nicht verwendet werden. Die Optionen „Warteliste“ respektive „PayPal und Kreditkarte“ werden nicht mehr in der Gruppenadministration angezeigt sobald die jeweils andere gewählt wurde.
+* :material-key-variant: **Zugangscode** : Wählen Sie die Buchungsmethode "Zugangscode" um die Buchung auf diejenigen zu begrenzen, die über das hinterlegte Passwort verfügen. Hierfür wird manuell ein Zugangscode festgelegt, der vom Gruppenbesitzer weitergegeben wird. Nur Personen die über diesen Zugangscode verfügen können die Gruppe buchen. Vor dem ersten Öffnen der Gruppe muss dieser Code vom Benutzer eingegeben werden.
+* :material-gift: **Frei verfügbar** : Wählen Sie die freie Buchungsmethode, wenn keine weiteren Einschränkungen gelten. Alle Systembenutzer können die Ressource buchen. Ein Benutzer wird dadurch als Teilnehmer der Gruppe angelegt.
+* :fontawesome-brands-cc-paypal: **PayPal und Kreditkarte**  (nur verfügbar, wenn vom Administrator freigeschaltet): Wählen Sie die PayPal/Kreditkarten Buchungsmethode um eine Buchung gegen eine finanzielle Vergütung zu ermöglichen. Bei dieser Buchungsmethode können Sie einen Betrag definieren, der mit einem PayPal Konto oder mit einer Kreditkarte (Visa/Mastercard) bezahlt werden muss. Die Warteliste kann mit dieser Buchungsmethode nicht verwendet werden. Die Optionen „Warteliste“ respektive „PayPal und Kreditkarte“ werden nicht mehr in der Gruppenadministration angezeigt sobald die jeweils andere gewählt wurde.
 
 Sobald eine Buchungsmethode konfiguriert wurde, wird die Gruppe in die Liste
 der **"Veröffentlichten Gruppen** " eingetragen und kann somit gesucht und
@@ -188,8 +188,7 @@ Sie als Besitzer eingetragen sind. Klicken Sie dafür entweder auf den
 Kursnamen oder auf den Haken unter " _Auswählen_ " rechts vom Kursnamen.
 Weiterführende Informationen zum Kurs, wie z.B. Autor, Sprache oder
 Beschreibung, erhalten Sie mit einem Klick auf das
-![](assets/fa-info-circle_64_1_48779d_none.png)
-Icon. Über die Schaltfläche " **Kurs einbinden** " am Ende der Tabelle können
+:octicons-info-16: Icon. Über die Schaltfläche " **Kurs einbinden** " am Ende der Tabelle können
 schnell beliebig viele Kurse mit einem Klick eingebunden werden. Ferner können
 an dieser Stelle auch Kurse erstellt oder importiert werden.
 
@@ -201,7 +200,7 @@ Hier werden der Status der Gruppe sowie weitere Informationen angezeit. Ferner
 kann der Status geändert werden, z.B. eine aktive Gruppe inaktiv gesetzt oder
 eine inaktive Gruppe gelöscht oder reaktiviert werden.
 
-![](assets/Gruppe_status.png)
+![Tab Gruppen-Lebenszyklus](assets/Gruppe_status.png){ class="shadow lightbox" }
 
 Weitere Informationen finden Sie im separaten Kapitel "[Automatischer Gruppen-
 Lebenszyklus".](../../manual_admin/administration/Automatic_Group_Lifecycle.de.md)

@@ -39,5 +39,5 @@ Please refer to the section "Manage Groups" for more information". In
 addition, a group manager can find and manage so-called "Orphans", groups
 without members and linked resources.
 
-![](assets/group_management.png)
+![Group management](assets/group_management.png){ class="shadow lightbox" }
 
