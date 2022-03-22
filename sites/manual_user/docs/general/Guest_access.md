@@ -1,6 +1,6 @@
 # Guest access
 
-![](assets/DE_gastlogin.png) { align=right }
+![](assets/DE_gastlogin.png){ class="shadow lightbox aside-right-lg" }
 
 Beside system users a guest access can be enabled. Guests are anonymous, not
 registered users, which cannot be managed in the user management.

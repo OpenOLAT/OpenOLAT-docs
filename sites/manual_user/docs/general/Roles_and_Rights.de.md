@@ -1,18 +1,9 @@
 # Rollen und Rechte
-
-  * 1 Rollen und Rechte 
-  * 2 Systemweite Rollen und Rechte
-    * 2.1 Benutzertypen
-    * 2.2 Rollen
-  * 3 Kursbezogene Rollen und Rechte
-    * 3.1 Kursrollen
-    * 3.2 Gruppenrollen
-
   
 
-# Systemweite Rollen und Rechte
+## Systemweite Rollen und Rechte
 
-## Benutzertypen
+### Benutzertypen
 
 OpenOlat arbeitet mit einem Rollen und Rechte Management. Zuerst wird zwischen 2 grundsätzlichen Benutzertypen unterschieden. Dies sind:
 
@@ -23,7 +14,7 @@ OpenOlat arbeitet mit einem Rollen und Rechte Management. Zuerst wird zwischen 2
 
     Bei registrierten Benutzern ohne weitere Rollen und Rechte handelt es sich in der Regel um die Lernenden.
 
-## Rollen
+### Rollen
 
 Registrierte Benutzer können zusätzlich eine oder mehrere Rollen erhalten.
 
@@ -53,7 +44,7 @@ Hier ein Überblick über alle OpenOlat Rollen.
 
   
 
-!!! info inline end
+!!! info inline
 
     Die bis OpenOlat 12.5 verwendete Rolle "Administrator" wird ab dem Release 13 in "Administrator" und "Systemadministrator" geteilt.
 
@@ -64,9 +55,9 @@ Hier ein Überblick über alle OpenOlat Rollen.
     
     Wenden Sie sich bei Rückfragen bezüglich der Rollenvergabe an den jeweiligen Support Ihrer OpenOlat Instanz.
 
-# Kursbezogene Rollen und Rechte
+## Kursbezogene Rollen und Rechte
 
-## Kursrollen
+### Kursrollen
 
 Wenn ein Benutzer einem Kurs hinzugefügt wird, kann definiert werden, welche
 Mitgliederrechte der Benutzer in diesem einen Kurs erhalten soll. Zur Auswahl stehen:
@@ -88,7 +79,7 @@ Neben den kursbezogenen Rollen können, je nach Konfiguration, auch [Gäste](Gue
     ![](assets/Ansicht_Rollenwahl.png) 
 
 
-## Gruppenrollen
+### Gruppenrollen
 
 Werden in Kursen Gruppen verwendet, können die Mitglieder entweder als Teilnehmer oder Gruppenbetreuer eingetragen werden. Auch können beim Rechtemanagement weitergehende Rechtepakete entweder an Gruppen Teilnehmende oder Gruppen Betreuer vergeben werden.
 

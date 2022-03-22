@@ -1,16 +1,8 @@
 # Roles and Rights
 
-  * 1 Roles and Rights 
-  * 2 OpenOlat system wide roles and rights
-    * 2.1 User type
-    * 2.2 Roles
-  * 3 Course rights and roles
-    * 3.1 Course roles
-    * 3.2 Group roles
+## OpenOlat system wide roles and rights
 
-# OpenOlat system wide roles and rights
-
-## User type
+### User type
 
 OpenOlat works with a roles and rights management. First two user types are
 differentiated. These are:
@@ -18,11 +10,11 @@ differentiated. These are:
   *  **Anonymous guest:**  Guests have - without registration - limited access to OpenOlat. They can only have a look at learning content enabled for guests, but cannot take part in learning activities. The link to the guest access can be found on the login page. Further information about guest can be found [here](Guest_access.md). 
   *  **System user:**  Every user has a distinct user name, which cannot be changed after the registration anymore. Users can use enabled learning content and can take part in learning activities. Additionally every users has an individual configurable landing page and storage available. Further more he can create groups. 
 
-!!! info inline end
+!!! info inline
 
     Normally registered users without any further roles or rights are learners.
 
-## Roles
+### Roles
 
 System users can get one ore more roles additionally.
 
@@ -83,9 +75,9 @@ instance.
 If you have any questions regarding the role management please contact the
 support of your own OpenOlat instance.
 
-# Course rights and roles  
+## Course rights and roles  
 
-## Course roles
+### Course roles
 
 If a user is added to a course it can be defined which member rights the user
 should get in this course.  
@@ -108,7 +100,7 @@ to a course.
     
     ![](assets/user_role.png)
 
-## Group roles
+### Group roles
 
 If groups are used in courses, the members can be registered either as
 participants or as group coaches. In the user management of a course and then
