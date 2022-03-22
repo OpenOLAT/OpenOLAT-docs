@@ -46,7 +46,7 @@ Autorenbereich erstellen.
 
   
 
-###  Importieren
+###  Importieren {: #import}
 
 Ausserhalb von OpenOlat erstellte oder aus einem OpenOlat System exportierte
 Lernressourcen können in OpenOlat importiert werden, wenn Sie in einem für

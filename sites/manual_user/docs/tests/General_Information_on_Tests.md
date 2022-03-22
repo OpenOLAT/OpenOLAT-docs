@@ -31,4 +31,4 @@ The questions imported in tests from the question pool cannot be edited in the e
 
 If a question is to be edited, a copy of the question can be created and edited via "Create and edit copy". The question then gets a new ID of its own. However, you can still access the original imported question in the question pool via the master ID.
 
-You may already have exported a test file in IMS-QTI format from another LMS and want to import it into OpenOlat. In the chapter "Actions in the Author's Area" you will find information on how to proceed under "[Import](../authoring/Actions_in_the_'Authoring'_section.md)".
+You may already have exported a test file in IMS-QTI format from another LMS and want to import it into OpenOlat. In the chapter "Actions in the Author's Area" you will find information on how to proceed under "[Import](../authoring/Actions_in_the_Authoring_section.md)".

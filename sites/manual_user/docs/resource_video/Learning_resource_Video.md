@@ -5,7 +5,7 @@
 ![](assets/video_64_0_434343_none.png)
 
 A video learning resource is created in authoring with the feature
-"[Import](../authoring/Actions_in_the_'Authoring'_section.md)" or "Import URL".
+"[Import](../authoring/Actions_in_the_Authoring_section.md)" or "Import URL".
 
 Therefore you select the desired video-file in the upload window and click on
 "Import". In the following step the form opens on info page.
@@ -188,8 +188,7 @@ video or not.
 
 ## Embed videos in courses {: #video_courseelement}
 
-The course element "[Video](Knowledge+Transfer.html#KnowledgeTransfer-
-_video_kursbausteinVideoCourseElement:Video)" allows the author to embed
+The [course element "Video"](Course_Element_Video.md) allows the author to embed
 videos directly into a course. The video is either chosen out of the list of
 available videos in the authoring, or directly imported. Compared to videos
 embedded as a course element "Single page" - videos embedded like this allow:

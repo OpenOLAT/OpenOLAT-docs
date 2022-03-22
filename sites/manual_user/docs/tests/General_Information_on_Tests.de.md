@@ -30,4 +30,4 @@ Die in Tests importierten Fragen aus dem Fragenpool können im Editor nicht bear
 
 Soll eine Frage bearbeitet werden, kann über "Kopie erstellen und bearbeiten" eine Kopie der Frage erstellt und die Bearbeitung ermöglicht werden. Die Frage bekommt dann eine neue eigene ID. Über die Master-ID kann jedoch weiterhin auf die ursprünglich importierte Original-Frage im Fragenpool zugegriffen werden.
 
-Möglicherweise haben Sie bereits eine Testdatei im IMS-QTI-Format aus einem anderen LMS exportiert und möchten diese in OpenOlat importieren. Im Kapitel „Aktionen im Autorenbereich“ steht unter dem Punkt [Importieren](../authoring/Actions_in_the_'Authoring'_section.de.md), wie Sie vorgehen müssen.
+Möglicherweise haben Sie bereits eine Testdatei im IMS-QTI-Format aus einem anderen LMS exportiert und möchten diese in OpenOlat importieren. Im Kapitel „Aktionen im Autorenbereich“ steht unter dem Punkt [Importieren](../authoring/Actions_in_the_Authoring_section.de.md), wie Sie vorgehen müssen.
