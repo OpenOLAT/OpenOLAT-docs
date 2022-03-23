@@ -22,7 +22,7 @@ Mit dem Kursbaustein „Wiki“ binden Sie das Wiki in Ihren Kurs ein. Klicken S
 im Tab „ **Wiki-Lerninhalt** “ auf „Wiki wählen, erstellen oder importieren“,
 ordnen ein bereits erstelltes Wiki zu oder erstellen ein neues. Eine Schritt-
 für-Schritt-Anleitung zu Ihrem Wiki finden Sie im Kapitel [„Wiki
-erstellen"](Wiki+erstellen.html). Wenn Sie noch kein Wiki ausgewählt haben,
+erstellen"](../resource_wiki/index.de.md). Wenn Sie noch kein Wiki ausgewählt haben,
 erscheint beim Titel **Gewähltes Wiki** die Meldung _Kein Wiki ausgewählt_.
 
 Wenn Sie schon ein Wiki hinzugefügt haben, erscheint dessen Name im Feld sowie
@@ -38,8 +38,7 @@ Benutzer, der die Seite erstellt hat oder OpenOlat-Benutzer, welche beim Wiki
 als Besitzer eingetragen sind, dürfen Wiki-Seiten löschen.
 
 Im Kapitel „Lernaktivitäten im Kurs“ finden Sie unter dem Punkt
-[„Wiki"](Arbeiten+mit+Kursbausteinen.html#ArbeitenmitKursbausteinen-
-_wiki_lerner) Informationen dazu, wie die Wiki-Navigation angepasst werden
+[„Wiki"](../learning_activities/Working_with_Wiki.de.md) Informationen dazu, wie die Wiki-Navigation angepasst werden
 kann, wie Sie neue Seiten erstellen und wie Sie die verschiedenen Versionen
 einer Seite betrachten können.
 
@@ -56,8 +55,7 @@ Beispielsweise könnten Kursteilnehmende Beiträge mit Fragen zum Inhalt des
 Kurses verfassen und gegenseitig beantworten oder Sie initiieren eine
 Fachdiskussion oder setzen spezifische Foren basierte Online-Methoden um. Im
 Kapitel „Lernaktivitäten im Kurs“ finden Sie unter dem Punkt
-[„Forum"](Arbeiten+mit+Kursbausteinen.html#ArbeitenmitKursbausteinen-
-_forum_lerner) Informationen dazu, wie Forumsbeiträge erstellt und beantwortet
+[„Forum"](../learning_activities/Working_with_Forums.de.md) Informationen dazu, wie Forumsbeiträge erstellt und beantwortet
 werden. Standardmässig haben alle Kursteilnehmer Lese- und Schreibrechte in
 einem Forum.
 
@@ -148,12 +146,6 @@ Diskussionsforum wird automatisch erstellt und kann mit Klick auf "Anzeigen"
 aufgerufen werden. Durch die Auswahl der entsprechenden Spalten ist erkennbar
 wer wann welche Datei hochgeladen hat und wie der Diskussionsstand ist.
 
-Im Kapitel „Lernaktivitäten im Kurs“ → "Arbeiten mit Kursbausteinen" finden
-Sie unter dem Punkt
-[„Dateidiskussion"](Arbeiten+mit+Kursbausteinen.html#ArbeitenmitKursbausteinen-
-_filedis_lerner) Informationen dazu, wie Benutzer den Baustein verwenden
-können.
-
 Wer neben dem Kursbesitzer noch welche Aktionen vornehmen kann, wird im
 Kurseditor in den Benutzerberechtigungen des Tabs "Konfiguration" definiert.
 
@@ -205,7 +197,7 @@ Upload der Datei und die Begrenzung des gesamten Ordners wird angezeigt, wenn
 man versucht eine Datei hochzuladen.
 
 Eine ähnliche Konfiguration der Abgabe von Dateien + Dateirückgabe durch
-Betreuer kann auch mit dem [Kursbaustein "Aufgabe"](Aufgabe+erstellen.html)
+Betreuer kann auch mit dem [Kursbaustein "Aufgabe"](../task/index.de.md)
 umgesetzt werden, nur dass die Möglichkeiten des Aufgabenbausteins deutlich
 umfassender und komplexer sind und hier auch eine Bewertung bzw. Punktevergabe
 vorgenommen werden kann.
@@ -216,8 +208,7 @@ vorgenommen werden kann.
 
 In der Teilnehmerliste können die Mitglieder des Kurses für alle sichtbar
 gemacht werden. Im Gegensatz zum Kurswerkzeug
-[Mitgliederverwaltung](Einsatz+der+Kurswerkzeuge.html#EinsatzderKurswerkzeuge-
-_mitgliederverwaltung), das nur für Besitzer sichtbar ist, werden mit dem
+[Mitgliederverwaltung](../course_operation/Members_management.de.md), das nur für Besitzer sichtbar ist, werden mit dem
 Kursbaustein "Teilnehmerliste" alle Teilnehmer des Kurses, für jene OpenOlat-
 Benutzer die den Kurs öffnen können, sichtbar. Die Mitglieder werden sortiert
 nach ihrer Kursrolle nach "Kursadministratoren", "Betreuer" und "Teilnehmer"

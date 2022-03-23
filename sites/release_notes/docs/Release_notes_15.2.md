@@ -1,10 +1,5 @@
 # Release notes 15.2
 
-**Keywords:**  BigBlueButton recordings: publication -- Opencast recording
-handler -- Opencast course element
-
-  
-
 With OpenOlat 15.2 we release our next major release. It includes extensions
 in the BigBlueButton module, for example, recordings can be released for
 specific user groups. For the processing of the BBB-recordings an additional
@@ -14,6 +9,8 @@ separate Opencast course module. Besides minor adjustments the multi-window
 mode was further improved and if necessary the user name can be changed in
 OpenOlat.
 
+![](assets/152/Features_Improvements_Labels_EN.png)
+
 Overall more than 30 new features and improvements have been added to OpenOlat
 since release 15.1 and many processes have been improved. Here, you can find
 the most important new features and changes. In addition to these
@@ -22,15 +19,11 @@ for 15.1 – 15.1.4 can be found
 [here](https://confluence.openolat.org/display/OO151EN/Release+notes+15.1#Releasenotes15.1-Releasenotes-
 versions).
 
-![](assets/152/Features_Improvements_Labels_EN.png)
-
-  
-
 * * *
 
-  
-
 ## BigBlueButton - Extensions
+
+![](assets/152/Screenshot%202020-08-26%20at%2016.19.07.png){ class="shadow lightbox aside-right-lg" }
 
 If BigBlueButton meetings are recorded, the publication of the recordings can
 now be controlled specifically. For this purpose, a list of participants is
@@ -42,36 +35,26 @@ different groups of participants:
   * All participants of the meeting (except guests)
   * Guests
 
-  
-
 In addition, an infrastructure was created that allows BBB recordings to be
 stored on an Opencast server. A re-integration of these recordings at other
 OpenOlat locations is possible via the Opencast module.
 
-![](assets/152/Screenshot%202020-08-26%20at%2016.19.07.png)
-
-  
-
 * * *
 
-  
-
 ## Course element Opencast
+
+![](assets/152/Screenshot%202020-08-28%20at%2009.35.51.png){ class="shadow lightbox aside-right-lg" }
 
 With the course element Opencast, recordings of meetings and courses stored on
 an Opencast server can be integrated into OpenOlat courses. The configuration
 and connection of the Opencast server is done in the administration. In the
 course element either single videos or whole series can be integrated.
 
-![](assets/152/Screenshot%202020-08-28%20at%2009.35.51.png)
-
-  
-
 * * *
 
-  
-
 ## Additional notes
+
+![](assets/152/Screenshot%202020-08-28%20at%2010.44.53.png){ class="shadow lightbox aside-right-lg" }
 
   * Change of username is possible, frentix customers please contact the frentix support
   * Course tools can be integrated into Single pages and opened directly via link (see screenshot)
@@ -79,38 +62,7 @@ course element either single videos or whole series can be integrated.
   * Users can be added to courses, groups, etc. using first and last names
   * Course tool "Calendar" can also be opened in a new window
 
-![](assets/152/Screenshot%202020-08-28%20at%2010.44.53.png)
-
-  
-
 * * *
-
-  
-
-## Important note for administrators
-
-The JDBC driver for MySQL has been updated. Please check if the timezone is
-set in the database, because the driver does not accept undefined timezones.
-
-Example:
-
-    
-    
-    SET GLOBAL Time_Zone = 'Europe/Zurich';
-
-The following parameter should be checked in the olat.local.properties:  
- _db.url.options.mysql=?characterEncoding=UTF-8
-&connectionCollation=utf8_unicode_ci_
-
-The connection collation attribute is mandatory for a few queries in OpenOlat.
-Please set this attribute with the same collation that is used in the
-database.
-
-  
-
-* * *
-
-  
 
 ## Technical details
 
@@ -119,7 +71,21 @@ database.
   * Library Updates
   * Updating third-party libraries
 
-  
+!!! attention "Important note for administrators"
+	The JDBC driver for MySQL has been updated. Please check if the timezone is
+	set in the database, because the driver does not accept undefined timezones.
+	
+	Example:
+	
+		SET GLOBAL Time_Zone = 'Europe/Zurich';
+	
+	The following parameter should be checked in the olat.local.properties:  
+	
+		_db.url.options.mysql=?characterEncoding=UTF-8&connectionCollation=utf8_unicode_ci_
+	
+	The connection collation attribute is mandatory for a few queries in OpenOlat.
+	Please set this attribute with the same collation that is used in the
+	database.
 
 * * *
 

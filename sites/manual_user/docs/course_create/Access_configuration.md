@@ -1,4 +1,4 @@
-# Access configuration
+# Access configuration {: #access-configuration}
 
 In order for a course to be visible to learners, it must first be published.
 If the course is released for all users, the access can additionally be

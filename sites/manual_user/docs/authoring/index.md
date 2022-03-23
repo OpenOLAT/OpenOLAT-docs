@@ -12,7 +12,7 @@ Further filtering of the display is also possible. So also completely new
 filter queries, which are frequently needed, can be generated and saved.
 
   * [Various Types of Learning Resources](Various_Types_of_Learning_Resources.md)
-  * [Actions in the 'Authoring' section](Actions_in_the_'Authoring'_section.md)
+  * [Actions in the 'Authoring' section](Actions_in_the_Authoring_section.md)
   * [Detailed View of Learning Resources](Detailed_View_of_Learning_Resources.md)
 
 In the " **Favorites** " filter tab, you will find all learning resources that

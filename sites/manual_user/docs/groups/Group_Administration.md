@@ -5,7 +5,7 @@ of a group get the link "Administration" in the menu in the group. You can
 manage the group, but also announce users to coaches, delete groups and
 configure some more settings.
 
-![](assets/group_description.png)
+![Group administration](assets/group_description.png){ class="shadow lightbox" }
 
 ## Description
 
@@ -18,101 +18,36 @@ activate a waiting list, if required.
 In the tab Tools the group can be provided by collaborative tools. At a later
 point the tools can be edited or removed here.
 
-  
+!!! Info  
 
-In order for the tools to be available in groups, they must be activated by
-the OpenOlat administrator. This is especially true for BigBlueButton,
-OpenMeetings, Wiki, Calendar. If certain tools are not available to you as a
-group owner, they have been deactivated by the OpenOlat administrator.
+    In order for the tools to be available in groups, they must be activated by
+    the OpenOlat administrator. This is especially true for BigBlueButton,
+    OpenMeetings, Wiki, Calendar. If certain tools are not available to you as a
+    group owner, they have been deactivated by the OpenOlat administrator.
 
 The following tools are available for group use. Once a tool is activated, its
 corresponding icon will be visible in the group menu on the left.
 
-![](assets/information.png)
-
-| Information| If the tool "Information" is activated it can be defined, if
-only group coaches also group participants can create messages. The own
-created messages can be edited always. As group coach all messages can be
-edited and deleted.  
----|---|---  
-  
-![](assets/contact.png)
-
-| E-Mail| If the tool "E-mail" is activated, non-members of a group are able
-to use the mail function and contact group coaches and/or participants. E-Mail
-can thus also be sent out of the members list.  
-  
-![](assets/calendar.png)
-
-| Calendar| You can put a calendar at the disposal of your group to record
-joint events. Furthermore you can determine the calendar's write access, that
-is, who will have the right to record data. Further information on calendar
-functions can be found in the [calendar](../personal/Calendar.md) chapter.  
-  
-![](assets/folder.png)
-
-| Folder| You enable members of your group to exchange files by using a
-folder. The available storage capacity is 10 MB. Furthermore you can determine
-the folder's write access, that is, who will have the right to record files.
-Further information to the folder can be found [here](../personal/Personal_folders.md).  
-  
-![](assets/forum.png)
-
-| Forum| You provide your group with a forum for discussions. As coach of a
-group you have the right to edit and delete contributions as well as to write
-new ones. Participants of a group can write contributions, however, they are
-not allowed to neither edit nor delete contributions of others. For more info
-on working with forums, click [here](../learning_activities/Working_with_Forums.md).  
-  
-![](assets/chat_icon.png)
-
-| Chat| You can provide this group with a private chat room. You will see who
-else is present in the group chat. Enter the chat room to communicate with
-others in real time.  
-  
-![](assets/wiki.png)
-
-| Wiki| You can put a Wiki at the disposal of your group to jointly create
-learning content. You can find more info on working with wikis
-[here](https://confluence.openolat.org/display/OO151EN/Working+with+Wiki).  
-  
-![](assets/portfolio_434343_64.png)
-
-| ePortfolio| You can provide this group with a Portfolio 2.0. Use a portfolio
-to jointly create a binder or add entries.  
-  
-![](assets/openmeetings.png)
-
-| OpenMeetings| If you activated and saved OpenMeetings, a virtual classroom
-is at the group's disposal.  
-  
-![](assets/openmeetings.png)
-
-| BigBlueButton|
-
-Once BigBlueButton has been activated and saved, the group has access to a
-virtual meeting room or virtual classroom. The group administrator can
-configure whether only the group administrators or all members can create and
-manage appointments.
-
-In the group, only the BigBlueButton templates generally activated for groups
-are available. These may differ from the room templates in courses.
-
-If a group member is a coach, course owner, author or administrator in the
-OpenOlat system, other BigBlueButton room templates may be available to
-him/her.
-
-The functionality of BigBlueButton is described in the [course element
-BigBlueButton](../course_elements/Course_element_BigBlueButton.md).  
+Tool | | Description
+---|---|---
+:fontawesome-solid-circle-info: | Information to members| If the tool "Information" is activated, you can define if only group maintainers or also group members can create messages. Own messages can always be edited. As a group owner, all messages can be edited and deleted.  
+:fontawesome-regular-envelope:| E-Mail| If the "E-Mail" tool is enabled, non-members can access the e-mail functionality and send messages to group members (maintainers, participants or all members).  
+:fontawesome-solid-calendar-days: | Calendar| You can provide the group with a calendar where you can enter common dates. Once the calendar is activated and saved, you can configure the write permissions for it, i.e. specify who can enter appointments. For more general information about calendar functions, see [Calendar](../personal/Calendar.md).  
+:fontawesome-regular-folder: | Folder| With a folder you enable the exchange of files between the members of your group. Joint editing of office documents is also possible, depending on the configuration by the OpenOlat administrator. The available storage space is 10 MB. Once the folder is activated and saved, you can configure the write permissions for it, i.e. define who can upload and create files. More information about the folder can be found [here](../personal/Personal_folders.md).  
+:fontawesome-brands-rocketchat:| Forum| Here you provide your group with a forum for discussions. As the group's administrator, you have the right to edit and delete posts as well as create new ones. More information about working with forums can be found [here](../learning_activities/Working_with_Tasks_and_Group_Tasks.md).  
+:fontawesome-solid-comment-sms: | Chat| You can provide a chat room for the group. You can see which other members are in the group chat.  
+:fontawesome-solid-globe: | Wiki| You can provide a wiki for the group to create content together. More info on working with wikis can be found [here](../learning_activities/Working_with_Wiki.md).  
+:octicons-briefcase-24: | Portfolio| You can provide a [portfolio](../portfolio/Creating_Portfolio_Tasks.md)2.0 to the group.  
+:material-monitor: | OpenMeetings| When OpenMeetings is enabled and saved, a virtual meeting room or classroom is available to the group.  
+:material-monitor: | BigBlueButton| By selecting BigBlueButton, multiple BigBlueButton rooms can be made available to a group. The functionality is similar to the corresponding [course element BigBlueButton](../course_elements/Course_element_BigBlueButton.md). In the group, only the BigBlueButton templates generally activated for groups are available. These may differ from the room templates in courses. If a group member is a supervisor, course owner, author or administrator in the OpenOlat system, additional BigBlueButton room templates may be available to him.  
+:material-monitor: | Microsoft Teams| By choosing Microsoft Teams, multiple BigBlueButton rooms can be made available to a group. More information about MS Teams can be found [here](../course_elements/Course_element_Microsoft_Teams.md).
   
 Each tool can only be used once in a group. It is therefore not possible to
 e.g. provide your members with more than one folder. If you want to work with
 more than one forum or Wiki or if you want to provide documents in more than
-one folder it is better to use [course elements](Types+of+Course+Element.html)
+one folder it is better to use an OpenOlat course
 instead. Link one or more courses to the group, and configure the courses or
 the course elements to be only visible or accessible to the respective group.
-
-  
 
 ## Managing Members of Groups {: #members}
 
@@ -164,7 +99,7 @@ them. The users can either be added as participants or coaches.
   *  **Coach:** Has access to the group administration settings. Here it is possible to add or remove participants and provide collaborative tools to the group. Group coaches can also delete a group. If the group is linked to a course a coach has additional access to the assessment tool as well as the test statistics of the own group.
   *  **Participant:**  Uses the collaborative tools of a group.
 
-![](assets/group_members.png)
+![Group member Management](assets/group_members.png){ class="shadow lightbox" }
 
 The classic role of a tutor can be represented in OpenOlat by means of those
 coach rights mentioned above.
@@ -181,8 +116,9 @@ Groups are often used in courses for controlled enrollment, for the assignment
 of papers or to register for field trips. Groups and courses can be linked in
 two ways:
 
-  * In the group, under the tab "Courses" in the group administration. Here you can determine whether a group is connected to one or multiple courses. Clicking on "Add course" allows you to link as many courses you are owner of with the group. Just click on the course name or the checkmark under " _Select_ " to the right of the course name. A click on the ![](assets/fa-info-circle_64_1_48779d_none.png) icon provides you with further information on the course, such as author, language or the description. Use the button " **Add course** " at the end of the table in order to embed several courses at once.  
-![](assets/group_selectcourse.gif)  
+  * In the group, under the tab "Courses" in the group administration. Here you can determine whether a group is connected to one or multiple courses. Clicking on "Add course" allows you to link as many courses you are owner of with the group. Just click on the course name or the checkmark under " _Select_ " to the right of the course name. A click on the :octicons-info-16: icon provides you with further information on the course, such as author, language or the description. Use the button " **Add course** " at the end of the table in order to embed several courses at once.  
+
+    ![](assets/group_selectcourse.gif){ class="shadow lightbox" }  
   
 
   * In the course members management as well as in the editor view of individual course elements: You can either use the button "Create Group" to create a new linked group, or add an already existing group you own via the button "Add group". If you are in the editor view on course element level, you can also create new groups under the access and visibility tabs. The same goes for learning areas.
@@ -198,11 +134,9 @@ register, enroll or buying.
 With the help of a booking method OpenOlat users can register themselves to a
 group. The following options are available under "Add booking method":
 
-  
-
-  *  **![](assets/key.png)  Access code**: Select the access code booking methods if the booking shall be restricted to people in possession of the access code. An access code is manually set by the coach of the group, who then passes the code on to authorized users. Only users who can provide this access code will be able to book the resource. In order to open the group, this code must be entered when opening the group for the first time.
-  *  **![](assets/gift.png)  Freely available:** Select the free booking method if no other restrictions shall apply. All users can book the resource. Using this booking method adds users as participants to the group.
-  *  **![](assets/cc-paypal.png)  PayPal and Credit card** (only available if unlocked by an administrator): Selecting the PayPal/Credit card payment method requires a financial payment to access the resource. When using this booking method you can define an amount of money required to be payed in the currency defined in the system configuration. This amount can then be payed by either a PayPal account or by using a credit card (Visa/Mastercard). The waiting list cannot be combined with this booking method. The options "waiting list" respectively "PayPal and Credit Card" will not appear in the group administration if the respective other is selected.
+  * :material-key-variant: **Access code**: Select the access code booking methods if the booking shall be restricted to people in possession of the access code. An access code is manually set by the coach of the group, who then passes the code on to authorized users. Only users who can provide this access code will be able to book the resource. In order to open the group, this code must be entered when opening the group for the first time.
+  * :material-gift: **Freely available:** Select the free booking method if no other restrictions shall apply. All users can book the resource. Using this booking method adds users as participants to the group.
+  * :fontawesome-brands-cc-paypal: **PayPal and Credit card** (only available if unlocked by an administrator): Selecting the PayPal/Credit card payment method requires a financial payment to access the resource. When using this booking method you can define an amount of money required to be payed in the currency defined in the system configuration. This amount can then be payed by either a PayPal account or by using a credit card (Visa/Mastercard). The waiting list cannot be combined with this booking method. The options "waiting list" respectively "PayPal and Credit Card" will not appear in the group administration if the respective other is selected.
 
 Once a booking method is configured, the group will be listed in the
 "Published groups" and can thus be searched and booked by users. If no booking

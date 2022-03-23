@@ -46,7 +46,7 @@ If you build your courses systematically and if you want to use your learning
 resources in several courses, you should better created the learning resources
 in the authoring
 
-###  Import
+###  Import {: #import}
 
 Learning resources generated outside of OpenOlat can be imported if they have
 a format that is compatible. Suitable formats have been commented on in the

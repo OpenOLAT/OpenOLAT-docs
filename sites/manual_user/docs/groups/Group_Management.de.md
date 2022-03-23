@@ -2,7 +2,7 @@
 
 ## Meine Gruppen
 
-![](assets/Gruppe_verwalten.png)
+![Gruppe verwalten](assets/Gruppe_verwalten.png){ class="shadow lightbox" }
 
 Nach Auswahl einer oder mehrerer Gruppen können Sie folgende Aktionen
 ausführen:
@@ -37,5 +37,5 @@ seine Gruppen. Weitere Informationen dazu unter „Meine Gruppen“. Der
 Gruppenverwalter kann zudem Gruppen ohne Mitglieder und Kursanbindung finden
 und löschen.
 
-![](assets/Gruppenverwaltung.png)
+![Gruppenverwalter](assets/Gruppenverwaltung.png){ class="shadow lightbox" }
 

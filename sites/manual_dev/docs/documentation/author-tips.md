@@ -85,13 +85,6 @@ Image styles and css classes can be added to the image markup like this:
 		2. after the left opening curly bracket and before the closing right curly bracket there is **one space** 
 	Otherwise the image styles will not be applied. 
 
-### Width and alignment
-
-Add `{ align=left }` or `{ align=right }` to format images left or right of text. More on this [here](https://squidfunk.github.io/mkdocs-material/reference/images/)
-
-Add `{ width=200px}` for a custom size. This can also be combiend like this: `{ align=left width=200px }`. Use custom width only if needed, if possible use the [standard sizes](#sizes) using the predefined CSS classes. 
-
-
 ### Sizes
 
 There are some predefined image sizes that can be applied by assigning CSS classes. Use technique preferably over manually adding width or height: 
@@ -174,6 +167,15 @@ Use the `lightbox` CSS class to enable the lightbox on an image. This makes the 
 
 === "Output"	
 	![Your image alt text](assets/example-screenshot.png){ class="thumbnail lightbox" }
+
+
+### Specific width and other HTML attributes
+
+Add `{ width=200px}` for a custom size. This can also be combiend like this: `{ align=left width=200px }`. Use custom width only if needed, if possible use the [standard sizes](#sizes) using the predefined CSS classes. 
+
+Add `{ align=left }` or `{ align=right }` to format images left or right of text. Note that it is better to use the CSS classes from above as the CSS classes can have special rules for print and mobile devices while the align attribute will be applied in all conditions, even when it does not make sense at all. 
+
+More on this [here](https://squidfunk.github.io/mkdocs-material/reference/images/)
 
 ***
 

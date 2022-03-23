@@ -1,13 +1,5 @@
 # Release notes 15.3
 
-**Keywords:**  Contact Tracing -- Course element Document \-- OnlyOffice
-enhancements -- Microsoft Azure Directory Login -- Office for the web --
-Disadvantage compensation -- User relations in Coaching tool -- Improved
-Drag&Drop -- Numerous optimizations in the area of e-assessment, user
-management and authoring
-
-  
-
 With OpenOlat 15.3 we release our next major release. Due to the current
 pandemic situation, a module "Contact Tracing" was integrated into OpenOlat in
 order to identify possible contagious contacts. The implementation of the
@@ -25,20 +17,16 @@ In particular, the drag & drop function for file uploads has been optimized
 throughout OpenOlat. Numerous improvements can also be found in the user
 administration area, in the authoring area and in other OpenOlat modules.
 
+![](assets/153/Features_Improvements_Labels_EN.png)
+
 Overall more than 75 new features and improvements have been added to OpenOlat
 since release 15.2 and many processes have been improved. Here, you can find
 the most important new features and changes. In addition to these
 improvements, more than 95 bugs have been fixed. The complete list of changes
 for 15.2 – 15.2.8 can be found
 [here](https://confluence.openolat.org/display/OO152DE/Release+Notes+15.2#ReleaseNotes15.2-ReleaseNotes-Versionen).
-
-![](assets/153/Features_Improvements_Labels_EN.png)
-
-  
-
+ 
 * * *
-
-  
 
 ## Contact Tracing Module
 
@@ -63,6 +51,7 @@ contact us at [support@openolat.com](mailto:support@openolat.com).
 
 (German only)
 
+<iframe width="400" height="300" src="https://www.youtube.com/embed/4fO16U6iaiU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   
 
 * * *
@@ -70,6 +59,8 @@ contact us at [support@openolat.com](mailto:support@openolat.com).
   
 
 ## Course element "Document"
+
+![](assets/153/Dok_KBS2_EN.png){ class="shadow lightbox aside-right-lg" }
 
 With the document course element, Office documents, PDF and also images are
 directly integrated into the course.
@@ -84,13 +75,12 @@ New documents can also be converted into learning resources, for example, to
 re-integrate them into other courses. Existing document learning resources can
 also be used as templates by making local copies of them.
 
-![](assets/153/Dok_KBS2_EN.png)
+<clear />
+![](assets/153/DOK_KBS_EN.png){ class="shadow lightbox aside-right-lg" }
 
 Office documents and PDF are displayed via the integrated Document viewer.
 Text documents can be edited if the corresponding licenses are activated. The
 editor then opens in a separate window.
-
-![](assets/153/DOK_KBS_EN.png)
 
   
 
@@ -99,6 +89,8 @@ editor then opens in a separate window.
   
 
 ## OnlyOffice Application
+
+![](assets/153/Thumbnail_EN.png){ class="shadow lightbox aside-right-lg" }
 
 The integration of OnlyOffice now supports the generation of thumbnails of
 documents.
@@ -112,31 +104,30 @@ the mobile OnlyOffice Viewer / Editor has been integrated into OpenOlat.
 
 Documents are opened in a separate window for viewing and editing.
 
-![](assets/153/Thumbnail_EN.png)
-
   
 
 * * *
 
   
 
+![](assets/153/Azure_EN.png){ class="shadow lightbox aside-right-lg" }
+
 ## Office for the web Editor
 
-## Authentication via Microsoft Azure Directory
 
 The integration of Microsoft Office 365 editors for Office documents is
 currently being rolled out in the frentix cloud (planned by the end of 2020).
 
-Note
+!!! warning "Note"
 
-For licensing reasons, the Microsoft Office 365 editors are only available in
-the frentix hosting cloud!
+	For licensing reasons, the Microsoft Office 365 editors are only available in
+	the frentix hosting cloud!
+
+## Authentication via Microsoft Azure Directory
 
 Microsoft 365 logins are now supported in OpenOlat via Azure Active Directory.
 For consulting and introduction please contact
 [support@openolat.com](mailto:support@openolat.com).
-
-![](assets/153/Azure_EN.png)
 
   
 
@@ -153,13 +144,13 @@ for the test.
 The compensation of disadvantages can be set via the user administration or
 directly in the course in the assessment tool on the respective participant.
 
-![](assets/153/Nachteilsausgleich_EN.png)
+![](assets/153/Nachteilsausgleich_EN.png){ class="shadow lightbox" }
 
 In the assessment tool and also in the test results the extension is
 transparently shown. The test time and the test mode (in case of manual
 control) are automatically extended by the disadvantage compensation.
 
-![](assets/153/Nachteilsausgleich_Assessment_EN.png)
+![](assets/153/Nachteilsausgleich_Assessment_EN.png){ class="shadow lightbox" }
 
   
 
@@ -168,6 +159,8 @@ control) are automatically extended by the disadvantage compensation.
   
 
 ## Optimization in the area of e-assessment and e-testing
+
+![](assets/153/Korrektur_EN.png){ class="shadow lightbox aside-right-lg" }
 
   * Optimized calculation of the maximum score for X from Y questions in tests
   * Display of the participants' individual test start time in the assessment tool
@@ -179,13 +172,7 @@ control) are automatically extended by the disadvantage compensation.
     * Additional columns in the question overview table
   * Optional anonymization in the correction tool for external graders
 
-![](assets/153/Korrektur_EN.png)
-
-  
-
 * * *
-
-  
 
 ## User relations in coaching tool
 
@@ -194,16 +181,14 @@ for mentors, learning guides and supervisors can be represented.
 
 The coaching tool now provides easy and clear access to the coached users.
 
-![](assets/153/Coaching_EN.png)
+![](assets/153/Coaching_EN.png){ class="shadow lightbox" }
+
+![](assets/153/Userbeziehung_EN.png){ class="shadow lightbox aside-right-lg" }
 
 For each user-to-user relationship, specific rights can be defined and thus
 access to explicitly released content of the coaches can be granted, e.g.
 course list, calendar, absence overview, evidences of achievement and
 certificates.
-
-![](assets/153/Userbeziehung_EN.png)
-
-  
 
 The role of "line manager" was also mapped in the coaching tool in the same
 way. Here, defined contents can also be accessed by users of the own
@@ -217,16 +202,12 @@ organizational unit.
 
 ## Additions in authoring area
 
+![](assets/153/Kurs%20LifeCycle_EN.png){ class="shadow lightbox aside-right-lg" }
+
   * Automatic lifecycle of courses extended by "Definitely delete" (see screenshot)
   * Filter learning resources by taxonomy
 
-![](assets/153/Kurs%20LifeCycle_EN.png)
-
-  
-
 * * *
-
-  
 
 ## Enhancements in the user administration
 
@@ -234,13 +215,11 @@ organizational unit.
   * Separate handling of non-deletable users in the user life cycle
   * Import of users without authentication
 
-  
-
 * * *
 
-  
-
 ## Additional notes
+
+![](assets/153/BBB%20Terminvergabe_EN.png){ class="shadow lightbox aside-right-lg" }
 
   * BigBlueButton innovations:
     * Integration in course element "Appointment scheduling" (see screenshot)
@@ -254,8 +233,6 @@ organizational unit.
   * Curriculum: improved membership management
   * Deactivation of reasons for lecture completion in absence management
   * LinkedIn field in user profile
-
-![](assets/153/BBB%20Terminvergabe_EN.png)
 
   
 

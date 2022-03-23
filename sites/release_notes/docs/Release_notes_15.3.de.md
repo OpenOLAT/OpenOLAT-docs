@@ -1,13 +1,5 @@
 # Release Notes 15.3
 
-**Keywords:**  Kontaktverfolgung -- Kursbaustein Dokument \-- OnlyOffice
-Erweiterungen \-- Microsoft Azure Directory Login -- Office for the web --
-Nachteilsausgleich -- Benutzerbeziehungen im Coachingtool -- Verbessertes
-Drag&Drop -- Zahlreiche Optimierungen im Bereich E-Assessment,
-Benutzerverwaltung und Autorenbereich
-
-  
-
 Mit OpenOlat 15.3 geben wir unseren nächsten Major Release frei. Aufgrund der
 aktuellen Pandemie-Lage wurde ein Modul "Kontaktverfolgung" (Contact Tracing)
 in OpenOlat integriert, um anhand von Aufenthaltsnachweisen bei Bedarf
@@ -27,6 +19,8 @@ wurde OpenOlat-weit optimiert. Zahlreiche Verbesserungen finden sich auch im
 Bereich Benutzerverwaltung, im Autorenbereich und in weiteren OpenOlat-
 Modulen.
 
+![](assets/153/Features_Improvements_Labels_DE.png)
+
 Seit Release 15.2 wurden über 75 neue Funktionen und Verbesserungen zu
 OpenOlat hinzugefügt. Hier finden Sie die wichtigsten neuen Funktionen und
 Änderungen. Zusätzlich zu wurden mehr als 95 Bugs behoben. Die komplette Liste
@@ -34,28 +28,7 @@ der Änderungen in 15.2 – 15.2.8 finden Sie
 [hier](https://confluence.openolat.org/display/OO152DE/Release+Notes+15.2#ReleaseNotes15.2-ReleaseNotes-
 Versionen).
 
-![](assets/153/Features_Improvements_Labels_DE.png)
-
-  * 1 Release Notes 15.3 
-  * 2Contact Tracing Modul
-  * 3Kursbaustein "Dokument"
-  * 4OnlyOffice Einsatz
-  * 5Office for the web Editor
-  * 6Authentifizierung via Microsoft Azure Directory
-  * 7Nachteilsausgleich bei Online-Prüfungen
-  * 8Optimierungen im Bereich E-Assessment und E-Testing
-  * 9Benutzerbeziehungen im Coachingtool
-  * 10Ergänzungen im Autorenbereich
-  * 11Erweiterungen in der Benutzerverwaltung
-  * 12Weiteres, kurz notiert
-  * 13Technisches
-  * 14Release Notes - Versionen
-
-  
-
 * * *
-
-  
 
 ## Contact Tracing Modul
 
@@ -78,13 +51,14 @@ Die praktische Anwendung wird im nachfolgenden Video der OOacademy anschaulich
 erklärt. Für Beratung und Support zur Einführung melden Sie sich unter
 [support@openolat.com](mailto:support@openolat.com).
 
-  
 
+<iframe width="400" height="300" src="https://www.youtube.com/embed/4fO16U6iaiU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  
 * * *
 
-  
-
 ## Kursbaustein "Dokument"
+
+![](assets/153/Dok_KBS2_DE.png){ class="shadow lightbox aside-right-lg" }
 
 Mit dem Dokument-Kursbaustein werden Office-Dokumente, PDF und auch Bilder
 direkt in den Kurs eingebunden.
@@ -101,25 +75,22 @@ Dabei können neue Dokumente auch in Lernressourcen umgewandelt werden, um sie
 beispielsweise in andere Kursen erneut einzubinden. Bereits vorhandene
 Dokument-Lernressourcen lassen sich wiederum als Vorlage nutzen, indem von
 ihnen lokale Kopien angefertigt werden.
-
   
-
-![](assets/153/Dok_KBS2_DE.png)
+<clear />
+![](assets/153/Dok_KBS_DE.png){ class="shadow lightbox aside-right-lg" }
 
 Textverarbeitungsdokumente und PDF werden über den integrierten Dokument
 Viewer angezeigt. Eine Bearbeitung der Textdokumente ist bei Aktivierung
 entsprechender Lizenzen möglich, der Editor öffnet sich dann in einem
 separaten Fenster.
 
-![](assets/153/Dok_KBS_DE.png)
-
-  
-
+ 
 * * *
 
-  
-
+ 
 ## OnlyOffice Einsatz
+
+![](assets/153/Thumbnail_DE.png){ class="shadow lightbox aside-right-lg" }
 
 Die Integration von OnlyOffice unterstützt ab sofort die Generierung der
 Vorschaubilder (Thumbnails) von Dokumenten.
@@ -135,32 +106,30 @@ OpenOlat eingebunden.
 Dokumente werden zur Ansicht und Bearbeitung in einem separaten Fenster
 geöffnet.
 
-![](assets/153/Thumbnail_DE.png)
-
   
 
 * * *
 
   
 
-## Office for the web Editor
+![](assets/153/Azure_DE.png){ class="shadow lightbox aside-right-lg" }
 
-## Authentifizierung via Microsoft Azure Directory
+## Office for the web Editor
 
 Die Integration der Microsoft Office 365-Editoren für Office Dokumente
 befindet sich derzeit im Rollout in der frentix Cloud (geplant bis Ende 2020).
 
-Hinweis
+!!! warning "Hinweis"
 
-Aus lizenztechnischen Gründen stehen die Microsoft Office 365-Editoren
-ausschliesslich in der frentix Hosting Cloud zur Verfügung!
+	Aus lizenztechnischen Gründen stehen die Microsoft Office 365-Editoren
+	ausschliesslich in der frentix Hosting Cloud zur Verfügung!
+
+
+## Authentifizierung via Microsoft Azure Directory
 
 Neu werden Microsoft 365 Logins in OpenOlat über Azure Active Directory
 unterstützt. Für Beratung und Einführung melden Sie sich unter
 [support@openolat.com](mailto:support@openolat.com).
-
-![](assets/153/Azure_DE.png)
-
   
 
 * * *
@@ -176,21 +145,21 @@ dabei mehr Zeit für den Test.
 Der Nachteilsausgleich wird über die Benutzerverwaltung oder direkt im Kurs im
 Bewertungswerkzeug am jeweiligen Teilnehmenden eingestellt.
 
-![](assets/153/Screenshot%202020-11-09%20at%2013.24.01.png)
+![](assets/153/Screenshot%202020-11-09%20at%2013.24.01.png){ class="shadow lightbox " }
 
 Im Bewertungswerkzeug und auch in den Testresultaten ist die Verlängerung
 transparent ausgewiesen. Die Testzeit und der Prüfungsmodus (bei manueller
 Steuerung) wird automatisch um den Nachteilsausgleich verlängert.
 
-![](assets/153/Nachteilsausgleich_Assessment_DE.png)
+![](assets/153/Nachteilsausgleich_Assessment_DE.png){ class="shadow lightbox " }
 
   
-
 * * *
 
-  
-
+ 
 ## Optimierungen im Bereich E-Assessment und E-Testing
+
+![](assets/153/Korrektur_DE.png){ class="shadow lightbox aside-right-lg" }
 
   * Optimierte Berechnung der Maximalpunktzahl bei X aus Y Fragen in Tests
   * Anzeige der individuellen Teststartzeit der Teilnehmenden im Bewertungswerkzeug
@@ -202,14 +171,10 @@ Steuerung) wird automatisch um den Nachteilsausgleich verlängert.
     * Weitere Spalten in der Fragenübersicht-Tabelle
   * Optionale Anonymisierung im KorretorenTool für externe Korrektoren
 
-![](assets/153/Korrektur_DE.png)
-
   
-
 * * *
 
   
-
 ## Benutzerbeziehungen im Coachingtool
 
 Mit der Benutzer-zu-Benutzerbeziehung in OpenOlat können kursübergreifende
@@ -219,17 +184,16 @@ Vorgesetzte abgebildet werden.
 Über das Coachingtool ist nun für Betreuende der einfache und übersichtliche
 Zugang zu den betreuten Benutzern realisiert.
 
-![](assets/153/Coaching_DE.png)
+![](assets/153/Coaching_DE.png){ class="shadow lightbox" }
+
+
+![](assets/153/Userbeziehung_DE.png){ class="shadow lightbox aside-right-lg" }
 
 Für jede Benutzer-zu-Benutzerbeziehung können spezifische Rechte definiert und
 somit der Zugriff auf explizit freigegebene Inhalte der Betreuten erteilt
 werden, wie z.B. Kursliste, Kalender, Absenzenübersicht, Leistungsnachweise
 und Zertifikate.
-
-![](assets/153/Userbeziehung_DE.png)
-
   
-
 Analog wurde auch die Rolle "Linienvorgesetzer" im Coachingtool abgebildet.
 Hier kann ebenfalls auf definierte Inhalte von Benutzern der eigenen
 Organisationseinheit zugegriffen werden.
@@ -242,15 +206,12 @@ Organisationseinheit zugegriffen werden.
 
 ## Ergänzungen im Autorenbereich
 
-  * Automatischer Lebenszyklus von Kursen um "Endgültig löschen" erweitert (s. Screenshot)
+![](assets/153/Kurs%20LifeCycle_DE.png){ class="shadow lightbox aside-right-lg" }
 
+  * Automatischer Lebenszyklus von Kursen um "Endgültig löschen" erweitert (s. Screenshot)
   * Filter zur Einschränkung von Lernressourcen nach Taxonomie
 
-  
 
-![](assets/153/Kurs%20LifeCycle_DE.png)
-
-  
 
 * * *
 
@@ -270,31 +231,20 @@ Organisationseinheit zugegriffen werden.
 
 ## Weiteres, kurz notiert
 
+![](assets/153/BBB%20Terminvergabe_DE.png){ class="shadow lightbox aside-right-lg" }
+
   * BigBlueButton Neuerungen:
-
     * Integration in Kursbaustein "Terminplanung" (s. Screenshot)
-
     * Zustimmung der Teilnehmenden, wenn Aufzeichnungsfunktion für das Meeting aktiviert
-
   * Optimiertes Drag&Drop für Datei-Upload
-
   * Optimierung der Dokument-Vorschau für Word, Excel, Powerpoint und weitere Formate
-
   * Verbesserungen im Bereich Dropdown-Menüs und HTML-Editor-Anzeige
-
   * Weitere Rollen beim Rollenwechsel im Kurs
-
   * Kurserinnerungen: "Lernfortschritt" als weitere Bedingung (nur für Lernpfadkurs) und alphabetische Sortierung der angelegten Reminder
-
   * Gruppenverwaltung: neue Filter "Letzter Zugriff" und "Externe Verwaltung"
-
   * Curriculum: verbesserte Mitgliederverwaltung
-
   * Deaktivierung der Begründungen für Lektionen-Abschluss im Absenzenmanagement
-
   * LinkedIn Feld im Benutzerprofil
-
-![](assets/153/BBB%20Terminvergabe_DE.png)
 
   
 

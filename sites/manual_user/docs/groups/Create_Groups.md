@@ -9,8 +9,6 @@ The menu item "Groups" on top in the main navigation is your starting point
 for creating a group. Click the button and enter a name for your group.
 Determine the maximum numbers of participants and save your settings.
 
-![](assets/create_groups.jpg)
-
 ## Creating groups - Options
 
 ### Group Names
@@ -28,7 +26,15 @@ distinct, unique group name.
 ### Description
 
 You can optionally provide your group with further details. It will appear on
-your overview page when starting your group
+your overview page when starting your group.
+
+!!! check
+
+    As the description can also be displayed as a column in the overview of the groups
+    it is recommended to use only short descriptions. Longer
+    texts should rather be provided via the [Group tool](Using_Group_Tools.en.md)
+    "Information to members".
+
 
 ### Number of Participants
 
@@ -63,4 +69,3 @@ methods to create a group in addition to the one mentioned above:
   * In the course, you will find the settings for member management in the drop-down menu "Administration" in the upper left corner. There you can create new groups or add existing groups to the course.
   * Learning areas to subsume several course associated groups are created with the "[Learning areas](../course_create/Using_additional_Course_Editor_Tools.md#UsingadditionalCourseEditorTools-_lernbereich)“ tool, which you will also find in the course tools. The menu item "Groups" in the members management also allows you to edit all linked groups, add new members, configure collaborative tools or even delete groups.
   * In the course editor: When configuring the registration element or when using the tabs "Visibility" and "Access" you can create groups directly. However, it is not possible to add members or to activate collaborative tools. To do that, either navigate to the members management, or open the relevant group in a separate tab.
-

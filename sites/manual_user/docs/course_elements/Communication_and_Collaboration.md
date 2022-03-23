@@ -38,8 +38,7 @@ the page or OpenOlat users who are registered as owners in a wiki will be
 allowed to delete wiki pages.
 
 In the chapter "Learning Activities in Courses," section
-["Wiki"](Working+With+Course+Elements.html#WorkingWithCourseElements-
-_wiki_lerner), you will find more information on how to adapt the Wiki syntax,
+["Wiki"](../learning_activities/Working_with_Wiki.md), you will find more information on how to adapt the Wiki syntax,
 how to create new pages, and how to view different versions of a Wiki page.
 
 If you can't find the "Wiki" course element in the course editor, it was
@@ -56,8 +55,7 @@ and answer each other's questions, or you could initiate a technical
 discussion or implement specific forum-based online methods. In the chapter
 "Learning Activities in Courses" you will get further information on opening
 topics and replying to questions; see section
-["Forum"](https://confluence.openolat.org/display/OO130EN/Working+With+Course+Elements#WorkingWithCourseElements-
-_forum_lerner). Generally all course participants have read and write
+["Forum"](../learning_activities/Working_with_Forums.md). Generally all course participants have read and write
 permission in a forum. All course authors and tutors dispose of the option to
 moderate a forum additionally.
 
@@ -135,12 +133,6 @@ looked up and downloaded by the course participants. The related discussion
 forum is created automatically and opens with a click on "Show". The different
 columns give an overview who uploaded which file when.
 
-In the chapter "Learning Activities in Courses" you will get more information
-on how to upload files or how to open topics and reply to questions; see
-section ["File
-Dialog"](Working+With+Course+Elements.html#WorkingWithCourseElements-
-_filedis_lerner).
-
 Who besides the course owner can take which actions will be defined in the
 course editor in the user permissions of the tab "Configuration".
 
@@ -196,7 +188,7 @@ evaluation or allocation of points can be made....
 
 In the participant list, the members of the course can be made visible to
 everyone. Unlike the [member
-management](../course_operation/Using_Course_Tools.md#UsingCourseTools-_mitgliederverwaltung)
+management](../course_operation/Members_management.md)
 course tool, which is only visible for course owners, the course element
 "Participant list" provides a list of all course members to those OpenOlat
 users allowed to open the respective course. Members are listed depending on

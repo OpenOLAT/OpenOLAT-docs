@@ -1,4 +1,4 @@
-# Zugangskonfiguration
+# Zugangskonfiguration {: #access-configuration}
 
 Damit ein Kurs für die Lernenden sichtbar wird, muss er zunächst
 veröffentlicht werden. Wird der Kurs für alle Benutzer freigegeben, kann der

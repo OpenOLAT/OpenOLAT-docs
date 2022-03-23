@@ -5,7 +5,7 @@
 ![](assets/video_64_0_434343_none.png)
 
 Eine Video-Lernressource wird im Autorenbereich über die Funktion
-"[Importieren](../../pages/viewpage.action%EF%B9%96pageId=108593439.html#Aktionenim%E2%80%9EAutorenbereich%22-_importieren)"
+"[Importieren](../authoring/Actions_in_the_Authoring_section.de.md#import)"
 oder "Importieren URL" erstellt.
 
 Dazu im Upload-Fenster die gewünschte Video-Datei auswählen, einen Titel
@@ -185,7 +185,7 @@ dürfen oder nicht.
 ## Videos in Kurse einbinden {: #video_courseelement}
 
 Erstellte Video Lernressourcen können zusätzlich noch über den [Kursbaustein
-"Video" ](../../pages/viewpage.action%EF%B9%96pageId=108593229.html)in
+"Video" ](Course_Element_Video.de.md)in
 OpenOlat Kurse eingebunden werden. So eingebundene Videos erlauben - im
 Gegensatz zu Videos die über das [Kurselement "Einzelne Seite"
 eingebunden](Single_Page_Add_edit_video.de.md)
