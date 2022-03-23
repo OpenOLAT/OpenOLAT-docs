@@ -41,7 +41,7 @@ teachers of the course. Also, the course can be assigned to a given didactic
 type such as self-study course or examination course. Especially relevant is
 the entry of the license of the course.
 
-## Execution
+## Execution {: #Execution}
 
 Here you can activate the "[Lecture and Absence
 Managemen](../course_operation/Lectures_and_absences.md)t" if activated by the administrator,

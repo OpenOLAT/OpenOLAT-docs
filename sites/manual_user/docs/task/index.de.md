@@ -12,4 +12,3 @@ abgebildet werden. Die Funktionsweise und Aufbau von Aufgabe und
 Gruppenaufgabe sind identisch.
 
 Die Aufgaben eines Kurses werden im Kurseditor erstellt und konfiguriert.
-
