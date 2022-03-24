@@ -6,7 +6,7 @@ meet the requirements of the GDPR OpenOlat offers on the one hand the
 possibility to export user data and on the other hand the deletion of users
 and their data.
 
-### Deleting users and user data
+## Deleting users and user data
 
 Deleting OpenOlat users has the following effect:
 
@@ -22,7 +22,7 @@ Deleting OpenOlat users has the following effect:
 
   
 
-### Export of user data
+## Export of user data
 
 The user data stored in OpenOlat can be exported for each user.
 
@@ -39,7 +39,7 @@ have access to the exported data.
 The export serves solely to inform the user which data is stored and processed
 on OpenOlat. It is not possible to restore a deleted user.
 
-**Data that can be exported:**
+### Data that can be exported:
 
   * User profile data (incl. invisible data) as well as personal settings
   * Published image (profile picture)
@@ -64,26 +64,23 @@ on OpenOlat. It is not possible to restore a deleted user.
   * ePortfolio
   * Certifications
 
- **  
-**
-
-![](assets/Export1_EN.png)
+![](assets/Export1_EN.png){ class="shadow lightbox" }
 
   
 
-### Further data protection options
+## Further data protection options
 
- **Printing the Terms of Use**
+### Printing the Terms of Use
 
 The terms of use can be printed both during the login process in the "Terms of
 Use" dialog and in the personal settings in the "Terms of Use" tab.
 
-![](assets/Nutzungsbedingungen_drucken2_EN-2.png)
-![](assets/Nutzungsbedingungen_drucken1_EN-2.png)
+![](assets/Nutzungsbedingungen_drucken2_EN-2.png){ class="shadow lightbox thumbnail-lg" }
+![](assets/Nutzungsbedingungen_drucken1_EN-2.png){ class="shadow lightbox thumbnail-lg" }
 
   
 
- **Visibility of e-mail addresses in OpenOlat**
+### Visibility of e-mail addresses in OpenOlat
 
 E-mail addresses of other users are only visible in OpenOlat for
 administrative users, not for normal users.

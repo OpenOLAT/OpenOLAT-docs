@@ -6,7 +6,7 @@ dies über ein externes Benutzerverwaltungssystem oder direkt in OpenOlat im
 Tab "Benutzerverwaltung". Nur Administratoren und Benutzerverwalter können
 Benutzer anlegen und löschen.
 
-![](assets/Benutzer_erstellen1.png)
+![](assets/Benutzer_erstellen1.png){ class="shadow lightbox" }
 
 Ferner ist bei entsprechender Aktivierung auch eine Selbstregistrierung
 möglich.
@@ -41,7 +41,7 @@ Benutzerdaten sowie das Datum für den Ablauf der temporären Benutzer definiert
 werden. Auf diese Weise ist die Erstellung von vielen Accounts in kürzester
 Zeit möglich.
 
-![](assets/temp_benutzer_wizard.png)
+![](assets/temp_benutzer_wizard.png){ class="shadow lightbox" }
 
 ## Benutzer erstellen sich selbst einen Account
 
@@ -57,7 +57,7 @@ deaktivierte Benutzer angezeigt sowie bestimmte User ausgewählt und gelöscht
 werden. Dabei wird das gesamte Benutzerkonto inklusive aller persönlichen
 Daten gelöscht.
 
-![](assets/Benutzer_loeschen.png)
+![](assets/Benutzer_loeschen.png){ class="shadow lightbox" }
 
   
 

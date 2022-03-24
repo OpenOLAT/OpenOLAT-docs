@@ -6,15 +6,15 @@ role(s).
 
 As the user administrator, go to the user search and select the desired
 person. This takes you to the user settings. Various tabs are available here.
-Select "Roles" and assign the desired role.
+Select "[Roles](../../manual_user/general/Roles_and_Rights.md)" and assign the desired role.
 
 ### Manage user settings
 
-![](assets/manage_user_settings.png)
+![](assets/manage_user_settings.png){ class="shadow lightbox" }
 
-  
-Further settings in the role context can be made in the Relations, Groups and
-Learning resources tabs.
+!!! info
+	Further settings in the role context can be made in the Relations, Groups and
+	Learning resources tabs.
 
   
 

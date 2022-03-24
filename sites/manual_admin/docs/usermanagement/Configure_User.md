@@ -9,44 +9,42 @@ or locked, or similar.
 
 The following tabs are available for user configuration:
 
-#### User profile
+### User profile
 
-| The personal data, personal details, contact data and details of the
+The personal data, personal details, contact data and details of the
 institution are entered here (cf. user configuration
-[profile](../../manual_user/personal/Configuration.md#Configuration-_profile)). Furthermore, the
+[profile](../../manual_user/personal/Configuration.md#profile)). Furthermore, the
 personal information entered by the user as well as the respective business
 card and the selected personal picture/photo are visible. The binding entries
 of the user profile include: First name, surname and e-mail.  
----|---  
-  
-#### System settings
 
-| The system settings made by the user are displayed here (see User
-Configuration [Settings](../../manual_user/personal/Configuration.md#Configuration-_einstellungen)).  
   
-#### Change password
+### System settings
 
-| Here a new password can be set directly for the user or a password link can
+The system settings made by the user are displayed here (see User
+Configuration [Settings](../../manual_user/personal/Configuration.md#settings)).  
+  
+### Change password
+
+Here a new password can be set directly for the user or a password link can
 be generated, which is then sent to the user by mail, so that he can set a new
 password himself. The section "Send password link for OpenOlat password" is
 only displayed if the user is allowed to change the password.  
   
-#### Authentifications
+### Authentifications
 
-| Here you can change the username and edit and delete authentications.  
+Here you can change the username and edit and delete authentications.  
   
-#### Properties
+### Properties
 
-| User Properties can be displayed and exported as a table.  
+User Properties can be displayed and exported as a table.  
   
-#### Groups
+### Groups
 
-| Overview of the groups in which the user is a participant or coach. At this
+Overview of the groups in which the user is a participant or coach. At this
 point the user can be assigned to certain groups.  
   
-#### Learning resources
-
-|
+### Learning resources
 
 This tab generates an overview with all learning resources of the user. User
 administrators and administrators can remove users from the respective
@@ -54,61 +52,57 @@ learning resources and call up the respective learning resources.
 Furthermore, the user can be registered as owner, coach or participant in
 further OpenOlat courses.  
   
-#### Booking
-
-|
+### Booking
 
 The bookings of the user are displayed here.  
   
-#### Statements
+### Statements
 
-| The efficiency statements of a user are displayed here and can also be
+The efficiency statements of a user are displayed here and can also be
 deleted if required.  
   
-#### Compensation for disadvantages
-
-|
+### Compensation for disadvantages
 
 Here a disadvantage compensation can be added. The disadvantage compensation
 entitles participants of a test to use more time for a test due to a certain
 handicap.
 
-![](assets/disadvantage_compensation.jpg)  
+![](assets/disadvantage_compensation.jpg){ class="shadow lightbox" }
   
-#### Subscriptions
+### Subscriptions
 
-| All subscriptions of a user are displayed here. These can also be deleted
+All subscriptions of a user are displayed here. These can also be deleted
 here.  
   
-#### Roles
+### Roles
 
-| In this tab the user type, the roles and the status are defined, see
+In this tab the user type, the roles and the status are defined, see
 "[Assign roles](Assign_roles.md)".  
   
-#### Relations
+### Relations
 
-| In this tab, new relationships between the selected user and other OpenOlat
-users can be defined (see [User Roles](User+management.html)).  
+In this tab, new relationships between the selected user and other OpenOlat
+users can be defined (see [User Roles](index.md)).  
   
-#### Quota
+### Quota
 
-| Overview of the quota settings  
+Overview of the quota settings  
   
-#### Lectures
+### Lectures
 
-| Overview of the status of lectures and absences and the associated progress
+Overview of the status of lectures and absences and the associated progress
 of the user  
   
-#### Competences
+### Competences
 
-| Here you can add competence areas according to the categories Manage, Teach,
+Here you can add competence areas according to the categories Manage, Teach,
 Have and Target.  
   
-#### Curriculum
+### Curriculum
 
-| Overview of assigned curricula  
+Overview of assigned curricula  
   
-#### Grading assignments
+### Grading assignments
 
-| Overview of the assigned correction orders for tests
+Overview of the assigned correction orders for tests
 

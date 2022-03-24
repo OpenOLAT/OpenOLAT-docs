@@ -1,5 +1,7 @@
 # User management
 
+![](assets/Org_EN.png){ class="shadow lightbox aside-right" }
+
 The user administration is a separate tab in the OpenOlat menu. Here you have
 access to the roles in different contexts. User administrators and
 administrators can
@@ -11,7 +13,6 @@ administrators can
   * configure user
   * displaying users according to different roles and assignments
 
-![](assets/Org_EN.png)
 
 ## Organizations
 
@@ -20,10 +21,11 @@ displayed here sorted accordingly.
 
 ## Organizational Roles
 
+![](assets/OrgRoles_EN.png){ class="shadow lightbox aside-right" }
+
 The following organizational roles are distinguished and can be used for a
 filtered display:
 
-![](assets/OrgRoles_EN.png)
 
 ## Course roles
 
@@ -36,13 +38,14 @@ and edited here.
 There are two group roles: [group coach](../../manual_user/groups/Group_Administration.md) and group
 participants. These can be displayed and edited.
 
+<clear />
 ## Curriculum Roles
+
+![](assets/CurRoles_EN.png){ class="shadow lightbox aside-right" }
 
 If an OpenOlat instance uses the curriculum, there are other roles available
 in addition to the usual course roles, whose members can be displayed and
 edited.
-
-![](assets/CurRoles_EN.png)
 
 ## User roles
 
@@ -55,7 +58,7 @@ displayed filtered.
 Pending users, inactive users, blocked users and deleted users of the OpenOlat
 instance can be displayed here.
 
-![](assets/Geloeschte_Benutzer_EN.png)
+![](assets/Geloeschte_Benutzer_EN.png){ class="shadow lightbox" }
 
 The "Deleted Users" table in the user management contains the following
 information that is relevant to the user deletion process:

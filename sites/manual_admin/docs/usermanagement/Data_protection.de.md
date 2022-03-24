@@ -6,7 +6,7 @@ Anforderungen der DSGVO bietet OpenOlat zum einen die Möglichkeit,
 Benutzerdaten zu exportieren und zum anderen die Löschung von Benutzern und
 deren Daten.
 
-### Löschen von Benutzern und Benutzerdaten
+## Löschen von Benutzern und Benutzerdaten
 
 Das Löschen von OpenOlat Benutzern bewirkt folgendes:
 
@@ -22,7 +22,7 @@ Das Löschen von OpenOlat Benutzern bewirkt folgendes:
 
   
 
-### Export von Benutzerdaten
+## Export von Benutzerdaten
 
 Für jeden Benutzer kann ein Export der in OpenOlat hinterlegten Benutzerdaten
 durchgeführt werden.
@@ -43,7 +43,7 @@ Der Export dient einzig zur Information des Nutzers, welche Daten auf OpenOlat
 gespeichert und verarbeitet werden. Das Wiederherstellen eines gelöschten
 Benutzers ist damit nicht möglich.
 
-### **Daten, die exportiert werden können:**
+### Daten, die exportiert werden können:
 
   * Benutzerprofil und Stammdaten (inkl. versteckte Stammdaten) sowie persönliche Einstellungen
   * Profilbild / Avatar
@@ -68,26 +68,23 @@ Benutzers ist damit nicht möglich.
   * ePortfolio
   * Zertifikate
 
-  
-
-![](assets/Export1_DE.png)
+![](assets/Export1_DE.png){ class="shadow lightbox" }
 
   
+## Weitere Datenschutz-Funktionen
 
-### Weitere Datenschutz-Funktionen
-
- **Drucken der Nutzungsbedingungen**
+### Drucken der Nutzungsbedingungen
 
 Das Drucken der Nutzungsbedingungen ist sowohl während des Login-Prozesses im
 Dialog "Nutzungsbedingungen" als auch in den persönlichen Einstellungen im Tab
 "Nutzungsbedingungen" möglich.
 
-![](assets/Nutzungsbedingungen_drucken2_DE-2.png)
-![](assets/Nutzungsbedingungen_drucken1_DE-2.png)
+![](assets/Nutzungsbedingungen_drucken2_DE-2.png){ class="shadow lightbox thumbnail-lg" }
+![](assets/Nutzungsbedingungen_drucken1_DE-2.png){ class="shadow lightbox thumbnail-lg" }
 
   
 
- **Sichtbarkeit von E-Mail-Adressen in OpenOlat**
+### Sichtbarkeit von E-Mail-Adressen in OpenOlat
 
 E-Mail Adressen anderer Nutzer sind in OpenOlat nur für administrative Nutzer,
 nicht aber für normale Nutzer sichtbar.
