@@ -1,156 +1,127 @@
 # Form editor (Questionnaire editor)
 
-Select or create a learning resource of the type "Form" and click on "Edit
-content" in the administration. The editor opens and various options are
-available via the button "Add content".
+Select or create a learning resource of the type "Form" and click on "Edit content" in the administration. The editor opens and various options are available via the button "Add content".
 
-As soon as you have created an element, you can also use the plus sign to add
-further elements above or below an element. Each element can also be
-duplicated, moved by drag and drop or deleted.
+As soon as you have created an element, you can also use the plus sign to add further elements above or below an element. Each element can also be duplicated, moved by drag and drop or deleted.
 
-  
+!!! info "Note"
 
-Since version OpenOlat 16.1, the survey editor is, strictly speaking, the form
-editor, as the learning resource survey has become the learning resource form.
+    Since version OpenOlat 16.1, the survey editor is, strictly speaking, the form editor, as the learning resource survey has become the learning resource form.
 
-Title|
+## Title
 
 Inserting headings and formatting with h1 to h6
 
-![](assets/title.png)  
-  
----|---  
-Paragraph|
+![Form titel](assets/title.png){ class="shadow lightbox" }
 
-Main element for adding text blocks, also for questions. The paragraph element
-contains central formatting and the possibility to distribute the text in
-columns.
+## Paragraph
 
-![](assets/paragraph.png)  
+Main element for adding text blocks, also for questions. The paragraph element contains central formatting and the possibility to distribute the text in columns.
+
+![Form paragraph](assets/paragraph.png){ class="shadow lightbox" }
   
-Table|
+## Table
 
 If required, add a table to the form and configure it.
 
-![](assets/table.png)  
+![Form table](assets/table.png){ class="shadow lightbox" }
   
-Image|
+## Image
 
-If necessary, add image elements to the form. To do this, upload a suitable
-graphic file. Then you can further configure the file, e.g. place a title or
-subtitle and also define the size, placement or border.
+If necessary, add image elements to the form. To do this, upload a suitable graphic file. Then you can further configure the file, e.g. place a title or subtitle and also define the size, placement or border.
 
-![](assets/image.png)
+![Form image](assets/image.png){ class="shadow lightbox" }
 
 The positioning can also be further optimized by using the container element.  
   
-Rubric|
+## Rubric
 
-Three different types are available for displaying a rubric. As with Single
-choice questions, the evaluations can relate to only one aspect or be
-continuous. Unlike the other question types, questions and answers are
-organized using the same element.
+Three different types are available for displaying a rubric. As with Single choice questions, the evaluations can relate to only one aspect or be continuous. Unlike the other question types, questions and answers are organized using the same element.
 
-![](assets/rubic.png)
+![Form rubric](assets/rubic.png){ class="shadow lightbox" }
 
-Further information can be found [here](Rubric.md).  
+Further information can be found [here](Rubric.md).
   
-Single choice|
+## Single choice
 
-Creates a single choice answer scale. The individual answers can be displayed
-next to each other, below each other or as a selection menu via the option
-"Selection list". The entries can be moved up or down using the arrow keys.
+Creates a single choice answer scale. The individual answers can be displayed next to each other, below each other or as a selection menu via the option "Selection list". The entries can be moved up or down using the arrow keys.
 
 Under "Obligation", one can set the question as obligatory or optional.
 
-The single choice question can also be used as a basis (condition) for the
-question rules. This way, certain containers and their contents are displayed
-depending on the answer selected by the user.
+The single choice question can also be used as a basis (condition) for the question rules. This way, certain containers and their contents are displayed depending on the answer selected by the user.
 
-Give the element a meaningful name so that you can keep track of the question
-rules.
+Give the element a meaningful name so that you can keep track of the question rules.
 
-![](assets/single choice.png)  
-  
-Multiple choice|
+![Form single choice](assets/formular_einzelauswahl.jpg){ class="shadow lightbox" }
 
-Creates a multiple choice selection scale. If necessary, participants can add
-additional items to the list. The order of the individual choices can be
-changed using the arrows.
+## Multiple choice
+
+Creates a multiple choice selection scale. If necessary, participants can add additional items to the list. The order of the individual choices can be changed using the arrows.
 
 Under "Obligation", one can set the question as obligatory or optional.
 
-The multiple choice can also be used as a basis (condition) for the question
-rules. This way, certain containers and their contents are displayed depending
-on the predefined answer selected by the user.
+The multiple choice can also be used as a basis (condition) for the question rules. This way, certain containers and their contents are displayed depending on the predefined answer selected by the user.
 
-Give the element a meaningful name so that you can keep track of the question
-rules.
+Give the element a meaningful name so that you can keep track of the question rules.
 
-![](assets/multiple choice.png)  
+![Form multiple choice](assets/formular_mehrfachwahl.jpg){ class="shadow lightbox" }
   
-Text input|
+## Text input
 
-The text input provides the learner with a single or multiline field for text
-input. The text input can be obligatory or optional.
+The text input provides the learner with a single or multiline field for text input. The text input can be obligatory or optional.
 
-![](assets/text.png)  
+![Form text input](assets/text.png){ class="shadow lightbox" }
   
-Upload file|
+## Upload file
 
-This element gives learners the ability to upload files. The Upload can be
-obligatory or optional.
+This element gives learners the ability to upload files. The Upload can be obligatory or optional.
 
-![](assets/upload.png)  
+![Form file upload](assets/upload.png){ class="shadow lightbox" }
   
-Information|
+## Information
 
-The Information element can be used to query further user-specific information
-such as name or age. It can be selected whether the information must be filled
-in voluntarily (optional) or obligatory and whether the user may enter the
-data himself or whether the automatically transmitted data should be used.
+The Information element can be used to query further user-specific information such as name or age. It can be selected whether the information must be filled in voluntarily (optional) or obligatory and whether the user may enter the data himself or whether the automatically transmitted data should be used.
 
 This information causes the questionnaire to lose its anonymity.
 
-![](assets/info.png)  
+![Form user-specific information](assets/info.png){ class="shadow lightbox" }
+
+## Terms of use
+
+With this element the coach can add a declaration of consent to the form, which must be checked off by the users, otherwise only an intermediate storage is possible but no delivery of the questionnaire.
+
+![Form terms](assets/terms.png){ class="shadow lightbox" }
   
-Terms of use|
+## Container
 
-With this element the coach can add a declaration of consent to the form,
-which must be checked off by the users, otherwise only an intermediate storage
-is possible but no delivery of the questionnaire.
+You can use containers to further structure forms. A 1-4 column layout is available. Nesting within a container field is also possible.
 
-![](assets/terms.png)  
-  
-Container|
+Furthermore, containers can be used as collection elements and basis for the question rules (branching scenario).
 
-You can use containers to further structure forms. A 1-4 column layout is
-available. Nesting within a container field is also possible.
+Containers without content are not displayed.
 
-Furthermore, containers can be used as collection elements and basis for the
-question rules (branching scenario).
-
-Containers without content are not displayed.  
-  
-Seperator|
+## Seperator
 
 Separation line for structuring areas
 
-![](assets/seperator.png)  
+![Form seperator](assets/seperator.png){ class="shadow lightbox" }
   
-Question rules
+## Question rules
 
 (Branching - Working Title)
 
-|
-
-With question rules, the display of containers can be made dependent on
-certain answers of the single or multiple choice (condition field). Thus, a
-container with the respective elements is only displayed if the user has
-selected a certain predefined answer.
+With question rules, the display of containers can be made dependent on certain answers of the single or multiple choice (condition field). Thus, a container with the respective elements is only displayed if the user has selected a certain predefined answer.
 
 Several rules can be added to a form.
 
-![](assets/question_rules_example.jpg)
+![Form Question rules](assets/question_rules_example.jpg){ class="shadow lightbox" }
 
- 
+## Tips for using the Form Editor
+
+Here are a few more tips for using the Form Editor:
+
+* For the "Rubric" choice, the questions and answers are created together.
+* For all other question types, the questions are created using the "Paragraph" element and assigned to the answers of the appropriate question type.
+* Use "Add entry" to add additional answer elements for single or multiple choice.
+* In addition to the questions, add further elements if required, e.g. "Terms of use" or "Information".
+* With the element "Container" you can create a multi-column design.
