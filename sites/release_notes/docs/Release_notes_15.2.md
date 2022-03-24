@@ -6,7 +6,7 @@ specific user groups. For the processing of the BBB-recordings an additional
 handler was integrated, which stores the recordings on an Opencast server.
 Recordings from the Opencast server can be integrated into OpenOlat via a
 separate Opencast course module. Besides minor adjustments the multi-window
-mode was further improved and if necessary the user name can be changed in
+mode was further improved and if necessary the username can be changed in
 OpenOlat.
 
 ![](assets/152/Features_Improvements_Labels_EN.png)
@@ -67,7 +67,7 @@ course element either single videos or whole series can be integrated.
 ## Technical details
 
   * Framework feature to create new windows from within a controller
-  * Detach LDAP user name from OpenOlat user name and enable LDAP users via Excel import
+  * Detach LDAP username from OpenOlat username and enable LDAP users via Excel import
   * Library Updates
   * Updating third-party libraries
 

@@ -57,7 +57,7 @@ The settings allow you to adapt OpenOlat according to your needs.
 
 #### General system settings: {: #general}
 
-Here you can read out your user name and your OpenOlat role. You can also
+Here you can read out your username and your OpenOlat role. You can also
 select your individual system language. OpenOlat has been translated into
 numerous languages. Changing the language will only become active after the
 next login.

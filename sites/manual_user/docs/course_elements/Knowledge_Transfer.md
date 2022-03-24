@@ -82,7 +82,7 @@ _http://www.server.com/page.html_ ).
 
   *  _New browser window (source visible):_ Another option is the possibility to display your external page in its own browser window.
 
-By selecting the upper two options OLAT will transfer user name and password
+By selecting the upper two options OLAT will transfer username and password
 in case your external page requests this.
 
 Embedded frames («iframe«) resemble single browser windows, however, they are

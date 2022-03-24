@@ -127,7 +127,7 @@ The following variables can be used in the subject and text of the e-mail:
     
     $username
 
-| The users user name  
+| The users username  
       
     
     $email

@@ -63,7 +63,7 @@ empty table before, there should be no syntax problems.
 
 A data line must always contain the following information:
 
-  * User identification (user name, registered email address or institution number/matriculation number)
+  * User identification (username, registered email address or institution number/matriculation number)
   * Number of points. Subpoints can be entered with commas or dots (Note: commas cannot be used if commas are used as separators)
   * Status (see below)
   * If desired, a comment can be entered in fourth position.

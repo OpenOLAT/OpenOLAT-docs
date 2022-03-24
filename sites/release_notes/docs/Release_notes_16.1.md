@@ -46,7 +46,7 @@ attribute, a passed test, or membership in a group or organization.
   * Exceptions for learners configurable based on specific criteria:  
 
     * Group membership
-    * User name
+    * Username
     * Specific user attribute
     * Passed/failed status of an assessable course element
   * Marking of a course element in editor mode if it has exception rules

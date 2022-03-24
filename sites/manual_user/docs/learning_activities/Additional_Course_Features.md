@@ -111,7 +111,7 @@ If the course author has activated the course chat you will see a link to the
 chat room in the course toolbar; you can enter any time. Just click on "Course
 chat" in order to open the chat window. At first you will always be anonymous.
 On the right side of the chat window there is the possibility to choose your
-alias or put your user name on display. General chat features will be further
+alias or put your username on display. General chat features will be further
 explained in the section ["Chat"](../personal/Chat.de.md).
 
   

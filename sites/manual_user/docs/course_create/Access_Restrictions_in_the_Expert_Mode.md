@@ -131,7 +131,7 @@ learning group [string]
 the same rights [string]  
  _isLearningGroupFull("_ [string] _")_|  Generates the boolean TRUE (= full)
 or FALSE (= vacancies) for the learning group indicated.  
- _isUser("_ [string] _")_|  Results in TRUE for users with the user name
+ _isUser("_ [string] _")_|  Results in TRUE for users with the username
 [string]  
  _inLearningArea("_ [string] _")_|  Generates TRUE for all group members in
 the learning area [string]  
@@ -270,7 +270,7 @@ administrator.
 
 Benutzerdaten| Kontaktdaten| Adressdaten  
 ---|---|---  
-userName| User name| telPrivate| Phone number private| street| Street  
+userName| Username| telPrivate| Phone number private| street| Street  
 firstName| First name| telMobile| Phone number mobile| extendedAddress| Extra
 address line  
 lastName| Last name| telOffice| Phone number office| poBox| P.O.Box  
@@ -562,7 +562,7 @@ within a course to make sure that only course participants with specific user
 attributes (e.g. members of a certain organization) will have access to your
 course material. AAI means "Authentication and Authorization Infrastructure"
 and allows university members to use systems of other participating
-institutions with only one user name and password. For further information on
+institutions with only one username and password. For further information on
 AAI please go to e.g. [Switch](http://www.switch.ch/aai/ "Switch") or to
 [Deutsches Forschungsnetz](https://www.aai.dfn.de/en/ "Deutsches
 Forschungsnetz") .

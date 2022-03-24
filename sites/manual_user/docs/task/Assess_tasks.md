@@ -35,7 +35,7 @@ assign points, depending on the configuration of the task.
 All files uploaded by the participant can be downloaded in the tab
 "Submissions" as well as in the assessment tool with one click on the button
 "Download all submitted files". The single uploads are saved sorted after
-learners (last name, name, user name) with the corresponding sub folders as
+learners (last name, name, username) with the corresponding sub folders as
 zip file.
 
 If no file is uploaded until the submission deadline it is marked in the

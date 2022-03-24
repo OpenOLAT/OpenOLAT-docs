@@ -25,7 +25,7 @@ All devices that meet the browser requirements (see above) are suitable. Mobile 
 
 **Can I use the BigBlueButton whiteboard with my tablet (e.g. iPad)?**
 
-Yes - this setup is possible. For this, the meeting should have an external guest link. To do this, log in to the meeting with your normal supervisor account and additionally log in with the tablet via the guest link. We recommend a user name like "Peter Meier - iPad". Via right click on the tablet user you can upgrade him to presenter and afterwards you can control the presentation on the tablet and use the whiteboard function (Tip: You can upload the presentation with the normal user at the beginning).
+Yes - this setup is possible. For this, the meeting should have an external guest link. To do this, log in to the meeting with your normal supervisor account and additionally log in with the tablet via the guest link. We recommend a username like "Peter Meier - iPad". Via right click on the tablet user you can upgrade him to presenter and afterwards you can control the presentation on the tablet and use the whiteboard function (Tip: You can upload the presentation with the normal user at the beginning).
 
 **One of the following error messages is displayed:**
 

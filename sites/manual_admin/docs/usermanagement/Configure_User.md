@@ -33,7 +33,7 @@ only displayed if the user is allowed to change the password.
   
 #### Authentifications
 
-| Here you can change the user name and edit and delete authentications.  
+| Here you can change the username and edit and delete authentications.  
   
 #### Properties
 

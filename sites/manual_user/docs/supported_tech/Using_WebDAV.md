@@ -36,7 +36,7 @@ implemented directly into the software (e.g. Microsoft Office).
 In order to get access to a folder in OpenOlat via WebDAV you need:
 
   * WebDAV link: WebDAV address of OpenOlat server as indicated below WebDAV compatible folders, or in your personal menu under Settings / WebDAV 
-  * Your OpenOlat user name,
+  * Your OpenOlat username,
   * Your OpenOlat/WebDAV password.
 
 If you access OpenOlat via Shibboleth or another Cloud Login you can set your WebDAV password on
@@ -67,7 +67,7 @@ an OpenOlat password you can use this one to access WebDAV.
     7. Click on "Next."
     8. Indicate your WebDAV link as Internet or network address.
     9. Click on "Next."
-    10. Now provide your OpenOlat user name or the stored email address and password.
+    10. Now provide your OpenOlat username or the stored email address and password.
     11. Click on "Finish."
 
 ??? abstract "Windows Vista"
@@ -80,14 +80,14 @@ an OpenOlat password you can use this one to access WebDAV.
     6. Click on "Next."
     7. Indicate your WebDAV link as internet or network address.
     8. Click on "Next."
-    9. Indicate your OpenOlat user name or the stored email address and password.
+    9. Indicate your OpenOlat username or the stored email address and password.
     10. You can then insert a name for your WebDAV connection.
     11. Click on "Finish."
 
 ??? abstract "Mac"
 
     1. Open the menu "Go to" in the Finder and then "Connecting to server..." Indicate your WebDAV link.
-    2. Provide your OpenOlat user name or the stored email address and password.
+    2. Provide your OpenOlat username or the stored email address and password.
     3. Click on "OK."
 
 ??? abstract "Linux"
@@ -95,7 +95,7 @@ an OpenOlat password you can use this one to access WebDAV.
     There are three possibilities for Linux users:
 
     1. KDE Plasma: in Dolphin insert in the path webdavs:// + WebDAV-link. You will be asked for username and password. If the path is not shown, it can be activated with F6 any time. Example: <webdavs://www.olat.uzh.ch/olat/webdav/>.
-    2. Gnome: `davs:// + user name or email address + @` \+ WebDAV link. Example: `davs://jdoe@www.olat.uzh.ch/olat/webdav/`.
+    2. Gnome: `davs:// + username or email address + @` \+ WebDAV link. Example: `davs://jdoe@www.olat.uzh.ch/olat/webdav/`.
     3. FUSE: WebDAV directories can be mounted directly into the file system (also compatible to OSX; for more information please go to the [FUSE website](http://fuse.sourceforge.net "FUSE website").
 
 ??? abstract "Alternative"

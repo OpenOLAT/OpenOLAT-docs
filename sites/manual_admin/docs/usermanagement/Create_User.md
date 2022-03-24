@@ -19,7 +19,7 @@ assigned to him/her.
 
 ## Create system user
 
-Mandatory fields are the user name, first name, last name and e-mail address.
+Mandatory fields are the username, first name, last name and e-mail address.
 In addition, further information can be stored. The "Account expiration"
 option can also be used to define an end or expiration date for the account.
 

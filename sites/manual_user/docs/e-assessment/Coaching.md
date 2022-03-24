@@ -108,7 +108,7 @@ how many participants the group has in total.
 Furthermore you will get information about how many group members have already
 passed the corresponding course. A click on a group name opens the list of
 group members with further information about the score, certificate etc.
-Clicking on a user name will again open the user-specific overview and you
+Clicking on a username will again open the user-specific overview and you
 will get access to the person's assessment tool for the associated course and
 have access to the lessons and the respective certificate.
 

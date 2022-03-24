@@ -8,7 +8,7 @@ OpenOlat works with a roles and rights management. First two user types are
 differentiated. These are:
 
   *  **Anonymous guest:**  Guests have - without registration - limited access to OpenOlat. They can only have a look at learning content enabled for guests, but cannot take part in learning activities. The link to the guest access can be found on the login page. Further information about guest can be found [here](Guest_access.md). 
-  *  **System user:**  Every user has a distinct user name, which cannot be changed after the registration anymore. Users can use enabled learning content and can take part in learning activities. Additionally every users has an individual configurable landing page and storage available. Further more he can create groups. 
+  *  **System user:**  Every user has a distinct username, which cannot be changed after the registration anymore. Users can use enabled learning content and can take part in learning activities. Additionally every users has an individual configurable landing page and storage available. Further more he can create groups. 
 
 !!! info inline
 

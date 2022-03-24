@@ -96,8 +96,8 @@ courses or over an entire semester. In the menu on the left "Lectures" is
 selected. Now you can search for a user, for example. All courses with absence
 management by this user will then be displayed.
 
-A class can also be displayed. For example, the column with the user names or
-the e-mail is copied from a class list and inserted into the field "User name,
+A class can also be displayed. For example, the column with the usernames or
+the e-mail is copied from a class list and inserted into the field "Username,
 e-mail or institution number". You can also select a semester under execution
 period. Semesters can only be selected if they have been entered in the
 administration. Otherwise, a start and end date is selected manually. For

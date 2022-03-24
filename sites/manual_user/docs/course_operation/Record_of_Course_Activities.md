@@ -125,10 +125,10 @@ So, the third row
 
     
     
-     u / add / participant / [group name] / [user name]
+     u / add / participant / [group name] / [username]
 
 would be read accordingly (database operation: update / modify): Add user
-[user name] to [group].
+[username] to [group].
 
 Options to analyze log files graphically will be further described in the
 section ["Statistics"](Using_Course_Tools.md#UsingCourseTools-_statistiken).

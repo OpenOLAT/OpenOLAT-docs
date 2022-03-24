@@ -60,7 +60,7 @@ instance can be displayed here.
 The "Deleted Users" table in the user management contains the following
 information that is relevant to the user deletion process:
 
-  *  **Del_User name:** In the delete process the user name of the deleted user is replaced by an ID.
+  *  **Del_Username:** In the delete process the username of the deleted user is replaced by an ID.
   *  **Name / Last name:** If the deleted user is an administrative user, first and last name are displayed here. If necessary, this data can also be deleted using the "Clear" action.
   *  **Deleted:** When was the user deleted.
   *  **Roles:** Displays the administrative roles of the person who was deleted.

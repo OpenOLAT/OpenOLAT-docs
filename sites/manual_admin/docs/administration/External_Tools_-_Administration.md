@@ -28,7 +28,7 @@ document tools, analysis tools and a PDF generator.
 In the OpenOlat system administration you can configure the OpenMeetings
 module and activate the functionality. To configure the OpenMeetings module,
 enter the URL of the OpenMeetings server in the tab "Configuration", as well
-as the user name of the web service previously created in OpenMeetings and the
+as the username of the web service previously created in OpenMeetings and the
 corresponding password. Then save the data and press the "Check the
 connection" button to check the connection data.
 
@@ -72,7 +72,7 @@ This is necessary to synchronize the times of the appointments with the vitero
 system.
 
 You will receive the following information from your vitero or OLAT
-administrator: "URL vitero server", "Web service user name", "Web service
+administrator: "URL vitero server", "Web service username", "Web service
 password" and "Customer identifier".
 
 Once you have entered the password, select the "Test server connection" button

@@ -221,7 +221,7 @@ style ist "lastname, firstname"
     
     $userName
 
-| The users user name  
+| The users username  
       
     
     $courseUrl
