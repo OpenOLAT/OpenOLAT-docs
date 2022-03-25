@@ -1,25 +1,9 @@
 # Wissensvermittlung
 
-  * 1 Wissensvermittlung 
-    * 1.1 Kursbaustein „Struktur“
-    * 1.2 Kursbaustein "Einzelne Seite"
-    * 1.3 Kursbaustein "Externe Seite"
-    * 1.4Kursbaustein „CP-Lerninhalt“
-    * 1.5 Kursbaustein „SCORM-Lerninhalt“
-    * 1.6Kursbaustein "Dokument"
-    * 1.7 Kursbaustein „Ordner“
-    * 1.8Kursbaustein „Podcast“
-    * 1.9Kursbaustein "Blog" 
-    * 1.10Kursbaustein „Video“
-    * 1.11 Kursbaustein "Video Livestream"
-    * 1.12 Kursbaustein "Opencast"
-    * 1.13 Kursbaustein "edu-sharing"
-    * 1.14 Kursbaustein "card2brain"
-    * 1.15 Kursbaustein "Edubase"
 
 ##  Kursbaustein „Struktur“ {: #structure}
 
-![](assets/structure.png)
+![structure icon](assets/structure.png)
 
 Der Kursbaustein „Struktur“ dient der Gliederung des Kurses und bietet
 standardmässig eine automatische Übersicht über alle ihm untergeordneten
@@ -30,7 +14,7 @@ trennen. Weitere Informationen finden Sie
 
 ##  Kursbaustein "Einzelne Seite" {: #single_page}
 
-![](assets/single_page.png)
+![single page icon](assets/single_page.png)
 
 Im Kursbaustein „Einzelne Seite“ können Sie verschiedene Dateien direkt in die
 Kursstruktur eingebunden werden. Diese webspezifischen Dateien (pdf, html)
@@ -42,11 +26,11 @@ angezeigt. Der Kursbaustein "Einzelne Seite" eignet sich besonders für die
 Bereitstellung von schnell sichtbaren Informationen und hypertextbasierten
 Inhalten. Weitere Informationen zu den Kursbausteinen "Einzelne Seite" und
 "Mehrere Einzelseiten" finden Sie
-[hier](../../pages/viewpage.action%EF%B9%96pageId=108593372.html).
+[hier](Course_Element_Single_Page.de.md).
 
 ##  Kursbaustein "Externe Seite" {: #external_page}
 
-![](assets/external_page.png)
+![external page icon](assets/external_page.png)
 
 Mit Hilfe des Kursbausteins „Externe Seite“ können Sie eine externe
 Internetseite aufrufen. Geben Sie einfach die gewünschte URL in der
@@ -65,41 +49,32 @@ notwendigen Zugangsdaten eintragen.
 
 Der Einsatz dieses Kursbausteins empfiehlt sich, wenn Sie beispielsweise
 Seiten mit Datenbankabfragen (Literaturrecherche-Tool, Online-Übungen aus dem
-Web, etc.) einbinden möchten. Es lassen sich nur externe Seiten über die
-Protokolle HTTP und HTTPS verlinken.
+Web, etc.) einbinden möchten. Es lassen sich nur externe Seiten über die Protokolle HTTP und HTTPS verlinken.
 
   
 
- Tab "Seiteninhalt" konfigurieren
+ ??? summary "Tab "Seiteninhalt" konfigurieren"
 
-**URL:** Dieses Eingabefeld müssen Sie ausfüllen. Hier geben Sie die Webseite
-an, auf der die gewünschten externen Inhalte liegen (im Format:
-_http://www.musterseite.com)_
+    **URL:** Dieses Eingabefeld müssen Sie ausfüllen. Hier geben Sie die Webseite an, auf der die gewünschten externen Inhalte liegen (im Format:_http://www.musterseite.com_)
 
- **Darstellung konfigurieren:** Sie können zwischen vier Optionen wählen:
+    **Darstellung konfigurieren:** Sie können zwischen vier Optionen wählen:
 
-  *  _Vollständig integriert (Quelle verborgen):_ Dies bedeutet, dass die externe HTML-Seite geparst und vollständig in die OpenOlat-Seite eingebaut wird. Die HTML-Seiten dürfen ausschliesslich Ressourcen wie Bilder, Flash, Videos oder Links mit **relativen Pfaden** enthalten. Absolute Pfade wie "http://..." sowie relativ absolute Pfade wie "/public" (relativ zu einem Basis URI) sind nicht erlaubt.
-  *  _Eingebettet (Quelle verborgen):_ Hier wird die externe HTML-Seite in ein sog. «iframe» eingebaut. Die Internet-Adresse der externen Seite ist für den Benutzer nicht sichtbar. Die HTML-Seiten dürfen ausschliesslich Ressourcen wie Bilder, Flash, Videos oder Links mit **relativen Pfaden** enthalten. Absolute Pfade wie "http://..." sowie relativ absolute Pfade wie "/public" (relativ zu einem Basis URI) sind nicht erlaubt.
-  *  _Eingebettet (Quelle sichtbar):_ Hier wird die externe HTML-Seite ebenfalls in ein «iframe» eingebaut. Im Quellcode der OLAT-Seite kann die Internet-Adresse der externen Seite eingesehen werden.
-  *  _Neues Browser-Fenster (Quelle sichtbar):_ Als weitere Option können Sie die externe Seite auch in einem eigenen Browserfenster anzeigen lassen.
+      *  _Vollständig integriert (Quelle verborgen):_ Dies bedeutet, dass die externe HTML-Seite geparst und vollständig in die OpenOlat-Seite eingebaut wird. Die HTML-Seiten dürfen ausschliesslich Ressourcen wie Bilder, Flash, Videos oder Links mit **relativen Pfaden** enthalten. Absolute Pfade wie "http://..." sowie relativ absolute Pfade wie "/public" (relativ zu einem Basis URI) sind nicht erlaubt.
+      *  _Eingebettet (Quelle verborgen):_ Hier wird die externe HTML-Seite in ein sog. «iframe» eingebaut. Die Internet-Adresse der externen Seite ist für den Benutzer nicht sichtbar. Die HTML-Seiten dürfen ausschliesslich Ressourcen wie Bilder, Flash, Videos oder Links mit **relativen Pfaden** enthalten. Absolute Pfade wie "http://..." sowie relativ absolute Pfade wie "/public" (relativ zu einem Basis URI) sind nicht erlaubt.
+      *  _Eingebettet (Quelle sichtbar):_ Hier wird die externe HTML-Seite ebenfalls in ein «iframe» eingebaut. Im Quellcode der OLAT-Seite kann die Internet-Adresse der externen Seite eingesehen werden.
+      *  _Neues Browser-Fenster (Quelle sichtbar):_ Als weitere Option können Sie die externe Seite auch in einem eigenen Browserfenster anzeigen lassen.
 
-Eingebettete Frames («iframe») verhalten sich wie eigene Browser-Fenster, die
-jedoch Bestandteil der HTML-Seite des Ursprungsfensters sind.  
-Vorteil von «iframe»: Sie können beliebige Inhalte (komplexe Webseiten in
-verschachtelten Frames, mathML etc.) in OLAT anzeigen lassen.  
-Nachteil von «iframe»: Die Inhalte erscheinen unter Umständen mit eigenen
-Scroll-Balken.
+    Eingebettete Frames («iframe») verhalten sich wie eigene Browser-Fenster, die jedoch Bestandteil der HTML-Seite des Ursprungsfensters sind.  
+    Vorteil von «iframe»: Sie können beliebige Inhalte (komplexe Webseiten in verschachtelten Frames, mathML etc.) in OLAT anzeigen lassen.  
+    Nachteil von «iframe»: Die Inhalte erscheinen unter Umständen mit eigenen Scroll-Balken.
 
-Sollten Sie sich nicht sicher sein, welche Variante in Ihrem Fall die Richtige
-ist, dann beginnen Sie mit der Option „Vollständig integriert“ und testen die
-anderen Darstellungsmöglichkeiten, bis die verlinkte Seite wie gewünscht
-angezeigt wird.
+    Sollten Sie sich nicht sicher sein, welche Variante in Ihrem Fall die Richtige ist, dann beginnen Sie mit der Option „Vollständig integriert“ und testen die anderen Darstellungsmöglichkeiten, bis die verlinkte Seite wie gewünscht angezeigt wird.
 
   
 
 ## Kursbaustein „CP-Lerninhalt“ {: #CP_learning_content}
 
-![](assets/content.png)
+![icon cp learning content](assets/content.png)
 
 Nutzen Sie den Kursbaustein „CP-Lerninhalt“, um einen Lerninhalt im IMS-CP-
 Format (IMS-CP Version 1.1.2) in Ihren Kurs einzubinden. Das CP können Sie
@@ -111,7 +86,7 @@ Weitere Infos zum CP finden Sie [hier](../resource_cp/index.de.md).
 
 ##  Kursbaustein „SCORM-Lerninhalt“ {: #SCORM_learning_content}
 
-![](assets/scorm.png)
+![icon scorm learning content](assets/scorm.png)
 
 Über den Kursbaustein "SCORM Lerninhalt" können extern erstellte SCORM-Pakete
 in OpenOlat Kurse eingebunden werden. SCORM ist ein Standard mit dem Inhalte
@@ -120,7 +95,7 @@ Systemen eingebunden werden können. Weitere Informationen zur Konfiguration
 des Kursbausteins SCORM finden Sie im Kapitel "Kursbaustein "[SCORM-Lerninhalt"](../resource_scorm/index.de.md).
 
 ## Kursbaustein "Dokument" {: #document}
-![](assets/document_icon.jpg)
+![icon document](assets/document_icon.jpg)
 
 Mit dem Kursbaustein „Dokument“ können verschieden Dokumentformate direkt
 sichtbar in den Kurs eingebunden werden. Der Kursbaustein ist besonders für
@@ -149,15 +124,15 @@ der Anzeigefläche kann definiert werden.
 Nach dem Download eines entsprechenden Dokuments wird in den Metadaten
 angezeigt, wer das Dokument als letztes bearbeitet hat.
 
-Für Video-Dateien sollte der Kursbaustein „Video“ und für HTML-Seiten der
-Kursbaustein „Einzelseite“ anstatt des Kursbaustein "Dokument" verwendet
-werden
+!!! warning "Hinweis"
+
+    Für Video-Dateien sollte der Kursbaustein „Video“ und für HTML-Seiten der Kursbaustein „Einzelseite“ anstatt des Kursbaustein "Dokument" verwendet werden.
 
   
 
 ##  Kursbaustein „Ordner“ {: #folder}
 
-![](assets/folder.png)
+![icon folder](assets/folder.png)
 
 Im Kursbaustein „Ordner“ können Sie Dateien zum Download anbieten. Vielfach
 wird der Kursbaustein Ordner dazu verwendet, Kursmaterialien wie Folien oder
@@ -167,13 +142,13 @@ konfiguriert werden.
 
 Weitere Informationen zur Konfiguration und Verwendung des Kursbausteins
 "Ordner" finden Sie
-[hier](../../pages/viewpage.action%EF%B9%96pageId=108593373.html).
+[hier](Course_Element_Folder.de.md).
 
   
 
 ## Kursbaustein „Podcast“ {: #podcast}
 
-![](assets/podcast.png)
+![icon podcast](assets/podcast.png)
 
 Den Kursbaustein „Podcast“ können Sie entweder dazu benutzen, Ihre eigenen
 Audio- und Videodateien oder externe Podcast-Episoden einfach in OpenOlat
@@ -186,7 +161,7 @@ Wie Sie einen Podcast [erstellen ](../resource_podcast/Four_Steps_to_Your_Podcas
 separaten Kapiteln.
 
 ## Kursbaustein "Blog" {: #blog}
-![](assets/blog.png)
+![icon blog](assets/blog.png)
 
 Über den „Blog“ können Sie die Teilnehmer des Kurses über aktuelle Themen in
 Form von Text, Bild oder Video informieren. Sie können sowohl externe Blogs
@@ -204,7 +179,7 @@ separaten Seiten.
 
 ## Kursbaustein „Video“ {: #video}
 
-![](assets/video_64_0_434343_none.png)
+![icon video](assets/video_64_0_434343_none.png)
 
 Mit dem Kursbaustein "Video" können Sie selbst erstellte Videos oder über eine
 URL importierte Videos, die als Lernressource Video in OLAT vorliegen, Ihrem
@@ -213,7 +188,7 @@ Video kann mit einer Kommentierung und Bewertung versehen und so optimal in
 das Lehr-Lerngeschehen eines Kurses eingebunden werden.
 
 Weitere Informationen zum Kursbaustein Video finden Sie
-[hier](../../pages/viewpage.action%EF%B9%96pageId=108593229.html).
+[hier](../resource_video/Course_Element_Video.de.md).
 Informationen zur Nachbearbeitung des Videos mit OLAT Quiz und Sprungmarken
 finden Sie im Kapitel "[Lernressource:
 Video](../resource_video/Learning_resource_Video.de.md)".
@@ -236,7 +211,7 @@ oder ganze Serien eingebunden werden.
 
 ##  Kursbaustein "card2brain" {: #card2brain}
 
-![](assets/card2brain_434343_64.png)
+![icon c2b](assets/card2brain_434343_64.png)
 
 Der Baustein card2brain ermöglicht das Lernen mit Lernkarten. Um diesen
 Baustein zu nutzen, müssen Sie zwingend ein Entreprise-Account von card2brain
@@ -245,11 +220,11 @@ besitzen. Kunden von frentix wenden Sie dafür bitte an
 kontaktieren direkt [card2brain](http://card2brain.ch/info/contact).
 
 Weitere Informationen zum Kursbaustein finden Sie
-[hier](../../pages/viewpage.action%EF%B9%96pageId=108593228.html).
+[hier](Course_Element_card2brain_Flashcards.de.md).
 
 ##  Kursbaustein "Edubase" {: #edubase}
 
-![](assets/edubas_icon.png)
+![icon edubase](assets/edubas_icon.png)
 
 Mit diesem Kursbaustein können e-Books von Edubase verlinkt und direkt in
 OpenOlat aufgerufen werden.
@@ -260,12 +235,9 @@ Kunden von frentix wenden Sie dafür bitte an
 [edubase@frentix.com](mailto:edubase@frentix.com), Nichtkunden kontaktieren
 direkt [Edubase](https://www.edubase.ch/).
 
-Der Baustein muss zunächst in der Administration freigeschalten und
-konfiguriert werden, ebenso werden Berechtigungsschlüssel für die eBooks
-benötigt. Sind die Voreinstellungen abgeschlossen, kann der Baustein zu einem
-Kurs hinzugefügt werden. Für die eingebundenen eBooks ist es im Editor
-möglich, Leseaufträge zu bestimmten Buchpassagen für Kursteilnehmer zu
-erstellen.
+!!! info "Info"
 
-![](assets/Edubase_DE.png)
+    Der Baustein muss zunächst in der Administration freigeschalten und konfiguriert werden, ebenso werden Berechtigungsschlüssel für die eBooks benötigt. Sind die Voreinstellungen abgeschlossen, kann der Baustein zu einem Kurs hinzugefügt werden. Für die eingebundenen eBooks ist es im Editor möglich, Leseaufträge zu bestimmten Buchpassagen für Kursteilnehmer zu erstellen.
+
+![Edubase Screen](assets/Edubase_DE.png)
 

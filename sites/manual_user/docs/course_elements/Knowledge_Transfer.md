@@ -1,25 +1,9 @@
 # Knowledge Transfer
 
-  * 1 Knowledge Transfer 
-    * 1.1 Course Element: Structure
-    * 1.2 Course Element: Single Page
-    * 1.3 Course Element: External Page
-    * 1.4 Course Element: CP Learning Content
-    * 1.5 Course Element: SCORM Learning Content
-    * 1.6Course Element: Document
-    * 1.7 Course Element: Folder
-    * 1.8 Course Element: Podcast
-    * 1.9 Course Element: Blog
-    * 1.10 Course Element: Video
-    * 1.11 Course Element: Video Livestream
-    * 1.12 Course Element: Opencast
-    * 1.13 Course Element: edu-sharing
-    * 1.14 Course Element: card2brain
-    * 1.15 Course Element: Edubase
 
 ##  Course Element: Structure {: #structure}
 
-![](assets/structure.png)
+![structure icon](assets/structure.png)
 
 The course element " Structure" serves to arrange your course. By default it
 offers an automatic overview of all sub-elements along with short title,
@@ -29,7 +13,7 @@ and/or to clearly separate your modules. Further information can be found
 
 ##  Course Element: Single Page {: #single_page}
 
-![](assets/single_page.png)
+![single page icon](assets/single_page.png)
 
 In the course element "Single page" you can integrate various files directly
 into the course structure. These web-specific files (pdf, html) can already be
@@ -44,7 +28,7 @@ content. Further information on the course elements "Single Page" and
 
 ##  Course Element: External Page {: #external_page}
 
-![](assets/external_page.png)
+![external page icon](assets/external_page.png)
 
 With the help of the course element "External page" you can call up an
 external website. Simply enter the desired URL in the configuration in the tab
@@ -66,41 +50,33 @@ It is recommended to use this course element when planning to include pages
 containing database queries (e.g. research tools, online exercises, etc.). It
 is only possible to link external pages via HTTP or HTTPS protocols.
 
- External page: configuration
+??? summary "External page: configuration"
 
- **URL:** You have to fill in this field. Here you indicate the site on which
-the desired external learning contents can be found (e.g.
-_http://www.server.com/page.html_ ).
+    **URL:** You have to fill in this field. Here you indicate the site on which the desired external learning contents can be found (e.g._http://www.server.com/page.html_).
 
- **Configure display:** You can choose between four options:
+    **Configure display:** You can choose between four options:
 
-  *  _Integrated completely (source hidden):_ The external HTML page will be parsed and integrated in your OLAT page completely. HTML pages may only contain resources such as images, Flash, videos or links with **relative paths**. Absolute relative paths such as "/public" (relative to a bsic URI) or absolute paths such as "http://..." are not allowed.
+      *  _Integrated completely (source hidden):_ The external HTML page will be parsed and integrated in your OLAT page completely. HTML pages may only contain resources such as images, Flash, videos or links with **relative paths**. Absolute relative paths such as "/public" (relative to a bsic URI) or absolute paths such as "http://..." are not allowed.
 
-  *  _Embedded (source hidden):_ The external HTML page will be included in a so-called «iframe« The external page's Internet address will not be visible. HTML pages may only contain resources such as images, Flash, videos or links with **relative paths**. Absolute relative paths such as "/public" (relative to a bsic URI) or absolute paths such as "http://..." are not allowed.
+      *  _Embedded (source hidden):_ The external HTML page will be included in a so-called «iframe« The external page's Internet address will not be visible. HTML pages may only contain resources such as images, Flash, videos or links with **relative paths**. Absolute relative paths such as "/public" (relative to a bsic URI) or absolute paths such as "http://..." are not allowed.
 
-  *  _Embedded (source visible):_ This also means including your external HTML page in a «iframe« The source code of the OLAT page will show you the external page's Internet address.
+      *  _Embedded (source visible):_ This also means including your external HTML page in a «iframe« The source code of the OLAT page will show you the external page's Internet address.
 
-  *  _New browser window (source visible):_ Another option is the possibility to display your external page in its own browser window.
+      *  _New browser window (source visible):_ Another option is the possibility to display your external page in its own browser window.
 
-By selecting the upper two options OLAT will transfer username and password
-in case your external page requests this.
+    By selecting the upper two options OLAT will transfer username and password in case your external page requests this.
 
-Embedded frames («iframe«) resemble single browser windows, however, they are
-part of the initial window's HTML page.
+    Embedded frames («iframe«) resemble single browser windows, however, they are part of the initial window's HTML page.
 
-Advantage of using an «iframe« : you can show any content in OLAT (e.g.
-complex web pages in nested frames, mathML etc.).
+    Advantage of using an «iframe« : you can show any content in OLAT (e.g.complex web pages in nested frames, mathML etc.).
 
-Disadvantage of using an «iframe« : your content might appear along with its
-own scroll bar.
+    Disadvantage of using an «iframe« : your content might appear along with its own scroll bar.
 
-If you are not sure which variant is the right one for your case, start with
-the option "Integrated completely" and test the other display options until
-the linked page is displayed as desired.
+    If you are not sure which variant is the right one for your case, start with the option "Integrated completely" and test the other display options until the linked page is displayed as desired.
 
 ##  Course Element: CP Learning Content {: #CP_learning_content}
 
-![](assets/content.png)
+![icon cp learning content](assets/content.png)
 
 Use the course element "CP Learning Content" to integrate learning content in
 IMS-CP format (IMS-CP Version 1.1.2) into your course. You can either create
@@ -113,7 +89,7 @@ Further information on the CP can be found
 
 ##  Course Element: SCORM Learning Content {: #SCORM_learning_content}
 
-![](assets/scorm.png)
+![icon scorm learning content](assets/scorm.png)
 
 Using the course element "SCORM Learning Content", externally created SCORM
 packages can be integrated into OpenOlat courses. SCORM is a standard with
@@ -125,7 +101,7 @@ content](Course_Element_SCORM_Learning_Content.md)".
 
 ## Course Element: Document {: #document}
 
-![](assets/document_icon.jpg)
+![icon document](assets/document_icon.jpg)
 
 By means of the course element "Document" different document formats can be
 integrated directly into the course. This course element is especially
@@ -153,12 +129,13 @@ The height of the display area can also be defined.
 After downloading a corresponding document, the metadata shows who edited the
 document last.
 
-For video files the course element "Video" should be used and for HTML pages
-the course element "Single page".
+!!! warning "Note"
+
+    For video files the course element "Video" should be used and for HTML pages the course element "Single page".
 
 ##  Course Element: Folder {: #folder}
 
-![](assets/folder.png)
+![icon folder](assets/folder.png)
 
 In the course element "Folder" you can offer files for download. The course
 element folder is often used to provide course materials such as slides or
@@ -170,7 +147,7 @@ Further information on the configuration and use of the course element
 
 ##  Course Element: Podcast {: #podcast}
 
-![](assets/podcast.png)
+![icon podcast](assets/podcast.png)
 
 The course element "Podcast" can either be used to easily provide others with
 your own audio and video files or with external podcast episodes in OpenOlat.
@@ -184,7 +161,7 @@ separate chapters.
 
 ##  Course Element: Blog {: #blog}
 
-![](assets/blog.png)
+![icon blog](assets/blog.png)
 
 Via the "Blog" you can inform the participants of the course about current
 topics in the form of text, pictures or video. You can integrate external
@@ -201,7 +178,7 @@ separate pages.
 
 ##  Course Element: Video {: #video}
 
-![](assets/video_64_0_434343_none.png)
+![icon video](assets/video_64_0_434343_none.png)
 
 With the course element "Video" you can add self-made videos or videos
 imported via a URL, which are available as learning resource video in OLAT, to
@@ -210,7 +187,7 @@ annotated and evaluated and thus optimally integrated into the learning and
 teaching process of a course.
 
 Further information about the course element video can be found
-[here](Course+Element%EF%B9%95+Video.html). Information on postprocessing the
+[here](../resource_video/Course_Element_Video.md). Information on postprocessing the
 video with OLAT Quiz and jump marks can be found in chapter "[Learning
 Resource: Video](../resource_video/Learning_resource_Video.md)".
 
@@ -234,7 +211,7 @@ be integrated.
 
 ##  Course Element: card2brain {: #card2brain}
 
-![](assets/card2brain_434343_64.png)
+![icon c2b](assets/card2brain_434343_64.png)
 
 The course element card2brain allows learning with flashcards. To use this
 course element an enterprise login of card2brain is compulsory. Clients of
@@ -250,7 +227,7 @@ Further information on the course element can be found
 
 ##  Course Element: Edubase {: #edubase_config}
 
-![](assets/edubas_icon.png)
+![icon edubase](assets/edubas_icon.png)
 
 This course element allows you to link to e-books from Edubase. The e-books
 can then be opened in OpenOlat.
@@ -260,11 +237,9 @@ allowance to use a specific e-book. Clients of frentix please contact
 [edubase@frentix.com](mailto:edubase@frentix.com)[.](mailto:contact@frentix.com.)
 Non-clients please contact [Edubase](https://www.edubase.ch/) directly.
 
-The module must first be activated and configured in the administration, and
-authorization keys for the eBooks are also required. As soon as the pre-
-settings are done, the course element can be added in OpenOlat. By using the
-editor, you can define specific reading orders for the users for an embedded
-e-book.
+!!! info "Info"
 
-![](assets/Edubase_EN.png)
+    The module must first be activated and configured in the administration, and authorization keys for the eBooks are also required. As soon as the pre- settings are done, the course element can be added in OpenOlat. By using the editor, you can define specific reading orders for the users for an embedded e-book.
+
+![Edubase Screen](assets/Edubase_EN.png)
 
