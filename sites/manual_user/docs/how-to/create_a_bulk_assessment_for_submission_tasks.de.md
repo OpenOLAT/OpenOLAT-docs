@@ -11,9 +11,7 @@ Tabulator oder Komma getrennt.
 Am einfachsten ist es eine Tabelle aus Excel oder OpenOffice zu verwenden und
 diese mit Werten zu füllen.
 
-![](assets/Massenbewertung.png)
-
-![](assets/Tabelle_Massenbewertung.png)
+![Table-result](assets/bulk_assessment-excel-DE.png)
 
 Massenbewertungen können für die [Assessment
 Kursbausteine](../course_elements/Assessment.de.md) Aufgabe,
@@ -21,12 +19,10 @@ Gruppenaufgabe und Bewertung vorgenommen werden. Die Massenbewertung für die
 Bausteine Aufgabe und Bewertung erfolgt über den Tab „Benutzer“. Die Massen-
 Gruppenbewertung erfolgt über den Tab „Gruppen“.
 
-  
-
 ## Erstellung einer Massenbewertung für die Kursbausteine Aufgabe oder Bewertung {: #node}
 
-  * [Aufgabe](../course_operation/Assessing_tasks_and_group_tasks.de.md)
-  * [Bewertung](../course_operation/Assessment_of_course_modules.de.md)  
+* [Aufgabe](../course_operation/Assessing_tasks_and_group_tasks.de.md)
+* [Bewertung](../course_operation/Assessment_of_course_modules.de.md)  
 
 Verwenden Sie ein externes Tabellenprogramm, erstellen Sie die gewünschten
 bzw. benötigten Spalten und tragen Sie die Bewertungen ein. Kopieren Sie
@@ -44,10 +40,10 @@ Wählen Sie zunächst im Bewertungswerkzeug den Kursbaustein Ihres Kurses aus,
 für den eine Massenbewertung durchgeführt werden soll. Er muss so konfiguriert
 sein, dass mindestens eine der folgenden Optionen aktiviert wurde:
 
-  * Punkte
-  * Bestanden
-  * Kommentar
-  * Dateien
+* Punkte
+* Bestanden
+* Kommentar
+* Dateien
 
 Anschließend können Sie mit der Massenbewertung beginnen.
 
@@ -56,14 +52,13 @@ der Bewertungsübersicht aktivieren und dann die leere oder nur teilausgefüllte
 Tabelle herunterladen. So erhalten Sie eine optimale Tabellenvorlage, die Sie
 nur noch entsprechend befüllen müssen.
 
-### Die einzelnen Schritte der Massenbewertung:
+### Die einzelnen Schritte der Massenbewertung
 
-![](assets/Massenbewertung1a.png)
+![Wizard](assets/Massenbewertung1a.png)
 
 Beim Kursbaustein Aufgabe kann zusätzlich gewählt werden ob die Abgabe
 akzeptiert wurde und es können gezippt Rückgabedateien hochgeladen werden.
 
-  
 #### 1. Bewertungsdaten
 
 Laden Sie hier die außerhalb von OpenOlat erstellten Bewertungsdaten hoch
@@ -73,31 +68,27 @@ geben.
 
 Eine Datenzeile muss immer folgende Informationen enthalten:
 
-  * Benutzeridentifikation (Benutzername, registrierte E-Mail-Adresse oder Institutionsnummer/Matrikelnummer)
-  * Anzahl Punkte. Teilpunkte können mit Komma oder Punkt eingegeben werden (Achtung: Komma kann nicht verwendet werden wenn Komma als Trennzeichen verwendet wird)
-  * Status (vgl unten)
-  * Falls gewünscht, kann an vierter Stelle noch ein Kommentar eingegeben werden.
+* Benutzeridentifikation (Benutzername, registrierte E-Mail-Adresse oder Institutionsnummer/Matrikelnummer)
+* Anzahl Punkte. Teilpunkte können mit Komma oder Punkt eingegeben werden (Achtung: Komma kann nicht verwendet werden wenn Komma als Trennzeichen verwendet wird)
+* Status (vgl unten)
+* Falls gewünscht, kann an vierter Stelle noch ein Kommentar eingegeben werden.
 
 Sie können Daten entweder über kopieren/einfügen aus Excel o.ä. direkt
 übernehmen, oder von Hand eintragen. Wählen Sie "getrennt durch Tabulator"
 falls Sie Daten aus einer Excel-Datei übernehmen.
 
-`micki,5,y,Hervorragend`| Dem Benutzer "micki" werden 5 Punkte, der Status
-„Bestanden“ sowie ein Kommentar hinzugefügt  
+`micki,5,y,Hervorragend`| Dem Benutzer "micki" werden 5 Punkte, der Status „Bestanden“ sowie ein Kommentar hinzugefügt  
 ---|---  
-`micki,,y,Hervorragend`| Wird die Punktezahl nicht benötigt, lassen Sie das
-Feld frei. Der Platzhalter muss allerdings dennoch eingefügt werden  
-`micki,4,y,""`| Um Kommentare zurück zu setzen, können Sie den „“ verwenden,
-wie dieses Beispiel zeigt  
+`micki,,y,Hervorragend`| Wird die Punktezahl nicht benötigt, lassen Sie das Feld frei. Der Platzhalter muss allerdings dennoch eingefügt werden  
+`micki,4,y,""`| Um Kommentare zurück zu setzen, können Sie den „“ verwenden, wie dieses Beispiel zeigt  
   
 Folgende Eingaben können Sie für den **Bestanden-Status** nutzen:
 
-`Bestanden: y, yes, passed, true, 1, bestanden`
+Bestanden: `y, yes, passed, true, 1, bestanden`
 
-`Nicht bestanden: no, failed, false, 0, nicht bestanden`  
+Nicht bestanden: `no, failed, false, 0, nicht bestanden`  
   
-
-Nur für Massenbewertungen des Aufgabenbausteins:
+Nur für Massenbewertungen des **Aufgabenbausteins**:
 
 Stellen Sie für die einzelnen Studierenden, die eine Rückgabedatei erhalten je
 einen Ordner. Legen Sie dort das individuelle Feedback für die jeweilige
@@ -126,13 +117,9 @@ Komma" auswählen, um die Daten korrekt zu übernehmen.
 
 Anschließend erscheinen die vorgenommenen Änderungen in der Bewertungstabelle.
 
-  
-
 Für die Kursbausteine Aufgabe und Bewertung ist auch eine Massenbewertung für
 Gruppen möglich.
 
 Gehen Sie bei der Gruppenbewertung analog vor. Wählen Sie unter dem Reiter
 "Gruppen" die gewünschte Gruppe aus und starten Sie im erscheinenden Menü die
 Option "Neue Massenbewertung".
-
-  

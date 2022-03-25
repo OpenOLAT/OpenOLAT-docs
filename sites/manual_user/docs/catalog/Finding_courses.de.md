@@ -18,7 +18,7 @@ auf den kleinen Pfeil und weitere Filteroptionen erscheinen.
 [Hier](../personal/Working_with_tables.de.md) erfahren Sie mehr darüber wie Sie Ihre
 Ansicht optimal filtern können.
 
-![](assets/Meine Kurse.png)
+![Meine Kurse](assets/mycourses-de.png)
 
 ### Suchen
 
@@ -32,15 +32,13 @@ Wenn Sie mal einen Kurs nicht finden, achten Sie darauf eventuell noch ein
 nicht gewünschter Filter aktiviert ist z.B. nur Kurse gefunden, die Sie noch
 nicht bestanden haben. Entfernen Sie in diesem Fall den entsprechenden Filter.
 
-  
-
-![](assets/Suche.png)
+![Search](assets/search-de.png)
 
 Markieren Sie den Kurs als Favorit, wenn Sie ihn gefunden haben. Klicken Sie
 dazu die weisse Flagge an, die sich dann rot färbt. Beim nächsten Login finden
 Sie den Kurs dann direkt in Ihren Favoriten.
 
-![](assets/Favoriten_markieren.png)
+![favorites](assets/favorites-de.png)
 
 ## Katalog
 
@@ -54,9 +52,7 @@ werden.
 Für OpenOlat Benutzer bietet sich der Katalog für die Suche nach bestimmten
 Kursen und Lernressourcen an.
 
-![](assets/Katalog.png)
-
-  
+![Katalog](assets/catalog-de.png)
 
 Verwenden Sie die Suchmaske, wenn Sie den gewünschten Kurs im Katalog nicht
 finden. Möglicherweise hat der Besitzer den Kurs noch nicht in den Katalog
@@ -66,8 +62,6 @@ In den Katalog können nur Kurse und Lernressourcen vom Lehrenden eingetragen
 werden, die auch für die Lerner frei geschaltet sind. Die Sichtbarkeit im
 Katalog ist abhängig vom Publikationsstatus und den Freigabeeinstellungen der
 Lernressource:
-
-  
 
 Benutzerrolle| Freigabeeinstellung| Publikationsstatus  
 ---|---|---  
@@ -82,8 +76,3 @@ Gäste| Offen & Gastzugang aktiviert| "Veröffentlicht" oder "Beendet"
 Verfügt ein User auch über Kurse, die einem [Curriculum
 ](../curriculum/Curriculum_Management.de.md)zugeordnet sind, erscheint im Menü "Kurse" auch
 der Bereich "Lehrgänge".
-
-  
-
-  
-

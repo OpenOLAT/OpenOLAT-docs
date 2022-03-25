@@ -8,7 +8,7 @@ The OpenOlat documentation is based on MkDocs using the material theme and some 
 - [https://github.com/backstage/mkdocs-monorepo-plugin](https://github.com/backstage/mkdocs-monorepo-plugin)
 - [https://github.com/ultrabug/mkdocs-static-i18n](https://github.com/ultrabug/mkdocs-static-i18n)
 - [https://facelessuser.github.io/pymdown-extensions/](https://facelessuser.github.io/pymdown-extensions/)
-
+- [Helpful markdown guide: https://markdownguide.org](https://www.markdownguide.org/basic-syntax/)
 
 ## File structure
 

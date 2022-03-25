@@ -1,6 +1,6 @@
 # Courses and Catalog
 
-![](assets/courses.png)
+![Course](assets/mycourses.png)
 
 Courses and other learning resources, i.e. learning content and learning
 activities of all kinds, are the linchpin of OpenOlat. This chapter explains
