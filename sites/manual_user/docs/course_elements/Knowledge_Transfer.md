@@ -17,7 +17,7 @@
     * 1.14 Course Element: card2brain
     * 1.15 Course Element: Edubase
 
-##  Course Element: Structure
+##  Course Element: Structure {: #structure}
 
 ![](assets/structure.png)
 
@@ -27,7 +27,7 @@ title, and description. Use this course element to arrange your course content
 and/or to clearly separate your modules. Further information can be found
 [here](Course_Element_Structure.md).
 
-##  Course Element: Single Page
+##  Course Element: Single Page {: #single_page}
 
 ![](assets/single_page.png)
 
@@ -98,7 +98,7 @@ If you are not sure which variant is the right one for your case, start with
 the option "Integrated completely" and test the other display options until
 the linked page is displayed as desired.
 
-##  Course Element: CP Learning Content
+##  Course Element: CP Learning Content {: #CP_learning_content}
 
 ![](assets/content.png)
 
@@ -111,7 +111,7 @@ can create the CP externally, for example with [eLML](http://www.elml.org
 Further information on the CP can be found
 [here](Creating+CP+Learning+Content.html).
 
-##  Course Element: SCORM Learning Content
+##  Course Element: SCORM Learning Content {: #SCORM_learning_content}
 
 ![](assets/scorm.png)
 
@@ -123,7 +123,7 @@ configuration of the course element SCORM can be found in the chapter "[Course
 element: SCORM learning
 content](Course_Element_SCORM_Learning_Content.md)".
 
-## Course Element: Document
+## Course Element: Document {: #document}
 
 ![](assets/document_icon.jpg)
 
@@ -156,8 +156,7 @@ document last.
 For video files the course element "Video" should be used and for HTML pages
 the course element "Single page".
 
-##  
-Course Element: Folder
+##  Course Element: Folder {: #folder}
 
 ![](assets/folder.png)
 
@@ -169,7 +168,7 @@ collaborative tool for the learner's file upload.
 Further information on the configuration and use of the course element
 "Folder" can be found [here](Course_Element_Folder.md).
 
-##  Course Element: Podcast
+##  Course Element: Podcast {: #podcast}
 
 ![](assets/podcast.png)
 
@@ -183,7 +182,7 @@ How to [create](../resource_podcast/Four_Steps_to_Your_Podcast.md) and
 [configure](../resource_podcast/Podcast_-_Further_Configurations.md) a podcast is explained in
 separate chapters.
 
-##  Course Element: Blog
+##  Course Element: Blog {: #blog}
 
 ![](assets/blog.png)
 
@@ -200,7 +199,7 @@ How to [create](../resource_blog/Four_Steps_to_Your_Blog.md) and
 [configure](../resource_blog/Blog_-_Further_Configurations.md) a blog is explained on
 separate pages.
 
-##  Course Element: Video
+##  Course Element: Video {: #video}
 
 ![](assets/video_64_0_434343_none.png)
 
@@ -229,7 +228,7 @@ configuration and connection of the Opencast server is done in the
 administration. In the course element either single videos or whole series can
 be integrated.
 
-##  Course Element: edu-sharing
+##  Course Element: edu-sharing {: #edusharing}
 
   
 

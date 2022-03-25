@@ -17,7 +17,7 @@
     * 1.14 Kursbaustein "card2brain"
     * 1.15 Kursbaustein "Edubase"
 
-##  Kursbaustein „Struktur“
+##  Kursbaustein „Struktur“ {: #structure}
 
 ![](assets/structure.png)
 
@@ -28,7 +28,7 @@ diesen Kursbaustein, um Ihre Kursinhalte zu gliedern und/oder Module klar zu
 trennen. Weitere Informationen finden Sie
 [hier](../../pages/viewpage.action%EF%B9%96pageId=108593217.html).
 
-##  Kursbaustein "Einzelne Seite"
+##  Kursbaustein "Einzelne Seite" {: #single_page}
 
 ![](assets/single_page.png)
 
@@ -97,7 +97,7 @@ angezeigt wird.
 
   
 
-## Kursbaustein „CP-Lerninhalt“
+## Kursbaustein „CP-Lerninhalt“ {: #CP_learning_content}
 
 ![](assets/content.png)
 
@@ -109,7 +109,7 @@ erklärt wird. Oder Sie erstellen das CP extern, beispielsweise mit
 
 Weitere Infos zum CP finden Sie [hier](../resource_cp/index.de.md).  
 
-##  Kursbaustein „SCORM-Lerninhalt“
+##  Kursbaustein „SCORM-Lerninhalt“ {: #SCORM_learning_content}
 
 ![](assets/scorm.png)
 
@@ -119,7 +119,7 @@ aber auch interaktive E-Learning Module gekapselt und in unterschiedlichen
 Systemen eingebunden werden können. Weitere Informationen zur Konfiguration
 des Kursbausteins SCORM finden Sie im Kapitel "Kursbaustein "[SCORM-Lerninhalt"](../resource_scorm/index.de.md).
 
-## Kursbaustein "Dokument"  
+## Kursbaustein "Dokument" {: #document}
 ![](assets/document_icon.jpg)
 
 Mit dem Kursbaustein „Dokument“ können verschieden Dokumentformate direkt
@@ -155,7 +155,7 @@ werden
 
   
 
-##  Kursbaustein „Ordner“
+##  Kursbaustein „Ordner“ {: #folder}
 
 ![](assets/folder.png)
 
@@ -171,7 +171,7 @@ Weitere Informationen zur Konfiguration und Verwendung des Kursbausteins
 
   
 
-## Kursbaustein „Podcast“
+## Kursbaustein „Podcast“ {: #podcast}
 
 ![](assets/podcast.png)
 
@@ -185,7 +185,7 @@ Wie Sie einen Podcast [erstellen ](../resource_podcast/Four_Steps_to_Your_Podcas
 [konfigurieren ](../resource_podcast/Podcast_-_Further_Configurations.de.md)erfahren Sie in
 separaten Kapiteln.
 
-## Kursbaustein "Blog"  
+## Kursbaustein "Blog" {: #blog}
 ![](assets/blog.png)
 
 Über den „Blog“ können Sie die Teilnehmer des Kurses über aktuelle Themen in
@@ -202,7 +202,7 @@ Wie Sie einen Blog [erstellen ](../resource_blog/Four_Steps_to_Your_Blog.de.md)u
 [konfigurieren ](../resource_blog/Blog_-_Further_Configurations.de.md)erfahren Sie auf
 separaten Seiten.
 
-## Kursbaustein „Video“
+## Kursbaustein „Video“ {: #video}
 
 ![](assets/video_64_0_434343_none.png)
 
@@ -230,7 +230,7 @@ Kurse eingebunden werden. Die Konfiguration und Anbindung des Opencast-Servers
 erfolgt in der Administration. Im Kursbaustein können entweder einzelne Videos
 oder ganze Serien eingebunden werden.
 
-##  Kursbaustein "edu-sharing"
+##  Kursbaustein "edu-sharing" {: #edusharing}
 
   
 

@@ -213,7 +213,7 @@ The test results of the participants will be personalised.
 
   
 
-##  Course Element: Self-test
+##  Course Element: Self-test {: #course_element_self_test}
 
 ![](../../download/thumbnails/590039/test_pencil-square-
 o_434343_64%EF%B9%96version=1&modificationDate=1487251973000&api=v2.png)

@@ -432,69 +432,6 @@ Furthermore you can manage your participants.
 The assignment of dates can be set in the course editor in the tab
 "Configuration" as well as when the editor is closed.
 
-####  Assignment of dates
-
- **Manage events** Opens the tools for creating and changing events. The link
-"Create event(s)" allows you to create one or more events at the same time.
-You can either edit events one at a time or multiple simultaneously. If a
-single event is being edited, the current properties are already preset in the
-input boxes; therefore it will be easier to make modifications. When editing
-multiple events, the input boxes are initially all empty. Only if an empty box
-is overwritten will the corresponding property be changed. If you just want to
-move your events, the boxes remaining can be left blank.
-
- Events: create & and edit
-
-By means of this tool you can create many enrollment dates without any effort.
-Attributes for these dates are defined by Default values. If all mandatory
-fields regarding Default values are filled in you can start creating events
-with the button _Create event(s)_
-
-Default values
-
- **Title:** Please indicate a title for this event. An entry is mandatory
-(mandatory field).
-
- **Location:** Fill in the venue here. An entry is mandatory (mandatory
-field).
-
- **Comment:** Fill in an optional comment here.
-
- **Begin of event:** Please fill in the date and time for the beginning of a
-series of dates. Be aware that your input must have the correct format. When
-clicking on the symbol next to the input field a calendar will open to choose
-a start time. This is more or less fail-safe. An entry is mandatory (mandatory
-field).
-
- **Duration of event:** Fill in here the duration of a single event in hours
-and minutes regarding a series of dates. An entry is mandatory (mandatory
-field).
-
- **Interval:** Fill in an interval between the dates in a series of events in
-hours and minutes. An entry is mandatory (mandatory field).
-
- **Number of events:** Fill in the number of events to be created. 0 or
-negative values are not allowed. An entry is mandatory (mandatory field).
-
- **Number of participants per date:** Fill in the maximum number of
-participants to be enrolled at this date. 0 or negative values are not
-allowed. An entry is mandatory (mandatory field).
-
-  
-
-Multiple Events: Move dates
-
-This input field allows you to move the choosen dates or events. Enter hours
-and minutes to move those dates. A preceding + or - indicates whether those
-dates should take place sooner or later. An entry is mandatory (mandatory
-field).
-
-**Manage participants** Opens the tool for deleting, adding, and notifying
-participants.
-
- **Signing out allowed:** Here you can define whether users should be able to
-cancel their enrollment.
-
   
 
   

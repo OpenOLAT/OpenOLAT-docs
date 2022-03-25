@@ -221,7 +221,7 @@ dieser Änderung angefallen sind.
 
 Die Resultate der Kursteilnehmer werden personalisiert aufgezeichnet.
 
-##  Kursbaustein „Selbsttest“
+##  Kursbaustein „Selbsttest“ {: #course_element_self_test}
 
 ![](../download/thumbnails/590039/test_pencil-square-
 o_434343_64%EF%B9%96version=1&modificationDate=1487251973000&api=v2.png)
