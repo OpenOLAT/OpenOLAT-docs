@@ -127,6 +127,7 @@ nav:
         - Assessing tasks and group tasks: "course_operation/Assessing_tasks_and_group_tasks.md"
         - Assessing tests: "course_operation/Assessing_tests.md"
         - The assessment form: "course_operation/The_assessment_form.md"
+        - Grades: "course_operation/Assessment_translate_points_in_grades.md"
       - Lectures and absences:
         - Overview: "course_operation/Lectures_and_absences.md"
         - Lektionen : "course_operation/Lectures_-_User_view.md"
