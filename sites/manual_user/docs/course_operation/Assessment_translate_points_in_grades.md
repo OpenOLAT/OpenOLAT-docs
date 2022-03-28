@@ -36,7 +36,7 @@ The calculation of the grading scale follows some special features.
 
 * The last and first performance class in the calculation has a half-size range than the rest.
 
-* Numerical type: When calculating with kink,the kink is not seen as a hard lower limit of a performance class. The score entered must only correspond to grade XY, i.e. it must contain.
+* **Numerical type**: When calculating with kink,the kink is not seen as a hard lower limit of a performance class. The score entered must only correspond to grade XY, i.e. it must contain.
 
 * **Textual type**: The lower limit of a performance class is equal to the score....
 
@@ -67,6 +67,3 @@ The calculation of the grading scale follows some special features.
 ### Adjust grading scale
 
 To adjust the grading scale later or to assign new grades, click on the button at the top. A wizard opens where you can correct the grading scale.
-
-
-Translated with www.DeepL.com/Translator (free version)
