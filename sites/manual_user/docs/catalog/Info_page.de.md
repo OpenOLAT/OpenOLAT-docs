@@ -8,12 +8,12 @@ Informationen sind bereits sichtbar bevor ein Kurs bzw. Lernressource
 Lehrende können auf diese Weise der Zielgruppe schon im Vorfeld zentrale
 Informationen zur Verfügung stellen. Hierzu zählen z.B.
 
-  * Namen der beteiligten Lehrenden
-  * Beschreibung der Veranstaltung
-  * Sprache
-  * Durchführungszeitraum
-  * Zeitaufwand, Lernziele, Voraussetzungen, Bescheinigung
-  * Lizenzart der Lernressource
+* Namen der beteiligten Lehrenden
+* Beschreibung der Veranstaltung
+* Sprache
+* Durchführungszeitraum
+* Zeitaufwand, Lernziele, Voraussetzungen, Bescheinigung
+* Lizenzart der Lernressource
 
 Viele Lehrende ergänzen ein Bild oder Video zur Veranstaltung. Dieses Bild
 sowie ein erster Teil der Beschreibung erscheinen dann auch in der Übersicht
@@ -26,10 +26,10 @@ Die Infoseite enthält auch einen Link um den Kurs zu starten bzw. zu buchen.
 OpenOlat generiert automatisch weitere Informationen die für die Nutzer
 wichtig sind. Hierzu zählen:
 
-  * Der externe Link zum Kurs bzw. zur Lernressource für den direkten Zugang
-  * Technische Infos mit der Kurs ID, Datum der letzten Änderung u.ä. Die ID ist die automatisch generierte Identifikationsnummern der Lernressource. Mit dieser ID können Sie die Lernressource über die Suchmaske suchen.
-  * Infos zur Verwendung mit Lizenzangaben zur Lernressource bzw. zum Kurs
-  * Meine Daten mit dem aktuellen Status, dem letzten Zugriff usw.
+* Der externe Link zum Kurs bzw. zur Lernressource für den direkten Zugang
+* Technische Infos mit der Kurs ID, Datum der letzten Änderung u.ä. Die ID ist die automatisch generierte Identifikationsnummern der Lernressource. Mit dieser ID können Sie die Lernressource über die Suchmaske suchen.
+* Infos zur Verwendung mit Lizenzangaben zur Lernressource bzw. zum Kurs
+* Meine Daten mit dem aktuellen Status, dem letzten Zugriff usw.
 
 ![](assets/Infoseite2.png)
 
@@ -96,10 +96,3 @@ Kursbetrieb in der Kurstoolbar das Icon  wählen.
 
 Wenn Ihre gewählte Veranstaltung kaum Informationen umfasst, dann liegt es
 daran, dass Ihr Lehrender diese Seite (noch) nicht weiter eingerichtet hat.
-
-  
-
-  
-
-  
-
