@@ -1,18 +1,28 @@
 # Release Notes 16.2
 
-![Release Grafik](assets/162/press-release-16.2.png)
+![Release Grafik](assets/162/press-release-16.2.png){ class="shadow" }
 
 Mit OpenOlat 16.2 geben wir unseren nächsten Major Release frei.
 
 ...
 
-![Anzahl Features Vervbesserungen Bugs](assets/162/Features_Improvements_Labels_DE.png)
+![Anzahl Features Verbesserungen Bugs](assets/162/Features_Improvements_Labels_DE.png){ class="shadow" }
 
 Seit Release 16.1 wurden über XX neue Funktionen und Verbesserungen zu OpenOlat hinzugefügt. Hier finden Sie die wichtigsten neuen Funktionen und Änderungen. Zusätzlich zu wurden mehr als 100 Bugs behoben. Die komplette Liste der Änderungen in 16.1 – 16.1.8 finden Sie [hier](Release_notes_16.1.md).
 
 * * *
 
 :material-calendar-month-outline: **Releasedatum: 01.04.2022 • Letztes Update: 01.04.2022**
+
+* * *
+
+## Ankündigung: Support-Ende IE11
+
+!!! warning "Die Unterstützung für IE11 endet!"
+
+    Für Internet Explorer 11 wird ab **Release 16.2** keine Wartung mehr erfolgen.
+    
+    Ab **Release 17.0** wird die Unterstützung komplett eingestellt. 
 
 * * *
 
@@ -32,16 +42,17 @@ Bei Prüfungen, die von den Prüflingen zu Hause geschrieben werden (z.B. Open-B
 
 In OpenOlat wurde für diese Anforderungen eine entsprechende Infrastuktur geschaffen:
 
-* Für Aufsichtspersonen (Betreuende) steht am Kursbaustein "Test" ein neuer Bereich "Kommunikation" zur Verfügung.
 * Aufsichtspersonen können Nachrichten an alle Prüflinge senden (einseitige Broadcast-Nachticht)
 * Der integrierte Prüfungs-Chat ermöglicht einen direkter Austausch zwischen Aufsichtsperson und Prüfling. Der Chat kann von beiden Seiten gestartet werden.
 * Aufsichtspersonen können bei Bedarf eine BigBlueButton-Videokonferenz mit dem Prüfling starten und dort die Bildschirmfreigabe nutzen.
+
+Zur Verwaltung der Benachrichtigungen steht den Aufsichtspersonen (Betreuenden) ein neuer Bereich "Kommunikation" am Kursbaustein "Test" zur Verfügung. Dort ist der Status der Anfragen ersichtlich und es wird angezeigt, welche Aufsichtsperson eine Anfrage bearbeitet. Es können auch mehrere Aufsichtspersonen einer Anfrage beitreten.
 
 ## Safe Exam Browser Konfiguration
 
 Für die Verwendung des Safe Exam Browsers bei Online-Prüfungen konnten bisher die im Safe Exam Browser erstellten Konfigurations-Keys in OpenOlat hinterlegt werden.
 
-Ergänzend wurden nun die gängigen Safe Exam Browser Konfigurationen ebenfalls in OpenOlat integriert, so dass Standard-Konfigurationen direkt in OpenOlat vorgenommen werden können. Die Konfigurationsdatei kann je nach ausgewählter Option vom Betreuenden oder auch von den Prüflingen selbst vor der Prüfung herunterlgeladen werden.
+Ergänzend wurden nun die gängigen Safe Exam Browser Konfigurationen ebenfalls in OpenOlat integriert, so dass Standard-Konfigurationen direkt in OpenOlat vorgenommen werden können. Die Konfigurationsdatei kann - je nach ausgewählter Option - vom Betreuenden oder auch von den Prüflingen selbst vor der Prüfung herunterlgeladen werden.
 
 * * *
 
@@ -53,16 +64,19 @@ Zusätzlich zur HTMl-Variante und den Rohdaten im Excel können Testresultate nu
 
 Da der Export von Testresultaten im PDF-Format für viele Teilnehmer viel Zeit in Anspruch nimmt, werden Testresultat-Exporte nun asynchron durchgeführt. Das heisst, ausgelöste Exporte werden zunächst in OpenOlat generiert und können nach Fertigstellung heruntergeladen werden. Man kann also in der Zwischenzeit weiter in OpenOalt arbeiten. Sobald der Export zum Download verfügbar ist, erhält man eine E-Mail-Benachrichtigung mit dem Link zum Download. Die einzelnen Exporte können in einem eigenen Exportbereich am Kursbaustein "Test" verwaltet werden.
 
-### Bewertungswerkzeug
+### Bewertungswerkzeug (5891)
 
-Die Übersichtsseite des Bewertungswerkzeugs und die Dartellung der Daten wurde komplett überarbeitet.
-
-* Erneuerung der Datenanzeige auf der Übersichtsseite (5891)
+Die Übersichtsseite des Bewertungswerkzeugs sowie die Darstellung der Daten wurde komplett überarbeitet. Nach dem neuen Konzept ist die Übersicht ein eigenständiger Navigationspunkt. Die Kurs-, Gruppen- und Curriculum-Teilnehmenden werden jeweils in separaten Bereichen zusammengefasst, Grafiken geben auf einen Blick den aktuellen Stand (z.B. zu Punktzahl oder Bestanden) wieder. Offene und noch freizugebende Bewertungen sind auf der rechten Seite kompakt dargestellt. Über Verlinkungen gelangt man zur entsprechend gefilterten Ansicht. Auf den einzelnen Kursbausteinen ist die neu strukturierte Übersicht ebenfalls verfügbar.
 
 ### Sonstiges
 
-* Fragetyp "Formeleditor" (6071)
-* Teststatistiken waren bisher nur auf der obersten Ebene des Tests bzw. zu den einzelnen Fragen verfügbar. Ab sofort stehen die Statistiken auch auf Sektionsebene zur Verfügung.
+#### Fragetyp "Formeleditor" (6071)
+
+Der neue Fragetyp "Formeleditor" ermöglicht die Eingabe mathematischer Formeln als Antwort auf eine Fragestellung. Teilnehmende werden durch den visuellen Editor bei der Formelerfassung unterstützt und können zusätzliche Texte, z.B: zur Herleitung oder Erklärung ergänzen. Die dabei eingegebenen Formeln werden _nicht_ mathematisch interpretiert und auf Korrektheit geprüft.
+
+#### Teststatistiken auf Sektionsebene
+
+Statistische Daten zu Tests waren bisher nur auf der obersten Ebene des Tests bzw. zu den einzelnen Fragen verfügbar. Ab sofort stehen die Statistiken auch auf Sektionsebene zur Verfügung.
 
 * * *
 
@@ -70,14 +84,15 @@ Die Übersichtsseite des Bewertungswerkzeugs und die Dartellung der Daten wurde 
 
 ### Für Autoren
 
-* Quick-Add Aktion um neue Kursbausteine hinzuzufügen
+* Quick-Add Aktion, um neue Kursbausteine hinzuzufügen
 * Kurs Kopier-Wizard:
     * Anzeige der Standardoptionen
     * Optionen für Test-Kusbaustein
     * Optionen für Dokumenten- und Betreuer-Ordner
     * Anpassung beim Verschieben von spezifischen Datumsangaben bei Kursbausteinen (5832)
-    * Kurslayout: verbessertes Verhalten bei Wechsel der Hintergrundfarbe (5867)
-    * Verbessertes Hervorheben der Kursbausteintypen im Editor (5994)
+* Kurslayout: verbessertes Verhalten bei Wechsel der Hintergrundfarbe (5867)
+* Verbessertes Hervorheben der Kursbausteintypen im Editor (5994)
+* Neuer HTML-Editor
 
 ### Für Teilnehmende
 
