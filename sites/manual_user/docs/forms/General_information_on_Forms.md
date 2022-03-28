@@ -1,47 +1,27 @@
-# General information on Questionnaires
+# General information on forms
 
-Since OpenOlat version 15.5 the term survey is no longer used for the
-corresponding learning resource. The learning resource is now called "Form"
-and the corresponding course element "Survey".
+Forms can be used for completion surveys, formative feedback, personal assessment, entry expectations and reflection, and many other scenarios.
 
-Forms are learning resources in OpenOlat that can be integrated into (several)
-courses and made available to people in this way e.g. as a questionnaire.
+Forms form the basis for the course elements
 
-If a form is used in the sense of a questionnaire, it can be used both as a
-final evaluation and as formative feedback. With a questionnaire you can
-determine the expectations of the participants at the beginning of the course
-or evaluate the course offering at the end of the course.
+* Form
+* Questionnaire
+* Assessment (rubric assessment)
 
-Surveys are created using the forms editor and can include different question
-types. Each form consists of a page with one or more questions. Like all
-learning resources, a questionnaire can also be copied, exported, and deleted.
+Forms can also be integrated into the learning resource "Portfolio 2.0 Template". In addition, forms can be used completely independent of a course, e.g. as a supplement to an attendance event as a questionnaire or entry form.
 
-Using the course element "Survey", a questionnaire can be added to a course
-and then completed by the participants. In addition, questionnaires can also
-be used as a [rubric ](Rubric.md)evaluation in the course element
-"[Assessment](../course_elements/Course_Element_Assessment.md)".
+Typical for forms is that they consist of an information element, one or more questions and provide the user with an action option. For example, something can be checked or a selection can be made or own text can be inserted. Depending on the implementation and further integration into a course, the information is anonymous or personal.
 
-OpenOlat ensures that each course participant can only complete the
-questionnaire once. Questionnaire results are saved anonymously by default.
-However, personalization is possible.
+In forms many different [question types](../forms/Form_editor_Questionnaire_editor.md) like rubric, single selection, multiple selection, text input and file upload are available. Each form consists of a page with one or more questions or elements. Branching is also possible via [Question rules](Question_rules.md).
 
-Before using the Questionnaire Editor, we recommend that you consider a
-concept for the survey and prepare the questions. This allows you to quickly
-create the survey using copy+paste.
+## Changes to forms and included questionnaires
 
-Old questionnaires created with OpenOlat version 12 or earlier can no longer
-be used.
+Please note that once a form has been called up by a participant, the form can only be changed in a limited way.
 
-## Editing forms and surveys
+!!! warning "Attention"
 
-As soon as a form has been integrated into a course and the first participant
-has called up this course element, only limited changes can be made under
-"Edit content". An exchange of the survey in the course element "Survey" is
-not possible.
+    The predecessor of the learning resource Form was the learning resource Questionnaire (QTI 1.2).
 
-If you want to change a form after its integration into the course, simply add
-a new course element "Survey" and re-integrate the form there. A change in the
-same element is not possible.
-
-  
-
+    The support of the old QTI 1.2 questionnaires was terminated with OpenOlat 15. Old questionnaires in QTI 1.2 format can no longer be added to a course, can no longer be used independently of a course, and can no longer be displayed normally.
+    
+    If you still have old questionnaires that you need, you have to create the questionnaires as new learning resource ["Form"](../forms/Three_Steps_to_your_Form.md). Create a new learning resource "Form" for this purpose.

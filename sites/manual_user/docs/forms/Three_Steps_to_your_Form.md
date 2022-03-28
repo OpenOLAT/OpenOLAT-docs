@@ -1,128 +1,63 @@
-# 4 steps to your Questionnaire
+# Three steps to your form
 
-How to create a questionnaire with the questionnaire editor.
+Here you will learn how to create a form for different purposes, set it up and include it in a course.
 
-  * 11\. Create learning resource Form
-  * 22\. Create questionnaire content in the editor
-    * 2.12.1 Add questions
-    * 2.22.2 Add answer selection
-    * 2.32.3 Adding additional elements and closing the editor
-  * 33\. Include the questionnaire in the course
-    * 3.13.1 Positioning the element
-    * 3.23.2 Linking forms
-  * 44\. Publish course
+## Step 1: Create learning resource form
 
-## 1\. Create learning resource Form
+1. In the [Authoring Area](../authoring/index.md) click on the link "Create" and select the learning resource "Form ".
+2. Enter a title for the form.
+3. The menu "[Settings](../course_create/Course_Settings.en.md)" of the administration appears. Here you can optionally make further settings immediately or later, e.g. store a license.
 
-Go to the authors area, click on "Create" and select "Form". Assign a title to
-the questionnaire.
+!!! info "Note"
 
-You will then be taken to the general settings of the questionnaire and can
-further configure the questionnaire if required (but this is not necessary for
-the time being).
+    If you want to use the [Form in Courses](Forms_in_Courses.en.md) you don't need to submit the tab "Release" of the learning resource Form. Setting up the tab "Release" is primarily relevant if you want to use the learning resource stand-alone.
 
-![](assets/creating_form.jpg)
+!!! tip "Tip"
 
-![](assets/survey_settings.jpg)
+    Since the learning resource form can be used in many different ways, it makes sense to consider the later use of the learning resource already when assigning the title, e.g. by prefixing it with a suitable abbreviation. This makes it easier to find and assign the form later.
 
-## 2\. Create questionnaire content in the editor
+## Step 2: Design + finalize form
 
-Select the "Edit content" link in the "Administration" menu and the form
-editor opens. Now select "+ Add content".
+1. In the "administration" of the learning resource choose form > "edit content" and you will get to the [form editor](../forms/Form_editor_Questionnaire_editor.md)
+2. choose "Add content" and select the desired element. It is best to start with a "Title" and add a short introductory text with the "Paragraph" element to inform the users accordingly.
 
-Depending on the type of question you want to create, select "Rubric", "Single
-choice", "Multiple choice", "Upload file" or "Text input". If you select
-"Rubric", the questions and answers will be created together. For all other
-question types, the questions are created with the help of the "Paragraph"
-element and assigned to the answers of the appropriate question type. Proceed
-as follows:
+    To add the next element click on the plus sign or select "Add content" again. You will see the selection of all elements again.
 
-### 2.1 Add questions
+    ![Form Editor Sample Element](assets/Formular_Beispiel1.png){ class="shadow lightbox" }
 
-Use "Paragraph" to enter your questions. A separate element is required for
-each question. You can also enter all your questions one after the other with
-a paragraph element.
+3. Next, select the desired question types and any organizational elements.  Save your settings in each case, if selectable. Click "Close" to finish entering an element and add more elements.
+Repeat the process until the form is complete. If you want to use recurring elements, you can simply duplicate them.
 
-### 2.2 Add answer selection
+    If you want to change the order of the elements, you can simply drag and drop them.
 
-Depending on the question, add a ", "Single choice" or "Multiple choice",
-"Upload file" or "Text input". You can use "Add entry" to add further answer
-elements to single or multiple choice.
+When you are done, close the editor by clicking on the title of the form in the crumb navigation. The form is now saved and you can see the form from a user's perspective.
 
-#### **Question type rubric**
+Depending on the type of question you want to create, select "Rubric", "Single selection", "Multiple selection", "Upload file" or "Text input".
 
-[Rubrics ](Rubric.md)are useful if you want to use several questions for the
-same rating scale. This question type is created slightly differently.
+For more details on how to use the Form Editor, see the "[Form Editor"](../forms/Form_editor_Questionnaire_editor.md) chapter.
 
-Select the editor element "Rubric" and enter a rubric name. Configure the type
-of presentation via "Type", scale type and the number of steps.
+## Step 3: Embed form directly in course
 
-Enter the question or the corresponding statement in the field on the left.
-Add further question fields by clicking on "Add question" and complete the
-texts.
+1. go to the [author area](../authoring/index.md). In the area "My courses as well as under "My entries" and if necessary under "Favorites" you will find your courses. Start the course in which the form is to be integrated.
 
-Use the "Column caption" to set up a rating scale. You define the number of
-scale elements under "Steps". Then click on "Save".
+2. Open the "[Course editor](../course_create/In_Five_Steps_to_Your_Course_With_the_Course_Editor.md)" via "Administration".
+   
+    Select "Insert course elements" and click on the desired [course element](../course_elements/Assessment.md) form, survey or [assessment](../course_elements/Assessment.md), depending on your scenario.
 
-Use the "Advanced configuration" to name the rubric and define further details
-about the scale.
+3. Go to the respective tab Form or Survey of the course element and add a suitable form here → "Select, create or import file".
 
-### 2.3 Adding additional elements and closing the editor
+    In the case of the course element Assessment, activate "Rubric assessment" in the tab `"Assessment" > "Select rubric form"`.
 
-If necessary, add further elements, e.g. "Terms of Use" or "Information".
+4. A list with your form learning resources will appear. Select the prepared form by clicking on the selection tick.
 
-It is useful to add a heading to the questionnaire, possibly also a short
-piece of information. You can do this with the "Title" and "Paragraph"
-elements.
+5. If necessary, you can preview the form in the configuration tab by clicking on the name of the form and also edit it as long as the form has not been edited.
 
-When you are done, close the editor by clicking on the title of the
-questionnaire in the breadcrumb navigation. The questionnaire is now saved and
-you see the questionnaire from the perspective of a user. Now the
-questionnaire is finished and can be integrated into your course.
+6. If required, the other tabs of the course element can be configured.
 
-  
+7. Finally, the course must be published so that the form is visible to the participants and can be filled out.
 
-## 3\. Include the questionnaire in the course
+    To do this, simply close the course editor by clicking on the name of the course in the crumb bar and allow publishing manually or automatically by selecting "Yes" in the selection that appears. Alternatively, you can also use the "Publish" button in the editor on the right side of the toolbar.
 
-Go to the authoring area and open the course editor of the desired course.
+!!! tip "Tip"
 
-![](assets/course_editor.jpg)
-
-### 3.1 Positioning the element
-
-Use the cursor to select the point in the left-hand navigation where you want
-to position the course element.
-
-Under "Insert course elements" select the course element "Survey" and the new
-course element will be added to your course.
-
-![](assets/survey_choose.jpg)
-
-### 3.2 Linking forms
-
-In the "Survey" tab, click the "Select, create or import" option and select
-the previously created form.
-
-If necessary, also define the other options in the "Survey" tab and define who
-can edit the survey and who can see the results.
-
-In principle, a questionnaire can also be created directly here in the course
-via the course element "Survey". However, it is often unclear to the creator
-that the questionnaire created in this way is a course-independent OpenOlat
-learning resource that can also be used in other courses. Therefore, the
-general way is explained in this tutorial.
-
-![](assets/survey_choose_create.jpg)
-
-## 4\. Publish course
-
-Finally, publish the course by clicking on the title of the course in the
-breadcrumb navigation. Select "Yes, automatically" if you want to publish all
-changes made or "Yes, manually" if you want to make further settings.
-
-Only when you have published the course the questionnaire form will be visible
-for the users. From this point on, no further questions can be added or
-deleted in the editor and only minor corrections can be made.
-
-![](assets/course_shut.jpg)
-
+    If necessary, also make sure that the configuration of previous course elements or the top course node does not undesirably restrict editing, e.g. by sequential learning steps or undesirable completion criteria in the [Learning path tab](../course_create/Learning_path_course_-_Course_editor.en.md).
