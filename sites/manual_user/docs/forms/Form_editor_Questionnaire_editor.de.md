@@ -36,7 +36,7 @@ Auch kann die Positionierung durch die Verwendung des Container Element weiter o
 
 ## Rubrik
 
-Für die Darstellung eines [Rubrik](Rubric.de.md)stehen drei unterschiedliche Typen zur Verfügung. Die Bewertungen können sich wie bei Single-Choice Fragen nur auf einen Aspekt beziehen oder kontinuierlich erfolgen. Anders als bei den anderen Fragetypen werden hier Fragen und Antworten über dasselbe Element organisiert.
+Für die Darstellung eines [Rubrik](Rubric.de.md) stehen drei unterschiedliche Typen zur Verfügung. Die Bewertungen können sich wie bei Single-Choice Fragen nur auf einen Aspekt beziehen oder kontinuierlich erfolgen. Anders als bei den anderen Fragetypen werden hier Fragen und Antworten über dasselbe Element organisiert.
 
 ![Formular Rubrik](assets/formular_rubrik.jpg){ class="shadow lightbox" }
 
