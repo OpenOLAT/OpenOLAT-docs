@@ -1,6 +1,6 @@
 # Release Notes 16.2
 
-![Release Grafik](assets/162/press-release-16.2.png){ class="shadow" }
+![Release Grafik](assets/162/press-release-16.2.png)
 
 Mit OpenOlat 16.2 geben wir unseren nächsten Major Release frei.
 
@@ -31,8 +31,13 @@ Seit Release 16.1 wurden über XX neue Funktionen und Verbesserungen zu OpenOlat
 * Integration Notensystem (6007)
 * Implementation einer Skala für Noten
     * Aktivierung in der Administration
-    * Noten, Textbewertung, Smileys
+    * Zwei Modi „manuelle Zuweisung“ und „automatische Zuweisung“
+    * Einsatz für Noten, Textbewertung, Smileys:
+        * Beispiele für Bewertungsskalen: 1-6, A-F, „sehr gut“ - „ungenügend“, „Einsteiger“/„Spezialist“/„Experte“.
+
 * Anzeige: Coaching Tool / Bewertungswerkzeug (6008)
+    * Anzeige der Statistiken in der Übersicht
+    * Anzeige der Noten unter Teilnehmer
 
 Die Übertragung der Punkte in Noten kann für alle bewertbaren Kursbausteine vorgenommen werden. Dazu muss am Baustein die entsprechende Notenskala ausgewählt werden.
 
@@ -57,6 +62,14 @@ Ergänzend wurden nun die gängigen Safe Exam Browser Konfigurationen ebenfalls 
 * * *
 
 ## Features im Bereich eAssessment, Tests und Bewertung
+
+### Bewertung: Verbesserung des Freigabeprozesses
+
+Der bisherige Freigabestatus-Workflow für Bewertungen war für Autoren/Betreuende teilweise sehr intransparent und wurde je nach Kursbaustein unterschiedlich umgesetzt. Mit diesem Release wurde der **Freigabestatus-Workflow vereinheitlicht** und die Anzeige überarbeitet.
+
+Gleichzeitig wurde das **Bewertungsformular optimiert** zur übersichtlichen Darstellung des jeweiligen Freigabestatus und die Aktionen zum Zwischenspeichern bzw. Abschliessen der Bewertung mit oder ohne Freigabe neu angeordnet.
+
+Ausserdem wurde die **Leistungsübersicht des Teilnehmenden** in das Bewertungsformular aufgenommen, so dass der/die Betreuende im Freigabeprozess dies zur Ansicht vorliegen hat.
 
 ### Kursbaustein "Test"
 
@@ -111,7 +124,7 @@ Statistische Daten zu Tests waren bisher nur auf der obersten Ebene des Tests bz
 * Standard-Dokumenteneditor individuell konfigurieren
 * Platzhalter für Autovervollständigung in Suchfeldern
 * Trennung der Module "Lektionen" und "Abmeldungserfassung" (5853)
-* Allgemeine Verbesserungen im Sinne der Barrierefreiheit (6025)
+* Allgemeine Verbesserungen im Sinne der Barrierefreiheit, Login-Screen Optimierung (6025) (6085)
 
 ...
 
