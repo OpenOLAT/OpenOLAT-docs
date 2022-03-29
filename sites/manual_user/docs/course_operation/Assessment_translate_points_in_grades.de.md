@@ -1,4 +1,4 @@
-# Punkte in Noten umrechnen
+# Bewertungskala / Punkte in Noten umrechnen
 
 ## Allgemein
 

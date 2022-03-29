@@ -1,24 +1,30 @@
-# Mathematische Formel
+# Matheformel{: #formula}
 
-Mit dem HTML-Editor, der an verschiedenen Stellen in OpenOlat zur Verfügung
-steht können neben Texten auch mathematische Formeln hinzugefügt werden. Diese
-kurze Übersicht soll aufzeigen, wie eine solche Formel eingefügt werden kann
-und was man sich unterem einem
-[LaTeX](https://de.wikipedia.org/wiki/LaTeX)-Editor vorstellen soll.
+Formeln können in OpenOlat an verschiedenen Stellen in einem HTML-Editor eingefügt werden, wie ePortfolio, RichText-Eingabefelder und im Freitextaufgabenbaustein.
 
-1.| In einem ersten Schritt wird der HTML-Editor geöffnet.  
-Unter Einfügen kann "Mathematische Formel einfügen" ausgewählt werden. |
+## Einfügen über HTML-Editor
 
-![](assets/math_formel1_DE.png)  
+1. Man kann die mathematische Formel über `Einfügen>Mathematische Formel einfügen` im Kontextmenü des RichText-Editors/HTML-Editors oder direkt über den Formel-Button, falls vorhanden, einfügen.
+
+    ![formel im html editor](assets/mathjax-html.de.jpg)  {class="shadow"}
+
+2. Geben Sie die Formel über den LaTeX-Editor oder den grafischen Formeleditor ein. Weitere Informationen zur Verwendung des grafischen Editors finden Sie hier: [CortexJS keybindings](https://cortexjs.io/mathlive/reference/keybindings/).
+
+    ![formeleditor öffnen](assets/mathjax-editor-window.de.jpg){class="shadow"}
   
----|---|---  
-2.| Im LaTeX-Editor Formel eingeben und mit "Ok" speichern.  
-Im grauen Bereich wird die Vorschau angezeigt.|
+3. schließen Sie den html-Editor mit `Speichern`. Die Formel ist nun eingebunden.
 
-![](assets/latexformel_DE.png)  
-  
-3.| HTML-Editor mit "Speichern" schliessen.  
-4.| Formel ist im Text eingebunden (hier als Beispiel Forumsbeitrag).|
+    ![formula embedded](assets/mathjax-embedded.jpg){class="shadow"}
 
-![](assets/latexformel_imtext_DE.png)
+!!! Wortzählung bei Aufgaben
 
+    Die mathematische Formel zählt als ein Wort, unabhängig von Länge und Komplexität.
+
+## Einfügen einer Formel in den Content Editor
+
+1. Im Contenteditor gibt es jetzt einen neuen Blocktyp. Öffnen Sie den Inhaltseditor. Klicken Sie auf Inhaltsblock hinzufügen.
+
+    ![contenteditor-fragetyp](assets/mathjax-content-editor.de.jpg){class="shadow"}
+
+2. Wählen Sie `Mathematische Formel` im Menü.
+3. Der grafische Formeleditor öffnet sich. Jetzt können Sie Ihre Formel erstellen.
