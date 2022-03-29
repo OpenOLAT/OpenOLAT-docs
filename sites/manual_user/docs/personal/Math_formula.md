@@ -1,40 +1,31 @@
-# Math formula
+# Math formula{: #formula}
 
-With the help of the html-editor mainly text ist added and formatted in
-OpenOlat. For example in the description of the course elements, when creating
-a forum entry or in a portfolio entry. But the html-editor cannot only insert
-text, but also math formulas. This short overview shows how such a formula can
-be inserted and what is to be imagined behind a
-[LaTeX](https://en.wikipedia.org/wiki/LaTeX)-Editor.
+Formula can be inserted in OpenOlat in various places in a html editor, like ePortfolio, RichText Input Fields and in the Freitextaufgabenbaustein.
 
-1.|
+## Insert via HTML Editor
 
-In a first step you open the html-editor.  
-Below insert "Insert math formula" can be selected.  
+1. You insert the math formula via `Insert>Insert math formula` in the contenxt menu of the rich text editor/ html editor or directly via formula button, if available. A new popup window will open.
 
+    ![explanation for insert math formula](assets/mathjax-html.jpg){class="shadow"}
+
+2. Type in the formula via the LaTeX editor or th graphical form editor. Further information on how to use the graphical editor can be found here: [CortexJS keybindings](https://cortexjs.io/mathlive/reference/keybindings/).
+
+    ![formula editor window](assets/mathjax-editor-window.jpg){class="shadow"}
   
+3.Close the html-editor with "Save".
+The math formula is now embedded into the text.
 
-|
+   ![formula embedded](assets/mathjax-embedded.jpg){class="shadow"}
 
-![](assets/math_formel_insert_EN.png)  
-  
----|---|---  
-2.|
+!!! Wordcounting
 
-Type in the formula in the LaTeX-editor and save with "Ok".  
-The preview is shown in the grey area.
+    The math formular counts as one word, regardless of length and complexity.
 
-|
+## Insert a formula in Content Editor
 
-![](assets/math_formel_formula_EN.png)  
-  
-3.| Close the html-editor with "Save".  
-4.|
+1. Open the Content Editor. Click on add Content Block.
 
-The formula is embedded in the text.  
-(here the example of a forum entry)
+    ![contenteditor-fragetyp](assets/mathjax-content-editor.jpg){class="shadow"}
 
-|
-
-![](assets/math_forme_intext_EN.png)
-
+2. Choose `Formula` in the menu.
+3. The graphical formular editor opens. Now you can create your formula.

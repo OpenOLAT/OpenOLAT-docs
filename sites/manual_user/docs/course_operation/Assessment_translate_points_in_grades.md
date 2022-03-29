@@ -1,8 +1,8 @@
-# Translate points to notes
+# Evaluation skale / Translate points to grades
 
 ## General
 
-Points can be translated into a note.
+Points can be translated into a grade.
 The term "grade" is used here as a placeholder for all possible output formats. (Examples could be: 1-6, A-F, "very good" - "unsatisfactory", "beginner"/"specialist"/"expert" etc.) In order to be able to calculate and determine this, one needs a grading system, a grading scale and an assessable course element
 
 !!! Changes compared to assessment without grades
