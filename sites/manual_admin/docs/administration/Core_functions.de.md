@@ -14,13 +14,12 @@ Usern standardmässig zur Verfügung gestellt werden, z.B. Kalender, persönlich
 Ordner, E-Portfolio, Chat usw. sowie welche Werkzeuge in der Menüleiste für
 den Schnellzugriff aktiviert sind (Voreinstellung).
 
-![](assets/Usertools 01 DE.png)
-![](assets/Usertools 02 DE.png)  
+![](assets/Usertools 01 DE.png){ class="shadow lightbox thumbnail-xl" } ![](assets/Usertools 02 DE.png){ class="shadow lightbox thumbnail-xl" } 
 
 ## Kalender Administration
 
 An dieser Stelle können die System Administratoren die OpenOlat Kalender ein-
 oder ausschalten.
 
-![](assets/Kalender_admin.png)
+![](assets/Kalender_admin.png){ class="shadow lightbox" width="450px" }
 

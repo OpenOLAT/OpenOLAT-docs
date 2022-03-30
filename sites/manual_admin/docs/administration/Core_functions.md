@@ -13,12 +13,12 @@ Here administrators can set which OpenOlat
 by default, e.g. calendar, personal folders, e-portfolio, chat, etc. as well
 as which tools are enabled in the menu bar for quick access (Preset).
 
-![](assets/Usertools 01 EN.png)![](assets/Usertools 02 EN.png)
+![](assets/Usertools 01 EN.png){ class="shadow lightbox thumbnail-xl" } ![](assets/Usertools 02 EN.png){ class="shadow lightbox thumbnail-xl" }
 
 ## Calendar Administration
 
 At this point the system administrators can enable or disable the OpenOlat
 calendars.
 
-![](assets/Kalender_admin.png)
+![](assets/Kalender_admin.png){ class="shadow lightbox" width="450px" }
 

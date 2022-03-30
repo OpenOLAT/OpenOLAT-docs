@@ -3,9 +3,10 @@
 The OpenOlat license management is optional and can be managed in the
 administration.
 
-  
+ 
+## Activating Licenses
 
-### **Activating Licenses**
+![](assets/LizenzMgmt_aktivieren_EN.png){ class="shadow lightbox aside-right-lg" }
 
 Licenses can be used in the following OpenOlat sections:
 
@@ -18,9 +19,7 @@ sections.
 
   
 
-![](assets/LizenzMgmt_aktivieren_EN.png)
-
-### Types of licenses
+## Types of licenses
 
 OpenOlat offers 8 default licenses, of which seven are Creative Commons
 licenses, and the eighth is an „All rights reserved“ license. Please note that
@@ -36,7 +35,7 @@ dialog opens to fill in a license name, a corresponding licenses text and a
 CSS class. Licenses created in such a way can just be edited afterwards, they
 can not be deleted.
 
-![](assets/LizenzMgmt_eigeneLizenz_EN.png)
+![](assets/LizenzMgmt_eigeneLizenz_EN.png){ class="shadow lightbox" }
 
   
 
@@ -50,11 +49,13 @@ visible in the overview if the licenses have been generally activated for the
 corresponding section. You can activate specific licenses to individual
 section if required.
 
-![](assets/LizenzMgmt_Lizenztypen_EN.png)
+![](assets/LizenzMgmt_Lizenztypen_EN.png){ class="shadow lightbox" }
 
   
 
-### Set initial licenses
+## Set initial licenses
+
+![](assets/LizenzMgmt_initiale_EN.png){ class="shadow lightbox aside-right-lg" }
 
 In the sections "Folder", "Question pool" and "Learning resources" you can set
 an initial license, and an initial licensor, respectively.
@@ -66,6 +67,4 @@ When adding a new document to the course element "Folder", a new question to
 the Question pool, or a new learning resource to the authoring section, the
 system will automatically assign the deposited license and the appropriate
 licensor.
-
-![](assets/LizenzMgmt_initiale_EN.png)
 

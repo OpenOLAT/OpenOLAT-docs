@@ -7,6 +7,8 @@ Im Tab Überblick erhalten Administratoren einen schnellen Gesamtüberblick übe
 die Anzahl und die Größe von OpenOlat Dateien, Versionen, gelöschten Dateien
 und Miniaturansichten und können diesbezüglich Aktionen vornehmen.
 
+## Versionen
+
 Im **Tab "Versionen"** kann die maximale Anzahl von Versionen für eine Datei
 definiert werden.
 
@@ -23,17 +25,23 @@ Die Versionierung ist in allen Ordnern des Systems vorhanden: persönliche
 Ordner, Gruppenordner, Kursordner, Ressourcenordner und Kursbausteine
 'Ordner'.
 
-Im T **ab "Quotas"** kann die maximale Speichergröße und das Upload-Limit für
+## Quotas
+
+Im Tab **"Quotas"** kann die maximale Speichergröße und das Upload-Limit für
 bestimmte Pfade definiert und angepasst werden. Auch neue Quotas können
 ergänzt werden.
 
-Im **Tab "Grosse Dateien** " können Administratoren gezielt nach grossen
+## Grosse Dateien
+
+Im Tab **"Grosse Dateien** " können Administratoren gezielt nach grossen
 Dateien suchen und sich weitere Details zu diesen Dateien anzeigen lassen.
 
-Im **Tab "Gelöschte Dateien** " können von bestimmten Pfaden endgültig
+## Gelöschte Dateien
+
+Im Tab **"Gelöschte Dateien** " können von bestimmten Pfaden endgültig
 gelöscht werden.
 
-Orphan Versionen löschen:
+### Orphan Versionen löschen:
 
 Alle Dokumente, welche manuell gelöscht werden oder für welche keine
 Versionierung mehr zur Verfügung steht, werden in eine Art Papierkorb gelegt.
@@ -41,7 +49,8 @@ Von dort könnten sie wiederhergestellt werden, benötigen jedoch auch nach wie
 vor dieselbe Speichermenge. Mit Orphan Versionen löschen wird dieser
 Papierkorb gelöscht. Die Versionen können nicht mehr wiederhergestellt werden,
 benötigen jedoch auch keinen Speicher mehr.  
-Versionen aufräumen:
+
+### Versionen aufräumen:
 
 Die Versionierung kann von der Anzahl her angepasst werden. Wird jetzt
 beispielsweise von 5 Versionen auf 2 Versionen geändert, sind pro Dokument 3

@@ -7,6 +7,8 @@ In the Overview tab, administrators can get a quick overview of the number and
 size of OpenOlat files, versions, deleted files and thumbnails, and can take
 actions in this regard.
 
+## Versions
+
 In the "Versions" tab, the maximum number of versions for a file can be
 defined.
 
@@ -20,23 +22,30 @@ prevent another user from creating a new version in the meantime.
 Versioning is available in all folders of the system: personal folders, group
 folders, course folders, resource folders and course elements 'folders'.
 
+## Quotas
+
 In the tab " **Quotas** " the maximum storage size and the upload limit for
 certain paths can be defined and adjusted. New quotas can also be added.
+
+## Large Files
 
 In the " **Large Files** " tab, administrators can search specifically for
 large files and view more details about them.
 
+## Deleted Files
+
 In the " **Deleted Files** " tab, files can be permanently deleted from
 specific paths.
 
-Delete Orphan Versions:
+### Delete Orphan Versions:
 
 All documents which are manually deleted or for which versioning is no longer
 available are placed in a kind of recycle bin. From there they could be
 restored, but they still need the same amount of memory. With Delete Orphan
 Versions this recycle bin is deleted. The versions can no longer be restored,
 but they also no longer require any memory.  
-Clean up versions:
+
+### Clean up versions:
 
 The number of versions can be adjusted. If, for example, 5 versions are now
 changed to 2 versions, 3 versions per document are superfluous. However, these

@@ -9,14 +9,15 @@ werden, bitte beachten Sie jedoch, dass immer die zuerst zutreffende Regel
 angewandt wird. Die Regeln sind unabhängig von einander und müssen nicht alle
 zutreffen, lediglich die Reihenfolge ist relevant.
 
-Die benutzerspezifische Startseite, die der Benutzer im persönlichen Menü
-unter [Einstellungen/System/Spezielle
-Systemeinstellungen](../../manual_user/personal/Configuration.de.md#Konfiguration-_specifics) für sich
-persönlich festlegt, überschreibt die systemweite Startseite.
+!!! attention "Achtung"
+	Die benutzerspezifische Startseite, die der Benutzer im persönlichen Menü
+	unter [Einstellungen/System/Spezielle
+	Systemeinstellungen](../../manual_user/personal/Configuration.de.md#general) für sich
+	persönlich festlegt, überschreibt die systemweite Startseite.
 
   
 
-![](assets/admin_landingPage_DE.png)
+![](assets/admin_landingPage_DE.png){ class="shadow lightbox" }
 
   
 
@@ -53,11 +54,9 @@ kopierten Link, z.B. auf einen Kurs, eintragen. Bitte beachten Sie jedoch,
 dass der Link folgendes Format haben muss:
 
     
-    
     /MyCoursesSite/0
 
 für einen Kurs sieht das folgendermassen aus:  
-
     
     
     /RepositoryEntry/292192256/
@@ -67,9 +66,10 @@ Sie immer die URL nach dem entsprechenden Schema kürzen:
 
 ![](assets/landingPage_URL.png)  
 
-Es können zwei Kurse festgelegt werden, die zusätzlich zu den bekannten
-Bereich nach Wunsch in die Navigation aufgenommen werden können. Dies sind die
-Infokurse 1 + 2. Welche Kurse als Infokurs 1 oder 2 angezeigt werden, und
-damit hier zur Auswahl stehen, legen Sie im Bereich Customizing/Sites in den
-Tabs Infoseite n°1 / n°2 fest
+!!! info
+	Es können zwei Kurse festgelegt werden, die zusätzlich zu den bekannten
+	Bereich nach Wunsch in die Navigation aufgenommen werden können. Dies sind die
+	Infokurse 1 + 2. Welche Kurse als Infokurs 1 oder 2 angezeigt werden, und
+	damit hier zur Auswahl stehen, legen Sie im Bereich Customizing/Sites in den
+	Tabs Infoseite n°1 / n°2 fest
 

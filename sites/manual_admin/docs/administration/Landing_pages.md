@@ -10,12 +10,13 @@ not necessarily be all true, and that it's always the first matching rule
 that's applied. Because of that, you might want to give the order of the rules
 some consideration.
 
-Each user can choose his or her preferred landing page in the personal menu in
-[System Settings/System/Specific System
-Settings](../../manual_user/personal/Configuration.md#Configuration-_specifics). However, this
-overrides the system default.
+!!! attention 
+	Each user can choose his or her preferred landing page in the personal menu in
+	[System Settings/System/Specific System
+	Settings](../../manual_user/personal/Configuration.md#general). However, this
+	overrides the system default.
 
-![](assets/admin_landingPage_EN.png)
+![](assets/admin_landingPage_EN.png){ class="shadow lightbox" }
 
 The **position** defines the order in which the rules are applied: the first
 rule to match with a user role or an attribute, is applied, and the
@@ -46,12 +47,10 @@ group area, the subscriptions or the Infocourse 1) or pasting a custom link
 from OpenOlat, e.g. from a specific course element, in the **Landing page**
 column. Please note that the link needs to look like the following example:
 
-    
-    
+        
     /MyCoursesSite/0
 
 which would look for a course accordingly:  
-
     
     
     /RepositoryEntry/292192256/
@@ -61,11 +60,13 @@ always needs to be shortened according to the following pattern:
 
 ![](assets/landingPage_URL.png)
 
-You can predefine two courses that will be displayed in the top navigation in
-addition to the default sites. These are the Info courses 1 & 2\. Which
-courses will be displayed as info course 1 or 2 and are thus available for
-selection in this form, is determined in Administration/Customizing/Sites in
-the Info page n°1 / n°2 tabs.
+
+!!! info
+	You can predefine two courses that will be displayed in the top navigation in
+	addition to the default sites. These are the Info courses 1 & 2\. Which
+	courses will be displayed as info course 1 or 2 and are thus available for
+	selection in this form, is determined in Administration/Customizing/Sites in
+	the Info page n°1 / n°2 tabs.
 
 
 

@@ -3,7 +3,9 @@
 Das Lizenzmanagement in OpenOlat ist optional und kann in der Administration
 konfiguriert werden.
 
-### **Aktivierung von Lizenzbereichen**
+## Aktivierung von Lizenzbereichen
+
+![](assets/LizenzMgmt_aktivieren_EN.png){ class="shadow lightbox aside-right-lg" }
 
 Die Verwendung von Lizenzen ist für folgende Bereiche in OpenOlat möglich:
 
@@ -14,7 +16,7 @@ Die Verwendung von Lizenzen ist für folgende Bereiche in OpenOlat möglich:
 In der Administration können die Lizenzen für diese Bereiche aktiviert bzw.
 deaktiviert werden.
 
-### Lizenztypen
+## Lizenztypen
 
 In OpenOlat sind bereits 8 Standardlizenzen definiert, sieben Creative
 Commons-Lizenzen, sowie eine „All rights reserved“-Lizenz. Diese Standard
@@ -33,7 +35,7 @@ dem der Lizenzname, ein zugehöriger Lizenztext sowie eine CSS-Klasse
 eingetragen werden können. So erstellte Lizenztypen können nachträglich nur
 bearbeitet, aber nicht gelöscht werden.
 
-![](assets/LizenzMgmt_eigeneLizenz_DE.png)
+![](assets/LizenzMgmt_eigeneLizenz_DE.png){ class="shadow lightbox" }
 
   
 
@@ -48,11 +50,13 @@ nur sichtbar, wenn die Lizenzen generell für den jeweiligen Bereich aktiviert
 sind. Es ist hier möglich, für die einzelnen Bereiche nur bestimmte
 Lizenztypen zu aktivieren.
 
-![](assets/LizenzMgmt_Lizenztypen_DE.png)
+![](assets/LizenzMgmt_Lizenztypen_DE.png){ class="shadow lightbox" }
 
   
 
-### Initiale Lizenzen festlegen
+## Initiale Lizenzen festlegen
+
+![](assets/LizenzMgmt_initiale_DE.png){ class="shadow lightbox aside-right-lg" }
 
 Für die einzelnen Bereiche "Ordner", "Fragenpool" und "Lernressourcen" kann
 eine initiale Lizenz sowie ein initialer Lizenzgeber festgelegt werden.
@@ -64,8 +68,6 @@ Beim Anlegen eines neuen Dokuments im Ordner-Kursbaustein, einer neuen Frage
 im Fragenpool bzw. einer neuen Lernressource im Autorenbereich wird
 automatisch die hinterlegte Lizenz sowie der angegebene Lizenzgeber
 zugeordnet.
-
-![](assets/LizenzMgmt_initiale_DE.png)
 
   
 
