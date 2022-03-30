@@ -14,11 +14,9 @@ Der Begriff „Note“ wird hier als Platzhalter für alle möglichen Ausgabefor
 
 ### Notensystem
 
-Das Notensystem definiert die Leistungsklasse, den Notentyp und die Punkteschwelle, ab der die Note als bestanden gilt.
+![beurteilungssystem](assets/grading-system.de.jpg){class="shadow"}
 
-#### Leistungsklasse
-
-erklären.
+Das Notensystem definiert die Leistungsklasse, den Notentyp und die Punkteschwelle, ab der die Note als bestanden gilt. Leistungsklassen sind die Einteilungen der Berurteilungsskala.
 
 #### Notentyp
 
@@ -34,7 +32,7 @@ In der Notenskala legt man die Punkte der Leistungsklassen für den jeweiligen K
 
 Die Berechnung des Notenschlüsseln folg einigen Besonderheiten.
 
-* Die letzte und erste Leistungsklasse bei der Berechnung hat eine halbsogrosse Spanne, als die restlichen.
+* Die letzte und erste Leistungsklasse bei der Berechnung hat eine halb so grosse Spanne, als die restlichen.
 
 * **Numerischer Typ**: Bei Berechnung mit Knick,wird der Knick nicht als harte Untergrenze einer Performanceklasse gesehen. Die eingegebene Punktzahl muss nur der Note XY entsprechen, d.h. sie enthalten.
 
@@ -49,12 +47,12 @@ Die Berechnung des Notenschlüsseln folg einigen Besonderheiten.
     Modul Noten auf ihren System eingeschaltet.
     Eines oder mehrere Notensystem sind angelegt.
 
-1. **Noten einschalten**Unter  `Editor>Bewertung` (bei Test "Testkonfiguration") Noten für diesen Kursbaustein einschalten.
+1. **Noten einschalten** Unter  `Editor>Bewertung` (bei Test "Testkonfiguration") Noten für diesen Kursbaustein einschalten.
 2. **Notenzuweisung wählen** (Manuelle Zuweiseung / Automatisch)
 
 3. **Notenskala anlegen** Unter Notenskala bearbeiten, das Einstellungsfenster öffnen, ein Notensystem auswählen und die minimale, maximal Punktzahl sowie die Punkteschwelle festlegen.
 
-    ![Notenskala](assets/gradingscale-de.jpg){class=shadow}
+    ![Notenskala](assets/gradingscale-de.jpg){class="shadow"}
 
 4. **Speichern**
 
