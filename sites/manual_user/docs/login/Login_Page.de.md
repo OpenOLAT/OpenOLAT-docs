@@ -28,14 +28,14 @@ Sie [hier](../general/Guest_access.de.md).
 
 ## Browser {: #browsercheck}
 
-OpenOlat funktioniert optimal, wenn Sie mit folgenden Browsern arbeiten:
+OpenOlat funktioniert optimal, wenn Sie mit folgenden Browsern arbeiten (Mobile oder Desktop):
 
-  * [Firefox 53](http://www.mozilla.org/firefox/) oder neuere Version (ab Version 45 unterstützt).
-  * [Google Chrome 58](http://www.google.com/chrome/) oder neuere Version, empfohlen (ab Version 50 unterstützt)
-  * [Apple Safari 10](http://www.apple.com/safari/) oder neuere Version (ab Version 9 unterstützt)
-  * [Microsoft Internet Explorer 11 / Edge](https://support.microsoft.com/de-de/help/17621/internet-explorer-downloads) oder neuere Version (ab Version 11 unterstützt, Support für Versionen tiefer als 11 wird ab 2018 nicht mehr geboten)
+  * [Google Chrome](http://www.google.com/chrome/)
+  * [Apple Safari(http://www.apple.com/safari/)
+  * [Microsoft Edge](https://www.microsoft.com/edge)
+  * [Firefox](http://www.mozilla.org/firefox/)
 
-Der Internet Explorer in der Version 6, 7,8, 9 und 10 von Microsoft wird nicht
+Der Internet Explorer in der Version 6 bis 11 von Microsoft wird nicht
 mehr durchgängig unterstützt. Diese Versionen werden von Microsoft nicht mehr
 weiter gepflegt. Sollten Sie einen älteren Browser verwenden der nicht mehr
 unterstützt wird erscheint beim Login eine entsprechende Warnung. Sie können

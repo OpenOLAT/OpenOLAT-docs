@@ -27,14 +27,14 @@ Further information to the guest access can be found
 
 ## Browser Check {: #browsercheck}
 
-OpenOlat is optimized for the following browser software:
+OpenOlat is optimized for the following browser software (mobile or desktop):
 
-  * [Firefox 53](http://www.mozilla.org/firefox/) or later version (from version 45 on)
-  * [Google Chrome 58](http://www.google.com/chrome/) or later version (recommended) (from version 50 on)
-  * [Apple Safari 10](http://www.apple.com/safari/) or later version (from version 9 on)
-  * [Microsoft Internet Explorer 11 / Edge](https://support.microsoft.com/de-de/help/17621/internet-explorer-downloads) or later version (from version 11 on, no support for versions below 10 upon 2018)
+  * [Google Chrome](http://www.google.com/chrome/)
+  * [Apple Safari(http://www.apple.com/safari/)
+  * [Microsoft Edge](https://www.microsoft.com/edge)
+  * [Firefox](http://www.mozilla.org/firefox/)
 
-Internet Explorer in version 6, 7, 8, 9 and 10 by Microsoft is not fully
+Internet Explorer in version 6 to 11 by Microsoft is not fully
 supported anymore. Microsoft dropped support for these versions, and security
 updates are no longer provided for. Should you use an older browser which is
 not supported anymore the corresponding warning will be shown by the login.
