@@ -1,250 +1,138 @@
 # Course Reminders
 
-The course reminder feature allows you to create sets of rules / conditions,
-which, when met, automatically trigger a previously defined e-mail to a
-specified user group. Intervals and sending times are determined systemwide by
-the administrator. Regardless of that, course authors can trigger
-notifications at any given time. Only those users that already met the
-conditions/rules will receive a reminder though.
+With the reminder function, you create rule lists, upon fulfillment of which a previously defined mail is automatically sent to a user group of the course defined in the rules. Frequency and sending time is defined system-wide by your system administrator. Reminders can also be triggered specifically - but reminders will still only be sent to those users for whom all conditions are considered to be met.
 
-![](assets/reminders_send_now.png)
+![Reminders action menu](assets/reminders_send_now.png){ class="shadow" }
 
-On the overview page you can see all the reminders already created for a
-course. In the tab "Sent reminder log" you will find a list of all reminders
-that have already been sent. This list contains information about the
-recipient as well as the sending time. Individual reminders can be easily sent
-from this list via the "Resend" link.
+On the overview page you can see all reminders that have already been created for a course and you can also view reminders that have already been sent.  The list of already sent reminders contains information about the recipient as well as the sending time. Individual reminders from this list can be easily sent using the "Resend" link.
 
-### Create course reminder
+## Create reminder
 
-Reminders can be set up at any time. Click the button "Add reminder".
+Reminders can be created at any time. To do so, click on the "Create reminder" button. A wizard will appear that will guide you step by step through the creation process.
 
-To do this, click on the "Create reminder" button. A wizard will appear that
-will guide you step by step through the creation process.
+![Create reminder](assets/create_reminders.png){ class="shadow" }
 
-![](assets/create_reminders.png)
+First, enter the description for the reminder. This description is only visible to the authors and is used to display all reminders of a course in a clear and informative way. Then select the conditions for sending. In the next step, the conditions are checked and displayed again. In the last step you enter the concrete e-mail text and can also select whether tutors or owners should also receive a copy or whether a copy should be sent to an external address.
 
-First, enter the description for the reminder. This description is only
-visible to the authors and is used for a clear and informative presentation of
-all reminders of a course. Then select the conditions for sending. In the next
-step, the conditions are checked and displayed again. In the last step you
-enter the concrete e-mail text and can also select whether supervisors or
-owners should also receive a copy or whether a copy should be sent to an
-external address.
+In addition to the configuration in the course administration, reminders for certain assessment course elements can also be set up directly for the respective course element. In this case, the corresponding course element is already preselected. For example, you can quickly create a reminder for learners who have not yet taken a certain test (attempts = 0) or send an e-mail to all persons who have passed an assignment.
 
-In addition to the configuration in the course administration, reminders for
-certain assessment course elements can also be set up directly for the
-respective course element. In this case, the corresponding course element is
-already preselected. This way, for example, a reminder can be quickly created
-for learners who have not yet taken a certain test (attempts = 0) or an e-mail
-can be sent to all persons who have passed an assignment.
+## Conditions for sending reminders
 
-### Conditions for sending reminders
+Various conditions are available for the configuration of reminders, which can be combined as desired. Thus, various reminders tailored to individual needs can be triggered by mail.
 
-Various conditions are available for the configuration of reminders, which can
-be combined as desired. This allows various reminders tailored to individual
-needs to be triggered by mail.
+!!! info "Note"
 
-The link is an "and" link. This means that only if all conditions are met, the
-reminder email will be triggered.
+    The link is an "and" link. This means that only if all conditions are met, the reminder email will be triggered.
 
-Define the conditions needed for a reminder to be triggered. Select the kind
-of condition in the drop-down men, and specify the condition in the following
-form fields by e.g. defining a date or a score. The buttons to the right of a
-condition either deletes the current one or adds a new condition. At least one
-criterion must be selected to trigger a dispatch.
+Define under which conditions a reminder should be sent. In the drop-down menu you specify the type of the condition, while in the following fields you specify the condition by e.g. a date or a score. Use the buttons to the right of the condition to remove it or add another condition. At least one criterion must be selected for a dispatch to be triggered.
 
-There are different types of conditions: You will find a short explanation
-concerning those six types below as well as a simple example.
+There are different types of conditions: Below is a brief explanation of the types one and how they are generally applied.
 
-a) Time span  
----  
+### a) Time span
+
+These conditions build on how long ago something happened, or how long away a certain point in time is.
+
+_Example_ : 5 weeks before the assignment for the group task closes.
+
+_Example_ : 5 days after the user first accessed the course.  
   
-These conditions work with duration, i.e. the time until something is going to
-happen or how long ago an event took place.
+* Enrollment date
+* Begin date of execution period
+* End date of execution period
+* Initial course launch date
+* Recent course launch date
+* Deadline: Task assignment
+* Deadline: Task documents submission
+* Initial attempt date
+* Deadline Form completition
 
-|  **Example** : 5 weeks befor the task assignment slot closes.  
+### b) Attempts
+
+Here the number of attempts of assessable course elements is taken into account for the dispatch as a condition.
+
+_Example_ : A test has not been (0) attempted yet.
+
+* Attempts  
   
-  * Enrollment date
-  * Begin date of execution period
-  * End date of execution period
-  * Initial course launch date
-  * Recent course launch date
-  * Deadline: Task assignment
-  * Deadline: Task documents submission
-  * Initial attempt date
-  * Deadline Form completition
+### c) Assessment
 
+Assessable course elements for which a score or pass status has been configured in the editor can be included here as a condition.
+
+_Example_ : Less than 3 points were achieved in a checklist.
   
+* Passed
+* Score
+
+!!! info "Operators"
+
+    For the two conditions "Attempts" and "Score" operators are needed to correctly represent the different states "more than, less than, less than or equal, more or equal, equal" and "not equal". They are used to compare expressions with each other, and to generate a logical return value depending on this.
+
+    Operator | Description | Explanation
+    ---------|----------|---------
+    `<` | less than | correct if a is less than b
+    `<=`| less than or equal to| correct if a is less than or equal to b
+    `=`| equal| correct if a is equal to b
+    `=>`| greater than or equal to| correct if a is greater than or equal to b
+    `>`| greater than| correct, if a is greater than b
+    `!=`| not equal| correct, if a is not equal to b
+
+    In our conditions in this case, for example, the result of a test (a) is compared with the entered value in the condition rule (b). If the logical return value is "True", i.e. the condition is true, then the reminder is triggered.
+
+    An example: A reminder should be sent when a student has scored a maximum of 5 points in a test. In OpenOlat the condition looks like this:
+
+    ![Reminder operators](assets/reminder_operator_EN.png)
+
+### d) Date
+
+On the entered date (incl. time) the reminder will be sent at the next possible sending time. If "until date" is used, the reminder is sent at the next possible sending time until the date (and time) is reached.
+
+_Example_ : 24.06.2021 16:30  
   
-b) Attempts  
----  
+* After date
+* Until date
+
+### e) Affiliation
+
+Based on the OLAT role the reminder will be sent to the course participants.
+
+_Example_ : Send to all owners and coaches.  
   
-Assessable course elements with an attempt counter return that value to
-OpenOlat, which then can be used as a condition.
+* Course role
+* Group member
 
-|  **Example** : A test has not been (0) attempted yet.  
-Attempts  
+### f) User property
+
+Here the sending is done based on certain user specific properties. Reminders will be sent to those course members who have the selected profile attribute.
+
+_Example_ : User from the city of Zurich.  
   
-The two conditions "Attempts" and "Score" require operators in order to
-accurately display the relation states "greater than, less than, greater or
-equal to, less or equal to, equal" and "not equal" between two expressions or
-entities. Depending on the value of the expression, the return value will be
-either "True" or "False".
+### g) Progress (only for [Learning path courses](../course_create/Learning_path_course.md))
 
-<|
+Here the dispatch is based on the percentage course progress of the participants as configured in the administration settings.
 
-less than
-
-| true if a less than b|
-
+_Example_ : Users who have successfully completed at least 80% of a course.  
   
+You can combine as many conditions as you want. It is certainly useful to think beforehand about who should receive a reminder under which condition and at what time.
 
-  
+## Email text
 
-Our conditions are comparing e.g. the results of a test (a) with the value
-entered in the  
-condition rule (b). If the logical return value is equal to "True", meaning
-that the condition  
-was met, OpenOlat will trigger the reminder.  
-  
----|---|---|---  
-<=| less or equal to| true, if a less than or equal to b  
-=| equal to| true if a equal to b  
-=>| greater or equal to| true if a greater than or equal to b  
->| greater than| true if a greater than b  
-!=| not equal to| true if a not equal to b  
-  
-An example: An author wants a reminder to be sent once a participant achieved
-a score of 5 or less in a test. This condition will look in the reminder
-function in OpenOlat as follows:
+Using the email text, which can be customized as needed, you create very specific email reminders tailored to the situation.
 
-![](assets/reminder_operator_EN.png)
+!!! tip "Tip"
 
-c) Assessment  
----  
-  
-Assessable course elements with either a configured passed state or a score.
+    It is best to use the variables already entered to make the reminder as personal and helpful as possible.
 
-|  **Example** : The score in a checklist is less than 3 points.  
-  
-  * Passed
-  * Score
+* **$firstName** : The first name of the user.
+* **$lastName** : The last name of the user
+* **$fullName** : The full name depending on the system configuration. The default value is "lastname, firstname".
+* **$email** : The email address of the user.
+* **$userName** : The username
+* **$courseUrl** : The internet address of the course
+* **$courseName** : The name of the course as on the info page
+* **$courseDescription** : The description of the course as on the info page.
 
-  
-  
-d) Date  
----  
-  
-A deadline: a reminder will be sent as soon as possible after the recorded
-date.
+Here is an example:
 
-|  **Example** : 06/24/2020 16:30  
-  
-  * after date
-  * until date
+![Reminder Mail](assets/Erinnerung_Mail-Text.png){ class="shadow" }
 
-|  
-  
-  
-e) Affiliation  
----  
-  
-Specify which course or group members should receive the reminder.
-
-|  **Example** : Send to all owners and coaches.  
-  
-  * Course role
-  * Group member
-
-  
-  
-f) User property|  
-  
----|---  
-  
-This condition also specifies the recipients. Reminders will be sent to all
-course members with the specified user property.
-
-|  **Example** : All users with the zip code 8000  
-  
-g) Progress (only for [learning path courses](../course_create/Learning_path_course.md))|  
-  
----|---  
-  
-Here the dispatch is based on the percentage course progress of the
-participants as configured in the administration settings.
-
-  
-
-|  **Example:** Users who have successfully completed at least 80% of a
-course.  
-  
-  
-
-You can combine as many conditions as required. It would be wise to give some
-thoughts in advance as to who should receive a reminder under which condition.
-Adapting the mail body to the particular set of rules allows for creating
-specific e-mail reminders.
-
-### E-mail Text
-
-The email text, which can be customized as needed, allows you to create very
-specific email reminders tailored to the situation.
-
-We advise you to make use of the available variables in order to create a
-meaning- and helpful reminder
-
-    
-    
-    $firstName
-
-| The users first name  
----|---  
-      
-    
-    $lastName
-
-| The users last name  
-      
-    
-    $fullName
-
-| The users full name, depending on the system configuration. The default
-style ist "lastname, firstname"  
-      
-    
-    $email
-
-| The users mail address  
-      
-    
-    $userName
-
-| The users username  
-      
-    
-    $courseUrl
-
-| The internet address of the course  
-      
-    
-    $courseName
-
-| The name of the course as defined in the course info page  
-      
-    
-    $courseDescription
-
-| The description of the course as defined in the course info page  
-  
-  
-
-The top course node also lists all reminders that are not linked to a specific
-course element. Further configurations can also be made here as well as for
-other assessment elements with the tab "Reminders", e.g. configured reminders
-can be edited, duplicated, sent, deleted. It is also possible to display the
-dispatch.
-
-  
-
+At the top course node, all reminders that are not tied to a specific course element are also listed. Also here as well as with other assessment elements with the tab "Reminders" further configurations can be made, e.g. configured reminders can be edited, duplicated, sent, deleted. It is also possible to display the dispatch.
