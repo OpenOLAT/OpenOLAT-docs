@@ -14,11 +14,9 @@ The term "grade" is used here as a placeholder for all possible output formats. 
 
 ### Grading system
 
-The grading system defines the performance class, the grade type and the point threshold above which the grade is considered passed.
+![gradingsystem](assets/grading-system.jpg){class="shadow"}
 
-#### Performance class
-
-explain.
+The grading system defines the performance class, the grade type and the point threshold above which the grade is considered passed.Performance classes are the divisions of the grading scale.
 
 #### Grade type
 
@@ -49,7 +47,8 @@ The calculation of the grading scale follows some special features.
     Module Grades activated on your system.
     One or more staffs have been created. 1.
 
-1. **Switch on grades**Switch on grades for this course element under `Editor>Evaluation` (for test "Test configuration"). 2.
+1. **Switch on grades**Switch on grades for this course element under `Editor>Evaluation` (for test "Test configuration").
+
 2. **Select Grade Assignment** (Manual Assignment / Automatic)
 
 3. **Create grading scale** Under Edit grading scale, open the settings window, select a grading system and define the minimum, maximum and threshold number of points.
