@@ -1,6 +1,7 @@
 site_name: manual_admin
 
 nav:
+  - index.md
   - Administration:
     - System: "administration/System.md"
     - Core functions:

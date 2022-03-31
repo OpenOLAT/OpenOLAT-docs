@@ -1,13 +1,16 @@
 site_name: manual_dev
 
 nav:
+  - index.md
+  - Development:
+    - dev/index.md
   - UX Guidelines:
     - ux/index.md
     - Design Pattern: ux/patterns.md
     - Table: ux/table.md
     - Tab / Tab pane: ux/tab.md
     - Button: ux/button.md
-  - Documentation:
+  - Manual How-To:
     - documentation/index.md
     - Setup Visual Studio Code: documentation/howto-visual-studio.md
     - Tips for authors: documentation/author-tips.md

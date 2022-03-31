@@ -1,6 +1,7 @@
 site_name: manual_user
 
 nav:
+  - index.md
   - Introduction:
     - general/index.md
     - Information on OpenOlat: "general/Information_on_OpenOlat.md"
