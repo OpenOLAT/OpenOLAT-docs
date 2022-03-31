@@ -12,7 +12,6 @@ Bei herkömmlichen Kursen können Sie sich an den abgebildeten Icons
 orientieren, um den Kursbausteintyp zu erkennen. Bei Lernpfad Kursen werden
 keine Icons angezeigt.
 
-  
 
 Umfangreichere Beschreibungen zur Funktionsweise der folgenden Bausteine
 finden Sie auf separaten Seiten:
@@ -25,20 +24,6 @@ finden Sie auf separaten Seiten:
   * [Themenvergabe](Working_with_Tests.de.md)
   * [Wiki](Working_with_Wiki.de.md)
 
-  * 1Bewertung
-  * 2Blog
-  * 3 Checkliste
-  * 4Einschreibung
-  * 5E-Mail
-  * 6Fragebogen, Umfrage
-  * 7Kalender
-  * 8Ordner
-  * 9 Podcast 
-  * 10Terminplanung
-  * 11Teilnehmer Ordner
-  * 12Teilnehmerliste
-  * 13Video
-  * 14Virtuelle Räume
 
 ## Bewertung
 

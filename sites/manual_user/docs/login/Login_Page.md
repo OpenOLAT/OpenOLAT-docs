@@ -14,7 +14,7 @@ functionality of OpenOlat.
 In case you should forget your password you can contact your responsible
 helpdesk.
 
-![](assets/DE_Loginscreen.png)
+![login](assets/loginscreen.jpg)
 
 ## Guest Access
 

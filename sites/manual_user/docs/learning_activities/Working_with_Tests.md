@@ -5,11 +5,11 @@
 As a rule, tests in OpenOlat are used to verify knowledge. Here are a few
 examples for the use of tests:
 
-  * Tests for knowledge verification after a knowledge transfer phase
-  * Tests to check the current level of knowledge before a course, in order to determine where there are still deficits or to define which aspects of the course should be particularly addressed
-  * Tests to check your own level of knowledge on a topic, to identify preferences and interests
-  * Tests in the sense of quizzes as a playful component
-  * Tests as online exams
+* Tests for knowledge verification after a knowledge transfer phase
+* Tests to check the current level of knowledge before a course, in order to determine where there are still deficits or to define which aspects of the course should be particularly addressed
+* Tests to check your own level of knowledge on a topic, to identify preferences and interests
+* Tests in the sense of quizzes as a playful component
+* Tests as online exams
 
 The coach can use various [question types](../tests/Test_question_types.md) in tests.
 Depending on the type of question you can tick one or more answers, move
@@ -17,7 +17,7 @@ elements by drag & drop, insert text and/or numbers, add files, make markers
 or (very simple) drawings. Per OpenOlat course several tests can be used for
 different purposes.
 
-## How to edit a test:
+## How to edit a test
 
 To start editing a test press "Start". Answer the questions displayed and then
 click "Submit answer" for each question. If generally visible, you can see in
@@ -50,9 +50,7 @@ In the section "Performance summary" you will get further information e.g.
 If you have further attempts to process the test, you can run through the test
 again with "Start". Previous runs are retained.
 
-  
-
-![](assets/selftest.png)
+![](assets/selftest.png){class="size24"}
 Self-Test
 
 In OpenOlat there are two different course elements for tests: "Tests" and
@@ -63,6 +61,3 @@ after the test is completed.
 
 The handling of self-tests is otherwise identical to the handling of tests
 (see above).
-
-  
-

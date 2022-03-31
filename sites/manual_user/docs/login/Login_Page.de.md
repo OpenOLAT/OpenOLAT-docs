@@ -12,10 +12,8 @@ OpenOlat-Konto. So können Sie die volle Funktionalität von OpenOlat benutzen.
 Sollten Sie ihre Zugangsdaten (Benutzername und/oder Passwort) nicht mehr zu
 Hand haben, wenden Sie sich an Ihre zuständige Beratungsstelle.
 
-
-![](assets/DE_Loginscreen.png)
+![Loginseite](assets/loginscreen.de.jpg)
   
-
 ## Gastzugang
 
 Alternativ können Sie OpenOlat auch als Gast besuchen. Der Gastzugang gewährt
@@ -25,15 +23,14 @@ Zugang zu weiteren Lernmaterialien und -aktivitäten zu erhalten, müssen Sie
 sich bei OpenOlat registrieren. Weitere Informationen zum Gastzugang finden
 Sie [hier](../general/Guest_access.de.md).
 
-
 ## Browser {: #browsercheck}
 
 OpenOlat funktioniert optimal, wenn Sie mit folgenden Browsern arbeiten (Mobile oder Desktop):
 
-  * [Google Chrome](http://www.google.com/chrome/)
-  * [Apple Safari(http://www.apple.com/safari/)
-  * [Microsoft Edge](https://www.microsoft.com/edge)
-  * [Firefox](http://www.mozilla.org/firefox/)
+* [Google Chrome](http://www.google.com/chrome/)
+* [Apple Safari(<http://www.apple.com/safari/>)
+* [Microsoft Edge](https://www.microsoft.com/edge)
+* [Firefox](http://www.mozilla.org/firefox/)
 
 Der Internet Explorer in der Version 6 bis 11 von Microsoft wird nicht
 mehr durchgängig unterstützt. Diese Versionen werden von Microsoft nicht mehr
@@ -46,4 +43,3 @@ Warnung kann auch vom Administrator per CSS ausgeblendet werden.
 
 Grundsätzlich muss ihr Browser Session Cookies akzeptieren und Javascript muss
 aktiviert sein.
-

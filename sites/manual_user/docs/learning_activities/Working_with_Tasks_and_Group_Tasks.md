@@ -10,11 +10,10 @@ because not all options are used for your assignment.
 
 Subscribe to the respective task module to be quickly informed about changes
 via e-mail.
-
-  
+ 
 ![](assets/task.gif)
 
-### "Task Assignment": Download assigned Task
+## "Task Assignment": Download assigned Task
 
 According to the configuration there are either one or more tasks at your
 disposal in the step "Assignment" or a task will be assigned to you

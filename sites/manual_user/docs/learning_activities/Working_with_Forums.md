@@ -1,9 +1,8 @@
 # Working with Forums
 
-##
 ![](assets/forum.png)
 
-### What can a forum be used for?
+## What can a forum be used for?
 
 Forums are the central tools for asynchronous discussion in online courses and
 also in Olat groups. Forums can be used for the exchange between the course
@@ -12,7 +11,7 @@ the teacher. Some online methods also use specific forums, e.g. for pro-contra
 discussions, the structured collection of ideas on specific aspects
 (brainstorming), etc.
 
-### How can learners use a forum?
+## How can learners use a forum?
 
 The following options are available in a forum thread:
 
@@ -20,7 +19,7 @@ The following options are available in a forum thread:
 
 In forums participants can...
 
-#### Opening a Topic
+### Opening a Topic
 
 If you want to write a new message in your forum just select "Open new topic."
 Title and contribution are mandatory. Be sure to use a meaningful title and
@@ -34,7 +33,7 @@ be able to publish your post under a pseudonym.
 
 ![](assets/Posting.png)
 
-#### Answering Forum Contributions
+### Answering Forum Contributions
 
 If you want to reply to an existing message in a forum just open its topics by
 clicking on its title. Then select "Reply with quotation" if you want the
@@ -54,12 +53,12 @@ can be found more easily or marked for a later answer.
 
 ![](assets/Posting_markieren.png)
 
-#### Archiving a Forum
+### Archiving a Forum
 
 When archiving a forum any contributions will be zipped along with their
 attachments before storing them in your personal folder.
 
-#### Subscribing to a Forum
+### Subscribing to a Forum
 
 In order to be kept informed on new forum entries you should select
 "Subscribe" in the overview of topics. Then you will get a notification by
@@ -85,11 +84,11 @@ Collaboration](../course_elements/Communication_and_Collaboration.md)".
 
 There are different display options:
 
-  * all (thread)
-  * all (flat)
-  * one
-  * marked
-  * new
+* all (thread)
+* all (flat)
+* one
+* marked
+* new
 
 Users can display all posts below each other (all), with or without
 indentation. The initial post appears first and the other posts are displayed
@@ -103,12 +102,11 @@ asterisk.
 
 ![](assets/Forum_neu_EN2.png)
 
-  
-
 Upload a photo in the "[Profile](../personal/Personal_Menu.md)" so that your photo
 appears next to your forum posts instead of the standard profile picture.
 
 ###
+
 ![](assets/file_discussion.png)
 File Dialog
 
@@ -127,6 +125,3 @@ By default, participants cannot upload files. However, this option can be
 activated by the course owner in the course editor. If you have this option
 select "Upload file" to upload your own file. Who has uploaded which file and
 when can be recognized by the columns first name, last name or date.
-
-  
-
