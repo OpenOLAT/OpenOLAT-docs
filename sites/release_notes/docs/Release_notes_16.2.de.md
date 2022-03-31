@@ -28,7 +28,11 @@ Seit Release 16.1 wurden über XX neue Funktionen und Verbesserungen zu OpenOlat
 
 Das Bewertungsmodell von OpenOlat unterstützt bisher Punkte, die Ausgabe von Bestanden / Nicht bestanden und qualitative Bewertungen. Um die Leistungen vergleichen und weiterverarbeiten zu können, ist neu die Überführung der kursinternen Punkte in eine allgemein bekannte und anerkannte Skala "Note" möglich.
 
-Dafür können systemweit verschiedene **Notensysteme** (numerisch oder textuell) angelegt werden. Diese sind anschliessend für alle bewertbaren Kursbausteine als **Notenskala** verfügbar. Bei Bedarf kann die gewählte Notenskala zur Verwendung für den jeweiligen Kursbaustein angepasst werden. Bei Aktivierung auf dem Kursbaustein werden - über eine **manuelle oder automatische Zuweisung** - die Punkte der Teilnehmenden zusätzlich als "Note" ausgewiesen.
+Dafür können systemweit verschiedene **Notensysteme** (numerisch oder textuell) angelegt werden. Diese sind anschliessend für alle bewertbaren Kursbausteine als **Notenskala** verfügbar. Bei Bedarf kann die gewählte Notenskala zur Verwendung für den jeweiligen Kursbaustein angepasst werden.
+
+Bei Aktivierung auf dem Kursbaustein werden - über eine **manuelle oder automatische Zuweisung** - die Punkte der Teilnehmenden zusätzlich als "Note" ausgewiesen.
+
+![Notenskala](assets/162/Notenskala_DE.jpeg){ class="shadow lightbox" }
 
 #### Beispiele für Notenskalen
 
@@ -44,11 +48,17 @@ Dafür können systemweit verschiedene **Notensysteme** (numerisch oder textuell
 
 #### Anzeige der Noten
 
-Im Bewertungswerkzeuges werden Noten und deren Statistiken in einem eigenen Abschnitt angezeigt. Im Coachingtool ist ein neuer Bereich unter "Aufträge" verfügbar, in dem Betreuenden eine Übersicht der noch offenen Notenzuweisungen finden. Teilnehmende finden die zugewiesenen Noten in ihrer Leistungsübersicht und überall dort, wo auch die Punkte ausgegeben werden.
+Im Bewertungswerkzeug werden die Kennzahlen und Statistiken zu Noten in einem eigenen Abschnitt angezeigt.
+
+![Bewertungswerkzeug Noten](assets/162/Noten_Bewertungswerkzeug_DE.jpeg){ class="shadow lightbox" }
+
+Im Coachingtool finden Betreuende eine Übersicht der noch offenen Notenzuweisungen in einem neuen Bereich unter "Aufträge".
+
+Teilnehmende sehen die zugewiesenen Noten in ihrer Leistungsübersicht und überall dort, wo auch die Punkte ausgegeben werden.
 
 * * *
 
-## Betreuung von Online-Prüfungen per Chat
+## Betreuung von Online-Prüfungen: Prüfungs-Chat
 
 Bei Prüfungen, die von den Prüflingen zu Hause geschrieben werden (z.B. Open-Book Prüfung, Take-Home Exam), müssen die Aufsichtspersonen in der Lage sein, **mit den Prüflingen zu kommunizieren**. Ebenso müssen Prüflinge die Prüfungsaufsicht kontaktieren können, sollten z.B. Fragen zur Prüfung oder technische Probleme auftreten.
 
