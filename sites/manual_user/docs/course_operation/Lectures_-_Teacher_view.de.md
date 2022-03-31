@@ -15,7 +15,7 @@ mobile Ansicht.
 ## Übersicht Lektionenblöcke
 
 Mit Klick auf das Buchsymbol
-![](assets/absenzen_434343_64.png)
+![](assets/absenzen_434343_64.png){class="size24"}
 in der Toolbar öffnet sich die Übersicht über die aktuellen, pendenten,
 nächsten und abgeschlossenen Lektionenblöcke.
 
@@ -31,7 +31,7 @@ im Status "Aktiv" oder "Wiedergeöffnet".
 Zukunft liegt, können nicht bearbeitet werden. Geplante Absenzen wie z.B. eine
 Sportdispens aufgrund einer Verletzung können nicht im Voraus erfasst werden.
 
- **Abgeschlossenen Lektionenblöcke:** Hier werden alle Lektionenblöcke
+ **Abgeschlossenene Lektionenblöcke:** Hier werden alle Lektionenblöcke
 aufgelistet welche entweder manuell (Status "Erledigt") oder automatisch
 (Status "Autoerledigt") abgeschlossen worden sind. Ein Lektionenblock wir
 automatisch abgeschlossen, wenn die Sperrfrist erreicht worden ist. Vor
@@ -39,10 +39,8 @@ Erreichen wird eine Erinnerung an den Dozierenden verschickt, um auf die
 ausstehende Absenzenkontrolle hinzuweisen. Die Sperrfrist wird systemweit in
 der Administration hinterlegt.
 
-  
-
 Über
-![](assets/setting_434343_64.png)
+![](assets/setting_434343_64.png){class="size24"}
 lassen sich verschiedene Dokumente erstellen. Mit Export wird eine Excel-Liste
 erstellt. In dieser Excelliste sind alle Teilnehmer inklusive Absenzen,
 Begründung und Kommentar aufgelistet. Die "Absenzenliste" (alphabetisch nach
@@ -121,4 +119,3 @@ ausgewählt. So können zum Beispiel die erforderlichen Daten für die
 Zeugniserstellung ausgelesen werden.
 
 ![](assets/Lektionen_coaching.png)
-

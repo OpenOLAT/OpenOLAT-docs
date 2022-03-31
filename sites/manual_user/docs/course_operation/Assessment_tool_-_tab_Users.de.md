@@ -26,7 +26,7 @@ Gesamtergebnisse der Kursteilnehmenden
 (../e-assessment/Performance_assessment.de.md)) als PDF
 Datei gespeichert werden.
 
-### Anzeige und Spaltenauswahl
+## Anzeige und Spaltenauswahl
 
 Welche Tabellenspalten genau zur Verfügung stehen ist abhängig vom
 Kursbausteintyp und der jeweiligen Konfiguration. Je nach Auswahl der
@@ -38,20 +38,14 @@ Informationen zum Status oder der letzten Aktualisierung angezeigt werden.
 
 Kursbaustein "Struktur"
 
-|
-
 ![](assets/Bewertungswerkzeug_Test_Spalte_16.png)
 
 Kursbaustein "Test"
 
-|
-
 ![](assets/Bewertungswerkzeug_Aufgabe_Spalte_16.png)
 
 Kursbaustein "Aufgabe"  
-  
----|---|---  
-  
+
 Eine Spaltenanpassung ist hilfreich um einen schnellen Überblick zu erhalten.
 Besonders die Informationen zu den Punkten, Versuchen, dem Status, und der
 letzten Aktualisierung werden häufig benötigt. Richten Sie sich am besten die
@@ -67,5 +61,3 @@ verlängert werden. Je nach Assessment-Kursbaustein variieren die Optionen.
 Darüber hinaus können bestimmte Personen z.B. alle die diesen Kursbaustein
 noch "nicht bestanden" haben gefiltert angezeigt werden oder auch gezielt nach
 bestimmten Teilnehmernamen gesucht werden.
-
- 

@@ -21,17 +21,17 @@ länger dauern, wie bei den Logfiles, wird der User per Mail informiert.
 
 ## Datenarchivierung von einzelnen Elementen:
 
-Fragebogen
+### Fragebogen
 
 Speicherung der alten Fragebögen
 
-Umfragen
+### Umfragen
 
 Es werden alle Umfragen des Kurses angezeigt. Die gewünschten zu
 archivierenden Umfragen können ausgewählt und als Zip-Datei gespeichert
 werden.
 
-Tests
+### Tests
 
 Es werden alle Tests und Selbsttests des Kurses angezeigt. Die gewünschten zu
 archivierenden Elemente können ausgewählt und als Zip-Datei gespeichert
@@ -41,7 +41,7 @@ jeweils einem extra Ordner.
 Archivierte Selbsttests enthalten anonymisierte Benutzerdaten, Tests werden
 personalisiert gespeichert und enthalten alle Testergebnisse.
 
-Kursresultate
+### Kursresultate
 
 Hier werden die Endresultate von allen im Kurs integrierten Assessment
 Bausteinen wie Tests, Bewertungen, Portfolioaufgaben, Checklisten und Aufgaben
@@ -55,7 +55,7 @@ mit den Namen der Teilnehmenden, die Dokumente eingereicht haben.
 Kursresultate beinhalten die zusammengefasste Gesamtauswertung eines Kurses,
 _nicht_ einzelne Elemente.
 
-Aufgabe und Gruppenaufgaben
+### Aufgabe und Gruppenaufgaben
 
 Es werden alle Aufgaben und Gruppenaufgaben des Kurses angezeigt. Die
 gewünschten zu archivierenden Aufgaben bzw. Gruppenaufgaben können ausgewählt
@@ -66,14 +66,14 @@ Aufgaben/Gruppenaufgaben in jeweils einem extra Ordner. In diesem befinden
 sich dann die Ergebnisse der einzelnen Lernenden sowie der Gesamtüberblick als
 Excel-Datei.
 
-Themenvergabe
+### Themenvergabe
 
 Es werden alle Themenvergaben des Kurses angezeigt. Die gewünschten zu
 archivierenden Elemente können ausgewählt und als Zip-Datei gespeichert
 werden. In der Zip-Datei liegen dann die einzelnen ausgewählten Elemente in
 jeweils einem extra Ordner.
 
-Logfiles
+### Logfiles
 
 Hier können die personalisierten Logfiles der Kursbesitzer sowie die
 anonymisierten Logfiles der Kurs Teilnehmenden für einen gewählten Zeitraum
@@ -81,27 +81,27 @@ gesichert werden. Je nach Umfang kann die Erstellung einige Zeit in Anspruch
 nehmen. Anschließend findet man die Logfiles im persönlichen, privaten
 OpenOlat Ordner als Zip-File mit Excel-Tabelle.
 
-Foren
+### Foren
 
 Es werden alle Foren des Kurses angezeigt. Die gewünschten zu archivierenden
 Foren können ausgewählt und als Zip-Datei gespeichert werden. In der Zip-Datei
 liegen dann die einzelnen ausgewählten Foren in jeweils einem extra Ordner mit
 einer DOCX-Datei, die sämtliche Forenbeiträge umfasst.
 
-Dateidiskussion
+### Dateidiskussion
 
 Es werden alle Dateidiskussionen des Kurses angezeigt. Die gewünschten zu
 archivierenden Elemente können ausgewählt und als Zip-Datei gespeichert
 werden.
 
-Teilnehmer Ordner
+### Teilnehmer Ordner
 
 Es werden alle "Teilnehmer Ordner" Kursbausteine angezeigt. Die gewünschten zu
 archivierenden Elemente können ausgewählt und als Zip-Datei gespeichert
 werden. In der Zip-Datei befinden sich dann die einzelnen Elemente mit jeweils
 einem Ordner pro Teilnehmer mit je einem Abgabe- und Rückgabeordner.
 
-Wikis
+### Wikis
 
 Es werden alle Wikis des Kurses aufgelistet. Die gewünschten zu archivierenden
 Wikis können ausgewählt und als Zip-Datei gespeichert werden. In der Zip-Datei
@@ -112,13 +112,13 @@ Beim Wiki werden alle Seiten und alle hochgeladenen Dateien in eine ZIP-Datei
 verpackt. Der Teilnehmer Ordner wird entsprechend der Ordner Struktur dieses
 Bausteins gespeichert.
 
-SCORM Resultate
+### SCORM Resultate
 
 Es werden alle SCORM Kursbausteine des Kurses aufgelistet. Die gewünschten zu
 archivierenden Wikis können ausgewählt und die Ergebnisse als Zip-Datei
 gespeichert werden.
 
-Checklisten
+### Checklisten
 
 Es werden alle Checklisten des Kurses aufgelistet. Die gewünschten zu
 archivierenden Checklisten können ausgewählt und als Zip-Datei gespeichert
@@ -126,11 +126,11 @@ werden. Die zip Datei enthält einen Ordner für jede Checkliste. Darin befindet
 sich jeweils eine xlsx Datei, die die Ergebnisse der Personen, die die
 Checklisten ausgefüllt haben enthält.
 
-Chat Historie
+### Chat Historie
 
 Hier kann der Chatverlauf als xlsx Datei exportiert und auch gelöscht werden.
 
-Buchungen
+### Buchungen
 
 Hier werden die Personen, die den Kurs gebucht haben angezeigt, sofern der
 Kurs über eine Buchungsmethode verfügt.
@@ -142,7 +142,4 @@ Weitere Details zu den aufgezeichneten Logfiles erfahren Sie im Kapitel
 „[Aufzeichnung der
 Kursaktivitäten](../../pages/viewpage.action%EF%B9%96pageId=60358847.html)".
 
-Über die Rechtevergabe in der [Mitgliederverwaltung
-](Members_management.de.md)kann auch weiteren Personen das Recht für die
-gesamte Datenarchivierung gegeben werden.
-
+Über die Rechtevergabe in der [Mitgliederverwaltung](Members_management.de.md) kann auch weiteren Personen das Recht für die gesamte Datenarchivierung gegeben werden.

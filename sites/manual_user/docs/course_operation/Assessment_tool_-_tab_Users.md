@@ -35,19 +35,13 @@ the last update can also be displayed here.
 
 Course element "Structure"
 
-|
-
 ![](assets/Bewertungswerkzeug_Test_Spalte_16.png)
 
 Course element "Test"
 
-|
-
 ![](assets/Bewertungswerkzeug_Aufgabe_Spalte_16.png)
 
 Course element "Task"  
-  
----|---|---  
   
 Column customization is helpful to get a quick overview. Especially the
 information about scores, attempts, status and last update is often needed. It
@@ -63,6 +57,3 @@ the assessment module.
 In addition, specific people, e.g. all those who have not yet "passed" this
 course element, can be displayed in a filtered manner, or specific participant
 names can be searched for.
-
-  
-
