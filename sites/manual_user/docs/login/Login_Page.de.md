@@ -28,7 +28,7 @@ Sie [hier](../general/Guest_access.de.md).
 OpenOlat funktioniert optimal, wenn Sie mit folgenden Browsern arbeiten (Mobile oder Desktop):
 
 * [Google Chrome](http://www.google.com/chrome/)
-* [Apple Safari(<http://www.apple.com/safari/>)
+* [Apple Safari](http://www.apple.com/safari/)
 * [Microsoft Edge](https://www.microsoft.com/edge)
 * [Firefox](http://www.mozilla.org/firefox/)
 

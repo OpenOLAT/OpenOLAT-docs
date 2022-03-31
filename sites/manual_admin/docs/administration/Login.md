@@ -2,18 +2,7 @@
 
 Configuration of the login in the OpenOlat Administration
 
-  * [Security](Security.md)
-
-  * [Guest and invitation](Guest_and_invitation.md)
-  * Passwords
-  * Self-registration
-
-  * Cloud login
-  * SMS
-
-  
-
-Passwords
+## Passwords
 
 Here you can configure the syntax rules for the OLAT passwords. A minimum and
 a maximum length must be defined as a minimum. In addition, further

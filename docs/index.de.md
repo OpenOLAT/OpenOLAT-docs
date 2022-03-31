@@ -6,7 +6,10 @@ hide:
 
 # Willkommen zur OpenOlat Dokumentation
 
-Informationen betreffend OpenOlat, seiner Funktionen und neuesten Änderungen finden Sie hier. Wählen Sie aus der Bereichsliste das Handbuch, das der Version ihres LMS entspricht.
+Informationen betreffend OpenOlat, seiner Funktionen und neuesten Änderungen finden Sie hier. Benutzen Sie die Navigationsleiste im Kopfbereich der Seite um zwischen den Bereichen 
+[Release Notes](release_notes/), [Benutzerhandbuch](manual_user/), [Administrationshandbuch](manual_admin/) und dem [Developer cookbook](manual_dev/) zu wechseln.
+
+[Change to English version](/){ .md-button }
 
 ## Aktuelle Version:
 
@@ -18,10 +21,9 @@ Informationen betreffend OpenOlat, seiner Funktionen und neuesten Änderungen fi
 - [OpenOlat 16.0 Benutzerhandbuch](archive_confluence/display/OO160DE.html) | [Release Notes 16.0](release_notes/Release_notes_16.0.de.md)
 - [OpenOlat 15.5 Benutzerhandbuch](archive_confluence/display/OO155DE.html) | [Release Notes 15.5](release_notes/Release_notes_15.5.de.md)
 
+Gesuchte Version nicht gefunden? Versuche es im [OpenOlat Handbuch Archiv](archive.de.md)
 
-!!! tip ""
-	Gesuchte Version nicht gefunden? Versuche es im [OpenOlat Handbuch Archiv](archive.de.md)
-
+***
 
 [![eLearning-Journal OpenOlat Testsiegel: Sehr-Gut](assets/frentix - Testsiegel_2020.png){ align=left width=200px }](assets/eLJ12020_TEST_Frentix.pdf)
 !!! quote "eLearning Journal"

@@ -21,12 +21,5 @@ gets access.
 for guests are searched.
 
   
-
-  
-
-  
-
-  
-
-![](assets/admin_Login_gast.jpg)
+![](assets/admin_Login_gast.jpg){ class="shadow" }
 

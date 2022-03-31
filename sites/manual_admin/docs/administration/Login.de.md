@@ -1,14 +1,5 @@
 # Login
 
-Konfiguration des Logins in der OpenOlat Administration
-
-  * [Sicherheit](Security.de.md)
-  * [Gast und Einladung](Guest_and_invitation.de.md)
-  * Passwörter
-  * Selbstregistration
-  * Cloud Login
-  * SMS
-
 ## Passwörter
 
 Hier können die Syntax-Regeln für die OpenOlat Passwörter konfiguriert werden.
