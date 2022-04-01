@@ -1,8 +1,8 @@
 # Course Element: Checklist
 
-##
-![](assets/checklist.png)
-Create and configure a checklist
+![checklist.png](assets/checklist.png)
+
+## Create and configure a checklist
 
 By means of the course element "Checklist" you can add different kinds of
 checklists to your course. For each course element, create a checklist with as
@@ -117,8 +117,9 @@ participants. The PDF includes a signature column.
 Clicking the " **PDF marked checkboxes** " creates a PDF containing a table
 per checkbox with all those participants that already checked the box.
 
-Changes to the checkboxes should only be made after the submission date has
-expired.
+!!! warning "Attention"
+
+    Changes to the checkboxes should only be made after the submission date has expired.
 
 Altogether there are four options to edit user checklists and process their
 assessment at your disposal.
@@ -136,7 +137,7 @@ last name, to facilitate matching your participants list with the checklist.
 
 ##  Course element: Multiple checklists
 
-![](assets/wizard_434343_64.png)
+![multiple checklists icon.png](assets/wizard_434343_64.png)
 
 If activated by the OpenOlat Admin, the option "Multiple checklists" is also
 available. It opens the checklist wizard, which enables you to create multiple
@@ -173,8 +174,7 @@ Determine whether assessment information from the checklist sub-elements
 should be displayed in the course element "Structure", and how the assessment
 should be conducted. For more information on the course element "Structure"
 and the assessment information of other course elements, please refer to the
-chapter Knowledge Transfer- [Structural element:
-Score](Knowledge_Transfer.md#KnowledgeTransfer-_displayscore).
+chapter Knowledge Transfer- [Structural element: Score](Course_Element_Structure.md#tab-punkte--score).
 
   
 
