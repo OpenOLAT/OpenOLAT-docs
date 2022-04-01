@@ -2,7 +2,7 @@
 
 ##
 
-![](assets/single_page_icon.png)
+![single page icon](assets/single_page_icon.png)
 
 In the course element "Single page" you can insert various files in your
 course. In this way you can, for example, provide central information, the
@@ -23,7 +23,7 @@ There are three possibilities to embed a page's content in your course:
   * Select any file from the storage folder
   * Upload file in storage folder
 
-![](assets/single_page_page_content.png)
+![singe page content](assets/single_page_page_content.png)
 
 For further editing of HTML pages you can use the OpenOlat Editor. It works
 similar to a word processing program. The automatically created file when you
@@ -31,7 +31,7 @@ create a page for the first time already has the name of the course element.
 Once created, open the file with the link "Open file in editor" and you will
 get to the OpenOlat HTML Editor.
 
-![](assets/html_editor.png)
+![html editor](assets/html_editor.png)
 
 In the HTML editor you can insert links to pictures, videos, the individual
 course elements of the course and to the tools in the
@@ -127,12 +127,13 @@ content and Javascript).
 
   
 
-As a rule, no changes are necessary in the "Layout" tab. The default settings
-are suitable for 90% of the courses.
+!!! tip "Tip"
+
+    As a rule, no changes are necessary in the "Layout" tab. The default settings are suitable for 90% of the courses.
 
 ## Multiple single pages
 
-![](assets/wizard_434343_64.png)
+![wizard icon](assets/wizard_434343_64.png)
 
 With this option you can easily add and organize single pages in the course
 and quickly make the files visible in the course structure. Clicking on
@@ -149,8 +150,7 @@ to activate the option "Allow links in the entire storage folder". Furthermore
 you should name the file names as they should appear later in the course,
 because the file name is used as course element title.
 
-Several individual pages can also be bundled very well with a [course element
-"Structure"](Course_Element_Structure.md). This way, overview pages
+Several individual pages can also be bundled very well with a [course element "Structure"](Course_Element_Structure.md). This way, overview pages
 can be created automatically for the respective contents and the individual
 pages can be better structured.
 

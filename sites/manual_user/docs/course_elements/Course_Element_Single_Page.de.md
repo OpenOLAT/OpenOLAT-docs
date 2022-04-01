@@ -22,8 +22,7 @@ Kurs zu integrieren:
   * Eine beliebige Datei aus dem Ablageordner wählen
   * Eine Datei in den Ablageordner hochladen und mit dem Baustein verknüpfen
 
-![](../../download/attachments/108593372/Einzelseite%EF%B9%96version=1&modificationDate=1566731300000&api=v2&effects=drop-
-shadow.png)
+![single page content](assets/single_page_page_content.png)
 
 Für die weitere Bearbeitung von HTML-Seiten können Sie den OpenOlat Editor
 nutzen. Er funktioniert ähnlich wie ein Textverarbeitungsprogramm. Die
@@ -32,12 +31,11 @@ trägt bereits den Namen des Kurselements. Einmal angelegt, öffnen Sie die
 Datei mit dem Link "Datei im Editor öffnen" und Sie gelangen in den OpenOLAT
 HTML Editor.
 
-![](assets/html_editor.png)
+![html editor](assets/html_editor.png)
 
 Im HTML Editor können Sie neben den verschiedenen Formatierungen auch
 Verlinkungen zu Bildern, Videos, den einzelnen Kursbausteinen des Kurses und
-zu den Tools in der [Toolbar
-](../course_operation/Using_Additional_Course_Features.de.md)einfügen.
+zu den Tools in der [Toolbar](../course_operation/Using_Additional_Course_Features.de.md) einfügen.
 
 Sie können auch Dateien die Sie zuvor erstellt haben in den Ablageordner des
 Kurses hochladen oder einen Ressourcenordner mit dem Kurs und dem Ablageordner
@@ -130,12 +128,13 @@ Default der Zeichensatz ISO-8899-1 verwendet).
 eines vordefinierten Zeichensatzes (per Default wird der gleiche Zeichensatz
 für Inhalt und Javascript verwendet).
 
-In der Regel sind im Tab "Layout" keine Änderungen notwendig. Die
-Standardeinstellungen passen für 90% der Kurse.
+!!! tip "Tipp"
+
+    In der Regel sind im Tab "Layout" keine Änderungen notwendig. Die Standardeinstellungen passen für 90% der Kurse.
 
 #  Mehrere Einzelseiten
 
-![](assets/wizard_434343_64.png)
+![wizard icon](assets/wizard_434343_64.png)
 
 Mit dieser Option können Sie sich das Hinzufügen und organisieren von
 Einzelseiten in den Kurs erleichtern und die Dateien rasch in der Kursstruktur
@@ -155,8 +154,7 @@ komplexen Seiten mit diversen Verlinkungen zu Grafiken u.ä. darauf die Option
 Dateinamen möglichst schon so benennen wie Sie später im Kurs erscheinen
 sollen, da der Dateiname als Kursbaustein Titel verwendet wird.
 
-Mehrere Einzelseiten lassen sich auch sehr gut mit einem [Kursbaustein
-"Struktur"](../../pages/viewpage.action%EF%B9%96pageId=108593217.html)
+Mehrere Einzelseiten lassen sich auch sehr gut mit einem [Kursbaustein "Struktur"](Course_Element_Structure.de.md)
 bündeln. So können automatisch Übersichtsseiten für die jeweiligen Inhalte
 erstellt werden und die Einzelnen Seiten besser strukturiert werden.
 
