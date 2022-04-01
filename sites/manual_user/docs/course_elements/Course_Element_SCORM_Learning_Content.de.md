@@ -1,6 +1,6 @@
 # Kursbaustein "SCORM-Lerninhalt"
 
-![](assets/scorm.png)
+![scorm learning content icon](assets/scorm.png)
 
 SCORM steht für „Sharable Content Object Reference Model“ und ist ein weiteres
 standardisiertes E-Learning-Format, das von OpenOlat unterstützt wird.
@@ -20,7 +20,7 @@ auf „Importieren“, um ein neues SCORM-Paket hochzuladen, oder wählen Sie ei
 bestehendes SCORM-Paket aus Ihren Einträgen aus. SCORM-Pakete können nicht nur
 im Kurseditor, sondern auch im „Autorenbereich“ importiert werden, was im
 Kapitel „Aktionen im Autorenbereich“ unter dem Punkt
-„[Importieren](viewpage.action%EF%B9%96pageId=108593439.html#Aktionenim%E2%80%9EAutorenbereich%22-_importieren)"
+„[Importieren](../authoring/Actions_in_the_Authoring_section.de.md#import)"
 erklärt wird. Wenn Sie noch keine ZIP-Datei als SCORM-Lerninhalt ausgewählt
 haben, erscheint beim Titel **Gewählter SCORM-Lerninhalt** die Meldung _Kein
 SCORM-Lerninhalt ausgewählt_.
@@ -91,8 +91,10 @@ anzuwenden.
 Unter „Einstellungen“ können Sie bestimmen, wie der Lerninhalt Ihren
 Kursteilnehmern angezeigt werden soll.
 
- Optionen für die Anzeige
+### Optionen für die Anzeige
 
+ * * *
+ 
  **Standardwerte übernehmen:** Werden Lernressourcen aus der
 Lernressourcenverwaltung in Kursen eingebunden, so können die Einstellungen
 für die Darstellung aus der Lernressourcenverwaltung übernommen werden (Option
@@ -118,14 +120,20 @@ sein. Die Option "Prototype" sollte nur gewählt werden wenn Ihre Inhalte diese
 Bibliothek voraussetzen. Wählen Sie keine Bibliothek wenn es zu
 Anzeigeproblemen mit Ihren Inhalten kommt.
 
+* * *
+
  **Glossarbegriffe einbinden:** Wählen Sie diese Option um die Möglichkeit der
 Hervorhebung von Glossarbegriffen zu aktivieren falls Sie in Ihrem Kurs ein
 Glossar konfiguriert haben. Diese Option setzt die Verwendung der JavaScript
 Bibliothek "jQuery" voraus.
 
+* * *
+
  **Höhe Anzeigefläche:** Mittels des Drop-Down-Menus können Sie die Höhe der
 Inhalte bestimmen. Sie haben die Möglichkeit, diese via "Automatisch" auf die
 jeweilige Fensterhöhe zu setzen oder auf einen bestimmten Wert zu setzen.
+
+* * *
 
  **Layout anpassen:** Wählen Sie die Option "OpenOlat Stylesheets" um das
 OpenOlat und Kurslayout in Ihre Seite zu übernehmen (Schriftart, Farben,
@@ -140,11 +148,12 @@ führt, kann die Kodierung des Inhalts anhand eines vordefinierten
 Zeichensatzes konfiguriert werden (ist keine Kodierung vorhanden, wird per
 Default der Zeichensatz ISO-8899-1 verwendet).
 
+* * *
+
  **Zeichensatz Javascript:** Erlaubt die Kodierung des Javascript Codes anhand
 eines vordefinierten Zeichensatzes (per Default wird der gleiche Zeichensatz
 für Inhalt und Javascript verwendet).
 
-SCORM-Lerninhalte werden stets mit Startseite angezeigt. Wenn ein SCORM-
-Lerninhalt Aufgaben und Tests beinhaltet, werden auf dieser Startseite die
-erreichte Punktzahl und die verbleibenden Versuche, den Lerninhalt erfolgreich
-zu absolvieren, ermittelt.
+!!! info "Info"
+
+    SCORM-Lerninhalte werden stets mit Startseite angezeigt. Wenn ein SCORM-Lerninhalt Aufgaben und Tests beinhaltet, werden auf dieser Startseite die erreichte Punktzahl und die verbleibenden Versuche, den Lerninhalt erfolgreich zu absolvieren, ermittelt.

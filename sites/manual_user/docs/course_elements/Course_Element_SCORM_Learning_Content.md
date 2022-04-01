@@ -1,6 +1,6 @@
 # Course Element: SCORM Learning Content
 
-![](assets/scorm.png)
+![scorm learning content icon](assets/scorm.png)
 
 SCORM means "Sharable Content Object Reference Model" and is another
 standardized e-learning format supported by OpenOlat. Use the course element
@@ -18,8 +18,7 @@ a new SCORM package, or select an existing SCORM package from your entries.
 SCORM packages can either be imported to the course editor or by means of the
 "Authoring;" for further information please go to the chapter "Actions in the
 'Authoring' section", section
-["Import"](Actions+in+the+'Authoring'+section.html#Actionsinthe'Authoring'section-
-_importieren). If you have not selected a ZIP file as SCORM learning content
+["Import"](../authoring/Actions_in_the_Authoring_section.md#import). If you have not selected a ZIP file as SCORM learning content
 yet the message _No SCORM learning content selected_ will appear in the title
 **Selected SCORM learning content**.
 
@@ -79,7 +78,9 @@ layout to the SCORM package.
 Under "Settings" you can determine how the learning content is to be displayed
 to your course participants.
 
- Display options
+### Display options
+
+* * *
 
  **Use standard configuration:** If you embed learning resources from the
 learning resources management in the course you can choose to use the display
@@ -104,13 +105,19 @@ The option "Prototype" should only be used in case your content requests this
 library. Select no JavaScript library if you have display issues with your
 content within OpenOlat.
 
+* * *
+
  **Embed glossary terms:** Select this option to activate the glossary terms
 embedding on that page if you have a glossary configured for this course. This
 option requires the JavaScript library "jQuery".
 
+* * *
+
  **Display height:** By means of the drop-down menu you can determine the
 height of your content. You have the possibility to set them via "Automatic"
 to the respective window height or to a certain value of your choice.
+
+* * *
 
  **Adapt layout:** Select the option "OpenOlat stylesheets" to embedd the
 OpenOlat and course layout into this page (font type, colors, sizes etc.). If
@@ -123,11 +130,13 @@ automatically. If the option "Automatic" is not successful it is possible to
 configure the content coding by means of a predefined character set (should
 there be no coding the character set ISO-8899-1 will be used by default).
 
+* * *
+
  **Javascript character set:** This permits the coding of Javascript by means
 of a predefined character set (by default the same set will be used for
 content and Javascript).
 
-SCORM learning content will always be presented with a homepage. If such
-content contains tasks as well as tests you will learn from that homepage more
-about your score and remaining attempts to take tests.
+!!! info "Info"
+
+    SCORM learning content will always be presented with a homepage. If such content contains tasks as well as tests you will learn from that homepage more about your score and remaining attempts to take tests.
 
