@@ -21,7 +21,9 @@ Find information on OpenOlat, its features and latest changes here. Use the top 
 - [OpenOlat 16.0 User Manual](archive_confluence/display/OO160EN.html) | [Release notes 16.0](release_notes/Release_notes_16.0.md)
 - [OpenOlat 15.5 User Manual](archive_confluence/display/OO155EN.html) | [Release notes 15.5](release_notes/Release_notes_15.5.md)
 
-Is the version you are looking for missing? Try it in the [OpenOlat User Manual Archive](archive.md)
+
+:material-alert: **Is the version you are looking for missing?** Try it in the [OpenOlat User Manual Archive](archive.md)
+
 
 ***
 

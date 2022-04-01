@@ -1,8 +1,7 @@
-# Introduction
 ![Logo: OpenOlat – infinite learning](../../../assets/OpenOlat_Logo_claim_RGB.png)
 
 
-## What to Expect From this Manual
+# About this Manual
 
 This user manual helps you to make yourself familiar with OpenOlat while
 thoroughly explaining it's functionality.

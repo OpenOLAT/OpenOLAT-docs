@@ -21,7 +21,9 @@ Informationen betreffend OpenOlat, seiner Funktionen und neuesten Änderungen fi
 - [OpenOlat 16.0 Benutzerhandbuch](archive_confluence/display/OO160DE.html) | [Release Notes 16.0](release_notes/Release_notes_16.0.de.md)
 - [OpenOlat 15.5 Benutzerhandbuch](archive_confluence/display/OO155DE.html) | [Release Notes 15.5](release_notes/Release_notes_15.5.de.md)
 
-Gesuchte Version nicht gefunden? Versuche es im [OpenOlat Handbuch Archiv](archive.de.md)
+
+:material-alert: **Gesuchte Version nicht gefunden?** Versuche es im [OpenOlat Handbuch Archiv](archive.de.md)
+
 
 ***
 

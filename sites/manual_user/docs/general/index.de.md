@@ -1,7 +1,6 @@
-# Introduction
 ![Logo: OpenOlat – infinite learning](../../../assets/OpenOlat_Logo_claim_RGB.png)
 
-## Über dieses Handbuch
+# Über dieses Handbuch
 
 Dieses Handbuch macht Sie mit OpenOlat vertraut und erklärt Ihnen dessen Funktionalitäten von Grund auf.
 
