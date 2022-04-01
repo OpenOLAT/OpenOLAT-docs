@@ -1,8 +1,8 @@
 # Kursbaustein "Checkliste"
 
-![](assets/checklist.png)
+![Checkliste.png](assets/checklist.png)
 
-Checkliste erstellen und einrichten
+## Checkliste erstellen und einrichten
 
 Mit dem Kursbaustein „Checkliste“ fügen Sie eine Checkliste in Ihren Kurs ein.
 Pro Kursbaustein erstellen Sie eine Checkliste mit so vielen Checkboxen wie
@@ -134,8 +134,9 @@ Richtigkeit des Dokuments bestätigen lassen können.
 Tabelle mit jenen Teilnehmern enthält, die die entsprechende Checkbox bereits
 markiert haben.
 
-Änderungen an den Checkboxen sollten erst nach Ablauf des Abgabedatums
-vorgenommen werden.
+!!! warning "Achtung"
+
+    Änderungen an den Checkboxen sollten erst nach Ablauf des Abgabedatums vorgenommen werden.
 
 Insgesamt stehen Ihnen vier Möglichkeiten zur Bearbeitung von Teilnehmern zur
 Verfügung.
@@ -148,13 +149,13 @@ vor. Sie können die Tabelle nach Vornamen oder Nachnamen sortieren, um einen
 einfacheren Abgleich zwischen Teilnehmerliste und Checkliste zu ermöglichen.
 
   3. Die Schaltfläche „ **Editieren** “ öffnet die Übersichtstabelle im Bearbeitungsmodus, was Ihnen gestattet alle Checkboxen aller Teilnehmer zu bearbeiten.
-  4. Zu guter Letzt können Sie Checkboxen einzelner Teilnehmer auch im Bewertungswerkzeug aus- oder abwählen.
+  4. Zu guter Letzt können Sie Checkboxen einzelner Teilnehmer auch im  [Bewertungswerkzeug](../course_operation/Assessment_of_course_modules.de.md) aus- oder abwählen.
 
   
 
 ##  Kursbaustein "Mehrere Checklisten"
 
-![](assets/wizard_434343_64.png)
+![Mehrere Checklisten Icon.png](assets/wizard_434343_64.png)
 
 Sofern vom OpenOlat Admin aktiviert, steht Ihnen auch die Option "Mehrere
 Checklisten" zur Verfügung.  Mit Hilfe eines Checklisten-Wizards können Sie
@@ -192,4 +193,4 @@ Im unteren Teil des Formulars legen Sie fest ob Bewertungsinformationen aus
 den Checklisten im Strukturbaustein angezeigt werden sollen, und wie die
 Bewertung vorgenommen wird. Informationen zum Struktur-Kursbaustein und der
 Bewertung weiterer Kursbausteine finden Sie im Kapitel Wissensvermittlung-
-[Strukturbaustein: Punkte](Knowledge_Transfer.de.md#Wissensvermittlung-_displayscore).
+[Strukturbaustein: Punkte](Course_Element_Structure.de.md#tab-punkte--score).
