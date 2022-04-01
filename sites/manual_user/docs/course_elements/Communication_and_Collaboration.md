@@ -1,17 +1,11 @@
 # Communication and Collaboration
 
-  * 1 Communication and Collaboration 
-    * 1.1Course Element: Wiki
-    * 1.2 Course Element: Forum
-    * 1.3 Course Element: File Dialog
-    * 1.4 Course Element: Participant folder
-    * 1.5 Course Element: Participant list
 
-as well as several [Virtual classrooms](Virtual_classrooms.md)
+Get more info on [Virtual classrooms](Virtual_classrooms.md)
 
 ## Course Element: Wiki {: #wiki}
 
-![](assets/wiki.png)
+![wiki icon.png](assets/wiki.png)
 
 Use a Wiki to easily create learning content together with your course
 participants. A Wiki is suitable for doing group work; it can serve as
@@ -41,12 +35,13 @@ In the chapter "Learning Activities in Courses," section
 ["Wiki"](../learning_activities/Working_with_Wiki.md), you will find more information on how to adapt the Wiki syntax,
 how to create new pages, and how to view different versions of a Wiki page.
 
-If you can't find the "Wiki" course element in the course editor, it was
-disabled by a system administrator.
+!!! warning "Attention"
+
+    If you can't find the "Wiki" course element in the course editor, it was disabled by a system administrator.
 
 ##  Course Element: Forum {: #forum}
 
-![](assets/forum.png)
+![Forum Icon.png](assets/forum.png)
 
 With the course element "Forum" you can easily enable asynchronous online
 discussions for different purposes in your course. For example, course
@@ -63,11 +58,13 @@ A course author can also use the forum to notify course participants in the
 short term. Just configure your forum in the tab "Access" accordingly, i.e.
 that only course authors have write permission.
 
-Advise your course participants on subscribing to the forum to be up-to-date.
+!!! tip "Tip"
+
+    Advise your course participants on subscribing to the forum to be up-to-date.
 
   
 
-Tab Configuration
+### Tab Configuration
 
 Here you can set the user corrections of the forum and define which OpenOlat
 rights roles are allowed to create forum posts. You can choose between
@@ -82,7 +79,7 @@ used by several users. Furthermore, it can be set that the use of a pseudonym
 is activated by default. To do this, select the checkbox "Pseudonym activated
 in individual forum posts".
 
-![](assets/Screenshot 2020-05-03 at 14.55.37.png)
+![tab configuration.png](assets/Screenshot 2020-05-03 at 14.55.37.png)
 
 ### Moderation rights forum_rights
 
@@ -107,8 +104,9 @@ created as a new discussion thread. In the last step of the move, an email can
 be sent to all users affected by the move, with the information where the
 forum is now moved to.
 
-Forum posts can also be moved to forums in which the creator of the post has
-no access.
+!!! warning "Attention"
+
+    Forum posts can also be moved to forums in which the creator of the post has no access.
 
 Besides the course element "Forum" there is also the possibility to display a
 central forum for the entire course in the course toolbar. However, no further
@@ -119,7 +117,7 @@ made here.
 
 ##  Course Element: File Dialog {: #file_dialog}
 
-![](assets/file_discussion.png)
+![file discussion.png](assets/file_discussion.png)
 
 The course element File Dialog can be understood as a combination of forum and
 folder. The course element "File dialog" provides you with preset discussion
@@ -136,11 +134,11 @@ columns give an overview who uploaded which file when.
 Who besides the course owner can take which actions will be defined in the
 course editor in the user permissions of the tab "Configuration".
 
-![](assets/Screenshot 2020-05-03 at 15.02.48.png)
+![file discussion configuraion.png] (assets/Screenshot 2020-05-03 at 15.02.48.png)
 
 ##  Course Element: Participant folder {: #participant_folder}
 
-![](assets/pfolder_434343_64.png)
+![folder icon.png](assets/pfolder_434343_64.png)
 
 The course element "Participant folder" allows you to exchange files between
 participants and coaches. With the creation of the course element there are
@@ -173,9 +171,9 @@ can be enabled.
 
   
 
-Attention: As for all upload areas, there is a memory limit for the
-participant folder. The file upload limits set by the administrator and the
-entire folder limit are displayed when you try to upload a file.
+!!! warning "Attention"
+
+    As for all upload areas, there is a memory limit for the participant folder. The file upload limits set by the administrator and the entire folder limit are displayed when you try to upload a file.
 
 A similar configuration of file delivery + file return by coaches can also be
 implemented with the course element "Task", only that the possibilities of the
@@ -184,18 +182,17 @@ evaluation or allocation of points can be made....
 
 ##  Course Element: Participant list {: #participant_list}
 
-![](assets/group.png)
+![group.png](assets/group.png)
 
 In the participant list, the members of the course can be made visible to
-everyone. Unlike the [member
-management](../course_operation/Members_management.md)
+everyone. Unlike the [member management](../course_operation/Members_management.md)
 course tool, which is only visible for course owners, the course element
 "Participant list" provides a list of all course members to those OpenOlat
 users allowed to open the respective course. Members are listed depending on
 their role within the course as either course administrator, coach or
 participant. Select the user groups to be displayed to course users.
 
-![](assets/participantlist_config_EN.png)
+![paricipant list configuration.png](assets/participantlist_config_EN.png)
 
 By linking the member names to their OpenOlat visiting card as well as the
 OpenOlat mail service, this course element facilitates contacting your fellow

@@ -1,17 +1,11 @@
 # Kommunikation und Kollaboration
 
-  * 1 Kommunikation und Kollaboration 
-    * 1.1Kursbaustein „Wiki“
-    * 1.2Kursbaustein „Forum“
-    * 1.3Kursbaustein „Dateidiskussion“
-    * 1.4 Kursbaustein "Teilnehmer Ordner"
-    * 1.5Kursbaustein „Teilnehmerliste“
 
-sowie mehrere [Virtuelle Klassenzimmer](Virtual_classrooms.de.md)
+Mehr Informationen zu [Virtuelle Klassenzimmer](Virtual_classrooms.de.md)
 
 ## Kursbaustein „Wiki“ {: #wiki}
 
-![](assets/wiki.png)
+![Wiki Icon.png](assets/wiki.png)
 
 Verwenden Sie ein Wiki, um auf einfache Weise mit Kursteilnehmenden gemeinsam
 Inhalte zu erstellen. Ein Wiki kann für Gruppenarbeiten, als
@@ -42,12 +36,13 @@ Im Kapitel „Lernaktivitäten im Kurs“ finden Sie unter dem Punkt
 kann, wie Sie neue Seiten erstellen und wie Sie die verschiedenen Versionen
 einer Seite betrachten können.
 
-Wenn Sie in Ihrer OpenOlat Instanz keinen Kursbaustein "Wiki" finden können,
-so wurde dies systemweit von einem Administrator ausgeschaltet.
+!!! warning "Achtung"
+
+    Wenn Sie in Ihrer OpenOlat Instanz keinen Kursbaustein "Wiki" finden können, so wurde dies systemweit von einem Administrator ausgeschaltet.
 
 ## Kursbaustein „Forum“ {: #forum}
 
-![](assets/forum.png)
+![forum icon.png](assets/forum.png)
 
 Mit dem Kursbaustein „Forum“ können Sie in Ihrem Kurs auf einfache Weise
 asynchrone Online-Diskussionen für unterschiedliche Zwecke ermöglichen.
@@ -63,8 +58,9 @@ Sie können das Forum auch als Alternative für den Mitteilungsbaustein für
 Ankündigungen von Seiten der Kursautoren verwenden, besonders wenn Rückfragen
 von den Lernenden erwünscht sind.
 
-Empfehlen Sie den Kursteilnehmenden, das Forum zu abonnieren, um bei neuen
-Beiträgen benachrichtigt zu werden.
+!!! tip "Tipp"
+
+    Empfehlen Sie den Kursteilnehmenden, das Forum zu abonnieren, um bei neuen Beiträgen benachrichtigt zu werden.
 
 ### Tab Konfiguration
 
@@ -82,7 +78,7 @@ eingestellt werden, dass die Verwendung eines Pseudonyms standardmässig
 eingeschaltet ist. Wählen Sie dazu die Checkbox "Pseudonym im einzelnen Forum-
 Post aktiviert".
 
-![](assets/Forum_Tab_Konfiguration1.png)
+![Tab Konfiguration.png](assets/Forum_Tab_Konfiguration1.png)
 
 ### Moderationsrechte
 
@@ -109,10 +105,10 @@ werden. Im letzten Schritt der Verschiebung kann zudem ein E-Mail an alle vom
 Verschieben betroffenen Benutzer geschickt werden, mit der Information, wohin
 das Forum nun verschoben wird.
 
-Warnung
 
-Forumsbeiträge können auch in Foren verschoben werden, in welchen der
-Ersteller des Beitrages keinen Zugriff hat.
+!!! warning "Achtung"
+
+    Forumsbeiträge können auch in Foren verschoben werden, in welchen der Ersteller des Beitrages keinen Zugriff hat.
 
   
 
@@ -128,7 +124,7 @@ Vergabe von Moderationsrechten vorgenommen werden.
 
 ## Kursbaustein „Dateidiskussion“ {: #file_dialog}
 
-![](assets/file_discussion.png)
+![Dateidiskussion.png](assets/file_discussion.png)
 
 Der Kursbaustein Dateidiskussion kann als eine Kombination aus Forum und
 Ordner verstanden werden. Im Kursbaustein „Dateidiskussion“ stehen Ihnen
@@ -149,13 +145,13 @@ wer wann welche Datei hochgeladen hat und wie der Diskussionsstand ist.
 Wer neben dem Kursbesitzer noch welche Aktionen vornehmen kann, wird im
 Kurseditor in den Benutzerberechtigungen des Tabs "Konfiguration" definiert.
 
-![](assets/Dateidiskussion_Tab_Konfiguration.png)
+![Dateidiskussion Konfiguration.png](assets/Dateidiskussion_Tab_Konfiguration.png)
 
   
 
 ##  Kursbaustein "Teilnehmer Ordner" {: #participant_folder}
 
-![](assets/pfolder_434343_64.png)
+![Ordner Icon.png](assets/pfolder_434343_64.png)
 
 Der Kursbaustein "Teilnehmer Ordner" ermöglicht einen Dateiaustausch zwischen
 Teilnehmenden und Betreuenden. Dafür stehen zwei Ordner zur Verfügung. Zum
@@ -191,10 +187,9 @@ gezippt oder entzippt werden. Sie können jedoch weiterhin gelöscht werden,
 sofern diese Option aktiviert ist. Falls gewünscht kann auch nur der Abgabe-
 oder nur der Rückgabeordner aktiviert werden.
 
-Achtung: Für den Teilnehmer Ordner existiert wie für alle Upload Bereiche eine
-Speicherbegrenzung. Die vom Administrator eingestellte Begrenzungen für den
-Upload der Datei und die Begrenzung des gesamten Ordners wird angezeigt, wenn
-man versucht eine Datei hochzuladen.
+!!! warning "Achtung"
+
+    Für den Teilnehmer Ordner existiert wie für alle Upload Bereiche eine Speicherbegrenzung. Die vom Administrator eingestellte Begrenzungen für den Upload der Datei und die Begrenzung des gesamten Ordners wird angezeigt, wenn man versucht eine Datei hochzuladen.
 
 Eine ähnliche Konfiguration der Abgabe von Dateien + Dateirückgabe durch
 Betreuer kann auch mit dem [Kursbaustein "Aufgabe"](../task/index.de.md)
@@ -204,7 +199,7 @@ vorgenommen werden kann.
 
 ## Kursbaustein „Teilnehmerliste“  {: #participant_list}
 
-![](assets/group_users_434343_64.png)
+![Gruppe.png](assets/group_users_434343_64.png)
 
 In der Teilnehmerliste können die Mitglieder des Kurses für alle sichtbar
 gemacht werden. Im Gegensatz zum Kurswerkzeug
@@ -216,7 +211,7 @@ mit Foto nach ihrer "höchsten" Rolle aufgelistet. In der Konfiguration können
 Sie festlegen, welche Benutzergruppen in der Teilnehmerliste angezeigt werden
 sollen.
 
-![](assets/teilnehmerliste_konfig_DE.png)
+![Teilnehmerliste Konfiguration.png](assets/teilnehmerliste_konfig_DE.png)
 
 Durch die Verlinkung auf die OpenOlat-Visitenkarte sowie der Möglichkeit aus
 dem Kursbaustein heraus eine OpenOlat-Mail an jedes gewünschte Mitglied des
