@@ -9,11 +9,11 @@ der Kursbaustein in herkömmlichen oder in Lernpfad Kursen verwendet wird
 
  **Tabs in Lernpfad Kursen**
 
-![](assets/Struktur_herkoemmlich.png)
+![herkömmliche Struktur](assets/Struktur_herkoemmlich.png)
 
  **Tabs in herkömmlichen Kursen**
 
-![](assets/Struktur_Lernpfad.png)
+![Lernpfad Struktur](assets/Struktur_Lernpfad.png)
 
 Weitere Informationen zu den allgemeinen Tabs "Titel und Beschreibung",
 Layout" sowie "Sichtbarkeit" und "Zugang" finden Sie
@@ -35,11 +35,9 @@ untergeordneten Kursbaustein anzeigen lassen.
 Spalten_ an, um das automatische Inhaltsverzeichnis bzw. die Vorschau in zwei
 Spalten anzeigen zu lassen.
 
-Wenn Sie sich für eine eigene HTML-Seite entschieden haben und diese
-Verknüpfungen zu in OpenOlat abgelegten Grafiken oder sonstigen Dateien
-beinhaltet, müssen Sie unter "Sicherheitseinstellungen" die Option "Link im
-gesamten Ablageordner erlauben" wählen. Ferner können Sie auch Betreuern
-erlauben die HTML-Seite ohne Zugriff auf den Kurseditor zu bearbeiten.
+!!! info "Info"
+
+    Wenn Sie sich für eine eigene HTML-Seite entschieden haben und diese Verknüpfungen zu in OpenOlat abgelegten Grafiken oder sonstigen Dateien beinhaltet, müssen Sie unter "Sicherheitseinstellungen" die Option "Link im gesamten Ablageordner erlauben" wählen. Ferner können Sie auch Betreuern erlauben die HTML-Seite ohne Zugriff auf den Kurseditor zu bearbeiten.
 
 ## Tab Highscore
 
@@ -96,7 +94,7 @@ Kursbausteine ein _«Bestanden»_ aufweisen.
  **Nicht bestanden berechnen?:  **Es ist auch möglich gezielt ein "nicht
 bestanden" zu berechnen.
 
-![](assets/nicht_bestanden_berechnen.png)
+![nicht bestanden berechnen](assets/nicht_bestanden_berechnen.png)
 
   * Nicht bestanden wird solange angezeigt bis die Anforderungen, die für das Bestehen definiert wurden, erfüllt sind.
   * Nicht bestanden wird erst dann angezeigt, wenn die Anforderungen an das Bestehen nicht erfüllt sind _und_ das Enddatum des Kurses erreicht ist. Wurden schon vor Kursende die Bedingungen für "bestanden" erfüllt, wird bestanden schon während der Kurslaufzeit angezeigt.

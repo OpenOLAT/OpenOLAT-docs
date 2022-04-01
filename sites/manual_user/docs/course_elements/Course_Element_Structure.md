@@ -1,6 +1,6 @@
 # Course Element: Structure
 
-![](assets/structure.png)
+![structure icon](assets/structure.png)
 
 The course element Structure is primarily used to structure the course. The
 concrete setting options depend on whether the course element is used in
@@ -8,11 +8,11 @@ conventional or in learning path courses.
 
  **Tabs in learning path courses**
 
- **![](assets/structure_tabs_lpc_en.png)**
+ **![structure tab learnign path courses](assets/structure_tabs_lpc_en.png)**
 
  **Tabs in conventional courses**
 
- **![](assets/sturcture_tabs_cc_en.png)**
+ **![structure tab conventional courses](assets/sturcture_tabs_cc_en.png)**
 
   
 
@@ -34,10 +34,9 @@ _
 columns_  to display the automatically generated table of contents or the
 preview in two columns.
 
-If you have chosen your own HTML page and this contains links to graphics or
-other files stored in OpenOlat, you must select the option "Allow links in the
-entire storage folder" under "Security settings". You can also allow coaches
-to edit the HTML page without access to the course editor.
+!!! info "Info"
+
+    If you have chosen your own HTML page and this contains links to graphics or other files stored in OpenOlat, you must select the option "Allow links in the entire storage folder" under "Security settings". You can also allow coaches to edit the HTML page without access to the course editor.
 
 ##  Tab Score (only with conventional courses) {: #score}
 
@@ -73,7 +72,7 @@ have a  _«Passed»._
  **Calculate failed score?:  **It is also possible to calculate "Failed".
 Therefore 3 options are available.
 
-![](assets/structure_score_tab.png)
+![structue score tab](assets/structure_score_tab.png)
 
   * Failed as not passed: As long as the conditions for passed are not reached, the structure is shown as "Failed". 
   * Failed as not passed after end date of course: As long as the conditions for passed are not reached, the structure is shown as "Failed". This calculation is only done after the end date of the course is reached. Before the end date is reached no status or Passed is shown when the conditions are reached. 
@@ -87,8 +86,7 @@ passing score?**  in the course root node.
 Use explicit short titles for all of your assessable course elements to be
 able to clearly distinguish them in the tab "Score."
 
-By means of the button "Display  [expert
-mode](../course_create/Access_Restrictions_in_the_Expert_Mode.md)" an entry field will appear
+By means of the button "Display  [expert mode](../course_create/Access_Restrictions_in_the_Expert_Mode.md)" an entry field will appear
 in order to be able to make a more complex configuration according to your
 needs.
 
