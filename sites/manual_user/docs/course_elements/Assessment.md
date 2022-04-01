@@ -4,26 +4,12 @@ Here you get an overview of the course elements that can be used for knowledge
 testing. For some course elements there are separate pages or chapters here in
 the manual.
 
-  
 
-  * 1 Assessment 
-    * 1.1 Course Element: Assessment
-    * 1.2 Course Element: Task
-    * 1.3 Course Element: Portfolio Task
-    * 1.4Course Element: Group Task
-    * 1.5 Course Element: Test
-    * 1.6 Course Element: Self-test
-    * 1.7Course Element: Form
-    * 1.8 Course Element: Survey
-    * 1.9 Course Element: Checklist
-
-![](assets/assessment_elements.png)
+![assessment icon](assets/assessment_elements.png)
 
 OpenOlat provides various course elements for knowledge testing. The central
 course elements for this are the two course elements for OpenOlat
-[tests](Creating+Tests.html) and the two course elements for [submission
-tasks](Creating+Tasks.html). But also the other elements such as [portfolio
-task](../portfolio/Creating_Portfolio_Tasks.md),
+[tests](../tests/Configure_tests.md) and the two course elements for [submission tasks](../task/index.md). But also the other elements such as [portfolio task](../portfolio/Creating_Portfolio_Tasks.md),
 [assessments](Course_Element_Assessment.md) with and without
 evaluation grid (rubric) or the checklists offer a lot of potential for
 certain scenarios.
@@ -32,7 +18,7 @@ Most course elements in the assessment category can also be given points if
 required and then will be given the "Highscore" configuration tab. With the
 allocation of points, further features such as the addition of points or the
 passing/failing of a course based on the assessments of different course
-elements can be added. A course element [structure](Knowledge_Transfer.md)
+elements can be added. A course element [structure](Knowledge_Transfer.md#course-element-structure--structure)
 is used for this.
 
 Another configuration tab that is available for most assessment course
@@ -43,14 +29,14 @@ by a certain date. The possibilities are similar to those in the menu
 "Reminder" in the course administration for which you can find more
 information [here](../course_operation/Course_Reminders.md).
 
-The OpenOlat [questionnaire](Creating+Questionnaires.html) or the course
+The OpenOlat [questionnaire](../forms/Form_editor_Questionnaire_editor.md) or the course
 element Survey can also be found in the assessment category.
 
   
 
 ##  Course Element: Assessment {: #course_element_assessment}
 
-![](assets/manual_score.png)
+![assesment icon](assets/manual_score.png)
 
 The course element "Assessment" is suitable for evaluating services which are
 not explicitly submitted electronically, e.g. presence presentations or online
@@ -63,7 +49,7 @@ On separate pages you will learn how to set up, perform and configure an
 
 ##  Course Element: Task {: #course_element_task}
 
-![](assets/task.png)
+![task icon](assets/task.png)
 
 Coaches can use the Task course element to organize actions and submission
 tasks. Learners upload their submissions to the OpenOlat course and receive
@@ -87,10 +73,9 @@ want to use:
 
   *  **Assessment** : create individual assessments for each course participant or for participants of a group as a whole.
 
-How to create tasks step by step and further information on other
-[configuration possibilities](../task/Task_-_Further_Configurations.md) can be found
-in the chapter 
-["Creating Tasks"](Course_Element_Task).
+!!! info "Info"
+
+    How to create tasks step by step and further information on other [configuration possibilities](../task/Task_-_Further_Configurations.md) can be found in the chapter ["Creating Tasks"](Course_Element_Task).
 
 ##  Course Element: Portfolio Task {: #course_element_portfolio}
 
@@ -130,23 +115,23 @@ passed/failed and individual comments. In the fields "Note for all users" and
 all course participants and coaches.
 
 Further information on how learners can pick up and use a portfolio task can
-be found in the chapter "[Portfolio task and assignment: Collecting and editing](Portfolio+task+and+assignment%EF%B9%95+Collecting+and+editing%EF%B9%96src=contextnavpagetreemode.html)".
+be found in the chapter "[Portfolio task and assignment: Collecting and editing](../portfolio/Portfolio_task_and_assignment_Collecting_and_editing.md)".
 How teachers can evaluate a portfolio task can be found in the chapter
 "[Portfolio assignment: Grading](../portfolio/Portfolio_assignment_Grading.md)".
 
 How the portfolio component looks like from the students' point of view and
 how it can be solved can be found in the chapter "Learning activities in the
-course" under the item ["Portfolio task"](Working+With+Course+Elements.html#WorkingWithCourseElements-_portfolio_lerner).
+course" under the item ["Portfolio task"](../portfolio/Portfolio_assignment_Grading.md).
 
 General information on the subject of portfolios and e-portfolios can be found
-[here](Creating+Portfolios.html).
+[here](../portfolio/index.md).
 
 ## Course Element: Group Task {: #course_element_group_tasks}
 
-![](assets/task.png)
+![Task Icon](assets/task.png)
 
 The course element Group task functions largely like the course element
-[Task](Creating+Tasks.html). Only the following differences have to be
+[Task](../task/index.md). Only the following differences have to be
 considered:
 
 When creating the group task, one or more groups to which the task is assigned
@@ -162,7 +147,7 @@ is only valid for a certain group member.
 
 ##  Course Element: Test {: #course_element_test}
 
-![](assets/test.png)
+![test icon](assets/test.png)
 
 The course element "Test" integrates tests into a course. A test in a course
 is used to assess achievements and includes various question types. Depending
@@ -178,7 +163,7 @@ respectively. In case you have already selected a test the name of this
 learning resource will be displayed after _Selected file_. Click on the name
 to open a preview of the test. Click on "Replace file" if you would like to
 exchange the learning resource with another one. Further information can be
-found in the chapter "[Creating Tests](Creating+Tests.html)".
+found in the chapter "[Creating Tests](../tests/Configure_tests.md)".
 
 The two main tabs for test configuration are "[Test configuration](../tests/Tests_at_course_level.md)" and " **Options** ".
 
@@ -215,8 +200,7 @@ The test results of the participants will be personalised.
 
 ##  Course Element: Self-test {: #course_element_self_test}
 
-![](../../download/thumbnails/590039/test_pencil-square-
-o_434343_64%EF%B9%96version=1&modificationDate=1487251973000&api=v2.png)
+![test icon](assets/test.png)
 
 Like the "Test", the course element "Self-test" uses the learning resource
 Test and is configured and set up similarly. The main difference is that there
@@ -229,12 +213,12 @@ resources of the type "Test." If you have not generated a test before please
 follow the instructions in the chapter ["Four Steps to Your Test or Self-
 test"](../tests/Four_Steps_to_Your_Test_or_Self-test.md).
 
-For more information on tests, refer to the chapter "[Creating Tests](Creating+Tests.html)". 
+For more information on tests, refer to the chapter "[Creating Tests](../tests/Configure_tests.md)". 
 The chapter "[Tests at course level](../tests/Tests_at_course_level.md)" is particularly relevant here.
 
 ## Course Element: Form  {: #course_element_form}
 
-![](assets/Forular_icon.png)
+![form icon](assets/Forular_icon.png)
 
 Using the course element "Form" you can add the learning resource form to a
 course. The form works similar to the course element "Survey" and can also be
@@ -260,7 +244,7 @@ as confirmation for the independent performance of a service.
 
 ##  Course Element: Survey {: #course_element_survey}
 
-![](assets/formular_434343_64.png)
+![survey icon](assets/formular_434343_64.png)
 
 With the course element "Survey" you can add an online questionnaire to your
 course. This can be used to carry out different types of online surveys. You
@@ -268,10 +252,10 @@ can, for example, determine the expectations of the participants at the
 beginning of the course or evaluate the course offerings at the end of the
 course. By default, the results are stored anonymously. A questionnaire must
 first be created with the learning resource "Form" in the author area. If you
-have not yet created a questionnaire, follow the instructions in chapter "[4 steps to your questionnaire](4+steps+to+your+Questionnaire.html)".
+have not yet created a questionnaire, follow the instructions in chapter "[3 steps to your questionnaire](../forms/Three_Steps_to_your_Form.md)".
 
 Further information on the subject of questionnaires and surveys can be found
-in the chapter "[Creating questionnaires](Creating+Questionnaires.html)" and
+in the chapter "[Creating questionnaires](../forms/Form_editor_Questionnaire_editor.md)" and
 the corresponding subchapters.
 
 A formular linked in a course can only be edited completely in the formular
@@ -329,7 +313,7 @@ number should be shown. At least one of the above options need to be selected.
 
   
 
-![](assets/Highscore_EN.png)
+![highscore](assets/Highscore_EN.png)
 
   
 

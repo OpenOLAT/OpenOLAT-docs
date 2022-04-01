@@ -4,26 +4,17 @@ Hier erhalten Sie einen Überblick über die Kursbausteine, die zur
 Wissensüberprüfung eingesetzt werden können. Für einige Kursbausteine
 existieren vertiefende, separate Seiten oder Kapitel hier im Handbuch.
 
-  * 1Kursbaustein „Bewertung“
-  * 2 Kursbaustein "Aufgabe"
-  * 3Kursbaustein „Portfolioaufgabe“
-  * 4Kursbaustein "Gruppenaufgabe"
-  * 5 Kursbaustein „Test“
-  * 6 Kursbaustein „Selbsttest“
-  * 7Kursbaustein "Formular"
-  * 8 Kursbaustein „Umfrage“
-  * 9Kursbaustein „Checkliste“
 
-![](assets/Wissensueberpruefung1.png)
+![Wissensüberpfüfung Icon](assets/Wissensueberpruefung1.png)
 
 OpenOlat stellt diverse Kursbausteine für die Wissensüberprüfung zur
 Verfügung. Die zentralen Kursbausteine hierfür sind die beiden Kursbausteine
-zu OpenOlat [Tests ](../display/OO161DE/Tests+erstellen.html)und die beiden
+zu OpenOlat [Tests](../tests/Configure_tests.de.md) und die beiden
 Kursbausteine für
-[Einsendeaufgaben](../display/OO161DE/Aufgabe+erstellen.html). Aber auch die
+[Einsendeaufgaben](../task/index.de.md). Aber auch die
 anderen Bausteine wie
 [Portfolioaufgabe](../portfolio/Creating_Portfolio_Tasks.de.md),
-[Bewertungen ](viewpage.action%EF%B9%96pageId=108593280.html)mit und ohne
+[Bewertungen ](Course_Element_Assessment.de.md) mit und ohne
 Bewertungsraster (Rubrik) oder die Checklisten bieten für bestimmte Szenarien
 viel Potenzial.
 
@@ -33,7 +24,7 @@ auch mit Punkten versehen werden und erhalten dann den Konfigurations-Tab
 Addition von Punkten oder das Bestehen /Nicht bestehen eines Kurses basierend
 auf den Bewertungen verschiedener Kursbausteine hinzugefügt werden. Verwendet
 wird hierfür ein Kursbaustein
-[Struktur](Knowledge_Transfer.de.md) bei herkömmlichen
+[Struktur](Knowledge_Transfer.de.md#kursbaustein-„struktur--structure) bei herkömmlichen
 Kursen.
 
 Ein weiterer Konfigurations-Tab der bei den meisten Kursbausteinen der
@@ -42,14 +33,12 @@ der Tab "Erinnerung". Hier können in Abhängigkeit von der Bearbeitung des
 jeweiligen Kursbausteins E-Mails verschickt werden. Zum Beispiel kann eine
 Mail verschickt werden, wenn zu einem bestimmten Datum eine Aufgabe noch nicht
 bearbeitet wurde. Die Möglichkeiten sind ähnlich wie im Menü "Erinnerung" in
-der Kurs-Administration zu der Sie [hier
-](../course_operation/Course_Reminders.de.md)weitere Informationen finden.
+der Kurs-Administration zu der Sie [hier](../course_operation/Course_Reminders.de.md)weitere Informationen finden.
 
-In der Kategorie Wissensüberprüfung findet man auch den OpenOlat Fragebogen
-bzw. den Kursbaustein Umfrage.
+In der Kategorie Wissensüberprüfung findet man auch den OpenOlat [Fragebogen] (../forms/Form_editor_Questionnaire_editor.de.md) bzw. den Kursbaustein Umfrage.
 
 ## Kursbaustein „Bewertung“  {: #course_element_assessment}
-![](assets/manual_score_thumbs-o-up.png)
+![Bewertung Icon](assets/manual_score_thumbs-o-up.png)
 
 Der Kursbaustein „Bewertung“ eignet sich, um Leistungen zu bewerten, welche
 nicht explizit elektronisch abgegeben werden, z.B. Präsenz-Referate oder
@@ -63,7 +52,7 @@ konfiguriert.
 
 ## Kursbaustein "Aufgabe" {: #course_element_task}
 
-![](assets/task.png)
+![Aufgabe Icon](assets/task.png)
 
 Mit Hilfe des Kursbausteins Aufgabe können Lehrende Aktionen und
 Einsendeaufgaben organisieren. Lernende laden ihre Einreichungen in den
@@ -84,16 +73,15 @@ möchten:
   *  **Musterlösung** : Stellen Sie allen Teilnehmern Musterlösungen zu den gestellten Aufgaben zur Verfügung. Diese können hochgeladen oder direkt in OpenOlat erstellt werden.
   *  **Bewertung** : Bewertet werden einzelne Teilnehmer individuell oder die Gruppe, d.h. alle Gruppenmitglieder erhalten dieselbe Bewertung.
 
-Eine Schritt-für-Schritt-Anleitung zum Erstellen einer Aufgabe und die
-detaillierten 
-[Konfigurationsmöglichkeiten](../task/Task_-_Further_Configurations.de.md)finden Sie im
-Kapitel [„Aufgabe erstellen"](../task/index.md).
+!!! info "Info"
+
+    Eine Schritt-für-Schritt-Anleitung zum Erstellen einer Aufgabe und die detaillierten [Konfigurationsmöglichkeiten](../task/Task_-_Further_Configurations.de.md)finden Sie im Kapitel [„Aufgabe erstellen"](../task/index.md).
 
   
 
 ## Kursbaustein „Portfolioaufgabe“ {: #course_element_portfolio}
 
-![](assets/portfolio_434343_64.png)
+![Portfolio Icon](assets/portfolio_434343_64.png)
 
 Über den Kursbaustein „Portfolioaufgabe“ können Sie den Lernenden
 vordefinierte Portfolio Mappen bereitstellen. Die Kursteilnehmenden können die
@@ -136,13 +124,13 @@ Wie Lehrende eine Portfolioaufgabe bewerten können, erfahren Sie im Kapitel
 bewerten](../portfolio/Portfolio_assignment_Grading.de.md)“.
 
 Generelle Infos zum Thema Portfolio bzw. E-Portfolio finden Sie
-[hier](../display/OO161DE/Portfolio+erstellen.html).
+[hier](../portfolio/index.de.md).
 
 ## Kursbaustein "Gruppenaufgabe"  {: #course_element_group_tasks}
-![](assets/task.png)
+![Aufgabe Icon](assets/task.png)
 
 Der Kursbaustein Gruppenaufgabe funktioniert größtenteils wie der Kursbaustein
-„[Aufgabe](https://confluence.openolat.org/display/OO161DE/Allgemeines+zur+Aufgabe)“.
+„[Aufgabe](../task/index.de.md)“.
 Lediglich folgende Unterschiede sind zu beachten:
 
 Bei der Erstellung der Gruppenaufgabe müssen im Tab „Workflow“ eine oder
@@ -158,7 +146,7 @@ Bewertungsprozesses kann entschieden werden, ob die Bewertung für die gesamte
 Gruppe gilt oder ob die Bewertung nur für ein bestimmtes Gruppenmitglied gilt.  
 
 ##  Kursbaustein „Test“  {: #course_element_test}
-![](assets/test.png)
+![Test Icon](assets/test.png)
 
 Mit dem Kursbaustein „Test“ binden Sie eine OpenOlat Lernressource „Test“ in
 Ihren Kurs ein. Ein Test wird im Kurs zur Leistungsüberprüfung oder als Quiz
@@ -175,7 +163,7 @@ haben, erscheint der Name dieser Lernressource hinter  _Gewählte Datei_. Mit
 Klick auf den Namen starten Sie die Vorschau des Tests. Mittels "Datei
 auswechseln" können Sie die Lernressource austauschen. Weitere Informationen
 finden Sie im Kapitel „[Tests
-erstellen](../display/OO161DE/Tests+erstellen.html)“.
+erstellen](../tests/Configure_tests.md)“.
 
 Die zwei zentralen Tabs in denen Sie Einstellungen für Ihren Test vornehmen
 können sind „[ **Test-
@@ -223,8 +211,7 @@ Die Resultate der Kursteilnehmer werden personalisiert aufgezeichnet.
 
 ##  Kursbaustein „Selbsttest“ {: #course_element_self_test}
 
-![](../download/thumbnails/590039/test_pencil-square-
-o_434343_64%EF%B9%96version=1&modificationDate=1487251973000&api=v2.png)
+!![test icon](assets/test.png)
 
 Der Selbsttest greift wie der Test auf die Lernressource Test zurück und wird
 ähnlich konfiguriert und eingerichtet. Der Hauptunterschied ist, dass es bei
@@ -239,14 +226,13 @@ Test eingebunden. Wenn Sie noch keinen Test erstellt haben, folgen Sie den
 Anweisungen im Kapitel „[Vier Schritte zu Ihrem Test oder
 Selbsttest“](../tests/Four_Steps_to_Your_Test_or_Self-test.de.md).
 
-Weitere Informationen zu Tests finden Sie im Kapitel „[Tests
-erstellen](../display/OO161DE/Tests+erstellen.html)“. Relevant ist hier vor
+Weitere Informationen zu Tests finden Sie im Kapitel „[Tests erstellen](../tests/Configure_tests.de.md)“. Relevant ist hier vor
 allem das Kapitel „[Tests auf
 Kursebene](../tests/Tests_at_course_level.de.md).
 
 ## Kursbaustein "Formular"  {: #course_element_form}
 
-![](assets/Forular_icon.png)
+![Formular Icon](assets/Forular_icon.png)
 
 Mit dem Kursbaustein "Formular" können Sie die Lernressource Formular einem
 Kurs hinzufügen. Das Formular funktioniert ähnlich wie der Kursbaustein
@@ -277,7 +263,7 @@ einer Leistung.
 
 ##  Kursbaustein „Umfrage“ {: #course_element_survey}
 
-![](assets/formular_434343_64.png)
+![Umfrage Icon](assets/formular_434343_64.png)
 
   
 
@@ -289,10 +275,10 @@ Lehrangebot evaluieren. Die Resultate werden dabei standardmäßig anonymisiert
 gespeichert. Ein Fragebogen muss zuerst mit der Lernressource "Formular"
 erstellt werden. Das kann im Autorenbereich oder direkt im Kurs erfolgen. Wenn
 Sie noch keinen Fragebogen erstellt haben, folgen Sie den Anweisungen im
-Kapitel
+Kapitel "[3 Schritte zu Ihrer Umfrage](../forms/Three_Steps_to_your_Form.de.md)"
 
 Weitere Informationen zum Thema Fragebogen und Umfrage finden Sie im Kapitel
-„[Formulare erstellen](../display/OO161DE/Formulare+erstellen.html)“ und den
+„[Formulare erstellen](../forms/Form_editor_Questionnaire_editor.de.md)“ und den
 entsprechenden Unterkapiteln.
 
   
@@ -306,7 +292,7 @@ abgeschlossen haben, gehen deren Resultate verloren.
 
 ## Kursbaustein „Checkliste“  {: #course_element_checklist}
 
-![](assets/checklist.png)
+![Checkliste Icon](assets/checklist.png)
 
 Der Kursbaustein bietet Ihnen die Möglichkeit, Check - oder Prüflisten in der
 Kursstruktur einzubetten und zu bewerten. Eine Checkliste enthält
@@ -330,7 +316,7 @@ für unterschiedliche Veranstaltungstermine oder zur Überprüfung desselben
 Gegenstandes zu unterschiedlichen Zeitpunkten (Entwicklung) erstellt werden.  
 
 Weitere Informationen finden Sie
-[hier](viewpage.action%EF%B9%96pageId=108593318.html).
+[hier](Course_Element_Checklist.de.md).
 
 ### Highscore {: #highscore}
 
@@ -355,4 +341,4 @@ soll. Mindestens eine dieser Optionen muss ausgewählt werden.
 
   
 
-![](assets/Highscore.png)
+![Highscore](assets/Highscore.png)
