@@ -1,6 +1,6 @@
 # Kursbaustein "Bewertung"
 
-![](assets/manual_score_thumbs-o-up_434343_64.png)
+![manual score.png](assets/manual_score_thumbs-o-up_434343_64.png)
 Bewertung im Kurseditor erstellen und einrichten
 
 Die Konfiguration des Kursbausteins Bewertung nehmen Sie im Kurseditor im Tab
@@ -30,7 +30,7 @@ zum Kurs enthalten ist.
 Zusätzlich können noch spezielle Hinweise für alle Benutzer und für andere
 Betreuer, die grundsätzlich angezeigt werden, ergänzt werden.
 
-![](assets/Bewertung_tab.png)
+![Bewertung Tab.png](assets/Bewertung_tab.png)
 
 Die Einstellungen haben Einfluss auf die späteren Bewertungsoptionen und den
 für die Teilnehmenden sichtbaren Informationen.
@@ -60,7 +60,7 @@ manuelle Punktevergabe gewählt oder ganz auf Punkte verzichtet werden.
 
 Folgende Optionen stehen zur Wahl:
 
-![](assets/Bewertung_Punkte.jpg)
+![Bewertung Punkte.png](assets/Bewertung_Punkte.jpg)
 
 Die Rubrik-bezogenen Punkte erscheinen nur, wenn auch ein Rubrik-Formular für
 die Bewertung gewählt wurde.
@@ -108,21 +108,21 @@ Daten aller Teilnehmenden zurückgesetzt werden.
 
  **Im Kursrun:**
 
-![](assets/Bewertung_kursrun16.png)
+![Bewertung Kursrun.png](assets/Bewertung_kursrun16.png)
 
  **Im Bewertungswerkzeug:**
 
-![](assets/Bewertung_Bewertungswerkzeug_16.jpg.png)
+![Bewertungswerkzeug.png](assets/Bewertung_Bewertungswerkzeug_16.jpg.png)
 
   
 
 Nun wird der entsprechende Kursteilnehmer ausgewählt und die angezeigten
 Felder ausgefüllt bzw. bei Rubrikbewertungen die Rubrik-Felder ausgefüllt.
 
-![](assets/Bewertungswerkzeug_rubrik.png)
+![Bewertungswerkzeug Rubrik.png](assets/Bewertungswerkzeug_rubrik.png)
 
 Der User hat nach der Bewertung direkt Zugriff auf seine Bewertung inklusive
 Bewertungsrubrik bei einer Rubrik-Bewertung.
 
-![](assets/Rubrik_Bewertung_user.png)
+![User Rubrik.png](assets/Rubrik_Bewertung_user.png)
 
