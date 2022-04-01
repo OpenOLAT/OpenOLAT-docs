@@ -1,13 +1,16 @@
 # Lektionen- und Absenzenmanagement
 
 Bevor das Lektionen- und Absenzenmanagement genutzt werden kann, muss dies in
-der Administration aktiviert werden. Kunden von frentix kontaktieren dafür
-bitte [contact@frentix.com.](mailto:contact@frentix.com.) Sobald das
-Lektionen- und Absenzenmanagement aktiviert ist, können diverse zusätzliche
-Einstellungen für die systemweite Konfiguration vorgenommen werden. Bei
-Systemen mit dem fx-Release werden diese Anpassung durch frentix vorgenommen.
+der Administration aktiviert werden. 
 
-# Modul Lektionen
+!!! tip "Aktivierung"
+	Kunden von frentix kontaktieren für die Aktivierung bitte
+	[contact@frentix.com.](mailto:contact@frentix.com.) Sobald das Lektionen- und 
+	Absenzenmanagement aktiviert ist, können diverse zusätzliche Einstellungen für 
+	die systemweite Konfiguration vorgenommen werden. Bei Systemen mit dem fx-Release 
+	werden diese Anpassung durch frentix vorgenommen.  
+		
+	:material-alert: **Nicht Hosting-Kunde von frentix?** Fragen Sie Ihren Systembetreiber!
 
 ## Tab Berechtigungen
 
@@ -117,7 +120,7 @@ ausgewählt werden. Wenn in der Administration keine Begründungen hinterlegt
 sind, erschient die Begründungsauswahl beim Schliessen des Lektionenblocks
 nicht.
 
-![](assets/Absenz_Begruendung.png)
+![](assets/Absenz_Begruendung.png){ class="shadow lightbox" }
 
 ## Tab Lektionenblockreport
 

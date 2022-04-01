@@ -3,13 +3,19 @@
 ## Aktivierung der Organisationsstrukturen
 
 Das Modul Organisationen ist optional in OpenOlat verfügbar und muss in der
-Administration aktiviert werden. Kunden von frentix kontaktieren dafür bitte
-[contact@frentix.com.](mailto:contact@frentix.com.) Nach der Aktivierung
-können diverse zusätzliche Einstellungen für die systemweite Konfiguration
-vorgenommen werden. Bei Systemen mit dem fx-Release werden diese Anpassung
-durch frentix vorgenommen.
+Administration aktiviert werden. 
 
-![](assets/Org_Aktivierung_DE.png)
+!!! tip "Aktivierung"
+	Kunden von frentix kontaktieren für die Aktivierung bitte
+	[contact@frentix.com.](mailto:contact@frentix.com.) Nach der Aktivierung
+	können diverse zusätzliche Einstellungen für die systemweite Konfiguration
+	vorgenommen werden. Bei Systemen mit dem fx-Release werden diese Anpassung
+	durch frentix vorgenommen.  
+	
+	:material-alert: **Nicht Hosting-Kunde von frentix?** Fragen Sie Ihren Systembetreiber!
+	
+
+![](assets/Org_Aktivierung_DE.png){ class="shadow lightbox" }
 
   
 
@@ -52,20 +58,20 @@ direkt eine neue Unterorganisation zu erstellen.
 
   
 
-![](assets/Org_Optionen_de1.png)
+![](assets/Org_Optionen_de1.png){ class="shadow lightbox" }
 
-**Metadaten**
+### Metadaten
 
 Wird eine Organisationsstruktur ausgewählt, können die Metadaten des
 Organisationselementes angepasst oder ergänzt werden. Neben dem Namen und der
 Bezeichnung kann die Beschreibung oder der zugeordnete Organisationstyp für
 das Element aktualisiert werden.
 
-![](assets/Org_Metadata_DE.png)
+![](assets/Org_Metadata_DE.png){ class="shadow lightbox" }
 
   
 
-**Benutzerverwaltung**
+### Benutzerverwaltung
 
 Im Tab "Benutzerverwaltung" erhält man eine Liste mit den aktuell zu diesem
 Element zugeordneten Benutzern. Ebenso können bestehende Benutzer wieder
@@ -77,11 +83,11 @@ ausgewählt. Im anschliessenden Dialog kann nach Benutzern gesucht und
 entsprechend der Auswahl hinzugefügt werden. Das Hinzufügen von mehreren
 Benutzern ist möglich.
 
-![](assets/Org_Benutzerverwaltung_DE.png)
+![](assets/Org_Benutzerverwaltung_DE.png){ class="shadow lightbox" }
 
   
 
-**Lernressourcen**
+### Lernressourcen
 
 Im Tab "Lernressourcen" werden dem Organisationselement direkt zugeordnete
 Kurse angezeigt. Diese können hier auch wieder entfernt werden. Über "Kurse
@@ -97,8 +103,8 @@ Ressourcen gesucht werden, um diese dem Organisationselement zuzuordnen.
 Die Organisationstypen definieren, welche Elemente eine Organisationsstruktur
 enthalten kann und geben diesen Elementen eine nähere Bedeutung. Die Typen
 können dabei auch eine hierarchische Struktur abbilden, dies ist allerdings
-nicht zwingend. Ein Beispiel für Organisationstypen ist Firma --> Bereich -->
-Abteilung.
+nicht zwingend. Ein Beispiel für Organisationstypen ist `Firma --> Bereich -->
+Abteilung`.
 
 Über «Organisationstyp erstellen» können weitere Typen angelegt werden. Neben
 der Bezeichnung (Kennzeichen) und dem Namen kann eine Beschreibung angegeben

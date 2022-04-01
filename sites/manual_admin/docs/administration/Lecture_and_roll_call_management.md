@@ -1,16 +1,23 @@
 # Lecture and roll call management
 
 Before the lectures and absence management can be used it need to be activated
-in the administration. As frentix-client please contact
-[contact@frentix.com](mailto:contact@frentix.com). As soon as the lectures and
-absence management is activated some additional settings can be done for the
-systemwide configuration. For systems with a fx-release these adaptations are
-done by frentix.
+in the administration. 
 
-# Tab Permissions
+!!! tip "Activation"
+	Customers of frentix please contact
+	[contact@frentix.com](mailto:contact@frentix.com) for this. As soon as the 
+	lectures and absence management is activated some additional settings can be 
+	done for the systemwide configuration. For systems with a fx-release these adaptations 
+	are done by frentix.  
+
+	:material-alert: **Not a frentix hosting-client?** Please ask your local system operator!
+
+## Tab Permissions
 
 Lesson and absence management can be switched on or off here. Notifications
 can also be activated.
+
+### Configuration - overridable on course level 
 
  **Allow override of configuration** : The standard configuration set in the
 administration can be overridden at the course level. This is not valid for
@@ -37,7 +44,7 @@ teachers and course owners.
  **Allow assessment mode for lectures**  
   
 
-## Globale configuration
+### Globale configuration
 
  **Daily recording absences:** yes or no
 
@@ -71,7 +78,6 @@ absences are calculated as attendant for the calculation of the attendance
 quote.
 
  **Count dispensation as attendant:** yes or no **  
-**
 
  **Absence per default authorized** : In general all entered absences are not
 excused. However, this option sets all entered absences as excused
@@ -103,7 +109,7 @@ Always when a lecture block is closed, a reason need to be chosen. If no
 reason is entered in the administration, the reason choice is not available
 when closing a lecture block.
 
-![](assets/Absenz_Begruendung.png)
+![](assets/Absenz_Begruendung.png){ class="shadow lightbox" }
 
 ## Tab Lectures report
 

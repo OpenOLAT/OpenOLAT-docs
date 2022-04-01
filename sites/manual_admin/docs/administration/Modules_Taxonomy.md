@@ -1,26 +1,27 @@
 # Modules: Taxonomy
 
-## What is a taxonomy?
+!!! info "What is a taxonomy?"
 
-In OpenOlat, a taxonomy is a hierarchical indexing, usually with a competence
-approach.
-
-Taxonomy can be activated and used in several OpenOlat areas:
-
-  * [Document pool](Modules_Document_pool.md)
-  * [Question bank](../../manual_user/question_bank/index.md)
-  * [ePortfolio](../../manual_user/portfolio/Competences_tags.md)
-  * Linking with learning resources
-
-The usage of the taxonomy will be developed continuously.
-
-Thus on one hand taxonomy structures can for example be built in the form of
-subject, sphere of activity or competence structures. On the other hand
-competences can be added to users which allows them access to the taxonomy.
+	In OpenOlat, a taxonomy is a hierarchical indexing, usually with a competence
+	approach.
+	
+	Taxonomy can be activated and used in several OpenOlat areas:
+	
+	  * [Document pool](Modules_Document_pool.md)
+	  * [Question bank](../../manual_user/question_bank/index.md)
+	  * [ePortfolio](../../manual_user/portfolio/Competences_tags.md)
+	  * Linking with learning resources
+	
+	The usage of the taxonomy will be developed continuously.
+	
+	Thus on one hand taxonomy structures can for example be built in the form of
+	subject, sphere of activity or competence structures. On the other hand
+	competences can be added to users which allows them access to the taxonomy.
 
 Example of a taxonomy structure according to subjects for the document pool:
 
-![](assets/Taxonomie_Struktur_DE.png)
+![](assets/Taxonomie_Struktur_DE.png){ class="shadow lightbox" }
+
 
 Directly on the overview page a new taxonomy can be created. If a subject
 structure has already been created in the question pool, it will be shown here
@@ -29,11 +30,11 @@ with the title Question pool.
 Several taxonomy structures can be created and used for different reasons
 (question bank or document pool).
 
-![](assets/Taxonomy overview EN.png)
+![](assets/Taxonomy overview EN.png){ class="shadow lightbox" }
 
 If you display a taxonomy, you will get to the following overview:
 
-![](assets/Tax Metatdata EN.png)
+![](assets/Tax Metatdata EN.png){ class="shadow lightbox" }
 
 ## Metadata
 
@@ -56,15 +57,15 @@ To the level types certain configurations can be added.
 
 In the tab "Level types" a new type can be created with "Add new level type".
 
-  *  _Identifier:_ Often an abbreviation of the corresponding level is added here. The identifier is shown in the table in the tab "Taxonomy" in the column "Level type". It is thus recommended to choose a unique and logic identifier. 
-  *  _Display name:_ This name is shown under Modules → document pool in the tab "Access permissions" in a written form and can therefore be longer than the identifier. 
-  *  _CSS class:_ If a corresponding css class is added in the theme it can be chosen here. Only icons can be added.  
-  *  _Visible:_ Here can be defined if the taxonomy level of this type should be visible.
-  *  _ Competences:_ If activated, this level type is available as a competence and can be used e.g. for competence-based keywording in ePortfolio entries.
-  *  _Description:_ If desired a short description of the level type can be added.
-  *  _Sub types:_ Out of the already existing level types a sub type can be chosen. Like this it becomes possible to create a hierarchical structure. It will get visible when creating the taxonomy level.
+  * **Identifier:** Often an abbreviation of the corresponding level is added here. The identifier is shown in the table in the tab "Taxonomy" in the column "Level type". It is thus recommended to choose a unique and logic identifier. 
+  * **Display name:** This name is shown under Modules → document pool in the tab "Access permissions" in a written form and can therefore be longer than the identifier. 
+  * **CSS class:** If a corresponding css class is added in the theme it can be chosen here. Only icons can be added.  
+  * **Visible:** Here can be defined if the taxonomy level of this type should be visible.
+  * **Competences:** If activated, this level type is available as a competence and can be used e.g. for competence-based keywording in ePortfolio entries.
+  * **Description:** If desired a short description of the level type can be added.
+  * **Sub types:** Out of the already existing level types a sub type can be chosen. Like this it becomes possible to create a hierarchical structure. It will get visible when creating the taxonomy level.
 
-![](assets/Tax Ebenentypen EN.png)
+![](assets/Tax Ebenentypen EN.png){ class="shadow lightbox" }
 
 ## Taxonomy
 
@@ -72,18 +73,18 @@ In this tab the single taxonomy levels are created and shown.
 
 When creating the following attributes are necessary:
 
-  * Path: With the path the position of the taxonomy level can be defined directly.
-  * Identifier: With the identifier an abbreviation of the level can be defined.
-  * Display name: The display name is the name which is actually shown in the corresponding pool. 
-  * Type: In the type the beforehand created level type can be chosen.
-  * Order: Hereby a manual order is possible.
-  * Description: If desired a short description of the taxonomy level can be added.
+  * **Path:** With the path the position of the taxonomy level can be defined directly.
+  * **Identifier:** With the identifier an abbreviation of the level can be defined.
+  * **Display name:** The display name is the name which is actually shown in the corresponding pool. 
+  * **Type:** In the type the beforehand created level type can be chosen.
+  * **Order:** Hereby a manual order is possible.
+  * **Description:** If desired a short description of the taxonomy level can be added.
 
-![](assets/Taxebenen EN.png)
+![](assets/Taxebenen EN.png){ class="shadow lightbox" }
 
 In the overview a hierarchical structure is now visible.
 
-![](assets/Taxonomy_taxonomy.png)
+![](assets/Taxonomy_taxonomy.png){ class="shadow lightbox" }
 
 In the detail view competences can be added afterwards. Like this users get
 access rights for the single taxonomy levels. In OpenOlat competences have
@@ -97,7 +98,7 @@ shortly:
   * Have: This competence is not yet used in OpenOlat. In the future this competence can be gained by a learner through learning activities in OpenOlat (e.g. test). This competence has an expiry date.
   * Target: This competence is not yet used in OpenOlat. A learner has a target he wants to reach. It is the target to gain this competence.
 
-![](assets/taxonomy_competences.png)
+![](assets/taxonomy_competences.png){ class="shadow lightbox" }
 
 ## Lost+Found
 

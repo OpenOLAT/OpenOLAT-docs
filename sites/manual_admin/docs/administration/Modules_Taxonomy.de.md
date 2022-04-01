@@ -1,29 +1,29 @@
 # Modules: Taxonomie
 
-## Was ist eine Taxonomie?
+!!! info "Was ist eine Taxonomie?"
 
-Im OpenOlat ist eine Taxonomie eine hierarchische Verschlagwortung,
-üblicherweise mit einem Kompetenzansatz.
-
-Taxonomie kann in mehreren OpenOlat Bereichen aktiviert und eingesetzt werden:
-
-  * [Dokumentenpool](Modules_Document_pool.de.md)
-  * [Fragenpool](../../manual_user/question_bank/index.de.md)
-  * [ePortfolio](../../manual_user/portfolio/Competences_tags.de.md)
-  * Verknüpfung mit Lernressourcen
-
-Die Verwendung der Taxonomie in OpenOlat wird laufend erweitert.
-
-Zum einen können also Taxonomiestrukturen beispielsweise in Form einer
-Fächer-, Handlungsfeld- oder Kompetenzstruktur abgebildet werden. Zum anderen
-können den Benutzern Kompetenzen zugeordnet werden, welche ihnen den Zugriff
-auf die Taxonomie erlauben.
+	Im OpenOlat ist eine Taxonomie eine hierarchische Verschlagwortung,
+	üblicherweise mit einem Kompetenzansatz.
+	
+	Taxonomie kann in mehreren OpenOlat Bereichen aktiviert und eingesetzt werden:
+	
+	  * [Dokumentenpool](Modules_Document_pool.de.md)
+	  * [Fragenpool](../../manual_user/question_bank/index.de.md)
+	  * [ePortfolio](../../manual_user/portfolio/Competences_tags.de.md)
+	  * Verknüpfung mit Lernressourcen
+	
+	Die Verwendung der Taxonomie in OpenOlat wird laufend erweitert.
+	
+	Zum einen können also Taxonomiestrukturen beispielsweise in Form einer
+	Fächer-, Handlungsfeld- oder Kompetenzstruktur abgebildet werden. Zum anderen
+	können den Benutzern Kompetenzen zugeordnet werden, welche ihnen den Zugriff
+	auf die Taxonomie erlauben.
 
   
-
 Beispiel einer Taxonomiestruktur nach Fächern für den Dokumentenpool:
 
-![](assets/Taxonomie_Struktur_DE.png)
+![](assets/Taxonomie_Struktur_DE.png){ class="shadow lightbox" }
+
 
 Direkt auf der Übersichtsseite kann eine neue Taxonomie erstellt werden.
 Sofern Sie im Fragenpool bereits eine Fachbereichsstruktur angelegt haben,
@@ -32,11 +32,11 @@ wird diese hier mit dem Titel "Question Pool" angezeigt.
 Es können mehrere Taxonomiestrukturen erstellt und für verschiedene Zwecke
 (Fragenpool oder Dokumentenpool) aktiviert werden.
 
-![](assets/Taxonomy overview DE.png)
+![](assets/Taxonomy overview DE.png){ class="shadow lightbox" }
 
 Lässt man sich eine Taxonomie anzeigen gelangt man zur folgenden Übersicht:
 
-![](assets/Tax Metatdata DE.png)
+![](assets/Tax Metatdata DE.png){ class="shadow lightbox" }
 
   
 
@@ -63,17 +63,17 @@ Zu Ebenentypen werden gewisse Konfigurationen hinzugefügt.
 Im Tab "Ebenentypen" kann mit "Neuer Ebenentyp erstellen" ein neuer Typ
 erstellt werden.
 
-  *  _Bezeichnung:_ Hier wird oft ein Kürzel der entsprechenden Ebene hinzugefügt. Diese Bezeichnung wird in der Tabelle im Tab "Taxonomie" in der Spalte "Ebenentyp" angezeigt. Es ist deshalb empfehlenswert, eine eindeutige und logische Bezeichnung zu wählen.
-  *  _Anzeigename:_ Dieser Name wird unter Modules → Dokumentenpool im Tab Zugangsberechtigung in ausgeschriebener Form angezeigt und kann deshalb länger sein als die Bezeichnung. 
-  *  _CSS class:_ Sofern eine entsprechende css class im Theme hinterlegt ist, kann diese hier ausgewählt werden. Es können so nur Icons hinterlegt werden.
-  * Sichtbar: Hier wird definiert, ob alle Taxonomieebenen von diesem Typ sichtbar sein sollen.
-  *  ___Kompetenzen:_ Wenn aktiviert, steht dieser Ebenentyp als Kompetenz zur Verfügung und kann z.B. zur kompetenzbasierten Verschlagwortung in ePortfolio-Einträgen genutzt werden.
-  * Beschreibung: Falls gewünscht kann eine kurze Beschreibung des Ebenentyps hinzugefügt werden.
-  *  _Sub types:_ Aus den bereits bestehenden Ebenentypen kann nun ein Untertyp ausgewählt werden. So ist es möglich, eine hierarchische Struktur zu schaffen. Diese wird dann beim Erstellen der Taxonomieebenen sichtbar. 
+  * **Bezeichnung:** Hier wird oft ein Kürzel der entsprechenden Ebene hinzugefügt. Diese Bezeichnung wird in der Tabelle im Tab "Taxonomie" in der Spalte "Ebenentyp" angezeigt. Es ist deshalb empfehlenswert, eine eindeutige und logische Bezeichnung zu wählen.
+  * **Anzeigename:** Dieser Name wird unter Modules → Dokumentenpool im Tab Zugangsberechtigung in ausgeschriebener Form angezeigt und kann deshalb länger sein als die Bezeichnung. 
+  * **CSS class:** Sofern eine entsprechende css class im Theme hinterlegt ist, kann diese hier ausgewählt werden. Es können so nur Icons hinterlegt werden.
+  * **Sichtbar:** Hier wird definiert, ob alle Taxonomieebenen von diesem Typ sichtbar sein sollen.
+  * **Kompetenzen:** Wenn aktiviert, steht dieser Ebenentyp als Kompetenz zur Verfügung und kann z.B. zur kompetenzbasierten Verschlagwortung in ePortfolio-Einträgen genutzt werden.
+  * **Beschreibung:** Falls gewünscht kann eine kurze Beschreibung des Ebenentyps hinzugefügt werden.
+  * **Sub types:** Aus den bereits bestehenden Ebenentypen kann nun ein Untertyp ausgewählt werden. So ist es möglich, eine hierarchische Struktur zu schaffen. Diese wird dann beim Erstellen der Taxonomieebenen sichtbar. 
 
   
 
-![](assets/Tax Ebenentypen DE.png)
+![](assets/Tax Ebenentypen DE.png){ class="shadow lightbox" }
 
 ## Taxonomie
 
@@ -81,18 +81,18 @@ In diesem Tab werden nun die einzelnen Taxonomieebenen erstellt und angezeigt.
 
 Beim Erstellen werden folgende Angaben benötigt:
 
-  * Pfad: Mit dem Pfad kann direkt die Position der neuen Taxonomieebene definiert werden.
-  * Bezeichnung: Als Bezeichnung kann wiederum ein Kürzel für die Ebene verwendet werden.
-  * Anzeigename: Der Anzeigename ist jener Name, welcher dann im entsprechenden Pool tatsächlich angezeigt wird.
-  * Typ: Beim Typ wird nun der zuvor definierte Ebenentyp ausgewählt.
-  * Sortierung: Hiermit ist eine manuelle Sortierung möglich.
-  * Beschreibung: Falls gewünscht kann eine kurze Beschreibung der Taxonomieebene hinzugefügt werden.
+  * **Pfad**: Mit dem Pfad kann direkt die Position der neuen Taxonomieebene definiert werden.
+  * **Bezeichnung**: Als Bezeichnung kann wiederum ein Kürzel für die Ebene verwendet werden.
+  * **Anzeigename**: Der Anzeigename ist jener Name, welcher dann im entsprechenden Pool tatsächlich angezeigt wird.
+  * **Typ**: Beim Typ wird nun der zuvor definierte Ebenentyp ausgewählt.
+  * **Sortierung**: Hiermit ist eine manuelle Sortierung möglich.
+  * **Beschreibung**: Falls gewünscht kann eine kurze Beschreibung der Taxonomieebene hinzugefügt werden.
 
-![](assets/Taxebenen.png)
+![](assets/Taxebenen.png){ class="shadow lightbox" }
 
 In der Übersicht ist nun die hierarchische Struktur sichtbar.
 
-![](assets/taxonomy_taxonomie_DE.png)
+![](assets/taxonomy_taxonomie_DE.png){ class="shadow lightbox" }
 
 In der Detailansicht können anschliessend Kompetenzen hinzugefügt werden. So
 erhalten Benutzer die Zugriffsrechte für die einzelnen Taxonomieebenen. Im
@@ -106,7 +106,7 @@ kurz umrissen:
   * Haben: Diese Kompetenz wird momentan im OpenOlat noch nicht verwendet. Diese Kompetenz sollen zukünftig Lernende durch eine Lernaktivität im OpenOlat (z.B. absolvierter Test) erhalten. Diese Kompetenz wird auch ein Verfallsdatum haben.
   * Ziel: Diese Kompetenz wird momentan im OpenOlat noch nicht verwendet. Ein Lernender hat ein Ziel, das er erreichen möchte. Sein Ziel ist es, diese Kompetenz zu erwerben.
 
-![](assets/taxonomy_detail_DE.png)
+![](assets/taxonomy_detail_DE.png){ class="shadow lightbox" }
 
 ## Lost+Found
 

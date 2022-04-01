@@ -9,9 +9,7 @@ Kontaktverfolgung an einer Institution.
 > aktive Ermitteln von Personen, die Kontakt zu einem Erkrankten hatten und
 > infiziert sein könnten."_
 
-  
-
-  
+    
 
 ## Übersicht und Praxiseinsatz
 
@@ -26,10 +24,10 @@ Das Contact Tracing Modul funktioniert mit den folgenden fünf Schritten:
 Die Daten werden datenschutzkonform in OpenOlat abgelegt und nach der von
 Ihnen definierten Frist automatisch gelöscht.
 
-OOacademy-Video (Kontaktverfolgung im Praxiseinsatz)
 
-  
+### OOacademy-Video (Kontaktverfolgung im Praxiseinsatz)
 
+<iframe width="300" height="200" src="https://www.youtube.com/embed/4fO16U6iaiU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   
 
 ## Aktivierung des Moduls
@@ -43,7 +41,7 @@ konfiguriert und weitere Texte und Nachrichten können konfiguriert werden.
 
 Im Tab "Standorte" können Standorte importiert bzw. hinzugefügt werden.
 
-![](assets/Standort_hinzufuegen.png)
+![](assets/Standort_hinzufuegen.png){ class="shadow" }
 
   
 

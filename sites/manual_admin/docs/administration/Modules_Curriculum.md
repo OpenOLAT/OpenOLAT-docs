@@ -3,26 +3,31 @@
 ## Activation of the Curriculum
 
 The Curriculum module is optionally available in OpenOlat and must be
-activated in the administration. Customers of frentix please contact
-[contact@frentix.com](mailto:contact@frentix.com) for this. After activation,
-the display of the personal curriculum (= "Courses") can additionally be
-activated in the "Courses" area.
+activated in the administration. 
 
-![](assets/curriculum_activation.png)
+!!! tip "Activation"
+	Customers of frentix please contact
+	[contact@frentix.com](mailto:contact@frentix.com) for this. After activation,
+	the display of the personal curriculum (= "Courses") can additionally be
+	activated in the "Courses" area.
+	
+	:material-alert: **Not a frentix hosting-client?** Please ask your local system operator!
+
+![](assets/curriculum_activation.png){ class="shadow lightbox" }
 
 ## Defining curriculum types
 
 Curriculum types define which elements a curriculum can contain and give a
 more detailed meaning to these elements. When creating curriculum types, a
 hierarchical structure can be mapped, but this is not mandatory. An example of
-a hierarchical curriculum is Course → Semester → Module → Course.
+a hierarchical curriculum is `Course → Semester → Module → Course`.
 
 In the table the already created curriculum types are displayed. Editing the
 data is possible via the
-![](assets/Symbol_Bearbeiten.png)-symbol.
+:fontawesome-regular-pen-to-square:-symbol.
 The respective type can be copied or deleted via the 3-dot link.
 
-![](assets/curriculum_types.png)
+![](assets/curriculum_types.png){ class="shadow lightbox" }
 
 ## Creating a curriculum type
 
@@ -38,5 +43,5 @@ curriculum element.
 
 Existing curriculum types can be subordinated to the new type as sub-types.
 
-![](assets/create_curriculum_type.png)
+![](assets/create_curriculum_type.png){ class="shadow lightbox" }
 

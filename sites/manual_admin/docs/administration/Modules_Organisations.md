@@ -3,12 +3,17 @@
 ##  Activation of the organizational structures
 
 The Organizations module is optionally available in OpenOlat and must be
-activated in Administration. Customers of frentix please contact
-[contact@frentix.com](mailto:contact@frentix.com) for this. After activation,
-various additional settings can be made for the system-wide configuration. For
-systems with the fx-Release, these adjustments are made by frentix.
+activated in Administration. 
 
-![](assets/Org_Aktivierung_DE.png)
+!!! tip "Activation"
+	Customers of frentix please contact
+	[contact@frentix.com](mailto:contact@frentix.com) for this. After activation,
+	various additional settings can be made for the system-wide configuration. For
+	systems with the fx-Release, these adjustments are made by frentix.
+
+	:material-alert: **Not a frentix hosting-client?** Please ask your local system operator!
+
+![](assets/Org_Aktivierung_DE.png){ class="shadow lightbox" }
 
 ## Creating organizational structures
 
@@ -48,17 +53,17 @@ suborganization directly.
 
   
 
-![](assets/Org_Optionen_de1.png)
+![](assets/Org_Optionen_de1.png){ class="shadow lightbox" }
 
-**Metadata**
+### Metadata
 
 If an organizational structure is selected, the metadata of the organizational
 element can be adjusted or supplemented. Next to the name and label, the
 description or the assigned organization type for the element can be updated.
 
-![](assets/Org_Metadata_DE.png)
+![](assets/Org_Metadata_DE.png){ class="shadow lightbox" }
 
-**User administration**
+### User administration
 
 In the tab "User administration" you get a list with the users currently
 assigned to this element. Existing users can also be removed.
@@ -68,9 +73,9 @@ the desired role is selected from the listed roles. In the following dialog,
 users can be searched for and added according to the selection. It is possible
 to add multiple users.
 
-![](assets/Org_Benutzerverwaltung_DE.png)
+![](assets/Org_Benutzerverwaltung_DE.png){ class="shadow lightbox" }
 
-**Learning resources**
+### Learning resources
 
 The "Learning resources" tab displays courses directly assigned to the
 organizational element. These can also be removed here. Via "Add courses" you
@@ -78,15 +83,12 @@ can search for further own and available resources in a dialog in order to
 assign them to the organizational element.
 
   
-
-  
-
 ## Defining organization types
 
 The organization types define which elements an organizational structure can
 contain and give a closer meaning to these elements. The types can also
 represent a hierarchical structure, but this is not mandatory. An example for
-organization types is Company --> Division --> Department.
+organization types is `Company --> Division --> Department`.
 
 Further types can be created via "Create organization type". In addition to
 the designation (indicator) and the name, a description can be entered. At

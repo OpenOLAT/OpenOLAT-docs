@@ -8,6 +8,7 @@ at an institution.
 > ("contacts") and subsequent collection of further information about these
 > contacts._ _"_
 
+
 ## Overview and practical use
 
 The Contact Tracing module works with the following five steps:
@@ -21,10 +22,9 @@ The Contact Tracing module works with the following five steps:
 The data is stored in OpenOlat in accordance with data protection regulations
 and is automatically deleted after the time period defined by you.
 
-OOacademy-Video (Kontaktverfolgung im Praxiseinsatz)
+### OOacademy-Video (Kontaktverfolgung im Praxiseinsatz)
 
-  
-
+<iframe width="300" height="200" src="https://www.youtube.com/embed/4fO16U6iaiU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   
 
 ## Activation of the module
@@ -38,5 +38,5 @@ messages can be configured.
 
 Locations can be imported or added in the "Locations" tab.
 
-![](assets/Standort_hinzufuegen.png)
+![](assets/Standort_hinzufuegen.png){ class="shadow" }
 
