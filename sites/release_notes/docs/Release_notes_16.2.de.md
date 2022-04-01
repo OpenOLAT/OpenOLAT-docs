@@ -108,8 +108,6 @@ Der bisherige Freigabestatus-Workflow für Bewertungen war für Autoren/Betreuen
 
 Gleichzeitig wurde das **Bewertungsformular optimiert** zur übersichtlichen Darstellung des jeweiligen Freigabestatus und die Aktionen zum Zwischenspeichern bzw. Abschliessen der Bewertung mit oder ohne Freigabe neu angeordnet.
 
-Ausserdem wurde die **Leistungsübersicht des Teilnehmenden** in das Bewertungsformular aufgenommen, so dass der/die Betreuende im Freigabeprozess dies zur Ansicht vorliegen hat.
-
 #### Bessere Usability im Bewertungswerkzeug
 
 Die Übersichtsseite des Bewertungswerkzeugs sowie die Darstellung der Daten wurde komplett **überarbeitet**. Nach dem neuen Konzept ist die Übersicht ein eigenständiger Navigationspunkt. Die Kurs-, Gruppen- und Curriculum-Teilnehmenden werden jeweils in separaten Bereichen zusammengefasst, **Grafiken** geben auf einen Blick den aktuellen Stand (z.B. zu Punktzahl oder Bestanden) wieder. Offene und noch freizugebende Bewertungen sind auf der rechten Seite kompakt dargestellt. Über **Verlinkungen** gelangt man zur entsprechend gefilterten Ansicht. Auf den einzelnen Kursbausteinen ist die neu strukturierte Übersicht ebenfalls verfügbar.

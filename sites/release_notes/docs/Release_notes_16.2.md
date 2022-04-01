@@ -110,8 +110,6 @@ The previous release status workflow for assessments was sometimes very intransp
 
 At the same time, the **assessment form has been optimized** for a clear display of the respective release status and the actions for buffering or completing the assessment with or without release have been rearranged.
 
-In addition, the **performance overview of the participant** has been included in the evaluation form so that the supervisor has this available for viewing during the approval process.
-
 #### Better usability in the evaluation tool
 
 The overview page of the assessment tool as well as the presentation of the data has been completely **revised**. According to the new concept, the overview is an independent navigation point. Course, group and curriculum participants are each summarized in separate areas, **graphs** show the current status (e.g. on score or pass) at a glance. Open assessments and assessments still to be released are shown compactly on the right-hand side. Via **links** you can access the corresponding filtered view. The newly structured overview is also available on the individual course elements.
