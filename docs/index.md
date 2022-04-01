@@ -6,7 +6,10 @@ hide:
 
 # Welcome to the OpenOlat manual
 
-Find information on OpenOlat, its features and latest changes here. Navigate in the spaces overview to the manual corresponding to the version of your LMS.
+Find information on OpenOlat, its features and latest changes here. Use the top navigation to switch between 
+[Release notes](release_notes/), [User manual](manual_user/), [Admin manual](manual_admin/) and the [Developer cookbook](manual_dev/).
+
+[Zur Deutschen Version wechseln](/de/){ .md-button } 
 
 ## Current version:
 
@@ -18,9 +21,9 @@ Find information on OpenOlat, its features and latest changes here. Navigate in 
 - [OpenOlat 16.0 User Manual](archive_confluence/display/OO160EN.html) | [Release notes 16.0](release_notes/Release_notes_16.0.md)
 - [OpenOlat 15.5 User Manual](archive_confluence/display/OO155EN.html) | [Release notes 15.5](release_notes/Release_notes_15.5.md)
 
-!!! tip ""
-	Is the version you are looking for missing? Try it in the [OpenOlat User Manual Archive](archive.md)
+Is the version you are looking for missing? Try it in the [OpenOlat User Manual Archive](archive.md)
 
+***
 
 [![eLearning-Journal OpenOlat test tesult: very good](assets/frentix - Testsiegel_2020.png){ align=left width=200px }](assets/eLJ12020_TEST_Frentix.pdf)
 !!! quote "eLearning Journal"

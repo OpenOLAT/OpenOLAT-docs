@@ -10,39 +10,18 @@ the course elements are named differently than in this list.
 For conventional courses, you can use the icons shown to identify the course
 element type. For learning path courses, no icons are displayed.
 
-  
 
 More detailed descriptions of the functionality of the following course
 elements can be found on separate pages:
 
-  * [Forum](Working_with_Forums.md)
-  * [Group Task](Working_with_Tasks_and_Group_Tasks.md)
-  * [Self-Test](Working_with_Tests.md)
-  * [Task](Working_with_Tasks_and_Group_Tasks.md)
-  * [Test](Working_with_Tests.md)
-  * [Topic Assignment](Working_with_Topic_Assignment.md)
-  * [Wiki](Working_with_Wiki.md)
+* [Forum](Working_with_Forums.md)
+* [Group Task](Working_with_Tasks_and_Group_Tasks.md)
+* [Self-Test](Working_with_Tests.md)
+* [Task](Working_with_Tasks_and_Group_Tasks.md)
+* [Test](Working_with_Tests.md)
+* [Topic Assignment](Working_with_Topic_Assignment.md)
+* [Wiki](Working_with_Wiki.md)
 
-  * 1 Working With Course Elements 
-    * 1.1Assessment
-    * 1.2Appointment scheduling
-    * 1.3Blog
-    * 1.4Calendar
-    * 1.5Checklist
-    * 1.6Enrolment
-    * 1.7E-mail
-    * 1.8Folder
-    * 1.9Participant Folder
-    * 1.10Participant List
-    * 1.11Podcast
-    * 1.12Portfolio Task
-    * 1.13Questionnaire, Survey
-    * 1.14Video
-    * 1.15Virtual Classrooms
-
-  
-
-  
 
 ## Assessment
 

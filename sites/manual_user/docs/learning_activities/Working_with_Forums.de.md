@@ -1,9 +1,8 @@
 # Arbeiten mit Foren
 
-##
 ![](assets/forum.png)
 
-### Wofür kann ein Forum verwendet werden?
+## Wofür kann ein Forum verwendet werden?
 
 Foren sind die zentralen Werkzeuge für die asynchrone Diskussion in Online-
 Kursen und auch in OLAT Gruppen. Foren können für den Austausch zwischen den
@@ -12,7 +11,7 @@ Diskussion mit dem Lehrenden verwendet werden. Einige Online-Methoden
 verwenden auch gezielt Foren z.B. für Pro-Contra-Diskussionen, die
 strukturierte Sammlung von Ideen zu bestimmten Aspekten (Brainstorming) usw.
 
-### Wie können Lernende ein Forum nutzen?
+## Wie können Lernende ein Forum nutzen?
 
 In einem Forumsthread stehen Ihnen folgende Optionen zur Verfügung:
 
@@ -20,7 +19,7 @@ In einem Forumsthread stehen Ihnen folgende Optionen zur Verfügung:
 
 Teilnehmer können in Foren ...
 
- **Diskussionsthemen eröffnen**
+### Diskussionsthemen eröffnen
 
 Wenn Sie im Forum eine neue Nachricht verfassen möchten, wählen Sie
 „Diskussionsthema eröffnen“. Titel und Beitrag sind obligatorische Angaben.
@@ -35,7 +34,7 @@ Sie Ihren Beitrag eventuell auch unter einem Pseudonym veröffentlichen.
 
 ![](assets/Posting.png)
 
- **Forumsbeiträge beantworten**
+### Forumsbeiträge beantworten*
 
 Wenn Sie einen bestehenden Forumsbeitrag beantworten möchten, öffnen Sie das
 Diskussionsthema, indem Sie auf den Titel des Themas klicken. Wählen Sie dann
@@ -46,7 +45,7 @@ aufzuführen.
 
 ![](assets/Posting_beantworten.png)
 
- **Forumsbeiträge markieren**
+### Forumsbeiträge markieren
 
 Einzelne Forumsbeiträge können markiert werden. Klicken Sie dazu in der
 Detailansicht eines Themas auf die kleine Flagge in der rechten oberen Ecke
@@ -56,12 +55,12 @@ wiedergefunden oder für eine spätere Beantwortung gekennzeichnet werden.
 
 ![](assets/Posting_markieren.png)
 
- **Foren archivieren**
+### Foren archivieren
 
 Wenn Sie das Forum archivieren, werden Forumsbeiträge und angefügte Dateien in
 eine ZIP-Datei verpackt und können gespeichert werden.
 
- **Foren abonnieren**
+### Foren abonnieren
 
 Um bei neuen Forumsbeiträgen benachrichtigt zu werden, stellen Sie in der
 Übersicht der Diskussionsthemen den Schieberegler bei den "Änderungen“ auf
@@ -90,11 +89,11 @@ Kollaboration](../course_elements/Communication_and_Collaboration.de.md)“.
 
 Es gibt verschiedene Darstellungsmöglichkeiten:
 
-  * alle (geschachtelt)
-  * alle (flach)
-  * einer
-  * markiert
-  * neu
+* alle (geschachtelt)
+* alle (flach)
+* einer
+* markiert
+* neu
 
 User können sich alle Beiträge untereinander anzeigen lassen (alle), mit oder
 ohne Einrückung. Der Startbeitrag erscheint dabei als erster und die weiteren
@@ -115,6 +114,7 @@ _profil)" ein Foto hoch, damit neben Ihren Forumsbeiträgen anstelle des
 Standard-Profilbildes Ihr Foto erscheint.
 
 ###
+
 ![](assets/file_discussion.png)
 **Dateidiskussion**
 
@@ -128,13 +128,10 @@ Um an einer Diskussion teilzunehmen, klicken Sie auf den Link „Anzeigen“ neb
 dem Dateinamen. Nun haben Sie dieselben Möglichkeiten, Diskussionsthemen zu
 eröffnen oder Beiträge zu beantworten wie im Forum.
 
- **Datei hochladen**
+### Datei hochladen**
 
 Standardmäßig können Kursteilnehmer keine Dateien hochladen. Diese Option kann
 aber vom Kursbesitzer im Kurseditor aktiviert werden. Wenn Sie über diese
 Möglichkeit verfügen, wählen Sie „Datei hochladen“, um eine eigene Datei
 hochzuladen. Wer wann welche Datei hochgeladen hat ist über die Spalten
 Vorname, Nachname bzw. Datum erkennbar.
-
-  
-

@@ -18,7 +18,7 @@ und/oder Zahlen einfügen, Dateien hinzufügen, Markierungen vornehmen oder
 (sehr einfache) Zeichnungen vornehmen.  Pro OpenOlat Kurs können auch mehrere
 Tests für unterschiedliche Zwecke zum Einsatz kommen.
 
-## So bearbeiten Sie einen Test:  
+## So bearbeiten Sie einen Test:
 
 Um mit der Bearbeitung eines Tests zu beginnen drücken Sie „Start“.
 Beantworten Sie die angezeigten Fragen und klicken Sie anschließend bei jeder
@@ -54,7 +54,7 @@ Wenn Ihnen weitere Versuche zur Bearbeitung des Tests zur Verfügung stehen,
 können Sie mit „Start“ den Test noch einmal durchlaufen. Bisherige Durchläufe
 bleiben dabei erhalten.
 
-![](assets/selftest.png)
+![](assets/selftest.png){class="size24"}
 **Selbsttest**
 
 In OpenOlat gibt es zwei unterschiedliche Kursbausteine für Tests: „Tests“ und
@@ -65,4 +65,3 @@ Beenden des Tests automatisch angezeigt.
 
 Der Umgang mit Selbsttests ist ansonsten identisch mit der Handhabung der
 Tests (siehe oben).
-

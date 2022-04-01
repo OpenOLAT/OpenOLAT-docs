@@ -1,6 +1,7 @@
 site_name: release_notes
 
 nav:
+  - index.md
   - 16.2: "Release_notes_16.2.md"
   - 16.1: "Release_notes_16.1.md"
   - 16.0: "Release_notes_16.0.md"

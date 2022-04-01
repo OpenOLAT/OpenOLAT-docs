@@ -19,5 +19,5 @@ zu durchsuchen.
 
   
 
-![](assets/admin_Login_gast.jpg)
+![](assets/admin_Login_gast.jpg){ class="shadow" }
 

@@ -104,22 +104,19 @@ und den Begriff gemeinsam in eckige Klammern, getrennt durch ein Leerzeichen.
 [http://www.openolat.org](http://www.openolat.org/)  
 [[http://www.openolat.org](http://www.openolat.org/) Die Website von
 OpenOlat]| [Die Website von OpenOlat](http://www.openolat.org/)  
-  
- **  
-**
+
 
  **Tabellen**  
   
+```markdown
 {|  
 |Zelle 1  
 |Zelle 2  
 |}| Zelle 1 Zelle 2  
 
-  
+```
 
-  
-  
-  
+```markdown
 {|  
 |Zelle 1  
 |Zelle 2  
@@ -128,25 +125,14 @@ OpenOlat]| [Die Website von OpenOlat](http://www.openolat.org/)
 |Zelle 4  
 |}|
 
-Zelle 1 Zelle 2
-
-Zelle 3 Zelle 4
-
+```
   
-  
-  
-{| border="1"  
-|Zelle 1  
-|Zelle 2  
-|-  
-|Zelle 3  
-|Zelle 4  
-|}|
-
+```markdown
 | Zelle 1| Zelle 2  
 ---|---  
 Zelle 3| Zelle 4  
-  
+
+```  
  **Bilder und andere Dateien**  
   
 ---  
@@ -193,8 +179,6 @@ Das ist das OpenOlat-Logo.
 [[Media:any.pdf]]|
 [any.pdf](https://testing.frentix.com/test8/help/RepositoryEntry/82673665#pdf)  
   
- **  
-**
 
  **Mathematische Formeln (LaTeX)**  
 Damit OpenOlat die Formeln schneller und schöner darstellt, können Sie jsMath-
@@ -222,8 +206,13 @@ x2
   
   
  **Unformatierter Text**  
-<nowiki>Hier den unformatierten Text eingeben</nowiki>| Hier den
-unformatierten Text eingeben  
+
+```html
+<nowiki>
+Hier den unformatierten Text eingeben
+</nowiki>
+```
+ Hier den unformatierten Text eingeben  
   
 Um eine Datei anzuhängen, laden Sie diese zuerst über „Datei hochladen“ hoch.
 Navigieren Sie an die Stelle auf der Wiki-Seite, an der die Datei erscheinen

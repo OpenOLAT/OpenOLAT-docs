@@ -1,6 +1,6 @@
 # Arbeiten mit der Themenvergabe
 
-![](assets/projectbroker.png)
+![](assets/projectbroker.png){class="size24"}
 
 ## Thema auswählen {: #select}
 
@@ -39,7 +39,7 @@ nicht alle Funktionen verwendet.
 
 Klicken Sie auf ein Thema um weitere Informationen dazu zu erhalten:
 
-## Themendetails:
+## Themendetails
 
  **Thema** : Im Titel ist die Bezeichnung des Themas aufgeführt
 
@@ -68,14 +68,14 @@ bereitstellen.
 
 Optional können bei der Themenvergabe auch Einsendungen verwaltet werden.
 
- **Dateien in den Abgabeordner der Themenvergabe hochladen**
+**Dateien in den Abgabeordner der Themenvergabe hochladen**
 
 Klicken Sie auf den Titel des Themas. Im Tab „Ordner“ finden Sie den
 Abgabeordner. Je nach Konfiguration ist die Abgabe termingebunden und Sie
 können nur innerhalb der Abgabefrist Dateien hochladen. Genaue Information zu
 den Terminen finden Sie im Tab „Beschreibung“.
 
- **Dateien aus dem Rückgabeordner herunterladen**
+**Dateien aus dem Rückgabeordner herunterladen**
 
 Im Tab „Ordner“ finden Sie im Abschnitt „Rückgabeordner“ die Dateien, die
 Ihnen der Themenverantwortliche zurückgegeben hat.
@@ -84,4 +84,3 @@ Wenn Sie als Themenverantwortlicher eingesetzt werden, können Sie Themen
 ausschreiben. Mehr dazu und dem Akzeptieren und Betreuen von Teilnehmern
 erfahren Sie im Kapitel „Kursbausteine“ → "Andere" unter dem Punkt
 "[Kursbaustein Themenvergabe](../course_elements/Other.de.md#Andere-_bb_themenvergabe)".
-
