@@ -52,7 +52,7 @@ When activated on the course element - via **manual or automatic assignment** - 
 * A-F
 * "very good" - "insufficient
 * "beginner"/"specialist"/"expert
-* smileys (:smile:, :neutral_face:, :cry:)
+* :smile: , :neutral_face: , :cry:
 
 !!! info "Grading System Templates"
 

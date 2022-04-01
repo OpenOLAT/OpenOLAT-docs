@@ -10,7 +10,7 @@ try {
 	*/
 	document.querySelectorAll("img").forEach(function(item) {
 		var title = item.getAttribute('title');
-		if (title && title != '') {
+		if (title && title != '' && !title.startsWith(':')) {
 			const newItem = document.createElement('figure');
 			newItem.innerHTML = item.outerHTML + '<figcaption>' + title + '</figcaption>';
 			item.parentNode.replaceChild(newItem, item);			

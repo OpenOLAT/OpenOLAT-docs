@@ -50,7 +50,7 @@ Bei Aktivierung auf dem Kursbaustein werden - über eine **manuelle oder automat
 * A-F
 * „sehr gut“ - „ungenügend“
 * „Einsteiger“/„Spezialist“/„Experte“
-* Smileys (:smile:, :neutral_face:, :cry:)
+* :smile: , :neutral_face: , :cry:
 
 !!! info "Notensystem-Vorlagen"
 
