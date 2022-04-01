@@ -43,7 +43,7 @@ den entsprechenden Kurs.
 
   
 
-###  Suchsyntax
+###  Suchsyntax {: #syntax}
 
 Sie können Ihre Suchanfrage mit folgender Syntax modifizieren.  
   
@@ -105,7 +105,7 @@ der Webseite von [Apache
 Lucene](http://lucene.apache.org/core/7_2_0/queryparser/org/apache/lucene/queryparser/classic/package-
 summary.html#package.description) (Webseite in Englisch).
 
-###  Metadaten
+###  Metadaten {: #metadata}
 
 Metadaten oder  _Metainformationen_  sind Daten, die Informationen über
 Merkmale anderer Daten enthalten, aber nicht diese Daten selbst. Metadaten,

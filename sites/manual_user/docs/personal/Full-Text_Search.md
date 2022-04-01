@@ -41,7 +41,7 @@ only the corresponding course.
 
   
 
-###  Syntax
+###  Syntax {: #syntax}
 
 You can modify your query by means of the following syntax.  
   
@@ -101,7 +101,7 @@ please go to [Apache
 Lucene](http://lucene.apache.org/core/7_2_0/queryparser/org/apache/lucene/queryparser/classic/package-
 summary.html#package.description).
 
-###  Meta Data
+###  Meta Data {: #metadata}
 
 Meta data is data  **about**  data, containing information about attributes of
 other data. Metadata additionally describe a file, e.g. its title, author or

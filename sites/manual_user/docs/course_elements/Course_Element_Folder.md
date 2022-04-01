@@ -1,8 +1,7 @@
 # Course Element: Folder
 
-##
 
-![](assets/folder.png)
+![folder icon](assets/folder.png)
 
 In the course element "Folder" you can offer files to be downloaded. Often
 folders are used to provide course participants with scripts or slides
@@ -15,7 +14,7 @@ according to the columns by name, size and modification date.
 
 ##  Tab Folder Configuration {: #config}
 
-![](assets/folger_configuration_15.png)
+![tab folder configuration](assets/folger_configuration_15.png)
 
 In the tab "Folder configuration" of the course element you define where
 exactly the files of this folder should be stored in the folder of the course.
@@ -41,7 +40,7 @@ already been uploaded.
 
 Access to this file area is also possible when the editor is closed.
 
-###
+### User rights settings
 
 Furthermore, in the "User rights" section, you can define whether coaches
 and/or participants are also allowed to edit and upload files to the folder.
@@ -50,7 +49,7 @@ not the participants.
 
 ## Settings with closed editor
 
-![](assets/Folder_EN.png)
+![folder screenshot](assets/Folder_EN.png)
 
 In the course run, course owners and persons with the right to save files in
 the folder can ...
@@ -73,7 +72,7 @@ Furthermore, all users can ...
 
 ###  Metadata  {: #metadata}
 
-The gear symbol can be used to configure the metadata of a file and thus add
+The gear symbol can be used to configure the [metadata] (../personal/Full-Text_Search.md#metadata)of a file and thus add
 various information. In addition to the description and lock properties, the
 license information is particularly relevant. You can use the license
 information to define a specific license for the document, for example, use
@@ -92,8 +91,7 @@ can also access the file depends on the access settings of the course.
 Depending on the file type and activation in OpenOlat
 [Administration](../../manual_admin/administration/External_Tools_-_Administration.md), it is possible to edit
 files located in the course element "Folder". If editing is possible, the
-editing icon ![](../../download/thumbnails/108600658/test_pencil-square-
-o_434343_64%EF%B9%96version=1&modificationDate=1567432177000&api=v2.png)appears
+editing icon ![editing icon](assets/test.png){ class=size16 } appears
 in the table. Clicking on the icon opens the respective editing editor, e.g.
 Only Office. By using these external, cooperative editing tools, the course
 element "Folder" can also be used for the collaborative work of learners.

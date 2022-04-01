@@ -1,6 +1,6 @@
 # Kursbaustein "Ordner"
 
-![](assets/folder.png)
+![folder icon](assets/folder.png)
 
 Im Kursbaustein „Ordner“ können Dateien zum Download abgelegt und für die
 Lernenden bereitgestellt werden. Häufig wird der Kursbaustein "Ordner" dazu
@@ -16,7 +16,7 @@ sortieren.
 
 ##  Tab Ordnerkonfiguration {: #config}
 
-![](assets/KB_Ordner_16.png)
+![tab folder configuration](assets/KB_Ordner_16.png)
 
 Im Tab "Ordnerkonfiguration" des Kursbausteins legen Sie fest wo genau die
 Dateien dieses Ordners im Ablageordner des Kurses abgelegt werden sollen.
@@ -45,6 +45,7 @@ bereits hochgeladenen Dateien anzeigen lassen.
 
 Ein Zugriff auf diesen Dateibereich ist auch bei geschlossenem Editor möglich.
 
+### Benutzerberechtigungen einstellen
 Ferner kann im Bereich "Benutzerberechtigungen" definiert werden ob auch
 Betreuer und/oder Teilnehmer Dateien in den Ordner hochladen und bearbeiten
 dürfen. Standardmäßig dürfen neben den Besitzern auch Betreuer, aber nicht die
@@ -52,7 +53,7 @@ Teilnehmer Dateien hochladen.
 
 ## Einstellungen bei geschlossenem Editor
 
-![](assets/KB_Ordner.png)
+![folder screenshot](assets/KB_Ordner.png)
 
 Im Kursrun können Kursbesitzer und Personen mit der entsprechenden
 Berechtigung
@@ -77,7 +78,7 @@ Ferner können alle User ...
 ###  Metadaten {: #metadata}
 
 Über das Zahnradsymbol können die 
-[Metadaten ](../personal/Full-Text_Search.de.md#Volltextsuche-_metadata)einer Datei
+[Metadaten ](../personal/Full-Text_Search.de.md#metadata)einer Datei
 konfiguriert werden und so diverse Informationen hinzugefügt werden. Neben der
 Beschreibung und Sperreigenschaften sind besonders die Lizenzangaben relevant.
 Über die Lizenzangaben können Sie eine konkrete Lizenz für das Dokument
@@ -98,8 +99,7 @@ Je nach Dateityp und Aktivierung in der OpenOlat
 [Administration ](../../manual_admin/administration/External_Tools_-_Administration.de.md)ist es möglich
 Dateien, die sich im Kursbaustein "Ordner" befinden, zu bearbeiten. Sofern
 eine Bearbeitung möglich ist, erscheint in der Tabelle das Bearbeitungsicon
-![](../download/thumbnails/40668639/test_pencil-square-
-o_434343_64%EF%B9%96version=1&modificationDate=1524220294000&api=v2.png). Bei
+![editing icon](assets/test.png){ class=size16 } . Bei
 Klick auf das Icon öffnet sich der jeweilige Bearbeitungseditor, z.B. Only
 Office. Durch die Verwendung dieser externen, kooperativen
 Bearbeitungswerkzeuge, kann der Kursbaustein "Ordner" auch für das
