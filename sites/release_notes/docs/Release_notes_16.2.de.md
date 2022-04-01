@@ -50,7 +50,7 @@ Bei Aktivierung auf dem Kursbaustein werden - über eine **manuelle oder automat
 * A-F
 * „sehr gut“ - „ungenügend“
 * „Einsteiger“/„Spezialist“/„Experte“
-* Smileys (lachend, neutral, traurig)
+* Smileys (:smile:, :neutral_face:, :cry:)
 
 !!! info "Notensystem-Vorlagen"
 
@@ -92,7 +92,7 @@ Darüber hinaus werden Aufsichtspersonen aktiv über Anfragen der Teilnehmenden 
 
 ## Safe Exam Browser Konfiguration
 
-Für die Verwendung des Safe Exam Browsers bei Online-Prüfungen konnten bisher die im Safe Exam Browser erstellten Konfigurations-Keys in OpenOlat hinterlegt werden.
+Für die Verwendung des Safe Exam Browsers bei Online-Prüfungen konnten bisher die im [Safe Exam Browser](https://safeexambrowser.org) erstellten Konfigurations-Keys in OpenOlat hinterlegt werden.
 
 Ergänzend wurden nun die **gängigen Safe Exam Browser Konfigurationen** ebenfalls in OpenOlat integriert, so dass Standard-Konfigurationen direkt in OpenOlat vorgenommen werden können. Die Konfigurationsdatei kann - je nach ausgewählter Option - vom Betreuenden oder auch von den Prüflingen selbst vor der Prüfung herunterlgeladen werden.
 

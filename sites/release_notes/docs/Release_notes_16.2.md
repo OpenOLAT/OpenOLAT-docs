@@ -52,7 +52,7 @@ When activated on the course element - via **manual or automatic assignment** - 
 * A-F
 * "very good" - "insufficient
 * "beginner"/"specialist"/"expert
-* smileys (laughing, neutral, sad)
+* smileys (:smile:, :neutral_face:, :cry:)
 
 !!! info "Grading System Templates"
 
@@ -94,7 +94,7 @@ In addition, supervisors are actively notified of participant requests from ongo
 
 ## Safe Exam Browser configuration
 
-For the use of the Safe Exam Browser in online exams, the configuration keys created in the Safe Exam Browser could previously be stored in OpenOlat.
+For the use of the Safe Exam Browser in online exams, the configuration keys created in the [Safe Exam Browser](https://safeexambrowser.org) could previously be stored in OpenOlat.
 
 In addition, the **standard Safe Exam Browser configurations** have now also been integrated into OpenOlat, so that standard configurations can be made directly in OpenOlat. The configuration file can - depending on the selected option - be downloaded by the supervisor or by the examinees themselves before the exam.
 
