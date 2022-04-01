@@ -2,7 +2,7 @@
 
 * * *
 
-:material-calendar-month-outline: Besuchen Sie unser [**OOteach am 12.04.2022**](https://www.openolat.com/ooteach/?ct=t(EMAIL_CAMPAIGN_11_27_2018_11_47_COPY_01)) für einen ersten Live-Einblick in die neuen Funktionen des Release 16.2.0!
+:material-calendar-month-outline: Besuchen Sie unser [**OOteach am 12.04.2022**](https://www.openolat.com/ooteach/) für einen ersten Live-Einblick in die neuen Funktionen des Release 16.2.0!
 
 * * *
 
@@ -14,7 +14,7 @@ Vor allem im Bereich der Online-Tests und Bewertung gibt es viele Neuerungen. Ei
 
 ![Anzahl Features Bugs](assets/162/Features_Improvements_Labels_DE.png)
 
-Seit Release 16.1 wurden über 65 neue Funktionen und Verbesserungen zu OpenOlat hinzugefügt. Hier finden Sie die wichtigsten neuen Funktionen und Änderungen. Zusätzlich zu wurden mehr als 100 Bugs behoben. Die komplette Liste der Änderungen in 16.1 – 16.1.8 finden Sie [hier](Release_notes_16.1.md).
+Seit Release 16.1 wurden über 65 neue Funktionen und Verbesserungen zu OpenOlat hinzugefügt. Hier finden Sie die wichtigsten neuen Funktionen und Änderungen. Zusätzlich zu wurden mehr als 100 Bugs behoben. Die komplette Liste der Änderungen in 16.1 – 16.1.8 finden Sie [hier](Release_notes_16.1.de.md).
 
 * * *
 
@@ -39,6 +39,8 @@ Das Bewertungsmodell von OpenOlat unterstützt bisher Punkte, die Ausgabe von Be
 Dafür können systemweit verschiedene **Notensysteme** (numerisch oder textuell) angelegt werden. Diese sind anschliessend für alle bewertbaren Kursbausteine als **Notenskala** verfügbar. Bei Bedarf kann die gewählte Notenskala zur Verwendung für den jeweiligen Kursbaustein angepasst werden.
 
 Bei Aktivierung auf dem Kursbaustein werden - über eine **manuelle oder automatische Zuweisung** - die Punkte der Teilnehmenden zusätzlich als "Note" ausgewiesen.
+
+[Mehr dazu direkt im Handbuch](../manual_user/course_operation/Assessment_translate_points_in_grades.de.md)
 
 ![Notenskala](assets/162/Notenskala_DE.jpeg){ class="shadow lightbox" }
 
