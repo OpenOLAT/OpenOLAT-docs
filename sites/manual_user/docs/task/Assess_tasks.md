@@ -20,7 +20,7 @@ assignment is stored directly in the task, the tab "Edit tasks and sample
 solutions" also appears. If a coach may also create tasks, the tab "Edit tasks
 and sample solutions" is also visible for him.
 
-The table displays the current workflow step. The ![](assets/action_needed.png){ class=size16 } indicates whether the coach needs to take action. The steps Review and Correction require coach input in order for the user to be able to finalize
+The table displays the current workflow step. The ![Action needed](assets/action_needed.png){ class=size16 } indicates whether the coach needs to take action. The steps Review and Correction require coach input in order for the user to be able to finalize
 the task. Whether the step Solution (without icon) includes the assessment
 step, depends on the configuration of the task. The Grading step is only
 displayed if no sample solution is available, but remains, even with the

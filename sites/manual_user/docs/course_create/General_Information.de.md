@@ -1,40 +1,21 @@
 # Allgemeines
 
-OpenOlat-Kurse ermöglichen das Abbilden von diversen Veranstaltungsformaten
-z.B. Vorlesungen, Seminare, Online-Tutorien oder Gruppenpuzzle, genauso wie
-die Umsetzung verschiedener Arten von Lernen, z.B. problembasiertes Lernen,
-kooperatives Lernen, selbstorganisiertes Lernen usw. Durch den Einsatz
-beliebig vieler [Kursbausteine ](../course_elements/index.de.md)in frei wählbarer
-Reihenfolge, gewährt Ihnen OpenOlat maximale Flexibilität bei der Umsetzung
-Ihres didaktischen Konzepts.
+OpenOlat-Kurse ermöglichen das Abbilden von diversen Veranstaltungsformaten z.B. Vorlesungen, Seminare, Online-Tutorien oder Gruppenpuzzle, genauso wie die Umsetzung verschiedener Arten von Lernen, z.B. problembasiertes Lernen, kooperatives Lernen, selbstorganisiertes Lernen usw. Durch den Einsatz beliebig vieler [Kursbausteine](../course_elements/index.de.md) in frei wählbarer Reihenfolge, gewährt Ihnen OpenOlat maximale Flexibilität bei der Umsetzung Ihres didaktischen Konzepts.
 
-Beantragen Sie bei Ihrer OpenOlat-Supportstelle bzw. den Administratoren Ihrer
-OpenOlat Instanz, Autorenrechte und legen Sie los!
-
-  
+Beantragen Sie bei Ihrer OpenOlat-Supportstelle bzw. den Administratoren Ihrer OpenOlat Instanz, Autorenrechte und legen Sie los!
 
 ## Der Kurszyklus im Überblick:
-
-- [x] 1. Kurs anlegen
-- [x] 2. Kurs einrichten, gestalten
-- [x] 3. Zugang einrichten
-- [x] 4. Kurs Status veröffentlichen
-- [x] 5. Kurs durchführen
-- [x] 6. Kurs beenden
-- [x] 7. Kurs löschen
-
-  
 
 ### 1. Kurs anlegen
 
 Lernressource Kurs im "Autorenbereich" erstellen und den gewünschten Kurstyp "Lernpfad" oder "herkömmlicher Kurs" wählen. 
 
-![](assets/Kurs_erstellen_16.png)
+![Kurs erstellen](assets/create_course_16_DE.png){ class="shadow" }
 
 !!! info "Weitere Informationen"
 	  * [Kurs erstellen](index.de.mde)
 	  * [Mit dem Kurseditor in fünf Schritten zu Ihrem OpenOlat Kurs](In_Five_Steps_to_Your_Course_With_the_Course_Editor.de.md)
-	  * [Lernpfad Kurse erstellen](Creating_learning_path_courses.de.md) |
+	  * [Lernpfad Kurse erstellen](Creating_learning_path_courses.de.md)
   
   
 ### 2. Kurs einrichten, gestalten, publizieren
@@ -56,8 +37,7 @@ gewünscht konfigurieren.
 
 ### 3. Zugang einrichten
 
-Im Administrationsmenü „Einstellungen“ werden die benötigten Einstellungen für
-den Zugang vorgenommen. Insbesondere der Tab "Freigabe" ist dabei wichtig.
+Im Administrationsmenü „Einstellungen“ werden die benötigten Einstellungen für den Zugang vorgenommen. Insbesondere der Tab "Freigabe" ist dabei wichtig.
 
 ![](assets/Einstellungen1.png)
 
