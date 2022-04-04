@@ -1,6 +1,6 @@
 # e-Assessment: ePortfolio
 
-Der Administrator kann im Bereich "eAssessment" → "ePortfolio" das ePortfolio
+Der Administrator kann im Bereich `eAssessment → ePortfolio` das ePortfolio
 2.0 ein- oder ausschalten.
 
 Ferner wird definiert ob bzw. in welchem Umfang die Lernenden eigene Mappen

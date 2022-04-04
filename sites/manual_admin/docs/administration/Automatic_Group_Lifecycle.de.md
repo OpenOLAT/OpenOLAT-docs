@@ -10,7 +10,7 @@ führen wir drei Status ein, die nicht genutzte Gruppen besitzen können. Um als
 Gruppenverwalte auf die jeweiligen Gruppen zugreifen zu können, reicht ein
 Klick auf die Pfeile.  
   
-![](assets/image2021-12-17_8-46-42.png)
+![](assets/image2021-12-17_8-46-42.png){ class="lightbox" }
 
   *  **aktiv:** Die Gruppe wird benutzt und es hat sie jemand noch in der eingestellten Frist besucht. (Standard 660 Tage ohne Besuch).
 
@@ -20,7 +20,7 @@ Klick auf die Pfeile.
 
   
 
- Zusammenhänge verbildlicht
+### Zusammenhänge verbildlicht
 
-![](assets/Beispielkonfiguration.jpg)
+![](assets/Beispielkonfiguration.jpg){ class="lightbox" }
 

@@ -14,7 +14,7 @@ after the account is deactivated or deleted.
 
 In OpenOlat Administration, settings can be made for both the group life cycle
 and the user cycle. It is also possible to select certain group types and
-restrict the inactivation to these groups only. Basically, the life cycle can
+restrict the inactivation to these groups only. Basically, the [group life cycle](Automatic_Group_Lifecycle.md) can
 be defined in terms of inactivation, deletion and irrevocable deletion.
 
 ## Users
