@@ -92,7 +92,7 @@ select the course calendar from your personal calendar list. Information on
 the calendar list and further course functions can be found in the chapter
 [calendar](../personal/Calendar.md).
 
-###   Glossary
+###   Glossary {: #glossary}
 
 If your course author has included a glossary to clarify terms in your course
 you will see the glossary drop-down menu at the top of the course toolbar. You

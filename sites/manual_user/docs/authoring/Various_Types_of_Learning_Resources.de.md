@@ -22,11 +22,10 @@ Gruppenpuzzles, problembasiertes Lernen, gamebasierte Ansätze usw. umgesetzt
 werden. Ein OLAT-Kurs ist ein OpenOlat-eigener Dokumententyp der beliebig
 viele "Kursbausteine" sowie weitere Funktionalitäten enthalten kann. Wie man
 mit den verschiedenen Kursbausteinen arbeitet, wird im Kapitel
-[„Lernaktivitäten im
-Kurs“](../../pages/viewpage.action%EF%B9%96pageId=108593198.html) ausführlich
-erklärt. Wie Kurse erstellt werden, erfahren Sie im Kapitel [„Kurs
-erstellen"](Kurs+erstellen.html). Details zu Kursbausteinen und dem Kurseditor
-erfahren Sie im Kapitel [„Kursbausteine"](Kursbausteine.html).
+[„Lernaktivitäten im Kurs“](../learning_activities/index.de.md) ausführlich
+erklärt. Wie Kurse erstellt werden, erfahren Sie im Kapitel [„Kurs erstellen"](../course_create/index.de.md). 
+Details zu Kursbausteinen und dem Kurseditor
+erfahren Sie im Kapitel [„Kursbausteine"](../course_elements/index.de.md).
 
 ## Test (QTI 2.1)
 ![](assets/test.png)
@@ -38,7 +37,7 @@ gespeichert. Jeder Test liegt in einem standardisierten Dokumentformat, dem
 IMS-QTI-Format, vor.
 
 Mehr Informationen zum Einsatz und Erstellung von Tests finden Sie im Kapitel
-[„Tests erstellen“](Tests+erstellen.html) .
+[„Tests erstellen“](../tests/index.de.md) .
 
 ## CP-Lerninhalt
 ![](assets/content.png)
@@ -50,17 +49,17 @@ Version 1.1.2. CPs eignen sich für die Verwendung in OpenOlat-Kursen oder auch
 ausserhalb von OpenOlat. OpenOlat unterstützt dieses Format, damit Lerninhalte
 nicht nur in OpenOlat, sondern auch in anderen LMS verwendet werden können.
 Mehr Informationen zur Erstellung von Content-Packagings finden Sie im Kapitel
-[„CP-Lerninhalt erstellen"](CP-Lerninhalt+erstellen.html).
+[„CP-Lerninhalt erstellen"](../resource_cp/index.de.md).
 
-##
-Wiki![](assets/wiki.png)
+## Wiki
+![](assets/wiki.png)
 
 Mit Wikis können einfache Weise kooperativ, gemeinsam Inhalte erstellt werden.
 Ein Wiki kann für Gruppenarbeiten, als Dokumentationswerkzeug oder als
 Wissensbasis für Ihre Studien- oder Projektarbeit verwendet werden.
 
-Mehr Informationen zur Erstellung von Wikis finden Sie im Kapitel [ „Wiki
-erstellen"](Wiki+erstellen.html). Wie Sie im Wiki Inhalte erstellen und
+Mehr Informationen zur Erstellung von Wikis finden Sie im Kapitel 
+[„Wiki erstellen"](../resource_wiki/index.de.md). Wie Sie im Wiki Inhalte erstellen und
 sinnvoll arbeiten erfahren Sie [hier](../learning_activities/Working_with_Wiki.de.md).
 
 ## Podcast
@@ -74,8 +73,7 @@ mobile Endgeräte zu kopieren. Kursteilnehmer können Episoden auf einfache Art
 bewerten und kommentieren.
 
 Informationen dazu, wie Sie einen Podcast erstellen und in Ihren Kurs
-einbinden, finden Sie im Kapitel [„Podcast
-erstellen"](Podcast+erstellen.html).
+einbinden, finden Sie im Kapitel [„Podcast erstellen"](../resource_podcast/index.de.md).
 
 ## Blog
 ![](assets/blog.png)
@@ -86,11 +84,10 @@ Online-Tagebuch oder Journal eingesetzt. Kursteilnehmer können Blogeinträge
 auf einfache Art bewerten und kommentieren.
 
 Informationen dazu, wie Sie einen Blog erstellen und in Ihren Kurs einbinden,
-finden Sie im Kapitel [„Blog erstellen"](Blog+erstellen.html). Wie Sie als
+finden Sie im Kapitel [„Blog erstellen"](../resource_blog/index.de.md). Wie Sie als
 Kursteilnehmer den Blog verwenden, erfahren Sie im Kapitel „Lernaktivitäten im
 Kurs“ unter dem Punkt
-[„Blog"](Arbeiten+mit+Kursbausteinen.html#ArbeitenmitKursbausteinen-
-_blog_lerner).
+[„Blog"](../learning_activities/Working_With_Course_Elements.de.md#blog).
 
   
 
@@ -106,8 +103,7 @@ alle im Ressourcenordner hinterlegten Dateien. Änderungen an den Dateien im
 Ressourcenordner gelten dann für alle verknüpften Kurse. Zu beachten ist, dass
 nur ein Ressourcenordner pro Kurs hinzugefügt werden kann. Weitere
 Informationen finden Sie im Kapitel
-"[Kurseinstellungen](Kurseinstellungen.html#Kurseinstellungen-
-_detail_ressourcen)" im Unterpunkt "Ressourcenordner".
+"[Kurseinstellungen](../course_create/Course_Settings.de.md)""im Unterpunk "Ressourcenordner".
 
 ##  Formular
 ![](assets/formular_434343_64.png)
@@ -116,8 +112,8 @@ Ein Formular wird in der Regel zur Datenerhebung oder als Fragebogen
 eingesetzt, beispielsweise zur Veranstaltungsevaluation. Jeder Kursteilnehmer
 kann dasselbe Formular nur einmal ausfüllen. Die Resultate werden dabei
 anonymisiert gespeichert. Mehr Informationen zum Einsatz und Erstellung von
-Formularen für Umfragen, Rubriks usw. finden Sie im Kapitel [Fragebögen
-erstellen.](../../pages/viewpage.action%EF%B9%96pageId=60358978.html)
+Formularen für Umfragen, Rubriks usw. finden Sie im Kapitel 
+[Fragebögen erstellen.](../forms/index.de.md)
 
 ## Portfolio 2.0 Vorlage
 ![](assets/portfolio_434343_64.png)
@@ -129,7 +125,7 @@ Lehrende eine strukturierte Portfolio-Mappe gestalten, die die Lernenden
 [abholen ](../portfolio/Portfolio_task_and_assignment_Collecting_and_editing.de.md)und
 bearbeiten können. Weitere Informationen zur [Portfolio
 Vorlage](../portfolio/Portfolio_template_Creation.de.md) und generell zum Thema
-[ePortfolio](Portfolio+erstellen.html) erfahren Sie im entsprechenden Kapitel.
+[ePortfolio](../portfolio/index.de.md) erfahren Sie im entsprechenden Kapitel.
 
 ## Glossar
 ![](assets/glossary.png)
@@ -142,11 +138,9 @@ konfigurieren, dass auch Lernende ein Glossar inhaltlich befüllen können.
 
 Informationen dazu, wie Sie ein Glossar erstellen und in Ihren Kurs einbinden,
 finden Sie im Kapitel „Kursbetrieb“ unter dem Punkt
-[„Glossar"](Einsatz+weiterer+Kursfunktionen+der+Toolbar.html#EinsatzweitererKursfunktionenderToolbar-
-kursfunktionen_kursglossar). Wie Sie im Kurs das Glossar verwenden, erfahren
-Sie im Kapitel „Lernaktivitäten im Kurs“ unter dem Punkt
-[„Glossar"](../../pages/viewpage.action%EF%B9%96pageId=108593252.html#Zus%C3%A4tzlicheKursfunktionen-
-_glossar_lerner).
+[„Glossar"](../course_operation/Using_Additional_Course_Features.de.md#glossary). 
+Wie Sie im Kurs das Glossar verwenden, erfahren Sie im Kapitel „Lernaktivitäten im Kurs“ unter dem Punkt
+[„Glossar"](../learning_activities/Additional_Course_Features.de.md#glossary).
 
 # Weitere Lernressourcen
 
@@ -177,7 +171,7 @@ hinzugefügt werden und anschließend weiter konfiguriert werden. OpenOlat
 unterstützt die Anzeige von Untertiteln in mehreren Sprachen, integrierte
 Quizzes, Anmerkungen und Sprungmarken. Generelle Informationen zu
 Videoformaten und Upload in OpenOlat finden Sie im Kapitel "[Video
-erstellen](Video+erstellen.html)".
+erstellen](../resource_video/index.de.md)".
 
 ## Lernressourcen vom Typ Datei und andere Dateien
 

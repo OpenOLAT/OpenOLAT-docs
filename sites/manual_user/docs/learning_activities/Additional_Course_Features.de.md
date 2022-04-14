@@ -89,7 +89,7 @@ persönlichen Kalenders aus. Informationen zur Kalenderliste sowie weiterer
 Kursfunktionen finden Sie im Kapitel
 [Kalender](../personal/Calendar.de.md).
 
-### Glossar
+### Glossar {: #glossary}
 
 Wenn der Kursbesitzer ein Glossar zur Begriffsklärung in den Kurs eingebunden
 hat, sehen Sie das Glossar Dropdown-Menü oben in der Kurstoolbar. Sie können
