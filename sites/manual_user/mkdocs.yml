@@ -50,6 +50,7 @@ nav:
     - learning_activities/index.md
     - Working With Course Elements: 
       - Overview: "learning_activities/Working_With_Course_Elements.md"
+      - Working with Forums: "learning_activities/Working_with_Forums.md"
       - Working with Tasks and Group Tasks: "learning_activities/Working_with_Tasks_and_Group_Tasks.md"
       - Working with Tests: "learning_activities/Working_with_Tests.md"
       - Working with Topic Assignment: "learning_activities/Working_with_Topic_Assignment.md"
