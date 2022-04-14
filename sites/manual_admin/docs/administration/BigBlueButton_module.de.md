@@ -9,17 +9,6 @@ Die Anleitung zur Konfiguration von einzelnen Online-Terminen für Kursbesitzer
 wird im Kapitel [Kursbaustein BigBlueButton](../../manual_user/course_elements/Course_element_BigBlueButton.de.md)
 beschrieben.
 
- **Inhaltsverzeichnis**
-
-  * 1 Modul BigBlueButton 
-    * 1.1Server
-    * 1.2Konfiguration
-    * 1.3BigBlueButton-Server hinzufügen
-    * 1.4Load-Balancing
-    * 1.5Raumvorlagen
-    * 1.6Online-Termine
-    * 1.7Kalender
-
 In der Administration stehen die Tabs Server, Raumvorlagen, Online-Termine und
 Kalender zur Verfügung.
 
@@ -28,7 +17,6 @@ Kalender zur Verfügung.
 Hier werden die zur Verfügung stehenden BigBlueButton-Server pro OpenOlat-
 Instanz angezeigt.
 
- Konfiguration
 
 ## Konfiguration
 
@@ -37,17 +25,14 @@ Instanz angezeigt.
   *  **Online-Termine ohne Datum:** Zusätzliche Möglichkeit neben Online-Terminen auch "permanente Raumreservationen" freizuschalten
   *  **Server:** In der Konfiguration werden die zur Verfügung stehenden BigBlueButton-Server pro OpenOlat-Instanz eingetragen.
 
-Online-Termine ohne Datum
+### Online-Termine ohne Datum
 
 Online-Termine ohne Datum (permanente Raumreservationen) sind im Kalender
 nicht ersichtlich und zählen zu jedem Zeitpunkt in den Limiten der Raumvorlage
 als belegt.
 
-  
+![](assets/configuration-overview.png){ class="shadow lightbox" }
 
-![](assets/configuration-overview.png)
-
-  
 
 ## BigBlueButton-Server hinzufügen
 
@@ -56,7 +41,8 @@ als belegt.
   *  **Capacity factor** : Server-Gewichtung im Load-Balancing
   *  **Server aktivieren** : Server steht für das Load-Balancing zur Verfügung
 
-![](assets/add-server.png)
+![](assets/add-server.png){ class="shadow lightbox" }
+
 
 ## Load-Balancing
 
@@ -72,7 +58,7 @@ Kapazitätsfaktor. Über den Filter können die Server-Kennzahlen über den
 gesamten BBB-Server oder nur die Sessions des aktuellen OpenOlat-Servers
 ausgegeben werden.
 
-Kapazitätsfaktor
+### Kapazitätsfaktor
 
 Der Kapazitätsfaktor wird mit einem Wert zwischen 1 und 100 pro Server
 erfasst. Die berechneten Anzahl Benutzer* auf dem Server werden mit dem
@@ -82,9 +68,8 @@ Performance (RAM/CPU/Disk) einem Schwächeren an.
  _* Gewichtung bei der Zählung von Benutzern von hoch zu tief: Video-Benutzer,
 Audio-Benutzer, Viewer_
 
-  
+![](assets/image2020-4-14_14-21-13.png){ class="shadow lightbox" }
 
-![](assets/image2020-4-14_14-21-13.png)
 
 ## Raumvorlagen
 
@@ -95,7 +80,7 @@ Auswahl. Die Vorlagen steuern:
   * Die Anzahl möglicher gleichzeitiger Nutzer pro Raum
   * Einschränkungen betreffend Dauer und Anzahl der zur Verfügung stehenden Online-Räume
 
- **Konfiguration Raumvorlage**
+### Konfiguration Raumvorlage
 
   *  **Raumname:** Bezeichnung der Raumvorlage
   *  **Beschreibung:** Beschreibung der Raumvorlage (z.B. Lernszenario, Einsatzgebiet)
@@ -104,17 +89,17 @@ Auswahl. Die Vorlagen steuern:
   *  **Raumvorlage aktivieren:** Aktivierte Raumvorlagen stehen in Kursen/Gruppen für neue Online-Termine zur Verfügung und können von Kursbesitzern gewählt werden
   *  **Anzahl Räume:** Maximale Anzahl der gleichzeitigen Räume dieser Raumvorlage
   *  **Offen für externe Benutzer:** Es wird automatisch ein Direktlink für Externe generiert, so dass sie den BigBlueButton Raum betreten können ohne vorher OpenOlat aufrufen zu müssen. Der Link wird dann in der Raumkonfiguration angezeigt und kann auch bei Bedarf vom Kursbesitzer oder -Betreuer geändert werden sowie an Gäste weitergegeben werden.
-  *  **Raumvorlage aktiviert für _< Rolle>_:** Bestimmt, welche Rollen die Raumvorlage für neue Online-Termine nutzen können. Wird die Option "Gruppenmitglied" aktiviert, kann die Vorlage auch in OpenOlat [Gruppen ](../../manual_user/groups/Using_Group_Tools.de.md)verwendet und weiter konfiguriert werden.
+  *  **Raumvorlage aktiviert für _< Rolle>_:** Bestimmt, welche Rollen die Raumvorlage für neue Online-Termine nutzen können. Wird die Option "Gruppenmitglied" aktiviert, kann die Vorlage auch in OpenOlat [Gruppen ](../../manual_user/groups/Using_Group_Tools.de.md) verwendet und weiter konfiguriert werden.
 
-![](assets/BBB_Raumvorlage.png)
+![](assets/BBB_Raumvorlage.png){ class="shadow lightbox" }
 
- **Voreinstellungen der Raumvorlage**
+### Voreinstellungen der Raumvorlage
 
-![](assets/bbb_administration_voreinstellungen_Raumvorlage.png)
+![](assets/bbb_administration_voreinstellungen_Raumvorlage.png){ class="shadow lightbox" }
 
- **Voreinstellungen für gesperrte Teilnehmer**
+### Voreinstellungen für gesperrte Teilnehmer
 
-![](assets/bbb_administration_voreinstellungen_gesp_Teilnehmer.png)
+![](assets/bbb_administration_voreinstellungen_gesp_Teilnehmer.png){ class="shadow lightbox" }
 
 ## Online-Termine
 
@@ -123,12 +108,12 @@ Kurs/Gruppe (Kontext) zu wechseln und/oder diesen Online-Termin zu löschen.
 Über die Suche können auch gezielt BigBlueButton Räume ermittelt und zum
 Beispiel schnell markiert und gelöscht werden.
 
-![](assets/bbb_administration_online-termine.png)
+![](assets/bbb_administration_online-termine.png){ class="shadow lightbox" }
 
 ## Kalender
 
 Kalenderübersicht über aller erfassten Online-Termine, um Zeiten mit hoher
 Belegung zu prüfen und Überschneidungen grafisch anzuzeigen.
 
-![](assets/bbb_administration_voreinstellungen_kalender.png)
+![](assets/bbb_administration_voreinstellungen_kalender.png){ class="shadow lightbox" }
 

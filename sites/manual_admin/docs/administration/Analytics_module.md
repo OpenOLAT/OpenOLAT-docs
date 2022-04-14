@@ -9,7 +9,7 @@ implemented. To use the tool you need a Google Analytics account and create a
 Tracking-ID for your OpenOlat installation. This ID can be configured in the
 admin environment in the "external tools" section.
 
-![](assets/GoogleAnalytics_EN.png)
+![](assets/GoogleAnalytics_EN.png){ class="shadow lightbox" }
 
 Once configured, Google Analytics will show for example
 

@@ -20,12 +20,12 @@ Aktivierung und Konfigurationen zum Impressum, auch für verschiedene Sprachen
 
 ## Hilfe
 
-Hier kann definiert werden welche Hilfeseiten über das Hilfe-Icon
-![](assets/help-1.png)im
+Hier kann definiert werden welche Hilfeseiten über das Hilfe-Icon 
+:fontawesome-solid-circle-question: im
 allgemeinen Menü bereitgestellt werden. Auch ein Link zum Support
 Kontaktformular ist möglich.
 
-![](assets/Hilfemoeglichkeiten.png)
+![](assets/Hilfemoeglichkeiten.png){ class="shadow lightbox" }
 
 ## Sprachpassungswerkzeug
 
@@ -48,7 +48,7 @@ Wenn die Kurse, welche für Gäste zugänglich sind, im Katalog erscheinen
 sollen, müssen diese Kurse dem Katalog hinzugefügt werden. Dies ist möglich
 durch den Kursbesitzer, den Katalogverwalter oder den Systemadministrator.
 
-![](assets/admin_customice_sites.jpg)
+![](assets/admin_customice_sites.de.jpg){ class="shadow lightbox" }
 
   
 

@@ -10,7 +10,7 @@ Administration unter "Externe Werkzeuge". Um Google Analytics in OpenOlat zu
 nutzen, ist zwingend ein Google Analytics Account notwendig. Zudem muss eine
 sogenannte Tracking-ID hinterlegt werden.
 
-![](assets/GoogleAnalytics_DE.png)
+![](assets/GoogleAnalytics_DE.png){ class="shadow lightbox" }
 
 Sind die Konfigurationen abgeschlossen, bildet Google Analytics beispielsweise
 folgende Daten ab:

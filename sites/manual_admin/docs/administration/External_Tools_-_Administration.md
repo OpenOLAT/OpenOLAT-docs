@@ -1,23 +1,11 @@
 # External Tools - Administration
 
+![](assets/externe_Werkzeuge_16.png){ class="shadow lightbox aside-right-lg" }
+
 In this area, the OpenOlat administrators can switch various external tools on
 and off and, depending on the tool, configure certain basic settings that
 apply system-wide. The tools include several virtual classrooms as well as
 document tools, analysis tools and a PDF generator.
-
-  * 1 External Tools - Administration 
-    * 1.1BigBlueButton
-    * 1.2OpenMeetings
-    * 1.3Adobe Connect
-    * 1.4LTI 1.3
-    * 1.5GoToTraining
-    * 1.6vitero
-    * 1.7Edubase/Edubook
-    * 1.8Youtube API
-    * 1.9MediaSite
-    * 1.10edu-sharing
-    * 1.11Analytics
-    * 1.12PDF Generator
 
 ## BigBlueButton
 
@@ -41,7 +29,6 @@ following locations:
 
 The tab "Rooms" gives administrators an overview of the OpenMeetings rooms
 created in OpenOlat.
-
   
 
 ## Adobe Connect
@@ -110,11 +97,12 @@ module can be activated in general and the use of edu-sharing as course
 element can be enabled.
 
 Configuration takes place in four steps:  
-1\. Enter and save configuration values.  
-2\. Generate and save keys.  
-3\. Import and save the edu-sharing repositoiry public key.  
-4\. In edu-sharing: Connect OpenOlat as an application. URL with metadata:
-<https://testing.frentix.com/test8/edusharing/metadata>
+1. Enter and save configuration values.  
+2. Generate and save keys.  
+3. Import and save the edu-sharing repositoiry public key.  
+4. In edu-sharing: Connect OpenOlat as an application. URL with metadata:  
+
+	https://your.openolat.domain/olat/edusharing/metadata
 
 Further information can be found on the [website](https://edu-sharing.com/) of
 edu-sharing.

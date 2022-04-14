@@ -1,5 +1,7 @@
 # Externe Werkzeuge - Administration
 
+![](assets/externe_Werkzeuge_16.png){ class="shadow lightbox aside-right-lg" }
+
 In diesem Bereich können die OpenOlat Administratoren diverse externe Tools
 ein- und ausschalten und je nach Tool bestimmte Basiseinstellungen, die
 systemweit gelten, einrichten. Zu den Tools gehören mehrere virtuelle
@@ -28,10 +30,6 @@ Räume erzeugt und genutzt werden:
 
 Im Tab "Räume" erhalten Administratoren einen Überblick über die in OpenOlat
 angelegten OpenMeetings Räume.
-
-  
-
-![](assets/externe_Werkzeuge_16.png)
 
 ## Adobe Connect
 
@@ -103,12 +101,13 @@ Administration kann das Modul generell aktiviert und die Nutzung von edu-
 sharing als Kursbaustein freigeschaltet werden.
 
 Die Konfiguration erfolgt in vier Schritten:  
-1\. Konfigurationswerte eingeben und speichern.  
-2\. Schlüssel generieren und speichern.  
-3\. Öffentlicher Schlüssel des edu-sharing Repository importieren und
+1. Konfigurationswerte eingeben und speichern.  
+2. Schlüssel generieren und speichern.  
+3. Öffentlicher Schlüssel des edu-sharing Repository importieren und
 speichern.  
-4\. In edu-sharing: OpenOlat als Applikation anbinden. URL mit Metadaten:
-<https://testing.frentix.com/test8/edusharing/metadata>
+4. In edu-sharing: OpenOlat als Applikation anbinden. URL mit Metadaten:  
+
+	https://your.openolat.domain/olat/edusharing/metadata
 
 Weitere Information sind auf der [Webseite](https://edu-sharing.com/) von edu-
 sharing zu finden.

@@ -7,24 +7,12 @@ load balancing and setting up system-wide room templates.
 Instructions on how to configure individual online dates are described in the
 chapter [Course Element BigBlueButton](../../manual_user/course_elements/Course_element_BigBlueButton.md).
 
- **Table of contents**
-
-  * 1 BigBlueButton module 
-    * 1.1Server
-    * 1.2Configuration
-    * 1.3Add BigBlueButton-Server
-    * 1.4Load balancing
-    * 1.5Room templates
-    * 1.6Calendar
-
 In the administration the tabs Server, Room templates, Online appointments and
 Calendar are available.
 
 ## Server
 
 The available BigBlueButton servers per OpenOlat instance are displayed here.
-
- Configuration
 
 ## Configuration
 
@@ -36,15 +24,14 @@ The available BigBlueButton servers per OpenOlat instance are displayed here.
 
   *  **Servers:**  In the configuration the available BigBlueButton servers per OpenOlat instance are entered.
 
-Online-Meetings without date
+### Online-Meetings without date
 
 Online-Meetings without a date (permanent room reservations) are not visible
 in the calendar and count as booked at all times towards the limits of the
 room template.
 
-  
+![](assets/configuration-overview.png){ class="shadow lightbox" }
 
-![](assets/configuration-overview.png)
 
 ## Add BigBlueButton-Server
 
@@ -56,7 +43,8 @@ room template.
 
   *  **Activate server** : Server is available for load balancing
 
-![](assets/add-server.png)
+![](assets/add-server.png){ class="shadow lightbox" }
+
 
 ## Load balancing
 
@@ -71,7 +59,7 @@ measurement factors and weights the result with the capacity factor. Using the
 filter above the list, the server key figures can be displayed over the entire
 BBB server or only the sessions of the current OpenOlat server.
 
-Capacity factor
+### Capacity factor
 
 The capacity factor is recorded with a value between 1 and 100 per server. The
 calculated number of users* on the server is multiplied by the capacity
@@ -81,9 +69,8 @@ to a weaker one.
  _*  Weighting when counting users from high to low: video users, audio users,
 viewer_
 
-  
+![](assets/image2020-4-14_14-21-13.png){ class="shadow lightbox" }
 
-![](assets/image2020-4-14_14-21-13.png)
 
 ## Room templates
 
@@ -96,7 +83,7 @@ meeting. Templates control the following characteristics:
 
   * Limits regarding duration and number of online rooms available
 
- **Configuration of a room template**
+### Configuration of a room template
 
   *  **Room name:** Name of the room template
 
@@ -114,26 +101,25 @@ meeting. Templates control the following characteristics:
 
   *  **Room-template activated for <Role>:** Determines which roles can use the room template for new online-meetings. If the "Group member" option is activated, the template can also be used and further configured in OpenOlat groups.
 
-  
-
-![](assets/bbb_room_template.png)
+![](assets/bbb_room_template.png){ class="shadow lightbox" }
 
   
+### Default settings of the room template
 
- **Default settings of the room template**
+![](assets/edit-room-template-2.png){ class="shadow lightbox" }
 
-![](assets/edit-room-template-2.png)
+### Default settings for locked participants
 
- **Default settings for locked participants**
+![](assets/edit-room-template-3.png){ class="shadow lightbox" }
 
-![](assets/edit-room-template-3.png)
 
-Online-Meetings
+## Online-Meetings
 
 Overview of configured online-meetings with the possibility to switch directly
 to the course/group (context) and/or delete this online-meeting.
 
-![](assets/bbb_administration_online-meetings.png)
+![](assets/bbb_administration_online-meetings.png){ class="shadow lightbox" }
+
 
 ## Calendar
 
@@ -142,7 +128,7 @@ occupancy and graphically display overlaps. This gives you a quick overview of
 the scheduled synchronous meetings of the entire OpenOlat instance and, if
 necessary, you can quickly select an alternative date.
 
-![](assets/bbb_administration_calendar.png)
+![](assets/bbb_administration_calendar.png){ class="shadow lightbox" }
 
   
 

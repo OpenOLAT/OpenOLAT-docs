@@ -21,10 +21,10 @@ Activation and configuration of the imprint, also for different languages
 ## Help
 
 Here you can define which help pages are provided via the help
-icon![](assets/help-1.png)in
+icon  :fontawesome-solid-circle-question: in
 the general menu. A link to the support contact form is also possible.
 
-![](assets/help_facility.png)
+![](assets/help_facility.png){ class="shadow lightbox" }
 
 ## Speech adaptation tool
 
@@ -46,5 +46,5 @@ If courses that are accessible for guests are to appear in the catalog, these
 courses have to be added to the catalog. This can be done by the course owner,
 the catalog administrator or the system administrator.
 
-![](assets/Screenshot 2020-05-03 at 15.39.38.png)
+![](assets/admin_customice_sites.png){ class="shadow lightbox" }
 
