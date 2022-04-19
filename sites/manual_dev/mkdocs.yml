@@ -4,6 +4,7 @@ nav:
   - index.md
   - Development:
     - dev/index.md
+    - Coding Guildelines: dev/coding_guidelines.md
   - UX Guidelines:
     - ux/index.md
     - Design Pattern: ux/patterns.md
