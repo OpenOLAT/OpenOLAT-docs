@@ -33,7 +33,7 @@ der Änderungen in 15.4 – 15.4.7 finden Sie
 
 * * *
 
-:material-calendar-month-outline: ** Releasedatum: 07.05.2021 • Letzte Veröffentlichung: 10.12.2021**
+:material-calendar-month-outline: ** Releasedatum: 07.05.2021 • Letzte Veröffentlichung: 18.03.2022**
 
 
 * * *
@@ -417,6 +417,13 @@ Checkbox oben links selektiert werden.
 
 ## Release Notes - Versionen
 
+  * [15.5.21](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=18301)
+  * [15.5.20](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=18201)
+  * [15.5.19](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=18102)
+  * [15.5.18](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=18001)
+  * [15.5.17](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=17905)
+  * [15.5.16](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=17902)
+  * [15.5.15](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=17805)
   * [15.5.14](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=17803)
   * [15.5.13](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=17801)
   * [15.5.12](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=17700)

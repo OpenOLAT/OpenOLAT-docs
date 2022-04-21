@@ -1,12 +1,12 @@
 # Release notes 16.2
 
-* * *
-
-:material-calendar-month-outline: Visit our [**OOteach on 04/12/2022**](https://www.openolat.com/ooteach/) for a first live look at the new features of Release 16.2.0!
-
-* * *
-
 ![Release graphic](assets/162/press-release-16.2.png)
+
+* * *
+
+:material-calendar-month-outline: **Release date: 04/01/2022 - Last update: 04/14/2022**
+
+* * *
 
 With OpenOlat 16.2 we release our next major release.
 
@@ -15,12 +15,6 @@ Especially in the area of online testing and evaluation there are many new featu
 ![Number of Features Bugs](assets/162/Features_Improvements_Labels_EN.png)
 
 Since release 16.1, over 65 new features and improvements have been added to OpenOlat. Here you can find the most important new features and changes. In addition to, more than 100 bugs have been fixed. The complete list of changes in 16.1 - 16.1.8 can be found [here](Release_notes_16.1.md).
-
-* * *
-
-:material-calendar-month-outline: **Release date: 04/01/2022 - Last update: 04/01/2022**.
-
-* * *
 
 ## Announcement: End of support IE11
 
@@ -186,4 +180,6 @@ Until now, statistical data on tests was only available at the top level of the 
 
 ## More information
 
+* [Jira release notes 16.2.2](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=18600)
+* [Jira release notes 16.2.1](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=18500)
 * [Jira release notes 16.2](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=17802)

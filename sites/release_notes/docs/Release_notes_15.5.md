@@ -34,7 +34,7 @@ for 15.4 – 15.4.7 can be found
 
 * * *
 
-:material-calendar-month-outline: **Release date: 07-05-2021 • Last update: 12-10-2021**
+:material-calendar-month-outline: **Release date: 07-05-2021 • Last update: 03-18-2022**
   
 
 * * *
@@ -385,10 +385,15 @@ the upper left corner.
 
 * * *
 
-  
-
 ## Release notes - versions
 
+  * [15.5.21](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=18301)
+  * [15.5.20](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=18201)
+  * [15.5.19](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=18102)
+  * [15.5.18](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=18001)
+  * [15.5.17](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=17905)
+  * [15.5.16](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=17902)
+  * [15.5.15](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=17805)
   * [15.5.14](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=17803)
   * [15.5.13](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=17801)
   * [15.5.12](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=17700)
@@ -404,5 +409,3 @@ the upper left corner.
   * [15.5.2](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=17104)
   * [15.5.1](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=17102)
   * [15.5](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=17004)
-
-
