@@ -1,15 +1,9 @@
 # Administration and Organisation
 
-  * 1 Administration and Organisation 
-    * 1.1 Course Element: Enrolment
-    * 1.2Course Element: Notifications
-    * 1.3 Course Element: E-Mail
-    * 1.4 Course Element: Calendar
-    * 1.5 Course Element: Appointment scheduling
 
 ##  Course Element: Enrolment {: #enrolment}
 
-![](assets/enrolment.png)
+![enrolment.png](assets/enrolment.png)
 
 The course element "Enrolment" is used to let course participants enroll in
 one or more groups. You can also define the order of the groups in the
@@ -22,21 +16,21 @@ can do so directly in the "Configuration" tab by clicking on "Select" and
 "Create". Existing and newly created groups can be edited in the [member
 management](../course_operation/Members_management.md).
 
-Use the field " **Allow multiple enrolments** " in order to allow course
+Use the field "**Allow multiple enrolments**" in order to allow course
 participants to enrol in more than one, and if so how many, groups.
 
-In the field " **Delisting allowed** " you can decide if a registered course
+In the field "**Delisting allowed**" you can decide if a registered course
 participant should have the possibility to delist from a group. In the group
 management you can determine while editing groups if there should be a waiting
 list and if moving up automatically from that list should be possible.
 
-If you have previously created one or more learning areas in the
-administration and assigned groups here, you can also access these learning
-areas in the "Configuration" tab of the enrollment course element.
+!!! info "Info"
+
+    If you have previously created one or more learning areas in the administration and assigned groups here, you can also access these learning areas in the "Configuration" tab of the enrollment course element.
 
 ## Course Element: Notifications {: #notification}
 
-![](assets/infomessage.png)
+![notification.png](assets/infomessage.png)
 
 This course element allows you to embed notifications in your course
 structure. These notifications will be visible in your course as well as in
@@ -69,13 +63,13 @@ exceeded, a corresponding message is displayed. Note: The number of actual
 characters specified differs from the number of visible characters, as the
 actual number of HTML code is used.
 
-An element with similar functions, but without specific configuration, can
-also be found in the toolbar. This is the "[Participant
-Info](../course_operation/Using_Additional_Course_Features.md)".
+!!! tip "Tip"
+
+    An element with similar functions, but without specific configuration, can also be found in the toolbar. This is the "[Participant Info](../course_operation/Using_Additional_Course_Features.md)".
 
 ##  Course Element: E-Mail  {: #mail}
 
-![](assets/contact.png)
+![contact.png](assets/contact.png)
 
 By means of the course element "E-Mail" you provide your course participants
 with the possibility to send an e-mail to pre-defined recipients.
@@ -90,7 +84,9 @@ In order to enter several addresses in the field "E-mail addresses" you have
 to separate them by line breaks, i.e. each e-mail address has to be put into
 one separate row.
 
- **Distribution to owners/coaches/participants:** By checking this box you
+### Distribution to owners/coaches/participants
+
+By checking this box you
 those member groups you would like to send a message. When selecting coaches
 or participants, chose in a second step whether you wish to address all
 members, or either course or group members. (if no box is checked, no mail is
@@ -103,69 +99,39 @@ sending e-mails.
 In addition, the message / subject can be designed with the use of variables
 personal and course-related.
 
- Use of variables
+### Use of variables
 
 The following variables can be used in the subject and text of the e-mail:
 
-    
-    
-    $firstname
-
-| The users first name  
----|---  
-      
-    
-    $lastname
-
-| The users last name  
-      
-    
-    $fullName
-
-| The users full name  
-      
-    
-    $username
-
-| The users username  
-      
-    
-    $email
-
-| The users email adress  
-      
-    
-    $courseurl
-
-| The internet address of the course  
-      
-    
-    $coursename
-
-| The name of the course as defined in the course info page  
-      
-    
-    $coursedescription
-
-| The description of the course as defined in the course info page  
+variable | description
+---|--- 
+$firstname |The users first name  
+$lastname | The users last name  
+$fullName | The users full name  
+$username | The users username  
+$email | The users email adress  
+$courseurl | The internet address of the course  
+$coursename | The name of the course as defined in the course info page  
+$coursedescription | The description of the course as defined in the course info page  
   
-The user variables refer to the person who triggers and sends the e-mail via
-the "Send" button.
+!!! info ""
+
+    The user variables refer to the person who triggers and sends the e-mail via the **"Send" button**.
 
 By means of a suitable short title for the course element "E-mail" you can
 provide your course participants with information to whom they can send
 messages. For privacy reasons they will not be able to see the recipients'
 addresses in your e-mail form.
 
-An element "E-mail" with similar functions, but without specific
-configuration, can also be found in the
-[toolbar](../course_operation/Using_Additional_Course_Features.md).
+!!! tip "Tip"
+
+    An element "E-mail" with similar functions, but without specific configuration, can also be found in the [toolbar](../course_operation/Using_Additional_Course_Features.md).
 
   
 
 ##  Course Element: Calendar  {: #cal}
 
-![](assets/calendar.png)
+![calendar.png](assets/calendar.png)
 
 By means of the course element "Calendar" you can embed a course calendar in
 the course structure. It is also possible to add several instances of the same
@@ -193,12 +159,13 @@ courses](../course_create/Learning_path_course.md), it makes more sense to activ
 calendar in the [toolbar](../course_operation/Using_Additional_Course_Features.md) in the
 settings.
 
-If you can't find the "Calendar" course element in the course editor, it was
-disabled by a system administrator.
+!!! tip "Tip"
+
+    If you can't find the "Calendar" course element in the course editor, it was disabled by a system administrator.
 
 ##  Course Element: Appointment scheduling {: #appointment_scheduling}
 
-![](assets/dateentry.png)
+![appointment.png](assets/dateentry.png)
 
 The course element Appointment Scheduling can be used to organize enrollments
 for specific appointments as well as to find appointments. In general, you can
@@ -219,19 +186,19 @@ run with the editor closed. For this purpose, a new enrollment or appointment
 is first created via the button "Create occasion" and the basic configuration
 is carried out as well as appointments are entered.
 
-![](assets/create_occasion.png)
+![create_occaision.png](assets/create_occasion.png)
 
-Via the button "Add appointment" you can also add further appointments to this
+Via the button "**Add appointment**" you can also add further appointments to this
 voting later.  Also, already created appointments can be revised again via the
 three-point link.
 
-![](assets/Termin_hinzufuegen.jpg)
+![add_appointment.png](assets/Termin_hinzufuegen.jpg)
 
 ### Appointments: create & edit
 
-Menu "Create occasion"
+!!! info "Menu "Create occasion""
 
- How to configure an enrollment or scheduling:
+    How to configure an enrollment or scheduling
 
  **Title:** Enter the name of the appointment here, e.g. "Reconciliation
 closing meeting", "Kick-off meeting" etc.. The entry is required (mandatory
@@ -255,48 +222,47 @@ event.
  **Max. Participants:** You can limit the number of members for an appointment
 (only for "Enrollment").
 
- **Type of appointment: **You can create appointments based on duration, based
+**Type of appointment:** You can create appointments based on duration, based
 on a start and end date, or recurring by specific days of the week. The
 selection makes it easier for you to create additional appointments.
 
-If "Duration" is selected, when adding further appointments, the appointments
-will be preconfigured on the same day and the clock times will be adjusted
-according to the duration.
+!!! info ""
 
-If Start/End is selected, the selected times are retained and you only need to
-adjust the date for new entries.
+    If "Duration" is selected, when adding further appointments, the appointments will be preconfigured on the same day and the clock times will be adjusted according to the duration.
+
+    If Start/End is selected, the selected times are retained and you only need to adjust the date for new entries.
 
  **Appointments:**  The concrete election dates are entered here. Click on the
 "+ sign" to add new dates. By clicking on the "- sign", dates are deleted
 again.
 
- **Online meeting:  **The options are: No, no online appointment or one
+ **Online meeting:** The options are: No, no online appointment or one
 directly selects the desired tool BigBlueButton or Teams, provided that
 Virtual Classrooms have been activated by the administrator.
 
-If BigBlueButton or Teams is activated, a BigBlueButton or Teams room can be
-added and further configured for the selected appointments. In this case,
-"online" is automatically displayed for the location.
+!!! tip "Tip"
+
+    If BigBlueButton or Teams is activated, a BigBlueButton or Teams room can be added and further configured for the selected appointments. In this case, "online" is automatically displayed for the location.
 
 A created "occasion" can later be edited, duplicated or deleted by clicking on
 the cogwheel. The number of participants for the event can also be restricted
 to certain groups. An export of the participants for an event is also
 possible.
 
-![](assets/Terminplanung_anlass.jpg)
+![occasion.png](assets/Terminplanung_anlass.jpg)
 
 The specific dates of already created schedules can be viewed in more detail
 via the "View appointments" link and edited by the course owner or coach. Here
 you can add, delete, rebook participants, adjust the description, change
 appointments or confirm appointments.
 
-![](assets/Terminfindung_punkte.jpg)
+![find_appointment.png](assets/Terminfindung_punkte.jpg)
 
-Participants can use the "Select appointments" link to see and select the
+Participants can use the "**Select appointments**" link to see and select the
 appointments they want. If an appointment has been confirmed, this is also
 visible.
 
-![](assets/Terminfindung.png)
+![appointment.png](assets/Terminfindung.png)
 
   
 
