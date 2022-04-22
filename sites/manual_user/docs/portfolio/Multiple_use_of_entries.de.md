@@ -15,11 +15,8 @@ Beim Anlegen einer neuen Portfoliomappe steht die Option "Mappe aus
 bestehenden Einträgen erstellen" zur Verfügung. Die gewünschten Einträge
 können anschliessend aus einer Liste gefiltert und selektiert werden.
 
-|
-
-![](assets/Mappe aus Eintraegen DE.png)  
-  
----|---  
+![mappe_aus_eintraegen.png](assets/Mappe%20aus%20Eintraegen%20DE.png)  
+   
   
  **b) Import eines Eintrages in eine bestehende Portfoliomappe**
 
@@ -28,9 +25,8 @@ Portfolioeinträge aus anderen (verschiedenen) Mappen importiert werden. Dafür
 werden die gewünschten Einträge aus einer Liste ausgewählt, die über den
 Button "Eintrag importieren" erscheint.
 
-|
 
-![](assets/Import Mappe DE.png)  
+![import_mappe.png](assets/Import%20Mappe%20DE.png)  
   
  **c) Referenzierung des Inhaltes aus einem anderen Eintrag**
 
@@ -38,11 +34,7 @@ Hierfür wird ein neuer Eintrag in einer Portfoliomappe angelegt. Über den
 Button "Inhalt referenzieren" kann anschliessend ein anderer Eintrag
 ausgewählt werden, dessen Inhalt im neuen Eintrag übernommen wird.
 
-|
-
-  
-
-![](assets/Eintrag Inhalt referenzieren DE.png)  
+![inhalte_referenzieren.png](assets/Eintrag%20Inhalt%20referenzieren%20DE.png)  
   
 Es wird jeweils die Liste der Einträge angezeigt, die referenziert bzw.
 importiert werden können. Sind an den einzelnen Einträgen Kompetenzen oder
@@ -50,22 +42,20 @@ Kategorien vergeben, kann in der Maske danach gefiltert werden. Mit der Suche
 können die Ergebnisse weiter verfeinert werden. Einträge, die bereits in
 Mappen referenziert sind, werden entsprechend gekennzeichnet.
 
-![](assets/Import Dialog DE.png)
+![import_dialog.png](assets/Import%20Dialog%20DE.png)
 
-### **Merkmale referenzierter Einträge**
+## Merkmale referenzierter Einträge
 
 Referenzierte Einträge werden in den Auswahllisten (Import-Maske) mit einem
 Pfeil gekennzeichnet. Im Eintrag selbst werden Meldungen zur Referenzierung
 angezeigt sowie ein Hinweis unterhalb des Titels, in wie vielen anderen
 Einträgen der gleiche Inhalt verwendet wird.
 
-Achtung
+!!! warning "Achtung"
 
-Es handelt sich stets um denselben Eintrag. Ist ein Eintrag in Mappe A und
-Mappe B eingebunden, so werden Änderungen am Eintrag in Mappe A automatisch
-auch in Mappe B aktualisiert.
+    Es handelt sich stets um denselben Eintrag. Ist ein Eintrag in Mappe A und Mappe B eingebunden, so werden Änderungen am Eintrag in Mappe A automatisch auch in Mappe B aktualisiert.
 
-![](assets/Referenzierung_DE.png)
+![refrenzierung.png](assets/Referenzierung_DE.png)
 
 Ist ein referenzierter Eintrag in einer Mappe bereits (ab)geschlossen, so kann
 der gleiche Eintrag in einer anderen Mappe nicht mehr geöffnet und verändert
@@ -77,4 +67,4 @@ Bearbeitungsmaske der Metadaten kann entschieden werden, ob die Änderungen für
 alle referenzierten Einträge übernommen werden sollen, oder - z.B. im Sinne
 eines spezifischen Kontextes - nur im vorliegenden Eintrag angepasst werden.
 
-![](assets/Metadaten aendern Referenz DE.png)
+![metadaten_aendern.png](assets/Metadaten%20aendern%20Referenz%20DE.png)

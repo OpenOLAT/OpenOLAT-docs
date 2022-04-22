@@ -15,11 +15,9 @@ When creating a new portfolio binder, the option "Create folder from existing
 entries" is available. The desired entries can then be filtered and selected
 from a list.
 
-|
 
-![](assets/Mappe aus Eintraegen EN.png)  
-  
----|---  
+![binder_from_entries.png](assets/Mappe%20aus%20Eintraegen%20EN.png)  
+   
   
  **b) Importing an entry into an existing portfolio binder**
 
@@ -27,9 +25,8 @@ Within the target portfolio binder, one or more portfolio entries can also be
 imported from other (different) binders. To do this, the desired entries are
 selected from a list that appears via the button "Import entry".
 
-|
 
-![](assets/Import Mappe EN.png)  
+![binder_from_portfolio.png](assets/Import%20Mappe%20EN.png)  
   
  **c) Referencing the content from another entry**
 
@@ -37,33 +34,29 @@ For this purpose, a new entry is created in a portfolio binder. The button
 "Link content" can then be used to select another entry whose content will be
 taken over in the new entry.
 
-|
-
-![](assets/Eintrag Inhalt referenzieren EN.png)  
+![reference_content.png](assets/Eintrag%20Inhalt%20referenzieren%20EN.png)  
   
 The list of entries that can be referenced or imported is displayed. If
 competences or categories are assigned to the individual entries, they can be
 filtered in the mask. The results can be further refined with the search.
 Entries that are already referenced in folders are marked accordingly.
 
-![](assets/Import Dialog EN.png)
+![import_dialog.png](assets/Import%20Dialog%20EN.png)
 
-### Characteristics of referenced entries
+## Characteristics of referenced entries
 
 Referenced entries are marked with an arrow in the selection lists (import
 mask). In the entry itself, referencing messages are displayed as well as a
 note below the title indicating in how many other entries the same content is
 used.
 
-Attention
+!!! warning "Attention"
 
-It is always the same entry. If an entry is included in binder A and binder B,
-changes to the entry in binder A are automatically updated in binder B as
-well.
+    It is always the same entry. If an entry is included in binder A and binder B, changes to the entry in binder A are automatically updated in binder B as well.
 
   
 
-![](assets/Referenzierung_EN.png)
+![referencing.png](assets/Referenzierung_EN.png)
 
 If a referenced entry in a binder is already closed, the same entry in another
 binder can no longer be opened and changed. In case of different states of the
@@ -74,5 +67,5 @@ you can decide whether the changes should be applied to all referenced entries
 or - e.g. in the sense of a specific context - only adapted in the current
 entry.
 
-![](assets/Metadaten aendern Referenz EN.png)
+![change_metadate.png](assets/Metadaten%20aendern%20Referenz%20EN.png)
 
