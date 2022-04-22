@@ -3,16 +3,15 @@
 The topic of video is very complex due to the many formats, codecs, containers
 and operating systems / browsers.
 
-Recommended format
+## Recommended format
 
 In practice, the mp4 (or MPEG-4) container with the H.264 video codec for
 video and the mp3 audio codec for audio has become established. Current
 versions of Firefox, Chrome and Safari can play such videos.
 
-Note
+!!! warning "Attention"
 
-Anamorphic videos are currently not supported. Please take this into account
-during video production.
+    Anamorphic videos are currently not supported. Please take this into account during video production.
 
 ### Here are a few more technical notes:
 
@@ -29,22 +28,22 @@ Unfortunately, some file extensions are also used for container names and also
 encoding names. Therefore, when you look at a video name, it's never quite
 clear whether it's the encoding, the file extension, or the container.
 
-### File size
+## File size
 
 The file size of a video depends on a number of parameters.  
 
-##### Resolution  
+## Resolution  
 
- Number of pixels on the x and y...
 
-Number of pixels on the x and y axis. Common resolutions are e.g. 480x320,
+Number of pixels on the x and y axis. 
+
+Common resolutions are e.g. 480x320,
 800x600, 1024x567, 1280x720, 1920x1080. Starting with the resolution of
-1280x720, these are considered HD resolutions.  
+1280x720, these are considered HD resolutions. 
+
 The higher the resolution, the more memory is required.  
 
-##### Frame rate (frames per second)
-
- A frame rate of more than 16 pictures per...
+### Frame rate (frames per second)
 
 A frame rate of more than 16 pictures per second is perceived as a movie,
 depending greatly though on the intensity of movement. Cinema movies
@@ -57,9 +56,8 @@ some frames may be visible for several seconds without any changes to it.
 
 The more frames (images) per second, the more memory needed.  
 
-##### Interlacing
+**Interlacing**
 
- Video frequency can be doubled with...
 
 Video frequency can be doubled with a simple trick without doubling the memory
 requirements. Only every second line of the image is alternately transferred
@@ -72,9 +70,7 @@ in most cases though.
 If used at a constant frame rate, Interlacing reduces the amount of memory
 required.  
 
-#####  Codec
-
- A codec is a compression algorithm...
+**Codec**
 
 A codec is a compression algorithm used to compress video data to the least
 possible size. As a rule, this compression is lossy, otherwise the amount of
@@ -110,12 +106,12 @@ WebM and Ogg are no longer absolutely necessary as Google continues to support
 mp4 and Firefox now does too. WebM is a container used by Google, and Ogg a
 container used by Firefox.  
 
-For using videos within OpenOlat, it would be best to choose a small to medium
-resolution with a low to medium bitrate  
+!!! tip "Tip"
 
-##### Bitrate (kbps)
+    For using videos within OpenOlat, it would be best to choose a small to medium resolution with a low to medium bitrate  
 
- The bitrate defines the amount of...
+**Bitrate (kbps)**
+
 
 The bitrate defines the amount of bits created per second of video material.
 Bitrate can be set either as constant or variable. A maximum will be defined
@@ -130,8 +126,7 @@ but the file size of the movie increases accordingly.
   
 
 _Aspects such as colour space or anamorphic also affect the file size of a
-movie.  
-_
+movie._
 
   
 
@@ -140,13 +135,7 @@ other resolutions with conventional settings. Bitrates vary heavily depending
 on the type of video, resolution, codec and compression. These are merely
 benchmarks, and were calculated based on a MP4 file encoded with H.264.  
 
-Bitrate /  Resolution
-
-|
-
-320x240
-
-| 480x270| 1024x576| 1280x720| 1920x1080  
+Bitrate /  Resolution|320x240| 480x270| 1024x576| 1280x720| 1920x1080  
 ---|---|---|---|---|---  
 kbps| 400| 700| 1'500| 2'500| 4'000  
 mbps| 0.4| 0.7| 1.5| 2.5| 4  
@@ -157,9 +146,7 @@ A movie with an average duration of 10 minutes and a 480x270 resolution
 therefore approximately requires about 53 MB memory. The same movie with a
 resolution of 720p HD though requires about 180 MB.  
 
-#####  
-
-**Calculation example: Network traffic**
+***Calculation example: Network traffic***
 
 If 50 users watch this 10 minute movie, this will create _network traffic of
 2.7 GB with a_ _480x270_ _resolution_. If the movie is watched with a 720p HD
@@ -178,7 +165,7 @@ Mb/s feasible, but user equipment also needs to be able to handle this kind of
 output. 50 users watching an educational video in the same room can therefore
 prove to be a problem for a network.
 
-#### HandBrake Settings  
+**HandBrake Settings**  
 
 If you have to create or provide videos for OpenOlat yourself, a special
 transcoding software can help you transform files into the correct file format
@@ -187,20 +174,20 @@ free and open source software. More information on HandBrake can be found on
 the wikipedia [HandBrake](https://en.wikipedia.org/wiki/HandBrake) page as
 well as their commercial site <https://handbrake.fr/>.  
 
-1\. Open HandBrake, and select the file to be converted. Starting formats are
+1. Open HandBrake, and select the file to be converted. Starting formats are
 e.g. M4V or MOV files.
 
-2\. Under "Presets" select a general profile ("Very Fast" or "Fast" would be
+2. Under "Presets" select a general profile ("Very Fast" or "Fast" would be
 recommended), and check the "Web optimized" checkbox.
 
-![](assets/Handbrake_Settings.png)
+![handbreak.png](assets/Handbrake_Settings.png)
 
 It would be best to leave the preset parameters untouched.
 
-3\. Select the desired size / resolution by opening the "Settings" under
+3. Select the desired size / resolution by opening the "Settings" under
 "Preview".  
 
-![](assets/Handbrake_Settings2.png)  
+![handbreak_settings.png](assets/Handbrake_Settings2.png)  
 
   * Small: 320 und 480
   * Medium: 1024

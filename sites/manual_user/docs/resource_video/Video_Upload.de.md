@@ -3,17 +3,16 @@
 Das Thema Video ist aufgrund der vielen Formate, Codecs, Container und
 Betriebssysteme / Browser sehr komplex.  
 
-Empfohlenes Format
+## Empfohlenes Format
 
 In der Praxis hat sich der **mp4** (oder MPEG-4) Container mit dem H.264
 Video-Codec für Video und dem **mp3** Audio-Codec für Audio etabliert.
 Aktuelle Versionen von Firefox, Chrome und Safari können solche Videos
 abspielen.
 
-Hinweis
+!!! warning "Achtung"
 
-Anamorphe Videos werden zurzeit nicht unterstützt. Bitte berücksichtigen Sie
-dies bei der Video-Produktion.
+    Anamorphe Videos werden zurzeit nicht unterstützt. Bitte berücksichtigen Sie dies bei der Video-Produktion.
 
 ### Hier noch ein paar technische Hinweise:
 
@@ -32,22 +31,22 @@ Codierungsnamen verwendet. Deshalb ist bei einer Video-Bezeichnung nie ganz
 klar, ob es sich um die Codierung, die Datei-Endung oder den Container
 handelt.  
 
-### Dateigrösse
+## Dateigrösse
 
 Die Dateigrösse eines Videos ist von vielen Parametern abhängig.
 
-##### Auflösung  
+## Auflösung  
 
- Anzahl Pixel in der x und der y...
+Anzahl Pixel in der x und der y Achse. 
 
-Anzahl Pixel in der x und der y Achse. Bekannte Auflösungen wären z.B.
+Bekannte Auflösungen wären z.B.
 480x320, 800x600, 1024x567, 1280x720, 1920x1080. Ab einer Auflösung von
 1280x720 spricht man von HD-Auflösung.  
-He höher die Auflösung, desto mehr Speicher wird benötigt.
 
-##### Bildfrequenz (frames per second)
+Je höher die Auflösung, desto mehr Speicher wird benötigt.
 
- Ab ca. 16 Bildern pro Sekunde werden...
+### Bildfrequenz (frames per second)
+
 
 Ab ca. 16 Bildern pro Sekunde werden Bilder als Film wahrgenommen. Dies
 variiert jedoch stark je nach der Intensität der Bewegung. Im Kino werden
@@ -62,12 +61,13 @@ eine variable Framerate zu empfehlen.
 
 Je mehr Bilder pro Sekunde gezeigt werden, desto mehr Speicher wird benötigt.
 
-##### Interlacing
+**Interlacing**
 
- Mit einem Trick kann die Bildfrequenz verdoppelt...
 
 Mit einem Trick kann die Bildfrequenz verdoppelt werden ohne mehr
-Speicherplatz zu benötigen. Dabei wird alternierend nur jede zweite Zeile des
+Speicherplatz zu benötigen. 
+
+Dabei wird alternierend nur jede zweite Zeile des
 Bildes übertragen und auf dem Bildschirm ersetzt. Dies führt zu einem leicht
 weniger scharfen Bild, da die Zeilen in den Bildern jedes zweite Mal nicht
 ganz zueinander passen. Durch die Bewegung im Film ist das aber in den meisten
@@ -76,9 +76,7 @@ Fällen vernachlässigbar.
 Verwendet man Interlacing bei gleichbleibender Framerate, so wird weniger
 Speicher benötigt.
 
-#####  Codec
-
- Der Codec ist ein Kompressionsalgorithmus...
+**Codec**
 
 Der Codec ist ein Kompressionsalgorithmus um die Videodaten möglichst klein
 abzuspeichern. In der Regel ist diese Kompression verlustbehaftet, ansonsten
@@ -110,14 +108,15 @@ WebM und Ogg sind heute nicht mehr unbedingt notwendig da Google weiterhin und
 Firefox neu ebenfalls mp4 unterstützen. WebM ist ein von Google und Ogg ein
 von Firefox propagierter Container.
 
-Für die Anwendung innerhalb von OpenOlat wählen Sie am besten eine kleine bis
-mittlere Auflösung mit tiefer bis mittlere Bitrate.
+!!! tip "Tipp"
 
-##### Bitrate (kbps)
+    Für die Anwendung innerhalb von OpenOlat wählen Sie am besten eine kleine bis mittlere Auflösung mit tiefer bis mittlere Bitrate.
 
- Die Bitrate definiert wieviele....
+**Bitrate (kbps)**
+
 
 Die Bitrate definiert wie viele Datenbits pro Sekunde Videomaterial anfallen.
+
 Die Bitrate kann konstant definiert oder variabel sein. Im Variablen Fall wird
 eine Höchstlimite definiert. Die Bitrate definiert direkt wie gross ein Film
 ist und beeinflusst die Qualität des Bildes erheblich. Um dieselbe
@@ -140,13 +139,7 @@ Die Bitraten ändern sich je nach Art des Filmes, Auflösung, Codec und
 Kompression stark. Dies sind lediglich Richtgrössen, und wurden berechnet für
 MP4-Dateien mit dem H.264 Codec.
 
-Bitrate /  Auflösung
-
-|
-
-320x240
-
-| 480x270| 1024x576| 1280x720| 1920x1080  
+Bitrate /  Auflösung|320x240| 480x270| 1024x576| 1280x720| 1920x1080  
 ---|---|---|---|---|---  
 kbps| 400| 700| 1'500| 2'500| 4'000  
 mbps| 0.4| 0.7| 1.5| 2.5| 4  
@@ -159,7 +152,7 @@ braucht ca. 180 MB.
 
   
 
- **Anwendungsbeispiel: Netzwerkverkehr**
+ ***Anwendungsbeispiel: Netzwerkverkehr***
 
 Wenn 50 Personen diesen 10 Minuten dauernde Film schauen führt dies zu einem
 _Netzwerkverkehr_ _von 2.7 GB bei einer 480x270 Auflösung_. Wird der Film in
@@ -177,7 +170,7 @@ bis 100 Mb/s realistisch, allerdings müssen das auch die Endgeräte
 unterstützen. 50 Lernende die in einem Zimmer ein Lehrvideo anschauen kann
 netzwerktechnisch also bereits kritisch sein.
 
-#### HandBrake Einstellungen  
+**HandBrake Einstellungen**  
 
 Wenn Sie Videos für OpenOlat selbst erstellen bzw. bereitstellen, können Sie
 diese mit einer speziellen Transcoding-Software in das richtige Format bzw.
@@ -190,17 +183,17 @@ Produktwebseite <https://handbrake.fr/>.
 
 1. Öffnen Sie HandBrake, und wählen Sie die zu konvertierende Datei aus. Ausgangsformate sind z.B. M4V- oder MOV-Dateien. 
 
-2\. Selektieren Sie unter "Presets" ein Profil (Empfehlung: "Very Fast" oder
+2. Selektieren Sie unter "Presets" ein Profil (Empfehlung: "Very Fast" oder
 "Fast") und aktivieren sie "Web optimized".
 
-![](assets/Handbrake_Settings.png)  
+![handbrake.png](assets/Handbrake_Settings.png)  
 
 Am besten lassen Sie alle übrigen Einstellungen wie voreingestellt.  
 
-3\. Über "Preview" und "Settings" stellen Sie die gewünschte Ausgabegrösse /
+3. Über "Preview" und "Settings" stellen Sie die gewünschte Ausgabegrösse /
 Auflösung ein.
 
-![](assets/Handbrake_Settings2.png)  
+![handbrake_einstellung.png](assets/Handbrake_Settings2.png)  
 
   * Klein: 320 und 480
   * Mittel: 1024
