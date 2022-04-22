@@ -1,8 +1,8 @@
 # Lernressource: Video
 
-![](assets/Lernressource_Video.png)
+![lernressource_video.png](assets/Lernressource_Video.png)
 
-![](assets/video_64_0_434343_none.png)
+![icon_video.png](assets/video_64_0_434343_none.png)
 
 Eine Video-Lernressource wird im Autorenbereich über die Funktion
 "[Importieren](../authoring/Actions_in_the_Authoring_section.de.md#import)"
@@ -14,7 +14,7 @@ Eingabeseite der "Einstellungen".
 
   
 
-Eine zum Import [vorbereitete](Video_Upload.de.md) Videodatei muss im .mp4
+Eine zum Import [vorbereitete Videodatei](Video_Upload.de.md) muss im .mp4
 Format vorliegen, damit sie in OpenOlat als Video-Lernressource erkannt werden
 kann.
 
@@ -23,8 +23,6 @@ diese beim Einbetten in den Kurs als Beschreibung im Kurs angezeigt werden.
 
 Werden über "Importieren URL" YouTube Videos importiert, werden dabei auch
 Metadaten der YouTube Datei, wie der Titel oder ein Startbild übernommen.
-
-  
 
 ## Videokonfiguration
 
@@ -50,9 +48,9 @@ Standbildern des Videos wählen oder alternativ über die Schaltfläche "Poster
 hochladen" ein eigenes Bild als Startbild (Poster) hochladen. Falls kein
 Poster ausgewählt wurde, erscheint das Standbild vom Beginn des Videos.
 
-Bitte beachten Sie, dass ein solches Bild dieselben Abmessungen in Pixel haben
-sollte wie das Originalvideo. Die entsprechenden Daten dazu finden Sie im Tab
-"Metadaten".
+!!! warning "Achtung"
+
+    Bitte beachten Sie, dass ein solches Bild dieselben Abmessungen in Pixel haben sollte wie das Originalvideo. Die entsprechenden Daten dazu finden Sie im Tab "Metadaten".
 
 ### Kapitel {: #video_chapter}
 
@@ -70,7 +68,7 @@ muss nur noch ein Kapitelname eingetragen werden.
 Kapitel können anschließend sowohl bearbeitet, als auch wieder gelöscht
 werden.
 
-![](assets/video_kapitel2.png)
+![kapitel.png](assets/video_kapitel2.png)
 
 ### Anmerkungen
 
@@ -82,27 +80,33 @@ Wählen Sie die Stelle an der die Anmerkung ergänzt werden soll und definieren
 Sie die weiteren Einstellungen, wie die Dauer, die Position an der die
 Anmerkung erscheinen soll und natürlich den anzuzeigenden Text.
 
-![](assets/Video_Anmerkungen.png)
+![anmerkungen_video.png](assets/Video_Anmerkungen.png)
 
 ### Quiz
 
 Hier können Sie dem Video einzelne Quizfragen hinzufügen. Aktuell stehen 11
 verschiedene Fragetypen zur Auswahl. Anschließend kann die Frage weiter
-konfiguriert werden. So kann im Tab "Konfiguration" des Quiz Menüs der
+konfiguriert werden. 
+
+So kann im Tab "**Konfiguration**" des Quiz Menüs der
 Zeitpunkt definiert werden zu dem die Frage erscheinen soll, ob es eine
 Zeitbeschränkung gibt oder ob es erlaubt ist die Frage zu überspringen oder ob
-ein weiterer Versuch erlaubt ist. Im Tab "Auswahl" wird die konkrete
-Fragestellung sowie die Antworten hinterlegt. Im Tab "Punkte" wird die Art der
-Punktevergabe definiert. im Tab "Feedback" können Feedbacks basierend auf
+ein weiterer Versuch erlaubt ist. 
+
+Im Tab "**Auswahl**" wird die konkrete
+Fragestellung sowie die Antworten hinterlegt. 
+
+Im Tab "**Punkte**" wird die Art der
+Punktevergabe definiert. 
+
+Im Tab "**Feedback**" können Feedbacks basierend auf
 unterschiedlichen Kriterien hinzugefügt werden.
 
-Weitere Informationen zu den generellen Einstellungen von Quiz und Tests
-finden Sie im Kapitel "[Testfragen
-konfigurieren](../tests/Configure_test_questions.de.md)". Weitere Informationen zu den
-unterschiedlichen Fragetypen im Kapitel ["Test
-Fragetypen"](../tests/Test_question_types.de.md).
+!!! note ""
 
-![](assets/Video_Quiz1.png)
+    Weitere Informationen zu den generellen Einstellungen von Quiz und Tests finden Sie im Kapitel "[Testfragen konfigurieren](../tests/Configure_test_questions.de.md)". Weitere Informationen zu den unterschiedlichen Fragetypen im Kapitel "[Test Fragetypen](../tests/Test_question_types.de.md)".
+
+![quiz.png](assets/Video_Quiz1.png)
 
 ###  Untertitel konfigurieren  {: #video_subtitles}
 
@@ -116,17 +120,18 @@ von der meisten Video-Player-Software unterstützt. Für jede eingegebene
 Untertitelzeile wird eine Zeitangabe benötigt, die im folgenden Format
 vorliegen muss:
 
-h:m:s.ms     Beispiel: 00:00:20.396 (Zeitangabe 0 Stunden, 0 Minuten, 20.396
-Sekunden)
+!!! note ""
 
-Millisekunden müssen bis auf die 3. Nachkomma-Stelle genau angegeben werden.
+    h:m:s.ms     Beispiel: 00:00:20.396 (Zeitangabe 0 Stunden, 0 Minuten, 20.396 Sekunden)
 
-Zu beachten
+    Millisekunden müssen bis auf die 3. Nachkomma-Stelle genau angegeben werden.
 
-Die Trennzeichen der Zeitangaben sind Doppelpunkt und Punkt (s. Beispiel). Es
-dürfen keine Kommata verwendet werden.
 
-Im Dokument muss auf der ersten Zeile WEBVTT stehen.
+!!! warning "Achtung"
+
+    Die Trennzeichen der Zeitangaben sind Doppelpunkt und Punkt (s. Beispiel). Es dürfen keine Kommata verwendet werden.
+    
+    Im Dokument muss auf der ersten Zeile WEBVTT stehen.
 
  **Untertitel hinzufügen**
 
@@ -143,9 +148,12 @@ dort auch gelöscht werden.
 
  **Untertitel anzeigen**
 
-Standardmässig werden Videos in OpenOlat ohne Untertitel abgespielt. Sobald
+Standardmässig werden Videos in OpenOlat ohne Untertitel abgespielt. 
+
+Sobald
 Untertitel vorhanden sind, wird folgendes Icon im Video-Player angezeigt:
-![](assets/closed_caption_64_0_434343_none.png).
+![cc.png](assets/closed_caption_64_0_434343_none.png){ class=size16 }.
+
 CC steht für den amerikanischen Ausdruck "[Closed
 captions](https://de.wikipedia.org/wiki/Untertitel#Technische_Ausf.C3.BChrungen)"
 (Wikipedia), und bedeutet dass Untertitel unsichtbar sind bis diese vom
@@ -166,16 +174,17 @@ Einstellungen im Administrationsbereich. Ausstehende Videos können
 transkodiert und nicht verwendete Auflösungen gelöscht werden. Im Videoplayer
 können Sie die gewünschte Auflösung über den "Source Chooser" auswählen.
 
-![](assets/13_Lernressource_video_qualitaet.png)
+![video_qualitaet.png](assets/13_Lernressource_video_qualitaet.png)
 
   
 
-![](assets/videoaufloesung_DE.png)
+![video_aufloesung.png](assets/videoaufloesung_DE.png)
 
   
 
- Für Videos, die über "Importieren URL" hinzugefügt wurden, können die
-Einstellungen nicht vorgenommen werden.
+!!! info "Info"
+
+    Für Videos, die über "Importieren URL" hinzugefügt wurden, können die Einstellungen nicht vorgenommen werden.
 
 ### Download
 
@@ -184,11 +193,9 @@ dürfen oder nicht.
 
 ## Videos in Kurse einbinden {: #video_courseelement}
 
-Erstellte Video Lernressourcen können zusätzlich noch über den [Kursbaustein
-"Video" ](Course_Element_Video.de.md)in
+Erstellte Video Lernressourcen können zusätzlich noch über den [Kursbaustein "Video" ](Course_Element_Video.de.md)in
 OpenOlat Kurse eingebunden werden. So eingebundene Videos erlauben - im
-Gegensatz zu Videos die über das [Kurselement "Einzelne Seite"
-eingebunden](Single_Page_Add_edit_video.de.md)
+Gegensatz zu Videos die über das [Kurselement "Einzelne Seite" eingebunden](Single_Page_Add_edit_video.de.md)
 werden:
 
   * die Wiedergabe mit Untertiteln
@@ -206,11 +213,13 @@ angezeigt werden kann, muss der Publikationsstatus "Veröffentlicht"
 eingestellt sein. In Kombination mit der Freigabeeinstellung "Offen" wird es
 automatisch für alle registrierten Benutzer zugänglich. Die Beschreibung der
 Infoseite wird automatisch in der Einzelansicht eines Videos angezeigt, ebenso
-die Bewertungs- und Kommentarfunktion. Sollten Sie ein Video vermissen,
-überprüfen Sie die Einstellungen in den Videoeinstellungen unter
-"Zugangskonfiguration".
+die Bewertungs- und Kommentarfunktion. 
 
-Wenn Sie in Ihrer OpenOlat Instanz den "Video Collection" Eintrag in der
-Hauptnavigation nicht finden können, wurde dieser entweder vom Administrator
-ausgeblendet, oder Sie besitzen nicht die benötigten Rechte.
+!!! info "Info"
+
+    Sollten Sie ein Video vermissen, überprüfen Sie die Einstellungen in den Videoeinstellungen unter "**Zugangskonfiguration**".
+
+!!! info ""
+
+    Wenn Sie in Ihrer OpenOlat Instanz den "Video Collection" Eintrag in der Hauptnavigation nicht finden können, wurde dieser entweder vom Administrator ausgeblendet, oder Sie besitzen nicht die benötigten Rechte.
 
