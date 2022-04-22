@@ -21,7 +21,7 @@ such as iTunes to mobile devices or using them directly within OpenOlat. Such
 episodes will be shown sorted by time; the latest news will always appear on
 top. Course participants will be able to assess episodes and comment on them.
 
-An advantage of podcasts is that media data can easily be provided and used
-regardless of location. Additionally you can produce as well as use episodes
-independently of any broadcasting time compared to radio shows.
+!!! info ""
+
+    An advantage of podcasts is that media data can easily be provided and used regardless of location. Additionally you can produce as well as use episodes independently of any broadcasting time compared to radio shows.
 

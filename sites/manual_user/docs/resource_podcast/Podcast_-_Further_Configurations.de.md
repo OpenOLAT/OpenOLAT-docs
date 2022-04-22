@@ -26,9 +26,9 @@ bestehenden externen Podcast einbinden“. Im Feld „URL“ geben Sie den Feed-
 des externen Podcasts ein. In der Regel ist dies eine URL mit der Erweiterung
 .xml. Im Kursbaustein werden die Episoden des externen Podcasts angezeigt.
 
-Wenn Sie sich für eine Art des Podcasts (Episoden selber erstellen oder
-externen Podcast einbinden) entschieden haben, können Sie dies später nicht
-mehr ändern.
+!!! warning "Achtung"
+
+    Wenn Sie sich für eine Art des Podcasts (Episoden selber erstellen oder externen Podcast einbinden) entschieden haben, können Sie dies später nicht mehr ändern.
 
 ### Benutzerberechtigungen
 
@@ -48,7 +48,7 @@ Diese Konfiguration ist nur dann relevant, wenn die Episoden in OpenOlat
 erstellt werden. Wird ein externer Podcast eingebunden, können Sie in OpenOlat
 keinen Einfluss darauf nehmen, wer Episoden erstellen darf.
 
-![](assets/erstellen_erweiterte_Konfig.png)
+![podcast_berechtigungen.png](assets/erstellen_erweiterte_Konfig.png)
 
 Standardmässig dürfen nur Kursautoren Episoden erstellen. Kursteilnehmende
 können Episoden herunterladen, kommentieren und bewerten. Damit die Lernenden
@@ -56,21 +56,21 @@ eigene Podcasts hinzufügen können, muss ein erstes Video vorhanden sein, z.B.
 könnte der Lehrende in einem ersten Video kurz erläutern, was die Lernenden
 hier machen sollen.
 
-Beachten Sie auch die vom OpenOlat Administrator definierten Upload- und
-Speichergrenzen und versuchen Sie eher kleine Dateien hochzuladen.
+!!! warning ""
 
-# Konfiguration im Kursrun
+    Beachten Sie auch die vom OpenOlat Administrator definierten Upload- und Speichergrenzen und versuchen Sie eher kleine Dateien hochzuladen.
 
-#### Ersteller
+## Konfiguration im Kursrun
+
+### Ersteller
 
 Ist der Kursbaustein Podcast entsprechend der 4 Erstellungsschritte im
 Kurseditor eingerichtet, können weitere Konfigurationen bei geschlossenem
 Kureditor vorgenommen werden.
 
-Personen mit Ersteller-Rechten können hier über den Button "Episode
-hinzufügen" neue Audio- oder Video-Dateien in den Kursbaustein hochladen.
+Personen mit Ersteller-Rechten können hier über den Button "**Episode hinzufügen**" neue Audio- oder Video-Dateien in den Kursbaustein hochladen.
 
-#### Kursteilnehmer
+### Kursteilnehmer
 
 Kursteilnehmende können sich über Änderungen informieren lassen (Änderungen
 einschalten). Sie können sich die Dateien einhören bzw. ansehen und auch

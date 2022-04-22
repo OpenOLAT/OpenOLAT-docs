@@ -23,9 +23,9 @@ konsumieren. Die Episoden werden zeitlich sortiert angezeigt, die neuesten
 Meldungen erscheinen immer oben. Kursteilnehmer können Episoden bewerten und
 Kommentare dazu verfassen.
 
-Die Vorteile von Podcasts sind, dass Mediendateien einfach bereitgestellt und
-mobil genutzt werden können. Ausserdem können Episoden im Vergleich zu
-Radiosendungen unabhängig von der Sendezeit produziert und konsumiert werden.
+!!! info ""
+
+    Die Vorteile von Podcasts sind, dass Mediendateien einfach bereitgestellt und mobil genutzt werden können. Ausserdem können Episoden im Vergleich zu Radiosendungen unabhängig von der Sendezeit produziert und konsumiert werden.
 
   
 
