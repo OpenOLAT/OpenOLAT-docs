@@ -20,7 +20,7 @@ the [assessment tool](../course_operation/Assessment_of_course_modules.md) of th
 Attention: Once an assessment has taken place, you should not change the
 configuration anymore.
 
- Configuration settings
+ ### Configuration settings
 
  **Lock checklist for users on deadline:** If this checkbox is selected, the
 checklist can no longer be edited by the learner once the submission date has

@@ -20,7 +20,7 @@ Editor oder im Bewertungswerkzeug des Kurses. Sobald eine Bewertung eines
 Kursteilnehmers stattgefunden hat, sollten Sie die Konfiguration nicht mehr
 verändern.
 
- Detail Einstellungen des Tabs "Konfiguration"
+ ### Detail Einstellungen des Tabs "Konfiguration"
 
  **Checkliste bei Abgabedatum für Benutzer sperren:** Wenn diese Checkbox
 gewählt ist, kann die Checkliste nach Erreichen des Abgabedatums nicht mehr
