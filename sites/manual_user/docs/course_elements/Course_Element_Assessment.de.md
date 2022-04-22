@@ -1,7 +1,8 @@
 # Kursbaustein "Bewertung"
 
 ![manual score.png](assets/manual_score_thumbs-o-up_434343_64.png)
-Bewertung im Kurseditor erstellen und einrichten
+
+## Bewertung im Kurseditor erstellen und einrichten
 
 Die Konfiguration des Kursbausteins Bewertung nehmen Sie im Kurseditor im Tab
 „Bewertung“ vor. Hier können Sie die Bewertung so konfigurieren, dass

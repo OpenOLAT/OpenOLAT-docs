@@ -2,7 +2,8 @@
 
 ##
 ![manual score.png](assets/manual_score.png)
-Create and set up Assessment
+
+## Create and set up Assessment
 
 You configure the assessment module in the course editor in the tab
 "Assessment". Here you can configure the evaluation in such a way that
