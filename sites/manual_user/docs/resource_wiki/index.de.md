@@ -10,9 +10,8 @@ ebenfalls ein [Gruppenwerkzeug "Wiki"](../groups/Using_Group_Tools.de.md).
 
 Wird ein Wiki in einen Kurs eingebunden, kann ein und dasselbe Wiki in
 mehreren Kursen verwendet werden. Wenn Sie noch keinen Kurs erstellt haben,
-finden Sie im Kapitel [„Kurs erstellen"](Kurs+erstellen.html) Informationen
-dazu, bevor Sie mit Hilfe der Anleitung „[Vier Schritte zu Ihrem
-Wiki](Four_Steps_to_Your_Wiki.de.md)“ Ihr Wiki erstellen.
+finden Sie im Kapitel [„Kurs erstellen"](../course_create/index.de.md) Informationen
+dazu, bevor Sie mit Hilfe der Anleitung „[Vier Schritte zu Ihrem Wiki](Four_Steps_to_Your_Wiki.de.md)“ Ihr Wiki erstellen.
 
 ## Einsatzmöglichkeiten von Wikis
 
@@ -45,7 +44,7 @@ Tipp: Achten Sie darauf, gezielt Verlinkungen zwischen den einzelnen Seiten
 herzustellen um einen wirklichen Hypertext mit vielfältigen Knoten zu
 erstellen.
 
-Wenn Sie in Ihrer OpenOlat Instanz weder den Kursbaustein noch die
-Lernressource "Wiki" finden, so wurde dies systemweit von einem Administrator
-ausgeschaltet.
+!!! info "Info"
+
+    Wenn Sie in Ihrer OpenOlat Instanz weder den Kursbaustein noch die Lernressource "Wiki" finden, so wurde dies systemweit von einem Administrator ausgeschaltet.
 
