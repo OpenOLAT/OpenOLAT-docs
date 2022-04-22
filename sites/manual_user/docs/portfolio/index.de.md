@@ -1,6 +1,8 @@
 # Portfolio erstellen
 
-![](assets/portfolio_434343_64.png)Dieses
+![portfolio.png](assets/portfolio_434343_64.png)
+
+Dieses
 Kapitel erklärt, wie das OpenOlat Portfolio 2.0 genutzt werden kann. Zum einen
 beinhaltet es Informationen für Autoren bezüglich der Erstellung einer
 Portfoliovorlage 2.0, inklusive Einbindung in OpenOlat Kurse. Zum anderen
@@ -12,8 +14,7 @@ erstellen.
 
 Ein zentrales Element des OpenOlat Portfolios ist jedoch das
 [Bewertungsportfolio](Process_of_an_assessment_portfolio.de.md). Dazu werden
-vom OpenOlat Autor [Portfoliovorlagen
-](Portfolio_template_Creation.de.md)mit Aufgaben und Portfolio-
+vom OpenOlat Autor [Portfoliovorlagen](Portfolio_template_Creation.de.md)mit Aufgaben und Portfolio-
 Strukturen erstellt und in OLAT-Kursen zur Verfügung gestellt. Dort können sie
 von den Lernenden abgeholt und im persönlichen Bereich des Lernenden weiter
 bearbeitet werden.

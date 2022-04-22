@@ -6,17 +6,17 @@ to add elements to the media center, see below. The individual artifacts can
 be compiled in portfolio [binders](My_portfolio_binders.md) and thus
 structured and further developed.
 
-In doing so, the items can enter the media library in different ways. One can:
+In doing so, the items can enter the media library in different ways.
 
-Hint
+!!! warning "Attention"
 
-Files can be edited in the media center only.
+    Files can be edited in the media center only.
 
   
 
-# Upload file directly in the media center
+## Upload file directly in the media center
 
-#### Add document
+### Add document
 
 Various file types like word, excel, pdf, etc. can be uploaded here. Every
 file gets a title. Additionally, a description and categories can be added.
@@ -24,20 +24,21 @@ Categories are like tags and help if you are looking for a certain term or
 just want to simplify the overview of the portfolio. When adding a file from
 the media center to a portfolio binder, the file will only be shown as a link.
 
-If external document editors are used in OpenOlat, files can also be created
-here.
+!!! info ""
 
-#### Add media file
+    If external document editors are used in OpenOlat, files can also be created here.
+
+### Add media file
 
 In addition to documents media like images or videos can be uploaded.
 
-#### Add text
+### Add text
 
 This allows you to create and save simple texts within the media center
 itself. When adding such a text to a portfolio binder, the text will be
 displayed (html format).
 
-#### Add citation
+### Add citation
 
 As far as possible you can upload a citation in the media center. It allows
 you to insert a citation more than once in a portfolio without entering the
@@ -48,7 +49,7 @@ first time.
 
   
 
-# Connect files from OpenOlat into your portfolio
+## Connect files from OpenOlat into your portfolio
 
 It is possible to connect certain inputs of your OpenOlat with your portfolio,
 such as:
@@ -62,12 +63,12 @@ If you wish to connect e.g. a forum entry, open it and click on the blue
 puzzle icon. Type in a title and add a description and categories if
 available. Klick on "Save" and the entry will appear in your media center.
 
-![](assets/artefact.png)
+![artefact.png](assets/artefact.png)
 
 Please note that you must be the author when connecting forum entries, blog
 entries or wiki pages. It is not sufficient to just have editing rights.
 
-# Upload Media to Portfolio Binders
+## Upload Media to Portfolio Binders
 
 When creating a new entry within a portfolio binder, you may upload files to
 the binder directly. More information is provided under [My portfolio
