@@ -17,6 +17,7 @@ in a swift and easy way. Entries will be displayed sorted by time; the latest
 news will always be on top. Course participants can subscribe to blogs via RSS
 Feed. They can also comment on entries and assess them.
 
-A blog is generally used like a public diary. Its advantage is its quick,
-standardized publication.
+!!! info ""
+
+    A blog is generally used like a public diary. Its advantage is its quick, standardized publication.
 

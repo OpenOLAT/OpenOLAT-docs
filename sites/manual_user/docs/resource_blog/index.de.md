@@ -19,8 +19,9 @@ Verfügung stellen. Die Einträge werden zeitlich sortiert angezeigt, die
 neuesten Meldungen erscheinen immer oben. Kursteilnehmer können Blogs über den
 RSS-Feed abonnieren, Einträge bewerten und Kommentare dazu verfassen.
 
-Blogs werden in der Regel wie öffentliche Tagebücher verwendet. Der Vorteil
-liegt in der schnellen und standardisierten Veröffentlichung.
+!!! info ""
+
+    Blogs werden in der Regel wie öffentliche Tagebücher verwendet. Der Vorteil liegt in der schnellen und standardisierten Veröffentlichung.
 
   
 
