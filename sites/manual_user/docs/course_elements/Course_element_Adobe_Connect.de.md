@@ -2,7 +2,9 @@
 
 **Art der Software**|  Kommerziell, Lizenz und Serverhosting erforderlich  
 ---|---  
- **Tool Spezifisches**|
+
+
+## Tool Spezifisches
 
 Standardmäßig sind Kursbesitzer und Betreuer Adobe Connect Verwalter und
 Kursteilnehmer sind Connect Teilnehmende ohne weitere Rechte.
@@ -15,17 +17,21 @@ Aufzeichnungen sind in OpenOlat für die Kursbesitzer und Betreuer sichtbar und
 können den Kursteilnehmenden alle oder teilweise zur Verfügung gestellt
 werden.
 
-![](assets/connect_aufzeichnung.png)  
-  
- **Konfiguration im Kurseditor**|  Hier steht der Reiter Konfiguration für
-weitere Einstellungen zur Verfügung.  
- **Konfiguration im Kursrun (geschlossener Editor)**|
+![connect_aufzeichnung.png](assets/connect_aufzeichnung.png)  
+## Konfiguration im Kurseditor
+
+ **Konfiguration im Kurseditor**
+Hier steht der Reiter Konfiguration für weitere Einstellungen zur Verfügung. 
+
+------  
+
+ **Konfiguration im Kursrun (geschlossener Editor)**
 
 Nachdem der Kursbaustein hinzugefügt wurde, muss ein Meetingraum im Tab
 "Konfiguration" über den Button "Meeting hinzufügen" erstellt werden.
 Anschließend erscheint der folgende Dialog:
 
-![](assets/connect_meeting_hinzufuegen.jpg)
+![connect_meeting_hinzufugen.png](assets/connect_meeting_hinzufuegen.jpg)
 
 Unter dem eingetragenen Namen wird der Raum im Bereich der Meetings angezeigt.
 Die Beschreibung wird sichtbar nachdem man den Raum ausgewählt hat.
@@ -49,7 +55,7 @@ Im Tab "Meetings" wird die Übersicht der eingerichteten virtuellen Räume so
 angezeigt, wie sie auch für Teilnehmende sichtbar sind. Terminlich
 abgelaufene, termingebundene Meetings werden entsprechend gekennzeichnet.
 
-![](assets/connect_meetings.jpg)
+![connect_meetings.png](assets/connect_meetings.jpg)
 
 Über "Auswählen" gelangt man in das entsprechende virtuelle Klassenzimmer.
 Beim ersten Aufruf muss man sich für das Meeting "anmelden" und anschließend
@@ -57,12 +63,9 @@ hat man die Möglichkeit über ein weiteres Dialogfenster dem Meeting
 beizutreten. Mit "Meeting beitreten" gelangt man in das Virtuelle
 Klassenzimmer und sämtliche raumspezifischen Werkzeuge stehen zur Verfügung.  
   
- **Link zu weiteren Infos**|
+ !!! note "Link zu weiteren Infos"
 
-Adobe Connect Anbieter Webseite:
-<https://www.adobe.com/de/products/adobeconnect.html> .
+    Adobe Connect Anbieter Webseite: <https://www.adobe.com/de/products/adobeconnect.html>
 
-Da viele Hochschulen in Deutschland den [DFN Server
-](https://www.conf.dfn.de/webkonferenzdienst-ueber-adobe-connect/)für Adobe
-Connect nutzen, können auch die entsprechenden Informationen interessant sein.
+    Da viele Hochschulen in Deutschland den [DFN Server](https://www.conf.dfn.de/webkonferenzdienst-ueber-adobe-connect/)für Adobe Connect nutzen, können auch die entsprechenden Informationen interessant sein.
 
