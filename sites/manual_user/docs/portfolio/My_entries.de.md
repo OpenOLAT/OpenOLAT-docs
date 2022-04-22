@@ -12,9 +12,8 @@ portfolioinhalt) eines Eintrages werden je nach Typ in der Mediathek abgelegt
 und können auch dort bearbeitet werden. Allerdings werden keine kompletten
 Einträge in der Mediathek abgelegt.
 
-![](assets/pf_meineeintraege_liste_DE.png)
+![meine_eintraege.png](assets/pf_meineeintraege_liste_DE.png)
 
-"Meine Einträge" können in zwei unterschiedlichen Darstellungen angezeigt
-werden. Die Tabellenansicht bietet die Möglichkeit sich weitere Details der
-Einträge anzeigen zu lassen, z.B. ob ein Eintrag referenziert wurde oder ob
-dazu Kommentare vorliegen.
+!!! info "Info"
+    
+    "Meine Einträge" können in zwei unterschiedlichen Darstellungen angezeigt werden. Die Tabellenansicht bietet die Möglichkeit sich weitere Details der Einträge anzeigen zu lassen, z.B. ob ein Eintrag referenziert wurde oder ob dazu Kommentare vorliegen.

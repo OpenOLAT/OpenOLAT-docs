@@ -3,28 +3,27 @@
 Im persönlichen Menü erhält jeder User Zugang zu seinem Portfolio. Über den
 Link "Zu meinen Mappen" gelangt man zu allen eigenen Portfolio Mappen.
 
-![](assets/portfolio_meine_mappen.png)
+![meine_mappen.png](assets/portfolio_meine_mappen.png)
 
 Ferner können hier unter "Neue Mappen erstellen" neue Portfolio Mappen
 angelegt werden. Über das Zahnradsymbol können die vorhandenen Mappen
 verschoben oder als CP exportiert werden. In einer Mappe direkt bestehen auch
 noch weitere Exportoptionen wie PDF Export und Export in eine Seite.
 
-Achtung es gibt unter "Meine Mappen" zwei Stellen an denen neue Mappen
-erstellt werden können. Einmal rechts oben (siehe vorherigen Screenshot und
-integriert in die Seite. Diese zweite Option bietet weitere
-Erstellungsmöglichkeiten für die Portfolio Mappen.
+!!! warning "Achtung"
 
-![](assets/portfolio_mappe_erstellen2.jpg.png)
+    Es gibt unter "Meine Mappen" zwei Stellen an denen neue Mappen erstellt werden können. Einmal rechts oben (siehe vorherigen Screenshot und integriert in die Seite. Diese zweite Option bietet weitere Erstellungsmöglichkeiten für die Portfolio Mappen.
+
+![mappe_erstellen.png](assets/portfolio_mappe_erstellen2.jpg.png)
 
   
 
-# 2 Mappen Varianten
+# Die 2 Mappen Varianten
 
 Es werden grundsätzlich zwei Arten von Mappen unterschieden:
 
-  * 1Abgeholte Mappen
-  * 2Selbst erstellte Mappen
+1. Abgeholte Mappen
+2. Selbst erstellte Mappen
 
 ## Abgeholte Mappen
 
@@ -44,11 +43,9 @@ Formular) wählen und die bereitgestellten Portfolioaktivitäten bearbeiten
 indem er diverse Artefakte (Texte, Dateien usw.) hinterlegt bzw. ein Formular
 ausfüllt.
 
-Hinweis
+!!! tip "Tipp"
 
-By default können Sie in einer abgeholten Mappe keine eigenen strukturellen
-"Einträge" erstellen. Es können jedoch diverse Inhalte, auch aus der
-[Mediathek](Media_center.de.md), hinzufügen.
+    By default können Sie in einer abgeholten Mappe keine eigenen strukturellen "Einträge" erstellen. Es können jedoch diverse Inhalte, auch aus der [Mediathek](Media_center.de.md), hinzufügen.
 
 Über den Button "Inhalt hinzufügen" gelangt man in den Portfolio Editor. Hier
 können diverse Elemente hinzugefügt werden und auch mit dem Containerelement
@@ -67,12 +64,9 @@ Grundsätzlich können alle OpenOlat-User eigene Portfolio Mappen mit Bereichen,
 Einträgen und Inhalten erstellen. Wie das geht, erfahren Sie
 [hier](Three_steps_to_your_portfolio_binder.de.md).
 
-Info
+!!! info "Info"
 
-Die Möglichkeit, selbst Mappen zu erstellen, kann von Ihrem [Administrator
-](../../manual_admin/administration/eAssessment_ePortfolio.de.md)eingeschränkt werden.
+    Die Möglichkeit, selbst Mappen zu erstellen, kann von Ihrem [Administrator](../../manual_admin/administration/eAssessment_ePortfolio.de.md)eingeschränkt werden.
 
-Wie die Mappen mit Inhalten ausgestaltet werden können erfahren Sie im Kapitel
-"[Drei Schritte zu Ihrer Mape"](Three_steps_to_your_portfolio_binder.de.md) und "[Der
-Portfolio Editor](The_portfolio_editor.de.md)".
+    Wie die Mappen mit Inhalten ausgestaltet werden können erfahren Sie im Kapitel "[Drei Schritte zu Ihrer Mape]"(Three_steps_to_your_portfolio_binder.de.md) und "[Der Portfolio Editor](The_portfolio_editor.de.md)".
 

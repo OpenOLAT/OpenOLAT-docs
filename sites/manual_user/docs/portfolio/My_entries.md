@@ -10,9 +10,9 @@ portfolioinhalt) of an entry are added to the media center, depending on their
 type. There they can be edited as well. Entries are not added to the media
 center.
 
-![](assets/pf_allentries_assignment_EN.png)
+![my_entries.png](assets/pf_allentries_assignment_EN.png)
 
-"My entries" can be displayed in two different ways. The table view offers the
-possibility to display further details of the entries, e.g. whether an entry
-was referenced or whether comments are available.
+!!! info "Info"
+
+    "My entries" can be displayed in two different ways. The table view offers the possibility to display further details of the entries, e.g. whether an entry was referenced or whether comments are available.
 
