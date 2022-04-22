@@ -3,7 +3,8 @@
 **Type of software**|  OpenSource GNU Lesser General Public License (LGPL),
 server hosting required  
 ---|---  
- ** **Type of integration****|
+
+## Type of integration
 
 BigBlueButton enables virtual classrooms with the following functionalities:
 
@@ -15,7 +16,7 @@ BigBlueButton enables virtual classrooms with the following functionalities:
   * Group chat, private chat and shared notes
 
   
- **System requirements**|
+## System requirements
 
 BigBlueButton is a browser-based software solution and requires no additional
 plug-ins.  
@@ -24,47 +25,46 @@ For full functionality (for moderators and participants) **Google Chrome** or
 Chromium Engine** can also be used. It is officially recommended to use
 **Google Chrome** for screen sharing or playback of recorded meetings.  
   
- **Configuration in the course editor**|
+## Configuration in the course editor
 
 When integrating BigBlueButton into a course it can be decided whether a
 scheduled online meeting can be started by the moderator only or also by
 participants. If this option is activated participants will not be able to
 enter the meeting until the moderator has started it.
 
-![](assets/image2020-4-14_11-19-9.png)
+![BBB_access.png](assets/image2020-4-14_11-19-9.png)
 
   
   
   
- **Creating a room  **
+# Creating a room
 
- **(Configuration in the course for coaches)**
+## Configuration in the course for coaches
 
-|
 
 In the course, tutors can create new events in the BigBlueButton module in the
 event administration via "Add online event". Also, already created
 appointments can be copied or deleted.
 
-![](assets/image2020-4-14_11-20-49.png)
+![online_meeting.png](assets/image2020-4-14_11-20-49.png)
 
- **The following variants for creating online-meeting are distinguished:**
+!!! tip "The following variants for creating online-meeting are distinguished:"
 
-  * Add single meeting
-  * Add permanent reservation
-  * Add daily recurring meeting
-  * Add weekly recurring meeting
+    * Add single meeting
+    * Add permanent reservation
+    * Add daily recurring meeting
+    * Add weekly recurring meeting
 
 The variants only differ in the creation of the dates. Separate online-
 meetings/reservations are created, which can then be edited separately.
 Depending on the configuration of the server, different options can be
 available here.
 
-![](assets/bbb_creating.png)
+![BBB_creating.png](assets/bbb_creating.png)
 
- Add online-meeting: details
+# Add online-meeting: details
 
- **Configuration of an online-meeting**
+## Configuration of an online-meeting
 
   *  **Name** : Name of the event
   *  **Creator:  **The name of the creator is automatically displayed.
@@ -82,7 +82,7 @@ available here.
   *  **Password for external users:** Enter a password here that guests, i.e. persons without an OpenOlat account, must enter to access the room.
   *  **Show room bookings** : calendar view for checking occupied online-meetings
 
- **Only for scheduled rooms:**
+### Only for scheduled rooms
 
   *  **Start date:** Geben Sie den Starttermin ein. **  
 **
@@ -91,7 +91,7 @@ available here.
   *  **End date:  **End of the meeting - the maximum duration of a meeting depends on the selected room template
   *  **Follow-up (min.)** : 0 to 15 minutes configurable follow-up time. The meeting is automatically extended by the follow-up time for all persons after reaching the end time, a display with the remaining conference time appears.
 
- **Only for recurring online-meetings**
+### Only for recurring online-meetings
 
   *  **Start recurring date** : 1st online-meeting (with weekly repetition this corresponds to the weekday of the series)
   *  **End reccuring date:** End of recurring online-meetings
@@ -101,7 +101,7 @@ supplemented with free data in the second process step "Date" before creation.
 
   
 
- **BigBlueButton for guests (OpenOlat guest access, external participants):**
+## BigBlueButton for guests (OpenOlat guest access, external participants)
 
 Depending on the configuration of the BigBlueButton template, the conference
 room can be made accessible to non-registered persons without access to
@@ -113,17 +113,18 @@ Guests can enter a name of their choice during dial-in.
 The link will then also appear for course owners and coaches before entering
 the room. Participants will not see the link.
 
-![](assets/bbb_externe2.png)
+![BBB_guests.png](assets/bbb_externe2.png)
 
 In addition, a password can also be generated for guests in the configuration
 of the course element, which they must enter before dialing into the room.
 Whether this option is available depends on the BBB configuration by the BBB
 administration.
 
-Once a BigBlueButton meeting has been started, i.e. the online room has been
-opened, the settings on the meeting appointment can no longer be edited!
+!!! warning "Attention" 
 
-Calendar integration
+    Once a BigBlueButton meeting has been started, i.e. the online room has been opened, the settings on the meeting appointment can no longer be edited!
+
+## Calendar integration
 
 If the course calendar is activated, the recorded online dates are also
 available as appointments and can be subscribed to by participants in their
@@ -135,9 +136,9 @@ Course owners and course coaches can upload their presentation(s) in advance
 so that they are available at the start of the meeting. The top document of
 the list is displayed directly.
 
-![](assets/BBB_praesentation.png)  
+![BBB_presentation.png](assets/BBB_praesentation.png)  
   
- **Calendar view**|
+## Calendar view
 
 When configuring a room, an overview of all booked BigBlueButton rooms in the
 instance can be viewed both during creation and later when editing using the
@@ -148,9 +149,9 @@ In addition, the online appointments created in BigBlueButton are
 automatically entered into the course-specific calendar. From here, all course
 members can quickly reach the correspondingly linked BigBlueButton room.
 
-![](assets/image2020-4-7_14-14-5.png)  
+![calender.png](assets/image2020-4-7_14-14-5.png)  
   
- **Recordings**|
+## Recordings
 
 The recordings of a meeting can be found in the tab "Online Meetings" →
 "Finished Online Meetings". Select the appropriate meeting here. Automatically
@@ -162,36 +163,36 @@ recording should be deployed.
 
   
 
-Attention: The settings made under "publish" as well as under "delete" are
-valid for the recording as well as for the download! If you delete an entry,
-the whole recording will be deleted.
+!!! warning "Attention"
+
+    The settings made under "publish" as well as under "delete" are valid for the recording as well as for the download! If you delete an entry, the whole recording will be deleted.
 
   
 
   
 
-![](assets/bbb_recordings.png)  
+![BBB_recordings.png](assets/bbb_recordings.png)  
   
- **View for participants**|
+## View for participants
 
 When a course participant calls up a BigBlueButton course element, he/she will
 see an overview of the current, expired and permanent rooms, if available.  A
 click on "Select" will take you to the login area of the respective room.
 
-![](assets/BBB_Uebersicht.png)
+![BBB_overview.png](assets/BBB_Uebersicht.png)
 
 Current sessions can be started by "Join meeting" and the specific
 BigBlueButton room can be accessed.
 
-![](assets/BBB_Meeting_beitreten.png)
+![BBB_join_meeting.png](assets/BBB_Meeting_beitreten.png)
 
 Once a meeting is over, the rooms can no longer be entered, but you can access
 any recordings of the meeting. Coaches and course owners can also delete
 recordings here.  
   
- **BigBlueButton Room**|
+## BigBlueButton Room
 
- **![](assets/BBB-Raum.png)**
+![BBB_room.png](assets/BBB-Raum.png)
 
 The welcome text displayed can be customized when setting up the room. If the
 users have stored a profile picture, this is also displayed in the list of
@@ -199,9 +200,9 @@ participants.
 
 Depending on the room settings, different options are available in the room.  
   
- **Link to further information**|
+!!! note "Link to further information"
 
-BigBlueButton supplier website: <https://bigbluebutton.org/>  
+    BigBlueButton supplier website: <https://bigbluebutton.org/>  
   
   
 
