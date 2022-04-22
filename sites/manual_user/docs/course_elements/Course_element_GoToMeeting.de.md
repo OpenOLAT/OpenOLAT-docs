@@ -4,15 +4,22 @@
 
  **Art der Software**|  Kommerziell, Lizenz und Serverhosting erforderlich  
 ---|---  
- **Tool Spezifisches**|  
+
+## Tool Spezifisches
   
- **Link zu weiteren Infos**|  Tool Webseite: <https://www.gotomeeting.com>  
-**Konfiguration im Kurseditor**|  kein spezifischer Tab  
- **Konfiguration im Kursrun (geschlossener Editor)**|
+!!! note "Link zu weiteren Infos"
+
+    Tool Webseite: <https://www.gotomeeting.com>  
+
+## Konfiguration im Kurseditor 
+
+kein spezifischer Tab 
+
+## Konfiguration im Kursrun (geschlossener Editor)
 
 Im Bereich "Konfiguration" kann ein neues Meeting erstellt werden.
 
-![](assets/goto_meeting_erstellen.png)
+![gotomeeting_erstellen](assets/goto_meeting_erstellen.png)
 
-Im Bereich "Schulungen" erhält man Zugang zum Meeting Raum.
+!!! info "Im Bereich *Schulungen* erhält man Zugang zum Meeting Raum."
 
