@@ -5,7 +5,7 @@ Wissensüberprüfung eingesetzt werden können. Für einige Kursbausteine
 existieren vertiefende, separate Seiten oder Kapitel hier im Handbuch.
 
 
-![Wissensüberpfüfung Icon](assets/Wissensueberpruefung1.png)
+![Wissensüberpfüfung Kursbausteine.png](assets/Wissensueberpruefung1.png)
 
 OpenOlat stellt diverse Kursbausteine für die Wissensüberprüfung zur
 Verfügung. Die zentralen Kursbausteine hierfür sind die beiden Kursbausteine
@@ -14,7 +14,7 @@ Kursbausteine für
 [Einsendeaufgaben](../task/index.de.md). Aber auch die
 anderen Bausteine wie
 [Portfolioaufgabe](../portfolio/Creating_Portfolio_Tasks.de.md),
-[Bewertungen ](Course_Element_Assessment.de.md) mit und ohne
+[Bewertungen](Course_Element_Assessment.de.md) mit und ohne
 Bewertungsraster (Rubrik) oder die Checklisten bieten für bestimmte Szenarien
 viel Potenzial.
 
@@ -33,12 +33,12 @@ der Tab "Erinnerung". Hier können in Abhängigkeit von der Bearbeitung des
 jeweiligen Kursbausteins E-Mails verschickt werden. Zum Beispiel kann eine
 Mail verschickt werden, wenn zu einem bestimmten Datum eine Aufgabe noch nicht
 bearbeitet wurde. Die Möglichkeiten sind ähnlich wie im Menü "Erinnerung" in
-der Kurs-Administration zu der Sie [hier](../course_operation/Course_Reminders.de.md)weitere Informationen finden.
+der Kurs-Administration zu der Sie [hier](../course_operation/Course_Reminders.de.md) weitere Informationen finden.
 
-In der Kategorie Wissensüberprüfung findet man auch den OpenOlat [Fragebogen] (../forms/Form_editor_Questionnaire_editor.de.md) bzw. den Kursbaustein Umfrage.
+In der Kategorie Wissensüberprüfung findet man auch den OpenOlat [Fragebogen](../forms/Form_editor_Questionnaire_editor.de.md) bzw. den Kursbaustein Umfrage.
 
 ## Kursbaustein „Bewertung“  {: #course_element_assessment}
-![Bewertung Icon](assets/manual_score_thumbs-o-up.png)
+![Bewertung Icon](assets/manual_score.png)
 
 Der Kursbaustein „Bewertung“ eignet sich, um Leistungen zu bewerten, welche
 nicht explizit elektronisch abgegeben werden, z.B. Präsenz-Referate oder
