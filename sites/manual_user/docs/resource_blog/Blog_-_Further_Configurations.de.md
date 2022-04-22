@@ -1,23 +1,23 @@
 # Blog - Weitere Konfigurationen
 
-# Konfiguration im Kurseditor
+## Konfiguration im Kurseditor
 
-## Tab "Blog-Lerninhalt"
+### Tab "Blog-Lerninhalt"
 
 Im Tab "Blog-Lerninhalt" können Sie einen neuen Blog erstellen, einen
 vorhandenen OpenOlat Blog auswählen, einen mit dem Kursbaustein verbundenen
 Blog auswechseln, einen Blog importieren oder einen eingebundenen Blog
 editieren.
 
-![](assets/Blog_erstellen.png)
+![blog_erstellen.png](assets/Blog_erstellen.png)
 
 Darüber hinaus können Sie in dem Tab die Benutzerberechtigungen einstellen.
 
-![](assets/Blog Konfig DE.png)
+![blog_konfigurieren.png](assets/Blog%20Konfig%20DE.png)
 
-## Benutzerberechtigungen
+### Benutzerberechtigungen
 
-### Moderator
+#### **Moderator**
 
 Hier können Sie konfigurieren, ob auch alle Betreuer den Blog moderieren
 dürfen.
@@ -35,13 +35,15 @@ Darüber hinaus sind je nach Kurstyp noch weitere Einstellungen in den Tabs
 Sichtbarkeit + Zugang (herkömmliche Kurse) bzw. Lernpfad (Lernpfad Kurse)
 möglich.
 
-### Beiträge erstellen
+#### **Beiträge erstellen**
 
 Hier wird definiert welche Personengruppen des Kurses Blogbeiträge erstellen
 dürfen. Neben den Kursbesitzern können das alle Betreuer und alle
 Teilnehmenden sein.
 
-# Blog für die Bearbeitung vorbereiten
+----
+
+## Blog für die Bearbeitung vorbereiten
 
 Beim ersten Aufruf Ihres neuen Blogs werden Sie als Kursbesitzer gefragt, ob
 Sie einen bestehenden externen Blog einbinden oder einen OpenOlat Blog nutzen
@@ -49,7 +51,7 @@ und die Einträge in OpenOlat selbst erstellen wollen. Diese Konfiguration ist
 notwendig, damit der gewählte Blog auch von allen Beteiligten verwendet werden
 kann.
 
-![](assets/Blog_kursrun.png)
+![blog_kursrun.png](assets/Blog_kursrun.png)
 
  **Einträge selbst erstellen: OLAT interner Blog**
 
@@ -63,15 +65,15 @@ Sie können den Blog-Kursbaustein auch dazu verwenden, einen externen  Blog
 einzubinden. Wählen Sie beim erstmaligen Editieren des Blogs „Einen
 bestehenden externen Blog einbinden“. Im Feld „URL“ geben Sie den Feed-Link
 des externen Blogs ein. In der Regel ist dies eine URL mit der Erweiterung
-.xml. Im Kursbaustein werden die Einträge des externen Blogs angezeigt. Wenn
-Sie sich für eine Art des Blogs (Einträge selber erstellen oder externen Blog
-einbinden) entschieden haben, können Sie diese später nicht mehr ändern.
+.xml. Im Kursbaustein werden die Einträge des externen Blogs angezeigt. 
 
-Die Wahl eines existierenden Blogs bietet sich an, wenn Sie bereits unabhängig
-von OpenOlat einen Blog führen oder einen bekannten Blog als Inhalt oder
-Diskussionsgrundlage in Ihren OLAT Kurs einbinden wollen. In diesem Fall
-können Sie keine eigenen Blogbeiträge erstellen aber die externen Beiträge
-können mit Sternchen bewertet und kommentiert werden.
+!!! warning "Achtung"
+
+    Wenn Sie sich für eine Art des Blogs (Einträge selber erstellen oder externen Blog einbinden) entschieden haben, können Sie diese später nicht mehr ändern.
+
+!!! info ""
+
+    Die Wahl eines existierenden Blogs bietet sich an, wenn Sie bereits unabhängig von OpenOlat einen Blog führen oder einen bekannten Blog als Inhalt oder Diskussionsgrundlage in Ihren OLAT Kurs einbinden wollen. In diesem Fall können Sie keine eigenen Blogbeiträge erstellen aber die externen Beiträge können mit Sternchen bewertet und kommentiert werden.
 
 ## Abonnieren von Blogs
 
