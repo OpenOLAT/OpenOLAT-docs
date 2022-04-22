@@ -1,17 +1,17 @@
 # Kompetenzen verschlagworten
 
 Mithilfe von Taxonomien können
-[Kompetenzstrukturen](Modules%EF%B9%95+Taxonomie.html#Modules%3ATaxonomie-
-_eP_taxonomy_kompetenz) aufgebaut werden, die zur Verschlagwortung von
+Kompetenzstrukturen aufgebaut werden, die zur Verschlagwortung von
 ePortfolio-Einträgen genutzt werden können. Lernende können selbstständig
 verschiedene Kompetenzen aus diesen vorgegebenen Taxonomiestrukturen zu ihren
 Portfolio-Seiten zuordnen und dadurch ihre erreichten Kompetenzen während der
 Ausbildung aufzeigen.
 
-Damit die Taxonomie(n) im ePortfolio verfügbar sind, müssen diese vom OpenOlat
-Administrator aktiviert werden.
+!!! info "Info"
 
-![](assets/Tax eP aktivieren DE.png)  
+    Damit die Taxonomie(n) im ePortfolio verfügbar sind, müssen diese vom OpenOlat Administrator aktiviert werden.
+
+![Tax_aktivieren.png](assets/Tax%20eP%20aktivieren%20DE.png)  
 
   
 
@@ -19,7 +19,7 @@ In einem Portfolio-Eintrag stehen den Lernenden die aktivierten Taxonomien als
 Kompetenzen zur Verfügung und können über eine Vorschlagsliste ausgewählt
 werden.
 
-![](assets/eP Kompetenz DE.png)
+![kompetenzen.png](assets/eP%20Kompetenz%20DE.png)
 
   
 
@@ -28,7 +28,7 @@ werden.
 Eine Übersicht über alle vergebenen Kompetenzen erhalten Lernende über
 "Persönliche Werkzeuge" → "Kompetenzen".
 
-![](assets/Kompetenz Übersicht DE.png)
+![kompetenten_uebersicht.png](assets/Kompetenz%20%C3%9Cbersicht%20DE.png)
 
   
 
