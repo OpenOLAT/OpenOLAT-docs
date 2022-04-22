@@ -11,7 +11,7 @@ specific settings under "Access control".
 
   
 
-![](assets/pf_sharedbyme_EN.png)
+![shared_by_me.png](assets/pf_sharedbyme_EN.png)
 
 Click
 [here](Portfolio_task_and_assignment_Collecting_and_editing.md) to

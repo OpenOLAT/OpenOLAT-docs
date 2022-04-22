@@ -13,7 +13,7 @@ So lassen sich Änderungen bezüglich der Freigabe bei Bedarf durch Klick auf
 die jeweilige Mappe und Änderung der Einstellungen im Bereich „Freigabe“ rasch
 vornehmen.
 
-![](assets/pf_vonmirfreigegeben_liste_DE.png)
+![von_mir_freigegeben.png](assets/pf_vonmirfreigegeben_liste_DE.png)
 
   
 
