@@ -19,11 +19,9 @@ steht nur ein Teil der Tabs zur Verfügung.
 
 ## Info
 
- **Titel der Lernressource:** **** Ein Pflichtfeld. Über diesen Titel (maximal
-100 Zeichen) kann die Lernressource auch in der Suchmaske gefunden werden.
-Geben Sie hier einen möglichst kurzen und präzisen Titel für die Lernressource
-ein. **  
-**
+ **Titel der Lernressource:** Ein Pflichtfeld. 
+ Über diesen Titel (maximal 100 Zeichen) kann die Lernressource auch in der Suchmaske gefunden werden.Geben Sie hier einen möglichst kurzen und präzisen Titel für die Lernressource ein.   
+
 
 **Kennzeichen:** Eine externe Kennung für die Ressource, z.B. die Bezeichnung
 aus dem Vorlesungsverzeichnis oder eines gedruckten Kurskataloges.

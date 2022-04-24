@@ -19,7 +19,7 @@ Unter „Meine Einträge“ sehen OpenOlat Autoren alle ihre Lernressourcen bei
 denen sie Besitzer sind. Unter „Favoriten“ werden alle Lernressourcen eines
 Autors angezeigt, auf den er selbst einen Bookmark gesetzt hat.
 
-Im Tab „Suchmaske“ können Sie nach Lernressourcen suchen.  Der Tab „Gelöscht“
+Im Tab „Suchmaske“ können Sie nach Lernressourcen suchen. Der Tab „Gelöscht“
 stellt Ihren „Papierkorb“ mit all Ihren Lernressourcen, die Sie gelöscht haben
 dar.
 

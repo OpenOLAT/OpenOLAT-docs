@@ -8,7 +8,7 @@ möglich sind, hängt einerseits von Ihrer Zugriffsberechtigung und andererseits
 vom Lernressourcentyp ab. Auf die Toolbar haben Sie sowohl von der
 Lernressource sowie von der Infoseite aus Zugriff.
 
-Beispiele für eine Kurs und eine Test-Toolbar:
+Beispiele für eine Kurs- und eine Test-Toolbar:
 
 ![](assets/toolbar_13.png)
 ![](assets/toolbar_13_test.png)
