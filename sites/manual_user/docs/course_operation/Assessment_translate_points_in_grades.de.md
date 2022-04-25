@@ -1,36 +1,40 @@
-# Bewertungskala / Punkte in Noten umrechnen
+# Einstufung/Noten
 
 ## Allgemein
 
 Punkte können in eine Note übersetzt werden.
-Der Begriff „Note“ wird hier als Platzhalter für alle möglichen Ausgabeformate verwendet. (Beispiele könnten sein: 1-6, A-F, „sehr gut“ - „ungenügend“, „Einsteiger“/„Spezialist“/„Experte“ etc.) Um dies kalkulieren und bestimmen zu können, benötigt man ein Notensystem, eine Notenskala und einen bewertbaren Kursbaustein
+Der Begriff „Note“ wird hier als Platzhalter für alle möglichen Ausgabeformate verwendet. (Beispiele könnten sein: 1-6, A-F, „sehr gut“ - „ungenügend“, „Einsteiger“/„Spezialist“/„Experte“ etc.) Um dies kalkulieren und bestimmen zu können, benötigt man ein Bewertungssystem, eine Bewertungsskala und einen bewertbaren Kursbaustein
 
 ??? Veränderungen gegenüber der Bewertung ohne Noten
 
     Sind die Noten eingeschaltet gibt es Veränderungen in der Bewertung:
     
     * Die Punkteschwelle der Lernressource wird überschrieben.
-    * Bestanden wird vom Notensystem und Notenskala gesetzt und nicht von der Testressource oder anderen Einstellungen des Kursbausteines.
+    * Bestanden wird vom Bewertungssystem und Bewertungsskala gesetzt und nicht von der Testressource oder anderen Einstellungen des Kursbausteines.
 
-### Notensystem
+### Bewertungssystem
 
-![beurteilungssystem](assets/grading-system.de.jpg){class="shadow"}
+![beurteilungssystem](assets/gradingsystem_de.jpg){class="shadow"}
 
-Das Notensystem definiert die Leistungsklasse, den Notentyp und die Punkteschwelle, ab der die Note als bestanden gilt. Leistungsklassen sind die Einteilungen der Berurteilungsskala.
+Das Bewertungssystem definiert die Leistungsklasse, den Bewertungstyp und die Punkteschwelle, ab der die Note als bestanden gilt. Leistungsklassen sind die Einteilungen der Berurteilungsskala.
 
-#### Notentyp
+#### Bewertungstyp
 
-* **Numerischer Typ**: Numerische Notentypen können in ihrer Auflösung (Ganze-, Halbe-, Viertel-, Zentelnoten) und ihrem Rundeverhalten angepasst werden. Dabei werden die Leistungsklassen anhand der eingegeben maximalen Punktzahl und der Notenschwelle berechnet und ergeben den Notenschlüssel.
+* **Numerischer Typ**: Numerische Bewertungstypen können in ihrer Auflösung (Ganze-, Halbe-, Viertel-, Zentelnoten) und ihrem Rundeverhalten angepasst werden. Dabei werden die Leistungsklassen anhand der eingegeben maximalen Punktzahl und der Bewertungsschwelle berechnet und ergeben den Bewertungsschlüssel.
 
-* **Textueller Typ**: Bei textuellen Notentypen definiert man die Anzahl der Leistungsklassen und deren Name/Label. Die maximale Punktzahl und die jeweilige Notenuntergrenze bestimmen dann die Rahmenbedingungen des Notenschlüssels
+* **Textueller Typ**: Bei textuellen Bewertungstypen definiert man die Anzahl der Leistungsklassen und deren Name/Label. Die maximale Punktzahl und die jeweilige Notenuntergrenze bestimmen dann die Rahmenbedingungen des Bewertungsschlüssels
 
-### Notenskala
+### Bewertungsskala
 
-In der Notenskala legt man die Punkte der Leistungsklassen für den jeweiligen Kursbaustein fest.
+In der Bewertungsskala legt man die Punkte der Leistungsklassen für den jeweiligen Kursbaustein fest.
 
-### Berechnung der Noten
+### Label
 
-Die Berechnung des Notenschlüsseln folg einigen Besonderheiten.
+Für jedes Bewertungssystem kann das Label benamt werden. Standardmässig ist es "Bewertung". Dies ist vorallem bei unterschiedlichen System günstig. Beispiele hierfür sind: Einsteiger, Fortgeschritten, Profi = Label: Stufe; 1-6 = Label: Note; Smileys = Label: Bewertung
+
+### Berechnung der Stufen / Noten
+
+Die Berechnung des Bewertungsschlüsseln folg einigen Besonderheiten.
 
 * Die letzte und erste Leistungsklasse bei der Berechnung hat eine halb so grosse Spanne, als die restlichen.
 
@@ -40,19 +44,19 @@ Die Berechnung des Notenschlüsseln folg einigen Besonderheiten.
 
 *Quelle:* [https://www.lehrerfreund.de](https://www.lehrerfreund.de)
 
-## Konfigurieren eines Kursbausteins für Noten
+## Konfigurieren eines Kursbausteins für Einstufungen und Noten
 
 ??? Vorraussetzungen
 
-    Modul Noten auf ihren System eingeschaltet.
-    Eines oder mehrere Notensystem sind angelegt.
+    Modul Einstufung/Noten auf ihren System eingeschaltet.
+    Eines oder mehrere Bewertungssystem sind angelegt.
 
-1. **Noten einschalten** Unter  `Editor>Bewertung` (bei Test "Testkonfiguration") Noten für diesen Kursbaustein einschalten.
-2. **Notenzuweisung wählen** (Manuelle Zuweiseung / Automatisch)
+1. **Modul einschalten** Unter  `Editor>Bewertung` (bei Test "Testkonfiguration") Einstufung/Noten für diesen Kursbaustein einschalten.
+2. **Zuweisung wählen** (Manuelle Zuweiseung / Automatisch)
 
-3. **Notenskala anlegen** Unter Notenskala bearbeiten, das Einstellungsfenster öffnen, ein Notensystem auswählen und die minimale, maximal Punktzahl sowie die Punkteschwelle festlegen.
+3. **Bewertungsskala anlegen** Unter Bewertungsskala bearbeiten, das Einstellungsfenster öffnen, ein Bewertungssystem auswählen und die minimale, maximal Punktzahl sowie die Punkteschwelle festlegen.
 
-    ![Notenskala](assets/gradingscale-de.jpg){class="shadow"}
+    ![Bewertungsskala](assets/ratingscale_de.jpg){class="shadow"}
 
 4. **Speichern**
 
@@ -62,6 +66,6 @@ Die Berechnung des Notenschlüsseln folg einigen Besonderheiten.
 
 * **Tab: Teilnehmer** Im Bewertungswerkzeug sieht man die Noten neu in einer seperaten Spalte hinter der Punktzahl. Man kann, wenn auf manuell gestellt, hier auch Noten manuell übernehmen.
 
-### Notenskala anpassen
+### Bewertungsskala anpassen
 
-Um die Notenskala nachträglich anzupassen, oder um neue Noten zu vergeben, klicken sie oben auf den Button. Es öffnet sich ein Wizard, wo sie die Notenskala korrigieren können.
+Um die Bewertungsskala nachträglich anzupassen, oder um neue Noten zu vergeben, klicken sie oben auf den Button. Es öffnet sich ein Wizard, wo sie die Bewertungsskala korrigieren können.
