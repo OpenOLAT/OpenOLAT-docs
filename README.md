@@ -65,6 +65,7 @@ To continue you must first install [brew](https://brew.sh).
 	pip3 install mkdocs-material
 	pip3 install mkdocs-monorepo-plugin   
 	pip3 install mkdocs-static-i18n
+	pip3 install mkdocs-git-revision-date-plugin
 
 You need to install mkdocs-material >= version 8.2.
 
@@ -80,6 +81,7 @@ From time to time you need to update everything:
 	pip3 install mkdocs-material -U	
 	pip3 install mkdocs-monorepo-plugin -U
 	pip3 install mkdocs-static-i18n -U
+	pip3 install mkdocs-git-revision-date-plugin -U
 
 ### Markdown editor and Git client 
 
