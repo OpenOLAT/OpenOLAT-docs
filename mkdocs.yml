@@ -78,9 +78,14 @@ plugins:
         - de
   - i18n:
       default_language: en
+      default_language_only: false
       languages:
-        en: English
-        de: Deutsch
+        en:
+          name: English
+          build: true
+        de:
+          name: Deutsch
+          build: true
       nav_translations:
         de:
           About this manual: Über dieses Handbuch
