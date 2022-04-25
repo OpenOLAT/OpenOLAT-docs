@@ -203,3 +203,13 @@ See the [manual](https://squidfunk.github.io/mkdocs-material/reference/data-tabl
 
 
 As an example have a look at the table in the OpenOlat [group section](../../../manual_user/groups/Using_Group_Tools/)
+
+## Version infos
+
+:octicons-tag-24: Release 16.2 · :octicons-beaker-24: Beta Feature
+
+
+Use the tags icon and the release version at the top of a paragraph to indicate that a feature is available since a certain release. For beta features add the beta icon and separate it with the · symbol. 
+
+	:octicons-tag-24: Release 16.2 · :octicons-tag-24: Beta Feature
+	
