@@ -1,5 +1,7 @@
 # Einstufung/Noten
 
+:octicons-tag-24: Release 16.2
+
 ## Allgemein
 
 Punkte können in eine Note übersetzt werden.

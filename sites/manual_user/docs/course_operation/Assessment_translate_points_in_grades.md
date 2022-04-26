@@ -1,5 +1,7 @@
 # Translate points into rating or grades
 
+:octicons-tag-24: Release 16.2
+
 ## General
 
 Points can be translated into a more diversive level or grade.
