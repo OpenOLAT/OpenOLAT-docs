@@ -2,8 +2,7 @@
 
 <a href="https://www.openolat.org"><img src="src/main/webapp/static/images/openolat/openolat_logo_claim_small_rgb.png" align="left"></a>
 
-
-This is the documentation project for the [https://github.com/openolat/](Learning Management System OpenOlat). The documentation is published at [https://docs.openolat.org](https://docs.openolat.org)
+This is the documentation project for the [https://github.com/openolat/OpenOLAT](Learning Management System OpenOlat). The documentation is published at [https://docs.openolat.org](https://docs.openolat.org)
 
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC_BY--NC--SA_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/openolat/OpenOlat-docs) 
