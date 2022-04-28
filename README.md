@@ -1,7 +1,19 @@
 # OpenOlat documentation
-The OpenOlat documentation is based on MkDocs using the material theme and some plugins. The manual is written using the markdown syntax.
+
+<a href="https://www.openolat.org"><img src="src/main/webapp/static/images/openolat/openolat_logo_claim_small_rgb.png" align="left"></a>
+
+
+This is the documentation project for the [https://github.com/openolat/](Learning Management System OpenOlat). The documentation is published at [https://docs.openolat.org](https://docs.openolat.org)
+
+[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC_BY--NC--SA_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/openolat/OpenOlat-docs) 
+[![Twitter Follow](https://img.shields.io/twitter/follow/openolat?style=social)](https://twitter.com/openolat)
+
 
 ### Resources:  
+
+The OpenOlat documentation is based on MkDocs using the material theme and some plugins. The manual is written using the markdown syntax.
+
 - [https://daringfireball.net/projects/markdown/](https://daringfireball.net/projects/markdown/)
 - [https://www.mkdocs.org](https://www.mkdocs.org)
 - [https://squidfunk.github.io/mkdocs-material/](https://squidfunk.github.io/mkdocs-material/)
@@ -69,10 +81,12 @@ To continue you must first install [brew](https://brew.sh).
 
 You need to install mkdocs-material >= version 8.2.
 
+
 #### Update 
 
 From time to time you need to update everything: 
 
+	# Basic Python 3 installation. Example how this is done on the mac
 	# Upgrade python really only if you need
 	brew upgrade python
 	
@@ -81,7 +95,8 @@ From time to time you need to update everything:
 	pip3 install mkdocs-material -U	
 	pip3 install mkdocs-monorepo-plugin -U
 	pip3 install mkdocs-static-i18n -U
-	pip3 install mkdocs-git-revision-date-plugin -U
+	pip3 install mkdocs-git-revision-date-plugin -U	
+	
 
 ### Markdown editor and Git client 
 
@@ -125,16 +140,3 @@ For publishing the documentation, compile it and publish it on your server.
 	cd OpenOLAT-docs
 	python3 -m mkdocs build
 	scp -r site/??* oodocs@docs.openolat.org:/home/oodocs/html/.
-
-
-### Addendum: update everything to the newest version
-	# Basic Python 3 installation. Example how this is done on the mac
-	brew upgrade python
-	
-	# Update MkDocs
-	pip3 install mkdocs --upgrade
-
-	#Install MkDocs theme and plugins
-	pip3 install mkdocs-material --upgrade
-	pip3 install mkdocs-monorepo-plugin --upgrade
-	pip3 install mkdocs-static-i18n --upgrade
