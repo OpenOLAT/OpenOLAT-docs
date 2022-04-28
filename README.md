@@ -1,6 +1,6 @@
 # OpenOlat documentation
 
-<a href="https://www.openolat.org"><img src="src/main/webapp/static/images/openolat/openolat_logo_claim_small_rgb.png" align="left"></a>
+<a href="https://www.openolat.org"><img src="docs/assets/OpenOlat_Logo_claim_RGB.png" align="left" width=400></a>
 
 This is the documentation project for the [Learning Management System OpenOlat](https://github.com/openolat/OpenOLAT). The documentation is published at [https://docs.openolat.org](https://docs.openolat.org)
 
