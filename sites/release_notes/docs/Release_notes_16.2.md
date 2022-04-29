@@ -26,19 +26,17 @@ Since release 16.1, over 65 new features and improvements have been added to Ope
 
 * * *
 
-## Transfer points to "grades/rating scales".
+## Transfer points to "Levels/Grading scales"
 
 OpenOlat's scoring model previously supported points, pass/fail output, and qualitative scores. In order to be able to compare and further process the performances, the transfer of the course-internal points into a generally known and recognized scale "grade" or other evaluation scales is now possible.
 
 For this purpose, different **grading systems** (numeric or textual) can be created system-wide. These are subsequently available for all assessable course elements as **grading scales**. If required, the selected grading scale can be adapted for use for the respective course element.
 
-When activated on the course element - via **manual or automatic assignment** - the participant's points are additionally displayed as a "grade".
-
+When activated on the course element - via **manual or automatic assignment** - the participant's points are additionally displayed as, for example, "grade", "level" or similar.
 
 [More directly in the manual](../manual_user/course_operation/Assessment_translate_points_in_grades.md)
 
-
-![grading scale](assets/162/Notenskala.jpeg){ class="shadow lightbox" }
+![grading scale](assets/162/Grading_scale.jpeg){ class="shadow lightbox" }
 
 #### Examples of grading scales
 
@@ -58,7 +56,7 @@ In the grading tool, the key figures and statistics for grades are displayed in 
 
 ![Assessment tool grades](assets/162/Noten_Bewertungswerkzeug.jpeg){ class="shadow lightbox" }
 
-In the coaching tool, supervisors can find an overview of outstanding grade assignments in a new section under "Assignments".
+In the coaching tool, coaches can find an overview of outstanding grade assignments in a new section under "Assignments".
 
 Participants can see the assigned grades in their performance overview and everywhere where the points are also issued.
 

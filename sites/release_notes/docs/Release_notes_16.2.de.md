@@ -18,6 +18,10 @@ Seit Release 16.1 wurden über 65 neue Funktionen und Verbesserungen zu OpenOlat
 
 * * *
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nZ_zskD6R60" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+* * *
+
 ## Ankündigung: Support-Ende IE11
 
 !!! warning "Die Unterstützung für IE11 endet!"
@@ -28,19 +32,19 @@ Seit Release 16.1 wurden über 65 neue Funktionen und Verbesserungen zu OpenOlat
 
 * * *
 
-## Punkte in "Noten/Bewertungs-Skalen" übertragen
+## Punkte in "Noten/Bewertungsskalen" übertragen
 
 Das Bewertungsmodell von OpenOlat unterstützt bisher Punkte, die Ausgabe von Bestanden / Nicht bestanden und qualitative Bewertungen. Um die Leistungen vergleichen und weiterverarbeiten zu können, ist neu die Überführung der kursinternen Punkte in eine allgemein bekannte und anerkannte Skala "Note" oder andere Bewertungsskalen möglich.
 
-Dafür können systemweit verschiedene **Notensysteme** (numerisch oder textuell) angelegt werden. Diese sind anschliessend für alle bewertbaren Kursbausteine als **Notenskala** verfügbar. Bei Bedarf kann die gewählte Notenskala zur Verwendung für den jeweiligen Kursbaustein angepasst werden.
+Dafür können systemweit verschiedene **Bewertungssysteme** (numerisch oder textuell) angelegt werden. Diese sind anschliessend für alle bewertbaren Kursbausteine als **Bewertungsskala** verfügbar. Bei Bedarf kann die gewählte Bewertungsskala zur Verwendung für den jeweiligen Kursbaustein angepasst werden.
 
-Bei Aktivierung auf dem Kursbaustein werden - über eine **manuelle oder automatische Zuweisung** - die Punkte der Teilnehmenden zusätzlich als "Note" ausgewiesen.
+Bei Aktivierung auf dem Kursbaustein werden - über eine **manuelle oder automatische Zuweisung** - die Punkte der Teilnehmenden zusätzlich auch als beispielsweise "Note", "Level", "Niveau" oder ähnliches ausgewiesen.
 
 [Mehr dazu direkt im Handbuch](../manual_user/course_operation/Assessment_translate_points_in_grades.de.md)
 
-![Notenskala](assets/162/Notenskala_DE.jpeg){ class="shadow lightbox" }
+![Bewertungsskala](assets/162/Grading_scale_DE.jpeg){ class="shadow lightbox" }
 
-#### Beispiele für Notenskalen
+#### Beispiele für Bewertungsskalen
 
 * 1-6
 * A-F
@@ -48,19 +52,19 @@ Bei Aktivierung auf dem Kursbaustein werden - über eine **manuelle oder automat
 * „Einsteiger“/„Spezialist“/„Experte“
 * :smile: , :neutral_face: , :cry:
 
-!!! info "Notensystem-Vorlagen"
+!!! info "Bewertungssystem-Vorlagen"
 
-    Mit dem Feature werden gängige Notensysteme bereits auf ihrem OpenOlat-System angelegt sein.
+    Mit dem Feature werden gängige Noten- und Bewertungssysteme bereits auf ihrem OpenOlat-System angelegt sein.
 
-#### Anzeige der Noten
+#### Anzeige der Bewertung
 
-Im Bewertungswerkzeug werden die Kennzahlen und Statistiken zu Noten in einem eigenen Abschnitt angezeigt.
+Im Bewertungswerkzeug werden die Kennzahlen und Statistiken zu Noten/Bewertungsskalen in einem eigenen Abschnitt angezeigt.
 
 ![Bewertungswerkzeug Noten](assets/162/Noten_Bewertungswerkzeug_DE.jpeg){ class="shadow lightbox" }
 
-Im Coachingtool finden Betreuende eine Übersicht der noch offenen Notenzuweisungen in einem neuen Bereich unter "Aufträge".
+Im Coachingtool finden Betreuende eine Übersicht der noch offenen Zuweisungen in einem neuen Bereich unter "Aufträge".
 
-Teilnehmende sehen die zugewiesenen Noten in ihrer Leistungsübersicht und überall dort, wo auch die Punkte ausgegeben werden.
+Teilnehmende sehen die zugewiesenen Bewertungen in ihrer Leistungsübersicht und überall dort, wo auch die Punkte ausgegeben werden.
 
 * * *
 
