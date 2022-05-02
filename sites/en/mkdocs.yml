@@ -1,0 +1,11 @@
+# This empty site fixes the incompatibility between i18n and monorepo plugin
+#
+# This is an invisible site just for monorepo to resolve the dynamically generated pages
+# that start with the language code and thus don't fit into the monorepo alias scheme. 
+#
+site_name: en
+edit_uri: 
+repo_url:
+
+nav:
+  - ''

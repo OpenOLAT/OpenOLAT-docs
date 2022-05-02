@@ -1,0 +1,1 @@
+# This empty dir fixes the incompatibility between i18n and monorepo plugin
