@@ -32,7 +32,7 @@ Im Einzelnen sind folgende Einstellungen möglich nachdem Sie eine Lernressource
 
 Bei einer manuellen Korrektur ist die Sichtbarkeit des Ergebnisses eingeschränkt und der Betreuer bzw. Korrektor muss die Korrektur manuell ergänzen. Zu den manuell zu bearbeitenden Fragen gehören Freitext, Datei hochladen und Zeichnen. Eine manuelle Korrektur kann bei Bedarf aber auch eingestellt werden, wenn der Test nur aus automatisch auswertbaren Fragetypen besteht.
 
-Aktiviert man die Option " **Manuell durch externe Korrektoren"** können auch OpenOlat Benutzer einen Test korrigieren ohne, dass sie Mitglied oder gar Betreuer des Kurses sind. Durch diese Wahl wird auch der Tab "Korrektoren" aktiviert und man erkennt, wer als Korrektor dem Test zugeordnet ist.
+Aktiviert man die Option " **Manuell durch externe Korrektoren"** können auch OpenOlat Benutzer einen Test korrigieren, ohne dass sie Mitglied oder gar Betreuer des Kurses sind. Durch diese Wahl wird auch der Tab "Korrektoren" aktiviert und man erkennt, wer als Korrektor dem Test zugeordnet ist.
 
 ![Test Tab Korrektoren](assets/Test_Tab_Korrektoren_DE.png){ class="shadow" }
 

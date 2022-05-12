@@ -150,8 +150,7 @@ können muss in der Administration des Tests im Menü „Korrektur“ die Korrek
 
 Hier wird die externe Korrektur grundsätzlich eingeschaltet. Anschließend kann definiert werden ob die Prüflinge anonym oder mit sichtbarem Namen bewertet werden. Der Korrekturzeitraum gibt die maximale Zeit an, die dem Korrektor zur Verfügung steht.
 
-Die jeweiligen Korrektoren werden automatisch benachrichtigt, wenn neue
-Bearbeitungen des Tests vorliegen. Die Benachrichtigung kann entweder direkt nach Testabschluss oder einmal pro Tag verschickt werden. Hierfür kann ein passender Mailtext hinterlegt werden oder eine Vorlage („Vorlage Sprache wählen“) verwendet werden. Nach der ersten Mail Benachrichtigung können noch zwei Erinnerungsmails in selbst definierten Abständen (Tagen) verschickt werden.
+Die jeweiligen Korrektoren werden automatisch benachrichtigt, wenn neue Bearbeitungen des Tests vorliegen. Die Benachrichtigung kann entweder direkt nach Testabschluss oder einmal pro Tag verschickt werden. Hierfür kann ein passender Mailtext hinterlegt werden oder eine Vorlage („Vorlage Sprache wählen“) verwendet werden. Nach der ersten Mail Benachrichtigung können noch zwei Erinnerungsmails in selbst definierten Abständen (Tagen) verschickt werden.
 
 ### Tab „Korrektoren“
 
