@@ -7,29 +7,14 @@ Werkzeuge, die einem Benutzer zur Verfügung stehen.
 
 ![](assets/DE_pers_menu.png)
 
-In den Einstellungen können einige Werkzeuge auch dem Schnellzugriff
+In den Einstellungen können Werkzeuge auch dem Schnellzugriff
 hinzugefügt werden. Dann erscheinen sie direkt in der oberen
 Navigationsleiste.
-
-Folgende persönliche Werkzeuge werden hier kurz erklärt:
-
-  * 1 Kalender
-  * 2 Abonnements
-  * 3 Persönlicher Ordner
-  * 4Notizen
-  * 5 Leistungsnachweis
-  * 6Kompetenzen
-  * 7Buchungen
-  * 8 Andere Benutzer
-  * 9Absenzen
-  * 10 Portfolio 2.0
-  * 11 E-Mails
 
 ![](assets/User tools DE.png)
 ![](assets/Benutzerwerkzeuge2.jpg)
 
   
-
 ##  Kalender
 
 Im persönlichen Kalender sehen Sie Ihre privaten Einträge sowie Einträge aus
@@ -49,26 +34,30 @@ Zugriffsrechten auf ihren Kalender diese Einträge inklusive Details in Ihrem
 Kalender sehen können.
 
 Informationen zur Kalenderliste, Termine erstellen sowie weiterer
-Kursfunktionen finden Sie im Kapitel
+Kursfunktionen finden Sie im Unterkapitel
 [Kalender](Calendar.de.md).
 
   
 
 ##  Abonnements {: #subscriptions}
 
-Dank Benachrichtigungen von OpenOlat sind Sie immer auf dem aktuellen Stand
-der Dinge. OpenOlat bietet Ihnen die Möglichkeit, über Änderungen in
-abonnierbaren Objekten informiert zu werden. Dies kann Aktivitäten eines
-Kurses oder einer Gruppe betreffen, beispielsweise Infos über neue Dokumente
-im Ordner, Antworten auf Forumsbeiträge oder geänderte Wiki-Seiten. An vielen
-Stellen können Sie die Aktion „Abonnieren“ wählen, um Aktivitäten mitverfolgen
-zu können.
+Abonnieren Sie bestimmte Elemente in Kursen und Gruppen um sich rasch über Änderungen informieren zu lassen. 
 
-Folgende Objekte sind abonnierbar: **Forum, Ordner, Wiki, Kalender, Aufgabe,
-Dateidiskussion, Portfoliomappen, Mitteilung, Teilnehmer-Ordner, Blog,
-Podcast, Video**. Sofern Sie Rechte für das Bewertungswerkzeug besitzen,
-können Sie sich beispielsweise auch benachrichtigen lassen, wenn neue
-Testresultate eingegangen sind oder sich neue Benutzer registriert haben.
+Folgende Objekte sind abonnierbar: 
+* Forum 
+* Ordner 
+* Wiki 
+* Kalender
+* Aufgabe
+* Dateidiskussion
+* Portfoliomappen
+* Mitteilung
+* Teilnehmer-Ordner
+* Blog
+* Podcast
+* Video 
+
+
 
 Neuigkeiten werden Ihnen ein Mal pro Tag als E-Mail zugeschickt, und falls das
 Portal aktiviert ist, dort unter "Meine Benachrichtigungen" angezeigt. Wenn
@@ -81,6 +70,8 @@ eines Zeitraumes anzeigen lassen oder die Änderungen noch einmal per E-Mail
 verschicken. Die Gesamtzahl der von Ihnen abonnierten Objekten ist im Tab
 "Abonnements" aufgelistet.  Sie haben auch die Möglichkeit, sich mittels RSS
 über den Änderungsverlauf zu informieren.
+
+Personen die das Recht für das Bewertungswerkzeug besitzen (z.B. Betreuer oder Kursbesitzer) können sich auch benachrichtigen lassen, wenn neue Testresultate eingegangen sind oder sich neue Benutzer registriert haben.
 
 ### Neuigkeiten per RSS {: #rss}
 
@@ -130,17 +121,15 @@ Weitere Infos finden Sie
 In jedem Kurs können Sie Notizen verfassen. Unter diesem Punkt sehen Sie,
 welche Notizen Sie gemacht haben und können diese bearbeiten und ausdrucken.
 
-##  Leistungsnachweis
+##  Leistungsnachweise
 
-Ein Leistungsnachweis ist eine Bestätigung einer erfolgten Leistungskontrolle
-und zeigt beispielsweise absolvierte Tests oder abgegebene und bewertete
-Aufgaben an. Kursautoren legen in ihren Kursen fest, ob OpenOlat
-Leistungsnachweise erstellen soll. Kursteilnehmer sehen ihre
-Leistungsnachweise dann, wenn sie Kurse mit Leistungsnachweisen besuchen,
-bereits Leistungen erbracht haben und wenn diese auch bewertet wurden. Falls
-in einem Kurs neben dem Leistungsnachweis auch ein Zertifikat zur Verfügung
-gestellt wird, können Sie dieses in der Einzelansicht des betreffenden
-Leistungsausweises anschauen und herunterladen.
+Ein Leistungsnachweis ist eine Bestätigung einer erfolgten Leistungskontrolle und zeigt beispielsweise absolvierte Tests oder abgegebene und bewertete Aufgaben an. Kursautoren legen in ihren Kursen fest, ob OpenOlat Leistungsnachweise erstellen soll. Kursteilnehmende sehen ihre Leistungsnachweise dann, wenn sie Kurse mit Leistungsnachweisen besuchen, bereits Leistungen erbracht haben und wenn diese auch bewertet wurden. 
+
+Falls in einem Kurs neben dem Leistungsnachweis auch ein Zertifikat zur Verfügung gestellt wird, können Sie dieses in der Einzelansicht des betreffenden Leistungsausweises ebenfalls anschauen und herunterladen.
+Nutzer können auch externen Zertifikate in OpenOlat hochladen, um ihr Profil zu vervollständigen. Im persönlichen Menü unter dem Tab "Leistungsnachweise" befindet sich die Schaltfläche "Zertifikat hochladen" (sofern vom Administrator aktiviert) 
+
+![](assets/pers_Leistungsnachweise_DE.png)
+
 
 ## Kompetenzen
 

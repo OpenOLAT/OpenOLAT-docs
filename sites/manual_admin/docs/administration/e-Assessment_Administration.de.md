@@ -18,8 +18,9 @@ Instanz grundsätzlich aktivieren und nach Prüfungen suchen.
 
 ## Zertifikate
 
-Hier kann eine E-Mail Adresse hinterlegt werden an die Kopien der erstellten
-Zertifikate geschickt werden. Auch sind Kopien an Linienvorgesetze möglich.
+Hier kann eine E-Mail Adresse hinterlegt werden an die Kopien der erstellten Zertifikate geschickt werden. Auch sind Kopien an Linienvorgesetze möglich. 
+Der Upload externer Zertifikate kann ebenfalls hier freigeschaltet werden. Zusätzlich ist diese Funktion auch für Benutzerverwalter, Linienvorgesetzte derselben Organisation oder für
+verantwortliche Personen, die über eine Benutzer-zu-Benutzer-Beziehungen verbunden sind, verfügbar und kann jeweils separat konfiguriert werden.
 
 ## Korrektur
 

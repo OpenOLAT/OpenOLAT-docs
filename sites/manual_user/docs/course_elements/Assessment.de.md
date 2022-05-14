@@ -24,7 +24,7 @@ auch mit Punkten versehen werden und erhalten dann den Konfigurations-Tab
 Addition von Punkten oder das Bestehen /Nicht bestehen eines Kurses basierend
 auf den Bewertungen verschiedener Kursbausteine hinzugefügt werden. Verwendet
 wird hierfür ein Kursbaustein
-[Struktur](Knowledge_Transfer.de.md#kursbaustein-„struktur--structure) bei herkömmlichen
+[Struktur](Course_Element_Structure.de.) bei herkömmlichen
 Kursen.
 
 Ein weiterer Konfigurations-Tab der bei den meisten Kursbausteinen der
@@ -35,14 +35,14 @@ Mail verschickt werden, wenn zu einem bestimmten Datum eine Aufgabe noch nicht
 bearbeitet wurde. Die Möglichkeiten sind ähnlich wie im Menü "Erinnerung" in
 der Kurs-Administration zu der Sie [hier](../course_operation/Course_Reminders.de.md) weitere Informationen finden.
 
-In der Kategorie Wissensüberprüfung findet man auch den OpenOlat [Fragebogen](../forms/Form_editor_Questionnaire_editor.de.md) bzw. den Kursbaustein Umfrage.
+In der Kategorie Wissensüberprüfung findet man auch den Kursbaustein "Umfrage" mit dem man OpenOlat [Formulare](../forms/Form_editor_Questionnaire_editor.de.md) für Befragungen in einen Kurs einbauen kann.
 
 ## Kursbaustein „Bewertung“  {: #course_element_assessment}
 ![Bewertung Icon](assets/manual_score.png)
 
 Der Kursbaustein „Bewertung“ eignet sich, um Leistungen zu bewerten, welche
 nicht explizit elektronisch abgegeben werden, z.B. Präsenz-Referate oder
-Online-Webseiten.
+Online-Webseiten. Auch eine Rubrik-Bewertung steht hier zur Verfügung.
 
 Auf separaten Seiten erfahren Sie wie man eine 
 [Bewertung](Course_Element_Assessment.de.md) einrichtet, durchführt und
@@ -75,7 +75,7 @@ möchten:
 
 !!! info "Info"
 
-    Eine Schritt-für-Schritt-Anleitung zum Erstellen einer Aufgabe und die detaillierten [Konfigurationsmöglichkeiten](../task/Task_-_Further_Configurations.de.md)finden Sie im Kapitel [„Aufgabe erstellen"](../task/index.md).
+    Eine Schritt-für-Schritt-Anleitung zum Erstellen einer Aufgabe und die detaillierten [Konfigurationsmöglichkeiten](../task/Task_-_Further_Configurations.de.md) finden Sie im Kapitel [„Aufgabe erstellen"](../task/index.md).
 
   
 
@@ -106,7 +106,6 @@ gelangen. Sie haben nun die Möglichkeit, mit der Schaltfläche
 "Portfoliovorlage auswechseln" einen anderen Inhalt zu wählen.
 
   
-
 Wurde eine Portfoliovorlage bereits heruntergeladen und bearbeitet, kann diese
 Vorlage nicht mehr ausgewechselt werden.
 
@@ -150,8 +149,7 @@ Gruppe gilt oder ob die Bewertung nur für ein bestimmtes Gruppenmitglied gilt.
 
 Mit dem Kursbaustein „Test“ binden Sie eine OpenOlat Lernressource „Test“ in
 Ihren Kurs ein. Ein Test wird im Kurs zur Leistungsüberprüfung oder als Quiz
-verwendet und umfasst diverse Frage-Typen. Er wird je nach Wahl der Fragetypen
-automatisiert oder manuell ausgewertet. OpenOlat verwendet das IMS-QTI 2.1
+verwendet und umfasst diverse Frage-Typen. Er wird je nach Wahl der  „[Fragetypen](../tests/Test_question_types.de.md)“ automatisiert oder manuell ausgewertet. OpenOlat verwendet das IMS-QTI 2.1
 Format für Tests, was einen Austausch mit anderen Test-Systemen und Learning
 Management Systemen, die diesen Standard ebenfalls unterstützen, gewährt.
 
@@ -163,12 +161,9 @@ haben, erscheint der Name dieser Lernressource hinter  _Gewählte Datei_. Mit
 Klick auf den Namen starten Sie die Vorschau des Tests. Mittels "Datei
 auswechseln" können Sie die Lernressource austauschen. Weitere Informationen
 finden Sie im Kapitel „[Tests
-erstellen](../tests/Configure_tests.md)“.
+erstellen](../tests/index.de.md)“.
 
-Die zwei zentralen Tabs in denen Sie Einstellungen für Ihren Test vornehmen
-können sind „[ **Test-
-Konfiguration**](../tests/Tests_at_course_level.de.md)“ und „
-**Optionen** “.
+Die zwei zentralen „[Tabs](../tests/Tests_at_course_level.de.md)“ in denen Sie Einstellungen für Ihren Test vornehmen können sind  **Test-Konfiguration** und „**Optionen** “.
 
 Die Einstellungen unter "Optionen" werden zunächst aus den Optionen in der
 Lernressource übernommen, können aber bei Bedarf aber im Kurs geändert werden.
@@ -207,11 +202,11 @@ abgeschlossen haben, gehen deren Resultate verloren. Ebenso gehen alle
 Resultate verloren, die zwischen dem Austauschen des Tests und dem Publizieren
 dieser Änderung angefallen sind.
 
-Die Resultate der Kursteilnehmer werden personalisiert aufgezeichnet.
+Die Resultate der Kursteilnehmenden werden personalisiert aufgezeichnet.
 
 ##  Kursbaustein „Selbsttest“ {: #course_element_self_test}
 
-!![test icon](assets/test.png)
+![test icon](assets/test.png)
 
 Der Selbsttest greift wie der Test auf die Lernressource Test zurück und wird
 ähnlich konfiguriert und eingerichtet. Der Hauptunterschied ist, dass es bei
@@ -226,9 +221,7 @@ Test eingebunden. Wenn Sie noch keinen Test erstellt haben, folgen Sie den
 Anweisungen im Kapitel „[Vier Schritte zu Ihrem Test oder
 Selbsttest“](../tests/Four_Steps_to_Your_Test_or_Self-test.de.md).
 
-Weitere Informationen zu Tests finden Sie im Kapitel „[Tests erstellen](../tests/Configure_tests.de.md)“. Relevant ist hier vor
-allem das Kapitel „[Tests auf
-Kursebene](../tests/Tests_at_course_level.de.md).
+Weitere Informationen zu Tests finden Sie im Kapitel „[Tests erstellen](../tests/index.de.md)“. Relevant ist hier vor allem das Unterkapitel „[Tests auf Kursebene](../tests/Tests_at_course_level.de.md).
 
 ## Kursbaustein "Formular"  {: #course_element_form}
 
@@ -246,7 +239,6 @@ verknüpft werden. Anders als beim Umfragebaustein erhalten die Teilnehmenden
 bei Abgabe des ausgefüllten Formulars automatisch eine Bestätigungsmail mit
 Datum und Zeitpunkt der Abgabe sowie ihr ausgefülltes Formular als PDF im
 Anhang.
-
   
 
 Betreuende sehen in der Übersichtstabelle im Kursrun welche Teilnehmenden das
@@ -256,7 +248,7 @@ geöffnet oder auch komplett zurückgesetzt werden. Mit Klick auf die
 Teilnehmenden kann das ausgefüllte Formular angesehen werden. Die
 Formulardaten aller Teilnehmenden stehen als Excel-Export zur Verfügung.
 
-Die Verwendung dieses Kursbausteins macht z.B. Sinn, wenn die Lernenden
+Die Verwendung dieses Kursbausteins ist z.B. hilfreich, wenn die Lernenden
 bestimmte Formulare verpflichtend ausfüllen müssen, z.B. vor der Aufnahme
 eines Laborpraktikums oder als Bestätigung für das eigenständige Erbringen
 einer Leistung.
@@ -274,20 +266,20 @@ Erwartungshaltung der Teilnehmenden ermitteln oder am Schluss des Kurses das
 Lehrangebot evaluieren. Die Resultate werden dabei standardmäßig anonymisiert
 gespeichert. Ein Fragebogen muss zuerst mit der Lernressource "Formular"
 erstellt werden. Das kann im Autorenbereich oder direkt im Kurs erfolgen. Wenn
-Sie noch keinen Fragebogen erstellt haben, folgen Sie den Anweisungen im
-Kapitel "[3 Schritte zu Ihrer Umfrage](../forms/Three_Steps_to_your_Form.de.md)"
+Sie noch kein Formular für Befragungen erstellt haben, folgen Sie den Anweisungen im
+Kapitel "[3 Schritte zu Ihrem Formular](../forms/Three_Steps_to_your_Form.de.md)"
 
 Weitere Informationen zum Thema Fragebogen und Umfrage finden Sie im Kapitel
-„[Formulare erstellen](../forms/Form_editor_Questionnaire_editor.de.md)“ und den
+„[Formulare erstellen](../forms/index.de.md)“ und den
 entsprechenden Unterkapiteln.
 
   
 
 Ein in einem Kurs verlinktes Formular kann nur solange vollständig im
-Formular-Editor bearbeitet werden, solange die Seite nicht aufgerufen wurde.
+"[Formular-Editor](../forms/Form_editor_Questionnaire_editor.de.md)" bearbeitet werden, solange die Seite nicht aufgerufen wurde.
 Danach können nur noch Tippfehler korrigiert werden.
 
-Achtung: Wenn Teilnehmende aktuell die Umfrage ausführen, jedoch noch nicht
+note Achtung: Wenn Teilnehmende aktuell die Umfrage ausführen, jedoch noch nicht
 abgeschlossen haben, gehen deren Resultate verloren.
 
 ## Kursbaustein „Checkliste“  {: #course_element_checklist}
