@@ -1,145 +1,103 @@
 # Bewertung von Kursbausteinen
 
-Im Bewertungswerkzeug können die Bewertungen für die folgenden Kursbausteine
-vorgenommen werden.
+Im Bewertungswerkzeug können die Bewertungen für die folgenden Kursbausteine vorgenommen werden.
 
-  * [Aufgabe und Gruppenaufgabe](Assessing_tasks_and_group_tasks.de.md) 
-  * [Tests](Assessing_tests.de.md)
+* Checkliste
+* Bewertung
+* Portfolioaufgabe
+* Kursbaustein "Struktur oder gesamte Kursbewertung
+* Integrierte externe Bausteine
+* [Aufgabe und Gruppenaufgabe](Assessing_tasks_and_group_tasks.de.md)
+* [Tests](Assessing_tests.de.md)
 
-Hier werden zunächst die generellen Aspekte erläutert und anschließend die
-Spezifika der einzelnen bewertbaren Kursbausteine mit den zugehörigen
-Bewertungsformularen behandelt.
+Hier werden zunächst die generellen Aspekte erläutert und anschließend die Spezifika der einzelnen bewertbaren Kursbausteine mit den zugehörigen Bewertungsformularen behandelt.
 
-### Das 3-Punkte Menü
+## Das 3-Punkte Menü
 
-![](assets/Zahnrad_Punkte1.png)
+![3-Punkte Menü Test-Teilnehmende](assets/Zahnrad_Punkte1.png){ class="shadow lightbox" }
 
-Über das 3-Punkte Menü stehen zentrale Optionen im Bewertungskontext zur
-Verfügung. Hierzu zählen:
+Über das 3-Punkte Menü stehen zentrale Optionen im Bewertungskontext zur Verfügung:
 
-  *  ***„Details anzeigen/bewerten** “ um zu den jeweiligen Bewertungen oder Testergebnissen zu gelangen
-  * "Korrigieren", um bei Tests eine manuelle Bewertung vorzunehmen und z.B. Freitextfelder zu bewerten.
-  * * Den „ **Status auf abgeschlossen setzen** “ bzw. „ **Beurteilung erneut öffnen** “, je nach vorherigem Status
-  * * Die **Resultate auf sichtbar** nicht sichtbar setzen. So sehen die Lernenden die Ergebnisse bzw. sehen sie nicht.
-  *  **„Testzeit verlängern** “ wenn sich der Test im Status „gestartet“ befindet.
-  * „ **Laufenden Test einziehen** “, dadurch werden die bisher ausgefüllten Daten für die Bewertung verwendet und können vom Lehrenden eingesehen werden.
-  *  **"Nachteilsausgleich hinzufügen",** auf diesem Weg können einzelnen Personen zusätzliche Zeit für die Bearbeitung eines Test erhalten, z.B. aufgrund eines Handecaps.
-  *  **„Beendeten Test wieder öffnen“**. Der Testteilnehmende kann den Test dort weiterführen, wo er aufgehört hat. Falls der Test auf 1 Versuch beschränkt ist, müssen außerdem die Versuche zurückgesetzt werden, damit der Testteilnehmende den Test weiterführen kann.
-  * „ **Anzahl Versuche zurücksetzen** “, hiermit wird die Anzahl der Versuche eines Assessmentbausteins auf 0 gesetzt aber die eigentlichen Daten bleiben erhalten.
-  *  **„Daten von Test zurücksetzen** “. Alle Daten werden gelöscht.
+* **Details anzeigen/bewerten:** um zu den jeweiligen Bewertungen oder Testergebnissen zu gelangen *
+* **Korrigieren:** um bei Tests eine manuelle Bewertung vorzunehmen und z.B. Freitextfelder zu bewerten
+* **Status auf abgeschlossen setzen** bzw. **Beurteilung erneut öffnen:** je nach vorherigem Status *
+* **Resultate auf sichtbar / nicht sichtbar:** so sehen die Lernenden die Ergebnisse bzw. sehen sie nicht *
+* **Testzeit verlängern:** wenn sich der Test im Status „gestartet“ befindet
+* **Laufenden Test einziehen:** dadurch werden die bisher ausgefüllten Daten für die Bewertung verwendet und können vom Lehrenden eingesehen werden.
+* **Nachteilsausgleich hinzufügen:** auf diesem Weg können einzelnen Personen zusätzliche Zeit für die Bearbeitung eines Test erhalten, z.B. aufgrund eines Handicaps.
+* **Beendeten Test wieder öffnen:**. Testteilnehmende können den Test dort weiterführen, wo sie aufgehört haben. Falls der Test auf 1 Versuch beschränkt ist, müssen außerdem die Versuche zurückgesetzt werden, damit der Testteilnehmende den Test weiterführen kann.
+* **Anzahl Versuche zurücksetzen:** hiermit wird die Anzahl der Versuche eines Assessmentbausteins auf 0 gesetzt, die eigentlichen Daten bleiben erhalten
+* **Daten von Test zurücksetzen:** alle Daten werden gelöscht
 
-Die mit einem * gekennzeichneten Optionen stehen für alle Assessmentbausteine
-zur Verfügung. Die anderen Optionen sind abhängig vom Kursbaustein und der
-vorgenommenen Konfiguration des Bausteins.
+Die mit einem * gekennzeichneten Optionen stehen für alle Assessmentbausteine zur Verfügung. Die anderen Optionen sind abhängig vom Kursbaustein und der vorgenommenen Konfiguration des Bausteins.
 
-Achten Sie darauf, dass in der Tabellenübersicht das 3-Punkte Symbol
-eingeblendet ist. Hierüber haben Sie schnell Zugriff auf bestimmte Aktionen
-zur Bewertung der Lernenden.
+!!! info Hinweis
 
-Ist der gesamte Bewertungsflow beendet, sollte dies dem User durch Aktivierung
-der Option " **Auf Status 'abgeschlossen' setzen** " mitgeteilt werden. Alle
-(ausgewählten) Benutzer bekommen dann den Status "Bewertet" angezeigt.
+    Achten Sie darauf, dass in der Tabellenübersicht das 3-Punkte Symbol eingeblendet ist. Hierüber haben Sie schnell Zugriff auf bestimmte Aktionen zur Bewertung der Lernenden.
+
+!!! info Bewertung abschliessen
+
+    Ist der gesamte Bewertungsflow beendet, sollte dies dem User durch Aktivierung der Option **Auf Status 'abgeschlossen' setzen** mitgeteilt werden. Alle (ausgewählten) Benutzer bekommen dann den Status "Bewertet" angezeigt.
 
 ## Checkliste
 
 Die Bewertung des Kursbausteins „Checkliste“ umfasst folgende Möglichkeiten:
 
-![](assets/Bewertungswerkzeug_Checkliste2.png)
+![3-Punkte Menü Checklisten-Teilnehmende](assets/Bewertungswerkzeug_Checkliste2.png){ class="shadow lightbox" }
 
-Die Checkboxen der einzelnen Benutzer können manuell nachgetragen und das
-Bewertungsformular ausgefüllt werden. Abhängig von der Kursbaustein
-Konfiguration können entweder Punkte und/oder das Attribut Bestanden vergeben
-werden. Weitere Informationen zur Checkliste finden Sie
-[hier](../../pages/viewpage.action%EF%B9%96pageId=65143167.html#Wissens%C3%BCberpr%C3%BCfung-
-_checklist_kursbaustein).
+Die Checkboxen der einzelnen Benutzer können manuell nachgetragen und das Bewertungsformular ausgefüllt werden. Abhängig von der Kursbaustein Konfiguration können entweder Punkte und/oder das Attribut Bestanden vergeben werden. Weitere Informationen zur Checkliste finden Sie [hier](../course_elements/Knowledge_Transfer.de.md).
 
-![](assets/Checkliste_Bewertungswerkzeug.jpg)
+![Checkliste im Bewertungswerkzeug](assets/Checkliste_Bewertungswerkzeug.jpg){ class="shadow lightbox" }
 
 ## Bewertung
 
 Die Bewertung des Kursbausteins „Bewertung“ umfasst folgende Möglichkeiten:
 
-![](assets/Bewertung_Bewertungswerkzeug_16.jpg)
+![3-Punkte Menü Teilnehmende Bewertungsbaustein](assets/Bewertung_Bewertungswerkzeug_16.jpg){ class="shadow lightbox" }
 
-Der Button „Statistik“ steht nur bei der Verwendung einer Rubrik-Bewertung zur
-Verfügung.
+Der Button „Statistik“ steht nur bei der Verwendung einer Rubrik-Bewertung zur Verfügung.
 
-Zur Bewertung des Kursbausteins „Bewertung“ füllen Sie das entsprechende
-Bewertungsformular aus und nutzen, sofern verknüpft, das zugeordenete Rubrik
-Bewertungsformular.
+Zur Bewertung des Kursbausteins „Bewertung“ füllen Sie das entsprechende Bewertungsformular aus und nutzen, sofern verknüpft, das zugeordenete Rubrik Bewertungsformular.
 
-![](assets/Bewertungsformular.png)
+![Bewertungsformular](assets/Bewertungsformular.png){ class="shadow lightbox" }
 
-Haben Sie ein [Rubrik ](../forms/Rubric.de.md)als Bewertungsgrundlage hinterlegt können
-Sie schnell und effektiv eine Kriterien basierte Bewertung vornehmen. Hier ein
+Haben Sie ein [Rubrik](../forms/Rubric.de.md) als Bewertungsgrundlage hinterlegt, können Sie schnell und effektiv eine Kriterien basierte Bewertung vornehmen. Hier ein
 Beispiel:
 
-![](assets/Feedbackformular.png)
+![Beispiel: Feedbackformualr mit Rubriks](assets/Feedbackformular.png){ class="shadow lightbox" }
 
-Darüber hinaus ist für den Kursbaustein „Bewertung“ auch eine Massenbewertung
-möglich.
+Darüber hinaus ist für den Kursbaustein „Bewertung“ auch eine Massenbewertung möglich.
 
 ## Portfolioaufgabe
 
-Die Bewertung des Kursbausteins
-„[Portfolioaufgabe](../portfolio/Creating_Portfolio_Tasks.de.md)“ umfasst folgende
-Möglichkeiten:
+Die Bewertung des Kursbausteins [Portfolioaufgabe](../portfolio/Creating_Portfolio_Tasks.de.md) umfasst folgende Möglichkeiten:
 
-![](assets/Portfolioaufgabe_Bewertung.png)
+![3-Punkte Menü Teilnehmende Portfolioaufgabe](assets/Portfolioaufgabe_Bewertung.png){ class="shadow lightbox" }
 
-Die Bewertung für das Portfolio ist im Bewertungswerkzeug dieselbe wie im Tab
-["Bewertung" im
-Portfolio](https://confluence.openolat.org/display/OO140DE/Portfolioaufgabe%3A+kommentieren+und+bewerten)
-selbst. Hier können die einzelnen Bereiche jedoch nicht geöffnet, sondern nur
-bewertet werden. Es empfiehlt sich deshalb, die Bewertung direkt im Portfolio
-vorzunehmen.
+Die Bewertung für das Portfolio ist im Bewertungswerkzeug dieselbe wie im Tab ["Bewertung" im Portfolio](../portfolio/Portfolio_assignment_Grading.de.md) selbst. Hier können die einzelnen Bereiche jedoch nicht geöffnet, sondern nur bewertet werden. Es empfiehlt sich deshalb, die Bewertung direkt im Portfolio vorzunehmen.
 
-![](assets/Portfolioaufgabe_16.png)
+![Bewertung einer Portfolioaufgabe](assets/Portfolioaufgabe_16.png){ class="shadow lightbox" }
 
-## Kursbaustein "Struktur oder gesamte Kursbewertung
+## Kursbaustein Struktur oder gesamte Kursbewertung
 
-Wird bei der Konfiguration des Kursbausteins „Struktur“ im Tab „Punkte“ die
-Option „Punkte berechnen“ und/oder bestanden eingerichtet, erscheinen die
-berechneten Gesamtpunkte auch in der Übersicht im Bewertungswerkzeug. Diese
-Werte werden automatisch generiert und können im Bewertungswerkzeug nicht
-verändert werden.
+Wird bei der Konfiguration des Kursbausteins „Struktur“ im Tab „Punkte“ die Option „Punkte berechnen“ und/oder bestanden eingerichtet, erscheinen die berechneten Gesamtpunkte auch in der Übersicht im Bewertungswerkzeug. Diese Werte werden automatisch generiert und können im Bewertungswerkzeug nicht verändert werden.
 
-Jeder Baustein, der in die Berechnung miteinbezogen werden soll, muss zuerst
-ausgewählt werden. Dadurch ist es möglich, die Gesamtsumme nur mit den
-gewünschten Kursbausteinen zu berechnen, beispielsweise ein Punktwert für alle
-Einsendeaufgaben und ein Punktwert für alle Tests. Achtung, das funktioniert
-nur ber herkömmlichen Kursen.
+Jeder Baustein, der in die Berechnung miteinbezogen werden soll, muss zuerst ausgewählt werden. Dadurch ist es möglich, die Gesamtsumme nur mit den gewünschten Kursbausteinen zu berechnen, beispielsweise ein Punktwert für alle Einsendeaufgaben und ein Punktwert für alle Tests. Achtung, das funktioniert nur ber herkömmlichen Kursen.
 
-Die Einrichtung der Bewertung von [Strukturbausteinen
-](../../pages/viewpage.action%EF%B9%96pageId=108593217.html)erfolgt im
-Kurseditor. Im Bewertungswerkzeug werden nur die Ergebnisse _angezeigt_.
+!!! info Hinweis
 
-Die Anzeige der Punkte per Struktur Baustein bietet sich immer dann an, wenn
-man für den gesamten Kurs oder für bestimmte Abschnitte eine Kombination von
-Punkten automatisch berechnen möchte. Verwenden sie in diesem Fall am besten
-einen herkömmlichen Kurs.
+    Die Einrichtung der Bewertung von [Strukturbausteinen](../course_elements/Course_Element_Structure.de.md) erfolgt im Kurseditor. Im Bewertungswerkzeug werden nur die Ergebnisse angezeigt.
+
+!!! tip Tipp
+
+    Die Anzeige der Punkte per Struktur Baustein bietet sich immer dann an, wenn man für den gesamten Kurs oder für bestimmte Abschnitte eine Kombination von Punkten automatisch berechnen möchte. Verwenden sie in diesem Fall am besten einen herkömmlichen Kurs.
 
 ## Integrierte externe Bausteine
 
-###  
-
 ### SCORM
 
-Für das SCORM-Element kann das Bewertungsformular ausgefüllt werden. Wichtig
-ist, dass im Kursbaustein unter Lerninhalt entweder die Punktzahl oder
-Bestanden übertragen ausgewählt ist. Mehr Informationen dazu finden Sie
-[hier](https://confluence.openolat.org/display/OO140DE/Wissensvermittlung#Wissensvermittlung-
-_scorm_kursbaustein).
+Für das SCORM-Element kann das Bewertungsformular ausgefüllt werden. Wichtig ist, dass im Kursbaustein unter Lerninhalt entweder die Punktzahl oder Bestanden übertragen ausgewählt ist. Mehr Informationen dazu finden Sie [hier](../course_elements/Knowledge_Transfer.de.md).
 
 ### LTI
 
-Auch für das LTI-Element kann das Bewertungsformular ausgefüllt und angepasst
-werden. Im Kursbaustein unter Seiteninhalt muss zwingend "Punkte übertragen"
-ausgewählt sein. Je nachdem muss ein Skalierungsfaktor eingetragen und die
-Punktzahl für das Bestehen definiert werden. Weitere Informationen zur
-Konfiguration von LTI-Seiten finden Sie
-[hier](https://confluence.openolat.org/display/OO140DE/Andere#Andere-
-_lti_kursbaustein).
-
-  
-
+Auch für das LTI-Element kann das Bewertungsformular ausgefüllt und angepasst werden. Im Kursbaustein unter Seiteninhalt muss zwingend "Punkte übertragen" ausgewählt sein. Je nachdem muss ein Skalierungsfaktor eingetragen und die Punktzahl für das Bestehen definiert werden. Weitere Informationen zur Konfiguration von LTI-Seiten finden Sie [hier](../course_elements/Knowledge_Transfer.de.md).
