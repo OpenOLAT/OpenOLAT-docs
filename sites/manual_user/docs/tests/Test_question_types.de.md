@@ -14,7 +14,7 @@ Zuerst werden ein kurzer Titel und die Frage eingegeben.
 
 Anschliessend wird ausgewählt, ob die Reihenfolge der Antworten zufällig und die Ausrichtung der Antworten vertikal oder horizontal erscheinen soll und ob die Check-Boxen links oder rechts ausgerichtet sind.
 
-Dann können Antworttexte eingefügt werden. Zusätzliche Antworten erstellen Sie mit der Schaltfläche ![Antwort hinzufügen](assets/Icon_Antwort_hinzufügen_DE.png){ class=size16 }, entfernt werden die Antworten mit der Schaltfläche ![Antwort entfernen](assets/Icon_Antwort_entfernen_DE.png){ class=size16 }.
+Dann können Antworttexte eingefügt werden. Zusätzliche Antworten erstellen Sie mit der Schaltfläche ![Antwort hinzufügen](assets/Icon_Antwort_hinzufuegen_DE.png){ class=size16 }, entfernt werden die Antworten mit der Schaltfläche ![Antwort entfernen](assets/Icon_Antwort_entfernen_DE.png){ class=size16 }.
 
 Die richtige Antwort können Sie bestimmen, indem Sie in der Spalte _Korrekt_ die gewünschte Antwort markieren. Die Reihenfolge der Antworten können Sie mit den Pfeilen verändern.
 
@@ -30,7 +30,7 @@ Im Reiter "Auswahl" wird zuerst ein kurzer Titel und die Frage eingegeben.
 
 Anschliessend wird ausgewählt, ob die Reihenfolge der Antworten zufällig und die Ausrichtung der Antworten vertikal oder horizontal erscheinen soll und ob die Check-Boxen links oder rechts ausgerichtet sind.
 
-Dann können Antworttexte eingefügt werden. Zusätzliche Antworten erstellen Sie mit der Schaltfläche ![Antwort hinzufügen](assets/Icon_Antwort_hinzufügen_DE.png){ class=size16 }, entfernt werden die Antworten mit der Schaltfläche ![Antwort entfernen](assets/Icon_Antwort_entfernen_DE.png){ class=size16 }.
+Dann können Antworttexte eingefügt werden. Zusätzliche Antworten erstellen Sie mit der Schaltfläche ![Antwort hinzufügen](assets/Icon_Antwort_hinzufuegen_DE.png){ class=size16 }, entfernt werden die Antworten mit der Schaltfläche ![Antwort entfernen](assets/Icon_Antwort_entfernen_DE.png){ class=size16 }.
 
 Die richtigen Antworten können Sie bestimmen, indem Sie in der Spalte _Korrekt_ die gewünschten Antworten markieren. Die Reihenfolge der Antworten können Sie mit den Pfeilen verändern.
 
@@ -108,7 +108,7 @@ Anders als bei KPrim können die Punkte frei gewählt werden. Für die Antwortop
   
 ## Lückentext
 
-![Icon Lückentext Frage](assets/Icon_Lückentext_DE.png){ class=size24 }
+![Icon Lückentext Frage](assets/Icon_Lueckentext_DE.png){ class=size24 }
 
 Eine Lückentextfrage besteht aus einem Text in dem (Text-)Lücken integriert sind. Lücken können über das Icon mit den drei Punkten per Editor eingefügt und per Klick auf die Lücke überarbeitet werden.
 
@@ -124,11 +124,11 @@ Die Punkte können frei gewählt werden. Es können auch Punkte für Antwortalte
 
 Die Eingabe der gleichen Antwort in mehrere Lücken kann zugelassen oder unterbunden werden.
 
-![Editor Lückentext Icon](assets/Editor_Lückentext_3Punkte_DE.jpg){ class="shadow" }
+![Editor Lückentext Icon](assets/Editor_Lueckentext_3Punkte_DE.jpg){ class="shadow" }
 
-![Editor Lückentext](assets/Editor_Lückentext_DE.jpeg){ class="shadow" }
+![Editor Lückentext](assets/Editor_Lückentext_DE.jpg){ class="shadow" }
 
-![Varianten Lückentext](assets/Lückentext_Varianten_DE.jpg){ class="shadow" }
+![Varianten Lückentext](assets/Lueckentext_Varianten_DE.jpg){ class="shadow" }
 
 ## Numerische Eingabe {: #ni}
 
