@@ -182,101 +182,100 @@ formatieren oder mit formatDateRelative(Date baseLineDate, days, months,
 years) eine angegebene Periode addieren.
 
 
-
 ???+ note "Hier eine Übersicht über die wichtigsten Variablen:"  
-_Benutzer:_
+    _Benutzer:_
 
-  * $fullName
-  * $firstName
-  * $lastName
-  * $birthDay
-  * $institutionalName
-  * $orgUnit
-  * $studySubject
+      * $fullName
+      * $firstName
+      * $lastName
+      * $birthDay
+      * $institutionalName
+      * $orgUnit
+      * $studySubject
 
- _Kurs:_
+    _Kurs:_
 
-  * $title
-  * $externalReference
-  * $authors
-  * $from (date)
-  * $fromLong (date)
-  * $location
-  * $to (date)
-  * $toLong (date)
-  * $expenditureOfWork
-  * $mainLanguage
+      * $title
+      * $externalReference
+      * $authors
+      * $from (date)
+      * $fromLong (date)
+      * $location
+      * $to (date)
+      * $toLong (date)
+      * $expenditureOfWork
+      * $mainLanguage
 
- _Daten zur Leistung (alle Kurstypen):_
+    _Daten zur Leistung (alle Kurstypen):_
 
-  * $score
-  * $status
+      * $score
+      * $status
 
- _Daten zur Leistung (nur Lernpfadkurs):_
+    _Daten zur Leistung (nur Lernpfadkurs):_
 
-  * $maxScore
-  * $progress
+      * $maxScore
+      * $progress
 
- _Daten zum Zertifikat:_
+    _Daten zum Zertifikat:_
 
-  * $dateFirstCertification
-  * $dateFirstCertificationLong
-  * $dateFirstCertificationRaw
-  * $dateCertification
-  * $dateCertificationLong
-  * $dateCertificationRaw
-  * $dateNextRecertification
-  * $dateNextRecertificationLong
-  * $dateNextRecertificationRaw  
+      * $dateFirstCertification
+      * $dateFirstCertificationLong
+      * $dateFirstCertificationRaw
+      * $dateCertification
+      * $dateCertificationLong
+      * $dateCertificationRaw
+      * $dateNextRecertification
+      * $dateNextRecertificationLong
+      * $dateNextRecertificationRaw  
 
-  * $certificateVerificationUrl
+      * $certificateVerificationUrl
 
- _ Relatives Datum:_
+    _ Relatives Datum:_
 
-Auf dem Zertifikat können Daten angegeben werden, die relativ zu einem Raw-Datum berechnet werden:
+    Auf dem Zertifikat können Daten angegeben werden, die relativ zu einem Raw-Datum berechnet werden:
 
-Methode und Parameter| Beispiel: $dateNextRecertificationRaw = 15.11.2021  
----|---  
-  
-Relatives Datum kurz:
+    Methode und Parameter| Beispiel: $dateNextRecertificationRaw = 15.11.2021  
+    ---|---  
+      
+    Relatives Datum kurz:
 
-$formatter.formatDateRelative(Originaldatum, "Sprachcode", +/- Tage, +/-
-Monate, +/- Jahre)
+    $formatter.formatDateRelative(Originaldatum, "Sprachcode", +/- Tage, +/-
+    Monate, +/- Jahre)
 
-|
+    |
 
-$formatter.formatDateRelative($dateNextRecertificationRaw, "de", 7, -2, 10)
+    $formatter.formatDateRelative($dateNextRecertificationRaw, "de", 7, -2, 10)
 
-==> Relatives Datum = 22.09.2031  
-  
-Relatives Datum lang:
+    ==> Relatives Datum = 22.09.2031  
+      
+    Relatives Datum lang:
 
-$formatter.formatDateLongRelative(Originaldatum, "Sprachcode", +/- Tage, +/-
-Monate, +/- Jahre)
+    $formatter.formatDateLongRelative(Originaldatum, "Sprachcode", +/- Tage, +/-
+    Monate, +/- Jahre)
 
-|
+    |
 
-$formatter.formatDateRelative($dateNextRecertificationRaw, "de", 7, -2, 10)
+    $formatter.formatDateRelative($dateNextRecertificationRaw, "de", 7, -2, 10)
 
-==> Relatives Datum = 22. November 2031  
-  
-  
+    ==> Relatives Datum = 22. November 2031  
+      
+      
 
- _Daten aus der Kursbeschreibung:_
+    _Daten aus der Kursbeschreibung:_
 
-  * $!description  
+      * $!description  
 
-  * $!objectives  
+      * $!objectives  
 
-  * $!requirements  
+      * $!requirements  
 
-  * $!credits
+      * $!credits
 
- _Optionale Variablen:_
+    _Optionale Variablen:_
 
-  * $custom1
-  * $custom2
-  * $custom3
+      * $custom1
+      * $custom2
+      * $custom3
 
   
 
