@@ -28,8 +28,14 @@ Create a directory downloads and keep the downloaded files there:
 	-rw-rw-r-- 1 openolat openolat  11437266 Dez  8 14:44 apache-tomcat-9.0.40.tar.gz
 	-rw-rw-r-- 1 openolat openolat 194723798 Dez  8 14:44 OpenJDK11U-jdk_x64_linux_hotspot_11.0.9.1_1.tar.gz
 	-rw-rw-r-- 1 openolat openolat 146225737 Dez  8 14:44 openolat_1535.war
-	
-You do not need to use the exact versions from this manual, this is just an example. We recommend that you use the newest version within the given major version: Java 11, Tomcat 9. As for OpenOlat, you will need to use a version 15.3.x or newer. Note that you do not need a JDK to run OpenOlat, a JRE will work as well.
+
+
+You do not need to use the exact versions from this manual, this is just
+an example. We recommend that you use the newest version within the
+given major version: Java 11, Tomcat 9. As for OpenOlat, take the newest
+release please. If not, make sure to use a version 15.3.x or newer. Note
+that you do not need a JDK to run OpenOlat, a JRE will work as well.
+
 
 ## Prepare home directory
 
@@ -80,8 +86,9 @@ Create the file `~/bin/setenv.sh` containing
 	CATALINA_PID=~/run/openolat.pid
 	CATALINA_TMPDIR=/tmp/openolat
 	mkdir -p $CATALINA_TMPDIR
-	 
-	CATALINA_OPTS="-Xmx1024m -Xms512m -XX:MaxMetaspaceSize=512m \
+	
+	CATALINA_OPTS="
+	-Xmx1024m -Xms512m -XX:MaxMetaspaceSize=512m \
 	-Duser.name=openolat \
 	-Duser.timezone=Europe/Zurich \
 	-Dspring.profiles.active=myprofile \
