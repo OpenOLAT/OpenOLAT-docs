@@ -13,70 +13,52 @@ A newly created learning resource is by default only accessible to its owners
 and has the publication status "Preparation". Under "Status" the status can be
 changed and the learning resource can be made accessible to other members:
 
-Publication status| Access| Display  
----|---|---  
-  
-  * Preparation
+![course status](assets/course-status.jpg)
 
-| Only owners of this learning resource have access.|
-
-![](assets/Puplikationsstatus1_EN-2.png)
-
-  
-
-  
-
-![](assets/Publikationsstatus02_EN.png)  
-  
-  * Review
-
-| Only owners of this learning resource have access. All preparations for this
-learning resource have been completed and the contents have been released for
-further review.  
-  
-  * Access For Coach
-
-| Owners and coaches of this learning resource have access.  
-  
-  * Published
-
-| All members of the learning resource have access.  
-  
-  * Finished
-
-| All members still have access to the course, but can only read.  
+Publication status| Access|
+---|---| 
+Preparation | Only owners of this learning resource have access.|
+Review | Only owners of this learning resource have access. All preparations for this learning resource have been completed and the contents have been released for further review.  
+Access For Coach | Owners and coaches of this learning resource have access.  
+Published | All members of the learning resource have access.  
+Finished | All members still have access to the course, but can only read.  
   
 The concrete variant of course access (or access to a learning resource in
 general) is set up in the "Share" menu of the "Administration" course. In the
 following, you will learn which options are available to you.
 
-## Organize access for members
+## Organize access for participants
 
 The access to a course is configured in the "Administration" → "Settings" in
 the tab "Share".
 
-![](assets/Course settings_EN.png)
+![share-settings](assets/share.jpg)
 
-Three basic variants are available:
+Two basic variants are available:
 
-![](assets/Freigabe_Benutzer_EN.png)
+![Offers and Booking methods](assets/booking.jpg)
 
 With the private member administration the participants are registered by the
 owner and/or persons, who have the right of the member administration.
 
-If the "Bookable" option is selected, learners can book a course/learning
-resource themselves, but may have to enter a password (depending on the
-setting).
+If the "Bookable and open offers" option is selected, learners can book a course/learning
+resource themselves, but may have to enter a password (depending on offer created).
 
-If the setting "open without booking" is selected, everyone can attend the
-course and it is not visible to the owners who has dialed into the course. If
-required, guests without OpenOlat identification can also be granted access to
-the learning resource via this option.
+## Release for other authors
 
-## Configure booking methods
+Furthermore, the tab "Share" can be used to define which additional rights
+other authors have to the learning resource.
 
-If you have previously selected the option "Bookable - Booking by user
-necessary", you can then continue to set up the booking method and also check
+Authors can | Description  
+---|---  
+reference | Learning resources such as glossary, form or test can be integrated in courses of other authors.  
+copy | The learning resource can be copied by other authors.  
+download | The learning resource is available for download by other authors.  
+
+## Configure booking methods and offers
+
+![offer Screen](assets/offer.jpg)
+If you have previously selected the option "Bookable and open offers", you can then continue to set up the booking method and also check
 whether the users should receive a confirmation e-mail.
 
 You can define when and under which conditions the users of the system can
@@ -86,9 +68,17 @@ occupying, enrolling, shopping.
 Select the button "Add booking method" to add one of the following booking
 methods:
 
-  *  **![](assets/gift.png)  Freely available**: Select the free booking method if no other restrictions shall apply. All users can book the resource. Using this booking method adds users as participants to the resource, but will not add them to a group, thus working like the enrolment course element. Once the feature " _Freely available"_  is activated, users will automatically be directed to the course view, without the need to confirm the booking through the booking dialog.
-  *  **![](assets/key.png)  Access code**: Select the access code booking method if booking shall be restricted to people in possession of a specific access code. The access code must be provided to participants, e.g. by email. The participants must enter the access code before they can open a corresponding course. This is the method of choice when providing payable courses, or courses with otherwise limited access, respectively.
-  *  **![](assets/cc-paypal.png)  PayPal and credit card** (only available if unlocked by an administrator): Select the PayPal/Credit card payment method require a financial payment to access a resource. When using this booking method you can define an amount of money required to be payed in the currency defined in the system configuration. This amount can then be payed by either a PayPal account or by using a credit card (Visa/Mastercard). (This feature is only available for users with author rights)
+![gift](assets/gift.png){ class="size24" }  **Freely available**
+
+Select the free booking method if no other restrictions shall apply. All users can book the resource. Using this booking method adds users as participants to the resource, but will not add them to a group, thus working like the enrolment course element. Once the feature " _Freely available"_  is activated, users will automatically be directed to the course view, without the need to confirm the booking through the booking dialog.
+
+![key](assets/key.png){ class="size24" }  **Access code**
+
+Select the access code booking method if booking shall be restricted to people in possession of a specific access code. The access code must be provided to participants, e.g. by email. The participants must enter the access code before they can open a corresponding course. This is the method of choice when providing payable courses, or courses with otherwise limited access, respectively.
+
+![paypal](assets/cc-paypal.png){ class="size24" } **PayPal and credit card**
+
+(only available if unlocked by an administrator): Select the PayPal/Credit card payment method require a financial payment to access a resource. When using this booking method you can define an amount of money required to be payed in the currency defined in the system configuration. This amount can then be payed by either a PayPal account or by using a credit card (Visa/Mastercard). (This feature is only available for users with author rights)
 
 Optionally, you can add a validity period to each booking method in order to
 control resource access in addition to the use of visibility and access rules.
@@ -126,9 +116,9 @@ participants are per default allowed to leave the course at any time, never,
 or after the course end date. You can override the default setting anytime.
 The following options are available:
 
-  * At any time (Default): Participants may leave the course at any given time.
-  * After course end date: If an [execution period](https://confluence.openolat.org/display/OO130EN/Access+configuration#Accessconfiguration-d14e1774) has been configured for the course, this options allows participants to leave the course at the end of this time period. If this option was selected without a configured execution period, participants are not allowed to leave the course at any time.
-  * Never: Participants may never leave the course.
+* At any time (Default): Participants may leave the course at any given time.
+* After course end date: If an [execution period](https://confluence.openolat.org/display/OO130EN/Access+configuration#Accessconfiguration-d14e1774) has been configured for the course, this options allows participants to leave the course at the end of this time period. If this option was selected without a configured execution period, participants are not allowed to leave the course at any time.
+* Never: Participants may never leave the course.
 
 If members are allowed to leave the course, they can do so by selecting "Leave
 course" in the "My course" menu.
@@ -136,36 +126,6 @@ course" in the "My course" menu.
 ![](assets/Leave_course_EN.png)
 
 By default, users can leave a course or learning resource at any time.
-
-## Release for other authors
-
-Furthermore, the tab "Share" can be used to define which additional rights
-other authors have to the learning resource.
-
-Authors can
-
-|
-
-Description  
-  
----|---  
-  
-  * reference
-
-|
-
-This option is not relevant for courses.
-
-For other learning resources (e.g. a glossary or test) it is then possible for
-other course authors to include them in their courses.  
-  
-  * copy
-
-| The learning resource can be copied by other authors.  
-  
-  * download
-
-| The learning resource is available for download by other authors.  
   
 The options "reference" and "copy" make sense if you want to use a template or
 a good example for other OpenOlat authors.
@@ -194,6 +154,3 @@ via the action
 menu![](assets/Action menu.png)in
 the author area. In this case, the learning resource is moved to the "Deleted"
 tab and is in the trash, so to speak.
-
-  
-
