@@ -8,7 +8,7 @@ Das OpenOlat-Handbuch ist für Personen geschrieben, die aus verschiedensten Gr�
 
 Möglicherweise kennen Sie OLAT als Benutzer und möchten nun selbst Lerninhalte in OpenOlat zur Verfügung stellen. Dann können die Kapitel zu Lernressourcen, Kurserstellung, Kursbausteinen und Kurseditor, Testerstellung sowie Kursbetrieb ihre Arbeit unterstützen.
 
-Falls Sie schon OLAT-Experte sind, dient Ihnen dieses Handbuch als Nachschlagewerk. Orientieren Sie sich am Inhaltsverzeichnis oder in der PDF-Version zusätzlich am Stichwortverzeichnis, um möglichst schnell an die gewünschte Stelle zu gelangen.
+Falls Sie schon OLAT-Experte sind, dient Ihnen dieses Handbuch als Nachschlagewerk. Orientieren Sie sich am Inhaltsverzeichnis, um möglichst schnell an die gewünschte Stelle zu gelangen.
 
 In diesem Handbuch wird die weibliche Form der männlichen nicht beigestellt. Der Grund dafür ist allein die bessere Lesbarkeit. Wo sinnvoll, ist selbstverständlich immer auch die weibliche Form gemeint.
 

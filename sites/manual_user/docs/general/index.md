@@ -19,8 +19,7 @@ learning resources, course elements, course editor and the ones on how to
 create courses or tests will assist you in your work.
 
 If you were already an OLAT expert this manual will serve as a work of
-reference. Its table of contents is there to guide you; the PDF version
-additionally provides an index in order to find what you are looking for as
+reference. Its table of contents is there to guide you in order to find what you are looking for as
 fast as possible.
 
 ***
