@@ -308,10 +308,9 @@ Im Einzelnen stehen folgende Konfigurationsmöglichkeiten zur Verfügung:
 Nur wenn unter "Punkte" Summe oder Durchschnitt gewählt wurde, kann im
 Kurseditor auch der Reiter "Highscore" des obersten Kursbausteins konfiguriert werden.
 
-!!! info "Hinweis"
-
-Bei herkömmlichen Kursen werden die Kriterien für das Bestehen eines Kurses im
-Kurseditor auf dem obersten Kursbaustein im Tab "Punkte" eingestellt und das Ergebnis auf der Kursstartseite angezeigt. 
+!!! hint "Hinweis"
+	Bei herkömmlichen Kursen werden die Kriterien für das Bestehen eines Kurses im
+	Kurseditor auf dem obersten Kursbaustein im Tab "Punkte" eingestellt und das Ergebnis auf der Kursstartseite angezeigt. 
 
 ##  Optionen {: #options}
 

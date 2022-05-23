@@ -341,9 +341,10 @@ the criteria mentioned applies.
 Only if sum or average has been selected under "Score," the tab "High Score"
 can be configured in the course editor.
 
-For conventional courses, the criteria for passing a course are set in the
-course editor on the top course element and the result is displayed on the
-course start page.
+!!! hint
+	For conventional courses, the criteria for passing a course are set in the
+	course editor on the top course element and the result is displayed on the
+	course start page.
 
 ##  Options  {: #options}
 
