@@ -87,7 +87,7 @@ Create the file `~/bin/setenv.sh` containing
 	CATALINA_TMPDIR=/tmp/openolat
 	mkdir -p $CATALINA_TMPDIR
 	
-	CATALINA_OPTS="
+	CATALINA_OPTS=" \
 	-Xmx1024m -Xms512m -XX:MaxMetaspaceSize=512m \
 	-Duser.name=openolat \
 	-Duser.timezone=Europe/Zurich \
