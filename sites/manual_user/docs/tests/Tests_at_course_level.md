@@ -8,6 +8,8 @@ Open the course, go to the course editor and add a course element "Test" or sele
 
 ![Test Tabs Course level](assets/Test_Tabs_Kursebene_DE.jpg){ class="shadow" }
 
+Die Tabs "Titel und Beschreibung" sowie "Layout" sind bei allen Kursbausteinen gleich.
+
 ### Tab Learning path
 
 As with all learning path courses, you can define here whether the course element is mandatory for the learning path course or whether it should not be used for the learning path display (setting "voluntary"), from when the test will be visible, until when processing is possible and what processing time can be expected for this element. In addition, the following completion criteria are available:
@@ -20,6 +22,9 @@ Here you select or create the test you want to use. Subsequently, further settin
 
 #### Section Test
   
+**Bewertung mit Einstufung/Noten**
+Wählen Sie eine der vorgegebenen Bewertungsskalen z.B. Noten, Niveaustufen oder Emojis aus. Sie können anschließend die Punkte Untergrenze auch noch anpassen. Entscheiden Sie auch ob die Stufenzuordnung automatisch für den User sichtbar sein soll oder ob die Zuordnung manuell durch den Betreuer bereitgestellt werden soll. 
+
 **Ignore in course assessment** : If the check mark is set here, the test is not taken into account when calculating progress in a [learning path course](../course_create/Learning_path_course.md). This setting is not available for a conventional course.
 
 **Set assessment period** : The test can be started during the test period. As soon as the "to" time is reached, the test is automatically terminated. This is also the case if the defined test time has not yet been used up.  
@@ -68,28 +73,41 @@ If you include a test in a course, the settings from the configuration of the le
 
 If the configuration needs to be adapted, "Adjust configuration" needs to be selected. These adaptions do not have any impact on the configuration of the learning resource itself. In the tab Test configuration some additional configuration can be made.
 
+### Tab "Kommunikation"
+Hier kann eingestellt werden ob während der Durchführung des Tests Teilnehmende live Anfragen per Chat an die Kurs Betreuer bzw. Besitzer senden dürfen. Das macht natürlich nur dann Sinn, wenn während eines definierten Test-Zeitraums auch reale betreuende Personen die Testdurchführung beobachten.
+
 ### Tab HighScore
 
 A highscore overview for the test can also be activated and further configured here.
 
 ![Highscore settings](assets/Highscore_Einstellungen_DE.png){ class="shadow" }
 
+### Tab "Korrektoren"
+Es erscheint eine Übersicht der Korrektoren sowie weitere Informationen. Per Link zur Lernressource des Tests können Änderungen vorgenommen werden. 
+
+### Tab "Erinnerungen"
+Hier können Einnerungsmails nach bestimmten Kriterien konfiguriert werden. Weitere Informationen zum Versand von Erinnerungen erhalten Sie [hier](../course_operation/Course_Reminders.de.md).
+
 ## Comparison: Test and Self-test
 
 Feature | ![Test](assets/test.png){ class=size16 } Test | ![Selbsttest](assets/selftest.png){ class=size16 } Selftest
 ------|------|------
-Intended use | Examination test, test with the possibility of examination by the teacher | Exercise, self-evaluation
+Intended use | Examination test, test with the possibility of examination by the teacher, normal test | Exercise, self-evaluation
 Created with | Test editor QTI 2.1| Test editor QTI 2.1
 Question types QTI 2.1| all question types possible | All [question types](Test_question_types.md) possible, but only automatically scorable question types can also be used for points.
 Embedding with course element | Test | Self-test
 Results | appear in the [assessment tool](../course_operation/Assessing_tests.md) and in the [test statistics](../course_operation/Using_Course_Tools.md#statistics) and are visible for coaches | appaer _not_ in the [assessment tool](../course_operation/Assessing_tests.md) and in the [test statistics](../course_operation/Using_Course_Tools.md#statistics) and are thus not visible for coaches and owners
 Archiving of results | yes, personalized | yes, anonymized - however, a personal correlation or feedbacks are not possible
 
-Sometimes it makes sense to use the type "test" even if you actually want to provide the learners with a self-test, because with tests you have the possibility to support the learners individually if necessary and also to provide feedback on manually assessable question types.
+!!! tip "Tipp"
+
+    Sometimes it makes sense to use the type "test" even if you actually want to provide the learners with a self-test, because with tests you have the possibility to support the learners individually if necessary and also to provide feedback on manually assessable question types.
 
 ## Changes to tests and self-tests
 
-As soon as a test or self-test is included in a course, only very limited changes can be made under "Edit content". Therefore, tests should not be included in a course until they are completely finished.  
+!!! warning "Achtung"
+
+    As soon as a test or self-test is included in a course, only very limited changes can be made under "Edit content". Therefore, tests should not be included in a course until they are completely finished.  
 
 Why is that? Assuming you could add questions to an integrated test or mark other answers as correct, not all test subjects would meet the same requirements. On the other hand, results may already have been saved that cannot be unambiguously assigned to a version of the test file after the change. Therefore the editing of already integrated tests and self-tests is strongly restricted.
 

@@ -44,18 +44,19 @@ Kursfunktionen finden Sie im Unterkapitel
 Abonnieren Sie bestimmte Elemente in Kursen und Gruppen um sich rasch über Änderungen informieren zu lassen. 
 
 Folgende Objekte sind abonnierbar: 
-* Forum 
-* Ordner 
-* Wiki 
-* Kalender
-* Aufgabe
-* Dateidiskussion
-* Portfoliomappen
-* Mitteilung
-* Teilnehmer-Ordner
-* Blog
-* Podcast
-* Video 
+
+  * Forum 
+  * Ordner 
+  * Wiki 
+  * Kalender
+  * Aufgabe
+  * Dateidiskussion
+  * Portfoliomappen
+  * Mitteilung
+  * Teilnehmer-Ordner
+  * Blog
+  * Podcast
+  * Video 
 
 
 
