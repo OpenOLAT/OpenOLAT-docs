@@ -4,23 +4,20 @@
 
 ### Sequenziell oder "ohne Reihenfolge"
 
-Lernpfad Kurse können so konfiguriert werden, dass sie sequenziell oder in
-beliebiger Reihenfolge von den Lernenden durchlaufen werden. Die
-Grundeinstellung wird auf dem obersten Kursbaustein, der beim Erstellen eines
-Kurses automatisch erstellt wird, eingestellt. Diese Einstellung gilt dann
+Lernpfad Kurse können grundsätzlich so konfiguriert werden, dass sie sequenziell oder in beliebiger Reihenfolge von den Lernenden durchlaufen werden. Die Grundeinstellung wird auf dem obersten Kursbaustein, der beim Erstellen eines Kurses automatisch erstellt wird, eingestellt. Diese Einstellung gilt dann
 zunächst für den gesamten Kurs.
 
 Beispiele und eine weitere Einführung findet man auch in unserem [Whitepaper
 für Lernpfadkurse (hier
 herunterladen)](assets/Whitepaper_Lernpfadkurse_final.pdf).
 
-![](assets/Lernpfad_sequenziell.png)
+![](assets/Tab_Lernpfad_Struktur.png)
 
 Sollen bestimmte Bereiche des Kurses eine andere Einstellung erhalten, kann
 dies über das Hinzufügen und Konfigurieren des Kursbausteins „Struktur“
 erfolgen. Die gewählte Einstellung gilt dann für alle diesem [Kursbaustein
-„Struktur](../../pages/viewpage.action%EF%B9%96pageId=108593217.html)“
-untergeordneten Kursbausteine. So kann beispielsweise ein Kurs standardmäßig
+„Struktur"](../course_elements\Course_Element_Structure.de.md)
+untergeordneten Kursbausteine. So kann beispielsweise ein Kurs standardmässig
 als sequenziell konfiguriert sein, aber ein bestimmter Bereich im Kurs kann
 permanent in beliebiger Reihenfolge aufgerufen werden.
 
@@ -32,68 +29,58 @@ Dinge konfiguriert werden:
 
 ![](assets/Lernpfad_tab16.png)
 
-  *  **Durchführung**
-    *  **Obligatorisch** : Die Erledigung des Kursbausteins ist verbindlich und wird bei der prozentualen Auswertung des Lernfortschritts berücksichtigt.
-    *  **Freiwillig** : Die Erledigung wird nicht bei der prozentualen Anzeige berücksichtigt.
-    *  **Ausgenommen:  **Die Erledigung ist nicht Teil des Lernpfades und nur durch Ausnahmen steuerbar.
-  *  **Freigabedatum** : Datum ab dem das Element vom User bearbeitet werden kann. Der Baustein ist dabei sichtbar aber nicht zugänglich.
-  *  **Zu bearbeiten bis** : Ist ein Kursbaustein obligatorisch, kann man auch ein Datum eintragen bis zu dem die Bearbeitung erfolgt sein muss.
-  *  **Bearbeitungszeit** : Hier kann eingetragen werden, wie lang der Ersteller die Bearbeitungszeit für den jeweiligen Baustein einschätzt. Er ist unabhängig davon wieviel Zeit der User wirklich für den Baustein benötigt.
+  * **Durchführung**
+    *  **Obligatorisch**: Die Erledigung des Kursbausteins ist verbindlich und wird bei der prozentualen Auswertung des Lernfortschritts berücksichtigt.
+    *  **Freiwillig**: Die Erledigung wird nicht bei der prozentualen Anzeige berücksichtigt.
+    * **Ausgenommen**: Die Erledigung ist nicht Teil des Lernpfades und nur durch Ausnahmen steuerbar. Der Kursbaustein ist für die Teilnehmenden nicht sichtbar.
+  *  **Freigabedatum**: Regelt den Zugang zum jeweiligen Kursbausein. Der Baustein ist vor dem Freigabedatum zwar sichtbar aber nicht zugänglich. Auch ein relatives Freigabedatum ist möglich.
+  *  **Zu bearbeiten bis**: Ist ein Kursbaustein obligatorisch, kann man auch ein Datum eintragen bis zu dem die Bearbeitung erfolgt sein muss.
+  *  **Bearbeitungszeit**: Hier kann eingetragen werden, wie lang der Ersteller die Bearbeitungszeit für den jeweiligen Baustein einschätzt. Die Bearbeitungszeit ist unabhängig davon wieviel Zeit der User wirklich für den Baustein benötigt.
 
 Diese Einstellungen stehen für fast alle Kursbausteine zur Verfügung. Eine
-Ausnahme bildet jedoch der Kursbaustein „Struktur“, der für die Bündelung von
-Kursbausteinen gedacht ist.  Im Strukturbaustein kann die Abfolge der
+Ausnahme bildet jedoch der [Kursbaustein „Struktur"](../course_elements\Course_Element_Structure.de.md), der für die Bündelung von
+Kursbausteinen gedacht ist. Im Strukturbaustein kann die Abfolge der
 Lernschritte die für alle untergeordneten Kurselemente gilt, mit sequenziell
 oder spezifischer Reihenfolge definiert werden.
 
 ### Ausnahmen
 
-![](assets/image2021-12-8_15-7-31.png)
+![](assets/Ausnahmen.png)
 
-Ausnahmen können mittels Toggle aktiviert werden und sind eine erweiterte,
-feingranularere Steuerung, wer diesen Kursbaustein sehen und bearbeiten kann.  
-Für jeden Kursbaustein im Lernpfad kann man gewisse Ausnahmen definieren.
-Damit werden bestimmte Gruppen oder Personen vom Zugriff auf den jeweiligen
-Kursbaustein ausgeschlossen. Mithilfe dieser Ausnahmen können individuelle
-Lernpfade für verschiedene Lernende umgesetzt werden.
+Mit einschalten der "Ausnahmen" kann differenzierter eingestellt werden wer den jeweiligen Kursbaustein sehen und bearbeiten darf und wer nicht. Es wird zunächst eine Grundeinstellung vorgenommen und anschliessend können Ausnahmen von dieser Grundeinstellung definiert werden. Auch mehrere Ausnahmen (Oder-Verknüpfung) sind möglich. 
+So kann ein Kursbaustein z.B. grundsätzlich obligatorisch sein aber so konfiguriert werden, dass die Bearbeitung für bestimmte Personen oder Gruppen freiwillig ist oder der Kursbaustein gar nicht sichtbar ist (ausgenommen). Mithilfe dieser Ausnahmen können individuelle Lernpfade für verschiedene Lernende umgesetzt werden. 
 
-  *  **Gruppen:**  Kursbausteine sind nur für bestimmte Gruppen verfügbar 
+Die Ausnahmen können sich auf folgende Aspekte beziehen:
 
-  * **Organisationen** : Kursbausteine sind nur für bestimmte Org-Groups verfügbar 
-
-  * **Benutzer:**  Einzelne Benutzer können für den Kursbaustein ausgeschlossen werden 
-
-  * **Benutzer-Attribut:  **Kursbausteine sind nur für Benutzer mit bestimmten Benutzer-Attributen verfügbar 
-
-  * **Kursbaustein bestanden** : Kursbausteine sind nur für Benutzer verfügbar, die einen bewertbaren anderen Kursbaustein bestanden haben (siehe Erledigungskriterien) (z.B. Test XY bestanden)
-
+  * Gruppen
+  * Organisationen
+  * Benutzer  
+  * Benutzer-Attribut
+  * Kursbaustein bestanden: 
+   Der konfigurierte Kursbaustein wird in Abhängigkeit eines anderen bewertbaren Kursbausteins bereitgestellt. Zum Beispiel ist der Kursbaustein nicht sichtbar (=ausgenommen), wenn ein bestimmter Test nicht bestanden wurde.
   
 
- Weitere Beispiele hier:
+ **Weitere Konfigurationsbeispiele für Ausnahmen:**
 
-Ausnahmen nicht aktiviert:
-
-![](assets/image2021-12-8_15-8-39.png)
-
-  
-
-Ausnahmen aktiviert und eine Gruppe hinzugefügt:
+a) Der Kursbaustein ist grundsätzlich nicht sichtbar, ausser man ist Mitglied in der Gruppe "B-ernhardiner". Dann ist die Bearbeitung obligatorisch.  
 
 ![](assets/image2021-12-13_13-41-2.png)
 
-  
+b) Der Kursbaustein Struktur und alle untergeordneten Kursbausteine sind grundsätzlich sichtbar ausser für die Mitglieder der Gruppe Glossar oder die Einzelperson "John Green". 
+![](assets/Ausnahme_b.png)
+
+c) Der Kursbaustein ist grundsätzlich obligatorisch. Für diejenigen die eine bestimmte Checkliste bestanden haben ist die Bearbeitung freiwillig und für die Personen, die einen bestimmten Test erledigt haben ist der Kursbaustein gar nicht sichtbar (ausgenommen).
+![](assets/Ausnahme_c.png)
 
 ### Bearbeitungszeit
 
 Die Bearbeitungszeit ist besonders relevant, wenn in den Kurseinstellungen für
 die Durchführung der Lernfortschritt anhand der Bearbeitungszeit ermittelt
-wird (siehe [Lernpfad Kurse](Creating_learning_path_courses.de.md) erstellen). In
-diesem Fall werden alle Zeitangaben der einzelnen Kursbausteine summiert und
-die Gesamtsumme als Basis für 100 % genommen.
+wird (siehe [Lernpfad Kurse](Creating_learning_path_courses.de.md) erstellen). In diesem Fall werden alle Zeitangaben der einzelnen Kursbausteine summiert und die Gesamtsumme als Basis für 100 % genommen.
 
 Sofern eine Zeitangabe für einen Kursbaustein hinterlegt wurde, wird diese
-Bearbeitungszeit auch den Teilnehmern angezeigt solange sie den Kursbaustein
-noch nicht erledigt haben. Sind eine Kursbausteine mit einem Strukturbaustein
+Bearbeitungszeit den Teilnehmenden angezeigt solange der Kursbaustein
+noch nicht erledigt wurde. Sind  Kursbausteine mit einem Strukturbaustein
 gebündelt wird den Teilnehmenden ferner aufaddiert die gesamte
 Bearbeitungszeit der untergeordneten Kursbausteine angezeigt. Voraussetzung
 ist, dass im Tab "Layout" des Strukturbausteins die Anzeige des Titels
@@ -109,61 +96,37 @@ Kursbausteinen angezeigt.
 
 ### Erledigungskriterien
 
-Die meisten Kursbausteine bieten die Möglichkeit, dass der Baustein als
-„erledigt“ gilt, wenn er geöffnet wird oder wenn der User explizit die
-Bearbeitung bestätigt. Je nach Kursbaustein stehen aber auch noch weitere
-Erledigungskriterien zur Verfügung.
+Bis auf den Kursbaustein "Struktur" bieten alle Kursbausteine die Möglichkeit, dass der Baustein als „erledigt“ gilt, wenn er geöffnet wird oder wenn der User explizit die Bearbeitung bestätigt. Je nach Kursbaustein stehen auch noch weitere interessante Erledigungskriterien zur Verfügung:
 
- **Kursbaustein öffnen**
-
-|
-
+ * **Kursbaustein öffnen**: alle Kursbausteine ausser Struktur   
+ 
+ * **Bestätigung durch den Benutzer**: 
 alle Kursbausteine ausser Struktur  
   
----|---  
-  
- **Bestätigung** durch den Benutzer
-
-|
-
-alle Kursbausteine ausser Struktur  
-  
- **Punkte** :  
-Erledigt, wenn der User eine gewisse Mindestpunktzahl erreicht hat.
-
-|
-
+ * **Punkte**: Erledigt, wenn der User eine gewisse Mindestpunktzahl erreicht hat.  
+ Verfügbar für die Kursbausteine: 
 Aufgabe, SCORM, Bewertung, Gruppenaufgabe, Checkliste, Test, LTI,
 Portfolioaufgabe  
   
- **Bestanden** :  
-Erledigt, wenn die für den Kurbaustein definierten Bestehens Kriterien erfüllt
-sind.
-
-|
-
-Aufgabe, SCORM, Bewertung, Gruppenaufgabe, Checkliste, Test, LTI,
-Portfolioaufgabe  
+ * **Bestanden**: Erledigt, wenn die für den Kurbaustein definierten Bestehens Kriterien erfüllt sind.
+Verfügbar für die Kursbausteine: Aufgabe, SCORM, Bewertung, Gruppenaufgabe, Checkliste, Test, LTI, Portfolioaufgabe  
   
- **Durchführung erledigt:**  
-Komplett erledigt, wenn alle Schritte der Aufgabe durchlaufen wurden. In den
-Zwischenstadien wird beim Fortschritt eine teilweise Bearbeitung prozentual
-berücksichtigt.
-
-|
-
-Aufgabe, Gruppenaufgabe, Portfolioaufgabe  
+ * **Durchführung erledigt:** Komplett erledigt, wenn alle Schritte durchlaufen wurden. In den Zwischenstadien wird beim Fortschritt eine teilweise Bearbeitung prozentual berücksichtigt.
+Verfügbar für die Kursbausteine: Aufgabe, Gruppenaufgabe, Portfolioaufgabe  
   
-Status durch **Betreuer auf "erledigt" gesetz** t:  
-Erledigt wenn der Betreuer dies manuell gekennzeichnet hat.| Bewertung,
-Checkliste,  
- **Test beendet**|  Test  
- **Umfrage teilgenommen:**  
-Erledigt, wenn der User die Umfrage abgegeben hat.| Umfrage  
- **Einschreibung erfolgt:**  
-Erledigt, wenn sich der User in mindestens eine Gruppe eingeschrieben hat.|
-Einschreibung  
- **Formular ausgefüllt**|  Formular  
- **Video bis zum Ende geschaut (95%)**|  Video  
- **E-Mail versendet**|  E-Mail
+* Status durch **Betreuer auf "erledigt" gesetzt**: Erledigt, wenn der Betreuer dies manuell gekennzeichnet hat.
+Verfügbar für die Kursbausteine: Bewertung und Checkliste
+ 
+ * **Test beendet**: Nur für Kursbaustein  Test  
+ 
+ * **Umfrage teilgenommen:** Erledigt, wenn der User die Umfrage abgegeben hat.
+ Nur für den Kursbaustein Umfrage  
+ 
+ * **Einschreibung erfolgt:** Erledigt, wenn sich der User in mindestens eine Gruppe eingeschrieben hat.
+ Nur für den Kursbaustein Einschreibung  
 
+ * **Formular ausgefüllt**: Nur für den Kursbaustein Formular  
+ 
+ * **Video bis zum Ende geschaut (95%)**:  Nur für den Kursbaustein Video  
+
+ * **E-Mail versendet**: Nur für den Kursbaustein E-Mail

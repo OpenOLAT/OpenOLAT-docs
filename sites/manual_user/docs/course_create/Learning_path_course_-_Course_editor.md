@@ -1,4 +1,4 @@
-editor](Learning_path_course_-_Course_editor.md)
+## Learning path cours - Course editor
 
 ## Sequence of learning steps
 
@@ -28,9 +28,10 @@ configured here:
 
   *  **Mandatory:** The completion of the course element is binding and will be considered in the percentage evaluation.
   *  **Optional:** Completion will not be taken into account when displaying percentages.
-  *  **Release date:** Date as of which the element can be edited by the user.
+  * **Ausgenommen**: Die Erledigung ist nicht Teil des Lernpfades und nur durch Ausnahmen steuerbar. Der Kursbaustein ist für die Teilnehmenden nicht sichtbar.
+  *  **Release date:** (Date as of which the element can be edited by the user.) Regelt den Zugang zum jeweiligen Kursbausein. Der Baustein ist vor dem Freigabedatum zwar sichtbar aber nicht zugänglich. Auch ein relatives Freigabedatum ist möglich.
   *  **Due date:** If a course element is mandatory you can also enter a date by which the element must be completed.
-  *  **Learning time (minutes):** Here you can enter how long the creator estimates the processing time for a given element. It does not depend on how much time the user really needs for that element. ~~This setting is particularly relevant if the progress of learning is determined by the processing time in the course settings. In this case all times are summed up and the total sum is taken as the basis for 100%.~~
+  *  **Learning time (minutes):** Here you can enter how long the creator estimates the processing time for a given element. It does not depend on how much time the user really needs for that element. 
 
 These settings are available for almost all course elements. An exception is
 the course element "Structure" that is meant for bundling course elements.  In
@@ -66,70 +67,33 @@ Most course elements offer the possibility that the element is considered
 "done" when it is opened or when the user explicitly confirms the processing.
 Depending on your course element there are also other criteria for completion.
 
- **Visit course element**
+ * **Visit course element**: 
+all course elements except structure  
 
-|
-
+ * **Confirmation** by participant: 
 all course elements except structure  
   
----|---  
-  
- **Confirmation** by participant
-
-|
-
-all course elements except structure  
-  
- **Score:**  
-
-Done when the user has reached a certain minimum score.
-
-|
-
+ * **Score:**  Done when the user has reached a certain minimum score.
 Task, SCORM, Assessment, Grouptask, Check list, Test, LTI, portfolio task  
   
- **Passed:**
-
-Completed when the pass criteria defined for the course component are met.
-
-|
-
+ * **Passed:** Completed when the pass criteria defined for the course component are met.
 Task, SCORM, Assessment, Grouptask, Check list, Test, LTI, portfolio task  
-  
- **Execution done:**
 
-Completely done when all steps of the task have been completed. In the
+*  **Execution done:** Completely done when all steps of the task have been completed. In the
 intermediate stages, partial completion is taken into account as a percentage
 of progress.
-
-|
-
 Task, Grouptask, portfolio task  
   
- **Coach has set status to "done":**
-
-Erledigt wenn der Betreuer dies manuell gekennzeichnet hat.
-
-| Assessment, Check list  
- **Test finished**|  Test  
+ * **Coach has set status to "done"**
+Erledigt wenn der Betreuer dies manuell gekennzeichnet hat. Verfügbar für die Kursbausteine: Assessment, Check list  
+ * **Test finished**: Only for the course element Test   
   
- **Survey finished:**
-
-Done when the user has submitted the survey.
-
-| Survey  
+ * **Survey finished:** Done when the user has submitted the survey. Only for the course element Survey  
   
- **Enrollment done:**
-
-Done if the user has enrolled in one or more group(s).
-
-| Enrollment  
+ * **Enrollment done:** Done if the user has enrolled in one or more group(s). Only for the course element Enrollment  
   
- **Form filled in**
+ * **Form filled in**: Only for the course element Form  
 
-  
-
-|  Form  
- **Video watched to the end (95%)**|  Video  
- **E-Mail sent**|  E-Mail
+ * **Video watched to the end (95%)**: Only for the course element Video  
+ * **E-Mail sent**: Only for the course element E-Mail
 
