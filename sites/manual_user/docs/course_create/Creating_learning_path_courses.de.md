@@ -4,8 +4,6 @@ Die Erstellung sowohl von herkömmlichen als auch von Lernpfad Kursen erfolgt
 im Autorenbereich unter „Meine Einträge“ oder „Favoriten“ -> Erstellen ->
 Kurs. Anschließend kann der gewünschte Kurstyp gewählt werden.
 
-![](assets/Lernressource Kurs.png)
-
 Bereits existierende, herkömmliche Kurse können in Lernpfad Kurse umgewandelt
 werden. Einen entsprechenden Link findet man in der Kurs Administration und
 auch im Bereich "Einstellungen" im Tab "Durchführung".
@@ -18,8 +16,10 @@ nicht umgewandelt werden. Hier müssen zunächst die entsprechenden
 Kursbausteine entfernt werden und dann die Umwandlung noch einmal gestartet
 werden.
 
-Eine Umwandlung eines Lernpfad Kurses in einen herkömmlichen Kurs ist nicht
-möglich.
+!!! warning "Achtung"
+
+    Eine Umwandlung eines Lernpfad Kurses in einen herkömmlichen Kurs ist nicht
+    möglich!
 
 ## Konfiguration zur Berechnung des Lernfortschritts
 
@@ -31,19 +31,16 @@ Alternativ kann jeder obligatorische Kursbaustein mit einer zu erwartenden
 Bearbeitungszeit versehen werden und der Fortschritt sich auf die bereits
 absolvierten Zeiteinheiten beziehen.
 
-  
-
+![](assets/Screenshot 2020-06-10 at 09.41.43.png)
+ 
 Die Berechnungsgrundlage beeinflusst dann den für die Lernenden angezeigten
-Fortschritt, der in der Grafik rechts oben und im Bereich "Lernpfad" angezeigt
+Fortschritt, der in der Grafik rechts oben und im Bereich "Lernpfad" der Toolbar angezeigt
 wird.
 
 Darüber hinaus kann in den "Einstellungen" im Tab "Bewertung" noch definiert
 werden, ob auch die Gesamtpunkte des Kurses in der Fortschrittsgrafikanzeige
-erscheinen werden sollen (Summe oder Durchschnitt) und ob und wie ein Bestehen
+erscheinen sollen (Summe oder Durchschnitt) und ob und wie ein Bestehen
 des Kurses berechnet wird.
-
-![](assets/Screenshot 2020-06-10 at 09.41.43.png)
-
   
 
 ![](assets/Prozentanzeige.png)

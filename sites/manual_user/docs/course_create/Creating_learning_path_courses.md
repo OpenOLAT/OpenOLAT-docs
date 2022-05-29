@@ -19,8 +19,10 @@ contain a portfolio task or an old questionnaire cannot be converted at the
 moment. In this case, these course elements must first be removed and then the
 conversion must be started again.
 
-It is not possible to convert a learning path course into a conventional
-course.
+!!! warning "Warning"
+
+    It is not possible to convert a learning path course into a conventional
+    course.
 
 ## Configuration for calculating the learning progress
 
@@ -31,7 +33,8 @@ successfully completed mandatory course elements. Alternatively, each
 mandatory course element can be given an expected completion time and the
 progress can be based on the time units already completed.
 
-  
+
+![](assets/Kursfortschritt berechnen EN.png)  
 
 The calculation basis then influences the progress displayed for learners in
 the graphic at the top right and in the "Learning path" area.
@@ -41,9 +44,8 @@ In addition, it is possible to define in the "Settings" in the tab
 progress graphic display (sum or average) and whether and how a pass of the
 course is calculated.
 
-  
+ 
 
-![](assets/Kursfortschritt berechnen EN.png)
 ![](assets/Kursfortschritt EN.png)
 
   

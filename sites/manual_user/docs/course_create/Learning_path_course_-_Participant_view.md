@@ -1,4 +1,4 @@
-view](Learning_path_course_-_Participant_view.md)
+## Learning path course - Participant view
 
 A learning path course also differs from a traditional course for learners.
 The biggest differences are in the progress indicator and the learning path
@@ -11,7 +11,7 @@ orientation. The key areas are briefly highlighted below.
 
   1.  **Progress bar** (learning path) in the course:  
 Here the learners can see which elements they have already accessed or
-completed and also which course areas are not yet accessible.
+completed and also which course areas are not yet accessible. Ob die Anzeige sichtbar ist kann vom Kursebesitzer in der Kursadministration im Tab "Layout" eingestellt werden. 
 
   2. Learning path" link in the toolbar:  
 Here, learners can access the **general overview** of their completion status
@@ -25,7 +25,7 @@ Course owners or coaches can see the progress of all course participants.
 
   
 
-The visualized display (3) and the learning path area (2) provide learners
+The visualized display and infos provide learners
 with a quick and continuous overview of their course progress and current
 completion status.
 
@@ -46,5 +46,4 @@ sent when a certain percentage has been completed, e.g. anyone who has
 completed less than 60% will be motivated once again to complete the remaining
 work in the course.
 
-![](assets/LP Lesebestätigung EN.png)
 

@@ -26,14 +26,15 @@ If nothing else is mentioned in the online help, the term "course" refers to
 conventional courses. If it is about learning path courses, this will be
 mentioned explicitly.
 
-Please note: Learning path courses cannot be unlocked for guests. If this is
-an important aspect for your implementation, please use a conventional course.
+!!! warning "Warning"
+
+    Please note: Learning path courses cannot be unlocked for guests. If this is
+    an important aspect for your implementation, please use a conventional course.
 
   
+   Auf den nächsten Seiten erfahren Sie: 
 
-  
-
-  * [Creating learning path courses](Creating_learning_path_courses.md)
-  * [Learning path course - Course editor](Learning_path_course_-_Course_editor.md)
-  * [Learning path course - Participant view](Learning_path_course_-_Participant_view.md)
+  * How to [Create learning path courses](Creating_learning_path_courses.md)
+  * Welche Möglichkeiten im [Course editor] (Learning_path_course_-_Course_editor.md) zur Verfügung stehen.
+  * Wie sich der Lernpfad Kurs in der  [Participant view](Learning_path_course_-_Participant_view.md) zeigt.
 
