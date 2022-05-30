@@ -1,6 +1,7 @@
 
 # Button
-Buttons are clickable elements that are used to trigger actions. They communicate calls to action to the user and allow users to interact with pages in a variety of ways. 
+
+Buttons are clickable elements that are used to trigger actions. They communicate calls to action to the user and allow users to interact with pages in a variety of ways.
 
 ## Button Variants
 
@@ -17,6 +18,7 @@ The secondary button has more emphasis then a ghost button. Mostly used for seco
 ### Ghost button
 
 ![Ghost Button](assets/ghost-button.jpg)
+Ghost button is an text with a "invinsible" background, that is visible on hover or on select, when clicking on mobile.
 
 **normal state:**
 Link in primary color.
@@ -38,21 +40,43 @@ XS / S / SM / M / L
 
 ## Guidelines / Usage
 
+### When to use
+
+A button (`<button>`) element is used to indicate an action.
+
+### When not to use
+
+If you are directing a user to a new location, consider using an anchor (`<a>`) element, which can also be styled like a button when actions and destinations are present in the same set of controls.
+
+Do not use buttons as navigational elements. Instead, use links when the desired action is to take the user to a new page.
+
+### Types
+
+Use categories to bring varying action emphasis that guide the user when performing tasks.
+
 | Button type    | Use case|
 |--------------|-----------
 |Primary Button | Most important action on the page/section. A layout should contain a single primary button that makes it clear that other buttons have less importance in the hierarchy. |
-| Secondary Button / Default | Default Button for all other actions, that are available or less important than the primary |
+| Default Button / Secondary | Default Button for all other actions, that are available or less important than the primary |
 | Ghost Button | For the tertiary actions, who are less important or could stick out to much. |
-| Text Link | Only for linking between the different pages / sections (not technically a button) |
 
-### Navigation
-Do not use buttons as navigational elements. Instead, use links when the desired action is to take the user to a new page.
+### Alignment
 
-## Button Groups
+Buttons can be aligned left, right, or center depending on the context.
 
-| Alignment    | Use case|
-|--------------|-----------
-| *Right-justified*     | Inline notifications, inline field buttons and data tables, forms, wizards, and single-button dialogs |
-| *Full-width*    | Dialogs, and small pop-ups, where only 1 or 2 actions are necessary  |
+| Alignment| Use case| Samle Picture |
+|----------|----------|--------------|
+| *Left alignment*     | In page content and forms where the content is typically unconstrained other than by the normal OO Grid. In these instances an F-pattern (top to bottom and left to right in a horizontal movement) is common for reading flow, and buttons align with other content on the page like headings, lists, input labels, and form labels. | ![freeflow diagram](assets/forms-freeflow.jpg) |
+| *Right alignment*     | In fixed containers like and dialogs, flows that continue in a progressive direction, actions with a global impact, and toolbars. In these instances a Z-pattern (top to bottom and left to right with a diagonal, scanning movement) is common for reading flow. In these instances a user may be taking a progressive action, like affirming a modal, or an action upon a section, like formatting text in a comment. | ![workflow](assets/workflow-button.jpg) |
+| *centered*    | used for Emtpystates or  when the content has the only available action on the screen.  |![button centered](assets/button-centered-situation.jpg) |
 
-When using multiple buttons, the position of the primary button is the most important part. To sum up, a primary button will be left-aligned and positioned to the left of the secondary/tertiary button.
+### Order 
+
+![button-order](assets/button-order.jpg){ class="thumbnail-xl" }
+
+When using multiple buttons, the position of the primary action is the most important part. Primary actions are mostly affirmative actions:
+An affirmative action is something that helps the user fullfill his task (for example, Save or Delete), while a dismissive action takes a user back (for example, Cancel).
+
+![button order](assets/button-order2.jpg){ class="thumbnail-xl" }
+To sum up, a primary button will be left-aligned and positioned to the left of the secondary/tertiary button.
+Execption is the ellipsis button, its placed at the beneath the primary button.
