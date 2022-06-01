@@ -16,8 +16,12 @@ To optimize Loading Times, it's advised to use pagination in a table with more t
 ### Table view
 Original Table view for compact viewing of Information.
 
-### List view
-An enriched view of the provided items. Only used for the course list at the moment.
+### Card view
+An enriched view of the provided items. Only used for the course list at the moment. [Find more here](card.md)
+
+## Compact Card view
+Special for the new catalog . [Find more here](card.md)
+
 
 ### Add Search and Results 
 Contains the table search, result row and the table configurations. The bulk actions can also be found in this location when multiple rows are selected and replace the search & options.

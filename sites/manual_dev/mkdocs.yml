@@ -9,6 +9,7 @@ nav:
     - ux/index.md
     - Design Pattern: ux/patterns.md
     - Table: ux/table.md
+    - Card: ux/card.md
     - Tab / Tab pane: ux/tab.md
     - Button: ux/button.md
   - Manual How-To:
