@@ -2,7 +2,6 @@
 
 _Todo_
 
-- [ ] add variants pictures and alignment
 - [ ] elaborate on guidelines
 - [ ] add accessiblity guidelines
 
@@ -47,3 +46,5 @@ If we need a high information density or you need to compare data, the table vie
 Except for Buttons and the personal learning progress the content is right aligned.
 
 ### Accessibility
+
+--

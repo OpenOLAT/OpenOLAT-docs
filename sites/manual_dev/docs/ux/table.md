@@ -19,8 +19,6 @@ Original Table view for compact viewing of Information.
 ### Card view
 An enriched view of the provided items. Only used for the course list at the moment. [Find more here](card.md)
 
-## Compact Card view
-Special for the new catalog . [Find more here](card.md)
 
 
 ### Add Search and Results 
