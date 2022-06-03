@@ -2,14 +2,19 @@
 Use the table to display the information in rows and columns. Tables can contain text and images as well as actions and other components. 
 
 ## Base
-Table in his basic form contains a columns and rows and a header row.
+Table in his basic form contains a columns and rows and a header row. 
 
 ## Add Sorting
 Columns can be sorted in ascending or descending order. Sorting controls are located below the filter and above the header row. Sorting has two states, sorted-up or sorted-down besides the column to be sorted after. The icon indicates the current sorted state.
 
 ## Add Pagination
-Pagination is used for splitting up table data into several pages, with a control for navigating to the next or previous page.
-To optimize Loading Times, it's advised to use pagination in a table with more than 200 results.
+Pagination is used for splitting up table data into several pages, with a control for navigating to the next or previous page. You can also set the numbers of rows.To optimize Loading Times, it's advised to use pagination in a table with more than 200 results.
+
+## Allow edit of table rows
+You can allow the edition of specific table collumns of the table.
+
+## Allow Select/multi select
+You can allow no selection of the table rows, enable selection of table rows and allow for multi selection.
 
 ## Add Display Modes
 
@@ -18,8 +23,6 @@ Original Table view for compact viewing of Information.
 
 ### Card view
 An enriched view of the provided items. Only used for the course list at the moment. [Find more here](card.md)
-
-
 
 ### Add Search and Results 
 Contains the table search, result row and the table configurations. The bulk actions can also be found in this location when multiple rows are selected and replace the search & options.
@@ -32,6 +35,7 @@ Contains the predefined filters in filter groups, as well as buttons for adding/
 If it is collapsed, the "remove active filters" link at the top will indicate that I still have active filters set by myself.
 
 #### Filtertabs
+
  **Desktop**
 
 Are tab views that specifically contain the filters that have been set. There are filters that are provided by the system and filters that I can add myself. If I add my own filter, it will be attached to the filter group on the right.

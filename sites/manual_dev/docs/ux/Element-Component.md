@@ -1,5 +1,8 @@
 # Element-Component
 
+**Structure**
+Describe the Structure of the visual Component
+
 ## Variants
 
 ## Guidelines / Usage
