@@ -16,13 +16,16 @@ You can allow the edition of specific table collumns of the table.
 ## Allow Select/multi select
 You can allow no selection of the table rows, enable selection of table rows and allow for multi selection.
 
+## Add Empty State
+Specify the Empty State with a specialized message and add an icon picture or primary actions. [Find more here (empty state)](patterns.md)
+
 ## Add Display Modes
 
 ### Table view
 Original Table view for compact viewing of Information.
 
 ### Card view
-An enriched view of the provided items. Only used for the course list at the moment. [Find more here](card.md)
+An enriched view of the provided items. Only used for the course list at the moment. [Find more here (card)](card.md)
 
 ### Add Search and Results 
 Contains the table search, result row and the table configurations. The bulk actions can also be found in this location when multiple rows are selected and replace the search & options.
