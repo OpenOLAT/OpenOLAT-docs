@@ -12,13 +12,8 @@ values.
 ![](assets/bulk_assessment_excel.png)
 
 Bulk assessments can be made for the [assessment course elements](../course_operation/Assessment_of_course_modules.md) task, group task and assessment.
-Bulk assessment for the modules task and assessment is carried out via the tab
-"Users". The bulk assessment for groups is done via the tab "Groups".
-
 
 ## Creation of a bulk assessment for the course elements task or assessment {: #node}
-  * [Task](../course_operation/Assessing_tasks_and_group_tasks.de.md)
-  * [Assessment](../course_operation/Assessment_of_course_modules.de.md)  
 
 Use an external table processing program, create the required columns and
 enter the value assignments. Then copy the table data to the bulk assessment
@@ -31,20 +26,23 @@ bulk assessment can be carried out.
 ## How to create a bulk assessment
 
 Select the assessable course element for which a bulk assessment should be
-carried out. All course elements are displayed for which at least one of the
-following assessment features is configured:
+carried out. oder wählen Sie die Option "Massenbewertung" in der Toolbar. Anschließend können Sie mit der Massenbewertung beginnen.
 
-  * Score
-  * Passed
-  * Comment
-  * Files
+!!!note "note"
 
-You can then start bulk assessment.
+    All course elements are displayed for which at least one of the
+    following assessment features is configured:
+    * Score
+    * Passed
+    * Comment
+    * Files
 
-The easiest way is to first activate the desired table columns in the
-evaluation overview and then download the empty or only partially filled
-table. In this way you get an optimal Excel table, which you only have to fill
-in accordingly.
+!!! tip "tip"
+
+      The easiest way is to first activate the desired table columns in the
+      evaluation overview and then download the empty or only partially filled
+      table. In this way you get an optimal Excel table, which you only have to fill
+      in accordingly.
 
 ###  The individual steps of a bulk assessment:
 
@@ -52,7 +50,6 @@ in accordingly.
 
 With the course element Task you can additionally choose whether the
 submission was accepted or not and you can upload zipped return files.
-
   
 
 #### 1. Assessment data**
@@ -74,7 +71,7 @@ Excel file.
 
 `alesend,5,y,Hervorragend`| The user gets a score of 5, a passed status and a
 comment added.  
----|---  
+
 `aalesend,,y,Hervorragend`| If no score is required, you can omit it, but you
 still have to use a placeholder.  
 `alesend,4,y,""`| Already existing comments can be resetted by adding "".  
@@ -124,9 +121,7 @@ The changes made then appear in the valuation table.
 Bulk assessment for groups is also possible for the course elements Task and
 Assessment.
 
-Proceed in the same way for group assessment. Select the desired group under
-the "Groups" tab and start the option "New bulk assessment" in the menu that
-appears.
+Proceed in the same way for group assessment. 
 
   
 

@@ -9,16 +9,16 @@ learning path courses vary slightly.
 
 **Course settings**
 
-  * 1Info
-  * 2Metadata
-  * 3Execution
-  * 4Share
-  * 5Catalog
-  * 6 Disclaimer
-  * 7 Layout
-  * 8Toolbar
-  * 9 Assessment
-  * 10 Options
+  * Info
+  * Metadata
+  * Execution
+  * Share
+  * Catalog
+  * Disclaimer
+  * Layout
+  * Toolbar
+  * Assessment
+  * Options
 
 ![](assets/settings15.png)
 
@@ -44,7 +44,7 @@ the entry of the license of the course.
 ## Execution {: #Execution}
 
 Here you can activate the "[Lecture and Absence
-Managemen](../course_operation/Lectures_and_absences.md)t" if activated by the administrator,
+Management](../course_operation/Lectures_and_absences.md)" if activated by the administrator,
 convert existing conventional courses into learning path courses or, in case
 of [learning path courses](Learning_path_course.md), define how the learning
 progress is calculated on the basis of the number of course elements or on the
@@ -209,103 +209,95 @@ there is the "formatDate()" function. To add a given period of time there is
 the formatDateRelative(Date baseLineDate, days, months, years) which adds the
 period given in days/months/years to the baseLineDate.
 
- Here a list of the most important variables:
+???+ note "Here a list of the most important variables:"
 
- _User:_
+    _User:_
 
-  * $fullName
-  * $firstName
-  * $lastName
-  * $birthDay
-  * $institutionalName
-  * $orgUnit
-  * $studySubject
+      * $fullName
+      * $firstName
+      * $lastName
+      * $birthDay
+      * $institutionalName
+      * $orgUnit
+      * $studySubject
 
- _Course:_
+    _Course:_
 
-  * $title
-  * $externalReference
-  * $authors
-  * $from (date)
-  * $fromLong (date)
-  * $to (date)
-  * $toLong (date)
-  * $location
-  * $expenditureOfWork
-  * $mainLanguage
+      * $title
+      * $externalReference
+      * $authors
+      * $from (date)
+      * $fromLong (date)
+      * $to (date)
+      * $toLong (date)
+      * $location
+      * $expenditureOfWork
+      * $mainLanguage
 
- _Performance data (all types of courses):_
+    _Performance data (all types of courses):_
 
-  * $score
-  * $status
+      * $score
+      * $status
 
- _ _Performance data_  (Learning path course only):_
+    _ _Performance data_  (Learning path course only):_
 
-  * $maxScore
-  * $progress
+      * $maxScore
+      * $progress
 
- _Certificate data:_
+    _Certificate data:_
 
-  * $dateFirstCertification
-  * $dateFirstCertificationLong
-  * $dateFirstCertificationRaw
-  * $dateCertification
-  * $dateCertificationLong
-  * $dateCertificationRaw
-  * $dateNextRecertification
-  * $dateNextRecertificationLong
-  * $dateNextRecertificationRaw
-  * $certificateVerificationUrl
+      * $dateFirstCertification
+      * $dateFirstCertificationLong
+      * $dateFirstCertificationRaw
+      * $dateCertification
+      * $dateCertificationLong
+      * $dateCertificationRaw
+      * $dateNextRecertification
+      * $dateNextRecertificationLong
+      * $dateNextRecertificationRaw
+      * $certificateVerificationUrl
 
- _ Relative date:_
+    _Relative date:_
 
-Dates can be specified on the certificate that are calculated relative to a
-"raw" date:
+    Dates can be specified on the certificate that are calculated relative to a
+    "raw" date:
 
-Method and parameters
+    Method and parameters
+   
 
-|
+    Example: $dateNextRecertificationRaw = 11/15/2021  
+        
+    Relative date short style:
 
-Example: $dateNextRecertificationRaw = 11/15/2021  
-  
----|---  
-  
-Relative date short style:
+    $formatter.formatDateRelative(original date, "language code", +/- days, +/-
+    months, +/- years)
 
-$formatter.formatDateRelative(original date, "language code", +/- days, +/-
-months, +/- years)
+    $formatter.formatDateRelative($dateNextRecertificationRaw, "en", 7, -2, 10)
 
-|
+    ==> Relative date = 09/22/2031  
+      
+    Relative date long style:
 
-$formatter.formatDateRelative($dateNextRecertificationRaw, "en", 7, -2, 10)
+    $formatter.formatDateLongRelative(original date, "language code", +/- days,
+    +/- months, +/- years)
+ 
+    $formatter.formatDateRelative($dateNextRecertificationRaw, "en", 7, -2, 10)
 
-==> Relative date = 09/22/2031  
-  
-Relative date long style:
+    ==> Relative date = November 22, 2031  
+            
 
-$formatter.formatDateLongRelative(original date, "language code", +/- days,
-+/- months, +/- years)
+    _Fields from the course info:_
 
-|
+      * $!description
+      * $!objectives
+      * $!requirements
+      * $!credits  
 
-$formatter.formatDateRelative($dateNextRecertificationRaw, "en", 7, -2, 10)
+    _Optionale Variablen:_
 
-==> Relative date = November 22, 2031  
-  
-  
-
- _Fields from the course info:_
-
-  * $!description
-  * $!objectives
-  * $!requirements
-  * $!credits  
-
- _Optionale Variablen:_
-
-  * $custom1
-  * $custom2
-  * $custom3
+      * $custom1
+      * $custom2
+      * $custom3
 
 If you would like to have such a certificate template, feel free to contact us
 via [support@frentix.com](mailto:support@frentix.com) in order to receive a

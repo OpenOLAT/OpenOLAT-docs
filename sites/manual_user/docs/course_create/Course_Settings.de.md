@@ -7,8 +7,6 @@ Jede [Lernressource](../authoring/Various_Types_of_Learning_Resources.de.md), ni
 Kurse, verfügen über ein Menü "Einstellungen". Ferner variieren die
 Einstellungen von herkömmlichen und Lernpfad Kursen leicht.
 
-  
-
 
 **Kurseinstellungen**
 
@@ -74,9 +72,7 @@ Der gesamte OpenOlat [Katalog ](../catalog/Finding_courses.de.md)ist für alle U
 "Kurse" einsehbar.
 
 Tragen Sie Ihre Kurse erst in den Katalog ein, wenn diese fertiggestellt sind
-und für die Benutzer sichtbar sein sollen.
-
-  
+und für die Benutzer sichtbar sein sollen.  
 
 ##  Tab Nutzungsbedingungen  {: #disclaimer}
 
@@ -108,7 +104,6 @@ Im Bereich "Standard Stil Kursbausteine" können Sie die Basisdarstellung der
 Kursbausteine definieren und z.B. ein eigenes Hintergrundbild hochladen oder ein Hintergrundbild aus der Bibliothek wählen, den Stil des Bildes definieren sowie bei Bedarf eine Farbkategorie zuordnen. In der Vorschau sehen
 Sie die Auswirkungen.
 
-
 ## Tab Toolbar
 
 Hier schalten Sie die Toolbar sowie die konkreten einzelnen Werkzeuge der
@@ -124,8 +119,7 @@ wichtig, um unabhängig von einer sequenziellen Abfolge der Lernschritt,
 wichtige Tools kontinuierlich und zentral zur Verfügung zu stellen.
 
 ![](assets/Kurs_struktur.png)
-
-  
+ 
 
 ##  Tab Bewertung {: #assessment}
 
@@ -152,7 +146,7 @@ Ein PDF Zertifikat kann als Bestätigung für den Besuch eines Kurses bzw. der E
 Die Auswahl "manuell" gestattet die Verwendung von Zertifikaten auch in Kursen ohne bewertbare Kurselemente. Wenn das Zertifikat manuell ausgestellt werden soll, kann der Betreuer dies im Bewertungswerkzeug in der Leistungsübersicht der einzelnen Benutzer vornehmen. Bei automatischer Ausstellung erhält der Benutzer eine E-Mail-Benachrichtigung
 sobald die Erstellung eines Zertifikates ausgelöst wurde.
 
-Wurde auch die Option "PDF Zertifikat erzeugen" aktiviert, erscheint im Toobar Menü unter "Mein Kurs" auch das erhaltene Zertifikat, sobald alle Bedingungen für einen bestandenen Kurs erfüllt sind.
+Wurde auch die Option "PDF Zertifikat erzeugen" aktiviert, erscheint im Toolbar Menü unter "Mein Kurs" auch das erhaltene Zertifikat, sobald alle Bedingungen für einen bestandenen Kurs erfüllt sind.
 
 Ferner kann die Zertifikaterstellung auch im
 "[Bewertungswerkzeug](../course_operation/Assessment_tool_-_overview.de.md)" aktiviert werden.
@@ -230,7 +224,7 @@ years) eine angegebene Periode addieren.
 
       * $certificateVerificationUrl
 
-    _ Relatives Datum:_
+    _Relatives Datum:_
 
     Auf dem Zertifikat können Daten angegeben werden, die relativ zu einem Raw-Datum berechnet werden:
 
@@ -240,9 +234,7 @@ years) eine angegebene Periode addieren.
     Relatives Datum kurz:
 
     $formatter.formatDateRelative(Originaldatum, "Sprachcode", +/- Tage, +/-
-    Monate, +/- Jahre)
-
-    |
+    Monate, +/- Jahre)    
 
     $formatter.formatDateRelative($dateNextRecertificationRaw, "de", 7, -2, 10)
 
@@ -253,14 +245,11 @@ years) eine angegebene Periode addieren.
     $formatter.formatDateLongRelative(Originaldatum, "Sprachcode", +/- Tage, +/-
     Monate, +/- Jahre)
 
-    |
-
     $formatter.formatDateRelative($dateNextRecertificationRaw, "de", 7, -2, 10)
 
     ==> Relatives Datum = 22. November 2031  
       
-      
-
+     
     _Daten aus der Kursbeschreibung:_
 
       * $!description  
@@ -312,7 +301,7 @@ Kurseditor auch der Reiter "Highscore" des obersten Kursbausteins konfiguriert w
 	Bei herkömmlichen Kursen werden die Kriterien für das Bestehen eines Kurses im
 	Kurseditor auf dem obersten Kursbaustein im Tab "Punkte" eingestellt und das Ergebnis auf der Kursstartseite angezeigt. 
 
-##  Optionen {: #options}
+## Tab Optionen {: #options}
 
 Hier können Sie ein kurspezifisches [Glossar
 ](../course_operation/Using_Additional_Course_Features.de.md)und einen [Ressourcenordner

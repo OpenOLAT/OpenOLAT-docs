@@ -4,7 +4,8 @@ On this page you get an overview of the course tools of the "Administration". No
 
 Some course administration tools are presented on separate pages.
 
-![Course administration](assets/Administration_15.png){ class="shadow" }
+![Course administration](assets/ Administration_17.png){ class="shadow"}
+
 
 !!! info "Further information"
 
@@ -14,6 +15,7 @@ Some course administration tools are presented on separate pages.
     * [Members management](Members_management.md)
     * [Course elements](../course_elements/index.md)
     * [Storage folder](Storage_folder.md)
+    * [Assessment Tool](Assessment_tool_-_overview.md)
     * [Lectures and Absences](Lectures_and_absences.md)
     * [Reminder](Course_Reminders.md)
     * [Assessment mode](../e-assessment/Assessment_mode.md)
@@ -33,7 +35,13 @@ In the menu "Assessment tool," not to be confused with the course element "Asses
 
 The menu Assessment Tool is therefore relevant during the course or at the end.
 
-All owners of courses have access to the assessment tool as well as members of a corresponding right group and, last but not least, all coaches. Owners may assess all course participants, tutors only those they have been assigned to. The course elements which should be assessed, first need to configured either in the tab "Assessment" or "Test configuration". Only if the assessment is turned on an assessment in the assessment tool becomes possible. To pass a course, the tab "Score" in the course element needs to be filled in.
+All owners of courses have access to the assessment tool as well as members of a corresponding right group and, last but not least, all coaches. Owners may assess all course participants, tutors only those they have been assigned to. 
+
+The course elements which should be assessed, first need to configured either in the tab "Assessment" or "Test configuration". Only if the assessment is turned on an assessment in the assessment tool becomes possible. To pass a course, the tab "Score" in the course element needs to be filled in.
+
+!!! tip "Tipp"
+
+    Abonnieren Sie den Benachrichtigungsservice, entweder für neu eingegangene Testresultate und/oder neu erstellte Zertifikate.
 
 Further information about the assessment tool you can found [here](Assessment_tool_-_overview.md).
 
@@ -105,23 +113,29 @@ Here you can create a new course-specific database that can store certain course
 
 Here you will find an overview of all the people who have booked your course.  
 
-## Copy learning resource
+## Copy
 
 Learning resources are copied in order to be able to reuse an old course structure for a new semester, for example. When copying a course, the structure, folder contents, HTML pages and group names (without group members) are copied. User data such as forum entries, group members, etc. are not copied. As the owner of a learning resource, you can determine (under "Access configuration") whether your learning resource can also be copied by other OpenOlat authors.
-
 This way you get a completely reset course without user-specific data remains.
 
 !!! tip "Tip"
 
-It is best to create a course copy if you want to run a course repeatedly instead of just removing the people from the member list. This way, all entries in the assessment tool are also omitted and you get a completely cleaned course.
+    It is best to create a course copy if you want to run a course repeatedly instead of just removing the people from the member list. This way, all entries in the assessment tool are also omitted and you get a completely cleaned course.
 
 !!! tip "Tip"
 
     A course copy can also usefully be created as a backup after the course has been completed and before the course begins.
 
+## Kopieren mit Wizard (Beta)
+Mit Hilfe des Wizards können die zu kopierenden Elemente eines Kurses ausgewählt werden und so noch effektiver eine Übertragung für einen neuen Kursdurchlauf erfolgen. Die Kopie kann automatisch oder benutzerdefiniert erfolgen. Bei der benutzerdefinierten Kopie können die zu kopierenden Kursobjekte gewählt und weitere Einstellungen z.B. bezüglich der Mitgliederverwaltung, bestimmten Kursbausteinen sowie weiteren Optionen vorgenommen werden. 
+
+Diese Funktion ist nur für Lernpfad Kurse verfügbar. 
+
 ## Convert to Learning Path Course
 
 Traditional courses and courses created before OpenOlat version 15 can be converted into a [learning path course](../course_create/Learning_path_course.md) via this link.
+
+Diese Funktion ist nur für herkömmliche Kurse verfügbar.
 
 ## Export content
 
@@ -131,11 +145,13 @@ As the owner of a learning resource, you can also determine in the administratio
 
 Allowing a course copy for other authors is useful for course templates, for example.
 
-## Delete learning resources
+## Delete (learning resources)
 
-You can delete them using the menu item in the "Administration" area. When deleting integrated learning resources (e.g. a test) you will receive a message with the display of the corresponding course. You must therefore first delete the course element "Test" in the course so that you can delete the test in the authoring area. The data is definitely deleted and cannot be restored. Therefore a confirmation is necessary before deleting.
+If the course is  **deleted** , all user data will be removed. Course participants and authors no longer have access. Only the course owner has access and finds the course in the authoring area under the tab "Deleted". 
+Hier erscheint die Lernressource mit dem Status "Papierkorb". Es besteht weiter Zugriff auf die Menüpunkte der Administration. Der Status "Papierkorb" kann nicht geändert werden. Jedoch ist es möglich, über den Link im 3-Punkte Menü die Lernressource wiederherzustellen.
 
-However, if the course is  **deleted** , all user data will be removed. Course participants and authors no longer have access. Only the course owner has access and finds the course in the authoring area under the tab "Deleted". There the course can be restored, but without user data, these are permanently deleted.
+The course can be restored, but without user data, these are permanently deleted.
+
 
 ![Deleted learning resources](assets/deleted2.png){ class="shadow lightbox" }
 
@@ -147,6 +163,6 @@ However, if the course is  **deleted** , all user data will be removed. Course p
 
     When you delete a course, user data (e.g. test results) is first archived as an Excel file in your [personal folder](../personal/Personal_folders.md) and then deleted.
 
-It is possible to inform other course owners via e-mail about the completion or deletion of a course. This can either be optionally selected in the Finish/Delete dialog or set in the [administration](../../../manual_admin/docs/administration/Modules_Repository.md) system-wide.
+It is possible to inform other course owners via e-mail about the completion or deletion of a course. This can either be optionally selected in the Finish/Delete dialog or set in the administration. 
 
-A course can also be closed or deleted automatically. The administrator makes the appropriate settings under [Administration](../../../manual_admin/docs/administration/Modules_Repository.md).
+A course can also be closed or deleted automatically. The administrator makes the appropriate settings. 
