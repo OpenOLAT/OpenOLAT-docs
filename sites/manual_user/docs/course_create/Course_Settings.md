@@ -3,29 +3,17 @@
 The menu "Settings" of the "Administration" offers further central
 configurations for your OpenOlat course.
 
-Each [learning resource](../authoring/Various_Types_of_Learning_Resources.md), not just
-courses, have a menu "Settings". Furthermore, the settings of conventional and
+Each [learning resource](../authoring/Various_Types_of_Learning_Resources.md), not just courses, have a menu "Settings". Furthermore, the settings of conventional and
 learning path courses vary slightly.
 
 **Course settings**
-
-  * Info
-  * Metadata
-  * Execution
-  * Share
-  * Catalog
-  * Disclaimer
-  * Layout
-  * Toolbar
-  * Assessment
-  * Options
 
 ![](assets/settings15.png)
 
 Via the tabs "Info", "Metadata", "Execution" and "Share" you can set up
 information that is visible in the course info.
 
-## Info
+## Tab Info
 
 Here you define further information on the course or learning resource. This
 information is also visible to interested parties without course access under
@@ -34,14 +22,14 @@ certificate, cover image and teaser movie. The learning resource appears under
 the title in the alphabetical course list and for queries via the search mask.
 Further information can be found [here](../authoring/Set_up_info_page.md).
 
-## Metadata
+## Tab Metadata
 
 Here you can enter other things that appear under "Info" e.g. the names of the
 teachers of the course. Also, the course can be assigned to a given didactic
 type such as self-study course or examination course. Especially relevant is
 the entry of the license of the course.
 
-## Execution {: #Execution}
+## Tab Execution {: #Execution}
 
 Here you can activate the "[Lecture and Absence
 Management](../course_operation/Lectures_and_absences.md)" if activated by the administrator,
@@ -50,13 +38,13 @@ of [learning path courses](Learning_path_course.md), define how the learning
 progress is calculated on the basis of the number of course elements or on the
 basis of the learning time of the course elements.  
 
-## Share
+## Tab Share
 
 In this tab you define how and for whom a course or a learning resource is
 released. Further information on setting up the appropriate access
 configuration can be found [here](Access_configuration.md).
 
-## Catalog  
+## Tab Catalog  
 
 As soon as a learning resource has been activated it can be inserted in the
 catalog with the help of the info page. Just select "Course" --> "Catalogue
@@ -72,7 +60,7 @@ menu.
 Only enter your courses in the catalog when they are finished and should be
 visible to the users.
 
-##  Disclaimer {: #disclaimer}
+##  Tab Disclaimer {: #disclaimer}
 
 Here you can activate and set course-related terms of use or a course-related
 privacy policy. If a person starts the course, he/she must first accept the
@@ -82,7 +70,7 @@ which persons have already accepted the conditions.
 
 ![](assets/Screenshot 2020-07-29 at 21.08.42.png)
 
-##  Layout
+##  Tab Layout
 
 Under "Layout" you can select a layout template for a course, hide the left
 course navigation and also the bread-crumb navigation for participants.
@@ -98,7 +86,7 @@ presentation of the course elements and, for example, upload a background
 image and define the style of the image as well as assign a color category. In
 the preview you can see the effects
 
-## Toolbar
+## Tab Toolbar
 
 Here you switch the toolbar and certain tools of the toolbar on or off. In
 this way, certain tools that are to be available continuously can be called up
@@ -122,7 +110,7 @@ of the learning steps.
 
 ![](assets/Kurs_struktur.png)
 
-##  Assessment {: #assessment}
+## Tab Assessment {: #assessment}
 
 In this tab you can activate performance records and have a certificate
 generated automatically. If you activate the option "Use certificates of
@@ -338,7 +326,7 @@ can be configured in the course editor.
 	course editor on the top course element and the result is displayed on the
 	course start page.
 
-##  Options  {: #options}
+## Tab Options {: #options}
 
 Here you can activate and configure a course-specific
 [glossary](../course_operation/Using_Additional_Course_Features.md) and a resource folder. And
