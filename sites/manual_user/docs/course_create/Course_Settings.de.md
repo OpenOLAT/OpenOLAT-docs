@@ -7,27 +7,13 @@ Jede [Lernressource](../authoring/Various_Types_of_Learning_Resources.de.md), ni
 Kurse, verfügen über ein Menü "Einstellungen". Ferner variieren die
 Einstellungen von herkömmlichen und Lernpfad Kursen leicht.
 
-
 **Kurseinstellungen**
-
-  * Tab Info
-  * Tab Metadaten
-  * Tab Durchführung
-  * Tab Freigabe
-  * Tab Katalog
-  * Tab Nutzungsbedingungen
-  * Tab Layout
-  * Tab Toolbar 
-  * Tab Bewertung
-  * Tab Optionen
-
 ![](assets/Einstellungen161.png)
 
 Über die Tabs "Info", "Metadaten", "Durchführung" und "Freigabe" können Sie
 Informationen die in der Kursinfo sichtbar werden einrichten.
 
 ## Tab Info
-
 Hier definieren Sie weitere Informationen zum Kurs bzw. Lernressource. Hierzu
 zählen beispielsweise: Titel, Beschreibung, Lernziele, Voraussetzungen,
 Anforderungen an die Bescheinigung, Titelbild und Teaser-Film. Diese Infos
@@ -37,7 +23,6 @@ Kursliste und ist für Anfragen über die Suchmaske relevant. Weitere Infos
 finden Sie [hier](../authoring/Set_up_info_page.de.md).
 
 ## Tab Metadaten
-
 Hier können Sie weitere Dinge, die unter „Infos“ erscheinen, z.B. die Namen
 der Lehrenden des Kurses, eintragen. Auch kann der Kurs einem vorgegebenen
 didaktischen Typ wie Selbstlernkurs oder Prüfungskurs zugeordnet werden.
