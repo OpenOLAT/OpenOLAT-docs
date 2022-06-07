@@ -301,7 +301,7 @@ Kurseditor auch der Reiter "Highscore" des obersten Kursbausteins konfiguriert w
 	Bei herkömmlichen Kursen werden die Kriterien für das Bestehen eines Kurses im
 	Kurseditor auf dem obersten Kursbaustein im Tab "Punkte" eingestellt und das Ergebnis auf der Kursstartseite angezeigt. 
 
-## Tab Optionen {: #options}
+## Tab Optionen {: #options} 
 
 Hier können Sie ein kurspezifisches [Glossar
 ](../course_operation/Using_Additional_Course_Features.de.md)und einen [Ressourcenordner
