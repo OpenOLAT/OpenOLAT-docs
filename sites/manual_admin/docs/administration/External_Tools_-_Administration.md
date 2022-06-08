@@ -115,7 +115,13 @@ Possibility to activate external analytics services.
 
 Activation of the PDF generator. [AthenaPDF](https://www.athenapdf.com) is a
 PDF generator based on Electron and Docker. This implementation uses the
-Variant micro service. More information can be found at
+Variant micro service. 
+
+More information on AthenaPDF can be found at
 [AthenaPDF](https://www.athenapdf.com) and
 [GitHub](https://github.com/arachnys/athenapdf/tree/master/weaver).
+
+To learn more about how to install and configure the AthenaPDF service please visit
+the [installation manual](../installation/athenaPdf.md). 
+
 

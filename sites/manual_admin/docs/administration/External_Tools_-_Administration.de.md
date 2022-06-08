@@ -120,9 +120,13 @@ Möglichkeit, externe Analyse Services zu aktivieren.
 
 Aktivierung des PDF Generators. [AthenaPDF](https://www.athenapdf.com) ist ein
 PDF Generator der auf Electron und Docker basiert. Diese Implementation
-benutzt den Micro Service Variant. Mehr Informationen finden Sie unter
+benutzt den Micro Service Variant. 
+
+Mehr Informationen zu AthenaPDF finden Sie unter
 [AthenaPDF](https://www.athenapdf.com) und
 [GitHub](https://github.com/arachnys/athenapdf/tree/master/weaver).
+
+Wie Sie den AthenaPDF-Service installieren und konfigurieren erfahren Sie im [Installationshandbuch](../installation/athenaPdf.md). 
 
   
 

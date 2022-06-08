@@ -58,10 +58,12 @@ nav:
   - Installation:
     - Installation guide: "installation/installGuide.md"
     - Update guide: "installation/updateGuide.md"
-    - Special topics:
+    - Supporting tools installation:
+      - AthenaPDF: "installation/athenaPdf.md" 
+    - Alternative installation environments:
       - MySQL DB: "installation/mysql.md"
       - Windows support: "installation/windows.md"
-
+      
 
 
       
