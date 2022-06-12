@@ -4,151 +4,96 @@ Im Folgenden wird beschrieben wie Lernende eine im Kurs bereitgestellte
 Portfolioaufgabe (auf einer Portfoliovorlage basierende Portfoliomappe mit
 Aufgaben) abholen und bearbeiten können.
 
-## Portfolioaufgabe abholen  
----  
-1| Kurs, indem sich die Portfolioaufgabe befindet, öffnen.  
-2| Kursbaustein Portfolioaufgabe auswählen.  
-3|
+Dafür muss zunächst der Kurs indem sich die Portfolioaufgabe befindet aufgerufen und der entsprechende Kursbaustein ausgewählt werden.
 
-Button "Portfolioaufgabe abholen" anklicken.
+## Portfolioaufgabe abholen  
+
+Klicken Sie einfach auf den Button "Portfolioaufgabe abholen".
 
 ![](assets/pf_aufgabeabholen_s1_DE.png)  
   
-4| Die Portfolioaufgabe ist nun abgeholt und im Portfolio unter "[Meine
+## Portfolioaufgabe finden
+
+Die Portfolioaufgabe ist nun abgeholt und im [persönlichen "Portfolio 2.0"](../personal/Personal_Menu.de.md/#portfolio-20) unter "[Zu meinen
 Mappen](My_portfolio_binders.de.md)" gespeichert.  
   
-| Beim nächsten Zugriff kann die Portfolioaufgabe direkt im persönlichen
-Portfolio geöffnet werden.  
-  
-Portfolioaufgabe bearbeiten  
-  
----  
-1| Portfolio öffnen.|  
-  
-2|
+Beim nächsten Zugriff kann die Portfolioaufgabe entweder über den Link im Kurs oder auch direkt im persönlichen Portfolio geöffnet werden.   
+ 
+Im persönlichen Portfolio sind alle aus einem Kurs abgeholten Portfolioaufgaben mit einem roten Strich am linken Rand gekennzeichnet und enhalten den Hinweis auf den zugehörigen Kurs.
 
-Unter "Zu meinen Mappen" die abgeholte Mappe öffnen. Aus Kursen abgeholte
-Mappen sind mit einem roten linken Rand gekennzeichnet und enhtalten den
-Hinweis auf den zugehörigen Kurs.
+## Portfolioaufgabe bearbeiten  
 
-|
+Öffnen Sie die Mappe der Portfolioaufgabe. Je nachdem wie der Lehrende die Portfolioaufgabe vorstrukturiert hat stehen Ihnen unterschiedliche Bereiche mit Portfolioaufgaben zur Verfügung. 
 
-![](assets/1_2 Portfolio.png)  
-  
-3|
-
-Entweder in der Rubrik „Überblick“ oder „Einträge“ auf einen Mappen „Bereich“
-klicken und dort eine hinterlegte Aufgabe auswählen. Anschließend ist die
-zugehörige Aufgabenstellung sichtbar.
-
-|
+Klicken Sie entweder im Tab „Überblick“ oder „Einträge“ auf einen Mappen Bereich und "Wählen Sie eine Aufgabe zur Bearbeitung". Anschliessend sind die zugehörige Aufgabenstellung sowie der Bearbeitungseditor sichtbar.
 
 ![](assets/3_Portfolio.png)  
   
-4|
 
-Nun können die Aufgaben bearbeitet und passende Artefakte über den Portfolio
-Editor hinzugefügt werden.
+Nun können die Aufgaben mit dem Portfolio Editor bearbeitet und passende Inhalte (Texte, Bilder, Videos usw.) und Artefakte über den Portfolio
+Editor hinzugefügt werden. 
 
-|
-
-![](assets/4_Portfolio.png)  
+![](assets/Portfolioaufgabe_bearbeiten.jpg)  
   
-5|
+Enthält die Portfolioaufgabe Formulare können diese ebenfalls ausgefüllt werden. Sofern in den Einstellungen der Portfolio Vorlage konfiguriert, dürfen die User auch neue Einträge ergänzen oder die gesamte abgeholte Mappe löschen.
 
-Sofern in den Einstellungen der Portfolio Vorlage konfiguriert, dürfen die
-User auch neue Einträge ergänzen oder die gesamte abgeholte Mappe löschen.
-
-|
 
 ![](assets/5_Portfolio.png)  
   
-Entsprechend der farblichen Markierung ist sofort erkennbar in welchem Status
-sich eine Portfolioaufgabe befindet. So symbolisiert z.B.
+## Bearbeitungsstatus
 
-  * ein roter Blitz im Tag "Überblick", dass eine Aufgabe noch nicht ausgewählt wurde oder
-  * ein gelber Punkt, dass die Aufgabe noch nicht publiziert wurde und sich im Entwurfsstadium befindet oder
-  * ein blauer Punkt, dass die Aufgabe publiziert wurde.
+Der Bearbeitungsstatus einer Portfolio Aufgabe wird durch die farbliche und symbolhafte Kennzeichnung erkennbar. Die Details werden in der unteren Legende in der Mappe erläutert. So symbolisiert z.B.  ein roter Blitz im Tab "Überblick", dass eine Aufgabe noch nicht ausgewählt wurde oder ein grüner Haken, dass die Aufgabe bereits publiziert wurde. 
 
-In dem Tab "Einträge" werden noch nicht ausgewählte Aufgaben in einem Dropdown
-Menü gebündelt, während abgeholte Aufgaben unter der Bereichsüberschrift
-erscheinen.
+In dem Tab "Einträge" werden alle noch nicht ausgewählte Aufgaben des jeweiligen Bereichs in einem Dropdown Menü gebündelt, während abgeholte Aufgaben unterhalb des Dropdown Menüs erscheinen. 
 
 ## Portfolio publizieren   {: #publish}
   
----  
-1| Während der Bearbeitung ist der Status des Eintrags auf Entwurf.|
+Während der Bearbeitung steht der Status des Eintrags auf Entwurf.
 
   
-![](assets/pf_aufgabeabholen_publizieren_DE.png)  
-  
-  
-  
-2|
+![](assets/Portfolioaufgabe_publizieren.png)  
 
-Sobald der Eintrag respektive die Aufgabe abgeschlossen ist, "Eintrag
-publizieren" wählen.  
+Sobald der Eintrag respektive die Aufgabe abgeschlossen ist, "Eintrag publizieren" wählen. So wird die Bearbeitung für andere Personen, die Zugang zum Portfolio haben, sichtbar und Feedbacks bzw. Kommentierungen sind möglich.  
+ 
   
-3| Der Eintrag ist nun bereit für die Freigabe und erhält den Status
-publiziert.  
+!!! Info "Hinweis"
+
+    Sobald ein Eintrag publiziert ist kann er nicht mehr verändert, nur noch kommentiert werden. Deshalb sollten Lernende darauf achten einen Eintrag oder eine bearbeitete Aufgabe erst dann zu publizieren, wenn sie komplett fertig ist!
+
+## Portfolio freigeben
+
+Damit eine Aufgabe von anderen Personen bewertet oder kommentiert werden kann muss der Mappen Besitzer diese zunächst für die jeweilige Person(en) freigeben.
+
+Sie können Portfolio Mappen sowohl an andere OpenOlat User (Lehrende, Lernende) als auch an externe Personen freigeben.
+
+!!! info "Hinweis"
+
+    Auch Mappen aus Kursen sind nicht automatisch für die Kursbesitzer oder Kursbetreuer sichtbar.
+
+** Gehen Sie für die Freigabe wie folgt vor:** 
   
-Hinweis
+a) Öffnen Sie den Tab Freigabe.  
 
-Sobald ein Eintrag publiziert ist kann er nicht mehr verändert, nur noch
-kommentiert werden. Deshalb sollten Lernende darauf achten einen Eintrag oder
-eine bearbeitete Aufgabe erst dann zu publizieren, wenn sie komplett fertig
-ist!
-
-Damit eine Aufgabe von anderen Personen bewertet oder kommentiert werden kann
-muss der Mappen Besitzer diese zunächst für die jeweilige Person(en)
-freigeben.
-
-Auch Mappen aus Kursen sind nicht automatisch für die Kursbesitzer sichtbar.
-
-Sie können Portfolio Mappen sowohl an andere OLAT User (Lehrende, Lernende)
-als auch an externe Personen freigeben.
-
-## Portfolio Freigabe einrichten  
+b) Klicken Sie rechts oben auf den Link "Zugangsrecht hinzufügen".    
   
----  
-1| Öffnen Sie den Tab Freigabe.  
-2|
-
-Klicken Sie rechts oben auf den Link "Zugangsrecht hinzufügen".  
+![](assets/Portfoliomappe_freigeben.png)
   
-  
-|
-
-![](assets/portfolio_zugangsrecht.png)  
-  
-3|
-
-Wählen Sie "Mitglied hinzufügen", um einen OpenOlat-User hinzuzufügen oder
-eine der anderen Optionen.  Für die Freigabe an Externe werden Einladungen per
+c) Wählen Sie die gewünschte Option z.B. "Kursbetreuer auswählen", um die entsprechende Personengruppe oder Einzelperson hinzuzufügen. Für die Freigabe an externe Personen, auch ohne OpenOlat Account, wählen Sie "Einladung hinzufügen". Es werden dann Einladungen per
 E-Mail verschickt.  
   
-4|
-
-Kreuzen Sie diejenigen Bereiche und Einträge an, welche zum Kommentieren oder
-bewerten freigegeben werden sollen. Externe Personen können nur kommentieren
+d) Im erscheinenden Dialog definieren Sie welche Bereiche Sie der bzw. den gewählten Personen bereitstellen wollen und ob die Personen Bewertungen und oder Kommentierungen vornehmen dürfen. Externe Personen können nur kommentieren aber
 nicht bewerten.
 
 ![](assets/pf_aufgabeabholen_auswahl_DE.png)  
   
-5|
-
 Es kann auch eine E-Mail Benachrichtigung mit Link zur entsprechenden Mappe
 verschickt werden.  
   
-6|
-
-Zum Schluss speichern (für Externe) bzw. fertigstellen (für OLAT User)
+e) Zum Schluss speichern (für Externe) bzw. fertigstellen (für OpenOlat User)
 auswählen um die Aktion zu finalisieren.  
   
-Tipp
+!!! info "Hinweis"
 
-Wenn der User die Freigabe für die Kursbetreuer schon zu Beginn seiner
-Bearbeitung einrichtet, können die Betreuer die Entwicklung des Portfolios
-bereits sehen und den laufenden Prozess begleiten, sofern der User einzelne
-Zwischenschritte publiziert.
+    Wenn der User die Freigabe für die Kursbetreuer schon zu Beginn seiner Bearbeitung einrichtet, können die Betreuer die Entwicklung des Portfolios
+    bereits sehen und den laufenden Prozess begleiten, sofern der User einzelne Zwischenschritte publiziert. Eine Bearbeitung der Lösung ist dann aber nicht mehr möglich.
 
