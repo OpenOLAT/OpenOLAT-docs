@@ -10,7 +10,7 @@
 | ![Veröffentlicht](assets/s_publ_DE.png){ width=100px }      | Vollzugriff      | Lesend            | Lesend            |
 | ![Beendet](assets/s_fin_DE.png){ width=63px }               | Lesend           | Lesend            | Lesend            |
 | ![Papierkorb](assets/s_trash_DE.png){ width=80px }          | Lesend           | :material-cancel: | :material-cancel: |
-| **Admin-Tools**                                                                                                        |
+| **Kursadmin-Tools**                                                                                                        |
 | Mitgliederverwaltung                                        | Vollzugriff      | :material-cancel: | :material-cancel: |
 | Bewertungswerkzeug                                          | Vollzugriff      | Vollzugriff       | :material-cancel: |
 | Lektionen&Absenzen                                          | Vollzugriff      | :material-cancel: | :material-cancel: |
@@ -40,6 +40,7 @@
 | Löschen                                                     | :material-check: |                               |                   |                          |
 | Exportieren                                                 | :material-check: | :material-check: mit Freigabe |                   |                          |
 | Wiederherstellen                                            | :material-check: |                               |                   |                          |
+| Dauerhaft löschen                                           | :material-check: |                               |                   |                          |
 | **Module**                                                                                                                                                    |
 | Coaching                                                    | Vollzugriff      | :material-cancel:             | :material-cancel: | Lesend                   |
 
@@ -87,9 +88,9 @@
 | ![Beendet](assets/s_fin_DE.png){ width=63px }               | :material-cancel:        | :material-cancel:               | :material-cancel: |
 | ![Papierkorb](assets/s_trash_DE.png){ width=80px }          | :material-cancel:        | :material-cancel:               | :material-cancel: |
 | **Admin-Tools**                                                                                                                              |
-| Mitgliederverwaltung                                        | :material-cancel:        | :material-cancel:               | :material-cancel: |
-| Bewertungswerkzeug                                          | :material-cancel:        | :material-cancel:               | :material-cancel: |
-| Lektionen&Absenzen                                          | :material-cancel:        | :material-cancel:               | :material-cancel: |
+| Mitgliederverwaltung                                        | :material-cancel:        | :material-cancel:               | Lesend            |
+| Bewertungswerkzeug                                          | :material-cancel:        | :material-cancel:               | Vollzugriff       |
+| Lektionen&Absenzen                                          | :material-cancel:        | :material-cancel:               | Vollzugriff       |
 | **Module**                                                                                                                                   |
 | Coaching - Lektionen&Absenzen                               | :material-cancel:        | :material-cancel:               | Vollzugriff       |
 | Coaching - Kurse                                            | :material-cancel:        | :material-cancel:               | :material-cancel: |
