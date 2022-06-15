@@ -73,7 +73,7 @@ Buttons can be aligned left, right, or center depending on the context.
 
 | Alignment| Use case| Sample Picture |
 |----------|----------|--------------|
-| *Left alignment*     | In page content and forms where the content is typically unconstrained other than by the normal OO Grid. In these instances an F-pattern (top to bottom and left to right in a horizontal movement) is common for reading flow, and buttons align with other content on the page like headings, lists, input labels, and form labels. | ![freeflow diagram](assets/forms-freeflow.jpg) |
+| *Left alignment*     | In page content and forms where the content is typically unconstrained other than by the normal OO Grid. In these instances an F-pattern (top to bottom and left to right in a horizontal movement) is common for reading flow, and buttons align with other content on the page like headings, lists, input labels, and form labels. | ![freeflow diagram](assets/forms-freeflow.png) |
 | *Right alignment*     | In fixed containers like and dialogs, flows that continue in a progressive direction, actions with a global impact, and toolbars. In these instances a Z-pattern (top to bottom and left to right with a diagonal, scanning movement) is common for reading flow. In these instances a user may be taking a progressive action, like affirming a modal, or an action upon a section, like formatting text in a comment. | ![workflow](assets/workflow-button.jpg) |
 | *centered*    | used for Emtpystates or  when the content has the only available action on the screen.  |![button centered](assets/button-centered-situation.jpg) |
 

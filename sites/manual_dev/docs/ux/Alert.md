@@ -4,7 +4,7 @@
 
 An Notification is a system generated, contextual, and timely message to a user that ,in most cases, results from their action.
 
-Structure
+**Structure**
 
 1. Container: Wraps the content.
 2. Icon: Supports the variant meaning.
