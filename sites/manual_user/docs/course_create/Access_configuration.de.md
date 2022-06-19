@@ -8,25 +8,23 @@ werden.
 Generell werden folgende Varianten der Publikation unterschieden, die unter
 "Status" in der Toolleiste eines Kurses sichtbar sind:
 
-Veröffentlichung (Publikationsstatus)
+## Status der Veröffentlichung
 
-Eine neu erstellte Lernressource ist standardmässig nur für die jeweiligen
-Besitzer zugänglich und hat den Publikationsstatus "Vorbereitung". Unter
-"Status" kann der Zustand verändert und die Lernressource für weitere
-Mitglieder zugänglich gemacht werden:
+Ein Kurs oder eine andere neu erstellte Lernressource ist zunächst nur für die jeweiligen Besitzer zugänglich und hat den Publikationsstatus "Vorbereitung". Unter
+"Status" kann der Zustand verändert und die Lernressource für weitere Personen zugänglich gemacht werden:
 
 ![course status](assets/course-status.de.jpg)
+
 Publikationsstatus| Zugriff|
 ---|---|  
 Vorbereitung | Nur Besitzer dieser Lernressource haben Zugriff.|
- Review | Nur Besitzer dieser Lernressource haben Zugriff. Alle Vorbereitungen zu dieser Lernressource sind abgeschlossen und die Inhalte sind zur weiteren Überprüfung freigegeben.  
+Review | Nur Besitzer dieser Lernressource haben Zugriff. Alle Vorbereitungen zu dieser Lernressource sind abgeschlossen und die Inhalte sind zur weiteren Überprüfung freigegeben.  
 Freigabe Betreuer | Besitzer und Betreuer dieser Lernressource haben Zugriff.  
 Veröffentlicht | Der Kurs ist nun auch im Bereich "Kurse" auffindbar. Alle Mitglieder der Lernressource haben Zugriff.  
 Beendet | Alle Mitglieder haben weiter Zugriff auf den Kurs, können aber nur noch lesen.  
   
-Die konkrete Variante des Kurszugangs (bzw. generell des Zugangs zu einer
-Lernressource)  wird im Menü "Freigabe" der Kurs "Administration"
-eingerichtet. Im Folgenden erfahren Sie welche Optionen Ihnen zur Verfügung
+Die konkrete Variante des Kurszugangs, bzw. generell des Zugangs zu einer
+Lernressource, wird im Tab "Freigabe" der Kurs "Administration" eingerichtet. Im Folgenden erfahren Sie welche Optionen Ihnen zur Verfügung
 stehen.  
 
 ## Zugang für Teilnehmer organisieren
@@ -40,10 +38,9 @@ Zwei grundsätzliche Varianten stehen zur Verfügung:
 
 ![Booking options](assets/booking.de.jpg)
 
-Bei der  wahl **"Privat"** werden die Teilnehmer durch den Besitzer bzw. Personen, die über das Recht der Mitgliederverwaltung verfügen,eingetragen.
+Bei der  wahl **"Privat"** werden die Teilnehmenden durch die Besitzer bzw. Personen, die über das Recht der Mitgliederverwaltung verfügen, eingetragen.
 
-Bei der Wahl der Option **"Buchbare und offene Angebote"** können die Lernenden einen Kurs/Lernessource
-selbst buchen, müssen aber eventuell (je nach Einstellung) ein Passwort
+Bei der Wahl der Option **"Buchbare und offene Angebote"** können die Lernenden einen Kurs/Lernessource selbst buchen, müssen aber eventuell (je nach Einstellung) ein Passwort
 eingeben.
 
 ## Freigabe für andere Autoren
