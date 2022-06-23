@@ -58,7 +58,7 @@ lecturers. They do not have to match the creator of the learning resource. The
 field is a plain text field, the content is only displayed on the course
 overview page.  
 
- **Subjects** : If defined, suitable subject areas can be selected here.
+ **Subjects** : If defined, suitable subject areas can be selected here. The subject areas are also used for classification in the catalog.
 
  **Educational type:**  Courses can be assigned to one of the selected
 categories here. However, the assignment has no effect on the actual design of

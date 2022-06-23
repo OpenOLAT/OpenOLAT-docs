@@ -60,7 +60,7 @@ eingetragen werden. Sie müssen nicht mit dem Ersteller der Lernressource
 auf der Kursübersichtsseite angezeigt.
 
  **Fachbereiche**: Sofern definiert, können hier passende Fachbereiche
-ausgewählt werden.
+ausgewählt werden. Die Fachgebiete werden auch für die Einordnung im Katalog verwendet.
 
  **Didaktischer Typ:**   Kurse können hier einer der ausgewählten Kategorien
 zugeordnet werden. Die Zuordnung hat aber keinerlei Auswirkung auf die
