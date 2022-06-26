@@ -1,6 +1,5 @@
 # Course Element: Single Page
 
-##
 
 ![single page icon](assets/single_page_icon.png)
 
@@ -10,14 +9,16 @@ course schedule or literature tips for your course or place content such as
 pictures or videos precisely in the course. The files themselves are created
 in the storage folder of the course.
 
-For integrating Office documents please use the course element
-"[Document](Knowledge_Transfer.md)".
+!!! info "Info"
+
+    For integrating Office documents please use the course element
+    "[Document](Knowledge_Transfer.md)".
 
   
 
-Tab Page content
+## Tab Page content
 
-There are three possibilities to embed a page's content in your course:
+Hier nehmen Sie die zentrale Konfiguration dieses Kursbausteins vor. There are three possibilities to embed a page's content in your course:
 
   * Create new HTML page online
   * Select any file from the storage folder
@@ -45,11 +46,6 @@ files via the course element "Single page" and integrate them into your
 course. This method is recommended if you want to influence the structure of
 the folder yourself.
 
-All file formats (e.g. doc, xsl, pdf, jpg, mp3, mp4) can be uploaded. If a
-file type is not supported by the browser used, a download link is displayed
-for this file. However, it is recommended to use web-specific files such as
-HTML files, which can also be displayed directly.
-
 With the "Single page", videos and audios can be integrated into the course in
 various ways. Detailed information can be found
 [here](../resource_video/Single_Page_Add_edit_video.md).
@@ -58,9 +54,8 @@ The Files can also be swapped later using the link "Replace page".
 
 Avoid opening or saving HTML pages that have been created by means of an
 external editor with the OpenOlat HTML editor; part of your formatting could
-be lost. The OpenOlat HTML editor contains only the <body> area of an HTML
-page. If entries are to be made in HTML <head>, this must be done in an
-external editor.
+be lost. The OpenOlat HTML editor contains only the < body > area of an HTML
+page. If entries are to be made in HTML < head >, this must be done in an external editor.
 
 Under "Security Settings" you can specify whether references in your HTML
 pages are only possible to files in the same folder and its subfolders, or
@@ -78,15 +73,14 @@ In the " **Layout** " tab you can define the settings for the display of page
 contents. Here you determine whether the page should be displayed unaltered,
 or optimized for OpenOlat. The display mode "Optimized for OpenOlat" allows
 you to e.g. apply the course layout to the page content, or to enable the
-course glossary.
+course [glossary](../course_operation/Using_Additional_Course_Features.md#glossary).
 
-  
+Folgende Einstellungen für den Kursbaustein "Einzelne Seite" vorgenommen werden.  
 
- Display options
 
-* * *
+**Display mode:** 
 
- **Display mode:** Select the mode "Standard" to display the resource
+Select the mode "Standard" to display the resource
 unmodified. This mode is useful for resource that encounter render issues when
 using the mode "Optimized for OpenOlat", usually content not created with the
 OpenOlat editor, such as HTML5 content. Use the mode "Optimized for OpenOlat"
@@ -94,34 +88,41 @@ when you want to embed the course layout, a JavaScript library, the OpenOlat
 glossary or when you want to use the automatic height detection of the page.
 In case of SCORM modules the mode "Standard" is recommended.
 
-* * *
-
- **Embed Javascript library:** To use the features of the display mode
+ **Embed Javascript library:**
+  
+To use the features of the display mode
 "Optimized for OpenOlat" the JavaScript library "jQuery" must be activated.
 The option "Prototype" should only be used in case your content requests this
 library. Select no JavaScript library if you have display issues with your
 content within OpenOlat.
 
- **Embed glossary terms:** Select this option to activate the glossary terms
+ **Embed glossary terms:** 
+
+Select this option to activate the glossary terms
 embedding on that page if you have a glossary configured for this course. This
 option requires the JavaScript library "jQuery".
 
- **Display height:** By means of the drop-down menu you can determine the
+ **Display height:** 
+
+By means of the drop-down menu you can determine the
 height of your content. You have the possibility to set them via "Automatic"
 to the respective window height or to a certain value of your choice.
 
- **Adapt layout:** Select the option "OpenOlat stylesheets" to embedd the
-OpenOlat and course layout into this page (font type, colors, sizes etc.). If
-you do not want this option select "None".
+ **Adapt layout:** 
 
-* * *
+Select the option "OpenOlat stylesheets" to embedd the
+OpenOlat and course layout into this page (font type, colors, sizes etc.). If you do not want this option select "None".
 
- **Content character set:** OpenOlat tries to detect a character set
+**Content character set:** 
+
+OpenOlat tries to detect a character set
 automatically. If the option "Automatic" is not successful it is possible to
 configure the content coding by means of a predefined character set (should
 there be no coding the character set ISO-8899-1 will be used by default).
 
- **Javascript character set:** This permits the coding of Javascript by means
+**Javascript character set:** 
+
+This permits the coding of Javascript by means
 of a predefined character set (by default the same set will be used for
 content and Javascript).
 

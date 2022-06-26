@@ -1,35 +1,31 @@
 # Kursbaustein "Einzelne Seite"
 
-![](assets/single_page.png)
+![single page icon](assets/single_page.png)
 
-Im Kursbaustein „Einzelne Seite“ können Sie HTML und PDF Dateien direkt in die
+Im Kursbaustein „Einzelne Seite“ können Sie HTML und PDF-Dateien direkt in die
 Kursstruktur einbinden. Geben Sie auf diesem Weg beispielsweise zentrale
 Informationen, den Kursablauf oder Literaturtipps zu Ihrem Kurs bekannt oder
 platzieren Sie Inhalte wie Bilder oder Videos gezielt im Kurs. Die Dateien
 selbst werden dabei im [Ablageordner ](../course_operation/Storage_folder.de.md)des Kurses angelegt.
 
-  
+!!! info "Info"
 
-Für die Einbindung von Office-Dokumenten nutzen Sie bitte den [Kursbaustein
-"Dokument".](Knowledge_Transfer.de.md)
+    Für die Einbindung von Office-Dokumenten nutzen Sie bitte den [Kursbaustein
+    "Dokument".](Knowledge_Transfer.de.md)
 
 ## Tab Seiteninhalt
 
-Sie haben folgende Möglichkeiten, um den gewünschten Seiteninhalt in Ihren
-Kurs zu integrieren:
+Hier nehmen Sie die zentrale Konfiguration dieses Kursbausteins vor. Sie haben folgende Möglichkeiten, um den gewünschten Inhalt mit Hilfe des Kursbausteins "Einzelne Seite" in Ihren Kurs zu integrieren:
 
   * Neue HTML-Seite online erstellen
   * Eine beliebige Datei aus dem Ablageordner wählen
   * Eine Datei in den Ablageordner hochladen und mit dem Baustein verknüpfen
 
-![single page content](assets/single_page_page_content.png)
+![single page content](assets/single_page_content_de.png)
 
 Für die weitere Bearbeitung von HTML-Seiten können Sie den OpenOlat Editor
-nutzen. Er funktioniert ähnlich wie ein Textverarbeitungsprogramm. Die
-automatisch erstellte Datei, wenn Sie zum ersten Mal eine Seite erstellen,
-trägt bereits den Namen des Kurselements. Einmal angelegt, öffnen Sie die
-Datei mit dem Link "Datei im Editor öffnen" und Sie gelangen in den OpenOLAT
-HTML Editor.
+nutzen. Er funktioniert ähnlich wie ein Textverarbeitungsprogramm. Eine
+automatisch erstellte Datei trägt bereits den Namen des Kurselements. Einmal angelegt, öffnen Sie die HTML-Datei mit dem Link "Datei im Editor öffnen" und Sie gelangen in den OpenOlat HTML Editor.
 
 ![html editor](assets/html_editor.png)
 
@@ -51,13 +47,11 @@ den Kurs eingebunden werden. Detaillierte Information finden Sie
 
 Die Dateien können bei Bedarf später auch über den Link "Seite ersetzen"
 wieder gewechselt werden.
-
-  
-
+ 
 Öffnen und speichern Sie HTML-Seiten, die Sie mit einem externen Editor
 erstellt haben, nicht mit dem eingebauten HTML-Editor, da dadurch Teile der
 Formatierung verloren gehen können. Der OpenOlat HTML-Editor enthält nur den
-<body> Bereich einer HTML Seite. Sollen Einträge im HTML <head> vorgenommen
+< body > Bereich einer HTML Seite. Sollen Einträge im HTML < head > vorgenommen
 werden, muss dies in einem externen Editor erfolgen.
 
 Unter „Sicherheitseinstellungen“ können Sie festlegen, ob Verweise in Ihren
@@ -73,60 +67,57 @@ Zugang zum Kurseditor.
 
 ## Tab Anzeige Inhalt  {: #layout}
 
-Im Tab „ **Anzeige Inhalt** “ definieren Sie die Einstellungen für die Anzeige
+Im Tab „**Anzeige Inhalt**“ definieren Sie die Einstellungen für die Anzeige
 des Seiteninhalts. Hier legen Sie fest ob die Seite unverändert, oder
 optimiert für OpenOlat angezeigt werden soll. Der Anzeigemodus „Optimiert für
 OpenOlat“ gestattet Ihnen z.B. das Kurslayout auf den Seiteninhalt anzuwenden,
-oder ein in den Kurs eingebundenes Glossar für die Seite zu aktivieren.
+oder ein in den Kurs eingebundenes [Glossar](../course_operation/Using_Additional_Course_Features.de.md#glossary) für die Seite zu aktivieren.
 
-  
+Folgende Einstellungen für den Kursbaustein "Einzelne Seite" vorgenommen werden. 
 
- Layout Optionen der Einzelnen Seite
+ **Anzeigemodus:** 
 
-* * *
-
- **Anzeigemodus:** Wählen Sie den Modus "Standard" um die Ressource
-unverändert anzuzeigen. Dieser Modus ist geeignet für Ressourcen, bei denen es
-im Modus "Optimiert für OpenOlat" zu Anzeigeproblemen kommt, was vor allem bei
+ Wählen Sie den Modus "Standard" um die Ressource unverändert anzuzeigen. Dieser Modus ist geeignet für Ressourcen, bei denen es im Modus "Optimiert für OpenOlat" zu Anzeigeproblemen kommt, was vor allem bei
 extern erstelltem Inhalt passieren kann, wie z.B. HTML5 Seiten. Wählen Sie den
 Modus "Optimiert für OpenOlat", wenn Sie das Kurslayout in der Seite einbinden
 wollen, eine JavaScript Bibliothek verwenden möchten, das OpenOlat Glossar auf
 dieser Seite anwenden wollen oder die Höhe der Seite automatisch berechnet
 werden soll. Bei SCORM Modulen ist der Modus "Standard" empfohlen.
 
-* * *
-
- **JavaScript hinzufügen:** Um die Funktionen des Anzeigemodus "Optimiert für
-OpenOlat" nutzen zu können muss die JavaScript Bibliothek "jQuery" aktiviert
+ **JavaScript hinzufügen:** 
+ 
+Um die Funktionen des Anzeigemodus "Optimiert für OpenOlat" nutzen zu können muss die JavaScript Bibliothek "jQuery" aktiviert
 sein. Die Option "Prototype" sollte nur gewählt werden, wenn Ihre Inhalte
-diese Bibliothek voraussetzen. Wählen Sie keine Bibliothek, wenn es zu
-Anzeigeproblemen mit Ihren Inhalten kommt.
+diese Bibliothek voraussetzen. Wählen Sie keine Bibliothek, wenn es zu Anzeigeproblemen mit Ihren Inhalten kommt.
 
- **Glossarbegriffe einbinden:** Wählen Sie diese Option um die Möglichkeit der
+ **Glossarbegriffe einbinden:** 
+ 
+Wählen Sie diese Option um die Möglichkeit der
 Hervorhebung von Glossarbegriffen für Ihre HTML-Seiten zu aktivieren sofern
 Sie ein Glossar in Ihrem Kurs eingebunden haben. Diese Option setzt die
 Verwendung der JavaScript Bibliothek "jQuery" voraus.
 
- **Höhe Anzeigefläche:** Mittels des Drop-Down-Menus können Sie die Höhe der
-Inhalte bestimmen. Sie haben die Möglichkeit, diese via "Automatisch" auf die
+ **Höhe Anzeigefläche:** 
+
+Mittels des Drop-Down-Menus können Sie die Höhe der Inhalte bestimmen. Sie haben die Möglichkeit, diese via "Automatisch" auf die
 jeweilige Fensterhöhe zu setzen oder auf einen bestimmten Wert zu setzen.
 
- **Layout anpassen:** Wählen Sie die Option "OpenOlat Stylesheets" um das
-OpenOlat und Kurslayout in Ihre Seite zu übernehmen (Schriftart, Farben,
+ **Layout anpassen:** 
+
+Wählen Sie die Option "OpenOlat Stylesheets" um das OpenOlat und Kurslayout in Ihre Seite zu übernehmen (Schriftart, Farben,
 Grösse etc). Wenn Sie diese Anpassung nicht wünschen wählen Sie die Option
 "Keine".
 
-* * *
-
- **Zeichensatz Inhalt:** OpenOlat versucht, den Zeichensatz automatisch zu
-erkennen. Wenn die Option "Automatisch" nicht zu der gewünschten Anzeige
+ **Zeichensatz Inhalt:** 
+ 
+OpenOlat versucht, den Zeichensatz automatisch zu erkennen. Wenn die Option "Automatisch" nicht zu der gewünschten Anzeige
 führt, kann die Kodierung des Inhalts anhand eines vordefinierten
-Zeichensatzes konfiguriert werden (ist keine Kodierung vorhanden, wird per
-Default der Zeichensatz ISO-8899-1 verwendet).
+Zeichensatzes konfiguriert werden (ist keine Kodierung vorhanden, wird per Default der Zeichensatz ISO-8899-1 verwendet).
 
- **Zeichensatz Javascript:** Erlaubt die Kodierung des Javascript Codes anhand
-eines vordefinierten Zeichensatzes (per Default wird der gleiche Zeichensatz
-für Inhalt und Javascript verwendet).
+ **Zeichensatz JavaScript:** 
+ 
+Erlaubt die Kodierung des JavaScript Codes anhand eines vordefinierten Zeichensatzes (per Default wird der gleiche Zeichensatz
+für Inhalt und JavaScript verwendet).
 
 !!! tip "Tipp"
 

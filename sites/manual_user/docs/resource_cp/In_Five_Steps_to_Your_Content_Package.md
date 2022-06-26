@@ -5,74 +5,57 @@ embedding it in your course and activating it for your participants.
 
 ## Step 1: Start course editor and insert CP course element  
 
- 1. Search for your course in "Authoring", section "My entries," and open it.
+ - Search for your course in "Authoring", section "My entries," and open it.
 ![open-course](assets/opencourse.gif){ class="shadow" }
- 2. Click on "Course editor" in the drop-down menu "Administration" in the toolbar.  
- 3. Select position at which your CP course element should be inserted by clicking on it.  
- 4. Select "CP learning content" in the pop-up "Insert course elements" in the toolbar.  
- 5. Indicate a short title for your course element in the tab "Title and description" and save your settings.  
+ - Click on **"Course editor"** in the drop-down menu "Administration" in the toolbar.  
+ - Select position at which your CP course element should be inserted by clicking on it.  
+ - Select "CP learning content" in the pop-up **"Insert course elements"** in the toolbar.  
+ - Indicate a short title for your course element in the tab "Title and description" and save your settings.  
   
 ## Step 2: Creating CP learning content  
 
- 1. Click on "Select, create or import CP learning content" in the tab "Learning content."
+ - Click on **"Select, create or import CP learning content"** in the tab "Learning content."
 ![choose-content-package](assets/choosecp.gif){ class="shadow" }
- 2. Click on "Create."  
- 3. Indicate the title of your CP and click on "Create".  
+ - Click on "Create" im erscheinenden Dialog rechts oben
+ - Indicate the title of your CP and click on "Create".  
   
-Now you are within the editor. A new CP usually consists of one chapter ("CP
-learning content") and one page ("New page").
+ Die Lernressource CP ist nun angelegt und Sie können sie über den Link "Editieren" bearbeiten. Alternativ kann die erstellte Lernressource auch direkt im Autorenbereich aufgerufen und bearbeitet werden. 
 
-## Step 3: Edit CP  
+## Step 3: Edit and save CP  
 
- 1. Click on "Edit."
+ - Click on "Edit."
     
     ![edit-content-package](assets/editcp.gif){ class="shadow" }
 
- 2. **Edit title**: Click on icon "Edit page properties" and insert a new one.
+     Nun befindet man sich in der Lernressource CP. Sie wird in einem neuen OpenOlat Tab geöffnet. 
 
-    ![edit-page-properties](assets/cp_edit_page_properties.png){ class="shadow" }
+ - Open the **CP-Editor**:
+ 
+ Gehen Sie in das Menü "Administration" der CP Lernressource und wählen Sie hier **"Inhalt editieren"**. So gelangen Sie in den CP-Editor. Hier können Sie den Inhalt mit Hilfe des HTML-Editors bearbeiten, formatieren und speichern. Sie können auch neue Seiten und Dateien hochladen um Ihr CP zu gestalten. Erstellen Sie hier einen strukturierten Hypertext mit mehreren Seiten.  
+ 
+ - Wenn Sie alle gewünschten Änderungen vorgenommen haben, wählen Sie "speichern" und schliessen Sie den CP-Editor. 
 
- 3. Edit content: Edit page in the provided field and format before saving it.
- 4. **Insert new page**: Click on icon "Add page." Your new page will be inserted underneath the highlighted element.
+More information on the available editor features can be found in the **[CP Editor](CP_Editor.md)** chapter.
 
-    ![content-package-add-page](assets/cp_add_page.png){ class="shadow" }
+## Step 4: Publish the course
 
- 5. **Copy page**: Click on icon "Copy page." Your copied page will be inserted underneath the highlighted element.
- 6. **Import page**: Click on "Import page." Then click on "Select file" before
-selecting a HTML page. Click on "Import." You can import several HTML pages at once by zipping them before uploading the
-resulting ZIP file.
- 7. **Delete page**: Click on icon "Delete page" and confirm.
- 8. **Preview**: Click on the icon "Preview" on your top right in the toolbar to have a look at your CP before saving it.
+Sie müssen nun wieder zurück zum Kurs navigieren, der in einem weiteren Olat Tab noch geöffnet ist. Hier sollten nun noch ein paar weitere Einstellungen vorgenommen werden.
 
-Now you can insert more pages following the same pattern. More information on the available editor features can be found in the **[CP Editor](CP_Editor.de.md)** chapter.
+- Under "Display" you can determine whether the CP's own component menu should be integrate into course navigation.
 
-## Step 4: Save CP  
+- Konfigurieren Sie bei Bedarf die weiteren Tabs des Kursbausteins.
+In the tab "Layout" you define the settings for the display of the CP. The setting options are identical to those of a [single page](Course_Element_Single_Page.md)
 
-1. Click on "Save" in the lower center.  
-2. Close CP tab and navigate back to your course.  
+- Publizieren Sie anschliessend den Kurs indem Sie in der Breadcrumb-Leiste auf den Kurstitel klicken und den Kurs automatisch oder manuell publizieren.   
 
-## Step 5: Publish and activate your course  
+## Step 5: Kurszugang einrichten  
 
-1. Select "Publish" in the toolbar on top.
+The CP is now embedded in your course. 
+Damit Lernende das CP im Kurs sehen und bearbeiten können muss der Kurs den Status "Veröffentlicht" haben und die [Zugangskonfiguration](../course_create/Access_configuration.de.md) sollte passend eingerichtet sein.
 
-    ![Publish-cp](assets/publishcp.gif){ class="shadow" }
+Um das CP weiter zu bearbeiten, können Sie jederzeit wieder bei Schritt 3 ansetzen oder die Lernressource CP direkt im Autorenbereich über den Bereich "Meine Einträge" aufrufen. 
 
-    ![publish-cp-second-step](assets/CP_EN.png){ class="shadow" }
 
-2. Check course element and then go "Next."  
-3. Select "All registered OpenOlat users" from the pull-down menu in
-"Modification of course access."  
-4. Click on "Finish."  
-  
-The CP is now embedded in your course and course participants can read its
-content. In order to edit this CP just click on "Edit" in the tab "Learning
-content."
-
-Under " Display" you can determine whether the CP's own component menu
-should be integrate into course navigation.
-
-In the tab "Layout" you define the settings for the display of the CP.
-The setting options are identical to those of a [single page](Course_Element_Single_Page.md)
 
 !!! tip "Alternative Way"
-    A Content Package can be created just like any other learning resource in the author area and then integrated into the desired course. This procedure is recommended to understand that learning resources are cross-course tools and that integration into the selected course is only one possibility. The same CP can be integrated and used in several OLAT courses.
+    A Content Package can be created just like any other learning resource in the author area and then integrated into the desired course. This procedure is recommended to understand that learning resources are cross-course tools and that integration into the selected course is only one possibility. The same CP can be integrated and used in several OpenOlat courses.
