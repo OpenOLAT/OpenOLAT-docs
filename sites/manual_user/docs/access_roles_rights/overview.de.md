@@ -1,6 +1,8 @@
 # Übersicht
 ## Zugriff Kurs
 ### Kursrollen
+Die Kursrollen Teilnehmer sowie Betreuer stehen stellvertretend auch für die Gruppenteilnehmer/-betreuer und Curriculumteilnehmer -/betreuer.
+
 |                                                             | Besitzer         | Betreuer          | Teilnehmer        |
 | ----------------------------------------------------------- | :--------------: | :---------------: | :---------------: |
 | **Zugriff nach Status**                                                                                                |
@@ -10,11 +12,11 @@
 | ![Veröffentlicht](assets/s_publ_DE.png){ width=100px }      | Vollzugriff      | Lesend            | Lesend            |
 | ![Beendet](assets/s_fin_DE.png){ width=63px }               | Lesend           | Lesend            | Lesend            |
 | ![Papierkorb](assets/s_trash_DE.png){ width=80px }          | Lesend           | :material-cancel: | :material-cancel: |
-| **Kursadmin-Tools**                                                                                                        |
+| **Kursadmin-Tools**                                                                                                    |
 | Mitgliederverwaltung                                        | Vollzugriff      | :material-cancel: | :material-cancel: |
 | Bewertungswerkzeug                                          | Vollzugriff      | Vollzugriff       | :material-cancel: |
 | Lektionen&Absenzen                                          | Vollzugriff      | :material-cancel: | :material-cancel: |
-| **Aktionen**                                                                                                           |
+| **Kursaktionen**                                                                                                       |
 | Kopieren                                                    | :material-check: |                   |                   |
 | Löschen                                                     | :material-check: |                   |                   |
 | Exportieren                                                 | :material-check: |                   |                   |
@@ -69,7 +71,7 @@
 | Mitgliederverwaltung                                        | Vollzugriff                   | :material-cancel:          | :material-cancel:             |
 | Bewertungswerkzeug                                          | Vollzugriff                   | :material-cancel:          | :material-cancel:             |
 | Lektionen&Absenzen                                          | Vollzugriff                   | :material-cancel:          | :material-cancel:             |
-| **Aktionen**                                                                                                                                             |
+| **Kursaktionen**                                                                                                                                             |
 | Kopieren                                                    | :material-check:              |                            |                               |
 | Löschen                                                     | :material-check:              |                            |                               |
 | Exportieren                                                 | :material-check:              |                            |                               |

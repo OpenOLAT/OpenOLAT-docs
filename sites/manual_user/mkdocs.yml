@@ -17,6 +17,14 @@ nav:
     - Login Page: "login/Login_Page.md"
     - Session Timeout and Logout: "login/Session_Timeout_and_Logout.md"
 
+  - Access, Roles and Rights:
+    - access_roles_rights/index.md
+    - Overview: "access_roles_rights/overview.md"
+    - Coach: "access_roles_rights/coach.md"
+    - Author: "access_roles_rights/author.md"
+    - Guest access: "access_roles_rights/guest_access.md"
+    
+
   - Personal menu and general components: 
     - personal/index.md
     - Personal Menu: 
