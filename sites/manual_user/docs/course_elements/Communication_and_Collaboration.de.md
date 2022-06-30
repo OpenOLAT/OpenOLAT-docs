@@ -82,7 +82,7 @@ Post aktiviert".
 
 ### Moderationsrechte
 
-Alle Kursbesitzer und [Betreuer ](../general/Coach.de.md)verfügen über folgende weitere
+Alle Kursbesitzer und [Betreuer ](../access_roles_rights/coach.de.md)verfügen über folgende weitere
 Moderationsrechte. Sie können:
 
   * Alle Forumsbeiträge editieren, löschen und Dateien anhängen.

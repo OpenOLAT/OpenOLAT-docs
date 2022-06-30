@@ -29,7 +29,7 @@ filtered display:
 
 ## Course roles
 
-Three course roles are distinguished: course owner, [course coach](../../manual_user/general/Coach.md)
+Three course roles are distinguished: course owner, [course coach](/sites/manual_user/docs/access_roles_rights/coach.de.md)
 and course participant. The members of the respective roles can be displayed
 and edited here.
 

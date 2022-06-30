@@ -1,9 +1,9 @@
 # Guest access
 
-![](assets/DE_gastlogin.png){ class="shadow lightbox aside-right-lg" }
+![Guest login](assets/guestlogin.png){ class="shadow lightbox aside-right-lg" }
 
 Beside system users a guest access can be enabled. Guests are anonymous, not
-registered users, which cannot be managed in the user management.
+registered users, which cannot be managed in the [user management](../../manual_admin/usermanagement/index.md).
 
 In order to grant guests access the guest login has to be activated by the
 administrator of the OpenOlat instance. It is also possible to configure which
@@ -39,12 +39,12 @@ external link for the course. It is important, that the course is activated
 for guests in the access configuration. The external link can be found on the
 info page of the course.
 
-![](assets/en_guest_infopage.png)
+![Info page](assets/guest_infopage.png)
 
   
 
 !!! info "Info"  
 
     Administrative settings are made by OpenOlat administrators in the section
-    Login → ["Guest and Invitation"](../../manual_admin/administration/Guest_and_invitation.md) and under ["Customizing"](../../manual_admin/administration/Customizing.de.md) → "Sites.
+    Login → ["Guest and Invitation"](../../manual_admin/administration/Guest_and_invitation.md) and under ["Customizing"](../../manual_admin/administration/Customizing.de.md) → "Sites".
 

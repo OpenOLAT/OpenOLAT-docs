@@ -83,7 +83,7 @@ in individual forum posts".
 
 ### Moderation rights forum_rights
 
-All course owners and [coaches](../general/Coach.md) have the following additional
+All course owners and [coaches](../access_roles_rights/coach.md) have the following additional
 moderation rights. You can:
 
   * Editing and deleting all posts in a forum; attaching files.
