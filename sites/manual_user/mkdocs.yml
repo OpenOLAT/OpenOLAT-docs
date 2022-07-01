@@ -50,6 +50,8 @@ nav:
   - Courses and Catalog: 
     - catalog/index.md
     - Finding courses: "catalog/Finding_courses.md"
+    - Catalog 1.0: "catalog/catalog1.0.md"
+    - Catalog 2.0: "catalog/catalog2.0.md"
     - Info page: "catalog/Info_page.md"
 
   - Learning Activities in Courses: 
