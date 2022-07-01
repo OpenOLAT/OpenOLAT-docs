@@ -29,12 +29,33 @@ stehen.
 
 ## Zugang für Teilnehmer organisieren
 
+Der Zugang zu einem Kurs wird in der "Administration" → "Einstellungen" im Tab "Freigabe" konfiguriert.
+
+Drei grundsätzliche Varianten stehen zur Verfügung:
+
+![Share-Settings 16.2](assets/share_16.2.de.png)
+
+Bei der privaten Mitgliederverwaltung werden die Teilnehmer durch den Besitzer bzw. Personen, die über das Recht der Mitgliederverwaltung verfügen, eingetragen.
+
+Bei der Wahl der Option "Buchbar" können die Lernenden einen Kurs/Lernessource selbst buchen, müssen aber eventuell (je nach Einstellung) ein Passwort eingeben.
+
+Wird die Einstellung "offen ohne Buchung" gewählt kann jede Person mit Zugang zur OLAT-Instanz den Kurs besuchen und es ist für die Besitzer nicht sichtbar wer sich in den Kurs eingewählt hat. Über diese Option kann bei Bedarf auch Gästen, ohne OpenOlat Kennung Zugriff auf die Lernressource gewährt werden.
+
+### Buchungsmethoden konfigurieren
+Haben Sie zuvor die Option "Buchbar - Buchung durch Benutzer notwendig" gewählt können Sie anschließend die Buchungsmethode weiter einrichten und auch anhaken ob die Benutzer eine Bestätigungsmail erhalten sollen.
+
+Sie können definieren wann und unter welchen Voraussetzungen die Benutzer des Systems eine Lernressource buchen können. Buchen kann dabei als Synonym für belegen, einschreiben, einkaufen verstanden werden.
+
 Der Zugang zu einem Kurs wird in der "Administration" → "Einstellungen" im Tab
 "Freigabe" konfiguriert.
 
 ![Share-Settings](assets/share.de.jpg)
 
-Zwei grundsätzliche Varianten stehen zur Verfügung:
+!!! note " "
+    
+    :octicons-tag-24: Ab Release 17.0
+
+Es stehen zwei grundsätzliche Varianten zur Verfügung:
 
 ![Booking options](assets/booking.de.jpg)
 
@@ -63,18 +84,18 @@ möchten.
 
 ![offer Screen](assets/offer.de.jpg)
 
-Haben Sie zuvor die Option "Buchbare und offene Angebote"
+Haben Sie zuvor die Option "Buchungsmethoden hinzufügen" / "Buchbare und offene Angebote" (ab :octicons-tag-24: Release 17.0 )
 gewählt können Sie anschließend Angebote erstellen.
 
 Sie können definieren wann und unter welchen Voraussetzungen die Benutzer des
 Systems eine Lernressource buchen können. Buchen kann dabei als Synonym für
 belegen, einschreiben, einkaufen verstanden werden.
 
-Wählen Sie die Schaltfläche "Angebot erstellen", um Angebote hinzuzufügen.
+Wählen Sie die Schaltfläche "Angebot erstellen" / "Buchungsmethode hinzufügen" (ab :octicons-tag-24: Release 17.0 ), um Angebote / Buchungsmethoden hinzuzufügen.
 
 ![key](assets/key.png){ class="size24" }  **Zugangscode**
 
-Wählen Sie die Buchungsmethode Zugangscode um die Buchung auf einen bestimmten Personenkreis einzuschränken. Nur Personen die über diesen Zugangscode verfügen können die Ressource buchen. Vor dem ersten Öffnen des Kurses muss dieser Code, der beispielsweise im Vorfeld per Mail verschickt oder bei Blended-Learning Veranstaltungen an die Tafel geschrieben wurde, vom Benutzer eingegeben werden. Der Code braucht nur einmal eingetragen zu werden.
+Wählen Sie Zugangscode um die Buchung auf einen bestimmten Personenkreis einzuschränken. Nur Personen die über diesen Zugangscode verfügen können die Ressource buchen. Vor dem ersten Öffnen des Kurses muss dieser Code, der beispielsweise im Vorfeld per Mail verschickt oder bei Blended-Learning Veranstaltungen an die Tafel geschrieben wurde, vom Benutzer eingegeben werden. Der Code braucht nur einmal eingetragen zu werden.
 
 ![gift](assets/gift.png){ class="size24" } **Frei verfügbar**
 
@@ -82,14 +103,14 @@ Wählen Sie diese Option, wenn keine weiteren Einschränkungen gelten. Alle OLAT
 
 ![paypal](assets/cc-paypal.png){ class="size24" }   **PayPal und Kreditkarte**
   
-Ist nur verfügbar wenn vom [Administrator freigeschaltet](../../manual_admin/administration/PayPal_Configuration.de.md): Wählen Sie die PayPal/Kreditkarten Buchungsmethode um eine Buchung gegen eine finanzielle Vergütung zu ermöglichen. Bei dieser Buchungsmethode können Sie einen Betrag definieren, der mit einem PayPal Konto oder mit einer Kreditkarte (Visa/Mastercard) bezahlt werden muss. (Diese Funktion steht nur Benutzern mit Autorenrechten zur Verfügung)
+Ist nur verfügbar wenn vom [Administrator freigeschaltet](../../manual_admin/administration/PayPal_Configuration.de.md): Wählen Sie die PayPal/Kreditkarten um eine Buchung gegen eine finanzielle Vergütung zu ermöglichen. Dabei können Sie einen Betrag definieren, der mit einem PayPal Konto oder mit einer Kreditkarte (Visa/Mastercard) bezahlt werden muss. (Diese Funktion steht nur Benutzern mit Autorenrechten zur Verfügung)
 
-Optional kann einer Buchungskonfiguration ein Start- und Enddatum beigefügt werden. Diese Konfiguration ist dann nur zwischen dem konfigurierten Datum
+Optional kann einer Buchungskonfiguration/Angebotskonfiguration ein Start- und Enddatum beigefügt werden. Diese Konfiguration ist dann nur zwischen dem konfigurierten Datum
 gültig. Sie können auch nur ein Start- oder nur ein Enddatum angeben. Möchten
 sie keine zeitliche Einschränkung vorgeben so lassen Sie dieses Feld leer.
 Buchungsmethoden können nachträglich angepasst werden.
 
-Sie können auch mehrere Buchungsmethoden konfigurieren. Diese gelten als
+Sie können auch mehrere Buchungsmethoden/Angebote konfigurieren. Diese gelten als
 verschiedene Optionen, aus denen der Benutzer wählen kann, achten Sie in
 diesem Fall auf sinnvolle Beschreibungen. So können z.B. Kurscodes für
 Personen aus unterschiedlichen Kontexten kombiniert oder ein Kurs bis zu einem
@@ -107,9 +128,16 @@ jederzeit eine Person zu der Teilnehmerliste hinzufügen bzw. austragen. In dem
 zweiten Fall kann der Benutzer durch erneutes Buchen sich wieder in die
 Ressource als Teilnehmer eintragen.
 
-Sie können die konfigurierten Buchungsmethoden jederzeit problemlos löschen.
+Sie können die konfigurierten Buchungsmethoden/Angebote jederzeit problemlos löschen.
 Die bereits getätigten Buchungen bleiben bestehen und sind davon nicht weiter
 tangiert.
+
+!!! note "Info"
+    
+    :octicons-tag-24: Ab Release 17.0
+
+Angebote können auch, im Gegensatz zu Buchungsmethoden, unabhängig zum Publikationsstatus des Kurses veröffentlicht werden. Dazu wählt man ein in der Angebotserstellung "zeitbeschränkt" aus und definiert einen zukünftigen Zeitraum. Das Angebot ist dann im Katalog für diesen definierten Zeitraum verfügbar. 
+
 
 ## Lernressource verlassen
 

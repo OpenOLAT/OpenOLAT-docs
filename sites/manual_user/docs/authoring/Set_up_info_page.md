@@ -19,8 +19,6 @@ resource only a part of the tabs is available.
 
 ## Info
 
-###
-
 **Title of the learning resource:**  A requiered field. This title (maximum
 100 characters) can also be used to find the learning resource in the search
 mask. Enter a title for the learning resource that is as short and precise as
@@ -58,11 +56,12 @@ lecturers. They do not have to match the creator of the learning resource. The
 field is a plain text field, the content is only displayed on the course
 overview page.  
 
- **Subjects** : If defined, suitable subject areas can be selected here. The subject areas are also used for classification in the catalog.
+ **Subjects** : If defined, suitable subject areas can be selected here. The subject areas are also used for classification in the catalog. Look further here [Catalog 2.0](/catalog2.0.md).
+
 
  **Educational type:**  Courses can be assigned to one of the selected
 categories here. However, the assignment has no effect on the actual design of
-the course. Also, the terms can be used differently by different authors.
+the course. Also, the terms can be used differently by different authors. 
 
  **Main language** : Enter the language in which the learning resource was
 created or the language in which the course, test, etc. will be conducted.

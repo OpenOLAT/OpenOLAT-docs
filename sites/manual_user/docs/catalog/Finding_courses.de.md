@@ -43,36 +43,19 @@ Sie den Kurs dann direkt in Ihren Favoriten.
 ## Katalog
 
 Der OpenOlat Katalog ähnelt einem Vorlesungsverzeichnis in Papierform. Der
-Aufbau des Katalogs kann vom OpenOlat Administrator bzw. von einem
-Katalogverwalter eingerichtet werden, so dass die Autoren Kurse und andere
-Lernressourcen sinnvoll in den Katalog einsortieren können. Die Reihenfolge
-der Katalogeinträge kann vom Administrator bzw. Katalogverwalter definiert
-werden.
-
+Aufbau des Katalogs kann vom OpenOlat Administrator eingerichtet werden.
 Für OpenOlat Benutzer bietet sich der Katalog für die Suche nach bestimmten
 Kursen und Lernressourcen an.
 
-![Katalog](assets/catalog-de.png)
+### Katalog 1.0
 
-Verwenden Sie die Suchmaske, wenn Sie den gewünschten Kurs im Katalog nicht
-finden. Möglicherweise hat der Besitzer den Kurs noch nicht in den Katalog
-eingetragen.
+### Katalog 2.0
 
-In den Katalog können nur Kurse und Lernressourcen vom Lehrenden eingetragen
-werden, die auch für die Lerner frei geschaltet sind. Die Sichtbarkeit im
-Katalog ist abhängig vom Publikationsstatus und den Freigabeeinstellungen der
-Lernressource:
+:octicons-tag-24: Release 17.0 
 
-Benutzerrolle| Freigabeeinstellung| Publikationsstatus  
----|---|---  
-Besitzer der Lernressource| Privat, Buchbar, Offen| immer sichtbar  
-Betreuer der Lernressource| Privat, Buchbar, Offen|  "Freigabe Betreuer",
-"Veröffentlicht" oder "Beendet"  
-Teilnehmer der Lernressource| Privat, Buchbar, Offen| "Veröffentlicht" oder
-"Beendet"  
-Alle OpenOlat Benutzer| Buchbar, Offen| "Veröffentlicht" oder "Beendet"  
-Gäste| Offen & Gastzugang aktiviert| "Veröffentlicht" oder "Beendet"  
-  
+
+## Curriculum
+
 Verfügt ein User auch über Kurse, die einem [Curriculum
 ](../curriculum/Curriculum_Management.de.md)zugeordnet sind, erscheint im Menü "Kurse" auch
 der Bereich "Lehrgänge".

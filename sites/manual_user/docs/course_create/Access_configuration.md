@@ -30,9 +30,23 @@ following, you will learn which options are available to you.
 ## Organize access for participants
 
 The access to a course is configured in the "Administration" → "Settings" in
-the tab "Share".
+the tab "Share". 
 
 ![share-settings](assets/share.jpg)
+
+Three basic variants are available:
+
+![Share-Settings 16.2](assets/share_16.2.png)
+
+With the private member administration the participants are registered by the owner and/or persons, who have the right of the member administration.
+
+If the "Bookable" option is selected, learners can book a course/learning resource themselves, but may have to enter a password (depending on the setting).
+
+If the setting "open without booking" is selected, everyone can attend the course and it is not visible to the owners who has dialed into the course. If required, guests without OpenOlat identification can also be granted access to the learning resource via this option.
+
+!!! note "Info"
+    
+    :octicons-tag-24: Release 17.0
 
 Two basic variants are available:
 
@@ -56,6 +70,10 @@ copy | The learning resource can be copied by other authors.
 download | The learning resource is available for download by other authors.  
 
 ## Configure booking methods and offers
+
+!!! note "Info"
+
+ :octicons-tag-24: Release 17.0
 
 ![offer Screen](assets/offer.jpg)
 If you have previously selected the option "Bookable and open offers", you can then continue to set up the booking method and also check
@@ -108,6 +126,12 @@ orders will not be affected by this.
 Since OpenOlat version 13, the publication status is separated from the
 booking method. This allows you to configure the booking method before the
 actual publication and to activate it by changing the publication status.
+
+!!! note "Info"
+    
+    :octicons-tag-24: Release 17.0
+
+In contrast to booking methods, offers can also be published independently of the publication status of the course. To do this, one selects "time-limited" in the offer creation and defines a future period. The offer is then available in the catalogue for this defined period.
 
 ## Leaving a learning resource
 
