@@ -7,7 +7,7 @@
 
 OpenOlat arbeitet mit einem Rollen und Rechte Management. Zuerst wird zwischen 2 grundsätzlichen Benutzertypen unterschieden. Dies sind:
 
-  *  **Anonymer Gast:** Gäste haben - ohne sich zu registrieren – beschränkten Zugang zu OpenOlat. Sie können für Gäste freigegebene Lerninhalte betrachten, sich jedoch nicht an den Lernaktivitäten beteiligen. Der Link zum Gastzugang befindet sich auf der Login-Seite. Weitere Informationen zum Gast finden Sie [hier](Guest_access.de.md).
+  *  **Anonymer Gast:** Gäste haben - ohne sich zu registrieren – beschränkten Zugang zu OpenOlat. Sie können für Gäste freigegebene Lerninhalte betrachten, sich jedoch nicht an den Lernaktivitäten beteiligen. Der Link zum Gastzugang befindet sich auf der Login-Seite. Weitere Informationen zum Gast finden Sie [hier](guest_access.de.md).
   *  **Registrierter Benutzer:** Jeder Benutzer hat einen eindeutigen Benutzernamen, der nach der Registrierung nicht mehr geändert werden kann. Benutzer können freigeschaltete Lerninhalte nutzen und sich an allen Lernaktivitäten beteiligen. Zudem hat jeder Benutzer eine individuell konfigurierbare Startseite und [Speicherplatz ](../personal/Personal_folders.de.md)zur Verfügung. Darüber hinaus kann er Gruppen erstellen.
 
 !!! info "Info"
