@@ -1,7 +1,17 @@
 # Übersicht
+Legende
+
+| Begriff/Symbol    | Beschreibung                                |
+| ----------------- | ------------------------------------------- |
+| Vollzugriff       | Zugriff lesend und schreibend               |
+| Lesend            | Zugriff nur lesend                          |
+| :material-cancel: | Kein Zugriff. Weder schreibend noch lesend. |
+| :material-check:  | Aktion verfügbar                            |
+
 ## Zugriff Kurs
+In diesem Kapitel werden die Zugriffsmöglichkeiten der jeweiligen Benutzer mit unterschiedlichen Rollen aufgezeigt.
 ### Kursrollen
-Die Kursrollen Teilnehmer sowie Betreuer stehen stellvertretend auch für die Gruppenteilnehmer/-betreuer und Curriculumteilnehmer -/betreuer.
+Die Kursrollen Teilnehmer sowie Betreuer stehen stellvertretend auch für die Gruppenteilnehmer/-betreuer und Curriculumteilnehmer/-betreuer.
 
 |                                                             | Besitzer         | Betreuer          | Teilnehmer        |
 | ----------------------------------------------------------- | :--------------: | :---------------: | :---------------: |

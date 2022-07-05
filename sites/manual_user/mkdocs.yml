@@ -8,9 +8,6 @@ nav:
     - Requirements when Working with OpenOlat: "general/Requirements_when_Working_with_OpenOlat.md"
     - The Idea of Open-Source Software: "general/The_Idea_of_Open-Source_Software.md"
     - Technology and Navigation: "general/Technology_and_Navigation.md"
-    - Roles and Rights: "general/Roles_and_Rights.md"
-    - Coach: "general/Coach.md"
-    - Guest access: "general/Guest_access.md"
 
   - Registration, Login and Logout:
     - login/index.md
