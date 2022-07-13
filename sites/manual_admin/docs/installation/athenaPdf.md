@@ -21,7 +21,7 @@ Start AthenaPDF as a docker container with a command like this:
 	docker run --shm-size 2G -p 8090:8080 -d --security-opt seccomp=unconfined -e WEAVER_MAX_CONVERSION_QUEUE=5000 -e WEAVER_MAX_WORKERS=10 -e WEAVER_AUTH_KEY=<my auth key> -e WEAVER_ATHENA_CMD='athenapdf --stdout --delay 5000' --restart always arachnysdocker/athenapdf-service
 
 - `--delay 5000` depends on the complexity of math formulas used in tests when printing test results
-- `-d --security-opt seccomp=unconfined-d --security-opt seccomp=unconfined` is of course not recommended but often necessary to 
+- `-d --security-opt seccomp=unconfined-d --security-opt seccomp=unconfined` is of course not recommended but often necessary
 
 Make sure you have enough RAM assigned to the docker container. 
 
