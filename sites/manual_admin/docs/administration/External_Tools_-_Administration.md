@@ -35,6 +35,12 @@ created in OpenOlat.
 
 Activation and configuration of Adobe Connect, if license available
 
+## Zoom
+
+The Zoom integration lets you manage and start Zoom meetings.
+
+Learn how to [activate and configure the Zoom integration](Zoom.md). 
+
 ## LTI 1.3
 
 Here LTI 1.3 can be activated and configured in more detail e.g. external LTI
