@@ -19,6 +19,8 @@ Ausnahme ist der private Ordner, welcher nicht indexiert wird.
 Sie finden über die Volltextsuche immer nur diejenigen Kursinhalte, auf die
 Sie Zugriff haben.
 
+## Erweiterte Suche
+
 Um die Suche zu verfeinern, benutzen Sie die erweiterte Suche.
 
 ![](assets/Volltextsuche_erweitert.png)![](assets/Volltextsuche_erweitert2.png)
@@ -34,16 +36,15 @@ Ausnahme: Das Feld Volltextsuche sucht über alle Felder.
 Aus der Ergebnisliste können Sie direkt auf den Lerninhalt mit dem gefundenen
 Suchbegriff springen.
 
-Info
+!!! Info
 
-Neben der Volltextsuche über das gesamte OpenOlat gibt es auch eine
-[Kurssuche](../course_create/Course_Settings.de.md#Kurseinstellungen-Optionen), welche pro
-Kurs in den Kursoptionen aktiviert werden kann. Die Kurssuche durchsucht nur
-den entsprechenden Kurs.
+    Neben der Volltextsuche über das gesamte OpenOlat gibt es auch eine
+    [Kurssuche](../course_create/Course_Settings.de.md#Kurseinstellungen-Optionen), welche pro
+    Kurs in der Toolbar aktiviert werden kann. Die Einstellung wird unter "Administration" -> "Einstellungen" im Tab "Toolbar" aktiviert. Die Kurssuche durchsucht nur den entsprechenden Kurs.
 
   
 
-###  Suchsyntax {: #syntax}
+##  Suchsyntax {: #syntax}
 
 Sie können Ihre Suchanfrage mit folgender Syntax modifizieren.  
   
@@ -56,9 +57,9 @@ _"kohlensäurehaltiges Mineralwasser"_
 Boolschen Operatoren verknüpft werden. Achtung Boolsche Operatoren müssen mit
 Grossbuchstaben geschrieben werden.
 
-  *  **OR:** Wenn Sie keine Boolschen Operatoren zwischen Suchbegriffen verwenden, wird der OR-Operator verwendet.Z.B. _"Analyse des Wassers" Kalzium_ und _"Analyse des Wassers" OR Kalzium_ ergeben das gleiche Suchergebnis, nämlich alle Dokumente, die entweder "Analyse des Wassers" oder "Kalzium" enthalten. ****
-  * **AND:** Mit dem AND-Operator finden Sie Dokumente, die alle Suchbegriffe enthalten.Z.B. _"Analyse des Wassers" AND "Kalzium"_ findet die Dokumente, die sowohl "Analyse des Wassers" wie auch "Kalzium" enthalten. ****
-  * **NOT:** Mit dem NOT-Operator können Sie Dokumente mit bestimmten Begriffen ausschliessen.Z.B. _"Analyse des Wassers" AND "Kalzium" NOT "Leitungswasser"_ findet die Dokumente, die "Analyse des Wassers" und "Kalzium", jedoch nicht "Leitungswasser" enthalten.
+  *  **OR:** Wenn Sie keine Boolschen Operatoren zwischen Suchbegriffen verwenden, wird der OR-Operator verwendet. Z.B. _"Analyse des Wassers" Kalzium_ und _"Analyse des Wassers" OR Kalzium_ ergeben das gleiche Suchergebnis, nämlich alle Dokumente, die entweder "Analyse des Wassers" oder "Kalzium" enthalten.
+  * **AND:** Mit dem AND-Operator finden Sie Dokumente, die alle Suchbegriffe enthalten. Z.B. _"Analyse des Wassers" AND "Kalzium"_ findet die Dokumente, die sowohl "Analyse des Wassers" wie auch "Kalzium" enthalten. 
+  * **NOT:** Mit dem NOT-Operator können Sie Dokumente mit bestimmten Begriffen ausschliessen. Z.B. _"Analyse des Wassers" AND "Kalzium" NOT "Leitungswasser"_ findet die Dokumente, die "Analyse des Wassers" und "Kalzium", jedoch nicht "Leitungswasser" enthalten.
 
  **Suche mittels Wildcards:** Sie können zwischen zwei Arten von Wildcards
 wählen, um nach bestimmten Wortfragmenten zu suchen.
@@ -70,8 +71,7 @@ wählen, um nach bestimmten Wortfragmenten zu suchen.
 ähnlich in der Schreibweise sind. Z.B. finden Sie mit der Sucheingabe
 _Traube~_ Dokumente, die Wörter wie "Trauma", "Glaube" oder "Taube" enthalten.
 
- **Sonderzeichen:** Die folgenden Zeichen sind Bestandteil der Suchsyntax in
-OLAT:
+ **Sonderzeichen:** Die folgenden Zeichen sind Bestandteil der Suchsyntax in OpenOlat:
 
  **\+ - && | ! ( ) { } [ ] ^ " ~ * ? : \**
 
@@ -90,12 +90,8 @@ Verwenden Sie hierzu im Modus _Einfache Suche_ folgende Feldnamen:
   *  _content_ (=Suche im Textkörper)
   *  _documenttype_ (=Dokumententyp)
   *  _filetype_ (=Dateityp)
-  *  _author_ (=Autor) _  
-_
-
-  * _created_ (=Erstellungsdatum) _  
-_
-
+  *  _author_ (=Autor) 
+  * _created_ (=Erstellungsdatum) 
   * _changed_ (=Letzte Änderung)
 
 Beispiel: _description:Kalzium_ sucht ausschliesslich im Feld _Beschreibung_.
@@ -105,18 +101,15 @@ der Webseite von [Apache
 Lucene](http://lucene.apache.org/core/7_2_0/queryparser/org/apache/lucene/queryparser/classic/package-
 summary.html#package.description) (Webseite in Englisch).
 
-###  Metadaten {: #metadata}
+##  Metadaten {: #metadata}
 
 Metadaten oder  _Metainformationen_  sind Daten, die Informationen über
 Merkmale anderer Daten enthalten, aber nicht diese Daten selbst. Metadaten,
 also Daten  **über**  Daten, beschreiben eine Datei mit ergänzenden
 Informationen wie zum Beispiel einem Titel, dem Urheber oder den Herausgeber.
-Sie sind dazu da, dass besser erkennbar wird, um was für ein Dokument es sich
-handelt. Dies ist besonders sinnvoll, wenn der Titel eines Dokumentes nicht in
-den Dateinamen geschrieben werden kann, weil dieser viel zu lange ist oder
-spezielle Zeichen enthält.
+Sie sind dazu da, dass besser erkennbar wird, um was für ein Dokument es sich handelt. Dies ist besonders sinnvoll, wenn der Titel eines Dokumentes nicht in den Dateinamen geschrieben werden kann, weil dieser viel zu lange ist oder spezielle Zeichen enthält.
 
-Jede Datei kann mit Metadaten versehen werden. Die Metadaten sind optional und
+Jede Datei aber auch komplette Lernressourcen können mit Metadaten versehen werden. Die Metadaten sind optional und
 müssen nicht ausgefüllt werden. Sie orientieren sich am [Dublin Core Simple
 Standard](https://de.wikipedia.org/wiki/Dublin_Core). Einige Metadaten können
 nicht verändert werden. Es sind dies der Name der Person die das Dokument

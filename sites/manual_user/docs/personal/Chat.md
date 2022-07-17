@@ -2,34 +2,16 @@
 
 ![](assets/chat_icon.png)
 
-Instant Messaging (IM) allows the exchange of messages with persons in real
-time--commonly known as "chat". Information on the availability of potential
+ Instant Messaging (IM) allows the exchange of messages with persons in real time - commonly known as "chat". Information on the availability of 
 chat partners is important. You get this information by means of a group peers
-list. To begin chatting with one of the available contacts, click on that
-contact and the chat will be started in a chat window. If a contact is not
-available, messages will be saved and delivered when the user logs in the next
-time.  In the OpenOlat Chat you can exchange messages with other OpenOlat
-users in real time.
-
-  
-
-  
-
-  
-
-  * 1Your Messaging Status
-  * 2Sending Messages
-  * 3Receiving messages
-  * 4Manage group list contacts
-  * 5Join a group/course chat
-  * 6Settings
-  * 7Chat logs
+list. To begin chatting with one of the available contacts, click on that contact and the chat will be started in a chat window. If a contact is not
+available, messages will be saved and delivered when the user logs in the next time. 
 
   
 
 ![](assets/chat_group.gif)
 
-## Your Messaging Status
+## Messaging Status
 
 ![](assets/available.png)
 Available: Select this status to receive chat messages immediately. You are
@@ -52,7 +34,7 @@ not disturb." Only after that test you will be able to chat again.
 
 If you basically want to have a status other than "Available" after logging
 in, you can change this in the personal menu → Settings → Instant Messaging
-(see "Settings" below).
+(see "Personal Settings" below).
 
   
 
@@ -105,9 +87,7 @@ are the coach of a group you can invite or disinvite coaches or participants
 to your group. These persons will then appear on your group list of the
 OpenOlat chat if the group members display setting is properly configured.
 Group coaches are displayed in the contact list in bold face.How the members
-display settings can be modified is described in the [group
-administration](Group+Administration.html#GroupAdministration-
-_gruppensystem_members).
+display settings can be modified is described in the [group administration](../groups/Group_Administration.md).
 
 ## Join a group/course chat
 
@@ -122,7 +102,7 @@ then not see your real identity. This option must be enabled by the system
 amdinistrator. It might not be available on your system. If you want to exit
 the chat room, just close that window.
 
-## Settings {: #settings}
+## Personal Settings {: #settings}
 
 In the tab "Instant Messaging" you can specify whether other users should be
 able to contact you. If you do not wish to receive messages from other users,

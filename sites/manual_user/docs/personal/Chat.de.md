@@ -2,47 +2,28 @@
 
 ![](assets/chat_icon.png)
 
-Instant-Messaging (IM) erlaubt den Austausch von Nachrichten mit Personen in
-Echtzeit - das sogenannte "Chatten". Wichtig ist dabei die Information über
-die Verfügbarkeit von potentiellen Chatpartnern. Diese Information liefert die
-Liste der Gruppenkontakte. Um mit einem der verfügbaren Kontakte einen Chat zu
-starten, klicken Sie auf den gewünschten Kontakt und der Chat wird in einem
-Chatfenster gestartet. Ist eine Person im Moment nicht erreichbar, so werden
-die Nachrichten gespeichert und dem Benutzer beim nächsten Login angezeigt.
-
-  
-
-  
-
-  * 1Ihr Messaging Status
-  * 2Nachrichten senden
-  * 3Nachrichten empfangen
-  * 4Kontakte der Gruppenliste verwalten
-  * 5Einem Gruppen- oder Kurschat beitreten
-  * 6Einstellungen
-  * 7Chat-Protokolle
-
+Instant-Messaging (IM) erlaubt den Austausch von Nachrichten mit Personen in Echtzeit - das sogenannte "Chatten". Wichtig ist dabei die Information über die Verfügbarkeit von potentiellen Chatpartnern. Diese Information liefert die
+Liste der Gruppenkontakte. Um mit einem der verfügbaren Kontakte einen Chat zu starten, klicken Sie auf den gewünschten Kontakt und der Chat wird in einem Chatfenster gestartet. Ist eine Person im Moment nicht erreichbar, so werden die Nachrichten gespeichert und dem Benutzer beim nächsten Login angezeigt.  
   
 
 ![](assets/chat_group-1.gif)
 
-## Ihr Messaging Status
+## Messaging Status
 
 Unterschieden wird zwischen:
 
 ![](assets/available.png)
-Verfügbar: Wählen Sie diesen Status um Chatanfragen und Kurznachrichten
+Verfügbar: Wählen Sie diesen Status, um Chatanfragen und Kurznachrichten
 unmittelbar zu erhalten. Sie signalisieren Gesprächsbereitschaft.
 
 ![](assets/nodisturb.png)
-Bitte nicht stören: Wählen Sie diesen Status wenn Sie beschäftigt sind und
-nicht durch aufgehende Chatfenster gestört werden wollen. Sie signalisieren
+Bitte nicht stören: Wählen Sie diesen Status, wenn Sie beschäftigt sind und
+nicht durch aufgehende Chatfenster gestört werden wollen. Sie signalisieren,
 dass Sie zwar online sind aber nicht direkt auf Anfragen antworten wollen.
 
 ![](assets/notavailable.png)
-Nicht verfügbar: Wählen Sie diesen Status wenn Sie nicht wollen das andere
-Benutzer sie kontaktieren. Für andere Benutzer sieht es aus als wären Sie
-nicht online. Sie erhalten Nachrichten trotzdem als Briefsymbol und können bei
+Nicht verfügbar: Wählen Sie diesen Status, wenn Sie nicht wollen das andere Benutzer sie kontaktieren. Für andere Benutzer sieht es aus als wären Sie
+offline. Sie erhalten Nachrichten trotzdem als Briefsymbol und können bei
 Bedarf auf Nachrichten antworten.
 
 Durch einen Klick auf das runde Symbol können Sie Ihren Instant-Messaging-
@@ -53,7 +34,7 @@ Beenden des Tests wieder chatten.
 
 Wenn Sie grundsätzlich nach dem Einloggen einen anderen Status als „Verfügbar“
 haben möchten, können Sie dies im persönlichen Menü → Einstellungen → Instant-
-Messaging ändern (siehe unten "Einstellungen").
+Messaging ändern (siehe unten "Persönliche Chat Einstellungen").
 
   
 
@@ -100,16 +81,13 @@ Nachricht gespeichert und beim nächsten Einloggen als Briefchen angezeigt.
 ## Kontakte der Gruppenliste verwalten
 
 Kontakte können über die Gruppe von OpenOlat hinzugefügt oder entfernt werden.
-Sofern Sie Betreuer oder Betreuerin einer Gruppe sind, können Sie Betreuer
-oder Teilnehmer in Ihre Gruppe ein- oder ausladen. Diese Personen erscheinen
-dann auf Ihrer Gruppenliste im Chat sofern die Gruppe die Anzeige der
+Sofern Sie Betreuer oder Betreuerin einer Gruppe sind, können Sie Betreuer und Betreuerinnen oder Teilnehmende in Ihre Gruppe ein- oder ausladen. Diese Personen erscheinen dann auf Ihrer Gruppenliste im Chat sofern die Gruppe die Anzeige der
 Gruppenmitglieder zulässt. Gruppenbetreuer werden in der Kontaktliste mit
 fetter Schrift dargestellt
 
 Wie Sie die Anzeige der Gruppenmitglieder in Ihrer Gruppe konfigurieren
 erfahren Sie in der
-[Gruppenadministration](Gruppenadministration.html#Gruppenadministration-
-_gruppensystem_members).
+[Gruppenadministration](../groups/Group_Administration.de.md).
 
 ## Einem Gruppen- oder Kurschat beitreten
 
@@ -125,16 +103,14 @@ Option muss vom Systemadministrator eingeschaltet werden und ist auf Ihrem
 System unter Umständen nicht verfügbar. Falls Sie den Raum wieder verlassen
 möchten, schliessen Sie das Fenster.
 
-## Einstellungen {: #settings}
+## Persönliche Chat Einstellungen {: #settings}
 
-Im Tab „Instant-Messaging“ können Sie festlegen ob andere Benutzer Sie
-kontaktieren dürfen. Wenn Sie keine Nachrichten von anderen Benutzern
+Im Tab „Instant-Messaging“ der persönlichen Einstellungen können Sie festlegen ob andere Benutzer Sie kontaktieren dürfen. Wenn Sie keine Nachrichten von anderen Benutzern
 empfangen wollen, schalten Sie diese Funktion aus, und der Kontaktlink in der
 Visitenkarte wird entfernt. In diesem Fall können Sie nur von
 Gruppenmitgliedern Kurznachrichten empfangen.
 
  **Nach dem Einloggen ist mein Status:**
-
 Hier können Sie zwischen drei Einstellungen wählen, die zukünftig jeweils nach
 dem Login aktiv sein sollen. Wenn Sie Ihren momentanen Status ändern wollen,
 können Sie dies über das runde Status-Symbol rechts oben tun. Beim nächsten
@@ -144,6 +120,5 @@ Login ist dann wieder der Status aktiv, den Sie hier festgelegt haben.
 
 Um Chat-Protokolle einzusehen, öffnen Sie das Chatfenster des gewünschten
 Chat-Partners. Wählen Sie dann oben den Zeitraum des Protokolls aus. Sie
-können sich das Chatprotokoll des letzten Tages, der letzten Woche oder des
-letzten Monats anzeigen lassen.
+können sich das Chatprotokoll des letzten Tages, der letzten Woche oder des letzten Monats anzeigen lassen.
 

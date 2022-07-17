@@ -16,6 +16,8 @@ only exceptions are private folders since they will not be indexed.
 
 You will only get search results of the course contents you have access to.
 
+## Advanced Search
+
 In order to search in more detail please use the advanced search.
 
 ![](../../download/attachments/590936/full-text-
@@ -32,16 +34,15 @@ Exception: The field Full-text search searches through all fields.
 You will be provided with a list of search results that is linked to the
 learning content along with your search term.
 
-Info
+!!! Info
 
-Beside the full-text search for the whole OpenOlat there exists also a [course
-search](../course_create/Course_Settings.md#CourseSettings-course_search), which can be
-activated for every course in the course options. The course search searches
-only the corresponding course.
+    Beside the full-text search for the whole OpenOlat there exists also a [course
+    search](../course_create/Course_Settings.md#CourseSettings-course_search), which can be
+    activated for every course in the course toolbar. Die Einstellung wird unter "Administration" -> "Einstellungenn" im Tab "Toolbar" aktiviert. The course search searches only the corresponding course.
 
   
 
-###  Syntax {: #syntax}
+##  Syntax {: #syntax}
 
 You can modify your query by means of the following syntax.  
   
@@ -84,7 +85,7 @@ operator). Or you can search through fields by means of your own Boolean link.
 In order to do this please use the following field names in the _Simple
 search_ mode:
 
-    *  _title_ (=Title)
+  *  _title_ (=Title)
   *  _description_ (=Description)
   *  _content_ (=Searching through a text)
   *  _documenttype_ (=Document type)
@@ -101,7 +102,7 @@ please go to [Apache
 Lucene](http://lucene.apache.org/core/7_2_0/queryparser/org/apache/lucene/queryparser/classic/package-
 summary.html#package.description).
 
-###  Meta Data {: #metadata}
+##  Meta Data {: #metadata}
 
 Meta data is data  **about**  data, containing information about attributes of
 other data. Metadata additionally describe a file, e.g. its title, author or
@@ -109,7 +110,7 @@ publisher. They serve as a means to clarify a document's purpose and are
 particularly suitable for file names that would otherwise be too long or for
 document titles containing special characters.
 
-Each file can be provided with metadata. Metadata are optional, and based on
+Each file and each learning resource can be provided with metadata. Metadata are optional, and based on
 the Dublin Core Simple Standard. For further information please go to: [Dublin
 Simple Core](http://en.wikipedia.org/wiki/Dublin_Core). However, several meta
 data cannot be modified: name of person who has uploaded a certain document,
