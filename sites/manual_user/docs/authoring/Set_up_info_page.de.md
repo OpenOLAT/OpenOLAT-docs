@@ -47,7 +47,7 @@ gewinnt die Beschreibung deutlich an Attraktivität. Achten Sie bei Bildern
 darauf, keine Texte oder nur kurze Schlagworte darzustellen und eine zum Kurs
 bzw. zur Lernressource passenden Visualisierung zu verwenden.
 
-## Metadaten
+## Metadaten {: #metadata}
 
 Im Reiter "Metadaten" nehmen Sie weitere Einstellungen für die Infoseite vor.
 

@@ -30,7 +30,7 @@ following, you will learn which options are available to you.
 ## Organize access for participants
 
 The access to a course is configured in the "Administration" → "Settings" in
-the tab "Share". 
+the tab "Share".
 
 ![share-settings](assets/share.jpg)
 
@@ -69,7 +69,7 @@ reference | Learning resources such as glossary, form or test can be integrated 
 copy | The learning resource can be copied by other authors.  
 download | The learning resource is available for download by other authors.  
 
-## Configure booking methods and offers
+## Configure booking methods and offers {: #offer}
 
 !!! note "Info"
 

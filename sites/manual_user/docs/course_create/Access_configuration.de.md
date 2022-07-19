@@ -80,7 +80,7 @@ Die Optionen "referenzieren" und "kopieren " machen z.B. Sinn, wenn Sie eine
 Vorlage oder gutes Beispiel für andere OpenOlat Autoren nutzbar machen
 möchten.
 
-## Angebote erstellen
+## Angebote erstellen {: #offer}
 
 ![offer Screen](assets/offer.de.jpg)
 

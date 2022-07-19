@@ -47,7 +47,7 @@ description much more attractive. Make sure that you do not display any text
 or just short keywords and that you use a visualization that matches the
 course or learning resource.
 
-## Metadata
+## Metadata {: #metadata}
 
 In the "Metadata" tab you can make further settings for the info page.
 
