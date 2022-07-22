@@ -1,13 +1,15 @@
 # Kursbaustein Adobe Connect
 
-**Art der Software**|  Kommerziell, Lizenz und Serverhosting erforderlich  
----|---  
+!!! warning "Achtung"
+
+    Adobe Connect ist eine kommerzielle Software. Um den Kursbaustein zu nutzen ist eine separate Lizenz und ein Serverhosting erforderlich.
+
 
 
 ## Tool Spezifisches
 
-Standardmäßig sind Kursbesitzer und Betreuer Adobe Connect Verwalter und
-Kursteilnehmer sind Connect Teilnehmende ohne weitere Rechte.
+Standardmässig sind Kursbesitzer und Betreuer Adobe Connect Verwalter und
+Kursteilnehme sind Connect Teilnehmende ohne weitere Rechte.
 
 Im Connect Raum stehen diverse Elemente (Pods) zur Verfügung, die miteinander
 kombiniert und in „Layouts“ organisiert werden können. So können u.a.
@@ -20,16 +22,13 @@ werden.
 ![connect_aufzeichnung.png](assets/connect_aufzeichnung.png)  
 ## Konfiguration im Kurseditor
 
- **Konfiguration im Kurseditor**
 Hier steht der Reiter Konfiguration für weitere Einstellungen zur Verfügung. 
 
-------  
-
- **Konfiguration im Kursrun (geschlossener Editor)**
+## Konfiguration im Kursrun (geschlossener Editor)
 
 Nachdem der Kursbaustein hinzugefügt wurde, muss ein Meetingraum im Tab
 "Konfiguration" über den Button "Meeting hinzufügen" erstellt werden.
-Anschließend erscheint der folgende Dialog:
+Anschliessend erscheint der folgende Dialog:
 
 ![connect_meeting_hinzufugen.png](assets/connect_meeting_hinzufuegen.jpg)
 
@@ -63,7 +62,7 @@ hat man die Möglichkeit über ein weiteres Dialogfenster dem Meeting
 beizutreten. Mit "Meeting beitreten" gelangt man in das Virtuelle
 Klassenzimmer und sämtliche raumspezifischen Werkzeuge stehen zur Verfügung.  
   
- !!! note "Link zu weiteren Infos"
+!!! note "Link zu weiteren Infos"
 
     Adobe Connect Anbieter Webseite: <https://www.adobe.com/de/products/adobeconnect.html>
 

@@ -13,13 +13,14 @@ Informationen betreffend OpenOlat, seiner Funktionen und neuesten Änderungen fi
 
 ## Aktuelle Version:
 
-- [OpenOlat 16.2 Benutzerhandbuch](manual_user/general/) | [Release Notes 16.2](release_notes/Release_notes_16.2.de.md)
+- [OpenOlat 17.0 Benutzerhandbuch](manual_user/general/)
 
 ## Ältere Versionen:
 
-- [OpenOlat 16.1 Benutzerhandbuch](archive_confluence/display/OO161DE.html) | [Release Notes 16.1](release_notes/Release_notes_16.1.de.md)
-- [OpenOlat 16.0 Benutzerhandbuch](archive_confluence/display/OO160DE.html) | [Release Notes 16.0](release_notes/Release_notes_16.0.de.md)
-- [OpenOlat 15.5 Benutzerhandbuch](archive_confluence/display/OO155DE.html) | [Release Notes 15.5](release_notes/Release_notes_15.5.de.md)
+- [OpenOlat 16.2 Benutzerhandbuch](/archive_mkdocs/16.2/de/manual_user/general/) | [Release Notes 16.2](release_notes/Release_notes_16.2.de.md)
+- [OpenOlat 16.1 Benutzerhandbuch](/archive_confluence/display/OO161DE.html) | [Release Notes 16.1](release_notes/Release_notes_16.1.de.md)
+- [OpenOlat 16.0 Benutzerhandbuch](/archive_confluence/display/OO160DE.html) | [Release Notes 16.0](release_notes/Release_notes_16.0.de.md)
+- [OpenOlat 15.5 Benutzerhandbuch](/archive_confluence/display/OO155DE.html) | [Release Notes 15.5](release_notes/Release_notes_15.5.de.md)
 
 
 :material-alert: **Gesuchte Version nicht gefunden?** Versuche es im [OpenOlat Handbuch Archiv](archive.de.md)

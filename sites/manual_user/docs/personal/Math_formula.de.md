@@ -1,30 +1,41 @@
-# Matheformel{: #formula}
+# Matheformel {:#formula}
 
-Formeln können in OpenOlat an verschiedenen Stellen in einem HTML-Editor eingefügt werden, wie ePortfolio, RichText-Eingabefelder und im Freitextaufgabenbaustein.
+Formeln können in OpenOlat an verschiedenen Stellen eingefügt werden. Verwendet wird dabei entweder der HTML-Editor oder Content-Editor. 
 
-## Einfügen über HTML-Editor
+## Einfügen einer Formel per HTML-Editor
 
-1. Man kann die mathematische Formel über `Einfügen>Mathematische Formel einfügen` im Kontextmenü des RichText-Editors/HTML-Editors oder direkt über den Formel-Button, falls vorhanden, einfügen.
+1. Man kann mathematische Formeln über `Einfügen> Mathematische Formel einfügen` im Kontextmenü des HTML-Editors oder direkt über den Formel-Button, falls aktiviert, hinzufügen.
 
-    ![formel im html editor](assets/mathjax-html.de.jpg)  {class="shadow"}
+    ![formel im html editor](assets/mathjax-html.de.jpg)
 
 2. Geben Sie die Formel über den LaTeX-Editor oder den grafischen Formeleditor ein. Weitere Informationen zur Verwendung des grafischen Editors finden Sie hier: [CortexJS keybindings](https://cortexjs.io/mathlive/reference/keybindings/).
 
-    ![formeleditor öffnen](assets/mathjax-editor-window.de.jpg){class="shadow"}
+    ![formeleditor öffnen](assets/Formeleditor_16_de.png)
   
-3. schließen Sie den html-Editor mit `Speichern`. Die Formel ist nun eingebunden.
+3. Schliessen Sie den HTML-Editor mit `Speichern` und die Formel ist nun eingebunden.
 
     ![formula embedded](assets/mathjax-embedded.jpg){class="shadow"}
 
-!!! Wortzählung bei Aufgaben
+Mathematische Formeln können in folgenden Kursbausteinen und Lernressourcen per HTML-Editor eingefügt werden:
 
-    Die mathematische Formel zählt als ein Wort, unabhängig von Länge und Komplexität.
+* Kursbaustein Einzelne Seite
+* Kursbaustein Aufgabe + Gruppenaufgabe (HTML)
+* Kursbaustein Forum
+* Lernressource CP-Lerninhalt
+* Lernressource Blog
+* Lernressource Test
 
-## Einfügen einer Formel in den Content Editor
+!!! info "Hinweis"
 
-1. Im Contenteditor gibt es jetzt einen neuen Blocktyp. Öffnen Sie den Inhaltseditor. Klicken Sie auf Inhaltsblock hinzufügen.
+    Wortzählung bei Aufgaben: Die mathematische Formel zählt als ein Wort, unabhängig von Länge und Komplexität.
+
+## Einfügen einer Formel per Content Editor im Portfolio 2.0
+
+
+1. Öffnen oder erstellen Sie einen Portfolio Eintrag und öffnen Sie den Inhaltseditor. Klicken Sie auf "Inhalt hinzufügen" und Sie erhalten u.a. die Möglichkeit den Formeleditor auszuwählen.
 
     ![contenteditor-fragetyp](assets/mathjax-content-editor.de.jpg){class="shadow"}
 
-2. Wählen Sie `Mathematische Formel` im Menü.
-3. Der grafische Formeleditor öffnet sich. Jetzt können Sie Ihre Formel erstellen.
+2. Wählen Sie `Mathematische Formel`
+
+3. Der grafische Formeleditor öffnet sich. Jetzt können Sie Ihre Formel erstellen.  ![Formel im Portfolio erstellen](assets/Formeleditor_Portfolio_16_de.png){class="shadow"}.
