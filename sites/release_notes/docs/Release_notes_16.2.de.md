@@ -4,7 +4,7 @@
 
 * * *
 
-:material-calendar-month-outline: **Releasedatum: 01.04.2022 • Letztes Update: 14.04.2022**
+:material-calendar-month-outline: **Releasedatum: 01.04.2022 • Letztes Update: 22.07.2022**
 
 * * *
 
@@ -14,7 +14,7 @@ Vor allem im Bereich der Online-Tests und Bewertung gibt es viele Neuerungen. Ei
 
 ![Anzahl Features Bugs](assets/162/Features_Improvements_Labels_DE.png)
 
-Seit Release 16.1 wurden über 65 neue Funktionen und Verbesserungen zu OpenOlat hinzugefügt. Hier finden Sie die wichtigsten neuen Funktionen und Änderungen. Zusätzlich zu wurden mehr als 100 Bugs behoben. Die komplette Liste der Änderungen in 16.1 – 16.1.8 finden Sie [hier](Release_notes_16.1.de.md).
+Seit Release 16.1 wurden über 65 neue Funktionen und Verbesserungen zu OpenOlat hinzugefügt. Hier finden Sie die wichtigsten neuen Funktionen und Änderungen. Zusätzlich wurden mehr als 100 Bugs behoben. Die komplette Liste der Änderungen in 16.1 – 16.1.8 finden Sie [hier](Release_notes_16.1.de.md).
 
 * * *
 
@@ -184,6 +184,11 @@ Statistische Daten zu Tests waren bisher nur auf der obersten Ebene des Tests bz
 
 ## Weitere Informationen
 
+* [Jira Release Notes 16.2.7](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=19100)
+* [Jira Release Notes 16.2.6](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=18801)
+* [Jira Release Notes 16.2.5](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=18800)
+* [Jira Release Notes 16.2.4](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=18700)
+* [Jira Release Notes 16.2.3](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=18601)
 * [Jira Release Notes 16.2.2](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=18600)
 * [Jira Release Notes 16.2.1](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=18500)
 * [Jira Release Notes 16.2](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=17802)

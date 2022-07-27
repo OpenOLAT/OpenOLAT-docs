@@ -4,7 +4,7 @@
 
 * * *
 
-:material-calendar-month-outline: **Release date: 04/01/2022 - Last update: 04/14/2022**
+:material-calendar-month-outline: **Release date: 04/01/2022 - Last update: 07/22/2022**
 
 * * *
 
@@ -14,7 +14,7 @@ Especially in the area of online testing and evaluation there are many new featu
 
 ![Number of Features Bugs](assets/162/Features_Improvements_Labels_EN.png)
 
-Since release 16.1, over 65 new features and improvements have been added to OpenOlat. Here you can find the most important new features and changes. In addition to, more than 100 bugs have been fixed. The complete list of changes in 16.1 - 16.1.8 can be found [here](Release_notes_16.1.md).
+Since release 16.1, over 65 new features and improvements have been added to OpenOlat. Here you can find the most important new features and changes. In addition, more than 100 bugs have been fixed. The complete list of changes in 16.1 - 16.1.8 can be found [here](Release_notes_16.1.md).
 
 ## Announcement: End of support IE11
 
@@ -178,6 +178,11 @@ Until now, statistical data on tests was only available at the top level of the 
 
 ## More information
 
-* [Jira release notes 16.2.2](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=18600)
-* [Jira release notes 16.2.1](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=18500)
-* [Jira release notes 16.2](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=17802)
+* [Jira Release Notes 16.2.7](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=19100)
+* [Jira Release Notes 16.2.6](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=18801)
+* [Jira Release Notes 16.2.5](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=18800)
+* [Jira Release Notes 16.2.4](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=18700)
+* [Jira Release Notes 16.2.3](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=18601)
+* [Jira Release Notes 16.2.2](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=18600)
+* [Jira Release Notes 16.2.1](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=18500)
+* [Jira Release Notes 16.2](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=17802)
