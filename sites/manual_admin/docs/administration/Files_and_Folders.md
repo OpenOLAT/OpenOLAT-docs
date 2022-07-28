@@ -25,7 +25,30 @@ folders, course folders, resource folders and course elements 'folders'.
 ## Quotas
 
 In the tab " **Quotas** " the maximum storage size and the upload limit for
-certain paths can be defined and adjusted. New quotas can also be added.
+certain paths can be defined and adjusted.
+
+The following default values apply system-wide:
+
+System-wide quotas | Scope
+---------|----------
+::DEFAULT::BLOGSPODCASTS | Learning resources Blog and Podcast
+::DEFAULT::COACHFOLDER | Coach folder in the course
+::DEFAULT::COURSEDOCUMENTS | Course tool "Documents" (Course menu)
+::DEFAULT::COURSEFOLDERS | Course storage folder (without course element subfolders) and Resource folder (Shared folder)
+::DEFAULT::GROUPS | Folders in groups
+::DEFAULT::NODEFOLDERS | Course element "Folder"
+::DEFAULT::NODEPARTFOLDERS | Course element "Participant Folder"
+::DEFAULT::POWERUSERS | Personal folder of authors
+::DEFAULT::REPOSITORY | Learning resources like content package or tests
+::DEFAULT::USERS | Personal folder of users without additional system rights
+
+Individual quotas can also be added. These override the default value and apply, for example, only to a very specific course folder or the personal folder of a very specific user.
+
+Specific Quotas | Scope
+---------|----------
+/course/10103238456/coursefolder | Course element "Folder" in a specific course
+/cts/folders/BusinessGroup/4141565 | Folder in a specific group
+/homes/mmusterfrau | Personal folder of the user M. Musterfrau
 
 ## Large Files
 
