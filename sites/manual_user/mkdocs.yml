@@ -117,6 +117,8 @@ nav:
       - Course element OpenMeetings: "course_elements/Course_element_OpenMeetings.md"
       - Course element vitero: "course_elements/Course_element_vitero.md"
       - Course element Microsoft Teams: "course_elements/Course_element_Microsoft_Teams.md"
+      - Course element Zoom: "course_elements/Course_element_Zoom.md"
+      - Zoom - Frequently asked questions : "course_elements/Frequentyl_asked_questions_Zoom.md"
     - Administration and Organisation: "course_elements/Administration_and_Organisation.md"
     - Other: "course_elements/Other.md"
 

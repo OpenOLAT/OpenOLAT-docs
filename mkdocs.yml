@@ -111,7 +111,7 @@ plugins:
           Aufgabe  : Aufgabe
           Authoring : Autorenbereich
           Automatic Group Lifecycle : Automatischer Gruppenlebenszyklus
-          BBB - Frequentyl asked questions: BBB - Häuffig gestellte Fragen
+          BBB - Frequently asked questions: BBB - Häufig gestellte Fragen
           Bewertungswerkzeug  : Bewertungswerkzeug
           Bewertungswerkzeug  : Bewertungswerkzeug
           BigBlueButton module : Modul BigBlueButton
@@ -132,6 +132,7 @@ plugins:
           Configure User : Benutzer konfigurieren
           Core functions : Core Konfiguration
           Course Element Assessment : Kursbaustein Bewertung
+          Course element Adobe Connect : Kursbaustein Adobe Connect
           Course element BigBlueButton : Kursbaustein BigBlueButton
           Course Element card2brain Flashcards : Kursbaustein card2brain Lernkarten
           Course Element Checklist : Kursbaustein Checkliste
@@ -143,6 +144,7 @@ plugins:
           Course Element Single Page : Kursbaustein Einzelne Seite
           Course element vitero : Kursbaustein vitero
           Course Element_Video : Kursbaustein Video einrichten
+          Course element Zoom : Kursbaustein Zoom
           Course Operation : Kursbetrieb
           Course Problems and Error Messages : Probleme und Fehlermeldungen im Kurs
           Course Reminders : Erinnerung
@@ -322,6 +324,7 @@ plugins:
           Working with Tests : Arbeiten mit Tests
           Working with Topic Assignment : Arbeiten mit der Themenvergabe
           Working with Wiki : Arbeiten mit Wiki
+          Zoom - Frequently asked questions : Zoom - Häufig gestellte Fragen
           Zoom integration: Zoom-Integration
           ...create a bulk assessment for submission tasks : ...eine Massenbewertung für Einsendeaufgaben erstellen
           ...customize the course design with CSS (Expert) : ...Kursdesign mittels CSS manipulieren (Expert)
