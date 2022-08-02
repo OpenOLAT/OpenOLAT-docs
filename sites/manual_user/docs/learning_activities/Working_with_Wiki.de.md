@@ -1,6 +1,6 @@
 # Arbeiten mit Wiki
 
-![Wiki Editor](assets/wiki.png)
+![Wiki Editor](assets/wiki.png){ class="shadow lightbox" }
 
 Wikis können für die kooperative Erstellung von Texten verwendet werden. Die einzelnen Seiten werden dabei in Form eines Hypertextes mit verlinkten Seiten umgesetzt.
 
@@ -8,7 +8,7 @@ Wird ein Wiki in einem OpenOlat Kurs verwendet erscheint automatisch in der link
 
 Im Hauptbereich sehen Sie die jeweiligen Wiki Beiträge (Artikel), können die Wiki Seiten bearbeiten (Seite bearbeiten), zu den einzelnen Wiki Seiten Diskussionen führen und sich die Bearbeitungshistorie (Versionen/Autoren) ansehen. Sie können auch ein Wiki als Content Package (CP) exportieren und sich über Änderungen informieren lassen.  
 
-![Wiki Benutzer-Sicht](assets/Wiki_user.png)
+![Wiki Benutzer-Sicht](assets/Wiki_user.png){ class="shadow lightbox" }
 
 ## Neue Wiki-Seiten erstellen
 
@@ -20,7 +20,7 @@ Die Wiki-Syntax für neue interne Verlinkungen sind zwei öffnende eckige Klamme
 
 Die entsprechende Seite wird beim ersten Aufruf des Links dann automatisch angelegt.
 
-![Wiki internen Link anlegen](assets/interner_Link.png)
+![Wiki internen Link anlegen](assets/interner_Link.png){ class="shadow lightbox" }
 
 ## Inhalte einer Wiki-Seite ändern
 
@@ -36,15 +36,20 @@ Ihre Eingaben können Sie mit der folgenden Wiki-Syntax formatieren.
 
     Es empfiehlt sich, Sonderzeichen in Wikiwords zurückhaltend einzusetzen. Nicht erlaubt ist der Doppelpunkt (:). Beachten Sie auch, dass ein Leerzeichen am Anfang einer Zeile als ein Formatierungsbefehl interpretiert wird (Preformatted Text).
 
+### Textgestaltung
+
 Syntax | Ergebnis (Formatierung)  
----|---  
-**Textgestaltung**|
+---|---
 '''Fetter Text ''' | **Fetter Text**  
 ''Kursiver Text'' | _Kursiver Text_  
 ==Level 2 Überschrift== | Level 2 Überschrift
 * Liste | * Liste
 # Nummerierte Liste | 1. Nummerierte Liste
-**Links**|
+
+### Links
+
+Syntax | Ergebnis (Formatierung)  
+---|---  
 [[Interner link]] | Interner link
 [[Link `|` Text]] | [Text](sites/manual_user/docs/learning_activities/Working_with_Wiki.de.md)
 [http://www.openolat.org](http://www.openolat.org/) | [http://www.openolat.org](http://www.openolat.org/)
@@ -52,11 +57,11 @@ Syntax | Ergebnis (Formatierung)
 
 Externe Adressen werden automatisch in einen Link umgewandelt, wenn Sie die volle Adresse angeben: [http://www.openolat.org](http://www.openolat.org/). Möchten Sie statt des Links einen anderen Begriff angeben, setzen Sie die URL und den Begriff gemeinsam in eckige Klammern, getrennt durch ein Leerzeichen.
 
-**Tabellen**
+### Tabellen
 
-*Einzeilig*
+#### Einzeilig
 
-=== "Syntax einzeilig"
+=== "Syntax"
 
     ```markdown
     {|  
@@ -65,13 +70,13 @@ Externe Adressen werden automatisch in einen Link umgewandelt, wenn Sie die voll
     |}| Zelle 1 Zelle 2  
     ```
 
-=== "Ergebnis einzeilig"
+=== "Ergebnis"
 
     Zelle 1 Zelle 2
 
-*Mehrzeilig*
+#### Mehrzeilig
 
-=== "Syntax mehrzeilig"
+=== "Syntax"
 
     ```markdown
     {|  
@@ -83,14 +88,14 @@ Externe Adressen werden automatisch in einen Link umgewandelt, wenn Sie die voll
     |}|
     ```
 
-=== "Ergebnis mehrzeilig"
+=== "Ergebnis"
 
     Zelle 1 Zelle 2  
     Zelle 3 Zelle 4
 
-*Mit Rahmen*
+#### Mit Rahmen
 
-=== "Syntax mit Rahmen"  
+=== "Syntax"  
 
     ```markdown
     {| border="1"
@@ -102,13 +107,13 @@ Externe Adressen werden automatisch in einen Link umgewandelt, wenn Sie die voll
     |}  
     ```
 
-=== "Ergebnis mit Rahmen"
+=== "Ergebnis"
 
     Zelle 1| Zelle 2 
     ---|---
     Zelle 3| Zelle 4
 
-**Bilder und andere Dateien**
+### Bilder und andere Dateien
   
 Um z.B. Bilder ins Wiki einzufügen, müssen Sie diese zuerst in OpenOlat hochladen (via Button " _Datei hochladen"_ ). Sobald sich mindestens eine Datei im Wiki befindet, erscheint das Drop-Down Menu _"Datei einfügen"_ , womit sich Bilder etc. bequem einfügen lassen.
 
@@ -116,109 +121,119 @@ Um z.B. Bilder ins Wiki einzufügen, müssen Sie diese zuerst in OpenOlat hochla
 
     [[Image:openolat_logo_72.png]]
 
-=== "Ergebnis (Formatierung)"
+=== "Ergebnis"
 
     ![OpenOlat Logo](assets/openolat_logo_72.png)
 
-Beim Einfügen des Bildes bestehen folgende optionale
-Formatierungsmöglichkeiten:
+Beim Einfügen des Bildes bestehen folgende optionale Formatierungsmöglichkeiten:
 
-=== "Syntax Bildlegende"
+#### Bildlegende
+
+=== "Syntax"
 
     [[Image:openolat_logo_72.png | Das ist das OpenOlat-Logo.]]|
 
-=== "Ergebnis Bildlegende"
+=== "Ergebnis"
 
     ![OpenOlat Logo](assets/openolat_logo_72.png)  
     Das ist das OpenOlat-Logo.  
   
-Ausrichtung: Mit dem Zusatz "left" oder "right" geben Sie an, wie das Bild ausgerichtet werden soll.
+#### Ausrichtung
 
-=== "Syntax Ausrichtung"
+Mit dem Zusatz "left" oder "right" geben Sie an, wie das Bild ausgerichtet werden soll.
+
+=== "Syntax"
 
     [[Image:openolat_logo_72.png|right]]
 
-=== "Ergebnis Ausrichtung"
+=== "Ergebnis"
   
     ![OpenOlat Logo](assets/openolat_logo_72.png){ align=right }
 
-Bildgrösse: geben Sie in Pixeln an, wie gross das Bild angezeigt werden soll.  
+#### Bildgrösse
 
-=== "Syntax Bildgrösse"
+Geben Sie in Pixeln an, wie gross das Bild angezeigt werden soll.  
+
+=== "Syntax"
 
     [[Image:openolat_logo_72.png|120px]]|
 
-=== "Ergebnis Bildgrösse"
+=== "Ergebnis"
 
-    ![OpenOlat Logo](assets/openolat_logo_72.png){ class=size120 }  
+    ![OpenOlat Logo](assets/openolat_logo_72.png){ width=120px }
 
-Miniaturbild: Wenn Sie den Zusatz "thumb" und eine kleine Bildgrösse wählen, wird das Bild als Miniaturbild eingefügt. Auf Klick auf das Bild wird es in voller Grösse angezeigt.
+#### Miniaturbild
 
-=== "Syntax Miniaturbild"
+Wenn Sie den Zusatz "thumb" und eine kleine Bildgrösse wählen, wird das Bild als Miniaturbild eingefügt. Mit Klick auf das Bild wird es in voller Grösse angezeigt.
 
-    [[Image:openolat_logo_72.png|thumb|20px]]
+=== "Syntax"
 
-=== "Ergebnis Miniaturbild"
+    [[Image:openolat_logo_72.png|thumb|24px]]
 
-    ![OpenOlat Logo](assets/openolat_logo_72.png){ class=size16 class="thumbnail lightbox" }
+=== "Ergebnis"
+
+    ![OpenOlat Logo](assets/openolat_logo_72.png){ class="lightbox" width=24px }
+
+#### Kombinierte Formatierungen
 
 Mehrere Formatierungsmöglichkeiten können auch gleichzeitig verwendet werden.
 
-=== "Syntax Kombinierte Formatierungen"
+=== "Syntax"
 
-    [[Image:olat_logo.png|right|30px|thumb|Das ist das  OpenOlat-Logo.]]
+    [[Image:olat_logo.png|center|150px|thumb|Das ist das OpenOlat-Logo.]]
 
-=== "Ergebnis Kombinierte Formatierungen"
+=== "Ergebnis"
 
-    ![OpenOlat Logo](assets/openolat_logo_72.png){ align=right class=size30} Das ist das OpenOlat-Logo.
+    ![OpenOlat Logo](assets/openolat_logo_72.png){ class="lightbox" width=150px title="Das ist das OpenOlat-Logo." }
 
-Sonstiges: PDF
+### Andere Dateien: PDF
 
-=== "Syntax PDF"
+=== "Syntax"
 
     [[Media:any.pdf]]
 
-=== "Ergebnis PDF"
+=== "Ergebnis"
 
     [any.pdf](https://testing.frentix.com/test8/help/RepositoryEntry/82673665#pdf)  
 
- **Mathematische Formeln (LaTeX)**  
-Damit OpenOlat die Formeln schneller und schöner darstellt, können Sie jsMath-Schriften auf Ihrem Rechner installieren.  
-Den Downloadbereich und eine Anleitung dazu finden Sie unter:  
+### Mathematische Formeln (LaTeX)
+
+Damit OpenOlat die Formeln schneller und schöner darstellt, können Sie jsMath-Schriften auf Ihrem Rechner installieren. Den Downloadbereich und eine Anleitung dazu finden Sie unter:  
 [http://www.math.union.edu/~dpvc/jsMath/download/jsMath-fonts.html](http://www.math.union.edu/~dpvc/jsMath/download/jsMath-fonts.html)
+
+Die Syntax der in OpenOlat verwendeten mathematischen Notation finden Sie unter: [http://meta.wikimedia.org/wiki/Help:Formula](http://meta.wikimedia.org/wiki/Help:Formula)  
+
+#### Syntax
 
 ```html
 <math>Formel hier eingeben</math>
 ```
 
-Die Syntax der in OpenOlat verwendeten mathematischen Notation finden Sie unter: [http://meta.wikimedia.org/wiki/Help:Formula](http://meta.wikimedia.org/wiki/Help:Formula)  
-  
-Inline Modus:
+#### Inline Modus
 
-=== "Syntax Inline Modus"
+=== "Syntax"
 
     \\(x^2\\)
 
-=== "Ergebniss Inline Modus"
+=== "Ergebnis"
 
-  - x^2^
+    x<sup>2</sup>
 
-**Unformatierter Text**
+### Unformatierter Text
 
 === "Syntax"
 
     ```html
-    <nowiki>
-    Hier den unformatierten Text eingeben
-    </nowiki>
+    <nowiki>Hier den unformatierten Text eingeben</nowiki>
     ```
 
 === "Ergebnis"
 
     Hier den unformatierten Text eingeben  
   
-Um eine Datei anzuhängen, laden Sie diese zuerst über „Datei hochladen“ hoch. Navigieren Sie an die Stelle auf der Wiki-Seite, an der die Datei erscheinen soll. Anschliessend wählen Sie die Datei über „Datei einfügen“ aus und bestätigen mit „Speichern“. Links zu anderen Wiki-Seiten werden über die
-Schaltfläche „Link einfügen“ erstellt. Weitere Formatierungsmöglichkeiten finden Sie eine Zeile darüber.
+## Anhänge, Links auf Dateien, Export
+
+Um eine Datei anzuhängen, laden Sie diese zuerst über „Datei hochladen“ hoch. Navigieren Sie an die Stelle auf der Wiki-Seite, an der die Datei erscheinen soll. Anschliessend wählen Sie die Datei über „Datei einfügen“ aus und bestätigen mit „Speichern“. Links zu anderen Wiki-Seiten werden über die Schaltfläche „Link einfügen“ erstellt. Weitere Formatierungsmöglichkeiten finden Sie eine Zeile darüber.
 
 Links auf Dateien in Ordner-Kurselementen in OpenOlat erstellen Sie, in dem Sie auf das Metadaten-Icon ![Icon Metadaten](assets/metadata_64_0_434343_none.png){ class=size16 } klicken, und dann den **Externen Link zu dieser Ressource** kopieren. Bitte beachten Sie, dass nur auf Dateien verlinkt werden kann, die sich innerhalb eines Unterordners in einem Ordner-Kurselement befinden.
 
