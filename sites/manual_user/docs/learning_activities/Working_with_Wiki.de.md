@@ -42,8 +42,8 @@ Syntax | Ergebnis (Formatierung)
 ---|---
 '''Fetter Text ''' | **Fetter Text**  
 ''Kursiver Text'' | _Kursiver Text_  
-==Level 2 Überschrift== | Level 2 Überschrift
-* Liste | * Liste
+==Level 2 Überschrift== | <h2>Level 2 Überschrift</h2>
+* Liste | <li>Liste</li>  
 # Nummerierte Liste | 1. Nummerierte Liste
 
 ### Links
