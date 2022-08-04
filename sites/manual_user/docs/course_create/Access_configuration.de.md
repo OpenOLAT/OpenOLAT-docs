@@ -1,4 +1,4 @@
-# Zugangskonfiguration {: #access-configuration}
+# Zugangskonfiguration / Freigabe {: #access-configuration}
 
 Damit ein Kurs für die Lernenden sichtbar wird, muss er zunächst
 veröffentlicht werden. Wird der Kurs für alle Benutzer freigegeben, kann der
@@ -27,34 +27,11 @@ Die konkrete Variante des Kurszugangs, bzw. generell des Zugangs zu einer
 Lernressource, wird im Tab "Freigabe" der Kurs "Administration" eingerichtet. Im Folgenden erfahren Sie welche Optionen Ihnen zur Verfügung
 stehen.  
 
-## Zugang für Teilnehmer organisieren
+## Freigabe
+
+### Buchungsmethoden konfigurieren und Angebote erstellen ab Release :octicons-tag-24: 17.0
 
 Der Zugang zu einem Kurs wird in der "Administration" → "Einstellungen" im Tab "Freigabe" konfiguriert.
-
-Drei grundsätzliche Varianten stehen zur Verfügung:
-
-![Share-Settings 16.2](assets/share_16.2.de.png)
-
-Bei der privaten Mitgliederverwaltung werden die Teilnehmer durch den Besitzer bzw. Personen, die über das Recht der Mitgliederverwaltung verfügen, eingetragen.
-
-Bei der Wahl der Option "Buchbar" können die Lernenden einen Kurs/Lernessource selbst buchen, müssen aber eventuell (je nach Einstellung) ein Passwort eingeben.
-
-Wird die Einstellung "offen ohne Buchung" gewählt kann jede Person mit Zugang zur OLAT-Instanz den Kurs besuchen und es ist für die Besitzer nicht sichtbar wer sich in den Kurs eingewählt hat. Über diese Option kann bei Bedarf auch Gästen, ohne OpenOlat Kennung Zugriff auf die Lernressource gewährt werden.
-
-### Buchungsmethoden konfigurieren
-Haben Sie zuvor die Option "Buchbar - Buchung durch Benutzer notwendig" gewählt können Sie anschließend die Buchungsmethode weiter einrichten und auch anhaken ob die Benutzer eine Bestätigungsmail erhalten sollen.
-
-Sie können definieren wann und unter welchen Voraussetzungen die Benutzer des Systems eine Lernressource buchen können. Buchen kann dabei als Synonym für belegen, einschreiben, einkaufen verstanden werden.
-
-Der Zugang zu einem Kurs wird in der "Administration" → "Einstellungen" im Tab
-"Freigabe" konfiguriert.
-
-![Share-Settings](assets/share.de.jpg)
-
-!!! note " "
-    
-    :octicons-tag-24: Ab Release 17.0
-
 Es stehen zwei grundsätzliche Varianten zur Verfügung:
 
 ![Booking options](assets/booking.de.jpg)
@@ -64,7 +41,22 @@ Bei der  wahl **"Privat"** werden die Teilnehmenden durch die Besitzer bzw. Pers
 Bei der Wahl der Option **"Buchbare und offene Angebote"** können die Lernenden einen Kurs/Lernessource selbst buchen, müssen aber eventuell (je nach Einstellung) ein Passwort
 eingeben.
 
-## Freigabe für andere Autoren
+### Lernressource verlassen
+
+In der Sektion Freigabe kann auch definiert werden. (sofern vom Administrator erlaubt), ob bzw. wann die Benutzer einen Kurs bzw. eine Lernressource verlassen können. Folgende Optionen stehen zur Wahl:
+
+* Jederzeit (Standard): Benutzer können beliebig aus dem Kurs austreten
+* Nach Enddatum: Wurde ein Durchführungszeitraum festgelegt, ist es Teilnehmern nach Ablauf dieses Zeitraums gestattet den Kurs zu verlassen. Wurde diese Option gewählt ohne zuvor in der Beschreibung einen Durchführungszeitraum zu wählen, wird es den Teilnehmern zu keinem Zeitpunkt gestattet sein den Kurs zu verlassen.
+* Nie: Teilnehmer dürfen den Kurs zu keinem Zeitpunkt verlassen
+
+Wenn Teilnehmer den Kurs verlassen dürfen, können sie dazu im Menü "Mein Kurs"
+den Eintrag "Kurs verlassen" wählen.
+![](assets/Kurs_verlassen.png)
+
+Standardmässig können Benutzer einen Kurs bzw. eine Lernressource zu jeder
+Zeit verlassen.
+
+### Freigabe für andere Autoren
 
 Des weiteren kann im Tab "Freigabe" festgelegt werden, welche zusätzlichen
 Rechte andere OpenOlat Autoren an der Lernressource bzw. dem Kurs haben. Dabei
@@ -80,9 +72,20 @@ Die Optionen "referenzieren" und "kopieren " machen z.B. Sinn, wenn Sie eine
 Vorlage oder gutes Beispiel für andere OpenOlat Autoren nutzbar machen
 möchten.
 
-## Angebote erstellen {: #offer}
+### Administrative Freigabe
 
-![offer Screen](assets/offer.de.jpg)
+Hier kann festgelegt werden, für welche Organisation / Unterorganisation (wenn eingerichtet) der Kurs für die Administrativen Rollen freigegeben ist. Diese umfassen: andere Autoren(je nach Recht), Lernressourcenverwaltern, Principals, Administratoren.
+
+## Angebot / Angebote erstellen {: #offer}
+
+![offer Screen](assets/offer.de.jpg){class="thumbnail"}
+
+!!! note "Unterschiede zu Buchungsmethoden vor 17.0"
+
+    * Angebote können unabhängig zum Publikationsstatus des Kurses veröffentlicht werden. Dazu wählt man ein in der Angebotserstellung "zeitbeschränkt" aus und definiert einen zukünftigen Zeitraum. Das Angebot ist dann im Katalog für diesen definierten Zeitraum verfügbar.
+    * Angebote können auf verschiedene Teilbereiche von Organisationen(Unterorganisationen) beschränkt werden.
+    * Neu sind Gastzugänge & offen ohne Buchung als Angebote verfügbar: "Gastzugang" & "Ohne Buchung". An der Funktionsweise hat sich nichts geändert.
+
 
 Haben Sie zuvor die Option "Buchungsmethoden hinzufügen" / "Buchbare und offene Angebote" (ab :octicons-tag-24: Release 17.0 )
 gewählt können Sie anschließend Angebote erstellen.
@@ -91,7 +94,7 @@ Sie können definieren wann und unter welchen Voraussetzungen die Benutzer des
 Systems eine Lernressource buchen können. Buchen kann dabei als Synonym für
 belegen, einschreiben, einkaufen verstanden werden.
 
-Wählen Sie die Schaltfläche "Angebot erstellen" / "Buchungsmethode hinzufügen" (ab :octicons-tag-24: Release 17.0 ), um Angebote / Buchungsmethoden hinzuzufügen.
+Wählen Sie die Schaltfläche "Angebot erstellen" / "Buchungsmethode hinzufügen", um Angebote / Buchungsmethoden hinzuzufügen.
 
 ![key](assets/key.png){ class="size24" }  **Zugangscode**
 
@@ -105,78 +108,48 @@ Wählen Sie diese Option, wenn keine weiteren Einschränkungen gelten. Alle OLAT
   
 Ist nur verfügbar wenn vom [Administrator freigeschaltet](../../manual_admin/administration/PayPal_Configuration.de.md): Wählen Sie die PayPal/Kreditkarten um eine Buchung gegen eine finanzielle Vergütung zu ermöglichen. Dabei können Sie einen Betrag definieren, der mit einem PayPal Konto oder mit einer Kreditkarte (Visa/Mastercard) bezahlt werden muss. (Diese Funktion steht nur Benutzern mit Autorenrechten zur Verfügung)
 
-Optional kann einer Buchungskonfiguration/Angebotskonfiguration ein Start- und Enddatum beigefügt werden. Diese Konfiguration ist dann nur zwischen dem konfigurierten Datum
-gültig. Sie können auch nur ein Start- oder nur ein Enddatum angeben. Möchten
-sie keine zeitliche Einschränkung vorgeben so lassen Sie dieses Feld leer.
-Buchungsmethoden können nachträglich angepasst werden.
+![notBooking](assets/notBooking.jpg){ class="size24" }  **Ohne Buchung**
+Ab :octicons-tag-24: 17.0 verfügbar.
 
-Sie können auch mehrere Buchungsmethoden/Angebote konfigurieren. Diese gelten als
-verschiedene Optionen, aus denen der Benutzer wählen kann, achten Sie in
-diesem Fall auf sinnvolle Beschreibungen. So können z.B. Kurscodes für
-Personen aus unterschiedlichen Kontexten kombiniert oder ein Kurs bis zu einem
-bestimmten Termin frei und danach nur noch mit Passwort zugänglich
-eingerichtet werden.
+Mit diesem Angebot können sie einen Kurs veröffentlichen auf den alle OLAT Benutzer zugreifen können, ohne dass diese in der Mitgliederverwaltung auftauchen.
+Ohne Buchung entspricht der "Offen für alle" Option im alten Release.
 
-Achtung: Ein angegebenes Start- oder Enddatum bezieht sich ausschliesslich auf
-den _Buchungsprozess_ nicht auf den Durchführungszeitraum der Lernressource.
-Hat ein Benutzer eine Ressource gebucht, so wird die Person in der
-Teilnehmerliste dieser Ressource eingetragen. Von dem Zeitpunkt an entscheidet
-das System einzig über die Teilnehmerliste ob eine Person Zugang zu einer
-Ressource hat. Abgelaufene Buchungskonfigurationen haben daher keinen Einfluss
-auf eine Teilnehmerschaft. Als Besitzer der Ressource können Sie auch
-jederzeit eine Person zu der Teilnehmerliste hinzufügen bzw. austragen. In dem
-zweiten Fall kann der Benutzer durch erneutes Buchen sich wieder in die
-Ressource als Teilnehmer eintragen.
+![guest](assets/guest.jpg){ class="size24" }  **Gastzugang**
+Ab :octicons-tag-24: 17.0 verfügbar.
+
+Im herkömmlichen Kurs kann auch ein Angebot nur für Gäste erstellt werden. Dieses ist dann nur für Gäste verfügbar und kann nicht für verschiedene Unterorganisationen eingeschränkt werden.
+
+Optional kann einer Buchungskonfiguration/Angebotskonfiguration ein Start- und Enddatum beigefügt werden. Diese Konfiguration ist dann nur zwischen dem konfigurierten Datum gültig. Sie können auch nur ein Start- oder nur ein Enddatum angeben. Möchten sie keine zeitliche Einschränkung vorgeben so lassen Sie dieses Feld leer. Buchungsmethoden können nachträglich angepasst werden.
+
+Sie können auch mehrere Buchungsmethoden/Angebote konfigurieren. Diese gelten als verschiedene Optionen, aus denen der Benutzer wählen kann, achten Sie in diesem Fall auf sinnvolle Beschreibungen. So können z.B. Kurscodes für Personen aus unterschiedlichen Kontexten kombiniert oder ein Kurs bis zu einem bestimmten Termin frei und danach nur noch mit Passwort zugänglich eingerichtet werden.
+
+!!! warning "Buchungszeitraum =/= Durchführungszeitraum"
+
+    Ein angegebenes Start- oder Enddatum bezieht sich ausschliesslich auf den **Buchungsprozess** nicht auf den Durchführungszeitraum der Lernressource. Hat ein Benutzer eine Ressource gebucht, so wird die Person in der Teilnehmerliste dieser Ressource eingetragen. Von dem Zeitpunkt an entscheidet das System einzig über die Teilnehmerliste ob eine Person Zugang zu einer Ressource hat. Abgelaufene Buchungskonfigurationen haben daher keinen Einfluss auf eine Teilnehmerschaft. Als Besitzer der Ressource können Sie auch jederzeit eine Person zu der Teilnehmerliste hinzufügen bzw. austragen. In dem zweiten Fall kann der Benutzer durch erneutes Buchen sich wieder in die Ressource als Teilnehmer eintragen.
+
 
 Sie können die konfigurierten Buchungsmethoden/Angebote jederzeit problemlos löschen.
-Die bereits getätigten Buchungen bleiben bestehen und sind davon nicht weiter
-tangiert.
+Die bereits getätigten Buchungen bleiben bestehen und sind davon nicht weiter tangiert.
 
-!!! note "Info"
-    
-    :octicons-tag-24: Ab Release 17.0
+## Freigabeübersicht
 
-Angebote können auch, im Gegensatz zu Buchungsmethoden, unabhängig zum Publikationsstatus des Kurses veröffentlicht werden. Dazu wählt man ein in der Angebotserstellung "zeitbeschränkt" aus und definiert einen zukünftigen Zeitraum. Das Angebot ist dann im Katalog für diesen definierten Zeitraum verfügbar. 
+![share-overview](assets/share-overview.de.jpg)  
 
-
-## Lernressource verlassen
-
-Im Tab "Freigabe" kann auch definiert werden (sofern vom Administrator
-erlaubt), ob bzw. wann die Benutzer einen Kurs bzw. eine Lernressource
-verlassen können. Folgende Optionen stehen zur Wahl:
-
-* Jederzeit (Standard): Benutzer können beliebig aus dem Kurs austreten
-* Nach Enddatum: Wurde ein Durchführungszeitraum festgelegt, ist es Teilnehmern nach Ablauf dieses Zeitraums gestattet den Kurs zu verlassen. Wurde diese Option gewählt ohne zuvor in der Beschreibung einen Durchführungszeitraum zu wählen, wird es den Teilnehmern zu keinem Zeitpunkt gestattet sein den Kurs zu verlassen.
-* Nie: Teilnehmer dürfen den Kurs zu keinem Zeitpunkt verlassen
-
-Wenn Teilnehmer den Kurs verlassen dürfen, können sie dazu im Menü "Mein Kurs"
-den Eintrag "Kurs verlassen" wählen.
-![](assets/Kurs_verlassen.png)
-
-Standardmässig können Benutzer einen Kurs bzw. eine Lernressource zu jeder
-Zeit verlassen.
+Ist die Freigabe nach den Wünschen eingestellt, sieht man am Ende der Seite kompakt, wer auf diesen Kurs Zugriff hat und welche Gruppen oder Curricula mit diesem Kurs verknüpft sind. Hinter den Rollen steht in Klammern, die jeweiligen Rechte der Rolle. 
 
 ## Kurszyklus: Beenden und löschen
 
 Wurde ein Kurs durchgeführt und ist abgelaufen kann er beendet und/oder
 gelöscht werden.
 
-Wenn ein Kurs **beendet** wird, befindet er sich anschliessend im Lesemodus.
-Alle Benutzerdaten bleiben bestehen und alle Kursmitglieder haben nach wie vor
-Zugriff auf den Kurs. Der Kurs befindet sich jedoch nicht mehr im Tab „Meine
-Kurse“, sondern im Tab „Beendet“ gleich nebenan.
+Wenn ein Kurs **beendet** wird, befindet er sich anschliessend im Lesemodus. Alle Benutzerdaten bleiben bestehen und alle Kursmitglieder haben nach wie vor Zugriff auf den Kurs. Der Kurs befindet sich jedoch nicht mehr im Tab „Meine Kurse“, sondern im Tab „Beendet“ gleich nebenan.
 
 ![](assets/beendet2.png)  
-Im Autorenbereich wird der beendete Kurs mit einem neuen Symbol und
-durchgestrichen angezeigt.
+Im Autorenbereich wird der beendete Kurs mit einem neuen Symbol und durchgestrichen angezeigt.
 
-Falls der Kurs wieder geöffnet werden soll, rufen Sie erneut den Lebenszyklus
-des Kurses auf und klicken Sie auf "Erneut öffnen".
+Falls der Kurs wieder geöffnet werden soll, rufen Sie erneut den Lebenszyklus des Kurses auf und klicken Sie auf "Erneut öffnen".
 
 ### Kurs löschen
 
-Im Menü "Administration" → "Löschen" bzw. über das 3-Punkte
-Menü![](assets/Action menu.png)im
-Autorenbereich kann eine Lernressource gelöscht werden. In diesem Fall wird
-die Lernressource in den Tab "Gelöscht" verschoben und liegt sozusagen im
+Im Menü "Administration" → "Löschen" bzw. über das 3-Punkte Menü![](assets/Action menu.png)im Autorenbereich kann eine Lernressource gelöscht werden. In diesem Fall wird die Lernressource in den Tab "Gelöscht" verschoben und liegt sozusagen im
 Papierkorb.

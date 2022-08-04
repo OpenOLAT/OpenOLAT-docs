@@ -25,6 +25,16 @@ Clicking on a level in a launcher takes you to the taxonomy microsite. All cours
 
 One can further refine the course list by filtering or searching.
 
+### Search results page & filters
+
+**Search results page**
+
+A search brings you to this page. Here, using various filters, you can refine the search.
+
+**Filter**
+
+The filters of the search results page can be set under 'Administration > Modules > Catalog > Filters'. Here you can choose which filters should be available for participants. 
+
 ## Setting up and releasing new courses for the catalog 2.0
 
 ### Prerequisites

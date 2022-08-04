@@ -27,36 +27,27 @@ The concrete variant of course access (or access to a learning resource in
 general) is set up in the "Share" menu of the "Administration" course. In the
 following, you will learn which options are available to you.
 
-## Organize access for participants
 
-The access to a course is configured in the "Administration" → "Settings" in
-the tab "Share".
 
-![share-settings](assets/share.jpg)
+## Release
 
-Three basic variants are available:
+### Configure booking methods and create quotes as of release :octicons-day-24: 17.0
 
-![Share-Settings 16.2](assets/share_16.2.png)
+Access to a course is configured in "Administration" → "Settings" in the "Sharing" tab.
+There are two basic options available:
 
-With the private member administration the participants are registered by the owner and/or persons, who have the right of the member administration.
+![Booking options](assets/booking.en.jpg).
 
-If the "Bookable" option is selected, learners can book a course/learning resource themselves, but may have to enter a password (depending on the setting).
+If the option **"Private "** is chosen, the participants are entered by the owners or persons who have the right of member management.
 
-If the setting "open without booking" is selected, everyone can attend the course and it is not visible to the owners who has dialed into the course. If required, guests without OpenOlat identification can also be granted access to the learning resource via this option.
+If the option **"Bookable and open offers "** is selected, learners can book a course/learning resource themselves, but may have to (depending on the setting) enter a password
+enter.
 
-!!! note "Info"
-    
-    :octicons-tag-24: Release 17.0
+Translated with www.DeepL.com/Translator (free version)
 
-Two basic variants are available:
+### Administrative release
 
-![Offers and Booking methods](assets/booking.jpg)
-
-With the private member administration the participants are registered by the
-owner and/or persons, who have the right of the member administration.
-
-If the "Bookable and open offers" option is selected, learners can book a course/learning
-resource themselves, but may have to enter a password (depending on offer created).
+Here you can define for which organization/sub-organization (if set up) the course is released for the administrative roles. These include: other authors(depending on rights), learning resource administrators, principals, administrators.
 
 ## Release for other authors
 
@@ -69,69 +60,65 @@ reference | Learning resources such as glossary, form or test can be integrated 
 copy | The learning resource can be copied by other authors.  
 download | The learning resource is available for download by other authors.  
 
-## Configure booking methods and offers {: #offer}
+## Offer / Configure offers {: #offer}
 
-!!! note "Info"
+![offer Screen](assets/offer.jpg){class="thumbnail"}
 
- :octicons-tag-24: Release 17.0
+!!! note "Differences to booking methods before 17.0"
 
-![offer Screen](assets/offer.jpg)
-If you have previously selected the option "Bookable and open offers", you can then continue to set up the booking method and also check
-whether the users should receive a confirmation e-mail.
+    * Offers can be published independent of the publication status of the course. To do this, select a in the offer creation "time-limited" and define a future period. The offer is then available in the catalog for this defined period.
+    * Offers can be limited to different parts of organizations(sub-organizations).
+    * Guest access & open without booking are now available as offers: "Guest access" & "Without booking". Nothing has changed in the way it works.
 
-You can define when and under which conditions the users of the system can
-book a learning resource. Booking can be understood as a synonym for
-occupying, enrolling, shopping.
 
-Select the button "Add booking method" to add one of the following booking
-methods:
+If you have previously selected the option "Add booking methods" / "Bookable and open offers" (from :octicons-day-24: Release 17.0 )
+you can then create offers.
 
-![gift](assets/gift.png){ class="size24" }  **Freely available**
+You can define when and under which conditions the users of the
+users of the system can book a learning resource. Booking can be used as a synonym for
+book, enroll, purchase.
 
-Select the free booking method if no other restrictions shall apply. All users can book the resource. Using this booking method adds users as participants to the resource, but will not add them to a group, thus working like the enrolment course element. Once the feature " _Freely available"_  is activated, users will automatically be directed to the course view, without the need to confirm the booking through the booking dialog.
+Select the button "Create offer" / "Add booking method" to add offers / booking methods.
 
 ![key](assets/key.png){ class="size24" }  **Access code**
 
-Select the access code booking method if booking shall be restricted to people in possession of a specific access code. The access code must be provided to participants, e.g. by email. The participants must enter the access code before they can open a corresponding course. This is the method of choice when providing payable courses, or courses with otherwise limited access, respectively.
+Select access code to restrict the booking to a specific group of people. Only people who have this access code can book the resource. Before opening the course for the first time, the user must enter this code, which may have been sent in advance by e-mail or written on the whiteboard in the case of blended learning events. The code needs to be entered only once.
 
-![paypal](assets/cc-paypal.png){ class="size24" } **PayPal and credit card**
+![gift](assets/gift.png){ class="size24" } **Free available**.
 
-(only available if unlocked by an administrator): Select the PayPal/Credit card payment method require a financial payment to access a resource. When using this booking method you can define an amount of money required to be payed in the currency defined in the system configuration. This amount can then be payed by either a PayPal account or by using a credit card (Visa/Mastercard). (This feature is only available for users with author rights)
+Select this option if no further restrictions apply. All OLAT users can open and use the learning resource. A user will thus be added as a participant. If the function _"Automatic booking"_ is activated, users will automatically be directed to the course view without having to book the learning resource explicitly using the booking dialog. The advantage compared to the option "open without booking" is that the owner can see who has booked his course.
 
-Optionally, you can add a validity period to each booking method in order to
-control resource access in addition to the use of visibility and access rules.
-In that case the booking method is only available during this period. It is
-also possible to specify just a start or just an end time. If you don't want
-to restrict the booking method to a specified period, just leave the fields
-empty. You can edit booking methods at any time after the initial setup.
+![paypal](assets/cc-paypal.png){ class="size24" }   **PayPal and credit card**
+  
+Is only available if enabled by the [administrator](../../manual_admin/administration/PayPal_Configuration.en.md): Select the PayPal/credit cards to enable booking against a financial payment. You can define an amount that has to be paid with a PayPal account or with a credit card (Visa/Mastercard). (This function is only available for users with author rights)
 
-You may also configure more than just one booking method. The user will then
-have several booking options to choose from. As an example, you can combine
-course codes for users form different contexts, or set the time point for a
-course such that it is first freely accessible and only later requires a
-password to log in, respectively. In addition, it can be defined if self-
-registered users will get a confirmation email.
+![notBooking](assets/notBooking.jpg){ class="size24" }  **Without booking
+Available as of :octicons-day-24: 17.0.
 
-Attention: the start and end date is only valid for the  _booking process_.
-Once a resource has been booked by a user he will be added to the resource
-members list. From that moment the members list grants access to the user.
-When a booking method is no longer valid or has been deleted users on the
-members list will still have access to the resource. As an owner of the
-resource you can add or remove users to/from the resource members list at any
-time.
+With this offer you can publish a course which can be accessed by all OLAT users without showing up in the member administration.
+Without posting corresponds to the "Open for all" option in the old release.
 
-You can delete configured booking methods at any time. The already booked
-orders will not be affected by this.
+![guest](assets/guest.jpg){ class="size24" }  **guest access**
+Available as of :octicons-day-24: 17.0.
 
-Since OpenOlat version 13, the publication status is separated from the
-booking method. This allows you to configure the booking method before the
-actual publication and to activate it by changing the publication status.
+In the traditional course, an offer can also be created for guests only. This is then only available for guests and cannot be restricted for different sub-organizations.
 
-!!! note "Info"
-    
-    :octicons-tag-24: Release 17.0
+Optionally, a start and end date can be added to a booking configuration/offer configuration. This configuration is then only valid between the configured date
+valid. You can also specify only a start date or only an end date. If
+you do not want to specify a time restriction, leave this field empty.
+Booking methods can be adjusted later.
 
-In contrast to booking methods, offers can also be published independently of the publication status of the course. To do this, one selects "time-limited" in the offer creation and defines a future period. The offer is then available in the catalogue for this defined period.
+You can also configure multiple booking methods/offers. These are considered as different options from which the user can choose, in this case make sure that the descriptions are meaningful. For example, course codes can be combined for people from different contexts, or a course can be made free until a certain date and then only accessible with password
+be set up.
+
+!!! warning "booking period =/= implementation period".
+
+    A specified start or end date refers exclusively to the **booking process** not to the implementation period of the learning resource. If a user has booked a resource, the person is entered in the participant list of this resource. From that point on, the system decides whether a person has access to a resource solely on the basis of the participant list. Therefore, expired booking configurations have no influence on a participant list. As the owner of the resource, you can also add or remove a person from the list of participants at any time. In the second case, the user can re-enter the resource as a participant by booking again.
+
+
+You can easily delete the configured booking methods/offers at any time.
+The bookings already made remain in place and are not affected by this affected.
+
 
 ## Leaving a learning resource
 
@@ -153,6 +140,12 @@ By default, users can leave a course or learning resource at any time.
   
 The options "reference" and "copy" make sense if you want to use a template or
 a good example for other OpenOlat authors.
+
+## Share Overview
+
+![share-overview](assets/share-overview.jpg)  
+
+If the sharing is set according to the wishes, you can see compactly at the end of the page, who has access to this course and which groups or curricula are linked to this course. Behind the roles is written in brackets, the respective rights of the role.
 
 ## Lifecycle: Finish/Delete
 

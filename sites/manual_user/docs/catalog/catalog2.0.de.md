@@ -17,13 +17,21 @@ Allen Launcher kann ich einen sprachabhängigen Namen geben. Dieser Name erschei
 
 ### Taxonomie Launcher
 
-Taxonomie Launcher nutzen die Katalogfachbereichsstruktur, um die verschiedenen Taxonomielevel als Baum anzuzeigen.
+Taxonomie Launcher nutzen die Katalogfachbereichsstruktur, um die verschiedenen Taxonomielevel als Baum anzuzeigen. Einstellbar sind diese 
 
 ### (Taxonomie-) Microsite
 
 Klickt man auf einen Level bei einem Launcher kommt man auf die Taxonomie Microsite. Hier werden alle Kurse angezeigt, die unter diesem Level eingeordnet wurden. Hat die Fachbereichstaxonomie mehrere Level in diesem Strang werden die weiteren Level angezeigt.
 
 Man kann die Kursliste weiter durch Filter oder Suche verfeinern.
+
+### Suchergebnisseite & Filter
+
+**Suchergebnissseite**
+Bei einer Suche kommt man auf diese Seite. Hier lassen sich durch verschiedene Filter die Suche verfeinern.
+
+**Filter**
+Die Filter der Suchergebnissseite lassen sich unter `Administration > Module > Katalog > Filter` einstellen. Hier kann gewählt werden, welche Filter für Teilnehmer verfügbar sein sollen. 
 
 ## Einrichten und Freigeben neuer Kurse für den Katalog 2.0
 
@@ -43,4 +51,3 @@ Auf `Autorenbereich > Kurs > Metadaten` unter "Subjects/Katalog" die gewünschte
 ### Angebot erstellen
 
 Auf `Autorenbereich > Kurs > Freigabe` Angebote aktivieren und ein Angebot erstellen. Dies für die gewünschten Organisations Einheiten freigeben.
-
