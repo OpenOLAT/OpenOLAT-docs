@@ -4,6 +4,11 @@
 
 Der Katalog 2.0 gliedert sich in unterschiedliche Bereiche auf.
 
+!!! note "Unterschiede zum Katalog v.10 vor 17.0"
+
+    Katalog 2.0 besitzt keine manuelle Sortierung auf Kursebene.
+    Dieser Katalog ist ein dynamischer Katalog. D.h. alles, was die Fachbereiche und ein Angebot besitzt wird __automatisch__ im Katalog angezeigt und aggregiert.
+
 ## Bestandteile des Katalogs
 
 ## Startseite
@@ -31,7 +36,7 @@ Man kann die Kursliste weiter durch Filter oder Suche verfeinern.
 Bei einer Suche kommt man auf diese Seite. Hier lassen sich durch verschiedene Filter die Suche verfeinern.
 
 **Filter**
-Die Filter der Suchergebnissseite lassen sich unter `Administration > Module > Katalog > Filter` einstellen. Hier kann gewählt werden, welche Filter für Teilnehmer verfügbar sein sollen. 
+Die Filter der Suchergebnissseite lassen sich unter `Administration > Module > Katalog > Filter` einstellen. Hier kann gewählt werden, welche Filter für Teilnehmer verfügbar sein sollen.
 
 ## Einrichten und Freigeben neuer Kurse für den Katalog 2.0
 
@@ -51,3 +56,17 @@ Auf `Autorenbereich > Kurs > Metadaten` unter "Subjects/Katalog" die gewünschte
 ### Angebot erstellen
 
 Auf `Autorenbereich > Kurs > Freigabe` Angebote aktivieren und ein Angebot erstellen. Dies für die gewünschten Organisations Einheiten freigeben.
+
+## Migration von V1.0 zu V2.0
+
+Existiert schon ein Katalog inklusivie Struktur, kann dieser einfach in die neue Version migriert werden.
+Bei Wechsel auf die neue Version, erscheint ein Dialog, der die die Migration anschiebt.
+
+Die folgenden Objekte werden in den neuen Katalog übertragen:
+
+* Titel & Kurztitel
+* Katalogbilder werden konvertiert. Als neues Bildformat wird eine rechteckige Darstellung mit dem Format 2:1 empfohlen.
+* Die Katalogstruktur wird als neue Katalogtaxonomie angelegt und ist dann unter Abteilungen/Katalog verfügbar.
+* Unterkategorietitel, Kurztitel & Beschreibungen sind auf neu gestalteten Unterseiten verfügbar.
+
+Übersetzt mit www.DeepL.com/Translator (kostenlose Version)

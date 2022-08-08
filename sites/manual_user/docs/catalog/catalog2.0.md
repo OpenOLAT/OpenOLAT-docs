@@ -53,3 +53,16 @@ On `Author Area > Course > Metadata` under "Subjects/Catalog" select the desired
 ### Create an Offer
 
 Go to 'Authoring > Course > Release', activate 'Offer' and create an Offer. Release this for the desired organizational units.
+
+
+## Migration from Catalog v1.0 to catalog v2.0
+
+If there is already a catalog structure on your Instance, it can be easy migrated.
+When you switch to the catalog v2.0 a new dialog will appear, prompting you to migrate the catalogstructure.
+
+The following object are transfered to the new catalog:
+
+* Title & Short Title
+* Catalog images are converted. As a new image format, a rectangular display with the format 2:1 is recommended.
+* Catalog structure is created as a new catalog taxonomy and is then available under Departments/Catalog.
+* Subcategory titles, short titles & descriptions are available in redesigned subpages.
