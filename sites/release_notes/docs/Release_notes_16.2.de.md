@@ -4,7 +4,7 @@
 
 * * *
 
-:material-calendar-month-outline: **Releasedatum: 01.04.2022 • Letztes Update: 22.07.2022**
+:material-calendar-month-outline: **Releasedatum: 01.04.2022 • Letztes Update: 05.08.2022**
 
 * * *
 
@@ -184,6 +184,7 @@ Statistische Daten zu Tests waren bisher nur auf der obersten Ebene des Tests bz
 
 ## Weitere Informationen
 
+* [Jira Release Notes 16.2.8](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=19102)
 * [Jira Release Notes 16.2.7](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=19100)
 * [Jira Release Notes 16.2.6](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=18801)
 * [Jira Release Notes 16.2.5](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=18800)

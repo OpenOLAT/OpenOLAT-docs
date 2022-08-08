@@ -4,7 +4,7 @@
 
 * * *
 
-:material-calendar-month-outline: **Release date: 04/01/2022 - Last update: 07/22/2022**
+:material-calendar-month-outline: **Release date: 04/01/2022 - Last update: 08/05/2022**
 
 * * *
 
@@ -178,6 +178,7 @@ Until now, statistical data on tests was only available at the top level of the 
 
 ## More information
 
+* [Jira Release Notes 16.2.8](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=19102)
 * [Jira Release Notes 16.2.7](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=19100)
 * [Jira Release Notes 16.2.6](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=18801)
 * [Jira Release Notes 16.2.5](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=18800)
