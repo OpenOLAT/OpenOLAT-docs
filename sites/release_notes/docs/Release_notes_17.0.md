@@ -1,6 +1,7 @@
 # Release notes 17.0 - work in progress
-
+<!--
 ![Release graphic](assets/162/press-release-16.2.png)
+
 
 * * *
 
@@ -181,3 +182,5 @@ Until now, statistical data on tests was only available at the top level of the 
 * [Jira release notes 16.2.2](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=18600)
 * [Jira release notes 16.2.1](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=18500)
 * [Jira release notes 16.2](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=17802)
+
+-->
