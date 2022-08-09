@@ -30,19 +30,19 @@ Ganz im Sinne von "Übung macht den Meister!" dient der neue Kursbaustein "Üben
 
 #### Sicht Teilnehmende
 
-Kursteilnehmende absolvieren sogenannte Challenges, in denen eine definierte Anzahl von Fragen beantwortet werden muss. Nicht korrekt beantwortete Fragen werden nach dem Lernkarten-Prinzip erneut abgefragt und somit gezielt wiederholt. Nach Abschluss einer Challenge sind neben der Einordnung in Ranglisten auch verschiedene Statistiken zum Lernstand in einer detaillierten Übersicht verfügbar.
+Kursteilnehmende absolvieren sogenannte Challenges, in denen eine definierte Anzahl von Fragen beantwortet werden muss. Nicht korrekt beantwortete Fragen werden nach dem Lernkarten-Prinzip erneut abgefragt und somit gezielt wiederholt.
 
-<!--
-![Übungsbaustein Teilnehmersicht](assets/170/aaa_DE.jpeg){ class="shadow lightbox" }
--->
+![Übungsbaustein Teilnehmersicht](assets/170/Practice_element_DE.png){ class="shadow lightbox" }
+
+Nach Abschluss einer Challenge sind neben der Einordnung in Ranglisten auch detaillierte Statistiken zum Lernstand sowie eine zusammenfassende Übersicht verfügbar.
+
+![Übungsbaustein Statistiken](assets/170/Practice_element_statistics_DE.png){ class="shadow lightbox" }
 
 #### Sicht Kursautoren
 
 Mit dem Baustein können geschlossene Fragen aus bestehenden Tests oder aus dem Fragenpool zum Üben wiederverwendet werden. Anhand der Metadaten der Frage-Items sind Übungszusammenstellungen wie beispielsweise "alle formativen Fragen aus dem Fachbereich *Addition Zahlenraum 100*" schnell und einfach möglich. Es können später auch weitere Fragen hinzugefügt oder bestehende geändert werden.
 
-<!--
-![Übungsbaustein Konfiguration](assets/170/aaa_DE.jpeg){ class="shadow lightbox" }
--->
+![Übungsbaustein Auszug Konfiguration](assets/170/Practice_element_editor_DE.png){ class="shadow lightbox" }
 
 * * *
 
@@ -52,11 +52,9 @@ Kein umständliches "Browsen" mehr! Der neue Katalog 2.0 verwendet ein modernes 
 
 Mithilfe des integrierten Migrationstools kann einmalig die bestehende Katalogstruktur in das neue Format überführt werden. Ein Wechsel auf die alte Katalog-Ansicht wird ebenfalls untersützt.
 
-<!--
-[Mehr dazu direkt im Handbuch](../manual_user/course_operation/Assessment_translate_points_in_grades.de.md)
+[Mehr dazu direkt im Handbuch](../../manual_user/docs/catalog/catalog2.0.de.md)
 
-![Bewertungsskala](assets/162/Grading_scale_DE.jpeg){ class="shadow lightbox" }
--->
+![Startseite Katalog Version 2](assets/170/KatalogV2_DE.png){ class="shadow lightbox" }
 
 * * *
 
