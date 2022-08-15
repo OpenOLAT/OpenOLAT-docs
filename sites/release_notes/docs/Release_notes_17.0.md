@@ -1,186 +1,179 @@
 # Release notes 17.0 - work in progress
-<!--
-![Release graphic](assets/162/press-release-16.2.png)
 
-
-* * *
-
-:material-calendar-month-outline: **Release date: 04/01/2022 - Last update: 04/14/2022**
+![Release image](assets/170/press-release-17.0.png)
 
 * * *
 
-With OpenOlat 16.2 we release our next major release.
-
-Especially in the area of online testing and evaluation there are many new features. A major new feature is the **exam chat** with its own communication area to better support participants during the online exam and to respond to their questions. The **transfer of points into grades or other evaluation scales** creates better comparability and the prerequisite for further processing of the performances. A consistent approval process of the performances, the newly structured **design of the assessment tool overview** enriched with graphics, the **PDF export** for test results and CP learning content as well as supplementary information in the assessment form for supervisors are just some of the numerous improvements. The **enhanced Safe Exam Browser configuration** facilitates its use. **Upgrades** for the HTML editor "TinyMCE", Mathjax for Latex formulas and a new integrated formula editor enrich this release. In addition, the **OpenOlat manual has been migrated** from Confluence to the Markdown-based MKDocs for an efficient editing workflow and more flexible division of the individual sections.
-
-![Number of Features Bugs](assets/162/Features_Improvements_Labels_EN.png)
-
-Since release 16.1, over 65 new features and improvements have been added to OpenOlat. Here you can find the most important new features and changes. In addition, more than 100 bugs have been fixed. The complete list of changes in 16.1 - 16.1.8 can be found [here](Release_notes_16.1.md).
-
-## Announcement: End of support IE11
-
-!!! warning "Support for IE11 ends!"
-
-    There will be no more maintenance for Internet Explorer 11 from **Release 16.2**.
-    
-    As of **Release 17.0**, support will be completely discontinued. 
+:material-calendar-month-outline: **Release date: 22/07/2022 • Last update: 08/12/2022**
 
 * * *
 
-## Transfer points to "Levels/Grading scales"
+With OpenOlat 17.0 we release our next major release.
 
-OpenOlat's scoring model previously supported points, pass/fail output, and qualitative scores. In order to be able to compare and further process the performances, the transfer of the course-internal points into a generally known and recognized scale "grade" or other evaluation scales is now possible.
+To support knowledge transfer, the new **course element "Practice "** with flashcard logic is an attractive alternative to tests and self-testing. In addition to the new **"Gap with dropdown"** question type and the consideration of test time extensions and disadvantage compensation in the automatic exam mode, further improvements have been implemented in the e-testing area. In **Catalog 2.0**, the focus is on the "search and filter" concept as well as the optimized and structured **display of  offers** by linking it to a taxonomy. The **revised share and booking configuration** in courses enables the **offer to be presented in an organization-specific** manner. **External users** can be given targeted access to specific courses and groups via invitation. **Zoom integration** expands the range of video conferencing tools that can be used in courses and groups. Above all, the **Task component** and the **Folder component** have been optimized in terms of presentation and usability. In addition, further **OAuth login providers** are supported.
 
-For this purpose, different **grading systems** (numeric or textual) can be created system-wide. These are subsequently available for all assessable course elements as **grading scales**. If required, the selected grading scale can be adapted for use for the respective course element.
+![Features Bugs](assets/170/Features_Improvements_Labels_EN.png)
 
-When activated on the course element - via **manual or automatic assignment** - the participant's points are additionally displayed as, for example, "grade", "level" or similar.
-
-[More directly in the manual](../manual_user/course_operation/Assessment_translate_points_in_grades.md)
-
-![grading scale](assets/162/Grading_scale.jpeg){ class="shadow lightbox" }
-
-#### Examples of grading scales
-
-* 1-6
-* A-F
-* "very good" - "insufficient
-* "beginner"/"specialist"/"expert
-* :smile: , :neutral_face: , :cry:
-
-!!! info "Grading System Templates"
-
-    With this feature common grading systems will be already created on your OpenOlat system.
-
-#### Display of the grades
-
-In the grading tool, the key figures and statistics for grades are displayed in a separate section.
-
-![Assessment tool grades](assets/162/Noten_Bewertungswerkzeug.jpeg){ class="shadow lightbox" }
-
-In the coaching tool, coaches can find an overview of outstanding grade assignments in a new section under "Assignments".
-
-Participants can see the assigned grades in their performance overview and everywhere where the points are also issued.
+Since release 16.2, over 70 new features and improvements have been added to OpenOlat. Here you can find the most important new features and changes. In addition, more than 105 bugs have been fixed. The complete list of changes in 16.2 - 16.2.8 can be found [here](Release_notes_16.2.md).
 
 * * *
 
-## Supervision of online exams via chat and video call
+## New course element "Practice"
 
-For exams written by examinees at home (e.g., Open-Book Exam, Take-Home Exam), proctors must be able to **communicate** with examinees. Similarly, examinees must be able to contact the exam proctor should, for example, questions about the exam or technical problems arise.
+In keeping with the motto "Practice makes perfect!", the new course element "Practice" is primarily intended for knowledge transfer and self-testing.
 
-In OpenOlat, an appropriate infrastructure has been created for these requirements:
+#### Participants view
 
-* Invigilators can send messages to all examinees (one-way broadcast message).
-* The integrated exam chat enables a direct exchange between supervisor and examinee. The chat can be started from both sides.
-* Supervisors can start a BigBlueButton video conference with the examinee if needed and use screen sharing there.
+Course participants complete so-called challenges in which a defined number of questions must be answered. Questions that are not answered correctly are asked again according to the flashcard principle and thus repeated in a targeted manner.
 
-![Participant Chat](assets/162/TeilnehmerChat.png){ class="shadow lightbox" }
+![Participant view of practice course element](assets/170/Practice_element.png){ class="shadow lightbox" }
 
-For the administration of notifications, a **new area "Communication "** is available for the supervisors (supervisors) at the course element "Test". There, the status of the requests can be seen and it is displayed which supervisor is processing a request. It is also possible for several supervisors to join a request.
+After completion of a challenge, detailed statistics on the learning status as well as a summary overview are available in addition to ranking lists.
 
-![Supervisor communication area](assets/162/Kommunikationsbereich.png){ class="shadow lightbox" }
+![Practice course element statistics](assets/170/Practice_element_statistics.png){ class="shadow lightbox" }
 
-In addition, supervisors are actively notified of participant requests from ongoing exams if they have not opened the exam course.
+#### Authors view
 
-![Coaching Activities](assets/162/Coaching_activities.png){ class="shadow lightbox" }
+With this course element closed questions from existing tests or from the question pool can be reused for practicing. Based on the metadata of the question items, practice compilations such as "all formative questions from the subject area *addition number space 100*" are quick and easy. More questions can be added later or existing ones can be changed.
 
-* * *
-
-## Safe Exam Browser configuration
-
-For the use of the Safe Exam Browser in online exams, the configuration keys created in the [Safe Exam Browser](https://safeexambrowser.org) could previously be stored in OpenOlat.
-
-In addition, the **standard Safe Exam Browser configurations** have now also been integrated into OpenOlat, so that standard configurations can be made directly in OpenOlat. The configuration file can - depending on the selected option - be downloaded by the supervisor or by the examinees themselves before the exam.
-
-![Safe Exam Browser Configuration](assets/162/SEB_configuration.png){ class="shadow lightbox" }
+![Excerpt Configuration of Practice course element](assets/170/Practice_element_editor.png){ class="shadow lightbox" }
 
 * * *
 
-## Features in the eAssessment area
+## Catalog 2.0
 
-#### Assessment: Improvement of the release process
+No more cumbersome "browsing"! The new catalog 2.0 uses a modern "search and filter" concept, is visually appealing and attractive. The start page can be customized with the help of "launchers" and the offer can be promoted most effectively. In this way, courses in specific categories can be clearly displayed alongside the newest, most popular or most frequently visited. The catalog structure is built up on the basis of the keywording used (taxonomy / subject areas). The courses of a subject area can be accessed directly via the microsites.
 
-The previous release status workflow for assessments was sometimes very intransparent for authors/supervisors and was implemented differently depending on the course element. With this release, the **release status workflow has been standardized** and the display has been revised.
+With the help of the integrated migration tool, the existing catalog structure can be transferred to the new format once. A change to the old catalog view is also supported.
 
-At the same time, the **assessment form has been optimized** for a clear display of the respective release status and the actions for buffering or completing the assessment with or without release have been rearranged.
+[More information in the manual](../manual_user/catalog/catalog2.0.md)
 
-#### Better usability in the evaluation tool
-
-The overview page of the assessment tool as well as the presentation of the data has been completely **revised**. According to the new concept, the overview is an independent navigation point. Course, group and curriculum participants are each summarized in separate areas, **graphs** show the current status (e.g. on score or pass) at a glance. Open assessments and assessments still to be released are shown compactly on the right-hand side. Via **links** you can access the corresponding filtered view. The newly structured overview is also available on the individual course elements.
-
-![Assessment tool overview](assets/162/Assessment_tool_overview.png){ class="shadow lightbox" }
-
-#### PDF export for course element "Test".
-
-In addition to the HTMl variant and the raw data in Excel, test results are now also available as **export including PDF version**.
-
-Since exporting test results in PDF format takes a lot of time for many participants, test result exports are now performed asynchronously. This means that triggered exports are first generated in OpenOlat and can be downloaded after completion. So you can continue working in OpenOlat in the meantime. As soon as the export is available for download, one receives an e-mail notification with the link to the download. The individual exports can be managed in a separate **export area** at the course element "Test".
-
-![Export area test results](assets/162/Export_area_testresults.png){ class="shadow lightbox" }
-
-#### New formula editor
-
-The new formula editor is integrated into the HTML editor. In addition, the **"Rich Text Formatting" mode for free text questions** with the new formula editor allows **entering mathematical formulas** in response to a question. Participants are supported by the visual editor when entering formulas and can add additional text, e.g. for derivation or explanation. The formulas entered are _not_ mathematically interpreted and checked for correctness.
-
-![formula editor](assets/162/Formeleditor.png){ class="shadow lightbox" }
-
-#### Test statistics at section level
-
-Until now, statistical data on tests was only available at the top level of the test or for the individual questions. From now on, statistics are also available on section level.
+![Homepage catalog version 2](assets/170/KatalogV2.png){ class="shadow lightbox" }
 
 * * *
 
-## New features around courses
+## Share of courses: Offer and bookings
 
-#### For authors
+The share configuration for courses has been revised and simplified. The new concept realizes a separation between the administrative access (Where is the course "at home" and who is allowed to administrate it?) and the validity of the offer. The restructuring serves in particular the preparation for the release in the catalog 2.0 and the medium-term planned web publication of offers.
 
-![Quick-Add Action for Course Elements](assets/162/Quick_add_action.png){ class="shadow lightbox aside-right" }
+#### Authors view
 
-* Quick-Add action in course editor to add new course elements (see screenshot).
-* Course teaser text displayed under "My courses" and on the info page
-* Improved highlighting of course element types in the editor
-* Option to open Scorm modules in full screen mode
-* Course copy wizard:
-    * Display of default options.
-    * Options for test course element
-    * Options for document and tutor folders
-    * Shifting of course element specific dates to a specific date or by a specific number of days
-* Course layout: improved behavior when changing background color
-* New design of HTML editor due to version update
+Authors can choose between *Private* (member administration) and *Bookable and open offers* when releasing. Under the offers all existing booking methods and new also the options *Without booking* as well as the *Guest access* are united.
 
-#### For tutors
+The validity of each individual offer - independent of the course status - can be scheduled and restricted to selected organizational units. This means, for example, the course can be booked in organization A via an access code, in organization B the course is only bookable for the next 6 months and has to be paid via Paypal.
 
-* Learning path: reading confirmation of individual participants can be reset by supervisor
-* PDF export for content package content
+![Configuration course share and offers](assets/170/Access_and_offers.png){ class="shadow lightbox" }
+
+Especially helpful for authors is the new share overview, which indicates which (access) permissions the different course and system roles have with the current sharing configuration.
+
+![Configuration share overview](assets/170/Access_share_overview.png){ class="shadow lightbox" }
+
+#### Participants view
+
+Participants can see all courses they are enrolled in under "My courses". There is a new distinction between courses *in preparation* and those that are *active*.
+
+![Course overview for participants](assets/170/Course_overview_participants.png){ class="shadow lightbox" }
+
+* * *
+
+## Access via invitation: External users
+
+Analogous to ePortfolio, it is now also possible to invite external users as participants or coaches to courses or groups. The invitation is sent to an e-mail address, the recipients can then set a password for OpenOlat.
+
+![Invite external users](assets/170/External_member_invitation.png){ class="shadow lightbox" }
+
+After logging in, they will be taken to a simplified home page with an overview of all courses, groups, and portfolio folders for which they have received an invitation.
+
+![External User Home Page](assets/170/External_user_overview.png){ class="shadow lightbox" }
+
+#### Administration: Gradual release
+
+The release of the function for the mentioned areas and the permissions to send invitations can be configured gradually.
+
+![External User Configuration](assets/170/External_user_configuration.png){ class="shadow lightbox" }
+
+* * *
+
+## Integration of the "Zoom" video conferencing tool
+
+After BigBlueButton and MS Teams, the Zoom integration is now available, which can also be activated as a *course element as well as a course and group tool*. Created Zoom meetings are automatically entered in the OpenOlat calendar including a direct link to the meeting.
+
+![Zoom Integration](assets/170/zoom_DE.png){ class="shadow lightbox" }
+
+#### Configuration
+
+The integration is implemented via Zoom's LTI 1.3 app. After successful configuration, no additional login is required for students and coaches. Additionally, multiple parallel Zoom configurations are supported. [Configuration details](../manual_admin/administration/Zoom.md)
+
+* * *
+
+## New question type: Gap with dropdown
+
+With the new question type "Gap with dropdown" it is possible to specify multiple answer options for each gap. Participants select the appropriate answer from a dropdown list.
+
+It is possible to define *local* (= only available for this gap) or *global* (= available in all gaps of the question) answer options. Optionally, a random order of answer choices can be enabled in the dropdown.
+
+![Question type Gap with dropdown](assets/170/Inlinechoice_dropdown.png){ class="shadow lightbox" }
+
+* * *
+
+## Further enhancements in the area of eAssessment
+
+* Automatic assessment mode: Consideration of disadvantage compensation and manual test time extension
+* Test execution: pagination of very long section titles in the navigation area on the left side
+* Improvement of the status display for "failed
+
+* * *
+
+## UI/UX optimizations
+
+* Member management of courses and learning resources: New table concept with filters
+* Introduction of ghost button
+* **Task course element:** Preview action for provided and submitted documents/videos as well as improved display
+
+    ![File preview in task module](assets/170/Task_preview_files.png){ class="thumbnail shadow lightbox" }
+
+* **Folder component:** General improved rendering, playback function for videos as well as use of ghost button
+* New taxonomy browser with improved search and selection function for subject areas
+
+* * *
+
+## Administration customizations
+
+* Group Site: New option to display the site only for group members and administrators
+* LTI1.3: Adjustment of configuration options for more consistency
 
 * * *
 
 ## Further, briefly noted
 
-* MathLive editor integration in HTML editor
-    * Preview of mathematical formulas in HTML editor
-    * Formula element in the form editor (content editor)
-* Placeholder for autocomplete in search fields
-* General improvements in terms of accessibility, login screen optimization
-* Standard document editor individually configurable
-* Control of publication of information and maintenance messages
-* New default behavior when clicking on logo
+* Courses: Short title display in preview only if not included in title
+* Adaptive resizing of video subtitles
+* Direct playback of videos that are available as a file (without player)
+* QM module: Migration of blacklist and whitelist from curriculum-based to course-based
 
 * * *
 
 ## Technical
 
-* Manual migration from Confluence to MKDocs
-* Upgrade TinyMCE from version 4 to version 5
-* Upgrade Mathjax from version 2 to version 3
-* Third party libraries upgraded
-* Stabilization of Selenium tests
+* New login options:
+    * OAuth 2.0 (with code flow)
+    * Switch edu-ID (OAuth 2.0 basis)
+    * Data pilot SSO (Campusnet)
+  
+        ![New login provider](assets/170/Login_provider.png){ class="thumbnail shadow lightbox" }
+
+* New UI for login providers and additional text modules on the start page in the login screen
+* Shibboleth: mapping of organization membership
+* Third party libraries updated
+* REST API:
+    * Improved handling of external certificates
+    * Enhancement to remove groups from courses
+* Translation key sorting on translation server to prepare for gender-neutral language implementation
 
 * * *
 
 ## More information
 
-* [Jira release notes 16.2.2](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=18600)
-* [Jira release notes 16.2.1](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=18500)
-* [Jira release notes 16.2](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=17802)
-
--->
+* [Jira Release Notes 17.0.2](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=19103)
+* [Jira Release Notes 17.0.1](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=19101)
+* [Jira Release Notes 17.0.0](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=18302)
