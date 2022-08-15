@@ -10,17 +10,15 @@ and their data.
 
 Deleting OpenOlat users has the following effect:
 
-  * For users without a system role, all user data is deleted.
-  * For users with administrative roles, all user data except first and last name is deleted to ensure a transparent and consistent display of administrative actions in the log files (e.g. of courses). If required, the data can also be deleted in the [user management](User+management.html#Usermanagement-Table_Deleted_Users) via the “Clear” action in the “Deleted Users” table.
-  * Personal data is deleted from the log tables. The username is deleted and replaced by an ID in the log tables.
-  * Personal data is deleted from the log file. Instead of the username, only one ID is written into the log file.
-  * The user’s portfolio is deleted.
-  * The user’s personal chat messages are deleted.
-  * Personal forum posts and comments will be anonymized after the deletion of the user and identified as “unknown user”.
-  * Comments and ratings of the user are deleted. Replies of the deleted user to comments are replaced by “User has been deleted”.
-  * The user’s visiting card is no longer displayed in OpenOlat (e.g. in the forum or for comments).
-
-  
+* For users without a system role, all user data is deleted.
+* For users with administrative roles, all user data except first and last name is deleted to ensure a transparent and consistent display of administrative actions in the log files (e.g. of courses). If required, the data can also be deleted in the [user management](../usermanagement/index.md) via the “Clear” action in the “Deleted Users” table.
+* Personal data is deleted from the log tables. The username is deleted and replaced by an ID in the log tables.
+* Personal data is deleted from the log file. Instead of the username, only one ID is written into the log file.
+* The user’s portfolio is deleted.
+* The user’s personal chat messages are deleted.
+* Personal forum posts and comments will be anonymized after the deletion of the user and identified as “unknown user”.
+* Comments and ratings of the user are deleted. Replies of the deleted user to comments are replaced by “User has been deleted”.
+* The user’s visiting card is no longer displayed in OpenOlat (e.g. in the forum or for comments).
 
 ## Export of user data
 
@@ -39,34 +37,32 @@ have access to the exported data.
 The export serves solely to inform the user which data is stored and processed
 on OpenOlat. It is not possible to restore a deleted user.
 
-### Data that can be exported:
+### Data that can be exported
 
-  * User profile data (incl. invisible data) as well as personal settings
-  * Published image (profile picture)
-  * Personal notes
-  * Documents in private and public folders
-  * Information on terms of use and when they were accepted
-  * Entries of the personal calendar (iCal)
-  * Subscriptions
-  * Course bookings
-  * Evidences of achievement
-  * Membership to couses
-  * Membership to groups
-  * Emails
-  * Chat messages
-  * Forum posts
-  * Comments and ratings
-  * Blog and Podcast posts
-  * Personal documents from course tasks
-  * Personal documents from course file dialog
-  * Personal documents from course participant folder
-  * Log
-  * ePortfolio
-  * Certifications
+* User profile data (incl. invisible data) as well as personal settings
+* Published image (profile picture)
+* Personal notes
+* Documents in private and public folders
+* Information on terms of use and when they were accepted
+* Entries of the personal calendar (iCal)
+* Subscriptions
+* Course bookings
+* Evidences of achievement
+* Membership to couses
+* Membership to groups
+* Emails
+* Chat messages
+* Forum posts
+* Comments and ratings
+* Blog and Podcast posts
+* Personal documents from course tasks
+* Personal documents from course file dialog
+* Personal documents from course participant folder
+* Log
+* ePortfolio
+* Certifications
 
-![](assets/Export1_EN.png){ class="shadow lightbox" }
-
-  
+![Export user data](assets/Export1_EN.png){ class="shadow lightbox" }
 
 ## Further data protection options
 
@@ -75,14 +71,11 @@ on OpenOlat. It is not possible to restore a deleted user.
 The terms of use can be printed both during the login process in the "Terms of
 Use" dialog and in the personal settings in the "Terms of Use" tab.
 
-![](assets/Nutzungsbedingungen_drucken2_EN-2.png){ class="shadow lightbox thumbnail-lg" }
-![](assets/Nutzungsbedingungen_drucken1_EN-2.png){ class="shadow lightbox thumbnail-lg" }
+![Print Terms of use on Login](assets/Nutzungsbedingungen_drucken2_EN-2.png){ class="shadow lightbox thumbnail-lg" }
 
-  
+![Print Terms of use in user system settings](assets/Nutzungsbedingungen_drucken1_EN-2.png){ class="shadow lightbox thumbnail-lg" }
 
 ### Visibility of e-mail addresses in OpenOlat
 
 E-mail addresses of other users are only visible in OpenOlat for
 administrative users, not for normal users.
-
- 

@@ -4,7 +4,7 @@ OpenOlat courses enable the mapping of various event formats e.g. lectures, semi
 
 Apply for author rights at your OpenOlat support office and you can get started!
 
-## The course cycle at a glance:
+## The course cycle at a glance
 
 ### 1. Create course
 
@@ -57,7 +57,7 @@ Now especially the assessment tool is needed and further actions are carried out
 ![Assessment tool](assets/course_assessment_tool.png){ class="shadow" }
 
 !!! info "Further Information"
-	  * [Course Operation](Course+Operation.html)
+	  * [Course Operation](../course_operation/index.md)
 	  * [Learning activities in courses (learner perspective)](../learning_activities/index.md)
 
 ### 6. End course {: #end_course}
@@ -69,7 +69,7 @@ If the course has expired, the status is set to "finished".
 !!! info "Further Information"
 	  * [Access configuration](Access_configuration.md)  
 
-### 7. Delete course 
+### 7. Delete course
 
 The "Delete" of the course is done via the appropriate menu in the course administration. Deleted courses can be shown or hidden in the authoring area via the filter option in the life cycle or specifically displayed in the "Deleted" tab.
 

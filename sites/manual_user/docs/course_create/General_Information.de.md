@@ -4,20 +4,19 @@ OpenOlat-Kurse ermöglichen das Abbilden von diversen Veranstaltungsformaten z.B
 
 Beantragen Sie bei Ihrer OpenOlat-Supportstelle bzw. den Administratoren Ihrer OpenOlat Instanz, Autorenrechte und legen Sie los!
 
-## Der Kurszyklus im Überblick:
+## Der Kurszyklus im Überblick
 
 ### 1. Kurs anlegen
 
-Lernressource Kurs im "Autorenbereich" erstellen und den gewünschten Kurstyp "Lernpfad" oder "herkömmlicher Kurs" wählen. 
+Lernressource Kurs im "Autorenbereich" erstellen und den gewünschten Kurstyp "Lernpfad" oder "herkömmlicher Kurs" wählen.
 
 ![Kurs erstellen](assets/create_course_16_DE.png){ class="shadow" }
 
 !!! info "Weitere Informationen"
-	  * [Kurs erstellen](index.de.mde)
+	  * [Kurs erstellen](index.de.md)
 	  * [Mit dem Kurseditor in fünf Schritten zu Ihrem OpenOlat Kurs](In_Five_Steps_to_Your_Course_With_the_Course_Editor.de.md)
 	  * [Lernpfad Kurse erstellen](Creating_learning_path_courses.de.md)
-  
-  
+
 ### 2. Kurs einrichten, gestalten, publizieren
 
 Im Kurseditor setzen Sie dann Ihren Kurs um, indem Sie die für Sie passenden
@@ -34,7 +33,6 @@ gewünscht konfigurieren.
 	  * [Allgemeine Konfiguration von Kursbausteinen](General_Configuration_of_Course_Elements.de.md)
 	  * [Kurseinstellungen](Course_Settings.de.md)
 
-
 ### 3. Zugang einrichten
 
 Im Administrationsmenü „Einstellungen“ werden die benötigten Einstellungen für den Zugang vorgenommen. Insbesondere der Tab "Freigabe" ist dabei wichtig.
@@ -44,7 +42,6 @@ Im Administrationsmenü „Einstellungen“ werden die benötigten Einstellungen
 !!! info "Weitere Informationen"
 	  * [Zugangskonfiguration](Access_configuration.de.md)
 	  * [Kurseinstellungen](Course_Settings.de.md)
-
 
 ### 4. Kurs Status veröffentlichen
 
@@ -56,7 +53,6 @@ auch für die Lernenden sichtbar wird.
 !!! info "Weitere Informationen"
 	  * [Zugangskonfiguration](Access_configuration.de.md)  
 
-  
 ### 5. Kurs durchführen und Assessmentbausteine bewerten
 
 Nutzen Sie das Bewertungswerkzeug für Bewertung und Feedbacks. Posten Sie im
@@ -66,9 +62,8 @@ Handlungen vor.
 ![](assets/Administration_Bewertungswerkzeug.png)
 
 !!! info "Weitere Informationen"
-	  * [Kursbetrieb](Kursbetrieb.html)
+	  * [Kursbetrieb](../course_operation/index.de.md)
 	  * [Lernaktivitäten (Lerner Perspektive)](../learning_activities/index.de.md)
-
 
 ### 6. Kurs beenden {: #end_course}
 
@@ -78,8 +73,7 @@ Ist der Kurs abgelaufen sollten Sie den Status auf „beendet“ setzen.
 
 !!! info "Weitere Informationen"
 	  * [Zugangskonfiguration](Access_configuration.de.md)  
-  
-  
+
 ### 7. Kurs löschen
 
 Das „Löschen“ des Kurses erfolgt über das passende Menü in der Kurs
@@ -92,8 +86,6 @@ angezeigt werden.
 !!! info "Weitere Informationen"
 	  * [Zugangskonfiguration](Access_configuration.de.md)  
 
-  
-  
 ## Tip
   
 !!! hint "Bevor Sie Ihren OpenOlat Kurs erstellen"
@@ -113,8 +105,3 @@ angezeigt werden.
 	sinnvoll zu bündeln, um eine optimale Usability zu erreichen. Wenn der Aufbau
 	klar ist, bereiten Sie die Lerninhalte, weitere Dateien ([HTML pages, PDF files, CPs](../authoring/Various_Types_of_Learning_Resources.de.md), etc.). und alles, was Sie für den
 	Einsatz in der Lernplattform benötigen, vor.
-
-  
-
-  
-
