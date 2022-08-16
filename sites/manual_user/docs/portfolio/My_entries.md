@@ -5,8 +5,7 @@ doesn't matter in which binder an entry is located. You've got a summary about
 all your entries and with the help of the status you can see their progress.
 One entry can contain several contents or artefacts.
 
-Particular [contents](My+portfolio+binders.html#Myportfoliobinders-
-portfolioinhalt) of an entry are added to the media center, depending on their
+Particular contents of an entry are added to the media center, depending on their
 type. There they can be edited as well. Entries are not added to the media
 center.
 

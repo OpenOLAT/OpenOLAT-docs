@@ -42,11 +42,7 @@ synchronisiert).
 ## Tab Lektionenblöcke
 
 Im ersten Tab "Lektionenblöcke" können neue Lektionenblöcke erstellt oder
-importiert sowie existierende Lektionsblöcke überarbeitet
-![](../../download/thumbnails/590039/test_pencil-square-
-o_434343_64%EF%B9%96version=1&modificationDate=1487251973000&api=v2.png)und
-gelöscht
-![](assets/setting_434343_64.png)
+importiert sowie existierende Lektionsblöcke überarbeitet und über Einstellungen gelöscht
 werden. Auch ein logfile kann angezeigt werden.
 
 Mit der Schaltfläche "Neuer Lektionenblock erstellen", wird ein neuer Block
@@ -96,7 +92,7 @@ können jedoch nur mit einer Zeitangabe korrekt angezeigt werden.
 
 ## Tab Teilnehmer
 
-![](assets/Lektionen_teilnehmer.png)
+![Lektionen-Teilnehmer](assets/Lektionen_teilnehmer.png)
 
 Im Tab "Teilnehmer" erhalten Sie eine Übersicht über alle Teilnehmenden dieses
 Kurses oder der ausgewählten Gruppen. Es wird angezeigt, wie viele Lektionen
@@ -109,23 +105,16 @@ bereits stattgefundenen Lektionen berechnet. Wenn beispielsweise erst eine
 Lektion stattgefunden hat und der Teilnehmende anwesend war, wird in der
 Spalte "Anwesenheit" 100% angezeigt.
 
-In der Spalte mit dem Symbol
-![](assets/attention_434343_64.png)
+![attention-icon](assets/attention_434343_64.png){class="size24"}In der Achtungsspalte mit dem Symbol
 wird angezeigt, ob die definierte Anwesenheitsquote erreicht worden ist. Wird
 ein rotes Ausrufezeichen angezeigt, wurde das erforderliche Limit nicht
 erreicht.
 
-In der Spalte
-![](assets/infomessage.png)
-werden Informationen angezeigt, welche von der Standardeinstellung abweichen.
-Dies ist beispielsweise ein persönlicher Schwellwert oder ein späterer
-Kursstart. Diese beiden Optionen können in den Einstellungen
-![](../../download/thumbnails/590039/test_pencil-square-
-o_434343_64%EF%B9%96version=1&modificationDate=1487251973000&api=v2.png)
+![info](assets/infomessage.png){class="size24"} In der Infospalte werden Informationen angezeigt, welche von der Standardeinstellung abweichen. Dies ist beispielsweise ein persönlicher Schwellwert oder ein späterer
+Kursstart. Diese beiden Optionen können in den Einstellungen (Stift)
 definiert werden. Der persönliche Schwellwert definiert die zu erreichende
 Anwesenheitsquote für den entsprechenden Teilnehmenden. Mit der Erstzulassung
 wird definiert, wann der Teilnehmende mit dem Kurs begonnen hat. Die
 Anwesenheitsquote wird basierend auf der Erstzulassung berechnet. Die
 Lektionen, welche vor dem Datum der Erstzulassung stattgefunden haben, werden
 nicht mitgerechnet.
-

@@ -5,14 +5,13 @@
 	The document pool is a taxonomy based document management which can be
 	unlocked competence based. For example the resource management of learning
 	material based on the teach competence can be built.
-	
+
 	The document pool can be activated for all OpenOlat users, also for learners.
-	
+
 	The documents in the document pool are only available in the document pool and
 	cannot be added into a course.
-	
-	Further information can be found in the chapter
-	[Taxonomy](Modules_Taxonomy.md).
+
+	Further information can be found in the chapter [taxonomy](../administration/Modules_Taxonomy.md).
 
 The document pool can be added as a site in the main navigation on top.
 
@@ -40,14 +39,14 @@ Here the rights of the single level types of the taxonomy can be defined. In
 order that a competence type appears it must have been created in Modules →
 Taxonomy in the tab level types.
 
-  * **Use in document pool**: With this options it is defined if this competence type appears in the document pool.
-  * **Documents enabled**: Only if this option is activated files can be uploaded on this level. Otherwise this level is only shown as structure without folder content.
-  * **Manager competence**: Is not yet used. 
-  * **Teacher competence**: In the teacher competence the access rights of the single levels of the document pool can be defined. First it is selected if a user with teach competence has read access to this level. If yes, the users can read the content of this level. Furthermore it can be defined if the read access is also valid on the other elements of the same hierarchical level. Therefore 1 instead of 0 need to be inserted.  
+* **Use in document pool**: With this options it is defined if this competence type appears in the document pool.
+* **Documents enabled**: Only if this option is activated files can be uploaded on this level. Otherwise this level is only shown as structure without folder content.
+* **Manager competence**: Is not yet used.
+* **Teacher competence**: In the teacher competence the access rights of the single levels of the document pool can be defined. First it is selected if a user with teach competence has read access to this level. If yes, the users can read the content of this level. Furthermore it can be defined if the read access is also valid on the other elements of the same hierarchical level. Therefore 1 instead of 0 need to be inserted.  
 If additionally "Allow write access" is selected, the users can also upload
 documents.
-  * **Have competence*: Is not yet used.
-  * **Target competence**: Is not yet used.
+* **Have competence*: Is not yet used.
+* **Target competence**: Is not yet used.
 
 These settings need to be repeated for all defined competence types.
 
@@ -65,4 +64,3 @@ document pool. It is recommended to add here a user manual for the usage of
 the document pool.
 
 ![](assets/documentpool_info_page.png){ class="shadow lightbox" }
-

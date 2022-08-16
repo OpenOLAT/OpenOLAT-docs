@@ -77,7 +77,7 @@ When creating the following attributes are necessary:
   * **Identifier:** With the identifier an abbreviation of the level can be defined.
   * **Display name:** The display name is the name which is actually shown in the corresponding pool. 
   * **Type:** In the type the beforehand created level type can be chosen.
-  * **Order:** Hereby a manual order is possible.
+  * **Order:** Hereby a manual order is possible by adding a number from 1-XX. The taxonomy-tiers will get ordered ascending by the numbers ( 1,2,3,4, / 01,02,03,04,..):octicons-tag-24: _experimental Feature_
   * **Description:** If desired a short description of the taxonomy level can be added.
 
 ![](assets/Taxebenen EN.png){ class="shadow lightbox" }

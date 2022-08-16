@@ -6,9 +6,7 @@ welcher Mappe sich ein Eintrag befindet. Sie erhalten so einen Überblick über
 alle Ihre Einträge und sehen anhand des Status, wie weit ein Eintrag
 fortgeschritten ist. Ein Eintrag kann mehrere Inhalte oder Artefakte umfassen.
 
-Einzelne
-[Inhalte](../display/OO161DE/Meine+Portfolio+Mappen.html#MeinePortfolioMappen-
-portfolioinhalt) eines Eintrages werden je nach Typ in der Mediathek abgelegt
+Einzelne Inhalte eines Eintrages werden je nach Typ in der Mediathek abgelegt
 und können auch dort bearbeitet werden. Allerdings werden keine kompletten
 Einträge in der Mediathek abgelegt.
 

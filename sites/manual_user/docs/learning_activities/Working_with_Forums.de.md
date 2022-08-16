@@ -65,8 +65,7 @@ eine ZIP-Datei verpackt und können gespeichert werden.
 Um bei neuen Forumsbeiträgen benachrichtigt zu werden, stellen Sie in der
 Übersicht der Diskussionsthemen den Schieberegler bei den "Änderungen“ auf
 "Ein". Dann erhalten Sie per E-Mail oder unter
-„[Abonnements](../../pages/viewpage.action%EF%B9%96pageId=68255886.html)“ im
-Bereich "Persönliche Werkzeuge" eine Benachrichtigung. Dabei ist es egal ob
+Abonnements im Bereich "Persönliche Werkzeuge" eine Benachrichtigung. Dabei ist es egal ob
 ein neuer Beitrag von einem registrierten OLAT Benutzer oder einem Gast
 eingestellt wurde.
 

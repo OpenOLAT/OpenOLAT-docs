@@ -3,7 +3,6 @@
 The tables in the courses section and in the author section (for authors)
 offer various filter and setting options.
 
-  
 
 ## The Filter Menu
 
@@ -19,6 +18,8 @@ upper right corner.
 
 The active filters will be combined. I.e. only entries matching **all**
 filters will be displayed.
+
+![filtermenu](assets/filter-table.jpg){class="lightbox"}
 
 ### Add and remove filters
 
@@ -41,7 +42,7 @@ menu as filter tabs.
 Click on the "All Filters" option to display all available filter options in
 full screen mode. You can also set the individual filters there.
 
-![](assets/search.png)
+![](assets/search.png){class="size24"}
 
 ## Filter tabs
 

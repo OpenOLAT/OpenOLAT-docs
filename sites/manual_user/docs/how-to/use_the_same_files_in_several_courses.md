@@ -9,92 +9,49 @@ automatically visible in all linked courses. Typical examples for such files
 are basic framework conditions, general terms and conditions, organisational
 information, information on general support and contact persons, etc.
 
-### What you need:
+### What you need
 
-  * Author rights
-  * Learning Resource "Resource Folder"
-  * Multiple learning resources "Course
-  * Comprehensive files
+* Author rights
+* Learning Resource "Resource Folder"
+* Multiple learning resources "Course
+* Comprehensive files
 
-## Method:
+## Method
 
+1. **Create a Ressource Folder:** Go to the [Authoring Area](../authoring/index.md) and select "Create" -> "Resource folder".
+
+![create Ressourcefolder](assets/resourcefolder_create.jpg)  
   
-|
-
-Create a Resource Folder  
+2. **Rename Ressourcefolder:** Enter a suitable name for the learning resource and complete the general description form as required. Since the resource folder is used more for internal organization, it is not necessary to enter information here. The description of the learning resource serves more for your own organization.  
   
----|---  
-1.|
+3. **Open Ressource Folder:** Click on the name of your resource folder in the bread-crumb navigation to make further settings and upload your files. Alternatively, you can also create HTML files directly here.
 
-Go to the [authoring area](Authoring.html) and select "Create" -> "Resource
-folder".
+![Ressource Folder](assets/Ressourcenordner.png)
 
-![](assets/resourcefolder_create.jpg)  
+Use [**WebDAV**](../supported_tech/Using_WebDAV.md)if you want to upload many files.  
   
-2.|
+### Include Resource Folders in Courses  
 
-Enter a suitable name for the learning resource and complete the general
-description form as required.
-
-Since the resource folder is used more for internal organization, it is not
-necessary to enter information here. The description of the learning resource
-serves more for your own organization.  
-  
-3.|
-
-Click on the name of your resource folder in the bread-crumb navigation to
-make further settings and upload your files. Alternatively, you can also
-create HTML files directly here.
-
-![](assets/Ressourcenordner.png)
-
-Use [WebDAV ](../supported_tech/Using_WebDAV.md)if you want to upload many files.  
-  
-  
-
-  
-
-  
-| Include Resource Folders in Courses  
----|---  
-1.|
-
-Open the desired course and select the "Options" tab in the "Administration"
+1. Open the desired course and select the "Options" tab in the "Administration"
 submenu of the "Settings" submenu.
-
-![](assets/resource_folder_options.png)  
+  z ![](assets/resource_folder_options.png)
   
-2.|
+2. Choose "Replace" under "Selected resource folder".
 
-Choose "Replace" under "Selected resource folder".
-
-![](assets/Resource_folder_replace_EN.png)  
+  ![replace ressource folder](assets/Resource_folder_replace_EN.png)  
   
-3.|
+3. Here you can select your previously created resource folder and link it to the course. If you have selected a resource folder, its name appears as well as the button "Deselect", with which you can deselect it again.  
 
-Here you can select your previously created resource folder and link it to the
-course.
-
-![](assets/Choose_resource_folder_EN.png)
-
-If you have selected a resource folder, its name appears as well as the button
-"Deselect", with which you can deselect it again.  
+  ![Ressource-folder](assets/Choose_resource_folder_EN.png)
   
-4.|
-
-By default, the files in the resource folder are write-protected within
-courses. This makes sense because you want to change and update the files
-centrally. However, if it is necessary to overwrite (single) central files
+4. By default, the files in the resource folder are write-protected withi courses. This makes sense because you want to change and update the files centrally. However, if it is necessary to overwrite (single) central files
 again in the course and only for the respective course, you can remove the
 write protection in the "Options" menu of the course.
 
-![](assets/Reseoruce_folder_read_only_EN.png)  
+  ![](assets/Reseoruce_folder_read_only_EN.png)  
   
-  
-
 Repeat the procedure for all relevant courses.
 
-  
 | Organize access to the files  
 ---|---  
 1.|
@@ -113,4 +70,3 @@ course element "[Single page](../course_elements/Knowledge_Transfer.md)" in the 
 You can only include _one_ resource folder per course. You should therefore
 carefully consider in advance which files you want to organize using a cross-
 course resource folder instead of the course-specific folder.
-

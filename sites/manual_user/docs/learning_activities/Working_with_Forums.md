@@ -62,7 +62,7 @@ attachments before storing them in your personal folder.
 
 In order to be kept informed on new forum entries you should select
 "Subscribe" in the overview of topics. Then you will get a notification by
-e-mail or in your "[Subscriptions](Personal+menu+and+general+components.html)"
+e-mail or in your "Personal Menu"
 in the "Personal Tools" section. It does not matter whether a new post was
 posted by a registered OpenOlat user or a guest.
 

@@ -9,16 +9,16 @@ Im Kurseditor konfigurieren Sie Ihren Podcast.
 Wenn Sie einen neuen Kursbaustein Podcast Ihrem Kurs hinzugefügt haben, können
 Sie als erstes
 
-  * eine bereits erstellte Lernressource Podcast auswählen,
-  * einen neuen Podcast erstellen oder
-  * einen Podcast importieren
+* eine bereits erstellte Lernressource Podcast auswählen,
+* einen neuen Podcast erstellen oder
+* einen Podcast importieren
 
-Siehe Schritt 2 der [4-Schritte Anleitung](Podcast+erstellen.html). Wurde
+Siehe Schritt 2 der [4-Schritte Anleitung](Four_Steps_to_Your_Podcast.de.md). Wurde
 bereits eine Verknüpfung zu einer Lernressource Podcast hergestellt, kann
 diese ausgewechselt oder editiert werden (siehe Schritt 3 der [4-Schritte
 Anleitung](Podcast+erstellen.html)).
 
-###  Externen Podcast einbinden
+### Externen Podcast einbinden
 
 Sie können den Podcast-Kursbaustein auch dazu verwenden, einen externen
 Podcast einzubinden. Wählen Sie beim erstmaligen Editieren des Podcasts „Einen
@@ -78,4 +78,3 @@ Kommentare und Sternchenbewertungen zu jeder Mediendatei hinterlassen. Darüber
 hinaus können sie die Podcast Episoden auch per RSS-Feed abonnieren.  Auf der
 Startseite des Podcasts finden Sie verschiedene Möglichkeiten, den Podcast
 über die Feed-URL in einem Portal wie iTunes zu abonnieren.
-

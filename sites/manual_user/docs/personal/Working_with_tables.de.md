@@ -1,10 +1,8 @@
 # mit Tabellen arbeiten
 
-Die Tabellen im Bereich [Kurse ](../catalog/Finding_courses.de.md)und im [Autorenbereich
-](Autorenbereich.html)(für Autoren) bieten verschiedene Filter- und
+Die Tabellen im Bereich [Kurse ](../catalog/Finding_courses.de.md)und im [Autorenbereich](../authoring/index.de.md)(für Autoren) bieten verschiedene Filter- und
 Einstellungsoptionen.
 
-  
 
 ## Das Filtermenü
 
@@ -44,9 +42,7 @@ Klicken Sie auf die Option "alle Filter", um alle verfügbaren Filteroptionen
 im Vollbildmodus anzuzeigen. Dort können Sie die einzelnen Filter auch
 einstellen.
 
-![](assets/Filtermenü_Tabelle.png)
-
-  
+![filtermenu](assets/Filtermenü_Tabelle.png)
 
 ## Filter-Tabs
 
