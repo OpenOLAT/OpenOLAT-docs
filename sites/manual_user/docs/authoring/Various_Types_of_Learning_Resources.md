@@ -4,7 +4,7 @@ OpenOlat comprises different types of learning resources. With the exception
 of courses they have in common that they can be embedded into one or more
 courses. The following learning resources can be created directly in OpenOlat.  
 
-![](assets/create161a.png)  
+![icon](assets/create161a.png) 
 
 In addition, other formats such as SCORM, IMS QTI 1.2 tests and other files
 such as movies, animations, PowerPoint, images, music, PDF, Excel, Word files
@@ -12,8 +12,7 @@ can be imported as learning resources.
 
 In the following the learning resources are briefly described:
 
-## Course
-![](assets/course.png)
+## Course ![icon](assets/course.png){class="size16"}
 
 An OpenOlat course can accompany lectures, seminars or tutorials and represent
 diverse didactic concepts such as group puzzles or problem-based learning.
@@ -26,8 +25,7 @@ course editor can be found in the chapter ["Types of Course Element"](../course_
 
   
 
-## Test (QTI 2.1)
-![](assets/test.png)
+## Test (QTI 2.1) ![icon](assets/test.png){class="size16"}
 
 Tests can be used for examinations or exercises in general. In the first case
 course authors can see all test results along with corresponding test
@@ -41,8 +39,7 @@ online.
 More information on using and creating tests can be found in the chapter
 "[Creating Tests"](../tests/index.md).
 
-## CP Learning Content
-![](assets/content.png)
+## CP Learning Content ![icon](assets/content.png){class="size16"}
 
 Content Packaging (abbr.: CP) is a kind of learning content in standardized
 e-learning format. The specification of this format also comes from
@@ -53,8 +50,7 @@ be used in OpenOlat but in other LMS as well. Further information on
 generating Content Packages can be found in the chapter 
 ["Creating CP Learning Content"](../resource_cp/index.md).
 
-## Wiki
-![](assets/wiki.png)
+## Wiki![icon](assets/wiki.png){class="size16"}
 
 Wikis are particularly suited for creating content jointly in an easy way. A
 Wiki can be used for working in groups, as documentation tool or as knowledge
@@ -66,7 +62,7 @@ to generate content within a Wiki will be explained in the chapter "Learning Act
 ["Wiki"](../learning_activities/Working_with_Wiki.md).
 
 ## Podcast
-![](assets/podcast.png)
+![icon](assets/podcast.png){class="size16"}
 
 A podcast allows you to upload audio or video files that can later be made
 available in OpenOlat. Podcasts can either be accessed directly in OpenOlat or
@@ -81,7 +77,7 @@ how to use podcasts as course participant will be explained in the chapter
 ["Podcast"](../learning_activities/Working_With_Course_Elements.md#podcast).
 
 ## Blog
-![](assets/blog.png)
+![icon](assets/blog.png){class="size16"}
 
 In a blog you can easily publish or update personal as well as professional
 information. Blogs are often used as a kind of diary or journal. Course
@@ -96,7 +92,7 @@ Activities in Courses," section
   
 
 ## Resource Folder
-![](assets/sharedfolder.png)
+![icon](assets/sharedfolder.png){class="size16"}
 
 With the help of the resource folder, files (content, information, graphics,
 etc.) can be used in multiple courses. In doing so, the files are referenced
@@ -110,7 +106,7 @@ per course. Further information can be found in the chapter
 submenu "Resource folder".
 
 ## Form
-![](assets/formular_434343_64.png)
+![icon](assets/formular_434343_64.png){class="size16"}
 
 A form is usually used to collect data, for example for event evaluation. Each
 course participant can fill out the same questionnaire only once. The results
@@ -120,7 +116,7 @@ see the chapter [Creating questionnaires](../forms/index.md).
   
 
 ## Portfolio 2.0 Template
-![](assets/portfolio_434343_64.png)
+![icon](assets/portfolio_434343_64.png){class="size16"}
 
 A Portfolio 2.0 template contains tasks that can be used as part of a
 portfolio assessment and entered into an OLAT course as a portfolio task. With
@@ -132,7 +128,7 @@ and edit. Further information on the [Portfolio Template](../portfolio/Portfolio
 corresponding chapter.
 
 ## Glossary
-![](assets/glossary.png)
+![icon](assets/glossary.png){class="size16"}
 
 In the glossary terms will be defined. As soon as those terms are used within
 learning content a student will see their explanation. Additionally you can
@@ -150,7 +146,7 @@ How to use your glossary within a course will be explained in the chapter "Learn
 ## Other learning resources:
 
 ### SCORM Learning Content
-![](assets/scorm.png)
+![icon](assets/scorm.png){class="size16"}
 
 Another standardized e-learning format supported by OpenOlat is the SCORM
 format (version 1.2). SCORM is short for "Sharable Content Object Reference
@@ -164,7 +160,7 @@ in other LMS.
 SCORM modules cannot be created in OpenOlat, only imported.
 
 ### Video
-![](assets/video_64_0_434343_none.png)
+![icon](assets/video_64_0_434343_none.png){class="size16"}
 
  A video is a learning content in the MPEG-4 format with the file extension
 .mp4, and is used for audio and video playback. OpenOlat supports subtitles in

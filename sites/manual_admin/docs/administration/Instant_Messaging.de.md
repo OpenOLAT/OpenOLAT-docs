@@ -40,5 +40,5 @@ Statussymbols eine Sprechblase. Die Benutzer wissen dann nicht ob ihre
 Nachricht unmittelbar verschickt werden kann.
 
 Weitere Informationen zur Anwendung des Instant-Messaging Moduls finden Sie
-hier: [Chat](../../manual_user/personal/Chat.de.md)
+hier: [Chat](../../../manual_user/docs/personal/Chat.de.md)
 

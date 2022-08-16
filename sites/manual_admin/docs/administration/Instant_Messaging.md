@@ -33,5 +33,5 @@ status for group peers and online users. When disabled a chat icon appears
 instead of the status icon.
 
 More information about the usage of the Instant-Messaging module can be found
-here: [Chat](../../manual_user/personal/Chat.de.md)
+here: [Chat](../../../manual_user/docs/personal/Chat.md)
 

@@ -164,14 +164,12 @@ SCORM-Module können in OpenOlat nicht erstellt, sondern nur importiert werden.
 ![](assets/video_64_0_434343_none.png)
 
   
-
 Ein Video ist ein Lerninhalt im MPEG-4 Format mit der Dateiendung MP4. Die
 Lernressource Video kann in OpenOLAT durch importieren oder importieren URL
 hinzugefügt werden und anschließend weiter konfiguriert werden. OpenOlat
 unterstützt die Anzeige von Untertiteln in mehreren Sprachen, integrierte
 Quizzes, Anmerkungen und Sprungmarken. Generelle Informationen zu
-Videoformaten und Upload in OpenOlat finden Sie im Kapitel "[Video
-erstellen](../resource_video/index.de.md)".
+Videoformaten und Upload in OpenOlat finden Sie im Kapitel "[Video erstellen](../resource_video/Learning_resource_Video.de.md)".
 
 ## Lernressourcen vom Typ Datei und andere Dateien
 
