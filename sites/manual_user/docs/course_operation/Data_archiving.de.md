@@ -1,7 +1,5 @@
 # Datenarchivierung
 
-##
-
 Das Datenarchivierungswerkzeug findet man in der Administration von Kursen.
 Über die Datenarchivierung können Kursbesitzer die Ergebnisse diverser
 Kursbausteine eines Kurses gespeichert werden. Insbesondere die Speicherung
@@ -19,11 +17,11 @@ einen bestimmten Kursbausteintyp, wählen dann ein konkretes Element aus, das
 Sie archivieren wollen und klicken auf "Archivieren".  Bei Speicherungen die
 länger dauern, wie bei den Logfiles, wird der User per Mail informiert.
 
-## Datenarchivierung von einzelnen Elementen:
+## Datenarchivierung von einzelnen Elementen
 
 ### Fragebogen
 
-Speicherung der alten Fragebögen
+Speicherung der alten Fragebögen.
 
 ### Umfragen
 
@@ -139,7 +137,6 @@ Wenn Sie einen Kurs löschen, werden automatisch alle Kursdaten (nicht die
 Kursbausteine!) in Ihrem persönlichen Ordner gespeichert.
 
 Weitere Details zu den aufgezeichneten Logfiles erfahren Sie im Kapitel
-„[Aufzeichnung der
-Kursaktivitäten](../../pages/viewpage.action%EF%B9%96pageId=60358847.html)".
+„[Aufzeichnung der Kursaktivitäten](Record_of_Course_Activities.de.md)".
 
 Über die Rechtevergabe in der [Mitgliederverwaltung](Members_management.de.md) kann auch weiteren Personen das Recht für die gesamte Datenarchivierung gegeben werden.
