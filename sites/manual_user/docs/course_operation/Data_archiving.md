@@ -19,12 +19,11 @@ e.g. for log files.
 
 ### Questionnaires
 
-Storage of old [questionnaires](Old+Questionnaire+Editor+QTI+1.2.html)  
+Storage of old questionnaires.
 
 ### Surveys
 
- All surveys of the course are displayed. The desired
-[questionnaires](General+information+on+Questionnaires.html) to be archived
+ All surveys of the course are displayed. The desired survey to be archived
 can be selected and saved as a zip file.  
 
 ### Tests
@@ -112,7 +111,8 @@ of the people who completed the checklists.
 ### Chat history
 
 Here the chat history can be exported as xlsx file and also
-deleted.  
+deleted.
+
 ### Bookings
 
 Here the people who have booked the course are displayed, if the course has a booking method.  
@@ -120,6 +120,6 @@ Here the people who have booked the course are displayed, if the course has a bo
 When you delete a course, all course data (not the course elements!) are
 automatically saved in your personal folder.
 
-For more details about the recorded log files, see the chapter " [Record of course activities](Record_of_Course_Activities.md)".
+For more details about the recorded log files, see the chapter "[Record of course activities](Record_of_Course_Activities.md)".
 
 Via the assignment of rights in the [member administration](Members_management.md), other persons can also be given the right for the entire data archiving.

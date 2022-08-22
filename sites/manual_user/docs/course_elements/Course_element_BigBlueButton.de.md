@@ -1,10 +1,13 @@
 # Kursbaustein BigBlueButton
 
-**Art der Software**|  OpenSource GNU Lesser General Public License (LGPL),
-Serverhosting erforderlich  
----|---
+## Allgemeines
 
-## Funktionen der Software  
+!!! info "Hinweis"
+
+    BigBlueButton ist eine Open Source Software (LPGL Lizenz). Um den Kursbaustein zu nutzen ist ein separates Serverhosting erforderlich.
+    BigBlueButton Anbieter-Webseite: <https://bigbluebutton.org/>
+
+### Funktionen der Software  
 
 BigBlueButton ermöglicht virtuelle Klassenräume mit folgenden
 Funktionalitäten:
@@ -14,14 +17,14 @@ Funktionalitäten:
   * Screensharing
   * Multi-User Whiteboard
   * Umfrage-Funktionen
-  * Gruppenräume
-  * Gruppenchat, privater Chat und gemeinsame Notizen
+  * Gruppenräume, Gruppenchat
+  * Privater Chat 
+  * Gemeinsame Notizen
 
   
-## Systemvoraussetzungen
+### Systemvoraussetzungen
 
-BigBlueButton ist eine browserbasierte Software-Lösung und benötigt keine
-zusätzlichen Plugins.  
+BigBlueButton ist eine browserbasierte Software-Lösung und benötigt keine zusätzlichen Plugins oder Installationen durch den User. 
 Für den vollen Funktionsumfang (für Betreuer und Teilnehmende) wird **Google
 Chrome** oder **Mozilla Firefox** empfohlen. Unter Windows kann die neue
 Version von **Edge** **mit Chromium Engine** ebenfalls verwendet werden. Für
@@ -31,65 +34,66 @@ Chrome**.
   
 ## Konfiguration im Kurseditor
 
-Bei der Einbindung von BigBlueButton im Kurs kann entschieden werden, ob ein
-geplantes Online-Meeting nur durch den Moderator oder auch durch Teilnehmer
-gestartet werden kann. Bei aktivierter Option können Teilnehmer das Meeting
-erst betreten, wenn der Moderator das Meeting gestartet hat.
+Bei der Einbindung von BigBlueButton im Kurs kann entschieden werden, ob die Meetings die mit dem Kursbaustein eingerichtet werden nur durch die Moderatoren (entspricht den Kursbesitzern und Betreuern des Kurses) oder auch durch Teilnehmende gestartet werden kann. Bei aktivierter Option können Teilnehmende das Meeting erst betreten, wenn der Moderator das Meeting gestartet hat.
 
-![kurseditor.png](assets/OpenOlat - Testkurs Rico - Kurseditor 2020-04-07 13-19-07.png)  
-  
-# Raum erstellen
+![kurseditor.png](assets/OpenOlat - Testkurs Rico - Kurseditor 2020-04-07 13-19-07.png) 
 
-## Konfiguration im Kursrun für Betreuer und Besitzer
+## Räume erstellen, konfigurieren und betreten 
 
-Im Kurs können Kursbesitzer und Betreuer im BigBlueButton-Baustein in der
-"Terminverwaltung" über "Online-Termin hinzufügen" neue Termine anlegen. Auch
+Folgende Einstellungen erfolgen bei geschlossenem Editor. 
+
+### Tab "Terminverwaltung"
+
+Im Tab "Terminverwaltung" können vom Kursbesitzer neue Räume angelegt und konfiguriert werden. Auch
 können bereits angelegte Termine kopiert oder gelöscht werden.
 
 ![terminverwaltung.png](assets/image2020-4-7_13-29-23.png)
 
-!!! tip "Folgende Varianten bei der Erstellung von Online-Terminen werden unterschieden:"
+Folgende Varianten (Räume bzw. Termine) können erstellt werden:  
 
-    * Einzelnen Online-Termin hinzufügen
-    * Permanente Reservierung hinzufügen
-    * Täglich wiederkehrende Online-Termine hinzufügen
-    * Wöchentlich wiederkehrende Online-Termine hinzufügen
+* **Einzelnen Online-Termin hinzufügen.**
+  Bietet sich z.B. an, wenn es nur einen konkreten Termin für den Kursbaustein geben soll
+* **Permanente Reservierung hinzufügen**
+  Sollte verwendet werden, wenn man einen BBB-Raum haben möchte, der permanent zur Verfügung steht und mehrfach genutzt werden soll.
+* **Täglich wiederkehrende Online-Termine hinzufügen**
+  Um schnell tägliche Termine zu erstellen.
+* **Wöchentlich wiederkehrende Online-Termine hinzufügen**
+  Um schnell wöchentliche Termine, z.B. für Webinar-Serien oder ein Semester zu erstellen.
 
 Die Varianten unterscheiden sich nur in der Erstellung der Termine. Es werden
-separate Online-Termine/Reservierungen erstellt, welche anschliessend separat
-bearbeitet werden können. Je nach Konfiguration des Servers können hier auch
+separate Online-Termine/Reservierungen erstellt, welche anschliessend einzeln bearbeitet werden können. Je nach Konfiguration des Servers können hier auch
 unterschiedliche Auswahlmöglichkeiten bereitstehen.  
 
 ![online_termin_hinzufugen.png](assets/bbb_erstellen.png)
 
-# Online-Termin hinzufügen: Die Einstellungen im Detail
+Folgende Detaileinstellungen können dabei vorgenommen werden: Die Einstellungen im Detail:
 
-## Konfiguration Online-Termin
+**Konfiguration Online-Termin**
 
-  *  **Name** : Bezeichnung des Termins
+  *  **Name**: Bezeichnung des Termins
   *  **Erstellt durch:** Der Name des Erstellers wird automatisch angezeigt.
-  *  **Beschreibung** : Beschreibung des Termins, was ist der Inhalt bzw. das Thema der synchronen Session?
-  *  **Begrüssungstext** : Der Text wird im BigBlueButton-Raum als Willkommensnachricht im Chatbereich für alle Teilnehmenden angezeigt
-  *  **Hauptmoderator:** Hier kann der Name einer Person eingetragen werden.
+  *  **Beschreibung**: Beschreibung des Termins, was ist der Inhalt bzw. das Thema der synchronen Session?
+  *  **Begrüssungstext**: Der Text wird im BigBlueButton-Raum als Willkommensnachricht im Chatbereich für alle Teilnehmenden angezeigt
+  *  **Hauptmoderator**: Hier kann der Name einer Person eingetragen werden.
   *  **Präsentationsfolien hochladen:** Laden Sie Ihre Folien bereits im Vorfeld des Meetings hier hoch oder löschen Sie bereits hochgeladene Folien.
-  *  **Rau** **mvorlage** : Auswahl der konfigurierten Raumvorlagen (bestimmt Anzahl Teilnehmende und diverse Voreinstellungen im Online-Meeting). Die Details hängen von der Konfiguration des BigBlueButton Servers ab.
+  *  **Raumvorlage**: Auswahl der konfigurierten Raumvorlagen (bestimmt Anzahl Teilnehmende und diverse Voreinstellungen im Online-Meeting). Die Details hängen von der Konfiguration des BigBlueButton Servers ab.
   *  **Bevorzugter Server:** Wird in der Regel automatisch gewählt.
   *  **Aufzeichnungen des Online-Termins zulassen:** ja oder nein
   *  **Aufnahme automatisch veröffentlichen für:** Wählen Sie hier die Benutzergruppen denen Sie die die Aufzeichnung später bereitstellen möchten.
   *  **Benutzer bei Eintritt akzeptieren (Warteraum):** Hier kann entschieden werden ob Personen zunächst in einem Warteraum landen und nicht sofort in den Meeting-Raum gelangen. Wählt man "abgeschaltet" gelangen alle Personen direkt im Meeting-Raum. Alternativ kann hier auch konfiguriert werden, dass jeder (alle Benutzer) im Warteraum landet oder nur Gäste und externe Personen und die Kursteilnehmenden dagegen direkt in den Meeting-Raum gelangen können.
   *  **Darstellung:** Standard oder Webcam Termin (abhängig von der Konfiguration durch den BBB Administrator)
-  *  **Zugang externe Benutzer:** Sofern dieses Option vom Administrator erlaubt wurde kann hier die URL angepasst werden, die Sie an die externen Benutzer versenden können. Der Link erscheint anschließend auch für Kursbesitzer und Betreuer bevor der Raum betreten wird. Teilnehmer sehen den Link nicht.
-  *  **Passwort für externe Benutzer:** Hinterlegen Sie hier ein Passwort, das Gäste, also Personen ohne OpenOlat Account eingeben müssen um  in den Raum zu gelangen.
-  *  **Raumbuchungen anzeigen** : Kalenderansicht zur Prüfung von belegten Online-Meetings
+  *  **Zugang externe Benutzer:** Sofern diese Option vom Administrator erlaubt wurde kann hier die URL angepasst werden, die Sie an die externen Benutzer versenden können. Der Link erscheint anschließend auch für Kursbesitzer und Betreuer bevor der Raum betreten wird. Teilnehmende sehen den Link nicht.
+  *  **Passwort für externe Benutzer:** Hinterlegen Sie hier ein Passwort, das Gäste, also Personen ohne OpenOlat Account, eingeben müssen um in den Raum zu gelangen.
+  *  **Raumbuchungen anzeigen**: Kalenderansicht zur Prüfung von belegten Online-Meetings
 
-### Nur bei termingebundenen Räumen:
+Nur bei termingebundenen Räumen:
 
-  *  **Beginn** : Geben Sie den Starttermin ein.
-  *  **Vorlaufzeit (Min.)** : 0 bis 15 Minuten konfigurierbare Vorlaufzeit, in der das Meeting bereits von den Kursbetreuern und Besitzern, nicht aber von Teilnehmenden, gestartet werden kann z.B. um eine Präsentation bereitzustellen.
-  *  **Ende** : Ende des Meetings - die maximale Laufzeit eines Meetings ist abhängig von der gewählten Raumvorlage
-  *  **Nachlaufzeit (Min.)** : 0 bis 15 Minuten konfigurierbare Nachlaufzeit. Das Meeting wird nach Erreichen der Endzeit automatisch für alle Personen um die Nachlaufzeit verlängert, es erscheint eine Anzeige mit der verbleibenden Konferenzzeit.
+  *  **Beginn**: Geben Sie den Starttermin ein.
+  *  **Vorlaufzeit (Min.)**: 0 bis 15 Minuten konfigurierbare Vorlaufzeit, in der das Meeting bereits von den Kursbetreuern und Besitzern, nicht aber von Teilnehmenden, gestartet werden kann z.B. um eine Präsentation bereitzustellen.
+  *  **Ende**: Ende des Meetings - die maximale Laufzeit eines Meetings ist abhängig von der gewählten Raumvorlage
+  *  **Nachlaufzeit (Min.)**: 0 bis 30 Minuten konfigurierbare Nachlaufzeit. Das Meeting wird nach Erreichen der Endzeit automatisch für alle Personen um die Nachlaufzeit verlängert, es erscheint eine Anzeige mit der verbleibenden Konferenzzeit.
 
-### Nur bei wiederkehrenden Terminen:
+Nur bei wiederkehrenden Terminen:
 
   * Start wiederkehrendes Datum: 1. Online-Termin (bei wöchentlicher Wiederholung entspricht dies dem Wochentag der Serie)
   * Ende wiederkehrendes Datum: Ende der wiederkehrenden Termine
@@ -98,45 +102,37 @@ Bei wiederkehrenden Terminen können im zweiten Prozessschritt "Datum" die
 Termine vor der Erstellung bearbeitet/gelöscht oder mit freien Daten ergänzt
 werden.
 
-## BigBlueButton für Gäste (OpenOlat Gastzugang, externe Teilnehmende):
-
-Je nach Konfiguration der BigBlueButton Vorlage kann der Konferenz-Raum auch
-nicht registrierten Personen ohne Zugang zu OpenOlat, also Externen (siehe
-[G](https://confluence.openolat.org/display/OO152DE/Gastzugang)[astzugang](https://confluence.openolat.org/display/OO152DE/Gastzugang)),
-zugänglich gemacht werden. Voraussetzung dafür ist, dass es sich um einen
-herkömmlichen, keinen Lernpfad Kurs handelt und der Kurs selbst auch für Gäste
-freigeschaltet wurde.  Gäste können bei der Einwahl einen beliebigen Namen
-eingeben.
-
-![BBB_externe.png](assets/bbb_externe2.png)
-
-  
-
 !!! warning "Achtung" 
 
     Sobald ein BigBlueButton-Meeting gestartet, d.h. der Online-Raum geöffnet wurde, können die Einstellungen am Meeting-Termin nicht mehr bearbeitet werden!
 
-## Im Kalender anzeigen
+### Tab "Online-Termine"
 
-Die erfassten Online-Termine sind bei aktiviertem Kurskalender ebenfalls als
-Termin vorhanden und können von Teilnehmenden im persönlichen Kalender
-abonniert werden.
+Über den Tab "Online-Termine" erhält man Zugang zu einem bestimmten Termin bzw. Raum.
 
-Über den Tab "Online-Termine" erhält man Zugang zu einem bestimmten Termin
-bzw. Raum.
-
-Kursbesitzer und Kursbetreuer können bereits im Vorfeld ihre Präsentation(en)
-hochladen, so dass sie bei Beginn des Meetings zur Verfügung stehen. Direkt
-angezeigt wird das oberste Dokument der Liste.
+Kursbesitzer und Kursbetreuer können bereits im Vorfeld ihre Präsentation(en) hochladen, so dass sie bei Beginn des Meetings zur Verfügung stehen. Direkt angezeigt wird das oberste Dokument der Liste.
 
 ![BBB_präsentation.png](assets/BBB_praesentation.png)
 
-  
+ 
+#### Aufzeichnungen
+
+Die Aufzeichnungen eines Meetings findet man ebenfalls im Tab **"Online-Termine"**. Automatisch
+bereitgestellte Meetings sind hier direkt wählbar. Erfolgt die Bereitstellung manuell, können zunächst nur Besitzer und Betreuer nun die Aufzeichnungen sehen und definieren, für welche Zielgruppe die Aufzeichnung bereitgestellt werden soll. Je nach Server Konfiguration kann auch ein Download einer Aufzeichnung angeboten werden.
+
+!!! warning "Achtung"
+
+    Die vorgenommenen Einstellungen unter "publizieren" als auch unter "löschen" gelten grundsätzlich sowohl für die Aufzeichnung als auch den Download! Löscht man also einen Eintrag wird die gesamte Aufzeichnung gelöscht.
 
   
-  
+
+![BBB_manuall_publizieren.png](assets/bbb_manuell_publizieren.png)  
+
+
   
 ## Kalender Anzeige
+
+Sofern es einen Kalender im Kurs gibt, erscheinen die BigBlueButton Termine ebenfalls im Kalender.
 
 In der Konfiguration eines Raums kann sowohl während der Erstellung als auch
 später beim editieren über den Link "Raumbuchungen anzeigen", eine Übersicht
@@ -150,28 +146,12 @@ Kursmitglieder rasch in den entsprechend verlinkten BigBlueButton Raum.
 
 ![kalender.png](assets/image2020-4-7_14-14-5.png)  
   
-## Aufzeichnungen
-
-Die Aufzeichnungen eines Meetings findet man im Tab **"Online-Termine" →
-"Aufzeichnungen"**. Wählen sie hier das passende Meeting aus. Automatisch
-bereitgestellte Meetings sind hier direkt wählbar. Erfolgt die Bereitstellung
-manuell, können Besitzer und Betreuer nun definieren, für welche Zielgruppe
-die Aufzeichnung bereitgestellt werden soll. Je nach Server Konfiguration kann
-auch ein Download einer Aufzeichnung angeboten werden.
-
-!!! warning "Achtung"
-
-    Die vorgenommenen Einstellungen unter "publizieren" als auch unter "löschen" gelten grundsätzlich sowohl für die Aufzeichnung als auch den Download! Löscht man also einen Eintrag wird die gesamte Aufzeichnung gelöscht.
-
-  
-
-![BBB_manuall_publizieren.png](assets/bbb_manuell_publizieren.png)  
   
 ## Teilnehmerperspektive
 
 Ruft ein Kursteilnehmer einen BigBlueButton Kursbaustein auf, sieht er eine
 Übersicht der aktuellen, der abgelaufenen und der permanenten Räume, sofern
-vorhanden.  Ein Klick auf "Auswählen" führt zum Login-Bereich des jeweiligen
+vorhanden. Ein Klick auf "Auswählen" führt zum Login-Bereich des jeweiligen
 Raums.
 
 ![BBB_ubersicht.png](assets/BBB_Uebersicht.png)
@@ -196,7 +176,16 @@ der Personenliste angezeigt.
 Je nach Raumeinstellung stehen unterschiedliche Möglichkeiten im Raum zur
 Verfügung.  
   
-!!! note "Link zu weiteren Infos"
 
-    BigBlueButton Anbieter-Webseite: <https://bigbluebutton.org/>
+## BigBlueButton für Gäste 
 
+Je nach Konfiguration der BigBlueButton Vorlage können Konferenz-Räume auch für nicht in OpenOlat registrierte Personen, also Externe bzw. Gäste (siehe
+[Gastzugang](https://confluence.openolat.org/display/OO152DE/Gastzugang)), zugänglich gemacht werden. Voraussetzung dafür ist, dass es sich um einen herkömmlichen Kurs (keinen Lernpfad Kurs) handelt und der Kurs selbst auch für Gäste freigeschaltet wurde. Gäste können dann bei der Einwahl in den Raum einen beliebigen Namen eingeben.
+
+Der Gastlink erscheint dann ebenfalls für Kursbesitzer und Betreuer bevor sie den Raum beteten.
+Zusätzlich kann während der Konfiguration des Raums ein Passwort für Gäste generiert werden.
+
+![BBB_externe.png](assets/bbb_externe2.png)
+
+
+  

@@ -10,7 +10,7 @@
 
 Mit OpenOlat 17.0 geben wir unseren nächsten Major Release frei.
 
-Um den Wissenstransfer zu unterstützen, stellt der neue **Kursbaustein "Üben"** mit Lernkarten-Logik eine attraktive Alternative zu Tests und Selbsttest dar. Neben dem neuen Fragetyp **"Lückentext mit Dropdown"** sowie der Berücksichtigung von Testzeit-Verlängerungen und Nachteilsausgleich beim automatischen Prüfungsmodus wurden weitere Verbesserungen im Bereich eTesting umgesetzt. Im **Katalog 2.0** steht das Konzept "Suchen und Filtern" im Vordergrund sowie die optimierte und strukturierte **Darstellung des Angebots** durch Verknüpfung mit einer Taxonomie. Die **überarbeitete Freigabe- und Buchungskonfiguration** in Kursen ermöglicht es, das **Angebot organisationsspezifisch** zu präsentieren. **Externe Benutzer** können via Einladung gezielt Zugriff auf bestimmte Kurse und Gruppen erhalten. Die **Zoom-Integration** erweitert die Palette der Videokonferenztools, die in Kursen und Gruppen eingesetzt werden können. Vor allem der **Aufgabenbaustein** und die **Ordner-Komponente** wurden in Darstellung und Usability optimiert. Zudem werden weitere **OAuth Login-Provider** unterstützt.
+Um den Wissenstransfer zu unterstützen, stellt der neue **Kursbaustein "Übung"** mit Lernkarten-Logik eine attraktive Alternative zu Tests und Selbsttest dar. Neben dem neuen Fragetyp **"Lückentext mit Dropdown"** sowie der Berücksichtigung von Testzeit-Verlängerungen und Nachteilsausgleich beim automatischen Prüfungsmodus wurden weitere Verbesserungen im Bereich eTesting umgesetzt. Im **Katalog 2.0** steht das Konzept "Suchen und Filtern" im Vordergrund sowie die optimierte und strukturierte **Darstellung des Angebots** durch Verknüpfung mit einer Taxonomie. Die **überarbeitete Freigabe- und Buchungskonfiguration** in Kursen ermöglicht es, das **Angebot organisationsspezifisch** zu präsentieren. **Externe Benutzer** können via Einladung gezielt Zugriff auf bestimmte Kurse und Gruppen erhalten. Die **Zoom-Integration** erweitert die Palette der Videokonferenztools, die in Kursen und Gruppen eingesetzt werden können. Vor allem der **Aufgabenbaustein** und die **Ordner-Komponente** wurden in Darstellung und Usability optimiert. Zudem werden weitere **OAuth Login-Provider** unterstützt.
 
 ![Anzahl Features Bugs](assets/170/Features_Improvements_Labels_DE.png)
 
@@ -18,15 +18,13 @@ Seit Release 16.2 wurden über 70 neue Funktionen und Verbesserungen zu OpenOlat
 
 * * *
 
-<!--
-<iframe width="560" height="315" src="https://www.youtube.com/embed/nZ_zskD6R60" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nduDDysYzws" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 * * *
--->
 
-## Neuer Kursbaustein "Üben"
+## Neuer Kursbaustein "Übung"
 
-Ganz im Sinne von "Übung macht den Meister!" dient der neue Kursbaustein "Üben" vor allem dem Wissenstransfer und der Selbstüberprüfung.
+Ganz im Sinne von "Übung macht den Meister!" dient der neue Kursbaustein "Übung" vor allem dem Wissenstransfer und der Selbstüberprüfung.
 
 #### Sicht Teilnehmende
 

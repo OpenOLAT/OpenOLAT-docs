@@ -15,14 +15,11 @@ somit in einen konkreten Bildungskontext gesetzt werden.
 Die Erstellung und Verwaltung von Curricula und Curriculumelementen obliegt
 folgenden Rollen:
 
-  * Curriculumverwalter
-  * Curriculumbesitzer
-  * Curriculumelementbesitzer
+* Curriculumverwalter
+* Curriculumbesitzer
+* Curriculumelementbesitzer
 
-Detaillierte Informationen zu den Rollen finden Sie
-[hier](Benutzerverwaltung.html).
-
-  
+Detaillierte Informationen zu den Rollen finden Sie [hier](../../manual_admin/usermanagement/index.de.md).
 
 Die verschiedenen Curricula in OpenOlat werden in der Curriculumverwaltung
 administriert. Die Verwaltung der Curricula obliegt in der Regel dem
@@ -39,8 +36,6 @@ werden.
 
 ![](assets/Curriculum_Browser.png)
 
-  
-
 **Ebene Curriculumelement**
 
 Befindet man sich in einem Curriculum, wird dessen Baumstruktur im Curriculum
@@ -49,22 +44,18 @@ Curriculumtyp und Stundenplan ersichtlich.
 
 Darüber hinaus können folgende Daten in der Tabelle dargestellt werden:
 
-  *  **Ref.:** Zeigt an, wie viele welche Kurse diesem Curriculumelement zugeordnet sind.
-  *  **Mitglieder:** Zeigt die Anzahl aller zu diesem Element zugeordneten Mitglieder an.
-  *  **Teilnehmer:  **Zeigt die Anzahl aller zu diesem Element zugeordneten Teilnehmer (User) an.
-  *  **Betreuer:**  Zeigt die Anzahl aller zu diesem Element zugeordneten Betreuer an.
-  *  **Besitzer:**  Zeigt die Anzahl aller zu diesem Element zugeordneten Besitzer an.
+* **Ref.:** Zeigt an, wie viele welche Kurse diesem Curriculumelement zugeordnet sind.
+* **Mitglieder:** Zeigt die Anzahl aller zu diesem Element zugeordneten Mitglieder an.
+* **Teilnehmer:** Zeigt die Anzahl aller zu diesem Element zugeordneten Teilnehmer (User) an.
+* **Betreuer:** Zeigt die Anzahl aller zu diesem Element zugeordneten Betreuer an.
+* **Besitzer:** Zeigt die Anzahl aller zu diesem Element zugeordneten Besitzer an.
 
 ![](assets/Curriculum_Element.png)
-
-  
 
 ## Curriculum erstellen
 
 Zunächst muss ein Curriculum als oberste Ebene erstellt werden. Diesem können
 anschliessend Curriculumelemente untergeordnet werden.
-
-  
 
 Über «Neues Curriculum erstellen» kann neben der Bezeichnung und dem Namen
 auch eine Beschreibung eingetragen werden. Ausserdem kann die Verknüpfung zu
@@ -74,11 +65,7 @@ Zugriff hat.
 
 Ist das Curriculum erstellt, können die Curriculumelemente angelegt werden.
 
-  
-
 ![](assets/Curr_Verw_NeuesCurr_DE.png)
-
-  
 
 ## Curriculum bearbeiten und Curriculumverwalter hinzufügen
 
@@ -99,12 +86,10 @@ Im Tab "Suchen" kann ausserdem nach Curriculumelementen gesucht werden,
 welchen beispielsweise ein bestimmter Kurs zugeordnet ist. In der "Erweiterten
 Suche" können die Suchkriterien weiter eingeschränkt werden.
 
-  
-
 ## Curriculumelement erstellen
 
-  * Über «Neues Element erstellen» wird ein neues Element angelegt.
-  * Ein neues Unterelement kann über das 3-Punkte Menü -> "Neues Unterelement erstellen" angelegt werden.
+* Über «Neues Element erstellen» wird ein neues Element angelegt.
+* Ein neues Unterelement kann über das 3-Punkte Menü -> "Neues Unterelement erstellen" angelegt werden.
 
 Es kann neben der Bezeichnung und dem Namen auch eine Beschreibung eingetragen
 werden. Dem Curriculumelement kann ausserdem ein Curriculumtyp zugeordnet
@@ -119,8 +104,6 @@ werden.
 
 ![](assets/CurrV_Neues_Element_DE.png)
 
-  
-
 ## Curriculumelement bearbeiten
 
 Mit Klick auf das Curriculum bzw. über das 3-Punkte Menü kann das
@@ -128,11 +111,7 @@ Curriculumelement weiter editiert werden. Es ist auch möglich, das Element im
 Curriculum zu verschieben, ein neues Unterelement zu erstellen oder das
 Element zu löschen.
 
-  
-
 ![](assets/Curriculumelement_bearbeiten.png)
-
-  
 
 ### Metadaten bearbeiten
 
@@ -157,16 +136,12 @@ alle Kurse, die mit dem jeweiligen Curriculum verbunden sind.
 
 Unter "Benutzer hinzufügen" stehen folgende Rollen zur Verfügung:
 
-  * Elementbesitzer
-  * Klassenlehrer
-  * Kursbesitzer
-  * Betreuer
-  * Teilnehmer
-
-  
-
-  
+* Elementbesitzer
+* Klassenlehrer
+* Kursbesitzer
+* Betreuer
+* Teilnehmer
 
 ![](assets/Curriculum_Benutzer_hinzufuegen.png)
-![](assets/Curriculum_Benutzer_hinzufuegen1.png)
 
+![](assets/Curriculum_Benutzer_hinzufuegen1.png)
