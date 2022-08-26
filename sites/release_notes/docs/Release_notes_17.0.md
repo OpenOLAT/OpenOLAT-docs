@@ -1,4 +1,4 @@
-# Release notes 17.0 - work in progress
+# Release notes 17.0
 
 ![Release image](assets/170/press-release-17.0.png)
 
