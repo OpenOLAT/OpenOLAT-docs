@@ -10,39 +10,35 @@ administrator of the OpenOlat instance. It is also possible to configure which
 OpenOlat areas guests have access to and which not. These basic settings can
 only be made by the system administrator.
 
-  
+Grundsätzlich können diverse Lernressourcen z.B.  Wikis, Blogs, Glossare, Tests, Videos oder Glossare für Gäste freigeschaltet werden.  
+
+## Course level
+
 !!! warning "Hinweis"
 
     Guest access can only be activated for conventional courses, not for learning path courses.
 
-
-## Course level
-
 In a course, the course owner can set up the access configuration in the
-"Settings"→ "Access" tab so that guests can also access the course.
-
-![](assets/guest_booking.png)
+"Settings"→ "Access" tab so that guests can also access the course. Als Einstellung muss dabei die Buchungsmethode aktiviert und in einem zweiten Schritt der Gastzugang ausgewählt werden.
 
 The following course elements can be seen by guests:
 
-  * **Read**: CP learning content, blog, wiki, forum, notifications, calendar, single page, external page, file dialog, link list
+  * **Read only**: CP learning content, blog, wiki, forum, notifications, calendar, single page, external page, file dialog, link list
   * **Forum**: In the course editor it can be defined by the course owner, if guests should be allowed to create forum entries
   * **Watch podcast and video**
-  * **Folder**: download files
   * **Participant folder**: same as normal user
   * **SCORM**: do
   * **Test**: do it depending on configuration
   * **Self-test**: do it (even if option is not selected)
+  * An **BigBlueButton**, **OpenMeetings** u.ä. Meetings teilnehmen
+  * **Umfragen** bearbeiten
 
 If you want to give a guest a direct access to a course, you can send him the
-external link for the course. It is important, that the course is activated
-for guests in the access configuration. The external link can be found on the
-info page of the course.
+external link for the course. 
 
 ![Info page](assets/guest_infopage.png)
 
   
-
 !!! info "Info"  
 
     Administrative settings are made by OpenOlat administrators in the section

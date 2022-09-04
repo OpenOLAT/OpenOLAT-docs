@@ -7,44 +7,40 @@ Gäste Zugang zum System erhalten. Gäste sind anonyme, nicht registrierte
 Benutzer, welche in der [Benutzerverwaltung](../../manual_admin/usermanagement/index.de.md) nicht
 verwaltet werden können.  
 
-Damit Gäste Zugang erhalten, muss der Gastlogin vom Administator der OLAT
+Damit Gäste Zugang erhalten, muss der Gastlogin vom Administrator der OpenOlat
 Instanz aktiviert werden. Auch kann konfiguriert werden auf welche OpenOlat
 Bereiche Gäste Zugriff haben und auf welche nicht. Diese Basis-Einstellungen
 sind nur durch den Systemadministrator möglich.
+
+Grundsätzlich können diverse Lernressourcen z.B.  Wikis, Blogs, Glossare, Tests, Videos oder Glossare für Gäste freigeschaltet werden.  
+
+## Kursbereich  
 
 !!! warning "Hinweis"
 
     Der Gastzugang ist nur bei herkömmlichen Kursen, nicht bei Lernpfad Kursen
     aktivierbar.
 
-## Kursbereich  
-
 In einem Kurs kann der Kursbesitzer die Zugangskonfiguration in den
-"Einstellungen"→ Tab "Freigabe" so einrichten, dass auch Gäste Zugriff auf den
-Kurs erhalten.
+"Einstellungen"→ Tab "Freigabe" so einrichten, dass auch Gäste Zugriff auf den Kurs erhalten. Als Einstellung muss dabei die Buchungsmethode aktiviert und in einem zweiten Schritt der Gastzugang ausgewählt werden.
 
-![](assets/Gastbuchung.png)
+Folgende Kursbausteine kann ein Gast sehen bzw. teilweise bearbeiten:
 
-Folgende Kursbausteine kann ein Gast sehen:
-
-  * **Lesen**: CP Lerninhalt, Blog, Wiki, Mitteilung, Kalender, Einzelseite, externe Seite, Dateidiskussion, Linkliste
+  * Nur **lesen**: CP Lerninhalt, Blog, Wiki, Mitteilung, Kalender, Einzelseite, externe Seite, Dateidiskussion, Linkliste
   * **Forum**: Der Kursitzer kann im Kurseditor einstellen, ob auch Gäste Forenbeiträge erstellen dürfen
   * **Podcast und Video** schauen
   * **Ordner**: Dateien herunterladen
-  * **Teilnehmer Ordner**: gleich wie normaler Benutzer (hochladen etc)
   * **SCORM**: durchführen
   * **Test**: je nach Konfiguration durchführen
   * **Selbsttest**: durchführen (auch wenn Option nicht angewählt)
+  * An **BigBlueButton**, **OpenMeetings** u.ä. Meetings teilnehmen
+  * **Umfragen** bearbeiten
 
-Wenn Sie einem Gast einen direkten Zugriff zu einem Kurs geben, können Sie ihm
-den Externen Link zum  Kurs schicken. Wichtig ist, dass der Kurs in der
-Zugangskonfiguration für Gäste freigeschalten ist (siehe oben). Den externen
-Link finden Sie auf der Infoseite des Kurses.
+Wenn Sie einem Gast einen direkten Zugriff zu einem Kurs geben, können Sie ihm den Externen Link zum  Kurs schicken. 
 
 ![Infoseite](assets/guest_infopage_DE.png)
 
 !!! info "Info"
     
-    Administrative Einstellungen werden von OLAT Administratoren im Bereich Login
-    → ["Gast und Einladung](../../manual_admin/administration/Guest_and_invitation.de.md)" und unter
-    "[Customizing](../../manual_admin/administration/Customizing.de.md)" → "Sites" vorgenommen.
+    OpenOlat Administrationen finden auf den Seiten ["Gast und Einladung](../../manual_admin/administration/Guest_and_invitation.de.md) sowie unter "[Customizing](../../manual_admin/administration/Customizing.de.md)" weitere Informationen. 
+    

@@ -7,7 +7,7 @@ provided with a booking method, e.g. a password.
 In general, a distinction is made between the following publication variants,
 which are visible under "Status" in the toolbar of a course:
 
-## Publication
+## Publication Status
 
 A newly created learning resource is by default only accessible to its owners
 and has the publication status "Preparation". Under "Status" the status can be
@@ -29,7 +29,7 @@ following, you will learn which options are available to you.
 
 
 
-## Release
+## Tab Share
 
 ### Configure booking methods and create quotes as of release :octicons-day-24: 17.0
 
@@ -43,13 +43,27 @@ If the option **"Private "** is chosen, the participants are entered by the owne
 If the option **"Bookable and open offers "** is selected, learners can book a course/learning resource themselves, but may have to (depending on the setting) enter a password
 enter.
 
-Translated with www.DeepL.com/Translator (free version)
+### Leaving a learning resource
+
+The system administrator determines in the administration tab whether course
+participants are per default allowed to leave the course at any time, never,
+or after the course end date. You can override the default setting anytime.
+The following options are available:
+
+* At any time (Default): Participants may leave the course at any given time.
+* After course end date: If an [execution period](https://confluence.openolat.org/display/OO130EN/Access+configuration#Accessconfiguration-d14e1774) has been configured for the course, this options allows participants to leave the course at the end of this time period. If this option was selected without a configured execution period, participants are not allowed to leave the course at any time.
+* Never: Participants may never leave the course.
+
+If members are allowed to leave the course, they can do so by selecting "Leave course" in the "My course" menu.
+
+![](assets/Leave_course_EN.png)
+
+By default, users can leave a course or learning resource at any time.
+  
 
 ### Administrative release
 
 Here you can define for which organization/sub-organization (if set up) the course is released for the administrative roles. These include: other authors(depending on rights), learning resource administrators, principals, administrators.
-
-## Release for other authors
 
 Furthermore, the tab "Share" can be used to define which additional rights
 other authors have to the learning resource.
@@ -60,7 +74,16 @@ reference | Learning resources such as glossary, form or test can be integrated 
 copy | The learning resource can be copied by other authors.  
 download | The learning resource is available for download by other authors.  
 
+!!! Tip
+
+    The options "reference" and "copy" make sense if you want to use a template or
+    a good example for other OpenOlat authors.
+
+
 ## Offer / Configure offers {: #offer}
+
+If you have previously selected the option "Add booking methods" / "Bookable and open offers" (from :octicons-day-24: Release 17.0 )
+you can then create offers.
 
 ![offer Screen](assets/offer.jpg){class="thumbnail"}
 
@@ -71,14 +94,16 @@ download | The learning resource is available for download by other authors.
     * Guest access & open without booking are now available as offers: "Guest access" & "Without booking". Nothing has changed in the way it works.
 
 
-If you have previously selected the option "Add booking methods" / "Bookable and open offers" (from :octicons-day-24: Release 17.0 )
-you can then create offers.
+You can define when and under which conditions the users of the users of the system can book a learning resource.
 
-You can define when and under which conditions the users of the
-users of the system can book a learning resource. Booking can be used as a synonym for
+So ist eine Buchung mit Zugangscode, ohne oder per PayPal (sofern vom Admin aktiviert) möglich. Auch ein Zugang ohne Buchung  oder als Gast können konfiguriert werden. Die Details werden im Folgenden beschrieben.  
+
+Booking can be used as a synonym for
 book, enroll, purchase.
 
 Select the button "Create offer" / "Add booking method" to add offers / booking methods.
+
+### Angebotsoptionen
 
 ![key](assets/key.png){ class="size24" }  **Access code**
 
@@ -103,6 +128,8 @@ Available as of :octicons-day-24: 17.0.
 
 In the traditional course, an offer can also be created for guests only. This is then only available for guests and cannot be restricted for different sub-organizations.
 
+### Details for offer configuration
+
 Optionally, a start and end date can be added to a booking configuration/offer configuration. This configuration is then only valid between the configured date
 valid. You can also specify only a start date or only an end date. If
 you do not want to specify a time restriction, leave this field empty.
@@ -119,27 +146,6 @@ be set up.
 You can easily delete the configured booking methods/offers at any time.
 The bookings already made remain in place and are not affected by this affected.
 
-
-## Leaving a learning resource
-
-The system administrator determines in the administration tab whether course
-participants are per default allowed to leave the course at any time, never,
-or after the course end date. You can override the default setting anytime.
-The following options are available:
-
-* At any time (Default): Participants may leave the course at any given time.
-* After course end date: If an [execution period](https://confluence.openolat.org/display/OO130EN/Access+configuration#Accessconfiguration-d14e1774) has been configured for the course, this options allows participants to leave the course at the end of this time period. If this option was selected without a configured execution period, participants are not allowed to leave the course at any time.
-* Never: Participants may never leave the course.
-
-If members are allowed to leave the course, they can do so by selecting "Leave
-course" in the "My course" menu.
-
-![](assets/Leave_course_EN.png)
-
-By default, users can leave a course or learning resource at any time.
-  
-The options "reference" and "copy" make sense if you want to use a template or
-a good example for other OpenOlat authors.
 
 ## Share Overview
 
