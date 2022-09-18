@@ -53,13 +53,13 @@ erscheinen soll und ob die Check-Boxen links oder rechts ausgerichtet sind.
 Dann können Antworttexte eingefügt werden. Die Reihenfolge der Antworten
 können Sie mit den Pfeilen verändern. Es können keine neuen Antworten hinzugefügt und auch keine Antworten gelöscht werden. Für jede Frage muss ausgewählt werden, ob sie Richtig oder Falsch ist.
 
-Das Punkteschema ist bei KPrim Fragen vorgegeben. Folgende Punktzahlen können erreicht werden:
+Das Punkteschema ist bei Kprim Fragen vorgegeben. Folgende Punktzahlen können erreicht werden:
 
 Alle Antworten korrekt = 100% der Punktzahl  
 3 korrekte Antworten = 50% der Punktzahl  
 2, 1 oder 0 korrekte Antworten = 0% der Punktzahl
 
-![Beispiel KPrim Frage](assets/KPrim_Beispiel_DE.jpg){ class="shadow" }
+![Beispiel Kprim Frage](assets/KPrim_Beispiel_DE.jpg){ class="shadow" }
   
 ## Matrix
 
@@ -130,6 +130,17 @@ Die Eingabe der gleichen Antwort in mehrere Lücken kann zugelassen oder unterbu
 
 ![Varianten Lückentext](assets/Lueckentext_Varianten_DE.jpg){ class="shadow" }
 
+## Lückentext mit Dropdown
+![Icon Lückentext mit Dropdown](assets/icon_dropdown_luecke.png){ class=size24 }
+
+Beim Lückentext mit Dropdown handelt es sich im Prinzip um eine Kombination aus Lückentext und Single-Choice-Auswahl. Ähnlich wie beim Lückentext werden in einen Fließtext Lückenelemente eingebaut. Diesen Lücken können dann mehrere Antwortalternativen zugeordnet und die korrekte Antwort gekennzeichnet werden. 
+
+![Dropdown Lückentext Beispiel](assets/Lueckentext_dropdown.png){ class="shadow" }
+
+Ferner können auch globale Antworten für die Lücken verwendet werden. Diese werden dann in jeder Lücke der jeweiligen Frage angezeigt und der User muss die für diese Lücke passende Antwort auswählen. 
+
+Die Punktevergabe kann sowohl pauschal über alle Lücken erfolgen als auch für jede Antwort einer Lücke separat konfiguriert werden. 
+
 ## Numerische Eingabe {: #ni}
 
 ![Icon Numerische Eingabe Frage](assets/Icon_Numerical_Input_DE.png){ class=size24 }
@@ -169,7 +180,7 @@ Anschliessend wird ein Text geschrieben und die gewünschten Auswahlbegriffe als
 
 ![Icon Hotspot Frage](assets/Icon_Hotspot_DE.png){ class=size24 }
 
-Bei einer Hotspot-Frage werden Hotspots bzw. Bereiche grafisch auf einem Bild dargestellt und müssen vom Testteilnehmer korrekt ausgewählt werden. Dabei kann die Frage sowohl als Single- oder Multiple-choice Frage gestaltet werden. Diverse Feineinstellungen wie die Hot-Spotform, die Farbe des Hot-Spots, Anpassung der Bildgröße sowie eine erweiterte Bearbeitung ermöglichen eine optimale Darstellung. Die Auswahlspots sind für die Teilnehmendenr sichtbar.
+Bei einer Hotspot-Frage werden Hotspots bzw. Bereiche grafisch auf einem Bild dargestellt und müssen vom Testteilnehmer korrekt ausgewählt werden. Dabei kann die Frage sowohl als Single- oder Multiple-choice Frage gestaltet werden. Diverse Feineinstellungen wie die Hot-Spotform, die Farbe des Hot-Spots, Anpassung der Bildgröße sowie eine erweiterte Bearbeitung ermöglichen eine optimale Darstellung. Die Auswahlspots sind für die Teilnehmenden sichtbar.
 
 ### Vorgehen
 
@@ -207,7 +218,7 @@ Anschliessend können folgende Optionen ausgewählt werden:
 * Höhe (Anzahl Zeilen): Hier kann die Größe des Textfeldes definiert werden. Die Zeilenzahl ist jedoch nicht einschränkend. Das Feld scrollt weiter, wenn Teilnehmer mehr Zeilen eintragen.
 * Min Anzahl Wörter: Diese Anzahl Wörter muss mindestens geschrieben sein, damit die Aufgabe gesendet werden kann.
 * Max Anzahl Wörter: Diese Anzahl Wörter darf maximal geschrieben sein, damit die Aufgabe gesendet werden kann. Die Eingabe dient der Begrenzung der Eingabe.  
-* Copy/paste erlauben: Hier defieren Sie ob die Lernenden Inhalte per coy+paste einfügen dürfen.
+* Copy/paste erlauben: Hier definieren Sie ob die Lernenden Inhalte per coy+paste einfügen dürfen.
 
 Freitext-Fragen sind mit einer festen Schriftbreite und der Tabulator-Funktion ausgestattet. Antworten können somit besser formatiert und zum Beispiel Spalten abgebildet werden.
 
@@ -223,7 +234,7 @@ Freitext-Fragen sind mit einer festen Schriftbreite und der Tabulator-Funktion a
 
 Bei diesem Fragetyp müssen die Testteilnehmenden als Antwort eine Datei hochladen.
 
-Es werden ein kurzer Titel und die Frage eingegeben sowie definiert wieviele Upload Felder zur Verfügungen stehen. Mit den Upload Feldern kann die Anzahl der maximal hochzuladenden Dateien festgelegt werden. Die Höchstzahl beträgt generell 10 Upload Felder.
+Es werden ein kurzer Titel und die Frage eingegeben sowie definiert wieviele Upload Felder zur Verfügung stehen. Mit den Upload Feldern kann die Anzahl der maximal hochzuladenden Dateien festgelegt werden. Die Höchstzahl beträgt generell 10 Upload Felder.
 
 Eine korrekte Antwort kann nicht markiert, da die Auswertung dieses Fragetyps ausschliesslich manuell möglich ist.
 
@@ -255,7 +266,7 @@ Es ist auch möglich Text hinzuzufügen. Die Textgrösse können sie mithilfe de
     * Falls es zu einem Unterbruch kommt, sollen die Testteilnehmer den Test nochmals starten können. Dies setzt folgende Einstellungen voraus:
         * Die Anzahl Versuche für den gesamten Test ist nicht eingeschränkt. Damit der Test später (nach Beenden des aktuellen Tests) nicht nochmals gestartet werden kann, wird er entweder im Save Exam Browser durchgeführt, oder die Sichtbarkeit ist auf den Prüfungsmodus beschränkt.
         * Das Unterbrechen des Tests ist erlaubt. So kommt der Testteilnehmer nach einem Unterbruch wieder dorthin zurück, wo er rausgeworfen worden ist. Der Text ist bis zur letzten Speicherung gespeichert. Es kann also zu kleinen Textverlusten kommen.
-        * Die Anzahl Versuche für die Freitext Frage ist nicht eingeschränkt. Dies erlaubt es Testteilnehmern, den geschriebenen Text immer wieder abzuschicken und dann weiter zuschreiben. Das regelmässige Abschicken des geschriebenen Textes gibt den Testteilnehmern Sicherheit.
+        * Die Anzahl Versuche für die Freitext Frage ist nicht eingeschränkt. Dies erlaubt es Testteilnehmern, den geschriebenen Text immer wieder abzuschicken und dann weiterzuschreiben. Das regelmässige Abschicken des geschriebenen Textes gibt den Testteilnehmern Sicherheit.
     * Falls der Test eine Zeitbeschränkung hat, wird der Text ganz am Schluss nur dann gespeichert, wenn er vor Ablauf der Zeit nochmals abgeschickt worden ist. Erinnern Sie die Testteilnehmer kurz vor Schluss daran, die Frage nochmals abzuschicken und anschliessend nichts mehr zu schreiben.
 
 	Bei Beachtung dieser Empfehlungen kann ein Aufsatz im OpenOlat geschrieben werden.
