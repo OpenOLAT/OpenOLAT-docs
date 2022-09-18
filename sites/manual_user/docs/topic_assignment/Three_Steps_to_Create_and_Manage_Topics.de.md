@@ -17,76 +17,74 @@ und Sie zum Themenverantwortlichen ernannt.
 
 ##  Thema erstellen
 
-Schritt 1: Kurs öffnen und Thema erstellen  
----  
-1| Im Autorenbereich unter „Meine Einträge“ Kurs suchen und öffnen.|
+### Schritt 1: Kurs öffnen und Thema erstellen  
+
+a) Im Autorenbereich unter „Meine Einträge“ Kurs suchen und öffnen.
 
 ![](assets/Thema_erstellen.png)  
   
   
-2| Im Kursmenü links zur Themenvergabe navigieren.  
-3| Oben im Inhaltsbereich auf „Thema erstellen“ klicken.  
-4| Im Tab „Beschreibung“ Informationen zum Thema eingeben. Neben Titel und
+b) Im Kursmenü links zur Themenvergabe navigieren.
+
+c) Oben im Inhaltsbereich auf „Thema erstellen“ klicken.  
+
+d) Im Tab „Beschreibung“ Informationen zum Thema eingeben. Neben Titel und
 Beschreibung können Sie auch die Anzahl Bewerber limitieren, Abmeldungen
 gestatten oder verbieten, Dateien anhängen und eine E-Mail-Benachrichtigung
 einrichten. Sie können auch einen Einschreibetermin und einen Abgabetermin
-definieren.|
+definieren.
 
 ![](assets/Themenvergabe_konfigurieren.jpg)  
   
-5| Optional: Wenn Sie weitere Betreuer für Ihr Thema bestimmen möchten,
+e) Optional: Wenn Sie weitere Betreuer für Ihr Thema bestimmen möchten,
 klicken Sie im Tab „Teilnehmerverwaltung“ unter „Verantwortliche des Themas“
-auf „Benutzer hinzufügen“ und wählen die gewünschte Person aus.|
+auf „Benutzer hinzufügen“ und wählen die gewünschte Person aus.
 
 ![](assets/chooseresponsible.gif)  
   
-Ihr Thema erscheint nun in der Themenübersicht und Kursteilnehmer können sich
-dafür bewerben.
+Ihr Thema erscheint nun in der Themenübersicht und Kursteilnehmer können sich dafür bewerben.
 
-Wenn Sie die Checkbox „E-Mail-Benachrichtigung bei Themen Auswahl/Abwahl“ in
-der Beschreibung des Themas markiert haben, erhalten Sie eine E-Mail, sobald
-sich Kursteilnehmer für Ihr Thema bewerben.
+Wenn Sie die Checkbox „E-Mail-Benachrichtigung bei Themen Auswahl/Abwahl“ in der Beschreibung des Themas markiert haben, erhalten Sie eine E-Mail, sobald sich Kursteilnehmer für Ihr Thema bewerben.
 
-Schritt 2: Teilnehmer verwalten  
----  
-1| In der Themenübersicht auf den Titel Ihres Themas klicken und in den Tab
+### Schritt 2: Teilnehmer verwalten  
+
+a) In der Themenübersicht auf den Titel Ihres Themas klicken und in den Tab
 „Teilnehmerverwaltung“ wechseln|
 
 ![](assets/participants.gif)  
   
-2| In der Kandidatenliste diejenigen Personen auswählen, denen das Thema
+b) In der Kandidatenliste diejenigen Personen auswählen, denen das Thema
 zugeteilt werden soll. Auf „Als Teilnehmer übernehmen“ klicken. Bei Bedarf die
 E-Mail-Benachrichtigung für die akzeptierten Kursteilnehmer anpassen und
 versenden.  
-3| In der Kandidatenliste diejenigen Personen auswählen, denen das Thema nicht
+
+c) In der Kandidatenliste diejenigen Personen auswählen, denen das Thema nicht
 zugeteilt werden soll. Auf „Entfernen“ klicken. Bei Bedarf die E-Mail-
 Benachrichtigung für die nicht akzeptierten Kandidaten anpassen und versenden.  
-4| Wenn sich keine weiteren Kandidaten bewerben können sollen, im Tab
-„Beschreibung“ auf „Themenstatus auf "Belegt" setzen“.|
+
+d) Wenn sich keine weiteren Kandidaten bewerben können sollen, im Tab
+„Beschreibung“ auf „Themenstatus auf "Belegt" setzen“.
 
 ![](assets/closetheme.gif)  
   
 Akzeptierte Teilnehmer können nun beim gewählten Thema im Tab „Ordner“ über
 den Abgabeordner Dateien einreichen.
 
-Schritt 3: Dateien verwalten (optional)  
----  
-1|
+### Schritt 3: Dateien verwalten (optional)  
 
-Wenn Dateien eingereicht wurden, auf den Tab „Ordner“ in Ihrem Thema klicken
+a) Wenn Dateien eingereicht wurden, auf den Tab „Ordner“ in Ihrem Thema klicken
 und den Ordner des Teilnehmers öffnen.
 
 Abonnieren Sie den Abgabeordner ihres Themas, um bei neu eingereichten Dateien
 benachrichtigt zu werden.
 
-|
-
 ![](assets/fileupload.gif)  
   
-2| Sie können dem Teilnehmer Dateien über den Rückgabeordner zurückgeben. Im
+b) Sie können dem Teilnehmer Dateien über den Rückgabeordner zurückgeben. Im
 Tab „Ordner“ den Ordner des akzeptierten Teilnehmers wählen und auf „Datei
 hochladen“ klicken.  
-3| Abschließend können sie definieren ob der jeweilige Teilnehmer alle
+
+c) Abschließend können sie definieren ob der jeweilige Teilnehmer alle
 genannten Aufgaben erfüllt hat. Zur Auswahl steht: Ok, nicht OK oder noch in
 Bearbeitung.
 

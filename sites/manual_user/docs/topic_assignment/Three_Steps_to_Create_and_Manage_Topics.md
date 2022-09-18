@@ -15,29 +15,29 @@ A course author has already embedded the course element "Topic assignment" in
 a course and appointed you as person responsible for a topic.
 
 ##  Create Topic
-
-  
-
-Step 1: Open course and create topic  
----  
-1| Search for your course in "Authoring", section "My entries," and open it.|
+ 
+### Step 1: Open course and create topic  
+ 
+a) Search for your course in "Authoring", section "My entries," and open it.
 
 ![](assets/topic_assignment.png)  
   
   
-2| Navigate to the topic assignment in the course menu on your left.  
-3| Click on "Create topic" at the top of the content area.  
-4| Provide information on your topic (title, description) in the tab
+b) Navigate to the topic assignment in the course menu on your left.  
+
+c) Click on "Create topic" at the top of the content area.  
+
+d) Provide information on your topic (title, description) in the tab
 "Description." Additionally you can limit the number of candidates, allow for
 de-/selection, attach files, and establish notifications via email. You can
-also define an enrollment date and a deadline.|
+also define an enrollment date and a deadline.
 
 ![](assets/topic_assignment_description.png.jpg)  
   
   
-5| Optional: If you want to appoint additional tutors for your topic just
+Optional: If you want to appoint additional tutors for your topic just
 click on "Add user(s)" in the tab "Administration of participants," section
-"Topic authors" before selecting the person required.|
+"Topic authors" before selecting the person required.
 
 ![](assets/chooseresponsible.gif)  
   
@@ -48,41 +48,39 @@ If the check box "E-mail notification when selecting/deselecting Topics" is
 activated in your topic description, you will receive an email as soon as a
 course participant applies for your topic.
 
-Step 2: Manage participants  
----  
-1| Click on the title of your topic in the topic overview before going to the
-tab "Administration of participants."|
+### Step 2: Manage participants  
+
+a) Click on the title of your topic in the topic overview before going to the
+tab "Administration of participants."
 
 ![](assets/participants.gif)  
   
-2| Select those people from the candidate list to whom your topic should be
+b) Select those people from the candidate list to whom your topic should be
 assigned. Click on "Transfer as participant." Adapt and send email
 notification to all accepted course participants if needed.  
-3| Select those people from the candidate list to whom your topic should not
+
+c) Select those people from the candidate list to whom your topic should not
 be appointed. Click on "Remove." Adapt and send email notification to all
 candidates not accepted if needed.  
-4| If you do not wish other candidates to apply just click on "Topic set
-status to 'Filled'" in the tab "Description."|
+
+d) If you do not wish other candidates to apply just click on "Topic set
+status to 'Filled'" in the tab "Description."
 
 ![](assets/closetheme.gif)  
   
 Participants accepted can now submit files via drop box regarding their chosen
 topic in the tab "Folder."
 
-Step 3: Manage files (optional)  
----  
-1|
+### Step 3: Manage files (optional)  
 
-If there are files already submitted just click on the tab "Folder" within
+a) If there are files already submitted just click on the tab "Folder" within
 your topic before opening a participant's folder.
 
 Subscribe to the drop box of your topic in order to get a notification for
 newly submitted documents.
 
-|
-
 ![](assets/fileupload.gif)  
   
-2| It is possible to return files via return boxes. Just select the folder of
+b) It is possible to return files via return boxes. Just select the folder of
 a participant already accepted in the tab "Folder" and click on "Upload file."  
   
