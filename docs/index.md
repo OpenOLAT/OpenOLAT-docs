@@ -13,7 +13,7 @@ Find information on OpenOlat, its features and latest changes here. Use the top 
 
 ## Current version:
 
-- [OpenOlat 17.0 User Manual](manual_user/general/)
+- [OpenOlat 17.0 User Manual](manual_user/general/) | [Release notes 17.0](release_notes/Release_notes_17.0.md)
 
 ## Older versions:
 
