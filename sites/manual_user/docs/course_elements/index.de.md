@@ -39,6 +39,7 @@ erstellen"](../course_create/index.de.md), wenn Sie noch keinen Kurs erstellt ha
   * [Kursbaustein "Gruppenaufgabe"](Assessment.de.md#course_element_group_tasks)
   * [Kursbaustein „Test“](Assessment.de.md#course_element_test)
   * [Kursbaustein „Selbsttest“](Assessment.de.md#course_element_self_test)
+ * [Kursbaustein "Übung"](Assessment.de.md#course_element_uebung)  
   * [Kursbaustein "Formular"](Assessment.de.md#course_element_form)
   * [Kursbaustein „Umfrage“](Assessment.de.md#course_element_survey)
   * [Kursbaustein „Checkliste“](Assessment.de.md#course_element_checklist)

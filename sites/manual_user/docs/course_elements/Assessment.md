@@ -5,10 +5,10 @@ testing. For some course elements there are separate pages or chapters here in
 the manual.
 
 
-![assessment icon](assets/assessment_elements.png)
+![assessment icon](assets/assessment_en.jpg)
 
 OpenOlat provides various course elements for knowledge testing. The central
-course elements for this are the two course elements for OpenOlat
+course elements for this are the three course elements for OpenOlat
 [tests](../tests/Configure_tests.md) and the two course elements for [submission tasks](../task/index.md). But also the other elements such as [portfolio task](../portfolio/Creating_Portfolio_Tasks.md),
 [assessments](Course_Element_Assessment.md) with and without
 evaluation grid (rubric) or the checklists offer a lot of potential for
@@ -60,18 +60,21 @@ The central configuration of the course element takes place in the first step
 in the tab "Workflow". Here you determine which of the following options you
 want to use:
 
-  * Is it a **mandatory** or **optional** exercise? Mandatory tasks have to be completed and will be collected after the set deadline and handed over to the coach for evaluation. In the case of optional tasks, the user can decide for himself if he wants to work on them. Furthermore, optional tasks are not collected after the deadline.
-  *  **Task Assignment** : assign tasks to course participants or groups.
+   *  **Task Assignment**: assign tasks to course participants or groups.
 
-  *  **Submission** : Learners should have the opportunity to submit tasks. This is where course participants create their solutions or upload them in a PDF file format.
+  *  **Submission**: Learners should have the opportunity to submit tasks. This is where course participants create their solutions or upload them in a PDF file format.
 
-  *  **Review and Correction** : this is where course participants will find their tasks corrected as well as requests for revisions.
+  *  **Review and Correction**: this is where course participants will find their tasks corrected as well as requests for revisions.
 
-  *  **Revision Period** : course participants upload their revised documents in this element. You as a coach can place multiple revision requests until the task is considered completed and the revision process closed.
+  *  **Revision Period**: course participants upload their revised documents in this element. You as a coach can place multiple revision requests until the task is considered completed and the revision process closed.
 
-  *  **Sample solution** : provide course participants with sample solutions of their tasks. You can either create them directly in OpenOlat or upload files.
+  *  **Sample solution**: provide course participants with sample solutions of their tasks. You can either create them directly in OpenOlat or upload files.
 
-  *  **Assessment** : create individual assessments for each course participant or for participants of a group as a whole.
+  *  **Assessment**: create individual assessments for each course participant or for participants of a group as a whole.
+
+ Im Tab "Lernpfad" (bzw. im Tab "Workflow" bei herkömmlichen) kann ferner definiert werden ob die Aufgabe obligatorisch oder freiwillig ist. 
+
+Mandatory tasks have to be completed and will be collected after the set deadline and handed over to the coach for evaluation. In the case of optional tasks, the user can decide for himself if he wants to work on them. Furthermore, optional tasks are not collected after the deadline.
 
 !!! info "Info"
 
@@ -83,13 +86,9 @@ want to use:
 
 By means of the course element "Portfolio task" you can provide predefined
 portfolio templates to be filled by your course participants. The course
-participants can then pick up the portfolio task in their course, fill it in
-and, if desired, hand it in electronically, so that the designed portfolio
-folder can be evaluated by a coach or other persons defined by the portfolio
-user.
-
-  
-
+participants can then pick up the portfolio task in their course, 
+und werden anschliessend in ihren individuellen Portfoliobereich weitergeleitet. Das so abgeholte Portfolio kann dann von den Lernenden mit Inhalten und Artefakten befüllt und wenn gewünscht weiteren Personen oder den Kursbetreuern zugänglich gemacht werden. Je nach Konfiguration können diese Personen das Portfolio auch bewerten und kommentieren. 
+ 
 For the course element Portfolio task you need a "Portfolio 2.0 template",
 which you link to the course element. If you have not yet created a Portfolio
 Template learning resource, you can also create a new Portfolio Template or
@@ -97,17 +96,15 @@ link to a previously created one directly in the course via "Select or create
 Portfolio Template".  Click [here](../portfolio/Creating_Portfolio_Tasks.md) to find out
 exactly how to create a portfolio task.
 
-  
 
 If you have already added a portfolio template, it will appear under Selected
 Portfolio Template. Follow the link to get to the preview. You now have the
 option of selecting a different content with the "Change Portfolio Template"
 button.
 
-  
+!!! info
 
-In case a portfolio template has already been downloaded and edited it will no
-longer be possible to replace it.
+    In case a portfolio template has already been downloaded and edited it will no longer be possible to replace it.
 
 In the tab "Evaluation" you can preconfigure the display of points, status
 passed/failed and individual comments. In the fields "Note for all users" and
@@ -131,8 +128,11 @@ General information on the subject of portfolios and e-portfolios can be found
 ![Task Icon](assets/task.png)
 
 The course element Group task functions largely like the course element
-[Task](../task/index.md). Only the following differences have to be
-considered:
+[Task](../task/index.md). 
+
+Punkte und Feedbacks werden in diesem Kursbaustein für die gesamte Gruppe erstellt, können aber individuell angepasst werden.
+
+Folgende Unterschiede zum Kursbaustein Aufgabe sind zu beachten:
 
 When creating the group task, one or more groups to which the task is assigned
 must be selected in the tab "Workflow". Only these groups can then view and
@@ -190,12 +190,12 @@ Any test linked to a course can only be edited in your test-editor as long as
 there are no users launching and taking it. After that only typing errors can
 be corrected.
 
-Attention: In case participants are taking a test at that moment all their
-results will be lost since that test is not complete. All results achieved
-between replacing and publishing a test will be lost as well.
+!!! Attention: 
+
+    In case participants are taking a test at that moment all their
+    results will be lost since that test is not complete. All results achieved between replacing and publishing a test will be lost as well.
 
 The test results of the participants will be personalised.
-
   
 
 ##  Course Element: Self-test {: #course_element_self_test}
@@ -216,6 +216,22 @@ test"](../tests/Four_Steps_to_Your_Test_or_Self-test.md).
 For more information on tests, refer to the chapter "[Creating Tests](../tests/Configure_tests.md)". 
 The chapter "[Tests at course level](../tests/Tests_at_course_level.md)" is particularly relevant here.
 
+Eine komplexere Alternative zum Selbsttest stellt der Kursbaustein Übung dar. 
+
+## Kursbaustein "Übung" {: #course_element_uebung}
+
+Der Kursbaustein mit Lernkarten-Logik dient der individuellen Selbstüberprüfung der Kursteilnehmenden. Dafür kombiniert die Lehrperson mehrere OpenOlat Tests oder Fragen-Sets aus dem Fragenpool, die die Lernenden selbständig in Serien und Challenges bearbeiten können. Die Anzahl der Fragen pro Übungsserie kann genau wie die Anzahl der Gesamt-Challenges festgelegt werden. Umfasst eine Serie beispielsweise 10 Fragen, werden dem Lernenden solange Fragen eingeblendet bis er 10 Fragen richtig beantwortet hat. Die Anzahl der Level spiegelt die Intensität der Übung wider und gibt an wie häufig eine Frage wiederholt korrekt bearbeitet werden muss. 
+
+![Kursbaustein Übung](../../../release_notes/docs/assets/170/Practice_element_DE.png)
+
+Neben den von der Lehrperson konfigurierten Übungssettings können Kursteilnehmende auch bestimmte Fragen wie neue Fragen oder Fragen eines bestimmten Levels filtern und bearbeiten. Auch eigene Serien können zusammengestellt werden.
+
+Nach Abschluss einer Challenge sind neben der Einordnung in Ranglisten detaillierte Statistiken zum Lernstand sowie eine zusammenfassende Übersicht verfügbar.
+
+!!! info "Info"
+
+    Für diesen Kursbaustein können nur automatisch auswertbare Testfragen verwendet werden. 
+
 ## Course Element: Form  {: #course_element_form}
 
 ![form icon](assets/Forular_icon.png)
@@ -224,7 +240,9 @@ Using the course element "Form" you can add the learning resource form to a
 course. The form works similar to the course element "Survey" and can also be
 filled out only once. However, with the form it is visible which participant
 has filled in what in the form. Thus, in contrast to the survey (at least in
-the standard setting), filling in the form is not anonymous. For the
+the standard setting), filling in the form is not anonymous. 
+
+For the
 completion of the course element, a last deadline can be defined in the tab
 "Form". A [course reminder](../course_operation/Course_Reminders.md) can also be linked in
 addition. In contrast to the survey module, participants automatically receive
@@ -242,28 +260,32 @@ The use of this course element makes sense e.g. if the learners have to fill
 in certain forms obligatorily, e.g. before starting a laboratory internship or
 as confirmation for the independent performance of a service.
 
+!!! Info 
+
+    Anders als beim Kursbaustein Umfrage erfolgt für diesen Kursbaustein allerdings keine spezifische grafische Auswertungsübersicht. 
+
 ##  Course Element: Survey {: #course_element_survey}
 
 ![survey icon](assets/formular_434343_64.png)
 
 With the course element "Survey" you can add an online questionnaire to your
-course. This can be used to carry out different types of online surveys. You
-can, for example, determine the expectations of the participants at the
-beginning of the course or evaluate the course offerings at the end of the
-course. By default, the results are stored anonymously. A questionnaire must
+course. Als Basis wird die Lernressource "Formular" verwendet und mit dem Kursbaustein Umfrage verknüpft. 
+A questionnaire must
 first be created with the learning resource "Form" in the author area. If you
-have not yet created a questionnaire, follow the instructions in chapter "[3 steps to your questionnaire](../forms/Three_Steps_to_your_Form.md)".
-
-Further information on the subject of questionnaires and surveys can be found
-in the chapter "[Creating questionnaires](../forms/Form_editor_Questionnaire_editor.md)" and
-the corresponding subchapters.
+have not yet created a questionnaire, follow the instructions in chapter "[3 steps to your questionnaire](../forms/Three_Steps_to_your_Form.md)". By default, the results are stored anonymously. 
 
 A formular linked in a course can only be edited completely in the formular
 editor as long as the page has not been opened. After that only typing errors
 can be corrected.
 
-Note: If participants are currently running the questionnaire but have not yet
-completed it, their results will be lost.
+!!! Note 
+
+    If participants are currently running the questionnaire but have not yet completed it, their results will be lost.
+
+Further information on the subject of questionnaires and surveys can be found
+in the chapter "[Creating questionnaires](../forms/Form_editor_Questionnaire_editor.md)" and
+the corresponding subchapters.
+
 
 ##  Course Element: Checklist {: #course_element_checklist}
 
@@ -294,7 +316,7 @@ Further information can be found
 
 ###  Highscore  {: #highscore}
 
-The highscore can be added for all assessable course element as well as for
+The highscore mit Ausnahme des Kursbausteins Übung, can be added for all assessable course element as well as for
 structure elements.
 
 The highscore makes a playful comparison between test participants possible

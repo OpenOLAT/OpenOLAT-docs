@@ -41,6 +41,7 @@ courses](../course_create/index.md)" first.
   * [Course Element: Group Task](Assessment.md#course_element_group_tasks)
   * [Course Element: Test](Assessment.md#course_element_test)
   * [Course Element: Self-test](Assessment.md#course_element_self_test)
+  * [Course Element: Practice](Assessment.md#course_element_uebung)    
   * [Course Element: Form](Assessment.md#course_element_form)
   * [Course Element: Survey](Assessment.md#course_element_survey)
   * [Course Element: Checklist](Assessment.md#course_element_checklist)
@@ -49,6 +50,7 @@ courses](../course_create/index.md)" first.
 
   * [Course Element: Wiki](Communication_and_Collaboration.md#wiki)
   * [Course Element: Forum](Communication_and_Collaboration.md#forum)
+  * [Course Element: Practice](Course_Element_Assessment.md#course_element_uebung)  
   * [Course Element: File Dialog](Communication_and_Collaboration.md#file_dialog)
   * [Course Element: Participant folder](Communication_and_Collaboration.md#participant_folder)
   * [Course Element: Participant list](Communication_and_Collaboration.md#participant_list)
