@@ -13,7 +13,8 @@ The home page is customizable by category launcher and offers a prominent search
 ### Launcher
 
 Launcher are the configurable lines of the start page. These can be added in the administration arbitrarily changed in the order. By default, a launcher of the type "Last added" is enabled. The launchers come in 3 types: Static Text, Static (Select Manually), Taxonomy Levels.
-I can give all launchers a language dependent name. This name will then appear as a headline above the tiles.
+You can give all launchers a language dependent name. This name will then appear as a headline above the tiles.
+Launchers can also be limited to one organisational unit.
 
 ### Taxonomy Launcher
 

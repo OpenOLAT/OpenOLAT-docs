@@ -11,18 +11,19 @@ Der Katalog 2.0 gliedert sich in unterschiedliche Bereiche auf.
 
 ## Bestandteile des Katalogs
 
-## Startseite
+### Startseite
 
-Die Startseite ist durch Kategorie-Launcher anpassbar und bietet ein prominentes Sucheingabefeld. Zusätzlich kann auch das Hintergrundbild angepasst werden. Der Titel ist durch ein i18n auch anpassbar. In der Suche kann
+Die Startseite ist durch Kategorie-Launcher anpassbar und bietet ein prominentes Sucheingabefeld. Zusätzlich anpassbar ist auch das Hintergrundbild. Der Titel ist durch ein i18n auch anpassbar. In der Suche kann nach Lernressourcen gesucht werden. Indexiert ist dabei der Titel, Teasertext, Taxonomie.
 
 ### Launcher
 
 Launcher sind die konfigurierbaren Zeilen der Startseite. Diese können in der Administration beliebig hinzugefügt in der Reihenfolge verändert werden. Standardmässig ist ein Launcher vom Typ "Zuletzt hinzugefügt" aktiviert. Die Launcher kommen in 3 Typen: Statischer Text, Statisch (Manuell auswählen), Taxonomie-Ebenen.
 Allen Launcher kann ich einen sprachabhängigen Namen geben. Dieser Name erscheint dann als Headline über den Kacheln.
+Die Launcher können auch nur für spezifische Organisationen freigegeben werden.
 
 ### Taxonomie Launcher
 
-Taxonomie Launcher nutzen die Katalogfachbereichsstruktur, um die verschiedenen Taxonomielevel als Baum anzuzeigen. Einstellbar sind diese 
+Taxonomie Launcher nutzen die Katalogfachbereichsstruktur, um die verschiedenen Taxonomielevel als Baum anzuzeigen. 
 
 ### (Taxonomie-) Microsite
 
@@ -47,7 +48,7 @@ Die Filter der Suchergebnissseite lassen sich unter `Administration > Module > K
 
 ### Startseite einrichten
 
-Die Startseite kann unter `Administration > Module > Katalog > Startseite` eingerichtet werden. Hier gibt es die Option oben rechts Launcher hinzuzufügen, um die Startseite anzupassen.
+Die Startseite kann unter `Administration > Module > Katalog > Startseite` eingerichtet werden. Hier gibt es die Option rechts oben Launcher hinzuzufügen, um die Startseite anzupassen und zu erweitern
 
 ### Kurs einem Fachbereich hinzufügen
 
@@ -68,5 +69,3 @@ Die folgenden Objekte werden in den neuen Katalog übertragen:
 * Katalogbilder werden konvertiert. Als neues Bildformat wird eine rechteckige Darstellung mit dem Format 2:1 empfohlen.
 * Die Katalogstruktur wird als neue Katalogtaxonomie angelegt und ist dann unter Abteilungen/Katalog verfügbar.
 * Unterkategorietitel, Kurztitel & Beschreibungen sind auf neu gestalteten Unterseiten verfügbar.
-
-Übersetzt mit www.DeepL.com/Translator (kostenlose Version)
