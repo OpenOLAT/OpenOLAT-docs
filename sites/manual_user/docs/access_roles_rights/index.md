@@ -68,9 +68,9 @@ support of your own OpenOlat instance.
 If a user is added to a course it can be defined which member rights the user
 should get in this course.  
 
-* **Owner** : The user has all rights in the course. He can edit a course, manage members and delete the course. So the owner is like the course administrator.
-* **Coach** : The course coach has access to the assessment tool, as well as to the test and survey statistic. But a course coach cannot edit or delete a course. In the assessment tool a course coach can see the course participants, but not the group participants.
-* **Participant** : A participant can open the course and edit everything where he got access right. A participant hasn't any further rights.
+* **Owner**: The user has all rights in the course. He can edit a course, manage members and delete the course. So the owner is like the course administrator.
+* **Coach**: The course coach has access to the assessment tool, as well as to the test and survey statistic. But a course coach cannot edit or delete a course. In the assessment tool a course coach can see the course participants, but not the group participants.
+* **Participant**: A participant can open the course and edit everything where he got access right. A participant hasn't any further rights.
 
 In addition to the course-related roles, depending on the configuration,
 [guests](guest_access.md) without an OpenOlat account can also have access

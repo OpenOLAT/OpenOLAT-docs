@@ -21,21 +21,20 @@ Hier ein Überblick über alle OpenOlat Rollen.
 
 ![Rollen in OpenOlat](assets/roles_DE.png)
 
-* **Benutzer** : Standardrolle (siehe oben)
-* **Autor** : Der Autor hat Zugriff auf den Autorenbereich. Damit ist er berechtigt, Kurse und alle weiteren Lernressourcen zu erstellen. In der Suchmaske findet der Autor alle Kurse und Lernressourcen wie Tests, Filme und Portfoliovorlagen, welche für Autoren zugänglich sind. Diese Rolle wird häufig an Lehrende oder E-Learning Verantwortliche vergeben.
-  Weitere Details der Systemrolle Autor finden Sie [hier](author.de.md).
-* **Benutzerverwalter** : Der Benutzerverwalter hat Zugriff auf die [Benutzerverwaltung](../../manual_admin/usermanagement/index.de.md) und alle Benutzer der eigenen Organisation. Er kann Benutzer erstellen, bearbeiten und inaktiv setzen. Zudem kann er die Rolle Autor vergeben.
-* **Rollenverwalter** : Der Rollenverwalter hat Zugriff auf die Benutzerverwaltung und alle Benutzer der eigenen Organisationen. Er kann, ausser die Rollen Administrator und Systemadministrator, alle Rollen der Benutzer ändern, sie vergeben und entfernen.
-* **Gruppenverwalter** : Der Gruppenverwalter hat Zugriff auf den Bereich Gruppen und darin Zugriff auf den Tab Gruppenverwaltung. Weitere Informationen finden Sie in der [Gruppenverwaltung](../groups/index.de.md).
-* **Poolverwalter** : Der Poolverwalter hat Zugriff auf den [Fragenpool](../question_bank/index.de.md). Im Fragenpool kann er den Bereich Administration öffnen.
-* **Curriculumverwalter** : Der Curriculumverwalter hat Zugriff auf die [Curriculumverwaltung](../curriculum/Curriculum_Management.de.md). Er kann neue Curricula erstellen und bereits bestehende verwalten. Ist der Curriculumverwalter einer Organisation zugeordnet, so besitzt er nur Zugang zu Curricula dieser Organisation.
-* **Lektionenblockverwalter** : Konfiguration des Moduls "[Lektionen und Absenzen](../course_operation/Lectures_and_absences.de.md)"  
-* **Qualityverwalter** : Der Qualityverwalter hat Zugriff auf den Bereich Qualitätsmanagement und kann dort sämtliche Einstellungen und Objekte wie Fragebögen, Datenerhebungsgeneratoren sowie das Analysewerkzeug verwalten.
-* **Linienvorgesetzter** : Der Linienvorgesetzte kann für alle Benutzer innerhalb seiner Organisation automatisch über den Erhalt von Zertifikaten informiert werden.
-* **Lernressourcenverwalter** : Der Lernressourcenverwalter sieht im Autorenbereich alle Lernressourcen seiner Organisation. Er kann diese kopieren und exportieren. Im Profil kann eine Institution angegeben werden. Der Lernressourcenverwalter hat Besitzerrechte an allen Kursen die zu seiner Institution gehören.
-* **Principal** : Der Principal sieht – ausser der Administration – alle Bereiche des Systems, hat aber nur Lesezugriff und kann keine Änderungen vornehmen, Objekte bearbeiten etc.
-* **Administrator** : Der Administrator besitzt Modul- und Funktionsverwaltung und hat auf alle Bereiche des Systems z.B.  Benutzerverwaltung, Katalogverwaltung, Curriculumverwaltung, Lektionenverwaltung Zugriff, ausser auf die Administrationsseite. Diese Rolle kann auf eine Organisation beschränkt werden. Der Administrator kann Benutzer löschen und zudem weiteren Personen das Recht für die Katalogverwaltung einräumen.
-* **Systemadministrator** : Der Systemadministrator hat Zugriff auf die Administrationsseite und ist für die technische Systemkonfiguration und deren Überwachung zuständig. Dies ist eine globale Rolle, die nicht an eine Organisation gebunden ist.
+* **Benutzer**: Standardrolle (siehe oben)
+* **Autor**: Der Autor hat Zugriff auf den Autorenbereich. Damit ist er berechtigt, Kurse und alle weiteren Lernressourcen zu erstellen. In der Suchmaske findet der Autor alle Kurse und Lernressourcen wie Tests, Filme und Portfoliovorlagen, welche für Autoren zugänglich sind. Diese Rolle wird häufig an Lehrende oder E-Learning Verantwortliche vergeben.  
+* **Benutzerverwalter**: Der Benutzerverwalter hat Zugriff auf die [Benutzerverwaltung](../../manual_admin/usermanagement/index.de.md) und alle Benutzer der eigenen Organisation. Er kann Benutzer erstellen, bearbeiten und inaktiv setzen. Zudem kann er die Rolle Autor vergeben.
+* **Rollenverwalter**: Der Rollenverwalter hat Zugriff auf die Benutzerverwaltung und alle Benutzer der eigenen Organisationen. Er kann, ausser die Rollen Administrator und Systemadministrator, alle Rollen der Benutzer ändern, sie vergeben und entfernen.
+* **Gruppenverwalter**: Der Gruppenverwalter hat Zugriff auf den Bereich Gruppen und darin Zugriff auf den Tab Gruppenverwaltung. Weitere Informationen zu Gruppen allgemein finden Sie [hier](../groups/index.de.md).
+* **Poolverwalter**: Der Poolverwalter hat Zugriff auf den [Fragenpool](../question_bank/index.de.md). Im Fragenpool kann er den Bereich Administration öffnen.
+* **Curriculumverwalter**: Der Curriculumverwalter hat Zugriff auf die [Curriculumverwaltung](../curriculum/Curriculum_Management.de.md). Er kann neue Curricula erstellen und bereits bestehende verwalten. Ist der Curriculumverwalter einer Organisation zugeordnet, so besitzt er nur Zugang zu Curricula dieser Organisation.
+* **Lektionenblockverwalter**: Konfiguration des Moduls "[Lektionen und Absenzen](../course_operation/Lectures_and_absences.de.md)"  
+* **Qualityverwalter**: Der Qualityverwalter hat Zugriff auf den Bereich Qualitätsmanagement und kann dort sämtliche Einstellungen und Objekte wie Fragebögen, Datenerhebungsgeneratoren sowie das Analysewerkzeug verwalten.
+* **Linienvorgesetzter**: Der Linienvorgesetzte kann für alle Benutzer innerhalb seiner Organisation automatisch über den Erhalt von Zertifikaten informiert werden.
+* **Lernressourcenverwalter**: Der Lernressourcenverwalter sieht im Autorenbereich alle Lernressourcen seiner Organisation. Er kann diese kopieren und exportieren. Im Profil kann eine Institution angegeben werden. Der Lernressourcenverwalter hat Besitzerrechte an allen Kursen die zu seiner Institution gehören.
+* **Principal**: Der Principal sieht – ausser der Administration – alle Bereiche des Systems, hat aber nur Lesezugriff und kann keine Änderungen vornehmen, Objekte bearbeiten etc.
+* **Administrator**: Der Administrator besitzt Modul- und Funktionsverwaltung und hat auf alle Bereiche des Systems z.B.  Benutzerverwaltung, Katalogverwaltung, Curriculumverwaltung, Lektionenverwaltung Zugriff, ausser auf die Administrationsseite. Diese Rolle kann auf eine Organisation beschränkt werden. Der Administrator kann Benutzer löschen und zudem weiteren Personen das Recht für die Katalogverwaltung einräumen.
+* **Systemadministrator**: Der Systemadministrator hat Zugriff auf die Administrationsseite und ist für die technische Systemkonfiguration und deren Überwachung zuständig. Dies ist eine globale Rolle, die nicht an eine Organisation gebunden ist.
 
 !!! warning "Hinweis"
 
@@ -54,13 +53,13 @@ Mitgliederrechte der Benutzer in diesem einen Kurs erhalten soll. Zur Auswahl st
 * **Betreuer**: Der Kursbetreuer hat Zugriff auf das [Bewertungswerkzeug](../course_operation/Assessment_tool_-_overview.de.md) des Kurses, wie auch auf die Test- und Fragebogen-Statistik. Ein Kursbetreuer kann jedoch den Kurs weder im Kurseditor bearbeiten noch den Kurs löschen. Im Bewertungswerkzeug sieht der Kursbetreuer alle Kursteilnehmenden, jedoch keine Gruppenteilnehmenden. Weitere Details der Kursrolle Betreuer finden Sie [hier](coach.de.md).
 * **Teilnehmer**: Ein Teilnehmer kann den Kurs öffnen und die bereitgestellten Kursbausteine und Inhalte bearbeiten (je nach Konfiguration). Ein Teilnehmer hat jedoch keine zusätzlichen Rechte im Kurs.
 
-Neben den kursbezogenen Rollen können, je nach Konfiguration, auch [Gäste](guest_access.de.md) ohne OpenOlat Account Zugang zu einem Kurs erhalten.
+Neben den kursbezogenen Rollen können, je nach Konfiguration, auch [Gäste](guest_access.de.md) ohne OpenOlat Account Zugang zu einem Kurs erhalten.  
 
 ![Kursrollen](assets/course_rights_DE.png){ class="shadow" }
 
 !!! success "Rollenwechsel"
 
-    Es ist auch möglich, dass Personen mehrere Kursrollen erhalten und so verschiedene Perspektiven auf den Kurs einnehmen können. Ein Rollenwechsel ist, nachdem einer Person mehrere kursbezogene Rollen zugewiesen wurden, über den Wechsel der "Benutzerrolle" in der Toolbar des Kurses möglich.
+    Es ist ferner möglich, dass Personen mehrere Kursrollen erhalten und so verschiedene Perspektiven auf den Kurs einnehmen können. Ein Rollenwechsel ist, nachdem einer Person mehrere kursbezogene Rollen zugewiesen wurden, über den Wechsel der "Benutzerrolle" in der Toolbar des Kurses möglich.
     
     Ferner bietet es sich an, dass auch der Besitzer des Kurses sich in den weiteren Rollen im Kurs einträgt um so den Kurs aus einer anderen Perspektive/Rolle zu betrachten.
 
