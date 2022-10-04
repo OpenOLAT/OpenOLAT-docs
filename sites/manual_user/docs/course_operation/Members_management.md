@@ -10,12 +10,12 @@ or privacy policy also take place here.
 
 When you open the members management you will see a tabular list of all users who have access to the course as course or group member. Several tabs filter the member list according to member roles. Under each tab you can view and manage (edit, remove) the corresponding users as well as add or import new persons or send e-mails to one or more persons. You can also export the respective members as Excel table.
 
-![](assets/memberst.png)
+![Members ares](assets/memebers17.png)
 
-The "Search" tab in Member Management can be used to search for members of a
+The "Search" element in Member Management can be used to search for members of a
 course, which is helpful for many participants.
 
-Select the columns that are relevant for you via the 3-point menu and sort the
+Select the columns that are relevant for you via the Zahnrad menu and sort the
 list according to your wishes.
 
 **User information bearbeiten**
@@ -25,7 +25,7 @@ this person, e.g. information about the person's attendance behavior, which
 role he/she plays within the course, in which groups he/she is a member and
 his/her curriculum memberships.
 
-![](assets/Mitlied_bearbeiten1.jpg)
+![Edit memeber](assets/member17.png)
 
 There are three specific course roles:
 
@@ -36,7 +36,7 @@ OpenOlat course. The person who creates a course is automatically the course
 owner. Course owners can also add other owners to the course.
 
   *  **[Coaches](../access_roles_rights/coach.mdd)**  
-Coaches typically play a role in course delivery, but are not involved in
+Coaches typically play a role in course _delivery_, but are not involved in
 course creation. Course coaches have access to the assessment tool and
 statistics, as well as other options and course elements depending on their
 settings.
@@ -62,13 +62,13 @@ selection elements for the corresponding perspective.
 
 Users can be added to a course in several ways:
 
-a) by directly entering them in the member list by the course owner via the
-button "Add member" or "Import members".
+a) by directly entering them in the member list by the course owner via the button "Add member" or "Import members" 
+oder "Externe Mitglieder einladen". In den ersten beiden Fällen werden existierende Openolat Benutzer hinzugefügt. Mit der dritten Option können auch Personen ohne OpenOlat Account der Lernressource hinzugefügt werden.
 
 b) by booking the course by the learner (see [access
 configuration](../course_create/Access_configuration.md))
 
-c) by adding a group
+c) by adding a group. Alle Gruppenmitglieder werden dann dem Kurs hinzugefügt.
 
 d) by a superordinate OpenOlat [Curriculum](../curriculum/Curriculum_Management.md)
 
@@ -99,6 +99,11 @@ are:
 Under Bookings you can view all bookings for this course, sorted by status, if
 the course access is organized via the [booking
 method](../course_create/Access_configuration.md).
+
+## Bereich "Einladungen" 
+Ab :octicons-tag-24: 17.0 verfügbar.
+
+Hier werden alle Personen angezeigt, die über die Option "Externe Mitglieder einladen" (siehe oben) dem Kurs hinzugefügt wurden. 
 
 ##  Rights
 

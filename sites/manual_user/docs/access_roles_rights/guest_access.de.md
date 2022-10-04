@@ -21,8 +21,10 @@ Grundsätzlich können diverse Lernressourcen z.B.  Wikis, Blogs, Glossare, Test
     Der Gastzugang ist nur bei herkömmlichen Kursen, nicht bei Lernpfad Kursen
     aktivierbar.
 
-In einem Kurs kann der Kursbesitzer die Zugangskonfiguration in den
+In einem herkömmlichen Kurs kann der Kursbesitzer die Zugangskonfiguration in den
 "Einstellungen"→ Tab "Freigabe" so einrichten, dass auch Gäste Zugriff auf den Kurs erhalten. Als Einstellung muss dabei die Buchungsmethode aktiviert und in einem zweiten Schritt der Gastzugang ausgewählt werden.
+
+![Gastzugang](assets/Gastzugang_de.png)
 
 Folgende Kursbausteine kann ein Gast sehen bzw. teilweise bearbeiten:
 
@@ -40,7 +42,12 @@ Wenn Sie einem Gast einen direkten Zugriff zu einem Kurs geben, können Sie ihm 
 
 ![Infoseite](assets/guest_infopage_DE.png)
 
+!!! tip "Tipp: Alternative zum Gastzugang"
+
+    Möchten Sie jemanden zu einem OpenOlat Kurs einladen der noch keinen OpenOlat Account besitzt können Sie als Kursbesitzer alternativ auch die Option "Externe Mitglieder einladen" in der Mitgliederverwaltung nutzen. Die eingeladene Person erhält dann einen Registrierungslink und einen eingeschränkten Zugriff auf OpenOlat, hat allerdings mehr Möglichkeiten als ein Gast. 
+
+
 !!! info "Info"
     
-    OpenOlat Administrationen finden auf den Seiten ["Gast und Einladung](../../manual_admin/administration/Guest_and_invitation.de.md) sowie unter "[Customizing](../../manual_admin/administration/Customizing.de.md)" weitere Informationen. 
+    OpenOlat Administrationen finden auf den Seiten ["Gast und Einladung](../../manual_admin/administration/Guest_and_invitation.de.md) sowie unter "[Customizing](../../manual_admin/administration/Customizing.de.md)" weitere Informationen zur Konfiguration von OpenOlat für Gäste. 
     

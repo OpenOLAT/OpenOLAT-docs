@@ -21,6 +21,8 @@ Grundsätzlich können diverse Lernressourcen z.B.  Wikis, Blogs, Glossare, Test
 In a course, the course owner can set up the access configuration in the
 "Settings"→ "Access" tab so that guests can also access the course. Als Einstellung muss dabei die Buchungsmethode aktiviert und in einem zweiten Schritt der Gastzugang ausgewählt werden.
 
+![guest access](assets/Gastzugang_en.png)
+
 The following course elements can be seen by guests:
 
   * **Read only**: CP learning content, blog, wiki, forum, notifications, calendar, single page, external page, file dialog, link list
@@ -38,6 +40,10 @@ external link for the course.
 
 ![Info page](assets/guest_infopage.png)
 
+
+!!! tip "Tipp: Alternative zum Gastzugang"
+
+    Möchten Sie jemanden zu einem OpenOlat Kurs einladen der noch keinen OpenOlat Account besitzt können Sie als Kursbesitzer alternativ auch die Option "Externe Mitglieder einladen" in der Mitgliederverwaltung nutzen. Die eingeladene Person erhält dann einen Registrierungslink und einen eingeschränkten Zugriff auf OpenOlat, hat allerdings mehr Möglichkeiten als ein Gast. 
   
 !!! info "Info"  
 

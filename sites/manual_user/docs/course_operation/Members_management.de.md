@@ -9,16 +9,15 @@ Rechtemanagement und die Verwaltung der Einwilligungen zu kursbezogenen Nutzungs
 
 Wenn Sie die Mitgliederverwaltung öffnen befinden Sie sich im Bereich "Mitglieder" und sehen eine tabellarische Auflistung aller Personen die
 Zugriff auf den Kurs bzw. die Lernressource haben. Über verschiedene Tabs können Sie sich alle oder bestimmte Kursmitglieder z.B. alle Betreuer oder
-ausschließlich die Teilnehmenden anzeigen lassen. Sie können die Rollenzuordnung der Personen bearbeiten, sie aus dem Kurs entfernen oder ihnen eine E-Mail schicken. Des weiteren können Sie die jeweiligen Mitglieder als Excel Tabelle
+ausschließlich die Teilnehmenden anzeigen lassen. Sie können die Rollenzuordnung der Personen bearbeiten, sie aus dem Kurs entfernen oder ihnen eine E-Mail schicken. Des Weiteren können Sie die jeweiligen Mitglieder als Excel Tabelle
 exportieren.
 
-![](assets/Mitglieder2.png)
+![Mitgliederverwaltung](assets/Mitgliederverwaltung17.png)
 
-Über den Tab „Suche“ in der Mitgliederverwaltung kann nach Mitgliedern eines
+Über das Suchfeld kann nach Mitgliedern eines
 Kurses gesucht werden, was bei vielen Teilnehmenden hilfreich ist.
 
-Wählen Sie die für Sie relevanten Spalten über das 3-Punkte Menü aus und
-sortieren Sie die Liste nach Ihren Wünschen.
+Wählen Sie die für Sie relevanten Spalten über das Zahnrad Menü aus und sortieren Sie die Liste nach Ihren Wünschen.
   
 
 **Benutzerinformationen bearbeiten**
@@ -27,7 +26,7 @@ Wenn Sie eine Person aus der Liste auswählen, erhalten Sie weitere
 Informationen zu dieser Person z.B. sehen Sie die Anzahl der Kursaufrufe und
 können der Person weitere Rollen zuordnen.
 
-![](assets/Mitlied_bearbeiten1.jpg)
+![Mitglied](assets/Mitglied17.png)
 
 Es gibt drei spezifische Kurs-Rollen:  
 
@@ -39,14 +38,14 @@ die einen Kurs anlegt ist automatisch Kurs-Besitzer. Kurs-Besitzer können auch
 weitere Besitzer des Kurses hinzufügen.
 
   *  **[Betreuer](../access_roles_rights/coach.de.md)**  
-Betreuer spielen in der Regel bei der Kursdurchführung eine Rolle, sind jedoch
+Betreuer spielen in der Regel bei der _Kursdurchführung_ eine Rolle, sind jedoch
 bei der Erstellung nicht involviert. Kurs-Betreuer haben Zugriff auf das
 Bewertungswerkzeug und die Statistiken sowie je nach Einstellung auf weitere
 Optionen und Kursbausteine.
 
   *  **Teilnehmer**  
 Die Teilnehmer sind in der Regel die Lernenden bzw. Personen, die an einem
-Online-Kurs teilnehmen. Teilnehmer können nur im Rahmen der vom Besitzer
+Online-Kurs teilnehmen. Teilnehmende können nur im Rahmen der vom Besitzer
 bereitgestellten Möglichkeiten agieren. Teilnehmende haben standardmässig keinen
 Zugriff auf die Kurs Administration und die darin enthaltenen Menüs. In einem Lernpfad Kurs sehen nur die Teilnehmer die visualisierte Prozentanzeige rechts oben in der Toolbar.
 
@@ -71,12 +70,12 @@ Perspektive angezeigt.
 Benutzer können auf verschiedene Arten einem Kurs hinzugefügt werden:
 
 a) durch das direkte Eintragen in die Mitgliederliste durch den Kursbesitzer
-über die Button "Mitglied hinzufügen" oder "Mitglieder importieren".
+über die Links "Mitglied hinzufügen", "Mitglieder importieren" oder "Externe Mitglieder einladen". In den ersten beiden Fällen werden existierende OpenOlat Benutzer hinzugefügt. Mit der dritten Option können auch Personen ohne OpenOlat Account der Lernressource hinzugefügt werden.
 
 b) durch Buchung des Kurses durch den Lernenden (siehe
 [Zugangskonfiguration](../course_create/Access_configuration.de.md))
 
-c) durch Hinzufügen einer OpenOlat Gruppe
+c) durch Hinzufügen einer OpenOlat Gruppe. Alle Gruppenmitglieder werden dann dem Kurs hinzugefügt.
 
 d) durch ein übergeordnetes OpenOlat [Curriculum](../curriculum/Curriculum_Management.de.md)
 
@@ -87,7 +86,7 @@ Für die meisten Kurse sind die Varianten a) und b) zu empfehlen.
 Hier können Sie dem Kurs OpenOlat Gruppen hinzufügen, erstellen und aus dem
 Kurs entfernen, sowie die dem Kurs zugehörigen Gruppen tabellarisch anzeigen
 lassen. So erhält man rasch einen Überblick über die kursspezifischen Gruppen
-und die Anzahl der Gruppen Teilnehmenden.
+und die Anzahl der Gruppen-Teilnehmenden.
 
 Klickt man auf einen Gruppennamen oder auf "Ändern" öffnet sich die Gruppe
 selbst in einem neuen OpenOlat-Tab und man gelangt als Gruppen-Betreuer in die
@@ -107,6 +106,11 @@ Typische Beispiele sind:
 Sofern für einen Kurs eine [Buchungsmethode
 ](../course_create/Access_configuration.de.md)  eingerichtet wurde werden unter "Buchungen" alle Buchungen für diesen Kurs angezeigt,
 sortiert nach Status.
+
+## Bereich "Einladungen" 
+Ab :octicons-tag-24: 17.0 verfügbar.
+
+Hier werden alle Personen angezeigt, die über die Option "Externe Mitglieder einladen" (siehe oben) dem Kurs hinzugefügt wurden. 
 
 ##  Bereich "Rechte"
 
@@ -137,8 +141,7 @@ Für die aktivierte Personengruppe erscheint zusätzlich das Menü der Kurs "Adm
   
 **Mitglieder-Verwaltung**
 
-Für die aktivierte Personengruppe erscheint zusätzlich das Menü der Kurs "Administration". Es stehen alle Aktionen der Bereiche "Mitglieder", Gruppen" und "Buchungen" und "Einwilligungen" der Mitgliederverwaltung zur Verfügung aber kein
-Rechtemanagement.  
+Für die aktivierte Personengruppe erscheint zusätzlich das Menü der Kurs "Administration". Es stehen alle Aktionen der Bereiche "Mitglieder", Gruppen" und "Buchungen" und "Einwilligungen" der Mitgliederverwaltung zur Verfügung aber kein Rechtemanagement.  
   
 **Kurseditor**
 
