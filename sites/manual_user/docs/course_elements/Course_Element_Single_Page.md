@@ -18,7 +18,7 @@ in the storage folder of the course.
 
 ## Tab Page content
 
-Hier nehmen Sie die zentrale Konfiguration dieses Kursbausteins vor. There are three possibilities to embed a page's content in your course:
+Here you carry out the central configuration of this course element. There are three possibilities to embed a page's content in your course:
 
   * Create new HTML page online
   * Select any file from the storage folder
