@@ -201,6 +201,9 @@ Members have access to the course database and can create, reset, delete or expo
     Group coaches basically also get access to the [assessment
     tool](Assessment_tool_-_overview.md) and can also assess all members of the group. Furthermore, they may make changes to the coached groups.
 
+=======
+!!! tip "Tip" 
+
     In most cases, it makes more sense to grant additional rights only to the _participants_ of a group.
 
 ##  Consents {: #consent}
@@ -210,6 +213,3 @@ If course-related terms of use or the course-related privacy policy are
 is listed here. Selected consents can be revoked or deleted at this point.
 When revoking, the consent is reset, but the entry is retained. If a user is
 deleted in OpenOlat, all course-related consents of the user are also removed.
-
-  
-

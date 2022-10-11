@@ -201,7 +201,10 @@ Mitglieder können hier Kursdatenbanken erstellen, zurücksetzen, löschen und e
     Gruppenbetreuer erhalten grundsätzlich auch Zugang zum Bewertungswerkzeug und können alle Mitglieder der Gruppe auch bewerten. Ferner dürfen sie Änderungen an den betreuten Gruppen vornehmen. 
     Meist ist es sinnvoller ergänzende Rechte nur an die _Teilnehmenden_ einer Gruppe zu vergeben
 
+=======
+!!! tip "Tipp" 
 
+    Meist ist es sinnvoller ergänzende Rechte nur an die _Teilnehmenden_ einer Gruppe zu vergeben
 
 ##  Bereich "Einwilligungen"  {: #consent}
 
