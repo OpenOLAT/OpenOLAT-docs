@@ -27,33 +27,33 @@ embedding it in your course and activating it for your participants.
     
     ![edit-content-package](assets/editcp.gif){ class="shadow" }
 
-     Nun befindet man sich in der Lernressource CP. Sie wird in einem neuen OpenOlat Tab geöffnet. 
+     Now you are in the learning resource CP. It is opened in a new OpenOlat tab.
 
  - Open the **CP-Editor**:
  
- Gehen Sie in das Menü "Administration" der CP Lernressource und wählen Sie hier **"Inhalt editieren"**. So gelangen Sie in den CP-Editor. Hier können Sie den Inhalt mit Hilfe des HTML-Editors bearbeiten, formatieren und speichern. Sie können auch neue Seiten und Dateien hochladen um Ihr CP zu gestalten. Erstellen Sie hier einen strukturierten Hypertext mit mehreren Seiten.  
+    Go to the menu "Administration" of the CP learning resource and select **"Edit content "**. This way you get to the CP editor. Here you can edit, format and save the content using the HTML editor. You can also upload new pages and files to design your CP. Create a structured hypertext with multiple pages here.   
  
- - Wenn Sie alle gewünschten Änderungen vorgenommen haben, wählen Sie "speichern" und schliessen Sie den CP-Editor. 
+ - When you have made all the desired changes, select "save" and close the CP-editor. 
 
 More information on the available editor features can be found in the **[CP Editor](CP_Editor.md)** chapter.
 
 ## Step 4: Publish the course
 
-Sie müssen nun wieder zurück zum Kurs navigieren, der in einem weiteren Olat Tab noch geöffnet ist. Hier sollten nun noch ein paar weitere Einstellungen vorgenommen werden.
+You must now navigate back to the course, which is still open in another Olat tab. Here you should now configure a few more settings.
 
-- Under "Display" you can determine whether the CP's own component menu should be integrate into course navigation.
+- Under "Display" you can determine whether the CP's own component menu should be integrated into course navigation.
 
-- Konfigurieren Sie bei Bedarf die weiteren Tabs des Kursbausteins.
+- Configure the other tabs of the course element if necessary.
 In the tab "Layout" you define the settings for the display of the CP. The setting options are identical to those of a [single page](Course_Element_Single_Page.md)
 
-- Publizieren Sie anschliessend den Kurs indem Sie in der Breadcrumb-Leiste auf den Kurstitel klicken und den Kurs automatisch oder manuell publizieren.   
+- Then publish the course by clicking on the course title in the breadcrumb bar and publish the course automatically or manually.   
 
-## Step 5: Kurszugang einrichten  
+## Step 5: Set up course access   
 
 The CP is now embedded in your course. 
-Damit Lernende das CP im Kurs sehen und bearbeiten können muss der Kurs den Status "Veröffentlicht" haben und die [Zugangskonfiguration](../course_create/Access_configuration.de.md) sollte passend eingerichtet sein.
+To enable learners to view and edit the CP in the course, the course must have the status "Published" and the [Access configuration](../course_create/Access_configuration.md) should be set up appropriately.
 
-Um das CP weiter zu bearbeiten, können Sie jederzeit wieder bei Schritt 3 ansetzen oder die Lernressource CP direkt im Autorenbereich über den Bereich "Meine Einträge" aufrufen. 
+To edit the CP further, you can always start again at step 3 or access the learning resource CP directly in the author area via the area "My entries".
 
 
 
