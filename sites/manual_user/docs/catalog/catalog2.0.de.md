@@ -1,6 +1,6 @@
 # Katalog 2.0
 
-:octicons-tag-24: Release 17.0 
+:octicons-tag-24: Release 17.0
 
 Der Katalog 2.0 gliedert sich in unterschiedliche Bereiche auf.
 
@@ -17,13 +17,11 @@ Die Startseite ist durch Kategorie-Launcher anpassbar und bietet ein prominentes
 
 ### Launcher
 
-Launcher sind die konfigurierbaren Zeilen der Startseite. Diese können in der Administration beliebig hinzugefügt in der Reihenfolge verändert werden. Standardmässig ist ein Launcher vom Typ "Zuletzt hinzugefügt" aktiviert. Die Launcher kommen in 3 Typen: Statischer Text, Statisch (Manuell auswählen), Taxonomie-Ebenen.
-Allen Launcher kann ich einen sprachabhängigen Namen geben. Dieser Name erscheint dann als Headline über den Kacheln.
-Die Launcher können auch nur für spezifische Organisationen freigegeben werden.
+Launcher sind die konfigurierbaren Zeilen der Startseite. Diese können in der Administration beliebig hinzugefügt in der Reihenfolge verändert werden. Standardmässig ist ein Launcher vom Typ "Zuletzt hinzugefügt" aktiviert. Die Launcher kommen in 3 Typen: Statischer Text, Statisch (Manuell auswählen), Taxonomie-Ebenen. Weitere Informationen darüber im Administrationshandbuch
 
 ### Taxonomie Launcher
 
-Taxonomie Launcher nutzen die Katalogfachbereichsstruktur, um die verschiedenen Taxonomielevel als Baum anzuzeigen. 
+Taxonomie Launcher nutzen die Katalogfachbereichsstruktur, um die verschiedenen Taxonomielevel als Baum anzuzeigen.
 
 ### (Taxonomie-) Microsite
 
@@ -37,7 +35,7 @@ Man kann die Kursliste weiter durch Filter oder Suche verfeinern.
 Bei einer Suche kommt man auf diese Seite. Hier lassen sich durch verschiedene Filter die Suche verfeinern.
 
 **Filter**
-Die Filter der Suchergebnissseite lassen sich unter `Administration > Module > Katalog > Filter` einstellen. Hier kann gewählt werden, welche Filter für Teilnehmer verfügbar sein sollen.
+Die Filter der Suchergebnissseite lassen sich unter `Administration > Module > Katalog > Filter` einstellen. Hier kann gewählt werden, welche Filter für Teilnehmer verfügbar sein sollen. Weitere Informationen finden Sie im [Administrationshandbuch]("../../../../../manual_admin/administration/Modules_Catalog_2.0.de.md")
 
 ## Einrichten und Freigeben neuer Kurse für den Katalog 2.0
 
@@ -48,11 +46,11 @@ Die Filter der Suchergebnissseite lassen sich unter `Administration > Module > K
 
 ### Startseite einrichten
 
-Die Startseite kann unter `Administration > Module > Katalog > Startseite` eingerichtet werden. Hier gibt es die Option rechts oben Launcher hinzuzufügen, um die Startseite anzupassen und zu erweitern
+Die Startseite kann unter `Administration > Module > Katalog > Startseite` eingerichtet werden. Weitere Informationen im Administrationshandbuch.
 
 ### Kurs einem Fachbereich hinzufügen
 
-Auf `Autorenbereich > Kurs > Metadaten` unter "Subjects/Katalog" die gewünschten Bereiche auswählen, in welchen der Katalog erscheinen soll und speichern.
+Auf `Autorenbereich > Kurs > Metadaten` unter "Subjects/Katalog" die gewünschten Bereiche auswählen, in welchen der Katalog erscheinen soll und speichern. Weitere Informationen finden Sie im [Administrationshandbuch]("../../../../../manual_admin/administration/Modules_Catalog_2.0.de.md")
 
 ### Angebot erstellen
 
