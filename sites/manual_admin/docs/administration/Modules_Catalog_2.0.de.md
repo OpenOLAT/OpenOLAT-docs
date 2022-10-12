@@ -48,3 +48,17 @@ Unter Kacheln Taxonomieebenen Launcher, kann man das Aussehen der Kacheln der Mi
 Die Anzeige der Lernressourcen Card steuert, welche Metadaten auf der Card der Startseite angezeigt werden sollen. Diese Metadaten müssen in der jeweiligen Lernressource unter `Einstellungen > Metadaten` ausgefüllt werden.
 
 ![Course card administration Options](assets/course-card-admin.de.jpg){class="lightbox"}
+
+### Verwalten des Kataloges
+
+Der Katalog V2 wird aus der Fachbereichs-Taxonomie gespeist. Benutzer mit der Rolle [Lernressourcenverwalter](../../../../../manual_user/docs/access_roles_rights/index.de.md) und Adminmistratoren können die Verschlagwortung über das Menü verwalten.
+Bei Klick gelangt man auf die Fachbereiche. Dort kann man die aktuelle Taxonomie auswählen, Neue Taxonomieebenen erstellen und importieren und auch Ebenen löschen.
+
+Das löschen der Ebenen löscht nur die Verschlagwortung, keine verknüpften Lernressourcen. Ist diese gelöscht, taucht eine Lernressource nicht mehr im Katalog auf.
+
+!!! warning
+
+    Die Fachbereiche, Verschlagwortung, Taxonomie die man als Lernressourcenverwalter bearbeiten kann, kann auch andere Bereiche betreffen, in denen die Taxonomie benutzt wird. Diese können sein: ePortfolio Einträge, Curriculum Einträge, Dokumentenpool.
+
+
+![Verwaltung der Taxonomie](assets/taxonomy-management.de.jpg){class="lightbox"}

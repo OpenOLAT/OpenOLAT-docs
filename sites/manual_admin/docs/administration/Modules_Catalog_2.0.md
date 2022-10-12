@@ -48,3 +48,16 @@ Under **Tiles Taxonomy Levels Launcher**, one can influence the appearance of th
 The **Learning Resources Card display** controls which metadata should be displayed on the card of the start page. This metadata must be filled in in the respective learning resource under 'Settings > Metadata'.
 
 ![Course card administration Options](assets/course-card-admin.jpg){class="lightbox"}
+
+### Management of subjects,taxonomy
+
+![Management ofTaxonomie](assets/taxonomy-management.jpg){class="lightbox"}
+
+Catalogue V2 is fed from the subject taxonomy, who can be administrated  under ´Administration > Taxonomy´. Users with the role [learning resource manager](../../../../manual_user/docs/access_roles_rights/index.en.md) and administrator can manage the keywording via the menu.
+Clicking takes you to the subjects. There you can select the current taxonomy, create and import new taxonomy levels and also delete levels.
+
+Deleting levels only deletes the keywording, not any linked learning resources. Once deleted, a learning resource no longer appears in the catalogue.
+
+!!! warning
+
+    The subjects, keywording, taxonomy that can be edited as a learning resource administrator can also affect other areas in which the taxonomy is used. These can be: ePortfolio entries, curriculum entries, document pool.
