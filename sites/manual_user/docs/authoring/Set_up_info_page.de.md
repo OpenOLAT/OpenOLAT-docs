@@ -59,7 +59,7 @@ auf der Kursübersichtsseite angezeigt.
  **Fachbereiche**: Sofern definiert, können hier passende Fachbereiche
 ausgewählt werden. Die Fachgebiete werden auch für die Einordnung im Katalog verwendet. Siehe dazu [Katalog 2.0](/catalog2.0.de.md).
 
- **Didaktischer Typ:**   Kurse können hier einer der ausgewählten Kategorien
+ **Durchführungsformat**: Kurse können hier einer der ausgewählten Formate
 zugeordnet werden. Die Zuordnung hat aber keinerlei Auswirkung auf die
 wirkliche Ausgestaltung des Kurses. Auch können die Begriffe von
 unterschiedlichen Autoren verschieden verwendet werden.

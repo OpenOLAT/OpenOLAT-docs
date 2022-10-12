@@ -59,8 +59,8 @@ overview page.
  **Subjects** : If defined, suitable subject areas can be selected here. The subject areas are also used for classification in the catalog. Look further here [Catalog 2.0](/catalog2.0.md).
 
 
- **Educational type:**  Courses can be assigned to one of the selected
-categories here. However, the assignment has no effect on the actual design of
+ **Implementation format** :  Courses can be assigned to one of the selected
+format here. However, the assignment has no effect on the actual design of
 the course. Also, the terms can be used differently by different authors. 
 
  **Main language** : Enter the language in which the learning resource was

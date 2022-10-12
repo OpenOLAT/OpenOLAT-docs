@@ -47,3 +47,4 @@ Are tab views that specifically contain the filters that have been set. There ar
 
 On mobile or with more filter tabs than the browser window allows, the filter line changes to a scrollable slider with overscroll indicator.
 
+## Objects in column
