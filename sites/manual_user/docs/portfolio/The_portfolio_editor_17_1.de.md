@@ -1,6 +1,6 @@
 # Der Portfolio Editor
 
-!!! note ""
+!!! note "Verfügbarkeit"
 
     Ab :octicons-tag-24: Release 17.1. ist dieser Portfolio Editor verfügbar. Er enthält konzeptionelle und UX Verbesserungen, um eine angenehmere Erstellung zu gewährleisten. Alte Portfoliobeiträge können weiterhin geöffnet und bearbeitet werden. Wollen sie einen alten Eintrag mit neuem Inhalt befüllen, benutzen sie dafür die neuen Layouts.
 

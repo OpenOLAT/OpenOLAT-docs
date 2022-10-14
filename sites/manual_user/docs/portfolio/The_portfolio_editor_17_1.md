@@ -1,8 +1,8 @@
 # The Portfolio Editor
 
-!!! note ""
+!!! note "Availability"
 
-    As of :octicons-day-24: release 17.1. this portfolio editor is available. It contains conceptual and UX improvements to ensure a more pleasant creation. Old portfolio entries can be opened and edited.
+    As of :octicons-tag-24: release 17.1. this portfolio editor is available. It contains conceptual and UX improvements to ensure a more pleasant creation. Old portfolio entries can be opened and edited.
 
 ## Controls
 
