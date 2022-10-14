@@ -1,6 +1,6 @@
 # Der Portfolio Editor
 
-##  Portfolio Einträge mit Inhalten gestalten
+## Portfolio Einträge mit Inhalten gestalten
 
 Jedem Portfolio Eintrag können unterschiedliche Inhaltselemente hinzugefügt
 werden.
@@ -14,8 +14,6 @@ bearbeitet werden. Die Bearbeitung ist möglich, solange der Eintrag, indem
 sich das Medium befindet, noch nicht publiziert wurde!
 
 ## Inhalt
-
-  
 
 ### Titel
 
@@ -32,7 +30,6 @@ wobei h1 der "Überschrift 1" entspricht und somit am grössten und h6 der
 Element zum Hinzufügen von Textblöcken. Das Paragraph Element beinhaltet
 zentrale Formatierungen sowie die Möglichkeit den Text auf Spalten zu
 verteilen.
-
 
 ![paragraph.png](assets/Fragebogen_paragraph.png)
 
@@ -66,8 +63,6 @@ Formeln](../personal/Math_formula.de.md) eingefügt werden.
 
 ## Einbinden
 
-  
-
 ### Dokument erstellen
 
 Hier kann ein neues Dokument entsprechend der angegebenen Dateitypen erstellt
@@ -76,17 +71,13 @@ auch direkt online bearbeitet werden.
 
 ![dokument_erstellen.png](assets/portfolio_Dokument_erstellen1.png)
 
-###  Zitat
+### Zitat
 
 Direkt im Eintrag, wie auch in der Mediathek, kann ein Zitat hinzugefügt
 werden. Zuerst wird der entsprechende Zitat Typ ausgewählt und anschliessend
 möglichst jedes vorgegebene Feld ausgefüllt.
 
 ![zitat.png](assets/pf_zitatbeispiel_DE.png)
-
-  
-
-  
 
 ![zitat.png](assets/pf_zitat_DE.png)
 
@@ -110,15 +101,13 @@ direkt online weiter bearbeitet werden.
 
 ### Aus Mediathek wählen
 
-Dateien, welche sich bereits in der [Mediathek ](Media_center.de.md)befinden,
+Dateien, welche sich bereits in der [Mediathek](Media_center.de.md)befinden,
 können hiermit einem Eintrag hinzugefügt werden. Die Such- und Filteroptionen
 helfen, die gewünschte Datei schneller zu finden.
 
 ![aus_mediathek.png](assets/pf_ausmediathekhinzufuegen_DE.png)
 
 ## Layout
-
-  
 
 ### Container
 
@@ -132,10 +121,6 @@ Container Feldes sind möglich.
 
 Ein Separator hilft, die Seite grafisch zu unterteilen. Es wird eine graue
 Linie erstellt, wobei deren Formatierung nicht angepasst werden kann.
-
-  
-
-  
 
 ## Weitere Konfigurationen
 
@@ -162,8 +147,6 @@ Im Änderungsprotokoll werden alle vorgenommenen Änderungen in chronologischer
 Reihenfolge aufgelistet. Die neueste Änderung befindet sich dabei jeweils
 zuoberst.
 
-  
-
 ![aenderungsprotokell.png](assets/pf_aenderungsprotokoll_DE.png)
 
 ### Freigabe
@@ -172,4 +155,3 @@ Unter Freigabe werden Bereiche und Einträge freigegeben. Mehr dazu finden Sie
 [hier](Portfolio_task_and_assignment_Collecting_and_editing.de.md).
 
 ![freigabe.png](assets/portfolio_freigabe.png)
-
