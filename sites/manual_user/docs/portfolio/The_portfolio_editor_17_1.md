@@ -81,7 +81,6 @@ A citation can be added directly in the entry, as well as in the media library.
 can be added. First, select the appropriate citation type and then fill in as many
 then fill in as many of the given fields as possible.
 
-
 ### Document
 
 Various file formats can be uploaded here and provided via link.
@@ -101,5 +100,3 @@ Videos can be uploaded to the portfolio via this link.
 Files that are already in the [Media Library](Media_center.de.md),
 can be added to an entry. The search and filter options
 help to find the desired file faster.
-
-Translated with www.DeepL.com/Translator (free version)
