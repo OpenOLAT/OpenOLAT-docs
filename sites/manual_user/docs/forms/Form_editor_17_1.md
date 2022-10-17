@@ -20,6 +20,7 @@ Once you have created an element, you can also add more elements above or below 
 * **Block Menu**: :material-cog: (from l. to r.) Turn the inspector on and au, :material-content-copy: Duplicate form elements & blocks, Add blocks and move the block at the button using :material-drag-variant: drag n drop to the desired position.
 * **Inspector**: There are all the settings that change the functionality, as well as the appearance of the particular block or layout.
 
+![Gui-Formulareditor](assets/form-editor-gui.jpg){ class="lightbox" }
 
 ### Layout
 
@@ -35,9 +36,8 @@ Currently the following layout templates are available:
 
 The settings for each block are located in the Inspector. On larger screens it opens by default to the right of the selected block. You can show and hide the window by clicking on the :material-cog: settings icon.
 
-By clicking on the title bar of the inspector window you can also move it. When you select a new block, the inspector jumps back to the default position.
+By clicking on the title bar of the inspector window you can also move it around the content space. When you select a new block, the inspector jumps back to the default position.
 
-Translated with www.DeepL.com/Translator (free version)
 
 ## Title
 
