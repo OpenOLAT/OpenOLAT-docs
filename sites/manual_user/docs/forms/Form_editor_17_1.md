@@ -38,7 +38,6 @@ The settings for each block are located in the Inspector. On larger screens it o
 
 By clicking on the title bar of the inspector window you can also move it around the content space. When you select a new block, the inspector jumps back to the default position.
 
-
 ## Title
 
 Inserting headings and formatting with h1 to h6
