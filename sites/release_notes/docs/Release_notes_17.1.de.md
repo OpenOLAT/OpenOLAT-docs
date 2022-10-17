@@ -1,5 +1,4 @@
-# Release Notes 17.1 - :construction: Under construction :construction:
-
+# Release Notes 17.1 - :construction: Under construction :construction
 
 ![Release Grafik](assets/171/press-release-17.1.png)
 
@@ -67,7 +66,7 @@ Für Aufgabenstellungen, die eine längere Bearbeitungsdauer vorsehen, wird oft 
 
 Im Aufgabenbaustein wurde die Möglichkeit ergänzt, eine solche verspätete Abgabe zu konfigurieren. Diese zweite Frist wird den Teilnehmenden auch transparent bei der Bearbeitung der Aufgabe angezeigt.
 
-#### Audio / Video Recorder
+####  Audio / Video Recorder
 
 ## Content Editor
 
@@ -78,7 +77,7 @@ Im Aufgabenbaustein wurde die Möglichkeit ergänzt, eine solche verspätete Abg
 
 ## Neuerungen im Kurs
 
-#### Kursvorschau für Autoren
+####  Kursvorschau für Autoren
 
 #### Teilnehmerordner
 
@@ -98,7 +97,6 @@ Im Aufgabenbaustein wurde die Möglichkeit ergänzt, eine solche verspätete Abg
 § Sortieren nach Organisation etc.
 § Verbesserungen Bulk-Action
 Verbesserung der Importfunktionalitäten?
-
 
 ## Gender Neutralität Teil 1
 
