@@ -63,9 +63,9 @@ zu gestalten und die Zeiten / Termine besser hervorzuheben. Sowohl der Teilnehme
 
 #### Verspätete Abgabe
 
-Für Aufgabenstellungen, die eine längere Bearbeitungsdauer vorsehen, wird oft nach Ablauf der Einreichungsfrist noch ein zusätzlicher späterer Abgabetermin eingeräumt. So werden abgegebene Lösungen auch nach der offiziellen Einreichungsfrist akzeptiert, meist in Verbindung mit einem Punkteabzug.
+Für Aufgabenstellungen, die eine längere Bearbeitungsdauer vorsehen, wird oft nach Ablauf der Einreichungsfrist ein zusätzlicher späterer Abgabetermin eingeräumt. So werden abgegebene Lösungen auch nach der offiziellen Einreichungsfrist akzeptiert, meist in Verbindung mit einem Punkteabzug.
 
-Im Aufgabenbaustein wurde die Möglichkeit ergänzt, eine solche verspätete Abgabe zu konfigurieren. Diese zweite Frist wird den Teilnehmenden auch transparent bei der Bearbeitung der Aufgabe angezeigt.
+Im Aufgabenbaustein wurde die Möglichkeit ergänzt, eine solche verspätete Abgabe zu konfigurieren. Diese Nachfrist wird den Teilnehmenden transparent bei der Bearbeitung der Aufgabe angezeigt. Für Betreuende ist ebenfalls ersichtlich, wenn Teilnehmende ihre Dokumente erst in der Nachfrist eingereicht haben.
 
 #### Audio / Video Recorder
 
