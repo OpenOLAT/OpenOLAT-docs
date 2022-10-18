@@ -38,7 +38,7 @@ Lässt man sich eine Taxonomie anzeigen gelangt man zur folgenden Übersicht:
 
 ## Metadaten
 
-Beim Erstellen werden die Metadaten Bezeichnung und Name, und falls gewünscht
+Beim Erstellen werden die Metadaten Kennzeichen und Name, und falls gewünscht
 die Beschreibung eingetragen. Diese Daten können anschliessend im Tab
 "Metadaten" bearbeitet werden. Hier wird zudem automatisch eine ID erstellt
 und sofern ein externes Verwaltungssystem die Ebenen angelegt hat, wird die
@@ -57,8 +57,8 @@ Zu Ebenentypen werden gewisse Konfigurationen hinzugefügt.
 Im Tab "Ebenentypen" kann mit "Neuer Ebenentyp erstellen" ein neuer Typ
 erstellt werden.
 
-* **Bezeichnung:** Hier wird oft ein Kürzel der entsprechenden Ebene hinzugefügt. Diese Bezeichnung wird in der Tabelle im Tab "Taxonomie" in der Spalte "Ebenentyp" angezeigt. Es ist deshalb empfehlenswert, eine eindeutige und logische Bezeichnung zu wählen.
-* **Anzeigename:** Dieser Name wird unter Modules → Dokumentenpool im Tab Zugangsberechtigung in ausgeschriebener Form angezeigt und kann deshalb länger sein als die Bezeichnung.
+* **Kennzeichen:** Hier wird oft ein Kürzel der entsprechenden Ebene hinzugefügt. Diese Kennzeichen wird in der Tabelle im Tab "Taxonomie" in der Spalte "Ebenentyp" angezeigt. Es ist deshalb empfehlenswert, eine eindeutige und logische Kennzeichen zu wählen.
+* **Anzeigename:** Dieser Name wird unter Modules → Dokumentenpool im Tab Zugangsberechtigung in ausgeschriebener Form angezeigt und kann deshalb länger sein als die Kennzeichen.
 * **CSS class:** Sofern eine entsprechende css class im Theme hinterlegt ist, kann diese hier ausgewählt werden. Es können so nur Icons hinterlegt werden.
 * **Sichtbar:** Hier wird definiert, ob alle Taxonomieebenen von diesem Typ sichtbar sein sollen.
 * **Kompetenzen:** Wenn aktiviert, steht dieser Ebenentyp als Kompetenz zur Verfügung und kann z.B. zur kompetenzbasierten Verschlagwortung in ePortfolio-Einträgen genutzt werden.
@@ -74,7 +74,7 @@ In diesem Tab werden nun die einzelnen Taxonomieebenen erstellt und angezeigt.
 Beim Erstellen werden folgende Angaben benötigt:
 
 * **Pfad**: Mit dem Pfad kann direkt die Position der neuen Taxonomieebene definiert werden.
-* **Bezeichnung**: Als Bezeichnung kann wiederum ein Kürzel für die Ebene verwendet werden.
+* **Kennzeichen**: Als Kennzeichen kann wiederum ein Kürzel für die Ebene verwendet werden.
 * **Anzeigename**: Der Anzeigename ist jener Name, welcher dann im entsprechenden Pool tatsächlich angezeigt wird.
 * **Typ**: Beim Typ wird nun der zuvor definierte Ebenentyp ausgewählt.
 * **Sortierung**: ::octicons-tag-24: *aktuell Beta Feature* Hier können Zahlen eingetragen werden, nach dem die Taxonomien sortiert werden. ( z.B. 1, 2, 3, 4, .. / 01, 02,03,04,...)
