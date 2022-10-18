@@ -1,6 +1,6 @@
 # Release Notes 17.1 - :construction: Under construction :construction
 
-![Release Grafik](assets/171/press-release-17.1.png)
+![Release Grafik 17.1](assets/171/press-release-17.1.png)
 
 * * *
 
@@ -85,18 +85,23 @@ Im Aufgabenbaustein wurde die Möglichkeit ergänzt, eine solche verspätete Abg
 
 #### Weitere Neuerungen
 
-* Navigation in Tabs und Vereinheitlichung der Benennung
+* UX: Navigation in Tabs und Vereinheitlichung der Benennung
 * Lernpfad: Neues Erledigungskriterium “alle Checkboxen”
-* Test Korrektur Verhindern während Testlauf
-* Externe User in Kurs Einladen: Bulk Action
+* Tests:
+    * Korrektur während Testdurchlauf gesperrt
+    * UX: Zusätzlicher Hinweis für Autoren, wenn manuelle Korrektur und sofortige Anzeige der Test-Resultate konfiguriert ist
+* UX: Verbesserte Anzeige und Filterung von Mitgliedern / Nicht-Mitgliedern in der Übersicht und Teilnehmendenliste bewertbarer Bausteine
 * Gäste in Bewertungswerkzeug nicht mehr anzeigen
+* Externe User in Kurs Einladen: Bulk Action
+* UX: Verbesserte Meldung und erweiterte Informationen für Teilnehmende, warum ein Kurs noch nicht zugänglich ist
 
 ## Benutzerverwaltung
 
-§ Umbau Tabelle mit Filtern
-§ Sortieren nach Organisation etc.
-§ Verbesserungen Bulk-Action
+* UX: Umbau Tabelle mit Filtern
+* UX: Sortieren nach Organisation etc.
+* UX: Verbesserungen Bulk-Action
 Verbesserung der Importfunktionalitäten?
+
 
 ## Gender Neutralität Teil 1
 
@@ -106,10 +111,12 @@ Verbesserung der Importfunktionalitäten?
 
 ## Weiteres, kurz notiert
 
+* UX: Optimiertes Labeling zur besseren Unterscheidung von Test-Korrektur im Kurs, Korrektur mit Aufträgen und Noteneinstufung
 * Big Blue Button: Automatisches Löschen von Meetings und Aufzeichnungen
 * SEB: Quit Link Unterstützung
 * Zoom: Option Kalendereinträge zu verhindern
 * Improvements Group Life Cycle
+
 
 * * *
 
