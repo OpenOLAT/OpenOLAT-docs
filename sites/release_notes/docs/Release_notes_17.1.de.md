@@ -14,7 +14,7 @@ Mit OpenOlat 17.1 geben wir unseren nächsten Major Release frei.
 
 ![Anzahl Features und Bugs in Release 17.1](assets/171/Features_Improvements_Labels_DE.png)
 
-Seit Release 17.0 wurden über XX neue Funktionen und Verbesserungen zu OpenOlat hinzugefügt. Hier finden Sie die wichtigsten Neuerungen zusammengefasst. Zusätzlich wurden mehr als 105 Bugs behoben. Die komplette Liste der Änderungen in 17.0 – 17.0.6 finden Sie [hier](Release_notes_17.0.de.md).
+Seit Release 17.0 wurden über 70 neue Funktionen und Verbesserungen zu OpenOlat hinzugefügt. Hier finden Sie die wichtigsten Neuerungen zusammengefasst. Zusätzlich wurden mehr als 100 Bugs behoben. Die komplette Liste der Änderungen in 17.0 – 17.0.6 finden Sie [hier](Release_notes_17.0.de.md).
 
 * * *
 
@@ -66,63 +66,113 @@ Für Aufgabenstellungen, die eine längere Bearbeitungsdauer vorsehen, wird oft 
 
 Im Aufgabenbaustein wurde die Möglichkeit ergänzt, eine solche verspätete Abgabe zu konfigurieren. Diese Nachfrist wird den Teilnehmenden transparent bei der Bearbeitung der Aufgabe angezeigt. Für Betreuende ist ebenfalls ersichtlich, wenn Teilnehmende ihre Dokumente erst in der Nachfrist eingereicht haben.
 
-####  Audio / Video Recorder
+####  Video Recorder
 
-## Content Editor
+Bisher konnten im Aufgabenbaustein Dokumente verschiedener Formate sowie Videos hochgeladen werden. Für einen noch flexibleren Einsatz des Bausteins können neu auch Videos direkt im Baustein erstellt und eingereicht werden. Ein generischer Videoaufnahme-Controller bietet dabei die Funktionalität, eine Live-Aufnahme im Browser über die lokale Computer-Kamera oder separate Handy-Kamera anzufertigen und diese hochzuladen.
 
-* Neue UX
-* Trennung Editor Content und Inspector
-* ePortfolio und Formular
-* Bald als Standard Editor für Inhalte im Kurs
+So können zum einen Betreuende schnell und unkompliziert Video-Aufgabenstellungen bereitstellen, zum anderen können Teilnehmende selbst erstellte Videos als Abgabeformat einreichen. Dies bietet vor allem für Aufgabenstellungen im Sprachbereich oder mit praktischem Anteil neue Möglichkeiten.
+
+## Optimierungen für ePortfolio- und Formular-Editor
+
+Der bestehende Editor zur Erstellung von Formularen und ePortfolio-Einträgen wurde neu gestaltet.
+
+Die bisher verwendeten Container wurden durch eine neue Layout-Komponente ersetzt. So kann schnell und einfach aus den fertigen Vorlagen das gewünschte Layout zusammengesetzt und nachfolgend mit Inhalten gefüllt werden. Zudem wurde der Content Editor zum Hinzufügen von Inhalten und der "Inspector" zur Formatierung von Inhalten getrennt.
+
+Mittelfristig soll der Editor standardmässig zur Erstellung von Kursinhalten zur Verfügung stehen und wird in den folgenden Releases immer weiter ausgebaut.
 
 ## Neuerungen im Kurs
 
-####  Kursvorschau für Autoren
+#### Teilnehmeransicht: Kursvorschau für Autoren und Betreuende
 
-#### Teilnehmerordner
+Kursautoren und -betreuende mussten sich bisher manuell auch die Teilnehmer-Rolle zuwweisen (lassen), um den Kurs aus Sicht der Lernenden einzusehen. Als "echte" Teilnehmende wurden sie dadurch auch in der Liste der Kursmitglieder und im Bewertungswerkzeug aufgeführt.
 
-§ Template Ordnerstruktur
+Mit Release 17.1 wird die Teilnehmeransicht eingeführt. Dieses ist automatisch für Kursbesitzer und -betreuende verfügbar und ermöglicht eine Vorschau des Kurses aus der Teilnehmendenperspektive. Alle Aktivitäten, die in der Teilnehmeransicht durchgeführt werden, werden vom System gepeichert.
 
-#### Weitere Neuerungen
+#### Template Ordnerstruktur im Teilnehmerordner
 
-* UX: Navigation in Tabs und Vereinheitlichung der Benennung
-* Lernpfad: Neues Erledigungskriterium “alle Checkboxen”
+Mit dem Teilnehmerordner können Betreuende individuelle Handouts an Teilnehmende verteilen und auf die eingereichten Dokumente der Teilnehmenden zugreifen.
+
+Neu können Betreuende bereits eine bestimmte Ordnerstruktur im Voraus für die Teilnehmenden anlegen, um die Strukturierung der eingereichten Dokumente zu vereinheitlichen und die Abgabe zu erleichtern.
+
+#### UX / Usability im Kurs
+
+* Einheitliche Benennung der Kurs-Tabs und optimierte Tab-Navigation beim Wechsel zwischen Kursbausteinen
+* Optimierte Darstellung der Bewertungseinstellungen in Kursen
+* Verbesserte Anzeige und Filterung von Mitgliedern / Nicht-Mitgliedern in der Übersicht und Teilnehmendenliste bewertbarer Bausteine
+* Verbesserte Meldung und erweiterte Informationen für Teilnehmende, warum ein Kurs noch nicht zugänglich ist
+
+#### Sonstige Neuerungen
+
 * Tests:
     * Korrektur während Testdurchlauf gesperrt
-    * UX: Zusätzlicher Hinweis für Autoren, wenn manuelle Korrektur und sofortige Anzeige der Test-Resultate konfiguriert ist
-* UX: Verbesserte Anzeige und Filterung von Mitgliedern / Nicht-Mitgliedern in der Übersicht und Teilnehmendenliste bewertbarer Bausteine
-* Gäste in Bewertungswerkzeug nicht mehr anzeigen
-* Externe User in Kurs Einladen: Bulk Action
-* UX: Verbesserte Meldung und erweiterte Informationen für Teilnehmende, warum ein Kurs noch nicht zugänglich ist
+    * Zusätzlicher Hinweis für Autoren, wenn manuelle Korrektur und sofortige Anzeige der Test-Resultate konfiguriert ist
+    * Testarchivierung ohne PDF möglich
+* Lernpfad-Kurs:
+    * Neues Erledigungskriterium “alle Checkboxen”
+    * Kursvorschau (Simulation) für Lernpfadkurse entfernt
+* Anonyme Gäste in Bewertungswerkzeug nicht mehr anzeigen
+* Manuelle Bewertung: Optimierte Bearbeitung von Rubric-Formularen
+* E-Mail Baustein: Gesperrter Betreff für Versendende, wenn vorkonfiguriert
+* Abspiel-Funktion für Audios im Ordner und Aufgabenbaustein sowie beim Upload als Lernressource
+
+* * *
+
+## Gender Neutralität
+
+* Anreden in Mailtexten wie "Sehr geehrte/r", "Liebe/r" und ähnliches einheitlich auf “Guten Tag” geändert (betrifft nur deutsche Texte)
+
+## Accessibility
+
+* Alternativ-Texte bei Bildern
+* Zusätzliche Aria-Tags bei Bildern
+
+* * *
 
 ## Benutzerverwaltung
 
-* UX: Umbau Tabelle mit Filtern
-* UX: Sortieren nach Organisation etc.
-* UX: Verbesserungen Bulk-Action
-Verbesserung der Importfunktionalitäten?
+In der Benutzerverwaltung wurde vor allem Optimierungen aus UX- und Usability-Sicht umgesetzt:
 
+* Überführung der Tabelle in neues Konzept mit verbesserten Filter
+* Anzeige der Organisation(en) zu den Benutzern inklusive Filtermöglichkeit
+* Optimierung der Sammelaktionen inklusive Ergänzung von Benutzerrolle und Organisation
 
-## Gender Neutralität Teil 1
+* * *
 
-## Accessibility
+## Sonstige UX- / Usability-Neuerungen
+
+* Optimierungen für den Group Life Cycle:
+    * Option zum Ausschluss einzelner Gruppen von den automatischen Methoden
+    * Verbesserte Visualisierung pro Gruppe, ob das manuelle oder automatische Löschen greift
+    * Ergänzende Informationen für Filtern und Tabellen und optimiertes Labeling
+* Optimiertes Labeling zur besseren Unterscheidung von Test-Korrektur im Kurs, Korrektur mit Aufträgen und Noteneinstufung
+* Verbesserte Meldung für anonyme Gäste bei Zugriff auf nicht zugängliche Bereiche in OpenOlat
+* Kleinere kosmetische und funktionale Verbesserungen für den Taxonomy Chooser
+* Optimiertes Dropdown-Menü zur Auswahl von Organisationen
+* Optimierte Ausrichtung der zugeordneten Taxonomien in der Kursübersicht
 
 * * *
 
 ## Weiteres, kurz notiert
 
-* UX: Optimiertes Labeling zur besseren Unterscheidung von Test-Korrektur im Kurs, Korrektur mit Aufträgen und Noteneinstufung
+* Externe Benutzer:
+    * Einladung mehrerer externer Personen
+    * Inaktivierung / Reaktivierung von Einladungen
+    * Zahlreiche weitere Optimierungen in Anzeige und Workflow
 * Big Blue Button: Automatisches Löschen von Meetings und Aufzeichnungen
-* SEB: Quit Link Unterstützung
-* Zoom: Option Kalendereinträge zu verhindern
-* Improvements Group Life Cycle
-
+* Zoom:
+    * Option Kalendereinträge zu verhindern
+    * Referenzliste, wo (Kursbaustein, Kurswerkzeug, Gruppenwerkzeug) das Zoom-Profil verwendet wird
+* Content Package:
+    * Systemweiter CSS Header / Footer für PDF-Export
+    * Optionale Benachrichtigung bei inhaltlichen Änderungen an Mitglieder der Kurse, in denen das Content Package referenziert ist
+* SEB Integration: Quit Link Unterstützung
 
 * * *
 
 ## Technisches
 
 * Bibliotheken von Drittanbietern aktualisiert und Code-Bereinigung
+* Performance-Optimierung unter Kurse > "Meine Kurse"
 
 * * *
 
