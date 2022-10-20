@@ -4,7 +4,7 @@
 
 * * *
 
-:material-calendar-month-outline: **Releasedatum: 22.07.2022 • Letztes Update: 12.08.2022**
+:material-calendar-month-outline: **Releasedatum: 22.07.2022 • Letztes Update: 20.10.2022**
 
 * * *
 
@@ -178,6 +178,11 @@ Es können *lokale* (= nur für diese Lücke verfügbare) oder *globale* (= in a
 
 ## Weitere Informationen
 
+* [Jira Release Notes 17.0.7](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=19502)
+* [Jira Release Notes 17.0.6](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=19402)
+* [Jira Release Notes 17.0.5](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=19400)
+* [Jira Release Notes 17.0.4](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=19300)
+* [Jira Release Notes 17.0.3](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=19201)
 * [Jira Release Notes 17.0.2](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=19103)
 * [Jira Release Notes 17.0.1](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=19101)
 * [Jira Release Notes 17.0.0](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=18302)

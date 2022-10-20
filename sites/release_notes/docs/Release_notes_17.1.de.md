@@ -23,12 +23,14 @@ Seit Release 17.0 wurden über 70 neue Funktionen und Verbesserungen zu OpenOlat
 Nach dem Start des Katalogs 2.0 im Release 17.0 wurde dieser weiter verfeinert und das Feedback unserer Community eingearbeitet. Folgende Neuerungen sind nun verfügbar:
 
 * Die Katalog- und Taxonomieverwaltung wird vom Lernressourcenverwalter vorgenommen und kann direkt über den Katalog aufgerufen werden.
-* Launcher für die Katalog-Statseite können auf Organisationseinheiten eingeschränkt und somit nur für User der entsprechenden Organisation freigegeben werden.
+* Launcher für die Katalog-Startseite können auf Organisationseinheiten eingeschränkt und somit nur für User der entsprechenden Organisation freigegeben werden.
 * Für den statischen Text-Launcher, der zum Beispiel als Beschreibung oder Einleitung für den Katalog dient, werden neu auch Media-Elemente wie Bilder und Videos unterstützt.
 * "Leere" Launcher, die keine Lernressourcen-Angebote enthalten, werden ausgeblendet.
 * Freigabe-Konfiguration von Lernressourcen: Die definierten Fachbereiche (= Taxonomie-Ebenen) für die Katalogfreigabe werden auch im Angebot entsprechend aufgeführt.
 * Für die Darstellung der Lernressourcen auf der Katalog-Startseite (= Compact Card View) kann konfiguriert werden, welche zusätzlichen Informationen ausgegeben werden.
 * Die Suche für mehrere Begriffe wurde optimiert.
+
+* * *
 
 ## Authoring Bereich
 
@@ -46,6 +48,8 @@ Der Wizard zur Kurs-Erstellung wurde grundlegend überarbeitet, um die Autorensc
 
 * Über die Sammelaktion "Status ändern" kann der Publikationsstatus gleichzeitig für mehrere ausgewählte Lernressourcen gesetzt werden.
 * Der "Didaktische Typ" heisst nun "Durchführungsformat".
+
+* * *
 
 ## Optimierter und erweiterter Aufgabenbaustein
 
@@ -75,6 +79,8 @@ So können zum einen Betreuende schnell und unkompliziert Video-Aufgabenstellung
 Nicht-frentix Kunden: Achtung -- Transcoding
 -->
 
+* * *
+
 ## Optimierungen für ePortfolio- und Formular-Editor
 
 Der bestehende Editor zur Erstellung von Formularen und ePortfolio-Einträgen wurde neu gestaltet.
@@ -88,6 +94,8 @@ Zudem wurden die Einstellungen vom jeweiligen Inhaltselement (z.B. Paragraph ode
 ![Inspector im Formular-Editor](assets/171/Form_editor_layout_chooser_DE.png){ class="shadow lightbox" }
 
 Mittelfristig soll der Editor standardmässig zur Erstellung von Kursinhalten zur Verfügung stehen und wird in den folgenden Releases immer weiter ausgebaut.
+
+* * *
 
 ## Neuerungen im Kurs
 
@@ -131,6 +139,8 @@ Neu können Betreuende bereits eine bestimmte Ordnerstruktur im Voraus für die 
 ## Gender Neutralität
 
 Diese umfangreiche Thema startet mit den unterschiedlichen Anreden in Mailtexten. Bisher verwendete Anreden wie "Sehr geehrte/r", "Liebe/r" und ähnliches wurden einheitlich auf “Guten Tag” geändert. (betrifft nur deutsche Texte)
+
+* * *
 
 ## Accessibility Initiative
 
@@ -192,4 +202,5 @@ Auch in der Benutzerverwaltung wurden vor allem Optimierungen aus UX- und Usabil
 
 ## Weitere Informationen
 
+* [Jira Release Notes 17.1.1](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=19501)
 * [Jira Release Notes 17.1.0](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=18900)
