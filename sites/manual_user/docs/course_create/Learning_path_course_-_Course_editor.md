@@ -24,7 +24,7 @@ Learning paths, unlike conventional courses, do not have the tabs "Visibility"
 and "Access", but the tab "Learning path". The following things can be
 configured here:
 
-![](assets/learning_path_single_page.png)
+![Learning path](assets/Lernpfad_tab17_en.png)
 
   *  **Mandatory:** The completion of the course element is binding and will be considered in the percentage evaluation.
   *  **Optional:** Completion will not be taken into account when displaying percentages.
@@ -93,6 +93,12 @@ Erledigt wenn der Betreuer dies manuell gekennzeichnet hat. Verfügbar für die 
  * **Enrollment done:** Done if the user has enrolled in one or more group(s). Only for the course element Enrollment  
   
  * **Form filled in**: Only for the course element Form  
+
+  * **Challenges abgeschlossen**: Nur für den Kursbaustein Übung
+
+ * **Bewertung abgeschlossen**: Nur für den Kursbaustein Checkliste
+
+ * **Alle Checkboxen als erledigt markiert**: Nur für den Kursbaustein Checkliste
 
  * **Video watched to the end (95%)**: Only for the course element Video  
  * **E-Mail sent**: Only for the course element E-Mail

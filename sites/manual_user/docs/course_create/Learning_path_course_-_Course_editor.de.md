@@ -27,7 +27,7 @@ Lernpfad Kurse haben im Gegensatz zu herkömmlichen Kursen nicht die Tabs
 „Sichtbarkeit“ und „Zugang“, sondern den Tab „Lernpfad“. Hier können folgende
 Dinge konfiguriert werden:
 
-![](assets/Lernpfad_tab16.png)
+![Tab Lernpfad-Kurs](assets/Lernpfad_tab17_de.png)
 
   * **Durchführung**
     *  **Obligatorisch**: Die Erledigung des Kursbausteins ist verbindlich und wird bei der prozentualen Auswertung des Lernfortschritts berücksichtigt.
@@ -126,6 +126,12 @@ Verfügbar für die Kursbausteine: Bewertung und Checkliste
  Nur für den Kursbaustein Einschreibung  
 
  * **Formular ausgefüllt**: Nur für den Kursbaustein Formular  
+
+ * **Challenges abgeschlossen**: Nur für den Kursbaustein Übung
+
+ * **Bewertung abgeschlossen**: Nur für den Kursbaustein Checkliste
+
+ * **Alle Checkboxen als erledigt markiert**: Nur für den Kursbaustein Checkliste
  
  * **Video bis zum Ende geschaut (95%)**:  Nur für den Kursbaustein Video  
 
