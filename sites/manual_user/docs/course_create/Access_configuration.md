@@ -138,7 +138,7 @@ Booking methods can be adjusted later.
 You can also configure multiple booking methods/offers. These are considered as different options from which the user can choose, in this case make sure that the descriptions are meaningful. For example, course codes can be combined for people from different contexts, or a course can be made free until a certain date and then only accessible with password
 be set up.
 
-!!! warning "booking period =/= implementation period".
+!!! warning "booking period =/= implementation period"
 
     A specified start or end date refers exclusively to the **booking process** not to the implementation period of the learning resource. If a user has booked a resource, the person is entered in the participant list of this resource. From that point on, the system decides whether a person has access to a resource solely on the basis of the participant list. Therefore, expired booking configurations have no influence on a participant list. As the owner of the resource, you can also add or remove a person from the list of participants at any time. In the second case, the user can re-enter the resource as a participant by booking again.
 
