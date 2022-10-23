@@ -12,7 +12,7 @@ b) Click in the dropdown menu "Administration" on "Course editor".
   
 c) In the pop-up "Insert course elements" chose "Portfolio task".
 
-![](assets/pf_course_courseelement_EN.png)  
+![](assets/portfoliovorlage_KB_einfuegen_17_en.png)
 
 d) Insert a short title in the tab "Title and description" and save.  
   

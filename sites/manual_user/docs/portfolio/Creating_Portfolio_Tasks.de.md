@@ -9,11 +9,11 @@ Gehen Sie hierfür wie folgt vor:
 a) Im Autorenbereich unter „Meine Einträge“ Kurs suchen und öffnen.
   
   
-b) Oben im Dropdown-Menü „Administration“ auf „Kurseditor“ klicken.  
+b) Oben im Dropdown-Menü „Administration“ des  Kurses auf „Kurseditor“ klicken.  
 
 c) Oben im Pop-Up „Kursbausteine einfügen“ „Portfolioaufgabe“ wählen.  
 
-![](assets/portfoliovorlage_KB_einfuegen.jpg)  
+![](assets/portfoliovorlage_KB_einfuegen_17_de.png)  
 
 d) Im Tab „Titel und Beschreibung“ kurzen Titel des Kursbausteins eingeben und
 speichern.  
