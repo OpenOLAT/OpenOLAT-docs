@@ -1,7 +1,5 @@
 # General information on forms
 
-Forms can be used for completion surveys, formative feedback, personal assessment, entry expectations and reflection, and many other scenarios.
-
 Forms form the basis for the course elements
 
 * Form

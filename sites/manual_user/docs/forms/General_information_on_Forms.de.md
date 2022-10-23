@@ -1,22 +1,20 @@
 # Allgemeines zu Formularen
 
-Formulare können für Abschlussbefragungen, formatives Feedback, persönliche Einschätzung, Einstiegserwartung und Reflexion und viele weitere Szenarien verwendet werden.
-
 Formulare bilden die Grundlage für die Kursbausteine
 
 * Formular
 * Fragebogen
 * Bewertung (Rubrik Bewertung)
 
-Formular sind auch integrierbar in die Lernressource "Portfolio 2.0 Vorlage". Daraüber hinaus können Formulare komplett kursunabhängig z.B. ergänzend zu einer Präsenz-Veranstaltung als Fragebogen oder Einstiegsformular eingesetzt werden.
+Formulare sind auch integrierbar in die Lernressource "Portfolio 2.0 Vorlage". Darüber hinaus können Formulare komplett kursunabhängig z.B. ergänzend zu einer Präsenz-Veranstaltung als Fragebogen oder Einstiegsformular eingesetzt werden.
 
-Typisch für Formulare ist, dass sie aus einem Informationselement, einer oder mehreren Fragestellungen bestehen und den Usern eine Aktionsmöglichkeit bereitstellen. Beispielsweise kann etwas angekreuzt bzw. eine Auswahl getroffen oder eigenener Text eingefügt werden. Je nach Umsetzung und weiterer Einbindung in einen Kurs sind die Angaben anonym oder personenbezogen.
+Typisch für Formulare ist, dass sie aus einem Informationselement, einer oder mehreren Fragestellungen bestehen und den Usern eine Aktionsmöglichkeit bereitstellen. Beispielsweise kann etwas angekreuzt bzw. eine Auswahl getroffen oder eigener Text eingefügt werden. Je nach Umsetzung und weiterer Einbindung in einen Kurs sind die Angaben anonym oder personenbezogen.
 
 In Formularen stehen viele verschiedene [Fragetypen](../forms/Form_editor_Questionnaire_editor.de.md) wie Rubrik, Einzelauswahl, Mehrfachauswahl, Texteingabe und Datei hochladen zur Verfügung. Jedes Formular besteht aus einer Seite mit einer oder mehreren Fragen bzw. Elementen. Eine Verzweigung ist über [Frageregeln](Question_rules.de.md) ebenfalls möglich.
 
 ## Änderungen an Formularen und eingebundenen Fragebögen
 
-Zu beachten ist, dass sobald ein Formular von einem Teilnehmenden aufgerufen wurde das Formular nur noch eingeschränkt geändert werden kann.
+Zu beachten ist, dass sobald ein Formular im Kurs eingebunden und aufgerufen wurde das Formular nur noch eingeschränkt geändert werden kann.
 
 !!! warning "Achtung"
 

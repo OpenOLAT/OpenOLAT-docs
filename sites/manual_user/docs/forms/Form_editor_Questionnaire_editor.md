@@ -1,12 +1,14 @@
 # Form editor (Questionnaire editor)
 
+!!! info "Hinweis"
+
+    Mit der OpenOlat Version 17.1 wurde der Formular Editor umfangreich geändert. Ausführungen zum aktuellen Formular Editor finden Sie [hier](Form_editor_QUestionnair_editor.de.md). 
+
+    Die folgenden Ausführungen beziehen sich auf den bisherigen Formular Editor.
+
 Select or create a learning resource of the type "Form" and click on "Edit content" in the administration. The editor opens and various options are available via the button "Add content".
 
 As soon as you have created an element, you can also use the plus sign to add further elements above or below an element. Each element can also be duplicated, moved by drag and drop or deleted.
-
-!!! info "Note"
-
-    Since version OpenOlat 16.1, the survey editor is, strictly speaking, the form editor, as the learning resource survey has become the learning resource form.
 
 ## Title
 

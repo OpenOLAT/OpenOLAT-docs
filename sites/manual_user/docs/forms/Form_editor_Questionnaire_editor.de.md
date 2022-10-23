@@ -1,12 +1,14 @@
 # Formular Editor
 
+!!! info "Hinweis"
+
+    Mit der OpenOlat Version 17.1 wurde der Formular Editor umfangreich geändert. Ausführungen zum aktuellen Formular Editor finden Sie [hier](Form_editor_QUestionnair_editor.de.md). 
+
+    Die folgenden Ausführungen beziehen sich auf den bisherigen Formular Editor.
+
 Wählen oder erstellen Sie eine Lernressource vom Typ „Formular“ und klicken Sie in der Administration auf „Inhalt editieren“. Es öffnet sich der Editor und über den Button "Inhalt hinzufügen" stehen verschiedene Möglichkeiten zur Verfügung.
 
 Sobald Sie ein Element erstellt haben, können Sie auch über das Pluszeichen weitere Elemente über oder unter einem Element hinzufügen. Jedes Element kann auch dupliziert, per drag and drop verschoben oder gelöscht werden.
-
-!!! info "Hinweis"
-
-    Seit der Version OpenOlat 16.1 handelt es sich beim Fragebogen Editor um den Formular Editor, da die Lernressource "Fragebogen" in die Lernressource Formular übergegangen ist.
 
 ## Titel
 
