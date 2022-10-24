@@ -1,8 +1,8 @@
 # Question bank possible operations
 
-![](assets/question_bank_operations.png.jpg)
+![Operations in the question bank](assets/question_bank_operations.png.jpg)
 
-##  Lists {: #lists}
+## Lists {: #lists}
 
 Lists allow for you to compile question items taylored to your needs. To do
 this, select the corresponding questions under My questions or a pool and then
@@ -23,16 +23,16 @@ This option directly creates a new test from all chosen questions. The title
 of this new learning resource must be entered. Then the test is available
 under "Authoring - My entries".
 
-##  Export
+## Export
 
 You can export marked questions to different formats. The following options
 are available:
 
-  * Word file for offline testing (incl. correction sheet).
-  * QTI test file for exchange with other compatible LMSs
-  * ZIP file for exchange with other OpenOlat systems or archiving
+* Word file for offline testing (incl. correction sheet).
+* QTI test file for exchange with other compatible LMSs
+* ZIP file for exchange with other OpenOlat systems or archiving
 
-##  Share {: #share}
+## Share {: #share}
 
 Shares items with pools and groups a user has access to.
 
@@ -64,7 +64,7 @@ question database. Copied questions initially have the suffix "(Copy)". In
 addition to "My questions", the copy of the questions that is created in lists
 or shares can also be saved under the respective list or share.
 
-##  Convert
+## Convert
 
 Questions can be converted from the QTI Standard 1.2 to the QTI Standard 2.1.
 Therefore you chose the desired questions in the list. Afterward click on
@@ -77,12 +77,12 @@ the respective list or share in addition to "My questions".
 For more information on converting, see [changing from QTI 1.2 to QTI
 2.1](../tests/Changing_from_QTI_1.2_to_QTI_2.1.md).
 
-##  Author rights {: #rights}
+## Author rights {: #rights}
 
 Use this function to add more authors and thus their access rights to one or
 more items.
 
-##  Remove & Delete
+## Remove & Delete
 
 Item shares can be removed from lists, pools, and groups without deleting the
 original question in the question database. Using the "Remove" button only
@@ -94,7 +94,7 @@ are affected.
 In order to irrevocably remove an item from all lists, groups and pools, you
 have to delete the item in your question database under "My questions".
 
-##  Change metadata {: #metadata}
+## Change metadata {: #metadata}
 
 Metadata about items can be either adapted in an items detail view or with
 this function. The "Change metadata" function allows you to adjust single
@@ -109,4 +109,3 @@ table row of the corresponding item by clicking into the row.
 In order to edit a question and view all available metadata, click in the
 preview pane on the "Details" button. If you are navigating in your question
 database, you can open the item editor with the "Edit" button.
-

@@ -1,8 +1,8 @@
 # Mögliche Aktionen im Fragenpool
 
-![](assets/Fragenpool_aktionen.png)
+![Aktionen im Fragenpool](assets/Fragenpool_aktionen.png)
 
-##  Listen {: #lists}
+## Listen {: #lists}
 
 Listen gestatten Ihnen die Sammlung von Frageitems nach Ihren persönlichen
 Kriterien. Wählen Sie dazu unter Meine Fragen oder einem Pool die
@@ -28,16 +28,16 @@ Lernressource Test erstellt. Es kann dann sogleich der Titel der Lernressource
 eingetragen werden. Dieser Test befindet sich anschliessend im Autorenbereich
 unter Meine Einträge.
 
-##  Export
+## Export
 
 Markierte Fragen können Sie in verschiedene Formate exportieren. Folgende
 Möglichkeiten stehen zur Verfügung:
 
-  * Word Datei für offline Prüfung (inkl. Korrekturblatt)
-  * QTI Testdatei für Austausch mit anderen kompatiblen LMS
-  * ZIP Datei für Austausch mit anderen OpenOlat Systemen oder Archivierung
+* Word Datei für offline Prüfung (inkl. Korrekturblatt)
+* QTI Testdatei für Austausch mit anderen kompatiblen LMS
+* ZIP Datei für Austausch mit anderen OpenOlat Systemen oder Archivierung
 
-##  Freigeben {: #share}
+## Freigeben {: #share}
 
 Vorab markierte Items können mit dieser Funktion zu Gruppen oder Pools
 hinzugefügt werden auf die der Benutzer Zugriff hat.
@@ -57,7 +57,7 @@ Personen grundsätzlich zunächst das Recht auf den Zugriff zum Fragenpool
 besitzen müssen. Beispielsweise besitzen normale Benutzer normalerweise nicht
 das Zugriffsrecht auf den Fragenpool.
 
-Der [Poolverwalter ](Question_Bank_Administration.de.md)(eine
+Der [Poolverwalter](Question_Bank_Administration.de.md) (eine
 spezifische OpenOlat Rolle) kann eine unbegrenzte Anzahl an Pools anlegen.
 Diese können entweder öffentlich, und damit für alle Benutzer sichtbar sein,
 oder privat. Die Anzahl der angezeigten Pools kann daher von Benutzer zu
@@ -75,7 +75,7 @@ Kopie der Fragen, welche in Listen oder Freigaben erstellt wird, kann
 zusätzlich zu "Meine Fragen" auch unter der jeweiligen Liste oder Freigabe
 abgespeichert werden.
 
-##  Konvertieren
+## Konvertieren
 
 Fragen im QTI Standard 1.2 sollten in den QTI Standard 2.1 konvertiert werden.
 Wählen Sie dazu die gewünschten Fragen in der Liste aus. Klicken Sie
@@ -89,12 +89,12 @@ brauchen nicht konvertiert zu werden.
 Weitere Informationen zum Konvertieren finden Sie unter "[Von QTI 1.2 zu QTI
 2.1"](../tests/Changing_from_QTI_1.2_to_QTI_2.1.de.md).
 
-##  Autorenrechte {: #rights}
+## Autorenrechte {: #rights}
 
 Weitere Autoren - und damit deren Zugriffsrechte - fügen Sie hier zu einer
 oder mehreren Fragen hinzu.
 
-##  Entfernen bzw. Löschen
+## Entfernen bzw. Löschen
 
 Items können von Listen, Pools und Gruppenfreigaben entfernt werden, ohne die
 Originalfrage unter Meine Fragen zu löschen. Mit der Schaltfläche „Entfernen“
@@ -108,7 +108,7 @@ Um eine Frage endgültig von allen Listen, Gruppen und Pools zu löschen, müsse
 Sie die entsprechende Frage in Ihrem Fragenpool unter "Meine Fragen" löschen.
 Dort wird sie endgültig gelöscht und kann nicht mehr wiederhergestellt werden.
 
-##  Metadaten ändern {: #metadata}
+## Metadaten ändern {: #metadata}
 
 Metainformationen zu Fragen können hier oder in der Detailansicht eines Items
 angepasst werden. Mit der Funktion „Metadaten ändern“ können einzelne
@@ -117,8 +117,7 @@ Detailansicht der Fragen zu öffnen. So gemachte Änderungen können hier nicht
 mehr rückgängig gemacht werden. Für weitere Anpassungen muss jede Frage
 einzeln aufgerufen werden. Weitere Informationen zu den einzelnen Metadaten
 finden Sie im Kapitel "Detailansicht einer Frage" \-
-[Metadaten](../display/OO161DE/Detailansicht+einer+Frage.html#DetailansichteinerFrage-
-item_details_metadaten).
+[Metadaten](Item_Detailed_View.de.md#ItemDetailedView-item_details_metadaten).
 
 Um die Vorschau eines Items und eine Übersicht der wichtigsten Metadaten zu
 erhalten, klicken Sie auf das Auge.
