@@ -16,7 +16,7 @@ Informationen betreffend OpenOlat, seiner Funktionen und neuesten Änderungen fi
 
 ## Ältere Versionen:
 
-- [OpenOlat 17.0 Benutzerhandbuch](manual_user/general/) | [Release Notes 17.0](release_notes/Release_notes_17.0.de.md)
+- [OpenOlat 17.0 Benutzerhandbuch](/archive_mkdocs/17.0/de/manual_user/general/) | [Release Notes 17.0](release_notes/Release_notes_17.0.de.md)
 - [OpenOlat 16.2 Benutzerhandbuch](/archive_mkdocs/16.2/de/manual_user/general/) | [Release Notes 16.2](release_notes/Release_notes_16.2.de.md)
 - [OpenOlat 16.1 Benutzerhandbuch](/archive_confluence/display/OO161DE.html) | [Release Notes 16.1](release_notes/Release_notes_16.1.de.md)
 - [OpenOlat 16.0 Benutzerhandbuch](/archive_confluence/display/OO160DE.html) | [Release Notes 16.0](release_notes/Release_notes_16.0.de.md)
