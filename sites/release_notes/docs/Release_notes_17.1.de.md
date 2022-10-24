@@ -20,7 +20,7 @@ Seit Release 17.0 wurden über 70 neue Funktionen und Verbesserungen zu OpenOlat
 
 ## Katalog 2.0 - Verbesserungen und Ergänzungen
 
-Nach dem Start des Katalogs 2.0 im Release 17.0 wurde dieser weiter verfeinert und das Feedback unserer Community eingearbeitet. Folgende Neuerungen sind nun verfügbar:
+Nach dem Start des [Katalogs 2.0](../manual_user/catalog/catalog2.0.de.md) im Release 17.0 wurde dieser weiter verfeinert und das Feedback unserer Community eingearbeitet. Folgende Neuerungen sind nun verfügbar:
 
 * Die Katalog- und Taxonomieverwaltung wird vom Lernressourcenverwalter vorgenommen und kann direkt über den Katalog aufgerufen werden.
 * Launcher für die Katalog-Startseite können auf Organisationseinheiten eingeschränkt und somit nur für User der entsprechenden Organisation freigegeben werden.
@@ -83,7 +83,7 @@ Nicht-frentix Kunden: Achtung -- Transcoding
 
 ## Optimierungen für ePortfolio- und Formular-Editor
 
-Der bestehende Editor zur Erstellung von Formularen und ePortfolio-Einträgen wurde neu gestaltet.
+Der bestehende Editor zur Erstellung von [Formularen](../manual_user/forms/Form_editor_17_1.de.md) und [ePortfolio](../manual_user/portfolio/The_portfolio_editor_17_1.de.md)-Einträgen wurde neu gestaltet.
 
 Die bisher verwendeten Container wurden durch eine neue Layout-Komponente ersetzt. So kann schnell und einfach aus den fertigen Vorlagen das gewünschte Layout zusammengesetzt und nachfolgend mit Inhalten gefüllt werden.
 
