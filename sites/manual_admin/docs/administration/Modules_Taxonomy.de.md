@@ -8,8 +8,8 @@
     Taxonomie kann in mehreren OpenOlat Bereichen aktiviert und eingesetzt werden:
 
     * [Dokumentenpool](Modules_Document_pool.de.md)
-    * [Fragenpool](../../../manual_user/docs/question_bank/index.de.md)
-    * [ePortfolio](../../../manual_user/docs/portfolio/Competences_tags.de.md)
+    * [Fragenpool](../../manual_user/question_bank/index.de.md)
+    * [ePortfolio](../../manual_user/portfolio/Competences_tags.de.md)
     * Verknüpfung mit Lernressourcen
 
  Die Verwendung der Taxonomie in OpenOlat wird laufend erweitert.

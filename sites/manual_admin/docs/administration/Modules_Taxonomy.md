@@ -8,8 +8,8 @@
 	Taxonomy can be activated and used in several OpenOlat areas:
 	
 	  * [Document pool](Modules_Document_pool.md)
-	  * [Question bank](../../../manual_user/docs/question_bank/index.md)
-	  * [ePortfolio](../../../manual_user/docs/portfolio/Competences_tags.md)
+	  * [Question bank](../../manual_user/question_bank/index.md)
+	  * [ePortfolio](../../manual_user/portfolio/Competences_tags.md)
 	  * Linking with learning resources
 	
 	The usage of the taxonomy will be developed continuously.
@@ -21,7 +21,6 @@
 Example of a taxonomy structure according to subjects for the document pool:
 
 ![](assets/Taxonomie_Struktur_DE.png){ class="shadow lightbox" }
-
 
 Directly on the overview page a new taxonomy can be created. If a subject
 structure has already been created in the question pool, it will be shown here
@@ -42,8 +41,6 @@ When creating the metadata identifier, name and if desired a description can
 be inserted. These data can be edited in the tab "Metadata" afterward.
 Additionally an ID is created automatically and if an external management
 system has created the taxonomy, an external ID is created as well.
-
-  
 
 ## Level types
 
@@ -93,7 +90,7 @@ been added in the release 12.2.
 4 different competences are distinguished. Following they are outlined
 shortly:
 
-  * Teach: A user with teach competence is qualified in this competence. Mostly this means he has a certain expert knowledge which he can hand over. Therefore learners will never have teach competences as the teach competence cannot be gained in OpenOlat. The teach competence is either added to a user manually or by an external management system. This competence manages the access to the [document pool](https://confluence.openolat.org/display/OO123DE/Modules%3A+Document+pool) as well as to the question bank.
+  * Teach: A user with teach competence is qualified in this competence. Mostly this means he has a certain expert knowledge which he can hand over. Therefore learners will never have teach competences as the teach competence cannot be gained in OpenOlat. The teach competence is either added to a user manually or by an external management system. This competence manages the access to the [document pool](Modules_Document_pool.md) as well as to the question bank.
   * Manage: User can have a managing function for a certain area of the taxonomy. Therefore the must not have teach competence at the same time. This competence is mainly used in the question bank.
   * Have: This competence is not yet used in OpenOlat. In the future this competence can be gained by a learner through learning activities in OpenOlat (e.g. test). This competence has an expiry date.
   * Target: This competence is not yet used in OpenOlat. A learner has a target he wants to reach. It is the target to gain this competence.
@@ -104,4 +101,3 @@ shortly:
 
 All deleted elements of the tab "Taxonomy" end up here. For the moment they
 cannot be reset.
-

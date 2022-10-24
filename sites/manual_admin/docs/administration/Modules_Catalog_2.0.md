@@ -53,7 +53,7 @@ The **Learning Resources Card display** controls which metadata should be displa
 
 ![Management ofTaxonomie](assets/taxonomy-management.jpg){class="lightbox"}
 
-Catalogue V2 is fed from the subject taxonomy, who can be administrated  under ´Administration > Taxonomy´. Users with the role [learning resource manager](../../../../manual_user/docs/access_roles_rights/index.en.md) and administrator can manage the keywording via the menu.
+Catalogue V2 is fed from the subject taxonomy, who can be administrated  under ´Administration > Taxonomy´. Users with the role [learning resource manager](../../manual_user/access_roles_rights/index.md) and administrator can manage the keywording via the menu.
 Clicking takes you to the subjects. There you can select the current taxonomy, create and import new taxonomy levels and also delete levels.
 
 Deleting levels only deletes the keywording, not any linked learning resources. Once deleted, a learning resource no longer appears in the catalogue.
