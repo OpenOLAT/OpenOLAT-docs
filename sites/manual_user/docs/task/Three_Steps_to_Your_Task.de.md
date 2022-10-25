@@ -42,6 +42,10 @@ wie Sie vorgehen müssen, bevor Sie mit Hilfe der folgenden Anleitung Ihre Aufga
 
 2. Im Tab "Aufgabenstellung“ entweder die zuvor erstellte(n)
    Aufgabendatei(en) hochladen oder direkt erstellen.
+
+   Über "Video-Aufgabe erstellen" können Sie direkt mit Ihrer Webcam Aufgaben als Video aufnehmen und bereitstellen.
+
+       ![Tab Aufgabenstellung](assets/task_configuration_DE.png){ class="shadow" }
      
      Sie können festlegen, ob auch Kurs-Betreuer Aufgaben hochladen dürfen, ob
      Aufgaben automatisch zugewiesen oder vom Lerner manuell gewählt werden, ob

@@ -43,6 +43,10 @@ tasks by means of the following instruction.
 2. Upload your previously created task file(s) or create them directly in the
    "Assignment" tab.
 
+   Use "Create Video Task" to record your tasks as a video directly with your webcam.
+
+       ![Tab Assignment](assets/task_configuration.png){ class="shadow" }
+
      You can decide if course coaches are allowed to upload assignments by
      themselves, if assignments are assigned automatically or chosen by the
      participant manually and if an assignment is assigned only to one user/group

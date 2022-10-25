@@ -3,7 +3,7 @@
 Go to your course, open the course editor and add a course element Task or go
 to an already inserted task element.
 
-Die Tabs "Titel und Beschreibung" sowie "Layout" finden sich bei allen Kursbausteinen. Hier können Sie Informationen zum Baustein hinterlegen und die Darstellung konfigurieren. Im Folgenden werden die weiteren zentralen Tabs für den Kursbaustein Aufgabe erläutert.
+The tabs "Title and description" and "Layout" are available for all course elements. Here you can enter information about the course element and configure its display. In the following, the other central tabs for the course element Task will be explained.
 
 ##  Tab: "Learning path"
 
@@ -14,11 +14,11 @@ ones are not.
 Furthermore, you can define a time period in which the task can be processed. Outside this period, the task will be displayed in the left
 navigation, but it will not be accessible.
 
-Das Freigabedatum kann verwendet werden, wenn der Kursbaustein erst zu einem bestimmten Datum geöffnet und gestartet werden soll.
+The release date can be used if the course element is to be opened and started only on a certain date.
 
-Die Zeitangabe unter "Zu bearbeiten bis" bezieht sich auf die Frist für das Abholen bzw. den Start des Kursbausteins Aufgabe, nicht auf den Abgabetermin für den Dateiupload (siehe Workflow).
+The time entered under "To be edited by" refers to the deadline for picking up or starting the course element Task, not to the deadline for file upload (see Workflow).
 
-Bei der Bearbeitungszeit kann die geschätzte Zeit, die ein User für die Bearbeitung des Kursbausteins benötigt, eingetragen werden. Ein Eintrag ist vor allem relevant, wenn sich der Fortschritt im Kurs auf die Bearbeitungszeit der Kursbausteine bezieht (siehe Administration -> [Einstellungen](../course_create/Course_Settings.md) -> Tab "Durchführung")
+In the case of the processing time, the estimated time a user needs to process the course element can be entered. An entry is especially relevant if the progress in the course refers to the processing time of the course elements (see Administration -> [Settings](../course_create/Course_Settings_DE.md) -> Tab "Execution"). 
 
 The Learning Path tab also defines which criterion must be met for the task to
 be considered "completed". The following options are available:
@@ -89,16 +89,15 @@ groups even if they already have started the assignment.
 
 ## Tab: "Assignment"
 
-Im Tab „Aufgabenstellung“ können Sie
+In the "Assignment" tab you can
 
-a) außerhalb von OpenOlat erstellte Aufgaben als Datei hochladen (Aufgabe hinzufügen),
+a) upload tasks created outside of OpenOlat (upload assignment)
 
-b) Dateien direkt in OpenOlat mit dem OpenOlat HTML-Editor oder eventuell weiteren zur Verfügung stehenden Editoren erstellen (Aufgabe erstellen) oder
+b) Create files directly in OpenOlat with the OpenOlat HTML editor or possibly other available editors (create task) or
 
-c) direkt mit Ihrer Webcam Aufgabenstellungen als Video aufnehmen (Video-Aufgabe erstellen).
+c) record tasks as a video directly with your webcam (Create video task).
 
-Sie können ihren Benutzern für eine Aufgabe auch mehrere Dateien zur Verfügung
-stellen. Dafür müssen diese aber als ZIP-Paket hochgeladen werden. 
+You can also provide your users with several files for one task. For this, however, they must be uploaded as a ZIP package. 
 
 If a task is created with the internal
 OpenOlat editor, multiple files such as images or PDF files can be provided by
@@ -116,8 +115,8 @@ automatically assigned to him/her by random selection.
     considered as multiple different tasks. It is _not_ a task with several
     complementary files.
 
-Wählen Sie im Feld „Typ der Ziehung“, ob mehrere Kursteilnehmende die gleiche
-Aufgabe lösen können, oder ob jeder Kursteilnehmer bzw. Kursteilnehmerin eine andere Aufgabe lösen soll. Wenn die Aufgabe manuell gewählt wird, können Sie im Feld „Vorschau“ weiter festlegen, ob die Kursteilnehmenden vor der Wahl einer Aufgabe diese einsehen dürfen. 
+Select in the field "Type of drawing" if several course participants can solve the same task or if each
+task or if each student should solve a different task. If the task is selected manually, you can further specify in the "Preview" field whether the course participants are allowed to view the task before selecting it.  
 In case course participants must all work on different tasks, you have to offer at least the same number of tasks as there are course participants.
 
 In the field "Message for user" you can provide general information for all
@@ -154,7 +153,7 @@ course participants will have to have their documents ready for upload in an
 established file format. Enter a number in the field "Max. number of
 documents" in order to restrict the number of documents uploaded.
 
-Es ist nun auch möglich Videoaufnahmen per Webcam als Abgabe zuzulassen. Im Tab "Abgabe" können Sie die max. Länge der Aufzeichnung sowie die Videoqualitätsstufe bestimmen. Das ermöglicht es Lernenden statt eines schriftlichen Dokuments direkt ein Video-Statement einzureichen. 
+It is now also possible to accept video recordings via webcam as a delivery. In the "Submission" tab, you can determine the maximum length of the recording as well as the video quality level. This allows learners to submit a video statement directly instead of a written document. 
 
 In the "Submission confirmation" segment you will find the standard phrase to
 confirm that course participants have submitted their solutions successfully.
@@ -173,11 +172,11 @@ Soll es Punkte geben? Soll es ein bestanden/nicht bestanden für den Kursbaustei
 
 By default a tutor can assess tasks by means of "Passed/failed." Das Bestehen kann entweder manuell durch den Betreuer definiert werden oder, sofern auch Punkte für die Aufgabe vergeben werden, sich auf eine bestimmte Punktzahl beziehen. 
 
-Wenn Punkte vergeben werden, müssen die minimale und die maximale Punktzahl angegeben werden. Zusätzlich können Sie dann auch die Option "Bewertung mit Einstufung/Noten" wählen. So können den jeweiligen Punkten bestimmte Beweruntsskalen wie Level, Noten, (Kompetenz-)Stufen oder Label zugeordnet werden. Die zur Verfügung stehenden Bewertungsskalen werden vom OpenOlat Administrator definiert und können über den Button "Bewertungsskala bearbeiten" ausgewählt sowie die Punkte im Detail angepasst werden. Ferner muss definiert werden ob die Zuordnung zur berechneten Einstufung manuell durch den Betreuer erfolgt oder automatisch bei Punktänderung angezeigt werden soll. 
+If points are awarded, the minimum and maximum number of points must be specified. In addition, you can then also select the "Evaluation with rating/grades" option. In this way, certain rating scales such as levels, grades, (competence) levels or labels can be assigned to the respective points. The available rating scales are defined by the OpenOlat administrator and can be selected via the button "Edit rating scale" and the points can be adjusted in detail. Furthermore, it has to be defined if the assignment to the calculated rating is done manually by the supervisor or if it should be displayed automatically when the points are changed. 
 
-Im Tab Bewertung kann auch definiert werden ob das Ergebnis des konkreten Aufgabenbausteins bei der Bewertung des gesamten Kurses inbegriffen ist oder ausgeschlossen werden soll. 
+In the tab Evaluation you can also define whether the result of the concrete task element is included in the evaluation of the entire course or should be excluded. 
 
-Optional können sie noch die Möglichkeit für individuelle Kommentare oder individuelle Bewertungsdokumente aktivieren, so dass Betreuer noch weitere flexible Rückmeldungsmöglichkeiten erhalten. 
+Optionally, you can activate the option for individual comments or individual assessment documents, so that tutors have even more flexible feedback options. 
 
 In addition you can provide further
 information in the fields "Notice for all users" and "Notice for tutors," e.g.
@@ -202,12 +201,12 @@ Highscore tab can also be configured in more detail. You can specify the start
 date and define which elements are displayed and whether the display should be
 anonymous.
 
-Weitere Informationen zu diesem Tab, der in mehreren Kursbausteinen zur Verfügung steht, finden Sie [hier](../course_elements/Assessment.de.md#highscore--highscore).
+For more information on this tab, which is available in several course elements, see [here].(../course_elements/Assessment.md#highscore--highscore).
 
-## Tab "Erinnerungen"
-Erstellen Sie bei Bedarf Erinnerungen zur Bearbeitung des Kursbausteins für die Teilnehmenden. 
+## Tab "Reminders"
+If required, create reminders for participants to work on the course element. 
 
-Weitere Informationen zu diesem Tab, der in mehreren Kursbausteinen zur Verfügung steht, finden Sie [hier](../course_operation/Course_Reminders.de.md).  
+For more information on this tab, which is available in several course elements, see [here](../course_operation/Course_Reminders.md).    
 
   
 
