@@ -1,6 +1,13 @@
 # Rubrik
 
-Ein Rubrik ist in OpenOlat ein Element der Lernressource Formular. Rubriks bieten sich an, wenn Sie mehrere Fragen für die gleiche Bewertungsskala verwenden wollen. Der Anwendungsbereich von Rubrik Bewertungen ist gross. Generell können Rubrik Elemente in allen Formularen und für sämtliche Kursbausteine und Lernressourcen, die Formulare nutzen, verwendet werden. Besonders relevant sind sie allerdings für den [Einsatz im Kursbaustein "Bewertung"](Forms_in_Rubric_Scoring.de.md) und in der [Portfolio 2.0 Vorlage](Forms_in_the_ePortfolio_template.de.md).
+Ein Rubrik ist in OpenOlat ein Element der Lernressource Formular. Rubriks bieten sich an, wenn Sie mehrere Fragen für die gleiche Bewertungsskala verwenden wollen. Der Anwendungsbereich von Rubrik Bewertungen ist gross. Generell können Rubrik Elemente in allen Formularen und für sämtliche Kursbausteine und Lernressourcen, die Formulare nutzen, verwendet werden. Konkret sind das:
+
+* [Kursbaustein Umfrage](Forms_in_Questionnaires.de.md)
+* [Kursbaustein Formular](Forms_in_Forms_Element.de.md)
+* [Kursbaustein Bewertung"](Forms_in_Rubric_Scoring.de.md)
+* [Portfolio 2.0 Vorlage](Forms_in_the_ePortfolio_template.de.md)
+
+## Einsatzbeispiele für Rubriks
 
 In OpenOlat können Rubriks z.B. eingesetzt werden um
 
@@ -28,13 +35,13 @@ Rubriks können über „Inhalt hinzufügen“ einem OpenOlat Formular hinzugef�
 
 ## Rubrik Konfiguration im Formular Editor
 
-![Rubrik Editor](assets/Rubrik_14.jpg){ class="shadow lightbox" }
+![Rubrik Editor](assets/formular_rubik17a.png){ class="shadow lightbox" }
 
 Es werden drei verschiedene Typen bzw. Darstellungsvarianten von Rubriks unterschieden:
 
 ![Rubrik Varianten](assets/Rubrik_Typ.jpg){ class="shadow lightbox" }
 
-Die Anzahl der Schritte definiert die Anzahl der Rubrik-Spalten. Geben Sie im Bereich „Spaltenbeschriftung“ eine sinnvolle Bewertungsskala ein z.B. sehr gut, gut mittel, schlecht, sehr schlecht. Jede Spalte ist immer mit einem bestimmten Wert verbunden, der in den erweiterten Einstellungen konkreter spezifiziert werden kann.
+Die Anzahl der Schritte definiert die Anzahl der Rubrik-Spalten. Geben Sie im Bereich „Spaltenbeschriftung“ für jede Spalte eine sinnvolle Bewertungsskala ein z.B. sehr gut, gut mittel, schlecht, sehr schlecht. Jede Spalte ist immer mit einem bestimmten Wert verbunden, der in den erweiterten Einstellungen konkreter spezifiziert werden kann.
 
 Geben Sie im Bereich der Zeilen einzelne Kriterien, Statements oder Fragestellungen, die zu Ihrer Skala passen. Weitere Zeilen werden über „Frage hinzufügen“ ergänzt. Sie können auch durch Klick auf den Pfeil, rechts einen Skalenbereich ergänzen.  
 
@@ -50,10 +57,13 @@ Ein bearbeitetes Rubrik kann somit auch automatisch eine entsprechende Punktzahl
 
 ## Erweiterte Konfiguration
 
-Wenn Sie die „Erweiterte Konfiguration“ aktivieren stehen Ihnen folgende zusätzliche Optionen zur Verfügung:
+Mit Klick auf das Zahnrad erscheint das Konfigurationsmenü für das Rubrik und Sie können über die Tabs "Generell" und "Erweitert" das Rubrik differenzierter konfigurieren. 
 
-![Rubrik erweitere Konfiguration](assets/Rubrik_erweitert.png){ class="shadow lightbox" }
+Wenn Sie den Tab „Erweitert" aktivieren stehen Ihnen folgende zusätzliche Optionen zur Verfügung:
 
-Sie können dem Rubrik einen Namen geben, was Ihnen später die Zuordnung bei der Auswertung erleichtert. Zusätzlich kann der Name bei Bedarf auch direkt im Fragebogen angezeigt werden. Unter Skalentyp können Sie die Art der verwendeten Likert –Skala näher bestimmen und somit auch den Wertebereich definieren: Legen Sie fest an welchem Ende der Skala sich die positive Bewertung befindet und definieren Sie bei Bedarf die Bereiche für ungenügend, neutral und gut. Diese Information wird in der Auswertung berücksichtigt.
+![Erweitertes Rubrik Einstellungen](assets/Rubric_erweitert.png){ class="shadow lightbox" }
 
-Mit dem Button „Speichern“ schliessen Sie den Rubrik-Editorbereich. Anschließend kann das erstellte Rubrik wie jedes Fragebogenelement verschoben werden.
+Sie können dem Rubrik einen Namen geben, was Ihnen später die Zuordnung bei der Auswertung erleichtert. Zusätzlich kann der Name bei Bedarf auch direkt im Fragebogen angezeigt werden ("In Durchführung"). 
+Unter Skalentyp können Sie die Art der verwendeten Likert –Skala näher bestimmen und somit auch den Wertebereich definieren: Legen Sie fest an welchem Ende der Skala sich die positive Bewertung befindet und definieren Sie bei Bedarf die Bereiche für ungenügend, neutral und gut. Diese Information wird in der Auswertung berücksichtigt.
+
+Mit dem Button „Speichern“ schliessen Sie den Rubrik-Editorbereich. 

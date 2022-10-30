@@ -1,6 +1,13 @@
 # Rubric
 
-A rubric in OpenOlat is an element of the learning resource "Form". Rubrics are useful when you want to use multiple questions for the same rating scale. The scope of rubric assessments is wide. In general, rubric elements can be used in all forms and for all course elements and learning resources that use forms. However, they are particularly relevant for [use in the course element "Assessment"](Forms_in_Rubric_Scoring.md) and in the [Portfolio 2.0 template](Forms_in_the_ePortfolio_template.md).
+A rubric in OpenOlat is an element of the learning resource "Form". Rubrics are useful when you want to use multiple questions for the same rating scale. The scope of rubric assessments is wide. In general, rubric elements can be used in all forms and for all course elements and learning resources that use forms. 
+
+* [course element survey](Forms_in_Questionnaires.md)
+* [course element form](Forms_in_Forms_Element.md)
+* [course element assessment"](Forms_in_Rubric_Scoring.md)
+* [Portfolio 2.0 template](Forms_in_the_ePortfolio_template.md)
+
+## Einsatzbeispiele für Rubrics
 
 The scope of rubrics is wide. In OpenOlat, rubrics can be used, for example,
 
@@ -50,10 +57,12 @@ An edited rubric can therefore automatically receive a corresponding number of p
 
 ## Extended Configuration
 
-If you activate "Extended configuration", the following additional options are available:
+Mit Klick auf das Zahnrad erscheint das Konfigurationsmenü für das Rubrik und Sie können über die Tabs "Generell" und "Erweitert" das Rubrik differenzierter konfigurieren. 
 
-![Advanced rubric configuration](assets/Rubric_advanced_EN.png){ class="shadow lightbox" }
+If you activate the tab "Extended", the following additional options are available:
+
+![Advanced rubric configuration](assets/Rubric_erweitert_en.png){ class="shadow lightbox" }
 
 You can give the rubric a name, which makes it easier for you to assign it later during evaluation. If required, you can also display the name directly in the questionnaire. Under Scale type, you can specify the type of Likert scale used and thus also define the value range: Determine at which end of the scale the positive rating is and define if necessary the ranges for insufficient, neutral and good. This information is taken into account in the evaluation.
 
-Click the "Save" button to close the rubric editor area. Afterwards the created rubric can be moved like any other questionnaire element.
+Click the "Save" button to close the rubric editor area. 

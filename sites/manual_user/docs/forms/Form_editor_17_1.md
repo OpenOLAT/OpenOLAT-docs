@@ -1,24 +1,27 @@
-# Form editor (Questionnaire editor)
+# Form editor
 
-Select or create a learning resource of the type "Form" and click on "Edit content" in the administration. The editor opens and various options are available via the button "Add content".
+Select or create a learning resource of the type "Form" and click on "Edit content" in the administration. The editor opens.
+Hier können Sie ein oder mehrere Layouts wählen und den Bereichen  verschiedene Elemente hinzufügen.
 
-As soon as you have created an element, you can also use the plus sign to add further elements above or below an element. Each element can also be duplicated, moved by drag and drop or deleted.
+Über den Button "Inhalt hinzufügen" können sie jederzeit verschiedene Elemente hinzufügen. Sobald Sie ein Element erstellt haben, können Sie auch über die 3-Punkte Option über den Link davor/danach hinzufügen weitere Elemente passgenau hinzufügen. 
 
-Form Editor
+![Mehr Aktionen](assets/formular_mehr_Aktionen_en.png)){ class="lightbox" }
 
-Select or create a learning resource of the type "Form" and click on "Edit content" in the administration. The editor will open and the button "Add content" offers several options.
+Jedes Element kann auch dupliziert, per drag and drop verschoben oder gelöscht werden.
 
-Once you have created an element, you can also add more elements above or below an element using the "Add Block" button. Each element can also be duplicated, moved by drag and drop or deleted.
+(löschen: As soon as you have created an element, you can also use the plus sign to add further elements above or below an element. Each element can also be duplicated, moved by drag and drop or deleted.)
+
 
 !!! info "Availability
 
- As of :octicons-tag-24: release 17.1. this redesigned form editor is available. It contains conceptual and UX improvements to ensure a more pleasant creation. Old forms (created with 16.1.-17.0.X) can still be opened and edited. If you want to fill an old form with new content, use the new layouts for that.
+    As of :octicons-tag-24: release 17.1. this redesigned form editor is available. It contains conceptual and UX improvements to ensure a more pleasant creation. Old forms (created with 16.1.-17.0.X) can still be opened and edited. If you want to fill an old form with new content, use the new layouts for that.
 
 ## Controls and blocks of the form editor
 
 * **Layout menu**: There you can set all the template for the layout, add layouts on top and bottom and move the layout in position or order.
-* **Block Menu**: :material-cog: (from l. to r.) Turn the inspector on and au, :material-content-copy: Duplicate form elements & blocks, Add blocks and move the block at the button using :material-drag-variant: drag n drop to the desired position.
-* **Inspector**: There are all the settings that change the functionality, as well as the appearance of the particular block or layout.
+* **Block Menu** :material-cog: 
+Bezieht sich auf ein dem Layout hinzugefügtes Element z.B. einen "Paragraph" Text, eine "Einzelauswahl" usw. Sie können hier ein Element bzw. Block duplizieren, verschieben oder löschen sowie weitere Elemente davor oder danach hinzufügen.
+* **Inspector**: In dem rechts erscheinenden überlagernden Menü There are all the settings that change the functionality, as well as the appearance of the particular block or layout.
 
 ![Gui-Formulareditor](assets/form-editor-gui.jpg){ class="lightbox" }
 
@@ -42,34 +45,36 @@ By clicking on the title bar of the inspector window you can also move it around
 
 Inserting headings and formatting with h1 to h6
 
-![Form titel](assets/title.png){ class="shadow lightbox" }
+![Form titel](assets/form_titel_17.png){ class="shadow lightbox" }
 
 ## Paragraph
 
 Main element for adding text blocks, also for questions. The paragraph element contains central formatting and the possibility to distribute the text in columns.
 
-![Form paragraph](assets/paragraph.png){ class="shadow lightbox" }
+![Form paragraph](assets/form_paragraph17.png){ class="shadow lightbox" }
   
 ## Table
 
 If required, add a table to the form and configure it.
 
-![Form table](assets/table.png){ class="shadow lightbox" }
+![Form table](assets/form_table_17.png){ class="shadow lightbox" }
   
 ## Image
 
-If necessary, add image elements to the form. To do this, upload a suitable graphic file. Then you can further configure the file, e.g. place a title or subtitle and also define the size, placement or border.
+If necessary, add image elements to the form. To do this, upload a suitable graphic file. 
 
-![Form image](assets/image.png){ class="shadow lightbox" }
+![Form image](assets/form_image17.png){ class="shadow lightbox" }
 
 The positioning can also be further optimized by using the container element.  
   
 ## Rubric
 
-Three different types are available for displaying a rubric. As with Single choice questions, the evaluations can relate to only one aspect or be continuous. Unlike the other question types, questions and answers are organized using the same element.
+Three different types are available for displaying a rubric. 
+"Diskret mit Radiobutton" und "Diskret mit Slider" funktionieren ähnlich wie Single-Choice Fragen und sind mit Punktwerten verknüpft. "Kontinuierlich" dagegen ermöglicht eine fließende Bewertung ohne Punkte. Anders als bei den anderen Fragetypen werden hier Fragen und Antworten über dasselbe Element organisiert.
 
-![Form rubric](assets/rubic.png){ class="shadow lightbox" }
+![Form rubric](assets/form_rubric_17.png){ class="shadow lightbox" }
 
+Für Rubrics stehen diverse Einstellungsmöglichkeiten zur Verfügung die Sie über das Zahnrad einblenden können. 
 Further information can be found [here](Rubric.md).
   
 ## Single choice
@@ -77,50 +82,60 @@ Further information can be found [here](Rubric.md).
 Creates a single choice answer scale. The individual answers can be displayed next to each other, below each other or as a selection menu via the option "Selection list". The entries can be moved up or down using the arrow keys.
 
 Under "Obligation", one can set the question as obligatory or optional.
+Obligatorische Blöcke müssen ausgefüllt werden um das Formular absenden zu können.
 
 The single choice question can also be used as a basis (condition) for the question rules. This way, certain containers and their contents are displayed depending on the answer selected by the user.
 
 Give the element a meaningful name so that you can keep track of the question rules.
 
-![Form single choice](assets/formular_einzelauswahl.jpg){ class="shadow lightbox" }
+![Form single choice](assets/form_single_choice_17.png){ class="shadow lightbox" }
 
 ## Multiple choice
 
 Creates a multiple choice selection scale. If necessary, participants can add additional items to the list. The order of the individual choices can be changed using the arrows.
 
-Under "Obligation", one can set the question as obligatory or optional.
+Under "Obligation", one can set the question as obligatory or optional. Obligatorische Blöcke müssen ausgefüllt werden um das Formular absenden zu können.
 
 The multiple choice can also be used as a basis (condition) for the question rules. This way, certain containers and their contents are displayed depending on the predefined answer selected by the user.
 
 Give the element a meaningful name so that you can keep track of the question rules.
 
-![Form multiple choice](assets/formular_mehrfachwahl.jpg){ class="shadow lightbox" }
+![Form multiple choice](assets/form_multiple_choice17.png){ class="shadow lightbox" }
   
 ## Text input
 
-The text input provides the learner with a single or multiline field for text input. The text input can be obligatory or optional.
+The text input provides the learner with a single or multiline field for text input. Auch eine Einschränkung auf Zahlen oder ein Datum ist möglich.  The text input can be obligatory or optional (siehe Einzel- oder Mehrfachauswahl oben).
 
-![Form text input](assets/text.png){ class="shadow lightbox" }
+![Form text input](assets/form_text_17.png){ class="shadow lightbox" }
   
 ## Upload file
 
-This element gives learners the ability to upload files. The Upload can be obligatory or optional.
+This element gives learners the ability to upload files. The Upload can be obligatory or optional (siehe Einzel- oder Mehrfachauswahl oben).
 
-![Form file upload](assets/upload.png){ class="shadow lightbox" }
+![Form file upload](assets/form_file_upload_17.png){ class="shadow lightbox" }
   
 ## Information
 
-The Information element can be used to query further user-specific information such as name or age. It can be selected whether the information must be filled in voluntarily (optional) or obligatory and whether the user may enter the data himself or whether the automatically transmitted data should be used.
+The Information element can be used to query further user-specific information such as name or age. 
 
-This information causes the questionnaire to lose its anonymity.
+Dabei kann eine der folgenden drei Varianten ausgewählt werden:
 
-![Form user-specific information](assets/info.png){ class="shadow lightbox" }
+a) die Angaben sind freiwillig, User können bei Bedarf die Felder ausfüllen (optional)
+
+b) die Angaben müssen vom Benutzer verpflichtend ausgefüllt werden sonst wird das Formular nicht gespeichert (obligatorisch)
+
+c) die Angaben werden automatisch übertragen und könnten nicht geändert werden(automatisch obligatorisch)
+
+Nutzt man das Formular im Rahmen des Kursbaustein "Umfrage" kann eine Befragung  ihre Anonymität verlieren.
+
+
+![Form user-specific information](assets/form_informations_17.png){ class="shadow lightbox" }
 
 ## Terms of use
 
-With this element the coach can add a declaration of consent to the form, which must be checked off by the users, otherwise only an intermediate storage is possible but no delivery of the questionnaire.
+With this element the coach can add a declaration of consent to the form, which must be checked off by the users, otherwise only an intermediate storage is possible but no delivery of the form.
 
-![Form terms](assets/terms.png){ class="shadow lightbox" }
+![Form terms](assets/form_terms_of_use17.png){ class="shadow lightbox" }
 
 ## Seperator
 
@@ -143,7 +158,7 @@ Several rules can be added to a form.
 Here are a few more tips for using the Form Editor:
 
 * For the "Rubric" choice, the questions and answers are created together.
-* For all other question types, the questions are created using the "Paragraph" element and assigned to the answers of the appropriate question type.
 * Use "Add entry" to add additional answer elements for single or multiple choice.
 * In addition to the questions, add further elements if required, e.g. "Terms of use" or "Information".
-* With the element "Container" you can create a multi-column design.
+* Vergessen Sie nicht den Blöcken Namen zu hinterlegen wenn Sie eine selektive Freigabe per Frageregeln erstellen wollen.
+
