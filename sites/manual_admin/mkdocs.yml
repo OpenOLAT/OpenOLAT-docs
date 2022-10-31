@@ -61,7 +61,8 @@ nav:
     - Installation guide: "installation/installGuide.md"
     - Update guide: "installation/updateGuide.md"
     - Supporting tools installation:
-      - AthenaPDF: "installation/athenaPdf.md" 
+      - AthenaPDF: "installation/athenaPdf.md"
+      - HandBrakeCLI: "installation/handBrakeCli.md"
     - Alternative installation environments:
       - MySQL DB: "installation/mysql.md"
       - Windows support: "installation/windows.md"
