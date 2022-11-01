@@ -34,59 +34,60 @@ wie Sie vorgehen müssen, bevor Sie mit Hilfe der folgenden Anleitung Ihre Aufga
 ### Schritt 2: Aufgabe konfigurieren  {: #configuration}
 
 1. Im Tab "Workflow“ gewünschte Teilbausteine auswählen. Nur gewählte
-   Teilbausteine können in den weiter Tabs konfiguriert werden.
-   In der Gruppenaufgabe legen Sie hier zusätzlich noch fest für welche Gruppen
-   diese Aufgabe gültig ist. Speichern.
+    Teilbausteine können in den weiteren Tabs konfiguriert werden.
+    In der Gruppenaufgabe legen Sie hier zusätzlich noch fest für welche Gruppen
+    diese Aufgabe gültig ist. Speichern.
 
-     ![Tab Workflow](assets/task_workflow_DE.jpg){ class="shadow" }
+    ![Tab Workflow](assets/task_workflow_DE.jpg){ class="shadow" }
 
 2. Im Tab "Aufgabenstellung“ entweder die zuvor erstellte(n)
-   Aufgabendatei(en) hochladen oder direkt erstellen.
+    Aufgabendatei(en) hochladen oder direkt erstellen.
 
-   Über "Video-Aufgabe erstellen" können Sie direkt mit Ihrer Webcam Aufgaben als Video aufnehmen und bereitstellen.
+    Über "Video-Aufgabe erstellen" können Sie direkt mit Ihrer Webcam Aufgaben 
+    als Video aufnehmen und bereitstellen.
 
-       ![Tab Aufgabenstellung](assets/task_configuration_DE.png){ class="shadow" }
+    ![Tab Aufgabenstellung](assets/task_configuration_DE.png){ class="shadow" }
      
-     Sie können festlegen, ob auch Kurs-Betreuer Aufgaben hochladen dürfen, ob
-     Aufgaben automatisch zugewiesen oder vom Lerner manuell gewählt werden, ob
-     eine Aufgabe nur einem Benutzer/einer Gruppe oder dieselbe Aufgabe allen
-     Lernenden/Gruppen zugewiesen wird.
-   
-     Ferner kann eine Mitteilung für die Benutzer hinterlegt werden.
-     Bei Gruppenaufgaben müssen hier Gruppen oder Lernbereiche ausgewählt oder
-     erstellt werden, für die diese Aufgabe zugänglich ist.  
-  
+    Sie können festlegen, ob auch Kurs-Betreuer Aufgaben hochladen dürfen, ob
+    Aufgaben automatisch zugewiesen oder vom Lerner manuell gewählt werden, ob
+    eine Aufgabe nur einem Benutzer/einer Gruppe oder dieselbe Aufgabe allen
+    Lernenden/Gruppen zugewiesen wird.
+
+    Ferner kann eine Mitteilung für die Benutzer hinterlegt werden.
+    Bei Gruppenaufgaben müssen hier Gruppen oder Lernbereiche ausgewählt oder
+    erstellt werden, für die diese Aufgabe zugänglich ist.  
+
 3. Im Tab "Abgabe" festlegen ob Dateien hochgeladen und/oder mit dem
-   internen Editor erstellt werden können. Die Anzahl Dokumente kann dabei
-   eingeschränkt werden. Optional Bestätigungstext anpassen und E-Mailversand
-   konfigurieren. Speichern.  
+    internen Editor erstellt werden können. Die Anzahl Dokumente kann dabei
+    eingeschränkt werden. Optional Bestätigungstext anpassen und E-Mailversand
+    konfigurieren. Speichern.  
 
 4. Im Tab "Rückgabe und Feedback" können Sie einstellen, wie viele Dateien
-   eingereicht werden können. 
+    eingereicht werden können. 
 
 5. Im Tab "Bewertung“ Bewertungsoptionen wählen. Möglich sind: "Punkte
-   vergeben“ (mit Minimal- und Maximalpunktzahl), "Bestanden/Nicht bestanden
-   ausgeben“ mit Option für "Art der Ausgabe“ (automatisch oder manuell),
-   "Individueller Kommentar“ sowie "individuelle Dokumente".
+    vergeben“ (mit Minimal- und Maximalpunktzahl), "Bestanden/Nicht bestanden
+    ausgeben“ mit Option für "Art der Ausgabe“ (automatisch oder manuell),
+    "Individueller Kommentar“ sowie "individuelle Dokumente".
 
-     Bei Lernpfad Kursen kann hier auch eingestellt werden ob die Aufgabe bei der
-     Kursbewertung unberücksichtigt bleibt.
+    Bei Lernpfad Kursen kann hier auch eingestellt werden ob die Aufgabe bei der
+    Kursbewertung unberücksichtigt bleibt.
 
-     Speichern.
+    Speichern.
 
-      ![Tab Bewertung](assets/task_grading_DE.png){ class="shadow" }
+    ![Tab Bewertung](assets/task_grading_DE.png){ class="shadow" }
 
 6. Im Tab "Musterlösung“ entweder die zuvor erstellten(n)
-   Musterlösung(en) hochladen oder direkt erstellen. 
+    Musterlösung(en) hochladen oder direkt erstellen. 
 
 7. Sofern bei der "Bewertung" Punkte vergeben wurden, steht auch der Tab
     "[Highscore](../course_elements/Assessment.de.md#highscore)" zur Verfügung.
 
-     Bestimmen Sie hier, ob ein "Gratulationstitel", ein "Siegertreppchen", ein
-     "Histogramm" und/oder die Ranking-Liste angezeigt werden soll. Die Darstellung
-     kann mit Namen oder anonym erfolgen.  
+    Bestimmen Sie hier, ob ein "Gratulationstitel", ein "Siegertreppchen", ein
+    "Histogramm" und/oder die Ranking-Liste angezeigt werden soll. Die Darstellung
+    kann mit Namen oder anonym erfolgen.  
 
-### Schritt 3: Kurs publizieren
+### Schritt 3: Kurs publizieren
 
 Den Kurseditor schliessen und den Kurs publizieren.
 

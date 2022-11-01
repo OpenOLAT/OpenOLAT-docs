@@ -14,7 +14,7 @@ tasks by means of the following instruction.
 ##  Create Task
 
 ### Step 1: Open course editor and insert task course element   
-1. Search for your course in "Authoring", section "My entries," and open it.
+1. Search for your course in "Authoring", section "My entries", and open it.
 
 2. Click on "Course editor" in the drop-down menu "Administration" in the
    toolbar. 
@@ -35,57 +35,56 @@ tasks by means of the following instruction.
 ### Step 2: Configure task  {: #configuration}
  
 1. Select your favored sub-elements in the tab "Workflow". Only sub-elements
-   selected can be configured in the following tabs. In the group task this is
-   also where you select the associated groups. Save your settings.|
+    selected can be configured in the following tabs. In the group task this is
+    also where you select the associated groups. Save your settings.
 
     ![Tab workflow](assets/task_workflow.png){ class="shadow" }
 
 2. Upload your previously created task file(s) or create them directly in the
-   "Assignment" tab.
+    "Assignment" tab.
 
-   Use "Create Video Task" to record your tasks as a video directly with your webcam.
+    Use "Create video assignment" to record your tasks as a video directly with your webcam.
 
-       ![Tab Assignment](assets/task_configuration.png){ class="shadow" }
+    ![Tab Assignment](assets/task_configuration.png){ class="shadow" }
 
-     You can decide if course coaches are allowed to upload assignments by
-     themselves, if assignments are assigned automatically or chosen by the
-     participant manually and if an assignment is assigned only to one user/group
-     or if the same assignment is assignment to all users/groups.
+    You can decide if course coaches are allowed to upload assignments by
+    themselves, if assignments are assigned automatically or chosen by the
+    participant manually and if an assignment is assigned only to one user/group
+    or if the same assignment is assignment to all users/groups.
 
-     Optionally write a message for users in the section "Assign task" and
-     configure your allocation according to your needs.
+    Optionally write a message for users in the section "Assign task" and
+    configure your allocation according to your needs.
 
-     In group tasks you have to select groups or learning areas for which the
-     task will be available.  
+    In group tasks you have to select groups or learning areas for which the
+    task will be available.  
   
 3. Determine in the "Submission" tab whether solutions should be uploaded
-   and/or created directly within OpenOlat. Restrict the number of submitted
-   documents if so desired. Optionally adapt the confirmation text and configure
-   e-mail settings. Save your settings.  
+    and/or created directly within OpenOlat. Restrict the number of submitted
+    documents if so desired. Optionally adapt the confirmation text and configure
+    e-mail settings. Save your settings.  
   
-4. In the tab "Revisions and feedback" you can defined, how many files can
-   be upload at maximum.
+4. In the tab "Revisions and feedback" you can define, how many files can
+    be uploaded at maximum.
 
 5. Select assessment options in the "Grading" tab. Available are: "Score
-   granted" (incl. minimum/maximum score), "Display passed/failed" incl. option
-   "Type of display" (manually or automatically), "Individual comment" and
-   "individual assessment documents". Save your settings.
+    granted" (incl. minimum/maximum score), "Display passed/failed" incl. option
+    "Type of display" (manually or automatically), "Individual comment" and
+    "individual assessment documents". Save your settings.
 
-     In the case of learning path courses, you can also set here whether the task
-     is to be disregarded in the course evaluation.
+    In the case of learning path courses, you can also set here whether the task
+    is to be disregarded in the course evaluation.
 
-
-     ![Grading](assets/task_grading.png){ class="shadow" }
+    ![Grading](assets/task_grading.png){ class="shadow" }
 
 6. Upload your previously created sample solution(s) or create them directly
-in the tab "Sample solution".  
+    in the tab "Sample solution".  
 
 7. If "Score granted" is activated in the tab "Grading" the tab
-   "[Highscore](../course_elements/Assessment.md#highscore)" is available as well.
+    "[Highscore](../course_elements/Assessment.md#highscore)" is available as well.
 
-     Determine here whether a "Congratulations title", a "Podium", a "Histogram"
-     and/or the ranking list should be displayed. The display can be with name or
-     anonymous.  
+    Determine here whether a "Congratulations title", a "Podium", a "Histogram"
+    and/or the ranking list should be displayed. The display can be with name or
+    anonymous.  
   
 ### Step 3: Publish and activate your course   
   
