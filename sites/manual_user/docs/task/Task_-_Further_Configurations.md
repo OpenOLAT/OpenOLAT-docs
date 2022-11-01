@@ -93,9 +93,9 @@ In the "Assignment" tab you can
 
 a) upload tasks created outside of OpenOlat (upload assignment)
 
-b) Create files directly in OpenOlat with the OpenOlat HTML editor or possibly other available editors (create task) or
+b) Create files directly in OpenOlat with the OpenOlat HTML editor or possibly other available editors (create assignment) or
 
-c) record tasks as a video directly with your webcam (Create video task).
+c) record tasks as a video directly with your webcam (Create video assignment).
 
 You can also provide your users with several files for one task. For this, however, they must be uploaded as a ZIP package. 
 
