@@ -5,6 +5,9 @@ nav:
   - Development:
     - dev/index.md
     - Coding Guildelines: dev/coding_guidelines.md
+    - Development Environment:
+      - Overview: dev/development_environment.md
+      - IntelliJ: dev/intellij.md
   - UX Guidelines:
     - ux/index.md
     - Design Pattern: ux/patterns.md
