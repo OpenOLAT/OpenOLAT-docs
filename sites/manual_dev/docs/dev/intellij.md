@@ -33,7 +33,7 @@ Go to _Preferences → Editor → Code Style → Java_ and select the tab _Impor
 Scroll down to _Import Layout_. Use the up and down arrows to arrange the imports, resulting in
 the following layout:
 
-![](assets/intellij_import_layout.png){ class="lightbox lightbox-xl" title="IntelliJ Import Layout" }
+![](assets/intellij_java_import_layout.png){ class="lightbox lightbox-xl" title="IntelliJ Import Layout" }
 
 With this setting, the static imports come first, followed by the imports of the **java** classes, 
 the **javax** classes, and all other classes.
