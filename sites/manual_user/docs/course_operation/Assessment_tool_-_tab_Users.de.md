@@ -1,63 +1,52 @@
-# Bewertungswerkzeug - Tab Detailansicht
+# Bewertungswerkzeug - Tab Teilnehmer
 
-Die eigentliche Bewertung von Lernenden findet im Bewertungswerkzeug im Tab
-„Detailansicht“ statt.
-
-Sie haben zwei generelle Möglichkeiten die Bewertung vorzunehmen. Entweder Sie
+Sie haben zwei generelle Möglichkeiten die Bewertung im Bewertungswerkzeug vorzunehmen. Entweder Sie
 gehen von einer Person aus und bewerten die von dieser Person vorgenommenen
 Bearbeitungen. Oder Sie gehen von der Kursstruktur und einem konkreten
 Assessment Baustein aus und bewerten alle Personen für diese Aufgabe, diesen
-Test bzw. sonstigen Assessment Kursbaustein.
+Test bzw. sonstigen Assessment Kursbaustein. 
 
-Ganz links sehen Sie die Kursstruktur mit allen bewertbaren Kursbausteinen.
-Hier können Sie direkt zu einem der Bausteine navigieren um Ihre Bewertung
-vorzunehmen. Klicken Sie einen der bewertbaren Bausteine an, wird die
-zugehörige Bewertungsübersicht mit allen Teilnehmenden des Kurses aufgerufen.
+Die genaue Vorgehensweise wird den Kapiteln [Lernende bewerten](../course_operation/Assessment_of_learners.de.md) und [Bewertung von Kursbausteinen](../course_operation/Assessment_of_course_modules.de.md) beschrieben.
 
-![](assets/Bewertungswerkzeug_16.png)
+In der linken Spalte im Bewertungswerkzeug sehen Sie die Kursstruktur mit allen bewertbaren Kursbausteinen. Hier können Sie direkt zu einem der Kursbausteine navigieren um Ihre Bewertung vorzunehmen. Für jeden Kursbaustein wird ein Tab mit der "Übersicht" und ein Tab mit den "Teilnehmern" angezeigt. 
 
-Der automatisch generierte oberste Kursknoten zählt ebenfalls als bewertbarer
-Baustein. Ist auf dem oberersten Kursbaustein, der genau genommen ein
-Kursbaustein "[Struktur](viewpage.action%EF%B9%96pageId=108593217.html)" ist,
-bei herkömmlichen Kursen eine Punkteberechnung eingerichtet, können auf der
-obersten Ebene der Benutzeransicht auch die Gesamtpunkte eines Kurses bzw. die
-für den obersten Baustein definierten Punkte, angezeigt und die
-Gesamtergebnisse der Kursteilnehmenden
-(../e-assessment/Performance_assessment.de.md)) als PDF
-Datei gespeichert werden.
+![Bewertungswerkzeug Teilnehmer Übersicht](assets/Bewertungswerkzeug_Teilnehmer_172.png)
 
-## Anzeige und Spaltenauswahl
 
-Welche Tabellenspalten genau zur Verfügung stehen ist abhängig vom
-Kursbausteintyp und der jeweiligen Konfiguration. Je nach Auswahl der
-aktivierten Spalten werden Ihnen unterschiedliche Informationen angezeigt.
-Neben Basisinformationen wie Name oder Matrikelnummer, können hier auch
-Informationen zum Status oder der letzten Aktualisierung angezeigt werden.
+## Tab Teilnehmer im Bewertungswerkzeug
+Im Tab Teilnehmer werden alle Kursteilnehmenden aufgelistet die bewertet werden können. Ferner können die angezeigten Teilnehmenden auch nach diversen Kriterien gefiltert werden, z.B. alle Teilnehmenden die diesen Kursbaustein noch "nicht bestanden" oder alle Teilnehmenden einer bestimmten Gruppe usw. Ferner kann nach Personen gesucht werden.  
 
-![](assets/Bewertungswerkzeug_Struktur_Spalte_16.png)
+
+### Anzeige und Spaltenauswahl
+
+Die Informationen, die im Tab "Teilnehmer" angezeigt werden, können über die Auswahl der gewünschten Spalten weiter angepasst werden. Klicken Sie hierfür auf das Zahnrad. Die konkreten Anzeige-Optionen  variieren je nach Assessment-Baustein. Neben Basisinformationen wie Name oder Matrikelnummer, können hier auch
+Informationen zum Status oder der letzten Aktualisierung eingeblendet werden. Eine Spaltenanpassung ist also hilfreich um einen schnellen Überblick zu erhalten.
+Besonders die Informationen zu den Punkten, den Versuchen, dem Status, und der
+letzten Aktualisierung werden häufig benötigt. 
+
+Richten Sie sich die Spalten so ein, wie es für Ihren Kontext sinnvoll ist und schauen Sie in den Einstellungen nach ob diese auch aktiviert ist, wenn Sie mal eine Information vermissen.
+
+Hier Beispiele für die Spaltenauswahl per Zahnrad: 
+
+![Kursbaustein Struktur Spaltenwahl](assets/Bewertungswerkzeug_Struktur_Spalte_172.png)
 
 Kursbaustein "Struktur"
 
-![](assets/Bewertungswerkzeug_Test_Spalte_16.png)
+![Kursbaustein Test Spaltenwahl](assets/Bewertungswerkzeug_test_Spalte_172.png)
 
 Kursbaustein "Test"
 
-![](assets/Bewertungswerkzeug_Aufgabe_Spalte_16.png)
+![Kursbaustein Aufgabe Spaltenwahl](assets/Bewertungswerkzeug_aufgabe_Spalte_172.png)
 
 Kursbaustein "Aufgabe"  
 
-Eine Spaltenanpassung ist hilfreich um einen schnellen Überblick zu erhalten.
-Besonders die Informationen zu den Punkten, Versuchen, dem Status, und der
-letzten Aktualisierung werden häufig benötigt. Richten Sie sich am besten die
-Spalten so ein, wie es für Ihren Kontext sinnvoll ist.
+### Weitere Optionen aktivieren 
 
 Nach Auswahl einer oder mehrerer Personen eines Assessment Bausteins
 erscheinen weitere Funktionen z.B. kann der Status auf abgeschlossen gesetzt
 werden, die Sichtbarkeit aktiviert werden, eine E-Mail versendet oder ein Test
-verlängert werden. Je nach Assessment-Kursbaustein variieren die Optionen.
+verlängert werden. Je nach Assessment-Kursbaustein variieren die Möglichkeiten.
 
 ![](assets/Bewerungswerkzeug_Funktionen_erscheinen.png)
 
-Darüber hinaus können bestimmte Personen z.B. alle die diesen Kursbaustein
-noch "nicht bestanden" haben gefiltert angezeigt werden oder auch gezielt nach
-bestimmten Teilnehmernamen gesucht werden.
+

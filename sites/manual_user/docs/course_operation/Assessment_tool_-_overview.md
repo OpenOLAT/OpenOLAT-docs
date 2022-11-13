@@ -9,15 +9,15 @@ the assessment tool you will first see an overview page with central
 information as well as an overview of currently pending assessments.  This way
 you will quickly know what you have to do.
 
-![](assets/Screenshot 2020-05-03 at 16.01.48.png)
+![assessmenttool](assets/assessment_Tool_172.png)
 
 From the overview page you can also access the concrete assessment areas of
-the individual [course elements](Assessment_of_course_modules.md) and
-[persons](Assessment_of_learners.md).
+the individual course elements and
+persons.
 
-## Tab "Overview" of the evaluation tool
+## Tab "Overview" of the assessment tool
 
-### Pending reviews
+### Overview -> Open reviews
 
 Here you can see at a glance for which users one or more ratings are open.  It
 also shows how many modules of the respective user are to be rated. If only
@@ -29,44 +29,47 @@ this module, you can access the corresponding rating.
 Only the unfinished assessments are displayed here. Reviews that have already
 been completed are not listed here.
 
-### "List of assessable items"
+### Overview -> Review o release
+Sollte es im Kurs Bewertungen geben die noch nicht für die Teilnehmenden sichtbar gemacht wurden, erscheinen sie hier. 
+
+### Overview -> Participants 
 
 This area shows how many users, groups and course elements are generally
-available in this course.  Furthermore links will take you directly to the
-appropriate place in the assessment tool.
-
-![](assets/Screenshot 2020-05-03 at 16.02.07.png)
-
-### "Notification Service"
-
-Here coaches can activate the option to receive an e-mail for new submissions,
-test results and other submissions.  Notifications about newly generated
-certificates (if generally activated) can also be subscribed to.
-
-### "Quick links"
-
-If the option "passed" has been activated for the top course element the
-number of course members for whom the course is considered passed or failed
-will be displayed.  By means of links coaches can quickly navigate to the
-corresponding participants and also generate and download appropriate
-participant lists. If no passed has been activated, a 0 will appear in both
-cases in the display.
-
-### "Statistics overview"
-
-The number of registered participants and the number of unregistered users is
-displayed. This includes course coaches and course owners as well as former
-participants. It also shows how many of these people have opened the course at
-least once.  So you can quickly see whether all participants have already
-logged in or not.
+available in this course.
 
 If a calculation of points has been defined on the topmost course element the
 corresponding average value will be displayed under "Average". Furthermore it
 will be displayed what percentage of participants has passed the entire course
 (if this option has been activated).
 
-In addition to that you will find further options in the tab "Overview" at the
-top right of the pull-down menu.
+Durch die Verlinkung können Betreuer schnell zu den
+entsprechenden Teilnehmenden navigieren und auch die passenden Teilnehmerlisten generieren und herunterladen. 
+
+
+### Overview ->  Notification Service
+
+Here coaches can activate the option to receive an e-mail for new submissions,
+test results and other submissions.  Notifications about newly generated
+certificates (if generally activated) can also be subscribed to.
+
+
+## Übersicht der Bewertungsbausteine des Kurses
+In der linken Navigation des Bewertungswerkzeugs sieht man alle bewertbaren Kursbausteine. Alle Bausteine werden mit den Tabs "Übersicht" und "Teilnehmer" angezeigt. Ein Download der Bewertungen ist ebenfalls möglich. 
+
+![Bewertungswerkzeug Teilnehmerübersicht](assets/Bewertungswerkzeug_TN_172.png)
+
+ Wie genau Bewertungen vorgenommen werden können erfahren Sie im Kapitel ["Bewertung von Kursbausteinen"](../course_operation/Assessment_of_course_modules.de.md) bzw. ["Lernende bewerte](../course_operation/Assessment_tool_-_tab_Users.de.md).
+
+**Oberster Kursknoten**
+
+Der automatisch generierte oberste Kursknoten zählt ebenfalls als bewertbarer
+Baustein. Ist auf dem oberersten Kursbaustein, der genau genommen ein
+Kursbaustein "[Struktur](../course_elements/Knowledge_Transfer.de.md/#structure)" ist,
+eine Punkteberechnung eingerichtet, können auf der obersten Ebene der Benutzeransicht auch die Gesamtpunkte eines Kurses bzw. die
+für den obersten Baustein definierten Punkte, angezeigt und die
+Gesamtergebnisse der Kursteilnehmenden heruntergeladen werden. 
+
+
 
 ### Recalculate data
 

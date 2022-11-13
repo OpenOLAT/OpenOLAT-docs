@@ -18,7 +18,7 @@ course, which is helpful for many participants.
 Select the columns that are relevant for you via the Zahnrad menu and sort the
 list according to your wishes.
 
-**User information bearbeiten**
+### User information bearbeiten
 
 If you select a person from the list, you will get further information about
 this person, e.g. information about the person's attendance behavior, which
@@ -37,14 +37,14 @@ owner. Course owners can also add other owners to the course.
 
   *  **[Coaches](../access_roles_rights/coach.mdd)**  
 Coaches typically play a role in course _delivery_, but are not involved in
-course creation. Course coaches have access to the assessment tool and
-statistics, as well as other options and course elements depending on their
-settings.
+course creation. Course coaches have access to the assessment tool 
+sowie die Bewertungen im Kursrun. Je nach Konfiguration im Kurseditor haben sie auch Zugriff auf weitere
+Optionen und Funktionen bestimmter Kursbausteine.
 
   *  **Participants**  
 Participants are usually the learners or people who participate in an online course. Participants can only act within the scope of the options provided by
 the owner. By default, participants do not have access to the course administration and the menus it contains.
-In einem Lernpfad Kurs sehen nur die Teilnehmer die visualisierte Prozentanzeige rechts oben in der Toolbar.
+In einem [Lernpfad Kurs](../course_create/Learning_path_course.de.md) sehen nur die Teilnehmer die visualisierte Prozentanzeige rechts oben in der Toolbar.
 
 A course member can have multiple roles in the course at the same time. In this case these persons will see the possibility to change roles in the course toolbar and thus to view the course from different course roles.
 
@@ -77,10 +77,8 @@ course (version a) or b)) is the better choice.
 
 ## Groups
 
-Here you can add, create and remove groups from the OpenOlat course, as well
-as display the groups associated with the course in tabular form. This gives
-you a quick overview of the course-specific groups and the number of group
-participants.
+Hier sehen Sie die Gruppen des Kurses. You can add, create and remove groups from the OpenOlat course, as well
+as display the groups associated with the course in tabular form. 
 
 Clicking on a group name or on "Modify" opens the group itself in a new
 OpenOlat tab and takes you as a group coach to the group administration. How
@@ -107,19 +105,34 @@ Hier werden alle Personen angezeigt, die über die Option "Externe Mitglieder ei
 
 ##  Rights
 
-In the "Rights" area, all course-specific groups appear, divided into group
-coaches and group participants and the rights groups assigned to the
-respective group.
+It often happens that you want to give users additional rights without giving them full ownership rights. You can do this in the **Rights** section.
 
-It often happens that you want to give users additional rights without giving them full ownership rights. You can do this in the **Rights** section. Please
-keep in mind that here no individual rights are granted but rights for certain course tool groups, e.g. access to the course editor with all its integrated
-options or to the complete assessment tool. Here you can differentiate between group coaches and participants. All persons registered in that group will then
-have the right to use that tool in all courses. Course rights of a group are always bound to a single course.
+In the "Rights" area, all course-specific groups appear, divided into group
+coaches and group participants and the rights groups assigned to the respective group.
+
+Please keep in mind that here no individual rights are granted but rights for certain course tool groups, e.g. access to the course editor with all its integrated
+options or to the complete assessment tool. 
+
+Alle Personen, die in
+die jeweilige Gruppe in der entsprechenden Rolle eingetragen sind erhalten
+dann automatisch die Berechtigung das jeweilige Werkzeug mit allen Optionen
+im gesamten Kurs zu verwenden.
+
+ Course rights of a group are always bound to a single course.
+
+
+Often, the specific assignment of certain rights, instead of the entry as owner, is already useful or necessary for data protection reasons.
+
+Vergeben Sie diese erweiterten Rechte aber am besten an die _Teilnehmenden_ einer Gruppe nicht an die Betreuer, da damit weitere Berechtigungen verbunden sind. 
+
+!!! Warning "Attention"
+
+    Group coaches basically also get access to the [assessment
+    tool](Assessment_tool_-_overview.md) and can also assess all members of the group. Furthermore, dürfen sie Änderungen an den betreuten Gruppen vornehmen und haben Zugriff auf alle für Betreuer im Kursun freigegebenen Dinge! 
 
 Group coaches always have access to the assessment tool and can also assess the members of the group. Furthermore they are allowed to make changes to the
 coaches of a group.
 
-Often, the specific assignment of certain rights, instead of the entry as owner, is already useful or necessary for data protection reasons.
 
 ### Vergabe zusätzlicher Rechte ###
 
@@ -197,14 +210,6 @@ The "Administration" menu also appears.
 Members have access to the course database and can create, reset, delete or export it.  
   
 
-!!! Warning "Attention"
-    Group coaches basically also get access to the [assessment
-    tool](Assessment_tool_-_overview.md) and can also assess all members of the group. Furthermore, they may make changes to the coached groups.
-
-=======
-!!! tip "Tip" 
-
-    In most cases, it makes more sense to grant additional rights only to the _participants_ of a group.
 
 ##  Consents {: #consent}
 

@@ -2,7 +2,7 @@
 
 Das Bewertungswerkzeug ist die zentrale Schaltstelle für die Bewertungen eines
 OpenOlat-Kurses. Kursbesitzer und Betreuer erhalten hier einen Gesamtüberblick
-über sämtliche im Kurs enthaltenen bewertbaren Bausteine und können hier die
+über sämtliche im Kurs enthaltenen bewertbaren Bausteine und können die
 Bewertungen vornehmen.
 
 Über die Kursadministration gelangt man in das Bewertungswerkzeug. Wenn Sie
@@ -10,15 +10,16 @@ das Bewertungswerkzeug aufrufen, erscheint zunächst die Übersichtsseite mit
 zentralen Informationen sowie eine Übersicht der aktuell anstehenden
 Bewertungen. So wissen Sie schnell, was aktuell zu tun ist.
 
-![](assets/bewertungswerkzeug_uebersicht.png)
+![Bewertungswerkzeug Startseite](assets/Bewertungswerkzeug_172.png)
 
 Von der Übersichtsseite aus gelangen Sie auch zu den konkreten
-Bewertungsbereichen der einzelnen [Kursbausteine](Assessment_of_course_modules.de.md) und
-[Personen](Assessment_of_learners.de.md).
+Bewertungsbereichen der einzelnen Kursbausteinen und Personen.
 
-## Tab „Übersicht“ des Bewertungswerkzeugs
+## Die „Übersicht“ des Bewertungswerkzeugs
 
-### Anstehende Bewertungen
+
+
+### Übersicht -> Offene Bewertungen
 
 Auf einen Blick ist hier ersichtlich, für welche Nutzer eine oder mehrere
 Bewertung(en) offen sind. Auch wird angezeigt, wie viele Bausteine des
@@ -28,45 +29,40 @@ kommt man zur entsprechenden Bewertung.
 
 ![](assets/eass_anstehende_bewertungen_DE.png)
 
-Hier werden nur die unerledigten Bewertungen angezeigt. Bereits durchgeführte
-Bewertungen werden hier nicht aufgelistet.
+In der Übersicht werden nur die unerledigten Bewertungen angezeigt. Bereits durchgeführte Bewertungen werden an dieser Stelle nicht aufgelistet.
 
-### „Liste aller bewertbaren Elemente“
+### Übersicht -> Freizugebende Bewertungen
+Sollte es im Kurs Bewertungen geben die noch nicht für die Teilnehmenden sichtbar gemacht wurden, erscheinen sie hier. 
 
-In diesem Bereich wird angezeigt, wie viele Benutzer und Kursbausteine
-generell in diesem Kurs vorhanden sind. Ferner gelangt man über die
-Verlinkungen direkt an die passende Stelle im Bewertungswerkzeug.
+### Übersicht -> Teilnehmer 
 
-![](assets/Bewertungswerkzeug_Liste16.png)
+In diesem Bereich wird angezeigt, wie viele Benutzer, Gruppen und Kursbausteine generell im konkreten Kurs vorhanden sind. 
 
-### „Benachrichtigungsservice“
+Wurde für den gesamten Kurs ein "Bestehen" konfiguriert, wird die Anzahl der jeweiligen Kursmitglieder angezeigt, die den Kurs bestanden bzw. nicht bestanden haben. 
 
-Hier können Betreuer einschalten, dass sie bei neuen Einsendungen,
-Testresultaten und sonstigen Einreichungen eine E-Mail erhalten. Auch können
-Benachrichtigungen über neu erzeugte Zertifikate (sofern generell aktiviert)
-abonniert werden.
+Durch die Verlinkung können Betreuer schnell zu den
+entsprechenden Teilnehmenden navigieren und auch die passenden Teilnehmerlisten generieren und herunterladen. 
 
-### „Schnellzugang“
+### Übersicht -> Benachrichtigungsservice
 
-Wurde für den gesamten Kurs ein "Bestehen" konfiguriert, wird die Anzahl der
-jeweiligen Kursmitglieder angezeigt, die den Kurs bestanden bzw. nicht
-bestanden haben. Durch die Verlinkung können Betreuer schnell zu den
-entsprechenden Teilnehmenden navigieren und auch die passenden
-Teilnehmerlisten generieren und herunterladen. Wurde kein bestanden aktiviert,
-erscheint in der Anzeige in beiden Fällen eine 0.
+Hier können Betreuer einschalten, dass sie bei neuen Einsendungen, Testresultaten und sonstigen Einreichungen eine E-Mail erhalten. Auch können
+Benachrichtigungen über neu erzeugte Zertifikate (sofern generell aktiviert) abonniert werden.
 
-### „Statistiken Übersicht“
+## Übersicht der Bewertungsbausteine des Kurses
+In der linken Navigation des Bewertungswerkzeugs sieht man alle bewertbaren Kursbausteine. Alle Bausteine werden mit den Tabs "Übersicht" und "Teilnehmer" angezeigt. Ein Download der Bewertungen ist ebenfalls möglich. 
 
-Angezeigt wird die Anzahl der registrierten Teilnehmenden sowie die Anzahl der
-nicht-registrierten Benutzer. Hierzu zählen Kursbetreuer und Kursbesitzer
-sowie ehemalige Teilnehmende. Ferner wird angezeigt wie viele dieser Personen
-den Kurs mindestens einmal geöffnet haben. So erkennt man rasch, ob sich alle
-Teilnehmenden bereits eingeloggt haben oder nicht.
+![Bewertungswerkzeug Teilnehmerübersicht](assets/Bewertungswerkzeug_TN_172.png)
 
-Sofern eine Punkteberechnung für den Kurs definiert wurde, wird unter
-„Durchschnitt“ der entsprechende Durchschnittswert angezeigt. Ferner wird
-angezeigt wie hoch der Anteil der Personen ist, die den gesamten Kurs
-bestanden haben (sofern diese Option aktiviert wurde).
+ Wie genau Bewertungen vorgenommen werden können erfahren Sie im Kapitel ["Bewertung von Kursbausteinen"](../course_operation/Assessment_of_course_modules.de.md) bzw. ["Lernende bewerte](../course_operation/Assessment_tool_-_tab_Users.de.md).
+
+**Oberster Kursknoten**
+
+Der automatisch generierte oberste Kursknoten zählt ebenfalls als bewertbarer
+Baustein. Ist auf dem oberersten Kursbaustein, der genau genommen ein
+Kursbaustein "[Struktur](../course_elements/Knowledge_Transfer.de.md/#structure)" ist,
+eine Punkteberechnung eingerichtet, können auf der obersten Ebene der Benutzeransicht auch die Gesamtpunkte eines Kurses bzw. die
+für den obersten Baustein definierten Punkte, angezeigt und die
+Gesamtergebnisse der Kursteilnehmenden heruntergeladen werden. 
 
 ### Daten neu berechnen
 
@@ -85,7 +81,9 @@ Massenbewertung erstellt erfahren Sie
 
 ## Im Prüfungsmodus
 
-Befindet sich der Kurs im [Prufungsmodus
-](../e-assessment/Assessment_mode.de.md)wird dies ebenfalls im
+Befindet sich der Kurs im [Prüfungsmodus
+](../e-assessment/Assessment_mode.de.md) wird dies ebenfalls im
 Bewertungswerkzeug angezeigt. Auch ist erkennbar wie viele Personen bereits
 eingeloggt sind und auf den Start der Prüfung warten.
+
+![](assets/Pruefungsmodus_Personen_warten.png)

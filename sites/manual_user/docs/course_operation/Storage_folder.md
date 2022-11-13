@@ -1,6 +1,8 @@
 # Storage folder
 
-The editor tool "Storage folder" in a course serves the storage of files used in the course, e.g. all used HTML pages or documents from folders. A storage folder is course specific. It the central place for the storage of course related files. However, the content of the storage folder cannot be viewed directly by learners, but can be accessed indirectly, e.g. via the course elements "single page" or "folder". A storage folder is always course-specific.  
+The editor tool "Storage folder" in a course serves the storage of files used in the course, e.g. all used HTML pages or documents from folders. A storage folder is course specific. It the central place for the storage of course related files. 
+
+However, the content of the storage folder cannot be viewed directly by learners, but can be accessed indirectly, e.g. via the course elements "single page" or "folder". A storage folder is always course-specific.  
 
 ![Course storage folder](assets/Storagefolder_01.png){ class="shadow lightbox" }
 

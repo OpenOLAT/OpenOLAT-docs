@@ -20,7 +20,7 @@ Kurses gesucht werden, was bei vielen Teilnehmenden hilfreich ist.
 Wählen Sie die für Sie relevanten Spalten über das Zahnrad Menü aus und sortieren Sie die Liste nach Ihren Wünschen.
   
 
-**Benutzerinformationen bearbeiten**
+### Benutzerinformationen bearbeiten
 
 Wenn Sie eine Person aus der Liste auswählen, erhalten Sie weitere
 Informationen zu dieser Person z.B. sehen Sie die Anzahl der Kursaufrufe und
@@ -40,14 +40,14 @@ weitere Besitzer des Kurses hinzufügen.
   *  **[Betreuer](../access_roles_rights/coach.de.md)**  
 Betreuer spielen in der Regel bei der _Kursdurchführung_ eine Rolle, sind jedoch
 bei der Erstellung nicht involviert. Kurs-Betreuer haben Zugriff auf das
-Bewertungswerkzeug und die Statistiken sowie je nach Einstellung auf weitere
-Optionen und Kursbausteine.
+Bewertungswerkzeug und die Statistiken sowie die Bewertungen im Kursrun. Je nach Konfiguration im Kurseditor haben sie auch Zugriff auf weitere
+Optionen und Funktionen bestimmter Kursbausteine.
 
   *  **Teilnehmer**  
 Die Teilnehmer sind in der Regel die Lernenden bzw. Personen, die an einem
 Online-Kurs teilnehmen. Teilnehmende können nur im Rahmen der vom Besitzer
 bereitgestellten Möglichkeiten agieren. Teilnehmende haben standardmässig keinen
-Zugriff auf die Kurs Administration und die darin enthaltenen Menüs. In einem Lernpfad Kurs sehen nur die Teilnehmer die visualisierte Prozentanzeige rechts oben in der Toolbar.
+Zugriff auf die Kurs Administration und die darin enthaltenen Menüs. In einem [Lernpfad Kurs](../course_create/Learning_path_course.de.md) sehen nur die Teilnehmer die visualisierte Prozentanzeige rechts oben in der Toolbar.
 
 Ein Kursmitglied kann im Kurs gleichzeitig über mehrere Rollen verfügen. In
 diesem Fall erscheint bei den Personen in der Toolbar des Kurses die Möglichkeit, einen Rollenwechsel vorzunehmen und sich so den Kurs aus verschiedenen Kursrollen
@@ -62,7 +62,6 @@ anzusehen.
 Besitzt der User noch darüberhinausgehende bestimmte [System-Rollen](../general/Roles_and_Rights.de.md),  wie Lernressoucrenverwalter oder
 Administrator, werden diese ebenfalls als Auswahlelement für die entsprechende
 Perspektive angezeigt.
-
   
 
 ### Mitglieder hinzufügen
@@ -83,10 +82,8 @@ Für die meisten Kurse sind die Varianten a) und b) zu empfehlen.
 
 ## Bereich "Gruppen"
 
-Hier können Sie dem Kurs OpenOlat Gruppen hinzufügen, erstellen und aus dem
-Kurs entfernen, sowie die dem Kurs zugehörigen Gruppen tabellarisch anzeigen
-lassen. So erhält man rasch einen Überblick über die kursspezifischen Gruppen
-und die Anzahl der Gruppen-Teilnehmenden.
+Hier sehen Sie die Gruppen des Kurses. Sie können  dem Kurs bereits existierende OpenOlat Gruppen hinzufügen oder neue Gruppen erstellen sowie Gruppen aus dem
+Kurs entfernen.
 
 Klickt man auf einen Gruppennamen oder auf "Ändern" öffnet sich die Gruppe
 selbst in einem neuen OpenOlat-Tab und man gelangt als Gruppen-Betreuer in die
@@ -114,21 +111,27 @@ Hier werden alle Personen angezeigt, die über die Option "Externe Mitglieder ei
 
 ##  Bereich "Rechte"
 
-Im Bereich "Rechte" erscheinen alle kursspezifischen Gruppen, unterteilt nach
-Gruppen-Betreuer und Gruppen Teilnehmer und die der jeweiligen Gruppe
-zugeordneten Rechtegruppen.
+Häufig kommt es vor, dass man Benutzern weitere Rechte übergeben möchte ohne ihnen aber volle Besitzerrechte zu übertragen oder eine weitere kursspezifische Rolle zu vergeben. Dies können Sie hier im Bereich Rechte der Mitgliederverwaltung erledigen. 
 
-Häufig kommt es vor, dass man Benutzern weitere Rechte übergeben möchte ohne ihnen aber volle Besitzerrechte zu übertragen oder eine weitere
-kursspezifische Rolle zu vergeben. Dies können Sie im Bereich Rechte der Mitgliederverwaltung erledigen. Zu beachten ist dabei, dass hier keine
+Im Bereich "Rechte" erscheinen alle kursspezifischen Gruppen, unterteilt nach
+Gruppen-Betreuer und Gruppen Teilnehmer und die der jeweiligen Gruppe zugeordneten Rechtegruppen.
+
+Zu beachten ist dabei, dass hier keine
 Einzelrechte, sondern Rechte für bestimmte _Kurswerkzeuggruppen_ vergeben
 werden wie z.B. Zugriff auf den Kurseditor mit allen integrierten
-Möglichkeiten oder das komplette Bewertungswerkzeug.  Alle Personen, die in
+Möglichkeiten oder das komplette Bewertungswerkzeug. Alle Personen, die in
 die jeweilige Gruppe in der entsprechenden Rolle eingetragen sind erhalten
 dann automatisch die Berechtigung das jeweilige Werkzeug mit allen Optionen
-Kurs weit zu verwenden. Die Kursrechte einer Gruppe sind immer an einen
+im gesamten Kurs zu verwenden. Die Kursrechte einer Gruppe sind immer an einen
 einzelnen Kurs gebunden und gelten nicht pauschal.
 
-Häufig ist die gezielte Vergabe bestimmter Rechte, anstatt des Eintrags als Besitzer schon aus Datenschutzgründen sinnvoll oder notwendig.
+Häufig ist die gezielte Vergabe bestimmter Rechte, anstatt des Eintrags als Besitzer schon aus Datenschutzgründen sinnvoll oder notwendig. 
+Vergeben Sie diese erweiterten Rechte aber am besten an die _Teilnehmenden_ einer Gruppe nicht an die Betreuer, da damit weitere Berechtigungen verbunden sind. 
+
+!!! Warning "Achtung"
+
+    Gruppenbetreuer erhalten grundsätzlich auch Zugang zum Bewertungswerkzeug und können alle Mitglieder der Gruppe auch bewerten. Ferner dürfen sie Änderungen an den betreuten Gruppen vornehmen und haben Zugriff auf alle für Betreuer im Kursun freigegebenen Dinge!
+    
 
 ### Vergabe zusätzlicher Rechte ###
 
@@ -164,7 +167,7 @@ Es erscheint zusätzlich das Menü "Administration" mit dem
 
 Auch ohne Betreuerrechte können so Mitglieder mit diesem Recht sämtliche Leistungen der Kursteilnehmenden bewerten und kommentieren. 
 
-!!! info "info"
+!!! info "Info"
 
     Ein Zugriff auf die Bewertung im Kursrun besteht dabei aber nicht.  
   
@@ -194,17 +197,7 @@ bearbeiten und löschen.
 Für die aktivierte Personengruppe erscheint zusätzlich das Menü der Kurs "Administration".
 
 Mitglieder können hier Kursdatenbanken erstellen, zurücksetzen, löschen und exportieren.  
-  
 
-!!! Warning "Achtung"
-
-    Gruppenbetreuer erhalten grundsätzlich auch Zugang zum Bewertungswerkzeug und können alle Mitglieder der Gruppe auch bewerten. Ferner dürfen sie Änderungen an den betreuten Gruppen vornehmen. 
-    Meist ist es sinnvoller ergänzende Rechte nur an die _Teilnehmenden_ einer Gruppe zu vergeben
-
-=======
-!!! tip "Tipp" 
-
-    Meist ist es sinnvoller ergänzende Rechte nur an die _Teilnehmenden_ einer Gruppe zu vergeben
 
 ##  Bereich "Einwilligungen"  {: #consent}
 

@@ -2,7 +2,7 @@
 
 Der „Ablageordner“ eines Kurses dient dem Kursersteller als Ablage der im Kurs verwendeten Dateien. Hierzu zählen z.B. alle verwendeten HTML-Seiten, Grafiken und Dateien, die über den Kursbaustein "Ordner" zur Verfügung gestellt werden. Die Dateien liegen sozusagen griffbereit im Hintergrund und können jederzeit über die entsprechenden Kursbausteine bereitgestellt werden.
 
-Kursteilnehmende haben keinen direkten, sondern nur einen indirekten Zugriff auf Dateien des Ablageordners. Um auf die Dateien zugreifen zu können, müssen diese über entsprechende Kursbausteine verlinkt sein. Ein Ablageordner ist immer kursspezifisch.
+Kursteilnehmende haben keinen direkten, sondern nur einen indirekten Zugriff auf Dateien des Ablageordners. Um auf die Dateien zugreifen zu können, müssen diese über entsprechende [Kursbausteine](../course_elements/index.de.md) verlinkt sein. Ein Ablageordner ist immer kursspezifisch.
 
 ![Kurs Ablageordner](assets/Ablageordner_01.png){ class="shadow lightbox" }
 
@@ -19,7 +19,7 @@ Zusätzlich legt OpenOlat, wenn der Kurs mindestens einen [Kursbaustein "Ordner"
 
 Im Unterordner „ **_courseelementdata** “ befinden sich alle Kursbausteine "[Ordner](../course_elements/Course_Element_Folder.de.md)" und "[Teilnehmer Ordner](../learning_activities/Working_With_Course_Elements.de.md)" eines Kurses. Die entsprechenden Ordner mit den jeweiligen Dateien erscheinen hier nachdem sie im Kurseditor angelegt wurden automatisch und können im Ablageordner auch editiert werden.
 
-Ein dem Kurs zugewiesener [Ressourcenordner](../authoring/Various_Types_of_Learning_Resources.de.md)kann im Ablageordner über den Unterordner „ **_sharedfolder** “ eingesehen, jedoch per default nicht editiert werden. Soll eine Bearbeitung über den Ablageordner möglich sein, muss in den Kurs Optionen bei der Wahl des Ressourcenordners die Option "schreibgeschützt" deaktiviert werden.
+Ein dem Kurs zugewiesener [Ressourcenordner](../authoring/Various_Types_of_Learning_Resources.de.md) kann im Ablageordner über den Unterordner „ **_sharedfolder** “ eingesehen, jedoch per default nicht editiert werden. Soll eine Bearbeitung über den Ablageordner möglich sein, muss in den Kurs Optionen bei der Wahl des Ressourcenordners die Option "schreibgeschützt" deaktiviert werden.
 
 ### Verbindung von Ablageordner und dem Kursbaustein "Einzelne Seite"
 
