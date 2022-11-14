@@ -111,37 +111,59 @@ unterschiedlichen Kriterien hinzugefügt werden.
 ###  Untertitel konfigurieren  {: #video_subtitles}
 
 Einem Video können Untertitel in beliebig vielen Sprachen zugewiesen werden.
-Untertitel werden in OpenOlat im [WebVTT
-Format](https://w3c.github.io/webvtt/) hochgeladen ([Wikipedia-
-Artikel](https://en.wikipedia.org/wiki/WebVTT)). Die hochgeladene Datei muss
-zwingend mit .srt abgespeichert sein. Das Format .vtt wird nicht unterstützt.
-Untertitel können relativ einfach selbst erstellt werden. Dieses Format wird
-von der meisten Video-Player-Software unterstützt. Für jede eingegebene
-Untertitelzeile wird eine Zeitangabe benötigt, die im folgenden Format
+Untertitel werden in OpenOlat im [WebVTT Format](https://w3c.github.io/webvtt/)
+hochgeladen ([Wikipedia- Artikel](https://en.wikipedia.org/wiki/WebVTT)).
+Die hochgeladene Datei muss .vtt abgespeichert sein.
+Untertitel können relativ einfach selbst erstellt werden.
+Dieses Format wird von der meisten Video-Player-Software unterstützt.
+
+!!! note ""
+
+    In der ersten Zeile des VTT-Dokuments muss das Schlüsselwort WEBVTT stehen,
+    gefolgt von einer leeren Zeile.
+
+Vor jeder Untertitelzeile wird eine Zeitangabe benötigt, die im folgenden Format
 vorliegen muss:
 
 !!! note ""
 
-    h:m:s.ms     Beispiel: 00:00:20.396 (Zeitangabe 0 Stunden, 0 Minuten, 20.396 Sekunden)
+    hh\:mm\:ss.msec 
+
+    Beispiel: 00:00:20.396 (Zeitangabe 0 Stunden, 0 Minuten, 20.396 Sekunden)
 
     Millisekunden müssen bis auf die 3. Nachkomma-Stelle genau angegeben werden.
 
-
 !!! warning "Achtung"
 
-    Die Trennzeichen der Zeitangaben sind Doppelpunkt und Punkt (s. Beispiel). Es dürfen keine Kommata verwendet werden.
-    
-    Im Dokument muss auf der ersten Zeile WEBVTT stehen.
+    Die Trennzeichen der Zeitangaben sind Doppelpunkt und Punkt (siehe Beispiel oben). 
+    Es dürfen keine Kommata verwendet werden.
+
+Das folgende Beispiel zeigt den Anfang einer typischen VTT-Datei:
+
+!!! note ""
+
+    WEBVTT
+
+    00:00:00.000 --> 00:00:04.000<br>
+    Where did he go?
+
+    00:00:03.000 --> 00:00:06.500<br>
+    I think he went down this lane.
+
+    00:00:04.000 --> 00:00:06.500<br>
+    What are you waiting for?
+
 
  **Untertitel hinzufügen**
 
 Um einem Video einen Untertitel hinzuzufügen,
 
-  1. navigieren Sie zum Tab "Untertitel konfigurieren" und
-  2. klicken die Schaltfläche "Untertitel hinzufügen".
-  3. Wählen Sie im neuen Fenster die Sprache deren Untertitel Sie hochladen möchten, und
-  4. selektieren dann die entsprechende Datei.
-  5. Klicken Sie "Hochladen". 
+  1. Öffnen Sie "Administration &rarr; Einstellungen",
+  2. navigieren Sie zum Tab "Untertitel konfigurieren" und
+  3. klicken die Schaltfläche "Untertitel hinzufügen".
+  4. Wählen Sie im neuen Fenster die Sprache deren Untertitel Sie hochladen möchten, und
+  5. selektieren dann die entsprechende Datei.
+  6. Klicken Sie "Hochladen". 
 
 Bereits erstellte Untertitel werden in einer Tabelle aufgelistet und können
 dort auch gelöscht werden.

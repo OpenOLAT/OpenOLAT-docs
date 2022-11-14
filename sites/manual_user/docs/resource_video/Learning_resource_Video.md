@@ -105,30 +105,55 @@ based on different criteria can be added.
 
 ###  Subtitle configuration {: #video_subtitles}
 
-A video can be assigned with subtitles in any amount of languages. In OpenOlat
-subtitles are uploaded in the [WebVTT format](https://w3c.github.io/webvtt/)
-([Wikipedia article](https://en.wikipedia.org/wiki/WebVTT)). The uploaded
-files need the ending .srt. Files with the ending .vtt are not supported.
-Subtitles can be created easily by your own. This format ist supported by most
-of the video player software. For every indicated subtitle line a time
-specification is needed in the following format:
+A video can be subtitled in any number of languages. 
+In OpenOlat, subtitles are uploaded in the [WebVTT format](https://w3c.github.io/webvtt/)
+([Wikipedia article](https://en.wikipedia.org/wiki/WebVTT)). 
+The uploaded files need the ending .vtt.
+You can create subtitles easily on your own.
+The format presented below is supported by most video players. 
 
 !!! note ""
 
-    h:m:s.msec  example: 00:00:20.396 (time specification 0 hours, 0 minutes, 20.396 seconds)
+    The first line of the VTT document must be the keyword WEBVTT,
+    followed by an empty line.
 
-    Milliseconds need to be indicated to the 3rd position after decimal point.
+Before every subtitle line, a time specification is needed in the following format:
+
+!!! note ""
+
+    hh\:mm\:ss.msec 
+
+    Example: 00:00:20.396 (time specification 0 hours, 0 minutes, 20.396 seconds)
+
+    Milliseconds must be specified to the 3rd digit after the decimal point.
 
 !!! warning "Attention"
 
-    The separators of the time specification need to be double point and point (as the example). Commas are not allowed
+    The separators of the time specification must be colon and period 
+    (as in the example above). Commas are not allowed.
 
-    Inside the document, the first line needs to be WEBVTT.
+The following example shows the beginning of a typical VTT file:  
+
+!!! note ""
+
+    WEBVTT
+
+    00:00:00.000 --> 00:00:04.000<br>
+    Where did he go?
+
+    00:00:03.000 --> 00:00:06.500<br>
+    I think he went down this lane.
+
+    00:00:04.000 --> 00:00:06.500<br>
+    What are you waiting for?
+
 
 #### **Adding subtitles**
 
-  1. To add subtitles to a video 
-  2. navigate to the tab "Subtitle configuration" and 
+To add subtitles to a video
+
+  1. Open "Administration &rarr; Settings",
+  2. navigate to the tab "Subtitle configuration", 
   3. click the button "Add subtitle".
   4. In the new window chose the language in which you want upload the subtitles and 
   5. select the corresponding file.
@@ -154,7 +179,7 @@ OpenOlat it looks like the following:
 ![subtitles.png](assets/video_subtitle.png)
 
 As soon as you move the cursor over the icon the list with the existing
-subtitles expands. The current selection is dyed.
+subtitles expands. The current selection is colored in.
 
 ###  Video quality {: #video_quality}
 
