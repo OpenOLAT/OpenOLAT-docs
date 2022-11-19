@@ -4,7 +4,7 @@ Ein Rubrik ist in OpenOlat ein Element der Lernressource Formular. Rubriks biete
 
 * [Kursbaustein Umfrage](Forms_in_Questionnaires.de.md)
 * [Kursbaustein Formular](Forms_in_Forms_Element.de.md)
-* [Kursbaustein Bewertung"](Forms_in_Rubric_Scoring.de.md)
+* [Kursbaustein Bewertung](Forms_in_Rubric_Scoring.de.md)
 * [Portfolio 2.0 Vorlage](Forms_in_the_ePortfolio_template.de.md)
 
 ## Einsatzbeispiele für Rubriks
