@@ -47,4 +47,20 @@ Are tab views that specifically contain the filters that have been set. There ar
 
 On mobile or with more filter tabs than the browser window allows, the filter line changes to a scrollable slider with overscroll indicator.
 
-## Objects in column
+## Objects in columns
+Columns containing objects can be displayed as follows:
+
+* Listing objects
+* Numbers of objects
+
+### Listing objects
+
+![object with icon](assets/table-listing-with-icon.png){ class="shadow lightbox" }
+
+![object without icon](assets/table-listing-without-icon.png){ class="shadow lightbox" }
+
+### Number of objects
+
+![numbers with name](assets/table-numbers-with-name.png){ class="shadow lightbox" }
+
+![object without icon](assets/table-numbers-without-name.png){ class="shadow lightbox" }
