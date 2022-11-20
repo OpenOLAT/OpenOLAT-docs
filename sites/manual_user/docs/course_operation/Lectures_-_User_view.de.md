@@ -2,7 +2,7 @@
 
 Ein Benutzer kann seine Absenzen im persönlichen Menu öffnen
 
-![](assets/Absenzen_aufrufen.png)
+![Persönliches Menü Absenzen](assets/Absenzen_aufrufen.png)
 
 ## Übersicht der Kurse
 
@@ -13,11 +13,11 @@ verteilt. Auch der bisherige Fortschritt wird angezeigt. Dabei steht grün für
 anwesende Lektionen, orange für entschuldigte und rot für abwesende. Darüber
 hinaus können über die Option "Details" weitere Einzelheiten angezeigt werden.
 In der Spalte
-![](assets/attention_434343_64.png)
+![Achtung Rufzeichen](assets/attention_434343_64.png)
 erscheint ein rotes Ausrufezeichen, wenn die Anwesenheitsquote unter das
 geforderte Minimum fällt.
 
-![](assets/Absenzen_uebersicht_kurse.png)
+![Abesenzen Übersicht Kurse](assets/Absenzen_uebersicht_kurse.png)
 
 ## Detailansicht eines Kurses
 
@@ -43,5 +43,5 @@ Anschliessend wird "Geschlossen" angezeigt. Die Fristen werden systemweit in
 der Administration hinterlegt. Der Rekursantrag wird an die Dozenten des
 entsprechenden Lektionenblocks gesendet.
 
-![](assets/absenzen_detailsicht_kurs.png)
+![Absenzen Detail Übersicht](assets/absenzen_detailsicht_kurs.png)
 

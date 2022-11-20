@@ -2,9 +2,8 @@
 
 Das Datenarchivierungswerkzeug findet man in der Administration von Kursen.
 Über die Datenarchivierung können Kursbesitzer die Ergebnisse diverser
-Kursbausteine eines Kurses gespeichert werden. Insbesondere die Speicherung
-von Ergebnissen der durchgeführten Umfragen, Tests, Selbsttests, Aufgaben,
-Gruppenaufgaben und die Kursresultate sind wichtige Elemente, die Sie zum Ende
+Kursbausteine eines Kurses speichern. Insbesondere die Speicherung
+von Ergebnissen der durchgeführten Umfragen, Tests, Aufgaben, Gruppenaufgaben und die Kursresultate sind wichtige Elemente, die Sie zum Ende
 des Kurses sichern sollten.
 
 Die Archivierungen erfolgen in der Regel im zip Format und enthalten Excel
@@ -21,7 +20,7 @@ länger dauern, wie bei den Logfiles, wird der User per Mail informiert.
 
 ### Fragebogen
 
-Speicherung der alten Fragebögen.
+Speicherung der alten Fragebögen. In der Regel nicht mehr relevant. 
 
 ### Umfragen
 
@@ -38,6 +37,12 @@ jeweils einem extra Ordner.
 
 Archivierte Selbsttests enthalten anonymisierte Benutzerdaten, Tests werden
 personalisiert gespeichert und enthalten alle Testergebnisse.
+
+!!! note "Hinweis"
+
+    Sollen Testergebnisse als PDF gespeichert werden erfolgt dies im Bewertungswerkzeug oder im Kursrun des gewünschten Test Kursbausteins.
+
+    ![Test Resultate exportieren](assets/Test_Resultate_exportieren1.png)
 
 ### Kursresultate
 
@@ -124,6 +129,13 @@ werden. Die zip Datei enthält einen Ordner für jede Checkliste. Darin befindet
 sich jeweils eine xlsx Datei, die die Ergebnisse der Personen, die die
 Checklisten ausgefüllt haben enthält.
 
+### Formulare
+
+Es werden alle Formulare des Kurses aufgelistet. Die gewünschten Formulare können ausgewählt und als Zip-Datei gespeichert
+werden. Die zip Datei enthält einen Ordner für jedes Formular. Darin befindet
+sich jeweils eine xlsx Datei, die die Formular Antworten der Personen, die die
+das Formular ausgefüllt haben, enthält.
+
 ### Chat Historie
 
 Hier kann der Chatverlauf als xlsx Datei exportiert und auch gelöscht werden.
@@ -133,8 +145,9 @@ Hier kann der Chatverlauf als xlsx Datei exportiert und auch gelöscht werden.
 Hier werden die Personen, die den Kurs gebucht haben angezeigt, sofern der
 Kurs über eine Buchungsmethode verfügt.
 
-Wenn Sie einen Kurs löschen, werden automatisch alle Kursdaten (nicht die
-Kursbausteine!) in Ihrem persönlichen Ordner gespeichert.
+## Allgemeines
+
+Wenn Sie einen Kurs löschen, werden automatisch alle Kursdaten (nicht die Kursbausteine!) in Ihrem persönlichen Ordner gespeichert.
 
 Weitere Details zu den aufgezeichneten Logfiles erfahren Sie im Kapitel
 „[Aufzeichnung der Kursaktivitäten](Record_of_Course_Activities.de.md)".

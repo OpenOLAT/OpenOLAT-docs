@@ -26,12 +26,12 @@ Kursbetreuer kann das Werkzeug nicht sinnvoll genutzt werden.
 Aktivieren und konfigurieren Sie das Lektionen und Absenzmanagement des Kurses
 im Menü "Administration" -> „Einstellungen“ -> „Durchführung“.
 
-![](assets/Absenzen_Konfiguration.png)
+![Absenzen Konfiguration](assets/Absenzen_Konfiguration.png)
 
 Anschließend erscheint das Menü "Lektionen und Absenzen" unter Kurs
 Administration.  
 
-![](assets/13_Lektionen_Absenzen.png)
+![Kurs Administration Lektionen](assets/13_Lektionen_Absenzen.png)
 
 Hier können Sie Lektionenblöcke erstellen, löschen und sich einen Überblick
 über den Stand der Anwesenheit der Teilnehmenden verschaffen und Einträge
@@ -48,7 +48,7 @@ werden. Auch ein logfile kann angezeigt werden.
 Mit der Schaltfläche "Neuer Lektionenblock erstellen", wird ein neuer Block
 erstellt.
 
-![](assets/Lektionen_erstellen.png)
+![Lektionen erstellen](assets/Lektionen_erstellen.png)
 
 ### Lektionenblock erstellen
 
@@ -88,7 +88,7 @@ z.B. ein Präsenzort oder die genaue Zimmerbezeichnung sein.
  **Zeit** : Die Zeit kann optional hinzugefügt werden. Die Kalendereinträge
 können jedoch nur mit einer Zeitangabe korrekt angezeigt werden.
 
-![](assets/Lektionenblock_erstellen.png)
+![Lektionenblock erstellen](assets/Lektionenblock_erstellen.png)
 
 ## Tab Teilnehmer
 

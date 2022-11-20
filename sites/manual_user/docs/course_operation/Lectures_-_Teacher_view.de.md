@@ -3,7 +3,7 @@
 Dozierende können die Absenzenkontrolle in der Toolbar des entsprechenden
 Kurses öffnen.
 
-![](assets/toolbar_13.png)
+![Toolbar](assets/toolbar_13.png)
 
 Falls beim Login ein Kurs einen aktiven Lektionenblock aufweist, kann die
 Absenzenkontrolle direkt geöffnet werden. Mit "Start" wird die
@@ -15,7 +15,7 @@ mobile Ansicht.
 ## Übersicht Lektionenblöcke
 
 Mit Klick auf das Buchsymbol
-![](assets/absenzen_434343_64.png){class="size24"}
+![Buchsymbol](assets/absenzen_434343_64.png){class="size24"}
 in der Toolbar öffnet sich die Übersicht über die aktuellen, pendenten,
 nächsten und abgeschlossenen Lektionenblöcke.
 
@@ -40,7 +40,7 @@ ausstehende Absenzenkontrolle hinzuweisen. Die Sperrfrist wird systemweit in
 der Administration hinterlegt.
 
 Über
-![](assets/setting_434343_64.png){class="size24"}
+![Multi-Zahnrad](assets/setting_434343_64.png){class="size24"}
 lassen sich verschiedene Dokumente erstellen. Mit Export wird eine Excel-Liste
 erstellt. In dieser Excelliste sind alle Teilnehmer inklusive Absenzen,
 Begründung und Kommentar aufgelistet. Die "Absenzenliste" (alphabetisch nach
@@ -50,7 +50,7 @@ die Begründung hingegen nicht. Zum Schluss kann eine "Präsenzliste"
 (alphabetisch nach Nachnamen sortiert) auch als PDF erstellt werden. Diese
 Präsenzliste kann ausgedruckt und von den Teilnehmenden unterschrieben werden.
 
-![](assets/Lektionen_uebersicht_Dozent.png)
+![Lektionen Dozentenübersicht](assets/Lektionen_uebersicht_Dozent.png)
 
 ## Lektionen erfassen - Absenzenkontrolle durchführen
 
@@ -66,7 +66,7 @@ kann ferner ein Kommentar ergänzt werden. Dieser Kommentar ist in der
 Absenzenkontrolle für den Dozenten (Kursbetreuer) und in der Auswertung für
 den Kursbesitzer sichtbar. Die Kursteilnehmenden sehen diesen Kommentar nicht.
 
-![](assets/Lektionen_Kontrolle_erfassen.png)
+![Lektionen Kontrolle erfassen](assets/Lektionen_Kontrolle_erfassen.png)
 
 Lektionen können zwischengespeichert, abgesagt oder abgeschlossen werden. Mit
 "Zwischenspeichern" wird der aktuelle Stand der Absenzenkontrolle gespeichert
@@ -94,7 +94,7 @@ die Rekursfrist. Falls beispielsweise ein Rekurs erfolgreich eingereicht wird
 wiedereröffnet und die Absenzenkontrolle angepasst werden. Anschliessend muss
 der Lektionenblock erneut abgeschlossen werden.
 
-![](assets/Lektionen_abschliessen.png)
+![Lektionen abschliessen](assets/Lektionen_abschliessen.png)
 
 ## Coaching Tool
 
@@ -118,4 +118,4 @@ erfasst worden sind. Ansonsten wird manuell ein Beginn- und Enddatum
 ausgewählt. So können zum Beispiel die erforderlichen Daten für die
 Zeugniserstellung ausgelesen werden.
 
-![](assets/Lektionen_coaching.png)
+![Lektionen Coaching Tool](assets/Lektionen_coaching.png)

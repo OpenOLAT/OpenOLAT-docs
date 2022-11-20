@@ -8,7 +8,7 @@ Innerhalb eines Kurses können über die [Datenarchivierung](../display/OO161DE/
 * Benutzer-Logfile mit personalisierten Aktivitäten der User
 * Statistik-Logfile mit den anonymisierten Daten der Kursteilnehmenden
 
-![](assets/Logfiles.png){ class="shadow lightbox" }
+![Logfiles](assets/Logfiles.png){ class="shadow lightbox" }
 
 !!! info "Datenschutz"
 
@@ -50,7 +50,7 @@ Dennoch hier der Schlüssel:
   
 In der Spalte **actionVerb** wird nun genauer betrachtet welche Aktion vom Benutzer unter „userName“ mit dem Kursobjekt aus Spalte actionObject vorgenommen wurde. Der Eintrag in der Spalte **actionObject** ist also das Objekt das „verändert“ wurde, zumindest aus Datenbanksicht.
 
-![](assets/course_statistic_log.gif){ class="shadow lightbox" }
+![Statistik](assets/course_statistic_log.gif){ class="shadow lightbox" }
 
 Die dritte Zeile
 

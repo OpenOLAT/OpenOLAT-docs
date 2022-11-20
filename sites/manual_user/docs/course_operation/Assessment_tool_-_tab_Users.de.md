@@ -47,6 +47,6 @@ erscheinen weitere Funktionen z.B. kann der Status auf abgeschlossen gesetzt
 werden, die Sichtbarkeit aktiviert werden, eine E-Mail versendet oder ein Test
 verlängert werden. Je nach Assessment-Kursbaustein variieren die Möglichkeiten.
 
-![](assets/Bewerungswerkzeug_Funktionen_erscheinen.png)
+![Weitere Optionen aktivieren](assets/Bewerungswerkzeug_Funktionen_erscheinen.png)
 
 

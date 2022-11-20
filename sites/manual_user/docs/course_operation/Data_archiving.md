@@ -19,7 +19,7 @@ e.g. for log files.
 
 ### Questionnaires
 
-Storage of old questionnaires.
+Storage of old questionnaires. In der Regel nicht mehr relevant. 
 
 ### Surveys
 
@@ -33,7 +33,15 @@ archived can be selected and saved as a zip file. The zip file then contains
 the individual selected tests, each in an extra folder.
 
 Archived self-tests and questionnaires contain anonymized user data, tests are
-saved personalized and contain all test results.  
+saved personalized and contain all test results. 
+
+
+!!! note "Hinweis"
+
+    Sollen Testergebnisse als PDF gespeichert werden erfolgt dies im Bewertungswerkzeug oder im Kursrun des gewünschten Test Kursbausteins.
+
+    ![Test Resultate exportieren](assets/Test_Resultate_exportieren1.png)
+
   
 ### Course results
 
@@ -63,9 +71,16 @@ desired elements to be archived can be selected and saved as a zip file. In
 the zip file, the individual selected elements are then each in an extra
 folder.  
 
+### Topic assignment
+
+Es werden alle Themenvergaben des Kurses angezeigt. Die gewünschten zu
+archivierenden Elemente können ausgewählt und als Zip-Datei gespeichert
+werden. In der Zip-Datei liegen dann die einzelnen ausgewählten Elemente in
+jeweils einem extra Ordner.
+
 ### Log files
 
- Here, the personalized log files of the course owners as well as
+Here, the personalized log files of the course owners as well as
 the anonymized log files of the course participants can be saved for a
 selected period of time. Depending on the size, the creation can take some
 time. Afterwards you can find the logfiles in your personal, private OpenOlat
@@ -108,6 +123,21 @@ be archived can be selected and saved as a zip file. The zip file contains a
 folder for each checklist. Inside each is an xlsx file containing the results
 of the people who completed the checklists.
 
+### Checklists
+
+Es werden alle Checklisten des Kurses aufgelistet. Die gewünschten zu
+archivierenden Checklisten können ausgewählt und als Zip-Datei gespeichert
+werden. Die zip Datei enthält einen Ordner für jede Checkliste. Darin befindet
+sich jeweils eine xlsx Datei, die die Ergebnisse der Personen, die die
+Checklisten ausgefüllt haben enthält.
+
+### Forms
+
+Es werden alle Formulare des Kurses aufgelistet. Die gewünschten Formulare können ausgewählt und als Zip-Datei gespeichert
+werden. Die zip Datei enthält einen Ordner für jedes Formular. Darin befindet
+sich jeweils eine xlsx Datei, die die Formular Antworten der Personen, die die
+das Formular ausgefüllt haben, enthält.
+
 ### Chat history
 
 Here the chat history can be exported as xlsx file and also
@@ -116,6 +146,8 @@ deleted.
 ### Bookings
 
 Here the people who have booked the course are displayed, if the course has a booking method.  
+
+## Allgemeines
   
 When you delete a course, all course data (not the course elements!) are
 automatically saved in your personal folder.

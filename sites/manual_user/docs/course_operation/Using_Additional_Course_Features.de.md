@@ -2,9 +2,9 @@
 
 In der Kurs "Administration" unter "Einstellungen" können Sie im Tab "Toolbar" die folgenden weiteren Funktionen einrichten.
 
-![](assets/Toolbar_154.png){ class="shadow lightbox" }
+![Toolbar einrichten](assets/Toolbar_154.png){ class="shadow lightbox" }
 
-![](assets/Toolbar15a.png){ class="shadow lightbox" }
+![Toolbar](assets/Toolbar15a.png){ class="shadow lightbox" }
 
 ## Kurssuche
 

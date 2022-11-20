@@ -27,7 +27,7 @@ jeweiligen Benutzers zu bewerten sind. Sofern nur ein Baustein bewertet werden
 muss, wird dieser direkt aufgelistet. Mit einem Klick auf diesen Baustein
 kommt man zur entsprechenden Bewertung.
 
-![](assets/eass_anstehende_bewertungen_DE.png)
+![Offene Bewertungen](assets/eass_anstehende_bewertungen_DE.png)
 
 In der Übersicht werden nur die unerledigten Bewertungen angezeigt. Bereits durchgeführte Bewertungen werden an dieser Stelle nicht aufgelistet.
 
