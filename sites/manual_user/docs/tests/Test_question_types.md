@@ -132,16 +132,16 @@ The entry of the same answer in several gaps can be allowed or disallowed.
 
 ![Variants Gap text](assets/Lückentext_Varianten.jpg){ class="shadow" }
 
-## Lückentext mit Dropdown
-![Icon Lückentext mit Dropdown](assets/icon_dropdown_luecke.png){ class=size24 }
+##  Gap text with dropdown
+![Icon Gap text with dropdown](assets/icon_dropdown_luecke.png){ class=size24 }
 
-Beim Lückentext mit Dropdown handelt es sich im Prinzip um eine Kombination aus Lückentext und Single-Choice-Auswahl. Ähnlich wie beim Lückentext werden in einen Fließtext Lückenelemente eingebaut. Diesen Lücken können dann mehrere Antwortalternativen zugeordnet und die korrekte Antwort gekennzeichnet werden. 
+Gap text with dropdown is basically a combination of gap text and single-choice selection. Similar to the gap text, gap elements are integrated into a continuous text. These gaps can then be assigned several answer alternatives and the correct answer can be marked. 
 
-![Dropdown Lückentext Beispiel](assets/Lueckentext_dropdown.png){ class="shadow" }
+![Dropdown gap text example](assets/gap_text_dropdown.png){ class="shadow" }
 
-Ferner können auch globale Antworten für die Lücken verwendet werden. Diese werden dann in jeder Lücke der jeweiligen Frage angezeigt und der User muss die für diese Lücke passende Antwort auswählen. 
+Furthermore, global answers can also be used for the gaps. These are then displayed in each gap of the respective question and the user must select the appropriate answer for this gap. 
 
-Die Punktevergabe kann sowohl pauschal über alle Lücken erfolgen als auch für jede Antwort einer Lücke separat konfiguriert werden. 
+Scoring can be done across all gaps as well as configured separately for each answer of a gap. 
 
 ## Numercial input {: #ni}
 

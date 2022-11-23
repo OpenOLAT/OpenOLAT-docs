@@ -72,7 +72,7 @@ want to use:
 
   *  **Assessment**: create individual assessments for each course participant or for participants of a group as a whole.
 
- Im Tab "Lernpfad" (bzw. im Tab "Workflow" bei herkömmlichen) kann ferner definiert werden ob die Aufgabe obligatorisch oder freiwillig ist. 
+ In the tab "Learning path" (or in the tab "Workflow" for conventional) you can also define whether the task is mandatory or voluntary. 
 
 Mandatory tasks have to be completed and will be collected after the set deadline and handed over to the coach for evaluation. In the case of optional tasks, the user can decide for himself if he wants to work on them. Furthermore, optional tasks are not collected after the deadline.
 
@@ -87,7 +87,7 @@ Mandatory tasks have to be completed and will be collected after the set deadlin
 By means of the course element "Portfolio task" you can provide predefined
 portfolio templates to be filled by your course participants. The course
 participants can then pick up the portfolio task in their course, 
-und werden anschliessend in ihren individuellen Portfoliobereich weitergeleitet. Das so abgeholte Portfolio kann dann von den Lernenden mit Inhalten und Artefakten befüllt und wenn gewünscht weiteren Personen oder den Kursbetreuern zugänglich gemacht werden. Je nach Konfiguration können diese Personen das Portfolio auch bewerten und kommentieren. 
+and are then forwarded to their individual portfolio area. The portfolio picked up in this way can then be filled with content and artifacts by the learners and, if desired, made available to other people or the course supervisors. Depending on the configuration, these persons can also evaluate and comment on the portfolio. 
  
 For the course element Portfolio task you need a "Portfolio 2.0 template",
 which you link to the course element. If you have not yet created a Portfolio
@@ -130,9 +130,9 @@ General information on the subject of portfolios and e-portfolios can be found
 The course element Group task functions largely like the course element
 [Task](../task/index.md). 
 
-Punkte und Feedbacks werden in diesem Kursbaustein für die gesamte Gruppe erstellt, können aber individuell angepasst werden.
+Points and feedbacks are created for the whole group in this course element, but can be customized.
 
-Folgende Unterschiede zum Kursbaustein Aufgabe sind zu beachten:
+The following differences to the course element Task should be noted:
 
 When creating the group task, one or more groups to which the task is assigned
 must be selected in the tab "Workflow". Only these groups can then view and
@@ -218,19 +218,19 @@ The chapter "[Tests at course level](../tests/Tests_at_course_level.md)" is part
 
 Eine komplexere Alternative zum Selbsttest stellt der Kursbaustein Übung dar. 
 
-## Kursbaustein "Übung" {: #course_element_uebung}
+## Course Element: Practice {: #course_element_uebung}
 
-Der Kursbaustein mit Lernkarten-Logik dient der individuellen Selbstüberprüfung der Kursteilnehmenden. Dafür kombiniert die Lehrperson mehrere OpenOlat Tests oder Fragen-Sets aus dem Fragenpool, die die Lernenden selbständig in Serien und Challenges bearbeiten können. Die Anzahl der Fragen pro Übungsserie kann genau wie die Anzahl der Gesamt-Challenges festgelegt werden. Umfasst eine Serie beispielsweise 10 Fragen, werden dem Lernenden 10 Fragen eingeblendet. Danach kann er entscheiden, ob er falsch beantwortete Fragen noch mal beantworten oder diese überspringen will. Die Anzahl der Level spiegelt die Intensität der Übung wider und gibt an wie häufig eine Frage wiederholt korrekt beantwortet werden muss. 
+The course element with flashcard logic is used for individual self-testing of course participants. For this purpose, the teacher combines several OpenOlat tests or question sets from the question pool, which the learners can work on independently in series and challenges. The number of questions per exercise series can be defined, as can the number of total challenges. For example, if a series comprises 10 questions, the learner is shown 10 questions. Afterwards, he can decide whether he wants to answer incorrectly answered questions again or skip them. The number of levels reflects the intensity of the exercise and indicates how often a question has to be answered correctly repeatedly. 
 
-![Kursbaustein Übung](assets/KB_Uebung_en.png)
+![Course element practice](assets/KB_Uebung_en.png)
 
-Neben den von der Lehrperson konfigurierten Übungssettings können Kursteilnehmende auch bestimmte Fragen wie neue Fragen oder Fragen eines bestimmten Levels filtern und bearbeiten. Auch eigene Serien können zusammengestellt werden.
+In addition to the practice settings configured by the teacher, course participants can also filter and edit specific questions such as new questions or questions of a certain level. Custom series can also be created.
 
-Nach Abschluss einer Challenge sind neben der Einordnung in Ranglisten detaillierte Statistiken zum Lernstand sowie eine zusammenfassende Übersicht verfügbar.
+After completion of a challenge, detailed statistics on the learning status as well as a summary overview are available in addition to the classification in ranking lists.
 
 !!! info "Info"
 
-    Für diesen Kursbaustein können nur automatisch auswertbare Testfragen verwendet werden. 
+    Only automatically evaluable test questions can be used for this course element. 
 
 ## Course Element: Form  {: #course_element_form}
 
@@ -316,7 +316,7 @@ Further information can be found
 
 ###  Highscore  {: #highscore}
 
-The highscore mit Ausnahme des Kursbausteins Übung, can be added for all assessable course element as well as for
+The highscore, except for the course element "practice" , can be added for all assessable course element as well as for
 structure elements.
 
 The highscore makes a playful comparison between test participants possible

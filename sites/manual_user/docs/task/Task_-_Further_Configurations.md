@@ -26,7 +26,7 @@ be considered "completed". The following options are available:
 ![Completion criterion](assets/task_completion_criterion.png){ class="shadow" }
 
 - **Visit course element:**  User has clicked on the course element.
-- **Confirmation by participant:** User hat auf die "Lesebestätigung" geklickt
+- **Confirmation by participant:** User has clicked on the "I`ve read the content " button
 - **Score**: The user has achieved at least the specified score while
 completing the task.
 - **Passed**: The user has fulfilled the "passed" requirements configured in
@@ -168,7 +168,7 @@ Here you can define the minimum and maximum number of return documents.
 ## Tab: "Assessment"
 
 Here you define how each course participant shall be assessed. 
-Soll es Punkte geben? Soll es ein bestanden/nicht bestanden für den Kursbaustein geben? Soll die Punktebewertung mit einer Bewertungsskala verbunden werden? Sollen weitere individuelle Kommentare oder Dokumente bereitgestellt werden können? Entscheiden Sie jeweils was für Ihr Szenario passend ist. 
+Should there be points? Should there be a pass/fail for the course element? Should the point evaluation be linked to a rating scale? Should it be possible to provide further individual comments or documents? Decide in each case what is suitable for your scenario. 
 
 By default a tutor can assess tasks by means of "Passed/failed." Das Bestehen kann entweder manuell durch den Betreuer definiert werden oder, sofern auch Punkte für die Aufgabe vergeben werden, sich auf eine bestimmte Punktzahl beziehen. 
 

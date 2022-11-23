@@ -10,16 +10,16 @@ administrator of the OpenOlat instance. It is also possible to configure which
 OpenOlat areas guests have access to and which not. These basic settings can
 only be made by the system administrator.
 
-Grundsätzlich können diverse Lernressourcen z.B.  Wikis, Blogs, Glossare, Tests, Videos oder Glossare für Gäste freigeschaltet werden.  
+Generally, various learning resources, e.g. wikis, blogs, glossaries, tests, videos or glossaries can be unlocked for guests.  
 
 ## Course level
 
-!!! warning "Hinweis"
+!!! warning "Attention"
 
     Guest access can only be activated for conventional courses, not for learning path courses.
 
 In a course, the course owner can set up the access configuration in the
-"Settings"→ "Access" tab so that guests can also access the course. Als Einstellung muss dabei die Buchungsmethode aktiviert und in einem zweiten Schritt der Gastzugang ausgewählt werden.
+"Settings"→ "Access" tab so that guests can also access the course. The booking method must be activated as a setting and guest access must be selected in a second step.
 
 ![guest access](assets/Gastzugang_en.png)
 
@@ -33,7 +33,7 @@ The following course elements can be seen by guests:
   * **Test**: do it depending on configuration
   * **Self-test**: do it (even if option is not selected)
   * An **BigBlueButton**, **OpenMeetings** u.ä. Meetings teilnehmen
-  * **Umfragen** bearbeiten
+  * **Umfragen** edit
 
 If you want to give a guest a direct access to a course, you can send him the
 external link for the course. 
@@ -41,9 +41,9 @@ external link for the course.
 ![Info page](assets/guest_infopage.png)
 
 
-!!! tip "Tipp: Alternative zum Gastzugang"
+!!! tip "Tipp: Alternative to guests"
 
-    Möchten Sie jemanden zu einem OpenOlat Kurs einladen der noch keinen OpenOlat Account besitzt können Sie als Kursbesitzer alternativ auch die Option "Externe Mitglieder einladen" in der Mitgliederverwaltung nutzen. Die eingeladene Person erhält dann einen Registrierungslink und einen eingeschränkten Zugriff auf OpenOlat, hat allerdings mehr Möglichkeiten als ein Gast. 
+    If you want to invite someone to an OpenOlat course who does not yet have an OpenOlat account, you can alternatively use the option "Invite external members" in the member administration. The invited person will then receive a registration link and limited access to OpenOlat, but has more possibilities than a guest. 
   
 !!! info "Info"  
 

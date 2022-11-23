@@ -96,7 +96,7 @@ you can then create offers.
 
 You can define when and under which conditions the users of the users of the system can book a learning resource.
 
-So ist eine Buchung mit Zugangscode, ohne oder per PayPal (sofern vom Admin aktiviert) möglich. Auch ein Zugang ohne Buchung  oder als Gast können konfiguriert werden. Die Details werden im Folgenden beschrieben.  
+Thus, a booking with access code, without or via PayPal (if activated by the admin) is possible. Also an access without booking or as a guest can be configured. The details are described below.  
 
 Booking can be used as a synonym for
 book, enroll, purchase.
@@ -164,11 +164,10 @@ no longer in the tab "My Courses", but in the tab "Finished" next to it.
 
 ![](assets/lifecycle_finished.png)  
 
-Im Autorenbereich wird der beendete Kurs mit einem neuen Symbol und
-durchgestrichen angezeigt.
+In the authoring area, the finished course is displayed with a new icon and
+crossed out.
 
-Falls der Kurs wieder geöffnet werden soll, rufen Sie erneut den Lebenszyklus
-des Kurses auf und klicken Sie auf "Erneut öffnen".
+If you want to reopen the course, go back to the course life cycle and click Reopen.
 
 ### Delete course
 

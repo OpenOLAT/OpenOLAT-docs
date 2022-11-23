@@ -40,7 +40,7 @@ from the menu. Afterwards you can assign it to the section.
 3. Under type choose "essay". Find information about creating a form portfolio in
 the next chapter.    
   
-4. Die konkrete Aufgabenstellung kann als Text im Bereich "Aufgabe" eingegeben oder als Dokument im Bereich "Dokument" hochgeladen und gespeichert werden. 
+4. the concrete task can be entered as text in the "Task" area or uploaded and saved as a document in the "Document" area. 
 
 5. Under selection choose the desired selection. The assignment will appear in
 this section.  
@@ -63,11 +63,11 @@ from the menu. Afterwards you can assign it to the section.
 3. Under type choose "form".
 
 4. You need to create a learning resource "form" under "Authoring". After that
-you can choose it via the link "Select a form". Es erscheint ein entsprechender Dialog. Wenn Sie hier ein neues Formular erstellen, müssen Sie es später noch im Autorenbereich aufrufen und ausgestalten. 
+you can choose it via the link "Select a form". A corresponding dialog appears. If you create a new form here, you still have to call it up and design it later in the authoring area. 
 
-	Wir empfehlen die Lernressource "Formular" im Vorfeld zu erstellen und dann anschliessend in die Portfoliovorlage einzubinden.    
+	We recommend creating the learning resource "Form" in advance and then including it in the portfolio template afterwards.    
 
-	Die eigentliche Aufgabe kann als Text im Bereich "Aufgabe" eingegeben, als Dokument im Bereich "Dokument" hochgeladen und gespeichert werden oder direkt in das Formular integriert werden. 
+	The actual task can be entered as text in the "Task" area, uploaded and saved as a document in the "Document" area or integrated directly into the form. 
 
 5. Then it can be chosen between self and external evaluation.
 
@@ -86,8 +86,8 @@ you can choose it via the link "Select a form". Es erscheint ein entsprechender 
 	* **Anonymous external evaluation**: The external evaluations are anonymous.
 	For the user it is not visible, who did which external evaluation.  
   
-6. Unter "Bereich" gegebenenfalls den gewünschten Bereich der Aufgabe auswählen.
-In dieser Sektion wird dann die Aufgabe erscheinen.  
+6. Under "Section", if necessary, select the desired section of the task.
+The task will then appear in this section.  
 
 7. Finally Save all.  
 

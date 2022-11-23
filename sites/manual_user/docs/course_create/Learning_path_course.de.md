@@ -2,6 +2,8 @@
 
 ## Was sind Lernpfad Kurse?
 
+:octicons-device-camera-video-24: **Video-Einführung**: [Was ist ein Lernpfad?](<https://www.youtube.com/embed/XQJSf-9it_I>){:target="_blank”}
+
 Seit der OpenOlat Version 15 gibt es zwei Varianten von OpenOlat-Kursen:
 Herkömmliche Kurse und Lernpfad Kurse.
 

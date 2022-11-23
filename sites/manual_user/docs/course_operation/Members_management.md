@@ -10,7 +10,7 @@ or privacy policy also take place here.
 
 When you open the members management you will see a tabular list of all users who have access to the course as course or group member. Several tabs filter the member list according to member roles. Under each tab you can view and manage (edit, remove) the corresponding users as well as add or import new persons or send e-mails to one or more persons. You can also export the respective members as Excel table.
 
-![Members ares](assets/memebers17.png)
+![Members area](assets/memebers17.png)
 
 The "Search" element in Member Management can be used to search for members of a
 course, which is helpful for many participants.
@@ -18,7 +18,11 @@ course, which is helpful for many participants.
 Select the columns that are relevant for you via the Zahnrad menu and sort the
 list according to your wishes.
 
+<<<<<<< Updated upstream
 ### User information bearbeiten
+=======
+**Edit user information**
+>>>>>>> Stashed changes
 
 If you select a person from the list, you will get further information about
 this person, e.g. information about the person's attendance behavior, which
@@ -45,10 +49,11 @@ Optionen und Funktionen bestimmter Kursbausteine.
 Participants are usually the learners or people who participate in an online course. Participants can only act within the scope of the options provided by
 the owner. By default, participants do not have access to the course administration and the menus it contains.
 In einem [Lernpfad Kurs](../course_create/Learning_path_course.de.md) sehen nur die Teilnehmer die visualisierte Prozentanzeige rechts oben in der Toolbar.
+In a learning path course, only the participants see the visualized percentage display at the top right of the toolbar.
 
 A course member can have multiple roles in the course at the same time. In this case these persons will see the possibility to change roles in the course toolbar and thus to view the course from different course roles.
 
-![](assets/role_change.png)
+![role change](assets/role_change.png)
 
 Multiple roles are often useful for course owners in order to quickly
 recognize all user-specific possibilities. The normal participant usually does
@@ -63,12 +68,12 @@ selection elements for the corresponding perspective.
 Users can be added to a course in several ways:
 
 a) by directly entering them in the member list by the course owner via the button "Add member" or "Import members" 
-oder "Externe Mitglieder einladen". In den ersten beiden Fällen werden existierende Openolat Benutzer hinzugefügt. Mit der dritten Option können auch Personen ohne OpenOlat Account der Lernressource hinzugefügt werden.
+oder "invite external members". In the first two cases, existing Openolat users are added. With the third option, people without an OpenOlat account can also be added to the learning resource.
 
 b) by booking the course by the learner (see [access
 configuration](../course_create/Access_configuration.md))
 
-c) by adding a group. Alle Gruppenmitglieder werden dann dem Kurs hinzugefügt.
+c) by adding a group. All group members will then be added to the course.
 
 d) by a superordinate OpenOlat [Curriculum](../curriculum/Curriculum_Management.md)
 
@@ -98,10 +103,10 @@ Under Bookings you can view all bookings for this course, sorted by status, if
 the course access is organized via the [booking
 method](../course_create/Access_configuration.md).
 
-## Bereich "Einladungen" 
-Ab :octicons-tag-24: 17.0 verfügbar.
+## Invitations 
+Available in :octicons-tag-24: 17.0.
 
-Hier werden alle Personen angezeigt, die über die Option "Externe Mitglieder einladen" (siehe oben) dem Kurs hinzugefügt wurden. 
+All persons added to the course via the "Invite external members" option (see above) are displayed here. 
 
 ##  Rights
 
@@ -179,7 +184,7 @@ course participants' achievements.
 
 !!! info "info"
 
-    Ein Zugriff auf die Bewertung im Kursrun besteht dabei aber nicht.  
+    However, there is no access to the valuation in the course run.  
   
  **Glossary tool**
 
@@ -193,8 +198,8 @@ The "Administration" menu also appears.
 
 Members are allowed to access and download course statistics.  
 
-Mitglieder mit diesem Recht erhalten Zugriff auf alle für diesen Kurs zur Verfügung stehenden Statistikbereiche, also Kurs-Statistiken, Fragebogen
-Statistiken und Test Statistiken. Die Daten können angezeigt und heruntergeladen werden.  
+Members with this right get access to all statistics areas available for this course, i.e. course statistics, questionnaire
+statistics and test statistics. The data can be displayed and downloaded.  
   
  **Assessment mode**
 

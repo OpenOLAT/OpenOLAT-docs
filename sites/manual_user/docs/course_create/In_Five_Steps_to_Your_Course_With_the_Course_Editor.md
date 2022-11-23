@@ -36,7 +36,7 @@ In the first step you create your course. In the following steps, you add the de
     The exact further design and the choice of the [course
     elements](../course_elements/index.md) required depend on your didactic concept. The following is _an example_ of a course similar to the course wizard.
 
-Die nächsten Schritte finden im **Kurseditor** statt. 
+The next steps take place in the **Course Editor**. 
 The following is an _example_ of how to recreate a course similar to the course wizard.
 
 
@@ -46,7 +46,7 @@ The following is an _example_ of how to recreate a course similar to the course 
 
     ![Insert course elements](assets/insert_course_elements16.png){ class="shadow" }  
   
-2. Indicate a title in the tab "Title and description" and save your settings. Eventuell noch einen Titel für das Kursmenü eingeben, falls Ihr Basistitel zu lang ist.  
+2. Indicate a title in the tab "Title and description" and save your settings. Possibly enter another title for the course menu if your base title is too long.  
  
 
 3. In the tab "Page content" click on "Create page and open in editor". This is how you get to the OpenOlat HTML editor.
@@ -95,10 +95,10 @@ The following is an _example_ of how to recreate a course similar to the course 
 
 ### Simple design option: course element Tab Layout
 
-All course elements have the tab "Layout". Here you have further visual design options for the course elements. For example, you can store a background image or choose a certain display style. Color coding is also possible. The preview option allows you to see the effects directly. In this tab, you also determine whether the course element is displayed with the stored short title the (long) title or without title. Ausführliche Informationen zu den Möglichkeiten finden Sie
-[hier](Design_possibilities_of_courses_and_course_elements.md)
+All course elements have the tab "Layout". Here you have further visual design options for the course elements. For example, you can store a background image or choose a certain display style. Color coding is also possible. The preview option allows you to see the effects directly. In this tab, you also determine whether the course element is displayed with the stored short title the (long) title or without title. You can find detailed information about the possibilities
+[here](Design_possibilities_of_courses_and_course_elements.md)
 
-Wenn Sie die gewünschten Kursbausteine hinzugefügt haben, müssen Sie noch den Kurs publizieren.
+Once you have added the desired course elements, you still need to publish the course.
 
 ## Step 5: Publish and configure share
 

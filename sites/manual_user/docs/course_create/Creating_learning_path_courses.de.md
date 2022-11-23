@@ -1,5 +1,7 @@
 # Lernpfad Kurse erstellen
 
+:octicons-device-camera-video-24: **Video-Einführung**: [Lernpfade einrichten](<https://www.youtube.com/embed/7TFx8877Uaw>){:target="_blank”}
+
 Die Erstellung sowohl von herkömmlichen als auch von Lernpfad Kursen erfolgt
 im Autorenbereich unter „Meine Einträge“ oder „Favoriten“ -> Erstellen ->
 Kurs. Anschließend kann der gewünschte Kurstyp gewählt werden.
@@ -7,6 +9,8 @@ Kurs. Anschließend kann der gewünschte Kurstyp gewählt werden.
 Bereits existierende, herkömmliche Kurse können in Lernpfad Kurse umgewandelt
 werden. Einen entsprechenden Link findet man in der Kurs Administration und
 auch im Bereich "Einstellungen" im Tab "Durchführung".
+
+:octicons-device-camera-video-24: **Video-Einführung**: [Herkömmliche Kurse in Kurse mit Lernpfad umwandeln](<https://www.youtube.com/embed/0Y39TXKwVqc>){:target="_blank”}
 
 ![](assets/Kurs_umwandeln_Lernpad.png)
 
@@ -23,6 +27,8 @@ werden.
 
 ## Konfiguration zur Berechnung des Lernfortschritts
 
+:octicons-device-camera-video-24: **Video-Einführung**: [Lernfortschritt berechnen](<https://www.youtube.com/embed/j8Yfkht2gQU>){:target="_blank”}
+
 Gehen Sie in die Kursadministration und wählen Sie die "Einstellungen". Im Tab
 "Durchführung" kann definiert werden wie der Lernfortschritt des Kurses
 berechnet wird. Der Kursfortschritt kann basierend auf der Anzahl der
@@ -36,6 +42,11 @@ absolvierten Zeiteinheiten beziehen.
 Die Berechnungsgrundlage beeinflusst dann den für die Lernenden angezeigten
 Fortschritt, der in der Grafik rechts oben und im Bereich "Lernpfad" der Toolbar angezeigt
 wird.
+
+:octicons-device-camera-video-24: **Video-Einführung**: [Wie sehe ich den Lernfortschritt von mir betreuter Teilnehmer?](<https://www.youtube.com/embed/VO7TyxN9EOA>){:target="_blank”}
+
+:octicons-device-camera-video-24: **Video-Einführung**: [Wie sehe ich meinen Lernfortschritt?](<https://www.youtube.com/embed/sC2si_giXY8>){:target="_blank”}
+
 
 Darüber hinaus kann in den "Einstellungen" im Tab "Bewertung" noch definiert
 werden, ob auch die Gesamtpunkte des Kurses in der Fortschrittsgrafikanzeige
@@ -62,4 +73,3 @@ Folgende Dinge können eingestellt werden:
   * sowie weitere Datumsangaben zu den einzelnen Kursbausteinen
 
 ![](assets/Lernfpad_beta.png)
-
