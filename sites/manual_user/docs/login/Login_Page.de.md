@@ -1,6 +1,6 @@
 # Login-Seite
 
-:octicons-device-camera-video-24: **Video-Tutorial**: [Login (Allgemeine Navigation, OpenOlat Academy Basics I-0)](<https://youtu.be/Sy5cXJL7K90/watch>){:target="_blank"}
+:octicons-device-camera-video-24: **Video-Einführung**: [Login](<https://www.youtube.com/embed/Sy5cXJL7K90>){:target="_blank”} 
 
 Sie können sich jederzeit über die Zugangsseite Ihrer Organisation in OpenOlat
 einloggen. Beachten Sie, dass die genauen Zugangsmöglichkeiten je nach
