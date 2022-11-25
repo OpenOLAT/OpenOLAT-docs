@@ -17,6 +17,8 @@ Neben der [Volltextsuche](../personal/Full-Text_Search.de.md) für das gesamte O
 * Titel und Inhalt von Mitteilungen
 * Wiki Beiträge
 
+:octicons-device-camera-video-24: **Video-Einführung**: [Suchfunktion](<https://www.youtube.com/embed/GlUCyVl11ic>){:target="_blank”}
+
 ## Kurskalender
 
 Pro Kurs kann ein Kalender aktiviert werden. Für die Einbindung gibt es zwei Optionen. Der Kalender kann entweder als [Kursbaustein](../course_elements/Administration_and_Organisation.de.md) oder an zentraler Position oben in der Kurstoolbar angezeigt werden und somit einen guten Überblick geben.

@@ -33,6 +33,8 @@ geben soll.
 
 ![mitteilung.png](assets/infomessage.png)
 
+:octicons-device-camera-video-24: **Video-Einführung**: [Mitteilungen](<https://www.youtube.com/embed/3tAj19Avfkk>){:target="_blank”}
+
 Der Kursbaustein bietet die Möglichkeit, Mitteilungen in der Kursstruktur
 einzubetten. Diese Mitteilungen sind sowohl im Kurs als auch bei den
 Benachrichtigungen der einzelnen Benutzer sichtbar. Bei der Mitteilung kann es
@@ -49,6 +51,8 @@ fest, wie viele Mitteilungen gleichzeitig im Kurs angezeigt werden.
  **Automatisch abonnieren:** Standardmässig wird der Kursbaustein automatisch
 von Kursbesuchern abonniert. Diese Option können Sie hier ausschalten, so dass
 Kursbesucher Mitteilungen manuell abonnieren können.
+
+:octicons-device-camera-video-24: **Video-Einführung**: [Abonnements](<https://www.youtube.com/embed/h9gOqt7TR7Q>){:target="_blank”}
 
 Mitteilungen können im persönlichen Menü unter "Abonnements" eingesehen
 werden. Die Anzahl angezeigter Mitteilungen kann im Kurseditor eingestellt

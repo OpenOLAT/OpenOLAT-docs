@@ -5,6 +5,8 @@ synchron zu kommunizieren und Inhalte zu vermitteln.  Sie eignen sich für
 Online-Präsentationen, Webinare, Videokonferenzen, Online-Workshops, virtuelle
 Gruppenarbeiten usw.
 
+ :octicons-device-camera-video-24: **Video-Einführung**: [Virtuelle Klassenzimmer im Überblick](<https://www.youtube.com/embed/tTAujHOKnRs>){:target="_blank”}
+
 In OpenOlat können verschiedene Virtuelle Klassenzimmer, auch als Web-
 Conferencing-Tools bezeichnet, eingebunden werden. In der Regel wird für die
 Nutzung dieser Systeme eine OpenOlat weite Lizenz und ein entsprechender

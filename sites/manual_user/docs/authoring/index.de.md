@@ -1,5 +1,7 @@
 # Autorenbereich
 
+:octicons-device-camera-video-24: **Video-Einführung**: [Voraussetzungen für Autoren](<https://www.youtube.com/embed/L0jc_LBKXLE>){:target="_blank”}
+
 Im Autorenbereich finden OpenOlat Autoren alle Werkzeuge um Kurse und andere
 Lernressourcen zu erstellen, zu importieren und zu bearbeiten.
 

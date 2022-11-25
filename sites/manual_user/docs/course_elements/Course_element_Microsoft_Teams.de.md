@@ -3,6 +3,8 @@
 **Art der Software** |  Kommerzielle Software, Lizenz und Serverhosting erforderlich  
 ---|---  
 
+:octicons-device-camera-video-24: **Video-Einführung**: [Microsoft Teams](<https://www.youtube.com/embed/eyHOaF-ujuE>){:target="_blank”}
+
 ## Funktionen der Software  
 
 Microsoft Teams ermöglicht virtuelle Räume für synchrone Meetings mit Webcam- und Audio-Unterstützung
@@ -76,7 +78,9 @@ Zusätzlich werden die in dem Kursbaustein erstellten Online-Termine
 automatisch in den kursspezifischen Kalender eingetragen und von den
 Teilnehmenden abonniert werden. Auch kann man rasch aus dem Kalender in den
 termingebundenen Raum gelangen.  
-  
+
+  :octicons-device-camera-video-24: **Video-Einführung**: [Abonnements](<https://www.youtube.com/embed/h9gOqt7TR7Q>){:target="_blank”}
+
 ## Teilnehmerperspektive
 
 Ruft ein Kursteilnehmer einen MS Teams Kursbaustein auf, sieht er eine

@@ -171,6 +171,8 @@ haben, Dateien zu lesen bzw. herunterzuladen.
 Abonnieren Sie den Ordner, um bei neuen Dokumenten benachrichtigt zu werden.
 Änderungen erfahren Sie per E-Mail oder unter „Abonnements“ in OpenOlat.
 
+:octicons-device-camera-video-24: **Video-Einführung**: [Abonnements](<https://www.youtube.com/embed/h9gOqt7TR7Q>){:target="_blank”}
+
 Wenn der Ordner dazu eingesetzt wird, dass Kursteilnehmer ebenfalls Dateien
 hochladen dürfen, finden Sie in der Leiste über den Dateien, die
 entsprechenden Funktionen. Sie können dann auch Dateien löschen, Unterordner

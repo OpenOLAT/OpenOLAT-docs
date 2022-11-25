@@ -7,6 +7,8 @@
     BigBlueButton ist eine Open Source Software (LPGL Lizenz). Um den Kursbaustein zu nutzen ist ein separates Serverhosting erforderlich.
     BigBlueButton Anbieter-Webseite: <https://bigbluebutton.org/>
 
+:octicons-device-camera-video-24: **Video-Einführung**: [BigBlueButton](<https://www.youtube.com/embed/yVZ4V4rXUJQ>){:target="_blank”}
+
 ### Funktionen der Software  
 
 BigBlueButton ermöglicht virtuelle Klassenräume mit folgenden

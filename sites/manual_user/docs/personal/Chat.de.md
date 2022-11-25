@@ -2,6 +2,8 @@
 
 ![](assets/chat_icon.png)
 
+:octicons-device-camera-video-24: **Video-Einführung**: [Chat](<https://www.youtube.com/embed/OX44EiWqZTk>){:target="_blank”}
+
 Instant-Messaging (IM) erlaubt den Austausch von Nachrichten mit Personen in Echtzeit - das sogenannte "Chatten". Wichtig ist dabei die Information über die Verfügbarkeit von potentiellen Chatpartnern. Diese Information liefert die
 Liste der Gruppenkontakte. Um mit einem der verfügbaren Kontakte einen Chat zu starten, klicken Sie auf den gewünschten Kontakt und der Chat wird in einem Chatfenster gestartet. Ist eine Person im Moment nicht erreichbar, so werden die Nachrichten gespeichert und dem Benutzer beim nächsten Login angezeigt.  
   

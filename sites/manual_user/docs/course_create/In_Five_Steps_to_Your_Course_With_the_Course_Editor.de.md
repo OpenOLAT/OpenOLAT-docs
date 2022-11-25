@@ -6,6 +6,8 @@ Kurses ohne die Verwendung eines Wizards beschrieben.
 
 Im ersten Schritt erstellen Sie Ihren Kurs. In den folgenden Schritten fügen Sie die gewünschten Kursbausteine hinzu. Zum Schluss wird der Kurs publiziert und der Zugang eingerichtet.
 
+:octicons-device-camera-video-24: **Video-Einführung**: [Kurse erstellen und bearbeiten](<https://www.youtube.com/embed/SfOSyDG0qvE>){:target="_blank”} <br>
+
 ## Schritt 1: Kurs anlegen  
   
 1. In der Hauptnavigation den ["Autorenbereich"](../authoring/index.de.md) öffnen. 
@@ -41,6 +43,8 @@ Im Folgenden wird _beispielhaft_ ein ähnlicher Kurs wie mit dem Kursassistenten
 
 
 ## Schritt 2: Willkommensseite einfügen  
+
+:octicons-device-camera-video-24: **Video-Einführung**: [Kursbausteine einfügen](<https://www.youtube.com/embed/AJ76e3urdKA>){:target="_blank”} 
 
 1. Öffnen Sie den "Kurseditor", den Sie im Bereich "Administration" finden. 
 Oben in der Kurstoolbar "Kursbausteine einfügen“ klicken. Im neu geöffneten Pop-up unter Wissensvermittlung "Einzelne Seite“ auswählen. Ein neuer Baustein wird immer unterhalb des aktuell ausgewählten Bausteins eingefügt.

@@ -1,5 +1,7 @@
 # Gestalterische Möglichkeiten von Kursen und Kursbausteinen
 
+:octicons-device-camera-video-24: **Video-Einführung**: [Kursbausteine konfigurieren](<https://www.youtube.com/embed/SAkzzoOQEoQ>){:target="_blank”} 
+
 Die Darstellung eines Kurses und der eingebauten  Kursbausteine kann vom Kursbesitzer konfiguriert werden. Die Basis-Einstellungen hierfür werden in der Kurs Administration im Tab "Layout" definiert. Weitere Details und Anpassungen können im Kurseditor bei den jeweiligen Kursbausteinen vor allem in den Tabs "Titel und Beschreibung" sowie "Layout" vorgenommen werden. 
 
 ## Layout Einstellungen in der Kursadministration

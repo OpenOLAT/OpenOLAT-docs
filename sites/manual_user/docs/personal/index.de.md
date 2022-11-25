@@ -35,5 +35,12 @@ unter "Einstellungen" ausgewählten Werkzeugen werden bestimmte persönliche
 Tools in die obere Navigationsleiste verschoben oder bleiben über das
 persönliche Menü aufrufbar.
 
-Weitere Informationen zu den einzelnen Elementen finden Sie unter den
-entsprechenden Links
+Weitere Informationen zu den einzelnen Elementen finden Sie unter den entsprechenden Links.
+
+:octicons-device-camera-video-24: **Video-Einführung**: [Navigation](<https://www.youtube.com/embed/kxfVVbfDXMw>){:target="_blank”}
+
+:octicons-device-camera-video-24: **Video-Einführung**: [Der OpenOlat-Bildschirm](<https://www.youtube.com/embed/WbD6ZSgZ02Y>){:target="_blank”}
+
+:octicons-device-camera-video-24: **Video-Einführung**: [Persönliches Menü](<https://www.youtube.com/embed/VxK1EKV7_rc>){:target="_blank”}
+
+:octicons-device-camera-video-24: **Video-Einführung**: [Menüleiste](<https://www.youtube.com/embed/_abUlsfmBcs>){:target="_blank”}

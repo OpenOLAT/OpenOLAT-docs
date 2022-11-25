@@ -1,5 +1,7 @@
 # Kurse finden
 
+:octicons-device-camera-video-24: **Video-Einführung**: [Wo finde ich meine Kurse?](<https://www.youtube.com/embed/2sN32vLD9UY>){:target="_blank”}
+
 Der Menüpunkt „Kurse“ bietet Ihnen den Zugang zu den für Sie zugänglichen
 Kursen und eventuell weiteren Lernressourcen. Klicken Sie in der
 Hauptnavigation oben auf den Punkt „Kurse“.

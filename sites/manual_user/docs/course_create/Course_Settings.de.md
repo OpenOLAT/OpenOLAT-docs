@@ -1,11 +1,13 @@
 # Kurseinstellungen
 
+:octicons-device-camera-video-24: **Video-Einführung**: [Kursbausteine konfigurieren](<https://www.youtube.com/embed/SAkzzoOQEoQ>){:target="_blank”} 
+
 Das Menü "Einstellungen" der "Administration" bietet weitere zentrale
 Konfigurationen für Ihren OpenOlat Kurs.
 
 Jede [Lernressource](../authoring/Various_Types_of_Learning_Resources.de.md), nicht nur
-Kurse, verfügen über ein Menü "Einstellungen". Ferner variieren die
-Einstellungen von herkömmlichen und Lernpfad Kursen leicht.
+Kurse, verfügt über ein Menü "Einstellungen". Ferner variieren die
+Einstellungen von herkömmlichen und Lernpfadkursen leicht.
 
 **Kurseinstellungen**
 ![](assets/Einstellungen161.png)

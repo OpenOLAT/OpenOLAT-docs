@@ -1,5 +1,9 @@
 # Katalog 1.0
 
+:octicons-device-camera-video-24: **Video-Einführung**: [Katalog](<https://www.youtube.com/embed/LiqkkT06hWo>){:target="_blank”}
+
+:octicons-device-camera-video-24: **Video-Einführung**: [Kurs in Katalog eintragen](<https://www.youtube.com/embed/hc5yJAPIX9s>){:target="_blank”}
+
 Der Katalog 1.0 kann von einem Administrator oder Katalogverwalter eingerichtet werden, so dass die Autoren Kurse und andere
 Lernressourcen sinnvoll in den Katalog einsortieren können. Die Reihenfolge
 der Katalogeinträge kann vom Administrator bzw. Katalogverwalter definiert

@@ -41,6 +41,8 @@ Kursfunktionen finden Sie im Unterkapitel
 
 ##  Abonnements {: #subscriptions}
 
+:octicons-device-camera-video-24: **Video-Einführung**: [Abonnements](<https://www.youtube.com/embed/h9gOqt7TR7Q>){:target="_blank”}
+
 Abonnieren Sie bestimmte Elemente in Kursen und Gruppen um sich rasch über Änderungen informieren zu lassen. 
 
 Folgende Objekte sind abonnierbar: 

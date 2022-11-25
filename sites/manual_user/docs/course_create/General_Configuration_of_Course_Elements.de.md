@@ -33,6 +33,10 @@ Kursbaustein auch innerhalb des Kurses verschoben oder dupliziert werden.
 
 ![](assets/löschen_kursbaustein.png)
 
+:octicons-device-camera-video-24: **Video-Einführung**: [Kursbausteine einfügen](<https://www.youtube.com/embed/AJ76e3urdKA>){:target="_blank”} 
+
+:octicons-device-camera-video-24: **Video-Einführung**: [Kursbausteine konfigurieren](<https://www.youtube.com/embed/SAkzzoOQEoQ>){:target="_blank”} 
+
 ## Konfigurationstabs von Kursbausteinen
 
 Jeder Kursbaustein beinhaltet die Tabs "Titel und Beschreibung" sowie

@@ -77,6 +77,8 @@ des externen Blogs ein. In der Regel ist dies eine URL mit der Erweiterung
 
 ## Abonnieren von Blogs
 
+:octicons-device-camera-video-24: **Video-Einführung**: [Abonnements](<https://www.youtube.com/embed/h9gOqt7TR7Q>){:target="_blank”}
+
 Kursteilnehmende können über den RSS-Feed den Blog abonnieren und werden so
 informiert, sobald neue Einträge veröffentlicht werden. Geplante Blog-
 Einträge, die noch nicht veröffentlicht sind, werden nicht in die

@@ -1,5 +1,9 @@
 # Kursbausteine
 
+:octicons-device-camera-video-24: **Video-Einführung**: [Was sind Kursbausteine?](<https://www.youtube.com/embed/JM6iSrfkHog>){:target="_blank”}
+
+:octicons-device-camera-video-24: **Video-Einführung**: [Kursbausteine konfigurieren](<https://www.youtube.com/embed/SAkzzoOQEoQ>){:target="_blank”} 
+
 In diesem Kapitel erfahren Kursautoren im Detail, welche Kursbausteine im
 Kurseditor eines Kurses zur Verfügung stehen und wie sie konfiguriert werden.
 Folgen Sie zuerst den Anleitungen im Kapitel ["Kurs

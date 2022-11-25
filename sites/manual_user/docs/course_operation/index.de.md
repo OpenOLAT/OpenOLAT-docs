@@ -1,5 +1,7 @@
 # Kursbetrieb
 
+:octicons-device-camera-video-24: **Video-Einführung**: [Admin-Funktionen](<https://www.youtube.com/embed/rWPcz6udUrI>){:target="_blank”} 
+
 Sie haben Ihren Kurs freigeschaltet und Kursteilnehmende bearbeiten bereits die Lerninhalte. Dieses Kapitel erklärt, welche Werkzeuge Sie als Kursbesitzer während des Kursbetriebs nutzen können, welche zusätzlichen Funktionen im Kurs zur Verfügung stehen und wie Sie Kursaktivitäten aufzeichnen können. 
 
 Die meisten zentralen Einstellungen nehmen Sie über die Menüs, die Sie in der [Administration](Using_Course_Tools/) finden vor:

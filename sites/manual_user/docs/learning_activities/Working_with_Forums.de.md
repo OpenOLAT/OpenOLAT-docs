@@ -62,6 +62,8 @@ eine ZIP-Datei verpackt und können gespeichert werden.
 
 ### Foren abonnieren
 
+:octicons-device-camera-video-24: **Video-Einführung**: [Abonnements](<https://www.youtube.com/embed/h9gOqt7TR7Q>){:target="_blank”}
+
 Um bei neuen Forumsbeiträgen benachrichtigt zu werden, stellen Sie in der
 Übersicht der Diskussionsthemen den Schieberegler bei den "Änderungen“ auf
 "Ein". Dann erhalten Sie per E-Mail oder unter

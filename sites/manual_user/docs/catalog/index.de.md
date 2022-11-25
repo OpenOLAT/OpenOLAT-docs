@@ -8,7 +8,9 @@ Kurssuche und -buchung für OpenOlat-Benutzer ohne Autorenrechte.
 
 ## Kurse finden
 
-[Link zu](Finding_courses.de.md)
+[Link zur Seite](Finding_courses.de.md)
+
+:octicons-device-camera-video-24: **Video-Einführung**: [Wo finde ich meine Kurse?](<https://www.youtube.com/embed/2sN32vLD9UY>){:target="_blank”}
 
 Vorgestellt werden Funktionen und Ansichten für
 reguläre OpenOlat-Benutzer und aufgezeigt, wie man Kurse suchen

@@ -1,5 +1,7 @@
 # Anforderungen bei der Arbeit mit OpenOlat
 
+:octicons-device-camera-video-24: **Video-Einführung**: [Voraussetzungen](<https://www.youtube.com/embed/RJ2Q9fSG-ww>){:target="_blank”}
+
 OpenOlat ist eine Webanwendung. Um mit OpenOlat arbeiten zu können, benötigen Sie eine
 Internetverbindung sowie einen modernen Webbrowser.  Bitte führen Sie einen
 [Browser-Check](../login/Login_Page.md#LoginPage-login_browsercheck) um sicherzustellen, dass

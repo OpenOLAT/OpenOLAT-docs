@@ -11,7 +11,8 @@ eingesehen werden.
 
 Der Status ihres Zertifikats ist nur für Sie sichtbar.
 
-  
+ <br>
+  :octicons-device-camera-video-24: **Video-Einführung**: [COVID-Zertifikate in OpenOlat](<https://www.youtube.com/embed/863v3ug_QaM>){:target="_blank”} 
 
 ## COVID-Zertifikat hinzufügen
 

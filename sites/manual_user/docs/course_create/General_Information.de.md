@@ -1,5 +1,7 @@
 # Allgemeines
 
+:octicons-device-camera-video-24: **Video-Einführung**: [OpenOlat Funktionsprinzipien](<https://www.youtube.com/embed/M-JkSAFN298>){:target="_blank”}
+
 OpenOlat-Kurse ermöglichen das Abbilden von diversen Veranstaltungsformaten z.B. Vorlesungen, Seminare, Online-Tutorien oder Gruppenpuzzle, genauso wie die Umsetzung verschiedener Arten von Lernen, z.B. problembasiertes Lernen, kooperatives Lernen, selbstorganisiertes Lernen usw. Durch den Einsatz beliebig vieler [Kursbausteine](../course_elements/index.de.md) in frei wählbarer Reihenfolge, gewährt Ihnen OpenOlat maximale Flexibilität bei der Umsetzung Ihres didaktischen Konzepts.
 
 Beantragen Sie bei Ihrer OpenOlat-Supportstelle bzw. den Administratoren Ihrer OpenOlat Instanz, Autorenrechte und legen Sie los!

@@ -54,6 +54,8 @@ systemweit vorgegeben.
 
 ## Einstellungen {: #settings}
 
+:octicons-device-camera-video-24: **Video-Einführung**: [Benutzereinstellungen](<https://www.youtube.com/embed/7osBJ99FIN8>){:target="_blank”}
+
 Mit Hilfe der Einstellungen können Sie OpenOlat nach Ihren Bedürfnissen
 anpassen.
 

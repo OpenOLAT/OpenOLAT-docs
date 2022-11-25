@@ -14,10 +14,15 @@ Blick, was sie bereits absolviert haben, an welcher Stelle die [Lernenden
 aktuell stehen und welche Kursbausteine sie noch bearbeiten dürfen oder
 müssen.
 
+:octicons-device-camera-video-24: **Video-Einführung**: [Was ist ein Lernpfad?](<https://www.youtube.com/embed/XQJSf-9it_I>){:target="_blank”}<br>
+:octicons-device-camera-video-24: **Video-Einführung**: [Wie sehe ich meinen Lernfortschritt?](<https://www.youtube.com/embed/sC2si_giXY8>){:target="_blank”}
+
 Auch Autoren und Betreuer profitieren vom neuen Kurstyp. Für Betreuer steht
 mit dem Lernpfadreport ein verbessertes Teilnehmertracking zur Verfügung.
 Dadurch kann auf den individuellen Lernfortschritt der Teilnehmenden reagiert und
 gezielte Unterstützung angeboten werden.
+
+:octicons-device-camera-video-24: **Video-Einführung**: [Wie sehe ich den Lernfortschritt von mir betreuter Teilnehmer?](<https://www.youtube.com/embed/VO7TyxN9EOA>){:target="_blank”}
 
 Lernpfad Kurse sind besonders für eine lineare Kursstrukturierung gedacht,
 können aber auch ganz oder in Teilen hypertextlich strukturiert werden.

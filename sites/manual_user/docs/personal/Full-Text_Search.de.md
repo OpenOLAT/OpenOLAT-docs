@@ -2,6 +2,8 @@
 
 ![](assets/search.png)
 
+:octicons-device-camera-video-24: **Video-Einführung**: [Suchfunktion](<https://www.youtube.com/embed/GlUCyVl11ic>){:target="_blank”}
+
 Die Suche ist nur dann sichtbar und nutzbar, wenn sie in der Administration
 aktiviert ist. Sollte dies bei Ihnen nicht der Fall sein, wenden Sie sich
 bitte an den System Administrator Ihrer OpenOlat Instanz.

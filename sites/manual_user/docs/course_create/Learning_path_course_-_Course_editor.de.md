@@ -46,8 +46,10 @@ oder spezifischer Reihenfolge definiert werden.
 ### Ausnahmen
 
 ![](assets/Ausnahmen.png)
+<br><br>
+:octicons-device-camera-video-24: **Video-Einführung**: [Ausnahmen im Lernpfad](<https://www.youtube.com/embed/MWWUmma2Cr0>){:target="_blank”}
 
-Mit einschalten der "Ausnahmen" kann differenzierter eingestellt werden wer den jeweiligen Kursbaustein sehen und bearbeiten darf und wer nicht. Es wird zunächst eine Grundeinstellung vorgenommen und anschliessend können Ausnahmen von dieser Grundeinstellung definiert werden. Auch mehrere Ausnahmen (Oder-Verknüpfung) sind möglich. 
+Mit Einschalten der "Ausnahmen" kann differenzierter eingestellt werden wer den jeweiligen Kursbaustein sehen und bearbeiten darf und wer nicht. Es wird zunächst eine Grundeinstellung vorgenommen und anschliessend können Ausnahmen von dieser Grundeinstellung definiert werden. Auch mehrere Ausnahmen (Oder-Verknüpfung) sind möglich. 
 So kann ein Kursbaustein z.B. grundsätzlich obligatorisch sein aber so konfiguriert werden, dass die Bearbeitung für bestimmte Personen oder Gruppen freiwillig ist oder der Kursbaustein gar nicht sichtbar ist (ausgenommen). Mithilfe dieser Ausnahmen können individuelle Lernpfade für verschiedene Lernende umgesetzt werden. 
 
 Die Ausnahmen können sich auf folgende Aspekte beziehen:

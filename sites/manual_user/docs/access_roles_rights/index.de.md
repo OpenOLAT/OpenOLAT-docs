@@ -1,5 +1,7 @@
 # Rollen und Rechte
 
+:octicons-device-camera-video-24: **Video-Einführung**: [Benutzerverwaltung](<https://www.youtube.com/embed/V1RuH0q08J8>){:target="_blank”} 
+
 ## Systemweite Rollen und Rechte
 
 ### Benutzertypen
@@ -49,7 +51,8 @@ Hier ein Überblick über alle OpenOlat Rollen.
 Wenn ein Benutzer einem Kurs hinzugefügt wird, kann definiert werden, welche
 Mitgliederrechte der Benutzer in diesem einen Kurs erhalten soll. Zur Auswahl stehen:
 
-* **Besitzer**: Dieser Benutzer hat alle Rechte im Kurs. Er kann den Kurs bearbeiten, Mitglieder verwalten und den Kurs auch löschen. Somit ist der Besitzer Kursadministrator.
+* **Besitzer**: Dieser Benutzer hat alle Rechte im Kurs. Er kann den Kurs bearbeiten, Mitglieder verwalten und den Kurs auch löschen. Somit ist der Besitzer Kursadministrator <br>:octicons-device-camera-video-24: **Video-Einführung**: [Voraussetzungen für Autoren](<https://www.youtube.com/embed/L0jc_LBKXLE>){:target="_blank”}
+
 * **Betreuer**: Der Kursbetreuer hat Zugriff auf das [Bewertungswerkzeug](../course_operation/Assessment_tool_-_overview.de.md) des Kurses, wie auch auf die Test- und Fragebogen-Statistik. Ein Kursbetreuer kann jedoch den Kurs weder im Kurseditor bearbeiten noch den Kurs löschen. Im Bewertungswerkzeug sieht der Kursbetreuer alle Kursteilnehmenden, jedoch keine Gruppenteilnehmenden. Weitere Details der Kursrolle Betreuer finden Sie [hier](coach.de.md).
 * **Teilnehmer**: Ein Teilnehmer kann den Kurs öffnen und die bereitgestellten Kursbausteine und Inhalte bearbeiten (je nach Konfiguration). Ein Teilnehmer hat jedoch keine zusätzlichen Rechte im Kurs.
 

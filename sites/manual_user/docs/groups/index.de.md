@@ -1,5 +1,7 @@
 # :fontawesome-solid-user-group: Gruppen
 
+:octicons-device-camera-video-24: **Video-Einführung**: [Arbeit mit Gruppen](<https://www.youtube.com/embed/7LAPedqB9tk>){:target="_blank”} 
+
 !!! note "Quick Links"
 
     * [Gruppen erstellen](Create_Groups.de.md)
