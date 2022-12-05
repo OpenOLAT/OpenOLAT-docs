@@ -96,6 +96,14 @@ In the fields "Subject (form)" and "Message (form)" you can optionally pre-
 define default values to be edited later on by your course participants when
 sending e-mails.
 
+In the fields "Subject (form)" and "Message (form)", you can
+optionally specify default values. 
+
+ * *Subject*: If the subject is predefined, it cannot be changed by the participants. 
+If the subject is left empty in the template, the participants have to define their 
+own subject (mandatory field).
+ * *Message*: The predefined message can be edited by the participants when sending an e-mail. 
+
 In addition, the message / subject can be designed with the use of variables
 personal and course-related.
 
