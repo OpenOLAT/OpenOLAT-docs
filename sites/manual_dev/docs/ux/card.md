@@ -19,6 +19,8 @@ There are two different variants for the cards: normal (horizontal) and a compac
 
 ### Course Card (horizontal)
 
+
+
 These cards work well on larger screens or for enriched view of a table list.
 
 ### Course Card compact (vertical)
