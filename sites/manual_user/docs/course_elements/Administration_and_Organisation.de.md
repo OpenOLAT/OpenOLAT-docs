@@ -104,8 +104,13 @@ Gruppen unterscheiden. Klicken Sie keine Checkbox an, wird keine Mail
 verschickt.
 
 In den Feldern „Betreff (Vorlage)“ und „Nachricht (Vorlage)“ können Sie
-optional Standardwerte vorgeben, die jedoch von den Kursteilnehmern beim
-Versand einer E-Mail editiert werden können.
+optional Standardwerte vorgeben. 
+
+ * *Betreff*: Wird der Betreff vorgegeben so kann dieser von den Teilnehmenden
+nicht angepasst werden. Wird der Betreff	 in der Vorlage leer gelassen, so müssen 
+die Teilnehmenden einen eigenen Betreff festlegen (Pflichtfeld)
+ * *Nachricht*: Die vordefinierte Nachricht kann beim Versand einer E-Mail durch 
+die Teilnehmenden beliebig editiert werden.
 
 Zudem kann die Nachricht / der Betreff mit dem Einsatz von Variablen
 persönlicher und kursbezogen gestaltet werden.
