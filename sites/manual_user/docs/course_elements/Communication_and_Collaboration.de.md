@@ -12,15 +12,14 @@ Inhalte zu erstellen. Ein Wiki kann für Gruppenarbeiten, als
 Dokumentationswerkzeug oder als Wissensbasis für Ihre Studien- oder
 Projektarbeit verwendet werden.
 
-Mit dem Kursbaustein „Wiki“ binden Sie das Wiki in Ihren Kurs ein. Klicken Sie
+Mit dem Kursbaustein „Wiki“ binden Sie eine Lernressource Wiki in Ihren Kurs ein. Klicken Sie
 im Tab „ **Wiki-Lerninhalt** “ auf „Wiki wählen, erstellen oder importieren“,
 ordnen ein bereits erstelltes Wiki zu oder erstellen ein neues. Eine Schritt-
 für-Schritt-Anleitung zu Ihrem Wiki finden Sie im Kapitel [„Wiki
 erstellen"](../resource_wiki/index.de.md). Wenn Sie noch kein Wiki ausgewählt haben,
 erscheint beim Titel **Gewähltes Wiki** die Meldung _Kein Wiki ausgewählt_.
 
-Wenn Sie schon ein Wiki hinzugefügt haben, erscheint dessen Name im Feld sowie
-der Button _Vorschau anzeigen_ oben rechts. Um die Zuordnung eines Wikis
+Wenn Sie schon ein Wiki hinzugefügt haben, erscheint dessen Name. Um die Zuordnung eines Wikis
 nachträglich zu ändern, klicken Sie im Tab „Wiki-Lerninhalt“ auf „Wiki
 auswechseln“ und wählen anschliessend ein anderes Wiki.
 
@@ -62,6 +61,11 @@ von den Lernenden erwünscht sind.
 
     Empfehlen Sie den Kursteilnehmenden, das Forum zu abonnieren, um bei neuen Beiträgen benachrichtigt zu werden.
 
+
+!!! tip "Tipp"
+
+    Alternativ zum Kursbaustein Forum kann auch das Forum in der Toolbar verwendet werden. Das bietet sich dann an, wenn ein Forum für den gesamten Kurs ausreichend ist und dies permanent zur Verfügung stehen soll. 
+
 ### Tab Konfiguration
 
 Hier können die Benutzerberichtigungen des Forums eingestellt und definiert
@@ -80,7 +84,7 @@ Post aktiviert".
 
 ![Tab Konfiguration.png](assets/Forum_Tab_Konfiguration1.png)
 
-### Moderationsrechte
+**Moderationsrechte**
 
 Alle Kursbesitzer und [Betreuer ](../access_roles_rights/coach.de.md)verfügen über folgende weitere
 Moderationsrechte. Sie können:
@@ -110,13 +114,10 @@ das Forum nun verschoben wird.
 
     Forumsbeiträge können auch in Foren verschoben werden, in welchen der Ersteller des Beitrages keinen Zugriff hat.
 
-  
-
-  
-
+   
 Neben dem Kursbaustein "Forum" gibt es auch die Möglichkeit ein zentrales
 Forum für den gesamten Kurs in der [Kurs
-Toolbar](../course_operation/Using_Additional_Course_Features.de.md) anzeigen zu lassen.
+Toolbar](../course_operation/Using_Additional_Course_Features.de.md) anzeigen zu lassen. Das bietet sich häufig an, wenn der Kurs nur ein Forum umfasst, das permanent zur Verfügung stehen soll.
 Hier können jedoch keine weiteren Einstellungen wie Pseudonymisierung oder
 Vergabe von Moderationsrechten vorgenommen werden.
 
@@ -127,16 +128,13 @@ Vergabe von Moderationsrechten vorgenommen werden.
 ![Dateidiskussion.png](assets/file_discussion.png)
 
 Der Kursbaustein Dateidiskussion kann als eine Kombination aus Forum und
-Ordner verstanden werden. Im Kursbaustein „Dateidiskussion“ stehen Ihnen
-vorkonfigurierte Diskussionsforen zur Verfügung, denen im Unterschied zu
-herkömmlichen Foren explizit Dokumente als Diskussionsgrundlage vorangestellt
-werden. Setzen Sie die Dateidiskussion beispielsweise ein, um die
-Kursteilnehmer über einen wissenschaftlichen Artikel, eine Grafik, oder über
-einen Aufsatz diskutieren zu lassen.
+Ordner verstanden werden. Startpunkt ist jedoch anders als bei Foren immer ein hochgeladenes Dokument, das die Diskussionsbasis für die weitere, dem Dokument zugeordnete Forendiskussion bildet. 
+
+Setzen Sie die Dateidiskussion beispielsweise ein, wenn Sie  möchten, dass Ihre Lernenden sich gezielt zu einem Artikel, eine Grafik oder einen sonstigen Text äussern und die Inhalte diskutieren sollen. 
 
 Sowohl bei geschlossenem Editor als auch bei geöffneten (im Tab „ **Dateien**
 “) ist es möglich, mit einem Klick auf „Datei hochladen“, Dokumente in die
-Ablage der Dateidiskussion hochzuladen, die anschließend von allen
+Ablage der Dateidiskussion hochzuladen, die anschliessend von allen
 Kursteilnehmenden angesehen und heruntergeladen werden können. Das zugehörige
 Diskussionsforum wird automatisch erstellt und kann mit Klick auf "Anzeigen"
 aufgerufen werden. Durch die Auswahl der entsprechenden Spalten ist erkennbar
@@ -147,7 +145,10 @@ Kurseditor in den Benutzerberechtigungen des Tabs "Konfiguration" definiert.
 
 ![Dateidiskussion Konfiguration.png](assets/Dateidiskussion_Tab_Konfiguration.png)
 
-  
+!!! warning "Achtung"
+
+    Eine Diskussion kann erst beginnen, wenn eine entsprechende Startdatei hochgeladen wurde.
+
 
 ##  Kursbaustein "Teilnehmer Ordner" {: #participant_folder}
 
@@ -183,9 +184,10 @@ des Zeitraumes können Dokumente nur heruntergeladen werden.
 Zudem kann die Anzahl Dokumente, welche abgegeben werden können, eingeschränkt
 werden. Sobald diese Zahl erreicht ist, stehen keine Schreibwerkzeuge mehr zur
 Verfügung. Das heisst, die Dokumente können nicht mehr verschoben, kopiert,
-gezippt oder entzippt werden. Sie können jedoch weiterhin gelöscht werden,
-sofern diese Option aktiviert ist. Falls gewünscht kann auch nur der Abgabe-
+gezippt oder entzippt werden. Sie können jedoch weiterhin gelöscht werden. Falls gewünscht kann auch nur der Abgabe-
 oder nur der Rückgabeordner aktiviert werden.
+
+Im Tab "Template Einstellungen" können sowohl für den Abgabe- als auch den Rückgabeordner auch Unterordner angelegt und so eine durchgehende Ordner-Struktur angelegt werden. Zum Beispiel könnte ein Rückgabeordner einen Unterordner für inhaltliche Feedbacks und einen für ergänzende Dateien umfassen, oder ein Abgabeordner könnte eine gewisse gewünschte Struktur für die Abgaben widerspiegeln. 
 
 !!! warning "Achtung"
 

@@ -12,35 +12,38 @@ Grundsätzlich können im Bewertungsformular:
 * Bewertungsdokumente verteilt,
 * die Bewertung abgeschlossen werden.
 
-![Bewertungsformular](assets/Bewertungsformular.png){ class="shadow lightbox" }
+![Bewertungsformular](assets/Bewertungsformular_172.jpg){ class="shadow lightbox" }
 
 Bei den Kursbausteinen [Aufgabe und Gruppenaufgaben](Assessing_tasks_and_group_tasks.de.md) werden neben dem Bewertungsformular auch der Einreichungsprozess angezeigt. Hier können in den einzelnen Bewertungsschritten Bewertungen vorgenommen werden.
 
 Sofern über den bewerteten Kursbaustein Dateien eingereicht werden, kann auch die Anzahl der Versuche der Lernenden manuell angepasst werden.
 
-Bei dem Kursbaustein „[Bewertung](Assessment_of_course_modules.de.md)“ steht, sofern entsprechend aktiviert, ergänzend ein [Rubrik](../forms/Rubric.de.md) zur Bewertung zur Verfügung.
+Bei dem Kursbaustein „[Bewertung](../course_elements/Course_Element_Assessment.de.md)“ steht, sofern entsprechend aktiviert, ergänzend ein [Rubrik](../forms/Rubric.de.md) zur Bewertung zur Verfügung.
 
 ## Sichtbarkeit des Ergebnisses
 
-Sobald im Bewertungswerkzeug Ergebnisse hinzugefügt werden, egal ob als Punkte oder bestanden/nicht bestanden, sind diese für den Benutzer sichtbar. In einigen Fällen sollen jedoch die Ergebnisse für alle Benutzer gleichzeitig zur Verfügung gestellt werden. Dies kann eine Aufgabe, eine Seminararbeit oder auch ein Test sein. Für solche Szenarien kann die Sichtbarkeit des Ergebnisses eingeschränkt und erst zum gewünschten Zeitpunkt auf sichtbar gestellt werden.
+Sobald im Bewertungswerkzeug Ergebnisse hinzugefügt werden, egal ob als Punkte oder bestanden/nicht bestanden, sind diese für den Benutzer sichtbar. In einigen Fällen sollen jedoch die Ergebnisse für alle Benutzer gleichzeitig zur Verfügung gestellt werden. Für solche Szenarien kann die Sichtbarkeit des Ergebnisses zunächst  eingeschränkt werden. Das Augensymbol zeigt an ob eine Bewertung für den User angezeigt wird oder nicht. 
 
 Standardmässig werden alle Ergebnisse der bewertbaren Bausteine sofort angezeigt. Einzige Ausnahme bildet der Test, wenn die Korrektur auf manuell gestellt wurde.
 
-Um die Sichtbarkeit für einen einzelnen Benutzer einzustellen, öffnen Sie den gewünschten Benutzer. Unten im Bewertungsformular sehen Sie bei Ergebnis zwei Möglichkeiten.
+Um die Sichtbarkeit für einen einzelnen Benutzer einzustellen, öffnen Sie den gewünschten Benutzer. Unten im Bewertungsformular kann sowohl für die Zwischenspeicherung als auch für die finale Freigabe (Bewertung abschliessen) definiert werden ob die Bewertung dem User direkt angezeigt werden soll oder nicht. 
 
-* sofort sichtbar für den Benutzer: sobald das Bewertungsformular gespeichert wird, ist das Ergebnis für den Benutzer sichtbar.
-* noch nicht sichtbar für den Benutzer: Wenn Sie das Bewertungsformular speichern, wird zwar das Ergebnis im Bewertungswerkzeug gespeichert, ist jedoch für den Benutzer noch nicht sichtbar. Es wird für den Benutzer erst sichtbar, wenn Sie das Ergebnis manuell auf sichtbar stellen.
+![Freigabe](assets/Freigabe_Auge.jpg){ class="shadow lightbox" }
 
-Der Status abgeschlossen hat keine Auswirkung auf die Sichtbarkeit.
+Alternativ bzw. wenn die Sichtbarkeit für mehrere User angepasst werden soll kann dies auch  über die Teilnehmerliste für den entsprechenden Kursbaustein erfolgen. 
+In der Spalte "Freigabe Bewertung" wird angezeigt, bei welchen Benutzern das Ergebnis sichtbar (![Auge](assets/sichtbar_434343_64.png){ class=size16 }), respektive noch nicht sichtbar (![Durchgestrichenes Auge](assets/nicht_sichtbar_434343_64.png){ class=size16 }) ist. Sofern kein Icon angezeigt wird, gilt die Standardeinstellung. 
 
-In dieser Spalte wird angezeigt, bei welchen Benutzern das Ergebnis sichtbar (![Auge](assets/sichtbar_434343_64.png){ class=size16 }), respektive noch nicht sichtbar (![Durchgestrichenes Auge](assets/nicht_sichtbar_434343_64.png){ class=size16 }) ist. Sofern kein Icon angezeigt wird, gilt die Standardeinstellung. Um die Sichtbarkeit zu ändern, können die gewünschten Benutzer in der Spalte ganz links ausgewählt werden. Anschliessend mit der Schaltfläche `Sichtbar`setzen bestätigen.
+Um die Sichtbarkeit zu ändern, können die gewünschten Benutzer in der Spalte ganz links ausgewählt und entweder der Button "Freigeben" oder "Freigabe zurückziehen" angeklickt werden. 
 
-Es erscheint der folgende Dialog:
-
-![Sichtbarkeit ändern](assets/sichtbarkeit_aendern_DE.png){ class="shadow lightbox" }
-
-Alle ausgewählten Benutzer können nun entweder sichtbar oder nicht sichtbar gesetzt werden. Sobald ein Benutzer auf sichtbar gesetzt wird, kann er sein Ergebnis sehen, der Leistungsnachweis wird aktualisiert und Kursbausteine, die von diesem abhängig sind, sind nun sichtbar und zugänglich.
 
 ## Finalisierung der Bewertung
 
-Mit der Schaltfläche "Auf Status 'abgeschlossen' setzen" wird der Status in der Spalte Status geändert. Alle ausgewählten Benutzer, welche auf abgeschlossen gesetzt wurden, erhalten den Status "Bewertet". Änderungen sind dann nur noch möglich, wenn "erneut für Beurteilung öffnen" gewählt wird. Dieser Status hilft Ihnen den Überblick über die bereits bewerteten Benutzer zu behalten. Dieser Status hat keine Auswirkung auf die Sichtbarkeit der Ergebnisse für den Benutzer.
+Die Finalisierung eines bewertbaren Kursbausteins erfolgt über den Button "Bewertung abschliessen (und freigeben)". 
+
+Mit der Schaltfläche "Bewertung abschliessen" wird der Status in der Spalte Status geändert. Alle ausgewählten Benutzer, welche auf abgeschlossen gesetzt wurden, erhalten den Status "Bewertet". 
+
+![Bewertung abschliessen](assets/Bewertung_abschliessen1.jpg){ class="shadow lightbox" }
+
+Änderungen sind dann nur noch möglich, wenn "erneut für Beurteilung öffnen" gewählt wird. 
+
+Dieser Status hilft Ihnen den Überblick über die bereits bewerteten Benutzer zu behalten. Dieser Status hat keine Auswirkung auf die Sichtbarkeit der Ergebnisse für den Benutzer.

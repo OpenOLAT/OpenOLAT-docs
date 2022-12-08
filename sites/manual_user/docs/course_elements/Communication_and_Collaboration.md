@@ -19,10 +19,7 @@ Wikis"](../resource_wiki/Four_Steps_to_Your_Wiki.md) will tell you how to do so 
 If you have not already selected a Wiki yet the title **Selected Wiki** will
 show the message _No Wiki selected_.
 
-If you have already added a Wiki its name will appear in the field along with
-the button _Show preview_ on your above right. In order to change the
-assignment of a Wiki click on "Replace Wiki" in the tab "Wiki learning
-content" before selecting another Wiki.
+If you have already added a Wiki its name will appear in the field. In order to change the assignment of a Wiki click on "Replace Wiki" in the tab "Wiki learning content" before selecting another Wiki.
 
 In the tab "Wiki learning content" you configure the user permissions of the
 Wiki. Here you can set that not only owners but also maintainers and
@@ -61,8 +58,7 @@ that only course authors have write permission.
 !!! tip "Tip"
 
     Advise your course participants on subscribing to the forum to be up-to-date.
-
-  
+   
 
 ### Tab Configuration
 
@@ -81,7 +77,7 @@ in individual forum posts".
 
 ![tab configuration.png](assets/Screenshot 2020-05-03 at 14.55.37.png)
 
-### Moderation rights forum_rights
+**Moderation rights forum_rights**
 
 All course owners and [coaches](../access_roles_rights/coach.md) have the following additional
 moderation rights. You can:
@@ -109,10 +105,11 @@ forum is now moved to.
     Forum posts can also be moved to forums in which the creator of the post has no access.
 
 Besides the course element "Forum" there is also the possibility to display a
-central forum for the entire course in the course toolbar. However, no further
+central forum for the entire course in the [course toolbar](../course_operation/Using_Additional_Course_Features.md). 
+Das bietet sich häufig an, wenn der Kurs nur ein Forum umfasst, das permanent zur Verfügung stehen soll.
+However, no further
 settings such as pseudonymization or assignment of moderation rights can be
 made here.
-
   
 
 ##  Course Element: File Dialog {: #file_dialog}
@@ -134,7 +131,12 @@ columns give an overview who uploaded which file when.
 Who besides the course owner can take which actions will be defined in the
 course editor in the user permissions of the tab "Configuration".
 
-![file discussion configuraion.png] (assets/Screenshot 2020-05-03 at 15.02.48.png)
+
+![Dateidiskussion Konfiguration.png](assets/Dateidiskussion_Tab_Konfiguration.png)
+
+!!! warning "Achtung"
+
+    Eine Diskussion kann erst beginnen, wenn eine entsprechende Startdatei hochgeladen wurde.
 
 ##  Course Element: Participant folder {: #participant_folder}
 
@@ -169,6 +171,7 @@ cannot be moved, copied, zipped or unzipped anymore. But they can be deleted,
 if this option is enabled. If desired only the drop box or only the return box
 can be enabled.
 
+Im Tab "Template Einstellungen" können sowohl für den Abgabe- als auch den Rückgabeordner auch Unterordner angelegt und so eine durchgehende Ordner-Struktur angelegt werden. Zum Beispiel könnte ein Rückgabeordner einen Unterordner für inhaltliche Feedbacks und einen für ergänzende Dateien umfassen, oder ein Abgabeordner könnte eine gewisse gewünschte Struktur für die Abgaben widerspiegeln. 
   
 
 !!! warning "Attention"
@@ -176,9 +179,9 @@ can be enabled.
     As for all upload areas, there is a memory limit for the participant folder. The file upload limits set by the administrator and the entire folder limit are displayed when you try to upload a file.
 
 A similar configuration of file delivery + file return by coaches can also be
-implemented with the course element "Task", only that the possibilities of the
+implemented with the [course element "Task",](../task/index.md) only that the possibilities of the
 task element are much more comprehensive and complex and here also an
-evaluation or allocation of points can be made....
+evaluation or allocation of points can be made.
 
 ##  Course Element: Participant list {: #participant_list}
 
