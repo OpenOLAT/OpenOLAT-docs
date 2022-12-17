@@ -8,18 +8,17 @@ Bewertungen vornehmen.
 Über die Kursadministration gelangt man in das Bewertungswerkzeug. Wenn Sie
 das Bewertungswerkzeug aufrufen, erscheint zunächst die Übersichtsseite mit
 zentralen Informationen sowie eine Übersicht der aktuell anstehenden
-Bewertungen. So wissen Sie schnell, was aktuell zu tun ist.
+Bewertungen. So wissen Sie schnell, was aktuell zu tun ist. Von der Übersichtsseite aus gelangen Sie auch zu den konkreten
+Bewertungsbereichen der einzelnen Kursbausteinen und Personen.
 
 ![Bewertungswerkzeug Startseite](assets/Bewertungswerkzeug_172.png)
 
-Von der Übersichtsseite aus gelangen Sie auch zu den konkreten
-Bewertungsbereichen der einzelnen Kursbausteinen und Personen.
+Schauen wir uns die einzelnen Bereiche der Übersicht genauer an: 
 
-## Die „Übersicht“ des Bewertungswerkzeugs
-
+## Der generelle Bereich „Übersicht“ des Bewertungswerkzeugs
 
 
-### Übersicht -> Offene Bewertungen
+### Übersicht -> "Offene Bewertungen"
 
 Auf einen Blick ist hier ersichtlich, für welche Nutzer eine oder mehrere
 Bewertung(en) offen sind. Auch wird angezeigt, wie viele Bausteine des
@@ -27,14 +26,12 @@ jeweiligen Benutzers zu bewerten sind. Sofern nur ein Baustein bewertet werden
 muss, wird dieser direkt aufgelistet. Mit einem Klick auf diesen Baustein
 kommt man zur entsprechenden Bewertung.
 
-![Offene Bewertungen](assets/eass_anstehende_bewertungen_DE.png)
-
 In der Übersicht werden nur die unerledigten Bewertungen angezeigt. Bereits durchgeführte Bewertungen werden an dieser Stelle nicht aufgelistet.
 
-### Übersicht -> Freizugebende Bewertungen
+### Übersicht -> "Freizugebende Bewertungen"
 Sollte es im Kurs Bewertungen geben die noch nicht für die Teilnehmenden sichtbar gemacht wurden, erscheinen sie hier. 
 
-### Übersicht -> Teilnehmer 
+### Übersicht -> "Teilnehmer" 
 
 In diesem Bereich wird angezeigt, wie viele Benutzer, Gruppen und Kursbausteine generell im konkreten Kurs vorhanden sind. 
 
@@ -43,7 +40,7 @@ Wurde für den gesamten Kurs ein "Bestehen" konfiguriert, wird die Anzahl der je
 Durch die Verlinkung können Betreuer schnell zu den
 entsprechenden Teilnehmenden navigieren und auch die passenden Teilnehmerlisten generieren und herunterladen. 
 
-### Übersicht -> Benachrichtigungsservice
+### Übersicht -> "Benachrichtigungsservice"
 
 Hier können Betreuer einschalten, dass sie bei neuen Einsendungen, Testresultaten und sonstigen Einreichungen eine E-Mail erhalten. Auch können
 Benachrichtigungen über neu erzeugte Zertifikate (sofern generell aktiviert) abonniert werden.

@@ -7,17 +7,17 @@ assessable elements of their course and can carry out assessments.
 Via course administration you will get to the assessment tool. When you open
 the assessment tool you will first see an overview page with central
 information as well as an overview of currently pending assessments.  This way
-you will quickly know what you have to do.
-
-![assessmenttool](assets/assessment_Tool_172.png)
-
-From the overview page you can also access the concrete assessment areas of
+you will quickly know what you have to do. From the overview page you can also access the concrete assessment areas of
 the individual course elements and
 persons.
 
+![assessmenttool](assets/assessment_Tool_172.png)
+
+Schauen wir uns die einzelnen Bereiche der Übersicht genauer an:
+
 ## Tab "Overview" of the assessment tool
 
-### Overview -> Open reviews
+### Overview -> "Open reviews"
 
 Here you can see at a glance for which users one or more ratings are open.  It
 also shows how many modules of the respective user are to be rated. If only
@@ -29,10 +29,10 @@ this module, you can access the corresponding rating.
 Only the unfinished assessments are displayed here. Reviews that have already
 been completed are not listed here.
 
-### Overview -> Review o release
+### Overview -> "Review o release"
 Sollte es im Kurs Bewertungen geben die noch nicht für die Teilnehmenden sichtbar gemacht wurden, erscheinen sie hier. 
 
-### Overview -> Participants 
+### Overview -> "Participants" 
 
 This area shows how many users, groups and course elements are generally
 available in this course.
@@ -46,7 +46,7 @@ Durch die Verlinkung können Betreuer schnell zu den
 entsprechenden Teilnehmenden navigieren und auch die passenden Teilnehmerlisten generieren und herunterladen. 
 
 
-### Overview ->  Notification Service
+### Overview ->  "Notification Service"
 
 Here coaches can activate the option to receive an e-mail for new submissions,
 test results and other submissions.  Notifications about newly generated

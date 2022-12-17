@@ -155,10 +155,12 @@ plugins:
           Course Element Checklist : Kursbaustein Checkliste
           Course Element Folder : Kursbaustein Ordner
           Course element GoToMeeting : Kursbaustein GoToMeeting
+          Course Element Mediasite : Kursbaustein Mediasite
           Course element Microsoft Teams : Kursbaustein Microsoft Teams
           Course element OpenMeetings : Kursbaustein OpenMeetings
           Course Element SCORM Learning Content : Kursbaustein SCORM-Lerninhalt
           Course Element Single Page : Kursbaustein Einzelne Seite
+          Course Element Structure : Kursbaustein "Struktur" 
           Course element vitero : Kursbaustein vitero
           Course Element_Video : Kursbaustein Video einrichten
           Course element Zoom : Kursbaustein Zoom
@@ -308,7 +310,7 @@ plugins:
           Storage folder : Ablageordner
           Supported Technologies : Unterstützende Technologien
           System : System
-          Tab Users : Tab Übersicht
+          Tab Users : Tab Teilnehmer
           Task - Further Configurations : Aufgabe - Weitere Konfiguration
           Technical Information on Resources and Usage : Automatische Informationen zur Lernressource
           Technology and Navigation : Technologie und Navigation
@@ -345,9 +347,9 @@ plugins:
           Working with Wiki : Arbeiten mit Wiki
           Zoom - Frequently asked questions : Zoom - Häufig gestellte Fragen
           Zoom integration: Zoom-Integration
-          ...create a bulk assessment for submission tasks : ...eine Massenbewertung für Einsendeaufgaben erstellen
-          ...customize the course design with CSS (Expert) : ...Kursdesign mittels CSS manipulieren (Expert)
-          ...use the same files in several courses : ...dieselben Dateien in mehreren Kursen einsetzen
+          ... create a bulk assessment for submission tasks : ... eine Massenbewertung für Einsendeaufgaben erstellen
+          ... customize the course design with CSS (Expert) : ... Kursdesign mittels CSS manipulieren (Expert)
+          ... use the same files in several courses : ... dieselben Dateien in mehreren Kursen einsetzen
   - git-revision-date          
 
 nav:
