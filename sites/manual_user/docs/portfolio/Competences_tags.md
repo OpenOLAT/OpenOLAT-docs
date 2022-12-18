@@ -24,7 +24,7 @@ competences and can be selected via a suggestion list.
 Learners can get an overview of all assigned competences via "Personal tools"
 → "Competences".
 
-![competences_overview.png](assets/Kompetenz%20%C3%9Cbersicht%20EN.png)
+![competences_overview.png](assets/Kompetenz_uebersicht_en.png)
 
   
 

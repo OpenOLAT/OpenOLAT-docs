@@ -28,7 +28,8 @@ werden.
 Eine Übersicht über alle vergebenen Kompetenzen erhalten Lernende über
 "Persönliche Werkzeuge" → "Kompetenzen".
 
-![kompetenten_uebersicht.png](assets/Kompetenz%20%C3%9Cbersicht%20DE.png)
+
+![kompetenten_uebersicht.png](assets/Kompetenz_uebersicht_de.png)
 
   
 
