@@ -1,19 +1,17 @@
-# Assessment tool - tab: Users
+# Assessment tool - tab Users
 
 You have two general options for the assessment. Either you start from one
 person and assess the work done by this person or you start from the course
 structure and a concrete assessment element and assess all persons for this
 task, this test, and so on.
 
-Die genaue Vorgehensweise wird den Kapiteln [Lernende bewerten](../course_operation/Assessment_of_learners.de.md) und [Bewertung von Kursbausteinen](../course_operation/Assessment_of_course_modules.de.md) beschrieben.
-
 On the far left you will see the course structure with all assessable course
-elements. Here you can navigate directly to one of the elements to make your
-assessment. 
+elements. Here you can navigate directly to one of the elements to make your assessment. 
 Für jeden Kursbaustein wird ein Tab mit der "Übersicht" und ein Tab mit den "Teilnehmern" angezeigt. 
 
 ![Bewertungswerkzeug Teilnehmer Übersicht](assets/Bewertungswerkzeug_Teilnehmer_172.png)
 
+Die genaue Vorgehensweise wird den Kapiteln [Lernende bewerten](../course_operation/Assessment_of_learners.de.md) und [Bewertung von Kursbausteinen](../course_operation/Assessment_of_course_modules.de.md) beschrieben.
 ## Tab Teilnehmer im Bewertungswerkzeug
 Im Tab Teilnehmer werden alle Kursteilnehmenden aufgelistet die bewertet werden können. 
 In addition, specific people, e.g. all those who have not yet "passed" this
