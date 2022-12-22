@@ -19,6 +19,7 @@ nav:
     - Modules:
       - Overview: "administration/Modules.md"
       - Modules Contact Tracing: "administration/Modules_Contact_Tracing.md"
+      - Modules OAI PMH: "administration/Modules_OAI.md"
       - Modules Document pool: "administration/Modules_Document_pool.md"
       - Modules Repository: "administration/Modules_Repository.md"
       - Modules Taxonomy: "administration/Modules_Taxonomy.md"
