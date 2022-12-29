@@ -99,6 +99,7 @@ resources. These include
 
 ![](assets/Autorenbereich_3_Punkte.png)
 
+
 #### Change infopage
 
 Opens the form for changing the content of the info page. You can find more
@@ -133,13 +134,10 @@ umzuwandeln und somit eine Kopie des Ursprungskurses zu erstellen.
 
 ## Further actions
 
-
 Wählt man eine oder mehrere der angezeigten Lernressourcen aus der Tabelle aus erscheinen weitere Möglichkeiten. 
 
-![](assets/Autorenbereich_Auswahl.png)
+![Sammelaktionen](assets/Sammelaktion_172.png)
 
-For example, e-mails can be sent to all
-course participants from several courses or a person can be added to several learning resources as owner, several learning resources can be copied or deleted at once.
 
 ### Send E-mail
 
@@ -153,11 +151,24 @@ selecting the checkboxes on the left. A wizard opens. Now it can be defined to w
     authors. This means you do not need to be a member of this certain course to
     use this feature.
 
+### Status ändern
+Wählen Sie den Veröffentlichungsstatus aus der für alle ausgewählten Lernressourcen gelten soll und klicken Sie auf "Ändern".  
+
 ### Modify owners
 
 Here you will see the owners of the selected learning resources and you can
 remove them from several courses at once or add new owners to the selected
 learning resources. An email notification option completes the editing.
+
+### Metadaten und Einstellungen
+
+Hier können auf einen Schlag diverse Metadaten für die ausgewählten Lernressourcen vereinheitlich werden, z.B. wenn mehrere Kurse zu einer Weiterbildungsreihe gehören. 
+
+So kann für alle markierten Lernressourcen der angezeigte Name unter "Durchführung mit" eingetragen, das Durchführungsformat z.B. "Prüfungskurs" ausgewählt, Sprache und Zeitaufwand definiert sowie eine passende Lizenz für die Lernressourcen gewählt werden.
+
+Weiter können ein passender Fachbereich und die gewünschte Organisation für die Lernressourcen gewählt, zusätzliche Rechte für alle anderen Autoren vergeben sowie ein einheitlicher Durchführungszeitraum und Ort angegeben werden.
+
+Bei Kursen besteht darüber hinaus auch die Möglichkeit eine einheitliche Auswahl für die Tools der Toolbar zu treffen. 
 
 ### Copy
 

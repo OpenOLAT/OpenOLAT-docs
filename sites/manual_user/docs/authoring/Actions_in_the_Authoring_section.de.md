@@ -27,7 +27,7 @@ Unter „Favoriten“ werden die Lernressourcen angezeigt, die ein Autor selbst 
 ## Lernressourcen Erstellen
 
 Im Autorenbereich können OpenOlat Autoren neue Kurse und weitere
-[Lernressourcen](Various_Types_of_Learning_Resources.de.md) anlegen. Der konkrete Erstellungsprozess mit den verschiedenen Editoren ist in den folgenden Kapiteln beschrieben:
+[Lernressourcen](Various_Types_of_Learning_Resources.de.md) anlegen. Der konkrete Erstellungsprozess ist in den folgenden Kapiteln beschrieben:
 
 * [„Kurs erstellen"](../course_create/index.de.md), 
 * [„CP-Lerninhalt erstellen"](../resource_cp/index.de.md), 
@@ -36,7 +36,7 @@ Im Autorenbereich können OpenOlat Autoren neue Kurse und weitere
 * [„Blog erstellen"](../resource_blog/index.de.md), 
 * ["Portfolio erstellen",](../portfolio/index.de.md) 
 * ["Tests erstellen" ](../tests/index.de.md),
-* ["Formulare erstellen (für Umfragen) " ](../forms/index.de.md) 
+* ["Formulare erstellen" ](../forms/index.de.md) 
 
 
 !!! tip "Tipp"
@@ -71,8 +71,8 @@ Konfigurationen sind möglich, z.B. eine Definition der Lizenz.
 Werden Lernressourcen importiert oder erstellt, kann im nächsten Schritt u.a.
 in den Metadaten ein entsprechender Lizenztyp sowie ein Lizenzgeber zugeordnet werden.
 
-![](assets/LizenzMgmt_01_DE2.png)
-![](assets/Lizenzen.png)
+![Metadaten Lizenz](assets/LizenzMgmt_01_DE2.png)
+![Lizenzen zur Wahl](assets/Lizenzen.png)
 
   
 In der Übersicht des Autorenbereichs werden die zugeordneten Lizenzen in der
@@ -97,11 +97,11 @@ Erstellungsdatum und die gesamte Tabelle downloaden.
 Über die Menüpunkte neben Ihren Lernressourcen können Sie viele Funktionen direkt aufrufen. Hierzu zählen:
 
   * Ein Klick auf den **Titel** einer Lernressource öffnet die entsprechende Ressource.
-  * Die **Infoseite** öffnen Sie über ![](assets/infopage_5e89ac_64.png). 
+  * Die **Infoseite** öffnen Sie über ![Glühbirne](assets/infopage_5e89ac_64.png). 
   * Bei **editierbaren** Lernressourcen wie Kurse, Glossare, Tests, PCs, Blogs und Podcasts öffnet das Bearbeitungsicon „Editieren“ den entsprechenden Editor.
   * Die **3-Punkte** führen schnell zu grundlegenden Menüs die im Folgenden kurz angerissen werden:
 
-![](assets/Autorenbereich_3_Punkte.png)
+![3-Punkte](assets/Autorenbereich_3_Punkte.png)
 
 #### Infoseite bearbeiten
 
@@ -134,20 +134,17 @@ für den Export in ein anderes System.
 
 Eine Lernressource kann nur von den Besitzern der Lernressource gelöscht werden.
 
-Herkömmliche Kurse erhalten noch das Menü "In Lernpfad konvertieren" um einen
+Herkömmliche Kurse verfügen noch über das Menü "In Lernpfad konvertieren" um einen
 herkömmlichen Kurs in einen Kurs vom Typ [Lernpfad](../course_create/Learning_path_course.de.md)
-umzuwandeln und somit eine Kopie des Ursprungskurses zu erstellen.
+umzuwandeln und somit eine Kopie des Ursprungskurses zu erstellen. Lernpfad-Kurse verfügen dagegen über das zusätzliche Menü "Kopieren mit Wizard".
 
 
 ## Weitere Aktionen
 
-Wählt man eine oder mehrere der angezeigten Lernressourcen aus der Tabelle aus erscheinen weitere Möglichkeiten. 
+Wählt man eine oder mehrere der angezeigten Lernressourcen aus der Tabelle aus erscheinen weitere Optionen. 
 
-![](assets/Autorenbereich_Auswahl.png)
+![Sammelaktionen](assets/Sammelaktion_172.png)
 
-So können z.B. E-Mails an
-alle Kursteilnehmenden aus mehreren Kursen verschickt oder eine Person
-mehreren Lernressourcen als Besitzer hinzugefügt werden. Auch das Löschen oder Kopieren mehrere Lernressourcen auf einmal ist so einfach möglich.
 
 ### E-Mail versenden
 
@@ -159,11 +156,24 @@ Mögliche Empfänger sind alle Kursbesitzer, alle Kursbetreuer und alle Teilnehm
 
     Sie können die E-Mail an alle Kurse schicken, die Ihnen angezeigt werden. Dazu gehören auch Kurse, welche für alle Autoren sichtbar sind. Sie müssen also nicht zwingend Mitglied des Kurses sein, um diese Funktion zu nutzen.
 
+### Status ändern
+Wählen Sie den Veröffentlichungsstatus aus der für alle ausgewählten Lernressourcen gelten soll und klicken Sie auf "Ändern".    
+
 ### Besitzer bearbeiten
 
 Hier werden Ihnen alle Besitzer der ausgewählten Lernressourcen angezeigt und Sie können diese gleichzeitig aus mehreren Kursen entfernen oder auch neue
 Besitzer den ausgewählten Lernressourcen hinzufügen. Eine
 E-Mailbenachrichtigungsoption schliesst die Bearbeitung ab.
+
+### Metadaten und Einstellungen
+
+Hier können auf einen Schlag diverse Metadaten für die ausgewählten Lernressourcen vereinheitlich werden, z.B. wenn mehrere Kurse zu einer Weiterbildungsreihe gehören. 
+
+So kann für alle markierten Lernressourcen der angezeigte Name unter "Durchführung mit" eingetragen, das Durchführungsformat z.B. "Prüfungskurs" ausgewählt, Sprache und Zeitaufwand definiert sowie eine passende Lizenz für die Lernressourcen gewählt werden.
+
+Weiter können ein passender Fachbereich und die gewünschte Organisation für die Lernressourcen gewählt, zusätzliche Rechte für alle anderen Autoren vergeben sowie ein einheitlicher Durchführungszeitraum und Ort angegeben werden.
+
+Bei Kursen besteht darüber hinaus auch die Möglichkeit eine einheitliche Auswahl für die Tools der Toolbar zu treffen. 
 
 ### Kopieren
 
@@ -175,5 +185,5 @@ Hier können Sie schnell mehrere Lernressourcen auf einmal löschen. Sie müssen
 gelöschte Lernressourcen wiederherstellen. 
 
 Die OpenOlat Administratoren können
-gelöschte Lernressourcen ebenfalls wiederherstellen und auch definitiv
+gelöschte Lernressourcen ebenfalls wiederherstellen und auch final
 löschen.

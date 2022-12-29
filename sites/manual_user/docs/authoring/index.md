@@ -8,12 +8,8 @@ When you open the author section, your personal learning resources Favorites
 are displayed by default. Furthermore, it is possible to quickly switch to the
 display of one's own courses ("My courses"), one's own learning resources ("My
 entries") as well as to the search and to the deleted learning resources.
-Further filtering of the display is also possible. So also completely new
-filter queries, which are frequently needed, can be generated and saved.
 
-  * [Various Types of Learning Resources](Various_Types_of_Learning_Resources.md)
-  * [Actions in the 'Authoring' section](Actions_in_the_Authoring_section.md)
-  * [Detailed View of Learning Resources](Detailed_View_of_Learning_Resources.md)
+Standardmässig sind folgende Filter aktiviert:
 
 In the " **Favorites** " filter tab, you will find all learning resources that
 you have marked as favorites yourself.
@@ -47,7 +43,8 @@ further filtering, click on the small down arrow and the filter options such
 as the learning resources "type" or, technical course type, the life cycle,
 etc. are displayed and certain options can be selected.
 
-![](assets/authoring_personal_filter.jpg)
+![](assets/Autorenbereich_Filter_172.png)
+
 
 ### Configure columns
 
@@ -61,8 +58,12 @@ course.
 
 ##   OpenOlat learning resources create and import
 
-In the author section, the learning resources shown on the right can be
-created. Furthermore, learning resources and additional files can be imported,
+In the author section, the following learning resources can be
+created. 
+
+![](assets/create161.png)
+
+Furthermore, learning resources and additional files can be imported,
 as well as URLs.
 
 Each learning resource can be further configured in the "Settings" area of the
@@ -71,8 +72,7 @@ who has access to the learning resource.
 
 In the following chapters you will find explanations about the individual
 [OpenOlat learning resources](Various_Types_of_Learning_Resources.md), which
-actions you can perform in the author section, and information about the [info
-page](Set_up_info_page.md) of a learning resource.
+actions you can perform in the author section, and information about the [infopage](Set_up_info_page.md) of a learning resource.
 
-![](assets/create161.png)
+
 
