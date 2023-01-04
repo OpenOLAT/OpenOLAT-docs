@@ -1,9 +1,9 @@
 # Modules: OAI-PMH
-The purpose of the "Open Archives Initiative - Protocol for Metadata Harvesting" (OAI-PMH): access to digital resources, in our case published learning resources for metadata sharing with portals, search engines or catalogues.
+The purpose of the "Open Archives Initiative - Protocol for Metadata Harvesting" (OAI-PMH): access to digital resources, in our case published learning resources for metadata sharing with portals, search engines or catalogues. More information can be found on the [Open Archives web site](https://www.openarchives.org).
 
 ## Administration
 
-The module can be switched on under 'Administration-> Modules -> OAI PMH'. It is deactivated by default on every instance. If the module is switched on, the API endpoint is also available, where all published resources are available via XML.
+The module can be switched on under 'Administration-> Modules -> OAI PMH'. It is deactivated by default on every instance. If the module is switched on, the API end-point is also available, where all published resources are available via XML.
 
 ## Licence restrictions
 
@@ -11,7 +11,9 @@ One can restrict learning resources. Either only learning resources with licence
 
 ## API Configuration
 
-**Sets**: Different sets can be selected. Sets categorise the metadata of learning resources of different types. 
+### Sets
+Different sets can be selected. Sets categorise the metadata of learning resources of different types. 
+
 * Taxonomy-based set
 * Organisation-based set, based on administrative org relationship).
 * Licence-based set, sorted by licence type

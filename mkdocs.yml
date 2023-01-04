@@ -24,9 +24,11 @@ theme:
     - navigation.tabs
     - navigation.top
     - navigation.indexes
+    - navigation.footer
 #    - navigation.sections
     - search.suggest
     - search.highlight
+    - content.code.copy
     
 markdown_extensions:
   - meta

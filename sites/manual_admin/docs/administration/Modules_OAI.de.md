@@ -1,5 +1,5 @@
 # Module: OAI PMH
-Der Zweck des "Open Archives Initiative - Protocol for Metadata Harvesting" (OAI-PMH): Zugang zu digitalen Ressourcen, in unserem Falle veröffentlichte Lernressourcen  für die Weitergabe von Metadaten an Portale, Suchmaschinen oder Kataloge.
+Der Zweck des "Open Archives Initiative - Protocol for Metadata Harvesting" (OAI-PMH): Zugang zu digitalen Ressourcen, in unserem Falle veröffentlichte Lernressourcen  für die Weitergabe von Metadaten an Portale, Suchmaschinen oder Kataloge. Weitergehende Informationen sind auf der [Open Archives Webseite](https://www.openarchives.org) zu finden.
 
 ## Administration
 
@@ -11,7 +11,9 @@ Man kann Lernressourcen einschränken. Entweder nur Lernressourcen mit Lizenzen 
 
 ## API Konfiguration
 
-**Sets**: Verschiedene Sets können angewählt werden. Sets kategorisieren die Metadaten der Lernressourcen verschiedener Art. 
+### Sets
+Verschiedene Sets können angewählt werden. Sets kategorisieren die Metadaten der Lernressourcen verschiedener Art. 
+
 * Taxonomie-basiertes Set
 * Organisations-basierte Set, basierend auf administrativer Org-Beziehung)
 * Lizenzbasierte Set, sortiert nach Lizenzarten
