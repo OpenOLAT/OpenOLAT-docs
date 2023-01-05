@@ -27,8 +27,8 @@ is an overview of all OpenOlat roles.
 * **Author**: The author has access to the authoring area. This allows the author to create courses and all other learning resources. In the search mask the author finds all courses and learning resources such as tests, films and portfolio templates which are accessible to authors. This role is often assigned to teachers or e-learning managers.
 * **User manager**: The user manager has access to the [user management](../../manual_admin/usermanagement/index.md) and all users of the own organization. He/She can create, edit and inactivate users. Further more he can assign the Author role.
 * **Role manager**: The role administrator has access to the user administration and all users of his or her own organization. Apart from the roles Administrator and System Administrator, he/she can change, assign and remove all user roles.
-* **Group management**: The group manager has access to the group section and in there access to the tab group management. Further information to the group management can be found [here](https://confluence.openolat.org/display/OO130EN/Group+Management).
-* **Question bank manager**: The question bank manager has access to the question bank. In there he is able to open the administration section. Further information about this role can be found [here](https://confluence.openolat.org/display/OO112DE/Question+Bank+Administration).
+* **Group management**: The group manager has access to the group section and in there access to the tab group management. Further information to the group management can be found [here](../groups/index.md).
+* **Question bank manager**: The question bank manager has access to the question bank. In there he is able to open the administration section. Further information about this role can be found [here](../question_bank/index.md).
 * **Curriculum manager**: The curriculum manager has access to curriculum management and can create new curricula and manage existing ones. If the curriculum manager is assigned to an organization, he or she only has access to the curricula of this organization.
 * **Lectures manager**: Configuration of the "Lectures and Absences" Module
 * **Quality manager**: The quality manager has access to the Quality Management area and can manage all settings and objects such as questionnaires, data collection generators and the analysis tool.
@@ -45,7 +45,7 @@ is an overview of all OpenOlat roles.
 !!! warning "Note"
 
     The mentioned roles represent options to give normal users system-wide extensive additional rights. Usually an appropriate role composition is selected for an OpenOlat instance and not all specific roles are assigned.
-    Typical is a combination of user, author and administrator or system administrator. Additional roles result from the structure of the respective institution and the use of certain tools such as [curriculum] (../curriculum/Curriculum_Management.md) or [absences](../course_operation/Lectures_and_absences.md). It is therefore possible that not all potential OpenOlat roles are used in your instance.
+    Typical is a combination of user, author and administrator or system administrator. Additional roles result from the structure of the respective institution and the use of certain tools such as [curriculum](../curriculum/Curriculum_Management.md) or [absences](../course_operation/Lectures_and_absences.md). It is therefore possible that not all potential OpenOlat roles are used in your instance.
     
     If you have any questions regarding the role management please contact the support of your own OpenOlat instance.
 
