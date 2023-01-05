@@ -1,6 +1,6 @@
 # Rollen und Rechte
 
-:octicons-device-camera-video-24: **Video-Einführung**: [Benutzerverwaltung](<https://www.youtube.com/embed/V1RuH0q08J8>){:target="_blank”} 
+:octicons-device-camera-video-24: **Video-Einführung**: [Benutzerverwaltung](<https://www.youtube.com/embed/V1RuH0q08J8>){:target="_blank”}
 
 ## Systemweite Rollen und Rechte
 
@@ -33,7 +33,7 @@ Hier ein Überblick über alle OpenOlat Rollen.
 * **Lektionenblockverwalter**: Konfiguration des Moduls "[Lektionen und Absenzen](../course_operation/Lectures_and_absences.de.md)"  
 * **Qualityverwalter**: Der Qualityverwalter hat Zugriff auf den Bereich Qualitätsmanagement und kann dort sämtliche Einstellungen und Objekte wie Fragebögen, Datenerhebungsgeneratoren sowie das Analysewerkzeug verwalten.
 * **Linienvorgesetzter**: Der Linienvorgesetzte kann für alle Benutzer innerhalb seiner Organisation automatisch über den Erhalt von Zertifikaten informiert werden.
-* **Lernressourcenverwalter**: Der Lernressourcenverwalter sieht im Autorenbereich alle Lernressourcen seiner Organisation. Er kann diese kopieren und exportieren. Im Profil kann eine Institution angegeben werden. Der Lernressourcenverwalter hat Besitzerrechte an allen Kursen die zu seiner Institution gehören.
+* **Lernressourcenverwalter**: Ein Lernressourcenverwalter hat automatisch Besitzerrechte (= Vollzugriff) für alle Kurse und Lernressourcen, die der eigenen Organisation (siehe [Administrative Freigabe](../course_create/Access_configuration.de.md#administrative-freigabe)) angehören. Im Status "Beendet" und "Gelöscht" ist der Zugriff lesend. Über den Autorenbereich sind die Kurse und Lernressourcen auffindbar und können kopiert sowie exportiert werden.
 * **Principal**: Der Principal sieht – ausser der Administration – alle Bereiche des Systems, hat aber nur Lesezugriff und kann keine Änderungen vornehmen, Objekte bearbeiten etc.
 * **Administrator**: Der Administrator besitzt Modul- und Funktionsverwaltung und hat auf alle Bereiche des Systems z.B.  Benutzerverwaltung, Katalogverwaltung, Curriculumverwaltung, Lektionenverwaltung Zugriff, ausser auf die Administrationsseite. Diese Rolle kann auf eine Organisation beschränkt werden. Der Administrator kann Benutzer löschen und zudem weiteren Personen das Recht für die Katalogverwaltung einräumen.
 * **Systemadministrator**: Der Systemadministrator hat Zugriff auf die Administrationsseite und ist für die technische Systemkonfiguration und deren Überwachung zuständig. Dies ist eine globale Rolle, die nicht an eine Organisation gebunden ist.
@@ -51,7 +51,9 @@ Hier ein Überblick über alle OpenOlat Rollen.
 Wenn ein Benutzer einem Kurs hinzugefügt wird, kann definiert werden, welche
 Mitgliederrechte der Benutzer in diesem einen Kurs erhalten soll. Zur Auswahl stehen:
 
-* **Besitzer**: Dieser Benutzer hat alle Rechte im Kurs. Er kann den Kurs bearbeiten, Mitglieder verwalten und den Kurs auch löschen. Somit ist der Besitzer Kursadministrator <br>:octicons-device-camera-video-24: **Video-Einführung**: [Voraussetzungen für Autoren](<https://www.youtube.com/embed/L0jc_LBKXLE>){:target="_blank”}
+* **Besitzer**: Dieser Benutzer hat alle Rechte im Kurs. Er kann den Kurs bearbeiten, Mitglieder verwalten und den Kurs auch löschen. Somit ist der Besitzer Kursadministrator.
+
+    :octicons-device-camera-video-24: **Video-Einführung**: [Voraussetzungen für Autoren](<https://www.youtube.com/embed/L0jc_LBKXLE>){:target="_blank”}
 
 * **Betreuer**: Der Kursbetreuer hat Zugriff auf das [Bewertungswerkzeug](../course_operation/Assessment_tool_-_overview.de.md) des Kurses, wie auch auf die Test- und Fragebogen-Statistik. Ein Kursbetreuer kann jedoch den Kurs weder im Kurseditor bearbeiten noch den Kurs löschen. Im Bewertungswerkzeug sieht der Kursbetreuer alle Kursteilnehmenden, jedoch keine Gruppenteilnehmenden. Weitere Details der Kursrolle Betreuer finden Sie [hier](coach.de.md).
 * **Teilnehmer**: Ein Teilnehmer kann den Kurs öffnen und die bereitgestellten Kursbausteine und Inhalte bearbeiten (je nach Konfiguration). Ein Teilnehmer hat jedoch keine zusätzlichen Rechte im Kurs.
