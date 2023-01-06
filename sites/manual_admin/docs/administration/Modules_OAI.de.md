@@ -1,4 +1,9 @@
 # Module: OAI PMH
+
+!!! abstract ""
+    zu :octicons-tag-24: Release 17.2 verfügbar
+
+
 Der Zweck des "Open Archives Initiative - Protocol for Metadata Harvesting" (OAI-PMH): Zugang zu digitalen Ressourcen, in unserem Falle veröffentlichte Lernressourcen  für die Weitergabe von Metadaten an Portale, Suchmaschinen oder Kataloge. Weitergehende Informationen sind auf der [Open Archives Webseite](https://www.openarchives.org) zu finden.
 
 ## Administration
