@@ -2,187 +2,173 @@
 
   
 
-![](assets/question_bank1.jpg)
+![question bank](assets/question_bank1.jpg)
 
   
-
 The table view of the questions stored in the question pool offers a variety
 of options. Make sure that all columns relevant to you are selected via the
 cogwheel icon
 
-  
-
-## Create question
-
-Question items are created here in the QTI 2.1 format and stored directly for
-further use.  A title is specified during creation, followed by the question
-type and, if available, the subject selected at the end. The questions created
-this way can then be imported into the OpenOlat learning resource Test and be
-utilized.
-
-Information on test creation can be found [here](Creating+Tests.html).
-Information on the further design of a question in the chapter "[Item Detailed
-view](Item_Detailed_View.md)".
-
-##  Import questions {: #import}
-
-Add QTI 2.1 items to the question bank by importing test or questionnaire
-learning resources from OpenOlat, from external files or by via Copy & Paste
-from Excel files. Question items are always added to the table from where the
-import was started, as well as to "My Questions". Items can thus be directly
-imported into lists, pools or group shares.
-
-The following Import types are available:
-
-  *  **ZIP-file** from local computer: Choose this option if you have a set of questions or a test as .zip-file.
-  *  **Learning resource** "Test": Select the test you want to import from the available learning resources. To do this, click on the "Import learning resource" link in the corresponding line. All questions of the selected learning resource are imported directly into the question pool. Depending on whether you do this in the question database or in a pool, the questions are copied either only to "My Questions" or also to the corresponding pool.
-  * QTI 2.1 **Excel import** via copy&paste: Prepare the questions in the "template excel import" you can find in the import wizard. Below you will find detailed information on importing questions via Excel files (CSV).
-
-  
-
 You can mark particularly relevant questions that you have created as
 favorites and thus quickly find them again. Another possibility is to organize
 several questions in lists and thus build up an individual systematics for
-your questions.
+your questions.  
+
+Sie können Fragen im Bereich "Meine Fragen", in einer Liste oder in einer Gruppenfreigabe erstellen oder importieren. Dabei werden die Frageitems aber grundsätzlich unter "Meine Fragen" abgelegt und dann referenziert.
+
+Eine Übersicht der **Fragetypen**, die  erstellt und importiert werden können finden Sie im Kapitel ["Test Fragetypen"](../tests/Test_question_types.md) 
+
+## Create question in the question
+
+Frageitems können im Fragenpool über den Button "Create question" im QTI 2.1 Format erstellt and stored directly for
+further use.  
+
+![Fragetypen](assets/Frage_erstellen_typen_en.png)
+
+A title is specified during creation, followed by the question
+type and, if available, the subject selected at the end. The questions created this way can then be imported into the OpenOlat learning resource Test and be
+utilized.
+
+Information on test creation can be found [here](../tests/Four_Steps_to_Your_Test_or_Self-test.md). Information on the further design of a question in the chapter [Item Detailed view](Item_Detailed_View.md).
+
+
+##  Import questions in the question bank {: #import}
+
+Es gibt drei Möglichkeiten QTI 2.1 Fragen über den Import-Button in den Fragenpool zu importieren.
+
+![Question Import](assets/question_import_options.png)
+
+
+
+  *  **ZIP-file** from local computer: Choose this option if you have a set of questions or a test as .zip-file.
+  *  **Tests from authoring environment**: Select the test you want to import from the available learning resources. To do this, click on the "Import learning resource" link in the corresponding line. All questions of the selected learning resource are imported directly into the question pool. 
+  * QTI 2.1 **Excel import** via copy&paste: Prepare the questions in the "template excel import" you can find in the import wizard. When you are finished creating your questions in the Excel file, select the the questions in Excel and copy&paste them to the input field.
+
+
+### Nutzung der Datei "Vorlage Excelimport"   
+
+Starten Sie den Excelimport über Copy&Paste und laden Sie sich die Vorlage Excelimport herunter. Sie bildet die Basis für Ihr weiteres Vorgehen.
 
 The question import via Excel files allows you to import multiple questions at
 once in simple way. The import of excel questions can for example be used to
 import questions from other systems when the questions do also support the QTI
-2.1 standards. Please use the template which can be found when opening the
-import.
+2.1 standards. 
 
-At this time the following question types are supported:
+Die Excel Vorlage beinhaltet vier Spalten:
 
-  * Single-Choice
-  * Multiple-Choice
-  * Kprim
-  * Fill-in-blank
-  * Essay
-  * Match
-  * Drag and Drop
-  * TrueFalse
+a) Keyword/Punkte: Aspekt um den es geht
 
-When you are finished creating your questions in the Excel file, select the
-the questions in Excel and copy&paste them to the input field.
+b) Value: der gewünschte Wert oder Text
 
+c) Extra: Extra Informationen
+
+d) Erklärung: weitere Erläuterungen z.B. ob dieses Element optional ist.
+
+Die Vorlage enthält Informationen für den Import der folgenden Fragetypen:
+* FIB (Fill in the blank)
+* Numerical 
+* MC (Multiple Choice)
+* Inlinechoice 
+* SC (Single Choice)
+* KPRIM
+* Essay 
+* Matrix
+* Drag&Drop
+* Truefalse
+
+
+Die Fragen werden mit jeweils
+einer Trennzeile untereinander aufgeführt.
 When copying the questions, Excel will convert the cells to a comma separated
 formatting. The same does also work with other tools like Apple Numbers or
 OpenOffice.
 
-Keywords
+Im Folgenden werden die Möglichkeiten der in der Vorlage enthaltenen  Fragetypen vorgestellt:
 
-The table consists of two, three or four columns: the keywords / points, the
-values and extra information. The questions are separated with an empty line.
-
-  
 
 #### Multiple-choice question
 
- **type**|
-
-MC for multiple-choice  
-  
----|---  
- **title**|
-
-Title of the question / topic  
-  
- **question**|
-
-The question text. Minimal HTML formatting is allowed.  
-  
+ **type**|MC for multiple-choice  
+---|--- 
+ **title**|Title of the question / topic    
+ **question**|The question text. Minimal HTML formatting is allowed.   
  **max. answers**|  Max. number of possible answers.  
  **min. answers**|  Min. number of possible answers.  
- **points**|
-
-The maximal score. The minimal score is always set to 0.  
+ **points**|The maximal score. The minimal score is always set to 0.  
   
- **"1" for a correct option, "0" for a wrong option**|
-
-Options text. You can have as many options as you like, each on a separated
+You can have as many options as you like, each on a separated
 line with a point configuration  
   
-  
+Die Punktwerte für die einzelnen Antworten können ebenfalls definiert werden z.B.
+
+![MC_Import_Beispiel](assets/MC_import_Beispiel.png )  
 
 #### Single-choice question
 
-SC for single-choice
 
-|
-
-SC for single-choice  
-  
+ **type**| SC für Single-Choice    
 ---|---  
- **title**|
-
-Title of the question / topic  
-  
- **question**|
-
-The question text. Minimal HTML formatting is allowed.  
-  
- **points**|
-
-The maximal score. The minimal score is always set to 0.  
-  
- **Points when this option is selected, e.g. "1" (correct) or "-1"
-(incorrect)**|
-
-Options text. You can have as many options as you like, each on a separated
-line with a "0" or "1" point configuration  
-  
+ **title**|Title of the question / topic    
+ **question**|The question text. Minimal HTML formatting is allowed.    
+ **points**|The maximal score. The minimal score is always set to 0.
+ **Points when this option is selected, e.g. "1" (correct) or "-1" (incorrect)**| Options text. You can have as many options as you like, each on a separated line with a "0" or "1" point configuration  
   
 
 #### Fill-in-blank (gap) question
 
- **type**|
+ **type**|FIB for fill-in-blank  
+ ---|---
+ **title**|Title of the question / topic
+  **points**|The maximal score. The minimal score is always set to 0.
+  **text**| A text element  
+ **Points when the gap is correctly answered, e.g. "1"**|Correct answer in a gap. Synonyms can be entered separated with ";". Size of the gap and the maximum characters that can be entered is configured, e.g. "10,8".  
 
-FIB for fill-in-blank
 
-|  
+#### Numerical Input
+
+ **type**| Numerical Input
+---|---
+ **title**|Title of the question / topic
+ **points**|The maximal score. The minimal score is always set to 0.
+ **text**|  Ein Textelement, die Fragestellung
+ **Punkte, wenn Lücke korrekt z.B. "1"**|Korrekte Antwort in Lücke. Synonyme werden mit ";" getrennt. 
+
+ Beispiel:
+
+![Numerische Eingabe Import Beispiel](assets/Numerical_Import_Beispiel.png) 
+
+
+#### Gap with dropdown
+
+ **type**|Inlinechoice for gab with dropdown
+---|---
+ **title**|Title of the question / topic
+ **Question** | Fragestellung bzw. erstes Textelement der Frage 
+ **points**| The maximal score. The minimal score is always set to 0.
+ **text**|  Textelemente mit weiteren Teilen für die Frage bzw. Zwischentexte vor und nach den Lücken.
+  **Punkte, wenn Lücke korrekt z.B. "1"**|die optionalen Antworten der Dropdown-Liste getrennt. Die korrekte Antwort wird in die folgende Spalte eingetragen.
   
----|---|---  
- **title**|
+ Beispiel:
 
-Title of the question / topic
+![Lückentext mit Dropdown Import Beispiel](assets/Inlinechoice_Import_Beispiel.png)
 
-|  
-  
- **points**|
 
-The maximal score. The minimal score is always set to 0.
-
-|  
-  
- **text**|  A text element|  
-  
-  
- **Points when the gap is correctly answered, e.g. "1"  **
-
-|
-
-Correct answer in a gap. Synonyms can be entered separated with ";".
-
-| Size of the gap and the maximum characters that can be entered is
-configured, e.g. "10,8".  
-  
-  
-
- **KPRIM question**
+#### KPRIM question
 
  **type**|  KPRIM  
 ---|---  
  **title**|  Title of the question / topic  
  **question**|  The question text. Minimal HTML formatting is allowed.  
- **points**|  1  
-\+ or -| Options text  
-\+ or -| Options text  
-\+ or -| Options text  
-\+ or -| Options text  
-  
-  
+ **points**|  Maximal erreichbare Punktzahl. Die minimale Punktzahl ist 0.  
++| korrekte Antwort  
+-| falsche Antwort  
+-| falsche Antwort  
++| korrekte Antwort
+ 
+Korrekte Antworten werden also mit einem **+** und falsche mit **-** gekennzeichnet.
 
- **Essay question**
+
+#### Essay question
 
  **type**|  ESSAY  
 ---|---  
@@ -194,78 +180,53 @@ configured, e.g. "10,8".
   
   
 
- **MATCH question**
+#### MATCH question
 
- **type**|  MATCH|  
-|  
+ **type**|  MATCH 
+---|---
+ **title**|  Title of the question / topic  
+ **question**|  The question text. Minimal HTML formatting is allowed.  
+ **points**|  The maximal score. The minimal score is always set to 0.  
   
----|---|---|---  
- **title**|  Title of the question / topic|  
-|  
-  
- **question**|  The question text. Minimal HTML formatting is allowed.|  
-|  
-  
- **points**|  The maximal score. The minimal score is always set to 0.|  
-|  
-  
-  
-| A| B| C  
-Antwort 1| 1 (correct answer)| 0 (false answer)| 0 (false answer)  
-Antwort 2| 0| 0| 1  
-Antwort 3| 0| 1| 0  
-  
-  
+Die Maxtrix selbst verteilt sich über die Spalten und Zeilen. Die entsprechenden Punkte werden in das passende Feld eingetragen.
+Hier ein Beispiel mit 3 Spalten und 3 Zeilen:
 
- **Drag and Drop question**
+![Matrix_Import_Beispiel](assets/Matrix_Import_Beispiel.png) 
 
- **type**|  KPRIM|  
-|  
   
----|---|---|---  
- **title**|  Title of the question / topic|  
-|  
+#### Drag and Drop question
+
+ **type**| Drag and Drop  
+---|---
+ **title**|  Title of the question / topic  
+ **question**|  The question text. Minimal HTML formatting is allowed.  
+ **points**|  The maximal score. The minimal score is always set to 0.
+
+Die Umsetzung in der Excel-Vorlage ist ähnlich wie bei Matrix Fragen und verteilt sich über mehrere Spalten und Zeilen. Die entsprechenden Punkte werden in das passende Feld eingetragen. Hier ein Beispiel mit 3 Spalten und 3 Zeilen:   
   
- **question**|  The question text. Minimal HTML formatting is allowed.|  
-|  
-  
- **points**|  The maximal score. The minimal score is always set to 0.|  
-|  
-  
-  
-| Algerien| Kenia| Namibia  
-Nairobi| 0 (false answer)| 1 (correct answer)| 0 (false answer)  
-Windhoek| 0| 0| 1  
-Algier| 1| 0| 0  
-  
+![Drag and Drop Import_Beispiel](assets/dad_Import_Beispiel.png)    
   
 
- **TrueFalse question**
+#### TrueFalse question
 
- **type**|  Truefalse|  
-|  
-  
----|---|---|---  
- **title**|  Title of the question / topic|  
-|  
-  
- **question**|  The question text. Minimal HTML formatting is allowed.|  
-|  
-  
- **points**|  Maximum achievable score. The minimum score is 0.|  
-|  
-  
-  
-| Unanswered| Right| Wrong  
-Paris is in France| 0| 1 (correct answer)| 0 (false answer)  
-Bern is in Switzerland| 0| 1| 0  
-Stockholm is in Danmark| 0| 0|
+ **type**|  Truefalse  
+---|---
+ **title**|  Title of the question / topic  
+ **question**|  The question text. Minimal HTML formatting is allowed.  
+ **points**|  Maximum achievable score. The minimum score is 0.
 
-1  
-  
-  
+ Spalte **unanswered**: Punkte die vergeben oder abgezogen werden wenn vom User keine Entscheidung getroffen wird.
 
-In addition to the listed fields, there are other optional fields such as
-"Topic", "Keywords", "License", etc. For more details, see the Excel import
-template provided as part of the import process.
+Spalte: **Right**: Punkte die vergeben werden, wenn die Antwort "Richtig" vom User ausgewählt wird.
+
+Spalte **Wrong**: Punkte die vergeben werden, wenn die Antwort "Falsch" vom User ausgewählt wird.
+
+Beispiel:
+
+![True False Import_Beispiel](assets/truefalse_Import_Beispiel.png) 
+  
+ 
+!!! info  
+
+    In addition to the listed fields, there are other optional fields such as "Topic", "Keywords", "License", etc. For more details, see the Excel import  template provided as part of the import process.
 
