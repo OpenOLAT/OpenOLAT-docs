@@ -1,3 +1,7 @@
+---
+search:
+  exclude: true
+---
 # OpenOlat Dokumentations-Lizenz 
 
 _Manche Rechte vorbehalten!_ 

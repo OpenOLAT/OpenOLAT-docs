@@ -1,3 +1,7 @@
+---
+search:
+  exclude: true
+---
 # Imprint
 
 Responsible for the website, the content and the creation is:

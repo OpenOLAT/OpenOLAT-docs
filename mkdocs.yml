@@ -28,6 +28,7 @@ theme:
 #    - navigation.sections
     - search.suggest
     - search.highlight
+    - search.share
     - content.code.copy
     
 markdown_extensions:
@@ -90,11 +91,6 @@ extra_javascript:
 
 plugins:
   - monorepo
-#  - tags
-  - search:
-      lang:
-        - en
-        - de
   - i18n:
       default_language: en
       default_language_only: false
@@ -353,6 +349,12 @@ plugins:
           ... customize the course design with CSS (Expert) : ... Kursdesign mittels CSS manipulieren (Expert)
           ... use the same files in several courses : ... dieselben Dateien in mehreren Kursen einsetzen
   - git-revision-date          
+#  - tags
+# search plugin must be after i18n plugin to make it index both languages
+  - search:
+      lang:
+        - en
+        - de
 
 nav:
   - Start: 

@@ -102,6 +102,17 @@ From time to time you need to update everything:
 	pip3 install mkdocs-static-i18n -U
 	pip3 install mkdocs-git-revision-date-plugin -U	
 	
+### Upgrade
+
+If new major versions are released you need to upgrade. Be careful with this, first check compatibility of the plugins with the new versions. 
+
+	# Upgrade mkdocs if new releases have been published
+	pip3 install  --upgrade --force-reinstall mkdocs
+	pip3 install  --upgrade --force-reinstall mkdocs-material
+	pip3 install  --upgrade --force-reinstall mkdocs-monorepo-plugin
+	pip3 install  --upgrade --force-reinstall mkdocs-static-i18n
+	pip3 install  --upgrade --force-reinstall mkdocs-git-revision-date-plugin
+
 
 ### Markdown editor and Git client 
 

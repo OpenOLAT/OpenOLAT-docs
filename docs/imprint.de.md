@@ -1,3 +1,7 @@
+---
+search:
+  exclude: true
+---
 # Impressum
 
 Für die Webseite, den Inhalt und die Erstellung verantwortlich ist:

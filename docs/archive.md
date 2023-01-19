@@ -1,3 +1,7 @@
+---
+search:
+  exclude: true
+---
 # OpenOlat user manual archive
 
 - [OpenOlat 17.1 Benutzerhandbuch](../manual_user/general/) | [Release notes 17.1](release_notes/Release_notes_17.1.md)

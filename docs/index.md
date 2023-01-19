@@ -2,6 +2,8 @@
 ᴴₒᴴₒᴴₒ: true
 hide:
   - toc
+search:
+  exclude: true
 ---
 ![Logo: OpenOlat – infinite learning](assets/OpenOlat_Logo_claim_RGB.png)
 
