@@ -15,7 +15,7 @@ Toggle switches should take immediate effect and should not require the user to 
 
 ### Uses 
 
-* Administration: Activate / Deactive functions
+* Activate / Deactive functions
 * Learning path: Enable exceptions
 
 ## Slider
