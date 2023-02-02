@@ -5,8 +5,8 @@ This component is a digital on/off switche. It prompts users to choose between t
 
 ### Variants
 
-* With description right
 * Without description
+* With description insight
 
 ![switch](assets/switch.png){ class="shadow lightbox" }
 
