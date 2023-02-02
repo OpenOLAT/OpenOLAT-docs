@@ -11,10 +11,14 @@ nav:
   - UX Guidelines:
     - ux/index.md
     - Design Pattern: ux/patterns.md
-    - Table: ux/table.md
-    - Card: ux/card.md
-    - Tab / Tab pane: ux/tab.md
-    - Button: ux/button.md
+    - Components:
+      - Overview: ux/components.md
+      - Button: ux/button.md
+      - Card: ux/card.md
+      - Object integration: ux/object_integration.md
+      - Switch & Sliders: ux/switch_slider.md
+      - Tab / Tab pane: ux/tab.md
+      - Table: ux/table.md
   - Manual How-To:
     - documentation/index.md
     - Setup Visual Studio Code: documentation/howto-visual-studio.md
