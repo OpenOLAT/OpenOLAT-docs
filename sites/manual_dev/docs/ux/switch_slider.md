@@ -1,7 +1,7 @@
 # Switch & Sliders
 
 ## Switch
-This component is a digital on/off switche. It prompts users to choose between two mutually exclusive options and always has a default value. Switches should provide instant results an give the users the freedom to control their preferences as needed (eg. light on/of).
+This component is a digital on/off switch. It prompts users to choose between two mutually exclusive options and always has a default value. Switches should provide instant results and give the users the freedom to control their preferences as needed (eg. light on/of).
 
 ### Variants
 
