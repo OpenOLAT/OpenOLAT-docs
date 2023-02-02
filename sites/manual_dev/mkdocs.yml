@@ -10,7 +10,10 @@ nav:
       - IntelliJ: dev/intellij.md
   - UX Guidelines:
     - ux/index.md
-    - Design Pattern: ux/patterns.md
+    - Design Pattern:
+      - Overview: ux/patterns.md
+      - Navigation: ux/nav.md
+      - Empty state: ux/empty_state.md
     - Components:
       - Overview: ux/components.md
       - Button: ux/button.md
