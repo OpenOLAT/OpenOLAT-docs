@@ -4,7 +4,8 @@ Hier erfahren Sie wie man Bewertungen für Aufgaben und Gruppenaufgaben mit Hilf
 
 Gehen Sie in das Bewertungswerkzeug und wählen Sie in der linken Übersicht den Assessmentbaustein aus, den Sie bewerten möchten. Hier finden Sie zwei Tabs: Übersicht und Teilnehmer. 
 
-Im Tab Übersicht erhalten Sie eine Übersicht wie viele Personen insgesamt, und in bestimmten, diesen Kursbaustein schon bearbeitet und bestanden haben. Im Tab Teilnehmer werden die Kursteilnehmenden angezeigt und die eigentliche Bewertung eines Teilnehmers oder eine Gruppe gestartet.  
+Im Tab Übersicht erhalten Sie eine Übersicht zur Bewertung dieses Kursbausteins, z.B. wie viele Personen diesen Kursbaustein schon bestanden haben. 
+Im Tab Teilnehmer werden die Kursteilnehmenden angezeigt und die eigentliche Bewertung von Teilnehmenden kann gestartet werden.  
 
 ## Tab Teilnehmer
 
@@ -36,7 +37,7 @@ Bevor eine Aufgabe bewertet werden kann müssen sich die Betreuer oder Kursbesit
 
 Sobald von einem Lernenden eine Datei über den Button „endgültige Abgabe“ eingereicht wurde, kann sie vom Lehrenden geöffnet und angeschaut werden.
 
-Um sich die Einreichung _einer einzelnen Person_ anzeigen zu lassen wählen Sie einfach diese Person aus klicken Sie auf die abgebebene Datei. 
+Um sich die Einreichung _einer einzelnen Person_ anzeigen zu lassen wählen Sie diese Person aus klicken auf die abgegebene Datei. 
 
 ![Abgegebene Aufgabe anzeigen](assets/Aufgabe_abgegeben.png){ class="shadow lightbox" }
 
@@ -55,9 +56,9 @@ Anschliessend können Sie das [Bewertungsformular](The_assessment_form.de.md) au
 
 Welche Schritte im Bewertungsflow genau zur Verfügung stehen, ist abhängig von der konkreten Konfiguration des Aufgaben Bausteins. Die Details werden in der Konfiguration des Kursbausteins „[Aufgabe](../task/Task_-_Further_Configurations.de.md)“ bzw. "Gruppenaufgabe" festgelegt. Im Bewertungswerkzeug können die Bewertungsoptionen nicht mehr geändert werden.
 
-Falls gewünscht und entsprechend konfiguriert, kann ein Rückgabe-Dokument hochgeladen werden. Dabei könnte es sich zum Beispiel um eine ausführliche Bewertungstabelle oder eine überarbeitete Version der Einreichung handeln. Auch ist es möglich eine Einreichung über den Botton „Benötigt Überarbeitung“ noch einmal an den Lernenden zurückzuspielen und eine Überarbeitungsschleife auszulösen.
+Falls gewünscht und entsprechend konfiguriert, kann ein Rückgabe-Dokument hochgeladen werden. Dabei könnte es sich zum Beispiel um eine ausführliche Bewertungstabelle oder eine überarbeitete Version der Einreichung handeln. Auch ist es möglich eine Einreichung über den Button „Benötigt Überarbeitung“ noch einmal an den Lernenden zurückzuspielen und eine Überarbeitungsschleife auszulösen.
 
-Sobald ein Benutzer eine Aufgabe definitiv abgegeben hat, ist eine erneute Abgabe oder ein Austauschen für ihn nicht mehr möglich. Falls eine Aufgabe versehentlich abgegeben oder das falsche Dokument hochgeladen wurde, kann der Betreuer aber die "Abgabe erneut öffnen" und so dem Lernenden ermöglichen eine weitere Abgabe hochzuladen.
+Sobald ein Benutzer eine Aufgabe definitiv abgegeben hat, ist eine erneute Abgabe oder ein Austauschen für ihn nicht mehr möglich. Falls eine Aufgabe versehentlich abgegeben oder das falsche Dokument hochgeladen wurde, kann der Betreuer aber die "Abgabe erneut öffnen" und so dem Lernenden ermöglichen eine weitere Abgabe einzureichen.
 
 Wie weit der Bewertungsflow schon fortgeschritten ist, erkennen sowohl die Lernenden als auch die Lehrenden an den grünen Haken an den einzelnen Bewertungsschritten.
 
@@ -75,15 +76,14 @@ Die Bewertung von Einreichungen über den Kursbaustein "Gruppenaufgabe" erfolgt 
  * Klicken Sie auf ein Gruppenmitglied oder wählen Sie im 3-Punkte Bereich die Option "Details anzeigen / bewerten" und Sie gelangen in den Bewertungsflow für die Gruppe. 
  * Nehmen Sie die Bewertung analog zur Bewertung des Kursbausteins Aufgabe vor. 
 
-Im Bereich "Bewertung", also dem eigentlichen Bewertungsformular klicken Sie auf den Button "Bewerten". 
+Im Bereich "Bewertung", also dem eigentlichen Bewertungsformular, klicken Sie auf den Button "Bewerten". 
 
 ![Gruppe bewerten](assets/Gruppe_bewerten.png){ class="shadow lightbox" }
-Shot
 
 Der Vorteil einer Gruppenaufgabe ist, dass eine Bewertung für alle
 Gruppenmitglieder über den Button „Bewerten“ auf einen Schlag vorgenommen werden kann, gleichzeitig aber auch Anpassungen für einzelne Gruppenmitglieder möglich sind.
 
-Wenn nicht die gesamte Gruppe bestanden hat oder nicht alle dieselbe Punktzahl erhalten sollen, darf "Für die ganze Gruppe" nicht ausgewählt sein. Dadurch wird eine individuelle Bewertung pro Benutzer möglich.
+Wenn nicht die gesamte Gruppe bestanden hat oder nicht alle dieselbe Punktzahl erhalten sollen, darf "Für die ganze Gruppe" _nicht_ ausgewählt sein. Dadurch wird eine individuelle Bewertung pro Benutzer möglich.
 
 ![Gruppenaufgabe Gruppenbewertung](assets/Gruppenbewertung.png){ class="shadow lightbox" }
 
@@ -91,4 +91,6 @@ Wenn nicht die gesamte Gruppe bestanden hat oder nicht alle dieselbe Punktzahl e
 
     Sollen andere bewertbare Kursbausteine anstatt einer „Gruppenaufgabe“ für eine Gruppe bewertet werden, müssen die Bewertungen für jedes Gruppenmitglied separat vorgenommen werden.
 
-Im Kursrun ist die Bewertung der einzelnen Gruppen ähnlich wie generell beim Kursbaustein Aufgabe, ebenfalls möglich.
+!!! info "Info"
+
+    Im Kursrun ist die Bewertung der einzelnen Gruppen ähnlich wie generell beim Kursbaustein Aufgabe, ebenfalls möglich.
