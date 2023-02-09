@@ -21,7 +21,7 @@
 
 Beispiel einer Taxonomiestruktur nach Fächern für den Dokumentenpool:
 
-![](assets/Taxonomie_Struktur_DE.png){ class="shadow lightbox" }
+![Struktur](assets/Taxonomie_Struktur_DE.png){ class="shadow lightbox" }
 
 Direkt auf der Übersichtsseite kann eine neue Taxonomie erstellt werden.
 Sofern Sie im Fragenpool bereits eine Fachbereichsstruktur angelegt haben,
@@ -57,15 +57,15 @@ Zu Ebenentypen werden gewisse Konfigurationen hinzugefügt.
 Im Tab "Ebenentypen" kann mit "Neuer Ebenentyp erstellen" ein neuer Typ
 erstellt werden.
 
-* **Kennzeichen:** Hier wird oft ein Kürzel der entsprechenden Ebene hinzugefügt. Diese Kennzeichen wird in der Tabelle im Tab "Taxonomie" in der Spalte "Ebenentyp" angezeigt. Es ist deshalb empfehlenswert, eine eindeutige und logische Kennzeichen zu wählen.
-* **Anzeigename:** Dieser Name wird unter Modules → Dokumentenpool im Tab Zugangsberechtigung in ausgeschriebener Form angezeigt und kann deshalb länger sein als die Kennzeichen.
-* **CSS class:** Sofern eine entsprechende css class im Theme hinterlegt ist, kann diese hier ausgewählt werden. Es können so nur Icons hinterlegt werden.
+* **Kennzeichen:** ist eine  Kennung für die Taxonomieebene. Dieses Kennzeichen wird in der Tabelle im Tab "Taxonomie" in der Spalte "Ebenentyp" angezeigt. Wählen Sie ein eindeutiges und logisches Kennzeichen.
+* **Anzeigename:** Der Anzeigename ist sprachabhängig und wird an unterschiedlichen Stellen verwendet: Katalog 2.0, Dokumentenpool, e-Portfolio
+* **CSS class:** Sofern eine entsprechende css class im Theme hinterlegt ist, können Sie diese hier ausgewählen. Es können so nur Icons hinterlegt werden.
 * **Sichtbar:** Hier wird definiert, ob alle Taxonomieebenen von diesem Typ sichtbar sein sollen.
 * **Kompetenzen:** Wenn aktiviert, steht dieser Ebenentyp als Kompetenz zur Verfügung und kann z.B. zur kompetenzbasierten Verschlagwortung in ePortfolio-Einträgen genutzt werden.
-* **Beschreibung:** Falls gewünscht kann eine kurze Beschreibung des Ebenentyps hinzugefügt werden.
+* **Beschreibung:** Eine kurze Beschreibung des Ebenentyps (optional)
 * **Sub types:** Aus den bereits bestehenden Ebenentypen kann nun ein Untertyp ausgewählt werden. So ist es möglich, eine hierarchische Struktur zu schaffen. Diese wird dann beim Erstellen der Taxonomieebenen sichtbar.
 
-![](assets/Tax Ebenentypen DE.png){ class="shadow lightbox" }
+![Übersicht über die Taxonomy leveltypen](assets/taxonomy-leveltypes.de.jpg){ class="shadow lightbox" }
 
 ## Taxonomie
 
@@ -75,16 +75,16 @@ Beim Erstellen werden folgende Angaben benötigt:
 
 * **Pfad**: Mit dem Pfad kann direkt die Position der neuen Taxonomieebene definiert werden.
 * **Kennzeichen**: Als Kennzeichen kann wiederum ein Kürzel für die Ebene verwendet werden.
-* **Anzeigename**: Der Anzeigename ist jener Name, welcher dann im entsprechenden Pool tatsächlich angezeigt wird.
+* **Anzeigename**: Der Anzeigename ist sprachabhängig und wird an unterschiedlichen Stellen verwendet: Katalog 2.0, Dokumentenpool, e-Portfolio.
 * **Typ**: Beim Typ wird nun der zuvor definierte Ebenentyp ausgewählt.
 * **Sortierung**: ::octicons-tag-24: *aktuell Beta Feature* Hier können Zahlen eingetragen werden, nach dem die Taxonomien sortiert werden. ( z.B. 1, 2, 3, 4, .. / 01, 02,03,04,...)
-* **Beschreibung**: Falls gewünscht kann eine kurze Beschreibung der Taxonomieebene hinzugefügt werden.
+* **Beschreibung**: Beschreibung der Taxonomieebene. Wird im Katalog unter der Ebene angezeigt.
 
-![](assets/Taxebenen.png){ class="shadow lightbox" }
+![Taxonomie-ebenen](assets/Taxebenen.png){ class="shadow lightbox" }
 
 In der Übersicht ist nun die hierarchische Struktur sichtbar.
 
-![](assets/taxonomy_taxonomie_DE.png){ class="shadow lightbox" }
+![Ausgeklappte Treetable der Taxonomie](assets/taxonomy-overview-hierarchy.de.jpg){ class="shadow lightbox" }
 
 In der Detailansicht können anschliessend Kompetenzen hinzugefügt werden. So
 erhalten Benutzer die Zugriffsrechte für die einzelnen Taxonomieebenen. Im
@@ -93,14 +93,64 @@ OpenOlat wurde die Kompetenz auf den Release 12.2 neu hinzugefügt.
 Es werden 4 verschiedene Kompetenzen unterschieden. Diese werden im Folgenden
 kurz umrissen:
 
-* Dozieren: Ein Benutzer mit einer Dozierkompetenz ist in dieser Kompetenz befähigt. Meist bedeutet dies, er hat ein gewisses Fachwissen, das er weitergeben kann. Somit hat ein Lernender nie eine Dozierkompetenz, denn eine Dozierkompetenz kann im OpenOlat nicht erworben werden. Die Dozierkompetenz wird dem Benutzer entweder manuell oder durch ein externes Verwaltungssystem hinzugefügt. Diese Kompetenz steuert den Zugriff sowohl im [Dokumentenpool](Modules_Document_pool.de.md) als auch im Fragenpool.
-* Verwalten: Benutzer können für gewisse Bereiche in der Taxonomie eine verwaltende Funktion haben. Dabei müssen sie nicht zwingend auch die Dozierkompetenz haben. Diese Kompetenz wird vor allem im Fragenpool benutzt.
+* Dozieren: Ein Benutzer mit einer Dozierkompetenz ist in dieser Kompetenz befähigt. Meist bedeutet dies, er hat ein gewisses Fachwissen, das er weitergeben kann. Die Dozierkompetenz wird dem Benutzer entweder manuell oder durch ein externes Verwaltungssystem hinzugefügt. Diese Kompetenz steuert den Zugriff sowohl im [Dokumentenpool](Modules_Document_pool.de.md) als auch im Fragenpool.
+* Verwalten: Benutzer können für gewisse Bereiche in der Taxonomie eine verwaltende Funktion haben. Dabei müssen Sie nicht zwingend auch die Dozierkompetenz haben. Diese Kompetenz wird vor allem im Fragenpool benutzt.
 * Haben: Diese Kompetenz wird momentan im OpenOlat noch nicht verwendet. Diese Kompetenz sollen zukünftig Lernende durch eine Lernaktivität im OpenOlat (z.B. absolvierter Test) erhalten. Diese Kompetenz wird auch ein Verfallsdatum haben.
 * Ziel: Diese Kompetenz wird momentan im OpenOlat noch nicht verwendet. Ein Lernender hat ein Ziel, das er erreichen möchte. Sein Ziel ist es, diese Kompetenz zu erwerben.
 
-![](assets/taxonomy_detail_DE.png){ class="shadow lightbox" }
+![taxonomy overview](assets/taxonomy-overview.de.jpg){ class="shadow lightbox" }
 
 ## Lost+Found
 
 Hier werden alle gelöschten Elemente aus dem Tab "Taxonomie" abgelegt.
 Momentan können diese jedoch nicht wiederhergestellt werden.
+
+## Taxonomie importieren und exportieren
+
+Um die Taxonomie zu importieren oder zu exportieren wähle den entsprechenden Menüpunkt im Mehr-Menü neben "Neue Taxonomieebene erstellen" aus.
+
+### Taxonomie exportieren
+
+Die Taxonomie wird mit Klick auf den Menüpunkt als .zip Archiv heruntergeladen. Darin enthalten ist eine EXCEL-Tabelle mit der hierarchischen Struktur der Taxonomieebenen und eine Ordnerstruktur (media/ebene1/background;media/ebene1/teaser;) mit Teaser- und Hintergrundbildern der Taxonomie, wenn welche vorhanden sind. (mehr unter -> [Katalog 2.0](../../../manual_user/docs/catalog/catalog2)
+
+### Taxonomie importieren
+
+**Daten Einfügen**
+
+![Schritt eins des Wizards - taxonomie importieren](assets/taxonomy-import-overview.de.jpg){ class="shadow lightbox" }
+
+Man kann die verschiedene Teile der Taxonomie importieren. Möglich ist, nur die Struktur zu importieren (**A**), Bilder zu einer vorhandenen Struktur hinzufügen (**B**) oder eine neue Struktur inkl. Bilder importieren (**A+B**).
+
+**Änderungen überprüfen**
+
+![Taxonomieimportdialog Schritt 2 Überprüfung](assets/taxonomy-import-step2.de.jpg){ class="shadow lightbox" }
+
+Nach dem Import werden im zweiten Schritt die Taxonomie und die hinzugefügten Bilder nochmals überprüft. Ein Icon zeigt an, ob die Taxonomieebene bereits vorhanden ist und mit den Dateien und hochgeladen Informationen ergänzt und überschrieben werden soll.
+
+**Updatemodus auswählen**
+
+![Taxonomieimportdialog Schritt 3 - Überschreiben](assets/taxonomy-import-step3.de.jpg){ class="shadow lightbox" }
+
+Hier kann man entscheiden, ob man die existierenden Taxonomieebenen überschreiben lassen will oder nur neue Taxonomieebenen hinzufügen. Falls man Medien hinzufügen möchte, _müssen_ hier die Änderungen überschrieben werden.
+
+### Nur Taxonomie Struktur importieren/hinzufügen
+
+1. Laden Sie die aktuelle Taxonomie herunter oder nutzen Sie die Vorlage unter dem entsprechenden Punkt
+
+![Tabellenvorlage-taxonomiestruktur](assets/taxonomystructure-import.jpg){ class="shadow lightbox" }
+
+2. In der Excel fügen Sie die neuen Ebenen hinzu oder verändern bestehende. Der Pfad muss vollständig angegeben werden. Ist dieser fehlerhaft, können gewisse Ebenen nicht importiert werden.
+
+    1. Hat man verschieden Sprachen in OpenOlat aktiviert und benutzt den Katalog 2.0, ist es ratsam Anzeigename und Beschreibung sprachabhängig zu gestalten. Zusätzliche Sprachen fügen Sie hinzu, indem Sie die Spalten "Länderkürzel", "Anzeigename" & "Beschreibung" kopieren, diese damit hinten anhängt und ein neues, existierendes Länderkürzel, Anzeigename + Beschreibung für jede Taxonomieebene ergänzt.
+
+3. Die geänderte Tabelle wird _ohne_ die Kopfzeile markiert und in das Eingabefeld kopiert. Im Schritt "Änderungen überprüfen" werden die Zellen auf Richtigkeit überprüft. Bei Fehlern erscheinen die Fehlermeldungen direkt am Eingabefeld.
+
+### Nur Hintergrund-/Teaserbild importieren/hinzufügen
+
+![finderimage of fodlerstructure provided for media images](assets/taxonomy-media-folder-structure.jpg)
+
+1. Will man Hintergrundbilder zu einer existierenden Taxonomie hinzufügen, sollte man im ersten Schritt diejenige exportieren. 
+2. Das Archiv entzippen und dort im Ordner "media" die betreffenden Bilder hineinlegen. 
+3. Wieder das gesamte Archiv zippen und unter Absatz B im Wizard einfügen.
+
+Alternativ ist es auch möglich, die vorhandene Vorlagen unter den jeweiligen Links herunterzuladen und diese entsprechend anzupassen.

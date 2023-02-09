@@ -62,7 +62,7 @@ In the tab "Level types" a new type can be created with "Add new level type".
   * **Description:** If desired a short description of the level type can be added.
   * **Sub types:** Out of the already existing level types a sub type can be chosen. Like this it becomes possible to create a hierarchical structure. It will get visible when creating the taxonomy level.
 
-![](assets/Tax Ebenentypen EN.png){ class="shadow lightbox" }
+![overview over taxonomy leveltypes tab](assets/taxonomy-leveltypes.jpg){ class="shadow lightbox" }
 
 ## Taxonomy
 
@@ -81,7 +81,7 @@ When creating the following attributes are necessary:
 
 In the overview a hierarchical structure is now visible.
 
-![](assets/Taxonomy_taxonomy.png){ class="shadow lightbox" }
+![opened Treetable from taxonomy structure](assets/taxonomy-overview-hierarchy.jpg){ class="shadow lightbox" }
 
 In the detail view competences can be added afterwards. Like this users get
 access rights for the single taxonomy levels. In OpenOlat competences have
@@ -95,9 +95,60 @@ shortly:
   * Have: This competence is not yet used in OpenOlat. In the future this competence can be gained by a learner through learning activities in OpenOlat (e.g. test). This competence has an expiry date.
   * Target: This competence is not yet used in OpenOlat. A learner has a target he wants to reach. It is the target to gain this competence.
 
-![](assets/taxonomy_competences.png){ class="shadow lightbox" }
+![overview over the taxonomy gui](assets/taxonomy-overview.jpg){ class="shadow lightbox" }
 
 ## Lost+Found
 
 All deleted elements of the tab "Taxonomy" end up here. For the moment they
 cannot be reset.
+
+## Import and export taxonomy
+
+To import or export the taxonomy, select the corresponding menu item in the More menu next to "Create new taxonomy level".
+
+### Export taxonomy
+
+The taxonomy is downloaded as a .zip archive by clicking on the menu item. This contains an EXCEL table with the hierarchical structure of the taxonomy level and a folder structure (media/level1/background;media/level1/teaser;) with teaser and background images of the taxonomy, if any are available. (more under -> [Catalogue 2.0](../../manual_user/docs/catalog/catalog2/))
+
+### Import taxonomy
+
+**Insert data**
+
+![Step one of the wizard - import taxonomy](assets/taxonomy-import-overview.png){ class="shadow lightbox" }
+
+Here we have the choice between different options:
+We can import only the structure (**A**), add images to an existing structure (**B**) or import a structure including images (**A+B**).
+
+**Review changes**
+
+![taxonomy import dialogue step 2 check](assets/taxonomy-import-step2.jpg){ class="shadow lightbox" }
+
+After the import, the taxonomy and the added images are reviewed again in the second step. An icon indicates whether the taxonomy level already exists and should be completed and overwritten with the files and uploaded information.
+
+**Select update mode**
+
+![taxonomy import dialogue step 3 - overwrite](assets/taxonomy-import-step3.jpg){ class="shadow lightbox" }
+
+Here you can decide whether you want to overwrite the existing taxonomy levels or just add new taxonomy levels. If you want to add media, you _must_ overwrite the changes here.
+
+### Import/add taxonomy structure only
+
+1. First download the current taxonomy. If you don't have one yet, use the template.
+
+![table-template-taxonomy-structure](assets/taxonomystructure-import.jpg){ class="shadow lightbox" }
+
+2. Inside the excel sheet you add new taxonomy levels or change existing ones. The path that indicates the hierarchical structure is important. If this is incorrect, certain layers cannot be imported.
+
+   1. If you have activated different languages in OpenOlat and use the catalogue 2.0, it is advisable to make the display name and description language-dependent. Additional languages can be added by copying the columns "Country code", "Display name" & "Description" and adding a new, existing country code, display name + description for each taxonomy level.
+
+3. The modified table is now selected _without_ the header and copied into the input field. When proceeding to the next wizard step, the cells are checked for correctness. In case of errors, error messages appear directly at the input field.
+
+### Import/add background/teaser image only
+
+![finderimage of fodlerstructure provided for media images](assets/taxonomy-media-folder-structure.jpg)
+
+1. If you want to add background images to an existing taxonomy, you should first export the taxonomy.
+2. Unzip the archive and place the images in the "media" folder.
+3. zip the entire archive again and insert it under paragraph B in the wizard.
+
+Alternatively, it is also possible to download the existing templates under the respective links and adapt them accordingly.
