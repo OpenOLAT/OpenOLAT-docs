@@ -55,8 +55,6 @@ Metadaten | OAI OpenOlat | OAI DublinCore
  sets | **x** | **x**
  deleted | **x** | **x**
 
-
-
 ## Administration
 
 Das Modul kann unter `Administration-> Modules -> OAI PMH` eingeschaltet werden. Es ist standardmässig auf jeder Instanz deaktiviert. Wenn das Modul eingeschaltet ist, ist auch der API-Endpoint verfügbar, wo alle veröffentlichten Ressourcen über XML verfügbar sind.
@@ -85,3 +83,11 @@ Verschiedene Sets können angewählt werden. Sets kategorisieren die Metadaten d
 * Typ-basiertes Set, sortiert nach den Lernressourcentypen wie Kurs, Video, Podcast.
 * Angebot-basiertes Set, sortiert nach den Angebotstypen wie privat, buchbar mit Konto, Gast
 
+
+## Suchmaschinenoptimierung
+
+![Search engine sektion](assets/oai-seo.de.jpg)
+
+Hiermit kann man freigegebene Lernressourcen aktiv für Suchmaschinen zugänglich machen. Dabei gibt es zwei Verfahren: sitemapxml was vorallem google benutzt und [indexnow](https://www.indexnow.org/index) von bing und anderen. Diese Erfassung wird einmal pro Woche aktiv angestossen.
+
+Hat man eine eigenen Suchmaschinenindex, kann man diesen unter "benutzerdefiniert" eintragen.

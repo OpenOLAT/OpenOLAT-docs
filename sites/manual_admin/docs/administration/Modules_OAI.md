@@ -82,3 +82,12 @@ Different sets can be selected. Sets categorise the metadata of learning resourc
 * Licence-based set, sorted by licence type
 * Type-based set, sorted by learning resource types such as course, video, podcast.
 * Offer-based set, sorted by the offer types such as private, bookable with account, guest.
+
+
+## Search Engine Optimization
+
+![Search engine sektion](assets/oai-seo.jpg)
+
+This allows you to actively make shared learning resources accessible to search engines. There are two methods: sitemapxml which is mainly used by google and [indexnow](https://www.indexnow.org/index) by bing and others. This collection is actively triggered once a week.
+
+If you have your own search engine index, you can enter its url under "custom".
