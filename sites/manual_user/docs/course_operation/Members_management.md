@@ -44,7 +44,7 @@ Optionen und Funktionen bestimmter Kursbausteine.
   *  **Participants**  
 Participants are usually the learners or people who participate in an online course. Participants can only act within the scope of the options provided by
 the owner. By default, participants do not have access to the course administration and the menus it contains.
-In einem [Lernpfad Kurs](../course_create/Learning_path_course.de.md) sehen nur die Teilnehmer die visualisierte Prozentanzeige rechts oben in der Toolbar.
+In a [learning_path_course](../course_create/Learning_path_course.en.md) only the participants see the visualized percentage display in the top right corner of the toolbar.
 In a learning path course, only the participants see the visualized percentage display at the top right of the toolbar.
 
 A course member can have multiple roles in the course at the same time. In this case these persons will see the possibility to change roles in the course toolbar and thus to view the course from different course roles.
@@ -78,7 +78,7 @@ course (version a) or b)) is the better choice.
 
 ## Groups
 
-Hier sehen Sie die Gruppen des Kurses. You can add, create and remove groups from the OpenOlat course, as well
+Here you can see the groups of the course. You can add, create and remove groups from the OpenOlat course, as well
 as display the groups associated with the course in tabular form. 
 
 Clicking on a group name or on "Modify" opens the group itself in a new
@@ -114,17 +114,17 @@ coaches and group participants and the rights groups assigned to the respective 
 Please keep in mind that here no individual rights are granted but rights for certain course tool groups, e.g. access to the course editor with all its integrated
 options or to the complete assessment tool. 
 
-Alle Personen, die in
-die jeweilige Gruppe in der entsprechenden Rolle eingetragen sind erhalten
-dann automatisch die Berechtigung das jeweilige Werkzeug mit allen Optionen
-im gesamten Kurs zu verwenden.
+All persons who are registered in
+are entered in the respective group in the corresponding role will then
+then automatically receive the authorization to use the respective tool with all options
+in the entire course.
 
  Course rights of a group are always bound to a single course.
 
 
 Often, the specific assignment of certain rights, instead of the entry as owner, is already useful or necessary for data protection reasons.
 
-Vergeben Sie diese erweiterten Rechte aber am besten an die _Teilnehmenden_ einer Gruppe nicht an die Betreuer, da damit weitere Berechtigungen verbunden sind. 
+However, it is best to assign these extended rights to the _participants_ of a group not to the coach, as this involves additional permissions. 
 
 !!! Warning "Attention"
 
@@ -135,7 +135,7 @@ Group coaches always have access to the assessment tool and can also assess the 
 coaches of a group.
 
 
-### Vergabe zusätzlicher Rechte ###
+### Assignment of additional rights ###
 
 The following course rights can be assigned to individual user groups:
 
