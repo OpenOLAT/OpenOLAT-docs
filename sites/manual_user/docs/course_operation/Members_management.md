@@ -18,11 +18,7 @@ course, which is helpful for many participants.
 Select the columns that are relevant for you via the Zahnrad menu and sort the
 list according to your wishes.
 
-<<<<<<< Updated upstream
-### User information bearbeiten
-=======
 **Edit user information**
->>>>>>> Stashed changes
 
 If you select a person from the list, you will get further information about
 this person, e.g. information about the person's attendance behavior, which
