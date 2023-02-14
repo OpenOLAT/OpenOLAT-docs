@@ -13,7 +13,7 @@ The scope of rubrics is wide. In OpenOlat, rubrics can be used, for example,
 
 * to query the degree of agreement on a question
 
-  ![Rubric Example Radiobutton1](assets/Rubrik_Beispiel1.jpg){ class="shadow lightbox" }
+  ![Rubric Example Radiobutton1](assets/rubric_example1_EN.jpg){ class="shadow lightbox" }
 
 * to query characteristics between two extreme scales
 
