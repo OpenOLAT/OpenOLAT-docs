@@ -19,7 +19,7 @@ e.g. for log files.
 
 ### Questionnaires
 
-Storage of old questionnaires. In der Regel nicht mehr relevant. 
+Storage of old questionnaires. Generally no longer relevant.
 
 ### Surveys
 
@@ -36,11 +36,11 @@ Archived self-tests and questionnaires contain anonymized user data, tests are
 saved personalized and contain all test results. 
 
 
-!!! note "Hinweis"
+!!! note "Note"
 
-    Sollen Testergebnisse als PDF gespeichert werden erfolgt dies im Bewertungswerkzeug oder im Kursrun des gewünschten Test Kursbausteins.
+    If test results are to be saved as a PDF, this is done in the assessment tool or in the course run of the desired test course element.
 
-    ![Test Resultate exportieren](assets/Test_Resultate_exportieren1.png)
+    ![Test Resultate exportieren](assets/Test_Resultate_exportieren1_EN.png)
 
   
 ### Course results
@@ -73,10 +73,10 @@ folder.
 
 ### Topic assignment
 
-Es werden alle Themenvergaben des Kurses angezeigt. Die gewünschten zu
-archivierenden Elemente können ausgewählt und als Zip-Datei gespeichert
-werden. In der Zip-Datei liegen dann die einzelnen ausgewählten Elemente in
-jeweils einem extra Ordner.
+All topic assignments of the course are displayed. The desired elements to be
+to be archived can be selected and saved as a zip file.
+file. In the zip file, the individual selected elements are then located in
+each in an extra folder.
 
 ### Log files
 
@@ -125,18 +125,18 @@ of the people who completed the checklists.
 
 ### Checklists
 
-Es werden alle Checklisten des Kurses aufgelistet. Die gewünschten zu
-archivierenden Checklisten können ausgewählt und als Zip-Datei gespeichert
-werden. Die zip Datei enthält einen Ordner für jede Checkliste. Darin befindet
-sich jeweils eine xlsx Datei, die die Ergebnisse der Personen, die die
-Checklisten ausgefüllt haben enthält.
+All checklists of the course are listed. The desired checklists to be
+checklists to be archived can be selected and saved as a zip file.
+file. The zip file contains a folder for each checklist. In it there is
+xlsx file containing the results of the persons who filled in the checklists.
+who have completed the checklists.
 
 ### Forms
 
-Es werden alle Formulare des Kurses aufgelistet. Die gewünschten Formulare können ausgewählt und als Zip-Datei gespeichert
-werden. Die zip Datei enthält einen Ordner für jedes Formular. Darin befindet
-sich jeweils eine xlsx Datei, die die Formular Antworten der Personen, die die
-das Formular ausgefüllt haben, enthält.
+All forms of the course are listed. The desired forms can be selected and saved as a zip file.
+file. The zip file contains a folder for each form. In it there is
+an xlsx file containing the form answers of the persons who filled in the form.
+have filled in the form.
 
 ### Chat history
 
