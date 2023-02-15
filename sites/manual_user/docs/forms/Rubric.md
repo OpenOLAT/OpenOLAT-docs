@@ -7,29 +7,29 @@ A rubric in OpenOlat is an element of the learning resource "Form". Rubrics are 
 * [course element assessment"](Forms_in_Rubric_Scoring.md)
 * [Portfolio 2.0 template](Forms_in_the_ePortfolio_template.md)
 
-## Einsatzbeispiele für Rubrics
+## Examples of use for Rubrics
 
 The scope of rubrics is wide. In OpenOlat, rubrics can be used, for example,
 
 * to query the degree of agreement on a question
 
-  ![Rubric Example Radiobutton1](assets/rubric_example1_EN.jpg){ class="shadow lightbox" }
+  ![Rubric Example Radiobutton1](assets/rubric_Beispiel1_EN.png){ class="shadow lightbox" }
 
 * to query characteristics between two extreme scales
 
-  ![Rubric Example Slider](assets/Rubrik_Beispiel2.jpg){ class="shadow lightbox" }
+  ![Rubric Example Slider](assets/Rubrik_Beispiel2_EN.png){ class="shadow lightbox" }
   
 * to create a valuation grid for learner actions.
 
-  ![Rubric Example Radiobutton2](assets/Rubrik_Beispiel3.jpg){ class="shadow lightbox" }
+  ![Rubric Example Radiobutton2](assets/Rubrik_Beispiel3_EN.png){ class="shadow lightbox" }
 
   * to have a self-assessment carried out, e.g. of strengths and weaknesses
 
-  ![Rubric example self-assessment](assets/Rubrik_Beispiel4.jpg){ class="shadow lightbox" }
+  ![Rubric example self-assessment](assets/Rubrik_Beispiel4_EN.png){ class="shadow lightbox" }
 
   * to award criteria related points
 
-  ![Rubric Feedback](assets/rubrik_skalentexte.jpg){ class="shadow lightbox" }
+  ![Rubric Feedback](assets/Rubrik_Beispiel5_EN.png){ class="shadow lightbox" }
   
 Rubrics can be added to an OpenOlat form via "Add content" and then configured.
 
@@ -57,7 +57,7 @@ An edited rubric can therefore automatically receive a corresponding number of p
 
 ## Extended Configuration
 
-Mit Klick auf das Zahnrad erscheint das Konfigurationsmenü für das Rubrik und Sie können über die Tabs "Generell" und "Erweitert" das Rubrik differenzierter konfigurieren. 
+By clicking on the cogwheel, the configuration menu for the rubric appears and you can configure the rubric in a more differentiated way using the "General" and "Advanced" tabs. 
 
 If you activate the tab "Extended", the following additional options are available:
 
