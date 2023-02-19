@@ -1,6 +1,6 @@
 # Gruppen erstellen
 
-##  Gruppen im Menü Gruppen erstellen
+**Gruppen im Menü Gruppen erstellen**
 
 Der Menüpunkt „Gruppen“ oben in der Hauptnavigation ist der Einstiegspunkt,
 wenn Sie eine Gruppe erstellen möchten. Klicken Sie auf den Button "Gruppe erstellen", geben Sie Ihrer Gruppe einen Namen. Geben Sie bei Bedarf auch eine Beschreibung sowie die maximale Teilnehmerzahl an und legen Sie fest ob es
@@ -54,8 +54,8 @@ viele andere OpenOlat-Benutzer in die Gruppe einladen.
 ## Gruppen für Kurse erstellen
 
 OpenOlat Autoren haben darüber hinaus auch die Möglichkeit, kursspezifische
-Gruppen direkt im gewünschten Kurs
-[Mitgliederverwaltung](../course_operation/Members_management.de.md) zu erstellen. Dies geschieht
-im Normalfall in der Mitgliederverwaltung eines Kurses im Untermenü "Gruppen.
+Gruppen direkt im gewünschten Kurs 
+zu erstellen. Dies geschieht
+im Normalfall in der [Mitgliederverwaltung](../course_operation/Members_management.de.md) eines Kurses im Untermenü "Gruppen".
 Darüber hinaus können auch im Kurseditor an einigen Stellen Gruppen im jeweiligen Kontext erstellt werden. Hierzu zählen der
 [Einschreibebaustein](../course_elements/Administration_and_Organisation.de.md) und die Gruppenaufgabe. Darüber hinaus können in herkömmlichen Kursen im [Tab Sichtbarkeit oder Zugang](../course_create/General_Configuration_of_Course_Elements.de.md) ebenfalls Gruppen erstellt werden.

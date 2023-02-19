@@ -2,26 +2,26 @@
 
 Eher unerfahrene Kursautoren können Kurse auch mit Hilfe eines Wizards
 erstellen. Hierbei wird eine kleine Auswahl von häufig verwendeten
-Kursbausteinen verwendet. Weitere Bausteine können anschließend noch per
+Kursbausteinen verwendet. Weitere Bausteine können anschliessend noch per
 Kurseditor hinzugefügt werden.
 
-Wählen Sie beim Erstellen des Kurses die Option "Einfacher Kurs". Folgen Sie
-dann dem Assistenten und lassen Sie sich Ihren Kurs einrichten. Sie können ein
+![Kurs mit Assistenten erstellen](assets/Kursassistent_erstellen.png) 
+
+Wählen Sie beim Erstellen des Kurses die Option "Mit Kursassistent erstellen" -> "Einfacher Kurs". Sie können den Kursassistenten für alle drei Kursdesigns bzw. für beide Kurstypen verwenden. 
+
+Folgen Sie dem Assistenten und lassen Sie sich Ihren Kurs einrichten. Sie können ein
 paar häufig verwendete Kursbausteine auswählen, bei Bedarf einen
 Einschreibebaustein für Gruppen konfigurieren, Ihren Kurs in den Katalog
 eintragen und den Zugang sowie die Buchungsmethode konfigurieren.  Das
 Endergebnis könnte wie folgt aussehen:
 
-![](assets/Assi_Ergebnis.png)
+![Ein mit dem Wizard erstellter Kurs](assets/Wizard-Kurs.png)
 
-Ihr Kurs befindet sich nun im [„Autorenbereich“](../authoring/index.de.md) unter „Meine Einträge“. Nun
-sollten Sie weitere Einstellungen im Kurs vornehmen und vor allem die Placebo-
-Infotexte entfernen. sowie die Darstellung der Startseite passend
-konfigurieren, z.B. im Tab "Übersicht" des obersten Bausteins eine Anzeige
-ohne Vorschau wählen.
+Sie finden Ihren Kurs anschließend im [„Autorenbereich“](../authoring/index.de.md) unter "Meine Kurse" sowie unter „Meine Einträge“. Wenn Sie einen OpenOlat Bookmark auf den Kurs setzen erscheint er auch unter "Favoriten". 
 
-Sie können weitere Änderungen jederzeit mit dem Kurseditor durchführen. Erst
-wenn Sie den Kurs auf den Status "veröffentlicht" setzen, wird er für
+Im nächsten Schritt sollten Sie weitere Einstellungen im Kurs vornehmen und vor allem die Placebo-Infotexte entfernen. Gehen Sie auch durch die "Einstellungen" der Administration. 
+
+Sie können weitere Änderungen bezüglich des Kursaufbaus in der linken Navigation jederzeit im Kurseditor durchführen. Erst wenn Sie den Kurs auf den Status "veröffentlicht" setzen, wird er für
 Kursteilnehmende sichtbar.
 
 Die Erstellung von OpenOlat-Kursen ist ziemlich einfach. Der Assistent ist in
