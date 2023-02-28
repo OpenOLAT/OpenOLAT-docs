@@ -13,7 +13,7 @@ Visit the [OpenOlat project homepage](https://www.openolat.com) and the [OpenOla
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC_BY--NC--SA_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/openolat/OpenOlat-docs) 
 [![Twitter Follow](https://img.shields.io/twitter/follow/openolat?style=social)](https://twitter.com/openolat)
-
+[![Mastodon Follow](https://img.shields.io/mastodon/follow/108248790140395927?style=social)](https://mastodon.social/@openolat)
 
 ### Resources:  
 
