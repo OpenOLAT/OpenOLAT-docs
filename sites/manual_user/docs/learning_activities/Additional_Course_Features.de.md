@@ -1,17 +1,8 @@
 # [Zusätzliche Kursfunktionen](Additional_Course_Features.de.md)
-
-Im Kurs stehen Usern eine Reihe von weiteren Kursfunktionen zur Verfügung, die
-der Besitzer des Kurses nach Bedarf ein- und ausschalten kann. So kann eine
-Toolbar mit diversen weiteren Funktionen aktiviert werden. Die Tools sind dann
-entweder über das Menü "Mein Kurs" oder direkt in der Toolbar aufrufbar. In
-der Toolbar sind die Tools unabhängig von bestimmten Freigaben innerhalb der
-Kursstruktur.
+Im Kurs stehen Usern eine Reihe von weiteren Kursfunktionen zur Verfügung, die der Besitzer des Kurses nach Bedarf ein- und ausschalten kann. So kann eine Toolbar mit diversen weiteren Funktionen aktiviert werden. Die Tools sind dann entweder über das Menü "Mein Kurs" oder direkt in der Toolbar aufrufbar. In der Toolbar sind die Tools unabhängig von bestimmten Freigaben innerhalb der Kursstruktur.
 
 ## Menü "Mein Kurs"
-
-Das Dropdown-Menü "Mein Kurs" bietet Zugriff auf personalisierte Bestandteile
-des Kurses. Abhängig von der Konfiguration des Kurses werden eventuell nicht
-alle Einträge angezeigt.
+Das Dropdown-Menü "Mein Kurs" bietet Zugriff auf personalisierte Bestandteile des Kurses. Abhängig von der Konfiguration des Kurses werden eventuell nicht alle Einträge angezeigt.
 
 * Notizen: Hier können Sie kursspezifische Notizen eintragen, die nur Sie als Kursteilnehmer lesen können.
 * Der Leistungsnachweis zeigt Ihre Bewertungen im Kurs in Tabellenform an und gibt, sofern aktiviert, Zugriff auf das Zertifikat des Kurses
