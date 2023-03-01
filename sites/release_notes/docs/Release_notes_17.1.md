@@ -7,7 +7,7 @@
 
 * * *
 
-:material-calendar-month-outline: **Release date: 10/14/2022 • Last update: 10/20/2022**
+:material-calendar-month-outline: **Release date: 10/14/2022 • Last update: 02/24/2023**
 
 * * *
 
@@ -15,7 +15,7 @@ With OpenOlat 17.1 we release our next major release.
 
 In this release, the focus is primarily on numerous optimizations, functional additions and a lot of **UX/Usability**. For example, the construtive feedback has been incorporated into the improvement of the **Catalog 2.0**, the **Task element** has been visually reworked, deadlines are highlighted, a **late submission** is possible and videos can be recorded and uploaded directly in the browser as a solution. In addition, a new **layout component** has been added to the content editor, and new **bulk actions** and an optimized **course creation wizard** are available in the authoring area. The automatic **participant view** for authors and coaches is just one of many improvements in and around courses. The **User Management** has also been cleaned up with a new table, new filter concept and the output of additional data like organizations. The function to **invite external users** has been further expanded, and also **BigBlueButton**, **Zoom** and **Content Package** have been further improved. A further step was made in **Accessibility** and **Gender Neutrality** - these topics will accompany us for a few more releases.
 
-![Features Bugs](assets/170/Features_Improvements_Labels_EN.png)
+![Features Bugs](assets/171/Features_Improvements_Labels_17.1_EN.png)
 
 Since release 17.1, over 70 new features and improvements have been added to OpenOlat. Here you can find the most important new features and changes. In addition, more than 100 bugs have been fixed. The complete list of changes in 17.0 - 17.0.6 can be found [here](Release_notes_17.0.md).
 
@@ -205,5 +205,13 @@ Optimizations from UX and usability point of view were also mainly implemented i
 
 ## More information
 
+* [Jira Release Notes 17.1.9](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=20300)
+* [Jira Release Notes 17.1.8](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=20100)
+* [Jira Release Notes 17.1.7](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=20000)
+* [Jira Release Notes 17.1.6](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=19803)
+* [Jira Release Notes 17.1.5](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=19802)
+* [Jira Release Notes 17.1.4](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=19800)
+* [Jira Release Notes 17.1.3](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=19700)
+* [Jira Release Notes 17.1.2](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=19603)
 * [Jira Release Notes 17.1.1](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=19501)
 * [Jira Release Notes 17.1.0](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=18900)

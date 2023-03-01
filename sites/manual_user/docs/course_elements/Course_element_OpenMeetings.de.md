@@ -1,12 +1,9 @@
 # Kursbaustein OpenMeetings
 
-##
-
 ## Kursbaustein "OpenMeetings"
 
- **Art der Software**|  OpenSource Lizenz Apache 2.0, Serverhosting
-erforderlich  
----|--- 
+OpenMeetings ist eine OpenSource Software. Für die Nutzung in OpenOlat ist ein Serverhosting erforderlich. 
+
 
 ## Tool Spezifisches
 
@@ -22,11 +19,11 @@ Kooperationsräume stehen nicht nur in Kursen, sondern auch in Gruppen zur
 Verfügung. Jeder OpenOlat User kann somit ein eigenes Virtuelles Klassenzimmer
 für Gruppenarbeiten und Kooperationstreffen nutzen.  
 
-!!! info ""
+!!! info
 
     OpenOlat Kursbesitzer und Betreuer sind standardmäßig OpenMeetings Moderatoren.  
   
- !!! note "Link zu weiteren Infos"
+!!! info "Link zu weiteren Infos"
 
     Weitere Informationen zu aktuellen Features finden Sie unter der URL <http://incubator.apache.org/openmeetings>  
   
@@ -66,7 +63,7 @@ bevor die Teilnehmer eines Raums weitere Rechte erhalten können. Wird die
 Option "**Ohne Moderation**" gewählt, erhält der erster User der den Raum betritt
 automatisch Moderationsrechte.
 
-  
+
   
   
 ## Konfiguration im Kursrun (geschlossener Editor)
