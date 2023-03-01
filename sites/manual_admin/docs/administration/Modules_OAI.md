@@ -19,49 +19,49 @@ This is the application interface from which the metadata is retrieved. Differen
 
 The metadata prefixes indicate two different metadata collections:
 
-OpenOlat specific (learning resource URL is included in the title).
+* OpenOlat specific (Learningressource URL is included in the title): _www.yourwebsite.com/oaipmh?verb=listRecords&**metadataprefix=oai_oo**_
 
-https://testing.frentix.com/test9/oaipmh?verb=listRecords&metadataprefix=oai_oo
+* Dublincore metadata: _www.yourwebsite.com/oaipmh?verb=listRecords&**metadataprefix=oai_dc**_
 
-Metadata according to Dublincore: 
 
-https://testing.frentix.com/test9/oaipmh?verb=listRecords&metadataprefix=oai_dc
+The respective XML element in the corresponding metadata collection is described in brackets.
 
-Metadata | OAI OpenOlat | OAI DublinCore
+Metadaten | OAI OpenOlat | OAI DublinCore
 ---------|----------|---------
- identifier | **x** | --
+ identifier | **x** | **x**
  url | **x** | --
- info_url | **x** | --
- title | **x** | **x**
- subject | **x** | --
- displayname| **x** | --
- resource name| **x** | --
- initialauthor| **x** | **x** 
+ info_url | **x** | **x** (source)
+ title | **x** (displayname) | **x**
+ taxonomy | **x** | **x** (subject)
+ resourcename| **x** | --
+ initialauthor| **x** | **x** (creator)
  softkey| **x** | --
  location| **x** | --
- requierements| **x** | --
- credits| **x** | --
- taxonomy| **x** | --
- Allowed to leave| **x** | --
  description| **x** | **x**
  publisher| **x** | **x**
- authors| **x** | --
- date | creationDate | date
- educationType | **x** | --
- resname | **x** | format
- effort | **x** | --
- teaser | **x** | --
+ requirements| **x** | --
+ credits| **x** | --
+ allowtoleave| **x** | --
+ authors | **x** | **x** (contributer)
+ Date |  **x** (creationDate) | **x**
+ r_identifier | **x** | --
+ resname | **x** | **x** (format)
+ expenditureofwork | **x** | --
+ teaser | **x** | **x** (coverage)
  teaserImage | **x** | --
  canDownload | **x** | --
  canCopy | **x** | --
  canReference | **x** | --
  status_published_date | **x** | --
- language | **x** | **x** mainlanguage
- license_name | **x** | --
- licensor | **x** | --
- set | **x** | **x**
+ language  |**x** (mainlanguage) | **x**  
+ license_name | **x** | **x** (rights = + license_licensor)
+ license_licensor | **x** | --
+ sets | **x** | **x**
  deleted | **x** | **x**
 
+## Administration
+
+The module can be switched on under 'Administration-> Modules -> OAI PMH'. It is deactivated by default on every instance. If the module is switched on, the API endpoint, where all published resources are listed via XML, is also available.
 
 ### Identifier Type
 
