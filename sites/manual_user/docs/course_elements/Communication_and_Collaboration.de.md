@@ -60,7 +60,7 @@ Personen mit Moderationsrechten können auch Forumsthemen oder einzelne Beiträg
 Neben dem Kursbaustein "Forum" gibt es auch die Möglichkeit ein zentrales Forum für den gesamten Kurs in der [Kurs Toolbar](../course_operation/Using_Additional_Course_Features.de.md) anzeigen zu lassen. Das bietet sich häufig an, wenn der Kurs nur ein Forum umfasst, das permanent zur Verfügung stehen soll. Hier können jedoch keine weiteren Einstellungen wie Pseudonymisierung oder Vergabe von Moderationsrechten vorgenommen werden.
 
 ## Kursbaustein „Dateidiskussion“ {: #file_dialog}
-![Dateidiskussion Icon](../assets/file_discussion_icon.png)
+![Dateidiskussion Icon](../assets/file_dialog_icon.png)
 
 Der Kursbaustein Dateidiskussion kann als eine Kombination aus Forum und Ordner verstanden werden. Startpunkt ist jedoch anders als bei Foren immer ein hochgeladenes Dokument, das die Diskussionsbasis für die weitere, dem Dokument zugeordnete Forendiskussion bildet. 
 
