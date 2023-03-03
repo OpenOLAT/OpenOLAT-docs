@@ -7,7 +7,7 @@
 
 * * *
 
-:material-calendar-month-outline: **Releasedatum: 14.10.2022 • Letztes Update: 24.02.2023**
+:material-calendar-month-outline: **Releasedatum: 14.10.2022 • Letztes Update: 03.03.2023**
 
 * * *
 
@@ -205,13 +205,14 @@ Auch in der Benutzerverwaltung wurden vor allem Optimierungen aus UX- und Usabil
 
 ## Weitere Informationen
 
-* [Jira Release Notes 17.1.9](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=20300)
-* [Jira Release Notes 17.1.8](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=20100)
-* [Jira Release Notes 17.1.7](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=20000)
-* [Jira Release Notes 17.1.6](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=19803)
-* [Jira Release Notes 17.1.5](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=19802)
-* [Jira Release Notes 17.1.4](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=19800)
-* [Jira Release Notes 17.1.3](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=19700)
-* [Jira Release Notes 17.1.2](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=19603)
-* [Jira Release Notes 17.1.1](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=19501)
-* [Jira Release Notes 17.1.0](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=18900)
+* [Jira Release Notes 17.1.10](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=20400){:target="_blank”}
+* [Jira Release Notes 17.1.9](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=20300){:target="_blank”}
+* [Jira Release Notes 17.1.8](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=20100){:target="_blank”}
+* [Jira Release Notes 17.1.7](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=20000){:target="_blank”}
+* [Jira Release Notes 17.1.6](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=19803){:target="_blank”}
+* [Jira Release Notes 17.1.5](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=19802){:target="_blank”}
+* [Jira Release Notes 17.1.4](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=19800){:target="_blank”}
+* [Jira Release Notes 17.1.3](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=19700){:target="_blank”}
+* [Jira Release Notes 17.1.2](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=19603){:target="_blank”}
+* [Jira Release Notes 17.1.1](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=19501){:target="_blank”}
+* [Jira Release Notes 17.1.0](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=18900){:target="_blank”}

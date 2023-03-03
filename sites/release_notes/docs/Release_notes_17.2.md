@@ -8,7 +8,7 @@
 
 * * *
 
-:material-calendar-month-outline: **Release date: 02/24/2023 • Last update: 02/24/2023**
+:material-calendar-month-outline: **Release date: 02/24/2023 • Last update: 03/03/2023**
 
 * * *
 
@@ -135,6 +135,8 @@ On the overview page at the end of the wizard the performed adjustments can be c
     Source: <https://www.openarchives.org/pmh/>{:target="_blank"}
 
 The integration in OpenOlat makes it possible that the metadata of courses released for this purpose can be forwarded to search engine providers for indexing, or also collected by other service providers. Thus, the course offering can also be published outside of OpenOlat.
+
+[More information in the manual](../manual_admin/administration/Modules_OAI.md){:target="_blank"}
 
 * * *
 

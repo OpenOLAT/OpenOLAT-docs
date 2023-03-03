@@ -8,7 +8,7 @@
 
 * * *
 
-:material-calendar-month-outline: **Releasedatum: 10.02.2023 • Letztes Update: 24.02.2023**
+:material-calendar-month-outline: **Releasedatum: 10.02.2023 • Letztes Update: 03.03.2023**
 
 * * *
 
@@ -134,6 +134,8 @@ Auf der Übersichtsseite am Ende des Wizards können die durchgeführten Anpassu
     Quelle: <https://www.openarchives.org/pmh/>{:target="_blank”}
 
 Die Integration in OpenOlat ermöglicht es, dass die Metadaten von dafür freigegebenen Kursen an Suchmaschinen-Anbieter zur Indexierung weitergeleitet, oder auch von anderen Service Providern gesammelt werden können. Somit kann das Kurs-Angebot auch ausserhalb von OpenOlat veröfentlicht werden.
+
+[Mehr dazu direkt im Handbuch](../manual_admin/administration/Modules_OAI.de.md){:target="_blank"}
 
 * * *
 
