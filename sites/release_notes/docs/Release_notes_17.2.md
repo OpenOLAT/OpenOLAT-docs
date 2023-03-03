@@ -217,9 +217,9 @@ Specifically, it is now possible to define the desired separator (e.g. * : / etc
 
     The following functions have to be activated / configured in the administration after an update to release 17.2:
     
-    * Default course type for the creation of new courses: `Modules > Course` - Selection "With learning path" / "With learning progress" / "Classic"
-    * Separator for gender-sensitive language: `Core Configuration > Languages` - section "Gender-sensitive language"
-    * OAI-PMH standard / SEO for search engine indexing: `Modules > SEO / OAI-PMH metadata` - activate module "OAI-PMH interface" and "Search engine optimization"
+    * [x] Default course type for the creation of new courses: `Modules > Course` - Selection "With learning path" / "With learning progress" / "Classic"
+    * [x] Separator for gender-sensitive language: `Core Configuration > Languages` - section "Gender-sensitive language"
+    * [x] OAI-PMH standard / SEO for search engine indexing: `Modules > SEO / OAI-PMH metadata` - activate module "OAI-PMH interface" and "Search engine optimization"
 
 * * *
 

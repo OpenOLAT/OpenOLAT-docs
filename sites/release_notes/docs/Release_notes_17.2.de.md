@@ -216,9 +216,9 @@ Konkret ist es ab sofort möglich, in der `Administration > Core Konfiguration >
 
     Folgende Funktionen müssen nach einem Update auf Release 17.2 in der Administration aktiviert bzw. konfiguriert werden:
     
-    * Standard-Kurstyp für die Erstellung neuer Kurse: `Module > Kurs` - Auswahl "Mit Lernpfad" / "Mit Lernfortschritt" / "Klassisch"
-    * Trennzeichen für gendergerechte Sprache: `Core Konfiguration > Sprachen` - Abschnitt "Geschlechtergerechte Sprache"
-    * OAI-PMH-Standard / SEO für Suchmaschinen-Indexierung: `Module > SEO / OAI-PMH Metadaten` - Modul "OAI-PMH Schnittstelle" und "Suchmaschinenoptimierung" aktivieren
+    * [x] Standard-Kurstyp für die Erstellung neuer Kurse: `Module > Kurs` - Auswahl "Mit Lernpfad" / "Mit Lernfortschritt" / "Klassisch"
+    * [x] Trennzeichen für gendergerechte Sprache: `Core Konfiguration > Sprachen` - Abschnitt "Geschlechtergerechte Sprache"
+    * [x] OAI-PMH-Standard / SEO für Suchmaschinen-Indexierung: `Module > SEO / OAI-PMH Metadaten` - Modul "OAI-PMH Schnittstelle" und "Suchmaschinenoptimierung" aktivieren
 
 * * *
 
