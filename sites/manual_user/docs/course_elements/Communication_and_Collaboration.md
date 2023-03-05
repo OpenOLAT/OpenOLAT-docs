@@ -147,41 +147,44 @@ participants and coaches. With the creation of the course element there are
 two folders available. On one side this is the drop box where participants can
 upload files for the coaches. On the other side it is the return box where
 coaches can upload files for all participants together or individually.
+Im Prinzip verbergen sich hinter diesem Kursbaustein zwei (Kursbaustein) Ordner einmal mit Schreibberechtigung und einmal ohne, die jedoch nur für Betreuende und einen einzelnen Teilnehmer sichtbar sind. 
+
+!!! info
+
+    A similar configuration of file delivery + file return by coaches can also be     implemented with the [course element "Task",](../task/index.md) only that the possibilities of the task element are much more comprehensive and complex and here also an evaluation or allocation of points can be made.
 
 ### Folder settings
 
 In the folder settings configurations for the drop box and the return box can
-be made. By default both folders are enabled and delete and override is
-enabled for the participants. For the drop box some more configurations can be
-made.
-
-Delete and override can be unenabled. This means that the participants cannot
-delete any files. Uploaded files stay in the drop box coercively. Further a
-time interval can be defined. The upload in the drop box is only possible in
-this time frame. Out of this time frame files can only be downloaded.
+be made. By default both folders are enabled and delete and override is enabled for the participants. 
 
 If the participant's folder is activated, the participants can upload files or
-create them directly in OpenOlat. If the administrator of the OpenOlat
-instance has activated further document editors, it is also possible to create
+create them directly in OpenOlat. If the administrator of the OpenOlat instance has activated further document editors, it is also possible to create
 further file formats such as Word, Excel or PowerPoint files.
+
+For the drop box some more configurations can be
+made. Delete and override can be unenabled. This means that the participants cannot delete any files. Uploaded files stay in the drop box coercively. Further a time interval can be defined. The upload in the drop box is only possible in this time frame. Out of this time frame files can only be downloaded.
 
 Additionally the number of files can be limited. As soon as this number is
 reached no writing tools are available anymore. This means that uploaded files
 cannot be moved, copied, zipped or unzipped anymore. But they can be deleted,
 if this option is enabled. If desired only the drop box or only the return box
 can be enabled.
-
-Im Tab "Template Einstellungen" können sowohl für den Abgabe- als auch den Rückgabeordner auch Unterordner angelegt und so eine durchgehende Ordner-Struktur angelegt werden. Zum Beispiel könnte ein Rückgabeordner einen Unterordner für inhaltliche Feedbacks und einen für ergänzende Dateien umfassen, oder ein Abgabeordner könnte eine gewisse gewünschte Struktur für die Abgaben widerspiegeln. 
   
 
 !!! warning "Attention"
 
     As for all upload areas, there is a memory limit for the participant folder. The file upload limits set by the administrator and the entire folder limit are displayed when you try to upload a file.
 
-A similar configuration of file delivery + file return by coaches can also be
-implemented with the [course element "Task",](../task/index.md) only that the possibilities of the
-task element are much more comprehensive and complex and here also an
-evaluation or allocation of points can be made.
+
+### Tab Template Einstellungen
+
+Im Tab "Template Einstellungen" können sowohl für den Abgabe- als auch den Rückgabeordner Unterordner angelegt und so eine durchgehende Ordner-Struktur für alle Teilnehmenden angelegt werden. Zum Beispiel könnte ein Rückgabeordner einen Unterordner für inhaltliche Feedbacks und einen für ergänzende Dateien umfassen, oder ein Abgabeordner könnte eine gewisse gewünschte Struktur für die Abgaben widerspiegeln. 
+
+!!! warning "Achtung"
+
+    Die hier angelegten Unterordner können später nicht umbenannt werden. Lediglich ein löschen und neuanlegen ist möglich. Im Kursrun werden beim Versuch diese Unterordner umzubenennen Kopien der Unterordner mit neuem Namen erstellt.
+
 
 ##  Course Element: Participant list {: #participant_list}
 
@@ -213,7 +216,9 @@ Finally it can be defined, who is allowed to download the participant list as
 Excel or to print it. Again it is differentiated between coach and owner or
 all users.
 
-  
+!!! info 
+
+    In der Toolbar steht mit dem Werkzeug "Liste der Teilnehmer*innen" eine ähnliche Funktion zur Verfügung. Allerdings können hier keine weitere Konfigurationen vorgenommen werden.   
 
   
 
