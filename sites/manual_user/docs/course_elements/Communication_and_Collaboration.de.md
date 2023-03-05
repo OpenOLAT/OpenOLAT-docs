@@ -62,9 +62,6 @@ von den Lernenden erwünscht sind.
     Empfehlen Sie den Kursteilnehmenden, das Forum zu abonnieren, um bei neuen Beiträgen benachrichtigt zu werden.
 
 
-!!! tip "Tipp"
-
-    Alternativ zum Kursbaustein Forum kann auch das Forum in der Toolbar verwendet werden. Das bietet sich dann an, wenn ein Forum für den gesamten Kurs ausreichend ist und dies permanent zur Verfügung stehen soll. 
 
 ### Tab Konfiguration
 
@@ -121,18 +118,17 @@ Toolbar](../course_operation/Using_Additional_Course_Features.de.md) anzeigen zu
 Hier können jedoch keine weiteren Einstellungen wie Pseudonymisierung oder
 Vergabe von Moderationsrechten vorgenommen werden.
 
-  
 
 ## Kursbaustein „Dateidiskussion“ {: #file_dialog}
 
 ![Dateidiskussion.png](assets/file_discussion.png)
 
 Der Kursbaustein Dateidiskussion kann als eine Kombination aus Forum und
-Ordner verstanden werden. Startpunkt ist jedoch anders als bei Foren immer ein hochgeladenes Dokument, das die Diskussionsbasis für die weitere, dem Dokument zugeordnete Forendiskussion bildet. 
+Ordner verstanden werden. Startpunkt ist jedoch anders als bei Foren immer ein hochgeladenes Dokument, das die Diskussionsbasis für die weitere, dem Dokument zugeordnete Forendiskussion, bildet. 
 
 Setzen Sie die Dateidiskussion beispielsweise ein, wenn Sie  möchten, dass Ihre Lernenden sich gezielt zu einem Artikel, eine Grafik oder einen sonstigen Text äussern und die Inhalte diskutieren sollen. 
 
-Sowohl bei geschlossenem Editor als auch bei geöffneten (im Tab „ **Dateien**
+Sowohl bei geschlossenem Editor als auch bei geöffneten (im Tab „**Dateien**
 “) ist es möglich, mit einem Klick auf „Datei hochladen“, Dokumente in die
 Ablage der Dateidiskussion hochzuladen, die anschliessend von allen
 Kursteilnehmenden angesehen und heruntergeladen werden können. Das zugehörige
@@ -154,12 +150,20 @@ Kurseditor in den Benutzerberechtigungen des Tabs "Konfiguration" definiert.
 
 ![Ordner Icon.png](assets/pfolder_434343_64.png)
 
-Der Kursbaustein "Teilnehmer Ordner" ermöglicht einen Dateiaustausch zwischen
+Der Kursbaustein "Teilnehmer Ordner" ermöglicht einen Dateiaustausch zwischen einzelnen
 Teilnehmenden und Betreuenden. Dafür stehen zwei Ordner zur Verfügung. Zum
 einen ist dies der "Teilnehmer Abgabeorder", über den Teilnehmende Dateien an
 Betreuer abgeben können. Zum anderen der "Betreuer Rückgabeorder", in welchem
 die Betreuer Dateien an alle Teilnehmer gleichzeitig oder individuell
-zurückgeben können.
+zurückgeben können. Im Prinzip verbergen sich hinter diesem Kursbaustein zwei (Kursbaustein) Ordner einmal mit Schreibberechtigung und einmal ohne, die jedoch nur für Betreuende und einen einzelnen Teilnehmer sichtbar sind. 
+
+!!! info "Hinweis"
+
+    Eine ähnliche Konfiguration der Abgabe von Dateien + Dateirückgabe durch
+    Betreuer kann auch mit dem [Kursbaustein "Aufgabe"](../task/index.de.md)
+    umgesetzt werden, nur dass die Möglichkeiten des Aufgabenbausteins deutlich
+    umfangreicher und komplexer sind und hier auch eine Bewertung bzw. Punktevergabe
+    vorgenommen werden kann.
 
 ### Tab "Ordner Einstellungen"
 
@@ -168,18 +172,11 @@ Abgabe- und Rückgabeordner vorgenommen werden. Standardmässig sind beide
 Ordner aktiviert und das Löschen und Überschreiben von Dateien ist den
 Teilnehmenden gestattet.
 
-Ist der Teilnehmer Abgabeordner aktiviert, können die Teilnehmenden Dateien
-hochladen oder direkt in OpenOlat erstellen. Wurden vom Administrator der
-OpenOlat Instanz weitere Dokumenteneditoren aktiviert, ist auch die Erstellung
-von weiteren Dateiformaten wie Word, Excel oder PowerPoint Dateien möglich.
+Ist der Teilnehmer Abgabeordner aktiviert, können die Teilnehmenden Dateien hochladen oder direkt in OpenOlat erstellen. Wurden vom Administrator der OpenOlat Instanz weitere Dokumenteneditoren aktiviert, ist auch die Erstellung von weiteren Dateiformaten wie Word, Excel oder PowerPoint Dateien möglich.
 
-Für den Teilnehmer Abgabeordner können auch weitere Konfigurationen
-vorgenommen werden. So können das Löschen und Überschreiben deaktiviert
-werden. Dies bedeutet, dass die Teilnehmer keine Dokumente mehr löschen können
-sobald sie diese hochgeladen bzw. erstellt haben. Alle Dokumente bleiben
-zwingend im Abgabeordner. Weiter kann ein Zeitfenster für die Abgabe
-festgelegt werden. Die Abgabe ist nur in diesem Zeitraum möglich. Ausserhalb
-des Zeitraumes können Dokumente nur heruntergeladen werden.
+Für den Teilnehmer Abgabeordner können weitere Konfigurationen
+vorgenommen werden. So können das Löschen und Überschreiben deaktiviert werden. Dies bedeutet, dass die Teilnehmer keine Dokumente mehr löschen können
+sobald sie diese hochgeladen bzw. erstellt haben. Alle Dokumente bleiben zwingend im Abgabeordner. Weiter kann ein Zeitfenster für die Abgabe festgelegt werden, so dass die Abgabe nur in diesem Zeitraum möglich ist. Ausserhalb des Zeitraumes können Dokumente aber noch heruntergeladen werden.
 
 Zudem kann die Anzahl Dokumente, welche abgegeben werden können, eingeschränkt
 werden. Sobald diese Zahl erreicht ist, stehen keine Schreibwerkzeuge mehr zur
@@ -187,17 +184,19 @@ Verfügung. Das heisst, die Dokumente können nicht mehr verschoben, kopiert,
 gezippt oder entzippt werden. Sie können jedoch weiterhin gelöscht werden. Falls gewünscht kann auch nur der Abgabe-
 oder nur der Rückgabeordner aktiviert werden.
 
-Im Tab "Template Einstellungen" können sowohl für den Abgabe- als auch den Rückgabeordner auch Unterordner angelegt und so eine durchgehende Ordner-Struktur angelegt werden. Zum Beispiel könnte ein Rückgabeordner einen Unterordner für inhaltliche Feedbacks und einen für ergänzende Dateien umfassen, oder ein Abgabeordner könnte eine gewisse gewünschte Struktur für die Abgaben widerspiegeln. 
-
 !!! warning "Achtung"
 
     Für den Teilnehmer Ordner existiert wie für alle Upload Bereiche eine Speicherbegrenzung. Die vom Administrator eingestellte Begrenzungen für den Upload der Datei und die Begrenzung des gesamten Ordners wird angezeigt, wenn man versucht eine Datei hochzuladen.
 
-Eine ähnliche Konfiguration der Abgabe von Dateien + Dateirückgabe durch
-Betreuer kann auch mit dem [Kursbaustein "Aufgabe"](../task/index.de.md)
-umgesetzt werden, nur dass die Möglichkeiten des Aufgabenbausteins deutlich
-umfassender und komplexer sind und hier auch eine Bewertung bzw. Punktevergabe
-vorgenommen werden kann.
+### Tab Template Einstellungen
+
+Im Tab "Template Einstellungen" können sowohl für den Abgabe- als auch den Rückgabeordner Unterordner angelegt und so eine durchgehende Ordner-Struktur für alle Teilnehmenden angelegt werden. Zum Beispiel könnte ein Rückgabeordner einen Unterordner für inhaltliche Feedbacks und einen für ergänzende Dateien umfassen, oder ein Abgabeordner könnte eine gewisse gewünschte Struktur für die Abgaben widerspiegeln. 
+
+!!! warning "Achtung"
+
+    Die hier angelegten Unterordner können später nicht umbenannt werden. Lediglich ein löschen und neuanlegen ist möglich. Im Kursrun werden beim Versuch diese Unterordner umzubenennen Kopien der Unterordner mit neuem Namen erstellt.
+
+
 
 ## Kursbaustein „Teilnehmerliste“  {: #participant_list}
 
@@ -213,11 +212,11 @@ mit Foto nach ihrer "höchsten" Rolle aufgelistet. In der Konfiguration können
 Sie festlegen, welche Benutzergruppen in der Teilnehmerliste angezeigt werden
 sollen.
 
-![Teilnehmerliste Konfiguration.png](assets/teilnehmerliste_konfig_DE.png)
+![Teilnehmerliste Konfiguration.png](assets/Teilnehmerliste_Editor.png)
 
 Durch die Verlinkung auf die OpenOlat-Visitenkarte sowie der Möglichkeit aus
 dem Kursbaustein heraus eine OpenOlat-Mail an jedes gewünschte Mitglied des
-Kurses zu schreiben, ermöglicht dieser Kursbaustein weitere Kursteilnehmer
+Kurses zu schreiben, ermöglicht dieser Kursbaustein weitere Kursteilnehmende
 einfach und problemlos zu kontaktieren. Im Kurseditor können Sie festlegen ob
 die E-Mailfunktion für alle Teilnehmer oder nur für Besitzer und Betreuer
 verfügbar sein soll. Mails an einzelne oder mehrere Personen(-gruppen) werden
@@ -232,4 +231,8 @@ Messenger).
 Zum Schluss kann definiert werden, wer die Teilnehmerliste als Excel
 herunterladen oder als Übersicht ausdrucken darf. Wiederum wird unterschieden
 zwischen Betreuer und Administrator oder allen Benutzern.
+
+!!! info 
+
+    In der Toolbar steht mit dem Werkzeug "Liste der Teilnehmer*innen" eine ähnliche Funktion zur Verfügung. Allerdings können hier keine weitere Konfigurationen vorgenommen werden. 
 
