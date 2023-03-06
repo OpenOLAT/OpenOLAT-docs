@@ -118,11 +118,11 @@ If this checkbox is selected, the result will be displayed when the test is fini
 
 From the following options, you can select the ones you want to display.
 
-* Test Summary: The metadata of the entire test is displayed as a summary (including points and passed/failed).
-* Section Summary: The section's metadata is displayed as a summary.
-* Question Summary: The metadata of each question is displayed.
-* Answer, submitted by participant: Only the participant's answer is displayed, not the question.
-* Solution: Only the correct solution is displayed, but no question. If a correct solution is stored in the Feedback tab, it will also be displayed in the result view with this option.
+* **Test Summary**: The metadata of the entire test is displayed as a summary (including points and passed/failed).
+* **Section Summary**: The section's metadata is displayed as a summary.
+* **Question Summary**: The metadata of each question is displayed.
+* **Answer, submitted by participant**: The question is displayed together with the participant's answer.
+* **Solution**: The question is displayed together with the correct solution. If a correct solution is stored in the Feedback tab, it will also be displayed in the result view with this option.
 
 ![Result report](assets/Resultreport.png){ class="shadow" }
   
