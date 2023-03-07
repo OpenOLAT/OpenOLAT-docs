@@ -128,8 +128,8 @@ Aus den folgenden Optionen können diejenigen ausgewählt werden, welche Sie anz
 * **Testzusammenfassung** : Die Metadaten des gesamten Tests werden als Zusammenfassung angezeigt (inkl. Punkte und Bestanden/Nicht bestanden).
 * **Sektionszusammenfassung** : Die Metadaten der Sektion werden als Zusammenfassung angezeigt.
 * **Fragezusammenfassung** : Die Metadaten jeder einzelnen Frage werden angezeigt.
-* **Antwort, vom Teilnehmer abgegeben** : Es wird nur die Antwort des Teilnehmers angezeigt, jedoch keine Fragestellung.
-* **Lösung** : Es wird nur die korrekte Lösung angezeigt, jedoch keine Fragestellung. Wenn im Tab Feedback eine korrekte Lösung hinterlegt ist, wird diese in der Resultatansicht mit dieser Option auch angezeigt.
+* **Antwort, vom Teilnehmer abgegeben** : Es wird die Fragestellung zusammen mit der Antwort des Teilnehmenden angezeigt.
+* **Lösung** : Es wird die Fragestellung zusammen mit der korrekten Lösung angezeigt. Wenn im Tab Feedback eine korrekte Lösung hinterlegt ist, wird diese in der Resultatansicht mit dieser Option auch angezeigt.
 
     ![Resultate Report](assets/Resultreport_DE.png){ class="shadow" }
 
