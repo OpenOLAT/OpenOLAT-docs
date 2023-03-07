@@ -41,7 +41,7 @@ Hier finden Sie eine Übersicht über die Rechte des Betreuers.
 | --- | --- | --- |
 | Wiki| bearbeiten = TN|  |  
 | Forum| bearbeiten = Diskussionsthemen eröffnen, bearbeiten, Beiträge löschen, Personenfilter, aber keine Foren erstellen |  |   
-| Dateidiskussion| Dateien: hochladen aber nicht aus dem [Ablageordner](../course_operation/Using_Course_Tools.de.md) (=„Datei kopieren“); Forenteil wie Kursbaustein Forum  |  |   
+| Dateidiskussion| Dateien: hochladen aber nicht aus dem [Ablageordner](../course_operation/Storage_folder.de.md); Forenteil wie Kursbaustein Forum  |  |   
 | [Teilnehmer Ordner](../course_elements/Communication_and_Collaboration.de.md)|  | Zugriff auf alle Abgabeordner; Rückgabeordner, wenn aktiviert  |
 | Teilnehmerliste | Download, E-Mail und Drucken |  |   
 | Virtuelles Klassenzimmer | Moderation im VC (Unterschiede je nach VC)|  |

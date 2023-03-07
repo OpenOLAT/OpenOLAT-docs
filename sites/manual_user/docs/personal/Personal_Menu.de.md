@@ -163,15 +163,11 @@ Ein Portfolio dient der Sammlung und Dokumentation von (Lern-)Artefakten,
 Lernergebnissen und Lernprozessen sowie zur Förderung der Reflexion über den
 eigenen Entwicklungsprozess. Lernprodukte können hier gesammelt und bei Bedarf
 bestimmten Personen zugänglich gemacht werden. Unter dem Menueintrag Portfolio
-2.0 können Sie [Portfolio-Sammelmappen
-erstellen](../display/OO161DE/Portfolio+erstellen.html), diese bestimmten
-Personen (OpenOlat-Benutzern sowie Externen) [zugänglich
-machen](../portfolio/Shared_by_me.de.md), die Mappen anderer
+2.0 können Sie Portfolio-Mappen erstellen, diese bestimmten
+Personen (OpenOlat-Benutzern sowie Externen) [zugänglich machen](../portfolio/Shared_by_me.de.md), die Mappen anderer
 Benutzer [betrachten ](../portfolio/Shared_with_me.de.md)und auch
-[Portfolioaufgaben
-](../portfolio/Portfolio_task_and_assignment_Collecting_and_editing.de.md)die
-Lehrende im Rahmen eines OpenOlat-Kurses  bereitgestellt haben, bearbeiten.
-Weitere Informationen dazu finden Sie unter
+[Portfolioaufgaben](../portfolio/Portfolio_task_and_assignment_Collecting_and_editing.de.md)die Lehrende im Rahmen eines OpenOlat-Kurses  bereitgestellt haben, bearbeiten.
+Weitere Informationen zum Thema dazu finden Sie 
 [hier](../portfolio/Portfolio_-_General_Information.de.md).  
 
   

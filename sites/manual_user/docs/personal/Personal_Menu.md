@@ -142,12 +142,10 @@ recorded for them at this point.
 ##  Portfolio 2.0
 
 A Portfolio is used to document learning results as well as learning processes
-and is therefore meant to assist in reflecting on someone's process of
-development. The menu entry Portfolio 2.0 serves to create binders of
-portfolios before making those accessible to certain people (OpenOlat users as
-well as external people). You can also have a look at other users' portfolios
-or perform portfolio tasks of an OpenOlat course. Further information you fin
-in [creating portfolio](Creating+Portfolios.html)s.
+and is therefore meant to assist in reflecting on someone's process of development. Lernprodukte können hier gesammelt und bei Bedarf bestimmten Personen zugänglich gemacht werden.  The menu entry Portfolio 2.0 serves to create binders of portfolios before making those accessible to certain people (OpenOlat users as well as external people). You can also have a look at other users' portfolios
+or perform portfolio tasks of an OpenOlat course. 
+
+Further information you find [here](../portfolio/Portfolio_-_General_Information.md).  
 
  What's a reflection?
 

@@ -74,7 +74,6 @@ Here you can set the user rights of the module and define which course roles are
 ##  Course Element: Participant folder {: #participant_folder}
 ![Participant folder icon](../assets/participant_folder_icon.png)
 
-![folder icon.png](assets/pfolder_434343_64.png)
 
 The course element "Participant folder" allows you to exchange files between
 participants and coaches. With the creation of the course element there are
@@ -123,8 +122,6 @@ In the participant list, the members of the course can be made visible to everyo
 
 ![Configuration options for paricipant list](assets/participant_list_config.png){ class="shadow" }
 
-![paricipant list configuration.png](assets/participantlist_config_EN.png)
-
 By linking the member names to their OpenOlat visiting card as well as the
 OpenOlat mail service, this course element facilitates contacting your fellow
 course members directly from within the course. In the course editor you can
@@ -146,7 +143,6 @@ all users.
     In der Toolbar steht mit dem Werkzeug "Liste der Teilnehmer*innen" eine ähnliche Funktion zur Verfügung. Allerdings können hier keine weitere Konfigurationen vorgenommen werden.   
 
   
-
 
 By linking the member names to their OpenOlat visiting card as well as the OpenOlat mail service, this course element facilitates contacting your fellow course members directly from within the course. In the course editor you can determine whether the e-mail function should be available for all course participants or just for course owners and coaches. Use the "Send e-mail" button in the course view to send mails to multiple user (groups). If required, external mail addresses can also be added.
 

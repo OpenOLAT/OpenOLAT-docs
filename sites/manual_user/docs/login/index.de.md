@@ -20,7 +20,6 @@ an den lokalen OpenOlat Support Ihrer Organisation.
 
 Nach erfolgreicher Registrierung wird die vom Systemadministrator festgelegte
 Startseite angezeigt. Diese kann je nach System unterschiedlich sein und auch
-noch mal für OpenOlat Autoren und Benutzer variieren. Unter
-[Einstellungen](../personal/Configuration.de.md#Konfiguration-_einstellungen) finden Sie
+noch mal für OpenOlat Autoren und Benutzer variieren. [Hier](../personal/Configuration.de.md#Konfiguration-_einstellungen) finden Sie
 Informationen dazu wie Sie ihre persönliche Startseite festlegen können.
 

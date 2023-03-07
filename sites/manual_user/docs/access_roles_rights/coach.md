@@ -41,7 +41,7 @@ Here you will find an overview of the rights of the coach.
 | -------------- | --------------------------- | -------------------------------- |
 | Wiki| edit = participant|  | 
 | Forum| edit = open discussion topics, edit, delete posts, filter user, but do not create forums |  | 
-| File dialog | files: upload but not from the [storage folder](../course_operation/Using_Course_Tools.md) (="copy file"); forum part like course element "Forum" |  | 
+| File dialog | files: upload but not from the [storage folder](../course_operation/Storage_folder.md); forum part like course element "Forum" |  | 
 | Participant folder |   | access to all delivery folders; return folder, if enabled  | 
 | Participant list| download, email and print|  | 
 | Virtual Classrooms| moderation in VC (differences depending on VC)|  | 
