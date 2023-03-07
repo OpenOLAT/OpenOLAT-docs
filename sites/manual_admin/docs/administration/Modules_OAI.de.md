@@ -13,15 +13,13 @@ Der Zweck des "Open Archives Initiative - Protocol for Metadata Harvesting" (OAI
 
 Die Metadatenprefixe zeigen sind zwei verschiedene Metadatensammlungen an:
 
-OpenOlat spezifisch (Learningressource URL ist im Titel enthalten)
+* OpenOlat spezifisch (Learningressource URL ist im Titel enthalten): _www.yourwebsite.com/oaipmh?verb=listRecords&**metadataprefix=oai_oo**_
 
-https://testing.frentix.com/test9/oaipmh?verb=listRecords&metadataprefix=oai_oo
+* Metadaten nach Dublincore: _www.yourwebsite.com/oaipmh?verb=listRecords&**metadataprefix=oai_dc**_
 
-Metadaten nach Dublincore: 
 
-https://testing.frentix.com/test9/oaipmh?verb=listRecords&metadataprefix=oai_dc
+In Klammern ist das jeweilige XML Element in der passenden Metadatensammlung beschrieben.
 
-In Klammern das jeweilige XML Element, wie es dort heisst.
 Metadaten | OAI OpenOlat | OAI DublinCore
 ---------|----------|---------
  identifier | **x** | **x**
