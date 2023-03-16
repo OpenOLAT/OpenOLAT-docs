@@ -176,9 +176,16 @@ You should get the postgresql client prompt after providing your password.
 
 ### Create DB schema
 
-Now create the `openolat` database schema, as user `openolat`:
+The database schema is created automatically when starting OpenOlat the first time. If you want to have 
+more control over the process you can setup it yourself: 
+
+Create the `openolat` database schema, as user `openolat`:
 
 	oodb=> \i /home/openolat/webapp/WEB-INF/classes/database/postgresql/setupDatabase.sql
+
+!!! note
+	As of 17.2.2 the database files are not in the compiled war file anymore as all files in the classes directory are delivered in a jar. 
+	You can unpack the `openolat/WEB-INF/lib/openolat-lms-xx.x-SNAPSHOT` file to find the files or download it from GitHub. 
 
 ### Optionally 
 
