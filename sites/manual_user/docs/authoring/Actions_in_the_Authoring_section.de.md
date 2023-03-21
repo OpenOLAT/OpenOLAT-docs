@@ -167,7 +167,7 @@ E-Mailbenachrichtigungsoption schliesst die Bearbeitung ab.
 
 ### Metadaten und Einstellungen
 
-Hier können auf einen Schlag diverse Metadaten für die ausgewählten Lernressourcen vereinheitlich werden, z.B. wenn mehrere Kurse zu einer Weiterbildungsreihe gehören. 
+Hier können mittel Sammelaktion verschiedene Metadaten für die ausgewählten Lernressourcen vereinheitlich werden, z.B. wenn mehrere Kurse zu einer Weiterbildungsreihe gehören. Bei Klick öffnet sich ein Wizard.
 
 So kann für alle markierten Lernressourcen der angezeigte Name unter "Durchführung mit" eingetragen, das Durchführungsformat z.B. "Prüfungskurs" ausgewählt, Sprache und Zeitaufwand definiert sowie eine passende Lizenz für die Lernressourcen gewählt werden.
 

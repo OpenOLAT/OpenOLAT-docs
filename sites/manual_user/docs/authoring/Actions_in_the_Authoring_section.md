@@ -151,8 +151,8 @@ selecting the checkboxes on the left. A wizard opens. Now it can be defined to w
     authors. This means you do not need to be a member of this certain course to
     use this feature.
 
-### Status ändern
-Wählen Sie den Veröffentlichungsstatus aus der für alle ausgewählten Lernressourcen gelten soll und klicken Sie auf "Ändern".  
+### Change status
+Select the publication status that should apply to all selected learning resources and click on "Change".
 
 ### Modify owners
 
@@ -160,15 +160,16 @@ Here you will see the owners of the selected learning resources and you can
 remove them from several courses at once or add new owners to the selected
 learning resources. An email notification option completes the editing.
 
-### Metadaten und Einstellungen
+### Metadata and settings
 
-Hier können auf einen Schlag diverse Metadaten für die ausgewählten Lernressourcen vereinheitlich werden, z.B. wenn mehrere Kurse zu einer Weiterbildungsreihe gehören. 
+Various metadata for the selected learning resources can be standardised here with bulk actions, e.g. if several courses belong to a continuing education series.
 
-So kann für alle markierten Lernressourcen der angezeigte Name unter "Durchführung mit" eingetragen, das Durchführungsformat z.B. "Prüfungskurs" ausgewählt, Sprache und Zeitaufwand definiert sowie eine passende Lizenz für die Lernressourcen gewählt werden.
+For all marked learning resources, the displayed name can be entered under "Delivery with", the delivery format, e.g. "Examination course", can be selected, language and time required can be defined and a suitable licence for the learning resources can be selected.
 
-Weiter können ein passender Fachbereich und die gewünschte Organisation für die Lernressourcen gewählt, zusätzliche Rechte für alle anderen Autoren vergeben sowie ein einheitlicher Durchführungszeitraum und Ort angegeben werden.
+Furthermore, a suitable subject area and the desired organisation for the learning resources can be selected, additional rights for all other authors can be assigned and a uniform implementation period and location can be specified.
 
-Bei Kursen besteht darüber hinaus auch die Möglichkeit eine einheitliche Auswahl für die Tools der Toolbar zu treffen. 
+For courses, it is also possible to make a uniform selection for the tools in the toolbar.
+
 
 ### Copy
 
