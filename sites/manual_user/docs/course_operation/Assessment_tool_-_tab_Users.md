@@ -9,7 +9,7 @@ On the far left you will see the course structure with all assessable course
 elements. Here you can navigate directly to one of the elements to make your assessment. 
 For each course element, a tab with the "Overview" and a tab with the "Participants" are displayed. 
 
-![Assessment tool participant overview](assets/Bewertungswerkzeug_Teilnehmer_172.png)
+![Assessment tool participant overview](assets/participant_overview_test_en.png)
 
 The exact procedure is described in the chapters [Assessing participants](../course_operation/Assessment_of_learners.md) and [Assessment of course elements](../course_operation/Assessment_of_course_modules.md).
 
@@ -38,17 +38,14 @@ Set up the columns as it makes sense for your context and check in the settings 
 
 Here are examples of selectable column with the gear: 
 
-![](assets/Bewertungswerkzeug_Struktur_Spalte_172.png)
+![](assets/assessment_tool_colums_test_en.png)
 
 Course element "Structure"
 
-![](assets/Bewertungswerkzeug_test_Spalte_172.png)
+![](assets/assessment_tool_colums_structure_en.png)
 
 Course element "Test"
 
-![](assets/Bewertungswerkzeug_aufgabe_Spalte_172.png)
-
-Course element "Task"  
   
 ### Activate further options
 
