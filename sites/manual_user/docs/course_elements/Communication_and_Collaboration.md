@@ -98,7 +98,7 @@ be made. By default both folders are enabled and delete and override is enabled 
 
 Additionally the number of files can be limited. As soon as this number is reached no writing tools are available anymore. This means that uploaded files cannot be moved, copied, zipped or unzipped anymore. But they can be deleted, if this option is enabled. If desired only the drop box or only the return box can be enabled.
 
-Im Tab "Template Einstellungen" können sowohl für den Abgabe- als auch den Rückgabeordner auch Unterordner angelegt und so eine durchgehende Ordner-Struktur angelegt werden. Zum Beispiel könnte ein Rückgabeordner einen Unterordner für inhaltliche Feedbacks und einen für ergänzende Dateien umfassen, oder ein Abgabeordner könnte eine gewisse gewünschte Struktur für die Abgaben widerspiegeln. 
+In the Template Settings tab, subfolders can also be created for both the Submission and Return folders to create a continuous folder structure. For example, a return folder could include a subfolder for content feedback and one for supplemental files, or a submission folder could reflect some desired structure for the submissions. 
   
 
 !!! warning "Attention"
@@ -108,11 +108,11 @@ Im Tab "Template Einstellungen" können sowohl für den Abgabe- als auch den Rü
 
 ### Tab Template Einstellungen
 
-Im Tab "Template Einstellungen" können sowohl für den Abgabe- als auch den Rückgabeordner Unterordner angelegt und so eine durchgehende Ordner-Struktur für alle Teilnehmenden angelegt werden. Zum Beispiel könnte ein Rückgabeordner einen Unterordner für inhaltliche Feedbacks und einen für ergänzende Dateien umfassen, oder ein Abgabeordner könnte eine gewisse gewünschte Struktur für die Abgaben widerspiegeln. 
+In the Template Settings tab, subfolders can be created for both the submission folder and the return folder, creating a continuous folder structure for all participants. For example, a return folder could include a subfolder for content feedback and one for supplemental files, or a submission folder could reflect some desired structure for the submissions. 
 
-!!! warning "Achtung"
+!!! warning 
 
-    Die hier angelegten Unterordner können später nicht umbenannt werden. Lediglich ein löschen und neuanlegen ist möglich. Im Kursrun werden beim Versuch diese Unterordner umzubenennen Kopien der Unterordner mit neuem Namen erstellt.
+    The subfolders created here cannot be renamed later. Only a deletion and a new creation is possible. In the course run, when you try to rename these subfolders, copies of the subfolders with new names will be created.
 
 
 ##  Course Element: Participant list {: #participant_list}
@@ -140,7 +140,7 @@ all users.
 
 !!! info 
 
-    In der Toolbar steht mit dem Werkzeug "Liste der Teilnehmer*innen" eine ähnliche Funktion zur Verfügung. Allerdings können hier keine weitere Konfigurationen vorgenommen werden.   
+    A similar function is available in the toolbar with the "List of participants" tool. However, no further configurations can be made here.   
 
   
 
