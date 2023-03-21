@@ -7,13 +7,15 @@ task, this test, and so on.
 
 On the far left you will see the course structure with all assessable course
 elements. Here you can navigate directly to one of the elements to make your assessment. 
-Für jeden Kursbaustein wird ein Tab mit der "Übersicht" und ein Tab mit den "Teilnehmern" angezeigt. 
+For each course element, a tab with the "Overview" and a tab with the "Participants" are displayed. 
 
-![Bewertungswerkzeug Teilnehmer Übersicht](assets/Bewertungswerkzeug_Teilnehmer_172.png)
+![Assessment tool participant overview](assets/Bewertungswerkzeug_Teilnehmer_172.png)
 
-Die genaue Vorgehensweise wird den Kapiteln [Lernende bewerten](../course_operation/Assessment_of_learners.de.md) und [Bewertung von Kursbausteinen](../course_operation/Assessment_of_course_modules.de.md) beschrieben.
-## Tab Teilnehmer im Bewertungswerkzeug
-Im Tab Teilnehmer werden alle Kursteilnehmenden aufgelistet die bewertet werden können. 
+The exact procedure is described in the chapters [Assessing participants](../course_operation/Assessment_of_learners.md) and [Assessment of course elements](../course_operation/Assessment_of_course_modules.md).
+
+
+## Participants tab in the assessment tool
+In the tab Participants all course participants are listed that can be evaluated. 
 In addition, specific people, e.g. all those who have not yet "passed" this
 course element, can be displayed in a filtered manner, or specific participant
 names can be searched for.
@@ -21,7 +23,7 @@ names can be searched for.
 
 ### Display and column selection
 
-Die Informationen, die im Tab "Teilnehmer" angezeigt werden, können über die Auswahl der gewünschten Spalten weiter angepasst werden. Klicken Sie hierfür auf das Zahnrad. 
+The information displayed in the "Participants" tab can be further customized by selecting the desired columns. To do this, click on the gear wheel. 
 
 Which table columns are exactly available depends on the course element type
 and the respective configuration. Depending on the selection of the activated
@@ -32,9 +34,9 @@ the last update can also be displayed here.
 Column customization is helpful to get a quick overview. Especially the information about scores, attempts, status and last update is often needed. It
 is best to set up the columns as it makes sense for your context.
 
-Richten Sie sich die Spalten so ein, wie es für Ihren Kontext sinnvoll ist und schauen Sie in den Einstellungen nach ob diese auch aktiviert ist, wenn Sie mal eine Information vermissen.
+Set up the columns as it makes sense for your context and check in the settings if it is also activated when you miss a piece of information.
 
-Hier Beispiele für die Spaltenauswahl per Zahnrad: 
+Here are examples of selectable column with the gear: 
 
 ![](assets/Bewertungswerkzeug_Struktur_Spalte_172.png)
 
@@ -48,7 +50,7 @@ Course element "Test"
 
 Course element "Task"  
   
-### Weitere Optionen aktivieren 
+### Activate further options
 
 After selecting one or more people in an assessment module, further functions
 appear, e.g. the status can be set to completed, visibility can be activated,

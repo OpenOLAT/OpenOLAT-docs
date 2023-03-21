@@ -190,7 +190,7 @@ Any test linked to a course can only be edited in your test-editor as long as
 there are no users launching and taking it. After that only typing errors can
 be corrected.
 
-!!! Attention: 
+!!! attention
 
     In case participants are taking a test at that moment all their
     results will be lost since that test is not complete. All results achieved between replacing and publishing a test will be lost as well.

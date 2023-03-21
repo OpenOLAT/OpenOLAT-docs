@@ -1,6 +1,6 @@
 # Guest access
 
-![Guest login](assets/guestlogin.png){ class="shadow lightbox aside-right-lg" }
+![Guest login](assets/guestlogin_en.png){ class="shadow lightbox aside-right-lg" }
 
 Beside system users a guest access can be enabled. Guests are anonymous, not
 registered users, which cannot be managed in the [user management](../../manual_admin/usermanagement/index.md).
@@ -33,7 +33,7 @@ The following course elements can be seen by guests:
   * **Test**: do it depending on configuration
   * **Self-test**: do it (even if option is not selected)
   * An **BigBlueButton**, **OpenMeetings** u.ä. Meetings teilnehmen
-  * **Umfragen** edit
+  * **Surveys** edit
 
 If you want to give a guest a direct access to a course, you can send him the
 external link for the course. 
