@@ -3,16 +3,16 @@
 Select or create a learning resource of the type "Form" and click on "Edit content" in the administration. The editor opens.
 Hier können Sie ein oder mehrere Layouts wählen und den Bereichen  verschiedene Elemente hinzufügen.
 
-Über den Button "Inhalt hinzufügen" können sie jederzeit verschiedene Elemente hinzufügen. Sobald Sie ein Element erstellt haben, können Sie auch über die 3-Punkte Option über den Link davor/danach hinzufügen weitere Elemente passgenau hinzufügen. 
+You can add various elements at any time using the "Add content" button. Once you have created an element, you can also use the 3-dot option via the Add before/after link to add more elements to fit. 
 
-![Mehr Aktionen](assets/formular_mehr_Aktionen_en.png)){ class="lightbox" }
+![more actions](assets/formular_mehr_Aktionen_en.png)){ class="lightbox" }
 
-Jedes Element kann auch dupliziert, per drag and drop verschoben oder gelöscht werden.
+Each element can also be duplicated, moved by drag and drop or deleted.
 
-(löschen: As soon as you have created an element, you can also use the plus sign to add further elements above or below an element. Each element can also be duplicated, moved by drag and drop or deleted.)
+(delete: As soon as you have created an element, you can also use the plus sign to add further elements above or below an element. Each element can also be duplicated, moved by drag and drop or deleted.)
 
 
-!!! info "Availability
+!!! info "Availability"
 
     As of :octicons-tag-24: release 17.1. this redesigned form editor is available. It contains conceptual and UX improvements to ensure a more pleasant creation. Old forms (created with 16.1.-17.0.X) can still be opened and edited. If you want to fill an old form with new content, use the new layouts for that.
 
@@ -20,10 +20,10 @@ Jedes Element kann auch dupliziert, per drag and drop verschoben oder gelöscht 
 
 * **Layout menu**: There you can set all the template for the layout, add layouts on top and bottom and move the layout in position or order.
 * **Block Menu** :material-cog: 
-Bezieht sich auf ein dem Layout hinzugefügtes Element z.B. einen "Paragraph" Text, eine "Einzelauswahl" usw. Sie können hier ein Element bzw. Block duplizieren, verschieben oder löschen sowie weitere Elemente davor oder danach hinzufügen.
-* **Inspector**: In dem rechts erscheinenden überlagernden Menü There are all the settings that change the functionality, as well as the appearance of the particular block or layout.
+Refers to an element added to the layout, e.g. a "paragraph" of text, a "single selection", etc. You can duplicate, move or delete an element or block here, as well as add other elements before or after it.
+* **Inspector**: In the overlaying menu that appears on the right there are all the settings that change the functionality, as well as the appearance of the particular block or layout.
 
-![Gui-Formulareditor](assets/form-editor-gui.jpg){ class="lightbox" }
+![Gui-Formu editor](assets/form-editor-gui.jpg){ class="lightbox" }
 
 ### Layout
 
@@ -70,11 +70,11 @@ The positioning can also be further optimized by using the container element.
 ## Rubric
 
 Three different types are available for displaying a rubric. 
-"Diskret mit Radiobutton" und "Diskret mit Slider" funktionieren ähnlich wie Single-Choice Fragen und sind mit Punktwerten verknüpft. "Kontinuierlich" dagegen ermöglicht eine fließende Bewertung ohne Punkte. Anders als bei den anderen Fragetypen werden hier Fragen und Antworten über dasselbe Element organisiert.
+"Discrete with radio button" and "Discrete with slider" function similarly to single-choice questions and are linked to point values. "Continuous", on the other hand, allows for fluent scoring without points. Unlike the other question types, here questions and answers are organized using the same element.
 
 ![Form rubric](assets/form_rubric_17.png){ class="shadow lightbox" }
 
-Für Rubrics stehen diverse Einstellungsmöglichkeiten zur Verfügung die Sie über das Zahnrad einblenden können. 
+For Rubrics, there are various setting options available that you can show via the cogwheel. 
 Further information can be found [here](Rubric.md).
   
 ## Single choice
@@ -82,7 +82,7 @@ Further information can be found [here](Rubric.md).
 Creates a single choice answer scale. The individual answers can be displayed next to each other, below each other or as a selection menu via the option "Selection list". The entries can be moved up or down using the arrow keys.
 
 Under "Obligation", one can set the question as obligatory or optional.
-Obligatorische Blöcke müssen ausgefüllt werden um das Formular absenden zu können.
+Mandatory blocks must be filled in to submit the form.
 
 The single choice question can also be used as a basis (condition) for the question rules. This way, certain containers and their contents are displayed depending on the answer selected by the user.
 
@@ -94,7 +94,7 @@ Give the element a meaningful name so that you can keep track of the question ru
 
 Creates a multiple choice selection scale. If necessary, participants can add additional items to the list. The order of the individual choices can be changed using the arrows.
 
-Under "Obligation", one can set the question as obligatory or optional. Obligatorische Blöcke müssen ausgefüllt werden um das Formular absenden zu können.
+Under "Obligation", one can set the question as obligatory or optional. Mandatory blocks must be filled in to submit the form.
 
 The multiple choice can also be used as a basis (condition) for the question rules. This way, certain containers and their contents are displayed depending on the predefined answer selected by the user.
 
@@ -104,13 +104,13 @@ Give the element a meaningful name so that you can keep track of the question ru
   
 ## Text input
 
-The text input provides the learner with a single or multiline field for text input. Auch eine Einschränkung auf Zahlen oder ein Datum ist möglich.  The text input can be obligatory or optional (siehe Einzel- oder Mehrfachauswahl oben).
+The text input provides the learner with a single or multiline field for text input. Restriction to numbers or a date is also possible. The text input can be obligatory or optional (siehe Einzel- oder Mehrfachauswahl oben).
 
 ![Form text input](assets/form_text_17.png){ class="shadow lightbox" }
   
 ## Upload file
 
-This element gives learners the ability to upload files. The Upload can be obligatory or optional (siehe Einzel- oder Mehrfachauswahl oben).
+This element gives learners the ability to upload files. The Upload can be obligatory or optional (see single or multiple selection above).
 
 ![Form file upload](assets/form_file_upload_17.png){ class="shadow lightbox" }
   
@@ -118,15 +118,15 @@ This element gives learners the ability to upload files. The Upload can be oblig
 
 The Information element can be used to query further user-specific information such as name or age. 
 
-Dabei kann eine der folgenden drei Varianten ausgewählt werden:
+One of the following three variants can be selected:
 
-a) die Angaben sind freiwillig, User können bei Bedarf die Felder ausfüllen (optional)
+a) the information is voluntary, users can fill in the fields if necessary (optional)
 
-b) die Angaben müssen vom Benutzer verpflichtend ausgefüllt werden sonst wird das Formular nicht gespeichert (obligatorisch)
+b) the data must be filled in by the user, otherwise the form will not be saved (mandatory)
 
-c) die Angaben werden automatisch übertragen und könnten nicht geändert werden(automatisch obligatorisch)
+c) the data is transferred automatically and cannot be changed (automatically obligatory).
 
-Nutzt man das Formular im Rahmen des Kursbaustein "Umfrage" kann eine Befragung  ihre Anonymität verlieren.
+If the form is used in the context of the course element "Survey", a survey can lose its anonymity.
 
 
 ![Form user-specific information](assets/form_informations_17.png){ class="shadow lightbox" }
@@ -160,5 +160,5 @@ Here are a few more tips for using the Form Editor:
 * For the "Rubric" choice, the questions and answers are created together.
 * Use "Add entry" to add additional answer elements for single or multiple choice.
 * In addition to the questions, add further elements if required, e.g. "Terms of use" or "Information".
-* Vergessen Sie nicht den Blöcken Namen zu hinterlegen wenn Sie eine selektive Freigabe per Frageregeln erstellen wollen.
+* Do not forget to assign names to the blocks if you want to create a selective release via question rules.
 
