@@ -20,7 +20,7 @@ You will only get search results of the course contents you have access to.
 
 In order to search in more detail please use the advanced search.
 
-![](assets/Volltextsuche_erweitert2.png)
+![Advenced Search example](assets/volltextsuche_erweitert_en.png)
 
 Select the option "Advanced search." The mode _Advanced search_ enables you to
 refine your search. Please note that these different fields have to be linked
