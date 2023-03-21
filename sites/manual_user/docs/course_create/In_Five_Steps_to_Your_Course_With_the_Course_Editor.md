@@ -15,9 +15,9 @@ In the first step you create your course. In the following steps, you add the de
 
 3. Insert title and click "Create".
     
-    ![Create course wizard](assets/course_create_wizard_DE.jpg){ class="shadow" }
+    ![Create course wizard](assets/course_create_en.jpg){ class="shadow" }
 
-4. Select course type (conventional course or [learning path course](Learning_path_course.md)) and confirm with "Create".  
+4. Select course design (conventional course, [learning path course](Learning_path_course.md)) or course with learning progress and confirm with "Create".  
 
 5. You can now make further settings in the menu that appears.
     
