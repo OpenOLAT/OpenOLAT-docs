@@ -1,23 +1,23 @@
 #  Actions in the 'Authoring' section
 
-Der Autorenbereich ist der zentrale Bereich für OpenOlat Autoren. Under "My entries" OpenOlat authors can see all the learning resources they own und können diese auch erstellen oder importieren. 
+The author area is the central area for OpenOlat authors. Under "My entries" OpenOlat authors can see all the learning resources they own and can also create or import them. 
 
 ![](assets/actions_authoring.png)
 
-Im Folgenden wird erläutert welche generellen Einstellungen im Autorenbereich vorgenommen werden können. 
+The following explains which general settings can be made in the authoring area. 
 
-## Vordefinierte Filter des Autorenbereichs
+## Predefined filters of the authoring area
 
-Der Autorenbereich beinhaltet bestimmte vordefinierte Filter. Hierzu zählen:
+The authoring area contains certain predefined filters. These include:
 
-* Favoriten
-* Meine Kurse
-* Meine Einträge
-* Gelöscht
+* Favorites
+* My courses
+* My entries
+* Deleted
 
-sowie eine Suchmaske.
+as well as a search mask.
 
-Unter „Meine Einträge“ sehen OpenOlat Autoren alle Lernressourcen bei denen sie Besitzer sind. Unter "Meine Kurse" werden alle herkömmlichen Kurse und alle Lernpfad Kurse bei denen Sie Besitzer sind angezeigt. "Meine Kurse" ist somit eine Teilmenge von "Meine Einträge. 
+Under "My entries" OpenOlat authors can see all learning resources they own. Under "My Courses" all traditional courses and all learning path courses you are the owner of are displayed. "My Courses" is therefore a subset of "My Entries. 
 
 The "Favorites" tab is a subgroup of "My Entries. It shows all learning resources of an author which are bookmarked. The "Deleted"
 tab displays your "Trash" with all your learning resources that you have
@@ -73,19 +73,19 @@ In the corresponding overview in the authoring section all assigned licenses
 will be shown in the column «license». By clicking on a license, detailed
 license information will be displayed.
 
-![](assets/Autorenbereich_Lizenz.png)
+![](assets/Autorenbereich_Lizenz_en.png)
 
-## Tabellenansicht konfigurieren
+## Configure table view
 
-Wählen Sie über das Zahnrad aus, welche Spalten und damit verbundenen
-Informationen Ihnen angezeigt werden sollen. Besonders informativ sind z.B.
-der Status, die Referenzierung (Ref.), das Erstellungsdatum oder bei Kursen
-der Technische Kurstyp um herkömmliche Kurse von Lernpfad Kursen zu
-unterscheiden.  
+Use the cogwheel to select which columns and associated
+information should be displayed to you. Particularly informative are e.g.
+the status, the referencing (Ref.), the creation date or for courses
+the technical course type to distinguish conventional courses from learning path courses.
+courses.  
 
-Neben der Auswahl der Spalten können Sie noch die Art der Sortierung
-definieren z.B. sortiert nach der Referenzierung oder dem Status oder dem
-Erstellungsdatum und die gesamte Tabelle downloaden.
+Beside the selection of columns you can also define the sorting method
+e.g. sorted according to the referencing or the status or the
+creation date and download the whole table.
 
 
 ###  Calling up menus and other settings
@@ -95,9 +95,9 @@ resources. These include
 
   * A click on the **title** of a learning resource opens the corresponding resource.
   * The **info page** can be opened via![](assets/infopage_5e89ac_64.png). For **editable** learning resources such as courses, glossaries, tests, questionnaires, PCs, blogs and podcasts, the "Edit" icon opens the corresponding editor.
-  * The Die 3-Punkte quickly leads to basic menus that are briefly outlined in the following:
+  * The 3-dots quickly leads to basic menus that are briefly outlined in the following:
 
-![](assets/Autorenbereich_3_Punkte.png)
+![](assets/Autorenbereich_3_Punkte_en.png)
 
 
 #### Change infopage
@@ -128,15 +128,15 @@ export in another system.
 
 A learning resource can only be deleted by its owner.
 
-Herkömmliche Kurse erhalten noch das Menü "In Lernpfad konvertieren" um einen
-herkömmlichen Kurs in einen Kurs vom Typ [Lernpfad](../course_create/Learning_path_course.de.md)
-umzuwandeln und somit eine Kopie des Ursprungskurses zu erstellen.
+Conventional courses still get the menu "Convert to learning path" to convert a
+course into a course of the type [learning_path](../course_create/Learning_path_course.md)
+and thus create a copy of the original course.
 
 ## Further actions
 
-Wählt man eine oder mehrere der angezeigten Lernressourcen aus der Tabelle aus erscheinen weitere Möglichkeiten. 
+If you select one or more of the displayed learning resources from the table, further options appear. 
 
-![Sammelaktionen](assets/Sammelaktion_172.png)
+![Sammelaktionen](assets/Sammelaktion_en.png)
 
 
 ### Send E-mail

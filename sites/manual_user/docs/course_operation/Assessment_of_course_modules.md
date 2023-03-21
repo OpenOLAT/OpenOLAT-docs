@@ -15,7 +15,7 @@ elements:
 
 Here, the general aspects are explained first and then the specifics of the individual assessable course elements with the associated assessment forms are
 addressed.  
-Die Bewertung von Aufgaben/Gruppenaufgaben und Tests finden Sie auf separaten Seiten. 
+The evaluation of assignments/group tasks and tests can be found on separate pages. 
 
 ## The 3-point menu
 ![The 3-point menu test-participants](assets/Bewertungswerkzeug_3_Punkte_en.png){ class="shadow lightbox" }
@@ -26,7 +26,7 @@ The gear wheel icon provides key options in the assessment context. These includ
   * **Finalize assessment** or **Reopen assessment:** Depending on the previous status. *
   * **Release / Withdraw release** This allows learners to see or not see the results. *
 
-Folgende Optionen stehen zusätzlich für Tests zur Verfügung: 
+The following options are additionally available for tests: 
 
   * **Results as PDF** for PDF download
    * **Reopen finished test:** The test taker can continue the test where they left off. In addition, if the test is limited to 1 attempt, the attempts must be reset in order for the test taker to continue the test.
@@ -48,7 +48,7 @@ options:
 
 ![Checklist](assets/Bewertungswerkzeug_Checkliste172_en.png){ class="shadow lightbox" }
 
-Durch Klick auf den Namen eines Users gelangt man zur konkreten Bewertung.
+By clicking on the name of a user, you can get to the specific rating.
 
 The checkboxes of the individual users can be added manually and the
 assessment form can be filled in. Depending on the course element
@@ -66,9 +66,9 @@ options:
 
 The button "Statistics" is only available when using a rubric assessment.
 
-Der Button "Bewertungsskala anpassen" steht nur zur Verfügung wenn zuvor im Kurseditor eine Bewertungsskala für den Kursbaustein aktiviert wurde. 
+The button "Adjust rating scale" is only available if a rating scale has been activated for the course element in the course editor. 
 
-Durch Klick auf den Namen eines Users gelangt man zur konkreten Bewertung. Hier füllen Sie das entsprechende Bewertungsformular aus und nutzen, sofern verknüpft, das zugeordnete Rubrik Bewertungsformular.
+By clicking on the name of a user you will get to the concrete assessment. Here you fill in the corresponding assessment form and, if linked, use the assigned rubric assessment form.
 
 
 ![assessment form](assets/Bewertung_Bewerutngsformular_mit_Rubrik.png){ class="shadow lightbox" }
@@ -94,10 +94,10 @@ is therefore recommended to perform the assessment directly in the portfolio.
 
 ## Course element "Structure" or total course assessment
 
-Der Kursbaustein „Struktur“ erscheint ebenfalls im Bewertungswerkzeug. Sofern für den Kurs generell Punkte aktiviert wurden werden hier die aufaddierten Punkte der untergeordneten bewertbaren Kursbausteine angezeigt. Allerdings können hier nicht manuell Punkte vergeben oder Bewertungen vorgenommen werden. Stattdessen wird der aktuelle Punkte-Status angezeigt. 
+The course element "Structure" also appears in the assessment tool. If points have been activated for the course in general, the total points of the subordinate assessable course elements will be displayed here. However, it is not possible to manually assign points or make assessments here. Instead, the current points status is displayed. 
 
-Bei Lernpfad-Kursen werden automatisch die Ergebnisse aller untergeordneten Assessmentbausteine berücksichtigt. Bei herkömmlichen Kursen können die zu berücksichtigenden Kursbausteine im Kurseditor im Tab „Punkte“ gezielt ausgewählt werden.
-Der oberste Kursbaustein ist ebenfalls ein Strukturbaustein, deshalb werden hier die Punkte des gesamten Kurses zusammengezählt.
+For learning path courses, the results of all subordinate assessment elements are automatically taken into account. For conventional courses, the course elements to be taken into account can be specifically selected in the course editor in the "Points" tab.
+The top course element is also a structural element, therefore the points of the entire course are added up here.
 
 !!! note
 
