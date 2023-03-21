@@ -28,15 +28,15 @@ By default, all results of the assessable modules are displayed immediately. The
 
 To set the visibility for a single user, open the desired user. 
 
-Unten im Bewertungsformular kann sowohl für die Zwischenspeicherung als auch für die finale Freigabe (Bewertung abschliessen) definiert werden ob die Bewertung dem User direkt angezeigt werden soll oder nicht. 
+At the bottom of the rating form, you can define whether the rating should be displayed directly to the user or not, both for the intermediate storage and for the final release (complete rating). 
 
 ![Visibility](assets/Freigabe_Auge_en.jpg){ class="shadow lightbox" }
 
-Alternativ bzw. wenn die Sichtbarkeit für mehrere User angepasst werden soll kann dies auch  über die Teilnehmerliste für den entsprechenden Kursbaustein erfolgen. 
+Alternatively, or if the visibility for multiple users is to be adjusted, this can also be done via the participant list for the corresponding course element. 
 
 This column shows the users for whom the result is visible (![Eye](assets/sichtbar_434343_64.png){ class=size16 }) or not yet visible (![Crossed out eye](assets/nicht_sichtbar_434343_64.png){ class=size16 }). If no icon is displayed, the default setting applies. 
 
-Um die Sichtbarkeit zu ändern, können die gewünschten Benutzer in der Spalte ganz links ausgewählt und entweder der Button "Release" oder "Withdraw release" angeklickt werden. 
+To change the visibility, the desired users can be selected in the leftmost column and either the "Release" or "Withdraw release" button can be clicked. 
 
 
 The status completed has no effect on the visibility.
