@@ -13,7 +13,7 @@ persons.
 
 ![assessmenttool](assets/assessment_Tool_172.png)
 
-Schauen wir uns die einzelnen Bereiche der Übersicht genauer an:
+Let's take a closer look at the individual areas of the overview:
 
 ## Tab "Overview" of the assessment tool
 
@@ -30,7 +30,7 @@ Only the unfinished assessments are displayed here. Reviews that have already
 been completed are not listed here.
 
 ### Overview -> "Review o release"
-Sollte es im Kurs Bewertungen geben die noch nicht für die Teilnehmenden sichtbar gemacht wurden, erscheinen sie hier. 
+If there are assessments in the course that have not yet been made visible to participants, they will appear here. 
 
 ### Overview -> "Participants" 
 
@@ -42,8 +42,7 @@ corresponding average value will be displayed under "Average". Furthermore it
 will be displayed what percentage of participants has passed the entire course
 (if this option has been activated).
 
-Durch die Verlinkung können Betreuer schnell zu den
-entsprechenden Teilnehmenden navigieren und auch die passenden Teilnehmerlisten generieren und herunterladen. 
+The linking allows coaches to quickly navigate to the appropriate participants and also generate and download the appropriate participant lists. 
 
 
 ### Overview ->  "Notification Service"
@@ -53,22 +52,20 @@ test results and other submissions.  Notifications about newly generated
 certificates (if generally activated) can also be subscribed to.
 
 
-## Übersicht der Bewertungsbausteine des Kurses
-In der linken Navigation des Bewertungswerkzeugs sieht man alle bewertbaren Kursbausteine. Alle Bausteine werden mit den Tabs "Übersicht" und "Teilnehmer" angezeigt. Ein Download der Bewertungen ist ebenfalls möglich. 
+## Overview of the assessment elements of the course.
+In the left navigation of the assessment tool you can see all assessable course elements. All elements are displayed with the tabs "Overview" and "Participants". A download of the assessments is also possible. 
 
-![Bewertungswerkzeug Teilnehmerübersicht](assets/Bewertungswerkzeug_TN_172.png)
+![assessment tool participant overview](assets/Bewertungswerkzeug_TN_172.png)
 
- Wie genau Bewertungen vorgenommen werden können erfahren Sie im Kapitel ["Bewertung von Kursbausteinen"](../course_operation/Assessment_of_course_modules.de.md) bzw. ["Lernende bewerte](../course_operation/Assessment_tool_-_tab_Users.de.md).
+ To learn how exactly assessments can be made, please refer to the chapter ["Assessment of course modules"](../course_operation/Assessment_of_course_modules.md) or ["User assessment](../course_operation/Assessment_tool_-_tab_Users.md).
 
-**Oberster Kursknoten**
+**First course node**
 
-Der automatisch generierte oberste Kursknoten zählt ebenfalls als bewertbarer
-Baustein. Ist auf dem oberersten Kursbaustein, der genau genommen ein
-Kursbaustein "[Struktur](../course_elements/Knowledge_Transfer.de.md/#structure)" ist,
-eine Punkteberechnung eingerichtet, können auf der obersten Ebene der Benutzeransicht auch die Gesamtpunkte eines Kurses bzw. die
-für den obersten Baustein definierten Punkte, angezeigt und die
-Gesamtergebnisse der Kursteilnehmenden heruntergeladen werden. 
-
+DThe automatically generated top course node is also counted as a assessable
+element. If on the topmost course element, which strictly speaking is a
+course element "[structure](../course_elements/Knowledge_Transfer.md/#structure)",
+you have set up a point calculation, you can also display the total points of a course on the top level of the participant view, display the
+points defined for the first course element and download the overall results of the course participants. 
 
 
 ### Recalculate data
