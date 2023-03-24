@@ -8,7 +8,7 @@
 
 * * *
 
-:material-calendar-month-outline: **Releasedatum: 10.02.2023 • Letztes Update: 03.03.2023**
+:material-calendar-month-outline: **Releasedatum: 10.02.2023 • Letztes Update: 17.03.2023**
 
 * * *
 
@@ -30,11 +30,34 @@ Für eine effiziente Bearbeitung der Lernressource "Video" wurde der neue Video 
 
 Der Video Editor umfasst drei Bearbeitungsbreiche: Neben dem eigentlichen Konfigurationsbereich rechts sind in der Video-Vorschau auf der linken Seite die Anpassungen direkt sichtbar. Die Timeline im unteren Abschnitt zeigt sämtliche Elemente strukturiert und in zeitlicher Abfolge an.
 
-![Neuer Video-Editor mit Timeline](assets/172/Video_editor_DE.png){ class="shadow lightbox" }
+<figure markdown>
+  ![Video-Editor mit Timeline](assets/172/Video_editor_DE.png){ class="shadow lightbox thumbnail-xl" }
+  <figcaption>Video-Editor mit Timeline</figcaption>
+</figure>
+
+#### Segmente
+
+Segmente kommen in der Videoaufgabe zum Einsatz. Sie markieren definierte Bereiche im Video, denen die Teilnehmenden vorgegebene Begriffe oder Situationen (= Kategorien) zuordnen müssen.
+
+#### Kommentare
+
+Kommentare können gezielt an einem bestimmten Punkt im Video gesetzt werden und zum Beispiel wichtige Kernaussagen des Videos hervorheben, ergänzende Informationen zum Thema oder Hinweise zum folgenden Videoabschnitt bereitstellen. Beim Ansehen stoppt das Video an der entsprechenden Stelle. Um fortzusetzen, muss entweder der Kommentar aktiv geschlossen oder der Play-Button des Videos manuell angeklickt werden.
+
+Neben einfachen Text-Kommentaren und der Einbindung bestehender Videos (Import als Datei oder per URL, z.B. von Youtube) können Video-Kommentare auch direkt im Editor über die Recording-Funktion aufgenommen und integriert werden.
+
+<figure markdown>
+  ![Video mit integriertem Textkommentar](assets/172/Video_comment_text_DE.png){ class="shadow lightbox thumbnail-xl" }
+  <figcaption>Video mit integriertem Text-Kommentar</figcaption>
+</figure>
+
+<figure markdown>
+  ![Video mit integriertem Videokommentar](assets/172/Video_comment_youtube.png){ class="shadow lightbox thumbnail-xl" }
+  <figcaption>Video mit integriertem Video-Kommentar</figcaption>
+</figure>
 
 #### Erweiterte Konfiguration für Kursbaustein "Video"
 
-Bestehende Videoelemente wie Anmerkungen, Quizzes und Segmente können auch im Kursbaustein "Video" konfiguriert werden. Je nach Bedarf und Setting können diese somit für Teilnehmende angezeigt oder ausgeblendet werden.
+Bestehende Videoelemente wie Anmerkungen, Quizzes, Kommentare und Segmente können auch im Kursbaustein "Video" verwendet werden. Je nach Bedarf und Setting können diese für Teilnehmende angezeigt oder ausgeblendet werden.
 
 * * *
 
@@ -44,13 +67,20 @@ Mit dem neuen Kursbaustein „Videoaufgabe“ können Video-Lernressourcen für 
 
 Die dafür notwendigen Platzhalter im Video (= Segmente) sowie die Kategorien werden in der Lernressource "Video" definiert (s. Video Editor).
 
-![Videoaufgabe Start](assets/172/Videoaufgabe_DE.png){ class="shadow lightbox" }
+<figure markdown>
+  ![Videoaufgabe Startanzeige](assets/172/Videoaufgabe_DE.png){ class="shadow lightbox thumbnail-xl" }
+  <figcaption>Videoaufgabe Startanzeige</figcaption>
+</figure>
 
 #### Übungs- und Testmodus
 
 Im Übungsmodus können entweder die Begriffe (= Kategorien) direkt zu den sichtbaren Segmenten zugeordnet werden oder die Teilnehmenden müssen die Situationen in den entsprechenden Videoabschnitten selbstständig identifizieren. Für scharfe Prüfungen mit formalen Endresultaten steht der Test-Modus zur Verfügung.
 
-![Videoaufgabe: Durchführung einer Übung](assets/172/Videoaufgabe_Run_DE.png){ class="shadow lightbox" }
+<figure markdown>
+  ![Videoaufgabe: Durchführung einer Übung](assets/172/Videoaufgabe_Run_DE.png){ class="shadow lightbox thumbnail-xl" }
+  <figcaption>Videoaufgabe - Übungsmodus</figcaption>
+</figure>
+
 * * *
 
 ## Kursbaustein "Aufgabe"
@@ -59,19 +89,28 @@ Im Übungsmodus können entweder die Begriffe (= Kategorien) direkt zu den sicht
 
 In Kurs-Settings mit sehr vielen Teilnehmenden werden diese häufig von mehreren Lehrpersonen betreut. Bisher musste durch gegenseite Abstimmung festgelegt werden, wer die Bewertung für welche Teilnehmenden vornimmt. Neu ist am Aufgabenbaustein eine gezielte Zuordnung (manuell oder automatisch) von Betreuenden zu einzelnen Teilnehmenden möglich.
 
-![Aufgabenbaustein - Zuweisung Betreuende zu Teilnehmende](assets/172/Task_coach_user_assignment_DE.png){ class="shadow lightbox" }
+<figure markdown>
+  ![Aufgabenbaustein - Zuweisung Betreuende zu Teilnehmende](assets/172/Task_coach_user_assignment_DE.png){ class="shadow lightbox thumbnail-xl" }
+  <figcaption>Zuweisung von Betreuenden zu Teilnehmenden</figcaption>
+</figure>
 
 Am Baustein, im Bewertungswerkzeug sowie im Coaching Tool werden die Zuweisungen und daraus entstandenen Bewertungsaufträge angezeigt. Die Lehrpersonen werden direkt per E-Mail benachrichtigt, wenn zugewiesene Teilnehmende eine Aufgabe abgegeben haben und somit ein Bewertungsauftrag verfügbar ist.
 
 Teilnehmende sehen jeweils oberhalb der Aufgabe, wer sie betreut.
 
-![Aufgabenbaustein - Zuweisung Betreuende zu Teilnehmende](assets/172/Task_coach_assigned_DE.png){ class="shadow lightbox" }
+<figure markdown>
+  ![Aufgabenbaustein - Zuweisung Betreuende zu Teilnehmende](assets/172/Task_coach_assigned_DE.png){ class="shadow lightbox thumbnail-xl" }
+  <figcaption>Information zum Betreuenden in der Teilnehmeransicht</figcaption>
+</figure>
 
 #### Optimierte E-Mail-Bestätigung
   
 Ist die entsprechende Option aktiviert, so erhalten Teilnehmende nach der aktiven Abgabe einer Aufgabe eine E-Mail-Bestätigung. Die Konfiguration für diese Funktion wurde optimiert und es wurden weitere relevante Variablen, wie z.B. Kursname und Bausteinname, zur Verwendung im E-Mail-Text ergänzt.
 
-![Aufgabenbaustein - Bestätigungsmail nach Abgabe](assets/172/Task_submission_confirmation_DE.png){ class="shadow lightbox" }
+<figure markdown>
+  ![Aufgabenbaustein - Bestätigungsmail nach Abgabe](assets/172/Task_submission_confirmation_DE.png){ class="shadow lightbox thumbnail-xl" }
+  <figcaption>Konfiguration der Bestätigungsmail am Aufgabenbaustein</figcaption>
+</figure>
 
 * * *
 
@@ -81,7 +120,10 @@ Ist die entsprechende Option aktiviert, so erhalten Teilnehmende nach der aktive
 
 In Szenarien wie Einstufungstests, die von Teilnehmenden selbstständig aufgerufen und durchgeführt werden, ist eine Bestätigung per E-Mail nach dem Abschluss des Tests hilfreich und zum Teil notwendig. Eine entsprechende Option wurde in der Test-Konfiguration ergänzt, um eine Bestätigungsmail an Teilnehmende selbst sowie ausgewählte zusätzliche Empfänger wie Betreuende oder externe Empfänger auszulösen.
 
-![Testbaustein - Bestätigungsmail nach Abgabe](assets/172/Test_submission_confirmation_DE.png){ class="shadow lightbox" }
+<figure markdown>
+  ![Testbaustein - Bestätigungsmail nach Abgabe](assets/172/Test_submission_confirmation_DE.png){ class="shadow lightbox thumbnail-xl" }
+  <figcaption>Konfiguration der Bestätigungsmail am Testbaustein</figcaption>
+</figure>
 
 #### Weitere Neuerungen
 
@@ -96,6 +138,7 @@ In Szenarien wie Einstufungstests, die von Teilnehmenden selbstständig aufgeruf
 
 * Kursbaustein "Formular": Ergänzung zusätzlicher Empfänger für Bestätigungs-E-Mail nach Abgabe des Formulars durch Teilnehmende
 * Kursbaustein "Terminplanung": Optimierungen für nachträglichen Wechsel des Anlass-Typs
+* Zugangsbeschränkungen für Kursbausteine auf Strukturebene sichtbar (Herkömmlicher Kurs)
 * Erinnerungen:
     * Erinnerungsfunktion nach Ablauf des Zertifikats
     * Konfiguration datumsgesteuerter Erinnerungen mit der Angabe "davor" und "danach"
@@ -108,11 +151,17 @@ In Szenarien wie Einstufungstests, die von Teilnehmenden selbstständig aufgeruf
 
 Ein neuer Wizard wurde implementiert, um per Sammelaktion die Einstellungen für mehrere Lernressourcen und Kurse gleichzeitig zu bearbeiten. Darüber können u.a. folgende Daten angepasst werden: Metadaten, Daten zu Durchführung, Taxonomie und Freigabe, Autorenrechte, Werkzeuge in der Kurs-Toolbar.
 
-![Authoring Bereich - Wizard für Sammelaktionen](assets/172/Wizard_bulk_actions_authoring_DE.png){ class="shadow lightbox" }
+<figure markdown>
+  ![Authoring Bereich - Wizard für Sammelaktionen](assets/172/Wizard_bulk_actions_authoring_DE.png){ class="shadow lightbox thumbnail-xl" }
+  <figcaption>Auswahl der gewünschten Bereiche im Wizard für Sammelaktionen</figcaption>
+</figure>
 
 Auf der Übersichtsseite am Ende des Wizards können die durchgeführten Anpassungen nochmals kontrolliert werden.
 
-![Authoring Bereich - Wizard für Sammelaktionen - Übersichtsseite](assets/172/Wizard_bulk_actions_authoring_overview_DE.png){ class="shadow lightbox" }
+<figure markdown>
+  ![Authoring Bereich - Wizard für Sammelaktionen - Übersichtsseite](assets/172/Wizard_bulk_actions_authoring_overview_DE.png){ class="shadow lightbox thumbnail-xl" }
+  <figcaption>Zusammenfassung der Anpassungen</figcaption>
+</figure>
 
 * * *
 
@@ -146,14 +195,20 @@ Die Integration in OpenOlat ermöglicht es, dass die Metadaten von dafür freige
     * Labelanpassungen
     * Zusammenfassung der wichtigsten Daten oberhalb der Konfiguration
 
-        ![Testkonfigration - Infobox](assets/172/Testconfig_infobox_DE.png){ class="shadow lightbox" }
+<figure markdown>
+  ![Testkonfigration - Infobox](assets/172/Testconfig_infobox_DE.png){ class="shadow lightbox thumbnail-xl" }
+  <figcaption>Testkonfigration - Infobox</figcaption>
+</figure>
 
 * Zertifikate:
     * Entfernung der automatischen Generierung von Zertifikaten nach Ablauf der Gültigkeitsdauer in Lernpfadkursen
     * Optimierte Konfiguration der Zertifikatsfunktion
     * Bereinigung der Anzeige, wie lange ein Zertifikat gültig ist
 
-        ![Zertifikatsfunktion im Kurs aktivieren](assets/172/Certificate_activation_course_DE.png){ class="shadow lightbox" }
+<figure markdown>
+  ![Zertifikatsfunktion im Kurs aktivieren](assets/172/Certificate_activation_course_DE.png){ class="shadow lightbox thumbnail-xl" }
+  <figcaption>Zertifikatsfunktion im Kurs aktivieren</figcaption>
+</figure>
 
 * Lernpfad: Rote Fortschrittsanzeige für "Nicht bestanden"
 * Tabellenfilter: Optische Hervorhebung aktiver Filter
@@ -180,7 +235,10 @@ Die Umstellung auf eine gendergerechte Sprache bedeutet in einer Software wie Op
 
 Konkret ist es ab sofort möglich, in der `Administration > Core Konfiguration > Sprachen` das gewünschte Trennzeichen (z.B. * : / etc.) in den Systemeinstellungen zu definieren:
 
-![Trennzeichen für gendergerechte Sprache konfigurieren](assets/172/Gender_sensitive_delimiter_DE.png){ class="shadow lightbox" }
+<figure markdown>
+  ![Trennzeichen für gendergerechte Sprache konfigurieren](assets/172/Gender_sensitive_delimiter_DE.png){ class="shadow lightbox thumbnail-xl" }
+  <figcaption>Trennzeichen konfigurieren</figcaption>
+</figure>
 
 * * *
 
@@ -224,6 +282,8 @@ Konkret ist es ab sofort möglich, in der `Administration > Core Konfiguration >
 
 ## Weitere Informationen
 
+* [Jira Release Notes 17.2.4](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=20500){:target="_blank”}
+* [Jira Release Notes 17.2.3](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=20401){:target="_blank”}
 * [Jira Release Notes 17.2.2](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=20200){:target="_blank”}
 * [Jira Release Notes 17.2.1](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=20101){:target="_blank”}
 * [Jira Release Notes 17.2.0](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=19000){:target="_blank”}

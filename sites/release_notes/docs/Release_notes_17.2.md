@@ -8,7 +8,7 @@
 
 * * *
 
-:material-calendar-month-outline: **Release date: 02/24/2023 • Last update: 03/03/2023**
+:material-calendar-month-outline: **Release date: 02/24/2023 • Last update: 03/17/2023**
 
 * * *
 
@@ -30,11 +30,34 @@ The new Video editor has been designed for efficient editing of the learning res
 
 The Video editor comprises three editing areas: In addition to the actual configuration area on the right, adjustments are directly visible in the video preview on the left. The timeline in the lower section shows all elements structured and in chronological order.
 
-![New video editor with timeline](assets/172/Video_editor_EN.png){ class="shadow lightbox" }
+<figure markdown>
+  ![New video editor with timeline](assets/172/Video_editor_EN.png){ class="shadow lightbox thumbnail-xl" }
+  <figcaption>New video editor with timeline</figcaption>
+</figure>
+
+#### Segments
+
+Segments are used in the video task. They mark defined areas in the video to which the participants have to assign predefined terms or situations (= categories).
+
+#### Comments
+
+Comments can be placed at a specific point in the video and, for example, highlight important key statements of the video, provide supplementary information on the topic or notes on the following video section. When watching, the video stops at the corresponding position. To continue, either the comment must be actively closed or the play button of the video must be clicked manually.
+
+In addition to simple text comments and the integration of existing videos (import as a file or via URL, e.g. from Youtube), video comments can also be recorded and integrated directly in the editor using the recording function.
+
+<figure markdown>
+  ![Video with integrated text comment](assets/172/Video_comment_text_EN.png){ class="shadow lightbox thumbnail-xl" }
+  <figcaption>Video with integrated text comment</figcaption>
+</figure>
+
+<figure markdown>
+  ![video with integrated video comment](assets/172/Video_comment_youtube.png){ class="shadow lightbox thumbnail-xl" }
+  <figcaption>Video with integrated video comment</figcaption>
+</figure>
 
 #### Advanced configuration for course element "Video
 
-Existing video elements such as annotations, quizzes and segments can also be configured in the course element "Video". Depending on requirements and settings, these elements can be displayed or hidden for participants.
+Existing video elements such as annotations, quizzes, comments and segments can also be used in the course element "Video". Depending on requirements and settings, these elements can be displayed or hidden for participants.
 
 * * *
 
@@ -44,13 +67,19 @@ With the new course element "Video task" video learning resources can be reused 
 
 The necessary placeholders in the video (= segments) as well as the categories are defined in the learning resource "Video" (see Video editor).
 
-![Video task start](assets/172/Videoaufgabe_EN.png){ class="shadow lightbox" }
+<figure markdown>
+  ![Video task start](assets/172/Videoaufgabe_EN.png){ class="shadow lightbox thumbnail-xl" }
+  <figcaption>Video task start display</figcaption>
+</figure>
 
 #### Practice and test mode
 
 In practice mode, either the terms (= categories) can be assigned directly to the visible segments or the participants have to identify the situations in the corresponding video segments on their own. For real tests with formal final results the test mode is available.
 
-![Video task: Running an exercise](assets/172/Videoaufgabe_Run_EN.png){ class="shadow lightbox" }
+<figure markdown>
+  ![Video task: Running an exercise](assets/172/Videoaufgabe_Run_EN.png){ class="shadow lightbox thumbnail-xl" }
+  <figcaption>Video task - practice mode</figcaption>
+</figure>
 
 * * *
 
@@ -60,19 +89,28 @@ In practice mode, either the terms (= categories) can be assigned directly to th
 
 In course settings with a large number of participants, they are often supervised by several coaches. Up to now it had to be determined by mutual agreement who will do the assessment for which participants. Now it is possible to assign coaches to individual participants in the task element (manually or automatically).
 
-![Task course element - Assignment of coaches to participants](assets/172/Task_coach_user_assignment_EN.png){ class="shadow lightbox" }
+<figure markdown>
+  ![Task course element - Assignment of coaches to participants](assets/172/Task_coach_user_assignment_EN.png){ class="shadow lightbox thumbnail-xl" }
+  <figcaption>Assignment of coaches to participants</figcaption>
+</figure>
 
 On the course element, in the assessment tool as well as in the coaching tool, the assignments and resulting assessment orders are displayed. Coaches are notified directly by email when assigned participants have submitted a task solution and thus when an assessment order is available.
 
 Participants can see above the task who is supervising them.
 
-![Task module - Assignment coach to participant](assets/172/Task_coach_assigned_EN.png){ class="shadow lightbox" }
+<figure markdown>
+  ![Task module - Assignment coach to participant](assets/172/Task_coach_assigned_EN.png){ class="shadow lightbox thumbnail-xl" }
+  <figcaption>Information about assigned coach in participant view</figcaption>
+</figure>
 
 #### Optimized e-mail confirmation
   
 If the corresponding option is activated, participants receive an e-mail confirmation after actively submitting a task solution. The configuration for this feature has been optimized and additional relevant variables, such as course name and course element name, have been added for use in the e-mail text.
 
-![Task module - confirmation email after submission](assets/172/Task_submission_confirmation_EN.png){ class="shadow lightbox" }
+<figure markdown>
+  ![Task module - confirmation email after submission](assets/172/Task_submission_confirmation_EN.png){ class="shadow lightbox thumbnail-xl" }
+  <figcaption>Configuration of confirmation mail for task element</figcaption>
+</figure>
 
 * * *
 
@@ -82,7 +120,10 @@ If the corresponding option is activated, participants receive an e-mail confirm
 
 In scenarios such as diagnostic tests that are accessed and taken by participants on their own, an email confirmation after test completion is helpful and sometimes necessary. A corresponding option has been added to the test configuration to trigger a confirmation email to participants themselves as well as selected additional recipients such as coaches or external recipients.
 
-![Test module - confirmation mail after submission](assets/172/Test_submission_confirmation_EN.png){ class="shadow lightbox" }
+<figure markdown>
+  ![Test module - confirmation mail after submission](assets/172/Test_submission_confirmation_EN.png){ class="shadow lightbox thumbnail-xl" }
+  <figcaption>Configuration of confirmation mail for test element</figcaption>
+</figure>
 
 #### Other new features
 
@@ -97,6 +138,7 @@ In scenarios such as diagnostic tests that are accessed and taken by participant
 
 * Course element "Form": Additional recipients for confirmation e-mail after submission of form by participant added
 * Course element " Appointment scheduling": Optimizations for subsequent change of event type
+* Access restrictions for course elements visible at structure level (Conventional course)
 * Reminders:
     * Reminder function after certificate expiration
     * Configuration of date-controlled reminders with the indication "before" and “after"
@@ -109,11 +151,17 @@ In scenarios such as diagnostic tests that are accessed and taken by participant
 
 A new wizard has been implemented to edit settings for multiple learning resources and courses simultaneously via bulk action. The following data, among others, can be adjusted: Metadata, data on execution, taxonomy and share, authoring rights, tools in the course toolbar.
 
-![Authoring Area - Bulk Actions Wizard](assets/172/Wizard_bulk_actions_authoring_EN.png){ class="shadow lightbox" }
+<figure markdown>
+  ![Authoring Area - Bulk Actions Wizard](assets/172/Wizard_bulk_actions_authoring_EN.png){ class="shadow lightbox thumbnail-xl" }
+  <figcaption>Selection of desired areas in wizard for bulk actions</figcaption>
+</figure>
 
 On the overview page at the end of the wizard the performed adjustments can be checked before saving.
 
-![Authoring Area - Bulk Actions Wizard - Overview Page](assets/172/Wizard_bulk_actions_authoring_overview_EN.png){ class="shadow lightbox" }
+<figure markdown>
+  ![Authoring Area - Bulk Actions Wizard - Overview Page](assets/172/Wizard_bulk_actions_authoring_overview_EN.png){ class="shadow lightbox thumbnail-xl" }
+  <figcaption>Summary of the adjustments</figcaption>
+</figure>
 
 * * *
 
@@ -147,14 +195,21 @@ The integration in OpenOlat makes it possible that the metadata of courses relea
     * Label adjustments
     * Summary of the most important data above the configuration
 
-        ![Test Config - Infobox](assets/172/Testconfig_infobox_EN.png){ class="shadow lightbox" }
+        
+<figure markdown>
+  ![Test Config - Infobox](assets/172/Testconfig_infobox_EN.png){ class="shadow lightbox thumbnail-xl" }
+  <figcaption>Test Configration - Infobox</figcaption>
+</figure>
 
 * Certificates:
     * Removal of automatic generation of certificates after expiration in learning path courses
     * Optimized configuration of the certificate function
     * Cleaned up the display of valid time of a certificate
 
-        ![Activate certificate function in course](assets/172/Certificate_activation_course_EN.png){ class="shadow lightbox" }
+<figure markdown>
+  ![Activate certificate function in course](assets/172/Certificate_activation_course_EN.png){ class="shadow lightbox thumbnail-xl" }
+  <figcaption>Activate certificate function in course</figcaption>
+</figure>
 
 * Learning path: red progress indicator for "Failed"
 * Table filter: Optical highlighting of active filters
@@ -181,7 +236,10 @@ Switching to a gender-sensitive language means major changes in a software like 
 
 Specifically, it is now possible to define the desired separator (e.g. * : / etc.) in the system settings in the 'Administration > Core Configuration > Languages':
 
-![Configure gender sensitive language delimiter](assets/172/Gender_sensitive_delimiter_EN.png){ class="shadow lightbox" }
+<figure markdown>
+  ![Configure gender sensitive language delimiter](assets/172/Gender_sensitive_delimiter_EN.png){ class="shadow lightbox thumbnail-xl" }
+  <figcaption>Configure delimiter</figcaption>
+</figure>
 
 * * *
 
@@ -225,6 +283,8 @@ Specifically, it is now possible to define the desired separator (e.g. * : / etc
 
 ## More information
 
+* [Jira Release Notes 17.2.4](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=20500){:target="_blank”}
+* [Jira Release Notes 17.2.3](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=20401){:target="_blank”}
 * [Jira Release Notes 17.2.2](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=20200){:target="_blank”}
 * [Jira Release Notes 17.2.1](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=20101){:target="_blank”}
 * [Jira Release Notes 17.2.0](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=19000){:target="_blank”}
