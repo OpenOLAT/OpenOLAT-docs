@@ -1,6 +1,6 @@
-## Installation guide for OpenOlat 15.3 and greater
+## Installation guide for OpenOlat 17.2 and greater
 
-This guide walks you through installing OpenOlat Version 15.3.x or newer on a local GNU/Linux or similar system using _Tomcat 9_, _Java 11_ and _PostgreSQL 12_. If you already have an up and running installation, see our [Update Guide](updateGuide.md)
+This guide walks you through installing OpenOlat Version 17.2.x or newer on a local GNU/Linux or similar system using _Tomcat 10.1_, _Java 17_ and _PostgreSQL 12_. If you already have an up and running installation, see our [Update Guide](updateGuide.md)
 
 _If you really want to install OpenOlat using MySQL as database, have a look at the [Special topics -> MySQL DB section](mysql.md) and try mixing it with the informations found in here. Please keep in mind that this is not recommended._
 
@@ -14,27 +14,20 @@ The username is `openolat` in this guide with home directory in `/home/openolat/
 
 We recommend using the following software packages:
 
-- Java-WM: AdoptOpenJDK 11 LTS  
-  [https://adoptopenjdk.net/](https://adoptopenjdk.net/)
-- Application server: Tomcat 9   
-  [https://tomcat.apache.org/](https://tomcat.apache.org/)
-- OpenOlat application code: as pre-compiled .war files   
-  [https://www.openolat.com/releases/](https://www.openolat.com/releases/)
+- Java-WM: AdoptOpenJDK 17 LTS: [https://adoptopenjdk.net/](https://adoptopenjdk.net/)
+- Application server: Tomcat 10.1: [https://tomcat.apache.org/](https://tomcat.apache.org/)
+- OpenOlat application code as pre-compiled .war files: [https://www.openolat.com/releases/](https://www.openolat.com/releases/)
   
 Create a directory downloads and keep the downloaded files there:
 
 	openolat~$ cd && mkdir downloads && cd downloads
 	openolat~$ ls -l downloads
-	-rw-rw-r-- 1 openolat openolat  11437266 Dez  8 14:44 apache-tomcat-9.0.40.tar.gz
-	-rw-rw-r-- 1 openolat openolat 194723798 Dez  8 14:44 OpenJDK11U-jdk_x64_linux_hotspot_11.0.9.1_1.tar.gz
-	-rw-rw-r-- 1 openolat openolat 146225737 Dez  8 14:44 openolat_1535.war
+	-rw-rw-r-- 1 openolat openolat  12127326 Feb  9 10:51 apache-tomcat-10.1.5.tar.gz
+	-rw-rw-r-- 1 openolat openolat 191502157 Feb  9 10:51 OpenJDK17U-jdk_x64_linux_hotspot_17.0.6_10.tar.gz
+	-rw-rw-r-- 1 openolat openolat 181853117 Mar 17 15:41 openolat_1723.war
 
 
-You do not need to use the exact versions from this manual, this is just
-an example. We recommend that you use the newest version within the
-given major version: Java 11, Tomcat 9. As for OpenOlat, take the newest
-release please. If not, make sure to use a version 15.3.x or newer. Note
-that you do not need a JDK to run OpenOlat, a JRE will work as well.
+You do not need to use the exact versions from this manual, this is just an example. We recommend that you use the newest version within the given major version: Java 17, Tomcat 10.1. As for OpenOlat, take the newest release please. If not, make sure to use a version 17.2.x or newer. Note that you do not need a JDK to run OpenOlat, a JRE will work as well.
 
 
 ## Prepare home directory
@@ -44,14 +37,14 @@ that you do not need a JDK to run OpenOlat, a JRE will work as well.
 In the home directory:
 
 	openolat~$ cd
-	openolat~$ tar xvf downloads/apache-tomcat-9.0.40.tar.gz
-	openolat~$ ln -s apache-tomcat-9.0.40 tomcat
+	openolat~$ tar xvf downloads/apache-tomcat-10.1.5.tar.gz
+	openolat~$ ln -s apache-tomcat-10.1.5 tomcat
 	 
-	openolat~$ tar xvf downloads/OpenJDK11U-jdk_x64_linux_hotspot_11.0.9.1_1.tar.gz
-	openolat~$ ln -s jdk-11.0.9.1+1 jre
+	openolat~$ tar xvf downloads/OpenJDK17U-jdk_x64_linux_hotspot_17.0.6_10.tar.gz
+	openolat~$ ln -s jdk-17.0.6+10 jre
  	
-	openolat~$ unzip -d openolat-15.3.5 downloads/openolat_1535.war
-	openolat~$ ln -s openolat-15.3.5 webapp
+	openolat~$ unzip -d openolat-17.2.3 downloads/openolat_1723.war
+	openolat~$ ln -s openolat-17.2.3 webapp
 	
 Note that this setup allows you to switch between different versions of JRE and tomcat by adjusting the symlinks jre and tomcat. An update works the same way, just stop OpenOlat, remove the symlink to webapp, unzip a new version and make a new symbolic webapp link.
 
@@ -269,12 +262,15 @@ Create the file `~/lib/log4j2.xml` containing
 	       <Logger name="org.hibernate.SQL" additivity="false" level="fatal">
 	           <AppenderRef ref="RollingFile" />
 	       </Logger>
-	       <Logger name="org.hibernate.type.descriptor.sql.BasicBinder" additivity="false" level="fatal">
-	           <AppenderRef ref="RollingFile" />
-	       </Logger>
-	       <Root level="info">
-	           <AppenderRef ref="RollingFile" />
-	       </Root>
+       		<Logger name="org.hibernate.type.descriptor.sql.BasicBinder" additivity="false" level="fatal">
+           		<AppenderRef ref="RollingFile" />
+       		</Logger>
+       		<Logger name="org.apache.activemq.audit" additivity="false" level="warn">
+               <AppenderRef ref="RollingFile" />
+       		</Logger>
+       		<Root level="info">
+           		<AppenderRef ref="RollingFile" />
+       		</Root>
 	   </Loggers>
 	</Configuration>
 	

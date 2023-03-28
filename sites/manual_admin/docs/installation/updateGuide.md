@@ -41,8 +41,9 @@ Follow the steps in detail:
 	`~/olatdata/customizing/themes/*`
 
 ### Version specific update steps
-- If updating from lower than OpenOlat 14.0, you need to perform additional steps to [update to log4j2](#log4j2) 
-- If updating from lower than OpenOlat 15.3, you need to [update your infrastructure to Tomcat 9 and Java 11](#java11). It is also mandatory that you perform the update to 15.3 before you continue updating to a more recent version. See [Updating from older versions](#oldversions) instructions. 
+- If updating from lower than OpenOlat 14.0, you need to perform additional steps to update to [update to log4j2](#log4j2) 
+- If updating from lower than OpenOlat 15.3, you need to [update your infrastructure to Tomcat 9 and Java 11](#java11). It is also mandatory that you perform the update to 15.3 before you continue updating to a more recent version. See [Updating from older versions](#oldversions) instructions.
+- If upgrading to OpenOlat 17.2.x or higher, you need to [update your infrastructure to Tomcat 10.1 and Java 17](#java17). Please make sure, your log4j2.xml is similar to the one shown below - it has been slightly adapted.
 
 ### Update
 
@@ -54,7 +55,7 @@ Follow the steps in detail:
 	- Look at the upgrades file and check if upgrade was successfull (set to `true`):    
 		`cat ~/olatdata/system/installed_database_upgrades.xml`
 		`cat ~/olatdata/system/installed_upgrades.xml`		
-2. Let everybody know you just updated to the newest version of OpenOlat x.x.x (twitter, facebook etc)
+2. Let everybody know you just updated to the newest version of OpenOlat x.x.x (Mastodon, twitter, facebook etc)
 
 3. Have a drink 🍺 and celebrate, but do so responsibly! ;-)
 
@@ -100,6 +101,9 @@ Create the file `~/lib/log4j2.xml` containing the following and adapt it to your
 	       <Logger name="org.hibernate.type.descriptor.sql.BasicBinder" additivity="false" level="fatal">
 	           <AppenderRef ref="RollingFile" />
 	       </Logger>
+			<Logger name="org.apache.activemq.audit" additivity="false" level="warn">
+	           <AppenderRef ref="RollingFile" />
+	       </Logger>
 	       <Root level="info">
 	           <AppenderRef ref="RollingFile" />
 	       </Root>
@@ -111,6 +115,12 @@ Create the file `~/lib/log4j2.xml` containing the following and adapt it to your
 If you are upgrading from any version lower than 15.3.x to a version 15.3.x or higher, you will need to also upgrade to Tomcat 9 and Java 11. Additionally, remove the following line from your `~/bin/setenv.sh`:
 
 	-Djava.endorsed.dirs=./common/endorsed                 \
+
+### Tomcat 10.1 and Java 17 {id=java17}
+We recommend using the following software packages:
+
+- Java-WM: AdoptOpenJDK 17 LTS: [https://adoptopenjdk.net/](https://adoptopenjdk.net/)
+- Application server: Tomcat 9: [https://tomcat.apache.org/](https://tomcat.apache.org/)
 
 ## Troubleshooting
 
