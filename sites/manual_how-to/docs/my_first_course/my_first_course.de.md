@@ -95,8 +95,7 @@ Durch Klick auf einen der aufgelisteten Bausteine wird ein Kursbaustein dieses T
 Nach dem Einfügen lassen sich die Kursbausteine im Kursmenü <b>mit gedrückter Maustaste verschieben</b>. Ziehen Sie einen Baustein auf einen Strukturbaustein, wird er dort als untergeordnetes Element eingeordnet. (Strukturbausteine können zugeklappt werden, so dass ihr Inhalt verborgen und das Menü übersichtlicher wird.)
 
 ![Kursbausteinauswahl](assets/Kurseditor_menu.png)
-
-
+<br>
 
 ## 6. Kursbausteine konfigurieren und Lernressourcen hinzufügen
 
@@ -134,8 +133,7 @@ Wenn die Video-Lernressource in verschiedenen Kursen und Kursbausteinen verwende
 
 	
 ![Kursbaustein konfigurieren 2](assets/Grafik_konfigurationsebenen.png)
-
-
+<br>
 
 ## 7. Arbeitsergebnis kontrollieren
 
@@ -150,8 +148,7 @@ In der Kopfzeile des Kurseditors öffnet ein Klick auf die kleine rote Zahl (fal
 Wenn Sie als Autor im Kurseditor arbeiten, tun Sie das in der Rolle als <b>Besitzer</b> dieses Kurses. Nach Verlassen des Kurseditors können Sie auch in die <b>Teilnehmeransicht</b> wechseln, um das Arbeitsergebnis zu überprüfen.
 
 ![Teilnehmeransicht](assets/Teilnehmeransicht.png)
-
-
+<br>
 
 ## 8. Kurs publizieren
 
@@ -174,8 +171,7 @@ Beim Publizieren (Verlassen des Kurseditors) wird von OpenOlat geprüft, ob der 
 	
 	Verwechseln Sie "<b>Publizieren</b>" nicht mit "<b>Veröffentlichen</b>" (Schritt 10).
 	Nach dem Publizieren ist Ihr Kurs noch nicht für andere verfügbar. Dies geschieht erst beim Veröffentlichen.
-
-
+<br>
 
 ## 9. Mitglieder hinzufügen
 
