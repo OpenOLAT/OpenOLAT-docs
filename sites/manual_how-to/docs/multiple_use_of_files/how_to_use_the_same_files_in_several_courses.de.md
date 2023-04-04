@@ -15,6 +15,7 @@ Das hat den Vorteil, dass Sie Ã„nderungen an den Dateien nur einmal vornehmen mÃ
 * mehrere Kurse
 * Dateien, die Sie mehrfach verwenden wollen
 
+
 # Vorgehensweise:
 
 ## 1. Ressourcenordner erstellen  
