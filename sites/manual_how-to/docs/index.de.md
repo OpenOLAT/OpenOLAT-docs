@@ -21,12 +21,6 @@
 
 1. [Wie kann ich meine Kurse durch Suchmaschinen finden lassen?](/docs/oai_pmh/oai_pmh.de.md)
 
-# Teilnehmeradministration
-
 # Teilnehmer betreuen
 
 1. [Wie und wo kann ich eine Massenbewertung vornehmen?](/docs/bulk_assessment/bulk_assessment.de.md)
-
-# Eigenständiges Lernen
-
-# Tests und Prüfungen

@@ -21,12 +21,6 @@
 
 1. [How can I have my courses found by search engines?](/docs/oai_pmh/oai_pmh.md)
 
-# Participant administration
-
 # Attend participants
 
 1. [How and where can I do a bulk assessment?](/docs/bulk_assessment/bulk_assessment.md)
-
-# Independent learning
-
-# Tests and exams
