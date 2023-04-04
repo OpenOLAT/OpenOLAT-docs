@@ -25,7 +25,7 @@ Um OpenOlat-Kurse erstellen zu können, benötigen Sie Autorenrechte. Wenden Sie
   !!! hint "Hinweis"
 	
 	Eventuell ist ein Abmelden und neues Anmelden erforderlich, damit nach der Aktivierung der Autorenrolle der Menüeintrag bei Ihnen sichtbar wird.
-<br><br>
+
 
 ## 2. Autorenbereich betreten
 
@@ -44,7 +44,6 @@ Wenn Sie die Suchmaske verwenden, finden Sie auch Kurse und Lernressourcen ander
 	Sie können auf das Lupensymbol klicken ohne einen Suchbegriff einzugeben. Sie erhalten so <b>alle</b> verfügbaren Kurse und Lernressourcen angezeigt.
 	Mit den Filteroptionen können Sie die Suchergebnisse dann filtern. 
 
-<br><br>
 
 ## 3. Neuen Kurs erstellen
 
@@ -76,7 +75,6 @@ Mit Klick auf die Hilfestellung "Kursdesigns im Vergleich" können Sie sich übe
 
 Klicken Sie zum Abschluss dieses Schritts auf "<b>Erstellen</b>".
 
-<br><br>
 
 ## 4. Kurseinstellungen vornehmen
 
@@ -90,7 +88,7 @@ Die hier gemachten Einstellungen <b>betreffen den Kurs als Ganzes</b>. Wenn Sie 
 !!! hint "Hinweis"
 	
 	Vergessen Sie nicht, zu speichern!
-<br><br>
+
 
 ## 5. Kursbausteine hinzufügen
 
@@ -113,7 +111,7 @@ Nach dem Einfügen lassen sich die Kursbausteine im Kursmenü <b>mit gedrückter
 
 ![Kursbausteinauswahl](assets/Kurseditor_menu.png)
 
-<br><br>
+
 
 ## 6. Kursbausteine konfigurieren und Lernressourcen hinzufügen
 
@@ -152,7 +150,7 @@ Wenn die Video-Lernressource in verschiedenen Kursen und Kursbausteinen verwende
 	
 ![Kursbaustein konfigurieren 2](assets/Grafik_konfigurationsebenen.png)
 
-<br><br>
+
 
 ## 7. Arbeitsergebnis kontrollieren
 
@@ -168,7 +166,7 @@ Wenn Sie als Autor im Kurseditor arbeiten, tun Sie das in der Rolle als <b>Besit
 
 ![Teilnehmeransicht](assets/Teilnehmeransicht.png)
 
-<br><br>
+
 
 ## 8. Kurs publizieren
 
@@ -192,7 +190,7 @@ Beim Publizieren (Verlassen des Kurseditors) wird von OpenOlat geprüft, ob der 
 	Verwechseln Sie "<b>Publizieren</b>" nicht mit "<b>Veröffentlichen</b>" (Schritt 10).
 	Nach dem Publizieren ist Ihr Kurs noch nicht für andere verfügbar. Dies geschieht erst beim Veröffentlichen.
 
-<br><br>
+
 
 ## 9. Mitglieder hinzufügen
 
@@ -205,7 +203,7 @@ Ihr Kurs ist nun lauffähig, aber noch nicht veröffentlicht. Wenn Sie  bereits 
 !!! hint "Hinweis"
 	
 	Es gibt verschiedene Möglichkeiten, wie ein Kurs Mitglieder erhalten kann. Z.B. auch dadurch, dass sich Personen selbst eintragen. Mehr dazu finden Sie an anderer Stelle im Handbuch.
-<br><br>
+
 
 ## 10. Kurs veröffentlichen
 
@@ -217,7 +215,7 @@ Durch Klick auf "Vorbereitung" können Sie einen anderen Status wählen. Es sind
 
 ![Status Vorbereitung2](assets/Status2.png)
 
-<br>
+
 
 Status| Zugriff|
 ---|---|  
@@ -229,7 +227,7 @@ Status| Zugriff|
   
 
 Um Ihren ersten eigenen Kurs nun für andere OpenOlat-Benutzer sichtbar zu machen, ändern Sie den Status auf <b>"Veröffentlicht"</b>. Der Kurs ist dann gewissermassen von Ihrer Werkbank in den Verkaufsraum gebracht worden.
-<br><br>
+
 
 ### Anzeige im Katalog
 

@@ -14,7 +14,7 @@ We show you the way to your first OpenOlat course in 10 steps:
 10. Change status
 
 </b>
-<br><br>
+
 
 ## 1. Get author rights
 
@@ -25,7 +25,7 @@ To be able to create OpenOlat courses, you need author rights. Please contact yo
   !!! hint "Hint"
 	
 	It may be necessary to log out and log in again so that the menu item is visible to you after the author role has been activated.
-<br><br>
+
 
 ## 2. Enter authoring area
 
@@ -33,7 +33,8 @@ After opening the authoring area, you will see an empty list, because you have n
 
 ![authoring empty](assets/authoring_my_entries_empty.png)
 
-If you use the search mask, you will also find courses and learning resources from other authors. However, only those, 
+If you use the search mask, you will also find courses and learning resources from other authors. However, only those,
+
 * which have already been published by fellow authors 
 * and access by other authors has been allowed.
 
@@ -44,7 +45,7 @@ If you use the search mask, you will also find courses and learning resources fr
 	You can click on the magnifying glass icon without entering a search term. This will show you <b>all</b> available courses and learning resources.
 	You can then filter the search results using the filter options.
 
-<br><br>
+
 
 ## 3. Create a new course
 
@@ -75,7 +76,7 @@ By clicking on the help "Course designs in comparison" you can learn about the d
 
 To complete this step, click on "<b>Create</b>".
 
-<br><br>
+
 
 ## 4. Make course settings 
 
@@ -89,7 +90,7 @@ The settings made here <b>apply to the course as a whole</b>. If you have then i
 !!! hint "Hint"
 	
 	Don't forget to save!
-<br><br>
+
 
 ## 5. Add course elements
 
@@ -112,7 +113,7 @@ After insertion, the course elements can be <b>moved</b> in the course menu with
 
 ![Course editor menu](assets/course_editor_menu.png)
 
-<br><br>
+
 
 ## 6. Configure course elements and add learning resource
 
@@ -151,7 +152,7 @@ If the video learning resource is used in different courses and course elements,
 	
 ![Kursbaustein konfigurieren 2](assets/Grafic_configuration_level.png)
 
-<br><br>
+
 
 ## 7. Check your work result
 
@@ -162,12 +163,12 @@ In the header of the course editor, a click on the small red number (if there ar
 
 ![work result badges](assets/work_result_badges.png)
 
-<br>
+
 When you work as an author in the course editor, you do it in the role of the <b>owner</b> of this course. After leaving the course editor, you can also switch to the <b>participant view</b> to check the work result.
 
 ![Participant view](assets/participant_view.png)
 
-<br><br>
+
 
 ## 8. Publish course
 
@@ -192,7 +193,7 @@ When publishing (leaving the course editor) OpenOlat checks if the course is tec
 	Do not confuse <b>"Publish"</b> with <b>"Change status to published"</b> (step 10).
 	After publishing, your course is not yet available to others. This happens only when you change the status to "published".
 
-<br><br>
+
 
 ## 9. Add members
 
@@ -205,7 +206,7 @@ Your course is now ready to run, but has not yet the status "published". If you 
 !!! hint "Note"
 	
 	There are various ways in which a course can obtain members. E.g. also by people registering themselves. More about this can be found elsewhere in the manual.
-<br><br>
+
 
 ## 10. Change status
 
@@ -217,7 +218,7 @@ By clicking on "Preparation" you can select another status. The following states
 
 ![Status Vorbereitung2](assets/Status2_en.png)
 
-<br>
+
 
 Status| Access|
 ---|---|  
@@ -229,7 +230,7 @@ Status| Access|
   
 
 To make your first own course visible to other OpenOlat users now, change the status to <b>"Published"</b>. The course has then been brought from your workbench to the sales floor, so to speak.
-<br><br>
+
 
 ### Display in catalog
 
