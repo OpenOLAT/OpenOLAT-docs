@@ -25,7 +25,7 @@
 
 # Teilnehmer betreuen
 
-1. [Wie und wo kann ich eine Massenbewertung vornehmen?](/docs/bulk_assessment/how_to_create_a_bulk_assessment.de.md)
+1. [Wie und wo kann ich eine Massenbewertung vornehmen?](/docs/bulk_assessment/bulk_assessment.de.md)
 
 # Eigenständiges Lernen
 
