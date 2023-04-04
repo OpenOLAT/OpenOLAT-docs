@@ -196,11 +196,11 @@ Your course is now ready to run, but has not yet the status "published". If you 
 
 If a new course is created, it initially always has the <b>status "Preparation"</b>. This means that only you as the author can see the course. It is located in the workshop (authoring area) on your personal workbench, so to speak.
 
-![Status Vorbereitung](assets/Status1_en.png)
+![Status Vorbereitung](assets/status1_en.png)
 
 By clicking on "Preparation" you can select another status. The following states are possible:
 
-![Status Vorbereitung2](assets/Status2_en.png)
+![Status Vorbereitung2](assets/status2_en.png)
 
 
 

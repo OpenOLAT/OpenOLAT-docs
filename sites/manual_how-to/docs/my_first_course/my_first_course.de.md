@@ -129,9 +129,10 @@ Dieses Konzept hat den Vorteil, dass die mp4-Datei (Lernressource) ausgetauscht 
 Es gibt auch noch <b>Konfigurationsmöglichkeiten der Lernressource</b>, wie z.B. Annotationen (Anmerkungen).
 	
 Wenn die Video-Lernressource in verschiedenen Kursen und Kursbausteinen verwendet wird, sind diese Annotationen in allen Kursbausteinen dabei, in die diese Lernressource eingebunden wird.
+
 ![Lernressource Video](assets/Grafik_kurs_lernressource_video2.png)
 
-	
+
 ![Kursbaustein konfigurieren 2](assets/Grafik_konfigurationsebenen.png)
 <br>
 
