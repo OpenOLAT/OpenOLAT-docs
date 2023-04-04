@@ -40,7 +40,7 @@ addition to the course owner.
 
     Only when an external blog has been integrated or an OpenOlat blog has been created with a first post, blog posts can also be created in the course run by the previously defined group of people.
 
-# Procedure for an OpenOlat internal blog
+## Procedure for an OpenOlat internal blog
 
 ## Step 3: Fill Blog with Content  
 ---  
