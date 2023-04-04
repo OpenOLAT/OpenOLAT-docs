@@ -14,7 +14,7 @@ automatically visible in all linked courses.<br>Typical examples for such files 
 * information on general support and contact persons,
 * etc.
 
-## What you need:
+## What you need
 
 * author rights
 * a [ressource folder](../../manual_user/course_create/Course_Settings.md)
@@ -28,6 +28,7 @@ automatically visible in all linked courses.<br>Typical examples for such files 
 1.1 Go to the [Authoring Area](../../manual_user/authoring/index.md) and select "Create" -> "Resource folder".
 
 ![create resource folder](assets/resource_folder_create.png)  
+<br>
 
 1.2 Enter a suitable name for the resource folder and complete the general description form as required. Since the resource folder is used more for internal organization, it is not mandatory to enter information here. The description of the learning resource serves more for your own organization.  
      ![create resource folder title](assets/resource_folder_create_title.png)  
@@ -35,10 +36,12 @@ automatically visible in all linked courses.<br>Typical examples for such files 
 !!! info "Note"
 
     Resource folders are listed like other learning resources in the authoring area. Technically, a complete resource folder is a single learning resource.
+<br>
 
 1.3 Chose in the authoring area the resource folder, listed there as learning resource.  
 
 ![create resource](assets/resource_folder_in_authoring_area.png)  
+<br>
 
 1.4 Here you can now upload files and create subfolders if necessary.
 
@@ -48,22 +51,30 @@ The usual setting options for learning resources are also available to you (Admi
 
 ![resource folder files](assets/resource_folder_files.png) 
 
+
 1.5 Alternatively you can create files directly here.
-    ![resource folder create file](assets/resource_folder_create_file.png) 
+![resource folder create file](assets/resource_folder_create_file.png) 
+
 
 ## 2. Include Resource Folders in Courses  
 
 2.1 Open the desired course and select in the "Administration", submenu "Settings" the tab "Options".
 
 ![](assets/resource_folder_settings_options.png)
- 
+
+<br>
+
 2.2 Choose "Replace" under "Selected resource folder".
 
 ![](assets/resource_folder_replace.png) 
-  
+
+<br>
+
 2.3 Here you can select the resource folder you created in advance and link it to the course. When you have selected a resource folder, its name will appear as well as the
 the button "Delete selection", with which you can deselect it again.
-  
+
+<br>
+
 2.4 By default, the files in the resource folder are write-protected within courses. This makes sense because you want to change and update the files centrally. <br>However, if it is necessary to overwrite (single) central files
 again in the course and only for the respective course, you can remove the write protection in the "Options" menu of the course.
 
@@ -79,7 +90,7 @@ Repeat the procedure for all relevant courses.
 
 ![](assets/storage_folder_without_menu.png)
   
-3.2 The files of this folder can now be added in the course editor like all other files of the storage folder via course element "[Single Page](../../manual_user/course_elements/Knowledge_Transfer.md)".
+3.2 The files of this folder can now be added in the course editor like all other files of the storage folder via course element "[Single Page](../../../manual_user/docs/course_elements/Knowledge_Transfer.md)".
 
 !!! warning "Please note:"
 

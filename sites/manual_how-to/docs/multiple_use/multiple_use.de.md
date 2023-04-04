@@ -9,7 +9,7 @@ Das hat den Vorteil, dass Sie Änderungen an den Dateien nur einmal vornehmen m�
 * Infos zur generellen Betreuung bzw. Ansprechpartnern
 * usw.
 
-## Was Sie benötigen:
+## Was Sie benötigen
 
 * Autorenrechte
 * einen [Ressourcenordner](../../manual_user/course_create/Course_Settings.de.md)
@@ -22,6 +22,7 @@ Das hat den Vorteil, dass Sie Änderungen an den Dateien nur einmal vornehmen m�
 
 1.1 Gehen Sie hierfür in den [Autorenbereich](../../manual_user/authoring/index.de.md) und wählen Sie „Erstellen“ -> „Ressourcenordner“.
 ![erstellen ressource](assets/Ressourcenordner_erstellen.png)  
+<br>
 
 1.2 Vergeben Sie einen passenden Namen für den Ressourcenordner und füllen Sie das allgemeine Beschreibungsformular nach Bedarf aus. Da der Ressourcenordner eher für die interne Organisation verwendet wird, ist es nicht zwingend nötig, hier Infos zu hinterlegen. Die Beschreibung der Lernressource dient hier eher Ihrer eigenen Organisation.  
 ![erstellen ressource](assets/Ressourcenordner_erstellen_Titel.png)  
@@ -29,9 +30,11 @@ Das hat den Vorteil, dass Sie Änderungen an den Dateien nur einmal vornehmen m�
 !!! info "Hinweis"
 
     Ressourcenordner werden wie andere Lernressourcen im Autorenbereich aufgelistet. Technisch gesehen, ist ein kompletter Ressourcenordner eine einzelne Lernressource.
+<br>
 
 1.3 Wählen Sie im Autorenbereich den als Lernressource aufgelisteten Ressourcenordner.  
 ![erstellen ressource](assets/Ressourcenordner_im_Autorenbereich.png)  
+<br>
 
 1.4 Hier können Sie nun Dateien hochladen und ggf. Unterordner erstellen.
 
@@ -50,15 +53,21 @@ Es stehen Ihnen auch die üblichen Einstellmöglichkeiten für Lernressourcen zu
 2.1 Öffnen Sie den gewünschten Kurs und wählen Sie in der "Administration" im Untermenü "Einstellungen" den Reiter "Optionen".
 
 ![](assets/Ressourcenordner_Einstellungen_Optionen.png)
- 
+
+ <br>
+
 2.2 Klicken Sie unter "Gewählter Ressourcenordner" auf "Auswechseln".
 
 ![](assets/Ressourcenordner_auswechseln.png) 
- 
+
+ <br>
+
 2.3 Hier können Sie nun Ihren im Vorfeld erstellten Ressourcenordner auswählen und
 so mit dem Kurs verlinken. Wenn Sie einen Ressourcenordner ausgewählt haben, erscheint sein Name sowie
 der Button "Auswahl löschen", mit dem Sie ihn wieder abwählen können.
-  
+
+<br>
+
 2.4 Standardmässig sind die Dateien des Ressourcenordners innerhalb von Kursen schreibgeschützt. Das macht Sinn, da man die Dateien ja zentral ändern und aktualisieren möchte.<br>Ist es jedoch notwendig (einzelne) zentrale Dateien noch
 einmal im Kurs und zwar nur für den jeweiligen Kurs zu überschreiben, können Sie den Schreibschutz im Menü "Optionen" des Kurses entfernen.
 
@@ -77,7 +86,7 @@ angelegten Unterordner „_sharedfolder“.
 ![](assets/Ablageordner_ohne_menu.png)
   
 3.2 Die Dateien dierses Ordners können Sie nun wie alle anderen Dateien des Ablageordners über
-den Kursbaustein "[Einzelne Seite](../../manual_user/course_elements/Knowledge_Transfer.de.md)" im Kurseditor
+den Kursbaustein "[Einzelne Seite](../../../manual_user/docs/course_elements/Knowledge_Transfer.de.md)" im Kurseditor
 hinzufügen.
 
 !!! warning "Zu beachten"
