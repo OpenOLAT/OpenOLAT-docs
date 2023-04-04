@@ -369,7 +369,7 @@ nav:
   - User manual: '!include ./sites/manual_user/mkdocs.yml' 
   - How to: '!include ./sites/manual_how-to/mkdocs.yml' 
   - Admin manual: '!include ./sites/manual_admin/mkdocs.yml' 
-  - Developer cookbook: '!include ./sites/manual_dev/mkdocs.yml' 
+#  - Developer cookbook: '!include ./sites/manual_dev/mkdocs.yml' 
 # Invisible fake pages to fix incompatibility between monorepo and i18n plugin
   - '': '!include ./sites/en/mkdocs.yml' 
   - '': '!include ./sites/de/mkdocs.yml' 
