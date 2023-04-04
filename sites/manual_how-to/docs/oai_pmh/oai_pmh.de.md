@@ -8,24 +8,22 @@ Darüber hinaus gibt es evtl. auch noch den Wunsch, dass Suchmaschinen nicht nur
 
 <b>Beispiel</b>: <br>Bestimmte in OpenOlat erstellte Infoseiten sollen als Werbung dienen und in Suchmaschinen erscheinen und ausgewertet werden.
 
-
 ## Was gibt OpenOlat für Suchmaschinen zum Durchsuchen frei?
 
 Seit Release 17.2 kann eingestellt werden, dass
-- alle Angaben der <b>Infoseite</b> zu den Kursen und Lernressourcen
-- sofern der Besitzer des Kurses / der Lernressource es erlaubt
-- und der Administrator die Funktion generell zur Verfügung gestellt hat 
+
+* alle Angaben der <b>Infoseite</b> zu den Kursen und Lernressourcen
+* sofern der Besitzer des Kurses / der Lernressource es erlaubt
+* und der Administrator die Funktion generell zur Verfügung gestellt hat 
 
 an Suchmaschinen übergeben werden.
 
 ![Infoseite](assets/Infoseite1.png)
 
-
 ## Wie wird diese Funktion generell aktiviert?
 
 Das Modul kann vom Administrator unter 
-- <b>Administration -> Module -> SEO/OAI-PMH Metadaten</b>
-
+<br> <b>Administration -> Module -> SEO/OAI-PMH Metadaten</b><br>
 eingeschaltet werden. 
 
 Standardmässig ist dieses Modul auf jeder Instanz deaktiviert.
@@ -34,32 +32,25 @@ Wenn das Modul eingeschaltet wurde, ist der API-Endpoint verfügbar, wo alle ver
 
 ![OAIPMH Aktivierung](assets/OAIPMH_Aktivierung.png)
 
-
 ## Wie wird diese Funktion für bestimmte Kurse / Lernressourcen aktiviert?
 
 (Voraussetzung: Generelle Aktivierung der Funktion durch den Administrator)
 
-
 1. Damit die Informationen an die Suchmaschinen weiter gegeben werden, muss der jeweilige Autor (Besitzer) dies für seinen Kurs / seine Lernressource erlauben.
 
 ![Indexieren zulassen](assets/Indexieren_zulassen.png)
-<br><br>
 
 2. Es werden nur Kurse / Lernressourcen berücksichtigt, die den Status „Veröffentlicht“ haben.
 
 ![Status](assets/Status.png)
-
 
 3. (Optional) Es kann festgelegt werden, dass nur Kurse/Lernressourcen mit Lizenz indexierbar sind. Der Administrator kann definieren welche Lizenzen zum Indexieren erlaubt sind. Die Autoren können dann ihren Kurs / ihre Lernressource nur noch indexieren lassen, wenn eine dieser Lizenzen gewählt ist.
 
 Option für den Administrator:
 ![Lizenzbeschraenkung Admin](assets/Lizenzbeschraenkung_Admin2.png)
 
-
 Hinweis zur Beschränkung an den Autor:
 ![Lizenzbeschraenkung Admin](assets/Lizenzbeschraenkung_Autor.png)
-
-
 
 ## Wie sehe ich im Autorenbereich, welche Kurse/Lernressourcen zur Indexierung freigegeben sind?
 
@@ -67,11 +58,10 @@ Im Autorenbereich kann durch <b>Einblenden der Spalte OER</b> angezeigt werden, 
 
 ![Autorenbereich Spaltenanzeige](assets/Autorenbereich_Spaltenanzeige.png)
 
-
-
 ## Wie kann ich als Autor zur Suchmaschinenoptimierung beitragen?
 
 Bei den Informationen auf den Infoseiten der Kurse und Lernressourcen handelt es sich um Angaben, die von den Autoren unter den <b>Einstellungen</b> im 
+
 * <b>Tab Info</b> und 
 * <b>Tab Metadaten</b> <br>
 
@@ -79,13 +69,11 @@ erfasst werden. Je mehr Angaben die Autoren also hier einpflegen und je besser d
 
 ![Einstellungen Info Metadaten](assets/Einstellungen_Info_Metadaten.png)
 
-
 ## Wie mache ich eine Suchmaschinenoptimierung (SEO*) als Admin?
 *Search Engine Optimization
 
 Optionen zur SEO finden Sie als Administrator auf der gleichen Seiten, auf der Sie auch die Funktion generell aktivieren:
-
-- <b>Administration > Module > OAI PMH</b>
+<br> <b>Administration > Module > OAI PMH</b><br>
 
 Weitere Informationen finden Sie im Administrationshandbuch.
 
