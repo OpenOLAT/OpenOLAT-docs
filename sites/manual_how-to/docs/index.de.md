@@ -19,7 +19,7 @@
 
 # Kurse anbieten
 
-1. [Wie kann ich meine Kurse durch Suchmaschinen finden lassen?](/docs/oai_pmh/how_can_I_have_my_courses_found_by_search_engines.de.md)
+1. [Wie kann ich meine Kurse durch Suchmaschinen finden lassen?](/docs/oai_pmh/oai_pmh.de.md)
 
 # Teilnehmeradministration
 
