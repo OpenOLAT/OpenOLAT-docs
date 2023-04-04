@@ -1,6 +1,6 @@
 # Set up OpenOlat
 
-1. [How to customize the course design with CSS](/manual_how-to/docs/css/css)
+1. [How to customize the course design with CSS](/manual_how-to/css/css)
 
 # Working processes
 
