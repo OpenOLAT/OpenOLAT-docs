@@ -14,14 +14,12 @@
 !!! hint "Hinweis"
 	
 	Bitten Sie Ihren Systemanbieter, Kursthemen zu implementieren, die auf Systemebene unterstützt werden und nach jeder OpenOlat-Aktualisierung neu kompiliert werden und somit garantiert auch nach Aktualisierungen funktionieren.
-<br><br>
 
 ## Welche Voraussetzungen muss ich mitbringen?
 
   * Vertiefte CSS-Kenntnisse
   * Erfahrungen mit Browser-Entwicklerwerkzeugen
   * evtl. HTML Grundkenntnisse
-<br><br>
 
 ## Welche Werkzeuge benötige ich, um das OpenOlat Design zu ändern?
 
@@ -30,8 +28,6 @@ Sie benötigen:
 * und ein Werkzeug um das CSS von OpenOlat zu analysieren, bzw. die entsprechenden Selektoren, die verändert werden sollen, zu identifizieren. <br>
 Möglich ist dies z.B. über die Browser Option "Element untersuchen". In Firefox und Chrome ist dieses Werkzeug bereits integriert.
 Klicken Sie mit der rechten Maustaste in die Webseite und wählen Sie dann "Element untersuchen (Q)" bzw. "Untersuchen (Strg+Shift+I)". Wenn Sie z.B. auf die obere Navigationsleiste klicken, zeigt Ihnen die Information den Namen des Selektors an, in diesem Fall „#o_navbar_container“.
-<br><br>
-
 
 ## Was ist möglich?
 
@@ -43,7 +39,6 @@ Das Standard OpenOlat Layout lässt sich mit Hilfe von CSS beliebig anpassen und
 
 	Einige generelle Selektoren (z.B. h2, p) werden in OpenOlat mehrfach verwendet und so können Änderungen sehr weitreichend, jedoch nicht immer in der ganzen
 	Tragweite ersichtlich sein. Wird z.B. die Schriftfarbe in Blau geändert, kann es sein, dass die Schrift auf blauen Buttons nicht mehr lesbar ist (z.B. in einem Test). Überdenken Sie also vorab ihre Handlung und halten Sie sich immer an die Grundlagen des Webdesigns, wie beispielsweise ausreichenden Kontrast zwischen Schriftfarbe und Hintergrund.
-<br><br>
 
 ## Wo wird die CSS-Datei gespeichert und eingebunden?
 
@@ -51,7 +46,6 @@ Um Ihre CSS-Datei für die Gestaltung Ihres OpenOlat Kurses nutzen zu können, m
 
 Damit die Datei auch verwendet wird, wird im OpenOlat <b>Kursmenü "Layout"</b> die gewünschte Datei ausgewählt. Wenn Sie später doch wieder zu dem Standard OpenOlat Layout zurückkehren möchten,
 wählen Sie die Option "Standard" aus, oder löschen einfach ihre CSS aus dem Ablageordner.
-<br><br>
 
 ## Beispiele für individuelle Gestaltung
 
@@ -60,7 +54,6 @@ Die Änderungsmöglichkeiten sind vielfältig.
 !!! danger "Achtung"
 
 	Das Ändern von OpenOlat-CSS-Klassen kann zu unerwartetem Verhalten beim Aktualisieren des System führen. Die unten aufgeführten Klassennamen und Element-IDs sind nicht garantiert verfügbar und können sich mit OpenOlat-Updates ändern. Auch die zugrunde liegende DOM-Struktur von OpenOlat kann sich ändern. Es wird daher nicht empfohlen, CSS-Regeln zu erstellen, die die Stile im OpenOlat-DOM oder CSS-Namensraum ändern.
-<br><br>
 
 ## Beispiel: Hintergrund ändern
 
@@ -103,7 +96,7 @@ sehen:
 	#o_footer_wrapper, #o_footer_container {  
 		background: transparent;  
 	}  
-<br><br>
+
 ## Beispiel: Kursbaustein Einzelseite  
 
 Oft kann es nötig sein den Hintergrund einer einzelnen HTML Seite dem
@@ -117,7 +110,7 @@ der body transparent gemacht:
 	body {  
 		background-color: transparent;  
 	}
-<br><br>
+
 ## Beispiel: Klassen- und ID-Selektoren
 
 Im Folgenden sind einige Bereiche eines OpenOlat Kurses mit den entsprechenden
@@ -156,7 +149,6 @@ beispielsweise folgende CSS-Eigenschaften:
   *  `font-weight: bold;` definiert die Schriftstärke (`bold` = fett)  
   *  `text-transform: uppercase;` beschreibt das Verhalten der Schrift (`uppercase` = nur Grossbuchstaben)
   *  `text-decoration: underline;` der Text wird unterstrichen dargestellt  
-<br><br>
 
 ## Weiterführende Informationen
 
