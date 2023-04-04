@@ -1,5 +1,4 @@
 # OpenOlat einrichten
-
 1. [Wie kann ich eigene CSS für das Kursdesign verwenden?](/de/manual_how-to/css/css)
 
 # Allg. Arbeitsweisen
