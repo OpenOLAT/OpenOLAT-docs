@@ -6,7 +6,8 @@
 	
 	Note, that modifying the OpenOlat layout by manipulating the system CSS is not supported over versions. This means that creating a course layout may result in a broken course design after a system update. 
 	
-	Use a own CSS only 
+	Use a own CSS only
+
 	* with caution,
 	* only if absolutely necessary
 	* and when you are in control over the update cycle of your OpenOlat installation.
@@ -23,10 +24,11 @@
 
 ## Which tools do I need to customize my OpenOlat design?
 
-You need: 
-* An editor (e.g. [Notepad++](https://notepad-plus-plus.org/)) to create the CSS file
+You need:
+
+* An <b>editor</b> (e.g. [Notepad++](https://notepad-plus-plus.org/)) to create the CSS file
 * and a tool to analyse the website's CSS. This will help you find the appropriate ID and class selectors.<br>
-It can be done e.g. via the browser option "Examine element".
+It can be done e.g. via the <b>browser option "Examine element"</b>.
 In Firefox and Chrome this tool is already integrated.
 Right-click in the web page and select "Examine Element
 (Q)" or "Examine (Ctrl+Shift+I)".

@@ -6,7 +6,8 @@
 	
 	Beachten Sie, dass das Ändern des OpenOlat-Layouts durch Manipulation des System-CSS nicht versionsübergreifend unterstützt wird. Das bedeutet, dass das Erstellen eines Kurslayouts nach einem Systemupdate zu einem defekten Kursdesign führen kann. 
 	
-	Verwenden Sie eigene CSS nur 
+	Verwenden Sie eigene CSS nur
+
 	* mit Vorsicht,
 	* nur, wenn es absolut notwendig ist
 	* und wenn Sie die Kontrolle über den Aktualisierungszyklus Ihrer OpenOlat-Installation haben. 
@@ -23,10 +24,12 @@
 
 ## Welche Werkzeuge benötige ich, um das OpenOlat Design zu ändern?
 
-Sie benötigen: 
-* einen Editor (z.B. [Notepad++](https://notepad-plus-plus.org/)) um die CSS Datei zu erstellen
-* und ein Werkzeug um das CSS von OpenOlat zu analysieren, bzw. die entsprechenden Selektoren, die verändert werden sollen, zu identifizieren. <br>
-Möglich ist dies z.B. über die Browser Option "Element untersuchen". In Firefox und Chrome ist dieses Werkzeug bereits integriert.
+Sie benötigen:
+
+* einen <b>Editor</b> (z.B. [Notepad++](https://notepad-plus-plus.org/)) um die CSS Datei zu erstellen
+* und ein Werkzeug um das CSS von OpenOlat zu analysieren, bzw. die entsprechenden Selektoren, die verändert werden sollen, zu identifizieren.
+
+Möglich ist dies z.B. über die <b>Browser Option "Element untersuchen"</b>. In Firefox und Chrome ist dieses Werkzeug bereits integriert.
 Klicken Sie mit der rechten Maustaste in die Webseite und wählen Sie dann "Element untersuchen (Q)" bzw. "Untersuchen (Strg+Shift+I)". Wenn Sie z.B. auf die obere Navigationsleiste klicken, zeigt Ihnen die Information den Namen des Selektors an, in diesem Fall „#o_navbar_container“.
 
 ## Was ist möglich?
