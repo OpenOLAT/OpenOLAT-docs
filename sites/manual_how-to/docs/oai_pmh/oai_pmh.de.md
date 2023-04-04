@@ -36,15 +36,15 @@ Wenn das Modul eingeschaltet wurde, ist der API-Endpoint verfügbar, wo alle ver
 
 (Voraussetzung: Generelle Aktivierung der Funktion durch den Administrator)
 
-1. Damit die Informationen an die Suchmaschinen weiter gegeben werden, muss der jeweilige Autor (Besitzer) dies für seinen Kurs / seine Lernressource erlauben.
+1.) Damit die Informationen an die Suchmaschinen weiter gegeben werden, muss der jeweilige Autor (Besitzer) dies für seinen Kurs / seine Lernressource erlauben.
 
 ![Indexieren zulassen](assets/Indexieren_zulassen.png)
 
-2. Es werden nur Kurse / Lernressourcen berücksichtigt, die den Status „Veröffentlicht“ haben.
+2.) Es werden nur Kurse / Lernressourcen berücksichtigt, die den Status „Veröffentlicht“ haben.
 
 ![Status](assets/Status.png)
 
-3. (Optional) Es kann festgelegt werden, dass nur Kurse/Lernressourcen mit Lizenz indexierbar sind. Der Administrator kann definieren welche Lizenzen zum Indexieren erlaubt sind. Die Autoren können dann ihren Kurs / ihre Lernressource nur noch indexieren lassen, wenn eine dieser Lizenzen gewählt ist.
+3.) (Optional) Es kann festgelegt werden, dass nur Kurse/Lernressourcen mit Lizenz indexierbar sind. Der Administrator kann definieren welche Lizenzen zum Indexieren erlaubt sind. Die Autoren können dann ihren Kurs / ihre Lernressource nur noch indexieren lassen, wenn eine dieser Lizenzen gewählt ist.
 
 Option für den Administrator:
 ![Lizenzbeschraenkung Admin](assets/Lizenzbeschraenkung_Admin2.png)

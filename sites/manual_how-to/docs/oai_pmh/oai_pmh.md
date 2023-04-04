@@ -1,5 +1,4 @@
 # How can I have my courses found by search engines?
-<br>
 
 ## Do search engines find all OpenOlat courses?
 
@@ -8,25 +7,23 @@ No. Anyone who wants to learn and work in OpenOlat must normally register. OpenO
 In addition, there may also be the desire that search engines should not only be <b>allowed</b> to find, but <b>should find</b> certain offers if possible.
 
 <b>Example</b>: <br>Certain info pages created in OpenOlat are intended to serve as advertisements and should appear in search engines to be evaluated.
-<br><br>
 
 ## What does OpenOlat release for search engines to browse?
 
 Since release 17.2 it is possible to set that
-- all information on the <b>info page</b> of the courses and learning resources
-- as long as the owner of the course / learning resource allows it
-- and the administrator has made the function generally available 
+
+* all information on the <b>info page</b> of the courses and learning resources
+* as long as the owner of the course / learning resource allows it
+* and the administrator has made the function generally available 
 
 are transferred to search engines.
 
 ![Infoseite](assets/infopage1.png)
 
-<br><br>
-
 ## How is this function generally enabled?
 
 The module can be activated by the administrator under
-- <b>Administration -> Modules -> SEO/OAI-PMH metadata</b> 
+<br> <b>Administration -> Modules -> SEO/OAI-PMH metadata</b> 
 
 By default, this module is disabled on every instance.
 
