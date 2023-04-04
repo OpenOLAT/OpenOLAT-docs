@@ -2,6 +2,7 @@
 
 Wenn Sie ein Lehrszenario mit mehreren Kursen, z.B. einen Studiengang umsetzen wollen und dabei viele Dateien in allen Kursen verwendet werden sollen, bietet es sich an, diese Dateien zentral im <b>Ressourcenordner</b> abzulegen und dann in allen gewünschten Kursen einzubinden. <br>
 Das hat den Vorteil, dass Sie Änderungen an den Dateien nur einmal vornehmen müssen und diese automatisch in allen verlinkten Kursen sichtbar werden.<br>Typische Beispiele für derartige Dateien sind: 
+
 * grundsätzliche Rahmenbedingungen,
 * AGBs,
 * organisatorische Infos,
@@ -11,7 +12,7 @@ Das hat den Vorteil, dass Sie Änderungen an den Dateien nur einmal vornehmen m�
 ## Was Sie benötigen:
 
 * Autorenrechte
-* einen [Ressourcenordner](../course_create/Course_Settings.de.md)
+* einen [Ressourcenordner](../../manual_user/course_create/Course_Settings.de.md)
 * mehrere Kurse
 * Dateien, die Sie mehrfach verwenden wollen
 
@@ -19,7 +20,7 @@ Das hat den Vorteil, dass Sie Änderungen an den Dateien nur einmal vornehmen m�
 
 ## 1. Ressourcenordner erstellen  
 
-1.1 Gehen Sie hierfür in den [Autorenbereich](../authoring/index.de.md) und wählen Sie
+1.1 Gehen Sie hierfür in den [Autorenbereich](../../manual_user/authoring/index.de.md) und wählen Sie
 „Erstellen“ -> „Ressourcenordner“.
      ![erstellen ressource](assets/Ressourcenordner_erstellen.png)  
 
@@ -35,7 +36,7 @@ Das hat den Vorteil, dass Sie Änderungen an den Dateien nur einmal vornehmen m�
 
 1.4 Hier können Sie nun Dateien hochladen und ggf. Unterordner erstellen.
 
-Nutzen Sie [**WebDAV**](../supported_tech/Using_WebDAV.de.md), wenn Sie viele Dateien hochladen wollen.  
+Nutzen Sie [**WebDAV**](../webdav/webdav.de.md), wenn Sie viele Dateien hochladen wollen.  
 
 Es stehen Ihnen auch die üblichen Einstellmöglichkeiten für Lernressourcen zur Verfügung (Administration -> Einstellungen).
 
@@ -77,7 +78,7 @@ angelegten Unterordner „_sharedfolder“.
 ![](assets/Ablageordner_ohne_menu.png)
   
 3.2 Die Dateien dierses Ordners können Sie nun wie alle anderen Dateien des Ablageordners über
-den Kursbaustein "[Einzelne Seite](../course_elements/Knowledge_Transfer.de.md)" im Kurseditor
+den Kursbaustein "[Einzelne Seite](../../manual_user/course_elements/Knowledge_Transfer.de.md)" im Kurseditor
 hinzufügen.
 
 !!! warning "Zu beachten"

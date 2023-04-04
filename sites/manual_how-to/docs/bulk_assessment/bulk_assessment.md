@@ -5,13 +5,13 @@
 With a bulk assessment you may assess several course participants with the [assessment tool
 ](../course_operation/Assessment_tool_-_overview.md) at a time of your choice at once.
 <br><br>
-Bulk assessments can be done for [assessment course elements](../course_elements/Assessment.md):
+Bulk assessments can be done for [assessment course elements](../../manual_user/course_elements/Assessment.md):
 * course element "task",
 * course element "group task" and
 * course element "assessment"
 
 For course elements "task" and "assessment" you may also do a bulk assessment for groups used in these elements.
-<br><br>
+
 ## Who can do a bulk assessment?
 
 A bulk assessment can be performed by all persons who are otherwise authorized to assess. These are primarily the coaches of a course.
@@ -28,15 +28,15 @@ A bulk assessment can be performed by all persons who are otherwise authorized t
     * passed
     * comment
     * files
-<br><br>
+
 
 ## Where do you start a bulk assessment?
 
 The general procedure is:
 * Select in the [assessment tool
-](../course_operation/Assessment_tool_-_overview.de.md) the course element of your course, for which you want to do a bulk assessment
+](../../manual_user/course_operation/Assessment_tool_-_overview.de.md) the course element of your course, for which you want to do a bulk assessment
 * or select the "bulk assessment" option in the toolbar. 
-<br><br>
+
 
 ### The bulk assessment for <b>course element task</b> is started by 
 * selection of your course
@@ -47,7 +47,7 @@ The general procedure is:
 * click the button "start new bulk assessment" or the button "bulk assessment" in the tool bar
 
 ![Wizard](assets/bulk_assessment_ce_task.png)
-<br><br>
+
 
 ### The bulk assessment for <b>course element group task</b> is started by  
 * selection of your course
@@ -58,7 +58,7 @@ The general procedure is:
 * click the button "bulk assessment" in the tool bar
 
 ![Wizard](assets/bulk_assessment_ce_grouptask.png)
-<br><br>
+
 
 ### The bulk assessment for <b>course element assessment</b> is started by
 * selection of your course
@@ -69,23 +69,23 @@ The general procedure is:
 * click the button "start new bulk assessment" or the button "bulk assessment" in the tool bar
 
 ![Wizard](assets/bulk_assessment_ce_assessment.png)
-<br><br>
+
 
 ### The bulk assessment of an <b>entire course</b> or of a <b>certain group</b> 
 starts with the selection of the course or the group. 
 Then, however, concrete course elements must be selected which this course contains or which this group works on. From there on, the bulk assessment will be carried out according to one of the above procedures.
-<br><br>
+
 
 ## How do I proceed after the start?
 
 After the start you will be guided step by step by a <b>wizard</b> through the bulk assessment.
-<br><br>
+
 
 ## Step 1: Choose your course element
  
 Only the assessable course elements from the selected course are displayed in a list. Select the desired course element.
 ![Massenbewertung_KB](assets/bulk_assessment_wizard_1.png)
-<br><br>
+
 
 ## Step 2: Prepare and insert assessment data
 
@@ -94,7 +94,7 @@ Only the assessable course elements from the selected course are displayed in a 
 !!! info "Note on course element task"
 
     For the course element task, you can additionally select whether the delivery was accepted and upload zipped return files. If no such course element is included, "delivery" and "return files" are not applicable.
-<br><br>
+
 
 ## Step 2a: Prepare assessment data 
 
@@ -117,7 +117,7 @@ The individual fields are separated by tab or comma.
 The easiest way is to use a table from Excel or OpenOffice and fill it with values.
 
 ![Table](assets/bulk_assessment_excel.png)
-<br><br>
+
 
 ## Step 2b: Insert Assessment data 
 
@@ -144,7 +144,6 @@ Alternatively, you can enter the data manually.
 
     Create a folder for each student who receives a feedback file. Place the individual feedback for each person there. Zip the file and upload it in the first step under "assessment data".
 
-<br><br>
 
 ## Step 3: Column assignment
 
@@ -160,7 +159,7 @@ For example:
 !!! tip "Hint"
 
     The easiest way is to first activate the desired table columns in the evaluation overview and then download the empty or only partially filled table. This way you get an optimal table template, which you only have to fill in accordingly.
-<br><br>
+
 
 ## Step 4: Validation
 
@@ -168,13 +167,13 @@ This step is used to check the inserted evaluation data once again. You will be 
 
 ![Massenbewertung Daten prüfen](assets/bulk_assessment_wizard_4.png)
 
-<br><br>
+
 ## Step 5: Schedule
 
 Here you can define whether the valuation takes place immediately or only on a certain date.
 
 ![Massenbewertung Planung](assets/bulk_assessment_wizard_5.png)
-<br><br>
+
 
 ## Result 
 

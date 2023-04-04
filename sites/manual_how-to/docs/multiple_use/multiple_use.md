@@ -6,7 +6,8 @@ advisable to store these files centrally in the <b>resource
 folder</b> and then integrate it in the desired courses.
 
 This has the advantage that you only have to make changes to the files once and they are
-automatically visible in all linked courses.<br>Typical examples for such files are: 
+automatically visible in all linked courses.<br>Typical examples for such files are:
+ 
 * basic framework conditions,
 * general terms and conditions,
 * organisational information,
@@ -16,7 +17,7 @@ automatically visible in all linked courses.<br>Typical examples for such files 
 ## What you need:
 
 * author rights
-* a [ressource folder](../course_create/Course_Settings.md)
+* a [ressource folder](../../manual_user/course_create/Course_Settings.md)
 * multiple courses
 * files you want to use several times
 
@@ -24,7 +25,7 @@ automatically visible in all linked courses.<br>Typical examples for such files 
 
 ## 1. Create a Ressource Folder  
 
-1.1 Go to the [Authoring Area](../authoring/index.md) and select "Create" -> "Resource folder".
+1.1 Go to the [Authoring Area](../../manual_user/authoring/index.md) and select "Create" -> "Resource folder".
 
      ![create resource folder](assets/resource_folder_create.png)  
 
@@ -40,7 +41,7 @@ automatically visible in all linked courses.<br>Typical examples for such files 
 
 1.4 Here you can now upload files and create subfolders if necessary.
 
-Use [**WebDAV**](../supported_tech/Using_WebDAV.md) if you want to upload many files.  
+Use [**WebDAV**](../webdav/webdav.md) if you want to upload many files.  
 
 The usual setting options for learning resources are also available to you (Administration -> Settings).
 
@@ -77,7 +78,7 @@ Repeat the procedure for all relevant courses.
 
 ![](assets/storage_folder_without_menu.png)
   
-3.2 The files of this folder can now be added in the course editor like all other files of the storage folder via course element "[Single Page](../course_elements/Knowledge_Transfer.md)".
+3.2 The files of this folder can now be added in the course editor like all other files of the storage folder via course element "[Single Page](../../manual_user/course_elements/Knowledge_Transfer.md)".
 
 !!! warning "Please note:"
 
