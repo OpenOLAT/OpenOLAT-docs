@@ -8,6 +8,7 @@ Darüber hinaus gibt es evtl. auch noch den Wunsch, dass Suchmaschinen nicht nur
 
 <b>Beispiel</b>: <br>Bestimmte in OpenOlat erstellte Infoseiten sollen als Werbung dienen und in Suchmaschinen erscheinen und ausgewertet werden.
 
+
 ## Was gibt OpenOlat für Suchmaschinen zum Durchsuchen frei?
 
 Seit Release 17.2 kann eingestellt werden, dass
@@ -20,6 +21,7 @@ an Suchmaschinen übergeben werden.
 
 ![Infoseite](assets/Infoseite1.png)
 
+
 ## Wie wird diese Funktion generell aktiviert?
 
 Das Modul kann vom Administrator unter 
@@ -31,6 +33,7 @@ Standardmässig ist dieses Modul auf jeder Instanz deaktiviert.
 Wenn das Modul eingeschaltet wurde, ist der API-Endpoint verfügbar, wo alle veröffentlichten Ressourcen über XML verfügbar sind.
 
 ![OAIPMH Aktivierung](assets/OAIPMH_Aktivierung.png)
+
 
 ## Wie wird diese Funktion für bestimmte Kurse / Lernressourcen aktiviert?
 
@@ -52,11 +55,13 @@ Option für den Administrator:
 Hinweis zur Beschränkung an den Autor:
 ![Lizenzbeschraenkung Admin](assets/Lizenzbeschraenkung_Autor.png)
 
+
 ## Wie sehe ich im Autorenbereich, welche Kurse/Lernressourcen zur Indexierung freigegeben sind?
 
 Im Autorenbereich kann durch <b>Einblenden der Spalte OER</b> angezeigt werden, von welchen Kursen/Lernressourcen die Infoseiten für Suchmaschinen freigegeben sind.
 
 ![Autorenbereich Spaltenanzeige](assets/Autorenbereich_Spaltenanzeige.png)
+
 
 ## Wie kann ich als Autor zur Suchmaschinenoptimierung beitragen?
 
@@ -69,6 +74,7 @@ erfasst werden. Je mehr Angaben die Autoren also hier einpflegen und je besser d
 
 ![Einstellungen Info Metadaten](assets/Einstellungen_Info_Metadaten.png)
 
+
 ## Wie mache ich eine Suchmaschinenoptimierung (SEO*) als Admin?
 *Search Engine Optimization
 
@@ -76,6 +82,7 @@ Optionen zur SEO finden Sie als Administrator auf der gleichen Seiten, auf der S
 <br> <b>Administration > Module > OAI PMH</b><br>
 
 Weitere Informationen finden Sie im Administrationshandbuch.
+
 
 ## Wie gibt OpenOlat die Daten weiter?
 
