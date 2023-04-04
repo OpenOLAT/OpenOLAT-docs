@@ -27,7 +27,7 @@ automatically visible in all linked courses.<br>Typical examples for such files 
 
 1.1 Go to the [Authoring Area](../../manual_user/authoring/index.md) and select "Create" -> "Resource folder".
 
-     ![create resource folder](assets/resource_folder_create.png)  
+![create resource folder](assets/resource_folder_create.png)  
 
 1.2 Enter a suitable name for the resource folder and complete the general description form as required. Since the resource folder is used more for internal organization, it is not mandatory to enter information here. The description of the learning resource serves more for your own organization.  
      ![create resource folder title](assets/resource_folder_create_title.png)  
@@ -37,7 +37,8 @@ automatically visible in all linked courses.<br>Typical examples for such files 
     Resource folders are listed like other learning resources in the authoring area. Technically, a complete resource folder is a single learning resource.
 
 1.3 Chose in the authoring area the resource folder, listed there as learning resource.  
-     ![create resource](assets/resource_folder_in_authoring_area.png)  
+
+![create resource](assets/resource_folder_in_authoring_area.png)  
 
 1.4 Here you can now upload files and create subfolders if necessary.
 
@@ -45,7 +46,7 @@ Use [**WebDAV**](../webdav/webdav.md) if you want to upload many files.
 
 The usual setting options for learning resources are also available to you (Administration -> Settings).
 
-   ![resource folder files](assets/resource_folder_files.png) 
+![resource folder files](assets/resource_folder_files.png) 
 
 1.5 Alternatively you can create files directly here.
     ![resource folder create file](assets/resource_folder_create_file.png) 

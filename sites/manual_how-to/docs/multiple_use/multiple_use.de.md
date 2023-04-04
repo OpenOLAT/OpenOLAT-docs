@@ -20,19 +20,18 @@ Das hat den Vorteil, dass Sie Änderungen an den Dateien nur einmal vornehmen m�
 
 ## 1. Ressourcenordner erstellen  
 
-1.1 Gehen Sie hierfür in den [Autorenbereich](../../manual_user/authoring/index.de.md) und wählen Sie
-„Erstellen“ -> „Ressourcenordner“.
-     ![erstellen ressource](assets/Ressourcenordner_erstellen.png)  
+1.1 Gehen Sie hierfür in den [Autorenbereich](../../manual_user/authoring/index.de.md) und wählen Sie „Erstellen“ -> „Ressourcenordner“.
+![erstellen ressource](assets/Ressourcenordner_erstellen.png)  
 
 1.2 Vergeben Sie einen passenden Namen für den Ressourcenordner und füllen Sie das allgemeine Beschreibungsformular nach Bedarf aus. Da der Ressourcenordner eher für die interne Organisation verwendet wird, ist es nicht zwingend nötig, hier Infos zu hinterlegen. Die Beschreibung der Lernressource dient hier eher Ihrer eigenen Organisation.  
-     ![erstellen ressource](assets/Ressourcenordner_erstellen_Titel.png)  
+![erstellen ressource](assets/Ressourcenordner_erstellen_Titel.png)  
 
 !!! info "Hinweis"
 
     Ressourcenordner werden wie andere Lernressourcen im Autorenbereich aufgelistet. Technisch gesehen, ist ein kompletter Ressourcenordner eine einzelne Lernressource.
 
 1.3 Wählen Sie im Autorenbereich den als Lernressource aufgelisteten Ressourcenordner.  
-     ![erstellen ressource](assets/Ressourcenordner_im_Autorenbereich.png)  
+![erstellen ressource](assets/Ressourcenordner_im_Autorenbereich.png)  
 
 1.4 Hier können Sie nun Dateien hochladen und ggf. Unterordner erstellen.
 
@@ -40,11 +39,11 @@ Nutzen Sie [**WebDAV**](../webdav/webdav.de.md), wenn Sie viele Dateien hochlade
 
 Es stehen Ihnen auch die üblichen Einstellmöglichkeiten für Lernressourcen zur Verfügung (Administration -> Einstellungen).
 
-   ![erstellen ressource](assets/Ressourcenordner_Dateien.png) 
+![erstellen ressource](assets/Ressourcenordner_Dateien.png) 
 
 
 1.5 Alternativ können Sie hier Dateien auch direkt erstellen.
-    ![erstellen ressource](assets/Ressourcenordner_Datei_erstellen.png) 
+![erstellen ressource](assets/Ressourcenordner_Datei_erstellen.png) 
  
 ## 2. Ressourcenordner in Kurse einbinden  
 
