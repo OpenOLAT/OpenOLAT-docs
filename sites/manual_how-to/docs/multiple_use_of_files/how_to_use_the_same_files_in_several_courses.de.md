@@ -18,7 +18,7 @@ Das hat den Vorteil, dass Sie Änderungen an den Dateien nur einmal vornehmen m�
 # Vorgehensweise:
 
 ## 1. Ressourcenordner erstellen  
-<br>
+
 1.1 Gehen Sie hierfür in den [Autorenbereich](../authoring/index.de.md) und wählen Sie
 „Erstellen“ -> „Ressourcenordner“.
      ![erstellen ressource](assets/Ressourcenordner_erstellen.png)  

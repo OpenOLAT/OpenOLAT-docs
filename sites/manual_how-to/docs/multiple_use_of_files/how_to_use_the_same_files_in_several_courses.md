@@ -13,15 +13,14 @@ automatically visible in all linked courses.<br>Typical examples for such files 
 * information on general support and contact persons,
 * etc.
 
-# What you need:
+## What you need:
 
 * author rights
 * a [ressource folder](../course_create/Course_Settings.md)
 * multiple courses
 * files you want to use several times
 
-
-## Procedure:
+# Procedure:
 
 ## 1. Create a Ressource Folder  
 
