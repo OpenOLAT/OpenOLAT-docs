@@ -7,7 +7,7 @@ Nein. Wer in OpenOlat lernen und arbeiten will, muss sich im Normalfall registri
 Darüber hinaus gibt es evtl. auch noch den Wunsch, dass Suchmaschinen nicht nur finden <b>dürfen</b>, sondern bestimmte Angebote möglichst finden <b>sollen</b>. 
 
 <b>Beispiel</b>: <br>Bestimmte in OpenOlat erstellte Infoseiten sollen als Werbung dienen und in Suchmaschinen erscheinen und ausgewertet werden.
-<br><br>
+
 
 ## Was gibt OpenOlat für Suchmaschinen zum Durchsuchen frei?
 
@@ -19,7 +19,7 @@ Seit Release 17.2 kann eingestellt werden, dass
 an Suchmaschinen übergeben werden.
 
 ![Infoseite](assets/Infoseite1.png)
-<br><br>
+
 
 ## Wie wird diese Funktion generell aktiviert?
 
@@ -33,12 +33,12 @@ Standardmässig ist dieses Modul auf jeder Instanz deaktiviert.
 Wenn das Modul eingeschaltet wurde, ist der API-Endpoint verfügbar, wo alle veröffentlichten Ressourcen über XML verfügbar sind.
 
 ![OAIPMH Aktivierung](assets/OAIPMH_Aktivierung.png)
-<br><br>
+
 
 ## Wie wird diese Funktion für bestimmte Kurse / Lernressourcen aktiviert?
 
 (Voraussetzung: Generelle Aktivierung der Funktion durch den Administrator)
-<br><br>
+
 
 1. Damit die Informationen an die Suchmaschinen weiter gegeben werden, muss der jeweilige Autor (Besitzer) dies für seinen Kurs / seine Lernressource erlauben.
 
@@ -48,18 +48,18 @@ Wenn das Modul eingeschaltet wurde, ist der API-Endpoint verfügbar, wo alle ver
 2. Es werden nur Kurse / Lernressourcen berücksichtigt, die den Status „Veröffentlicht“ haben.
 
 ![Status](assets/Status.png)
-<br><br>
+
 
 3. (Optional) Es kann festgelegt werden, dass nur Kurse/Lernressourcen mit Lizenz indexierbar sind. Der Administrator kann definieren welche Lizenzen zum Indexieren erlaubt sind. Die Autoren können dann ihren Kurs / ihre Lernressource nur noch indexieren lassen, wenn eine dieser Lizenzen gewählt ist.
 
 Option für den Administrator:
 ![Lizenzbeschraenkung Admin](assets/Lizenzbeschraenkung_Admin2.png)
-<br><br>
+
 
 Hinweis zur Beschränkung an den Autor:
 ![Lizenzbeschraenkung Admin](assets/Lizenzbeschraenkung_Autor.png)
 
-<br><br>
+
 
 ## Wie sehe ich im Autorenbereich, welche Kurse/Lernressourcen zur Indexierung freigegeben sind?
 
@@ -67,7 +67,7 @@ Im Autorenbereich kann durch <b>Einblenden der Spalte OER</b> angezeigt werden, 
 
 ![Autorenbereich Spaltenanzeige](assets/Autorenbereich_Spaltenanzeige.png)
 
-<br><br>
+
 
 ## Wie kann ich als Autor zur Suchmaschinenoptimierung beitragen?
 
@@ -78,7 +78,6 @@ Bei den Informationen auf den Infoseiten der Kurse und Lernressourcen handelt es
 erfasst werden. Je mehr Angaben die Autoren also hier einpflegen und je besser die Beschreibungen sind, desto besser wird ein Angebot von Suchmaschinen gefunden.
 
 ![Einstellungen Info Metadaten](assets/Einstellungen_Info_Metadaten.png)
-<br><br>
 
 
 ## Wie mache ich eine Suchmaschinenoptimierung (SEO*) als Admin?
@@ -89,7 +88,6 @@ Optionen zur SEO finden Sie als Administrator auf der gleichen Seiten, auf der S
 - <b>Administration > Module > OAI PMH</b>
 
 Weitere Informationen finden Sie im Administrationshandbuch.
-<br><br>
 
 ## Wie gibt OpenOlat die Daten weiter?
 
