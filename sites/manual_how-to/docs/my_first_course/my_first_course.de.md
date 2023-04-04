@@ -11,7 +11,7 @@ Um OpenOlat-Kurse erstellen zu können, benötigen Sie Autorenrechte. Wenden Sie
 	
 	Eventuell ist ein Abmelden und neues Anmelden erforderlich, damit nach der Aktivierung der Autorenrolle der Menüeintrag bei Ihnen sichtbar wird.
 
-
+<br>
 ## 2. Autorenbereich betreten
 
 Nach dem Öffnen des Autorenbereichs sehen Sie eine leere Liste, denn Sie haben ja noch keine eigenen Kurse erstellt.
