@@ -1,0 +1,32 @@
+# OpenOlat einrichten
+
+1. [Wie kann ich eigene CSS für das Kursdesign verwenden?](/docs/css/css.de.md)
+
+# Allg. Arbeitsweisen
+
+1. [Wie kann ich dieselben Dateien in mehreren Kursen einsetzen?](/docs/multiple_use/multiple_use.de.md)
+2. [Wie kann ich mittels WebDAV Dateien übertragen?](/docs/webdav/how_to_transfer_files_using_webdav.de.md)
+
+# Kurse erstellen
+
+1. [Wie erstelle ich meinen ersten OpenOlat-Kurs?](/docs/my_first_course/how_to_create_my_first_course.de.md)
+
+# Lernressourcen erstellen
+
+1. [Wie erstelle ich einen Blog?](/docs/blog/Four_Steps_to_Your_Blog.de.md)
+2. [Wie erstelle ich einen Podcast?](/docs/podcast/Four_Steps_to_Your_Podcast.de.md)
+3. [Wie erstelle ich ein Wiki?](/docs/wikis/Four_Steps_to_Your_Wiki.de.md)
+
+# Kurse anbieten
+
+1. [Wie kann ich meine Kurse durch Suchmaschinen finden lassen?](/docs/oai_pmh/how_can_I_have_my_courses_found_by_search_engines.de.md)
+
+# Teilnehmeradministration
+
+# Teilnehmer betreuen
+
+1. [Wie und wo kann ich eine Massenbewertung vornehmen?](/docs/bulk_assessment/how_to_create_a_bulk_assessment.de.md)
+
+# Eigenständiges Lernen
+
+# Tests und Prüfungen

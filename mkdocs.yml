@@ -228,6 +228,7 @@ plugins:
           Guest and invitation : Gast und Einladung
           Häufig gestellte Fragen  : Häufig gestellte Fragen
           How-to... : How-to...
+          How-to : How-to
           Imprint: Impressum
           In Five Steps to Your Content Package : Fünf Schritte zu Ihrem Content-Packaging
           In Five Steps to Your Course With the Course Editor : Mit dem Kurseditor in fünf Schritten zu Ihrem OpenOlat-Kurs
@@ -366,6 +367,7 @@ nav:
     - License: license.md
   - Release notes: '!include ./sites/release_notes/mkdocs.yml'
   - User manual: '!include ./sites/manual_user/mkdocs.yml' 
+  - How to: '!include ./sites/manual_how-to/mkdocs.yml' 
   - Admin manual: '!include ./sites/manual_admin/mkdocs.yml' 
   - Developer cookbook: '!include ./sites/manual_dev/mkdocs.yml' 
 # Invisible fake pages to fix incompatibility between monorepo and i18n plugin

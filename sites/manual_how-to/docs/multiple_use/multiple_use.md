@@ -20,7 +20,7 @@ automatically visible in all linked courses.<br>Typical examples for such files 
 * multiple courses
 * files you want to use several times
 
-# Procedure:
+## Procedure:
 
 ## 1. Create a Ressource Folder  
 

@@ -4,7 +4,7 @@
 
 # Working processes
 
-1. [How to use the same files in several courses](/docs/multiple_use_of_files/how_to_use_the_same_files_in_several_courses.md)
+1. [How to use the same files in several courses](/docs/multiple_use/multiple_use.md)
 2. [How to transfer files using WebDAV](/docs/webdav/how_to_transfer_files_using_webdav.md)
 
 # Create courses
