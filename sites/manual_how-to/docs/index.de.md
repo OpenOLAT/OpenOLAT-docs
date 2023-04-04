@@ -1,10 +1,10 @@
 # OpenOlat einrichten
 
-1. [Wie kann ich eigene CSS für das Kursdesign verwenden?](/docs/css/css.de.md)
+1. [Wie kann ich eigene CSS für das Kursdesign verwenden?](/manual_how-to/css/css)
 
 # Allg. Arbeitsweisen
 
-1. [Wie kann ich dieselben Dateien in mehreren Kursen einsetzen?](/docs/multiple_use/multiple_use.de.md)
+1. [Wie kann ich dieselben Dateien in mehreren Kursen einsetzen?](/manual_how-to/multiple_use/multiple_use)
 2. [Wie kann ich mittels WebDAV Dateien übertragen?](/docs/webdav/webdav.de.md)
 
 # Kurse erstellen
