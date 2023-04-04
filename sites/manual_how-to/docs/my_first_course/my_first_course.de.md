@@ -1,20 +1,5 @@
 # Wie erstelle ich meinen ersten OpenOlat-Kurs?
 
-Wir zeigen Ihnen in 10 Schritten den Weg zu Ihrem ersten OpenOlat-Kurs:
-<b>
-1. Autorenrechte besorgen
-2. Autorenbereich betreten 
-3. Neuen Kurs erstellen
-4. Kurseinstellungen vornehmen
-5. Kursbausteine hinzufügen
-6. Kursbausteine konfigurieren und Lernressourcen hinzufügen
-7. Arbeitsergebnis kontrollieren
-8. Kurs publizieren
-9. Mitglieder hinzufügen
-10. Kurs veröffentlichen
-
-</b>
-<br><br>
 
 ## 1. Autorenrechte besorgen
 
@@ -22,7 +7,7 @@ Um OpenOlat-Kurse erstellen zu können, benötigen Sie Autorenrechte. Wenden Sie
 
 ![Autorenbereich Menu](assets/Autorenbereich_menu.png)
 
-  !!! hint "Hinweis"
+!!! hint "Hinweis"
 	
 	Eventuell ist ein Abmelden und neues Anmelden erforderlich, damit nach der Aktivierung der Autorenrolle der Menüeintrag bei Ihnen sichtbar wird.
 
@@ -39,7 +24,7 @@ Wenn Sie die Suchmaske verwenden, finden Sie auch Kurse und Lernressourcen ander
 
 ![Autorenbereich Suchmaske](assets/Autorenbereich_suchmaske.png)
 
-  !!! hint "Hinweis"
+!!! hint "Hinweis"
 	
 	Sie können auf das Lupensymbol klicken ohne einen Suchbegriff einzugeben. Sie erhalten so <b>alle</b> verfügbaren Kurse und Lernressourcen angezeigt.
 	Mit den Filteroptionen können Sie die Suchergebnisse dann filtern. 
@@ -64,7 +49,7 @@ Mit Klick auf die Hilfestellung "Kursdesigns im Vergleich" können Sie sich übe
 
 ![Kurs erstellen Hilfestellung](assets/Kurs_erstellen_hilfestellung.png)
 
-  !!! hint "Hinweis"
+!!! hint "Hinweis"
 	
 	Es besteht die Möglichkeit, sich von einem Kursassistenten (Wizard) durch die Erstellung des Kurses führen zu lassen. In dieser Anleitung soll jedoch zum besseren Verständnis das Vorgehen in Einzelschritten dargestellt werden.
 	
@@ -127,12 +112,12 @@ Viele Kursbausteine benötigen eine Lernressource. Stellen Sie sich die Kursbaus
 ![Kursbaustein HTML](assets/Grafik_kurs_lernressource_html.png)
 
 
-### Beispiel 1:<br>
+### Beispiel 1<br>
 Der Kursbaustein vom Typ "<b>Einzelne Seite</b>" benötigt eine <b>HTML-Datei</b> als Lernressource. Im <b>Tab "Seiteninhalt"</b> können Sie eine neue HTML-Datei erstellen, eine bereits in OpenOlat vorhandene einbinden oder eine anderswo erstellte HTML-Datei in OpenOlat importieren.
 ![Kursbaustein konfigurieren 2](assets/kb_konfigurieren_2.png)
 
 
-### Beispiel 2:<br>
+### Beispiel 2<br>
 Der Kursbaustein vom Typ "<b>Video</b>" benötigt eine <b>mp4-Datei</b> als Lernressource. 
 
 ![Lernressource Video](assets/Grafik_kurs_lernressource_video1.png)

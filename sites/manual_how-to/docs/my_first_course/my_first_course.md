@@ -1,28 +1,12 @@
 # How do I create my first OpenOlat course?
 
-We show you the way to your first OpenOlat course in 10 steps:
-<b>
-1. Get author rights
-2. Enter authoring area
-3. Create a new course
-4. Make course settings 
-5. Add course elements
-6. Configure course elements and add learning resource
-7. Check your work result
-8. Publish course
-9. Add members
-10. Change status
-
-</b>
-
-
 ## 1. Get author rights
 
 To be able to create OpenOlat courses, you need author rights. Please contact your <b>administrator</b> to give you the author role. Once you are an author, the entry <b>"Authoring"</b> appears in the menu of your header.
 
 ![authoring menu](assets/authoring_menu.png)
 
-  !!! hint "Hint"
+!!! hint "Hint"
 	
 	It may be necessary to log out and log in again so that the menu item is visible to you after the author role has been activated.
 
@@ -40,7 +24,7 @@ If you use the search mask, you will also find courses and learning resources fr
 
 ![authoring search](assets/authoring_search_form.png)
 
-  !!! hint "Hint"
+!!! hint "Hint"
 	
 	You can click on the magnifying glass icon without entering a search term. This will show you <b>all</b> available courses and learning resources.
 	You can then filter the search results using the filter options.
@@ -65,7 +49,7 @@ By clicking on the help "Course designs in comparison" you can learn about the d
 
 ![Create course assistance](assets/course_create_assistance.png)
 
-  !!! hint "Note"
+!!! hint "Note"
 	
 	It is possible to be guided through the creation of the course by a course wizard. In this manual, however, the procedure is presented in individual steps for better understanding.
 	
@@ -129,12 +113,12 @@ Many course elements require a learning resource. Think of the course elements a
 ![Kursbaustein HTML](assets/graphic_course_learning_resource_html.png)
 
 
-### Example 1:<br>
+### Example 1<br>
 The course element of the type <b>"Single page"</b> requires an <b>HTML file</b> as learning resource. In the tab <b>"Page content"</b> you can create a new HTML file, include an already existing one in OpenOlat or import an HTML file created elsewhere into OpenOlat.
 ![Kursbaustein konfigurieren 2](assets/course_element_configuration_2.png)
 
 
-### Example 2:<br>
+### Example 2<br>
 The course element of the type <b>"Video"</b> requires an <b>mp4 file</b> as learning resource.
 
 ![Lernressource Video](assets/graphic_course_learning_resource_video1.png)
