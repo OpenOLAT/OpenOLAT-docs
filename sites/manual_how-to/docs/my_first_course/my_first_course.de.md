@@ -10,8 +10,8 @@ Um OpenOlat-Kurse erstellen zu können, benötigen Sie Autorenrechte. Wenden Sie
 !!! hint "Hinweis"
 	
 	Eventuell ist ein Abmelden und neues Anmelden erforderlich, damit nach der Aktivierung der Autorenrolle der Menüeintrag bei Ihnen sichtbar wird.
-
 <br>
+
 ## 2. Autorenbereich betreten
 
 Nach dem Öffnen des Autorenbereichs sehen Sie eine leere Liste, denn Sie haben ja noch keine eigenen Kurse erstellt.
@@ -28,7 +28,7 @@ Wenn Sie die Suchmaske verwenden, finden Sie auch Kurse und Lernressourcen ander
 	
 	Sie können auf das Lupensymbol klicken ohne einen Suchbegriff einzugeben. Sie erhalten so <b>alle</b> verfügbaren Kurse und Lernressourcen angezeigt.
 	Mit den Filteroptionen können Sie die Suchergebnisse dann filtern. 
-
+<br>
 
 ## 3. Neuen Kurs erstellen
 
@@ -59,7 +59,7 @@ Mit Klick auf die Hilfestellung "Kursdesigns im Vergleich" können Sie sich übe
 ![Kurs erstellen Hilfestellung](assets/Kurs_erstellen_assistent.png)
 
 Klicken Sie zum Abschluss dieses Schritts auf "<b>Erstellen</b>".
-
+<br>
 
 ## 4. Kurseinstellungen vornehmen
 
@@ -73,7 +73,7 @@ Die hier gemachten Einstellungen <b>betreffen den Kurs als Ganzes</b>. Wenn Sie 
 !!! hint "Hinweis"
 	
 	Vergessen Sie nicht, zu speichern!
-
+<br>
 
 ## 5. Kursbausteine hinzufügen
 
