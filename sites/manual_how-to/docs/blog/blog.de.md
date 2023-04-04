@@ -63,7 +63,7 @@ Kursrun hinzugefügt werden.
 
     Teilnehmer und Betreuer erstellen ihre Beiträge bei geschlossenem Editor im Kursrun. Besitzer können neue Einträge auch im Kurseditor hinzufügen.
 
- ### Externen Blog einbinden
+### Externen Blog einbinden
 
  Neben OpenOlat Blogs können auch externe Blogs aus dem Internet in einen Kurs eingebunden werden. Hierfür wird der RSS-Feed des gewünschten externen Blogs benötigt. 
  
