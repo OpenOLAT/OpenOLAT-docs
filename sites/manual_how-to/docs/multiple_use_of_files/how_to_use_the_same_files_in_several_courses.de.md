@@ -16,7 +16,7 @@ Das hat den Vorteil, dass Sie Ã„nderungen an den Dateien nur einmal vornehmen mÃ
 * Dateien, die Sie mehrfach verwenden wollen
 
 
-# Vorgehensweise:
+## Vorgehensweise:
 
 ## 1. Ressourcenordner erstellen  
 
