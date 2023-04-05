@@ -2,7 +2,7 @@
 
 Es gibt viele Gründe und Absichten, warum Gruppen gebildet werden. Je nach Zweck können in OpenOlat verschiedene Werkzeuge dafür genutzt werden.
 
-1. [Jahrgangsstufen](#gruppe1)
+1. [Jahrgangsstufen / Klassen / Semester](#gruppe1)
 2. [Leistungsgruppen](#gruppe2) 
 3. [Sprachgruppen](#gruppe3)
 4. [Gruppen nach Regionen](#gruppe4)
@@ -27,13 +27,7 @@ Es gibt viele Gründe und Absichten, warum Gruppen gebildet werden. Je nach Zwec
 23. [Interessengruppen](#gruppe23)
 
 
-## OpenOlat-Werkzeuge für Gruppen
-
-* x
-
-
-
-## <a name="gruppe1"></a> 1. Jahrgangsstufen / Klassen
+## <a name="gruppe1"></a> 1. Jahrgangsstufen / Klassen / Semester
 
 <b>Zweck:</b>
 
