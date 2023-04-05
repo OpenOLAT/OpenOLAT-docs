@@ -48,8 +48,9 @@ Es gibt viele Gründe und Absichten, warum Gruppen gebildet werden. Je nach Zwec
 
 <b>Werkzeuge in OpenOlat:</b>
 
-* Curriculum
+* Modul Curriculum
 * Gruppenwerkzeug
+* ...
 
 
 ## <a name="gruppe2"></a> 2. Leistungsgruppen
@@ -66,8 +67,11 @@ Es gibt viele Gründe und Absichten, warum Gruppen gebildet werden. Je nach Zwec
 
 <b>Werkzeuge in OpenOlat:</b>
 
-* x
+* z.B. innerhalb von Kursen Abschnitte mit unterschiedlichem Niveau 
+* z.B. Zugangsregelung evtl. über Lernpfad
+* z.B. Zugriffsregelung über Funktion "Ausnahmen"
 * Evtl. Kursbaustein Einschreibung
+* ...
 
 
 ## <a name="gruppe3"></a> 3. Sprachgruppen
@@ -86,7 +90,7 @@ Es gibt viele Gründe und Absichten, warum Gruppen gebildet werden. Je nach Zwec
 
 * x
 * Evtl. Kursbaustein Einschreibung
-* x
+* ...
 
 
 ## <a name="gruppe4"></a> 4. Gruppen nach Regionen
@@ -105,7 +109,8 @@ Es gibt viele Gründe und Absichten, warum Gruppen gebildet werden. Je nach Zwec
 
 * x
 * Evtl. Kursbaustein Einschreibung
-* x
+* z.B. Mitteilungsversand nach Postleitzahl
+* ...
 
 
 ## <a name="gruppe5"></a> 5. Workshop
@@ -121,6 +126,7 @@ Es gibt viele Gründe und Absichten, warum Gruppen gebildet werden. Je nach Zwec
 <b>Werkzeuge in OpenOlat:</b>
 
 * x
+* ...
 
 ## <a name="gruppe6"></a> 6. Projektgruppen (Arbeitsteilung)
 
@@ -135,7 +141,7 @@ Es gibt viele Gründe und Absichten, warum Gruppen gebildet werden. Je nach Zwec
 <b>Werkzeuge in OpenOlat:</b>
 
 * x
-
+* ...
 
 ## <a name="gruppe7"></a> 7. Planungsgruppen
 
@@ -150,6 +156,7 @@ Es gibt viele Gründe und Absichten, warum Gruppen gebildet werden. Je nach Zwec
 <b>Werkzeuge in OpenOlat:</b>
 
 * x
+* ...
 
 
 ## <a name="gruppe8"></a> 8. Vorbereitungsgruppen
@@ -165,6 +172,7 @@ Es gibt viele Gründe und Absichten, warum Gruppen gebildet werden. Je nach Zwec
 <b>Werkzeuge in OpenOlat:</b>
 
 * x
+* ...
 
 
 ## <a name="gruppe9"></a> 9. Entscheidungsgremien
@@ -181,7 +189,8 @@ Es gibt viele Gründe und Absichten, warum Gruppen gebildet werden. Je nach Zwec
 <b>Werkzeuge in OpenOlat:</b>
 
 * Kursbaustein BigBlueButton
-* 
+* Kursbaustein Teilnehmerliste
+* ...
 
 
 ## <a name="gruppe10"></a> 10. Beratung
@@ -200,6 +209,7 @@ Es gibt viele Gründe und Absichten, warum Gruppen gebildet werden. Je nach Zwec
 * BBB-Sitzungszimmer
 * OpenOlat-Chat
 * x
+* ...
 
 
 ## <a name="gruppe11"></a> 11. Diskussionsgruppen
@@ -225,6 +235,7 @@ Es gibt viele Gründe und Absichten, warum Gruppen gebildet werden. Je nach Zwec
 * OpenOlat-Chatfunktion
 * 
 * Evtl. Kursbaustein Einschreibung
+* ...
 
 
 ## <a name="gruppe12"></a> 12. Erfahrungsaustausch
@@ -241,7 +252,7 @@ Es gibt viele Gründe und Absichten, warum Gruppen gebildet werden. Je nach Zwec
 
 * Kursbaustein Forum
 * Kursbaustein BigBlueButton 
-
+* ...
 
 ## <a name="gruppe13"></a> 13. Feedbackgruppen
 
@@ -256,6 +267,7 @@ Es gibt viele Gründe und Absichten, warum Gruppen gebildet werden. Je nach Zwec
 <b>Werkzeuge in OpenOlat:</b>
 
 * x
+* ...
 
 
 ## <a name="gruppe14"></a> 14. Partnerarbeit
@@ -272,6 +284,7 @@ Es gibt viele Gründe und Absichten, warum Gruppen gebildet werden. Je nach Zwec
 <b>Werkzeuge in OpenOlat:</b>
 
 * x
+* ...
 
 
 ## <a name="gruppe15"></a> 15. Spontane temporäre Lerngruppen
@@ -287,7 +300,7 @@ Es gibt viele Gründe und Absichten, warum Gruppen gebildet werden. Je nach Zwec
 <b>Werkzeuge in OpenOlat:</b>
 
 * Kursbausteion BBB mit Breakout-Räumen (innerhalb einer Unterrichtseinheit/Sitzung BBB)
-
+* ...
 
 ## <a name="gruppe16"></a> 16. Lerngruppen zur Aktivierung
 
@@ -302,6 +315,7 @@ Es gibt viele Gründe und Absichten, warum Gruppen gebildet werden. Je nach Zwec
 <b>Werkzeuge in OpenOlat:</b>
 
 * x
+* ...
 
 
 ## <a name="gruppe17"></a> 17. Lerngruppen zur Inszenierung von Wirklichkeit
@@ -317,6 +331,7 @@ Es gibt viele Gründe und Absichten, warum Gruppen gebildet werden. Je nach Zwec
 <b>Werkzeuge in OpenOlat:</b>
 
 * x
+* ...
 
 
 ## <a name="gruppe18"></a> 18. Gruppenbildung als Lernziel
@@ -332,6 +347,7 @@ Es gibt viele Gründe und Absichten, warum Gruppen gebildet werden. Je nach Zwec
 <b>Werkzeuge in OpenOlat:</b>
 
 * x
+* ...
 
 
 ## <a name="gruppe19"></a> 19. Rollenspiel
@@ -347,6 +363,7 @@ Es gibt viele Gründe und Absichten, warum Gruppen gebildet werden. Je nach Zwec
 <b>Werkzeuge in OpenOlat:</b>
 
 * x
+* ...
 
 
 ## <a name="gruppe20"></a> 20. Planspiel
@@ -363,49 +380,72 @@ Es gibt viele Gründe und Absichten, warum Gruppen gebildet werden. Je nach Zwec
 <b>Werkzeuge in OpenOlat:</b>
 
 * x
+* ...
 
 
 ## <a name="gruppe21"></a> 21. Praktikumsgruppen
 
 <b>Zweck:</b>
 
+* Möglichkeit, praktische Erfahrungen zu sammeln 
+* gelegentlicher Austausch, eher für organisatorische Fragen, Hauptsache findet an den versch. Praktikumsplätzen statt
 * x
 
 <b>Merkmale:</b>
 
-* x(gelegentlicher Austausch, eher für organisatorische Fragen, 		Hauptsache findet an den versch. Praktikumsplätzen statt
+* Wenig Erfahrung
+* Gruppenteilnehmer befinden in gleicher Situation, sind aber meistens örtlich getrennt
 
 <b>Werkzeuge in OpenOlat:</b>
 
-* x
+* Kursbaustein Dokumente (Info-Blätter)
+* Kursbaustein Forum
+* Kursbaustein Blog (Praktikumsbericht)
+* ...
 
 
 ## <a name="gruppe22"></a> 22. Prüfungsgruppen
 
 <b>Zweck:</b>
 
-* x
+* Gemeinsame Teilnahme an einer Prüfung
 
 <b>Merkmale:</b>
 
-* x
+* Prüfung kann zeitgleich oder zeitversetzt
+* Nachweise, Zertifikate
 
 <b>Werkzeuge in OpenOlat:</b>
 
-* x
+* Fragenpool
+* 15 verschiedene Fragetypen
+* spezielle Prüfungskurse
+* Prüfungsmodus
+* Verwendung des SafeExamBrowsers
+* Erstellung von Prüfungen aus OpenOlat-Fragen, Durchführung auf Papier mit individualisierten Dokumenten (Export als Word)
+* automatische Auswertung mit manueller Überprüfungsmöglichkeit
+* Nachteilsausgleich
+* Zertifikate
+* Dokumentation, Archivierung
+* ...
 
 
 ## <a name="gruppe23"></a> 23. Interessengruppen
 
 <b>Zweck:</b>
 
-* x
+* Austausch zu gemeinsamen Interessen
 
 <b>Merkmale:</b>
 
-* von Usern gegründet
-* In der Regel kursübergreifend
+* von Benutzern gegründete Gruppe
+* in der Regel kursübergreifend
+* hoher Bedarf an Kommunikationselementen
 
 <b>Werkzeuge in OpenOlat:</b>
 
-* x
+* OpenOlat-Chat
+* Kursbaustein Blog
+* Kursbaustein Forum
+* Mitgliedschaft in Kursen durch Selbstbuchung
+* ...
