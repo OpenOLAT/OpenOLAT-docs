@@ -43,7 +43,7 @@ You will be asked right at the beginning whether you want to create a <b>learnin
 
 In order for the course to be saved, it is mandatory to have a title. The other information you can also add and edit at a later time.
 
-![Create course title](assets/course_create_title.png)
+![Create course title](assets/course_create_title_v2.png)
 
 By clicking on the help "Course designs in comparison" you can learn about the differences of the course designs.
 
