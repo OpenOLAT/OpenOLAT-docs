@@ -39,7 +39,7 @@ The button for creating new courses and other learning resources is located in t
 
 You will be asked right at the beginning whether you want to create a <b>learning path course</b> or a <b>conventional course</b>.
 
-![Create classic course](assets/course_create_classic.png)
+![Create classic course](assets/course_create_learning_path.png)
 
 In order for the course to be saved, it is mandatory to have a title. The other information you can also add and edit at a later time.
 
