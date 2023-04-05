@@ -36,15 +36,18 @@ Es gibt viele Gründe und Absichten, warum Gruppen gebildet werden. Je nach Zwec
 
 ## 1. Jahrgangsstufen / Klassen
 <b>Zweck:</b>
+
 * organisatorisch begründete Gruppenzusammenstellung
 
 <b>Merkmale:</b>
+
 * Lernende bleiben über <b>mehrere Kurse</b> hinweg in der gemeinsamen Gruppe
 * Lernende bleiben über einen <b>längeren Zeitraum</b> in der gemeinsamen Gruppe
 * Erstellung der Gruppe durch den Administrator/Betreuer
 * <b>keine</b> Gruppenmitgliedschaft durch <b>Selbstbuchung</b>
 
 <b>Werkzeuge in OpenOlat:</b>
+
 * Gruppenwerkzeug
 
 <br><br>
