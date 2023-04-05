@@ -1,4 +1,4 @@
-# Vier Schritte zu Ihrem Blog
+# Wie erstelle ich einen Blog?
 
 Mit dieser Anleitung haben Sie in kurzer Zeit in Ihrem Kurs einen Blog
 erstellt und ihn Ihren Wünschen entsprechend angepasst.
@@ -17,7 +17,7 @@ d) Vergeben Sie nun noch einen passenden Titel im Tab „Titel und Beschreibung�
   
 ## Schritt 2: Blog erstellen  
 
-a) Gehen sie in den Tab „Blog-Lerninhalt“ und klicken sie auf „Blog wählen, erstellen oder importieren“.
+a) Gehen Sie in den Tab „Blog-Lerninhalt“ und klicken Sie auf „Blog wählen, erstellen oder importieren“.
 
 ![blog_erstellen.png](assets/Blog_erstellen1.png)  
 
@@ -63,7 +63,7 @@ Kursrun hinzugefügt werden.
 
     Teilnehmer und Betreuer erstellen ihre Beiträge bei geschlossenem Editor im Kursrun. Besitzer können neue Einträge auch im Kurseditor hinzufügen.
 
-### Externen Blog einbinden
+## Externen Blog einbinden
 
  Neben OpenOlat Blogs können auch externe Blogs aus dem Internet in einen Kurs eingebunden werden. Hierfür wird der RSS-Feed des gewünschten externen Blogs benötigt. 
  

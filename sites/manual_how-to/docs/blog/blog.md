@@ -1,4 +1,4 @@
-# Four Steps to Your Blog
+# How do I create a blog?
 
 With the aid of the following guidelines you will create a blog for your
 course before adapting it according to your needs.
