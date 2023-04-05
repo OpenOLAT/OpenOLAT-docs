@@ -1,8 +1,8 @@
-# Zweckorientiert Gruppen  einrichten
+# Wie richte ich zweckmässig Gruppen ein?
 
 Es gibt viele Gründe und Absichten, warum Gruppen gebildet werden. Je nach Zweck können in OpenOlat verschiedene Werkzeuge dafür genutzt werden.
 
-1. Jahrgangsstufen
+1. [Jahrgangsstufen](#jjj)
 2. Leistungsgruppen 
 3. Sprachgruppen
 4. Gruppen nach Regionen
@@ -26,15 +26,15 @@ Es gibt viele Gründe und Absichten, warum Gruppen gebildet werden. Je nach Zwec
 22. Prüfungsgruppen
 23. Interessengruppen
 
-<br><br>
 
 ## OpenOlat-Werkzeuge für Gruppen
 
-* 
+* x
 
-<br><br>
 
-## 1. Jahrgangsstufen / Klassen
+
+## 1. Jahrgangsstufen / Klassen #jjj
+
 <b>Zweck:</b>
 
 * organisatorisch begründete Gruppenzusammenstellung
@@ -48,142 +48,173 @@ Es gibt viele Gründe und Absichten, warum Gruppen gebildet werden. Je nach Zwec
 
 <b>Werkzeuge in OpenOlat:</b>
 
+* Curriculum
 * Gruppenwerkzeug
 
-<br><br>
 
 ## 2. Leistungsgruppen
 
 <b>Zweck:</b>
+
 * Gruppen mit gleichem Leistungsniveau (z.B. Anfänger, Fortgeschrittene)
 
 <b>Merkmale:</b>
+
 * Lernende bleiben meist nur für einen best. Kurs (mit best. Niveau) in der gemeinsamen Gruppe
 * Erstellung der Gruppe durch den Administrator/Betreuer
 * Evtl. Gruppenmitgliedschaft durch Selbstbuchung
 
 <b>Werkzeuge in OpenOlat:</b>
+
 * x
 * Evtl. Kursbaustein Einschreibung
 
-<br><br>
 
 ## 3. Sprachgruppen
+
 <b>Zweck:</b>
+
 * Gruppen mit gleicher Sprache
 
 <b>Merkmale:</b>
+
 * Lernende bleiben meist nur für einen best. Kurs (mit best. Niveau) in der gemeinsamen Gruppe
 * Zuordnung zur Gruppe evtl. automatisch durch Syncher (nach Eintrag zur Sprache)
 * oder Zuordnung zur Gruppe durch Wahl des Teilnehmers
 
 <b>Werkzeuge in OpenOlat:</b>
+
 * x
 * Evtl. Kursbaustein Einschreibung
 * x
-<br><br>
+
 
 ## 4. Gruppen nach Regionen
+
 <b>Zweck:</b>
+
 * Gruppenmitglieder kommen aus der gleichen geographischen Region
 
 <b>Merkmale:</b>
+
 * x
 * Zuordnung zur Gruppe evtl. automatisch (Angabe zur Sprache, Syncher)
 * oder Zuordnung zur Gruppe durch Wahl des Teilnehmers
 
 <b>Werkzeuge in OpenOlat:</b>
+
 * x
 * Evtl. Kursbaustein Einschreibung
 * x
 
-<br><br>
 
 ## 5. Workshop
+
 <b>Zweck:</b>
+
 * x
 
 <b>Merkmale:</b>
+
 * x
 
 <b>Werkzeuge in OpenOlat:</b>
+
 * x
 
-<br><br>
-
 ## 6. Projektgruppen (Arbeitsteilung)
+
 <b>Zweck:</b>
+
 * Arbeitsteilung
 
 <b>Merkmale:</b>
+
 * x
 
 <b>Werkzeuge in OpenOlat:</b>
+
 * x
 
-<br><br>
 
 ## 7. Planungsgruppen
+
 <b>Zweck:</b>
+
 * x
 
 <b>Merkmale:</b>
+
 * x
 
 <b>Werkzeuge in OpenOlat:</b>
+
 * x
 
-<br><br>
 
 ## 8. Vorbereitungsgruppen
+
 <b>Zweck:</b>
+
 * Vorbereitungskomitees zur Vorbereitung eines..
 
 <b>Merkmale:</b>
+
 * x
 
 <b>Werkzeuge in OpenOlat:</b>
+
 * x
 
-<br><br>
 
 ## 9. Entscheidungsgremien
+
 <b>Zweck:</b>
+
 * x
 
 <b>Merkmale:</b>
+
 * x
 
 <b>Werkzeuge in OpenOlat:</b>
+
 * x
 
-<br><br>
 
 ## 10. Beratung
+
 <b>Zweck:</b>
+
 * x
 
 <b>Merkmale:</b>
+
 * Oft 1:1
 * 
 
 <b>Werkzeuge in OpenOlat:</b>
+
 * BBB- Sitzungszimmer
 * 
 
 <br><br>
 
 ## 11. Diskussionsgruppen
+
 <b>Zweck:</b>
+
 * Gruppenmitglieder 
 
 <b>Merkmale:</b>
+
 * Evtl. live  -> Online-Meetings
 * Evtl. mit Blog
 * Zuordnung zur Gruppe evtl. automatisch (Angabe zur Sprache, Syncher)
 * oder Zuordnung zur Gruppe durch Wahl des Teilnehmers
 
 <b>Werkzeuge in OpenOlat:</b>
+
 * Kursbaustein BBB
 * Kursbaustein Teams
 * Kursbaustein Zoom
@@ -193,151 +224,187 @@ Es gibt viele Gründe und Absichten, warum Gruppen gebildet werden. Je nach Zwec
 * 
 * Evtl. Kursbaustein Einschreibung
 
-<br><br>
 
 ## 12. Erfahrungsaustausch
+
 <b>Zweck:</b>
+
 * x
 
 <b>Merkmale:</b>
+
 * x
 
 <b>Werkzeuge in OpenOlat:</b>
+
 * x
 
 <br><br>
 
 ## 13. Feedbackgruppen
+
 <b>Zweck:</b>
+
 * x
 
 <b>Merkmale:</b>
+
 * x
 
 <b>Werkzeuge in OpenOlat:</b>
+
 * x
 
 <br><br>
 
 ## 14. Partnerarbeit
+
 <b>Zweck:</b>
+
 * für spontanes Feedback während des gemeinsamen Lernens / der gemeinsamen Arbeit
 * 
 
 <b>Merkmale:</b>
+
 * x
 
 <b>Werkzeuge in OpenOlat:</b>
+
 * x
 
-<br><br>
 
-## 15. Spontane temporäre Lerngruppen 
+## 15. Spontane temporäre Lerngruppen
+
 <b>Zweck:</b>
+
 * x
 
 <b>Merkmale:</b>
+
 * x
 
 <b>Werkzeuge in OpenOlat:</b>
+
 * x(innerhalb einer Unterrichtseinheit/Sitzung BBB Breakout-Räume)
 
-<br><br>
 
 ## 16. Lerngruppen zur Aktivierung
+
 <b>Zweck:</b>
+
 * x(Aufteilung in Gruppen um besser zusammen lernen zu können, statt Grossgruppe)
 
 <b>Merkmale:</b>
+
 * x
 
 <b>Werkzeuge in OpenOlat:</b>
+
 * x
 
-<br><br>
 
 ## 17. Lerngruppen zur Inszenierung von Wirklichkeit
+
 <b>Zweck:</b>
+
 * x (Einstieg, Umsetzungsphase)
 
 <b>Merkmale:</b>
+
 * x
 
 <b>Werkzeuge in OpenOlat:</b>
+
 * x
 
-<br><br>
 
 ## 18. Gruppenbildung als Lernziel
+
 <b>Zweck:</b>
+
 * x(soziales Lernen, z.B. Gruppenprozesse in Projekten)
 
 <b>Merkmale:</b>
+
 * x
 
 <b>Werkzeuge in OpenOlat:</b>
+
 * x
 
-<br><br>
 
 ## 19. Rollenspiel
+
 <b>Zweck:</b>
+
 * x
 
 <b>Merkmale:</b>
+
 * x
 
 <b>Werkzeuge in OpenOlat:</b>
+
 * x
 
-<br><br>
 
 ## 20. Planspiel
+
 <b>Zweck:</b>
+
 * im Unterschied zum Rollenspiel meistens mehrerer Kontaktphasen (mit Unterbrechungen)
 * 
 
 <b>Merkmale:</b>
+
 * x
 
 <b>Werkzeuge in OpenOlat:</b>
+
 * x
 
-<br><br>
 
 ## 21. Praktikumsgruppen
+
 <b>Zweck:</b>
+
 * x
 
 <b>Merkmale:</b>
+
 * x(gelegentlicher Austausch, eher für organisatorische Fragen, 		Hauptsache findet an den versch. Praktikumsplätzen statt
 
 <b>Werkzeuge in OpenOlat:</b>
+
 * x
 
-<br><br>
 
 ## 22. Prüfungsgruppen
+
 <b>Zweck:</b>
+
 * x
 
 <b>Merkmale:</b>
+
 * x
 
 <b>Werkzeuge in OpenOlat:</b>
+
 * x
 
-<br><br>
 
 ## 23. Interessengruppen
+
 <b>Zweck:</b>
+
 * x
 
 <b>Merkmale:</b>
+
 * von Usern gegründet
 * In der Regel kursübergreifend
 
 <b>Werkzeuge in OpenOlat:</b>
-* x
 
-<br><br>
+* x

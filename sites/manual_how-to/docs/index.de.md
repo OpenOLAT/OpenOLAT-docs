@@ -21,6 +21,11 @@
 
 1. [Wie kann ich meine Kurse durch Suchmaschinen finden lassen?](/de/manual_how-to/oai_pmh/oai_pmh)
 
+## Teilnehmeradministration
+
+1. [Wie richte ich Gruppen zweckmässig ein?](/manual_how-to/purpose_of_groups/purpose_of_groups)
+
+
 ## Teilnehmer betreuen
 
 1. [Wie und wo kann ich eine Massenbewertung vornehmen?](/de/manual_how-to/bulk_assessment/bulk_assessment)

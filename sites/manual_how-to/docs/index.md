@@ -22,6 +22,10 @@
 
 1. [How can I have my courses found by search engines?](/manual_how-to/oai_pmh/oai_pmh)
 
+## Participant administration
+
+1. [How do I set up groups purpose-driven?](/manual_how-to/purpose_of_groups/purpose_of_groups)
+
 ## Attend participants
 
 1. [How and where can I do a bulk assessment?](/manual_how-to/bulk_assessment/bulk_assessment)
