@@ -47,7 +47,7 @@ In order for the course to be saved, it is mandatory to have a title. The other 
 
 By clicking on the help "Course designs in comparison" you can learn about the differences of the course designs.
 
-![Create course assistance](assets/course_create_assistance.png)
+![Create course assistance](assets/course_create_assistance_v2.png)
 
 !!! hint "Note"
 	
@@ -56,7 +56,7 @@ By clicking on the help "Course designs in comparison" you can learn about the d
 	
 (Call the wizard in the lower right corner).
 
-![Create course wizard](assets/course_create_wizard.png)
+![Create course wizard](assets/course_create_wizard_v2.png)
 
 To complete this step, click on "<b>Create</b>".
 
