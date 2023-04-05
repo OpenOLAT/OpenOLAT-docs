@@ -13,7 +13,8 @@ nav:
     - How do I create a blog?: "blog/blog.md"
     - How do I create a podcast?: "podcast/podcast.md"
     - How do I create a wiki?: "wikis/wikis.md"
-    - x Gruppen: "purpose_of_groups/purpose_of_groups.md"    
+  - User administration:
+    - Zweckorientiert Gruppen einrichten: "purpose_of_groups/purpose_of_groups.md"    
   - Offer courses:
     - How can I have my courses found by search engines: "oai_pmh/oai_pmh.md"
   - Attend participants:
