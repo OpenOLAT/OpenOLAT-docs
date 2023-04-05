@@ -37,7 +37,7 @@ The button for creating new courses and other learning resources is located in t
 
 ![Autorenbereich mit aufgeklapptem Pulldown auf Erstellen](assets/course_create.png)
 
-You will be asked right at the beginning whether you want to create a <b>learning path course</b> or a <b>conventional course</b>. We recommend that you start with a conventional course. (You can convert this course type to a learning path course later, which is not possible the other way around).
+You will be asked right at the beginning whether you want to create a <b>learning path course</b> or a <b>conventional course</b>.
 
 ![Create classic course](assets/course_create_classic.png)
 

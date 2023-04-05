@@ -36,7 +36,7 @@ Der Button zum Erstellen neuer Kurse und anderer Lernressourcen befindet sich im
 
 ![Autorenbereich mit aufgeklapptem Pulldown auf Erstellen](assets/Kurs_erstellen.png)
 
-Sie werden gleich zu Beginn gefragt, ob Sie einen <b>Lernpfadkurs</b> oder einen <b>herkömmlichen Kurs</b> erstellen wollen. Wir empfehlen Ihnen, mit einem herkömmlichen Kurs zu beginnen. (Sie können diesen Kurstyp später in einen Lernpfadkurs konvertieren, was umgekehrt nicht möglich ist.)
+Sie werden gleich zu Beginn gefragt, ob Sie einen <b>Lernpfadkurs</b> oder einen <b>herkömmlichen Kurs</b> erstellen wollen.
 
 ![Herkömmlichen Kurs erstellen](assets/Kurs_erstellen_lernpfad.png)
 
@@ -47,7 +47,7 @@ Damit der Kurs gespeichert werden kann, braucht es zwingend einen Titel. Die wei
 
 Mit Klick auf die Hilfestellung "Kursdesigns im Vergleich" können Sie sich über die Unterschiede der Kursdesigns informieren.
 
-![Kurs erstellen Hilfestellung](assets/Kurs_erstellen_hilfestellung.png)
+![Kurs erstellen Hilfestellung](assets/Kurs_erstellen_hilfestellung_v2.png)
 
 !!! hint "Hinweis"
 	
@@ -56,7 +56,7 @@ Mit Klick auf die Hilfestellung "Kursdesigns im Vergleich" können Sie sich übe
 	
 (Den Assistenten rufen Sie rechts unten auf.)
 
-![Kurs erstellen Hilfestellung](assets/Kurs_erstellen_assistent.png)
+![Kurs erstellen Hilfestellung](assets/Kurs_erstellen_assistent_v2.png)
 
 Klicken Sie zum Abschluss dieses Schritts auf "<b>Erstellen</b>".
 <br>
