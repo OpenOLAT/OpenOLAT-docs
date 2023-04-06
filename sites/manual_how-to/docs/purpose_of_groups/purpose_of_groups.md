@@ -118,16 +118,18 @@ Es gibt viele Gründe und Absichten, warum Gruppen gebildet werden. Je nach Zwec
 
 <b>Zweck:</b>
 
-* Arbeitsteilung
+* Arbeitsteilung zur Erreichung eines bestimmten Ziels
 
 <b>Merkmale:</b>
 
-* x
+* Termin zur Fertigstellung
+* Aufteilung in Arbeitsschritte
 
 <b>Werkzeuge in OpenOlat:</b>
 
 * Kursbaustein Themenvergabe
 * Kursbaustein Terminplanung
+* gemeinsamer Kalender
 * Teilnehmerliste
 * ...
 
@@ -152,15 +154,16 @@ Es gibt viele Gründe und Absichten, warum Gruppen gebildet werden. Je nach Zwec
 
 <b>Zweck:</b>
 
-* Vorbereitungskomitees zur Vorbereitung eines..
+* Vorbereitungskomitees zur Vorbereitung einer Veranstaltung, Projektes, ...
 
 <b>Merkmale:</b>
 
-* x
+* vor allem Koordinationsaufgaben
 
 <b>Werkzeuge in OpenOlat:</b>
 
 * Kursbaustein Terminplanung
+* Kollaborationswerkzeuge: Chat, Mitteilungen, E-Mail
 * x
 * ...
 
@@ -175,11 +178,15 @@ Es gibt viele Gründe und Absichten, warum Gruppen gebildet werden. Je nach Zwec
 
 * gemeinsames Ansehen von Dokumenten (Entscheidungsgrundlage)
 * Abstimmungen
+* Dokumentation der Entscheidungen
+* Kommunikation der Entscheidungen
 
 <b>Werkzeuge in OpenOlat:</b>
 
 * Kursbaustein BigBlueButton
 * Kursbaustein Teilnehmerliste
+* Kollaborationswerkzeuge: Chat, Mitteilungen, E-Mail
+* virtuelle Sitzungszimmer (BBB mit Abstimmungsfunktion) 
 * ...
 
 
