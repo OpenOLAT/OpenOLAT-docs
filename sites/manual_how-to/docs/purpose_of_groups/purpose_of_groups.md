@@ -421,7 +421,12 @@ Es gibt viele Gründe und Absichten, warum Gruppen gebildet werden. Je nach Zwec
 
 <b>Werkzeuge in OpenOlat:</b>
 
-* x
+* Kursbaustein Gruppenaufgabe
+* Kursbaustein Video (z.b. zur Darstellung von Spielsituation)
+* Kollaborationswerkzeuge: Chat, Mitteilungen, E-Mail
+* Kursbaustein Diskussionsforum
+* Kursbaustein Checkliste
+* Gruppenordner
 * ...
 
 
