@@ -45,6 +45,9 @@ Es gibt viele Gründe und Absichten, warum Gruppen gebildet werden. Je nach Zwec
 * z.B. Zugangsregelung über Lernpfad
 * z.B. Zugriffsregelung über Funktion "Ausnahmen"
 * Evtl. Kursbaustein Einschreibung
+* Kursbaustein Gruppenaufgabe
+* Kursbaustein Übung
+* Coachingwerkzeug
 * ...
 
 
@@ -62,8 +65,8 @@ Es gibt viele Gründe und Absichten, warum Gruppen gebildet werden. Je nach Zwec
 <b>Werkzeuge in OpenOlat:</b>
 
 * Mehrsprachigkeit der Benutzeroberfläche
-* Sprachanpassungswerkzeug für kundenspezifische 
-* Evtl. Kursbaustein Einschreibung
+* Sprachanpassungswerkzeug
+* Ausnahmen im Lernpfad für Gruppen (-> Sprachgruppen)
 * ...
 
 
@@ -75,15 +78,14 @@ Es gibt viele Gründe und Absichten, warum Gruppen gebildet werden. Je nach Zwec
 
 <b>Merkmale:</b>
 
-* x
 * Zuordnung zur Gruppe evtl. automatisch (Angabe zur Sprache, Syncher)
 * oder Zuordnung zur Gruppe durch Wahl des Teilnehmers
 
 <b>Werkzeuge in OpenOlat:</b>
 
-* x
-* Evtl. Kursbaustein Einschreibung
 * z.B. Mitteilungsversand nach Postleitzahl
+* Evtl. Kursbaustein Einschreibung
+* Kollaborationswerkzeuge: Chat, Mitteilungen, E-Mail
 * ...
 
 
@@ -91,15 +93,25 @@ Es gibt viele Gründe und Absichten, warum Gruppen gebildet werden. Je nach Zwec
 
 <b>Zweck:</b>
 
-* x
+* praxisbezogene Bearbeitung eines Themas in einer Kleingruppe
 
 <b>Merkmale:</b>
 
-* x
+* zeitlich begrenzt
+* aktive Zusammenarbeit der Teilnehmer
 
 <b>Werkzeuge in OpenOlat:</b>
 
-* x
+* Zugangssteuerung zu Kursen (Zugriff nur in einem bestimmten Zeitfenster) 
+* Kollaborationswerkzeuge: Chat, Mitteilungen, E-Mail
+* Kursbaustein Gruppenaufgabe
+* Kursbaustein Themenvergabe
+* Kursbaustein Dokumente (zur gemeinsamen Bearbeitung eines Dokumentes)
+* gemeinsamer Ablageordner
+* Moderation durch Betreuer
+* Kursbaustein BBB mit Breakout-Räumen für Teilgruppen
+* Kursbaustein Dateidiskussion
+* Linkliste
 * ...
 
 ## 6. Projektgruppen (Arbeitsteilung)
@@ -114,7 +126,9 @@ Es gibt viele Gründe und Absichten, warum Gruppen gebildet werden. Je nach Zwec
 
 <b>Werkzeuge in OpenOlat:</b>
 
-* x
+* Kursbaustein Themenvergabe
+* Kursbaustein Terminplanung
+* Teilnehmerliste
 * ...
 
 ## 7. Planungsgruppen
@@ -129,6 +143,7 @@ Es gibt viele Gründe und Absichten, warum Gruppen gebildet werden. Je nach Zwec
 
 <b>Werkzeuge in OpenOlat:</b>
 
+* Kursbaustein Terminplanung
 * x
 * ...
 
@@ -145,6 +160,7 @@ Es gibt viele Gründe und Absichten, warum Gruppen gebildet werden. Je nach Zwec
 
 <b>Werkzeuge in OpenOlat:</b>
 
+* Kursbaustein Terminplanung
 * x
 * ...
 
