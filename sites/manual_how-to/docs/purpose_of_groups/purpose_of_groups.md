@@ -2,32 +2,8 @@
 
 Es gibt viele Gründe und Absichten, warum Gruppen gebildet werden. Je nach Zweck können in OpenOlat verschiedene Werkzeuge dafür genutzt werden.
 
-1. [Jahrgangsstufen / Klassen / Semester](#gruppe1)
-2. [Leistungsgruppen](#gruppe2) 
-3. [Sprachgruppen](#gruppe3)
-4. [Gruppen nach Regionen](#gruppe4)
-5. [Workshop](#gruppe5)
-6. [Projektgruppen (Arbeitsteilung)](#gruppe6)
-7. [Planungsgruppen](#gruppe7)
-8. [Vorbereitungsgruppen](#gruppe8)
-9. [Entscheidungsgremien](#gruppe9)
-10. [Beratung](#gruppe10)
-11. [Diskussionsgruppen](#gruppe11)
-12. [Erfahrungsaustausch](#gruppe12)
-13. [Feedbackgruppen](#gruppe13)
-14. [Partnerarbeit](#gruppe14) 
-15. [Spontane temporäre Lerngruppen](#gruppe15) 
-16. [Lerngruppen zur Aktivierung](#gruppe16)
-17. [Lerngruppen zur Inszenierung von Wirklichkeit](#gruppe17)
-18. [Gruppenbildung als Lernziel](#gruppe18)
-19. [Rollenspiel](#gruppe19)
-20. [Planspiel](#gruppe20)
-21. [Praktikumsgruppen](#gruppe21)
-22. [Prüfungsgruppen](#gruppe22)
-23. [Interessengruppen](#gruppe23)
 
-
-## <a name="gruppe1"></a> 1. Jahrgangsstufen / Klassen / Semester
+## 1. Jahrgangsstufen / Klassen / Semester
 
 <b>Zweck:</b>
 
@@ -42,12 +18,16 @@ Es gibt viele Gründe und Absichten, warum Gruppen gebildet werden. Je nach Zwec
 
 <b>Werkzeuge in OpenOlat:</b>
 
+* virtuelle Klassenzimmer (BBB, Microsoft Teams, Zoom, u.a.)
 * Modul Curriculum
-* Gruppenwerkzeug
+* Gruppenwerkzeuge
+* gemeinsame Kalender
+* gemeinsames Forum
+* gemeinsames Wiki
 * ...
 
 
-## <a name="gruppe2"></a> 2. Leistungsgruppen
+## 2. Leistungsgruppen
 
 <b>Zweck:</b>
 
@@ -62,13 +42,13 @@ Es gibt viele Gründe und Absichten, warum Gruppen gebildet werden. Je nach Zwec
 <b>Werkzeuge in OpenOlat:</b>
 
 * z.B. innerhalb von Kursen Abschnitte mit unterschiedlichem Niveau 
-* z.B. Zugangsregelung evtl. über Lernpfad
+* z.B. Zugangsregelung über Lernpfad
 * z.B. Zugriffsregelung über Funktion "Ausnahmen"
 * Evtl. Kursbaustein Einschreibung
 * ...
 
 
-## <a name="gruppe3"></a> 3. Sprachgruppen
+## 3. Sprachgruppen
 
 <b>Zweck:</b>
 
@@ -76,18 +56,18 @@ Es gibt viele Gründe und Absichten, warum Gruppen gebildet werden. Je nach Zwec
 
 <b>Merkmale:</b>
 
-* Lernende bleiben meist nur für einen best. Kurs (mit best. Niveau) in der gemeinsamen Gruppe
 * Zuordnung zur Gruppe evtl. automatisch durch Syncher (nach Eintrag zur Sprache)
 * oder Zuordnung zur Gruppe durch Wahl des Teilnehmers
 
 <b>Werkzeuge in OpenOlat:</b>
 
-* x
+* Mehrsprachigkeit der Benutzeroberfläche
+* Sprachanpassungswerkzeug für kundenspezifische 
 * Evtl. Kursbaustein Einschreibung
 * ...
 
 
-## <a name="gruppe4"></a> 4. Gruppen nach Regionen
+## 4. Gruppen nach Regionen
 
 <b>Zweck:</b>
 
@@ -107,7 +87,7 @@ Es gibt viele Gründe und Absichten, warum Gruppen gebildet werden. Je nach Zwec
 * ...
 
 
-## <a name="gruppe5"></a> 5. Workshop
+## 5. Workshop
 
 <b>Zweck:</b>
 
@@ -122,7 +102,7 @@ Es gibt viele Gründe und Absichten, warum Gruppen gebildet werden. Je nach Zwec
 * x
 * ...
 
-## <a name="gruppe6"></a> 6. Projektgruppen (Arbeitsteilung)
+## 6. Projektgruppen (Arbeitsteilung)
 
 <b>Zweck:</b>
 
@@ -137,7 +117,7 @@ Es gibt viele Gründe und Absichten, warum Gruppen gebildet werden. Je nach Zwec
 * x
 * ...
 
-## <a name="gruppe7"></a> 7. Planungsgruppen
+## 7. Planungsgruppen
 
 <b>Zweck:</b>
 
@@ -153,7 +133,7 @@ Es gibt viele Gründe und Absichten, warum Gruppen gebildet werden. Je nach Zwec
 * ...
 
 
-## <a name="gruppe8"></a> 8. Vorbereitungsgruppen
+## 8. Vorbereitungsgruppen
 
 <b>Zweck:</b>
 
@@ -169,7 +149,7 @@ Es gibt viele Gründe und Absichten, warum Gruppen gebildet werden. Je nach Zwec
 * ...
 
 
-## <a name="gruppe9"></a> 9. Entscheidungsgremien
+## 9. Entscheidungsgremien
 
 <b>Zweck:</b>
 
@@ -187,7 +167,7 @@ Es gibt viele Gründe und Absichten, warum Gruppen gebildet werden. Je nach Zwec
 * ...
 
 
-## <a name="gruppe10"></a> 10. Beratung
+## 10. Beratung
 
 <b>Zweck:</b>
 
@@ -206,7 +186,7 @@ Es gibt viele Gründe und Absichten, warum Gruppen gebildet werden. Je nach Zwec
 * ...
 
 
-## <a name="gruppe11"></a> 11. Diskussionsgruppen
+## 11. Diskussionsgruppen
 
 <b>Zweck:</b>
 
@@ -232,7 +212,7 @@ Es gibt viele Gründe und Absichten, warum Gruppen gebildet werden. Je nach Zwec
 * ...
 
 
-## <a name="gruppe12"></a> 12. Erfahrungsaustausch
+## 12. Erfahrungsaustausch
 
 <b>Zweck:</b>
 
@@ -248,7 +228,7 @@ Es gibt viele Gründe und Absichten, warum Gruppen gebildet werden. Je nach Zwec
 * Kursbaustein BigBlueButton 
 * ...
 
-## <a name="gruppe13"></a> 13. Feedbackgruppen
+## 13. Feedbackgruppen
 
 <b>Zweck:</b>
 
@@ -264,7 +244,7 @@ Es gibt viele Gründe und Absichten, warum Gruppen gebildet werden. Je nach Zwec
 * ...
 
 
-## <a name="gruppe14"></a> 14. Partnerarbeit
+## 14. Partnerarbeit
 
 <b>Zweck:</b>
 
@@ -281,7 +261,7 @@ Es gibt viele Gründe und Absichten, warum Gruppen gebildet werden. Je nach Zwec
 * ...
 
 
-## <a name="gruppe15"></a> 15. Spontane temporäre Lerngruppen
+## 15. Spontane temporäre Lerngruppen
 
 <b>Zweck:</b>
 
@@ -296,7 +276,7 @@ Es gibt viele Gründe und Absichten, warum Gruppen gebildet werden. Je nach Zwec
 * Kursbausteion BBB mit Breakout-Räumen (innerhalb einer Unterrichtseinheit/Sitzung BBB)
 * ...
 
-## <a name="gruppe16"></a> 16. Lerngruppen zur Aktivierung
+## 16. Lerngruppen zur Aktivierung
 
 <b>Zweck:</b>
 
@@ -312,7 +292,7 @@ Es gibt viele Gründe und Absichten, warum Gruppen gebildet werden. Je nach Zwec
 * ...
 
 
-## <a name="gruppe17"></a> 17. Lerngruppen zur Inszenierung von Wirklichkeit
+## 17. Lerngruppen zur Inszenierung von Wirklichkeit
 
 <b>Zweck:</b>
 
@@ -328,7 +308,7 @@ Es gibt viele Gründe und Absichten, warum Gruppen gebildet werden. Je nach Zwec
 * ...
 
 
-## <a name="gruppe18"></a> 18. Gruppenbildung als Lernziel
+## 18. Gruppenbildung als Lernziel
 
 <b>Zweck:</b>
 
@@ -344,32 +324,39 @@ Es gibt viele Gründe und Absichten, warum Gruppen gebildet werden. Je nach Zwec
 * ...
 
 
-## <a name="gruppe19"></a> 19. Rollenspiel
+## 19. Rollenspiel
 
 <b>Zweck:</b>
 
-* x
+* Ausprobieren und Üben neuer Rollen
+* Reflektieren, Überprüfen und korrigieren bestehender Rollen
 
 <b>Merkmale:</b>
 
-* x
+* Interaktion in vorgegebenen Situationen von 2 oder mehr Personen
+* Beobachtung durch die weiteren Gruppenteilnehmer
 
 <b>Werkzeuge in OpenOlat:</b>
 
-* x
+* Kursbaustein BBB und weitere Videokonferenz-Tools
+* Video-Recording an verschiedenen Stellen in OpenOlat
+* Kursbaustein Formular zum Festhalten von Beobachtungen
+* Kursbaustein Videoaufgabe (Beurteilung eines vorgängig aufgezeichneten Videos)
+* Kursbaustein Diskussionsforum
 * ...
 
 
-## <a name="gruppe20"></a> 20. Planspiel
+## 20. Planspiel
 
 <b>Zweck:</b>
 
-* im Unterschied zum Rollenspiel meistens mehrerer Kontaktphasen (mit Unterbrechungen)
+* x
 * 
 
 <b>Merkmale:</b>
 
-* x
+* im Unterschied zum Rollenspiel meistens mehrere Kontaktphasen (mit Unterbrechungen)
+x
 
 <b>Werkzeuge in OpenOlat:</b>
 
@@ -377,7 +364,7 @@ Es gibt viele Gründe und Absichten, warum Gruppen gebildet werden. Je nach Zwec
 * ...
 
 
-## <a name="gruppe21"></a> 21. Praktikumsgruppen
+## 21. Praktikumsgruppen
 
 <b>Zweck:</b>
 
