@@ -30,6 +30,8 @@ eingeschaltet werden.
 
 Standardmässig ist dieses Modul auf jeder Instanz deaktiviert.
 
+Wird OAI eingeschaltet, werden die SEO-Einstellungen sichtbar. (Ausschliesslich SEO aktivieren, ist nicht möglich.)
+
 Wenn das Modul eingeschaltet wurde, ist der API-Endpoint verfügbar, wo alle veröffentlichten Ressourcen über XML verfügbar sind.
 
 ![OAIPMH Aktivierung](assets/OAIPMH_Aktivierung.png)

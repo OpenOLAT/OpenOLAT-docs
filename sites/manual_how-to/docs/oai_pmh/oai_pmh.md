@@ -27,6 +27,8 @@ The module can be activated by the administrator under
 
 By default, this module is disabled on every instance.
 
+If OAI is enabled, the SEO settings become visible. (Enable SEO only, is not possible).
+
 When the module is turned on, the API endpoint is available where all published resources are available via XML.
 
 ![OAIPMH activation](assets/OAIPMH_activation.png)
