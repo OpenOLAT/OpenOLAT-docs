@@ -1,6 +1,6 @@
 # Wie richte ich zweckmässig Gruppen ein?
 
-Es gibt viele Gründe und Absichten, warum Gruppen gebildet werden. Je nach Zweck können in OpenOlat verschiedene Werkzeuge dafür genutzt werden.
+Es gibt viele Gründe und Absichten, warum Gruppen gebildet werden. Je nach Zweck können in OpenOlat verschiedene Werkzeuge durch die Gruppen genutzt werden.
 
 
 ## 1. Jahrgangsstufen / Klassen / Semester
