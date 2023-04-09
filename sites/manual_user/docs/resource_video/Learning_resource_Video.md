@@ -1,26 +1,104 @@
 # Learning resource: Video
-
-![video_settings.png](assets/video_settings.png)
-
 ![icon_video.png](assets/video_64_0_434343_none.png)
-
-A video learning resource is created in authoring with the feature
-"[Import](../authoring/Actions_in_the_Authoring_section.md)" or "Import URL".
-
-Therefore you select the desired video-file in the upload window and click on
-"Import". In the following step the form opens on info page.
-
-Warning
 
 To be recognized in OpenOlat as a video learning resource a [video file prepared for the import](Video_Upload.md) needs to be in the .mp4 form.
 
-If a description is indicated on the info page after the import, it can be shown as course description when embedding into the course.
+A video learning resource is created in authoring with the feature
+"[Import](../authoring/Actions_in_the_Authoring_section.md)" or "Import URL". Therefore you select the desired video-file in the upload window and click on "Import". 
 
-If YouTube videos are imported via "Import URL" YouTube, metadata of the YouTube file, such as the title or a start image, are also imported.
+![lernressource_video.png](assets/Video_Einstellungen.png)  
 
-### Video settings
+In the following step the form opens on info page. If a description is indicated on the info page after the import, it can be shown as course description when embedding into the course.
 
-You can now further configure your video in the tabs of the "Settings" menu.
+!!! note
+
+    If YouTube videos are imported via "Import URL" YouTube, metadata of the YouTube file, such as the title or a start image, are also imported.
+
+
+##  Video Editor
+
+In der Administration der Lernressource findet man den Link zum "Video-Editor". Hier kann das Video mit (interaktiven) Elementen ausgestaltet und weiter konfiguriert werden. 
+
+![lernressource_video.png](assets/Video-Editor.png)
+
+Der Video Editor umfasst drei Bearbeitungsbereiche: 
+* Konfigurationsbereich
+* Timeline
+* Vorschaubereich
+
+Konfiguriert werden können: Kapitel, Annotationen, Segmente, Kommentare und Quiz. 
+
+!!! info "Tipp"
+
+    Hilfreich ist es die unterschiedlichen Elemente mit verschiedenen Farben zu kennzeichnen. 
+
+### Chapters {: #video_chapter}
+
+Jedem Video können "Kapitel" als Sprungmarken hinzugefügt werden. This simplifies especially the
+navigation in the video. A chapter is added with the button "Add chapter". The
+name of the chapter can be inserted. Additionally the begin of the chapter
+needs to be defined.
+
+Alternatively the video can be stopped at the place, where the new chapter
+should start. Click the button "Add chapter". The begin is taken over
+automatically and only the name of the chapter needs to inserted.
+
+Chapters can be edited and deleted.
+
+Ferner sind die Kapitel in der Timeline sichtbar. 
+
+![lernressource_video.png](assets/Video-Editor_Kapitel.png)
+
+
+### Annotations
+
+In addition to the chapter markers, further annotations and comments can also
+be stored at any point in the video, e.g. to highlight particularly important
+points or to supplement certain aspects.
+
+![lernressource_video.png](assets/Video-Editor_Annotationen.png) 
+
+Select the place where the annotation should be added and define the further
+settings, such as the duration, the position where the annotation should
+appear and of course the text to be displayed.
+
+### Segments
+Segmente kommen in der Videoaufgabe im Kurs zum Einsatz. Sie markieren definierte Bereiche im Video, denen die Teilnehmenden vorgegebene Begriffe oder Situationen (= Kategorien) zuordnen müssen.
+
+### Comments
+Kommentare können gezielt an einem bestimmten Punkt im Video gesetzt werden und zum Beispiel wichtige Kernaussagen des Videos hervorheben, ergänzende Informationen zum Thema oder Hinweise zum folgenden Videoabschnitt bereitstellen. Der Kommentar wird mit dem Namen der erstellenden Person gekennzeichnet. 
+
+Sieht sich der User das Video an stoppt es an der mit dem Kommentar versehenen Stelle. Um fortzufahren, muss entweder der Kommentar aktiv geschlossen oder der Play-Button des Videos manuell angeklickt werden.
+
+Neben einfachen Text-Kommentaren und der Einbindung bestehender Videos (Import als Datei oder per URL, z.B. von YouTube) können Video-Kommentare auch direkt im Editor über die Recording-Funktion aufgenommen und integriert werden.
+
+![lernressource_video.png](assets/Video-Editor_Kommentare.png)  
+
+
+### Quiz
+
+Here you can add individual quiz questions to the video, which are either
+created directly or imported from the question pool. There are currently 12
+different question types to choose from. The question can then be further
+configured. 
+
+In the tab "**Configuration**" you can define the time at which the
+question should appear, if there is a time limit or if it is allowed to skip
+the question or if another attempt is allowed. 
+
+Die konkret angezeigten Tabs für die Quizfrage sind abhängig vom gewählten Fragetyp. Im ersten Tab wird die konkrete Fragestellung sowie die Antworten hinterlegt. The tab "**Score**" defines the type of points to be awarded. 
+In the tab "**Feedback**" feedbacks
+based on different criteria can be added. Im Tab **"Vorschau"** bzw. **"Vorschau Lösung"** kann man sich die Darstellung der Frage anschauen. 
+
+!!! note ""
+
+    Further information on the general settings of quiz and tests can be found in the chapter "Configuring test questions". For more information on the different question types, see the "[Test Question Types](../tests/Test_question_types.md)" chapter.
+
+
+## Videokonfiguration in den "Einstellungen" der Lernressource
+
+You can now further configure your video in the tabs of the "Settings" of the administration menu.
+
 The "Info", "Share" and "Catalog" tabs are analogous to other learning
 resources. For general information about the Settings menu, click
 [here](../course_create/Course_Settings.md).
@@ -45,64 +123,7 @@ freeze frame from the beginning of the video appears.
 
     Please consider that such a pictures needs the same pixel size than the original video. The corresponding data can be found in the tab "Metadata".
 
-  
-
-### Chapter {: #video_chapter}
-
-To group a video, chapters can be added. This simplifies especially the
-navigation in the video. A chapter is added with the button "Add chapter". The
-name of the chapter can be inserted. Additionally the begin of the chapter
-needs to be defined.
-
-Alternatively the video can be stopped at the place, where the new chapter
-should start. Click the button "Add chapter". The begin is taken over
-automatically and only the name of the chapter needs to inserted.
-
-Chapters can be edited and deleted.
-
-
-![chapter.png](assets/chapters.png)
-
-### Annotations
-
-In addition to the chapter markers, further annotations and comments can also
-be stored at any point in the video, e.g. to highlight particularly important
-points or to supplement certain aspects.
-
-Select the place where the annotation should be added and define the further
-settings, such as the duration, the position where the annotation should
-appear and of course the text to be displayed.
-
-![annotations_video.png](assets/VideoLR_Marker_EN.png)
-
-### Quiz
-
-Here you can add individual quiz questions to the video, which are either
-created directly or imported from the question pool. There are currently 11
-different question types to choose from. The question can then be further
-configured. 
-
-In the tab "**Configuration**" you can define the time at which the
-question should appear, if there is a time limit or if it is allowed to skip
-the question or if another attempt is allowed. 
-
-In the tab "**Selection**" the
-concrete question as well as the answers are deposited. 
-
-The tab "**Score**"
-defines the type of points to be awarded. 
-
-In the tab "**Feedback**" feedbacks
-based on different criteria can be added.
-
-!!! note ""
-
-    Further information on the general settings of quiz and tests can be found in the chapter "Configuring test questions". For more information on the different question types, see the "[Test Question Types](../tests/Test_question_types.md)" chapter.
-
-  
-
-![quiz.png](assets/VideoLR_Quiz_EN.png)
-
+ 
 ###  Subtitle configuration {: #video_subtitles}
 
 A video can be subtitled in any number of languages. 
@@ -148,7 +169,7 @@ The following example shows the beginning of a typical VTT file:
     What are you waiting for?
 
 
-#### **Adding subtitles**
+**Adding subtitles**
 
 To add subtitles to a video
 
@@ -163,7 +184,7 @@ To add subtitles to a video
 
     Already created subtitles are listed in the table and can be deleted there as well.
 
-#### **Displaying subtitles**
+**Displaying subtitles**
 
 By default the videos in OpenOlat are played without subtitles. 
 
@@ -190,7 +211,7 @@ settings in the administration area. Pending videos can be transcoded and not
 used resolutions can be deleted. In the video player the desired resolution
 can be chosen by the "Source Chooser".
 
-![video_quailty.png](assets/videoquality_EN.png)
+![video_quailty.png](assets/Video_quality_en.png)
 
 ![video_resolution.png](assets/resolution_EN.png)
 
@@ -203,19 +224,6 @@ can be chosen by the "Source Chooser".
 In the Download tab you can set whether the users are allowed to download the
 video or not.
 
-## Embed videos in courses {: #video_courseelement}
-
-The [course element "Video"](Course_Element_Video.md) allows the author to embed
-videos directly into a course. The video is either chosen out of the list of
-available videos in the authoring, or directly imported. Compared to videos
-embedded as a [course element "Single page" - videos embedded](Single_Page_Add_edit_video.md) course element "Single page" - videos embedded like this allow:
-
-  * playback with subtitles
-  * playback in different resolutions (especially relevant for mobile, or without WiFi-access) 
-  * comments
-  * assessment
-  * landing picture by desire
-  * Combination with certain completion criteria in learning path courses
 
 ##  Video Collection
 

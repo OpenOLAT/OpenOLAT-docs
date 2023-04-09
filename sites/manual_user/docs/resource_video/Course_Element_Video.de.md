@@ -2,45 +2,58 @@
 
 ![icon_video.png](assets/video_64_0_434343_none.png)
 
-Gehen Sie in den Kurseditor und fügen Sie Ihrem Kurs den Kursbaustein "Video"
-hinzu.
 
-Klicken Sie im Tab „Lerninhalt“ auf „Video auswählen oder importieren“, um
-Ihrem Kursbaustein ein Video zuzuordnen. Klicken Sie auf „Importieren“ bzw.
-"Importieren URL", um ein neues Video hochzuladen bzw. zu verlinken, oder
-wählen Sie ein bestehendes Video aus Ihren Einträgen aus. Videos können nicht
-nur im Kurseditor, sondern auch im [„Autorenbereich" importiert](Learning_resource_Video.de.md) werden. Wenn
-Sie noch kein Video zugewiesen haben, erscheint beim Titel **Gewähltes Video**
+Verwenden Sie den Kursbaustein „Video“, um ein Video im MPEG-4 Format (.mp4) in Ihren Kurs einzubinden. Das Video muss extern erstellt werden.
+
+## Neues Video zuordnen
+
+Gehen Sie in den Kurseditor und fügen Sie Ihrem Kurs den Kursbaustein "Video" hinzu.
+
+Wenn Sie noch kein Video zugewiesen haben, erscheint beim Titel **Gewähltes Video**
 die Meldung _Kein Video ausgewählt_.
+Klicken Sie im Tab „Lerninhalt“ auf „Video auswählen oder importieren“, um
+Ihrem Kursbaustein ein Video zuzuordnen. 
 
-Wenn Sie schon ein Video hinzugefügt haben, erscheint dessen Name als Link.
-Folgen Sie dem Link um zur Vorschau zu gelangen. Um die Zuordnung eines Videos
-nachträglich zu ändern, klicken Sie im Tab „**Lerninhalt**“ auf „**Video auswechseln**“ und wählen anschliessend ein anderes Video aus.
+Es erscheint ein neues Menü. Unter "Alle Einträge" sehen Sie alle Videos des Systems die Sie einbinden können. Unter "Meine Einträge" sehen Sie die Video Lernressourcen bei denen Sie Besitzer sind. Wählen sie das gewünschte Video aus. Eine Suche ist ebenfalls möglich.
 
-Haben Sie ein Video ausgewählt bzw. importiert erscheint der Abschnitt
-**„Optionen“**. Hier können Sie definieren ob die Zuschauer das Video kommentieren
-und/oder bewerten dürfen und ob das Video automatisch gestartet werden soll
-oder nicht und ob das Vorspulen eingeschränkt werden soll oder nicht. Ferner
-können Sie den Titel des Videos und/oder eine Beschreibung des Videos anzeigen
-lassen. Beides erscheint dann unterhalb des Videos. Sie können entweder eine
-_Eigene Beschreibung_ in dem erscheinenden Eingabefeld hinzufügen, die
-_Beschreibung_ der Lernressource _aus_ deren zugehörigen [_Infoseite_
-](../catalog/Info_page.de.md)verwenden, oder die Beschreibung ganz
-weglassen.
+Klicken Sie auf „Importieren“ bzw.
+"Importieren URL", um ein *neues* Video hochzuladen bzw. zu verlinken. Alternativ können Sie eine neue Video Lernressource auch im [Autorenbereich](Learning_resource_Video.de.md)  anlegen.
 
-!!! tip "Tipp"
+## Hinzugefügtes Video konfigurieren
+
+Sobald Sie ein Video hinzugefügt haben, erscheint dessen Name als Link.
+Folgen Sie dem Link um zur Vorschau des Videos zu gelangen. 
+
+Haben Sie ein Video ausgewählt bzw. importiert erscheint im Tab Lerninhalt der Abschnitt
+**„Optionen“**. Hier können Sie definieren:
+* ob die Zuschauer das Video kommentieren und/oder bewerten dürfen 
+* ob das Video automatisch gestartet werden soll oder nicht  
+* ob das Vorspulen eingeschränkt werden soll oder nicht 
+* ob der Video Titel aus der Lernressource angezeigt werden soll
+* ob eine Beschreibung des Videos angezeigt werden soll. Dabei kann entweder die Beschreibung aus der Info der Lernressource Video übernommen, eine neue Beschreibung hinterlegt oder ganz darauf verzichtet werden.
+
+Sofern Titel und Beschreibung aktiviert wurden werden diese unterhalb des Videos angezeigt. 
+
+Um die Zuordnung eines Videos
+nachträglich zu ändern und ein anderes Video auszuwählen, klicken Sie im Tab „Lerninhalt“ auf „Video auswechseln“ und wählen anschliessend ein anderes Video aus.
+
+!!! info "Info"
 
     In Lernpfad Kursen kann im Tab "Lernpfad" zusätzlich als Erledigungskriterium definiert werden, ob die Lernenden das Video zu Ende schauen müssen (zu 95%), damit der Kursbaustein als erledigt gilt.
 
-![einbebundenes_video.png](assets/vimeo_embed_DE.png)
 
-Zusätzlich können alle Videos die in OpenOlat als Lernressource angelegt und
-im Kurs eingebunden werden noch weiter konfiguriert werden. Dies erfolgt
-direkt in der Lernressource im Autorenbereich. Hier können beispielsweise ein
-Startbild (Poster) definiert, Kapitelmarken gesetzt oder Quizfragen ergänzt
-werden. Die einzelnen Möglichkeiten werden im Kapitel "[Lernressource: Video](Learning_resource_Video.de.md)" erläutert.
+Zusätzlich können alle Videos die in OpenOlat als Lernressource angelegt und im Kurs eingebunden werden noch weiter konfiguriert werden. Es können beispielsweise ein
+Startbild (Poster) definiert, Kapitelmarken gesetzt oder Quizfragen ergänzt werden. Die einzelnen Möglichkeiten werden im Kapitel "[Lernressource: Video](Learning_resource_Video.de.md)" erläutert.
 
-!!! info ""
+## Art der Einbindung im Kurs
 
-    Verwenden Sie den Kursbaustein „Video“, um ein Video im MPEG-4 Format (.mp4) in Ihren Kurs einzubinden. Das Video muss extern erstellt werden.
+Ein Video, das mit Hilfe des Kursbausteins Video in einen Kurs eingebunden wurde ermöglicht - im
+Gegensatz zu Videos die über das [Kurselement "Einzelne Seite" eingebunden](Single_Page_Add_edit_video.de.md)
+werden:
 
+  * die Wiedergabe mit Untertiteln
+  * die Wiedergabe in unterschiedlichen Auflösungen (vor allem relevant für Mobilgeräte, oder ohne WLAN-Zugang)
+  * Kommentare
+  * Bewertungen
+  * ein Startbild nach Wunsch
+  * Kombination mit bestimmten Erledigungskriterien in [Lernpfad Kursen](../course_create/Learning_path_course.de.md)
