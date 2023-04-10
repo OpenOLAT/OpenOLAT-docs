@@ -5,7 +5,7 @@ testing. For some course elements there are separate pages or chapters here in
 the manual.
 
 
-![assessment icon](assets/assessment_en.jpg)
+![assessment icon](assets/Wissensueberpruefung_172_en.png)
 
 OpenOlat provides various course elements for knowledge testing. The central
 course elements for this are the three course elements for OpenOlat
@@ -231,6 +231,10 @@ After completion of a challenge, detailed statistics on the learning status as w
 !!! info "Info"
 
     Only automatically evaluable test questions can be used for this course element. 
+
+## Course Element: Video task
+With the course element "Video task" video learning resources can be reused for interactive (formative) exercises or tasks with assessments (summative). Participants have to identify relevant situations ("teachable moment") in a video and assign them to a category.
+Es steht ein Übungsmodus und ein scharfer Testmodus zur Verfügung. 
 
 ## Course Element: Form  {: #course_element_form}
 

@@ -43,6 +43,7 @@ courses](../course_create/index.md)" first.
   * [Course Element: Self-test](Assessment.md#course_element_self_test)
   * [Course Element: Practice](Assessment.md#course_element_uebung)    
   * [Course Element: Form](Assessment.md#course_element_form)
+  * Course Element: Video taks
   * [Course Element: Survey](Assessment.md#course_element_survey)
   * [Course Element: Checklist](Assessment.md#course_element_checklist)
 

@@ -26,6 +26,8 @@ section
 After adding your video its title will be displayed as a link. Follow this
 link to get to the preview. 
 
+Unter "Videoelemente anzeigen" können auch Anmkerungen, Segmente, Quiz und Kommentare, sofern in der Lernressource Video hinzugefügt, aktiviert werden.
+
 Once you have selected or imported a video, the "Options" section appears.
 Here you can define whether viewers are allowed to comment and/or rate the
 video and whether the video should be started automatically or not. You can
