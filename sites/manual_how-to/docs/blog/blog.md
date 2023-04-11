@@ -54,51 +54,49 @@ Done. With this, a new blog learning resource is created and further settings as
     The same blog can be integrated in several OpenOlat courses and can also be used independently of the course.
 
 
-  
 
 ## Step 3: Define user rights
 
-a) Im Tab **"Blog-Lerninhalt"** wird festgelegt, wer Blogbeiträge erstellen und den Blog moderieren darf. 
-Differenziertere Einstellungen sind auch über die erweiterte Konfiguration möglich. 
+a) The **Blog Learning Content** tab is used to define who can create blog posts and moderate the blog. More differentiated settings are also possible via the advanced configuration.
 
 ![autoring.png](assets/blog_course_element.png)  
 
-b) **Blog-Moderatoren** verfügen zusätzlich im Kursrun* über den <b>Button "Blog bearbeiten"</b> und können Titel, Beschreibung und Bild eines Blogs bestimmen. Auch entscheiden sie zu Beginn, ob ein externer Blog oder ein OpenOlat-Blog verwendet werden soll. Diese Entscheidung ist notwendig, bevor Blogbeiträge z.B. von Teilnehmenden erstellt werden können.
+b) **Blog moderators** additionally have the <b>"Edit blog"</b> button in the course run* and can determine the title, description and image of a blog. They also decide at the beginning if an external blog or an OpenOlat blog should be used. This decision is necessary before blog posts can be created e.g. by participants.
 
-(*Kursrun = Modus „aktiver Kurs“, im Unterschied zum Kurs, der im Editor geöffnet ist)
+(*course run = „active course" mode, as opposed to the course open in the editor)
 
-c) Abschließend muss der Kurs **publiziert** und der Kurseditor geschlossen werden, damit die Änderungen sichtbar werden. 
+c) Finally, the course must be **published** and the course editor closed so that the changes are visible.
 
 
-## Schritt 4: Blogbeiträge hinzufügen  
+
+## Step 4: Add blog posts 
 
 ![blog_einbinden.png](assets/blog_add_first_post.png)  
   
-a) Klicken Sie auf "**Einträge selbst erstellen**" um den ersten **Initialbeitrag** des Blogs zu erstellen.  Dieser Schritt ist notwendig, damit Blogbeiträge von der definierten Zielgruppe anschließend ebenfalls eingestellt werden können.
+a) Click "**Create your own entries**" to create the first **initial post** of the blog.  This step is necessary so that blog posts from the defined target group can also be posted afterwards.
 
-b) Erstellen Sie den ersten **Blogbeitrag**.
+b) Create the first **blog post**.
 
-* Vergeben Sie einen Titel.
-* Der eigentliche Blogbeitrag wird unter "Inhalt" eingefügt.
-* Alternativ oder ergänzend können auch Audio oder Videodateien eingefügt werden.
-* Auch Zeitpunkt und Datum der Veröffentlichung können bestimmt werden.
+* Give a title.
+* The actual blog post is inserted under "Content".
+* Alternatively or supplementary audio or video files can be inserted.
+* The time and date of publication can also be determined.
 
-c) Wenn Sie alle gewünschten Felder ausgefüllt haben, veröffentlichen Sie den Blogbeitrag durch Klick auf den Button "Veröffentlichen" am unteren Rand des Fensters.
+c) When you have filled in all the required fields, publish the blog post by clicking the "Publish" button at the bottom of the window.
 
 ![blog_erstellen.png](assets/blog_publish_post.png)  
 
-Weitere Einträge können anschließend über den <b>Button "Neuen Eintrag erstellen"</b> einfach im
-Kursrun (veröffentlichter Kurs) hinzugefügt werden.  
+Additional entries can then be easily added via the <b>"Create new entry"</b> button in the course run (published course) to be added.
 
-!!! info "Voraussetzung"
+!!! info "Precondition"
 
-    Voraussetzung für die Erstellung von Blogbeiträgen durch Kursbesitzer, Betreuer oder Teilnehmende ist die Verwendung eines **in OpenOlat erstellten Blogs** (nicht die Einbindung eines externen Blogs). Eine Kommentierung ist jedoch grundsätzlich möglich. 
+    The prerequisite for the creation of blog posts by course owners, coaches or participants is the use of a **blog created in OpenOlat** (not the integration of an external blog). However, commenting is possible in principle. 
 
-!!! info "Hinweis"
+!!! info "Note"
 
-    **Teilnehmer und Betreuer** erstellen ihre Beiträge bei geschlossenem Editor im Kursrun. (Kursrun = Modus „aktiver Kurs“, im Unterschied zum Kurs, der im Editor geöffnet ist) <br>**Besitzer** können neue Einträge auch im Kurseditor hinzufügen.
+    **Participants and coaches** create their posts with the editor closed in course run. (Course run = "active course" mode, as opposed to the course being open in the editor.)<br> **Owners** can also add new entries in the course editor.
 
-## Externen Blog einbinden
+## Embed an external blog
 
  Neben OpenOlat Blogs können auch externe Blogs aus dem Internet in einen Kurs eingebunden werden. Hierfür wird der RSS-Feed des gewünschten externen Blogs benötigt. 
  
@@ -106,8 +104,9 @@ Kursrun (veröffentlichter Kurs) hinzugefügt werden.
 
  Anschließend werden die Inhalte des externen Blogs im OpenOlat Kurs direkt angezeigt und können mit Sternchen bewertet und auch kommentiert werden. Diese Kommentierungen sind nur innerhalb des Kurses, nicht öffentlich im Internet, sichtbar.
 
+In addition to OpenOlat blogs, external blogs from the Internet can also be integrated into a course. For this, the RSS feed of the desired external blog is required.
 
+Instead of clicking on the "Create your own entries" button, click on the **"Embed an already existing external blog "** button and insert the RSS feed link in the dialog that appears.
+
+Afterwards, the content of the external blog will be displayed directly in the OpenOlat course and can be star rated and also commented on. These comments are only visible within the course, not publicly on the Internet.
   
-
-  
-
