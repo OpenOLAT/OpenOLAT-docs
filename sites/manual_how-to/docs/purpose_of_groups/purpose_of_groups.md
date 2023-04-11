@@ -13,14 +13,14 @@ There are many reasons and intentions why groups are formed. Depending on the pu
 
 * learners stay in the common group **over several courses**
 * learners stay in the shared group **for a longer period of time**
-* creation of the group by the administrator/supervisor
+* creation of the group by the administrator/coach
 * **no** group membership by **self-booking**
 
 **Tools in OpenOlat:**
 
 * virtual classrooms (BBB, Microsoft Teams, Zoom, among others).
 * module curriculum
-* module OrganizationUnits
+* module organizations
 * group tools
 * shared calendars
 * common forum
@@ -53,7 +53,7 @@ There are many reasons and intentions why groups are formed. Depending on the pu
 * ...
 
 
-## 3. Sprachgruppen
+## 3. Language groups
 
 **Purpose:**
 
@@ -70,26 +70,26 @@ There are many reasons and intentions why groups are formed. Depending on the pu
 * language adaptation tool
 * specific offer for language groups (through learning path via exception function)
 * module curriculum
-* module organization units
+* module organizations
 * ...
 
 
-## 4. Gruppen nach Regionen
+## 4. Groups according to regions
 
 **Purpose:**
 
-* oft Gruppen für Blended learning (Präsenzunterricht + Online-Lernen)
+* often groups for blended learning (face-to-face + online learning)
 
 **Characteristics:**
 
-* Gruppenmitglieder kommen aus der gleichen geographischen Region
+* group members come from the same geographic region
 
 **Tools in OpenOlat:**
 
-* z.B. Mitteilungsversand nach Postleitzahl
-* Zuordnung zur Gruppe evtl. automatisch (Angabe zur Sprache, PLZ -> Syncher)
-* Kopierfunktion für ganze Kurse (-> Erstellung von Sprachversionen)
-* Modul Organisationseinheiten
+* e.g. message dispatch according to postal code
+* assignment to group possibly automatically (specification of language, postal code -> Syncher)
+* copy function for whole courses (-> creation of language versions)
+* module organizations
 * ...
 
 
@@ -97,171 +97,172 @@ There are many reasons and intentions why groups are formed. Depending on the pu
 
 **Purpose:**
 
-* praxisbezogene Bearbeitung eines Themas in einer Kleingruppe
+* practical work on a topic in a small group
 
 **Characteristics:**
 
-* zeitlich begrenzt
-* aktive Zusammenarbeit der Teilnehmer
+* limited in time
+* active cooperation of the participants
 
 **Tools in OpenOlat:**
 
-* Zugangssteuerung zu Kursen (Zugriff nur in einem bestimmten Zeitfenster) 
-* Kollaborationswerkzeuge: Chat, Mitteilungen, E-Mail
-* Kursbaustein Gruppenaufgabe
-* Kursbaustein Themenvergabe
-* Kursbaustein Dokumente (zur gemeinsamen Bearbeitung eines Dokumentes)
-* gemeinsamer Ablageordner
-* Moderation durch Betreuer
-* Kursbaustein BBB mit Breakout-Räumen für Teilgruppen
-* Kursbaustein Dateidiskussion
-* Kursbaustein Linkliste
-* Kursbaustein Checkliste
+* access control to courses (access only in a certain time window)
+* collaboration tools: chat, messages, e-mail
+* course element group task
+* course element topic assignment
+* course element documents (for joint editing of a document)
+* shared folder
+* moderation by coach
+* course element BBB with breakout rooms for subgroups
+* course element file discussion
+* course element link list
+* course element check list
 * ...
 
-## 6. Projektgruppen (Arbeitsteilung)
+
+## 6. Project groups (work sharing)
 
 **Purpose:**
 
-* Arbeitsteilung zur Erreichung eines bestimmten Ziels
+* division of labor to achieve a specific goal
 
 **Characteristics:**
 
-* Termin zur Fertigstellung
-* Aufteilung in Arbeitsschritte
-* Ablaufplanung
-* Terminierungsaufgaben
-* Koordination
+* deadline for completion
+* division into work steps
+* scheduling
+* scheduling tasks
+* coordination
 
 **Tools in OpenOlat:**
 
-* Kursbaustein Themenvergabe
-* Kursbaustein Terminplanung
-* gemeinsamer Kalender
-* Teilnehmerliste
-* gemeinsamer Teilnehmerordner
-* Podcast (Bericht zum Projektstand)
+* course element topic assignment
+* course element scheduling
+* common calendar
+* list of participants
+* common participant folder
+* podcast (report on project status)
 * ...
 
-## 7. Planungsgruppen
+
+## 7. Planning teams
 
 **Purpose:**
 
-* gemeinsame Planung
+* joint planning
 
 **Characteristics:**
 
-* Ablaufplanung
-* Terminierungsaufgaben
-* Koordination
+* scheduling
+* scheduling tasks
+* coordination
 
 **Tools in OpenOlat:**
 
-* Kursbaustein Terminplanung
-* verschiedene Kalender
-* Kursbaustein Umfrage
-* Kursbaustein Linkliste
-* Kursbaustein Checkliste
-* Projektmanagement-Funktionen
+* course element scheduling
+* different calendars
+* course element survey
+* course element link list
+* course element checklist
+* project management functions
 * ...
 
 
-## 8. Vorbereitungsgruppen
+## 8. Preparation groups
 
 **Purpose:**
 
-* Vorbereitungskomitees zur Vorbereitung einer Veranstaltung, Projektes, ...
+* preparatory committees to prepare an event, project, ...
 
 **Characteristics:**
 
-* vor allem Koordinationsaufgaben
-* zeitlich begrenzt
+* mainly coordination tasks
+* limited in time
 
 **Tools in OpenOlat:**
 
-* Kursbaustein Terminplanung
-* verschiedene Kalender, auch mit Kalenderimport
-* Kursbaustein Themenvergabe
-* Kollaborationswerkzeuge: Chat, Mitteilungen, E-Mail
+* course element scheduling
+* different calendars, also with calendar import
+* course element topic assignment
+* collaboration tools: chat, messages, e-mail
 * ...
 
 
-## 9. Entscheidungsgremien
+## 9. Decision-making committees
 
 **Purpose:**
 
-* Diskussion, Entscheidung und Kommunikation des Ergebnisses
+* discussion, decision and communication of the result
 
 **Characteristics:**
 
-* Vorbereitungsphase individuell
-* gemeinsames Ansehen von Dokumenten (Entscheidungsgrundlage)
-* Abstimmungen
-* Dokumentation der Entscheidungen
-* Kommunikation der Entscheidungen
-
-v
-
-* virtuelle Sitzungszimmer (BBB mit Abstimmungsfunktion) 
-* Kursbaustein Teilnehmerliste
-* Kursbaustein Dateidiskussion
-* Kursbaustein Bewertung
-* Kollaborationswerkzeuge: Chat, Mitteilungen, E-Mail
-* ...
-
-
-## 10. Beratung
-
-**Purpose:**
-
-* Beratung durch einen Experten
-
-**Characteristics:**
-
-* Oft 1:1-Besprechungen
-* Situationsanalyse durch den Berater
-* begleitete Umsetzung
+* preparation phase individual
+* joint viewing of documents (basis for decision-making)
+* voting
+* documentation of decisions
+* communication of decisions
 
 **Tools in OpenOlat:**
 
-* BBB-Sitzungszimmer
-* Kursbaustein Aufgabe
-* Kursbaustein Checkliste
-* Kursbaustein Bewertung
-* Kursbaustein Linkliste
+* virtual meeting room (BBB with voting function) 
+* course element participant list
+* course element file discussion
+* course element assessment
+* collaboration tools: chat, messages, e-mail
 * ...
 
 
-## 11. Diskussionsgruppen
+## 10. Consulting
 
 **Purpose:**
 
-* Lerneffekt durch gemeinsame Erörterung
+* Consulting with an expert
 
 **Characteristics:**
 
-* meistens live -> Online-Meetings
-* gleichberechtigte, aktive Gruppenmitglieder 
-* evtl. mit Blog
-
+* often 1:1 meetings
+* situation analysis by the consultant
+* accompanied implementation
 
 **Tools in OpenOlat:**
 
-* Kursbaustein BBB
-* Kursbaustein Teams
-* Kursbaustein Zoom
-* Kursbaustein Forum
-* Kursbaustein Blog
-* OpenOlat-Chatfunktion
-* evtl. Kursbaustein Einschreibung
+* BBB meeting room
+* course element task
+* course element checklist
+* course element assessment
+* course element link list
 * ...
 
 
-## 12. Erfahrungsaustausch
+## 11. Discussion groups
 
 **Purpose:**
 
-* Lerneffekt durch Teilhabe
+* learning effect through joint discussion
+
+**Characteristics:**
+
+* mostly live -> online meetings
+* equal, active group members 
+* possibly with blog
+
+**Tools in OpenOlat:**
+
+* course element BBB
+* course element Teams
+* course element Zoom
+* course element forum
+* course element blog
+* OpenOlat chat function
+* possibly course element enrollment
+* ...
+
+
+## 12. Exchange of experience
+
+**Purpose:**
+
+* learning effect through participation
 
 **Characteristics:**
 
