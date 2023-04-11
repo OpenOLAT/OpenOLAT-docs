@@ -481,7 +481,7 @@ There are many reasons and intentions why groups are formed. Depending on the pu
 * ...
 
 
-##  23. Interessengruppen
+##  23. Interest groups
 
 **Purpose:**
 
