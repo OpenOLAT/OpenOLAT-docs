@@ -59,7 +59,7 @@ Done. With this, a new blog learning resource is created and further settings as
 
 a) The **Blog Learning Content** tab is used to define who can create blog posts and moderate the blog. More differentiated settings are also possible via the advanced configuration.
 
-![autoring.png](assets/blog_course_element.png)  
+![blog course element](assets/blog_course_element.png)  
 
 b) **Blog moderators** additionally have the <b>"Edit blog"</b> button in the course run* and can determine the title, description and image of a blog. They also decide at the beginning if an external blog or an OpenOlat blog should be used. This decision is necessary before blog posts can be created e.g. by participants.
 
@@ -97,12 +97,6 @@ Additional entries can then be easily added via the <b>"Create new entry"</b> bu
     **Participants and coaches** create their posts with the editor closed in course run. (Course run = "active course" mode, as opposed to the course being open in the editor.)<br> **Owners** can also add new entries in the course editor.
 
 ## Embed an external blog
-
- Neben OpenOlat Blogs können auch externe Blogs aus dem Internet in einen Kurs eingebunden werden. Hierfür wird der RSS-Feed des gewünschten externen Blogs benötigt. 
- 
- Anstatt auf den Button "Einträge selbst erstellen" klicken Sie auf den Button **"Einen bestehenden Blog einbinden"** und fügen Sie im erscheinenden Dialog den RSS-Feed Link ein.
-
- Anschließend werden die Inhalte des externen Blogs im OpenOlat Kurs direkt angezeigt und können mit Sternchen bewertet und auch kommentiert werden. Diese Kommentierungen sind nur innerhalb des Kurses, nicht öffentlich im Internet, sichtbar.
 
 In addition to OpenOlat blogs, external blogs from the Internet can also be integrated into a course. For this, the RSS feed of the desired external blog is required.
 
