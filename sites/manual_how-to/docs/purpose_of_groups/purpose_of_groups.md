@@ -1,22 +1,22 @@
-# Wie richte ich zweckmässig Gruppen ein?
+# How do I set up groups appropriately?
 
-Es gibt viele Gründe und Absichten, warum Gruppen gebildet werden. Je nach Zweck können in OpenOlat verschiedene Werkzeuge durch die Gruppen genutzt werden.
+There are many reasons and intentions why groups are formed. Depending on the purpose, different tools can be used by the groups in OpenOlat.
 
 
 ## 1. Jahrgangsstufen / Klassen / Semester
 
-<b>Zweck:</b>
+<b>Purpose:</b>
 
 * organisatorisch begründete Gruppenzusammenstellung
 
-<b>Merkmale:</b>
+<b>Characteristics:</b>
 
 * Lernende bleiben über <b>mehrere Kurse</b> hinweg in der gemeinsamen Gruppe
 * Lernende bleiben über einen <b>längeren Zeitraum</b> in der gemeinsamen Gruppe
 * Erstellung der Gruppe durch den Administrator/Betreuer
 * <b>keine</b> Gruppenmitgliedschaft durch <b>Selbstbuchung</b>
 
-<b>Werkzeuge in OpenOlat:</b>
+<b>Tools in OpenOlat:</b>
 
 * virtuelle Klassenzimmer (BBB, Microsoft Teams, Zoom, u.a.)
 * Modul Curriculum
@@ -30,17 +30,17 @@ Es gibt viele Gründe und Absichten, warum Gruppen gebildet werden. Je nach Zwec
 
 ## 2. Leistungsgruppen
 
-<b>Zweck:</b>
+<b>Purpose:</b>
 
 * Gruppen mit gleichem Leistungsniveau (z.B. Anfänger, Fortgeschrittene)
 
-<b>Merkmale:</b>
+<b>Characteristics:</b>
 
 * Lernende bleiben meist nur für einen best. Kurs (mit best. Niveau) in der gemeinsamen Gruppe
 * Erstellung der Gruppe durch den Administrator/Betreuer
 * Evtl. Gruppenmitgliedschaft durch Selbstbuchung
 
-<b>Werkzeuge in OpenOlat:</b>
+<b>Tools in OpenOlat:</b>
 
 * z.B. innerhalb von Kursen Abschnitte mit unterschiedlichem Niveau 
 * z.B. Zugangsregelung über Lernpfad
@@ -54,16 +54,16 @@ Es gibt viele Gründe und Absichten, warum Gruppen gebildet werden. Je nach Zwec
 
 ## 3. Sprachgruppen
 
-<b>Zweck:</b>
+<b>Purpose:</b>
 
 * Gruppen mit gleicher Sprache
 
-<b>Merkmale:</b>
+<b>Characteristics:</b>
 
 * Zuordnung zur Gruppe evtl. automatisch durch Syncher (nach Eintrag zur Sprache)
 * oder Zuordnung zur Gruppe durch Wahl des Teilnehmers
 
-<b>Werkzeuge in OpenOlat:</b>
+<b>Tools in OpenOlat:</b>
 
 * Mehrsprachigkeit der Benutzeroberfläche
 * Sprachanpassungswerkzeug
@@ -75,15 +75,15 @@ Es gibt viele Gründe und Absichten, warum Gruppen gebildet werden. Je nach Zwec
 
 ## 4. Gruppen nach Regionen
 
-<b>Zweck:</b>
+<b>Purpose:</b>
 
 * oft Gruppen für Blended learning (Präsenzunterricht + Online-Lernen)
 
-<b>Merkmale:</b>
+<b>Characteristics:</b>
 
 * Gruppenmitglieder kommen aus der gleichen geographischen Region
 
-<b>Werkzeuge in OpenOlat:</b>
+<b>Tools in OpenOlat:</b>
 
 * z.B. Mitteilungsversand nach Postleitzahl
 * Zuordnung zur Gruppe evtl. automatisch (Angabe zur Sprache, PLZ -> Syncher)
@@ -94,16 +94,16 @@ Es gibt viele Gründe und Absichten, warum Gruppen gebildet werden. Je nach Zwec
 
 ## 5. Workshop
 
-<b>Zweck:</b>
+<b>Purpose:</b>
 
 * praxisbezogene Bearbeitung eines Themas in einer Kleingruppe
 
-<b>Merkmale:</b>
+<b>Characteristics:</b>
 
 * zeitlich begrenzt
 * aktive Zusammenarbeit der Teilnehmer
 
-<b>Werkzeuge in OpenOlat:</b>
+<b>Tools in OpenOlat:</b>
 
 * Zugangssteuerung zu Kursen (Zugriff nur in einem bestimmten Zeitfenster) 
 * Kollaborationswerkzeuge: Chat, Mitteilungen, E-Mail
@@ -120,11 +120,11 @@ Es gibt viele Gründe und Absichten, warum Gruppen gebildet werden. Je nach Zwec
 
 ## 6. Projektgruppen (Arbeitsteilung)
 
-<b>Zweck:</b>
+<b>Purpose:</b>
 
 * Arbeitsteilung zur Erreichung eines bestimmten Ziels
 
-<b>Merkmale:</b>
+<b>Characteristics:</b>
 
 * Termin zur Fertigstellung
 * Aufteilung in Arbeitsschritte
@@ -132,7 +132,7 @@ Es gibt viele Gründe und Absichten, warum Gruppen gebildet werden. Je nach Zwec
 * Terminierungsaufgaben
 * Koordination
 
-<b>Werkzeuge in OpenOlat:</b>
+<b>Tools in OpenOlat:</b>
 
 * Kursbaustein Themenvergabe
 * Kursbaustein Terminplanung
@@ -144,17 +144,17 @@ Es gibt viele Gründe und Absichten, warum Gruppen gebildet werden. Je nach Zwec
 
 ## 7. Planungsgruppen
 
-<b>Zweck:</b>
+<b>Purpose:</b>
 
 * gemeinsame Planung
 
-<b>Merkmale:</b>
+<b>Characteristics:</b>
 
 * Ablaufplanung
 * Terminierungsaufgaben
 * Koordination
 
-<b>Werkzeuge in OpenOlat:</b>
+<b>Tools in OpenOlat:</b>
 
 * Kursbaustein Terminplanung
 * verschiedene Kalender
@@ -167,16 +167,16 @@ Es gibt viele Gründe und Absichten, warum Gruppen gebildet werden. Je nach Zwec
 
 ## 8. Vorbereitungsgruppen
 
-<b>Zweck:</b>
+<b>Purpose:</b>
 
 * Vorbereitungskomitees zur Vorbereitung einer Veranstaltung, Projektes, ...
 
-<b>Merkmale:</b>
+<b>Characteristics:</b>
 
 * vor allem Koordinationsaufgaben
 * zeitlich begrenzt
 
-<b>Werkzeuge in OpenOlat:</b>
+<b>Tools in OpenOlat:</b>
 
 * Kursbaustein Terminplanung
 * verschiedene Kalender, auch mit Kalenderimport
@@ -187,11 +187,11 @@ Es gibt viele Gründe und Absichten, warum Gruppen gebildet werden. Je nach Zwec
 
 ## 9. Entscheidungsgremien
 
-<b>Zweck:</b>
+<b>Purpose:</b>
 
 * Diskussion, Entscheidung und Kommunikation des Ergebnisses
 
-<b>Merkmale:</b>
+<b>Characteristics:</b>
 
 * Vorbereitungsphase individuell
 * gemeinsames Ansehen von Dokumenten (Entscheidungsgrundlage)
@@ -199,7 +199,7 @@ Es gibt viele Gründe und Absichten, warum Gruppen gebildet werden. Je nach Zwec
 * Dokumentation der Entscheidungen
 * Kommunikation der Entscheidungen
 
-<b>Werkzeuge in OpenOlat:</b>
+<b>Tools in OpenOlat:</b>
 
 * virtuelle Sitzungszimmer (BBB mit Abstimmungsfunktion) 
 * Kursbaustein Teilnehmerliste
@@ -211,17 +211,17 @@ Es gibt viele Gründe und Absichten, warum Gruppen gebildet werden. Je nach Zwec
 
 ## 10. Beratung
 
-<b>Zweck:</b>
+<b>Purpose:</b>
 
 * Beratung durch einen Experten
 
-<b>Merkmale:</b>
+<b>Characteristics:</b>
 
 * Oft 1:1-Besprechungen
 * Situationsanalyse durch den Berater
 * begleitete Umsetzung
 
-<b>Werkzeuge in OpenOlat:</b>
+<b>Tools in OpenOlat:</b>
 
 * BBB-Sitzungszimmer
 * Kursbaustein Aufgabe
@@ -233,18 +233,18 @@ Es gibt viele Gründe und Absichten, warum Gruppen gebildet werden. Je nach Zwec
 
 ## 11. Diskussionsgruppen
 
-<b>Zweck:</b>
+<b>Purpose:</b>
 
 * Lerneffekt durch gemeinsame Erörterung
 
-<b>Merkmale:</b>
+<b>Characteristics:</b>
 
 * meistens live -> Online-Meetings
 * gleichberechtigte, aktive Gruppenmitglieder 
 * evtl. mit Blog
 
 
-<b>Werkzeuge in OpenOlat:</b>
+<b>Tools in OpenOlat:</b>
 
 * Kursbaustein BBB
 * Kursbaustein Teams
@@ -258,16 +258,16 @@ Es gibt viele Gründe und Absichten, warum Gruppen gebildet werden. Je nach Zwec
 
 ## 12. Erfahrungsaustausch
 
-<b>Zweck:</b>
+<b>Purpose:</b>
 
 * Lerneffekt durch Teilhabe
 
-<b>Merkmale:</b>
+<b>Characteristics:</b>
 
 * Mitteilung gemachter Erfahrungen
 * Diskussionsmöglichkeit
 
-<b>Werkzeuge in OpenOlat:</b>
+<b>Tools in OpenOlat:</b>
 
 * Kursbaustein Forum
 * Kursbauseon Blog
@@ -277,15 +277,15 @@ Es gibt viele Gründe und Absichten, warum Gruppen gebildet werden. Je nach Zwec
 
 ## 13. Feedbackgruppen
 
-<b>Zweck:</b>
+<b>Purpose:</b>
 
 * Lerneffekt durch organisierte Rückmeldung
 
-<b>Merkmale:</b>
+<b>Characteristics:</b>
 
 * gemeinsam Beobachtetes
 
-<b>Werkzeuge in OpenOlat:</b>
+<b>Tools in OpenOlat:</b>
 
 * Kursbaustein Checkliste
 * Kursbaustein Umfrage
@@ -295,15 +295,15 @@ Es gibt viele Gründe und Absichten, warum Gruppen gebildet werden. Je nach Zwec
 
 ## 14. Partnerarbeit
 
-<b>Zweck:</b>
+<b>Purpose:</b>
 
 * 1:1-Arbeit hat höheren Grad der Aktivierung als in Gruppen
 
-<b>Merkmale:</b>
+<b>Characteristics:</b>
 
 * mehr Spontaität z.B. bei Feedback während des gemeinsamen Lernens / der gemeinsamen Arbeit
 
-<b>Werkzeuge in OpenOlat:</b>
+<b>Tools in OpenOlat:</b>
 
 * Kursbaustein Dokument
 * Kursbaustein Gruppenaufgabe
@@ -313,15 +313,15 @@ Es gibt viele Gründe und Absichten, warum Gruppen gebildet werden. Je nach Zwec
 
 ## 15. Spontane temporäre Lerngruppen
 
-<b>Zweck:</b>
+<b>Purpose:</b>
 
 * Vertiefung durch Methodenwechsel innerhalb einer Live-Veranstaltung
 
-<b>Merkmale:</b>
+<b>Characteristics:</b>
 
 * Gruppenbildung während Online-Meetings 
 
-<b>Werkzeuge in OpenOlat:</b>
+<b>Tools in OpenOlat:</b>
 
 * Kursbausteion BBB mit Breakout-Räumen (innerhalb einer Unterrichtseinheit/Sitzung BBB)
 * ...
@@ -329,16 +329,16 @@ Es gibt viele Gründe und Absichten, warum Gruppen gebildet werden. Je nach Zwec
 
 ## 16. Lerngruppen zur Aktivierung
 
-<b>Zweck:</b>
+<b>Purpose:</b>
 
 * Aufteilung in Gruppen um effektiver zu lernen als in der Grossgruppe
 
-<b>Merkmale:</b>
+<b>Characteristics:</b>
 
 * Aufteilung einer Grossgruppe
 * meistens Präsentation der verschiedenen Gruppenergebnisse im Plenum
 
-<b>Werkzeuge in OpenOlat:</b>
+<b>Tools in OpenOlat:</b>
 
 * Kursbaustein Einschreibung
 * Kursbaustein Themenvergabe
@@ -353,15 +353,15 @@ Es gibt viele Gründe und Absichten, warum Gruppen gebildet werden. Je nach Zwec
 
 ## 17. Lerngruppen zur Inszenierung von Wirklichkeit
 
-<b>Zweck:</b>
+<b>Purpose:</b>
 
 * Methodische Unterrichsbereicherung durch Inszenierung
 
-<b>Merkmale:</b>
+<b>Characteristics:</b>
 
 * Darstellung von Realszenen (Einstieg, Umsetzungsphase)
 
-<b>Werkzeuge in OpenOlat:</b>
+<b>Tools in OpenOlat:</b>
 
 * virtuelle Klassenzimmer (BBB, Teams, u.a.)
 * Video-Recording
@@ -372,15 +372,15 @@ Es gibt viele Gründe und Absichten, warum Gruppen gebildet werden. Je nach Zwec
 
 ## 18. Gruppenbildung als Lernziel
 
-<b>Zweck:</b>
+<b>Purpose:</b>
 
 * soziales Lernen, z.B. Gruppenprozesse in Projekten
 
-<b>Merkmale:</b>
+<b>Characteristics:</b>
 
 * Reflektion einer Gruppenbildung
 
-<b>Werkzeuge in OpenOlat:</b>
+<b>Tools in OpenOlat:</b>
 
 * Kursbaustein Einschreibung
 * Kursbaustein Themenvergabe
@@ -389,17 +389,17 @@ Es gibt viele Gründe und Absichten, warum Gruppen gebildet werden. Je nach Zwec
 
 ## 19. Rollenspiel
 
-<b>Zweck:</b>
+<b>Purpose:</b>
 
 * Ausprobieren und Üben neuer Rollen
 * Reflektieren, Überprüfen und korrigieren bestehender Rollen
 
-<b>Merkmale:</b>
+<b>Characteristics:</b>
 
 * Interaktion in vorgegebenen Situationen von 2 oder mehr Personen
 * Beobachtung durch die weiteren Gruppenteilnehmer
 
-<b>Werkzeuge in OpenOlat:</b>
+<b>Tools in OpenOlat:</b>
 
 * Kursbaustein BBB und weitere Videokonferenz-Tools
 * Video-Recording an verschiedenen Stellen in OpenOlat
@@ -411,15 +411,15 @@ Es gibt viele Gründe und Absichten, warum Gruppen gebildet werden. Je nach Zwec
 
 ## 20. Planspiel
 
-<b>Zweck:</b>
+<b>Purpose:</b>
 
 * gefahrloses Einüben von Verhalten in komplexen Prozessen und Situationen 
 
-<b>Merkmale:</b>
+<b>Characteristics:</b>
 
 * im Unterschied zum Rollenspiel meistens mehrere Kontaktphasen (mit Unterbrechungen), dazwischen Erledigung von Aufgaben durch die Einzelpersonen oder in Kleingruppen
 
-<b>Werkzeuge in OpenOlat:</b>
+<b>Tools in OpenOlat:</b>
 
 * Kursbaustein Gruppenaufgabe
 * Kursbaustein Video (z.b. zur Darstellung von Spielsituation)
@@ -432,18 +432,18 @@ Es gibt viele Gründe und Absichten, warum Gruppen gebildet werden. Je nach Zwec
 
 ## 21. Praktikumsgruppen
 
-<b>Zweck:</b>
+<b>Purpose:</b>
 
 * Gruppe mit Möglichkeit, praktische Erfahrungen
 * gelegentlicher Austausch, eher für organisatorische Fragen, Hauptsache findet an den versch. Praktikumsplätzen statt
 
-<b>Merkmale:</b>
+<b>Characteristics:</b>
 
 * Gruppenmitglieder machen ähnliche Erfahrungen in einem bestimmten Bereich
 * zu Beginn haben alle Gruppenmitglieder wenig Erfahrung im Lernfeld des Praktikums
 * Gruppenteilnehmer befinden sich in gleicher Situation, sind aber meistens örtlich getrennt
 
-<b>Werkzeuge in OpenOlat:</b>
+<b>Tools in OpenOlat:</b>
 
 * Kursbaustein Dokumente (Info-Blätter)
 * Kursbaustein Forum
@@ -453,16 +453,16 @@ Es gibt viele Gründe und Absichten, warum Gruppen gebildet werden. Je nach Zwec
 
 ## 22. Prüfungsgruppen
 
-<b>Zweck:</b>
+<b>Purpose:</b>
 
 * Gemeinsame Teilnahme an einer Prüfung
 
-<b>Merkmale:</b>
+<b>Characteristics:</b>
 
 * Prüfung kann zeitgleich oder zeitversetzt
 * Nachweise, Zertifikate
 
-<b>Werkzeuge in OpenOlat:</b>
+<b>Tools in OpenOlat:</b>
 
 * Fragenpool
 * 15 verschiedene Fragetypen
@@ -479,20 +479,20 @@ Es gibt viele Gründe und Absichten, warum Gruppen gebildet werden. Je nach Zwec
 
 ##  23. Interessengruppen
 
-<b>Zweck:</b>
+<b>Purpose:</b>
 
 * Austausch zu gemeinsamen Interessen
 
-<b>Merkmale:</b>
+<b>Characteristics:</b>
 
 * von Benutzern gegründete Gruppe
 * in der Regel kursübergreifend
 * hoher Bedarf an Kommunikationselementen
 
-<b>Werkzeuge in OpenOlat:</b>
+<b>Tools in OpenOlat:</b>
 
-* OpenOlat-Chat
-* Kursbaustein Blog
-* Kursbaustein Forum
-* Mitgliedschaft in Kursen durch Selbstbuchung
+* OpenOlat chat
+* course element blog
+* course element forum
+* membership in courses by self-booking
 * ...
