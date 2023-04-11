@@ -266,216 +266,218 @@ There are many reasons and intentions why groups are formed. Depending on the pu
 
 **Characteristics:**
 
-* Mitteilung gemachter Erfahrungen
-* Diskussionsmöglichkeit
+* communication of experiences made
+* possibility for discussion
 
 **Tools in OpenOlat:**
 
-* Kursbaustein Forum
-* Kursbauseon Blog
-* Kursbaustein BigBlueButton
-* Kursbaustein Umfrage
-* ...
-
-## 13. Feedbackgruppen
-
-**Purpose:**
-
-* Lerneffekt durch organisierte Rückmeldung
-
-**Characteristics:**
-
-* gemeinsam Beobachtetes
-
-**Tools in OpenOlat:**
-
-* Kursbaustein Checkliste
-* Kursbaustein Umfrage
-* Kursbaustein Dateidiskussion
+* course element forum
+* course element blog
+* course element BigBlueButton
+* course element survey
 * ...
 
 
-## 14. Partnerarbeit
+## 13. Feedback groups
 
 **Purpose:**
 
-* 1:1-Arbeit hat höheren Grad der Aktivierung als in Gruppen
+* Learning effect due to organized feedback
 
 **Characteristics:**
 
-* mehr Spontaität z.B. bei Feedback während des gemeinsamen Lernens / der gemeinsamen Arbeit
+* jointly observed
 
 **Tools in OpenOlat:**
 
-* Kursbaustein Dokument
-* Kursbaustein Gruppenaufgabe
-* Portfolioaufgabe
+* course element checklist
+* course element survey
+* course element file discussion
 * ...
 
 
-## 15. Spontane temporäre Lerngruppen
+## 14. Partner work
 
 **Purpose:**
 
-* Vertiefung durch Methodenwechsel innerhalb einer Live-Veranstaltung
+* 1:1 work has higher level of activation than in groups
 
 **Characteristics:**
 
-* Gruppenbildung während Online-Meetings 
+* more spontaity e.g. in feedback during joint learning / joint work
 
 **Tools in OpenOlat:**
 
-* Kursbausteion BBB mit Breakout-Räumen (innerhalb einer Unterrichtseinheit/Sitzung BBB)
+* course element document
+* course element group task
+* portfolio task
 * ...
 
 
-## 16. Lerngruppen zur Aktivierung
+## 15. Spontaneous temporary learning groups
 
 **Purpose:**
 
-* Aufteilung in Gruppen um effektiver zu lernen als in der Grossgruppe
+* deepening through change of methods within a live event
 
 **Characteristics:**
 
-* Aufteilung einer Grossgruppe
-* meistens Präsentation der verschiedenen Gruppenergebnisse im Plenum
+* Group formation during online meetings
 
 **Tools in OpenOlat:**
 
-* Kursbaustein Einschreibung
-* Kursbaustein Themenvergabe
-* Kursbaustein Gruppenaufgabe
-* Kursbaustein Checkliste
-* Kursbaustein Wiki (Wiki-Eintrag je Gruppe)
-* Gruppenordner
-* Gruppenbetreuer
-* Kollaborationswerkzeuge: Chat, Mitteilungen, E-Mail
+* course element BBB with breakout rooms (within a teaching unit/session at BBB).
 * ...
 
 
-## 17. Lerngruppen zur Inszenierung von Wirklichkeit
+## 16. Learning groups for activation
 
 **Purpose:**
 
-* Methodische Unterrichsbereicherung durch Inszenierung
+* dividing into groups to learn more effectively than in the large group
 
 **Characteristics:**
 
-* Darstellung von Realszenen (Einstieg, Umsetzungsphase)
+* division of a large group
+* mostly presentation of the different group results in the plenum
 
 **Tools in OpenOlat:**
 
-* virtuelle Klassenzimmer (BBB, Teams, u.a.)
-* Video-Recording
-* Kollaborationswerkzeuge: Chat, Mitteilungen, E-Mail
-* Kursbaustein Videoaufgabe
+* course element enrollment
+* course element topic assignment
+* course element group task
+* course element checklist
+* course element wiki (wiki entry per group)
+* group folder
+* group supervisor
+* collaboration tools: chat, messages, e-mail
 * ...
 
 
-## 18. Gruppenbildung als Lernziel
+## 17. Learning groups for the staging of reality
 
 **Purpose:**
 
-* soziales Lernen, z.B. Gruppenprozesse in Projekten
+* methodical enrichment of lessons by staging
 
 **Characteristics:**
 
-* Reflektion einer Gruppenbildung
+* representation of real scenes (entry, implementation phase)
 
 **Tools in OpenOlat:**
 
-* Kursbaustein Einschreibung
-* Kursbaustein Themenvergabe
+* virtual classrooms (BBB, Teams, etc.)
+* video recording
+* collaboration tools: chat, messaging, email
+* course element video task
 * ...
 
 
-## 19. Rollenspiel
+## 18. Group formation as a learning objective
 
 **Purpose:**
 
-* Ausprobieren und Üben neuer Rollen
-* Reflektieren, Überprüfen und korrigieren bestehender Rollen
+* social learning, e.g. group processes in projects
 
 **Characteristics:**
 
-* Interaktion in vorgegebenen Situationen von 2 oder mehr Personen
-* Beobachtung durch die weiteren Gruppenteilnehmer
+* reflection of a group formation
 
 **Tools in OpenOlat:**
 
-* Kursbaustein BBB und weitere Videokonferenz-Tools
-* Video-Recording an verschiedenen Stellen in OpenOlat
-* Kursbaustein Formular zum Festhalten von Beobachtungen
-* Kursbaustein Videoaufgabe (Beurteilung eines vorgängig aufgezeichneten Videos)
-* Kursbaustein Diskussionsforum
+* course element enrollment
+* course element topic assignment
 * ...
 
 
-## 20. Planspiel
+## 19. Role-playing game
 
 **Purpose:**
 
-* gefahrloses Einüben von Verhalten in komplexen Prozessen und Situationen 
+* trying out and practicing new roles
+* reflecting, reviewing and correcting existing roles
 
 **Characteristics:**
 
-* im Unterschied zum Rollenspiel meistens mehrere Kontaktphasen (mit Unterbrechungen), dazwischen Erledigung von Aufgaben durch die Einzelpersonen oder in Kleingruppen
+* interaction in given situations of 2 or more persons.
+* observation by the other group participants
 
 **Tools in OpenOlat:**
 
-* Kursbaustein Gruppenaufgabe
-* Kursbaustein Video (z.b. zur Darstellung von Spielsituation)
-* Kollaborationswerkzeuge: Chat, Mitteilungen, E-Mail
-* Kursbaustein Diskussionsforum
-* Kursbaustein Checkliste
-* Gruppenordner
+* course element BBB and other video conferencing tools
+* video recording at different places in OpenOlat
+* course element form for recording observations
+* course element video task (assessment of a pre-recorded video)
+* course element discussion forum
 * ...
 
 
-## 21. Praktikumsgruppen
+## 20. Management game
 
 **Purpose:**
 
-* Gruppe mit Möglichkeit, praktische Erfahrungen
-* gelegentlicher Austausch, eher für organisatorische Fragen, Hauptsache findet an den versch. Praktikumsplätzen statt
+* practicing behavior in complex processes and situations without danger
 
 **Characteristics:**
 
-* Gruppenmitglieder machen ähnliche Erfahrungen in einem bestimmten Bereich
-* zu Beginn haben alle Gruppenmitglieder wenig Erfahrung im Lernfeld des Praktikums
-* Gruppenteilnehmer befinden sich in gleicher Situation, sind aber meistens örtlich getrennt
+* in contrast to role play, usually several contact phases (with interruptions), in between completion of tasks by the individuals or in small groups
 
 **Tools in OpenOlat:**
 
-* Kursbaustein Dokumente (Info-Blätter)
-* Kursbaustein Forum
-* Kursbaustein Blog (Praktikumsbericht)
+* course element group task
+* course element video (e.g. for presentation of game situation)
+* collaboration tools: chat, messages, e-mail
+* course element discussion forum
+* course element checklist
+* group folder
 * ...
 
 
-## 22. Prüfungsgruppen
+## 21. Internship groups
 
 **Purpose:**
 
-* Gemeinsame Teilnahme an einer Prüfung
+* Group with possibility to gain practical experience
+* occasional exchange, rather for organizational questions, main thing takes place at the different internship places
 
 **Characteristics:**
 
-* Prüfung kann zeitgleich oder zeitversetzt
-* Nachweise, Zertifikate
+* group members have similar experience in a particular field.
+* at the beginning all group members have little experience in the learning field of the internship
+* group members are in the same situation, but are mostly separated in location
 
 **Tools in OpenOlat:**
 
-* Fragenpool
-* 15 verschiedene Fragetypen
-* spezielle Prüfungskurse
-* Prüfungsmodus
-* Verwendung des SafeExamBrowsers
-* Erstellung von Prüfungen aus OpenOlat-Fragen, Durchführung auf Papier mit individualisierten Dokumenten (Export als Word)
-* automatische Auswertung mit manueller Überprüfungsmöglichkeit
-* Nachteilsausgleich
-* Zertifikate
-* Dokumentation, Archivierung
+* course element documents (for info sheets)
+* course element forum
+* course element blog (for internship report)
+* ...
+
+
+## 22. Exam groups
+
+**Purpose:**
+
+* joint participation in an examination
+
+**Characteristics:**
+
+* processing of tasks without outside help in a limited amount of time
+* examination can take place at the same time or with a time delay
+* evidences/proofs, certificates as goal
+
+**Tools in OpenOlat:**
+
+* question pool
+* 15 different question types
+* special exam courses
+* exam mode
+* use of the SafeExamBrowser
+* creation of exams from OpenOlat questions, execution on paper with individualized documents (export as Word)
+* automatic evaluation with manual review possibility
+* disadvantage compensation
+* certificates
+* documentation, archiving
 * ...
 
 

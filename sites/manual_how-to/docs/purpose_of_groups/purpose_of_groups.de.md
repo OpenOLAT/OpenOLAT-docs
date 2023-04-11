@@ -323,7 +323,7 @@ Es gibt viele Gründe und Absichten, warum Gruppen gebildet werden. Je nach Zwec
 
 **Werkzeuge in OpenOlat:**
 
-* Kursbausteion BBB mit Breakout-Räumen (innerhalb einer Unterrichtseinheit/Sitzung BBB)
+* Kursbaustein BBB mit Breakout-Räumen (innerhalb einer Unterrichtseinheit/Sitzung BBB)
 * ...
 
 
@@ -434,7 +434,7 @@ Es gibt viele Gründe und Absichten, warum Gruppen gebildet werden. Je nach Zwec
 
 **Zweck:**
 
-* Gruppe mit Möglichkeit, praktische Erfahrungen
+* Gruppe mit Möglichkeit, praktische Erfahrungen zu sammeln
 * gelegentlicher Austausch, eher für organisatorische Fragen, Hauptsache findet an den versch. Praktikumsplätzen statt
 
 **Merkmale:**
@@ -459,8 +459,9 @@ Es gibt viele Gründe und Absichten, warum Gruppen gebildet werden. Je nach Zwec
 
 **Merkmale:**
 
-* Prüfung kann zeitgleich oder zeitversetzt
-* Nachweise, Zertifikate
+* Bearbeitung von Aufgabenstellungen ohne fremde Hilfe in begrenzter Zeit
+* Prüfung kann zeitgleich oder zeitversetzt stattfinden
+* Nachweise, Zertifikate als Ziel
 
 **Werkzeuge in OpenOlat:**
 
