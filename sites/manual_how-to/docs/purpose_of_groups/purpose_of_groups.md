@@ -1,89 +1,90 @@
-# How do I set up groups appropriately?
+# How do I set up groups purpose-driven?
 
 There are many reasons and intentions why groups are formed. Depending on the purpose, different tools can be used by the groups in OpenOlat.
 
 
-## 1. Jahrgangsstufen / Klassen / Semester
+## 1. Grades / Classes / Semester
 
-<b>Purpose:</b>
+**Purpose:**
 
-* organisatorisch begründete Gruppenzusammenstellung
+* organizationally based group composition
 
-<b>Characteristics:</b>
+**Characteristics:**
 
-* Lernende bleiben über <b>mehrere Kurse</b> hinweg in der gemeinsamen Gruppe
-* Lernende bleiben über einen <b>längeren Zeitraum</b> in der gemeinsamen Gruppe
-* Erstellung der Gruppe durch den Administrator/Betreuer
-* <b>keine</b> Gruppenmitgliedschaft durch <b>Selbstbuchung</b>
+* learners stay in the common group **over several courses**
+* learners stay in the shared group **for a longer period of time**
+* creation of the group by the administrator/supervisor
+* **no** group membership by **self-booking**
 
-<b>Tools in OpenOlat:</b>
+**Tools in OpenOlat:**
 
-* virtuelle Klassenzimmer (BBB, Microsoft Teams, Zoom, u.a.)
-* Modul Curriculum
-* Modul Organisationseinheiten
-* Gruppenwerkzeuge
-* gemeinsame Kalender
-* gemeinsames Forum
-* gemeinsames Wiki
+* virtual classrooms (BBB, Microsoft Teams, Zoom, among others).
+* module curriculum
+* module OrganizationUnits
+* group tools
+* shared calendars
+* common forum
+* common wiki
 * ...
 
 
-## 2. Leistungsgruppen
 
-<b>Purpose:</b>
+## 2. Proficiency groups
 
-* Gruppen mit gleichem Leistungsniveau (z.B. Anfänger, Fortgeschrittene)
+**Purpose:**
 
-<b>Characteristics:</b>
+* Groups with the same proficiency level (e.g. beginners, advanced)
 
-* Lernende bleiben meist nur für einen best. Kurs (mit best. Niveau) in der gemeinsamen Gruppe
-* Erstellung der Gruppe durch den Administrator/Betreuer
-* Evtl. Gruppenmitgliedschaft durch Selbstbuchung
+**Characteristics:**
 
-<b>Tools in OpenOlat:</b>
+* learners usually stay in the same group only for a certain course (with a certain level).
+* creation of the group by the administrator/supervisor
+* possibly group membership through self-booking
 
-* z.B. innerhalb von Kursen Abschnitte mit unterschiedlichem Niveau 
-* z.B. Zugangsregelung über Lernpfad
-* z.B. Zugriffsregelung über Funktion "Ausnahmen"
-* Evtl. Kursbaustein Einschreibung
-* Kursbaustein Gruppenaufgabe
-* Kursbaustein Übung
-* Coachingwerkzeug
+**Tools in OpenOlat:**
+
+* e.g. within courses sections with different levels 
+* e.g. access regulation via learning path
+* e.g. access regulation via function "exceptions"
+* possibly course element enrollment
+* course element group task
+* course element exercise
+* coaching tool
 * ...
 
 
 ## 3. Sprachgruppen
 
-<b>Purpose:</b>
+**Purpose:**
 
-* Gruppen mit gleicher Sprache
+* groups with the same language
 
-<b>Characteristics:</b>
+**Characteristics:**
 
-* Zuordnung zur Gruppe evtl. automatisch durch Syncher (nach Eintrag zur Sprache)
-* oder Zuordnung zur Gruppe durch Wahl des Teilnehmers
+* Assignment to the group possibly automatically by Syncher (after entry to the language).
+* or assignment to the group by selection of the participant
 
-<b>Tools in OpenOlat:</b>
+**Tools in OpenOlat:**
 
-* Mehrsprachigkeit der Benutzeroberfläche
-* Sprachanpassungswerkzeug
-* spezifisches Angebot für Sprachgruppen (durch Lernpfad via Ausnahmefunktion)
-* Modul Curriculum
-* Modul Organisationseinheiten
+* multilingual user interface
+* language adaptation tool
+* specific offer for language groups (through learning path via exception function)
+* module curriculum
+* module organization units
 * ...
 
 
 ## 4. Gruppen nach Regionen
 
-<b>Purpose:</b>
+**Purpose:**
 
 * oft Gruppen für Blended learning (Präsenzunterricht + Online-Lernen)
 
-<b>Characteristics:</b>
+**Characteristics:**
 
 * Gruppenmitglieder kommen aus der gleichen geographischen Region
 
-<b>Tools in OpenOlat:</b>
+**Tools in OpenOlat:**
 
 * z.B. Mitteilungsversand nach Postleitzahl
 * Zuordnung zur Gruppe evtl. automatisch (Angabe zur Sprache, PLZ -> Syncher)
@@ -94,16 +95,16 @@ There are many reasons and intentions why groups are formed. Depending on the pu
 
 ## 5. Workshop
 
-<b>Purpose:</b>
+**Purpose:**
 
 * praxisbezogene Bearbeitung eines Themas in einer Kleingruppe
 
-<b>Characteristics:</b>
+**Characteristics:**
 
 * zeitlich begrenzt
 * aktive Zusammenarbeit der Teilnehmer
 
-<b>Tools in OpenOlat:</b>
+**Tools in OpenOlat:**
 
 * Zugangssteuerung zu Kursen (Zugriff nur in einem bestimmten Zeitfenster) 
 * Kollaborationswerkzeuge: Chat, Mitteilungen, E-Mail
@@ -120,11 +121,11 @@ There are many reasons and intentions why groups are formed. Depending on the pu
 
 ## 6. Projektgruppen (Arbeitsteilung)
 
-<b>Purpose:</b>
+**Purpose:**
 
 * Arbeitsteilung zur Erreichung eines bestimmten Ziels
 
-<b>Characteristics:</b>
+**Characteristics:**
 
 * Termin zur Fertigstellung
 * Aufteilung in Arbeitsschritte
@@ -132,7 +133,7 @@ There are many reasons and intentions why groups are formed. Depending on the pu
 * Terminierungsaufgaben
 * Koordination
 
-<b>Tools in OpenOlat:</b>
+**Tools in OpenOlat:**
 
 * Kursbaustein Themenvergabe
 * Kursbaustein Terminplanung
@@ -144,17 +145,17 @@ There are many reasons and intentions why groups are formed. Depending on the pu
 
 ## 7. Planungsgruppen
 
-<b>Purpose:</b>
+**Purpose:**
 
 * gemeinsame Planung
 
-<b>Characteristics:</b>
+**Characteristics:**
 
 * Ablaufplanung
 * Terminierungsaufgaben
 * Koordination
 
-<b>Tools in OpenOlat:</b>
+**Tools in OpenOlat:**
 
 * Kursbaustein Terminplanung
 * verschiedene Kalender
@@ -167,16 +168,16 @@ There are many reasons and intentions why groups are formed. Depending on the pu
 
 ## 8. Vorbereitungsgruppen
 
-<b>Purpose:</b>
+**Purpose:**
 
 * Vorbereitungskomitees zur Vorbereitung einer Veranstaltung, Projektes, ...
 
-<b>Characteristics:</b>
+**Characteristics:**
 
 * vor allem Koordinationsaufgaben
 * zeitlich begrenzt
 
-<b>Tools in OpenOlat:</b>
+**Tools in OpenOlat:**
 
 * Kursbaustein Terminplanung
 * verschiedene Kalender, auch mit Kalenderimport
@@ -187,11 +188,11 @@ There are many reasons and intentions why groups are formed. Depending on the pu
 
 ## 9. Entscheidungsgremien
 
-<b>Purpose:</b>
+**Purpose:**
 
 * Diskussion, Entscheidung und Kommunikation des Ergebnisses
 
-<b>Characteristics:</b>
+**Characteristics:**
 
 * Vorbereitungsphase individuell
 * gemeinsames Ansehen von Dokumenten (Entscheidungsgrundlage)
@@ -199,7 +200,7 @@ There are many reasons and intentions why groups are formed. Depending on the pu
 * Dokumentation der Entscheidungen
 * Kommunikation der Entscheidungen
 
-<b>Tools in OpenOlat:</b>
+v
 
 * virtuelle Sitzungszimmer (BBB mit Abstimmungsfunktion) 
 * Kursbaustein Teilnehmerliste
@@ -211,17 +212,17 @@ There are many reasons and intentions why groups are formed. Depending on the pu
 
 ## 10. Beratung
 
-<b>Purpose:</b>
+**Purpose:**
 
 * Beratung durch einen Experten
 
-<b>Characteristics:</b>
+**Characteristics:**
 
 * Oft 1:1-Besprechungen
 * Situationsanalyse durch den Berater
 * begleitete Umsetzung
 
-<b>Tools in OpenOlat:</b>
+**Tools in OpenOlat:**
 
 * BBB-Sitzungszimmer
 * Kursbaustein Aufgabe
@@ -233,18 +234,18 @@ There are many reasons and intentions why groups are formed. Depending on the pu
 
 ## 11. Diskussionsgruppen
 
-<b>Purpose:</b>
+**Purpose:**
 
 * Lerneffekt durch gemeinsame Erörterung
 
-<b>Characteristics:</b>
+**Characteristics:**
 
 * meistens live -> Online-Meetings
 * gleichberechtigte, aktive Gruppenmitglieder 
 * evtl. mit Blog
 
 
-<b>Tools in OpenOlat:</b>
+**Tools in OpenOlat:**
 
 * Kursbaustein BBB
 * Kursbaustein Teams
@@ -258,16 +259,16 @@ There are many reasons and intentions why groups are formed. Depending on the pu
 
 ## 12. Erfahrungsaustausch
 
-<b>Purpose:</b>
+**Purpose:**
 
 * Lerneffekt durch Teilhabe
 
-<b>Characteristics:</b>
+**Characteristics:**
 
 * Mitteilung gemachter Erfahrungen
 * Diskussionsmöglichkeit
 
-<b>Tools in OpenOlat:</b>
+**Tools in OpenOlat:**
 
 * Kursbaustein Forum
 * Kursbauseon Blog
@@ -277,15 +278,15 @@ There are many reasons and intentions why groups are formed. Depending on the pu
 
 ## 13. Feedbackgruppen
 
-<b>Purpose:</b>
+**Purpose:**
 
 * Lerneffekt durch organisierte Rückmeldung
 
-<b>Characteristics:</b>
+**Characteristics:**
 
 * gemeinsam Beobachtetes
 
-<b>Tools in OpenOlat:</b>
+**Tools in OpenOlat:**
 
 * Kursbaustein Checkliste
 * Kursbaustein Umfrage
@@ -295,15 +296,15 @@ There are many reasons and intentions why groups are formed. Depending on the pu
 
 ## 14. Partnerarbeit
 
-<b>Purpose:</b>
+**Purpose:**
 
 * 1:1-Arbeit hat höheren Grad der Aktivierung als in Gruppen
 
-<b>Characteristics:</b>
+**Characteristics:**
 
 * mehr Spontaität z.B. bei Feedback während des gemeinsamen Lernens / der gemeinsamen Arbeit
 
-<b>Tools in OpenOlat:</b>
+**Tools in OpenOlat:**
 
 * Kursbaustein Dokument
 * Kursbaustein Gruppenaufgabe
@@ -313,15 +314,15 @@ There are many reasons and intentions why groups are formed. Depending on the pu
 
 ## 15. Spontane temporäre Lerngruppen
 
-<b>Purpose:</b>
+**Purpose:**
 
 * Vertiefung durch Methodenwechsel innerhalb einer Live-Veranstaltung
 
-<b>Characteristics:</b>
+**Characteristics:**
 
 * Gruppenbildung während Online-Meetings 
 
-<b>Tools in OpenOlat:</b>
+**Tools in OpenOlat:**
 
 * Kursbausteion BBB mit Breakout-Räumen (innerhalb einer Unterrichtseinheit/Sitzung BBB)
 * ...
@@ -329,16 +330,16 @@ There are many reasons and intentions why groups are formed. Depending on the pu
 
 ## 16. Lerngruppen zur Aktivierung
 
-<b>Purpose:</b>
+**Purpose:**
 
 * Aufteilung in Gruppen um effektiver zu lernen als in der Grossgruppe
 
-<b>Characteristics:</b>
+**Characteristics:**
 
 * Aufteilung einer Grossgruppe
 * meistens Präsentation der verschiedenen Gruppenergebnisse im Plenum
 
-<b>Tools in OpenOlat:</b>
+**Tools in OpenOlat:**
 
 * Kursbaustein Einschreibung
 * Kursbaustein Themenvergabe
@@ -353,15 +354,15 @@ There are many reasons and intentions why groups are formed. Depending on the pu
 
 ## 17. Lerngruppen zur Inszenierung von Wirklichkeit
 
-<b>Purpose:</b>
+**Purpose:**
 
 * Methodische Unterrichsbereicherung durch Inszenierung
 
-<b>Characteristics:</b>
+**Characteristics:**
 
 * Darstellung von Realszenen (Einstieg, Umsetzungsphase)
 
-<b>Tools in OpenOlat:</b>
+**Tools in OpenOlat:**
 
 * virtuelle Klassenzimmer (BBB, Teams, u.a.)
 * Video-Recording
@@ -372,15 +373,15 @@ There are many reasons and intentions why groups are formed. Depending on the pu
 
 ## 18. Gruppenbildung als Lernziel
 
-<b>Purpose:</b>
+**Purpose:**
 
 * soziales Lernen, z.B. Gruppenprozesse in Projekten
 
-<b>Characteristics:</b>
+**Characteristics:**
 
 * Reflektion einer Gruppenbildung
 
-<b>Tools in OpenOlat:</b>
+**Tools in OpenOlat:**
 
 * Kursbaustein Einschreibung
 * Kursbaustein Themenvergabe
@@ -389,17 +390,17 @@ There are many reasons and intentions why groups are formed. Depending on the pu
 
 ## 19. Rollenspiel
 
-<b>Purpose:</b>
+**Purpose:**
 
 * Ausprobieren und Üben neuer Rollen
 * Reflektieren, Überprüfen und korrigieren bestehender Rollen
 
-<b>Characteristics:</b>
+**Characteristics:**
 
 * Interaktion in vorgegebenen Situationen von 2 oder mehr Personen
 * Beobachtung durch die weiteren Gruppenteilnehmer
 
-<b>Tools in OpenOlat:</b>
+**Tools in OpenOlat:**
 
 * Kursbaustein BBB und weitere Videokonferenz-Tools
 * Video-Recording an verschiedenen Stellen in OpenOlat
@@ -411,15 +412,15 @@ There are many reasons and intentions why groups are formed. Depending on the pu
 
 ## 20. Planspiel
 
-<b>Purpose:</b>
+**Purpose:**
 
 * gefahrloses Einüben von Verhalten in komplexen Prozessen und Situationen 
 
-<b>Characteristics:</b>
+**Characteristics:**
 
 * im Unterschied zum Rollenspiel meistens mehrere Kontaktphasen (mit Unterbrechungen), dazwischen Erledigung von Aufgaben durch die Einzelpersonen oder in Kleingruppen
 
-<b>Tools in OpenOlat:</b>
+**Tools in OpenOlat:**
 
 * Kursbaustein Gruppenaufgabe
 * Kursbaustein Video (z.b. zur Darstellung von Spielsituation)
@@ -432,18 +433,18 @@ There are many reasons and intentions why groups are formed. Depending on the pu
 
 ## 21. Praktikumsgruppen
 
-<b>Purpose:</b>
+**Purpose:**
 
 * Gruppe mit Möglichkeit, praktische Erfahrungen
 * gelegentlicher Austausch, eher für organisatorische Fragen, Hauptsache findet an den versch. Praktikumsplätzen statt
 
-<b>Characteristics:</b>
+**Characteristics:**
 
 * Gruppenmitglieder machen ähnliche Erfahrungen in einem bestimmten Bereich
 * zu Beginn haben alle Gruppenmitglieder wenig Erfahrung im Lernfeld des Praktikums
 * Gruppenteilnehmer befinden sich in gleicher Situation, sind aber meistens örtlich getrennt
 
-<b>Tools in OpenOlat:</b>
+**Tools in OpenOlat:**
 
 * Kursbaustein Dokumente (Info-Blätter)
 * Kursbaustein Forum
@@ -453,16 +454,16 @@ There are many reasons and intentions why groups are formed. Depending on the pu
 
 ## 22. Prüfungsgruppen
 
-<b>Purpose:</b>
+**Purpose:**
 
 * Gemeinsame Teilnahme an einer Prüfung
 
-<b>Characteristics:</b>
+**Characteristics:**
 
 * Prüfung kann zeitgleich oder zeitversetzt
 * Nachweise, Zertifikate
 
-<b>Tools in OpenOlat:</b>
+**Tools in OpenOlat:**
 
 * Fragenpool
 * 15 verschiedene Fragetypen
@@ -479,17 +480,17 @@ There are many reasons and intentions why groups are formed. Depending on the pu
 
 ##  23. Interessengruppen
 
-<b>Purpose:</b>
+**Purpose:**
 
-* Austausch zu gemeinsamen Interessen
+* exchange on common interests
 
-<b>Characteristics:</b>
+**Characteristics:**
 
-* von Benutzern gegründete Gruppe
-* in der Regel kursübergreifend
-* hoher Bedarf an Kommunikationselementen
+* group created by users
+* usually cross-course
+* high demand for communication elements
 
-<b>Tools in OpenOlat:</b>
+**Tools in OpenOlat:**
 
 * OpenOlat chat
 * course element blog
