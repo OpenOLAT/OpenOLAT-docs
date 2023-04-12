@@ -39,7 +39,6 @@ e) Vergeben Sie nun noch einen passenden **Titel** im Tab „Titel und Beschreib
 a) Gehen Sie in den <b>Tab „Podcast-Lerninhalt“</b> und klicken Sie auf „Podcast wählen, erstellen oder importieren“.
 
 ![Podcast_lerninhalt.png](assets/Podcast_lerninhalt.png)  
-![podcast_erstellen.png](assets/Podcast_erstellen1.png)  
   
 b) Hier können Sie nun 
 
@@ -93,6 +92,7 @@ Fertig. Damit ist eine neue Podcast-Lernressource angelegt und weitere Einstellu
 !!! warning "Achtung"
 
     Schritt 3 ist auch erforderlich, wenn die Lernenden Podcasts hochladen sollen. Es muss auf jeden Fall zunächst vom Lehrenden die erste Episode, also das erste Video hochgeladen werden bevor die Lernenden selbst Videos hochladen können.
+
 
 ### Schritt 4: Kurs publizieren und freischalten  
 ---  
