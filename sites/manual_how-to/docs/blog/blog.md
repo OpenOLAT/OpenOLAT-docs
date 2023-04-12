@@ -7,6 +7,7 @@ course in a short time and can adapt it according to your needs.
 
 The blog is included within an OpenOlat course. If you have not yet created a course, the chapter ["How do I create my first OpenOlat course"](../my_first_course/my_first_course.md) tells you how to proceed before creating your podcast using the following instructions.
 
+---
 
 ## Step 1: Open course editor and insert blog course element
 
@@ -28,6 +29,7 @@ e) Now assign a suitable **title** in the tab "Title and description" and save t
 
     If you close the course editor already now, no blog will be displayed in the menu because the course element is still incomplete. The learning resource is still missing.
 
+---
 
 ## Step 2: Create the blog (learning resource) 
 
@@ -57,13 +59,13 @@ Done. With this, a new blog learning resource is created and further settings as
     
     The same blog can be integrated in several OpenOlat courses and can also be used independently of the course.
 
-
+---
 
 ## Step 3: Define user rights
 
 a) The **Blog Learning Content** tab is used to define who can create blog posts and moderate the blog. More differentiated settings are also possible via the advanced configuration.
 
-![blog_course_element.png](assets/blog_course_element.png)  
+![blog_user_rights.png](assets/blog_user_rights.png)  
 
 b) **Blog moderators** additionally have the <b>"Edit blog"</b> button in the course run* and can determine the title, description and image of a blog. They also decide at the beginning if an external blog or an OpenOlat blog should be used. This decision is necessary before blog posts can be created e.g. by participants.
 
@@ -71,22 +73,28 @@ b) **Blog moderators** additionally have the <b>"Edit blog"</b> button in the co
 
 c) Finally, the course must be **published** and the course editor closed so that the changes are visible.
 
-
+---
 
 ## Step 4: Add blog posts 
 
+a) Open the course editor again and click in the tab "Blog learning content" on "Edit".
+
+![blog_edit.png](assets/blog_edit.png) 
+
+b) When **first editing** you will now be asked if you want to create a new entry or include an existing blog. Below we show how to create a new blog entry.
+
 ![blog_add_first_post.png](assets/blog_add_first_post.png)  
   
-a) Click "**Create your own entries**" to create the first **initial post** of the blog.  This step is necessary so that blog posts from the defined target group can also be posted afterwards.
+Click "**Create your own entries**" to create the first **initial post** of the blog.  This step is necessary so that blog posts from the defined target group can also be posted afterwards.
 
-b) Create the first **blog post**.
+c) Create the first **blog post**.
 
 * Give a title.
 * The actual blog post is inserted under "Content".
 * Alternatively or supplementary audio or video files can be inserted.
 * The time and date of publication can also be determined.
 
-c) When you have filled in all the required fields, publish the blog post by clicking the "Publish" button at the bottom of the window.
+d) When you have filled in all the required fields, publish the blog post by clicking the "Publish" button at the bottom of the window.
 
 ![blog_publish_post.png](assets/blog_publish_post.png)  
 
@@ -99,6 +107,16 @@ Additional entries can then be easily added via the <b>"Create new entry"</b> bu
 !!! info "Note"
 
     **Participants and coaches** create their posts with the editor closed in course run. (Course run = "active course" mode, as opposed to the course being open in the editor.)<br> **Owners** can also add new entries in the course editor.
+
+---
+
+## Step 5: Publish course and change course status to "Published"
+  
+To do this, proceed as described in ["How do I create my first OpenOlat course"](../my_first_course/my_first_course.md).
+
+The blog is now integrated and course participants can read the posts.
+
+---
 
 ## Embed an external blog
 

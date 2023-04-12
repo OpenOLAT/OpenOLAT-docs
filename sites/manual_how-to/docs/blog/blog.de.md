@@ -7,6 +7,7 @@ erstellt und ihn Ihren Wünschen entsprechend angepasst.
 
 Der Blog wird innerhalb eines OpenOlat-Kurses eingebunden. Wenn Sie noch keinen Kurs erstellt haben, steht im Kapitel [„Wie erstelle ich meinen ersten OpenOlat-Kurs"](../my_first_course/my_first_course.de.md), wie Sie vorgehen müssen, bevor Sie mit Hilfe der folgenden Anleitung Ihren Podcast erstellen.
 
+---
 
 ## Schritt 1: Kurseditor öffnen und Kursbaustein "Blog" einfügen  
 
@@ -28,6 +29,7 @@ e) Vergeben Sie nun noch einen passenden **Titel** im Tab „Titel und Beschreib
 
     Wenn Sie den Kurseditor bereits jetzt schliessen, wird im Menü kein Blog angezeigt, denn der Kursbaustein ist noch unvollständig. Es fehlt noch die Lernressource.
 
+---
 
 ## Schritt 2: Blog (Lernressource) erstellen  
 
@@ -57,14 +59,14 @@ Fertig. Damit ist eine neue Blog-Lernressource angelegt und weitere Einstellunge
     
     Derselbe Blog kann in mehreren OpenOlat-Kursen eingebunden und auch kursunabhängig verwendet werden.
 
-  
+---  
 
 ## Schritt 3: Benutzerberechtigungen definieren 
 
 a) Im Tab **"Blog-Lerninhalt"** wird festgelegt, wer Blogbeiträge erstellen und den Blog moderieren darf. 
 Differenziertere Einstellungen sind auch über die erweiterte Konfiguration möglich. 
 
-![Blog_kursbaustein.png](assets/Blog_kursbaustein.png)  
+![Blog_kursbaustein.png](assets/Blog_berechtigungen.png)  
 
 b) **Blog-Moderatoren** verfügen zusätzlich im Kursrun* über den <b>Button "Blog bearbeiten"</b> und können Titel, Beschreibung und Bild eines Blogs bestimmen. Auch entscheiden sie zu Beginn, ob ein externer Blog oder ein OpenOlat-Blog verwendet werden soll. Diese Entscheidung ist notwendig, bevor Blogbeiträge z.B. von Teilnehmenden erstellt werden können.
 
@@ -72,21 +74,28 @@ b) **Blog-Moderatoren** verfügen zusätzlich im Kursrun* über den <b>Button "B
 
 c) Abschließend muss der Kurs **publiziert** und der Kurseditor geschlossen werden, damit die Änderungen sichtbar werden. 
 
+---
 
 ## Schritt 4: Blogbeiträge hinzufügen  
 
+a) Öffnen Sie den Kurseditor erneut und klicken Sie im Tab "Blog Lerninhalt" auf „Editieren“.
+
+![Blog_editieren.png](assets/Blog_editieren.png) 
+
+b) Beim **ersten Editieren** werden Sie nun gefragt, ob Sie einen Eintrag neu erstellen wollen oder einen bestehenden Blog einbinden möchten. Im Folgenden zeigen wir, wie Sie eine neuen Blog-Eintrag erstellen.
+
 ![blog_einbinden.png](assets/Blog_erster_post.png)  
   
-a) Klicken Sie auf "**Einträge selbst erstellen**" um den ersten **Initialbeitrag** des Blogs zu erstellen.  Dieser Schritt ist notwendig, damit Blogbeiträge von der definierten Zielgruppe anschließend ebenfalls eingestellt werden können.
+Klicken Sie auf "**Einträge selbst erstellen**" um den ersten **Initialbeitrag** des Blogs zu erstellen.  Dieser Schritt ist notwendig, damit Blogbeiträge von der definierten Zielgruppe anschließend ebenfalls eingestellt werden können.
 
-b) Erstellen Sie den ersten **Blogbeitrag**.
+c) Erstellen Sie den ersten **Blogbeitrag**.
 
 * Vergeben Sie einen Titel.
 * Der eigentliche Blogbeitrag wird unter "Inhalt" eingefügt.
 * Alternativ oder ergänzend können auch Audio oder Videodateien eingefügt werden.
 * Auch Zeitpunkt und Datum der Veröffentlichung können bestimmt werden.
 
-c) Wenn Sie alle gewünschten Felder ausgefüllt haben, veröffentlichen Sie den Blogbeitrag durch Klick auf den Button "Veröffentlichen" am unteren Rand des Fensters.
+d) Wenn Sie alle gewünschten Felder ausgefüllt haben, veröffentlichen Sie den Blogbeitrag durch Klick auf den Button "Veröffentlichen" am unteren Rand des Fensters.
 
 ![Blog_post_veroeffentlichen.png](assets/Blog_post_veroeffentlichen.png)  
 
@@ -100,6 +109,16 @@ Kursrun (veröffentlichter Kurs) hinzugefügt werden.
 !!! info "Hinweis"
 
     **Teilnehmer und Betreuer** erstellen ihre Beiträge bei geschlossenem Editor im Kursrun. (Kursrun = Modus „aktiver Kurs“, im Unterschied zum Kurs, der im Editor geöffnet ist) <br>**Besitzer** können neue Einträge auch im Kurseditor hinzufügen.
+
+---
+
+## Schritt 5: Kurs publizieren und Kurs-Status auf "Veröffentlicht" ändern  
+  
+Gehen Sie dazu vor, wie in [„Wie erstelle ich meinen ersten OpenOlat-Kurs"](../my_first_course/my_first_course.de.md) beschrieben.
+
+Der Blog ist nun eingebunden und Kursteilnehmende können die Beiträge lesen.
+
+---
 
 ## Externen Blog einbinden
 

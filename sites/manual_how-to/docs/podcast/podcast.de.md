@@ -10,6 +10,7 @@ Produzieren Sie die Audio- oder Videodatei für Ihre Podcast-Episode mit einer d
 ### b) Ein OpenOlat-Kurs
 Der Podcast wird innerhalb eines OpenOlat-Kurses eingebunden. Wenn Sie noch keinen Kurs erstellt haben, steht im Kapitel [„Wie erstelle ich meinen ersten OpenOlat-Kurs"](../my_first_course/my_first_course.de.md), wie Sie vorgehen müssen, bevor Sie mit Hilfe der folgenden Anleitung Ihren Podcast erstellen.
 
+---
 
 ## Schritt 1: Kurseditor öffnen und Podcast-Kursbaustein einfügen  
 
@@ -32,7 +33,7 @@ e) Vergeben Sie nun noch einen passenden **Titel** im Tab „Titel und Beschreib
 
     Wenn Sie den Kurseditor bereits jetzt schliessen, wird im Menü kein Podcast angezeigt, denn der Kursbaustein ist noch unvollständig. Es fehlt noch die Lernressource.
 
-
+---
    
 ## Schritt 2: Podcast (Lernressource) erstellen  
 
@@ -62,6 +63,7 @@ Fertig. Damit ist eine neue Podcast-Lernressource angelegt und weitere Einstellu
     
     Derselbe Podcast kann in mehreren OpenOlat-Kursen eingebunden und auch kursunabhängig verwendet werden.
 
+---
 
 ## Schritt 3: Benutzerberechtigungen definieren 
 
@@ -76,48 +78,31 @@ b) **Podcast-Moderatoren** verfügen zusätzlich im Kursrun* über den <b>Button
 
 c) Abschließend muss der Kurs **publiziert** und der Kurseditor geschlossen werden, damit die Änderungen sichtbar werden. 
 
-!!! info "So publizieren Sie einen Kurs"
-    Am einfachsten erfolgt das Publizieren, wenn Sie den Kurseditor schließen und direkt in die normale Kursansicht wechseln.
+---
 
-    Klicken Sie dafür einfach in der Bread-Crumb-Leiste auf den Kurstitel und es erscheint die Abfrage wie Sie den Kurs publizieren wollen.
+## Schritt 4: Podcast mit Inhalt (Episoden) füllen  
 
-    Wählen Sie hier "**ja, automatisch**" wenn alle gemachten Änderungen publiziert werden sollen. Wählen Sie "**Ja, manuell**" wenn Sie nur einige Änderungen zum Publizieren auswählen wollen.
-   
-    Alternativ kann auch der ausführliche Publizier-Prozess über den Link in der Toolbar im Kurseditor gewählt werden.
+a) Öffnen Sie den Kurseditor erneut und klicken Sie im Tab "Podcast Lerninhalt" auf „Editieren“.
 
+![Podcast_initiale_episode.png](assets/Podcast_initiale_episode.png) 
 
+b) Beim **ersten Editieren** werden Sie nun gefragt, ob Sie eine Podcast-Episode neu erstellen wollen oder einen bestehenden Podcast einbinden möchten. Im Folgenden zeigen wir, wie Sie eine neue Podcast-Episode erstellen.
 
-## Schritt 4: Podcast mit Inhalt füllen  
+![Podcast_erste_episode.png](assets/Podcast_erste_episode.png)
 
-a) Klicken Sie im Kurseditor im Tab "Podcast Lerninhalt" auf „Editieren“.
+Klicken Sie auf "Episoden selbst erstellen" um die **Initial-Episode** des Podcasts zu erstellen. Dieser Schritt ist notwendig, damit Podcastepisoden von der definierten Zielgruppe anschließend ebenfalls eingestellt werden können.
 
-![opencast.png](assets/openpodcast.gif) 
+c) Fügen Sie nun den eigentlichen Inhalt Ihrer Podcast-Episode ein.
 
-b) Klicken Sie auf "Episoden selbst erstellen" um den ersten Initialbeitrag des Podcasts zu erstellen. Dieser Schritt ist notwendig, damit Podcastepisoden von der definierten Zielgruppe anschließend ebenfalls eingestellt werden können.
+![Podcast_episode_beasrbeiten.png](assets/Podcast_episode_bearbeiten.png)
 
-![podcast_erste_episode.png](assets/Podcast_erste_episode.png)  
-
-Vergeben Sie einen Titel.
-Der eigentliche Blogbeitrag wird unter "Inhalt" eingefügt.
-Alternativ oder ergänzend können auch Audio oder Videodateien eingefügt werden.
-Auch Zeitpunkt und Datum der Veröffentlichung können bestimmt werden.
-
-c) Wenn Sie alle gewünschten Felder ausgefüllt haben, veröffentlichen Sie den Blogbeitrag durch Klick auf den Button "Veröffentlichen" am unteren Rand des Fensters.
+* Vergeben Sie einen Titel.
+* Einen (optionalen) Text fügen Sie unter "Beschreibung" ein.
+* Die Audio- oder Videodatei wird am einfachsten durch Ziehen (drag & drop) auf die Zielfläche eingefügt.
 
 
-  
-b) „Episoden selbst erstellen“ wählen.
-
-!!! info ""
-
-    Falls Sie schon über einen externen Podcast verfügen können Sie diesen ebenfalls einbinden.
-
-
-![podcast_erste_episode.png](assets/Podcast_erste_episode.png)  
-  
-  
-3. Titel eingeben, Audio- oder Videodatei von Ihrem Rechner wählen und auf
-„Veröffentlichen“ klicken. Bei Bedarf noch eine Beschreibung ergänzen.  
+d) Wenn Sie alle gewünschten Felder ausgefüllt haben, veröffentlichen Sie die Episode durch Klick auf den Button "Veröffentlichen" am unteren Rand des Fensters.
+ 
   
 !!! info ""
 
@@ -125,31 +110,14 @@ b) „Episoden selbst erstellen“ wählen.
 
 !!! warning "Achtung"
 
-    Schritt 4 ist auch erforderlich, wenn die Lernenden Podcasts hochladen sollen. Es muss auf jeden Fall zunächst vom Lehrenden die erste Episode, also das erste Video hochgeladen werden bevor die Lernenden selbst Videos hochladen können.
+    Schritt 4 (Initial-Episode) ist auch erforderlich, wenn die Lernenden Podcasts hochladen sollen. Es muss auf jeden Fall zunächst vom Lehrenden die erste Episode, also das erste Video hochgeladen werden, bevor die Lernenden selbst Videos hochladen können.
 
+---
 
-### Schritt x: Kurs publizieren und freischalten  
----  
-1. Am einfachsten erfolgt das Publizieren, wenn Sie den Kurseditor schließen und
-direkt in die normale Kursansicht wechseln.
-
-    Klicken Sie dafür einfach in der Bread-Crumb-Leiste auf den Kurstitel und es erscheint die Abfrage wie Sie den Kurs publizieren wollen.
-
-    Wählen sie hier "**ja, automatisch**" wenn alle gemachten Änderungen publiziert
-werden sollen. Wählen sie "**Ja, manuell**" wenn Sie nur einige Änderungen zum
-publizieren auswählen wollen.
-
-
-![podcast_publizieren.png](assets/publizieren.jpg)  
+## Schritt 5: Kurs publizieren und Status auf "Veröffentlicht" ändern  
   
-!!! tip "Tipp"
-
-    Alternativ kann auch der ausführliche Publizier-Prozess über den Link in der Toolbar im Kurseditor gewählt werden.
+Gehen Sie dazu vor, wie in [„Wie erstelle ich meinen ersten OpenOlat-Kurs"](../my_first_course/my_first_course.de.md) beschrieben.
 
 Der Podcast ist nun eingebunden und Kursteilnehmende können die erste Episode
 herunterladen.
-
-Wie bei allen OpenOlat Lernressourcen kann auch zunächst die Lernressource
-(hier Podcast) erstellt und dann die erstellte Lernressource in den
-gewünschten Kurs eingebunden werden.
 
