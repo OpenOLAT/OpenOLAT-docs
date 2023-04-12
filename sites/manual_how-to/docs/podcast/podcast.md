@@ -16,7 +16,7 @@ The podcast is included within an OpenOlat course. If you have not yet created a
 
 a) Go to the **Authoring** area and there find the course where you want to insert the podcast.
 
-![Podcast_autorenbereich.png](assets/Podcast_autorenbereich.png)  
+![podcast_authoring.png](assets/podcast_authoring.png)  
 
 b) Open the desired course in the **Course editor** located in the "Administration" menu.
 
