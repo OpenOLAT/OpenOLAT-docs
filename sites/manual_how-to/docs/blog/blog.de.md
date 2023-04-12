@@ -7,7 +7,7 @@ erstellt und ihn Ihren Wünschen entsprechend angepasst.
 
 a) Gehen Sie in den **Autorenbereich** und suchen Sie dort den Kurs, in den der Blog eingefügt werden soll.
   
-![Autorenbereich](assets/Blog_autorenbereich.png)  
+![Blog_autorenbereich.png](assets/Blog_autorenbereich.png)  
 
 b) Öffnen Sie den gewünschten Kurs im **Kurseditor**, der sich im Menü "Administration befindet.
 
@@ -28,7 +28,7 @@ e) Vergeben Sie nun noch einen passenden **Titel** im Tab „Titel und Beschreib
 
 a) Gehen Sie in den <b>Tab „Blog-Lerninhalt“</b> und klicken Sie auf „Blog wählen, erstellen oder importieren“.
 
-![Blog Lerninhalt](assets/Blog_lerninhalt.png)  
+![Blog_lerninhalt.png](assets/Blog_lerninhalt.png)  
 
 b) Hier können Sie nun 
 
@@ -59,7 +59,7 @@ Fertig. Damit ist eine neue Blog-Lernressource angelegt und weitere Einstellunge
 a) Im Tab **"Blog-Lerninhalt"** wird festgelegt, wer Blogbeiträge erstellen und den Blog moderieren darf. 
 Differenziertere Einstellungen sind auch über die erweiterte Konfiguration möglich. 
 
-![Blog Kursbaustein](assets/Blog_kursbaustein.png)  
+![Blog_kursbaustein.png](assets/Blog_kursbaustein.png)  
 
 b) **Blog-Moderatoren** verfügen zusätzlich im Kursrun* über den <b>Button "Blog bearbeiten"</b> und können Titel, Beschreibung und Bild eines Blogs bestimmen. Auch entscheiden sie zu Beginn, ob ein externer Blog oder ein OpenOlat-Blog verwendet werden soll. Diese Entscheidung ist notwendig, bevor Blogbeiträge z.B. von Teilnehmenden erstellt werden können.
 
@@ -83,7 +83,7 @@ b) Erstellen Sie den ersten **Blogbeitrag**.
 
 c) Wenn Sie alle gewünschten Felder ausgefüllt haben, veröffentlichen Sie den Blogbeitrag durch Klick auf den Button "Veröffentlichen" am unteren Rand des Fensters.
 
-![blog_erstellen.png](assets/Blog_post_veroeffentlichen.png)  
+![Blog_post_veroeffentlichen.png](assets/Blog_post_veroeffentlichen.png)  
 
 Weitere Einträge können anschließend über den <b>Button "Neuen Eintrag erstellen"</b> einfach im
 Kursrun (veröffentlichter Kurs) hinzugefügt werden.  
