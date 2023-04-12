@@ -51,73 +51,72 @@ We will assume below that you want to start a **new** podcast.
   
 c) Click on the **Create** button.
 
-d) Geben Sie einen **Titel** für Ihre Podcast-Lernressource ein und bestätigen Sie mit <b>"Erstellen"</b>. 
+d) Enter a **title** for your podcast learning resource and confirm with <b>"Create"</b>.
 
-Fertig. Damit ist eine neue Podcast-Lernressource angelegt und weitere Einstellungen sowie die konkrete Ausgestaltung können vorgenommen werden.
+Done. A new podcast learning resource is now created and further settings and the concrete design can be made.
 
-!!! tip "Tipp"
+!!! tip "Hint"
 
-    Alternativ kann ein OpenOlat-Podcast (so wie alle anderen Lernressourcen) auch im Autorenbereich erstellt und anschliessend im Kurseditor im Tab "Podcasst-Lerninhalt" in den gewünschten Kurs eingebunden werden. 
+    Alternatively, an OpenOlat podcast (like all other learning resources) can also be created in the authoring area and then integrated into the desired course in the course editor in the tab "Podcast learning content". 
     
-    Bei diesem Vorgehen wird deutlich, dass Lernressourcen kursübergreifende Elemente sind und die Einbindung im gewählten Kurs nur eine der Verwendungsmöglichkeiten darstellt. 
+    This procedure makes it clear that learning resources are cross-course elements and that embedding them in the selected course is only one of the possible uses. 
     
-    Derselbe Podcast kann in mehreren OpenOlat-Kursen eingebunden und auch kursunabhängig verwendet werden.
+    The same podcast can be included in multiple OpenOlat courses and can also be used independently of the course.
 
 ---
 
-## Schritt 3: Benutzerberechtigungen definieren 
+## Step 3: Define user rights 
 
-a) Im Tab **"Podcast-Lerninhalt"** wird festgelegt, wer Podcastbeiträge erstellen und den Podcast moderieren darf. 
-Differenziertere Einstellungen sind auch über die erweiterte Konfiguration möglich. 
+a) The **"Podcast learning content "** tab is used to define who can create podcast posts and moderate the podcast. 
+More sophisticated settings are also possible via the advanced configuration.
 
 ![Podcast_benutzerberechtigungen.png](assets/Podcast_benutzerberechtigungen.png)  
 
-b) **Podcast-Moderatoren** verfügen zusätzlich im Kursrun* über den <b>Button "Podcast bearbeiten"</b> und können Titel, Beschreibung und Bild eines Podcasts bestimmen. Auch entscheiden sie zu Beginn, ob ein externer Podcast oder ein OpenOlat-Podcast verwendet werden soll. Diese Entscheidung ist notwendig, bevor Podcastbeiträge z.B. von Teilnehmenden erstellt werden können.
+b) **Podcast moderators** additionally have the <b>"Edit podcast"</b> button in the course run* and can determine the title, description and image of a podcast. They also decide at the beginning if an external podcast or an OpenOlat podcast should be used. This decision is necessary before podcast contributions can be created, e.g. by participants.
 
-(*Kursrun = Modus „aktiver Kurs“, im Unterschied zum Kurs, der im Editor geöffnet ist)
+(*course run = „active course" mode, as opposed to the course open in the editor)
 
-c) Abschließend muss der Kurs **publiziert** und der Kurseditor geschlossen werden, damit die Änderungen sichtbar werden. 
+c) Finally, the course must be **published** and the course editor closed so that the changes are visible.
 
 ---
 
-## Schritt 4: Podcast mit Inhalt (Episoden) füllen  
+## Step 4: Fill podcast with content (episodes)  
 
-a) Öffnen Sie den Kurseditor erneut und klicken Sie im Tab "Podcast Lerninhalt" auf „Editieren“.
+a) Open the course editor again and click "Edit" in the "Podcast learning content" tab.
 
 ![Podcast_initiale_episode.png](assets/Podcast_initiale_episode.png) 
 
-b) Beim **ersten Editieren** werden Sie nun gefragt, ob Sie eine Podcast-Episode neu erstellen wollen oder einen bestehenden Podcast einbinden möchten. Im Folgenden zeigen wir, wie Sie eine neue Podcast-Episode erstellen.
+b) When you **first edit**, you will now be asked if you want to create a new podcast episode or include an existing podcast. Below we show you how to create a new podcast episode.
 
 ![Podcast_erste_episode.png](assets/Podcast_erste_episode.png)
 
-Klicken Sie auf "Episoden selbst erstellen" um die **Initial-Episode** des Podcasts zu erstellen. Dieser Schritt ist notwendig, damit Podcastepisoden von der definierten Zielgruppe anschließend ebenfalls eingestellt werden können.
+Click on "Create episodes yourself" to create the **initial episode** of the podcast. This step is necessary so that podcast episodes from the defined target group can also be posted afterwards.
 
-c) Fügen Sie nun den eigentlichen Inhalt Ihrer Podcast-Episode ein.
+c) Now add the actual content of your podcast episode.
 
 ![Podcast_episode_beasrbeiten.png](assets/Podcast_episode_bearbeiten.png)
 
-* Vergeben Sie einen Titel.
-* Einen (optionalen) Text fügen Sie unter "Beschreibung" ein.
-* Die Audio- oder Videodatei wird am einfachsten durch Ziehen (drag & drop) auf die Zielfläche eingefügt.
+* Assign a title.
+* Add an (optional) text under "Description".
+* The easiest way to insert the audio or video file is to drag and drop it onto the target area.
 
 
-d) Wenn Sie alle gewünschten Felder ausgefüllt haben, veröffentlichen Sie die Episode durch Klick auf den Button "Veröffentlichen" am unteren Rand des Fensters.
+d) When you have filled in all the required fields, publish the episode by clicking the "Publish" button at the bottom of the window.
  
   
 !!! info ""
 
-    Weitere Episoden können später mit demselben Vorgehen oder direkt in der Kursansicht hinzugefügt werden.
+    More episodes can be added later using the same procedure or directly in the course view.
 
-!!! warning "Achtung"
+!!! warning "Attention"
 
-    Schritt 4 (Initial-Episode) ist auch erforderlich, wenn die Lernenden Podcasts hochladen sollen. Es muss auf jeden Fall zunächst vom Lehrenden die erste Episode, also das erste Video hochgeladen werden, bevor die Lernenden selbst Videos hochladen können.
+    Step 4 (Initial episode) is also required if learners are to upload podcasts. In any case, the first episode, i.e. the first video, must be uploaded by the coach before the learners can upload videos themselves.
 
 ---
 
-## Schritt 5: Kurs publizieren und Status auf "Veröffentlicht" ändern  
+## Step 5: Publish course and change status to "Published" 
   
-Gehen Sie dazu vor, wie in [„Wie erstelle ich meinen ersten OpenOlat-Kurs"](../my_first_course/my_first_course.de.md) beschrieben.
+To do this, proceed as described in ["How do I create my first OpenOlat course"](../my_first_course/my_first_course.md).
 
-Der Podcast ist nun eingebunden und Kursteilnehmende können die erste Episode
-herunterladen.
+The podcast is now embedded and course participants can download the first episode. 
 

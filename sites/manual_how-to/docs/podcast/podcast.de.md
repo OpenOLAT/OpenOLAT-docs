@@ -57,7 +57,7 @@ Fertig. Damit ist eine neue Podcast-Lernressource angelegt und weitere Einstellu
 
 !!! tip "Tipp"
 
-    Alternativ kann ein OpenOlat-Podcast (so wie alle anderen Lernressourcen) auch im Autorenbereich erstellt und anschliessend im Kurseditor im Tab "Podcasst-Lerninhalt" in den gewünschten Kurs eingebunden werden. 
+    Alternativ kann ein OpenOlat-Podcast (so wie alle anderen Lernressourcen) auch im Autorenbereich erstellt und anschliessend im Kurseditor im Tab "Podcast-Lerninhalt" in den gewünschten Kurs eingebunden werden. 
     
     Bei diesem Vorgehen wird deutlich, dass Lernressourcen kursübergreifende Elemente sind und die Einbindung im gewählten Kurs nur eine der Verwendungsmöglichkeiten darstellt. 
     
