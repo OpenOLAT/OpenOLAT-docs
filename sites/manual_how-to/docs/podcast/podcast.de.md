@@ -18,7 +18,7 @@ a) Gehen Sie in den **Autorenbereich** und suchen Sie dort den Kurs, in den der 
 
 ![Podcast_autorenbereich.png](assets/Podcast_autorenbereich.png)  
 
-b) Öffnen Sie den gewünschten Kurs im **Kurseditor**, der sich im Menü "Administration befindet.
+b) Öffnen Sie den gewünschten Kurs im **Kurseditor**, der sich im Menü "Administration" befindet.
 
 c) Wählen Sie die Stelle im Kursmenü, an der der Baustein hinzugefügt werden soll. Kursbausteine werden immer unterhalb des aktuell ausgewählten Kursbausteins eingefügt. 
 
