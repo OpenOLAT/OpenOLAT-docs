@@ -3,6 +3,10 @@
 With the aid of the following guidelines you will create a blog for your
 course in a short time and can adapt it according to your needs.
 
+##  Requirement
+
+The blog is included within an OpenOlat course. If you have not yet created a course, the chapter ["How do I create my first OpenOlat course"](../my_first_course/my_first_course.md) tells you how to proceed before creating your podcast using the following instructions.
+
 
 ## Step 1: Open course editor and insert blog course element
 

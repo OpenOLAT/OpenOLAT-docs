@@ -3,6 +3,11 @@
 Mit dieser Anleitung haben Sie in kurzer Zeit in Ihrem Kurs einen Blog
 erstellt und ihn Ihren Wünschen entsprechend angepasst.
 
+##  Voraussetzung
+
+Der Blog wird innerhalb eines OpenOlat-Kurses eingebunden. Wenn Sie noch keinen Kurs erstellt haben, steht im Kapitel [„Wie erstelle ich meinen ersten OpenOlat-Kurs"](../my_first_course/my_first_course.de.md), wie Sie vorgehen müssen, bevor Sie mit Hilfe der folgenden Anleitung Ihren Podcast erstellen.
+
+
 ## Schritt 1: Kurseditor öffnen und Kursbaustein "Blog" einfügen  
 
 a) Gehen Sie in den **Autorenbereich** und suchen Sie dort den Kurs, in den der Blog eingefügt werden soll.
