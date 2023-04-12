@@ -49,7 +49,7 @@ Done. With this, a new blog learning resource is created and further settings as
 
     Alternatively, an OpenOlat blog (like all other learning resources) can also be created in the authoring area and then integrated into the desired course in the course editor in the tab "Blog learning content". 
     
-    This procedure makes it clear that learning resources are cross-course tools and the integration in the selected course is only one of the possible uses. 
+    This procedure makes it clear that learning resources are cross-course elements and the integration in the selected course is only one of the possible uses. 
     
     The same blog can be integrated in several OpenOlat courses and can also be used independently of the course.
 

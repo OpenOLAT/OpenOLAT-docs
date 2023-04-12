@@ -1,51 +1,71 @@
-# Vier Schritte zu Ihrem Podcast
+# Wie erstelle ich einen Podcast?
 
-Mit dieser Anleitung haben Sie in kurzer Zeit Ihrem Kurs einen Podcast
-hinzugefügt und eine erste Episode erstellt.
+Mit dieser Anleitung haben Sie in kurzer Zeit Ihrem Kurs einen Podcast hinzugefügt und eine erste Episode erstellt.
 
 ##  Voraussetzungen
 
-Produzieren Sie die Audio- oder Videodatei für Ihre Podcast-Episode mit einer
-dafür vorgesehenen Aufnahmesoftware (z.B.
-[GarageBand](http://www.apple.com/ilife/garageband/ "GarageBand")) und
-speichern Sie sie in einem der angegebenen Formate: MP3, MP4, M4V, M4A oder
-AAC und achten Sie auf die angegebene Maximalgrösse.
+### a) Inhalte für den Podcast
+Produzieren Sie die Audio- oder Videodatei für Ihre Podcast-Episode mit einer dafür vorgesehenen Aufnahmesoftware (z.B. [GarageBand](http://www.apple.com/ilife/garageband/ "GarageBand")) und speichern Sie sie in einem der angegebenen Formate: MP3, MP4, M4V, M4A oder AAC. Achten Sie auf die angegebene Maximalgrösse.
 
-Wenn Sie noch keinen Kurs erstellt haben, steht im Kapitel [„Kurs erstellen"](../course_create/index.de.md), wie Sie vorgehen müssen, bevor Sie mit Hilfe
-der folgenden Anleitung Ihren Podcast erstellen.
+### b) Ein OpenOlat-Kurs
+Der Podcast wird innerhalb eines OpenOlat-Kurses eingebunden. Wenn Sie noch keinen Kurs erstellt haben, steht im Kapitel [„Kurs erstellen"](../my_first_course/my_first_course.de.md), wie Sie vorgehen müssen, bevor Sie mit Hilfe der folgenden Anleitung Ihren Podcast erstellen.
 
-##  Podcast erstellen
 
-  
+## Schritt 1: Kurseditor öffnen und Podcast-Kursbaustein einfügen  
 
-### Schritt 1: Kurseditor öffnen und Podcast-Kursbaustein einfügen  
----  
-1. Im Autorenbereich unter „Meine Kurse“ oder "Favoriten" Kurs suchen und
-öffnen.
+a) Gehen Sie in den **Autorenbereich** und suchen Sie dort den Kurs, in den der Podcast eingefügt werden soll.
 
-![Autorenbereich.png](assets/Autorenbereich3.png)  
-  
-  
-2. Oben im Dropdown-Menü „Administration“ auf „Kurseditor“ klicken.  
-3. Kurselement, unter dem der Podcast-Kursbaustein eingefügt werden soll,
-durch Klicken auswählen.  
-4. Oben im Pop-Up „Kursbausteine einfügen“ „Podcast“ wählen.  
-5. Im Tab „Titel und Beschreibung“ kurzen Titel des Kursbausteins eingeben und
-speichern.  
-  
-### Schritt 2: Podcast erstellen  
----  
-1. Im Tab „Podcast-Lerninhalt“ auf „Podcast wählen, erstellen oder
-importieren“ klicken.|
+![Podcast_autorenbereich.png](assets/Podcast_autorenbereich.png)  
 
+b) Öffnen Sie den gewünschten Kurs im **Kurseditor**, der sich im Menü "Administration befindet.
+
+c) Wählen Sie die Stelle im Kursmenü, an der der Baustein hinzugefügt werden soll. Kursbausteine werden immer unterhalb des aktuell ausgewählten Kursbausteins eingefügt. 
+
+d) Klicken Sie in der Kopfzeile des Editors auf **"Kursbaustein einfügen"** oder nutzen Sie die Quick-Add Funktion und wählen Sie im Popup mit der Auswahlliste "Podcast".
+
+Damit ist der Kursbaustein schon dem Kurs hinzugefügt.
+
+e) Vergeben Sie nun noch einen passenden **Titel** im Tab „Titel und Beschreibung“ und speichern Sie den Kursbaustein. 
+
+
+!!! tip "Hinweis"
+
+    Wenn Sie den Kurseditor bereits jetzt schliessen, wird im Menü kein Podcast angezeigt, denn der Kursbaustein ist noch unvollständig. Es fehlt noch die Lernressource.
+
+
+   
+## Schritt 2: Podcast (Lernressource) erstellen  
+
+a) Gehen Sie in den <b>Tab „Podcast-Lerninhalt“</b> und klicken Sie auf „Podcast wählen, erstellen oder importieren“.
+
+![Podcast_lerninhalt.png](assets/Podcast_lerninhalt.png)  
 ![podcast_erstellen.png](assets/Podcast_erstellen1.png)  
   
+b) Hier können Sie nun 
+
+* einen **neuen** Podcast erstellen, 
+* einen Podcast **hochladen**, der Ihnen als Datei vorliegt (z.B. durch einen Export), 
+* oder eine **URL** für den Podcast-Import angeben.
+
+Wir gehen im Folgenden davon aus, dass Sie einen **neuen** Podcast beginnen möchten. 
   
-2. „Erstellen“ klicken.  
-3. Titel des Podcasts eingeben. Diese Information wird im Header des Podcasts
-angezeigt. Auf "Erstellen" klicken.  
-  
-### Schritt 3: Podcast mit Inhalt füllen  
+c) Klicken Sie auf den **Button „Erstellen“**. 
+
+d) Geben Sie einen **Titel** für Ihre Podcast-Lernressource ein und bestätigen Sie mit <b>"Erstellen"</b>. 
+
+Fertig. Damit ist eine neue Podcast-Lernressource angelegt und weitere Einstellungen sowie die konkrete Ausgestaltung können vorgenommen werden.
+
+!!! tip "Tipp"
+
+    Alternativ kann ein OpenOlat-Podcast (so wie alle anderen Lernressourcen) auch im Autorenbereich erstellt und anschliessend im Kurseditor im Tab "Podcasst-Lerninhalt" in den gewünschten Kurs eingebunden werden. 
+    
+    Bei diesem Vorgehen wird deutlich, dass Lernressourcen kursübergreifende Elemente sind und die Einbindung im gewählten Kurs nur eine der Verwendungsmöglichkeiten darstellt. 
+    
+    Derselbe Podcast kann in mehreren OpenOlat-Kursen eingebunden und auch kursunabhängig verwendet werden.
+
+
+
+## Schritt 3: Podcast mit Inhalt füllen  
 ---  
 1. Im Kurseditor im Tab "Podcast Lerninhalt" auf „Editieren“ klicken.
 

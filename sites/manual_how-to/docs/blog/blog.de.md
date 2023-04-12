@@ -48,7 +48,7 @@ Fertig. Damit ist eine neue Blog-Lernressource angelegt und weitere Einstellunge
 
     Alternativ kann ein OpenOlat-Blog (so wie alle anderen Lernressourcen) auch im Autorenbereich erstellt und anschliessend im Kurseditor im Tab "Blog-Lerninhalt" in den gewünschten Kurs eingebunden werden. 
     
-    Bei diesem Vorgehen wird deutlich, dass Lernressourcen kursübergreifende Tools sind und die Einbindung im gewählten Kurs nur eine der Verwendungsmöglichkeiten darstellt. 
+    Bei diesem Vorgehen wird deutlich, dass Lernressourcen kursübergreifende Elemente sind und die Einbindung im gewählten Kurs nur eine der Verwendungsmöglichkeiten darstellt. 
     
     Derselbe Blog kann in mehreren OpenOlat-Kursen eingebunden und auch kursunabhängig verwendet werden.
 
