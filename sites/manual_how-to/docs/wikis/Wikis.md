@@ -63,8 +63,6 @@ Done. With this, a new wiki learning resource is created and further settings as
 
 ## Step 3: Define user rights 
 
-a) Im Tab **"Wiki-Lerninhalt"** wird festgelegt, wer Wikiartikel bearbeiten darf. 
-Differenziertere Einstellungen sind auch über die erweiterte Konfiguration möglich.
 a) The **"Wiki learning content"** tab is used to define who can create wiki articles and comment them. 
 More sophisticated settings are also possible via the advanced configuration.
 
@@ -95,17 +93,18 @@ Open the course editor again and click "Edit" in the "Wiki learning content" tab
 
 ### b) Editing a new wiki learning resource for the first time
 
-Beim **ersten Editieren** gelangen Sie zunächst zur Startseite (Index). Passen Sie Ihre Startseite an und verfassen Sie einen Text für die Startseite.
-Beenden Sie mit Klick auf den Button "Speichern" am unteren Rand des Editors. 
+The **first edit** will take you to the start page (index) first. Customize your start page and write a text for the start page.
+Finish by clicking the "Save" button at the bottom of the editor.
 
 ![Wiki_index_bearbeiten.png](assets/Wiki_index_bearbeiten.png)
 
-### c) Index und Menü
+### c) Index and menu
 
 Zur Bearbeitung von Index und Menü können Sie jederzeit im Menü des Wiki-Editors die beiden Seiten wieder aufrufen.
+To edit the index and menu, you can return to either page at any time in the editors wiki menu.
 ![Wiki_index_menu_bearbeiten.png](assets/Wiki_index_menu_bearbeiten.png)
 
-Zur Kontrolle verlassen Sie den Kurseditor. Sie sehen dann, dass ein Wiki-Kursbaustein in OpenOlat die Menüstruktur des Kurses ergänzt. Die Wiki-Artikel erscheinen direkt als Menüpunkte im OpenOlat-Kursmenü.
+To check this, exit the course editor. You will then see that a wiki course element in OpenOlat complements the menu structure of the course. The Wiki articles appear directly as menu items in the OpenOlat course menu.
 ![Wiki_kursmenu.png](assets/Wiki_kursmenu1.png)
 
 ### d) Wiki-Seite (Artikel) erstellen
