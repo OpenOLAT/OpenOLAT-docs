@@ -127,7 +127,7 @@ Nun befinden Sie sich im Tab "Seite bearbeiten" des neu erstellten Artikels und 
 Für Änderungen des Menüs klicken Sie im Dropdown-Menü „Wiki-Menu“ auf „Ändern“, um das Wiki-Menu mit den Wiki-Seiten nach Ihren Wünsche anzupassen oder mit externen
 Links zu ergänzen. Speichern.
 
-![Wiki_menu_anpassen.png](assets/Wiki_menu_anpassen.png  
+![Wiki_menu_anpassen.png](assets/Wiki_menu_anpassen.png)
 
 
 ### f) Editieren der Wiki-Lernressource beenden
@@ -143,16 +143,6 @@ Möglichkeit 2: Klicken Sie im Menü der Kopfzeile auf "Kurse" und öffnen Sie w
 Möglichkeit 3: Klicken Sie im Menü der Kopfzeile auf die 3 Punkte ("mehr") und öffnen Sie dort wieder Ihren Kurs mit dem Wiki-Kursbaustein.
 
 Möglichkeit 4: Klicken Sie im Menü der Kopfzeile auf "Autorenbereich" und öffnen Sie dort wieder Ihren Kurs mit dem Wiki-Kursbaustein.
-
-
-!!! info ""
-
-    Weitere Episoden können später mit demselben Vorgehen oder direkt in der Kursansicht hinzugefügt werden.
-
-!!! warning "Achtung"
-
-    Schritt 4 (Initial-Episode) ist auch erforderlich, wenn die Lernenden Podcasts hochladen sollen. Es muss auf jeden Fall zunächst vom Lehrenden die erste Episode, also das erste Video hochgeladen werden, bevor die Lernenden selbst Videos hochladen können.
-
 
 ---
 
