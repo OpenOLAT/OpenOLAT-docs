@@ -1,97 +1,99 @@
-# Wie erstelle ich ein Wiki?
+# How do I create a wiki?
 
-Mit dieser Anleitung haben Sie in kurzer Zeit in Ihrem Kurs ein Wiki erstellt
-und es Ihren Wünschen entsprechend angepasst.
+With these instructions, you will have created a wiki in your course in a short time and customized it according to your needs.
 
-##  Voraussetzung
+##  Requirements
 
-Das Wiki wird innerhalb eines OpenOlat-Kurses eingebunden. Wenn Sie noch keinen Kurs erstellt haben, steht im Kapitel [„Wie erstelle ich meinen ersten OpenOlat-Kurs"](../my_first_course/my_first_course.de.md), wie Sie vorgehen müssen, bevor Sie mit Hilfe der folgenden Anleitung Ihr Wiki erstellen.
+The wiki is included within an OpenOlat course. If you have not yet created a course, the chapter ["How do I create my first OpenOlat course"](../my_first_course/my_first_course.md) tells you how to proceed before creating your wiki using the following instructions.
 
 ---
 
-## Schritt 1: Kurseditor öffnen und Wiki-Kursbaustein einfügen  
+## Step 1: Open course editor and insert wiki course element 
 
-a) Gehen Sie in den **Autorenbereich** und suchen Sie dort den Kurs, in den das Wiki eingefügt werden soll.
+a) Go to the **Authoring** area and search there for the course in which the wiki should be inserted.
 
 ![Wiki_autorenbereich.png](assets/Wiki_autorenbereich.png)  
    
-b) Öffnen Sie den gewünschten Kurs im **Kurseditor**, der sich im Menü "Administration befindet.
+b) Open the desired course in the **course editor** located in the Administration menu.
 
-c) Wählen Sie die Stelle im Kursmenü, an der der Baustein hinzugefügt werden soll. Kursbausteine werden immer unterhalb des aktuell ausgewählten Kursbausteins eingefügt. 
+c) Select the position in the course menu where the course element is to be added. Course elements are always inserted below the currently selected course element.
 
-d) Klicken Sie in der Kopfzeile des Editors auf **"Kursbaustein einfügen"** oder nutzen Sie die Quick-Add Funktion und wählen Sie im Popup mit der Auswahlliste "Wiki".
+d) Click **"Insert course element "** in the editor header or use the Quick-Add function and select "Wiki" in the pop-up with the selection list.
 
-Damit ist der Kursbaustein schon dem Kurs hinzugefügt.
+This means that the course element has already been added to the course.
 
-e) Vergeben Sie nun noch einen passenden **Titel** im Tab „Titel und Beschreibung“ und speichern Sie den Kursbaustein.  
+e) Now enter a suitable **title** in the tab "Title and description" and save the course element.
 
-!!! tip "Hinweis"
+!!! tip "Note"
 
-    Wenn Sie den Kurseditor bereits jetzt schliessen, wird im Menü kein Wiki angezeigt, denn der Kursbaustein ist noch unvollständig. Es fehlt noch die Lernressource.
+    If you close the course editor already now, no wiki will be displayed in the menu because the course element is still incomplete. The learning resource is still missing.
 
 ---
 
-## Schritt 2: Wiki (Lernressource) erstellen  
+## Step 2: Create a wiki (learning resource) 
   
-a) Gehen Sie in den <b>Tab „Wiki-Lerninhalt“</b> und klicken Sie auf „Wiki wählen, erstellen oder importieren“.
+a) Go to the <b>Tab "Wiki learning content"</b> and click on "Select, create or import wiki".
 
 ![Wiki_lerninhalt.png](assets/Wiki_lerninhalt.png)  
 
-b) Hier können Sie nun 
+b) Here you can now
 
-* ein **neues** Wiki erstellen, 
-* ein Wiki **hochladen**, das Ihnen als Datei vorliegt (z.B. durch einen Export), 
-* oder eine **URL** für den Wiki-Import angeben.
+* create a **new** wiki,
+* ein Wiki **hochladen**, das Ihnen als Datei vorliegt (z.B. durch einen Export),
+* **upload** a wiki that is available to you as a file (e.g. through an export),
+* or specify a **URL** for the wiki import.
 
-Wir gehen im Folgenden davon aus, dass Sie ein **neues** Wiki beginnen möchten. 
+In the following, we assume that you want to start a **new** wiki.
   
-c) Klicken Sie auf den **Button „Erstellen“**. 
+c) Click the **"Create" button**.
 
-d) Geben Sie einen **Titel** für Ihre Wiki-Lernressource ein und bestätigen Sie mit <b>"Erstellen"</b>. 
+d) Enter a **title** for your wiki learning resource and confirm with <b>"Create"</b>.
 
-Fertig. Damit ist eine neue Wiki-Lernressource angelegt und weitere Einstellungen sowie die konkrete Ausgestaltung können vorgenommen werden.
+Done. With this, a new wiki learning resource is created and further settings as well as the concrete design can be made.
 
-!!! tip "Tipp"
+!!! tip "Hint"
 
-    Alternativ kann ein OpenOlat-Wiki (so wie alle anderen Lernressourcen) auch im Autorenbereich erstellt und anschliessend im Kurseditor im Tab "Wiki-Lerninhalt" in den gewünschten Kurs eingebunden werden. 
+    Alternatively, an OpenOlat wiki (like all other learning resources) can also be created in the authoring area and then integrated into the desired course in the course editor in the tab "Wiki learning content". 
     
-    Bei diesem Vorgehen wird deutlich, dass Lernressourcen kursübergreifende Elemente sind und die Einbindung im gewählten Kurs nur eine der Verwendungsmöglichkeiten darstellt. 
+    This procedure makes it clear that learning resources are cross-course elements and that embedding them in the selected course is only one of the possible uses. 
     
-    Das selbe Wiki kann in mehreren OpenOlat-Kursen eingebunden und auch kursunabhängig verwendet werden.
+    The same wiki can be included in multiple OpenOlat courses and can also be used independently of the course.
 
 ---
 
-## Schritt 3: Benutzerberechtigungen definieren 
+## Step 3: Define user rights 
 
 a) Im Tab **"Wiki-Lerninhalt"** wird festgelegt, wer Wikiartikel bearbeiten darf. 
-Differenziertere Einstellungen sind auch über die erweiterte Konfiguration möglich. 
+Differenziertere Einstellungen sind auch über die erweiterte Konfiguration möglich.
+a) The **"Wiki learning content"** tab is used to define who can create wiki articles and comment them. 
+More sophisticated settings are also possible via the advanced configuration.
 
 ![Wiki_berechtigungen.png](assets/Wiki_berechtigungen.png)  
 
-b) Abschließend muss der Kurs **publiziert** und der Kurseditor geschlossen werden, damit die Änderungen sichtbar werden. 
+b) Finally, the course must be **published** and the course editor closed so that the changes are visible.
 
 ---
 
-## Schritt 4: Wiki mit Inhalt (Artikeln) füllen  
+## Step 4: Fill wiki with content (articles) 
 
-### a) Lernressource editieren
+### a) Edit learning resource
 
-Öffnen Sie den Kurseditor erneut und klicken Sie im Tab "Wiki-Lerninhalt" auf „Editieren“.
+Open the course editor again and click "Edit" in the "Wiki learning content" tab.
 
 ![Wiki_editieren.png](assets/Wiki_editieren.png) 
 
-!!! info "Hinweis zur Wiki-Syntax"
+!!! info "Note on wiki syntax"
 
-    Wikis sind weit verbreitet und es wurde deshalb ein eigener Standard dafür entwickelt. OpenOlat hält sich an diesen Standard. 
+    Wikis are widely used and therefore a separate standard has been developed for them. OpenOlat adheres to this standard. 
     
-    Dazu gehört, dass die Inhalte eines Wikis nach einer eigenen Syntax gestaltet werden. Im Editor von OpenOlat merken Sie davon wenig direkt. Wenn Sie ein Wiki jedoch importieren und in einem anderen Editor erstellen wollen, könnten Sie damit in Berührung kommen. 
+    This includes that the content of a wiki is designed according to its own syntax. In the editor of OpenOlat you notice little of this directly. However, if you want to import a wiki and create it in another editor, you might come into contact with it.
     
-    Erklärungen zur Wiki-Syntax finden Sie unter dem Fragezeichen-Icon.
+    Explanations of the wiki syntax can be found under the question mark icon.
 
     ![help.png](assets/help.png)  
 
 
-### b) Erstmaliges Editieren einer neuen Wiki-Lernressource
+### b) Editing a new wiki learning resource for the first time
 
 Beim **ersten Editieren** gelangen Sie zunächst zur Startseite (Index). Passen Sie Ihre Startseite an und verfassen Sie einen Text für die Startseite.
 Beenden Sie mit Klick auf den Button "Speichern" am unteren Rand des Editors. 
