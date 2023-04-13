@@ -11,7 +11,7 @@ Das Wiki wird innerhalb eines OpenOlat-Kurses eingebunden. Wenn Sie noch keinen 
 
 ## Schritt 1: Kurseditor öffnen und Wiki-Kursbaustein einfügen  
 
-a) Gehen Sie in den **Autorenbereich** und suchen Sie dort den Kurs, in den der Blog eingefügt werden soll.
+a) Gehen Sie in den **Autorenbereich** und suchen Sie dort den Kurs, in den das Wiki eingefügt werden soll.
 
 ![Wiki_autorenbereich.png](assets/Wiki_autorenbereich.png)  
    
@@ -29,25 +29,54 @@ e) Vergeben Sie nun noch einen passenden **Titel** im Tab „Titel und Beschreib
 
     Wenn Sie den Kurseditor bereits jetzt schliessen, wird im Menü kein Wiki angezeigt, denn der Kursbaustein ist noch unvollständig. Es fehlt noch die Lernressource.
 
-
 ---
 
 ## Schritt 2: Wiki (Lernressource) erstellen  
   
-1. Im Tab „Wiki-Lerninhalt“ auf „Wiki wählen, erstellen oder importieren“
-klicken.|
+a) Gehen Sie in den <b>Tab „Wiki-Lerninhalt“</b> und klicken Sie auf „Wiki wählen, erstellen oder importieren“.
 
-  
+![Wiki_lerninhalt.png](assets/Wiki_lerninhalt.png)  
 
-![wiki_erstellen.png](assets/Wiki_erstellen1.png)  
+b) Hier können Sie nun 
+
+* ein **neues** Wiki erstellen, 
+* ein Wiki **hochladen**, das Ihnen als Datei vorliegt (z.B. durch einen Export), 
+* oder eine **URL** für den Wiki-Import angeben.
+
+Wir gehen im Folgenden davon aus, dass Sie ein **neues** Wiki beginnen möchten. 
   
-  
-2. „Erstellen“ klicken.  
-3. Titel des Wikis eingeben und auf "Erstellen" klicken.  
+c) Klicken Sie auf den **Button „Erstellen“**. 
+
+d) Geben Sie einen **Titel** für Ihre Wiki-Lernressource ein und bestätigen Sie mit <b>"Erstellen"</b>. 
+
+Fertig. Damit ist eine neue Wiki-Lernressource angelegt und weitere Einstellungen sowie die konkrete Ausgestaltung können vorgenommen werden.
+
+!!! tip "Tipp"
+
+    Alternativ kann ein OpenOlat-Wiki (so wie alle anderen Lernressourcen) auch im Autorenbereich erstellt und anschliessend im Kurseditor im Tab "Wiki-Lerninhalt" in den gewünschten Kurs eingebunden werden. 
+    
+    Bei diesem Vorgehen wird deutlich, dass Lernressourcen kursübergreifende Elemente sind und die Einbindung im gewählten Kurs nur eine der Verwendungsmöglichkeiten darstellt. 
+    
+    Das selbe Wiki kann in mehreren OpenOlat-Kursen eingebunden und auch kursunabhängig verwendet werden.
 
 ---
 
-## Schritt 3: Wiki konfigurieren  
+## Schritt 3: Benutzerberechtigungen definieren 
+
+a) Im Tab **"Wiki-Lerninhalt"** wird festgelegt, wer Wikiartikel erstellen darf. 
+Differenziertere Einstellungen sind auch über die erweiterte Konfiguration möglich. 
+
+![Wiki_berechtigungen.png](assets/Wiki_berechtigungen.png)  
+
+b) **Blog-Moderatoren** verfügen zusätzlich im Kursrun* über den <b>Button "Blog bearbeiten"</b> und können Titel, Beschreibung und Bild eines Blogs bestimmen. Auch entscheiden sie zu Beginn, ob ein externer Blog oder ein OpenOlat-Blog verwendet werden soll. Diese Entscheidung ist notwendig, bevor Blogbeiträge z.B. von Teilnehmenden erstellt werden können.
+
+(*Kursrun = Modus „aktiver Kurs“, im Unterschied zum Kurs, der im Editor geöffnet ist)
+
+c) Abschließend muss der Kurs **publiziert** und der Kurseditor geschlossen werden, damit die Änderungen sichtbar werden. 
+
+---
+
+## Schritt 4: Wiki konfigurieren  
   
 1. Auf „Editieren“ klicken.|
 
@@ -75,7 +104,7 @@ Links zu ergänzen. Speichern.
   
 ---
 
-## Schritt 4: Kurs publizieren und freischalten  
+## Schritt 5: Kurs publizieren und freischalten  
   
 1. Oben in der Toolbar „Publizieren“ wählen.|
 
@@ -88,10 +117,3 @@ noch den "Zugang für Teilnehmer der Organisation" einrichten.
   
 Das Wiki ist nun eingebunden und Kursteilnehmende können Wiki-Inhalte lesen,
 bestehende Seiten bearbeiten und neue Seiten erstellen.
-
-  
-
-!!! info "Info"
-
-    Alternativ kann ein Wiki so wie alle anderen Lernressourcen im Autorenbereich erstellt und anschließend in den gewünschten Kurs eingebunden werden. Dieses Vorgehen empfiehlt sich um zu verstehen, dass Lernressourcen kursübergreifende Tools sind und die Einbindung in dem gewählten Kurs nur _eine_ Möglichkeit darstellt. Dasselbe Wiki kann in mehreren OpenOlat-Kursen eingebunden und auch kursunabhängig verwendet werden.
-
