@@ -124,8 +124,7 @@ Nun befinden Sie sich im Tab "Seite bearbeiten" des neu erstellten Artikels und 
 
 ### e) Wiki-Menü anpassen
 
-Für Änderungen des Menüs klicken Sie im Dropdown-Menü „Wiki-Menu“ auf „Ändern“, um das Wiki-Menu mit den Wiki-Seiten nach Ihren Wünsche anzupassen oder mit externen
-Links zu ergänzen. Speichern.
+Für Änderungen des Menüs klicken Sie in der Dropdown-Auswahl „Wiki-Menu“ auf „Ändern“, um das Wiki-Menu mit den Wiki-Seiten nach Ihren Wünsche anzupassen.
 
 ![Wiki_menu_anpassen.png](assets/Wiki_menu_anpassen.png)
 
