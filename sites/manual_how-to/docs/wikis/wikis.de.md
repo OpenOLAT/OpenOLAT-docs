@@ -84,7 +84,7 @@ b) Abschließend muss der Kurs **publiziert** und der Kurseditor geschlossen wer
 
     Wikis sind weit verbreitet und es wurde deshalb ein eigener Standard dafür entwickelt. OpenOlat hält sich an diesen Standard. 
     
-    Dazu gehört, dass die Inhalte eines Wikis nach einer eigenen Syntax gestaltet werden. Im Editor von OpenOlat merken Sie davon nichts direkt. Wenn Sie ein Wiki jedoch importieren und in einem anderen Editor erstellen wollen, könnten Sie damit in Berührung kommen. 
+    Dazu gehört, dass die Inhalte eines Wikis nach einer eigenen Syntax gestaltet werden. Im Editor von OpenOlat merken Sie davon wenig direkt. Wenn Sie ein Wiki jedoch importieren und in einem anderen Editor erstellen wollen, könnten Sie damit in Berührung kommen. 
     
     Erklärungen zur Wiki-Syntax finden Sie unter dem Fragezeichen-Icon.
 
@@ -127,29 +127,24 @@ Nun befinden Sie sich im Tab "Seite bearbeiten" des neu erstellten Artikels und 
 Für Änderungen des Menüs klicken Sie im Dropdown-Menü „Wiki-Menu“ auf „Ändern“, um das Wiki-Menu mit den Wiki-Seiten nach Ihren Wünsche anzupassen oder mit externen
 Links zu ergänzen. Speichern.
 
-![menu_aendern.png](assets/changemenu.gif)  
-  
-5. Wiki-Tab schliessen und auf Kurs-Tab klicken.  
+![Wiki_menu_anpassen.png](assets/Wiki_menu_anpassen.png  
 
 
+### f) Editieren der Wiki-Lernressource beenden
+
+In der Breadcrumb von OpenOlat sehen Sie, dass Sie gerade die Lernressource bearbeitet haben, nicht den Kurs. Beenden Sie das Editieren der Wiki-Lernressource und kehren Sie nun zum Kurs zurück.
+
+![Wiki_editieren_beenden.png](assets/Wiki_editieren_beenden.png)
+
+Möglichkeit 1: Klicken Sie auf den Zurück-Pfeil in der Breadcrumb.
+
+Möglichkeit 2: Klicken Sie im Menü der Kopfzeile auf "Kurse" und öffnen Sie wieder Ihren Kurs mit dem Wiki-Kursbaustein.
+
+Möglichkeit 3: Klicken Sie im Menü der Kopfzeile auf die 3 Punkte ("mehr") und öffnen Sie dort wieder Ihren Kurs mit dem Wiki-Kursbaustein.
+
+Möglichkeit 4: Klicken Sie im Menü der Kopfzeile auf "Autorenbereich" und öffnen Sie dort wieder Ihren Kurs mit dem Wiki-Kursbaustein.
 
 
-xxx
-
-Klicken Sie auf "Episoden selbst erstellen" um die **Initial-Episode** des Podcasts zu erstellen. Dieser Schritt ist notwendig, damit Podcastepisoden von der definierten Zielgruppe anschließend ebenfalls eingestellt werden können.
-
-c) Fügen Sie nun den eigentlichen Inhalt Ihrer Podcast-Episode ein.
-
-![Podcast_episode_beasrbeiten.png](assets/Podcast_episode_bearbeiten.png)
-
-* Vergeben Sie einen Titel.
-* Einen (optionalen) Text fügen Sie unter "Beschreibung" ein.
-* Die Audio- oder Videodatei wird am einfachsten durch Ziehen (drag & drop) auf die Zielfläche eingefügt.
-
-
-d) Wenn Sie alle gewünschten Felder ausgefüllt haben, veröffentlichen Sie die Episode durch Klick auf den Button "Veröffentlichen" am unteren Rand des Fensters.
- 
-  
 !!! info ""
 
     Weitere Episoden können später mit demselben Vorgehen oder direkt in der Kursansicht hinzugefügt werden.
@@ -160,21 +155,6 @@ d) Wenn Sie alle gewünschten Felder ausgefüllt haben, veröffentlichen Sie die
 
 
 ---
-
-## Schritt 5: Kurs publizieren und freischalten  
-  
-1. Oben in der Toolbar „Publizieren“ wählen.|
-
-![wiki_veroeffentlichen.png](assets/publishwiki.gif)  
-  
-2. Kursbaustein überprüfen und „Weiter“ klicken.  
-3. Unter „Änderung des Kurszugriffs“ „veröffentlicht“ auswählen und bei Bedarf
-noch den "Zugang für Teilnehmer der Organisation" einrichten.  
-4. „Fertigstellen“ klicken.  
-  
-Das Wiki ist nun eingebunden und Kursteilnehmende können Wiki-Inhalte lesen,
-bestehende Seiten bearbeiten und neue Seiten erstellen.
-
 
 ## Schritt 5: Kurs publizieren und Status auf "Veröffentlicht" ändern  
   
