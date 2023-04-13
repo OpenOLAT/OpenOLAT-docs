@@ -100,7 +100,6 @@ Finish by clicking the "Save" button at the bottom of the editor.
 
 ### c) Index and menu
 
-Zur Bearbeitung von Index und Menü können Sie jederzeit im Menü des Wiki-Editors die beiden Seiten wieder aufrufen.
 To edit the index and menu, you can return to either page at any time in the editors wiki menu.
 ![Wiki_index_menu_bearbeiten.png](assets/Wiki_index_menu_bearbeiten.png)
 
