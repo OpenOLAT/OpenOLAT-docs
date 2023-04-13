@@ -63,30 +63,15 @@ Fertig. Damit ist eine neue Wiki-Lernressource angelegt und weitere Einstellunge
 
 ## Schritt 3: Benutzerberechtigungen definieren 
 
-a) Im Tab **"Wiki-Lerninhalt"** wird festgelegt, wer Wikiartikel erstellen darf. 
+a) Im Tab **"Wiki-Lerninhalt"** wird festgelegt, wer Wikiartikel bearbeiten darf. 
 Differenziertere Einstellungen sind auch über die erweiterte Konfiguration möglich. 
 
 ![Wiki_berechtigungen.png](assets/Wiki_berechtigungen.png)  
 
-b) **Blog-Moderatoren** verfügen zusätzlich im Kursrun* über den <b>Button "Blog bearbeiten"</b> und können Titel, Beschreibung und Bild eines Blogs bestimmen. Auch entscheiden sie zu Beginn, ob ein externer Blog oder ein OpenOlat-Blog verwendet werden soll. Diese Entscheidung ist notwendig, bevor Blogbeiträge z.B. von Teilnehmenden erstellt werden können.
-
-(*Kursrun = Modus „aktiver Kurs“, im Unterschied zum Kurs, der im Editor geöffnet ist)
-
-c) Abschließend muss der Kurs **publiziert** und der Kurseditor geschlossen werden, damit die Änderungen sichtbar werden. 
+b) Abschließend muss der Kurs **publiziert** und der Kurseditor geschlossen werden, damit die Änderungen sichtbar werden. 
 
 ---
-
-## Schritt 4: Wiki konfigurieren  
-  
-1. Auf „Editieren“ klicken.|
-
-![wiki_editieren.png](assets/13_wiki_editieren.png)  
-  
-  
-2. Startseite anpassen: Für die Startseite („Index“) einen Text verfassen und
-speichern. Erklärung zur Wiki-Syntax finden Sie unter dem Fragezeichen-Icon.
-
-![help.png](assets/help.png)  
+xxx
   
 3. Wiki-Seite erstellen: Auf "Erstellen“ klicken und in der Box den Titel für
 die neue Wiki-Seite eingeben. Auf „Erstellen“ klicken. Auf den roten Link mit
@@ -101,7 +86,74 @@ Links zu ergänzen. Speichern.
 ![menu_aendern.png](assets/changemenu.gif)  
   
 5. Wiki-Tab schliessen und auf Kurs-Tab klicken.  
+
+
+
+## Schritt 4: Wiki mit Inhalt (Artikeln) füllen  
+
+a) Öffnen Sie den Kurseditor erneut und klicken Sie im Tab "Wiki-Lerninhalt" auf „Editieren“.
+
+![Wiki_editieren.png](assets/Wiki_editieren.png) 
+
+!!! info "Hinweis zur Wiki-Syntax"
+
+    Wikis sind weit verbreitet und es wurde deshalb ein eigener Standard dafür entwickelt. OpenOlat hält sich an diesen Standard. 
+    
+    Dazu gehört, dass die Inhalte eines Wikis nach einer eigenen Syntax gestaltet werden. Im Editor von OpenOlat merken Sie davon nichts direkt. Wenn Sie ein Wiki jedoch importieren und in einem anderen Editor erstellen wollen, könnten Sie damit in Berührung kommen. 
+    
+    Erklärungen zur Wiki-Syntax finden Sie unter dem Fragezeichen-Icon.
+
+    ![help.png](assets/help.png)  
+
+
+b) Beim **ersten Editieren** gelangen Sie zunächst zur Startseite (Index). Passen Sie Ihre Startseite an und verfassen Sie einen Text für die Startseite.
+Beenden Sie mit Klick auf den Button "Speichern" am unteren Rand des Editors. 
+
+![Wiki_index_bearbeiten.png](assets/Wiki_index_bearbeiten.png)
+
+c) Index und Menü
+
+Zur Bearbeitung von Index und Menü können Sie jederzeit im Menü des Wiki-Editors die beiden Seiten wieder aufrufen.
+![Wiki_index_menu_bearbeiten.png](assets/Wiki_index_menu_bearbeiten.png)
+
+Zur Kontrolle verlassen Sie den Kurseditor. Sie sehen dann, dass ein Wiki-Kursbaustein in OpenOlat die Menüstruktur des Kurses ergänzt. Die Wiki-Artikel erscheinen direkt als Menüpunkte im OpenOlat-Kursmenü.
+![Wiki_kursmenu.png](assets/Wiki_kursmenu1.png)
+
+d) Wiki-Seite (Artikel) erstellen
+
+Auf "Erstellen“ klicken und in der Box den Titel für
+die neue Wiki-Seite eingeben. Auf „Erstellen“ klicken. Auf den roten Link mit
+dem Seitentitel klicken, um die Seite zu erstellen und zu editieren.|
+
+![wikipage_erstellen.png](assets/createwikipage.gif)
+
+
+
+xxx
+
+Klicken Sie auf "Episoden selbst erstellen" um die **Initial-Episode** des Podcasts zu erstellen. Dieser Schritt ist notwendig, damit Podcastepisoden von der definierten Zielgruppe anschließend ebenfalls eingestellt werden können.
+
+c) Fügen Sie nun den eigentlichen Inhalt Ihrer Podcast-Episode ein.
+
+![Podcast_episode_beasrbeiten.png](assets/Podcast_episode_bearbeiten.png)
+
+* Vergeben Sie einen Titel.
+* Einen (optionalen) Text fügen Sie unter "Beschreibung" ein.
+* Die Audio- oder Videodatei wird am einfachsten durch Ziehen (drag & drop) auf die Zielfläche eingefügt.
+
+
+d) Wenn Sie alle gewünschten Felder ausgefüllt haben, veröffentlichen Sie die Episode durch Klick auf den Button "Veröffentlichen" am unteren Rand des Fensters.
+ 
   
+!!! info ""
+
+    Weitere Episoden können später mit demselben Vorgehen oder direkt in der Kursansicht hinzugefügt werden.
+
+!!! warning "Achtung"
+
+    Schritt 4 (Initial-Episode) ist auch erforderlich, wenn die Lernenden Podcasts hochladen sollen. Es muss auf jeden Fall zunächst vom Lehrenden die erste Episode, also das erste Video hochgeladen werden, bevor die Lernenden selbst Videos hochladen können.
+
+
 ---
 
 ## Schritt 5: Kurs publizieren und freischalten  
@@ -117,3 +169,10 @@ noch den "Zugang für Teilnehmer der Organisation" einrichten.
   
 Das Wiki ist nun eingebunden und Kursteilnehmende können Wiki-Inhalte lesen,
 bestehende Seiten bearbeiten und neue Seiten erstellen.
+
+
+## Schritt 5: Kurs publizieren und Status auf "Veröffentlicht" ändern  
+  
+Gehen Sie dazu vor, wie in [„Wie erstelle ich meinen ersten OpenOlat-Kurs"](../my_first_course/my_first_course.de.md) beschrieben.
+
+Das Wiki ist nun eingebunden und Kursteilnehmende können die Artikel lesen. Bzw. bei entsprechender Berechtigung auch bestehende Seiten bearbeiten und neue Seiten erstellen.
