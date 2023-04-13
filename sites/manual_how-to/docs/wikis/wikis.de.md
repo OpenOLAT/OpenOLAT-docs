@@ -71,27 +71,12 @@ Differenziertere Einstellungen sind auch über die erweiterte Konfiguration mög
 b) Abschließend muss der Kurs **publiziert** und der Kurseditor geschlossen werden, damit die Änderungen sichtbar werden. 
 
 ---
-xxx
-  
-3. Wiki-Seite erstellen: Auf "Erstellen“ klicken und in der Box den Titel für
-die neue Wiki-Seite eingeben. Auf „Erstellen“ klicken. Auf den roten Link mit
-dem Seitentitel klicken, um die Seite zu erstellen und zu editieren.|
-
-![wikipage_erstellen.png](assets/createwikipage.gif)  
-  
-4. Wiki-Menu anpassen: Im Dropdown-Menü „Wiki-Menu“ auf „Ändern“ klicken, um
-das Wiki-Menu mit den Wiki-Seiten Ihrer Wünsche anzupassen oder mit externen
-Links zu ergänzen. Speichern.
-
-![menu_aendern.png](assets/changemenu.gif)  
-  
-5. Wiki-Tab schliessen und auf Kurs-Tab klicken.  
-
-
 
 ## Schritt 4: Wiki mit Inhalt (Artikeln) füllen  
 
-a) Öffnen Sie den Kurseditor erneut und klicken Sie im Tab "Wiki-Lerninhalt" auf „Editieren“.
+### a) Lernressource editieren
+
+Öffnen Sie den Kurseditor erneut und klicken Sie im Tab "Wiki-Lerninhalt" auf „Editieren“.
 
 ![Wiki_editieren.png](assets/Wiki_editieren.png) 
 
@@ -106,12 +91,14 @@ a) Öffnen Sie den Kurseditor erneut und klicken Sie im Tab "Wiki-Lerninhalt" au
     ![help.png](assets/help.png)  
 
 
-b) Beim **ersten Editieren** gelangen Sie zunächst zur Startseite (Index). Passen Sie Ihre Startseite an und verfassen Sie einen Text für die Startseite.
+### b) Erstmaliges Editieren einer neuen Wiki-Lernressource
+
+Beim **ersten Editieren** gelangen Sie zunächst zur Startseite (Index). Passen Sie Ihre Startseite an und verfassen Sie einen Text für die Startseite.
 Beenden Sie mit Klick auf den Button "Speichern" am unteren Rand des Editors. 
 
 ![Wiki_index_bearbeiten.png](assets/Wiki_index_bearbeiten.png)
 
-c) Index und Menü
+### c) Index und Menü
 
 Zur Bearbeitung von Index und Menü können Sie jederzeit im Menü des Wiki-Editors die beiden Seiten wieder aufrufen.
 ![Wiki_index_menu_bearbeiten.png](assets/Wiki_index_menu_bearbeiten.png)
@@ -119,13 +106,31 @@ Zur Bearbeitung von Index und Menü können Sie jederzeit im Menü des Wiki-Edit
 Zur Kontrolle verlassen Sie den Kurseditor. Sie sehen dann, dass ein Wiki-Kursbaustein in OpenOlat die Menüstruktur des Kurses ergänzt. Die Wiki-Artikel erscheinen direkt als Menüpunkte im OpenOlat-Kursmenü.
 ![Wiki_kursmenu.png](assets/Wiki_kursmenu1.png)
 
-d) Wiki-Seite (Artikel) erstellen
+### d) Wiki-Seite (Artikel) erstellen
 
-Auf "Erstellen“ klicken und in der Box den Titel für
-die neue Wiki-Seite eingeben. Auf „Erstellen“ klicken. Auf den roten Link mit
-dem Seitentitel klicken, um die Seite zu erstellen und zu editieren.|
+Klicken Sie im Menü des Wiki-Editors auf "Erstellen". Es erscheint eine Box, in der Sie den Titel Ihres neuen Wiki-Artikels eintragen können.
+![Wiki_artikel_neu1.png](assets/Wiki_artikel_neu1.png)
 
-![wikipage_erstellen.png](assets/createwikipage.gif)
+Sobald Sie die Titeleingabe mit Klick auf den Button "Erstellen" abgeschlossen haben, erscheint die Seite des Artikels mit dem Hinweis, dass die Seite noch nicht existiert (leer ist).
+
+![Wiki_artikel_neu2.png](assets/Wiki_artikel_neu2.png)
+
+Klicken Sie auf den roten Link mit dem Seitentitel.
+
+Nun befinden Sie sich im Tab "Seite bearbeiten" des neu erstellten Artikels und können dort Ihren Text, Bilder usw. einfügen.
+
+![Wiki_artikel_neu3.png](assets/Wiki_artikel_neu3.png)
+
+
+### e) Wiki-Menü anpassen
+
+Für Änderungen des Menüs klicken Sie im Dropdown-Menü „Wiki-Menu“ auf „Ändern“, um das Wiki-Menu mit den Wiki-Seiten nach Ihren Wünsche anzupassen oder mit externen
+Links zu ergänzen. Speichern.
+
+![menu_aendern.png](assets/changemenu.gif)  
+  
+5. Wiki-Tab schliessen und auf Kurs-Tab klicken.  
+
 
 
 
