@@ -37,9 +37,9 @@ e) Now assign a suitable **title** in the tab "Title and description" and save t
    
 ## Step 2: Create a podcast (learning resource)
 
-a) Go to the <b>"Podcast learning content"</b> tab and click "Select, create or import podcast".
+a) Go to the <b>"Podcast learning content"</b> tab and click "Select, create or import a podcast".
 
-![Podcast_lerninhalt.png](assets/Podcast_lerninhalt.png)  
+![podcast_learning_content.png](assets/podcast_learning_content.png)  
   
 b) Here you can now 
 
@@ -70,7 +70,7 @@ Done. A new podcast learning resource is now created and further settings and th
 a) The **"Podcast learning content "** tab is used to define who can create podcast posts and moderate the podcast. 
 More sophisticated settings are also possible via the advanced configuration.
 
-![Podcast_benutzerberechtigungen.png](assets/Podcast_benutzerberechtigungen.png)  
+![podcast_user_rights.png](assets/podcast_user_rights.png)  
 
 b) **Podcast moderators** additionally have the <b>"Edit podcast"</b> button in the course run* and can determine the title, description and image of a podcast. They also decide at the beginning if an external podcast or an OpenOlat podcast should be used. This decision is necessary before podcast contributions can be created, e.g. by participants.
 
@@ -84,17 +84,17 @@ c) Finally, the course must be **published** and the course editor closed so tha
 
 a) Open the course editor again and click "Edit" in the "Podcast learning content" tab.
 
-![Podcast_initiale_episode.png](assets/Podcast_initiale_episode.png) 
+![podcast_initial_episode.png](assets/podcast_initial_episode.png) 
 
 b) When you **first edit**, you will now be asked if you want to create a new podcast episode or include an existing podcast. Below we show you how to create a new podcast episode.
 
-![Podcast_erste_episode.png](assets/Podcast_erste_episode.png)
+![podcast_first_episode.png](assets/podcast_first_episode.png)
 
-Click on "Create episodes yourself" to create the **initial episode** of the podcast. This step is necessary so that podcast episodes from the defined target group can also be posted afterwards.
+Click on "Create your own episode" to create the **initial episode** of the podcast. This step is necessary so that podcast episodes from the defined target group can also be posted afterwards.
 
 c) Now add the actual content of your podcast episode.
 
-![Podcast_episode_beasrbeiten.png](assets/Podcast_episode_bearbeiten.png)
+![podcast_edit_episode.png](assets/podcast_edit_episode.png)
 
 * Assign a title.
 * Add an (optional) text under "Description".
