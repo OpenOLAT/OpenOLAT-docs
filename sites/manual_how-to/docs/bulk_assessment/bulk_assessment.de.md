@@ -3,10 +3,10 @@
 ## Was ist eine Massenbewertung?
 
 Mit der Massenbewertung können Sie im [Bewertungswerkzeug
-](../../manual_user/course_operation/Assessment_tool_-_overview.de.md)mehrere Kursteilnehmende zu
+](../../../manual_user/docs/course_operation/Assessment_tool_-_overview.de.md)mehrere Kursteilnehmende zu
 einem von Ihnen gewünschten Zeitpunkt auf einmal bewerten. 
 
-Massenbewertungen können für die [bewertbaren Kursbausteine](../../manual_user/course_elements/Assessment.de.md)
+Massenbewertungen können für die [bewertbaren Kursbausteine](../../../manual_user/docs/course_elements/Assessment.de.md)
 
 * Kursbaustein "Aufgabe",
 * Kursbaustein "Gruppenaufgabe" und
@@ -39,7 +39,7 @@ Eine Massenbewertung kann durch alle Personen vorgenommen werden, die auch sonst
 
 Das grundsätzliche Vorgehen ist:
 * Wählen Sie im [Bewertungswerkzeug
-](../../manual_user/course_operation/Assessment_tool_-_overview.de.md) den Kursbaustein Ihres Kurses aus, für den eine Massenbewertung durchgeführt werden soll 
+](../../../manual_user/docs/course_operation/Assessment_tool_-_overview.de.md) den Kursbaustein Ihres Kurses aus, für den eine Massenbewertung durchgeführt werden soll 
 * oder wählen Sie die Option "Massenbewertung" in der Toolbar. 
 
 
