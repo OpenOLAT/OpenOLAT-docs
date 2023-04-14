@@ -8,13 +8,13 @@
 
 * * *
 
-:material-calendar-month-outline: **Release date: 02/24/2023 • Last update: 03/17/2023**
+:material-calendar-month-outline: **Release date: 02/24/2023 • Last update: 04/13/2023**
 
 * * *
 
 With OpenOlat 17.2 we release our next major release.
 
-Using the new **course element “Video task "**, participants practice identifying real-life situations and can put this to the test in test mode. The newly designed **Video editor with timeline** supports authors in editing video learning resources (e.g. for preparing video tasks). The annotations, quizzes and more configured there can also be (de)activated in the **course element "Video "**. In the course element “Task", the targeted **assignment of coaches** to participants in course settings with multiple teachers ensures a better overview of one's own assessment assignments. On the subject of **accessibility**, some adjustments have been made, as well as the configuration of the desired delimiter has been introduced for **gender-sensitive language** in the menus. In addition to a **confirmation mail after test completion** for participants and additional recipients as well as new **bulk actions** in the authoring area, the release brings further improvements covering **reminders** and the **certificate function**. The **OAI-PMH** standard is now supported, which can be used, for example, to forward metadata from learning resources to search engine providers for indexing (**SEO**). Numerous **UX/Usability** optimizations and various **technical updates** complete this release.
+Using the new **course element “Video task "**, participants practice identifying real-life situations and can put this to the test in test mode. The newly designed **Video editor with timeline** supports authors in editing video learning resources (e.g. for preparing video tasks). The annotations, quizzes and more configured there can also be (de)activated in the **course element "Video "**. In the course element “Task", the targeted **assignment of coaches** to participants in course settings with multiple teachers ensures a better overview of one's own assessment assignments. The **course (element) reset** sets the foundation for the future recertification function. A revised subscription management as well as the addition of a **global status change notification for learning resources** help to keep track of everything. On the subject of **accessibility**, some adjustments have been made, as well as the configuration of the desired delimiter has been introduced for **gender-sensitive language** in the menus. In addition to a **confirmation mail after test completion** for participants and additional recipients as well as new **bulk actions** in the authoring area, the release brings further improvements covering **reminders** and the **certificate function**. The **OAI-PMH** standard is now supported, which can be used, for example, to forward metadata from learning resources to search engine providers for indexing (**SEO**). Numerous **UX/Usability** optimizations and various **technical updates** complete this release.
 
 ![Features Bugs](assets/172/Features_Improvements_Labels_17.2_EN.png)
 
@@ -114,6 +114,25 @@ If the corresponding option is activated, participants receive an e-mail confirm
 
 * * *
 
+## Reset course / course elements
+
+User data of individual or all course participants can be reset for an entire course or selected course elements. The reset data will be archived and made available for download. Resetting is possible for progress (learning path), number of attempts, test runs, points and success status, assessments and reminders, among others.
+
+* * *
+
+#### Further course improvements
+
+* Course element "Form": Additional recipients for confirmation e-mail after submission of form by participant added
+* Course element "Appointment scheduling": Optimizations for subsequent change of event type
+* Access restrictions for course elements visible at structure level (Conventional course)
+* Reminders:
+    * Reminder function after certificate expiration
+    * Configuration of date-controlled reminders with the indication "before" and “after"
+* Deleted / Trashed videos will no longer be played in the course, instead a corresponding note will be displayed
+* Support of "tel protocol handler" for automatic resolution of phone numbers in HTML pages including display of a phone icon
+
+* * *
+
 ## What's new in eAssessments, tests & question types
 
 #### Email confirmation after test completion
@@ -131,19 +150,7 @@ In scenarios such as diagnostic tests that are accessed and taken by participant
 * Evidence of achievement: Improved information area and addition of certificate data (creation date, validity)
 * Support for sorting grade and text assessments
 * Group task: Group view in the assessment tool
-
-* * *
-
-## New in course
-
-* Course element "Form": Additional recipients for confirmation e-mail after submission of form by participant added
-* Course element " Appointment scheduling": Optimizations for subsequent change of event type
-* Access restrictions for course elements visible at structure level (Conventional course)
-* Reminders:
-    * Reminder function after certificate expiration
-    * Configuration of date-controlled reminders with the indication "before" and “after"
-* Deleted / Trashed videos will no longer be played in the course, instead a corresponding note will be displayed
-* Support of "tel protocol handler" for automatic resolution of phone numbers in HTML pages including display of a phone icon
+* System message after starting a test export
 
 * * *
 
@@ -153,7 +160,7 @@ A new wizard has been implemented to edit settings for multiple learning resourc
 
 <figure markdown>
   ![Authoring Area - Bulk Actions Wizard](assets/172/Wizard_bulk_actions_authoring_EN.png){ class="shadow lightbox thumbnail-xl" }
-  <figcaption>Selection of desired areas in wizard for bulk actions</figcaption>
+  <figcaption>Selection of desired areas for bulk actions</figcaption>
 </figure>
 
 On the overview page at the end of the wizard the performed adjustments can be checked before saving.
@@ -171,6 +178,20 @@ On the overview page at the end of the wizard the performed adjustments can be c
 * Expanding the selection of the system-wide default course type: With Learning path, With Learning progress, Classic
 * Taxonomy: Improved export as well as enhanced import including wizard modification to add background and teaser images
 * For administrators only: Manually add and change authentication tokens via user management
+
+* * *
+
+## Optimization of subscription management and new global subscription
+
+The subscription management in the 'personal tools' has been revised and transferred to the new table concept with filter options. The optimized display as well as a central (de)activation and deletion of individual subscriptions including a link to the course offer an improved overview of one's own subscriptions.
+
+#### Notification of status changes of learning resources
+
+Owners of courses and learning resources may need to be informed when the status of their resources is changed by other authors or - when using the automatic course lifecycle - by the system. This can be important, for example, if several responsible persons jointly administer a course or if the course is explicitly set to the status "Finished" or "Deleted".
+
+If the global subscription for learning resources is activated, the status changes are listed under the personal `Subscriptions > News` and additionally in the email notification for subscriptions.
+
+The function is activated by default and applies to new course and learning resource owners. For all existing learning resource owners the global subscription can be activated afterwards, a deactivation by the owners themselves is possible.
 
 * * *
 
@@ -216,6 +237,12 @@ The integration in OpenOlat makes it possible that the metadata of courses relea
 * Replacement of gray infoboxes by new variant including optional link to the manual
 * Wizards: Improved focus handling for forms with validation
 * Optimized handling of HTML files as page content in courses
+* New colour picker component
+
+<figure markdown>
+  ![New colour picker component](assets/172/Colour_picker_component_EN.png){ class="shadow lightbox thumbnail-xl" }
+  <figcaption>New colour picker component</figcaption>
+</figure>
 
 * * *
 
@@ -241,16 +268,20 @@ Specifically, it is now possible to define the desired separator (e.g. * : / etc
   <figcaption>Configure delimiter</figcaption>
 </figure>
 
+Further additions are being made on an ongoing basis.
+
 * * *
 
 ## Further, briefly noted
 
+* Group tables: Display of additional group information (Group ID, External ID, Managed icon) in course rights management and selection list for group-dependent visibility/access control
 * Absence management: display of first date of admission in table of participants
 * Catalog: Addition of more filters to narrow down search results
 * Optimized handling of GIF files
 * Curriculum: Improved visibility of referenced courses in curricula
 * QM: external management of the execution type of a course
 * Update "About OpenOlat" page: addition of social media reference for Mastodon as well as adaptation of donation link
+* Import of video resources and URLs configurable in olat.local.properties
 
 * * *
 
@@ -276,6 +307,7 @@ Specifically, it is now possible to define the desired separator (e.g. * : / etc
     The following functions have to be activated / configured in the administration after an update to release 17.2:
     
     * [x] Default course type for the creation of new courses: `Modules > Course` - Selection "With learning path" / "With learning progress" / "Classic"
+    * [x] Notify owners about status changes of courses / learning resources: `Module > Repository`- section "Notification" - "Subscription"
     * [x] Separator for gender-sensitive language: `Core Configuration > Languages` - section "Gender-sensitive language"
     * [x] OAI-PMH standard / SEO for search engine indexing: `Modules > SEO / OAI-PMH metadata` - activate module "OAI-PMH interface" and "Search engine optimization"
 
@@ -283,6 +315,8 @@ Specifically, it is now possible to define the desired separator (e.g. * : / etc
 
 ## More information
 
+* [Jira Release Notes 17.2.6](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=20700){:target="_blank”}
+* [Jira Release Notes 17.2.5](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=20600){:target="_blank”}
 * [Jira Release Notes 17.2.4](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=20500){:target="_blank”}
 * [Jira Release Notes 17.2.3](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=20401){:target="_blank”}
 * [Jira Release Notes 17.2.2](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=20200){:target="_blank”}
