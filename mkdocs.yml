@@ -360,7 +360,7 @@ plugins:
         - de
 
 nav:
-  - Start: 
+ - Start: 
     - Overview: index.md
     - Archive: archive.md
     - Imprint: imprint.md
