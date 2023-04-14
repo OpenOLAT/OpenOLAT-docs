@@ -122,7 +122,7 @@ Now you are in the "Edit Page" tab of the newly created article and you can inse
 ![Wiki_artikel_neu3.png](assets/Wiki_artikel_neu3.png)
 
 
-### e) Customize wiki menu
+### e) Customize your wiki menu
 
 For changes to the menu, click "Modify" in the "Wiki Menu" drop-down selection to customize the wiki menu with the wiki pages according to your wishes.
 
