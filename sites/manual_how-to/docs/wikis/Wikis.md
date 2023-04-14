@@ -77,7 +77,7 @@ b) Finally, the course must be **published** and the course editor closed so tha
 
 Open the course editor again and click "Edit" in the "Wiki learning content" tab.
 
-![Wiki_editieren.png](assets/Wiki_editieren.png) 
+![wiki_edit.png](assets/wiki_edit.png) 
 
 !!! info "Note on wiki syntax"
 
@@ -95,12 +95,12 @@ Open the course editor again and click "Edit" in the "Wiki learning content" tab
 The **first edit** will take you to the start page (index) first. Customize your start page and write a text for the start page.
 Finish by clicking the "Save" button at the bottom of the editor.
 
-![Wiki_index_bearbeiten.png](assets/Wiki_index_bearbeiten.png)
+![wiki_index_edit.png](assets/wiki_index_edit.png)
 
 ### c) Index and menu
 
 To edit the index and menu, you can return to either page at any time in the editors wiki menu.
-![Wiki_index_menu_bearbeiten.png](assets/Wiki_index_menu_bearbeiten.png)
+![wiki_index_menu_edit.png](assets/wiki_index_menu_edit.png)
 
 To check this, exit the course editor. You will then see that a wiki course element in OpenOlat complements the menu structure of the course. The wiki articles appear directly as menu items in the OpenOlat course menu.
 ![Wiki_kursmenu.png](assets/Wiki_kursmenu1.png)
