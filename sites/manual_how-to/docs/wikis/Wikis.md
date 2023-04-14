@@ -103,7 +103,7 @@ To edit the index and menu, you can return to either page at any time in the edi
 ![wiki_index_menu_edit.png](assets/wiki_index_menu_edit.png)
 
 To check this, exit the course editor. You will then see that a wiki course element in OpenOlat complements the menu structure of the course. The wiki articles appear directly as menu items in the OpenOlat course menu.
-![Wiki_kursmenu.png](assets/Wiki_kursmenu1.png)
+![wiki__course_menu1.png](assets/wiki_course_menu1.png)
 
 ### d) Create wiki pages (articles)
 
