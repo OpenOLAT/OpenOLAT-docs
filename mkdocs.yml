@@ -360,17 +360,17 @@ plugins:
         - de
 
 nav:
- - Start: 
+  - Start: 
     - Overview: index.md
     - Archive: archive.md
     - Imprint: imprint.md
     - License: license.md
-    - Release notes: '!include ./sites/release_notes/mkdocs.yml'
-    - User manual: '!include ./sites/manual_user/mkdocs.yml' 
-    - How to: '!include ./sites/manual_how-to/mkdocs.yml' 
-    - Admin manual: '!include ./sites/manual_admin/mkdocs.yml' 
-    - Developer cookbook: '!include ./sites/manual_dev/mkdocs.yml' 
-   Invisible fake pages to fix incompatibility between monorepo and i18n plugin
+  - Release notes: '!include ./sites/release_notes/mkdocs.yml'
+  - User manual: '!include ./sites/manual_user/mkdocs.yml' 
+  - How to: '!include ./sites/manual_how-to/mkdocs.yml' 
+  - Admin manual: '!include ./sites/manual_admin/mkdocs.yml' 
+  - Developer cookbook: '!include ./sites/manual_dev/mkdocs.yml' 
+# Invisible fake pages to fix incompatibility between monorepo and i18n plugin
   - '': '!include ./sites/en/mkdocs.yml' 
   - '': '!include ./sites/de/mkdocs.yml' 
 
