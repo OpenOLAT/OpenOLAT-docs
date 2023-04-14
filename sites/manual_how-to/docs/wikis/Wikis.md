@@ -103,35 +103,35 @@ Finish by clicking the "Save" button at the bottom of the editor.
 To edit the index and menu, you can return to either page at any time in the editors wiki menu.
 ![Wiki_index_menu_bearbeiten.png](assets/Wiki_index_menu_bearbeiten.png)
 
-To check this, exit the course editor. You will then see that a wiki course element in OpenOlat complements the menu structure of the course. The Wiki articles appear directly as menu items in the OpenOlat course menu.
+To check this, exit the course editor. You will then see that a wiki course element in OpenOlat complements the menu structure of the course. The wiki articles appear directly as menu items in the OpenOlat course menu.
 ![Wiki_kursmenu.png](assets/Wiki_kursmenu1.png)
 
-### d) Wiki-Seite (Artikel) erstellen
+### d) Create wiki pages (articles)
 
-Klicken Sie im Menü des Wiki-Editors auf "Erstellen". Es erscheint eine Box, in der Sie den Titel Ihres neuen Wiki-Artikels eintragen können.
+Click on "Create" in the Wiki Editor menu. A box appears in which you can enter the title of your new wiki article.
 ![Wiki_artikel_neu1.png](assets/Wiki_artikel_neu1.png)
 
-Sobald Sie die Titeleingabe mit Klick auf den Button "Erstellen" abgeschlossen haben, erscheint die Seite des Artikels mit dem Hinweis, dass die Seite noch nicht existiert (leer ist).
+As soon as you finish entering the title by clicking the "Create" button, the page of the article will appear with a notice that the page does not exist yet (is empty).
 
 ![Wiki_artikel_neu2.png](assets/Wiki_artikel_neu2.png)
 
-Klicken Sie auf den roten Link mit dem Seitentitel.
+Click on the red link with the page title.
 
-Nun befinden Sie sich im Tab "Seite bearbeiten" des neu erstellten Artikels und können dort Ihren Text, Bilder usw. einfügen.
+Now you are in the "Edit Page" tab of the newly created article and you can insert your text, images, etc. there.
 
 ![Wiki_artikel_neu3.png](assets/Wiki_artikel_neu3.png)
 
 
-### e) Wiki-Menü anpassen
+### e) Customize wiki menu
 
-Für Änderungen des Menüs klicken Sie in der Dropdown-Auswahl „Wiki-Menu“ auf „Ändern“, um das Wiki-Menu mit den Wiki-Seiten nach Ihren Wünsche anzupassen.
+For changes to the menu, click "Modify" in the "Wiki Menu" drop-down selection to customize the wiki menu with the wiki pages according to your wishes.
 
 ![Wiki_menu_anpassen.png](assets/Wiki_menu_anpassen.png)
 
 
-### f) Editieren der Wiki-Lernressource beenden
+### f) Finish editing the wiki learning resource
 
-In der Breadcrumb von OpenOlat sehen Sie, dass Sie gerade die Lernressource bearbeitet haben, nicht den Kurs. Beenden Sie das Editieren der Wiki-Lernressource und kehren Sie nun zum Kurs zurück.
+In the OpenOlat breadcrumb, you will see that you have just edited the learning resource, not the course. Finish editing the wiki learning resource and now return to the course.
 
 ![Wiki_editieren_beenden.png](assets/Wiki_editieren_beenden.png)
 
