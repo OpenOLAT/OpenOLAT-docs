@@ -135,18 +135,18 @@ In the OpenOlat breadcrumb, you will see that you have just edited the learning 
 
 ![Wiki_editieren_beenden.png](assets/Wiki_editieren_beenden.png)
 
-Möglichkeit 1: Klicken Sie auf den Zurück-Pfeil in der Breadcrumb.
+Option 1: Click the back arrow in the breadcrumb.
 
-Möglichkeit 2: Klicken Sie im Menü der Kopfzeile auf "Kurse" und öffnen Sie wieder Ihren Kurs mit dem Wiki-Kursbaustein.
+Option 2: Click on "Courses" in the header menu and open your course with the wiki course element again.
 
-Möglichkeit 3: Klicken Sie im Menü der Kopfzeile auf die 3 Punkte ("mehr") und öffnen Sie dort wieder Ihren Kurs mit dem Wiki-Kursbaustein.
+Option 3: Click on the 3 dots ("more") in the header menu and open your course with the wiki course element there again.
 
-Möglichkeit 4: Klicken Sie im Menü der Kopfzeile auf "Autorenbereich" und öffnen Sie dort wieder Ihren Kurs mit dem Wiki-Kursbaustein.
+Option 4: Click on "Authoring" in the header menu and open your course with the wiki course element there again.
 
 ---
 
-## Schritt 5: Kurs publizieren und Status auf "Veröffentlicht" ändern  
+## Step 5: Publish course and change status to "Published"
   
-Gehen Sie dazu vor, wie in [„Wie erstelle ich meinen ersten OpenOlat-Kurs"](../my_first_course/my_first_course.de.md) beschrieben.
+To do this, proceed as described in ["How do I create my first OpenOlat course"](../my_first_course/my_first_course.md).
 
-Das Wiki ist nun eingebunden und Kursteilnehmende können die Artikel lesen. Bzw. bei entsprechender Berechtigung auch bestehende Seiten bearbeiten und neue Seiten erstellen.
+The Wiki is now integrated and course participants can read the articles. With the appropriate authorization, they can also edit existing pages and create new pages.
