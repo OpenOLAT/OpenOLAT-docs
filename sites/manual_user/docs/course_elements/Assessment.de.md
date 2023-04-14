@@ -5,7 +5,7 @@ Wissensüberprüfung eingesetzt werden können. Für einige Kursbausteine
 existieren vertiefende, separate Seiten oder Kapitel hier im Handbuch.
 
 
-![Wissensüberpfüfung Kursbausteine.png](assets/Wissensueberpruefung.jpg)
+![Wissensüberpfüfung Kursbausteine.png](assets/Wissensueberpruefung_172.png)
 
 OpenOlat stellt diverse Kursbausteine für die Wissensüberprüfung zur
 Verfügung. Die zentralen Kursbausteine hierfür sind die drei Kursbausteine die OpenOlat [Tests](../tests/Configure_tests.de.md) verwenden und die beiden
@@ -222,6 +222,10 @@ Nach Abschluss einer Challenge sind neben der Einordnung in Ranglisten detaillie
 !!! info "Info"
 
     Für diesen Kursbaustein können nur automatisch auswertbare Testfragen verwendet werden. 
+
+## Kursbaustein "Video-Aufgabe"
+
+Mit dem  Kursbaustein „Videoaufgabe“ können OpenOlat Video-Lernressourcen für interaktive (formative) Übungen oder Aufgaben mit Bewertungen (summativ) wiederverwendet werden. Dabei müssen Teilnehmende in einem Video relevante Situationen erkennen und einer Kategorie zuordnen. Die dafür notwendigen Platzhalter im Video (= Segmente) sowie die Kategorien werden in der Lernressource "Video" definiert (s. Video Editor). Es steht ein Übungsmodus und ein scharfer Testmodus zur Verfügung. 
 
 ## Kursbaustein "Formular"  {: #course_element_form}
 
