@@ -18,7 +18,7 @@ Since release 17.2 it is possible to set that
 
 are transferred to search engines.
 
-![Infoseite](assets/infopage1.png)
+![infopage1.png](assets/infopage1.png)
 
 ## How is this function generally enabled?
 
@@ -31,7 +31,7 @@ If OAI is enabled, the SEO settings become visible. (Enable SEO only, is not pos
 
 When the module is turned on, the API endpoint is available where all published resources are available via XML.
 
-![OAIPMH activation](assets/OAIPMH_activation.png)
+![OAIPMH_activation.png](assets/OAIPMH_activation.png)
 
 
 ## How is this feature enabled for specific courses / learning resources?
@@ -40,7 +40,7 @@ When the module is turned on, the API endpoint is available where all published 
 
 1) In order for the information to be shared with the search engines, the respective author (owner) must allow this for their course / learning resource.
 
-![Allow Indexing](assets/Indexing_allowed.png)
+![indexing_allowed.png](assets/indexing_allowed.png)
 
 2) Only courses / learning resources that have the status "Published" are considered.
 
