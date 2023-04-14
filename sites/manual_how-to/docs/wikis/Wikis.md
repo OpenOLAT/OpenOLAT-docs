@@ -108,17 +108,17 @@ To check this, exit the course editor. You will then see that a wiki course elem
 ### d) Create wiki pages (articles)
 
 Click on "Create" in the Wiki Editor menu. A box appears in which you can enter the title of your new wiki article.
-![Wiki_artikel_neu1.png](assets/Wiki_artikel_neu1.png)
+![wiki_article_new1.png](assets/wiki_article_new1.png)
 
 As soon as you finish entering the title by clicking the "Create" button, the page of the article will appear with a notice that the page does not exist yet (is empty).
 
-![Wiki_artikel_neu2.png](assets/Wiki_artikel_neu2.png)
+![wiki_article_new2.png](assets/wiki_article_new2.png)
 
 Click on the red link with the page title.
 
 Now you are in the "Edit Page" tab of the newly created article and you can insert your text, images, etc. there.
 
-![Wiki_artikel_neu3.png](assets/Wiki_artikel_neu3.png)
+![wiki_article_new3.png](assets/wiki_article_new3.png)
 
 
 ### e) Customize your wiki menu
