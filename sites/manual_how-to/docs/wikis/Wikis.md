@@ -12,7 +12,7 @@ The wiki is included within an OpenOlat course. If you have not yet created a co
 
 a) Go to the **Authoring** area and search there for the course in which the wiki should be inserted.
 
-![Wiki_autorenbereich.png](assets/Wiki_autorenbereich.png)  
+![wiki_authoring.png](assets/wiki_authoring.png)  
    
 b) Open the desired course in the **course editor** located in the Administration menu.
 
@@ -34,12 +34,11 @@ e) Now enter a suitable **title** in the tab "Title and description" and save th
   
 a) Go to the <b>Tab "Wiki learning content"</b> and click on "Select, create or import wiki".
 
-![Wiki_lerninhalt.png](assets/Wiki_lerninhalt.png)  
+![wiki_learning_content.png](assets/wiki_learning_content.png)  
 
 b) Here you can now
 
 * create a **new** wiki,
-* ein Wiki **hochladen**, das Ihnen als Datei vorliegt (z.B. durch einen Export),
 * **upload** a wiki that is available to you as a file (e.g. through an export),
 * or specify a **URL** for the wiki import.
 
@@ -66,7 +65,7 @@ Done. With this, a new wiki learning resource is created and further settings as
 a) The **"Wiki learning content"** tab is used to define who can create wiki articles and comment them. 
 More sophisticated settings are also possible via the advanced configuration.
 
-![Wiki_berechtigungen.png](assets/Wiki_berechtigungen.png)  
+![wiki_user_rights.png](assets/wiki_user_rights.png)  
 
 b) Finally, the course must be **published** and the course editor closed so that the changes are visible.
 
