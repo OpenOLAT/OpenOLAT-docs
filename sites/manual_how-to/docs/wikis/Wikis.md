@@ -125,14 +125,14 @@ Now you are in the "Edit Page" tab of the newly created article and you can inse
 
 For changes to the menu, click "Modify" in the "Wiki Menu" drop-down selection to customize the wiki menu with the wiki pages according to your wishes.
 
-![Wiki_menu_anpassen.png](assets/Wiki_menu_anpassen.png)
+![wiki_menu_modify.png](assets/wiki_menu_modify.png)
 
 
 ### f) Finish editing the wiki learning resource
 
 In the OpenOlat breadcrumb, you will see that you have just edited the learning resource, not the course. Finish editing the wiki learning resource and now return to the course.
 
-![Wiki_editieren_beenden.png](assets/Wiki_editieren_beenden.png)
+![wiki_edit_finish.png](assets/wiki_edit_finish.png)
 
 Option 1: Click the back arrow in the breadcrumb.
 
