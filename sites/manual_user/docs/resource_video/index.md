@@ -20,6 +20,7 @@ In OpenOlat videos can be implemented in different ways:
   *  **embedded in a single page** , where videos uploaded as a file can be linked. Further information for the embedding of videos in the [course element single page](../course_elements/Course_Element_Single_Page.md) you can find on the page. Videos embedded this way are only available in the course where the video is embedded in the corresponding storage folder. Instead of storing videos in the storage folder of a course, they can also be stored in a [resource folder](../course_create/Course_Settings.md#CourseSettings-_detail_ressourcen).  Included resource folders can be used in multiple courses.
   * directly as a **file** via the course element "Single page"
   * with the **course element Podcast**
+  * als spezifische Aufgabe über den den **Kursbaustein Video-Aufgabe** 
 
 !!! info "Info"
 

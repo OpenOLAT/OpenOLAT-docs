@@ -45,17 +45,15 @@ concrete task be stored in the course element or will the user find the task
 somewhere else? Should the user hand in a document? Should there be feedback
 from the teacher? Should the user be able to revise a submission if necessary?
 Should a sample solution be provided? Should a score or passing be possible?
+Sollen bestimmte Lernende von bestimmten Betreuenden bewertet werden?
 
 Simply activate the points you need and configure the relevant tabs in the
 next step.
 
 The assignment, submission and sample solution steps can be configured with a
-deadline, with the assignment and submission open until that specific date,
-whereas the sample solution won't be available before the respective date.
+deadline, with the assignment and submission open until that specific date, whereas the sample solution won't be available before the respective date.
 Starting from the date entered, the sample solution can be provided for all
 participants or only those who have worked on the task.
-
-![Extend for](assets/task_extend.png){ class="shadow" }
 
 Instead of using a fixed calendar date, relative dates are available too,
 resulting in deadlines dependent on participant activities, such as a first
@@ -70,6 +68,12 @@ with a configured [execution period](../course_create/Course_Settings.md#Executi
 If sample solutions are activated, you can also define here whether
 supervisors are allowed to add and edit documents.
 
+Im Bereich "Betreuung" des Tabs Workflow kann eine teilnehmerabhängige Betreuung aktiviert und konfiguriert werden. 
+![Betreuerabhängige Bewertung](assets/Betreuer_Zuweisung.png)
+
+Die differenzierte Zuordnung der Personen erfolgt allerdings bei geschlossenem Kurseditor. 
+
+**Spezifisches group task:**
 In the group task, you additionally define in the "Task type" section for
 which groups or learning areas the task module is accessible.
 
@@ -119,6 +123,11 @@ Select in the field "Type of drawing" if several course participants can solve t
 task or if each student should solve a different task. If the task is selected manually, you can further specify in the "Preview" field whether the course participants are allowed to view the task before selecting it.  
 In case course participants must all work on different tasks, you have to offer at least the same number of tasks as there are course participants.
 
+!!! info 
+
+    Wenn der Kursbaustein nur eine Aufgabe beinhaltet ist eine manuelle Wahl wenig sinnvoll. Nutzen Sie in diesem Fall am besten die automatische Zuweisung.
+
+
 In the field "Message for user" you can provide general information for all
 course participants regarding your tasks.
 
@@ -146,26 +155,31 @@ opportunity to undo all pervious steps.
 ## Tab: "Submission"
 
 Determine how participants are allowed to hand in documents and how many in
-the segment "Submission configuration". Submitting with the embedded text
-editor allows the creation of HTML documents directly in the course element.
-If only the option "Submit files created with external editor" is enabled,
-course participants will have to have their documents ready for upload in an
-established file format. Enter a number in the field "Max. number of
-documents" in order to restrict the number of documents uploaded.
+the segment "Submission configuration". 
+
+Submitting with the embedded text
+editor allows the creation of HTML documents directly in the course element. If only the option "Submit files created with external editor" is enabled, course participants will have to have their documents ready for upload in an established file format. Enter a number in the field "Max. number of documents" in order to restrict the number of documents uploaded.
 
 It is now also possible to accept video recordings via webcam as a delivery. In the "Submission" tab, you can determine the maximum length of the recording as well as the video quality level. This allows learners to submit a video statement directly instead of a written document. 
 
-In the "Submission confirmation" segment you will find the standard phrase to
-confirm that course participants have submitted their solutions successfully.
+Aktivieren Sie **"Aufgabe ist Vorlage für die Abgabe"**, wenn die Lernenden die hinterlegte Aufgabendatei als Basis für ihre Bearbeitung nutzen sollen, beispielsweise wenn die Aufgabenstellung eine auszufüllende vorstrukturierte Tabelle beinhaltet. 
+
+![mit Vorlage beearbeiten](assets/Aufgabe_Vorlage.png)
+
+!!! Info "Info"
+
+    Damit die Nutzung der Vorlage funktioniert muss auch die Bearbeitung in entsprechenden Editoren von den OpenOlat Administratoren freigeschaltet sein.  
+
+In the "Submission confirmation" segment you will find the standard phrase to confirm that course participants have submitted their solutions successfully.
 This text can be adapted if necessary. The option "Send text additionally as
 e-mail" means that your text will be sent by e-mail as well. In group tasks
 all members get an e-mail confirmation.
 
-## Tab: "Return and feedback"
+## Tab: "Revisions and feedback"
 
 Here you can define the minimum and maximum number of return documents.
 
-## Tab: "Assessment"
+## Tab: "Grading"
 
 Here you define how each course participant shall be assessed. 
 Should there be points? Should there be a pass/fail for the course element? Should the point evaluation be linked to a rating scale? Should it be possible to provide further individual comments or documents? Decide in each case what is suitable for your scenario. 
@@ -182,7 +196,7 @@ In addition you can provide further
 information in the fields "Notice for all users" and "Notice for tutors," e.g.
 some general comment on how to assess course participants.
 
-## Tab: "Sample Solution"
+## Tab: "Sample Solutions"
 
 In order to provide all course participants with a sample solution regarding
 your tasks just either upload appropriate documents or directly create them

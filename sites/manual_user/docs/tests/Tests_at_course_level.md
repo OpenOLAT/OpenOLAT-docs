@@ -6,7 +6,7 @@ Here you get an overview of how to further configure a test in a course, how to 
 
 Open the course, go to the course editor and add a course element "Test" or select an already added course element Test. You will now see the following tabs:
 
-![Test Tabs Course level](assets/Test_Tabs_Kursebene_DE.jpg){ class="shadow" }
+![Test Tabs Kursebene](assets/Test_Kurseditor_Tabs_172_en.png){ class="shadow" }
 
 Die Tabs "Titel und Beschreibung" sowie "Layout" sind bei allen Kursbausteinen gleich.
 
@@ -14,7 +14,7 @@ Die Tabs "Titel und Beschreibung" sowie "Layout" sind bei allen Kursbausteinen g
 
 As with all learning path courses, you can define here whether the course element is mandatory for the learning path course or whether it should not be used for the learning path display (setting "voluntary"), from when the test will be visible, until when processing is possible and what processing time can be expected for this element. In addition, the following completion criteria are available:
 
-![Test Completion criteria](assets/Test_Erledigungskriterien.png){ class="shadow" }
+![Test Completion criteria](assets/test_completion_criterion.png){ class="shadow" }
 
 ### Tab Test configuration
 
@@ -39,7 +39,9 @@ By selecting the option "**Manual by external graders**", OpenOlat users can als
 
 ![Test Tab Graders](assets/Test_Tab_Korrektoren.png){ class="shadow" }
 
-If the option "Manual by external graders" is not available, no external correctors were configured in the learning resource Test.
+!!! info
+
+    If the option "Manual by external graders" is not available, no [external correctors](Test_settings.md) were configured in the learning resource Test.
 
 **Release assessment** : Set here whether the results are released by default or not.
 
@@ -84,6 +86,13 @@ A highscore overview for the test can also be activated and further configured h
 
 ### Tab "Korrektoren"
 Es erscheint eine Übersicht der Korrektoren sowie weitere Informationen. Per Link zur Lernressource des Tests können Änderungen vorgenommen werden. 
+
+### Email Bestätigung (:octicons-tag-24: Release 17.2. )
+Aktivieren Sie die Email Bestätigung, wenn Sie die Abgabe des Testes per Email bestätigen wollen. Sie können in dem Mailtext auf verschiedene Variablen wie Name oder Punktezahl zurückgreifen. Eine Kopie der Mail kann auch an die Kursbesitzer, zuständige Betreuer oder externe Mail-Adressen verschickt werden. 
+
+Für den Mailtext kann die Vorlage und ein voreingestellter Betreff mit dem Titel des Test-Kursbausteins im Betreff verwendet werden. Alternativ können die Vorlage und der Betreff auch geändert werden. Wählen Sie in diesem Fall bei "Vorlage" -> "Eigener Text" um den Mailingtext zu bearbeiten oder komplett zu ändern. 
+
+Weitere Informationen zur Verwendung von Variablen in Mailing-Texten finden Sie [hier](assets/../../course_elements/Administration_and_Organisation.de#einsatz-von-variablen).
 
 ### Tab "Erinnerungen"
 Hier können Einnerungsmails nach bestimmten Kriterien konfiguriert werden. Weitere Informationen zum Versand von Erinnerungen erhalten Sie [hier](../course_operation/Course_Reminders.de.md).

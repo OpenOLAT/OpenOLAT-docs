@@ -46,19 +46,18 @@ werden. Soll eine konkrete Aufgabenstellung im Kursbaustein hinterlegt werden
 oder findet der User die Aufgabe vielleicht woanders? Soll der User ein
 Dokument abgeben? Soll es ein Feedback vom Lehrenden geben? Sollen die User,
 wenn notwendig, die Möglichkeit zur Überarbeitung einer Einsendung erhalten
-können? Soll eine Musterlösung bereitgestellt werden? Soll eine Bewertung mit
-Punkten oder bestanden möglich sein?
+können? Soll eine Musterlösung bereitgestellt werden? Soll eine Bewertung mit Punkten oder bestanden möglich sein? Sollen bestimmte Lernende von bestimmten Betreuenden bewertet werden?
 
 Aktivieren Sie einfach, die Punkte, die Sie benötigen und konfigurieren Sie im
 nächsten Schritt die dafür relevanten Tabs.
 
 Die Abschnitte Aufgabenstellung, Abgabe und Musterlösung können mit einem
 Datum versehen werden. Aufgabenstellung und Abgabe sind bis zum eingetragenen
-Datum verfügbar. Eine Musterlösung kann für alle Teilnehmenden oder nur
-diejenigen, die die Aufgabe bearbeitet haben, ab dem eingetragenen Datum
-bereitgestellt werden.
+Datum verfügbar. Ergänzend zum normalen Abgabetermin kann auch noch ein verspäteter Abgabetermin angegeben werden.
 
-![Verlängerung für](assets/task_extend_DE.png){ class="shadow" }
+Eine Musterlösung kann für alle Teilnehmenden oder nur
+diejenigen, die die Aufgabe bearbeitet haben, ab dem eingetragenen Datum
+bereitgestellt werden. 
 
 Statt Kalenderdaten einzutragen können Sie auch mit relativen Daten arbeiten.
 Dort legen Sie fest z.B. wie viele Tage nach dem ersten Kursbesuch die
@@ -70,7 +69,13 @@ Sie das Abgabedatum verlängern, wird die Aufgabe neu eröffnet. Auch ein Datum 
 Sind Musterlösungen aktiviert, kann hier auch definiert werden, ob Betreuer
 Dokumente hinzufügen und bearbeiten dürfen.
 
-In der Gruppenaufgabe legen Sie zusätzlich im Abschnitt "Aufgabentyp" fest, für welche Gruppen oder Lernbereiche der Aufgabenbaustein zugänglich ist.
+Im Bereich "Betreuung" des Tabs Workflow kann eine teilnehmerabhängige Betreuung aktiviert und konfiguriert werden. 
+![Betreuerabhängige Bewertung](assets/Betreuer_Zuweisung.png)
+
+Die differenzierte Zuordnung der Personen erfolgt allerdings bei geschlossenem Kurseditor. 
+
+**Spezifisches Gruppenaufgabe:**
+In der Gruppenaufgabe legen Sie zusätzlich im Abschnitt "Aufgabentyp" fest, für welche Gruppen oder Lernbereiche der Aufgabenbaustein zugänglich ist. Dafür entfällt bei der Gruppenaufgabe die Betreuerzuordnung im Tab "Workflow" da sich diese Zuordnung automatisch durch die Betreuerzurodnung der Gruppe ergibt.  
 
 !!! warning "Achtung"
 
@@ -92,13 +97,9 @@ b) Dateien direkt in OpenOlat mit dem OpenOlat HTML-Editor oder eventuell weiter
 
 c) direkt mit Ihrer Webcam Aufgabenstellungen als Video aufnehmen (Video-Aufgabe erstellen).
 
-Sie können ihren Benutzern für eine Aufgabe auch mehrere Dateien zur Verfügung
-stellen. Dafür müssen diese aber als ZIP-Paket hochgeladen werden. 
+Sie können ihren Benutzern für eine Aufgabe auch mehrere Dateien zur Verfügung stellen. Dafür müssen diese aber als ZIP-Paket hochgeladen werden. 
 
-Wird eine Aufgabe direkt in OpenOlat mit dem internen Editor erstellt, können Sie
-ebenfalls mehrere Dateien (z.B. Bilder oder PDFs) zur Verfügung stellen, in
-dem Sie diese im HTML-Editor hochladen und dann in der HTML-Seite verlinken
-bzw. direkt anzeigen. So erstellte Aufgaben werden von den Benutzern dann
+Wird eine Aufgabe direkt in OpenOlat mit dem internen Editor erstellt, können Sie ebenfalls mehrere Dateien (z.B. Bilder oder PDFs) zur Verfügung stellen, in dem Sie diese im HTML-Editor hochladen und dann in der HTML-Seite verlinken bzw. direkt anzeigen. So erstellte Aufgaben werden von den Benutzern dann
 ebenfalls im .zip Format heruntergeladen. Wird der HTML-Editor verwendet, wird
 automatisch der hinterlegte Titel auch als Dateiname übernommen. Dies kann
 aber jederzeit wieder geändert werden.
@@ -118,6 +119,10 @@ Aufgabe lösen können, oder ob jeder Kursteilnehmer bzw. Kursteilnehmerin eine 
 Aufgabe lösen soll, müssen mindestens so viele Aufgaben hinterlegt werden, wie
 es Kursteilnehmende gibt, die diese Aufgabe lösen sollen.
 
+!!! info "Tipp"
+
+    Wenn der Kursbaustein nur eine Aufgabe beinhaltet ist eine manuelle Wahl wenig sinnvoll. Nutzen Sie in diesem Fall am besten die automatische Zuweisung.
+
 Im Feld „Mitteilung an Benutzer“ können Sie für alle Kursteilnehmenden
 allgemeine Hinweise zur Bearbeitung der Aufgaben formulieren.
 
@@ -128,30 +133,35 @@ allgemeine Hinweise zur Bearbeitung der Aufgaben formulieren.
     Verwendung von Only Office auch Word, Excel oder PowerPoint Dateien erstellt
     werden. Gleiches gilt für die Erstellung von sonstigen (Feedback-)Dateien.
 
-Wählt ein Kursteilnehmer bei der manuellen Auswahl aus versehen die falsche
-bzw. nicht gewollte Aufgabenstellung, kann die Wahl vom Kursbesitzer im
-"Bewertungswerkzeug" zurückgesetzt werden.
-
-![Daten von Aufgaben zurücksetzen](assets/task_reset_assessmenttool_DE.png){ class="shadow" }
+Wählt ein Kursteilnehmer bei der manuellen Auswahl aus versehen die falsche bzw. nicht gewollte Aufgabenstellung, kann die Wahl vom Kursbesitzer *im Bewertungswerkzeug* zurückgesetzt werden.
+![Daten zurücksetzen](assets/Aufgabe_zuruecksetzen_173.png)
 
 Es folgt keine automatische Änderung. Der Teilnehmer erhält nun aber die
 Möglichkeit seine bisherigen Schritte wieder rückgängig zu machen.
-![Daten zurücksetzen](assets/task_reset_user_DE.jpg){ class="shadow" }
+![Daten zurücksetzen](assets/task_reset_user_DE.jpg)
 
 !!! warning "Gruppenaufgabe"
 
-    Bei Gruppenaufgaben kann nur ein Thema pro Gruppe gewählt werden. Sobald ein Gruppenteilnehmer ein Thema gewählt hat, ist das Thema für die _gesamte Gruppe_ festgelegt.
+    Bei Gruppenaufgaben kann nur ein Thema pro Gruppe gewählt werden. Sobald ein Gruppenteilnehmer ein Thema gewählt hat, ist das Thema für die _gesamte Gruppe_ festgelegt. Dabei ist es egal wer aus der Gruppe die Wahl trifft. 
 
 ## Tab "Abgabe“
 
 Hier legen Sie fest wie und in welchem Umfang Kursteilnehmende Dokumente bzw. Bearbeitungen abgeben können.
 
-Die "Abgabe mit OpenOlat Editor" gestattet die Erstellung von
+Die **"Abgabe mit OpenOlat Editor"** gestattet die Erstellung von
 Dokumenten direkt im Kursbaustein, die dann als HTML-Datei gespeichert werden.
-Sind weitere Dokument Editoren in OpenOlat eingebunden, können auch weitere Formate erstellt werden. Ist nur "Dokumente hochladen" aktiviert, müssen Kursteilnehmende ihr Dokument bereits in einem gängigen Dateiformat vorliegen haben um dieses hochzuladen. Lassen Sie das Feld bei "Max. Anzahl von Dokumenten" frei, wenn Sie die Anzahl der Dokumente nicht einschränken
-möchten.
+Sind weitere Dokument Editoren in OpenOlat eingebunden, können auch weitere Formate erstellt werden. Ist nur **"Dokumente hochladen"** aktiviert, müssen Kursteilnehmende ihr Dokument bereits in einem gängigen Dateiformat vorliegen haben um dieses hochzuladen. Lassen Sie das Feld bei "Max. Anzahl von Dokumenten" frei, wenn Sie die Anzahl der Dokumente nicht einschränken möchten. Sollen mehrere Dokumente abgegeben werden können Sie auch die Mindestanzahl von Dokumenten erhöhen. 
 
-Es ist nun auch möglich Videoaufnahmen per Webcam als Abgabe zuzulassen. Im Tab "Abgabe" können Sie die max. Länge der Aufzeichnung sowie die Videoqualitätsstufe bestimmen. Das ermöglicht es Lernenden statt eines schriftlichen Dokuments direkt ein Video-Statement einzureichen. 
+Es ist nun auch möglich Videoaufnahmen per Webcam als Abgabe zuzulassen (**" Videoaufnahmen zulassen"**) und dafür eine maximal Aufnahmedauer sowie die Qualität der Videoaufnahme festzulegen.
+Die Abgabe eines Videos ermöglicht es Lernenden z.B. statt eines schriftlichen Dokuments direkt ein Video-Statement einzureichen. 
+
+Aktivieren Sie **"Aufgabe ist Vorlage für die Abgabe"**, wenn die Lernenden die hinterlegte Aufgabendatei als Basis für ihre Bearbeitung nutzen sollen, beispielsweise wenn die Aufgabenstellung eine auszufüllende vorstrukturierte Tabelle beinhaltet. 
+
+![mit Vorlage beearbeiten](assets/Aufgabe_Vorlage.png)
+
+!!! Info "Info"
+
+    Damit die Nutzung der Vorlage funktioniert muss auch die Bearbeitung in entsprechenden Editoren von den OpenOlat Administratoren freigeschaltet sein.  
 
 Im Abschnitt "Abgabe Bestätigung" finden Sie den vorformulierten Text der
 Kursteilnehmenden die Abgabe der eigenen Lösung bestätigt. Dieser Text kann bei Bedarf angepasst werden. Die Option „Text zusätzlich als E-Mail verschicken“ bewirkt, dass dieser Bestätigungstext dem jeweiligen OpenOlat-Benutzer auch als E-Mail zugestellt wird. 
@@ -171,7 +181,7 @@ Soll es Punkte geben? Soll es ein bestanden/nicht bestanden für den Kursbaustei
 Standardmässig können Aufgaben von einem Betreuer mit bestanden/nicht
 bestanden bewertet werden. Das Bestehen kann entweder manuell durch den Betreuer definiert werden oder, sofern auch Punkte für die Aufgabe vergeben werden, sich auf eine bestimmte Punktzahl beziehen. 
 
-Wenn Punkte vergeben werden, müssen die minimale und die maximale Punktzahl angegeben werden. Zusätzlich können Sie dann auch die Option "Bewertung mit Einstufung/Noten" wählen. So können den jeweiligen Punkten bestimmte Beweruntsskalen wie Level, Noten, (Kompetenz-)Stufen oder Label zugeordnet werden. Die zur Verfügung stehenden Bewertungsskalen werden vom OpenOlat Administrator definiert und können über den Button "Bewertungsskala bearbeiten" ausgewählt sowie die Punkte im Detail angepasst werden. Ferner muss definiert werden ob die Zuordnung zur berechneten Einstufung manuell durch den Betreuer erfolgt oder automatisch bei Punktänderung angezeigt werden soll. 
+Wenn Punkte vergeben werden, müssen die minimale und die maximale Punktzahl angegeben werden. Zusätzlich können Sie dann auch die Option "Bewertung mit Einstufung/Noten" wählen. So können den jeweiligen Punkten bestimmte Bewertungsskalen wie Level, Noten, (Kompetenz-)Stufen oder Label zugeordnet werden. Die zur Verfügung stehenden Bewertungsskalen werden vom OpenOlat Administrator definiert und können über den Button "Bewertungsskala bearbeiten" ausgewählt sowie die Punkte im Detail angepasst werden. Ferner muss definiert werden ob die Zuordnung zur berechneten Einstufung manuell durch den Betreuer erfolgt oder automatisch bei Punktänderung angezeigt werden soll. 
 
 Im Tab Bewertung kann auch definiert werden ob das Ergebnis des konkreten Aufgabenbausteins bei der Bewertung des gesamten Kurses inbegriffen ist oder ausgeschlossen werden soll. 
 
@@ -183,9 +193,7 @@ Zudem können in den Feldern „Hinweis für alle Benutzer“ und „Hinweis fü
 
 Um allen Kursteilnehmenden eine Musterlösung zu den gestellten Aufgaben
 anzubieten, erstellen Sie entweder direkt die Musterlösung mit dem internen
-Editor oder laden Dateien mit den Musterlösungen hoch. Die Musterlösung ist
-erst sichtbar, wenn die vom Teilnehmer eingereichten Dokumente vom Betreuer
-akzeptiert wurden.
+Editor, nehmen ein Video mit ihrer Webcam auf oder laden Dateien mit den Musterlösungen hoch. Die Musterlösung ist erst sichtbar, wenn die vom Teilnehmer eingereichten Dokumente vom Betreuer akzeptiert wurden.
 
 !!! tip "Tipp"
 

@@ -18,6 +18,7 @@ Videos können auf verschiedene Arten in OpenOlat eingebracht werden:
 * **eingebettet in eine einzelne Seite** in einem Kurs. Dabei wird das Video im Ablageordner des Kurses abgelegt und anschließend über den Kursbaustein "Einzelne Seite" verlinkt. Mehr Informationen zur Einbettung von Videos in eine "Einzelne Seite" finden Sie auf der Seite "[Einzelne Seite: Video hinzufügen / editieren](Single_Page_Add_edit_video.de.md)". So eingebettete Videos stehen nur in dem jeweiligen Kurs zur Verfügung. Statt Videos im Ablageordner eines Kurses zu hinterlegen, können sie auch in einem Ressourcenordner abgelegt werden. Eingebundene Ressourcenordner können so in mehreren Kursen verwendet werden.
 * direkt als **Datei** über den Kursbaustein "Einzelne Seite"
 * über den **Kursbaustein Podcast**
+* als spezifische Aufgabe über den den **Kursbaustein Video-Aufgabe** 
 
 !!! info "Info"
 
