@@ -8,7 +8,7 @@
 
 * * *
 
-:material-calendar-month-outline: **Releasedatum: 10.02.2023 • Letztes Update: 13.04.2023**
+:material-calendar-month-outline: **Releasedatum: 10.02.2023 • Letztes Update: 26.04.2023**
 
 * * *
 
@@ -231,6 +231,8 @@ Die Integration in OpenOlat ermöglicht es, dass die Metadaten von dafür freige
   <figcaption>Zertifikatsfunktion im Kurs aktivieren</figcaption>
 </figure>
 
+* Harmonisierung der Aktionen und Meldungen beim Löschen von Testdaten
+* Verbesserung der Kontoablauf-Anzeige
 * Lernpfad: Rote Fortschrittsanzeige für "Nicht bestanden"
 * Tabellenfilter: Optische Hervorhebung aktiver Filter
 * Ersatz grauer Infoboxen durch neue Variante inklusive optionaler Link zum Handbuch
@@ -278,7 +280,9 @@ Es werden laufend weitere Ergänzungen vorgenommen.
 * Katalog: Eränzung weiterer Filter zur Eingrenzung der Suchergebnisse
 * Optimierte Handhabung von GIF-Dateien
 * Curriculum: Verbesserung der Sichtbarkeit referenzierter Kurse in Curricula
-* QM: Externe Verwaltung des Durchführungstyps eines Kurses
+* QM-Modul:
+    * Externe Verwaltung des Durchführungstyps eines Kurses
+    * Zusätzliche Kontextinformationen im Export des Analysewerkzeugs (z.B. interne / externe IDs von Kursen und Betreuenden)
 * Aktualisierung "Über OpenOlat"-Seite: Ergänzung der Social Media Referenz für Mastodon sowie Anpassung des Spenden-Links
 * Import von Video-Ressourcen und URLs in olat.local.properties konfigurierbar
 
@@ -314,6 +318,7 @@ Es werden laufend weitere Ergänzungen vorgenommen.
 
 ## Weitere Informationen
 
+* [Jira Release Notes 17.2.7](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=20701){:target="_blank”}
 * [Jira Release Notes 17.2.6](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=20700){:target="_blank”}
 * [Jira Release Notes 17.2.5](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=20600){:target="_blank”}
 * [Jira Release Notes 17.2.4](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=20500){:target="_blank”}

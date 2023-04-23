@@ -8,7 +8,7 @@
 
 * * *
 
-:material-calendar-month-outline: **Release date: 02/24/2023 • Last update: 04/13/2023**
+:material-calendar-month-outline: **Release date: 02/24/2023 • Last update: 04/26/2023**
 
 * * *
 
@@ -232,6 +232,8 @@ The integration in OpenOlat makes it possible that the metadata of courses relea
   <figcaption>Activate certificate function in course</figcaption>
 </figure>
 
+* Harmonization of actions and messages when deleting test data
+* Improving the display of the account expiry
 * Learning path: red progress indicator for "Failed"
 * Table filter: Optical highlighting of active filters
 * Replacement of gray infoboxes by new variant including optional link to the manual
@@ -279,7 +281,9 @@ Further additions are being made on an ongoing basis.
 * Catalog: Addition of more filters to narrow down search results
 * Optimized handling of GIF files
 * Curriculum: Improved visibility of referenced courses in curricula
-* QM: external management of the execution type of a course
+* QM module:
+    * External management of the execution type of a course
+    * Additional context information in export of analysis tool (e.g. internal / external IDs of courses and coaches)
 * Update "About OpenOlat" page: addition of social media reference for Mastodon as well as adaptation of donation link
 * Import of video resources and URLs configurable in olat.local.properties
 
@@ -315,6 +319,7 @@ Further additions are being made on an ongoing basis.
 
 ## More information
 
+* [Jira Release Notes 17.2.7](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=20701){:target="_blank”}
 * [Jira Release Notes 17.2.6](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=20700){:target="_blank”}
 * [Jira Release Notes 17.2.5](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=20600){:target="_blank”}
 * [Jira Release Notes 17.2.4](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=20500){:target="_blank”}
