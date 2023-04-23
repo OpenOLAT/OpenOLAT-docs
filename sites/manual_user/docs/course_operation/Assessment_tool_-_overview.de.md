@@ -45,6 +45,12 @@ entsprechenden Teilnehmenden navigieren und auch die passenden Teilnehmerlisten 
 Hier können Betreuer einschalten, dass sie bei neuen Einsendungen, Testresultaten und sonstigen Einreichungen eine E-Mail erhalten. Auch können
 Benachrichtigungen über neu erzeugte Zertifikate (sofern generell aktiviert) abonniert werden.
 
+## Aufträge
+
+Unterhalb der Übersicht befindet sich der Link zum Bereich "Aufträge". Hier sieht man ob es offene Bewertungen gibt, Einstufungen/Noten manuell vorgenommen werden müssen und ob es freizugebende Bewertungen gibt. 
+
+![Bewertungswerkzeug Aufträge](assets/Bewertungswerkzeug_Auftraege.png)
+
 ## Übersicht der Bewertungsbausteine des Kurses
 In der linken Navigation des Bewertungswerkzeugs sieht man alle bewertbaren Kursbausteine. Alle Bausteine werden mit den Tabs "Übersicht" und "Teilnehmer" angezeigt. Ein Download der Bewertungen ist ebenfalls möglich. 
 
@@ -60,6 +66,9 @@ Kursbaustein "[Struktur](../course_elements/Knowledge_Transfer.de.md/#structure)
 eine Punkteberechnung eingerichtet, können auf der obersten Ebene der Benutzeransicht auch die Gesamtpunkte eines Kurses bzw. die
 für den obersten Baustein definierten Punkte, angezeigt und die
 Gesamtergebnisse der Kursteilnehmenden heruntergeladen werden. 
+
+### Daten zurücksetzen
+Über den entsprechenden Link in der Toolbar des Bewertungswerkzeugs kann ein Wizard zum zurücksetzen gestartet werden. Dabei kann das Zurücksetzen für den gesamten Kurs oder nur für ausgewählte Kursbausteine und für alle Teilnehmenden oder nur für ausgewählte erfolgen. Je nachdem um welchen Kursbaustein, in welcher Konfiguration es sich handelt werden z.B. der Fortschritt, die Versuchsanzahl, Punkte, Erfolgsstatuts, Bewertungsfreigaben und auch Erinnerungen zurückgesetzt. Bevor die Daten endgültig zurückgesetzt werden können die alten Ergebnisse als zip Datei heruntergeladen und somit gespeichert werden.   
 
 ### Daten neu berechnen
 

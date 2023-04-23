@@ -51,6 +51,11 @@ Here coaches can activate the option to receive an e-mail for new submissions,
 test results and other submissions.  Notifications about newly generated
 certificates (if generally activated) can also be subscribed to.
 
+## Aufträge
+
+Unterhalb der Übersicht befindet sich der Link zum Bereich "Aufträge". Hier sieht man ob es offene Bewertungen gibt, Einstufungen/Noten manuell vorgenommen werden müssen und ob es freizugebende Bewertungen gibt. 
+
+![Bewertungswerkzeug Aufträge](assets/Bewertungswerkzeug_Auftraege.png)
 
 ## Overview of the assessment elements of the course.
 In the left navigation of the assessment tool you can see all assessable course elements. All elements are displayed with the tabs "Overview" and "Participants". A download of the assessments is also possible. 
@@ -67,6 +72,8 @@ course element "[structure](../course_elements/Knowledge_Transfer.md/#structure)
 you have set up a point calculation, you can also display the total points of a course on the top level of the participant view, display the
 points defined for the first course element and download the overall results of the course participants. 
 
+### Daten zurücksetzen
+Über den entsprechenden Link in der Toolbar des Bewertungswerkzeugs kann ein Wizard zum zurücksetzen gestartet werden. Dabei kann das Zurücksetzen für den gesamten Kurs oder nur für ausgewählte Kursbausteine und für alle Teilnehmenden oder nur für ausgewählte erfolgen. Je nachdem um welchen Kursbaustein, in welcher Konfiguration es sich handelt werden z.B. der Fortschritt, die Versuchsanzahl, Punkte, Erfolgsstatuts, Bewertungsfreigaben und auch Erinnerungen zurückgesetzt. Bevor die Daten endgültig zurückgesetzt werden können die alten Ergebnisse als zip Datei heruntergeladen und somit gespeichert werden.   
 
 ### Recalculate data
 

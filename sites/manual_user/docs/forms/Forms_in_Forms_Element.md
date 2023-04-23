@@ -30,7 +30,9 @@ If a form is created in the course editor, a new learning resource Form will be 
 
 ![Form Configuration](assets/Formular_Tab2.png){ class="shadow lightbox" }
 
-In addition, you can define in the tab until when the form can be filled out by the learners. For this purpose, a fixed or a relative date can be used, e.g. x days after the first course visit. As soon as an end date is defined, the tab "[Reminders](../course_operation/Course_Reminders.md)" is also activated. For example, you could create a reminder that reminds learners to fill out the form a few days before the submission deadline. If email confirmation is enabled, participants will receive a confirmation email and the form they completed as a PDF attachment.
+In addition, you can define in the tab until when the form can be filled out by the learners. For this purpose, a fixed or a relative date can be used, e.g. x days after the first course visit. As soon as an end date is defined, the tab "[Reminders](../course_operation/Course_Reminders.md)" is also activated. For example, you could create a reminder that reminds learners to fill out the form a few days before the submission deadline. 
+
+If email confirmation is enabled, participants will receive a confirmation email and the form they completed as a PDF attachment. Zusätzlich können auch E-Mail Bestätigungen an Besitzer, Betreuer und Externe verschickt werden. 
 
 !!! warning "Attention"
 
