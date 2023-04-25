@@ -44,20 +44,26 @@ entsprechenden Teilnehmenden navigieren und auch die passenden Teilnehmerlisten 
 Hier können Betreuer einschalten, dass sie bei neuen Einsendungen, Testresultaten und sonstigen Einreichungen eine E-Mail erhalten. Auch können
 Benachrichtigungen über neu erzeugte Zertifikate (sofern generell aktiviert) abonniert werden.
 
+### Im Prüfungsmodus
+
+Befindet sich der Kurs im [Prüfungsmodus](../e-assessment/Assessment_mode.de.md) wird dies ebenfalls im Bewertungswerkzeug angezeigt. Auch ist erkennbar wie viele Personen bereits eingeloggt sind und auf den Start der Prüfung warten.
+![Wartende Personen bei laufendem Prüfungsmodus](assets/Pruefungsmodus_Personen_warten.png)
+
 ## Aufträge
 
-Unterhalb der Übersicht befindet sich der Link zum Bereich "Aufträge". Hier sieht man ob es offene Bewertungen gibt, Einstufungen/Noten manuell vorgenommen werden müssen und ob es freizugebende Bewertungen gibt. 
+Unterhalb der Übersicht befindet sich der Link zum Bereich "Aufträge". Hier sieht man ob es offene Bewertungen gibt, Einstufungen/Noten manuell vorgenommen werden müssen und ob es freizugebende Bewertungen gibt.
 
 ![Bewertungswerkzeug Aufträge](assets/Bewertungswerkzeug_Auftraege.png)
 
 ## Übersicht der Bewertungsbausteine des Kurses
+
 In der linken Navigation des Bewertungswerkzeugs sieht man alle bewertbaren Kursbausteine. Alle Bausteine werden mit den Tabs "Übersicht" und "Teilnehmer" angezeigt. Ein Download der Bewertungen ist ebenfalls möglich.
 
 ![Bewertungswerkzeug Teilnehmerübersicht](assets/Bewertungswerkzeug_TN_172.png)
 
  Wie genau Bewertungen vorgenommen werden können erfahren Sie im Kapitel ["Bewertung von Kursbausteinen"](../course_operation/Assessment_of_course_modules.de.md) bzw. ["Lernende bewerten"](../course_operation/Assessment_tool_-_tab_Users.de.md).
 
-**Oberster Kursknoten**
+### Oberster Kursknoten
 
 Der automatisch generierte oberste Kursknoten zählt ebenfalls als bewertbarer Baustein. Ist auf dem oberersten Kursbaustein, der genau genommen ein
 Kursbaustein ["Struktur"](../course_elements/Knowledge_Transfer.de.md/#structure) ist,
@@ -65,7 +71,7 @@ eine Punkteberechnung eingerichtet, können auf der obersten Ebene der Benutzera
 
 ## Daten zurücksetzen
 
-:octicons-tag-24: Release 17.2.7
+:octicons-tag-24: Release 17.2.4
 
 Mit Hilfe des Wizards können die Daten von Teilnehmer:innen dieses Kurses individuell zurückgesetzt werden.
 
@@ -76,25 +82,25 @@ Nachfolgend ein Überblick, wie sich der Reset auf die verschiedenen Kursbereich
 Attribut | Auswirkung
 ---------|----------
 Status | Auf "Nicht gestartet" gesetzt
-Freigabe Bewertungsstatus | Auf "Unbestimmt" gesetzt
+Freigabe Bewertungsstatus | Auf "Nicht freigegeben" gesetzt
 Anzahl Lösungsversuche | Auf 0 zurückgesetzt
-Punktzahl | Auf 0 zurückgesetzt
+Punktzahl | Zurückgesetzt
 Erfolgsstatus | Auf "Keine Angabe" gesetzt
-Kommentar für andere Betreuende | Zurückgesetzt, Export "assessment_coach_comment.txt" ins Archiv
-Individueller Kommentar / Kommentar für Teilnehmer | Zurückgesetzt, Export "assessment_comment.txt" ins Archiv
+Kommentar für andere Betreuende | Zurückgesetzt; Export "assessment_coach_comment.txt" ins Archiv
+Individueller Kommentar / Kommentar für Teilnehmer | Zurückgesetzt; Export "assessment_comment.txt" ins Archiv
 Individuelle Bewertungsdokumente | Zurückgesetzt
 
 ### Kommentare & Bewertungen
 
-Kommentare und Bewertungen bleiben erhalten.
+Kommentare und Bewertungen an Kursbausteinen und am Kurs bleiben erhalten.
 
-### Kurserinnerungen
+### Kurserinnerungen
 
-Die Informationen über gesendete Erinnerungen werden gelöscht.
+Die Informationen über gesendete Erinnerungen werden gelöscht. (Gilt nur, wenn der gesamte Kurs zurückgesetzt wird.)
 
-### Leistungsnachweis
+### Leistungsnachweis und Zertifikat
 
-Der Leistungsnachweis wird zum Zeitpunkt des Resets versioniert.
+Der Leistungsnachweis wird zum Zeitpunkt des Resets versioniert. Das Zertifikat wird nach erfolgreicher Kursdurchführung erneut ausgestellt. (Gilt nur, wenn der gesamte Kurs zurückgesetzt wird.)
 
 ### Kursbausteine
 
@@ -104,29 +110,29 @@ Sofern der Kursbaustein einen Export ins Archiv auslöst, wird dieser immer erst
 
 Baustein | Auswirkung
 ---------|----------
-Aufgabe | Alle Workflow-Daten (Zuweisung, Dokumente, Erweiterungen) zurückgesetzt, Export aller Dokumente ins Archiv
-Bewertung | Formular zurückgesetzt, Export der Ergebnisse ins Archiv
+Aufgabe | Alle Workflow-Daten (Zuweisung, Dokumente, Erweiterungen) zurückgesetzt; Export aller Dokumente ins Archiv
+Bewertung | Formular zurückgesetzt; Export der Ergebnisse ins Archiv
 Blog | Einträge bleiben erhalten
-Checkliste | Alle Checkboxen zurückgesetzt, Export der Ergebnisse ins Archiv
+Checkliste | Alle Checkboxen zurückgesetzt; Export der Ergebnisse ins Archiv
 Dateidiskussion | Dateien, Themen und Beiträge bleiben erhalten
 Einschreibung | Einschreibungen in Gruppen werden entfernt
-Formular | Formular zurückgesetzt, Export der Ergebnisse ins Archiv
+Formular | Formular zurückgesetzt; Export der Ergebnisse ins Archiv
 Forum | Themen und Beiträge bleiben erhalten
-Gruppenaufgabe | Wenn gesamte Gruppe zurückgesetzt wird: Alle Workflow-Daten (Zuweisung, Dokumente, Erweiterungen) zurückgesetzt, Export aller Dokumente für jeden Teilnehmer ins Archiv
+Gruppenaufgabe | Wenn gesamte Gruppe zurückgesetzt wird: Alle Workflow-Daten (Zuweisung, Dokumente, Erweiterungen) zurückgesetzt; Export aller Dokumente für jeden Teilnehmer ins Archiv
 LTI | Bewertungsformular zurückgesetzt
 Ordner | Inhalte bleiben erhalten
 Podcast | Einträge bleiben erhalten
 Portfolio-Aufgabe | Link zur Portfolioaufgabe entfernt
-Scorm | Versuche zurückgesetzt, Export der Versuche (csv-Datei) ins Archiv
+Scorm | Versuche zurückgesetzt; Export der Versuche (csv-Datei) ins Archiv
 Selbsttest | Alle Durchführungen zurückgesetzt
 Struktur | Punktestand zurückgesetzt (nur herkömmlicher Kurs)
-Teilnehmer-Ordner | Export aller eingereichten und zurückgegebenen Dateien ins Archiv
+Teilnehmer-Ordner | Ordner zurückgesetzt; Export aller eingereichten und zurückgegebenen Dateien ins Archiv
 Terminplanung | Anmeldungen bleiben erhalten
-Test | Alle Versuche zurückgesetzt, Testdurchführungen bleiben bestehen und werden als ungültig markiert, Export der Testergebnisse ins Archiv
+Test | Alle Versuche zurückgesetzt; Testdurchführungen bleiben bestehen und werden als ungültig markiert; Export der Testergebnisse ins Archiv
 Themenvergabe | Themen-Zuweisungen werden entfernt
-Übung | Übungsdaten zurückgesetzt, Übungsversuche zurückgesetzt, Testdurchführungen bleiben bestehen und werden als ungültig markiert, Export der Testergebnisse ins Archiv
-Umfrage | Da Umfragen anonym sind, wird nichts zurückgesetzt und nichts exportiert
-Video-Aufgabe | Alle Versuche zurückgesetzt, Durchführungen bleiben bestehen und werden als ungültig markiert, Export der Testergebnisse ins Archiv
+Übung | Übungsdaten und -versuche zurückgesetzt; Testdurchführungen bleiben bestehen und werden als ungültig markiert; Export der Testergebnisse ins Archiv
+Umfrage | Reset für alle Teilnehmenden: Zurückgesetzt und Export ins Archiv; Reset für einzelne Teilnehmende: Kein Zurücksetzen und Export, da Umfragen anonym sind
+Video-Aufgabe | Alle Versuche zurückgesetzt; Durchführungen bleiben bestehen und werden als ungültig markiert; Export der Testergebnisse ins Archiv
 Wiki | Einträge bleiben erhalten
 
 ### Daten, die nicht zurückgesetzt werden
