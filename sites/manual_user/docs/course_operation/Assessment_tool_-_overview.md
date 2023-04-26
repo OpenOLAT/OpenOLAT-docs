@@ -78,7 +78,7 @@ In the left navigation of the assessment tool you can see all assessable course 
 
 The automatically generated top course node is also counted as a assessable element. If on the topmost course element, which strictly speaking is a course element "[structure](../course_elements/Knowledge_Transfer.md/#structure)", you have set up a point calculation, you can also display the total points of a course on the top level of the participant view, display the points defined for the first course element and download the overall results of the course participants.
 
-## Reset data
+## Reset data {: #course_reset}
 
 :octicons-tag-24: Release 17.2.4
 

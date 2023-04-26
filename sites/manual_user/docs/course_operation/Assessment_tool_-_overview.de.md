@@ -69,7 +69,7 @@ Der automatisch generierte oberste Kursknoten zählt ebenfalls als bewertbarer B
 Kursbaustein ["Struktur"](../course_elements/Knowledge_Transfer.de.md/#structure) ist,
 eine Punkteberechnung eingerichtet, können auf der obersten Ebene der Benutzeransicht auch die Gesamtpunkte eines Kurses bzw. die für den obersten Baustein definierten Punkte, angezeigt und die Gesamtergebnisse der Kursteilnehmenden heruntergeladen werden.
 
-## Daten zurücksetzen
+## Daten zurücksetzen {: #course_reset}
 
 :octicons-tag-24: Release 17.2.4
 
