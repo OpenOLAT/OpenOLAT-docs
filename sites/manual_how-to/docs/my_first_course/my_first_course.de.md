@@ -5,7 +5,7 @@
 
 Um OpenOlat-Kurse erstellen zu können, benötigen Sie Autorenrechte. Wenden Sie sich bitte an Ihren <b>Administrator</b>, damit er Ihnen die Autorenrolle gibt. Sobald Sie Autor sind, erscheint im Menü Ihrer Kopfzeile der Eintrag <b>„Autorenbereich“</b>.
 
-![Autorenbereich Menu](assets/Autorenbereich_menu.png)
+![autorenbereich_menu_v1_de.png](assets/autorenbereich_menu_v1_de.png){ class="shadow lightbox" }
 
 !!! hint "Hinweis"
 	
@@ -16,13 +16,13 @@ Um OpenOlat-Kurse erstellen zu können, benötigen Sie Autorenrechte. Wenden Sie
 
 Nach dem Öffnen des Autorenbereichs sehen Sie eine leere Liste, denn Sie haben ja noch keine eigenen Kurse erstellt.
 
-![Autorenbereich leer](assets/Autorenbereich_meine_eintraege_leer.png)
+![autorenbereich_meine_eintraege_leer_v1_de.png](assets/autorenbereich_meine_eintraege_leer_v1_de.png){ class="shadow lightbox" }
 
 Wenn Sie die Suchmaske verwenden, finden Sie auch Kurse und Lernressourcen anderer Autoren. Allerdings nur solche, 
 * die von den Autoren-Kollegen bereits veröffentlicht wurden 
 * und ein Zugriff durch andere Autoren erlaubt wurde.
 
-![Autorenbereich Suchmaske](assets/Autorenbereich_suchmaske.png)
+![autorenbereich_suchmaske_v1_de.png](assets/autorenbereich_suchmaske_v1_de.png){ class="shadow lightbox" }
 
 !!! hint "Hinweis"
 	
@@ -34,20 +34,20 @@ Wenn Sie die Suchmaske verwenden, finden Sie auch Kurse und Lernressourcen ander
 
 Der Button zum Erstellen neuer Kurse und anderer Lernressourcen befindet sich im Autorenbereich rechts oben. Erstellen Sie hier einen neuen Kurs.
 
-![Autorenbereich mit aufgeklapptem Pulldown auf Erstellen](assets/Kurs_erstellen.png)
+![kurs_erstellen_v1_de.png](assets/kurs_erstellen_v1_de.png){ class="shadow lightbox" }
 
 Sie werden gleich zu Beginn gefragt, ob Sie einen <b>Lernpfadkurs</b> oder einen <b>herkömmlichen Kurs</b> erstellen wollen.
 
-![Herkömmlichen Kurs erstellen](assets/Kurs_erstellen_lernpfad.png)
+![kurs_erstellen_lernpfad_v1_de.png](assets/kurs_erstellen_lernpfad_v1_de.png){ class="shadow lightbox" }
 
 Damit der Kurs gespeichert werden kann, braucht es zwingend einen Titel. Die weiteren Angaben können Sie auch zu einem späteren Zeitpunkt noch ergänzen und bearbeiten.
 
 
-![Kurs erstellen Titel](assets/Kurs_erstellen_titel_v2.png)
+![kurs_erstellen_titel_v2_de.png](assets/kurs_erstellen_titel_v2_de.png){ class="shadow lightbox" }
 
 Mit Klick auf die Hilfestellung "Kursdesigns im Vergleich" können Sie sich über die Unterschiede der Kursdesigns informieren.
 
-![Kurs erstellen Hilfestellung](assets/Kurs_erstellen_hilfestellung_v2.png)
+![kurs_erstellen_hilfestellung_v2_de.png](assets/kurs_erstellen_hilfestellung_v2_de.png){ class="shadow lightbox" }
 
 !!! hint "Hinweis"
 	
@@ -56,7 +56,7 @@ Mit Klick auf die Hilfestellung "Kursdesigns im Vergleich" können Sie sich übe
 	
 (Den Assistenten rufen Sie rechts unten auf.)
 
-![Kurs erstellen Hilfestellung](assets/Kurs_erstellen_assistent_v2.png)
+![kurs_erstellen_assistent_v2_de.png](assets/kurs_erstellen_assistent_v2_de.png){ class="shadow lightbox" }
 
 Klicken Sie zum Abschluss dieses Schritts auf "<b>Erstellen</b>".
 <br>
@@ -66,7 +66,7 @@ Klicken Sie zum Abschluss dieses Schritts auf "<b>Erstellen</b>".
 Unmittelbar nachdem der neue Kurs erstellt wurde, gelangen Sie zu den Einstellungen. In jedem der Tabs gibt können Sie detaillierte Angaben machen. Für den Anfang übenehmen wir die Voreinstellungen. 
 Später können Sie diese Kurseinstellungen jederzeit wieder aufrufen und bearbeiten unter <b>Administration > Einstellungen</b>.<br>
 
-![Kurseinstellungen](assets/Kurseinstellungen.png)
+![kurseinstellungen_v1_de.png](assets/kurseinstellungen_v1_de.png){ class="shadow lightbox" }
 
 Die hier gemachten Einstellungen <b>betreffen den Kurs als Ganzes</b>. Wenn Sie im nächsten Schritt dann Kursbausteine eingefügt haben, können Sie auch dort Einstellungen vornehmen. Dort gelten die Einstellungen jeweils nur für den aktuell ausgewählten Kursbaustein.
 <br>
@@ -79,22 +79,23 @@ Die hier gemachten Einstellungen <b>betreffen den Kurs als Ganzes</b>. Wenn Sie 
 
 Ein OpenOlat-Kurs besteht aus Kursbausteinen. Die Reihenfolge der ausgewählten Kursbausteine spiegelt sich im <b>Kursmenü</b> wieder.
 
-![Kursbausteine](assets/Kursbausteine.png)
+![grafik_kursbausteine_v1_de.png](assets/grafik_kursbausteine_v1_de.png){ width=240px class="lightbox" }
 
 Zum Bearbeiten und Hinzufügen von neuen Kursbausteinen öffnen Sie den <b>Kurseditor</b>. Sie erkennen an der <b>schraffierten Kopfzeile</b>, dass Sie sich im Editor befinden.
 
-![Kurseditor](assets/Kurseditor.png)
+![kurseditor_v1_de.png](assets/kurseditor_v1_de.png){ class="shadow lightbox" }
 
-Mit Klick auf das Icon <b>"Kursbausteine einfügen"</b> öffnen Sie eine Auswahl der verfügbaren Kursbausteine. 
-![Kursbaustein einfügen](assets/Kurseditor_kb_einfuegen.png)
+Mit Klick auf das Icon <b>"Kursbausteine einfügen"</b> öffnen Sie eine Auswahl der verfügbaren Kursbausteine.
+
+![kurseditor_kb_einfuegen_v1_de.png](assets/kurseditor_kb_einfuegen_v1_de.png){ class="shadow lightbox" }
 
 Durch Klick auf einen der aufgelisteten Bausteine wird ein Kursbaustein dieses Typs im Kurs eingefügt.
 
-![Kursbausteinauswahl](assets/Kurseditor_kb_auswahl.png)
+![kurseditor_kb_auswahl_v1_de.png](assets/kurseditor_kb_auswahl_v1_de.png){ class="shadow lightbox" }
 
 Nach dem Einfügen lassen sich die Kursbausteine im Kursmenü <b>mit gedrückter Maustaste verschieben</b>. Ziehen Sie einen Baustein auf einen Strukturbaustein, wird er dort als untergeordnetes Element eingeordnet. (Strukturbausteine können zugeklappt werden, so dass ihr Inhalt verborgen und das Menü übersichtlicher wird.)
 
-![Kursbausteinauswahl](assets/Kurseditor_menu.png)
+![kurseditor_menu_v1_de.png](assets/kurseditor_menu_v1_de.png){ class="shadow lightbox" }
 <br>
 
 ## 6. Kursbausteine konfigurieren und Lernressourcen hinzufügen
@@ -104,22 +105,24 @@ Nach dem Einfügen lassen sich die Kursbausteine im Kursmenü <b>mit gedrückter
 	Zum Konfigurieren eines Kursbausteins bleiben Sie weiterhin im Kurseditor. (Im Unterschied zum Konfigurieren des Kurses als Ganzem, siehe Punkt 4.)
 
 Um einen Kursbaustein zu bearbeiten, wählen Sie den Kursbaustein links im <b>Kursmenü</b>. Dann werden rechts jeweils die Optionen zum Konfigurieren dieses Kursbausteins in mehreren Tabs angezeigt.
-![Kursbaustein konfigurieren 1](assets/kb_konfigurieren_1.png)
+
+![kb_konfigurieren1_v1_de.png](assets/kb_konfigurieren1_v1_de.png){ class="shadow lightbox" }
 
 Viele Kursbausteine benötigen eine Lernressource. Stellen Sie sich die Kursbausteine als Behälter vor, in die eine Lernressource eingefügt werden muss.
 
-![Kursbaustein HTML](assets/Grafik_kurs_lernressource_html.png)
+![grafik_kurs_lernressource_html_v1_de.png](assets/grafik_kurs_lernressource_html_v1_de.png){ width=300px class="lightbox" }
 
 
 ### Beispiel 1<br>
 Der Kursbaustein vom Typ "<b>Einzelne Seite</b>" benötigt eine <b>HTML-Datei</b> als Lernressource. Im <b>Tab "Seiteninhalt"</b> können Sie eine neue HTML-Datei erstellen, eine bereits in OpenOlat vorhandene einbinden oder eine anderswo erstellte HTML-Datei in OpenOlat importieren.
-![Kursbaustein konfigurieren 2](assets/kb_konfigurieren_2.png)
+
+![kb_konfigurieren2_v1_de.png](assets/kb_konfigurieren2_v1_de.png){ class="shadow lightbox" }
 
 
 ### Beispiel 2<br>
 Der Kursbaustein vom Typ "<b>Video</b>" benötigt eine <b>mp4-Datei</b> als Lernressource. 
 
-![Lernressource Video](assets/Grafik_kurs_lernressource_video1.png)
+![grafik_kurs_lernressource_video1_v1_de.png](assets/grafik_kurs_lernressource_video1_v1_de.png){ width=470px class="lightbox" }
 
 Wird z.B. gewünscht, dass das Video als "angesehen" gilt, wenn 95% tatsächlich angesehen wurden, dann wird diese <b>Konfiguration auf dem Kursbaustein</b> vorgenommen. Also dem Behälter und nicht als Information in der Lernressource ergänzt.
 
@@ -130,10 +133,10 @@ Es gibt auch noch <b>Konfigurationsmöglichkeiten der Lernressource</b>, wie z.B
 	
 Wenn die Video-Lernressource in verschiedenen Kursen und Kursbausteinen verwendet wird, sind diese Annotationen in allen Kursbausteinen dabei, in die diese Lernressource eingebunden wird.
 
-![Lernressource Video](assets/Grafik_kurs_lernressource_video2.png)
+![grafik_kurs_lernressource_video2_v1_de.png](assets/grafik_kurs_lernressource_video2_v1_de.png){ width=470px class="lightbox" }
 
 
-![Kursbaustein konfigurieren 2](assets/Grafik_konfigurationsebenen.png)
+![grafik_konfigurationsebenen_v1_de.png](assets/grafik_konfigurationsebenen_v1_de.png){ class="lightbox" }
 <br>
 
 ## 7. Arbeitsergebnis kontrollieren
@@ -143,12 +146,12 @@ Im Kursmenü sehen Sie (solange Sie sich im Kurseditor befinden) auf den Kursbau
 In der Kopfzeile des Kurseditors öffnet ein Klick auf die kleine rote Zahl (falls Fehler vorhanden sind) ein Popup, das alle unvollständigen Kursbausteine auflistet. Sie können dort direkt zu den betroffenen Kursbausteinen springen.
 
 
-![Arbeitsergebnis Badges](assets/Arbeitsergebnis_badges.png)
+![arbeitsergebnis_badges_v1_de.png](assets/arbeitsergebnis_badges_v1_de.png){ class="shadow lightbox" }
 
 <br>
 Wenn Sie als Autor im Kurseditor arbeiten, tun Sie das in der Rolle als <b>Besitzer</b> dieses Kurses. Nach Verlassen des Kurseditors können Sie auch in die <b>Teilnehmeransicht</b> wechseln, um das Arbeitsergebnis zu überprüfen.
 
-![Teilnehmeransicht](assets/Teilnehmeransicht.png)
+![teilnehmeransicht_v1_de.png](assets/teilnehmeransicht_v1_de.png){ class="shadow lightbox" }
 <br>
 
 ## 8. Kurs publizieren
@@ -160,7 +163,7 @@ Zum <b>Verlassen des Kurseditors</b> klicken Sie auf
 * das <b>rote Kreuz</b> rechts oben (abgekürztes Vorgehen)<br>oder
 * die <b>Breadcrumb</b> (abgekürztes Vorgehen)
 
-![Publizieren](assets/Publizieren.png)
+![publizieren_v1_de.png](assets/publizieren_v1_de.png){ class="shadow lightbox" }
 
 Beim Publizieren (Verlassen des Kurseditors) wird von OpenOlat geprüft, ob der Kurs technisch gesehen lauffähig ist.
 
@@ -178,9 +181,9 @@ Beim Publizieren (Verlassen des Kurseditors) wird von OpenOlat geprüft, ob der 
 
 Ihr Kurs ist nun lauffähig, aber noch nicht veröffentlicht. Wenn Sie  bereits namentlich wissen, welche Personen Zugriff auf diesen Kurs haben sollen, können Sie dem Kurs diese Personen als Kursmitglieder hinzufügen. Dazu gehen Sie in die Mitgliederverwaltung Ihres Kurses. 
 
-![Mitgliederverwaltung Aufruf](assets/Mitgliederverwaltung1.png)
+![mitgliederverwaltung1_v1_de.png](assets/mitgliederverwaltung1_v1_de.png){ class="shadow lightbox" }
 
-![Mitgliederverwaltung Mitglied hinzufügen](assets/Mitgliederverwaltung2.png)
+![mitgliederverwaltung2_v2_de.png](assets/mitgliederverwaltung2_v1_de.png){ class="shadow lightbox" }
 
 !!! hint "Hinweis"
 	
@@ -191,11 +194,11 @@ Ihr Kurs ist nun lauffähig, aber noch nicht veröffentlicht. Wenn Sie  bereits 
 
 Wird ein neuer Kurs erstellt, hat dieser zunächst immer den <b>Status "Vorbereitung"</b>. Das heisst, nur Sie als Autor sehen den Kurs. Er befindet sich sozusagen in der Werkstatt (Autorenbereich) auf Ihrer persönlichen Werkbank.
 
-![Status Vorbereitung](assets/Status1.png)
+![status1_v1_de.png](assets/status1_v1_de.png){ class="shadow lightbox" }
 
 Durch Klick auf "Vorbereitung" können Sie einen anderen Status wählen. Es sind folgende Zustände möglich:
 
-![Status Vorbereitung2](assets/Status2.png)
+![status2_v1_de.png](assets/status2_v1_de.png){ class="shadow lightbox" }
 
 
 
@@ -218,7 +221,7 @@ Dazu geben Sie ihn in den Kurseinstellungen frei.<br>
 Ausserdem muss ein Angebot für den Katalog erstellt und der Kurs buchbar gemacht werden. (Bisher haben wir zu Ihren Kurs nur manuell ausgewählten Mitgliedern Zugang gewährt (= Freigabe "Privat").)
 
 
-![Einstellungen_freigabe_Angebot](assets/Einstellungen_freigabe_Angebot.png)
+![einstellungen_freigabe_angebot_v1_de.png](assets/einstellungen_freigabe_angebot_v1_de.png){ class="shadow lightbox" }
 
 !!! hint "Hinweis"
 	

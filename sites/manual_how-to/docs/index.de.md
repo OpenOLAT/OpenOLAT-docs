@@ -1,8 +1,4 @@
-## OpenOlat einrichten
-
-1. [Wie kann ich eigene CSS für das Kursdesign verwenden?](/de/manual_how-to/css/css)
-
-## Allg. Arbeitsweisen
+## Allgemeine Arbeitsweisen
 
 1. [Wie kann ich dieselben Dateien in mehreren Kursen einsetzen?](/de/manual_how-to/multiple_use/multiple_use)
 2. [Wie kann ich mittels WebDAV Dateien übertragen?](/de/manual_how-to/webdav/webdav)
@@ -29,3 +25,7 @@
 ## Teilnehmer betreuen
 
 1. [Wie und wo kann ich eine Massenbewertung vornehmen?](/de/manual_how-to/bulk_assessment/bulk_assessment)
+
+## OpenOlat anpassen
+
+1. [Wie kann ich eigene CSS für das Kursdesign verwenden?](/de/manual_how-to/css/css)

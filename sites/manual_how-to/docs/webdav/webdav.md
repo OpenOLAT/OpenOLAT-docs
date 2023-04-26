@@ -20,11 +20,11 @@ Of course not all folders and files of an OpenOlat installation can be accessed 
 
 Once the items have been created via OpenOlat, the structure is automatically created. You can access the following OpenOlat folders:
 
-  * [Personal folder](../../../manual_user/docs/personal/Personal_folders.md) (every user)  
-  * [Folders of groups](../../../manual_user/docs/groups/Using_Group_Tools.md)
-  * [Storage folders](../../../manual_user/docs/course_operation/Storage_folder.md) of courses (course owners only)
-  * [Folder - course element ](../../../manual_user/docs/course_elements/Course_Element_Folder.md)
-  * [Resource folders](../../../manual_user/docs/authoring/Various_Types_of_Learning_Resources.md) (only Learning Resource Owner)
+  * [Personal folder](../../manual_user/personal/Personal_folders.md) (every user)  
+  * [Folders of groups](../../manual_user/groups/Using_Group_Tools.md) (group members)
+  * [Storage folders](../../manual_user/course_operation/Storage_folder.md) of courses (course owners only)
+  * [Folder - course element ](../../manual_user/course_elements/Course_Element_Folder.md) (course members)
+  * [Resource folders](../../manual_user/course_create/Course_Settings.md#including-resource-folder) (only Learning Resource Owner)
 
 Who is allowed to upload files via WebDAV in the respective folders depends on
 the respective configuration.
@@ -111,7 +111,7 @@ your computer containing the following sub-directories:
     * _other_: This folder only appears if in the administration semester terms are activated. In this folder all courses which are added to a term can be found.
     * _finished_: This folder only appears if in the administration semester terms are not activated. In this folder all courses can be found, which have been set to finished in the course life-cycle. These are the courses which appear in the menu Courses in the tab "Finished".
 
-    ![WebDav Konfiguration](assets/webdav_group_courses_by_semester_terms.png){ class="shadow" }
+    ![webdav_group_courses_by_semester_terms_v1_en.png](assets/webdav_group_courses_by_semester_terms_v1_en.png){ class="shadow lightbox" }
 
   *  **groupfolders** : all groups you are enrolled in and have access to corresponding folders.
   *  **home** : both of your personal folders (along with the sub-folders "private" and "public").

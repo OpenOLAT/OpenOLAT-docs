@@ -13,7 +13,7 @@ Das Wiki wird innerhalb eines OpenOlat-Kurses eingebunden. Wenn Sie noch keinen 
 
 a) Gehen Sie in den **Autorenbereich** und suchen Sie dort den Kurs, in den das Wiki eingefügt werden soll.
 
-![Wiki_autorenbereich.png](assets/Wiki_autorenbereich.png)  
+![wiki_autorenbereich_v1_de.png](assets/wiki_autorenbereich_v1_de.png){ class="shadow lightbox" }  
    
 b) Öffnen Sie den gewünschten Kurs im **Kurseditor**, der sich im Menü "Administration befindet.
 
@@ -35,7 +35,7 @@ e) Vergeben Sie nun noch einen passenden **Titel** im Tab „Titel und Beschreib
   
 a) Gehen Sie in den <b>Tab „Wiki-Lerninhalt“</b> und klicken Sie auf „Wiki wählen, erstellen oder importieren“.
 
-![Wiki_lerninhalt.png](assets/Wiki_lerninhalt.png)  
+![wiki_lerninhalt_v1_de.png](assets/wiki_lerninhalt_v1_de.png){ class="shadow lightbox" }  
 
 b) Hier können Sie nun 
 
@@ -66,7 +66,7 @@ Fertig. Damit ist eine neue Wiki-Lernressource angelegt und weitere Einstellunge
 a) Im Tab **"Wiki-Lerninhalt"** wird festgelegt, wer Wikiartikel bearbeiten darf. 
 Differenziertere Einstellungen sind auch über die erweiterte Konfiguration möglich. 
 
-![Wiki_berechtigungen.png](assets/Wiki_berechtigungen.png)  
+![wiki_berechtigungen_v1_de.png](assets/wiki_berechtigungen_v1_de.png){ class="shadow lightbox" }  
 
 b) Abschließend muss der Kurs **publiziert** und der Kurseditor geschlossen werden, damit die Änderungen sichtbar werden. 
 
@@ -78,7 +78,7 @@ b) Abschließend muss der Kurs **publiziert** und der Kurseditor geschlossen wer
 
 Öffnen Sie den Kurseditor erneut und klicken Sie im Tab "Wiki-Lerninhalt" auf „Editieren“.
 
-![Wiki_editieren.png](assets/Wiki_editieren.png) 
+![wiki_editieren_v1_de.png](assets/wiki_editieren_v1_de.png){ class="shadow lightbox" } 
 
 !!! info "Hinweis zur Wiki-Syntax"
 
@@ -96,44 +96,47 @@ b) Abschließend muss der Kurs **publiziert** und der Kurseditor geschlossen wer
 Beim **ersten Editieren** gelangen Sie zunächst zur Startseite (Index). Passen Sie Ihre Startseite an und verfassen Sie einen Text für die Startseite.
 Beenden Sie mit Klick auf den Button "Speichern" am unteren Rand des Editors. 
 
-![Wiki_index_bearbeiten.png](assets/Wiki_index_bearbeiten.png)
+![wiki_index_bearbeiten_v1_de.png](assets/wiki_index_bearbeiten_v1_de.png){ class="shadow lightbox" }
 
 ### c) Index und Menü
 
 Zur Bearbeitung von Index und Menü können Sie jederzeit im Menü des Wiki-Editors die beiden Seiten wieder aufrufen.
-![Wiki_index_menu_bearbeiten.png](assets/Wiki_index_menu_bearbeiten.png)
+
+![wiki_index_menu_bearbeiten_v1_de.png](assets/wiki_index_menu_bearbeiten_v1_de.png){ class="shadow lightbox" }
 
 Zur Kontrolle verlassen Sie den Kurseditor. Sie sehen dann, dass ein Wiki-Kursbaustein in OpenOlat die Menüstruktur des Kurses ergänzt. Die Wiki-Artikel erscheinen direkt als Menüpunkte im OpenOlat-Kursmenü.
-![Wiki_kursmenu.png](assets/Wiki_kursmenu1.png)
+
+![wiki_kursmenu1_v1_de.png](assets/wiki_kursmenu1_v1_de.png){ class="shadow lightbox" }
 
 ### d) Wiki-Seite (Artikel) erstellen
 
 Klicken Sie im Menü des Wiki-Editors auf "Erstellen". Es erscheint eine Box, in der Sie den Titel Ihres neuen Wiki-Artikels eintragen können.
-![Wiki_artikel_neu1.png](assets/Wiki_artikel_neu1.png)
+
+![wiki_artikel_neu1_v1_de.png](assets/wiki_artikel_neu1_v1_de.png){ class="shadow lightbox" }
 
 Sobald Sie die Titeleingabe mit Klick auf den Button "Erstellen" abgeschlossen haben, erscheint die Seite des Artikels mit dem Hinweis, dass die Seite noch nicht existiert (leer ist).
 
-![Wiki_artikel_neu2.png](assets/Wiki_artikel_neu2.png)
+![wiki_artikel_neu2_v1_de.png](assets/wiki_artikel_neu2_v1_de.png){ class="shadow lightbox" }
 
 Klicken Sie auf den roten Link mit dem Seitentitel.
 
 Nun befinden Sie sich im Tab "Seite bearbeiten" des neu erstellten Artikels und können dort Ihren Text, Bilder usw. einfügen.
 
-![Wiki_artikel_neu3.png](assets/Wiki_artikel_neu3.png)
+![wiki_artikel_neu3_v1_de.png](assets/wiki_artikel_neu3_v1_de.png){ class="shadow lightbox" }
 
 
 ### e) Wiki-Menü anpassen
 
 Für Änderungen des Menüs klicken Sie in der Dropdown-Auswahl „Wiki-Menu“ auf „Ändern“, um das Wiki-Menu mit den Wiki-Seiten nach Ihren Wünsche anzupassen.
 
-![Wiki_menu_anpassen.png](assets/Wiki_menu_anpassen.png)
+![wiki_menu_anpassen_v1_de.png](assets/wiki_menu_anpassen_v1_de.png){ class="shadow lightbox" }
 
 
 ### f) Editieren der Wiki-Lernressource beenden
 
 In der Breadcrumb von OpenOlat sehen Sie, dass Sie gerade die Lernressource bearbeitet haben, nicht den Kurs. Beenden Sie das Editieren der Wiki-Lernressource und kehren Sie nun zum Kurs zurück.
 
-![Wiki_editieren_beenden.png](assets/Wiki_editieren_beenden.png)
+![wiki_editieren_beenden_v1_de.png](assets/wiki_editieren_beenden_v1_de.png){ class="shadow lightbox" }
 
 Möglichkeit 1: Klicken Sie auf den Zurück-Pfeil in der Breadcrumb.
 

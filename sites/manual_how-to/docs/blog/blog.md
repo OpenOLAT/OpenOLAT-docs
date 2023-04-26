@@ -13,7 +13,7 @@ The blog is included within an OpenOlat course. If you have not yet created a co
 
 a) Search in **"Authoring"** for your course, where you want to insert the blog.
   
-![blog_authoring.png](assets/blog_authoring.png)  
+![blog_authoring_v1_en.png](assets/blog_authoring_v1_en.png){ class="shadow lightbox" }  
 
 b) Open the desired course in the **course editor** located in the administration menu.
 
@@ -35,7 +35,7 @@ e) Now assign a suitable **title** in the tab "Title and description" and save t
 
 a) Go to tab <b>"Blog learning content"</b> and click there "Select, create or import blog".
 
-![blog_learning_content.png](assets/blog_learning_content.png)  
+![blog_learning_content_v1_en.png](assets/blog_learning_content_v1_en.png){ class="shadow lightbox" }  
 
 b) Here you can now 
 
@@ -65,7 +65,7 @@ Done. With this, a new blog learning resource is created and further settings as
 
 a) The **Blog Learning Content** tab is used to define who can create blog posts and moderate the blog. More differentiated settings are also possible via the advanced configuration.
 
-![blog_user_rights.png](assets/blog_user_rights.png)  
+![blog_user_rights_v1_en.png](assets/blog_user_rights_v1_en.png){ class="shadow lightbox" }  
 
 b) **Blog moderators** additionally have the <b>"Edit blog"</b> button in the course run* and can determine the title, description and image of a blog. They also decide at the beginning if an external blog or an OpenOlat blog should be used. This decision is necessary before blog posts can be created e.g. by participants.
 
@@ -79,11 +79,11 @@ c) Finally, the course must be **published** and the course editor closed so tha
 
 a) Open the course editor again and click in the tab "Blog learning content" on "Edit".
 
-![blog_edit.png](assets/blog_edit.png) 
+![blog_edit_v1_en.png](assets/blog_edit_v1_en.png){ class="shadow lightbox" } 
 
 b) When **first editing** you will now be asked if you want to create a new entry or include an existing blog. Below we show how to create a new blog entry.
 
-![blog_add_first_post.png](assets/blog_add_first_post.png)  
+![blog_add_first_post_v1_en.png](assets/blog_add_first_post_v1_en.png){ class="shadow lightbox" }  
   
 Click "**Create your own entries**" to create the first **initial post** of the blog.  This step is necessary so that blog posts from the defined target group can also be posted afterwards.
 
@@ -96,7 +96,7 @@ c) Create the first **blog post**.
 
 d) When you have filled in all the required fields, publish the blog post by clicking the "Publish" button at the bottom of the window.
 
-![blog_publish_post.png](assets/blog_publish_post.png)  
+![blog_publish_post_v1_en.png](assets/blog_publish_post_v1_en.png){ class="shadow lightbox" }  
 
 Additional entries can then be easily added via the <b>"Create new entry"</b> button in the course run (published course) to be added.
 

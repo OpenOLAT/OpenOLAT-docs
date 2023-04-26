@@ -3,9 +3,9 @@
 ## What is a bulk assessment?
 
 With a bulk assessment you may assess several course participants with the [assessment tool
-](../../../manual_user/docs/course_operation/Assessment_tool_-_overview.md) at a time of your choice at once.
+](../../manual_user/course_operation/Assessment_tool_-_overview.md) at a time of your choice at once.
 <br><br>
-Bulk assessments can be done for [assessment course elements](../../../manual_user/docs/course_elements/Assessment.md):
+Bulk assessments can be done for [assessment course elements](../../manual_user/course_elements/Assessment.md):
 
 * course element "task",
 * course element "group task" and
@@ -35,7 +35,7 @@ A bulk assessment can be performed by all persons who are otherwise authorized t
 
 The general procedure is:
 * Select in the [assessment tool
-](../../../manual_user/docs/course_operation/Assessment_tool_-_overview.de.md) the course element of your course, for which you want to do a bulk assessment
+](../../manual_user/course_operation/Assessment_tool_-_overview.md) the course element of your course, for which you want to do a bulk assessment
 * or select the "bulk assessment" option in the toolbar. 
 
 
@@ -47,7 +47,7 @@ The general procedure is:
 * select tab „participants“
 * click the button "start new bulk assessment" or the button "bulk assessment" in the tool bar
 
-![Wizard](assets/bulk_assessment_ce_task.png)
+![bulk_assessment_ce_task_v1_en.png](assets/bulk_assessment_ce_task_v1_en.png){ class="shadow lightbox" }
 
 
 ### The bulk assessment for <b>course element group task</b> is started by  
@@ -58,7 +58,7 @@ The general procedure is:
 * select tab „participants“
 * click the button "bulk assessment" in the tool bar
 
-![Wizard](assets/bulk_assessment_ce_grouptask.png)
+![bulk_assessment_ce_grouptask_v1_en.png](assets/bulk_assessment_ce_grouptask_v1_en.png){ class="shadow lightbox" }
 
 
 ### The bulk assessment for <b>course element assessment</b> is started by
@@ -69,7 +69,7 @@ The general procedure is:
 * select tab „participants“
 * click the button "start new bulk assessment" or the button "bulk assessment" in the tool bar
 
-![Wizard](assets/bulk_assessment_ce_assessment.png)
+![bulk_assessment_ce_assessment_v1_en.png](assets/bulk_assessment_ce_assessment_v1_en.png){ class="shadow lightbox" }
 
 
 ### The bulk assessment of an <b>entire course</b> or of a <b>certain group</b> 
@@ -85,12 +85,12 @@ After the start you will be guided step by step by a <b>wizard</b> through the b
 ## Step 1: Choose your course element
  
 Only the assessable course elements from the selected course are displayed in a list. Select the desired course element.
-![Massenbewertung_KB](assets/bulk_assessment_wizard_1.png)
+![bulk_assessment_wizard1_v1_en.png](assets/bulk_assessment_wizard1_v1_en.png){ class="shadow lightbox" }
 
 
 ## Step 2: Prepare and insert assessment data
 
-![Wizard](assets/bulk_assessment_wizard_2.png)
+![bulk_assessment_wizard2_v1_en.png](assets/bulk_assessment_wizard2_v1_en.png){ class="shadow lightbox" }
 
 !!! info "Note on course element task"
 
@@ -117,7 +117,7 @@ The individual fields are separated by tab or comma.
 
 The easiest way is to use a table from Excel or OpenOffice and fill it with values.
 
-![Table](assets/bulk_assessment_excel.png)
+![bulk_assessment_excel_v1_en.png](assets/bulk_assessment_excel_v1_en.png){ class="shadow lightbox" }
 
 
 ## Step 2b: Insert Assessment data 
@@ -128,7 +128,7 @@ Alternatively, you can enter the data manually.
 
 ### Example, copied from Excel:
 
-![Wizard Bewertungsdaten Bsp](assets/bulk_assessment_wizard_2b.png)
+![bulk_assessment_wizard2b_v1_en.png](assets/bulk_assessment_wizard2b_v1_en.png){ class="shadow lightbox" }
 
 ### Example, manual input:
 
@@ -155,7 +155,7 @@ For example:
  * passed => column 8
  * comment => ignore column
 
-![Massenbewertung Spaltenzuweisungen](assets/bulk_assessment_wizard_3.png)
+![bulk_assessment_wizard3_v1_en.png](assets/bulk_assessment_wizard3_v1_en.png){ class="shadow lightbox" }
 
 !!! tip "Hint"
 
@@ -166,14 +166,14 @@ For example:
 
 This step is used to check the inserted evaluation data once again. You will be shown once again <b>which</b> information is taken over and <b>how</b>, and whether there are any problems.
 
-![Massenbewertung Daten prüfen](assets/bulk_assessment_wizard_4.png)
+![bulk_assessment_wizard4_v1_en.png](assets/bulk_assessment_wizard4_v1_en.png){ class="shadow lightbox" }
 
 
 ## Step 5: Schedule
 
 Here you can define whether the valuation takes place immediately or only on a certain date.
 
-![Massenbewertung Planung](assets/bulk_assessment_wizard_5.png)
+![bulk_assessment_wizard5_v1_en.png](assets/bulk_assessment_wizard5_v1_en.png){ class="shadow lightbox" }
 
 
 ## Result 

@@ -18,7 +18,7 @@ Since release 17.2 it is possible to set that
 
 are transferred to search engines.
 
-![infopage1.png](assets/infopage1.png)
+![infopage1_v1_en.png](assets/infopage1_v1_en.png){ class="shadow lightbox" }
 
 ## How is this function generally enabled?
 
@@ -31,7 +31,7 @@ If OAI is enabled, the SEO settings become visible. (Enable SEO only, is not pos
 
 When the module is turned on, the API endpoint is available where all published resources are available via XML.
 
-![OAIPMH_activation.png](assets/OAIPMH_activation.png)
+![oaipmh_activation_v1_en.png](assets/oaipmh_activation_v1_en.png){ class="shadow lightbox" }
 
 
 ## How is this feature enabled for specific courses / learning resources?
@@ -40,26 +40,28 @@ When the module is turned on, the API endpoint is available where all published 
 
 1) In order for the information to be shared with the search engines, the respective author (owner) must allow this for their course / learning resource.
 
-![indexing_allowed.png](assets/indexing_allowed.png)
+![indexing_allowed_v1_en.png](assets/indexing_allowed_v1_en.png){ class="shadow lightbox" }
 
 2) Only courses / learning resources that have the status "Published" are considered.
 
-![Status](assets/status_en.png)
+![status_v1_en.png](assets/status_v1_en.png){ class="shadow lightbox" }
 
 3) (Optional) It can be defined that only courses/learning resources with license are indexable. The administrator can define which licenses are allowed for indexing. Authors can then only have their course/learning resource indexed if one of these licenses is selected.
 
 Options for the administrator:
-![License restriction by administrator](assets/license_restriction_admin2.png)
+
+![license_restriction_admin2_v1_en.png](assets/license_restriction_admin2_v1_en.png){ class="shadow lightbox" }
 
 Note on limitation to the author:
-![Lizenzbeschraenkung Admin](assets/license_restriction_author.png)
+
+![license_restriction_author_v1_en.png](assets/license_restriction_author_v1_en.png){ class="shadow lightbox" }
 
 
 ## How do I see in the authoring area which courses/learning resources are enabled for indexing?
 
 In the authoring area, the <b>OER column can be displayed</b> to show which courses/learning resources have their info pages released for search engines.
 
-![Autorenbereich Spaltenanzeige](assets/authoring_show_column_oer.png)
+![authoring_show_column_oer_v1_en.png](assets/authoring_show_column_oer_v1_en.png){ class="shadow lightbox" }
 
 
 ## How can I contribute to search engine optimization as an author?
@@ -70,7 +72,7 @@ The information on the info pages of the courses and learning resources is recor
 
 So the more information the authors enter here and the better the descriptions are, the better an offer will be found by search engines.
 
-![Einstellungen Info Metadaten](assets/settings_info_metadata.png)
+![settings_info_metadata_v1_en.png](assets/settings_info_metadata_v1_en.png){ class="shadow lightbox" }
 
 
 ## How do I do search engine optimization (SEO) as an administrator?

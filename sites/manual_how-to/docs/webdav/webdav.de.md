@@ -19,11 +19,11 @@ Mit WebDAV kann selbstverständlich nicht auf alle Ordner und Dateien einer Open
 
 Sobald die Elemente über OpenOlat angelegt wurden, wird die Struktur automatisch erstellt. Sie können auf folgende OpenOlat-Ordner zugreifen: 
 
-  * [Persönlicher Ordner](../../../manual_user/docs/personal/Personal_folders.de.md) (jeder)
-  * [Ordner von Gruppen](../../../manual_user/docs/groups/Using_Group_Tools.de.md)
-  * [Ablageordner von Kursen](../../../manual_user/docs/course_operation/Using_Course_Tools.de.md#EinsatzderKurswerkzeuge-_ablageordner) (nur Kursbesitzer)
-  * [Kursbaustein Ordner](../../../manual_user/docs/course_elements/Course_Element_Folder.de.md)
-  * [Ressourcenordner](../../../manual_user/docs/course_create/Course_Settings.de.md#Kurseinstellungen-_detail_ressourcen) (nur Lernressourcenbesitzer)
+  * [Persönlicher Ordner](../../manual_user/personal/Personal_folders.de.md) (jeder)
+  * [Ordner von Gruppen](../../manual_user/groups/Using_Group_Tools.de.md) (Gruppenmitglieder)
+  * [Ablageordner von Kursen](../../manual_user/course_operation/Storage_folder.de.md) (nur Kursbesitzer)
+  * [Kursbaustein Ordner](../../manual_user/course_elements/Course_Element_Folder.de.md) (Kursmitglieder)
+  * [Ressourcenordner](../../manual_user/course_create/Course_Settings.de.md#ressourcenordner-einbinden) (nur Lernressourcenbesitzer)
 
 Wer in den jeweiligen Ordnern Dateien per WebDAV hochladen darf, ist abhängig von der jeweiligen Konfiguration.
 
@@ -115,7 +115,7 @@ Wenn Sie die Verbindung erfolgreich eingerichtet haben, öffnet sich auf Ihrem R
 
     * _beendet_: Dieser Ordner erscheint nur, wenn in der Administration die Semesterdaten nicht aktiviert sind. In diesem Ordner befinden sich alle Kurse, welche im Kurslebenszyklus auf beendet gesetzt worden sind. Das sind diejenigen Kurse, welche im Menu Kurse im Tab "Beendet" erscheinen.  
 
-    ![WebDav Konfiguration](assets/webdav_Kurse_nach Semesterdaten_gruppieren.png){ class="shadow" }
+    ![webdav_kurse_nach_semesterdaten_gruppieren_v1_de.png](assets/webdav_kurse_nach_semesterdaten_gruppieren_v1_de.png){ class="shadow lightbox" }
 
   *  **groupfolders** : Hier finden Sie alle Gruppen in denen Sie eingetragen sind und auf deren Ordner Sie Zugriff haben.
   *  **home** : Ihre beiden persönlichen Ordner (mit den Unterordnern „private“ und „public“).

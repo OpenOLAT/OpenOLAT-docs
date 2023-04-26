@@ -2,20 +2,20 @@ site_name: manual_how-to
 
 nav:
   - index.md
-  - Set up OpenOlat:
-    - How to customize the course design with CSS: "css/css.md"
-  - Working processes:
+  - Working Processes:
     - How to use the same files in several courses: "multiple_use/multiple_use.md"
     - How to transfer files using WebDAV: "webdav/webdav.md"
-  - Create courses:
+  - Create Courses:
     - How to create my first course: "my_first_course/my_first_course.md"
-  - Create learning resources:
+  - Create Learning Resources:
     - How do I create a blog?: "blog/blog.md"
     - How do I create a podcast?: "podcast/podcast.md"
     - How do I create a wiki?: "wikis/wikis.md"  
-  - Offer courses:
+  - Offer Courses:
     - How can I have my courses found by search engines?: "oai_pmh/oai_pmh.md"
-  - Participant administration:
+  - Participant Administration:
     - How do I set up groups purpose-driven?: "purpose_of_groups/purpose_of_groups.md"  
-  - Attend participants:
+  - Attend Participants:
     - How and where can I do a bulk assessment?: "bulk_assessment/bulk_assessment.md"
+  - Adjust OpenOlat:
+    - How to customize the course design with CSS: "css/css.md"

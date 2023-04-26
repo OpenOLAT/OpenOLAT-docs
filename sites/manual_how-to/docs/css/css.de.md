@@ -119,7 +119,7 @@ der body transparent gemacht:
 Im Folgenden sind einige Bereiche eines OpenOlat Kurses mit den entsprechenden
 Klassen und/oder ID-Selektoren aufgeführt, die häufig angepasst werden:
 
-![](assets/css_struktur.png){ class="shadow lightbox" }  
+![css_struktur_v1_de.png](assets/css_struktur_v1_de.png){ class="shadow lightbox" }  
   
 
  **1\. Obere Menüleiste:** CSS ID-Selektor: `#o_navbar_container`

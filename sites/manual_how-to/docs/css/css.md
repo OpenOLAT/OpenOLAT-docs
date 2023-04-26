@@ -115,7 +115,7 @@ in order to make the background of the page transparent:
 Here are some sections of a course's site with the appropriate ID or class
 selectors:
 
-![](assets/css_structure.png){ class="shadow lightbox" }  
+![css_structure_v1_en.png](assets/css_structure_v1_en.png){ class="shadow lightbox" }  
 
  **1\. Upper menu:** CSS ID selector: `#o_navbar_container`
 

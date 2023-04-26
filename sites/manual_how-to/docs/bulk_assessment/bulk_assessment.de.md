@@ -3,10 +3,10 @@
 ## Was ist eine Massenbewertung?
 
 Mit der Massenbewertung können Sie im [Bewertungswerkzeug
-](../../../manual_user/docs/course_operation/Assessment_tool_-_overview.de.md)mehrere Kursteilnehmende zu
+](../../manual_user/course_operation/Assessment_tool_-_overview.de.md)mehrere Kursteilnehmende zu
 einem von Ihnen gewünschten Zeitpunkt auf einmal bewerten. 
 
-Massenbewertungen können für die [bewertbaren Kursbausteine](../../../manual_user/docs/course_elements/Assessment.de.md)
+Massenbewertungen können für die [bewertbaren Kursbausteine](../../manual_user/course_elements/Assessment.de.md)
 
 * Kursbaustein "Aufgabe",
 * Kursbaustein "Gruppenaufgabe" und
@@ -39,7 +39,7 @@ Eine Massenbewertung kann durch alle Personen vorgenommen werden, die auch sonst
 
 Das grundsätzliche Vorgehen ist:
 * Wählen Sie im [Bewertungswerkzeug
-](../../../manual_user/docs/course_operation/Assessment_tool_-_overview.de.md) den Kursbaustein Ihres Kurses aus, für den eine Massenbewertung durchgeführt werden soll 
+](../../manual_user/course_operation/Assessment_tool_-_overview.de.md) den Kursbaustein Ihres Kurses aus, für den eine Massenbewertung durchgeführt werden soll 
 * oder wählen Sie die Option "Massenbewertung" in der Toolbar. 
 
 
@@ -51,7 +51,7 @@ Das grundsätzliche Vorgehen ist:
 * Wahl des Tabs „Teilnehmer“
 * Klick auf den Button "Neue Massenbewertung starten" oder Button "Massenbewertung" in der Werkzeugleiste
 
-![Wizard](assets/Massenbewertung_KB_Aufgabe.png)
+![massenbewertung_kb_aufgabe_v1_de.png](assets/massenbewertung_kb_aufgabe_v1_de.png){ class="shadow lightbox" }
 
 
 ### Die Massenbewertung für den <b>Kursbaustein Gruppenaufgabe</b> wird gestartet durch 
@@ -62,7 +62,7 @@ Das grundsätzliche Vorgehen ist:
 * Wahl des Tabs „Teilnehmer“
 * Klick auf den Button "Massenbewertung" in der Werkzeugleiste
 
-![Wizard](assets/Massenbewertung_KB_Gruppenaufgabe.png)
+![massenbewertung_kb_gruppenaufgabe_v1_de.png](assets/massenbewertung_kb_gruppenaufgabe_v1_de.png){ class="shadow lightbox" }
 
 
 ### Die Massenbewertung für den <b>Kursbaustein Bewertung</b> wird gestartet durch
@@ -72,7 +72,7 @@ Das grundsätzliche Vorgehen ist:
 * Wahl des Tabs „Teilnehmer“
 * Klick auf den Button "Neue Massenbewertung starten" oder Button "Massenbewertung" in der Werkzeugleiste
 
-![Wizard](assets/Massenbewertung_KB_Bewerten.png)
+![massenbewertung_kb_bewerten_v1_de.png](assets/massenbewertung_kb_bewerten_v1_de.png){ class="shadow lightbox" }
 
 
 ### Die Massenbewertung für einen <b>gesamten Kurs</b> oder für eine <b>bestimmte Gruppe</b> 
@@ -87,12 +87,12 @@ Nach dem Start führt Sie ein Wizard schrittweise durch die Massenbewertung.
 ## Schritt 1: Kursbaustein wählen 
 
 Aus dem gewählten Kurs werden nur die bewertbaren Kursbausteine in einer Liste angezeigt. Wählen Sie den gewünschten Kursbaustein. 
-![Massenbewertung_KB](assets/Massenbewertung_kb_waehlen.png)
+![massenbewertung_kb_waehlen_v1_de.png](assets/massenbewertung_kb_waehlen_v1_de.png){ class="shadow lightbox" }
 
 
 ## Schritt 2: Bewertungsdaten vorbereiten und einfügen
 
-![Wizard](assets/Massenbewertung_wizard_bewertungsdaten.png)
+![massenbewertung_wizard_bewertungsdaten_v1_de.png](assets/massenbewertung_wizard_bewertungsdaten_v1_de.png){ class="shadow lightbox" }
 
 !!! info "Hinweis zum Kursbaustein Aufgabe"
 
@@ -119,7 +119,7 @@ Die einzelnen Felder werden durch Tabulator oder Komma getrennt.
 
 Am einfachsten ist es, eine Tabelle aus Excel oder OpenOffice zu verwenden und diese mit Werten zu füllen.
 
-![Tabelle](assets/Massenbewertung_excel.png)
+![massenbewertung_excel_v1_de.png](assets/massenbewertung_excel_v1_de.png){ class="shadow lightbox" }
 
 ## Schritt 2b: Bewertungsdaten einfügen 
 
@@ -129,7 +129,7 @@ Alternativ können Sie die Daten auch von Hand eintragen.
 
 ### Beispiel, aus Excel kopiert:
 
-![Wizard Bewertungsdaten Bsp](assets/Massenbewertung_bewertungsdaten_bsp.png)
+![massenbewertung_bewertungsdaten_bsp_v1_de.png](assets/massenbewertung_bewertungsdaten_bsp_v1_de.png){ class="shadow lightbox" }
 
 ### Beispiel, manuelle Eintragung:
 
@@ -157,7 +157,7 @@ Zum Beispiel:
  * bestanden => Spalte 8
  * Kommentar => Spalte ignorieren
 
-![Massenbewertung Spaltenzuweisungen](assets/Massenbewertung_spaltenzuweisungen.png)
+![massenbewertung_spaltenzuweisungen_v1_de.png](assets/massenbewertung_spaltenzuweisungen_v1_de.png){ class="shadow lightbox" }
 
 !!! tip "Tipp"
 
@@ -168,14 +168,14 @@ Zum Beispiel:
 
 Dieser Schritt dient dazu, die eingefügten Bewertungsdaten nochmals zu kontrollieren. Es wird Ihnen noch einmal angezeigt, <b>welche</b> Informationen <b>wie</b> übernommen werden und ob es Probleme gibt.
 
-![Massenbewertung Daten prüfen](assets/Massenbewertung_daten_pruefen.png)
+![massenbewertung_daten_pruefen_v1_de.png](assets/massenbewertung_daten_pruefen_v1_de.png){ class="shadow lightbox" }
 
 
 ## Schritt 5: Planung
 
 Hier können Sie bestimmen, ob die Massenbewertung sofort erfolgen soll oder erst zu einem bestimmten Datum.
 
-![Massenbewertung Planung](assets/Massenbewertung_planung.png)
+![massenbewertung_planung_v1_de.png](assets/massenbewertung_planung_v1_de.png){ class="shadow lightbox" }
 
 ## Ergebnis 
 Nach Durchführung der Schritte des Wizards erscheinen die vorgenommenen Änderungen in der Bewertungstabelle.

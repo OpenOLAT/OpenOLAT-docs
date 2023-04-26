@@ -110,6 +110,7 @@ plugins:
           Access Restrictions in the Expert Mode : Zugriffsbeschränkungen im Expertenmodus
           Actions in the Authoring section : Aktionen im Autorenbereich
           Additional Course Features : Zusätzliche Kursfunktionen
+          Adjust OpenOlat : OpenOlat anpassen
           Admin manual: Administrationshandbuch
           Administration : Administration
           Administration and Organisation : Verwaltung und Organisation
@@ -125,6 +126,7 @@ plugins:
           Assessment of learners : Lernende bewerten
           Assessment tool : Bewertungswerkzeug
           Assign roles : Rollen zuweisen
+          Attend Participants : Teilnehmer betreuen
           Aufgabe  : Aufgabe
           Authoring : Autorenbereich
           Automatic Group Lifecycle : Automatischer Gruppenlebenszyklus
@@ -171,7 +173,9 @@ plugins:
           Courses and Catalog : Kurse und Katalog
           COVID certificate : COVID Zertifikat
           CP Editor : CP Editor
+          Create Courses : Kurse erstellen
           Create Groups : Gruppen erstellen
+          Create Learning Resources : Lernressourcen erstellen
           Create User : Benutzer erstellen
           Creating Blogs : Blog erstellen
           Creating Courses : Kurs erstellen
@@ -227,8 +231,17 @@ plugins:
           Guest access : Gastzugang
           Guest and invitation : Gast und Einladung
           Häufig gestellte Fragen  : Häufig gestellte Fragen
+          How and where can I do a bulk assessment? : Wie und wo kann ich eine Massenbewertung vornehmen?
+          How can I have my courses found by search engines? : Wie kann ich meine Kurse durch Suchmaschinen finden lassen?
+          How do I create a blog? : Wie erstelle ich einen Blog?
+          How do I create a podcast? : Wie erstelle ich einen Podcast?
+          How do I create a wiki? : Wie erstelle ich ein Wiki?
+          How do I set up groups purpose-driven? : Wie richte ich Gruppen zweckmässig ein?
           How-to... : How-to...
-          How-to : How-to
+          How to create my first course : Wie erstelle ich meinen ersten OpenOlat-Kurs?
+          How to customize the course design with CSS : Wie kann ich eigene CSS für das Kursdesign verwenden?
+          How to transfer files using WebDAV : Wie kann ich mittels WebDAV Dateien übertragen?
+          How to use the same files in several courses : Wie kann ich dieselben Dateien in mehreren Kursen einsetzen?
           Imprint: Impressum
           In Five Steps to Your Content Package : Fünf Schritte zu Ihrem Content-Packaging
           In Five Steps to Your Course With the Course Editor : Mit dem Kurseditor in fünf Schritten zu Ihrem OpenOlat-Kurs
@@ -270,8 +283,10 @@ plugins:
           Multiple use of entries : Mehrfachverwendung von Einträgen
           My entries : Meine Einträge
           My portfolio binders : Meine Portfolio Mappen
+          Offer Courses : Kurse anbieten
           Other : Andere
           Overview: Übersicht
+          Participant Administration : Teilnehmeradministration
           Payment modules : Bezahlungsmodule
           PayPal Configuration : PayPal Konfiguration
           Performance assessment : Leistungsbewertung
@@ -339,6 +354,7 @@ plugins:
           Video Upload : Video hochladen
           Virtual classrooms : Virtuelle Klassenzimmer
           WebDAV : WebDAV
+          Working Processes : Allgemeine Arbeitsweisen
           Working With Course Elements : Arbeiten mit Kursbausteinen
           Working with Forums : Arbeiten mit Foren
           Working with tables : mit Tabellen arbeiten
@@ -360,17 +376,17 @@ plugins:
         - de
 
 nav:
- - Start: 
+  - Start: 
     - Overview: index.md
     - Archive: archive.md
     - Imprint: imprint.md
     - License: license.md
-    - Release notes: '!include ./sites/release_notes/mkdocs.yml'
-    - User manual: '!include ./sites/manual_user/mkdocs.yml' 
-    - How to: '!include ./sites/manual_how-to/mkdocs.yml' 
-    - Admin manual: '!include ./sites/manual_admin/mkdocs.yml' 
-    - Developer cookbook: '!include ./sites/manual_dev/mkdocs.yml' 
-   Invisible fake pages to fix incompatibility between monorepo and i18n plugin
+  - Release notes: '!include ./sites/release_notes/mkdocs.yml'
+  - User manual: '!include ./sites/manual_user/mkdocs.yml' 
+  - How to: '!include ./sites/manual_how-to/mkdocs.yml' 
+  - Admin manual: '!include ./sites/manual_admin/mkdocs.yml' 
+  - Developer cookbook: '!include ./sites/manual_dev/mkdocs.yml' 
+# Invisible fake pages to fix incompatibility between monorepo and i18n plugin
   - '': '!include ./sites/en/mkdocs.yml' 
   - '': '!include ./sites/de/mkdocs.yml' 
 

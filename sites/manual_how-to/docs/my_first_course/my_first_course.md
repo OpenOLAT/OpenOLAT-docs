@@ -4,7 +4,7 @@
 
 To be able to create OpenOlat courses, you need author rights. Please contact your <b>administrator</b> to give you the author role. Once you are an author, the entry <b>"Authoring"</b> appears in the menu of your header.
 
-![authoring menu](assets/authoring_menu.png)
+![authoring_menu_v1_en.png](assets/authoring_menu_v1_en.png){ class="shadow lightbox" }
 
 !!! hint "Hint"
 	
@@ -15,14 +15,14 @@ To be able to create OpenOlat courses, you need author rights. Please contact yo
 
 After opening the authoring area, you will see an empty list, because you have not created your own courses yet.
 
-![authoring empty](assets/authoring_my_entries_empty.png)
+![authoring_my_entries_emptyv1_en.png](assets/authoring_my_entries_empty_v1_en.png){ class="shadow lightbox" }
 
 If you use the search mask, you will also find courses and learning resources from other authors. However, only those,
 
 * which have already been published by fellow authors 
 * and access by other authors has been allowed.
 
-![authoring search](assets/authoring_search_form.png)
+![authoring_search_form_v1_en.png](assets/authoring_search_form_v1_en.png){ class="shadow lightbox" }
 
 !!! hint "Hint"
 	
@@ -35,19 +35,19 @@ If you use the search mask, you will also find courses and learning resources fr
 
 The button for creating new courses and other learning resources is located in the authoring area in the upper right corner. Create a new course here.
 
-![Autorenbereich mit aufgeklapptem Pulldown auf Erstellen](assets/course_create.png)
+![course_create_v1_en.png](assets/course_create_v1_en.png){ class="shadow lightbox" }
 
 You will be asked right at the beginning whether you want to create a <b>learning path course</b> or a <b>conventional course</b>.
 
-![Create classic course](assets/course_create_learning_path.png)
+![course_create_learning_path_v1_en.png](assets/course_create_learning_path_v1_en.png){ class="shadow lightbox" }
 
 In order for the course to be saved, it is mandatory to have a title. The other information you can also add and edit at a later time.
 
-![Create course title](assets/course_create_title_v2.png)
+![course_create_title_v2_en.png](assets/course_create_title_v2_en.png){ class="shadow lightbox" }
 
 By clicking on the help "Course designs in comparison" you can learn about the differences of the course designs.
 
-![Create course assistance](assets/course_create_assistance_v2.png)
+![course_create_assistance_v2_en.png](assets/course_create_assistance_v2_en.png){ class="shadow lightbox" }
 
 !!! hint "Note"
 	
@@ -56,7 +56,7 @@ By clicking on the help "Course designs in comparison" you can learn about the d
 	
 (Call the wizard in the lower right corner).
 
-![Create course wizard](assets/course_create_wizard_v2.png)
+![course_create_wizard_v2_en.png](assets/course_create_wizard_v2_en.png){ class="shadow lightbox" }
 
 To complete this step, click on "<b>Create</b>".
 
@@ -67,7 +67,7 @@ To complete this step, click on "<b>Create</b>".
 Immediately after the new course is created, you will get to the settings. In each of the tabs there you can make detailed specifications. For the beginning we will use the default settings. 
 Later on you can recall and edit these course settings at any time under <b>Administration > Settings</b>.<br>
 
-![Course settings](assets/course_settings.png)
+![course_settings_v1_en.png](assets/course_settings_v1_en.png){ class="shadow lightbox" }
 
 The settings made here <b>apply to the course as a whole</b>. If you have then inserted course elements in the next step, you can also make settings there. There, the settings apply only to the currently selected course element.
 <br>
@@ -80,22 +80,23 @@ The settings made here <b>apply to the course as a whole</b>. If you have then i
 
 An OpenOlat course consists of course elements. The order of the selected course elements is reflected in the <b>course menu</b>.
 
-![Kursbausteine](assets/course_elements.png)
+![graphic_course_elements_v1_en.png](assets/graphic_course_elements_v1_en.png){ width=240px class="lightbox" }
 
 To edit and add new course elements, open the <b>course editor</b>. You can recognize that you are in the editor by the <b>shaded header</b>.
 
-![Course editor](assets/course_editor.png)
+![course_editor_v1_en.png](assets/course_editor_v1_en.png){ class="shadow lightbox" }
 
 By clicking on the icon <b>"Insert course elements"</b> you open a selection of available course elements.
-![Insert course elements](assets/course_editor_insert_elements.png)
+
+![course_editor_insert_elements_v1_en.png](assets/course_editor_insert_elements_v1_en.png){ class="shadow lightbox" }
 
 Clicking on one of the listed elements will insert a course element of this type in the course.
 
-![Insert course elements](assets/course_editor_element_select.png)
+![course_editor_element_select_v1_en.png](assets/course_editor_element_select_v1_en.png){ class="shadow lightbox" }
 
 After insertion, the course elements can be <b>moved</b> in the course menu with the <b>mouse button pressed</b>. If you drag a course element onto a structure element, it will be placed there as a subordinate element. (Structure elements can be collapsed so that their content is hidden and the menu becomes clearer).
 
-![Course editor menu](assets/course_editor_menu.png)
+![course_editor_menu_v1_en.png](assets/course_editor_menu_v1_en.png){ class="shadow lightbox" }
 
 
 
@@ -106,22 +107,24 @@ After insertion, the course elements can be <b>moved</b> in the course menu with
 	To configure a course element, you remain in the course editor. (In contrast to configuring the course as a whole, see point 4).
 
 To edit a course element, select the course element on the left in the <b>course menu</b>. Then the options for configuring this course element are displayed in several tabs on the right.
-![Course element configuration 1](assets/course_element_configuration_1.png)
+
+![course_element_configuration1_v1_en.png](assets/course_element_configuration1_v1_en.png){ class="shadow lightbox" }
 
 Many course elements require a learning resource. Think of the course elements as containers into which a learning resource must be inserted.
 
-![Kursbaustein HTML](assets/graphic_course_learning_resource_html.png)
+![graphic_course_learning_resource_html_v1_en.png](assets/graphic_course_learning_resource_html_v1_en.png){ width=300px class="lightbox" }
 
 
 ### Example 1<br>
 The course element of the type <b>"Single page"</b> requires an <b>HTML file</b> as learning resource. In the tab <b>"Page content"</b> you can create a new HTML file, include an already existing one in OpenOlat or import an HTML file created elsewhere into OpenOlat.
-![Kursbaustein konfigurieren 2](assets/course_element_configuration_2.png)
+
+![course_element_configuration2_v1_en.png](assets/course_element_configuration2_v1_en.png){ class="shadow lightbox" }
 
 
 ### Example 2<br>
 The course element of the type <b>"Video"</b> requires an <b>mp4 file</b> as learning resource.
 
-![Lernressource Video](assets/graphic_course_learning_resource_video1.png)
+![graphic_course_learning_resource_video1_v1_en.png](assets/graphic_course_learning_resource_video1_v1_en.png){width=470px class="lightbox" }
 
 For example, if it is desired that the video is considered "viewed" when 95% has actually been viewed, then this <b>configuration is done on the course element</b>. The configuration is added on the container and not on the learning resource.
 
@@ -131,10 +134,11 @@ This concept has the advantage that the mp4 file (learning resource) can be exch
 There are also <b>configuration options of the learning resource</b>, such as annotations (notes).
 	
 If the video learning resource is used in different courses and course elements, these annotations will be present in all course elements in which this learning resource is included.
-![Lernressource Video](assets/graphic_course_learning_resource_video2.png)
+
+![graphic_course_learning_resource_video2_v1_en.png](assets/graphic_course_learning_resource_video2_v1_en.png){ width=470px class="lightbox" }
 
 	
-![Kursbaustein konfigurieren 2](assets/Grafic_configuration_level.png)
+![graphic_configuration_level_v1_en.png](assets/graphic_configuration_level_v1_en.png){ class="lightbox" }
 
 
 
@@ -145,12 +149,12 @@ In the course menu (as long as you are in the course editor) you will see small 
 In the header of the course editor, a click on the small red number (if there are errors) opens a popup that lists all incomplete course elements. There you can jump directly to the affected course elements.
 
 
-![work result badges](assets/work_result_badges.png)
+![work_result_badges_v1_en.png](assets/work_result_badges_v1_en.png){ class="shadow lightbox" }
 
 
 When you work as an author in the course editor, you do it in the role of the <b>owner</b> of this course. After leaving the course editor, you can also switch to the <b>participant view</b> to check the work result.
 
-![Participant view](assets/participant_view.png)
+![participant_view_v1_en.png](assets/participant_view_v1_en.png){ class="shadow lightbox" }
 
 
 
@@ -163,7 +167,7 @@ To <b>exit the course editor</b> click on
 * the <b>red cross</b> in the upper right corner (abbreviated procedure)<br> or
 * the <b>breadcrumb</b> (abbreviated procedure)
 
-![Publish](assets/publish.png)
+![publish_v1_en.png](assets/publish_v1_en.png){ class="shadow lightbox" }
 
 When publishing (leaving the course editor) OpenOlat checks if the course is technically executable.
 
@@ -183,9 +187,9 @@ When publishing (leaving the course editor) OpenOlat checks if the course is tec
 
 Your course is now ready to run, but has not yet the status "published". If you already know by name which people should have access to this course, you can add these people to the course as course members. To do this, go to the member administration of your course.
 
-![Members management](assets/members_management1.png)
+![members_management1_v1_en.png](assets/members_management1_v1_en.png){ class="shadow lightbox" }
 
-![Mitgliederverwaltung Mitglied hinzufügen](assets/members_management2.png)
+![members_management2_v1_en.png](assets/members_management2_v1_en.png){ class="shadow lightbox" }
 
 !!! hint "Note"
 	
@@ -196,11 +200,11 @@ Your course is now ready to run, but has not yet the status "published". If you 
 
 If a new course is created, it initially always has the <b>status "Preparation"</b>. This means that only you as the author can see the course. It is located in the workshop (authoring area) on your personal workbench, so to speak.
 
-![Status Vorbereitung](assets/status1_en.png)
+![status1_v1_en.png](assets/status1_v1_en.png){ class="shadow lightbox" }
 
 By clicking on "Preparation" you can select another status. The following states are possible:
 
-![Status Vorbereitung2](assets/status2_en.png)
+![status2_v1_en.png](assets/status2_v1_en.png){ class="shadow lightbox" }
 
 
 
@@ -225,7 +229,7 @@ To do this, you release it in the course settings.<br>
 Furthermore, an offer must be created for the catalog and the course must be made bookable. (Until now, we have only granted access to your course to manually selected members (= release "Private")).
 
 
-![Einstellungen_freigabe_Angebot](assets/settings_share_offer.png)
+![settings_share_offer_v1_en.png](assets/settings_share_offer_v1_en.png){ class="shadow lightbox" }
 
 !!! hint "Note"
 	

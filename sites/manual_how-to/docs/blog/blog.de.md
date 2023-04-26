@@ -13,7 +13,7 @@ Der Blog wird innerhalb eines OpenOlat-Kurses eingebunden. Wenn Sie noch keinen 
 
 a) Gehen Sie in den **Autorenbereich** und suchen Sie dort den Kurs, in den der Blog eingefügt werden soll.
   
-![Blog_autorenbereich.png](assets/Blog_autorenbereich.png)  
+![blog_autorenbereich_v1_de.png](assets/blog_autorenbereich_v1_de.png){ class="shadow lightbox" }  
 
 b) Öffnen Sie den gewünschten Kurs im **Kurseditor**, der sich im Menü "Administration befindet.
 
@@ -35,7 +35,7 @@ e) Vergeben Sie nun noch einen passenden **Titel** im Tab „Titel und Beschreib
 
 a) Gehen Sie in den <b>Tab „Blog-Lerninhalt“</b> und klicken Sie auf „Blog wählen, erstellen oder importieren“.
 
-![Blog_lerninhalt.png](assets/Blog_lerninhalt.png)  
+![blog_lerninhalt_v1_de.png](assets/blog_lerninhalt_v1_de.png){ class="shadow lightbox" }  
 
 b) Hier können Sie nun 
 
@@ -66,7 +66,7 @@ Fertig. Damit ist eine neue Blog-Lernressource angelegt und weitere Einstellunge
 a) Im Tab **"Blog-Lerninhalt"** wird festgelegt, wer Blogbeiträge erstellen und den Blog moderieren darf. 
 Differenziertere Einstellungen sind auch über die erweiterte Konfiguration möglich. 
 
-![Blog_kursbaustein.png](assets/Blog_berechtigungen.png)  
+![blog_berechtigungen_v1_de.png](assets/blog_berechtigungen_v1_de.png){ class="shadow lightbox" }  
 
 b) **Blog-Moderatoren** verfügen zusätzlich im Kursrun* über den <b>Button "Blog bearbeiten"</b> und können Titel, Beschreibung und Bild eines Blogs bestimmen. Auch entscheiden sie zu Beginn, ob ein externer Blog oder ein OpenOlat-Blog verwendet werden soll. Diese Entscheidung ist notwendig, bevor Blogbeiträge z.B. von Teilnehmenden erstellt werden können.
 
@@ -80,11 +80,11 @@ c) Abschließend muss der Kurs **publiziert** und der Kurseditor geschlossen wer
 
 a) Öffnen Sie den Kurseditor erneut und klicken Sie im Tab "Blog Lerninhalt" auf „Editieren“.
 
-![Blog_editieren.png](assets/Blog_editieren.png) 
+![blog_editieren_v1_de.png](assets/blog_editieren_v1_de.png){ class="shadow lightbox" } 
 
 b) Beim **ersten Editieren** werden Sie nun gefragt, ob Sie einen Eintrag neu erstellen wollen oder einen bestehenden Blog einbinden möchten. Im Folgenden zeigen wir, wie Sie eine neuen Blog-Eintrag erstellen.
 
-![blog_einbinden.png](assets/Blog_erster_post.png)  
+![blog_erster_post_v1_de.png](assets/blog_erster_post_v1_de.png){ class="shadow lightbox" }  
   
 Klicken Sie auf "**Einträge selbst erstellen**" um den ersten **Initialbeitrag** des Blogs zu erstellen.  Dieser Schritt ist notwendig, damit Blogbeiträge von der definierten Zielgruppe anschließend ebenfalls eingestellt werden können.
 
@@ -97,7 +97,7 @@ c) Erstellen Sie den ersten **Blogbeitrag**.
 
 d) Wenn Sie alle gewünschten Felder ausgefüllt haben, veröffentlichen Sie den Blogbeitrag durch Klick auf den Button "Veröffentlichen" am unteren Rand des Fensters.
 
-![Blog_post_veroeffentlichen.png](assets/Blog_post_veroeffentlichen.png)  
+![blog_post_veroeffentlichen_v1_de.png](assets/blog_post_veroeffentlichen_v1_de.png){ class="shadow lightbox" }  
 
 Weitere Einträge können anschließend über den <b>Button "Neuen Eintrag erstellen"</b> einfach im
 Kursrun (veröffentlichter Kurs) hinzugefügt werden.  
