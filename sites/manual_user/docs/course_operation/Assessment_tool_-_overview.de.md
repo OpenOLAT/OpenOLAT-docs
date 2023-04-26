@@ -47,7 +47,7 @@ Benachrichtigungen über neu erzeugte Zertifikate (sofern generell aktiviert) ab
 ### Im Prüfungsmodus
 
 Befindet sich der Kurs im [Prüfungsmodus](../e-assessment/Assessment_mode.de.md) wird dies ebenfalls im Bewertungswerkzeug angezeigt. Auch ist erkennbar wie viele Personen bereits eingeloggt sind und auf den Start der Prüfung warten.
-![Wartende Personen bei laufendem Prüfungsmodus](assets/Pruefungsmodus_Personen_warten.png)
+![Anzeige der wartenden Personen bei laufendem Prüfungsmodus](assets/Pruefungsmodus_Personen_warten.png)
 
 ## Aufträge
 
@@ -73,7 +73,9 @@ eine Punkteberechnung eingerichtet, können auf der obersten Ebene der Benutzera
 
 :octicons-tag-24: Release 17.2.4
 
-Mit Hilfe des Wizards können die Daten von Teilnehmer:innen dieses Kurses individuell zurückgesetzt werden.
+Mit Hilfe des Wizards können die Daten von Teilnehmer:innen eines Kurses zurückgesetzt werden. Dabei kann das Zurücksetzen für den gesamten Kurs oder nur für ausgewählte Kursbausteine für alle oder ausgewählte Teilnehmer:innen erfolgen.
+
+Abhängig vom Kursbaustein bzw. der Kurskonfiguration werden z.B. der Fortschritt, die Versuchsanzahl, Punkte, Erfolgsstatuts, Bewertungsfreigaben und auch Erinnerungen zurückgesetzt. Bevor die Daten endgültig zurückgesetzt werden, können die alten Ergebnisse als zip Datei heruntergeladen und somit gespeichert werden.
 
 Nachfolgend ein Überblick, wie sich der Reset auf die verschiedenen Kursbereiche auswirkt.
 
