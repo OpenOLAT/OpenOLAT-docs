@@ -8,13 +8,13 @@
 
 * * *
 
-:material-calendar-month-outline: **Releasedatum: 10.02.2023 • Letztes Update: 17.03.2023**
+:material-calendar-month-outline: **Releasedatum: 10.02.2023 • Letztes Update: 26.04.2023**
 
 * * *
 
 Mit OpenOlat 17.2 geben wir unseren nächsten Major Release frei.
 
-Mithilfe des neuen **Kursbausteins "Videoaufgabe"** üben Teilnehmende, Situationen aus der Praxis zu identifizieren und können dies im Test-Modus unter Beweis stellen. Der neu konzipierte **Video Editor mit Timeline** unterstützt die Autoren bei der Bearbeitung von Video-Lernressourcen (z.B. zur Vorbereitung von Videoaufgaben). Die dort konfigurierten Annotationen, Quizzes und mehr sind auch im **Kursbaustein "Video"** (de)aktivierbar. Am Aufgabenbaustein sorgt die gezielte **Zuweisung von Betreuenden** zu Teilnehmenden in Kurs-Settings mit mehreren Lehrpersonen für eine bessere Übersicht über die eigenen Bewertungsaufträge. Zum Thema **Accessibility** wurden einige Anpassungen vorgenommen, ebenso wurde für eine **gendergerechte Sprache** in den Menüs die Konfiguration des gewünschten Trennzeichens eingeführt. Der Release bringt neben einer **Bestätigungsmail nach Testabschluss** für Teilnehmende und zusätzliche Empfänger sowie neuen **Sammelaktionen** im Authoring Bereich weitere Verbesserungen rund um **Erinnerungen** und der **Zertifikatsfunktion** mit. Neu wird der Standard **OAI-PMH** unterstützt, mit dem z.B. Metadaten von Lernressourcen zur Indexierung an Suchmaschinen-Anbieter weitergeleitet werden können (**SEO**). Zahlreiche **UX/Usability**-Optimierungen und verschiedene **technische Aktualisierungen** runden diesen Release ab.
+Mithilfe des neuen **Kursbausteins "Videoaufgabe"** üben Teilnehmende, Situationen aus der Praxis zu identifizieren und können dies im Test-Modus unter Beweis stellen. Der neu konzipierte **Video Editor mit Timeline** unterstützt die Autoren bei der Bearbeitung von Video-Lernressourcen (z.B. zur Vorbereitung von Videoaufgaben). Die dort konfigurierten Annotationen, Quizzes und mehr sind auch im **Kursbaustein "Video"** (de)aktivierbar. Am Aufgabenbaustein sorgt die gezielte **Zuweisung von Betreuenden** zu Teilnehmenden in Kurs-Settings mit mehreren Lehrpersonen für eine bessere Übersicht über die eigenen Bewertungsaufträge. Der **Kurs(baustein)-Reset** setzt den Grundstein für die zukünftige Rezertifizierungsfunktion. Eine überarbeitete Abonnement-Verwaltung sowie die Ergänzung einer **globalen Benachrichtigung zum Statuswechsel bei Lernressourcen** helfen, den Überblick zu behalten. Zum Thema **Accessibility** wurden einige Anpassungen vorgenommen, ebenso wurde für eine **gendergerechte Sprache** in den Menüs die Konfiguration des gewünschten Trennzeichens eingeführt. Der Release bringt neben einer **Bestätigungsmail nach Testabschluss** für Teilnehmende und zusätzliche Empfänger sowie neuen **Sammelaktionen** im Authoring Bereich weitere Verbesserungen rund um **Erinnerungen** und der **Zertifikatsfunktion** mit. Neu wird der Standard **OAI-PMH** unterstützt, mit dem z.B. Metadaten von Lernressourcen zur Indexierung an Suchmaschinen-Anbieter weitergeleitet werden können (**SEO**). Zahlreiche **UX/Usability**-Optimierungen und verschiedene **technische Aktualisierungen** runden diesen Release ab.
 
 ![Anzahl Features und Bugs in Release 17.2](assets/172/Features_Improvements_Labels_17.2_DE.png)
 
@@ -114,6 +114,25 @@ Ist die entsprechende Option aktiviert, so erhalten Teilnehmende nach der aktive
 
 * * *
 
+## Kurs / Kursbausteine zurücksetzen
+
+Benutzerdaten von einzelnen oder allen Kursteilnehmenden können für einen ganzen Kurs oder ausgewählte Kursbausteine zurückgesetzt werden. Die zurückgesetzten Daten werden archiviert und als Download bereitgestellt. Ein Zurücksetzen ist u.a. möglich für Fortschritt (Lernpfad), Anzahl Versuche, Testdurchläufe, Punkte und Erfolgsstatus, Bewertungen und Erinnerungen.
+
+* * *
+
+## Weitere Kurs-Neuerungen
+
+* Kursbaustein "Formular": Ergänzung zusätzlicher Empfänger für Bestätigungs-E-Mail nach Abgabe des Formulars durch Teilnehmende
+* Kursbaustein "Terminplanung": Optimierungen für nachträglichen Wechsel des Anlass-Typs
+* Zugangsbeschränkungen für Kursbausteine auf Strukturebene sichtbar (Herkömmlicher Kurs)
+* Erinnerungen:
+    * Erinnerungsfunktion nach Ablauf des Zertifikats
+    * Konfiguration datumsgesteuerter Erinnerungen mit der Angabe "davor" und "danach"
+* Gelöschte / Im Papierkorb liegende Videos werden nicht mehr im Kurs abgespielt, es wird stattdessen ein entsprechender Hinweis angezeigt
+* Unterstützung des "tel protocol handler" zur automatischen Auflösung von Telefonnummern in HTML-Seiten inklusive Anzeige eines Telefon-Symbols
+
+* * *
+
 ## Neues in den Bereichen eAssessments, Tests & Fragetypen
 
 #### E-Mail-Bestätigung nach Testabschluss
@@ -131,19 +150,7 @@ In Szenarien wie Einstufungstests, die von Teilnehmenden selbstständig aufgeruf
 * Leistungsnachweis: Verbesserter Informationsbereich und Ergänzung von Zertifikatsdaten (Erstellungsdatum, Gültigkeit)
 * Unterstützung der Sortierung von Noten- und Text-Bewertungen
 * Gruppenaufgabe: Gruppenansicht im Bewertungswerkzeug
-
-* * *
-
-## Neues im Kurs
-
-* Kursbaustein "Formular": Ergänzung zusätzlicher Empfänger für Bestätigungs-E-Mail nach Abgabe des Formulars durch Teilnehmende
-* Kursbaustein "Terminplanung": Optimierungen für nachträglichen Wechsel des Anlass-Typs
-* Zugangsbeschränkungen für Kursbausteine auf Strukturebene sichtbar (Herkömmlicher Kurs)
-* Erinnerungen:
-    * Erinnerungsfunktion nach Ablauf des Zertifikats
-    * Konfiguration datumsgesteuerter Erinnerungen mit der Angabe "davor" und "danach"
-* Gelöschte / Im Papierkorb liegende Videos werden nicht mehr im Kurs abgespielt, es wird stattdessen ein entsprechender Hinweis angezeigt
-* Unterstützung des "tel protocol handler" zur automatischen Auflösung von Telefonnummern in HTML-Seiten inklusive Anzeige eines Telefon-Symbols
+* Systemmeldung nach Start des Testexports
 
 * * *
 
@@ -153,7 +160,7 @@ Ein neuer Wizard wurde implementiert, um per Sammelaktion die Einstellungen für
 
 <figure markdown>
   ![Authoring Bereich - Wizard für Sammelaktionen](assets/172/Wizard_bulk_actions_authoring_DE.png){ class="shadow lightbox thumbnail-xl" }
-  <figcaption>Auswahl der gewünschten Bereiche im Wizard für Sammelaktionen</figcaption>
+  <figcaption>Auswahl der gewünschten Bereiche für Sammelaktionen</figcaption>
 </figure>
 
 Auf der Übersichtsseite am Ende des Wizards können die durchgeführten Anpassungen nochmals kontrolliert werden.
@@ -171,6 +178,20 @@ Auf der Übersichtsseite am Ende des Wizards können die durchgeführten Anpassu
 * Erweiterung der Auswahl des systemweiten Standard-Kurstyps: Mit Lernpfad, Mit Lernfortschritt, Klassisch
 * Taxonomie: Verbesserter Export sowie erweiterter Import inklusive Wizard-Anpassung, um Hintergrund- und Teaser-Bilder hinzuzufügen
 * Nur für Administratoren: Manuelles Hinzufügen und Ändern von Authentifizierungs-Tokens über die Benutzerverwaltung
+
+* * *
+
+## Optimierung der Abonnement-Verwaltung und neues globales Abo
+
+Die Abonnement-Verwaltung in den `persönlichen Werkzeugen` wurde überarbeitet und in das neue Tabellen-Konzept mit Filtermöglichkeiten überführt. Die optimierte Anzeige sowie ein zentrales (De-)Aktivieren und Löschen der einzelnen Abonnenments inklusive Verlinkung zum Kurs bieten eine verbesserte Übersicht auf die eigenen Abonnements.
+
+#### Benachrichtigung über Statuswechsel von Lernressourcen
+
+Besitzer:innen von Kursen und Lernressourcen müssen mitunter informiert werden, wenn sich der Status ihrer Ressourcen durch andere Autoren oder - bei Verwendung des automatischen Kurs-Lebenszyklus - systemgesteuert ändert. Dies kann beispielsweise wichtig sein, wenn mehrere verantwortliche Personen einen Kurs gemeinsam administrieren oder der Kurs explizit auf den Status "Beendet" oder "Gelöscht" gesetzt wird.
+
+Ist das globale Abonnement für Lernressourcen aktiviert, werden die Statusänderungen übersichtlich unter den persönlichen `Abonnenments > Neuigkeiten` aufgelistet und zusätzlich in der E-Mail Sammelbenachrichtigung für Abonnements aufgeführt.
+
+Die Funktion ist per Default aktiviert und gilt jeweils für neue Kurs- und Lernressourcen-Besitzer:innen. Für alle bestehenden Lernressourcen-Besitzer:innen kann das globale Abonnement nachträglich aktiviert werden, eine Deaktivierung durch die Besitzer:innen selbst ist möglich.
 
 * * *
 
@@ -210,11 +231,19 @@ Die Integration in OpenOlat ermöglicht es, dass die Metadaten von dafür freige
   <figcaption>Zertifikatsfunktion im Kurs aktivieren</figcaption>
 </figure>
 
+* Harmonisierung der Aktionen und Meldungen beim Löschen von Testdaten
+* Verbesserung der Kontoablauf-Anzeige
 * Lernpfad: Rote Fortschrittsanzeige für "Nicht bestanden"
 * Tabellenfilter: Optische Hervorhebung aktiver Filter
 * Ersatz grauer Infoboxen durch neue Variante inklusive optionaler Link zum Handbuch
 * Wizards: Verbesserte Fokusbehandlung für Formulare mit Validierung
 * Optimierte Handhabung von HTML-Dateien als Seiteninhalt in Kursen
+* Neue Farbwahlkomponente
+
+<figure markdown>
+  ![Neue Farbwahlkomponente](assets/172/Colour_picker_component_DE.png){ class="shadow lightbox thumbnail-xl" }
+  <figcaption>Neue Farbwahlkomponente</figcaption>
+</figure>
 
 * * *
 
@@ -240,16 +269,22 @@ Konkret ist es ab sofort möglich, in der `Administration > Core Konfiguration >
   <figcaption>Trennzeichen konfigurieren</figcaption>
 </figure>
 
+Es werden laufend weitere Ergänzungen vorgenommen.
+
 * * *
 
 ## Weiteres, kurz notiert
 
+* Gruppentabellen: Anzeige zusätzlicher Gruppeninformationen (Gruppen-ID, Externe ID, Managed-Symbol) in Kursrechte-Verwaltung und der Auswahlliste für gruppenabhängige Sichtbarkeit-/Zugangsregelung
 * Absenzenmanagement: Anzeige des Erstzulassungsdatums in Tabelle der Teilnehmenden
 * Katalog: Eränzung weiterer Filter zur Eingrenzung der Suchergebnisse
 * Optimierte Handhabung von GIF-Dateien
 * Curriculum: Verbesserung der Sichtbarkeit referenzierter Kurse in Curricula
-* QM: Externe Verwaltung des Durchführungstyps eines Kurses
+* QM-Modul:
+    * Externe Verwaltung des Durchführungstyps eines Kurses
+    * Zusätzliche Kontextinformationen im Export des Analysewerkzeugs (z.B. interne / externe IDs von Kursen und Betreuenden)
 * Aktualisierung "Über OpenOlat"-Seite: Ergänzung der Social Media Referenz für Mastodon sowie Anpassung des Spenden-Links
+* Import von Video-Ressourcen und URLs in olat.local.properties konfigurierbar
 
 * * *
 
@@ -272,9 +307,10 @@ Konkret ist es ab sofort möglich, in der `Administration > Core Konfiguration >
 
 !!! note "Checkliste nach Update auf 17.2"
 
-    Folgende Funktionen müssen nach einem Update auf Release 17.2 in der Administration aktiviert bzw. konfiguriert werden:
+    Folgende Funktionen müssen nach einem Update auf Release 17.2 in der `Administration` aktiviert bzw. konfiguriert werden:
     
     * [x] Standard-Kurstyp für die Erstellung neuer Kurse: `Module > Kurs` - Auswahl "Mit Lernpfad" / "Mit Lernfortschritt" / "Klassisch"
+    * [x] Besitzer:innen über Statuswechsel von Kursen / Lernressourcen benachrichtigen: `Module > Repository`- Abschnitt "Benachrichtigung" - "Abonnement"
     * [x] Trennzeichen für gendergerechte Sprache: `Core Konfiguration > Sprachen` - Abschnitt "Geschlechtergerechte Sprache"
     * [x] OAI-PMH-Standard / SEO für Suchmaschinen-Indexierung: `Module > SEO / OAI-PMH Metadaten` - Modul "OAI-PMH Schnittstelle" und "Suchmaschinenoptimierung" aktivieren
 
@@ -282,6 +318,9 @@ Konkret ist es ab sofort möglich, in der `Administration > Core Konfiguration >
 
 ## Weitere Informationen
 
+* [Jira Release Notes 17.2.7](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=20701){:target="_blank”}
+* [Jira Release Notes 17.2.6](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=20700){:target="_blank”}
+* [Jira Release Notes 17.2.5](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=20600){:target="_blank”}
 * [Jira Release Notes 17.2.4](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=20500){:target="_blank”}
 * [Jira Release Notes 17.2.3](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=20401){:target="_blank”}
 * [Jira Release Notes 17.2.2](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=20200){:target="_blank”}

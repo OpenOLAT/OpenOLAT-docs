@@ -1,6 +1,6 @@
-# Formular in Formularen
+# Formulare im Kursbaustein Formular in Kursen
 
-Formulare können mit Hilfe des Kursbausteins Formular in einen OpenOlat Kurs eingebunden werden. Wie Sie Formulare erstellen und in Kurse einbinden erfahren Sie [hier](Three_Steps_to_your_Form.de.md).
+Wie Sie Formulare erstellen und in Kurse einbinden erfahren Sie [hier](Three_Steps_to_your_Form.de.md).
 
 Nachdem Sie den Kursbaustein Formular dem Kurs hinzugefügt haben stehen Ihnen im Kurseditor folgende Tabs zur Verfügung:
 
@@ -30,7 +30,9 @@ Wenn ein Formular im Kurseditor erstellt wird, wird automatisch eine neue Lernre
 
 ![Formular Konfiguration](assets/Formular_Tab2.png){ class="shadow lightbox" }
 
-Zusätzlich kann in dem Tab definiert werden bis wann das Formular von den Lernenden ausgefüllt werden kann. Hierfür kann ein festes oder ein relatives Datum verwendet werden, z.B. x Tage nach dem ersten Kursbesuch. Sobald ein Enddatum definiert wurde wird auch der Tab "[Erinnerungen](../course_operation/Course_Reminders.de.md)" aktiviert. Zum Beispiel könnte man eine Erinnerung erstellen, die die Lernenden wenige Tage vor der Abgabedeadline noch einmal per Mail an das Ausfüllen des Formulars erinnert. Wird die E-Mail Bestätigung aktiviert erhalten die Teilnehmenden eine Bestätigungs-E-Mail und das von ihnen ausgefüllte Formular als PDF Anhang.
+Zusätzlich kann in dem Tab definiert werden bis wann das Formular von den Lernenden ausgefüllt werden kann. Hierfür kann ein festes oder ein relatives Datum verwendet werden, z.B. x Tage nach dem ersten Kursbesuch. Sobald ein Enddatum definiert wurde wird auch der Tab "[Erinnerungen](../course_operation/Course_Reminders.de.md)" aktiviert. Zum Beispiel könnte man eine Erinnerung erstellen, die die Lernenden wenige Tage vor der Abgabedeadline noch einmal per Mail an das Ausfüllen des Formulars erinnert. 
+
+Wird die E-Mail Bestätigung aktiviert erhalten die Teilnehmenden eine Bestätigungs-E-Mail und das von ihnen ausgefüllte Formular als PDF Anhang. Zusätzlich können auch E-Mail Bestätigungen an Besitzer, Betreuer und Externe verschickt werden. 
 
 !!! warning "Achtung"
 
