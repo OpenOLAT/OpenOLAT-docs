@@ -42,7 +42,7 @@ nav:
   - Area and modules:
     - area_modules/index.md
     - Courses:
-      - Overview: "basic_concepts/Courses.md"
+      - Overview: "area_modules/Courses.md"
       - Catalog 1.0: "area_modules/catalog1.0.md"
     - Catalog:
       - Catalog 2.0: "area_modules/catalog2.0.md"
