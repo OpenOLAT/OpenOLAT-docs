@@ -18,4 +18,3 @@ If you want to use OpenOlat in public places it is important to log off of
 OpenOlat; to only close your browser window is not enough. As long as your
 session is active another person could use your OpenOlat login data at that
 computer.
-

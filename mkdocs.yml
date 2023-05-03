@@ -106,8 +106,10 @@ plugins:
       nav_translations:
         de:
           About this manual: Über dieses Handbuch
+          About us: Über uns
           Access configuration : Zugangskonfiguration
           Access Restrictions in the Expert Mode : Zugriffsbeschränkungen im Expertenmodus
+          Account : Konto
           Actions in the Authoring section : Aktionen im Autorenbereich
           Additional Course Features : Zusätzliche Kursfunktionen
           Adjust OpenOlat : OpenOlat anpassen
@@ -116,6 +118,7 @@ plugins:
           Administration and Organisation : Verwaltung und Organisation
           Analytics module : Analytics Modul
           Archive : Archiv
+          Area and modules : Bereiche und Module
           Assess tasks : Aufgaben bewerten
           Access, Roles and Rights : Zugriff, Rollen und Rechte
           Assessing tasks and group tasks : Aufgaben und Gruppenaufgaben bewerten
@@ -128,14 +131,17 @@ plugins:
           Assign roles : Rollen zuweisen
           Attend Participants : Teilnehmer betreuen
           Aufgabe  : Aufgabe
+          Authorisation concept : Berechtigungskonzept
           Authoring : Autorenbereich
           Automatic Group Lifecycle : Automatischer Gruppenlebenszyklus
           BBB - Frequently asked questions: BBB - Häufig gestellte Fragen
+          Basic concepts : Basiskonzepte
           Bewertungswerkzeug  : Bewertungswerkzeug
           Bewertungswerkzeug  : Bewertungswerkzeug
           BigBlueButton module : Modul BigBlueButton
           Blog  : Blog
           Calendar : Kalender
+          Catalog : Katalog
           Catalog 1.0: Katalog 1.0
           Catalog 2.0 : Katalog 2.0
           Changing from QTI 1.2 to QTI 2.1 : Von QTI 1.2 zu QTI 2.1          
@@ -150,6 +156,10 @@ plugins:
           Configure tests : Test konfigurieren
           Configure User : Benutzer konfigurieren
           Core functions : Core Konfiguration
+          Course : Kurs
+          Course design : Kursdesign
+          Courses : Kurse
+          Course editor : Kurseditor
           Course Element Assessment : Kursbaustein Bewertung
           Course element Adobe Connect : Kursbaustein Adobe Connect
           Course element BigBlueButton : Kursbaustein BigBlueButton
@@ -163,9 +173,11 @@ plugins:
           Course Element SCORM Learning Content : Kursbaustein SCORM-Lerninhalt
           Course Element Single Page : Kursbaustein Einzelne Seite
           Course Element Structure : Kursbaustein "Struktur" 
+          Course Element Task : Kursbaustein "Aufgabe" 
           Course element vitero : Kursbaustein vitero
           Course Element_Video : Kursbaustein Video einrichten
           Course element Zoom : Kursbaustein Zoom
+          Course elements : Kursbausteine
           Course Operation : Kursbetrieb
           Course Problems and Error Messages : Probleme und Fehlermeldungen im Kurs
           Course Reminders : Erinnerung
@@ -173,6 +185,8 @@ plugins:
           Courses and Catalog : Kurse und Katalog
           COVID certificate : COVID Zertifikat
           CP Editor : CP Editor
+          CP learning content: CP Lenrinhalt
+          Create course: Kurs erstellen
           Create Courses : Kurse erstellen
           Create Groups : Gruppen erstellen
           Create Learning Resources : Lernressourcen erstellen
@@ -221,9 +235,11 @@ plugins:
           Four Steps to Your Wiki : Vier Schritte zu Ihrem Wiki
           Full-Text Search : Volltextsuche
           General Configuration of Course Elements : Allgemeine Konfiguration von Kursbausteinen
+          General functions : Allgemeine Funktionen
           General Information : Allgemeines
           General information on Forms : Allgemeines zu Formularen
           General Information on Tests : Allgemeines zu Tests
+          Glossary : Glossar
           Grading / Evaluation Scale : Noten / Bewertungskala 
           Group Administration : Gruppenadministration
           Group Management : Gruppenverwaltung
@@ -231,6 +247,7 @@ plugins:
           Guest access : Gastzugang
           Guest and invitation : Gast und Einladung
           Häufig gestellte Fragen  : Häufig gestellte Fragen
+          Help : Hilfe
           How and where can I do a bulk assessment? : Wie und wo kann ich eine Massenbewertung vornehmen?
           How can I have my courses found by search engines? : Wie kann ich meine Kurse durch Suchmaschinen finden lassen?
           How do I create a blog? : Wie erstelle ich einen Blog?
@@ -254,6 +271,7 @@ plugins:
           Knowledge Transfer : Wissensvermittlung
           Landing pages : Startseite
           Learning Activities in Courses : Lernaktivitäten im Kurs
+          Learning resources : Lernressourcen
           Learning resource Video : Lernressource Video
           Life cycles  : Lebenszyklen
           Lectures and absences : Lektionen und Absenzen
@@ -266,6 +284,7 @@ plugins:
           License: Lizenz
           Licenses : Lizenzen
           Login : Login
+          Login and registration : Login und Registration
           Login Page : Login-Seite
           LTI 1.3 Integrations: LTI 1.3 Integrationen
           LTI access: LTI Zugang
@@ -283,6 +302,7 @@ plugins:
           Multiple use of entries : Mehrfachverwendung von Einträgen
           My entries : Meine Einträge
           My portfolio binders : Meine Portfolio Mappen
+          Navigation : Navigation
           Offer Courses : Kurse anbieten
           Other : Andere
           Overview: Übersicht
@@ -292,14 +312,18 @@ plugins:
           Performance assessment : Leistungsbewertung
           Personal folders : Persönliche Ordner
           Personal Menu : Persönliche Werkzeuge
+          Personal menu : Persönliches Menü
           Personal menu and general components: Persönliches Menü und allgemeine Funktionen
-          Podcast  : Podcast
+          Personal tools : Persönliche Werkzeuge
+          Podcast : Podcast
           Portal configuration : Portal konfigurieren
+          Portfolio : Portfolio
           Portfolio - General Information : Allgemeines zum Portfolio
           Portfolio assignment Grading : Portfolioaufgabe kommentieren und bewerten
           Portfolio task and assignment Collecting and editing : Portfolioaufgabe abholen und bearbeiten
           Portfolio template Administration and editing : Portfoliovorlage Administration und Bearbeitung
           Portfolio template Creation : Portfoliovorlage Erstellung
+          Portfolio 2.0 Template : Portfolio 2.0 Vorlage
           Process of an assessment portfolio : Prozess eines Bewertungsportfolios
           Question Bank : Fragenpool
           Question Bank Administration : Fragenpool Administration
@@ -311,14 +335,17 @@ plugins:
           Registration, Login and Logout : Registrierung, Login und Logout
           Release notes: Release Notes
           Reports : Reports
+          Requirements : Voraussetzungen
           Requirements when Working with OpenOlat : Voraussetzungen für die Arbeit mit OpenOlat
           REST API : REST API
+          Resource folder : Ressourcenordner
           Roles and Rights : Rollen und Rechte
           Rubric : Rubrik
           Search : Suchfunktion
           Security : Sicherheit
           Session Timeout and Logout : Session-Timeout und Logout
           Set up info page : Infoseite einrichten
+          Settings : Einstellungen
           Shared by me : Von mir freigegeben
           Shared with me : An mich freigegeben
           Single Page_Add_edit video : Video in der Einzelseite hinzufügen
@@ -327,8 +354,10 @@ plugins:
           Supported Technologies : Unterstützende Technologien
           System : System
           Tab Users : Tab Teilnehmer
+          Table concept: Tabellenkonzept
           Task - Further Configurations : Aufgabe - Weitere Konfiguration
           Technical Information on Resources and Usage : Automatische Informationen zur Lernressource
+          Technology: Technologie
           Technology and Navigation : Technologie und Navigation
           Test editor QTI 2.1 : Testeditor
           Test question types : Test Fragetypen
@@ -354,6 +383,7 @@ plugins:
           Video Upload : Video hochladen
           Virtual classrooms : Virtuelle Klassenzimmer
           WebDAV : WebDAV
+          Wiki : Wiki
           Working Processes : Allgemeine Arbeitsweisen
           Working With Course Elements : Arbeiten mit Kursbausteinen
           Working with Forums : Arbeiten mit Foren
