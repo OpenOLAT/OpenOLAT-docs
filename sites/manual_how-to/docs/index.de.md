@@ -15,7 +15,8 @@
 
 ## Kurse anbieten
 
-1. [Wie kann ich meine Kurse durch Suchmaschinen finden lassen?](/de/manual_how-to/oai_pmh/oai_pmh)
+1. [Wie zeige ich meine Kurse im OpenOlat-Katalog?](/manual_how-to/catalog/catalog)
+2. [Wie kann ich meine Kurse durch Suchmaschinen finden lassen?](/de/manual_how-to/oai_pmh/oai_pmh)
 
 ## Teilnehmeradministration
 
