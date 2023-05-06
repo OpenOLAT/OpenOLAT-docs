@@ -6,7 +6,7 @@ nav:
     - basic_concepts/index.md
     - Requirements: "basic_concepts/Requirements_OpenOlat.md"
     - Roles and Rights:
-      - Overview: "basic_concepts/Roles_Rights.md"
+      - basic_concepts/Roles_Rights.md
       - Authorisation concept: "basic_concepts/Authorisation_Concept.md"
       - Coach: "basic_concepts/coach.md"
       - Guest access: "basic_concepts/guest_access.md"
@@ -20,10 +20,9 @@ nav:
       - Table concept: "basic_concepts/Table_Concept.md"
       - Math formula: "basic_concepts/Math_formula.md"
     - Technology:
-      - Overview: basic_concepts/Technology.md 
+      - basic_concepts/Technology.md 
       - Using WebDAV: "basic_concepts/Using_WebDAV.md" 
       - Technology and Navigation: "basic_concepts/Technology_and_Navigation.md"
-    
  
   - Login and registration:
     - login_registration/index.md
@@ -62,6 +61,20 @@ nav:
       - Question Pool Sharing Options: "area_modules/Question_Pool_Sharing_Options.md"
       - Question Bank Review Process: "area_modules/Question_Bank_Review_Process.md"
       - Question Bank Administration: "area_modules/Question_Bank_Administration.md"
+    - Portfolio:
+      - Overview: "area_modules/Portfolio.md"
+      - Portfolio - General Information: "area_modules/Portfolio_General_Information.md"
+      - Components of the portfolio:
+        - Overview: "area_modules/Components_of_the_portfolio.md"
+        - My portfolio binders: "area_modules/My_portfolio_binders.md"
+        - My entries: "area_modules/My_entries.md"
+        - Media center: "area_modules/Media_center.md"
+        - Shared by me: "area_modules/Shared_by_me.md"
+        - Shared with me: "area_modules/Shared_with_me.md"
+        - Multiple use of entries: "area_modules/Multiple_use_of_entries.md"
+        - Competences tags: "area_modules/Competences_tags.md"
+        - The portfolio editor: "area_modules/The_portfolio_editor.md"
+        - The portfolio editor for 17.1: "area_modules/The_portfolio_editor_17_1.md"
     - Curriculum Management: "area_modules/Curriculum_Management.md"
 
   - Learning resources:
@@ -211,21 +224,6 @@ nav:
     - Administration: 
       - Group Administration: "groups/Group_Administration.md"
       - LTI access: "groups/LTI_Share_groups.md"
-
-  - Portfolio:
-    - portfolio/index.md
-    - Portfolio - General Information: "portfolio/Portfolio_General_Information.md"
-    - Components of the portfolio:
-      - Overview: "portfolio/Components_of_the_portfolio.md"
-      - My portfolio binders: "portfolio/My_portfolio_binders.md"
-      - My entries: "portfolio/My_entries.md"
-      - Media center: "portfolio/Media_center.md"
-      - Shared by me: "portfolio/Shared_by_me.md"
-      - Shared with me: "portfolio/Shared_with_me.md"
-    - Multiple use of entries: "portfolio/Multiple_use_of_entries.md"
-    - Competences tags: "portfolio/Competences_tags.md"
-    - The portfolio editor: "portfolio/The_portfolio_editor.md"
-    - The portfolio editor for 17.1: "portfolio/The_portfolio_editor_17_1.md"
 
   - Help:
     - help/index.md
