@@ -6,7 +6,7 @@ Hier erfahren Sie wie Sie ein Formular für unterschiedliche Zwecke erstellen, e
 
 1. Im [Autorenbereich](../authoring/index.de.md) den Link "Erstellen" anklicken und die Lernressource "Formular " wählen.
 2. Vergeben Sie einen Titel für das Formular.
-3. Es erscheint das Menü "[Einstellungen](../course_create/Course_Settings.de.md)" der Administration. Hier können Sie optional gleich oder später weitere Einstellungen vornehmen, z.B. eine Lizenz hinterlegen.
+3. Es erscheint das Menü "[Einstellungen](../course_create/Course_Settings.de.md)" der Administration. Hier können Sie optional gleich oder später weitere Einstellungen vornehmen, z.B. eine Lizenz bei den Metadaten hinterlegen.
 
 !!! info "Hinweis"
 
@@ -18,21 +18,21 @@ Hier erfahren Sie wie Sie ein Formular für unterschiedliche Zwecke erstellen, e
 
 ## Schritt 2: Formular gestalten + finalisieren
 
-1. In der "Administration" der Lernressource Formular > "Inhalt editieren" wählen und sie gelangen in den [Formular Editor](../forms/Form_editor_Questionnaire_editor.de.md)
-2. "Neu Layout hinzufügen: Wählen Sie eine der angezeigten Grundstrukturen für Ihr Formular. Das Formular wird in die entsprechend gekennzeichneten Bereiche aufgeteilt indem Sie im nächsten Schritt verschiedene Inhalte hinzufügen können. 
+1. In der "Administration" der Lernressource Formular > "Inhalt editieren" wählen und sie gelangen in den [Formular Editor](../forms/Form_editor_17_1.de.md)
+2. "Neues Layout einfügen": Wählen Sie eine der angezeigten Grundstrukturen für Ihr Formular. Das Formular wird in die entsprechend gekennzeichneten Bereiche aufgeteilt in die Sie im nächsten Schritt verschiedene Inhalte einfügen können. 
 3. "Inhalt hinzufügen" wählen und das gewünschte Element auswählen. Starten Sie am besten mit einem "Titel" und fügen Sie mit dem Element "Paragraph" einen kurzen Einstiegstext hinzu um die User entsprechend zu informieren.
 
     Um das nächste Element hinzuzufügen klicken Sie auf "Inhalt hinzufügen". Alternativ können sie auch bei einem hinzugefügten Inhalt auf die 3-Punkte Option klicken und dann davor oder danach hinzufügen wählen. Sie sehen wieder die Auswahl aller Elemente. 
 
 4. Wählen Sie anschließend die gewünschten Fragetypen und eventuell organisatorische Elemente aus.  Speichern Sie jeweils, sofern auswählbar, Ihre Einstellungen. 
 
-5. Wiederholen Sie den Vorgang, bis das Formular fertiggestellt ist. Falls sie wiederkehrende Elemente verwenden wollen, können sie diese  duplizieren. Wollen Sie die Reihenfolge der Elemente ändern können Sie diese einfach per drag and drop verschieben.
+5. Wiederholen Sie den Vorgang, bis das Formular fertiggestellt ist. Falls sie wiederkehrende Elemente verwenden wollen, können sie diese über das entsprechende Icon duplizieren. Wollen Sie die Reihenfolge der Elemente ändern können Sie diese einfach per drag and drop verschieben.
 
 6. Wenn Sie fertig sind schliessen Sie den Editor indem Sie auf den Titel des Formulars in der Krümelnavigation klicken. Das Formular ist jetzt gespeichert und Sie sehen das Formular aus der Perspektive eines Users.
 
 Je nachdem welche Art von Fragen Sie erstellen möchten wählen Sie „Rubrik“, „Einzelauswahl“, „Mehrfachauswahl“, „Datei hochladen“ oder „Texteingabe“.
 
-Weitere Einzelheiten zur Verwendung des Formular Editors finden Sie im Kapitel "[Formular Editor"](../forms/Form_editor_Questionnaire_editor.de.md).
+Weitere Einzelheiten zur Verwendung des Formular Editors finden Sie im Kapitel "[Formular Editor"](../forms/Form_editor_17_1.de.md).
 
 ## Schritt 3: Formular im Kurs einbinden
 
@@ -51,11 +51,11 @@ Weitere Einzelheiten zur Verwendung des Formular Editors finden Sie im Kapitel "
 
 6. Bei Bedarf können noch die weiteren Tabs des Kursbausteins konfiguriert werden.
 
-7. Zum Schluss muss der Kurs noch publiziert werden damit das Formular für die Teilnehmenden sichtbar wird und ausgefüllt werden kann.
+7. Zum Schluss muss der Kurs publiziert werden damit das Formular für die Teilnehmenden sichtbar wird und ausgefüllt werden kann.
 
     Dafür einfach den Kurseditor durch Klick auf den Namen des Kurses in der Krümelleiste schließen und bei der erscheinenden Auswahl das Publizieren durch die Auswahl "Ja" manuell oder automatisch erlauben. Alternativ kann auch der "Publizieren" Button im Editor rechts in der Toolleiste verwendet werden.
 
-!!! info "Info
+!!! info "Info"
 
     Es ist auch möglich eine Formular Lernressource direkt im Kurs über den entsprechenden Kursbaustein Formular, Umfrage oder Bewertung zu erstellen. Häufig ist es den Erstellenden dann aber nicht bewusst, dass sie eigentlich eine neue _Lernressource_ Formular anlegen.
 

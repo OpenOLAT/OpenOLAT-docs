@@ -9,15 +9,12 @@ Lektionenblock als abwesend eingetragen bekommen.
 
 Die allgemeinen Einstellungen werden systemweit in der
 [Administration](../../manual_admin/administration/Lecture_and_roll_call_management.de.md) vorgenommen. Ferner
-kann das Absenzmanagement generell vom OpenOlat Administrator ein- oder
-ausgeschaltet werden.
+kann das Absenzmanagement generell vom OpenOlat Administrator ein- oder ausgeschaltet werden.
 
-Auf dieser Seite finden Sie die Ansicht des Kursbesitzers. Informationen zur
-Handhabung für den [Dozenten](Lectures_-_Teacher_view.de.md) und die
+Auf dieser Seite finden Sie die Ansicht des Kursbesitzers. Informationen zur Handhabung für den [Dozenten](Lectures_-_Teacher_view.de.md) und die
 [Kursteilnehmenden](Lectures_-_User_view.de.md) finden Sie in den
 entsprechenden Kapiteln. Die Anwesenheitskontrolle wird anschliessend durch
-einzelne Dozenten (Kursbetreuer) durchgeführt. Enthält ein Kurs keine
-Kursbetreuer kann das Werkzeug nicht sinnvoll genutzt werden.  
+einzelne Dozenten (Kursbetreuer) durchgeführt. Enthält ein Kurs keine Kursbetreuer kann das Werkzeug nicht sinnvoll genutzt werden.  
 
 # Kursbesitzerperspektive
 
@@ -28,7 +25,7 @@ im Menü "Administration" -> „Einstellungen“ -> „Durchführung“.
 
 ![Absenzen Konfiguration](assets/Absenzen_Konfiguration.png)
 
-Anschließend erscheint das Menü "Lektionen und Absenzen" unter Kurs
+Anschliessend erscheint das Menü "Lektionen und Absenzen" unter Kurs
 Administration.  
 
 ![Kurs Administration Lektionen](assets/13_Lektionen_Absenzen.png)
@@ -94,9 +91,7 @@ können jedoch nur mit einer Zeitangabe korrekt angezeigt werden.
 
 ![Lektionen-Teilnehmer](assets/Lektionen_teilnehmer.png)
 
-Im Tab "Teilnehmer" erhalten Sie eine Übersicht über alle Teilnehmenden dieses
-Kurses oder der ausgewählten Gruppen. Es wird angezeigt, wie viele Lektionen
-insgesamt erfasst sind, und anschliessend bei wie vielen Lektionen der
+Im Tab "Teilnehmer" erhalten Sie eine Übersicht über alle Teilnehmenden des Kurses oder der ausgewählten Gruppen. Es wird angezeigt, wie viele Lektionen insgesamt erfasst sind, und anschliessend bei wie vielen Lektionen der
 Teilnehmende anwesend, abwesend und allenfalls entschuldigt war. Im
 Fortschritt wird die Anwesenheit grafisch dargestellt. Grün symbolisiert die
 Anwesenheit, orange entschuldigte und rot abwesende bzw. unentschuldigte
@@ -105,7 +100,7 @@ bereits stattgefundenen Lektionen berechnet. Wenn beispielsweise erst eine
 Lektion stattgefunden hat und der Teilnehmende anwesend war, wird in der
 Spalte "Anwesenheit" 100% angezeigt.
 
-![attention-icon](assets/attention_434343_64.png){class="size24"}In der Achtungsspalte mit dem Symbol
+![attention-icon](assets/attention_434343_64.png){class="size24"} In der Achtungsspalte mit dem Symbol
 wird angezeigt, ob die definierte Anwesenheitsquote erreicht worden ist. Wird
 ein rotes Ausrufezeichen angezeigt, wurde das erforderliche Limit nicht
 erreicht.
