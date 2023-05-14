@@ -37,7 +37,8 @@ Die richtigen Antworten können Sie bestimmen, indem Sie in der Spalte _Korrekt_
 Ferner kann im Reiter "Feedback" neben der genauen Punktevergabe auch die
 Anzahl der Antwortmöglichkeiten des Users definiert werden.
 
-![Beispiel Multiple Choice Frage](assets/Multiple_choice_Beispiel_DE.jpg){ class="shadow" }
+![Beispiel Multiple Choice Frage](assets/Multiple_choice_Beispiel_DE.jpg)
+{ class=thumbnail-lg }
 
 ## Kprim
 
@@ -59,7 +60,7 @@ Alle Antworten korrekt = 100% der Punktzahl
 3 korrekte Antworten = 50% der Punktzahl  
 2, 1 oder 0 korrekte Antworten = 0% der Punktzahl
 
-![Beispiel Kprim Frage](assets/KPrim_Beispiel_DE.jpg){ class="shadow" }
+![Beispiel Kprim Frage](assets/KPrim_Beispiel_DE.jpg){ class="thumbnail-xl" }
   
 ## Matrix
 
@@ -124,9 +125,9 @@ Die Punkte können frei gewählt werden. Es können auch Punkte für Antwortalte
 
 Die Eingabe der gleichen Antwort in mehrere Lücken kann zugelassen oder unterbunden werden.
 
-![Editor Lückentext Icon](assets/Editor_Lueckentext_3Punkte_DE.jpg){ class="shadow" }
+![Editor Lückentext Icon](assets/Editor_Lueckentext_3Punkte_DE.jpg)
 
-![Editor Lückentext](assets/Editor_Lückentext_DE.jpg){ class="shadow" }
+![Editor Lückentext](assets/Editor_Lückentext_DE.jpg)
 
 ![Varianten Lückentext](assets/Lueckentext_Varianten_DE.jpg){ class="shadow" }
 

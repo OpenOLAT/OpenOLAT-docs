@@ -20,7 +20,7 @@ Hier können Sie weitere Dinge, die unter „Infos“ erscheinen, z.B. die Namen
 Hier können Sie den Durchführungszeitraum des Kurses definieren, das „[Lektionen- und Absenzmanagement](../course_operation/Lectures_and_absences.de.md)“ einschalten und weiter konfigurieren (sofern vom Administrator aktiviert), existierende herkömmliche Kurse in Lernpfad Kurse konvertieren bzw. bei [Lernpfad Kursen](Learning_path_course.de.md) definieren, wie der Lernfortschritt berechnet wird, anhand der Anzahl der Kursbausteine oder anhand der Bearbeitungsdauer der Kursbausteine.
 
 ## Tab Freigabe
-Im Tab "Freigabe" definieren Sie wie und für wen ein Kurs oder eine Lernressource freigegeben wird. Weitere Informationen zur Einrichtung der assenden Zugangskonfiguration finden Sie [hier](Access_configuration.de.md).
+Im Tab "Freigabe" definieren Sie wie und für wen ein Kurs oder eine Lernressource freigegeben wird. Weitere Informationen zur Einrichtung der passenden Zugangskonfiguration finden Sie [hier](Access_configuration.de.md).
 
 ## Tab Katalog
 Über den Button "In Katalog einfügen" kann die Lernressource in den Katalog eingetragen und einer oder mehreren vordefinierten Kategorie zugeordnet werden. Um den Kurs oder die Lernressource in mehrere Katalogbereiche einzutragen muss der Schritt wiederholt werden. Anschließend erscheinen alle Katalogeinträge hier im Tab "Katalog" und können hier auch wieder entfernt werden.
@@ -39,7 +39,7 @@ Unter Layout kann eine Layoutvorlage für einen Kurs ausgewählt, die Kursnaviga
 
 Je nach Einstellungen durch den Kursadministrator stehen Ihnen bestimmte Layoutvorlagen, mindestens aber eine Standard Vorlage zur Verfügung. Darüber hinaus können Sie im [Ablageordner](../course_operation/Storage_folder.de.md) des Kurses eigene CSS Kursvorlagen hinterlegen und im Menü Layout verknüpfen. So lassen sich z.B. Schriften und Farben für Texte, Überschriften, Links, das Menü und die Toolbox individuell gestalten und mit einem passenden Logo versehen.
 
-Im Bereich "Navigation" kann die Sichtbarkeit des Menüs und der Krümelnavigation eingestellt werden. In Lernpfad Kursen kann darüber hinaus eingestellt werden, ob die Menü Icons und der spezifische Lernpfad für den User angezeigt wird oder nicht. Je nach linearem oder flexiblen Szenario bietet sich die eine oder andere Variante an.
+Im Bereich "Navigation" kann die Sichtbarkeit des Menüs und der Krümelnavigation eingestellt werden. In Lernpfad Kursen kann darüber hinaus eingestellt werden, ob die Menü Icons und der spezifische Lernpfad für den User angezeigt wird oder nicht. Je nach linearem oder flexiblem Szenario bietet sich die eine oder andere Variante an.
 
 ![Lernpfad mit Icons](assets/lp_icons_DE.png){ class="shadow" }
 ![Lernpfad ohne Pfad und Icons](assets/no_lp_no_icons_DE.png){ class="shadow" }
@@ -54,7 +54,7 @@ Die Nutzung der Tools der Toolbar ist besonders für linear gestaltete [Lernpfad
 ![Kursstruktur](assets/course_structure_DE.png){ class="shadow" }
 
 ## Tab Bewertung {: #assessment}
-In diesem Tab können Sie die Verwendung von **Leistungsnachweisen** und eines **Zertifikat** aktivieren. In Lernpfad Kursen werden in diesem Tab die Einstellungen für das Bestehen des Kurses, die Punkteanzeige u.ä. definiert.
+In diesem Tab können Sie die Verwendung von **Leistungsnachweisen** und die Vergabe von **Zertifikaten** aktivieren. In Lernpfad Kursen werden in diesem Tab die Einstellungen für das Bestehen des Kurses, die Punkteanzeige u.ä. definiert.
 
 ### Einstellungen Bewertung (für Lernpfad Kurse)
 Bei [Lernpfad Kursen](Learning_path_course.de.md) werden in dem Tab "Bewertung" zusätzlich auch die Kriterien für das **Bestehen** des gesamten Kurses eingestellt. Ein Bestehen kann z.B. erfolgen, wenn ein Lerner 100% beim Lernfortschritt erreicht hat, alle oder eine bestimmte Anzahl von Kursbausteinen bestanden hat oder eine bestimmte Mindestpunktzahl erreicht hat.
@@ -65,13 +65,13 @@ Im Einzelnen stehen folgende Konfigurationsmöglichkeiten zur Verfügung:
 
   * Punkte
     * Hier kann definiert werden ob bzw. welche Art von Punkten (Gesamtpunkte oder Durchschnitt) noch ergänzend zu der Prozentanzeige im Kurs angezeigt wird. ![Prozentanzeige](assets/percentages_points_DE.png){ class="shadow" }
-  * Betreuenede können
+  * Betreuende können
     * Bewertung zuweisen
     * Bewertung freigeben: Hier kann eingestellt werden, ob der Betreuer die Möglichkeit haben soll, die Bewertung für die Teilnehmer freizugeben.
     * "bestanden" manuell setzen: Diese Option ist nur verfügbar, wenn das Feld "Betreuer kann Bewertung freigeben" aktiviert ist. In diesem Fall kann der Kurs Betreuer bzw. Besitzer im Bewertungswerkzeug manuell einstellen, ob ein Kursteilnehmer den Kurs bestanden hat oder nicht.
   * Bestanden, sobald eines der Kriterien zutrifft
     * Lernfortschritt 100 %: Wenn alle obligatorischen Kursbausteine abgeschlossen wurden und 100 % angezeigt wird, gilt der Kurs automatisch als bestanden.
-    * Alle Kursbausteine bestanden: Der Kurs gilt als bestanden, wenn alle bewertbaren Kursbausteine, die mit einem "bestanden/nicht bestanden" versehen sind, bestanden wurden, egal ob sich um obligatorische oder freiwillige Kursbausteine handelt. Um einzelne Kursbausteine auszunehmen, muss in der Konfiguartion des Kursbausteins im Kurseditor "Bei Kurs-Bewertung ausschliessen" angehakt sein.
+    * Alle Kursbausteine bestanden: Der Kurs gilt als bestanden, wenn alle bewertbaren Kursbausteine, die mit einem "bestanden/nicht bestanden" versehen sind, bestanden wurden, egal ob sich um obligatorische oder freiwillige Kursbausteine handelt. Um einzelne Kursbausteine auszunehmen, muss in der Konfiguration des Kursbausteins im Kurseditor "Bei Kurs-Bewertung ausschliessen" angehakt sein.
     * Anzahl Kursbausteine bestanden: Hier können Sie definieren, wie viele Kursbausteine bestanden sein müssen, damit der gesamte Kurs als bestanden gilt.
     * Punktschwelle erreicht: Hier können Sie definieren, wie viele Punkte Lernende erreichen müssen, damit der gesamte Kurs als bestanden gilt.
  
@@ -92,17 +92,17 @@ Der Link zum Leistungsnachweis erscheint im Kurs erst dann, wenn im Kurs mindest
 Wenn Sie die Funktion ausschalten, sehen Ihre Kursteilnehmenden keine Leistungsnachweise mehr. Die Leistungsnachweise gehen nicht verloren, sondern werden lediglich nicht mehr angezeigt. Wenn Sie den Leistungsnachweis wieder einschalten, stehen alle aktuellen Daten wieder zur Verfügung. Wenn Sie hingegen einen Kurs mit bestehenden Leistungsnachweisen löschen, können die Benutzer nach wie vor ihre Leistungsnachweise einsehen.
 
 ### (Kurs) Zertifikat
-Ein PDF Zertifikat kann als Bestätigung für den Besuch eines Kurses bzw. der Erreichung von kursbezogenen Aktivitäten verwendet werden. Ein Zertifikat kann auch ausgestellt werden ohne die Verwendung eines Leistungsnachweises. Sie wählen aus, ob das Zertifikat **manuell** vom Betreuer ausgestellt wird, oder **automatisch** nach Bestehen des Kurses. 
+Ein PDF Zertifikat kann als Bestätigung für den Besuch eines Kurses bzw. der Erreichung von kursbezogenen Aktivitäten verwendet werden. Ein Zertifikat kann auch ausgestellt werden ohne die Verwendung eines Leistungsnachweises. Sie wählen aus, ob das Zertifikat **manuell** vom Betreuer ausgestellt wird, und/oder **automatisch** nach Bestehen des Kurses. 
 
 Die Auswahl "manuell" gestattet die Verwendung von Zertifikaten auch in Kursen ohne bewertbare Kurselemente. Wenn das Zertifikat manuell ausgestellt werden soll, kann der Betreuer dies im Bewertungswerkzeug in der Leistungsübersicht der einzelnen Benutzer vornehmen. Die Benutzer erhalten automatisch eine E-Mail-Benachrichtigung, sobald ein Zertifikat ausgestellt worden ist.
 
-Sobald der Teilnehmende alle Bedingungen für einen bestandenen Kurs erfüllt hat, ist das Zertfikat in der Toolbar des jeweiligen Kurses unter "Mein Kurs" im Leistungsnachweis verfügbar.
+Sobald der Teilnehmende alle Bedingungen für einen bestandenen Kurs erfüllt hat, ist das Zertifikat in der Toolbar des jeweiligen Kurses unter "Mein Kurs" im Leistungsnachweis verfügbar.
 
-Für das Zertifkat kann eine Gültigkeitsdauer festgelegt werden. Sie legen dabei die Gültigkeitsdauer in Tagen, Wochen, Monaten oder Jahren fest. 
+Für das Zertifikat kann eine Gültigkeitsdauer festgelegt werden. Sie legen dabei die Gültigkeitsdauer in Tagen, Wochen, Monaten oder Jahren fest. 
 
 Um die Gültigkeit des Zertifikats zu überprüfen, muss der Vorlage das Attribut "certificateVerificationUrl" hinzugefügt werden. Dieses erlaubt es, mittels QR-Code das Zertifikat zu einem späteren Zeitpunkt nochmals zu generieren und mit der vorliegenden Version zu vergleichen. Sofern beide Versionen übereinstimmen, kann das Zertifikat als gültig erklärt werden. Der QR-Code zur Validierung ist allerdings nur bei Verwendung eines HTML-Formulars möglich.
 
-Anhand des Austellungsdatum sowie des Ablaufdatum des Zertifikats können [Erinnerungen](../course_operation/Course_Reminders.de.md){:target="_blank”} ausgelöst werden. 
+Anhand des Austellungsdatums sowie des Ablaufdatums des Zertifikats können [Erinnerungen](../course_operation/Course_Reminders.de.md){:target="_blank”} ausgelöst werden, z.B. erhält der User eine Info, dass das Zertifikat abgelaufen ist oder in wenigen Tagen abläuft oder eine Rezertifizierung ab sofort möglich ist. 
 
 #### Zertifikatsvorlage erstellen ####
 Als Vorlage für das Zertifikat dient in der Regel eine systemweite, vom

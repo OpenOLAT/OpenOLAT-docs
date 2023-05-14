@@ -4,10 +4,7 @@
 ![single page icon](assets/single_page_icon.png)
 
 In the course element "Single page" you can insert various files in your
-course. In this way you can, for example, provide central information, the
-course schedule or literature tips for your course or place content such as
-pictures or videos precisely in the course. The files themselves are created
-in the storage folder of the course.
+course. In this way you can, for example, provide central information, the course schedule or literature tips for your course or place content such as pictures or videos precisely in the course. The files themselves are created in the storage folder of the course.
 
 !!! info "Info"
 
@@ -24,12 +21,8 @@ Here you carry out the central configuration of this course element. There are t
   * Select any file from the storage folder
   * Upload file in storage folder
 
-![singe page content](assets/single_page_page_content.png)
-
 For further editing of HTML pages you can use the OpenOlat Editor. It works
-similar to a word processing program. The automatically created file when you
-create a page for the first time already has the name of the course element.
-Once created, open the file with the link "Open file in editor" and you will
+similar to a word processing program. The automatically created file when you create a page for the first time already has the name of the course element. Once created, open the file with the link "Edit page" and you will
 get to the OpenOlat HTML Editor.
 
 ![html editor](assets/html_editor.png)
@@ -40,8 +33,7 @@ course elements of the course and to the tools in the
 different formatting.
 
 You can also upload files that you have previously created to the storage
-folder of the course and link them with the help of the course element. The
-link "Select file" shows you all files in the folder. Then you can link these
+folder of the course and link them with the help of the course element. The link "Select" shows you all files in the folder. Then you can link these
 files via the course element "Single page" and integrate them into your
 course. This method is recommended if you want to influence the structure of
 the folder yourself.
