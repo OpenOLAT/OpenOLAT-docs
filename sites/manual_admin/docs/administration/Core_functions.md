@@ -6,6 +6,8 @@ In this area the default language can be selected and it can be defined which
 languages are generally available to the users. Furthermore, language packages
 can be imported and exported.
 
+Auch Einstellungen bezüglich einer geschlechterspezifischen Sprache können hier von den OpenOlat Administratoren ausgewählt werden.
+
 ##  User tool
 
 Here administrators can set which OpenOlat
