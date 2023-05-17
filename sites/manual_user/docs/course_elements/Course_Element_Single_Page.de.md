@@ -21,11 +21,9 @@ Hier nehmen Sie die zentrale Konfiguration dieses Kursbausteins vor. Sie haben f
   * Eine beliebige Datei aus dem Ablageordner wählen
   * Eine Datei in den Ablageordner hochladen und mit dem Baustein verknüpfen
 
-![single page content](assets/single_page_content_de.png)
-
 Für die weitere Bearbeitung von HTML-Seiten können Sie den OpenOlat Editor
 nutzen. Er funktioniert ähnlich wie ein Textverarbeitungsprogramm. Eine
-automatisch erstellte Datei trägt bereits den Namen des Kurselements. Einmal angelegt, öffnen Sie die HTML-Datei mit dem Link "Datei im Editor öffnen" und Sie gelangen in den OpenOlat HTML Editor.
+automatisch erstellte Datei trägt bereits den Namen des Kurselements. Einmal angelegt, öffnen Sie die HTML-Datei mit dem Link "Seite bearbeiten" und Sie gelangen in den OpenOlat HTML Editor.
 
 ![html editor](assets/html_editor.png)
 
@@ -35,8 +33,8 @@ zu den Tools in der [Toolbar](../course_operation/Using_Additional_Course_Featur
 
 Sie können auch Dateien die Sie zuvor erstellt haben in den Ablageordner des
 Kurses hochladen oder einen Ressourcenordner mit dem Kurs und dem Ablageordner
-verbinden. Über den Link "Datei auswählen" werden Ihnen alle Dateien
-angezeigt, die sich im Ablageordner befinden. Anschließend können Sie diese
+verbinden. Über den Link "Auswählen" werden Ihnen alle Dateien
+angezeigt, die sich im Ablageordner befinden. Anschliessend können Sie diese
 Dateien über den Kursbaustein "Einzelne Seite" verlinken und so in Ihren Kurs
 einbinden. Dieser Weg empfiehlt sich, wenn Sie die Strukturierung des
 Ablageordners selbst beeinflussen möchten.
@@ -45,14 +43,13 @@ Mit der "Einzelnen Seite" können auf verschiedene Weise Videos und Audios in
 den Kurs eingebunden werden. Detaillierte Information finden Sie
 [hier](../resource_video/Single_Page_Add_edit_video.de.md).
 
-Die Dateien können bei Bedarf später auch über den Link "Seite ersetzen"
-wieder gewechselt werden.
- 
-Öffnen und speichern Sie HTML-Seiten, die Sie mit einem externen Editor
-erstellt haben, nicht mit dem eingebauten HTML-Editor, da dadurch Teile der
-Formatierung verloren gehen können. Der OpenOlat HTML-Editor enthält nur den
-< body > Bereich einer HTML Seite. Sollen Einträge im HTML < head > vorgenommen
-werden, muss dies in einem externen Editor erfolgen.
+Die Dateien können bei Bedarf später auch 
+wieder ausgetauscht werden.
+
+!!! warning "Achtung"
+
+    Öffnen und speichern Sie HTML-Seiten, die Sie mit einem externen Editor
+    erstellt haben, nicht mit dem eingebauten HTML-Editor, da dadurch Teile der Formatierung verloren gehen können. Der OpenOlat HTML-Editor enthält nur den < body > Bereich einer HTML Seite. Sollen Einträge im HTML < head > vorgenommen werden, muss dies in einem externen Editor erfolgen.
 
 Unter „Sicherheitseinstellungen“ können Sie festlegen, ob Verweise in Ihren
 HTML-Seiten nur auf Dateien des gleichen Ordners und auf darin enthaltene

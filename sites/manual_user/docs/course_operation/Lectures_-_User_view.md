@@ -9,16 +9,15 @@ A user can open his absences in the personal menu.
 ## Overview of courses
 
 Here the user (course participant) can see the courses in which absence
-management is used. He or she can see how many lectures are recorded per
-course and how his or her attendance or absence is distributed per course. The
-progress to date is also displayed. Green stands for present lectures, orange
-for excused lectures and red for absent lectures. Further details can also be
+management is used. 
+Die Übersicht umfasst die Tabs Tagesübersicht, Lektionen und Absenzen mit allen Kursen, die Abmeldungen und Fehlzeiten des Users sowie eventuelle Rekurse.
+He or she can see how many lectures are recorded per course and how his or her attendance or absence is distributed per course. The progress to date is also displayed. Green stands for present lectures, orange for excused lectures and red for absent lectures. Further details can also be
 displayed via the "Details" option. A red exclamation mark appears in the
 column
 ![](assets/attention_434343_64.png)
 if the attendance rate falls below the required minimum.
 
-  
+![Abesenzen Übersicht Kurse](assets/Absenzen_uebersicht_kurse173_en.png)  
 
 ## Detailed view of a course
 
@@ -42,7 +41,8 @@ appears until which the appeal can be submitted. Closed" is then displayed.
 The deadlines are stored system-wide in the administration. The appeal request
 is sent to the lecturers of the corresponding lecture block.
 
-  
+
+![Absenzen Detail Übersicht](assets/absenzen_detailsicht_kurs.png)
 
   
 

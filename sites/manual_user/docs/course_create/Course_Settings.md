@@ -101,7 +101,8 @@ A validity period can be set for the certificate. You specify the period of vali
 
 To control the validity of a certificate the attribute certificateVerificationUrl needs to be added to the template. It allows to generate the certificate again later on, thanks to a QR code. It can then be compared with the already available version. If both versions are consistent, the certificate can be validated. However, the QR code for validation is only possible if you use an HTML form.
 
-Based on the date of issue as well as the expiry date of the certificate, [reminders](../course_operation/Course_Reminders.md){:target="_blank"} can be triggered. 
+Based on the date of issue as well as the expiry date of the certificate, [reminders](../course_operation/Course_Reminders.md){:target="_blank"} can be triggered.
+ z.B. erhält der User eine Info, dass das Zertifikat abgelaufen ist oder in wenigen Tagen abläuft oder eine Rezertifizierung ab sofort möglich ist. 
 
 #### Create PDF template ####
 Usually, a systemwide PDF template, specified beforehand by an administrator, should be available. If however, you wish to utilize your own individual template, you can upload one in the  **Certificate template**  section. A PDF template though is no ordinary PDF file, but has to be either a PDF form created with e.g. Acrobat Pro or LibreOffice, or a HTML form.
