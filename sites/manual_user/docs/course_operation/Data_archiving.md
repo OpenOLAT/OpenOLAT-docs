@@ -138,6 +138,9 @@ file. The zip file contains a folder for each form. In it there is
 an xlsx file containing the form answers of the persons who filled in the form.
 have filled in the form.
 
+### Video task
+Es werden alle im Kurs eingebauten Kursbausteine Video-Aufgabe unabhängig vom gewählten Modus aufgelistet. Die gewünschten Bausteine können ausgewählt und die Ergebnisse als Zip-Datei gespeichert werden. Die zip Datei enthält eine xlsx Datei mit den Ergebnissen der einzelnen Teilnehmenden.
+
 ### Chat history
 
 Here the chat history can be exported as xlsx file and also

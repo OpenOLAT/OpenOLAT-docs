@@ -6,7 +6,7 @@ Die mit einem * versehenen Fragetypen müssen manuell ausgewertet werden.
 
 ## Single Choice
 
-![Icon Single Choice Frage](assets/Icon_Single_Choice_DE.png){ class=size24 }
+![Icon Single Choice Frage](assets/Icon_Single_Choice_DE.png){class=size24 }
 
 Eine Single-Choice-Frage besteht aus einer Frage und Antworten, von denen nur eine ausgewählt werden kann. Im Test ist nur eine Antwort richtig.
 
@@ -38,7 +38,7 @@ Ferner kann im Reiter "Feedback" neben der genauen Punktevergabe auch die
 Anzahl der Antwortmöglichkeiten des Users definiert werden.
 
 ![Beispiel Multiple Choice Frage](assets/Multiple_choice_Beispiel_DE.jpg)
-{ class=thumbnail-lg }
+{ class=thumbnail-sm }
 
 ## Kprim
 

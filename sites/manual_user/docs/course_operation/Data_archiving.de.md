@@ -14,7 +14,7 @@ bereitgestellt.
 Zur Speicherung der Ergebnisse klicken Sie zunächst auf einen Menüpunkt z.B.
 einen bestimmten Kursbausteintyp, wählen dann ein konkretes Element aus, das
 Sie archivieren wollen und klicken auf "Archivieren".  Bei Speicherungen die
-länger dauern, wie bei den Logfiles, wird der User per Mail informiert.
+länger dauern, wie bei den Logfiles, werden Sie per Mail informiert.
 
 ## Datenarchivierung von einzelnen Elementen
 
@@ -24,8 +24,7 @@ Speicherung der alten Fragebögen. In der Regel nicht mehr relevant.
 
 ### Umfragen
 
-Es werden alle Umfragen des Kurses angezeigt. Die gewünschten zu
-archivierenden Umfragen können ausgewählt und als Zip-Datei gespeichert
+Es werden alle Umfragen des Kurses entsprechend ihrer Einbindung in der Kurssstruktur angezeigt. Die gewünschten zu archivierenden Umfragen können ausgewählt und als Zip-Datei gespeichert
 werden.
 
 ### Tests
@@ -46,9 +45,8 @@ personalisiert gespeichert und enthalten alle Testergebnisse.
 
 ### Kursresultate
 
-Hier werden die Endresultate von allen im Kurs integrierten Assessment
-Bausteinen wie Tests, Bewertungen, Portfolioaufgaben, Checklisten und Aufgaben
-von allen Kursteilnehmenden gebündelt als Zip-Datei archiviert.
+Hier werden die *Endresultate* von allen im Kurs integrierten Assessment
+Bausteinen wie Tests, Bewertungen, Portfolioaufgaben, Checklisten, Aufgaben usw. von allen Kursteilnehmenden gebündelt als Zip-Datei archiviert. Die zip Datei kann direkt heruntergeladen und gespeichert werden, liegt aber auch noch im privaten Ordner des Kursbesitzers in OpenOlat. 
 
 Im Zip-File findet man eine xlsx-Datei mit Informationen zu den
 Kursteilnehmenden sowie eventuell von den Teilnehmenden abgegebene Dokumente.
@@ -79,10 +77,7 @@ jeweils einem extra Ordner.
 ### Logfiles
 
 Hier können die personalisierten Logfiles der Kursbesitzer sowie die
-anonymisierten Logfiles der Kurs Teilnehmenden für einen gewählten Zeitraum
-gesichert werden. Je nach Umfang kann die Erstellung einige Zeit in Anspruch
-nehmen. Anschließend findet man die Logfiles im persönlichen, privaten
-OpenOlat Ordner als Zip-File mit Excel-Tabelle.
+anonymisierten Logfiles der Kurs Teilnehmenden für einen gewählten Zeitraum gesichert werden. Je nach Umfang kann die Erstellung einige Zeit in Anspruch nehmen. Anschliessend findet man die Logfiles im persönlichen, privaten OpenOlat Ordner als Zip-File mit Excel-Tabelle.
 
 ### Foren
 
@@ -99,17 +94,13 @@ werden.
 
 ### Teilnehmer Ordner
 
-Es werden alle "Teilnehmer Ordner" Kursbausteine angezeigt. Die gewünschten zu
-archivierenden Elemente können ausgewählt und als Zip-Datei gespeichert
+Es werden alle "Teilnehmer Ordner" Kursbausteine angezeigt. Die gewünschten zu archivierenden Elemente können ausgewählt und als Zip-Datei gespeichert
 werden. In der Zip-Datei befinden sich dann die einzelnen Elemente mit jeweils
 einem Ordner pro Teilnehmer mit je einem Abgabe- und Rückgabeordner.
 
 ### Wikis
 
-Es werden alle Wikis des Kurses aufgelistet. Die gewünschten zu archivierenden
-Wikis können ausgewählt und als Zip-Datei gespeichert werden. In der Zip-Datei
-befinden sich dann jeweils ein Ordner pro Wiki sowie einem Ordner mit
-Metadaten für jedes gespeicherte Wikis.
+Es werden alle Wikis des Kurses aufgelistet. Die gewünschten zu archivierenden Wikis können ausgewählt und als Zip-Datei gespeichert werden. In der Zip-Datei befinden sich dann jeweils ein Ordner pro Wiki sowie einem Ordner mit Metadaten für jedes gespeicherte Wikis.
 
 Beim Wiki werden alle Seiten und alle hochgeladenen Dateien in eine ZIP-Datei
 verpackt. Der Teilnehmer Ordner wird entsprechend der Ordner Struktur dieses
@@ -125,8 +116,7 @@ gespeichert werden.
 
 Es werden alle Checklisten des Kurses aufgelistet. Die gewünschten zu
 archivierenden Checklisten können ausgewählt und als Zip-Datei gespeichert
-werden. Die zip Datei enthält einen Ordner für jede Checkliste. Darin befindet
-sich jeweils eine xlsx Datei, die die Ergebnisse der Personen, die die
+werden. Die zip Datei enthält einen Ordner für jede Checkliste. Darin befindet sich jeweils eine xlsx Datei, die die Ergebnisse der Personen, die die
 Checklisten ausgefüllt haben enthält.
 
 ### Formulare
@@ -135,6 +125,10 @@ Es werden alle Formulare des Kurses aufgelistet. Die gewünschten Formulare kön
 werden. Die zip Datei enthält einen Ordner für jedes Formular. Darin befindet
 sich jeweils eine xlsx Datei, die die Formular Antworten der Personen, die die
 das Formular ausgefüllt haben, enthält.
+
+### Videoaufgabe (Video-Aufgabe)
+Es werden alle im Kurs eingebauten Kursbausteine Video-Aufgabe unabhängig vom gewählten Modus aufgelistet. Die gewünschten Bausteine können ausgewählt und die Ergebnisse als Zip-Datei gespeichert werden. Die zip Datei enthält eine xlsx Datei mit den Ergebnissen der einzelnen Teilnehmenden.
+
 
 ### Chat Historie
 

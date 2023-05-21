@@ -1,7 +1,7 @@
 # Persönliche Ordner
 
 
-![](assets/folder.png)
+![Icon](assets/folder.png)
 
 ## Ordner im persönlichen Menu
 
@@ -25,7 +25,7 @@ des Users sichtbar. In den persönlichen Werkzeugen kann unter "Andere
 Benutzer" nach dem Benutzer gesucht werden, der ein Dokument dort hochgeladen
 hat. Dies vereinfacht den Datenaustausch zwischen OpenOlat Nutzern.
 
-![](assets/pers_ordner_DE.png)
+![Persönlicher Ordner Link](assets/pers_ordner_DE.png)
 
 ## Allgemeines zum Ordner
 
@@ -68,9 +68,9 @@ In OpenOlat gibt es mehrere unterschiedliche Varianten von Ordnern. Neben den
 beiden Ordnern im persönlichen Menü existieren in OpenOlat noch folgende
 Ordner Varianten:
 
-  * [Ablageordner](../course_operation/Using_Course_Tools.de.md) (in Kursen)   
-  * [Kursbaustein Ordner](../course_elements/Knowledge_Transfer.de.md#Wissensvermittlung-_ordner) (in Kursen) 
+  * [Ablageordner](../course_operation/Storage_folder.de.md) (in Kursen)   
+  * [Kursbaustein Ordner](../course_elements/Course_Element_Folder.de.md) (in Kursen) 
   * Ordner der Themenwahl (in Kursen)
   * [Teilnehmer Ordner](../course_elements/Communication_and_Collaboration.de.md#KommunikationundKollaboration-_participantfolder) (in Kursen)
-  * [Ressourcenordner ](../course_create/Course_Settings.de.md#Kurseinstellungen-_detail_ressourcen)(Lernressource) 
+  * [Ressourcenordner ](../authoring/Various_Types_of_Learning_Resources.de.md#ressourcenordner)(Lernressource) 
 
