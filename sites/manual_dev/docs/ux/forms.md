@@ -49,5 +49,5 @@ Can be used in n modal.
 
 ## Guidelines / Usage
 
-* Keep it short. 
+* Keep it short.
 * 

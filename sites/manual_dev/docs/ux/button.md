@@ -1,15 +1,15 @@
 
 # Button
 
-_Todo_
-
-- [ ] add accessiblity guidelines
-
----
 
 Buttons are clickable elements that are used to trigger actions. They communicate calls to action to the user and allow users to interact with pages in a variety of ways.
 
 ## Variants
+
+
+Standard Button / Only Icon Button / Button with leading icon / Button with trailing icon 
+
+## Emphasis / Importance
 
 ### Primary button
 
@@ -17,21 +17,12 @@ The Primary button is for all the action of high emphasis, as Save / primary act
 
 ### Secondary button / Default button
 
-![Secondary Button](assets/button_icon_right.png "Button")
-
 The secondary button has more emphasis then a ghost button. Mostly used for secondary important actions beside a primary button to highlight a hierarchy.
 
 ### Ghost button
 
-![Ghost Button](assets/ghost-button.jpg)
 Ghost button is an text with a "invinsible" background, that is visible on hover or on select, when clicking on mobile.
 
-**normal state:**
-Link in primary color.
-
-**hover state:** shows the background of the primary color in 80% opacity.
-
-**disabled state:** grey disabled.
 
 ### Text Button / Link
 
@@ -72,8 +63,8 @@ Buttons can be aligned left, right, or center depending on the context.
 
 | Alignment| Use case| Sample Picture |
 |----------|----------|--------------|
-| *Left alignment*     | In page content and forms where the content is typically unconstrained other than by the normal OO Grid. In these instances an F-pattern (top to bottom and left to right in a horizontal movement) is common for reading flow, and buttons align with other content on the page like headings, lists, input labels, and form labels. | ![freeflow diagram](assets/forms-freeflow.png) |
-| *Right alignment*     | In fixed dialogs flows (Yes/No, Cancel,Delete...) that continue in a progressive direction (wizards) and toolbars. In these instances a Z-pattern (top to bottom and left to right with a diagonal, scanning movement) is common for reading flow. In these instances a user may be taking a progressive action, like affirming a modal, or an action upon a section, like formatting text in a comment. | ![workflow](assets/workflow-button.jpg) |
+| *Left alignment*     | In page content and forms where the content is typically unconstrained other than by the normal OO Grid.  | ![freeflow diagram](assets/forms-freeflow.png) |
+| *Right alignment*     | In fixed dialogs flows (Yes/No, Cancel,Delete...) that continue in a progressive direction (wizards) and toolbars.  | ![workflow](assets/workflow-button.jpg) |
 | *centered*    | used for Emtpystates or  when the content has the only available action on the screen.  |![button centered](assets/button-centered-situation.jpg) |
 
 ### Order
@@ -82,4 +73,3 @@ When using multiple buttons, the position of the primary action is the most impo
 
 ![button order](assets/button-order2.jpg){ class="thumbnail-xl" }
 A primary button will be left-aligned and positioned to the left of the secondary/tertiary button.
-Execption is the ellipsis button, its placed at the beneath the primary button.
