@@ -2,12 +2,9 @@
 
 If you want to implement a teaching scenario with several courses, e.g. a
 course of studies, and many files are to be used in all courses, it is
-advisable to store these files centrally in the learning resource "resource
-folder" and then integrate it in the desired courses. This has the advantage
+advisable to store these files centrally in the learning resource [resource folder](../authoring/Various_Types_of_Learning_Resources.md) and then integrate it in the desired courses. This has the advantage
 that you only have to make changes to the files once and they are
-automatically visible in all linked courses. Typical examples for such files
-are basic framework conditions, general terms and conditions, organisational
-information, information on general support and contact persons, etc.
+automatically visible in all linked courses. Typical examples for such files are basic framework conditions, general terms and conditions, organisational information, information on general support,   contact persons, aber auch kursübergreifende Lehrmaterialien. 
 
 ### What you need
 
@@ -18,13 +15,16 @@ information, information on general support and contact persons, etc.
 
 ## Method
 
-1. **Create a Ressource Folder:** Go to the [Authoring Area](../authoring/index.md) and select "Create" -> "Resource folder".
+### Create a Ressource Folder:
 
-![create Ressourcefolder](assets/resourcefolder_create.jpg)  
+1. Go to the [Authoring Area](../authoring/index.md) and select "Create" -> "Resource folder".
+
+![create Ressourcefolder](assets/resourcefolder_create.jpg){class="thumbnail-lg"}  
   
-2. **Rename Ressourcefolder:** Enter a suitable name for the learning resource and complete the general description form as required. Since the resource folder is used more for internal organization, it is not necessary to enter information here. The description of the learning resource serves more for your own organization.  
+2. Rename Ressourcefolder: Enter a suitable name for the learning resource and complete the general description form as required. Since the resource folder is used more for internal organization, it is not necessary to enter information here. The description of the learning resource serves more for your own organization.  
+Anschliessend landen Sie in den "Einstellungen" der Lernressource "Ressourcenordner" und können hier weitere Konfigurationen vornehmen.  
   
-3. **Open Ressource Folder:** Click on the name of your resource folder in the bread-crumb navigation to make further settings and upload your files. Alternatively, you can also create HTML files directly here.
+3. Open Ressource Folder: Click on the name of your resource folder in the bread-crumb navigation to make further settings and upload your files. Alternatively, you can also create HTML files directly here.
 
 ![Ressource Folder](assets/Ressourcenordner.png)
 
@@ -52,21 +52,17 @@ write protection in the "Options" menu of the course.
   
 Repeat the procedure for all relevant courses.
 
-| Organize access to the files  
----|---  
-1.|
-
-To access the resource folder files within the course, go to the storage
+### Organize access to the files  
+  
+1. To access the resource folder files within the course, go to the storage
 folder. Here you will find the automatically created subfolder
 "_sharedfolder".
 
-![](assets/13_sharedfolder.png)  
+![](assets/13_sharedfolder.png){class="thumbnail-lg"}  
   
-2.|
+2. You can now add these files like all other files in the folder using the
+course element "[Single page](../course_elements/Course_Element_Single_Page.md)" in the course editor.  
 
-You can now add these files like all other files in the folder using the
-course element "[Single page](../course_elements/Knowledge_Transfer.md)" in the course editor.  
-  
-You can only include _one_ resource folder per course. You should therefore
-carefully consider in advance which files you want to organize using a cross-
-course resource folder instead of the course-specific folder.
+!!! info "Attention"
+
+    You can only include _one_ resource folder per course. You should therefore carefully consider in advance which files you want to organize using a cross-course resource folder instead of the course-specific folder.

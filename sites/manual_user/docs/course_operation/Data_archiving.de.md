@@ -126,7 +126,7 @@ werden. Die zip Datei enthält einen Ordner für jedes Formular. Darin befindet
 sich jeweils eine xlsx Datei, die die Formular Antworten der Personen, die die
 das Formular ausgefüllt haben, enthält.
 
-### Videoaufgabe (Video-Aufgabe)
+### Videoaufgabe 
 Es werden alle im Kurs eingebauten Kursbausteine Video-Aufgabe unabhängig vom gewählten Modus aufgelistet. Die gewünschten Bausteine können ausgewählt und die Ergebnisse als Zip-Datei gespeichert werden. Die zip Datei enthält eine xlsx Datei mit den Ergebnissen der einzelnen Teilnehmenden.
 
 

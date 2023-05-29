@@ -22,6 +22,10 @@ Review | Only owners of this learning resource have access. All preparations for
 Access For Coach | Owners and coaches of this learning resource have access.  
 Published | All members of the learning resource have access.  
 Finished | All members still have access to the course, but can only read.  
+
+!!! info "Hinweis"
+
+    Hat ein Kurs den Status "Review", "Freigabe für Betreuer" oder "Vorbereitung" erscheint der Kurs im Menü Kurse im Tab "in Vorbereitung". Ein Zugang zum Kurs mit allen integrierten Kursbausteinen ist aber nicht möglich. Auch ein Zugriff auf die Toolbar ist (noch) nicht möglich.
   
 The concrete variant of course access (or access to a learning resource in
 general) is set up in the "Share" menu of the "Administration" course. In the
@@ -52,7 +56,7 @@ The following options are available:
 
 * At any time (Default): Participants may leave the course at any given time.
 * After course end date: If an [execution period](https://confluence.openolat.org/display/OO130EN/Access+configuration#Accessconfiguration-d14e1774) has been configured for the course, this options allows participants to leave the course at the end of this time period. If this option was selected without a configured execution period, participants are not allowed to leave the course at any time.
-* Never: Participants may never leave the course.
+* Never: Participants may never leave the course. Teilnehmende müssen wenn notwendig vom Kursbesitzer explizit ausgetragen werden.
 
 If members are allowed to leave the course, they can do so by selecting "Leave course" in the "My course" menu.
 
@@ -76,8 +80,11 @@ download | The learning resource is available for download by other authors.
 
 !!! Tip
 
-    The options "reference" and "copy" make sense if you want to use a template or
-    a good example for other OpenOlat authors.
+    The options "reference" and "copy" make sense if you want to use a template or a good example for other OpenOlat authors.
+
+    Ein Referenzierung macht allerdings *bei Kursen* wenig Sinn und sollte hier eher vermieden werden.
+    
+    Überlegen Sie genau, ob Sie die jeweiligen Freigaben wirklich für alle anderen Autoren der OpenOlat Instanz machen möchten.
 
 
 ## Offer / Configure offers {: #offer}
@@ -91,17 +98,17 @@ you can then create offers.
 
     * Offers can be published independent of the publication status of the course. To do this, select a in the offer creation "time-limited" and define a future period. The offer is then available in the catalog for this defined period.
     * Offers can be limited to different parts of organizations(sub-organizations).
-    * Guest access & open without booking are now available as offers: "Guest access" & "Without booking". Nothing has changed in the way it works.
-
+  
 
 You can define when and under which conditions the users of the users of the system can book a learning resource.
-
-Thus, a booking with access code, without or via PayPal (if activated by the admin) is possible. Also an access without booking or as a guest can be configured. The details are described below.  
-
 Booking can be used as a synonym for
-book, enroll, purchase.
+book, enroll, purchase.The details are described below. 
 
 Select the button "Create offer" / "Add booking method" to add offers / booking methods.
+
+!!! info  "Achtung"
+
+    Die Konfiguration eines Zugangs für OpenOlat Gäste (Personen ohne OpenOlat Account) ist nur in **herkömmlichen Kursen** möglich.
 
 ### Angebotsoptionen
 
@@ -130,8 +137,7 @@ In the traditional course, an offer can also be created for guests only. This is
 
 ### Details for offer configuration
 
-Optionally, a start and end date can be added to a booking configuration/offer configuration. This configuration is then only valid between the configured date
-valid. You can also specify only a start date or only an end date. If
+Optionally, a start and end date can be added to a booking configuration/offer configuration. This configuration is then only valid between the configured date valid. You can also specify only a start date or only an end date. If
 you do not want to specify a time restriction, leave this field empty.
 Booking methods can be adjusted later.
 

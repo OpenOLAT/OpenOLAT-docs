@@ -70,8 +70,7 @@ Die Änderungsmöglichkeiten sind vielfältig.
 !!! danger "Achtung"
 	Das Ändern von OpenOlat-CSS-Klassen kann zu unerwartetem Verhalten beim Aktualisieren des
 	System führen. Die unten aufgeführten Klassennamen und Element-IDs sind nicht garantiert verfügbar
-	zwischen OpenOlat-Updates. Die DOM-Struktur von OpenOlat kann sich ändern und daher ist es 
-	Es wird daher nicht empfohlen, CSS-Regeln zu erstellen, die die Stile im OpenOlat-DOM oder CSS-Namensraum ändern.
+	zwischen OpenOlat-Updates. Die DOM-Struktur von OpenOlat kann sich ändern und daher wird nicht empfohlen, CSS-Regeln zu erstellen, die die Stile im OpenOlat-DOM oder CSS-Namensraum ändern.
 
 
 Hier ein paar Beispiele:
@@ -85,7 +84,7 @@ auch die Hintergrundfarbe auf diesem Weg definieren. Die gewünschte
 Hintergrundfarbe können Sie einfach im Ablageordner des Kurses hinterlegen und
 passend verlinken.
 
-Der Code für die genannten Selektoren können dann folgendermaßen aussehen:  
+Der Code für die genannten Selektoren können dann folgendermassen aussehen:  
   
 	#o_body {  
 		background-color: red; /*erzeugt einen roten Hintergrund */  

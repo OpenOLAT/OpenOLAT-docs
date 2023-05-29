@@ -30,7 +30,7 @@ Massenbewertung vorgenommen werden.
 ### Hilfestellung zur Erstellung von Massenbewertungen
 
 Wählen Sie zunächst im Bewertungswerkzeug den Kursbaustein Ihres Kurses aus,
-für den eine Massenbewertung durchgeführt werden soll oder wählen Sie die Option "Massenbewertung" in der Toolbar. Anschließend können Sie mit der Massenbewertung beginnen.
+für den eine Massenbewertung durchgeführt werden soll oder wählen Sie die Option "Massenbewertung" in der Toolbar. Anschliessend können Sie mit der Massenbewertung beginnen.
 
 !!! note "Hinweis"
     Der Kursbaustein muss so konfiguriert

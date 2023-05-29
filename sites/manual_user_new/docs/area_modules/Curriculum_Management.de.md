@@ -76,7 +76,7 @@ Im Curriculum Browser kann über
 Im Tab "Benutzerverwaltung" können dem Curriculum weitere Curriculumverwalter
 hinzugefügt oder bestehende entfernt werden.
 
-![](assets/Curriculum_Verwalter_hinzufuegen.png)
+![Curriculum Verwalter hinzufügen](assets/Curriculum_Verwalter_hinzufuegen.png)
 
 ## Curriculum suchen
 
