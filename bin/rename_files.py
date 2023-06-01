@@ -43,10 +43,13 @@ for i in range(2,215):
     print("----------Current line: " + str(i))
     if i in range(31,36):
         continue
-    if i in (44, 124, 129, 151, 163, 168, 176, 200):
+    if i in (44, 64, 65, 91, 124, 129, 130, 143, 147, 151, 163, 168, 176, 180, 193, 200):
         continue
         
     folder = read_excel_cell(file_path, sheet_name,'A'+str(i))
+
+    if i == 175:
+        folder = folder[1:]
 
     if folder is None:
         continue
