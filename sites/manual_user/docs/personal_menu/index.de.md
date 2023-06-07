@@ -26,7 +26,7 @@ In der oberen Navigationsleiste generell verfügbar ist der
 Elemente in der Navigationsleiste rechts oben angezeigt werden, ist abhängig
 von Ihren Einstellungen.
 
-![Navigation](assets/DE_Navigationsleiste.png){ class="shadow aside-right lightbox"}
+![Navigation](assets/global_navigation_DE.png){ class="shadow aside-right lightbox"}
 
 Im persönlichen Menü finden Sie die Bereiche [Persönliche
 Werkzeuge,](Personal_Menu.de.md)

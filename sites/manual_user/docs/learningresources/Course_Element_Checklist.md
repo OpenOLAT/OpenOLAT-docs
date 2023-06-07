@@ -1,4 +1,4 @@
-# Course Element: Checklist
+# Course Element "Checklist"
 
 ![checklist.png](assets/checklist.png)
 

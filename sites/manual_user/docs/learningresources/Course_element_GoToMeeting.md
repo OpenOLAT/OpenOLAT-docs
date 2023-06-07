@@ -1,4 +1,4 @@
-# Course element GoToMeeting
+# Course Element "GoToMeeting"
 
 ## (GoTo Training)
 

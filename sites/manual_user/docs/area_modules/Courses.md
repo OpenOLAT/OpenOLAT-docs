@@ -14,7 +14,7 @@ course or learning resource based on a keyword.
 You can also filter your courses based on various criteria, including the
 timeline, membership status, and results. To do so, click the small arrow and
 more filter options will appear. Learn more about how to best filter your
-tables [here](../personal/Working_with_tables.md).
+tables [here](../basic_concepts/Table_Concept.md).
 
 ![Courses](assets/mycourses-de.png)
 
@@ -45,5 +45,5 @@ structure of the catalog can be set up by the OpenOlat administrator.
 ## Curriculum
 
 If a user also has courses assigned to a curriculum, the
-„[Curricula](../curriculum/Curriculum_Management.md)" section will also appear in the
+„[Curricula](Curriculum_Management.md)" section will also appear in the
 "Courses" menu.

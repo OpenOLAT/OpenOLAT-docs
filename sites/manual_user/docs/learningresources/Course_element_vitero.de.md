@@ -1,4 +1,4 @@
-# Kursbaustein vitero
+# Kursbaustein "vitero"
 
 ## Kursbaustein "vitero"
 

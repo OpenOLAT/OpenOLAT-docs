@@ -120,7 +120,7 @@ Daten aller Teilnehmenden zurückgesetzt werden.
 Nun wird der entsprechende Kursteilnehmer ausgewählt und die angezeigten
 Felder ausgefüllt bzw. bei Rubrikbewertungen die Rubrik-Felder ausgefüllt.
 
-![Bewertungswerkzeug Rubrik.png](assets/Bewertungswerkzeug_rubrik.png)
+![Bewertungswerkzeug Rubrik.png](assets/Bewertungswerkzeug_Rubrik.png)
 
 Der User hat nach der Bewertung direkt Zugriff auf seine Bewertung inklusive
 Bewertungsrubrik bei einer Rubrik-Bewertung.

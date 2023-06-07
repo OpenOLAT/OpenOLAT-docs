@@ -1,4 +1,4 @@
-# Kursbaustein Adobe Connect
+# Kursbaustein "Adobe Connect"
 
 !!! warning "Achtung"
 

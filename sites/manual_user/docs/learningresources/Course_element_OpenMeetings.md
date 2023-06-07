@@ -1,4 +1,4 @@
-# Course element OpenMeetings
+# Course Element "OpenMeetings"
 
 ## Course element "OpenMeetings"
 

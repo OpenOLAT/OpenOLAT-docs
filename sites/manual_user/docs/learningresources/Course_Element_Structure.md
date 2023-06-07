@@ -1,4 +1,4 @@
-# Course Element: Structure
+# Course Element "Structure"
 
 ![structure icon](assets/structure.png)
 

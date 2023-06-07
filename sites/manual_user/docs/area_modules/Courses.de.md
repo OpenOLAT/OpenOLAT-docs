@@ -17,7 +17,7 @@ basierend auf einem Stichwort zu finden.
 Ihre Kurse können Sie auch anhand verschiedener Kriterien filtern, darunter
 nach Aktualität, Mitgliedsstatus und nach Bewertungsstatus. Klicken Sie dafür
 auf den kleinen Pfeil und weitere Filteroptionen erscheinen.
-[Hier](../personal/Working_with_tables.de.md) erfahren Sie mehr darüber wie Sie Ihre
+[Hier](../basic_concepts/Table_Concept.de.md) erfahren Sie mehr darüber wie Sie Ihre
 Ansicht optimal filtern können.
 
 ![Meine Kurse](assets/mycourses-de.png)
@@ -59,5 +59,5 @@ Kursen und Lernressourcen an.
 ## Curriculum
 
 Verfügt ein User auch über Kurse, die einem [Curriculum
-](../curriculum/Curriculum_Management.de.md)zugeordnet sind, erscheint im Menü "Kurse" auch
+](Curriculum_Management.de.md)zugeordnet sind, erscheint im Menü "Kurse" auch
 der Bereich "Lehrgänge".

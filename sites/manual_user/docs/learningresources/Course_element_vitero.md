@@ -1,4 +1,4 @@
-# Course element vitero
+# Course Element "vitero"
 
 ## Kursbaustein "vitero"
 

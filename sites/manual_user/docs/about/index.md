@@ -1,10 +1,4 @@
----
-ᴴₒᴴₒᴴₒ: true
----
-![Logo: OpenOlat – infinite learning](../../../assets/OpenOlat_Logo_claim_RGB.png)
-
-
-# About this Manual
+# About this manual
 
 This user manual helps you to make yourself familiar with OpenOlat while
 thoroughly explaining it's functionality.

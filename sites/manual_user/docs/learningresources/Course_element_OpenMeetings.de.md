@@ -1,4 +1,4 @@
-# Kursbaustein OpenMeetings
+# Kursbaustein "OpenMeetings"
 
 ## Kursbaustein "OpenMeetings"
 

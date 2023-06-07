@@ -1,4 +1,4 @@
-# Course Element: Video
+# Course Element "Video"
 
 ![icon_video.png](assets/video_64_0_434343_none.png)  
 

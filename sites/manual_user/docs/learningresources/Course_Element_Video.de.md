@@ -1,7 +1,6 @@
-# Kursbaustein "Video" einrichten
+# Kursbaustein "Video"
 
 ![icon_video.png](assets/video_64_0_434343_none.png)
-
 
 Verwenden Sie den Kursbaustein „Video“, um ein Video im MPEG-4 Format (.mp4) in Ihren Kurs einzubinden. Das Video muss extern erstellt werden.
 

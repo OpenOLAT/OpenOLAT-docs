@@ -1,4 +1,4 @@
-# Course element BigBlueButton
+# Course Element "BigBlueButton"
 
 ## General
 

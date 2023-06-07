@@ -1,4 +1,4 @@
-# Kursbaustein BigBlueButton
+# Kursbaustein "BigBlueButton"
 
 ## Allgemeines
 

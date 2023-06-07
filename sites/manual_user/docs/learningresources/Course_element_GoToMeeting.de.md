@@ -1,4 +1,4 @@
-# Kursbaustein GoToMeeting
+# Kursbaustein "GoToMeeting"
 
 ## (GoTo Training)
 

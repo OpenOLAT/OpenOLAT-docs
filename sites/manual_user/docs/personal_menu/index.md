@@ -27,7 +27,7 @@ tools](Personal_Menu.md), [configuration](Configuration.md) and system.
 Further information about the single elements can be found under the
 corresponding link.
 
-![Navigation](assets/en_navigation.png){ class="shadow aside-right lightbox"}
+![Navigation](assets/global_navigation.png){ class="shadow aside-right lightbox"}
 
 In general the chat (instant messenger) is shown in the navigation. Depending
 on the settings in the personal menu, more elements can be shown in the

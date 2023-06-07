@@ -1,4 +1,4 @@
-# Course Element: card2brain Flashcards
+# Course Element "card2brain flashcards"
 
 ![card2brain icon](assets/card2brain_434343_64.png)
 

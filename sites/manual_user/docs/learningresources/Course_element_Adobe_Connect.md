@@ -1,4 +1,4 @@
-# Course element Adobe Connect
+# Course Element "Adobe Connect"
 
 **Type of software**|  Commercial, license and server hosting required  
 ---|---  

@@ -1,1 +1,1 @@
-# Kursbaustein Zoom
+# Kursbaustein "Zoom"

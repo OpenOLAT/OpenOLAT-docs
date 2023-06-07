@@ -1,4 +1,4 @@
-# Kursbaustein Microsoft Teams
+# Kursbaustein "Microsoft Teams"
 
 **Art der Software** |  Kommerzielle Software, Lizenz und Serverhosting erforderlich  
 ---|---  

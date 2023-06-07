@@ -116,14 +116,16 @@ plugins:
           Admin manual: Administrationshandbuch
           Administration : Administration
           Administration and Organisation : Verwaltung und Organisation
+          Adobe Connect : Adobe Connect
           Analytics module : Analytics Modul
           Archive : Archiv
           Area and modules : Bereiche und Module
           Assess tasks : Aufgaben bewerten
           Access, Roles and Rights : Zugriff, Rollen und Rechte
+          Appointment scheduling : Terminplanung
           Assessing tasks and group tasks : Aufgaben und Gruppenaufgaben bewerten
           Assessing tests : Tests bewerten
-          Assessment : Wissensüberprüfung
+          Assessment : Bewertung
           Assessment mode : Prüfungsmodus
           Assessment of course modules : Bewertung von Kursbausteinen
           Assessment of learners : Lernende bewerten
@@ -138,14 +140,17 @@ plugins:
           Basic concepts : Basiskonzepte
           Bewertungswerkzeug  : Bewertungswerkzeug
           Bewertungswerkzeug  : Bewertungswerkzeug
+          BigBlueButton : BigBlueButton
           BigBlueButton module : Modul BigBlueButton
           Blog  : Blog
           Calendar : Kalender
+          card2brain Flashcards : card2brain Lernkarten
           Catalog : Katalog
           Catalog 1.0: Katalog 1.0
           Catalog 2.0 : Katalog 2.0
           Changing from QTI 1.2 to QTI 2.1 : Von QTI 1.2 zu QTI 2.1          
           Chat : Chat
+          Checklist : Checkliste
           Coach : Betreuer
           Coaching : Coaching
           Communication and Collaboration : Kommunikation und Kollaboration
@@ -197,7 +202,6 @@ plugins:
           Creating Forms : Formulare erstellen
           Creating learning path courses : Lernpfad Kurse erstellen
           Creating Podcasts : Podcast erstellen
-          Creating Portfolio Tasks : Portfolioaufgabe erstellen
           Creating Portfolios : Portfolio erstellen
           Creating Tasks : Aufgabe erstellen
           Creating Tests : Tests erstellen
@@ -212,23 +216,33 @@ plugins:
           Design possibilities of courses and course elements : Gestalterische Möglichkeiten von Kursen und Kursbausteinen
           Detailed View of Learning Resources : Detailansicht einer Lernressource
           Developer cookbook: Developer Cookbook
+          Document : Dokument
           e-Assessment Administration : e-Assessment Administration
           E-Mail : E-Mail
           E-Mail Settings : E-Mail Einstellungen
           eAssessment : Online Prüfungen
           eAssessment ePortfolio : e-Assessment ePortfolio
           eAssessment Question bank : e-Assessment Fragenpool
+          edu-sharing: edu-sharing
+          Edubase: Edubase
+          Enrolment: Einschreibung
           Exams : Prüfungen
+          External Page : Externe Seite
           External platforms : Externe Platformen
           External tools : Externe Werkzeuge
+          File dialog: Dateidiskussion
           Files and Folders : Dateien und Ordner
           Finding courses : Kurse finden
+          Folder: Ordner
+          Form : Formular
           Form editor (Questionnaire editor) : Formular Editor
           Forms in Courses : Formulare in Kursen
           Forms in Forms Element : Formular in Formularen
           Forms in Questionnaires : Formular in Umfragen
           Forms in Rubric Scoring : Formular als Rubrik Bewertung
           Forms in the ePortfolio template : Formular in der Portfolio 2.0 Vorlage
+          Forum : Forum
+          Forum - Working with Forums : Forum - Arbeiten mit Foren
           Four Steps to Your Blog : Vier Schritte zu Ihrem Blog
           Four Steps to Your Podcast : Vier Schritte zu Ihrem Podcast
           Four Steps to Your Test or Self-test : Vier Schritte zu Ihrem Test oder Selbsttest
@@ -240,6 +254,7 @@ plugins:
           General information on Forms : Allgemeines zu Formularen
           General Information on Tests : Allgemeines zu Tests
           Glossary : Glossar
+          GoToMeeting : GoToMeeting
           Grading / Evaluation Scale : Noten / Bewertungskala 
           Group Administration : Gruppenadministration
           Group Management : Gruppenverwaltung
@@ -288,10 +303,13 @@ plugins:
           Login Page : Login-Seite
           LTI 1.3 Integrations: LTI 1.3 Integrationen
           LTI access: LTI Zugang
+          LTI Page : LTI-Seite
           Managing Topics of Topic Assignments : Themen einer Themenvergabe verwalten
           Math formula : Mathematische Formel
           Media center : Mediathek
+          Mediasite : Mediasite
           Members management : Mitgliederverwaltung
+          Microsoft Teams : Microsoft Teams
           Modules : Module
           Modules Contact Tracing : Modul Kontaktverfolgung
           Modules Curriculum : Modul Curriculum
@@ -303,10 +321,14 @@ plugins:
           My entries : Meine Einträge
           My portfolio binders : Meine Portfolio Mappen
           Navigation : Navigation
+          Notifications : Mitteilungen
           Offer Courses : Kurse anbieten
+          OpenMeetings : OpenMeetings
           Other : Andere
           Overview: Übersicht
           Participant Administration : Teilnehmeradministration
+          Participant Folder : Teilnehmer Ordner
+          Participant list : Teilnehmerliste
           Payment modules : Bezahlungsmodule
           PayPal Configuration : PayPal Konfiguration
           Performance assessment : Leistungsbewertung
@@ -320,11 +342,15 @@ plugins:
           Portfolio : Portfolio
           Portfolio - General Information : Allgemeines zum Portfolio
           Portfolio assignment Grading : Portfolioaufgabe kommentieren und bewerten
-          Portfolio task and assignment Collecting and editing : Portfolioaufgabe abholen und bearbeiten
+          Portfolio Task: Portfolioaufgabe
+          Portfolio Task - creating : Portfolioaufgabe - Erstellen
+          Portfolio Task - collecting and editing : Portfolioaufgabe - Abholen und bearbeiten
           Portfolio template Administration and editing : Portfoliovorlage Administration und Bearbeitung
           Portfolio template Creation : Portfoliovorlage Erstellung
           Portfolio 2.0 Template : Portfolio 2.0 Vorlage
+          Practice: Übung
           Process of an assessment portfolio : Prozess eines Bewertungsportfolios
+          Opencast : Opencast
           Question Bank : Fragenpool
           Question Bank Administration : Fragenpool Administration
           Question bank possible operations : Mögliche Aktionen im Fragenpool
@@ -341,28 +367,36 @@ plugins:
           Resource folder : Ressourcenordner
           Roles and Rights : Rollen und Rechte
           Rubric : Rubrik
+          SCORM Learning Content : SCORM-Lerninhalt
           Search : Suchfunktion
           Security : Sicherheit
+          Self-test : Self-test
           Session Timeout and Logout : Session-Timeout und Logout
           Set up info page : Infoseite einrichten
           Settings : Einstellungen
           Shared by me : Von mir freigegeben
           Shared with me : An mich freigegeben
-          Single Page_Add_edit video : Video in der Einzelseite hinzufügen
+          Single Page : Einzelne Seite
           Start: Start
+          Structure: Struktur
           Storage folder : Ablageordner
           Supported Technologies : Unterstützende Technologien
+          Survey : Umfrage
           System : System
-          Tab Users : Tab Teilnehmer
+          Tab users : Tab Teilnehmer
           Table concept: Tabellenkonzept
+          Task : Aufgabe
           Task - Further Configurations : Aufgabe - Weitere Konfiguration
+          Task - Working with Tasks and Group Tasks : Aufgabe - Arbeiten mit Aufgaben und Gruppenaufgaben
           Technical Information on Resources and Usage : Automatische Informationen zur Lernressource
           Technology: Technologie
           Technology and Navigation : Technologie und Navigation
+          Test : Test
+          Test - Working with Tests : Test - Arbeiten mit Tests
+          Test - Tests at course level : Test - Tests auf Kursebene
           Test editor QTI 2.1 : Testeditor
           Test question types : Test Fragetypen
           Test settings : Test Einstellungen
-          Tests at course level : Tests auf Kursebene
           The assessment form : Das Bewertungsformular
           The Idea of Open-Source Software : Der Open-Source-Gedanke
           The portfolio editor : Der Portfolio Editor
@@ -371,6 +405,8 @@ plugins:
           Three Steps to your Form : Drei Schritte zu Ihrem Formular
           Three steps to your portfolio binder : Drei Schritte zu Ihrer Mappe
           Three Steps to Your Task : Drei Schritte zu Ihrer Aufgabe
+          Topic assigment : Themenvergabe
+          Topic assigment - Working with Topic Assignment : Themenvergabe - Arbeiten mit der Themenvergabe
           Types of Course Element : Kursbausteine
           User management : Benutzerverwaltung
           User manual: Benutzerhandbuch
@@ -380,18 +416,20 @@ plugins:
           Using Group Tools : Gruppenwerkzeuge nutzen
           Using WebDAV : Einsatz von WebDAV
           Various Types of Learning Resources : Verschiedene Typen von Lernressourcen
+          Video : Video
+          Video Livestream: Video Livestream
+          Video in the single page : Video in der Einzelseite
+          Video task : Videoaufgabe
           Video Upload : Video hochladen
+          vitero : vitero
           Virtual classrooms : Virtuelle Klassenzimmer
           WebDAV : WebDAV
           Wiki : Wiki
+          Wiki - Working with Wiki : Wiki- Arbeiten mit Wiki
           Working Processes : Allgemeine Arbeitsweisen
           Working With Course Elements : Arbeiten mit Kursbausteinen
-          Working with Forums : Arbeiten mit Foren
           Working with tables : mit Tabellen arbeiten
-          Working with Tasks and Group Tasks : Arbeiten mit Aufgaben und Gruppenaufgaben
-          Working with Tests : Arbeiten mit Tests
-          Working with Topic Assignment : Arbeiten mit der Themenvergabe
-          Working with Wiki : Arbeiten mit Wiki
+          Zoom : Zoom
           Zoom - Frequently asked questions : Zoom - Häufig gestellte Fragen
           Zoom integration: Zoom-Integration
           ... create a bulk assessment for submission tasks : ... eine Massenbewertung für Einsendeaufgaben erstellen

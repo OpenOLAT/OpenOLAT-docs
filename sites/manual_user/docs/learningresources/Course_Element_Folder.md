@@ -1,5 +1,4 @@
-# Course Element: Folder
-
+# Course Element "Folder"
 
 ![folder icon](assets/folder.png)
 
