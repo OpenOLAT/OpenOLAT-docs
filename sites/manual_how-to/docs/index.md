@@ -10,8 +10,10 @@
 ## Create Learning Resources
 
 1. [How do I create a blog?](/manual_how-to/blog/blog)
-2. [How do I create a podcast?](/manual_how-to/podcast/podcast)
-3. [How do I create a wiki?](/manual_how-to/wikis/wikis)
+2. [How do I create a content package?](/manual_how-to/content_package/content_package)
+3. [How do I create a form learning resource?](/manual_how-to/create_a_form/create_a_form)
+4. [How do I create a podcast?](/manual_how-to/podcast/podcast)
+5. [How do I create a wiki?](/manual_how-to/wikis/wikis)
 
 ## Offer Courses
 
@@ -19,12 +21,19 @@
 
 ## Participant Administration
 
-1. [How do I set up groups purpose-driven?](/manual_how-to/purpose_of_groups/purpose_of_groups)
+1. [Group Scenarios](/manual_how-to/purpose_of_groups/purpose_of_groups)
 
 ## Attend Participants
 
 1. [How and where can I do a bulk assessment?](/manual_how-to/bulk_assessment/bulk_assessment)
 
+## Tests and Assessments
+
+1. [How do I proceed when I create a test?](/de/manual_how-to/test_creation_procedure/test_creation_procedure)
+2. [How do I assess a test?](/de/manual_how-to/assessing_tests/assessing_tests)
+
 ## Adjust OpenOlat
 
-1. [How to customize the course design with CSS](/manual_how-to/css/css)
+1. [What measures can I take to reduce storage space consumption?](/de/manual_how-to/reduce_storage_consumption/reduce_storage_consumption)
+2. [How do I manage lifecycles of groups, courses or user accounts?](/de/manual_how-to/lifecycle/lifecycle)
+3. [How to customize the course design with CSS](/manual_how-to/css/css)

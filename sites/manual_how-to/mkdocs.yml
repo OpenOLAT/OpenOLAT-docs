@@ -4,18 +4,26 @@ nav:
   - index.md
   - Working Processes:
     - How to use the same files in several courses: "multiple_use/multiple_use.md"
-    - How to transfer files using WebDAV: "webdav/webdav.md"
+    - Transfer files using WebDAV: "webdav/webdav.md"
   - Create Courses:
-    - How to create my first course: "my_first_course/my_first_course.md"
+    - My first course: "my_first_course/my_first_course.md"
   - Create Learning Resources:
-    - How do I create a blog?: "blog/blog.md"
-    - How do I create a podcast?: "podcast/podcast.md"
-    - How do I create a wiki?: "wikis/wikis.md"  
+    - Create a blog: "blog/blog.md"
+    - Create a Content Package: "content_package/content_package.md"
+    - Create a form: "create_a_form/create_a_form.md"
+    - Create a podcast: "podcast/podcast.md"
+    - Create a wiki: "wikis/wikis.md"  
   - Offer Courses:
+    - How do I present my courses in the catalog?: "catalog/catalog.md"
     - How can I have my courses found by search engines?: "oai_pmh/oai_pmh.md"
   - Participant Administration:
-    - How do I set up groups purpose-driven?: "purpose_of_groups/purpose_of_groups.md"  
+    - Group Scenarios: "purpose_of_groups/purpose_of_groups.md"  
   - Attend Participants:
-    - How and where can I do a bulk assessment?: "bulk_assessment/bulk_assessment.md"
+    - Bulk assessment: "bulk_assessment/bulk_assessment.md"
+  - Tests and Assessments:
+    - How do I proceed when I create a test?: "test_creation_procedure/test_creation_procedure.md"
+    - How do I assess a test?: "assessing_tests/assessing_tests.md"
   - Adjust OpenOlat:
+    - Reduce storage consumption: "reduce_storage_consumption/reduce_storage_consumption.md"
+    - Lifecycle management: "lifecycle/lifecycle.md"
     - How to customize the course design with CSS: "css/css.md"

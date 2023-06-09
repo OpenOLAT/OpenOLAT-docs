@@ -4,10 +4,10 @@ With this guide, you'll have added a podcast to your course and created your fir
 
 ##  Requirements
 
-### a) Content for the podcast
+<h3> a) Content for the podcast</h3>
 Produce the audio or video file for your podcast episode using a designated recording software (e.g. [GarageBand](http://www.apple.com/ilife/garageband/ "GarageBand")) and save it in one of the specified formats: MP3, MP4, M4V, M4A or AAC. Pay attention to the specified maximum size.
 
-### b) An OpenOlat course
+<h3> b) An OpenOlat course</h3>
 The podcast is included within an OpenOlat course. If you have not yet created a course, the chapter ["How do I create my first OpenOlat course"](../my_first_course/my_first_course.md) tells you how to proceed before creating your podcast using the following instructions.
 
 ---
