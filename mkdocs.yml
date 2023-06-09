@@ -79,8 +79,8 @@ extra:
     actions:
       - accept
       - reject
-
-copyright: Copyright &copy; 2006 - 2022 <a href="https://frentix.com">frentix GmbH</a>
+      
+copyright: Copyright &copy; 2006 - 2023 <a href="https://frentix.com">frentix GmbH</a>
       
            
 extra_css:
@@ -138,7 +138,6 @@ plugins:
           Automatic Group Lifecycle : Automatischer Gruppenlebenszyklus
           BBB - Frequently asked questions: BBB - Häufig gestellte Fragen
           Basic concepts : Basiskonzepte
-          Bewertungswerkzeug  : Bewertungswerkzeug
           Bewertungswerkzeug  : Bewertungswerkzeug
           BigBlueButton : BigBlueButton
           BigBlueButton module : Modul BigBlueButton
@@ -293,7 +292,6 @@ plugins:
           Lectures - User View  : Lektionen - Sicht Benutzer
           Lectures - Teacher View: Lektionen - Sicht Dozent
           Lecture management : Lektionen- und Absenzenmanagement
-          Lernpfad Kurs  : Lernpfad Kurs
           Lernpfad Kurs  : Lernpfad Kurs
           Lernpfad Kurse  : Lernpfad Kurse
           License: Lizenz
