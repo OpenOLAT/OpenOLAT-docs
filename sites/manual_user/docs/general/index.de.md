@@ -1,32 +1,58 @@
 ---
 ᴴₒᴴₒᴴₒ: true
 ---
-![Logo: OpenOlat – infinite learning](../../../assets/OpenOlat_Logo_claim_RGB.png)
 
 # Benutzerhandbuch
+	
+![Logo: OpenOlat – infinite learning](../../../assets/OpenOlat_Logo_claim_RGB.png)
+	
+<div class="grid cards" markdown>
 
-!!! info "Los geht's"
+-	:fontawesome-solid-rocket:{ .lg .middle }  __Los geht's__
 
-	* [Registrierung, Login und Logout](../login_registration/index.de.md)
-	* [Navigation in OpenOlat](../basic_concepts/Navigation.de.md)
+    ---
 
-!!! info "Einführung für Lernende"
+	[:octicons-arrow-right-24: Registrierung, Login und Logout](../login_registration/index.de.md)
 
-	* [Kurse finden](../area_modules/Courses.de.md)
-	* [Gruppen erstellen](../groups/Create_Groups.de.md)
+	[:octicons-arrow-right-24: Navigation in OpenOlat](../basic_concepts/Navigation.de.md)
 
-!!! info  "Einführung für Autor*innen"
 
-	* [Kurs erstellen](../learningresources/Creating_Course.de.md)
-	* [Kursdesign](../learningresources/Learning_path_course.de.md)
-	* [Katalog](../area_modules/catalog2.0.de.md)
+-	:fontawesome-solid-user:{ .lg .middle }  __Einführung für Lernende__
 
-!!! info  "Einführung für Betreuer*innen"
+    ---
 
-	* [Bewertungswerkzeug](../learningresources/Assessment_tool_overview.de.md)
-	* [Coaching Modul](../area_modules/Coaching.de.md)
+	[:octicons-arrow-right-24: Kurse finden](../area_modules/Courses.de.md)
 
-!!! info  "Kurse verwalten"
+	[:octicons-arrow-right-24: Gruppen erstellen](../groups/Create_Groups.de.md)
 
-	* [Allgemeines](../learningresources/General_Information.de.md)
-	* [Kursbetrieb](../learningresources/Administration.de.md)	
+
+-	:fontawesome-solid-user-pen:{ .lg .middle }  __Einführung für Autor*innen__
+
+    ---
+
+	[:octicons-arrow-right-24: Kurs erstellen](../learningresources/Creating_Course.de.md)
+
+	[:octicons-arrow-right-24: Kursdesign](../learningresources/Learning_path_course.de.md)
+
+	[:octicons-arrow-right-24: Katalog](../area_modules/catalog2.0.de.md)
+
+
+-	:fontawesome-solid-user-graduate:{ .lg .middle }  __Einführung für Betreuer*innen__
+
+    ---
+
+	[:octicons-arrow-right-24: Bewertungswerkzeug](../learningresources/Assessment_tool_overview.de.md)
+
+	[:octicons-arrow-right-24: Coaching Modul](../area_modules/Coaching.de.md)
+
+
+-	:fontawesome-solid-cubes:{ .lg .middle }  __Kurse verwalten__
+
+    ---
+
+	[:octicons-arrow-right-24: Allgemeines](../learningresources/General_Information.de.md)
+
+	[:octicons-arrow-right-24: Kursbetrieb](../learningresources/Administration.de.md)	
+	
+</div>
+	
