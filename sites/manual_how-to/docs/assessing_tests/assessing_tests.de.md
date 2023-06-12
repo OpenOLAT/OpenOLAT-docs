@@ -36,7 +36,7 @@
 
 Ein Test wird jeweils mit einem Bewertungsformular bewertet. Um es aufzurufen, gibt 3 Einstiegspunkte:
 
-**1. Einstieg direkt im Kursbaustein**
+### 1. Einstieg direkt im Kursbaustein
 
 Wer als Betreuer:in angemeldet ist, sieht bei **Klick auf den Test-Kursbaustein** nicht den Test (wie die Teilnehmer), sondern eine Übersicht zum Bearbeitungsstatus der betreuten Teilnehmer:innen.
 
@@ -44,28 +44,42 @@ Im **Tab "Teilnehmer"** erhalten Sie die Liste der betreuten Teilnehmer mit Bear
 
 Nach **Wahl eines Teilnehmers** gelangen Sie zum Bewertungsformular des Gesamttests.
 
+![tests_bewerten_kursbaustein1_v1_de.png](assets/tests_bewerten_kursbaustein1_v1_de.png){ class="shadow lightbox" } 
+
 Mit **Klick auf "Korrektur" in der Zeile des aktuellen Kursruns** erhalten Sie die Liste der Fragen dieses Tests und können jede Einzelfrage bewerten. (Zu jeder Frage gibt es ein Bewertungsformular.)
+
+![tests_bewerten_kursbaustein2_v1_de.png](assets/tests_bewerten_kursbaustein2_v1_de.png){ class="shadow lightbox" } 
+
+!!! hint "Hinweis"
+
+    Sollte der Link "Korrigieren" nicht angezeigt werden, müssen Sie möglicherweise diese Spalte noch anzeigen. Sie finden die Option unter dem Zahnrad-Icon.
+
+    ![tests_bewerten_kursbaustein3_v1_de.png](assets/tests_bewerten_kursbaustein3_v1_de.png){ float: right; width=300px class="shadow lightbox" } 
 
 <br>
 
-**2. Einstieg durch Aufruf des Bewertungswerkzeuges**
+### 2. Einstieg durch Aufruf des Bewertungswerkzeuges
 
 Das Bewertungswerkzeug wird aufgerrufen via<br>
 **Kurs > Administration > Bewertungswerkzeug**
 
-Im Bewertungswerkzeug werden alle bewertbaren Kursbausteine des ganzen Kurses angezeigt. Wählen Sie den relevanten Test-Kursbaustein. Sie erhalten...
+Im Bewertungswerkzeug werden alle bewertbaren Kursbausteine des ganzen Kurses angezeigt. Wählen Sie den relevanten Test-Kursbaustein. Sie erhalten die Übersicht zum Bearbeitungsstatus der betreuten Teilnehmer:innen.
+
+![tests_bewerten_bewertungswerkzeug1_v1_de.png](assets/tests_bewerten_bewertungswerkzeug1_v1_de.png){ class="shadow lightbox" } 
 
 <br>
 
-**3. Einstieg über das Coachingtool**
+### 3. Einstieg über das Coachingtool
 
 Wird Ihnen im **Menü der Kopfzeile die Option "Coachingtool"** angezeigt, können Sie auch darüber zur Bewertung des Test-Kursbausteins gelangen.
 
-Das Bewertungswerkzeug listet alle bewertbaren Kursbausteine eines Kurses auf, also auch einen darin enthaltenen Test. Das Coachingtool zeigt dagegen kursübergeifend anstehende Bewertungsaufträge an.
+Das Bewertungswerkzeug listet alle bewertbaren Kursbausteine eines Kurses auf, also auch einen darin enthaltenen Test. Das Coachingtool zeigt dagegen **kursübergeifend** anstehende Bewertungsaufträge an.
 
 * Offene Bewertungen
 * Freizugebende Bewertungen
 * Korrekturaufträge (auch wenn Sie eine Kurs-externe Person sind)
+
+![tests_bewerten_coaching1_v1_de.png](assets/tests_bewerten_coaching1_v1_de.png){ class="shadow lightbox" } 
 
 <br>
 
@@ -151,6 +165,6 @@ Ob und wie eine Umwandlung der Punkte stattfindet, wird vom Kursautor festgelegt
 - [x] Wurde der Test von allen Kursteilnehmer bearbeitet?
 - [x] Ist der späteste erlaubte Bearbeitungszeitpunkt bereits überschritten?
 - [x] Ist klar, wer die Testergebnisse bewertet?
-- [x] Soll eine Person korrigieren, die nicht Mitglied des Kurses ist? 
-- [x] Sollen Korrekturaufträge vergeben werden?
+- [x] Können alle Fragen automatisch korrigiert werden oder müssen einige zwingend manuell korrigert werden?
+- [x] Sollen auch die automatisch korrigierten Fragen nochmals manuell kontrolliert werden?
 

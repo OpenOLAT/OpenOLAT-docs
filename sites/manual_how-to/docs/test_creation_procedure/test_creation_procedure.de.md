@@ -5,14 +5,16 @@
 
     **Ziel und Inhalt dieser Anleitung**
 
-    Für das Erstellen von Tests gibt es in OpenOlat verschiedene Wege. Hier werden Ihnen im Überblick die gängigen Wege aufgezeigt. Lernen Sie die Möglichkeiten kennen und wählen Sie dann das für Sie passende Vorgehen. 
+    Sie möchten einen Test erstellen? Für das Erstellen von Tests gibt es in OpenOlat verschiedene Wege. Hier werden Ihnen im Überblick die gängigen Wege aufgezeigt. Lernen Sie die Möglichkeiten kennen und wählen Sie dann das für Sie passende Vorgehen. 
 
 
 !!! info ""
 
     **Zielgruppe**
     
-    [x] Anfänger [x] Fortgeschrittene  [ ] Experten
+    [x] Autor:innen [ ] Betreuer:innen  [ ] Teilnehmer:innen
+
+    [x] Anfänger:innen [x] Fortgeschrittene  [ ] Experten/Expertinnen
 
 
 !!! info ""
@@ -91,16 +93,16 @@ Wenn Sie völlig von vorne mit der Erstellung eines Kurses beginnen, liegt folge
 
 1\. Gehen Sie in den Autorenbereich und erstellen Sie dort einen neuen Kurs. 
 
-![testerstellung_1_1_v1_de.png](assets/testerstellung_1_1_v1_de.png){ class="lightbox" } 
+![testerstellung_1_1_v1_de.png](assets/testerstellung_1_1_v1_de.png){ class="shadow lightbox" } 
  
 2\. Vergeben Sie einen Titel und nehmen Sie erste Einstellungen zum Kurs vor. Entscheiden Sie sich für ein Design.
 
-![testerstellung_1_2_v1_de.png](assets/testerstellung_1_2_v1_de.png){ class="lightbox" } 
+![testerstellung_1_2_v1_de.png](assets/testerstellung_1_2_v1_de.png){ class="shadow lightbox" } 
 
 3\. Wenn Sie für den weiteren Prozess der Kurserstellung einen Wizard (Kursassistent:in) verwenden wollen, werden Sie gefragt, ob Sie einen Prüfungskurs erstellen wollen.
 Ein Prüfungskurs ist ein normaler Kurs (egal ob Lernpfadkurs oder herkömmlicher Kurs), der bereits eine bestimmte Konfiguration enthält. Diese Option bietet also eine spätere Arbeitserleichterung.
 
-![testerstellung_1_3_v1_de.png](assets/testerstellung_1_3_v1_de.png){ class="lightbox" } 
+![testerstellung_1_3_v1_de.png](assets/testerstellung_1_3_v1_de.png){ class="shadow lightbox" } 
 
 4\. Der erste Screen nach Klick auf den Button "Erstellen" ist die Übersicht der Einstellungen (Konfiguration des Kurses).
 
@@ -108,7 +110,7 @@ Ein Prüfungskurs ist ein normaler Kurs (egal ob Lernpfadkurs oder herkömmliche
 
     Abgesehen vom Kursdesign, können Sie die übrigen Angaben auch später unter **Administration > Einstellungen** wieder aufrufen und anpassen.
 
-![testerstellung_1_4_v1_de.png](assets/testerstellung_1_4_v1_de.png){ class="lightbox" } 
+![testerstellung_1_4_v1_de.png](assets/testerstellung_1_4_v1_de.png){ class="shadow lightbox" } 
 
 <br>
 
@@ -118,7 +120,7 @@ Ein Prüfungskurs ist ein normaler Kurs (egal ob Lernpfadkurs oder herkömmliche
 
 5\. Öffnen Sie über die "Administration" den **Kurseditor**. Wählen Sie "Kursbausteine einfügen" und klicken Sie dort auf den gewünschten Kursbaustein-Typ "Test" oder "Selbsttest". Dadurch wird ein Kursbaustein dieses Typs eingefügt.
 
-![testerstellung_1_5_v1_de.png](assets/testerstellung_1_5_v1_de.png){ class="lightbox" } 
+![testerstellung_1_5_v1_de.png](assets/testerstellung_1_5_v1_de.png){ class="shadow lightbox" } 
 
 <br>
 
@@ -130,11 +132,11 @@ Ein Prüfungskurs ist ein normaler Kurs (egal ob Lernpfadkurs oder herkömmliche
 
 7\. In den zugehörigen Tabs auf der rechten Seite befindet sich unter "Test-Konfiguration" der Button "Erstellen". Erstellen Sie mit ihm eine neue Test-Lernressource.
 
-![testerstellung_1_7_v1_de.png](assets/testerstellung_1_7_v1_de.png){ class="lightbox" } 
+![testerstellung_1_7_v1_de.png](assets/testerstellung_1_7_v1_de.png){ class="shadow lightbox" } 
 
 8\. Vergeben Sie auch für die Test-Lernressource einen Namen.
 
-![testerstellung_1_8_v1_de.png](assets/testerstellung_1_8_v1_de.png){ class="lightbox" } 
+![testerstellung_1_8_v1_de.png](assets/testerstellung_1_8_v1_de.png){ class="shadow lightbox" } 
 
 <br>
 
@@ -144,19 +146,19 @@ Ein Prüfungskurs ist ein normaler Kurs (egal ob Lernpfadkurs oder herkömmliche
 
 9\. Nach dem Erstellen der neuen Test-Lernressource haben Sie die Möglichkeit, die Lernressource zu bearbeiten, also Fragen zu ergänzen.
 
-![testerstellung_1_9_v1_de.png](assets/testerstellung_1_9_v1_de.png){ class="lightbox" } 
+![testerstellung_1_9_v1_de.png](assets/testerstellung_1_9_v1_de.png){ class="shadow lightbox" } 
 
 10\. Standardmässig ist bereits eine Single Choice Frage vorhanden. Sie können diese als Muster verwenden, löschen oder entsprechend Ihren Bedürfnissen abändern. 
 
-![testerstellung_1_10_v1_de.png](assets/testerstellung_1_10_v1_de.png){ class="lightbox" } 
+![testerstellung_1_10_v1_de.png](assets/testerstellung_1_10_v1_de.png){ class="shadow lightbox" } 
 
 11\. In der "Administration" der Test-Lernressource wählen Sie nun "Inhalt editieren" und Sie gelangen in den Editor der Lernressource (nicht den Editor des Kurses).
 
-![testerstellung_1_11_v1_de.png](assets/testerstellung_1_11_v1_de.png){ class="lightbox" } 
+![testerstellung_1_11_v1_de.png](assets/testerstellung_1_11_v1_de.png){ class="shadow lightbox" } 
   
 12\. Wählen Sie "Elemente hinzufügen" und den passenden Fragetyp, z.B. Multiple Choice.
 
-![testerstellung_1_12_v1_de.png](assets/testerstellung_1_12_v1_de.png){ class="lightbox" } 
+![testerstellung_1_12_v1_de.png](assets/testerstellung_1_12_v1_de.png){ class="shadow lightbox" } 
 
 13\. Geben Sie im Tab "Auswahl" den Titel der Frage, die Fragestellung und die möglichen Antworten ein. Weitere Antwortmöglichkeiten werden über das Pluszeichen ergänzt.
 
@@ -328,15 +330,15 @@ Dann können Sie auch mit dem Erstellen der einzelnen Fragen im Fragenpool begin
 
 1\. Wenn Sie Autorenrechte besitzen, wird im Menü Ihrer Kopfzeile ausser dem Autorenbereich auch der Fragenpool angezeigt. Gehen Sie in den Fragenpool.
 
-![testerstellung_3_1_v1_de.png](assets/testerstellung_3_1_v1_de.png){ class="lightbox" } 
+![testerstellung_3_1_v1_de.png](assets/testerstellung_3_1_v1_de.png){ class="shadow lightbox" } 
 
 2\. Wählen Sie "Frage erstellen" und den passenden Fragetyp, z.B. Multiple Choice.
 
-![testerstellung_3_2_v1_de.png](assets/testerstellung_3_2_v1_de.png){ class="lightbox" } 
+![testerstellung_3_2_v1_de.png](assets/testerstellung_3_2_v1_de.png){ class="shadow lightbox" } 
 
 3\. Geben Sie im Tab "Auswahl" den Titel der Frage, die Fragestellung und die möglichen Antworten ein. Weitere Antwortmöglichkeiten werden über das Pluszeichen ergänzt.
 
-![testerstellung_3_3_v1_de.png](assets/testerstellung_3_3_v1_de.png){ class="lightbox" } 
+![testerstellung_3_3_v1_de.png](assets/testerstellung_3_3_v1_de.png){ class="shadow lightbox" } 
 
 4\. Im Tab "Punkte" definieren Sie die Art und die Summe der Punkte.
 
@@ -362,7 +364,7 @@ Nach dem gleichen Prinzip fügen Sie weitere Fragen hinzu. Dabei können die Det
 
 6\. Wechseln Sie in den Autorenbereich und erstellen Sie einen Test (Test-Lernressource).
 
-![testerstellung_3_6_v1_de.png](assets/testerstellung_3_6_v1_de.png){ class="lightbox" } 
+![testerstellung_3_6_v1_de.png](assets/testerstellung_3_6_v1_de.png){ class="shadow lightbox" } 
 
 !!! hint "Tipp"
 
@@ -371,11 +373,11 @@ Nach dem gleichen Prinzip fügen Sie weitere Fragen hinzu. Dabei können die Det
 
 7\. Öffnen Sie den Editor durch Klick auf **Administration** und dann **"Inhalt editieren"**.
 
-![testerstellung_3_7_v1_de.png](assets/testerstellung_3_7_v1_de.png){ class="lightbox" } 
+![testerstellung_3_7_v1_de.png](assets/testerstellung_3_7_v1_de.png){ class="shadow lightbox" } 
 
 8\. Im Editiermodus (erkennbar an der schraffierten Kopzeile) können Sie nun unter **"Elemente hinzufügen"** neue Fragen hinzufügen.
 
-![testerstellung_3_8_v1_de.png](assets/testerstellung_3_8_v1_de.png){ class="lightbox" } 
+![testerstellung_3_8_v1_de.png](assets/testerstellung_3_8_v1_de.png){ class="shadow lightbox" } 
 
 <br>
 
@@ -385,11 +387,11 @@ Nach dem gleichen Prinzip fügen Sie weitere Fragen hinzu. Dabei können die Det
 
 9\. Alternativ zur Erstellung neuer Fragen, können Sie unter dem gleichen Menüpunkt bereits vorhandene Fragen **"aus dem Fragenpool importieren"**.
 
-![testerstellung_3_9_v1_de.png](assets/testerstellung_3_9_v1_de.png){ class="lightbox" } 
+![testerstellung_3_9_v1_de.png](assets/testerstellung_3_9_v1_de.png){ class="shadow lightbox" } 
 
 10\. Klicken Sie auf den Titel einer einzelnen Frage, wird sie direkt eingefügt. Um mehrere Fragen zu importieren, markieren Sie die Fragen und bestätigen mit Klick auf den Button "Auswählen".
 
-![testerstellung_3_10_v1_de.png](assets/testerstellung_3_10_v1_de.png){ class="lightbox" } 
+![testerstellung_3_10_v1_de.png](assets/testerstellung_3_10_v1_de.png){ class="shadow lightbox" } 
 
 11\. Sind alle Fragen in der Test-Lernressource erfasst, verlassen Sie den Editor der Lernressource.
 

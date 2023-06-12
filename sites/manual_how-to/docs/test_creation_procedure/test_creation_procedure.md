@@ -4,13 +4,18 @@
 
     **Objectives and content of this instruction**
 
-    There are various ways to create tests in OpenOlat. Here you will find an overview of the most common ways. Get to know the possibilities and then choose the procedure that suits you best.
+    You want to create a test? There are various ways to create tests in OpenOlat. Here you will find an overview of the most common ways. Get to know the possibilities and then choose the procedure that suits you best.
 
 !!! info ""
 
     **Target group**
     
+    [x] Authors [ ] Coaches  [ ] Participants
+
     [x] Beginners [x] Advanced Users [ ] Experts
+
+   
+
 
 !!! info ""
 
@@ -89,16 +94,16 @@ If you are starting from scratch with the creation of a course, the following pr
 
 1\. Go to the authoring area and create there a new course.
 
-![testerstellung_1_1_v1_de.png](assets/testerstellung_1_1_v1_de.png){ class="lightbox" } 
+![testerstellung_1_1_v1_de.png](assets/testerstellung_1_1_v1_de.png){ class="shadow lightbox" } 
  
 2\. Assign a title and make initial settings for the course. Decide on a design.
 
-![testerstellung_1_2_v1_de.png](assets/testerstellung_1_2_v1_de.png){ class="lightbox" } 
+![testerstellung_1_2_v1_de.png](assets/testerstellung_1_2_v1_de.png){ class="shadow lightbox" } 
 
 3\. If you want to use a wizard (course wizard) for the further process of course creation, you will be asked if you want to create an exam course.
 An exam course is a normal course (no matter if learning path course or conventional course) that already contains a certain configuration. So this option provides a later work relief.
 
-![testerstellung_1_3_v1_de.png](assets/testerstellung_1_3_v1_de.png){ class="lightbox" } 
+![testerstellung_1_3_v1_de.png](assets/testerstellung_1_3_v1_de.png){ class="shadow lightbox" } 
 
 4\. The first screen after clicking the "Create" button is the settings overview (configuration of the course).
 
@@ -106,7 +111,7 @@ An exam course is a normal course (no matter if learning path course or conventi
 
     Apart from the course design, you can also access and adjust the other details later under **Administration > Settings**.
 
-![testerstellung_1_4_v1_de.png](assets/testerstellung_1_4_v1_de.png){ class="lightbox" } 
+![testerstellung_1_4_v1_de.png](assets/testerstellung_1_4_v1_de.png){ class="shadow lightbox" } 
 
 <br>
 
@@ -116,7 +121,7 @@ An exam course is a normal course (no matter if learning path course or conventi
 
 5\. Open the **Course Editor** via the "Administration". Select "Insert course elements" and click on the desired course element type "Test" or "Self test" there. This will insert a course element of this type.
 
-![testerstellung_1_5_v1_de.png](assets/testerstellung_1_5_v1_de.png){ class="lightbox" } 
+![testerstellung_1_5_v1_de.png](assets/testerstellung_1_5_v1_de.png){ class="shadow lightbox" } 
 
 <br>
 
@@ -129,11 +134,11 @@ An exam course is a normal course (no matter if learning path course or conventi
 7\. In den zugehörigen Tabs auf der rechten Seite befindet sich unter "Test-Konfiguration" der Button "Erstellen". Erstellen Sie mit ihm eine neue Test-Lernressource.
 In the related tabs on the right side, under "Test configuration" you will find the "Create" button. Use it to create a new test learning resource.
 
-![testerstellung_1_7_v1_de.png](assets/testerstellung_1_7_v1_de.png){ class="lightbox" } 
+![testerstellung_1_7_v1_de.png](assets/testerstellung_1_7_v1_de.png){ class="shadow lightbox" } 
 
 8\. Enter a name for the test learning resource as well.
 
-![testerstellung_1_8_v1_de.png](assets/testerstellung_1_8_v1_de.png){ class="lightbox" } 
+![testerstellung_1_8_v1_de.png](assets/testerstellung_1_8_v1_de.png){ class="shadow lightbox" } 
 
 <br>
 
@@ -143,19 +148,19 @@ In the related tabs on the right side, under "Test configuration" you will find 
 
 9\. After creating the new test learning resource, you have the possibility to edit it, i.e. add questions.
 
-![testerstellung_1_9_v1_de.png](assets/testerstellung_1_9_v1_de.png){ class="lightbox" } 
+![testerstellung_1_9_v1_de.png](assets/testerstellung_1_9_v1_de.png){ class="shadow lightbox" } 
 
 10\. By default, a single choice question is already available. You can use this as a sample, delete it or modify it according to your needs.
 
-![testerstellung_1_10_v1_de.png](assets/testerstellung_1_10_v1_de.png){ class="lightbox" } 
+![testerstellung_1_10_v1_de.png](assets/testerstellung_1_10_v1_de.png){ class="shadow lightbox" } 
 
 11\. In the "Administration" of the test learning resource, now select "Edit content" and you will get to the editor of the learning resource (not the editor of the course).
 
-![testerstellung_1_11_v1_de.png](assets/testerstellung_1_11_v1_de.png){ class="lightbox" } 
+![testerstellung_1_11_v1_de.png](assets/testerstellung_1_11_v1_de.png){ class="shadow lightbox" } 
   
 12\. Select "Add items" and the appropriate question type, e.g. Multiple Choice.
 
-![testerstellung_1_12_v1_de.png](assets/testerstellung_1_12_v1_de.png){ class="lightbox" } 
+![testerstellung_1_12_v1_de.png](assets/testerstellung_1_12_v1_de.png){ class="shadow lightbox" } 
 
 13\. In the "Selection" tab, enter the title of the question, the question wording and the possible answers. Additional answer options are added via the plus sign.
 
@@ -326,15 +331,15 @@ Then you can also start creating the individual questions in the question pool.
 
 1\. If you have author rights, the question pool is displayed in the menu of your header in addition to  "Authoring". Go to the question pool.
 
-![testerstellung_3_1_v1_de.png](assets/testerstellung_3_1_v1_de.png){ class="lightbox" } 
+![testerstellung_3_1_v1_de.png](assets/testerstellung_3_1_v1_de.png){ class="shadow lightbox" } 
 
 2\. Select "Create question" and the appropriate question type, e.g. Multiple Choice.
 
-![testerstellung_3_2_v1_de.png](assets/testerstellung_3_2_v1_de.png){ class="lightbox" } 
+![testerstellung_3_2_v1_de.png](assets/testerstellung_3_2_v1_de.png){ class="shadow lightbox" } 
 
 3\. In the "Selection" tab, enter the title of the question, the question wording and the possible answers. Additional answer options are added via the plus sign.
 
-![testerstellung_3_3_v1_de.png](assets/testerstellung_3_3_v1_de.png){ class="lightbox" } 
+![testerstellung_3_3_v1_de.png](assets/testerstellung_3_3_v1_de.png){ class="shadow lightbox" } 
 
 4\. In the "Points" tab you define the type and the sum of the points.
 
@@ -359,20 +364,20 @@ Add more questions according to the same principle. The details of the settings 
 
 6\. Switch to the authoring area and create a test (test learning resource).
 
-![testerstellung_3_6_v1_de.png](assets/testerstellung_3_6_v1_de.png){ class="lightbox" } 
+![testerstellung_3_6_v1_de.png](assets/testerstellung_3_6_v1_de.png){ class="shadow lightbox" } 
 
 !!! hint "Hint"
 
     The new test learning resource is not listed under the "My courses" tab in the authoring, but under "My entries". recognizable by the icon for test learning resources.
-	![testerstellung_3_6b_v1_de.png](assets/testerstellung_3_6b_v1_de.png){ class="lightbox" } 
+	![testerstellung_3_6b_v1_de.png](assets/testerstellung_3_6b_v1_de.png){ class="shadow lightbox" } 
 
 7\. Open the editor by clicking **Administration** and then **"Edit content"**.
 
-![testerstellung_3_7_v1_de.png](assets/testerstellung_3_7_v1_de.png){ class="lightbox" } 
+![testerstellung_3_7_v1_de.png](assets/testerstellung_3_7_v1_de.png){ class="shadow lightbox" } 
 
 8\. In edit mode (recognizable by the shaded header) you can now add new questions under **"Add elements "**.
 
-![testerstellung_3_8_v1_de.png](assets/testerstellung_3_8_v1_de.png){ class="lightbox" } 
+![testerstellung_3_8_v1_de.png](assets/testerstellung_3_8_v1_de.png){ class="shadow lightbox" } 
 
 <br>
 
@@ -383,11 +388,11 @@ Add more questions according to the same principle. The details of the settings 
 9\. Alternativ zur Erstellung neuer Fragen, können Sie unter dem gleichen Menüpunkt bereits vorhandene Fragen **"aus dem Fragenpool importieren"**.
 As an alternative to creating new questions, you can **import existing questions from the question pool** under the same menu item.
 
-![testerstellung_3_9_v1_de.png](assets/testerstellung_3_9_v1_de.png){ class="lightbox" } 
+![testerstellung_3_9_v1_de.png](assets/testerstellung_3_9_v1_de.png){ class="shadow lightbox" } 
 
 10\. If you click on the title of a single question, it will be inserted directly. To import several questions, select the questions and confirm by clicking the "Select" button.
 
-![testerstellung_3_10_v1_de.png](assets/testerstellung_3_10_v1_de.png){ class="lightbox" } 
+![testerstellung_3_10_v1_de.png](assets/testerstellung_3_10_v1_de.png){ class="shadow lightbox" } 
 
 11\. Once all the questions are recorded in the test learning resource, exit the learning resource editor.
 
