@@ -1,1 +1,0 @@
-# :material-home: Persönliches Menü

@@ -1,7 +1,7 @@
 # Registrierung, Login und Logout
 
   * [Login-Seite](Login_Page.de.md)
-  * [Session-Timeout und Logout](Session_Timeout_and_Logout.de.md)
+  * [Session-Timeout und Logout](../basic_concepts/Session_Timeout_and_Logout.de.md)
 
   
 

@@ -15,7 +15,7 @@ Hier können die Benutzerberichtigungen des Forums eingestellt und definiert wer
 ![Konfigurationsoptionen Forum](assets/forum_config_DE.png){ class="shadow" }
 
 **Moderationsrechte**
-Alle Kursbesitzer und [Betreuer](../access_roles_rights/coach.de.md) verfügen über folgende weitere Moderationsrechte. Sie können:
+Alle Kursbesitzer und [Betreuer](../basic_concepts/coach.de.md) verfügen über folgende weitere Moderationsrechte. Sie können:
 
   * Alle Forumsbeiträge editieren, löschen und Dateien anhängen.
   * Threads priorisieren (sticky): So erscheint das Diskussionsthema immer zuoberst auf der Liste.

@@ -1,2 +1,0 @@
-# New manual
-Test sdfsdf

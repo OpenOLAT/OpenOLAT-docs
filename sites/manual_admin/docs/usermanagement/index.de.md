@@ -30,7 +30,7 @@ gefilterte Darstellung verwendet werden:
 Es werden drei Kursrollen unterschieden:
 
   * Kursbesitzer,
-  * [Kursbetreuer ](/sites/manual_user/docs/access_roles_rights/coach.de.md) und
+  * [Kursbetreuer ](/sites/manual_user/docs/basic_concepts/coach.de.md) und
   * Kursteilnehmer.
 
 Die Mitglieder der jeweiligen Rollen können hier angezeigt und bearbeitet
