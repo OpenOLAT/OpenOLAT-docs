@@ -21,7 +21,7 @@ und Sie zum Themenverantwortlichen ernannt.
 
 a) Im Autorenbereich unter „Meine Einträge“ Kurs suchen und öffnen.
 
-![](assets/Thema_erstellen.png)  
+![Thema erstellen](assets/Thema_erstellen.png)  
   
   
 b) Im Kursmenü links zur Themenvergabe navigieren.
@@ -34,7 +34,7 @@ gestatten oder verbieten, Dateien anhängen und eine E-Mail-Benachrichtigung
 einrichten. Sie können auch einen Einschreibetermin und einen Abgabetermin
 definieren.
 
-![](assets/Themenvergabe_konfigurieren.jpg)  
+![Themenvergabe konfigurieren ](assets/Themenvergabe_konfigurieren.jpg)  
   
 e) Optional: Wenn Sie weitere Betreuer für Ihr Thema bestimmen möchten,
 klicken Sie im Tab „Teilnehmerverwaltung“ unter „Verantwortliche des Themas“
