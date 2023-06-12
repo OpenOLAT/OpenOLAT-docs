@@ -54,7 +54,7 @@ Normally markdown generates HTML anchors for each title element automatically. T
 	# This is a title {: #this-is-the-anchor-to-this-title }
  
 
-The hierarchical structure of URL's is defined in the `mkdocs.yml` file. 
+The hierarchical structure of URL's is defined in the `mkdocs.yml` file.
 
 
 ## Manual versions
