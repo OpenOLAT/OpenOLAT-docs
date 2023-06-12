@@ -4,10 +4,10 @@ Mit dieser Anleitung haben Sie in kurzer Zeit Ihrem Kurs einen Podcast hinzugef�
 
 ##  Voraussetzungen
 
-### a) Inhalte für den Podcast
+<h3> a) Inhalte für den Podcast</h3>
 Produzieren Sie die Audio- oder Videodatei für Ihre Podcast-Episode mit einer dafür vorgesehenen Aufnahmesoftware (z.B. [GarageBand](http://www.apple.com/ilife/garageband/ "GarageBand")) und speichern Sie sie in einem der angegebenen Formate: MP3, MP4, M4V, M4A oder AAC. Achten Sie auf die angegebene Maximalgrösse.
 
-### b) Ein OpenOlat-Kurs
+<h3> b) Ein OpenOlat-Kurs</h3>
 Der Podcast wird innerhalb eines OpenOlat-Kurses eingebunden. Wenn Sie noch keinen Kurs erstellt haben, steht im Kapitel [„Wie erstelle ich meinen ersten OpenOlat-Kurs"](../my_first_course/my_first_course.de.md), wie Sie vorgehen müssen, bevor Sie mit Hilfe der folgenden Anleitung Ihren Podcast erstellen.
 
 ---

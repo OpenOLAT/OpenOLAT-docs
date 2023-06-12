@@ -113,13 +113,13 @@ Viele Kursbausteine benötigen eine Lernressource. Stellen Sie sich die Kursbaus
 ![grafik_kurs_lernressource_html_v1_de.png](assets/grafik_kurs_lernressource_html_v1_de.png){ width=300px class="lightbox" }
 
 
-### Beispiel 1<br>
+<h3> Beispiel 1</h3><br>
 Der Kursbaustein vom Typ "<b>Einzelne Seite</b>" benötigt eine <b>HTML-Datei</b> als Lernressource. Im <b>Tab "Seiteninhalt"</b> können Sie eine neue HTML-Datei erstellen, eine bereits in OpenOlat vorhandene einbinden oder eine anderswo erstellte HTML-Datei in OpenOlat importieren.
 
 ![kb_konfigurieren2_v1_de.png](assets/kb_konfigurieren2_v1_de.png){ class="shadow lightbox" }
 
 
-### Beispiel 2<br>
+<h3> Beispiel 2</h3><br>
 Der Kursbaustein vom Typ "<b>Video</b>" benötigt eine <b>mp4-Datei</b> als Lernressource. 
 
 ![grafik_kurs_lernressource_video1_v1_de.png](assets/grafik_kurs_lernressource_video1_v1_de.png){ width=470px class="lightbox" }

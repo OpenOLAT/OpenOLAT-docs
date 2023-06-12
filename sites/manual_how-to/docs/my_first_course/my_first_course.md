@@ -115,13 +115,13 @@ Many course elements require a learning resource. Think of the course elements a
 ![graphic_course_learning_resource_html_v1_en.png](assets/graphic_course_learning_resource_html_v1_en.png){ width=300px class="lightbox" }
 
 
-### Example 1<br>
+<h3>Example 1</h3><br>
 The course element of the type <b>"Single page"</b> requires an <b>HTML file</b> as learning resource. In the tab <b>"Page content"</b> you can create a new HTML file, include an already existing one in OpenOlat or import an HTML file created elsewhere into OpenOlat.
 
 ![course_element_configuration2_v1_en.png](assets/course_element_configuration2_v1_en.png){ class="shadow lightbox" }
 
 
-### Example 2<br>
+<h3>Example 2</h3><br>
 The course element of the type <b>"Video"</b> requires an <b>mp4 file</b> as learning resource.
 
 ![graphic_course_learning_resource_video1_v1_en.png](assets/graphic_course_learning_resource_video1_v1_en.png){width=470px class="lightbox" }
