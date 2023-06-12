@@ -114,6 +114,29 @@ If new major versions are released you need to upgrade. Be careful with this, fi
 	pip3 install  --upgrade --force-reinstall mkdocs-git-revision-date-plugin
 
 
+### MkDocs Material Insiders program
+
+As of June 2023 we use features of the [MkDocs Material Insiders program](https://squidfunk.github.io/mkdocs-material/insiders/). You can still compile and test the documentation without the Insider membership, but some things will not work or look not a good as when compiled with the Insider code. 
+
+For publishing to a website, make sure you use the Insider repo of mkdocs-material.
+
+Install the insider code like this: 
+
+	# Clone the repository. Make sure your installed your SSH key in GitHub first
+	git clone ssh://git@github.com/squidfunk/mkdocs-material-insiders.git
+	# Install material from the sourcecode
+	pip install -e mkdocs-material-insiders
+
+Updating the insider code:
+
+	# Update the repository
+	cd mkdocs-material-insiders
+	git pull
+	# Install material from the sourcecode
+	cd ..
+	pip install -e mkdocs-material-insiders -U
+
+
 ### Markdown editor and Git client 
 
 Any Markdown editor and any Git client can be used. To make things simple we recommend to download [Visual Code Studio](https://code.visualstudio.com) that combines a Git client, a decent Markdown editor and a Markdown preview in one single tool. It is available for free for [Mac, Windows and Linux](https://code.visualstudio.com/#alt-downloads).

@@ -37,7 +37,7 @@ die Kursstruktur an und erstellen in der Regel den OpenOlat Kurs. Die Person,
 die einen Kurs anlegt ist automatisch Kurs-Besitzer. Kurs-Besitzer können auch
 weitere Besitzer des Kurses hinzufügen.
 
-  *  **[Betreuer](../access_roles_rights/coach.de.md)**  
+  *  **[Betreuer](../basic_concepts/coach.de.md)**  
 Betreuer spielen in der Regel bei der _Kursdurchführung_ eine Rolle, sind jedoch
 bei der Erstellung nicht involviert. Kurs-Betreuer haben Zugriff auf das
 Bewertungswerkzeug und die Statistiken sowie die Bewertungen im Kursrun. Je nach Konfiguration im Kurseditor haben sie auch Zugriff auf weitere

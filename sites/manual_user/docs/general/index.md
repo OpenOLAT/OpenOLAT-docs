@@ -1,32 +1,58 @@
 ---
 ᴴₒᴴₒᴴₒ: true
 ---
-![Logo: OpenOlat – infinite learning](../../../assets/OpenOlat_Logo_claim_RGB.png)
-
 # Manual
 
-!!! info "Get started"
+![Logo: OpenOlat – infinite learning](../../../assets/OpenOlat_Logo_claim_RGB.png)
 
-	* [Registration, Login and Logout](../login_registration/index.md)
-	* [Navigation in OpenOlat](../basic_concepts/Navigation.md)
 
-!!! info "Introduction for learners"
+<div class="grid cards" markdown>
 
-	* [Finding courses](../area_modules/Courses.md)
-	* [Create groups](../groups/Create_Groups.md)
+-	:fontawesome-solid-rocket:{ .lg .middle }  __Get started__
 
-!!! info  "Introduction for autors"
+    ---
 
-	* [Creating courses](../learningresources/Creating_Course.md)
-	* [Course design](../learningresources/Learning_path_course.md)
-	* [Catalog](../area_modules/catalog2.0.md)
+	[:octicons-arrow-right-24: Registration, Login and Logout](../login_registration/index.md)
 
-!!! info  "Introduction for coaches"
+	[:octicons-arrow-right-24: Navigation in OpenOlat](../basic_concepts/Navigation.md)
 
-	* [Assessment tool](../learningresources/Assessment_tool_overview.md)
-	* [Coaching modul](../area_modules/Coaching.md)
 
-!!! info  "Manage courses"
+-	:fontawesome-solid-user:{ .lg .middle }  __Introduction for learners__
 
-	* [General Information](../learningresources/General_Information.md)
-	* [Course operation](../learningresources/Administration.md)	
+    ---
+
+	[:octicons-arrow-right-24: Finding courses](../area_modules/Courses.md)
+
+	[:octicons-arrow-right-24: Create groups](../groups/Create_Groups.md)
+
+
+-	:fontawesome-solid-user-pen:{ .lg .middle }  __Introduction for autors__
+
+    ---
+
+	[:octicons-arrow-right-24: Creating courses](../learningresources/Creating_Course.md)
+
+	[:octicons-arrow-right-24: Course design](../learningresources/Learning_path_course.md)
+
+	[:octicons-arrow-right-24: Catalog](../area_modules/catalog2.0.md)
+
+
+-	:fontawesome-solid-user-graduate:{ .lg .middle }  __Introduction for coaches__
+
+    ---
+
+	[:octicons-arrow-right-24: Assessment tool](../learningresources/Assessment_tool_overview.md)
+
+	[:octicons-arrow-right-24: Coaching modul](../area_modules/Coaching.md)
+
+
+-	:fontawesome-solid-cubes:{ .lg .middle }  __Manage courses__
+
+    ---
+
+	[:octicons-arrow-right-24: General Information](../learningresources/General_Information.md)
+
+	[:octicons-arrow-right-24: Course operation](../learningresources/Administration.md)	
+	
+</div>
+	

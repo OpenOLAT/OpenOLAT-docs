@@ -36,5 +36,5 @@ mentioned explicitly.
 
   * How to [Create learning path courses](Creating_learning_path_courses.md)
   * Welche Möglichkeiten im [Course editor] (Learning_path_course_-_Course_editor.md) zur Verfügung stehen.
-  * Wie sich der Lernpfad Kurs in der  [Participant view](Learning_path_course_-_Participant_view.md) zeigt.
+  * Wie sich der Lernpfad Kurs in der  [Participant view](Learning_path_course_Participant_view.md) zeigt.
 

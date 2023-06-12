@@ -46,4 +46,4 @@ explizit erwähnt.
 
   * Wie man [Lernpfad Kurse erstellt](Creating_learning_path_courses.de.md)
   * Welche Möglichkeiten im [Kurseditor und besonders im Tab "Lernpfad"](Learning_path_course_-_Course_editor.de.md) zur Verfügung stehen
-  * Wie sich der Lernpfad Kurs in der [Teilnehmeransicht](Learning_path_course_-_Participant_view.de.md) zeigt.
+  * Wie sich der Lernpfad Kurs in der [Teilnehmeransicht](Learning_path_course_Participant_view.de.md) zeigt.

@@ -1008,7 +1008,7 @@ Here you can set the user rights of the forum and define which course roles are 
 ![Configuration options for forum](assets/forum_config.png){ class="shadow" }
 
 **Moderation rights**
-All course owners and [coaches](../access_roles_rights/coach.md) have the following additional moderation rights. You can:
+All course owners and [coaches](../basic_concepts/coach.md) have the following additional moderation rights. You can:
 
   * Editing and deleting all posts in a forum; attaching files.
   * Prioritizing threads (sticky): a certain discussion subject will always appear on top of a list.

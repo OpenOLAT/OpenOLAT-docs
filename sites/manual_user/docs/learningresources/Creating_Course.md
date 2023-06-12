@@ -4,7 +4,7 @@
 
 This chapter is written for course authors and shows you the way to your own course. There are two variants of OpenOlat courses: Conventional courses and Learning path courses, which differ partly in the configuration options.
 
-Learning path courses have, among other things, a [progress indicator](Learning_path_course_-_Participant_view.md), whereas conventional courses are suitable for more complex scenarios with more differentiated selective approvals. In the authoring area, course owners can directly display whether a course is a learning path course or a conventional course by displaying the "Technical type" column.
+Learning path courses have, among other things, a [progress indicator](Learning_path_course_Participant_view.md), whereas conventional courses are suitable for more complex scenarios with more differentiated selective approvals. In the authoring area, course owners can directly display whether a course is a learning path course or a conventional course by displaying the "Technical type" column.
 
 ## How can you get started?
 
