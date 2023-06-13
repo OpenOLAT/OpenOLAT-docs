@@ -119,7 +119,21 @@ Possibility to activate external analytics services.
 
 ## PDF Generator
 
-Activation of the PDF generator. [AthenaPDF](https://www.athenapdf.com) is a
+In OpenOlat PDFs can be created in various places, e.g. certificates, test results, member lists or similar. 
+These functions are only available if one of the PDF services below is configured. 
+
+### Gotenberg (recommended)
+
+Gotenberg is a PDF Generator based on Google Chrome or Chromium, and it is docker based.
+
+More information on Gotenberg can be found at [Gotenberg](https://gotenberg.dev/docs/about) and [GitHub](https://github.com/gotenberg/gotenberg).
+
+To learn more about how to install and configure the Gotenberg service please visit the [installation manual](../installation/gotenbergPdf.md)..
+
+
+
+### Athena PDF (outdated)
+[AthenaPDF](https://www.athenapdf.com) is a
 PDF generator based on Electron and Docker. This implementation uses the
 Variant micro service. 
 

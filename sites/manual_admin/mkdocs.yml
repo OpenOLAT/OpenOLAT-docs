@@ -64,6 +64,7 @@ nav:
     - Update guide: "installation/updateGuide.md"
     - Supporting tools installation:
       - imageMagick: "installation/imageMagick.md"
+      - Gotenberg PDF: "installation/gotenbergPdf.md"
       - AthenaPDF: "installation/athenaPdf.md"
       - HandBrakeCLI: "installation/handBrakeCli.md"
     - Alternative installation environments:

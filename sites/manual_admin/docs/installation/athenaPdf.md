@@ -1,9 +1,14 @@
 # Install AthenaPDF
 
+
+!!! warning
+	Please note that AthenaPDF is no longer maintained by its developers. It is recommended to use [Gotenberg](gotenbergPDF.md) as an alternative PDF service in OpenOlat.
+
 ## PDF Service
 
 OpenOlat can generate PDFs, e.g. for downloadable test results documents or certificates. 
-In order to generate those PDFs, a PDF service must be installed and properly in the OpenOlat administration section. We use [AthenaPDF](https://www.athenapdf.com) for this purpose. 
+In order to generate those PDFs, a PDF service must be installed and properly in the OpenOlat administration section. This page describes hot wo setup 
+[AthenaPDF](https://www.athenapdf.com) for this purpose. 
 
 AthenaPDF allows us to use HTML as the description language for PDFs and to style the PDF with simple print CSS rules 
 using the powerful Google Chrome render engine. 
