@@ -14,5 +14,3 @@ mit einer Vielzahl von Möglichkeiten zur Verfügung.
 
 Nach der Auswahl Ihres didaktischen Konzepts und der Anpassung Ihrer Lerninhalte an die Gegebenheiten in OpenOlat
 nachdem Sie Ihre Lerninhalte für das Web angepasst haben.
-
-Übersetzt mit www.DeepL.com/Translator (kostenlose Version)
