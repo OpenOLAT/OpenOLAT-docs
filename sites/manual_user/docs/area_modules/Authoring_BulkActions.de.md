@@ -11,104 +11,13 @@ Sobald in der 1. Spalte der Tabelle eine Lernressource ausgewählt wurde, ersche
 
 !!! tip "Tipp"
 
-    Es hat nicht nur vor jeder aufgelisteten Lernressource eine Checkbox. Wenn Sie die Checkbox in der Titelzeile der Tabelle wählen, werden alle Lernressourcen auf einmal selektiert.
+    Wenn Sie die **Checkbox in der Titelzeile der Tabelle** wählen, werden alle Lernressourcen auf einmal selektiert. ![autorenbereich_buttons_fuer_ressourcenauswahl2_v1_de.png](assets/autorenbereich_buttons_fuer_ressourcenauswahl2_v1_de.png)
 
 
 
 
 ---
 
-Der Autorenbereich ist der zentrale Bereich für OpenOlat Autoren. Hier finden Sie alle ihre Kurse und weiteren Lernressourcen und können diese auch erstellen oder importieren. 
-
-![](assets/Autorenbereich.png)
-
-Im Folgenden wird erläutert welche generellen Einstellungen im Autorenbereich vorgenommen werden können. 
- 
-
-## Vordefinierte Filter des Autorenbereichs
-
-Der Autorenbereich beinhaltet bestimmte vordefinierte Filter. Hierzu zählen:
-
-* Favoriten
-* Meine Kurse
-* Meine Einträge
-* Gelöscht
-
-sowie eine Suchmaske.
-
-Unter „Meine Einträge“ sehen OpenOlat Autoren alle Lernressourcen bei
-denen sie Besitzer sind. Unter "Meine Kurse" werden alle herkömmlichen Kurse und alle Lernpfad Kurse bei denen Sie Besitzer sind angezeigt. "Meine Kurse" ist somit eine Untermenge von "Meine Einträge". 
-
-Unter „Favoriten“ werden die Lernressourcen angezeigt, die ein Autor selbst als  Favorit mit einem OpenOlat Bookmark gekennzeichnet hat. Der Tab „Gelöscht“ beinhaltet alle gelöschten Lernressourcen bei denen Sie Besitzer sind. Der Tab "Gelöscht" ist somit eine Art Papierkorb.
-
-
-## Lernressourcen Erstellen
-
-Im Autorenbereich können OpenOlat Autoren neue Kurse und weitere
-[Lernressourcen](Various_Types_of_Learning_Resources.de.md) anlegen. Der konkrete Erstellungsprozess ist in den folgenden Kapiteln beschrieben:
-
-* [„Kurs erstellen"](../course_create/index.de.md), 
-* [„CP-Lerninhalt erstellen"](../resource_cp/index.de.md), 
-* [„Wiki erstellen"](../resource_wiki/index.de.md), 
-* [„Podcast erstellen"](../resource_podcast/index.de.md), 
-* [„Blog erstellen"](../resource_blog/index.de.md), 
-* ["Portfolio erstellen",](../portfolio/index.de.md) 
-* ["Tests erstellen" ](../tests/index.de.md),
-* ["Formulare erstellen" ](../forms/index.de.md) 
-
-
-!!! tip "Tipp"
-
-    Wenn Sie Ihre Kurse systematisch aufbauen und Lernressourcen in mehreren Kursen verwenden wollen, sollten Sie die Lernressourcen besser im Autorenbereich als direkt im Kurs erstellen.
-
-
-
-###  Importieren {: #import}
-
-Ausserhalb von OpenOlat erstellte oder aus einem OpenOlat System exportierte
-Lernressourcen können in OpenOlat importiert werden, wenn Sie in einem für
-OpenOlat kompatiblen Format vorliegen. Mögliche Typen werden unter dem Punkt
-[„Verschiedene Typen von
-Lernressourcen"](Various_Types_of_Learning_Resources.de.md)
-erklärt. Darüber können über den Link "Importieren URL" auch Links zu externen
-Videos z.B. in YouTube gesetzt und als OpenOlat [Lernressource
-Video](../resource_video/Learning_resource_Video.de.md) angelegt werden.
-
-Wenn Sie einen Kurs z.B. aus einer anderen OpenOlat Instanz importieren
-möchten, werden Sie gefragt, ob Sie die vom Kurs referenzierten Lernressourcen
-(z.B. ein Wiki oder einen Test) ebenfalls importieren möchten. Markieren Sie
-die entsprechende Checkbox, wenn Sie die referenzierten Lernressourcen
-ebenfalls importieren möchten. Publizieren Sie den importierten Kurs im
-Anschluss, um ihn für Sie und andere OpenOlat-Benutzer sichtbar zu machen.
-
-Am Ende des Imports erscheint das Menü „Einstellungen“ und weitere
-Konfigurationen sind möglich, z.B. eine Definition der Lizenz.
-
- **Lizenzen**
-
-Werden Lernressourcen importiert oder erstellt, kann im nächsten Schritt u.a.
-in den Metadaten ein entsprechender Lizenztyp sowie ein Lizenzgeber zugeordnet werden.
-
-![Metadaten Lizenz](assets/LizenzMgmt_01_DE2.png)
-![Lizenzen zur Wahl](assets/Lizenzen.png)
-
-  
-In der Übersicht des Autorenbereichs werden die zugeordneten Lizenzen in der
-Spalte «Lizenz» angezeigt werden. Mit Klick auf die Lizenz erhält man
-detaillierte Informationen zur jeweiligen Lizenz.  
-![](assets/Autorenbereich_Lizenz.png)
-
-## Tabellenansicht konfigurieren
-
-Wählen Sie über das Zahnrad aus, welche Spalten und damit verbundenen
-Informationen Ihnen angezeigt werden sollen. Besonders informativ sind z.B.
-der Status, die Referenzierung (Ref.), das Erstellungsdatum oder bei Kursen
-der Technische Kurstyp um herkömmliche Kurse von Lernpfad Kursen zu
-unterscheiden.  
-
-Neben der Auswahl der Spalten können Sie noch die Art der Sortierung
-definieren z.B. sortiert nach der Referenzierung oder dem Status oder dem
-Erstellungsdatum und die gesamte Tabelle downloaden.
 
 ### Menüs und weitere Einstellungen aufrufen
 
@@ -164,7 +73,7 @@ Wählt man eine oder mehrere der angezeigten Lernressourcen aus der Tabelle aus 
 ![Sammelaktionen](assets/Sammelaktion_172.png)
 
 
-### E-Mail versenden
+### 1. E-Mail versenden
 
 Wählen Sie die gewünschten Lernressourcen aus und klicken Sie auf "E-Mail versenden". Es öffnet sich ein
 Dialog. Sie können nun definieren, an wen die E-Mail verschickt werden soll.
@@ -174,16 +83,16 @@ Mögliche Empfänger sind alle Kursbesitzer, alle Kursbetreuer und alle Teilnehm
 
     Sie können die E-Mail an alle Kurse schicken, die Ihnen angezeigt werden. Dazu gehören auch Kurse, welche für alle Autoren sichtbar sind. Sie müssen also nicht zwingend Mitglied des Kurses sein, um diese Funktion zu nutzen.
 
-### Status ändern
+### 2. Status ändern
 Wählen Sie den Veröffentlichungsstatus aus der für alle ausgewählten Lernressourcen gelten soll und klicken Sie auf "Ändern".    
 
-### Besitzer bearbeiten
+### 3. Besitzer bearbeiten
 
 Hier werden Ihnen alle Besitzer der ausgewählten Lernressourcen angezeigt und Sie können diese gleichzeitig aus mehreren Kursen entfernen oder auch neue
 Besitzer den ausgewählten Lernressourcen hinzufügen. Eine
 E-Mailbenachrichtigungsoption schliesst die Bearbeitung ab.
 
-### Metadaten und Einstellungen
+### 4. Metadaten und Einstellungen
 
 Hier können mittel Sammelaktion verschiedene Metadaten für die ausgewählten Lernressourcen vereinheitlich werden, z.B. wenn mehrere Kurse zu einer Weiterbildungsreihe gehören. Bei Klick öffnet sich ein Wizard.
 
@@ -193,11 +102,11 @@ Weiter können ein passender Fachbereich und die gewünschte Organisation für d
 
 Bei Kursen besteht darüber hinaus auch die Möglichkeit eine einheitliche Auswahl für die Tools der Toolbar zu treffen. 
 
-### Kopieren
+### 5. Kopieren
 
 Wählen Sie eine oder mehrere Lernressourcen aus um sie zu kopieren. Kopierte Lernressourcen befinden sich anschliessend im Tab "Meine Einträge". Der Zusatz "(Kopie)" wird dem Titel hinzufügt. Der Titel kann aber anschliessend nach Wunsch geändert werden.
 
-### Löschen
+### 6. Löschen
 
 Hier können Sie schnell mehrere Lernressourcen auf einmal löschen. Sie müssen diese Aktion zur Sicherheit noch einmal im Menü bestätigen. Die Besitzer der Lernressource werden per E-Mail benachrichtigt. Nach dem Löschen erscheinen die Lernressourcen nicht mehr unter "Meine Einträge", sondern werden in den Tab "Gelöscht" (Papierkorb Funktion) verschoben und sind dort nur für die jeweiligen Besitzer sichtbar. Die Besitzer der gelöschten Lernressource können
 gelöschte Lernressourcen wiederherstellen. 

@@ -18,11 +18,10 @@ als Favorit gekennzeichnet haben. Diese Ansicht wird standardmässig angezeigt, 
 
 ### 2. Meine Kurse
 Im Filter-Tab "**Meine Kurse**" finden Sie alle Kurse, die Sie erstellt
-haben oder bei denen Sie als Besitzer (Co-Autor) eingetragen sind.
+haben oder bei denen Sie als Besitzer (Co-Autor) eingetragen sind. "Meine Kurse" ist eine Teilmenge von "Meine Einträge". 
 
 ### 3. Meine Einträge 
-Im Filter-Tab „**Meine Einträge**“ finden Sie alle Lernressourcen, die Sie
-erstellt haben oder bei denen Sie als Besitzer (Co-Autor) eingetragen sind. Das sind neben den Kursen auch Test-Lernressourcen, Formulare, usw. 
+Im Filter-Tab „**Meine Einträge**“ finden Sie alle Lernressourcen, die Sie erstellt haben oder bei denen Sie als Besitzer (Co-Autor) eingetragen sind. Das sind neben den Kursen auch Test-Lernressourcen, Formulare, usw. 
 
 ### 4. Suchmaske 
 Im Filter-Tab "**Suchmaske**" können Sie nach bestimmten Lernressourcen
@@ -32,8 +31,7 @@ Ergebnisse eingrenzen.
 
 ### 5. Gelöscht
 Im Filter-Tab " **Gelöscht** " haben Sie Zugriff auf Ihre gelöschten
-Lernressourcen bei denen Sie als Besitzer (Co-Autor) eingetragen sind. Der Tab "Gelöscht" ist somit eine Art Papierkorb. Von hier können sie wieder hergestellt oder durch den Administrator dauerhaft
-gelöscht werden.
+Lernressourcen bei denen Sie als Besitzer (Co-Autor) eingetragen sind. Der Tab "Gelöscht" ist somit eine Art Papierkorb. Von hier können sie wieder hergestellt oder durch den Administrator dauerhaft gelöscht werden.
 
 ### 6. Eigene Filter-Tabs erstellen
 Sie können in der Zeile mit den Filter-Tabs (1-5) auch eine häufig benötigte Filterabfrage komplett neu erstellen.<br>Mit Klick auf "Filter speichern" können Sie Ihrer aktuellen Filterkombination einen eigenen Namen geben, die dann direkt so wieder aufgerufen werden kann. ![Filter](assets/Autorenbereich_Filter_172.png)
@@ -60,8 +58,20 @@ Sie können so individuell die relevanten Informationen zusammenstellen.
 
 ![autorenbereich_spalten_auswaehlen_v1_de.png](assets/autorenbereich_spalten_auswaehlen_v1_de.png)
 
-Beispiel:<br>
+**Beispiel:**<br>
 In der Spalte "Ref" ist angezeigt, ob bzw. wie oft eine Lernressource in OpenOlat Kursen
-referenziert wurde. Klicken Sie auf diese Zahl, werden Ihnen die Kurse namentlich angezeigt. Sie können dann direkt zum passenden Kurs springen.
+referenziert wurde. Klicken Sie auf diese Zahl, werden Ihnen die Kurse namentlich angezeigt. Sie können dann direkt zum gewünschten Kurs springen.
 
 ![autorenbereich_spalten_auswaehlen2_v1_de.png](assets/autorenbereich_spalten_auswaehlen2_v1_de.png)
+
+
+### 10. Spalten sortieren
+Durch Klick auf einen Spaltentitel werden alle Einträge der Tabelle gemäss der Reihenfolge dieser 
+
+**Beispiel:** Klick auf Spaltentitel "Titel der Lernressource" sortiert die Tabelle alphabetisch nach dem Titel. Bei nochmaligem Klick umgekehrt alphabetisch.
+
+**Beispiel:** Klick auf "Erstellt durch" sortiert und gruppiert nach Autoren.
+
+
+### 11. die gesamte Tabelle downloaden.
+So wie gerade angezeigt.

@@ -23,3 +23,61 @@ sie im Autorenbereich vornehmen können, und Informationen zur [Infoseite](Set_u
 !!! info "Kurserstellung"
 
     Eine ausführliche Schritt-für-Schritt-Anleitung zum Erstellen eines Kurses finden Sie hier [„hier"](../../manual_how-to/my_first_course/my_first_course.de.md).
+
+
+
+## Lernressourcen Erstellen
+
+Im Autorenbereich können OpenOlat Autoren neue Kurse und weitere
+[Lernressourcen](Various_Types_of_Learning_Resources.de.md) anlegen. Der konkrete Erstellungsprozess ist in den folgenden Kapiteln beschrieben:
+
+* [„Kurs erstellen"](../course_create/index.de.md), 
+* [„CP-Lerninhalt erstellen"](../resource_cp/index.de.md), 
+* [„Wiki erstellen"](../resource_wiki/index.de.md), 
+* [„Podcast erstellen"](../resource_podcast/index.de.md), 
+* [„Blog erstellen"](../resource_blog/index.de.md), 
+* ["Portfolio erstellen",](../portfolio/index.de.md) 
+* ["Tests erstellen" ](../tests/index.de.md),
+* ["Formulare erstellen" ](../forms/index.de.md) 
+
+
+!!! tip "Tipp"
+
+    Wenn Sie Ihre Kurse systematisch aufbauen und Lernressourcen in mehreren Kursen verwenden wollen, sollten Sie die Lernressourcen besser im Autorenbereich als direkt im Kurs erstellen.
+
+
+
+###  Importieren {: #import}
+
+Ausserhalb von OpenOlat erstellte oder aus einem OpenOlat System exportierte
+Lernressourcen können in OpenOlat importiert werden, wenn Sie in einem für
+OpenOlat kompatiblen Format vorliegen. Mögliche Typen werden unter dem Punkt
+[„Verschiedene Typen von
+Lernressourcen"](Various_Types_of_Learning_Resources.de.md)
+erklärt. Darüber können über den Link "Importieren URL" auch Links zu externen
+Videos z.B. in YouTube gesetzt und als OpenOlat [Lernressource
+Video](../resource_video/Learning_resource_Video.de.md) angelegt werden.
+
+Wenn Sie einen Kurs z.B. aus einer anderen OpenOlat Instanz importieren
+möchten, werden Sie gefragt, ob Sie die vom Kurs referenzierten Lernressourcen
+(z.B. ein Wiki oder einen Test) ebenfalls importieren möchten. Markieren Sie
+die entsprechende Checkbox, wenn Sie die referenzierten Lernressourcen
+ebenfalls importieren möchten. Publizieren Sie den importierten Kurs im
+Anschluss, um ihn für Sie und andere OpenOlat-Benutzer sichtbar zu machen.
+
+Am Ende des Imports erscheint das Menü „Einstellungen“ und weitere
+Konfigurationen sind möglich, z.B. eine Definition der Lizenz.
+
+ **Lizenzen**
+
+Werden Lernressourcen importiert oder erstellt, kann im nächsten Schritt u.a.
+in den Metadaten ein entsprechender Lizenztyp sowie ein Lizenzgeber zugeordnet werden.
+
+![Metadaten Lizenz](assets/LizenzMgmt_01_DE2.png)
+![Lizenzen zur Wahl](assets/Lizenzen.png)
+
+  
+In der Übersicht des Autorenbereichs werden die zugeordneten Lizenzen in der
+Spalte «Lizenz» angezeigt werden. Mit Klick auf die Lizenz erhält man
+detaillierte Informationen zur jeweiligen Lizenz.  
+![](assets/Autorenbereich_Lizenz.png)
