@@ -1,4 +1,22 @@
-#  Aktionen im „Autorenbereich"
+![bereiche_autorenbereich_v1_de.png](assets/bereiche_autorenbereich_v1_de.png){ class="shadow lightbox" }
+
+#  Autorenbereich - Aktionen
+
+Sobald in der 1. Spalte der Tabelle eine Lernressource ausgewählt wurde, erscheinen über der Tabelle zusätzliche Buttons. Mit ihnen lassen sich Aktionen für die ausgewählten Ressourcen durchführen.<br>
+(Die Buttons sind nicht sichtbar, wenn nicht mindestens 1 Lernressource selektiert ist.) 
+
+
+![autorenbereich_buttons_fuer_ressourcenauswahl_v1_de.png](assets/autorenbereich_buttons_fuer_ressourcenauswahl_v1_de.png)
+
+
+!!! tip "Tipp"
+
+    Es hat nicht nur vor jeder aufgelisteten Lernressource eine Checkbox. Wenn Sie die Checkbox in der Titelzeile der Tabelle wählen, werden alle Lernressourcen auf einmal selektiert.
+
+
+
+
+---
 
 Der Autorenbereich ist der zentrale Bereich für OpenOlat Autoren. Hier finden Sie alle ihre Kurse und weiteren Lernressourcen und können diese auch erstellen oder importieren. 
 
