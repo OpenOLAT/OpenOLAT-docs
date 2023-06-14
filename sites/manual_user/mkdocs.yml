@@ -51,6 +51,7 @@ nav:
       - Overview: "area_modules/Coaching.md" 
     - Authoring:
        - Overview: "area_modules/Authoring.md"
+       - Create courses and learning resources: "area_modules/authoring_new_course.md"
        - Actions in the Authoring section: "area_modules/Authoring_BulkActions.md"
     - Question Bank:
       - Overview: "area_modules/Question_Bank.md"

@@ -1,6 +1,6 @@
 ![bereiche_autorenbereich_v1_de.png](assets/bereiche_autorenbereich_v1_de.png){ class="shadow lightbox" }
 
-# Autorenbereich - Kurse und Lernressourcen erstellen
+# Authoring - Create courses and learning resources
 
 ##  OpenOlat Lernressourcen erstellen und importieren
 
