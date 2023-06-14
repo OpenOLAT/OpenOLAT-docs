@@ -6,13 +6,13 @@ In OpenOlat you will find some principles, concepts and tools that are valid acr
 
 What is needed to work with OpenOlat? More about this in this section.
 
-## Account
-
-Here you can learn more about login, sessions, timeout, etc.
-
 ## Roles and rights
 
 Not everyone can execute everything in OpenOlat. There are different roles, each with different rights. This ranges from administrators to the guest access, which understandably has few rights associated with it.
+
+## Account
+
+Here you can learn more about login, sessions, timeout, etc.
 
 ## Framework
 
