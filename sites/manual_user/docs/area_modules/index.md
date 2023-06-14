@@ -20,6 +20,8 @@ An optional module contains additional features for the coaching of course parti
 
 ## Authoring area
 
+![bereiche_autorenbereich_v1_de.png](assets/bereiche_autorenbereich_v1_de.png){ class="shadow lightbox" }
+
 Everything needed to create new courses is located here.
 
 ## Question pool
