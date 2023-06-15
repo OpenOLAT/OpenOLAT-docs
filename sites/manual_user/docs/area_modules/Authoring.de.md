@@ -9,7 +9,7 @@ Lernressourcen zu erstellen, zu importieren und zu bearbeiten.
 
 Alle bereits vorhandenen Kurse und Lernressourcen werden in einer Tabelle angezeigt.
 
-![autorenbereich_uebersicht1_v1_de.png](assets/autorenbereich_uebersicht1_v1_de.png)
+![autorenbereich_uebersicht1_v1_de.png](assets/autorenbereich_uebersicht1_v1_de.png){ class="shadow lightbox" }
 
 
 ### 1. Favoriten
@@ -42,7 +42,6 @@ In der zweiten Zeile sind bereits mehrere **Buttons** mit Filteroptionen angezei
 ### 8. Suchfeld 
 Im **Suchfeld** können Sie direkt nach dem Titel suchen. Auch Teile des Titels liefern bereits ein Suchergebnis.
 
-
 Weitere Details zum Umgang mit den Filteroptionen erfahren Sie
 [Filtermenü](../personal/Working_with_tables.de.md).
 
@@ -56,22 +55,18 @@ Weitere Details zum Umgang mit den Filteroptionen erfahren Sie
 Über das Zahnrad-Icon kann ausgewählt werden, welche Spalten in der Tabelle angezeigt werden.
 Sie können so individuell die relevanten Informationen zusammenstellen.
 
-![autorenbereich_spalten_auswaehlen_v1_de.png](assets/autorenbereich_spalten_auswaehlen_v1_de.png)
+![autorenbereich_spalten_auswaehlen_v1_de.png](assets/autorenbereich_spalten_auswaehlen_v1_de.png){ class="shadow lightbox" }
 
 **Beispiel:**<br>
 In der Spalte "Ref" ist angezeigt, ob bzw. wie oft eine Lernressource in OpenOlat Kursen
 referenziert wurde. Klicken Sie auf diese Zahl, werden Ihnen die Kurse namentlich angezeigt. Sie können dann direkt zum gewünschten Kurs springen.
 
-![autorenbereich_spalten_auswaehlen2_v1_de.png](assets/autorenbereich_spalten_auswaehlen2_v1_de.png)
+![autorenbereich_spalten_auswaehlen2_v1_de.png](assets/autorenbereich_spalten_auswaehlen2_v1_de.png){ class="shadow lightbox" }
 
+### 10. Tabelle downloaden
+Sie können die gesamte Tabelle in dem aktuell angezeigten Zustand herunterladen.
 
-### 10. Spalten sortieren
-Durch Klick auf einen Spaltentitel werden alle Einträge der Tabelle gemäss der Reihenfolge dieser 
+### 11. Spalten sortieren
+Durch Klick auf einen Spaltentitel werden alle Einträge der Tabelle alphabetisch, nach Datum, usw. sortiert.
 
 **Beispiel:** Klick auf Spaltentitel "Titel der Lernressource" sortiert die Tabelle alphabetisch nach dem Titel. Bei nochmaligem Klick umgekehrt alphabetisch.
-
-**Beispiel:** Klick auf "Erstellt durch" sortiert und gruppiert nach Autoren.
-
-
-### 11. die gesamte Tabelle downloaden.
-So wie gerade angezeigt.
