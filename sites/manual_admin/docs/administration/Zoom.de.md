@@ -16,6 +16,12 @@ und unter Verwendung eines bestehenden Zoom-Kontos gestartet werden kann.
 * Sie benötigen die Administratorrolle in Ihrem OpenOlat-Konto.
 * Die Zoom-Integration verwendet die LTI Pro App aus dem [Zoom App Marketplace](https://marketplace.zoom.us/).
   Sie müssen diese App zu Ihrem Zoom-Konto im Zoom Marketplace hinzufügen
+  
+!!! important
+	Die Zoom Integration ist nur möglich, wenn OpenOlat auf dem Root-Context betrieben wird, also direkt unter `https://<openolat_instance>/` und nicht
+	etwa unter `https://<openolat_instance>/olat/` oder so ähnlich. Ebenso muss sichergestellt sein, dass eine allfällige Firewall die Adressen
+	`https://<openolat_instance>/mod/lti/auth.php`, `https://<openolat_instance>/mod/lti/token.php` und `https://<openolat_instance>/mod/lti/certs.php` nicht blockiert, 
+	da diese von Zoom während des the OAuth Handshakes aufgerufen werden. 	
 
 ## Konfigurations-Schritte
 

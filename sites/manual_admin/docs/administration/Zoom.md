@@ -15,6 +15,12 @@ key that allows Zoom to be launched from another application without authenticat
 * You need the administrator role in your OpenOlat account.
 * The Zoom integration uses the LTI Pro App from the [Zoom App Marketplace](https://marketplace.zoom.us/).
   You need to add this App to your Zoom account in the Zoom Marketplace.
+  
+!!! important
+	The Zoom integration is only possible if OpenOlat is running in the root context, i.e. directly at `https://<openolat_instance>/` and
+	not at `https://<openolat_instance>/olat/` or something like that. You also have to make sure that any firewall will not block the addresses
+	`https://<openolat_instance>/mod/lti/auth.php`, `https://<openolat_instance>/mod/lti/token.php` and `https://<openolat_instance>/mod/lti/certs.php`, 
+	because they are called by Zoom during the OAuth Handshake. 
 
 ## Configuration steps
 
