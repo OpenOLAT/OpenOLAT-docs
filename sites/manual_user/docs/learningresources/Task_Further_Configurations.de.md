@@ -15,7 +15,7 @@ Das Freigabedatum kann verwendet werden, wenn der Kursbaustein erst zu einem bes
 
 Die Zeitangabe unter "Zu bearbeiten bis" bezieht sich auf die Frist für das Abholen bzw. den Start des Kursbausteins Aufgabe, nicht auf den Abgabetermin für den Dateiupload (siehe Workflow).
 
-Bei der Bearbeitungszeit kann die geschätzte Zeit, die ein User für die Bearbeitung des Kursbausteins benötigt, eingetragen werden. Ein Eintrag ist vor allem relevant, wenn sich der Fortschritt im Kurs auf die Bearbeitungszeit der Kursbausteine bezieht (siehe Administration -> [Einstellungen](../course_create/Course_Settings.de.md) -> Tab "Durchführung")
+Bei der Bearbeitungszeit kann die geschätzte Zeit, die ein User für die Bearbeitung des Kursbausteins benötigt, eingetragen werden. Ein Eintrag ist vor allem relevant, wenn sich der Fortschritt im Kurs auf die Bearbeitungszeit der Kursbausteine bezieht (siehe Administration -> [Einstellungen](../learningresources/Course_Settings.de.md) -> Tab "Durchführung")
 
 Im Tab "Lernpfad" wird auch definiert, welches Kriterium erfüllt sein muss,
 damit die Aufgabe als "erledigt" gilt. Folgende Optionen stehen zur Wahl:
@@ -206,9 +206,9 @@ Sofern für die Aufgabe auch die Vergabe von Punkten aktiviert wurde, kann auch
 der Tab Highscore näher konfiguriert werden. So kann definiert werden welche Elemente angezeigt werde, ob die
 Darstellung anonym sein soll und ab welchem Zeitpunkt die Highsore-Liste sichtbar sein soll. 
 
-Weitere Informationen zu diesem Tab, der in mehreren Kursbausteinen zur Verfügung steht, finden Sie [hier](../course_elements/Assessment.de.md#highscore--highscore).
+Weitere Informationen zu diesem Tab, der in mehreren Kursbausteinen zur Verfügung steht, finden Sie [hier](../learningresources/Assessment.de.md#highscore--highscore).
 
 ## Tab "Erinnerungen"
 Erstellen Sie bei Bedarf Erinnerungen zur Bearbeitung des Kursbausteins für die Teilnehmenden. 
 
-Weitere Informationen zu diesem Tab, der in mehreren Kursbausteinen zur Verfügung steht, finden Sie [hier](../course_operation/Course_Reminders.de.md).
+Weitere Informationen zu diesem Tab, der in mehreren Kursbausteinen zur Verfügung steht, finden Sie [hier](../learningresources/Course_Reminders.de.md).

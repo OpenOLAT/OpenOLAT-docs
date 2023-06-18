@@ -11,7 +11,7 @@ examples for the use of tests:
 * Tests in the sense of quizzes as a playful component
 * Tests as online exams
 
-The coach can use various [question types](../tests/Test_question_types.md) in tests.
+The coach can use various [question types](../learningresources/Test_question_types.md) in tests.
 Depending on the type of question you can tick one or more answers, move
 elements by drag & drop, insert text and/or numbers, add files, make markers
 or (very simple) drawings. Per OpenOlat course several tests can be used for

@@ -1,7 +1,7 @@
 # Creating Podcasts
 
-  * [Four Steps to Your Podcast](Four_Steps_to_Your_Podcast.md)
-  * [Podcast - Further Configurations](Podcast_-_Further_Configurations.md)
+  * [Four Steps to Your Podcast](../resource_podcast/Four_Steps_to_Your_Podcast.md)
+  * [Podcast - Further Configurations](../learningresources/Podcast_Further_Configurations.md)
 
   
 

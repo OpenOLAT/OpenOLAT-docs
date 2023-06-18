@@ -2,7 +2,7 @@
 
 Wenn Sie ein Lehrszenario mit mehreren Kursen, z.B. einen Studiengang umsetzen
 wollen und dabei viele Dateien in allen Kursen verwendet werden sollen, bietet
-es sich an, diese Dateien zentral in der Lernressource [Ressourcenordner](../authoring/Various_Types_of_Learning_Resources.de.md#ressourcenordner)
+es sich an, diese Dateien zentral in der Lernressource [Ressourcenordner](../learningresources/index.de.md#ressourcenordner)
 abzulegen und dann in den gewünschten Kursen einzubinden. Das hat den Vorteil,
 dass Sie Änderungen an den Dateien nur einmal vornehmen müssen und diese
 automatisch in allen verlinkten Kursen sichtbar werden. Typische Beispiele für
@@ -13,7 +13,7 @@ organisatorische Infos, Infos zur generellen Betreuung bzw. Ansprechpartnern abe
 ### Was Sie benötigen
 
 * Autorenrechte
-* Lernressource "[Ressourcenordner](../authoring/Various_Types_of_Learning_Resources.de.md#ressourcenordner)"
+* Lernressource "[Ressourcenordner](../learningresources/index.de.md#ressourcenordner)"
 * Mehrere Lernressourcen "Kurs"
 * Ihre übergreifenden Dateien
 
@@ -21,7 +21,7 @@ organisatorische Infos, Infos zur generellen Betreuung bzw. Ansprechpartnern abe
 
 ### Ressourcenordner erstellen  
 
-1. Gehen Sie hierfür in den [Autorenbereich](../authoring/index.de.md)und wählen Sie
+1. Gehen Sie hierfür in den [Autorenbereich](../area_modules/Authoring.de.md)und wählen Sie
 „Erstellen“ -> „Ressourcenordner“.
 
     ![erstellen ressource](assets/erstellen_Ressourcenordner.jpg){class="thumbnail-lg"}
@@ -38,7 +38,7 @@ direkt erstellen.
 
     ![Dateien hochladen](assets/Ressourcenordner_Dateien_hochladen1.png){class="thumbnail-lg"}
 
-Nutzen Sie [**WebDAV**](../supported_tech/Using_WebDAV.de.md)wenn Sie viele Dateien hochladen
+Nutzen Sie [**WebDAV**](../basic_concepts/Using_WebDAV.de.md)wenn Sie viele Dateien hochladen
 wollen.  
   
 ### Ressourcenordner in Kurse einbinden  
@@ -77,7 +77,7 @@ angelegten Unterordner „_sharedfolder“.
     ![Shared Folder](assets/13_dieselben_Dateien_shared.png){class="thumbnail-lg"}
   
 2. Diese Dateien können Sie nun wie alle anderen Dateien des Ablageordners über
-den Kursbaustein "[Einzelne Seite](../course_elements/Course_Element_Single_Page.de.md)" im Kurseditor hinzufügen.
+den Kursbaustein "[Einzelne Seite](../learningresources/Course_Element_Single_Page.de.md)" im Kurseditor hinzufügen.
 
 
 !!! Info "Achtung"

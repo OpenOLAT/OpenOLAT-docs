@@ -4,7 +4,7 @@ The learning resource Form, especially the [rubric](Rubric.md) element integrate
 
 ## In the course editor
 
-Go to the course editor and add the [course element "Assessment"](../course_elements/Course_Element_Assessment.md). Then go to the "Assessment" tab and activate the "Rubric assessment".
+Go to the course editor and add the [course element "Assessment"](../learningresources/Course_Element_Assessment.md). Then go to the "Assessment" tab and activate the "Rubric assessment".
 
 ![Configure rubric scoring](assets/Bewertung_Tab_Rurbrik-Bewerung.png){ class="shadow lightbox" }
 
@@ -20,7 +20,7 @@ If you have not yet created a form, you can also create a new learning resource 
 
 A newly created form does not yet contain a rubric element. This has to be added in the course via "Edit" or alternatively directly in the learning resource in the [Form Editor](Form_editor_Questionnaire_editor.md).
 
-If a form is created directly in the course editor, a new learning resource Form will be created automatically, which can also be found in the [Authoring Area](../authoring/index.md)under "My entries" and can be included in further courses.
+If a form is created directly in the course editor, a new learning resource Form will be created automatically, which can also be found in the [Authoring Area](../area_modules/Authoring.md)under "My entries" and can be included in further courses.
 
 After a form has been selected it can be designed via the link "Edit". If the form has already been set up appropriately, it is no longer necessary to edit it.
 
@@ -48,7 +48,7 @@ After a rubric has been linked to the assessment, the following additional confi
 
 **Notes for all users** : Notes for supervisors can be left here. Participants will not see the notes.
   
-Further information on the course element Assessment can be found [here](../course_elements/Course_Element_Assessment.md).
+Further information on the course element Assessment can be found [here](../learningresources/Course_Element_Assessment.md).
 
 ### Carry out rubric assessment
 

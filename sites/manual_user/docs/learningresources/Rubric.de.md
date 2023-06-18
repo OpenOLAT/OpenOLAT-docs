@@ -49,7 +49,7 @@ Geben Sie im Bereich der Zeilen einzelne Kriterien, Statements oder Fragestellun
 
 Einzelne Zeilen können mit Hilfe der Doppelpfeile rechts verschoben werden. Zusätzlich können Sie jede Zeile mit einer Gewichtung des jeweiligen Statements versehen und so einzelne Kriterien besondere Bedeutung zuweisen, was sich auch bei der Punktevergabe widerspiegelt, z.B. durch doppelte oder dreifache Punkte. Ferner ist es möglich den Wert auf 0 zu setzen um einzelne Fragen aus den Reports auszuschliessen.
 
-Ein bearbeitetes Rubrik kann somit auch automatisch eine entsprechende Punktzahl erhalten, was besonders bei der Verwendung im Kursbaustein „[Bewertung](../course_elements/Assessment.de.md)“ relevant ist.
+Ein bearbeitetes Rubrik kann somit auch automatisch eine entsprechende Punktzahl erhalten, was besonders bei der Verwendung im Kursbaustein „[Bewertung](../learningresources/Assessment.de.md)“ relevant ist.
 
 !!! info "Hinweis"
 

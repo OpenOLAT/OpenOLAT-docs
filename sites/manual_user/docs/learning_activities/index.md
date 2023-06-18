@@ -1,14 +1,14 @@
 # Learning Activities in Courses
 
-  * [Working With Course Elements](Working_With_Course_Elements.md)
-    * [Working with Forums](Working_with_Forums.md)
-    * [Working with Tasks and Group Tasks](Working_with_Tasks_and_Group_Tasks.md)
-    * [Working with Tests](Working_with_Tests.md)
-    * [Working with Topic Assignment](Working_with_Topic_Assignment.md)
-    * [Working with Wiki](Working_with_Wiki.md)
-  * [Additional Course Features](Additional_Course_Features.md)
-  * [Exams](Exams.md)
-  * [Course Problems and Error Messages](Course_Problems_and_Error_Messages.md)
+  * [Working With Course Elements](../learningresources/Course_Elements.md)
+    * [Working with Forums](../learningresources/Working_with_Forums.md)
+    * [Working with Tasks and Group Tasks](../learningresources/Working_with_Tasks_and_Group_Tasks.md)
+    * [Working with Tests](../learningresources/Working_with_Tests.md)
+    * [Working with Topic Assignment](../learningresources/Working_with_Topic_Assignment.md)
+    * [Working with Wiki](../learningresources/Working_with_Wiki.md)
+  * [Additional Course Features](../learningresources/Additional_Course_Features.md)
+  * [Exams](../learningresources/Exams.md)
+  * [Course Problems and Error Messages](../help/Course_Problems_and_Error_Messages.md)
 
 In this chapter learning activities within a course will be explained from the
 participant's point of view.

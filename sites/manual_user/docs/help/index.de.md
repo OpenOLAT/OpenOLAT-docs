@@ -11,7 +11,7 @@ Sie einfach auf das Fragezeichen! :fontawesome-solid-circle-question:.
 
 !!! info
 	Falls der Link nicht erscheint wurde er bei den Benutzerwerkzeugen in den
-	persönlichen [Einstellungen ](../personal/Configuration.de.md)ausgeblendet.
+	persönlichen [Einstellungen ](../personal_menu/Configuration.de.md)ausgeblendet.
 
 ## Kontextsensitive Hilfe
 

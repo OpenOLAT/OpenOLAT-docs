@@ -2,9 +2,9 @@
 
 Die Lernressource Formular wird im Kursbaustein "Umfrage" in Form eines Fragebogens verwendet. Kursbesitzer können so Fragebögen in ihren Kurs einbinden und Lernende können die bereitgestellten Umfragen ausfüllen. Die Ergebnisse werden den Kursbesitzern und Betreuern, dann entsprechend im angezeigt.
 
-OpenOlat stellt sicher, dass Kursteilnehmende die Umfrage bzw. den Fragebogen nur einmal ausfüllen können. Die Resultate werden standardmässig anonymisiert gespeichert. Eine Personalisierung ist jedoch durch die Auswahl der passenden Formular Elemente [Formular Editor](../forms/Form_editor_Questionnaire_editor.de.md) möglich.
+OpenOlat stellt sicher, dass Kursteilnehmende die Umfrage bzw. den Fragebogen nur einmal ausfüllen können. Die Resultate werden standardmässig anonymisiert gespeichert. Eine Personalisierung ist jedoch durch die Auswahl der passenden Formular Elemente [Formular Editor](../learningresources/Form_editor_Questionnaire_editor.de.md) möglich.
 
-Wie Sie Formulare erstellen und in Kurse einbinden erfahren Sie [hier](Three_Steps_to_your_Form.de.md).
+Wie Sie Formulare erstellen und in Kurse einbinden erfahren Sie [hier](../forms/Three_Steps_to_your_Form.de.md).
 
 ## Im Kurseditor
 
@@ -12,7 +12,7 @@ Gehen Sie in den Kurseditor und fügen Sie den Kursbaustein Umfrage hinzu. Nachd
 
 ![Umfrage Kurseditor](assets/Umfrage_Kurseditor.png){ class="shadow lightbox" }
 
-Im Tab "Titel und Beschreibung" sowie "Layout" können allgemeine Beschreibungen und Informationen zum jeweiligen Kursbaustein hinterlegt und die optische Darstellung definiert werden. Im [Tab Lernpfad](../course_create/Learning_path_course_-_Course_editor.de.md) werden spezielle Einstellungen die für Lernpfad Kurse gelten definiert, z.B. kann als Erledigungskriterium "Umfrage teilgenommen" gewählt werden.
+Im Tab "Titel und Beschreibung" sowie "Layout" können allgemeine Beschreibungen und Informationen zum jeweiligen Kursbaustein hinterlegt und die optische Darstellung definiert werden. Im [Tab Lernpfad](../learningresources/Learning_path_course_Course_editor.de.md) werden spezielle Einstellungen die für Lernpfad Kurse gelten definiert, z.B. kann als Erledigungskriterium "Umfrage teilgenommen" gewählt werden.
 
 Herkömmliche Kurs verfügen dagegen über die Tabs Sichtbarkeit und Zugang. Hier wird definiert, wer diesen Kursbaustein sehen bzw. bearbeiten kann.
 
@@ -24,9 +24,9 @@ Die zentrale Konfiguration erfolgt im Tab "Umfrage". Hier wird im ersten Schritt
 
 Hat man noch kein Formular erstellt, kann eine neue Lernressource Formular über den Button "Erstellen" erstellt oder ein extern vorliegendes Formular importiert werden. Anschließend erscheint das gerade angelegte oder importierte Formular ebenfalls in der Liste und kann ausgewählt werden.
 
-Ein neu erstelltes Formular beinhaltet zunächst noch keine Elemente, Fragen oder Textfelder. Diese müssen im Kurs über "Bearbeiten" oder alternativ direkt in der Lernressource im [Formular Editor](../forms/Form_editor_Questionnaire_editor.de.md) hinzugefügt werden.
+Ein neu erstelltes Formular beinhaltet zunächst noch keine Elemente, Fragen oder Textfelder. Diese müssen im Kurs über "Bearbeiten" oder alternativ direkt in der Lernressource im [Formular Editor](../learningresources/Form_editor_Questionnaire_editor.de.md) hinzugefügt werden.
 
-Wenn ein Formular direkt im Kurseditor erstellt wird, wird automatisch eine neue Lernressource Formular angelegt, die auch im [Autorenbereich](../authoring/index.de.md) unter "Meine Einträge" zu finden ist und in weiteren Kursen eingebunden werden kann.
+Wenn ein Formular direkt im Kurseditor erstellt wird, wird automatisch eine neue Lernressource Formular angelegt, die auch im [Autorenbereich](../area_modules/Authoring.de.md) unter "Meine Einträge" zu finden ist und in weiteren Kursen eingebunden werden kann.
 
 Nachdem ein Formular ausgewählt wurde kann es über den Link "Bearbeiten" gestaltet werden. Wurde das Formular schon vorher passend eingerichtet ist eine Bearbeitung nicht mehr notwendig.
 
@@ -45,7 +45,7 @@ Auch die Ergebnisse können für all diese Gruppen frei gegeben und in der erwei
 
 !!! tip "Tipp"
 
-    Voraussetzung für die Bearbeitung der Umfrage ist jedoch, dass der gesamte Kurs auch für die jeweilige Personengruppe freigegeben ist. Soll also beispielsweise eine Umfrage auch von externen Personen (Gästen) ausfüllbar sein, muss auch der Kurs im Menü „Einstellungen“ > [Freigabe](../course_create/Access_configuration.de.md) „offen ohne Buchung" für Gäste frei gegeben sein.
+    Voraussetzung für die Bearbeitung der Umfrage ist jedoch, dass der gesamte Kurs auch für die jeweilige Personengruppe freigegeben ist. Soll also beispielsweise eine Umfrage auch von externen Personen (Gästen) ausfüllbar sein, muss auch der Kurs im Menü „Einstellungen“ > [Freigabe](../learningresources/Access_configuration.de.md) „offen ohne Buchung" für Gäste frei gegeben sein.
 
 Wird ein Formular als Umfrage in einem Kurs eingebunden, kann das Formular im Kurs über den Button „bearbeiten“ eingeschränkt geändert werden. Texte können geändert aber einzelne Blöcke nicht mehr verschoben oder neue Bereiche angelegt oder gelöscht werden. Im Formular erscheint die Meldung "Die Ressource wird bereits verwendet...".
 
@@ -83,7 +83,7 @@ Ferner können die Inhalte aller 4 Tabs auch ausgedruckt oder als Excel Tabelle 
 
 Dieselbe Auswertung finden Sie auch im Menü `Administration > Fragebogen Statistiken`.
 
-Die Ergebnisse können auch über das Menü "[Datenarchivierung](../course_operation/Using_Course_Tools.de.md)" > “Umfragen“ gespeichert werden. Es handelt sich dabei um dieselbe Datei wie unter „Export“ im Kursrun.
+Die Ergebnisse können auch über das Menü "[Datenarchivierung](../learningresources/Using_Course_Tools.de.md)" > “Umfragen“ gespeichert werden. Es handelt sich dabei um dieselbe Datei wie unter „Export“ im Kursrun.
 
 ### Umfragen zurücksetzen
 

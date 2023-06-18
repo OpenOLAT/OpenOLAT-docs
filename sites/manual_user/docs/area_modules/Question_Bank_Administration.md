@@ -66,7 +66,7 @@ may also be edited or deleted.
 
 ###  Question Type {: #type}
 
-OpenOlat has several standardized [question types](../tests/Test_question_types.md)
+OpenOlat has several standardized [question types](../learningresources/Test_question_types.md)
 that can be created either in the test editor of the learning resource Test or
 in the item editor of the question bank. Create additional question types if
 the default question types of OpenOlat are not sufficient. The default

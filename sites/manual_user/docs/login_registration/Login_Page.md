@@ -23,7 +23,7 @@ insight into OpenOlat with limited access to certain features: you will only
 get to learning content that is explicitly open to the public. In order to
 have access to other material and activities you will have to register first.
 Further information to the guest access can be found
-[here](../access_roles_rights/guest_access.md).
+[here](../basic_concepts/guest_access.md).
 
 ## Browser Check {: #browsercheck}
 

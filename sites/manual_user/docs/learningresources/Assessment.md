@@ -9,7 +9,7 @@ the manual.
 
 OpenOlat provides various course elements for knowledge testing. The central
 course elements for this are the three course elements for OpenOlat
-[tests](../tests/Configure_tests.md) and the two course elements for [submission tasks](../task/index.md). But also the other elements such as [portfolio task](../portfolio/Creating_Portfolio_Tasks.md),
+[tests](../learningresources/Configure_tests.md) and the two course elements for [submission tasks](../task/index.md). But also the other elements such as [portfolio task](../learningresources/Creating_Portfolio_Tasks.md),
 [assessments](Course_Element_Assessment.md) with and without
 evaluation grid (rubric) or the checklists offer a lot of potential for
 certain scenarios.
@@ -27,9 +27,9 @@ e-mails can be sent depending on the progress of the respective course
 element. For example, a mail can be sent if a task has not yet been worked on
 by a certain date. The possibilities are similar to those in the menu
 "Reminder" in the course administration for which you can find more
-information [here](../course_operation/Course_Reminders.md).
+information [here](../learningresources/Course_Reminders.md).
 
-The OpenOlat [questionnaire](../forms/Form_editor_Questionnaire_editor.md) or the course
+The OpenOlat [questionnaire](../learningresources/Form_editor_Questionnaire_editor.md) or the course
 element Survey can also be found in the assessment category.
 
   
@@ -78,7 +78,7 @@ Mandatory tasks have to be completed and will be collected after the set deadlin
 
 !!! info "Info"
 
-    How to create tasks step by step and further information on other [configuration possibilities](../task/Task_-_Further_Configurations.md) can be found in the chapter ["Creating Tasks"](Course_Element_Task).
+    How to create tasks step by step and further information on other [configuration possibilities](../learningresources/Task_Further_Configurations.md) can be found in the chapter ["Creating Tasks"](Course_Element_Task).
 
 ##  Course Element: Portfolio Task {: #course_element_portfolio}
 
@@ -93,7 +93,7 @@ For the course element Portfolio task you need a "Portfolio 2.0 template",
 which you link to the course element. If you have not yet created a Portfolio
 Template learning resource, you can also create a new Portfolio Template or
 link to a previously created one directly in the course via "Select or create
-Portfolio Template".  Click [here](../portfolio/Creating_Portfolio_Tasks.md) to find out
+Portfolio Template".  Click [here](../learningresources/Creating_Portfolio_Tasks.md) to find out
 exactly how to create a portfolio task.
 
 
@@ -112,16 +112,16 @@ passed/failed and individual comments. In the fields "Note for all users" and
 all course participants and coaches.
 
 Further information on how learners can pick up and use a portfolio task can
-be found in the chapter "[Portfolio task and assignment: Collecting and editing](../portfolio/Portfolio_task_and_assignment_Collecting_and_editing.md)".
+be found in the chapter "[Portfolio task and assignment: Collecting and editing](../learningresources/Portfolio_task_and_assignment_Collecting_and_editing.md)".
 How teachers can evaluate a portfolio task can be found in the chapter
-"[Portfolio assignment: Grading](../portfolio/Portfolio_assignment_Grading.md)".
+"[Portfolio assignment: Grading](../learningresources/Portfolio_assignment_Grading.md)".
 
 How the portfolio component looks like from the students' point of view and
 how it can be solved can be found in the chapter "Learning activities in the
-course" under the item ["Portfolio task"](../portfolio/Portfolio_assignment_Grading.md).
+course" under the item ["Portfolio task"](../learningresources/Portfolio_assignment_Grading.md).
 
 General information on the subject of portfolios and e-portfolios can be found
-[here](../portfolio/index.md).
+[here](../area_modules/index.md).
 
 ## Course Element: Group Task {: #course_element_group_tasks}
 
@@ -163,9 +163,9 @@ respectively. In case you have already selected a test the name of this
 learning resource will be displayed after _Selected file_. Click on the name
 to open a preview of the test. Click on "Replace file" if you would like to
 exchange the learning resource with another one. Further information can be
-found in the chapter "[Creating Tests](../tests/Configure_tests.md)".
+found in the chapter "[Creating Tests](../learningresources/Configure_tests.md)".
 
-The two main tabs for test configuration are "[Test configuration](../tests/Tests_at_course_level.md)" and " **Options** ".
+The two main tabs for test configuration are "[Test configuration](../learningresources/Tests_at_course_level.md)" and " **Options** ".
 
 The settings under "Options" are initially being copied from the options of
 the learning resource. However, the options can be adjusted if needed. To do
@@ -213,8 +213,8 @@ resources of the type "Test." If you have not generated a test before please
 follow the instructions in the chapter ["Four Steps to Your Test or Self-
 test"](../tests/Four_Steps_to_Your_Test_or_Self-test.md).
 
-For more information on tests, refer to the chapter "[Creating Tests](../tests/Configure_tests.md)". 
-The chapter "[Tests at course level](../tests/Tests_at_course_level.md)" is particularly relevant here.
+For more information on tests, refer to the chapter "[Creating Tests](../learningresources/Configure_tests.md)". 
+The chapter "[Tests at course level](../learningresources/Tests_at_course_level.md)" is particularly relevant here.
 
 Eine komplexere Alternative zum Selbsttest stellt der Kursbaustein Übung dar. 
 
@@ -248,7 +248,7 @@ the standard setting), filling in the form is not anonymous.
 
 For the
 completion of the course element, a last deadline can be defined in the tab
-"Form". A [course reminder](../course_operation/Course_Reminders.md) can also be linked in
+"Form". A [course reminder](../learningresources/Course_Reminders.md) can also be linked in
 addition. In contrast to the survey module, participants automatically receive
 a confirmation e-mail with the date and time of submission as well as their
 completed form as a PDF attachment when they submit the completed form.
@@ -287,7 +287,7 @@ can be corrected.
     If participants are currently running the questionnaire but have not yet completed it, their results will be lost.
 
 Further information on the subject of questionnaires and surveys can be found
-in the chapter "[Creating questionnaires](../forms/Form_editor_Questionnaire_editor.md)" and
+in the chapter "[Creating questionnaires](../learningresources/Form_editor_Questionnaire_editor.md)" and
 the corresponding subchapters.
 
 

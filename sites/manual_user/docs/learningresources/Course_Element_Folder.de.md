@@ -36,7 +36,7 @@ bereits sinnvoll im Ablageordners des Kurses strukturiert hochgeladen haben.
 Wählen Sie im nächsten Schritt einen existierenden Ordner des Ablageordners
 aus oder erstellen Sie im Ablageordner einen neuen Unterordner. Über den
 Ablageordner können Sie, sofern in den 
-[Kurseinstellungen](../course_create/Course_Settings.de.md)entsprechend konfiguriert, auch
+[Kurseinstellungen](../learningresources/Course_Settings.de.md)entsprechend konfiguriert, auch
 auf einen verknüpften Ressourcenordner zugreifen.
 
 Anschließend können sie im Bereich "Dateien hochladen" über den Link "Ordner
@@ -67,7 +67,7 @@ Berechtigung
 Um das Hoch- und Herunterladen von mehreren Dateien zu erleichtern können die
 Dateien gezippt zw. entzippt werden. Darüber hinaus empfiehlt sich für den
 Upload von umfangreicheren Materialien die Verwendung von
-[WebDAV](../supported_tech/Using_WebDAV.de.md).
+[WebDAV](../basic_concepts/Using_WebDAV.de.md).
 
 Ferner können alle User ...
 
@@ -78,7 +78,7 @@ Ferner können alle User ...
 ###  Metadaten {: #metadata}
 
 Über das Zahnradsymbol können die 
-[Metadaten ](../personal/Full-Text_Search.de.md#metadata)einer Datei
+[Metadaten ](../basic_concepts/Full_Text_Search.de.md#metadata)einer Datei
 konfiguriert werden und so diverse Informationen hinzugefügt werden. Neben der
 Beschreibung und Sperreigenschaften sind besonders die Lizenzangaben relevant.
 Über die Lizenzangaben können Sie eine konkrete Lizenz für das Dokument

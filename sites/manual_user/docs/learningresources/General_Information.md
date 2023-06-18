@@ -14,7 +14,7 @@ Creating a Learning Resource Course in the Author Area and choosing the course t
 
 !!! info "Further Information"
 	  * [Creating Courses](index.md)
-	  * [In Five Steps to Your Course With the Course Editor](In_Five_Steps_to_Your_Course_With_the_Course_Editor.md)
+	  * [In Five Steps to Your Course With the Course Editor](../course_create/In_Five_Steps_to_Your_Course_With_the_Course_Editor.md)
 	  * [Creating learning path courses](Creating_learning_path_courses.md)
 
 ### 2. Set up, design course, publish
@@ -26,8 +26,8 @@ You implement your course in the course editor by selecting suitable course elem
 !!! info "Further Information"
 	  * [Course elements](../course_elements/index.md)
 	  * [Using additional Course Editor Tools](Using_additional_Course_Editor_Tools.md)
-	  * [Learning path course - Course editor](Learning_path_course_-_Course_editor.md)
-	  * [Various types of learning resources](../authoring/Various_Types_of_Learning_Resources.md)
+	  * [Learning path course - Course editor](../learningresources/Learning_path_course_Course_editor.md)
+	  * [Various types of learning resources](../learningresources/index.md)
 	  * [General Configuration of Course Elements](General_Configuration_of_Course_Elements.md)
 	  * [Course Settings](Course_Settings.md)
 
@@ -86,4 +86,4 @@ The "Delete" of the course is done via the appropriate menu in the course admini
 	
 	What the course looks like depends on your didactic concept, the goals and the overall framework. On this basis, you can decide whether a conventional course or a learning path course is the right choice for you. If in doubt, opt for the conventional course, as you can convert it into a learning path course at any time. The other way around is not possible.
 	
-	Choose after the decision the optimal and most effective course elements and try to bundle things that belong together in a meaningful way to achieve optimal usability. When the structure is clear, prepare the learning content, additional files ([HTML pages, PDF files, CPs](../authoring/Various_Types_of_Learning_Resources.md), etc.) and everything you need for use in the learning platform.
+	Choose after the decision the optimal and most effective course elements and try to bundle things that belong together in a meaningful way to achieve optimal usability. When the structure is clear, prepare the learning content, additional files ([HTML pages, PDF files, CPs](../learningresources/index.md), etc.) and everything you need for use in the learning platform.

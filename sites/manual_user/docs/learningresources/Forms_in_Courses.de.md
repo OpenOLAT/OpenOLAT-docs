@@ -1,13 +1,13 @@
 # Formulare in Kursen
 
-Die Lernressource Formular kann innerhalb von Kursen für unterschiedliche Zwecke und mit unterschiedlichen [Kursbausteinen](../course_elements/Assessment.de.md) verwendet werden.
+Die Lernressource Formular kann innerhalb von Kursen für unterschiedliche Zwecke und mit unterschiedlichen [Kursbausteinen](../learningresources/Assessment.de.md) verwendet werden.
 
 Hierzu zählen:
 
 * Kursbaustein Umfrage
 * Kursbaustein Formular
 * Kursbaustein Bewertung
-* Teil der [Portfolio 2.0 Vorlage](../portfolio/Portfolio_template_Creation.de.md) über den Kursbaustein Portfolioaufgabe
+* Teil der [Portfolio 2.0 Vorlage](../learningresources/Portfolio_template_Creation.de.md) über den Kursbaustein Portfolioaufgabe
 
 Grundsätzlich können Formulare auch direkt im Kurs über den jeweiligen Kursbaustein erstellt werden.
 

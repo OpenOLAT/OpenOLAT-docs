@@ -100,7 +100,7 @@ Hier erfolgt der Versand basierend auf bestimmten benutzerspezifischen Eigenscha
 
 _Beispiel_ : Benutzer aus der Stadt Zürich.  
   
-### Fortschritt (nur bei [Lernpfad Kursen](../course_create/Learning_path_course.de.md))
+### Fortschritt (nur bei [Lernpfad Kursen](../learningresources/Learning_path_course.de.md))
 Hier erfolgt der Versand basierend auf dem prozentualen Kursfortschritt der Teilnehmenden, wie er in den Einstellungen der Administration konfiguriert wurde.
 
 _Beispiel_ : Benutzer die mindestens 80% eines Kurses erfolgreich abgeschlossen haben.  

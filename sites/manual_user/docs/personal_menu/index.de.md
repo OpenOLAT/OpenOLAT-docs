@@ -11,25 +11,25 @@ diese Seite von ihrem Systemadministrator systemweit abgeschaltet.
 
 !!! note "Quick Links"
 
-    * [Persönliche Werkzeuge](Personal_Menu.de.md)
+    * [Persönliche Werkzeuge](../personal_menu/Personal_Tools.de.md)
     * [Konfiguration](Configuration.de.md)
-    * [Volltextsuche](Full-Text_Search.de.md)
-    * [Chat](Chat.de.md)
-    * [Portal konfigurieren](Portal_configuration.de.md)
-    * [Mathematische Formel](Math_formula.de.md)
-    * [mit Tabellen arbeiten](Working_with_tables.de.md)
+    * [Volltextsuche](../basic_concepts/Full_Text_Search.de.md)
+    * [Chat](../basic_concepts/Chat.de.md)
+    * [Portal konfigurieren](../basic_concepts/Portal_configuration.de.md)
+    * [Mathematische Formel](../basic_concepts/Math_formula.de.md)
+    * [mit Tabellen arbeiten](../basic_concepts/Table_Concept.de.md)
 
 ## Navigationsleiste
 
 In der oberen Navigationsleiste generell verfügbar ist der
-[Chat](Chat.de.md) (instant Messnger).  Welche weiteren
+[Chat](../basic_concepts/Chat.de.md) (instant Messnger).  Welche weiteren
 Elemente in der Navigationsleiste rechts oben angezeigt werden, ist abhängig
 von Ihren Einstellungen.
 
 ![Navigation](assets/global_navigation_DE.png){ class="shadow aside-right lightbox"}
 
 Im persönlichen Menü finden Sie die Bereiche [Persönliche
-Werkzeuge,](Personal_Menu.de.md)
+Werkzeuge,](../personal_menu/Personal_Tools.de.md)
 [Konfiguration](Configuration.de.md) und System. Je nach
 unter "Einstellungen" ausgewählten Werkzeugen werden bestimmte persönliche
 Tools in die obere Navigationsleiste verschoben oder bleiben über das

@@ -62,4 +62,4 @@ Empfängeradressen aus Gründen des Datenschutzes nicht angezeigt.
 
 !!! tip "Tipp"
 
-    Ein Element  "E-Mail" mit ähnlichen Funktionen, jedoch ohne spezifische Konfiguration, findet man auch in der [Toolbar](../course_operation/Using_Additional_Course_Features.de.md).
+    Ein Element  "E-Mail" mit ähnlichen Funktionen, jedoch ohne spezifische Konfiguration, findet man auch in der [Toolbar](../learningresources/Using_Additional_Course_Features.de.md).

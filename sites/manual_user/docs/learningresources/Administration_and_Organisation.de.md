@@ -13,7 +13,7 @@ Auswahlliste definieren. Sollten Sie noch keine Gruppen erstellt haben oder
 weitere benötigen, so können Sie dies mit einem Klick auf „Auswählen“ und
 „Erstellen“ direkt im Tab „Konfiguration“ tun. Bestehende und neu erstellte
 Gruppen können in der [Mitgliederverwaltung
-](../course_operation/Members_management.de.md)bearbeitet werden.
+](../learningresources/Members_management.de.md)bearbeitet werden.
 
 Mittels "**Mehrere Eintragungen erlauben**" legen Sie optional fest, ob
 Kursteilnehmer sich in mehrere Gruppen eintragen dürfen, und falls ja, in wie
@@ -72,7 +72,7 @@ ab, da für die tatsächliche Anzahl der HTML Code verwendet wird.
 
 !!! tip "Tipp"
 
-    Ein Element mit ähnlichen Funktionen, jedoch ohne spezifische Konfiguration, findet man auch in der Toolbar. Es handelt sich um die "[Teilnehmer Infos](../course_operation/Using_Additional_Course_Features.de.md)".
+    Ein Element mit ähnlichen Funktionen, jedoch ohne spezifische Konfiguration, findet man auch in der Toolbar. Es handelt sich um die "[Teilnehmer Infos](../learningresources/Using_Additional_Course_Features.de.md)".
 
   
 
@@ -146,7 +146,7 @@ Empfängeradressen aus Gründen des Datenschutzes nicht angezeigt.
 
 !!! tip "Tipp"
 
-    Ein Element  "E-Mail" mit ähnlichen Funktionen, jedoch ohne spezifische Konfiguration, findet man auch in der [Toolbar](../course_operation/Using_Additional_Course_Features.de.md).
+    Ein Element  "E-Mail" mit ähnlichen Funktionen, jedoch ohne spezifische Konfiguration, findet man auch in der [Toolbar](../learningresources/Using_Additional_Course_Features.de.md).
 
 ##  Kursbaustein „Kalender“ {: #cal}
 
@@ -158,7 +158,7 @@ Kalenders dem Kurs hinzuzufügen.
 
 Diese Einbindung ist eine Alternative gegenüber der Einbindung des Kalenders
 in der Kurstoolbar (vergl. "[Einsatz weiterer Kursfunktionen der
-Toolbar](../course_operation/Using_Additional_Course_Features.de.md)").
+Toolbar](../learningresources/Using_Additional_Course_Features.de.md)").
 
 Standardmässig dürfen nur Besitzer und Betreuer Termine erstellen. Alle
 Kursteilnehmer dürfen jedoch Kalendereinträge lesen. Im Tab „Kalender-
@@ -166,7 +166,7 @@ Konfiguration“ können Sie definieren, ob neben den Kursbesitzern auch
 Teilnehmer und Betreuer des Kurses Kalendereinträge einstellen und bearbeiten
 dürfen. Ferner können Sie hier konfigurieren, welches Datum angezeigt wird,
 wenn der Kurskalender aus der Kursstruktur aufgerufen wird. Kurskalender
-werden automatisch den[ persönlichen Kalendern](../personal/Calendar.de.md) der
+werden automatisch den[ persönlichen Kalendern](../personal_menu/Calendar.de.md) der
 Kursteilnehmer hinzugefügt.
 
   
@@ -179,9 +179,9 @@ und Aufgaben der Woche.
 
 Prüfen Sie, ob der _Kursbaustein_ "Kalender" wirklich für Sie die optimale
 Wahl darstellt. In vielen Fällen, insbesondere bei[ Lernpfad
-Kursen](../course_create/Learning_path_course.de.md), ist es
+Kursen](../learningresources/Learning_path_course.de.md), ist es
 sinnvoller in den Einstellungen den Kalender in der [Toolbar
-](../course_operation/Using_Additional_Course_Features.de.md)zu aktivieren.
+](../learningresources/Using_Additional_Course_Features.de.md)zu aktivieren.
 
 !!! tip "Tipp"
 

@@ -9,7 +9,7 @@ dass Ihr Browser alle Funktionen von OpenOlat unterstützt.
 
 Wenn Sie Kurse in OpenOlat anbieten möchten, müssen Sie zunächst Autorenrechte beantragen.
 Rechte beantragen, indem Sie sich an Ihr lokales Support-Team wenden. Als OpenOlat-Autor können Sie Online-Kurse und andere Lernressourcen selbst erstellen.
-Ressourcen selbständig erstellen. Hierfür steht Ihnen der [Autorenbereich](../authoring/index.de.md)
+Ressourcen selbständig erstellen. Hierfür steht Ihnen der [Autorenbereich](../area_modules/Authoring.de.md)
 mit einer Vielzahl von Möglichkeiten zur Verfügung.
 
 Nach der Auswahl Ihres didaktischen Konzepts und der Anpassung Ihrer Lerninhalte an die Gegebenheiten in OpenOlat

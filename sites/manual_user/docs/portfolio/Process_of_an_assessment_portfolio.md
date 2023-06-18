@@ -8,11 +8,11 @@ More information about the particular processes you can find in the correspondin
 
 Authoring ![](assets/place_in_OO_EN.png) | Authoring | Authoring ![](assets/arrow_434343_64.png){ class=size16 } ![](assets/course.png){ class=size16 }
 ---------|----------|---------
- [![](assets/pf_prozess_feld1_EN.png)](Portfolio_template_Creation.md) | [![](assets/pf_prozess_feld2_EN.png)](Portfolio_template_Administration_and_editing.md) | [![](assets/pf_prozess_feld3_EN.png)](Portfolio_template_Creation.md)
+ [![](assets/pf_prozess_feld1_EN.png)](../learningresources/Portfolio_template_Creation.md) | [![](assets/pf_prozess_feld2_EN.png)](../learningresources/Portfolio_template_Administration_and_editing.md) | [![](assets/pf_prozess_feld3_EN.png)](../learningresources/Portfolio_template_Creation.md)
  ![](assets/course.png){ class=size16 } ![](assets/arrow_434343_64.png){ class=size16 } ![](assets/portfolio_434343_64.png){ class=size16 } | ![](assets/portfolio_434343_64.png){ class=size16 } | ![](assets/portfolio_434343_64.png){ class=size16 }
- [![](assets/pf_prozess_feld4_EN.png)](Portfolio_task_and_assignment_Collecting_and_editing.md) | [![](assets/pf_prozess_feld5_EN.png)](Portfolio_task_and_assignment_Collecting_and_editing.md) | [![](assets/pf_prozess_feld6_EN.png)](Portfolio_task_and_assignment_Collecting_and_editing.md)
+ [![](assets/pf_prozess_feld4_EN.png)](../learningresources/Portfolio_task_and_assignment_Collecting_and_editing.md) | [![](assets/pf_prozess_feld5_EN.png)](../learningresources/Portfolio_task_and_assignment_Collecting_and_editing.md) | [![](assets/pf_prozess_feld6_EN.png)](../learningresources/Portfolio_task_and_assignment_Collecting_and_editing.md)
  ![](assets/portfolio_434343_64.png){ class=size16 } | ![](assets/portfolio_434343_64.png){ class=size16 } | 
- [![](assets/pf_prozess_feld7_EN.png)](Portfolio_assignment_Grading.md) | [![](assets/pf_prozess_feld8_EN.png)](Portfolio_assignment_Grading.md) | ![](assets/pf_legend_process_EN.png)
+ [![](assets/pf_prozess_feld7_EN.png)](../learningresources/Portfolio_assignment_Grading.md) | [![](assets/pf_prozess_feld8_EN.png)](../learningresources/Portfolio_assignment_Grading.md) | ![](assets/pf_legend_process_EN.png)
 
 !!! info "Note"
 

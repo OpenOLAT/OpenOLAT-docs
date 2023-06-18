@@ -111,7 +111,7 @@ Here the sending is done based on certain user specific properties. Reminders wi
 
 _Example_ : User from the city of Zurich.  
   
-### Progress (only for [Learning path courses](../course_create/Learning_path_course.md))
+### Progress (only for [Learning path courses](../learningresources/Learning_path_course.md))
 Here the dispatch is based on the percentage course progress of the participants as configured in the administration settings.
 
 _Example_ : Users who have successfully completed at least 80% of a course.  

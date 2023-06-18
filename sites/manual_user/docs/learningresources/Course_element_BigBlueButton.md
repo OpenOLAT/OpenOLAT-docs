@@ -191,7 +191,7 @@ Depending on the room settings, different options are available in the room.
 
 Depending on the configuration of the BigBlueButton template, the conference
 room can be made accessible to non-registered persons without access to
-OpenOlat, i.e. external participants (see [guest access](../access_roles_rights/guest_access.md)).
+OpenOlat, i.e. external participants (see [guest access](../basic_concepts/guest_access.md)).
 The prerequisite for this is that it is a conventional course, not a learning
 path course, and that the course itself has also been activated for guests.
 Guests can enter a name of their choice during dial-in.

@@ -49,7 +49,7 @@ OpenOlat-Ordner entzippen. Zum anderen können Sie mehrere Dateien per WebDAV
 OpenOlat stehen Ihnen als gewöhnliches Netzlaufwerk zur Verfügung, über
 welches Sie sehr einfach Dateien kopieren, verschieben und löschen können.
 Weitere Infos finden Sie im Kapitel „[Einsatz von
-WebDAV](../supported_tech/Using_WebDAV.de.md)“.
+WebDAV](../basic_concepts/Using_WebDAV.de.md)“.
 
 Damit der Zugriff via WebDAV auf OpenOlat funktioniert muss WebDAV von Ihrem
 OpenOlat Administrator [aktiviert ](../../manual_admin/administration/WebDAV.de.md)werden.
@@ -69,8 +69,8 @@ beiden Ordnern im persönlichen Menü existieren in OpenOlat noch folgende
 Ordner Varianten:
 
   * [Ablageordner](../course_operation/Storage_folder.de.md) (in Kursen)   
-  * [Kursbaustein Ordner](../course_elements/Course_Element_Folder.de.md) (in Kursen) 
+  * [Kursbaustein Ordner](../learningresources/Course_Element_Folder.de.md) (in Kursen) 
   * Ordner der Themenwahl (in Kursen)
-  * [Teilnehmer Ordner](../course_elements/Communication_and_Collaboration.de.md#KommunikationundKollaboration-_participantfolder) (in Kursen)
-  * [Ressourcenordner ](../authoring/Various_Types_of_Learning_Resources.de.md#ressourcenordner)(Lernressource) 
+  * [Teilnehmer Ordner](../learningresources/Communication_and_Collaboration.de.md#KommunikationundKollaboration-_participantfolder) (in Kursen)
+  * [Ressourcenordner ](../learningresources/index.de.md#ressourcenordner)(Lernressource) 
 

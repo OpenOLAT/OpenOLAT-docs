@@ -6,9 +6,9 @@ Die Kalenderfunktion steht Ihnen an verschiedenen Orten zur Verfügung:
 
 * In der [Gruppe](../groups/index.de.md): Zugriff auf den Gruppenkalender sowie eventuell externe importierte Kalender.
 * Im Kurs: Zugriff auf Kurstermine sowie Zugriff auf alle Kalender von eingebundenen Gruppen. Kalender können sowohl im Kursrun als auch in der Toolbar eingebunden sein.<br>:octicons-device-camera-video-24: **Video-Einführung**: [Kurskalender](<https://www.youtube.com/embed/tfx6UCYw8t8>){:target="_blank”} 
-* Im [persönlichen Menü](Personal_Menu.de.md): Übersicht über die Termine aller ihrer Gruppen und Kurse.
+* Im [persönlichen Menü](../personal_menu/Personal_Tools.de.md): Übersicht über die Termine aller ihrer Gruppen und Kurse.
 
-Kurskalender, wie Gruppenkalender, werden automatisch in die Kalenderliste Ihres [persönlichen Kalenders](Personal_Menu.de.md) aufgenommen und Termine des Kurses werden dort angezeigt.
+Kurskalender, wie Gruppenkalender, werden automatisch in die Kalenderliste Ihres [persönlichen Kalenders](../personal_menu/Personal_Tools.de.md) aufgenommen und Termine des Kurses werden dort angezeigt.
 
 ## Termin erstellen / bearbeiten
 

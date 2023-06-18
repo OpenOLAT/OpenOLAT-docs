@@ -43,7 +43,7 @@ Fenster, das sich auch als Druckformat eignet.
 
 ## Weitere Elemente der Toolbar
 
-Standardmäßig ist die [Kursinfo](../catalog/Info_page.de.md)in der
+Standardmäßig ist die [Kursinfo](../learningresources/Info_page.de.md)in der
 Toolbar sichtbar. Folgende weitere Tools können ebenfalls über die Toolbar
 aufrufbar sein:
 
@@ -59,7 +59,7 @@ aufrufbar sein:
 * Forum: Zugriff auf ein zentrales Kurs-Forum
 * Dokumente: Zugriff auf einen zentralen Dokumenten Ordner
 * Glossar: Zugriff auf das Glossar des Kurses
-* [Kurs-Chat:](../personal/Chat.de.md) Für den synchronen Austausch der Kurs-Mitglieder
+* [Kurs-Chat:](../basic_concepts/Chat.de.md) Für den synchronen Austausch der Kurs-Mitglieder
 * Kurssuche: Durchsuchen Sie den Kurs nach Schlüsselbegriffen
 
 ### Lernpfad
@@ -74,11 +74,11 @@ aufgerufen werden müssen.
 
 Der Kalender geht in einem neuen Fenster auf. Termine im Kurskalender
 eintragen dürfen nur Kursbesitzer. Kurskalender werden automatisch zu Ihrem
-[personlichen Kalender](../personal/Personal_Menu.de.md)
+[personlichen Kalender](../personal_menu/Personal_Tools.de.md)
 hinzugefügt. Wählen Sie dazu den Kurskalender in der Kalenderliste des
 persönlichen Kalenders aus. Informationen zur Kalenderliste sowie weiterer
 Kursfunktionen finden Sie im Kapitel
-[Kalender](../personal/Calendar.de.md).
+[Kalender](../personal_menu/Calendar.de.md).
 
 ### Glossar {: #glossary}
 
@@ -91,7 +91,7 @@ Maus über den Begriff fahren. Das Glossar kann auch ausgedruckt werden.
 
 Eventuell können Sie die Glossareinträge auch bearbeiten, sofern diese Option
 vom Lehrenden aktiviert wurde. Weitere Infos dazu finden Sie
-[hier](../course_operation/Using_Additional_Course_Features.de.md).
+[hier](../learningresources/Using_Additional_Course_Features.de.md).
 
 Kurs-Chat
 
@@ -99,5 +99,5 @@ Klicken Sie auf den Link „Kurs-Chat“ um das Chatfenster zu öffnen. Dabei si
 Sie zuerst immer anonym im Chatraum. Sie finden rechts vom Textfeld die
 Möglichkeit, Ihren Anonymous zu ändern bzw. Ihren  Benutzernamen anzeigen zu
 lassen. Allgemeine Chat-Funktionen sind im Kapitel „Persönliches Menü,
-Volltextsuche und Chat“ unter dem Punkt [„Chat"](../personal/Chat.de.md)
+Volltextsuche und Chat“ unter dem Punkt [„Chat"](../basic_concepts/Chat.de.md)
 detailliert beschrieben.

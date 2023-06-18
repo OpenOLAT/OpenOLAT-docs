@@ -48,7 +48,7 @@ Die Bewertung des Kursbausteins „Checkliste“ umfasst die drei genannten Opti
 
 Durch Klick auf den Namen eines Users gelangt man zur konkreten Bewertung. 
 
-Die Checkboxen der einzelnen Benutzer können manuell nachgetragen und das Bewertungsformular ausgefüllt werden. Abhängig von der Kursbaustein Konfiguration können entweder Punkte und/oder das Attribut Bestanden vergeben werden. Weitere Informationen zur Checkliste finden Sie [hier](../course_elements/Course_Element_Checklist.de.md).
+Die Checkboxen der einzelnen Benutzer können manuell nachgetragen und das Bewertungsformular ausgefüllt werden. Abhängig von der Kursbaustein Konfiguration können entweder Punkte und/oder das Attribut Bestanden vergeben werden. Weitere Informationen zur Checkliste finden Sie [hier](../learningresources/Course_Element_Checklist.de.md).
 
 ![Checkliste bewerten im Bewertungswerkzeug](assets/Checkliste_Bewertungsformular.png){ class="shadow lightbox" }
 
@@ -65,7 +65,7 @@ Durch Klick auf den Namen eines Users gelangt man zur konkreten Bewertung. Hier 
 
 ![Bewertungsformular](assets/Bewertung_Bewerutngsformular_mit_Rubrik.png){ class="shadow lightbox" }
 
-Haben Sie ein [Rubrik](../forms/Rubric.de.md) als Bewertungsgrundlage hinterlegt, können Sie schnell und effektiv eine Kriterien basierte Bewertung vornehmen. Hier ein
+Haben Sie ein [Rubrik](../learningresources/Rubric.de.md) als Bewertungsgrundlage hinterlegt, können Sie schnell und effektiv eine Kriterien basierte Bewertung vornehmen. Hier ein
 Beispiel:
 
 ![Beispiel: Feedbackformualr mit Rubriks](assets/Bewertungswerkzeug_Rubrik.png){ class="shadow lightbox" }
@@ -73,11 +73,11 @@ Beispiel:
 Darüber hinaus ist für den Kursbaustein „Bewertung“ auch eine Massenbewertung möglich.
 
 ## Portfolioaufgabe
-Die Bewertung des Kursbausteins [Portfolioaufgabe](../portfolio/Creating_Portfolio_Tasks.de.md) umfasst folgende Möglichkeiten:
+Die Bewertung des Kursbausteins [Portfolioaufgabe](../learningresources/Creating_Portfolio_Tasks.de.md) umfasst folgende Möglichkeiten:
 
 ![3-Punkte Menü für Kursbaustein Portfolioaufgabe](assets/Portfolioaufgabe_Bewertung.png){ class="shadow lightbox" }
 
-Die Bewertung für das Portfolio ist im Bewertungswerkzeug dieselbe wie im Tab ["Bewertung" im Portfolio](../portfolio/Portfolio_assignment_Grading.de.md) selbst. Hier können die einzelnen Bereiche jedoch nicht geöffnet, sondern nur bewertet werden. Es empfiehlt sich deshalb, die Bewertung direkt im Portfolio vorzunehmen.
+Die Bewertung für das Portfolio ist im Bewertungswerkzeug dieselbe wie im Tab ["Bewertung" im Portfolio](../learningresources/Portfolio_assignment_Grading.de.md) selbst. Hier können die einzelnen Bereiche jedoch nicht geöffnet, sondern nur bewertet werden. Es empfiehlt sich deshalb, die Bewertung direkt im Portfolio vorzunehmen.
 
 ![Bewertung einer Portfolioaufgabe](assets/Portfolioaufgabe172.png){ class="shadow lightbox" }
 
@@ -96,4 +96,4 @@ Der oberste Kursbaustein ist ebenfalls ein Strukturbaustein, deshalb werden hier
 Für das SCORM-Element kann das Bewertungsformular ausgefüllt werden. Wichtig ist, dass im Kursbaustein unter Lerninhalt entweder die Punktzahl oder Bestanden übertragen ausgewählt ist. Mehr Informationen dazu finden Sie [hier](../course_elements/Course_Element_SCORM_Learning_Content.de.md).
 
 ### LTI
-Auch für das LTI-Element kann das Bewertungsformular ausgefüllt und angepasst werden. Im Kursbaustein unter Seiteninhalt muss zwingend "Punkte übertragen" ausgewählt sein. Je nachdem muss ein Skalierungsfaktor eingetragen und die Punktzahl für das Bestehen definiert werden. Weitere Informationen zur Konfiguration von LTI-Seiten finden Sie [hier](../course_elements/Other.de.md)
+Auch für das LTI-Element kann das Bewertungsformular ausgefüllt und angepasst werden. Im Kursbaustein unter Seiteninhalt muss zwingend "Punkte übertragen" ausgewählt sein. Je nachdem muss ein Skalierungsfaktor eingetragen und die Punktzahl für das Bestehen definiert werden. Weitere Informationen zur Konfiguration von LTI-Seiten finden Sie [hier](../learningresources/Other.de.md)

@@ -41,4 +41,4 @@ ab, da für die tatsächliche Anzahl der HTML Code verwendet wird.
 
 !!! tip "Tipp"
 
-    Ein Element mit ähnlichen Funktionen, jedoch ohne spezifische Konfiguration, findet man auch in der Toolbar. Es handelt sich um die "[Teilnehmer Infos](../course_operation/Using_Additional_Course_Features.de.md)".
+    Ein Element mit ähnlichen Funktionen, jedoch ohne spezifische Konfiguration, findet man auch in der Toolbar. Es handelt sich um die "[Teilnehmer Infos](../learningresources/Using_Additional_Course_Features.de.md)".

@@ -92,7 +92,7 @@ based on different criteria can be added. Im Tab **"Vorschau"** bzw. **"Vorschau
 
 !!! note ""
 
-    Further information on the general settings of quiz and tests can be found in the chapter "Configuring test questions". For more information on the different question types, see the "[Test Question Types](../tests/Test_question_types.md)" chapter.
+    Further information on the general settings of quiz and tests can be found in the chapter "Configuring test questions". For more information on the different question types, see the "[Test Question Types](../learningresources/Test_question_types.md)" chapter.
 
 
 ## Videokonfiguration in den "Einstellungen" der Lernressource
@@ -101,7 +101,7 @@ You can now further configure your video in the tabs of the "Settings" of the ad
 
 The "Info", "Share" and "Catalog" tabs are analogous to other learning
 resources. For general information about the Settings menu, click
-[here](../course_create/Course_Settings.md).
+[here](../learningresources/Course_Settings.md).
 
 #### Metadata
 

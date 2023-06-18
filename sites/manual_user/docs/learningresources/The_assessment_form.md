@@ -18,7 +18,7 @@ For the course elements [Task and Group tasks](Assessing_tasks_and_group_tasks.m
 
 If files are submitted via the assessed course element, the number of attempts by the learners can also be adjusted manually.
 
-In the case of the course element "[Assessment](../e-assessment/Performance_assessment.md)", if activated accordingly, a [rubric](../forms/Rubric.md) for assessment is also available.
+In the case of the course element "[Assessment](../learningresources/Performance_assessment.md)", if activated accordingly, a [rubric](../learningresources/Rubric.md) for assessment is also available.
 
 ## Visibility of the result
 

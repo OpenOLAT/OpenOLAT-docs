@@ -34,7 +34,7 @@ video and whether the video should be started automatically or not. You can
 also enter a description for the video. This will then appear below the video.
 You can either add your _own description_ in the appearing input field, use
 the _description of the learning resource_ from its corresponding [_info
-page_](../catalog/Info_page.md), or omit the description completely.
+page_](../learningresources/Info_page.md), or omit the description completely.
 
 In order to change the assignment of your video you have to click on "**Replace Video**" in the tab "**Learning content**" before selecting another video.
 
@@ -59,7 +59,7 @@ The [course element "Video"](Course_Element_Video.md) allows the author to embed
   * comments
   * assessment
   * landing picture by desire
-  * Combination with certain completion criteria in [learning path courses](../course_create/Learning_path_course.md)
+  * Combination with certain completion criteria in [learning path courses](../learningresources/Learning_path_course.md)
 
 
 

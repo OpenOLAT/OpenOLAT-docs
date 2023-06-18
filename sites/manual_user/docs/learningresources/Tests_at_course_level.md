@@ -25,7 +25,7 @@ Here you select or create the test you want to use. Subsequently, further settin
 **Bewertung mit Einstufung/Noten**
 Wählen Sie eine der vorgegebenen Bewertungsskalen z.B. Noten, Niveaustufen oder Emojis aus. Sie können anschließend die Punkte Untergrenze auch noch anpassen. Entscheiden Sie auch ob die Stufenzuordnung automatisch für den User sichtbar sein soll oder ob die Zuordnung manuell durch den Betreuer bereitgestellt werden soll. 
 
-**Ignore in course assessment** : If the check mark is set here, the test is not taken into account when calculating progress in a [learning path course](../course_create/Learning_path_course.md). This setting is not available for a conventional course.
+**Ignore in course assessment** : If the check mark is set here, the test is not taken into account when calculating progress in a [learning path course](../learningresources/Learning_path_course.md). This setting is not available for a conventional course.
 
 **Set assessment period** : The test can be started during the test period. As soon as the "to" time is reached, the test is automatically terminated. This is also the case if the defined test time has not yet been used up.  
 
@@ -95,7 +95,7 @@ Für den Mailtext kann die Vorlage und ein voreingestellter Betreff mit dem Tite
 Weitere Informationen zur Verwendung von Variablen in Mailing-Texten finden Sie [hier](assets/../../course_elements/Administration_and_Organisation.de#einsatz-von-variablen).
 
 ### Tab "Erinnerungen"
-Hier können Einnerungsmails nach bestimmten Kriterien konfiguriert werden. Weitere Informationen zum Versand von Erinnerungen erhalten Sie [hier](../course_operation/Course_Reminders.de.md).
+Hier können Einnerungsmails nach bestimmten Kriterien konfiguriert werden. Weitere Informationen zum Versand von Erinnerungen erhalten Sie [hier](../learningresources/Course_Reminders.de.md).
 
 ## Comparison: Test and Self-test
 
@@ -105,7 +105,7 @@ Intended use | Examination test, test with the possibility of examination by the
 Created with | Test editor QTI 2.1| Test editor QTI 2.1
 Question types QTI 2.1| all question types possible | All [question types](Test_question_types.md) possible, but only automatically scorable question types can also be used for points.
 Embedding with course element | Test | Self-test
-Results | appear in the [assessment tool](../course_operation/Assessing_tests.md) and in the [test statistics](../course_operation/Using_Course_Tools.md#statistics) and are visible for coaches | appaer _not_ in the [assessment tool](../course_operation/Assessing_tests.md) and in the [test statistics](../course_operation/Using_Course_Tools.md#statistics) and are thus not visible for coaches and owners
+Results | appear in the [assessment tool](../learningresources/Assessing_tests.md) and in the [test statistics](../learningresources/Using_Course_Tools.md#statistics) and are visible for coaches | appaer _not_ in the [assessment tool](../learningresources/Assessing_tests.md) and in the [test statistics](../learningresources/Using_Course_Tools.md#statistics) and are thus not visible for coaches and owners
 Archiving of results | yes, personalized | yes, anonymized - however, a personal correlation or feedbacks are not possible
 
 !!! tip "Tipp"
@@ -124,16 +124,16 @@ For example, if you want to add a new question to a test or if an answer was inc
 
 ## View and grade tests
 
-Access to tests completed by course participants is available in the "[Assessment tool](../course_operation/Assessing_tests.md)". The assessment tool can be found in the "Administration" of the course. All tests and other assessable course elements of a course are displayed under "User" and can be called up, viewed, changed and commented on in relation to a person. Alternatively, the results can also be viewed and managed in the course run with the editor closed. In the course run it is also possible to configure reminders for the respective test and thus trigger a condition-dependent mail dispatch.
+Access to tests completed by course participants is available in the "[Assessment tool](../learningresources/Assessing_tests.md)". The assessment tool can be found in the "Administration" of the course. All tests and other assessable course elements of a course are displayed under "User" and can be called up, viewed, changed and commented on in relation to a person. Alternatively, the results can also be viewed and managed in the course run with the editor closed. In the course run it is also possible to configure reminders for the respective test and thus trigger a condition-dependent mail dispatch.
 
 ![Test course run participant list](assets/Test_Kursrun_Teilnehmerliste_DE.png){ class="shadow" }
 
-If external graders have also been activated for a test, they can use the [Coaching Tool](../e-assessment/Coaching.md) to make the assessments.
+If external graders have also been activated for a test, they can use the [Coaching Tool](../area_modules/Coaching.md) to make the assessments.
 
 ## Test results and archiving
 
-Select the link "[Data archiving](../course_operation/Using_Course_Tools.md#archive)" from the "Administration" in the course view. Go to "Tests" or "Course results" on the left and save the displayed file. The results of self-tests are saved anonymously.
+Select the link "[Data archiving](../learningresources/Using_Course_Tools.md#archive)" from the "Administration" in the course view. Go to "Tests" or "Course results" on the left and save the displayed file. The results of self-tests are saved anonymously.
 
 After archiving, you will find all information about who answered which questions, which answers were given and how many points were achieved during the self-test.
 
-Via "Administration" ->"[Test Statistics](../course_operation/Using_Course_Tools.md#statistics)" you can also quickly access the graphical evaluation of your test data.
+Via "Administration" ->"[Test Statistics](../learningresources/Using_Course_Tools.md#statistics)" you can also quickly access the graphical evaluation of your test data.

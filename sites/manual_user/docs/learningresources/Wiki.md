@@ -9,8 +9,8 @@ course or integrated into a course. Furthermore groups also contain a [group too
 
 If a Wiki is integrated into a course it can be used in several courses. If
 you have not yet created a course you will find information on that in the
-chapter "[Creating Courses](../course_create/index.md)" before you create your
-Wiki by means of the guide "[Four steps to your Wiki](Four_Steps_to_Your_Wiki.md)".
+chapter "[Creating Courses](../learningresources/Creating_Course.md)" before you create your
+Wiki by means of the guide "[Four steps to your Wiki](../resource_wiki/Four_Steps_to_Your_Wiki.md)".
 
 ## Possible applications of Wikis
 
@@ -33,7 +33,7 @@ well as the Wiki itself can only be deleted by the owner of learning resources
 or courses. In your course you can also adjust user permissions for
 participants and coaches in the tab "Wiki learning content".
 
-Wiki pages are created, edited and linked by means of a [Wiki syntax](../learning_activities/Working_with_Wiki.md).  
+Wiki pages are created, edited and linked by means of a [Wiki syntax](../learningresources/Working_with_Wiki.md).  
 Make sure to create targeted links between the individual pages to create a
 real hypertext with multiple nodes.  
 If you can neither find the course element nor the learning resource "Wiki" in

@@ -14,8 +14,8 @@ Klicken Sie einfach auf den Button "Portfolioaufgabe abholen".
   
 ## Portfolioaufgabe finden
 
-Die Portfolioaufgabe ist nun abgeholt und im [persönlichen "Portfolio 2.0"](../personal/Personal_Menu.de.md/#portfolio-20) unter "[Zu meinen
-Mappen](My_portfolio_binders.de.md)" gespeichert.  
+Die Portfolioaufgabe ist nun abgeholt und im [persönlichen "Portfolio 2.0"](../personal_menu/Personal_Tools.de.md/#portfolio-20) unter "[Zu meinen
+Mappen](../area_modules/My_portfolio_binders.de.md)" gespeichert.  
   
 Beim nächsten Zugriff kann die Portfolioaufgabe entweder über den Link im Kurs oder auch direkt im persönlichen Portfolio geöffnet werden.   
  

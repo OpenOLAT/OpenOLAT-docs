@@ -2,7 +2,7 @@
 
 If you want to implement a teaching scenario with several courses, e.g. a
 course of studies, and many files are to be used in all courses, it is
-advisable to store these files centrally in the learning resource [resource folder](../authoring/Various_Types_of_Learning_Resources.md) and then integrate it in the desired courses. This has the advantage
+advisable to store these files centrally in the learning resource [resource folder](../learningresources/index.md) and then integrate it in the desired courses. This has the advantage
 that you only have to make changes to the files once and they are
 automatically visible in all linked courses. Typical examples for such files are basic framework conditions, general terms and conditions, organisational information, information on general support,   contact persons, aber auch kursübergreifende Lehrmaterialien. 
 
@@ -17,7 +17,7 @@ automatically visible in all linked courses. Typical examples for such files are
 
 ### Create a Ressource Folder:
 
-1. Go to the [Authoring Area](../authoring/index.md) and select "Create" -> "Resource folder".
+1. Go to the [Authoring Area](../area_modules/Authoring.md) and select "Create" -> "Resource folder".
 
 ![create Ressourcefolder](assets/resourcefolder_create.jpg){class="thumbnail-lg"}  
   
@@ -28,7 +28,7 @@ Anschliessend landen Sie in den "Einstellungen" der Lernressource "Ressourcenord
 
 ![Ressource Folder](assets/Ressourcenordner.png)
 
-Use [**WebDAV**](../supported_tech/Using_WebDAV.md)if you want to upload many files.  
+Use [**WebDAV**](../basic_concepts/Using_WebDAV.md)if you want to upload many files.  
   
 ### Include Resource Folders in Courses  
 
@@ -61,7 +61,7 @@ folder. Here you will find the automatically created subfolder
 ![](assets/13_sharedfolder.png){class="thumbnail-lg"}  
   
 2. You can now add these files like all other files in the folder using the
-course element "[Single page](../course_elements/Course_Element_Single_Page.md)" in the course editor.  
+course element "[Single page](../learningresources/Course_Element_Single_Page.md)" in the course editor.  
 
 !!! info "Attention"
 

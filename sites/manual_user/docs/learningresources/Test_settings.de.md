@@ -160,4 +160,4 @@ Hier werden die Personen hinzugefügt, die einen Test bewerten sollen. Dabei ist
 
 Hier kann der Bearbeitungsstand der Korrekturaufträge der unterschiedlichen Korrektoren angezeigt und nach verschiedenen Kriterien gefiltert werden.
 
-Weitere Informationen zur kursübergreifenden Korrektur findet man im [Coaching Tool](../e-assessment/Coaching.de.md).
+Weitere Informationen zur kursübergreifenden Korrektur findet man im [Coaching Tool](../area_modules/Coaching.de.md).

@@ -12,7 +12,7 @@ Beispiele für den Einsatz von Tests:
   * Tests als Online-Klausur
 
 In Tests können vom Lehrenden diverse [Fragetypen
-](../tests/Test_question_types.de.md)verwendet werden. Je nach Fragetyp können Sie eine oder
+](../learningresources/Test_question_types.de.md)verwendet werden. Je nach Fragetyp können Sie eine oder
 mehrere Antworten ankreuzen, Elemente per drag & drop verschieben, Texte
 und/oder Zahlen einfügen, Dateien hinzufügen, Markierungen vornehmen oder
 (sehr einfache) Zeichnungen vornehmen.  Pro OpenOlat Kurs können auch mehrere

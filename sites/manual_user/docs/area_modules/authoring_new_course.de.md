@@ -31,14 +31,14 @@ sie im Autorenbereich vornehmen können, und Informationen zur [Infoseite](Set_u
 Im Autorenbereich können OpenOlat Autoren neue Kurse und weitere
 [Lernressourcen](Various_Types_of_Learning_Resources.de.md) anlegen. Der konkrete Erstellungsprozess ist in den folgenden Kapiteln beschrieben:
 
-* [„Kurs erstellen"](../course_create/index.de.md), 
+* [„Kurs erstellen"](../learningresources/Creating_Course.de.md), 
 * [„CP-Lerninhalt erstellen"](../resource_cp/index.de.md), 
-* [„Wiki erstellen"](../resource_wiki/index.de.md), 
-* [„Podcast erstellen"](../resource_podcast/index.de.md), 
-* [„Blog erstellen"](../resource_blog/index.de.md), 
-* ["Portfolio erstellen",](../portfolio/index.de.md) 
-* ["Tests erstellen" ](../tests/index.de.md),
-* ["Formulare erstellen" ](../forms/index.de.md) 
+* [„Wiki erstellen"](../learningresources/Wiki.de.md), 
+* [„Podcast erstellen"](../learningresources/Podcast.de.md), 
+* [„Blog erstellen"](../learningresources/Blog.de.md), 
+* ["Portfolio erstellen",](../area_modules/index.de.md) 
+* ["Tests erstellen" ](../learningresources/Test.de.md),
+* ["Formulare erstellen" ](../learningresources/Form.de.md) 
 
 
 !!! tip "Tipp"
@@ -56,7 +56,7 @@ OpenOlat kompatiblen Format vorliegen. Mögliche Typen werden unter dem Punkt
 Lernressourcen"](Various_Types_of_Learning_Resources.de.md)
 erklärt. Darüber können über den Link "Importieren URL" auch Links zu externen
 Videos z.B. in YouTube gesetzt und als OpenOlat [Lernressource
-Video](../resource_video/Learning_resource_Video.de.md) angelegt werden.
+Video](../learningresources/Learning_resource_Video.de.md) angelegt werden.
 
 Wenn Sie einen Kurs z.B. aus einer anderen OpenOlat Instanz importieren
 möchten, werden Sie gefragt, ob Sie die vom Kurs referenzierten Lernressourcen

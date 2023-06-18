@@ -25,7 +25,7 @@ Here you will find an overview of the rights of the coach.
   
 | Course element | Rights                      | Additional configuration options |
 | -------------- | --------------------------- | -------------------------------- |
-| Assessment     | view only = participant                  | An evaluation of learners is however possible for coaches via the "[assessment tool](../course_operation/Assessment_of_learners.md)". |
+| Assessment     | view only = participant                  | An evaluation of learners is however possible for coaches via the "[assessment tool](../learningresources/Assessment_of_learners.md)". |
 | Task           | correct tasks, extend deadlines                                                                                              | create new task             |
 | Portfolio task | collect = participant                                                                                                        |                             |
 | Grouptask      | only access as group coach of an assigned group (analogous to task)                                                          | create or upload a new task |

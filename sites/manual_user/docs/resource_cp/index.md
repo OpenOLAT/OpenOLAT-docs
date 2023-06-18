@@ -14,7 +14,7 @@ CPs in OpenOlat are usually embedded in a course. It is possible to use the
 same CP in several courses. For example, you can use an introductory module
 not only within a course for beginners but also as starting point in a more
 advanced course. If you have not created any courses yet you will get some
-guidance in the chapter ["Creating courses"](../course_create/index.de.md) before
+guidance in the chapter ["Creating courses"](../learningresources/Creating_Course.de.md) before
 creating your CP by means of the following instruction.
 
 If you want to create large learning contents we recommend using

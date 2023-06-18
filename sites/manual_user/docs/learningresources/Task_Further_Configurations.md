@@ -63,7 +63,7 @@ possible for all workflow steps. If the submission deadline is extended, the
 task will be opened again automatically.
 
 Further relative date options are the course starting date (only available
-with a configured [execution period](../course_create/Course_Settings.md#Execution), enrolment respectively booking date or the date of the task assignment.
+with a configured [execution period](../learningresources/Course_Settings.md#Execution), enrolment respectively booking date or the date of the task assignment.
 
 If sample solutions are activated, you can also define here whether
 supervisors are allowed to add and edit documents.
@@ -215,12 +215,12 @@ Highscore tab can also be configured in more detail. You can specify the start
 date and define which elements are displayed and whether the display should be
 anonymous.
 
-For more information on this tab, which is available in several course elements, see [here].(../course_elements/Assessment.md#highscore--highscore).
+For more information on this tab, which is available in several course elements, see [here].(../learningresources/Assessment.md#highscore--highscore).
 
 ## Tab "Reminders"
 If required, create reminders for participants to work on the course element. 
 
-For more information on this tab, which is available in several course elements, see [here](../course_operation/Course_Reminders.md).    
+For more information on this tab, which is available in several course elements, see [here](../learningresources/Course_Reminders.md).    
 
   
 

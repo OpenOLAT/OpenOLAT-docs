@@ -10,7 +10,7 @@ on the question mark! :fontawesome-solid-circle-question:.
 
 !!! info
   If the link does not appear, it has been hidden at the user tools in the
-	personal [Settings ](../personal/Configuration.md).
+	personal [Settings ](../personal_menu/Configuration.md).
 
 ## Context sensitive help
 

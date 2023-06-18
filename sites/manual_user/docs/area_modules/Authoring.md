@@ -30,7 +30,7 @@ resources for which you are entered as owner (co-author). From here they can
 be restored or permanently deleted by the administrator.
 
 For more details on how to use the filter options, click
-[here](../personal/Working_with_tables.md).
+[here](../basic_concepts/Table_Concept.md).
 
 If you can't find a course or learning resource (anymore), then check the
 settings in the life cycle. Maybe the wrong selection was made here.
@@ -71,8 +71,8 @@ administration. For example, metadata can be stored here and it can be defined
 who has access to the learning resource.
 
 In the following chapters you will find explanations about the individual
-[OpenOlat learning resources](Various_Types_of_Learning_Resources.md), which
-actions you can perform in the author section, and information about the [infopage](Set_up_info_page.md) of a learning resource.
+[OpenOlat learning resources](../learningresources/index.md), which
+actions you can perform in the author section, and information about the [infopage](../learningresources/Set_up_info_page.md) of a learning resource.
 
 
 

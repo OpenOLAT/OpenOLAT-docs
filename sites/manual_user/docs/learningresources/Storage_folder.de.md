@@ -9,17 +9,17 @@ Kursteilnehmende haben keinen direkten, sondern nur einen indirekten Zugriff auf
 Im Ablageordner können Dateien hochgeladen, gelöscht, verschoben, gesucht, gezippt, ausgepackt oder erstellt werden. Standardmässig können in OpenOlat HTML Dokumente erstellt werden. Sind in der Administration ergänzende Dokumenteneditoren aktiviert, können auch noch weitere Dateiformate erstellt werden. Beispielsweise können bei Verwendung von Only Office auch Word, Excel oder PowerPoint Dateien erstellt werden.
 
 Werden Dateien hochgeladen muss die Grössen Begrenzung sowohl für die einzelne Datei als auch das Speicherlimit des gesamten Ablageordners berücksichtigt werden. Dieses Limit gilt auch wenn die Dateien per 
-[WebDAV](../supported_tech/Using_WebDAV.de.md) in den Ablageordner hochgeladen werden.
+[WebDAV](../basic_concepts/Using_WebDAV.de.md) in den Ablageordner hochgeladen werden.
 
 ![Datei hochladen](assets/Datei_hochladen.jpg){ class="shadow lightbox" }
 
 Ferner kann der Ablageordner sinnvollerweise mit weiteren Unterordnern versehen werden und so eine systematische Strukturierung von kursbezogenen Dateien umgesetzt werden.
 
-Zusätzlich legt OpenOlat, wenn der Kurs mindestens einen [Kursbaustein "Ordner"](../course_elements/Knowledge_Transfer.de.md#Wissensvermittlung-_ordner) enthält oder der Kurs mit einem Ressourcenordner verknüpft wird, automatisch die Ordner „ **_courseelementdata** “ bzw. „ **_sharedfolder** " an.
+Zusätzlich legt OpenOlat, wenn der Kurs mindestens einen [Kursbaustein "Ordner"](../learningresources/Knowledge_Transfer.de.md#Wissensvermittlung-_ordner) enthält oder der Kurs mit einem Ressourcenordner verknüpft wird, automatisch die Ordner „ **_courseelementdata** “ bzw. „ **_sharedfolder** " an.
 
-Im Unterordner „ **_courseelementdata** “ befinden sich alle Kursbausteine "[Ordner](../course_elements/Course_Element_Folder.de.md)" und "[Teilnehmer Ordner](../learning_activities/Working_With_Course_Elements.de.md)" eines Kurses. Die entsprechenden Ordner mit den jeweiligen Dateien erscheinen hier nachdem sie im Kurseditor angelegt wurden automatisch und können im Ablageordner auch editiert werden.
+Im Unterordner „ **_courseelementdata** “ befinden sich alle Kursbausteine "[Ordner](../learningresources/Course_Element_Folder.de.md)" und "[Teilnehmer Ordner](../learningresources/Course_Elements.de.md)" eines Kurses. Die entsprechenden Ordner mit den jeweiligen Dateien erscheinen hier nachdem sie im Kurseditor angelegt wurden automatisch und können im Ablageordner auch editiert werden.
 
-Ein dem Kurs zugewiesener [Ressourcenordner](../authoring/Various_Types_of_Learning_Resources.de.md) kann im Ablageordner über den Unterordner „ **_sharedfolder** “ eingesehen, jedoch per default nicht editiert werden. Soll eine Bearbeitung über den Ablageordner möglich sein, muss in den Kurs Optionen bei der Wahl des Ressourcenordners die Option "schreibgeschützt" deaktiviert werden.
+Ein dem Kurs zugewiesener [Ressourcenordner](../learningresources/index.de.md) kann im Ablageordner über den Unterordner „ **_sharedfolder** “ eingesehen, jedoch per default nicht editiert werden. Soll eine Bearbeitung über den Ablageordner möglich sein, muss in den Kurs Optionen bei der Wahl des Ressourcenordners die Option "schreibgeschützt" deaktiviert werden.
 
 ### Verbindung von Ablageordner und dem Kursbaustein "Einzelne Seite"
 

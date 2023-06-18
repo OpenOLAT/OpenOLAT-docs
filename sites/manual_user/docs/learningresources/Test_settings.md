@@ -154,4 +154,4 @@ deactivated or removed and the respective grading assignments can be displayed.
 
 Here the processing status of the grading assignments of the different graders can be displayed and filtered according to various criteria.
 
-For more information on cross-course correction, see the [Coaching Tool](../e-assessment/Coaching.de.md).
+For more information on cross-course correction, see the [Coaching Tool](../area_modules/Coaching.de.md).

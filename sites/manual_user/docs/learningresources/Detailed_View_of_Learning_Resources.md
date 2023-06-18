@@ -26,7 +26,7 @@ learning resource, make catalogue entries and much more.
 ![](assets/administration_settings.png)
 
 Further information can be found in the corresponding chapters and under
-"[Course settings](../course_create/Course_Settings.md)".
+"[Course settings](../learningresources/Course_Settings.md)".
 
   
 

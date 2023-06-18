@@ -22,7 +22,7 @@
 
 Neben Tests können auch einzelne Fragen konvertiert werden. Fragen werden im Fragenpool konvertiert.
 
-1. Öffnen Sie den [Fragenpool](../question_bank/index.de.md)
+1. Öffnen Sie den [Fragenpool](../area_modules/Question_Bank.de.md)
 2. Markieren Sie die Fragen, welche Sie konvertieren möchten (solche im Format IMS QTI 1.2)
 3. Wählen Sie die Schaltfläche "Konvertieren"
 
