@@ -29,10 +29,10 @@ Es werden grundsätzlich zwei Arten von Mappen unterschieden:
 
 Abgeholte Mappen erkennt man an dem roten Randstreifen und dem Hinweis auf den
 zugehörigen Kurs. Diese Mappen basieren auf einer "[Portfolio 2.0
-Vorlage](Portfolio_template_Creation.de.md)" und werden in der Regel
+Vorlage](../learningresources/Portfolio_template_Creation.de.md)" und werden in der Regel
 von einer anderen Person, meist dem Lehrenden, erstellt. Die Abholung erfolgt
 im Kurs über die "[Portfolio
-Aufgabe](Portfolio_task_and_assignment_Collecting_and_editing.de.md)". Alternativ
+Aufgabe](../learningresources/Portfolio_task_and_assignment_Collecting_and_editing.de.md)". Alternativ
 ist es auch möglich, Portfolio Vorlagen kursunabhängig zu buchen und
 abzuholen.
 
@@ -62,11 +62,11 @@ referenzierten Stellen möglich.
 
 Grundsätzlich können alle OpenOlat-User eigene Portfolio Mappen mit Bereichen,
 Einträgen und Inhalten erstellen. Wie das geht, erfahren Sie
-[hier](Three_steps_to_your_portfolio_binder.de.md).
+[hier](../portfolio/Three_steps_to_your_portfolio_binder.de.md).
 
 !!! info "Info"
 
     Die Möglichkeit, selbst Mappen zu erstellen, kann von Ihrem [Administrator](../../manual_admin/administration/eAssessment_ePortfolio.de.md)eingeschränkt werden.
 
-    Wie die Mappen mit Inhalten ausgestaltet werden können erfahren Sie im Kapitel "[Drei Schritte zu Ihrer Mape]"(Three_steps_to_your_portfolio_binder.de.md) und "[Der Portfolio Editor](The_portfolio_editor.de.md)".
+    Wie die Mappen mit Inhalten ausgestaltet werden können erfahren Sie im Kapitel "[Drei Schritte zu Ihrer Mape]"(../portfolio/Three_steps_to_your_portfolio_binder.de.md) und "[Der Portfolio Editor](The_portfolio_editor.de.md)".
 

@@ -1,7 +1,7 @@
 # Podcast erstellen
 
-* [Vier Schritte zu Ihrem Podcast](Four_Steps_to_Your_Podcast.de.md)
-* [Podcast - Weitere Konfigurationen](Podcast_-_Further_Configurations.de.md)
+* [Vier Schritte zu Ihrem Podcast](../resource_podcast/Four_Steps_to_Your_Podcast.de.md)
+* [Podcast - Weitere Konfigurationen](../learningresources/Podcast_Further_Configurations.de.md)
 
 Podcasts sind in OpenOlat Lernressourcen die sich in OpenOlat Kurse einbinden
 lassen.

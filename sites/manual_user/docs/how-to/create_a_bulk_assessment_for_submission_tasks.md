@@ -11,7 +11,7 @@ values.
 
 ![](assets/bulk_assessment_excel.png)
 
-Bulk assessments can be made for the [assessment course elements](../course_operation/Assessment_of_course_modules.md) task, group task and assessment.
+Bulk assessments can be made for the [assessment course elements](../learningresources/Assessment_of_course_modules.md) task, group task and assessment.
 
 ## Creation of a bulk assessment for the course elements task or assessment {: #node}
 

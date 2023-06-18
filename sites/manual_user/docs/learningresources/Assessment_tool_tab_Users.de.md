@@ -10,7 +10,7 @@ In der linken Spalte im Bewertungswerkzeug sehen Sie die Kursstruktur mit allen 
 
 ![Bewertungswerkzeug Teilnehmer Übersicht](assets/Bewertungswerkzeug_Teilnehmer_172.png)
 
-Die genaue Vorgehensweise wird den Kapiteln [Lernende bewerten](../course_operation/Assessment_of_learners.de.md) und [Bewertung von Kursbausteinen](../course_operation/Assessment_of_course_modules.de.md) beschrieben.
+Die genaue Vorgehensweise wird den Kapiteln [Lernende bewerten](../learningresources/Assessment_of_learners.de.md) und [Bewertung von Kursbausteinen](../learningresources/Assessment_of_course_modules.de.md) beschrieben.
 
 ## Tab Teilnehmer im Bewertungswerkzeug
 Im Tab Teilnehmer werden alle Kursteilnehmenden aufgelistet die bewertet werden können. Ferner können die angezeigten Teilnehmenden auch nach diversen Kriterien gefiltert werden, z.B. alle Teilnehmenden die diesen Kursbaustein noch "nicht bestanden" oder alle Teilnehmenden einer bestimmten Gruppe usw. Ferner kann nach Personen gesucht werden.  

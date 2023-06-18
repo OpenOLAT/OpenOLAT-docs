@@ -4,7 +4,7 @@ Configuration options for group coaches.
 
 If you create a new group you are automatically coach of this group. Coaches of a group get the link "Administration" in the menu in the group. You can
 manage the group, but also announce users to coaches, delete groups and
-configure some [more settings](Group_Management.md).
+configure some [more settings](../area_modules/Group_Management.md).
 
 ![Group administration](assets/Gruppe_173a_en.png){ class="shadow lightbox"}
 
@@ -44,14 +44,14 @@ Tool | | Description
 ---|---|---
 :fontawesome-solid-circle-info: | Information to members| If the tool "Information" is activated, you can define if only group maintainers or also group members can create messages. Own messages can always be edited. As a group owner, all messages can be edited and deleted.  
 :fontawesome-regular-envelope:| E-Mail| If the "E-Mail" tool is enabled, non-members can access the e-mail functionality and send messages to group members (maintainers, participants or all members).  
-:fontawesome-solid-calendar-days: | Calendar| You can provide the group with a calendar where you can enter common dates. Once the calendar is activated and saved, you can configure the write permissions for it, i.e. specify who can enter appointments. For more general information about calendar functions, see [Calendar](../personal/Calendar.md).  
+:fontawesome-solid-calendar-days: | Calendar| You can provide the group with a calendar where you can enter common dates. Once the calendar is activated and saved, you can configure the write permissions for it, i.e. specify who can enter appointments. For more general information about calendar functions, see [Calendar](../personal_menu/Calendar.md).  
 :fontawesome-regular-folder: | Folder| With a folder you enable the exchange of files between the members of your group. Joint editing of office documents is also possible, depending on the configuration by the OpenOlat administrator. The available storage space is 10 MB. Once the folder is activated and saved, you can configure the write permissions for it, i.e. define who can upload and create files.   
 :fontawesome-brands-rocketchat:| Forum| Here you provide your group with a forum for discussions. As the group's administrator, you have the right to edit and delete posts as well as create new ones.  
 :fontawesome-solid-comment-sms: | Chat| You can provide a chat room for the group. You can see which other members are in the group chat.  
 :fontawesome-solid-globe: | Wiki| You can provide a wiki for the group to create content together.   
-:octicons-briefcase-24: | Portfolio| You can provide a [portfolio](../portfolio/Creating_Portfolio_Tasks.md)2.0 to the group. Es handelt sich dabei aber nicht um ein Assessment-Portfolio.  
+:octicons-briefcase-24: | Portfolio| You can provide a [portfolio](../learningresources/Creating_Portfolio_Tasks.md)2.0 to the group. Es handelt sich dabei aber nicht um ein Assessment-Portfolio.  
 :material-monitor: | OpenMeetings| When OpenMeetings is enabled and saved, a virtual meeting room or classroom is available to the group.  
-:material-monitor: | BigBlueButton| By selecting BigBlueButton, multiple BigBlueButton rooms can be made available to a group. The functionality is similar to the corresponding [course element BigBlueButton](../course_elements/Course_element_BigBlueButton.md). In the group, only the BigBlueButton templates generally activated for groups are available. These may differ from the room templates in courses. If a group member is a supervisor, course owner, author or administrator in the OpenOlat system, additional BigBlueButton room templates may be available to him.  
+:material-monitor: | BigBlueButton| By selecting BigBlueButton, multiple BigBlueButton rooms can be made available to a group. The functionality is similar to the corresponding [course element BigBlueButton](../learningresources/Course_element_BigBlueButton.md). In the group, only the BigBlueButton templates generally activated for groups are available. These may differ from the room templates in courses. If a group member is a supervisor, course owner, author or administrator in the OpenOlat system, additional BigBlueButton room templates may be available to him.  
 :material-monitor: | Microsoft Teams| By choosing Microsoft Teams, multiple BigBlueButton rooms can be made available to a group. 
   
 Each tool can only be used once in a group. It is therefore not possible to
@@ -117,7 +117,7 @@ embedded groups. OpenOlat does not restrict the number of embedded courses.
 Groups are often used in courses for controlled enrollment, for the assignment
 of papers or to register for field trips.
 
-Groups and courses can be linked in two ways: In the group, under the tab "Courses" in the group administration.    oder ausgehend vom Kurs über die "[Mitgliederverwaltung](../course_operation/Members_management.md)" → "Gruppen"
+Groups and courses can be linked in two ways: In the group, under the tab "Courses" in the group administration.    oder ausgehend vom Kurs über die "[Mitgliederverwaltung](../learningresources/Members_management.md)" → "Gruppen"
  
 
 ### Tab Share {: #booking}

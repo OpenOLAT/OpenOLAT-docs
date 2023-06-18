@@ -4,7 +4,7 @@ Die Lernressource Formular, insbesondere das dort integrierte [Rubrik](Rubric.de
 
 ## Im Kurseditor
 
-Gehen Sie in den Kurseditor und fügen Sie den [Kursbaustein "Bewertung"](../course_elements/Course_Element_Assessment.de.md) hinzu. Gehen Sie anschließend in den Tab "Bewertung" und aktivieren Sie die "Rubrik-Bewertung".
+Gehen Sie in den Kurseditor und fügen Sie den [Kursbaustein "Bewertung"](../learningresources/Course_Element_Assessment.de.md) hinzu. Gehen Sie anschließend in den Tab "Bewertung" und aktivieren Sie die "Rubrik-Bewertung".
 
 ![Rubrik-Bewertung konfigurieren](assets/Bewertung_Tab_Rurbrik-Bewerung.png){ class="shadow lightbox" }
 
@@ -20,7 +20,7 @@ Hat man noch kein Formular erstellt, kann auch eine neue Lernressource Formular 
 
 Ein neu erstelltes Formular beinhaltet zunächst noch kein Rubrik Element. Dieses muss im Kurs über "Bearbeiten" oder alternativ direkt in der Lernressource im [Formular Editor](Form_editor_Questionnaire_editor.de.md) hinzugefügt werden.
 
-Wenn ein Formular direkt im Kurseditor erstellt wird, wird automatisch eine neue Lernressource Formular angelegt, die auch im [Autorenbereich](../authoring/index.de.md)unter "Meine Einträge" zu finden ist und in weiteren Kursen eingebunden werden kann.
+Wenn ein Formular direkt im Kurseditor erstellt wird, wird automatisch eine neue Lernressource Formular angelegt, die auch im [Autorenbereich](../area_modules/Authoring.de.md)unter "Meine Einträge" zu finden ist und in weiteren Kursen eingebunden werden kann.
 
 Nachdem ein Formular ausgewählt wurde kann es über den Link "Bearbeiten" gestaltet werden. Wurde das Formular schon vorher passend eingerichtet ist eine Bearbeitung nicht mehr notwendig.
 
@@ -48,7 +48,7 @@ Nachdem ein Rubrik mit der Bewertung verknüpft wurde können im Tab "Bewertung"
 
 **Hinweise für alle Benutzer** : | Hier können Hinweise für Betreuer hinterlassen werden. Die Teilnehmenden sehen die Hinweise nicht.
   
-Weitere Informationen zum Kursbaustein Bewertung finden Sie [hier](../course_elements/Course_Element_Assessment.de.md).
+Weitere Informationen zum Kursbaustein Bewertung finden Sie [hier](../learningresources/Course_Element_Assessment.de.md).
 
 ### Rubrik-Bewertung vornehmen
 

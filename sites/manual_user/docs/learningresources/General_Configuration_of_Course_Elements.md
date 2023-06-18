@@ -162,7 +162,7 @@ passed.
  **Only in assessment mode:** If you want certain course elements to be
 displayed or accessible only during an OpenOlat assessment situation, select
 this setting. For more information, refer to the section [Assessment
-Mode](../e-assessment/Assessment_mode.md).
+Mode](../learningresources/Assessment_mode.md).
 
 In order for a restriction to apply to course owners and group coaches, the
 option " _Apply rules also for owners and tutors_ " must be selected. If you
@@ -193,7 +193,7 @@ Learning path courses do not allow these restrictions. If you need these
 specific selective releases, you must use a traditional course.
 
 You can find information about the tab "learning path"
-[here](Learning_path_course_-_Course_editor.md).
+[here](../learningresources/Learning_path_course_Course_editor.md).
 
 ~~![](assets/element_ID.png)~~
 

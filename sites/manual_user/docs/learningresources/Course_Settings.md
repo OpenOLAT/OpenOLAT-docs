@@ -1,7 +1,7 @@
 # Course Settings
 The menu "Settings" of the "Administration" offers further central configurations for your OpenOlat course.
 
-Each [learning resource](../authoring/Various_Types_of_Learning_Resources.md), not just courses, have a menu "Settings". Furthermore, the settings of conventional and learning path courses vary slightly.
+Each [learning resource](../learningresources/index.md), not just courses, have a menu "Settings". Furthermore, the settings of conventional and learning path courses vary slightly.
 
 **Course settings**
 
@@ -10,13 +10,13 @@ Each [learning resource](../authoring/Various_Types_of_Learning_Resources.md), n
 Via the tabs "Info", "Metadata", "Execution" and "Share" you can set up information that is visible in the course info page.
 
 ## Tab Info
-Here you define further information on the course or learning resource. This information is also visible to interested parties without course access under (Course)info. This includes, for example: Title, relevant description, certificate, cover image and teaser movie. The learning resource appears under the title in the alphabetical course list and for queries via the search mask. Further information can be found [here](../authoring/Set_up_info_page.md).
+Here you define further information on the course or learning resource. This information is also visible to interested parties without course access under (Course)info. This includes, for example: Title, relevant description, certificate, cover image and teaser movie. The learning resource appears under the title in the alphabetical course list and for queries via the search mask. Further information can be found [here](../learningresources/Set_up_info_page.md).
 
 ## Tab Metadata
 Here you can enter other things that appear under "Info" e.g. the names of the teachers of the course. Also, the course can be assigned to a given didactic type such as self-study course or examination course. Especially relevant is the entry of the license of the course.
 
 ## Tab Execution {: #Execution}
-Here you can activate the "[Lecture and Absence Management](../course_operation/Lectures_and_absences.md)" if activated by the administrator, convert existing conventional courses into learning path courses or, in case of [learning path courses](Learning_path_course.md), define how the learning progress is calculated on the basis of the number of course elements or on the basis of the learning time of the course elements.  
+Here you can activate the "[Lecture and Absence Management](../learningresources/Lectures_and_absences.md)" if activated by the administrator, convert existing conventional courses into learning path courses or, in case of [learning path courses](Learning_path_course.md), define how the learning progress is calculated on the basis of the number of course elements or on the basis of the learning time of the course elements.  
 
 ## Tab Share
 In this tab you define how and for whom a course or a learning resource is released. Further information on setting up the appropriate access configuration can be found [here](Access_configuration.md).
@@ -29,7 +29,7 @@ The entire OpenOlat catalogue can be viewed by all users in the "Courses" menu.
 Only enter your courses in the catalog when they are finished and should be visible to the users.
 
 ## Tab Disclaimer {: #disclaimer}
-Here you can activate and set course-related terms of use or a course-related privacy policy. If a person starts the course, he/she must first accept the conditions, otherwise access to the course is not possible. In the [member administration](../course_operation/Members_management.md) you can see in the area "Consents" which persons have already accepted the conditions.
+Here you can activate and set course-related terms of use or a course-related privacy policy. If a person starts the course, he/she must first accept the conditions, otherwise access to the course is not possible. In the [member administration](../learningresources/Members_management.md) you can see in the area "Consents" which persons have already accepted the conditions.
 
 ![Disclaimer form](assets/disclaimer_course.png){ class="shadow" }
 
@@ -42,7 +42,7 @@ Under "Layout" you can select a layout template for a course, hide the left cour
 In the section "Course element default style" you can define the default presentation of the course elements and, for example, upload a background image and define the style of the image as well as assign a color category. In the preview you can see the effects.
 
 ## Tab Toolbar
-Here you switch the toolbar and certain tools of the toolbar on or off. In this way, certain tools that are to be available continuously can be called up at a central location. In addition to course search, glossary and course chat these tools include various [tools](../course_operation/Using_Additional_Course_Features.md) that can also be called up as course element, e.g. calendar, list of participants, e-mail, blog, wiki, forum, and documents folder. In the case of [Wiki](../resource_wiki/index.md) and [Blog](../resource_blog/index.md), it is also possible to fall back on learning resources that have already been created. The other tools are similar to the corresponding course elements, but do not offer the further configuration options as they are available in the course elements in the course editor.
+Here you switch the toolbar and certain tools of the toolbar on or off. In this way, certain tools that are to be available continuously can be called up at a central location. In addition to course search, glossary and course chat these tools include various [tools](../learningresources/Using_Additional_Course_Features.md) that can also be called up as course element, e.g. calendar, list of participants, e-mail, blog, wiki, forum, and documents folder. In the case of [Wiki](../learningresources/Wiki.md) and [Blog](../learningresources/Blog.md), it is also possible to fall back on learning resources that have already been created. The other tools are similar to the corresponding course elements, but do not offer the further configuration options as they are available in the course elements in the course editor.
 
 The use of the tools in the toolbar is particularly important for linear
 [learning path courses](Learning_path_course.md) in order to make important
@@ -101,7 +101,7 @@ A validity period can be set for the certificate. You specify the period of vali
 
 To control the validity of a certificate the attribute certificateVerificationUrl needs to be added to the template. It allows to generate the certificate again later on, thanks to a QR code. It can then be compared with the already available version. If both versions are consistent, the certificate can be validated. However, the QR code for validation is only possible if you use an HTML form.
 
-Based on the date of issue as well as the expiry date of the certificate, [reminders](../course_operation/Course_Reminders.md){:target="_blank"} can be triggered.
+Based on the date of issue as well as the expiry date of the certificate, [reminders](../learningresources/Course_Reminders.md){:target="_blank"} can be triggered.
  z.B. erhält der User eine Info, dass das Zertifikat abgelaufen ist oder in wenigen Tagen abläuft oder eine Rezertifizierung ab sofort möglich ist. 
 
 #### Create PDF template ####
@@ -215,7 +215,7 @@ If you would like to have such a certificate template, feel free to contact us v
  **Allow re-certification:**  This enables the issuing of a new certificate after a specified period.
 
 ## Tab Options {: #options}
-Here you can activate and configure a course-specific [glossary](../course_operation/Using_Additional_Course_Features.md) and a resource folder. And so connect with your course as well as create a special folder for Coaches.
+Here you can activate and configure a course-specific [glossary](../learningresources/Using_Additional_Course_Features.md) and a resource folder. And so connect with your course as well as create a special folder for Coaches.
 
 ### Include glossary
 You can either connect to your already created glossary here or create a new glossary in the menu that appears.  Once a glossary has been selected, it can also be activated in the "Toolbar" tab.

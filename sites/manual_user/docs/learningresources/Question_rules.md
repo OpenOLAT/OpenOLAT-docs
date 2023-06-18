@@ -1,6 +1,6 @@
 # Question rules
 
-Question rules (working name: "Branching") can now be integrated in OpenOlat in the [form editor](../forms/Form_editor_Questionnaire_editor.md). Depending on certain answers in the question container ![Icon Checkmark](assets/image2021-5-5_9-32-45.png){ class=size24 } "multiple choice" and ![Icon Circle](assets/image2021-5-5_9-31-51.png){ class=size24 } "single choice", actions can be executed.
+Question rules (working name: "Branching") can now be integrated in OpenOlat in the [form editor](../learningresources/Form_editor_Questionnaire_editor.md). Depending on certain answers in the question container ![Icon Checkmark](assets/image2021-5-5_9-32-45.png){ class=size24 } "multiple choice" and ![Icon Circle](assets/image2021-5-5_9-31-51.png){ class=size24 } "single choice", actions can be executed.
 
 Currently it is only possible to display certain question containers. Thus, different question strings can be built.
 

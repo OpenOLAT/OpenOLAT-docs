@@ -6,7 +6,7 @@ Mit dem Kursbaustein "Formular" können Sie die Lernressource Formular einem Kur
 Einstellung). 
 
 Für das Ausfüllen des Kursbausteins kann im Tab
-"Formular" ein letzter Abgabetermin definiert werden. Eine [Kurs-Erinnerung](../course_operation/Course_Reminders.de.md) kann ebenfalls ergänzend
+"Formular" ein letzter Abgabetermin definiert werden. Eine [Kurs-Erinnerung](../learningresources/Course_Reminders.de.md) kann ebenfalls ergänzend
 verknüpft werden. Anders als beim Umfragebaustein erhalten die Teilnehmenden
 bei Abgabe des ausgefüllten Formulars automatisch eine Bestätigungsmail mit
 Datum und Zeitpunkt der Abgabe sowie ihr ausgefülltes Formular als PDF im

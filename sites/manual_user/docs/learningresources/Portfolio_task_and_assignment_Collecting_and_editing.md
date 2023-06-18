@@ -17,7 +17,7 @@ To do this, you first have to call up the course in which the portfolio task is 
 Select the course element portfolio task. Click the button "Collect portfolio task ".  
 
 Now, the portfolio task is collected and your portfolio is saved in "[My
-portfolio binders](My_portfolio_binders.md)".  
+portfolio binders](../area_modules/My_portfolio_binders.md)".  
   
   
 (For the next access you can open the portfolio task directly in the portfolio.)

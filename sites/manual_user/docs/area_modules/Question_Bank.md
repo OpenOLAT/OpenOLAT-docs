@@ -32,7 +32,7 @@ The question bank is separated in three parts:
   * The last block is only visible if the review process is activated. In addition you will find your own subjects under "My question bank". When having the appropriate competencies also the blocks "Review" and "Final" appear.
 
 Individual questions, entire sections or tests can also be exported directly
-from the [test editor](../tests/Test_editor_QTI_2.1.md) to the . To do this, select
+from the [test editor](../learningresources/Test_editor_QTI_2.1.md) to the . To do this, select
 the "Export" → "Export to pool" link in the toolbar of the test editor.
 Depending on which level you are on in the menu tree on the left, either
 individual questions, individual sections or the entire test will be exported

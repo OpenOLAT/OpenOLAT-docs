@@ -16,7 +16,7 @@ In this tab, you can determine whether a deadline should be effective for the
 checklist and if and how course participants are assessed. Depending on the
 selected settings, you have different valuation options at your disposal. The
 later assessment takes place either in the course run with closed editor or in
-the [assessment tool](../course_operation/Assessment_of_course_modules.md) of the course.
+the [assessment tool](../learningresources/Assessment_of_course_modules.md) of the course.
 Attention: Once an assessment has taken place, you should not change the
 configuration anymore.
 
@@ -131,7 +131,7 @@ Filter the table beforehand by group. You can then sort by either first or
 last name, to facilitate matching your participants list with the checklist.
 
   3. The " **Edit** " button opens the table overview in edit mode, which allows you to edit all checkboxes across all participants.
-  4. And finally, checkboxes of participants can also be edited in the [assessment tool](../course_operation/Assessment_of_course_modules.md).
+  4. And finally, checkboxes of participants can also be edited in the [assessment tool](../learningresources/Assessment_of_course_modules.md).
 
   
 

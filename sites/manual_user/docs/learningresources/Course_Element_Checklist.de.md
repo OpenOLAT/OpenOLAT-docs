@@ -149,7 +149,7 @@ vor. Sie können die Tabelle nach Vornamen oder Nachnamen sortieren, um einen
 einfacheren Abgleich zwischen Teilnehmerliste und Checkliste zu ermöglichen.
 
   3. Die Schaltfläche „ **Editieren** “ öffnet die Übersichtstabelle im Bearbeitungsmodus, was Ihnen gestattet alle Checkboxen aller Teilnehmer zu bearbeiten.
-  4. Zu guter Letzt können Sie Checkboxen einzelner Teilnehmer auch im  [Bewertungswerkzeug](../course_operation/Assessment_of_course_modules.de.md) aus- oder abwählen.
+  4. Zu guter Letzt können Sie Checkboxen einzelner Teilnehmer auch im  [Bewertungswerkzeug](../learningresources/Assessment_of_course_modules.de.md) aus- oder abwählen.
 
   
 

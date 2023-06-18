@@ -68,7 +68,7 @@ Wenn sie ein Bild neben einen Text platzieren wollen, benutzen sie ein 1/2 / 1/2
 Mithilfe des html-Editors kann "normaler" Text hinzugefügt werden. Dabei kann
 die übliche Formatierung vorgenommen werden.  
 Unter "Einfügen" können auch [mathematische
-Formeln](../personal/Math_formula.de.md) eingefügt werden.
+Formeln](../basic_concepts/Math_formula.de.md) eingefügt werden.
 
 ## Einbinden von Medien
 

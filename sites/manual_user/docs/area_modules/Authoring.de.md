@@ -43,7 +43,7 @@ In der zweiten Zeile sind bereits mehrere **Buttons** mit Filteroptionen angezei
 Im **Suchfeld** können Sie direkt nach dem Titel suchen. Auch Teile des Titels liefern bereits ein Suchergebnis.
 
 Weitere Details zum Umgang mit den Filteroptionen erfahren Sie
-[Filtermenü](../personal/Working_with_tables.de.md).
+[Filtermenü](../basic_concepts/Table_Concept.de.md).
 
 !!! hint "Tipp"
 

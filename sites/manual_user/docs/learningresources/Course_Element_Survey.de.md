@@ -7,7 +7,7 @@ Mit dem Kursbaustein „Umfrage“ fügen Sie Ihrem Kurs einen Online-Fragebogen
 Kapitel "[3 Schritte zu Ihrem Formular](../forms/Three_Steps_to_your_Form.de.md)". Die Resultate einer Umfrage werden  standardmässig anonymisiert gespeichert. 
 
 Ein in einem Kurs verlinktes Formular kann nur solange vollständig im
-"[Formular-Editor](../forms/Form_editor_Questionnaire_editor.de.md)" bearbeitet werden, solange die Seite nicht aufgerufen wurde.
+"[Formular-Editor](../learningresources/Form_editor_Questionnaire_editor.de.md)" bearbeitet werden, solange die Seite nicht aufgerufen wurde.
 Danach können nur noch Tippfehler korrigiert werden.
 
 !!! note "Achtung"
@@ -15,5 +15,5 @@ Danach können nur noch Tippfehler korrigiert werden.
     Wenn Teilnehmende aktuell die Umfrage ausführen, jedoch noch nicht abgeschlossen haben, gehen deren Resultate verloren.
 
 Weitere Informationen zum Thema Fragebogen und Umfrage finden Sie im Kapitel
-„[Formulare erstellen](../forms/index.de.md)“ und den
+„[Formulare erstellen](../learningresources/Form.de.md)“ und den
 entsprechenden Unterkapiteln.

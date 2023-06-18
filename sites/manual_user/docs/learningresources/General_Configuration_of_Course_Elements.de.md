@@ -182,7 +182,7 @@ bestanden wurde.
  **Nur im Prüfungsmodus** : Sollen bestimmte Kursbaustein nur während einer
 OpenOlat Prüfungssituation angezeigt werden bzw. zugänglich sein, wählen Sie
 diese Einstellung. Weitere Informationen finden Sie im Abschnitt
-[Prüfungsmodus](../e-assessment/Assessment_mode.de.md).
+[Prüfungsmodus](../learningresources/Assessment_mode.de.md).
 
 Damit eine vorgenommene Einschränkung auch für die Kursbesitzer und
 Gruppenbetreuer gilt, muss die Option „ _Regeln auch bei Besitzern und
@@ -219,7 +219,7 @@ diese spezifischen selektiven Freigaben, müssen Sie einen herkömmlichen Kurs
 verwenden.
 
 Informationen zum Tab "Lernpfad" von Lernpfad Kursen finden Sie
-[hier](Learning_path_course_-_Course_editor.de.md).
+[hier](../learningresources/Learning_path_course_Course_editor.de.md).
 
   
 

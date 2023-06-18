@@ -10,20 +10,20 @@ most probably disabled by the system administrator.
 
 !!! note "Quick Links"
 
-    * [Personal Menu](Personal_Menu.md)
+    * [Personal Menu](../personal_menu/Personal_Tools.md)
     * [Configuration](Configuration.md)
-    * [Full-Text Search](Full-Text_Search.md)
-    * [Chat](Chat.md)
-    * [Portal configuration](Portal_configuration.md)
-    * [Math formula](Math_formula.md)
-    * [Working with tables](Working_with_tables.md)
+    * [Full-Text Search](../basic_concepts/Full_Text_Search.md)
+    * [Chat](../basic_concepts/Chat.md)
+    * [Portal configuration](../basic_concepts/Portal_configuration.md)
+    * [Math formula](../basic_concepts/Math_formula.md)
+    * [Working with tables](../basic_concepts/Table_Concept.md)
 
 ## Navigation
 
-In the navigation the [chat](Chat.md) is shown first. It is followed by the
+In the navigation the [chat](../basic_concepts/Chat.md) is shown first. It is followed by the
 number of active users and the full text search. In the navigation your
 personal menu can be opened as well. It is divided into [personal
-tools](Personal_Menu.md), [configuration](Configuration.md) and system.
+tools](../personal_menu/Personal_Tools.md), [configuration](Configuration.md) and system.
 Further information about the single elements can be found under the
 corresponding link.
 

@@ -3,7 +3,7 @@
 
 Mit dem Kursbaustein „Test“ binden Sie eine OpenOlat Lernressource „Test“ in
 Ihren Kurs ein. Ein Test wird im Kurs zur Leistungsüberprüfung oder als Quiz
-verwendet und umfasst diverse Frage-Typen. Er wird je nach Wahl der  „[Fragetypen](../tests/Test_question_types.de.md)“ automatisiert oder manuell ausgewertet. OpenOlat verwendet das IMS-QTI 2.1
+verwendet und umfasst diverse Frage-Typen. Er wird je nach Wahl der  „[Fragetypen](../learningresources/Test_question_types.de.md)“ automatisiert oder manuell ausgewertet. OpenOlat verwendet das IMS-QTI 2.1
 Format für Tests, was einen Austausch mit anderen Test-Systemen und Learning
 Management Systemen, die diesen Standard ebenfalls unterstützen, gewährt.
 
@@ -15,9 +15,9 @@ haben, erscheint der Name dieser Lernressource hinter  _Gewählte Datei_. Mit
 Klick auf den Namen starten Sie die Vorschau des Tests. Mittels "Datei
 auswechseln" können Sie die Lernressource austauschen. Weitere Informationen
 finden Sie im Kapitel „[Tests
-erstellen](../tests/index.de.md)“.
+erstellen](../learningresources/Test.de.md)“.
 
-Die zwei zentralen „[Tabs](../tests/Tests_at_course_level.de.md)“ in denen Sie Einstellungen für Ihren Test vornehmen können sind  **Test-Konfiguration** und „**Optionen** “.
+Die zwei zentralen „[Tabs](../learningresources/Tests_at_course_level.de.md)“ in denen Sie Einstellungen für Ihren Test vornehmen können sind  **Test-Konfiguration** und „**Optionen** “.
 
 Die Einstellungen unter "Optionen" werden zunächst aus den Optionen in der
 Lernressource übernommen, können aber bei Bedarf aber im Kurs geändert werden.

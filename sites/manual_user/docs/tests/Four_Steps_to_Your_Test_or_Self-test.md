@@ -28,7 +28,7 @@ With this guide you can quickly integrate a simple test or self-test into your c
 4. In the tab "Score" define the type and the sum of the points.
 5. If necessary, define a feedback for the question and look at the question using the preview.  
 
-You add further questions according to the same principle. The details of the settings can vary depending on the question type. You can also use [sections or test parts](Configure_tests.md) to further structure your test.
+You add further questions according to the same principle. The details of the settings can vary depending on the question type. You can also use [sections or test parts](../learningresources/Configure_tests.md) to further structure your test.
 
 !!! info "Note"
 
@@ -82,7 +82,7 @@ configuration" under "Selected file" and edit it as long as it has not been exec
 
     Alternatively you can use the "Publish" button in the editor on the right side of the toolbar.  
 
-The test or self-test is now integrated in the course and visible and editable for the user. Tests (not self-tests) worked on by learners can be subsequently assessed by the teacher in the course run or in the assessment tool. For more info, see the chapter "[Assessing tests](../course_operation/Assessing_tests.md)".
+The test or self-test is now integrated in the course and visible and editable for the user. Tests (not self-tests) worked on by learners can be subsequently assessed by the teacher in the course run or in the assessment tool. For more info, see the chapter "[Assessing tests](../learningresources/Assessing_tests.md)".
 
 !!! note "Prerequisite"
 The prerequisite for the learner to be able to take the test is that the course has been published and the respective persons have access to the course.

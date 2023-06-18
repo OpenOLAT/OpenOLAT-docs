@@ -11,7 +11,7 @@ course participants can enroll. You can also define the order of the groups in
 the selection list. If you have not yet created any groups or need more, you
 can do so directly in the "Configuration" tab by clicking on "Select" and
 "Create". Existing and newly created groups can be edited in the [member
-management](../course_operation/Members_management.md).
+management](../learningresources/Members_management.md).
 
 Use the field "**Allow multiple enrolments**" in order to allow course
 participants to enrol in more than one, and if so how many, groups.

@@ -27,7 +27,7 @@ Im Folgenden werden die Menüs des Coaching Tools näher erläutert.
 
 ## Lectures
 
-If the [absence management](../course_operation/Lectures_and_absences.md) of OpenOlat is used, the area "Lectures" also appears in the coaching module.
+If the [absence management](../learningresources/Lectures_and_absences.md) of OpenOlat is used, the area "Lectures" also appears in the coaching module.
 
 ![Coachingtool Lectures](assets/Coaching_start.png){ class="shadow lightbox" }
 
@@ -37,7 +37,7 @@ A specific day can be selected in the cockpit and the corresponding lectures and
 
 ### Tab Lectures
 
-Here you can select a time window and search for keywords. An overview of different lecture blocks is displayed. You can find more information about "[Lectures](../course_operation/Lectures_-_Teacher_view.md) here.
+Here you can select a time window and search for keywords. An overview of different lecture blocks is displayed. You can find more information about "[Lectures](../learningresources/Lectures_Teacher_view.md) here.
 
 ### Tab Absences
 
@@ -130,7 +130,7 @@ Here you get an overview of all persons who have been added to your own tests as
 
 Test owners can also add further graders to their own tests at this point.
 
-It is also possible to add graders directly at the respective [test learning resource](../tests/Test_settings.md).
+It is also possible to add graders directly at the respective [test learning resource](../learningresources/Test_settings.md).
 
 ### Tab Grading assignments
 

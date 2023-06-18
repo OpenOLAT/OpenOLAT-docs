@@ -12,6 +12,6 @@ Test eingebunden. Wenn Sie noch keinen Test erstellt haben, folgen Sie den
 Anweisungen im Kapitel „[Vier Schritte zu Ihrem Test oder
 Selbsttest“](../tests/Four_Steps_to_Your_Test_or_Self-test.de.md).
 
-Weitere Informationen zu Tests finden Sie im Kapitel „[Tests erstellen](../tests/index.de.md)“. Relevant ist hier vor allem das Unterkapitel „[Tests auf Kursebene](../tests/Tests_at_course_level.de.md).
+Weitere Informationen zu Tests finden Sie im Kapitel „[Tests erstellen](../learningresources/Test.de.md)“. Relevant ist hier vor allem das Unterkapitel „[Tests auf Kursebene](../learningresources/Tests_at_course_level.de.md).
 
 Eine komplexere Alternative zum Selbsttest stellt der Kursbaustein Übung dar. 

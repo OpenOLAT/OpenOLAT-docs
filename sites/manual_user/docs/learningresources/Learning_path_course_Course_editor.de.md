@@ -13,7 +13,7 @@ Beispiele und eine weitere Einführung findet man auch in unserem [Whitepaper f�
 Sollen bestimmte Bereiche des Kurses eine andere Einstellung erhalten, kann
 dies über das Hinzufügen und Konfigurieren des Kursbausteins „Struktur“
 erfolgen. Die gewählte Einstellung gilt dann für alle diesem [Kursbaustein
-„Struktur"](../course_elements\Course_Element_Structure.de.md)
+„Struktur"](../learningresources/Course_Element_Structure.de.md)
 untergeordneten Kursbausteine. So kann beispielsweise ein Kurs standardmässig als sequenziell konfiguriert sein, aber ein bestimmter Bereich im Kurs kann permanent in beliebiger Reihenfolge aufgerufen werden.
 
 ## Der Tab Lernpfad
@@ -30,7 +30,7 @@ Lernpfad Kurse haben im Gegensatz zu herkömmlichen Kursen nicht die Tabs „Sic
   *  **Zu bearbeiten bis**: Ist ein Kursbaustein obligatorisch, kann man auch ein Datum eintragen bis zu dem die Bearbeitung erfolgt sein muss.
   *  **Bearbeitungszeit**: Hier kann eingetragen werden, wie lang der Ersteller die Bearbeitungszeit für den jeweiligen Baustein einschätzt. Die Bearbeitungszeit ist unabhängig davon wieviel Zeit der User wirklich für den Baustein benötigt.
 
-Diese Einstellungen stehen für fast alle Kursbausteine zur Verfügung. Eine Ausnahme bildet jedoch der [Kursbaustein „Struktur"](../course_elements/Course_Element_Structure.de.md), der für die Bündelung von Kursbausteinen gedacht ist. Im Strukturbaustein kann die Abfolge der Lernschritte die für alle untergeordneten Kurselemente gilt, mit sequenziell oder spezifischer Reihenfolge definiert werden.
+Diese Einstellungen stehen für fast alle Kursbausteine zur Verfügung. Eine Ausnahme bildet jedoch der [Kursbaustein „Struktur"](../learningresources/Course_Element_Structure.de.md), der für die Bündelung von Kursbausteinen gedacht ist. Im Strukturbaustein kann die Abfolge der Lernschritte die für alle untergeordneten Kurselemente gilt, mit sequenziell oder spezifischer Reihenfolge definiert werden.
 
 ### Ausnahmen
 
@@ -64,7 +64,7 @@ c) Der Kursbaustein ist grundsätzlich obligatorisch. Für diejenigen die eine b
 
 ### Bearbeitungszeit
 
-Die Bearbeitungszeit ist besonders relevant, wenn in den Kurseinstellungen für die Durchführung der Lernfortschritt anhand der Bearbeitungszeit ermittelt wird (siehe [Lernpfad Kurse](../course_create/Creating_learning_path_courses.de.md) erstellen). In diesem Fall werden alle Zeitangaben der einzelnen Kursbausteine summiert und die Gesamtsumme als Basis für 100 % genommen.
+Die Bearbeitungszeit ist besonders relevant, wenn in den Kurseinstellungen für die Durchführung der Lernfortschritt anhand der Bearbeitungszeit ermittelt wird (siehe [Lernpfad Kurse](../learningresources/Creating_learning_path_courses.de.md) erstellen). In diesem Fall werden alle Zeitangaben der einzelnen Kursbausteine summiert und die Gesamtsumme als Basis für 100 % genommen.
 
 Sofern eine Zeitangabe für einen Kursbaustein hinterlegt wurde, wird diese
 Bearbeitungszeit den Teilnehmenden angezeigt solange der Kursbaustein

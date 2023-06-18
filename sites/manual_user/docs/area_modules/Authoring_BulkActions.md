@@ -28,14 +28,14 @@ deleted.
 OpenOlat authors can create new courses and additional [learning resources](Various_Types_of_Learning_Resources.md). How to use various editors will be further explained in the
 chapters 
 
-* [„Creating Courses"](../course_create/index.md), 
+* [„Creating Courses"](../learningresources/Creating_Course.md), 
 * [„Creating CP Learning Content"](../resource_cp/index.md), 
-* [„Creating wikis"](../resource_wiki/index.md), 
-* [„Creating Podcasts"](../resource_podcast/index.md), 
-* [„Creating Blogs"](../resource_blog/index.md), 
-* ["Creating Portfolio Tasks",](../portfolio/index.md),
-* ["Creating Tests" ](../tests/index.md) and
-* ["Creating Forms and Questionnaires" ](../forms/index.md).
+* [„Creating wikis"](../learningresources/Wiki.md), 
+* [„Creating Podcasts"](../learningresources/Podcast.md), 
+* [„Creating Blogs"](../learningresources/Blog.md), 
+* ["Creating Portfolio Tasks",](../area_modules/index.md),
+* ["Creating Tests" ](../learningresources/Test.md) and
+* ["Creating Forms and Questionnaires" ](../learningresources/Form.md).
 
 
 !!! tip
@@ -103,17 +103,17 @@ resources. These include
 #### Change infopage
 
 Opens the form for changing the content of the info page. You can find more
-information on the page "[Change infopage](../course_create/Course_Settings.md#CourseSettings-d14e1774)".
+information on the page "[Change infopage](../learningresources/Course_Settings.md#CourseSettings-d14e1774)".
 
 #### Catalogue entries
 
 Create new catalogue entries or edit existing entries. For further information
-please refer to the chapter "Course Settings", section "[Catalog entries](../course_create/Course_Settings.md#CourseSettings-d14e1825)".
+please refer to the chapter "Course Settings", section "[Catalog entries](../learningresources/Course_Settings.md#CourseSettings-d14e1825)".
 
 #### Members management
 
 Opens the members management of the respective learning resource. You can find
-more information on the page [Members management](../course_operation/Members_management.md).
+more information on the page [Members management](../learningresources/Members_management.md).
 
 #### Copy
 
@@ -129,7 +129,7 @@ export in another system.
 A learning resource can only be deleted by its owner.
 
 Conventional courses still get the menu "Convert to learning path" to convert a
-course into a course of the type [learning_path](../course_create/Learning_path_course.md)
+course into a course of the type [learning_path](../learningresources/Learning_path_course.md)
 and thus create a copy of the original course.
 
 ## Further actions

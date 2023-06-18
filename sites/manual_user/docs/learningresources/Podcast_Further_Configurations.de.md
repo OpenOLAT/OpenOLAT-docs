@@ -13,7 +13,7 @@ Sie als erstes
 * einen neuen Podcast erstellen oder
 * einen Podcast importieren
 
-Siehe Schritt 2 der [4-Schritte Anleitung](Four_Steps_to_Your_Podcast.de.md). Wurde
+Siehe Schritt 2 der [4-Schritte Anleitung](../resource_podcast/Four_Steps_to_Your_Podcast.de.md). Wurde
 bereits eine Verknüpfung zu einer Lernressource Podcast hergestellt, kann
 diese ausgewechselt oder editiert werden (siehe Schritt 3 der [4-Schritte
 Anleitung](Podcast+erstellen.html)).

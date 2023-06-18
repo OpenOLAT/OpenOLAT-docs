@@ -17,5 +17,5 @@ can be corrected.
     If participants are currently running the questionnaire but have not yet completed it, their results will be lost.
 
 Further information on the subject of questionnaires and surveys can be found
-in the chapter "[Creating questionnaires](../forms/Form_editor_Questionnaire_editor.md)" and
+in the chapter "[Creating questionnaires](../learningresources/Form_editor_Questionnaire_editor.md)" and
 the corresponding subchapters.

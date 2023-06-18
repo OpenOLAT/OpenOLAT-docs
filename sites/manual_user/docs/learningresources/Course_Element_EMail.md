@@ -64,4 +64,4 @@ addresses in your e-mail form.
 
 !!! tip "Tip"
 
-    An element "E-mail" with similar functions, but without specific configuration, can also be found in the [toolbar](../course_operation/Using_Additional_Course_Features.md).
+    An element "E-mail" with similar functions, but without specific configuration, can also be found in the [toolbar](../learningresources/Using_Additional_Course_Features.md).
