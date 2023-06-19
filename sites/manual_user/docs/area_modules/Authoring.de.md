@@ -5,7 +5,7 @@
 :octicons-device-camera-video-24: **Video-Einführung**: [Voraussetzungen für Autoren](<https://www.youtube.com/embed/L0jc_LBKXLE>){:target="_blank”}
 
 Im Autorenbereich finden OpenOlat Autor:innen alle Werkzeuge um Kurse und andere
-Lernressourcen zu erstellen, zu importieren und zu bearbeiten. 
+Lernressourcen zu erstellen, zu importieren und zu bearbeiten.
 
 Alle bereits vorhandenen Kurse und Lernressourcen werden in einer Tabelle angezeigt.
 
@@ -30,10 +30,10 @@ Sie können gezielt nach einem Titel suchen oder über die Filter ihre
 Ergebnisse eingrenzen.
 
 ### 5. Gelöscht
-Im Filter-Tab " **Gelöscht** " haben Sie Zugriff auf Ihre gelöschten
+Im Filter-Tab "**Gelöscht**" haben Sie Zugriff auf Ihre gelöschten
 Lernressourcen bei denen Sie als Besitzer (Co-Autor) eingetragen sind. Der Tab "Gelöscht" ist somit eine Art Papierkorb. Von hier können sie wieder hergestellt oder durch den Administrator dauerhaft gelöscht werden.
 
-### 6. Eigene Filter-Tabs erstellen
+### 6. Eigene Filter-Tabs erstellen 
 Sie können in der Zeile mit den Filter-Tabs (1-5) auch eine häufig benötigte Filterabfrage komplett neu erstellen.<br>Mit Klick auf "Filter speichern" können Sie Ihrer aktuellen Filterkombination einen eigenen Namen geben, die dann direkt so wieder aufgerufen werden kann. ![Filter](assets/Autorenbereich_Filter_172.png)
 
 ### 7. Buttons zum Filtern
