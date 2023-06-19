@@ -1,78 +1,71 @@
-# Authoring
+![bereiche_autorenbereich_v1_de.png](assets/bereiche_autorenbereich_v1_de.png){ class="shadow lightbox" }
 
-The authoring section provides authors with all necessary tools and little
-helpers for creating, editing and importing courses and other learning
-resources.
+# Authoring - Overview
 
-When you open the author section, your personal learning resources Favorites
-are displayed by default. Furthermore, it is possible to quickly switch to the
-display of one's own courses ("My courses"), one's own learning resources ("My
-entries") as well as to the search and to the deleted learning resources.
+:octicons-device-camera-video-24: **Video introduction (German)**: [Voraussetzungen für Autoren](<https://www.youtube.com/embed/L0jc_LBKXLE>){:target="_blank”}
 
-Standardmässig sind folgende Filter aktiviert:
+In the authoring area OpenOlat authors will find all the tools to create, import and edit courses and other learning resources.
 
-In the " **Favorites** " filter tab, you will find all learning resources that
-you have marked as favorites yourself.
+All existing courses and learning resources are displayed in a table.
 
-In the filter tab " **My courses** " you will find all courses that you have
-created or for which you are entered as owner (co-author).
-
-In the filter tab " **My entries** " you will find all learning resources that
-you have created or for which you are registered as owner (co-author).
-
-In the filter tab " **Search form** " you can search for specific learning
-resources. Here you can find all learning resources to which you have access.
-You can search for a specific title or use the filters to narrow down your
-results.
-
-In the filter tab " **Deleted** " you have access to your deleted learning
-resources for which you are entered as owner (co-author). From here they can
-be restored or permanently deleted by the administrator.
-
-For more details on how to use the filter options, click
-[here](../personal/Working_with_tables.md).
-
-If you can't find a course or learning resource (anymore), then check the
-settings in the life cycle. Maybe the wrong selection was made here.
-
-### Creating your own filters for the display:
-
-Further filtering of the display is also possible. Completely new filter
-queries, which are needed frequently, can also be generated and saved. For
-further filtering, click on the small down arrow and the filter options such
-as the learning resources "type" or, technical course type, the life cycle,
-etc. are displayed and certain options can be selected.
-
-![](assets/Autorenbereich_Filter_172.png)
+![autorenbereich_uebersicht1_v1_de.png](assets/autorenbereich_uebersicht1_v1_de.png){ class="shadow lightbox" }
 
 
-### Configure columns
+### 1. Favoriten
+Im Filter-Tab "**Favoriten**" finden Sie alle Lernressourcen, die Sie selbst
+als Favorit gekennzeichnet haben. Diese Ansicht wird standardmässig angezeigt, wenn Sie den Autorenbereich aufrufen.
 
-Via the cogwheel you can select in a more differentiated way, which
-information will be displayed in the respective table. For example, in the
-column "Ref" you can see whether or how often a learning resource has been
-referenced in OLAT courses and you can jump directly to the corresponding
-course.
+### 2. Meine Kurse
+Im Filter-Tab "**Meine Kurse**" finden Sie alle Kurse, die Sie erstellt
+haben oder bei denen Sie als Besitzer (Co-Autor) eingetragen sind. "Meine Kurse" ist eine Teilmenge von "Meine Einträge". 
 
-  
+### 3. Meine Einträge 
+Im Filter-Tab „**Meine Einträge**“ finden Sie alle Lernressourcen, die Sie erstellt haben oder bei denen Sie als Besitzer (Co-Autor) eingetragen sind. Das sind neben den Kursen auch Test-Lernressourcen, Formulare, usw. 
 
-##   OpenOlat learning resources create and import
+### 4. Suchmaske 
+Im Filter-Tab "**Suchmaske**" können Sie nach bestimmten Lernressourcen
+suchen. Hier sind alle Lernressourcen auffindbar, auf die Sie Zugriff haben.
+Sie können gezielt nach einem Titel suchen oder über die Filter ihre
+Ergebnisse eingrenzen.
 
-In the author section, the following learning resources can be
-created. 
+### 5. Gelöscht
+Im Filter-Tab "**Gelöscht**" haben Sie Zugriff auf Ihre gelöschten
+Lernressourcen bei denen Sie als Besitzer (Co-Autor) eingetragen sind. Der Tab "Gelöscht" ist somit eine Art Papierkorb. Von hier können sie wieder hergestellt oder durch den Administrator dauerhaft gelöscht werden.
 
-![](assets/create161.png)
+### 6. Eigene Filter-Tabs erstellen 
+Sie können in der Zeile mit den Filter-Tabs (1-5) auch eine häufig benötigte Filterabfrage komplett neu erstellen.<br>Mit Klick auf "Filter speichern" können Sie Ihrer aktuellen Filterkombination einen eigenen Namen geben, die dann direkt so wieder aufgerufen werden kann. ![Filter](assets/Autorenbereich_Filter_172.png)
 
-Furthermore, learning resources and additional files can be imported,
-as well as URLs.
+### 7. Buttons zum Filtern
+In der zweiten Zeile sind bereits mehrere **Buttons** mit Filteroptionen angezeigt. Unter **Mehr** können Sie weitere Buttons anzeigen. Klicken Sie zur weiteren Filterung auf den kleinen Pfeil nach unten und es werden die Filtermöglichkeiten zur Auswahl angezeigt. 
 
-Each learning resource can be further configured in the "Settings" area of the
-administration. For example, metadata can be stored here and it can be defined
-who has access to the learning resource.
+### 8. Suchfeld 
+Im **Suchfeld** können Sie direkt nach dem Titel suchen. Auch Teile des Titels liefern bereits ein Suchergebnis.
 
-In the following chapters you will find explanations about the individual
-[OpenOlat learning resources](Various_Types_of_Learning_Resources.md), which
-actions you can perform in the author section, and information about the [infopage](Set_up_info_page.md) of a learning resource.
+Weitere Details zum Umgang mit den Filteroptionen erfahren Sie
+[Filtermenü](../personal/Working_with_tables.de.md).
+
+!!! hint "Tipp"
+
+    Falls Sie einmal einen Kurs oder eine Lernressource nicht (mehr) finden, könnte es eventuell am Lebenszyklus liegen. Überprüfen Sie dort die Einstellungen. Vielleicht wurde hier einfach die falsche Auswahl getroffen.
 
 
+### 9. Spalten konfigurieren
 
+Über das Zahnrad-Icon kann ausgewählt werden, welche Spalten in der Tabelle angezeigt werden.
+Sie können so individuell die relevanten Informationen zusammenstellen.
+
+![autorenbereich_spalten_auswaehlen_v1_de.png](assets/autorenbereich_spalten_auswaehlen_v1_de.png){ class="shadow lightbox" }
+
+**Beispiel:**<br>
+In der Spalte "Ref" ist angezeigt, ob bzw. wie oft eine Lernressource in OpenOlat Kursen
+referenziert wurde. Klicken Sie auf diese Zahl, werden Ihnen die Kurse namentlich angezeigt. Sie können dann direkt zum gewünschten Kurs springen.
+
+![autorenbereich_spalten_auswaehlen2_v1_de.png](assets/autorenbereich_spalten_auswaehlen2_v1_de.png){ class="shadow lightbox" }
+
+### 10. Tabelle downloaden
+Sie können die gesamte Tabelle in dem aktuell angezeigten Zustand herunterladen.
+
+### 11. Spalten sortieren
+Durch Klick auf einen Spaltentitel werden alle Einträge der Tabelle alphabetisch, nach Datum, usw. sortiert.
+
+**Beispiel:** Klick auf Spaltentitel "Titel der Lernressource" sortiert die Tabelle alphabetisch nach dem Titel. Bei nochmaligem Klick umgekehrt alphabetisch.
