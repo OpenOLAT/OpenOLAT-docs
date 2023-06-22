@@ -22,7 +22,6 @@ Funktionalitäten:
   * Gruppenräume, Gruppenchat
   * Privater Chat 
   * Gemeinsame Notizen
-
   
 ### Systemvoraussetzungen
 
@@ -32,7 +31,6 @@ Chrome** oder **Mozilla Firefox** empfohlen. Unter Windows kann die neue
 Version von **Edge** **mit Chromium Engine** ebenfalls verwendet werden. Für
 das Teilen des eigenen Bildschirms empfiehlt sich die Verwendung von **Google
 Chrome**.  
-  
   
 ## Konfiguration im Kurseditor
 
@@ -116,7 +114,6 @@ Kursbesitzer und Kursbetreuer können bereits im Vorfeld ihre Präsentation(en) 
 
 ![BBB_präsentation.png](assets/BBB_praesentation.png)
 
- 
 #### Aufzeichnungen
 
 Die Aufzeichnungen eines Meetings findet man ebenfalls im Tab **"Online-Termine"**. Automatisch
@@ -126,12 +123,8 @@ bereitgestellte Meetings sind hier direkt wählbar. Erfolgt die Bereitstellung m
 
     Die vorgenommenen Einstellungen unter "publizieren" als auch unter "löschen" gelten grundsätzlich sowohl für die Aufzeichnung als auch den Download! Löscht man also einen Eintrag wird die gesamte Aufzeichnung gelöscht.
 
-  
-
 ![BBB_manuall_publizieren.png](assets/bbb_manuell_publizieren.png)  
 
-
-  
 ## Kalender Anzeige
 
 Sofern es einen Kalender im Kurs gibt, erscheinen die BigBlueButton Termine ebenfalls im Kalender.
@@ -147,7 +140,6 @@ in den kursspezifischen Kalender eingetragen. Von hier aus gelangen alle
 Kursmitglieder rasch in den entsprechend verlinkten BigBlueButton Raum.
 
 ![kalender.png](assets/image2020-4-7_14-14-5.png)  
-  
   
 ## Teilnehmerperspektive
 
@@ -176,8 +168,7 @@ werden. Sofern die User ein Profilbild hinterlegt haben, wird dieses auch in
 der Personenliste angezeigt.
 
 Je nach Raumeinstellung stehen unterschiedliche Möglichkeiten im Raum zur
-Verfügung.  
-  
+Verfügung.
 
 ## BigBlueButton für Gäste 
 
@@ -188,6 +179,3 @@ Der Gastlink erscheint dann ebenfalls für Kursbesitzer und Betreuer bevor sie d
 Zusätzlich kann während der Konfiguration des Raums ein Passwort für Gäste generiert werden.
 
 ![BBB_externe.png](assets/bbb_externe2.png)
-
-
-  
