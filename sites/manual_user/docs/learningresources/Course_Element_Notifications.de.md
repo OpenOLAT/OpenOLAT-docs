@@ -6,38 +6,33 @@
 
 Der Kursbaustein bietet die Möglichkeit, Mitteilungen in der Kursstruktur
 einzubetten. Diese Mitteilungen sind sowohl im Kurs als auch bei den
-Benachrichtigungen der einzelnen Benutzer sichtbar. Bei der Mitteilung kann es
+Benachrichtigungen der einzelnen Benutzer (Persönliche Werkzeuge -> Abonnements) sichtbar. Bei der Mitteilung kann es
 sich sowohl um einen kurzen Infotext handeln, als auch um umfangreiche Infos,
-die per Datei-Anhang (max. 5 MB) beigefügt werden. Während der Erstellung
+die per Datei-Anhang (max. 5 MB) beigefügt werden. 
+
+Während der Erstellung
 einer Mitteilung kann definiert werden, ob die Mitteilung zusätzlich per Mail
 an bestimmte Nutzergruppen des Kurses (Abonnierte, Kursbesitzer, Betreuer,
-Mitglieder oder Gruppen) erfolgen soll.
+Mitglieder oder Gruppen) erfolgen soll und ob die jeweilige Mitteilung sofort oder zu einem späteren Zeitpunkt versendet wird.
 
- **Anzeige:** Die maximale Anzahl Tage legt fest, wie lange (in Tagen) die
-Mitteilungen im Kurs angezeigt werden. Die maximale Anzahl Mitteilungen legt
-fest, wie viele Mitteilungen gleichzeitig im Kurs angezeigt werden.
+## Konfiguration im Kurseditor Tab "Mitteilungs-Konfiguration"
 
- **Automatisch abonnieren:** Standardmässig wird der Kursbaustein automatisch
-von Kursbesuchern abonniert. Diese Option können Sie hier ausschalten, so dass
-Kursbesucher Mitteilungen manuell abonnieren können.
+ **Anzeige:** 
+ Hier wird definiert wie lange eine Mitteilung angezeigt wird und wie viele Mitteilungen maximal angezeigt werden. 
+
+ **Automatisch abonnieren:** 
+ Ist der Haken gesetzt werden Mitteilungen automatisch für die Teilnehmenden aktiviert (Standardeinstellung).  
 
 :octicons-device-camera-video-24: **Video-Einführung**: [Abonnements](<https://www.youtube.com/embed/h9gOqt7TR7Q>){:target="_blank”}
 
-Mitteilungen können im persönlichen Menü unter "Abonnements" eingesehen
-werden. Die Anzahl angezeigter Mitteilungen kann im Kurseditor eingestellt
-werden.
+Im Bereich "Berechtigungen" kann definiert werden welche Kursrollen Mitteilungen verfassen und verwalten dürfen. Kursbesitzer können grundsätzlich Mitteilungen verfassen und verwalten. 
 
-Standardmässig dürfen nur Betreuer und Besitzer Mitteilungen erstellen. Alle
-Kursteilnehmer dürfen jedoch Mitteilungen lesen. Im Tab „Mitteilungs-
-Konfiguration“ können Sie diese Einstellung Ihren Wünschen entsprechend
-anpassen.
+!!! info "Hinweis"
 
-Die Anzahl der Zeichen für die Mitteilung ist auf 32.000 Zeichen begrenzt. Sie
-erhalten eine entsprechende Information über die bereits verbrauchte
-Zeichenzahl rechts unten im Mitteilungseditor. Wird die erlaubte Zeichenzahl
-überschritten, erfolgt ein entsprechender Hinweis. Achtung: Die Anzahl der
-angegebenen tatsächlichen Zeichen weicht von der Anzahl der sichtbaren Zeichen
-ab, da für die tatsächliche Anzahl der HTML Code verwendet wird.
+    Die Anzahl der Zeichen für die Mitteilung ist auf 32.000 Zeichen begrenzt. Sie
+    erhalten eine entsprechende Information über die bereits verbrauchte
+    Zeichenzahl rechts unten im Mitteilungseditor. Wird die erlaubte Zeichenzahl überschritten, erfolgt ein entsprechender Hinweis. Achtung: Die Anzahl der angegebenen tatsächlichen Zeichen weicht von der Anzahl der sichtbaren Zeichen
+    ab, da für die tatsächliche Anzahl der HTML-Code verwendet wird.
 
 !!! tip "Tipp"
 
