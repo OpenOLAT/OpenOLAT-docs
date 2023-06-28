@@ -4,7 +4,8 @@ search:
 ---
 # OpenOlat user manual archive
 
-- [OpenOlat 17.2 Benutzerhandbuch](../manual_user/general/) | [Release notes 17.2](release_notes/Release_notes_17.2.md)
+- [OpenOlat 18.0 Benutzerhandbuch](../manual_user/general/) | [Release notes 18.0](release_notes/Release_notes_18.0.md)
+- [OpenOlat 17.2 Benutzerhandbuch](../../archive_mkdocs/17.2/manual_user/general/) | [Release notes 17.2](release_notes/Release_notes_17.2.md)
 - [OpenOlat 17.1 Benutzerhandbuch](../../archive_mkdocs/17.1/manual_user/general/) | [Release notes 17.1](release_notes/Release_notes_17.1.md)
 - [OpenOlat 17.0 Benutzerhandbuch](../../archive_mkdocs/17.0/manual_user/general/) | [Release notes 17.0](release_notes/Release_notes_17.0.md)
 - [OpenOlat 16.2 Benutzerhandbuch](../../archive_mkdocs/16.2/manual_user/general/) | [Release notes 16.2](release_notes/Release_notes_16.2.md)
