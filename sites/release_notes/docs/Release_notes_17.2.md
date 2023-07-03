@@ -8,17 +8,17 @@
 
 * * *
 
-:material-calendar-month-outline: **Release date: 02/24/2023 • Last update: 04/26/2023**
+:material-calendar-month-outline: **Release date: 02/24/2023 • Last update: 06/28/2023**
 
 * * *
 
 With OpenOlat 17.2 we release our next major release.
 
-Using the new **course element “Video task "**, participants practice identifying real-life situations and can put this to the test in test mode. The newly designed **Video editor with timeline** supports authors in editing video learning resources (e.g. for preparing video tasks). The annotations, quizzes and more configured there can also be (de)activated in the **course element "Video "**. In the course element “Task", the targeted **assignment of coaches** to participants in course settings with multiple teachers ensures a better overview of one's own assessment assignments. The **course (element) reset** sets the foundation for the future recertification function. A revised subscription management as well as the addition of a **global status change notification for learning resources** help to keep track of everything. On the subject of **accessibility**, some adjustments have been made, as well as the configuration of the desired delimiter has been introduced for **gender-sensitive language** in the menus. In addition to a **confirmation mail after test completion** for participants and additional recipients as well as new **bulk actions** in the authoring area, the release brings further improvements covering **reminders** and the **certificate function**. The **OAI-PMH** standard is now supported, which can be used, for example, to forward metadata from learning resources to search engine providers for indexing (**SEO**). Numerous **UX/Usability** optimizations and various **technical updates** complete this release.
+Using the new **course element “Video task"**, participants practice identifying real-life situations and can put this to the test in test mode. The newly designed **Video editor with timeline** supports authors in editing video learning resources (e.g. for preparing video tasks). The annotations, quizzes and more configured there can also be (de)activated in the **course element "Video"**. In the course element “Task", the targeted **assignment of coaches** to participants in course settings with multiple teachers ensures a better overview of one's own assessment assignments. The **course (element) reset** sets the foundation for the future recertification function. A revised subscription management as well as the addition of a **global status change notification for learning resources** help to keep track of everything. On the subject of **accessibility**, some adjustments have been made, as well as the configuration of the desired delimiter has been introduced for **gender-sensitive language** in the menus. In addition to a **confirmation mail after test completion** for participants and additional recipients as well as new **bulk actions** in the authoring area, the release brings further improvements covering **reminders** and the **certificate function**. The **OAI-PMH** standard is now supported, which can be used, for example, to forward metadata from learning resources to search engine providers for indexing (**SEO**). Numerous **UX/Usability** optimizations and various **technical updates** complete this release.
 
 ![Features Bugs](assets/172/Features_Improvements_Labels_17.2_EN.png)
 
-Since release 17.1, over 80 new features and improvements have been added to OpenOlat. Here you can find the most important new features and changes. In addition, more than 115 bugs have been fixed. The complete list of changes in 17.1 - 17.1.8 can be found [here](Release_notes_17.1.md){:target="_blank”}.
+Since release 17.1, over 80 new features and improvements have been added to OpenOlat. Here you can find the most important new features and changes. In addition, more than 115 bugs have been fixed. The complete list of changes in 17.1 - 17.1.10 can be found [here](Release_notes_17.1.md){:target="_blank”}.
 
 * * *
 
@@ -319,6 +319,10 @@ Further additions are being made on an ongoing basis.
 
 ## More information
 
+* [Jira Release Notes 17.2.11](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=21001){:target="_blank”}
+* [Jira Release Notes 17.2.10](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=20900){:target="_blank”}
+* [Jira Release Notes 17.2.9](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=20800){:target="_blank”}
+* [Jira Release Notes 17.2.8](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=20702){:target="_blank”}
 * [Jira Release Notes 17.2.7](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=20701){:target="_blank”}
 * [Jira Release Notes 17.2.6](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=20700){:target="_blank”}
 * [Jira Release Notes 17.2.5](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=20600){:target="_blank”}
