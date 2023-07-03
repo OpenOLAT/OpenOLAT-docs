@@ -21,7 +21,7 @@ Im Filter-Tab "**Meine Kurse**" finden Sie alle Kurse, die Sie erstellt
 haben oder bei denen Sie als Besitzer (Co-Autor) eingetragen sind. "Meine Kurse" ist eine Teilmenge von "Meine Einträge". 
 
 ### 3. Meine Einträge 
-Im Filter-Tab „**Meine Einträge**“ finden Sie alle Lernressourcen, die Sie erstellt haben oder bei denen Sie als Besitzer (Co-Autor) eingetragen sind. Das sind neben den Kursen auch Test-Lernressourcen, Formulare, usw. 
+Im Filter-Tab „**Meine Einträge**“ finden Sie alle Lernressourcen, die Sie erstellt haben oder bei denen Sie als Besitzer:in (Co-Autor:in) eingetragen sind. Das sind neben den Kursen auch Test-Lernressourcen, Formulare, usw. 
 
 ### 4. Suchmaske 
 Im Filter-Tab "**Suchmaske**" können Sie nach bestimmten Lernressourcen
@@ -42,7 +42,7 @@ In der zweiten Zeile sind bereits mehrere **Buttons** mit Filteroptionen angezei
 ### 8. Suchfeld 
 Im **Suchfeld** können Sie direkt nach dem Titel suchen. Auch Teile des Titels liefern bereits ein Suchergebnis.
 
-Weitere Details zum Umgang mit den Filteroptionen erfahren Sie
+Weitere Details zum Umgang mit den Filteroptionen erfahren Sie im Abschnitt zum 
 [Filtermenü](../basic_concepts/Table_Concept.de.md).
 
 !!! hint "Tipp"
@@ -70,3 +70,4 @@ Sie können die gesamte Tabelle in dem aktuell angezeigten Zustand herunterladen
 Durch Klick auf einen Spaltentitel werden alle Einträge der Tabelle alphabetisch, nach Datum, usw. sortiert.
 
 **Beispiel:** Klick auf Spaltentitel "Titel der Lernressource" sortiert die Tabelle alphabetisch nach dem Titel. Bei nochmaligem Klick umgekehrt alphabetisch.
+
