@@ -395,11 +395,11 @@ Beantwortung von Quizfragen oder der Aufruf von Verlinkungen möglich.
 
 ![](assets/vitero.png)
 
-Mit den Kursbausteinen [Adobe Connect](../learningresources/Course_element_Adobe_Connect.de.md),
-[GoToMeeting](../learningresources/Course_element_GoToMeeting.de.md),
-[Vitero](../learningresources/Course_element_vitero.de.md) [BigBlueButton
-](../learningresources/Course_element_BigBlueButton.de.md)und
-[OpenMeetings](../learningresources/Course_element_OpenMeetings.de.md) können in OpenOlat
+Mit den Kursbausteinen [Adobe Connect](../learningresources/Course_Element_Adobe_Connect.de.md),
+[GoToMeeting](../learningresources/Course_Element_GoToMeeting.de.md),
+[Vitero](../learningresources/Course_Element_vitero.de.md) [BigBlueButton
+](../learningresources/Course_Element_BigBlueButton.de.md)und
+[OpenMeetings](../learningresources/Course_Element_OpenMeetings.de.md) können in OpenOlat
 unterschiedliche [Virtuelle Klassenzimmer](../course_elements/Virtual_classrooms.de.md) für
 synchrone Meetings, Video-Konferenzen oder Webinare zum Einsatz kommen.
 Welcher Kursbaustein eingebunden wird, und welche Funktionalitäten damit zur

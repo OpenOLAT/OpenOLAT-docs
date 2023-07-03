@@ -48,7 +48,7 @@ Similar to the Microsoft Teams course element, rooms for synchronous meetings ca
 
 ## BigBlueButton online meetings
 
-Similar to the [course element BigBlueButton](../learningresources/Course_element_BigBlueButton.md), rooms for synchronous meetings can be created here.
+Similar to the [course element BigBlueButton](../learningresources/Course_Element_BigBlueButton.md), rooms for synchronous meetings can be created here.
 
 ## Blog
 

@@ -49,7 +49,7 @@ Hier kann der Kursbesitzer konfigurieren an wen die Lernenden über diesen Link 
 
 ## BigBlueButton Online-Termine
 
-Ähnlich wie im [Kursbaustein BigBlueButton](../learningresources/Course_element_BigBlueButton.de.md) können hier Räume für synchrone Meetings angelegt werden.
+Ähnlich wie im [Kursbaustein BigBlueButton](../learningresources/Course_Element_BigBlueButton.de.md) können hier Räume für synchrone Meetings angelegt werden.
 
 ## Blog
 

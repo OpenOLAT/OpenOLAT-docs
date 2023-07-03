@@ -365,10 +365,10 @@ as answering quiz questions or calling up links.
 
 ![](assets/virtual_class.png)
 
-With the course elements [Adobe Connect](../learningresources/Course_element_Adobe_Connect.md),
-[GoToMeeting](../learningresources/Course_element_GoToMeeting.md),
-[Vitero](../learningresources/Course_element_vitero.md) BigBllueButton and
-[OpenMeetings](../learningresources/Course_element_OpenMeetings.md), different [virtual
+With the course elements [Adobe Connect](../learningresources/Course_Element_Adobe_Connect.md),
+[GoToMeeting](../learningresources/Course_Element_GoToMeeting.md),
+[Vitero](../learningresources/Course_Element_vitero.md) BigBllueButton and
+[OpenMeetings](../learningresources/Course_Element_OpenMeetings.md), different [virtual
 classrooms](../course_elements/Virtual_classrooms.md) can be used in OpenOlat for synchronous
 meetings, video conferences or webinars. Which course element will be
 integrated and which functionalities will be available depends on which

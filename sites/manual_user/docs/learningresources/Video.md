@@ -1,7 +1,7 @@
 # Creating Videos
 
   * [Learning resource: Video](Learning_resource_Video.md)
-  * [Course Element: Video](Course_element_Video.md)
+  * [Course Element: Video](Course_Element_Video.md)
   * [Single Page: Add / edit video](Single_Page_Add_edit_video.md)
   * [Video Upload](Video_Upload.md)
 
