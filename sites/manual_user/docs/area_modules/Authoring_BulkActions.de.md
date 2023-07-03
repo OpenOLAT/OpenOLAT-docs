@@ -1,6 +1,6 @@
 ![bereiche_autorenbereich_v1_de.png](assets/bereiche_autorenbereich_v1_de.png){ class="shadow lightbox" }
 
-#  Autorenbereich - Aktionen
+#  Autorenbereich - Sammelaktionen
 
 Sobald in der 1. Spalte der Tabelle eine Lernressource ausgewählt wurde, erscheinen über der Tabelle zusätzliche Buttons (1-6). Mit ihnen lassen sich Aktionen für die ausgewählten Ressourcen durchführen, also für mehrere Lernressourcen gemeinsam (Bulk Actions).<br>
 Diese Buttons sind nicht sichtbar, wenn nicht mindestens 1 Lernressource selektiert ist.
@@ -108,7 +108,7 @@ Hiermit exportieren Sie Ihre Lernressourcen als ZIP-Datei. Z.B. als Backup oder 
 ### 13. Freigabe externer OER-Katalog
 
 Wenn ein Kurs bzw. eine Lernressource durch Suchmaschinen gefunden werden soll, können Sie diese Option aufrufen.<br>
-Eine ausführliche Anleitung zum Thema finden Sie hier [„hier"](../../manual_how-to/oai_pmh/oai_pmh.de.md).
+Eine ausführliche Anleitung zum Thema finden Sie [„hier"](../../manual_how-to/oai_pmh/oai_pmh.de.md).
 
 ### 14. In Lernpfad-Kurs konvertieren
 
