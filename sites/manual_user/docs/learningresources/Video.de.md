@@ -1,7 +1,7 @@
 # Video erstellen
 
 * [Lernressource: Video](Learning_resource_Video.de.md)
-* [Kursbaustein "Video" einrichten](Course_element_Video.de.md)
+* [Kursbaustein "Video" einrichten](Course_Element_Video.de.md)
 * [Einzelne Seite: Video hinzufügen / editieren](Single_Page_Add_edit_video.de.md)
 * [Video hochladen](Video_Upload.de.md)
 
