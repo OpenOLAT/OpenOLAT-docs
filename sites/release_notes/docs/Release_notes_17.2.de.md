@@ -8,7 +8,7 @@
 
 * * *
 
-:material-calendar-month-outline: **Releasedatum: 10.02.2023 • Letztes Update: 26.04.2023**
+:material-calendar-month-outline: **Releasedatum: 10.02.2023 • Letztes Update: 28.06.2023**
 
 * * *
 
@@ -18,7 +18,7 @@ Mithilfe des neuen **Kursbausteins "Videoaufgabe"** üben Teilnehmende, Situatio
 
 ![Anzahl Features und Bugs in Release 17.2](assets/172/Features_Improvements_Labels_17.2_DE.png)
 
-Seit Release 17.1 wurden über 80 neue Funktionen und Verbesserungen zu OpenOlat hinzugefügt. Hier finden Sie die wichtigsten Neuerungen zusammengefasst. Zusätzlich wurden mehr als 115 Bugs behoben. Die komplette Liste der Änderungen in 17.1 – 17.1.8 finden Sie [hier](Release_notes_17.1.de.md){:target="_blank”}.
+Seit Release 17.1 wurden über 80 neue Funktionen und Verbesserungen zu OpenOlat hinzugefügt. Hier finden Sie die wichtigsten Neuerungen zusammengefasst. Zusätzlich wurden mehr als 115 Bugs behoben. Die komplette Liste der Änderungen in 17.1 – 17.1.10 finden Sie [hier](Release_notes_17.1.de.md){:target="_blank”}.
 
 * * *
 
@@ -318,6 +318,10 @@ Es werden laufend weitere Ergänzungen vorgenommen.
 
 ## Weitere Informationen
 
+* [Jira Release Notes 17.2.11](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=21001){:target="_blank”}
+* [Jira Release Notes 17.2.10](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=20900){:target="_blank”}
+* [Jira Release Notes 17.2.9](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=20800){:target="_blank”}
+* [Jira Release Notes 17.2.8](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=20702){:target="_blank”}
 * [Jira Release Notes 17.2.7](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=20701){:target="_blank”}
 * [Jira Release Notes 17.2.6](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=20700){:target="_blank”}
 * [Jira Release Notes 17.2.5](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=20600){:target="_blank”}
