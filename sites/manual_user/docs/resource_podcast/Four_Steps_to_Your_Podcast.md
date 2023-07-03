@@ -11,7 +11,7 @@ appropriate recording software (e.g.
 saving it in MP3, MP4, M4V, M4A or AAC.
 
 In case you have not created a course yet you will get further information in
-the chapter ["Creating Courses"](../course_create/index.md) on how to proceed
+the chapter ["Creating Courses"](../learningresources/Creating_Course.md) on how to proceed
 before generating a podcast by means of the following instruction.
 
 ##  Create Podcast

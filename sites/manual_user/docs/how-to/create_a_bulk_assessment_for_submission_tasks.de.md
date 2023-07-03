@@ -13,7 +13,7 @@ diese mit Werten zu füllen.
 ![Table-result](assets/bulk_assessment-excel-DE.png)
 
 Massenbewertungen können für die [Assessment
-Kursbausteine](../course_elements/Assessment.de.md) Aufgabe, Gruppenaufgabe und Bewertung vorgenommen werden. 
+Kursbausteine](../learningresources/Assessment.de.md) Aufgabe, Gruppenaufgabe und Bewertung vorgenommen werden. 
 
 ## Erstellung einer Massenbewertung für die Kursbausteine Aufgabe oder Bewertung {: #node}
 

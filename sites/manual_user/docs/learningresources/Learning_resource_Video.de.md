@@ -85,7 +85,7 @@ Punktevergabe definiert. Im Tab "**Feedback**" können Feedbacks basierend auf u
 
 !!! note ""
 
-    Weitere Informationen zu den generellen Einstellungen von Quiz und Tests finden Sie im Kapitel "[Testfragen konfigurieren](../tests/Configure_test_questions.de.md)". Weitere Informationen zu den unterschiedlichen Fragetypen im Kapitel "[Test Fragetypen](../tests/Test_question_types.de.md)".
+    Weitere Informationen zu den generellen Einstellungen von Quiz und Tests finden Sie im Kapitel "[Testfragen konfigurieren](../learningresources/Configure_test_questions.de.md)". Weitere Informationen zu den unterschiedlichen Fragetypen im Kapitel "[Test Fragetypen](../learningresources/Test_question_types.de.md)".
 
 
 ## Videokonfiguration in den "Einstellungen" der Lernressource
@@ -93,7 +93,7 @@ Punktevergabe definiert. Im Tab "**Feedback**" können Feedbacks basierend auf u
 Weitere Konfigurationen können in den "Einstellungen" im Bereich Administration vorgenommen werden.
 
 Die Tabs "Info", "Freigabe" und "Katalog" sind analog zu anderen Lernressourcen. Generelle Informationen zum Menü "Einstellungen"
-finden Sie [hier](../course_create/Course_Settings.de.md).
+finden Sie [hier](../learningresources/Course_Settings.de.md).
 
 ### Metadaten
 

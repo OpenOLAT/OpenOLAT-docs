@@ -19,11 +19,11 @@ von Ihrem Rechner zu OpenOlat-Ordnern.
 Struktur, sobald die Elemente über OpenOlat angelegt wurden, automatisch
 erstellt:
 
-  * [Persönlicher Ordner](../personal/Personal_folders.de.md) (jeder)
+  * [Persönlicher Ordner](../personal_menu/Personal_folders.de.md) (jeder)
   * Ordner von Gruppen
-  * [Ablageordner von Kursen](../course_operation/Using_Course_Tools.de.md#EinsatzderKurswerkzeuge-_ablageordner) (nur Kursbesitzer)
+  * [Ablageordner von Kursen](../learningresources/Using_Course_Tools.de.md#EinsatzderKurswerkzeuge-_ablageordner) (nur Kursbesitzer)
   * Kursbaustein Ordner
-  * [Ressourcenordner](../course_create/Course_Settings.de.md#Kurseinstellungen-_detail_ressourcen) (nur Lernressourcenbesitzer)
+  * [Ressourcenordner](../learningresources/Course_Settings.de.md#Kurseinstellungen-_detail_ressourcen) (nur Lernressourcenbesitzer)
 
 Wer in den jeweiligen Ordnern Dateien per WebDAV hochladen darf ist abhängig
 von der jeweiligen Konfiguration.

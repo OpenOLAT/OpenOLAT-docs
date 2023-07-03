@@ -8,7 +8,7 @@ Learning path courses can be configured to be followed sequentially or in any or
 
 ![Basic setting learning path](assets/learning_path_structure.png)
 
-If certain areas of the course are to be given a different setting, this can be done by adding and configuring the course element "Structure". The selected setting will then apply to all course elements subordinate to this [course element "Structure"](../course_elements/Course_Element_Structure.md). For example, a course can be configured as sequential by default, but a certain area in the course can be permanently accessed in any order.
+If certain areas of the course are to be given a different setting, this can be done by adding and configuring the course element "Structure". The selected setting will then apply to all course elements subordinate to this [course element "Structure"](../learningresources/Course_Element_Structure.md). For example, a course can be configured as sequential by default, but a certain area in the course can be permanently accessed in any order.
 
 ## Tab "Learning path"
 
@@ -23,7 +23,7 @@ Learning paths, unlike conventional courses, do not have the tabs "Visibility" a
   *  **Due date:** If a course element is mandatory you can also enter a date by which the element must be completed.
   *  **Learning time (minutes):** Here you can enter how long the creator estimates the processing time for a given element. It does not depend on how much time the user really needs for that element.
 
-These settings are available for almost all course elements. An exception is the [course element "Structure"](../course_elements/Course_Element_Structure.md) that is meant for bundling course elements. In the structure element you can only define a sequence of learning steps that applies to all subordinate course elements, either sequentially or in specific order.
+These settings are available for almost all course elements. An exception is the [course element "Structure"](../learningresources/Course_Element_Structure.md) that is meant for bundling course elements. In the structure element you can only define a sequence of learning steps that applies to all subordinate course elements, either sequentially or in specific order.
 
 ### Exceptions
 
@@ -55,7 +55,7 @@ c) The course element is basically mandatory. For those who have passed a certai
 
 ### Learning time
 
-The learning time is particularly relevant if the learning progress is determined on the basis of the learning time in the course settings for the execution (see [Create learning path courses](../course_create/Creating_learning_path_courses.md)). In this case, all time entries of the individual course elements are summed up and the total sum is taken as the basis for 100%.
+The learning time is particularly relevant if the learning progress is determined on the basis of the learning time in the course settings for the execution (see [Create learning path courses](../learningresources/Creating_learning_path_courses.md)). In this case, all time entries of the individual course elements are summed up and the total sum is taken as the basis for 100%.
 
 If a time has been entered for a course element, this learning time will also be displayed to the participants as long as they have not yet completed the course element. If a course element is bundled with a structure element, the total learning time of the subordinate course elements will be displayed to the participants. The prerequisite is that the display of the title is activated in the tab "Layout" of the structure element. By displaying the learning time learners can quickly get an overview of the time spent on a section or chapter of the course.
 

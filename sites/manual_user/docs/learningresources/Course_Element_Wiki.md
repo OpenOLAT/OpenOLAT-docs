@@ -9,7 +9,7 @@ If you have already added a Wiki its name will appear in the field. In order to 
 
 In the tab "Wiki learning content" you configure the user permissions of the Wiki. Here you can set that not only owners but also maintainers and participants may edit Wiki articles. By default all course participants have read and write permission in a Wiki. Only that OpenOlat user who has created the page or OpenOlat users who are registered as owners in a wiki will be allowed to delete wiki pages.
 
-In the chapter "Learning Activities in Courses" section ["Wiki"](../learning_activities/Working_with_Wiki.md), you will find more information on how to adapt the Wiki syntax, how to create new pages, and how to view different versions of a Wiki page.
+In the chapter "Learning Activities in Courses" section ["Wiki"](../learningresources/Working_with_Wiki.md), you will find more information on how to adapt the Wiki syntax, how to create new pages, and how to view different versions of a Wiki page.
 
 !!! warning "Attention"
 

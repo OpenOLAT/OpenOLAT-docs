@@ -10,7 +10,7 @@ Auswahlliste definieren. Sollten Sie noch keine Gruppen erstellt haben oder
 weitere benötigen, so können Sie dies mit einem Klick auf „Auswählen“ und
 „Erstellen“ direkt im Tab „Konfiguration“ tun. Bestehende und neu erstellte
 Gruppen können in der [Mitgliederverwaltung
-](../course_operation/Members_management.de.md)bearbeitet werden.
+](../learningresources/Members_management.de.md)bearbeitet werden.
 
 Mittels "**Mehrere Eintragungen erlauben**" legen Sie optional fest, ob
 Kursteilnehmer sich in mehrere Gruppen eintragen dürfen, und falls ja, in wie

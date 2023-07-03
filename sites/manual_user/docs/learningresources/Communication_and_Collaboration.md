@@ -1,5 +1,5 @@
 # Communication and Collaboration
-Get more info on [Virtual classrooms](Virtual_classrooms.md)
+Get more info on [Virtual classrooms](../course_elements/Virtual_classrooms.md)
 
 ## Course Element: Wiki {: #wiki}
 ![Wiki icon](../assets/wiki_icon.png)
@@ -12,7 +12,7 @@ If you have already added a Wiki its name will appear in the field. In order to 
 
 In the tab "Wiki learning content" you configure the user permissions of the Wiki. Here you can set that not only owners but also maintainers and participants may edit Wiki articles. By default all course participants have read and write permission in a Wiki. Only that OpenOlat user who has created the page or OpenOlat users who are registered as owners in a wiki will be allowed to delete wiki pages.
 
-In the chapter "Learning Activities in Courses" section ["Wiki"](../learning_activities/Working_with_Wiki.md), you will find more information on how to adapt the Wiki syntax, how to create new pages, and how to view different versions of a Wiki page.
+In the chapter "Learning Activities in Courses" section ["Wiki"](../learningresources/Working_with_Wiki.md), you will find more information on how to adapt the Wiki syntax, how to create new pages, and how to view different versions of a Wiki page.
 
 !!! warning "Attention"
 
@@ -21,7 +21,7 @@ In the chapter "Learning Activities in Courses" section ["Wiki"](../learning_act
 ##  Course Element: Forum {: #forum}
 ![Forum icon](../assets/forum_icon.png)
 
-With the course element "Forum" you can easily enable asynchronous online discussions for different purposes in your course. For example, course participants could write posts with questions about the content of the course and answer each other's questions, or you could initiate a technical discussion or implement specific forum-based online methods. In the chapter "Learning Activities in Courses" you will get further information on opening topics and replying to questions; see section ["Forum"](../learning_activities/Working_with_Forums.md). Generally all course participants have read and write permission in a forum. All course authors and tutors dispose of the option to moderate a forum additionally.
+With the course element "Forum" you can easily enable asynchronous online discussions for different purposes in your course. For example, course participants could write posts with questions about the content of the course and answer each other's questions, or you could initiate a technical discussion or implement specific forum-based online methods. In the chapter "Learning Activities in Courses" you will get further information on opening topics and replying to questions; see section ["Forum"](../learningresources/Working_with_Forums.md). Generally all course participants have read and write permission in a forum. All course authors and tutors dispose of the option to moderate a forum additionally.
 
 A course author can also use the forum to notify course participants in the short term. Just configure your forum in the tab "Access" accordingly, i.e. that only course authors have write permission.
 
@@ -51,7 +51,7 @@ Persons with moderation rights can also move forum topics or individual posts. O
 
     Forum posts can also be moved to forums in which the creator of the post has no access.
 
-Besides the course element "Forum" there is also the possibility to display a central forum for the entire course in the [course toolbar](../course_operation/Using_Additional_Course_Features.md). Das bietet sich häufig an, wenn der Kurs nur ein Forum umfasst, das permanent zur Verfügung stehen soll. However, no further settings such as pseudonymization or assignment of moderation rights can be made here.
+Besides the course element "Forum" there is also the possibility to display a central forum for the entire course in the [course toolbar](../learningresources/Using_Additional_Course_Features.md). Das bietet sich häufig an, wenn der Kurs nur ein Forum umfasst, das permanent zur Verfügung stehen soll. However, no further settings such as pseudonymization or assignment of moderation rights can be made here.
   
 ##  Course Element: File Dialog {: #file_dialog}
 ![File dailog icon](../assets/file_dialog_icon.png)
@@ -118,7 +118,7 @@ In the Template Settings tab, subfolders can be created for both the submission 
 ##  Course Element: Participant list {: #participant_list}
 ![group.png](../assets/participant_list_icon.png)
 
-In the participant list, the members of the course can be made visible to everyone. Unlike the [member management](../course_operation/Members_management.md) course tool, which is only visible for course owners, the course element "Participant list" provides a list of all course members to those OpenOlat users allowed to open the respective course. Members are listed depending on their role within the course as either course administrator, coach or participant. Select the user groups to be displayed to course users.
+In the participant list, the members of the course can be made visible to everyone. Unlike the [member management](../learningresources/Members_management.md) course tool, which is only visible for course owners, the course element "Participant list" provides a list of all course members to those OpenOlat users allowed to open the respective course. Members are listed depending on their role within the course as either course administrator, coach or participant. Select the user groups to be displayed to course users.
 
 ![Configuration options for paricipant list](assets/participant_list_config.png){ class="shadow" }
 

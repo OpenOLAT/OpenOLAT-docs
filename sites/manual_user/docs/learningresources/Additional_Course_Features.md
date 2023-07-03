@@ -68,7 +68,7 @@ tools can also be called up via the toolbar:
   * Forum: Access to a central course forum
   * Documents: Access to a central documents folder
   * Glossary: Access to the glossary of the course
-  * [Course chat](../personal/Chat.de.md): For the synchronous exchange of course members
+  * [Course chat](../basic_concepts/Chat.de.md): For the synchronous exchange of course members
   * Course search: Search the course by keywords
 
   
@@ -87,10 +87,10 @@ Course Calendar
 
 The calendar opens in a new window. Only course authors are allowed to add
 events to the course calendar. Course calendars are automatically added to
-your [personal calendar](../personal/Personal_Menu.md#PersonalMenu-_pers_kalender). Just
+your [personal calendar](../personal_menu/Personal_Tools.md#PersonalMenu-_pers_kalender). Just
 select the course calendar from your personal calendar list. Information on
 the calendar list and further course functions can be found in the chapter
-[calendar](../personal/Calendar.md).
+[calendar](../personal_menu/Calendar.md).
 
 ###   Glossary {: #glossary}
 
@@ -103,7 +103,7 @@ The glossary can also be printed.
 
 You may also be able to edit glossary entries if this option has been
 activated by the teacher. Further information can be found
-[here](../course_operation/Using_Additional_Course_Features.md).
+[here](../learningresources/Using_Additional_Course_Features.md).
 
 ###   Course chat
 
@@ -112,7 +112,7 @@ chat room in the course toolbar; you can enter any time. Just click on "Course
 chat" in order to open the chat window. At first you will always be anonymous.
 On the right side of the chat window there is the possibility to choose your
 alias or put your username on display. General chat features will be further
-explained in the section ["Chat"](../personal/Chat.de.md).
+explained in the section ["Chat"](../basic_concepts/Chat.de.md).
 
   
 

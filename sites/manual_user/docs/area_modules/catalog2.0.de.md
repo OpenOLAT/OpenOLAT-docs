@@ -35,7 +35,7 @@ Man kann die Kursliste weiter durch Filter oder Suche verfeinern.
 Bei einer Suche kommt man auf diese Seite. Hier lassen sich durch verschiedene Filter die Suche verfeinern.
 
 **Filter**
-Die Filter der Suchergebnissseite lassen sich unter `Administration > Module > Katalog > Filter` einstellen. Hier kann gewählt werden, welche Filter für Teilnehmer verfügbar sein sollen. Weitere Informationen finden Sie im [Administrationshandbuch]("../../../../../manual_admin/administration/Modules_Catalog_2.0.de.md")
+Die Filter der Suchergebnissseite lassen sich unter `Administration > Module > Katalog > Filter` einstellen. Hier kann gewählt werden, welche Filter für Teilnehmer verfügbar sein sollen. Weitere Informationen finden Sie im [Administrationshandbuch]("../../../manual_admin/docs/administration/Modules_Catalog_2.0.de.md")
 
 ## Einrichten und Freigeben neuer Kurse für den Katalog 2.0
 

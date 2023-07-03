@@ -24,7 +24,7 @@ Im Folgenden werden die Menüs des Coaching Tools näher erläutert.
 
 ## Menü Lektionen
 
-Wird das [Absenzmanagement](../course_operation/Lectures_and_absences.de.md) von OpenOlat genutzt, erscheint im Coaching-Modul der Bereich „Lektionen“.
+Wird das [Absenzmanagement](../learningresources/Lectures_and_absences.de.md) von OpenOlat genutzt, erscheint im Coaching-Modul der Bereich „Lektionen“.
 
 ![Coachingtool Lektionen](assets/Coaching_start.png){ class="shadow lightbox" }
 
@@ -35,7 +35,7 @@ Im Cockpit kann ein bestimmter Termin ausgewählt und die zugehörigen Lektionen
 ### Tab Lektionen
 
 Hier kann ein Zeitfenster ausgewählt und nach Stichworten gesucht werden. Es wird eine Übersicht der Lektionenblöcke für diese Zeitspanne angezeigt. Weitere Informationen zum Thema „Lektionen“ finden Sie
-[hier](../course_operation/Lectures_-_Teacher_view.de.md).
+[hier](../learningresources/Lectures_Teacher_view.de.md).
 
 ### Tab Absenzen
 
@@ -130,7 +130,7 @@ Hier erhalten Sie einen Überblick über alle Ihre Korrektoren und deren Bewertu
 Über die entsprechende Spaltenauswahl kann man sich anzeigen lassen, wie viele Tests ein Korrektor insgesamt bewerten soll, wie viele er schon erledigt hat, wie viele offen sind und welche überfällig sind und welche Korrekturzeit vorgesehen ist. Ferner können auch weitere Korrektoren einem Test hinzugefügt oder bestehende Zuordnungen deaktiviert werden. 
 
 Ein Hinzufügen von Korrektoren ist ebenfalls direkt bei der jeweiligen
-[Test](../tests/Test_settings.de.md) Lernressource möglich.
+[Test](../learningresources/Test_settings.de.md) Lernressource möglich.
 
 ### Tab Korrekturaufträge
 

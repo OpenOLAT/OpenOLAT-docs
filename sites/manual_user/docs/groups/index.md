@@ -6,7 +6,7 @@
     * [Group Administration](Group_Administration.md)
     * [Using Group Tools](Using_Group_Tools.md)
     * [LTI Sharing](LTI_Share_groups.md)
-    * [Group Management](Group_Management.md)
+    * [Group Management](../area_modules/Group_Management.md)
 
 OpenOlat works with a comprehensive group system which allows to configure
 groups as desired in order to meet different requirements. OpenOlat users can

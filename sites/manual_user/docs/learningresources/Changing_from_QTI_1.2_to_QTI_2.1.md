@@ -21,7 +21,7 @@
 
 Beside tests also single questions can be converted. Questions are converted in the question bank.
 
-1. Open the [question bank](../question_bank/index.md)
+1. Open the [question bank](../area_modules/Question_Bank.md)
 2. Mark the questions (in the format IMS QTI 1.2) you want to convert
 3. Confirm with the button "Convert"
 

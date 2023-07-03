@@ -11,7 +11,7 @@ dafür vorgesehenen Aufnahmesoftware (z.B.
 speichern Sie sie in einem der angegebenen Formate: MP3, MP4, M4V, M4A oder
 AAC und achten Sie auf die angegebene Maximalgrösse.
 
-Wenn Sie noch keinen Kurs erstellt haben, steht im Kapitel [„Kurs erstellen"](../course_create/index.de.md), wie Sie vorgehen müssen, bevor Sie mit Hilfe
+Wenn Sie noch keinen Kurs erstellt haben, steht im Kapitel [„Kurs erstellen"](../learningresources/Creating_Course.de.md), wie Sie vorgehen müssen, bevor Sie mit Hilfe
 der folgenden Anleitung Ihren Podcast erstellen.
 
 ##  Podcast erstellen

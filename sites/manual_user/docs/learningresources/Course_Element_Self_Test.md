@@ -13,7 +13,7 @@ resources of the type "Test." If you have not generated a test before please
 follow the instructions in the chapter ["Four Steps to Your Test or Self-
 test"](../tests/Four_Steps_to_Your_Test_or_Self-test.md).
 
-For more information on tests, refer to the chapter "[Creating Tests](../tests/Configure_tests.md)". 
-The chapter "[Tests at course level](../tests/Tests_at_course_level.md)" is particularly relevant here.
+For more information on tests, refer to the chapter "[Creating Tests](../learningresources/Configure_tests.md)". 
+The chapter "[Tests at course level](../learningresources/Tests_at_course_level.md)" is particularly relevant here.
 
 Eine komplexere Alternative zum Selbsttest stellt der Kursbaustein Übung dar. 

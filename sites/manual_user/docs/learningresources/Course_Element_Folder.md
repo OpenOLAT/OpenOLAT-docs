@@ -30,7 +30,7 @@ folder from the course folder. This is especially useful if you have already
 uploaded the files you want to make available in a structured way in the
 course's folder. In the next step, select an existing folder in the storage
 folder and create a new subfolder in the storage folder. If configured in the
-[course settings](../course_create/Course_Settings.md), you can also access a linked resource
+[course settings](../learningresources/Course_Settings.md), you can also access a linked resource
 folder via the storage folder.
 
 You can then upload files to the previously defined location in the "Upload
@@ -60,7 +60,7 @@ the folder can ...
   * Create new subfolders within the course element. So a course element "Folder" can contain several subfolders. The use of several course element folders is only necessary if the folders are to be integrated at different places in the course structure or if the folders are connected with different selective releases.
 
 To facilitate the upload and download of multiple files, the files can be
-zipped or unzipped. In addition, the use of [WebDAV](../supported_tech/Using_WebDAV.md) is
+zipped or unzipped. In addition, the use of [WebDAV](../basic_concepts/Using_WebDAV.md) is
 recommended for uploading more extensive materials.
 
 Furthermore, all users can ...
@@ -71,7 +71,7 @@ Furthermore, all users can ...
 
 ###  Metadata  {: #metadata}
 
-The gear symbol can be used to configure the [metadata] (../personal/Full-Text_Search.md#metadata)of a file and thus add
+The gear symbol can be used to configure the [metadata] (../basic_concepts/Full_Text_Search.md#metadata)of a file and thus add
 various information. In addition to the description and lock properties, the
 license information is particularly relevant. You can use the license
 information to define a specific license for the document, for example, use

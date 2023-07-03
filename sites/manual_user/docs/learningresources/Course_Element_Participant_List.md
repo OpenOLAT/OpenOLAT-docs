@@ -1,7 +1,7 @@
 #  Course Element "Participant list" {: #participant_list}
 ![group.png](../assets/participant_list_icon.png)
 
-In the participant list, the members of the course can be made visible to everyone. Unlike the [member management](../course_operation/Members_management.md) course tool, which is only visible for course owners, the course element "Participant list" provides a list of all course members to those OpenOlat users allowed to open the respective course. Members are listed depending on their role within the course as either course administrator, coach or participant. Select the user groups to be displayed to course users.
+In the participant list, the members of the course can be made visible to everyone. Unlike the [member management](../learningresources/Members_management.md) course tool, which is only visible for course owners, the course element "Participant list" provides a list of all course members to those OpenOlat users allowed to open the respective course. Members are listed depending on their role within the course as either course administrator, coach or participant. Select the user groups to be displayed to course users.
 
 ![Configuration options for paricipant list](assets/participant_list_config.png){ class="shadow" }
 

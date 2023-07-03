@@ -7,7 +7,7 @@
 In diesem Kapitel erfahren Kursautoren im Detail, welche Kursbausteine im
 Kurseditor eines Kurses zur Verfügung stehen und wie sie konfiguriert werden.
 Folgen Sie zuerst den Anleitungen im Kapitel ["Kurs
-erstellen"](../course_create/index.de.md), wenn Sie noch keinen Kurs erstellt haben.
+erstellen"](../learningresources/Creating_Course.de.md), wenn Sie noch keinen Kurs erstellt haben.
 
 !!! info "Info"
 
@@ -264,7 +264,7 @@ hochladen dürfen, finden Sie in der Leiste über den Dateien, die
 entsprechenden Funktionen. Sie können dann auch Dateien löschen, Unterordner
 einrichten. Wenn Sie verhindern möchten, dass jemand Ihre Dateien löscht,
 können Sie in der Tabellenansicht auf das Icon
-„[Metadaten](../personal/Full-Text_Search.de.md#Volltextsuche-_metadata)“ klicken und die
+„[Metadaten](../basic_concepts/Full_Text_Search.de.md#Volltextsuche-_metadata)“ klicken und die
 Datei sperren. Gesperrte Dateien sind mit einem Schloss gekennzeichnet.
 
 ![](assets/KB_Ordner_schloss.png)
@@ -273,7 +273,7 @@ Datei sperren. Gesperrte Dateien sind mit einem Schloss gekennzeichnet.
 
 Achtung nicht verwechseln: Neben den Download Ordnern in Kursen stehen
 Lernenden auch [Persönliche
-Ordner](../personal/Personal_folders.de.md) zur
+Ordner](../personal_menu/Personal_folders.de.md) zur
 Verfügung, die kursunabhängig für das individuelle Lernen genutzt werden
 können. Ferner gibt es den Kursbaustein "Teilnehmer Ordner" (siehe unten).
 
@@ -331,13 +331,13 @@ vornehmen.
 
 Sobald Sie die Portfolioaufgabe im Kurs abgeholt haben, finden Sie diese auch
 in Ihrem [persönlichen
-Menü](../personal/Personal_Menu.de.md) unter
+Menü](../personal_menu/Personal_Tools.de.md) unter
 „Portfolio 2.0“ - „Meine Portfolio Mappen“.
 
 Um die fertige Bearbeitung einzureichen, publizieren Sie die Aufgaben und
-geben Sie den Bereich [frei](../portfolio/Shared_by_me.de.md). Weitere Informationen
+geben Sie den Bereich [frei](../area_modules/Shared_by_me.de.md). Weitere Informationen
 zur Bearbeitung einer Portfolioaufgabe finden Sie
-[hier](../portfolio/Portfolio_task_and_assignment_Collecting_and_editing.de.md).
+[hier](../learningresources/Portfolio_task_and_assignment_Collecting_and_editing.de.md).
 
 ### Terminplanung
 
@@ -395,11 +395,11 @@ Beantwortung von Quizfragen oder der Aufruf von Verlinkungen möglich.
 
 ![](assets/vitero.png)
 
-Mit den Kursbausteinen [Adobe Connect](../course_elements/Course_element_Adobe_Connect.de.md),
-[GoToMeeting](../course_elements/Course_element_GoToMeeting.de.md),
-[Vitero](../course_elements/Course_element_vitero.de.md) [BigBlueButton
-](../course_elements/Course_element_BigBlueButton.de.md)und
-[OpenMeetings](../course_elements/Course_element_OpenMeetings.de.md) können in OpenOlat
+Mit den Kursbausteinen [Adobe Connect](../learningresources/Course_element_Adobe_Connect.de.md),
+[GoToMeeting](../learningresources/Course_element_GoToMeeting.de.md),
+[Vitero](../learningresources/Course_element_vitero.de.md) [BigBlueButton
+](../learningresources/Course_element_BigBlueButton.de.md)und
+[OpenMeetings](../learningresources/Course_element_OpenMeetings.de.md) können in OpenOlat
 unterschiedliche [Virtuelle Klassenzimmer](../course_elements/Virtual_classrooms.de.md) für
 synchrone Meetings, Video-Konferenzen oder Webinare zum Einsatz kommen.
 Welcher Kursbaustein eingebunden wird, und welche Funktionalitäten damit zur
@@ -580,7 +580,7 @@ anzeigen lassen oder den Podcast abonnieren, die Episoden in Portale wie
 iTunes laden und auf ihre mobilen Endgeräte kopieren.
 
 Wie Sie einen Podcast [erstellen ](../resource_podcast/Four_Steps_to_Your_Podcast.de.md)und
-[konfigurieren ](../resource_podcast/Podcast_-_Further_Configurations.de.md)erfahren Sie in
+[konfigurieren ](../learningresources/Podcast_Further_Configurations.de.md)erfahren Sie in
 separaten Kapiteln.
 
 ### Kursbaustein "Blog" {: #blog}
@@ -597,7 +597,7 @@ Ferner ist es möglich, den Kursteilnehmenden das Schreibrecht für einen Blog
 zu geben, so dass sie gemeinsam einen Kursblog führen können.
 
 Wie Sie einen Blog [erstellen ](../resource_blog/Four_Steps_to_Your_Blog.de.md)und
-[konfigurieren ](../resource_blog/Blog_-_Further_Configurations.de.md)erfahren Sie auf
+[konfigurieren ](../learningresources/Blog_Further_Configurations.de.md)erfahren Sie auf
 separaten Seiten.
 
 ### Kursbaustein „Video“ {: #video}
@@ -611,10 +611,10 @@ Video kann mit einer Kommentierung und Bewertung versehen und so optimal in
 das Lehr-Lerngeschehen eines Kurses eingebunden werden.
 
 Weitere Informationen zum Kursbaustein Video finden Sie
-[hier](../resource_video/Course_Element_Video.de.md).
+[hier](../learningresources/Course_Element_Video.de.md).
 Informationen zur Nachbearbeitung des Videos mit OLAT Quiz und Sprungmarken
 finden Sie im Kapitel "[Lernressource:
-Video](../resource_video/Learning_resource_Video.de.md)".
+Video](../learningresources/Learning_resource_Video.de.md)".
 
 ###  Kursbaustein "Video Livestream"  {: #livestream}
 
@@ -674,11 +674,11 @@ existieren vertiefende, separate Seiten oder Kapitel hier im Handbuch.
 ![Wissensüberpfüfung Kursbausteine.png](assets/Wissensueberpruefung_172.png)
 
 OpenOlat stellt diverse Kursbausteine für die Wissensüberprüfung zur
-Verfügung. Die zentralen Kursbausteine hierfür sind die drei Kursbausteine die OpenOlat [Tests](../tests/Configure_tests.de.md) verwenden und die beiden
+Verfügung. Die zentralen Kursbausteine hierfür sind die drei Kursbausteine die OpenOlat [Tests](../learningresources/Configure_tests.de.md) verwenden und die beiden
 Kursbausteine für
 [Einsendeaufgaben](../task/index.de.md). Aber auch die
 anderen Bausteine wie
-[Portfolioaufgabe](../portfolio/Creating_Portfolio_Tasks.de.md),
+[Portfolioaufgabe](../learningresources/Creating_Portfolio_Tasks.de.md),
 [Bewertungen](Course_Element_Assessment.de.md) mit und ohne
 Bewertungsraster (Rubrik) oder die Checklisten bieten für bestimmte Szenarien
 viel Potenzial.
@@ -693,10 +693,10 @@ wird hierfür ein Kursbaustein
 Kursen.
 
 Ein weiterer Konfigurations-Tab der bei den meisten Kursbausteinen der Wissensüberprüfung zur Verfügung steht (bis auf Selbsttest und Umfrage) ist der Tab "Erinnerung". Hier können in Abhängigkeit von der Bearbeitung des jeweiligen Kursbausteins E-Mails verschickt werden. Zum Beispiel kann eine
-Mail verschickt werden, wenn zu einem bestimmten Datum eine Aufgabe oder ein Test noch nicht bearbeitet wurde. Die Möglichkeiten sind ähnlich wie im Menü ["Erinnerung"](../course_operation/Course_Reminders.de.md) in
+Mail verschickt werden, wenn zu einem bestimmten Datum eine Aufgabe oder ein Test noch nicht bearbeitet wurde. Die Möglichkeiten sind ähnlich wie im Menü ["Erinnerung"](../learningresources/Course_Reminders.de.md) in
 der Kurs-Administration. 
 
-In der Kategorie Wissensüberprüfung findet man auch die Kursbausteine "Umfrage" und "Formular" mit dem man OpenOlat [Formulare](../forms/Form_editor_Questionnaire_editor.de.md) für Befragungen u.ä. in einen Kurs einbauen kann.
+In der Kategorie Wissensüberprüfung findet man auch die Kursbausteine "Umfrage" und "Formular" mit dem man OpenOlat [Formulare](../learningresources/Form_editor_Questionnaire_editor.de.md) für Befragungen u.ä. in einen Kurs einbauen kann.
 
 ### Kursbaustein „Bewertung“  {: #course_element_assessment}
 ![Bewertung Icon](assets/manual_score.png)
@@ -734,7 +734,7 @@ Die zentrale Konfiguration des Kursbausteins erfolgt im Tab
 
 !!! info "Info"
 
-    Eine Schritt-für-Schritt-Anleitung zum Erstellen einer Aufgabe und die detaillierten [Konfigurationsmöglichkeiten](../task/Task_-_Further_Configurations.de.md) finden Sie im Kapitel [„Aufgabe erstellen"](../task/index.md).
+    Eine Schritt-für-Schritt-Anleitung zum Erstellen einer Aufgabe und die detaillierten [Konfigurationsmöglichkeiten](../learningresources/Task_Further_Configurations.de.md) finden Sie im Kapitel [„Aufgabe erstellen"](../task/index.md).
 
   
 
@@ -750,7 +750,7 @@ Vorlage“, die mit dem Kursbaustein verknüpft wird. Sie können direkt im Kurs
 über "Portfoliovorlage wählen oder erstellen" eine neue Portfoliovorlage
 erstellen bzw. eine zuvor erstellte verlinken.  Wie Sie eine Portfolioaufgabe
 genau erstellen erfahren Sie
-[hier](../portfolio/Creating_Portfolio_Tasks.de.md).
+[hier](../learningresources/Creating_Portfolio_Tasks.de.md).
 
   
 Sofern Sie bereits eine Portfoliovorlage hinzugefügt haben, erscheint diese
@@ -770,13 +770,13 @@ Sie allgemeine Informationen zur Bewertung an alle Kursteilnehmer und
 
 Weitere Informationen wie Lernende eine Portfolioaufgabe abholen und nutzen
 finden Sie im Kapitel „[Portfolioaufgabe: abholen und
-bearbeiten](../portfolio/Portfolio_task_and_assignment_Collecting_and_editing.de.md)“.
+bearbeiten](../learningresources/Portfolio_task_and_assignment_Collecting_and_editing.de.md)“.
 Wie Lehrende eine Portfolioaufgabe bewerten können, erfahren Sie im Kapitel
 „[Portfolioaufgabe: kommentieren und
-bewerten](../portfolio/Portfolio_assignment_Grading.de.md)“.
+bewerten](../learningresources/Portfolio_assignment_Grading.de.md)“.
 
 Generelle Infos zum Thema Portfolio bzw. E-Portfolio können Sie
-[hier](../portfolio/index.de.md) nachlesen.
+[hier](../area_modules/index.de.md) nachlesen.
 
 ### Kursbaustein "Gruppenaufgabe"  {: #course_element_group_tasks}
 ![Aufgabe Icon](assets/task.png)
@@ -802,7 +802,7 @@ Gruppe gilt oder ob die Bewertung nur für ein bestimmtes Gruppenmitglied gilt.
 
 Mit dem Kursbaustein „Test“ binden Sie eine OpenOlat Lernressource „Test“ in
 Ihren Kurs ein. Ein Test wird im Kurs zur Leistungsüberprüfung oder als Quiz
-verwendet und umfasst diverse Frage-Typen. Er wird je nach Wahl der  „[Fragetypen](../tests/Test_question_types.de.md)“ automatisiert oder manuell ausgewertet. OpenOlat verwendet das IMS-QTI 2.1
+verwendet und umfasst diverse Frage-Typen. Er wird je nach Wahl der  „[Fragetypen](../learningresources/Test_question_types.de.md)“ automatisiert oder manuell ausgewertet. OpenOlat verwendet das IMS-QTI 2.1
 Format für Tests, was einen Austausch mit anderen Test-Systemen und Learning
 Management Systemen, die diesen Standard ebenfalls unterstützen, gewährt.
 
@@ -814,9 +814,9 @@ haben, erscheint der Name dieser Lernressource hinter  _Gewählte Datei_. Mit
 Klick auf den Namen starten Sie die Vorschau des Tests. Mittels "Datei
 auswechseln" können Sie die Lernressource austauschen. Weitere Informationen
 finden Sie im Kapitel „[Tests
-erstellen](../tests/index.de.md)“.
+erstellen](../learningresources/Test.de.md)“.
 
-Die zwei zentralen „[Tabs](../tests/Tests_at_course_level.de.md)“ in denen Sie Einstellungen für Ihren Test vornehmen können sind  **Test-Konfiguration** und „**Optionen** “.
+Die zwei zentralen „[Tabs](../learningresources/Tests_at_course_level.de.md)“ in denen Sie Einstellungen für Ihren Test vornehmen können sind  **Test-Konfiguration** und „**Optionen** “.
 
 Die Einstellungen unter "Optionen" werden zunächst aus den Optionen in der
 Lernressource übernommen, können aber bei Bedarf aber im Kurs geändert werden.
@@ -869,7 +869,7 @@ Test eingebunden. Wenn Sie noch keinen Test erstellt haben, folgen Sie den
 Anweisungen im Kapitel „[Vier Schritte zu Ihrem Test oder
 Selbsttest“](../tests/Four_Steps_to_Your_Test_or_Self-test.de.md).
 
-Weitere Informationen zu Tests finden Sie im Kapitel „[Tests erstellen](../tests/index.de.md)“. Relevant ist hier vor allem das Unterkapitel „[Tests auf Kursebene](../tests/Tests_at_course_level.de.md).
+Weitere Informationen zu Tests finden Sie im Kapitel „[Tests erstellen](../learningresources/Test.de.md)“. Relevant ist hier vor allem das Unterkapitel „[Tests auf Kursebene](../learningresources/Tests_at_course_level.de.md).
 
 Eine komplexere Alternative zum Selbsttest stellt der Kursbaustein Übung dar. 
 
@@ -901,7 +901,7 @@ Mit dem Kursbaustein "Formular" können Sie die Lernressource Formular einem Kur
 Einstellung). 
 
 Für das Ausfüllen des Kursbausteins kann im Tab
-"Formular" ein letzter Abgabetermin definiert werden. Eine [Kurs-Erinnerung](../course_operation/Course_Reminders.de.md) kann ebenfalls ergänzend
+"Formular" ein letzter Abgabetermin definiert werden. Eine [Kurs-Erinnerung](../learningresources/Course_Reminders.de.md) kann ebenfalls ergänzend
 verknüpft werden. Anders als beim Umfragebaustein erhalten die Teilnehmenden
 bei Abgabe des ausgefüllten Formulars automatisch eine Bestätigungsmail mit
 Datum und Zeitpunkt der Abgabe sowie ihr ausgefülltes Formular als PDF im
@@ -929,7 +929,7 @@ Mit dem Kursbaustein „Umfrage“ fügen Sie Ihrem Kurs einen Online-Fragebogen
 Kapitel "[3 Schritte zu Ihrem Formular](../forms/Three_Steps_to_your_Form.de.md)". Die Resultate einer Umfrage werden  standardmässig anonymisiert gespeichert. 
 
 Ein in einem Kurs verlinktes Formular kann nur solange vollständig im
-"[Formular-Editor](../forms/Form_editor_Questionnaire_editor.de.md)" bearbeitet werden, solange die Seite nicht aufgerufen wurde.
+"[Formular-Editor](../learningresources/Form_editor_Questionnaire_editor.de.md)" bearbeitet werden, solange die Seite nicht aufgerufen wurde.
 Danach können nur noch Tippfehler korrigiert werden.
 
 !!! note "Achtung"
@@ -937,7 +937,7 @@ Danach können nur noch Tippfehler korrigiert werden.
     Wenn Teilnehmende aktuell die Umfrage ausführen, jedoch noch nicht abgeschlossen haben, gehen deren Resultate verloren.
 
 Weitere Informationen zum Thema Fragebogen und Umfrage finden Sie im Kapitel
-„[Formulare erstellen](../forms/index.de.md)“ und den
+„[Formulare erstellen](../learningresources/Form.de.md)“ und den
 entsprechenden Unterkapiteln.
 
 ### Kursbaustein „Checkliste“  {: #course_element_checklist}
@@ -995,13 +995,13 @@ Mehr Informationen zu [Virtuelle Klassenzimmer](Virtual_classrooms.de.md)
 
 Verwenden Sie ein Wiki, um auf einfache Weise mit Kursteilnehmenden gemeinsam Inhalte zu erstellen. Ein Wiki kann für Gruppenarbeiten, als Dokumentationswerkzeug oder als Wissensbasis für Ihre Studien- oder Projektarbeit verwendet werden.
 
-Mit dem Kursbaustein „Wiki“ binden Sie eine Lernressource Wiki in Ihren Kurs ein. Klicken Sie im Tab „ **Wiki-Lerninhalt** “ auf „Wiki wählen, erstellen oder importieren“, ordnen ein bereits erstelltes Wiki zu oder erstellen ein neues. Eine Schritt-für-Schritt-Anleitung zu Ihrem Wiki finden Sie im Kapitel [„Wiki erstellen"](../resource_wiki/index.de.md). Wenn Sie noch kein Wiki ausgewählt haben, erscheint beim Titel **Gewähltes Wiki** die Meldung _Kein Wiki ausgewählt_.
+Mit dem Kursbaustein „Wiki“ binden Sie eine Lernressource Wiki in Ihren Kurs ein. Klicken Sie im Tab „ **Wiki-Lerninhalt** “ auf „Wiki wählen, erstellen oder importieren“, ordnen ein bereits erstelltes Wiki zu oder erstellen ein neues. Eine Schritt-für-Schritt-Anleitung zu Ihrem Wiki finden Sie im Kapitel [„Wiki erstellen"](../learningresources/Wiki.de.md). Wenn Sie noch kein Wiki ausgewählt haben, erscheint beim Titel **Gewähltes Wiki** die Meldung _Kein Wiki ausgewählt_.
 
 Wenn Sie schon ein Wiki hinzugefügt haben, erscheint dessen Name. Um die Zuordnung eines Wikis nachträglich zu ändern, klicken Sie im Tab „Wiki-Lerninhalt“ auf „Wiki auswechseln“ und wählen anschliessend ein anderes Wiki.
 
 Im Tab "Wiki-Lerninhalt" konfigurieren Sie die Benutzerberechtigungen des Wikis. Hier können Sie einstellen, dass neben den Besitzern auch Betreuer und Teilnehmer Wiki-Artikel bearbeiten dürfen. Standardmässig haben alle Kursteilnehmer Lese- und Schreibrechte in einem Wiki. Nur derjenige OpenOlat-Benutzer, der die Seite erstellt hat oder OpenOlat-Benutzer, welche beim Wiki als Besitzer eingetragen sind, dürfen Wiki-Seiten löschen.
 
-Im Kapitel „Lernaktivitäten im Kurs“ finden Sie unter dem Punkt [„Wiki"](../learning_activities/Working_with_Wiki.de.md) Informationen dazu, wie die Wiki-Navigation angepasst werden kann, wie Sie neue Seiten erstellen und wie Sie die verschiedenen Versionen einer Seite betrachten können.
+Im Kapitel „Lernaktivitäten im Kurs“ finden Sie unter dem Punkt [„Wiki"](../learningresources/Working_with_Wiki.de.md) Informationen dazu, wie die Wiki-Navigation angepasst werden kann, wie Sie neue Seiten erstellen und wie Sie die verschiedenen Versionen einer Seite betrachten können.
 
 !!! warning "Achtung"
 
@@ -1010,7 +1010,7 @@ Im Kapitel „Lernaktivitäten im Kurs“ finden Sie unter dem Punkt [„Wiki"](
 ### Kursbaustein „Forum“ {: #forum}
 ![forum icon](../assets/forum_icon.png)
 
-Mit dem Kursbaustein „Forum“ können Sie in Ihrem Kurs auf einfache Weise asynchrone Online-Diskussionen für unterschiedliche Zwecke ermöglichen. Beispielsweise könnten Kursteilnehmende Beiträge mit Fragen zum Inhalt des Kurses verfassen und gegenseitig beantworten oder Sie initiieren eine Fachdiskussion oder setzen spezifische Foren basierte Online-Methoden um. Im Kapitel „Lernaktivitäten im Kurs“ finden Sie unter dem Punkt [„Forum"](../learning_activities/Working_with_Forums.de.md) Informationen dazu, wie Forumsbeiträge erstellt und beantwortet werden. Standardmässig haben alle Kursteilnehmer Lese- und Schreibrechte in einem Forum.
+Mit dem Kursbaustein „Forum“ können Sie in Ihrem Kurs auf einfache Weise asynchrone Online-Diskussionen für unterschiedliche Zwecke ermöglichen. Beispielsweise könnten Kursteilnehmende Beiträge mit Fragen zum Inhalt des Kurses verfassen und gegenseitig beantworten oder Sie initiieren eine Fachdiskussion oder setzen spezifische Foren basierte Online-Methoden um. Im Kapitel „Lernaktivitäten im Kurs“ finden Sie unter dem Punkt [„Forum"](../learningresources/Working_with_Forums.de.md) Informationen dazu, wie Forumsbeiträge erstellt und beantwortet werden. Standardmässig haben alle Kursteilnehmer Lese- und Schreibrechte in einem Forum.
 
 Sie können das Forum auch als Alternative für den Mitteilungsbaustein für Ankündigungen von Seiten der Kursautoren verwenden, besonders wenn Rückfragen von den Lernenden erwünscht sind.
 
@@ -1043,11 +1043,11 @@ Personen mit Moderationsrechten können auch Forumsthemen oder einzelne Beiträg
     Forumsbeiträge können auch in Foren verschoben werden, in welchen der Ersteller des Beitrages keinen Zugriff hat.
 
    
-Neben dem Kursbaustein "Forum" gibt es auch die Möglichkeit ein zentrales Forum für den gesamten Kurs in der [Kurs Toolbar](../course_operation/Using_Additional_Course_Features.de.md) anzeigen zu lassen. Das bietet sich häufig an, wenn der Kurs nur ein Forum umfasst, das permanent zur Verfügung stehen soll. Hier können jedoch keine weiteren Einstellungen wie Pseudonymisierung oder Vergabe von Moderationsrechten vorgenommen werden.
+Neben dem Kursbaustein "Forum" gibt es auch die Möglichkeit ein zentrales Forum für den gesamten Kurs in der [Kurs Toolbar](../learningresources/Using_Additional_Course_Features.de.md) anzeigen zu lassen. Das bietet sich häufig an, wenn der Kurs nur ein Forum umfasst, das permanent zur Verfügung stehen soll. Hier können jedoch keine weiteren Einstellungen wie Pseudonymisierung oder Vergabe von Moderationsrechten vorgenommen werden.
 
 Neben dem Kursbaustein "Forum" gibt es auch die Möglichkeit ein zentrales
 Forum für den gesamten Kurs in der [Kurs
-Toolbar](../course_operation/Using_Additional_Course_Features.de.md) anzeigen zu lassen. Das bietet sich häufig an, wenn der Kurs nur ein Forum umfasst, das permanent zur Verfügung stehen soll.
+Toolbar](../learningresources/Using_Additional_Course_Features.de.md) anzeigen zu lassen. Das bietet sich häufig an, wenn der Kurs nur ein Forum umfasst, das permanent zur Verfügung stehen soll.
 Hier können jedoch keine weiteren Einstellungen wie Pseudonymisierung oder
 Vergabe von Moderationsrechten vorgenommen werden.
 
@@ -1125,7 +1125,7 @@ Im Tab "Template Einstellungen" können sowohl für den Abgabe- als auch den Rü
 ### Kursbaustein „Teilnehmerliste“  {: #participant_list}
 ![Teilnehmerliste Icon](../assets/participant_list_icon.png)
 
-In der Teilnehmerliste können die Mitglieder des Kurses für alle sichtbar gemacht werden. Im Gegensatz zum Kurswerkzeug [Mitgliederverwaltung](../course_operation/Members_management.de.md), das nur für Besitzer sichtbar ist, werden mit dem Kursbaustein "Teilnehmerliste" alle Teilnehmer des Kurses, für jene OpenOlat- Benutzer die den Kurs öffnen können, sichtbar. Die Mitglieder werden sortiert nach ihrer Kursrolle nach "Kursadministratoren", "Betreuer" und "Teilnehmer" mit Foto nach ihrer "höchsten" Rolle aufgelistet. In der Konfiguration können Sie festlegen, welche Benutzergruppen in der Teilnehmerliste angezeigt werden sollen.
+In der Teilnehmerliste können die Mitglieder des Kurses für alle sichtbar gemacht werden. Im Gegensatz zum Kurswerkzeug [Mitgliederverwaltung](../learningresources/Members_management.de.md), das nur für Besitzer sichtbar ist, werden mit dem Kursbaustein "Teilnehmerliste" alle Teilnehmer des Kurses, für jene OpenOlat- Benutzer die den Kurs öffnen können, sichtbar. Die Mitglieder werden sortiert nach ihrer Kursrolle nach "Kursadministratoren", "Betreuer" und "Teilnehmer" mit Foto nach ihrer "höchsten" Rolle aufgelistet. In der Konfiguration können Sie festlegen, welche Benutzergruppen in der Teilnehmerliste angezeigt werden sollen.
 
 ![Teilnehmerliste Konfiguration.png](assets/Teilnehmerliste_Editor.png)
 Durch die Verlinkung auf die OpenOlat-Visitenkarte sowie der Möglichkeit aus dem Kursbaustein heraus eine OpenOlat-Mail an jedes gewünschte Mitglied des Kurses zu schreiben, ermöglicht dieser Kursbaustein weitere Kursteilnehmende einfach und problemlos zu kontaktieren. Im Kurseditor können Sie festlegen ob die E-Mailfunktion für alle Teilnehmer oder nur für Besitzer und Betreuer verfügbar sein soll. Mails an einzelne oder mehrere Personen(-gruppen) werden in der Kursansicht über die Schaltfläche "E-Mail versenden" verschickt. Im Formular können nach Bedarf auch externe Mailadressen hinzugefügt werden.
@@ -1153,7 +1153,7 @@ Auswahlliste definieren. Sollten Sie noch keine Gruppen erstellt haben oder
 weitere benötigen, so können Sie dies mit einem Klick auf „Auswählen“ und
 „Erstellen“ direkt im Tab „Konfiguration“ tun. Bestehende und neu erstellte
 Gruppen können in der [Mitgliederverwaltung
-](../course_operation/Members_management.de.md)bearbeitet werden.
+](../learningresources/Members_management.de.md)bearbeitet werden.
 
 Mittels "**Mehrere Eintragungen erlauben**" legen Sie optional fest, ob
 Kursteilnehmer sich in mehrere Gruppen eintragen dürfen, und falls ja, in wie
@@ -1212,7 +1212,7 @@ ab, da für die tatsächliche Anzahl der HTML Code verwendet wird.
 
 !!! tip "Tipp"
 
-    Ein Element mit ähnlichen Funktionen, jedoch ohne spezifische Konfiguration, findet man auch in der Toolbar. Es handelt sich um die "[Teilnehmer Infos](../course_operation/Using_Additional_Course_Features.de.md)".
+    Ein Element mit ähnlichen Funktionen, jedoch ohne spezifische Konfiguration, findet man auch in der Toolbar. Es handelt sich um die "[Teilnehmer Infos](../learningresources/Using_Additional_Course_Features.de.md)".
 
   
 
@@ -1286,7 +1286,7 @@ Empfängeradressen aus Gründen des Datenschutzes nicht angezeigt.
 
 !!! tip "Tipp"
 
-    Ein Element  "E-Mail" mit ähnlichen Funktionen, jedoch ohne spezifische Konfiguration, findet man auch in der [Toolbar](../course_operation/Using_Additional_Course_Features.de.md).
+    Ein Element  "E-Mail" mit ähnlichen Funktionen, jedoch ohne spezifische Konfiguration, findet man auch in der [Toolbar](../learningresources/Using_Additional_Course_Features.de.md).
 
 ###  Kursbaustein „Kalender“ {: #cal}
 
@@ -1298,7 +1298,7 @@ Kalenders dem Kurs hinzuzufügen.
 
 Diese Einbindung ist eine Alternative gegenüber der Einbindung des Kalenders
 in der Kurstoolbar (vergl. "[Einsatz weiterer Kursfunktionen der
-Toolbar](../course_operation/Using_Additional_Course_Features.de.md)").
+Toolbar](../learningresources/Using_Additional_Course_Features.de.md)").
 
 Standardmässig dürfen nur Besitzer und Betreuer Termine erstellen. Alle
 Kursteilnehmer dürfen jedoch Kalendereinträge lesen. Im Tab „Kalender-
@@ -1306,7 +1306,7 @@ Konfiguration“ können Sie definieren, ob neben den Kursbesitzern auch
 Teilnehmer und Betreuer des Kurses Kalendereinträge einstellen und bearbeiten
 dürfen. Ferner können Sie hier konfigurieren, welches Datum angezeigt wird,
 wenn der Kurskalender aus der Kursstruktur aufgerufen wird. Kurskalender
-werden automatisch den[ persönlichen Kalendern](../personal/Calendar.de.md) der
+werden automatisch den[ persönlichen Kalendern](../personal_menu/Calendar.de.md) der
 Kursteilnehmer hinzugefügt.
 
   
@@ -1319,9 +1319,9 @@ und Aufgaben der Woche.
 
 Prüfen Sie, ob der _Kursbaustein_ "Kalender" wirklich für Sie die optimale
 Wahl darstellt. In vielen Fällen, insbesondere bei[ Lernpfad
-Kursen](../course_create/Learning_path_course.de.md), ist es
+Kursen](../learningresources/Learning_path_course.de.md), ist es
 sinnvoller in den Einstellungen den Kalender in der [Toolbar
-](../course_operation/Using_Additional_Course_Features.de.md)zu aktivieren.
+](../learningresources/Using_Additional_Course_Features.de.md)zu aktivieren.
 
 !!! tip "Tipp"
 
@@ -1889,21 +1889,21 @@ Beispiel:
 ### Bewertung
 
 Eine Reihe an Kursbausteinen kann entweder zur summativen oder formativen Bewertung genutzt werden, oder dient der Fortschrittskontrolle. Folgende Kursbausteine können im
-[Bewertungswerkzeug](../course_operation/Using_Course_Tools.de.md) eingesehen und bearbeitet werden. Weitere Informationen zu diesen Bausteinen finden Sie u.a. im Kapitel [Wissensüberprüfung](../course_elements/Assessment.de.md):
+[Bewertungswerkzeug](../learningresources/Using_Course_Tools.de.md) eingesehen und bearbeitet werden. Weitere Informationen zu diesen Bausteinen finden Sie u.a. im Kapitel [Wissensüberprüfung](../learningresources/Assessment.de.md):
 
-* [Aufgabe](../course_elements/Course_Element_Assessment.de.md) (manuelle Bewertung)
-* [Gruppenaufgabe](../course_elements/Assessment.de.md)(manuelle Bewertung)
-* [Portfolioaufgabe](../course_elements/Assessment.de.md) (manuelle Bewertung)
-* [Checkliste](../course_elements/Assessment.de.md) (manuelle & automatische Bewertung)
-* [Bewertung](../course_elements/Assessment.de.md) (manuelle Bewertung)
-* [LTI](../course_elements/Other.de.md) (automatische Bewertung, wird von LTI-Seite übertragen)
-* [SCORM](../course_elements/Knowledge_Transfer.de.md) (automatische Bewertung, wird durch SCORM-Modul übertragen)
-* [Test](../course_elements/Assessment.de.md) (automatische & manuelle Bewertung)
+* [Aufgabe](../learningresources/Course_Element_Assessment.de.md) (manuelle Bewertung)
+* [Gruppenaufgabe](../learningresources/Assessment.de.md)(manuelle Bewertung)
+* [Portfolioaufgabe](../learningresources/Assessment.de.md) (manuelle Bewertung)
+* [Checkliste](../learningresources/Assessment.de.md) (manuelle & automatische Bewertung)
+* [Bewertung](../learningresources/Assessment.de.md) (manuelle Bewertung)
+* [LTI](../learningresources/Other.de.md) (automatische Bewertung, wird von LTI-Seite übertragen)
+* [SCORM](../learningresources/Knowledge_Transfer.de.md) (automatische Bewertung, wird durch SCORM-Modul übertragen)
+* [Test](../learningresources/Assessment.de.md) (automatische & manuelle Bewertung)
 
-Im Kapitel "[Tests erstellen](../tests/index.de.md)" finden Sie weitere Informationen zur Erstellung und Konfiguration von Tests.
+Im Kapitel "[Tests erstellen](../learningresources/Test.de.md)" finden Sie weitere Informationen zur Erstellung und Konfiguration von Tests.
 
 ### Leistungsnachweis & Zertifikat
 
 Ein Leistungsnachweis ist eine Bestätigung einer erfolgten Leistungskontrolle und zeigt beispielsweise absolvierte Tests oder abgegebene und bewertete Aufgaben pro Kurs an. Leistungsnachweise müssen pro Kurs eingeschaltet werden und sind abrufbar, wenn es im betroffenen Kurs bewertbare Kursbausteine gibt und bereits ein solcher Kursbausteine absolviert und bewertet wurde. Leistungsnachweise sind für Benutzer im persönlichen Menü und im Kurs abrufbar, während Betreuer diese im
 [Coaching-Tool](Coaching.de.md) einsehen können. Druckbare Zertifikate können mittels der Kurseinstellung
-["Leistungsnachweis"](../course_create/Course_Settings.de.md) ausgestellt werden.
+["Leistungsnachweis"](../learningresources/Course_Settings.de.md) ausgestellt werden.

@@ -26,6 +26,6 @@ Katalogeinträge vorgenommen und einiges mehr.
 ![](assets/Einstellungen161.png)
 
 Weitere Informationen zu ein einzelnen Einstellungen finden Sie unter 
-[_Kurseinstellungen_](../course_create/Course_Settings.de.md)".
+[_Kurseinstellungen_](../learningresources/Course_Settings.de.md)".
 
  

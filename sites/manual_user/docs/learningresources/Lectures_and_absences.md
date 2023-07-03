@@ -12,8 +12,8 @@ The general settings are made system-wide in the
 management can generally be switched on or off by the OpenOlat administrator.
 
 On this page you will find the course owner's view. Information on handling
-for the [course coach](Lectures_-_Teacher_view.md) and the [course
-participants](Lectures_-_User_view.md) can be found in the corresponding
+for the [course coach](../learningresources/Lectures_Teacher_view.md) and the [course
+participants](../learningresources/Lectures_User_view.md) can be found in the corresponding
 chapters. The roll call is then carried out by individual instructors (course
 coaches). If a course does not contain course coaches, the tool cannot be used
 meaningfully.

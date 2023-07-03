@@ -47,7 +47,7 @@ Optionen und Funktionen bestimmter Kursbausteine.
 Die Teilnehmer sind in der Regel die Lernenden bzw. Personen, die an einem
 Online-Kurs teilnehmen. Teilnehmende können nur im Rahmen der vom Besitzer
 bereitgestellten Möglichkeiten agieren. Teilnehmende haben standardmässig keinen
-Zugriff auf die Kurs Administration und die darin enthaltenen Menüs. In einem [Lernpfad Kurs](../course_create/Learning_path_course.de.md) sehen nur die Teilnehmer die visualisierte Prozentanzeige rechts oben in der Toolbar.
+Zugriff auf die Kurs Administration und die darin enthaltenen Menüs. In einem [Lernpfad Kurs](../learningresources/Learning_path_course.de.md) sehen nur die Teilnehmer die visualisierte Prozentanzeige rechts oben in der Toolbar.
 
 Ein Kursmitglied kann im Kurs gleichzeitig über mehrere Rollen verfügen. In
 diesem Fall erscheint bei den Personen in der Toolbar des Kurses die Möglichkeit, einen Rollenwechsel vorzunehmen und sich so den Kurs aus verschiedenen Kursrollen
@@ -72,11 +72,11 @@ a) durch das direkte Eintragen in die Mitgliederliste durch den Kursbesitzer
 über die Links "Mitglied hinzufügen", "Mitglieder importieren" oder "Externe Mitglieder einladen". In den ersten beiden Fällen werden existierende OpenOlat Benutzer hinzugefügt. Mit der dritten Option können auch Personen ohne OpenOlat Account der Lernressource hinzugefügt werden.
 
 b) durch Buchung des Kurses durch den Lernenden (siehe
-[Zugangskonfiguration](../course_create/Access_configuration.de.md))
+[Zugangskonfiguration](../learningresources/Access_configuration.de.md))
 
 c) durch Hinzufügen einer OpenOlat Gruppe. Alle Gruppenmitglieder werden dann dem Kurs hinzugefügt.
 
-d) durch ein übergeordnetes OpenOlat [Curriculum](../curriculum/Curriculum_Management.de.md)
+d) durch ein übergeordnetes OpenOlat [Curriculum](../area_modules/Curriculum_Management.de.md)
 
 Für die meisten Kurse sind die Varianten a) und b) zu empfehlen.
 
@@ -101,7 +101,7 @@ Typische Beispiele sind:
 ## Bereich "Buchungen"
 
 Sofern für einen Kurs eine [Buchungsmethode
-](../course_create/Access_configuration.de.md)  eingerichtet wurde werden unter "Buchungen" alle Buchungen für diesen Kurs angezeigt,
+](../learningresources/Access_configuration.de.md)  eingerichtet wurde werden unter "Buchungen" alle Buchungen für diesen Kurs angezeigt,
 sortiert nach Status.
 
 ## Bereich "Einladungen" 
@@ -189,7 +189,7 @@ Statistiken und Test Statistiken. Die Daten können angezeigt und heruntergelade
 Für die aktivierte Personengruppe erscheint zusätzlich das Menü der Kurs "Administration".
 
 Mitglieder dürfen neue [Prüfungskonfigurationen
-](../e-assessment/Assessment_mode.de.md)einrichten,
+](../learningresources/Assessment_mode.de.md)einrichten,
 bearbeiten und löschen.  
   
 **Kurs Datenbank**
@@ -202,7 +202,7 @@ Mitglieder können hier Kursdatenbanken erstellen, zurücksetzen, löschen und e
 ##  Bereich "Einwilligungen"  {: #consent}
 
 Sofern kursbezogene Nutzungsbedingungen bzw. die kursbezogene
-Datenschutzerklärung [aktiviert](../course_create/Course_Settings.de.md) sind, werden die
+Datenschutzerklärung [aktiviert](../learningresources/Course_Settings.de.md) sind, werden die
 gespeicherten Einwilligungen der einzelnen Benutzer hier aufgelistet.
 Ausgewählte Einwilligungen können an dieser Stelle widerrufen oder auch gelöscht werden. Beim Widerruf wird die Einwilligung zurückgesetzt, der Eintrag bleibt aber erhalten. Wird ein Benutzer in OpenOlat gelöscht, so werden auch alle kursbezogenen Einwilligungen des Benutzers entfernt.
 

@@ -34,7 +34,7 @@ on the question mark :fontawesome-solid-circle-question:.
 
 !!! info 
 	If the link does not appear it was hidden in the user tools in the personal
-	[settings](../personal/Configuration.md#settings).
+	[settings](../personal_menu/Configuration.md#settings).
 
 
 #### Context help

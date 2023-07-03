@@ -3,7 +3,7 @@
 In this chapter course authors learn in detail which course elements are
 available in OpenOlat courses and how to configure them. If you have not yet
 created a course, follow the instructions in the chapter "[Creating
-courses](../course_create/index.md)" first.
+courses](../learningresources/Creating_Course.md)" first.
 
 !!! info "Info"
 
@@ -246,13 +246,13 @@ If course participants are also allowed to upload files they will find a
 corresponding link on their top right. In order to store those files in a
 structured way you can then create subfolders and also delete files. If you
 want to prevent others from deleting your files you should click on the icon
-"[Meta data](../personal/Full-Text_Search.md#Full-TextSearch-_metadata)" in the table
+"[Meta data](../basic_concepts/Full_Text_Search.md#Full-TextSearch-_metadata)" in the table
 view and lock the file. Locked files are marked with a lock.
 
 ![](assets/folder_locked.png)
 
 Attention, don't mix them up: In addition to the download folders in courses,
-learners also have access to [Personal folders](../personal/Personal_folders.md), that
+learners also have access to [Personal folders](../personal_menu/Personal_folders.md), that
 can be used for individual learning independent of the course. Furthermore
 there is the course element "Participant folder" (see below).  
 
@@ -332,13 +332,13 @@ In the portfolio task, you can, for example, document and reflect on your
 learning process or carry out editing over a longer period of time.
 
 Once you have collected the portfolio task in the course, you will also find
-it in your [personal menu](../personal/Personal_Menu.md) under "Portfolio 2.0" - "My
+it in your [personal menu](../personal_menu/Personal_Tools.md) under "Portfolio 2.0" - "My
 portfolio binders".
 
 To hand in a solution, publish your assignment and [give access
-rights](../portfolio/Shared_by_me.md). Further information to the editing of a portfolio
+rights](../area_modules/Shared_by_me.md). Further information to the editing of a portfolio
 task you will find
-[here](../portfolio/Portfolio_task_and_assignment_Collecting_and_editing.md).
+[here](../learningresources/Portfolio_task_and_assignment_Collecting_and_editing.md).
 
 ### Questionnaire, Survey
 
@@ -365,10 +365,10 @@ as answering quiz questions or calling up links.
 
 ![](assets/virtual_class.png)
 
-With the course elements [Adobe Connect](../course_elements/Course_element_Adobe_Connect.md),
-[GoToMeeting](../course_elements/Course_element_GoToMeeting.md),
-[Vitero](../course_elements/Course_element_vitero.md) BigBllueButton and
-[OpenMeetings](../course_elements/Course_element_OpenMeetings.md), different [virtual
+With the course elements [Adobe Connect](../learningresources/Course_element_Adobe_Connect.md),
+[GoToMeeting](../learningresources/Course_element_GoToMeeting.md),
+[Vitero](../learningresources/Course_element_vitero.md) BigBllueButton and
+[OpenMeetings](../learningresources/Course_element_OpenMeetings.md), different [virtual
 classrooms](../course_elements/Virtual_classrooms.md) can be used in OpenOlat for synchronous
 meetings, video conferences or webinars. Which course element will be
 integrated and which functionalities will be available depends on which
@@ -543,7 +543,7 @@ subscribe to podcasts, upload those by means of online services such as iTunes
 before copying them to a mobile device.
 
 How to [create](../resource_podcast/Four_Steps_to_Your_Podcast.md) and
-[configure](../resource_podcast/Podcast_-_Further_Configurations.md) a podcast is explained in
+[configure](../learningresources/Podcast_Further_Configurations.md) a podcast is explained in
 separate chapters.
 
 ###  Course Element: Blog {: #blog}
@@ -560,7 +560,7 @@ stars. It is also possible to give course participants the right to write a
 blog, so that they can jointly run a course blog.
 
 How to [create](../resource_blog/Four_Steps_to_Your_Blog.md) and
-[configure](../resource_blog/Blog_-_Further_Configurations.md) a blog is explained on
+[configure](../learningresources/Blog_Further_Configurations.md) a blog is explained on
 separate pages.
 
 ###  Course Element: Video {: #video}
@@ -574,9 +574,9 @@ annotated and evaluated and thus optimally integrated into the learning and
 teaching process of a course.
 
 Further information about the course element video can be found
-[here](../resource_video/Course_Element_Video.md). Information on postprocessing the
+[here](../learningresources/Course_Element_Video.md). Information on postprocessing the
 video with OLAT Quiz and jump marks can be found in chapter "[Learning
-Resource: Video](../resource_video/Learning_resource_Video.md)".
+Resource: Video](../learningresources/Learning_resource_Video.md)".
 
   
  
@@ -641,7 +641,7 @@ the manual.
 
 OpenOlat provides various course elements for knowledge testing. The central
 course elements for this are the three course elements for OpenOlat
-[tests](../tests/Configure_tests.md) and the two course elements for [submission tasks](../task/index.md). But also the other elements such as [portfolio task](../portfolio/Creating_Portfolio_Tasks.md),
+[tests](../learningresources/Configure_tests.md) and the two course elements for [submission tasks](../task/index.md). But also the other elements such as [portfolio task](../learningresources/Creating_Portfolio_Tasks.md),
 [assessments](Course_Element_Assessment.md) with and without
 evaluation grid (rubric) or the checklists offer a lot of potential for
 certain scenarios.
@@ -659,9 +659,9 @@ e-mails can be sent depending on the progress of the respective course
 element. For example, a mail can be sent if a task has not yet been worked on
 by a certain date. The possibilities are similar to those in the menu
 "Reminder" in the course administration for which you can find more
-information [here](../course_operation/Course_Reminders.md).
+information [here](../learningresources/Course_Reminders.md).
 
-The OpenOlat [questionnaire](../forms/Form_editor_Questionnaire_editor.md) or the course
+The OpenOlat [questionnaire](../learningresources/Form_editor_Questionnaire_editor.md) or the course
 element Survey can also be found in the assessment category.
 
   
@@ -710,7 +710,7 @@ Mandatory tasks have to be completed and will be collected after the set deadlin
 
 !!! info "Info"
 
-    How to create tasks step by step and further information on other [configuration possibilities](../task/Task_-_Further_Configurations.md) can be found in the chapter ["Creating Tasks"](Course_Element_Task).
+    How to create tasks step by step and further information on other [configuration possibilities](../learningresources/Task_Further_Configurations.md) can be found in the chapter ["Creating Tasks"](Course_Element_Task).
 
 ###  Course Element: Portfolio Task {: #course_element_portfolio}
 
@@ -725,7 +725,7 @@ For the course element Portfolio task you need a "Portfolio 2.0 template",
 which you link to the course element. If you have not yet created a Portfolio
 Template learning resource, you can also create a new Portfolio Template or
 link to a previously created one directly in the course via "Select or create
-Portfolio Template".  Click [here](../portfolio/Creating_Portfolio_Tasks.md) to find out
+Portfolio Template".  Click [here](../learningresources/Creating_Portfolio_Tasks.md) to find out
 exactly how to create a portfolio task.
 
 
@@ -744,16 +744,16 @@ passed/failed and individual comments. In the fields "Note for all users" and
 all course participants and coaches.
 
 Further information on how learners can pick up and use a portfolio task can
-be found in the chapter "[Portfolio task and assignment: Collecting and editing](../portfolio/Portfolio_task_and_assignment_Collecting_and_editing.md)".
+be found in the chapter "[Portfolio task and assignment: Collecting and editing](../learningresources/Portfolio_task_and_assignment_Collecting_and_editing.md)".
 How teachers can evaluate a portfolio task can be found in the chapter
-"[Portfolio assignment: Grading](../portfolio/Portfolio_assignment_Grading.md)".
+"[Portfolio assignment: Grading](../learningresources/Portfolio_assignment_Grading.md)".
 
 How the portfolio component looks like from the students' point of view and
 how it can be solved can be found in the chapter "Learning activities in the
-course" under the item ["Portfolio task"](../portfolio/Portfolio_assignment_Grading.md).
+course" under the item ["Portfolio task"](../learningresources/Portfolio_assignment_Grading.md).
 
 General information on the subject of portfolios and e-portfolios can be found
-[here](../portfolio/index.md).
+[here](../area_modules/index.md).
 
 ### Course Element: Group Task {: #course_element_group_tasks}
 
@@ -795,9 +795,9 @@ respectively. In case you have already selected a test the name of this
 learning resource will be displayed after _Selected file_. Click on the name
 to open a preview of the test. Click on "Replace file" if you would like to
 exchange the learning resource with another one. Further information can be
-found in the chapter "[Creating Tests](../tests/Configure_tests.md)".
+found in the chapter "[Creating Tests](../learningresources/Configure_tests.md)".
 
-The two main tabs for test configuration are "[Test configuration](../tests/Tests_at_course_level.md)" and " **Options** ".
+The two main tabs for test configuration are "[Test configuration](../learningresources/Tests_at_course_level.md)" and " **Options** ".
 
 The settings under "Options" are initially being copied from the options of
 the learning resource. However, the options can be adjusted if needed. To do
@@ -845,8 +845,8 @@ resources of the type "Test." If you have not generated a test before please
 follow the instructions in the chapter ["Four Steps to Your Test or Self-
 test"](../tests/Four_Steps_to_Your_Test_or_Self-test.md).
 
-For more information on tests, refer to the chapter "[Creating Tests](../tests/Configure_tests.md)". 
-The chapter "[Tests at course level](../tests/Tests_at_course_level.md)" is particularly relevant here.
+For more information on tests, refer to the chapter "[Creating Tests](../learningresources/Configure_tests.md)". 
+The chapter "[Tests at course level](../learningresources/Tests_at_course_level.md)" is particularly relevant here.
 
 Eine komplexere Alternative zum Selbsttest stellt der Kursbaustein Übung dar. 
 
@@ -880,7 +880,7 @@ the standard setting), filling in the form is not anonymous.
 
 For the
 completion of the course element, a last deadline can be defined in the tab
-"Form". A [course reminder](../course_operation/Course_Reminders.md) can also be linked in
+"Form". A [course reminder](../learningresources/Course_Reminders.md) can also be linked in
 addition. In contrast to the survey module, participants automatically receive
 a confirmation e-mail with the date and time of submission as well as their
 completed form as a PDF attachment when they submit the completed form.
@@ -919,7 +919,7 @@ can be corrected.
     If participants are currently running the questionnaire but have not yet completed it, their results will be lost.
 
 Further information on the subject of questionnaires and surveys can be found
-in the chapter "[Creating questionnaires](../forms/Form_editor_Questionnaire_editor.md)" and
+in the chapter "[Creating questionnaires](../learningresources/Form_editor_Questionnaire_editor.md)" and
 the corresponding subchapters.
 
 
@@ -985,7 +985,7 @@ If you have already added a Wiki its name will appear in the field. In order to 
 
 In the tab "Wiki learning content" you configure the user permissions of the Wiki. Here you can set that not only owners but also maintainers and participants may edit Wiki articles. By default all course participants have read and write permission in a Wiki. Only that OpenOlat user who has created the page or OpenOlat users who are registered as owners in a wiki will be allowed to delete wiki pages.
 
-In the chapter "Learning Activities in Courses" section ["Wiki"](../learning_activities/Working_with_Wiki.md), you will find more information on how to adapt the Wiki syntax, how to create new pages, and how to view different versions of a Wiki page.
+In the chapter "Learning Activities in Courses" section ["Wiki"](../learningresources/Working_with_Wiki.md), you will find more information on how to adapt the Wiki syntax, how to create new pages, and how to view different versions of a Wiki page.
 
 !!! warning "Attention"
 
@@ -994,7 +994,7 @@ In the chapter "Learning Activities in Courses" section ["Wiki"](../learning_act
 ###  Course Element: Forum {: #forum}
 ![Forum icon](../assets/forum_icon.png)
 
-With the course element "Forum" you can easily enable asynchronous online discussions for different purposes in your course. For example, course participants could write posts with questions about the content of the course and answer each other's questions, or you could initiate a technical discussion or implement specific forum-based online methods. In the chapter "Learning Activities in Courses" you will get further information on opening topics and replying to questions; see section ["Forum"](../learning_activities/Working_with_Forums.md). Generally all course participants have read and write permission in a forum. All course authors and tutors dispose of the option to moderate a forum additionally.
+With the course element "Forum" you can easily enable asynchronous online discussions for different purposes in your course. For example, course participants could write posts with questions about the content of the course and answer each other's questions, or you could initiate a technical discussion or implement specific forum-based online methods. In the chapter "Learning Activities in Courses" you will get further information on opening topics and replying to questions; see section ["Forum"](../learningresources/Working_with_Forums.md). Generally all course participants have read and write permission in a forum. All course authors and tutors dispose of the option to moderate a forum additionally.
 
 A course author can also use the forum to notify course participants in the short term. Just configure your forum in the tab "Access" accordingly, i.e. that only course authors have write permission.
 
@@ -1024,7 +1024,7 @@ Persons with moderation rights can also move forum topics or individual posts. O
 
     Forum posts can also be moved to forums in which the creator of the post has no access.
 
-Besides the course element "Forum" there is also the possibility to display a central forum for the entire course in the [course toolbar](../course_operation/Using_Additional_Course_Features.md). Das bietet sich häufig an, wenn der Kurs nur ein Forum umfasst, das permanent zur Verfügung stehen soll. However, no further settings such as pseudonymization or assignment of moderation rights can be made here.
+Besides the course element "Forum" there is also the possibility to display a central forum for the entire course in the [course toolbar](../learningresources/Using_Additional_Course_Features.md). Das bietet sich häufig an, wenn der Kurs nur ein Forum umfasst, das permanent zur Verfügung stehen soll. However, no further settings such as pseudonymization or assignment of moderation rights can be made here.
   
 ###  Course Element: File Dialog {: #file_dialog}
 ![File dailog icon](../assets/file_dialog_icon.png)
@@ -1091,7 +1091,7 @@ In the Template Settings tab, subfolders can be created for both the submission 
 ###  Course Element: Participant list {: #participant_list}
 ![group.png](../assets/participant_list_icon.png)
 
-In the participant list, the members of the course can be made visible to everyone. Unlike the [member management](../course_operation/Members_management.md) course tool, which is only visible for course owners, the course element "Participant list" provides a list of all course members to those OpenOlat users allowed to open the respective course. Members are listed depending on their role within the course as either course administrator, coach or participant. Select the user groups to be displayed to course users.
+In the participant list, the members of the course can be made visible to everyone. Unlike the [member management](../learningresources/Members_management.md) course tool, which is only visible for course owners, the course element "Participant list" provides a list of all course members to those OpenOlat users allowed to open the respective course. Members are listed depending on their role within the course as either course administrator, coach or participant. Select the user groups to be displayed to course users.
 
 ![Configuration options for paricipant list](assets/participant_list_config.png){ class="shadow" }
 
@@ -1139,7 +1139,7 @@ course participants can enroll. You can also define the order of the groups in
 the selection list. If you have not yet created any groups or need more, you
 can do so directly in the "Configuration" tab by clicking on "Select" and
 "Create". Existing and newly created groups can be edited in the [member
-management](../course_operation/Members_management.md).
+management](../learningresources/Members_management.md).
 
 Use the field "**Allow multiple enrolments**" in order to allow course
 participants to enrol in more than one, and if so how many, groups.
@@ -1190,7 +1190,7 @@ actual number of HTML code is used.
 
 !!! tip "Tip"
 
-    An element with similar functions, but without specific configuration, can also be found in the toolbar. This is the "[Participant Info](../course_operation/Using_Additional_Course_Features.md)".
+    An element with similar functions, but without specific configuration, can also be found in the toolbar. This is the "[Participant Info](../learningresources/Using_Additional_Course_Features.md)".
 
 ###  Course Element: E-Mail  {: #mail}
 
@@ -1258,7 +1258,7 @@ addresses in your e-mail form.
 
 !!! tip "Tip"
 
-    An element "E-mail" with similar functions, but without specific configuration, can also be found in the [toolbar](../course_operation/Using_Additional_Course_Features.md).
+    An element "E-mail" with similar functions, but without specific configuration, can also be found in the [toolbar](../learningresources/Using_Additional_Course_Features.md).
 
   
 
@@ -1272,7 +1272,7 @@ calendar to the course.
 
 This course element offers an alternative view on the course calendar to be
 found in the course toolbar (see "[Using additional course
-features](../course_operation/Using_Additional_Course_Features.md)"). Only course authors and
+features](../learningresources/Using_Additional_Course_Features.md)"). Only course authors and
 moderators are allowed to create calendar entries by default. However, all
 course participants are able to read entries.
 
@@ -1280,7 +1280,7 @@ In the tab "Calendar configuration" you can define whether participants and
 tutors of a course may also set and edit calendar entries. Also you can decide
 which date should be displayed when a course calendar is activated from the
 course structure. Course calendars will automatically be added to the
-[personal calendars](../personal/Calendar.md) of the course members.
+[personal calendars](../personal_menu/Calendar.md) of the course members.
 
 When displaying a certain semester week in your calendar and inserting links
 on course elements, that calendar will serve as a kind of overview showing all
@@ -1288,8 +1288,8 @@ events and tasks of that week.
 
 Check whether the course element "Calendar" is really the optimal choice for
 you. In many cases, especially with [learning path
-courses](../course_create/Learning_path_course.md), it makes more sense to activate the
-calendar in the [toolbar](../course_operation/Using_Additional_Course_Features.md) in the
+courses](../learningresources/Learning_path_course.md), it makes more sense to activate the
+calendar in the [toolbar](../learningresources/Using_Additional_Course_Features.md) in the
 settings.
 
 !!! tip "Tip"
@@ -1862,24 +1862,24 @@ The assignment of dates can be set in the course editor in the tab
 
 ### Assessment
 
-A number of course elements can be used either for summative or formative assessment, or serves as performance control tool. The following course elements can be viewed and assessed in the [assessment tool.](../course_operation/Using_Course_Tools.md#UsingCourseTools-_bewertungswerkzeug) Further information on these modules can be found, among other things, in the chapter ["Assessment"](../course_elements/Assessment.md):
+A number of course elements can be used either for summative or formative assessment, or serves as performance control tool. The following course elements can be viewed and assessed in the [assessment tool.](../learningresources/Using_Course_Tools.md#UsingCourseTools-_bewertungswerkzeug) Further information on these modules can be found, among other things, in the chapter ["Assessment"](../learningresources/Assessment.md):
 
-* [Task](../course_elements/Assessment.md) (manual assessment)
-  [Grouptask](../course_elements/Assessment.md)(Manual assessment)
-* [Portfolio task](../course_elements/Assessment.md) (manual assessment)
-* [Checklist](../course_elements/Assessment.md) (manual & automatic assessment)
-* [Assessment](../course_elements/Assessment.md) (manual assessment)
-* [LTI](../course_elements/Other.md) (automatic assessment, transferred from LTI page)
-* [SCORM](../course_elements/Knowledge_Transfer.md) (automatic assessment, transferred from SCORM module)
-* [Test](../course_elements/Assessment.md#Assessment-_test_kursbaustein) (automatic & manual assessment)
+* [Task](../learningresources/Assessment.md) (manual assessment)
+  [Grouptask](../learningresources/Assessment.md)(Manual assessment)
+* [Portfolio task](../learningresources/Assessment.md) (manual assessment)
+* [Checklist](../learningresources/Assessment.md) (manual & automatic assessment)
+* [Assessment](../learningresources/Assessment.md) (manual assessment)
+* [LTI](../learningresources/Other.md) (automatic assessment, transferred from LTI page)
+* [SCORM](../learningresources/Knowledge_Transfer.md) (automatic assessment, transferred from SCORM module)
+* [Test](../learningresources/Assessment.md#Assessment-_test_kursbaustein) (automatic & manual assessment)
 
-Refer to the chapter ["Creating Tests"](../tests/index.md) for more information on creating and configuring tests.
+Refer to the chapter ["Creating Tests"](../learningresources/Test.md) for more information on creating and configuring tests.
 
 ### Evidence of Achievement & Certificate
 
-An evidence of achievement is a confirmation of an existing efficiency control and shows e.g. taken tests or assessed tasks per course. An evidence of achievement must be activated for each single course, and are accessible once there are a) assessable course elements and b) one of those course elements has been completed and assessed. Users can access their personal evidences of achievements in the personal menu and the course, while coaches and authors can review those of coached users in the [Coaching](Coaching.de.md) tool. Printable certificates can be issued with the course setting ["Evidence of achievements"](../course_create/Course_Settings.md).
+An evidence of achievement is a confirmation of an existing efficiency control and shows e.g. taken tests or assessed tasks per course. An evidence of achievement must be activated for each single course, and are accessible once there are a) assessable course elements and b) one of those course elements has been completed and assessed. Users can access their personal evidences of achievements in the personal menu and the course, while coaches and authors can review those of coached users in the [Coaching](Coaching.de.md) tool. Printable certificates can be issued with the course setting ["Evidence of achievements"](../learningresources/Course_Settings.md).
 
-All your evidences of achievement and certificates will be listed in your ["Evidence of achievements"](../course_create/Course_Settings.md). It always opens in a new window and is printable.
+All your evidences of achievement and certificates will be listed in your ["Evidence of achievements"](../learningresources/Course_Settings.md). It always opens in a new window and is printable.
 
   
 

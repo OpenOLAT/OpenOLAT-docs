@@ -14,7 +14,7 @@ Mit dieser Anleitung haben Sie in kurzer Zeit einen einfachen Test oder Selbstte
   
 3. Es erscheint ein Menü. Hier können Sie in den unterschiedlichen Tabs bei Bedarf weitere Einstellungen vornehmen.
 
-    Das Menü entspricht den "[Einstellungen](../course_create/Course_Settings.de.md)" im Bereich `Administration` und kann auch später noch bearbeitet werden.
+    Das Menü entspricht den "[Einstellungen](../learningresources/Course_Settings.de.md)" im Bereich `Administration` und kann auch später noch bearbeitet werden.
 
     ![Test Einstellungen](assets/Test_options_DE.png){ class="shadow" }
   
@@ -29,7 +29,7 @@ Mit dieser Anleitung haben Sie in kurzer Zeit einen einfachen Test oder Selbstte
 4. Im Tab "Punkte" die Art und die Summe der Punkte definieren.
 5. Bei Bedarf ein Feedback zur Frage definieren und sich die Frage über die Vorschau anschauen  
   
-Nach dem gleichen Prinzip fügen Sie weitere Fragen hinzu. Dabei können die Details der Einstellungen je nach Fragetyp variieren. Sie können Ihren Test auch mit [Sektionen oder Test-Parts](Configure_tests.de.md) weiter strukturieren.
+Nach dem gleichen Prinzip fügen Sie weitere Fragen hinzu. Dabei können die Details der Einstellungen je nach Fragetyp variieren. Sie können Ihren Test auch mit [Sektionen oder Test-Parts](../learningresources/Configure_tests.de.md) weiter strukturieren.
 
 !!! info "Hinweis"
 
@@ -83,8 +83,8 @@ Datei" den eingebundenen Test in der Vorschau anzeigen lassen und Solange er nic
 
     Alternativ kann auch der "Publizieren" Button im Editor rechts in der Toolleiste verwendet werden.  
 
-Der Test bzw. Selbsttest ist nun im Kurs eingebunden und für die User sichtbar und bearbeitbar. Von den Lernenden bearbeitete Tests (nicht Selbsttests) können anschließend vom Lehrenden im Kursrun oder im Bewertungswerkzeug bewertet werden. Weitere Infos dazu finden Sie im Kapitel "[Tests bewerten](../course_operation/Assessing_tests.de.md)".
+Der Test bzw. Selbsttest ist nun im Kurs eingebunden und für die User sichtbar und bearbeitbar. Von den Lernenden bearbeitete Tests (nicht Selbsttests) können anschließend vom Lehrenden im Kursrun oder im Bewertungswerkzeug bewertet werden. Weitere Infos dazu finden Sie im Kapitel "[Tests bewerten](../learningresources/Assessing_tests.de.md)".
 
 !!! note "Voraussetzung"
 
-    Voraussetzung dafür, dass die Lernenden den Test bearbeiten können, ist dass der Kurs auch veröffentlicht wurde und die jeweiligen Personen [Zugang](../course_create/Access_configuration.de.md) zum Kurs haben.
+    Voraussetzung dafür, dass die Lernenden den Test bearbeiten können, ist dass der Kurs auch veröffentlicht wurde und die jeweiligen Personen [Zugang](../learningresources/Access_configuration.de.md) zum Kurs haben.

@@ -25,9 +25,15 @@ Here you will find an overview of the rights of the coach.
   
 | Course element | Rights                      | Additional configuration options |
 | -------------- | --------------------------- | -------------------------------- |
+<<<<<<< HEAD
 | Assessment     |Teilnehmende bewerten         | An evaluation of learners is however possible for coaches via the "assessment tool". |
 | Task           | correct tasks, extend deadlines, bewerten, abschliessen, abgegebene Dokumente herunterladen                                                                                          | create new task ; Kursbesitzer können Betreuenden auch bestimmte Teilnehmende zuweisen            |
 | Portfolio task | bewerten                                                                                                |                             |
+=======
+| Assessment     | view only = participant                  | An evaluation of learners is however possible for coaches via the "[assessment tool](../learningresources/Assessment_of_learners.md)". |
+| Task           | correct tasks, extend deadlines                                                                                              | create new task             |
+| Portfolio task | collect = participant                                                                                                        |                             |
+>>>>>>> a8b22ee29dc01a33a40623ff8b203ffba526f448
 | Grouptask      | only access as group coach of an assigned group (analogous to task)                                                          | create or upload a new task |
 | Test           | Test Übersicht, Einsicht in durchgeführte Tests mit manueller Bewertung, Punktevergabe, Korrektur und Annulierungsoption, aber keine Test-Konfiguration |  Kommunikationsmöglichkeit sofern aktiviert                           |
 | Self-test      | execute = participant                                                                                                        |                             |

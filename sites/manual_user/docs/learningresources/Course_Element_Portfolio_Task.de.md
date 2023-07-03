@@ -10,7 +10,7 @@ Vorlage“, die mit dem Kursbaustein verknüpft wird. Sie können direkt im Kurs
 über "Portfoliovorlage wählen oder erstellen" eine neue Portfoliovorlage
 erstellen bzw. eine zuvor erstellte verlinken.  Wie Sie eine Portfolioaufgabe
 genau erstellen erfahren Sie
-[hier](../portfolio/Creating_Portfolio_Tasks.de.md).
+[hier](../learningresources/Creating_Portfolio_Tasks.de.md).
 
   
 Sofern Sie bereits eine Portfoliovorlage hinzugefügt haben, erscheint diese
@@ -30,10 +30,10 @@ Sie allgemeine Informationen zur Bewertung an alle Kursteilnehmer und
 
 Weitere Informationen wie Lernende eine Portfolioaufgabe abholen und nutzen
 finden Sie im Kapitel „[Portfolioaufgabe: abholen und
-bearbeiten](../portfolio/Portfolio_task_and_assignment_Collecting_and_editing.de.md)“.
+bearbeiten](../learningresources/Portfolio_task_and_assignment_Collecting_and_editing.de.md)“.
 Wie Lehrende eine Portfolioaufgabe bewerten können, erfahren Sie im Kapitel
 „[Portfolioaufgabe: kommentieren und
-bewerten](../portfolio/Portfolio_assignment_Grading.de.md)“.
+bewerten](../learningresources/Portfolio_assignment_Grading.de.md)“.
 
 Generelle Infos zum Thema Portfolio bzw. E-Portfolio können Sie
-[hier](../portfolio/index.de.md) nachlesen.
+[hier](../area_modules/index.de.md) nachlesen.

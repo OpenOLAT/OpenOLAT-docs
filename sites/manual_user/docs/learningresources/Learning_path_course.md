@@ -8,7 +8,7 @@ Traditional courses and Learning Path courses.
 The learning path course type helps learners keep track of their course
 activities. The visualization of the learning path shows at a glance what they
 have already completed, where the
-[learners](Learning_path_course_-_Participant_view.md) are currently in the
+[learners](../learningresources/Learning_path_course_Participant_view.md) are currently in the
 course and which course elements they may or must still work on.
 
 Authors and coaches also benefit from the new course type. For coaches, the
@@ -35,6 +35,6 @@ mentioned explicitly.
    Auf den nächsten Seiten erfahren Sie: 
 
   * How to [Create learning path courses](Creating_learning_path_courses.md)
-  * Welche Möglichkeiten im [Course editor] (Learning_path_course_-_Course_editor.md) zur Verfügung stehen.
+  * Welche Möglichkeiten im [Course editor] (../learningresources/Learning_path_course_Course_editor.md) zur Verfügung stehen.
   * Wie sich der Lernpfad Kurs in der  [Participant view](Learning_path_course_Participant_view.md) zeigt.
 

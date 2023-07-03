@@ -37,6 +37,14 @@ Der konkrete Erstellungsprozess ist auf den folgenden Seiten beschrieben:
 * Portfolio erstellen<br>
 [Handbuchartikel](../learningresources/Portfolio_template_Creation.de.md) 
 
+* [„Kurs erstellen"](../learningresources/Creating_Course.de.md), 
+* [„CP-Lerninhalt erstellen"](../resource_cp/index.de.md), 
+* [„Wiki erstellen"](../learningresources/Wiki.de.md), 
+* [„Podcast erstellen"](../learningresources/Podcast.de.md), 
+* [„Blog erstellen"](../learningresources/Blog.de.md), 
+* ["Portfolio erstellen",](../area_modules/index.de.md) 
+* ["Tests erstellen" ](../learningresources/Test.de.md),
+* ["Formulare erstellen" ](../learningresources/Form.de.md) 
 * Glossar erstellen<br>
 [Handbuchartikel](../learningresources/Glossary.de.md) 
 
@@ -59,7 +67,13 @@ Video](../learningresources/Learning_resource_Video.de.md) angelegt werden.
 
 Wenn Sie einen Kurs z.B. aus einer anderen OpenOlat Instanz importieren möchten, werden Sie gefragt, ob Sie die vom Kurs referenzierten Lernressourcen (z.B. ein Wiki oder einen Test) ebenfalls importieren möchten. 
 
-Markieren Sie die entsprechende Checkbox, wenn Sie die referenzierten Lernressourcen ebenfalls importieren möchten. Publizieren Sie den importierten Kurs im Anschluss, um ihn für Sie und andere OpenOlat-Benutzer sichtbar zu machen.
+Ausserhalb von OpenOlat erstellte oder aus einem OpenOlat System exportierte
+Lernressourcen können in OpenOlat importiert werden, wenn Sie in einem für
+OpenOlat kompatiblen Format vorliegen. Mögliche Typen werden unter dem Punkt
+[„Verschiedene Typen von
+Lernressourcen"](Various_Types_of_Learning_Resources.de.md)
+erklärt. Darüber können über den Link "Importieren URL" auch Links zu externen
+Videos z.B. in YouTube gesetzt und als OpenOlat [Lernressource Video](../learningresources/Learning_resource_Video.de.md) angelegt werden.
 
 Am Ende des Imports erscheint das Menü „Einstellungen“, wo Sie weitere Konfigurationen vornehmen können, z.B. eine Definition der Lizenz.
 

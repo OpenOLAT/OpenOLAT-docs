@@ -33,7 +33,7 @@ finden Sie
 [hier](Portfolio_template_Administration_and_editing.de.md).  
   
 Wenn Sie in Ihrer Portfolio 2.0 Vorlage auch den Aufgaben Typ Formular nutzen
-möchten, müssen sie zusätzlich noch eine entsprechende [Lernressource "Formular"](../forms/Forms_in_the_ePortfolio_template.de.md) erstellen und einbinden. Das Vorgehen zur Erstellung der Lernressource ist identisch wie bei der Erstellung der Portfolio Vorlage.
+möchten, müssen sie zusätzlich noch eine entsprechende [Lernressource "Formular"](../learningresources/Forms_in_the_ePortfolio_template.de.md) erstellen und einbinden. Das Vorgehen zur Erstellung der Lernressource ist identisch wie bei der Erstellung der Portfolio Vorlage.
 
 Um eine erstellte und eingerichtete Portfolio 2.0 Vorlage in einen OpenOlat
 Kurs einzubinden fügen sie ihrem Kurs den Kursbaustein [Portfolioaufgabe

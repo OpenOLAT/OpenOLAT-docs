@@ -109,11 +109,11 @@ This way you get a completely reset course without user-specific data remains.
 ## Kopieren mit Wizard 
 Mit Hilfe des Wizards können die zu kopierenden Elemente eines Kurses ausgewählt werden und so noch effektiver eine Übertragung für einen neuen Kursdurchlauf erfolgen. Die Kopie kann automatisch oder benutzerdefiniert erfolgen. Bei der benutzerdefinierten Kopie können die zu kopierenden Kursobjekte gewählt und weitere Einstellungen z.B. bezüglich der Mitgliederverwaltung, bestimmten Kursbausteinen sowie weiteren Optionen vorgenommen werden. 
 
-Diese Funktion ist nur für [Lernpfad-Kurse](../course_create/Learning_path_course.de.md) verfügbar. 
+Diese Funktion ist nur für [Lernpfad-Kurse](../learningresources/Learning_path_course.de.md) verfügbar. 
 
 ## Convert to learning path course
 
-Traditional courses and courses created before OpenOlat version 15 can be converted into a [learning path course](../course_create/Learning_path_course.md) via this link.
+Traditional courses and courses created before OpenOlat version 15 can be converted into a [learning path course](../learningresources/Learning_path_course.md) via this link.
 
 Diese Funktion ist nur für herkömmliche Kurse verfügbar.
 
@@ -124,7 +124,7 @@ Export your learning resources as a ZIP file um eine Sicherungskopie zu erhalten
 Allowing a course copy for other authors is useful for course templates, for example.
 
 As the owner of a learning resource, you can also determine in the administration menu under "Settings" → "Shared to other authors" whether your learning resource may be exported, copied or referenced by all other OpenOlat authors in the system.
-Weitere Infos dazu finden Sie [hier](../course_create/Access_configuration.md).
+Weitere Infos dazu finden Sie [hier](../learningresources/Access_configuration.md).
 
 ## Delete (learning resource)
 
@@ -151,12 +151,12 @@ A course can also be closed or deleted automatically. The administrator makes th
 
 Weitere Menüs werden auf separaten Handbuchseiten konkreter vorgestellt:
  
-* [Course settings](../course_create/Course_Settings.md)
+* [Course settings](../learningresources/Course_Settings.md)
 * [Members management](Members_management.md)
 * [Course elements](../course_elements/index.md)
 * [Storage folder](Storage_folder.md)
 * [Assessment Tool](Assessment_tool_-_overview.md)
 * [Lectures and Absences](Lectures_and_absences.md)
 * [Reminder](Course_Reminders.md)
-* [Assessment mode](../e-assessment/Assessment_mode.md)
+* [Assessment mode](../learningresources/Assessment_mode.md)
 * [Data archiving](Data_archiving.md)

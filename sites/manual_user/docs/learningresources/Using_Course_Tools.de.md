@@ -6,7 +6,7 @@ In Ihrem Kurs stehen Ihnen im Bereich der "Administration" eine Reihe von Werkze
 
 Sie können in der [Mitgliederverwaltung](Members_management.de.md) die Kursteilnehmenden und kursbezogenen Gruppen sowie Rechte organisieren. Die Kursstruktur und die Kursbausteine werden im Kurseditor eingerichtet. Im [Ablageordner](Storage_folder.de.md) werden die Kursdateien gesammelt.
 
-Während der Durchführung des Kurses ist das [Bewertungswerkzeug](Assessment_tool_-_overview.de.md) relevant. Auch kursbezogene Erinnerungen und [Lektionen](Lectures_and_absences.de.md) können organisiert werden. Für Online-Klausuren bietet sich der [Prüfungsmodus](../e-assessment/Assessment_mode.de.md) an. Es können auch bestimmte statistische Daten abgerufen und Daten [archiviert](Data_archiving.de.md) werden. Und natürlich können Kurse und Lernressourcen kopiert, exportiert oder gelöscht werden.
+Während der Durchführung des Kurses ist das [Bewertungswerkzeug](Assessment_tool_-_overview.de.md) relevant. Auch kursbezogene Erinnerungen und [Lektionen](Lectures_and_absences.de.md) können organisiert werden. Für Online-Klausuren bietet sich der [Prüfungsmodus](../learningresources/Assessment_mode.de.md) an. Es können auch bestimmte statistische Daten abgerufen und Daten [archiviert](Data_archiving.de.md) werden. Und natürlich können Kurse und Lernressourcen kopiert, exportiert oder gelöscht werden.
 
 
 !!! info "Info"
@@ -18,7 +18,7 @@ Während der Durchführung des Kurses ist das [Bewertungswerkzeug](Assessment_to
 
 ## Bewertungswerkzeug
 
-Im Menü „Bewertungswerkzeug“, nicht zu verwechseln mit dem [Kursbaustein "Bewertung"](../course_elements/Course_Element_Assessment.de.md), erfolgt die gesamte Bewertung eines Kurses. Hier hat man Zugriff auf alle bewertbaren Kursbausteine und kann Bewertungen mit Punktevergabe, bestanden/nicht bestanden vornehmen und individuelle Feedbacks bereitstellen.
+Im Menü „Bewertungswerkzeug“, nicht zu verwechseln mit dem [Kursbaustein "Bewertung"](../learningresources/Course_Element_Assessment.de.md), erfolgt die gesamte Bewertung eines Kurses. Hier hat man Zugriff auf alle bewertbaren Kursbausteine und kann Bewertungen mit Punktevergabe, bestanden/nicht bestanden vornehmen und individuelle Feedbacks bereitstellen.
 
 ![Bewertungswerkzeug Übersicht](assets/eass_uebersichtsgrafik_DE.png)
 
@@ -113,11 +113,11 @@ Ist ein Kurs abgelaufen, soll aber im nächsten Semester oder in einem gewissen 
 ## Kopieren mit Wizard
 Mit Hilfe des Wizards können die zu kopierenden Elemente eines Kurses ausgewählt werden und so noch effektiver eine Übertragung für einen neuen Kursdurchlauf erfolgen. Die Kopie kann automatisch oder benutzerdefiniert erfolgen. Bei der benutzerdefinierten Kopie können die zu kopierenden Kursobjekte gewählt und weitere Einstellungen z.B. bezüglich der Mitgliederverwaltung, bestimmten Kursbausteinen sowie weiteren Optionen vorgenommen werden. 
 
-Diese Funktion ist nur für [Lernpfad-Kurse](../course_create/Learning_path_course.de.md) verfügbar. 
+Diese Funktion ist nur für [Lernpfad-Kurse](../learningresources/Learning_path_course.de.md) verfügbar. 
 
 ## In Lernpfad-Kurs konvertieren
 
-Herkömmliche Kurse und damit u.a. alle Kurse die vor der OpenOlat Version 15 erstellt wurden, können über diesen Link in einen [Lernpfad-Kurs](../course_create/Learning_path_course.de.md) konvertiert werden.
+Herkömmliche Kurse und damit u.a. alle Kurse die vor der OpenOlat Version 15 erstellt wurden, können über diesen Link in einen [Lernpfad-Kurs](../learningresources/Learning_path_course.de.md) konvertiert werden.
 
 Diese Funktion ist nur für herkömmliche Kurse verfügbar.
 
@@ -125,7 +125,7 @@ Diese Funktion ist nur für herkömmliche Kurse verfügbar.
 
 Exportieren Sie Ihre Lernressourcen als ZIP-Datei um eine Sicherungskopie zu erhalten oder um die Lernressource in einer anderen OpenOlat Instanz z.B. einer anderen Bildungseinrichtung zu importieren und so weiterzuverwenden. Das Erlauben einer Kurskopie für andere Autoren bietet sich z.B. für Kursvorlagen an.
 
-Als Besitzer einer Lernressource können Sie darüber hinaus im Administrationsmenü unter „Einstellungen“ → "Freigabe für andere Autoren" bestimmen, ob Ihre Lernressource von allen anderen OpenOlat-Autoren des Systems exportiert, kopiert oder referenziert werden darf.  Weitere Infos dazu finden Sie [hier](../course_create/Access_configuration.de.md).
+Als Besitzer einer Lernressource können Sie darüber hinaus im Administrationsmenü unter „Einstellungen“ → "Freigabe für andere Autoren" bestimmen, ob Ihre Lernressource von allen anderen OpenOlat-Autoren des Systems exportiert, kopiert oder referenziert werden darf.  Weitere Infos dazu finden Sie [hier](../learningresources/Access_configuration.de.md).
 
 
 ## (Lernressource) Löschen
@@ -139,7 +139,7 @@ Wenn ein Kurs bzw. Lernressource gelöscht wird, werden alle Benutzerdaten entfe
 
 !!! info "Archivierung"
 
-    Wenn Sie einen Kurs löschen, werden Benutzerdaten (z.B. Testresultate) zuerst als Excel-Datei in Ihrem [persönlichen Ordner](../personal/Personal_folders.de.md) archiviert und im Anschluss gelöscht.
+    Wenn Sie einen Kurs löschen, werden Benutzerdaten (z.B. Testresultate) zuerst als Excel-Datei in Ihrem [persönlichen Ordner](../personal_menu/Personal_folders.de.md) archiviert und im Anschluss gelöscht.
 
 Es ist möglich, andere Kursbesitzer via E-Mail über das Beenden oder Löschen eines Kurses zu informieren. Dies kann entweder im Beenden/Löschen-Dialog optional ausgewählt oder vom OpenOlat Administrator systemweit eingestellt werden.
 
@@ -149,12 +149,12 @@ Ebenso kann ein Kurs auch automatisiert beendet bzw. gelöscht werden. Entsprech
 
 Weitere Menüs der Administration werden auf separaten Handbuchseiten konkreter vorgestellt:
 
-* [(Kurs) Einstellungen](../course_create/Course_Settings.de.md)
+* [(Kurs) Einstellungen](../learningresources/Course_Settings.de.md)
 * [Mitgliederverwaltung](Members_management.de.md)
 * [Kursbausteine](../course_elements/index.de.md) des Kurseditors
 * [Ablageordner](Storage_folder.de.md) 
 * [Bewertungswerkzeug](Assessment_tool_-_overview.de.md) 
 * [Erinnerung](Course_Reminders.de.md) 
-* [Prüfungsmodus](../e-assessment/Assessment_mode.de.md)
+* [Prüfungsmodus](../learningresources/Assessment_mode.de.md)
 * [Lektionen und Absenzen](Lectures_and_absences.de.md)
 * [Datenarchivierung](Data_archiving.de.md)

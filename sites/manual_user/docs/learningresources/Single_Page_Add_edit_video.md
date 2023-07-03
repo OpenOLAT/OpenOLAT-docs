@@ -9,7 +9,7 @@ open the editor and get to the button "Add / edit video".
 ![add_video_button.png](assets/SinglePage_Video_EN.png)  
 
 You should always use the plugin "Add/edit video" if you need to embed a video
-into a "[Single Page](../course_elements/Knowledge_Transfer.md)" course
+into a "[Single Page](../learningresources/Knowledge_Transfer.md)" course
 element. It accesses OpenOlats integrated media player, which has its
 advantages.  
 1. The player automatically detects the format, as long video and audio

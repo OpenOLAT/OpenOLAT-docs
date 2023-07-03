@@ -1,7 +1,7 @@
 # Blog erstellen
 
-  * [Vier Schritte zu Ihrem Blog](Four_Steps_to_Your_Blog.de.md)
-  * [Blog - Weitere Konfigurationen](Blog_-_Further_Configurations.de.md)
+  * [Vier Schritte zu Ihrem Blog](../resource_blog/Four_Steps_to_Your_Blog.de.md)
+  * [Blog - Weitere Konfigurationen](../learningresources/Blog_Further_Configurations.de.md)
 
   
 

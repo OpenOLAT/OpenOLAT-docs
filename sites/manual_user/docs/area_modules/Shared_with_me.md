@@ -4,7 +4,7 @@
 soon as somebody gives you the access rights to a binder, section or entry,
 they appear here. This view gives you a summary about the binders you should
 look at. Also you can see the entries which already got an
-[assessment](Process_of_an_assessment_portfolio.md).  
+[assessment](../portfolio/Process_of_an_assessment_portfolio.md).  
 
 ![list.png](assets/portfolio_shared_with_me_list.jpg)
 

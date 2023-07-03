@@ -4,13 +4,13 @@ Here you will learn how to create a form for different purposes, set it up and i
 
 ## Step 1: Create learning resource form
 
-1. In the [Authoring Area](../authoring/index.md) click on the link "Create" and select the learning resource "Form ".
+1. In the [Authoring Area](../area_modules/Authoring.md) click on the link "Create" and select the learning resource "Form ".
 2. Enter a title for the form.
-3. The menu "[Settings](../course_create/Course_Settings.md)" of the administration appears. Here you can optionally make further settings immediately or later, e.g. store a license.
+3. The menu "[Settings](../learningresources/Course_Settings.md)" of the administration appears. Here you can optionally make further settings immediately or later, e.g. store a license.
 
 !!! info "Note"
 
-    If you want to use the [Form in Courses](Forms_in_Courses.md)you don't need to submit the tab "Release" of the learning resource Form. Setting up the tab "Release" is primarily relevant if you want to use the learning resource stand-alone.
+    If you want to use the [Form in Courses](../learningresources/Forms_in_Courses.md)you don't need to submit the tab "Release" of the learning resource Form. Setting up the tab "Release" is primarily relevant if you want to use the learning resource stand-alone.
 
 !!! tip "Tip"
 
@@ -18,7 +18,7 @@ Here you will learn how to create a form for different purposes, set it up and i
 
 ## Step 2: Design + finalize form
 
-1. In the "administration" of the learning resource choose form > "edit content" and you will get to the [form editor](../forms/Form_editor_17_1.md)
+1. In the "administration" of the learning resource choose form > "edit content" and you will get to the [form editor](../learningresources/Form_editor_17_1.md)
 2. "Neu Layout hinzufügen: Wählen Sie eine der angezeigten Grundstrukturen für Ihr Formular. Das Formular wird in die entsprechend gekennzeichneten Bereiche aufgeteilt indem Sie im nächsten Schritt verschiedene Inhalte hinzufügen können.
 3. choose "Add content" and select the desired element. It is best to start with a "Title" and add a short introductory text with the "Paragraph" element to inform the users accordingly.
 
@@ -32,15 +32,15 @@ Here you will learn how to create a form for different purposes, set it up and i
 
 Depending on the type of question you want to create, select "Rubric", "Single selection", "Multiple selection", "Upload file" or "Text input".
 
-For more details on how to use the Form Editor, see the "[Form Editor"](../forms/Form_editor_17_1.md) chapter.
+For more details on how to use the Form Editor, see the "[Form Editor"](../learningresources/Form_editor_17_1.md) chapter.
 
 ## Step 3: Embed form directly in course
 
-1. go to the [author area](../authoring/index.md). In the area "My courses as well as under "My entries" and if necessary under "Favorites" you will find your courses. Start the course in which the form is to be integrated.
+1. go to the [author area](../area_modules/Authoring.md). In the area "My courses as well as under "My entries" and if necessary under "Favorites" you will find your courses. Start the course in which the form is to be integrated.
 
 2. Open the "[Course editor](../course_create/In_Five_Steps_to_Your_Course_With_the_Course_Editor.md)" via "Administration".
    
-    Select "Insert course elements" and click on the desired [course element](../course_elements/Assessment.md) form, survey or [assessment](../course_elements/Course_Element_Assessment.md), depending on your scenario.
+    Select "Insert course elements" and click on the desired [course element](../learningresources/Assessment.md) form, survey or [assessment](../learningresources/Course_Element_Assessment.md), depending on your scenario.
 
 3. Go to the respective tab Form or Survey of the course element and add a suitable form here → "Select, create or import file".
 
@@ -62,4 +62,4 @@ For more details on how to use the Form Editor, see the "[Form Editor"](../forms
 
 !!! tip "Tip"
 
-    If necessary, also make sure that the configuration of previous course elements or the top course node does not undesirably restrict editing, e.g. by sequential learning steps or undesirable completion criteria in the [Learning path tab](../course_create/Learning_path_course_-_Course_editor.md).
+    If necessary, also make sure that the configuration of previous course elements or the top course node does not undesirably restrict editing, e.g. by sequential learning steps or undesirable completion criteria in the [Learning path tab](../learningresources/Learning_path_course_Course_editor.md).

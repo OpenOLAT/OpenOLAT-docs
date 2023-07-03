@@ -10,7 +10,7 @@ the standard setting), filling in the form is not anonymous.
 
 For the
 completion of the course element, a last deadline can be defined in the tab
-"Form". A [course reminder](../course_operation/Course_Reminders.md) can also be linked in
+"Form". A [course reminder](../learningresources/Course_Reminders.md) can also be linked in
 addition. In contrast to the survey module, participants automatically receive
 a confirmation e-mail with the date and time of submission as well as their
 completed form as a PDF attachment when they submit the completed form.

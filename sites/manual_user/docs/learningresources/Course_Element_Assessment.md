@@ -8,7 +8,7 @@
 You configure the assessment module in the course editor in the tab
 "Assessment". Here you can configure the evaluation in such a way that
 
-  * A [rubric](../forms/Rubric.md) is used as the basis for the evaluation
+  * A [rubric](../learningresources/Rubric.md) is used as the basis for the evaluation
   * Points are awarded (or not)
   * An individual comment can be added to
   * An individual document can be added

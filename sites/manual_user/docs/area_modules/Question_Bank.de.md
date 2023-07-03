@@ -24,7 +24,7 @@ Der Fragenpool ist in folgende Bereiche gegliedert:
   * Der letzte Bereich ist sichtbar, wenn der Beurteilungsprozess aktiviert ist. Dann sind unter Mein Fragenpool zusätzlich die eigenen Fächer sichtbar und je nach Berechtigung die Abschnitte Beurteilung und Final. Weitere Informationen zum Beurteilungsprozess finden Sie unter [Fragenpool Beurteilungsprozess](Question_Bank_Review_Process.de.md).
 
 Einzelne Fragen, ganze Sektionen oder Tests können auch direkt aus dem
-[Testeditor ](../tests/Test_editor_QTI_2.1.de.md)in den Pool exportiert werden. Wählen Sie dazu
+[Testeditor ](../learningresources/Test_editor_QTI_2.1.de.md)in den Pool exportiert werden. Wählen Sie dazu
 im Testeditor in der Toolbar den Link "Export" → "Zum Pool exportieren".
 Abhängig davon auf welcher Stufe Sie sich im Menübaum links befinden, werden
 entweder einzelne Fragen, einzelne Sektionen oder der ganze Test in den

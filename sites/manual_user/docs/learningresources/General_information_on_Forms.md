@@ -10,7 +10,7 @@ Forms can also be integrated into the learning resource "Portfolio 2.0 Template"
 
 Typical for forms is that they consist of an information element, one or more questions and provide the user with an action option. For example, something can be checked or a selection can be made or own text can be inserted. Depending on the implementation and further integration into a course, the information is anonymous or personal.
 
-In forms many different [question types](../forms/Form_editor_Questionnaire_editor.md) like rubric, single selection, multiple selection, text input and file upload are available. Each form consists of a page with one or more questions or elements. Branching is also possible via [Question rules](Question_rules.md).
+In forms many different [question types](../learningresources/Form_editor_Questionnaire_editor.md) like rubric, single selection, multiple selection, text input and file upload are available. Each form consists of a page with one or more questions or elements. Branching is also possible via [Question rules](Question_rules.md).
 
 ## Changes to forms and included questionnaires
 

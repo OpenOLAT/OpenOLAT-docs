@@ -35,7 +35,7 @@ embedding it in your course and activating it for your participants.
  
  - When you have made all the desired changes, select "save" and close the CP-editor. 
 
-More information on the available editor features can be found in the **[CP Editor](CP_Editor.md)** chapter.
+More information on the available editor features can be found in the **[CP Editor](../learningresources/CP_Editor.md)** chapter.
 
 ## Step 4: Publish the course
 
@@ -51,7 +51,7 @@ In the tab "Layout" you define the settings for the display of the CP. The setti
 ## Step 5: Set up course access   
 
 The CP is now embedded in your course. 
-To enable learners to view and edit the CP in the course, the course must have the status "Published" and the [Access configuration](../course_create/Access_configuration.md) should be set up appropriately.
+To enable learners to view and edit the CP in the course, the course must have the status "Published" and the [Access configuration](../learningresources/Access_configuration.md) should be set up appropriately.
 
 To edit the CP further, you can always start again at step 3 or access the learning resource CP directly in the author area via the area "My entries".
 

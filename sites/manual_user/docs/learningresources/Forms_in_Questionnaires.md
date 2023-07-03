@@ -2,9 +2,9 @@
 
 The learning resource Form is used in the course element "Survey" in the form of a questionnaire. Course owners can thus include questionnaires in their course and learners can complete the surveys provided. The results are then displayed to course owners and tutors accordingly.
 
-OpenOlat ensures that course participants can only fill out the survey or questionnaire once. By default, the results are stored anonymously. However, personalization is possible by selecting the appropriate form elements [Form Editor](../forms/Form_editor_Questionnaire_editor.md).
+OpenOlat ensures that course participants can only fill out the survey or questionnaire once. By default, the results are stored anonymously. However, personalization is possible by selecting the appropriate form elements [Form Editor](../learningresources/Form_editor_Questionnaire_editor.md).
 
-You can learn how to create forms and integrate them into courses [here](Three_Steps_to_your_Form.md).
+You can learn how to create forms and integrate them into courses [here](../forms/Three_Steps_to_your_Form.md).
 
 ## In the course editor
 
@@ -12,7 +12,7 @@ Go to the course editor and add the course element Survey. After you have added 
 
 ![Survey course editor](assets/Umfrage_Kurseditor.png){ class="shadow lightbox" }
 
-In the tab "Title and description" as well as "Layout" general descriptions and information about the respective course element can be stored and the visual presentation can be defined. In the [tab learning_path](../course_create/Learning_path_course_-_Course_editor.md) special settings are defined that apply to learning_path courses, e.g. the completion criterion "survey participated" can be selected.
+In the tab "Title and description" as well as "Layout" general descriptions and information about the respective course element can be stored and the visual presentation can be defined. In the [tab learning_path](../learningresources/Learning_path_course_Course_editor.md) special settings are defined that apply to learning_path courses, e.g. the completion criterion "survey participated" can be selected.
 
 Conventional courses, on the other hand, have the tabs Visibility and Access. Here you define who can see or edit this course element.
 
@@ -24,9 +24,9 @@ The central configuration is done in the tab "Survey". In the first step, you ca
 
 If you have not yet created a form, you can create a new learning resource form by clicking the "Create" button or import an existing external form. Afterwards, the newly created or imported form will also appear in the list and can be selected.
 
-A newly created form does not yet contain any elements, questions or text fields. These have to be added in the course via "Edit" or alternatively directly in the learning resource in the [Form Editor](../forms/Form_editor_Questionnaire_editor.md).
+A newly created form does not yet contain any elements, questions or text fields. These have to be added in the course via "Edit" or alternatively directly in the learning resource in the [Form Editor](../learningresources/Form_editor_Questionnaire_editor.md).
 
-If a form is created directly in the course editor, a new learning resource Form will be created automatically, which can also be found in the [Authoring Area](../authoring/index.md) under "My entries" and can be included in further courses.
+If a form is created directly in the course editor, a new learning resource Form will be created automatically, which can also be found in the [Authoring Area](../area_modules/Authoring.md) under "My entries" and can be included in further courses.
 
 After a form has been selected it can be designed via the link "Edit". If the form has already been set up appropriately, it is no longer necessary to edit it.
 
@@ -45,7 +45,7 @@ Also the results can be released for all these groups and can be linked with a s
 
 !!! tip "Tip"
 
-    However, a prerequisite for editing the survey is that the entire course is also released for the respective group of people. So, for example, if a survey should also be fillable by external persons (guests), the course must also be released for guests in the menu `"Settings" > [Release](../course_create/Access_configuration.md) "open without booking"`.
+    However, a prerequisite for editing the survey is that the entire course is also released for the respective group of people. So, for example, if a survey should also be fillable by external persons (guests), the course must also be released for guests in the menu `"Settings" > [Release](../learningresources/Access_configuration.md) "open without booking"`.
 
 If a form is included as a survey in a course, the form can be changed in a limited way in the course via the "edit" button. Texts can be changed but individual blocks cannot be moved or new areas can be created or deleted. In the form the message "The resource is already used..." appears.
 
@@ -83,7 +83,7 @@ Furthermore, the contents of all 4 tabs can also be printed or downloaded as an 
 
 The same evaluation can be found in the menu `Administration > Survey Statistics`.
 
-The results can also be saved via the menu "[Data archiving](../course_operation/Using_Course_Tools.md)" > "Surveys". This is the same file as under "Export" in the course run.
+The results can also be saved via the menu "[Data archiving](../learningresources/Using_Course_Tools.md)" > "Surveys". This is the same file as under "Export" in the course run.
 
 ### Reset surveys
 

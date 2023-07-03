@@ -54,7 +54,7 @@ The checkboxes of the individual users can be added manually and the
 assessment form can be filled in. Depending on the course element
 configuration, either points and/or the attribute Passed can be assigned.
 Further information on the checklist can be found
-[here](../course_elements/Course_Element_Checklist.md).
+[here](../learningresources/Course_Element_Checklist.md).
 
 ![Checkliste im Bewertungswerkzeug](assets/Checkliste_Bewertungsformular.png){ class="shadow lightbox" }
 
@@ -73,7 +73,7 @@ By clicking on the name of a user you will get to the concrete assessment. Here 
 
 ![assessment form](assets/Bewertung_Bewerutngsformular_mit_Rubrik.png){ class="shadow lightbox" }
 
-If you have stored a [rubric] (../forms/Rubric.md) as the basis for assessment, you can quickly and effectively carry out a criteria-based assessment. Here is an example:
+If you have stored a [rubric] (../learningresources/Rubric.md) as the basis for assessment, you can quickly and effectively carry out a criteria-based assessment. Here is an example:
 
 ![Feedback form](assets/Bewertungswerkzeug_Rubrik.png){ class="shadow lightbox" }
 
@@ -81,12 +81,12 @@ In addition, bulk assessment is also possible for the course element
 "Assessment".
 
 ## Portfolio task
-The assessment of the course element "[Portfoliotask](../portfolio/Creating_Portfolio_Tasks.md)" includes the following options:
+The assessment of the course element "[Portfoliotask](../learningresources/Creating_Portfolio_Tasks.md)" includes the following options:
 
 ![Portfolio task](assets/Portfolioaufgabe_Bewertung.png){ class="shadow lightbox" }
 
 The assessment for the portfolio is the same in the assessment tool as in the
-["Assessment" tab in the portfolio](../portfolio/Portfolio_assignment_Grading.md))
+["Assessment" tab in the portfolio](../learningresources/Portfolio_assignment_Grading.md))
 itself. However, the individual areas cannot be opened here, only assessed. It
 is therefore recommended to perform the assessment directly in the portfolio.
 
@@ -115,4 +115,4 @@ The assessment form can also be filled out and customized for the LTI element.
 In the course element under Page content, it is mandatory that "Transfer
 points" is selected. Depending on this, a scaling factor must be entered and
 the passing score defined. Further information on configuring LTI pages can be
-found [here](../course_elements/Other.md).
+found [here](../learningresources/Other.md).

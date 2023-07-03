@@ -47,7 +47,7 @@ unzip it in the OpenOlat folder. On the other side several files can be
 transferred and organized by WebDAV. All folders are WebDAV compatible. This
 means OpenOlat is available as a normal net-device, with which you can easily
 copy, move and delete files. Further information can be found in the chapter
-"[Using WebDAV](../supported_tech/Using_WebDAV.md)".
+"[Using WebDAV](../basic_concepts/Using_WebDAV.md)".
 
 In order for the WebDAV access to work, it needs to be [activated
 ](../../manual_admin/administration/WebDAV.de.md)by your OpenOlat administrator first.
@@ -64,8 +64,8 @@ In OpenOlat exist several different versions of folders. Beside the two
 folders in the personal menu in OpenOlat exist the following folder versions:
 
   * [Storage folder](../course_operation/Storage_folder.md)  (in courses)
-  * [Course element folder](../course_elements/Course_Element_Folder.md) (in courses)
+  * [Course element folder](../learningresources/Course_Element_Folder.md) (in courses)
   * Folders in Topic assignment (in courses)
-  * [Participant folder](../course_elements/Communication_and_Collaboration.md#CommunicationandCollaboration-_participantfolder) (in courses)
-  * [Resource folder ](../authoring/Various_Types_of_Learning_Resources.md#resource-folder)(learning resource)  
+  * [Participant folder](../learningresources/Communication_and_Collaboration.md#CommunicationandCollaboration-_participantfolder) (in courses)
+  * [Resource folder ](../learningresources/index.md#resource-folder)(learning resource)  
 
