@@ -1,3 +1,5 @@
+![bereiche_katalog20_v1_de.png](assets/bereiche_katalog20_v1_de.png){ class="shadow lightbox" }
+
 # Katalog 2.0
 
 :octicons-tag-24: Release 17.0
@@ -35,7 +37,7 @@ Man kann die Kursliste weiter durch Filter oder Suche verfeinern.
 Bei einer Suche kommt man auf diese Seite. Hier lassen sich durch verschiedene Filter die Suche verfeinern.
 
 **Filter**
-Die Filter der Suchergebnissseite lassen sich unter `Administration > Module > Katalog > Filter` einstellen. Hier kann gewählt werden, welche Filter für Teilnehmer verfügbar sein sollen. Weitere Informationen finden Sie im [Administrationshandbuch]("../../../manual_admin/docs/administration/Modules_Catalog_2.0.de.md")
+Die Filter der Suchergebnissseite lassen sich unter `Administration > Module > Katalog > Filter` einstellen. Hier kann gewählt werden, welche Filter für Teilnehmer verfügbar sein sollen. Weitere Informationen finden Sie im [Administrationshandbuch]("../../../../../manual_admin/administration/Modules_Catalog_2.0.de.md")
 
 ## Einrichten und Freigeben neuer Kurse für den Katalog 2.0
 
@@ -67,3 +69,4 @@ Die folgenden Objekte werden in den neuen Katalog übertragen:
 * Katalogbilder werden konvertiert. Als neues Bildformat wird eine rechteckige Darstellung mit dem Format 2:1 empfohlen.
 * Die Katalogstruktur wird als neue Katalogtaxonomie angelegt und ist dann unter Abteilungen/Katalog verfügbar.
 * Unterkategorietitel, Kurztitel & Beschreibungen sind auf neu gestalteten Unterseiten verfügbar.
+
