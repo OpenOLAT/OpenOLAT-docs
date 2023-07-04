@@ -63,7 +63,17 @@ nav:
       - Question Bank Review Process: "area_modules/Question_Bank_Review_Process.md"
       - Question Bank Administration: "area_modules/Question_Bank_Administration.md"
     - Projects:
-      - Overview: "area_modules/projekte_neu.md"
+      - Overview: "area_modules/projekte_ueberblick.md"
+      - Create a new project: "area_modules/projekte_neu.md"
+      - Edit a project: "area_modules/projekte_bearbeiten.md"
+      - Start screen: "area_modules/projekte_startscreen.md"
+      - Project members: "area_modules/projekte_mitglieder.md"
+      - Schedule: "area_modules/projekte_termine.md"
+      - To-dos: "area_modules/projekte_todos.md"
+      - Decisions: "area_modules/projekte_entscheide.md"
+      - Notes: "area_modules/projekte_notizen.md"
+      - Media center: "area_modules/projekte_mediathek.md"
+      - Project report: "area_modules/projekte_report.md"
     - Portfolio:
       - Overview: "area_modules/Portfolio.md"
       - Portfolio - General Information: "area_modules/Portfolio_General_Information.md"

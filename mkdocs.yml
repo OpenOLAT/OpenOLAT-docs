@@ -194,6 +194,7 @@ plugins:
           Create a blog : Blog erstellen
           Create a Content Package : Content Package erstellen
           Create a form : Formular erstellen
+          Create a new project : Neues Projekt erstellen
           Create a podcast : Podcast erstellen
           Create a wiki : Wiki erstellen
           Create course: Kurs erstellen
@@ -218,6 +219,7 @@ plugins:
           Data archiving : Datenarchivierung
           Data Management : Handhabung der Daten
           Data protection : Datenschutz
+          Decisions : Entscheide
           Deleting, Moving and Copying Course Elements : Löschen, Verschieben und Kopieren von Kursbausteinen
           Design possibilities of courses and course elements : Gestalterische Möglichkeiten von Kursen und Kursbausteinen
           Detailed View of Learning Resources : Detailansicht einer Lernressource
@@ -229,6 +231,7 @@ plugins:
           eAssessment : Online Prüfungen
           eAssessment ePortfolio : e-Assessment ePortfolio
           eAssessment Question bank : e-Assessment Fragenpool
+          Edit a project : Projekt bearbeiten
           edu-sharing: edu-sharing
           Edubase: Edubase
           Enrolment: Einschreibung
@@ -326,6 +329,7 @@ plugins:
           My first course : Mein erster Kurs
           My portfolio binders : Meine Portfolio Mappen
           Navigation : Navigation
+          Notes : Notizen
           Notifications : Mitteilungen
           Offer Courses : Kurse anbieten
           OpenMeetings : OpenMeetings
@@ -356,8 +360,11 @@ plugins:
           Portfolio 2.0 Template : Portfolio 2.0 Vorlage
           Practice: Übung
           Process of an assessment portfolio : Prozess eines Bewertungsportfolios
+          Project members : Projektmitarbeiter
+          Project report : Projektreport
           Projects : Projekte
           Opencast : Opencast
+          Overview : Überblick
           Question Bank : Fragenpool
           Question Bank Administration : Fragenpool Administration
           Question bank possible operations : Mögliche Aktionen im Fragenpool
@@ -375,6 +382,7 @@ plugins:
           Resource folder : Ressourcenordner
           Roles and Rights : Rollen und Rechte
           Rubric : Rubrik
+          Schedule : Termine 
           SCORM Learning Content : SCORM-Lerninhalt
           Search : Suchfunktion
           Security : Sicherheit
@@ -386,6 +394,7 @@ plugins:
           Shared with me : An mich freigegeben
           Single Page : Einzelne Seite
           Start: Start
+          Start screen : Startscreen
           Structure: Struktur
           Storage folder : Ablageordner
           Supported Technologies : Unterstützende Technologien
@@ -413,6 +422,7 @@ plugins:
           Three Steps to your Form : Drei Schritte zu Ihrem Formular
           Three steps to your portfolio binder : Drei Schritte zu Ihrer Mappe
           Three Steps to Your Task : Drei Schritte zu Ihrer Aufgabe
+          To-dos : To-dos
           Topic assigment : Themenvergabe
           Topic assigment - Working with Topic Assignment : Themenvergabe - Arbeiten mit der Themenvergabe
           Transfer files using WebDAV : Dateien mittels WebDAV übertragen
