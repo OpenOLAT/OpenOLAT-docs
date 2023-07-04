@@ -62,6 +62,8 @@ nav:
       - Question Pool Sharing Options: "area_modules/Question_Pool_Sharing_Options.md"
       - Question Bank Review Process: "area_modules/Question_Bank_Review_Process.md"
       - Question Bank Administration: "area_modules/Question_Bank_Administration.md"
+    - Projects:
+      - Overview: "area_modules/projekte_neu.md"
     - Portfolio:
       - Overview: "area_modules/Portfolio.md"
       - Portfolio - General Information: "area_modules/Portfolio_General_Information.md"
