@@ -12,10 +12,10 @@ Im Autorenbereich können die folgenden Lernressourcen erstellt werden:
 Der konkrete Erstellungsprozess ist auf den folgenden Seiten beschrieben:
 
 * Kurs erstellen <br>
-[Ausführliche Anleitung](../../manual_how-to/my_first_course/my_first_course.de.md)
+[Handbuchartikel](../learningresources/Creating_Course.de.md) | [Ausführliche Anleitung](../../manual_how-to/my_first_course/my_first_course.de.md)
 
 * Tests erstellen<br>
-[Ausführliche Anleitung](../../manual_how-to/test_creation_procedure/test_creation_procedure.de.md)
+["Handbuchartikel](../learningresources/Test.de.md) | [Ausführliche Anleitung](../../manual_how-to/test_creation_procedure/test_creation_procedure.de.md)
 
 * CP-Lerninhalt erstellen<br>
 [Handbuchartikel](../learningresources/CP_Editor.de.md) | [Ausführliche Anleitung](../../manual_how-to/content_package/content_package.de.md)
@@ -35,16 +35,8 @@ Der konkrete Erstellungsprozess ist auf den folgenden Seiten beschrieben:
 [Handbuchartikel](../learningresources/Form.de.md)  | [Ausführliche Anleitung](../../manual_how-to/create_a_form/create_a_form.de.md)
 
 * Portfolio erstellen<br>
-[Handbuchartikel](../learningresources/Portfolio_template_Creation.de.md) 
+[Handbuchartikel](../learningresources/Portfolio_template_Creation.de.md)
 
-* [„Kurs erstellen"](../learningresources/Creating_Course.de.md), 
-* [„CP-Lerninhalt erstellen"](../resource_cp/index.de.md), 
-* [„Wiki erstellen"](../learningresources/Wiki.de.md), 
-* [„Podcast erstellen"](../learningresources/Podcast.de.md), 
-* [„Blog erstellen"](../learningresources/Blog.de.md), 
-* ["Portfolio erstellen",](../area_modules/index.de.md) 
-* ["Tests erstellen" ](../learningresources/Test.de.md),
-* ["Formulare erstellen" ](../learningresources/Form.de.md) 
 * Glossar erstellen<br>
 [Handbuchartikel](../learningresources/Glossary.de.md) 
 
@@ -59,21 +51,15 @@ Der konkrete Erstellungsprozess ist auf den folgenden Seiten beschrieben:
 ##  Lernressourcen importieren
 
 Ausserhalb von OpenOlat erstellte oder aus einem OpenOlat System exportierte Lernressourcen können in OpenOlat importiert werden, wenn Sie in einem für OpenOlat kompatiblen Format vorliegen.
+Mögliche Typen werden unter dem Punkt [„Verschiedene Typen von Lernressourcen"](../learningresources/index.de.md) erklärt.
 
-Mit "Importieren URL" können auch Links zu externen Videos z.B. in YouTube gesetzt und als OpenOlat [Lernressource
-Video](../learningresources/Learning_resource_Video.de.md) angelegt werden.
+Mit "Importieren URL" können auch Links zu externen Videos z.B. in YouTube gesetzt und als OpenOlat [Lernressource Video](../learningresources/Learning_resource_Video.de.md) angelegt werden.
 
 ![autorenbereich_importieren_v1_de.png](assets/autorenbereich_importieren_v1_de.png){ class="shadow lightbox" }
 
 Wenn Sie einen Kurs z.B. aus einer anderen OpenOlat Instanz importieren möchten, werden Sie gefragt, ob Sie die vom Kurs referenzierten Lernressourcen (z.B. ein Wiki oder einen Test) ebenfalls importieren möchten. 
 
-Ausserhalb von OpenOlat erstellte oder aus einem OpenOlat System exportierte
-Lernressourcen können in OpenOlat importiert werden, wenn Sie in einem für
-OpenOlat kompatiblen Format vorliegen. Mögliche Typen werden unter dem Punkt
-[„Verschiedene Typen von
-Lernressourcen"](Various_Types_of_Learning_Resources.de.md)
-erklärt. Darüber können über den Link "Importieren URL" auch Links zu externen
-Videos z.B. in YouTube gesetzt und als OpenOlat [Lernressource Video](../learningresources/Learning_resource_Video.de.md) angelegt werden.
+Aktivieren Sie das entsprechende Kontrollkästchen, wenn Sie die referenzierten Lernressourcen ebenfalls importieren möchten. Veröffentlichen Sie den importierten Kurs anschliessend, um ihn für Sie und andere OpenOlat-Nutzer sichtbar zu machen.
 
 Am Ende des Imports erscheint das Menü „Einstellungen“, wo Sie weitere Konfigurationen vornehmen können, z.B. eine Definition der Lizenz.
 
@@ -98,8 +84,7 @@ Spalte «Lizenz» angezeigt werden. Mit Klick auf die Lizenz erhalten Sie detail
 
 !!! info "Ausführliche Anleitung zur Kurserstellung"
 
-    Eine ausführliche Schritt-für-Schritt-Anleitung zum Erstellen eines Kurses finden Sie hier [„hier"](../../manual_how-to/my_first_course/my_first_course.de.md).
-
+    Eine ausführliche Schritt-für-Schritt-Anleitung zum Erstellen eines Kurses finden Sie [„hier"](../../manual_how-to/my_first_course/my_first_course.de.md).
 
 
 :octicons-device-camera-video-24: **Video-Einführung**: [Voraussetzungen für Autoren](<https://www.youtube.com/embed/L0jc_LBKXLE>){:target="_blank”}
