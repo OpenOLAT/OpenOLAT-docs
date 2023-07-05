@@ -48,7 +48,17 @@ nav:
     - Groups:
        - Group Management: "area_modules/Group_Management.md"
     - Coaching:
-      - Overview: "area_modules/Coaching.md" 
+      - Overview: "area_modules/Coaching.md"
+      - Lectures: "area_modules/coaching_lektionen.md"
+      - Classes: "area_modules/coaching_klassen.md"
+      - Members: "area_modules/coaching_teilnehmer.md"
+      - Groups: "area_modules/coaching_gruppen.md"
+      - Courses: "area_modules/coaching_kurse.md"
+      - Role user to user: "area_modules/coaching_personenbeziehungen.md" 
+      - Line manager: "area_modules/coaching_linienvorgesetzte.md"
+      - Orders: "area_modules/coaching_auftraege.md"
+      - Orders management: "area_modules/coaching_auftragsverwaltung.md"
+      - User search: "area_modules/coaching_personensuche.md" 
     - Authoring:
        - Overview: "area_modules/Authoring.md"
        - Create courses and learning resources: "area_modules/authoring_new_course.md"

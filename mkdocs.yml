@@ -151,6 +151,7 @@ plugins:
           Changing from QTI 1.2 to QTI 2.1 : Von QTI 1.2 zu QTI 2.1          
           Chat : Chat
           Checklist : Checkliste
+          Classes : Klassen
           Coach : Betreuer
           Coaching : Coaching
           Communication and Collaboration : Kommunikation und Kollaboration
@@ -297,6 +298,7 @@ plugins:
           Learning resource Video : Lernressource Video
           Life cycles  : Lebenszyklen
           Lifecycle management : Lebenszyklen managen
+          Lectures : Lektionen
           Lectures and absences : Lektionen und Absenzen
           Lectures - User View  : Lektionen - Sicht Benutzer
           Lectures - Teacher View: Lektionen - Sicht Dozent
@@ -305,6 +307,7 @@ plugins:
           Lernpfad Kurse  : Lernpfad Kurse
           License: Lizenz
           Licenses : Lizenzen
+          Line manager : Linienvorgesetzte(r)
           Login : Login
           Login and registration : Login und Registration
           Login Page : Login-Seite
@@ -315,6 +318,7 @@ plugins:
           Math formula : Mathematische Formel
           Media center : Mediathek
           Mediasite : Mediasite
+          Members : Teilnehmer:innen
           Members management : Mitgliederverwaltung
           Microsoft Teams : Microsoft Teams
           Modules : Module
@@ -334,6 +338,8 @@ plugins:
           Offer Courses : Kurse anbieten
           OpenMeetings : OpenMeetings
           Other : Andere
+          Orders : Aufträge
+          Orders management : Auftragsverwaltung
           Organize a topic assignment : Themenvergabe organisieren
           Overview: Übersicht
           Participant Administration : Teilnehmeradministration
@@ -381,6 +387,7 @@ plugins:
           REST API : REST API
           Resource folder : Ressourcenordner
           Roles and Rights : Rollen und Rechte
+          Role user to user : Personenbeziehungen
           Rubric : Rubrik
           Schedule : Termine 
           SCORM Learning Content : SCORM-Lerninhalt
@@ -429,6 +436,7 @@ plugins:
           Types of Course Element : Kursbausteine
           User management : Benutzerverwaltung
           User manual: Benutzerhandbuch
+          User search : Personensuche
           Using additional Course Editor Tools : Verwendung weiterer Kurseditorwerkzeuge
           Using Additional Course Features : Einsatz weiterer Kursfunktionen der Toolbar
           Using Course Tools : Einsatz der Kurswerkzeuge
