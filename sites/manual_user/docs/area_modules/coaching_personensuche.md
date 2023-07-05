@@ -1,6 +1,6 @@
 ![bereiche_coaching_v1_de.png](assets/bereiche_coaching_v1_de.png){ class="shadow lightbox" }
 
-# Coaching - Personensuche
+# Coaching - User search
 
 ![coaching_personensuche_v1_de.png](assets/coaching_personensuche_v1_de.png){ class="shadow lightbox" }
 

@@ -1,6 +1,6 @@
 ![bereiche_coaching_v1_de.png](assets/bereiche_coaching_v1_de.png){ class="shadow lightbox" }
 
-# Coaching - Auftragsverwaltung
+# Coaching - Orders management
 
 ![coaching_auftragsverwaltung_v1_de.png](assets/coaching_auftragsverwaltung_v1_de.png){ class="shadow lightbox" }
 
