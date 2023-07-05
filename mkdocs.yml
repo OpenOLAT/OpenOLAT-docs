@@ -142,6 +142,7 @@ plugins:
           BigBlueButton : BigBlueButton
           BigBlueButton module : Modul BigBlueButton
           Blog  : Blog
+          Bulk actions : Sammelaktionen
           Bulk assessment : Massenbewertung
           Calendar : Kalender
           card2brain Flashcards : card2brain Lernkarten
