@@ -1,6 +1,20 @@
 # What measures can I take to reduce storage space consumption?
 
-Storage space is a cost factor for large volumes. It is also a matter of keeping things in order. Unlimited storage space encourages uncontrolled collecting. A limit helps to set priorities.
+??? abstract "Objectives and content of this instruction"
+
+    Storage space is a cost factor for large volumes. It is also a matter of keeping things in order. Unlimited storage space encourages uncontrolled collecting. A limit helps to set priorities.
+
+??? abstract "Target group"
+
+    [ ] Authors [ ] Coaches  [ ] Participants  [x] Administrators
+
+    [ ] Beginners [x] Experienced users  [x] Experts
+
+
+??? abstract "Expected previous knowledge"
+
+    * Experience as administrator
+
 
 ### A) Limit memory consumption during emergence
 1) Set up quotas<br>
@@ -193,3 +207,9 @@ OpenOlat monitors whether an object has not been used for a long time or a user 
 
 Detailed information on life cycle management can be found at<br>
 [„How do I manage lifecycles of groups, courses or user accounts?"](../lifecycle/lifecycle.md)
+
+---
+
+## Checklist
+
+- [x] tbd

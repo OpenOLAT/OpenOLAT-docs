@@ -1,5 +1,20 @@
 #  How do I manage lifecycles of groups, courses or user accounts?
 
+??? abstract "Objectives and content of this instruction"
+
+    tbd
+
+??? abstract "Target group"
+
+    [ ] Authors [ ] Coaches  [ ] Participants  [x] Administrators
+
+    [ ] Beginners [x] Experienced users  [x] Experts
+
+
+??? abstract "Expected previous knowledge"
+
+    * Experience as administrator
+
 In OpenOlat, lifecycle management can be enabled for
 
 * groups 
@@ -85,3 +100,8 @@ The basis for this is also the default settings of the administrator:
 * Depending on the configuration, users may receive an email with an appropriate notice before or after account deactivation or deletion.
 * The different notification texts related to account deactivation can be formulated and the time of mail notification can be defined. Furthermore, it can be defined whether inactive users should be deleted.
 
+---
+
+## Checklist
+
+- [x] tbd

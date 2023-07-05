@@ -1,5 +1,20 @@
 #  Wie manage ich Lebenszyklen von Gruppen, Kursen oder Benutzerkonten?
 
+??? abstract "Ziel und Inhalt dieser Anleitung"
+
+    tbd
+
+??? abstract "Zielgruppe"
+
+    [ ] Autor:innen [ ] Betreuer:innen  [ ] Teilnehmer:innen  [x] Administrator:innen
+
+    [ ] Anfänger:innen [x] Fortgeschrittene  [x] Experten/Expertinnen
+
+
+??? abstract "Erwartete Vorkenntnisse"
+
+    * Erfahrung als Administrator:in
+
 In OpenOlat kann ein Lebenszyklusmanagement aktiviert werden für
 
 * **Gruppen**
@@ -85,3 +100,8 @@ Grundlage sind auch hier die Voreinstellungen des Administrators:
 * Je nach Konfiguration können die Benutzer vor bzw. nach der Deaktivierung oder Löschung des Kontos eine E-Mail mit einem entsprechenden Hinweis erhalten.
 * Es können die unterschiedlichen Benachrichtigungstexte im Zusammenhang mit der Kontendeaktivierung formuliert und der Zeitpunkt der Mailbenachrichtigung definiert werden. Ferner kann definiert werden, ob inaktive Benutzer gelöscht werden sollen.
 
+---
+
+## Checkliste
+
+- [x] tbd

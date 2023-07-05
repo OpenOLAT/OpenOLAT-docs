@@ -1,5 +1,22 @@
 # How can I create custom CSS for my course design?
 
+??? abstract "Objectives and content of this instruction"
+
+    tbd
+
+??? abstract "Target group"
+
+    [ ] Authors [ ] Coaches  [ ] Participants  [x] Administrators
+
+    [ ] Beginners [x] Experienced users  [x] Experts
+
+
+??? abstract "Expected previous knowledge"
+
+    * Experience as administrator
+	* Experienced in HTML and CSS programming
+
+
 !!! danger "Only for experts!"
 	
 	Creating your own course design is not recommended for normal setups and non-expert users! 
@@ -149,3 +166,9 @@ Should you wish to change the font of titles in OpenOlat, then you should use th
 
  **[W3school:](http://www.w3schools.com/css/default.asp)** Useful resource on CSS selectors, elements and properties  
  **[Notepad++:](https://notepad-plus-plus.org/)** Free text editor adjusted for programming and markup languages such as CSS
+
+---
+
+## Checklist
+
+- [x] tbd

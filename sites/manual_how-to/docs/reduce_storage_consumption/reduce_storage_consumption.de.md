@@ -1,6 +1,20 @@
 # Mit welchen Massnahmen kann ich den Speicherverbrauch reduzieren?
 
-Speicherplatz ist bei grossen Mengen ein Kostenfaktor. Ausserdem geht es darum, Ordnung zu halten. Unbegrenzter Speicherplatz verleitet zu unkontrolliertem Sammeln. Eine Begrenzung hilft dabei, Prioritäten zu setzen.
+??? abstract "Ziel und Inhalt dieser Anleitung"
+
+    Speicherplatz ist bei grossen Mengen ein Kostenfaktor. Ausserdem geht es darum, Ordnung zu halten. Unbegrenzter Speicherplatz verleitet zu unkontrolliertem Sammeln. Eine Begrenzung hilft dabei, Prioritäten zu setzen.
+
+??? abstract "Zielgruppe"
+
+    [ ] Autor:innen [ ] Betreuer:innen  [ ] Teilnehmer:innen  [x] Administrator:innen
+
+    [ ] Anfänger:innen [x] Fortgeschrittene  [x] Experten/Expertinnen
+
+
+??? abstract "Erwartete Vorkenntnisse"
+
+    * Erfahrung als Administrator:in
+
 
 ### A) Speicherverbrauch bei der Entstehung einschränken
 1) Quotas einrichten<br>
@@ -187,3 +201,9 @@ OpenOlat überwacht, ob eine Gruppe bzw. ein Kurs länger nicht benutzt wurde od
 
 Ausführliche Informationen zum Lebenszyklusmanagement finden Sie unter<br>
 [„Wie manage ich Lebenszyklen von Gruppen, Kursen oder Benutzerkonten?"](../lifecycle/lifecycle.de.md)
+
+---
+
+## Checkliste
+
+- [x] tbd

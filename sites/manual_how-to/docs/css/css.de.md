@@ -1,5 +1,22 @@
 # Wie kann ich eigene CSS für das Kursdesign erstellen?
 
+??? abstract "Ziel und Inhalt dieser Anleitung"
+
+    tbd
+
+??? abstract "Zielgruppe"
+
+    [ ] Autor:innen [ ] Betreuer:innen  [ ] Teilnehmer:innen  [x] Administrator:innen
+
+    [ ] Anfänger:innen [ ] Fortgeschrittene  [x] Experten/Expertinnen
+
+
+??? abstract "Erwartete Vorkenntnisse"
+
+    * Erfahrung als Administrator:in
+	* Erfahrung mit HTML und CSS-Programmierung
+
+
 !!! danger "Nur für Experten!"
 	
 	Für normale Setups und Nicht-Experten ist die Verwendung eines eigenen Kurs-Designs nicht empfohlen!
@@ -157,3 +174,9 @@ beispielsweise folgende CSS-Eigenschaften:
 
  **[W3school:](http://www.w3schools.com/css/default.asp)** Ressource über die CSS-Sprache  
  **[Notepad++:](https://notepad-plus-plus.org/)** kostenfreier Editor
+
+---
+
+## Checkliste
+
+- [x] tbd

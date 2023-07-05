@@ -1,26 +1,17 @@
 # How do I proceed when I create a test?
 
-!!! info ""
-
-    **Objectives and content of this instruction**
+??? abstract "Objectives and content of this instruction"
 
     There are various ways to create tests in OpenOlat. Here you will find an overview of the most common ways. Get to know the possibilities and then choose the procedure that suits you best.
 
-!!! info ""
+??? abstract "Target group"
 
-    **Target group**
-    
     [x] Beginners [x] Advanced Users [ ] Experts
 
-!!! info ""
 
-    **Expected previous knowledge**
+??? abstract "Expected previous knowledge"
 
     * [„How do I create my first OpenOlat course?"](../my_first_course/my_first_course.md)
-
-
-
-<br>
 
 ---
 
