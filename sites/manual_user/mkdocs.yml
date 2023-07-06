@@ -45,6 +45,7 @@ nav:
       - Catalog 1.0: "area_modules/catalog1.0.md"
     - Catalog:
       - Catalog 2.0: "area_modules/catalog2.0.md"
+      - Components: "area_modules/catalog2.0_bestandteile.md"
     - Groups:
        - Group Management: "area_modules/Group_Management.md"
     - Coaching:
