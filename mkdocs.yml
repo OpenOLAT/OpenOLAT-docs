@@ -138,6 +138,7 @@ plugins:
           Automatic Group Lifecycle : Automatischer Gruppenlebenszyklus
           BBB - Frequently asked questions: BBB - Häufig gestellte Fragen
           Basic concepts : Basiskonzepte
+          Basic terms : Grundbegriffe
           Bestandteile : Components
           Bewertungswerkzeug  : Bewertungswerkzeug
           BigBlueButton : BigBlueButton
@@ -158,6 +159,7 @@ plugins:
           Coaching : Coaching
           Communication and Collaboration : Kommunikation und Kollaboration
           Competences tags : Kompetenzen verschlagworten
+          Components : Bestandteile
           Components of the portfolio : Bestandteile des Portfolios
           Configuration : Konfiguration
           Configure test questions : Test Fragen konfigurieren
@@ -371,6 +373,7 @@ plugins:
           Project members : Projektmitarbeiter
           Project report : Projektreport
           Projects : Projekte
+          Offers : Anbebote
           Opencast : Opencast
           Overview : Überblick
           Question Bank : Fragenpool

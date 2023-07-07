@@ -40,12 +40,12 @@ Wie in anderen Katalogen, werden auch im OpenOlat-Katalog in vielen kleinen Eint
 
 ## Welche Philosophie steckt hinter dem Katalog V1?
 
-Der Katalog V1 gründet auf der „Browse“-Strategie: Die Benutzer suchen im Katalog, indem sie  die Kategorien des Katalogs durchstöbern (browsen).
+Der Katalog V1 gründet auf der **„Browse“-Strategie:** Die Benutzer suchen im Katalog, indem sie  die Kategorien des Katalogs durchstöbern (browsen).
 Das Browsen war in den Anfängen des Internets sehr beliebt, heute bevorzugen die meisten Nutzer die Strategie „Suchen und Filtern“.
 
 ## Welche Philosophie steckt hinter dem Katalog V2?
 
-Im Unterschied zum Katalog V1, der auf dem Konzept des „Browsens“ aufbaut, liegt dem Katalog V2 das Konzept „Suchen und Filtern“ zu Grunde.
+Im Unterschied zum Katalog V1, der auf dem Konzept des „Browsens“ aufbaut, liegt dem Katalog V2 das **Konzept „Suchen und Filtern“** zu Grunde.
 
 Der Katalog V2 bietet etliche Vorteile:
 
