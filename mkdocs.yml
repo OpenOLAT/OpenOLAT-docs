@@ -339,12 +339,14 @@ plugins:
           Notes : Notizen
           Notifications : Mitteilungen
           Offer Courses : Kurse anbieten
+          Offers : Angebote
+          Opencast : Opencast
           OpenMeetings : OpenMeetings
           Other : Andere
           Orders : Aufträge
           Orders management : Auftragsverwaltung
           Organize a topic assignment : Themenvergabe organisieren
-          Overview: Übersicht
+          Overview : Übersicht
           Participant Administration : Teilnehmeradministration
           Participant Folder : Teilnehmer Ordner
           Participant list : Teilnehmerliste
@@ -372,9 +374,6 @@ plugins:
           Project members : Projektmitarbeiter
           Project report : Projektreport
           Projects : Projekte
-          Offers : Anbebote
-          Opencast : Opencast
-          Overview : Überblick
           Question Bank : Fragenpool
           Question Bank Administration : Fragenpool Administration
           Question bank possible operations : Mögliche Aktionen im Fragenpool
