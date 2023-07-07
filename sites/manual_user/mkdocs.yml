@@ -47,7 +47,7 @@ nav:
       - Catalog 2.0: "area_modules/catalog2.0.md"
       - Components: "area_modules/catalog2.0_bestandteile.md"
       - Basic terms: "area_modules/catalog2.0_grundbegriffe.md"
-      - Offers: "area_modules/catalog2.0_angebotee.md"
+      - Offers: "area_modules/catalog2.0_angebote.md"
     - Groups:
        - Group Management: "area_modules/Group_Management.md"
     - Coaching:
