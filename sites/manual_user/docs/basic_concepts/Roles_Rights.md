@@ -8,7 +8,7 @@ OpenOlat works with a roles and rights management. First two user types are
 differentiated. These are:
 
 * **Anonymous guest:** Guests have - without registration - limited access to OpenOlat. They can only have a look at learning content enabled for guests, but cannot take part in learning activities. The link to the guest access can be found on the login page. Further information about guest can be found [here](guest_access.md).
-* **System user:**  Every user has a distinct username, which cannot be changed after the registration anymore. Users can use enabled learning content and can take part in learning activities. Additionally every users has an individual configurable landing page and storage available. Further more he can create groups.
+* **System user:**  Every user has a distinct username, which cannot be changed after the registration anymore. Users can use enabled learning content and can take part in learning activities. Additionally every users has an individual configurable landing page and [storage](../personal_menu/Personal_folders.md) available. Further more he can create [groups](../groups/index.md).
 
 !!! info "Note"
 
@@ -21,16 +21,18 @@ System users can get one ore more roles additionally.
 With OpenOlat Release 13, the OpenOlat roles have been further enhanced. Here
 is an overview of all OpenOlat roles.
 
-![Rollen in OpenOlat](assets/roles.png)
+![Rollen in OpenOlat](assets/roles_18_en.png)
 
+* **Invitee**: Invited persons
 * **User**: Standard role (see above)
 * **Author**: The author has access to the authoring area. This allows the author to create courses and all other learning resources. In the search mask the author finds all courses and learning resources such as tests, films and portfolio templates which are accessible to authors. This role is often assigned to teachers or e-learning managers.
 * **User manager**: The user manager has access to the [user management](../../manual_admin/usermanagement/index.md) and all users of the own organization. He/She can create, edit and inactivate users. Further more he can assign the Author role.
 * **Role manager**: The role administrator has access to the user administration and all users of his or her own organization. Apart from the roles Administrator and System Administrator, he/she can change, assign and remove all user roles.
-* **Group management**: The group manager has access to the group section and in there access to the tab group management. Further information to the group management can be found [here](../groups/index.md).
+* **Group management**: The group manager has access to the group section and in there access to the tab group management. Further information to the group management can be found [here](../groups/Group_Administration.md).
 * **Question bank manager**: The question bank manager has access to the question bank. In there he is able to open the administration section. Further information about this role can be found [here](../area_modules/Question_Bank.md).
 * **Curriculum manager**: The curriculum manager has access to curriculum management and can create new curricula and manage existing ones. If the curriculum manager is assigned to an organization, he or she only has access to the curricula of this organization.
 * **Lectures manager**: Configuration of the "Lectures and Absences" Module
+* **Project manager**
 * **Quality manager**: The quality manager has access to the Quality Management area and can manage all settings and objects such as questionnaires, data collection generators and the analysis tool.
 * **Line manager**: The line manager can be automatically informed about the receipt of certificates for all users of his organization.
 * **Learning resource manager**: A learning resource manager automatically has owner rights (= full access) for all courses and learning resources belonging to the own organization (see [Administrative release](../learningresources/Access_configuration.md#administrative-release)). In the status "Finished" and "Deleted" the access is read-only. The courses and learning resources can be found in the authoring area and can be copied as well as exported.
@@ -72,11 +74,12 @@ should get in this course.
 * **Coach**: The course coach has access to the assessment tool, as well as to the test and survey statistic. But a course coach cannot edit or delete a course. In the assessment tool a course coach can see the course participants, but not the group participants.
 * **Participant**: A participant can open the course and edit everything where he got access right. A participant hasn't any further rights.
 
+![Course rights](assets/course_rights.png){ class="shadow" }
+
 In addition to the course-related roles, depending on the configuration,
 [guests](guest_access.md) without an OpenOlat account can also have access
 to a course.
 
-![Course rights](assets/course_rights.png)
 
 !!! success "Role change"
   
@@ -88,15 +91,18 @@ to a course.
 
 ### Group roles
 
-If groups are used in courses, the members can be registered either as
-participants or as group coaches. In the user management of a course and then
+If groups are used in courses, the members can be registered either as participants or as group coaches. In the user management of a course and then
 Rights further rights can be given to coaches or participants of assigned
 groups.  
 
+* **group coach**: 
 The group coach has almost the same rights as the course coach. In courses,
 where his group is assigned to, he has access right to the assessment tool as
 well as to the test and survey statistic. In the assessment tool he can only
-see the **participants** of his group.
+see the participants of his group.
+* **Gruppenteilnehmer**: Der Gruppenteilnehmer hat die gleichen Rechte wie der Kursteilnehmer.
+
+Im Rechtemanagement des Kurses können weitergehende *Rechtepakete* entweder an Gruppen Teilnehmende oder Gruppen Betreuer vergeben werden.
 
 ![Course rights additional configuration](assets/memebers_managent.png)
 
