@@ -6,7 +6,7 @@ In Ihrem Kurs stehen Ihnen im Bereich der "Administration" eine Reihe von Werkze
 
 Sie können in der [Mitgliederverwaltung](Members_management.de.md) die Kursteilnehmenden und kursbezogenen Gruppen sowie Rechte organisieren. Die Kursstruktur und die Kursbausteine werden im Kurseditor eingerichtet. Im [Ablageordner](Storage_folder.de.md) werden die Kursdateien gesammelt.
 
-Während der Durchführung des Kurses ist das [Bewertungswerkzeug](Assessment_tool_-_overview.de.md) relevant. Auch kursbezogene Erinnerungen und [Lektionen](Lectures_and_absences.de.md) können organisiert werden. Für Online-Klausuren bietet sich der [Prüfungsmodus](../learningresources/Assessment_mode.de.md) an. Es können auch bestimmte statistische Daten abgerufen und Daten [archiviert](Data_archiving.de.md) werden. Und natürlich können Kurse und Lernressourcen kopiert, exportiert oder gelöscht werden.
+Während der Durchführung des Kurses ist das [Bewertungswerkzeug](Assessment_tool_overview.de.md) relevant. Auch kursbezogene Erinnerungen und [Lektionen](Lectures_and_absences.de.md) können organisiert werden. Für Online-Klausuren bietet sich der [Prüfungsmodus](../learningresources/Assessment_mode.de.md) an. Es können auch bestimmte statistische Daten abgerufen und Daten [archiviert](Data_archiving.de.md) werden. Und natürlich können Kurse und Lernressourcen kopiert, exportiert oder gelöscht werden.
 
 
 !!! info "Info"
@@ -30,7 +30,7 @@ Zugang zum Bewertungswerkzeug haben alle Besitzer des Kurses, Mitglieder einer G
 
     Abonnieren Sie den Benachrichtigungsservice, entweder für neu eingegangene Testresultate und/oder neu erstellte Zertifikate.
 
-Weitere Informationen zum Bewertungswerkzeug finden Sie [hier](Assessment_tool_-_overview.de.md).
+Weitere Informationen zum Bewertungswerkzeug finden Sie [hier](Assessment_tool_overview.de.md).
 
 ## Unterlagen Betreuer
 
@@ -151,9 +151,9 @@ Weitere Menüs der Administration werden auf separaten Handbuchseiten konkreter 
 
 * [(Kurs) Einstellungen](../learningresources/Course_Settings.de.md)
 * [Mitgliederverwaltung](Members_management.de.md)
-* [Kursbausteine](../course_elements/index.de.md) des Kurseditors
+* [Kursbausteine](../learningresources/Course_Elements.de.md) des Kurseditors
 * [Ablageordner](Storage_folder.de.md) 
-* [Bewertungswerkzeug](Assessment_tool_-_overview.de.md) 
+* [Bewertungswerkzeug](Assessment_tool_overview.de.md) 
 * [Erinnerung](Course_Reminders.de.md) 
 * [Prüfungsmodus](../learningresources/Assessment_mode.de.md)
 * [Lektionen und Absenzen](Lectures_and_absences.de.md)

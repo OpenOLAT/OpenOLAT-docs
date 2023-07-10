@@ -40,7 +40,7 @@ Dafür können systemweit verschiedene **Bewertungssysteme** (numerisch oder tex
 
 Bei Aktivierung auf dem Kursbaustein werden - über eine **manuelle oder automatische Zuweisung** - die Punkte der Teilnehmenden zusätzlich auch als beispielsweise "Note", "Level", "Niveau" oder ähnliches ausgewiesen.
 
-[Mehr dazu direkt im Handbuch](../manual_user/course_operation/Assessment_translate_points_in_grades.de.md)
+[Mehr dazu direkt im Handbuch](../manual_user/learningresources/Assessment_translate_points_in_grades.de.md)
 
 ![Bewertungsskala](assets/162/Grading_scale_DE.jpeg){ class="shadow lightbox" }
 

@@ -35,7 +35,7 @@ At test level, you define the title that appears in the navigation. The followin
 
 !!! info
 
-    A time limit of the test can either be done in the test editor as described here or after embedding the test into the course in the course editor in the tab `Options`. If necessary the test time can be extended for single users in the [assessment tool](../course_operation/Assessment_tool_-_overview.md).  
+    A time limit of the test can either be done in the test editor as described here or after embedding the test into the course in the course editor in the tab `Options`. If necessary the test time can be extended for single users in the [assessment tool](../learningresources/Assessment_tool_overview.md).  
   
 ### Tab Feedback
 

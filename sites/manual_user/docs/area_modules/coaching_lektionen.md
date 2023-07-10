@@ -10,7 +10,7 @@
 
     Sind diese Voraussetzungen erfüllt, wird der zusätzliche Menüpunkt "Lektionen" im Coachingtool angezeigt.
 
-    Siehe auch [Absenzmanagement](../course_operation/Lectures_and_absences.de.md)
+    Siehe auch [Absenzmanagement](../learningresources/Lectures_and_absences.de.md)
 
 
 ![coaching_lektionen0_v1_de.png](assets/coaching_lektionen0_v1_de.png){ class="shadow lightbox" }
@@ -25,7 +25,7 @@ Im Cockpit kann ein bestimmter Termin ausgewählt und die zugehörigen Lektionen
 ### 2. Tab Lektionen
 
 Hier kann ein Zeitfenster ausgewählt und nach Stichworten gesucht werden. Es wird eine Übersicht der Lektionenblöcke für diese Zeitspanne angezeigt. Weitere Informationen zum Thema „Lektionen“ finden Sie
-[hier](../course_operation/Lectures_-_Teacher_view.de.md).
+[hier](../learningresources/Lectures_Teacher_view.de.md).
 
 ### 3. Tab Absenzen
 

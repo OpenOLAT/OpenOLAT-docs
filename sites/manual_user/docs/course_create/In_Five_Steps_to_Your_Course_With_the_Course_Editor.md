@@ -1,7 +1,7 @@
 # In Five Steps to Your Course With the Course Editor
 
 In the course editor you can add [course
-elements](../course_elements/index.md) to the course and set up and modify already installed course elements. The following describes how to create a course without using a wizard.
+elements](../learningresources/Course_Elements.md) to the course and set up and modify already installed course elements. The following describes how to create a course without using a wizard.
 
 In the first step you create your course. In the following steps, you add the desired course elements.
 
@@ -34,7 +34,7 @@ In the first step you create your course. In the following steps, you add the de
   
 !!! info
     The exact further design and the choice of the [course
-    elements](../course_elements/index.md) required depend on your didactic concept. The following is _an example_ of a course similar to the course wizard.
+    elements](../learningresources/Course_Elements.md) required depend on your didactic concept. The following is _an example_ of a course similar to the course wizard.
 
 The next steps take place in the **Course Editor**. 
 The following is an _example_ of how to recreate a course similar to the course wizard.

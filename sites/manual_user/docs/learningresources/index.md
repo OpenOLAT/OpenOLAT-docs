@@ -21,7 +21,7 @@ course elements. How to work with those different course elements will be
 explained in the chapter ["Learning Activities in Courses"](../learning_activities/index.md) in more detail. How to create
 courses will be illustrated in the chapter ["Creating Courses"](../learningresources/Creating_Course.md). 
 More information on course elements and the
-course editor can be found in the chapter ["Types of Course Element"](../course_elements/index.md).
+course editor can be found in the chapter ["Types of Course Element"](Course_Elements.md).
 
   
 

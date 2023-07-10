@@ -63,7 +63,7 @@ contact the corresponding contact person.
 In OpenOlat exist several different versions of folders. Beside the two
 folders in the personal menu in OpenOlat exist the following folder versions:
 
-  * [Storage folder](../course_operation/Storage_folder.md)  (in courses)
+  * [Storage folder](../leanringresources/Storage_folder.md)  (in courses)
   * [Course element folder](../learningresources/Course_Element_Folder.md) (in courses)
   * Folders in Topic assignment (in courses)
   * [Participant folder](../learningresources/Communication_and_Collaboration.md#CommunicationandCollaboration-_participantfolder) (in courses)

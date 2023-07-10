@@ -163,7 +163,7 @@ Kursdaten wie z.B. Foren oder Testresultate von allen Teilnehmenden archivieren.
 **Bewertungs-Werkzeug**
 
 Es erscheint zusätzlich das Menü "Administration" mit dem
-[Bewertungswerkzeug](Assessment_tool_-_overview.de.md).
+[Bewertungswerkzeug](Assessment_tool_overview.de.md).
 
 Auch ohne Betreuerrechte können so Mitglieder mit diesem Recht sämtliche Leistungen der Kursteilnehmenden bewerten und kommentieren. 
 

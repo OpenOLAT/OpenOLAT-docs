@@ -12,7 +12,7 @@ Es gibt zwei Varianten von OpenOlat Kursen: Herkömmliche Kurse und [Lernpfad Ku
 ## Wie können Sie starten?
 
 Verschaffen Sie sich am besten zunächst einen Überblick über den gesamten
-[Kurszyklus ](General_Information.de.md)und gehen schauen Sie sich dann die einzelnen Bereiche an. Die konkreten [Kursbausteine](../course_elements/index.de.md), die Sie für den Aufbau von Kursen verwenden können, werden in einem separaten Kapitel ausführlich erläutert. Die Erstellung der Kursstruktur erfolgt sowohl bei
+[Kurszyklus ](General_Information.de.md)und gehen schauen Sie sich dann die einzelnen Bereiche an. Die konkreten [Kursbausteine](Course_Elements.de.md), die Sie für den Aufbau von Kursen verwenden können, werden in einem separaten Kapitel ausführlich erläutert. Die Erstellung der Kursstruktur erfolgt sowohl bei
 Lernpfad Kursen als auch bei herkömmlichen Kursen im Kurseditor.
 
 Zusätzlich kann beim Anlegen eines Kurses auch ein Wizard für Einsteiger oder auch ein spezieller Prüfungskurs angelegt werden. Für die meisten Lehrszenarien ist allerdings die Standardeinstellung ohne Wizard die passende Wahl.

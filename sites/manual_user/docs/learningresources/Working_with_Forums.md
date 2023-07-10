@@ -102,7 +102,7 @@ asterisk.
 
 ![](assets/Forum_neu_EN2.png)
 
-Upload a photo in the "[Profile](../personal_menu/Personal_Tools.md)" so that your photo
+Upload a photo in the "[Profile](../personal_menu/Configuration.md#profile--profile)" so that your photo
 appears next to your forum posts instead of the standard profile picture.
 
 ###

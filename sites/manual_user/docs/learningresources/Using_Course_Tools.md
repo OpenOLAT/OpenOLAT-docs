@@ -6,7 +6,7 @@ A number of tools are available in the "Administration" area of your course. On 
 
  You can organize course participants and course-related groups in the [members management](Members_management.md). Groups can also be bundled in learning areas. The course structure and the course tools are set up in the course editor. Furthermore, you have access to the storage folder of a course.
 
-During the course itself the [assessment tool](Assessment_tool_-_overview.md) is relevant. Course-related [reminders](Course_Reminders.md) and [lectures](Lectures_and_absences.md) can also be organized. The assessment mode is suitable for online exams. Certain statistical data can also be retrieved and data archived. And of course courses and learning resources can be copied, exported or deleted.
+During the course itself the [assessment tool](Assessment_tool_overview.md) is relevant. Course-related [reminders](Course_Reminders.md) and [lectures](Lectures_and_absences.md) can also be organized. The assessment mode is suitable for online exams. Certain statistical data can also be retrieved and data archived. And of course courses and learning resources can be copied, exported or deleted.
 
 !!! info "Info"
 
@@ -32,7 +32,7 @@ The course elements which should be assessed, first need to configured either in
 
     Abonnieren Sie den Benachrichtigungsservice, entweder für neu eingegangene Testresultate und/oder neu erstellte Zertifikate.
 
-Further information about the assessment tool you can found [here](Assessment_tool_-_overview.md).
+Further information about the assessment tool you can found [here](Assessment_tool_overview.md).
 
 ## Course Statistics {: #statistics}
 
@@ -151,12 +151,12 @@ A course can also be closed or deleted automatically. The administrator makes th
 
 Weitere Menüs werden auf separaten Handbuchseiten konkreter vorgestellt:
  
-* [Course settings](../learningresources/Course_Settings.md)
+* [Course settings](Course_Settings.md)
 * [Members management](Members_management.md)
-* [Course elements](../course_elements/index.md)
+* [Course elements](Course_Elements.md)
 * [Storage folder](Storage_folder.md)
-* [Assessment Tool](Assessment_tool_-_overview.md)
+* [Assessment Tool](Assessment_tool_overview.md)
 * [Lectures and Absences](Lectures_and_absences.md)
 * [Reminder](Course_Reminders.md)
-* [Assessment mode](../learningresources/Assessment_mode.md)
+* [Assessment mode](Assessment_mode.md)
 * [Data archiving](Data_archiving.md)

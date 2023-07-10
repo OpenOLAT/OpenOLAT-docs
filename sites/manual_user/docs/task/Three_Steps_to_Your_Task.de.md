@@ -103,13 +103,13 @@ verlangen.
 
 Die Bewertung der Einreichungen kann entweder direkt im Kursrun bei
 geschlossenem Editor oder über das
-[Bewertungswerkzeug](../course_operation/Assessment_tool_-_overview.de.md) erfolgen.
+[Bewertungswerkzeug](../learningresources/Assessment_tool_overview.de.md) erfolgen.
 
 Abonnieren Sie sich in der Kursansicht das Kurselement. Wenn ein
 Kursteilnehmer etwas abgegeben hat, erfahren Sie das per E-Mail oder im
 persönlichen Menü unter „Abonnements“. Die Benachrichtigung wird erst dann
 ausgelöst, wenn eine Aktion abgeschlossen ist. Alternativ können Sie auch die
 Einreichungen für alle bewertbaren Kursbausteine im [Bewertungswerkzeug
-](../course_operation/Assessment_tool_-_overview.de.md)abonnieren.
+](../learningresources/Assessment_tool_overview.de.md)abonnieren.
 
 :octicons-device-camera-video-24: **Video-Einführung**: [Abonnements](<https://www.youtube.com/embed/h9gOqt7TR7Q>){:target="_blank”}

@@ -61,7 +61,7 @@ In der linken Navigation des Bewertungswerkzeugs sieht man alle bewertbaren Kurs
 
 ![Bewertungswerkzeug Teilnehmerübersicht](assets/Bewertungswerkzeug_TN_172.png)
 
- Wie genau Bewertungen vorgenommen werden können erfahren Sie im Kapitel ["Bewertung von Kursbausteinen"](../learningresources/Assessment_of_course_modules.de.md) bzw. ["Lernende bewerten"](../course_operation/Assessment_tool_-_tab_Users.de.md).
+ Wie genau Bewertungen vorgenommen werden können erfahren Sie im Kapitel ["Bewertung von Kursbausteinen"](../learningresources/Assessment_of_course_modules.de.md) bzw. ["Lernende bewerten"](../learningresources/Assessment_tool_tab_Users.de.md).
 
 ### Oberster Kursknoten
 

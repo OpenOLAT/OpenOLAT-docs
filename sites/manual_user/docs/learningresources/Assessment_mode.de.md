@@ -45,4 +45,4 @@ Detailliert können neben Titel und Beschreibung, die dem Benutzer in der Prüfu
 
 **Prüfungskonfiguration auch bei Betreuer anwenden** : Wählen Sie diese Checkbox, wenn Betreuer der ausgewählten Benutzergruppe(n) dieselbe Ansicht erhalten sollen.
 
-Ein laufender Prüfungsmodus kann vom Lehrenden im [Bewertungswerkzeug](../course_operation/Assessment_tool_-_overview.de.md)verfolgt werden. Bewertungen z.B. für Einsendeaufgaben oder Freitext Elemente von Tests können auch direkt bewertet und für die User freigeschaltet bzw. sichtbar gemacht werden. So wird direkt eine Prüfungseinsicht- und –besprechung ermöglicht. Ferner kann der Lehrende im Bewertungswerkzeug im manuellen Modus die Prüfung beenden.
+Ein laufender Prüfungsmodus kann vom Lehrenden im [Bewertungswerkzeug](../learnningresources/Assessment_tool_overview.de.md)verfolgt werden. Bewertungen z.B. für Einsendeaufgaben oder Freitext Elemente von Tests können auch direkt bewertet und für die User freigeschaltet bzw. sichtbar gemacht werden. So wird direkt eine Prüfungseinsicht- und –besprechung ermöglicht. Ferner kann der Lehrende im Bewertungswerkzeug im manuellen Modus die Prüfung beenden.

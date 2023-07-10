@@ -14,7 +14,7 @@ The course structure is created in the course editor for both learning path cour
 
 Additionally, when creating a course, a wizard for beginners or a special exam course can be created. For most teaching scenarios, however, the default setting without a wizard is the appropriate choice.
 
-The concrete [course elements](../course_elements/index.md) that you can use to set up courses are explained in detail in a separate chapter.
+The concrete [course elements](Course_Elements.md) that you can use to set up courses are explained in detail in a separate chapter.
 
   
 

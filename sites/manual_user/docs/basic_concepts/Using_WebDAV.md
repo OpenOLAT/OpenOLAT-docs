@@ -21,7 +21,7 @@ automatically:
   * [Personal folder](../personal_menu/Personal_folders.md) (every user)  
   * [Folders of groups](../groups/Using_Group_Tools.md)
   * [Folder - course element ](../learningresources/Course_Element_Folder.md)
-  * [Storage folders](../course_operation/Storage_folder.md) of courses (course owners only)
+  * [Storage folders](../learningresources/Storage_folder.md) of courses (course owners only)
   * [Resource folders](../learningresources/index.md) (only Learning Resource Owner)
 
 Who is allowed to upload files via WebDAV in the respective folders depends on

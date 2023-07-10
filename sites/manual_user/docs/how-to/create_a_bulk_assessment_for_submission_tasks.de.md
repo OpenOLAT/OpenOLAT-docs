@@ -1,7 +1,7 @@
 # ... eine Massenbewertung für Einsendeaufgaben erstellen
 
 Mit der Massenbewertung können Sie im [Bewertungswerkzeug
-](../course_operation/Assessment_tool_-_overview.de.md)mehrere Kursteilnehmende zu
+](../learningresources/Assessment_tool_overview.de.md)mehrere Kursteilnehmende zu
 einem von Ihnen gewünschten Zeitpunkt auf einmal bewerten. Sie benötigen dazu
 eine Liste die die Benutzeridentifikation (Benutzername, registrierte E-Mail-
 Adresse oder Institutionsnummer/Matrikelnummer), die Anzahl Punkte, Status und falls gewünscht den Kommentar enthält. Dabei werden die einzelnen Felder durch

@@ -25,7 +25,7 @@ mit den verschiedenen Kursbausteinen arbeitet, wird im Kapitel
 [„Lernaktivitäten im Kurs“](../learning_activities/index.de.md) ausführlich
 erklärt. Wie Kurse erstellt werden, erfahren Sie im Kapitel [„Kurs erstellen"](../learningresources/Creating_Course.de.md). 
 Details zu Kursbausteinen und dem Kurseditor
-erfahren Sie im Kapitel [„Kursbausteine"](../course_elements/index.de.md).
+erfahren Sie im Kapitel [„Kursbausteine"](Course_Elements.de.md).
 
 ## Test (QTI 2.1)
 ![](assets/test.png)

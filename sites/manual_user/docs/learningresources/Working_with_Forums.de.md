@@ -109,9 +109,8 @@ an dem Sternchen.
 
 ![](assets/Forum_Aufbau-1.png)
 
-Laden Sie im
-"[Profil](../../pages/viewpage.action%EF%B9%96pageId=68255886.html#Pers%C3%B6nlicheWerkzeuge-
-_profil)" ein Foto hoch, damit neben Ihren Forumsbeiträgen anstelle des
+Laden Sie impages
+"[Profil](../personal_menu/Configuration.de.md#profil--profile)" ein Foto hoch, damit neben Ihren Forumsbeiträgen anstelle des
 Standard-Profilbildes Ihr Foto erscheint.
 
 ###

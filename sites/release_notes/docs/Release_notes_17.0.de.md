@@ -50,7 +50,7 @@ Kein umständliches "Browsen" mehr! Der neue Katalog 2.0 verwendet ein modernes 
 
 Mithilfe des integrierten Migrationstools kann einmalig die bestehende Katalogstruktur in das neue Format überführt werden. Ein Wechsel auf die alte Katalog-Ansicht wird ebenfalls untersützt.
 
-[Mehr dazu direkt im Handbuch](../manual_user/catalog/catalog2.0.de.md)
+[Mehr dazu direkt im Handbuch](../manual_user/area_modules/catalog2.0.de.md)
 
 ![Startseite Katalog Version 2](assets/170/KatalogV2_DE.png){ class="shadow lightbox" }
 

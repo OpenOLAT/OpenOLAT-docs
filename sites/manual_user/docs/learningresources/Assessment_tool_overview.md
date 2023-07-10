@@ -72,7 +72,7 @@ In the left navigation of the assessment tool you can see all assessable course 
 
 ![assessment tool participant overview](assets/Bewertungswerkzeug_TN_172.png)
 
- To learn how exactly assessments can be made, please refer to the chapter ["Assessment of course modules"](../learningresources/Assessment_of_course_modules.md) or ["User assessment](../course_operation/Assessment_tool_-_tab_Users.md).
+ To learn how exactly assessments can be made, please refer to the chapter ["Assessment of course modules"](../learningresources/Assessment_of_course_modules.md) or ["User assessment](../learningresources/Assessment_tool_tab_Users.md).
 
 ### First course node
 

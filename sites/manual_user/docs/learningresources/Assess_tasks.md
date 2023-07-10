@@ -5,7 +5,7 @@ either in the assessment tool or directly in the run time view.
 
 You can find out in detail how tasks and group tasks are evaluated in the
 assessment tool in the chapter [Assessment
-tool](../course_operation/Assessment_tool_-_overview.md) →
+tool](../learningresources/Assessment_tool_overview.md) →
 [Assessing tasks and group
 tasks](../learningresources/Assessing_tasks_and_group_tasks.md).
 The following is a brief description of how the assessment is performed in the

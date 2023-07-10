@@ -129,7 +129,7 @@ However, it is best to assign these extended rights to the _participants_ of a g
 !!! Warning "Attention"
 
     Group coaches basically also get access to the [assessment
-    tool](Assessment_tool_-_overview.md) and can also assess all members of the group. Furthermore, dürfen sie Änderungen an den betreuten Gruppen vornehmen und haben Zugriff auf alle für Betreuer im Kursun freigegebenen Dinge! 
+    tool](Assessment_tool_overview.md) and can also assess all members of the group. Furthermore, dürfen sie Änderungen an den betreuten Gruppen vornehmen und haben Zugriff auf alle für Betreuer im Kursun freigegebenen Dinge! 
 
 Group coaches always have access to the assessment tool and can also assess the members of the group. Furthermore they are allowed to make changes to the
 coaches of a group.
@@ -175,7 +175,7 @@ may archive course data such as forums or test results.
 The "Administration" menu also appears.
 
 Even without coach rights, members with these rights can use the [assessment
-tool](Assessment_tool_-_overview.md) to evaluate and comment on all of the
+tool](Assessment_tool_overview.md) to evaluate and comment on all of the
 course participants' achievements.  
 
 !!! info "info"

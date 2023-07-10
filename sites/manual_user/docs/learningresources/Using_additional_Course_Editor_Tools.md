@@ -16,7 +16,7 @@ on the separate pages of the tools.
 
 ## Insert course elements
 
-Here you have access to all [course elements](../course_elements/index.md)
+Here you have access to all [course elements](Course_Elements.md)
 that you can integrate into a course.
 
 ## Modify course element
@@ -56,7 +56,7 @@ are no long texts in course elements.
 The columns do not show the ratings for individual persons, but only give an
 overview of the configuration of the course elements. If points are to be
 awarded or a pass/fail is to be given, this will be done in the course's
-"[Assessment tool](../course_operation/Assessment_tool_-_overview.md)".
+"[Assessment tool](../learningresources/Assessment_tool_overview.md)".
 
 ![](assets/Screenshot 2020-03-22 at 17.54.20.png)
 

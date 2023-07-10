@@ -34,7 +34,7 @@ Here you can activate and set course-related terms of use or a course-related pr
 ![Disclaimer form](assets/disclaimer_course.png){ class="shadow" }
 
 ## Tab Layout
-Under "Layout" you can select a layout template for a course, hide the left course navigation and also the bread-crumb navigation for participants. Depending on the settings by the course administrator, certain layout templates are available, but at least one default template. In addition, you can store your own CSS course templates in the course [storage folder](../course_operation/Storage_folder.md) and link them in the Layout menu. For example, fonts and colors for texts, headlines, links, the menu and the toolbox can be individually designed and provided with a suitable logo.
+Under "Layout" you can select a layout template for a course, hide the left course navigation and also the bread-crumb navigation for participants. Depending on the settings by the course administrator, certain layout templates are available, but at least one default template. In addition, you can store your own CSS course templates in the course [storage folder](../learningresources/Storage_folder.md) and link them in the Layout menu. For example, fonts and colors for texts, headlines, links, the menu and the toolbox can be individually designed and provided with a suitable logo.
 
 ![Lernpfad mit Icons](assets/lp_icons.png){ class="shadow" }
 ![Lernpfad ohne Pfad und Icons](assets/no_lp_no_icons.png){ class="shadow" }

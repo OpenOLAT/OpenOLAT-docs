@@ -116,7 +116,7 @@ Merkmal | ![Test](assets/test.png){ class=size16 } Test | ![Selbsttest](assets/s
  Fragetypen QTI 2.1 | Alle [Fragetypen](Test_question_types.de.md) möglich | Alle [Fragetypen](Test_question_types.de.md) möglich, aber nur automatisch auswertbare Fragetypten können auch für Punkte verwendet werden.
  Einbindung mit Kursbaustein | Test| Selbsttest
  Anzahl Aufrufe durch Kursteilnehmer | konfigurierbar | unlimitiert
- Ergebnisse | erscheinen im [Bewertungswerkzeug](../course_operation/Assessment_tool_-_overview.de.md) sowie in den [Test Statistiken](../learningresources/Using_Course_Tools.de.md#statistics) und sind für Betreuer einsehbar | erscheinen _nicht_ im [Bewertungswerkzeug](../course_operation/Assessment_tool_-_overview.de.md) und in den [Test Statistiken](../learningresources/Using_Course_Tools.de.md#statistics) und sind nicht personalisiert für Betreuer und Besitzer einsehbar
+ Ergebnisse | erscheinen im [Bewertungswerkzeug](../learningresources/Assessment_tool_overview.de.md) sowie in den [Test Statistiken](../learningresources/Using_Course_Tools.de.md#statistics) und sind für Betreuer einsehbar | erscheinen _nicht_ im [Bewertungswerkzeug](../learningresources/Assessment_tool_overview.de.md) und in den [Test Statistiken](../learningresources/Using_Course_Tools.de.md#statistics) und sind nicht personalisiert für Betreuer und Besitzer einsehbar
  Datenarchivierung| ja, personalisiert| ja, anonymisiert. Eine personenbezogene Zuordnung oder Feedbacks sind aber nicht möglich.
 
 !!! tip "Tipp"
@@ -135,7 +135,7 @@ Wenn Sie einem Test beispielsweise eine neue Frage hinzufügen möchten oder fä
 
 ## Tests einsehen und bewerten
 
-Zugriff auf von Kursteilnehmern ausgefüllte Tests erhalten Sie im "[Bewertungswerkzeug](../course_operation/Assessment_tool_-_overview.de.md)". Das Bewertungswerkzeug finden Sie in der "Administration" des Kurses. Unter
+Zugriff auf von Kursteilnehmern ausgefüllte Tests erhalten Sie im "[Bewertungswerkzeug](../learningresources/Assessment_tool_overview.de.md)". Das Bewertungswerkzeug finden Sie in der "Administration" des Kurses. Unter
 "Benutzer" werden sämtliche Tests und weitere bewertbare Kursbausteine eines Kurses angezeigt und können personenbezogen aufgerufen, eingesehen, geändert und kommentiert werden. 
 Alternativ können die Ergebnisse auch im Kursrun bei geschlossenem Editor eingesehen und verwaltet werden. Im Kursrun besteht auch die Möglichkeit, Erinnerungen zu dem jeweiligen Test zu konfigurieren und so einen bedingungsabhängigen Mailversand auszulösen.
 

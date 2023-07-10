@@ -44,7 +44,7 @@ Here you will find an overview of the rights of the coach.
 | -------------- | --------------------------- | -------------------------------- |
 | Wiki| edit = participant|  | 
 | Forum| edit = open discussion topics, edit, delete posts, filter user, but do not create forums |Erweiterte Moderatorenrechte aktivierbar, Personenfilter  | 
-| File dialog | files: upload but not from the [storage folder](../course_operation/Storage_folder.md); forum part like course element "Forum" |Optional Moderatorenrechte für den Forenteil aktivierbar  | 
+| File dialog | files: upload but not from the [storage folder](../learningresources/Storage_folder.md); forum part like course element "Forum" |Optional Moderatorenrechte für den Forenteil aktivierbar  | 
 | Participant folder |= Kursbesitzer   | access to all delivery folders; return folder, if enabled  | 
 | Participant list|= Kursbesitzer, PDF-Export, email and print|  | 
 | Virtual Classrooms| moderation in VC (differences depending on VC)|  | 

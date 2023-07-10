@@ -6,7 +6,7 @@ Im Kursbaustein „Einzelne Seite“ können Sie HTML und PDF-Dateien direkt in 
 Kursstruktur einbinden. Geben Sie auf diesem Weg beispielsweise zentrale
 Informationen, den Kursablauf oder Literaturtipps zu Ihrem Kurs bekannt oder
 platzieren Sie Inhalte wie Bilder oder Videos gezielt im Kurs. Die Dateien
-selbst werden dabei im [Ablageordner ](../course_operation/Storage_folder.de.md)des Kurses angelegt.
+selbst werden dabei im [Ablageordner ](../learningresources/Storage_folder.de.md)des Kurses angelegt.
 
 !!! info "Info"
 
@@ -136,7 +136,7 @@ verändert werden.
 
 Die Funktion "Mehrere Einzelseiten" bietet sich an, wenn Sie bereits mehrere
 HTML-Dateien bzw. komplexe Hypermedia-Dateien extern erstellt und im
-[Ablageordner ](../course_operation/Storage_folder.de.md)des Kurses abgelegt haben. Achten Sie bei
+[Ablageordner ](../learningresources/Storage_folder.de.md)des Kurses abgelegt haben. Achten Sie bei
 komplexen Seiten mit diversen Verlinkungen zu Grafiken u.ä. darauf die Option
 "Link im gesamten Ablageordner erlauben" zu aktivieren. Ferner sollten Sie die
 Dateinamen möglichst schon so benennen wie Sie später im Kurs erscheinen

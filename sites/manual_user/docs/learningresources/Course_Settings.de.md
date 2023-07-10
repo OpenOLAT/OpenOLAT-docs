@@ -37,7 +37,7 @@ Hier können frei definierbare kursbezogene Nutzungsbedingungen und eine kursbez
 ## Tab Layout
 Unter Layout kann eine Layoutvorlage für einen Kurs ausgewählt, die Kursnavigation näher bestimmt und der Stil der Kursbausteine definiert werden.
 
-Je nach Einstellungen durch den Kursadministrator stehen Ihnen bestimmte Layoutvorlagen, mindestens aber eine Standard Vorlage zur Verfügung. Darüber hinaus können Sie im [Ablageordner](../course_operation/Storage_folder.de.md) des Kurses eigene CSS Kursvorlagen hinterlegen und im Menü Layout verknüpfen. So lassen sich z.B. Schriften und Farben für Texte, Überschriften, Links, das Menü und die Toolbox individuell gestalten und mit einem passenden Logo versehen.
+Je nach Einstellungen durch den Kursadministrator stehen Ihnen bestimmte Layoutvorlagen, mindestens aber eine Standard Vorlage zur Verfügung. Darüber hinaus können Sie im [Ablageordner](../learningresources/Storage_folder.de.md) des Kurses eigene CSS Kursvorlagen hinterlegen und im Menü Layout verknüpfen. So lassen sich z.B. Schriften und Farben für Texte, Überschriften, Links, das Menü und die Toolbox individuell gestalten und mit einem passenden Logo versehen.
 
 Im Bereich "Navigation" kann die Sichtbarkeit des Menüs und der Krümelnavigation eingestellt werden. In Lernpfad Kursen kann darüber hinaus eingestellt werden, ob die Menü Icons und der spezifische Lernpfad für den User angezeigt wird oder nicht. Je nach linearem oder flexiblem Szenario bietet sich die eine oder andere Variante an.
 

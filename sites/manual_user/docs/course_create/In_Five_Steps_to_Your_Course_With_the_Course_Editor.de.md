@@ -1,6 +1,6 @@
 # Mit dem Kurseditor in fünf Schritten zu Ihrem OpenOlat-Kurs
 
-Im Kurseditor können Sie dem Kurs [Kursbausteine](../course_elements/index.de.md) hinzufügen und bereits eingebaute
+Im Kurseditor können Sie dem Kurs [Kursbausteine](../learningresources/Course_Elements.de.md) hinzufügen und bereits eingebaute
 Kursbausteine einrichten und verändern. Im Folgenden wird die Erstellung eines
 Kurses ohne die Verwendung eines Wizards beschrieben.
 

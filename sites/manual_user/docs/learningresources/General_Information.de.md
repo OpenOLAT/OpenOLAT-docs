@@ -2,7 +2,7 @@
 
 :octicons-device-camera-video-24: **Video-Einführung**: [OpenOlat Funktionsprinzipien](<https://www.youtube.com/embed/M-JkSAFN298>){:target="_blank”}
 
-OpenOlat-Kurse ermöglichen das Abbilden von diversen Veranstaltungsformaten z.B. Vorlesungen, Seminare, Online-Tutorien oder Gruppenpuzzle, genauso wie die Umsetzung verschiedener Arten von Lernen, z.B. problembasiertes Lernen, kooperatives Lernen, selbstorganisiertes Lernen usw. Durch den Einsatz beliebig vieler [Kursbausteine](../course_elements/index.de.md) in frei wählbarer Reihenfolge, gewährt Ihnen OpenOlat maximale Flexibilität bei der Umsetzung Ihres didaktischen Konzepts.
+OpenOlat-Kurse ermöglichen das Abbilden von diversen Veranstaltungsformaten z.B. Vorlesungen, Seminare, Online-Tutorien oder Gruppenpuzzle, genauso wie die Umsetzung verschiedener Arten von Lernen, z.B. problembasiertes Lernen, kooperatives Lernen, selbstorganisiertes Lernen usw. Durch den Einsatz beliebig vieler [Kursbausteine](Course_Elements.de.md) in frei wählbarer Reihenfolge, gewährt Ihnen OpenOlat maximale Flexibilität bei der Umsetzung Ihres didaktischen Konzepts.
 
 Beantragen Sie bei Ihrer OpenOlat-Supportstelle bzw. den Administratoren Ihrer OpenOlat Instanz, Autorenrechte und legen Sie los!
 
@@ -28,7 +28,7 @@ gewünscht konfigurieren.
 ![](assets/Kurseditor_oeffnen.png)
 
 !!! info "Weitere Informationen"
-	  * [Kursbausteine](../course_elements/index.de.md)
+	  * [Kursbausteine](Course_Elements.de.md)
 	  * [Verwendung von Kurseditorwerkzeugen](Using_additional_Course_Editor_Tools.de.md)
 	  * [Lernpfad Kurs - Kurseditor](../learningresources/Learning_path_course_Course_editor.de.md)
 	  * [Lernressourcen](../learningresources/index.de.md)
@@ -64,7 +64,7 @@ Handlungen vor.
 ![](assets/Administration_Bewertungswerkzeug.png)
 
 !!! info "Weitere Informationen"
-	  * [Kursbetrieb](../course_operation/index.de.md)
+	  * [Kursbetrieb](../learningresources/Administration.de.md)
 	  * [Lernaktivitäten (Lerner Perspektive)](../learning_activities/index.de.md)
 
 ### 6. Kurs beenden {: #end_course}

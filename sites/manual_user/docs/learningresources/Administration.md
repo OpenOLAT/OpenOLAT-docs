@@ -6,7 +6,7 @@ You make most of the central settings via the tools that you find in the [admini
 
  * [Members management](Members_management.md)zur Organisation der Teilnehmenden, Gruppen usw.
  * [Storage folder](Storage_folder.md) für die Ablage und Organisation der kursspezifischen Dateien
- * [Assessment tool - overview](Assessment_tool_-_overview.md) für die Punktevergabe, die Bereitstellung von Feedbacks und die Organisation von Assessment Kursbausteinen 
+ * [Assessment tool - overview](Assessment_tool_overview.md) für die Punktevergabe, die Bereitstellung von Feedbacks und die Organisation von Assessment Kursbausteinen 
  * [Lectures and absences](Lectures_and_absences.md) für die Organisation von Abwesenheitsterminen der Teilnehmenden
  * [Course Reminders](Course_Reminders.md) für den Versand von Erinnerungen z.B. bezüglich Assessment Terminen
  * [Data archiving](Data_archiving.md) für die Sicherung von Kursergebnissen und weiteren Dingen.

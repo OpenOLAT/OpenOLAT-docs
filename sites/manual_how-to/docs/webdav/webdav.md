@@ -22,7 +22,7 @@ Once the items have been created via OpenOlat, the structure is automatically cr
 
   * [Personal folder](../../manual_user/personal/Personal_folders.md) (every user)  
   * [Folders of groups](../../manual_user/groups/Using_Group_Tools.md) (group members)
-  * [Storage folders](../../manual_user/course_operation/Storage_folder.md) of courses (course owners only)
+  * [Storage folders](../../manual_user/learningresources/Storage_folder.md) of courses (course owners only)
   * [Folder - course element ](../../manual_user/course_elements/Course_Element_Folder.md) (course members)
   * [Resource folders](../../manual_user/course_create/Course_Settings.md#including-resource-folder) (only Learning Resource Owner)
 

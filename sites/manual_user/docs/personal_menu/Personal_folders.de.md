@@ -68,7 +68,7 @@ In OpenOlat gibt es mehrere unterschiedliche Varianten von Ordnern. Neben den
 beiden Ordnern im persönlichen Menü existieren in OpenOlat noch folgende
 Ordner Varianten:
 
-  * [Ablageordner](../course_operation/Storage_folder.de.md) (in Kursen)   
+  * [Ablageordner](../learningresources/Storage_folder.de.md) (in Kursen)   
   * [Kursbaustein Ordner](../learningresources/Course_Element_Folder.de.md) (in Kursen) 
   * Ordner der Themenwahl (in Kursen)
   * [Teilnehmer Ordner](../learningresources/Communication_and_Collaboration.de.md#KommunikationundKollaboration-_participantfolder) (in Kursen)

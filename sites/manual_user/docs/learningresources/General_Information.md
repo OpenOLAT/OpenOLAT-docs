@@ -1,6 +1,6 @@
 # General Information
 
-OpenOlat courses enable the mapping of various event formats e.g. lectures, seminars, online tutorials or group puzzles, as well as the implementation of different types of learning, e.g. problem-based learning, cooperative learning, self-organized learning etc. A maximum of flexibility is guaranteed by using any number of [course elements](../course_elements/index.md) in any order of your choice; therefore it is easy to realize your didactic concept.
+OpenOlat courses enable the mapping of various event formats e.g. lectures, seminars, online tutorials or group puzzles, as well as the implementation of different types of learning, e.g. problem-based learning, cooperative learning, self-organized learning etc. A maximum of flexibility is guaranteed by using any number of [course elements](Course_Elements.md) in any order of your choice; therefore it is easy to realize your didactic concept.
 
 Apply for author rights at your OpenOlat support office and you can get started!
 
@@ -24,7 +24,7 @@ You implement your course in the course editor by selecting suitable course elem
 ![Course editor](assets/course_editor.png){ class="shadow" }
 
 !!! info "Further Information"
-	  * [Course elements](../course_elements/index.md)
+	  * [Course elements](course_elements.md)
 	  * [Using additional Course Editor Tools](Using_additional_Course_Editor_Tools.md)
 	  * [Learning path course - Course editor](../learningresources/Learning_path_course_Course_editor.md)
 	  * [Various types of learning resources](../learningresources/index.md)
@@ -57,7 +57,7 @@ Now especially the assessment tool is needed and further actions are carried out
 ![Assessment tool](assets/course_assessment_tool.png){ class="shadow" }
 
 !!! info "Further Information"
-	  * [Course Operation](../course_operation/index.md)
+	  * [Course Operation](../learningresources/Administration.md)
 	  * [Learning activities in courses (learner perspective)](../learning_activities/index.md)
 
 ### 6. End course {: #end_course}
