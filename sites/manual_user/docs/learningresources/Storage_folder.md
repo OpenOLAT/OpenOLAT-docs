@@ -8,7 +8,7 @@ However, the content of the storage folder cannot be viewed directly by learners
 
 In the storage folder files can be uploaded, deleted, moved, searched for, zipped, un-zipped or created. By default, HTML documents can be created in OpenOlat. If additional document editors are activated in the administration, further file formats can be created. For example, if Only Office is used, Word, Excel or PowerPoint files can also be created.
 
-When uploading a file the file size limit as well as the folder space limit has to be taken into consideration. Also those limits apply when uploading files via [WebDAV](../supported_tech/Using_WebDAV.md) to the storage folder.
+When uploading a file the file size limit as well as the folder space limit has to be taken into consideration. Also those limits apply when uploading files via [WebDAV](../basic_concepts/Using_WebDAV.md) to the storage folder.
 
 ![File upload](assets/upload_file.png){ class="shadow lightbox" }
 

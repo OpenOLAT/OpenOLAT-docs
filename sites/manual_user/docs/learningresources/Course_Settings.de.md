@@ -3,7 +3,7 @@
 
 Das Menü "Einstellungen" der "Administration" bietet weitere zentrale Konfigurationen für Ihren OpenOlat Kurs.
 
-Jede [Lernressource](../authoring/Various_Types_of_Learning_Resources.de.md), nicht nur Kurse, verfügt über ein Menü "Einstellungen". Ferner variieren die Einstellungen von herkömmlichen und Lernpfadkursen leicht.
+Jede [Lernressource](../learningresources/index.de.md), nicht nur Kurse, verfügt über ein Menü "Einstellungen". Ferner variieren die Einstellungen von herkömmlichen und Lernpfadkursen leicht.
 
 **Kurseinstellungen**
 ![Verfügbare Tabs in Kurseinstellungen](assets/course_setting_tabs_DE.png){ class="shadow" }
@@ -11,13 +11,13 @@ Jede [Lernressource](../authoring/Various_Types_of_Learning_Resources.de.md), ni
 Über die Tabs "Info", "Metadaten", "Durchführung" und "Freigabe" können Sie Informationen, die in der Kursinfoseite sichtbar werden, einrichten.
 
 ## Tab Info
-Hier definieren Sie weitere Informationen zum Kurs bzw. Lernressource. Hierzu zählen beispielsweise: Titel, Beschreibung, Lernziele, Voraussetzungen, Anforderungen an die Bescheinigung, Titelbild und Teaser-Film. Diese Infos sind für Interessierte auch ohne Kurszugang unter (Kurs)info sichtbar. Unter dem hier definierten Titel erscheint die Lernressource in der alphabetischen Kursliste und ist für Anfragen über die Suchmaske relevant. Weitere Infos finden Sie [hier](../authoring/Set_up_info_page.de.md).
+Hier definieren Sie weitere Informationen zum Kurs bzw. Lernressource. Hierzu zählen beispielsweise: Titel, Beschreibung, Lernziele, Voraussetzungen, Anforderungen an die Bescheinigung, Titelbild und Teaser-Film. Diese Infos sind für Interessierte auch ohne Kurszugang unter (Kurs)info sichtbar. Unter dem hier definierten Titel erscheint die Lernressource in der alphabetischen Kursliste und ist für Anfragen über die Suchmaske relevant. Weitere Infos finden Sie [hier](../learningresources/Set_up_info_page.de.md).
 
 ## Tab Metadaten
 Hier können Sie weitere Dinge, die unter „Infos“ erscheinen, z.B. die Namen der Lehrenden des Kurses, eintragen. Auch kann der Kurs einem vorgegebenen didaktischen Typ wie Selbstlernkurs oder Prüfungskurs zugeordnet werden. Besonders relevant ist auch der Eintrag der Lizenz des Kurses.
 
 ## Tab Durchführung
-Hier können Sie den Durchführungszeitraum des Kurses definieren, das „[Lektionen- und Absenzmanagement](../course_operation/Lectures_and_absences.de.md)“ einschalten und weiter konfigurieren (sofern vom Administrator aktiviert), existierende herkömmliche Kurse in Lernpfad Kurse konvertieren bzw. bei [Lernpfad Kursen](Learning_path_course.de.md) definieren, wie der Lernfortschritt berechnet wird, anhand der Anzahl der Kursbausteine oder anhand der Bearbeitungsdauer der Kursbausteine.
+Hier können Sie den Durchführungszeitraum des Kurses definieren, das „[Lektionen- und Absenzmanagement](../learningresources/Lectures_and_absences.de.md)“ einschalten und weiter konfigurieren (sofern vom Administrator aktiviert), existierende herkömmliche Kurse in Lernpfad Kurse konvertieren bzw. bei [Lernpfad Kursen](Learning_path_course.de.md) definieren, wie der Lernfortschritt berechnet wird, anhand der Anzahl der Kursbausteine oder anhand der Bearbeitungsdauer der Kursbausteine.
 
 ## Tab Freigabe
 Im Tab "Freigabe" definieren Sie wie und für wen ein Kurs oder eine Lernressource freigegeben wird. Weitere Informationen zur Einrichtung der passenden Zugangskonfiguration finden Sie [hier](Access_configuration.de.md).
@@ -25,19 +25,19 @@ Im Tab "Freigabe" definieren Sie wie und für wen ein Kurs oder eine Lernressour
 ## Tab Katalog
 Über den Button "In Katalog einfügen" kann die Lernressource in den Katalog eingetragen und einer oder mehreren vordefinierten Kategorie zugeordnet werden. Um den Kurs oder die Lernressource in mehrere Katalogbereiche einzutragen muss der Schritt wiederholt werden. Anschließend erscheinen alle Katalogeinträge hier im Tab "Katalog" und können hier auch wieder entfernt werden.
 
-Der gesamte OpenOlat [Katalog](../catalog/Finding_courses.de.md) ist für alle User im Menü "Kurse" einsehbar.
+Der gesamte OpenOlat [Katalog](../area_modules/Courses.de.md) ist für alle User im Menü "Kurse" einsehbar.
 
 Tragen Sie Ihre Kurse erst in den Katalog ein, wenn diese fertiggestellt sind und für die Benutzer sichtbar sein sollen.  
 
 ## Tab Nutzungsbedingungen {: #disclaimer}
-Hier können frei definierbare kursbezogene Nutzungsbedingungen und eine kursbezogene Datenschutzerklärung aktiviert und hinterlegt werden. Startet eine Person den Kurs, muss sie zunächst die Bedingungen akzeptieren, ansonsten ist ein Kurszugang nicht möglich. In der [Mitgliederverwaltung](../course_operation/Members_management.de.md) sehen Sie im Bereich "Einwilligungen" welche Personen die Bedingungen bereits akzeptiert haben.
+Hier können frei definierbare kursbezogene Nutzungsbedingungen und eine kursbezogene Datenschutzerklärung aktiviert und hinterlegt werden. Startet eine Person den Kurs, muss sie zunächst die Bedingungen akzeptieren, ansonsten ist ein Kurszugang nicht möglich. In der [Mitgliederverwaltung](../learningresources/Members_management.de.md) sehen Sie im Bereich "Einwilligungen" welche Personen die Bedingungen bereits akzeptiert haben.
 
 ![Formular Nutzungsbedingungen](assets/disclaimer_course_DE.png){ class="shadow" }
 
 ## Tab Layout
 Unter Layout kann eine Layoutvorlage für einen Kurs ausgewählt, die Kursnavigation näher bestimmt und der Stil der Kursbausteine definiert werden.
 
-Je nach Einstellungen durch den Kursadministrator stehen Ihnen bestimmte Layoutvorlagen, mindestens aber eine Standard Vorlage zur Verfügung. Darüber hinaus können Sie im [Ablageordner](../course_operation/Storage_folder.de.md) des Kurses eigene CSS Kursvorlagen hinterlegen und im Menü Layout verknüpfen. So lassen sich z.B. Schriften und Farben für Texte, Überschriften, Links, das Menü und die Toolbox individuell gestalten und mit einem passenden Logo versehen.
+Je nach Einstellungen durch den Kursadministrator stehen Ihnen bestimmte Layoutvorlagen, mindestens aber eine Standard Vorlage zur Verfügung. Darüber hinaus können Sie im [Ablageordner](../learningresources/Storage_folder.de.md) des Kurses eigene CSS Kursvorlagen hinterlegen und im Menü Layout verknüpfen. So lassen sich z.B. Schriften und Farben für Texte, Überschriften, Links, das Menü und die Toolbox individuell gestalten und mit einem passenden Logo versehen.
 
 Im Bereich "Navigation" kann die Sichtbarkeit des Menüs und der Krümelnavigation eingestellt werden. In Lernpfad Kursen kann darüber hinaus eingestellt werden, ob die Menü Icons und der spezifische Lernpfad für den User angezeigt wird oder nicht. Je nach linearem oder flexiblem Szenario bietet sich die eine oder andere Variante an.
 
@@ -47,7 +47,7 @@ Im Bereich "Navigation" kann die Sichtbarkeit des Menüs und der Krümelnavigati
 Im Bereich "Standard Stil Kursbausteine" können Sie die Basisdarstellung der Kursbausteine definieren und z.B. ein eigenes Hintergrundbild hochladen oder ein Hintergrundbild aus der Bibliothek wählen, den Stil des Bildes definieren sowie bei Bedarf eine Farbkategorie zuordnen. In der Vorschau sehen Sie die Auswirkungen.
 
 ## Tab Toolbar
-Hier schalten Sie die Toolbar sowie die konkreten einzelnen Werkzeuge der Toolbar ein oder aus. Auf diesem Weg können Tools, die kontinuierlich zur Verfügung stehen sollen, an einer zentralen Stelle aufgerufen werden. Zu den [Tools](../course_operation/Using_Additional_Course_Features.de.md) der Toolbar zählen neben der Kurssuche, dem Glossar und dem Kurs-Chat diverse Werkzeuge, die auch als Kursbausteine aufrufbar sind, z.B. Kalender, Teilnehmerliste, E-Mail, Blog, Wiki, Forum und Dokumenten Ordner. Bei [Wiki](../resource_wiki/index.de.md) und [Blog](../resource_blog/index.de.md) kann auch auf bereits erstellte Lernressourcen zurückgegriffen werden. Die anderen Tools ähneln zwar den entsprechenden Kursbausteinen, bieten aber nicht alle weiteren Konfigurationsmöglichkeiten wie sie in den Kursbausteinen im Kurseditor zur Verfügung stehen.
+Hier schalten Sie die Toolbar sowie die konkreten einzelnen Werkzeuge der Toolbar ein oder aus. Auf diesem Weg können Tools, die kontinuierlich zur Verfügung stehen sollen, an einer zentralen Stelle aufgerufen werden. Zu den [Tools](../learningresources/Using_Additional_Course_Features.de.md) der Toolbar zählen neben der Kurssuche, dem Glossar und dem Kurs-Chat diverse Werkzeuge, die auch als Kursbausteine aufrufbar sind, z.B. Kalender, Teilnehmerliste, E-Mail, Blog, Wiki, Forum und Dokumenten Ordner. Bei [Wiki](../learningresources/Wiki.de.md) und [Blog](../learningresources/Blog.de.md) kann auch auf bereits erstellte Lernressourcen zurückgegriffen werden. Die anderen Tools ähneln zwar den entsprechenden Kursbausteinen, bieten aber nicht alle weiteren Konfigurationsmöglichkeiten wie sie in den Kursbausteinen im Kurseditor zur Verfügung stehen.
 
 Die Nutzung der Tools der Toolbar ist besonders für linear gestaltete [Lernpfad Kurse](Learning_path_course.de.md) wichtig, um unabhängig von einer sequenziellen Abfolge der Lernschritt, wichtige Tools kontinuierlich und zentral zur Verfügung zu stellen.
 
@@ -85,7 +85,7 @@ Im Einzelnen stehen folgende Konfigurationsmöglichkeiten zur Verfügung:
 	Nur wenn unter "Punkte" Summe oder Durchschnitt gewählt wurde, kann im Kurseditor auch der Reiter "Highscore" des obersten Kursbausteins konfiguriert werden.
 
 ### Leistungsnachweis
-Wenn Sie die Option "Leistungsnachweise verwenden" aktivieren, erscheint im Kurs im Toolbar Menü "[Mein Kurs](../learning_activities/Additional_Course_Features.de.md)" die Option "Leistungsnachweis" und die Kursteilnehmenden sehen einen Überblick über die bewertbaren Kursbausteine mit ihrem jeweiligen aktuellen Bewertungsstatus.
+Wenn Sie die Option "Leistungsnachweise verwenden" aktivieren, erscheint im Kurs im Toolbar Menü "[Mein Kurs](../learningresources/Additional_Course_Features.de.md)" die Option "Leistungsnachweis" und die Kursteilnehmenden sehen einen Überblick über die bewertbaren Kursbausteine mit ihrem jeweiligen aktuellen Bewertungsstatus.
 
 Der Link zum Leistungsnachweis erscheint im Kurs erst dann, wenn im Kurs mindestens ein bewertbarer Kursbaustein existiert, und der Kursteilnehmer bereits mindestens eine Bewertung erhalten hat. Dies kann z.B. der Lösungsversuch eines Tests sein oder die Bewertung einer Aufgabe.
 
@@ -102,7 +102,7 @@ Für das Zertifikat kann eine Gültigkeitsdauer festgelegt werden. Sie legen dab
 
 Um die Gültigkeit des Zertifikats zu überprüfen, muss der Vorlage das Attribut "certificateVerificationUrl" hinzugefügt werden. Dieses erlaubt es, mittels QR-Code das Zertifikat zu einem späteren Zeitpunkt nochmals zu generieren und mit der vorliegenden Version zu vergleichen. Sofern beide Versionen übereinstimmen, kann das Zertifikat als gültig erklärt werden. Der QR-Code zur Validierung ist allerdings nur bei Verwendung eines HTML-Formulars möglich.
 
-Anhand des Austellungsdatums sowie des Ablaufdatums des Zertifikats können [Erinnerungen](../course_operation/Course_Reminders.de.md){:target="_blank”} ausgelöst werden, z.B. erhält der User eine Info, dass das Zertifikat abgelaufen ist oder in wenigen Tagen abläuft oder eine Rezertifizierung ab sofort möglich ist. 
+Anhand des Austellungsdatums sowie des Ablaufdatums des Zertifikats können [Erinnerungen](../learningresources/Course_Reminders.de.md){:target="_blank”} ausgelöst werden, z.B. erhält der User eine Info, dass das Zertifikat abgelaufen ist oder in wenigen Tagen abläuft oder eine Rezertifizierung ab sofort möglich ist. 
 
 #### Zertifikatsvorlage erstellen ####
 Als Vorlage für das Zertifikat dient in der Regel eine systemweite, vom
@@ -212,7 +212,7 @@ Zum Formatieren von Datumsformaten steht das "dateFormatter"-Objekt zur Verfügu
 Sollten Sie eine Zertifikatvorlage wünschen, kontaktieren Sie uns unter [support@frentix.com](mailto:support@frentix.com) für einen Kostenvoranschlag für eine Vorlage gemäss Ihren individuellen Wünschen.
 
 ## Tab Optionen {: #options} 
-Hier können Sie ein kurspezifisches [Glossar](../course_operation/Using_Additional_Course_Features.de.md) und einen [Ressourcenordner](../authoring/Various_Types_of_Learning_Resources.de.md) aktivieren, konfigurieren und so mit Ihrem Kurs verbinden sowie einen speziellen Ordner für Betreuer erstellen.
+Hier können Sie ein kurspezifisches [Glossar](../learningresources/Using_Additional_Course_Features.de.md) und einen [Ressourcenordner](../learningresources/index.de.md) aktivieren, konfigurieren und so mit Ihrem Kurs verbinden sowie einen speziellen Ordner für Betreuer erstellen.
 
 ### Glossar einbinden
 Sie können hier entweder eine Verbindung zu einem bereits erstellten Glossar herstellen oder im erscheinenden Menü ein neues Glossar erstellen.  Sobald ein Glossar gewählt wurde, kann es auch im Tab "Toolbar" aktiviert werden.

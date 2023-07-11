@@ -17,7 +17,7 @@ Endergebnis könnte wie folgt aussehen:
 
 ![Ein mit dem Wizard erstellter Kurs](assets/Wizard-Kurs.png)
 
-Sie finden Ihren Kurs anschließend im [„Autorenbereich“](../authoring/index.de.md) unter "Meine Kurse" sowie unter „Meine Einträge“. Wenn Sie einen OpenOlat Bookmark auf den Kurs setzen erscheint er auch unter "Favoriten". 
+Sie finden Ihren Kurs anschließend im [„Autorenbereich“](../area_modules/Authoring.de.md) unter "Meine Kurse" sowie unter „Meine Einträge“. Wenn Sie einen OpenOlat Bookmark auf den Kurs setzen erscheint er auch unter "Favoriten". 
 
 Im nächsten Schritt sollten Sie weitere Einstellungen im Kurs vornehmen und vor allem die Placebo-Infotexte entfernen. Gehen Sie auch durch die "Einstellungen" der Administration. 
 
@@ -26,7 +26,7 @@ Kursteilnehmende sichtbar.
 
 Die Erstellung von OpenOlat-Kursen ist ziemlich einfach. Der Assistent ist in
 den meisten Fällen gar nicht nötig, zumal Sie um eine spätere Überarbeitung im
-[Kurseditor](General_Configuration_of_Course_Elements.de.md) nicht wirklich
+[Kurseditor](../learningresources/General_Configuration_of_Course_Elements.de.md) nicht wirklich
 herumkommen. Schauen Sie sich lieber den beschriebenen
-[Kurszyklus](General_Information.de.md) an und richten Sie Ihren Kurs direkt mit dem
+[Kurszyklus](../learningresources/General_Information.de.md) an und richten Sie Ihren Kurs direkt mit dem
 Kurseditor ein.

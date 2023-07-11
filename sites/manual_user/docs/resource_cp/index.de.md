@@ -13,7 +13,7 @@ CPs werden können sowohl integriert in einen OLAT-Kurs oder separat verwendet
 werden. In der Regel werden CPs in einen Kurs eingebunden. Dabei kann ein und
 dasselbe CP in mehreren Kursen verwendet werden. Beispielsweise können Sie ein
 einführendes Modul nicht nur in der Veranstaltung für Studienanfänger, sondern
-auch als Grundlage für weiterführende Kurse verwenden. Weiterführende Inhalte stehen im Kapitel ["Kurs erstellen"](../course_create/index.de.md)
+auch als Grundlage für weiterführende Kurse verwenden. Weiterführende Inhalte stehen im Kapitel ["Kurs erstellen"](../learningresources/Creating_Course.de.md)
 
 Für die Erstellung umfangreicher CP-Lerninhalte empfehlen wir z.B. den Einsatz
 von [eLML (EN Webseite)](http://www.elml.org/website/en/html/index.html "eLML.org").

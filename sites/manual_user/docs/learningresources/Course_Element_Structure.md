@@ -85,7 +85,7 @@ passing score?**  in the course root node.
 Use explicit short titles for all of your assessable course elements to be
 able to clearly distinguish them in the tab "Score."
 
-By means of the button "Display  [expert mode](../course_create/Access_Restrictions_in_the_Expert_Mode.md)" an entry field will appear
+By means of the button "Display  [expert mode](../learningresources/Access_Restrictions_in_the_Expert_Mode.md)" an entry field will appear
 in order to be able to make a more complex configuration according to your
 needs.
 

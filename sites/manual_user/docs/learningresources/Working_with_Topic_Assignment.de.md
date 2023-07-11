@@ -83,4 +83,4 @@ Ihnen der Themenverantwortliche zurückgegeben hat.
 Wenn Sie als Themenverantwortlicher eingesetzt werden, können Sie Themen
 ausschreiben. Mehr dazu und dem Akzeptieren und Betreuen von Teilnehmern
 erfahren Sie im Kapitel „Kursbausteine“ → "Andere" unter dem Punkt
-"[Kursbaustein Themenvergabe](../course_elements/Other.de.md#Andere-_bb_themenvergabe)".
+"[Kursbaustein Themenvergabe](../learningresources/Other.de.md#Andere-_bb_themenvergabe)".

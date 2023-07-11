@@ -5,9 +5,9 @@ either in the assessment tool or directly in the run time view.
 
 You can find out in detail how tasks and group tasks are evaluated in the
 assessment tool in the chapter [Assessment
-tool](../course_operation/Assessment_tool_-_overview.md) →
+tool](../learningresources/Assessment_tool_overview.md) →
 [Assessing tasks and group
-tasks](../course_operation/Assessing_tasks_and_group_tasks.md).
+tasks](../learningresources/Assessing_tasks_and_group_tasks.md).
 The following is a brief description of how the assessment is performed in the
 run time view:
 
@@ -49,7 +49,7 @@ overview as "No submission".
 
 How course participants will see the course element "Task" will be explained
 in the chapter "Learning Activities in Courses," section ["Task and Group
-Task"](../learning_activities/Working_With_Course_Elements.md).
+Task"](../learningresources/Course_Elements.md).
 
 ### Changing return and feedback documents
 

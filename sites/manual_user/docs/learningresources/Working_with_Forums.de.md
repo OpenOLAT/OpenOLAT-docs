@@ -84,7 +84,7 @@ sofern noch niemand auf Ihren Beitrag geantwortet hat.
 Es ist möglich, dass Kursteilnehmende vom Lehrenden zusätzlich
 Moderationsrechte in einem Forum erhalten. Was genau damit verbunden ist,
 erfahren Sie im Kapitel „[Kommunikation und
-Kollaboration](../course_elements/Communication_and_Collaboration.de.md)“.
+Kollaboration](../learningresources/Communication_and_Collaboration.de.md)“.
 
 ### Welche Darstellungsmöglichkeiten für Foren-Threads gibt es?
 
@@ -109,9 +109,8 @@ an dem Sternchen.
 
 ![](assets/Forum_Aufbau-1.png)
 
-Laden Sie im
-"[Profil](../../pages/viewpage.action%EF%B9%96pageId=68255886.html#Pers%C3%B6nlicheWerkzeuge-
-_profil)" ein Foto hoch, damit neben Ihren Forumsbeiträgen anstelle des
+Laden Sie impages
+"[Profil](../personal_menu/Configuration.de.md#profil--profile)" ein Foto hoch, damit neben Ihren Forumsbeiträgen anstelle des
 Standard-Profilbildes Ihr Foto erscheint.
 
 ###

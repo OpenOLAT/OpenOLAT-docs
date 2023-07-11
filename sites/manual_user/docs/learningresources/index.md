@@ -19,9 +19,9 @@ diverse didactic concepts such as group puzzles or problem-based learning.
 OpenOlat courses are unique document types. They can contain any number of
 course elements. How to work with those different course elements will be
 explained in the chapter ["Learning Activities in Courses"](../learning_activities/index.md) in more detail. How to create
-courses will be illustrated in the chapter ["Creating Courses"](../course_create/index.md). 
+courses will be illustrated in the chapter ["Creating Courses"](../learningresources/Creating_Course.md). 
 More information on course elements and the
-course editor can be found in the chapter ["Types of Course Element"](../course_elements/index.md).
+course editor can be found in the chapter ["Types of Course Element"](Course_Elements.md).
 
   
 
@@ -37,7 +37,7 @@ predefined standardized format used for generating tests and questionnaires
 online.
 
 More information on using and creating tests can be found in the chapter
-"[Creating Tests"](../tests/index.md).
+"[Creating Tests"](../learningresources/Test.md).
 
 ## CP Learning Content ![icon](assets/content.png){class="size16"}
 
@@ -59,7 +59,7 @@ base for your studies and projects.
 For more information on how to create Wikis and embed those in your course
 please go to the chapter ["Creating Wikis"](../resource_wiki/Four_Steps_to_Your_Wiki.md). How
 to generate content within a Wiki will be explained in the chapter "Learning Activities Within a Course," section
-["Wiki"](../learning_activities/Working_with_Wiki.md).
+["Wiki"](../learningresources/Working_with_Wiki.md).
 
 ## Podcast
 ![icon](assets/podcast.png){class="size16"}
@@ -71,10 +71,10 @@ single episodes to mobile devices later on. Your course participants will be
 able to easily assess or comment on such podcast episodes.
 
 Information on how to create and embed podcasts in your course can be found in
-the chapter ["Creating Podcasts"](../resource_podcast/index.md). Further details on
+the chapter ["Creating Podcasts"](../learningresources/Podcast.md). Further details on
 how to use podcasts as course participant will be explained in the chapter
 "Learning Activities in Courses," section
-["Podcast"](../learning_activities/Working_With_Course_Elements.md#podcast).
+["Podcast"](../learningresources/Course_Elements.md#podcast).
 
 ## Blog
 ![icon](assets/blog.png){class="size16"}
@@ -84,10 +84,10 @@ information. Blogs are often used as a kind of diary or journal. Course
 participants will be able to comfortably assess or comment on blog entries.
 
 Information on how to create and embed a blog in your course will be found in
-the chapter ["Creating Blogs"](../resource_blog/index.md). Further details on how to
+the chapter ["Creating Blogs"](../learningresources/Blog.md). Further details on how to
 use blogs as course participant will be explained in the chapter "Learning
 Activities in Courses," section
-["Blog"](../learning_activities/Working_With_Course_Elements.md#blog).
+["Blog"](../learningresources/Course_Elements.md#blog).
 
   
 
@@ -102,7 +102,7 @@ course under _sharedfolder and there is access to all files stored in the
 resource folder. Changes to the files in the resource folder then apply to all
 linked courses. It should be noted that only one resource folder can be added
 per course. Further information can be found in the chapter 
-"[Course settings](../course_create/Course_Settings.md#CourseSettings-_detail_ressourcen)" in the
+"[Course settings](../learningresources/Course_Settings.md#CourseSettings-_detail_ressourcen)" in the
 submenu "Resource folder".
 
 ## Form
@@ -111,7 +111,7 @@ submenu "Resource folder".
 A form is usually used to collect data, for example for event evaluation. Each
 course participant can fill out the same questionnaire only once. The results
 are stored anonymously. For more information on the use and creation of form,
-see the chapter [Creating questionnaires](../forms/index.md).
+see the chapter [Creating questionnaires](../learningresources/Form.md).
 
   
 
@@ -122,9 +122,9 @@ A Portfolio 2.0 template contains tasks that can be used as part of a
 portfolio assessment and entered into an OLAT course as a portfolio task. With
 the help of a Portfolio 2.0 template, lecturers can design a structured
 portfolio folder that the students can
-[collect](../portfolio/Portfolio_task_and_assignment_Collecting_and_editing.md)
-and edit. Further information on the [Portfolio Template](../portfolio/Portfolio_template_Creation.md) and on
-[ePortfolio](../portfolio/index.md) in general can be found in the
+[collect](../learningresources/Portfolio_task_and_assignment_Collecting_and_editing.md)
+and edit. Further information on the [Portfolio Template](../learningresources/Portfolio_template_Creation.md) and on
+[ePortfolio](../area_modules/index.md) in general can be found in the
 corresponding chapter.
 
 ## Glossary
@@ -139,9 +139,9 @@ Glossary, if required, in order to adjust the display and editing permissions.
 
 More information on how to create a glossary and embed it into your course can
 be found in chapter "Course Operation," section
-["Glossary"](../course_operation/Using_Additional_Course_Features.md#glossary). 
+["Glossary"](../learningresources/Using_Additional_Course_Features.md#glossary). 
 How to use your glossary within a course will be explained in the chapter "Learning Activities in Courses," section
-["Glossary"](../learning_activities/Additional_Course_Features.md#glossary).
+["Glossary"](../learningresources/Additional_Course_Features.md#glossary).
 
 ## Other learning resources:
 
@@ -165,7 +165,7 @@ SCORM modules cannot be created in OpenOlat, only imported.
  A video is a learning content in the MPEG-4 format with the file extension
 .mp4, and is used for audio and video playback. OpenOlat supports subtitles in
 multiple languages, in-video quizzes and annotations. Further information on
-video formats can be found in the "[Creating Videos](../resource_video/index.md)"
+video formats can be found in the "[Creating Videos](../learningresources/Video.md)"
 chapter.
 
 ### Learning resources of the type "File"

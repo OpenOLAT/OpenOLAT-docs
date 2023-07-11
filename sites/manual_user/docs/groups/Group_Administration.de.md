@@ -4,7 +4,7 @@ Konfigurationsmöglichkeiten für Gruppenbetreuer
 
 Wenn Sie eine neue Gruppe erstellen, sind Sie automatisch Betreuer dieser
 Gruppe. Betreuer der Gruppe erhalten den Link "Administration" im Menu.
-Generell haben Sie die Möglichkeit die Gruppe zu administrieren,  [generelle Einstellungen](Group_Management.de.md) vorzunehmen und die Gruppe auch wieder zu löschen.
+Generell haben Sie die Möglichkeit die Gruppe zu administrieren,  [generelle Einstellungen](../area_modules/Group_Management.de.md) vorzunehmen und die Gruppe auch wieder zu löschen.
 
 ![Gruppe administrieren](assets/Gruppe_173a.png){ class="shadow lightbox"}
 
@@ -44,15 +44,15 @@ Werkzeug | | Beschreibung
 ---|---|---
 :fontawesome-solid-circle-info: | Information an Mitglieder| Ist das Werkzeug „Information“ aktiviert, kann definiert werden, ob nur Gruppenbetreuer oder auch Gruppenmitglieder Mitteilungen erstellen können. Eigene Mitteilungen können immer editiert werden. Als Gruppenbetreuer können alle Mitteilungen editiert und gelöscht werden.  
 :fontawesome-regular-envelope:| E-Mail| Ist das Werkzeug „E-Mail“ aktiviert, können auch Gruppen Teilnehmende Nachrichten an (ausgewählte) Betreuer und oder Teilnehmende verschicken. 
-:fontawesome-solid-calendar-days: | Kalender| Sie können der Gruppe einen Kalender zur Verfügung stellen, in den Sie gemeinsame Termine eintragen können. Es kann konfiguriert werden ob nur Gruppen-Betreuer oder alle Gruppen-Mitglieder Einträge im Kalender vornehmen dürfen. Weitere generelle Informationen zu Kalenderfunktionen finden Sie im Kapitel [Kalender](../personal/Calendar.de.md).  
+:fontawesome-solid-calendar-days: | Kalender| Sie können der Gruppe einen Kalender zur Verfügung stellen, in den Sie gemeinsame Termine eintragen können. Es kann konfiguriert werden ob nur Gruppen-Betreuer oder alle Gruppen-Mitglieder Einträge im Kalender vornehmen dürfen. Weitere generelle Informationen zu Kalenderfunktionen finden Sie im Kapitel [Kalender](../personal_menu/Calendar.de.md).  
 :fontawesome-regular-folder: | Ordner| Mit einem Ordner ermöglichen Sie den Austausch von Dateien zwischen den Mitgliedern Ihrer Gruppe. Auch eine gemeinsame Bearbeitung von Office Dokumenten ist je nach Konfiguration durch den OpenOlat Administrator möglich.  Wenn der Ordner aktiviert ist und gespeichert wurde, können Sie die Schreibberechtigungen dafür konfigurieren, d.h. festlegen wer Dateien hochladen und erstellen darf.   
 :fontawesome-brands-rocketchat:| Forum| Aktivieren Sie das Forum um allen eine asynchrone Austauschmöglichkeit zur Verfügung zu stellen. Als Betreuer der Gruppe haben Sie das Recht, Beiträge zu editieren und zu löschen sowie neue Beiträge zu verfassen.   
 :fontawesome-solid-comment-sms: | Chat| Sie können der Gruppe einen einfachen synchronen Chat zur Verfügung stellen. Hier sehen Sie auch, welche anderen Mitglieder sich aktuell im Gruppenchat befinden.  
-:fontawesome-solid-globe: | Wiki| Sie können der Gruppe ein Wiki zur Verfügung stellen, um gemeinsam Inhalte zu erstellen. Weitere Infos zur Arbeit mit Wikis finden Sie [hier](../learning_activities/Working_with_Wiki.de.md).  
-:octicons-briefcase-24: | Portfolio| Sie können der Gruppe ein [Portfolio](../portfolio/Portfolio_-_General_Information.de.md) 2.0 zur Verfügung stellen um eine gemeinsame Portfolio-Arbeit zu ermöglichen. Es handelt sich dabei aber nicht um ein Assessment-Portfolio.   
-:material-monitor: | OpenMeetings| Sofern OpenMeetings aktiviert und gespeichert wurde, steht der Gruppe ein virtueller Meetingraum bzw. ein virtuelles Klassenzimmer zur Verfügung. Weitere Informationen zu OpenMeetings finden Sie [hier](assets/../../course_elements/Course_element_OpenMeetings.de.md)  
-:material-monitor: | BigBlueButton| Mit der Wahl von BigBlueButton können einer Gruppe mehrere BigBlueButton Räume zur Verfügung gestellt werden. Die Funktionalität ist ähnlich wie beim entsprechenden [Kursbaustein BigBlueButton](../course_elements/Course_element_BigBlueButton.de.md). In der Gruppe stehen nur die für Gruppen generell aktivierten BigBlueButton Vorlagen zur Verfügung. Diese können von den Raum-Vorlagen in Kursen abweichen. Ist ein Gruppenmitglied im OpenOlat System Betreuer, Kursbesitzer, Autor oder Administrator, stehen ihm gegebenenfalls noch weitere BigBlueButton Raum- Templates zur Verfügung.  
-:material-monitor: | Microsoft Teams| Mit der Wahl von Microsoft Teams können einer Gruppe mehrere Räume zur Verfügung gestellt werden. Weitere Informationen zu MS Teams finden Sie [hier](../course_elements/Course_element_Microsoft_Teams.de.md).  
+:fontawesome-solid-globe: | Wiki| Sie können der Gruppe ein Wiki zur Verfügung stellen, um gemeinsam Inhalte zu erstellen. Weitere Infos zur Arbeit mit Wikis finden Sie [hier](../learningresources/Working_with_Wiki.de.md).  
+:octicons-briefcase-24: | Portfolio| Sie können der Gruppe ein [Portfolio](../area_modules/Portfolio_General_Information.de.md) 2.0 zur Verfügung stellen um eine gemeinsame Portfolio-Arbeit zu ermöglichen. Es handelt sich dabei aber nicht um ein Assessment-Portfolio.   
+:material-monitor: | OpenMeetings| Sofern OpenMeetings aktiviert und gespeichert wurde, steht der Gruppe ein virtueller Meetingraum bzw. ein virtuelles Klassenzimmer zur Verfügung. Weitere Informationen zu OpenMeetings finden Sie [hier](assets/../../course_elements/Course_Element_OpenMeetings.de.md)  
+:material-monitor: | BigBlueButton| Mit der Wahl von BigBlueButton können einer Gruppe mehrere BigBlueButton Räume zur Verfügung gestellt werden. Die Funktionalität ist ähnlich wie beim entsprechenden [Kursbaustein BigBlueButton](../learningresources/Course_Element_BigBlueButton.de.md). In der Gruppe stehen nur die für Gruppen generell aktivierten BigBlueButton Vorlagen zur Verfügung. Diese können von den Raum-Vorlagen in Kursen abweichen. Ist ein Gruppenmitglied im OpenOlat System Betreuer, Kursbesitzer, Autor oder Administrator, stehen ihm gegebenenfalls noch weitere BigBlueButton Raum- Templates zur Verfügung.  
+:material-monitor: | Microsoft Teams| Mit der Wahl von Microsoft Teams können einer Gruppe mehrere Räume zur Verfügung gestellt werden. Weitere Informationen zu MS Teams finden Sie [hier](../learningresources/Course_Element_Microsoft_Teams.de.md).  
   
 Jedes Werkzeug kann nur einmal in eine Gruppe eingebunden werden. Es ist also
 nicht möglich, einer Gruppe mehrere Ordner, Wiki oder Foren Bausteine zur
@@ -122,7 +122,7 @@ Einschreibung für kooperative Aktivitäten, für die Vergabe von Referaten, die
 Anmeldung zu Exkursionen aber auch für das Rechtemanagement innerhalb von
 Kursen.
 
-Gruppen und Kurse können auf zwei Wegen verknüpft werden. Entweder ausgehend von der Gruppe im Tab "Kurse" oder ausgehend vom Kurs über die [Mitgliederveraltung](../course_operation/Members_management.de.md) → "Gruppen".
+Gruppen und Kurse können auf zwei Wegen verknüpft werden. Entweder ausgehend von der Gruppe im Tab "Kurse" oder ausgehend vom Kurs über die [Mitgliederveraltung](../learningresources/Members_management.de.md) → "Gruppen".
 
 
 ## Tab Freigabe {: #booking}

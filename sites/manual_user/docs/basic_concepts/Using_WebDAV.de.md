@@ -19,11 +19,11 @@ von Ihrem Rechner zu OpenOlat-Ordnern.
 Struktur, sobald die Elemente über OpenOlat angelegt wurden, automatisch
 erstellt:
 
-  * [Persönlicher Ordner](../personal/Personal_folders.de.md) (jeder)
-  * Ordner von Gruppen
-  * [Ablageordner von Kursen](../course_operation/Using_Course_Tools.de.md#EinsatzderKurswerkzeuge-_ablageordner) (nur Kursbesitzer)
-  * Kursbaustein Ordner
-  * [Ressourcenordner](../course_create/Course_Settings.de.md#Kurseinstellungen-_detail_ressourcen) (nur Lernressourcenbesitzer)
+  * [Persönlicher Ordner](../personal_menu/Personal_folders.de.md) (jeder)
+  * Ordner von [Gruppen](../groups/Using_Group_Tools.de.md)
+  * [Ablageordner von Kursen](../learningresources/Storage_folder.de.md) (nur Kursbesitzer)
+  * [Kursbaustein Ordner](../learningresources/Course_Element_Form.de.md)
+  * [Ressourcenordner](../learningresources/index.de#ressourcenordner.md) (nur Lernressourcenbesitzer)
 
 Wer in den jeweiligen Ordnern Dateien per WebDAV hochladen darf ist abhängig
 von der jeweiligen Konfiguration.
@@ -36,7 +36,7 @@ Anwenderprogramme (z.B. Microsoft Office) WebDAV-Funktionalität an.
 
 Um einen Ordner auf OpenOlat über WebDAV zu erreichen, benötigen Sie:
 
-  * WebDAV-Link:Diesen Link findet man im persönlichen Menu rechts oben im Bereich
+  * WebDAV-Link: Diesen Link findet man im persönlichen Menu rechts oben im Bereich
 "Konfiguration" unter "Einstellungen" → "WebDAV" bzw. unterhalb von WebDAV-
 fähigen Ordnern
   * Ihren OpenOlat-Benutzernamen, alternativ die hinterlegte E-Mail Adresse
@@ -121,15 +121,17 @@ Passwort verfügen, verwenden Sie dieses für den WebDAV Zugang.
 Wenn Sie die Verbindung erfolgreich eingerichtet haben, öffnet sich auf Ihrem
 Rechner ein Verzeichnis, das die folgenden Unterverzeichnisse enthält:
 
-  *  **coursefolders** : Ablageordner und Ordnerelement aller Kurse, die Sie besitzen bzw. deren Mitglied sie sind. Ablageordner sehen in der Regel nur Benutzer mit Autorenrechten. Alle anderen Benutzer finden hier Kursordner. 
+  *  **coursefolders**: Hier haben Sie Zugriff auf die [Ablageordner](../learningresources/Storage_folder.de.md) aller Kurse, die Sie besitzen bzw. deren Mitglied sie sind. Für jeden Kurs wird automatisch ein Webdav-Ordner angelegt. Klicken Sie auf den Webdav-Ordner eines Kurses und Sie sehen die Dateien und die Struktur des jeweiligen Ablageordners und können Dateien hochladen, löschen, ändern usw. 
+  Neben denen von Ihnen angelegten Dateien und Ordnern legt OpenOlat je nach automatisch bestimmte Ordner an. Diese erreichen Sie ebenfalls über WebDAV.    
+ Ablageordner sehen in der Regel nur Benutzer mit Autorenrechten. Alle anderen Benutzer finden hier Kursordner. 
 
-    * _other_: Dieser Ordner erscheint nur, wenn in der Administration die Semesterdaten aktiviert sind. In diesem Ordner befinden sich alle Kurse, welche keinem Semester zugeordnet sind.
+    * _other_: Dieser Ordner erscheint nur, wenn in der Administration die Semesterdaten aktiviert sind. In diesem Ordner befinden sich alle Kurse, welche _keinem_ Semester zugeordnet sind.
 
     * _beendet_: Dieser Ordner erscheint nur, wenn in der Administration die Semesterdaten nicht aktiviert sind. In diesem Ordner befinden sich alle Kurse, welche im Kurslebenszyklus auf beendet gesetzt worden sind. Das sind diejenigen Kurse, welche im Menu Kurse im Tab "Beendet" erscheinen.  
 
     ![WebDav Konfiguration](assets/administration_webdav.png){ class="shadow" }
 
-  *  **groupfolders** : Hier finden Sie alle Gruppen in denen Sie eingetragen sind und auf deren Ordner Sie Zugriff haben.
-  *  **home** : Ihre beiden persönlichen Ordner (mit den Unterordnern „private“ und „public“).
-  *  **sharedfolders** : Alle Ressourcenordner, die Sie besitzen, oder auf die Sie aufgrund von Teilnehmerrechten zugreifen dürfen. Besitzer und Betreuer erhalten Lese- und Schreibrechte, Teilnehmer nur Leserechte
+  *  **groupfolders**: Hier finden Sie alle Gruppen in denen Sie eingetragen sind und auf deren Ordner Sie Zugriff haben.
+  *  **home**: Ihre beiden persönlichen Ordner (mit den Unterordnern „private“ und „public“).
+  *  **sharedfolders**: Alle Ressourcenordner, die Sie besitzen, oder auf die Sie aufgrund von Teilnehmerrechten zugreifen dürfen. Besitzer und Betreuer erhalten Lese- und Schreibrechte, Teilnehmer nur Leserechte.
 

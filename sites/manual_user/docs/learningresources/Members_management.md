@@ -67,11 +67,11 @@ a) by directly entering them in the member list by the course owner via the butt
 oder "invite external members". In the first two cases, existing Openolat users are added. With the third option, people without an OpenOlat account can also be added to the learning resource.
 
 b) by booking the course by the learner (see [access
-configuration](../course_create/Access_configuration.md))
+configuration](../learningresources/Access_configuration.md))
 
 c) by adding a group. All group members will then be added to the course.
 
-d) by a superordinate OpenOlat [Curriculum](../curriculum/Curriculum_Management.md)
+d) by a superordinate OpenOlat [Curriculum](../area_modules/Curriculum_Management.md)
 
 For most courses, enrolling directly in a
 course (version a) or b)) is the better choice.
@@ -97,7 +97,7 @@ are:
 
 Under Bookings you can view all bookings for this course, sorted by status, if
 the course access is organized via the [booking
-method](../course_create/Access_configuration.md).
+method](../learningresources/Access_configuration.md).
 
 ## Invitations 
 Available in :octicons-tag-24: 17.0.
@@ -129,7 +129,7 @@ However, it is best to assign these extended rights to the _participants_ of a g
 !!! Warning "Attention"
 
     Group coaches basically also get access to the [assessment
-    tool](Assessment_tool_-_overview.md) and can also assess all members of the group. Furthermore, dürfen sie Änderungen an den betreuten Gruppen vornehmen und haben Zugriff auf alle für Betreuer im Kursun freigegebenen Dinge! 
+    tool](Assessment_tool_overview.md) and can also assess all members of the group. Furthermore, dürfen sie Änderungen an den betreuten Gruppen vornehmen und haben Zugriff auf alle für Betreuer im Kursun freigegebenen Dinge! 
 
 Group coaches always have access to the assessment tool and can also assess the members of the group. Furthermore they are allowed to make changes to the
 coaches of a group.
@@ -175,7 +175,7 @@ may archive course data such as forums or test results.
 The "Administration" menu also appears.
 
 Even without coach rights, members with these rights can use the [assessment
-tool](Assessment_tool_-_overview.md) to evaluate and comment on all of the
+tool](Assessment_tool_overview.md) to evaluate and comment on all of the
 course participants' achievements.  
 
 !!! info "info"
@@ -201,7 +201,7 @@ statistics and test statistics. The data can be displayed and downloaded.
 
 The "Administration" menu also appears.
 
-Members are allowed to set up the [test configuration](../e-assessment/Assessment_mode.md)
+Members are allowed to set up the [test configuration](../learningresources/Assessment_mode.md)
 of the course.  
   
  **Course database**
@@ -215,7 +215,7 @@ Members have access to the course database and can create, reset, delete or expo
 ##  Consents {: #consent}
 
 If course-related terms of use or the course-related privacy policy are
-[activated](../course_create/Course_Settings.md), the stored consent of the individual users
+[activated](../learningresources/Course_Settings.md), the stored consent of the individual users
 is listed here. Selected consents can be revoked or deleted at this point.
 When revoking, the consent is reset, but the entry is retained. If a user is
 deleted in OpenOlat, all course-related consents of the user are also removed.

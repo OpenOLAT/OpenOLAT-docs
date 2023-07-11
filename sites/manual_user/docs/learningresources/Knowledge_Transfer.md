@@ -158,7 +158,7 @@ subscribe to podcasts, upload those by means of online services such as iTunes
 before copying them to a mobile device.
 
 How to [create](../resource_podcast/Four_Steps_to_Your_Podcast.md) and
-[configure](../resource_podcast/Podcast_-_Further_Configurations.md) a podcast is explained in
+[configure](../learningresources/Podcast_Further_Configurations.md) a podcast is explained in
 separate chapters.
 
 ##  Course Element: Blog {: #blog}
@@ -175,7 +175,7 @@ stars. It is also possible to give course participants the right to write a
 blog, so that they can jointly run a course blog.
 
 How to [create](../resource_blog/Four_Steps_to_Your_Blog.md) and
-[configure](../resource_blog/Blog_-_Further_Configurations.md) a blog is explained on
+[configure](../learningresources/Blog_Further_Configurations.md) a blog is explained on
 separate pages.
 
 ##  Course Element: Video {: #video}
@@ -189,9 +189,9 @@ annotated and evaluated and thus optimally integrated into the learning and
 teaching process of a course.
 
 Further information about the course element video can be found
-[here](../resource_video/Course_Element_Video.md). Information on postprocessing the
+[here](../learningresources/Course_Element_Video.md). Information on postprocessing the
 video with OLAT Quiz and jump marks can be found in chapter "[Learning
-Resource: Video](../resource_video/Learning_resource_Video.md)".
+Resource: Video](../learningresources/Learning_resource_Video.md)".
 
   
  

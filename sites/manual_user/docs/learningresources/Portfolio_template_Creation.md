@@ -38,7 +38,7 @@ Further information on editing and designing the Portfolio Template 2.0 can be
 found [here](Portfolio_template_Administration_and_editing.md).  
   
 If you want to use the type "Form" in your assignement, you must also create
-and integrate a corresponding [learning resource "Form"](../forms/Forms_in_the_ePortfolio_template.md). The procedure for creating the learning resource is the same as for other learning resources
+and integrate a corresponding [learning resource "Form"](../learningresources/Forms_in_the_ePortfolio_template.md). The procedure for creating the learning resource is the same as for other learning resources
 like portfolio template.
 
 To integrate an already created Portfolio 2.0 template in an OpenOlat course

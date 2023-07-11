@@ -2,7 +2,7 @@
 
 :octicons-device-camera-video-24: **Video-Einführung**: [OpenOlat Funktionsprinzipien](<https://www.youtube.com/embed/M-JkSAFN298>){:target="_blank”}
 
-OpenOlat-Kurse ermöglichen das Abbilden von diversen Veranstaltungsformaten z.B. Vorlesungen, Seminare, Online-Tutorien oder Gruppenpuzzle, genauso wie die Umsetzung verschiedener Arten von Lernen, z.B. problembasiertes Lernen, kooperatives Lernen, selbstorganisiertes Lernen usw. Durch den Einsatz beliebig vieler [Kursbausteine](../course_elements/index.de.md) in frei wählbarer Reihenfolge, gewährt Ihnen OpenOlat maximale Flexibilität bei der Umsetzung Ihres didaktischen Konzepts.
+OpenOlat-Kurse ermöglichen das Abbilden von diversen Veranstaltungsformaten z.B. Vorlesungen, Seminare, Online-Tutorien oder Gruppenpuzzle, genauso wie die Umsetzung verschiedener Arten von Lernen, z.B. problembasiertes Lernen, kooperatives Lernen, selbstorganisiertes Lernen usw. Durch den Einsatz beliebig vieler [Kursbausteine](Course_Elements.de.md) in frei wählbarer Reihenfolge, gewährt Ihnen OpenOlat maximale Flexibilität bei der Umsetzung Ihres didaktischen Konzepts.
 
 Beantragen Sie bei Ihrer OpenOlat-Supportstelle bzw. den Administratoren Ihrer OpenOlat Instanz, Autorenrechte und legen Sie los!
 
@@ -16,7 +16,7 @@ Lernressource Kurs im "Autorenbereich" erstellen und den gewünschten Kurstyp "L
 
 !!! info "Weitere Informationen"
 	  * [Kurs erstellen](index.de.md)
-	  * [Mit dem Kurseditor in fünf Schritten zu Ihrem OpenOlat Kurs](In_Five_Steps_to_Your_Course_With_the_Course_Editor.de.md)
+	  * [Mit dem Kurseditor in fünf Schritten zu Ihrem OpenOlat Kurs](../course_create/In_Five_Steps_to_Your_Course_With_the_Course_Editor.de.md)
 	  * [Lernpfad Kurse erstellen](Creating_learning_path_courses.de.md)
 
 ### 2. Kurs einrichten, gestalten, publizieren
@@ -28,10 +28,10 @@ gewünscht konfigurieren.
 ![](assets/Kurseditor_oeffnen.png)
 
 !!! info "Weitere Informationen"
-	  * [Kursbausteine](../course_elements/index.de.md)
+	  * [Kursbausteine](Course_Elements.de.md)
 	  * [Verwendung von Kurseditorwerkzeugen](Using_additional_Course_Editor_Tools.de.md)
-	  * [Lernpfad Kurs - Kurseditor](Learning_path_course_-_Course_editor.de.md)
-	  * [Lernressourcen](../authoring/Various_Types_of_Learning_Resources.de.md)
+	  * [Lernpfad Kurs - Kurseditor](../learningresources/Learning_path_course_Course_editor.de.md)
+	  * [Lernressourcen](../learningresources/index.de.md)
 	  * [Allgemeine Konfiguration von Kursbausteinen](General_Configuration_of_Course_Elements.de.md)
 	  * [Kurseinstellungen](Course_Settings.de.md)
 
@@ -64,7 +64,7 @@ Handlungen vor.
 ![](assets/Administration_Bewertungswerkzeug.png)
 
 !!! info "Weitere Informationen"
-	  * [Kursbetrieb](../course_operation/index.de.md)
+	  * [Kursbetrieb](../learningresources/Administration.de.md)
 	  * [Lernaktivitäten (Lerner Perspektive)](../learning_activities/index.de.md)
 
 ### 6. Kurs beenden {: #end_course}
@@ -105,5 +105,5 @@ angezeigt werden.
 	effektivsten Kursbausteine aus mit denen Sie Ihr Ziel erreichen und Ihr
 	Kurskonzept umsetzen können. Versuchen Sie auch zusammengehörende Dinge
 	sinnvoll zu bündeln, um eine optimale Usability zu erreichen. Wenn der Aufbau
-	klar ist, bereiten Sie die Lerninhalte, weitere Dateien ([HTML pages, PDF files, CPs](../authoring/Various_Types_of_Learning_Resources.de.md), etc.). und alles, was Sie für den
+	klar ist, bereiten Sie die Lerninhalte, weitere Dateien ([HTML pages, PDF files, CPs](../learningresources/index.de.md), etc.). und alles, was Sie für den
 	Einsatz in der Lernplattform benötigen, vor.

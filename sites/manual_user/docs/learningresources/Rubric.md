@@ -49,7 +49,7 @@ Enter individual criteria, statements or questions in the row area that match yo
 
 Individual lines can be moved up or down using the double arrows on the right side. In addition, you can give each line a weighting of the respective statement and thus assign special meaning to individual criteria, which is also reflected in the scoring, e.g. by double or triple points. It is also possible to set the value to 0 to exclude individual questions from the reports.
 
-An edited rubric can therefore automatically receive a corresponding number of points, which is particularly relevant when used in the course element "[Assessment](../course_elements/Knowledge_Transfer.md)".
+An edited rubric can therefore automatically receive a corresponding number of points, which is particularly relevant when used in the course element "[Assessment](../learningresources/Knowledge_Transfer.md)".
 
 !!! info "Note"
 

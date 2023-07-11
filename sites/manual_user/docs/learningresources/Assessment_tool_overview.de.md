@@ -46,7 +46,7 @@ Benachrichtigungen über neu erzeugte Zertifikate (sofern generell aktiviert) ab
 
 ### Im Prüfungsmodus
 
-Befindet sich der Kurs im [Prüfungsmodus](../e-assessment/Assessment_mode.de.md) wird dies ebenfalls im Bewertungswerkzeug angezeigt. Auch ist erkennbar wie viele Personen bereits eingeloggt sind und auf den Start der Prüfung warten.
+Befindet sich der Kurs im [Prüfungsmodus](../learningresources/Assessment_mode.de.md) wird dies ebenfalls im Bewertungswerkzeug angezeigt. Auch ist erkennbar wie viele Personen bereits eingeloggt sind und auf den Start der Prüfung warten.
 ![Anzeige der wartenden Personen bei laufendem Prüfungsmodus](assets/Pruefungsmodus_Personen_warten.png)
 
 ## Aufträge
@@ -61,12 +61,12 @@ In der linken Navigation des Bewertungswerkzeugs sieht man alle bewertbaren Kurs
 
 ![Bewertungswerkzeug Teilnehmerübersicht](assets/Bewertungswerkzeug_TN_172.png)
 
- Wie genau Bewertungen vorgenommen werden können erfahren Sie im Kapitel ["Bewertung von Kursbausteinen"](../course_operation/Assessment_of_course_modules.de.md) bzw. ["Lernende bewerten"](../course_operation/Assessment_tool_-_tab_Users.de.md).
+ Wie genau Bewertungen vorgenommen werden können erfahren Sie im Kapitel ["Bewertung von Kursbausteinen"](../learningresources/Assessment_of_course_modules.de.md) bzw. ["Lernende bewerten"](../learningresources/Assessment_tool_tab_Users.de.md).
 
 ### Oberster Kursknoten
 
 Der automatisch generierte oberste Kursknoten zählt ebenfalls als bewertbarer Baustein. Ist auf dem oberersten Kursbaustein, der genau genommen ein
-Kursbaustein ["Struktur"](../course_elements/Knowledge_Transfer.de.md/#structure) ist,
+Kursbaustein ["Struktur"](../learningresources/Knowledge_Transfer.de.md/#structure) ist,
 eine Punkteberechnung eingerichtet, können auf der obersten Ebene der Benutzeransicht auch die Gesamtpunkte eines Kurses bzw. die für den obersten Baustein definierten Punkte, angezeigt und die Gesamtergebnisse der Kursteilnehmenden heruntergeladen werden.
 
 ## Daten zurücksetzen {: #course_reset}

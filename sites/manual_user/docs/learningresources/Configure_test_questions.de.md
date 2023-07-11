@@ -73,5 +73,5 @@ Hier können für jede Frage weitere Metadaten hinterlegt werden. Hierzu zählen
 
 Im Bereich "Itemanalye" kann die durchschnittliche Bearbeitungszeit der Frage, die Schwierigkeit, die Trennschärfe, die benötige Korrekturzeit u.ä. angegeben werden.
 
-Im Bereich "Technik" werden weitere Informationen angezeigt. Diese Einstellungen sowie weitere Informationen zu den [Metadaten](../question_bank/Item_Detailed_View.de.md) finden Sie ebenfalls im
-[Fragenpool](../question_bank/index.de.md).
+Im Bereich "Technik" werden weitere Informationen angezeigt. Diese Einstellungen sowie weitere Informationen zu den [Metadaten](../area_modules/Item_Detailed_View.de.md) finden Sie ebenfalls im
+[Fragenpool](../area_modules/Question_Bank.de.md).

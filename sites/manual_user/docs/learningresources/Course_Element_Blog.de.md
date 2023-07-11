@@ -12,5 +12,5 @@ Ferner ist es möglich, den Kursteilnehmenden das Schreibrecht für einen Blog
 zu geben, so dass sie gemeinsam einen Kursblog führen können.
 
 Wie Sie einen Blog [erstellen ](../resource_blog/Four_Steps_to_Your_Blog.de.md)und
-[konfigurieren ](../resource_blog/Blog_-_Further_Configurations.de.md)erfahren Sie auf
+[konfigurieren ](../learningresources/Blog_Further_Configurations.de.md)erfahren Sie auf
 separaten Seiten.

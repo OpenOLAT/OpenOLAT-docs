@@ -6,7 +6,7 @@ A number of tools are available in the "Administration" area of your course. On 
 
  You can organize course participants and course-related groups in the [members management](Members_management.md). Groups can also be bundled in learning areas. The course structure and the course tools are set up in the course editor. Furthermore, you have access to the storage folder of a course.
 
-During the course itself the [assessment tool](Assessment_tool_-_overview.md) is relevant. Course-related [reminders](Course_Reminders.md) and [lectures](Lectures_and_absences.md) can also be organized. The assessment mode is suitable for online exams. Certain statistical data can also be retrieved and data archived. And of course courses and learning resources can be copied, exported or deleted.
+During the course itself the [assessment tool](Assessment_tool_overview.md) is relevant. Course-related [reminders](Course_Reminders.md) and [lectures](Lectures_and_absences.md) can also be organized. The assessment mode is suitable for online exams. Certain statistical data can also be retrieved and data archived. And of course courses and learning resources can be copied, exported or deleted.
 
 !!! info "Info"
 
@@ -32,7 +32,7 @@ The course elements which should be assessed, first need to configured either in
 
     Abonnieren Sie den Benachrichtigungsservice, entweder für neu eingegangene Testresultate und/oder neu erstellte Zertifikate.
 
-Further information about the assessment tool you can found [here](Assessment_tool_-_overview.md).
+Further information about the assessment tool you can found [here](Assessment_tool_overview.md).
 
 ## Course Statistics {: #statistics}
 
@@ -109,11 +109,11 @@ This way you get a completely reset course without user-specific data remains.
 ## Kopieren mit Wizard 
 Mit Hilfe des Wizards können die zu kopierenden Elemente eines Kurses ausgewählt werden und so noch effektiver eine Übertragung für einen neuen Kursdurchlauf erfolgen. Die Kopie kann automatisch oder benutzerdefiniert erfolgen. Bei der benutzerdefinierten Kopie können die zu kopierenden Kursobjekte gewählt und weitere Einstellungen z.B. bezüglich der Mitgliederverwaltung, bestimmten Kursbausteinen sowie weiteren Optionen vorgenommen werden. 
 
-Diese Funktion ist nur für [Lernpfad-Kurse](../course_create/Learning_path_course.de.md) verfügbar. 
+Diese Funktion ist nur für [Lernpfad-Kurse](../learningresources/Learning_path_course.de.md) verfügbar. 
 
 ## Convert to learning path course
 
-Traditional courses and courses created before OpenOlat version 15 can be converted into a [learning path course](../course_create/Learning_path_course.md) via this link.
+Traditional courses and courses created before OpenOlat version 15 can be converted into a [learning path course](../learningresources/Learning_path_course.md) via this link.
 
 Diese Funktion ist nur für herkömmliche Kurse verfügbar.
 
@@ -124,7 +124,7 @@ Export your learning resources as a ZIP file um eine Sicherungskopie zu erhalten
 Allowing a course copy for other authors is useful for course templates, for example.
 
 As the owner of a learning resource, you can also determine in the administration menu under "Settings" → "Shared to other authors" whether your learning resource may be exported, copied or referenced by all other OpenOlat authors in the system.
-Weitere Infos dazu finden Sie [hier](../course_create/Access_configuration.md).
+Weitere Infos dazu finden Sie [hier](../learningresources/Access_configuration.md).
 
 ## Delete (learning resource)
 
@@ -151,12 +151,12 @@ A course can also be closed or deleted automatically. The administrator makes th
 
 Weitere Menüs werden auf separaten Handbuchseiten konkreter vorgestellt:
  
-* [Course settings](../course_create/Course_Settings.md)
+* [Course settings](Course_Settings.md)
 * [Members management](Members_management.md)
-* [Course elements](../course_elements/index.md)
+* [Course elements](Course_Elements.md)
 * [Storage folder](Storage_folder.md)
-* [Assessment Tool](Assessment_tool_-_overview.md)
+* [Assessment Tool](Assessment_tool_overview.md)
 * [Lectures and Absences](Lectures_and_absences.md)
 * [Reminder](Course_Reminders.md)
-* [Assessment mode](../e-assessment/Assessment_mode.md)
+* [Assessment mode](Assessment_mode.md)
 * [Data archiving](Data_archiving.md)

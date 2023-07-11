@@ -18,11 +18,11 @@ Via WebDAV you can access the following OpenOlat folders. Thereby the
 structure of how the elements are generated in OpenOlat  is taken
 automatically:
 
-  * [Personal folder](../personal/Personal_folders.md) (every user)  
+  * [Personal folder](../personal_menu/Personal_folders.md) (every user)  
   * [Folders of groups](../groups/Using_Group_Tools.md)
-  * [Folder - course element ](../course_elements/Course_Element_Folder.md)
-  * [Storage folders](../course_operation/Storage_folder.md) of courses (course owners only)
-  * [Resource folders](../authoring/Various_Types_of_Learning_Resources.md) (only Learning Resource Owner)
+  * [Folder - course element ](../learningresources/Course_Element_Folder.md)
+  * [Storage folders](../learningresources/Storage_folder.md) of courses (course owners only)
+  * [Resource folders](../learningresources/index.md) (only Learning Resource Owner)
 
 Who is allowed to upload files via WebDAV in the respective folders depends on
 the respective configuration.

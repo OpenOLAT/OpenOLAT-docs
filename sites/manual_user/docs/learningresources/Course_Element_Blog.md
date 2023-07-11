@@ -12,5 +12,5 @@ stars. It is also possible to give course participants the right to write a
 blog, so that they can jointly run a course blog.
 
 How to [create](../resource_blog/Four_Steps_to_Your_Blog.md) and
-[configure](../resource_blog/Blog_-_Further_Configurations.md) a blog is explained on
+[configure](../learningresources/Blog_Further_Configurations.md) a blog is explained on
 separate pages.

@@ -37,7 +37,7 @@ freigeschaltet.
 
 - Wenn Sie alle gewünschten Änderungen vorgenommen haben, wählen Sie "speichern" und schliessen Sie den CP-Editor. 
 
-Mehr Informationen zu den verschiedenen Funktionen des CP-Editors finden Sie im Kapitel [CP Editor](CP_Editor.de.md).
+Mehr Informationen zu den verschiedenen Funktionen des CP-Editors finden Sie im Kapitel [CP Editor](../learningresources/CP_Editor.de.md).
 
 
 ## Schritt 4: Kurs publizieren  
@@ -47,13 +47,13 @@ Sie müssen nun wieder zurück zum Kurs navigieren, der in einem weiteren Olat T
 - Definieren Sie im Tab "Lerninhalt" ob die **Navigationsstruktur des CPs** im Kurs angezeigt werden soll oder nicht. 
 
 - Konfigurieren Sie bei Bedarf die weiteren Tabs des Kursbausteins.
-Im Tab “Layout“ definieren Sie beispielsweise die Einstellungen für die Anzeige des CPs. Die Einstellungsmöglichkeiten sind identisch mit denen einer [Einzelseite](../course_elements/Course_Element_Single_Page.de.md).
+Im Tab “Layout“ definieren Sie beispielsweise die Einstellungen für die Anzeige des CPs. Die Einstellungsmöglichkeiten sind identisch mit denen einer [Einzelseite](../learningresources/Course_Element_Single_Page.de.md).
 
 - Publizieren Sie anschliessend den Kurs indem Sie in der Breadcrumb-Leiste auf den Kurstitel klicken und den Kurs automatisch oder manuell publizieren. 
 
 ## Schritt 5: Kurszugang einrichten
 
-Das Content-Packaging ist nun in Ihren Kurs eingebunden. Damit Lernende das CP im Kurs sehen und bearbeiten können muss der Kurs den Status "Veröffentlicht" haben und die [Zugangskonfiguration](../course_create/Access_configuration.de.md) sollte passend eingerichtet sein. 
+Das Content-Packaging ist nun in Ihren Kurs eingebunden. Damit Lernende das CP im Kurs sehen und bearbeiten können muss der Kurs den Status "Veröffentlicht" haben und die [Zugangskonfiguration](../learningresources/Access_configuration.de.md) sollte passend eingerichtet sein. 
 
 Um das CP weiter zu bearbeiten, können Sie jederzeit wieder bei Schritt 3 ansetzen oder die Lernressource CP direkt im Autorenbereich über den Bereich "Meine Einträge" aufrufen. 
 

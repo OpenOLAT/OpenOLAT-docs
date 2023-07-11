@@ -1,18 +1,18 @@
 # Kommunikation und Kollaboration
-Mehr Informationen zu [Virtuelle Klassenzimmer](Virtual_classrooms.de.md)
+Mehr Informationen zu [Virtuelle Klassenzimmer](../course_elements/Virtual_classrooms.de.md)
 
 ## Kursbaustein „Wiki“ {: #wiki}
 ![Wiki Icon](../assets/wiki_icon.png)
 
 Verwenden Sie ein Wiki, um auf einfache Weise mit Kursteilnehmenden gemeinsam Inhalte zu erstellen. Ein Wiki kann für Gruppenarbeiten, als Dokumentationswerkzeug oder als Wissensbasis für Ihre Studien- oder Projektarbeit verwendet werden.
 
-Mit dem Kursbaustein „Wiki“ binden Sie eine Lernressource Wiki in Ihren Kurs ein. Klicken Sie im Tab „ **Wiki-Lerninhalt** “ auf „Wiki wählen, erstellen oder importieren“, ordnen ein bereits erstelltes Wiki zu oder erstellen ein neues. Eine Schritt-für-Schritt-Anleitung zu Ihrem Wiki finden Sie im Kapitel [„Wiki erstellen"](../resource_wiki/index.de.md). Wenn Sie noch kein Wiki ausgewählt haben, erscheint beim Titel **Gewähltes Wiki** die Meldung _Kein Wiki ausgewählt_.
+Mit dem Kursbaustein „Wiki“ binden Sie eine Lernressource Wiki in Ihren Kurs ein. Klicken Sie im Tab „ **Wiki-Lerninhalt** “ auf „Wiki wählen, erstellen oder importieren“, ordnen ein bereits erstelltes Wiki zu oder erstellen ein neues. Eine Schritt-für-Schritt-Anleitung zu Ihrem Wiki finden Sie im Kapitel [„Wiki erstellen"](../learningresources/Wiki.de.md). Wenn Sie noch kein Wiki ausgewählt haben, erscheint beim Titel **Gewähltes Wiki** die Meldung _Kein Wiki ausgewählt_.
 
 Wenn Sie schon ein Wiki hinzugefügt haben, erscheint dessen Name. Um die Zuordnung eines Wikis nachträglich zu ändern, klicken Sie im Tab „Wiki-Lerninhalt“ auf „Wiki auswechseln“ und wählen anschliessend ein anderes Wiki.
 
 Im Tab "Wiki-Lerninhalt" konfigurieren Sie die Benutzerberechtigungen des Wikis. Hier können Sie einstellen, dass neben den Besitzern auch Betreuer und Teilnehmer Wiki-Artikel bearbeiten dürfen. Standardmässig haben alle Kursteilnehmer Lese- und Schreibrechte in einem Wiki. Nur derjenige OpenOlat-Benutzer, der die Seite erstellt hat oder OpenOlat-Benutzer, welche beim Wiki als Besitzer eingetragen sind, dürfen Wiki-Seiten löschen.
 
-Im Kapitel „Lernaktivitäten im Kurs“ finden Sie unter dem Punkt [„Wiki"](../learning_activities/Working_with_Wiki.de.md) Informationen dazu, wie die Wiki-Navigation angepasst werden kann, wie Sie neue Seiten erstellen und wie Sie die verschiedenen Versionen einer Seite betrachten können.
+Im Kapitel „Lernaktivitäten im Kurs“ finden Sie unter dem Punkt [„Wiki"](../learningresources/Working_with_Wiki.de.md) Informationen dazu, wie die Wiki-Navigation angepasst werden kann, wie Sie neue Seiten erstellen und wie Sie die verschiedenen Versionen einer Seite betrachten können.
 
 !!! warning "Achtung"
 
@@ -21,7 +21,7 @@ Im Kapitel „Lernaktivitäten im Kurs“ finden Sie unter dem Punkt [„Wiki"](
 ## Kursbaustein „Forum“ {: #forum}
 ![forum icon](../assets/forum_icon.png)
 
-Mit dem Kursbaustein „Forum“ können Sie in Ihrem Kurs auf einfache Weise asynchrone Online-Diskussionen für unterschiedliche Zwecke ermöglichen. Beispielsweise könnten Kursteilnehmende Beiträge mit Fragen zum Inhalt des Kurses verfassen und gegenseitig beantworten oder Sie initiieren eine Fachdiskussion oder setzen spezifische Foren basierte Online-Methoden um. Im Kapitel „Lernaktivitäten im Kurs“ finden Sie unter dem Punkt [„Forum"](../learning_activities/Working_with_Forums.de.md) Informationen dazu, wie Forumsbeiträge erstellt und beantwortet werden. Standardmässig haben alle Kursteilnehmer Lese- und Schreibrechte in einem Forum.
+Mit dem Kursbaustein „Forum“ können Sie in Ihrem Kurs auf einfache Weise asynchrone Online-Diskussionen für unterschiedliche Zwecke ermöglichen. Beispielsweise könnten Kursteilnehmende Beiträge mit Fragen zum Inhalt des Kurses verfassen und gegenseitig beantworten oder Sie initiieren eine Fachdiskussion oder setzen spezifische Foren basierte Online-Methoden um. Im Kapitel „Lernaktivitäten im Kurs“ finden Sie unter dem Punkt [„Forum"](../learningresources/Working_with_Forums.de.md) Informationen dazu, wie Forumsbeiträge erstellt und beantwortet werden. Standardmässig haben alle Kursteilnehmer Lese- und Schreibrechte in einem Forum.
 
 Sie können das Forum auch als Alternative für den Mitteilungsbaustein für Ankündigungen von Seiten der Kursautoren verwenden, besonders wenn Rückfragen von den Lernenden erwünscht sind.
 
@@ -54,11 +54,11 @@ Personen mit Moderationsrechten können auch Forumsthemen oder einzelne Beiträg
     Forumsbeiträge können auch in Foren verschoben werden, in welchen der Ersteller des Beitrages keinen Zugriff hat.
 
    
-Neben dem Kursbaustein "Forum" gibt es auch die Möglichkeit ein zentrales Forum für den gesamten Kurs in der [Kurs Toolbar](../course_operation/Using_Additional_Course_Features.de.md) anzeigen zu lassen. Das bietet sich häufig an, wenn der Kurs nur ein Forum umfasst, das permanent zur Verfügung stehen soll. Hier können jedoch keine weiteren Einstellungen wie Pseudonymisierung oder Vergabe von Moderationsrechten vorgenommen werden.
+Neben dem Kursbaustein "Forum" gibt es auch die Möglichkeit ein zentrales Forum für den gesamten Kurs in der [Kurs Toolbar](../learningresources/Using_Additional_Course_Features.de.md) anzeigen zu lassen. Das bietet sich häufig an, wenn der Kurs nur ein Forum umfasst, das permanent zur Verfügung stehen soll. Hier können jedoch keine weiteren Einstellungen wie Pseudonymisierung oder Vergabe von Moderationsrechten vorgenommen werden.
 
 Neben dem Kursbaustein "Forum" gibt es auch die Möglichkeit ein zentrales
 Forum für den gesamten Kurs in der [Kurs
-Toolbar](../course_operation/Using_Additional_Course_Features.de.md) anzeigen zu lassen. Das bietet sich häufig an, wenn der Kurs nur ein Forum umfasst, das permanent zur Verfügung stehen soll.
+Toolbar](../learningresources/Using_Additional_Course_Features.de.md) anzeigen zu lassen. Das bietet sich häufig an, wenn der Kurs nur ein Forum umfasst, das permanent zur Verfügung stehen soll.
 Hier können jedoch keine weiteren Einstellungen wie Pseudonymisierung oder
 Vergabe von Moderationsrechten vorgenommen werden.
 
@@ -136,7 +136,7 @@ Im Tab "Template Einstellungen" können sowohl für den Abgabe- als auch den Rü
 ## Kursbaustein „Teilnehmerliste“  {: #participant_list}
 ![Teilnehmerliste Icon](../assets/participant_list_icon.png)
 
-In der Teilnehmerliste können die Mitglieder des Kurses für alle sichtbar gemacht werden. Im Gegensatz zum Kurswerkzeug [Mitgliederverwaltung](../course_operation/Members_management.de.md), das nur für Besitzer sichtbar ist, werden mit dem Kursbaustein "Teilnehmerliste" alle Teilnehmer des Kurses, für jene OpenOlat- Benutzer die den Kurs öffnen können, sichtbar. Die Mitglieder werden sortiert nach ihrer Kursrolle nach "Kursadministratoren", "Betreuer" und "Teilnehmer" mit Foto nach ihrer "höchsten" Rolle aufgelistet. In der Konfiguration können Sie festlegen, welche Benutzergruppen in der Teilnehmerliste angezeigt werden sollen.
+In der Teilnehmerliste können die Mitglieder des Kurses für alle sichtbar gemacht werden. Im Gegensatz zum Kurswerkzeug [Mitgliederverwaltung](../learningresources/Members_management.de.md), das nur für Besitzer sichtbar ist, werden mit dem Kursbaustein "Teilnehmerliste" alle Teilnehmer des Kurses, für jene OpenOlat- Benutzer die den Kurs öffnen können, sichtbar. Die Mitglieder werden sortiert nach ihrer Kursrolle nach "Kursadministratoren", "Betreuer" und "Teilnehmer" mit Foto nach ihrer "höchsten" Rolle aufgelistet. In der Konfiguration können Sie festlegen, welche Benutzergruppen in der Teilnehmerliste angezeigt werden sollen.
 
 ![Teilnehmerliste Konfiguration.png](assets/Teilnehmerliste_Editor.png)
 Durch die Verlinkung auf die OpenOlat-Visitenkarte sowie der Möglichkeit aus dem Kursbaustein heraus eine OpenOlat-Mail an jedes gewünschte Mitglied des Kurses zu schreiben, ermöglicht dieser Kursbaustein weitere Kursteilnehmende einfach und problemlos zu kontaktieren. Im Kurseditor können Sie festlegen ob die E-Mailfunktion für alle Teilnehmer oder nur für Besitzer und Betreuer verfügbar sein soll. Mails an einzelne oder mehrere Personen(-gruppen) werden in der Kursansicht über die Schaltfläche "E-Mail versenden" verschickt. Im Formular können nach Bedarf auch externe Mailadressen hinzugefügt werden.

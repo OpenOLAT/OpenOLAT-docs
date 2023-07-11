@@ -18,7 +18,7 @@ finden Sie auf den separaten Seiten der Werkzeuge.
 
 ## Kursbaustein einfügen
 
-Hier haben Sie Zugriff auf alle [Kursbausteine](course_elements/index.de.md), die Sie
+Hier haben Sie Zugriff auf alle [Kursbausteine](Course_Elements.de.md), die Sie
 in einen Kurs einbauen können.
 
 ## Kursbaustein ändern
@@ -61,7 +61,7 @@ eingetragen sind.
 Die Spalten zeigen _nicht die Bewertungen_ für einzelne Personen an, sondern
 geben lediglich einen Überblick über die Konfiguration der Bausteine. Sollen
 Punkte vergeben oder ein bestanden/nicht bestanden werden, erfolgt dies im
-"[Bewertungswerkzeug](../course_operation/Assessment_tool_-_overview.de.md)"
+"[Bewertungswerkzeug](../learningresources/Assessment_tool_overview.de.md)"
 des Kurses.
 
 ![](assets/Kurseditor_Konfiguration_Spalten.png)

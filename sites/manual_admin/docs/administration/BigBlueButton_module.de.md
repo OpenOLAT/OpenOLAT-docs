@@ -6,7 +6,7 @@ BigBlueButton-Server, das Load-Balancing und das Einrichten von systemweiten
 Raumvorlagen.
 
 Die Anleitung zur Konfiguration von einzelnen Online-Terminen für Kursbesitzer
-wird im Kapitel [Kursbaustein BigBlueButton](../../manual_user/course_elements/Course_element_BigBlueButton.de.md)
+wird im Kapitel [Kursbaustein BigBlueButton](../../manual_user/learningresources/Course_Element_BigBlueButton.de.md)
 beschrieben.
 
 In der Administration stehen die Tabs Server, Raumvorlagen, Online-Termine und

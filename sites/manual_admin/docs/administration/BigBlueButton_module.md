@@ -5,7 +5,7 @@ This article describes the configuration of multiple BigBlueButton servers,
 load balancing and setting up system-wide room templates.
 
 Instructions on how to configure individual online dates are described in the
-chapter [Course Element BigBlueButton](../../manual_user/course_elements/Course_element_BigBlueButton.md).
+chapter [Course Element BigBlueButton](../../manual_user/learningresources/Course_Element_BigBlueButton.md).
 
 In the administration the tabs Server, Room templates, Online appointments and
 Calendar are available.

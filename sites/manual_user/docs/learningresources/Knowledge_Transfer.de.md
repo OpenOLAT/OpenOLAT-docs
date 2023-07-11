@@ -161,7 +161,7 @@ anzeigen lassen oder den Podcast abonnieren, die Episoden in Portale wie
 iTunes laden und auf ihre mobilen Endgeräte kopieren.
 
 Wie Sie einen Podcast [erstellen ](../resource_podcast/Four_Steps_to_Your_Podcast.de.md)und
-[konfigurieren ](../resource_podcast/Podcast_-_Further_Configurations.de.md)erfahren Sie in
+[konfigurieren ](../learningresources/Podcast_Further_Configurations.de.md)erfahren Sie in
 separaten Kapiteln.
 
 ## Kursbaustein "Blog" {: #blog}
@@ -178,7 +178,7 @@ Ferner ist es möglich, den Kursteilnehmenden das Schreibrecht für einen Blog
 zu geben, so dass sie gemeinsam einen Kursblog führen können.
 
 Wie Sie einen Blog [erstellen ](../resource_blog/Four_Steps_to_Your_Blog.de.md)und
-[konfigurieren ](../resource_blog/Blog_-_Further_Configurations.de.md)erfahren Sie auf
+[konfigurieren ](../learningresources/Blog_Further_Configurations.de.md)erfahren Sie auf
 separaten Seiten.
 
 ## Kursbaustein „Video“ {: #video}
@@ -192,10 +192,10 @@ Video kann mit einer Kommentierung und Bewertung versehen und so optimal in
 das Lehr-Lerngeschehen eines Kurses eingebunden werden.
 
 Weitere Informationen zum Kursbaustein Video finden Sie
-[hier](../resource_video/Course_Element_Video.de.md).
+[hier](../learningresources/Course_Element_Video.de.md).
 Informationen zur Nachbearbeitung des Videos mit OLAT Quiz und Sprungmarken
 finden Sie im Kapitel "[Lernressource:
-Video](../resource_video/Learning_resource_Video.de.md)".
+Video](../learningresources/Learning_resource_Video.de.md)".
 
 ##  Kursbaustein "Video Livestream"  {: #livestream}
 

@@ -23,7 +23,7 @@ Ihnen einen Einblick in OpenOlat mit eingeschränkter Funktionalität: Sie haben
 nur Zugriff auf Lerninhalte, die ausdrücklich für Gäste freigegeben sind. Um
 Zugang zu weiteren Lernmaterialien und -aktivitäten zu erhalten, müssen Sie
 sich bei OpenOlat registrieren. Weitere Informationen zum Gastzugang finden
-Sie [hier](../access_roles_rights/guest_access.de.md).
+Sie [hier](../basic_concepts/guest_access.de.md).
 
 ## Browser {: #browsercheck}
 

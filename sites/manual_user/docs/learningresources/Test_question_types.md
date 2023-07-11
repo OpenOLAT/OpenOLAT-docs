@@ -259,7 +259,7 @@ It is also possible for the participants to add text via the text tool. The text
   
 !!! info "Import questions"
 
-	Beside the direct creation, questions can also be imported out of the pool ([question bank](../question_bank/index.md)) or by [excel](../question_bank/Data_Management.md).
+	Beside the direct creation, questions can also be imported out of the pool ([question bank](../area_modules/Question_Bank.md)) or by [excel](../area_modules/Data_Management.md).
 
 ??? abstract "Digression – Writing essays"
 

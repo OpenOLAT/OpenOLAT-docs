@@ -43,7 +43,7 @@ Hier finden Sie eine Übersicht über die Rechte des Betreuers.
 | Kursbaustein | Rechte | Zusätzliche Konfigurationsmöglichkeit  | 
 | --- | --- | --- |
 | Wiki| bearbeiten = TN konfigurierbar|  |  
-| Forum| Postings erstellen aktivierbar = Diskussionsthemen eröffnen, bearbeiten, Beiträge löschen, Personenfilter, aber keine Foren erstellen | Erweiterte Moderatorenrechte aktivierbar, Personenfilter, aber keine Foren erstellen |   
+| Forum| Postings erstellen aktivierbar = Diskussionsthemen eröffnen, bearbeiten, Beiträge löschen, Personenfilter, aber keine Foren erstellen | Erweiterte Moderatorenrechte aktivierbar, Personenfilter |   
 | Dateidiskussion| Postings erstellen und Datei Upload aktivierbar, aber kein zugriff auf den Ablageordner; Forenteil wie Kursbaustein Forum  | Optional Moderatorenrechte für den Forenteil aktivierbar |   
 | Teilnehmer Ordner| = Kursbesitzer | Zugriff auf alle Abgabeordner; Rückgabeordner, wenn aktiviert  |
 | Teilnehmerliste | = Kursbesitzer, Download, E-Mail, PDF-Export und Drucken |  |   

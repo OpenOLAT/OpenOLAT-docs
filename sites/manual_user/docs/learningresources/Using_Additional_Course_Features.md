@@ -8,7 +8,7 @@ In the "Administration" → "Settings" tab you can configure the following addit
 
 ## Course Search
 
-In addition to a [full text search](../personal/Full-Text_Search.md) for the total of OpenOlat you can activate a search within a course. You can search for the following elements:
+In addition to a [full text search](../basic_concepts/Full_Text_Search.md) for the total of OpenOlat you can activate a search within a course. You can search for the following elements:
 
 * Title, short title, description of all course elements
 * Content of html pages
@@ -26,21 +26,21 @@ New dates are simply created by clicking on the desired date. Afterwards, the ti
 
 With the "Edit" option you also get access to further calendar tabs and can set links to course elements or external websites used in the course. If you would like to delete all dates of a course calendar, simply click on the gear symbol in the calendar area and select "Reset calendar".
 
-Course calendars are also automatically transferred to the [personal calendars](../personal/Calendar.md) of course members. Thus all dates can be called up also directly over the personal OpenOlat calendar. The same applies to group calendars. In the case of group calendars, it is possible to set in the group administration which write/read rights the members receive.
+Course calendars are also automatically transferred to the [personal calendars](../personal_menu/Calendar.md) of course members. Thus all dates can be called up also directly over the personal OpenOlat calendar. The same applies to group calendars. In the case of group calendars, it is possible to set in the group administration which write/read rights the members receive.
 
 By default, only owners of a course have write access to the calendar. Course participants only have read rights, so they cannot write new appointments or edit existing ones. However, if you insert the calendar as a course element, you can configure the permissions.
 
 ## Participant list
 
-Here all course owners, coaches and participants of a course can be displayed centrally. Course participants can send e-mails to specific persons, even to individual course members. In contrast to the [course element "Participant list"](../learning_activities/Working_With_Course_Elements.md) no further configurations can be made here.
+Here all course owners, coaches and participants of a course can be displayed centrally. Course participants can send e-mails to specific persons, even to individual course members. In contrast to the [course element "Participant list"](../learningresources/Course_Elements.md) no further configurations can be made here.
 
 ## Participant infos
 
-This tool corresponds to the [course element "Notifications"](../course_elements/Administration_and_Organisation.md). Participants can subscribe to the tool and thus be notified when there is new information. In contrast to the course element no further configurations can be made here.
+This tool corresponds to the [course element "Notifications"](../learningresources/Administration_and_Organisation.md). Participants can subscribe to the tool and thus be notified when there is new information. In contrast to the course element no further configurations can be made here.
 
 ## E-Mail
 
-Here the course owner can configure to whom the learners can send mails via this link. There are three course roles to choose from: "course owner," "coach," and "participant". A further differentiation is not possible. In case you need more differentiated settings for sending mails to course members you should use the [course element "E-mail"](../course_elements/Administration_and_Organisation.md) or the [course element "List of participants"](../course_elements/Communication_and_Collaboration.md).
+Here the course owner can configure to whom the learners can send mails via this link. There are three course roles to choose from: "course owner," "coach," and "participant". A further differentiation is not possible. In case you need more differentiated settings for sending mails to course members you should use the [course element "E-mail"](../learningresources/Administration_and_Organisation.md) or the [course element "List of participants"](../learningresources/Communication_and_Collaboration.md).
 
 ## Teams Online-Meeting
 
@@ -48,23 +48,23 @@ Similar to the Microsoft Teams course element, rooms for synchronous meetings ca
 
 ## BigBlueButton online meetings
 
-Similar to the [course element BigBlueButton](../course_elements/Course_element_BigBlueButton.md), rooms for synchronous meetings can be created here.
+Similar to the [course element BigBlueButton](../learningresources/Course_Element_BigBlueButton.md), rooms for synchronous meetings can be created here.
 
 ## Blog
 
-Here you can create or import a [blog (learning resource)](../resource_blog/index.md). Learners can subscribe to the central course blog.
+Here you can create or import a [blog (learning resource)](../learningresources/Blog.md). Learners can subscribe to the central course blog.
 
 ## Wiki
 
-Here you can create or import a [Wiki (learning resource)](../resource_wiki/index.md). Learners can subscribe to the central Wiki.
+Here you can create or import a [Wiki (learning resource)](../learningresources/Wiki.md). Learners can subscribe to the central Wiki.
 
 ## Forum
 
-A central forum can be activated for a course. Course members can subscribe to the forum as usual. However, differentiated settings as in the [course element "Forum"](../course_elements/Communication_and_Collaboration.md) are not possible here.
+A central forum can be activated for a course. Course members can subscribe to the forum as usual. However, differentiated settings as in the [course element "Forum"](../learningresources/Communication_and_Collaboration.md) are not possible here.
 
 ## Documents
 
-The teacher can use this link to provide important central documents of the course for download. Students can download the documents, be notified when new documents are available (subscribe) and, if required, send the files by e-mail. However, configuration options are not as extensive as in the [course element "Folder"](../course_elements/Course_Element_Folder.md).
+The teacher can use this link to provide important central documents of the course for download. Students can download the documents, be notified when new documents are available (subscribe) and, if required, send the files by e-mail. However, configuration options are not as extensive as in the [course element "Folder"](../learningresources/Course_Element_Folder.md).
 
 ## Course chat
 
@@ -90,7 +90,7 @@ Once a glossary has been integrated into a course, the link to the glossary will
 
 Enter the desired technical term under "Term". You can also add synonyms. For example, the term "Information Technology" can be supplemented with the synonym "IT". In the tab "Definition" you can then add the concrete definition of the term. Terms that have been entered can also be changed or deleted afterwards.
 
-If you no longer use the glossary or want to integrate another glossary you can make the desired changes in the course or on the info page by using the drop-down menu "Course" via the menu item "[Options](../course_create/Course_Settings.md)".
+If you no longer use the glossary or want to integrate another glossary you can make the desired changes in the course or on the info page by using the drop-down menu "Course" via the menu item "[Options](../learningresources/Course_Settings.md)".
 
 In the learning resource "Glossary" you can define in the tab "Write permission" if only owners of that learning resource are allowed to create and edit contributions or if users are granted that right as well. Owners of the learning resource "Glossary" can basically change and delete all glossary entries created. By default new glossary entries can only be made by course owners.
 

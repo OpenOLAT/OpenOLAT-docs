@@ -1,28 +1,18 @@
 # Wie gehe ich vor, wenn ich einen Test erstelle?
 
+??? abstract "Ziel und Inhalt dieser Anleitung"
 
-!!! info ""
+    Für das Erstellen von Tests gibt es in OpenOlat verschiedene Wege. Hier werden Ihnen im Überblick die gängigen Wege aufgezeigt. Lernen Sie die Möglichkeiten kennen und wählen Sie dann das für Sie passende Vorgehen.
 
-    **Ziel und Inhalt dieser Anleitung**
+??? abstract "Zielgruppe"
 
-    Für das Erstellen von Tests gibt es in OpenOlat verschiedene Wege. Hier werden Ihnen im Überblick die gängigen Wege aufgezeigt. Lernen Sie die Möglichkeiten kennen und wählen Sie dann das für Sie passende Vorgehen. 
-
-
-!!! info ""
-
-    **Zielgruppe**
-    
     [x] Anfänger [x] Fortgeschrittene  [ ] Experten
 
 
-!!! info ""
-
-    **Erwartete Vorkenntnisse**
+??? abstract "Erwartete Vorkenntnisse"
 
     * [„Wie erstelle ich meinen ersten OpenOlat-Kurs?"](../my_first_course/my_first_course.de.md)
 
-
-<br>
 
 ---
 
@@ -305,7 +295,7 @@ Alternativ kann auch der "Publizieren"-Button im Editor rechts in der Toolleiste
 Welche Lernende Zugriff erhalten, bestimmen Sie in der Mitgliederverwaltung des Kurses.   
 
 20\. Sobald Testergebnisse vorhanden sind, können Betreuende im Betreuungswerkzeug Bewertungen vornehmen. (Gilt nicht bei Selbsttests.)<br>
-Weitere Infos dazu finden Sie im Kapitel "[Tests bewerten](../course_operation/Assessing_tests.de.md)".
+Weitere Infos dazu finden Sie im Kapitel "[Tests bewerten](../learningresources/Assessing_tests.de.md)".
 
 <br>
 

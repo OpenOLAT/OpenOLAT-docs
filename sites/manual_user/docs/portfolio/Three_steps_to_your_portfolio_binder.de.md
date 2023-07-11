@@ -53,7 +53,7 @@ erstellen.
 4. Zusätzlich können eine Zusammenfassung, ein Titelbild und Kategorien
 hinzugefügt werden.  
 5. Anschliessend können verschiedene
-[Inhalte](My_portfolio_binders.de.md#MeinePortfolioMappen-portfolioinhalt)
+[Inhalte](../area_modules/My_portfolio_binders.de.md#MeinePortfolioMappen-portfolioinhalt)
 bzw. Artefakte hinzugefügt werden.  
   
 !!! info "Info"

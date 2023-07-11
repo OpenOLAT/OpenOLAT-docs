@@ -1,26 +1,17 @@
 # How do I proceed when I create a test?
 
-!!! info ""
-
-    **Objectives and content of this instruction**
+??? abstract "Objectives and content of this instruction"
 
     There are various ways to create tests in OpenOlat. Here you will find an overview of the most common ways. Get to know the possibilities and then choose the procedure that suits you best.
 
-!!! info ""
+??? abstract "Target group"
 
-    **Target group**
-    
     [x] Beginners [x] Advanced Users [ ] Experts
 
-!!! info ""
 
-    **Expected previous knowledge**
+??? abstract "Expected previous knowledge"
 
     * [„How do I create my first OpenOlat course?"](../my_first_course/my_first_course.md)
-
-
-
-<br>
 
 ---
 
@@ -303,7 +294,7 @@ Alternatively, you can also use the "Publish" button in the editor on the right 
 In the member management of the course you decide which learners get access.
 
 20\. Once test results are available, coaches can make assessments in the coaching tool. (Does not apply to self-tests).<br>
-Further information can be found in chapter "[Evaluate Tests](../course_operation/Assessing_tests.md)".
+Further information can be found in chapter "[Evaluate Tests](../learningresources/Assessing_tests.md)".
 
 <br>
 

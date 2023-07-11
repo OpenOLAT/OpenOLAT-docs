@@ -1,69 +1,86 @@
-# Katalog 2.0
+![bereiche_katalog20_v1_de.png](assets/bereiche_katalog20_v1_de.png){ class="shadow lightbox" }
 
-:octicons-tag-24: Release 17.0
+# Der Katalog 2.0
 
-Der Katalog 2.0 gliedert sich in unterschiedliche Bereiche auf.
+## Wo findet man den Katalog?
 
-!!! note "Unterschiede zum Katalog v.10 vor 17.0"
+Die OpenOlat-User finden den Katalog im **Menü der Kopfzeile**.
 
-    Katalog 2.0 besitzt keine manuelle Sortierung auf Kursebene.
-    Dieser Katalog ist ein dynamischer Katalog. D.h. alles, was die Fachbereiche und ein Angebot besitzt wird __automatisch__ im Katalog angezeigt und aggregiert.
+![catalog20_kopfzeilenmenu_v1_de.png](assets/catalog20_kopfzeilenmenu_v1_de.png){ class="shadow lightbox" }
 
-## Bestandteile des Katalogs
+Voraussetzung: Der Katalog muss aktiviert sein. (In jeder OpenOlat-Instanz kann dies vom Administrator ein- oder ausgeschaltet werden.)
 
-### Startseite
+!!! tip "Hinweis"
 
-Die Startseite ist durch Kategorie-Launcher anpassbar und bietet ein prominentes Sucheingabefeld. Zusätzlich anpassbar ist auch das Hintergrundbild. Der Titel ist durch ein i18n auch anpassbar. In der Suche kann nach Lernressourcen gesucht werden. Indexiert ist dabei der Titel, Teasertext, Taxonomie.
+    Der Menü-Eintrag kann auch an einer anderen Stelle stehen. Wenn viele Einträge in der Kopfzeile angezeigt werden, kann es auch sein, dass der Katalog unter „Mehr“ ganz rechts enthalten ist.
 
-### Launcher
+## Was enthält der OpenOlat-Katalog?
 
-Launcher sind die konfigurierbaren Zeilen der Startseite. Diese können in der Administration beliebig hinzugefügt in der Reihenfolge verändert werden. Standardmässig ist ein Launcher vom Typ "Zuletzt hinzugefügt" aktiviert. Die Launcher kommen in 3 Typen: Statischer Text, Statisch (Manuell auswählen), Taxonomie-Ebenen. Weitere Informationen darüber im Administrationshandbuch
+Wie in anderen Katalogen, werden auch im OpenOlat-Katalog in vielen kleinen Einträgen Kurzbeschreibungen zu „Produkten“ angezeigt. In OpenOlat sind dies Kurse oder andere Lernressourcen, wie z.B. Tests oder Videos. (Alles, was im Autorenbereich zu finden ist.)
 
-### Taxonomie Launcher
+- Kurse
+- Tests
+- SCORM-Inhalte
+- Content Packages (CP)
+- Wikis
+- Podcasts
+- Blog
+- Ressourcenordner
+- Formulare
+- Portfolio 2.0 Templates
+- Glossar
+- Video-Dateien (mp4-Dateien und verlinkte Ressourcen)
+- Word-Dateien
+- Excel-Dateien
+- PowerPoint-Dateien
+- pdf-Dateien
+- Bilder (png, jpg)
+- Sound (mp3-Dateien und ???verlinkte Ressourcen)
+- und bestimmte weitere Dateien
 
-Taxonomie Launcher nutzen die Katalogfachbereichsstruktur, um die verschiedenen Taxonomielevel als Baum anzuzeigen.
+## Welche Philosophie steckt hinter dem Katalog V1?
 
-### (Taxonomie-) Microsite
+Der Katalog V1 gründet auf der **„Browse“-Strategie:** Die Benutzer suchen im Katalog, indem sie  die Kategorien des Katalogs durchstöbern (browsen).
+Das Browsen war in den Anfängen des Internets sehr beliebt, heute bevorzugen die meisten Nutzer die Strategie „Suchen und Filtern“.
 
-Klickt man auf einen Level bei einem Launcher kommt man auf die Taxonomie Microsite. Hier werden alle Kurse angezeigt, die unter diesem Level eingeordnet wurden. Hat die Fachbereichstaxonomie mehrere Level in diesem Strang werden die weiteren Level angezeigt.
+## Welche Philosophie steckt hinter dem Katalog V2?
 
-Man kann die Kursliste weiter durch Filter oder Suche verfeinern.
+Im Unterschied zum Katalog V1, der auf dem Konzept des „Browsens“ aufbaut, liegt dem Katalog V2 das **Konzept „Suchen und Filtern“** zu Grunde.
 
-### Suchergebnisseite & Filter
+Der Katalog V2 bietet etliche Vorteile:
 
-**Suchergebnissseite**
-Bei einer Suche kommt man auf diese Seite. Hier lassen sich durch verschiedene Filter die Suche verfeinern.
+- Die Buchungsmethoden wurden erweitert, um die Veröffentlichung für bestimmte Organisationen und für das Web zu ermöglichen. Dadurch erhält man eine präzisere Kontrolle über den Veröffentlichungsmechanismus.
+- Eine bereits vorhandene Taxonomiestruktur kann nun genutzt werden, um Kurse automatisch zu kategorisieren.
+- Der neue Tabellenfiltermechanismus kann benutzt werden, um einfache und intuitive Such- und Filteroptionen zu implementieren.
+- Die Navigation kann entweder mit der Browse- oder der Such- und Filter-Metapher erfolgen, die das Beste aus beiden Welten in einer einheitlichen Ansicht zusammenführt. Die Nutzer finden Prinzipien vor, die sie bereits von der Nutzung anderer Plattformen wie Linked-In Learning oder Coursera kennen. Die verfügbaren Filter können in der Katalogverwaltung konfiguriert und an die Bedürfnisse der Institution angepasst werden.
 
-**Filter**
-Die Filter der Suchergebnissseite lassen sich unter `Administration > Module > Katalog > Filter` einstellen. Hier kann gewählt werden, welche Filter für Teilnehmer verfügbar sein sollen. Weitere Informationen finden Sie im [Administrationshandbuch]("../../../../../manual_admin/administration/Modules_Catalog_2.0.de.md")
+## Dynamischer Katalog - statischer Katalog
 
-## Einrichten und Freigeben neuer Kurse für den Katalog 2.0
+In einem statischen Katalog werden die Einträge manuell eingefügt und gruppiert.
 
-### Vorraussetzungen
+Der Katalog 2.0 besitzt keine manuelle Sortierung auf Kursebene, es ist ein dynamischer Katalog. In ihm werden die Katalogeinträge automatisch anhand bestimmter Kriterien (z.B. einer Taxonomie) angezeigt. 
 
-* Der Katalog 2.0 muss aktiviert sein und eine Taxonomie sollte angelegt werden.
-* Mindestens 1 Kurs muss existieren.
+Das kann innerhalb von vorgegebenen Clustern (Gruppen, Abschnitten) geschehen. Im Katalog V2 nennen wir diese Abschnitte „Launcher“.
+Was einem bestimmten Fachbereich zugeordnet wird und ein Angebot besitzt, wird automatisch in einem bestimmten Launcher aggregiert und im Katalog angezeigt.
 
-### Startseite einrichten
+Der dynamische Katalog 2.0 wird durch zugrunde liegende Taxonomien zusammengestellt, anstelle von fixen, manuell definierten Katalogstrukturen, wie im Katalog V1.
 
-Die Startseite kann unter `Administration > Module > Katalog > Startseite` eingerichtet werden. Weitere Informationen im Administrationshandbuch.
+Die User suchen im Katalog V2 dann einfach mit Hilfe von Filtern nach dem, was sie interessiert.Denn auf Grundlage der Taxonomie kann gefiltert werden (Google Search & Filter-Konzept).Wenn die Kurse in den jeweiligen Organisationseinheiten publiziert sind, finden die User nur das, was für sie freigegeben ist.
 
-### Kurs einem Fachbereich hinzufügen
+## Welche Komponenten arbeiten beim dynamischen Katalog V2 zusammen?
 
-Auf `Autorenbereich > Kurs > Metadaten` unter "Subjects/Katalog" die gewünschten Bereiche auswählen, in welchen der Katalog erscheinen soll und speichern. Weitere Informationen finden Sie im [Administrationshandbuch]("../../../../../manual_admin/administration/Modules_Catalog_2.0.de.md")
+In einem dynamisch Katalog wirken folgende Komponenten zusammen und bestimmen gemeinsam, ob ein Angebot im Katalog angezeigt wird:
 
-### Angebot erstellen
+![catalog20_komponenten_v1_de.png](assets/catalog20_komponenten_v1_de.png){ class="shadow lightbox" }
 
-Auf `Autorenbereich > Kurs > Freigabe` Angebote aktivieren und ein Angebot erstellen. Dies für die gewünschten Organisations Einheiten freigeben.
+1. **Das Katalog-Modul**<br>
+Es muss vom Administrator aktiviert sein, damit überhaupt ein Katalog im Menü der Benutzer erscheint. Im Katalog-Modul wird die Struktur und die Gestaltung des Katalogs konfiguriert.
 
-## Migration von V1.0 zu V2.0
+2. **Die Einstellungen im Kurs bzw. der Lernressourcea)**<br>
+Ein Kurs oder eine andere Lernressource, die im Katalog erscheinen soll, muss vom Autor dafür frei gegeben und buchbar sein.b) Damit ein Kurs oder eine andere Lernressource überhaupt im Katalog erscheinen kann, muss im betreffenden Kurs bzw. der Lernressource ein Angebot definiert worden sein. Es können auch mehrere Angebote gemacht werden, so dass der gleiche Kurs z.B. einmal für eine bestimmte Teilnehmergruppe kostenlos und für übrige Interessenten kostenpflichtig angeboten wird. 
 
-Existiert schon ein Katalog inklusivie Struktur, kann dieser einfach in die neue Version migriert werden.
-Bei Wechsel auf die neue Version, erscheint ein Dialog, der die die Migration anschiebt.
+3. **Die für den Katalog verwendete Taxonomie**<br>
+In OpenOlat können verschiedene Taxonomien angelegt und verwendet werden. Deshalb muss klar sein, welche Taxonomie für den Katalog verwendet wird.
 
-Die folgenden Objekte werden in den neuen Katalog übertragen:
-
-* Titel & Kurztitel
-* Katalogbilder werden konvertiert. Als neues Bildformat wird eine rechteckige Darstellung mit dem Format 2:1 empfohlen.
-* Die Katalogstruktur wird als neue Katalogtaxonomie angelegt und ist dann unter Abteilungen/Katalog verfügbar.
-* Unterkategorietitel, Kurztitel & Beschreibungen sind auf neu gestalteten Unterseiten verfügbar.
+4. **Evtl. OrgUnits (Organisationseinheiten)**<br>
+Angebote im Katalog können auch nur für bestimmte Organisationseinheiten angezeigt werden. Dazu muss das OpenOlat-Modul „Organisation“ aktiviert sein.Für jede OrgUnit können dann- bestimmte Kurse und Lernressourcen ein- und ausgeblendet werden- bestimmte Launcher ein- und ausgeblendet werden

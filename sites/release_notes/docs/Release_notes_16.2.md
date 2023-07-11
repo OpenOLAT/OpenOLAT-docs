@@ -34,7 +34,7 @@ For this purpose, different **grading systems** (numeric or textual) can be crea
 
 When activated on the course element - via **manual or automatic assignment** - the participant's points are additionally displayed as, for example, "grade", "level" or similar.
 
-[More directly in the manual](../manual_user/course_operation/Assessment_translate_points_in_grades.md)
+[More directly in the manual](../manual_user/learningresourcesAssessment_translate_points_in_grades.md)
 
 ![grading scale](assets/162/Grading_scale.jpeg){ class="shadow lightbox" }
 

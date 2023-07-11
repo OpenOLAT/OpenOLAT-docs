@@ -23,7 +23,7 @@ Depending on the teaching scenario, it may also make sense to use normal "tests"
 
 ## How do the questions get into a test?
 
-Questions can either be created directly in the test learning resource or in the [question pool](../question_bank/index.md) and then integrated into the test. In the chapter "[Four steps to your test or self-test](Four_Steps_to_Your_Test_or_Self-test.md)" you will learn how to create a test.
+Questions can either be created directly in the test learning resource or in the [question pool](../area_modules/Question_Bank.md) and then integrated into the test. In the chapter "[Four steps to your test or self-test](../tests/Four_Steps_to_Your_Test_or_Self-test.md)" you will learn how to create a test.
 
 When you import a question from the question pool into a test, a copy of the question is made at that time. The question in the test is therefore independent of the original question in the question pool. If the original question is modified in the question pool, this does not affect the imported question in the test. This remains unchanged.
 

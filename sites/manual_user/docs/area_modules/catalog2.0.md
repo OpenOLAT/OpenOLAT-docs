@@ -1,69 +1,86 @@
+![bereiche_katalog20_v1_de.png](assets/bereiche_katalog20_v1_de.png){ class="shadow lightbox" }
+
 # Catalog 2.0
 
-:octicons-tag-24: Release 17.0
+## Where can I find the catalog?
 
-The catalog 2.0 is divided into different sections.
+Die OpenOlat-User finden den Katalog im **Menü der Kopfzeile**.
 
-## Components of the catalog
+![catalog20_kopfzeilenmenu_v1_de.png](assets/catalog20_kopfzeilenmenu_v1_de.png){ class="shadow lightbox" }
 
-## Start page
+Voraussetzung: Der Katalog muss aktiviert sein. (In jeder OpenOlat-Instanz kann dies vom Administrator ein- oder ausgeschaltet werden.)
 
-The home page is customizable by category launcher and offers a prominent search input field. Additionally, the background image can also be customized. The title is also customizable through an i18n. In the search can be
+!!! tip "Hinweis"
 
-### Launcher
+    Der Menü-Eintrag kann auch an einer anderen Stelle stehen. Wenn viele Einträge in der Kopfzeile angezeigt werden, kann es auch sein, dass der Katalog unter „Mehr“ ganz rechts enthalten ist.
 
-Launcher are the configurable lines of the start page. These can be added in the administration arbitrarily changed in the order. By default, a launcher of the type "Last added" is enabled. The launchers come in 3 types: Static Text, Static (Select Manually), Taxonomy Levels.
-You can give all launchers a language dependent name. This name will then appear as a headline above the tiles.
-Launchers can also be limited to one organisational unit.
+## Was enthält der OpenOlat-Katalog?
 
-### Taxonomy Launcher
+Wie in anderen Katalogen, werden auch im OpenOlat-Katalog in vielen kleinen Einträgen Kurzbeschreibungen zu „Produkten“ angezeigt. In OpenOlat sind dies Kurse oder andere Lernressourcen, wie z.B. Tests oder Videos. (Alles, was im Autorenbereich zu finden ist.)
 
-Taxonomy launchers use the catalog subject structure to display the different tiers into sections.
+- Kurse
+- Tests
+- SCORM-Inhalte
+- Content Packages (CP)
+- Wikis
+- Podcasts
+- Blog
+- Ressourcenordner
+- Formulare
+- Portfolio 2.0 Templates
+- Glossar
+- Video-Dateien (mp4-Dateien und verlinkte Ressourcen)
+- Word-Dateien
+- Excel-Dateien
+- PowerPoint-Dateien
+- pdf-Dateien
+- Bilder (png, jpg)
+- Sound (mp3-Dateien und ???verlinkte Ressourcen)
+- und bestimmte weitere Dateien
 
-### (Taxonomy) Microsite
+## Welche Philosophie steckt hinter dem Katalog V1?
 
-Clicking on a level in a launcher takes you to the taxonomy microsite. All courses that have been classified under this level are displayed here. If the taxonomy has more than one level in this thread, the other levels will be displayed.
+Der Katalog V1 gründet auf der **„Browse“-Strategie:** Die Benutzer suchen im Katalog, indem sie  die Kategorien des Katalogs durchstöbern (browsen).
+Das Browsen war in den Anfängen des Internets sehr beliebt, heute bevorzugen die meisten Nutzer die Strategie „Suchen und Filtern“.
 
-One can further refine the course list by filtering or searching.
+## Welche Philosophie steckt hinter dem Katalog V2?
 
-### Search results page & filters
+Im Unterschied zum Katalog V1, der auf dem Konzept des „Browsens“ aufbaut, liegt dem Katalog V2 das **Konzept „Suchen und Filtern“** zu Grunde.
 
-**Search results page**
+Der Katalog V2 bietet etliche Vorteile:
 
-A search brings you to this page. Here, using various filters, you can refine the search.
+- Die Buchungsmethoden wurden erweitert, um die Veröffentlichung für bestimmte Organisationen und für das Web zu ermöglichen. Dadurch erhält man eine präzisere Kontrolle über den Veröffentlichungsmechanismus.
+- Eine bereits vorhandene Taxonomiestruktur kann nun genutzt werden, um Kurse automatisch zu kategorisieren.
+- Der neue Tabellenfiltermechanismus kann benutzt werden, um einfache und intuitive Such- und Filteroptionen zu implementieren.
+- Die Navigation kann entweder mit der Browse- oder der Such- und Filter-Metapher erfolgen, die das Beste aus beiden Welten in einer einheitlichen Ansicht zusammenführt. Die Nutzer finden Prinzipien vor, die sie bereits von der Nutzung anderer Plattformen wie Linked-In Learning oder Coursera kennen. Die verfügbaren Filter können in der Katalogverwaltung konfiguriert und an die Bedürfnisse der Institution angepasst werden.
 
-**Filter**
+## Dynamischer Katalog - statischer Katalog
 
-The filters of the search results page can be set under 'Administration > Modules > Catalog > Filters'. Here you can choose which filters should be available for participants. 
+In einem statischen Katalog werden die Einträge manuell eingefügt und gruppiert.
 
-## Setting up and releasing new courses for the catalog 2.0
+Der Katalog 2.0 besitzt keine manuelle Sortierung auf Kursebene, es ist ein dynamischer Katalog. In ihm werden die Katalogeinträge automatisch anhand bestimmter Kriterien (z.B. einer Taxonomie) angezeigt. 
 
-### Prerequisites
+Das kann innerhalb von vorgegebenen Clustern (Gruppen, Abschnitten) geschehen. Im Katalog V2 nennen wir diese Abschnitte „Launcher“.
+Was einem bestimmten Fachbereich zugeordnet wird und ein Angebot besitzt, wird automatisch in einem bestimmten Launcher aggregiert und im Katalog angezeigt.
 
-* Catalog 2.0 must be activated and a taxonomy should be created.
-* At least 1 course must exist.
+Der dynamische Katalog 2.0 wird durch zugrunde liegende Taxonomien zusammengestellt, anstelle von fixen, manuell definierten Katalogstrukturen, wie im Katalog V1.
 
-### Set up start page
+Die User suchen im Katalog V2 dann einfach mit Hilfe von Filtern nach dem, was sie interessiert.Denn auf Grundlage der Taxonomie kann gefiltert werden (Google Search & Filter-Konzept).Wenn die Kurse in den jeweiligen Organisationseinheiten publiziert sind, finden die User nur das, was für sie freigegeben ist.
 
-The start page can be set up under 'Administration > Modules > Catalog > Start Page'. Here there is an option to add launcher on the top right to customize the start page.
+## Welche Komponenten arbeiten beim dynamischen Katalog V2 zusammen?
 
-### Add course to a subject area
+In einem dynamisch Katalog wirken folgende Komponenten zusammen und bestimmen gemeinsam, ob ein Angebot im Katalog angezeigt wird:
 
-On `Author Area > Course > Metadata` under "Subjects/Catalog" select the desired areas in which the catalog should appear and save.
+![catalog20_komponenten_v1_de.png](assets/catalog20_komponenten_v1_de.png){ class="shadow lightbox" }
 
-### Create an Offer
+1. **Das Katalog-Modul**<br>
+Es muss vom Administrator aktiviert sein, damit überhaupt ein Katalog im Menü der Benutzer erscheint. Im Katalog-Modul wird die Struktur und die Gestaltung des Katalogs konfiguriert.
 
-Go to 'Authoring > Course > Release', activate 'Offer' and create an Offer. Release this for the desired organizational units.
+2. **Die Einstellungen im Kurs bzw. der Lernressourcea)**<br>
+Ein Kurs oder eine andere Lernressource, die im Katalog erscheinen soll, muss vom Autor dafür frei gegeben und buchbar sein.b) Damit ein Kurs oder eine andere Lernressource überhaupt im Katalog erscheinen kann, muss im betreffenden Kurs bzw. der Lernressource ein Angebot definiert worden sein. Es können auch mehrere Angebote gemacht werden, so dass der gleiche Kurs z.B. einmal für eine bestimmte Teilnehmergruppe kostenlos und für übrige Interessenten kostenpflichtig angeboten wird. 
 
+3. **Die für den Katalog verwendete Taxonomie**<br>
+In OpenOlat können verschiedene Taxonomien angelegt und verwendet werden. Deshalb muss klar sein, welche Taxonomie für den Katalog verwendet wird.
 
-## Migration from Catalog v1.0 to catalog v2.0
-
-If there is already a catalog structure on your Instance, it can be easy migrated.
-When you switch to the catalog v2.0 a new dialog will appear, prompting you to migrate the catalogstructure.
-
-The following object are transfered to the new catalog:
-
-* Title & Short Title
-* Catalog images are converted. As a new image format, a rectangular display with the format 2:1 is recommended.
-* Catalog structure is created as a new catalog taxonomy and is then available under Departments/Catalog.
-* Subcategory titles, short titles & descriptions are available in redesigned subpages.
+4. **Evtl. OrgUnits (Organisationseinheiten)**<br>
+Angebote im Katalog können auch nur für bestimmte Organisationseinheiten angezeigt werden. Dazu muss das OpenOlat-Modul „Organisation“ aktiviert sein.Für jede OrgUnit können dann- bestimmte Kurse und Lernressourcen ein- und ausgeblendet werden- bestimmte Launcher ein- und ausgeblendet werden

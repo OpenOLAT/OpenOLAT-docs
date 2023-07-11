@@ -1,34 +1,23 @@
 # Wie bewerte ich einen Test?
 
-
-!!! info ""
-
-    **Ziel und Inhalt dieser Anleitung**
+??? abstract "Ziel und Inhalt dieser Anleitung"
 
     Sie haben bereits einen Kurs mit einem Test-Kursbaustein erstellt.<br>
     Sie haben den Kurs veröffentlicht und die Kursteilnehmer haben den Test bearbeitet.<br>
-    Wie gehen Sie nun vor, um die Testergebnisse der Teilnehmer zu bewerten? Die folgende Anleitung zeigt es Ihnen. 
+    Wie gehen Sie nun vor, um die Testergebnisse der Teilnehmer zu bewerten? Die folgende Anleitung zeigt es Ihnen.
 
-
-!!! info ""
-
-     **Zielgruppe**
+??? abstract "Zielgruppe"
 
     [ ] Autor:innen [x] Betreuer:innen  [ ] Teilnehmer:innen
 
     [x] Anfänger:innen [x] Fortgeschrittene  [ ] Experten/Expertinnen
-    
 
-!!! info ""
 
-    **Erwartete Vorkenntnisse**
+??? abstract "Erwartete Vorkenntnisse"
 
     * [„Wie erstelle ich meinen ersten OpenOlat-Kurs?"](../my_first_course/my_first_course.de.md)
     * [„Wie gehe ich vor, wenn ich einen Test erstelle?"](../test_creation_procedure/test_creation_procedure.de.md)
     * Bewertungswerkzeug
-
-
-<br>
 
 ---
 

@@ -1,8 +1,8 @@
 # Formulare erstellen
 
 * [Allgemeines zu Formularen](General_information_on_Forms.de.md)
-* [Drei Schritte zu Ihrem Formular](Three_Steps_to_your_Form.de.md)
-* [Formular Editor](../forms/Form_editor_Questionnaire_editor.de.md)
+* [Drei Schritte zu Ihrem Formular](../forms/Three_Steps_to_your_Form.de.md)
+* [Formular Editor](../learningresources/Form_editor_Questionnaire_editor.de.md)
   * [Rubrik](Rubric.de.md)
   * [Frageregeln](Question_rules.de.md)
 * [Formulare in Kursen](Forms_in_Courses.de.md)

@@ -39,6 +39,12 @@ Hier befindet sich alles, was zum Erstellen neuer Kurse erforderlich ist.
 
 Der Fragenpool ist ein Bereich, in dem Fragen zur Wiederverwendung gesammelt werden. OpenOlat bietet dazu ein Management der Zugriffsberechtigungen usw.
 
+## Projekte
+
+![bereiche_projekte_v1_de.png](assets/bereiche_projekte_v1_de.png){ class="shadow lightbox" }
+
+OpenOlat stellt auch Werkzeuge zum Durchführen von Projekten zur Verfügung. 
+
 ## Portfolio
 
 In OpenOlat kann auf verschiedene Art mit Portfolios gearbeitet werden.

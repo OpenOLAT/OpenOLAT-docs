@@ -57,7 +57,7 @@ optimiert werden.
 Mithilfe des html-Editors kann "normaler" Text hinzugefügt werden. Dabei kann
 die übliche Formatierung vorgenommen werden.  
 Unter "Einfügen" können auch [mathematische
-Formeln](../personal/Math_formula.de.md) eingefügt werden.
+Formeln](../basic_concepts/Math_formula.de.md) eingefügt werden.
 
 ![textabschnitt.png](assets/portfolio_Textabschnitt.png)
 
@@ -152,6 +152,6 @@ zuoberst.
 ### Freigabe
 
 Unter Freigabe werden Bereiche und Einträge freigegeben. Mehr dazu finden Sie
-[hier](Portfolio_task_and_assignment_Collecting_and_editing.de.md).
+[hier](../learningresources/Portfolio_task_and_assignment_Collecting_and_editing.de.md).
 
 ![freigabe.png](assets/portfolio_freigabe.png)

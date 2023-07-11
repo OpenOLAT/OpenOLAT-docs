@@ -66,7 +66,7 @@ bestehende Pools können ebenfalls bearbeitet, oder gelöscht werden.
 
 ###  Fragetyp {: #type}
 
-OpenOlat verfügt über diverse Test [Fragetypen ](../tests/Test_question_types.de.md)die
+OpenOlat verfügt über diverse Test [Fragetypen ](../learningresources/Test_question_types.de.md)die
 entweder im Testeditor der Lernressource Test oder im Itemeditor der
 Fragenbank erstellt werden können. Erstellen Sie zusätzliche Fragetypen, wenn
 die Standard Fragetypen von OpenOlat nicht genügen. Die Standard Fragetypen

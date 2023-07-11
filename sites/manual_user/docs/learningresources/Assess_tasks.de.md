@@ -6,8 +6,8 @@ Aufgaben vornehmen.
 
 Wie Aufgaben und Gruppenaufgaben im Bewertungswerkezug bewertet werden
 erfahren Sie ausführlich im Kapitel
-["Bewertungswerkzeug"](../course_operation/Assessment_tool_-_overview.de.md)
-→ ["Aufgaben und Gruppenaufgaben bewerten"](../course_operation/Assessing_tasks_and_group_tasks.de.md). Im Folgenden wird kurz beschrieben, wie die Bewertung im Kursrun erfolgt:
+["Bewertungswerkzeug"](../learingresources/Assessment_tool_overview.de.md)
+→ ["Aufgaben und Gruppenaufgaben bewerten"](../learningresources/Assessing_tasks_and_group_tasks.de.md). Im Folgenden wird kurz beschrieben, wie die Bewertung im Kursrun erfolgt:
 
 ## Übersicht für Betreuer
 
@@ -50,7 +50,7 @@ in der Übersicht in der Spalte "Abgabedatum" gekennzeichnet.
 
 Wie der Aufgabenbaustein aus Sicht der Kursteilnehmenden aussieht, erfahren
 Sie im Kapitel "Lernaktivitäten im Kurs“ unter dem Punkt ["Aufgabe &
-Gruppenaufgabe"](../learning_activities/Working_With_Course_Elements.de.md).
+Gruppenaufgabe"](../learningresources/Course_Elements.de.md).
 
 ### Rückgabe und Feedback-Dokumente ändern
 

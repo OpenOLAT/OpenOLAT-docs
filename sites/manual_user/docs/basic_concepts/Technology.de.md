@@ -1,6 +1,6 @@
 # Unterstützende Technologien
 
-Dieses Kapitel enthält Anleitungen zu verschiedenen Technologien, die bei der
+Dieses Kapitel enthält Anleitungen zu  Technologien, die bei der
 Arbeit mit OpenOlat hilfreich sind. Die Anleitungen sind primär für OpenOlat-
 Benutzer gedacht, die OpenOlat intensiv nutzen und erfahrene Autoren sind.
 

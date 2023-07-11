@@ -72,11 +72,11 @@ In the left navigation of the assessment tool you can see all assessable course 
 
 ![assessment tool participant overview](assets/Bewertungswerkzeug_TN_172.png)
 
- To learn how exactly assessments can be made, please refer to the chapter ["Assessment of course modules"](../course_operation/Assessment_of_course_modules.md) or ["User assessment](../course_operation/Assessment_tool_-_tab_Users.md).
+ To learn how exactly assessments can be made, please refer to the chapter ["Assessment of course modules"](../learningresources/Assessment_of_course_modules.md) or ["User assessment](../learningresources/Assessment_tool_tab_Users.md).
 
 ### First course node
 
-The automatically generated top course node is also counted as a assessable element. If on the topmost course element, which strictly speaking is a course element "[structure](../course_elements/Knowledge_Transfer.md/#structure)", you have set up a point calculation, you can also display the total points of a course on the top level of the participant view, display the points defined for the first course element and download the overall results of the course participants.
+The automatically generated top course node is also counted as a assessable element. If on the topmost course element, which strictly speaking is a course element "[structure](../learningresources/Knowledge_Transfer.md/#structure)", you have set up a point calculation, you can also display the total points of a course on the top level of the participant view, display the points defined for the first course element and download the overall results of the course participants.
 
 ## Reset data {: #course_reset}
 

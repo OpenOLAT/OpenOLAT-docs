@@ -9,5 +9,5 @@ subscribe to podcasts, upload those by means of online services such as iTunes
 before copying them to a mobile device.
 
 How to [create](../resource_podcast/Four_Steps_to_Your_Podcast.md) and
-[configure](../resource_podcast/Podcast_-_Further_Configurations.md) a podcast is explained in
+[configure](../learningresources/Podcast_Further_Configurations.md) a podcast is explained in
 separate chapters.

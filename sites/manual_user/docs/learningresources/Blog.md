@@ -1,7 +1,7 @@
 # Creating Blogs
 
-  * [Four Steps to Your Blog](Four_Steps_to_Your_Blog.md)
-  * [Blog - Further Configurations](Blog_-_Further_Configurations.md)
+  * [Four Steps to Your Blog](../resource_blog/Four_Steps_to_Your_Blog.md)
+  * [Blog - Further Configurations](../learningresources/Blog_Further_Configurations.md)
 
   
 

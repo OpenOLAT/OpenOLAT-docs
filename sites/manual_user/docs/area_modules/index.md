@@ -28,6 +28,12 @@ Everything needed to create new courses is located here.
 
 The question pool is an area where questions are collected for reuse. OpenOlat offers a management of access permissions etc. for this purpose.
 
+## Projects
+
+![bereiche_projekte_v1_de.png](assets/bereiche_projekte_v1_de.png){ class="shadow lightbox" }
+
+OpenOlat also provides tools for running projects.
+
 ## Portfolio
 
 In OpenOlat you can work with portfolios in different ways.

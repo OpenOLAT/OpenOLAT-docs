@@ -23,9 +23,9 @@ werden. Ein OLAT-Kurs ist ein OpenOlat-eigener Dokumententyp der beliebig
 viele "Kursbausteine" sowie weitere Funktionalitäten enthalten kann. Wie man
 mit den verschiedenen Kursbausteinen arbeitet, wird im Kapitel
 [„Lernaktivitäten im Kurs“](../learning_activities/index.de.md) ausführlich
-erklärt. Wie Kurse erstellt werden, erfahren Sie im Kapitel [„Kurs erstellen"](../course_create/index.de.md). 
+erklärt. Wie Kurse erstellt werden, erfahren Sie im Kapitel [„Kurs erstellen"](../learningresources/Creating_Course.de.md). 
 Details zu Kursbausteinen und dem Kurseditor
-erfahren Sie im Kapitel [„Kursbausteine"](../course_elements/index.de.md).
+erfahren Sie im Kapitel [„Kursbausteine"](Course_Elements.de.md).
 
 ## Test (QTI 2.1)
 ![](assets/test.png)
@@ -37,7 +37,7 @@ gespeichert. Jeder Test liegt in einem standardisierten Dokumentformat, dem
 IMS-QTI-Format, vor.
 
 Mehr Informationen zum Einsatz und Erstellung von Tests finden Sie im Kapitel
-[„Tests erstellen“](../tests/index.de.md) .
+[„Tests erstellen“](../learningresources/Test.de.md) .
 
 ## CP-Lerninhalt
 ![](assets/content.png)
@@ -59,8 +59,8 @@ Ein Wiki kann für Gruppenarbeiten, als Dokumentationswerkzeug oder als
 Wissensbasis für Ihre Studien- oder Projektarbeit verwendet werden.
 
 Mehr Informationen zur Erstellung von Wikis finden Sie im Kapitel 
-[„Wiki erstellen"](../resource_wiki/index.de.md). Wie Sie im Wiki Inhalte erstellen und
-sinnvoll arbeiten erfahren Sie [hier](../learning_activities/Working_with_Wiki.de.md).
+[„Wiki erstellen"](../learningresources/Wiki.de.md). Wie Sie im Wiki Inhalte erstellen und
+sinnvoll arbeiten erfahren Sie [hier](../learningresources/Working_with_Wiki.de.md).
 
 ## Podcast
 ![](assets/podcast.png)
@@ -73,7 +73,7 @@ mobile Endgeräte zu kopieren. Kursteilnehmer können Episoden auf einfache Art
 bewerten und kommentieren.
 
 Informationen dazu, wie Sie einen Podcast erstellen und in Ihren Kurs
-einbinden, finden Sie im Kapitel [„Podcast erstellen"](../resource_podcast/index.de.md).
+einbinden, finden Sie im Kapitel [„Podcast erstellen"](../learningresources/Podcast.de.md).
 
 ## Blog
 ![](assets/blog.png)
@@ -84,10 +84,10 @@ Online-Tagebuch oder Journal eingesetzt. Kursteilnehmer können Blogeinträge
 auf einfache Art bewerten und kommentieren.
 
 Informationen dazu, wie Sie einen Blog erstellen und in Ihren Kurs einbinden,
-finden Sie im Kapitel [„Blog erstellen"](../resource_blog/index.de.md). Wie Sie als
+finden Sie im Kapitel [„Blog erstellen"](../learningresources/Blog.de.md). Wie Sie als
 Kursteilnehmer den Blog verwenden, erfahren Sie im Kapitel „Lernaktivitäten im
 Kurs“ unter dem Punkt
-[„Blog"](../learning_activities/Working_With_Course_Elements.de.md#blog).
+[„Blog"](../learningresources/Course_Elements.de.md#blog).
 
   
 
@@ -103,7 +103,7 @@ alle im Ressourcenordner hinterlegten Dateien. Änderungen an den Dateien im
 Ressourcenordner gelten dann für alle verknüpften Kurse. Zu beachten ist, dass
 nur ein Ressourcenordner pro Kurs hinzugefügt werden kann. Weitere
 Informationen finden Sie im Kapitel
-"[Kurseinstellungen](../course_create/Course_Settings.de.md)""im Unterpunk "Ressourcenordner".
+"[Kurseinstellungen](../learningresources/Course_Settings.de.md)""im Unterpunk "Ressourcenordner".
 
 ##  Formular
 ![](assets/formular_434343_64.png)
@@ -113,7 +113,7 @@ eingesetzt, beispielsweise zur Veranstaltungsevaluation. Jeder Kursteilnehmer
 kann dasselbe Formular nur einmal ausfüllen. Die Resultate werden dabei
 anonymisiert gespeichert. Mehr Informationen zum Einsatz und Erstellung von
 Formularen für Umfragen, Rubriks usw. finden Sie im Kapitel 
-[Fragebögen erstellen.](../forms/index.de.md)
+[Fragebögen erstellen.](../learningresources/Form.de.md)
 
 ## Portfolio 2.0 Vorlage
 ![](assets/portfolio_434343_64.png)
@@ -122,10 +122,10 @@ Eine Portfolio 2.0 Vorlage beinhaltet Aufgaben die im Rahmen eines Portfolio-
 Assessments genutzt und als Portfolioaufgabe in einen OpenOlat-Kurs
 eingebunden werden können. Mit Hilfe einer Portfolio 2.0 Vorlage können
 Lehrende eine strukturierte Portfolio-Mappe gestalten, die die Lernenden
-[abholen ](../portfolio/Portfolio_task_and_assignment_Collecting_and_editing.de.md)und
+[abholen ](../learningresources/Portfolio_task_and_assignment_Collecting_and_editing.de.md)und
 bearbeiten können. Weitere Informationen zur [Portfolio
-Vorlage](../portfolio/Portfolio_template_Creation.de.md) und generell zum Thema
-[ePortfolio](../portfolio/index.de.md) erfahren Sie im entsprechenden Kapitel.
+Vorlage](../learningresources/Portfolio_template_Creation.de.md) und generell zum Thema
+[ePortfolio](../area_modules/index.de.md) erfahren Sie im entsprechenden Kapitel.
 
 ## Glossar
 ![](assets/glossary.png)
@@ -138,9 +138,9 @@ konfigurieren, dass auch Lernende ein Glossar inhaltlich befüllen können.
 
 Informationen dazu, wie Sie ein Glossar erstellen und in Ihren Kurs einbinden,
 finden Sie im Kapitel „Kursbetrieb“ unter dem Punkt
-[„Glossar"](../course_operation/Using_Additional_Course_Features.de.md#glossary). 
+[„Glossar"](../learningresources/Using_Additional_Course_Features.de.md#glossary). 
 Wie Sie im Kurs das Glossar verwenden, erfahren Sie im Kapitel „Lernaktivitäten im Kurs“ unter dem Punkt
-[„Glossar"](../learning_activities/Additional_Course_Features.de.md#glossary).
+[„Glossar"](../learningresources/Additional_Course_Features.de.md#glossary).
 
 # Weitere Lernressourcen
 
@@ -169,7 +169,7 @@ Lernressource Video kann in OpenOLAT durch importieren oder importieren URL
 hinzugefügt werden und anschließend weiter konfiguriert werden. OpenOlat
 unterstützt die Anzeige von Untertiteln in mehreren Sprachen, integrierte
 Quizzes, Anmerkungen und Sprungmarken. Generelle Informationen zu
-Videoformaten und Upload in OpenOlat finden Sie im Kapitel "[Video erstellen](../resource_video/Learning_resource_Video.de.md)".
+Videoformaten und Upload in OpenOlat finden Sie im Kapitel "[Video erstellen](../learningresources/Learning_resource_Video.de.md)".
 
 ## Lernressourcen vom Typ Datei und andere Dateien
 

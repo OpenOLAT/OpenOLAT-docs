@@ -78,7 +78,7 @@ yet replied to your post.
 It is possible that course participants may receive additional moderation
 rights in a forum from the coach. You can find out exactly what this means in
 the chapter "[Communication and
-Collaboration](../course_elements/Communication_and_Collaboration.md)".
+Collaboration](../learningresources/Communication_and_Collaboration.md)".
 
 ### What display options are available for forum threads?
 
@@ -102,7 +102,7 @@ asterisk.
 
 ![](assets/Forum_neu_EN2.png)
 
-Upload a photo in the "[Profile](../personal/Personal_Menu.md)" so that your photo
+Upload a photo in the "[Profile](../personal_menu/Configuration.md#profile--profile)" so that your photo
 appears next to your forum posts instead of the standard profile picture.
 
 ###

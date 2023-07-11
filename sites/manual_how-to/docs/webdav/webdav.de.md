@@ -21,7 +21,7 @@ Sobald die Elemente über OpenOlat angelegt wurden, wird die Struktur automatisc
 
   * [Persönlicher Ordner](../../manual_user/personal/Personal_folders.de.md) (jeder)
   * [Ordner von Gruppen](../../manual_user/groups/Using_Group_Tools.de.md) (Gruppenmitglieder)
-  * [Ablageordner von Kursen](../../manual_user/course_operation/Storage_folder.de.md) (nur Kursbesitzer)
+  * [Ablageordner von Kursen](../../manual_user/learningresources/Storage_folder.de.md) (nur Kursbesitzer)
   * [Kursbaustein Ordner](../../manual_user/course_elements/Course_Element_Folder.de.md) (Kursmitglieder)
   * [Ressourcenordner](../../manual_user/course_create/Course_Settings.de.md#ressourcenordner-einbinden) (nur Lernressourcenbesitzer)
 

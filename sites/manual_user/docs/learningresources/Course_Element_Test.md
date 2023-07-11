@@ -16,9 +16,9 @@ respectively. In case you have already selected a test the name of this
 learning resource will be displayed after _Selected file_. Click on the name
 to open a preview of the test. Click on "Replace file" if you would like to
 exchange the learning resource with another one. Further information can be
-found in the chapter "[Creating Tests](../tests/Configure_tests.md)".
+found in the chapter "[Creating Tests](../learningresources/Configure_tests.md)".
 
-The two main tabs for test configuration are "[Test configuration](../tests/Tests_at_course_level.md)" and " **Options** ".
+The two main tabs for test configuration are "[Test configuration](../learningresources/Tests_at_course_level.md)" and " **Options** ".
 
 The settings under "Options" are initially being copied from the options of
 the learning resource. However, the options can be adjusted if needed. To do

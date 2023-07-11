@@ -1,6 +1,6 @@
 # Mit dem Kurseditor in fünf Schritten zu Ihrem OpenOlat-Kurs
 
-Im Kurseditor können Sie dem Kurs [Kursbausteine](../course_elements/index.de.md) hinzufügen und bereits eingebaute
+Im Kurseditor können Sie dem Kurs [Kursbausteine](../learningresources/Course_Elements.de.md) hinzufügen und bereits eingebaute
 Kursbausteine einrichten und verändern. Im Folgenden wird die Erstellung eines
 Kurses ohne die Verwendung eines Wizards beschrieben.
 
@@ -10,7 +10,7 @@ Im ersten Schritt erstellen Sie Ihren Kurs. In den folgenden Schritten fügen Si
 
 ## Schritt 1: Kurs anlegen  
   
-1. In der Hauptnavigation den ["Autorenbereich"](../authoring/index.de.md) öffnen. 
+1. In der Hauptnavigation den ["Autorenbereich"](../area_modules/Authoring.de.md) öffnen. 
   
 2. Im Autorenbereich "Erstellen“ → "Kurs“ wählen. 
     
@@ -18,7 +18,7 @@ Im ersten Schritt erstellen Sie Ihren Kurs. In den folgenden Schritten fügen Si
 
 3. Titel des Kurses eingeben.
 
-4. Kurstyp (herkömmlicher Kurs oder [Lernpfad Kurs](Learning_path_course.de.md)) wählen und mit "Erstellen" bestätigen.  
+4. Kurstyp (herkömmlicher Kurs oder [Lernpfad Kurs](../learningresources/Learning_path_course.de.md)) wählen und mit "Erstellen" bestätigen.  
     
     ![Kurs erstellen](assets/course_create_wizard_DE.jpg){ class="shadow" }
 
@@ -69,7 +69,7 @@ Oben in der Kurstoolbar "Kursbausteine einfügen“ klicken. Im neu geöffneten 
 
 ## Schritt 3: Ordner für Kursunterlagen einfügen 
   
-1. Wie schon unter Schritt 2 in der Kurstoolbar "Kursbausteine einfügen“ anklicken. Nun aber im neu geöffneten Pop-up Fenster unter Wissensvermittlung den Kursbaustein ["Ordner"](../course_elements/Course_Element_Folder.de.md) auswählen. Ein neuer Baustein wird immer unterhalb des aktuell ausgewählten Bausteins eingefügt.  
+1. Wie schon unter Schritt 2 in der Kurstoolbar "Kursbausteine einfügen“ anklicken. Nun aber im neu geöffneten Pop-up Fenster unter Wissensvermittlung den Kursbaustein ["Ordner"](../learningresources/Course_Element_Folder.de.md) auswählen. Ein neuer Baustein wird immer unterhalb des aktuell ausgewählten Bausteins eingefügt.  
 
 2. Im Tab „Titel und Beschreibung“ wieder den Titel des Kursbausteins eingeben und speichern.  
 
@@ -81,7 +81,7 @@ Oben in der Kurstoolbar "Kursbausteine einfügen“ klicken. Im neu geöffneten 
   
 !!! note "Hinweis"
 
-    Es gibt generell mehrere Möglichkeiten und Wege um Kursunterlagen bereitzustellen. Schauen Sie sich auch die anderen Kursbausteine aus dem Bereich Wissensvermittlung an. Darüber hinaus können Sie einen Order auch in der [Toolbar](../course_operation/Using_Additional_Course_Features.de.md) aktivieren (hier unter der Bezeichnung "Dokumente"). Auf diesem Weg steht der Ordner kontinuierlich zur Verfügung.
+    Es gibt generell mehrere Möglichkeiten und Wege um Kursunterlagen bereitzustellen. Schauen Sie sich auch die anderen Kursbausteine aus dem Bereich Wissensvermittlung an. Darüber hinaus können Sie einen Order auch in der [Toolbar](../learningresources/Using_Additional_Course_Features.de.md) aktivieren (hier unter der Bezeichnung "Dokumente"). Auf diesem Weg steht der Ordner kontinuierlich zur Verfügung.
 
 ## Schritt 4: Diskussionsforum einfügen  
 
@@ -97,7 +97,7 @@ Bei Bedarf können Sie noch im Tab "Konfiguration" des Forums definieren, ob auc
 ### Einfache Gestaltungsmöglichkeit: Kursbaustein Tab Layout
 
 Alle Kursbausteine verfügen über den Tab "Layout". Hier haben Sie weitere optische Gestaltungsmöglichkeiten für die Kursbausteine. Sie können z.B. ein Hintergrundbild hinterlegen oder einen bestimmten Darstellungsstil wählen usw.. Ausführliche Informationen zu den Möglichkeiten finden Sie
-[hier](Design_possibilities_of_courses_and_course_elements.de.md).
+[hier](../learningresources/Design_possibilities_of_courses_and_course_elements.de.md).
 
 Fügen Sie bei Bedarf weitere Kursbausteine hinzu. Wenn Sie die gewünschten Kursbausteine hinzugefügt haben, müssen Sie noch den Kurs publizieren.
 
@@ -118,7 +118,7 @@ Fügen Sie bei Bedarf weitere Kursbausteine hinzu. Wenn Sie die gewünschten Kur
 
     ![Freigabe](assets/tab_share_DE.png)  
   
-3. Konfigurieren Sie hier den Zugang für die Teilnehmenden und entscheiden Sie ob die Teilnehmenden den Kurs selbst buchen können, ob Sie als Besitzer die Teilnehmenden eintragen wollen oder ob der Zugang generell offen sein soll. Weitere Details zur Zugangskonfiguration finden Sie [hier](Access_configuration.de.md).  
+3. Konfigurieren Sie hier den Zugang für die Teilnehmenden und entscheiden Sie ob die Teilnehmenden den Kurs selbst buchen können, ob Sie als Besitzer die Teilnehmenden eintragen wollen oder ob der Zugang generell offen sein soll. Weitere Details zur Zugangskonfiguration finden Sie [hier](../learningresources/Access_configuration.de.md).  
 
 4. Damit der Kurs für die Lernenden generell sichtbar und zugänglich wird, muss noch der Status von "Vorbereitung" auf "Veröffentlicht" gesetzt werden.  
   
@@ -128,4 +128,4 @@ Ihr Kurs ist nun für die Benutzer sichtbar und kann besucht bzw. gebucht werden
     Damit Ihr Kurs von den Lernenden auch optimal gefunden wird, empfehlen wir den komplett fertiggestellten Kurs auch in den [Katalog](../catalog/index.de.md) einzutragen. Diese Einstellung wird im Menü "Einstellungen", im Tab "Katalog" eingerichtet. Kursteilnehmende finden den Kurs anschliessend unter "Kurse" → "Katalog" in der entsprechenden Kategorie.
 
 !!! tip "Tipp: Toolbar"
-    Viele der zentralen Elemente eines Kurses, die permanent verfügbar sein sollen, können auch in der [Toolbar](../course_operation/Using_Additional_Course_Features.de.md) statt in der linken Kursnavigation eingefügt werden. Dabei werden statt der Kursbausteine im Kurseditor einfach die passenden Tools in der Toolbar aktiviert. Überlegen Sie jeweils, welche Variante für Ihr Szenario passender ist.
+    Viele der zentralen Elemente eines Kurses, die permanent verfügbar sein sollen, können auch in der [Toolbar](../learningresources/Using_Additional_Course_Features.de.md) statt in der linken Kursnavigation eingefügt werden. Dabei werden statt der Kursbausteine im Kurseditor einfach die passenden Tools in der Toolbar aktiviert. Überlegen Sie jeweils, welche Variante für Ihr Szenario passender ist.

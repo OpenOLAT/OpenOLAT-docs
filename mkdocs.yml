@@ -138,10 +138,12 @@ plugins:
           Automatic Group Lifecycle : Automatischer Gruppenlebenszyklus
           BBB - Frequently asked questions: BBB - Häufig gestellte Fragen
           Basic concepts : Basiskonzepte
+          Basic terms : Grundbegriffe
           Bewertungswerkzeug  : Bewertungswerkzeug
           BigBlueButton : BigBlueButton
           BigBlueButton module : Modul BigBlueButton
           Blog  : Blog
+          Bulk actions : Sammelaktionen
           Bulk assessment : Massenbewertung
           Calendar : Kalender
           card2brain Flashcards : card2brain Lernkarten
@@ -151,10 +153,12 @@ plugins:
           Changing from QTI 1.2 to QTI 2.1 : Von QTI 1.2 zu QTI 2.1          
           Chat : Chat
           Checklist : Checkliste
+          Classes : Klassen
           Coach : Betreuer
           Coaching : Coaching
           Communication and Collaboration : Kommunikation und Kollaboration
           Competences tags : Kompetenzen verschlagworten
+          Components : Bestandteile
           Components of the portfolio : Bestandteile des Portfolios
           Configuration : Konfiguration
           Configure test questions : Test Fragen konfigurieren
@@ -194,6 +198,7 @@ plugins:
           Create a blog : Blog erstellen
           Create a Content Package : Content Package erstellen
           Create a form : Formular erstellen
+          Create a new project : Neues Projekt erstellen
           Create a podcast : Podcast erstellen
           Create a wiki : Wiki erstellen
           Create course: Kurs erstellen
@@ -218,6 +223,7 @@ plugins:
           Data archiving : Datenarchivierung
           Data Management : Handhabung der Daten
           Data protection : Datenschutz
+          Decisions : Entscheide
           Deleting, Moving and Copying Course Elements : Löschen, Verschieben und Kopieren von Kursbausteinen
           Design possibilities of courses and course elements : Gestalterische Möglichkeiten von Kursen und Kursbausteinen
           Detailed View of Learning Resources : Detailansicht einer Lernressource
@@ -229,6 +235,7 @@ plugins:
           eAssessment : Online Prüfungen
           eAssessment ePortfolio : e-Assessment ePortfolio
           eAssessment Question bank : e-Assessment Fragenpool
+          Edit a project : Projekt bearbeiten
           edu-sharing: edu-sharing
           Edubase: Edubase
           Enrolment: Einschreibung
@@ -294,6 +301,7 @@ plugins:
           Learning resource Video : Lernressource Video
           Life cycles  : Lebenszyklen
           Lifecycle management : Lebenszyklen managen
+          Lectures : Lektionen
           Lectures and absences : Lektionen und Absenzen
           Lectures - User View  : Lektionen - Sicht Benutzer
           Lectures - Teacher View: Lektionen - Sicht Dozent
@@ -302,6 +310,7 @@ plugins:
           Lernpfad Kurse  : Lernpfad Kurse
           License: Lizenz
           Licenses : Lizenzen
+          Line manager : Linienvorgesetzte(r)
           Login : Login
           Login and registration : Login und Registration
           Login Page : Login-Seite
@@ -312,6 +321,7 @@ plugins:
           Math formula : Mathematische Formel
           Media center : Mediathek
           Mediasite : Mediasite
+          Members : Teilnehmer:innen
           Members management : Mitgliederverwaltung
           Microsoft Teams : Microsoft Teams
           Modules : Module
@@ -326,12 +336,17 @@ plugins:
           My first course : Mein erster Kurs
           My portfolio binders : Meine Portfolio Mappen
           Navigation : Navigation
+          Notes : Notizen
           Notifications : Mitteilungen
           Offer Courses : Kurse anbieten
+          Offers : Angebote
+          Opencast : Opencast
           OpenMeetings : OpenMeetings
           Other : Andere
+          Orders : Aufträge
+          Orders management : Auftragsverwaltung
           Organize a topic assignment : Themenvergabe organisieren
-          Overview: Übersicht
+          Overview : Übersicht
           Participant Administration : Teilnehmeradministration
           Participant Folder : Teilnehmer Ordner
           Participant list : Teilnehmerliste
@@ -356,7 +371,9 @@ plugins:
           Portfolio 2.0 Template : Portfolio 2.0 Vorlage
           Practice: Übung
           Process of an assessment portfolio : Prozess eines Bewertungsportfolios
-          Opencast : Opencast
+          Project members : Projektmitarbeiter
+          Project report : Projektreport
+          Projects : Projekte
           Question Bank : Fragenpool
           Question Bank Administration : Fragenpool Administration
           Question bank possible operations : Mögliche Aktionen im Fragenpool
@@ -373,7 +390,9 @@ plugins:
           REST API : REST API
           Resource folder : Ressourcenordner
           Roles and Rights : Rollen und Rechte
+          Role user to user : Personenbeziehungen
           Rubric : Rubrik
+          Schedule : Termine 
           SCORM Learning Content : SCORM-Lerninhalt
           Search : Suchfunktion
           Security : Sicherheit
@@ -385,6 +404,7 @@ plugins:
           Shared with me : An mich freigegeben
           Single Page : Einzelne Seite
           Start: Start
+          Start screen : Startscreen
           Structure: Struktur
           Storage folder : Ablageordner
           Supported Technologies : Unterstützende Technologien
@@ -412,12 +432,14 @@ plugins:
           Three Steps to your Form : Drei Schritte zu Ihrem Formular
           Three steps to your portfolio binder : Drei Schritte zu Ihrer Mappe
           Three Steps to Your Task : Drei Schritte zu Ihrer Aufgabe
+          To-dos : To-dos
           Topic assigment : Themenvergabe
           Topic assigment - Working with Topic Assignment : Themenvergabe - Arbeiten mit der Themenvergabe
           Transfer files using WebDAV : Dateien mittels WebDAV übertragen
           Types of Course Element : Kursbausteine
           User management : Benutzerverwaltung
           User manual: Benutzerhandbuch
+          User search : Personensuche
           Using additional Course Editor Tools : Verwendung weiterer Kurseditorwerkzeuge
           Using Additional Course Features : Einsatz weiterer Kursfunktionen der Toolbar
           Using Course Tools : Einsatz der Kurswerkzeuge

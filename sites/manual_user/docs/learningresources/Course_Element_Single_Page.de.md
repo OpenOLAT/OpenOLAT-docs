@@ -6,7 +6,7 @@ Im Kursbaustein „Einzelne Seite“ können Sie HTML und PDF-Dateien direkt in 
 Kursstruktur einbinden. Geben Sie auf diesem Weg beispielsweise zentrale
 Informationen, den Kursablauf oder Literaturtipps zu Ihrem Kurs bekannt oder
 platzieren Sie Inhalte wie Bilder oder Videos gezielt im Kurs. Die Dateien
-selbst werden dabei im [Ablageordner ](../course_operation/Storage_folder.de.md)des Kurses angelegt.
+selbst werden dabei im [Ablageordner ](../learningresources/Storage_folder.de.md)des Kurses angelegt.
 
 !!! info "Info"
 
@@ -29,7 +29,7 @@ automatisch erstellte Datei trägt bereits den Namen des Kurselements. Einmal an
 
 Im HTML Editor können Sie neben den verschiedenen Formatierungen auch
 Verlinkungen zu Bildern, Videos, den einzelnen Kursbausteinen des Kurses und
-zu den Tools in der [Toolbar](../course_operation/Using_Additional_Course_Features.de.md) einfügen.
+zu den Tools in der [Toolbar](../learningresources/Using_Additional_Course_Features.de.md) einfügen.
 
 Sie können auch Dateien die Sie zuvor erstellt haben in den Ablageordner des
 Kurses hochladen oder einen Ressourcenordner mit dem Kurs und dem Ablageordner
@@ -41,7 +41,7 @@ Ablageordners selbst beeinflussen möchten.
 
 Mit der "Einzelnen Seite" können auf verschiedene Weise Videos und Audios in
 den Kurs eingebunden werden. Detaillierte Information finden Sie
-[hier](../resource_video/Single_Page_Add_edit_video.de.md).
+[hier](../learningresources/Single_Page_Add_edit_video.de.md).
 
 Die Dateien können bei Bedarf später auch 
 wieder ausgetauscht werden.
@@ -68,7 +68,7 @@ Im Tab „**Anzeige Inhalt**“ definieren Sie die Einstellungen für die Anzeig
 des Seiteninhalts. Hier legen Sie fest ob die Seite unverändert, oder
 optimiert für OpenOlat angezeigt werden soll. Der Anzeigemodus „Optimiert für
 OpenOlat“ gestattet Ihnen z.B. das Kurslayout auf den Seiteninhalt anzuwenden,
-oder ein in den Kurs eingebundenes [Glossar](../course_operation/Using_Additional_Course_Features.de.md#glossary) für die Seite zu aktivieren.
+oder ein in den Kurs eingebundenes [Glossar](../learningresources/Using_Additional_Course_Features.de.md#glossary) für die Seite zu aktivieren.
 
 Folgende Einstellungen für den Kursbaustein "Einzelne Seite" vorgenommen werden. 
 
@@ -136,7 +136,7 @@ verändert werden.
 
 Die Funktion "Mehrere Einzelseiten" bietet sich an, wenn Sie bereits mehrere
 HTML-Dateien bzw. komplexe Hypermedia-Dateien extern erstellt und im
-[Ablageordner ](../course_operation/Storage_folder.de.md)des Kurses abgelegt haben. Achten Sie bei
+[Ablageordner ](../learningresources/Storage_folder.de.md)des Kurses abgelegt haben. Achten Sie bei
 komplexen Seiten mit diversen Verlinkungen zu Grafiken u.ä. darauf die Option
 "Link im gesamten Ablageordner erlauben" zu aktivieren. Ferner sollten Sie die
 Dateinamen möglichst schon so benennen wie Sie später im Kurs erscheinen

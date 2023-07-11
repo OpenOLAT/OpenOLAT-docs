@@ -57,4 +57,4 @@ werden:
   * Kommentare
   * Bewertungen
   * ein Startbild nach Wunsch
-  * Kombination mit bestimmten Erledigungskriterien in [Lernpfad Kursen](../course_create/Learning_path_course.de.md)
+  * Kombination mit bestimmten Erledigungskriterien in [Lernpfad Kursen](../learningresources/Learning_path_course.de.md)

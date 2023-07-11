@@ -8,7 +8,7 @@
     * [Gruppenadministration](Group_Administration.de.md)
     * [Gruppenwerkzeuge nutzen](Using_Group_Tools.de.md)
     * [LTI Freigabe konfigurieren](LTI_Share_groups.de.md)
-    * [Gruppenverwaltung](Group_Management.de.md)
+    * [Gruppenverwaltung](../area_modules/Group_Management.de.md)
 
 OpenOlat arbeitet mit einem übergreifenden Gruppensystem das es gestattet,
 Gruppen nach Wunsch zu konfigurieren und dem Verwendungszweck anzupassen.
@@ -32,7 +32,7 @@ Hilfe des kleinen Pfeils aufgeklappt werden.
 ![Gruppen](assets/Gruppe.png){ class="shadow lightbox" }
 
 Weitere Infos zu den Aktionsmöglichkeiten im Menü "Gruppen" finden Sie im
-Kapitel [Gruppenverwaltung](Group_Management.de.md).
+Kapitel [Gruppenverwaltung](../area_modules/Group_Management.de.md).
 
 ## Kombination mit Kursen
 

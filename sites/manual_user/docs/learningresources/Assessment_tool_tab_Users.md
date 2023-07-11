@@ -11,7 +11,7 @@ For each course element, a tab with the "Overview" and a tab with the "Participa
 
 ![Assessment tool participant overview](assets/participant_overview_test_en.png)
 
-The exact procedure is described in the chapters [Assessing participants](../course_operation/Assessment_of_learners.md) and [Assessment of course elements](../course_operation/Assessment_of_course_modules.md).
+The exact procedure is described in the chapters [Assessing participants](../learningresources/Assessment_of_learners.md) and [Assessment of course elements](../learningresources/Assessment_of_course_modules.md).
 
 
 ## Participants tab in the assessment tool

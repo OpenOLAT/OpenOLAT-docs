@@ -1,6 +1,6 @@
 # Infoseite einrichten
 
-Jede Lernressource verfügt über eine [Infoseite](../catalog/Info_page.de.md). Diese kann
+Jede Lernressource verfügt über eine [Infoseite](../learningresources/Info_page.de.md). Diese kann
 vom Besitzer der Lernressource inhaltlich gefüllt werden und steht
 Interessierten nach Veröffentlichung der Lernressource, unabhängig von einer
 Buchung, bereits vor betreten der Lernressource zur Verfügung. Das ist z.B.
@@ -111,9 +111,9 @@ Durchführungszeitraum festgelegt werden. Folgende Optionen sind möglich:
 
 * _Ohne_: Wählen Sie diese Option, wenn der Kurs nicht zu einem bestimmten Daten beginnt und aufhört oder Sie den Termin nicht explizit in den Informationen einbauen möchten.
 
-* _Mit Begin- und Enddatum_: Der Kursbesitzer kann hier das Start- und Enddatum des Kurses eintragen. Dabei ist beim Enddatum der Endtag miteingeschlossen (23:59). Das Datum erscheint anschließend als Information in der Kursübersicht. Das eingetragene Datum ist jedoch unabhängig vom Kursstatus und den Kurszugangsrechten (siehe Kapitel „[Zugangskonfiguration](../course_create/Access_configuration.de.md)“). Es hat also keine Auswirkung auf die Sichtbarkeit und den Zugang für die Kursmitglieder.
+* _Mit Begin- und Enddatum_: Der Kursbesitzer kann hier das Start- und Enddatum des Kurses eintragen. Dabei ist beim Enddatum der Endtag miteingeschlossen (23:59). Das Datum erscheint anschließend als Information in der Kursübersicht. Das eingetragene Datum ist jedoch unabhängig vom Kursstatus und den Kurszugangsrechten (siehe Kapitel „[Zugangskonfiguration](../learningresources/Access_configuration.de.md)“). Es hat also keine Auswirkung auf die Sichtbarkeit und den Zugang für die Kursmitglieder.
 
-* _Semester_: Wenn auf Systemebene vom OpenOlat Administrator Semesterdaten konfiguriert wurden, kann hier eine der angezeigten Semester Optionen ausgewählt werden. Das Semester erscheint anschließend als Information in der Kursübersicht. Das Semester ist jedoch unabhängig vom Kursstatus und den Kurszugangsrechten (siehe Kapitel „[Zugangskonfiguration](../course_create/Access_configuration.de.md)“). Es hat also keine Auswirkung auf die Sichtbarkeit und den Zugang für die Kursmitglieder.
+* _Semester_: Wenn auf Systemebene vom OpenOlat Administrator Semesterdaten konfiguriert wurden, kann hier eine der angezeigten Semester Optionen ausgewählt werden. Das Semester erscheint anschließend als Information in der Kursübersicht. Das Semester ist jedoch unabhängig vom Kursstatus und den Kurszugangsrechten (siehe Kapitel „[Zugangskonfiguration](../learningresources/Access_configuration.de.md)“). Es hat also keine Auswirkung auf die Sichtbarkeit und den Zugang für die Kursmitglieder.
 
 Der konfigurierte Durchführungszeitraum wird auch in den Informationen der
 Kursinfo angezeigt.

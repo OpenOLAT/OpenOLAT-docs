@@ -1,13 +1,13 @@
 # In Five Steps to Your Course With the Course Editor
 
 In the course editor you can add [course
-elements](../course_elements/index.md) to the course and set up and modify already installed course elements. The following describes how to create a course without using a wizard.
+elements](../learningresources/Course_Elements.md) to the course and set up and modify already installed course elements. The following describes how to create a course without using a wizard.
 
 In the first step you create your course. In the following steps, you add the desired course elements.
 
 ## Step 1: Create course  
   
-1. Click on ["Authoring"](../authoring/index.de.md) in the main navigation.
+1. Click on ["Authoring"](../area_modules/Authoring.de.md) in the main navigation.
     
     ![Create course](assets/create_course.jpg){ class="shadow" }
 
@@ -17,7 +17,7 @@ In the first step you create your course. In the following steps, you add the de
     
     ![Create course wizard](assets/course_create_en.jpg){ class="shadow" }
 
-4. Select course design (conventional course, [learning path course](Learning_path_course.md)) or course with learning progress and confirm with "Create".  
+4. Select course design (conventional course, [learning path course](../learningresources/Learning_path_course.md)) or course with learning progress and confirm with "Create".  
 
 5. You can now make further settings in the menu that appears.
     
@@ -34,7 +34,7 @@ In the first step you create your course. In the following steps, you add the de
   
 !!! info
     The exact further design and the choice of the [course
-    elements](../course_elements/index.md) required depend on your didactic concept. The following is _an example_ of a course similar to the course wizard.
+    elements](../learningresources/Course_Elements.md) required depend on your didactic concept. The following is _an example_ of a course similar to the course wizard.
 
 The next steps take place in the **Course Editor**. 
 The following is an _example_ of how to recreate a course similar to the course wizard.
@@ -67,7 +67,7 @@ The following is an _example_ of how to recreate a course similar to the course 
 
 ## Step 3: Insert folder 
 
-1. Click "Insert course elements" in the course toolbar and select ["Folder"](../course_elements/Course_Element_Folder.md) in the knowledge transfer section. A new course element is always inserted right beneath the currently selected course element.  
+1. Click "Insert course elements" in the course toolbar and select ["Folder"](../learningresources/Course_Element_Folder.md) in the knowledge transfer section. A new course element is always inserted right beneath the currently selected course element.  
 
 2. Again indicate a title in the tab "Title and description" and save your settings.  
 
@@ -79,7 +79,7 @@ The following is an _example_ of how to recreate a course similar to the course 
   
 !!! note
 
-    There are generally several possibilities and ways to provide course materials. Have a look at the other course elements from the knowledge transfer section. In addition, you can also activate a folder in the [toolbar](../course_operation/Using_Additional_Course_Features.md) (here under the designation "Documents"). This way the folder is continuously available.
+    There are generally several possibilities and ways to provide course materials. Have a look at the other course elements from the knowledge transfer section. In addition, you can also activate a folder in the [toolbar](../learningresources/Using_Additional_Course_Features.md) (here under the designation "Documents"). This way the folder is continuously available.
 
 ## Step 4: Insert discussion forum
 
@@ -96,7 +96,7 @@ The following is an _example_ of how to recreate a course similar to the course 
 ### Simple design option: course element Tab Layout
 
 All course elements have the tab "Layout". Here you have further visual design options for the course elements. For example, you can store a background image or choose a certain display style. Color coding is also possible. The preview option allows you to see the effects directly. In this tab, you also determine whether the course element is displayed with the stored short title the (long) title or without title. You can find detailed information about the possibilities
-[here](Design_possibilities_of_courses_and_course_elements.md)
+[here](../learningresources/Design_possibilities_of_courses_and_course_elements.md)
 
 Once you have added the desired course elements, you still need to publish the course.
 
@@ -118,7 +118,7 @@ Once you have added the desired course elements, you still need to publish the c
 
 3. Select the tab "Share" here.  
 
-4. Configure the access for the participants here and decide whether the participants can book the course, whether you want to enter the participants or whether the access should be open in general. You can find further details on access configuration [here](Access_configuration.md).
+4. Configure the access for the participants here and decide whether the participants can book the course, whether you want to enter the participants or whether the access should be open in general. You can find further details on access configuration [here](../learningresources/Access_configuration.md).
 
 5. To make the course visible and accessible to learners, the status must be changed from "Preparation" to "Published".
   
@@ -128,4 +128,4 @@ Now your course is visible for OpenOlat users and can be used.
     To ensure that your course is found by the learners, we recommend that you enter the completed course in the [catalogue](../catalog/index.md). This setting can be found in the menu "Preferences," tab "Catalog". Course participants will then find your course under "Courses" → "Catalog" in the corresponding category.
 
 !!! tip "Tip: Toolbar"
-    Many of the central elements of a course that should be permanently available can also be inserted in the [toolbar](../course_operation/Using_Additional_Course_Features.md) instead of in the left course navigation. In this case, instead of the course elements in the course editor, the appropriate tools are simply activated in the toolbar. In each case, consider which variant is more suitable for your scenario.
+    Many of the central elements of a course that should be permanently available can also be inserted in the [toolbar](../learningresources/Using_Additional_Course_Features.md) instead of in the left course navigation. In this case, instead of the course elements in the course editor, the appropriate tools are simply activated in the toolbar. In each case, consider which variant is more suitable for your scenario.

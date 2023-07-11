@@ -18,7 +18,8 @@ Nach dem Öffnen des Autorenbereichs sehen Sie eine leere Liste, denn Sie haben 
 
 ![autorenbereich_meine_eintraege_leer_v1_de.png](assets/autorenbereich_meine_eintraege_leer_v1_de.png){ class="shadow lightbox" }
 
-Wenn Sie die Suchmaske verwenden, finden Sie auch Kurse und Lernressourcen anderer Autoren. Allerdings nur solche, 
+Wenn Sie die Suchmaske verwenden, finden Sie auch Kurse und Lernressourcen anderer Autoren. Allerdings nur solche,
+ 
 * die von den Autoren-Kollegen bereits veröffentlicht wurden 
 * und ein Zugriff durch andere Autoren erlaubt wurde.
 

@@ -51,7 +51,7 @@ Syntax | Ergebnis (Formatierung)
 Syntax | Ergebnis (Formatierung)  
 ---|---  
 [[Interner link]] | Interner link
-[[Link `|` Text]] | [Text](sites/manual_user/docs/learning_activities/Working_with_Wiki.de.md)
+[[Link `|` Text]] | [Text](Working_with_Wiki.de.md)
 [http://www.openolat.org](http://www.openolat.org/) | [http://www.openolat.org](http://www.openolat.org/)
 [[http://www.openolat.org](http://www.openolat.org/) Die Website von OpenOlat] | [Die Website von OpenOlat](http://www.openolat.org/)
 

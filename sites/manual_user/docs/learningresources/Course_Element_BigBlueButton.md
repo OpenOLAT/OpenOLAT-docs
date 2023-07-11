@@ -19,7 +19,6 @@ BigBlueButton enables virtual classrooms with the following functionalities:
   * private chat
   * shared notes
 
-  
 ### System requirements
 
 BigBlueButton is a browser-based software solution and requires no additional plug-ins.  
@@ -36,7 +35,6 @@ participants. If this option is activated participants will not be able to
 enter the meeting until the moderator has started it.
 
 ![BBB_access.png](assets/image2020-4-14_11-19-9.png)
-  
   
 ## Räume erstellen, konfigurieren und betreten 
 
@@ -120,7 +118,6 @@ the list is displayed directly.
 
 ![BBB_präsentation.png](assets/BBB_praesentation.png)
 
-
 #### Recordings
 
 The recordings of a meeting can be found in the tab "Online Meetings" →
@@ -128,18 +125,13 @@ The recordings of a meeting can be found in the tab "Online Meetings" →
 published recordings are directly selectable here. If the deployment is done
 manually, owners and coaches can now define for which target group the
 recording should be deployed.
-   
 
 !!! warning "Attention"
 
     The settings made under "publish" as well as under "delete" are valid for the recording as well as for the download! If you delete an entry, the whole recording will be deleted.
- 
-
 
 ![BBB_recordings.png](assets/bbb_recordings.png)  
 
-
-  
 ## Calendar view
 
 If the course calendar is activated, the recorded online dates are also
@@ -156,7 +148,6 @@ automatically entered into the course-specific calendar. From here, all course
 members can quickly reach the correspondingly linked BigBlueButton room.
 
 ![calender.png](assets/image2020-4-7_14-14-5.png)  
-  
   
 ## View for participants
 
@@ -186,12 +177,11 @@ participants.
 
 Depending on the room settings, different options are available in the room.  
 
-
 ## BigBlueButton for guests 
 
 Depending on the configuration of the BigBlueButton template, the conference
 room can be made accessible to non-registered persons without access to
-OpenOlat, i.e. external participants (see [guest access](../access_roles_rights/guest_access.md)).
+OpenOlat, i.e. external participants (see [guest access](../basic_concepts/guest_access.md)).
 The prerequisite for this is that it is a conventional course, not a learning
 path course, and that the course itself has also been activated for guests.
 Guests can enter a name of their choice during dial-in.
@@ -205,15 +195,7 @@ In addition, a password can also be generated for guests in the configuration
 of the course element, which they must enter before dialing into the room.
 Whether this option is available depends on the BBB configuration by the BBB
 administration.
-
   
 !!! note "Link to further information"
 
-    BigBlueButton supplier website: <https://bigbluebutton.org/>  
-  
-  
-
-  
-
-  
-
+    BigBlueButton supplier website: <https://bigbluebutton.org/> 

@@ -1,6 +1,6 @@
 # Frageregeln
 
-Frageregeln (Arbeitsname: "Branching") können ab in OpenOlat im [Fragebogeneditor](../forms/Form_editor_Questionnaire_editor.de.md) eingebaut werden. Abhängig von bestimmten Antworten im Fragebaustein ![Icon Checkmark](assets/image2021-5-5_9-32-45.png){ class=size24 } "Mehrfachauswahl" und ![Icon Circle](assets/image2021-5-5_9-31-51.png){ class=size24 } "Einfachauswahl" können Aktionen ausgeführt werden.
+Frageregeln (Arbeitsname: "Branching") können ab in OpenOlat im [Fragebogeneditor](../learningresources/Form_editor_Questionnaire_editor.de.md) eingebaut werden. Abhängig von bestimmten Antworten im Fragebaustein ![Icon Checkmark](assets/image2021-5-5_9-32-45.png){ class=size24 } "Mehrfachauswahl" und ![Icon Circle](assets/image2021-5-5_9-31-51.png){ class=size24 } "Einfachauswahl" können Aktionen ausgeführt werden.
 
 Aktuell ist es nur möglich, bestimmte Fragecontainer anzeigen zu lassen. Dadurch können unterschiedliche Fragestränge gebaut werden.
 

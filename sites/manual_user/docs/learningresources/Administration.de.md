@@ -8,7 +8,7 @@ Die meisten zentralen Einstellungen nehmen Sie über die Menüs, die Sie in der 
 
  * die [Mitgliederverwaltung](Members_management.de.md) zur Organisation der Teilnehmenden, Gruppen usw.
  * der [Ablageordner](Storage_folder.de.md) für die Ablage und Organisation der kursspezifischen Dateien
- * das [Bewertungswerkzeug](Assessment_tool_-_overview.de.md) für die Punktevergabe, die Bereitstellung von Feedbacks und die Organisation von Assessment Kursbausteinen
+ * das [Bewertungswerkzeug](Assessment_tool_overview.de.md) für die Punktevergabe, die Bereitstellung von Feedbacks und die Organisation von Assessment Kursbausteinen
   * [Lektionen und Absenzen](Lectures_and_absences.de.md) für die Organisation von Abwesenheitsterminen der Teilnehmenden
   * das Menü [Erinnerung](Course_Reminders.de.md) für den Versand von Erinnerungen z.B. bezüglich Assessment Terminen
   * [Datenarchivierung](Data_archiving.de.md) für die Sicherung von Kursergebnissen und weiteren Dingen.

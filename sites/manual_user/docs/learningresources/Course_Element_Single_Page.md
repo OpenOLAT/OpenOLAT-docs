@@ -29,7 +29,7 @@ get to the OpenOlat HTML Editor.
 
 In the HTML editor you can insert links to pictures, videos, the individual
 course elements of the course and to the tools in the
-[toolbar](../course_create/Using_additional_Course_Editor_Tools.md) in addition to the
+[toolbar](../learningresources/Using_additional_Course_Editor_Tools.md) in addition to the
 different formatting.
 
 You can also upload files that you have previously created to the storage
@@ -40,7 +40,7 @@ the folder yourself.
 
 With the "Single page", videos and audios can be integrated into the course in
 various ways. Detailed information can be found
-[here](../resource_video/Single_Page_Add_edit_video.md).
+[here](../learningresources/Single_Page_Add_edit_video.md).
 
 The Files can also be swapped later using the link "Replace page".
 
@@ -65,7 +65,7 @@ In the " **Layout** " tab you can define the settings for the display of page
 contents. Here you determine whether the page should be displayed unaltered,
 or optimized for OpenOlat. The display mode "Optimized for OpenOlat" allows
 you to e.g. apply the course layout to the page content, or to enable the
-course [glossary](../course_operation/Using_Additional_Course_Features.md#glossary).
+course [glossary](../learningresources/Using_Additional_Course_Features.md#glossary).
 
 Folgende Einstellungen für den Kursbaustein "Einzelne Seite" vorgenommen werden.  
 
@@ -158,7 +158,7 @@ open the editor and get to the button "Add / edit video".
 ![add_video_button.png](assets/SinglePage_Video_EN.png)  
 
 You should always use the plugin "Add/edit video" if you need to embed a video
-into a "[Single Page](../course_elements/Knowledge_Transfer.md)" course
+into a "[Single Page](../learningresources/Knowledge_Transfer.md)" course
 element. It accesses OpenOlats integrated media player, which has its
 advantages.  
 1. The player automatically detects the format, as long video and audio

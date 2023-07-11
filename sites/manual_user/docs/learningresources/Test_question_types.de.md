@@ -257,7 +257,7 @@ Es ist auch möglich Text hinzuzufügen. Die Textgrösse können sie mithilfe de
 
 !!! info "Import von Fragen"
 
-	Neben dem direkten Erstellen können Fragen auch intern aus dem OpenOlat [Fragenpool](../question_bank/index.de.md) oder extern aus einer [Excel Datei](../question_bank/Data_Management.de.md) importiert werden.
+	Neben dem direkten Erstellen können Fragen auch intern aus dem OpenOlat [Fragenpool](../area_modules/Question_Bank.de.md) oder extern aus einer [Excel Datei](../area_modules/Data_Management.de.md) importiert werden.
 
 ??? abstract "Exkurs: Aufsatz schreiben"
 
