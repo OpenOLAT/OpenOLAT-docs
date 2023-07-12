@@ -125,7 +125,7 @@ Fügen Sie bei Bedarf weitere Kursbausteine hinzu. Wenn Sie die gewünschten Kur
 Ihr Kurs ist nun für die Benutzer sichtbar und kann besucht bzw. gebucht werden.
 
 !!! tip "Tipp: Katalog"
-    Damit Ihr Kurs von den Lernenden auch optimal gefunden wird, empfehlen wir den komplett fertiggestellten Kurs auch in den [Katalog](../catalog/index.de.md) einzutragen. Diese Einstellung wird im Menü "Einstellungen", im Tab "Katalog" eingerichtet. Kursteilnehmende finden den Kurs anschliessend unter "Kurse" → "Katalog" in der entsprechenden Kategorie.
+    Damit Ihr Kurs von den Lernenden auch optimal gefunden wird, empfehlen wir den komplett fertiggestellten Kurs auch in den Katalog einzutragen. Diese Einstellung wird im Menü "Einstellungen", im Tab "Katalog" eingerichtet. Kursteilnehmende finden den Kurs anschliessend unter "Kurse" → "Katalog" in der entsprechenden Kategorie.
 
 !!! tip "Tipp: Toolbar"
     Viele der zentralen Elemente eines Kurses, die permanent verfügbar sein sollen, können auch in der [Toolbar](../learningresources/Using_Additional_Course_Features.de.md) statt in der linken Kursnavigation eingefügt werden. Dabei werden statt der Kursbausteine im Kurseditor einfach die passenden Tools in der Toolbar aktiviert. Überlegen Sie jeweils, welche Variante für Ihr Szenario passender ist.

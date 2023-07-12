@@ -58,4 +58,4 @@ Gruppen direkt im gewünschten Kurs
 zu erstellen. Dies geschieht
 im Normalfall in der [Mitgliederverwaltung](../learningresources/Members_management.de.md) eines Kurses im Untermenü "Gruppen".
 Darüber hinaus können auch im Kurseditor an einigen Stellen Gruppen im jeweiligen Kontext erstellt werden. Hierzu zählen der
-[Einschreibebaustein](../learningresources/Administration_and_Organisation.de.md) und die Gruppenaufgabe. Darüber hinaus können in herkömmlichen Kursen im [Tab Sichtbarkeit oder Zugang](../learningresources/General_Configuration_of_Course_Elements.de.md) ebenfalls Gruppen erstellt werden.
+[Einschreibebaustein](../learningresources/Course_Elements.de.md) und die Gruppenaufgabe. Darüber hinaus können in herkömmlichen Kursen im [Tab Sichtbarkeit oder Zugang](../learningresources/General_Configuration_of_Course_Elements.de.md) ebenfalls Gruppen erstellt werden.

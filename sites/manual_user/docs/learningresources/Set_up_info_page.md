@@ -56,7 +56,7 @@ lecturers. They do not have to match the creator of the learning resource. The
 field is a plain text field, the content is only displayed on the course
 overview page.  
 
- **Subjects** : If defined, suitable subject areas can be selected here. The subject areas are also used for classification in the catalog. Look further here [Catalog 2.0](/catalog2.0.md).
+ **Subjects** : If defined, suitable subject areas can be selected here. The subject areas are also used for classification in the catalog. Look further here [Catalog 2.0](../area_modules/catalog2.0.md).
 
 
  **Implementation format** :  Courses can be assigned to one of the selected

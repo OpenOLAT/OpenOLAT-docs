@@ -108,7 +108,7 @@ To import or export the taxonomy, select the corresponding menu item in the More
 
 ### Export taxonomy
 
-The taxonomy is downloaded as a .zip archive by clicking on the menu item. This contains an EXCEL table with the hierarchical structure of the taxonomy level and a folder structure (media/level1/background;media/level1/teaser;) with teaser and background images of the taxonomy, if any are available. (more under -> [Catalogue 2.0](../../manual_user/docs/catalog/catalog2/))
+The taxonomy is downloaded as a .zip archive by clicking on the menu item. This contains an EXCEL table with the hierarchical structure of the taxonomy level and a folder structure (media/level1/background;media/level1/teaser;) with teaser and background images of the taxonomy, if any are available. (more under -> [Catalogue 2.0](../../manual_user/docs/area_modules/catalog2.0.md))
 
 ### Import taxonomy
 

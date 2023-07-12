@@ -63,11 +63,11 @@ sowie mehrere [Virtuelle Klassenzimmer](Virtual_classrooms.de.md)
 
 
 
-  * [Kursbaustein „Einschreibung“](../learningresources/Administration_and_Organisation.de.md#enrolment)
-  * [Kursbaustein „Mitteilungen“](../learningresources/Administration_and_Organisation.de.md#notification)
-  * [Kursbaustein „E-Mail“](../learningresources/Administration_and_Organisation.de.md#mail)
-  * [Kursbaustein „Kalender“](../learningresources/Administration_and_Organisation.de.md#cal)
-  * [Kursbaustein "Terminplanung"](../learningresources/Administration_and_Organisation.de.md#appointment_scheduling)
+  * [Kursbaustein „Einschreibung“](../learningresources/Course_Elements.de.md#enrolment)
+  * [Kursbaustein „Mitteilungen“](../learningresources/Course_Elements.de.md#notification)
+  * [Kursbaustein „E-Mail“](../learningresources/Course_Elements.de.md#mail)
+  * [Kursbaustein „Kalender“](../learningresources/Course_Elements.de.md#cal)
+  * [Kursbaustein "Terminplanung"](../learningresources/Course_Elements.de.md#appointment_scheduling)
 
 **Andere**
 

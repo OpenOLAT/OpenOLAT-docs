@@ -60,11 +60,11 @@ as well as several [Virtual classrooms](Virtual_classrooms.md)
 
 **Administration and Organisation**
 
-  * [Course Element: Enrolment](../learningresources/Administration_and_Organisation.md#enrolment)
-  * [Course Element: Notifications](../learningresources/Administration_and_Organisation.md#notification)
-  * [Course Element: E-Mail](../learningresources/Administration_and_Organisation.md#mail)
-  * [Course Element: Calendar](../learningresources/Administration_and_Organisation.md#cal)
-  * [Course Element: Appointment scheduling](../learningresources/Administration_and_Organisation.md#appointment_scheduling)
+  * [Course Element: Enrolment](../learningresources/Course_Elements.md#enrolment)
+  * [Course Element: Notifications](../learningresources/Course_Elements.md#notification)
+  * [Course Element: E-Mail](../learningresources/Course_Elements.md#mail)
+  * [Course Element: Calendar](../learningresources/Course_Elements.md#cal)
+  * [Course Element: Appointment scheduling](../learningresources/Course_Elements.md#appointment_scheduling)
 
 **Other**
 

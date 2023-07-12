@@ -46,7 +46,7 @@ No more cumbersome "browsing"! The new catalog 2.0 uses a modern "search and fil
 
 With the help of the integrated migration tool, the existing catalog structure can be transferred to the new format once. A change to the old catalog view is also supported.
 
-[More information in the manual](../manual_user/catalog/catalog2.0.md)
+[More information in the manual](../manual_user/area_modules/catalog2.0.md)
 
 ![Homepage catalog version 2](assets/170/KatalogV2.png){ class="shadow lightbox" }
 

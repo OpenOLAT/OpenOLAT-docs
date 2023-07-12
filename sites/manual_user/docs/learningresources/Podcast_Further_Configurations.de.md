@@ -16,7 +16,7 @@ Sie als erstes
 Siehe Schritt 2 der [4-Schritte Anleitung](../resource_podcast/Four_Steps_to_Your_Podcast.de.md). Wurde
 bereits eine Verknüpfung zu einer Lernressource Podcast hergestellt, kann
 diese ausgewechselt oder editiert werden (siehe Schritt 3 der [4-Schritte
-Anleitung](Podcast+erstellen.html)).
+Anleitung](../../manual_how-to/podcast/podcast.de.md)).
 
 ### Externen Podcast einbinden
 

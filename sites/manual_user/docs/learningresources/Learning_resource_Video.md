@@ -4,7 +4,7 @@
 To be recognized in OpenOlat as a video learning resource a [video file prepared for the import](Video_Upload.md) needs to be in the .mp4 form.
 
 A video learning resource is created in authoring with the feature
-"[Import](../authoring/Actions_in_the_Authoring_section.md)" or "Import URL". Therefore you select the desired video-file in the upload window and click on "Import". 
+"[Import](../area_modules/Authoring_BulkActions.md)" or "Import URL". Therefore you select the desired video-file in the upload window and click on "Import". 
 
 ![lernressource_video.png](assets/Video_Einstellungen.png)  
 

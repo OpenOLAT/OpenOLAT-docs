@@ -6,7 +6,7 @@ Format vorliegen, damit sie in OpenOlat als Video-Lernressource erkannt werden
 kann.
 
 Eine Video-Lernressource wird im Autorenbereich über die Funktion
-"[Importieren](../authoring/Actions_in_the_Authoring_section.de.md#import)"
+"[Importieren](../area_modules/Actions_in_the_Authoring_section.de.md)"
 oder "Importieren URL" erstellt. Dazu im Upload-Fenster die gewünschte Video-Datei auswählen, einen Titel vergeben und auf "Importieren" klicken. 
 
 ![lernressource_video.png](assets/Video_Einstellungen.png)  

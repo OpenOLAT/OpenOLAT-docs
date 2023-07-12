@@ -10,7 +10,7 @@ versandt.
 
 E-Mails können an diversen Stellen versandt werden z.B.
 
-  * im Kurs ([Kursbaustein E-Mail](../learningresources/Administration_and_Organisation.de.md), [Teilnehmerliste](../learningresources/Course_Elements.de.md))
+  * im Kurs ([Kursbaustein E-Mail](../learningresources/Course_Elements.de.md), [Teilnehmerliste](../learningresources/Course_Elements.de.md))
   * in der Kurs [Toolbar](../learningresources/Using_Additional_Course_Features.de.md)
   * durch [Kurserinnerungen](../learningresources/Course_Reminders.de.md)
   * bei Kurs- oder Gruppeneinladungen

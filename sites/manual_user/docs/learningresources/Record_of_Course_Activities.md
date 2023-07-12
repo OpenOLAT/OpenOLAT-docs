@@ -1,6 +1,6 @@
 # Record of Course Activities
 
-OpenOlat records course activities of participants and authors in so-called log files. By using the [data archiving](Using_Course_Tools.md#UsingCourseTools-_datenarchivierung) tool you can download those log files to your personal folder.
+OpenOlat records course activities of participants and authors in so-called log files. By using the [data archiving](Using_Course_Tools.md#data-archiving-tool--archive) tool you can download those log files to your personal folder.
 
 * administrator's log file with personalized data of the course authors
 * user's log file Statistics log file with the anonymized data of the course participants

@@ -21,7 +21,7 @@ Neben der [Volltextsuche](../basic_concepts/Full_Text_Search.de.md) für das ges
 
 ## Kurskalender
 
-Pro Kurs kann ein Kalender aktiviert werden. Für die Einbindung gibt es zwei Optionen. Der Kalender kann entweder als [Kursbaustein](../learningresources/Administration_and_Organisation.de.md) oder an zentraler Position oben in der Kurstoolbar angezeigt werden und somit einen guten Überblick geben.
+Pro Kurs kann ein Kalender aktiviert werden. Für die Einbindung gibt es zwei Optionen. Der Kalender kann entweder als [Kursbaustein](../learningresources/Course_Elements.de.md) oder an zentraler Position oben in der Kurstoolbar angezeigt werden und somit einen guten Überblick geben.
 
 Neue Termine werden einfach mit Klick auf das gewünschte Datum erstellt. Anschließend können Titel, Beschreibung, Beginn und Ende sowie eventuell ein Ort, mögliche Wiederholungen sowie die Sichtbarkeit eingestellt werden Anschließend erscheint der Termin im Kalender bzw. in allen Instanzen des Kurskalenders und kann mit Klick auf das Datum und der Option „Editieren“ überarbeitet werden.
 
@@ -37,11 +37,11 @@ Hier können alle Kursbesitzer, Betreuer und Teilnehmenden eines Kurses zentral 
 
 ## Teilnehmer Infos
 
-Das Tool entspricht dem [Kursbaustein „Mitteilungen"](../learningresources/Administration_and_Organisation.de.md). Teilnehmende können das Tool abonnieren und somit benachrichtigt werden, wenn es neue Informationen gibt. Anders als im Kursbaustein können hier jedoch keine weiteren Konfigurationen vorgenommen werden.  
+Das Tool entspricht dem [Kursbaustein „Mitteilungen"](../learningresources/Course_Elements.de.md). Teilnehmende können das Tool abonnieren und somit benachrichtigt werden, wenn es neue Informationen gibt. Anders als im Kursbaustein können hier jedoch keine weiteren Konfigurationen vorgenommen werden.  
 
 ## E-Mail
 
-Hier kann der Kursbesitzer konfigurieren an wen die Lernenden über diesen Link Mails verschicken können. Zur Auswahl stehen die drei Kursrollen „Kursbesitzer“, „Betreuer“ und „Teilnehmer“. Eine weitere Differenzierung ist nicht möglich. Falls Sie differenziertere Einstellungen für den Versand an Kursmitglieder benötigen, sollten Sie den [Kursbaustein "E-Mail"](../learningresources/Administration_and_Organisation.de.md#mail) oder den [Kursbaustein „Teilnehmerliste](../learningresources/Communication_and_Collaboration.md)“ nutzen.
+Hier kann der Kursbesitzer konfigurieren an wen die Lernenden über diesen Link Mails verschicken können. Zur Auswahl stehen die drei Kursrollen „Kursbesitzer“, „Betreuer“ und „Teilnehmer“. Eine weitere Differenzierung ist nicht möglich. Falls Sie differenziertere Einstellungen für den Versand an Kursmitglieder benötigen, sollten Sie den [Kursbaustein "E-Mail"](../learningresources/Course_Elements.de.md#mail) oder den [Kursbaustein „Teilnehmerliste](../learningresources/Communication_and_Collaboration.md)“ nutzen.
 
 ## Teams Online-Meeting
 

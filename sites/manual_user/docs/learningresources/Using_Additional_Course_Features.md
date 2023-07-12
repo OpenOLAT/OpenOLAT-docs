@@ -36,11 +36,11 @@ Here all course owners, coaches and participants of a course can be displayed ce
 
 ## Participant infos
 
-This tool corresponds to the [course element "Notifications"](../learningresources/Administration_and_Organisation.md). Participants can subscribe to the tool and thus be notified when there is new information. In contrast to the course element no further configurations can be made here.
+This tool corresponds to the [course element "Notifications"](../learningresources/Course_Elements.md). Participants can subscribe to the tool and thus be notified when there is new information. In contrast to the course element no further configurations can be made here.
 
 ## E-Mail
 
-Here the course owner can configure to whom the learners can send mails via this link. There are three course roles to choose from: "course owner," "coach," and "participant". A further differentiation is not possible. In case you need more differentiated settings for sending mails to course members you should use the [course element "E-mail"](../learningresources/Administration_and_Organisation.md) or the [course element "List of participants"](../learningresources/Communication_and_Collaboration.md).
+Here the course owner can configure to whom the learners can send mails via this link. There are three course roles to choose from: "course owner," "coach," and "participant". A further differentiation is not possible. In case you need more differentiated settings for sending mails to course members you should use the [course element "E-mail"](../learningresources/Course_Elements.md) or the [course element "List of participants"](../learningresources/Communication_and_Collaboration.md).
 
 ## Teams Online-Meeting
 
