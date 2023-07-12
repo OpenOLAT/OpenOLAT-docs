@@ -5,7 +5,7 @@
 The administration area of the question bank provides question bank managers
 with access to the five organisational domains of the question bank. Just like
 e.g. the user manager or the author, question bank manager is a
-[role](../general/Roles_and_Rights.md) assigned to a system user by an administrator.
+[role](../basic_concepts/Roles_Rights.md) assigned to a system user by an administrator.
 The question bank manager has the right to change / manipulate/regulate
 organisational aspects of the question bank, but he has no control over the
 content of the question bank or individual pools. The question bank manager,

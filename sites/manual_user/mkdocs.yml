@@ -34,6 +34,7 @@ nav:
       - Calendar: "personal_menu/Calendar.md"
       - Personal folders: "personal_menu/Personal_folders.md"
       - E-Mail: "personal_menu/E-Mail.md"
+      - Media Center: "personal_menu/Media_Center.md"
     - Configuration:
       - Overview: "personal_menu/Configuration.md"
       - COVID certificate: "personal_menu/COVID_certificate.md"
@@ -94,7 +95,7 @@ nav:
         - Overview: "area_modules/Components_of_the_portfolio.md"
         - My portfolio binders: "area_modules/My_portfolio_binders.md"
         - My entries: "area_modules/My_entries.md"
-        - Media center: "area_modules/Media_center.md"
+        - Media Center: "area_modules/Media_Center.md"
         - Shared by me: "area_modules/Shared_by_me.md"
         - Shared with me: "area_modules/Shared_with_me.md"
         - Multiple use of entries: "area_modules/Multiple_use_of_entries.md"
@@ -160,6 +161,7 @@ nav:
     - Course elements: 
       - Overview: "learningresources/Course_Elements.md"
       - Structure: "learningresources/Course_Element_Structure.md"
+      - Page: "learningresources/Course_Element_Page.md"
       - Single Page: "learningresources/Course_Element_Single_Page.md"
       - External Page: "learningresources/Course_Element_External_Page.md"
       - CP learning content: "learningresources/Course_Element_CP_Learning_Content.md"

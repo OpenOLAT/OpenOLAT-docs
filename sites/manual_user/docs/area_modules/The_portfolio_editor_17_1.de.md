@@ -89,8 +89,7 @@ möglichst jedes vorgegebene Feld ausgefüllt.
 Hier können diverse Dateiformate hochgeladen und per Link bereitgestellt
 werden.
 
-Ist ein externer [Dokumenteneditor
-](../../manual_admin/administration/External_Tools_-_Administration.de.md)aktiviert und liegen die Dateien in
+Ist ein externer [Dokumenteneditor](../../../manual_admin/administration/External_Tools_-_Administration.de.md)aktiviert und liegen die Dateien in
 einem Format vor, das von diesem unterstützt wird, können die Dateien auch
 direkt online weiter bearbeitet werden.
 

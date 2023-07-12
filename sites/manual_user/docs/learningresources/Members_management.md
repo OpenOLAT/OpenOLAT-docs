@@ -55,7 +55,7 @@ Multiple roles are often useful for course owners in order to quickly
 recognize all user-specific possibilities. The normal participant usually does
 not need any further global membership rights.
 
-If the user has additional [system roles](../general/Roles_and_Rights.md), such as
+If the user has additional [system roles](../basic_concepts/Roles_and_Rights.md), such as
 learning resource manager or administrator, these are also displayed as
 selection elements for the corresponding perspective.
 

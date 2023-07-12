@@ -1,18 +1,8 @@
-# Mediathek
+# Medien Center
 
-Die Mediathek ist die zentrale Sammelstelle für alle individuell gesammelten
-Elemente (Artefakte) einer Person. Artefakte können unterschiedliche Dokumente
-und Medien oder auch OpenOlat spezifische Dinge sein. Die einzelnen Artefakte
-können in Portfolio [Mappen ](My_portfolio_binders.de.md)zusammengestellt und
-so strukturiert und weiter ausgestaltet werden.
+Das Medien Center ist die zentrale Sammelstelle für alle individuell gesammelten Artefakte (Medien) einer Person. Artefakte können unterschiedliche Medien und Dokumente oder auch OpenOlat spezifische Dinge sein. Die einzelnen Artefakte können in Portfolio [Mappen](../area_modules/My_portfolio_binders.de.md) zusammengestellt und so strukturiert und weiter ausgestaltet werden.
 
-Dabei können die Elemente auf unterschiedliche Art und Weise in die Mediathek
-gelangen.
-
-
-!!! warning "Achtung"
-
-    Nur in der Mediathek können Dateien _bearbeitet_ werden.
+Dabei können die Elemente auf unterschiedliche Art und Weise in die Mediathek gelangen.
 
 ## Artefakte direkt in der Mediathek hochladen bzw. hinzufügen
 
@@ -64,7 +54,7 @@ auf das blaue Puzzleteil. Anschliessend geben Sie einen Titel ein und können
 eine Beschreibung und eine Kategorie hinzufügen. Sie klicken auf "Speichern"
 und schon befindet sich auch der Forumsbeitrag in der Mediathek.
 
-![forumseintrag.png](assets/pf_forumseintrag_DE.png)
+![forumseintrag.png](assets/artefact_DE.png)
 
 Bei Forenbeiträgen, Blogeinträgen und Wiki Seiten ist es wichtig, dass man
 selbst der Ersteller eines Eintrages bzw. einer Wikiseite ist. Nur eine
@@ -74,6 +64,4 @@ Bearbeitung des Beitrags reicht nicht aus.
 
 Wenn Sie einen Eintrag in einer Portfolio Mappe erstellen, können Sie dort
 auch im Bereich "Inhalt hinzufügen" Dateien hochladen. Mehr dazu finden Sie
-unter [Einträge](Meine+Portfolio+Mappen.html#MeinePortfolioMappen-
-portfolioinhalt).
-
+unter [Einträge](My_portfolio_binders.de.md).

@@ -319,7 +319,7 @@ plugins:
           LTI Page : LTI-Seite
           Managing Topics of Topic Assignments : Themen einer Themenvergabe verwalten
           Math formula : Mathematische Formel
-          Media center : Mediathek
+          Media Center : Medien Center
           Mediasite : Mediasite
           Members : Teilnehmer:innen
           Members management : Mitgliederverwaltung
@@ -347,6 +347,7 @@ plugins:
           Orders management : Auftragsverwaltung
           Organize a topic assignment : Themenvergabe organisieren
           Overview : Übersicht
+          P age: Seite
           Participant Administration : Teilnehmeradministration
           Participant Folder : Teilnehmer Ordner
           Participant list : Teilnehmerliste
