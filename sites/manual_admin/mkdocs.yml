@@ -27,6 +27,7 @@ nav:
       - Lektionen: "administration/Lecture_and_roll_call_management.md"
       - Modules Organisations: "administration/Modules_Organisations.md"
       - Modules Curriculum: "administration/Modules_Curriculum.md"
+      - Modules Projects: "administration/projekte_mitglieder.md"
       - Instant Messaging: "administration/Instant_Messaging.md"
     - Life cycles:
       - Overview : "administration/Life_cycles_-_Administration.md"
@@ -40,6 +41,7 @@ nav:
       - eAssessment ePortfolio: "administration/eAssessment_ePortfolio.md"
       - eAssessment Question bank: "administration/eAssessment_Question_bank.md"
       - eAssessment Einstufung/Noten: "administration/Assessment_translate_points_in_grades_admin.md"
+      - eAssessment OpenBadges: "administration/e-Assessment_openBadges.md"
     - External tools :
       - Overview : "administration/External_Tools_-_Administration.md"
       - BigBlueButton module: "administration/BigBlueButton_module.md"
