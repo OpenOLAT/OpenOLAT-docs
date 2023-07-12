@@ -1,5 +1,7 @@
 # Projekte
 
+:octicons-tag-24: Release 18.0
+
 Projekte werden eingeschaltet und erstellt.
 
 ## Berechtigungen

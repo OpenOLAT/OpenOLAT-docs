@@ -158,6 +158,7 @@ plugins:
           Classes : Klassen
           Coach : Betreuer
           Coaching : Coaching
+          Cockpit : Cockpit
           Communication and Collaboration : Kommunikation und Kollaboration
           Competences tags : Kompetenzen verschlagworten
           Components : Bestandteile
@@ -222,6 +223,7 @@ plugins:
           Creating Wikis : Wiki erstellen
           Curriculum Management : Curriculumverwaltung
           Customizing : Customizing
+          Dashboard : Dashboard
           Data archiving : Datenarchivierung
           Data Management : Handhabung der Daten
           Data protection : Datenschutz
@@ -245,6 +247,7 @@ plugins:
           External Page : Externe Seite
           External platforms : Externe Platformen
           External tools : Externe Werkzeuge
+          Files: Dateien
           File dialog: Dateidiskussion
           Files and Folders : Dateien und Ordner
           Finding courses : Kurse finden
@@ -374,7 +377,7 @@ plugins:
           Portfolio 2.0 Template : Portfolio 2.0 Vorlage
           Practice: Übung
           Process of an assessment portfolio : Prozess eines Bewertungsportfolios
-          Project members : Projektmitarbeiter
+          Project member management : Projektmitgliederverwaltung 
           Project report : Projektreport
           Projects : Projekte
           Question Bank : Fragenpool
@@ -395,7 +398,7 @@ plugins:
           Roles and Rights : Rollen und Rechte
           Role user to user : Personenbeziehungen
           Rubric : Rubrik
-          Schedule : Termine 
+          Schedule : Terminplan 
           SCORM Learning Content : SCORM-Lerninhalt
           Search : Suchfunktion
           Security : Sicherheit
@@ -435,6 +438,7 @@ plugins:
           Three Steps to your Form : Drei Schritte zu Ihrem Formular
           Three steps to your portfolio binder : Drei Schritte zu Ihrer Mappe
           Three Steps to Your Task : Drei Schritte zu Ihrer Aufgabe
+          Timeline : Timeline
           To-dos : To-dos
           Topic assigment : Themenvergabe
           Topic assigment - Working with Topic Assignment : Themenvergabe - Arbeiten mit der Themenvergabe

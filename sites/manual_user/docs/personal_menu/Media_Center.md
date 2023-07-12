@@ -8,12 +8,6 @@ structured and further developed.
 
 In doing so, the items can enter the media library in different ways.
 
-!!! warning "Attention"
-
-    Files can be edited in the media center only.
-
-  
-
 ## Upload file directly in the media center
 
 ### Add document

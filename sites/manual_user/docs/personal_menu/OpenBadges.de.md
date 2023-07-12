@@ -1,6 +1,6 @@
 # Badges
 
-Die Badges/Badges in Ihrem persönlichen Menü sind der Ort, an dem Sie alle Ihre erworbenen Badges aufbewahren, unabhängig davon, ob sie durch einen Kurs oder von einer Person oder Institution verliehen wurden.
+Die Badges in Ihrem persönlichen Menü sind der Ort, an dem Sie alle Ihre erworbenen Badges aufbewahren, unabhängig davon, ob sie durch einen Kurs oder von einer Person oder Institution verliehen wurden.
 
 ![Persönliches Werkzeug für Badges](assets/badges-personal-tool.de.jpg)
 

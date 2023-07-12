@@ -2,6 +2,8 @@
 
 # Projekte - Überblick
 
+:octicons-tag-24: Release 18.0
+
 ## Wo finde ich Projekte in OpenOlat?
 
 Die OpenOlat-User finden die Projekte **im Menü der Kopfzeile**. Sollten sie dort nicht dort angezeigt sein, muss das Modul erst noch von einer Administratorin / einem Administrator aktiviert werden.

@@ -1,4 +1,4 @@
-# Projektmitglieder
+# Projekte - Mitgliederverwaltung
 
 Die Projektmitglieder werden in der Regel durch die Projektleiterin / den Projektleiter zu Projektmitgliedern gemacht. (In der Regel liegt die Projektleitung bei der Person, die das neue Projekt anlegt.)
 

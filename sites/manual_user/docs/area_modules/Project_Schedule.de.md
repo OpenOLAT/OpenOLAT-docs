@@ -1,6 +1,6 @@
 ![bereiche_projekte_v1_de.png](assets/bereiche_projekte_v1_de.png){ class="shadow lightbox" }
 
-# Projekte - Termine
+# Projekte - Terminplan
 
 Integration in persönlichen Kalender 
 Color-Picker (Accessibility) 
