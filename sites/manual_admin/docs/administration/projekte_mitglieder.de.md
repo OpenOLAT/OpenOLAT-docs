@@ -1,4 +1,12 @@
-# Projektmitglieder
+# Projekte
+
+Projekte werden eingeschaltet und erstellt.
+
+## Berechtigungen
+
+Man stellt ihr ein, ob bestimmte Benutzerrollen Projekte & Vorlagen erstellen können. Entweder alle (auch Member) oder rollenspezifisch.
+
+## Projektmitglieder
 
 Die Projektmitglieder werden in der Regel durch die Projektleiterin / den Projektleiter zu Projektmitgliedern gemacht. (In der Regel liegt die Projektleitung bei der Person, die das neue Projekt anlegt.)
 
