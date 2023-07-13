@@ -16,7 +16,7 @@ options are available.
   * Notes: Here you can enter course-specific notes that only you as a course participant can read.
   * Evidence of achievement displays your assessments in the course in table form and, if activated, gives access to the certificate of the course
   * Bookmark: Bookmarked courses can be found in the Courses section in the "Favourites" tab.
-  * [Groups](Groups.html): Here you can see all course-specific groups in which you are a member.
+  * Groups: Here you can see all course-specific groups in which you are a member.
   * Leave course: With "Leave course" you can sign out of the course.
 
 The "Leave course" function immediately ends either your course or group

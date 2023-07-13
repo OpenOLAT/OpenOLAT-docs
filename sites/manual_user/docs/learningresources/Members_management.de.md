@@ -59,7 +59,7 @@ anzuschauen.
 Häufig ist es sogar sinnvoll, sich als Kurs-Besitzer zusätzlich noch als Kurs-Teilnehmer einzutragen, um sich den Kurs aus der entsprechenden Perspektive
 anzusehen.
 
-Besitzt der User noch darüberhinausgehende bestimmte [System-Rollen](../general/Roles_and_Rights.de.md),  wie Lernressoucrenverwalter oder
+Besitzt der User noch darüberhinausgehende bestimmte [System-Rollen](../basic_concepts/Roles_Rights.de.md),  wie Lernressoucrenverwalter oder
 Administrator, werden diese ebenfalls als Auswahlelement für die entsprechende
 Perspektive angezeigt.
   

@@ -8,16 +8,7 @@ verschachtelt werden. Jedoch sollte der Aufbau eines Online-Kurses immer
 sinnvoll und didaktisch durchdacht erfolgen und die Usability für den
 Lernenden im Blick behalten.
 
-Um einen Kursbaustein dem Kurs hinzuzufügen wählen Sie im Kurseditor
-"Kursbaustein einfügen" und klicken auf den gewünschten
-[Kursbaustein](Kursbausteine.html). Der gewählte Kursbaustein wird in der
-linken Navigation hinzugefügt. Dabei wird der ausgewählte Baustein
-grundsätzlich unterhalb des im Vorfeld ausgewählten bzw. angeklickten
-Bausteins hinzugefügt. Ist das oberste Element des Kurses ausgewählt, wird der
-neue Kursbaustein automatisch am Ende des Kurses eingefügt. Sie können
-Kursbausteine jederzeit mit „Drag&Drop“ an den gewünschten Ort verschieben.
-
-  
+Um einen Kursbaustein dem Kurs hinzuzufügen wählen Sie im Kurseditor "Kursbaustein einfügen" und klicken auf den gewünschten [Kursbaustein](Course_Elements.de.md). Der gewählte Kursbaustein wird in der linken Navigation hinzugefügt. Dabei wird der ausgewählte Baustein grundsätzlich unterhalb des im Vorfeld ausgewählten bzw. angeklickten Bausteins hinzugefügt. Ist das oberste Element des Kurses ausgewählt, wird der neue Kursbaustein automatisch am Ende des Kurses eingefügt. Sie können Kursbausteine jederzeit mit „Drag&Drop“ an den gewünschten Ort verschieben.
 
 Platzieren Sie den Cursor vor dem Hinzufügen des Bausteins bereits an die
 gewünschte Stelle, dann brauchen Sie den neuen Baustein nicht noch einmal zu

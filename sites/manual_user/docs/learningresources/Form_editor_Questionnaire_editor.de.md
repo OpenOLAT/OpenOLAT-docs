@@ -2,7 +2,7 @@
 
 !!! info "Hinweis"
 
-    Mit der OpenOlat Version 17.1 wurde der Formular Editor umfangreich geändert. Ausführungen zum aktuellen Formular Editor finden Sie [hier](Form_editor_QUestionnair_editor.de.md). 
+    Mit der OpenOlat Version 17.1 wurde der Formular Editor umfangreich geändert. Ausführungen zum aktuellen Formular Editor finden Sie [hier](Form_editor_Questionnaire_editor.de.md). 
 
     Die folgenden Ausführungen beziehen sich auf den bisherigen Formular Editor.
 

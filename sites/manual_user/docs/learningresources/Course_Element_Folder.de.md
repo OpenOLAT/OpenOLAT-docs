@@ -95,12 +95,4 @@ Zugangseinstellungen des Kurses abhängig.
 
 ### Dateien bearbeiten
 
-Je nach Dateityp und Aktivierung in der OpenOlat 
-[Administration ](../../../manual_admin/administration/External_Tools_-_Administration.de.md)ist es möglich
-Dateien, die sich im Kursbaustein "Ordner" befinden, zu bearbeiten. Sofern
-eine Bearbeitung möglich ist, erscheint in der Tabelle das Bearbeitungsicon
-![editing icon](assets/test.png){ class=size16 } . Bei
-Klick auf das Icon öffnet sich der jeweilige Bearbeitungseditor, z.B. Only
-Office. Durch die Verwendung dieser externen, kooperativen
-Bearbeitungswerkzeuge, kann der Kursbaustein "Ordner" auch für das
-kollaborative Arbeiten der Lernenden verwendet werden.
+Je nach Dateityp und Aktivierung in der OpenOlat [Administration ](../../manual_admin/administration/External_Tools_-_Administration.de.md) ist es möglich Dateien, die sich im Kursbaustein "Ordner" befinden, zu bearbeiten. Sofern eine Bearbeitung möglich ist, erscheint in der Tabelle das Bearbeitungsicon ![editing icon](assets/test.png){ class=size16 } . Bei Klick auf das Icon öffnet sich der jeweilige Bearbeitungseditor, z.B. Only Office. Durch die Verwendung dieser externen, kooperativen Bearbeitungswerkzeuge, kann der Kursbaustein "Ordner" auch für das kollaborative Arbeiten der Lernenden verwendet werden.

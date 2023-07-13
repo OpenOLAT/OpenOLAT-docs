@@ -60,4 +60,4 @@ wird folgendermassen gelesen (Datenbankoperation: update / modify):
 
 `Füge Benutzer [Benutzername] zu [Gruppe] hinzu`
 
-Grafikbasierte Auswertungsmöglichkeiten der Logfiles werden unter dem Punkt [„Statistiken"](../display/OO161DE/Einsatz+der+Kurswerkzeuge.html#EinsatzderKurswerkzeuge-_statistiken) erklärt.
+Grafikbasierte Auswertungsmöglichkeiten der Logfiles werden unter dem Punkt [„Statistiken"](Using_Course_Tools.de.md#kurs-statistiken--statistics) erklärt.

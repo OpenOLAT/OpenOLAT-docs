@@ -6,7 +6,7 @@ Mit der Massenbewertung können Sie im [Bewertungswerkzeug
 ](../../manual_user/learningresources/Assessment_tool_overview.de.md)mehrere Kursteilnehmende zu
 einem von Ihnen gewünschten Zeitpunkt auf einmal bewerten. 
 
-Massenbewertungen können für die [bewertbaren Kursbausteine](../../manual_user/course_elements/Assessment.de.md)
+Massenbewertungen können für die [bewertbaren Kursbausteine](../../manual_user/learningresources/Course_Elements.de.md)
 
 * Kursbaustein "Aufgabe",
 * Kursbaustein "Gruppenaufgabe" und

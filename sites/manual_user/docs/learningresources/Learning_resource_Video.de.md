@@ -1,18 +1,13 @@
 # Lernressource: Video
 ![icon_video.png](assets/video_64_0_434343_none.png)
 
-Eine zum Import [vorbereitete Videodatei](Video_Upload.de.md) muss im .mp4
-Format vorliegen, damit sie in OpenOlat als Video-Lernressource erkannt werden
-kann.
+Eine zum Import [vorbereitete Videodatei](Video_Upload.de.md) muss im .mp4 Format vorliegen, damit sie in OpenOlat als Video-Lernressource erkannt werden kann.
 
-Eine Video-Lernressource wird im Autorenbereich über die Funktion
-"[Importieren](../area_modules/Actions_in_the_Authoring_section.de.md)"
-oder "Importieren URL" erstellt. Dazu im Upload-Fenster die gewünschte Video-Datei auswählen, einen Titel vergeben und auf "Importieren" klicken. 
+Eine Video-Lernressource wird im Autorenbereich über die Funktion "[Importieren](../area_modules/authoring_new_course.de.md#lernressourcen-importieren)" oder "Importieren URL" erstellt. Dazu im Upload-Fenster die gewünschte Video-Datei auswählen, einen Titel vergeben und auf "Importieren" klicken. 
 
 ![lernressource_video.png](assets/Video_Einstellungen.png)  
 
-Es öffnet sich im nächsten Schritt die
-Eingabeseite der "Einstellungen". Wird im Tab  "Info" der Lernressource Video eine Beschreibung eingegeben, kann diese beim Einbetten in den Kurs auch als Beschreibung im Kurs angezeigt werden.
+Es öffnet sich im nächsten Schritt die Eingabeseite der "Einstellungen". Wird im Tab  "Info" der Lernressource Video eine Beschreibung eingegeben, kann diese beim Einbetten in den Kurs auch als Beschreibung im Kurs angezeigt werden.
 
 !!! note "Info"
 

@@ -639,12 +639,7 @@ the manual.
 
 ![assessment icon](assets/Wissensueberpruefung_172_en.png)
 
-OpenOlat provides various course elements for knowledge testing. The central
-course elements for this are the three course elements for OpenOlat
-[tests](../learningresources/Configure_tests.md) and the two course elements for [submission tasks](../task/index.md). But also the other elements such as [portfolio task](../learningresources/Creating_Portfolio_Tasks.md),
-[assessments](Course_Element_Assessment.md) with and without
-evaluation grid (rubric) or the checklists offer a lot of potential for
-certain scenarios.
+OpenOlat provides various course elements for knowledge testing. The central course elements for this are the three course elements for OpenOlat [tests](../learningresources/Configure_tests.md) and the two course elements for [submission tasks](Course_Element_Task.md). But also the other elements such as [portfolio task](../learningresources/Creating_Portfolio_Tasks.md), [assessments](Course_Element_Assessment.md) with and without evaluation grid (rubric) or the checklists offer a lot of potential for certain scenarios.
 
 Most course elements in the assessment category can also be given points if
 required and then will be given the "Highscore" configuration tab. With the
@@ -744,23 +739,21 @@ passed/failed and individual comments. In the fields "Note for all users" and
 all course participants and coaches.
 
 Further information on how learners can pick up and use a portfolio task can
-be found in the chapter "[Portfolio task and assignment: Collecting and editing](../learningresources/Portfolio_task_and_assignment_Collecting_and_editing.md)".
-How teachers can evaluate a portfolio task can be found in the chapter
-"[Portfolio assignment: Grading](../learningresources/Portfolio_assignment_Grading.md)".
+be found in the chapter "[Portfolio task and assignment: Collecting and editing](Portfolio_task_and_assignment_Collecting_and_editing.md)".
+How teachers can evaluate a portfolio task can be found in the chapter "[Portfolio assignment: Grading](Portfolio_assignment_Grading.md)".
 
 How the portfolio component looks like from the students' point of view and
 how it can be solved can be found in the chapter "Learning activities in the
-course" under the item ["Portfolio task"](../learningresources/Portfolio_assignment_Grading.md).
+course" under the item ["Portfolio task"](Portfolio_assignment_Grading.md).
 
 General information on the subject of portfolios and e-portfolios can be found
-[here](../area_modules/index.md).
+[here](../area_modules/Portfolio.md).
 
 ### Course Element: Group Task {: #course_element_group_tasks}
 
 ![Task Icon](assets/task.png)
 
-The course element Group task functions largely like the course element
-[Task](../task/index.md). 
+The course element Group task functions largely like the course element [Task](Course_Element_Task.md). 
 
 Points and feedbacks are created for the whole group in this course element, but can be customized.
 
@@ -795,9 +788,9 @@ respectively. In case you have already selected a test the name of this
 learning resource will be displayed after _Selected file_. Click on the name
 to open a preview of the test. Click on "Replace file" if you would like to
 exchange the learning resource with another one. Further information can be
-found in the chapter "[Creating Tests](../learningresources/Configure_tests.md)".
+found in the chapter "[Creating Tests](Configure_tests.md)".
 
-The two main tabs for test configuration are "[Test configuration](../learningresources/Tests_at_course_level.md)" and " **Options** ".
+The two main tabs for test configuration are "[Test configuration](Tests_at_course_level.md)" and " **Options** ".
 
 The settings under "Options" are initially being copied from the options of
 the learning resource. However, the options can be adjusted if needed. To do
@@ -845,8 +838,8 @@ resources of the type "Test." If you have not generated a test before please
 follow the instructions in the chapter ["Four Steps to Your Test or Self-
 test"](../tests/Four_Steps_to_Your_Test_or_Self-test.md).
 
-For more information on tests, refer to the chapter "[Creating Tests](../learningresources/Configure_tests.md)". 
-The chapter "[Tests at course level](../learningresources/Tests_at_course_level.md)" is particularly relevant here.
+For more information on tests, refer to the chapter "[Creating Tests](Configure_tests.md)". 
+The chapter "[Tests at course level](Tests_at_course_level.md)" is particularly relevant here.
 
 Eine komplexere Alternative zum Selbsttest stellt der Kursbaustein Übung dar. 
 
@@ -1057,7 +1050,7 @@ Im Prinzip verbergen sich hinter diesem Kursbaustein zwei (Kursbaustein) Ordner 
 
 !!! info
 
-    A similar configuration of file delivery + file return by coaches can also be     implemented with the [course element "Task",](../task/index.md) only that the possibilities of the task element are much more comprehensive and complex and here also an evaluation or allocation of points can be made.
+    A similar configuration of file delivery + file return by coaches can also be implemented with the course element ["Task"](Course_Element_task.md), only that the possibilities of the task element are much more comprehensive and complex and here also an evaluation or allocation of points can be made.
 The course element "Participant folder" allows you to exchange files between participants and coaches. With the creation of the course element there are two folders available. On one side this is the drop box where participants can upload files for the coaches. On the other side it is the return box where coaches can upload files for all participants together or individually.
 
 #### Folder settings
@@ -1266,9 +1259,7 @@ addresses in your e-mail form.
 
 ![calendar.png](assets/calendar.png)
 
-By means of the course element "Calendar" you can embed a course calendar in
-the course structure. It is also possible to add several instances of the same
-calendar to the course.
+By means of the course element "Calendar" you can embed a [course calendar](Using_Additional_Course_Features.md#course-calendar) in the course structure. It is also possible to add several instances of the same calendar to the course.
 
 This course element offers an alternative view on the course calendar to be
 found in the course toolbar (see "[Using additional course
@@ -1877,11 +1868,6 @@ Refer to the chapter ["Creating Tests"](../learningresources/Test.md) for more i
 
 ### Evidence of Achievement & Certificate
 
-An evidence of achievement is a confirmation of an existing efficiency control and shows e.g. taken tests or assessed tasks per course. An evidence of achievement must be activated for each single course, and are accessible once there are a) assessable course elements and b) one of those course elements has been completed and assessed. Users can access their personal evidences of achievements in the personal menu and the course, while coaches and authors can review those of coached users in the [Coaching](Coaching.de.md) tool. Printable certificates can be issued with the course setting ["Evidence of achievements"](../learningresources/Course_Settings.md).
+An evidence of achievement is a confirmation of an existing efficiency control and shows e.g. taken tests or assessed tasks per course. An evidence of achievement must be activated for each single course, and are accessible once there are a) assessable course elements and b) one of those course elements has been completed and assessed. Users can access their personal evidences of achievements in the personal menu and the course, while coaches and authors can review those of coached users in the [Coaching](../area_modules/Coaching.md) tool. Printable certificates can be issued with the course setting ["Evidence of achievements"](Course_Settings.md).
 
-All your evidences of achievement and certificates will be listed in your ["Evidence of achievements"](../learningresources/Course_Settings.md). It always opens in a new window and is printable.
-
-  
-
- 
-
+All your evidences of achievement and certificates will be listed in your ["Evidence of achievements"](Course_Settings.md). It always opens in a new window and is printable.

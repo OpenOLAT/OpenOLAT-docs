@@ -9,7 +9,7 @@ the manual.
 
 OpenOlat provides various course elements for knowledge testing. The central
 course elements for this are the three course elements for OpenOlat
-[tests](../learningresources/Configure_tests.md) and the two course elements for [submission tasks](../task/index.md). But also the other elements such as [portfolio task](../learningresources/Creating_Portfolio_Tasks.md),
+[tests](../learningresources/Configure_tests.md) and the two course elements for [submission tasks](Course_Element_Task.md). But also the other elements such as [portfolio task](../learningresources/Creating_Portfolio_Tasks.md),
 [assessments](Course_Element_Assessment.md) with and without
 evaluation grid (rubric) or the checklists offer a lot of potential for
 certain scenarios.
@@ -127,8 +127,7 @@ General information on the subject of portfolios and e-portfolios can be found
 
 ![Task Icon](assets/task.png)
 
-The course element Group task functions largely like the course element
-[Task](../task/index.md). 
+The course element Group task functions largely like the course element[Task](Course_Element_Task.md). 
 
 Points and feedbacks are created for the whole group in this course element, but can be customized.
 

@@ -92,11 +92,7 @@ Weitere Infos zum CP finden Sie [hier](../resource_cp/index.de.md).
 
 ![icon scorm learning content](assets/scorm.png)
 
-Über den Kursbaustein "SCORM Lerninhalt" können extern erstellte SCORM-Pakete
-in OpenOlat Kurse eingebunden werden. SCORM ist ein Standard mit dem Inhalte
-aber auch interaktive E-Learning Module gekapselt und in unterschiedlichen
-Systemen eingebunden werden können. Weitere Informationen zur Konfiguration
-des Kursbausteins SCORM finden Sie im Kapitel "Kursbaustein "[SCORM-Lerninhalt"](../course_elements/Course_Element_SCORM_Learning_Content.de.md).
+Über den Kursbaustein "SCORM Lerninhalt" können extern erstellte SCORM-Pakete in OpenOlat Kurse eingebunden werden. SCORM ist ein Standard mit dem Inhalte aber auch interaktive E-Learning Module gekapselt und in unterschiedlichen Systemen eingebunden werden können. Weitere Informationen zur Konfiguration des Kursbausteins SCORM finden Sie im Kapitel "Kursbaustein "[SCORM-Lerninhalt"](Course_Element_SCORM_Learning_Content.de.md).
 
 ## Kursbaustein "Dokument" {: #document}
 ![icon document](assets/document_icon.jpg)

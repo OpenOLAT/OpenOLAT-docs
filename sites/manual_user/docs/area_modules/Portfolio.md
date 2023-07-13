@@ -19,7 +19,7 @@ it supports the authors in creating the portfolio template, on the other hand
 it helps the users in solving portfolio assignments and [creating own
 portfolios](Three_steps_to_your_portfolio_binder.md).
 
-  * [Portfolio - General Information](Portfolio_-_General_Information.md)
+  * [Portfolio - General Information](Portfolio_General_Information.md)
   * [Components of the portfolio](Components_of_the_portfolio.md)
   * [Three steps to your portfolio binder](Three_steps_to_your_portfolio_binder.md)
   * [Multiple use of entries](Multiple_use_of_entries.md)

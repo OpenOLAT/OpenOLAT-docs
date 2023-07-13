@@ -92,7 +92,7 @@ Der Kursbaustein "Teilnehmer Ordner" ermöglicht einen Dateiaustausch zwischen e
 !!! info "Hinweis"
 
     Eine ähnliche Konfiguration der Abgabe von Dateien + Dateirückgabe durch
-    Betreuer kann auch mit dem [Kursbaustein "Aufgabe"](../task/index.de.md)
+    Betreuer kann auch mit dem [Kursbaustein "Aufgabe"](Course_Element_Task.de.md)
     umgesetzt werden, nur dass die Möglichkeiten des Aufgabenbausteins deutlich
     umfangreicher und komplexer sind und hier auch eine Bewertung bzw. Punktevergabe
     vorgenommen werden kann.
@@ -122,7 +122,7 @@ oder nur der Rückgabeordner aktiviert werden.
 
     Für den Teilnehmer Ordner existiert wie für alle Upload Bereiche eine Speicherbegrenzung. Die vom Administrator eingestellte Begrenzungen für den Upload der Datei und die Begrenzung des gesamten Ordners wird angezeigt, wenn man versucht eine Datei hochzuladen.
 
-Eine ähnliche Konfiguration der Abgabe von Dateien und Dateirückgabe durch Betreuer kann auch mit dem Kursbaustein["Aufgabe"](../task/index.de.md) umgesetzt werden, nur dass die Möglichkeiten des Aufgabenbausteins deutlich umfassender und komplexer sind und hier auch eine Bewertung bzw. Punktevergabe vorgenommen werden kann.
+Eine ähnliche Konfiguration der Abgabe von Dateien und Dateirückgabe durch Betreuer kann auch mit dem Kursbaustein["Aufgabe"](Course_Element_Task.de.md) umgesetzt werden, nur dass die Möglichkeiten des Aufgabenbausteins deutlich umfassender und komplexer sind und hier auch eine Bewertung bzw. Punktevergabe vorgenommen werden kann.
 ### Tab Template Einstellungen
 
 Im Tab "Template Einstellungen" können sowohl für den Abgabe- als auch den Rückgabeordner Unterordner angelegt und so eine durchgehende Ordner-Struktur für alle Teilnehmenden angelegt werden. Zum Beispiel könnte ein Rückgabeordner einen Unterordner für inhaltliche Feedbacks und einen für ergänzende Dateien umfassen, oder ein Abgabeordner könnte eine gewisse gewünschte Struktur für die Abgaben widerspiegeln. 

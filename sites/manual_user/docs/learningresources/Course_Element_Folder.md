@@ -87,13 +87,4 @@ can also access the file depends on the access settings of the course.
 
 ### Edit Files
 
-Depending on the file type and activation in OpenOlat
-[Administration](../../manual_admin/administration/External_Tools_-_Administration.md), it is possible to edit
-files located in the course element "Folder". If editing is possible, the
-editing icon ![editing icon](assets/test.png){ class=size16 } appears
-in the table. Clicking on the icon opens the respective editing editor, e.g.
-Only Office. By using these external, cooperative editing tools, the course
-element "Folder" can also be used for the collaborative work of learners.
-
-  
-
+Depending on the file type and activation in OpenOlat [Administration](../../manual_admin/administration/External_Tools_-_Administration.md), it is possible to edit files located in the course element "Folder". If editing is possible, the editing icon ![editing icon](assets/test.png){ class=size16 } appears in the table. Clicking on the icon opens the respective editing editor, e.g. Only Office. By using these external, cooperative editing tools, the course element "Folder" can also be used for the collaborative work of learners.

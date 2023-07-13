@@ -7,15 +7,7 @@ existieren vertiefende, separate Seiten oder Kapitel hier im Handbuch.
 
 ![Wissensüberpfüfung Kursbausteine.png](assets/Wissensueberpruefung_172.png)
 
-OpenOlat stellt diverse Kursbausteine für die Wissensüberprüfung zur
-Verfügung. Die zentralen Kursbausteine hierfür sind die drei Kursbausteine die OpenOlat [Tests](../learningresources/Configure_tests.de.md) verwenden und die beiden
-Kursbausteine für
-[Einsendeaufgaben](../task/index.de.md). Aber auch die
-anderen Bausteine wie
-[Portfolioaufgabe](../learningresources/Creating_Portfolio_Tasks.de.md),
-[Bewertungen](Course_Element_Assessment.de.md) mit und ohne
-Bewertungsraster (Rubrik) oder die Checklisten bieten für bestimmte Szenarien
-viel Potenzial.
+OpenOlat stellt diverse Kursbausteine für die Wissensüberprüfung zur Verfügung. Die zentralen Kursbausteine hierfür sind die drei Kursbausteine die OpenOlat [Tests](../learningresources/Configure_tests.de.md) verwenden und die beiden Kursbausteine für [Einsendeaufgaben](Course_Element_Task.de.md). Aber auch die anderen Bausteine wie [Portfolioaufgabe](../learningresources/Creating_Portfolio_Tasks.de.md), [Bewertungen](Course_Element_Assessment.de.md) mit und ohne Bewertungsraster (Rubrik) oder die Checklisten bieten für bestimmte Szenarien viel Potenzial.
 
 Die meisten Kursbausteine der Kategorie Wissensüberprüfung können bei Bedarf
 auch mit Punkten versehen werden und erhalten dann den Konfigurations-Tab
@@ -68,7 +60,7 @@ Die zentrale Konfiguration des Kursbausteins erfolgt im Tab
 
 !!! info "Info"
 
-    Eine Schritt-für-Schritt-Anleitung zum Erstellen einer Aufgabe und die detaillierten [Konfigurationsmöglichkeiten](../learningresources/Task_Further_Configurations.de.md) finden Sie im Kapitel [„Aufgabe erstellen"](../task/index.md).
+    Eine Schritt-für-Schritt-Anleitung zum Erstellen einer Aufgabe und die detaillierten [Konfigurationsmöglichkeiten](../learningresources/Task_Further_Configurations.de.md) finden Sie im Kapitel ["Aufgabe erstellen"](Course_Element_Task.md).
 
   
 
@@ -116,7 +108,7 @@ Generelle Infos zum Thema Portfolio bzw. E-Portfolio können Sie
 ![Aufgabe Icon](assets/task.png)
 
 Der Kursbaustein Gruppenaufgabe funktioniert größtenteils wie der Kursbaustein
-„[Aufgabe](../task/index.de.md)“.
+["Aufgabe"](Course_Element_Task.de.md).
 Punkte und Feedbacks werden in diesem Kursbaustein für die gesamte Gruppe erstellt, können aber individuell angepasst werden.
 
 Folgende Unterschiede zum Kursbaustein Aufgabe sind zu beachten:

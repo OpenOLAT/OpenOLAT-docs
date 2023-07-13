@@ -31,7 +31,7 @@ als Gruppenteilnehmer im Gruppenmenu links folgende Punkte:
 
 !!! info "Virtuelle Klassenräume"
 	Je nach Konfiguration durch den OpenOlat
-	[Administrator](../../../manual_admin/administration/External_Tools_-_Administration.de.md), stehen
+	[Administrator](../../manual_admin/administration/External_Tools_-_Administration.de.md), stehen
 	unterschiedliche virtuelle Klassenräume wie z.B. OpenMeetings, BigBlueButton,
 	Microsoft Teams als Gruppenwerkzeug zur Verfügung.
 

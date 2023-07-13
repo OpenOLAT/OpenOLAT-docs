@@ -13,19 +13,10 @@ course. Afterwards you can configure the course in the tab "Learning content".
 
 ## Tab Learning Content
 
-In the first step, select or import a SCORM content. Click "Import" to upload
-a new SCORM package, or select an existing SCORM package from your entries.
-SCORM packages can either be imported to the course editor or by means of the
-"Authoring;" for further information please go to the chapter "Actions in the
-'Authoring' section", section
-["Import"](../authoring/Actions_in_the_Authoring_section.md#import). If you have not selected a ZIP file as SCORM learning content
-yet the message _No SCORM learning content selected_ will appear in the title
-**Selected SCORM learning content**.
+In the first step, select or import a SCORM content. Click "Import" to upload a new SCORM package, or select an existing SCORM package from your entries. SCORM packages can either be imported to the course editor or by means of the "Authoring;" for further information please go to the chapter "Actions in the 'Authoring' section", section
+["Import"](../area_modules/authoring_new_course.md#import-learning-resources). If you have not selected a ZIP file as SCORM learning content yet the message _No SCORM learning content selected_ will appear in the title **Selected SCORM learning content**.
 
-If you have already added SCORM learning content, its name appears as a link.
-Follow this link to get to the preview. In order to change the assignment of
-your SCORM learning content you have to click on "Replace SCORM learning
-content" in the tab "Learning content" before selecting another SCORM package.
+If you have already added SCORM learning content, its name appears as a link. Follow this link to get to the preview. In order to change the assignment of your SCORM learning content you have to click on "Replace SCORM learning content" in the tab "Learning content" before selecting another SCORM package.
 
 In the section "Settings" you can determine how your learning content should
 be presented to course participants.

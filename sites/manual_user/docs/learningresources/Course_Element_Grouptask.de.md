@@ -2,7 +2,7 @@
 ![Aufgabe Icon](assets/task.png)
 
 Der Kursbaustein Gruppenaufgabe funktioniert größtenteils wie der Kursbaustein
-„[Aufgabe](../task/index.de.md)“.
+["Aufgabe"](Course_Element_Task.de.md).
 Punkte und Feedbacks werden in diesem Kursbaustein für die gesamte Gruppe erstellt, können aber individuell angepasst werden.
 
 Folgende Unterschiede zum Kursbaustein Aufgabe sind zu beachten:

@@ -34,7 +34,7 @@ Mandatory tasks have to be completed and will be collected after the set deadlin
 ## Creating Tasks
 
   * [Three Steps to Your Task](Three_Steps_to_Your_Task.md)
-  * [Task - Further Configurations](Task_-_Further_Configurations.md)
+  * [Task - Further Configurations](Task_Further_Configurations.md)
   * [Assess tasks](Assess_tasks.md)
 
 This chapter explains how course authors can create tasks for single course

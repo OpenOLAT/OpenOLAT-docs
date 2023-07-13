@@ -92,7 +92,7 @@ Repeat the procedure for all relevant courses.
 
 ![storage_folder_without_menu_v1_en.png](assets/storage_folder_without_menu_v1_en.png){ class="shadow lightbox" }
   
-3.2 The files of this folder can now be added in the course editor like all other files of the storage folder via course element "[Single Page](../../manual_user/course_elements/Knowledge_Transfer.md#single_page)".
+3.2 The files of this folder can now be added in the course editor like all other files of the storage folder via course element "[Single Page](../../manual_user/learningresources/Knowledge_Transfer.md#single_page)".
 
 !!! warning "Please note:"
 

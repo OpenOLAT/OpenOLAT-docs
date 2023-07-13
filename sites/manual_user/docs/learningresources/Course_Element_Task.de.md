@@ -21,12 +21,12 @@ Die zentrale Konfiguration des Kursbausteins erfolgt im Tab
 
 !!! info "Info"
 
-    Eine Schritt-für-Schritt-Anleitung zum Erstellen einer Aufgabe und die detaillierten [Konfigurationsmöglichkeiten](../learningresources/Task_Further_Configurations.de.md) finden Sie im Kapitel [„Aufgabe erstellen"](../task/index.md).
+    Eine Schritt-für-Schritt-Anleitung zum Erstellen einer Aufgabe und die detaillierten [Konfigurationsmöglichkeiten](../learningresources/Task_Further_Configurations.de.md) finden Sie im Kapitel [„Aufgabe erstellen"](Course_Element_Task.md).
 
 ## Aufgabe erstellen
 
   * [Drei Schritte zu Ihrer Aufgabe](Three_Steps_to_Your_Task.de.md)
-  * [Aufgabe - Weitere Konfigurationen](Task_-_Further_Configurations.de.md)
+  * [Aufgabe - Weitere Konfigurationen](Task_Further_Configurations.de.md)
   * [Aufgaben bewerten](Assess_tasks.de.md)
 
 Dieses Kapitel erklärt Kursautoren in einer Schritt-für-Schritt-Anleitung, wie

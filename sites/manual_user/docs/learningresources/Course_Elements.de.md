@@ -204,7 +204,7 @@ Wählen Sie den Link „Einschreiben“, um Mitglied einer Gruppe zu werden.
 Abhängig von der Konfiguration können Sie sich entweder nur in eine Gruppe
 einschreiben, oder in mehrere gleichzeitig. Die Einschreibung bewirkt, dass
 nun rechts im Dropdown-Menü "Mein Kurs" die Links zu den entsprechenden
-Kurs-[Gruppe](Gruppen.html)n in denen Sie Mitglied sind, sichtbar werden.
+Gruppen in denen Sie Mitglied sind, sichtbar werden.
 
 Bei einigen Gruppen ist die Anzahl Mitglieder limitiert. Ist die Gruppe voll,
 gibt eventuell eine Warteliste. Je nach Konfiguration. Wenn der
@@ -239,11 +239,7 @@ auch zwischenspeichern. Füllen Sie einfach die bereitgestellten Felder aus.
 
 ![](assets/calendar.png)
 
-Der Kursbaustein „Kalender“ bietet eine alternative Sicht auf den
-[Kurskalender](../../pages/viewpage.action%EF%B9%96pageId=108593252.html#Zus%C3%A4tzlicheKursfunktionen-
-_kurskalender), welcher, wenn aktiviert, oben in der Kurstoolbar aufgerufen
-werden kann. Das Startdatum z.B. die jeweilige Semesterwoche kann vom
-Lehrenden bei Bedarf vorgegeben werden.
+Der Kursbaustein „Kalender“ bietet eine alternative Sicht auf den [Kurskalender](Using_Additional_Course_Features.de.md#kurskalender), welcher, wenn aktiviert, oben in der Kurstoolbar aufgerufen werden kann. Das Startdatum z.B. die jeweilige Semesterwoche kann vom Lehrenden bei Bedarf vorgegeben werden.
 
 ### Ordner
 
@@ -515,7 +511,7 @@ Weitere Infos zum CP finden Sie [hier](../resource_cp/index.de.md).
 in OpenOlat Kurse eingebunden werden. SCORM ist ein Standard mit dem Inhalte
 aber auch interaktive E-Learning Module gekapselt und in unterschiedlichen
 Systemen eingebunden werden können. Weitere Informationen zur Konfiguration
-des Kursbausteins SCORM finden Sie im Kapitel "Kursbaustein "[SCORM-Lerninhalt"](../course_elements/Course_Element_SCORM_Learning_Content.de.md).
+des Kursbausteins SCORM finden Sie im Kapitel "Kursbaustein "[SCORM-Lerninhalt"](Course_Element_SCORM_Learning_Content.de.md).
 
 ### Kursbaustein "Dokument" {: #document}
 ![icon document](assets/document_icon.jpg)
@@ -676,21 +672,14 @@ existieren vertiefende, separate Seiten oder Kapitel hier im Handbuch.
 OpenOlat stellt diverse Kursbausteine für die Wissensüberprüfung zur
 Verfügung. Die zentralen Kursbausteine hierfür sind die drei Kursbausteine die OpenOlat [Tests](../learningresources/Configure_tests.de.md) verwenden und die beiden
 Kursbausteine für
-[Einsendeaufgaben](../task/index.de.md). Aber auch die
+[Einsendeaufgaben](Course_Element_Task.de.md). Aber auch die
 anderen Bausteine wie
 [Portfolioaufgabe](../learningresources/Creating_Portfolio_Tasks.de.md),
 [Bewertungen](Course_Element_Assessment.de.md) mit und ohne
 Bewertungsraster (Rubrik) oder die Checklisten bieten für bestimmte Szenarien
 viel Potenzial.
 
-Die meisten Kursbausteine der Kategorie Wissensüberprüfung können bei Bedarf
-auch mit Punkten versehen werden und erhalten dann den Konfigurations-Tab
-"Highscore". Mit der Vergabe von Punkten können weitere Features wie die
-Addition von Punkten oder das Bestehen/Nicht bestehen eines Kurses basierend
-auf den Bewertungen verschiedener Kursbausteine hinzugefügt werden. Verwendet
-wird hierfür ein Kursbaustein
-[Struktur](Course_Element_Structure.de.) bei herkömmlichen
-Kursen.
+Die meisten Kursbausteine der Kategorie Wissensüberprüfung können bei Bedarf auch mit Punkten versehen werden und erhalten dann den Konfigurations-Tab "Highscore". Mit der Vergabe von Punkten können weitere Features wie die Addition von Punkten oder das Bestehen/Nicht bestehen eines Kurses basierend auf den Bewertungen verschiedener Kursbausteine hinzugefügt werden. Verwendet wird hierfür ein Kursbaustein [Struktur](Course_Element_Structure.de.md) bei herkömmlichen Kursen.
 
 Ein weiterer Konfigurations-Tab der bei den meisten Kursbausteinen der Wissensüberprüfung zur Verfügung steht (bis auf Selbsttest und Umfrage) ist der Tab "Erinnerung". Hier können in Abhängigkeit von der Bearbeitung des jeweiligen Kursbausteins E-Mails verschickt werden. Zum Beispiel kann eine
 Mail verschickt werden, wenn zu einem bestimmten Datum eine Aufgabe oder ein Test noch nicht bearbeitet wurde. Die Möglichkeiten sind ähnlich wie im Menü ["Erinnerung"](../learningresources/Course_Reminders.de.md) in
@@ -734,7 +723,7 @@ Die zentrale Konfiguration des Kursbausteins erfolgt im Tab
 
 !!! info "Info"
 
-    Eine Schritt-für-Schritt-Anleitung zum Erstellen einer Aufgabe und die detaillierten [Konfigurationsmöglichkeiten](../learningresources/Task_Further_Configurations.de.md) finden Sie im Kapitel [„Aufgabe erstellen"](../task/index.md).
+    Eine Schritt-für-Schritt-Anleitung zum Erstellen einer Aufgabe und die detaillierten [Konfigurationsmöglichkeiten](../learningresources/Task_Further_Configurations.de.md) finden Sie im Kapitel ["Aufgabe erstellen"](Course_Element_Task.md).
 
   
 
@@ -782,7 +771,7 @@ Generelle Infos zum Thema Portfolio bzw. E-Portfolio können Sie
 ![Aufgabe Icon](assets/task.png)
 
 Der Kursbaustein Gruppenaufgabe funktioniert größtenteils wie der Kursbaustein
-„[Aufgabe](../task/index.de.md)“.
+„[Aufgabe](Course_Element_Task.de.md)“.
 Punkte und Feedbacks werden in diesem Kursbaustein für die gesamte Gruppe erstellt, können aber individuell angepasst werden.
 
 Folgende Unterschiede zum Kursbaustein Aufgabe sind zu beachten:
@@ -1080,11 +1069,7 @@ Der Kursbaustein "Teilnehmer Ordner" ermöglicht einen Dateiaustausch zwischen e
 
 !!! info "Hinweis"
 
-    Eine ähnliche Konfiguration der Abgabe von Dateien + Dateirückgabe durch
-    Betreuer kann auch mit dem [Kursbaustein "Aufgabe"](../task/index.de.md)
-    umgesetzt werden, nur dass die Möglichkeiten des Aufgabenbausteins deutlich
-    umfangreicher und komplexer sind und hier auch eine Bewertung bzw. Punktevergabe
-    vorgenommen werden kann.
+    Eine ähnliche Konfiguration der Abgabe von Dateien + Dateirückgabe durch Betreuer kann auch mit dem Kursbaustein ["Aufgabe"](Course_Element_Task.de.md) umgesetzt werden, nur dass die Möglichkeiten des Aufgabenbausteins deutlich umfangreicher und komplexer sind und hier auch eine Bewertung bzw. Punktevergabe vorgenommen werden kann.
 
 #### Tab "Ordner Einstellungen"
 In dem Tab "Ordner Einstellungen" im Kurseditor können Konfigurationen zum Abgabe- und Rückgabeordner vorgenommen werden. Standardmässig sind beide Ordner aktiviert und das Löschen und Überschreiben von Dateien ist den Teilnehmenden gestattet.
@@ -1111,7 +1096,8 @@ oder nur der Rückgabeordner aktiviert werden.
 
     Für den Teilnehmer Ordner existiert wie für alle Upload Bereiche eine Speicherbegrenzung. Die vom Administrator eingestellte Begrenzungen für den Upload der Datei und die Begrenzung des gesamten Ordners wird angezeigt, wenn man versucht eine Datei hochzuladen.
 
-Eine ähnliche Konfiguration der Abgabe von Dateien und Dateirückgabe durch Betreuer kann auch mit dem Kursbaustein["Aufgabe"](../task/index.de.md) umgesetzt werden, nur dass die Möglichkeiten des Aufgabenbausteins deutlich umfassender und komplexer sind und hier auch eine Bewertung bzw. Punktevergabe vorgenommen werden kann.
+Eine ähnliche Konfiguration der Abgabe von Dateien und Dateirückgabe durch Betreuer kann auch mit dem Kursbaustein ["Aufgabe"](Course_Element_Task.de.md) umgesetzt werden, nur dass die Möglichkeiten des Aufgabenbausteins deutlich umfassender und komplexer sind und hier auch eine Bewertung bzw. Punktevergabe vorgenommen werden kann.
+
 #### Tab Template Einstellungen
 
 Im Tab "Template Einstellungen" können sowohl für den Abgabe- als auch den Rückgabeordner Unterordner angelegt und so eine durchgehende Ordner-Struktur für alle Teilnehmenden angelegt werden. Zum Beispiel könnte ein Rückgabeordner einen Unterordner für inhaltliche Feedbacks und einen für ergänzende Dateien umfassen, oder ein Abgabeordner könnte eine gewisse gewünschte Struktur für die Abgaben widerspiegeln. 
@@ -1904,6 +1890,4 @@ Im Kapitel "[Tests erstellen](../learningresources/Test.de.md)" finden Sie weite
 
 ### Leistungsnachweis & Zertifikat
 
-Ein Leistungsnachweis ist eine Bestätigung einer erfolgten Leistungskontrolle und zeigt beispielsweise absolvierte Tests oder abgegebene und bewertete Aufgaben pro Kurs an. Leistungsnachweise müssen pro Kurs eingeschaltet werden und sind abrufbar, wenn es im betroffenen Kurs bewertbare Kursbausteine gibt und bereits ein solcher Kursbausteine absolviert und bewertet wurde. Leistungsnachweise sind für Benutzer im persönlichen Menü und im Kurs abrufbar, während Betreuer diese im
-[Coaching-Tool](Coaching.de.md) einsehen können. Druckbare Zertifikate können mittels der Kurseinstellung
-["Leistungsnachweis"](../learningresources/Course_Settings.de.md) ausgestellt werden.
+Ein Leistungsnachweis ist eine Bestätigung einer erfolgten Leistungskontrolle und zeigt beispielsweise absolvierte Tests oder abgegebene und bewertete Aufgaben pro Kurs an. Leistungsnachweise müssen pro Kurs eingeschaltet werden und sind abrufbar, wenn es im betroffenen Kurs bewertbare Kursbausteine gibt und bereits ein solcher Kursbausteine absolviert und bewertet wurde. Leistungsnachweise sind für Benutzer im persönlichen Menü und im Kurs abrufbar, während Betreuer diese im [Coaching-Tool](../area_modules/Coaching.de.md) einsehen können. Druckbare Zertifikate können mittels der Kurseinstellung ["Leistungsnachweis"](../learningresources/Course_Settings.de.md) ausgestellt werden.

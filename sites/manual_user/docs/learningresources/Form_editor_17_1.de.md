@@ -4,7 +4,7 @@ Wählen oder erstellen Sie eine Lernressource vom Typ „Formular“. Klicken Si
 
 Über den Button "Inhalt hinzufügen" können sie jederzeit verschiedene Elemente hinzufügen. Sobald Sie ein Element erstellt haben, können Sie auch über die 3-Punkte Option über den Link davor/danach hinzufügen weitere Elemente passgenau hinzufügen. 
 
-![Mehr Aktionen](assets/formular_mehr_Aktionen.png)){ class="lightbox" }
+![Mehr Aktionen](assets/formular_mehr_Aktionen.png){ class="lightbox" }
 
 Jedes Element kann auch dupliziert, per drag and drop verschoben oder gelöscht werden.
 
@@ -26,7 +26,7 @@ Ein Layout ist ein übergeordneter Block, der  unterschiedliche Strukturierungen
 
 Aktuell sind folgende Layoutvorlagen verfügbar:
 
-![layout-template](../portfolio/assets/layoutblock-template.jpg)
+![layout-template](assets/layoutblock-template.jpg)
 
 ### Inspektor
 

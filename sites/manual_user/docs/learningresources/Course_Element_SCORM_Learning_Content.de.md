@@ -15,15 +15,7 @@ Konfiguration vornehmen.
 
 ## Tab Lerninhalt
 
-Wählen oder importieren Sie im ersten Schritt einen SCORM Inhalt. Klicken Sie
-auf „Importieren“, um ein neues SCORM-Paket hochzuladen, oder wählen Sie ein
-bestehendes SCORM-Paket aus Ihren Einträgen aus. SCORM-Pakete können nicht nur
-im Kurseditor, sondern auch im „Autorenbereich“ importiert werden, was im
-Kapitel „Aktionen im Autorenbereich“ unter dem Punkt
-„[Importieren](../authoring/Actions_in_the_Authoring_section.de.md#import)"
-erklärt wird. Wenn Sie noch keine ZIP-Datei als SCORM-Lerninhalt ausgewählt
-haben, erscheint beim Titel **Gewählter SCORM-Lerninhalt** die Meldung _Kein
-SCORM-Lerninhalt ausgewählt_.
+Wählen oder importieren Sie im ersten Schritt einen SCORM Inhalt. Klicken Sie auf „Importieren“, um ein neues SCORM-Paket hochzuladen, oder wählen Sie ein bestehendes SCORM-Paket aus Ihren Einträgen aus. SCORM-Pakete können nicht nur im Kurseditor, sondern auch im „Autorenbereich“ importiert werden, was im Kapitel „Aktionen im Autorenbereich“ unter dem Punkt ["Importieren"](../area_modules/authoring_new_course.de.md#lernressourcen-importieren) erklärt wird. Wenn Sie noch keine ZIP-Datei als SCORM-Lerninhalt ausgewählt haben, erscheint beim Titel **Gewählter SCORM-Lerninhalt** die Meldung _Kein SCORM-Lerninhalt ausgewählt_.
 
 Wenn Sie schon einen SCORM-Lerninhalt hinzugefügt haben, erscheint dessen Name
 als Link. Folgen Sie dem Link um zur Vorschau zu gelangen. Um die Zuordnung

@@ -25,7 +25,7 @@ selbst eine Portfolio-Mappe erstellen und organisieren und wie Sie eine
 bestimmte Form des Portfolios, ein Assessment-Portfolio, mit Hilfe der
 Portfolio-Vorlage erstellen können.  
 
-  * [Allgemeines zum Portfolio](Portfolio_-_General_Information.de.md)
+  * [Allgemeines zum Portfolio](Portfolio_General_Information.de.md)
   * [Bestandteile des Portfolios](Components_of_the_portfolio.de.md)
   * [Drei Schritte zu Ihrer Mappe](Three_steps_to_your_portfolio_binder.de.md)
   * [Der Portfolio Editor](The_portfolio_editor.de.md)

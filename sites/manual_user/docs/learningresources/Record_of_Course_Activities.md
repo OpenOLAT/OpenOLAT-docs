@@ -56,4 +56,4 @@ would be read accordingly (database operation: update / modify):
 
 `Add user [username] to [group]`
 
-Options to analyze log files graphically will be further described in the section ["Statistics"](Using_Course_Tools.md#UsingCourseTools-_statistiken).
+Options to analyze log files graphically will be further described in the section ["Statistics"](Using_Course_Tools.md#course-statistics--statistics).

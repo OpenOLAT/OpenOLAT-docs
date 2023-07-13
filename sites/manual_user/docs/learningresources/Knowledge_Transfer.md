@@ -93,13 +93,7 @@ Further information on the CP can be found
 
 ![icon scorm learning content](assets/scorm.png)
 
-Using the course element "SCORM Learning Content", externally created SCORM
-packages can be integrated into OpenOlat courses. SCORM is a standard with
-which content as well as interactive e-learning modules can be encapsulated
-and integrated into different systems. Further information on the
-configuration of the course element SCORM can be found in the chapter "[Course
-element: SCORM learning
-content](Course_Element_SCORM_Learning_Content.md)".
+Using the course element "SCORM Learning Content", externally created SCORM packages can be integrated into OpenOlat courses. SCORM is a standard with which content as well as interactive e-learning modules can be encapsulated and integrated into different systems. Further information on the configuration of the course element SCORM can be found in the chapter "[Course element: SCORM learning content](Course_Element_SCORM_Learning_Content.md)".
 
 ## Course Element: Document {: #document}
 

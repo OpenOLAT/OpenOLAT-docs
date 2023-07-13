@@ -7,13 +7,7 @@ several course elements of the same type; they can be nested as well. However,
 the development of an online course should always be sensible and didactically
 well thought out.
 
-Select the course element under which the new element should be inserted.
-Click on the course element of your choice in the selection window "Insert
-course element" in the toolbar. The new element will be positioned beneath the
-currently selected course element. If the top course element is selected, the
-new element will be automatically inserted at the end of the course. Course
-elements can be easily re-arranged with „Drag&Drop“ at any given point in
-time.
+Select the [course element](Course_Element.de) under which the new element should be inserted. Click on the course element of your choice in the selection window "Insert course element" in the toolbar. The new element will be positioned beneath the currently selected course element. If the top course element is selected, the new element will be automatically inserted at the end of the course. Course elements can be easily re-arranged with „Drag&Drop“ at any given point in time.
 
 If you place the cursor at the desired position before adding the block, you
 do not need to move the new block again.

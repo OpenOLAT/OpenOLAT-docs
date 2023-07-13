@@ -19,11 +19,11 @@ Mit WebDAV kann selbstverständlich nicht auf alle Ordner und Dateien einer Open
 
 Sobald die Elemente über OpenOlat angelegt wurden, wird die Struktur automatisch erstellt. Sie können auf folgende OpenOlat-Ordner zugreifen: 
 
-  * [Persönlicher Ordner](../../manual_user/personal/Personal_folders.de.md) (jeder)
+  * [Persönlicher Ordner](../../manual_user/personal_menu/Personal_folders.de.md) (jeder)
   * [Ordner von Gruppen](../../manual_user/groups/Using_Group_Tools.de.md) (Gruppenmitglieder)
   * [Ablageordner von Kursen](../../manual_user/learningresources/Storage_folder.de.md) (nur Kursbesitzer)
-  * [Kursbaustein Ordner](../../manual_user/course_elements/Course_Element_Folder.de.md) (Kursmitglieder)
-  * [Ressourcenordner](../../manual_user/course_create/Course_Settings.de.md#ressourcenordner-einbinden) (nur Lernressourcenbesitzer)
+  * [Kursbaustein Ordner](../../manual_user/learningresources/Course_Element_Folder.de.md) (Kursmitglieder)
+  * [Ressourcenordner](../../manual_user/learningresources/Course_Settings.de.md#ressourcenordner-einbinden) (nur Lernressourcenbesitzer)
 
 Wer in den jeweiligen Ordnern Dateien per WebDAV hochladen darf, ist abhängig von der jeweiligen Konfiguration.
 

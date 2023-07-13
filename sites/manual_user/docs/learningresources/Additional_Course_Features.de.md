@@ -7,7 +7,7 @@ Das Dropdown-Menü "Mein Kurs" bietet Zugriff auf personalisierte Bestandteile d
 * Notizen: Hier können Sie kursspezifische Notizen eintragen, die nur Sie als Kursteilnehmer lesen können.
 * Der Leistungsnachweis zeigt Ihre Bewertungen im Kurs in Tabellenform an und gibt, sofern aktiviert, Zugriff auf das Zertifikat des Kurses
 * Bookmark: Aktivieren Sie den Bookmark, dann erscheinen diese Kurse im Menü "Kurse" im Tab "Favoriten".
-* [Gruppen:](../display/OO161DE/Gruppen.html) Hier sehe Sie alle _kursspezifischen_ Gruppen in denen Sie Mitglied sind.
+* Gruppen: Hier sehe Sie alle _kursspezifischen_ Gruppen in denen Sie Mitglied sind.
 * Mit "Kurs verlassen" können Sie sich aus dem Kurs austragen.
 
 Die "Kurs verlassen" Funktion beendet sofort ihre Kurs- oder
