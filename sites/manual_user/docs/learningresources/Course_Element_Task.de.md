@@ -25,7 +25,7 @@ Die zentrale Konfiguration des Kursbausteins erfolgt im Tab
 
 ## Aufgabe erstellen
 
-  * [Drei Schritte zu Ihrer Aufgabe](Three_Steps_to_Your_Task.de.md)
+  * [Drei Schritte zu Ihrer Aufgabe](../task/Three_Steps_to_Your_Task.de.md)
   * [Aufgabe - Weitere Konfigurationen](Task_Further_Configurations.de.md)
   * [Aufgaben bewerten](Assess_tasks.de.md)
 

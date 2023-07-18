@@ -501,7 +501,7 @@ entweder direkt in OpenOlat erstellen, was im Kapitel ["Fünf Schritte zu Ihrem 
 erklärt wird. Oder Sie erstellen das CP extern, beispielsweise mit
 [eLML](http://www.elml.org "eLML ").
 
-Weitere Infos zum CP finden Sie [hier](../resource_cp/index.de.md).  
+Weitere Infos zum CP finden Sie [hier](../learningresources/CP_Editor.de.md).  
 
 ###  Kursbaustein „SCORM-Lerninhalt“ {: #SCORM_learning_content}
 
@@ -853,10 +853,7 @@ Der Selbsttest wird ähnlich konfiguriert und eingerichtet wie der Kursbaustein 
 
 Im Gegensatz zum Kursbaustein „Test“ dienen Selbsttests Übungszwecken, d.h. die Resultate der Kursteilnehmenden werden anonymisiert gespeichert. Selbsttests können so oft wie erwünscht bearbeitet werden. 
 
-Im Kursbaustein „Selbsttest“ werden genau wie beim Kursbaustein "Test" Lernressourcen vom Typ
-Test eingebunden. Wenn Sie noch keinen Test erstellt haben, folgen Sie den
-Anweisungen im Kapitel „[Vier Schritte zu Ihrem Test oder
-Selbsttest“](../tests/Four_Steps_to_Your_Test_or_Self-test.de.md).
+Im Kursbaustein „Selbsttest“ werden genau wie beim Kursbaustein "Test" Lernressourcen vom Typ Test eingebunden. Wenn Sie noch keinen Test erstellt haben, folgen Sie den Anweisungen im Kapitel ["Wie gehe ich vor, wenn ich einen Test erstelle“](../../manual_how-to/test_creation_procedure/test_creation_procedure.de.md).
 
 Weitere Informationen zu Tests finden Sie im Kapitel „[Tests erstellen](../learningresources/Test.de.md)“. Relevant ist hier vor allem das Unterkapitel „[Tests auf Kursebene](../learningresources/Tests_at_course_level.de.md).
 
@@ -977,7 +974,7 @@ soll. Mindestens eine dieser Optionen muss ausgewählt werden.
 ![Highscore](assets/Highscore.png)
 
 ## Kommunikation und Kollaboration
-Mehr Informationen zu [Virtuelle Klassenzimmer](Virtual_classrooms.de.md)
+Mehr Informationen zu [Virtuelle Klassenzimmer](../course_elements/Virtual_classrooms.de.md)
 
 ### Kursbaustein „Wiki“ {: #wiki}
 ![Wiki Icon](../assets/wiki_icon.png)

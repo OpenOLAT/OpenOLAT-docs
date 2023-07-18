@@ -92,7 +92,7 @@ Aktivieren Sie die Email Bestätigung, wenn Sie die Abgabe des Testes per Email 
 
 Für den Mailtext kann die Vorlage und ein voreingestellter Betreff mit dem Titel des Test-Kursbausteins im Betreff verwendet werden. Alternativ können die Vorlage und der Betreff auch geändert werden. Wählen Sie in diesem Fall bei "Vorlage" -> "Eigener Text" um den Mailingtext zu bearbeiten oder komplett zu ändern. 
 
-Weitere Informationen zur Verwendung von Variablen in Mailing-Texten finden Sie [hier](assets/../../course_elements/Course_Elements.de#einsatz-von-variablen).
+Weitere Informationen zur Verwendung von Variablen in Mailing-Texten finden Sie [hier](Course_Elements.de#einsatz-von-variablen).
 
 ### Tab "Erinnerungen"
 Hier können Einnerungsmails nach bestimmten Kriterien konfiguriert werden. Weitere Informationen zum Versand von Erinnerungen erhalten Sie [hier](../learningresources/Course_Reminders.de.md).

@@ -4,10 +4,7 @@ Betreuer und Kursbesitzer können sowohl über das Bewertungswerkzeug als auch
 direkt im Kursrun die Bewertung der Teilnehmenden bezüglich der eingereichten
 Aufgaben vornehmen.
 
-Wie Aufgaben und Gruppenaufgaben im Bewertungswerkezug bewertet werden
-erfahren Sie ausführlich im Kapitel
-["Bewertungswerkzeug"](../learingresources/Assessment_tool_overview.de.md)
-→ ["Aufgaben und Gruppenaufgaben bewerten"](../learningresources/Assessing_tasks_and_group_tasks.de.md). Im Folgenden wird kurz beschrieben, wie die Bewertung im Kursrun erfolgt:
+Wie Aufgaben und Gruppenaufgaben im Bewertungswerkezug bewertet werden erfahren Sie ausführlich im Kapitel ["Bewertungswerkzeug"](Assessment_tool_overview.de.md) → ["Aufgaben und Gruppenaufgaben bewerten"](Assessing_tasks_and_group_tasks.de.md). Im Folgenden wird kurz beschrieben, wie die Bewertung im Kursrun erfolgt:
 
 ## Übersicht für Betreuer
 

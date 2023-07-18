@@ -108,7 +108,7 @@ The top course element is also a structural element, therefore the points of the
 For the SCORM element the assessment form can be filled in. It is important
 that either Score or Transfer Passed is selected in the course element under
 Learning Content. More information can be found
-[here](../course_elements/Course_Element_SCORM_Learning_Content.md).
+[here](../learningresources/Course_Element_SCORM_Learning_Content.md).
 
 ### LTI
 The assessment form can also be filled out and customized for the LTI element.

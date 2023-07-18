@@ -15,7 +15,7 @@ für die Benutzerkonfiguration zur Verfügung:
 
 Hier werden die Personalien, Angaben zur Person, Kontaktdaten und Angaben
 zur Institution erfasst (vergl. User Konfiguration
-[Profil](../../manual_user/personal/Configuration.de.md#profile)). Ferner sind die vom User
+[Profil](../../manual_user/personal_menu/Configuration.de.md#profile)). Ferner sind die vom User
 eingetragenen Informationen zur Person sowie die jeweilige Visitenkarte und
 das gewählte persönliche Bild/Foto sichtbar. Zu den verbindlichen Einträgen
 des Benutzerprofils gehören: Vorname, Nachname und E-Mail.  
@@ -23,7 +23,7 @@ des Benutzerprofils gehören: Vorname, Nachname und E-Mail.
 ### Systemeinstellungen
 
 Hier werden die vom User vorgenommenen Systemeinstellungen angezeigt (vergl.
-User Konfiguration [Einstellungen](../../manual_user/personal/Configuration.de.md#settings)).  
+User Konfiguration [Einstellungen](../../manual_user/personal_menu/Configuration.de.md#settings)).  
   
 ### Passwort ändern
 

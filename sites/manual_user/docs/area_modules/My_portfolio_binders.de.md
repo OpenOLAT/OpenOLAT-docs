@@ -27,14 +27,7 @@ Es werden grundsätzlich zwei Arten von Mappen unterschieden:
 
 ## Abgeholte Mappen
 
-Abgeholte Mappen erkennt man an dem roten Randstreifen und dem Hinweis auf den
-zugehörigen Kurs. Diese Mappen basieren auf einer "[Portfolio 2.0
-Vorlage](../learningresources/Portfolio_template_Creation.de.md)" und werden in der Regel
-von einer anderen Person, meist dem Lehrenden, erstellt. Die Abholung erfolgt
-im Kurs über die "[Portfolio
-Aufgabe](../learningresources/Portfolio_task_and_assignment_Collecting_and_editing.de.md)". Alternativ
-ist es auch möglich, Portfolio Vorlagen kursunabhängig zu buchen und
-abzuholen.
+Abgeholte Mappen erkennt man an dem roten Randstreifen und dem Hinweis auf den zugehörigen Kurs. Diese Mappen basieren auf einer ["Portfolio 2.0 Vorlage"](../learningresources/Portfolio_template_Creation.de.md) und werden in der Regel von einer anderen Person, meist dem Lehrenden, erstellt. Die Abholung erfolgt im Kurs über die "[Portfolio Aufgabe](../learningresources/Portfolio_task_and_assignment_Collecting_and_editing.de.md)". Alternativ ist es auch möglich, Portfolio Vorlagen kursunabhängig zu buchen und abzuholen.
 
 Sobald eine Portfolio Mappe vom Lernenden abgeholt wurde erscheint sie in
 seinem persönlichen Portfolio-Bereich unter "Meine Mappen".  Wenn der User
@@ -45,7 +38,7 @@ ausfüllt.
 
 !!! tip "Tipp"
 
-    By default können Sie in einer abgeholten Mappe keine eigenen strukturellen "Einträge" erstellen. Es können jedoch diverse Inhalte, auch aus der [Mediathek](Media_center.de.md), hinzufügen.
+    By default können Sie in einer abgeholten Mappe keine eigenen strukturellen "Einträge" erstellen. Es können jedoch diverse Inhalte, auch aus dem [Medien Center](../personal_menu/Media_Center.de.md), hinzufügen.
 
 Über den Button "Inhalt hinzufügen" gelangt man in den Portfolio Editor. Hier
 können diverse Elemente hinzugefügt werden und auch mit dem Containerelement

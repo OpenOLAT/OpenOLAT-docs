@@ -4,7 +4,7 @@
 
 Im Administrationsbereich des Fragenpools verwalten Poolverwalter fünf
 Bereiche zur Organisation des Fragenpool-Moduls. Der Poolverwalter ist wie
-z.B. der Benutzerverwalter oder Autor eine [Rolle](../basic_concepts/Roles_and_Rights.de.md),
+z.B. der Benutzerverwalter oder Autor eine [Rolle](../basic_concepts/Roles_Rights.de.md),
 die ein Systembenutzer von einem Systemadministrator zugewiesen bekommt. Der
 Poolverwalter hat das Recht, organisatorische Aspekte der Fragenbank zu
 ändern, er hat jedoch keinen Einfluss auf den Inhalt der Fragenbank sowie

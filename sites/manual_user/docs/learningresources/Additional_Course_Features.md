@@ -43,9 +43,7 @@ evidence of achievement details, ready for download.
 Once a certificate is automatically issued after successfully completing a
 course, you will receive an automatically generated email notification.
 
-All your evidences of achievement and certificates will be listed in your
-["Evidence of achievements"](Personal+Menu.html#PersonalMenu-
-_leistungsnachweise). It always opens in a new window and is printable.
+All your evidences of achievement and certificates will be listed in your ["Evidence of achievements"](../personal_menu/Personal_Tools.md#evidences-of-achievement). It always opens in a new window and is printable.
 
   
 

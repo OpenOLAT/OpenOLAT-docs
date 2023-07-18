@@ -15,7 +15,7 @@ auch mit Punkten versehen werden und erhalten dann den Konfigurations-Tab
 Addition von Punkten oder das Bestehen/Nicht bestehen eines Kurses basierend
 auf den Bewertungen verschiedener Kursbausteine hinzugefügt werden. Verwendet
 wird hierfür ein Kursbaustein
-[Struktur](Course_Element_Structure.de.) bei herkömmlichen
+[Struktur](Course_Element_Structure.de.md) bei herkömmlichen
 Kursen.
 
 Ein weiterer Konfigurations-Tab der bei den meisten Kursbausteinen der Wissensüberprüfung zur Verfügung steht (bis auf Selbsttest und Umfrage) ist der Tab "Erinnerung". Hier können in Abhängigkeit von der Bearbeitung des jeweiligen Kursbausteins E-Mails verschickt werden. Zum Beispiel kann eine
@@ -190,10 +190,7 @@ Der Selbsttest wird ähnlich konfiguriert und eingerichtet wie der Kursbaustein 
 
 Im Gegensatz zum Kursbaustein „Test“ dienen Selbsttests Übungszwecken, d.h. die Resultate der Kursteilnehmenden werden anonymisiert gespeichert. Selbsttests können so oft wie erwünscht bearbeitet werden. 
 
-Im Kursbaustein „Selbsttest“ werden genau wie beim Kursbaustein "Test" Lernressourcen vom Typ
-Test eingebunden. Wenn Sie noch keinen Test erstellt haben, folgen Sie den
-Anweisungen im Kapitel „[Vier Schritte zu Ihrem Test oder
-Selbsttest“](../tests/Four_Steps_to_Your_Test_or_Self-test.de.md).
+Im Kursbaustein „Selbsttest“ werden genau wie beim Kursbaustein "Test" Lernressourcen vom Typ Test eingebunden. Wenn Sie noch keinen Test erstellt haben, folgen Sie den Anweisungen im Kapitel ["Wie gehe ich vor, wenn ich einen Test erstelle“](../../manual_how-to/test_creation_procedure/test_creation_procedure.de.md).
 
 Weitere Informationen zu Tests finden Sie im Kapitel „[Tests erstellen](../learningresources/Test.de.md)“. Relevant ist hier vor allem das Unterkapitel „[Tests auf Kursebene](../learningresources/Tests_at_course_level.de.md).
 

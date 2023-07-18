@@ -222,7 +222,7 @@ Sie können hier entweder eine Verbindung zu einer bereits erstellten Lernressou
 
 Standardmässig sind die Dateien des Ressourcenordners im Kurs schreibgeschützt und eine Bearbeitung nur direkt in der Lernressource, nicht aber im Ablageordner des Kurses noch bei der Einbindung über Einzelseiten im Kurseditor möglich. Soll eine Bearbeitung aber auch im Kurs möglich sein, muss in den Optionen der Kurseinstellungen der Haken bei „Schreibgeschützt“ entfernt werden.
 
-Weitere Informationen und eine Schritt-für-Schritt-Anleitung zur Einbindung eines Ressourcenorders finden Sie [hier](../how-to/use_the_same_files_in_several_courses.de.md).
+Weitere Informationen und eine Schritt-für-Schritt-Anleitung zur Einbindung eines Ressourcenorders finden Sie im Bereich [How to](../../manual_how-to/multiple_use/multiple_use.de.md).
 
 Beachten Sie: Sie können lediglich _einen_ Ressourcenordner pro Kurs einbinden. Überlegen Sie deshalb im Vorfeld genau, welche Dateien Sie über einen kursübergreifenden Ressourcenordner statt des kursbezogenen Ablageordners organisieren möchten.
 

@@ -48,7 +48,7 @@ e-learning format. The specification of this format also comes from
 of it. OpenOlat supports this format; therefore learning content cannot only
 be used in OpenOlat but in other LMS as well. Further information on
 generating Content Packages can be found in the chapter 
-["Creating CP Learning Content"](../resource_cp/index.md).
+["Creating CP Learning Content"](../learningresources/CP_Editor.md).
 
 ## Wiki![icon](assets/wiki.png){class="size16"}
 

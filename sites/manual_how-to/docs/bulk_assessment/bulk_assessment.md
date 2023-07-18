@@ -5,7 +5,7 @@
 With a bulk assessment you may assess several course participants with the [assessment tool
 ](../../manual_user/learningresources/Assessment_tool_overview.md) at a time of your choice at once.
 <br><br>
-Bulk assessments can be done for [assessment course elements](../../manual_user/course_elements/Assessment.md):
+Bulk assessments can be done for [assessment course elements](../../manual_user/learningresources/Assessment.md):
 
 * course element "task",
 * course element "group task" and

@@ -1,4 +1,4 @@
-# [Zusätzliche Kursfunktionen](Additional_Course_Features.de.md)
+# Zusätzliche Kursfunktionen
 Im Kurs stehen Usern eine Reihe von weiteren Kursfunktionen zur Verfügung, die der Besitzer des Kurses nach Bedarf ein- und ausschalten kann. So kann eine Toolbar mit diversen weiteren Funktionen aktiviert werden. Die Tools sind dann entweder über das Menü "Mein Kurs" oder direkt in der Toolbar aufrufbar. In der Toolbar sind die Tools unabhängig von bestimmten Freigaben innerhalb der Kursstruktur.
 
 ## Menü "Mein Kurs"
@@ -37,8 +37,7 @@ Bei automatisch ausgestellten Zertifikaten nach erfolgreichem Abschluss eines
 Kurses erhalten Sie eine automatisch generierte Benachrichtigung per E-Mail.
 
 Alle Ihre Leistungsnachweise und Zertifikate finden Sie auch unter
-„[Leistungsnachweise](viewpage.action%EF%B9%96pageId=108593349.html#Pers%C3%B6nlicheWerkzeuge-
-_leistungsnachweise)". Der Leistungsnachweis öffnet sich immer in einem neuen
+["Leistungsnachweise"](../personal_menu/Personal_Tools.de.md#leistungsnachweise). Der Leistungsnachweis öffnet sich immer in einem neuen
 Fenster, das sich auch als Druckformat eignet.
 
 ## Weitere Elemente der Toolbar

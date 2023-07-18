@@ -86,7 +86,7 @@ allow to share questions with each other.
 ## Tab Question types
 
 All question types that appear in the question bank are listed here. On the
-one hand, these are the [question types](../../manual_user/tests/Test_question_types.md) 
+one hand, these are the [question types](../../manual_user/learningresources/Test_question_types.md) 
 that can be created in OpenOlat. On the
 other hand, these are also question types that have been imported from
 external systems. Create additional question types here if the standard

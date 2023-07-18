@@ -14,7 +14,7 @@ Creating a Learning Resource Course in the Author Area and choosing the course t
 
 !!! info "Further Information"
 	  * [Creating Courses](index.md)
-	  * [In Five Steps to Your Course With the Course Editor](../course_create/In_Five_Steps_to_Your_Course_With_the_Course_Editor.md)
+	  * [My first course](../../manual_how-to/my_first_course/my_first_course.md)
 	  * [Creating learning path courses](Creating_learning_path_courses.md)
 
 ### 2. Set up, design course, publish

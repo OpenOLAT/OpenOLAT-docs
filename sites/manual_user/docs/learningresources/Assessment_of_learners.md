@@ -43,15 +43,9 @@ element type and the corresponding settings.
   
 ## Bulk assessment
 
-The course elements "[Task](Assessing_tasks_and_group_tasks.md)" and
-"[Assessment](Assessment_of_course_modules.md)" also offer the possibility
-of bulk assessment.
+The course elements ["Task"](Assessing_tasks_and_group_tasks.md) and ["Assessment"](Assessment_of_course_modules.md) also offer the possibility of bulk assessment.
 
-If you want to assess all or many users at once, you can start a "New bulk
-assessment". To do this, create an assessment in a spreadsheet program and
-paste the data into the mass assessment field using copy+paste. You can find
-more information about bulk assessment
-[here](../how-to/create_a_bulk_assessment_for_submission_tasks.md).
+If you want to assess all or many users at once, you can start a "New bulk assessment". To do this, create an assessment in a spreadsheet program and paste the data into the mass assessment field using copy+paste. You can find more information about bulk assessment in the [How to](../../manual_how-to/bulk_assessment/bulk_assessment.md) area.
 
 ## Filter options
 

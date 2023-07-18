@@ -225,7 +225,7 @@ Here you can connect a resource folder (learning resource) to a course and thus 
 
 By default in the course all files of the resource folder are read only and the edit of the files is neither in the storage folder nor in the course editor when embedding into a single page possible. If edit should be possible in the course, this option need to be deselected in the course settings at "Read only".
 
-For more information or the step-by-step instructions on integrating a resource folder, click [here](../how-to/use_the_same_files_in_several_courses.md).  
+For more information and step-by-step instructions on how to integrate a resource order, please visit the [How to](../../manual_how-to/multiple_use/multiple_use.md) area. 
 
 You can only add _one_ resource folder to a course. We strongly recommend to first define a general strategy: Which files should be stored in an overall resource folder, and which files are preferably stored in a storage folder within a course, respectively.
 

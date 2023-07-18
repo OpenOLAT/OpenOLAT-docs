@@ -44,7 +44,7 @@ Optionen und Funktionen bestimmter Kursbausteine.
   *  **Participants**  
 Participants are usually the learners or people who participate in an online course. Participants can only act within the scope of the options provided by
 the owner. By default, participants do not have access to the course administration and the menus it contains.
-In a [learning_path_course](../course_create/Learning_path_course.en.md) only the participants see the visualized percentage display in the top right corner of the toolbar.
+In a [learning path course](../learningresources/Learning_path_course.md) only the participants see the visualized percentage display in the top right corner of the toolbar.
 In a learning path course, only the participants see the visualized percentage display at the top right of the toolbar.
 
 A course member can have multiple roles in the course at the same time. In this case these persons will see the possibility to change roles in the course toolbar and thus to view the course from different course roles.

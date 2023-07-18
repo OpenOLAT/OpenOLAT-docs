@@ -23,7 +23,7 @@ erstellt:
   * Ordner von [Gruppen](../groups/Using_Group_Tools.de.md)
   * [Ablageordner von Kursen](../learningresources/Storage_folder.de.md) (nur Kursbesitzer)
   * [Kursbaustein Ordner](../learningresources/Course_Element_Form.de.md)
-  * [Ressourcenordner](../learningresources/index.de#ressourcenordner.md) (nur Lernressourcenbesitzer)
+  * [Ressourcenordner](../learningresources/index.de.md#ressourcenordner) (nur Lernressourcenbesitzer)
 
 Wer in den jeweiligen Ordnern Dateien per WebDAV hochladen darf ist abhängig
 von der jeweiligen Konfiguration.

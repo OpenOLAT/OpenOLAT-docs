@@ -16,7 +16,7 @@ Lernressource Kurs im "Autorenbereich" erstellen und den gewünschten Kurstyp "L
 
 !!! info "Weitere Informationen"
 	  * [Kurs erstellen](index.de.md)
-	  * [Mit dem Kurseditor in fünf Schritten zu Ihrem OpenOlat Kurs](../course_create/In_Five_Steps_to_Your_Course_With_the_Course_Editor.de.md)
+	  * [Mein erster Kurs](../../manual_how-to/my_first_course/my_first_course.de.md)
 	  * [Lernpfad Kurse erstellen](Creating_learning_path_courses.de.md)
 
 ### 2. Kurs einrichten, gestalten, publizieren
@@ -65,7 +65,6 @@ Handlungen vor.
 
 !!! info "Weitere Informationen"
 	  * [Kursbetrieb](../learningresources/Administration.de.md)
-	  * [Lernaktivitäten (Lerner Perspektive)](../learning_activities/index.de.md)
 
 ### 6. Kurs beenden {: #end_course}
 

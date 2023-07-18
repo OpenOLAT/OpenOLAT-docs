@@ -18,7 +18,7 @@ The release date can be used if the course element is to be opened and started o
 
 The time entered under "To be edited by" refers to the deadline for picking up or starting the course element Task, not to the deadline for file upload (see Workflow).
 
-In the case of the processing time, the estimated time a user needs to process the course element can be entered. An entry is especially relevant if the progress in the course refers to the processing time of the course elements (see Administration -> [Settings](../course_create/Course_Settings_DE.md) -> Tab "Execution"). 
+In the case of the processing time, the estimated time a user needs to process the course element can be entered. An entry is especially relevant if the progress in the course refers to the processing time of the course elements (see Administration -> [Settings](../learningresources/Course_Settings.md) -> Tab "Execution"). 
 
 The Learning Path tab also defines which criterion must be met for the task to
 be considered "completed". The following options are available:

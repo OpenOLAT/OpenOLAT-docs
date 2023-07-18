@@ -86,16 +86,8 @@ teilen.
 
 ## Tab Fragetypen
 
-Hier werden alle Fragetypen aufgelistet, welche im Fragenpool auftauchen. Dies
-sind zum einen die [Fragetypen](../../manual_user/tests/Test_question_types.de.md), die im OpenOlat
-erstellt werden können. Zum anderen sind dies jedoch auch Fragetypen, welche
-von externen Systemen importiert worden sind. Erstellen Sie hier zusätzliche
-Fragetypen, wenn die Standard Fragetypen von OpenOlat nicht genügen. Die
-Standard Fragetypen können nicht gelöscht werden.
+Hier werden alle Fragetypen aufgelistet, welche im Fragenpool auftauchen. Dies sind zum einen die [Fragetypen](../../manual_user/learningresources/Test_question_types.de.md), die im OpenOlat erstellt werden können. Zum anderen sind dies jedoch auch Fragetypen, welche von externen Systemen importiert worden sind. Erstellen Sie hier zusätzliche Fragetypen, wenn die Standard Fragetypen von OpenOlat nicht genügen. Die Standard Fragetypen können nicht gelöscht werden.
 
 ## Tab Stufen
 
-Hier können diverse Stufen erstellt werden. In den Metadaten jeder Fragen kann
-dann diese Stufe oder das Level ausgewählt werden. Hier bieten sich
-beispielsweise Schwierigkeitsgrade oder Kompetenzstufen an.
-
+Hier können diverse Stufen erstellt werden. In den Metadaten jeder Fragen kann dann diese Stufe oder das Level ausgewählt werden. Hier bieten sich beispielsweise Schwierigkeitsgrade oder Kompetenzstufen an.

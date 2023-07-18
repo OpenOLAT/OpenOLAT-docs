@@ -43,7 +43,7 @@ various artefacts (texts, files, etc.) or filling in a form.
 
 !!! tip "Hint"
 
-    By default it is not possible to create own entries in a collected binder. But all contents of the [media center](Media_center.md) can be inserted into an entry.
+    By default it is not possible to create own entries in a collected binder. But all contents of the [media center](../personal_menu/Media_Center.md) can be inserted into an entry.
 
 The "Add content" button takes you to the Portfolio Editor. Here various
 elements can be added and also grouped with the container element. By clicking

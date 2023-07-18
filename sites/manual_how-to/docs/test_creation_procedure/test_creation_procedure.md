@@ -76,7 +76,7 @@ If you are starting from scratch with the creation of a course, the following pr
 <br>
 !!! tip "Note"
 
-    If you do not have any experience in course creation, you will find in chapter [„How do I create my first OpenOlat course?"](../my_first_course/my_first_course.de.md) an instruction.
+    If you do not have any experience in course creation, you will find in chapter ["My first course"](../my_first_course/my_first_course.md) an instruction.
 
 1\. Go to the authoring area and create there a new course.
 

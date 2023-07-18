@@ -26,8 +26,7 @@ Afterwards, you can fill out the [assessment form](The_assessment_form.md).
 
 ## Start a new bulk assessment
 
-How to create a bulk assessment for tasks exactly you can learn
-[here](../how-to/create_a_bulk_assessment_for_submission_tasks.md).
+How to create a bulk assessment for tasks exactly you can learn in the [How to](../../manual_how-to/bulk_assessment/bulk_assessment.md) area.
 
 ## Assessment workflow course element "Task
 

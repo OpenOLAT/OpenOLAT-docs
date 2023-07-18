@@ -38,7 +38,7 @@ For more details on how to use the Form Editor, see the "[Form Editor"](../learn
 
 1. go to the [author area](../area_modules/Authoring.md). In the area "My courses as well as under "My entries" and if necessary under "Favorites" you will find your courses. Start the course in which the form is to be integrated.
 
-2. Open the "[Course editor](../course_create/In_Five_Steps_to_Your_Course_With_the_Course_Editor.md)" via "Administration".
+2. Open the ["Course editor"](../../manual_how-to/my_first_course/my_first_course.md) via "Administration".
    
     Select "Insert course elements" and click on the desired [course element](../learningresources/Assessment.md) form, survey or [assessment](../learningresources/Course_Element_Assessment.md), depending on your scenario.
 

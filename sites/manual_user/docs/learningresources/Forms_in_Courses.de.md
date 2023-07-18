@@ -7,7 +7,7 @@ Hierzu zählen:
 * Kursbaustein Umfrage
 * Kursbaustein Formular
 * Kursbaustein Bewertung
-* Teil der [Portfolio 2.0 Vorlage](../learningresources/Portfolio_template_Creation.de.md) über den Kursbaustein Portfolioaufgabe
+* Teil der [Portfolio 2.0 Vorlage](Portfolio_template_Creation.de.md) über den Kursbaustein Portfolioaufgabe
 
 Grundsätzlich können Formulare auch direkt im Kurs über den jeweiligen Kursbaustein erstellt werden.
 

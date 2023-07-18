@@ -87,7 +87,7 @@ can create the CP externally, for example with [eLML](http://www.elml.org
 "eLML ").
 
 Further information on the CP can be found
-[here](../resource_cp/index.md).
+[here](../learningresources/CP_Editor.md).
 
 ##  Course Element: SCORM Learning Content {: #SCORM_learning_content}
 

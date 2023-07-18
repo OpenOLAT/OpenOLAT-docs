@@ -75,7 +75,7 @@ The questions that are converted within lists or shares are also stored under
 the respective list or share in addition to "My questions".
 
 For more information on converting, see [changing from QTI 1.2 to QTI
-2.1](../tests/Changing_from_QTI_1.2_to_QTI_2.1.md).
+2.1](../learningresources/Changing_from_QTI_1.2_to_QTI_2.1.md).
 
 ## Author rights {: #rights}
 

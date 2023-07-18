@@ -12,7 +12,7 @@ zutreffen, lediglich die Reihenfolge ist relevant.
 !!! attention "Achtung"
 	Die benutzerspezifische Startseite, die der Benutzer im persönlichen Menü
 	unter [Einstellungen/System/Spezielle
-	Systemeinstellungen](../../manual_user/personal/Configuration.de.md#general) für sich
+	Systemeinstellungen](../../manual_user/personal_menu/Configuration.de.md#general) für sich
 	persönlich festlegt, überschreibt die systemweite Startseite.
 
   

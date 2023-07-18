@@ -15,7 +15,7 @@ Sie einfach auf das Fragezeichen! :fontawesome-solid-circle-question:.
 
 ## Kontextsensitive Hilfe
 
-![](assets/Hilfe.png){ height=24px }
+![](assets/help_DE.png){ height=24px }
 
 Bei Ihrer täglichen Arbeit mit OpenOlat steht Ihnen dieses OpenOlat-Handbuch
 zur Seite, sowie an wichtigen Stellen im System die  kontextsensitive Hilfe.
@@ -35,19 +35,19 @@ neben einer Feldbeschriftung sehen, fahren Sie mit der Maus darüber um eine
 kurze Information zu erhalten. Hier ein Beispiel aus der Konfiguration eines
 Tests im Kurseditor:
 
-![](assets/Beispiel_Fragezeichen.jpg){ class="shadow" width=400px }
+![](assets/example_questionmark_DE.jpg){ class="shadow" width=400px }
 
 
 ## Hellgrauer Text innerhalb von Feldern...
 
-![](assets/help_gui_demo.jpg){ class="shadow" width=150px }
+![](assets/help_gui_demo_DE.jpg){ class="shadow" width=150px }
 
 ...gibt Hilfestellung **wie** die Felder ausgefüllt werden sollen.
 
 
 ## Hellgrauer Text unterhalb von Feldern...
 
-![](assets/help_gui_demo1.png){ class="shadow" width=420px }
+![](assets/help_gui_demo1_DE.png){ class="shadow" width=420px }
 
 ...stellt direkt benötigte Informationen **über** den Feldinhalt zur Verfügung.
 

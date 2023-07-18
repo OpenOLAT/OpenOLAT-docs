@@ -37,7 +37,7 @@ Weitere Einzelheiten zur Verwendung des Formular Editors finden Sie im Kapitel "
 ## Schritt 3: Formular im Kurs einbinden
 
 1. Gehen Sie in den [Autorenbereich](../area_modules/Authoring.de.md). Im Bereich "Meine Kurse sowie unter "Meine Einträge" und gegebenenfalls unter "Favoriten" finden Sie Ihre Kurse. Starten Sie den Kurs in dem das Formular eingebunden werden soll.
-2. Öffnen Sie über die "Administration" den "[Kurseditor](../course_create/In_Five_Steps_to_Your_Course_With_the_Course_Editor.de.md)".
+2. Öffnen Sie über die "Administration" den ["Kurseditor"](../../manual_how-to/my_first_course/my_first_course.de.md).
 
     Wählen sie "Kursbausteine einfügen" und klicken auf den gewünschten [Kursbaustein](../learningresources/Assessment.de.md) Formular, Umfrage oder [Bewertung](../learningresources/Course_Element_Assessment.de.md), je nach Ihrem Szenario.
 

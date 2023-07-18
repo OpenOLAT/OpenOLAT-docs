@@ -86,7 +86,7 @@ entweder direkt in OpenOlat erstellen, was im Kapitel ["Fünf Schritte zu Ihrem 
 erklärt wird. Oder Sie erstellen das CP extern, beispielsweise mit
 [eLML](http://www.elml.org "eLML ").
 
-Weitere Infos zum CP finden Sie [hier](../resource_cp/index.de.md).  
+Weitere Infos zum CP finden Sie [hier](../learningresources/CP_Editor.de.md).  
 
 ##  Kursbaustein „SCORM-Lerninhalt“ {: #SCORM_learning_content}
 

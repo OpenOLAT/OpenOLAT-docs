@@ -13,7 +13,7 @@ editieren.
 
 Darüber hinaus können Sie in dem Tab die Benutzerberechtigungen einstellen.
 
-![blog_konfigurieren.png](assets/Blog%20Konfig%20DE.png)
+![blog_konfigurieren.png](assets/Blog_Config_DE.png)
 
 ### Benutzerberechtigungen
 

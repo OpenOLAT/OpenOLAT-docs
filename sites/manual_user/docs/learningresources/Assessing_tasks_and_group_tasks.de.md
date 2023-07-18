@@ -22,9 +22,7 @@ Kursbetreuer und Kursbesitzer haben über die entsprechenden Buttons verschieden
 * Eine E-Mail an alle oder bestimmte Teilnehmende verschicken.
 * Die Abgabe für bestimmte oder alle Personen zu verlängern.
 
-Direkt auswählbar sind die Optionen alle abgegebenen Dokumente herunterzuladen sowie eine Massenbewertung vorzunehmen. 
-Wie man eine Massenbewertung für Aufgaben genau erstellt erfahren Sie [hier](../how-to/create_a_bulk_assessment_for_submission_tasks.de.md).
-
+Direkt auswählbar sind die Optionen alle abgegebenen Dokumente herunterzuladen sowie eine Massenbewertung vorzunehmen. Wie man eine Massenbewertung für Aufgaben genau erstellt erfahren Sie hier im Bereich [How to](../../manual_how-to/bulk_assessment/bulk_assessment.de.md).
 Für weitere Aktionen, die sich nur auf bestimmte Teilnehmende beziehen müssen die gewünschten Teilnehmenden zunächst ausgewählt werden bevor die Optionen angezeigt werden.
 
 ![Ausgewählte Bewertungsoptionen](assets/Bewertungswerkzeug_Aufgabe_TN1_172.png){ class="shadow lightbox" }

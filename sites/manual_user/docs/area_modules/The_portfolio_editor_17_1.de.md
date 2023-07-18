@@ -97,8 +97,6 @@ direkt online weiter bearbeitet werden.
 
 Über diesen Link können Videos ins Portfolio hochgeladen werden.
 
-### Aus Mediathek wählen
+### Aus Media Center wählen
 
-Dateien, welche sich bereits in der [Mediathek](Media_center.de.md)befinden,
-können hiermit einem Eintrag hinzugefügt werden. Die Such- und Filteroptionen
-helfen, die gewünschte Datei schneller zu finden.
+Dateien, welche sich bereits in der [Medien Center](../personal_menu/Media_Center.de.md) befinden, können hiermit einem Eintrag hinzugefügt werden. Die Such- und Filteroptionen helfen, die gewünschte Datei schneller zu finden.

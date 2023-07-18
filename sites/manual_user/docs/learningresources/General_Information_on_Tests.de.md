@@ -22,7 +22,7 @@ Je nach Lehrszenario macht es aber auch durchaus Sinn auch für Übungszwecke no
 
 ## Wie kommen die Fragen in einen Test?
 
-Fragen können entweder direkt in der Lernressource Test erstellt werden oder im [Fragenpool](../area_modules/Question_Bank.de.md) erstellt und dann in den Test eingebunden werden. Im Kapitel [Vier Schritte zu Ihrem Test oder Selbsttest](../tests/Four_Steps_to_Your_Test_or_Self-test.de.md) erfahren Sie wie Sie einen Test erstellen können.
+Fragen können entweder direkt in der Lernressource Test erstellt werden oder im [Fragenpool](../area_modules/Question_Bank.de.md) erstellt und dann in den Test eingebunden werden. Im Kapitel [Vier Schritte zu Ihrem Test oder Selbsttest](../../manual_how-to/test_creation_procedure/test_creation_procedure.de.md) erfahren Sie wie Sie einen Test erstellen können.
 
 Beim Importieren einer Frage aus dem Fragenpool in einen Test wird eine Kopie der Frage zum jeweiligen Zeitpunkt angefertigt. Die Frage im Test ist somit unabhängig von der Original-Frage im Fragenpool. Wird die Original-Frage im Fragenpool modifiziert, wirkt sich das nicht auf die importierte Frage im Test aus. Diese bleibt unverändert.
 

@@ -87,7 +87,7 @@ Freigabe abgespeichert. Fragen, die bereits im QTI Format 2.1 vorliegen
 brauchen nicht konvertiert zu werden.
 
 Weitere Informationen zum Konvertieren finden Sie unter "[Von QTI 1.2 zu QTI
-2.1"](../tests/Changing_from_QTI_1.2_to_QTI_2.1.de.md).
+2.1"](../learningresources/Changing_from_QTI_1.2_to_QTI_2.1.de.md).
 
 ## Autorenrechte {: #rights}
 

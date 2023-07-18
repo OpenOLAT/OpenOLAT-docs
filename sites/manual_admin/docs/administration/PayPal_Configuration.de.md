@@ -22,7 +22,7 @@ Um Kurse und Arbeitsgruppen gegen Geld freizuschalten können Sie nach
 erfolgreicher Konfiguration des PayPal Moduls auf der Detailseite des Kurses
 oder in der Administrationsumgebung der Arbeitsgruppe die PayPal
 Buchungsmethode auswählen. Weitere Informationen finden Sie unter
-[Zugangskonfiguration](../../manual_user/course_create/Access_configuration.de.md){ class="shadow lightbox" }
+[Zugangskonfiguration](../../manual_user/learningresources/Access_configuration.de.md){ class="shadow lightbox" }
 
 !!! warning "Achtung"
 	Je nach Währung, Land und Betrag verlangt PayPal eine Transaktionsgebühr.

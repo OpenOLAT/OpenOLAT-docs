@@ -29,7 +29,7 @@ A title is specified during creation, followed by the question
 type and, if available, the subject selected at the end. The questions created this way can then be imported into the OpenOlat learning resource Test and be
 utilized.
 
-Information on test creation can be found [here](../tests/Four_Steps_to_Your_Test_or_Self-test.md). Information on the further design of a question in the chapter [Item Detailed view](Item_Detailed_View.md).
+Information on test creation can be found [here](.../../manual_how-to/test_creation_procedure/test_creation_procedure.md). Information on the further design of a question in the chapter [Item Detailed view](Item_Detailed_View.md).
 
 
 ##  Import questions in the question bank {: #import}

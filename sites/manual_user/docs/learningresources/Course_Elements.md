@@ -368,8 +368,7 @@ as answering quiz questions or calling up links.
 With the course elements [Adobe Connect](../learningresources/Course_Element_Adobe_Connect.md),
 [GoToMeeting](../learningresources/Course_Element_GoToMeeting.md),
 [Vitero](../learningresources/Course_Element_vitero.md) BigBllueButton and
-[OpenMeetings](../learningresources/Course_Element_OpenMeetings.md), different [virtual
-classrooms](../course_elements/Virtual_classrooms.md) can be used in OpenOlat for synchronous
+[OpenMeetings](../learningresources/Course_Element_OpenMeetings.md), different [virtual classrooms](../course_elements/Virtual_classrooms.md) can be used in OpenOlat for synchronous
 meetings, video conferences or webinars. Which course element will be
 integrated and which functionalities will be available depends on which
 configuration your OpenOlat system administrator has selected.
@@ -472,7 +471,7 @@ can create the CP externally, for example with [eLML](http://www.elml.org
 "eLML ").
 
 Further information on the CP can be found
-[here](../resource_cp/index.md).
+[here](../learningresources/CP_Editor.md).
 
 ###  Course Element: SCORM Learning Content {: #SCORM_learning_content}
 
@@ -831,12 +830,7 @@ Like the "Test", the course element "Self-test" uses the learning resource
 Test and is configured and set up similarly. The main difference is that there
 is no option "passed/failed" and the tab "Highscore" is omitted.
 
-In contrast to the course element "Test" self-tests are suitable to get
-practice; results of self-tests will be saved anonymously. Self-tests can be
-taken as often as needed. The course element "Self-test" contains learning
-resources of the type "Test." If you have not generated a test before please
-follow the instructions in the chapter ["Four Steps to Your Test or Self-
-test"](../tests/Four_Steps_to_Your_Test_or_Self-test.md).
+In contrast to the course element "Test" self-tests are suitable to get practice; results of self-tests will be saved anonymously. Self-tests can be taken as often as needed. The course element "Self-test" contains learning resources of the type "Test." If you have not generated a test before please follow the instructions in the chapter ["How do I proceed when I create a test"](../../manual_how-to/test_creation_procedure/test_creation_procedure.md).
 
 For more information on tests, refer to the chapter "[Creating Tests](Configure_tests.md)". 
 The chapter "[Tests at course level](Tests_at_course_level.md)" is particularly relevant here.

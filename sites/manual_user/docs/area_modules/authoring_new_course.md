@@ -11,7 +11,7 @@ The following learning resources can be created in authoring:
 The specific creation process is described on the following pages:
 
 * Creating courses <br>
-[User manual article](../learningresources/Creating_Course.de.md) | [Detailed instructions](../../manual_how-to/my_first_course/my_first_course.de.md)
+[User manual article](../learningresources/Creating_Course.de.md) | [Detailed instructions](../../manual_how-to/my_first_course/my_first_course.md)
 
 * Creating tests<br>
 [User manual article](../learningresources/Test.de.md) | [Detailed instructions](../../manual_how-to/test_creation_procedure/test_creation_procedure.de.md)
@@ -79,7 +79,7 @@ In the authoring overview, the assigned licences are shown in the column "Licenc
 
 !!! info "Detailed course creation guide"
 
-    You can find detailed step-by-step instructions on how to create a course ["here"](../../manual_how-to/my_first_course/my_first_course.de.md).
+    You can find detailed step-by-step instructions on how to create a course ["here"](../../manual_how-to/my_first_course/my_first_course.md).
 
 
 :octicons-device-camera-video-24: **Video Introduction (German)**: [Requirements for authors](<https://www.youtube.com/embed/L0jc_LBKXLE>){:target="_blank”}

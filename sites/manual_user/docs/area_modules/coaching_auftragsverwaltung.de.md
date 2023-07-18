@@ -13,7 +13,7 @@ Hier erhalten Sie einen Überblick über alle Ihre Korrektoren und deren Bewertu
 Über die entsprechende Spaltenauswahl kann man sich anzeigen lassen, wie viele Tests ein Korrektor insgesamt bewerten soll, wie viele er schon erledigt hat, wie viele offen sind und welche überfällig sind und welche Korrekturzeit vorgesehen ist. Ferner können auch weitere Korrektoren einem Test hinzugefügt oder bestehende Zuordnungen deaktiviert werden.
 
 Ein Hinzufügen von Korrektoren ist ebenfalls direkt bei der jeweiligen
-[Test-Lernressource](../tests/Test_settings.de.md) möglich.
+[Test-Lernressource](../learningresources/Test_settings.de.md) möglich.
 
 
 ### 2. Tab Korrekturaufträge

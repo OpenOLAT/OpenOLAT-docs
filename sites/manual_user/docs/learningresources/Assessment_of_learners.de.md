@@ -40,15 +40,9 @@ bewertbaren Kursbaustein für diese Person navigieren.
 Person für diesen Baustein navigieren.
 
 ## Massenbewertung  
-Die Kursbausteine „[Aufgabe](Assessing_tasks_and_group_tasks.de.md)“ und
-„[Bewertung](Assessment_of_course_modules.de.md)“ bieten auch die Möglichkeit
-der Massenbewertung.
+Die Kursbausteine ["Aufgabe"](Assessing_tasks_and_group_tasks.de.md) und ["Bewertung"](Assessment_of_course_modules.de.md) bieten auch die Möglichkeit der Massenbewertung.
 
-Wollen Sie alle oder sehr viele Benutzer auf einmal bewerten können Sie eine
-„Neue Massenbewertung starten“. Hierfür erstellen Sie eine Bewertung in einem
-Tabellenprogramm und fügen die Daten per copy+paste in das Feld der
-Massenbewertung ein. Weitere Informationen zur Massenbewertung finden Sie
-[hier](../how-to/create_a_bulk_assessment_for_submission_tasks.de.md).
+Wollen Sie alle oder sehr viele Benutzer auf einmal bewerten können Sie eine „Neue Massenbewertung starten“. Hierfür erstellen Sie eine Bewertung in einem Tabellenprogramm und fügen die Daten per copy+paste in das Feld der Massenbewertung ein. Weitere Informationen zur Massenbewertung finden Sie im Bereich [How to](../../manual_how-to/bulk_assessment/bulk_assessment.de.md).
 
 ## Filtermöglichkeiten
 

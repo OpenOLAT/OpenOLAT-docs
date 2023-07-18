@@ -12,7 +12,7 @@ import a blog, or edit an included blog.
 
 In addition, you can set the user permissions in the tab.
 
-![blog_configuration.png](assets/Blog%20Konfig%20EN.png)
+![blog_configuration.png](assets/Blog_Config.png)
 
 ### User rights
 

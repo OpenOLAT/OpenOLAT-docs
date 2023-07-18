@@ -15,17 +15,7 @@ Im Folgenden werden die Lernressourcen kurz beschrieben:
 ## Kurs
 ![](assets/course.png)
 
-Ein OpenOlat-Kurs kann als reiner Online-Kurs eingesetzt werden oder
-Vorlesungen, Seminare oder andere Präsenzveranstaltungen begleiten. In einem
-OLAT-Kurs können verschiedene didaktische Konzepte wie Webquest,
-Gruppenpuzzles, problembasiertes Lernen, gamebasierte Ansätze usw. umgesetzt
-werden. Ein OLAT-Kurs ist ein OpenOlat-eigener Dokumententyp der beliebig
-viele "Kursbausteine" sowie weitere Funktionalitäten enthalten kann. Wie man
-mit den verschiedenen Kursbausteinen arbeitet, wird im Kapitel
-[„Lernaktivitäten im Kurs“](../learning_activities/index.de.md) ausführlich
-erklärt. Wie Kurse erstellt werden, erfahren Sie im Kapitel [„Kurs erstellen"](../learningresources/Creating_Course.de.md). 
-Details zu Kursbausteinen und dem Kurseditor
-erfahren Sie im Kapitel [„Kursbausteine"](Course_Elements.de.md).
+Ein OpenOlat-Kurs kann als reiner Online-Kurs eingesetzt werden oder Vorlesungen, Seminare oder andere Präsenzveranstaltungen begleiten. In einem OLAT-Kurs können verschiedene didaktische Konzepte wie Webquest, Gruppenpuzzles, problembasiertes Lernen, gamebasierte Ansätze usw. umgesetzt werden. Ein OLAT-Kurs ist ein OpenOlat-eigener Dokumententyp der beliebig viele "Kursbausteine" sowie weitere Funktionalitäten enthalten kann. Wie Kurse erstellt werden, erfahren Sie im Kapitel ["Kurs erstellen"](Creating_Course.de.md). Details zu Kursbausteinen und dem Kurseditor erfahren Sie im Kapitel ["Kursbausteine"](Course_Elements.de.md).
 
 ## Test (QTI 2.1)
 ![](assets/test.png)
@@ -49,7 +39,7 @@ Version 1.1.2. CPs eignen sich für die Verwendung in OpenOlat-Kursen oder auch
 ausserhalb von OpenOlat. OpenOlat unterstützt dieses Format, damit Lerninhalte
 nicht nur in OpenOlat, sondern auch in anderen LMS verwendet werden können.
 Mehr Informationen zur Erstellung von Content-Packagings finden Sie im Kapitel
-[„CP-Lerninhalt erstellen"](../resource_cp/index.de.md).
+[„CP-Lerninhalt erstellen"](../learningresources/CP_Editor.de.md).
 
 ## Wiki
 ![](assets/wiki.png)
@@ -118,14 +108,7 @@ Formularen für Umfragen, Rubriks usw. finden Sie im Kapitel
 ## Portfolio 2.0 Vorlage
 ![](assets/portfolio_434343_64.png)
 
-Eine Portfolio 2.0 Vorlage beinhaltet Aufgaben die im Rahmen eines Portfolio-
-Assessments genutzt und als Portfolioaufgabe in einen OpenOlat-Kurs
-eingebunden werden können. Mit Hilfe einer Portfolio 2.0 Vorlage können
-Lehrende eine strukturierte Portfolio-Mappe gestalten, die die Lernenden
-[abholen ](../learningresources/Portfolio_task_and_assignment_Collecting_and_editing.de.md)und
-bearbeiten können. Weitere Informationen zur [Portfolio
-Vorlage](../learningresources/Portfolio_template_Creation.de.md) und generell zum Thema
-[ePortfolio](../area_modules/index.de.md) erfahren Sie im entsprechenden Kapitel.
+Eine Portfolio 2.0 Vorlage beinhaltet Aufgaben die im Rahmen eines Portfolio-Assessments genutzt und als Portfolioaufgabe in einen OpenOlat-Kurs eingebunden werden können. Mit Hilfe einer Portfolio 2.0 Vorlage können Lehrende eine strukturierte Portfolio-Mappe gestalten, die die Lernende [abholen ](../learningresources/Portfolio_task_and_assignment_Collecting_and_editing.de.md) und bearbeiten können. Weitere Informationen zur [Portfolio Vorlage](Portfolio_template_Creation.de.md) und generell zum Thema [ePortfolio](../area_modules/index.de.md) erfahren Sie im entsprechenden Kapitel.
 
 ## Glossar
 ![](assets/glossary.png)

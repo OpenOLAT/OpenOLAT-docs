@@ -22,7 +22,7 @@ Nutzung gespeichert werden.
 
 Bei der Erstellung wird ein Titel angegeben, anschliessend der Fragetyp und zum Schluss, wenn vorhanden, der Fachbereich ausgewählt. Die so erstellten Fragen können dann in die OpenOlat Lernressource Test importiert und verwendet werden.
 
-Informationen zur _Testerstellung_ finden [hier](../tests/Four_Steps_to_Your_Test_or_Self-test.de.md).
+Informationen zur _Testerstellung_ finden [hier](.../../manual_how-to/test_creation_procedure/test_creation_procedure.de.md).
 Informationen zur weiteren Ausgestaltung einer Frage im Kapitel
 "[Detailansicht einer Frage"](Item_Detailed_View.de.md).
 

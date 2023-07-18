@@ -93,7 +93,7 @@ Der oberste Kursbaustein ist ebenfalls ein Strukturbaustein, deshalb werden hier
 
 ## Integrierte externe Bausteine
 ### SCORM
-Für das SCORM-Element kann das Bewertungsformular ausgefüllt werden. Wichtig ist, dass im Kursbaustein unter Lerninhalt entweder die Punktzahl oder Bestanden übertragen ausgewählt ist. Mehr Informationen dazu finden Sie [hier](../course_elements/Course_Element_SCORM_Learning_Content.de.md).
+Für das SCORM-Element kann das Bewertungsformular ausgefüllt werden. Wichtig ist, dass im Kursbaustein unter Lerninhalt entweder die Punktzahl oder Bestanden übertragen ausgewählt ist. Mehr Informationen dazu finden Sie [hier](../learningresources/Course_Element_SCORM_Learning_Content.de.md).
 
 ### LTI
 Auch für das LTI-Element kann das Bewertungsformular ausgefüllt und angepasst werden. Im Kursbaustein unter Seiteninhalt muss zwingend "Punkte übertragen" ausgewählt sein. Je nachdem muss ein Skalierungsfaktor eingetragen und die Punktzahl für das Bestehen definiert werden. Weitere Informationen zur Konfiguration von LTI-Seiten finden Sie [hier](../learningresources/Other.de.md)

@@ -14,7 +14,7 @@ on the question mark! :fontawesome-solid-circle-question:.
 
 ## Context sensitive help
 
-![](assets/Hilfe.png){ height=24px }
+![](assets/help_DE.png){ height=24px }
 
 For your daily work with OpenOlat, this OpenOlat manual is at your disposal
 as well as the context sensitive help at important places in the system.
@@ -30,19 +30,19 @@ individual form fields. If you find this icon
 ![](assets/hover_help.png){ class=size16 }
 next to a field label, move the mouse over it to get a short information. Here is an example from the configuration of a test in the course editor:
 
-![](assets/Beispiel_Fragezeichen.jpg){ class="shadow" width=400px }
+![](assets/example_questionmark_DE.jpg){ class="shadow" width=400px }
 
 
 ## Light gray text inside fields...
 
-![](assets/help_gui_demo.jpg){ class="shadow" width=150px }
+![](assets/help_gui_demo_DE.jpg){ class="shadow" width=150px }
 
 ...gives assistance **how** the fields should be filled in.
 
 
 ## Light gray text below fields...
 
-![](assets/help_gui_demo1.png){ class="shadow" width=420px }
+![](assets/help_gui_demo1_DE.png){ class="shadow" width=420px }
 
 ...provides directly needed information **about** the field content.
 

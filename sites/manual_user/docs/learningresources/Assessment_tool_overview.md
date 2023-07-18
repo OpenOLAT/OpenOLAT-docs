@@ -168,7 +168,4 @@ calculation for passed and also manually set "passed" can be reset.
 
 ## Bulk assessment
 
-With the tool "bulk assessment", evaluation data such as points, status
-information, comments as well as return files can be transmitted for several
-participants in one step. You can find out how to create a mass evaluation
-[here](../how-to/create_a_bulk_assessment_for_submission_tasks.md).
+With the tool "bulk assessment", evaluation data such as points, status information, comments as well as return files can be transmitted for several participants in one step. You can find out how to create a mass evaluation in the [How to](../../manual_how-to/bulk_assessment/bulk_assessment.md) area.

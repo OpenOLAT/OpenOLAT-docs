@@ -98,7 +98,7 @@ Ist ein externer [Dokumenteneditor](../../manual_admin/administration/External_T
 
 ### Aus Mediathek wählen
 
-Dateien, welche sich bereits in der [Mediathek](Media_center.de.md)befinden,
+Dateien, welche sich bereits in dem [Medien Center](../personal_menu/Media_Center.de.md)befinden,
 können hiermit einem Eintrag hinzugefügt werden. Die Such- und Filteroptionen
 helfen, die gewünschte Datei schneller zu finden.
 

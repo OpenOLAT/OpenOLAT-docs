@@ -160,8 +160,4 @@ werden.
 
 ## Massenbewertung
 
-Mit dem Werkzeug "Massenbewertung" können für mehrere Teilnehmer
-Bewertungsdaten wie Punkte, Statusinformationen, Kommentare sowie
-Rückgabedateien in einem Schritt übermittelt werden. Wie man eine
-Massenbewertung erstellt erfahren Sie
-[hier](../how-to/create_a_bulk_assessment_for_submission_tasks.de.md).
+Mit dem Werkzeug "Massenbewertung" können für mehrere Teilnehmer Bewertungsdaten wie Punkte, Statusinformationen, Kommentare sowie Rückgabedateien in einem Schritt übermittelt werden. Wie man eine Massenbewertung erstellt erfahren Sie im Bereich [How to](../../manual_how-to/bulk_assessment/bulk_assessment.de.md).

@@ -65,7 +65,7 @@ If you want to place an image next to a text, use a 1/2 / 1/2 layout and place t
 Using the html editor, "normal" text can be added. You can use
 the usual formatting can be applied.  
 Under "Insert" you can also add [mathematical
-formulas](../personal/Math_formula.en.md) can be inserted.
+formulas](../basic_concepts/Math_formula.en.md) can be inserted.
 
 ## Inserting media
 
@@ -97,6 +97,6 @@ Videos can be uploaded to the portfolio via this link.
 
 ### Select from media library
 
-Files that are already in the [Media Library](Media_center.de.md),
+Files that are already in the [Media Center](../personal_menu/Media_Center.md),
 can be added to an entry. The search and filter options
 help to find the desired file faster.

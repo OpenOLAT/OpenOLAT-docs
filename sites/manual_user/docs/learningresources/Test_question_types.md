@@ -108,11 +108,11 @@ The scores can be defined as needed. You may even give points for the option "Un
 
 ## Gap text
 
-![Icon Gap text Question](assets/Icon_Lückentext_DE.png){ class=size24 }
+![Icon Gap text Question](assets/Icon_Lueckentext_DE.png){ class=size24 }
 
 In a gap text question the sought terms are replaced by empty fields, which need to be filled in by the participants.
 
-Gaps are added with the icon ![Icon Gap text Question](assets/Icon_Lückentext_DE.png){ class=size16 } in the editor and with a click on the gap it can be edited.
+Gaps are added with the icon ![Icon Gap text Question](assets/Icon_Lueckentext_DE.png){ class=size16 } in the editor and with a click on the gap it can be edited.
 
 For every gap the following attributes can be filled in:
 
