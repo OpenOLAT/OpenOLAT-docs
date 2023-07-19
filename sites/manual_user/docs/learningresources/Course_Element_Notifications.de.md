@@ -17,15 +17,26 @@ Mitglieder oder Gruppen) erfolgen soll und ob die jeweilige Mitteilung sofort od
 
 ## Konfiguration im Kurseditor Tab "Mitteilungs-Konfiguration"
 
- **Anzeige:** 
- Hier wird definiert wie lange eine Mitteilung angezeigt wird und wie viele Mitteilungen maximal angezeigt werden. 
+ **Anzeige:** Die maximale Anzahl Tage legt fest, wie lange (in Tagen) die
+Mitteilungen im Kurs angezeigt werden. Die maximale Anzahl Mitteilungen legt
+fest, wie viele Mitteilungen gleichzeitig im Kurs angezeigt werden.
 
- **Automatisch abonnieren:** 
- Ist der Haken gesetzt werden Mitteilungen automatisch für die Teilnehmenden aktiviert (Standardeinstellung).  
+ **Automatisch abonnieren:** Standardmässig wird der Kursbaustein automatisch
+von Kursbesuchern abonniert. Diese Option können Sie hier ausschalten, so dass
+Kursbesucher Mitteilungen manuell abonnieren können.
 
 :octicons-device-camera-video-24: **Video-Einführung**: [Abonnements](<https://www.youtube.com/embed/h9gOqt7TR7Q>){:target="_blank”}
 
-Im Bereich "Berechtigungen" kann definiert werden welche Kursrollen Mitteilungen verfassen und verwalten dürfen. Kursbesitzer können grundsätzlich Mitteilungen verfassen und verwalten. 
+Im Bereich "Berechtigungen" kann definiert werden welche Kursrollen Mitteilungen verfassen und verwalten dürfen. Kursbesitzer können grundsätzlich Mitteilungen verfassen und verwalten.
+
+Mitteilungen können im persönlichen Menü unter "Abonnements" eingesehen
+werden. Die Anzahl angezeigter Mitteilungen kann im Kurseditor eingestellt
+werden.
+
+Standardmässig dürfen nur Betreuer und Besitzer Mitteilungen erstellen. Alle
+Kursteilnehmer dürfen jedoch Mitteilungen lesen. Im Tab „Mitteilungs-
+Konfiguration“ können Sie diese Einstellung Ihren Wünschen entsprechend
+anpassen.
 
 !!! info "Hinweis"
 
