@@ -4,31 +4,29 @@
 
 ![coaching_auftragsverwaltung_v1_de.png](assets/coaching_auftragsverwaltung_v1_de.png){ class="shadow lightbox" }
 
-Dieses Menü bezieht sich auf den Korrektur-Workflow für die manuelle Bewertung von OpenOlat Tests. In der Lernressource Test kann der Korrektur-Workflow aktiviert werden. Sie können dann Tests eine oder mehrere Personen als Korrektoren zuordnen. Sofern Sie mindestens Besitzer eines Tests sind, bei dem diese Option aktiviert wurde, sehen Sie im Coaching Tool die Auftragsverwaltung und können die einzelnen Korrektoren und ihre Aktivitäten verwalten.
+This menu refers to the correction workflow for the manual assessment of OpenOlat tests. The correction workflow can be activated in the learning resource "Test". You can then assign one or more people to tests as correctors. If you are at least the owner of a test for which this option has been activated, you will see the order management in the Coaching Tool and be able to manage the individual correctors and their activities.
 
-### 1. Tab Korrektoren
+### 1. Tab Correctors
 
-Hier erhalten Sie einen Überblick über alle Ihre Korrektoren und deren Bewertungsstand und können die Korrektoren auch nach verschiedenen Kriterien z.B. für bestimmte Kurse, konkrete Tests oder noch offene Bewertungen filtern.
+Here you get an overview of all your correctors and their grading status. You can also filter the correctors according to various criteria, e.g. for specific courses, concrete tests or open assessments.
 
-Über die entsprechende Spaltenauswahl kann man sich anzeigen lassen, wie viele Tests ein Korrektor insgesamt bewerten soll, wie viele er schon erledigt hat, wie viele offen sind und welche überfällig sind und welche Korrekturzeit vorgesehen ist. Ferner können auch weitere Korrektoren einem Test hinzugefügt oder bestehende Zuordnungen deaktiviert werden.
+The corresponding column selection can be used to display how many tests a graders should grade in total, how many they have already completed, how many are open and which are overdue, and what correction time is planned. Furthermore, additional correctors can be added to a test or existing assignments can be deactivated.
 
-Ein Hinzufügen von Korrektoren ist ebenfalls direkt bei der jeweiligen
-[Test-Lernressource](../learningresources/Test_settings.de.md) möglich.
+It is also possible to add correctors directly to the respective [test learning resource](../learningresources/Test_settings.de.md).
 
 
-### 2. Tab Korrekturaufträge
+### 2. Tab Grading assignments
 
-Dieser Tab erscheint nur wenn man als Korrektor für einen Test eingetragen wurde. Man sieht eine Übersicht der Tests in den verschiedenen Kursen, die man noch manuell prüfen und korrigieren muss. Je nach Einstellung in der Lernressource "Test", erfolgt die Bewertung anonym oder nicht.
+This tab only appears if you have been entered as a corrector for a test. You see an overview of the tests in the different courses that you still have to check and correct manually. Depending on the setting in the learning resource "Test", the assessment is anonymous or not.
 
 ![Meine Korrekturaufträge](assets/Meine_Korrekturauftraege.png){ class="shadow lightbox" }
 
-Über den Link „Korrigieren“ gelangt der Korrektor direkt zum zu korrigierenden Test und kann hier manuelle Bewertungen vornehmen und auch automatische Bewertungen, wenn notwendig, überschreiben. Sinnvoll ist es auch einen entsprechenden Kommentar zu hinterlassen.
+Via the link "Correct", the corrector can directly access the test to be corrected and can make manual evaluations here and also overwrite automatic evaluations if necessary. It also makes sense to leave a corresponding comment.
 
-Lernressourcenverwalter oder Kursbesitzer erhalten im Menü "Korrekturaufträge" eine Übersicht mit allen Korrektoren und deren Korrekturaufträgen. Inklusive der Anzeige, wie viele Aufträge noch offen bzw. überfällig sind.
-
+Learning resource administrators or course owners receive an overview of all correctors and their correction orders in the menu "Correction orders". This includes a display of how many assignments are still open or overdue.
 ![Coching Tool Auftragsverwaltung](assets/Auftragsverwaltung_Korrekturauftraege.png){ class="shadow lightbox" }
 
 
-### 3. Tab Offene Zuweisungen
+### 3. Tab Open grade assignments
 
 tbd
