@@ -2,13 +2,13 @@
 
 # Coaching - Classes
 
-!!! info "Hinweis"
+!!! info "Hint"
 
-    Dieses Werkzeug wird im Coaching Tool nur angezeigt, wenn vom Administrator das Modul Curriculum aktiviert wurde.
+    This tool will only be shown in the coaching tool, if the administrator has activated the curriculum module.
 
 ![coaching_klassen_v1_de.png](assets/coaching_klassen_v1_de.png){ class="shadow lightbox" }
 
-Im Curriculum besteht die Möglichkeit, einer Person die Rolle der Klassenlehrerin bzw. des Klassenlehrers zuzuweisen. Für jedes Curriculumelement kann dies eine andere Person sein.
+In the curriculum you can assign a person the role of head teacher. For every other curriculum element, this can be a different person.
 
-Im Coachingtool werden dann Ihre Klassen angezeigt.
+Your classes will be displayed in the coaching tool.
 
