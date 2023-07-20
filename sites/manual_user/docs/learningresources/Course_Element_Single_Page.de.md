@@ -1,12 +1,8 @@
-# Kursbaustein "Einzelne Seite"
+# Kursbaustein "Einzelne Seite" {: #single_page}
 
 ![single page icon](assets/single_page.png)
 
-Im Kursbaustein „Einzelne Seite“ können Sie HTML und PDF-Dateien direkt in die
-Kursstruktur einbinden. Geben Sie auf diesem Weg beispielsweise zentrale
-Informationen, den Kursablauf oder Literaturtipps zu Ihrem Kurs bekannt oder
-platzieren Sie Inhalte wie Bilder oder Videos gezielt im Kurs. Die Dateien
-selbst werden dabei im [Ablageordner ](../learningresources/Storage_folder.de.md)des Kurses angelegt.
+Im Kursbaustein „Einzelne Seite“ können Sie HTML und PDF-Dateien direkt in die Kursstruktur einbinden. Geben Sie auf diesem Weg beispielsweise zentrale Informationen, den Kursablauf oder Literaturtipps zu Ihrem Kurs bekannt oder platzieren Sie Inhalte wie Bilder oder Videos gezielt im Kurs. Die Dateien selbst werden dabei im [Ablageordner](../learningresources/Storage_folder.de.md) des Kurses angelegt.
 
 !!! info "Info"
 
@@ -28,8 +24,7 @@ automatisch erstellte Datei trägt bereits den Namen des Kurselements. Einmal an
 ![html editor](assets/html_editor.png)
 
 Im HTML Editor können Sie neben den verschiedenen Formatierungen auch
-Verlinkungen zu Bildern, Videos, den einzelnen Kursbausteinen des Kurses und
-zu den Tools in der [Toolbar](../learningresources/Using_Additional_Course_Features.de.md) einfügen.
+Verlinkungen zu Bildern, Videos, den einzelnen Kursbausteinen des Kurses und zu den Tools in der [Toolbar](../learningresources/Using_Additional_Course_Features.de.md) einfügen.
 
 Sie können auch Dateien die Sie zuvor erstellt haben in den Ablageordner des
 Kurses hochladen oder einen Ressourcenordner mit dem Kurs und dem Ablageordner
@@ -39,12 +34,9 @@ Dateien über den Kursbaustein "Einzelne Seite" verlinken und so in Ihren Kurs
 einbinden. Dieser Weg empfiehlt sich, wenn Sie die Strukturierung des
 Ablageordners selbst beeinflussen möchten.
 
-Mit der "Einzelnen Seite" können auf verschiedene Weise Videos und Audios in
-den Kurs eingebunden werden. Detaillierte Information finden Sie
-[hier](../learningresources/Single_Page_Add_edit_video.de.md).
+Mit der "Einzelnen Seite" können auf verschiedene Weise Videos und Audios in den Kurs eingebunden werden. Detaillierte Information finden Sie [hier](../learningresources/Single_Page_Add_edit_video.de.md).
 
-Die Dateien können bei Bedarf später auch 
-wieder ausgetauscht werden.
+Die Dateien können bei Bedarf später auch wieder ausgetauscht werden.
 
 !!! warning "Achtung"
 
@@ -70,49 +62,48 @@ optimiert für OpenOlat angezeigt werden soll. Der Anzeigemodus „Optimiert fü
 OpenOlat“ gestattet Ihnen z.B. das Kurslayout auf den Seiteninhalt anzuwenden,
 oder ein in den Kurs eingebundenes [Glossar](../learningresources/Using_Additional_Course_Features.de.md#glossary) für die Seite zu aktivieren.
 
-Folgende Einstellungen für den Kursbaustein "Einzelne Seite" vorgenommen werden. 
+Folgende Einstellungen für den Kursbaustein "Einzelne Seite" vorgenommen werden.
 
- **Anzeigemodus:** 
+ **Anzeigemodus:**
 
- Wählen Sie den Modus "Standard" um die Ressource unverändert anzuzeigen. Dieser Modus ist geeignet für Ressourcen, bei denen es im Modus "Optimiert für OpenOlat" zu Anzeigeproblemen kommt, was vor allem bei
+Wählen Sie den Modus "Standard" um die Ressource unverändert anzuzeigen. Dieser Modus ist geeignet für Ressourcen, bei denen es im Modus "Optimiert für OpenOlat" zu Anzeigeproblemen kommt, was vor allem bei
 extern erstelltem Inhalt passieren kann, wie z.B. HTML5 Seiten. Wählen Sie den
 Modus "Optimiert für OpenOlat", wenn Sie das Kurslayout in der Seite einbinden
 wollen, eine JavaScript Bibliothek verwenden möchten, das OpenOlat Glossar auf
 dieser Seite anwenden wollen oder die Höhe der Seite automatisch berechnet
 werden soll. Bei SCORM Modulen ist der Modus "Standard" empfohlen.
 
- **JavaScript hinzufügen:** 
- 
+ **JavaScript hinzufügen:**
+
 Um die Funktionen des Anzeigemodus "Optimiert für OpenOlat" nutzen zu können muss die JavaScript Bibliothek "jQuery" aktiviert
 sein. Die Option "Prototype" sollte nur gewählt werden, wenn Ihre Inhalte
 diese Bibliothek voraussetzen. Wählen Sie keine Bibliothek, wenn es zu Anzeigeproblemen mit Ihren Inhalten kommt.
 
- **Glossarbegriffe einbinden:** 
- 
+ **Glossarbegriffe einbinden:**
+
 Wählen Sie diese Option um die Möglichkeit der
 Hervorhebung von Glossarbegriffen für Ihre HTML-Seiten zu aktivieren sofern
 Sie ein Glossar in Ihrem Kurs eingebunden haben. Diese Option setzt die
 Verwendung der JavaScript Bibliothek "jQuery" voraus.
 
- **Höhe Anzeigefläche:** 
+ **Höhe Anzeigefläche:**
 
 Mittels des Drop-Down-Menus können Sie die Höhe der Inhalte bestimmen. Sie haben die Möglichkeit, diese via "Automatisch" auf die
 jeweilige Fensterhöhe zu setzen oder auf einen bestimmten Wert zu setzen.
 
- **Layout anpassen:** 
+ **Layout anpassen:**
 
 Wählen Sie die Option "OpenOlat Stylesheets" um das OpenOlat und Kurslayout in Ihre Seite zu übernehmen (Schriftart, Farben,
-Grösse etc). Wenn Sie diese Anpassung nicht wünschen wählen Sie die Option
-"Keine".
+Grösse etc). Wenn Sie diese Anpassung nicht wünschen wählen Sie die Option "Keine".
 
- **Zeichensatz Inhalt:** 
- 
+ **Zeichensatz Inhalt:**
+
 OpenOlat versucht, den Zeichensatz automatisch zu erkennen. Wenn die Option "Automatisch" nicht zu der gewünschten Anzeige
 führt, kann die Kodierung des Inhalts anhand eines vordefinierten
 Zeichensatzes konfiguriert werden (ist keine Kodierung vorhanden, wird per Default der Zeichensatz ISO-8899-1 verwendet).
 
- **Zeichensatz JavaScript:** 
- 
+ **Zeichensatz JavaScript:**
+
 Erlaubt die Kodierung des JavaScript Codes anhand eines vordefinierten Zeichensatzes (per Default wird der gleiche Zeichensatz
 für Inhalt und JavaScript verwendet).
 
@@ -120,7 +111,7 @@ für Inhalt und JavaScript verwendet).
 
     In der Regel sind im Tab "Layout" keine Änderungen notwendig. Die Standardeinstellungen passen für 90% der Kurse.
 
-#  Mehrere Einzelseiten
+# Mehrere Einzelseiten
 
 ![wizard icon](assets/wizard_434343_64.png)
 
@@ -136,22 +127,20 @@ verändert werden.
 
 Die Funktion "Mehrere Einzelseiten" bietet sich an, wenn Sie bereits mehrere
 HTML-Dateien bzw. komplexe Hypermedia-Dateien extern erstellt und im
-[Ablageordner ](../learningresources/Storage_folder.de.md)des Kurses abgelegt haben. Achten Sie bei
+[Ablageordner](../learningresources/Storage_folder.de.md) des Kurses abgelegt haben. Achten Sie bei
 komplexen Seiten mit diversen Verlinkungen zu Grafiken u.ä. darauf die Option
 "Link im gesamten Ablageordner erlauben" zu aktivieren. Ferner sollten Sie die
 Dateinamen möglichst schon so benennen wie Sie später im Kurs erscheinen
 sollen, da der Dateiname als Kursbaustein Titel verwendet wird.
 
-Mehrere Einzelseiten lassen sich auch sehr gut mit einem [Kursbaustein "Struktur"](Course_Element_Structure.de.md)
-bündeln. So können automatisch Übersichtsseiten für die jeweiligen Inhalte
+Mehrere Einzelseiten lassen sich auch sehr gut mit einem [Kursbaustein "Struktur"](Course_Element_Structure.de.md) bündeln. So können automatisch Übersichtsseiten für die jeweiligen Inhalte
 erstellt werden und die Einzelnen Seiten besser strukturiert werden.
 
 ## Einzelne Seite: Video hinzufügen / editieren
 
 ![video.png](assets/add_video.png)
 
-Eine weitere Möglichkeit Videos in OLAT Kursen einzubinden ist die Verwendung
-des Kursbausteins „**Einzelne Seite**“.
+Eine weitere Möglichkeit Videos in OLAT Kursen einzubinden ist die Verwendung des Kursbausteins „**Einzelne Seite**“.
 
 Im Kursbaustein "Einzelne Seite" steht Ihnen ein Editor zur Verfügung über den
 Sie auch Videos in eine HTML-Seite einbinden können. Im Tab "Seiteninhalt"
@@ -160,14 +149,12 @@ editieren".
 
 ![video_button.png](assets/video_button.png)  
 
-Für die Anzeige greift das Tool auf den in OpenOlat integrierten Mediaplayer
-zurück, was einige Vorteile hat.  
-1. Der Player erkennt das Format selbst, solange die Video- und Audio-Daten
-richtig codiert sind.  
+Für die Anzeige greift das Tool auf den in OpenOlat integrierten Mediaplayer zurück, was einige Vorteile hat.  
+
+1. Der Player erkennt das Format selbst, solange die Video- und Audio-Daten richtig codiert sind.  
 2. Der Player erkennt, ob ein Benutzer mit einem HTML5-fähigen und Codec-
 kompatiblen mobile-Browser auf das Video zugreift. In dem Fall werden die
-Filme mit einem HTML5-Tag versehen und können problemlos auch auf iPad o.ä.
-angezeigt werden.  
+Filme mit einem HTML5-Tag versehen und können problemlos auch auf iPad o.ä. angezeigt werden.  
 
 !!! tip "Tipp"
 
@@ -184,13 +171,11 @@ Video-Codec für Video und dem **mp3** Audio-Codec für Audio etabliert.
 Aktuelle Versionen von Firefox, Chrome und Safari können solche Videos
 abspielen.
 
-  
-
 Die folgenden Optionen stehen Ihnen zur Verfügung
 
 ![video_typen.png](assets/Video_Audio_Typen_DE.png)
 
-| Option |  Beschreibung  | 
+| Option |  Beschreibung  |
 ---|---  
 Video | Einbindung eines Videos mit spezifischer Codierung.  
 Musik | Einbindung eines Audio-Files ohne Video.  
@@ -204,8 +189,8 @@ Diese Einstellung eignet sich für die Integration von Videos auf OpenOlat am
 Besten. Als Container-Formate, d.h. die Formate die hochgeladen werden können,
 eignen sich die folgenden Kennzeichnungen:
 
-| Format Container | Bezeichnung des Containers | Beschreibung  | 
-| ---|---|---  | 
+| Format Container | Bezeichnung des Containers | Beschreibung  |
+| ---|---|---  |
 | .FLV | Flash Container | Flash-Videos mit Video und Audio, von Adobe definiert (Achtung: Flash Player
 muss aktiviert sein)  
   .F4V | | Kein Container, sondern reines Video-Format ohne Audio, von Adobe definiert  
@@ -231,7 +216,7 @@ Fortschrittsanzeige, Funktionen wie Vollbild fehlen hier.
 
 Im Feld „Adresse“
 kann entweder ein Link auf ein mp3-File eingegeben werden oder man lädt eine
-Datei auf OpenOlat hoch. 
+Datei auf OpenOlat hoch.
 
 !!! check ""
 
@@ -239,14 +224,11 @@ Datei auf OpenOlat hoch.
 
 #### YouTube  
 
-YouTube Filme werden direkt verlinkt, d.h. die Auswahlbox für das Hochladen
-einer Datei wird hier nicht benötigt. Videos können mit dieser Konfiguration
-**direkt integriert** werden.
+YouTube Filme werden direkt verlinkt, d.h. die Auswahlbox für das Hochladen einer Datei wird hier nicht benötigt. Videos können mit dieser Konfiguration **direkt integriert** werden.
 
 ![einbinden_youtube.png](assets/youtube_embed_DE.png)  
 
-Benutzen Sie als "Adresse" einen direkten Link zu dem Video, erhältlich unter
-dem Link "Teilen"
+Benutzen Sie als "Adresse" einen direkten Link zu dem Video, erhältlich unter dem Link "Teilen"
 
 ![teilen_youtube.png](assets/youtube_share.png)
 
@@ -263,15 +245,11 @@ Einen direkten Link zum Vimeo-Video finden Sie unter dem Link "**Share**".
 
 #### Nanoo.tv
 
-Videos von der Plattform [Nanoo.tv](https://portal.nanoo.tv/) können direkt
-verlinkt werden. Für die Nutzung und Anzeige der Videos ist ein Nanoo.tv-
-Account notwendig.
+Videos von der Plattform [Nanoo.tv](https://portal.nanoo.tv/) können direkt verlinkt werden. Für die Nutzung und Anzeige der Videos ist ein Nanoo.tv-Account notwendig.
 
 ![nanootv.png](assets/Nanoo_tv_DE.png)
 
-Über die URL kann - unabhängig vom Browser - gesteuert werden, ob das Video
-sofort automatisch startet oder nicht. Dafür muss die URL hinter /link/
-entsprechend angepasst werden.
+Über die URL kann - unabhängig vom Browser - gesteuert werden, ob das Video sofort automatisch startet oder nicht. Dafür muss die URL hinter /link/ entsprechend angepasst werden.
 
   * automatisch starten mit "n": https://www.nanoo.tv/link/ **n** /sdxpLoaC
   * manuell starten mit "v": https://www.nanoo.tv/link/ **v** /sdxpLoaC
@@ -320,9 +298,4 @@ sorgen, dass in dem HTML Tags verschiedene alternative Videoformate angegeben
 wurden (z.B. m4v und ogg) und diese allenfalls auch in unterschiedlichen
 Auflösungen in OpenOlat abgelegt werden.
 
-OpenOlat unterstützt in diesem Fall das Pseudo-Streaming mittels Progressive
-Download bzw. Range-Requests.  
-
-
-  
-
+OpenOlat unterstützt in diesem Fall das Pseudo-Streaming mittels Progressive Download bzw. Range-Requests.  

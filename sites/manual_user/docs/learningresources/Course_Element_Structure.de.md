@@ -1,23 +1,21 @@
 # Kursbaustein "Struktur"
 
+![structure icon](assets/structure.png)
 
-![](assets/structure.png)
+Der Kursbaustein Struktur dient vorrangig der Gliederung und Strukturierung des Kurses. Er bietet standardmässig eine automatische Übersicht über alle ihm untergeordneten Kursbausteine mit deren Kurztitel, Titel und Beschreibungen. Verwenden Sie diesen Kursbaustein, um Ihre Kursinhalte zu gliedern und/oder Module klar zu trennen.
 
-Der Kursbaustein Struktur dient vorrangig der Gliederung und Strukturierung
-des Kurses. Die konkreten Einstellungsmöglichkeiten sind davon abhängig, ob
-der Kursbaustein in herkömmlichen oder in Lernpfad Kursen verwendet wird
+Die konkreten Einstellungsmöglichkeiten sind davon abhängig, ob der Kursbaustein in herkömmlichen oder in Lernpfad Kursen verwendet wird.
 
- **Tabs in Lernpfad Kursen**
+**Tabs in Lernpfad Kursen**
 
 ![herkömmliche Struktur](assets/Struktur_herkoemmlich.png)
 
- **Tabs in herkömmlichen Kursen**
+**Tabs in herkömmlichen Kursen**
 
 ![Lernpfad Struktur](assets/Struktur_Lernpfad.png)
 
 Weitere Informationen zu den allgemeinen Tabs "Titel und Beschreibung",
-Layout" sowie "Sichtbarkeit" und "Zugang" finden Sie
-[hier](../learningresources/General_Configuration_of_Course_Elements.de.md).
+Layout" sowie "Sichtbarkeit" und "Zugang" finden Sie [hier](../learningresources/General_Configuration_of_Course_Elements.de.md).
 
 ## Tab Übersicht
 
@@ -46,16 +44,14 @@ konfigurieren. Sie können einen Gratulationstitel, ein Siegertreppchen, ein
 Histogramm sowie eine Bestenliste anzeigen lassen. Auch eine anonymisierte
 Darstellung ist hier möglich.
 
-Einen Sonderfall des Bausteins Struktur stellt der Hauptkursknoten dar. Er
-enthält zusätzlich den Tab
-"[Erinnerungen](../learningresources/Course_Reminders.de.md)" und kann weder gelöscht
+Einen Sonderfall des Bausteins Struktur stellt der Hauptkursknoten dar. Er enthält zusätzlich den Tab "[Erinnerungen](../learningresources/Course_Reminders.de.md)" und kann weder gelöscht
 noch verschoben werden.
 
 ## Spezielle Einstellungen des Kursbausteins Struktur je nach Kurstyp
 
 ## Einstellungen für herkömmliche Kurse
 
-###  Tab Punkte   {: #score}
+### Tab Punkte   {: #score}
 
 Der Kursbaustein Struktur bietet sich auch an um Punkte, die in anderen
 bewertbaren OpenOlat Kursbausteinen (z.B.  _Bewertung_ , _Gruppen-/Aufgabe,
@@ -84,14 +80,12 @@ Kursbaustein _Struktur_ ein _«Bestanden»_ angezeigt, wenn die Punktesumme
 obiger Kursbausteine grösser oder gleich gross wie das von Ihnen gewählte
 Punkteminimum ist.
 
-Wenn Sie _«Von Bausteinen übernehmen»_ wählen, werden Ihnen unter **Bestanden
-von** die bewertbaren Kursbausteine Ihres Kurses angezeigt. Sie können nun
+Wenn Sie _«Von Bausteinen übernehmen»_ wählen, werden Ihnen unter **Bestanden von** die bewertbaren Kursbausteine Ihres Kurses angezeigt. Sie können nun
 diejenigen anwählen, deren Bestanden-Wert mit einer boolschen UND-Verknüpfung
 den Bestanden-Wert des Kursbausteins _Struktur_ bilden sollen. D.h. damit der
 Kursbaustein _Struktur_ ein _«Bestanden»_ anzeigt, müssen alle gewählten
 Kursbausteine ein _«Bestanden»_ aufweisen.
-
- **Nicht bestanden berechnen?:  **Es ist auch möglich gezielt ein "nicht
+**Nicht bestanden berechnen?:** Es ist auch möglich gezielt ein "nicht
 bestanden" zu berechnen.
 
 ![nicht bestanden berechnen](assets/nicht_bestanden_berechnen.png)
