@@ -176,6 +176,7 @@ nav:
       - card2brain Flashcards: "learningresources/Course_Element_card2brain_Flashcards.md"
       - Mediasite: "learningresources/Course_Element_Mediasite.md"
       - Edubase: "learningresources/Course_Element_Edubase.md"
+      - JupyterHub: "learningresources/Course_Element_JupyterHub.md"
       - Assessment: "learningresources/Course_Element_Assessment.md"
       - Task: "learningresources/Course_Element_Task.md"
       - Task - Further Configurations: "learningresources/Task_Further_Configurations.md"
