@@ -4,24 +4,24 @@
 
 ![coaching_gruppen_v1_de.png](assets/coaching_gruppen_v1_de.png){ class="shadow lightbox" }
 
-### 1. WEN zeigt die Liste?
-Der Menüpunkt "Gruppen" zeigt die Liste aller von Ihnen betreuten Gruppen, jedoch nur Gruppen aus Kursen, die sich im Coaching Tool befinden.
+### 1. WHOM does the list show?
+The menu item "Groups" shows the list of all groups you are coaching, which are located in the Coaching tool.
 
-Im Unterschied zur Teilnehmer- und Kursübersicht (A und C) erscheinen in der Gruppenübersicht (B) nur die OpenOlat-Benutzer, die in einer der kursbezogene Gruppen eingetragen sind.
+In contrast to the participant and course overview (A and C), only the OpenOlat users who are registered in one of the course-related groups appear in the group overview (B).
 
-### 2. WAS zeigt die Liste?  
+### 2. WHAT does the list show?  
 
-Sie sehen auf einen Blick,
+You will see at once:
 
-* in wie vielen Kursen die jeweilige Gruppe eingebunden ist,
-* ob sich alle Gruppenmitglieder schon mindestes einmal in die Gruppe eingeloggt haben,
-* wie viele Teilnehmende die Gruppe insgesamt hat,
-* und wie viele Gruppenmitglieder den dazugehörigen Kurs bereits bestanden haben. (Sofern ein Bestehen im Kurs konfiguriert wurde.)
+* How many courses the respective group is involved in.
+  Whether all group members have already logged into the group at least once.
+* How many participants the group has in total.
+* And how many group members have already passed the associated course. (If a pass has been configured in the course).
 
-Ein Klick auf einen Gruppennamen öffnet die Liste der Gruppenmitglieder mit weiteren Informationen zum Punktestand, Zertifikat usw.<br>
-Wenn Sie dann auf einen Benutzernamen klicken, öffnet sich wiederum die benutzerspezifische Übersicht:
+Clicking on a group name opens the list of group members with further information on the score, certificate, etc. <br>
+If you then click on a user name, the user-specific overview opens:
 
-* Sie erhalten Zugriff auf das Bewertungswerkzeug der Person für den zugehörigen Kurs
-* und Sie haben Zugriff auf die Lektionen und den jeweiligen Leistungsnachweis, sofern aktiviert.
+* You get access to the person's assessment tool for the corresponding course.
+* Additionally, you have access to the lessons and the corresponding Evidence of achievement, if activated.
 
-Auf diesem Weg können Sie also auch Gruppenmitglieder bewerten.
+This way you can also assess group members.
