@@ -2,16 +2,9 @@
 
 ![scorm learning content icon](assets/scorm.png)
 
-SCORM steht für „Sharable Content Object Reference Model“ und ist ein weiteres
-standardisiertes E-Learning-Format, das von OpenOlat unterstützt wird.
-Verwenden Sie den Kursbaustein „SCORM-Lerninhalt“, um einen Lerninhalt im
-SCORM-Format (SCORM Version 1.2) in Ihren Kurs einzubinden. Das SCORM-Paket
-muss extern erstellt werden, beispielsweise mit [eLML](http://www.elml.org
-"eLML").
+SCORM steht für „Sharable Content Object Reference Model“ und ist ein standardisiertes E-Learning-Format für interaktive E-Learning Module, das von OpenOlat unterstützt wird. Über den Kursbaustein "SCORM Lerninhalt" können SCORM-Pakete (SCORM Version 1.2) in OpenOlat Kurse eingebunden werden. Das SCORM-Paket muss extern erstellt werden, beispielsweise mit [eLML](http://www.elml.org "eLML").
 
-Gehen Sie in Ihren Kurs und fügen Sie einen Kursbaustein "SCORM-Lerninhalt"
-dem Kurs hinzu. Anschließend können Sie im Tab "Lerninhalt" die weitere
-Konfiguration vornehmen.
+Gehen Sie in Ihren Kurs und fügen Sie einen Kursbaustein "SCORM-Lerninhalt" dem Kurs hinzu. Anschließend können Sie im Tab "Lerninhalt" die weitere Konfiguration vornehmen.
 
 ## Tab Lerninhalt
 
