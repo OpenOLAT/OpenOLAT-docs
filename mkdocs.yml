@@ -255,12 +255,9 @@ plugins:
           Form : Formular
           Form editor (Questionnaire editor) : Formular Editor
           Forms in Courses : Formulare in Kursen
-          Forms in Forms Element : Formular in Formularen
-          Forms in Questionnaires : Formular in Umfragen
           Forms in Rubric Scoring : Formular als Rubrik Bewertung
           Forms in the ePortfolio template : Formular in der Portfolio 2.0 Vorlage
           Forum : Forum
-          Forum - Working with Forums : Forum - Arbeiten mit Foren
           Four Steps to Your Blog : Vier Schritte zu Ihrem Blog
           Four Steps to Your Podcast : Vier Schritte zu Ihrem Podcast
           Four Steps to Your Test or Self-test : Vier Schritte zu Ihrem Test oder Selbsttest
@@ -278,6 +275,7 @@ plugins:
           Group Management : Gruppenverwaltung
           Group Scenarios : Gruppenszenarien
           Groups : Gruppen
+          Grouptask : Gruppenaufgabe
           Guest access : Gastzugang
           Guest and invitation : Gast und Einladung
           Häufig gestellte Fragen  : Häufig gestellte Fragen
@@ -369,8 +367,6 @@ plugins:
           Portfolio - General Information : Allgemeines zum Portfolio
           Portfolio assignment Grading : Portfolioaufgabe kommentieren und bewerten
           Portfolio Task: Portfolioaufgabe
-          Portfolio Task - creating : Portfolioaufgabe - Erstellen
-          Portfolio Task - collecting and editing : Portfolioaufgabe - Abholen und bearbeiten
           Portfolio template Administration and editing : Portfoliovorlage Administration und Bearbeitung
           Portfolio template Creation : Portfoliovorlage Erstellung
           Portfolio 2.0 Template : Portfolio 2.0 Vorlage
@@ -418,14 +414,10 @@ plugins:
           Tab users : Tab Teilnehmer
           Table concept: Tabellenkonzept
           Task : Aufgabe
-          Task - Further Configurations : Aufgabe - Weitere Konfiguration
-          Task - Working with Tasks and Group Tasks : Aufgabe - Arbeiten mit Aufgaben und Gruppenaufgaben
           Technical Information on Resources and Usage : Automatische Informationen zur Lernressource
           Technology: Technologie
           Technology and Navigation : Technologie und Navigation
           Test : Test
-          Test - Working with Tests : Test - Arbeiten mit Tests
-          Test - Tests at course level : Test - Tests auf Kursebene
           Test editor QTI 2.1 : Testeditor
           Test question types : Test Fragetypen
           Test settings : Test Einstellungen
@@ -440,7 +432,6 @@ plugins:
           Timeline : Timeline
           To-dos : To-dos
           Topic assigment : Themenvergabe
-          Topic assigment - Working with Topic Assignment : Themenvergabe - Arbeiten mit der Themenvergabe
           Transfer files using WebDAV : Dateien mittels WebDAV übertragen
           Types of Course Element : Kursbausteine
           User management : Benutzerverwaltung
@@ -461,7 +452,6 @@ plugins:
           Virtual classrooms : Virtuelle Klassenzimmer
           WebDAV : WebDAV
           Wiki : Wiki
-          Wiki - Working with Wiki : Wiki- Arbeiten mit Wiki
           Working Processes : Allgemeine Arbeitsweisen
           Working With Course Elements : Arbeiten mit Kursbausteinen
           Working with tables : Mit Tabellen arbeiten
