@@ -36,7 +36,7 @@ implemented directly into the software (e.g. Microsoft Office).
 In order to get access to a folder in OpenOlat via WebDAV you need:
 
   * WebDAV link: WebDAV address of OpenOlat server as indicated below WebDAV compatible folders, or in your personal menu under Settings / WebDAV 
-  * Your OpenOlat username,
+  * Your OpenOlat username or e-mail adress
   * Your OpenOlat/WebDAV password.
 
 If you access OpenOlat via Shibboleth or another Cloud Login you can set your WebDAV password on
@@ -115,9 +115,12 @@ an OpenOlat password you can use this one to access WebDAV.
 If you have setup the connection successfully a directory will be opened on
 your computer containing the following sub-directories:
 
-  *  **coursefolders** : storage folder and folder course elements of all courses you own, or you are a member of. The storage folder is most and for all only visible to users holding author rights. All other users will find here course folders.
+  *  **coursefolders**: Hier haben Sie Zugriff auf die [Ablageordner](../learningresources/Storage_folder.md) aller Kurse, die Sie besitzen bzw. deren Mitglied sie sind. Für jeden Kurs wird automatisch ein Webdav-Ordner angelegt. Klicken Sie auf den Webdav-Ordner eines Kurses und Sie sehen die Dateien und die Struktur des jeweiligen Ablageordners und können Dateien hochladen, löschen, ändern usw. 
+  Neben denen von Ihnen angelegten Dateien und Ordnern legt OpenOlat je nach automatisch bestimmte Ordner an. Diese erreichen Sie ebenfalls über WebDAV.    
+  The storage folder is most and for all only visible to users holding author rights. All other users will find here course folders.
     * _other_: This folder only appears if in the administration semester terms are activated. In this folder all courses which are added to a term can be found. 
     * _finished_: This folder only appears if in the administration semester terms are not activated. In this folder all courses can be found, which have been set to finished in the course life-cycle. These are the courses which appear in the menu Courses in the tab "Finished". 
+
   *  **groupfolders** : all groups you are enrolled in and have access to corresponding folders.
   *  **home** : both of your personal folders (along with the sub-folders "private" and "public").
   *  **sharedfolders** : All resource folders you own or have otherwise access to due to membership rights. Owners and coaches may read and write, and participants may read but not write.

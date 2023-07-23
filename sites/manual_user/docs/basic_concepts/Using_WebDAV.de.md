@@ -129,8 +129,7 @@ Rechner ein Verzeichnis, das die folgenden Unterverzeichnisse enthält:
 
     * _beendet_: Dieser Ordner erscheint nur, wenn in der Administration die Semesterdaten nicht aktiviert sind. In diesem Ordner befinden sich alle Kurse, welche im Kurslebenszyklus auf beendet gesetzt worden sind. Das sind diejenigen Kurse, welche im Menu Kurse im Tab "Beendet" erscheinen.  
 
-    ![WebDav Konfiguration](assets/administration_webdav.png){ class="shadow" }
-
+  
   *  **groupfolders**: Hier finden Sie alle Gruppen in denen Sie eingetragen sind und auf deren Ordner Sie Zugriff haben.
   *  **home**: Ihre beiden persönlichen Ordner (mit den Unterordnern „private“ und „public“).
   *  **sharedfolders**: Alle Ressourcenordner, die Sie besitzen, oder auf die Sie aufgrund von Teilnehmerrechten zugreifen dürfen. Besitzer und Betreuer erhalten Lese- und Schreibrechte, Teilnehmer nur Leserechte.
