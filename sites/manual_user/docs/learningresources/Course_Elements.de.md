@@ -16,39 +16,39 @@ Die folgenden Kursbausteine dienen insbesondere der Bereitstellung und Strukturi
 
 <div class="grid cards" markdown>
 
-- [:fontawesome-solid-cubes: Struktur](Course_Element_Structure.de.md)
+-	[:fontawesome-solid-cubes: Struktur](Course_Element_Structure.de.md)
+
+    [:fontawesome-solid-file-lines: Seite](Course_Element_Page.de.md)
 
     [:fontawesome-regular-file-lines: HTML-Seite](Course_Element_Single_Page.de.md)
 
+    [:fontawesome-solid-up-right-from-square: Externe Seite](Course_Element_External_Page.de.md)
+
     [:fontawesome-solid-box-archive: CP-Lerninhalt](Course_Element_CP_Learning_Content.de.md)
+
+    [:fontawesome-solid-box-archive: SCORM-Lerninhalt](Course_Element_SCORM_Learning_Content.de.md)
 
     [:fontawesome-regular-file: Dokument](Course_Element_Document.de.md)
 
+    [:fontawesome-regular-folder-open: Ordner](Course_Element_Folder.de.md)
+
     [:fontawesome-solid-video: Podcast](Course_Element_Podcast.de.md)
 
-    [:fontawesome-solid-film: Video](Course_Element_Video.de.md)
+    [:fontawesome-solid-bullhorn: Blog](Course_Element_Blog.de.md)
+
+-	[:fontawesome-solid-film: Video](Course_Element_Video.de.md)
+
+    [:fontawesome-solid-video: Video Livestream](Course_Element_Video_Livestream.de.md)
 
     [:octicons-arrow-right-24: Opencast](Course_Element_Opencast.de.md)
 
     [:octicons-arrow-right-24: edu-sharing](Course_Element_edu_Sharing.de.md)
 
-    [:octicons-arrow-right-24: Edubase](Course_Element_Edubase.de.md)
-
-- [:fontawesome-solid-file-lines: Seite](Course_Element_Page.de.md)
-
-    [:fontawesome-solid-up-right-from-square: Externe Seite](Course_Element_External_Page.de.md)
-
-    [:fontawesome-solid-box-archive: SCORM-Lerninhalt](Course_Element_SCORM_Learning_Content.de.md)
-
-    [:fontawesome-regular-folder-open: Ordner](Course_Element_Folder.de.md)
-
-    [:octicons-arrow-right-24: Blog](Course_Element_Blog.de.md)
-
-    [:fontawesome-solid-video: Video Livestream](Course_Element_Video_Livestream.de.md)
+    [:octicons-arrow-right-24: card2brain](Course_Element_card2brain_Flashcards.de.md)
 
     [:octicons-arrow-right-24: MediaSite](Course_Element_Mediasite.md)
 
-    [:octicons-arrow-right-24: card2brain](Course_Element_card2brain_Flashcards.de.md)
+    [:octicons-arrow-right-24: Edubase](Course_Element_Edubase.de.md)
 
     [:octicons-arrow-right-24: JupyterHub](Course_Element_JupyterHub.de.md)
 
@@ -62,9 +62,9 @@ Folgende Kursbausteine können insbesondere zur Wissensüberprüfung eingesetzt 
 
 -	[:fontawesome-regular-thumbs-up: Bewertung](Course_Element_Assessment.de.md)
 
-    [:octicons-arrow-right-24: Aufgabe](Course_Element_Task.de.md)
+    [:fontawesome-solid-bars-progress: Aufgabe](Course_Element_Task.de.md)
 
-    [:octicons-arrow-right-24: Gruppenaufgabe](Course_Element_Grouptask.de.md)
+    [:fontawesome-solid-bars-progress: Gruppenaufgabe](Course_Element_Grouptask.de.md)
 
     [:fontawesome-solid-briefcase: Portfolioaufgabe](Course_Element_Portfolio_Task.de.md)
 
@@ -72,13 +72,13 @@ Folgende Kursbausteine können insbesondere zur Wissensüberprüfung eingesetzt 
 
     [:fontawesome-solid-square-pen: Selbsttest](Course_Element_Self_Test.de.md)
 
-    [:fontawesome-solid-futbol: Übung](Course_Element_Practice.de.md)
+-	[:fontawesome-solid-futbol: Übung](Course_Element_Practice.de.md)
 
     [:octicons-arrow-right-24: Video-Aufgabe](Course_Element_Video_Task.de.md)
 
-    [:octicons-arrow-right-24: Formular](Course_Element_Form.de.md)
+    [:material-clipboard-file-outline: Formular](Course_Element_Form.de.md)
 
-    [:octicons-arrow-right-24: Umfrage](Course_Element_Survey.de.md)
+    [:fontawesome-solid-sliders: Umfrage](Course_Element_Survey.de.md)
 
     [:fontawesome-regular-square-check: Checkliste](Course_Element_Checklist.de.md)
 
@@ -112,7 +112,7 @@ Kursbausteine dieser Kategorie werden vor allem für kollaboratives Arbeiten und
 
     [:fontawesome-regular-comments: Forum](Course_Element_Forum.de.md)
 
-    [:octicons-arrow-right-24: Dateidiskussion](Course_Element_File_Dialog.de.md)
+    [:material-file-multiple-outline: Dateidiskussion](Course_Element_File_Dialog.de.md)
 
     [:fontawesome-solid-inbox: Teilnehmer Ordner](Course_Element_Participant_Folder.de.md)
 
@@ -152,7 +152,7 @@ Für organisatorische Belange und zur Verteilung von Informationen eignen sich b
 
 <div class="grid cards" markdown>
 
--	[:octicons-arrow-right-24: Einschreibung](Course_Element_Enrolment.de.md)
+-	[:fontawesome-solid-right-to-bracket: Einschreibung](Course_Element_Enrolment.de.md)
 
     [:fontawesome-solid-circle-info: Mitteilungen](Course_Element_Notifications.de.md)
 
@@ -174,7 +174,7 @@ Zusätzliche Bausteine finden Sie in der Kategorie "Andere".
 
     [:fontawesome-regular-circle: Themenvergabe](Course_Element_Topic_Assignment.de.md)
 
-    [:octicons-arrow-right-24: E-Linkliste](Course_Element_Link_List.de.md)
+    [:octicons-link-24: Linkliste](Course_Element_Link_List.de.md)
 
 </div>
 
