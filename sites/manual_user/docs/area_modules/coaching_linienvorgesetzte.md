@@ -2,10 +2,10 @@
 
 # Coaching - Line managers
 
-!!! info "Hinweis"
+!!! info "Note"
 
-    Dieses Werkzeug wird im Coaching Tool nur angezeigt, wenn vom Administrator das Modul Organisation aktiviert wurde.
+    This tool is only displayed in the Coaching Tool if the Organisation module has been activated by the administrator.
 
 ![coaching_linienvorgesetzter_v1_de.png](assets/coaching_linienvorgesetzter_v1_de.png){ class="shadow lightbox" }
 
-Sind Sie Linienvorgesetzte/r, können Sie sich über die Lernfortschritte innerhalb ihrer Organisationseinheit informieren. Auch eine automatische Benachrichtigung über alle erhaltenen Zertifikate ist möglich.
+If you are a line manager, you can be informed about the learning progress within your organisational unit. Automatic notification of all certificates received is also possible.
