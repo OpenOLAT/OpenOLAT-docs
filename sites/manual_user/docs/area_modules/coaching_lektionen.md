@@ -2,15 +2,15 @@
 
 # Coaching - Lectures
 
-!!! info "Hinweis"
+!!! info "Note"
 
-    Dieses Werkzeug wird im Coaching Tool nur angezeigt, wenn vom Administrator das Modul Lektionen aktiviert wurde.
+    This tool is only displayed in the Coaching Tool if the Lessons module has been activated by the administrator.
 
-    Ausserdem muss mindestens 1 Lektionenblock vorhanden sein. (In mindestens einem Kurs muss unter den Einstellungen > Tab "Durchführung" > Abschnitt "Konfiguration Lektionen- und Absenzenmanagment im Kurs" das Lektionenmanagement eingeschaltet sein.
+    In addition, there must be at least 1 lesson block. (In at least one course, lesson management must be activated under Settings > Tab "Execution" > Section "Configuration of Lesson and Absence Management in the Course.)
 
-    Sind diese Voraussetzungen erfüllt, wird der zusätzliche Menüpunkt "Lektionen" im Coachingtool angezeigt.
+    If these requirements are met, the additional menu item " Lectures" is displayed in the coaching tool.
 
-    Siehe auch [Absenzmanagement](../learningresources/Lectures_and_absences.de.md)
+    See also [Absence management](../learningresources/Lectures_and_absences.de.md)
 
 
 ![coaching_lektionen0_v1_de.png](assets/coaching_lektionen0_v1_de.png){ class="shadow lightbox" }
@@ -18,31 +18,31 @@
 
 ### 1. Tab Cockpit
 
-Du findest im Tab „Cockpit“ eine Tagesübersicht, während im Tab „Lektionen“ alle deine Lektionenblöcke angezeigt werden. Auch die bereits abgeschlossenen.
+You will find a daily overview in the "Cockpit" tab, while all your lesson blocks are displayed in the "Lessons" tab. Even those that have already been completed.
 
-Im Cockpit kann ein bestimmter Termin ausgewählt und die zugehörigen Lektionen und Abwesenheiten im Überblick angezeigt werden. Über die angezeigte Übersicht und Klick auf den jeweiligen Kurs hat der Lehrende Zugriff auf weitere Informationen und kann auch die Absenzerfassung abschliessen.
+In the cockpit, a specific appointment can be selected and the associated lessons and absences can be displayed in an overview. Via the displayed overview and a click on the respective course, the teacher has access to further information and can also complete the absence detection.
 
-### 2. Tab Lektionen
+### 2. Tab Lesson
 
-Hier kann ein Zeitfenster ausgewählt und nach Stichworten gesucht werden. Es wird eine Übersicht der Lektionenblöcke für diese Zeitspanne angezeigt. Weitere Informationen zum Thema „Lektionen“ finden Sie
-[hier](../learningresources/Lectures_Teacher_view.de.md).
+A time slot can be selected here and it can be searched for keywords. An overview of the lesson blocks for this time period is displayed. Further information on the subject of "Lectures" can be found
+[here](../learningresources/Lectures_Teacher_view.de.md).
 
-### 3. Tab Absenzen
+### 3. Tab Absences
 
-Hier kann nach Benutzern, Dozenten, Kurstiteln und Lektionenblöcken gesucht werden. Es können die Absenzen bestimmter Personen für ein gewähltes Zeitfenster angezeigt werden. Je nach Bedarf können die Spalten sortiert werden. (Z.B. nach Kursen, Datum, entschuldigt, Namen, usw.)
+Here you can search for users, lecturers, course titles and lesson blocks. The absences of specific persons for a selected time slot can be displayed. The columns can be sorted according to your requirements. (E.g. by courses, date, excused, names, etc.)
 
-### 4. Tab Meldungen
+### 4. Tab Messages
 
-Hier kann nach Benutzern, Dozenten, Kurstiteln, Lektionenblöcken und der Art der Meldung gesucht werden.
+Here you can search for users, lecturers, course titles, lecture blocks and the type of report.
 
-Ähnlich wie im Tab Absenzen können hier Abmeldungen und Dispensen nach bestimmten Kriterien angezeigt und auch neue Dispensen erfasst werden.
+Similar to the Absences tab, cancellations and dispensations can be displayed here according to certain criteria and new dispenses can also be recorded.
 
 
-### 5. Tab Rekurse
+### 5. Tab Recourses
 
-Hier kann nach abgelehntem, angenommenem oder pendentem Status für einen bestimmten Zeitraum gesucht werden.
+Here you can search for rejected, accepted or pending status for a certain period of time.
 
-### 6. Tab Personensuche
+### 6. Tab User search
 
-Hier finden Sie die Standardsuche nach Personen.
+Here you will find the standard search for people.
 

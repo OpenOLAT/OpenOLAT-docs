@@ -1,10 +1,9 @@
 ![bereiche_coaching_v1_de.png](assets/bereiche_coaching_v1_de.png){ class="shadow lightbox" }
 
-# Coaching - Role user to user
+# Coaching - Role user-to-user
 
 ![coaching_personenbeziehungen_v1_de.png](assets/coaching_personenbeziehungen_v1_de.png){ class="shadow lightbox" }
 
-Mit der Benutzer-zu-Benutzerbeziehung in OpenOlat können in der Administration bzw. in der Benutzerverwaltung kursübergreifende Betreuungsfunktionen für beispielsweise Mentoren, Lernbegleiter und Vorgesetzte eingerichtet werden. Ist dies der Fall, können Betreuende im Coaching Tool einfach und übersichtlich auf die zu betreuenden Personen zugreifen und Bewertungen vornehmen.
+With the user-to-user relationship in OpenOlat, cross-course support functions can be set up in the administration or user management, for example for mentors, learning guides and supervisors. If this is the case, coaches can easily and clearly access the persons to be coached in the Coaching Tool and make assessments.
 
-Für jede Benutzer-zu-Benutzerbeziehung können spezifische Rechte definiert und somit der Zugriff auf explizit freigegebene Inhalte der Betreuten erteilt werden, wie z.B. Kursliste, Kalender, Absenzenübersicht, Leistungsnachweise und Zertifikate. Analog wird auch die Rolle "Linienvorgesetzter" im Coachingtool abgebildet. Hier kann ebenfalls auf definierte Inhalte von Benutzern der eigenen Organisationseinheit zugegriffen werden.
-
+Specific rights can be defined for each user-to-user relationship and thus access can be granted to explicitly released contents of the supervised persons, such as course list, calendar, absence overview, evidences of achievements and certificates. Similarly, the role of "line manager" is also mapped in the Coaching Tool. Defined contents of users of the own organisational unit can also be accessed here.
