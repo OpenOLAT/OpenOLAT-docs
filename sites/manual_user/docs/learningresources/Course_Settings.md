@@ -1,4 +1,5 @@
 # Course Settings
+
 The menu "Settings" of the "Administration" offers further central configurations for your OpenOlat course.
 
 Each [learning resource](../learningresources/index.md), not just courses, have a menu "Settings". Furthermore, the settings of conventional and learning path courses vary slightly.
@@ -10,18 +11,23 @@ Each [learning resource](../learningresources/index.md), not just courses, have 
 Via the tabs "Info", "Metadata", "Execution" and "Share" you can set up information that is visible in the course info page.
 
 ## Tab Info
+
 Here you define further information on the course or learning resource. This information is also visible to interested parties without course access under (Course)info. This includes, for example: Title, relevant description, certificate, cover image and teaser movie. The learning resource appears under the title in the alphabetical course list and for queries via the search mask. Further information can be found [here](../learningresources/Set_up_info_page.md).
 
 ## Tab Metadata
+
 Here you can enter other things that appear under "Info" e.g. the names of the teachers of the course. Also, the course can be assigned to a given didactic type such as self-study course or examination course. Especially relevant is the entry of the license of the course.
 
 ## Tab Execution {: #Execution}
+
 Here you can activate the "[Lecture and Absence Management](../learningresources/Lectures_and_absences.md)" if activated by the administrator, convert existing conventional courses into learning path courses or, in case of [learning path courses](Learning_path_course.md), define how the learning progress is calculated on the basis of the number of course elements or on the basis of the learning time of the course elements.  
 
 ## Tab Share
+
 In this tab you define how and for whom a course or a learning resource is released. Further information on setting up the appropriate access configuration can be found [here](Access_configuration.md).
 
-## Tab Catalog  
+## Tab Catalog
+
 As soon as a learning resource has been activated it can be inserted in the catalog with the help of the info page. Just select "Course" --> "Catalogue entries". Afterward you choose the category to which your learning resource should be related to by using "Add to catalog". Learning resources can be inserted more than once at different spots in your catalog, just repeat the before mentioned step. All selected categories will be displayed under "Catalogue entries", where you can delete them as well.
 
 The entire OpenOlat catalogue can be viewed by all users in the "Courses" menu.
@@ -29,11 +35,13 @@ The entire OpenOlat catalogue can be viewed by all users in the "Courses" menu.
 Only enter your courses in the catalog when they are finished and should be visible to the users.
 
 ## Tab Disclaimer {: #disclaimer}
+
 Here you can activate and set course-related terms of use or a course-related privacy policy. If a person starts the course, he/she must first accept the conditions, otherwise access to the course is not possible. In the [member administration](../learningresources/Members_management.md) you can see in the area "Consents" which persons have already accepted the conditions.
 
 ![Disclaimer form](assets/disclaimer_course.png){ class="shadow" }
 
 ## Tab Layout
+
 Under "Layout" you can select a layout template for a course, hide the left course navigation and also the bread-crumb navigation for participants. Depending on the settings by the course administrator, certain layout templates are available, but at least one default template. In addition, you can store your own CSS course templates in the course [storage folder](../learningresources/Storage_folder.md) and link them in the Layout menu. For example, fonts and colors for texts, headlines, links, the menu and the toolbox can be individually designed and provided with a suitable logo.
 
 ![Lernpfad mit Icons](assets/lp_icons.png){ class="shadow" }
@@ -42,6 +50,7 @@ Under "Layout" you can select a layout template for a course, hide the left cour
 In the section "Course element default style" you can define the default presentation of the course elements and, for example, upload a background image and define the style of the image as well as assign a color category. In the preview you can see the effects.
 
 ## Tab Toolbar
+
 Here you switch the toolbar and certain tools of the toolbar on or off. In this way, certain tools that are to be available continuously can be called up at a central location. In addition to course search, glossary and course chat these tools include various [tools](../learningresources/Using_Additional_Course_Features.md) that can also be called up as course element, e.g. calendar, list of participants, e-mail, blog, wiki, forum, and documents folder. In the case of [Wiki](../learningresources/Wiki.md) and [Blog](../learningresources/Blog.md), it is also possible to fall back on learning resources that have already been created. The other tools are similar to the corresponding course elements, but do not offer the further configuration options as they are available in the course elements in the course editor.
 
 The use of the tools in the toolbar is particularly important for linear
@@ -52,9 +61,11 @@ of the learning steps.
 ![Course structure](assets/course_structure.png)
 
 ## Tab Assessment {: #assessment}
+
 In this tab you can activate performance records and have a certificate generated automatically. In learning path courses, this tab defines the settings for passing the course, the score display, etc.
 
 ### Assessment settings (for Learning Path Courses)
+
 For learning path Courses there are further configuration options in the tab
 Assessment. Here you define when a course is considered passed and whether or
 what kind of points are displayed.
@@ -84,6 +95,7 @@ what kind of points are displayed.
 	Only if sum or average has been selected under "Score," the tab "High Score" can be configured in the course editor.
 
 ### Use evidence of achievement
+
 If you activate the option "Use evidence of achievement", the option "Evidence of achievement" appears in the toolbar menu "My course" and the course participants see an overview of the assessable course elements with their current assessment status. If the option "Issue certificate" was also activated, the received certificate will also appear here as soon as all conditions for a passed course have been fulfilled.
 
 The according link will only appear in your course if there is also an assessable course element, and the course participant has received at least one automatic or manual assessment. This could be, e.g., a test attempt or the assessment of a task.
@@ -93,6 +105,7 @@ If you deactivate this feature your participants will no longer see their eviden
 Evidences already existing will then no longer be visible. As soon as you offer this option anew your participants can dispose of their evidences along with new data. If you choose to delete a course that contains evidences of achievement your users will still be able to see their own evidences.
 
 ### (Course) certificate
+
 A PDF certificate can be used to confirm attendance of a course or achievement of course-related activities. A certificate can also be issued without the use of the evidence of achievement. You can choose whether the certificate is issued manually by the coach or automatically after passing the course. The selection "manual" allows you to use certificates in courses without assessable course elements. Whether and when a course participant has passed the course depends on the conditions specified in the course node in the tab "Score". If the certificate is to be issued manually, the coach can do this in the assessment tool in the performance overview of the individual users. Users automatically receive an email notification as soon as a certificate has been issued.
 
 As soon as the participant has fulfilled all conditions for a passed course, the certificate is available in the toolbar of the respective course under "My course" in the transcript of records.
@@ -102,9 +115,10 @@ A validity period can be set for the certificate. You specify the period of vali
 To control the validity of a certificate the attribute certificateVerificationUrl needs to be added to the template. It allows to generate the certificate again later on, thanks to a QR code. It can then be compared with the already available version. If both versions are consistent, the certificate can be validated. However, the QR code for validation is only possible if you use an HTML form.
 
 Based on the date of issue as well as the expiry date of the certificate, [reminders](../learningresources/Course_Reminders.md){:target="_blank"} can be triggered.
- z.B. erhält der User eine Info, dass das Zertifikat abgelaufen ist oder in wenigen Tagen abläuft oder eine Rezertifizierung ab sofort möglich ist. 
+ z.B. erhält der User eine Info, dass das Zertifikat abgelaufen ist oder in wenigen Tagen abläuft oder eine Rezertifizierung ab sofort möglich ist.
 
 #### Create PDF template ####
+
 Usually, a systemwide PDF template, specified beforehand by an administrator, should be available. If however, you wish to utilize your own individual template, you can upload one in the  **Certificate template**  section. A PDF template though is no ordinary PDF file, but has to be either a PDF form created with e.g. Acrobat Pro or LibreOffice, or a HTML form.
 
  A brief instruction on how to create a PDF form with LibreOffice:
@@ -133,6 +147,9 @@ In order to be able to format date-values there is the"dateFormatter"-object. It
       * $institutionalName
       * $orgUnit
       * $studySubject
+      * ...
+
+        All user attributes are available as variables.
 
     _Course:_
 
@@ -172,29 +189,14 @@ In order to be able to format date-values there is the"dateFormatter"-object. It
 
     _Relative date:_
 
-    Dates can be specified on the certificate that are calculated relative to a
-    "raw" date:
+      Dates can be specified on the certificate that are calculated relative to a "raw" date:
 
-
-    Example: $dateNextRecertificationRaw = 11/15/2021  
-        
-    Relative date short style:
-
-    $formatter.formatDateRelative(original date, "language code", +/- days, +/-
-    months, +/- years)
-
-    $formatter.formatDateRelative($dateNextRecertificationRaw, "en", 7, -2, 10)
-
-    ==> Relative date = 09/22/2031  
-      
-    Relative date long style:
-
-    $formatter.formatDateLongRelative(original date, "language code", +/- days,
-    +/- months, +/- years)
- 
-    $formatter.formatDateRelative($dateNextRecertificationRaw, "en", 7, -2, 10)
-
-    ==> Relative date = November 22, 2031  
+      Methode and parameter | Example: $dateNextRecertificationRaw = 11/15/2021 
+      ---------|----------
+      *Relative date short style* | *Output: 09/22/2031*
+      $formatter.formatDateRelative(original date, "language code", +/- days, +/- months, +/- years) | $formatter.formatDateRelative($dateNextRecertificationRaw, "en", 7, -2, 10)
+      *Relatives Datum lang* | *Output: September 22, 2031*
+      $formatter.formatDateLongRelative(original date, "language code", +/- days, +/- months, +/- years) | $formatter.formatDateRelative($dateNextRecertificationRaw, "en", 7, -2, 10)
             
 
     _Fields from the course info:_
@@ -215,12 +217,15 @@ If you would like to have such a certificate template, feel free to contact us v
  **Allow re-certification:**  This enables the issuing of a new certificate after a specified period.
 
 ## Tab Options {: #options}
+
 Here you can activate and configure a course-specific [glossary](../learningresources/Using_Additional_Course_Features.md) and a resource folder. And so connect with your course as well as create a special folder for Coaches.
 
 ### Include glossary
+
 You can either connect to your already created glossary here or create a new glossary in the menu that appears.  Once a glossary has been selected, it can also be activated in the "Toolbar" tab.
 
 ### Including Resource Folder
+
 Here you can connect a resource folder (learning resource) to a course and thus access the files stored in the resource folder. Here you can either connect to your already created resource folders or create a new resource folder in the appearing menu. The files of the resource folder then appear in the storage folder of the course in the automatically created subfolder "_sharedfolder".
 
 By default in the course all files of the resource folder are read only and the edit of the files is neither in the storage folder nor in the course editor when embedding into a single page possible. If edit should be possible in the course, this option need to be deselected in the course settings at "Read only".
@@ -230,6 +235,7 @@ For more information and step-by-step instructions on how to integrate a resourc
 You can only add _one_ resource folder to a course. We strongly recommend to first define a general strategy: Which files should be stored in an overall resource folder, and which files are preferably stored in a storage folder within a course, respectively.
 
 ### Enable Coach Folder
+
 Furthermore, a course-wide folder for the Coaches of the course can be activated in the "Options" menu. All course coaches can then store, view, edit or delete documents in this folder. It is also possible to create subfolders in the configured area.
 
 As location for the folder, either an already existing folder from the storage folder of the course can be selected or a new folder can be generated especially for the Coaches. If "Automatically generated folder" is selected, the coaches will not have access to any other files located in the storage folder of the course, while course creators or persons with access to the course editor will be able to see the coaches' files in the automatically generated folder "_coachdocuments" in the storage folder. This means that course owners always have access to the files of the Coach folder and can also use them for linking to certain course elements, e.g. a single page. On the other hand, Coaches will not be able to integrate files into the course structure even with the new folder.
