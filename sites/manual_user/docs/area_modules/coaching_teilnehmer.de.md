@@ -9,7 +9,7 @@
 Der Menüpunkt "Teilnehmer:innen" zeigt die Liste **aller von Ihnen betreuten** Teilnehmer:innen.
 
   * Jeder Coach (Betreuer:in) sieht nur die von ihr/ihm betreuten Teilnehmer:innen.
-  * Es werden die Teilnehmer:innen aus **allen** betreuten Kursen angezeigt. (im Unterschied zum Bewertungswerkzeug des Kurses. Dort werden nur Teilnehmer:innen des aktuellen Kurses angezeigt.)
+  * Es werden die Teilnehmer:innen aus **allen** betreuten Kursen angezeigt (im Unterschied zum Bewertungswerkzeug des Kurses. Dort werden nur Teilnehmer:innen des aktuellen Kurses angezeigt.)
 
 
 ### 2. WAS zeigt die Liste?  

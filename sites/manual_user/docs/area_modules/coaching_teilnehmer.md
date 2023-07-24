@@ -4,22 +4,22 @@
 
 ![coaching_teilnehmer_v1_de.png](assets/coaching_teilnehmer_v1_de.png){ class="shadow lightbox" }
 
-### 1. WEN zeigt die Liste?
+### 1. WHOM does the list show?
 
-Der Menüpunkt "Teilnehmer:innen" zeigt die Liste **aller von Ihnen betreuten** Teilnehmer:innen.
+The menu item "Participants" shows the list of **all the participants you are responsible for**.
 
-  * Jeder Coach (Betreuer:in) sieht nur die von ihr/ihm betreuten Teilnehmer:innen.
-  * Es werden die Teilnehmer:innen aus **allen** betreuten Kursen angezeigt. (im Unterschied zum Bewertungswerkzeug des Kurses. Dort werden nur Teilnehmer:innen des aktuellen Kurses angezeigt.)
+  * Each coach only sees the participants they are coaching.
+  * The participants from **all** supervised courses are displayed (in contrast to the course assessment tool. There, only participants from the current course are displayed).
 
 
-### 2. WAS zeigt die Liste?  
+### 2. WHAT does the list show?  
 
-Sie können die angezeigten Spalten selbst festlegen, indem Sie rechts oben auf das Zahnrad-Icon klicken. Typischerweise sehen Sie
+You can define the displayed columns yourself by clicking on the cogwheel icon at the top right. Typically you will see:
 
-* Name, Vorname <br>Ein Klick auf den Namen einer Person führt zur Übersicht aller Kurse dieses Teilnehmers. So erhält die/der Lehrende Zugriff auf die Assessmentbereiche eines Kurses der Person inklusive des Zugriffes auf den jeweiligen Leistungsnachweis, das Bewertungswerkzeug des Kurses sowie die jeweiligen Lektionen.
-* Eingeloggt<br>
-In der Spalte "Eingeloggt" gibt eine farbliche Kodierung und eine Zahl einen raschen Überblick, ob sich Teilnehmende bereits in all ihre Kurse eingeloggt haben (= grün) oder ob sie sich bisher nur in einen Teil der Kurse (=orange) oder noch gar nicht (=rot) eingeloggt haben.
-* In wie vielen der von Ihnen betreuten Kurse ist ein/e Benutzer:in Mitglied?
-* Wie viele davon sind schon besucht oder bestanden?
-* usw.
+* Surname, First Name <br>Clicking on the name of a person leads to an overview of all courses of this participant. This gives the teacher access to the assessment areas of a person's course including access to the relevant transcript, the course's assessment tool and the respective lessons.
+* Logged in<br>
+In the column "Logged in", colour coding and a number provide a quick overview of whether participants have already logged in to all their courses (= green) or whether they have so far only logged in to some of the courses (= orange) or none at all (= red).
+* In how many of the courses you supervise is a user a member?
+* How many of these have already been attended or passed?
+* etc.
 
