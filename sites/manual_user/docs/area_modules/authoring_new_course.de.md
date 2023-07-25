@@ -63,21 +63,6 @@ Am Ende des Imports erscheint das Menü „Einstellungen“, wo Sie weitere Konf
 
 ---
 
-##  Lizenzen
-
-Ist eine Lernressource importiert oder erstellt, kann in den Metadaten ein Lizenztyp und ein Lizenzgeber zugeordnet werden.
-
-![Metadaten Lizenz](assets/LizenzMgmt_01_DE2.png)
-![Lizenzen zur Wahl](assets/Lizenzen.png)
-
-  
-In der Übersicht des Autorenbereichs werden die zugeordneten Lizenzen in der
-Spalte «Lizenz» angezeigt werden. Mit Klick auf die Lizenz erhalten Sie detaillierte Informationen zur jeweiligen Lizenz.
-
-![](assets/Autorenbereich_Lizenz.png)
-
----
-
 ##  Links
 
 !!! info "Ausführliche Anleitung zur Kurserstellung"
