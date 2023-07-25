@@ -1,6 +1,17 @@
 # Catalog 2.0 - Overview
 
-## Where can I find the catalog?
+
+## Wozu dient der Katalog?
+
+Im Katalog können die in OpenOlat erstellten Kurse und Lernressourcen für die Lernenden präsentiert werden.
+
+Interessiert sich jemand genauer für ein bestimmtes Angebot, kann zu jedem Eintrag die zugehörige Infoseite aufgerufen werden.
+
+Entscheidet sich die Benutzerin / der Benutzer zum Besuch eines Kurses, kann dieser direkt vom Katalog aus aufgerufen werden, bzw. man gelangt zur Einstiegsseite, auf der ggf. Anmeldedaten eingegeben werden müssen.
+
+
+
+## Wo findet man den Katalog?
 
 Die OpenOlat-User finden den Katalog im **Menü der Kopfzeile**.
 
@@ -12,73 +23,52 @@ Voraussetzung: Der Katalog muss aktiviert sein. (In jeder OpenOlat-Instanz kann 
 
     Der Menü-Eintrag kann auch an einer anderen Stelle stehen. Wenn viele Einträge in der Kopfzeile angezeigt werden, kann es auch sein, dass der Katalog unter „Mehr“ ganz rechts enthalten ist.
 
-## Was enthält der OpenOlat-Katalog?
 
-Wie in anderen Katalogen, werden auch im OpenOlat-Katalog in vielen kleinen Einträgen Kurzbeschreibungen zu „Produkten“ angezeigt. In OpenOlat sind dies Kurse oder andere Lernressourcen, wie z.B. Tests oder Videos. (Alles, was im Autorenbereich zu finden ist.)
 
-- Kurse
-- Tests
-- SCORM-Inhalte
-- Content Packages (CP)
-- Wikis
-- Podcasts
-- Blog
-- Ressourcenordner
-- Formulare
-- Portfolio 2.0 Templates
-- Glossar
-- Video-Dateien (mp4-Dateien und verlinkte Ressourcen)
-- Word-Dateien
-- Excel-Dateien
-- PowerPoint-Dateien
-- pdf-Dateien
-- Bilder (png, jpg)
-- Sound (mp3-Dateien und ???verlinkte Ressourcen)
-- und bestimmte weitere Dateien
+## Die Bestandteile des Katalogs
 
-## Welche Philosophie steckt hinter dem Katalog V1?
+Der Katalog V2 enthält die Bestandteile
 
-Der Katalog V1 gründet auf der **„Browse“-Strategie:** Die Benutzer suchen im Katalog, indem sie  die Kategorien des Katalogs durchstöbern (browsen).
-Das Browsen war in den Anfängen des Internets sehr beliebt, heute bevorzugen die meisten Nutzer die Strategie „Suchen und Filtern“.
+- Header (Kopfzeile mit Hintergrundbild)
+- Suchfeld (innerhalb Header)
+- Filter
+- Launcher (Abschnitte im Katalog, in denen Katalogeinträge nach best. Kriterien zusammengestellt werden (je nach Launchertyp und Launcherkonfiguration)
+- Kacheln/Karten mit Beschreibung eines Kurses oder einer Lernressource
 
-## Welche Philosophie steckt hinter dem Katalog V2?
+![catalog20_bestandteile_v1_de.png](assets/catalog20_bestandteile_v1_de.png){ class="shadow lightbox" }
 
-Im Unterschied zum Katalog V1, der auf dem Konzept des „Browsens“ aufbaut, liegt dem Katalog V2 das **Konzept „Suchen und Filtern“** zu Grunde.
 
-Der Katalog V2 bietet etliche Vorteile:
 
-- Die Buchungsmethoden wurden erweitert, um die Veröffentlichung für bestimmte Organisationen und für das Web zu ermöglichen. Dadurch erhält man eine präzisere Kontrolle über den Veröffentlichungsmechanismus.
-- Eine bereits vorhandene Taxonomiestruktur kann nun genutzt werden, um Kurse automatisch zu kategorisieren.
-- Der neue Tabellenfiltermechanismus kann benutzt werden, um einfache und intuitive Such- und Filteroptionen zu implementieren.
-- Die Navigation kann entweder mit der Browse- oder der Such- und Filter-Metapher erfolgen, die das Beste aus beiden Welten in einer einheitlichen Ansicht zusammenführt. Die Nutzer finden Prinzipien vor, die sie bereits von der Nutzung anderer Plattformen wie Linked-In Learning oder Coursera kennen. Die verfügbaren Filter können in der Katalogverwaltung konfiguriert und an die Bedürfnisse der Institution angepasst werden.
+## Welche Seiten und Ansichten hat der Katalog?
 
-## Dynamischer Katalog - statischer Katalog
+**Seite/Ansicht 1:**<br>
+Wird in der Kopfzeile der Katalog V2 aufgerufen, dann gelangt man zunächst auf die Startseite (Landing page) mit den Launchern.
 
-In einem statischen Katalog werden die Einträge manuell eingefügt und gruppiert.
+![catalog20_startseite_v1_de.png](assets/catalog20_startseite_v1_de.png){ class="shadow lightbox" }
 
-Der Katalog 2.0 besitzt keine manuelle Sortierung auf Kursebene, es ist ein dynamischer Katalog. In ihm werden die Katalogeinträge automatisch anhand bestimmter Kriterien (z.B. einer Taxonomie) angezeigt. 
+Im Suchfeld kann direkt nach bestimmten Lernressourcen gesucht werden. Indexiert sind dafür der Titel, der Teaser-Text und die Taxonomie. Sie können aber auch die angezeigten Kacheln/Karten anklicken, die in den Launchern gruppiert sind.
 
-Das kann innerhalb von vorgegebenen Clustern (Gruppen, Abschnitten) geschehen. Im Katalog V2 nennen wir diese Abschnitte „Launcher“.
-Was einem bestimmten Fachbereich zugeordnet wird und ein Angebot besitzt, wird automatisch in einem bestimmten Launcher aggregiert und im Katalog angezeigt.
+**Seite/Ansicht 2:**<br>
+Bei Klick auf eine Karte/Kachel in einem Kategorie-Launcher öffnet sich eine Microsite (Listenansicht) mit den Kursen und Lernressourcen dieser Kategorie. 
+Zu einer Kategorie gehören alle Kurse und Lernressourcen die dem gleichen Taxonomie-Begriff zugeordnet sind. Auch Unterkategorien sind möglich.
 
-Der dynamische Katalog 2.0 wird durch zugrunde liegende Taxonomien zusammengestellt, anstelle von fixen, manuell definierten Katalogstrukturen, wie im Katalog V1.
+![catalog20_katagorielauncher_v1_de.png](assets/catalog20_katagorielauncher_v1_de.png){ class="shadow lightbox" }
 
-Die User suchen im Katalog V2 dann einfach mit Hilfe von Filtern nach dem, was sie interessiert.Denn auf Grundlage der Taxonomie kann gefiltert werden (Google Search & Filter-Konzept).Wenn die Kurse in den jeweiligen Organisationseinheiten publiziert sind, finden die User nur das, was für sie freigegeben ist.
+Erfolgt der Klick auf eine Karte/Kachel in einem anderen Launcher (nicht vom Typ Kategorie-Launcher) oder in einer Microsite öffnet sich die Info-Seite oder sofort der Kurs.
 
-## Welche Komponenten arbeiten beim dynamischen Katalog V2 zusammen?
+**Seite/Ansicht 3:**<br>
+Wird zuerst eine Microsite geöffnet, können Sie in der Liste die Info-Seiten anzeigen lassen oder die Kurs bzw. Lernressourcen gleich starten. 
 
-In einem dynamisch Katalog wirken folgende Komponenten zusammen und bestimmen gemeinsam, ob ein Angebot im Katalog angezeigt wird:
+![catalog20_microsite_v1_de.png](assets/catalog20_microsite_v1_de.png){ class="shadow lightbox" }
 
-![catalog20_komponenten_v1_de.png](assets/catalog20_komponenten_v1_de.png){ class="shadow lightbox" }
+!!! info "Hinweis"
 
-1. **Das Katalog-Modul**<br>
-Es muss vom Administrator aktiviert sein, damit überhaupt ein Katalog im Menü der Benutzer erscheint. Im Katalog-Modul wird die Struktur und die Gestaltung des Katalogs konfiguriert.
+    Entsprechend der Struktur der Taxonomie können Microsites auch Unter-Microsites enthalten. 
 
-2. **Die Einstellungen im Kurs bzw. der Lernressourcea)**<br>
-Ein Kurs oder eine andere Lernressource, die im Katalog erscheinen soll, muss vom Autor dafür frei gegeben und buchbar sein.b) Damit ein Kurs oder eine andere Lernressource überhaupt im Katalog erscheinen kann, muss im betreffenden Kurs bzw. der Lernressource ein Angebot definiert worden sein. Es können auch mehrere Angebote gemacht werden, so dass der gleiche Kurs z.B. einmal für eine bestimmte Teilnehmergruppe kostenlos und für übrige Interessenten kostenpflichtig angeboten wird. 
 
-3. **Die für den Katalog verwendete Taxonomie**<br>
-In OpenOlat können verschiedene Taxonomien angelegt und verwendet werden. Deshalb muss klar sein, welche Taxonomie für den Katalog verwendet wird.
+!!! tip "Tipp"
 
-4. **Evtl. OrgUnits (Organisationseinheiten)**<br>
-Angebote im Katalog können auch nur für bestimmte Organisationseinheiten angezeigt werden. Dazu muss das OpenOlat-Modul „Organisation“ aktiviert sein.Für jede OrgUnit können dann- bestimmte Kurse und Lernressourcen ein- und ausgeblendet werden- bestimmte Launcher ein- und ausgeblendet werden
+    Mit den Filtern kann die Listenansicht angepasst werden.
+
+
+
