@@ -58,18 +58,6 @@ Select the corresponding checkbox if you want to import the referenced learning 
 
 At the end of the import, the "settings" menu appears. Here you can make further configurations, e.g. a definition of the licence.
 
----
-
-##  Licences
-
-Once a learning resource has been imported or created, a licence type and licensor can be assigned in the metadata.
-
-![Metadata licence](assets/LizenzMgmt_01_DE2.png)
-![Licences to choose from](assets/Lizenzen.png)
-
-In the authoring overview, the assigned licences are shown in the column "Licence". Click on the licence to obtain detailed information on the respective licence.
-
-![](assets/Autorenbereich_Lizenz.png)
 
 ---
 
