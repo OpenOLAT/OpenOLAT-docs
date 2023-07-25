@@ -1,4 +1,4 @@
-# Catalog 2.0
+# Catalog 2.0 - Overview
 
 ## Where can I find the catalog?
 
