@@ -1,5 +1,3 @@
-![bereiche_coaching_v1_de.png](assets/bereiche_coaching_v1_de.png){ class="shadow lightbox" }
-
 # Coaching - Teilnehmer:innen
 
 ![coaching_teilnehmer_v1_de.png](assets/coaching_teilnehmer_v1_de.png){ class="shadow lightbox" }

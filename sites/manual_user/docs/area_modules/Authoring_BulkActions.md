@@ -1,5 +1,3 @@
-![bereiche_autorenbereich_v1_de.png](assets/bereiche_autorenbereich_v1_de.png){ class="shadow lightbox" }
-
 #  Authoring - Bulk Actions
 
 As soon as a learning resource has been selected in the first column of the table, additional buttons (1-6) appear above the table. They can be used to carry out actions for the selected resources, i.e. for several learning resources together (Bulk Actions).<br>

@@ -1,5 +1,3 @@
-![bereiche_autorenbereich_v1_de.png](assets/bereiche_autorenbereich_v1_de.png){ class="shadow lightbox" }
-
 # Authoring - Create courses and learning resources
 
 ##  Create new OpenOlat learning resources

@@ -1,5 +1,3 @@
-![bereiche_projekte_v1_de.png](assets/bereiche_projekte_v1_de.png){ class="shadow lightbox" }
-
 # Projekte - Überblick
 
 :octicons-tag-24: Release 18.0

@@ -1,5 +1,3 @@
-![bereiche_coaching_v1_de.png](assets/bereiche_coaching_v1_de.png){ class="shadow lightbox" }
-
 # Coaching - Gruppen
 
 ![coaching_gruppen_v1_de.png](assets/coaching_gruppen_v1_de.png){ class="shadow lightbox" }

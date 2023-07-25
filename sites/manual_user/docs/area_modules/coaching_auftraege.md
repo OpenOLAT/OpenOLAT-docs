@@ -1,5 +1,3 @@
-![bereiche_coaching_v1_de.png](assets/bereiche_coaching_v1_de.png){ class="shadow lightbox" }
-
 # Coaching - Orders
 
 ![coaching_auftraege_v1_de.png](assets/coaching_auftraege_v1_de.png){ class="shadow lightbox" }
