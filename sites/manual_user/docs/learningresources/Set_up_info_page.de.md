@@ -86,9 +86,11 @@ Typische Creative Commons Lizenzen sind
 * CC BY
 * CC0
 
-Was sich genau hinter welcher Lizenz verbirgt können Sie [hier
-](https://creativecommons.org/licenses/?lang=de)nachlesen.  Ergänzend zur
-Lizenz kann auch der **Lizenzgeber** eingetragen werden.
+In der Übersicht des Autorenbereichs werden die zugeordneten Lizenzen in der Spalte «Lizenz» angezeigt. Mit Klick auf die Lizenz erhalten Sie dazu detaillierte Informationen.
+
+![Lizenzen im Autorenbereich](assets/Autorenbereich_Lizenz.png)
+
+Was sich genau hinter welcher Lizenz verbirgt können Sie [hier](https://creativecommons.org/licenses/?lang=de)nachlesen.  Ergänzend zur Lizenz kann auch der **Lizenzgeber** eingetragen werden.
 
 Wichtig: Überlegen Sie sich genau unter welche Lizenz Sie einen Kurs oder eine
 andere Lernressource stellen wollen. Wenn Sie verstärkt OER (open educational

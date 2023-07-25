@@ -86,9 +86,11 @@ Typical license are:
   * CC BY
   * CC0
 
-What exactly hides behind which license you can read
-[here](https://creativecommons.org/licenses/?lang=de). In addition to the
-**license** , the  **licensor**  can also be registered.
+In the overview of the authoring area, the assigned licenses are displayed in the "License" column. Click on the license to get detailed information about it.
+
+![Licenses in the author area](assets/Autorenbereich_Lizenz_en.png)
+
+What exactly hides behind which license you can read [here](https://creativecommons.org/licenses/?lang=de). In addition to the **license** , the  **licensor**  can also be registered.
 
 Important: Think carefully about which license you want to use for a course or
 other learning resource. If you want to create more OER (open educational
