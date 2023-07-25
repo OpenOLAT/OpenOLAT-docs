@@ -4,9 +4,9 @@
 
     Dieses Werkzeug wird im Coaching Tool nur angezeigt, wenn vom Administrator das Modul Lektionen aktiviert wurde.
 
-    Ausserdem muss mindestens 1 Lektionenblock vorhanden sein. (In mindestens einem Kurs muss unter den Einstellungen > Tab "Durchführung" > Abschnitt "Konfiguration Lektionen- und Absenzenmanagment im Kurs" das Lektionenmanagement eingeschaltet sein.)
+    Ausserdem muss mindestens 1 Lektionenblock vorhanden sein. (In mindestens einem Kurs muss unter den Einstellungen > Tab „Durchführung" > Abschnitt „Konfiguration Lektionen- und Absenzenmanagment im Kurs" das Lektionenmanagement eingeschaltet sein.)
 
-    Sind diese Voraussetzungen erfüllt, wird der zusätzliche Menüpunkt "Lektionen" im Coachingtool angezeigt.
+    Sind diese Voraussetzungen erfüllt, wird der zusätzliche Menüpunkt „Lektionen" im Coachingtool angezeigt.
 
     Siehe auch [Absenzmanagement](../learningresources/Lectures_and_absences.de.md)
 

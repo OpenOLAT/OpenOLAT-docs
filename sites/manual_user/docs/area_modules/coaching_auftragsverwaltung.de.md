@@ -16,13 +16,13 @@ Ein Hinzufügen von Korrektoren ist ebenfalls direkt bei der jeweiligen
 
 ### 2. Tab Korrekturaufträge
 
-Dieser Tab erscheint nur wenn man als Korrektor für einen Test eingetragen wurde. Man sieht eine Übersicht der Tests in den verschiedenen Kursen, die man noch manuell prüfen und korrigieren muss. Je nach Einstellung in der Lernressource "Test", erfolgt die Bewertung anonym oder nicht.
+Dieser Tab erscheint nur wenn man als Korrektor für einen Test eingetragen wurde. Man sieht eine Übersicht der Tests in den verschiedenen Kursen, die man noch manuell prüfen und korrigieren muss. Je nach Einstellung in der Lernressource „Test", erfolgt die Bewertung anonym oder nicht.
 
 ![Meine Korrekturaufträge](assets/Meine_Korrekturauftraege.png){ class="shadow lightbox" }
 
 Über den Link „Korrigieren“ gelangt der Korrektor direkt zum zu korrigierenden Test und kann hier manuelle Bewertungen vornehmen und auch automatische Bewertungen, wenn notwendig, überschreiben. Sinnvoll ist es auch einen entsprechenden Kommentar zu hinterlassen.
 
-Lernressourcenverwalter oder Kursbesitzer erhalten im Menü "Korrekturaufträge" eine Übersicht mit allen Korrektoren und deren Korrekturaufträgen. Inklusive der Anzeige, wie viele Aufträge noch offen bzw. überfällig sind.
+Lernressourcenverwalter oder Kursbesitzer erhalten im Menü „Korrekturaufträge" eine Übersicht mit allen Korrektoren und deren Korrekturaufträgen. Inklusive der Anzeige, wie viele Aufträge noch offen bzw. überfällig sind.
 
 ![Coching Tool Auftragsverwaltung](assets/Auftragsverwaltung_Korrekturauftraege.png){ class="shadow lightbox" }
 
