@@ -2,38 +2,38 @@
 
 # Coaching - Overview
 
-## Wozu dient das Coaching Tool?
+## What is the Coaching Tool for?
 
-Letztlich werden Sie sich immer wieder Leistungsdaten oder den Bearbeitungsstand einzelner Lernender ansehen. Die Wege dorthin können aber unterschiedlich sein.
+In the end, you will always look at performance data or the completion status of individual learners. But the ways to get there can be different.
 
-Das Coaching Tool dient der **kursübergreifenden** Organisation und Verwaltung von Kursen, Teilnehmenden und Gruppen, sowie der **kursübergreifenden** Korrektur von Assessmentbausteinen, dem **kursübergreifenden** Absenzenmanagement und dem externen Korrektoren-Flow von OpenOlat Tests.
+The Coaching Tool is used for the **cross-course** organisation and administration of courses, participants and groups, as well as the **cross-course** correction of assessment modules, the **cross-course** absence management and the external corrector flow of OpenOlat tests.
 
-Mit dem Coaching-Tool haben Kursbesitzer, Kursbettreuer und Gruppenbetreuer die Möglichkeit, alle ihnen zugewiesen Kurs- oder Gruppenteilnehmenden auf einen Blick zu sehen und zu verwalten. Sie gelangen von diesen Übersichten dann schnell auf unterschiedlichen Wegen zum Bewertungswerkzeug für einzelne Teilnehmende.
+With the coaching tool, course owners, course coaches and group coaches have the possibility to see and manage all course or group participants assigned to them at a glance. They can then quickly go from these overviews to the assessment tool for individual participants in different ways.
 
 
-## Wer kann das Coaching Tool benutzen?
+## Who can use the Coaching tool?
 
-!!! info "Hinweis"
+!!! info "Note"
 
-    Die Menüoption "Coaching" kann grundsätzlich nur erscheinen, wenn das Werkzeug vom OpenOlat Administrator auch aktiviert wurde.
+    The menu option "Coaching" can only appear if the tool has been activated by the OpenOlat administrator.
 
-Ob das Coaching Tool im Hauptmenü dann angezeigt wird, hängt von weiteren Faktoren ab:
+Whether the coaching tool is then displayed in the main menu depends on other factors:
 
-* Systemrolle
-* Kursrolle
-* Kursstatus
-* Teilnehmende in Kurs bzw. Gruppe
+* System role
+* Course roll
+* Course status
+* Participants in course or group
 
-Aus jeder Spalte muss mindestens eine grün markierte Eigenschaft zutreffen:
+At least one property marked in green from each column must be true:
 
 ![Coaching_Uebersicht.png](assets/Coaching_Ueberischt.png){ class="shadow lightbox" }
 
 
-## Die Werkzeuge
+## The tools
 
 ![coaching_werkzeuge_v1_de.png](assets/coaching_werkzeuge_v1_de.png){ class="shadow lightbox" }
 
-!!! info "Hinweis"
+!!! info "Note"
 
-    Das Menü der linken Seite wird in den seltensten Fällen alle hier gezeigten Menüoptionen A bis J enthalten.
-    Je nach aktivierten Modulen wird eine andere Zusammensetzung angezeigt. Hier im Handbuch soll zur Erklärung die maximale Auswahl gezeigt werden.
+    The left-hand side menu will rarely contain all the menu options A to J shown here.
+    Depending on the activated modules, a different composition is displayed. Here in the manual, the maximum selection is shown for explanation.
