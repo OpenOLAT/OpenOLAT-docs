@@ -11,13 +11,23 @@
 
 * * *
 
-Mit OpenOlat 18.0 geben wir unseren nächsten Major Release frei.
+Mit OpenOlat 18.0 (endlich volljährig! :confetti_ball:) geben wir unseren nächsten Major Release frei.
 
-*in progress*
+Im Fokus des Releases steht der neue Bereich **Projekte**, welcher OpenOlat Anwender:innen bei der Dokumentation von Projektarbeit unterstützt. Im neuen **blockbasierten Kursbaustein "Seite"** können mit dem **Content Editor** schnell und einfach strukturierte Kursinhalte zumsammengestellt werden. Die verwendeten Medienelemente wie Bilder, Videos und Dokumente sind im persönlichen Bereich zentral über das erweiterte **Medien Center** zugänglich, sie können dort verwaltet, versioniert und mit anderen Personen geteilt werden.
+
+Neben vielen Usability-Anpassungen wurden für Kurse u.a. auch folgende Funktionen implementiert: ein Workflow zur **Kurs-Rezertifizierung** bei Ablauf von Zertifikaten, eine **Reportfunktion** über die Nutzung des Kursbausteins "Forum" sowie die Möglichkeit, Bewertungen mittels **Einstufungen/Noten auf Kursebene** im herkömmlichen Kurs zu vergeben.
+
+Eine neue **Infrastruktur für "To-Dos"** kommt zum einen im Projekt-Tool zur Aufgabenverteilung zum Einsatz. Zum anderen können darüber notwendige **Massnahmen To-Dos** erstellt werden, die sich aus den Ergebnissen von Datenerhebungen im Qualitätsmanagement-Modul ergeben.
+
+Mit der Integration des **OpenBadge**-Standards 2.0 können Badges manuell oder automatisch vergeben werden, wenn Teilnehmende zum Beispiel bestimmte Bedingungen in einem Kurs erfüllt haben. Für die Einbindung von Jupyter-Images wurde ein neuer **Kursbaustein "JupyterHub"** implementiert.
+
+Der Release enthält ausserdem zahlreiche weitere Neuerungen wie eine eigene **E-Mail-Signatur** als Benutzerattribut sowie UX/Usability-Optimierungen für Wizards, Anzeigen und Aktionselemente.
+
+Exkurs zum Schluss: Das Benutzerhandbuch wurde neu strukturiert.
 
 ![Anzahl Features und Bugs in Release 18.0](assets/180/Features_Improvements_Labels_18.0_DE.png)
 
-Seit Release 18.0 wurden über 120 neue Funktionen und Verbesserungen zu OpenOlat hinzugefügt. Hier finden Sie die wichtigsten Neuerungen zusammengefasst. Zusätzlich wurden mehr als 165 Bugs behoben. Die komplette Liste der Änderungen in 17.2 – 17.2.11 finden Sie [hier](Release_notes_17.2.de.md){:target="_blank”}.
+Seit Release 18.0 wurden über 120 neue Funktionen und Verbesserungen zu OpenOlat hinzugefügt. Hier finden Sie die wichtigsten Neuerungen zusammengefasst. Zusätzlich wurden mehr als 165 Bugs behoben. Die komplette Liste der Änderungen in 17.2 – 17.2.12 finden Sie [hier](Release_notes_17.2.de.md){:target="_blank”}.
 
 * * *
 
@@ -29,7 +39,7 @@ Die Zugriffsbeschränkungen - und somit auch die Verantwortlichkeiten im Projekt
 
 #### Verfügbare Tools im Projekt
 
-* *Dateien*
+* *Dateien* zur Ablage und Pflege verschiedener Dokumente und Medienelemente
 * *Notizen* für Stichworte und kurze Memos
 * *To-Dos* zur Verteilung der Aufgaben innerhalb des Pojektes
 * *Termine* für Meetings und gemeinsamen Austausch
@@ -180,7 +190,7 @@ Mit Hilfe der neuen To-Do Infrastruktur kann direkt mit entsprechenden Massnahme
 
 ## Technisches
 
-* Neue Handbuchstruktur
+* Neue Struktur für das Benutzerhandbuch
 * ImageViewer als Teil der DocEditor-Infrastruktur (Unterstützung von Mode.VIEW)
 * Integration der JavaScript-Library "milkdown" zur Text-Bearbeitung mit Markdown (verfügbar im Projekte Notiz-Tool)
 
