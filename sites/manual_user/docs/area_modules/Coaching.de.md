@@ -29,10 +29,10 @@ Aus jeder Spalte muss mindestens eine grün markierte Eigenschaft zutreffen:
 
 ## Die Werkzeuge
 
-![coaching_werkzeuge_v1_de.png](assets/coaching_werkzeuge_v1_de.png){ class="shadow lightbox" }
+![coaching_werkzeuge_v2_de.png](assets/coaching_werkzeuge_v2_de.png){ class="shadow lightbox" }
 
 !!! info "Hinweis"
 
-    Das Menü der linken Seite wird in den seltensten Fällen alle hier gezeigten Menüoptionen A bis J enthalten.
+    Das Menü der linken Seite wird in den seltensten Fällen alle hier gezeigten Menüoptionen enthalten.
     Je nach aktivierten Modulen wird eine andere Zusammensetzung angezeigt. Hier im Handbuch soll zur Erklärung die maximale Auswahl gezeigt werden.
 
