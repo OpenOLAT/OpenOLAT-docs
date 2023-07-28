@@ -50,7 +50,7 @@ Die folgenden Kursbausteine dienen insbesondere der Bereitstellung und Strukturi
 
     [:octicons-arrow-right-24: Edubase](Course_Element_Edubase.de.md)
 
-    [:octicons-arrow-right-24: JupyterHub](Course_Element_JupyterHub.de.md)
+    [:simple-jupyter: JupyterHub](Course_Element_JupyterHub.de.md)
 
 </div>
 
