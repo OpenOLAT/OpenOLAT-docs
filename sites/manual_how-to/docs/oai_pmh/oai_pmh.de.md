@@ -1,5 +1,22 @@
 # Wie kann ich meine Kurse durch Suchmaschinen finden lassen?
 
+??? abstract "Ziel und Inhalt dieser Anleitung"
+
+    Normalerweise ist OpenOlat ein geschützter Raum. In bestimmten Fällen sollen jedoch Suchmaschinen bestimmte Informationen finden.
+    Die folgende Anleitung zeigt, wie OpenOlat dies ermöglicht.
+
+??? abstract "Zielgruppe"
+
+    [x] Autor:innen [ ] Betreuer:innen  [ ] Teilnehmer:innen
+
+    [ ] Anfänger:innen [x] Fortgeschrittene  [x] Experten/Expertinnen
+
+
+??? abstract "Erwartete Vorkenntnisse"
+
+    * Sie haben bereits Erfahrung als Autor:in.
+
+
 ## Finden Suchmaschinen alle OpenOlat-Kurse?
 
 Nein. Wer in OpenOlat lernen und arbeiten will, muss sich im Normalfall registrieren. OpenOlat ist nach aussen ein geschützter Raum, der von Suchmaschinen nicht durchsucht werden kann. Es muss deshalb ausdrücklich festgelegt werden, was Suchmaschinen finden dürfen.

@@ -1,5 +1,21 @@
 # How can I have my courses found by search engines?
 
+??? abstract "Objectives and content of this instruction"
+
+    Normally OpenOlat is a protected space. In certain cases, however, search engines are supposed to find certain information. The following instruction explains, how OpenOlat makes this possible.
+
+??? abstract "Target group"
+
+    [x] Authors [ ] Coaches  [ ] Participants
+
+    [ ] Beginners [x] Advanced users  [x] Experts
+
+
+??? abstract "Expected previous knowledge"
+
+    * You have already experience as author.
+
+
 ## Do search engines find all OpenOlat courses?
 
 No. Anyone who wants to learn and work in OpenOlat must normally register. OpenOlat is externally a protected space that cannot be searched by search engines. Therefore, it must be explicitly defined what search engines are allowed to find.
