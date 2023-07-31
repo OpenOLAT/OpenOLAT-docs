@@ -1,12 +1,10 @@
 # :material-home: Personal menu and general components
 
-After your login you will navigate either to your personal homepage in
-OpenOlat, an info page, a page which usually contains general information on
-various topics, to the portal or a landing page defined by you. This chapter
-will inform you on how to change the settings in your personal menu, on how to
+Jeder registrierte OpenOlat User verfügt über sein persönliches Menü, das individuell konfiguriert werden kann. 
+
+This chapter will inform you on how to change the settings in your personal menu, on how to
 use further features like the full text search and the chat and on how to
-adapt the portal to your personal needs. If you cannot see the portal it was
-most probably disabled by the system administrator.
+adapt the portal to your personal needs. If you cannot see the portal it was most probably disabled by the system administrator.
 
 !!! note "Quick Links"
 
@@ -18,7 +16,7 @@ most probably disabled by the system administrator.
     * [Math formula](../basic_concepts/Math_formula.md)
     * [Working with tables](../basic_concepts/Table_Concept.md)
 
-## Navigation
+## Navigation and personal menu
 
 In the navigation the [chat](../basic_concepts/Chat.md) is shown first. It is followed by the
 number of active users and the full text search. In the navigation your
@@ -29,11 +27,11 @@ corresponding link.
 
 ![Navigation](assets/global_navigation.png){ class="shadow aside-right lightbox"}
 
-In general the chat (instant messenger) is shown in the navigation. Depending
-on the settings in the personal menu, more elements can be shown in the
-navigation.
+In the personal menu the areas 
+* [personal tools](../personal_menu/Personal_Tools.md), 
+* [configuration](Configuration.md) 
+* help and 
+* system 
 
-In the personal menu the areas personal tools, configuration and system can be
-found. Depending on the tools selected in "System settings" certain personal
-tools are moved in the navigation on the top or stay in the personal menu on
+can be found. Depending on the tools selected in "System settings" certain personal tools are moved in the navigation on the top or stay in the personal menu on
 the right.

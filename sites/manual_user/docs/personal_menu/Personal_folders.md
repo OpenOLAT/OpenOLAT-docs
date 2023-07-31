@@ -1,6 +1,6 @@
 # Personal folders
 
-![](assets/folder.png)
+![Icon](assets/folder.png)
 
 ## Folder in the personal menu
 
@@ -49,8 +49,11 @@ means OpenOlat is available as a normal net-device, with which you can easily
 copy, move and delete files. Further information can be found in the chapter
 "[Using WebDAV](../basic_concepts/Using_WebDAV.md)".
 
-In order for the WebDAV access to work, it needs to be [activated
-](../../manual_admin/administration/WebDAV.de.md)by your OpenOlat administrator first.
+
+!!! info
+
+    In order for the WebDAV access to work, it needs to be [activated
+    ](../../manual_admin/administration/WebDAV.de.md)by your OpenOlat administrator first.
 
 ## Quota
 
@@ -68,4 +71,5 @@ folders in the personal menu in OpenOlat exist the following folder versions:
   * Folders in Topic assignment (in courses)
   * [Participant folder](../learningresources/Communication_and_Collaboration.md#CommunicationandCollaboration-_participantfolder) (in courses)
   * [Resource folder ](../learningresources/index.md#resource-folder)(learning resource)  
+  * [Werkzeug: Ordner](../groups/Using_Group_Tools.md) (in Gruppen, ähnlich dem Kursbaustein Ordner in Kursen)
 

@@ -4,11 +4,11 @@
 
 Die Kalenderfunktion steht Ihnen an verschiedenen Orten zur Verfügung:
 
-* In der [Gruppe](../groups/index.de.md): Zugriff auf den Gruppenkalender sowie eventuell externe importierte Kalender.
-* Im Kurs: Zugriff auf Kurstermine sowie Zugriff auf alle Kalender von eingebundenen Gruppen. Kalender können sowohl im Kursrun als auch in der Toolbar eingebunden sein.<br>:octicons-device-camera-video-24: **Video-Einführung**: [Kurskalender](<https://www.youtube.com/embed/tfx6UCYw8t8>){:target="_blank”} 
-* Im [persönlichen Menü](../personal_menu/Personal_Tools.de.md): Übersicht über die Termine aller ihrer Gruppen und Kurse.
+* Im [persönlichen Menü](../personal_menu/index.de.md): Übersicht über die Termine aller ihrer Gruppen und Kurse.
+* In der [Gruppe](../groups/Using_Group_Tools.de.md): Zugriff auf den Gruppenkalender sowie eventuell externe importierte Kalender.
+* Im Kurs: Zugriff auf Kurstermine sowie Zugriff auf alle Kalender von eingebundenen Gruppen. Kalender können in Kursen sowohl im Kursrun als auch in der Toolbar eingebunden sein.<br>:octicons-device-camera-video-24: **Video-Einführung**: [Kurskalender](<https://www.youtube.com/embed/tfx6UCYw8t8>){:target="_blank”} 
 
-Kurskalender, wie Gruppenkalender, werden automatisch in die Kalenderliste Ihres [persönlichen Kalenders](../personal_menu/Personal_Tools.de.md) aufgenommen und Termine des Kurses werden dort angezeigt.
+Kurskalender, wie Gruppenkalender, werden automatisch in die Kalenderliste Ihres persönlichen Kalenders aufgenommen und Termine des Kurses werden dort angezeigt.
 
 ## Termin erstellen / bearbeiten
 
@@ -23,11 +23,13 @@ Zu den "Termindetails" gehören verbindlich ein Titel sowie ein Start- und Endda
     
     Verknüpfungen zu Kursbausteinen können nur im Kurskalender erstellt werden. Bei den anderen Kalendern erscheint der Kommentar: _Keine Verknüpfung möglich._
 
+![Kalender Verknüpfungen](assets/calendar_verknuepfung_DE.png){ class="shadow lightbox" }
+
 !!! warning "Achtung"
 
     Die Schaltfläche „Termin löschen“ in den Termindetails löscht den Termin endgültig. Der Termin kann nicht wieder hergestellt werden!
 
-![Kalender Verknüpfungen](assets/calendar_verknuepfung_DE.png){ class="shadow lightbox" }
+
 
 ## Wiederholung (Serientermine)
 

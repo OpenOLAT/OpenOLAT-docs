@@ -46,5 +46,14 @@ warning can be hidden through CSS by your system administrator.
 In any case, your browser must accept session cookies, and Javascript must be
 enabled.
 
-  
+## After login
 
+After your login you will navigate either to 
+* your personal homepage in OpenOlat, 
+* an info page, a page which usually contains general information on various topics, 
+* to the portal or 
+* a landing page defined by you. 
+
+!!! Info
+
+    If you cannot see the portal it was most probably disabled by the system administrator.

@@ -45,3 +45,16 @@ Warnung kann auch vom Administrator per CSS ausgeblendet werden.
 
 Grundsätzlich muss ihr Browser Session Cookies akzeptieren und Javascript muss
 aktiviert sein.
+
+## Nach dem Login
+
+Nach dem Login gelangen Sie entweder  
+* auf Ihre persönliche Startseite in
+OpenOlat, 
+* auf eine Infoseite, eine Seite die in der Regel generelle Informationen zu verschiedenen Themen enthält, 
+* das OpenOlat Portal oder 
+* auf eine von Ihnen selbst festgelegte Startseite. 
+
+!!! Info "Info"
+
+    Falls Sie den Tab „Portal“ nicht sehen, wurde diese Seite von ihrem Systemadministrator systemweit abgeschaltet.

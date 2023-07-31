@@ -4,11 +4,12 @@
 
 You have threefold access to the calendar:
 
-* in the group: grants you access to the group calendar as well as any imported external calendars.
-* in the course: provides access to course dates as well as group calendars.
-* in your personal menu: aggregates all your OpenOlat calendars.
+* in your [personal menu](../personal_menu/index.md): aggregates all your OpenOlat calendars.
+* in the [group](../groups/Using_Group_Tools.md): grants you access to the group calendar as well as any imported external calendars.
+* in the course: provides access to course dates as well as group calendars. Kalender können in Kursen sowohl im Kursrun als auch in der Toolbar eingebunden sein.
 
-Course calendars, like group calendars, are automatically added to your [personal calendar](../personal_menu/Personal_Tools.md#PersonalMenu-_pers_kalender); course events will be displayed there for you.
+
+Course calendars, like group calendars, are automatically added to your personal calendar; course events will be displayed there for you.
 
 ## Create / Edit entry
 
@@ -27,6 +28,10 @@ For the "Event details" a subject as well as a start and end date are mandatory.
     Click the button „Delete this entry“ in order to definitely delete the calendar entry. It cannot be restored anymore!
 
 ![Calendar linking](assets/calendar_connection_EN.png){ class="shadow lightbox" }
+
+!!! warning "Achtung"
+
+    Die Schaltfläche „Termin löschen“ in den Termindetails löscht den Termin endgültig. Der Termin kann nicht wieder hergestellt werden!
 
 ### Recurring events
 
