@@ -1,5 +1,22 @@
 # How and where can I do a bulk assessment?
 
+??? abstract "Objectives and content of this instruction"
+
+    As a coach, you usually evaluate individual performances and individual participants.
+    Sometimes, however, you increase your efficiency by using the bulk assessment. This guide shows you how to do it.
+
+??? abstract "Target group"
+
+    [ ] Authors [x] Coaches  [ ] Participants
+
+    [ ] Beginners [x] Advanced users  [x] Experts
+
+
+??? abstract "Expected previous knowledge"
+
+    * Experience with the assessment tool
+
+
 ## What is a bulk assessment?
 
 With a bulk assessment you may assess several course participants with the [assessment tool

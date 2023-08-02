@@ -1,5 +1,23 @@
 # Wie und wo kann ich eine Massenbewertung vornehmen?
 
+??? abstract "Ziel und Inhalt dieser Anleitung"
+
+    Als Betreuer:in bewerten Sie in der Regel Einzelleistungen und einzelne Teilnehmer:innen.
+    In manchen Fällen steigern Sie Ihre Effizienz, wenn Sie die Massenbewertung verwenden. Diese Anleitung zeigt Ihnen, wie es geht.
+
+??? abstract "Zielgruppe"
+
+    [ ] Autor:innen [x] Betreuer:innen  [ ] Teilnehmer:innen
+
+    [ ] Anfänger:innen [x] Fortgeschrittene  [x] Experten/Expertinnen
+
+
+??? abstract "Erwartete Vorkenntnisse"
+
+    * Erfahrung mit dem Bewertungswerkzeug
+
+---
+
 ## Was ist eine Massenbewertung?
 
 Mit der Massenbewertung können Sie im [Bewertungswerkzeug
@@ -43,7 +61,7 @@ Das grundsätzliche Vorgehen ist:
 * oder wählen Sie die Option "Massenbewertung" in der Toolbar. 
 
 
-### Die Massenbewertung für den <b>Kursbaustein Aufgabe</b> wird gestartet durch 
+<h3> Die Massenbewertung für den <b>Kursbaustein Aufgabe</b> wird gestartet durch </h3>
 * Wahl des Kurses
 * Klick auf das Icon "Administration"
 * Klick auf die Menüoption "Bewertungswerkzeug"
@@ -54,7 +72,7 @@ Das grundsätzliche Vorgehen ist:
 ![massenbewertung_kb_aufgabe_v1_de.png](assets/massenbewertung_kb_aufgabe_v1_de.png){ class="shadow lightbox" }
 
 
-### Die Massenbewertung für den <b>Kursbaustein Gruppenaufgabe</b> wird gestartet durch 
+<h3> Die Massenbewertung für den <b>Kursbaustein Gruppenaufgabe</b> wird gestartet durch </h3>
 * Wahl des Kurses
 * Klick auf das Icon "Administration"
 * Klick auf die Menüoption "Bewertungswerkzeug"
@@ -65,7 +83,7 @@ Das grundsätzliche Vorgehen ist:
 ![massenbewertung_kb_gruppenaufgabe_v1_de.png](assets/massenbewertung_kb_gruppenaufgabe_v1_de.png){ class="shadow lightbox" }
 
 
-### Die Massenbewertung für den <b>Kursbaustein Bewertung</b> wird gestartet durch
+<h3> Die Massenbewertung für den <b>Kursbaustein Bewertung</b> wird gestartet durch </h3>
 * Wahl des Kurses
 * Klick auf die Menüoption "Bewertungswerkzeug"
 * Wahl des Kursbausteins vom Typ "Bewertung" im Menü am linken Rand
@@ -75,7 +93,7 @@ Das grundsätzliche Vorgehen ist:
 ![massenbewertung_kb_bewerten_v1_de.png](assets/massenbewertung_kb_bewerten_v1_de.png){ class="shadow lightbox" }
 
 
-### Die Massenbewertung für einen <b>gesamten Kurs</b> oder für eine <b>bestimmte Gruppe</b> 
+<h3> Die Massenbewertung für einen <b>gesamten Kurs</b> oder für eine <b>bestimmte Gruppe</b> </h3><br>
 beginnt mit der Wahl des Kurses oder der Gruppe. Dann müssen aber konkrete Kursbausteine gewählt werden, die dieser Kurs enthält, bzw. die diese Gruppe bearbeitet. Ab dort wird die Massenbewertung nach einer der obigen Vorgehensweisen weiter ausgeführt. 
 
 
