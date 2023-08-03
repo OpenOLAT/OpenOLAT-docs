@@ -8,12 +8,17 @@ In allen Projekten sind einzelne Arbeitspakete (To-dos) wesentlicher Bestandteil
 
 Um ein neues To-do innerhalb eines Projektes zu erstellen haben Sie folgende Möglichkeiten:
 
-**a) Projekte > Tab „Meine Projekte“ > Projekt wählen > Klick auf das Plus-Symbol im Abschnitt „To-dos“**
+**a) Projekte > Tab „Meine Projekte“ > Projekt wählen > im Pulldown: „To-do erstellen“**
+
+![projekte_todo_erstellen_pulldown_v1_de.png](assets/projekte_todo_erstellen_pulldown_v1_de.png){ class="shadow lightbox" }
+
+**b) Projekte > Tab „Meine Projekte“ > Projekt wählen > Klick auf das Plus-Symbol im Abschnitt „To-dos“**
 
 ![projekte_todo_neu_plus_v1_de.png](assets/projekte_todo_neu_plus_v1_de.png){ class="shadow lightbox" }
 
 <br>
-**b) Projekte > Tab „Meine Projekte“ > Projekt wählen > Schnellzugriff Button „To-do“ > Klick auf den Button „To-do erstellen“**<
+
+**c) Projekte > Tab „Meine Projekte“ > Projekt wählen > Schnellzugriff Button „To-do“ > Klick auf den Button „To-do erstellen“**<
 
 ![projekte_todo_neu_schnellzugriff_v1_de.png](assets/projekte_todo_neu_schnellzugriff_v1_de.png){ class="shadow lightbox" }
 
