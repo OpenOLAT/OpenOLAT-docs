@@ -46,7 +46,7 @@ Die folgenden Kursbausteine dienen insbesondere der Bereitstellung und Strukturi
 
     [:octicons-arrow-right-24: card2brain](Course_Element_card2brain_Flashcards.de.md)
 
-    [:octicons-arrow-right-24: MediaSite](Course_Element_Mediasite.md)
+    [:octicons-arrow-right-24: MediaSite](Course_Element_Mediasite.de.md)
 
     [:octicons-arrow-right-24: Edubase](Course_Element_Edubase.de.md)
 
