@@ -14,7 +14,7 @@ Sofern Sie bereits eine Portfoliovorlage hinzugefügt haben, erscheint diese unt
 
 Im Kurseditor im Tab „Bewertung" können Sie die Anzeige von Punkten, Status Bestanden/Nicht bestanden und individuellen Kommentaren vorkonfigurieren. In den Feldern „Hinweis für alle Benutzer“ und „Hinweis für Betreuer“ formulieren Sie allgemeine Informationen zur Bewertung an alle Kursteilnehmer und -betreuer.
 
-Weitere Informationen wie Lernende eine Portfolioaufgabe abholen und nutzen finden Sie im Kapitel „[Portfolioaufgabe: abholen und bearbeiten](../learningresources/Portfolio_task_and_assignment_Collecting_and_editing.de.md)“. Wie Lehrende eine Portfolioaufgabe bewerten können, erfahren Sie im Kapitel „[Portfolioaufgabe: kommentieren und bewerten](../learningresources/Portfolio_assignment_Grading.de.md)“.
+Wie Lehrende eine Portfolioaufgabe bewerten können, erfahren Sie im Kapitel „[Portfolioaufgabe: kommentieren und bewerten](../learningresources/Portfolio_assignment_Grading.de.md)“.
 
 Generelle Infos zum Thema Portfolio bzw. E-Portfolio können Sie [hier](../area_modules/index.de.md) nachlesen.
 
@@ -26,7 +26,7 @@ In der Portfolioaufgabe können Sie beispielsweise Ihren Lernprozess dokumentier
 
 Sobald Sie die Portfolioaufgabe im Kurs abgeholt haben, finden Sie diese auch in Ihrem [persönlichen Menü](../personal_menu/Personal_Tools.de.md) unter „Portfolio 2.0“ - „Meine Portfolio Mappen“.
 
-Um die fertige Bearbeitung einzureichen, publizieren Sie die Aufgaben und geben Sie den Bereich [frei](../area_modules/Shared_by_me.de.md). Weitere Informationen zur Bearbeitung einer Portfolioaufgabe finden Sie [hier](../learningresources/Portfolio_task_and_assignment_Collecting_and_editing.de.md).
+Um die fertige Bearbeitung einzureichen, publizieren Sie die Aufgaben und geben Sie den Bereich [frei](../area_modules/Shared_by_me.de.md).
 
 ## Portfolioaufgabe erstellen
 
