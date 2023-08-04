@@ -14,18 +14,15 @@ helps you to easily transfer files from your computer to OpenOlat folders.
 
 ## WebDAV Compatible OpenOlat Folders
 
-Via WebDAV you can access the following OpenOlat folders. Thereby the
-structure of how the elements are generated in OpenOlat  is taken
-automatically:
+Via WebDAV you can access the following OpenOlat folders. Thereby the structure of how the elements are generated in OpenOlat is taken automatically:
 
   * [Personal folder](../personal_menu/Personal_folders.md) (every user)  
   * [Folders of groups](../groups/Using_Group_Tools.md)
-  * [Folder - course element ](../learningresources/Course_Element_Folder.md)
+  * [Folder - course element](../learningresources/Course_Element_Folder.md)
   * [Storage folders](../learningresources/Storage_folder.md) of courses (course owners only)
   * [Resource folders](../learningresources/index.md) (only Learning Resource Owner)
 
-Who is allowed to upload files via WebDAV in the respective folders depends on
-the respective configuration.
+Who is allowed to upload files via WebDAV in the respective folders depends on the respective configuration.
 
 ## Requirements
 
@@ -35,14 +32,12 @@ implemented directly into the software (e.g. Microsoft Office).
 
 In order to get access to a folder in OpenOlat via WebDAV you need:
 
-  * WebDAV link: WebDAV address of OpenOlat server as indicated below WebDAV compatible folders, or in your personal menu under Settings / WebDAV 
+  * WebDAV link: WebDAV address of OpenOlat server as indicated below WebDAV compatible folders, or in your personal menu under Settings / WebDAV
   * Your OpenOlat username or e-mail adress
-  * Your OpenOlat/WebDAV password.
+  * Your OpenOlat/WebDAV password
 
-If you access OpenOlat via Shibboleth or another Cloud Login you can set your WebDAV password on
-your homepage, section "Settings." Just select the link "Settings" before
-clicking on the button "Set password" in the tab "WebDAV." If you already have
-an OpenOlat password you can use this one to access WebDAV.
+If you access OpenOlat via Shibboleth or another Cloud Login you can set your WebDAV password on your homepage, section "Settings." Just select the link "Settings" before
+clicking on the button "Set password" in the tab "WebDAV." If you already have an OpenOlat password you can use this one to access WebDAV.
 
 !!! warning "To consider"
 
@@ -51,8 +46,6 @@ an OpenOlat password you can use this one to access WebDAV.
     * File names are limited to 100 characters
     * File names may not include several spaces after each other
     * If an error message appears anyway, go through the points "To consider". Check as well if the quota does not have been exceeded (especially if several files have been uploaded together)
-
-  
 
 ## WebDAV Connection Setup
 
@@ -108,20 +101,14 @@ an OpenOlat password you can use this one to access WebDAV.
       * Windows: Cyberduck, WinSCP
       * Mac: Cyberduck, Commander One
 
-  
-
 ## Folder Structure
 
-If you have setup the connection successfully a directory will be opened on
-your computer containing the following sub-directories:
+If you have setup the connection successfully a directory will be opened on your computer containing the following sub-directories:
 
-  *  **coursefolders**: Hier haben Sie Zugriff auf die [Ablageordner](../learningresources/Storage_folder.md) aller Kurse, die Sie besitzen bzw. deren Mitglied sie sind. Für jeden Kurs wird automatisch ein Webdav-Ordner angelegt. Klicken Sie auf den Webdav-Ordner eines Kurses und Sie sehen die Dateien und die Struktur des jeweiligen Ablageordners und können Dateien hochladen, löschen, ändern usw. 
-  Neben denen von Ihnen angelegten Dateien und Ordnern legt OpenOlat je nach automatisch bestimmte Ordner an. Diese erreichen Sie ebenfalls über WebDAV.    
-  The storage folder is most and for all only visible to users holding author rights. All other users will find here course folders.
+  *  **coursefolders**: Here you have access to the [storage folders](../learningresources/Storage_folder.md) of all courses you own or are a member of. A WebDAV folder is automatically created for each course. Click on the WebDAV folder of a course and you will see the files and the structure of the respective storage folder and you can upload, delete, modify files, etc. In addition to the files and folders you create, OpenOlat automatically creates specific folders depending on them. You can also access these via WebDAV. The storage folder is most and for all only visible to users holding author rights. All other users will find here course folders.
     * _other_: This folder only appears if in the administration semester terms are activated. In this folder all courses which are added to a term can be found. 
-    * _finished_: This folder only appears if in the administration semester terms are not activated. In this folder all courses can be found, which have been set to finished in the course life-cycle. These are the courses which appear in the menu Courses in the tab "Finished". 
+    * _finished_: This folder only appears if in the administration semester terms are not activated. In this folder all courses can be found, which have been set to finished in the course life-cycle. These are the courses which appear in the menu Courses in the tab "Finished".
 
   *  **groupfolders** : all groups you are enrolled in and have access to corresponding folders.
   *  **home** : both of your personal folders (along with the sub-folders "private" and "public").
   *  **sharedfolders** : All resource folders you own or have otherwise access to due to membership rights. Owners and coaches may read and write, and participants may read but not write.
-

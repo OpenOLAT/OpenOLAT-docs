@@ -1,12 +1,14 @@
 # Wie kann ich dieselben Dateien in mehreren Kursen einsetzen?
 
-Wenn Sie ein Lehrszenario mit mehreren Kursen, z.B. einen Studiengang umsetzen wollen und dabei viele Dateien in allen Kursen verwendet werden sollen, bietet es sich an, diese Dateien zentral im <b>Ressourcenordner</b> abzulegen und dann in allen gewünschten Kursen einzubinden. <br>
-Das hat den Vorteil, dass Sie Änderungen an den Dateien nur einmal vornehmen müssen und diese automatisch in allen verlinkten Kursen sichtbar werden.<br>Typische Beispiele für derartige Dateien sind: 
+Wenn Sie ein Lehrszenario mit mehreren Kursen, z.B. einen Studiengang umsetzen wollen und dabei viele Dateien in allen Kursen verwendet werden sollen, bietet es sich an, diese Dateien zentral im **Ressourcenordner** abzulegen und dann in allen gewünschten Kursen einzubinden. Das hat den Vorteil, dass Sie Änderungen an den Dateien nur einmal vornehmen müssen und diese automatisch in allen verlinkten Kursen sichtbar werden.
+
+Typische Beispiele für derartige Dateien sind:
 
 * grundsätzliche Rahmenbedingungen,
 * AGBs,
 * organisatorische Infos,
-* Infos zur generellen Betreuung bzw. Ansprechpartnern
+* Infos zur generellen Betreuung bzw. Ansprechpartnern,
+* kursübergreifende Lehrmaterialien
 * usw.
 
 ## Was Sie benötigen

@@ -33,8 +33,7 @@ write access, which have to be assigned to users in courses and groups by a
 coach first, you are generally allowed to upload files, create, copy, move or
 delete them in folders.
 
-File names of files you wish to upload to OpenOlat should contain only the
-following:
+File names of files you wish to upload to OpenOlat should contain only the following:
 
 a-z, A-Z, 0-9, as well as "-", ".", "_" or space
 
@@ -49,27 +48,21 @@ means OpenOlat is available as a normal net-device, with which you can easily
 copy, move and delete files. Further information can be found in the chapter
 "[Using WebDAV](../basic_concepts/Using_WebDAV.md)".
 
-
 !!! info
 
-    In order for the WebDAV access to work, it needs to be [activated
-    ](../../manual_admin/administration/WebDAV.de.md)by your OpenOlat administrator first.
+    In order for the WebDAV access to work, it needs to be [activated](../../manual_admin/administration/WebDAV.de.md) by your OpenOlat administrator first.
 
 ## Quota
 
-For each course element "Folder" you can dispose of ca. 100 MB storage space.
-Your OpenOlat support is responsible for the increase of the quota. Please
-contact the corresponding contact person.
+For each course element "Folder" you can dispose of ca. 100 MB storage space. Your OpenOlat support is responsible for the increase of the quota. Please contact the corresponding contact person.
 
 ## Other types of folders  
 
-In OpenOlat exist several different versions of folders. Beside the two
-folders in the personal menu in OpenOlat exist the following folder versions:
+In OpenOlat exist several different versions of folders. Beside the two folders in the personal menu in OpenOlat exist the following folder versions:
 
-  * [Storage folder](../leanringresources/Storage_folder.md)  (in courses)
+  * [Storage folder](../leanringresources/Storage_folder.md) (in courses)
   * [Course element folder](../learningresources/Course_Element_Folder.md) (in courses)
   * Folders in Topic assignment (in courses)
   * [Participant folder](../learningresources/Communication_and_Collaboration.md#CommunicationandCollaboration-_participantfolder) (in courses)
-  * [Resource folder ](../learningresources/index.md#resource-folder)(learning resource)  
-  * [Werkzeug: Ordner](../groups/Using_Group_Tools.md) (in Gruppen, ähnlich dem Kursbaustein Ordner in Kursen)
-
+  * [Resource folder](../learningresources/index.md#resource-folder) (learning resource)  
+  * [Group tool: folder](../groups/Using_Group_Tools.md) (in groups, similar to the course element folder in courses)

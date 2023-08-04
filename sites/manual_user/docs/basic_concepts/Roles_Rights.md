@@ -4,8 +4,7 @@
 
 ### User type
 
-OpenOlat works with a roles and rights management. First two user types are
-differentiated. These are:
+OpenOlat works with a roles and rights management. First two user types are differentiated. These are:
 
 * **Anonymous guest:** Guests have - without registration - limited access to OpenOlat. They can only have a look at learning content enabled for guests, but cannot take part in learning activities. The link to the guest access can be found on the login page. Further information about guest can be found [here](guest_access.md).
 * **System user:**  Every user has a distinct username, which cannot be changed after the registration anymore. Users can use enabled learning content and can take part in learning activities. Additionally every users has an individual configurable landing page and [storage](../personal_menu/Personal_folders.md) available. Further more he can create [groups](../groups/index.md).
@@ -18,8 +17,7 @@ differentiated. These are:
 
 System users can get one ore more roles additionally.
 
-With OpenOlat Release 13, the OpenOlat roles have been further enhanced. Here
-is an overview of all OpenOlat roles.
+With OpenOlat Release 13, the OpenOlat roles have been further enhanced. Here is an overview of all OpenOlat roles.
 
 ![Rollen in OpenOlat](assets/roles_18_en.png)
 
@@ -80,7 +78,6 @@ In addition to the course-related roles, depending on the configuration,
 [guests](guest_access.md) without an OpenOlat account can also have access
 to a course.
 
-
 !!! success "Role change"
   
     It is also possible for people to be given multiple course roles and thus have different perspectives on the course. Once a person has been assigned several course-related roles, it is possible to change roles by changing the "User role" in the course toolbar.
@@ -91,18 +88,16 @@ to a course.
 
 ### Group roles
 
-If groups are used in courses, the members can be registered either as participants or as group coaches. In the user management of a course and then
-Rights further rights can be given to coaches or participants of assigned
-groups.  
+If groups are used in courses, the members can be registered either as participants or as group coaches. In the user management of a course > Rights further rights can be given to coaches or participants of assigned groups.  
 
-* **group coach**: 
+* **group coach**:
 The group coach has almost the same rights as the course coach. In courses,
 where his group is assigned to, he has access right to the assessment tool as
 well as to the test and survey statistic. In the assessment tool he can only
 see the participants of his group.
-* **Gruppenteilnehmer**: Der Gruppenteilnehmer hat die gleichen Rechte wie der Kursteilnehmer.
+* **group members**: The group participant has the same rights as the course participant.
 
-Im Rechtemanagement des Kurses können weitergehende *Rechtepakete* entweder an Gruppen Teilnehmende oder Gruppen Betreuer vergeben werden.
+In the rights management of the course, further *rights packages* can be assigned to either group participants or group coaches.
 
 ![Course rights additional configuration](assets/memebers_managent.png)
 

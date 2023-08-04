@@ -2,16 +2,18 @@
 
 If you want to implement a teaching scenario with several courses, e.g. a
 course of studies, and many files are to be used in all courses, it is
-advisable to store these files centrally in the <b>resource
-folder</b> and then integrate it in the desired courses.
+advisable to store these files centrally in the **resource
+folder** and then integrate it in the desired courses.
 
-This has the advantage that you only have to make changes to the files once and they are
-automatically visible in all linked courses.<br>Typical examples for such files are:
- 
+This has the advantage that you only have to make changes to the files once and they are automatically visible in all linked courses.
+
+Typical examples for such files are:
+
 * basic framework conditions,
 * general terms and conditions,
 * organisational information,
 * information on general support and contact persons,
+* cross-course teaching materials
 * etc.
 
 ## What you need
