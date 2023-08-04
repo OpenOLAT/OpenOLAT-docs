@@ -13,8 +13,9 @@ Informationen betreffend OpenOlat, seiner Funktionen und neuesten Änderungen fi
 
 [Change to English version](/){ .md-button }
 
-## Aktuelle Version:
+## Aktuelle Versionen:
 
+- [OpenOlat 18.0 Benutzerhandbuch](manual_user/general/) | [Release Notes 18.0](release_notes/Release_notes_18.0.de.md)
 - [OpenOlat 17.2 Benutzerhandbuch](manual_user/general/) | [Release Notes 17.2](release_notes/Release_notes_17.2.de.md)
 
 ## Ältere Versionen:

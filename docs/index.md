@@ -14,8 +14,9 @@ Find information on OpenOlat, its features and latest changes here. Use the top 
 
 [Zur Deutschen Version wechseln](/de/){ .md-button }
 
-## Current version:
+## Current versions:
 
+- [OpenOlat 18.0 User Manual](manual_user/general/) | [Release notes 18.0](release_notes/Release_notes_18.0.md)
 - [OpenOlat 17.2 User Manual](manual_user/general/) | [Release notes 17.2](release_notes/Release_notes_17.2.md)
 
 ## Older versions:
