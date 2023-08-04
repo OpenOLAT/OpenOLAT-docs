@@ -1,6 +1,17 @@
 # Kursbaustein "Aufgabe" {: #course_element_task}
 
-![Aufgabe Icon](assets/task.png)
+## Steckbrief
+
+Name | Aufgabe
+---------|----------
+Icon | ![Aufgabe Icon](assets/task.png){ class=size24  }
+Verfügbar seit | Neuauflage mit Release 10.3
+Funktionsgruppe | Wissensüberprüfung
+Verwendungszweck | Abbildung komplexer Aufgabenworkflows mit konfigurierbaren Teilschritten wie Abgabe von Lösungsdokumenten, Feedback und Überarbeitungsschlaufe, Bereitstellung der Musterlösung und Bewertung
+Bewertbar | ja
+Spezialität / Hinweis | auch als Gruppenaufgabe verfügbar
+
+## Allgemeines
 
 Mit Hilfe des Kursbausteins Aufgabe können Lehrende Dateiabgaben und Einsendeaufgaben organisieren. Lernende laden dabei ihre Einreichungen in den OpenOlat Kurs hoch und erhalten vom Lehrenden ein Feedback bzw. eine Bewertung. Ebenso können Überarbeitungen eingefordert oder Musterlösungen bereitgestellt werden.
 
@@ -87,7 +98,7 @@ Im Bereich "Betreuung" des Tabs Workflow kann eine teilnehmerabhängige Betreuun
 
 ![Betreuerabhängige Bewertung](assets/Betreuer_Zuweisung.png)
 
-Die differenzierte Zuordnung der Personen erfolgt allerdings bei geschlossenem Kurseditor. 
+Die differenzierte Zuordnung der Personen erfolgt allerdings bei geschlossenem Kurseditor.
 
 **Spezifisches Gruppenaufgabe:**
 In der Gruppenaufgabe legen Sie zusätzlich im Abschnitt "Aufgabentyp" fest, für welche Gruppen oder Lernbereiche der Aufgabenbaustein zugänglich ist. Dafür entfällt bei der Gruppenaufgabe die Betreuerzuordnung im Tab "Workflow" da sich diese Zuordnung automatisch durch die Betreuerzurodnung der Gruppe ergibt.  
@@ -112,12 +123,9 @@ Im Tab „Aufgabenstellung“ können Sie
 
 * direkt mit Ihrer Webcam Aufgabenstellungen als Video aufnehmen (Video-Aufgabe erstellen).
 
-Sie können ihren Benutzern für eine Aufgabe auch mehrere Dateien zur Verfügung stellen. Dafür müssen diese aber als ZIP-Paket hochgeladen werden. 
+Sie können ihren Benutzern für eine Aufgabe auch mehrere Dateien zur Verfügung stellen. Dafür müssen diese aber als ZIP-Paket hochgeladen werden.
 
-Wird eine Aufgabe direkt in OpenOlat mit dem internen Editor erstellt, können Sie ebenfalls mehrere Dateien (z.B. Bilder oder PDFs) zur Verfügung stellen, in dem Sie diese im HTML-Editor hochladen und dann in der HTML-Seite verlinken bzw. direkt anzeigen. So erstellte Aufgaben werden von den Benutzern dann
-ebenfalls im .zip Format heruntergeladen. Wird der HTML-Editor verwendet, wird
-automatisch der hinterlegte Titel auch als Dateiname übernommen. Dies kann
-aber jederzeit wieder geändert werden.
+Wird eine Aufgabe direkt in OpenOlat mit dem internen Editor erstellt, können Sie ebenfalls mehrere Dateien (z.B. Bilder oder PDFs) zur Verfügung stellen, in dem Sie diese im HTML-Editor hochladen und dann in der HTML-Seite verlinken bzw. direkt anzeigen. So erstellte Aufgaben werden von den Benutzern dann ebenfalls im .zip Format heruntergeladen. Wird der HTML-Editor verwendet, wird automatisch der hinterlegte Titel auch als Dateiname übernommen. Dies kann aber jederzeit wieder geändert werden.
 
 Im Feld „Art der Zuweisung“ bestimmen Sie, ob einem Kursteilnehmer alle zur
 Verfügung stehenden Aufgaben zur Auswahl angeboten werden, oder ob ihm eine

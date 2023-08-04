@@ -2,7 +2,7 @@
 
 ![Task Icon](assets/task.png)
 
-The course element Group task functions largely like the course element [Task](Course_Element_Task.md). 
+The course element Group task functions largely like the course element [Task](Course_Element_Task.md).
 
 Points and feedbacks are created for the whole group in this course element, but can be customized.
 
