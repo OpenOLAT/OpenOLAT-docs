@@ -101,7 +101,7 @@ Select this option if no further restrictions apply. All OLAT users can open and
 
 ![paypal](assets/cc-paypal.png){ class="size24" } **PayPal and credit card**
   
-Is only available if enabled by the [administrator](../../manual_admin/administration/PayPal_Configuration.en.md): Select the PayPal/credit cards to enable booking against a financial payment. You can define an amount that has to be paid with a PayPal account or with a credit card (Visa/Mastercard). (This function is only available for users with author rights)
+Is only available if enabled by the [administrator](../../manual_admin/administration/PayPal_Configuration.md): Select the PayPal/credit cards to enable booking against a financial payment. You can define an amount that has to be paid with a PayPal account or with a credit card (Visa/Mastercard). (This function is only available for users with author rights)
 
 ![notBooking](assets/notBooking.jpg){ class="size24" } **Without booking**
 

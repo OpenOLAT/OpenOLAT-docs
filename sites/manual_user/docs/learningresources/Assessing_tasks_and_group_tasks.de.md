@@ -52,7 +52,7 @@ Anschliessend können Sie das [Bewertungsformular](The_assessment_form.de.md) au
 
 ## Bewertungsmöglichkeiten  Kursbaustein „Aufgabe“
 
-Welche Schritte im Bewertungsflow genau zur Verfügung stehen, ist abhängig von der konkreten Konfiguration des Aufgaben Bausteins. Die Details werden in der Konfiguration des Kursbausteins „[Aufgabe](../learningresources/Task_Further_Configurations.de.md)“ bzw. "Gruppenaufgabe" festgelegt. Im Bewertungswerkzeug können die Bewertungsoptionen nicht mehr geändert werden.
+Welche Schritte im Bewertungsflow genau zur Verfügung stehen, ist abhängig von der konkreten Konfiguration des Aufgaben Bausteins. Die Details werden in der Konfiguration des Kursbausteins „[Aufgabe](../learningresources/Course_Element_Task.de.md)“ bzw. "Gruppenaufgabe" festgelegt. Im Bewertungswerkzeug können die Bewertungsoptionen nicht mehr geändert werden.
 
 Falls gewünscht und entsprechend konfiguriert, kann ein Rückgabe-Dokument hochgeladen werden. Dabei könnte es sich zum Beispiel um eine ausführliche Bewertungstabelle oder eine überarbeitete Version der Einreichung handeln. Auch ist es möglich eine Einreichung über den Button „Benötigt Überarbeitung“ noch einmal an den Lernenden zurückzuspielen und eine Überarbeitungsschleife auszulösen.
 

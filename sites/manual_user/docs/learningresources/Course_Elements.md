@@ -78,7 +78,7 @@ The following course elements can be used in particular to test knowledge.
 
 </div>
 
-Most of the course elements in the Assessment category are assessable and points can be assigned if needed. Then, further features such as the addition of points or the calculation of pass/fail for the course, based on the assessments of different course elements, can be added. The calculation for traditional courses is done through the course element [Structure](Course_Element_Structure.en.md) or at the top course node.
+Most of the course elements in the Assessment category are assessable and points can be assigned if needed. Then, further features such as the addition of points or the calculation of pass/fail for the course, based on the assessments of different course elements, can be added. The calculation for traditional courses is done through the course element [Structure](Course_Element_Structure.md) or at the top course node.
 
 The configuration tab "Reminders" is available for all assessable elements of the knowledge check. Here, e-mails can be sent depending on the processing status of the respective course element, e.g. if an assignment or a test has not yet been processed on a certain date. The possibilities are similar to those in the menu ["Reminder"](../learningresources/Course_Reminders.md) in the course administration.
 

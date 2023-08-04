@@ -7,6 +7,7 @@
 ## Controls
 
 In the middle is the content area.
+
 * **Layout Menu**: There you can set all the template for the layout, add layouts on top and bottom and move the layout in position or order.
 * **Block Menu**: (from left to right) Turn the inspector on and off. Add blocks and move the block at the button to the desired position using drag n drop.
 * **Inspector**: There are all settings that change the functionality, as well as the appearance of the respective block or layout.
@@ -33,63 +34,43 @@ By clicking on the title bar of the inspector window you can also move it. When 
 
 An entry can contain several titles and subtitles.
 
-With the selection of h1-h6 the size of the heading can be chosen,
-where h1 corresponds to "Heading 1" and is therefore the largest and h6 corresponds to
-"Heading 6" and thus smallest.
+With the selection of h1-h6 the size of the heading can be chosen, where h1 corresponds to "Heading 1" and is therefore the largest and h6 corresponds to "Heading 6" and thus smallest.
 
 ### Paragraph
 
-Element for adding text blocks. The Paragraph element contains
-central formatting as well as the possibility to distribute the text to columns.
-columns.
+Element for adding text blocks. The Paragraph element contains central formatting as well as the possibility to distribute the text to columns.
 
 ### Table
 
-Add a table to your portfolio. Define the number of rows and
-rows and columns of a table and add a header row.
+Add a table to your portfolio. Define the number of rows and rows and columns of a table and add a header row.
 
 ### Image
 
-Add image elements to your portfolio. Upload a suitable
-graphic file. Then you can further configure the file, e.g.
-place a title or subtitle and also define the size, placement or
-define the border.
+Add image elements to your portfolio. Upload a suitable graphic file. Then you can further configure the file, e.g. place a title or subtitle and also define the size, placement or define the border.
 
 Also, the positioning can be further optimized by using the container element.
-optimized.
 
 If you want to place an image next to a text, use a 1/2 / 1/2 layout and place the blocks as desired.
 
 ### Text section
 
-Using the html editor, "normal" text can be added. You can use
-the usual formatting can be applied.  
-Under "Insert" you can also add [mathematical
-formulas](../basic_concepts/Math_formula.en.md) can be inserted.
+Using the html editor, "normal" text can be added. You can use the usual formatting. Under "Insert" you can also add [mathematical formulas](../basic_concepts/Math_formula.md) can be inserted.
 
 ## Inserting media
 
 ### Create document
 
-Here a new document can be created according to the specified file types.
-can be created. If, for example, OnlyOffice is used, the created files can also be directly
-can also be edited directly online.
+Here a new document can be created according to the specified file types. If, for example, OnlyOffice is used, the created files can also be edited directly online.
 
 ### Quote
 
-A citation can be added directly in the entry, as well as in the media library.
-can be added. First, select the appropriate citation type and then fill in as many
-then fill in as many of the given fields as possible.
+A citation can be added directly in the entry, as well as in the media library. First, select the appropriate citation type and then fill in as many of the given fields as possible.
 
 ### Document
 
 Various file formats can be uploaded here and provided via link.
-can be uploaded.
 
-If an external [Document editor
-](../../manual_admin/administration/External_Tools_-_Administration.en.md)is activated and the files are available in a format
-the files are in a format that is supported by the editor, the files can also be
-can also be edited directly online.
+If an external [Document editor](../../manual_admin/administration/External_Tools_-_Administration.md) is activated and the files are available in a format that is supported by the editor, the files can also be edited directly online.
 
 ### Video
 
@@ -97,6 +78,4 @@ Videos can be uploaded to the portfolio via this link.
 
 ### Select from media library
 
-Files that are already in the [Media Center](../personal_menu/Media_Center.md),
-can be added to an entry. The search and filter options
-help to find the desired file faster.
+Files that are already in the [Media Center](../personal_menu/Media_Center.md), can be added to an entry. The search and filter options help to find the desired file faster.

@@ -78,7 +78,7 @@ Mandatory tasks have to be completed and will be collected after the set deadlin
 
 !!! info "Info"
 
-    How to create tasks step by step and further information on other [configuration possibilities](../learningresources/Task_Further_Configurations.md) can be found in the chapter ["Creating Tasks"](Course_Element_Task).
+    How to create tasks step by step and further information on other [configuration possibilities](../learningresources/Course_Element_Task.md) can be found in the chapter ["Creating Tasks"](Course_Element_Task).
 
 ##  Course Element: Portfolio Task {: #course_element_portfolio}
 

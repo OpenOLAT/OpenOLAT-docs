@@ -43,7 +43,7 @@ Both learners and teachers can see how far the assessment workflow has progresse
 Once a user has definitely submitted a task, it is no longer possible for him/her to re-submit or exchange it. However, if a task was submitted by mistake or the wrong document was uploaded, the coach can "reopen the submission" and thus enable the learner to upload another submission.
 
 How a task or group task can be assessed, e.g. with a "pass/fail" or a score, is defined in the configuration of the course element
-"[Task](../learningresources/Task_Further_Configurations.md)" or "Group task". In the assessment tool, the assessment options can no longer be changed.
+"[Task](../learningresources/Course_Element_Task.md)" or "Group task". In the assessment tool, the assessment options can no longer be changed.
 
 ## Assessment workflow course element "Group task
 
