@@ -7,7 +7,7 @@ Getroffene Entscheidungen müssen nachvollziehbar sein und deshalb dokumentiert 
 
 Um einen neuen Entscheid innerhalb eines Projektes zu erstellen haben Sie folgende Möglichkeiten:
 
-**a) Projekte > Tab „Meine Projekte“ > Projekt wählen > Abschnitt „Schnellzugriff" > im Pulldown: „Entscheid erstellen“**
+**a) Projekte > Tab „Meine Projekte“ > Projekt wählen > Abschnitt „Schnellzugriff“ > im Pulldown: „Entscheid erstellen“**
 
 ![projekte_entscheid_erstellen_pulldown_v1_de.png](assets/projekte_entscheid_erstellen_pulldown_v1_de.png){ class="shadow lightbox" }
 
@@ -50,11 +50,11 @@ oder<br>
 
 ## Entscheide verlinken
 
-Wenn Sie einen Entscheid bearbeiten, können Sie Links zu anderen Objekten dieses Projekts erstellen, indem Sie zu einem bereits bestehenden Objekt verlinken **(Button „Objekt verlinken")**.
+Wenn Sie einen Entscheid bearbeiten, können Sie Links zu anderen Objekten dieses Projekts erstellen, indem Sie zu einem bereits bestehenden Objekt verlinken **(Button „Objekt verlinken“)**.
 
-**Unterschied „Objekt verlinken" und „Link hinzufügen"**<br>
+**Unterschied „Objekt verlinken“ und „Link hinzufügen“**<br>
 Oft taucht während dem Durchdenken eines Entscheids das Bedürfnis auf, noch eine weitere Notiz, einen zusätzlichen Termin oder ein weiteres To-Do zu erstellen.
-Mit dem **Button „Link hinzufügen"**, können Sie diese Objekte neu erstellen und sie sind dann automatisch schon mit dem aktuellen Entscheid verlinkt. Der lange Umweg (anderen Objekttyp wählen, Objekt neu erstellen, Rückkehr zum Entscheid und erst dann die Verlinkung vornehmen) entfällt dadurch.
+Mit dem **Button „Link hinzufügen“**, können Sie diese Objekte neu erstellen und sie sind dann automatisch schon mit dem aktuellen Entscheid verlinkt. Der lange Umweg (anderen Objekttyp wählen, Objekt neu erstellen, Rückkehr zum Entscheid und erst dann die Verlinkung vornehmen) entfällt dadurch.
 
 
 ![projekte_entscheid_objektlink1_v1_de.png](assets/projekte_entscheid_objektlink1_v1_de.png){ class="shadow lightbox" }
@@ -67,23 +67,23 @@ Einem Entscheid hinzugefügte Links können direkt aufgerufen werden.
 
 ![projekte_entscheid_objektlink1_v3_de.png](assets/projekte_entscheid_objektlink3_v1_de.png){ class="shadow lightbox" }
 
-!!! info "Was passiert, wenn ein verlinktes Objekt gelöscht wird?"
+!!! info „Was passiert, wenn ein verlinktes Objekt gelöscht wird?“
 
     Wird ein verlinktes Objekt gelöscht, werden auch die Links gelöscht, die aus anderen Objekten auf dieses Objekt zeigen.
 
 
 ## Mitglieder eines Entscheids
 
-In OpenOlat reden wir analog zu Mitgliedern eines Kurses usw. auch von Mitgliedern eines Entscheids. Damit sind also nicht unbedingt die tatsächlichen Entscheidungsträger gemeint, sondern analog zum Konzept "Mitglieder" in OpenOlat auch hier alle Personen, die Zugriff auf ein Objekt "Entscheid" haben.
+In OpenOlat reden wir analog zu Mitgliedern eines Kurses usw. auch von Mitgliedern eines Entscheids. Damit sind also nicht unbedingt die tatsächlichen Entscheidungsträger gemeint, sondern analog zum Konzept „Mitglieder“ in OpenOlat auch hier alle Personen, die Zugriff auf ein Objekt „Entscheid“ haben.
 
-!!! info "Hinweis"
+!!! info „Hinweis“
 
     Aufgrund dieses Konzepts von Mitgliedschaft kann ein Mitglied einem Entscheid auch nachträglich hinzugefügt werden, nachdem der Entscheid bereits gefällt worden ist. Man kann somit eher sagen, die Mitglieder eines Entscheides sind diejenigen, die einen Entscheid mittragen oder betroffen sind.
     
     Beispiel:<br>Ein Projektsponsor kann als Mitglied einem Entscheid hinzugefügt werden, obwohl er nicht aktiv an der Projektabwicklung beteiligt ist und bei diesem Entscheid nicht aktiv mitentschieden hat.
 
 
-!!! info "Hinweis"
+!!! info „Hinweis“
 
     Als Mitglied eines **Entscheides** kann nur hinzugefügt werden, wer bereits Mitglied im **Projekt** ist. Auf der Auswahlliste möglicher neuer Mitglieder eines Entscheids erscheinen nur Personen, die bereits in der Projektmitgliederverwaltung eingefügt wurden.
 
@@ -103,6 +103,6 @@ Der **Aktivitätslog** mit weiteren Änderungsdaten wird sichtbar und kann für 
 
 ## Entscheide löschen
 
-Zum Löschen eines Entscheides klicken Sie auf die 3 Punkte am Ende einer Zeile und dann auf „Löschen". Der Entscheid erscheint dann nur noch unter dem Tab „Gelöschte“. Er kann nicht wiederhergestellt werden.
+Zum Löschen eines Entscheides klicken Sie auf die 3 Punkte am Ende einer Zeile und dann auf „Löschen“. Der Entscheid erscheint dann nur noch unter dem Tab „Gelöschte“. Er kann nicht wiederhergestellt werden.
 
 ![projekte_entscheid_loeschen_v1_de.png](assets/projekte_entscheid_loeschen_v1_de.png){ class="shadow lightbox" }
