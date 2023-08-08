@@ -17,7 +17,7 @@ Um einen neuen Entscheid innerhalb eines Projektes zu erstellen haben Sie folgen
 
 <br>
 
-**c) Projekte > Tab „Meine Projekte“ > Projekt wählen > Schnellzugriff Button „Entscheide“ > Klick auf den Button „Entscheid erstellen“**<
+**c) Projekte > Tab „Meine Projekte“ > Projekt wählen > Schnellzugriff Button „Entscheide“ > Klick auf den Button „Entscheid erstellen“**
 
 ![projekte_entscheide_neu_schnellzugriff_v1_de.png](assets/projekte_entscheide_neu_schnellzugriff_v1_de.png){ class="shadow lightbox" }
 
@@ -53,7 +53,7 @@ oder<br>
 Wenn Sie einen Entscheid bearbeiten, können Sie Links zu anderen Objekten dieses Projekts erstellen, indem Sie zu einem bereits bestehenden Objekt verlinken **(Button „Objekt verlinken")**.
 
 **Unterschied „Objekt verlinken" und „Link hinzufügen"**<br>
-Oft taucht während dem Durchdenken eines Entscheids das Bedürfnis auf, noch eine weitere Notiz, einen zusätzlichen Termin oder eine weiteres To-Do zu erstellen.
+Oft taucht während dem Durchdenken eines Entscheids das Bedürfnis auf, noch eine weitere Notiz, einen zusätzlichen Termin oder ein weiteres To-Do zu erstellen.
 Mit dem **Button „Link hinzufügen"**, können Sie diese Objekte neu erstellen und sie sind dann automatisch schon mit dem aktuellen Entscheid verlinkt. Der lange Umweg (anderen Objekttyp wählen, Objekt neu erstellen, Rückkehr zum Entscheid und erst dann die Verlinkung vornehmen) entfällt dadurch.
 
 
@@ -66,6 +66,10 @@ Verlinkte Objekte können z.B. To-dos sein:
 Einem Entscheid hinzugefügte Links können direkt aufgerufen werden.
 
 ![projekte_entscheid_objektlink1_v3_de.png](assets/projekte_entscheid_objektlink3_v1_de.png){ class="shadow lightbox" }
+
+!!! info "Was passiert, wenn ein verlinktes Objekt gelöscht wird?"
+
+    Wird ein verlinktes Objekt gelöscht, werden auch die Links gelöscht, die aus anderen Objekten auf dieses Objekt zeigen.
 
 
 ## Mitglieder eines Entscheids

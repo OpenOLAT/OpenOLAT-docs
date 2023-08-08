@@ -26,7 +26,7 @@ Um ein neues To-do innerhalb eines Projektes zu erstellen haben Sie folgende Mö
 
 ## Liste der To-dos anzeigen
 
-Haben Sie Ihr Projekt gewählt, können Sie vom Startscreen (Cockpit) aus auf verschiedene Arten auf die to-dos der jeweiligen Projekte zugreifen.
+Haben Sie Ihr Projekt gewählt, können Sie von der Projektübersicht aus auf verschiedene Arten auf die to-dos der jeweiligen Projekte zugreifen.
 
 **a) Projekte > Tab „Meine Projekte“ > Projekt wählen > Schnellzugriff Button „To-do“**<br>
 oder<br>
@@ -46,6 +46,54 @@ oder<br>
 **b) auf die 3 Punkte am Ende einer Zeile.**
 
 ![projekte_todo_bearbeiten_v1_de.png](assets/projekte_todo_bearbeiten_v1_de.png){ class="shadow lightbox" }
+
+
+## To-do zuweisen und delegieren
+
+Ein neu erstelltes To-do wird zunächst automatisch der Erstellerin / dem Ersteller **zugewiesen**. (Es kann dann aber einer anderen Person zugewiesen werden.)
+
+In einem weiteren Feld kann bestimmt werden, ob und an wen das To-do **delegiert** wird.
+
+Die Unterscheidung zwischen Zuweisung und Delegation ermöglicht es,<br>
+- klar nachzuvollziehen, wer ursprünglich für ein To-do zuständig war.<br>
+- Die Verantwortung kann bei der zugewiesenen Person bleiben, während z.B. die Ausführung bei der/den Personen liegt, an die ein To-do delegiert wurde.
+
+
+![projekte_todo_zuweisen_v1_de.png](assets/projekte_todo_zuweisen_v1_de.png){ class="shadow lightbox" }
+
+!!! note "Hinweise"
+
+    * Ein To-do kann mehreren Personen zugewiesen werden.
+
+    * Ein To-do kann an mehrere Personen delegiert werden.
+
+
+
+## To-dos verlinken
+
+Wenn Sie ein To-do bearbeiten, können Sie Links zu anderen Objekten dieses Projekts erstellen, indem Sie zu einem bereits bestehenden Objekt verlinken **(Button „Objekt verlinken")**.
+
+**Unterschied „Objekt verlinken" und „Link hinzufügen"**<br>
+Oft taucht während dem Erstellen eines To-dos das Bedürfnis auf, noch einen Entscheid, einen zusätzlichen Termin oder ein weiteres To-Do zu erstellen.
+Mit dem **Button „Link hinzufügen"**, können Sie diese Objekte neu erstellen und sie sind dann automatisch schon mit dem aktuellen Entscheid verlinkt. Der lange Umweg (anderen Objekttyp wählen, Objekt neu erstellen, Rückkehr zum Entscheid und erst dann die Verlinkung vornehmen) entfällt dadurch.
+
+
+![projekte_todo_objektlink1_v1_de.png](assets/projekte_todo_objektlink1_v1_de.png){ class="shadow lightbox" }
+
+Verlinkte Objekte können z.B. Entscheide sein: 
+
+![projekte_todo_objektlink2_v1_de.png](assets/projekte_todo_objektlink2_v1_de.png){ class="shadow lightbox" }
+
+Einem To-do hinzugefügte Links können direkt aufgerufen werden.
+
+![projekte_todo_objektlink3_v1_de.png](assets/projekte_todo_objektlink3_v1_de.png){ class="shadow lightbox" }
+
+
+!!! info "Was passiert, wenn ein verlinktes Objekt gelöscht wird?"
+
+    Wird ein verlinktes Objekt gelöscht, werden auch die Links gelöscht, die aus anderen Objekten auf dieses Objekt zeigen.
+
+
 
 ## Erledigte To-dos
 
@@ -72,6 +120,6 @@ Das To-do erscheint dann nur noch unter Tab „Alle“ und Tab „Erledigte“.
 
 ## To-dos löschen
 
-Zum Löschen eine To-dos klicken Sie auf die 3 Punkte am Ende einer Zeile und dann auf „Löschen". Das To-do erscheint dann nur noch unter dem Tab „Gelöscht“. Es kann nicht wiederhergestellt werden.
+Zum Löschen eines To-do’s klicken Sie auf die 3 Punkte am Ende einer Zeile und dann auf „Löschen". Das To-do erscheint dann nur noch unter dem Tab „Gelöscht“. Es kann nicht wiederhergestellt werden.
 
 ![projekte_todo_loeschen_v1_de.png](assets/projekte_todo_loeschen_v1_de.png){ class="shadow lightbox" }
