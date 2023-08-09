@@ -224,7 +224,7 @@ Mit Hilfe der neuen To-Do Infrastruktur kann direkt mit entsprechenden Massnahme
 
     Folgende Funktionen müssen nach einem Update auf Release 18.0 in der `Administration` aktiviert bzw. konfiguriert werden:
 
-    * [x] Modul "Projekte" (inkl. Konfiguration der Berechtigungen): `Module > Projekte`
+    * [x] Modul "Projekte" (inkl. Konfiguration der Berechtigungen): `Module > Projekte` und `Customizing > Sites`
     * [x] Modul "OpenBadges": `e-Assessment > OpenBadges`
     * [x] Medien Center:
         * Einsatz von Lizenzen: `Core Konfiguration > Lizenzen`

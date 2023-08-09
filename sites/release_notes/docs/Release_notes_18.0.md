@@ -222,9 +222,9 @@ With the help of the new To-Do infrastructure, it is possible to react directly 
 
 !!! note "Checklist after update to 18.0"
 
-    The following functions have to be activated / configured in the `administration`` after an update to release 18.0:
+    The following functions have to be activated / configured in the `Administration` after an update to release 18.0:
 
-    * [x] Module "Projects" (incl. configuration of permissions): `Modules > Projects`
+    * [x] Module "Projects" (incl. configuration of permissions): `Modules > Projects` and `Customizing > Sites`
     * [x] Module "OpenBadges": `e-Assessment > OpenBadges`
     * [x] Media Center:
         * Use of licenses: `Core Configuration > Licenses`
