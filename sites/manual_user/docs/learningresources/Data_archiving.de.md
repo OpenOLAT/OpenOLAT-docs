@@ -86,6 +86,8 @@ Foren können ausgewählt und als Zip-Datei gespeichert werden. In der Zip-Datei
 liegen dann die einzelnen ausgewählten Foren in jeweils einem extra Ordner mit
 einer DOCX-Datei, die sämtliche Forenbeiträge umfasst.
 
+Ab :octicons-tag-24: Release 18.0 : Neben der Archivierung kann auch ein Bericht im xlsx-Format zu den gewünschten Foren generiert werden. Jedes Posting wird im Bericht als ein Zeileneintrag vermerkt und enthält Informationen zum Erstellungsdatum, letzte Änderung, Anzahl der Wörter, Zeichenzahl usw.  
+
 ### Dateidiskussion
 
 Es werden alle Dateidiskussionen des Kurses angezeigt. Die gewünschten zu

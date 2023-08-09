@@ -93,6 +93,8 @@ archived can be selected and saved as a zip file. The zip file then contains
 the individual selected forums, each in an extra folder with a DOCX file
 containing all forum posts.  
 
+Ab :octicons-tag-24: Release 18.0 : Neben der Archivierung kann auch ein Bericht im xlsx-Format zu den gewünschten Foren generiert werden. Jedes Posting wird im Bericht als ein Zeileneintrag vermerkt und enthält Informationen zum Erstellungsdatum, letzte Änderung, Anzahl der Wörter, Zeichenzahl usw.  
+
 ### File dialogs  
 
 All file discussions of the course are displayed. The desired
