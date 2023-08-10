@@ -91,3 +91,11 @@ Im Abschnitt Schnellzugriff werden die zuletzt verwendeten Dateien und Notizen a
 ![projekte_dateien_schnellzugriff_v1_de.png](assets/projekte_dateien_schnellzugriff_v1_de.png){ class="shadow lightbox" }
 
 
+## Dateien gemeinsam bearbeiten 
+
+Die Integration von Dokumenten-Editoren ermöglicht kollaboratives Arbeiten.
+
+* Die vorhandernen Dateien können von allen Projektmitgliedern bearbeitet werden.
+* Auch ein **gleichzeitiges Bearbeiten** (z.B. einer Word-Datei während einer Online-Besprechung) ist möglich, wenn die entsprechenden Lizenzen für den Dokumenteneditor vorhanden sind.
+
+Wenden Sie sich ggf. an Ihre Administratorin / Ihren Administrator.
