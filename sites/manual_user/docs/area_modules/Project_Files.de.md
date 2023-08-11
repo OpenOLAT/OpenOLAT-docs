@@ -8,22 +8,12 @@ Sie sind nur innerhalb des Projektes verfügbar.
 
 ## Dateien hochladen
 
-Es kann eine Vielzahl an Dateiformaten hochgeladen werden, z.B.
-
-* pdf
-* xmlx 
-* docx
-* pptx
-* png
-* jpg<br>
-und viele andere
-
-<br>
+Hinsichtlich der Dateiformate gibt es keine Einschränkungen. 
 
 Die hochgeladenen Dateien können je nach Format direkt geöffnet werden. 
 Es gelten folgende Grundsätze:
 
-- Wenn keine Microsoft-Lizenenz vorhanden ist, werden docx, pptx und xlsx mit OnlyOffice geöffnet.
+- Wenn keine Microsoft-Lizenenz vorhanden ist, werden docx, pptx und xlsx z.B. mit OnlyOffice geöffnet, wenn dafür eine Lizenz vorhanden ist.
 - Pdf werden in der Regel mit OnlyOffice geöffnet.
 - Bilder werden im Browser geöffnet.
 - Dateiformate, die eine spezielle Software benötigen, werden nicht geöffnet. OpenOlat bietet statt dessen einen Download an. Die Datei kann so trotzdem zusammen mit den übrigen Daten im Projekt gespeichert werden.<br>Beispiel: Mac-Dateiformate, wie z.B. Pages oder Keynote. 
@@ -31,7 +21,7 @@ Es gelten folgende Grundsätze:
 
 !!! info "Technische Info zu den Dateien"
 
-    * Für die maximale Grösse der Einzeldateien besteht per Voreinstellung keine Beschränkung.
+    * Für die maximale Grösse der Einzeldateien besteht keine Beschränkung.
     
     * Das maximale Gesamtvolumen pro Projekt bzw. für alle Projekte ist per Voreinstellung ebenfalls nicht begrenzt.
 
@@ -61,7 +51,7 @@ Es können folgende Dateiformate erstellt werden:
 
     Ob Microsoft-Dateiformate erstellt werden können, hängt davon ab, ob Lizenzen verfügbar sind. Wenden Sie sich dafür an Ihren Administrator. 
     
-    Ohne Lizenzen werden die Optionen zum Erstellen der Formate docx, pptx und xlsx nicht angezeigt. (Eine Anzeige und Bearbeitung vorhandener Dokumente mit ONLYOFFICE ist jedoch möglich.)
+    Ohne Lizenzen werden die Optionen zum Erstellen der Formate docx, pptx und xlsx nicht angezeigt. (Eine Anzeige und Bearbeitung vorhandener Dokumente mit ONLYOFFICE ist jedoch in der Regel möglich.)
 
 
 ## Liste der Dateien anzeigen

@@ -2,7 +2,9 @@
 
 In allen Projekten sind einzelne Arbeitspakete (To-dos) wesentlicher Bestandteil der Planung.
 
-Über die Projekte hinaus können To-dos auch in anderen Bereichen erstellt und genutzt werden (bspw. QM-Massnahmen).
+!!! note "Hinweis"
+
+    Über die Projekte hinaus können To-dos auch in anderen Bereichen erstellt und genutzt werden (bspw. QM-Massnahmen).
 
 ## To-do erstellen
 

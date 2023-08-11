@@ -2,9 +2,14 @@
 
 :octicons-tag-24: Release 18.0
 
+## Wozu dient das Projekt-Tool?
+
+Das in OpenOlat integrierte Projekt-Tool ist in erster Linie ein Werkzeug zur **Projektdokumentation** (nicht zur **Projektplanung**).
+
+
 ## Wo finde ich Projekte in OpenOlat?
 
-Die OpenOlat-User finden die Projekte **im Menü der Kopfzeile**. Sollten sie dort nicht dort angezeigt sein, muss das Modul erst noch von einer Administratorin / einem Administrator aktiviert werden.
+Die OpenOlat-User finden die Projekte **im Menü der Kopfzeile**. 
 
 !!! info "Hinweis"
 
@@ -24,4 +29,4 @@ Beispiele:
 
 ## Aktivierung des Moduls „Projekte“
 
-Damit die Projekte im Menü verfügbar sind, muss dass Modul von einer Administratorin / einem Administrator aktiviert worden sein.
+Damit die Projekte im Menü verfügbar sind, muss das Modul von einem/einer Administrator:in aktiviert worden sein.
