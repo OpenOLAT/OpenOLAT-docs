@@ -40,7 +40,7 @@ Unter dem Reiter "Gruppen" können auch die Kursteilnehmer:innen Gruppen erstell
 
 ## Problem
 
-Bei vielen Gruppen gibt es für den/die Kursbesitzer:in viel Aufwand um alles aufzusetzen.
+Bei einer grossen Anzahl Gruppen gibt es für den/die Kursbesitzer:in viel Aufwand um alles aufzusetzen.
 
 
 ## Lösung Schritt 1
