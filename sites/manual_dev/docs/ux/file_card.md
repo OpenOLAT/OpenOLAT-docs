@@ -4,7 +4,6 @@ _Todo_
 
 - [ ] elaborate on guidelines
 - [ ] add accessiblity guidelines
-- [ ] Decide on a name
 
 ---
 ![File-upload](assets/file-card-badges-2.jpg)
