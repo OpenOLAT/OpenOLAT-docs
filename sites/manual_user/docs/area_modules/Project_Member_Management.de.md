@@ -21,53 +21,21 @@ Sobald ein Projektmitglied erfasst ist, erhält es einen Link. Nach Aufruf des L
 
 ## Rollen
 
-In einem Projekt können verschiedene Rollen vergeben werden.
-
-![projektrollen_v1_de.png](assets/projektrollen_v1_de.png){ class="shadow lightbox" }
-
-
-**Besitzer:in(Projektbesitzer:in)**
-
-tbd
-
-**Kursbesitzer:in**
-
-tbd
-
-**Leiter:in (Projektleiter:in)**
-
-tbd
-
-**Projektbüro**
-
-tbd
+|    | Projekt| Objekte im Projekt | Mitglieder verwalten | externe Mitglieder verwalten |
+| ------------------------------------------------------------- | :--------------: | :--------------: | :--------------: | :--------------: |
+|                                                                                       |
+|**Besitzer:in (Projektbesitzer:in)** | anlegen, bearbeiten, löschen | anlegen, bearbeiten, löschen | anlegen, bearbeiten, löschen, kann Leitungsrolle vergeben | anlegen, bearbeiten, löschen |
+|**Kursbesitzer:in** | tbd | tbd | tbd | :material-cancel: |
+|**Leiter:in (Projektleiter:in)**| bearbeiten | anlegen, bearbeiten, löschen | anlegen, bearbeiten, löschen | :material-cancel: |
+|**Projektbüro** | bearbeiten | anlegen, bearbeiten, löschen | anlegen, bearbeiten, löschen | :material-cancel: |
+|**Teilnehmer:in (Projektmitarbeiter:in)**              | nur lesen | anlegen, bearbeiten, löschen            | :material-cancel: |     :material-cancel:    |
+|**Business-Analyst:in/Lieferant:in**         | nur lesen           | anlegen, bearbeiten, löschen | :material-cancel:| :material-cancel: |
+|**Sponsor:in/Auftraggeber:in**          | nur lesen           | :material-cancel: | :material-cancel: | :material-cancel: |
+|**Lenkungsausschuss**         | nur lesen          | :material-cancel: | :material-cancel:| :material-cancel: |
+| Rollen, die über mehrere Projekte hinweg agieren können:                                                                                                   |
+|**Projektverwalter:in**                                        | anlegen, bearbeiten, löschen, Tab "Administration" im Bereich Projekte      | sieht keine Inhalte | anlegen, bearbeiten, löschen, kann Leitungsrolle vergeben | anlegen, bearbeiten, löschen  |
+|**Administrator:in**                                         | Tab "Administration" im Bereich Projekte      | hat nur Einblick in ein Projekt, wenn auch Mitglied*       | kann Leitungsrolle vergeben | anlegen, bearbeiten, löschen  |
 
 
-**Teilnehmer:in (Projektmitarbeiter:in)**
+*Administrator:innen können sich zwar selbst zum Mitglied machen, aber das ist dann protokolliert. Auf diese Art soll missbräuchlicher Zugriff eingedämmt werden.
 
-tbd
-
-**Business-Analyst/Lieferant**
-
-tbd
-
-**Sponsor/Auftraggeber**
-
-tbd
-
-**Lenkungsausschuss**
-
-tbd
-
-
-
-
-Ausserdem git es Rollen, die über mehrere Projekte hinweg agieren können:
-
-**Projektverwalter:in**
-
-Der/die Projektverwalter:in kann alle Projekte sehen, aktualisieren und verwalten, inklusive der Mitglieder. Sieht aber nicht deren Inhalt. Er ist neben dem/der Besitzer:in und dem/der Administrator:in, die Person, die die Leitungsrolle an andere vergebene kann. Er hat Zugriff auf den Tab "Administration" im Bereich Projekte.
-
-**Administrator:in**
-
-Die systemweit gültige Rolle der Administratorin / des Administrators hat auf Projekte nur einen eigeschränkten Zugriff. Administrator:innen haben nur Einblick in ein Projekt, wenn sie auch Mitglied im Projekt sind. Administrator:innen können sich zwar selbst zum Mitglied machen, aber das ist dann protokolliert. Auf diese Art soll missbräuchlicher Zugriff eingedämmt werden.
