@@ -33,7 +33,7 @@ Since release 18.0, over 120 new features and improvements have been added to Op
 
 ## Project-Tool
 
-The new "Projects" module provides a tool to support project work in OpenOlat. The focus of the tool is on documenting a project using documents and files, appointments, task management and a timeline for visualizing decisions and events during the project.
+The new "[Projects](../manual_user/area_modules/Project_Overview.md)" module provides a tool to support project work in OpenOlat. The focus of the tool is on documenting a project using documents and files, appointments, task management and a timeline for visualizing decisions and events during the project.
 
 The access restrictions - and therefore the responsibilities in the project - can be controlled by the different roles of the project members.
 
@@ -82,7 +82,7 @@ The media elements already created are displayed in the table or compact card vi
 
 OpenOlat supports the OpenBadges standard 2.0 from IMS starting with release 18.0: <https://imsglobal.org/activity/openbadges>
 
-This allows the configuration and management of badges and bagde templates, which can be made available system-wide (globally) or on course level.
+This allows the configuration and management of [badges and bagde templates](../manual_admin/administration/e-Assessment_openBadges.md), which can be made available system-wide (globally) or on course level.
 
 In the course, participants receive a badge automatically or manually as soon as the defined conditions for issuing the badge are met (analogous to issuing a course certificate). Global badges can be assigned manually by the administrator.
 
@@ -222,9 +222,9 @@ With the help of the new To-Do infrastructure, it is possible to react directly 
 
 !!! note "Checklist after update to 18.0"
 
-    The following functions have to be activated / configured in the `administration`` after an update to release 18.0:
+    The following functions have to be activated / configured in the `Administration` after an update to release 18.0:
 
-    * [x] Module "Projects" (incl. configuration of permissions): `Modules > Projects`
+    * [x] Module "Projects" (incl. configuration of permissions): `Modules > Projects` and `Customizing > Sites`
     * [x] Module "OpenBadges": `e-Assessment > OpenBadges`
     * [x] Media Center:
         * Use of licenses: `Core Configuration > Licenses`

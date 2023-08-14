@@ -25,6 +25,7 @@ In einem Projekt kann man verschiedene Objekte anlegen/hochladen:
 * Entscheide
 * To-dos
 * Termine
+* Meilensteine
 
 Diese Objekte lassen sich miteinander verknüpfen, um so zusammengehörige Themen besser zu finden.
 Dabei öffnet man ein Objekt im Bearbeitungsmodus (ausser To-dos und Files, diese lassen sich direkt bearbeiten) und klickt unter Links entweder auf "Objekt verlinken", um ein bestehendes Objekt zu verlinken oder auf "Link hinzufügen" um ein Objekt mit Verknüpfung direkt zu erstellen.

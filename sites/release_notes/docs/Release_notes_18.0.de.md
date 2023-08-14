@@ -33,7 +33,7 @@ Seit Release 18.0 wurden über 120 neue Funktionen und Verbesserungen zu OpenOla
 
 ## Projekt-Tool
 
-Der neue Bereich "Projekte" bietet ein Werkzeug zur Unterstützung von Projektarbeit in OpenOlat. Der Schwerpunkt des Tools liegt auf der Dokumentation eines Projektes mit Hilfe von Dokumenten und Dateien, Terminen, Aufgabenmanagement und einer Timeline zur Visualisierung der Entscheidungen und Ereignisse während der Projektlaufzeit.
+Der neue Bereich "[Projekte](../manual_user/area_modules/Project_Overview.de.md)" bietet ein Werkzeug zur Unterstützung von Projektarbeit in OpenOlat. Der Schwerpunkt des Tools liegt auf der Dokumentation eines Projektes mit Hilfe von Dokumenten und Dateien, Terminen, Aufgabenmanagement und einer Timeline zur Visualisierung der Entscheidungen und Ereignisse während der Projektlaufzeit.
 
 Die Zugriffsbeschränkungen - und somit auch die Verantwortlichkeiten im Projekt - können über die verschiedenen Rollen der Projektmitglieder gesteuert werden.
 
@@ -82,7 +82,7 @@ Die bereits erstellten Medienelemente werden in der Tabellen- oder Compact Card 
 
 OpenOlat unterstützt ab Release 18.0 den OpenBadges-Standard 2.0 von IMS: <https://imsglobal.org/activity/openbadges>
 
-Dieser ermöglicht die Konfiguration und Verwaltung von Badges und Bagde-Vorlagen, welche systemweit (global) oder auf Kursebene zur Verfügung gestellt werden können.
+Dieser ermöglicht die Konfiguration und Verwaltung von [Badges und Bagde-Vorlagen](../manual_admin/administration/e-Assessment_openBadges.de.md), welche systemweit (global) oder auf Kursebene zur Verfügung gestellt werden können.
 
 Im Kurs erhalten Teilnehmende automatisch oder manuell einen Badge, sobald die definierten Bedingungen zur Austellung des Badges erfüllt sind (analog zur Austellung eines Kurszertifikats). Globale Badges können manuell vom Administrator ausgestellt werden.
 
@@ -224,7 +224,7 @@ Mit Hilfe der neuen To-Do Infrastruktur kann direkt mit entsprechenden Massnahme
 
     Folgende Funktionen müssen nach einem Update auf Release 18.0 in der `Administration` aktiviert bzw. konfiguriert werden:
 
-    * [x] Modul "Projekte" (inkl. Konfiguration der Berechtigungen): `Module > Projekte`
+    * [x] Modul "Projekte" (inkl. Konfiguration der Berechtigungen): `Module > Projekte` und `Customizing > Sites`
     * [x] Modul "OpenBadges": `e-Assessment > OpenBadges`
     * [x] Medien Center:
         * Einsatz von Lizenzen: `Core Konfiguration > Lizenzen`
