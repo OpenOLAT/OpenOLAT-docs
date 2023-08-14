@@ -24,16 +24,16 @@ Sobald ein Projektmitglied erfasst ist, erhält es einen Link. Nach Aufruf des L
 |    | Projekt| Objekte im Projekt | Mitglieder verwalten | externe Mitglieder verwalten |
 | ------------------------------------------------------------- | :--------------: | :--------------: | :--------------: | :--------------: |
 |                                                                                       |
-|**Besitzer:in (Projektbesitzer:in)** | anlegen, bearbeiten, löschen | anlegen, bearbeiten, löschen | anlegen, bearbeiten, löschen, kann Leitungsrolle vergeben | anlegen, bearbeiten, löschen |
+|**Besitzer:in (Projektbesitzer:in)** | anlegen, bearbeiten, abschliessen, löschen | anlegen, bearbeiten, löschen | anlegen, bearbeiten, löschen, kann Leitungsrolle vergeben | anlegen, bearbeiten, löschen |
 |**Kursbesitzer:in** | tbd | tbd | tbd | :material-cancel: |
-|**Leiter:in (Projektleiter:in)**| bearbeiten | anlegen, bearbeiten, löschen | anlegen, bearbeiten, löschen | :material-cancel: |
+|**Leiter:in (Projektleiter:in)**| bearbeiten | anlegen, bearbeiten, abschliessen, löschen | anlegen, bearbeiten, löschen | :material-cancel: |
 |**Projektbüro** | bearbeiten | anlegen, bearbeiten, löschen | anlegen, bearbeiten, löschen | :material-cancel: |
 |**Teilnehmer:in (Projektmitarbeiter:in)**              | nur lesen | anlegen, bearbeiten, löschen            | :material-cancel: |     :material-cancel:    |
 |**Business-Analyst:in/Lieferant:in**         | nur lesen           | anlegen, bearbeiten, löschen | :material-cancel:| :material-cancel: |
 |**Sponsor:in/Auftraggeber:in**          | nur lesen           | :material-cancel: | :material-cancel: | :material-cancel: |
 |**Lenkungsausschuss**         | nur lesen          | :material-cancel: | :material-cancel:| :material-cancel: |
 | Rollen, die über mehrere Projekte hinweg agieren können:                                                                                                   |
-|**Projektverwalter:in**                                        | anlegen, bearbeiten, löschen, Tab "Administration" im Bereich Projekte      | sieht keine Inhalte | anlegen, bearbeiten, löschen, kann Leitungsrolle vergeben | anlegen, bearbeiten, löschen  |
+|**Projektverwalter:in**                                        | anlegen, bearbeiten, abschliessen, löschen, Tab "Administration" im Bereich Projekte      | sieht keine Inhalte | anlegen, bearbeiten, löschen, kann Leitungsrolle vergeben | anlegen, bearbeiten, löschen  |
 |**Administrator:in**                                         | Tab "Administration" im Bereich Projekte      | hat nur Einblick in ein Projekt, wenn auch Mitglied*       | kann Leitungsrolle vergeben | anlegen, bearbeiten, löschen  |
 
 
