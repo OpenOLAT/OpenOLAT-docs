@@ -1,4 +1,4 @@
-# How can I efficiently create many groups?
+# How can I efficiently create many groups at once?
 
 ??? abstract "Objectives and content of this instruction"
 

@@ -23,6 +23,7 @@
 ## Teilnehmeradministration
 
 1. [Gruppenszenarien](de/manual_how-to/purpose_of_groups/purpose_of_groups)
+2. [Wie kann ich effizient viele Gruppen auf einmal erstellen?](de/manual_how-to/many_groups/many_groups)
 
 ## Teilnehmer betreuen
 
