@@ -1,18 +1,18 @@
 # Wie kann ich effizient viele Gruppen auf einmal erstellen?
 
-??? abstract "Ziel und Inhalt dieser Anleitung"
+??? abstract „Ziel und Inhalt dieser Anleitung“
 
     Die Erstellung einer grossen Anzahl Gruppen ist im Standardprozess aufwändig.
     Der hier beschriebene Beispiel zeigt, wie viele Gruppen mit unterschiedlichen Namen effizient erstellt werden können.
 
-??? abstract "Zielgruppe"
+??? abstract „Zielgruppe“
 
     [x] Autor:innen [x] Betreuer:innen  [ ] Teilnehmer:innen
 
-    [ ] Anfänger:innen [x] Fortgeschrittene  [x] Experten/Expertinnen
+    [ ] Anfänger:innen [x] Fortgeschrittene  [x] Expert:innen
 
 
-??? abstract "Erwartete Vorkenntnisse"
+??? abstract „Erwartete Vorkenntnisse“
 
     * Erfahrung mit der Erstellung von Gruppen
 
@@ -23,7 +23,7 @@
 Use Case von Karin Niffeler, Uni Zürich:
 
 * In einem Kurs mit 600 Teilnehmer:innen sollen ca. 400 Gruppen gebildet werden.
-* Die Gruppen sollen den Kursbaustein "Gruppenaufgabe" nutzen.
+* Die Gruppen sollen den Kursbaustein „Gruppenaufgabe“ nutzen.
 * Die Kursteilnehmer:innen bilden innerhalb eines Kurses selbst Gruppen mit jeweils 1 oder 2 Mitgliedern.
 * Die Gruppen müssen voneinander unterscheidbar sein.
 
@@ -33,9 +33,9 @@ Use Case von Karin Niffeler, Uni Zürich:
 Als Kursbesitzer:in können Sie im Kurs Gruppen erstellen:<br>
 **Administration > Mitgliederverwaltung > Gruppen > Gruppen erstellen**<br>Diese Gruppen können in den Kursbausteinen verwendet werden.
 
-Mit Hilfe des Kursbausteins "Einschreibung" können Kursteilnehmer:innen sich dann selbst in eine dieser Gruppe einschreiben.
+Mit Hilfe des Kursbausteins „Einschreibung“ können Kursteilnehmer:innen sich dann selbst in eine dieser Gruppe einschreiben.
 
-Unter dem Reiter "Gruppen" können auch die Kursteilnehmer:innen Gruppen erstellen und Mitglieder hinzufügen. Auch diese Gruppen können später mit einem Kurs verknüpft werden.
+Unter dem Reiter „Gruppen“ können auch die Kursteilnehmer:innen Gruppen erstellen und Mitglieder hinzufügen. Auch diese Gruppen können später mit einem Kurs verknüpft werden.
 
 
 ## Problem
@@ -45,7 +45,7 @@ Bei einer grossen Anzahl Gruppen gibt es für den/die Kursbesitzer:in viel Aufwa
 
 ## Lösung Schritt 1
 
-Es ist möglich, mehrere Gruppen auf einmal zu erstellen: Im PopUp "Neue Gruppe erstellen" kann man mehrere Gruppennamen gleichzeitig eingeben, wenn sie durch ein Komma getrennt werden.
+Es ist möglich, mehrere Gruppen auf einmal zu erstellen: Im PopUp „Neue Gruppe erstellen“ kann man mehrere Gruppennamen gleichzeitig eingeben, wenn sie durch ein Komma getrennt werden.
 
 ![many_groups_mehrere_neue_Gruppen_erstellen_v1_de.png](assets/many_groups_mehrere_neue_Gruppen_erstellen_v1_de.png){ class="shadow lightbox" }
 
@@ -59,7 +59,7 @@ Auf diese Art 400 Gruppen zu erstellen ist sehr aufwändig.
 Die kommaseparierte Liste mit den Gruppennamen kann mit Hilfe einer Excel-Datei erzeugt werden.
 
 Ideal ist, wenn die Gruppennamen auch ein Prefix und/oder Suffix haben können.
-Z.B. "DE Gruppe-001", "DE Gruppe-002", "DE Gruppe-003", "EN group-001", "EN group-002", "EN group-003"
+Z.B. „DE Gruppe-001“, „DE Gruppe-002“, „DE Gruppe-003“, „EN group-001“, „EN group-002“, „EN group-003“
 
 1. Zuerst müssen in Excel die Gruppennamen erzeugt werden.
 2. Die Gruppennamen werden dann zu einer kommaseparierten Textkette (String) zusammengefügt.
@@ -89,14 +89,14 @@ Z.B. "DE Gruppe-001", "DE Gruppe-002", "DE Gruppe-003", "EN group-001", "EN grou
 <h3>3. Übertrag in den OpenOlat-Kurs</h3>
 
 * Öffnen Sie die Mitgliederverwaltung des Kurses: <br>
-Administration > Mitgliederverwaltung > Gruppen > Button "Gruppe erstellen"
+Administration > Mitgliederverwaltung > Gruppen > Button „Gruppe erstellen“
 
 ![many_groups_gruppen_erstellen1_v1_de.png](assets/many_groups_gruppen_erstellen1_v1_de.png){ class="shadow lightbox" }
 
-* Fügen Sie im PopUp "Neue Gruppe erstellen" im Feld "Name der Gruppe" die Textkette (String) ein.
+* Fügen Sie im PopUp „Neue Gruppe erstellen" im Feld „Name der Gruppe“ die Textkette (String) ein.
 
 ![many_groups_gruppen_erstellen2_v1_de.png](assets/many_groups_gruppen_erstellen2_v1_de.png){ class="shadow lightbox" }
 
 * Falls bei allen Gruppen Eigenschaften gleich gelten sollen, definieren Sie evtl. noch eine Beschreibung, die vorgesehene Anzahl der Teilnehmer, usw.
 
-* Mit Klick auf "Fertigstellen" werden alle Gruppen erstellt.
+* Mit Klick auf „Fertigstellen“ werden alle Gruppen erstellt.
