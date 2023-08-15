@@ -16,7 +16,9 @@ Kopiert werden:
 **Nicht** kopiert werden:
 
 * Projektmitglieder
-* und Termine
+
+Teilweise kopiert
+* Termine und Meilsteinse werden ohne Datum kopiert 
 
 
 ## Projektvorlagen 
@@ -39,14 +41,19 @@ Wird ein Projekt abgeschlossen, haben alle Projektmitglieder anschliessend nur n
 
 Abgeschlossen werden kann ein Projekt nur durch
 
-* den/die Projektbesitzer:in,
-* ???Projektleiter:innen
-* ???Administrator:innen,
-* und ???Projektverwalter:innen.
+* Projektbesitzer:innen
+* Projektleiter:innen
+* Projektbüro-Mitarbreiter:innen
+* Administrator:innen,
+* und Projektverwalter:innen.
 
-Es kann durch den/die Projektbesitzerin wieder geöffnet werden???
+!!! Note "Hinweis"
+
+    Durch diese Personen kann ein Projekt auch wieder reaktiviert werden.
 
 ![projekte_admin_abschliessen_v1_de.png](assets/projekte_admin_abschliessen_v1_de.png){ class="shadow lightbox" }
+
+
 
 ## Projekte löschen 
 
@@ -60,7 +67,7 @@ Gelöscht werden können Projekte nur durch
 
 !!! Note "Hinweis"
 
-    Durch das Löschen eines Projektes an dieser Stelle, wird es zunächst in den Papierkorb verschoben. Projektverwalter:innen und Administrator:innen haben dann die Möglichkeit, unter ihrem Tab "Administration" die endgültige Löschung vorzunehmen. (Siehe Tab Projektadministration.)
+    Durch das Löschen eines Projektes erscheint es in der Liste "Gelöschte". Die Projekte können dort nur noch angesehen, aber nicht mehr bearbeitet werden.
 
 !!! Note "Hinweis"
 
@@ -73,12 +80,18 @@ Administratoren und Projektverwalter haben unter dem Menüpunkt "Projekte" ein w
 
 Für Ihre Verwaltungsaufgaben stehen dort folgende (Filter-) Funktionen zur Verfügung: 
 
-* **Ohne kürzliche Aktivität**<br> (So können Projektverwalter:innen erkennen, ob ein Projekt evtl. abgeschlossen werden sollte und bei dem/der Projektbesitzer:in evtl. nachfragen.)
-* **Zu löschen**<br> (Projekte, die von Projektbesitzer:innen gelöscht wurden, werden zunöchst nur in den Papierkorb verschoben. Projektverwalter:innen und Administrator:innen können den Papierkorbinhalt hier ansehen.)
+* **Ohne kürzliche Aktivität**<br>
+In dieser Liste befinden sich Projekte, in denen seit mehr als 28 Tagen keine Aktivität stattgefunden hat. Ihr Status kann "aktiv" oder "abgeschlossen" sein. Projekte in dieser Liste sollten geprüft werden, ob sie nicht evtl. abgeschlossen bzw. gelöscht werden können. (Man kann bei dem/der Projektbesitzer:in evtl. nachfragen.)
+
+* **Zu löschen**<br>
+Die Liste "Zu löschen" erscheint nur im Tab "Administration". In ihr werden Projekte mit Status "abgeschlossen" angezeigt, die ausserdem ohne kürzliche Aktivität sind.
+
 * **Abgeschlossen**<br>
-Sind Projekte seit längerem abeschlossen, können Projektverwalter:innen auf Grund dieser Liste evtl. nachfragen, ob Projekte abgeschlossen werden können.
+Sind Projekte seit längerem abgeschlossen, können Projektverwalter:innen auf Grund dieser Liste evtl. nachfragen, ob Projekte gelöscht werden können.<br>
+Abgeschlossene Projekte können noch reaktiviert werden.
+
 * **Gelöschte**<br>
-Die in dieser Liste angezeigten Projekte wurden von Projektbesitzern gelöscht, was einem Verschieben in den Papierkorb entspricht. Administrator:innen und Projektverwalter:innen haben hier die Möglichkeit, eine endgültige Löschung vorzunehmen. 
+Gelöschte Projekte können nur noch angesehen, aber nicht mehr bearbeitet werden.
 
 
 ![projekte_admin_admin_v1_de.png](assets/projekte_admin_admin_v1_de.png){ class="shadow lightbox" }
