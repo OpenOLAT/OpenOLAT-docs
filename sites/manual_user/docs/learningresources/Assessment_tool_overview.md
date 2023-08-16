@@ -24,8 +24,6 @@ also shows how many modules of the respective user are to be rated. If only
 one building block needs to be rated, it is listed directly. By clicking on
 this module, you can access the corresponding rating.
 
-![](assets/Screenshot 2020-05-03 at 16.02.00.png)
-
 Only the unfinished assessments are displayed here. Reviews that have already
 been completed are not listed here.
 
