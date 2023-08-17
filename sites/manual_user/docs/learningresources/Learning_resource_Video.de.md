@@ -55,7 +55,31 @@ Wählen Sie die Stelle an der die Anmerkung ergänzt werden soll und definieren 
 Anmerkung erscheinen soll und natürlich den anzuzeigenden Text. Die Annotationsblöcke können per drag&drop flexibel verschoben werden. 
 
 ### Segmente
-Segmente kommen in der Videoaufgabe im Kurs zum Einsatz. Sie markieren definierte Bereiche im Video, denen die Teilnehmenden vorgegebene Begriffe oder Situationen (= Kategorien) zuordnen müssen.
+
+Segmente werden im Kursbaustein Videoaufgabe benötigt. Es sind Videoabschnitte, denen die Teilnehmenden vorgegebene Begriffe oder Situationen (= Kategorien) zuordnen müssen.
+
+![learning_resource_video_segments_v1_de.png](assets/learning_resource_video_segments_v1_de.png){ class="shadow lightbox" }
+
+**Segmente erstellen**
+
+1. Wählen Sie im Autorenbereich das gewünschte Video aus.
+2. Öffnen Sie dann unter „Administration“ den Videoeditor.
+3. Im Videoeditor wählen Sie den Tab „Segmente“.
+4. Eingefügte Segmente werden in der Timeline in einer oder mehreren separaten Spuren angezeigt.
+
+!!! hint "Tipps"
+
+    * Benutzen Sie den Abspielknopf des Videos um Ihre Arbeit zu kontrollieren.
+    * Sie können ein Segment in der Timeline anklicken und gelangen dadurch direkt zur Bearbeitung dieses Segments.
+
+**Segmente im Kursbaustein aktivieren**
+
+1. Wählen Sie im Autorenbereich den Kurs aus, in den die Video-Lernressource eingefügt werden soll.
+2. Öffnen Sie unter „Administration“ den Kurseditor.
+3. Wählen Sie den Kursbaustein aus oder fügen Sie einen neuen Kursbaustein ein (Video oder Videoaufgabe).
+4. **a) Kursbaustein „Videoaufgabe“**:<br> Im Tab „Konfiguration“ finden Sie den Abschnitt „Videoelemente anzeigen“. Dort müssen Sie die Segmente aktiviert finden, denn eine Videoaufgabe braucht zwingend Segmente.<br>
+**b) Kursbaustein „Video“**:<br> Im Tab „Lerninhalt“ finden Sie den Abschnitt „Videoelemente anzeigen“. Dort können Sie die Anzeige der Segmente ein- oder ausblenden.
+
 
 ### Kommentare
 Kommentare können gezielt an einem bestimmten Punkt im Video gesetzt werden und zum Beispiel wichtige Kernaussagen des Videos hervorheben, ergänzende Informationen zum Thema oder Hinweise zum folgenden Videoabschnitt bereitstellen. Der Kommentar wird mit dem Namen der erstellenden Person gekennzeichnet. 
