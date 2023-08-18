@@ -217,6 +217,33 @@ Zum Formatieren von Datumsformaten steht das "dateFormatter"-Objekt zur Verfügu
 
 Sollten Sie eine Zertifikatvorlage wünschen, kontaktieren Sie uns unter [support@frentix.com](mailto:support@frentix.com) für einen Kostenvoranschlag für eine Vorlage gemäss Ihren individuellen Wünschen.
 
+### Rezertifizierung
+
+**Voraussetzungen**
+
+Damit ein Prozess zur Rezertifizierung eingerichtet werden kann, muss vorher die Zertifikatserstellung aktiviert worden sein. Ist ein Zertifikat für einen Kurs abgelaufen, kann allen betroffenen Teilnehmer:innen die Rezertifizierung angeboten werden.
+
+Die Option zur Rezertifizierung ist gekoppelt an
+
+* eine bestehende frühere (Erst-)Zertifizierung
+* eine definierte Angabe, ab wann frühestens eine Rezertifizierung möglich ist.
+
+
+**Rezertifizierung aktivieren**
+
+Wird die Rezertifizeriung aktiviert, muss eine Angabe gemacht werden, ab wann eine Rezertifizierung möglich sein soll: „frühestens ab … Tage vor Ablauf Gültigkeit Zertifikat“.
+
+(Der Wert muss kleiner als die Gültigkeitsdauer sein.)
+
+**Erinnerungen einrichten**
+
+Bevor die Rezertifizierung endgültig aktiviert wird, werden Sie zur Einrichtung von Erinnerungen aufgefordert. Definieren Sie automatisch verschickte Meldungen an betroffene Teilnehmer:innen, z.B. sobald ihre Rezertifizierung möglich wird und/oder wenn die Gültigkeit des bisherigen Zertifikats abgelaufen ist.
+
+Die Daten der teilnehmenden Personen werden bei der Rezertifizierung zurückgesetzt (Kurs-Reset).
+
+Leistungsnachweise und Zertifikate früherer Durchgänge bleiben erhalten.
+
+
 ## Tab Optionen {: #options}
 
 Hier können Sie ein kurspezifisches [Glossar](../learningresources/Using_Additional_Course_Features.de.md) und einen [Ressourcenordner](../learningresources/index.de.md) aktivieren, konfigurieren und so mit Ihrem Kurs verbinden sowie einen speziellen Ordner für Betreuer erstellen.
