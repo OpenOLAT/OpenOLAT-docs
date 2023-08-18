@@ -17,8 +17,9 @@ Kopiert werden:
 
 * Projektmitglieder
 
-Teilweise kopiert
-* Termine und Meilsteinse werden ohne Datum kopiert 
+**Teilweise** kopiert werden:
+
+* Termine und Meilensteine (werden ohne Datum kopiert)
 
 
 ## Projektvorlagen 
@@ -41,9 +42,9 @@ Wird ein Projekt abgeschlossen, haben alle Projektmitglieder anschliessend nur n
 
 Abgeschlossen werden kann ein Projekt nur durch
 
-* Projektbesitzer:innen
-* Projektleiter:innen
-* Projektbüro-Mitarbreiter:innen
+* Projektbesitzer:innen,
+* Projektleiter:innen,
+* Projektbüro-Mitarbreiter:innen,
 * Administrator:innen,
 * und Projektverwalter:innen.
 
@@ -68,10 +69,6 @@ Gelöscht werden können Projekte nur durch
 !!! Note "Hinweis"
 
     Durch das Löschen eines Projektes erscheint es in der Liste "Gelöschte". Die Projekte können dort nur noch angesehen, aber nicht mehr bearbeitet werden.
-
-!!! Note "Hinweis"
-
-    Von gelöschten Projekten können noch Kopien und Projektvorlagen erstellt werden. 
 
 
 ## Tab Projektadministration 
