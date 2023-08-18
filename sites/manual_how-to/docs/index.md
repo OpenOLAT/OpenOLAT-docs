@@ -22,7 +22,6 @@
 ## Participant Administration
 
 1. [Group Scenarios](/manual_how-to/purpose_of_groups/purpose_of_groups)
-2. [How can I efficiently create many groups at once?](/manual_how-to/many_groups/many_groups)
 
 ## Attend Participants
 
