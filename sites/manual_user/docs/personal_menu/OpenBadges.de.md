@@ -1,14 +1,20 @@
 # Badges
 
-Die Badges in Ihrem persönlichen Menü sind der Ort, an dem Sie alle Ihre erworbenen Badges aufbewahren, unabhängig davon, ob sie durch einen Kurs oder von einer Person oder Institution verliehen wurden.
+Die Badges in Ihrem persönlichen Menü sind der Ort, an dem Sie alle Ihre erworbenen Badges aufbewahren bzw. einsehen können, unabhängig davon, ob sie durch einen Kurs oder von einer Person oder Institution verliehen wurden.
+
+![Persönliches Menü Badges](assets/Persoenliches_menu_badge1.jpg)
+
+Der Titel des Badges und die Verleihungszeit werden angezeigt. 
 
 ![Persönliches Werkzeug für Badges](assets/badges-personal-tool.de.jpg)
 
-Der Titel des Badgess und die Verleihungszeit werden angezeigt.
+Klickt man auf ein erhaltenes Badge gelangt man zur Badge Infoseite mit weiteren Informationen.
 
 
-## Infoseite
+## Badge Infoseite
 
-Wenn Sie auf das Badges klicken, öffnet sich die Infoseite mit allen Informationen über das Badges und die Verleihungskriterien. Diese Infoseite kann geteilt werden, ohne sich einzuloggen, und ist für alle verfügbar, die Zugang zu dieser URL haben.
+Hier erfährt man wann und von wem das Badge vergeben wurde und erhält Informationen zum Vergabekontext. Eine Beschreibung und besonders die Vergabe-Kriterien, die vom Erstellenden des Badges vergeben wurden, erhalten weitere wichtige Informationen. 
+
+Die Badge Infoseite kann über den aufgeführten öffentlichen Link geteilt werden und in anderen Webkontexten eingebunden werden. So können Personen auch ohne OpenOlat Account auf die Badge Infoseite zugreifen. 
 
 ![Badges Infoseite](asset/../assets/badge-infosite.de.jpg)
