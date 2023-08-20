@@ -16,11 +16,9 @@ In der Mitte ist der Inhaltsbereich.
 
 ### Layout
 
-Ein Layout ist ein übergeordneter Block, der dir unterschiedliche Strukturierung des Inhalts durch Spalten und Zeilen ermöglicht. Innerhalb einer Spalte und Zeile kannst du beliebig viele Blöcke hinzufügen.
+Ein Layout ist ein übergeordneter Block, der  unterschiedliche Strukturierungen des Inhalts durch Spalten und Zeilen ermöglicht. Innerhalb einer Spalte und Zeile können beliebig viele Blöcke hinzugefügt werden.
 
-Löschen oder verändern sie Layouts werden existierende Blöcke in die vorhandenen Spalten geschoben. Sollten sie keine
-
-Aktuell sind folgende Layoutvorlagen verfügbar:
+Löschen oder verändert man Layouts werden existierende Blöcke in die vorhandenen Spalten geschoben. Aktuell sind folgende Layoutvorlagen verfügbar:
 
 ![layout-template](assets/layoutblock-template.jpg)
 
@@ -28,75 +26,65 @@ Aktuell sind folgende Layoutvorlagen verfügbar:
 
 Die Einstellungen zu den jeweiligen Blöcken befinden sich im Inspektor. Auf grösseren Bildschirmen öffnet er sich standardmässig rechts neben dem selektierten Block. Man kann das Fenster mit Klick auf das Einstellungsicon :material-cog: anzeigen und verstecken.
 
-Mit dem Klick auf der Titelzeile des Inspektorfensters kann dieser auch verschoben werden. Wenn sie einen neuen Block selektieren, springt der Inspektor wieder an die Standardposition.
+Mit dem Klick auf der Titelzeile des Inspektorfensters kann dieser auch verschoben werden. Wenn Sie einen neuen Block selektieren, springt der Inspektor wieder an die Standardposition.
 
-## Inhaltsblöcke
+## Inhaltsblöcke - Inhalt hinzufügen 
 
 ### Titel
 
-Ein Eintrag kann mehrere Titel und Untertitel beinhalten.
-
-Mit der Auswahl von h1-h6 kann die Größe der Überschrift ausgewählt werden,
-wobei h1 der "Überschrift 1" entspricht und somit am grössten und h6 der
-"Überschrift 6" und somit am kleinsten ist.
+Nutzen Sie dieses Element um schnell und einfach Titel hinzuzufügen. 
+Mit der Auswahl von h1-h6 kann die Größe der Überschrift ausgewählt werden, wobei h1 der "Überschrift 1" entspricht und somit am grössten und h6 der "Überschrift 6" und somit am kleinsten ist.
 
 ### Paragraph
 
-Element zum Hinzufügen von Textblöcken. Das Paragraph Element beinhaltet
-zentrale Formatierungen sowie die Möglichkeit den Text auf Spalten zu
-verteilen.
+Paragraph bietet Zugriff auf eine einfache Version eines Text-Editors. Beispielsweise können Wörter fett formatiert, die Textfarbe geändert oder die Zentrierung im Textfluss definiert werden. Textelemente mit einfachen Formatierungen können so rasch erstellt werden.
 
 ### Tabelle
 
-Fügen Sie Ihrem Portfolio eine Tabelle hinzu. Definieren sie die Anzahl der
-Zeilen und Spalten einer Tabelle und fügen sie eine Kopfzeile hinzu.
+Fügen Sie Ihrem Portfolio eine Tabelle hinzu. Definieren sie die Anzahl der Zeilen und Spalten einer Tabelle und fügen sie eine Kopfzeile hinzu. Anschliessend befüllen Sie die jeweiligen Tabellenfelder.
 
-### Bild
+### Mathematische Formel
 
-Fügen Sie Ihrem Portfolio Bildelemente hinzu. Laden Sie dafür eine passende
-Grafikdatei hoch. Anschließend können Sie die Datei weiter konfigurieren, z.B.
-einen Titel oder Untertitel platzieren und auch die Größe, Platzierung oder
-Umrandung definieren.
-
-Auch kann die Positionierung durch die Verwendung des Container Element weiter
-optimiert werden.
-
-Wenn sie ein Bild neben einen Text platzieren wollen, benutzen sie ein 1/2 / 1/2 Layout und platzieren sie die Blöcke wie gewünscht.
-
-### Textabschnitt
-
-Mithilfe des html-Editors kann "normaler" Text hinzugefügt werden. Dabei kann
-die übliche Formatierung vorgenommen werden.  
-Unter "Einfügen" können auch [mathematische
-Formeln](../basic_concepts/Math_formula.de.md) eingefügt werden.
-
-## Einbinden von Medien
-
-### Dokument erstellen
-
-Hier kann ein neues Dokument entsprechend der angegebenen Dateitypen erstellt
-werden. Wird beispielweise OnlyOffice verwendet, können die erstellten Dateien
-auch direkt online bearbeitet werden.
+Klicken Sie in das Bearbeitungsfeld und Sie erhalten Zugriff auf einen speziellen Formel-Editor. Sie können entweder die Formel im grafischen Editor oder im LaTeX Editor eingeben. 
 
 ### Zitat
 
-Direkt im Eintrag, wie auch in der Mediathek, kann ein Zitat hinzugefügt
-werden. Zuerst wird der entsprechende Zitat Typ ausgewählt und anschliessend
-möglichst jedes vorgegebene Feld ausgefüllt.
+Hier können Sie neue Zitate erstellen (Zitat hinzufügen) oder auf bereits im Medien Center hinterlegte Zitate zurückgreifen und diese einbinden. Einem neuen Zitat können diverse Informationen hinzugefügt werden z.B. Quelle, Sprache, Autor, URL ...
 
 ### Dokument
 
-Hier können diverse Dateiformate hochgeladen und per Link bereitgestellt
-werden.
+Hier haben Sie drei Möglichkeiten: 
+* Erstellen Sie ein neues Dokument, entsprechend der angegebenen Dateitypen 
+* Laden Sie ein neues Dokument hoch oder 
+* Verbinden Sie ein Dokument aus Ihrem Medien Center.
 
-Ist ein externer [Dokumenteneditor](../../manual_admin/administration/External_Tools_-_Administration.de.md)aktiviert und liegen die Dateien in
-einem Format vor, das von diesem unterstützt wird, können die Dateien auch
-direkt online weiter bearbeitet werden.
+Ist ein externer Dokumenteneditor aktiviert und liegen die Dateien in einem Format vor, das von diesem unterstützt wird, können die Dateien auch
+direkt online weiterbearbeitet werden.
+
+### Bild
+
+Fügen Sie Bildelemente hinzu indem Sie eine Grafikdatei hochladen oder auf eine Grafik Ihres Medien Centers zugreifen. Anschliessend können Sie die Datei weiter konfigurieren, z.B.
+einen Titel oder Untertitel platzieren und auch die Größe, Platzierung oder Umrandung definieren.
+
+!!! "Tipp"
+
+    Um die Positionierung einer Grafik zu optimieren nutzen sie am besten ein passendes z.B. mehrspaltiges Layout. 
 
 ### Video
 
-Über diesen Link können Videos ins Portfolio hochgeladen werden.
+Sie haben folgende Möglichkeiten ein Video in den Editor zu laden:
+* Record Video: Eine Videoaufnahme mit der Webcam erstellen
+* Video hinzufügen: Eine mp4 Videodatei hochladen
+* Eine Video Datei, die sich im Medien Center befindet auswählen und hinzufügen. 
+
 
 ### Aus Media Center wählen
 
-Dateien, welche sich bereits in der [Medien Center](../personal_menu/Media_Center.de.md) befinden, können hiermit einem Eintrag hinzugefügt werden. Die Such- und Filteroptionen helfen, die gewünschte Datei schneller zu finden.
+Anstatt über einen speziellen Medientyp zu gehen können sie auch direkt auf Ihr Medien Center zugreifen und dort hinterlegte Artefakte einbinden als auch neue Mediendateien des Medien Centers erstellen. Die Such- und Filteroptionen helfen, die gewünschte Datei schneller zu finden.
+
+Weitere Informationen finden Sie im [Medien Center](../personal_menu/Media_Center.de.md). 
+
+### Textabschnitt
+
+Das Element ähnelt dem Element "Paragraph" und dient somit ebenfalls dem Hinzufügen von Texten und Inhalten. Allerdings sind die Möglichkeiten deutlich umfangreicher. So können z.B. umfangreiche Formatierungen vorgenommen als auch HTML-Quellcode verwendet werden. 
+
