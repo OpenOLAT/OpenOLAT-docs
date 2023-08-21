@@ -106,21 +106,38 @@ Der Link zum Leistungsnachweis erscheint im Kurs erst dann, wenn im Kurs mindest
 
 Wenn Sie die Funktion ausschalten, sehen Ihre Kursteilnehmenden keine Leistungsnachweise mehr. Die Leistungsnachweise gehen nicht verloren, sondern werden lediglich nicht mehr angezeigt. Wenn Sie den Leistungsnachweis wieder einschalten, stehen alle aktuellen Daten wieder zur Verfügung. Wenn Sie hingegen einen Kurs mit bestehenden Leistungsnachweisen löschen, können die Benutzer nach wie vor ihre Leistungsnachweise einsehen.
 
-### (Kurs) Zertifikat
+### (Kurs-)Zertifikat
 
-Ein PDF Zertifikat kann als Bestätigung für den Besuch eines Kurses bzw. der Erreichung von kursbezogenen Aktivitäten verwendet werden. Ein Zertifikat kann auch ausgestellt werden ohne die Verwendung eines Leistungsnachweises. Sie wählen aus, ob das Zertifikat **manuell** vom Betreuer ausgestellt wird, und/oder **automatisch** nach Bestehen des Kurses.
+**Was ist ein Zertifikat?**
 
-Die Auswahl "manuell" gestattet die Verwendung von Zertifikaten auch in Kursen ohne bewertbare Kurselemente. Wenn das Zertifikat manuell ausgestellt werden soll, kann der Betreuer dies im Bewertungswerkzeug in der Leistungsübersicht der einzelnen Benutzer vornehmen. Die Benutzer erhalten automatisch eine E-Mail-Benachrichtigung, sobald ein Zertifikat ausgestellt worden ist.
+Als Bestätigung für den Besuch eines Kurses bzw. der Erreichung von bestimmten kursbezogenen Aktivitäten kann ein **PDF-Zertifikat** ausgestellt werden. Es ist auch möglich, ohne die Verwendung eines Leistungsnachweises ein Zertifikat auszustellen. 
 
-Sobald der Teilnehmende alle Bedingungen für einen bestandenen Kurs erfüllt hat, ist das Zertifikat in der Toolbar des jeweiligen Kurses unter "Mein Kurs" im Leistungsnachweis verfügbar.
 
-Für das Zertifikat kann eine Gültigkeitsdauer festgelegt werden. Sie legen dabei die Gültigkeitsdauer in Tagen, Wochen, Monaten oder Jahren fest. 
+**Von wem wird ein Zertifikat ausgestellt?**
 
-Um die Gültigkeit des Zertifikats zu überprüfen, muss der Vorlage das Attribut "certificateVerificationUrl" hinzugefügt werden. Dieses erlaubt es, mittels QR-Code das Zertifikat zu einem späteren Zeitpunkt nochmals zu generieren und mit der vorliegenden Version zu vergleichen. Sofern beide Versionen übereinstimmen, kann das Zertifikat als gültig erklärt werden. Der QR-Code zur Validierung ist allerdings nur bei Verwendung eines HTML-Formulars möglich.
+Als Autor:in wählen Sie aus, ob das Zertifikat **manuell** vom Betreuer ausgestellt wird, und/oder **automatisch** nach Bestehen des Kurses.
 
-Anhand des Austellungsdatums sowie des Ablaufdatums des Zertifikats können [Erinnerungen](../learningresources/Course_Reminders.de.md){:target="_blank”} ausgelöst werden, z.B. erhält der User eine Info, dass das Zertifikat abgelaufen ist oder in wenigen Tagen abläuft oder eine Rezertifizierung ab sofort möglich ist.
+Die Auswahl "manuell" gestattet die Verwendung von Zertifikaten auch in Kursen ohne bewertbare Kurselemente. Wenn das Zertifikat manuell ausgestellt werden soll, kann der/die Betreuer:in dies **im Bewertungswerkzeug** in der Leistungsübersicht der einzelnen Benutzer:innen vornehmen.
 
-#### Zertifikatsvorlage erstellen ####
+
+**Wo sind die Zertifikate einsehbar?**
+
+Sobald der/die Teilnehmende alle Bedingungen für einen bestandenen Kurs erfüllt hat, ist das Zertifikat in der **Toolbar des jeweiligen Kurses** unter "Mein Kurs" im Leistungsnachweis verfügbar. Die Benutzer:innen erhalten ausserdem automatisch eine **E-Mail-Benachrichtigung**, sobald ein Zertifikat ausgestellt worden ist.
+
+
+**Wie wird die Gültigkeit überprüft?**
+
+Für das Zertifikat kann eine **Gültigkeitsdauer** festgelegt werden. Sie legen dabei die Gültigkeitsdauer in Tagen, Wochen, Monaten oder Jahren fest. 
+
+Um die Gültigkeit des Zertifikats zu überprüfen, muss der Vorlage das Attribut "certificateVerificationUrl" hinzugefügt werden. Dieses erlaubt es, **mittels QR-Code** das Zertifikat zu einem späteren Zeitpunkt nochmals zu generieren und mit der vorliegenden Version zu vergleichen. Sofern beide Versionen übereinstimmen, kann das Zertifikat als gültig erklärt werden. Der QR-Code zur Validierung ist allerdings nur bei Verwendung eines HTML-Formulars möglich.
+
+
+**Was geschieht beim Ablauf eines Zertifikats?**
+
+Anhand des Ausstellungsdatums sowie des Ablaufdatums des Zertifikats können [Erinnerungen](../learningresources/Course_Reminders.de.md){:target="_blank”} ausgelöst werden. Z.B. können Kursteilnehmer:innen eine Info erhalten, dass das Zertifikat abgelaufen ist oder in wenigen Tagen abläuft oder eine **Rezertifizierung** ab sofort möglich ist.
+
+
+**Zertifikatsvorlage erstellen**
 
 Als Vorlage für das Zertifikat dient in der Regel eine systemweite, vom
 Administrator festgelegte PDF-Vorlage. Wenn Sie eine eigene Vorlage verwenden möchten, können Sie diese unter  **Zertifikatvorlage**  hochladen.
