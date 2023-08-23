@@ -6,7 +6,7 @@ role(s).
 
 As the user administrator, go to the user search and select the desired
 person. This takes you to the user settings. Various tabs are available here.
-Select "[Roles](../../manual_user/access_roles_rights/index.md)" and assign the desired role.
+Select "[Roles](../../../manual_user/basic_concepts/Roles_Rights)" and assign the desired role.
 
 ## Manage user settings
 

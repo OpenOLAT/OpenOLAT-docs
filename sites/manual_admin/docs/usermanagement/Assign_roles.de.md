@@ -7,7 +7,7 @@ gewünschten Rolle(n).
 Gehen Sie als Benutzerverwalter in die Benutzersuche und wählen Sie die
 gewünschte Person. So gelangen Sie zu den Benutzereinstellungen. Hier stehen
 verschiedene Reiter zur Verfügung. Wählen Sie "Rollen" und ordnen Sie die
-gewünschte [Rolle](../../manual_user/access_roles_rights/index.de.md) zu.
+gewünschte [Rolle](../../../manual_user/basic_concepts/Roles_Rights) zu.
 
 ## Benutzereinstellungen verwalten
 
