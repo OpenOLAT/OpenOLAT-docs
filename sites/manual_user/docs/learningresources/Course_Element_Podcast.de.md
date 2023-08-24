@@ -1,6 +1,18 @@
 # Kursbaustein "Podcast“ {: #podcast}
 
-![icon podcast](assets/podcast.png)
+
+## Steckbrief
+
+Name | Podcast
+---------|----------
+Icon | ![Podcast Icon](assets/podcast.png){ class=size24  }
+Verfügbar seit | 
+Funktionsgruppe | Wissensvermittlung
+Verwendungszweck | Bereitstellung von abonnierbaren Audio- und Video-Episoden
+Bewertbar | nein
+Spezialität / Hinweis |
+
+
 
 Den Kursbaustein „Podcast“ können Sie entweder dazu benutzen, Ihre eigenen Audio- und Videodateien oder externe Podcast-Episoden einfach in OpenOlat bereitzustellen. Kursteilnehmer können sich Episoden direkt in OpenOlat anzeigen lassen oder den Podcast abonnieren, die Episoden in Portale wie iTunes laden und auf ihre mobilen Endgeräte kopieren.
 

@@ -1,6 +1,17 @@
 # Course Element "Folder"
 
-![folder icon](assets/folder.png)
+## Profile
+
+Name | Folder
+---------|----------
+Icon | ![Task Icon](assets/folder.png){ class=size24 }
+Available since | New edition with release 17.1
+Functional group | Knowledge transfer
+Purpose | Provision of files for download (e.g. material for the course)
+Assessable | no
+Specialty / Note | A similar course element is the course element "Participant folder".
+
+
 
 In the course element "Folder" you can offer files to be downloaded. Often
 folders are used to provide course participants with scripts or slides

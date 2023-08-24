@@ -1,6 +1,18 @@
 # Course Element "Podcast" {: #podcast}
 
-![icon podcast](assets/podcast.png)
+
+## Profile
+
+Name | Podcast
+---------|----------
+Icon | ![Podcast Icon](assets/podcast.png){ class=size24 }
+Available since | 
+Functional group | Knowledge transfer
+Purpose | Provision of subscribable audio and video episodes
+Assessable | no
+Specialty / Note | 
+
+
 
 The course element "Podcast" can either be used to easily provide others with
 your own audio and video files or with external podcast episodes in OpenOlat.

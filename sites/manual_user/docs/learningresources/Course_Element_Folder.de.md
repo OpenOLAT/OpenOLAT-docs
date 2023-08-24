@@ -1,6 +1,17 @@
 # Kursbaustein "Ordner"
 
-![folder icon](assets/folder.png)
+
+## Steckbrief
+
+Name | Ordner
+---------|----------
+Icon | ![Ordner Icon](assets/folder.png){ class=size24  }
+Verfügbar seit | Neuauflage mit Release 17.1
+Funktionsgruppe | Wissensvermittlung
+Verwendungszweck | Bereitstellung von Dateien zum Download (z.B. Material zum Kurs)
+Bewertbar | nein
+Spezialität / Hinweis | Ein ähnlicher Kursbaustein ist der Kursbaustein "Teilnehmer Ordner". 
+
 
 Im Kursbaustein „Ordner“ können Dateien zum Download abgelegt und für die
 Lernenden bereitgestellt werden. Häufig wird der Kursbaustein "Ordner" dazu
