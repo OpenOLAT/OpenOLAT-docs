@@ -1,6 +1,19 @@
 #  Course Element: CP Learning Content {: #CP_learning_content}
 
-![icon cp learning content](assets/content.png)
+
+## Profile
+
+Name | CP learning content
+---------|----------
+Icon | ![CP learning content Icon](assets/content.png){ class=size24 }
+Available since | New edition with release 16.2
+Functional group | Knowledge transfer
+Purpose | Display learning content in IMS CP format
+Assessable | no
+Specialty / Note | 
+
+
+
 
 Use the course element "CP Learning Content" to integrate learning content in
 IMS-CP format (IMS-CP Version 1.1.2) into your course. You can either create

@@ -1,6 +1,18 @@
 # Course Element "Document" {: #document}
 
-![icon document](assets/document_icon.jpg)
+## Profile
+
+Name | Document
+---------|----------
+Icon | ![Document Icon](assets/course_element_document_icon.png){ class=size24 }
+Available since | Release 15.3
+Functional group | Knowledge Transfer
+Purpose | Provision of various documents, also for joint editing
+Assessable | no
+Specialty / Note | For office documents, appropriate licenses are required for editing
+
+
+
 
 By means of the course element "Document" different document formats can be
 integrated directly into the course. This course element is especially

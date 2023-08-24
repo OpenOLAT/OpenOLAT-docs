@@ -1,6 +1,18 @@
 # Course Element "External Page" {: #external_page}
 
-![external page icon](assets/external_page.png)
+
+## Profile
+
+Name | Task
+---------|----------
+Icon | ![External Page Icon](assets/external_page.png){ class=size24 }
+Available since | New edition with release 18
+Functional group | Knowledge transfer
+Purpose | Display external web content within an OpenOlat course and integration in the course navigation
+Assessable | no
+Specialty / Note |
+
+
 
 With the help of the course element "External page" you can call up an
 external website. Simply enter the desired URL in the configuration in the tab

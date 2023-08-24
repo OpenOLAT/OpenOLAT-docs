@@ -1,6 +1,17 @@
 # Kursbaustein "Externe Seite" {: #external_page}
 
-![external page icon](assets/external_page.png)
+## Steckbrief
+
+Name | Externe Seite
+---------|----------
+Icon | ![Externe Seite Icon](assets/external_page.png){ class=size24  }
+Verfügbar seit | Neuauflage mit Release 18
+Funktionsgruppe | Wissensvermittlung
+Verwendungszweck | Anzeige von externen Webinhalten innerhalb eines OpenOlat-Kurses und Einbinden in die Kursnavigation
+Bewertbar | nein
+Spezialität / Hinweis | 
+
+
 
 Mit Hilfe des Kursbausteins „Externe Seite“ können Sie eine externe
 Internetseite aufrufen. Geben Sie einfach die gewünschte URL in der

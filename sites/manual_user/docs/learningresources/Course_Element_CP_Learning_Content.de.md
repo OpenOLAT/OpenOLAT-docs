@@ -1,6 +1,18 @@
 # Kursbaustein "CP-Lerninhalt“ {: #CP_learning_content}
 
-![icon cp learning content](assets/content.png)
+
+## Steckbrief
+
+Name | CP-Lerninhalt
+---------|----------
+Icon | ![CP-Lerninhalt Icon](assets/content.png){ class=size24  }
+Verfügbar seit | Neuauflage mit Release 16.2
+Funktionsgruppe | Wissensvermittlung
+Verwendungszweck | Anzeige von Lerninhalt im IMS-CP-Format
+Bewertbar | nein
+Spezialität / Hinweis |
+
+
 
 Nutzen Sie den Kursbaustein „CP-Lerninhalt“, um einen Lerninhalt im IMS-CP-
 Format (IMS-CP Version 1.1.2) in Ihren Kurs einzubinden. Das CP können Sie

@@ -8,7 +8,7 @@ Name | Structure
 Icon | ![Structure Icon](assets/structure.png){ class=size24 }
 Available since | Release 1
 Functional group | Knowledge transfer
-Purpose | Gliederung des Menüs in Kapitel, Sammlung von Bewertungen aller dem Strukturbaustein untergeordneten Kursbausteine 
+Purpose | Structuring of the menu into chapters, collection of assessments of all course elements subordinate to the structure element
 Assessable | yes
 Specialty / Note | 
 

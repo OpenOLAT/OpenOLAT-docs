@@ -1,6 +1,18 @@
 # Course Element "SCORM Learning Content"
 
-![scorm learning content icon](assets/scorm.png)
+
+## Profile
+
+Name | SCORM learning content
+---------|----------
+Icon | ![Scorm learning content Icon](assets/scorm.png){ class=size24 }
+Available since | 
+Functional group | Knowledge transfer
+Purpose | Integration of SCORM packages, created with other authoring tools
+Assessable | yes
+Specialty / Note | 
+
+
 
 SCORM means "Sharable Content Object Reference Model" and is another
 standardized e-learning format supported by OpenOlat. Use the course element

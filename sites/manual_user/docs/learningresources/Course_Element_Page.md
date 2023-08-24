@@ -8,7 +8,7 @@ Name | Page
 Icon | ![Page Icon](assets/page.png){ class=size24 }
 Available since | Release 18
 Functional group | Knowledge Transfer
-Purpose | Darstellung verschiedener Inhalte in einem blockbasierten Layout
+Purpose | Display of different content in a block-based layout
 Assessable | no
 Specialty / Note | 
 

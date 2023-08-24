@@ -1,5 +1,16 @@
 # Kursbaustein "Dokument" {: #document}
-![icon document](assets/document_icon.jpg)
+
+## Steckbrief
+
+Name | Dokument
+---------|----------
+Icon | ![Document Icon](assets/course_element_document_icon.png){ class=size24  }
+Verfügbar seit | Release 15.3
+Funktionsgruppe | Wissensvermittlung
+Verwendungszweck | Bereitstellung verschiedener Dokumente, auch zur gemeinsamen Bearbeitung
+Bewertbar | nein
+Spezialität / Hinweis | Für Office-Dokumente sind entsprechende Lizenzen zur Bearbeitung erforderlich
+
 
 Mit dem Kursbaustein „Dokument“ können verschieden Dokumentformate direkt
 sichtbar in den Kurs eingebunden werden. Der Kursbaustein ist besonders für
