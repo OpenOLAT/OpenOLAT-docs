@@ -1,8 +1,17 @@
 # Seite
 
-:octicons-tag-24: Release 18.0
+## Steckbrief
 
-![page icon](assets/page.png)
+Name | Seite
+---------|----------
+Icon | ![Seite Icon](assets/page.png){ class=size24  }
+Verfügbar seit | Release 18
+Funktionsgruppe | Wissensvermittlung
+Verwendungszweck | Darstellung verschiedener Inhalte in einem blockbasierten Layout
+Bewertbar | nein
+Spezialität / Hinweis | 
+
+
 
 Der Kursbaustein "Seite" bietet neben der "HTML-Seite" (ehemals "Einzelseite") eine weitere Möglichkeit, auf einfache Art Inhalte in Kursen aufzubereiten und bereitzustellen.
 

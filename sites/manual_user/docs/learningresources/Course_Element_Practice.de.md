@@ -7,9 +7,8 @@ Name | Übung
 Icon | ![Aufgabe Icon](assets/course_element_practice_icon.png){ class=size24  }
 Verfügbar seit | Release 17.0
 Funktionsgruppe | Wissensüberprüfung
-Verwendungszweck | Wissenstransfer und Selbstüberprüfung 
-Prinzip | Es muss eine definierte Anzahl von Fragen beantwortet werden. Nicht korrekt beantwortete Fragen werden nach dem Lernkarten-Prinzip erneut abgefragt und wiederholt.
-Bewertbar | zur Selbstbeurteilung, Betreuer sehen Arbeitsstand, Bewertung erfolgt durch Zuordnung zu Levels
+Verwendungszweck | Wissenstransfer und Selbstüberprüfung. Es muss eine definierte Anzahl von Fragen beantwortet werden. Nicht korrekt beantwortete Fragen werden nach dem Lernkarten-Prinzip erneut abgefragt und wiederholt. 
+Bewertbar | Nein
 Spezialität / Hinweis | Übungsfragen können im Fragenpool verwaltet werden
 
 ---

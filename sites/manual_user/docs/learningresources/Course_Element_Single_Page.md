@@ -1,7 +1,18 @@
-# Course Element "Single page"
+# Course Element "HTML page"
 
 
-![single page icon](assets/single_page_icon.png)
+## Profile
+
+Name | HTML-Page
+---------|----------
+Icon | ![HTML page Icon](assets/single_page.png){ class=size24 }
+Available since | New edition with release 18
+Functional group | Knowledge transfer
+Purpose | Presentation of different content elements (text, images, videos) within a HTML page
+Assessable | no
+Specialty / Note | 
+
+
 
 In the course element "Single page" you can insert various files in your
 course. In this way you can, for example, provide central information, the course schedule or literature tips for your course or place content such as pictures or videos precisely in the course. The files themselves are created in the storage folder of the course.

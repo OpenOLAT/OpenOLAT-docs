@@ -1,6 +1,19 @@
-# Kursbaustein "Einzelne Seite" {: #single_page}
+# Kursbaustein "HTML-Seite" {: #single_page}
 
-![single page icon](assets/single_page.png)
+
+## Steckbrief
+
+Name | HTML-Seite
+---------|----------
+Icon | ![HTML-Seite Icon](assets/single_page.png){ class=size24  }
+Verfügbar seit | Neuauflage mit Release 18
+Funktionsgruppe | Wissensvermittlung
+Verwendungszweck | Darstellung verschiedener Inhalte (Texte, Bilder, Videos) innerhalb einer HTML-Seite
+Bewertbar | nein
+Spezialität / Hinweis | 
+
+
+
 
 Im Kursbaustein „Einzelne Seite“ können Sie HTML und PDF-Dateien direkt in die Kursstruktur einbinden. Geben Sie auf diesem Weg beispielsweise zentrale Informationen, den Kursablauf oder Literaturtipps zu Ihrem Kurs bekannt oder platzieren Sie Inhalte wie Bilder oder Videos gezielt im Kurs. Die Dateien selbst werden dabei im [Ablageordner](../learningresources/Storage_folder.de.md) des Kurses angelegt.
 

@@ -1,6 +1,17 @@
 # Kursbaustein "Struktur"
 
-![structure icon](assets/structure.png)
+## Steckbrief
+
+Name | Struktur
+---------|----------
+Icon | ![Struktur Icon](assets/structure.png){ class=size24  }
+Verfügbar seit | Release 1
+Funktionsgruppe | Wissensvermittlung
+Verwendungszweck | Gliederung des Menüs in Kapitel, Sammlung von Bewertungen aller dem Strukturbaustein untergeordneten Kursbausteine 
+Bewertbar | ja
+Spezialität / Hinweis | 
+
+
 
 Der Kursbaustein Struktur dient vorrangig der Gliederung und Strukturierung des Kurses. Er bietet standardmässig eine automatische Übersicht über alle ihm untergeordneten Kursbausteine mit deren Kurztitel, Titel und Beschreibungen. Verwenden Sie diesen Kursbaustein, um Ihre Kursinhalte zu gliedern und/oder Module klar zu trennen.
 

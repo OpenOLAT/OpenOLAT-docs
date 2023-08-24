@@ -160,7 +160,7 @@ nav:
       - Overview: "learningresources/Course_Elements.md"
       - Structure: "learningresources/Course_Element_Structure.md"
       - Page: "learningresources/Course_Element_Page.md"
-      - Single Page: "learningresources/Course_Element_Single_Page.md"
+      - HTML Page: "learningresources/Course_Element_Single_Page.md"
       - External Page: "learningresources/Course_Element_External_Page.md"
       - CP learning content: "learningresources/Course_Element_CP_Learning_Content.md"
       - SCORM Learning Content: "learningresources/Course_Element_SCORM_Learning_Content.md"

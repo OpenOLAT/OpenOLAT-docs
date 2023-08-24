@@ -1,6 +1,18 @@
 # Course Element "Structure"
 
-![structure icon](assets/structure.png)
+
+## Profile
+
+Name | Structure
+---------|----------
+Icon | ![Structure Icon](assets/structure.png){ class=size24 }
+Available since | Release 1
+Functional group | Knowledge transfer
+Purpose | Gliederung des Menüs in Kapitel, Sammlung von Bewertungen aller dem Strukturbaustein untergeordneten Kursbausteine 
+Assessable | yes
+Specialty / Note | 
+
+
 
 The course element Structure is primarily used to structure the course. The
 concrete setting options depend on whether the course element is used in
