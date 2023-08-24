@@ -7,7 +7,7 @@
 
 * * *
 
-:material-calendar-month-outline: **Release date: 07/12/2023 • Last update: 08/03/2023**
+:material-calendar-month-outline: **Release date: 07/12/2023 • Last update: 08/24/2023**
 
 * * *
 
@@ -237,6 +237,8 @@ With the help of the new To-Do infrastructure, it is possible to react directly 
 
 ## More information
 
+* [Jira Release Notes 18.0.5](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=21400){:target="_blank”}
+* [Jira Release Notes 18.0.4](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=21303){:target="_blank”}
 * [Jira Release Notes 18.0.3](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=21301){:target="_blank”}
 * [Jira Release Notes 18.0.2](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=21201){:target="_blank”}
 * [Jira Release Notes 18.0.1](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=21002){:target="_blank”}
