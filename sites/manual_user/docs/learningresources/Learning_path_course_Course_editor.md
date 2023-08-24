@@ -1,4 +1,4 @@
-# Learning path cours - Course editor
+# Learning path course - Course editor
 
 ## Sequence of learning steps
 

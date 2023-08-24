@@ -114,8 +114,8 @@ nav:
       - Course design:
         - Overview: "learningresources/Learning_path_course.md"
         - Creating learning path courses: "learningresources/Creating_learning_path_courses.md"
-        - Lernpfad Kurs: "learningresources/Learning_path_course_Course_editor.md"
-        - Lernpfad Kurse: "learningresources/Learning_path_course_Participant_view.md"
+        - Learning path course - Course editor: "learningresources/Learning_path_course_Course_editor.md"
+        - Learning path course - Participant view: "learningresources/Learning_path_course_Participant_view.md"
       - Course editor:
         - Overview: "learningresources/General_Configuration_of_Course_Elements.md"
         - Deleting, Moving and Copying Course Elements: "learningresources/Deleting_Moving_and_Copying_Course_Elements.md"
