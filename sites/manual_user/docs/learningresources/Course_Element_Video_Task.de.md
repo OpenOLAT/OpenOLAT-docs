@@ -14,7 +14,7 @@ In diesem Modus sind die Segmente (Videoabschnitte) im Video markiert.
 
 * Das Video zeigt den Ablauf einer medizinischen Pflegebehandlung.
 * Im unteren Bereich des Videos werden Schritte der Behandlung angezeigt.
-* Während das Video abgespielt wird, muss während des erkannten Schrittes die passende Bezwichnung der Massnahme (Kategoriebegriff) angeklickt werden.
+* Während das Video abgespielt wird, muss während des erkannten Schrittes die passende Bezeichnung der Massnahme (Kategoriebegriff) angeklickt werden.
 * Das Feedback erfolgt unmittelbar nach der Wahl eines Begriffes.
 * Eine manuelle Bewertung durch Betreuer:innen ist nicht möglich. (=> Üben soll ohne Kontrolle möglich sein.)
 
@@ -149,13 +149,14 @@ Betreuer:innen können bei jedem/jeder Teilnehmer:in einzeln die Anzahl der Vers
 
 
 ### Button "Alle Versuche abspielen"
+
 Da bei Übungen die Versuche der anonym bleiben sollen, können Betreuer:innen keine Resultate sehen, die bestimmten Personen zugeordnet werden können. Statt dessen werden in einer gemeinsamen Darstellung die Versuche aller Teilnehmer:innen als Striche dargestellt. 
 
 Klicken Sie dazu den Button "Alle Versuche abspielen".
 
 ![video_task_modus_uebung_alleversucheabspielen_v1_de.png](assets/video_task_modus_uebung_alleversucheabspielen_v1_de.png){ class="shadow lightbox" }
 
-In der Timeline des Videos werden alle erfolgreiche Antworten als grüne Striche dargestellt, die falschen Antworten als rote Striche. Betreuer:innen können so z.B. Rückschlüsse auf weit verbreitete Wissenlücken unter den Teilnehmer:innen ziehen. Die so dargestellten Ergebnisse können aber evtl. auch anzeigen, dass die Aufgabenstellung vielleicht angepasst werden sollte.
+In der Timeline des Videos werden alle erfolgreiche Antworten als grüne Striche dargestellt, die falschen Antworten als rote Striche. Betreuer:innen können so z.B. Rückschlüsse auf weit verbreitete Wissenslücken unter den Teilnehmer:innen ziehen. Die so dargestellten Ergebnisse können aber evtl. auch anzeigen, dass die Aufgabenstellung vielleicht angepasst werden sollte.
 
 ![video_task_modus_uebung_alleversucheabspielen2_v1_de.png](assets/video_task_modus_uebung_alleversucheabspielen2_v1_de.png){ class="shadow lightbox" }
 
