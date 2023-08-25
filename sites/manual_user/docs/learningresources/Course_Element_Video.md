@@ -1,6 +1,17 @@
 # Course Element "Video"
 
-![icon_video.png](assets/video_64_0_434343_none.png)  
+
+
+## Profile
+
+Name | Video
+---------|----------
+Icon | ![Task Icon](assets/video_64_0_434343_none.png){ class=size24 }
+Available since | 
+Functional group | Knowledge transfer
+Purpose | Display of mp4 files, including the additions in OpenOlat (quizzes, comments, segments, annotations, chapters, posters, subtitles)
+Assessable | no
+Specialty / Note | 
 
 
 Verwenden Sie den Kursbaustein „Video“, um ein Video im MPEG-4 Format (.mp4) in Ihren Kurs einzubinden. Das Video muss extern erstellt werden.

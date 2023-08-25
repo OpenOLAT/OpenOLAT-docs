@@ -1,6 +1,18 @@
 #  Course Element "Blog" {: #blog}
 
-![icon blog](assets/blog.png)
+
+## Profile
+
+Name | Blog
+---------|----------
+Icon | ![Blog Icon](assets/blog.png){ class=size24 }
+Available since | 
+Functional group | Knowledge transfer
+Purpose | Information of course participants about current topics
+Assessable | no
+Specialty / Note | 
+
+
 
 Via the "Blog" you can inform the participants of the course about current
 topics in the form of text, pictures or video. You can integrate external

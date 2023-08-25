@@ -3,7 +3,7 @@
 
 ## Profile
 
-Name | Task
+Name | External page
 ---------|----------
 Icon | ![External Page Icon](assets/external_page.png){ class=size24 }
 Available since | New edition with release 18

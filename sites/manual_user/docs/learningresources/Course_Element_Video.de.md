@@ -1,6 +1,18 @@
 # Kursbaustein "Video"
 
-![icon_video.png](assets/video_64_0_434343_none.png)
+
+## Steckbrief
+
+Name | Video
+---------|----------
+Icon | ![Aufgabe Icon](assets/video_64_0_434343_none.png){ class=size24  }
+Verfügbar seit | 
+Funktionsgruppe | Wissensvermittlung
+Verwendungszweck | Anzeige von mp4-Dateien, inkl. der Ergänzungen in OpenOlat (Quizzes, Kommentare, Segmente, Annotationen, Kapitel, Poster, Untertitel)
+Bewertbar | nein
+Spezialität / Hinweis |
+
+
 
 Verwenden Sie den Kursbaustein „Video“, um ein Video im MPEG-4 Format (.mp4) in Ihren Kurs einzubinden. Das Video muss extern erstellt werden und als Datei vorliegen oder via URL als Lernressource "Video" in OpenOlat vorliegen.
 

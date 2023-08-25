@@ -1,6 +1,18 @@
 # Kursbaustein "card2brain Lernkarten"
 
-![card2brain icon](assets/card2brain_434343_64.png)
+
+## Steckbrief
+
+Name | card2brain
+---------|----------
+Icon | ![card2brain Icon](assets/card2brain_434343_64.png){ class=size24  }
+Verfügbar seit | 
+Funktionsgruppe | Wissensvermittlung
+Verwendungszweck | Lernen mit Online-Lernkarten
+Bewertbar | nein
+Spezialität / Hinweis |
+
+
 
 !!! warning "Achtung"
 

@@ -1,6 +1,18 @@
 # Course Element "card2brain flashcards"
 
-![card2brain icon](assets/card2brain_434343_64.png)
+
+## Profile
+
+Name | card2brain
+---------|----------
+Icon | ![Task Icon](assets/card2brain_434343_64.png){ class=size24 }
+Available since | 
+Functional group | Knowledge transfer
+Purpose | Learning with online flashcards
+Assessable | no
+Specialty / Note | 
+
+
 
 !!! warning "Attention"
 
