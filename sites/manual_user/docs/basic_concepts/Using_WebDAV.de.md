@@ -42,21 +42,23 @@ fähigen Ordnern
   * Ihren OpenOlat-Benutzernamen, alternativ die hinterlegte E-Mail Adresse
   * Ihr OpenOlat-/WebDAV-Passwort.
 
-Falls Sie mit Shibboleth oder einem Cloud Login auf OpenOlat zugreifen, können Sie sich Ihr WebDAV-
-Passwort in den Einstellungen im persönlichen Menu einrichten. Wählen Sie
+Falls Sie mit Shibboleth oder einem Cloud Login auf OpenOlat zugreifen, können Sie sich Ihr WebDAV-Passwort in den Einstellungen im persönlichen Menu einrichten. Wählen Sie
 hierzu den Link „Einstellungen“ und klicken anschliessend im Tab „WebDAV“ auf
 die Schaltfläche „Passwort einrichten“. Wenn Sie bereits über ein OpenOlat-
 Passwort verfügen, verwenden Sie dieses für den WebDAV Zugang.
+
+## Problembehandlung
+
+Bei Problemen die nachfolgenden Punkte durchgehen:
 
 !!! warning "Zu beachten"
 
     * Je nach Betriebssystem (vor allem Windows) können Dokumente grösser als 50 MB nicht über WebDAV geöffnet werden
     * Das Speichervolumen des WebDAV-Ordners ist begrenzt
+    * Überprüfen, ob die Quota überschritten wurde (vor allem, wenn mehrere Dateien zusammen hochgeladen wurden)
     * Dateinamen sind auf 100 Zeichen begrenzt
-    * Dateinamen dürfen nicht mehrere Leerschläge hinter einander beinhalten
-    * Bei Fehlermeldungen die oben genannten Punkte "Zu beachten" durchgehen und überprüfen, ob die Quota überschritten worden ist (vor allem wenn mehrere Dateien zusammen hochgeladen wurden)
-
-  
+    * Dateinamen dürfen nicht mehrere Leerschläge hintereinander beinhalten
+    * Bei Umlauten in Ordnernamen werden ggfs. Unterordner und enthaltene Dokumente nicht angezeigt
 
 ## Einrichten der WebDAV-Verbindung
 
@@ -115,22 +117,19 @@ Passwort verfügen, verwenden Sie dieses für den WebDAV Zugang.
     * Windows: Cyberduck, WinSCP
     * Mac: Cyberduck, Commander One
 
-
 ## Ordnerstruktur
 
 Wenn Sie die Verbindung erfolgreich eingerichtet haben, öffnet sich auf Ihrem
 Rechner ein Verzeichnis, das die folgenden Unterverzeichnisse enthält:
 
-  *  **coursefolders**: Hier haben Sie Zugriff auf die [Ablageordner](../learningresources/Storage_folder.de.md) aller Kurse, die Sie besitzen bzw. deren Mitglied sie sind. Für jeden Kurs wird automatisch ein Webdav-Ordner angelegt. Klicken Sie auf den Webdav-Ordner eines Kurses und Sie sehen die Dateien und die Struktur des jeweiligen Ablageordners und können Dateien hochladen, löschen, ändern usw. 
-  Neben denen von Ihnen angelegten Dateien und Ordnern legt OpenOlat je nach automatisch bestimmte Ordner an. Diese erreichen Sie ebenfalls über WebDAV.    
- Ablageordner sehen in der Regel nur Benutzer mit Autorenrechten. Alle anderen Benutzer finden hier Kursordner. 
+  *  **coursefolders**: Hier haben Sie Zugriff auf die [Ablageordner](../learningresources/Storage_folder.de.md) aller Kurse, die Sie besitzen bzw. deren Mitglied sie sind. Für jeden Kurs wird automatisch ein Webdav-Ordner angelegt. Klicken Sie auf den Webdav-Ordner eines Kurses und Sie sehen die Dateien und die Struktur des jeweiligen Ablageordners und können Dateien hochladen, löschen, ändern usw.
+  Neben denen von Ihnen angelegten Dateien und Ordnern legt OpenOlat je nach automatisch bestimmte Ordner an. Diese erreichen Sie ebenfalls über WebDAV.
+ Ablageordner sehen in der Regel nur Benutzer mit Autorenrechten. Alle anderen Benutzer finden hier Kursordner.
 
     * _other_: Dieser Ordner erscheint nur, wenn in der Administration die Semesterdaten aktiviert sind. In diesem Ordner befinden sich alle Kurse, welche _keinem_ Semester zugeordnet sind.
 
     * _beendet_: Dieser Ordner erscheint nur, wenn in der Administration die Semesterdaten nicht aktiviert sind. In diesem Ordner befinden sich alle Kurse, welche im Kurslebenszyklus auf beendet gesetzt worden sind. Das sind diejenigen Kurse, welche im Menu Kurse im Tab "Beendet" erscheinen.  
 
-  
   *  **groupfolders**: Hier finden Sie alle Gruppen in denen Sie eingetragen sind und auf deren Ordner Sie Zugriff haben.
   *  **home**: Ihre beiden persönlichen Ordner (mit den Unterordnern „private“ und „public“).
   *  **sharedfolders**: Alle Ressourcenordner, die Sie besitzen, oder auf die Sie aufgrund von Teilnehmerrechten zugreifen dürfen. Besitzer und Betreuer erhalten Lese- und Schreibrechte, Teilnehmer nur Leserechte.
-

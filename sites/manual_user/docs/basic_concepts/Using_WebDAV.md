@@ -39,13 +39,18 @@ In order to get access to a folder in OpenOlat via WebDAV you need:
 If you access OpenOlat via Shibboleth or another Cloud Login you can set your WebDAV password on your homepage, section "Settings." Just select the link "Settings" before
 clicking on the button "Set password" in the tab "WebDAV." If you already have an OpenOlat password you can use this one to access WebDAV.
 
+## Troubleshooting
+
+In case of problems, go through the following points:
+
 !!! warning "To consider"
 
     * Depending on the operation system (especially Windows) documents bigger than 50 MB cannot be opened with WebDAV
-    * The storage volume of WebDAV-Folders is limited.
+    * The storage volume of WebDAV-Folders is limited
+    * Check if the quota has been exceeded (especially if several files have been uploaded together)
     * File names are limited to 100 characters
     * File names may not include several spaces after each other
-    * If an error message appears anyway, go through the points "To consider". Check as well if the quota does not have been exceeded (especially if several files have been uploaded together)
+    * If umlauts are used in folder names, subfolders and contained documents may not be displayed
 
 ## WebDAV Connection Setup
 
