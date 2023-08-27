@@ -1,47 +1,44 @@
 # Modul: Katalog
 
-## Einstellungen
+## Tab Einstellungen
 
-Hier können sie das Modul des Kataloges einstellen . Entweder sie deaktivieren den Katalog oder benutzen Version 1 oder Version 2.
+Hier können sie das Modul des Kataloges einstellen. Entweder sie deaktivieren den Katalog oder benutzen Version 1 oder Version 2. Je nachdem welche Option Sie wählen erscheinen unterschiedliche weitere Tabs.
 
-## Katalog V1
+## Konfiguration des Katalogs V1 
 
-Wenn sie den Katalog V1 einschalten, haben sie die Konfiguration als weiteren Tab zu verfügung.
+Wenn sie den Katalog V1 einschalten, erscheint der Tab "Konfiguration" und Sie können weitere Einstellungen vornehmen. 
 
-### Konfiguration
+![Administration Katalog Version 1](assets/Admin_KatalogV1.png)
+    
 
-Auf diesem Tag kann man anzeigen lassen, ob der Katalog im Tab "Kurse" angezeigt werden sollte.
+## Konfiguration des Katalogs V2
 
-## Katalog V2
+### Tab Startseite
 
-### Startseite
-
-Auf der Startseite kann man sogenannte "Launcher" hinzufügen. Launcher sind die konfigurierbaren Zeilen der Startseite.  Standardmässig ist ein Launcher vom Typ "Zuletzt hinzugefügt" aktiviert. Die Launcher kommen in 3 Typen: Statischer Text, Statisch (Manuell auswählen), Taxonomie-Ebenen.
+Auf der Startseite kann man sogenannte **"Launcher"** hinzufügen. Launcher sind die konfigurierbaren Zeilen der Startseite. Standardmässig ist ein Launcher vom Typ "Zuletzt hinzugefügt" aktiviert. Die Launcher kommen in 3 Typen: Statischer Text, Statisch (Manuell auswählen), Taxonomie-Ebenen.
 Allen Launcher kann ich einen sprachabhängigen Namen geben. Dieser Name erscheint dann als Headline über den Kacheln. Die Launcher können auch nur für spezifische Organisationen freigegeben werden. Dies erreiche ich über das Label 'Einschränkung auf Organisation'.
 
-### Taxonomie Launcher
+#### Taxonomie Launcher
 
 Taxonomie Launcher nutzen die Katalogfachbereichsstruktur, um die verschiedenen Taxonomielevel als Baum anzuzeigen.
 
-### (Taxonomie-) Microsite
+#### (Taxonomie-) Microsite
 
 Klickt man auf einen Level bei einem Launcher kommt man auf die Taxonomie Microsite. Hier werden alle Kurse angezeigt, die unter diesem Level eingeordnet wurden. Hat die Fachbereichstaxonomie mehrere Level in diesem Strang werden die weiteren Level angezeigt.
 
 Man kann die Kursliste weiter durch Filter oder Suche verfeinern.
 
-### Statischer Launcher
+#### Statischer Launcher
 
-In diesem Launcher kann man statischen Text hinzufügen. Einige Optionen beinhalten: Fett,Kursiv, Textgrösse, Schriftart, Bild hinzufügen, Video hinzufügen, Trennstriche..
+In diesem Launcher kann man statischen Text hinzufügen. Einige Optionen beinhalten: Fett, Kursiv, Textgrösse, Schriftart, Bild hinzufügen, Video hinzufügen, Trennstriche ...
 
-### Filter
+### Tab Filter
 
-Dieser Tab steuert, welche Filter auf den Microseiten und der Suchergebnisseite verfügbar sind. Hier kann gewählt werden, welche Filter für Teilnehmer verfügbar sein sollen. Standardmässig sind hier diese Filter aktiviert.
+Dieser Tab steuert, welche Filter auf den Microseiten und der Suchergebnisseite verfügbar sind und vom User genutzt werden können. Filter können z.B. Fachbereiche, Taxonomieebene, Angebotsart, Durchführungsformat, Semester, Lizenz, Hauptsprache, Lernressourcentyp, Autor usw. sein. 
 
-Um Filter hinzuzufügen, drücken sie oben links auf Filter hinzufügen.
+### Tab Layout
 
-### Layout
-
-Dieser Tab beinhaltet alles, was das Erscheinungsbild des Katalogs angeht. Man kann den Anzeigetitel des Katalogs anpassen und ein Hintergrundbild für den Header der Startseite auswählen.
+Dieser Tab beinhaltet alles, was das Erscheinungsbild des Katalogs V2 angeht. Man kann den Anzeigetitel des Katalogs anpassen und ein Hintergrundbild für den Header der Startseite auswählen.
 
 Unter Kacheln Taxonomieebenen Launcher, kann man das Aussehen der Kacheln der Microsites beeinflussen.
 
@@ -51,12 +48,12 @@ Die Anzeige der Lernressourcen Card steuert, welche Metadaten auf der Card der S
 
 ### Verwalten des Kataloges
 
-Der Katalog V2 wird aus der Fachbereichs-Taxonomie gespeist. Benutzer mit der Rolle [Lernressourcenverwalter](../../manual_user/access_roles_rights/index.de.md) und Adminmistratoren können die Verschlagwortung über das Menü verwalten.
+Der Katalog V2 wird aus der Fachbereichs-Taxonomie gespeist. Benutzer mit der Rolle [Lernressourcenverwalter](../../manual_user/access_roles_rights/index.de.md) und Administratoren können die Verschlagwortung über das Menü verwalten.
 Bei Klick gelangt man auf die Fachbereiche. Dort kann man die aktuelle Taxonomie auswählen, Neue Taxonomieebenen erstellen und importieren und auch Ebenen löschen.
 
-Das löschen der Ebenen löscht nur die Verschlagwortung, keine verknüpften Lernressourcen. Ist diese gelöscht, taucht eine Lernressource nicht mehr im Katalog auf.
+Das Löschen der Ebenen löscht nur die Verschlagwortung, keine verknüpften Lernressourcen. Ist diese gelöscht, taucht eine Lernressource nicht mehr im Katalog auf.
 
-!!! warning
+!!! warning "Achtung"
 
     Die Fachbereiche, Verschlagwortung, Taxonomie die man als Lernressourcenverwalter bearbeiten kann, kann auch andere Bereiche betreffen, in denen die Taxonomie benutzt wird. Diese können sein: ePortfolio Einträge, Curriculum Einträge, Dokumentenpool.
 

@@ -17,23 +17,22 @@ Die OpenOlat-User finden den Katalog im **Menü der Kopfzeile**.
 
 ![catalog20_kopfzeilenmenu_v1_de.png](assets/catalog20_kopfzeilenmenu_v1_de.png){ class="shadow lightbox" }
 
-Voraussetzung: Der Katalog muss aktiviert sein. (In jeder OpenOlat-Instanz kann dies vom Administrator ein- oder ausgeschaltet werden.)
+Voraussetzung: Der Katalog muss in der OpenOlat [Administration aktiviert](../../../manual_admin/docs/administration/Modules_Catalog_2.0.de.md) worden sein. 
 
 !!! tip "Hinweis"
 
-    Der Menü-Eintrag kann auch an einer anderen Stelle stehen. Wenn viele Einträge in der Kopfzeile angezeigt werden, kann es auch sein, dass der Katalog unter „Mehr“ ganz rechts enthalten ist.
-
+    Falls Sie den Eintrag im Menü nicht sehen, aber sicher sind, dass der Katalog 2.0 verwendet wird, schauen Sie bitte unter „Mehr“ ganz rechts nach. Hierhin werden alle Menüs verschoben, die aufgrund der Anzeigebreite des Monitors/Geräts nicht direkt angezeigt werden können.
 
 
 ## Die Bestandteile des Katalogs
 
 Der Katalog V2 enthält die Bestandteile
 
-- Header (Kopfzeile mit Hintergrundbild)
+- Header: Kopfzeile mit Hintergrundbild
 - Suchfeld (innerhalb Header)
-- Filter
-- Launcher (Abschnitte im Katalog, in denen Katalogeinträge nach best. Kriterien zusammengestellt werden (je nach Launchertyp und Launcherkonfiguration)
-- Kacheln/Karten mit Beschreibung eines Kurses oder einer Lernressource
+- Filter für eine gezeilte Suche z.B. nach  Durchführungsformat, Typ der Lernressource, usw.
+- Launcher: Abschnitte im Katalog, in denen Katalogeinträge nach bestimmten Kriterien zusammengestellt werden z.B. zuletzt veröffentlichte Kurse (je nach Launchertyp und Launcherkonfiguration)
+- Kacheln/Karten mit Beschreibung eines Kurses oder einer Lernressource (entspricht der [Infoseite](../learningresources/Info_page.de.md) )
 
 ![catalog20_bestandteile_v1_de.png](assets/catalog20_bestandteile_v1_de.png){ class="shadow lightbox" }
 
@@ -42,7 +41,7 @@ Der Katalog V2 enthält die Bestandteile
 ## Welche Seiten und Ansichten hat der Katalog?
 
 **Seite/Ansicht 1:**<br>
-Wird in der Kopfzeile der Katalog V2 aufgerufen, dann gelangt man zunächst auf die Startseite (Landing page) mit den Launchern.
+Wird in der Kopfzeile der Katalog (V2) aufgerufen, dann gelangt man zunächst auf die Startseite (Landing page) mit den Launchern.
 
 ![catalog20_startseite_v1_de.png](assets/catalog20_startseite_v1_de.png){ class="shadow lightbox" }
 
@@ -57,7 +56,7 @@ Zu einer Kategorie gehören alle Kurse und Lernressourcen die dem gleichen Taxon
 Erfolgt der Klick auf eine Karte/Kachel in einem anderen Launcher (nicht vom Typ Kategorie-Launcher) oder in einer Microsite öffnet sich die Info-Seite oder sofort der Kurs.
 
 **Seite/Ansicht 3:**<br>
-Wird zuerst eine Microsite geöffnet, können Sie in der Liste die Info-Seiten anzeigen lassen oder die Kurs bzw. Lernressourcen gleich starten. 
+Wird zuerst eine Microsite geöffnet, können Sie in der Liste die [Infoseiten](../learningresources/Info_page.de.md) anzeigen lassen oder die Kurs bzw. Lernressourcen gleich starten. 
 
 ![catalog20_microsite_v1_de.png](assets/catalog20_microsite_v1_de.png){ class="shadow lightbox" }
 

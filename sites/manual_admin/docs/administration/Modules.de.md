@@ -1,15 +1,17 @@
 # Module
 
-  * Instant-Messaging
-  * Wiki
+  * [Instant-Messaging](Instant_Messaging.de.md)
   * Video
   * [Kontaktverfolgung](Modules_Contact_Tracing.de.md)
+  * Wiki
   * Kurserinnerungen
+  * Audio/Video-Aufnahme
   * COVID-Zertifikat
   * [Dokumentenpool](Modules_Document_pool.de.md)
-  * [Taxonomie](Modules_Taxonomy.de.md)
   * Livestream
+  * [Taxonomie](Modules_Taxonomy.de.md)
   * Semesterdaten
+  * Medien Center
   * Datenschutz
   * Buchungen
   * Gruppen
@@ -17,20 +19,18 @@
   * Bibliothek
   * Forum
   * Kurs
-  * Katalog
-  * Repository
+  * [Katalog](Modules_Catalog_2.0.de.md)
+  * [Repository](Modules_Repository.de.md)
   * [Organisationen](Modules_Organisations.de.md)
-  * Rolle Benutzer zu Benutzer
+  * Rolle Person zu Person
   * Anfrage Konto löschen
   * [Curriculum](Modules_Curriculum.de.md)
+  * [Projekte](Modules_Projects.de.md)
   * Qualitätsmanagement
+  * [SEO /OAI-PMH Metadaten](Modules_OAI.de.md) 
 
-## Instant Messaging
-
-Hier kann der OpenOlat Chat und das Instant-Messaging systemweit aktiviert
-bzw. deaktiviert und weitere Detaileinstellungen vorgenommen werden.
-Beispielsweise kann konfiguriert werden ob die Chatfunktion in Gruppen und
-Kursen bereitgestellt wird oder anonyme Chatbeiträge möglich sind.
+## Video 
+Hier können die Lernressource Video und der Kursbaustein Video aktiviert werden. Auch Angaben zum Transkodierung sowie die Standardauflösung können definiert werden. 
 
 ##  Wiki
 
@@ -44,14 +44,38 @@ verfügt die Wiki Komponente über eine automatische Versionierung, die es
 Angreifern schwierig macht unerkannt zu bleiben.“ Entfernt im Bereich
 Administration. Schauen, wo man es wieder einbauen kann/sollte.
 
+## Kurserinnerungen 
+
+Aktivierung der Kurserinnerungen und Einstellung der Versandhäufigkeit. 
+
+## Audio/Video-Aufnahme
+
+Aktivierung der Video-Aufnahme Möglichkeit an verschiedenen Stellen in OpenOlat. Auch ein lokales Transcoding kann aktiviert werden. 
+
+## Covid-Zertifikat
+
+Aktivierung des COVID-Zertifikats mit weiteren Einstellungen wie Gültigkeitsdauer, Erinnerungseinstellungen, Scan-Einstellungen für das Zertifikat.
+
+## Livestream
+
 ## Semesterdaten
 
 Erstellen und verwalten Sie Semesterdaten um bei Kurslaufzeiten auf eine
 Semesterbezeichnung anstelle eines Datums verweisen zu können. Die hier
 erstellten Semesterdaten können bei der Konfiguration des
 Durchführungszeitraumes eines Kurses in der Lernressourcenverwaltung verwendet
-werden. Als Bezeichnung könnten z.B. "SoSe22" und als Name "Sommersemester
-2022" verwendet werden.
+werden. Als Bezeichnung könnten z.B. "SoSe23" und als Name "Sommersemester
+2023" verwendet werden.
+
+## Medien Center
+
+Hier kann definiert ob bzw. welche Taxonomie mit dem Medien Center verbunden werden sollen. 
+
+## Datenschutz
+
+## Buchungen
+
+Anzeige aller Buchungen für eine Buchungsnummer in einem angegebenen Zeitraum
 
 ## Gruppen
 
@@ -64,6 +88,10 @@ Einladung eine direkte Mitgliedschaft zur Folge hat oder erst durch den
 eingeladenen Benutzer bestätigt werden muss. Administratoren können hier auch
 Kurs- und Gruppenmitglieder bereinigen.
 
+## Bibliothek
+
+Aktivierung des Menüs "Bibliothek" und Wahl des zugehörigen Ressourcenordners.
+
 ## Forum
 
 Administratoren können hier definieren ob pseudonymisierte Forenbeiträge
@@ -73,10 +101,24 @@ erlaubt sind und auch die passende Standardkonfiguration für Foren festlegen.
 
 Im Tab "Einstellungen" kann der Standardtyp für die OpenOlat Kurse, Lernpfad
 oder herkömmlicher Kurs, festgelegt werden. Auch Einstellungen für bewertbare
-Kursbausteine können hier vorgenommen werden. Im Tab "Didaktische Typen"
+Kursbausteine können hier vorgenommen werden. 
+Im Tab "Durchführungsformate"
 können neue didaktische Typen definiert und vorhandene bearbeitet oder
-gelöscht werden. Auch Kategorien für Farbkategorien mit CSS-Klassen und Stil
-Bilder können hier hinzugefügt werden.
+gelöscht werden. 
+Auch Kategorien für Farbkategorien mit CSS-Klassen und Stil
+Bilder können in diesem Menü hinzugefügt werden.
+
+## Rolle Person zu Person 
+
+Aktivierung von Person zu Person und Definition von konkreten verbundenen Rollen z.B. Vorgesetzter und Mitarbeiter oder Lehrer und Schüler.
+
+## Anfrage Konto löschen
+
+Aktivierung und Angabe einer Mailadresse für die Löschanfrage.
+
+## Qualitätsmanagement
+
+Aktivierung und Definition von speziellen E-Mailadressen. 
 
   
 

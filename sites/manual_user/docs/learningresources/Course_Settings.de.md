@@ -27,7 +27,7 @@ Hier können Sie den Durchführungszeitraum des Kurses definieren, das „[Lekti
 
 Im Tab "Freigabe" definieren Sie wie und für wen ein Kurs oder eine Lernressource freigegeben wird. Weitere Informationen zur Einrichtung der passenden Zugangskonfiguration finden Sie [hier](Access_configuration.de.md).
 
-## Tab Katalog
+## Tab Katalog (gilt nur für Katalog Version 1)
 
 Über den Button "In Katalog einfügen" kann die Lernressource in den Katalog eingetragen und einer oder mehreren vordefinierten Kategorie zugeordnet werden. Um den Kurs oder die Lernressource in mehrere Katalogbereiche einzutragen muss der Schritt wiederholt werden. Anschließend erscheinen alle Katalogeinträge hier im Tab "Katalog" und können hier auch wieder entfernt werden.
 
