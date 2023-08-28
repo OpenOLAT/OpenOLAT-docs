@@ -1,6 +1,18 @@
 #  Kursbaustein "Edubase" {: #edubase}
 
-![icon edubase](assets/edubas_icon.png)
+
+## Steckbrief
+
+Name | Edubase
+---------|----------
+Icon | ![Edubase Icon](assets/edubas_icon.png){ class=size24  }
+Verfügbar seit | 
+Funktionsgruppe | Wissensvermittlung
+Verwendungszweck | Anzeige der e-Books von Edubase
+Bewertbar | nein
+Spezialität / Hinweis |
+
+
 
 Mit diesem Kursbaustein können e-Books von Edubase verlinkt und direkt in
 OpenOlat aufgerufen werden.

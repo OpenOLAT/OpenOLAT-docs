@@ -1,6 +1,18 @@
 # Course Element "Edubase" {: #edubase_config}
 
-![icon edubase](assets/edubas_icon.png)
+
+## Profile
+
+Name | Edubase
+---------|----------
+Icon | ![Edubase Icon](assets/edubas_icon.png){ class=size24 }
+Available since | 
+Functional group | Knowledge transfer
+Purpose | Display of e-books from Edubase
+Assessable | no
+Specialty / Note |
+
+
 
 This course element allows you to link to e-books from Edubase. The e-books
 can then be opened in OpenOlat.
