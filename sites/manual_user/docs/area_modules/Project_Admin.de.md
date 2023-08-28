@@ -44,7 +44,7 @@ Abgeschlossen werden kann ein Projekt nur durch
 
 * Projektbesitzer:innen,
 * Projektleiter:innen,
-* Projektbüro-Mitarbreiter:innen,
+* Projektbüro-Mitarbeiter:innen,
 * Administrator:innen,
 * und Projektverwalter:innen.
 

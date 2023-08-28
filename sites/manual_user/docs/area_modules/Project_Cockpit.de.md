@@ -6,7 +6,7 @@ Ruft man das Projekt-Tool auf landet man in der Übersicht mit allen Projekte (T
 
 ## Startscreen eines Projekts (Cockpit)
 
-Klickt man auf ein konkretes Projekt landet man im Cockpit des Projektes. Von hier aus kann man rasch auf alle zentralen Elemente dieses Projektes zugreifen z.B. Termine organisieren/einsehen, sich einen Überblick über die To-dos verschaffen, Entscheide einstellen/einsehen, Notizen erstellen/lesen und Dateien hochladen bzw. einsehen. Auch erhält man in der Timeline einen schnellen Überblick über die letzten Äderungen. 
+Klickt man auf ein konkretes Projekt landet man im Cockpit des Projektes. Von hier aus kann man rasch auf alle zentralen Elemente dieses Projektes zugreifen z.B. Termine organisieren/einsehen, sich einen Überblick über die To-dos verschaffen, Entscheide einstellen/einsehen, Notizen erstellen/lesen und Dateien hochladen bzw. einsehen. Auch erhält man in der Timeline einen schnellen Überblick über die letzten Änderungen. 
 
 !!! info "Info"
 
