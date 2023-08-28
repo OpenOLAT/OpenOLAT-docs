@@ -15,7 +15,7 @@ Es öffnet sich im nächsten Schritt die Eingabeseite der "Einstellungen". Wird 
 
 !!! note "Info"
 
-    Wie man die Videos der Lernressource Video einbindet erfahren Sie im Kapitel [Kursbaustein Video"](Course_Element_Video.de.md) einrichten.
+    Wie man die Videos der Lernressource Video einbindet erfahren Sie im Kapitel ["Kursbaustein Video"](Course_Element_Video.de.md) einrichten.
 
 ##  Video Editor
 
@@ -36,8 +36,7 @@ Konfiguriert werden können: Kapitel, Annotationen, Segmente, Kommentare und Qui
 
 ### Kapitel {: #video_chapter}
 
-Jedem Video können "Kapitel" als Sprungmarken hinzugefügt werden. Dies erleichtert die Navigation im Video und sollte bei längeren Videos auf jeden
-Fall vorgenommen werden. Ein Kapitel wird mit der Schaltfläche **"Kapitel hinzufügen"** hinzugefügt. Anschliessend kann ein Kapitelname eingetragen werden. Zudem muss die Anfangszeit des Videos definiert werden.
+Jedem Video können "Kapitel" als Sprungmarken hinzugefügt werden. Dies erleichtert die Navigation im Video und sollte bei längeren Videos auf jeden Fall vorgenommen werden. Ein Kapitel wird mit der Schaltfläche **"Kapitel hinzufügen"** hinzugefügt. Anschliessend kann ein Kapitelname eingetragen werden. Zudem muss die Anfangszeit des Videos definiert werden.
 
 Alternativ kann im Video an der Stelle gestoppt werden, wo das neue Kapitel beginnen soll. Anschliessend klicken Sie wiederum auf die Schaltfläche "Kapitel hinzufügen". Die Anfangszeit wird nun automatisch übernommen und es muss nur noch ein Kapitelname eingetragen werden.
 
@@ -51,8 +50,7 @@ Neben den Kapitelmerkmalen können auch an beliebigen Stellen im Video Anmerkung
 
 ![lernressource_video.png](assets/Video-Editor_Annotationen.png)  
 
-Wählen Sie die Stelle an der die Anmerkung ergänzt werden soll und definieren Sie die weiteren Einstellungen, wie die Dauer, die Position an der die
-Anmerkung erscheinen soll und natürlich den anzuzeigenden Text. Die Annotationsblöcke können per drag&drop flexibel verschoben werden. 
+Wählen Sie die Stelle an der die Anmerkung ergänzt werden soll und definieren Sie die weiteren Einstellungen, wie die Dauer, die Position an der die Anmerkung erscheinen soll und natürlich den anzuzeigenden Text. Die Annotationsblöcke können per drag&drop flexibel verschoben werden. 
 
 ### Segmente
 
@@ -80,8 +78,8 @@ Segmente werden im Kursbaustein Videoaufgabe benötigt. Es sind Videoabschnitte,
 4. **a) Kursbaustein „Videoaufgabe“**:<br> Im Tab „Konfiguration“ finden Sie den Abschnitt „Videoelemente anzeigen“. Dort müssen Sie die Segmente aktiviert finden, denn eine Videoaufgabe braucht zwingend Segmente.<br>
 **b) Kursbaustein „Video“**:<br> Im Tab „Lerninhalt“ finden Sie den Abschnitt „Videoelemente anzeigen“. Dort können Sie die Anzeige der Segmente ein- oder ausblenden.
 
-
 ### Kommentare
+
 Kommentare können gezielt an einem bestimmten Punkt im Video gesetzt werden und zum Beispiel wichtige Kernaussagen des Videos hervorheben, ergänzende Informationen zum Thema oder Hinweise zum folgenden Videoabschnitt bereitstellen. Der Kommentar wird mit dem Namen der erstellenden Person gekennzeichnet. 
 
 Sieht sich der User das Video an stoppt es an der mit dem Kommentar versehenen Stelle. Um fortzufahren, muss entweder der Kommentar aktiv geschlossen oder der Play-Button des Videos manuell angeklickt werden.
@@ -95,19 +93,18 @@ Neben einfachen Text-Kommentaren und der Einbindung bestehender Videos (Import a
 An dieser Stelle können Sie dem Video einzelne Quizfragen hinzufügen. Aktuell stehen 12 verschiedene Fragetypen zur Auswahl. Anschliessend kann die Frage weiter konfiguriert werden. 
 
 Zur Konfiguration der Quizfrage kann 
-* der Zeitpunkt definiert werden zu dem die Frage erscheinen soll, 
-* ob es eine Zeitbeschränkung für die Bearbeitung gibt und   
-* ob es erlaubt ist die Frage zu überspringen oder ob ein weiterer Versuch erlaubt ist. 
+* der Zeitpunkt definiert werden zu dem die Frage erscheinen soll
+* eine Zeitbeschränkung für die Bearbeitung definiert werden
+* und definiert werden, ob es mehrere Lösungsversuche für eine Frage geben soll, oder diese übersprungen werden dürfen
 
-Die konkret angezeigten Tabs für die Quizfrage sind abhängig vom gewählten Fragetyp. Im ersten Tab wird die konkrete Fragestellung sowie die Antworten hinterlegt. Im Tab "**Punkte**" wird die Art der
-Punktevergabe definiert. Im Tab "**Feedback**" können Feedbacks basierend auf unterschiedlichen Kriterien hinzugefügt werden. Im Tab **"Vorschau"** bzw. **"Vorschau Lösung"** kann man sich die Darstellung der Frage anschauen. 
+Die konkret angezeigten Tabs für die Quizfrage sind abhängig vom gewählten Fragetyp. Im ersten Tab wird die konkrete Fragestellung sowie die Antworten hinterlegt. Im Tab **"Punkte"** wird die Art der
+Punktevergabe definiert. Im Tab **"Feedback"** können Feedbacks basierend auf unterschiedlichen Kriterien hinzugefügt werden. Im Tab **"Vorschau"** bzw. **"Vorschau Lösung"** kann man sich die Darstellung der Frage anschauen. 
 
-!!! note ""
+!!! note "Hinweis"
 
     Weitere Informationen zu den generellen Einstellungen von Quiz und Tests finden Sie im Kapitel "[Testfragen konfigurieren](../learningresources/Configure_test_questions.de.md)". Weitere Informationen zu den unterschiedlichen Fragetypen im Kapitel "[Test Fragetypen](../learningresources/Test_question_types.de.md)".
 
-
-## Videokonfiguration in den "Einstellungen" der Lernressource
+### Videokonfiguration in den "Einstellungen" der Lernressource
 
 Weitere Konfigurationen können in den "Einstellungen" im Bereich Administration vorgenommen werden.
 
@@ -116,18 +113,11 @@ finden Sie [hier](../learningresources/Course_Settings.de.md).
 
 ### Metadaten
 
-Im Tab "Metadaten" finden Sie generelle Angaben zum Video wie Erstelldatum und
-Dateigrösse. Ferner haben Sie die Möglichkeit wie in anderen Lernressourcen auch, Informationen zu Autoren, Fachbereichen, Hauptsprache, Zeitaufwand und Lizenz zu hinterlegen.
+Im Tab "Metadaten" finden Sie generelle Angaben zum Video wie Erstelldatum und Dateigrösse. Ferner haben Sie die Möglichkeit wie in anderen Lernressourcen auch, Informationen zu Autoren, Fachbereichen, Hauptsprache, Zeitaufwand und Lizenz zu hinterlegen.
 
 ### Poster konfigurieren
 
-Im Tab "Poster konfigurieren" legen Sie fest, mit welchem Vorschaubild das
-Video im Kursbereich, im Katalog, auf der Video Collection-Seite, auf der
-Infoseite, im Autorenbereich sowie im Kurs angezeigt werden soll. Mit Hilfe
-der Schaltfläche "Poster ersetzen" können Sie zwischen verschiedenen
-Standbildern des Videos wählen oder alternativ über die Schaltfläche "Poster
-hochladen" ein eigenes Bild als Startbild (Poster) hochladen. Falls kein
-Poster ausgewählt wurde, erscheint das Standbild vom Beginn des Videos.
+Im Tab "Poster konfigurieren" legen Sie fest, mit welchem Vorschaubild das Video im Kursbereich, im Katalog, auf der Video Collection-Seite, auf der Infoseite, im Autorenbereich sowie im Kurs angezeigt werden soll. Mit Hilfe der Schaltfläche "Poster ersetzen" können Sie zwischen verschiedenen Standbildern des Videos wählen oder alternativ über die Schaltfläche "Poster hochladen" ein eigenes Bild als Startbild (Poster) hochladen. Falls kein Poster ausgewählt wurde, erscheint das Standbild vom Beginn des Videos.
 
 !!! info "Achtung"
 
@@ -135,22 +125,15 @@ Poster ausgewählt wurde, erscheint das Standbild vom Beginn des Videos.
 
 ###  Untertitel konfigurieren  {: #video_subtitles}
 
-Einem Video können Untertitel in beliebig vielen Sprachen zugewiesen werden.
-Untertitel werden in OpenOlat im [WebVTT Format](https://w3c.github.io/webvtt/)
-hochgeladen ([Wikipedia- Artikel](https://en.wikipedia.org/wiki/WebVTT)).
-Die hochgeladene Datei muss .vtt abgespeichert sein.
-Untertitel können relativ einfach selbst erstellt werden.
-Dieses Format wird von der meisten Video-Player-Software unterstützt.
+Einem Video können Untertitel in beliebig vielen Sprachen zugewiesen werden. Untertitel werden in OpenOlat im [WebVTT Format](https://w3c.github.io/webvtt/) hochgeladen ([Wikipedia- Artikel](https://en.wikipedia.org/wiki/WebVTT)). Die hochgeladene Datei muss .vtt abgespeichert sein. Untertitel können relativ einfach selbst erstellt werden. Dieses Format wird von der meisten Video-Player-Software unterstützt.
 
-!!! note ""
+!!! note "Hinweis"
 
-    In der ersten Zeile des VTT-Dokuments muss das Schlüsselwort WEBVTT stehen,
-    gefolgt von einer leeren Zeile.
+    In der ersten Zeile des VTT-Dokuments muss das Schlüsselwort WEBVTT stehen, gefolgt von einer leeren Zeile.
 
-Vor jeder Untertitelzeile wird eine Zeitangabe benötigt, die im folgenden Format
-vorliegen muss:
+Vor jeder Untertitelzeile wird eine Zeitangabe benötigt, die im folgenden Format vorliegen muss:
 
-!!! note ""
+!!! note "Hinweis"
 
     hh\:mm\:ss.msec 
 
@@ -165,7 +148,7 @@ vorliegen muss:
 
 Das folgende Beispiel zeigt den Anfang einer typischen VTT-Datei:
 
-!!! note ""
+!!! note "Hinweis"
 
     WEBVTT
 
@@ -190,42 +173,28 @@ Um einem Video einen Untertitel hinzuzufügen,
   5. Selektieren dann die entsprechende Datei.
   6. Klicken Sie "Hochladen". 
 
-Bereits erstellte Untertitel werden in einer Tabelle aufgelistet und können
-dort auch gelöscht werden.
+Bereits erstellte Untertitel werden in einer Tabelle aufgelistet und können dort auch gelöscht werden.
 
  **Untertitel anzeigen**
 
 Standardmässig werden Videos in OpenOlat ohne Untertitel abgespielt. 
 
-Sobald
-Untertitel vorhanden sind, wird folgendes Icon im Video-Player angezeigt:
+Sobald Untertitel vorhanden sind, wird folgendes Icon im Video-Player angezeigt:
 ![cc.png](assets/closed_caption_64_0_434343_none.png){ class=size16 }.
 
-CC steht für den amerikanischen Ausdruck "[Closed
-captions](https://de.wikipedia.org/wiki/Untertitel#Technische_Ausf.C3.BChrungen)"
-(Wikipedia), und bedeutet dass Untertitel unsichtbar sind bis diese vom
-Benutzer aktiviert werden. In OpenOlat sieht das dann folgendermassen aus:
+CC steht für den amerikanischen Ausdruck "[Closed captions](https://de.wikipedia.org/wiki/Untertitel#Technische_Ausf.C3.BChrungen)" (Wikipedia), und bedeutet dass Untertitel unsichtbar sind bis diese vom Benutzer aktiviert werden. In OpenOlat sieht das dann folgendermassen aus:
 
 ![](assets/video_subtitle.png)
 
-Sobald Sie mit dem Mauszeiger über das Icon fahren klappt sich die Liste der
-bestehenden Untertitel aus. Die aktuelle Auswahl ist dabei eingefärbt.
+Sobald Sie mit dem Mauszeiger über das Icon fahren, klappt sich die Liste der bestehenden Untertitel aus. Die aktuelle Auswahl ist dabei eingefärbt.
 
 ###  Videoqualitäten {: #video_quality}
 
-Im Tab Videoqualität sehen Sie in welchen Auflösungen das Video vorliegt.
-Sobald ein Video hochgeladen wird, werden Videos in den verschiedenen
-Auflösungen erstellt. Dieser Prozess kann eine Weile dauern. Welche
-Auflösungen im Anschluss zur Verfügung stehen ist abhängig von den
-Einstellungen im Administrationsbereich. Ausstehende Videos können
-transkodiert und nicht verwendete Auflösungen gelöscht werden. Im Videoplayer
-können Sie die gewünschte Auflösung über den "Source Chooser" auswählen.
+Im Tab "Videoqualität"sehen Sie in welchen Auflösungen das Video vorliegt. Sobald ein Video hochgeladen wird, werden Videos in den verschiedenen Auflösungen erstellt. Dieser Prozess kann eine Weile dauern. Welche Auflösungen im Anschluss zur Verfügung stehen ist abhängig von den Einstellungen im Administrationsbereich. Ausstehende Videos können transkodiert und nicht verwendete Auflösungen gelöscht werden. Im Videoplayer können Sie die gewünschte Auflösung über den "Source Chooser" auswählen.
 
 ![video_quailty.png](assets/Video_quality_de.png)
 
 ![video_aufloesung.png](assets/videoaufloesung_DE.png)
-
- 
 
 !!! info "Info"
 
@@ -241,9 +210,9 @@ Nutzen Sie die "Video Collection"-Seite um durch alle Video Lernressourcen zu br
 
 !!! info "Info"
 
-    Sollten Sie ein Video vermissen, überprüfen Sie die Einstellungen in den Videoeinstellungen unter "**Zugangskonfiguration**".
+    Sollten Sie ein Video vermissen, überprüfen Sie die Einstellungen in den Videoeinstellungen unter **"Zugangskonfiguration"**.
 
-!!! info ""
+!!! info "Info"
 
     Wenn Sie in Ihrer OpenOlat Instanz den "Video Collection" Eintrag in der Hauptnavigation nicht finden können, wurde dieser entweder vom Administrator ausgeblendet, oder Sie besitzen nicht die benötigten Rechte.
 
