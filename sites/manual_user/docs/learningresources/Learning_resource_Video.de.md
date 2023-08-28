@@ -65,7 +65,7 @@ Segmente werden im Kursbaustein Videoaufgabe benötigt. Es sind Videoabschnitte,
 1. Wählen Sie im Autorenbereich das gewünschte Video aus.
 2. Öffnen Sie dann unter „Administration“ den Videoeditor.
 3. Im Videoeditor wählen Sie den Tab „Segmente“.
-4. Eingefügte Segmente werden in der Timeline in einer oder mehreren separaten Spuren angezeigt.
+4. Eingefügte Segmente werden in der Timeline in einer separaten Spur angezeigt. (Sie können sich nie überlappen.)
 
 !!! hint "Tipps"
 
