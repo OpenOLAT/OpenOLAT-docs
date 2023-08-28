@@ -1,6 +1,18 @@
 # Course Element "Group Task" {: #course_element_group_tasks}
 
-![Task Icon](assets/task.png)
+
+## Profile
+
+Name | Group task
+---------|----------
+Icon | ![grouptask Icon](assets/task.png){ class=size24 }
+Available since | 
+Functional group | Assessment
+Purpose | Modeling of complex task workflows with configurable substeps such as submission of solution documents, feedback and revision loop, provision of sample solution and assessment
+Assessable | yes
+Specialty / Note | similar to course element Task
+
+
 
 The course element Group task functions largely like the course element [Task](Course_Element_Task.md).
 

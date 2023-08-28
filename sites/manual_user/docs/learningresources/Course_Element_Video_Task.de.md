@@ -1,5 +1,18 @@
 # Kursbaustein "Videoaufgabe"
 
+
+## Steckbrief
+
+Name | Videoaufgabe
+---------|----------
+Icon | ![AVideoaufgabe Icon](assets/course_element_videotask_icon.png){ class=size24  }
+Verfügbar seit | Release 17.2
+Funktionsgruppe | Wissensüberprüfung
+Verwendungszweck | ermöglicht Beurteilungsaufgaben in einem Video
+Bewertbar | ja
+Spezialität / Hinweis | Zusätzliche im Video enthaltene Quizzes sind nicht bewertbar
+
+
 Mit dem  Kursbaustein „Videoaufgabe“ können OpenOlat Video-Lernressourcen für interaktive (formative) Übungen oder Aufgaben mit Bewertungen (summativ) wiederverwendet werden. Dabei müssen Teilnehmende in einem Video relevante Situationen erkennen und einer Kategorie zuordnen. Die dafür notwendigen Platzhalter im Video (= Segmente) sowie die Kategorien werden in der Lernressource "Video" definiert (siehe Video Editor). Es steht ein Übungsmodus und ein scharfer Testmodus zur Verfügung. 
 
 ## Aufgabenstellungen

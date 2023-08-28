@@ -1,6 +1,18 @@
 # Kursbaustein "Gruppenaufgabe"  {: #course_element_group_tasks}
 
-![Aufgabe Icon](assets/task.png)
+
+## Steckbrief
+
+Name | Gruppenaufgabe
+---------|----------
+Icon | ![Gruppenaufgabe Icon](assets/task.png){ class=size24  }
+Verfügbar seit | 
+Funktionsgruppe | Wissensüberprüfung
+Verwendungszweck | Abbildung komplexer Aufgabenworkflows mit konfigurierbaren Teilschritten wie Abgabe von Lösungsdokumenten, Feedback und Überarbeitungsschlaufe, Bereitstellung der Musterlösung und Bewertung
+Bewertbar | ja
+Spezialität / Hinweis | dem Kursbaustein Aufgabe ähnlich
+
+
 
 Der Kursbaustein Gruppenaufgabe funktioniert größtenteils wie der Kursbaustein
 ["Aufgabe"](Course_Element_Task.de.md).

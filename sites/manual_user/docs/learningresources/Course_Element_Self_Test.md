@@ -1,6 +1,18 @@
 # Course Element "Self-test" {: #course_element_self_test}
 
-![test icon](assets/test.png)
+
+## Profile
+
+Name | Self-test
+---------|----------
+Icon | ![Test Icon](assets/test.png){ class=size24 }
+Available since | 
+Functional group | Assessment
+Purpose | Course element for integration of a learning resource "test" into a course
+Assessable | yes
+Specialty / Note | pre-configured course element "test"
+
+
 
 Like the "Test", the course element "Self-test" uses the learning resource
 Test and is configured and set up similarly. The main difference is that there

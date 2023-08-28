@@ -1,5 +1,20 @@
 # Course Element "Video task"
 
+
+## Profile
+
+Name | Video Task
+---------|----------
+Icon | ![Video Task Icon](assets/course_element_videotask_icon.png){ class=size24 }
+Available since | Release 17.2
+Functional group | Assessment
+Purpose | Enables assessment tasks in a video
+Assessable | yes
+Specialty / Note | Additional quizzes included in the video are not assessable
+
+
+
+
 With the course element "Video task" OpenOlat video learning resources can be reused for interactive (formative) exercises or tasks with assessments (summative). Participants have to identify relevant situations in a video and assign them to a category. The necessary placeholders in the video (= segments) and the categories are defined in the learning resource "Video" (see Video Editor). A practice mode and a sharp test mode are available.
 
 ## Tasks

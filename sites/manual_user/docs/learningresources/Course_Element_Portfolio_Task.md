@@ -1,6 +1,17 @@
 # Course Element "Portfolio Task" {: #course_element_portfolio}
 
-![Portfolio icon](../assets/portfolio_434343_64.png)
+
+## Profile
+
+Name | Portfolio Task
+---------|----------
+Icon | ![Portfolio task Icon](assets/portfolio_434343_64.png){ class=size24 }
+Available since | 
+Functional group | Assessment
+Purpose | Provision of a portolio folder for each course participant to work on
+Assessable | yes
+Specialty / Note |
+
 
 By means of the course element "Portfolio task" you can provide predefined
 portfolio templates to be filled by your course participants. The course

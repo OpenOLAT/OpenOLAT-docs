@@ -1,6 +1,18 @@
 # Course Element "Test" {: #course_element_test}
 
-![test icon](assets/test.png)
+
+## Profile
+
+Name | Test
+---------|----------
+Icon | ![Test Icon](assets/test.png){ class=size24 }
+Available since | 
+Functional group | Assessment
+Purpose | Course element for integration of a learning resource test into a course
+Assessable | yes
+Specialty / Note |
+
+
 
 The course element "Test" integrates tests into a course. A test in a course
 is used to assess achievements and includes various question types. Depending

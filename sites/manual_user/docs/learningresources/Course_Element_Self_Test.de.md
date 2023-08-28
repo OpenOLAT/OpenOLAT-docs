@@ -1,6 +1,18 @@
 # Kursbaustein "Selbsttest“ {: #course_element_self_test}
 
-![test icon](assets/test.png)
+
+## Steckbrief
+
+Name | Selbsttest
+---------|----------
+Icon | ![Selbsttest Icon](assets/test.png){ class=size24  }
+Verfügbar seit | 
+Funktionsgruppe | Wissensüberprüfung
+Verwendungszweck | Kursbaustein zum Einbinden einer Test-Lernressource in einen Kurs
+Bewertbar | ja
+Spezialität / Hinweis |  vorkonfigurierter Kursbaustein Test
+
+
 
 Der Selbsttest wird ähnlich konfiguriert und eingerichtet wie der Kursbaustein Test. Bei Selbsttests gibt es allerdings keine Option „bestanden/nicht bestanden“, der Tab
 „Highscore“ entfällt und der Kursbaustein taucht auch nicht im Bewertungswerkzeug auf.

@@ -1,6 +1,18 @@
 # Kursbaustein "Portfolioaufgabe" {: #course_element_portfolio}
 
-![Portfolio Icon](assets/portfolio_434343_64.png)
+
+## Steckbrief
+
+Name | Portfolioaufgabe
+---------|----------
+Icon | ![Portfolioaufgabe Icon](assets/portfolio_434343_64.png){ class=size24  }
+Verfügbar seit | 
+Funktionsgruppe | Wissensüberprüfung
+Verwendungszweck | Bereitstellung einer Portolio-Mappe für jeden/jede Kursteilnehmer:in zur Bearbeitung 
+Bewertbar | ja
+Spezialität / Hinweis |
+
+
 
 Über den Kursbaustein „Portfolioaufgabe“ werden vom Lehrenden vordefinierte Portfolio Mappen für die Lernenden bereitgestellt. Die Kursteilnehmenden können die Portfolioaufgabe im Kurs abholen und werden anschliessend in ihren individuellen Portfoliobereich weitergeleitet. Das so abgeholte Portfolio kann dann von den Lernenden mit Inhalten und Artefakten befüllt und wenn gewünscht weiteren Personen oder den Kursbetreuern zugänglich gemacht werden. Je nach Konfiguration können diese Personen das Portfolio auch bewerten und kommentieren.
 

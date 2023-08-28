@@ -1,7 +1,22 @@
 # Course Element "Assessment"
 
-##
-![manual score.png](assets/manual_score.png)
+
+## Profile
+
+Name | Assessment
+---------|----------
+Icon | ![Assessment Icon](assets/manual_score.png){ class=size24 }
+Available since | 
+Functional group | Assessment
+Purpose | Assessment of performances, even if they were performed outside OpenOlat (e.g. presence presentations, practical work)
+Assessable | yes
+Specialty / Note |
+
+
+Der Kursbaustein "Bewertung" eignet sich, um Leistungen zu bewerten, welche nicht explizit elektronisch abgegeben werden, z.B. Präsenz-Referate oder Online-Webseiten. Auch eine Rubrik-Bewertung steht hier zur Verfügung.
+
+Auf separaten Seiten erfahren Sie wie man eine [Bewertung](Course_Element_Assessment.de.md) einrichtet, durchführt und
+konfiguriert.
 
 ## Create and set up Assessment
 

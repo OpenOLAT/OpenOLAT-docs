@@ -1,6 +1,17 @@
 # Kursbaustein "Bewertung" {: #course_element_assessment}
 
-![manual score.png](assets/manual_score_thumbs-o-up_434343_64.png)
+
+## Steckbrief
+
+Name | Bewertung
+---------|----------
+Icon | ![Bewertung Icon](assets/manual_score.png){ class=size24  }
+Verfügbar seit | 
+Funktionsgruppe | Wissensüberprüfung
+Verwendungszweck | Bewertung von Leistungen, auch wenn sie ausserhalb von OpenOlat erbracht wurden (z.B. Präsenz-Referate, praktische Arbeiten)
+Bewertbar | ja
+Spezialität / Hinweis |
+
 
 Der Kursbaustein "Bewertung" eignet sich, um Leistungen zu bewerten, welche nicht explizit elektronisch abgegeben werden, z.B. Präsenz-Referate oder Online-Webseiten. Auch eine Rubrik-Bewertung steht hier zur Verfügung.
 

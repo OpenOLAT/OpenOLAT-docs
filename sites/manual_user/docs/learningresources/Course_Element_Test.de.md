@@ -1,6 +1,18 @@
 # Kursbaustein "Test“  {: #course_element_test}
 
-![Test Icon](assets/test.png)
+
+## Steckbrief
+
+Name | Test
+---------|----------
+Icon | ![Test Icon](assets/test.png){ class=size24  }
+Verfügbar seit | 
+Funktionsgruppe | Wissensüberprüfung
+Verwendungszweck | Kursbaustein zum Einbinden einer Test-Lernressource in einen Kurs
+Bewertbar | ja
+Spezialität / Hinweis |
+
+
 
 Mit dem Kursbaustein „Test“ binden Sie eine OpenOlat Lernressource „Test“ in Ihren Kurs ein. Ein Test wird im Kurs zur Leistungsüberprüfung oder als Quiz verwendet und umfasst diverse Frage-Typen. Er wird je nach Wahl der „[Fragetypen](../learningresources/Test_question_types.de.md)“ automatisiert oder manuell ausgewertet. OpenOlat verwendet das IMS-QTI 2.1 Format für Tests, was einen Austausch mit anderen Test-Systemen und Learning Management Systemen, die diesen Standard ebenfalls unterstützen, gewährt.
 
