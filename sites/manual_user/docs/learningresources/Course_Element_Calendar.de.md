@@ -1,6 +1,18 @@
 # Kursbaustein "Kalender“ {: #cal}
 
-![kalender.png](assets/calendar.png)
+
+## Steckbrief
+
+Name | Kalender
+---------|----------
+Icon | ![Kalender Icon](assets/calendar.png){ class=size24  }
+Verfügbar seit | 
+Funktionsgruppe | Verwaltung und Organisation
+Verwendungszweck | Einbettung des Kurskalenders in die Kursstruktur (Kursmenü)
+Bewertbar | nein
+Spezialität / Hinweis |
+
+
 
 Mit dem Kursbaustein ["Kalender"](Using_Additional_Course_Features.de.md#kurskalender) können Sie den Kurskalender in die Kursstruktur einbetten. Es ist auch möglich mehrere Instanzen desselben Kalenders dem Kurs hinzuzufügen.
 

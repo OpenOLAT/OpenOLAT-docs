@@ -1,7 +1,17 @@
 # Kursbaustein "Microsoft Teams"
 
-**Art der Software** |  Kommerzielle Software, Lizenz und Serverhosting erforderlich  
----|---  
+## Steckbrief
+
+Name | Microsoft Teams
+---------|----------
+Icon | ![Microsoft Teams Icon](assets/course_element_microsoft_teams_icon.png){ class=size24  }
+Verfügbar seit | 
+Funktionsgruppe | Kommunikation und Kollaboration
+Verwendungszweck | Integration der Webkonferenz-Software Microsoft Teams
+Bewertbar | nein
+Spezialität / Hinweis | Microsoft Teams ist eine kommerzielle Software. Um den Kursbaustein zu nutzen ist eine separate Lizenz und ein Serverhosting erforderlich.
+
+
 
 :octicons-device-camera-video-24: **Video-Einführung**: [Microsoft Teams](<https://www.youtube.com/embed/eyHOaF-ujuE>){:target="_blank”}
 

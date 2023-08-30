@@ -1,6 +1,18 @@
 # Course Element "Appointment scheduling" {: #appointment_scheduling}
 
-![appointment.png](assets/dateentry.png)
+
+## Profile
+
+Name | Appointment scheduling
+---------|----------
+Icon | ![Appointment scheduling Icon](assets/dateentry.png){ class=size24 }
+Available since | 
+Functional group | Administration and organisdation
+Purpose | Scheduling and enrollment for specific joint appointments
+Assessable | no
+Specialty / Note |
+
+
 
 The course element Appointment Scheduling can be used to organize enrollments
 for specific appointments as well as to find appointments. In general, you can

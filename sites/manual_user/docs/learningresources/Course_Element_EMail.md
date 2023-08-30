@@ -1,6 +1,18 @@
 # Course Element "E-Mail"  {: #mail}
 
-![contact.png](assets/contact.png)
+
+## Profile
+
+Name | E-Mail
+---------|----------
+Icon | ![E-Mail Icon](assets/contact.png){ class=size24 }
+Available since | 
+Functional group | Administration and organisation
+Purpose | Contact form with e-mail sending
+Assessable | no
+Specialty / Note |
+
+
 
 By means of the course element "E-Mail" you provide your course participants
 with the possibility to send an e-mail to pre-defined recipients.

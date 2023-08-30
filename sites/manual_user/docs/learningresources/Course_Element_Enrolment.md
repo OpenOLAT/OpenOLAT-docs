@@ -1,6 +1,19 @@
 # Course Element "Enrolment" {: #enrolment}
 
-![enrolment.png](assets/enrolment.png)
+
+
+## Profile
+
+Name | Enrolment
+---------|----------
+Icon | ![Enrolment Icon](assets/enrolment.png){ class=size24 }
+Available since | 
+Functional group | Administration and organisation
+Purpose | self registration of participants in groups
+Assessable | no
+Specialty / Note |
+
+
 
 The course element "Enrolment" is used to let course participants enroll in
 one or more groups. You can also define the order of the groups in the

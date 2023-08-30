@@ -1,6 +1,18 @@
 # Course Element "Topic Assignment" {: #topic_assignment}
 
-![circle.png](assets/projectbroker.png)
+
+## Profile
+
+Name | Topic Assignment
+---------|----------
+Icon | ![Topic Assignment Icon](assets/projectbroker.png){ class=size24 }
+Available since | 
+Functional group | Others
+Purpose | Invitation to tender, selection and coaching of topics to be worked on by the course participants
+Assessable | no
+Specialty / Note |
+
+
 
 The course element "Topic assignment" is useful if you want to announce e.g.
 topics for term papers in your course before having them supervised. Course

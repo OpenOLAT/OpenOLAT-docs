@@ -1,6 +1,18 @@
 # Course Element "Link list" {: #linklist}
 
-![linklist.png](assets/linklist.png)
+
+## Profile
+
+Name | Link list
+---------|----------
+Icon | ![Link list Icon](assets/linklist.png){ class=size24 }
+Available since | 
+Functional group | Others
+Purpose | Link collections within the course structure (course menu)
+Assessable | no
+Specialty / Note |
+
+
 
 The course element "Link list" enables the author to quickly assemble a
 collection of links relevant to the course. No HTML proficiency is required.

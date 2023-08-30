@@ -1,6 +1,18 @@
 # Kursbaustein "LTI-Seite“ {: #lti}
 
-![lti.png](assets/basiclti.png)
+
+## Steckbrief
+
+Name | LTI-Seite
+---------|----------
+Icon | ![LTI-Seite Icon](assets/basiclti.png){ class=size24  }
+Verfügbar seit | Release 15.5 (Beta)
+Funktionsgruppe | Andere
+Verwendungszweck | Integration externer Lernapplikationen
+Bewertbar | ja
+Spezialität / Hinweis |
+
+
 
 Mit Hilfe des Kursbausteins „LTI-Seite“ können Sie externe Lernapplikationen
 in Ihren Kurs integrieren und den Inhalt im OpenOlat-Fenster anzeigen lassen.

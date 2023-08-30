@@ -1,6 +1,17 @@
 # Course Element "Calendar"  {: #cal}
 
-![calendar.png](assets/calendar.png)
+## Profile
+
+Name | Calendar
+---------|----------
+Icon | ![Calendar Icon](assets/calendar.png){ class=size24 }
+Available since | 
+Functional group | Administration and organisation
+Purpose | Embedding the course calendar into the course structure (course menu)
+Assessable | no
+Specialty / Note |
+
+
 
 By means of the course element "Calendar" you can embed a course calendar in
 the course structure. It is also possible to add several instances of the same

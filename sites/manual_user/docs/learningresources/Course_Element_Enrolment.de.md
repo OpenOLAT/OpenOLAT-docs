@@ -1,6 +1,16 @@
 # Kursbaustein "Einschreibung“ {: #enrolment}
 
-![einschreibung.png](assets/enrolment.png)
+## Steckbrief
+
+Name | Einschreibung
+---------|----------
+Icon | ![Einschreibung Icon](assets/enrolment.png){ class=size24  }
+Verfügbar seit | 
+Funktionsgruppe | Verwaltung und Organisation
+Verwendungszweck | eigenständige Eintragung der Teilnehmer:innen in Gruppen
+Bewertbar | nein
+Spezialität / Hinweis |
+
 
 Der Kursbaustein „Einschreibung“ wird verwendet, damit sich Kursteilnehmer in eine oder mehrere OpenOlat Gruppen eintragen können. Definieren Sie dazu im Tab „Konfiguration“, in welche und wie viele **Gruppen** sich Kursteilnehmende
 einschreiben können. Sie können auch die Reihenfolge der Gruppen in der Auswahlliste definieren. Sollten Sie noch keine Gruppen erstellt haben oder weitere benötigen, so können Sie dies mit einem Klick auf „Auswählen“ und
