@@ -1,6 +1,18 @@
 # Kursbaustein "Terminplanung" {: #appointment_scheduling}
 
-![termin.png](assets/dateentry.png)
+
+## Steckbrief
+
+Name | Terminplanung
+---------|----------
+Icon | ![Terminplaniung Icon](assets/dateentry.png){ class=size24  }
+Verfügbar seit | 
+Funktionsgruppe | Verwaltung und Organisation
+Verwendungszweck | Terminfindung und Einschreibung für bestimmte gemeinsame Termine
+Bewertbar | nein
+Spezialität / Hinweis |
+
+
 
 Mit dem Kursbaustein Terminplanung können sowohl Einschreibungen für bestimmte
 Termine als auch Terminfindungen organisiert werden. Generell kann

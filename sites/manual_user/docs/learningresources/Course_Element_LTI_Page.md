@@ -1,6 +1,18 @@
 # Course Element "LTI Page" {: #lti}
 
-![lti.png](assets/basiclti.png)
+
+## Profile
+
+Name | LTI Page
+---------|----------
+Icon | ![LTI Page Icon](assets/basiclti.png){ class=size24  }
+Available since |  Release 15.5 (beta)
+Functional group | Others
+Purpose | Integration of external learning applications
+Assessable | yes
+Specialty / Note |
+
+
 
 By means of the course element "LTI page" it is possible to integrate external
 learning applications in your course before having their content displayed in

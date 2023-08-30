@@ -1,6 +1,18 @@
 # Kursbaustein "E-Mail“ {: #mail}
 
-![kontakt.png](assets/contact.png)
+
+## Steckbrief
+
+Name | E-Mail
+---------|----------
+Icon | ![E-Mail Icon](assets/contact.png){ class=size24  }
+Verfügbar seit | 
+Funktionsgruppe | Verwaltung und Organisation
+Verwendungszweck | Kontaktformular mit E-Mail-Versand
+Bewertbar | nein
+Spezialität / Hinweis |
+
+
 
 Der Kursbaustein "E-Mail" dient als Kontaktformular und gibt Kursteilnehmenden die Möglichkeit, eine E-Mail an einen von Ihnen definierten Empfängerkreis zu senden.
 

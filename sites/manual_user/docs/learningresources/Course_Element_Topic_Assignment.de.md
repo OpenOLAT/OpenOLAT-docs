@@ -1,6 +1,17 @@
 # Kursbaustein "Themenvergabe“  {: #topic_assignment}
 
-![circle.png](assets/projectbroker.png)
+## Steckbrief
+
+Name | Themenvergabe
+---------|----------
+Icon | ![Themenvergabe Icon](assets/projectbroker.png){ class=size24  }
+Verfügbar seit | 
+Funktionsgruppe | Andere
+Verwendungszweck | Ausschreibung, Auswahl und Betreuung von Themen zur Bearbeitung durch die Kursteilnehmer:innen
+Bewertbar | nein
+Spezialität / Hinweis |
+
+
 
 Der Kursbaustein „Themenvergabe“ eignet sich dazu, wenn Sie in Ihrem Kurs Themen wie beispielsweise Semesterarbeiten ausschreiben und betreuen lassen wollen. Als Besitzer des Kurses bestimmen Sie die detaillierte Konfiguration der Themenvergabe. Dazu gehört unter anderem, wer Themen ausschreiben und betreuen darf, wie die Themen beschrieben werden müssen oder wie viele Themen ein Kursteilnehmer wählen kann. Speziell am Kursbaustein „Themenvergabe“ ist,
 dass nicht Sie als Kursbesitzer, sondern Themenverantwortliche Themen ausschreiben und betreuen.

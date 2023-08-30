@@ -1,6 +1,18 @@
 # Kursbaustein "Mitteilungen“ {: #notification}
 
-![mitteilung.png](assets/infomessage.png)
+
+## Steckbrief
+
+Name | Mitteilungen
+---------|----------
+Icon | ![Mitteilungen Icon](assets/infomessage.png){ class=size24  }
+Verfügbar seit | 
+Funktionsgruppe | Verwaltung und Organisation
+Verwendungszweck | Mitteilungen innerhalb der Kursstruktur (Kursmenü)
+Bewertbar | nein
+Spezialität / Hinweis |
+
+
 
 :octicons-device-camera-video-24: **Video-Einführung**: [Mitteilungen](<https://www.youtube.com/embed/3tAj19Avfkk>){:target="_blank”}
 

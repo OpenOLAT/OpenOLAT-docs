@@ -1,6 +1,18 @@
 # Kursbaustein "Linkliste“ {: #linklist}
 
-![linkliste.png](assets/linklist.png)
+
+## Steckbrief
+
+Name | Linkliste
+---------|----------
+Icon | ![Linkliste Icon](assets/linklist.png){ class=size24  }
+Verfügbar seit | 
+Funktionsgruppe | Andere
+Verwendungszweck | Linksammlungen innerhalb der Kursstruktur (Kursmenü)
+Bewertbar | nein
+Spezialität / Hinweis |
+
+
 
 Der Kursbaustein "Linkliste" erlaubt es schnell und einfach eine Linksammlung
 für einen Kurs anzulegen. Keinerlei HTML-Kenntnisse werden dazu benötigt. In

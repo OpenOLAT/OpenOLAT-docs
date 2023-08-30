@@ -1,6 +1,18 @@
 # Course Element "Notifications" {: #notification}
 
-![notification.png](assets/infomessage.png)
+
+## Profile
+
+Name | Notifications
+---------|----------
+Icon | ![Notifications Icon](assets/infomessage.png){ class=size24 }
+Available since | 
+Functional group | Administration and organisation
+Purpose | Notifications in the course structure (course menu)
+Assessable | no
+Specialty / Note |
+
+
 
 This course element allows you to embed notifications in your course
 structure. These notifications will be visible in your course as well as in
