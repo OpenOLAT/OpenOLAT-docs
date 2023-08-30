@@ -1,8 +1,21 @@
 # Course Element "GoToMeeting"
 
+
+## Profile
+
+Name | GoToMeeting
+---------|----------
+Icon | ![GoToMeeting Icon](assets/course_element_gotomeeting_icon.png){ class=size24  }
+Available since | 
+Functional group | Communication und collaboration
+Purpose | Integration of the GoToMeeting web conferencing software 
+Assessable | no
+Specialty / Note | GoToMeeting is commercial software. To use the course element, a separate license and server hosting is required.
+
+
 ## (GoTo Training)
 
- **Type of software**|  Commercial, license and server hosting required  
+
 ---|---  
 
 ## Tool-specific

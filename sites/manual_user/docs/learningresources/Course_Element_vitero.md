@@ -1,9 +1,18 @@
 # Course Element "vitero"
 
-## Kursbaustein "vitero"
 
- **Typ of software**|  Commercial, license and server hosting required  
----|---  
+## Profile
+
+Name | vitero
+---------|----------
+Icon | ![vitero Icon](assets/course_element_vitero_icon.png){ class=size24 }
+Available since | 
+Functional group | Communication and collaboration
+Purpose | Integration of the vitero web conferencing software
+Assessable | no
+Specialty / Note |
+
+
 
 ## Tool-specific
 

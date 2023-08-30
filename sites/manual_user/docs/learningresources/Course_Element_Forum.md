@@ -1,5 +1,17 @@
 #  Course Element "Forum" {: #forum}
-![Forum icon](../assets/forum_icon.png)
+
+
+## Profile
+
+Name | Forum
+---------|----------
+Icon | ![Forum Icon](assets/forum_icon.png){ class=size24 }
+Available since | 
+Functional group | Communication and collaboration
+Purpose | Asynchronous online discussions
+Assessable | no
+Specialty / Note |
+
 
 With the course element "Forum" you can easily enable asynchronous online discussions for different purposes in your course. For example, course participants could write posts with questions about the content of the course and answer each other's questions, or you could initiate a technical discussion or implement specific forum-based online methods. In the chapter "Learning Activities in Courses" you will get further information on opening topics and replying to questions; see section ["Forum"](../learningresources/Working_with_Forums.md). Generally all course participants have read and write permission in a forum. All course authors and tutors dispose of the option to moderate a forum additionally.
 

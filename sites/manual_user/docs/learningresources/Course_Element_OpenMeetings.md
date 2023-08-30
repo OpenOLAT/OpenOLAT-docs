@@ -1,9 +1,18 @@
 # Course Element "OpenMeetings"
 
-## Course element "OpenMeetings"
+## Profile
 
- **Typ of software**|  OpenSource license Apache 2.0, server hosting required  
----|---  
+Name | OpenMeetings
+---------|----------
+Icon | ![OpenMeetings Icon](assets/course_element_openmeetings_icon.png){ class=size24  }
+Available since | 
+Functional group | Communication und collaboration
+Purpose | Integration of the OpenMeetings web conferencing software 
+Assessable | no
+Specialty / Note | OpenMeetings is an open source software. Server hosting is required for use in OpenOlat (Open source license Apache 2.0).
+
+
+
 
 ## Tool-specific
 

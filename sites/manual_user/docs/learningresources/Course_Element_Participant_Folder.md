@@ -1,5 +1,16 @@
 #  Course Element "Participant folder" {: #participant_folder}
-![Participant folder icon](../assets/participant_folder_icon.png)
+
+## Profile
+
+Name | Participant Folder
+---------|----------
+Icon | ![Participant Folder Icon](assets/participant_folder_icon.png){ class=size24 }
+Available since | 
+Functional group | Communication and collaboration
+Purpose | File exchange between participants and coaches (per participant:in a drop box and a return box)
+Assessable | no
+Specialty / Note |
+
 
 
 The course element "Participant folder" allows you to exchange files between

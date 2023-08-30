@@ -1,7 +1,17 @@
 # Course Element "Adobe Connect"
 
-**Type of software**|  Commercial, license and server hosting required  
----|---  
+## Profile
+
+Name | Adobe Connect
+---------|----------
+Icon | ![Adobe Connect Icon](assets/course_element_adobe_connect_icon.png){ class=size24  }
+Available since | 
+Functional group | Communication und collaboration
+Purpose | Integration of the Adobe Connect web conferencing software 
+Assessable | no
+Specialty / Note | Adobe Connect is commercial software. To use the course element, a separate license and server hosting is required.
+
+
 
 ## Tool-specific
 

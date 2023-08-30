@@ -1,5 +1,18 @@
 # Kursbaustein "Dateidiskussion“ {: #file_dialog}
-![Dateidiskussion Icon](../assets/file_dialog_icon.png)
+
+
+## Steckbrief
+
+Name | Dateidiskussion
+---------|----------
+Icon | ![File dialog Icon](assets/file_dialog_icon.png){ class=size24  }
+Verfügbar seit | 
+Funktionsgruppe | Kommunikation und Kollaboration
+Verwendungszweck | Kombination aus Forum und Ordner zur Diskussion von Dokumenten
+Bewertbar | nein
+Spezialität / Hinweis |
+
+
 
 Der Kursbaustein Dateidiskussion kann als eine Kombination aus Forum und Ordner verstanden werden. Startpunkt ist jedoch anders als bei Foren immer ein hochgeladenes Dokument, das die Diskussionsbasis für die weitere, dem Dokument zugeordnete Forendiskussion bildet. 
 

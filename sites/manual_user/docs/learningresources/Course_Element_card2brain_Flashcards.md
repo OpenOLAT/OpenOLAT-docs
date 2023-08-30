@@ -5,7 +5,7 @@
 
 Name | card2brain
 ---------|----------
-Icon | ![Task Icon](assets/card2brain_434343_64.png){ class=size24 }
+Icon | ![Task Icon](assets/course_element_card2brain_icon.png){ class=size24 }
 Available since | 
 Functional group | Knowledge transfer
 Purpose | Learning with online flashcards

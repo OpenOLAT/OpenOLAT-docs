@@ -1,6 +1,17 @@
 # Course Element "Survey" {: #course_element_survey}
 
-![survey icon](assets/formular_434343_64.png)
+## Profile
+
+Name | Survey
+---------|----------
+Icon | ![Survey Icon](assets/formular_434343_64.png){ class=size24 }
+Available since | 
+Functional group | Assessment
+Purpose | Course element for integration of learning resource "form"
+Assessable | no
+Specialty / Note | 
+
+
 
 With the course element "Survey" you can add an online questionnaire to your
 course. Als Basis wird die Lernressource "Formular" verwendet und mit dem Kursbaustein Umfrage verknüpft. 

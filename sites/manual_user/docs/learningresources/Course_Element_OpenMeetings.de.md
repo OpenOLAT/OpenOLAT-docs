@@ -1,8 +1,16 @@
 # Kursbaustein "OpenMeetings"
 
-## Kursbaustein "OpenMeetings"
+## Steckbrief
 
-OpenMeetings ist eine OpenSource Software. Für die Nutzung in OpenOlat ist ein Serverhosting erforderlich. 
+Name | OpenMeetings
+---------|----------
+Icon | ![OpenMeetings Icon](assets/course_element_openmeetings_icon.png){ class=size24  }
+Verfügbar seit | 
+Funktionsgruppe | Kommunikation und Kollaboration
+Verwendungszweck | Integration der Webkonferenz-Software OpenMeetings
+Bewertbar | nein
+Spezialität / Hinweis | OpenMeetings ist eine OpenSource Software. Für die Nutzung in OpenOlat ist ein Serverhosting erforderlich (OpenSource Lizenz Apache 2.0).
+
 
 
 ## Tool Spezifisches

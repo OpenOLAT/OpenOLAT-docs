@@ -1,6 +1,17 @@
 # Kursbaustein "Wiki“ {: #wiki}
 
-![Wiki Icon](../assets/wiki_icon.png)
+## Steckbrief
+
+Name | Wiki
+---------|----------
+Icon | ![Wiki Icon](assets/wiki_icon.png){ class=size24  }
+Verfügbar seit | 
+Funktionsgruppe | Kommunikation und Kollaboration
+Verwendungszweck | Gemeinsames Erstellen von Inhalten
+Bewertbar | nein
+Spezialität / Hinweis |
+
+
 
 Verwenden Sie ein Wiki, um auf einfache Weise mit Kursteilnehmenden gemeinsam Inhalte zu erstellen. Ein Wiki kann für Gruppenarbeiten, als Dokumentationswerkzeug oder als Wissensbasis für Ihre Studien- oder Projektarbeit verwendet werden.
 

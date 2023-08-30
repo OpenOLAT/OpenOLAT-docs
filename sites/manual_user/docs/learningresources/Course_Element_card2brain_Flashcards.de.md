@@ -5,7 +5,7 @@
 
 Name | card2brain
 ---------|----------
-Icon | ![card2brain Icon](assets/card2brain_434343_64.png){ class=size24  }
+Icon | ![card2brain Icon](assets/course_element_card2brain_icon.png){ class=size24  }
 Verfügbar seit | 
 Funktionsgruppe | Wissensvermittlung
 Verwendungszweck | Lernen mit Online-Lernkarten

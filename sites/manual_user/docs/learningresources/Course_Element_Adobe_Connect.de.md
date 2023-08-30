@@ -1,8 +1,16 @@
 # Kursbaustein "Adobe Connect"
 
-!!! warning "Achtung"
 
-    Adobe Connect ist eine kommerzielle Software. Um den Kursbaustein zu nutzen ist eine separate Lizenz und ein Serverhosting erforderlich.
+## Steckbrief
+
+Name | Adobe Connect
+---------|----------
+Icon | ![Adobe Connect Icon](assets/course_element_adobe_connect_icon.png){ class=size24  }
+Verfügbar seit | 
+Funktionsgruppe | Kommunikation und Kollaboration
+Verwendungszweck | Integration der Webkonferenz-Software Adobe Connect
+Bewertbar | nein
+Spezialität / Hinweis | Adobe Connect ist eine kommerzielle Software. Um den Kursbaustein zu nutzen ist eine separate Lizenz und ein Serverhosting erforderlich.
 
 
 

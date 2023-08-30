@@ -1,5 +1,18 @@
 #  Course Element "File Dialog" {: #file_dialog}
-![File dailog icon](../assets/file_dialog_icon.png)
+
+
+## Profile
+
+Name | File dialog
+---------|----------
+Icon | ![Task Icon](assets/file_dialog_icon.png){ class=size24 }
+Available since | 
+Functional group | Communication and collaboration
+Purpose | Combination of a forum and a folder for discusion of documents
+Assessable | no
+Specialty / Note |
+
+
 
 The course element File Dialog can be understood as a combination of forum and folder. The course element "File dialog" provides you with preset discussion forums; in contrast to an ordinary forum, dialogs here are explicitly based on certain documents. Use such a file dialog to let your course participants discuss e.g. scientific articles or papers.
 

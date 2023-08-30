@@ -1,6 +1,18 @@
 # Kursbaustein "Checkliste"
 
-![Checkliste.png](assets/checklist.png)
+
+## Steckbrief
+
+Name | Checkliste
+---------|----------
+Icon | ![Checklist Icon](assets/checklist.png){ class=size24  }
+Verfügbar seit | 
+Funktionsgruppe | Wissensüberprüfung
+Verwendungszweck | Checkliste mit Funktionen wie z.B. Sperrung der Bearbeitungsmöglichkeit nach Abgabedatum, ausgegraute Checkboxen die nur Betreuer abhaken können, usw.
+Bewertbar | ja
+Spezialität / Hinweis | 
+
+
 
 Erreichte Ziele, fehlende Aufgaben, richtige oder falsche Lösungen - Checklisten machen dies sichtbar und dadurch für den Betreuer auch bewertbar.
 

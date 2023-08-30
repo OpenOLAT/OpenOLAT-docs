@@ -1,9 +1,19 @@
 # Kursbaustein "GoToMeeting"
 
-## (GoTo Training)
 
- **Art der Software**|  Kommerziell, Lizenz und Serverhosting erforderlich  
----|---  
+## Steckbrief
+
+Name | GoToMeeting
+---------|----------
+Icon | ![GoToMeeting Icon](assets/course_element_gotomeeting_icon.png){ class=size24  }
+Verfügbar seit | 
+Funktionsgruppe | Kommunikation und Kollaboration
+Verwendungszweck | Integration der Webkonferenz-Software GoToMeeting
+Bewertbar | nein
+Spezialität / Hinweis | GoToMeeting ist eine kommerzielle Software. Um den Kursbaustein zu nutzen ist eine separate Lizenz und ein Serverhosting erforderlich.
+
+
+ 
 
 ## Tool Spezifisches
   

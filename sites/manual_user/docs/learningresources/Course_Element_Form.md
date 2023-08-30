@@ -1,6 +1,17 @@
 # Course Element "Form"  {: #course_element_form}
 
-![form icon](assets/Forular_icon.png)
+## Profile
+
+Name | Form
+---------|----------
+Icon | ![Form Icon](assets/course_element_form_icon.png){ class=size24 }
+Available since | 
+Functional group | Assessment
+Purpose | Course element for integration of learning resource "form"
+Assessable | no
+Specialty / Note | 
+
+
 
 Using the course element "Form" you can add the learning resource form to a
 course. The form works similar to the course element "Survey" and can also be

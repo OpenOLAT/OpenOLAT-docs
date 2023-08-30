@@ -1,5 +1,18 @@
 # Kursbaustein "BigBlueButton"
 
+
+## Steckbrief
+
+Name | BigBlueButton
+---------|----------
+Icon | ![BigBlueButton Icon](assets/course_element_bigbluebutton_icon.png){ class=size24  }
+Verfügbar seit | 
+Funktionsgruppe | Kommunikation und Kollaboration
+Verwendungszweck | Integration der Webkonferenz-Software BigBlueButton
+Bewertbar | nein
+Spezialität / Hinweis | BigBlueButton ist eine Open Source Software (LPGL Lizenz). Um den Kursbaustein zu nutzen ist ein separates Serverhosting erforderlich.
+
+
 ## Allgemeines
 
 !!! info "Hinweis"

@@ -1,5 +1,17 @@
 # Course Element "Wiki" {: #wiki}
-![Wiki icon](../assets/wiki_icon.png)
+
+## Profile
+
+Name | Wiki
+---------|----------
+Icon | ![Wiki Icon](assets/wiki_icon.png){ class=size24 }
+Available since | 
+Functional group | Communication and collaboration
+Purpose | Collaborative content creation
+Assessable | no
+Specialty / Note |
+
+
 
 Use a Wiki to easily create learning content together with your course participants. A Wiki is suitable for doing group work; it can serve as documentation tool or as some sort of knowledge base for your studies and projects.
 

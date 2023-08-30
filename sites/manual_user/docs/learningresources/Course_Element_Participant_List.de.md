@@ -1,6 +1,18 @@
 # Kursbaustein "Teilnehmerliste“  {: #participant_list}
 
-![Teilnehmerliste Icon](../assets/participant_list_icon.png)
+
+## Steckbrief
+
+Name | Teilnehmerliste
+---------|----------
+Icon | ![Teilnehmerliste Icon](assets/participant_list_icon.png){ class=size24  }
+Verfügbar seit | 
+Funktionsgruppe | Kommunikation und Kollaboration
+Verwendungszweck | Liste aller Kursteilnehmer, gruppiert nach Rollen
+Bewertbar | nein
+Spezialität / Hinweis |
+
+
 
 In der Teilnehmerliste können die Mitglieder des Kurses sichtbar gemacht werden. Je nach Einstellung werden die Kursbesitzer (Kursadministratoren), Betreuer und / oder die Teilnehmer angezeigt. (Zum Vergleich: Das Kurswerkzeug [Mitgliederverwaltung](../learningresources/Members_management.de.md) ist nur für Besitzer zugänglich.)
 

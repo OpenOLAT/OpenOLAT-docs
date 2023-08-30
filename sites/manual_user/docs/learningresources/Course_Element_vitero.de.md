@@ -1,9 +1,17 @@
 # Kursbaustein "vitero"
 
-## Kursbaustein "vitero"
+## Steckbrief
 
- **Art der Software**|  Kommerziell, Lizenz und Serverhosting erforderlich  
----|---  
+Name | vitero
+---------|----------
+Icon | ![vitero Icon](assets/course_element_vitero_icon.png){ class=size24  }
+Verfügbar seit | 
+Funktionsgruppe | Kommunikation und Kollaboration
+Verwendungszweck | Integration der Webkonferenz-Software vitero
+Bewertbar | nein
+Spezialität / Hinweis | Kommerzielle Software, Lizenz und Serverhosting erforderlich
+
+
 
 ## Tool Spezifisches
 

@@ -1,5 +1,19 @@
 # Course Element "BigBlueButton"
 
+
+## Profile
+
+Name | BigBlueButton
+---------|----------
+Icon | ![BigBlueButton Icon](assets/course_element_bigbluebutton_icon.png){ class=size24  }
+Available since | 
+Functional group | Communication und collaboration
+Purpose | Integration of the BigBlueButton web conferencing software 
+Assessable | no
+Specialty / Note | BigBlueButton is an open source software (LPGL license). To use the course element a separate server hosting is required.
+
+
+
 ## General
 
 !!! info "Hinweis"

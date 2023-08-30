@@ -1,6 +1,17 @@
 # Course Element "Checklist"
 
-![checklist.png](assets/checklist.png)
+
+## Profile
+
+Name | Checklist
+---------|----------
+Icon | ![Checklist Icon](assets/checklist.png){ class=size24 }
+Available since | 
+Functional group | Assessment
+Purpose | Checklist with functions such as blocking the editing option by submission date, grayed out checkboxes that only supervisors can check off, etc.
+Assessable | yes
+Specialty / Note |
+
 
 ## Create and configure a checklist
 

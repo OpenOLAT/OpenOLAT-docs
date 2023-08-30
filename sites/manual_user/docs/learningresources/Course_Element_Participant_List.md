@@ -1,5 +1,17 @@
 #  Course Element "Participant list" {: #participant_list}
-![group.png](../assets/participant_list_icon.png)
+
+## Profile
+
+Name | Participant list
+---------|----------
+Icon | ![Task Icon](assets/participant_list_icon.png){ class=size24 }
+Available since | 
+Functional group | Communication and collaboration
+Purpose | List of all course participants, grouped by roles
+Assessable | no
+Specialty / Note |
+
+
 
 In the participant list, the members of the course can be made visible to everyone. Unlike the [member management](../learningresources/Members_management.md) course tool, which is only visible for course owners, the course element "Participant list" provides a list of all course members to those OpenOlat users allowed to open the respective course. Members are listed depending on their role within the course as either course administrator, coach or participant. Select the user groups to be displayed to course users.
 

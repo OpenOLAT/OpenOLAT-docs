@@ -1,6 +1,18 @@
 # Kursbaustein "Formular"  {: #course_element_form}
 
-![Formular Icon](assets/Forular_icon.png)
+
+## Steckbrief
+
+Name | Formular
+---------|----------
+Icon | ![Formular Icon](assets/course_element_form_icon.png){ class=size24  }
+Verfügbar seit | 
+Funktionsgruppe | Wissensüberprüfung
+Verwendungszweck | Kursbaustein zur Integration der Lernressource "Formular"
+Bewertbar | nein
+Spezialität / Hinweis |
+
+
 
 Mit dem Kursbaustein "Formular" können Sie die Lernressource Formular einem Kurs hinzufügen. Das Formular funktioniert ähnlich wie der Kursbaustein "Umfrage" und kann ebenfalls nur einmal ausgefüllt werden. Allerdings sind die Bearbeitungen des Formulars nicht anonym (zumindest in der Standard Einstellung).
 

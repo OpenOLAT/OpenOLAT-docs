@@ -1,6 +1,16 @@
-# Kursbaustein "Teilnehmer Ordner" {: #participant_folder}
+# Kursbaustein "Teilnehmer:innen Ordner" {: #participant_folder}
 
-![Ordner Icon](../assets/participant_folder_icon.png)
+## Steckbrief
+
+Name | Teilnehmer:innen Ordner
+---------|----------
+Icon | ![Teilnehmer:innen Ordner Icon](assets/participant_folder_icon.png){ class=size24  }
+Verfügbar seit | 
+Funktionsgruppe | Kommunikation und Kollaboration
+Verwendungszweck | Dateiaustausch zwischen Teilnehmenden und Betreuenden (je Teilnehmer:in ein Abgabeordner und ein Rückgabeordner)
+Bewertbar | nein
+Spezialität / Hinweis |
+
 
 Der Kursbaustein "Teilnehmer Ordner" ermöglicht einen Dateiaustausch zwischen einzelnen Teilnehmenden und Betreuenden. Dafür stehen zwei Ordner zur Verfügung. Zum einen ist dies der "Teilnehmer Abgabeorder", über den Teilnehmende Dateien an Betreuer abgeben können. Zum anderen der "Betreuer Rückgabeorder", in welchem die Betreuer Dateien an alle Teilnehmer gleichzeitig oder individuell zurückgeben können. Im Prinzip verbergen sich hinter diesem Kursbaustein zwei (Kursbaustein) Ordner einmal mit Schreibberechtigung und einmal ohne, die jedoch nur für Betreuende und einen einzelnen Teilnehmer sichtbar sind.
 
