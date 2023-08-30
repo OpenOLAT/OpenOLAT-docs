@@ -25,7 +25,7 @@ bereits erfolgter Bewertung, allerdings nur dann, wenn es keine Musterlösung
 gibt. Aktivieren Sie die angezeigten Spalten der Tabelle entsprechend Ihren
 Bedürfnissen.
 
-![](assets/task_correction_DE.png){ class="shadow" }
+![Übersicht Status der Teilnehmenden](assets/task_correction_DE.png){ class="shadow" }
 
 Mit Klick auf eine einzelne Person der Teilnehmerliste gelangt man zum
 Bewertungsflow für diese Person und kann Feedbacks hochladen und Punkte
@@ -40,7 +40,8 @@ als zip Datei gespeichert.
 Erfolgt bis zum gesetzten Abgabedatum keine Dateiabgabe wird dies entsprechend
 in der Übersicht in der Spalte "Abgabedatum" gekennzeichnet.
 
-!!! tip
+!!! tip "Tipp"
+
     Ist man gleichzeitig als Kurbesitzer bzw. Betreuer und Teilnehmer in den
     Kurs eingetragen, kann man zwischen den jeweiligen Rollen wechseln und sich so
     anschauen, wie sich die Aufgabe aus Sicht der Lernenden darstellt.
@@ -52,10 +53,11 @@ Gruppenaufgabe"](../learningresources/Course_Elements.de.md).
 ### Rückgabe und Feedback-Dokumente ändern
 
 Um bei einer bereits abgeschlossenen Aufgabe die Feedback-Dokumente von
-einzelnen Teilnehmenden unter "Rückgabe und Feedback" zu ändern, können Sie
+einzelnen Teilnehmenden unter "Rückgabe und Feedback" zu ändern, können Betreuende
 wie folgt vorgehen:
 
-!!! warning
+!!! warning "Achtung"
+
     Feedback-Dokumente können nur geändert werden, solange die Abgabefrist noch
     nicht verstrichen ist. Diese muss ggfs. verlängert werden!
 
@@ -64,15 +66,17 @@ wie folgt vorgehen:
     Sichtbarkeit "für Lernende gesperrt" werden. Achtung: diese Möglichkeit
     besteht im Lernpfadkurs nicht!
 
-- Am Kursbaustein den/die Teilnehmer*in auswählen
+- Am Kursbaustein den/die Teilnehmer:in auswählen.
 - Im Schritt "Abgabe" die "Abgabe erneut öffnen".
-- Es erscheint eine Meldung, dass alle abgegebenen Dokumente gelöscht werden. Dies gilt nur für die Betreueransicht! Alle hochgeladenen Dokumente des/der Teilnehmenden bleiben erhalten!-  Nach Bestätigung der Meldung können Sie über einen Button "Alle abgegebenen Dokumente einziehen". Die Teilnehmerdokumente sind nun wieder in der Betreueransicht verfügbar.
-- Das Feedback- und Rückgabe-Dokumente sind nun ebenfalls wieder bearbeitbar, können ausgetauscht, ergänzt oder gelöscht werden.
+- Es erscheint eine Meldung:
+    ![Abgabe erneut öffnen](assets/Task_reopen_submission_de.png){ class="shadow" }
+- Nach Bestätigung der Meldung können Betreuende über einen Button "Alle abgegebenen Dokumente einziehen". Die Dokumente des/der Teilnehmenden sind nun wieder in der Betreueransicht verfügbar.
+- Im Schritt "Feedback- und Rückgabe" können die Dokumente nun ebenfalls wieder bearbeitet, ausgetauscht, ergänzt oder gelöscht werden.
 
-!!! warning
+!!! warning "Achtung"
+
     Nicht vergessen: Ändern Sie die Abgabefrist wieder auf den ursprünglichen Wert
     zurück, so können die Teilnehmer nichts mehr abgeben. Auch die Einschränkung
     der Sichtbarkeit für Lernende am Kursbaustein kann nun wieder entfernt werden,
     damit die Aufgabe für alle Teilnehmer in der Kursnavigation wieder verfügbar
     ist.
-

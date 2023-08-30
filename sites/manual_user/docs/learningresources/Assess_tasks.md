@@ -41,8 +41,8 @@ zip file.
 If no file is uploaded until the submission deadline it is marked in the
 overview as "No submission".
 
-  
 !!! tip
+
     If you are simultaneously registered in the course as a course owner and
     a participant, you can switch between the respective roles to see how the task
     looks from the learner's point of view.
@@ -54,10 +54,10 @@ Task"](../learningresources/Course_Elements.md).
 ### Changing return and feedback documents
 
 To change the feedback documents of individual participants under "Return and
-feedback" for a task that has already been completed, you can proceed as
-follows:
+feedback" for a task that has already been completed, coaches can proceed as follows:
 
 !!! warning
+
     Feedback documents can only be changed as long as the submission deadline has
     not yet passed. If necessary, this deadline has to be extended!
 
@@ -68,14 +68,15 @@ follows:
 
 - Select the participant in the course element.
 - In the "Submission" step, select "Reopen submission".
-- A message will appear that all submitted documents will be deleted. This only applies to the coach view! All uploaded documents of the participant remain unchanged!
-- After confirming the message, you can click on a button " Collect all submitted documents". The participant documents are now available again in the coach view.
-- The feedback and return documents are now also editable again, can be exchanged, added or deleted.
+- A message will appear:
+    ![Reopen submission](assets/Task_reopen_submission.png){ class="shadow" }
+- After confirming the notification, coaches can use a button "Collect all submitted documents". The documents of the participant are now available again in the coach view.
+- In the "Return and feedback" step, the documents can now also be edited, exchanged, supplemented or deleted again.
 
 !!! warning
+
     Don't forget: Change the submission deadline back to the original value, and
     participants will no longer be able to submit anything. Also, the restriction
     of visibility for learners on the course element can now be removed again so
     that the task is available again for all participants in the course
     navigation.
-
