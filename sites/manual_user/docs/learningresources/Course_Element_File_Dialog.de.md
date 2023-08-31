@@ -5,8 +5,8 @@
 
 Name | Dateidiskussion
 ---------|----------
-Icon | ![File dialog Icon](assets/file_dialog_icon.png){ class=size24  }
-Verfügbar seit | 
+Icon | ![Dateidiskussion Icon](assets/file_dialog_icon.png){ class=size24  }
+Verfügbar seit | Neuauflage mit Release 18.0
 Funktionsgruppe | Kommunikation und Kollaboration
 Verwendungszweck | Kombination aus Forum und Ordner zur Diskussion von Dokumenten
 Bewertbar | nein

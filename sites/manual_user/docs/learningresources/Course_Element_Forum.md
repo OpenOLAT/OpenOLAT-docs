@@ -6,7 +6,7 @@
 Name | Forum
 ---------|----------
 Icon | ![Forum Icon](assets/forum_icon.png){ class=size24 }
-Available since | 
+Available since | New edition with release 18
 Functional group | Communication and collaboration
 Purpose | Asynchronous online discussions
 Assessable | no

@@ -6,7 +6,7 @@
 Name | E-Mail
 ---------|----------
 Icon | ![E-Mail Icon](assets/contact.png){ class=size24  }
-Verfügbar seit | 
+Verfügbar seit | Neuauflage mit Release 18.0
 Funktionsgruppe | Verwaltung und Organisation
 Verwendungszweck | Kontaktformular mit E-Mail-Versand
 Bewertbar | nein

@@ -5,8 +5,8 @@
 
 Name | File dialog
 ---------|----------
-Icon | ![Task Icon](assets/file_dialog_icon.png){ class=size24 }
-Available since | 
+Icon | ![File dialog Icon](assets/file_dialog_icon.png){ class=size24 }
+Available since | New edition with release 18
 Functional group | Communication and collaboration
 Purpose | Combination of a forum and a folder for discusion of documents
 Assessable | no
