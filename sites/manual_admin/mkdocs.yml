@@ -19,6 +19,7 @@ nav:
     - Modules:
       - Overview: "administration/Modules.md"
       - Modules Contact Tracing: "administration/Modules_Contact_Tracing.md"
+      - Modules Audio/Video Recording: "administration/Modules_Audio_Video_Recording.md"
       - Modules OAI PMH: "administration/Modules_OAI.md"
       - Modules Document pool: "administration/Modules_Document_pool.md"
       - Modules Repository: "administration/Modules_Repository.md"
@@ -69,6 +70,7 @@ nav:
       - Gotenberg PDF: "installation/gotenbergPdf.md"
       - AthenaPDF: "installation/athenaPdf.md"
       - HandBrakeCLI: "installation/handBrakeCli.md"
+      - ffmpeg: "installation/ffmpeg.md"
     - Alternative installation environments:
       - MySQL DB: "installation/mysql.md"
       - Windows support: "installation/windows.md"

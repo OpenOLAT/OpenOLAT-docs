@@ -28,10 +28,10 @@ You can also download HandBrakeCLI from the supplier of the tool:
 
 [HandBrake Command Line Download](https://handbrake.fr/downloads2.php)
 
-## Configure local transcoding
+## Configure local conversion
 
 Open `Administration > Modules > Audio/video recording`. If you host and manage OpenOlat yourself, 
-you can check the box `Enable local transcoding`:
+you can check the box `Enable local video conversion`:
 
 ![](assets/oo-admin-handbrakecli.png){ class="lightbox" }
 

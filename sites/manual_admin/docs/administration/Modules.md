@@ -5,7 +5,7 @@
   * [Contact tracing](Modules_Contact_Tracing.md)
   * Wiki
   * Course reminders
-  * Audio/video recordning
+  * [Audio/video recording](Modules_Audio_Video_Recording.md)
   * COVID certificate
   * [Document pool](Modules_Document_pool.md)
   * Live stream
