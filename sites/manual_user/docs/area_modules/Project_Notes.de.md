@@ -18,7 +18,7 @@ Die Liste aller im Projekt vorhandenen Notizen öffnen Sie analog zu den To-dos 
 
 **a) Projekte > Tab „Meine Projekte“ > Projekt wählen > Schnellzugriff Button „Notizen“**<br>
 oder<br>
-**b) Projekte > Tab „Meine Projekte“ > Projekt wählen > Titel im Abschnitt „Notizn“ anklicken**<br>
+**b) Projekte > Tab „Meine Projekte“ > Projekt wählen > Titel im Abschnitt „Notizen“ anklicken**<br>
 oder<br>
 **c) Projekte > Tab „Meine Projekte“ > Projekt wählen > im Abschnitt „alle Notizen anzeigen“ klicken**
 
@@ -80,7 +80,7 @@ Einer Notiz hinzugefügte Links können direkt aufgerufen werden.
 
 Notizen für andere erstellen Sie in OpenOlat, indem Sie den Notizen Mitglieder zuweisen.
 
-Durch das Zuordnen von Mitgliedern (im Popup zum Bearbeiten) erscheint eine Notiz bei den betreffenden Mitgliedern z.B. unter "Meine Notizen".
+Durch das Zuordnen von Mitgliedern (im Pop-up zum Bearbeiten) erscheint eine Notiz bei den betreffenden Mitgliedern z.B. unter "Meine Notizen".
 
 ![projekte_notiz_mitglieder_v1_de.png](assets/projekte_notiz_mitglieder_v1_de.png){ class="shadow lightbox" }
 
