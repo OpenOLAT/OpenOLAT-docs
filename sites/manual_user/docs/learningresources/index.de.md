@@ -93,7 +93,7 @@ alle im Ressourcenordner hinterlegten Dateien. Änderungen an den Dateien im
 Ressourcenordner gelten dann für alle verknüpften Kurse. Zu beachten ist, dass
 nur ein Ressourcenordner pro Kurs hinzugefügt werden kann. Weitere
 Informationen finden Sie im Kapitel
-"[Kurseinstellungen](../learningresources/Course_Settings.de.md)""im Unterpunk "Ressourcenordner".
+"[Kurseinstellungen](../learningresources/Course_Settings.de.md)" im Unterpunkt "Ressourcenordner".
 
 ##  Formular
 ![](assets/formular_434343_64.png)
