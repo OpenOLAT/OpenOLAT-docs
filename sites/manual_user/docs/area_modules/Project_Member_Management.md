@@ -21,16 +21,16 @@ As soon as a project member is registered, he or she receives a link. After call
 
 ## Rollen
 
-|    | Project| Objects in project | Managing members | Managing external members |
+|    | Project| Objects in project |Member Management | External Member Management |
 | ------------------------------------------------------------- | :--------------: | :--------------: | :--------------: | :--------------: |
 |                                                                                       |
-|**Owner (Project owner)** | create, edit, close, delete | create, edit, delete | create, edit, delete, can assign leadership role | create, edit, delete |
+|**Owner** | create, edit, close, delete | create, edit, delete | create, edit, delete, can assign leadership role | create, edit, delete |
 |**Course owner** | tbd | tbd | tbd | :material-cancel: |
-|**Leader (Project leader)**| edit | create, edit, close, delete | create, edit, delete | :material-cancel: |
+|**Leader**| edit | create, edit, close, delete | create, edit, delete | :material-cancel: |
 |**Project Office** | edit | create, edit, delete | create, edit, delete | :material-cancel: |
-|**Participants (Project participant)**              | Read only | create, edit, delete            | :material-cancel: |     :material-cancel:    |
-|**Business analyst/Supplier**         | Read only           | create, edit, delete | :material-cancel:| :material-cancel: |
-|**Sponsor/Client**          | Read only           | :material-cancel: | :material-cancel: | :material-cancel: |
+|**Participants**              | Read only | create, edit, delete            | :material-cancel: |     :material-cancel:    |
+|**Supplier**         | Read only           | create, edit, delete | :material-cancel:| :material-cancel: |
+|**Client**          | Read only           | :material-cancel: | :material-cancel: | :material-cancel: |
 |**Steering Committee**         | Read only          | :material-cancel: | :material-cancel:| :material-cancel: |
 | Roles that can act across multiple projects:                                                                                                   |
 |**Project manager**                                        | create, edit, close, delete, Tab "Administration" in the Projects area      | sees no content | create, edit, delete, may assign leadership role | create, edit, delete  |

@@ -42,7 +42,7 @@ If a project is completed, all project members subsequently have read-only acces
 
 A project can only be completed by
 
-* Project owner,
+* Project owners,
 * Project leaders,
 * Project Office Staff,
 * Administrators,
