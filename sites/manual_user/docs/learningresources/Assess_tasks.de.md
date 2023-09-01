@@ -68,7 +68,7 @@ wie folgt vorgehen:
 
 - Am Kursbaustein den/die Teilnehmer:in auswählen.
 - Im Schritt "Abgabe" die "Abgabe erneut öffnen".
-- Es erscheint eine Meldung:
+- Es erscheint folgende Meldung:
 
     ![Abgabe erneut öffnen](assets/Task_reopen_submission_de.png){ class="shadow lightbox aside-right-sm" }
     Die Abgabe für "Nachname, Vorname" wird wieder geöffnet:<br>
