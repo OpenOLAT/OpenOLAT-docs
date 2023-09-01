@@ -69,7 +69,13 @@ wie folgt vorgehen:
 - Am Kursbaustein den/die Teilnehmer:in auswählen.
 - Im Schritt "Abgabe" die "Abgabe erneut öffnen".
 - Es erscheint eine Meldung:
-    ![Abgabe erneut öffnen](assets/Task_reopen_submission_de.png){ class="shadow" }
+
+    ![Abgabe erneut öffnen](assets/Task_reopen_submission_de.png){ class="shadow lightbox aside-right-sm" }
+    Die Abgabe für "Nachname, Vorname" wird wieder geöffnet:<br>
+        * Bereits eingereichte Dokumente sind für Sie nicht mehr zugänglich<br>
+        * Der/Die Teilnehmende kann die Dokumente bearbeiten und muss diese erneut abgeben<br>
+        * Bitte überprüfen Sie die Abgabefrist!
+
 - Nach Bestätigung der Meldung können Betreuende über einen Button "Alle abgegebenen Dokumente einziehen". Die Dokumente des/der Teilnehmenden sind nun wieder in der Betreueransicht verfügbar.
 - Im Schritt "Feedback- und Rückgabe" können die Dokumente nun ebenfalls wieder bearbeitet, ausgetauscht, ergänzt oder gelöscht werden.
 

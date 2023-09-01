@@ -68,8 +68,14 @@ feedback" for a task that has already been completed, coaches can proceed as fol
 
 - Select the participant in the course element.
 - In the "Submission" step, select "Reopen submission".
-- A message will appear:
-    ![Reopen submission](assets/Task_reopen_submission.png){ class="shadow" }
+- The following message appears:
+
+    ![Reopen submission](assets/Task_reopen_submission.png){ class="shadow lightbox aside-right-sm" }
+    The submission for "Last name, First name" is reopened:<br>
+        * Documents already submitted are no longer accessible to you<br>
+        * The participant can edit the documents and must submit them again<br>
+        * Please check the submission deadline!
+
 - After confirming the notification, coaches can use a button "Collect all submitted documents". The documents of the participant are now available again in the coach view.
 - In the "Return and feedback" step, the documents can now also be edited, exchanged, supplemented or deleted again.
 
