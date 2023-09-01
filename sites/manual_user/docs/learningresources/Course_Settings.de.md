@@ -108,10 +108,9 @@ Wenn Sie die Funktion ausschalten, sehen Ihre Kursteilnehmenden keine Leistungsn
 
 ### (Kurs-)Zertifikat
 
-**Was ist ein Zertifikat?**
+#### Was ist ein Zertifikat?
 
 Als Bestätigung für den Besuch eines Kurses bzw. der Erreichung von bestimmten kursbezogenen Aktivitäten kann ein **PDF-Zertifikat** ausgestellt werden. Es ist auch möglich, ohne die Verwendung eines Leistungsnachweises ein Zertifikat auszustellen. 
-
 
 **Von wem wird ein Zertifikat ausgestellt?**
 
@@ -119,11 +118,9 @@ Als Autor:in wählen Sie aus, ob das Zertifikat **manuell** vom Betreuer ausgest
 
 Die Auswahl "manuell" gestattet die Verwendung von Zertifikaten auch in Kursen ohne bewertbare Kurselemente. Wenn das Zertifikat manuell ausgestellt werden soll, kann der/die Betreuer:in dies **im Bewertungswerkzeug** in der Leistungsübersicht der einzelnen Benutzer:innen vornehmen.
 
-
 **Wo sind die Zertifikate einsehbar?**
 
 Sobald der/die Teilnehmende alle Bedingungen für einen bestandenen Kurs erfüllt hat, ist das Zertifikat in der **Toolbar des jeweiligen Kurses** unter "Mein Kurs" im Leistungsnachweis verfügbar. Die Benutzer:innen erhalten ausserdem automatisch eine **E-Mail-Benachrichtigung**, sobald ein Zertifikat ausgestellt worden ist.
-
 
 **Wie wird die Gültigkeit überprüft?**
 
@@ -131,11 +128,9 @@ Für das Zertifikat kann eine **Gültigkeitsdauer** festgelegt werden. Sie legen
 
 Um die Gültigkeit des Zertifikats zu überprüfen, muss der Vorlage das Attribut "certificateVerificationUrl" hinzugefügt werden. Dieses erlaubt es, **mittels QR-Code** das Zertifikat zu einem späteren Zeitpunkt nochmals zu generieren und mit der vorliegenden Version zu vergleichen. Sofern beide Versionen übereinstimmen, kann das Zertifikat als gültig erklärt werden. Der QR-Code zur Validierung ist allerdings nur bei Verwendung eines HTML-Formulars möglich.
 
-
 **Was geschieht beim Ablauf eines Zertifikats?**
 
 Anhand des Ausstellungsdatums sowie des Ablaufdatums des Zertifikats können [Erinnerungen](../learningresources/Course_Reminders.de.md){:target="_blank”} ausgelöst werden. Z.B. können Kursteilnehmer:innen eine Info erhalten, dass das Zertifikat abgelaufen ist oder in wenigen Tagen abläuft oder eine **Rezertifizierung** ab sofort möglich ist.
-
 
 **Zertifikatsvorlage erstellen**
 
@@ -152,6 +147,8 @@ einfach und schnell Zertifikatsvorlagen im HTML-Format erstellt werden. Wer den 
 Die Formularfelder müssen bestimmte Variablen enthalten, die vom System später durch die spezifischen Daten ersetzt werden. Es können alle Attribute als Variablen verwendet werden. Bei PDF-Vorlagen werden die Variablennamen ohne $-Präfix, bei HTML-Formularen mit $-Präfix verwendet.
 
 Zum Formatieren von Datumsformaten steht das "dateFormatter"-Objekt zur Verfügung. Damit lassen sich die "*Raw" formate mittels "formatDate()" formatieren oder mit formatDateRelative(Date baseLineDate, days, months, years) eine angegebene Periode addieren.
+
+Unterschriften, Logos o.ä. können über die optionalen Variablen als statische Grafiken in das Zertifikat integriert werden. Die entsprechenden Dateien müssen dafür mit der Zertifikatsvorlage zur Verfügung stehen.
 
 ???+ note "Übersicht der wichtigsten Variablen:"
 

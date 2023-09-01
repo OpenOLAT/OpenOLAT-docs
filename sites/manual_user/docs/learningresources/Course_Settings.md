@@ -136,6 +136,8 @@ The form fields then must contain specific variables, which will be replaced by 
 
 In order to be able to format date-values there is the"dateFormatter"-object. It offers methods to format the "*Raw" formats. To just format a raw format there is the "formatDate()" function. To add a given period of time there is the formatDateRelative(Date baseLineDate, days, months, years) which adds the period given in days/months/years to the baseLineDate.
 
+Signatures, logos or similar can be integrated into the certificate as static graphics via the optional variables. The corresponding files must be available for this with the certificate template.
+
 ???+ note "Here a list of the most important variables:"
 
     _User:_
