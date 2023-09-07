@@ -17,7 +17,7 @@ Spezialität / Hinweis |
 
 Im Kursbaustein Dateidiskussion kann eine Datei hochgeladen werden und darüber eine Diskussion eröffnet werden. Ähnlich einem Forum können zur Datei mehrere Diskussionsstränge (Themen, Fragestellungen) angelegt werden. 
 
-Startpunkt ist jedoch, anders als bei Foren, immer ein hochgeladenes Dokument, das die Diskussionsbasis für die weitere, dem Dokument zugeordnete Forendiskussion bildet.
+Startpunkt ist jedoch, anders als bei Foren, immer eine hochgeladene Datei, die die Diskussionsbasis für die weitere, dem Dokument zugeordnete Forendiskussion bildet.
 
 Setzen Sie die Dateidiskussion beispielsweise ein, wenn Sie möchten, dass Ihre Lernenden sich gezielt zu einem Artikel, einer Grafik oder einen sonstigen Text äussern und die Inhalte diskutieren sollen.
 
