@@ -2,7 +2,7 @@
 
 ## OpenOlat system wide roles and rights
 
-### User type
+### User types
 
 OpenOlat works with a roles and rights management. First two user types are differentiated. These are:
 
@@ -17,19 +17,19 @@ OpenOlat works with a roles and rights management. First two user types are diff
 
 System users can get one ore more roles additionally.
 
-With OpenOlat Release 13, the OpenOlat roles have been further enhanced. Here is an overview of all OpenOlat roles.
+Here is an overview of all OpenOlat roles.
 
 ![Rollen in OpenOlat](assets/roles_18_en.png)
 
 * **Invitee**: Invited persons
 * **User**: Standard role (see above)
 * **Author**: The author has access to the authoring area. This allows the author to create courses and all other learning resources. In the search mask the author finds all courses and learning resources such as tests, films and portfolio templates which are accessible to authors. This role is often assigned to teachers or e-learning managers.
-* **User manager**: The user manager has access to the [user management](../../manual_admin/usermanagement/index.md) and all users of the own organization. He/She can create, edit and inactivate users. Further more he can assign the Author role.
+* **User manager**: The user manager has access to the [User management](../../manual_admin/usermanagement/index.md) and all users of the own organization. He or she can create, edit and inactivate users. Furthermore he or can assign the Author role.
 * **Role manager**: The role administrator has access to the user administration and all users of his or her own organization. Apart from the roles Administrator and System Administrator, he/she can change, assign and remove all user roles.
-* **Group management**: The group manager has access to the group section and in there access to the tab group management. Further information to the group management can be found [here](../groups/Group_Administration.md).
-* **Question bank manager**: The question bank manager has access to the question bank. In there he is able to open the administration section. Further information about this role can be found [here](../area_modules/Question_Bank.md).
-* **Curriculum manager**: The curriculum manager has access to curriculum management and can create new curricula and manage existing ones. If the curriculum manager is assigned to an organization, he or she only has access to the curricula of this organization.
-* **Lectures manager**: Configuration of the "Lectures and Absences" Module
+* **Group manager**: The group manager has access to the group section and in there the tab [Group management](../groups/Group_Administration.md).
+* **Question bank manager**: The question bank manager has access to the [Question bank](../area_modules/Question_Bank.md). In there he is able to open the administration section.
+* **Curriculum manager**: The curriculum manager has access to [Curriculum Management](../area_modules/Curriculum_Management.md) and can create new curricula and manage existing ones. If the curriculum manager is assigned to an organization, he or she only has access to the curricula of this organization.
+* **Lectures manager**: Configuration of the ["Lectures and absences"](../learningresources/Lectures_and_absences.md) module.
 * **Project manager**
 * **Quality manager**: The quality manager has access to the Quality Management area and can manage all settings and objects such as questionnaires, data collection generators and the analysis tool.
 * **Line manager**: The line manager can be automatically informed about the receipt of certificates for all users of his organization.
@@ -37,10 +37,6 @@ With OpenOlat Release 13, the OpenOlat roles have been further enhanced. Here is
 * **Principal**: The principal sees all areas of the system except administration, but has read-only access and cannot make any changes, edit objects, etc.
 * **Administrator**: The administrator has module and function management and has access to all areas of the system e.g. user management, catalog management, curriculum management, lectures management, except the administration page. This role can be limited to an organization. The administrator can delete users and also grant other people the right to manage the catalogue.
 * **System administrator**: The system administrator has access to the administration side and is responsible for the technical system configuration and its monitoring. This is a global role that is not tied to an organization.
-
-!!! info "Info"
-
-    The role "Administrator" used up to OpenOlat 12.5 is divided into "Administrator" and "System Administrator" as of Release 13.
 
 !!! warning "Note"
 
