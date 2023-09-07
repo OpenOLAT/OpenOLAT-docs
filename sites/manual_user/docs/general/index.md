@@ -23,10 +23,10 @@
 
 	[:octicons-arrow-right-24: Finding courses](../area_modules/Courses.md)
 
-	[:octicons-arrow-right-24: Create groups](../groups/Create_Groups.md)
+	[:octicons-arrow-right-24: Creating groups](../groups/Create_Groups.md)
 
 
--	:fontawesome-solid-user-pen:{ .lg .middle }  __Introduction for autors__
+-	:fontawesome-solid-user-pen:{ .lg .middle }  __Introduction for authors__
 
     ---
 
@@ -43,14 +43,14 @@
 
 	[:octicons-arrow-right-24: Assessment tool](../learningresources/Assessment_tool_overview.md)
 
-	[:octicons-arrow-right-24: Coaching modul](../area_modules/Coaching.md)
+	[:octicons-arrow-right-24: Coaching module](../area_modules/Coaching.md)
 
 
 -	:fontawesome-solid-cubes:{ .lg .middle }  __Manage courses__
 
     ---
 
-	[:octicons-arrow-right-24: General Information](../learningresources/General_Information.md)
+	[:octicons-arrow-right-24: General information](../learningresources/General_Information.md)
 
 	[:octicons-arrow-right-24: Course operation](../learningresources/Administration.md)	
 	
