@@ -1,8 +1,8 @@
-# Configure LTI access to group
+# Configure LTI access to a group
 
 :octicons-tag-24: Release 15.5 · :octicons-beaker-24: Beta Feature
 
-Beta
+TBD
 
 Attention! This is a beta feature. Be aware that using this feature might
 result in unexpected behavior.

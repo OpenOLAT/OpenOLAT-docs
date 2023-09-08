@@ -1,11 +1,28 @@
 # Gruppenverwaltung
 
-## Meine Gruppen
+Wenn in der Hauptnavigation die Gruppen aufgerufen werden, öffnet sich **für Teilnehmer:innen, Betreuer:innen und Besitzer:innen** das Menü Gruppen.
 
-![Gruppe verwalten](assets/Gruppe_verwalten.png){ class="shadow lightbox" }
+screen
 
-Nach Auswahl einer oder mehrerer Gruppen können Sie folgende Aktionen
-ausführen:
+Wenn in der Hauptnavigation die Gruppen durch **Gruppenbetreuer** aufgerufen werden, öffnet sich ein Menü mit einem zusätzlichen Tab „Gruppenverwaltung“.
+
+screen
+
+## Werkzeuge zum Verwalten
+
+In allen Listenansichten gibt es die Möglichkeit einzelne Gruppen durch Anklicken eines Gruppennamens zu bearbeiten.
+
+Sollen mehrere Gruppen gemeinsam bearbeitet werden, können in der ersten Spalte die betreffenden Checkboxen ausgewählt werden. Durch Klick auf die Checkbox in der Titelzeile werden alle Gruppen an- bzw. abgewählt.
+
+screen
+
+!!! hint "Hinweis"
+
+	Damit Sie die entsprechenden Optionen sehen und nutzen können, müssen Sie mindestens eine Gruppe ausgewählt haben und Betreuer der Gruppe sein.
+
+
+
+Nach Auswahl einer oder mehrerer Gruppen können Sie folgende Aktionen ausführen:
 
   *  **Duplizieren**: Das Duplizieren von Gruppen erspart Ihnen die einzelne manuelle Konfiguration der kollaborativen Werkzeuge, wenn diese in allen Gruppen identisch sein soll.
   *  **Zusammenführen**: Ausgewählte Gruppen werden zu einer Gruppe zusammengeführt  nachdem die Zielgruppe im Wizard ausgewählt wurde. Dazu müssen mindestens 2 Gruppen ausgewählt werden.
@@ -15,17 +32,36 @@ ausführen:
   *  **Inaktivieren**: Die Gruppe erhält den Status "inaktiv".
   *  **Löschen**: Als Gruppen-Betreuer können Sie alle von Ihnen betreuten Gruppen löschen. Wenn die Gruppe mit einem Kurs verbunden ist, wird nur die Gruppe nicht der Kurs gelöscht. 
 
-!!! hint "Tipp"
 
-	Damit Sie die entsprechenden Optionen sehen und nutzen können, müssen Sie mindestens eine Gruppe ausgewählt haben und Betreuer der Gruppe sein.
 
-Über die unterschiedlichen Filtermöglichkeiten können Sie sich alle Ihre Gruppen (Meine Gruppen), Ihre favorisierten Gruppen, inaktive Gruppen oder alle veröffentlichten Gruppen anzeigen lassen oder gezielt nach einer Gruppe suchen.   
+## Gruppenverwaltung für Teilnehmer:innen, Betreuer:innen, Besitzer:innen
 
-###  Veröffentlichte Gruppen
+Über die unterschiedlichen Filtermöglichkeiten können Sie sich alle Ihre Gruppen (Meine Gruppen), Ihre favorisierten Gruppen, inaktive Gruppen oder alle veröffentlichten Gruppen anzeigen lassen oder gezielt nach einer Gruppe suchen. 
+
+### Favoriten
+
+xxx
+
+### Meine Gruppen
+
+![Gruppe verwalten](assets/Gruppe_verwalten.png){ class="shadow lightbox" }
+
+
+### Inaktive Gruppen
+
+xxx
+
+### Veröffentlichte Gruppen
 
  Alle Gruppen, die mit einer Buchungsmethode veröffentlicht wurden, können hier eingesehen und ausgewählt werden. Die Tabelle gewährt eine Übersicht über die Anzahl freier Plätze, die Art der Buchungsmethode und, soweit festgelegt, die Buchungskosten. Gruppen können direkt aus der Tabelle
 heraus mit einem Klick auf die Links „Beitreten“ oder „Warteliste eintragen“
 belegt werden.
+
+
+### Suche
+xx
+
+---
 
 ## Gruppenverwaltung für Gruppenverwalter
 

@@ -1,205 +1,200 @@
-#  Course Element "File Dialog" {: #file_dialog}
+#  Course Element "File Dialogue" {: #file_dialog}
 
 
 ## Profile
 
-Name | File dialog
+Name | File dialogue
 ---------|----------
-Icon | ![File dialog Icon](assets/file_dialog_icon.png){ class=size24 }
-Available since | New edition with release 18
-Functional group | Communication and collaboration
-Purpose | Combination of a forum and a folder for discusion of documents
+Icon | ![Dateidiskussion Icon](assets/file_dialog_icon.png){ class=size24  }
+Available since | New edition with release 18.0
+Function group | Communication and collaboration
+Purpose of use | Combination of forum and folder for discussion of documents
 Assessable | no
-Specialty / Note |
+Speciality / Note |
 
 
+## Operating principle / Usage
 
-## Funktionsprinzip / Verwendung
+In the course element file dialogue, a file can be uploaded and a dialogue can be opened about it. Similar to a forum, several dialogue threads (topics, questions) can be created for the file.
 
-Im Kursbaustein Dateidiskussion kann eine Datei hochgeladen werden und darüber eine Diskussion eröffnet werden. Ähnlich einem Forum können zur Datei mehrere Diskussionsstränge (Themen, Fragestellungen) angelegt werden. 
+However, unlike forums, the starting point is always an uploaded document that forms the basis for the further forum dialogue assigned to the document.
 
-Startpunkt ist jedoch, anders als bei Foren, immer eine hochgeladene Datei, die die Diskussionsbasis für die weitere, dem Dokument zugeordnete Forendiskussion bildet.
-
-Setzen Sie die Dateidiskussion beispielsweise ein, wenn Sie möchten, dass Ihre Lernenden sich gezielt zu einem Artikel, einer Grafik oder einen sonstigen Text äussern und die Inhalte diskutieren sollen.
+Use file dialogue, for example, if you want your learners to comment specifically on an article, graphic or other text and discuss the content.
 
 ---
 
-## Dateidiskussion beginnen
+## Starting a file dialogue
 
-Nach Klick auf den Button „Dateidiskussion erstellen“ werden Sie aufgefordert, eine Datei als Diskussionsgrundlage hochzuladen oder auszuwählen. In den meisten Fällen ist es sinnvoll, dass von dem/der Besitzer:in oder dem/der Betreuer:in initial eine Datei als Diskussionsgrundlage bereitgestellt wird.
+After clicking on the button "Create file dialogue" you will be asked to upload or select a file as a basis for discussion. In most cases, it is useful for the owner or coach to initially provide a file as a basis for discussion.
 
 ![Dateidiskussion neu](assets/course_element_file_dialog_neu_v1_de.png){ class="shadow lightbox" }
 
 
-!!! note "Hinweis"
+!!! note "Note"
 
-    Wird Ihnen kein Button „Dateidiskussion erstellen“ angezeigt, wurde vom Kursbesitzer eine entsprechende Restriktion eingerichtet. Siehe Abschnitt „Wer kann Dateien hochladen?“
+    If you are not shown a button "Create file dialogue", a corresponding restriction has been set up by the course owner. See section "Who can upload files?"
 
-Es ist möglich, innerhalb des gleichen Kursbausteins „Dateidiskussion“ mehrere Dateien als Ausgangspunkt von Diskussionen anzulegen.
-
-
-!!! tip "Tipp"
-
-    Besteht kein zwingender inhaltlicher Zusammenhang, empfiehlt sich die Verwendung mehrerer Kursbausteine vom Typ „Dateidiskussion“, um die Diskussionsstränge zu separieren und übersichtlicher zu machen. Die Kursbausteine können im Menü evtl. bereits mit hilfreichen Titeln beschriftet und unterschieden werden.
+It is possible to create several files as starting points for discussions within the same course element "File dialogue".
 
 
-Wenn Teilnehmer:innen oder Betreuer:innen den Kursbaustein Dateidiskussion anwählen, sehen sie zunächst alle angelegten Dateidiskussionen bzw. die Dateien, hinter denen sich jeweils eine eigene Dateidiskussion befindet. Durch Wahl einer Datei gelangen sie in die entsprechende Dateidiskussion.
+!!! tip "Hint"
+
+    If there is no compelling connection in terms of content, it is advisable to use several course elements of the type "file dialogue" in order to separate the dialogue threads and make them clearer. The course elements can possibly already be labelled and differentiated with helpful titles in the menu.
+
+
+If participants or coaches select the course element file dialogue, they will first see all created file dialogues or the files behind which there is a file dialogue. Selecting a file takes you to the corresponding file dialogue.
 
 ![Dateidiskussion Dok1 Dok2](assets/course_element_file_dialog_doc1_doc2_v1_de.png){ class="shadow lightbox" }
 
 
 ---
 
-## Dateien hochladen
+## Uploading files
 
-### Wer kann Dateien hochladen?
+### Who can upload files?
 
-Das Hochladen einer Datei als Ausgangspunkt einer Dateidiskussion kann je nach Konfiguration von Besitzer:innen, Betreuer:innen oder Teilnehmer:innen vorgenommen werden. 
-Beim Konfigurieren des Kursbausteins durch den Kursbesitzer kann bestimmt werden, 
+Uploading a file as the starting point of a file dialogue can be done by owner, coach or participant, depending on the configuration.
+When configuring the course element by the course owner, it can be determined, 
 
-* wer 
-* in welchem Zeitfenster
+* who,
+* in which time frame
 
-Dateien hochladen darf.
+can upload files.
 
-Auch weitere Einzelpersonen können namentlich genannt und berechtigt werden.
+Other individuals may also be named and authorised.
 
 
 ![Dateidiskussion Konfiguration](assets/course_element_file_dialog_config_v1_de.png){ class="shadow lightbox" }
 
 
-### Welche Dateiformate sind möglich?
+### Which file formats are possible?
 
-Hochgeladen werden können prinzipiell alle Dateiformate (Word, Excel, Bilder, Videos, Audio, usw.)
+In principle, all file formats (Word, Excel, images, videos, audio, etc.) can be uploaded.
 
-Zum Öffnen muss jedoch ein entsprechendes Werkzeug in OpenOlat vorhanden sein. Z.B. eine Lizenz für Microsoft Office oder ONLYOFFICE. Andere, spezielle Dateiformate (z.B. .log oder .psd) können ebenfalls hochgeladen, aber nicht in OpenOlat geöffnet werden. Der Button zum öffnen wird dann gar nicht angezeigt.
+However, a corresponding tool must be available in OpenOlat to open it. For example, a licence for Microsoft Office or ONLYOFFICE. Other, special file formats (e.g. .log or .psd) can also be uploaded, but not opened in OpenOlat. The open button is then not displayed at all.
 
-!!! Tip "Tipp für spezielle Dateiformate"
+!!! Tip "Hint for particular file formats"
 
-    Möchten sich z.B. Grafiker über eine Photoshop-Datei (.psd) austauschen, kann die Datei aus OpenOlat heruntergeladen werden und dann jeweils lokal mit passender Software geöffnet werden (ausserhalb OpenOlat).
+    If, for example, graphic artists would like to exchange information about a Photoshop file (.psd), the file can be downloaded from OpenOlat and then opened locally with suitable software (outside OpenOlat).
 
 
-### Wo liegen diese Dateien?
+### Where are these files located?
 
-Die in den Kursbaustein Dateidiskussion hochgeladenen Dateien werden in einem Pfad innerhalb der Dateiablage von OpenOlat gespeichert, nicht im Ablageordner. Ein Zugriff auf diese Dateien ist also nur über den Kursbaustein Dateidiskussion möglich.
+The files uploaded to the course element file discussion are saved in a path within the file storage of OpenOlat, not in the storage folder. Access to these files is therefore only possible via the course element file discussion.
 
 ---
 
-## Diskussion führen
+## Leading a dialogue
 
-!!! Note "Hinweis"
+!!! Note "Note"
 
-    Eine Diskussion kann erst beginnen, wenn eine Datei als Diskussionsgrundlage hochgeladen wurde.
-
-
-### Zu diskutierende Dateien öffnen oder herunterladen
-
-Sobald Teilnehmer:innen auf der Startseite eine Datei als Ausgangspunkt einer Dateidiskussion gewählt haben, können sie diese Datei öffnen oder herunterladen.
+    A dialogue can only begin when a file has been uploaded as a basis for discussion.
 
 
-### Wie wird ein Diskussionsthema eröffnet?
+### Opening or downloading files to be discussed
 
-Unterhalb der diskutierten Datei befinden sich die Buttons zum Eröffnen eines Diskussionsthemas.
-Es sind mehrere Diskussionsthemen pro Dokument möglich.
+Once participants have selected a file as the starting point for a file dialogue on the homepage, they can open or download this file.
+
+
+### How to open a dialogue topic?
+
+Below the discussed file are the buttons for opening a discussion topic.
+Several dialogue topics per document are possible.
 
 ![Dateidiskussion Diskussion_neu](assets/course_element_file_dialog_diskussion_neu_v1_de.png){ class="shadow lightbox" }
 
 
-### Wie wird ein Diskussionsbeitrag ergänzt?
+### How is a contribution to the dialogue added?
 
-Diskussionteilnehmer:innen haben die Möglichkeit eine Antwort mit oder ohne Zitat des vorherigen Beitrags zu erstellen.
+Dialogue participants have the option of creating a reply with or without quoting the previous post.
 
-Wird ein Beitrag nachträglich editiert, ist das in der Kopfzeile des Eintrags vermerkt. Es wird jeweils der letzte Editiervorgang angezeigt.
+If a contribution is subsequently edited, this is noted in the header of the entry. The last editing process is displayed in each case.
 
-Auch das Anhängen von weiteren Dateien innerhalb eines Diskussionsbeitrags ist möglich, wenn ein Beitrag erstellt oder editiert wird.
+If a contribution is subsequently edited, this is noted in the header of the entry. The last editing process is displayed in each case.
 
 
 ![course_element_file_dialog_beitrag_v1_de](assets/course_element_file_dialog_beitrag_v1_de.png){ class="shadow lightbox" }
 
-!!! note "Hinweis"
+!!! note "Note"
 
-    Die Option unter dem Tab Konfiguration "Forumsbeiträge erstellen" bezieht sich auch auf Themen (initiale Beiträge).
+    The option under the Configuration tab "Create forum posts" also refers to topics (initial posts).
 
 
-### Welche Aufgabe haben Moderator:innen?
+### What is the role of moderators?
 
-Moderator:innen haben gewöhnlich die Aufgaben, 
+Moderators usually have the following tasks:
 
-* die Diskussion in Gang zu setzen (z.B. indem sie eine Datei als Diskussionsgrundlage hochladen),
-* prüfend zu beobachten (inhaltliche Kontrolle und Steuerung),
-* bei Bedarf korrigierend einzugreifen. (Sie können z.B. beleidigende, unpassende Forumsbeiträge verbergen. Änderungen des Moderators an einem Forumsbeitrag werden angezeigt.)
+* get the dialogue going (e.g. by uploading a file as a basis for discussion),
+* observe in a controlling manner, (content control and management)
+* take corrective action when necessary. (For example, you can hide offensive, inappropriate forum posts. Changes made by the moderator to a forum post are displayed).
 
 ![course_element_file_dialog_verbergen_v1_de](assets/course_element_file_dialog_verbergen_v1_de.png){ class="shadow lightbox" }
 
 
-!!! note "Hinweis"
+!!! note "Note"
 
-    Diese Aufgabe kann im Tab „Konfiguration“ allen Betreuer:innen zugewiesen werden. Auch weitere Einzelpersonen können namentlich genannt und berechtigt werden.
+    This task can be assigned to all coaches in the Configuration tab. Other individuals can also be named and authorised.
 
 
-### Beiträge durchsuchen, Darstellung der Diskussion
+### Searching posts, appearance of discussion
 
-Oberhalb der Beiträge einer Dateidiskussion ermöglichen verschiedene Buttons eine Änderung der Darstellung der Beiträge. Z.B. können die Diskussonsbeiträge verschachtelt (Antworten jeweils eingerückt) dargestellt werden. Oder Sie können sich nur die neusten Beiträge anzeigen lassen. Das erleichtert das Durchsuchen umfangreicher Diskussionen.
+Above the posts of a file dialogue, various buttons allow you to change the appearance of the posts. For example, the dialogue contributions can be displayed nested (answers indented). Or you can display only the most recent posts. This makes it easier to search through extensive dialogues.
 
 ![course_element_file_dialog_darstellung_v1_de](assets/course_element_file_dialog_darstellung_v1_de.png){ class="shadow lightbox" }
 
-!!! tip "Tipp"
+!!! tip "Hint"
 
-    Sie können sich hier auch ein Abonnement einrichten, um bei neuen Beiträgen informiert zu werden.
+    You can also set up a subscription here to be informed of new contributions.
 
 
-### Verschieben von Beiträgen
+### Moving posts
 
-Diskussionsbeiträge können von Berechtigten an eine andere Stelle in einer Dateidiskussion verschoben werden. Dies ist auch in einen anderen Kursbaustein und sogar kursübergreifend möglich.
+Dialogue contributions can be moved to another place in a file dialogue by authorised persons. This is also possible in another course element and even across courses.
 
-Es kann ein einzelner Beitrag, ein ganzer Diskussionsfaden oder ein Teil eines Diskussionsfadens, mit allen darunter angehängten Antworten, verschoben werden. Die betroffenen Diskussionsteilnehmer:innen können per Mail über das Verschieben ihrer Beiträge informiert werden.
+A single post, an entire thread or part of a thread, with all the replies attached to it, can be moved. The dialogue participants concerned can be informed by e-mail that their posts have been moved.
 
 ![course_element_file_dialog_beitrag_verschieben2_v1_de](assets/course_element_file_dialog_beitrag_verschieben2_v1_de.png){ class="shadow lightbox" }
 
-Ein Wizard hilft beim Verschieben.
+A wizard helps with moving.
 
 ![course_element_file_dialog_beitrag_verschieben_v1_de](assets/course_element_file_dialog_beitrag_verschieben_v1_de.png){ class="shadow lightbox" }
 
 
-!!! note "Hinweis"
+!!! note "Note"
 
-    Weil es sich bei der Dateidiskussion um eine spezielle Form eines Forums handelt, können Beiträge und Diskussionsfäden auch in einen Kursbaustein vom Typ "Forum" verschoben werden. 
+    Because the file dialogue is a special type of forum, contributions and dialogue threads can also be moved to a course element of the type "Forum". 
 
 
-### Löschen
+### Deleting
 
-Beim Löschen ist zu unterscheiden:
+A distinction must be made when deleting:
 
-* **Löschen eines einzelnen Beitrags**<br>
-    Der/die Ersteller:in eines Diskussionsbeitrags hat das Recht, den eigenen Beitrag auch wieder zu löschen.
+* **Deleting a single post**<br>
+    The creator of a dialogue post has the right to delete their own post.
 
-    Durch das Löschen eines Beitrags werden im Normalfall aber auch die Antworten auf diesen Beitrag obsolet. Deshalb werden die Antworten auf diesen Beitrag ebenfalls gelöscht. Der Diskussionsfaden wird also an dieser Stelle abgeschnitten.
+    However, deleting a post will normally also render the replies to that post obsolete. Therefore, the replies to this post will also be deleted. The dialogue thread will therefore be cut off at this point.
 
 ![course_element_file_dialog_loeschen_beitrag_v1_de](assets/course_element_file_dialog_loeschen_beitrag_v1_de.png){ class="shadow lightbox" }
 
-* **Löschen der gesamten Diskussion zu einer Datei**<br>		
-Besitzer:innen und Betreuer:innen steht diese Option rechts oben im Icon mit den 3 Punkte zur Verfügung.
-Alternativ können auch in der Tabellendarstellung die 3 Punkte am Ende einer Tabellenzeile (Datei) gewählt werden.
+* **Deleting the entire dialogue for a file**<br>		
+Owners and coaches have access to this option at the top right of the icon with the 3 dots.
+Alternatively, the 3 dots at the end of a table row (file) can also be selected in the table display.
 
 ![course_element_file_dialog_loeschen_diskussion_v1_de](assets/course_element_file_dialog_loeschen_diskussion_v1_de.png){ class="shadow lightbox" }
 
 
 
----
+The course element File Dialog can be understood as a combination of forum and folder. The course element "File dialog" provides you with preset discussion forums; in contrast to an ordinary forum, dialogs here are explicitly based on certain documents. Use such a file dialog to let your course participants discuss e.g. scientific articles or papers.
 
-## Diskussion beenden
-
-### Wie kann eine Diskussion beendet werden?
-
-Das **manuelle Beenden** einer Diskussion erfolgt durch Betreuer:innen und Besitzer:innen.
+The **manual closure** of a dialogue is done by the coaches and the owner.
 
 ![course_element_file_dialog_beenden_v1_de](assets/course_element_file_dialog_beenden_v1_de.png){ class="shadow lightbox" }
 
-Ein **automatisches Beenden** erfolgt, wenn in der Konfiguration des Kursbausteines ein zeitlicher Rahmen für die Erstellung von Diskussionsbeiträgen gesetzt wurde. Nach dem gesetzten Zeitpunkt ist dann die Bearbeitungsmöglichkeit automatisch deaktiviert.
+An **automatic termination** takes place if a time frame for the creation of dialogue contributions has been set in the configuration of the course element. After the set time, the editing option is then automatically deactivated.
 
 
-### Diskussionsthemen archivieren
+### Archiving dialogue topics
 
-Die Diskussionsthemen können von Betreuer:innen und Besitzer:innen auch archiviert werden.
+The discussion topics can also be archived by coaches and owners.
 
 ![course_element_file_dialog_archivieren_v1_de](assets/course_element_file_dialog_archivieren_v1_de.png){ class="shadow lightbox" }
