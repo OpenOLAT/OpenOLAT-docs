@@ -25,7 +25,7 @@ Die Kursrollen Teilnehmer sowie Betreuer stehen stellvertretend auch für die Gr
 | **Kursadmin-Tools**                                                                                                    |
 | Mitgliederverwaltung                                        | Vollzugriff      | :material-cancel: | :material-cancel: |
 | Bewertungswerkzeug                                          | Vollzugriff      | Vollzugriff       | :material-cancel: |
-| Lektionen&Absenzen                                          | Vollzugriff      | :material-cancel: | :material-cancel: |
+| Lektionen & Absenzen                                          | Vollzugriff      | :material-cancel: | :material-cancel: |
 | **Kursaktionen**                                                                                                       |
 | Kopieren                                                    | :material-check: |                   |                   |
 | Löschen                                                     | :material-check: |                   |                   |
@@ -46,7 +46,7 @@ Die Kursrollen Teilnehmer sowie Betreuer stehen stellvertretend auch für die Gr
 | **Kursadmin-Tools**                                                                                                                                           |
 | Mitgliederverwaltung                                        | Vollzugriff   | :material-cancel:                | Lesend            | :material-cancel:        |
 | Bewertungswerkzeug                                          | Vollzugriff   | :material-cancel:                | Lesend            | :material-cancel:        |
-| Lektionen&Absenzen                                          | Vollzugriff   | :material-cancel:                | Lesend            | :material-cancel:        |
+| Lektionen & Absenzen                                          | Vollzugriff   | :material-cancel:                | Lesend            | :material-cancel:        |
 | **Kursaktionen**                                                                                                                                              |
 | Kopieren                                                    | :material-check: | :material-check: mit Freigabe |                   |                          |
 | Löschen                                                     | :material-check: |                               |                   |                          |
@@ -80,7 +80,7 @@ Die Kursrollen Teilnehmer sowie Betreuer stehen stellvertretend auch für die Gr
 | **Kursadmin-Tools**                                                                                                                                      |
 | Mitgliederverwaltung                                        | Vollzugriff                   | :material-cancel:          | :material-cancel:             |
 | Bewertungswerkzeug                                          | Vollzugriff                   | :material-cancel:          | :material-cancel:             |
-| Lektionen&Absenzen                                          | Vollzugriff                   | :material-cancel:          | :material-cancel:             |
+| Lektionen & Absenzen                                          | Vollzugriff                   | :material-cancel:          | :material-cancel:             |
 | **Kursaktionen**                                                                                                                                             |
 | Kopieren                                                    | :material-check:              |                            |                               |
 | Löschen                                                     | :material-check:              |                            |                               |
@@ -90,7 +90,7 @@ Die Kursrollen Teilnehmer sowie Betreuer stehen stellvertretend auch für die Gr
 | Lektionenverwaltung                                         | :material-cancel:             | :material-cancel:          | Vollzugriff                   |
 
 ### Curriculum-Rollen
-|                                                             | Curriculum-<br/>besitzer |  Curriculum-<br/>elemntbesitzer | Klassenlehrer     |
+|                                                             | Curriculum-<br/>besitzer |  Curriculum-<br/>elementbesitzer | Klassenlehrer     |
 | ----------------------------------------------------------- | :----------------------: | :-----------------------------: | :---------------: |
 | **Zugriff nach Status**                                                                                                                      |
 | ![Vorbereitung](assets/s_prep_DE.png){ width=90px }         | :material-cancel:        | :material-cancel:               | :material-cancel: |
@@ -102,7 +102,7 @@ Die Kursrollen Teilnehmer sowie Betreuer stehen stellvertretend auch für die Gr
 | **Admin-Tools**                                                                                                                              |
 | Mitgliederverwaltung                                        | :material-cancel:        | :material-cancel:               | Lesend            |
 | Bewertungswerkzeug                                          | :material-cancel:        | :material-cancel:               | Vollzugriff       |
-| Lektionen&Absenzen                                          | :material-cancel:        | :material-cancel:               | Vollzugriff       |
+| Lektionen & Absenzen                                          | :material-cancel:        | :material-cancel:               | Vollzugriff       |
 | **Module**                                                                                                                                   |
 | Coaching - Lektionen&Absenzen                               | :material-cancel:        | :material-cancel:               | Vollzugriff       |
 | Coaching - Kurse                                            | :material-cancel:        | :material-cancel:               | :material-cancel: |
