@@ -2,19 +2,19 @@
 
 Wenn in der Hauptnavigation die Gruppen aufgerufen werden, öffnet sich **für Teilnehmer:innen, Betreuer:innen und Besitzer:innen** das Menü Gruppen.
 
-screen
+![group_management_menu_participants_v1_de.png](assets/group_management_menu_participants_v1_de.png){ class="shadow lightbox" }
 
-Wenn in der Hauptnavigation die Gruppen durch **Gruppenbetreuer** aufgerufen werden, öffnet sich ein Menü mit einem zusätzlichen Tab „Gruppenverwaltung“.
+Wenn in der Hauptnavigation die Gruppen durch **Gruppenbetreuer** aufgerufen werden, werden 2 Tabs angezeigt. Neben der Ansicht, wie sie auch die Teilnehmer:innen, Betreuer:innen und Besitzer:innen haben (hier im Tab Gruppen), erscheint zusätzlich der Tab „Gruppenverwaltung“.
 
-screen
+![group_management_menu_groupmanager_v1_de.png](assets/group_management_menu_groupmanager_v1_de.png){ class="shadow lightbox" }
 
 ## Werkzeuge zum Verwalten
 
 In allen Listenansichten gibt es die Möglichkeit einzelne Gruppen durch Anklicken eines Gruppennamens zu bearbeiten.
 
-Sollen mehrere Gruppen gemeinsam bearbeitet werden, können in der ersten Spalte die betreffenden Checkboxen ausgewählt werden. Durch Klick auf die Checkbox in der Titelzeile werden alle Gruppen an- bzw. abgewählt.
+Sollen mehrere Gruppen gemeinsam bearbeitet werden, können in der ersten Spalte die betreffenden Checkboxen ausgewählt werden. Durch Klick auf die Checkbox in der Titelzeile werden alle Gruppen an- bzw. abgewählt. Dadurch erscheinen Buttons zur gemeinsamen Bearbeitung direkt über der Liste.
 
-screen
+![group_management_groups_selected_v1_de.png](assets/group_management_groups_selected_v1_de.png){ class="shadow lightbox" }
 
 !!! hint "Hinweis"
 
@@ -38,37 +38,28 @@ Nach Auswahl einer oder mehrerer Gruppen können Sie folgende Aktionen ausführe
 
 Über die unterschiedlichen Filtermöglichkeiten können Sie sich alle Ihre Gruppen (Meine Gruppen), Ihre favorisierten Gruppen, inaktive Gruppen oder alle veröffentlichten Gruppen anzeigen lassen oder gezielt nach einer Gruppe suchen. 
 
-### Favoriten
+![group_management_meine_gruppen_v1_de.png](assets/group_management_my_groups_v1_de.png){ class="shadow lightbox" }
 
-xxx
+ *  **Favoriten:** Hier werden nur Gruppen angezeigt, die Sie in der 2. Spalte durch Klick auf das Fähnchen als Favorit markiert haben.
 
-### Meine Gruppen
+* **Meine Gruppen:** Hier finden Sie alle Gruppen aufgelistet, in denen Sie Mitglied sind.
 
-![Gruppe verwalten](assets/Gruppe_verwalten.png){ class="shadow lightbox" }
+* **Inaktive Gruppen:** Nicht benutzte Gruppen können automatisch nach einer bestimmten Zeit auf den Status inaktiv gesetzt werden. (Gruppenverwalter:innen können diesen Mechanismus aktivieren und die Frist festlegen.)
 
-
-### Inaktive Gruppen
-
-xxx
-
-### Veröffentlichte Gruppen
-
- Alle Gruppen, die mit einer Buchungsmethode veröffentlicht wurden, können hier eingesehen und ausgewählt werden. Die Tabelle gewährt eine Übersicht über die Anzahl freier Plätze, die Art der Buchungsmethode und, soweit festgelegt, die Buchungskosten. Gruppen können direkt aus der Tabelle
-heraus mit einem Klick auf die Links „Beitreten“ oder „Warteliste eintragen“
+* **Veröffentlichte Gruppen:** Alle Gruppen, die mit einer Buchungsmethode veröffentlicht wurden, können hier eingesehen und ausgewählt werden. Die Tabelle gewährt eine Übersicht über die Anzahl freier Plätze, die Art der Buchungsmethode und - soweit festgelegt - die Buchungskosten. Gruppen können direkt aus der Tabelle heraus mit einem Klick auf die Links „Beitreten“ oder „Warteliste eintragen“
 belegt werden.
 
-
-### Suche
-xx
+* **Suche:** Hier können Sie gezielt nach einer bestimmten Gruppe suchen.
 
 ---
 
-## Gruppenverwaltung für Gruppenverwalter
+## Gruppenverwaltung für Gruppenverwalter:innen
 
-Benutzer mit der Rolle Gruppenverwalter verfügen zusätzlich noch über den Tab „Gruppenverwaltung“. Gruppenverwalter sehen dort alle veröffentlichten und privaten
-Gruppen, und können diese im selben Umfang verwalten wie ein Gruppenbetreuer seine Gruppen. 
+Benutzer mit der Rolle Gruppenverwalter:in verfügen im Tab "Gruppen" über die gleichen Listen und Werkzeuge, wie die Teilnehmer:innen, Betreuer:innen und Besitzer:innen. Im zweiten Tab „Gruppenverwaltung“ sehen sie zusätzlich alle veröffentlichten und privaten Gruppen und können diese im selben Umfang verwalten, wie Gruppenbetreuer:innen ihre Gruppen. 
 
-Der Gruppenverwalter kann zudem Gruppen ohne Mitglieder und Kursanbindung finden und löschen. Auch hat er Zugriff auf den Lebenszyklus der Gruppen und kann den Löschprozess starten oder Gruppen reaktivieren. 
+Gruppenverwalter:innen können zudem Gruppen ohne Mitglieder und Kursanbindung finden und löschen. Auch haben sie Zugriff auf den Lebenszyklus der Gruppen und können den Löschprozess starten oder Gruppen reaktivieren. 
 
-![Gruppenverwalter](assets/Gruppenverwalter.png){ class="shadow lightbox" }
+![group_management_menu2_groupmanager_v1_de.png](assets/group_management_menu2_groupmanager_v1_de.png){ class="shadow lightbox" }
+
+Zum automatischen Gruppenlebenszyklus finden Sie mehr im [Administrationshandbuch](https://docs.openolat.org/de/manual_admin/administration/Automatic_Group_Lifecycle/).
 
