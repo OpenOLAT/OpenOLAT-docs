@@ -1,4 +1,4 @@
-# Access, Roles and Rights
+# Roles and Rights
 
 ## OpenOlat system wide roles and rights
 
