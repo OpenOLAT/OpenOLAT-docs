@@ -14,8 +14,8 @@ Here you will find an overview of the rights of the coach.
 | CP learning content   | execute = participant       |                                  |
 | SCORM learning content| execute = participant       |                                  |
 | Folder                | upload documents, delete possible     |                                  |
-| Podcast               | add, edit, delete episodes, (Moderatorenrechte) aktivierbar  |                                  |
-| Blog                  | create, edit, delete entries, (Moderatorenrechte) aktivierbar|                                  |
+| Podcast               | add, edit, delete episodes, (Moderator rights) can be activated  |                                  |
+| Blog                  | create, edit, delete entries, (Moderator rights) can be activated|                                  |
 | Video                 | execute = participant       |                                  |
 | card2brain flashcards | learn = participant         |                                  |
 | Edubase               |                             |                                  |
@@ -25,17 +25,17 @@ Here you will find an overview of the rights of the coach.
   
 | Course element | Rights                      | Additional configuration options |
 | -------------- | --------------------------- | -------------------------------- |
-| Assessment     |Teilnehmende bewerten         | An evaluation of learners is however possible for coaches via the "assessment tool". |
-| Task           | correct tasks, extend deadlines, bewerten, abschliessen, abgegebene Dokumente herunterladen                                                                                          | create new task ; Kursbesitzer können Betreuenden auch bestimmte Teilnehmende zuweisen            |
-| Portfolio task | bewerten                                                                                                |                             |
+| Assessment     |Assess participants         | An evaluation of learners is however possible for coaches via the "assessment tool". |
+| Task           | correct tasks, extend deadlines, assess, finish, documents submitted, download                                                                                          | create new task ; Course owners can also assign specific participants to supervisors           |
+| Portfolio task | assess                                                                                                |                             |
 | Grouptask      | only access as group coach of an assigned group (analogous to task)                                                          | create or upload a new task |
-| Test           | Test Übersicht, Einsicht in durchgeführte Tests mit manueller Bewertung, Punktevergabe, Korrektur und Annulierungsoption, aber keine Test-Konfiguration |  Kommunikationsmöglichkeit sofern aktiviert                           |
+| Test           | Test overview, Insight into performed tests with manual evaluation, Scoring, Correction and cancellation option, but no test configuration |  Communication option if enabled                           |
 | Self-test      | execute = participant                                                                                                        |                             |
 | Survey         | results from the coach also in the questionnaire statistics                                           |                             |
 | Check-list     | personal checklist visible; checklist management including evaluation and download, no creation of checkboxes                |                             |
-| Videoaufgabe| Alle Versuche abspielen, bewerten, Versuchsanzahl zurücksetzen |     |
-| Formular| Formulardaten exportieren, Daten zurücksetzen, wieder öffnen|  | 
-| Übung| Ergebnisse ansehen, Daten zurücksetzen = Kursbesitzer|  | 
+| Video task| Play all attempts, assess, Reset number of attempts |     |
+| Form| Export form data, Reset data, open again|  | 
+| Practice| View results, Reset data = Course owner|  | 
   
   
 ### Communication and collaboration  
@@ -43,22 +43,22 @@ Here you will find an overview of the rights of the coach.
 | Course element | Rights                      | Additional configuration options |
 | -------------- | --------------------------- | -------------------------------- |
 | Wiki| edit = participant|  | 
-| Forum| edit = open discussion topics, edit, delete posts, filter user, but do not create forums |Erweiterte Moderatorenrechte aktivierbar, Personenfilter  | 
-| File dialog | files: upload but not from the [storage folder](../learningresources/Storage_folder.md); forum part like course element "Forum" |Optional Moderatorenrechte für den Forenteil aktivierbar  | 
-| Participant folder |= Kursbesitzer   | access to all delivery folders; return folder, if enabled  | 
-| Participant list|= Kursbesitzer, PDF-Export, email and print|  | 
+| Forum| edit = open discussion topics, edit, delete posts, filter user, but do not create forums |Extended moderator rights can be activated, Person filter  | 
+| File dialogue | Create postings and file upload can be activated, but no access to the [storage folder](../learningresources/Storage_folder.md); forum part like course element forum; forum part like course element "Forum" |Optional moderator rights for the forum part can be activated  | 
+| Participant folder |= Course owner   | access to all delivery folders; return folder, if enabled  | 
+| Participant list|= Course owner, PDF-Export, email and print|  | 
 | Virtual Classrooms| moderation in VC (differences depending on VC)|  | 
   
   
-### Administration and Organisation  
+### Administration and Organization  
 
 | Course element | Rights                      | Additional configuration options |
 | -------------- | --------------------------- | -------------------------------- |  
-| Enrolement | enrol = participant|  | 
-| Notifications | konfigurierbar: create, edit, delete messages|Verwaltungsrechte aktivierbar = alle Mitteilungen editieren und löschen möglich  | 
+| Enrollment | enrol = participant|  | 
+| Notifications | configurable: create, edit, delete messages|Management rights can be activated = editing and deleting all messages possible  | 
 | E-mail | send e-mails = participant|  | 
 | Calender | create calendar entries possible|  | 
-| Terminplanung | konfigurierbar ob Termine bearbeiten, Termine (Anlass) erstellen  | optional Betreuer = Organisator, Termine bestätigen bzw. wieder öffnen   |   
+| Scheduling | configurable whether to edit appointments, Create dates (event)  | optional coach = Organizer, Confirm or reopen appointments   |   
   
   
 ### Other  
@@ -66,26 +66,26 @@ Here you will find an overview of the rights of the coach.
 | Course element | Rights                      | Additional configuration options |
 | -------------- | --------------------------- | -------------------------------- |  
 | LTI page| execute | depending on LTI  |  | 
-| Topic assignment | select = participant | create theme, manage everything |    
+| Topic assignment | select = participant | Individuals can become topic owners |    
 | Link list | read = participant |   | 
 
 !!! info "Info"
 
     By default, coaches do not have access to the course editor and therefore cannot create course elements or set them up in the course editor.
 
-## Kurs tools
+## Course tools
 
 The following tools are available to course coaches as standard.
 
 | Tool | Function  |  
 | --- | --- | 
-| Assessment tool| analogous to the course owner |  
-| Test Statistics| analogous to the course owner, but cannot display results of owners/coaches |  
-| Survey Statistics| analogous to the course owner |  
-| Lectures and absences| Record absences  | 
-| Unterlagen Betreuer| Ablage von Dokumenten  |
+| Assessment tool| analog to the course owner |  
+| Test Statistics| analog to the course owner, but cannot display results of owners/coaches |  
+| Survey Statistics| analog to the course owner |  
+| Lectures and absences| Enter absences  | 
+| Documents coach| Document storage  |
   
-The following tools can be activated for group coaches or also participants in the member administration under rights.
+The following tools can be activated for group coaches or also participants in the [Members management](../learningresources/Members_management.md) under rights.
 
 | Tool  | 
 | --- | 
@@ -94,17 +94,17 @@ The following tools can be activated for group coaches or also participants in t
 | Course editor  | 
 | Course archive  |  
 | Glossar tool  | 
-| Prüfungsmodus  |
+| Exam mode  |
 | Course DB  | 
   
-Course coaches do not have access to the following functions.
+Course coaches *do not* have access to the following functions.
 
 | Function |  |  
 | --- | --- | 
 | Storage folder | Filing the files and html pages of the course  | 
 | Learning area |  | 
 | Change course info |  | 
-| Access configuration | Angebot erstellen usw.    | 
+| Access configuration | Create offer etc.    | 
 | Catalogue | Add course to catalogue |   
 | Layout | Select layout for the course  | 
 | Options | Activating course tools like course calendar, chat, search  | 
@@ -114,7 +114,7 @@ Course coaches do not have access to the following functions.
 | Copy | Copy the course  | 
 | Export content | Export the course |  
 | Life cycle: close/delete | Set course to status finished or delete  | 
-|Herkömmliche Kurse in Lernpfad-Kurse konvertieren|   |
+|Convert traditional courses to learning path courses|   |
   
 
   

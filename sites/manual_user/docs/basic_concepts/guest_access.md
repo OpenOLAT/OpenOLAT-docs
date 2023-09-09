@@ -2,7 +2,7 @@
 
 ![Guest login](assets/guestlogin_en.png){ class="shadow lightbox aside-right-lg" }
 
-Beside system users a guest access can be enabled. Guests are anonymous, not
+Beside OpenOlat users a guest access can be enabled. Guests are anonymous, not
 registered users, which cannot be managed in the [user management](../../manual_admin/usermanagement/index.md).
 
 In order to grant guests access the guest login has to be activated by the
@@ -25,15 +25,15 @@ In a course, the course owner can set up the access configuration in the
 
 The following course elements can be seen by guests:
 
-  * **Read only**: CP learning content, blog, wiki, forum, notifications, calendar, single page, external page, file dialog, link list
+  * Read **only**: CP learning content, blog, wiki, forum, notifications, calendar, single page, external page, file dialog, link list
   * **Forum**: In the course editor it can be defined by the course owner, if guests should be allowed to create forum entries
-  * **Watch podcast and video**
+  * Watch **podcast and video**
   * **Participant folder**: same as normal user
   * **SCORM**: do
   * **Test**: do it depending on configuration
-  * **Self-test**: do it (even if option is not selected)
-  * An **BigBlueButton**, **OpenMeetings** u.ä. Meetings teilnehmen
-  * **Surveys** edit
+  * **Self test**: do (even if option is not selected)
+  * Participate in **BigBlueButton**, **OpenMeetings** and similar meetings
+  * Edit **Surveys**
 
 If you want to give a guest a direct access to a course, you can send him the
 external link for the course. 
@@ -41,7 +41,7 @@ external link for the course.
 ![Info page](assets/guest_infopage.png)
 
 
-!!! tip "Tipp: Alternative to guests"
+!!! tip "Tip: Alternative to guests"
 
     If you want to invite someone to an OpenOlat course who does not yet have an OpenOlat account, you can alternatively use the option "Invite external members" in the member administration. The invited person will then receive a registration link and limited access to OpenOlat, but has more possibilities than a guest. 
   

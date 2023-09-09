@@ -93,12 +93,12 @@ The course roles participants as well as the coaches also stand for the group pa
 |                                                             | Curriculum<br/>owner |  Curriculum<br/>element owner | Class teacher     |
 | ----------------------------------------------------------- | :----------------------: | :-----------------------------: | :---------------: |
 | **Access by status**                                                                                                                      |
-| ![Vorbereitung](assets/s_prep_DE.png){ width=90px }         | :material-cancel:        | :material-cancel:               | :material-cancel: |
-| ![Review](assets/s_rev_DE.png){ width=56px }                | :material-cancel:        | :material-cancel:               | :material-cancel: |
-| ![Freigabe Betreuer](assets/s_acc_co_DE.png){ width=120px } | :material-cancel:        | :material-cancel:               | :material-cancel: |
-| ![Veröffentlicht](assets/s_publ_DE.png){ width=100px }      | :material-cancel:        | :material-cancel:               | :material-cancel: |
-| ![Beendet](assets/s_fin_DE.png){ width=63px }               | :material-cancel:        | :material-cancel:               | :material-cancel: |
-| ![Papierkorb](assets/s_trash_DE.png){ width=80px }          | :material-cancel:        | :material-cancel:               | :material-cancel: |
+| ![Preparation](assets/Preparation.png){ width=90px }         | :material-cancel:        | :material-cancel:               | :material-cancel: |
+| ![Review](assets/Review.png){ width=56px }                | :material-cancel:        | :material-cancel:               | :material-cancel: |
+| ![Access for coach](assets/Access%20for%20coach.png){ width=120px } | :material-cancel:        | :material-cancel:               | :material-cancel: |
+| ![Published](assets/Published.png){ width=100px }      | :material-cancel:        | :material-cancel:               | :material-cancel: |
+| ![Finished](assets/Finished.png){ width=63px }               | :material-cancel:        | :material-cancel:               | :material-cancel: |
+| ![Trash](assets/Trash.png){ width=80px }          | :material-cancel:        | :material-cancel:               | :material-cancel: |
 | **Admin tools**                                                                                                                              |
 | Members management                                        | :material-cancel:        | :material-cancel:               | Reading            |
 | Assessment tool                                          | :material-cancel:        | :material-cancel:               | Full access       |

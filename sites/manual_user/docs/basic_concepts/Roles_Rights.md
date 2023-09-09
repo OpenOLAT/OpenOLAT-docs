@@ -4,10 +4,10 @@
 
 ### User types
 
-OpenOlat works with a roles and rights management. First two user types are differentiated. These are:
+OpenOlat works with a roles and rights management. First, two user types are differentiated. These are:
 
 * **Anonymous guest:** Guests have - without registration - limited access to OpenOlat. They can only have a look at learning content enabled for guests, but cannot take part in learning activities. The link to the guest access can be found on the login page. Further information about guest can be found [here](guest_access.md).
-* **System user:**  Every user has a distinct username, which cannot be changed after the registration anymore. Users can use enabled learning content and can take part in learning activities. Additionally every users has an individual configurable landing page and [storage](../personal_menu/Personal_folders.md) available. Further more he can create [groups](../groups/index.md).
+* **System user:**  Every user has a distinct username, which cannot be changed after the registration anymore. Users can use enabled learning content and can take part in learning activities. Additionally every users has an individual configurable landing page and [storage](../personal_menu/Personal_folders.md) available. Furthermore he can create [groups](../groups/index.md).
 
 !!! info "Note"
 
@@ -26,8 +26,8 @@ Here is an overview of all OpenOlat roles.
 * **Author**: The author has access to the authoring area. This allows the author to create courses and all other learning resources. In the search mask the author finds all courses and learning resources such as tests, films and portfolio templates which are accessible to authors. This role is often assigned to teachers or e-learning managers.
 * **User manager**: The user manager has access to the [User management](../../manual_admin/usermanagement/index.md) and all users of the own organization. He or she can create, edit and inactivate users. Furthermore he or can assign the Author role.
 * **Role manager**: The role administrator has access to the user administration and all users of his or her own organization. Apart from the roles Administrator and System Administrator, he/she can change, assign and remove all user roles.
-* **Group manager**: The group manager has access to the group section and in there the tab [Group management](../groups/Group_Administration.md).
-* **Question bank manager**: The question bank manager has access to the [Question bank](../area_modules/Question_Bank.md). In there he is able to open the administration section.
+* **Group manager**: The group manager has access to the group section and in there the tab [Group Administration](../groups/Group_Administration.md).
+* **Question bank manager**: The question bank manager has access to the [Question Bank](../area_modules/Question_Bank.md). In there he is able to open the administration section.
 * **Curriculum manager**: The curriculum manager has access to [Curriculum Management](../area_modules/Curriculum_Management.md) and can create new curricula and manage existing ones. If the curriculum manager is assigned to an organization, he or she only has access to the curricula of this organization.
 * **Lectures manager**: Configuration of the ["Lectures and absences"](../learningresources/Lectures_and_absences.md) module.
 * **Project manager**

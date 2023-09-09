@@ -4,8 +4,7 @@
 
 Neben registrierten Benutzern können auch Personen ohne OpenOlat Account als
 Gäste Zugang zum System erhalten. Gäste sind anonyme, nicht registrierte
-Benutzer, welche in der [Benutzerverwaltung](../../manual_admin/usermanagement/index.de.md) nicht
-verwaltet werden können.  
+Benutzer, welche in der [Benutzerverwaltung](../../manual_admin/usermanagement/index.de.md) nicht verwaltet werden können.  
 
 Damit Gäste Zugang erhalten, muss der Gastlogin vom Administrator der OpenOlat
 Instanz aktiviert werden. Auch kann konfiguriert werden auf welche OpenOlat
@@ -28,7 +27,7 @@ In einem herkömmlichen Kurs kann der Kursbesitzer die Zugangskonfiguration in d
 
 Folgende Kursbausteine kann ein Gast sehen bzw. teilweise bearbeiten:
 
-  * Nur **lesen**: CP Lerninhalt, Blog, Wiki, Mitteilung, Kalender, Einzelseite, externe Seite, Dateidiskussion, Linkliste
+  * Nur **lesen**: CP Lerninhalt, Blog, Wiki, Forum, Mitteilung, Kalender, Einzelseite, externe Seite, Dateidiskussion, Linkliste
   * **Forum**: Der Kursitzer kann im Kurseditor einstellen, ob auch Gäste Forenbeiträge erstellen dürfen
   * **Podcast und Video** schauen
   * **Ordner**: Dateien herunterladen

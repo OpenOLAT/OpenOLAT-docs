@@ -44,7 +44,7 @@ Hier finden Sie eine Übersicht über die Rechte des Betreuers.
 | --- | --- | --- |
 | Wiki| bearbeiten = TN konfigurierbar|  |  
 | Forum| Postings erstellen aktivierbar = Diskussionsthemen eröffnen, bearbeiten, Beiträge löschen, Personenfilter, aber keine Foren erstellen | Erweiterte Moderatorenrechte aktivierbar, Personenfilter |   
-| Dateidiskussion| Postings erstellen und Datei Upload aktivierbar, aber kein zugriff auf den Ablageordner; Forenteil wie Kursbaustein Forum  | Optional Moderatorenrechte für den Forenteil aktivierbar |   
+| Dateidiskussion| Postings erstellen und Datei Upload aktivierbar, aber kein Zugriff auf den [Ablageordner](../learningresources/Storage_folder.de.md); Forenteil wie Kursbaustein Forum  | Optional Moderatorenrechte für den Forenteil aktivierbar |   
 | Teilnehmer Ordner| = Kursbesitzer | Zugriff auf alle Abgabeordner; Rückgabeordner, wenn aktiviert  |
 | Teilnehmerliste | = Kursbesitzer, Download, E-Mail, PDF-Export und Drucken |  |   
 | Virtuelles Klassenzimmer | Moderation im VC (Unterschiede je nach VC)|  |
@@ -84,7 +84,7 @@ Folgende Werkzeuge stehen den Kursbetreuern standardmässig zur Verfügung.
 |Absenzen| Eintragen von Absenzen  |
 | Unterlagen Betreuer| Ablage von Dokumenten  |
 
-Folgende Werkzeuge können für (Gruppen-)betreuer oder Teilnehmende in der Mitgliederverwaltung unter Rechte zusätzlich aktiviert werden.
+Folgende Werkzeuge können für (Gruppen-)betreuer oder Teilnehmende in der [Mitgliederverwaltung](../learningresources/Members_management.de.md) unter Rechte zusätzlich aktiviert werden.
 
 |Werkzeug | 
 |---  |

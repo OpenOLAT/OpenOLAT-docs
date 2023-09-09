@@ -11,8 +11,7 @@ ist, müssen Sie sich erneut einloggen. Alle nicht gespeicherten Daten gehen
 dabei verloren. Speichern Sie deshalb Ihre Arbeit regelmässig.
 
 Sie können sich jederzeit über das Logout-Icon oben rechts wieder aus OpenOlat
-ausloggen. So gelangen Sie zurück zur [Login-Seite](../login_registration/Login_Page.de.md). Wenn
-Sie sich nicht ausloggen, sondern das Browserfenster oder den Browser
+ausloggen. So gelangen Sie zurück zur [Login-Seite](../login_registration/Login_Page.de.md). Wenn Sie sich nicht ausloggen, sondern das Browserfenster oder den Browser
 schliessen, läuft Ihre Session bis zum Session-Timeout weiter.
 
 Wenn Sie OpenOlat in öffentlichen Arbeitsplätzen verwenden, ist es wichtig,
