@@ -1,11 +1,8 @@
 # Catalog 1.0
 
-The Catalog 1.0 can be set up by an administrator or catalog administrator, so that authors can sort courses and other learning
-resources into the catalog in a meaningful way. The order of catalog entries
-can be defined by the administrator or catalog administrator.
+The Catalog 1.0 can be set up by an administrator or catalog administrator, so that authors can sort courses and other learning resources into the catalog in a meaningful way. The order of catalog entries can be defined by the administrator or catalog administrator.
 
-OpenOlat users can use the catalog to search for specific courses and learning
-resources.
+OpenOlat users can use the catalog to search for specific courses and learning resources.
 Use the search mask in case you should not find the appropriate course in the
 catalog. It may be that the course author has not yet listed that course in
 the OpenOlat catalog.
@@ -24,9 +21,7 @@ settings of the learning resource:
 User's role | Access settings|Publication status
 ---|---|---  
 Owner of learning resource| Private, Bookable, Open| Always visible  
-Coach of learning resource| Private, Bookable, Open|  "Access for coach",
-"Published" oder "Finished"  
-Participant of learning resource| Private, Bookable, Open| "Published" or
-"Finished"  
+Coach of learning resource| Private, Bookable, Open|  "Access for coach", "Published" oder "Finished"  
+Participant of learning resource| Private, Bookable, Open| "Published" or "Finished"  
 All OpenOlat users| Bookable, Open| "Published" or "Finished"  
 Guests| Open & Access without login enabled| "Published" or "Finished"  

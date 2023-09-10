@@ -2,7 +2,7 @@
 
 ## Tab Einstellungen
 
-Hier können sie das Modul des Kataloges einstellen. Entweder sie deaktivieren den Katalog oder benutzen Version 1 oder Version 2. Je nachdem welche Option Sie wählen erscheinen unterschiedliche weitere Tabs.
+Hier können Administratoren das Modul des Kataloges einstellen. Man kann den Katalog V1 oder V2 aktivieren oder ihn komplett deaktivieren. Je nachdem welche Option Sie wählen erscheinen unterschiedliche weitere Tabs.
 
 ## Konfiguration des Katalogs V1 
 

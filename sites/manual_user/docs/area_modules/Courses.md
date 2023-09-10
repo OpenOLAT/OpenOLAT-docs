@@ -6,9 +6,7 @@ main navigation at the top.
 
 ## My courses
 
-Under "My Courses", you can view all courses and learning resources (Current
-Courses), view only the courses you've marked as favorites (Favorites), view
-courses that have already finished (Finished), or use the search to find a
+Under "My Courses", you can view all courses and learning resources that are active, in preparaion or finished. Or use the search to find a
 course or learning resource based on a keyword.
 
 You can also filter your courses based on various criteria, including the
@@ -39,8 +37,17 @@ the course directly in your favorites.
 
 ## Catalog
 
+Wird der OpenOlat Katalog 1.0 in Ihrer Instanz verwendet sehen Sie den Tab "Katalog" im Bereich der Kurse. 
+
 The OpenOlat catalog is similar to a paper version of the course catalog. The
 structure of the catalog can be set up by the OpenOlat administrator.
+Für OpenOlat Benutzer bietet sich der Katalog für die Suche nach bestimmten Kursen und Lernressourcen an. Weitere Informationen zum Katalog 1.0  finden Sie [hier](../area_modules/catalog1.0.md).
+
+!!! Info 
+
+    Ist der Katalog generell deaktiviert erscheint der Menüpunkt _nicht_. 
+    Wird der [Katalog 2.0](../area_modules/catalog2.0.md) :octicons-tag-24: Release 17.0 verwendet dann erscheint der Katalog als eigener Menüpunkt in der obersten Navigation und nicht unter "Kurse". 
+
 
 ## Curriculum
 

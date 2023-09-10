@@ -21,14 +21,14 @@
 
 ## Wo finde ich den OpenOlat-Katalog?
 
-OpenOlat-Benutzer sehen in der Kopfzeile meistens „Kurse“ und „Gruppen“, wenn sie Teilnehmer sind. Autoren sehen zusätzlich den „Autorenbereich“. Aber die Optionen in der Kopfzeile können variieren. Je nach Rolle oder aktivierten Modulen, können weitere Einträge in der Kopfzeile dazu kommen. So z.B. auch der Katalog. Wurde von ihrem Administrator der Katalog aktiviert, finden Sie den Eintrag „Katalog“ im Menü der Kopfzeile.	Wird kein Katalog im Menü angezeigt, wenden Sie sich bitte an Ihren Administrator.
+OpenOlat-Benutzer sehen in der Kopfzeile meistens „Kurse“ und „Gruppen“, wenn sie Teilnehmer sind. Autoren sehen zusätzlich den „Autorenbereich“. Aber die Optionen in der Kopfzeile können variieren. Je nach Rolle oder aktivierten Modulen, können weitere Einträge in der Kopfzeile dazu kommen. So z.B. auch der Katalog. Wurde von ihrem Administrator der [Katalog (Version 2.0)](../../../manual_user/docs/area_modules/catalog2.0.de.md) aktiviert, finden Sie den Eintrag „Katalog“ im Menü der Kopfzeile.	Wird kein Katalog im Menü angezeigt, wenden Sie sich bitte an Ihren Administrator.
 
 ![katalog_menu_kopfzeile_v1_de.png](assets/katalog_menu_kopfzeile_v1_de.png){ class="shadow lightbox" }  
 
 !!! tip "Hinweis"
 
-    In OpenOlat gibt es 2 Versionen des Katalogs: Katalog 1.0 und Katalog 2.0
-	Die nachstehenden Ausführungen beschreiben das Vorgehen im Katalog 2.0.
+    In OpenOlat gibt es 2 Versionen des Katalogs: [Katalog 1.0](../../../manual_user/docs/area_modules/catalog1.0.de.md) und [Katalog 2.0](../../../manual_user/docs/area_modules/catalog2.0.de.md).
+	Die nachstehenden Ausführungen beschreiben das Vorgehen im **Katalog 2.0**.
 
 ---
 
@@ -38,15 +38,13 @@ Der OpenOlat-Katalog listet **Kurzbeschreibungen zu Kursen und Lernressourcen** 
 
 ![katalog_community_v1_de.png](assets/katalog_community_v1_de.png){ class="shadow lightbox" } 
 
-Die Angaben in den Kurzbeschreibungen werden jeweils den Angaben entnommen, die Autoren beim Erstellen eines Kurses oder einer Lernressource in den Einstellungen machen.<br>
-**Administration > Einstellungen > Tab "Info" + Tab "Metadaten"**<br>
-Meistens sind es Angaben, die Kursteilnehmer auch auf der Infoseite zu einem Kurs finden.
+Die Angaben in den Kurzbeschreibungen werden jeweils den Angaben entnommen, die Autoren beim Erstellen eines Kurses oder einer Lernressource in den [Einstellungen](../../../manual_user/docs/learningresources/Course_Settings.de.md) (Tab "Info" + Tab "Metadaten"). Meistens sind es Angaben, die Kursteilnehmenden auch auf der Infoseite zu einem Kurs finden.
 
-Die **Gestaltung** des Katalogs wird vom **Administrator** festgelegt. Wurde z.B. bestimmt, dass in den Katalogeinträgen eine Angabe zum Durchführungsformat angezeigt werden soll, holt sich OpenOlat diese Information aus den Angaben der Autorin / des Autors unter „Einstellungen“ und zeigt sie an der vorgesehenen Stelle auf der Katalogkachel an.
+Die **Gestaltung** des Katalogs wird vom [Administrator](../../../manual_admin/docs/administration/Modules_Catalog_2.0.de.md) festgelegt. Wurde z.B. bestimmt, dass in den Katalogeinträgen eine Angabe zum Durchführungsformat angezeigt werden soll, holt sich OpenOlat diese Information aus den Angaben der Autorin / des Autors unter „Einstellungen“ und zeigt sie an der vorgesehenen Stelle auf der Katalogkachel an.
 
 ![kurs_einstellungen_v1_de.png](assets/kurs_einstellungen_v1_de.png){ class="shadow lightbox" } 
 
-Angaben, die im Katalog-Layout nicht vorgesehen sind, können also nicht von den Autor:innen völlig frei ergänzt werden. Das garantiert aber andererseits ein einheitliches geordnetes Aussehen des Katalogs. Wenden Sie sich an Ihren Administrator, wenn Sie Wünsche zur Gestaltung der Katalog-Kacheln haben.
+Angaben, die im Katalog-Layout nicht vorgesehen sind, können also beim Katalog 2.0 nicht von den Autor:innen völlig frei ergänzt werden. Das garantiert aber andererseits ein einheitliches geordnetes Aussehen des Katalogs. Wenden Sie sich an Ihren Administrator, wenn Sie Wünsche zur Gestaltung der Katalog-Kacheln haben.
 
 
 ---
@@ -55,15 +53,13 @@ Angaben, die im Katalog-Layout nicht vorgesehen sind, können also nicht von den
 
 Es werden nicht automatisch alle vorhandenen Kurse und Lernressourcen im Katalog aufgeführt. Ob ein Katalogeintrag erzeugt wird, entscheidet die Autorin oder der Autor des Kurses.
 
-<b>Die Autorin / der Autor  muss dazu
+Die Autorin / der Autor  muss dazu
 
-a) den Kurs für den Katalog frei geben und
+a) den Kurs für den Katalog **frei geben** und
 
-b) ein Angebot formulieren, mit dem der Kurs oder die Lernressource im Katalog beworben wird.
-</b>
+b) ein [Angebot formulieren](../../../manual_user/docs/learningresources/Access_configuration.de.md), mit dem der Kurs oder die Lernressource im Katalog beworben wird.
 
-<br>
-Wählen Sie Ihren Kurs und dann das Icon „Administration“. Dort finden Sie unter „Einstellungen“ auch den Reiter „Freigabe“.
+Gehen Sie in die Administration Ihres Kurses. Dort finden Sie unter „Einstellungen“ auch den Reiter „Freigabe“.
 
 ![kurs_freigabe_v1_de.png](assets/kurs_freigabe_v1_de.png){ class="shadow lightbox" }
 
@@ -78,7 +74,7 @@ Ob und wo der Kurs im Katalog erscheint, wird dann im zweiten Schritt durch die 
 
 !!! tip "Hinweis"
 
-    Man könnte annehmen, dass nur Kurse mit dem Status „Veröffentlicht“ im Katalog enthalten sein können. Im Katalog 2.0 können jedoch auch bereits Angebote angezeigt werden, wenn die Kurse noch nicht veröffentlicht sind und erst ab einem bestimmten Zeitpunkt zugänglich werden.
+    Man könnte annehmen, dass nur Kurse mit dem Status „Veröffentlicht“ im Katalog enthalten sein können. Im Katalog 2.0 können jedoch auch bereits Angebote angezeigt werden, wenn die Kurse noch nicht veröffentlicht sind und erst ab einem bestimmten Zeitpunkt zugänglich werden!
 
 ---
 
@@ -86,7 +82,8 @@ Ob und wo der Kurs im Katalog erscheint, wird dann im zweiten Schritt durch die 
 
 !!! tip "Hinweis"
 
-    Vor OpenOlat 17 ist in den Einstellungen ein Reiter „Katalog“ enthalten und es konnten noch keine Angebote erstellt werden. In aktuelleren OpenOlat-Versionen werden die Einstellungen für die Anzeige im Katalog im Reiter „Freigabe“ gemacht. (In Form von Angeboten.)
+    Vor OpenOlat 17 und generell bei der Verwendung des Katalog 1.0 ist in den Einstellungen ein Reiter „Katalog“ enthalten und es konnten noch keine Angebote erstellt werden. 
+    Bei Verwendung des Katalog 2.0 ab OpenOlat 17 werden die Einstellungen für die Anzeige im Katalog im Reiter „Freigabe“ gemacht (in Form von Angeboten.)
 
 Klicken Sie auf den Button „Angebot hinzufügen“, erhalten Sie eine Vorauswahl möglicher Angebotstypen.
 

@@ -23,9 +23,7 @@ Lernressource:
 Benutzerrolle| Freigabeeinstellung| Publikationsstatus  
 ---|---|---  
 Besitzer der Lernressource| Privat, Buchbar, Offen| immer sichtbar  
-Betreuer der Lernressource| Privat, Buchbar, Offen|  "Freigabe Betreuer",
-"Veröffentlicht" oder "Beendet"  
-Teilnehmer der Lernressource| Privat, Buchbar, Offen| "Veröffentlicht" oder
-"Beendet"  
+Betreuer der Lernressource| Privat, Buchbar, Offen|  "Freigabe Betreuer", "Veröffentlicht" oder "Beendet"  
+Teilnehmer der Lernressource| Privat, Buchbar, Offen| "Veröffentlicht" oder "Beendet"  
 Alle OpenOlat Benutzer| Buchbar, Offen| "Veröffentlicht" oder "Beendet"  
 Gäste| Offen & Gastzugang aktiviert| "Veröffentlicht" oder "Beendet"  

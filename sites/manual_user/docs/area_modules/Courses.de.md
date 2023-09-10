@@ -8,10 +8,8 @@ Hauptnavigation oben auf den Punkt „Kurse“.
 
 ## Meine Kurse
 
-Unter "Meine Kurse" können Sie sich alle Kurse und Lernressourcen anzeigen
-lassen (Aktuelle Kurse), nur die Kurse anzeigen lassen, die Sie selbst als
-Favorit gekennzeichnet haben (Favoriten), Kurse die schon beendet sind
-(Beendet) oder Sie nutzen die Suche um einen Kurs bzw. eine Lernressource
+Unter "Meine Kurse" können Sie sich standardmässig alle Kurse und Lernressourcen anzeigen
+lassen die aktiv, in Vorbereitung oder beendet sind. Sie können auch Favoriten markieren und sich nur die Favoriten anzeigen lassen. Oder Sie nutzen die Suche um einen Kurs bzw. eine Lernressource
 basierend auf einem Stichwort zu finden.
 
 Ihre Kurse können Sie auch anhand verschiedener Kriterien filtern, darunter
@@ -44,20 +42,17 @@ Sie den Kurs dann direkt in Ihren Favoriten.
 
 ## Katalog
 
-Der OpenOlat Katalog ähnelt einem Vorlesungsverzeichnis in Papierform. Der
-Aufbau des Katalogs kann vom OpenOlat Administrator eingerichtet werden.
-Für OpenOlat Benutzer bietet sich der Katalog für die Suche nach bestimmten
-Kursen und Lernressourcen an.
+Wird der OpenOlat Katalog 1.0 in Ihrer Instanz verwendet sehen Sie den Tab "Katalog" im Bereich der Kurse. 
 
-### Katalog 1.0
+Der OpenOlat Katalog ähnelt einem Vorlesungsverzeichnis in Papierform. Der Aufbau des Katalogs kann vom OpenOlat Administrator eingerichtet werden. Für OpenOlat Benutzer bietet sich der Katalog für die Suche nach bestimmten Kursen und Lernressourcen an. Weitere Informationen zum Katalog 1.0  finden Sie [hier](../area_modules/catalog1.0.de.md).
 
-### Katalog 2.0
+!!! Info 
 
-:octicons-tag-24: Release 17.0 
+    Ist der Katalog generell deaktiviert erscheint der Menüpunkt _nicht_. 
+    Wird der [Katalog 2.0](../area_modules/catalog2.0.de.md) :octicons-tag-24: Release 17.0 verwendet dann erscheint der Katalog als eigener Menüpunkt in der obersten Navigation und nicht unter "Kurse". 
 
 
 ## Curriculum
 
-Verfügt ein User auch über Kurse, die einem [Curriculum
-](Curriculum_Management.de.md)zugeordnet sind, erscheint im Menü "Kurse" auch
+Verfügt ein User auch über Kurse, die einem [Curriculum](Curriculum_Management.de.md)zugeordnet sind, erscheint im Menü "Kurse" auch
 der Bereich "Lehrgänge".

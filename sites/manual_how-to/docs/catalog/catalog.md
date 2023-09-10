@@ -22,14 +22,14 @@
 
 ## Where do I find the OpenOlat catalog?
 
-OpenOlat users mostly see "Courses" and "Groups" in the header if they are participants. Authors additionally see "Authoring". But the options in the header can vary. Depending on the role or activated modules, more entries can be added to the header. For example, the catalog. If the catalog has been activated by your administrator, you will find the entry "Catalog" in the menu of the header.	If no catalog is displayed in the menu, please contact your administrator.
+OpenOlat users mostly see "Courses" and "Groups" in the header if they are participants. Authors additionally see "Authoring". But the options in the header can vary. Depending on the role or activated modules, more entries can be added to the header, for example, the catalog. If the [catalog 2.0](../../../manual_user/docs/area_modules/catalog2.0.md) has been activated by your administrator, you will find the entry "Catalog" in the menu of the header.	If no catalog is displayed in the menu, please contact your administrator.
 
 ![catalog_menu_header_v1_en.png](assets/catalog_menu_header_v1_en.png){ class="shadow lightbox" }  
 
 !!! tip "Note"
 
-    In OpenOlat there are 2 versions of the catalog: catalog 1.0 and catalog 2.0
-	The following describes the procedure in catalog 2.0.
+    In OpenOlat there are 2 versions of the catalog: [catalog 1.0](../../../manual_user/docs/area_modules/catalog1.0.md) and [catalog 2.0](../../../manual_user/docs/area_modules/catalog2.0.md).
+	The following describes the procedure in **catalog 2.0.**
 
 ---
 
@@ -39,11 +39,10 @@ The OpenOlat catalog lists **short descriptions of courses and learning resource
 
 ![catalog_community_v1_en.png](assets/catalog_community_v1_en.png){ class="shadow lightbox" } 
 
-The information in the short descriptions is taken from the information that authors provide when creating a course or learning resource in the settings.<br>
-**Administration > Settings > tab "Info" + tab "Metadata"**<br>
+The information in the short descriptions is taken from the information that authors provide when creating a course or learning resource in the [settings](../../../manual_user/docs/learningresources/Course_Settings.md) (tab "Info" + tab "Metadata") 
 In most cases, the information is the same information that course participants will find on the information page of the course.
 
-The **layout** of the catalog is determined by the **administrator**. If, for example, it has been determined that an indication of the execution format should be displayed in the catalog entries, OpenOlat retrieves this information from the author's details under "Settings" and displays it in the designated place on the catalog tile.
+The **layout** of the catalog is determined by the [administrator](../../../manual_admin/docs/administration/Modules_Catalog_2.0.md). If, for example, it has been determined that an indication of the execution format should be displayed in the catalog entries, OpenOlat retrieves this information from the author's details under "Settings" and displays it in the designated place on the catalog tile.
 
 ![course_settings_v1_en.png](assets/course_settings_v1_en.png){ class="shadow lightbox" } 
 
@@ -87,7 +86,9 @@ Whether and where the course appears in the catalog is then determined in the se
 
 !!! tip "Note"
 
-    Before OpenOlat 17, there was a tab "Catalog" in the settings and no offers could be created yet. In more recent OpenOlat versions, the settings for display in the catalog are made in the "Share" tab. (In the form of offers.)
+    Before OpenOlat 17 und generell bei der Verwendung des Katalog 1.0 , there was a tab "Catalog" in the settings and no offers could be created yet. 
+    Bei Verwendung des Katalog 2.0 ab OpenOlat 17 
+   the settings for display in the catalog are made in the "Share" tab (In the form of offers.)
 
 
 If you click the "Add offer" button, you will get a pre-selection of possible offer types.
