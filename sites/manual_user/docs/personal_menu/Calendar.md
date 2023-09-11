@@ -18,9 +18,9 @@ For the "Event details" a subject as well as a start and end date are mandatory.
 
 !!! info "Note"
 
-    Links to course elements, entries in the library or external documents can only be added in a second step after the initial calendar entry creation.
+    Links to course elements, entries in the library or external documents can only be added in a **second step** after the initial calendar entry creation.
     
-    Links to course elements can only be created within the course calendar. All other calendars will display the message: _Link not possible._
+    Links to course elements can only be created within the course calendar. All other calendars will display the message: _Link not possible_.
 
 ![Calendar linking](assets/calendar_connection_EN.png){ class="shadow lightbox" }
 
@@ -54,7 +54,7 @@ In a group calendar group participants will see all entries of group members, no
 
 ### Calendar list
 
-The button „Settings“ opens the calendar list, which allows you to (de)activate each single calendar and decide which calendar should be presented in what color.
+The button "Settings" opens the calendar list, which allows you to (de)activate each single calendar and decide which calendar should be presented in what color.
 
 ![Calendar settings](assets/calendar.gif){ class="shadow lightbox" }
 

@@ -11,7 +11,7 @@ Instanz aktiviert werden. Auch kann konfiguriert werden auf welche OpenOlat
 Bereiche Gäste Zugriff haben und auf welche nicht. Diese Basis-Einstellungen
 sind nur durch den Systemadministrator möglich.
 
-Grundsätzlich können diverse Lernressourcen z.B.  Wikis, Blogs, Glossare, Tests, Videos oder Glossare für Gäste freigeschaltet werden.  
+Grundsätzlich können diverse Lernressourcen z.B.  Wikis, Blogs, Tests, Videos oder Glossare für Gäste freigeschaltet werden.  
 
 ## Kursbereich  
 

@@ -20,7 +20,7 @@ you are online you do not want to answer to requests immediately.
 Not available: Select this status when you do not want to be contacted by
 other users. For other users you seem not to be online at all. You will still get sent messages and you can also reply immediately if you like to.
 
-By clicking on the round symbol you can change your Instant Messaging status. That way you can show other OpenOlat users if you would like to chat or not. While taking a test your status will automatically show the status "Please do not disturb." Only after that test you will be able to chat again.
+By clicking on the round symbol you can change your Instant Messaging status. That way you can show other OpenOlat users if you would like to chat or not. While taking a test your status will automatically show the status "Please do not disturb". Only after that test you will be able to chat again.
 
 If you basically want to have a status other than "Available" after logging in, you can change this in the personal menu → Settings → Instant Messaging (see "Personal Settings" below).
 
@@ -31,7 +31,7 @@ You will not see the two digits though if the direct chat with group peers has b
 
 Of course, this approach also works with the enabled chat in order to contact OpenOlat users that are not in your group peer list.
 
-Popular emoticons such as smiling, winking, cool, suprised or kissing are supported, as well as thumbs up ( + ) and down ( - )
+Popular emoticons such as smiling, winking, cool, suprised or kissing are supported, as well as thumbs up ( + ) and thumbs down ( - )
 
 ## Receiving messages
 Messages can be received in two ways: In case your Instant Message status is "Available" a chat window will open upon receiving a new message. If your status is "Please do not disturb" or "Not available", messages will appear as a small envelope on the left next to the chat icon that can be found on the top right of the menu bar.
@@ -41,7 +41,9 @@ When clicking on that small letter a chat window will open containing your messa
 In case you receive a message while being offline, the message will be stored. The next time you log on, it will appear as small blinking letter next to the chat icon.
 
 ## Manage group list contacts
-Contacts can be added or removed via the OpenOlat groups. Provided that you are the coach of a group you can invite or disinvite coaches or participants to your group. These persons will then appear on your group list of the OpenOlat chat if the group members display setting is properly configured. Group coaches are displayed in the contact list in bold face.How the members display settings can be modified is described in the [group administration](../groups/Group_Administration.md).
+Contacts can be added or removed via the OpenOlat groups. Provided that you are the coach of a group you can invite or disinvite coaches or participants to your group. These persons will then appear on your group list of the OpenOlat chat if the group members display setting is properly configured. Group coaches are displayed in the contact list in bold font.
+
+How the members display settings can be modified is described in the [group administration](../groups/Group_Administration.md).
 
 ## Join a group/course chat
 Links to chat rooms are found at different places in OpenOlat (e.g. group/course). Click on the link _Start chat_. A new window will be opened and you can start your group/course chat. If a chat history is available you can display it to learn what the discussion is about and what has already been said. Messages to a chat room are sent to all persons in that room. A list of all participants will be displayed next to your chat window. If you want to participate anonymously you can select a nick name. Chat participants will then not see your real identity. This option must be enabled by the system amdinistrator. It might not be available on your system. If you want to exit the chat room, just close that window.

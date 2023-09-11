@@ -1,6 +1,6 @@
 # Working with tables
 
-The tables in the courses section and in the author section (for authors)
+The tables in the [courses section](../area_modules/Courses.md) and in the [author section](../area_modules/Authoring.md) (for authors)
 offer various filter and setting options.
 
 
@@ -11,7 +11,7 @@ filter", "save filter" and "all filters" option. The filter menu can be
 expanded and collapsed by clicking on the small arrow.
 
 Filters are either selected from drop-down menus or entered into an input
-field. To apply a filter select the desired filter and then click "Update". To
+field. To apply a filter, select the desired filter and then click "Update". To
 remove a single filter click "Remove Filter" in the respective filter option.
 If you want to remove all filters, click on "Remove active filters" in the
 upper right corner.
@@ -37,12 +37,12 @@ Here you can save your currently active filter settings and quickly access
 them again. Your individual, saved filters are then displayed above the filter
 menu as filter tabs.
 
- **All filters**
+### Alle Filter
 
 Click on the "All Filters" option to display all available filter options in
 full screen mode. You can also set the individual filters there.
 
-![](assets/search.png){class="size24"}
+![filter menu](assets/Filtermenü_Tabelle.png)
 
 ## Filter tabs
 

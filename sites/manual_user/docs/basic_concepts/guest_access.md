@@ -1,6 +1,6 @@
 # Guest access
 
-![Guest login](assets/guestlogin_en.png){ class="shadow lightbox aside-right-lg" }
+![Guest login](assets/guestlogin_EN.png){ class="shadow lightbox aside-right-lg" }
 
 Beside OpenOlat users a guest access can be enabled. Guests are anonymous, not
 registered users, which cannot be managed in the [user management](../../manual_admin/usermanagement/index.md).
@@ -10,7 +10,7 @@ administrator of the OpenOlat instance. It is also possible to configure which
 OpenOlat areas guests have access to and which not. These basic settings can
 only be made by the system administrator.
 
-Generally, various learning resources, e.g. wikis, blogs, glossaries, tests, videos or glossaries can be unlocked for guests.  
+Generally, various learning resources, e.g. wikis, blogs, tests, videos or glossaries can be unlocked for guests.  
 
 ## Course level
 
@@ -35,7 +35,7 @@ The following course elements can be seen by guests:
   * Participate in **BigBlueButton**, **OpenMeetings** and similar meetings
   * Edit **Surveys**
 
-If you want to give a guest a direct access to a course, you can send him the
+If you want to give a guest a direct access to a course, you can send him/her the
 external link for the course. 
 
 ![Info page](assets/guest_infopage.png)

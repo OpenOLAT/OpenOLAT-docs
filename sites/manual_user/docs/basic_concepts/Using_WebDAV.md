@@ -1,6 +1,6 @@
 # Using WebDAV
 
-WebDAV means "Web-based Distributed Authoring and Versioning;" it is an open
+WebDAV means "Web-based Distributed Authoring and Versioning"; it is an open
 standard to transfer files online. OpenOlat supports this protocol and thus
 helps you to easily transfer files from your computer to OpenOlat folders.
 
@@ -20,7 +20,7 @@ Via WebDAV you can access the following OpenOlat folders. Thereby the structure 
   * [Folders of groups](../groups/Using_Group_Tools.md)
   * [Folder - course element](../learningresources/Course_Element_Folder.md)
   * [Storage folders](../learningresources/Storage_folder.md) of courses (course owners only)
-  * [Resource folders](../learningresources/index.md) (only Learning Resource Owner)
+  * [Resource folders](../learningresources/index.md#resource-folder) (only Learning Resource Owner)
 
 Who is allowed to upload files via WebDAV in the respective folders depends on the respective configuration.
 
@@ -37,7 +37,7 @@ In order to get access to a folder in OpenOlat via WebDAV you need:
   * Your OpenOlat/WebDAV password
 
 If you access OpenOlat via Shibboleth or another Cloud Login you can set your WebDAV password on your homepage, section "Settings." Just select the link "Settings" before
-clicking on the button "Set password" in the tab "WebDAV." If you already have an OpenOlat password you can use this one to access WebDAV.
+clicking on the button "Set password" in the tab "WebDAV." If you already have an OpenOlat password, you can use this one to access WebDAV.
 
 ## Troubleshooting
 
@@ -50,23 +50,24 @@ In case of problems, go through the following points:
     * Check if the quota has been exceeded (especially if several files have been uploaded together)
     * File names are limited to 100 characters
     * File names may not include several spaces after each other
-    * If umlauts are used in folder names, subfolders and contained documents may not be displayed
+    * If mutated vowels are used in folder names, subfolders and contained documents may not be displayed
 
 ## WebDAV Connection Setup
 
-??? abstract "Windows 10 (also 7, 8, 8.1)"
+??? abstract "Windows 10 (also 7 + 8)"
 
-    1. Click on "Computer" in the start menu.
-    2. In the new window click on "Connect to network drive" in the upper menu bar. Click on the double arrow in the menu bar if "Connect to network drive" is not visible, then click on it.
-    3. Choose a drive letter for the connection.
-    4. At the bottom select the option "Establish connection with a website."
-    5. Click on "Next."
-    6. Choose the option "Select user-defined network resource."
-    7. Click on "Next."
-    8. Indicate your WebDAV link as Internet or network address.
-    9. Click on "Next."
-    10. Now provide your OpenOlat username or the stored email address and password.
-    11. Click on "Finish."
+    1. Start the Windows Explorer
+    2. Click on "Computer" in the start menu.
+    3. In the new window click on "Connect to network drive" in the upper menu bar. Click on the double arrow in the menu bar if "Connect to network drive" is not visible, then click on it.
+    4. Choose a drive letter for the connection.
+    5. At the bottom select the option "Establish connection with a website."
+    6. Click on "Next."
+    7. Choose the option "Select user-defined network resource."
+    8. Click on "Next."
+    9. Indicate your WebDAV link as Internet or network address.
+    10. Click on "Next."
+    11. Now provide your OpenOlat username or the stored email address and password.
+    12. Click on "Finish."
 
 ??? abstract "Windows Vista"
 

@@ -1,30 +1,30 @@
 # Math formula {: #formula}
 
-Formula can be inserted in OpenOlat in various places. Verwendet wird dabei entweder der HTML-Editor oder Content-Editor.
+Formulas can be inserted in OpenOlat in various places. Either the HTML editor or the content editor is used.
 
 ## Insert math formula via HTML Editor
 
-1. You insert the math formula via `Insert>Insert math formula` in the contenxt menu of the rich text editor/ html editor or directly via formula button, if available. A new popup window will open.
+1. You insert the math formula via `Insert>Insert math formula` in the context menu of the html editor or directly via formula button, if available. A new popup window will open.
 
-    ![explanation for insert math formula](assets/mathjax-html.jpg){class="shadow"}
+    ![explanation to insert math formula](assets/mathjax-html.jpg){class="shadow"}
 
 2. Type in the formula via the LaTeX editor or th graphical form editor. Further information on how to use the graphical editor can be found here: [CortexJS keybindings](https://cortexjs.io/mathlive/reference/keybindings/).
 
-    ![formula editor window](assets/Formeleditor_16_de.png){class="shadow"}
+    ![formula editor window](assets/Formeleditor_16_eng.png){class="shadow"}
   
-3.Close the html-editor with "Save".
+3. Close the html-editor with `Save`.
 The math formula is now embedded into the text.
 
    ![formula embedded](assets/mathjax-embedded.jpg){class="shadow"}
 
-Mathematische Formeln können in folgenden Kursbausteinen und Lernressourcen per HTML-Editor eingefügt werden:
+Mathematical formulas can be inserted in the following course elements and learning resources via HTML editor:
 
-* Kursbaustein Einzelne Seite
-* Kursbaustein Aufgabe + Gruppenaufgabe (HTML)
-* Kursbaustein Forum
-* Lernressource CP-Lerninhalt
-* Lernressource Blog
-* Lernressource Test   
+* Course element Single page
+* Course element Task + Group task (HTML)
+* Course element Forum
+* Learning resource CP learning content
+* Learning resource Blog
+* Learning resource Test   
 
 !!! info "Info: Wordcounting"
 
@@ -32,11 +32,11 @@ Mathematische Formeln können in folgenden Kursbausteinen und Lernressourcen per
 
 ## Insert a formula in Content Editor in the Portfolio 2.0
 
-1.  Öffnen oder erstellen Sie einen Portfolio Eintrag und Open the Content Editor. Click on add Content Block und Sie erhalten u.a. die Möglichkeit den Formeleditor auszuwählen.
+1.  Open or create a portfolio entry and open the Content Editor. Click on add Content Block and (among other things) you get the possibility to select the formula editor.
 
-    ![contenteditor-fragetyp](assets/mathjax-content-editor.jpg){class="shadow"}
+    ![content editor question type](assets/mathjax-content-editor.jpg){class="shadow"}
 
 2. Choose `Formula` in the menu.
 
-3. The graphical formular editor opens. Now you can create your ![formula](assets/Formeleditor_Portfolio_16_de.png){class="shadow"}.
+3. The graphical formula editor opens. Now you can create your ![formula](assets/Formeleditor_Portfolio_16_de.png){class="shadow"}.
 

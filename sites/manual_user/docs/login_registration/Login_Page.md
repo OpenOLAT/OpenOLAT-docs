@@ -2,7 +2,7 @@
 
   
 
-Login to OpenOlat is possible anytime through your organisation's access page.
+Login to OpenOlat is possible anytime through your organization's access page.
 Please consider that the access configuration can vary from OpenOlat instance
 to instance.
 
@@ -18,9 +18,9 @@ helpdesk.
 
 ## Guest Access
 
-You can use OpenOlat as guest as well. The so-called guest access provides an
+You can use OpenOlat as a guest as well. The so-called guest access provides an
 insight into OpenOlat with limited access to certain features: you will only
-get to learning content that is explicitly open to the public. In order to
+have access to learning content that is explicitly open to the public. In order to
 have access to other material and activities you will have to register first.
 Further information to the guest access can be found
 [here](../basic_concepts/guest_access.md).
@@ -30,7 +30,7 @@ Further information to the guest access can be found
 OpenOlat is optimized for the following browser software (mobile or desktop):
 
   * [Google Chrome](http://www.google.com/chrome/)
-  * [Apple Safari(http://www.apple.com/safari/)
+  * [Apple Safari](http://www.apple.com/safari/)
   * [Microsoft Edge](https://www.microsoft.com/edge)
   * [Firefox](http://www.mozilla.org/firefox/)
 
@@ -38,7 +38,7 @@ Internet Explorer in version 6 to 11 by Microsoft is not fully
 supported anymore. Microsoft dropped support for these versions, and security
 updates are no longer provided for. Should you use an older browser which is
 not supported anymore the corresponding warning will be shown by the login.
-They you can use OpenOlat at your own risk or update your browser. This
+Then you can use OpenOlat at your own risk or update your browser. This
 warning can be hidden through CSS by your system administrator.  
 
 ## Cookies & Javascript

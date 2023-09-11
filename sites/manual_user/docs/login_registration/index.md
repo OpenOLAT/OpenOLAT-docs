@@ -12,7 +12,7 @@ login page.
 
 In order to work with OpenOlat you need an internet connection as well as a
 [browser](Login_Page.md#LoginPage-login_browsercheck). The kind of the first
-registration as well as the concrete procedure varies depending of the
+registration as well as the concrete procedure varies depending on the
 OpenOlat instance. However, usually the procedure is visible on the
 corresponding OpenOlat login page. In the case of dubieties or queries please
 contact the local OpenOlat support of your organization. Concerning your first

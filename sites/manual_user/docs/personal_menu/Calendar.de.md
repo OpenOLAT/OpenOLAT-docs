@@ -21,13 +21,13 @@ Zu den "Termindetails" gehören verbindlich ein Titel sowie ein Start- und Endda
 
     Verknüpfungen zu Kurselementen, Einträgen in der Bibliothek oder die Verlinkung zu externen Dokumenten können erst in einem **zweiten Schritt** hinzugefügt werden, in dem Sie einen bestehenden Eintrag editieren.
     
-    Verknüpfungen zu Kursbausteinen können nur im Kurskalender erstellt werden. Bei den anderen Kalendern erscheint der Kommentar: _Keine Verknüpfung möglich._
+    Verknüpfungen zu Kursbausteinen können nur im Kurskalender erstellt werden. Bei den anderen Kalendern erscheint der Kommentar: _Keine Verknüpfung möglich_.
 
 ![Kalender Verknüpfungen](assets/calendar_verknuepfung_DE.png){ class="shadow lightbox" }
 
 !!! warning "Achtung"
 
-    Die Schaltfläche „Termin löschen“ in den Termindetails löscht den Termin endgültig. Der Termin kann nicht wieder hergestellt werden!
+    Die Schaltfläche "Termin löschen" in den Termindetails löscht den Termin endgültig. Der Termin kann nicht wieder hergestellt werden!
 
 
 
@@ -43,7 +43,7 @@ Auch Serientermine können bearbeitet werden. Nach dem Speichern der Anpassung k
 
 Legen Sie hier fest, wer den Kalendereintrag sehen darf.
 
-Je nach Kalenderart (Persönlicher Kalender, Gruppenkalender, Kurskalender) unterscheiden sich die Auswirkungen der drei Sichtbarkeitsstufen „Privat“, „Nur Zeit sichtbar“ und „Öffentlich“:
+Je nach Kalenderart (Persönlicher Kalender, Gruppenkalender, Kurskalender) unterscheiden sich die Auswirkungen der drei Sichtbarkeitsstufen "Privat", "Nur Zeit sichtbar" und "Öffentlich":
 
 || Persönlicher Kalender| Gruppenkalender| Kurskalender  
 ---|---|---|---  
@@ -60,9 +60,9 @@ kurspezifischen Kalendereinträge. Personen die nicht Mitglied der Gruppe sind, 
 
 ![Kalender Einstellungen](assets/Kalender_Einstellungen1.png){ class="shadow lightbox" }
 
-Über die Schaltfläche „Einstellungen“ öffnet sich die Kalenderliste, in der Sie die einzelnen Kalender ein- und ausblenden und angeben, welcher Kalender in welcher Farbe angezeigt werden soll.
+Über die Schaltfläche "Einstellungen" öffnet sich die Kalenderliste, in der Sie die einzelnen Kalender ein- und ausblenden und angeben, welcher Kalender in welcher Farbe angezeigt werden soll.
 
-In der Kalenderliste finden Sie alle in ihren aktuellen Kalender (Gruppe, Kurs oder persönlich) eingebundenen weiteren Kalender. Klicken Sie auf die Farbe um eine andere Farbe auszuwählen. Über die Spalten " **Sichtbar** " und " **Aggregiert** " bestimmen Sie ob der ausgewählte Kalender angezeigt werden soll, bzw. ob er in den aggregierten Kalenderfeed integriert wird.
+In der Kalenderliste finden Sie alle in ihren aktuellen Kalender (Gruppe, Kurs oder persönlich) eingebundenen weiteren Kalender. Klicken Sie auf die Farbe um eine andere Farbe auszuwählen. Über die Spalten "**Sichtbar**" und "**Aggregiert**" bestimmen Sie ob der ausgewählte Kalender angezeigt werden soll, bzw. ob er in den aggregierten Kalenderfeed integriert wird.
 
 Der aggregierte Kalender ist ein Sammelfeed, der alle Kalender und dessen Termine enthält, auf die Sie Zugriff haben. Sie können diesen Feed von anderen Anwendungen aus verwenden, um alle Ihre OpenOlat-Termine dort einzufügen oder anzuzeigen. Dies erspart Ihnen die Arbeit, jeden Kalender einzeln einfügen zu müssen (siehe Kalender integrieren unten). Über das Zahnradsymbol in der Liste können Sie ferner Dateien und Kalender importieren sowie die Termine eines kompletten Kalenders zurücksetzen.  
 

@@ -57,4 +57,4 @@ OpenOlat,
 
 !!! Info "Info"
 
-    Falls Sie den Tab „Portal“ nicht sehen, wurde diese Seite von ihrem Systemadministrator systemweit abgeschaltet.
+    Falls Sie den Tab "Portal" nicht sehen, wurde diese Seite von ihrem Systemadministrator systemweit abgeschaltet.

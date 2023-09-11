@@ -12,8 +12,7 @@ Das Suchfeld für die Volltextsuche ist oben rechts in der Menüzeile platziert.
 Die Volltextsuche sucht in verschiedenen Kurs- und Gruppeninhalten nach
 Suchbegriffen, beispielsweise auch in Forumsbeiträgen, PDF- und Word-Dateien.
 Weiter können Sie auch nach Benutzern, nach Portfoliomappen und Artefakten
-sowie nach Dokumenten in den [Benutzerordnern
-](../personal_menu/Personal_folders.de.md)suchen. Eine
+sowie nach Dokumenten in den [Benutzerordnern](../personal_menu/Personal_folders.de.md)suchen. Eine
 Ausnahme ist der private Ordner, welcher nicht indexiert wird.
 
 ![](assets/generelle_Suche.png)
@@ -56,7 +55,7 @@ Sie können Ihre Suchanfrage mit folgender Syntax modifizieren.
 _"kohlensäurehaltiges Mineralwasser"_
 
  **Boolsche Operatoren:** Einzelne Begriffe sowie Phrasen können mittels
-Boolschen Operatoren verknüpft werden. Achtung Boolsche Operatoren müssen mit
+Boolschen Operatoren verknüpft werden. Achtung: Boolsche Operatoren müssen mit
 Grossbuchstaben geschrieben werden.
 
   *  **OR:** Wenn Sie keine Boolschen Operatoren zwischen Suchbegriffen verwenden, wird der OR-Operator verwendet. Z.B. _"Analyse des Wassers" Kalzium_ und _"Analyse des Wassers" OR Kalzium_ ergeben das gleiche Suchergebnis, nämlich alle Dokumente, die entweder "Analyse des Wassers" oder "Kalzium" enthalten.
@@ -99,15 +98,13 @@ Verwenden Sie hierzu im Modus _Einfache Suche_ folgende Feldnamen:
 Beispiel: _description:Kalzium_ sucht ausschliesslich im Feld _Beschreibung_.
 
 Die vollständige Referenz der in OLAT verwendeten Suchsyntax finden Sie auf
-der Webseite von [Apache
-Lucene](http://lucene.apache.org/core/7_2_0/queryparser/org/apache/lucene/queryparser/classic/package-
-summary.html#package.description) (Webseite in Englisch).
+der Webseite von [Apache Lucene](http://lucene.apache.org/core/7_2_0/queryparser/org/apache/lucene/queryparser/classic/package-summary.html#package.description) (Webseite in Englisch).
 
 ##  Metadaten {: #metadata}
 
 Metadaten oder  _Metainformationen_  sind Daten, die Informationen über
 Merkmale anderer Daten enthalten, aber nicht diese Daten selbst. Metadaten,
-also Daten  **über**  Daten, beschreiben eine Datei mit ergänzenden
+also Daten **über**  Daten, beschreiben eine Datei mit ergänzenden
 Informationen wie zum Beispiel einem Titel, dem Urheber oder den Herausgeber.
 Sie sind dazu da, dass besser erkennbar wird, um was für ein Dokument es sich handelt. Dies ist besonders sinnvoll, wenn der Titel eines Dokumentes nicht in den Dateinamen geschrieben werden kann, weil dieser viel zu lange ist oder spezielle Zeichen enthält.
 

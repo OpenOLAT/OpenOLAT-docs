@@ -1,6 +1,6 @@
 # Einsatz von WebDAV
 
-WebDAV steht für „Web-based Distributed Authoring and Versioning“ und ist ein
+WebDAV steht für "Web-based Distributed Authoring and Versioning" und ist ein
 offener Standard zur Übermittlung von Dateien im Internet. OpenOlat
 unterstützt dieses Protokoll und ermöglicht so einen einfachen Dateitransfer
 von Ihrem Rechner zu OpenOlat-Ordnern.
@@ -43,8 +43,8 @@ fähigen Ordnern
   * Ihr OpenOlat-/WebDAV-Passwort.
 
 Falls Sie mit Shibboleth oder einem Cloud Login auf OpenOlat zugreifen, können Sie sich Ihr WebDAV-Passwort in den Einstellungen im persönlichen Menu einrichten. Wählen Sie
-hierzu den Link „Einstellungen“ und klicken anschliessend im Tab „WebDAV“ auf
-die Schaltfläche „Passwort einrichten“. Wenn Sie bereits über ein OpenOlat-
+hierzu den Link "Einstellungen" und klicken anschliessend im Tab "WebDAV" auf
+die Schaltfläche "Passwort einrichten". Wenn Sie bereits über ein OpenOlat-
 Passwort verfügen, verwenden Sie dieses für den WebDAV Zugang.
 
 ## Problembehandlung
@@ -65,35 +65,35 @@ Bei Problemen die nachfolgenden Punkte durchgehen:
 ??? abstract "Windows 10 (sowie 7 + 8)"
 
     1. Starten Sie den Windows Explorer
-    2. Klicken Sie mit der rechten Maus auf „Dieser PC“
-    3. Wählen Sie „Netzlaufwerk verbinden“
+    2. Klicken Sie mit der rechten Maus auf "Dieser PC"
+    3. Wählen Sie "Netzlaufwerk verbinden"
     4. Wählen Sie einen Buchstaben für das Laufwerk.
-    5. Wählen Sie ganz unten den Punkt „Verbindung mit einer Webseite herstellen auf der Sie Dokumente und Bilder speichern können“ aus.
-    6. Klicken Sie auf „Weiter“.
-    7. Markieren Sie „Eine benutzerdefinierte Webadresse auswählen“.
-    8. Klicken Sie auf „Weiter“.
+    5. Wählen Sie ganz unten den Punkt "Verbindung mit einer Webseite herstellen auf der Sie Dokumente und Bilder speichern können" aus.
+    6. Klicken Sie auf "Weiter".
+    7. Markieren Sie "Eine benutzerdefinierte Webadresse auswählen".
+    8. Klicken Sie auf "Weiter".
     9. Geben Sie den WebDAV-Link ein.
-    10. Klicken Sie auf „Weiter“.
+    10. Klicken Sie auf "Weiter".
     11. Geben Sie nun Ihren OpenOlat-Benutzernamen bzw. die hinterlegte E-Mail Adresse und Ihr Passwort ein.
-    12. Klicken Sie auf „Fertigstellen“.
+    12. Klicken Sie auf "Fertigstellen".
 
 ??? abstract "Windows Vista"
 
-    1. Klicken Sie im Startmenü auf „Computer“.
-    2. Klicken Sie im folgenden Fenster in der Menüleiste oben auf „Netzlaufwerk zuordnen“ (unter „Weitere Befehle“).
-    3. Wählen Sie ganz unten den Punkt „Verbindung mit einer Webseite herstellen“ aus.
-    4. Klicken Sie auf „Weiter“.
-    5. Markieren Sie „Eine benutzerdefinierte Netzwerkressource auswählen“.
-    6. Klicken Sie auf „Weiter“.
+    1. Klicken Sie im Startmenü auf "Computer".
+    2. Klicken Sie im folgenden Fenster in der Menüleiste oben auf „Netzlaufwerk zuordnen“ (unter "Weitere Befehle").
+    3. Wählen Sie ganz unten den Punkt "Verbindung mit einer Webseite herstellen" aus.
+    4. Klicken Sie auf "Weiter".
+    5. Markieren Sie "Eine benutzerdefinierte Netzwerkressource auswählen".
+    6. Klicken Sie auf "Weiter".
     7. Geben Sie bei der Internet- oder Netzwerkadresse den WebDAV-Link ein.
-    8. Klicken Sie auf „Weiter“.
+    8. Klicken Sie auf "Weiter".
     9. Geben Sie nun Ihren OpenOlat-Benutzernamen bzw. die hinterlegte E-Mail Adresse und Ihr Passwort ein.
     10. Sie können einen Namen für die WebDAV-Verbindung eingeben.
-    11. Klicken Sie auf „Fertigstellen“.
+    11. Klicken Sie auf "Fertigstellen".
 
 ??? abstract "Mac"
 
-    1. Öffnen Sie im Finder das Menu „Gehe zu“ und dann „Mit Server verbinden.“ und geben dort den WebDAV-Link ein.
+    1. Öffnen Sie im Finder das Menu "Gehe zu" und dann "Mit Server verbinden." und geben dort den WebDAV-Link ein.
     2. Geben Sie nun Ihren OpenOlat-Benutzernamen bzw. die hinterlegte E-Mail Adresse und Ihr Passwort ein.
     3. Klicken Sie auf "OK"
 
@@ -131,5 +131,5 @@ Rechner ein Verzeichnis, das die folgenden Unterverzeichnisse enthält:
     * _beendet_: Dieser Ordner erscheint nur, wenn in der Administration die Semesterdaten nicht aktiviert sind. In diesem Ordner befinden sich alle Kurse, welche im Kurslebenszyklus auf beendet gesetzt worden sind. Das sind diejenigen Kurse, welche im Menu Kurse im Tab "Beendet" erscheinen.  
 
   *  **groupfolders**: Hier finden Sie alle Gruppen in denen Sie eingetragen sind und auf deren Ordner Sie Zugriff haben.
-  *  **home**: Ihre beiden persönlichen Ordner (mit den Unterordnern „private“ und „public“).
+  *  **home**: Ihre beiden persönlichen Ordner (mit den Unterordnern "private" und "public").
   *  **sharedfolders**: Alle Ressourcenordner, die Sie besitzen, oder auf die Sie aufgrund von Teilnehmerrechten zugreifen dürfen. Besitzer und Betreuer erhalten Lese- und Schreibrechte, Teilnehmer nur Leserechte.

@@ -4,15 +4,15 @@
 
 The search is only visible and usable, if it is activated in the
 administration. If this is not the case for you, please contact your
-administrator directly.
+OpenOlat administrator directly.
 
 The box for the full-text search is at the top right of the status bar. The
 full-text search helps you to look for search terms in the course or group
-content, in a forum or even in PDF and Word files. You can furthermore look
-for users, portfolio folders, artefacts, and documents in any user folder. The
+content, in a forum or even in PDF and Word files. Furthermore you can look
+for users, portfolio folders, artefacts, and documents in any [user folder](../personal_menu/Personal_folders.md). The
 only exceptions are private folders since they will not be indexed.
 
-![](assets/generelle_Suche.png)
+![](assets/generelle_Suche.en.png)
 
 You will only get search results of the course contents you have access to.
 
@@ -20,7 +20,7 @@ You will only get search results of the course contents you have access to.
 
 In order to search in more detail please use the advanced search.
 
-![Advenced Search example](assets/full_text_search_advanced.png)
+![](assets/full_text_search_advanced_link_EN.png)![Example Full-text search](assets/full_text_search_advanced.png)
 
 Select the option "Advanced search." The mode _Advanced search_ enables you to
 refine your search. Please note that these different fields have to be linked
@@ -51,11 +51,11 @@ You can modify your query by means of the following syntax.
 water"_
 
  **Boolean operators:** Single terms as well as phrases can be linked by
-Boolean operators. Attention Boolean operators have to be in capital letters.
+Boolean operators. Attention: Boolean operators have to be in capital letters.
 
-  *  **OR:** If you do not use Boolean operators between terms you are searching for the OR operator will be used.For example: _"Analysing water" Calcium_ and _"Analysing water" OR Calcium_ will generate the same results, that is, all documents containing either "Analysing water" or "Calcium"
-  *  **AND:** Using the AND operator will show documents containing all terms you are searching for.For example: _"Analysing water" AND "Calcium"_ will show documents containing "Analysing water" as well as "Calcium".
-  *  **NOT:** Using the NOT operator will eliminate documents containing specific terms.For example: _"Analysing water" AND "Calcium" NOT "Tap water"_ will show a document containing "Analysing water" and "Calcium" but not "Tap water".
+  *  **OR:** If you do not use Boolean operators between terms you are searching for the OR operator will be used. For example: _"Analyzing water" Calcium_ and _"Analyzing water" OR Calcium_ will generate the same results, that is, all documents containing either "Analyzing water" or "Calcium"
+  *  **AND:** Using the AND operator will show documents containing all terms you are searching for. For example: _"Analyzing water" AND "Calcium"_ will show documents containing "Analyzing water" as well as "Calcium".
+  *  **NOT:** Using the NOT operator will eliminate documents containing specific terms. For example: _"Analyzing water" AND "Calcium" NOT "Tap water"_ will show a document containing "Analyzing water" and "Calcium" but not "Tap water".
 
   
  **Searching by means of wildcards:** You can choose between two different
@@ -75,7 +75,7 @@ syntax in OLAT:
  **\+ - && | ! ( ) { } [ ] ^ " ~ * ? : \**
 
 If your query contains one of these characters you have to mask it using the
-backslash \\. For example: If you are looking for the equation _(1+1):2=?_ you
+backslash \\. For example if you are looking for the equation _(1+1):2=?_ you
 have to write _\\(1\\+1\\)\:2=\?_ instead.
 
  **Searching through fields:** In order to search through fields you can
@@ -97,9 +97,7 @@ Example: _description:Calcium_ will only search through the field
 _Description_.
 
 For more detailed information regarding the lucene search syntax used in OLAT
-please go to [Apache
-Lucene](http://lucene.apache.org/core/7_2_0/queryparser/org/apache/lucene/queryparser/classic/package-
-summary.html#package.description).
+please go to [Apache Lucene](http://lucene.apache.org/core/7_2_0/queryparser/org/apache/lucene/queryparser/classic/package-summary.html#package.description).
 
 ##  Meta Data {: #metadata}
 
