@@ -73,3 +73,18 @@ Wer im Katalog auf eine Kachel klickt, bekommt eine nährere Beschreibung zum an
 Es ist von grosser Bedeutung, welchem Fachbereich Autor:innen einen Kurs bzw. eine Lernressource zuordnen. Denn hinter dem Fachbereich steht die Taxonomie, nach der in den Taxonomie-Launchern des Katalogs Kurse zusammengestellt werden. Sie wählen den Fachbereich unter **Administration > Einstellungen > Tab "Metadaten"** 
 
 ![catalog20_fachbereich_v1_de.png](assets/catalog20_fachbereich_v1_de.png){ class="shadow lightbox" }
+
+
+Die im Tab „Metadaten“ gemachten Angaben zum Fachbereich können im Tab „Freigabe“ bei der Erstellung eines Angebots genutzt werden. Die Fachbereiche dienen der Verschlagwortung im Katalog. Es können mehrere Fachbereiche als Schlagwort angegeben werden. 
+
+Wenn Sie auf den kleinen Pfeil am Ende der Zeile „Fachbereiche / Katalog“ klicken, können Sie die Schlagworte auswählen. Zunächst erscheint ein Popup, in dem die verwendeten Fachbereiche aufgelistet sind. 
+
+![catalog20_metadata_subjects_popup_v1_de.png](assets/catalog20_metadata_subjects_popup_v1_de.png){ class="shadow lightbox" }
+
+Sie können nun über das Suchfeld oder durch Öffnen eines Browsers weitere Fachbereiche hinzufügen.
+
+![catalog20_metadata_subjects_browser_v1_de.png](assets/catalog20_metadata_subjects_browser_v1_de.png){ class="shadow lightbox" }
+
+Der dynamische Katalog V2 kann mit diesen Metadaten alle Angebote, die die gleiche Taxonomie verwenden (die gleichen Fachbereiche angegeben haben), zusammenfassen und in einem Katalogabschnitt (Launcher) zusammen anzeigen (Taxonomie-Launcher). 
+
+
