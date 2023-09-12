@@ -4,7 +4,8 @@
 
 ## Folder in the personal menu
 
-Every OpenOlat user has a folder icon in the personal menu. In this folder you
+Under "Personal tools" all OpenOlat users have access to their
+personal folders. In this folder you
 can find 2 subfolders, the folders  _private_  and  _public._
 
  _Private_
@@ -18,7 +19,7 @@ here as well.
 
  _Public_
 
-Files which should be available for other OpenOlat users can be stored in this
+Files, which should be available for other OpenOlat users, can be stored in this
 folder. The public folder is visible in the user's visiting card. In the
 personal tools in Other users you can search for the user who uploaded a file
 for you. This simplifies the data exchange between OpenOlat users.
@@ -50,19 +51,21 @@ copy, move and delete files. Further information can be found in the chapter
 
 !!! info
 
-    In order for the WebDAV access to work, it needs to be [activated](../../manual_admin/administration/WebDAV.de.md) by your OpenOlat administrator first.
+    In order for the WebDAV access to work, it needs to be activated by your OpenOlat administrator first.
 
 ## Quota
 
-For each course element "Folder" you can dispose of ca. 100 MB storage space. Your OpenOlat support is responsible for the increase of the quota. Please contact the corresponding contact person.
+The storage space per folder is limited. The administrator determines the
+available storage space. The default setting for the private
+and public folder is 100 MB. Your OpenOlat support is responsible for the increase of the quota. Please contact the corresponding contact person.
 
 ## Other types of folders  
 
-In OpenOlat exist several different versions of folders. Beside the two folders in the personal menu in OpenOlat exist the following folder versions:
+In OpenOlat, several different versions of folders exist. Beside the two folders in the personal menu in OpenOlat, the following folder versions exist:
 
-  * [Storage folder](../leanringresources/Storage_folder.md) (in courses)
+  * [Storage folder](../learningresources/Storage_folder.md) (in courses)
   * [Course element folder](../learningresources/Course_Element_Folder.md) (in courses)
   * Folders in Topic assignment (in courses)
-  * [Participant folder](../learningresources/Communication_and_Collaboration.md#CommunicationandCollaboration-_participantfolder) (in courses)
+  * [Participant folder](../learningresources/Communication_and_Collaboration.md#course-element-participant-folder--participant_folder) (in courses)
   * [Resource folder](../learningresources/index.md#resource-folder) (learning resource)  
   * [Group tool: folder](../groups/Using_Group_Tools.md) (in groups, similar to the course element folder in courses)

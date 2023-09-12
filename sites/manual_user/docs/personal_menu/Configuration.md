@@ -1,6 +1,6 @@
 # Configuration
 
-The configuration gives you access to the Profile, Settings and Password
+The configuration gives you access to the Profile, Settings and Password.
 menus.
 
 ## Profile {: #profile}
@@ -14,7 +14,7 @@ address after the change. You select the link or copy it into the address line
 of your browser and log in to OpenOlat to activate the new e-mail address.
 Until activation, the previous e-mail address is used in OpenOlat. If you do
 not dial the activation link within two days (48 hours), the change request
-expires. Please contact your administrator.
+expires. In that case, please contact your administrator.
 
 A phone number for sending SMS can be added in the contact data. If an SMS
 service is stored with your system, the password can be reset with an SMS
@@ -44,14 +44,14 @@ your business card and can therefore be viewed by other OpenOlat users. Some
 check boxes cannot be edited. These are predefined system-wide.
 
 !!! tip
-	To view the business cards of other OpenOlat users, select Other users in the
+	To view the business cards of other OpenOlat users, select **Other users** in the
 	personal menu and search for the desired person using the search mask.
 
 ##  Settings {: #settings}
 
 The settings allow you to adapt OpenOlat according to your needs.
 
-![](assets/Screenshot 2020-04-29 at 17.58.31.png)
+![](assets/Einstellungen_konfigurieren.en.png)
 
 ### Tab System
 
@@ -108,7 +108,7 @@ selected for this purpose.
 right-hand corner of the menu bar (next to your profile picture) so that you
 can access these tools very quickly.
 
-![](assets/Screenshot 2020-04-29 at 18.11.30.png)
+![](assets/Einstellungen_Werkzeug.en.png)
 
 Tools that are not available as quick access in the navigation bar are
 available as menu items in the personal menu. Use Help to get to the start

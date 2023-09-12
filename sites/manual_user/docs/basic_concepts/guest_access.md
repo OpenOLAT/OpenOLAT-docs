@@ -1,6 +1,6 @@
 # Guest access
 
-![Guest login](assets/guestlogin_EN.png){ class="shadow lightbox aside-right-lg" }
+![Guest login](assets/guestlogin_en_wm.png){ class="shadow lightbox aside-right-lg" }
 
 Beside OpenOlat users a guest access can be enabled. Guests are anonymous, not
 registered users, which cannot be managed in the [user management](../../manual_admin/usermanagement/index.md).

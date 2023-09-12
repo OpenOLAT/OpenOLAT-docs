@@ -67,6 +67,7 @@ Bei Forenbeiträgen, Blogeinträgen und Wiki Seiten ist es erforderlich, dass ma
 
 ### Anzeige von Artefakten
 Wählt man ein Artefakt aus erhält man weitere Informationen dazu. Alle Artefakte verfügen über die Tabs:
+
 * **Übersicht:** Zentrale Details, Aktivitätslog, Bearbeitungsmöglichkeit, Versionierung, Datei ersetzen
 * **Metadata:** Beschreibung, Lizenz, Tags, Fachbereich
 * **Verwendungen:** Wo wird das Artefakt verwendet?

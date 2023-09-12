@@ -13,7 +13,7 @@ Klickt man auf ein erhaltenes Badge gelangt man zur Badge Infoseite mit weiteren
 
 ## Badge Infoseite
 
-Hier erfährt man wann und von wem das Badge vergeben wurde und erhält Informationen zum Vergabekontext. Eine Beschreibung und besonders die Vergabe-Kriterien, die vom Erstellenden des Badges vergeben wurden, erhalten weitere wichtige Informationen. 
+Hier erfährt man wann und von wem das Badge vergeben wurde und erhält Informationen zum Vergabekontext. Eine Beschreibung und besonders die Vergabekriterien, die vom Erstellenden des Badges vergeben wurden, enthalten weitere wichtige Informationen. 
 
 Die Badge Infoseite kann über den aufgeführten öffentlichen Link geteilt werden und in anderen Webkontexten eingebunden werden. So können Personen auch ohne OpenOlat Account auf die Badge Infoseite zugreifen. 
 

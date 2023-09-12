@@ -5,9 +5,8 @@ Einstellungen und Passwort.
 
 ##  Profil {: #profile}
 
-Im persönlichen Menu unter der Option „Profil“ können Sie Ihre persönlichen
-Daten ändern und ihre Visitenkarte einrichten. Vervollständigen Sie einfach
-die die vorgesehenen Felder.
+Im persönlichen Menu unter der Option "Profil" können Sie Ihre persönlichen
+Daten ändern und ihre Visitenkarte einrichten. Vervollständigen Sie einfach die vorgesehenen Felder.
 
 Änderungen der E-Mail-Adresse werden nur übernommen, wenn die neue E-Mail-
 Adresse aktiviert wird. Hierzu wird nach der Änderung ein Aktivierungs-Link an
@@ -40,10 +39,10 @@ wird von OpenOlat auf eine Breite von 100 Pixel zugeschnitten.
 !!! attention 
 	Einige Felder können eventuell nicht geändert werden.
 
-Tab "Meine Visitenkarte"
+### Tab "Meine Visitenkarte"
 
 Mit Hilfe der Check-Boxen bestimmen Sie, welche Einträge auf Ihrer
-Visitenkarte erscheinen und somit von anderen OpenOlat- Benutzern eingesehen
+Visitenkarte erscheinen und somit von anderen OpenOlat-Benutzern eingesehen
 werden können. Einige Check-Boxen können nicht bearbeitet werden. Diese sind
 systemweit vorgegeben.
 

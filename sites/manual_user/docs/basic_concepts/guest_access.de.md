@@ -1,6 +1,6 @@
 # Gastzugang
 
-![Gast-Login](assets/guestlogin_DE.png){ class="shadow lightbox aside-right-lg" }
+![Gast-Login](assets/guestlogin_de_wm.png){ class="shadow lightbox aside-right-lg" }
 
 Neben registrierten Benutzern können auch Personen ohne OpenOlat Account als
 Gäste Zugang zum System erhalten. Gäste sind anonyme, nicht registrierte

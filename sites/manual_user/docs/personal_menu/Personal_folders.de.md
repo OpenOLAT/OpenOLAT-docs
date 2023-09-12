@@ -5,8 +5,8 @@
 
 ## Ordner im persönlichen Menu
 
-Unter „Persönliche Werkzeuge“ haben alle OpenOlat Nutzer Zugriff auf ihre
-persönlichen Ordner. Diese unterteilen sich in „private“ und „public“ Ordner.
+Unter "Persönliche Werkzeuge" haben alle OpenOlat Nutzer Zugriff auf ihre
+persönlichen Ordner. Diese unterteilen sich in "private" und "public" Ordner.
 
  _Private_
 
@@ -41,19 +41,20 @@ a-z, A-Z, 0-9, sowie "-", ".", "_" oder Leerschläge
 
 Zudem können Sie Dateien zippen und entzippen. Alle Aktionen lassen sich auf
 einzelne oder mehrere ausgewählte Dateien und Ordner anwenden. Wenn Sie viele
-Dateien auf einmal hochladen wollen, gibt es zwei Wege. Zum einen können Sie
-Ihre Dateien auf Ihrem Rechner zippen, die ZIP-Datei hochladen und im
-OpenOlat-Ordner entzippen. 
+Dateien auf einmal hochladen wollen, gibt es zwei Wege.
 
+Zum einen können Sie
+Ihre Dateien auf Ihrem Rechner zippen, die ZIP-Datei hochladen und im
+OpenOlat-Ordner entzippen.
 Zum anderen können Sie mehrere Dateien per WebDAV übertragen und organisieren. Alle Ordner sind WebDAV-fähig, d.h. Ordner in
 OpenOlat stehen Ihnen als gewöhnliches Netzlaufwerk zur Verfügung, über
 welches Sie sehr einfach Dateien kopieren, verschieben und löschen können.
-Weitere Infos finden Sie im Kapitel „[Einsatz von
-WebDAV](../basic_concepts/Using_WebDAV.de.md)“.
+Weitere Infos finden Sie im Kapitel "[Einsatz von
+WebDAV](../basic_concepts/Using_WebDAV.de.md)".
 
 !!! info "Hinweis"
 
-    Damit der Zugriff via WebDAV auf OpenOlat funktioniert muss WebDAV von Ihrem OpenOlat Administrator [aktiviert ](../../manual_admin/administration/WebDAV.de.md)werden.
+    Damit der Zugriff via WebDAV auf OpenOlat funktioniert muss WebDAV von Ihrem OpenOlat Administrator werden.
 
 ## Quota
 
@@ -72,7 +73,7 @@ Ordner Varianten mit unterschiedlicher Ausrichtung:
   * [Ablageordner](../learningresources/Storage_folder.de.md) (in Kursen)   
   * [Kursbaustein Ordner](../learningresources/Course_Element_Folder.de.md) (in Kursen) 
   * Ordner der Themenwahl (in Kursen)
-  * [Teilnehmer Ordner](../learningresources/Communication_and_Collaboration.de.md#KommunikationundKollaboration-_participantfolder) (in Kursen)
+  * [Teilnehmer Ordner](../learningresources/Communication_and_Collaboration.de.md#kursbaustein-teilnehmer-ordner--participant_folder) (in Kursen)
   * [Ressourcenordner ](../learningresources/index.de.md#ressourcenordner)(Lernressource) 
   * [Werkzeug: Ordner](../groups/Using_Group_Tools.de.md) (in Gruppen, ähnlich dem Kursbaustein Ordner in Kursen)
 
