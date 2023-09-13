@@ -1,7 +1,6 @@
 # Informationen zu OpenOlat
 
-OpenOlat basiert auf dem LMS OLAT und steht für **Open Online Learning and
-Training** und ist eine Open-Source Lernplattform. 1999 entstand OLAT am
+OpenOlat basiert auf dem LMS OLAT und steht für **Open Online Learning and Training** und ist eine Open-Source Lernplattform. 1999 entstand OLAT am
 Institut für Informatik an der Universität Zürich (UZH). Im September 2000
 gewann das damalige OLAT-Team den [MEDIDA-Prix](http://www.medidaprix.org/). Der erfolgreiche Einsatz sowie der Preisgewinn eröffneten neue
 Möglichkeiten: 2001 übernahmen die [Zentrale Informatik der UZH](https://www.zi.uzh.ch) OLAT und garantierten
@@ -35,21 +34,21 @@ entsprechende Hilfsmittel eingebaut (z.B. ein HTML-Editor).
 
 [![](assets/frentix-Testsiegel_2020-1280x1112.png){ class=aside-right }](https://www.frentix.com/testbericht-openolat-2020-sehr-gut/)
 
-**eLeanring Journal Testbericht**
+**eLearning Journal Testbericht**
 
 Das renommierte [eLearning-Journal](http://www.elearning-journal.de/) hat die
 Open-Source Lösung wiederholt in einem umfassenden Vergleichstest mit dem
 Prädikat "Sehr gut" bewertet. Besonders hervorgehoben wurde der grossen
 Funktionsumfang von OpenOlat. Eine weitere Stärke ist die Sicherheit.
 
-[:fontawesome-regular-file-pdf: Testbericht OpenOlat 16.1](https://www.frentix.com/wp-uploads/2015/08/elearningJournal_Test_OpenOlat_2015.pdf)
+[eLearning-Award 2021 "Erwachsenenbildung"](https://www.elearning-journal.com/2021/01/27/kategorie-erwachsenenbildung/)
 
 <clear/>
 
 !!! tip
 	Weitere Informationen zu OpenOlat finden Sie auf der Produktseite
 	[www.openolat.org](https://www.openolat.org) von frentix. Auf dem
-	[Demoserver](https://learn.olat.com) von frentix erhalten Personen
+	[Demoserver](https://learn.olat.com/dmz/) von frentix erhalten Personen
 	ohne eigene OpenOlat-Installation einen ersten Einblick in den Funktionsumfang
 	von OpenOlat.
 

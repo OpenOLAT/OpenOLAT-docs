@@ -1,11 +1,11 @@
 # About this manual
 
 This user manual helps you to make yourself familiar with OpenOlat while
-thoroughly explaining it's functionality.
+thoroughly explaining its functionality.
 
 The OpenOlat manual is meant for people interested in e-learning as well as in
 making use of OpenOlat for various reasons. If you have not worked with
-OpenOlat (former OLAT) before you will get more information on how to get
+OpenOlat (former OLAT) before, you will get more information on how to get
 started with this learning platform step by step which includes searching for
 predefined learning content, its adaption, as well as the handling of
 collaborative tools.
@@ -15,11 +15,9 @@ others with learning content in OpenOlat. In this case the chapters on
 learning resources, course elements, course editor and the ones on how to
 create courses or tests will assist you in your work.
 
-If you were already an OLAT expert this manual will serve as a work of
+If you were already an OLAT expert, this manual will serve as a work of
 reference. Its table of contents is there to guide you in order to find what you are looking for as
 fast as possible.
-
-***
 
 ## Further Sources of Information
 
@@ -29,7 +27,7 @@ fast as possible.
 
 At the top right of the main menu bar there is always access to the OpenOlat
 manual (this is where you are currently located) and possibly to further help
-pages, depending on the configuration by the system administrator.  Just click
+pages, depending on the configuration by the system administrator. Just click
 on the question mark :fontawesome-solid-circle-question:.
 
 !!! info 
@@ -41,7 +39,7 @@ on the question mark :fontawesome-solid-circle-question:.
 
 ![](assets/help.png){ height=24px }
 
-While working with OpenOlat you cannot only dispose of this manual but also
+While working with OpenOlat, you cannot only dispose of this manual but also
 use OpenOlat's  context-sensitive Help. This Help feature explains the options
 you have regarding OpenOlat's configuration--right where you are at that
 particular moment, by opening the relevant location in this manual. You will
@@ -58,20 +56,20 @@ form fields. When locating this icon
 to the right of a label, a mouseover will display a short information. Here an
 example of the configuration of a test in the course editor:
 
-![](assets/example_Fragezeichen.jpg){ class="shadow" width=400px }
+![](assets/example_questionmark.en.png){ class="shadow" width=400px }
 
   
 
 #### Light grey text within a form field...
 
-![](assets/help_gui_demo.jpg){ class="shadow" width=150px }
+![](assets/help_gui_demo.en.png){ class="shadow" width=150px }
 
-...assists you with filling out the field itself
+...assists you with filling out the field itself,
 
 
 #### Light grey text underneath a field...
 
-![](assets/help_gui_demo1.png){ class="shadow" width=420px }
+![](assets/help_gui_demo1.en.png){ class="shadow" width=420px }
 
 ...provides information about the what's required.
 
@@ -86,8 +84,7 @@ find demo courses.
 
 Please contact your local support team. Normally this is found on the OpenOlat login page in the help menu in the header of the page or in the imprint in the header or the footer. 
 
-***  
-  
+
 ## Copyright
 
 This is an extended Adaption of the "OLAT 7.1 - User Manual", used under a
@@ -95,7 +92,7 @@ This is an extended Adaption of the "OLAT 7.1 - User Manual", used under a
 
 Since 2015 the manual is financed and maintained by 
 [frentix GmbH](https://www.frentix.com/), the company behind
-the [Open Source LMS OpenOlat](https://www.openolat.org)
+the [Open Source LMS OpenOlat](https://www.openolat.com/).
 
 In the long history of this manual many people contributed their part. Please respect the intellectual property and the license under which this manual is published: 
 

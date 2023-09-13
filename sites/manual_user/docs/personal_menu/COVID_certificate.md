@@ -1,22 +1,21 @@
 # COVID certificate
 
-Note
+    !!! Note
 
-No data is stored. Only the date is saved for the validation of the COVID
-certificate.
+    No data is stored. Only the date is saved for the validation of the COVID
+    certificate.
 
-Under "Profile" you will find the "COVID Certificate" tab. Here you can add
-new COVID certificates or view the status of an existing certificate.
+Under "Profile" you will find the "COVID Certificate" tab. Here you can add new COVID certificates or view the status of an existing certificate.
 
 The status of your certificate is only visible to you.
 
-  
+
 
 ## Add COVID certificate
 
 Click on "Add new COVID certificate".
 
-Under Automatic, you can either **scan the QR code** or **import** your
+Under "Automatic", you can either **scan the QR code** or **import** your
 certificate as a file. The validation will be done automatically. (See
 Validation Status).
 
@@ -43,7 +42,7 @@ Your certificate has been validated.
 
 You have deposited data, but it has not yet been validated.
 
-If you have added your certificate manually, the status is always Orange.
+If you have added your certificate manually, the status is always orange.
 
 Please contact your 3G representative to have your certificate validated or if
 the automatic capture did not work.

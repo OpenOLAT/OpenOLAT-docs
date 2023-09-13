@@ -1,13 +1,11 @@
 # COVID Zertifikat
 
-Wichtig!
+    !!! Wichtig!
 
-Es werden **keine** Daten gespeichert. Für die Validierung des COVID-
-Zertifikats wird lediglich das Datum gespeichert.
+    Es werden **keine** Daten gespeichert. Für die Validierung des COVID-
+    Zertifikats wird lediglich das Datum gespeichert.
 
-Unter "Profil" finden Sie den Tab "COVID-Zertifikat". Hier können neue COVID-
-Zertifikate hinzugefügt oder der Status eines bestehenden Zertifikats
-eingesehen werden.
+Unter "Profil" finden Sie den Tab "COVID-Zertifikat". Hier können neue COVID-Zertifikate hinzugefügt oder der Status eines bestehenden Zertifikats eingesehen werden.
 
 Der Status ihres Zertifikats ist nur für Sie sichtbar.
 
@@ -18,7 +16,7 @@ Der Status ihres Zertifikats ist nur für Sie sichtbar.
 
 Klicken Sie auf "Neues COVID-Zertifikat hinzufügen".
 
-Unter Automatisch können Sie entweder den **QR-Code scannen** oder Ihr
+Unter "Automatisch" können Sie entweder den **QR-Code scannen** oder Ihr
 Zertifikat als **Datei importieren**. Die Validierung erfolgt automatisch.
 (Siehe Validierungs-Status)
 
@@ -40,7 +38,6 @@ automatisch. (Siehe Validierungs-Status)
 
 Ihr Zertifikat wurde validiert.
 
-  
 
 ![](assets/Bildschirmfoto 2021-10-01 um 17.03.01.png)
 

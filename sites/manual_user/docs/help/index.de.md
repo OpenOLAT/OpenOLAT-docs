@@ -1,7 +1,6 @@
 # Hilfe
 
 
-
 ## Handbuch Link
 
 Rechts oben in der der Hauptmenüleiste besteht jederzeit Zugang zum OpenOlat
@@ -11,7 +10,7 @@ Sie einfach auf das Fragezeichen! :fontawesome-solid-circle-question:.
 
 !!! info
 	Falls der Link nicht erscheint wurde er bei den Benutzerwerkzeugen in den
-	persönlichen [Einstellungen ](../personal_menu/Configuration.de.md)ausgeblendet.
+	persönlichen [Einstellungen](../personal_menu/Configuration.de.md) ausgeblendet.
 
 ## Kontextsensitive Hilfe
 
@@ -35,19 +34,19 @@ neben einer Feldbeschriftung sehen, fahren Sie mit der Maus darüber um eine
 kurze Information zu erhalten. Hier ein Beispiel aus der Konfiguration eines
 Tests im Kurseditor:
 
-![](assets/example_questionmark_DE.jpg){ class="shadow" width=400px }
+![](assets/example_questionmark.de.png){ class="shadow" width=400px }
 
 
 ## Hellgrauer Text innerhalb von Feldern...
 
-![](assets/help_gui_demo_DE.jpg){ class="shadow" width=150px }
+![](assets/help_gui_demo.de.png){ class="shadow" width=150px }
 
 ...gibt Hilfestellung **wie** die Felder ausgefüllt werden sollen.
 
 
 ## Hellgrauer Text unterhalb von Feldern...
 
-![](assets/help_gui_demo1_DE.png){ class="shadow" width=420px }
+![](assets/help_gui_demo1.de.png){ class="shadow" width=420px }
 
 ...stellt direkt benötigte Informationen **über** den Feldinhalt zur Verfügung.
 

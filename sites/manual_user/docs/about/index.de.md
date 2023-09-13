@@ -24,8 +24,8 @@ Hilfeseiten, je nach Konfiguration durch den System Administrator.  Klicken
 Sie einfach auf das Fragezeichen! :fontawesome-solid-circle-question:.
 
 !!! info
-	Falls der Link nicht erscheint wurde er bei den Benutzerwerkzeugen in den
-	persönlichen [Einstellungen ](../personal_menu/Configuration.de.md)ausgeblendet.
+	Falls der Link nicht erscheint, wurde er bei den Benutzerwerkzeugen in den
+	persönlichen [Einstellungen](../personal_menu/Configuration.de.md) ausgeblendet.
 
 #### Kontextsensitive Hilfe
 
@@ -49,19 +49,19 @@ neben einer Feldbeschriftung sehen, fahren Sie mit der Maus darüber um eine
 kurze Information zu erhalten. Hier ein Beispiel aus der Konfiguration eines
 Tests im Kurseditor:
 
-![](assets/Beispiel_Fragezeichen.jpg){ class="shadow" width=400px }
+![](assets/example_questionmark.de.png){ class="shadow" width=400px }
 
 
 #### Hellgrauer Text innerhalb von Feldern...
 
-![](assets/help_gui_demo.jpg){ class="shadow" width=150px }
+![](assets/help_gui_demo.de.png){ class="shadow" width=150px }
 
 ...gibt Hilfestellung **wie** die Felder ausgefüllt werden sollen,
 
 
 #### Hellgrauer Text unterhalb von Feldern 
 
-![](assets/help_gui_demo1.png){ class="shadow" width=420px }
+![](assets/help_gui_demo1.de.png){ class="shadow" width=420px }
 
 stellt direkt benötigte Informationen **über** den Feldinhalt zur Verfügung.
 
@@ -77,14 +77,13 @@ Bitte wenden Sie sich an die jeweilige Supportstelle(n) Ihrer OpenOlat
 Instanz. Die Supportadresse ist normalerweise im Hilfemenü im Kopfbereich der Seite zu finden oder im Impressum im Kopfbereich oder im Fussbereich der Seite. 
 
 
-
 ## Copyright
 
 Dieses Handbuch basiert auf einer adaptierten Version des "OLAT 7.1 Handbuch" und wird unter einer 
 **Creative Commons Attribution-NonCommercial-ShareAlike license** Lizenz veröffentlicht.
 
 Seit 2015 wird das Handbuch von der Firma [frentix GmbH](https://www.frentix.com/) finanziert und gepflegt, dies
-ist die Firma die auch hinter der [https://www.openolat.org](Entwicklung des Open Source LMS OpenOlat) steht.  
+ist die Firma die auch hinter der [Entwicklung des Open Source LMS OpenOlat](https://www.openolat.org) steht.  
 
 In der langen Zeit der Entwicklung des Handbuches waren viele Personen involviert. Bitte respektieren Sie 
 das geistige Eigentum und die Lizenz, under der das Handbuch veröffentlicht wird. 

@@ -133,24 +133,20 @@ geöffnete Seite drucken.
 	übersichtlich.
 
 Als letztes haben Sie unter "Einstellungen" im Tab "System" die Möglichkeit,
-ihre vorgenommenen systembezogenen Änderungen wieder **auf die
-Standardeinstellungen zurückzusetzen** , Hierzu zählen Einstellungen bezüglich
+ihre vorgenommenen systembezogenen Änderungen wieder **auf die Standardeinstellungen zurückzusetzen** , Hierzu zählen  Einstellungen bezüglich
 der Personalisierung, der Benachrichtigungen und der
 Sitzungswiederherstellung.
 
 ### Tab WebDAV {: #webdav}
 
-Im Tab "WebDAV" finden Sie den [WebDAV-Link zu Ihrer OpenOlat-
-Instanz](../basic_concepts/Using_WebDAV.de.md), mit der bequem Dateien verwaltet werden
+Im Tab "WebDAV" finden Sie den [WebDAV-Link zu Ihrer OpenOlat-Instanz](../basic_concepts/Using_WebDAV.de.md), mit der bequem Dateien verwaltet werden
 können. Über WebDAV können Sie als OpenOlat User auf ihren persönlichen Ordner
 zugreifen. OpenOlat Autoren können über WebDAV ihre gesamten Kursdateien
 organisieren.
 
 ### Tab Instant-Messaging
 
-Im Tab „Instant-Messaging“ legen Sie die Einstellungen für die [Chat-
-Funktion](../../manual_admin/administration/Instant_Messaging.de.md) und Ihren Kommunikations-Status nach dem
-Login fest.
+Im Tab "Instant-Messaging" legen Sie die Einstellungen für die [Chat-Funktion](../../manual_admin/administration/Instant_Messaging.de.md) und Ihren Kommunikations-Status nach dem Login fest.
 
 ![](assets/Instant_Status.png)
 

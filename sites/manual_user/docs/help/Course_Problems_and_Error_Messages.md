@@ -1,6 +1,6 @@
 #  Course Problems and Error Messages
 
-If you cannot open a course or single course elements it may be that the
+If you cannot open a course or single course elements, it may be that the
 course author has not given you the relevant rights or the course is being
 updated at that very moment.
 
@@ -26,8 +26,7 @@ respective owner of the course. He will check your authorization and can then
 send you the required password, enter you directly into the course or grant
 you access by other means.
 
-## Authorization / password protection for course elements (for conventional
-courses).
+## Authorization / password protection for course elements (for conventional courses).
 
 You may not be able to see the entire content of a course, or you may not have
 access to certain course elements. The owner can e.g. release certain course

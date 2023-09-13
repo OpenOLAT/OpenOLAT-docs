@@ -3,7 +3,7 @@
 OpenOlat ist Open-Source-Software, d.h. der Programmcode steht frei zur
 Verfügung und kann ohne Lizenzkosten heruntergeladen, genutzt, angepasst und
 weiterentwickelt werden. Weitere Informationen zum Open-Source-Projekt finden
-Sie auf der Webseite [www.openolat.org](http://www.openolat.org). Dort können
+Sie auf der Webseite [www.openolat.com](https://www.openolat.com/). Dort können
 Sie auch mit der Open-Source-Gemeinde Kontakt aufnehmen, sich in Mailinglisten
 eintragen und Erfahrungen austauschen.
 

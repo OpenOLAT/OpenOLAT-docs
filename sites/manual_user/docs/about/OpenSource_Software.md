@@ -4,7 +4,7 @@ OpenOlat is an open-source software which means that its code is at your
 disposal for free. You can download it, use it, adapt it, and develop it
 further without having to pay license fees. Further information on this open-
 source project can be found on our community website
-[www.openolat.org](http://www.openolat.org). There you can get in contact with
+[www.openolat.com](https://www.openolat.com/). There you can get in contact with
 the open-source community, put your name down in the mailing list, and
 exchange experiences.
 

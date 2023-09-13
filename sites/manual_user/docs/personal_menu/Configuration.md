@@ -125,17 +125,15 @@ including settings for personalization, notifications and session restore.
 
 ###  Tab WebDAV {: #webdav}
 
-The tab "WebDAV" provides you with the [WebDAV link to your OpenOlat
-system](../basic_concepts/Using_WebDAV.md), which can be used to conveniently manage files. As
+The tab "WebDAV" provides you with the [WebDAV link to your OpenOlat system](../basic_concepts/Using_WebDAV.md), which can be used to conveniently manage files. As
 an OpenOlat user, you can access your personal folder via WebDAV. OpenOlat
 authors can organize their entire course files via WebDAV.
 
 ### Tab Instant-Messaging
 
-In the tab "Instant Messaging" you define the settings for the [chat
-function](../../manual_admin/administration/Instant_Messaging.de.md) and your communication status after login.
+In the tab "Instant Messaging" you define the settings for the [chat function](../../manual_admin/docs/administration/Instant_Messaging.md) and your communication status after login.
 
-![](assets/Screenshot 2020-04-29 at 18.34.37.png)
+![](assets/Instant_Status.en.png)
 
 ### Tab Terms of use
 
