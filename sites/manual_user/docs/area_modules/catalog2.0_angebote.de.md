@@ -63,7 +63,7 @@ Angebote können unabhängig vom Publikationsstatus des Kurses veröffentlicht w
 
 ![catalog20_zeitbeschraenkt_v1_de.png](assets/catalog20_zeitbeschraenkt_v1_de.png){ class="shadow lightbox" }
 
-Neben der **grundsätzlichen Aktivierung**, dass das Angebot in einem Katalog angezeigt werden soll, kann ein **Fachbereich** angegeben werden. Wird kein Fachbereich angegeben, kann das Angebot zwar z.B. über die Suchfunktion im Katalog gefunden werden, es wird jedoch in keinem Taxonomie-Launcher angezeigt, in dem Angebote mit gleichem Fachbereich zusammengefasst angzeigt werden. 
+Neben der **grundsätzlichen Aktivierung**, dass das Angebot in einem Katalog angezeigt werden soll, kann ein **Fachbereich** angegeben werden. Wird kein Fachbereich angegeben, kann das Angebot zwar z.B. über die Suchfunktion im Katalog gefunden werden, es wird jedoch in keinem Taxonomie-Launcher angezeigt, in dem Angebote mit gleichem Fachbereich zusammengefasst angezeigt werden. 
 
 Ausserdem muss je nach Angebotstyp z.B. der **Zugangscode** definiert werden.
 
@@ -97,4 +97,8 @@ Sie können nun über das Suchfeld oder durch Öffnen eines Browsers weitere Fac
 
 Der dynamische Katalog V2 kann mit diesen Metadaten alle Angebote, die die gleiche Taxonomie verwenden (die gleichen Fachbereiche angegeben haben), zusammenfassen und in einem Katalogabschnitt (Launcher) zusammen anzeigen (Taxonomie-Launcher). 
 
+![catalog20_taxonomylauncher_v1_de.png](assets/catalog20_taxonomylauncher_v1_de.png){ class="shadow lightbox" }
 
+Nach Klick auf die Kachel des Taxonomie-Launchers öffnet sich die sogenannte Microsite mit der Liste aller Kurse und Lernressourcen, die diesem Fachbereich zugeordnet wurden.  
+
+![catalog20_taxonomylauncher_microsite_v1_de.png](assets/catalog20_taxonomylauncher_microsite_v1_de.png){ class="shadow lightbox" }
