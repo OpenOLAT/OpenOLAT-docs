@@ -1,4 +1,4 @@
-# Types of Course Element
+# Types of Course Elements
 
 In OpenOlat, various course elements are available with which a course can be structured very flexibly and modularly according to the desired needs. In this way, course content can be structured and provided, collaborative work and exchange can be promoted, the knowledge level of the participants can be checked, and organizational concerns can be covered.
 

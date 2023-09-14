@@ -13,12 +13,12 @@ Examples of a course and a test toolbar:
 ![](assets/administration_test.png)
 
 The "Administration" drop-down menu provides all the tools for configuring and
-setting up a learning resource and is quite extensive. Die genauen
-Möglichkeiten variieren je nach Lernressource.
+setting up a learning resource and is quite extensive. The exact possibilities vary depending on the learning resource.
 
 ![](assets/Administration161.png)
 
-Under "Settings" you can set up the info page, organize the release of the
+Under "Settings", many options are bundled.
+Here you can set up the info page, organize the release of the
 learning resource, make catalogue entries and much more.
 
   
@@ -26,7 +26,7 @@ learning resource, make catalogue entries and much more.
 ![](assets/administration_settings.png)
 
 Further information can be found in the corresponding chapters and under
-"[Course settings](../learningresources/Course_Settings.md)".
+[_Course settings_](../learningresources/Course_Settings.md).
 
   
 

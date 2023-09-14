@@ -51,7 +51,7 @@ bzw. zur Lernressource passenden Visualisierung zu verwenden.
 
 Im Reiter "Metadaten" nehmen Sie weitere Einstellungen für die Infoseite vor.
 
-**Autoren**: Hier können die zuständigen Ansprechpartner oder Lehrenden
+**Autor:innen**: Hier können die zuständigen Ansprechpartner oder Lehrenden
 eingetragen werden. Sie müssen nicht mit dem Ersteller der Lernressource
 übereinstimmen. Das Feld ist ein reines Textfeld, der Inhalt wird lediglich
 auf der Kursübersichtsseite angezeigt.
@@ -86,7 +86,7 @@ Typische Creative Commons Lizenzen sind
 * CC BY
 * CC0
 
-In der Übersicht des Autorenbereichs werden die zugeordneten Lizenzen in der Spalte «Lizenz» angezeigt. Mit Klick auf die Lizenz erhalten Sie dazu detaillierte Informationen.
+In der Übersicht des Autorenbereichs werden die zugeordneten Lizenzen in der Spalte "Lizenz" angezeigt. Mit Klick auf die Lizenz erhalten Sie dazu detaillierte Informationen.
 
 ![Lizenzen im Autorenbereich](assets/Autorenbereich_Lizenz.png)
 
@@ -106,16 +106,16 @@ Kurse verfügen, im Gegensatz zu anderen Lernressourcen, im Menü
  **Durchführungsort**: Der Ort, an dem ein Kurs bzw. eine Lernressource
 durchgeführt wird. Dieser Punkt ist vor allem bei Blended Learning Angeboten
 sinnvoll. Bei einer reinen online Nutzung kann das Feld auch frei bleiben.
-Alternativ kann hier „online“ oder „Internet“ eingetragen werden.
+Alternativ kann hier "online" oder "Internet" eingetragen werden.
 
- **Durchführungszeitraum:** Bei Lernressourcen vom Typ "Kurs" kann ein
+ **Durchführungszeitraum**: Bei Lernressourcen vom Typ "Kurs" kann ein
 Durchführungszeitraum festgelegt werden. Folgende Optionen sind möglich:
 
 * _Ohne_: Wählen Sie diese Option, wenn der Kurs nicht zu einem bestimmten Daten beginnt und aufhört oder Sie den Termin nicht explizit in den Informationen einbauen möchten.
 
-* _Mit Begin- und Enddatum_: Der Kursbesitzer kann hier das Start- und Enddatum des Kurses eintragen. Dabei ist beim Enddatum der Endtag miteingeschlossen (23:59). Das Datum erscheint anschließend als Information in der Kursübersicht. Das eingetragene Datum ist jedoch unabhängig vom Kursstatus und den Kurszugangsrechten (siehe Kapitel „[Zugangskonfiguration](../learningresources/Access_configuration.de.md)“). Es hat also keine Auswirkung auf die Sichtbarkeit und den Zugang für die Kursmitglieder.
+* _Mit Beginn- und Enddatum_: Der Kursbesitzer kann hier das Start- und Enddatum des Kurses eintragen. Dabei ist beim Enddatum der Endtag miteingeschlossen (23:59). Das Datum erscheint anschließend als Information in der Kursübersicht. Das eingetragene Datum ist jedoch unabhängig vom Kursstatus und den Kurszugangsrechten (siehe Kapitel ["Zugangskonfiguration"](../learningresources/Access_configuration.de.md)). Es hat also keine Auswirkung auf die Sichtbarkeit und den Zugang für die Kursmitglieder.
 
-* _Semester_: Wenn auf Systemebene vom OpenOlat Administrator Semesterdaten konfiguriert wurden, kann hier eine der angezeigten Semester Optionen ausgewählt werden. Das Semester erscheint anschließend als Information in der Kursübersicht. Das Semester ist jedoch unabhängig vom Kursstatus und den Kurszugangsrechten (siehe Kapitel „[Zugangskonfiguration](../learningresources/Access_configuration.de.md)“). Es hat also keine Auswirkung auf die Sichtbarkeit und den Zugang für die Kursmitglieder.
+* _Semester_: Wenn auf Systemebene vom OpenOlat Administrator Semesterdaten konfiguriert wurden, kann hier eine der angezeigten Semester Optionen ausgewählt werden. Das Semester erscheint anschließend als Information in der Kursübersicht. Das Semester ist jedoch unabhängig vom Kursstatus und den Kurszugangsrechten (siehe Kapitel ["Zugangskonfiguration"](../learningresources/Access_configuration.de.md)). Es hat also keine Auswirkung auf die Sichtbarkeit und den Zugang für die Kursmitglieder.
 
 Der konfigurierte Durchführungszeitraum wird auch in den Informationen der
 Kursinfo angezeigt.

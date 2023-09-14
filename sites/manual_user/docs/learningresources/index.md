@@ -1,27 +1,24 @@
 # Various Types of Learning Resources
 
 OpenOlat comprises different types of learning resources. With the exception
-of courses they have in common that they can be embedded into one or more
+of courses, they have in common that they can be embedded into one or more
 courses. The following learning resources can be created directly in OpenOlat.  
 
 ![icon](assets/create161a.png) 
 
-In addition, other formats such as SCORM, IMS QTI 1.2 tests and other files
-such as movies, animations, PowerPoint, images, music, PDF, Excel, Word files
-can be imported as learning resources.
+In addition, other formats can be imported as learning resources (see below).
 
 In the following the learning resources are briefly described:
 
-## Course ![icon](assets/course.png){class="size16"}
+## Course 
+![icon](assets/course.png){class="size16"}
 
-An OpenOlat course can accompany lectures, seminars or tutorials and represent
-diverse didactic concepts such as group puzzles or problem-based learning.
+An OpenOlat course can be used as an online-only course or accompany lectures, seminars or other face-to-face events. In an OLAT course different didactic concepts like webquest, group puzzles, problem-based learning, game-based approaches etc. can be implemented.
 OpenOlat courses are unique document types. They can contain any number of
-course elements. How to work with those different course elements will be
-explained in the chapter ["Learning Activities in Courses"](../learning_activities/index.md) in more detail. How to create
+"course elements", as well as other functionalities. How to create
 courses will be illustrated in the chapter ["Creating Courses"](../learningresources/Creating_Course.md). 
 More information on course elements and the
-course editor can be found in the chapter ["Types of Course Element"](Course_Elements.md).
+course editor can be found in the chapter ["Types of Course Elements"](Course_Elements.md).
 
   
 
@@ -31,13 +28,9 @@ Tests can be used for examinations or exercises in general. In the first case
 course authors can see all test results along with corresponding test
 participants; in the second case all results are saved anonymously. Each test
 exists in a standardized file format, the so-called IMSQTI format.
-[IMS](http://www.imsglobal.org/ "IMS") deals with the development of open
-standards in e-learning. QTI means "Question & Test Interoperability" and is a
-predefined standardized format used for generating tests and questionnaires
-online.
 
 More information on using and creating tests can be found in the chapter
-"[Creating Tests"](../learningresources/Test.md).
+["Creating Tests"](../learningresources/Test.md).
 
 ## CP Learning Content ![icon](assets/content.png){class="size16"}
 
@@ -48,9 +41,10 @@ e-learning format. The specification of this format also comes from
 of it. OpenOlat supports this format; therefore learning content cannot only
 be used in OpenOlat but in other LMS as well. Further information on
 generating Content Packages can be found in the chapter 
-["Creating CP Learning Content"](../learningresources/CP_Editor.md).
+["CP Editor"](../learningresources/CP_Editor.md).
 
-## Wiki![icon](assets/wiki.png){class="size16"}
+## Wiki
+![icon](assets/wiki.png){class="size16"}
 
 Wikis are particularly suited for creating content jointly in an easy way. A
 Wiki can be used for working in groups, as documentation tool or as knowledge
@@ -58,8 +52,7 @@ base for your studies and projects.
 
 For more information on how to create Wikis and embed those in your course
 please go to the chapter ["Creating Wikis"](../resource_wiki/Four_Steps_to_Your_Wiki.md). How
-to generate content within a Wiki will be explained in the chapter "Learning Activities Within a Course," section
-["Wiki"](../learningresources/Working_with_Wiki.md).
+to generate content within a Wiki you can find [here](../learningresources/Working_with_Wiki.md).
 
 ## Podcast
 ![icon](assets/podcast.png){class="size16"}
@@ -71,10 +64,7 @@ single episodes to mobile devices later on. Your course participants will be
 able to easily assess or comment on such podcast episodes.
 
 Information on how to create and embed podcasts in your course can be found in
-the chapter ["Creating Podcasts"](../learningresources/Podcast.md). Further details on
-how to use podcasts as course participant will be explained in the chapter
-"Learning Activities in Courses," section
-["Podcast"](../learningresources/Course_Elements.md#podcast).
+the chapter ["Creating Podcasts"](../learningresources/Course_Element_Podcast.md).
 
 ## Blog
 ![icon](assets/blog.png){class="size16"}
@@ -86,8 +76,8 @@ participants will be able to comfortably assess or comment on blog entries.
 Information on how to create and embed a blog in your course will be found in
 the chapter ["Creating Blogs"](../learningresources/Blog.md). Further details on how to
 use blogs as course participant will be explained in the chapter "Learning
-Activities in Courses," section
-["Blog"](../learningresources/Course_Elements.md#blog).
+Activities in Courses", section
+["Blog"](../learningresources/Course_Element_Blog.md).
 
   
 
@@ -102,7 +92,7 @@ course under _sharedfolder and there is access to all files stored in the
 resource folder. Changes to the files in the resource folder then apply to all
 linked courses. It should be noted that only one resource folder can be added
 per course. Further information can be found in the chapter 
-"[Course settings](../learningresources/Course_Settings.md#CourseSettings-_detail_ressourcen)" in the
+["Course settings"](../learningresources/Course_Settings.md#CourseSettings-_detail_ressourcen) in the
 submenu "Resource folder".
 
 ## Form
@@ -130,12 +120,10 @@ corresponding chapter.
 ## Glossary
 ![icon](assets/glossary.png){class="size16"}
 
-In the glossary terms will be defined. As soon as those terms are used within
-learning content a student will see their explanation. Additionally you can
-get a list of all terms and definitions in a printable version. In addition to
-the usual settings for learning resources, you can also activate the options
-"Alphabetical Register" and "Write Permission" in the learning resource
-Glossary, if required, in order to adjust the display and editing permissions.
+A glossary can be used to store terms and definitions and make them accessible
+alphabetically sorted. If a glossary is integrated into an OpenOlat course
+the terms can also be displayed directly for explanation in integrated HTML files. Furthermore, it is possible to configure glossaries
+that learners can also fill in the content of a glossary.
 
 More information on how to create a glossary and embed it into your course can
 be found in chapter "Course Operation," section
@@ -143,7 +131,9 @@ be found in chapter "Course Operation," section
 How to use your glossary within a course will be explained in the chapter "Learning Activities in Courses," section
 ["Glossary"](../learningresources/Additional_Course_Features.md#glossary).
 
+
 ## Other learning resources:
+
 
 ### SCORM Learning Content
 ![icon](assets/scorm.png){class="size16"}
@@ -162,10 +152,10 @@ SCORM modules cannot be created in OpenOlat, only imported.
 ### Video
 ![icon](assets/video_64_0_434343_none.png){class="size16"}
 
- A video is a learning content in the MPEG-4 format with the file extension
-.mp4, and is used for audio and video playback. OpenOlat supports subtitles in
-multiple languages, in-video quizzes and annotations. Further information on
-video formats can be found in the "[Creating Videos](../learningresources/Video.md)"
+A video is a learning content in the MPEG-4 format with the file extension
+.mp4, and is used for audio and video playback. The
+learning resource video can be added to OpenOLAT by importing or import URL and then further configured. OpenOlat supports the display of subtitles in multiple languages, integrated quizzes, annotations and jump labels. Further information on
+video formats and upload in OpenOlat can be found in the ["Creating Videos"](../learningresources/Video.md)
 chapter.
 
 ### Learning resources of the type "File"

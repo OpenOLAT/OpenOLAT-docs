@@ -27,7 +27,7 @@ gespeichert. Jeder Test liegt in einem standardisierten Dokumentformat, dem
 IMS-QTI-Format, vor.
 
 Mehr Informationen zum Einsatz und Erstellung von Tests finden Sie im Kapitel
-[„Tests erstellen“](../learningresources/Test.de.md) .
+["Tests erstellen"](../learningresources/Test.de.md) .
 
 ## CP-Lerninhalt
 ![](assets/content.png)
@@ -39,17 +39,17 @@ Version 1.1.2. CPs eignen sich für die Verwendung in OpenOlat-Kursen oder auch
 ausserhalb von OpenOlat. OpenOlat unterstützt dieses Format, damit Lerninhalte
 nicht nur in OpenOlat, sondern auch in anderen LMS verwendet werden können.
 Mehr Informationen zur Erstellung von Content-Packagings finden Sie im Kapitel
-[„CP-Lerninhalt erstellen"](../learningresources/CP_Editor.de.md).
+["CP-Lerninhalt erstellen"](../learningresources/CP_Editor.de.md).
 
 ## Wiki
 ![](assets/wiki.png)
 
-Mit Wikis können einfache Weise kooperativ, gemeinsam Inhalte erstellt werden.
+Mit Wikis können auf einfache Weise kooperativ, gemeinsam Inhalte erstellt werden.
 Ein Wiki kann für Gruppenarbeiten, als Dokumentationswerkzeug oder als
 Wissensbasis für Ihre Studien- oder Projektarbeit verwendet werden.
 
 Mehr Informationen zur Erstellung von Wikis finden Sie im Kapitel 
-[„Wiki erstellen"](../learningresources/Wiki.de.md). Wie Sie im Wiki Inhalte erstellen und
+["Wiki erstellen"](../learningresources/Wiki.de.md). Wie Sie im Wiki Inhalte erstellen und
 sinnvoll arbeiten erfahren Sie [hier](../learningresources/Working_with_Wiki.de.md).
 
 ## Podcast
@@ -63,7 +63,7 @@ mobile Endgeräte zu kopieren. Kursteilnehmer können Episoden auf einfache Art
 bewerten und kommentieren.
 
 Informationen dazu, wie Sie einen Podcast erstellen und in Ihren Kurs
-einbinden, finden Sie im Kapitel [„Podcast erstellen"](../learningresources/Podcast.de.md).
+einbinden, finden Sie im Kapitel ["Podcast erstellen"](../learningresources/Course_Element_Podcast.de.md).
 
 ## Blog
 ![](assets/blog.png)
@@ -74,10 +74,10 @@ Online-Tagebuch oder Journal eingesetzt. Kursteilnehmer können Blogeinträge
 auf einfache Art bewerten und kommentieren.
 
 Informationen dazu, wie Sie einen Blog erstellen und in Ihren Kurs einbinden,
-finden Sie im Kapitel [„Blog erstellen"](../learningresources/Blog.de.md). Wie Sie als
-Kursteilnehmer den Blog verwenden, erfahren Sie im Kapitel „Lernaktivitäten im
-Kurs“ unter dem Punkt
-[„Blog"](../learningresources/Course_Elements.de.md#blog).
+finden Sie im Kapitel ["Blog erstellen"](../learningresources/Blog.de.md). Wie Sie als
+Kursteilnehmer den Blog verwenden, erfahren Sie im Kapitel "Lernaktivitäten im
+Kurs" unter dem Punkt
+["Blog"](../learningresources/Course_Element_Blog.de.md).
 
   
 
@@ -93,7 +93,7 @@ alle im Ressourcenordner hinterlegten Dateien. Änderungen an den Dateien im
 Ressourcenordner gelten dann für alle verknüpften Kurse. Zu beachten ist, dass
 nur ein Ressourcenordner pro Kurs hinzugefügt werden kann. Weitere
 Informationen finden Sie im Kapitel
-"[Kurseinstellungen](../learningresources/Course_Settings.de.md)" im Unterpunkt "Ressourcenordner".
+["Kurseinstellungen"](../learningresources/Course_Settings.de.md) im Unterpunkt "Ressourcenordner".
 
 ##  Formular
 ![](assets/formular_434343_64.png)
@@ -103,7 +103,7 @@ eingesetzt, beispielsweise zur Veranstaltungsevaluation. Jeder Kursteilnehmer
 kann dasselbe Formular nur einmal ausfüllen. Die Resultate werden dabei
 anonymisiert gespeichert. Mehr Informationen zum Einsatz und Erstellung von
 Formularen für Umfragen, Rubriks usw. finden Sie im Kapitel 
-[Fragebögen erstellen.](../learningresources/Form.de.md)
+[Fragebögen erstellen](../learningresources/Form.de.md).
 
 ## Portfolio 2.0 Vorlage
 ![](assets/portfolio_434343_64.png)
@@ -121,7 +121,7 @@ konfigurieren, dass auch Lernende ein Glossar inhaltlich befüllen können.
 
 Informationen dazu, wie Sie ein Glossar erstellen und in Ihren Kurs einbinden,
 finden Sie im Kapitel „Kursbetrieb“ unter dem Punkt
-[„Glossar"](../learningresources/Using_Additional_Course_Features.de.md#glossary). 
+["Glossar"](../learningresources/Using_Additional_Course_Features.de.md#glossary). 
 Wie Sie im Kurs das Glossar verwenden, erfahren Sie im Kapitel „Lernaktivitäten im Kurs“ unter dem Punkt
 [„Glossar"](../learningresources/Additional_Course_Features.de.md#glossary).
 
@@ -135,8 +135,7 @@ Wie Sie im Kurs das Glossar verwenden, erfahren Sie im Kapitel „Lernaktivität
 Ein standardisiertes E-Learning-Format, das von OpenOlat unterstützt wird, ist
 das SCORM-Format (Version 1.2). SCORM steht für „Sharable Content Object
 Reference Model“ und ist ein Referenzmodell für austauschbare elektronische
-Lerninhalte der [ „Advanced Distributed Learning Initiative“
-(ADL)](http://www.adlnet.gov/). SCORM-Lerninhalte eignen sich für die
+Lerninhalte der ["Advanced Distributed Learning Initiative"(ADL)](http://www.adlnet.gov/). SCORM-Lerninhalte eignen sich für die
 Verwendung in OpenOlat-Kursen oder ausserhalb von OpenOlat. OpenOlat
 unterstützt dieses Format, damit Sie Ihre Lerninhalte nicht nur in OpenOlat,
 sondern auch in anderen LMS verwenden können.
@@ -152,16 +151,16 @@ Lernressource Video kann in OpenOLAT durch importieren oder importieren URL
 hinzugefügt werden und anschließend weiter konfiguriert werden. OpenOlat
 unterstützt die Anzeige von Untertiteln in mehreren Sprachen, integrierte
 Quizzes, Anmerkungen und Sprungmarken. Generelle Informationen zu
-Videoformaten und Upload in OpenOlat finden Sie im Kapitel "[Video erstellen](../learningresources/Learning_resource_Video.de.md)".
+Videoformaten und Upload in OpenOlat finden Sie im Kapitel ["Video erstellen"](../learningresources/Learning_resource_Video.de.md).
 
 ## Lernressourcen vom Typ Datei und andere Dateien
 
 Neben den oben genannten Lernressourcen können Sie eine Reihe an weiteren
 Dateitypen in OpenOlat importieren. Dazu gehören PDF-, PowerPoint-, Excel- und
-Word-Dateien, sowie Bild,  Musik und Animationen.
+Word-Dateien, sowie Bild, Musik und Animationen.
 
 Zudem können Sie, sofern ein entsprechender Dokumenteneditor aktiviert ist,
-auch direkt  Word, Excel oder PowerPoint Dateien in OpenOlat als Lernressource
+auch direkt Word, Excel oder PowerPoint Dateien in OpenOlat als Lernressource
 erstellen.
 
   
