@@ -1,20 +1,16 @@
 # Using Group Tools
 
-Depending on which tools the group coach has activated, you may have
-the following tools available. You can use as a group participant for
-the collaborative group work.
-
-As soon as the owner has provided the group with tools group members will see
-the following items in the group menu:
+Group **coaches** have a full range of group collaboration tools they can choose for participants.
+Group **participants** will then see the following items in the group menu on the left (depending on activation):
 
 | Icon | Name |   | Description |
 | ---- | ---- | - | ----------- |
-| ![](assets/infomessage.png){ class=size32 } | Information | :material-rss: | Depending on the configuration group coaches as well as group participants can create messages. |
-| ![](assets/calendar.png){ class=size32 } | Calendar | :material-rss: | Group events should be managed via the group calendar. According to the configuration you will hold the write permission or the permission to read only. Events can be connected to linked courses, the library documents and external links once they have been created. |  
-| ![](assets/course.png){ class=size32 } | Course |  | A table overview of all linked courses is available here. Clicking on a course name opens the corresponding course in a new tab. If the group is not linked to a course, the display is omitted. |
-| ![](assets/group.png){ class=size32 } | Members |  | Here you will see a list containing all group participants and/or its coaches if activated. Depending on the settings, the waiting list might be visible too. Depending on the configuration the list can be downloaded and printed and the members can send emails. |  
+| ![](assets/infomessage.png){ class=size32 } | Information | :material-rss: | The "Information" is similar to the "Participant info" of the toolbar or the course element "Messages" in courses. Those who have the appropriate authorization can create messages for all group members and, if desired, also send this information by e-mail to subscribers, supervisors and participants. The group administrator can set whether group members can also create and send information. |
+| ![](assets/calendar.png){ class=size32 } | Calendar | :material-rss: | Manage your group's appointments via the group calendar. Depending on the configuration, you have write or read-only rights. More general information about the calendar can be found [here](../personal_menu/Calendar.md). |  
+| ![](assets/course.png){ class=size32 } | Course |  | If the group is linked to one or more courses, these can be displayed and accessed via the link in the group navigation. |
+| ![](assets/group.png){ class=size32 } | Members |  | Here you will see a list containing all group participants and/or its coaches if activated. Depending on the settings, the waiting list might be visible too. Depending on the configuration the list can be downloaded and printed. E-mails can be sent to the members. |  
 | ![](assets/contact.png){ class=size32 } | E-Mail |  | Send all group owners or participants an e-mail. |
-| ![](assets/folder.png){ class=size32 } | Folder | :material-rss: | Exchange documents with other group members. Files can be uploaded or created. Further structuring with subordination is also possible.  |
+| ![](assets/folder.png){ class=size32 } | Folder | :material-rss: | Exchange documents with other group members via the folder. Files can be uploaded or created. Further structuring with subordination is also possible.  |
 | ![](assets/forum.png){ class=size32 } | Forum | :material-rss: | Here you can discuss with other group members.  
 | ![](assets/chat_icon.png){ class=size32 } | Chat |  | You will see who else is present in the group chat. Enter the chat room to communicate with others in real time. |  
 | ![](assets/wiki.png){ class=size32 } | Wiki | :material-rss: | Use a Wiki to jointly create learning content. |

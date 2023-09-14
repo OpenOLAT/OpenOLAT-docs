@@ -21,11 +21,10 @@ konfigurieren und nutzen können.
 ## Wo findet man die OpenOlat Gruppen?
 
 In der Hauptnavigation finden Sie auch "Gruppen".
-Nach Klick darauf sehen Sie z.B. im Tab „Meine Gruppen“ alle Gruppen, bei denen Sie als Mitglied eingetragen sind. 
+Nach Klick darauf sehen Sie z.B. im Tab "Meine Gruppen" alle Gruppen, bei denen Sie als Mitglied eingetragen sind. 
 
 Die Gruppen können gefiltert dargestellt werden, was besonders bei vielen
-Gruppen hilfreich ist. Um die Filtermöglichkeiten zu sehen, müssen diese mit
-Hilfe des kleinen Pfeils aufgeklappt werden.
+Gruppen hilfreich ist. Um die Filtermöglichkeiten zu sehen, müssen diese mit Hilfe des kleinen Pfeils aufgeklappt werden.
 
 ![Gruppen](assets/Gruppe.png){ class="shadow lightbox" }
 
@@ -49,7 +48,7 @@ Diese Art Gruppe entspricht einer Klasse, die über längere Zeit zusammen bleib
 
 ### Interessengruppen
 
-Gruppen können auch völlig unabhängig von Kursen gebildet werden und zum Austausch über gemeinsame Interessen genutzt werden. Zum Beispiel können alle Lehrenden eines Fachgebiets eine gemeinsame Gruppe zum Austausch bilden. Oder Lernende bilden in Eigeninitiative Gruppen zur Prüfungsvorberreitung.
+Gruppen können auch völlig unabhängig von Kursen gebildet werden und zum Austausch über gemeinsame Interessen genutzt werden. Zum Beispiel können alle Lehrenden eines Fachgebiets eine gemeinsame Gruppe zum Austausch bilden. Oder Lernende bilden in Eigeninitiative Gruppen zur Prüfungsvorbereitung.
 
 ### Managed Groups
 

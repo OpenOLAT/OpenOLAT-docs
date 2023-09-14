@@ -47,10 +47,10 @@ Folgende Werkzeuge können aktiviert werden:
 
 Werkzeug | | Beschreibung
 ---|---|---
-:fontawesome-solid-circle-info: | Information an Mitglieder| Ist das Werkzeug „Information“ aktiviert, kann definiert werden, ob nur Gruppenbetreuer:innen oder auch Gruppenmitglieder Mitteilungen erstellen können. Eigene Mitteilungen können immer editiert werden. Als Gruppenbetreuer:in können Sie alle Mitteilungen editieren und löschen.  
-:fontawesome-regular-envelope:| E-Mail| Ist das Werkzeug „E-Mail“ aktiviert, können auch Gruppenteilnehmer:innen Nachrichten an (ausgewählte) Betreuer:innen und/oder Teilnehmer:innen verschicken. 
+:fontawesome-solid-circle-info: | Information an Mitglieder| Ist das Werkzeug "Information" aktiviert, kann definiert werden, ob nur Gruppenbetreuer:innen oder auch Gruppenmitglieder Mitteilungen erstellen können. Eigene Mitteilungen können immer editiert werden. Als Gruppenbetreuer:in können Sie alle Mitteilungen editieren und löschen.  
+:fontawesome-regular-envelope:| E-Mail| Ist das Werkzeug "E-Mail" aktiviert, können auch Gruppenteilnehmer:innen Nachrichten an (ausgewählte) Betreuer:innen und/oder Teilnehmer:innen verschicken. 
 :fontawesome-solid-calendar-days: | Kalender| Sie können der Gruppe einen Kalender zur Verfügung stellen, in den Sie gemeinsame Termine eintragen können. Es kann konfiguriert werden ob nur Gruppenbetreuer:innen oder alle Gruppenmitglieder Einträge im Kalender vornehmen dürfen. Weitere generelle Informationen zu Kalenderfunktionen finden Sie im Kapitel [Kalender](../personal_menu/Calendar.de.md).  
-:fontawesome-regular-folder: | Ordner| Mit einem Ordner ermöglichen Sie den Austausch von Dateien zwischen den Mitgliedern Ihrer Gruppe. Auch eine gemeinsame Bearbeitung von Office-Dokumenten ist je nach Konfiguration durch den OpenOlat Administrator möglich.  Wenn der Ordner aktiviert ist und gespeichert wurde, können Sie die Schreibberechtigungen dafür konfigurieren, d.h. festlegen wer Dateien hochladen und erstellen darf.   
+:fontawesome-regular-folder: | Ordner| Mit einem Ordner ermöglichen Sie den Austausch von Dateien zwischen den Mitgliedern Ihrer Gruppe. Auch eine gemeinsame Bearbeitung von Office-Dokumenten ist je nach Konfiguration durch den OpenOlat Administrator möglich. Wenn der Ordner aktiviert ist und gespeichert wurde, können Sie die Schreibberechtigungen dafür konfigurieren, d.h. festlegen wer Dateien hochladen und erstellen darf.   
 :fontawesome-brands-rocketchat:| Forum| Aktivieren Sie das Forum um allen eine asynchrone Austauschmöglichkeit zur Verfügung zu stellen. Als Betreuer:in der Gruppe haben Sie das Recht, Beiträge zu editieren und zu löschen, sowie neue Beiträge zu verfassen.   
 :fontawesome-solid-comment-sms: | Chat| Sie können der Gruppe einen einfachen, synchronen Chat zur Verfügung stellen. Sie sehen hier auch, welche anderen Mitglieder sich aktuell im Gruppenchat befinden.  
 :fontawesome-solid-globe: | Wiki| Sie können der Gruppe ein Wiki zur Verfügung stellen, um gemeinsam Inhalte zu erstellen. Weitere Infos zur Arbeit mit Wikis finden Sie [hier](../learningresources/Working_with_Wiki.de.md).  
@@ -85,10 +85,9 @@ sein soll.
 
 Mit der Option "Mitglieder dürfen Mitgliederliste herunterladen" können Sie
 steuern, ob Teilnehmer:innen die **Mitgliederliste zusätzlich auch als Excel-Datei**
-herunterladen dürfen oder nicht und ob die Mitgliederliste ausgedruckt werden
-kann.
+herunterladen dürfen oder nicht und ob die Mitgliederliste ausgedruckt werden kann.
 
-Wenn Sie die Option "**Teilnehmer können Gruppe verlassen**" aktiviert ist, können
+Wenn Sie die Option "**Teilnehmer können Gruppe verlassen**" aktivieren ist, können
 Teilnehmende die Gruppe direkt in der Gruppenübersicht verlassen. Falls nicht, erhalten die Gruppenbetreuer vom jeweiligen Teilnehmenden eine Mail zum Austrittswunsch. Die Gruppenbesitzer müssen dann die Person manuell aus der Gruppe entfernen.
 
 **Mitglieder hinzufügen, löschen und anzeigen**
@@ -102,7 +101,7 @@ Wie unterscheiden sich Gruppen-Betreuer:innen von den Gruppen-Teilnehmenden?
 
 Über "Mitglied hinzufügen" können Sie nach einzelnen Personen suchen oder auch mehrere Personen direkt der Gruppe hinzufügen, wenn Sie deren Anmeldenamen, E-Mail oder Institutionsnummer kennen. 
 
-Wenn Sie auf das Icon „Tabelle herunterladen“ klicken, werden Betreuer bzw. Teilnehmer der Gruppe
+Wenn Sie auf das Icon "Tabelle herunterladen" klicken, werden Betreuer bzw. Teilnehmer der Gruppe
 in einer Excel-Datei ausgegeben.
 
 ## Tab Kurse {: #courses}
@@ -111,7 +110,7 @@ Dieser Tab ist nur verfügbar, wenn die Gruppe mit einem oder mehreren Kursen ve
 
 Wählt man "Kurs hinzufügen" erscheint eine Übersicht aller Ihnen als Gruppen-Betreuer:in zur Verfügung stehenden Kursen. Es können nur Kurse verbunden werden bei denen Sie als Besitzer:in eingetragen sind.
 
-Um einen Kurs auszuwählen markieren Sie ihn, klicken auf den Titel oder klicken auf den Haken in der Spalte  _Auswählen_ ". 
+Um einen Kurs auszuwählen, markieren Sie ihn, klicken auf den Titel oder klicken auf den Haken in der Spalte  "_Auswählen_". 
 Weiterführende Informationen zum Kurs, wie z.B. Autor:in, Sprache oder
 Beschreibung, erhalten Sie mit einem Klick auf das
 :octicons-info-16: Icon. 
@@ -136,12 +135,12 @@ Folgende Optionen stehen zur Auswahl:
 
 * :material-key-variant: **Zugangscode**: Wählen Sie die Buchungsmethode "Zugangscode" um die Buchung auf diejenigen zu begrenzen, die über das hinterlegte Passwort verfügen. Hierfür wird manuell ein Zugangscode festgelegt, der von dem/der Gruppenbesitzer:in weitergegeben wird. Nur Personen die über diesen Zugangscode verfügen können die Gruppe buchen. Vor dem ersten Öffnen der Gruppe muss dieser Code von dem/der Benutzer:in eingegeben werden. Auch eine zeitliche Begrenzung der Buchung mit dem Zugangscode kann definiert werden.
 * :material-gift: **Frei verfügbar**: Wählen Sie die freie Buchungsmethode, wenn ein Zutritt ohne Passwort möglich sein soll. Alle Systembenutzer können die Ressource dann buchen. Ein/eine Benutzer:in wird dadurch als Teilnehmer:in der Gruppe hinzugefügt. Es ist aber auch möglich, den freien Zugang zeitlich zu begrenzen. 
-* :fontawesome-brands-cc-paypal: **PayPal Checkout**  (nur verfügbar, wenn vom Administrator freigeschaltet): Wählen Sie diese Buchungsmethode um eine Buchung gegen eine finanzielle Vergütung zu ermöglichen. Bei dieser Buchungsmethode können Sie einen Betrag definieren, der mit einem PayPal Konto oder mit einer Kreditkarte (Visa/Mastercard) bezahlt werden muss. Die Warteliste kann mit dieser Buchungsmethode nicht verwendet werden. Die Optionen „Warteliste“ respektive PayPal, werden nicht mehr in der Gruppenadministration angezeigt, sobald die jeweils andere gewählt wurde.
+* :fontawesome-brands-cc-paypal: **PayPal Checkout**  (nur verfügbar, wenn vom Administrator freigeschaltet): Wählen Sie diese Buchungsmethode um eine Buchung gegen eine finanzielle Vergütung zu ermöglichen. Bei dieser Buchungsmethode können Sie einen Betrag definieren, der mit einem PayPal Konto oder mit einer Kreditkarte (Visa/Mastercard) bezahlt werden muss. Die Warteliste kann mit dieser Buchungsmethode nicht verwendet werden. Die Optionen "Warteliste" bzw. "PayPal", werden nicht mehr in der Gruppenadministration angezeigt, sobald die jeweils andere gewählt wurde.
 
 Sobald eine Buchungsmethode konfiguriert wurde, wird die Gruppe in die Liste
 der **"Veröffentlichten Gruppen**" eingetragen und kann somit gesucht und gebucht werden. Wird keine Buchungsmethode konfiguriert, steht die Gruppe nur den eingetragenen Benutzer:innen zur Verfügung, die im Tab "Mitglieder" durch die Gruppen-Betreuenden hinzugefügt wurden.
 
-Sie können auch mehrere Angebote konfigurieren. Diese gelten als verschiedene Optionen. Beispielweise könnte man den Zugang für 2 Tage "frei verfügbar" einrichten und danach nur noch mit Passwort oder Bezahloption. Wenn sich die konfigurierten Angebote überlappen, können sich Interessierte die Option auswählen. Unter "Editieren" können Sie die Konfiguration der Angebote jederzeit wieder ändern. 
+Sie können auch mehrere Angebote konfigurieren. Diese gelten als verschiedene Optionen. Beispielsweise könnte man den Zugang für 2 Tage "frei verfügbar" einrichten und danach nur noch mit Passwort oder Bezahloption. Wenn sich die konfigurierten Angebote überlappen, können sich Interessierte die Option auswählen. Unter "Editieren" können Sie die Konfiguration der Angebote jederzeit wieder ändern. 
 
 Hat ein/eine Benutzer:in eine Gruppe gebucht, so wird die Person in der Teilnehmerliste dieser Gruppe eingetragen. Von dem Zeitpunkt an entscheidet das System einzig über die Teilnehmerliste, ob eine Person Zugang zur Gruppe hat. Abgelaufene Buchungskonfigurationen haben daher keinen Einfluss auf eine Teilnehmerschaft.
 
@@ -164,5 +163,5 @@ Hier werden der Status der Gruppe sowie weitere Informationen angezeigt. Ferner 
 
 ![Tab Gruppen-Lebenszyklus](assets/Gruppe_inaktivieren_173a.png){ class="shadow lightbox" }
 
-Weitere Informationen finden Sie im separaten Kapitel "Automatischer Gruppen-Lebenszyklus" im Administrationshandbuch.
+Weitere Informationen finden Sie im separaten Kapitel [Automatischer Gruppen-Lebenszyklus](https://docs.openolat.org/de/manual_admin/administration/Automatic_Group_Lifecycle/) im Administrationshandbuch.
 

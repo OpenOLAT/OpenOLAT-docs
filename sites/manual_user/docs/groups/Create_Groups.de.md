@@ -10,8 +10,8 @@ Es gibt verschiedene Orte, an denen Sie Gruppen erstellen können. In der Regel 
 Gruppen müssen mit Namen versehen werden. Der Name kann beliebig sein und darf
 alle Sonderzeichen und Ziffern enthalten. Für Benutzer ist es hilfreich, wenn
 sie aus dem Gruppennamen auf Ziel oder Absicht der Gruppe schliessen können.
-Wählen Sie beispielsweise anstatt „Teilnehmer“ den Gruppennamen
-„TeilnehmerSozialpolitik22“, oder fügen Sie Ihre Initialen oder ein Datum zum
+Wählen Sie beispielsweise anstatt "Teilnehmer" den Gruppennamen
+"TeilnehmerSozialpolitik22", oder fügen Sie Ihre Initialen oder ein Datum zum
 Gruppennamen hinzu.
 
 ### Beschreibung
@@ -32,19 +32,19 @@ Teilnehmende die Gruppe haben darf. Wenn die vorgesehene Anzahl Teilnehmenden ü
 
 !!! info "Info"
 
-    Wird eine Gruppe mit einem Kurs verknüpft können Kursbesitzer auf diesem Weg  auch die Anzahl der Teilnehmenden eines Kurses steuern.
+    Wird eine Gruppe mit einem Kurs verknüpft können Kursbesitzer auf diesem Weg auch die Anzahl der Teilnehmenden eines Kurses steuern.
 
 ### Warteliste + Automatisches Nachrücken
 
 Sofern Sie die Anzahl der Teilnehmenden beschränkt haben, können Sie der Gruppe eine Warteliste hinzufügen. Kursteilnehmende können sich dann bei vollen Gruppen auf die Warteliste setzen lassen. Wenn sich jemand aus der Gruppe austrägt
-oder von dem/der Gruppenbetreuer:in ausgetragen wird, können Personen auf der Warteliste automatisch nachrücken. Dazu muss die Option „**automatisches Nachrücken**“
+oder von dem/der Gruppenbetreuer:in ausgetragen wird, können Personen auf der Warteliste automatisch nachrücken. Dazu muss die Option "**automatisches Nachrücken**"
 gewählt sein. Kriterium für das Nachrücken ist der Zeitpunkt der Einschreibung in die Warteliste, d.h. die sich am längsten auf der Warteliste befindende Person rückt nach.
 
 ## Wer kann Gruppen erstellen?
 
 Sofern von OpenOlat Administrator:innen aktiviert, kann jeder/jede OpenOlat-Benutzer:in,
 nicht nur Autor:innen, selbständig Gruppen erstellen, den Gruppen vielfältige
-[Werkzeuge ](Using_Group_Tools.de.md)zuordnen und beliebig
+[Werkzeuge](Using_Group_Tools.de.md) zuordnen und beliebig
 viele andere OpenOlat-Benutzer:innen in die Gruppe einladen.
 
 ## Gruppen für Kurse erstellen
