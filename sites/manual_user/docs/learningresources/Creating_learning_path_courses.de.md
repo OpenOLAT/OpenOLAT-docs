@@ -3,7 +3,7 @@
 :octicons-device-camera-video-24: **Video-Einführung**: [Lernpfade einrichten](<https://www.youtube.com/embed/7TFx8877Uaw>){:target="_blank”}
 
 Die Erstellung sowohl von herkömmlichen als auch von Lernpfad Kursen erfolgt
-im Autorenbereich unter „Meine Einträge“ oder „Favoriten“ -> Erstellen ->
+im Autorenbereich unter "Meine Einträge" oder "Favoriten" -> Erstellen ->
 Kurs. Anschließend kann der gewünschte Kurstyp gewählt werden.
 
 Bereits existierende, herkömmliche Kurse können in Lernpfad Kurse umgewandelt
@@ -37,7 +37,7 @@ Alternativ kann jeder obligatorische Kursbaustein mit einer zu erwartenden
 Bearbeitungszeit versehen werden und der Fortschritt sich auf die bereits
 absolvierten Zeiteinheiten beziehen.
 
-![](assets/Screenshot 2020-06-10 at 09.41.43.png)
+![](assets/Access_Course_Elements.de.png)
  
 Die Berechnungsgrundlage beeinflusst dann den für die Lernenden angezeigten
 Fortschritt, der in der Grafik rechts oben und im Bereich "Lernpfad" der Toolbar angezeigt
@@ -72,4 +72,4 @@ Folgende Dinge können eingestellt werden:
   * ob einzelne Kursbausteine obligatorisch oder freiwillig sind
   * sowie weitere Datumsangaben zu den einzelnen Kursbausteinen
 
-![](assets/Lernfpad_beta.png)
+![](assets/Copy_Learning_Path.de.wm.png)

@@ -32,9 +32,9 @@ mentioned explicitly.
     an important aspect for your implementation, please use a conventional course.
 
   
-   Auf den nächsten Seiten erfahren Sie: 
+   On the next pages you will learn: 
 
   * How to [Create learning path courses](Creating_learning_path_courses.md)
-  * Welche Möglichkeiten im [Course editor] (../learningresources/Learning_path_course_Course_editor.md) zur Verfügung stehen.
-  * Wie sich der Lernpfad Kurs in der  [Participant view](Learning_path_course_Participant_view.md) zeigt.
+  * Available opportunities in the [Course editor](../learningresources/Learning_path_course_Course_editor.md).
+  * How the learning path course shows up in the  [Participant view](Learning_path_course_Participant_view.md).
 

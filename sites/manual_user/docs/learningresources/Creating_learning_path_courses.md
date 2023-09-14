@@ -4,15 +4,11 @@ The creation of both conventional and learning path courses takes place in the
 author area under "My entries" or "Favorites" -> Create -> Course. The desired
 course type can then be selected.
 
-![](assets/Kurs erstellen EN.png)
-
 Existing conventional courses can be converted into learning path courses. A
 corresponding link can be found in the course administration and also in the
 "Settings" area in the "Execution" tab.
 
 ![](assets/Kurs konvertieren EN.png)
-
-  
 
 During the conversion a copy of the course is created. However, courses that
 contain a portfolio task or an old questionnaire cannot be converted at the
@@ -22,7 +18,7 @@ conversion must be started again.
 !!! warning "Warning"
 
     It is not possible to convert a learning path course into a conventional
-    course.
+    course!
 
 ## Configuration for calculating the learning progress
 
@@ -33,8 +29,7 @@ successfully completed mandatory course elements. Alternatively, each
 mandatory course element can be given an expected completion time and the
 progress can be based on the time units already completed.
 
-
-![](assets/Kursfortschritt berechnen EN.png)  
+![](assets/Access_Course_Elements.en.png) 
 
 The calculation basis then influences the progress displayed for learners in
 the graphic at the top right and in the "Learning path" area.
@@ -44,9 +39,24 @@ In addition, it is possible to define in the "Settings" in the tab
 progress graphic display (sum or average) and whether and how a pass of the
 course is calculated.
 
- 
+ ![](assets/Prozentanzeige.en.png)
 
-![](assets/Kursfortschritt EN.png)
+ ## Copying Learning path courses
+
+Like all learning resources, Learning path courses can be copied. New since OpenOlat 16 is the possibility to copy a learning path with the help of a wizard (beta). In this way, further detailed settings can be made prior to the
+copy process, so that a later revision is not necessary.
+The following things can be adjusted:
+
+  * whether all date settings are automatically adjusted when the implementation period is changed
+  * whether all previous owners and maintainers are copied as well
+  * whether groups are copied as well
+  * whether task settings and sample solutions are copied
+  * whether terms of use are accepted
+  * whether individual course elements are mandatory or voluntary
+  * as well as further dates for the individual course elements
+
+![](assets/Copy_Learning_Path.en.wm.png)
+
 
   
 

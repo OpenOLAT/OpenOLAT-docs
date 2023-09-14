@@ -38,7 +38,7 @@ Es stehen zwei grundsätzliche Varianten zur Verfügung:
 
 ![Booking options](assets/booking.de.jpg)
 
-Bei der  Wahl **"Privat"** werden die Teilnehmenden durch die Besitzer bzw. Personen, die über das Recht der Mitgliederverwaltung verfügen, eingetragen.
+Bei der Wahl **"Privat"** werden die Teilnehmenden durch die Besitzer bzw. Personen, die über das Recht der Mitgliederverwaltung verfügen, eingetragen.
 
 Bei der Wahl der Option **"Buchbare und offene Angebote"** können die Lernenden einen Kurs/Lernressource selbst buchen, müssen aber eventuell (je nach Einstellung) ein Passwort
 eingeben.
@@ -73,7 +73,7 @@ exportieren | Die Lernressource ist für alle andere Autoren zum Download freige
   
 !!! warning "Achtung"
 
-    Die Optionen "referenzieren" und "kopieren " machen z.B. Sinn, wenn Sie eine Lernressource als Vorlage oder gutes Beispiel für andere OpenOlat Autoren nutzbar machen möchten. Ein Referenzierung macht allerdings *bei Kursen* wenig Sinn und sollte hier eher vermieden werden.
+    Die Optionen "referenzieren" und "kopieren" machen z.B. Sinn, wenn Sie eine Lernressource als Vorlage oder gutes Beispiel für andere OpenOlat Autoren nutzbar machen möchten. Ein Referenzierung macht allerdings *bei Kursen* wenig Sinn und sollte hier eher vermieden werden.
     
     Überlegen Sie genau, ob Sie die jeweiligen Freigaben wirklich für alle anderen Autoren der OpenOlat Instanz machen möchten. 
 
@@ -81,7 +81,7 @@ exportieren | Die Lernressource ist für alle andere Autoren zum Download freige
 
 ## Angebot / Angebote erstellen {: #offer}
 
-Haben Sie zuvor die Option "Buchbare und offene Angebote...." (ab :octicons-tag-24: Release 17.0) gewählt können Sie anschliessend Angebote erstellen.
+Haben Sie zuvor die Option "Buchbare und offene Angebote..." (ab :octicons-tag-24: Release 17.0) gewählt, können Sie anschliessend Angebote erstellen.
 
 ![offer Screen](assets/offer.de.jpg)
 
@@ -111,7 +111,7 @@ Wählen Sie diese Option, wenn keine weiteren Einschränkungen gelten. Alle Open
 
 ![paypal](assets/cc-paypal.png){ class="size24" }   **PayPal und Kreditkarte**
   
-Diese Option ist nur verfügbar wenn sie vom [Administrator freigeschaltet](../../manual_admin/administration/PayPal_Configuration.de.md) wurde. Wählen Sie PayPal/Kreditkarten um eine Buchung gegen eine finanzielle Vergütung zu ermöglichen. Dabei können Sie einen Betrag definieren, der mit einem PayPal Konto oder mit einer Kreditkarte (Visa/Mastercard) bezahlt werden muss. (Diese Funktion steht nur Benutzern mit Autorenrechten zur Verfügung)
+Diese Option ist nur verfügbar wenn sie vom [Administrator freigeschaltet](../../manual_admin/administration/PayPal_Configuration.de.md) wurde. Wählen Sie PayPal/Kreditkarten um eine Buchung gegen eine finanzielle Vergütung zu ermöglichen. Dabei können Sie einen Betrag definieren, der mit einem PayPal Konto oder mit einer Kreditkarte (Visa/Mastercard) bezahlt werden muss. (Diese Funktion steht nur Benutzern mit Autorenrechten zur Verfügung.)
 
 ![notBooking](assets/notBooking.jpg){ class="size24" }  **Ohne Buchung**
 Ab :octicons-tag-24: 17.0 verfügbar.
@@ -134,7 +134,7 @@ Sie können auch mehrere Angebote konfigurieren. Diese gelten als verschiedene O
 
 !!! warning "Achtung"
 
-    Ein angegebenes Start- oder Enddatum bezieht sich ausschliesslich auf den **Buchungsprozess** nicht auf den Durchführungszeitraum der Lernressource. Hat ein Benutzer eine Lernressource gebucht, so wird die Person in der Teilnehmerliste dieser Ressource eingetragen. Von dem Zeitpunkt an entscheidet das System einzig über die Teilnehmerliste ob eine Person Zugang zu einer Ressource hat. 
+    Ein angegebenes Start- oder Enddatum bezieht sich ausschliesslich auf den **Buchungsprozess**, nicht auf den Durchführungszeitraum der Lernressource. Hat ein Benutzer eine Lernressource gebucht, so wird die Person in der Teilnehmerliste dieser Ressource eingetragen. Von dem Zeitpunkt an entscheidet das System einzig über die Teilnehmerliste ob eine Person Zugang zu einer Ressource hat. 
     
     Abgelaufene Buchungskonfigurationen haben daher keinen Einfluss auf eine Teilnehmerschaft. Als Besitzer der Ressource können Sie auch jederzeit eine Person zu der Teilnehmerliste hinzufügen bzw. entfernen. In dem zweiten Fall kann der Benutzer durch erneutes Buchen sich wieder in die Ressource als Teilnehmer eintragen.
 
@@ -153,7 +153,7 @@ Ist die Freigabe nach den Wünschen eingestellt, sieht man am Ende der Seite kom
 Wurde ein Kurs durchgeführt und ist abgelaufen kann er beendet und/oder
 gelöscht werden.
 
-Wenn ein Kurs **beendet** wird, befindet er sich anschliessend im Lesemodus. Alle Benutzerdaten bleiben bestehen und alle Kursmitglieder haben nach wie vor Zugriff auf den Kurs. Der Kurs befindet sich jedoch nicht mehr im Tab „Meine Kurse“, sondern im Tab „Beendet“ gleich nebenan.
+Wenn ein Kurs **beendet** wird, befindet er sich anschliessend im Lesemodus. Alle Benutzerdaten bleiben bestehen und alle Kursmitglieder haben nach wie vor Zugriff auf den Kurs. Der Kurs befindet sich jedoch nicht mehr im Tab "Meine Kurse", sondern im Tab "Beendet" gleich nebenan.
 
 ![Tab Kurs beendet](assets/beendet2.png)  
 Im Autorenbereich wird der beendete Kurs mit einem neuen Symbol und durchgestrichen angezeigt.
@@ -162,5 +162,5 @@ Falls der Kurs wieder geöffnet werden soll, rufen Sie erneut den Lebenszyklus d
 
 ### Kurs löschen
 
-Im Menü "Administration" → "Löschen" bzw. über das 3-Punkte Menü![3 Punkte](assets/Action menu.png) im Autorenbereich kann eine Lernressource gelöscht werden. In diesem Fall wird die Lernressource in den Tab "Gelöscht" verschoben und liegt sozusagen im
+Im Menü "Administration" → "Löschen" bzw. über das 3-Punkte Menü ![3 Punkte](assets/Action menu.png) im Autorenbereich kann eine Lernressource gelöscht werden. In diesem Fall wird die Lernressource in den Tab "Gelöscht" verschoben und liegt sozusagen im
 Papierkorb.

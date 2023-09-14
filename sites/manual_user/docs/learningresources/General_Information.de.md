@@ -15,7 +15,7 @@ Lernressource Kurs im "Autorenbereich" erstellen und den gewünschten Kurstyp "L
 ![Kurs erstellen](assets/create_course_16_DE.png){ class="shadow" }
 
 !!! info "Weitere Informationen"
-	  * [Kurs erstellen](index.de.md)
+	  * [Kurse erstellen](../learningresources/Creating_Course.de.md)
 	  * [Mein erster Kurs](../../manual_how-to/my_first_course/my_first_course.de.md)
 	  * [Lernpfad Kurse erstellen](Creating_learning_path_courses.de.md)
 
@@ -37,7 +37,7 @@ gewünscht konfigurieren.
 
 ### 3. Zugang einrichten
 
-Im Administrationsmenü „Einstellungen“ werden die benötigten Einstellungen für den Zugang vorgenommen. Insbesondere der Tab "Freigabe" ist dabei wichtig.
+Im Administrationsmenü "Einstellungen" werden die benötigten Einstellungen für den Zugang vorgenommen. Insbesondere der Tab "Freigabe" ist dabei wichtig.
 
 ![](assets/Einstellungen1.png)
 
@@ -47,7 +47,7 @@ Im Administrationsmenü „Einstellungen“ werden die benötigten Einstellungen
 
 ### 4. Kurs Status veröffentlichen
 
-In der Kurs Toolbar den Status auf „veröffentlicht“ setzen, damit der Kurs
+In der Kurs Toolbar den Status auf "Veröffentlicht" setzen, damit der Kurs
 auch für die Lernenden sichtbar wird.
 
 ![](assets/Status_veröffentlicht.png)
@@ -68,7 +68,7 @@ Handlungen vor.
 
 ### 6. Kurs beenden {: #end_course}
 
-Ist der Kurs abgelaufen sollten Sie den Status auf „beendet“ setzen.
+Ist der Kurs abgelaufen, sollten Sie den Status auf "beendet" setzen.
 
 ![](assets/beendet.png)
 
@@ -77,7 +77,7 @@ Ist der Kurs abgelaufen sollten Sie den Status auf „beendet“ setzen.
 
 ### 7. Kurs löschen
 
-Das „Löschen“ des Kurses erfolgt über das passende Menü in der Kurs
+Das "Löschen" des Kurses erfolgt über das passende Menü in der Kurs
 Administration. Gelöschte Kurse können im Autorenbereich über die Filteroption
 im Lebenszyklus ein- oder ausgeblendet oder gezielt über den Link "Gelöscht"
 angezeigt werden.
@@ -104,5 +104,5 @@ angezeigt werden.
 	effektivsten Kursbausteine aus mit denen Sie Ihr Ziel erreichen und Ihr
 	Kurskonzept umsetzen können. Versuchen Sie auch zusammengehörende Dinge
 	sinnvoll zu bündeln, um eine optimale Usability zu erreichen. Wenn der Aufbau
-	klar ist, bereiten Sie die Lerninhalte, weitere Dateien ([HTML pages, PDF files, CPs](../learningresources/index.de.md), etc.). und alles, was Sie für den
+	klar ist, bereiten Sie die Lerninhalte, weitere Dateien ([HTML pages, PDF files, CPs](../learningresources/index.de.md), etc.) und alles, was Sie für den
 	Einsatz in der Lernplattform benötigen, vor.

@@ -2,7 +2,7 @@
 
 Ein Lernpfad Kurs unterscheidet sich auch für die Lernenden von einem
 herkömmlichen Kurs. Die größten Unterschiede liegen in der Fortschrittsanzeige
-und dem Bereich Lernpfad.  Im Folgenden werden die zentralen
+und dem Bereich Lernpfad. Im Folgenden werden die zentralen
 Bereiche kurz hervorgehoben.
 
 ## Typische Elemente eines Lernpfad Kurses aus Sicht der Lernenden:
@@ -21,8 +21,8 @@ eventuelle Datumsangaben. Kursbesitzer oder Betreuer sehen hier den
 Bearbeitungsstand aller Kursteilnehmenden.  
 ![](assets/Lernpfad_uebersicht.png)
 
-  3. Visualisierte Anzeige des **prozentualen Fortschritts.** Hier erkennen die Lernenden wieviel Prozent der obligatorischen Kursbausteine sie bereits erledigt haben. Sofern aktiviert werden hier auch die Gesamtpunkte des Users angezeigt.
-  4. Pfeilbuttons für die Navigation durch den gesamten Kurs.  Mit den Pfeilen kann der User zum nächsten Kursbaustein navigieren. Müssen bestimmte Anforderungen für den folgenden Baustein erfüllt sein, die noch nicht erfüllt wurden, z.B. fehlt eine Bestätigung durch den User oder ein Test wurde noch nicht absolviert, erscheint die Meldung „Dieses Kurselement ist nicht zugänglich.“.  Ferner erscheint beispielsweise " **Ich habe den Inhalt gelesen**", wenn der User bestätigen muss, dass er den entsprechenden Baustein bearbeitet hat. Einen Überblick über mögliche Erledigungskrterien findet man [hier](../learningresources/Learning_path_course_Course_editor.de.md).
+  3. Visualisierte Anzeige des **prozentualen Fortschritts**. Hier erkennen die Lernenden wieviel Prozent der obligatorischen Kursbausteine sie bereits erledigt haben. Sofern aktiviert werden hier auch die Gesamtpunkte des Users angezeigt.
+  4. Pfeilbuttons für die Navigation durch den gesamten Kurs. Mit den Pfeilen kann der User zum nächsten Kursbaustein navigieren. Müssen bestimmte Anforderungen für den folgenden Baustein erfüllt sein, die noch nicht erfüllt wurden, z.B. fehlt eine Bestätigung durch den User oder ein Test wurde noch nicht absolviert, erscheint die Meldung "Dieses Kurselement ist nicht zugänglich.". Ferner erscheint beispielsweise " **Ich habe den Inhalt gelesen**", wenn der User bestätigen muss, dass er den entsprechenden Baustein bearbeitet hat. Einen Überblick über mögliche Erledigungskrterien findet man [hier](../learningresources/Learning_path_course_Course_editor.de.md).
 
 Durch die visualisierte Anzeige und die bereitgestellten Infos erhalten die
 Lernenden rasch und kontinuierlich einen Überblick über ihren Kursfortschritt

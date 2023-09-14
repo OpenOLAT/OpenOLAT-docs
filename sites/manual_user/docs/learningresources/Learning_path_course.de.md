@@ -9,12 +9,10 @@ Herkömmliche Kurse und Lernpfad Kurse.
 
 Der Kurstyp Lernpfad hilft den Lernenden, den Überblick über ihre
 Kursaktivitäten zu behalten. Die Visualisierung des Lernpfades zeigt auf einen
-Blick, was sie bereits absolviert haben, an welcher Stelle die [Lernenden
-](../learningresources/Learning_path_course_Participant_view.de.md)im Kurs sie
+Blick, was sie bereits absolviert haben, an welcher Stelle die [Lernenden](../learningresources/Learning_path_course_Participant_view.de.md)im Kurs sie
 aktuell stehen und welche Kursbausteine sie noch bearbeiten dürfen oder
 müssen.
 
-:octicons-device-camera-video-24: **Video-Einführung**: [Was ist ein Lernpfad?](<https://www.youtube.com/embed/XQJSf-9it_I>){:target="_blank”}<br>
 :octicons-device-camera-video-24: **Video-Einführung**: [Wie sehe ich meinen Lernfortschritt?](<https://www.youtube.com/embed/sC2si_giXY8>){:target="_blank”}
 
 Auch Autoren und Betreuer profitieren vom neuen Kurstyp. Für Betreuer steht
@@ -32,7 +30,7 @@ didaktisch durchdachte Struktur und Reihenfolge vorgegeben werden, die sie durch
 müssen.
 
 Wenn in der Online-Hilfe nichts weiter erwähnt wird, sind bei der Bezeichnung
-„Kurs“ die herkömmlichen Kurse gemeint. Geht es um Lernpfad Kurse wird dies
+"Kurs" die herkömmlichen Kurse gemeint. Geht es um Lernpfad Kurse wird dies
 explizit erwähnt.
 
 !!! warning "Wichtiger Hinweis"
