@@ -6,6 +6,8 @@
 
 Learning path courses can be configured to be followed sequentially or in any order by learners. The basic setting is set on the top course element, which is automatically created when a course is created. This setting then initially applies to the entire course.
 
+Examples and a further introduction can also be found in our [Whitepaper for learning path courses (download here)](assets/Whitepaper_Lernpfadkurse_final.pdf).
+
 ![Basic setting learning path](assets/learning_path_structure.png)
 
 If certain areas of the course are to be given a different setting, this can be done by adding and configuring the course element "Structure". The selected setting will then apply to all course elements subordinate to this [course element "Structure"](../learningresources/Course_Element_Structure.md). For example, a course can be configured as sequential by default, but a certain area in the course can be permanently accessed in any order.
@@ -16,12 +18,13 @@ Learning paths, unlike conventional courses, do not have the tabs "Visibility" a
 
 ![Learning path](assets/Lernpfad_tab17_en.png)
 
-  *  **Mandatory:** The completion of the course element is binding and will be considered in the percentage evaluation.
-  *  **Optional:** Completion will not be taken into account when displaying percentages.
-  * **Ausgenommen**: Die Erledigung ist nicht Teil des Lernpfades und nur durch Ausnahmen steuerbar. Der Kursbaustein ist für die Teilnehmenden nicht sichtbar.
-  *  **Release date:** (Date as of which the element can be edited by the user.) Regelt den Zugang zum jeweiligen Kursbausein. Der Baustein ist vor dem Freigabedatum zwar sichtbar aber nicht zugänglich. Auch ein relatives Freigabedatum ist möglich.
-  *  **Due date:** If a course element is mandatory you can also enter a date by which the element must be completed.
-  *  **Learning time (minutes):** Here you can enter how long the creator estimates the processing time for a given element. It does not depend on how much time the user really needs for that element.
+ * **Durchführung**
+  *  **Mandatory**: The completion of the course element is binding and will be considered in the percentage evaluation.
+  *  **Optional**: Completion will not be taken into account when displaying percentages.
+  * **Excluded**: Completion is not part of the learning path and is only controllable by exception. The course element is not visible for the participants.
+  *  **Release date**: Controls the access to the respective course element. The block is visible but not accessible before the release date. A relative release date is also possible.
+  *  **Due date**: If a course element is mandatory you can also enter a date by which the element must be completed.
+  *  **Learning time (minutes)**: Here you can enter how long the creator estimates the processing time for a given element. The processing time is independent of how much time the user really needs for the block.
 
 These settings are available for almost all course elements. An exception is the [course element "Structure"](../learningresources/Course_Element_Structure.md) that is meant for bundling course elements. In the structure element you can only define a sequence of learning steps that applies to all subordinate course elements, either sequentially or in specific order.
 
@@ -41,7 +44,7 @@ The exceptions can refer to the following aspects:
 
 **Further configuration examples for exceptions:**
 
-a) The course element is basically not visible unless you are a member of the group "B-ernhardiner. Then the processing is obligatory.
+a) The course element is basically not visible unless you are a member of the group "B-ernhardiner". Then the processing is obligatory.
 
 ![Example A: Exception with group](assets/image2021-12-13_13-41-2.png)
 
@@ -63,30 +66,30 @@ The time display is independent of the type of learning progress calculation sel
 
 ### Completion criterion
 
-Most course elements offer the possibility that the element is considered
+Except for the course element "Structure", all course elements offer the possibility that the element is considered
 "done" when it is opened or when the user explicitly confirms the processing. Depending on your course element there are also other criteria for completion.
 
- * **Visit course element**: all course elements except structure  
+ * **Open course element**: all course elements except Structure  
 
- * **Confirmation by the participant**: all course elements except structure  
+ * **Confirmation by the participant**: all course elements except Structure  
   
- * **Score:** Done when the user has reached a certain minimum score. Available for the course elements Task, SCORM, Assessment, Grouptask, Check list, Test, LTI, portfolio task  
+ * **Score**: Done when the user has reached a certain minimum score. Available for the course elements Task, SCORM, Assessment, Grouptask, Check list, Test, LTI, Portfolio task  
   
- * **Passed:** Completed when the pass criteria defined for the course component are met. Available for the course elements Task, SCORM, Assessment, Grouptask, Check list, Test, LTI, portfolio task
+ * **Passed**: Completed when the pass criteria defined for the course component are met. Available for the course elements Task, SCORM, Assessment, Grouptask, Check list, Test, LTI, Portfolio task
 
- * **Execution done:** Completely done when all steps of the task have been completed. In the intermediate stages, partial completion is taken into account as a percentage of progress. Available for the course elements Task, Grouptask, portfolio task, video task
+ * **Execution done**: Completely done when all steps of the task have been completed. In the intermediate stages, partial completion is taken into account as a percentage of progress. Available for the course elements Task, Grouptask, portfolio task, video task
   
  * **Test finished**: Only for the course element Test
   
- * **Survey finished:** Done when the user has submitted the survey. Only for the course element Survey  
+ * **Survey finished**: Done when the user has submitted the survey. Only for the course element Survey  
   
- * **Enrollment done:** Done if the user has enrolled in one or more group(s). Only for the course element Enrollment  
+ * **Enrollment done**: Done if the user has enrolled in one or more group(s). Only for the course element Enrollment  
   
  * **Form filled in**: Only for the course element Form  
 
- * **Challenges abgeschlossen**: Only for the course element Practice
+ * **Challenges finished**: Only for the course element Practice
 
- * **Bewertung abgeschlossen**: Only for the course element Checklist
+ * **Bewertung finished**: Only for the course element Checklist
 
  * **All checkboxes marked as completed**: Only for the course element Checklist
 

@@ -11,14 +11,13 @@ Beispiele und eine weitere Einführung findet man auch in unserem [Whitepaper f�
 ![Grundeinstellung Lernpfad](assets/Tab_Lernpfad_Struktur.png)
 
 Sollen bestimmte Bereiche des Kurses eine andere Einstellung erhalten, kann
-dies über das Hinzufügen und Konfigurieren des Kursbausteins „Struktur“
-erfolgen. Die gewählte Einstellung gilt dann für alle diesem [Kursbaustein
-„Struktur"](../learningresources/Course_Element_Structure.de.md)
+dies über das Hinzufügen und Konfigurieren des Kursbausteins "Struktur"
+erfolgen. Die gewählte Einstellung gilt dann für alle diesem [Kursbaustein "Struktur"](../learningresources/Course_Element_Structure.de.md)
 untergeordneten Kursbausteine. So kann beispielsweise ein Kurs standardmässig als sequenziell konfiguriert sein, aber ein bestimmter Bereich im Kurs kann permanent in beliebiger Reihenfolge aufgerufen werden.
 
 ## Der Tab Lernpfad
 
-Lernpfad Kurse haben im Gegensatz zu herkömmlichen Kursen nicht die Tabs „Sichtbarkeit“ und „Zugang“, sondern den Tab „Lernpfad“. Hier können folgende Dinge konfiguriert werden:
+Lernpfad Kurse haben im Gegensatz zu herkömmlichen Kursen nicht die Tabs "Sichtbarkeit" und "Zugang", sondern den Tab "Lernpfad". Hier können folgende Dinge konfiguriert werden:
 
 ![Tab Lernpfad-Kurs](assets/Lernpfad_tab17_de.png)
 
@@ -26,11 +25,11 @@ Lernpfad Kurse haben im Gegensatz zu herkömmlichen Kursen nicht die Tabs „Sic
     *  **Obligatorisch**: Die Erledigung des Kursbausteins ist verbindlich und wird bei der prozentualen Auswertung des Lernfortschritts berücksichtigt.
     *  **Freiwillig**: Die Erledigung wird nicht bei der prozentualen Anzeige berücksichtigt.
     * **Ausgenommen**: Die Erledigung ist nicht Teil des Lernpfades und nur durch Ausnahmen steuerbar. Der Kursbaustein ist für die Teilnehmenden nicht sichtbar.
-  *  **Freigabedatum**: Regelt den Zugang zum jeweiligen Kursbausein. Der Baustein ist vor dem Freigabedatum zwar sichtbar aber nicht zugänglich. Auch ein relatives Freigabedatum ist möglich.
+  *  **Freigabedatum**: Regelt den Zugang zum jeweiligen Kursbaustein. Der Baustein ist vor dem Freigabedatum zwar sichtbar aber nicht zugänglich. Auch ein relatives Freigabedatum ist möglich.
   *  **Zu bearbeiten bis**: Ist ein Kursbaustein obligatorisch, kann man auch ein Datum eintragen bis zu dem die Bearbeitung erfolgt sein muss.
   *  **Bearbeitungszeit**: Hier kann eingetragen werden, wie lang der Ersteller die Bearbeitungszeit für den jeweiligen Baustein einschätzt. Die Bearbeitungszeit ist unabhängig davon wieviel Zeit der User wirklich für den Baustein benötigt.
 
-Diese Einstellungen stehen für fast alle Kursbausteine zur Verfügung. Eine Ausnahme bildet jedoch der [Kursbaustein „Struktur"](../learningresources/Course_Element_Structure.de.md), der für die Bündelung von Kursbausteinen gedacht ist. Im Strukturbaustein kann die Abfolge der Lernschritte die für alle untergeordneten Kurselemente gilt, mit sequenziell oder spezifischer Reihenfolge definiert werden.
+Diese Einstellungen stehen für fast alle Kursbausteine zur Verfügung. Eine Ausnahme bildet jedoch der [Kursbaustein "Struktur"](../learningresources/Course_Element_Structure.de.md), der für die Bündelung von Kursbausteinen gedacht ist. Im Strukturbaustein kann die Abfolge der Lernschritte die für alle untergeordneten Kurselemente gilt, mit sequenziell oder spezifischer Reihenfolge definiert werden.
 
 ### Ausnahmen
 
@@ -79,7 +78,7 @@ Die Zeitanzeige ist unabhängig davon, welche Art der Lernfortschrittsberechnung
 
 ### Erledigungskriterien
 
-Bis auf den Kursbaustein "Struktur" bieten alle Kursbausteine die Möglichkeit, dass der Baustein als „erledigt“ gilt, wenn er geöffnet wird oder wenn der User explizit die Bearbeitung bestätigt. Je nach Kursbaustein stehen auch noch weitere interessante Erledigungskriterien zur Verfügung:
+Bis auf den Kursbaustein "Struktur" bieten alle Kursbausteine die Möglichkeit, dass der Baustein als "erledigt" gilt, wenn er geöffnet wird oder wenn der User explizit die Bearbeitung bestätigt. Je nach Kursbaustein stehen auch noch weitere interessante Erledigungskriterien zur Verfügung:
 
  * **Kursbaustein öffnen**: alle Kursbausteine ausser Struktur
 
