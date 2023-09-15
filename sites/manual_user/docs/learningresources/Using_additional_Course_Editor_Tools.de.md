@@ -78,9 +78,9 @@ zur Bewertungskonfiguration und zum Lernpfad möglich.
 
 ## Kursvorschau {: #preview}
 
-Das Editorwerkzeug „Kursvorschau“ gibt Ihnen die Möglichkeit, die
+Das Editorwerkzeug "Kursvorschau" gibt Ihnen die Möglichkeit, die
 Kurseinstellungen und Inhalte aus der Sicht von Kursteilnehmenden zu
-betrachten. Mit Klick auf „Kursvorschau“ wird Ihnen zunächst ein
+betrachten. Mit Klick auf "Kursvorschau" wird Ihnen zunächst ein
 Konfigurationsmenu angezeigt, um das Betreten des Kurses zu einem bestimmten
 Datum, als Teilnehmer einer bestimmten Gruppe oder mit sonstigen im Kurs
 verwendeten Attributen zu simulieren.
@@ -90,24 +90,24 @@ nicht publizierten Kursbausteine und Änderungen angezeigt. Einige Funktionen
 in der Kursvorschau, die eine Interaktion der Kursteilnehmenden mit dem System
 bedingen, sind hingegen nicht verfügbar. Dies betrifft unter anderen das
 Einschreiben in Gruppen, das Starten von Tests, Selbsttests und Umfragen sowie
-die Abgabe von Lösungen im Kursbaustein „Aufgabe“.
+die Abgabe von Lösungen im Kursbaustein "Aufgabe".
 
  Weiterführende Informationen zur Konfiguration der Kursvorschau:
 
 In diesem Formular können Sie bestimmen, welche Bedingungen für die
 Kursvorschau gelten sollen.  
   
-**Datum:** Dieses Feld müssen Sie ausfüllen. Geben Sie hier einen Zeitpunkt
+**Datum**: Dieses Feld müssen Sie ausfüllen. Geben Sie hier einen Zeitpunkt
 (Datum und Uhrzeit) ein, zu dem die Kursvorschau angezeigt werden soll. Als
 Voreinstellung sind das aktuelle Datum und die aktuelle Uhrzeit gesetzt.  
   
-**Gruppen:** Markieren Sie den bzw. die Namen einer oder mehrere Gruppen, um
+**Gruppen**: Markieren Sie den bzw. die Namen einer oder mehrere Gruppen, um
 den Kurs aus Sicht der Mitglieder dieser Gruppe anzuzeigen.  
   
-**Lernbereiche:** Geben Sie hier den Namen eines Lernbereichs ein, um den Kurs
+**Lernbereiche**: Geben Sie hier den Namen eines Lernbereichs ein, um den Kurs
 aus Sicht der Mitglieder dieses Lernbereichs anzuzeigen.  
   
-**Rolle:** Wählen Sie hier, für welche Benutzertypen die Vorschau angezeigt
+**Rolle**: Wählen Sie hier, für welche Benutzertypen die Vorschau angezeigt
 werden soll.
 
   *  _«Registrierte OLAT-Benutzer»_ : Zeigt den Kurs, wie er sich einem normalen OLAT-Benutzer (i.d.R. Studierende) präsentiert.
@@ -116,12 +116,12 @@ werden soll.
   *  _«Besitzer des Kurses»_ : Zeigt den Kurs, wie er sich den Besitzern des Kurses (Kursadministratoren) präsentiert.
   *  _«OLAT-Autoren»_ : Zeigt den Kurs, wie er sich den Benutzern mit OLAT-weiten Autorenrechten präsentiert.
 
- **Attribute:** In diesen Feldern können Sie bis zu fünf AAI-Attribut-Namen
+ **Attribute**: In diesen Feldern können Sie bis zu fünf AAI-Attribut-Namen
 mit ihren entsprechenden Werten angeben. In der Vorschau wird Ihnen der Kurs
 angezeigt, wie er sich einem Benutzer mit diesen AAI-Attributen präsentieren
 würde.  
   
-**Beispiel:**  
+**Beispiel**:  
 Attribut-Name: swissEduPersonStudyBranch3  
 Attribut-Wert: 4600  
 Diese Eingabe zeigt den Kurs, wie er sich den Studierenden der Fachrichtung
@@ -147,7 +147,7 @@ Kursrollen und Ansichten zu wechseln.
 ## Publizieren
 
 Alle im Kurseditor vorgenommenen Einstellungen und Änderungen geben Sie über
-das „Publizieren“ frei. So können Sie Ihren Kurs im Kurseditor in Ruhe
+das "Publizieren" frei. So können Sie Ihren Kurs im Kurseditor in Ruhe
 vorbereiten, aufbauen und gestalten.
 
 Der Kurs kann entweder über den Link in der Toolbar oder direkt beim Schließen
@@ -171,7 +171,7 @@ Veröffentlichungsoptionen eines Kurses. Bestimmen Sie, welche OpenOlat-
 Benutzer Zugriff auf Ihren Kurs haben sollen. Lesen Sie im Kapitel
 „[Kurseinstellungen](Course_Settings.de.md)“ welche  Optionen Ihnen hier zur
 Verfügung stehen. Nach diesem Schritt kann der Vorgang des Publizierens
-bereits abgeschlossen werden. Klicken Sie dazu auf „Fertigstellen“.
+bereits abgeschlossen werden. Klicken Sie dazu auf "Fertigstellen".
 
 Schritt 3: Sie können auswählen, ob der Kurs zu einem Katalog hinzugefügt
 werden soll. Tipp: Tragen Sie nur fertige und funktionstüchtige Kurse in den

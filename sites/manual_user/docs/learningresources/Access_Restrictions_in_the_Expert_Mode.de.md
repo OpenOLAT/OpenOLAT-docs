@@ -22,7 +22,7 @@ oder mit relativen Daten arbeiten. Ein Beispiel soll dies erläutern:
 
     Sie wollen einen Kursfragebogen erst in der letzter letzten Kurswoche frei schalten, möchten diese Option aber schon mal einrichten, damit Sie es später nicht vergessen.
 
-    Sie schalten also den Kursbaustein „Umfrage“ datumsabhängig frei, damit Sie sich im Kursverlauf nicht mehr darum kümmern müssen. In den Tabs _Sichtbarkeit_ und _Zugang_ des „Fragebogens“ können Sie hierfür im einfachen Modus das Anfangs- und Enddatum eingeben. Sie können Ihren Fragebogen auch nur für eine bestimmte Teilnehmergruppe zugängig machen. Wählen Sie hierfür unter Sichtbarkeit bzw. Zugang ergänzend "Gruppenabhängig". So könnten Sie z.B. bei institutionsübergreifenden Online-Kursen zwei unterschiedliche Fragebögen verwenden. Voraussetzung ist lediglich, dass Sie die Kursteilnehmenden in (zwei) unterschiedliche Gruppen geteilt haben die sie nun zuweisen können.
+    Sie schalten also den Kursbaustein "Umfrage" datumsabhängig frei, damit Sie sich im Kursverlauf nicht mehr darum kümmern müssen. In den Tabs _Sichtbarkeit_ und _Zugang_ des "Fragebogens" können Sie hierfür im einfachen Modus das Anfangs- und Enddatum eingeben. Sie können Ihren Fragebogen auch nur für eine bestimmte Teilnehmergruppe zugängig machen. Wählen Sie hierfür unter Sichtbarkeit bzw. Zugang ergänzend "Gruppenabhängig". So könnten Sie z.B. bei institutionsübergreifenden Online-Kursen zwei unterschiedliche Fragebögen verwenden. Voraussetzung ist lediglich, dass Sie die Kursteilnehmenden in (zwei) unterschiedliche Gruppen geteilt haben die sie nun zuweisen können.
 
 Expertenregeln dienen in erster Linie dazu, Ihnen Arbeit abzunehmen oder sie
 zu erleichtern und auch komplexe Szenarien umzusetzen. Wie bei einer Sprache
@@ -34,29 +34,25 @@ Attribut WAHR oder FALSCH ist.
 
 Als Einstieg in die Syntax der Expertenregel empfiehlt es sich, zunächst im
 einfachen Modus eine Regel zu definieren. Sie erstellen einen Kursbaustein,
-z.B. eine „Einzelne Seite“ und klicken unter dem Tab „Zugang“ auf „Für
-Lernende gesperrt“.
+z.B. eine "Einzelne Seite" und klicken unter dem Tab "Zugang" auf "Für
+Lernende gesperrt".
 
-Dann klicken Sie auf „Expertenmodus anzeigen“ und sehen Ihre erste Expertenregel in Syntax Form:
+Dann klicken Sie auf "Expertenmodus anzeigen" und sehen Ihre erste Expertenregel in Syntax Form:
 
     (  ( isCourseCoach(0) | isCourseAdministrator(0) ) )
 
-Der gesamte Ausdruck ist doppelt eingeklammert. Die beiden äußeren Klammern
-kann man in diesem Fall auch weglassen. Probieren Sie es einfach aus.
-CourseCoach ist der Kursbetreuer und CourseAdministrator der Kursbesitzer. Der
-senkrechte Strich in der Mitte „|“ steht für den Booleschen Operator ODER.
+Der gesamte Ausdruck ist doppelt eingeklammert. Die beiden äußeren Klammern kann man in diesem Fall auch weglassen. Probieren Sie es einfach aus. CourseCoach ist der Kursbetreuer und CourseAdministrator der Kursbesitzer. Der
+senkrechte Strich in der Mitte "|" steht für den Booleschen Operator ODER.
 Diese Expertenregel ist WAHR für den Betreuer ODER den Besitzer. Nur diese
-beiden haben Zugang auf den Kursbaustein.
+beiden haben Zugang auf den Kursbaustein "Seite".
 
-Nun ändern Sie den Booleschen Operator in „ **&** “:
+Nun ändern Sie den Booleschen Operator in "**&**":
 
     isCourseCoach(0) & isCourseAdministrator(0)
 
-Dies bedeutet, dass nur Betreuer, die gleichzeitig auch Besitzer sind, Zugriff
-haben. Diese Einstellung ist nur im Expertenmodus möglich.
+Dies bedeutet, dass nur Betreuer, die gleichzeitig auch Besitzer sind, Zugriff haben. Diese Einstellung ist nur im Expertenmodus möglich.
 
-Sie können beliebig viele Szenarien durchspielen und weitere Attribute und
-Operatoren einfügen. Um sich in die Funktion der Regeln besser einzuarbeiten,
+Sie können beliebig viele Szenarien durchspielen und weitere Attribute und Operatoren einfügen. Um sich in die Funktion der Regeln besser einzuarbeiten,
 finden Sie in diesem Kapitel weitere Attribute und Beispiele, deren
 Auswirkungen näher erläutert werden.
 
@@ -72,31 +68,31 @@ isUser| nur für einen bestimmten Benutzer verfügbar| isUser("pmuster")
   
 ### Arbeiten mit den Konstanten "TRUE" und "FALSE"
 
-Die Konstanten „true“ und „false“ prüfen das Vorhandensein („true“ bzw. „1“)
-oder Nicht-Vorhanden-Sein („false“ bzw. „0“) eines Attributs. Man spricht von
+Die Konstanten "true" und "false" prüfen das Vorhandensein ("true" bzw. "1")
+oder Nicht-Vorhanden-Sein ("false" bzw. "0") eines Attributs. Man spricht von
 einer sogenannten Boolschen Variablen (benannt nach George Boole dem Begründer
 der Boolschen Algebra). Dabei handelt es sich um eine Variable, die nur
 endlich viele Werte oder Zustände einnehmen kann. In diesem Fall kann die
-Variable nur zwei Zustände oder Werte annehmen („true“ = „1“ = wahr, vorhanden
-oder „false“ = „0“ = falsch, nicht-vorhanden).
+Variable nur zwei Zustände oder Werte annehmen ("true" = "1" = wahr, vorhanden
+oder "false" = "0" = falsch, nicht-vorhanden).
 
 Beispiel: Bereiche für Gäste frei geben
 
 Zur praktischen Erläuterung im OLAT-Kontext soll uns eine Expertenregel für
 den Zugang zu einem Kursbaustein bzw. Bereich innerhalb eines Kurses dienen.
 
- **Fall 1:** Nur Gast-Nutzer sollen Zugang zu einem Baustein erhalten,
+ **Fall 1**: Nur Gast-Nutzer sollen Zugang zu einem Baustein erhalten,
 beispielsweise um Bereiche für Gäste und OLAT Benutzer voneinander zu trennen.  
-Der jeweilige Nutzer erhält also Zugang, wenn er das Attribut „isGuest“ wahr
+Der jeweilige Nutzer erhält also Zugang, wenn er das Attribut "isGuest" wahr
 ist. Für diese Expertenregel gibt es drei Alternativen:
 
  **isGuest(0)** oder **isGuest(0)=1** oder **isGuest(0)=true**
 
   
 
- **Fall 2:** Hier sollen alle Nutzer außer den Gast-Nutzern einen **** Zugang
-erhalten. Der jeweilige Nutzer erhält also Zugang, wenn das Attribut „isGuest"
-**** nicht wahr bzw. nicht vorhanden ist. Für diese Expertenregel gibt es zwei
+ **Fall 2**: Hier sollen alle Nutzer außer den Gast-Nutzern einen Zugang
+erhalten. Der jeweilige Nutzer erhält also Zugang, wenn das Attribut "isGuest"
+nicht wahr bzw. nicht vorhanden ist. Für diese Expertenregel gibt es zwei
 Alternativen:
 
  **isGuest(0)=0** oder **isGuest(0)=false**
@@ -110,14 +106,14 @@ Typ| Syntax| Bedeutung
 ---|---|---  
  **Konstanten**|  _TRUE_ oder _1_|  Wahr  
  | _FALSE_ oder _0_|  Falsch  
- | _ANY_COURSE_|  Abfrage soll für jeden Kurs gelten (nur für isCourseAdministrator(), isCourseCoach(), isCourseParticipant()  
+ | _ANY_COURSE_|  Abfrage soll für jeden Kurs gelten (nur für isCourseAdministrator(), isCourseCoach(), isCourseParticipant()) 
  **Variable**|  _now_|  Momentane Server-Systemzeit  
  **Funktionen**|  _ _date("_ [date] _")__|  Datum abfragen  
  |  _inLearningGroup("_ [string] _")_|  Gibt TRUE für alle Mitglieder der Lerngruppe [string]  
  |  _inRightGroup("_ [string] _")_|  Gibt TRUE für alle Mitglieder der Rechtegruppe [string]  
- |  _isLearningGroupFull("_ [string] _")_|  Gibt für die angegebene Lerngruppe den Boolean TRUE (=voll) oder FALSE (=nicht voll) zurück.  
+ |  _isLearningGroupFull("_ [string] _")_|  Gibt für die angegebene Lerngruppe den Boolean TRUE (= voll) oder FALSE (= nicht voll) zurück.  
  |  _isUser("_ [string] _")_|  Gibt TRUE für den Benutzer mit dem Benutzernamen [string]  
- |  _inLearningArea("_ [string] _")_|  Gibt TRUE für alle Mitglieder der Gruppenvim Lernbereich [string]  
+ |  _inLearningArea("_ [string] _")_|  Gibt TRUE für alle Mitglieder der Gruppen im Lernbereich [string]  
  |  _isGlobalAuthor(0)_|  Gibt TRUE für alle Mitglieder der OLAT-Autorengruppe  
  |  _isCourseAdministrator(0)_|  Gibt TRUE für alle Besitzer Ihres Kurses (Lernressource)  
  |  _isCourseAdministrator( _ANY_COURSE_ )_| Gibt TRUE für alle Benutzer die Besitzer eines beliebigen Kurses auf dem System sind (Lernressource)  
@@ -129,9 +125,9 @@ Typ| Syntax| Bedeutung
  |  _hasAttribute("_ [AttrName] _","_ [string] _")_| Gibt TRUE, wenn [string] dem Wert des AAI-Attributes [AttrName] des jeweiligen Benutzers entspricht. Siehe auch [AAI - Generelle Informationen](http://www.switch.ch/aai/); AAI-Attribute; [Spezifikation der AAI-Attribute (pdf-Datei)](http://www.switch.ch/aai/docs/AAI_Attr_Specs.pdf)
  |  _isInAttribute("_ [AttrName] _","_ [substring] _")_|  Gibt TRUE, wenn [substring] einem Teil des Wertes des AAI-Attributs [AttrName] des jeweiligen Benutzers entspricht.
  | _getUserProperty("_[userPropertyname]_")_| Gibt den Wert des spezifizierten Benutzerattributes zurück. Mit "=" kann dieser Wert mit einem fixen Wert verglichen werden.  
- |  _getPassed("_ [integer] _")_|  Gibt vom Kursbaustein mit spezifizierter IDvden Boolean TRUE (=Bestanden) oder FALSE (=Nicht bestanden) zurück  
+ |  _getPassed("_ [integer] _")_|  Gibt vom Kursbaustein mit spezifizierter IDvden Boolean TRUE (= Bestanden) oder FALSE (= Nicht bestanden) zurück  
  |  _getScore("_ [integer] _")_|  Gibt vom Kursbaustein mit spezifizierter ID die Anzahl Punkte zurück  
- |  _getMaxScore("_ [integer] _")_|  Gibt vom Kursbaustein mit spezifizierter ID die maximal erreichbare Anzahl Punkte zurück. Für Kursbausteine ohne konfigurierte Punktzahl gibt die Funktion 0 zurück. Für Kursbausteinemit konfigurierter Punktzahl, aber ohne Angabe einer Maximalpunktzahl, gibt die Funktion [positive Unendlichkeit](https://docs.oracle.com/javase/7/docs/api/java/lang/Double.html#POSITIVE_INFINITY) zurück.  
+ |  _getMaxScore("_ [integer] _")_|  Gibt vom Kursbaustein mit spezifizierter ID die maximal erreichbare Anzahl Punkte zurück. Für Kursbausteine ohne konfigurierte Punktzahl gibt die Funktion 0 zurück. Für Kursbausteine mit konfigurierter Punktzahl, aber ohne Angabe einer Maximalpunktzahl, gibt die Funktion [positive Unendlichkeit](https://docs.oracle.com/javase/7/docs/api/java/lang/Double.html#POSITIVE_INFINITY) zurück.  
  |  _getAttempts("_ [integer] _")_|  Gibt vom Kursbaustein mit spezifizierter ID die Anzahl abgeschlossener Versuche zurück. Kann auf Kursbausteine vom Typ _Test_ , _Selbsttest_ , _Fragebogen_ angewendet werden.  
  |  _getLastAttemptDate("_ [integer] _")_|  Gibt vom Kursbaustein mit spezifizierter ID das Datum des letzen Versuches zurück. Die Anwendung ist gleich wie die getAttempts Methode.  
  |  _getInitialEnrollmentDate("_ [integer] _")_|  Gibt vom Kursbaustein _Einschreibung_ mit spezifizierter ID das Datum des erstmaligen Einschreibens des betreffenden Kursteilnehmers zurück.  
@@ -216,7 +212,7 @@ studySubject| Studienfach| officeCity| Dienstadresse - Stadt| position| Funktion
 graduation| Abschlussjahr| officeCountry| Dienstadresse - Land| userInterests| Expertise  
 || | officeMobilePhone| Dienstmobiltelefon|  
 
-Beispiele für die Anwendung:
+Beispiele für die Anwendung "getUserProperty":
 
   * Es sollen nur Kursteilnehmer eines bestimmten Studienganges Zugang erhalten:
     
@@ -257,15 +253,10 @@ Expertensyntax verwenden können.
 
 ## Beispiele Expertenmodus
 
- **Beispiele für Expertenregeln in den Tabs «Sichtbarkeit», «Zugang» und
-«Punkte» (Struktur-Baustein)**
-
-Beispiele für Expertenregeln in den Tabs «Sichtbarkeit», «Zugang» und «Punkte»
-(Struktur-Baustein)
+ **Beispiele für Expertenregeln in den Tabs «Sichtbarkeit», «Zugang» und «Punkte» (Struktur-Baustein)**
 
  **inLearningGroup("Anfänger") = 0**  
-Mit Ausnahme der Gruppe _«Anfänger»_ ist der Kursbaustein für alle
-Kursteilnehmer sichtbar.  
+Mit Ausnahme der Gruppe _«Anfänger»_ ist der Kursbaustein für alle Kursteilnehmer sichtbar.  
 
  **(now >= date("22.07.2018 12:00")) & (now <= date("23.12.2018 18:00")) |
 inLearningGroup("Betreuer")**  
@@ -305,7 +296,7 @@ Datei)](http://www.switch.ch/aai/docs/AAI_Attr_Specs.pdf)
 
 **isInAttribute("eduPersonEntitlement","[http://vam.uzh.ch](http://vam.uzh.ch/)")**  
 Gibt TRUE für alle Personen, deren Attribut _eduPersonEntitlement_ den Wert
-"[http://vam.uzh.ch](http://vam.uzh.ch/)" enthaltet. Gibt z.B. auch TRUE für
+"[http://vam.uzh.ch](http://vam.uzh.ch/)" enthalten. Gibt z.B. auch TRUE für
 den Wert "<http://vam.uzh.ch/surgery>"  
 Siehe auch:  
 AAI-Attribute  
@@ -371,8 +362,8 @@ Gibt TRUE sobald der Kurs innerhalb eine Prüfung ist.
 **Gibt TRUE, wenn der Kursteilnehmer in OpenOlat mit der eingetragenen E-Mail-
 Adresse registriert ist.  
 
- **hasUserProperty("typeOfUser","staff", " , ")  
-** Gibt TRUE, wenn beim Kursteilnehmer im Feld "Art von Benutzer" auch der
+ **hasUserProperty("typeOfUser","staff", " , ")** 
+ Gibt TRUE, wenn beim Kursteilnehmer im Feld "Art von Benutzer" auch der
 Wert "staff" eingetragen ist, z. B. "staff, student".  
 
  **userPropertyEndswith("email","@[openolat.org](http://openolat.org/)")**  
@@ -398,7 +389,7 @@ Institution die auf eine AAI - Infrastruktur Zugriff hat, können Sie mit AAI-
 Attributen im Kurs Zugriffsregeln setzen, damit nur Kursteilnehmer mit
 bestimmten Benutzerattributen (z.B. Teilnehmer, die einer bestimmten
 Institution angehören) auf das Kursmaterial zugreifen können. Die Abkürzung
-AAI steht für „Authentication and Authorization Infrastructure“ und ermöglicht
+AAI steht für "Authentication and Authorization Infrastructure" und ermöglicht
 es Angehörigen einer Hochschule, mit nur einem Benutzernamen und Passwort
 Zugriff auf Systeme aller teilnehmenden Hochschulen zu erhalten. Weitere
 Informationen zu AAI finden Sie z.B. bei [Switch](http://www.switch.ch/de/aai/
@@ -432,7 +423,7 @@ Dabei gilt folgendes:
   
 #### AAI Beispiel
 
-_Abfragen für Max Mustermann_
+_Abfragen für Hans Muster_
 
 Variable: Sie können AAI-Attribute mit der Syntax **_hasAttribute("_ [AttrName] _","_ [string] _")_** oder **_isInAttribute("_ [AttrName] _","_ [substring] _")_** abfragen.| Beispiel Wert [string]| Beschreibung
 ---|---|---  
@@ -451,7 +442,7 @@ eduPersonEntitlement| <http://vam.uzh.ch/surgery>| Zugriffsrecht auf Ressource
 employeeNumber| 01-234-567| Matrikelnummer (nur für Studierende der Universität Zürich)  
 organizationalUnit| 1| Einheit der Heimorganisation z.B. Fakultät (nur für Mitarbeiter)  
   
-_Beispiel Max Mustermann_
+Für das oben genannte Beispiel "Hans Muster" würden die folgenden Abrufe jeweils zu einem Ergebnis führen:
 
 Abfrage | Output
 ---|---

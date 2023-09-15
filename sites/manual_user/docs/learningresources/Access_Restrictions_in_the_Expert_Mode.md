@@ -4,15 +4,15 @@
 
 !!! warning "Attention"
 
-    The settings in the tabs "Visibility" and "Access" are only available in conventional courses. This means that the expert mode can only be used in conventional courses and not in "Learning path Courses".
+    The settings in the tabs "Visibility" and "Access" are only available in conventional courses. This means that the expert mode can only be used in conventional courses and not in "[Learning path Courses](Learning_path_course.md)".
 
-In the tabs "Visibilty" and "Access" of conventional courses, you can
+In the tabs Visibilty and Access of conventional courses, you can
 configure additional preferences for many course elements. For instance, you
 can block a course element for learners, grant access only for certain groups
 or unlock it depending on the date.
 
-In case of more complicated visibility or access rules you can use the expert
-mode, thus enabling you to configure visibility and access of course elements
+In case of more complicated visibility or access rules you can use the "expert
+mode", thus enabling you to configure visibility and access of course elements
 as required. You can e.g. limit access to a course element to specific user
 names, link several types of restrictions to each other or work with relative
 date values. The following example illustrates this:
@@ -21,7 +21,7 @@ date values. The following example illustrates this:
 
     You want to activate a course questionnaire only in the last last course week, but want to set this option up so that you don't forget it later.
 
-    This means that you activate the course element "Survey" date-dependently so that you no longer have to worry about it during the course. In the Visibility and Access tabs of the "Survey" you can enter the start and end dates in simple mode. You can also make your questionnaire only accessible to a certain group of participants. Select "Group-dependent" under Visibility or Access. For example, you could use two different questionnaires for cross- institutional online courses. The only requirement is that you have divided the course participants into (two) different groups which they can now assign.
+    This means that you activate the course element "Survey" date-dependently so that you no longer have to worry about it during the course. In the _Visibility_ and _Access_ tabs of the "Survey" you can enter the start and end dates in simple mode. You can also make your questionnaire only accessible to a certain group of participants. Select "Group-dependent" under Visibility or Access. For example, you could use two different questionnaires for cross- institutional online courses. The only requirement is that you have divided the course participants into (two) different groups which they can now assign.
 
 Expert rules primarily serve to save you time and work or just simplify it.
 Therefore, it is worth the effort to take a closer look at them. Just like any
@@ -31,26 +31,23 @@ beginning if one does not have any or just little programming skills. Expert
 rules verify if a certain attribute is TRUE or FALSE.
 
 As an introduction to the syntax of expert rules, you should at first define a
-rule in the simple mode. For example, you may generate a "single page“, and
-click on "Blocked for learners“ in the "Access" tab.
+rule in the simple mode. For example, you may generate a "single page", and
+click on "Blocked for learners" in the "Access" tab.
 
-Then click on "Display expert mode“ and see your first expert rule:
+Then click on "Display expert mode" and see your first expert rule:
 
     (  ( isCourseCoach(0) | isCourseAdministrator(0) ) )
 
-The whole term is enclosed in double brackets. The two outer brackets can be omitted in this case. Just try it out. The vertical line in the center "|“ is the Boolean operator OR and connects the course coach with the course administrator. Both of them have exclusive access to the "single page“.
+The whole term is enclosed in double brackets. The two outer brackets can be omitted in this case. Just try it out. The vertical line in the center "|" is the Boolean operator OR and connects the course coach with the course administrator. Both of them have exclusive access to the "single page".
 
-Now change the Boolen Operator into "&“:
+Now change the Boolen Operator into "**&**":
 
     isCourseCoach(0) & isCourseAdministrator(0)
 
-This rule grants access exclusively to those course coaches who are also
-course administrators. This preference is only possible in the expert mode.
+This rule grants access exclusively to those course coaches who are also course administrators. This preference is only possible in the expert mode.
 
-You can try out any number of scenarios and insert further attributes and
-operators. In this chapter you will find further attributes and examples
-illustrating their meaning to help you become more acqainted with expert
-rules.
+You can try out any number of scenarios and insert further attributes and operators. In this chapter you will find further attributes and examples
+illustrating their meaning to help you become more acqainted with expert rules.
 
 ## Configuration of Expert Rules
 
@@ -62,31 +59,29 @@ isGuest| accessible only for guests| isGuest(0)
 isCourseCoach| available only for coach| isCourseCoach(0)  
 isUser| available only for one specific user| isUser("pmuster")  
   
-### Working with the Constants "TRUE" and "FALSE"
+### Working with the constants "TRUE" and "FALSE"
 
-By using the constants "true“ and "false“, the existence (“true” = “1”) or
-non-existence (“false” = “0”) of an attribute can be verified. In this case,
+By using the constants "true" and "false", the existence ("true" = "1") or
+non-existence ("false" = "0") of an attribute can be verified. In this case,
 we refer to a so-called Boolean Variable (named after George Boole, the father
-of the Boolean Algebra). These variables can only take a limited number of
-values or states. In our specific case, the variable can only take the two
-values (“true” = “1” = existing or “false” =”0” = non-exisiting).
+of the Boolean Algebra). These variables can only take a limited number of values or states. In our specific case, the variable can only take the two values ("true" = "1" = existing or "false" ="0" = non-exisiting).
 
- Guest example
+ Example: Enabling areas for guests
 
 To give a practical example in our OLAT context, we will use a simple expert
-rule for managing the access to a course:
+rule for managing the access to a course element / area in a course:
 
- **Case 1:** Only guest-users get access to the course. The respective user
-therefore only gets access if the attribute “isGuest” is true. There are three
+ **Case 1**: Only guest users should get access to the course. Only guest users should have access to a module,
+for example to separate areas for guests and OLAT users. The respective user thus gains access if the attribute "isGuest" is true. There are three
 alternatives for this expert rule:
 
- **isGuest(0)** oder **isGuest(0)=1** oder **isGuest(0)=true**
+ **isGuest(0)** or **isGuest(0)=1** or **isGuest(0)=true**
 
- **Case 2:** In this case we want guest-users not to have access. The
-respective user therefore only gets access if the attribute “isGuest” is
+ **Case 2**: In this case we want guest users not to have access. The
+respective user therefore only gets access if the attribute "isGuest" is
 false. There are two alternatives for this expert rule:
 
- **isGuest(0)=0** oder **isGuest(0)=false**
+ **isGuest(0)=0** or **isGuest(0)=false**
 
 An extensive list of all relevant components needed for applying expert rules
 can be found in the following box.
@@ -97,7 +92,7 @@ Type| Syntax| Meaning
 ---|---|---  
  **Constants**|  _TRUE_ or _1_|  True  
  | _FALSE_ or _0_|  False  
- | _ANY_COURSE_|  Query should be applied to every course (only for isCourseAdministrator(), isCourseCoach(), isCourseParticipant())  
+ | _ANY_COURSE_|  Query should be applied to every course (only for isCourseAdministrator(), isCourseCoach(), isCourseParticipant())
  **Variable**|  _now_|  Actual time of server system  
  **Functions**|  _ _date("_ [date] _")__|  Retrieve date  
  | _inLearningGroup("_ [string] _")_|  Generates TRUE for all members of the learning group [string]  
@@ -105,7 +100,7 @@ Type| Syntax| Meaning
  | _isLearningGroupFull("_ [string] _")_|  Generates the boolean TRUE (= full) or FALSE (= vacancies) for the learning group indicated.  
  | _isUser("_ [string] _")_|  Results in TRUE for users with the username
 [string]  
- | _inLearningArea("_ [string] _")_|  Generates TRUE for all group members invthe learning area [string]  
+ | _inLearningArea("_ [string] _")_|  Generates TRUE for all group members in the learning area [string]  
  | _isGlobalAuthor(0)_|  Generates TRUE for all members of the OLAT author group  
  | _isCourseAdministrator(0)_|  Generates TRUE for all owners of a course
 (learning resource)  
@@ -118,7 +113,7 @@ Type| Syntax| Meaning
  | _hasAttribute("_ [AttrName] _","_ [string] _")_|  Generates TRUE, if [string] corresponds to the relevant user's value of the AAI attribute [AttrName].  
  | _isInAttribute("_ [AttrName] _","_ [substring] _")_|  Generates TRUE, if [substring] corresponds to part of the relevant user's value of the AAI attribute [AttrName].[General information on AAI](http://www.switch.ch/aai/); AAI attributes; [Specification of AAI attributes (pdf file)](http://www.switch.ch/aai/docs/AAI_Attr_Specs.pdf)  
  | _getUserProperty("userPropertyname")_|  Generates the value of a specific user attribute. By means of "=" this value can be compared to another fixed value.  
- | _getPassed("_ [integer] _")_|  Generates the Boolean TRUE (=Passed) or FALSE (=Failed) from a course element with specified ID  
+ | _getPassed("_ [integer] _")_|  Generates the Boolean TRUE (= Passed) or FALSE (= Failed) from a course element with specified ID  
  | _getScore("_ [integer] _")_|  Generates the score from a course element with specified ID  
  |  _getMaxScore("_ [integer] _")_|  Returns the maximum achievable number of points from the course element with specified ID. For course elements without configured number of points, the function returns 0. For course elements with configured number of points, but without specification of a maximum number of points, the function returns [positive infinity](https://docs.oracle.com/javase/7/docs/api/java/lang/Double.html#POSITIVE_INFINITY) zurück.
  | _getAttempts("_ [integer] _")_|  Generates the number of completed attempts from a course element with specified ID. Can be applied to course elements of the type _Test_ , _Self-test_ , _Questionnaire_ (possible return values 0 or 1) and ~~_Task (deprecated)_~~ (return value = number of files handed in).  
@@ -156,15 +151,12 @@ participant's first course attendance.
  **Booleans**|  &| Logical AND  
  | \|| Logical OR  
   
-User attributes
+User attributes (UserProperty)
 
 Various expert rules require the use of user attributes in order to filter
 eligible users for access content. Those rules enable authors to limit access
-rights depending on name, gender, address, field of studies and so on. Those
-user attributes are usually visible in the user profile.
-
-OpenOlat provides standardized terms for those attributes. The following
-expert rules require the use of user attributes:
+rights depending on name, gender, address, field of studies and so on. OpenOlat
+provides standardized terms for these attributes. The following expert rules require the use of user attributes:
 
   * getUserProperty _(" _[userPropertyname ]_")_
   * hasUserProperty("[ _userPropertyname]", " [string]")_
@@ -187,7 +179,7 @@ check your user profile in the the personal menu in Configuration/Profile for
 available user attributes. For questions, please contact your system
 administrator.
 
-Benutzerdaten|| Kontaktdaten|| Adressdaten| |
+User data|| Contact data|| Address data| |
 ---|---|---|---|---|---  
 userName| Username| telPrivate| Phone number private| street| Street  
 firstName| First name| telMobile| Phone number mobile| extendedAddress| Extra address line  
@@ -198,7 +190,7 @@ lastloginDateDisplayProperty| User last login| homepage| Homepage| city| City
 birthDay| Date of birth ||| country| Country  
 gender| Gender||| countryCode| Country code  
 |
-**Organisation**|| **Berufliche Kontaktdaten**|| **Verschiedenes**  ||
+Organization|| Professional contact details|| Miscellaneous  ||
 institutionalName| Institution| department| Department / Company | typeOfUser| Type of user  
 institutionalUserIdentifier| Institution identifier (registration number) | officeStreet| Address / P.O. box | rank| Service grade / employment title  
 | institutionalEmail| Institutional e-mail | extendedOfficeAddress| Extended office address | socialSecurityNumber| Social security number  
@@ -214,7 +206,7 @@ Examples on how to apply "getUserProperty":
         getUserProperty("studySubject") = "Mechanical Engineering"
 
 Now anybody who needs access must first complete the field "field of study" in
-their profile and state it as "Mechanical Engineering".
+their profile and state it as Mechanical Engineering.
 
   * The other way round, should you intend to grant access only to those who have not stated their field of study in their profile, you can express the corresponding rule as follows:
     
@@ -235,7 +227,7 @@ most important operators to combine attributes are:
   * OR conjunction: |
 
 Please note that an OR conjunction precedes an AND conjunction. In order to
-handle an AND conjunction first you have to use brackets.
+handle an AND conjunction, first you have to use brackets.
 
 Example: The expert rule (inGroup("Participants IntensiveCourse") |
 isCourseCoach(0)) means that either participants of an intensive course or all
@@ -246,8 +238,7 @@ syntax.
 
 ## Examples expert mode
 
-**Examples of expert rules in the tabs «Visibility», «Access» and «Score»
-(structural elements)**
+**Examples of expert rules in the tabs «Visibility», «Access» and «Score» (structural elements)**
 
  **inLearningGroup("Amateur") = 0**  
 With the exception of the group _«Amateur»_ this course element is visible for
@@ -315,7 +306,7 @@ of 140 points in all tests is achieved or if _«Passed»_ is entered manually.
 
 **getAttempts("70323786958847") > 0 **  
 Generates TRUE, as soon as the relevant course participant has completed the
-test with specified ID for the first time.  
+test with specified ID for the first time, regardless of the score.  
 
 **getAttempts("70323524635734") <= 3 **  
 Generates FALSE, as soon as the relevant course participant has put more than
@@ -323,17 +314,17 @@ Generates FALSE, as soon as the relevant course participant has put more than
 .  
 
 **getLastAttemptDate("70323524635734") + 24h < now **  
-Generates TRUE when the last test attempt is older than 24 hours  
+Generates TRUE when the last test attempt is older than 24 hours.
 
 **getInitialEnrollmentDate("70323786958847") <= date("26.5.2005 18:00")**  
 Generates TRUE for those participants who enrolled in an available group
-before 6 p.m. on May 26th, 2005, by means of the course element _Enrolment_
+before 6 p.m. on May 26th, 2005, by means of the course element _Enrollment_
 with specified ID.  
 
 **getInitialEnrollmentDate("70323786958847") + 2h > now**  
 Generates TRUE within two hours starting at the moment of registration for
 those participants who have enrolled in an available group by means of the
-course element _Enrolment_ with specified ID. This way it is clear that every
+course element _Enrollment_ with specified ID. This way it is clear that every
 participant can only work on e.g. a script within a particular time frame.  
 
 **(getInitialCourseLaunchDate(0) >= never) | (getInitialCourseLaunchDate(0) +
@@ -353,7 +344,7 @@ of the execution period.
 **isAssessmentMode(0)**  
 Returns the value TRUE if the course is within an assessment.  
 
- **hasUserProperty("email","john.doe@openolat.org")  
+ **hasUserProperty("email","john.doe@[openolat.org](http://openolat.org/)")  
 ** Generates TRUE, if the course participant is registered in OpenOlat with
 the listed e-mail address.  
 
@@ -370,7 +361,7 @@ Generates TRUE, if the term _doe@openo_ is a part of the e-mail address of the
 course participant.  
 
  **isNotInUserProperty("email","doe@openo")**  
-Generates FALSE, if the term _doe@openo_ s a part of the e-mail address of the
+Generates FALSE, if the term _doe@openo_ is a part of the e-mail address of the
 course participant.  
 
 !!! warning "Attention"
@@ -387,14 +378,13 @@ course material. AAI means "Authentication and Authorization Infrastructure"
 and allows university members to use systems of other participating
 institutions with only one username and password. For further information on
 AAI please go to e.g. [Switch](http://www.switch.ch/aai/ "Switch") or to
-[Deutsches Forschungsnetz](https://www.aai.dfn.de/en/ "Deutsches
-Forschungsnetz") .
+[Deutsches Forschungsnetz](https://www.aai.dfn.de/en/ "Deutsches Forschungsnetz") .
 
 Available attributes and possible values are described in the AAI Attribute
 Specification on the
 [Switch](https://www.switch.ch/aai/docs/AAI_Attr_Specs.pdf "Switch") and the
 [DFN-AAI](https://www.aai.dfn.de/der-dienst/attribute/ "DFN-AAI") site (in
-german). The two most common attributes at swiss universities can be found in
+German). The two most common attributes at swiss universities can be found in
 the following table along with examples of their corresponding expert rules:
 
 Attribute| Description| Example Expert rule and Explication  
@@ -408,15 +398,15 @@ You can retrieve AAI attributes by using the syntax
 **_hasAttribute("_ [AttrName] _","_ [string] _")_** or  
 **_isInAttribute("_ [AttrName] _","_ [substring] _")_**.
 
-Where:
+The following applies:
 
 * **[AttrName]** is the attribute name you can find in the following table and also in the Specification of AAI attributes (pdf file) (column _LDAP names_ ) on page 5.
 * **[string]** is the value of the AAI attribute with the name [AttrName].
 * **[substring]** is any part of [string].
   
-#### AAI retrievals for example: John Doe
+#### AAI example
 
-Values for John Doe
+_Values for John Doe_
 
 Variable: You can retrieve AAI attributes by using the syntax **_hasAttribute("_ [AttrName] _","_ [string] _")_** or **_isInAttribute("_ [AttrName] _","_ [substring] _")_**.| Example value [string]| Description
 ---|---|---  
@@ -456,5 +446,7 @@ attributes in Switzerland please go to [Switch](http://www.switch.ch/
 "Switch"), and for Germany go to [Deutsches
 Forschungsnetz](https://www.aai.dfn.de/en/ "Deutsches Forschungsnetz").
 
-Only use the AAI attributes if you are sure that all participants of your
-course are dialing in via an AAI structure. Otherwise the parameters do not apply!
+
+!!! tip "Tipp"
+
+    Only use the AAI attributes if you are sure that all participants of your course are dialing in via an AAI structure. Otherwise the parameters do not apply!

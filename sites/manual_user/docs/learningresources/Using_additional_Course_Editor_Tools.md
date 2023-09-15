@@ -53,7 +53,7 @@ Select only those columns that you really need. This way the display remains
 clear. Especially the column "Description" should only be displayed if there
 are no long texts in course elements.
 
-The columns do not show the ratings for individual persons, but only give an
+The columns _do not show the ratings_ for individual persons, but only give an
 overview of the configuration of the course elements. If points are to be
 awarded or a pass/fail is to be given, this will be done in the course's
 "[Assessment tool](../learningresources/Assessment_tool_overview.md)".
@@ -88,16 +88,15 @@ questionnaire, and performing tasks in the course element "Task."
 
 By means of this form you can define the conditions of the course's preview.  
   
-**Date:** This field is mandatory. Please enter date or time you want the
+**Date**: This field is mandatory. Please enter date or time you want the
 course preview to be displayed. The current date and time is pre-set.  
   
-**Group:** Please enter the name of the group in order to make this course
-available for relevant group members.  
+**Group**: Select the name(s) of one or more groups to view the course from the perspective of the members of that group. 
   
-**Learning area:** Please enter the name of a learning area in order to make
+**Learning area**: Please enter the name of a learning area in order to make
 this course available for members of this learning area.  
   
-**Role:** Please select to whom this preview should be accessible.
+**Role**: Please select to whom this preview should be accessible.
 
   *  _«Registered OLAT users»_ : This is how the course is presented to a regular OLAT user (e.g. student).
   *  _«Guests»_ : This is how the course is presented to a guest user (who log in without an OpenOlat account), if this course is available for guests at all.
@@ -105,11 +104,11 @@ this course available for members of this learning area.
   *  _«Course owners»_ : This is how the course is presented to course owners (course administrators).
   *  _«OLAT authors»_ : This is how the course is presented to users with OLAT author rights.
 
- **Attributes:** By means of these fields you can enter up to 5 AAI attribute
-names with their relevant values. By means of this preview this course is
+ **Attributes**: By means of these fields you can enter up to five AAI attribute
+names with their relevant values. By means of this preview, this course is
 presented in the way a user with these AAI attributes would see it.  
   
-**Example:**  
+**Example**:  
 Attribute name: swissEduPersonStudyBranch3  
 Attribute value: 4600  
 This is how the course is presented to Chemistry students.  
@@ -152,10 +151,11 @@ Step 1: First you have to select all those course elements you have modified
 and want to publish. Your choice will be reduced to course elements that are
 available for publishing.
 
-Step 2: Then you determine who should have access to your OpenOlat course. See
-section ["Course Settings](Course_Settings.md)" to learn more about those
-four options at your disposal. Now you can complete your publishing process.
-Just click on "Finish."
+Step 2: Here you get access to the general
+publishing options of a course. Determine which OpenOlat-
+users should have access to your course. See
+section "[Course Settings](Course_Settings.md)" to learn more about those options at your disposal. Now you can complete your publishing process.
+Just click on "Finish".
 
 Step 3: You can create a catalog entry for the course. Tip: Enter only
 complete and functional courses in the catalogue, no test or play courses.
@@ -168,9 +168,10 @@ Step 5: Any background updates of course elements are displayed here.
 
 Step 6: At last you will get a summary of your published modifications as well
 as a message containing the number of course participants working on your
-course at that very moment.Complete the steps with "Finish". You can also
-shorten the process by skipping individual steps and clicking on "Finish"
-immediately after step 2.
+course at that very moment.
+
+Complete the steps with "Finish". You can also
+shorten the process by skipping individual steps and clicking on "Finish".
 
 In most cases it is sufficient to publish the course simply by closing the
 course editor.

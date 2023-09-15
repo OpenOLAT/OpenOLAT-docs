@@ -37,7 +37,7 @@ crop the picture to a width of 100 pixels.
 !!! attention
 	Some fields may not be changeable.
 
-### Tab "My visiting card"
+### Tab "My business card"
 
 With the help of the check boxes you can determine which entries appear on
 your business card and can therefore be viewed by other OpenOlat users. Some
