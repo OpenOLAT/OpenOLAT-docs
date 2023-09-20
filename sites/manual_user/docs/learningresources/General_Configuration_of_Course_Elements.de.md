@@ -22,11 +22,11 @@ Ist ein Kursbaustein im Kurseditor ausgewählt kann er über die Schaltfläche
 "Löschen" oben rechts gelöscht werden. Über das 3-Punkte-Menü daneben kann der
 Kursbaustein auch innerhalb des Kurses verschoben oder dupliziert werden.
 
-![](assets/löschen_kursbaustein.png)
+![Kursbaustein löschen](assets/löschen_kursbaustein.png)
 
-:octicons-device-camera-video-24: **Video-Einführung**: [Kursbausteine einfügen](<https://www.youtube.com/embed/AJ76e3urdKA>){:target="_blank”} 
+:octicons-device-camera-video-24: **Video-Einführung**: [Kursbausteine einfügen](<https://www.youtube.com/embed/AJ76e3urdKA>){:target="_blank”}
 
-:octicons-device-camera-video-24: **Video-Einführung**: [Kursbausteine konfigurieren](<https://www.youtube.com/embed/SAkzzoOQEoQ>){:target="_blank”} 
+:octicons-device-camera-video-24: **Video-Einführung**: [Kursbausteine konfigurieren](<https://www.youtube.com/embed/SAkzzoOQEoQ>){:target="_blank”}
 
 ## Konfigurationstabs von Kursbausteinen
 
@@ -38,7 +38,7 @@ Jeder Kursbaustein beinhaltet die Tabs "Titel und Beschreibung" sowie
 Daneben gibt es einen oder mehrere Tabs zur individuellen Konfiguration des
 jeweiligen Kursbausteins.
 
-###  Tab "Titel und Beschreibung" {: #desc}
+### Tab "Titel und Beschreibung" {: #desc}
 
 Im Tab "Titel und Beschreibung" beschreiben Sie den Kursbaustein genauer. Das
 Feld "**Titel**" ist ein Pflichtfeld und muss ausgefüllt werden. Der "**Titel im Kursmenü**" entspricht dem Anzeigenamen in der linken
@@ -80,7 +80,7 @@ Im Tab "Titel und Beschreibung" finden Sie auch die ID des jeweiligen
 Kursbausteins sowie Information, die Sie benötigen, wenn Sie einen Link zu
 diesem Kursbaustein setzen möchten.
 
-![](assets/KB_Link_setzen.png)
+![Link auf Kursbaustein setzen](assets/KB_Link_setzen.png)
 
  **Externer Link:** Um von einem anderen OpenOlat-Kurs oder ausserhalb von
 OpenOlat auf diesen Kursbaustein zu verlinken, nutzen Sie einfach den externen
@@ -95,7 +95,7 @@ Die **ID-Nummer** links oben im Feld brauchen Sie, um in den Vorbedingungen
 (z.B. Sichtbarkeit) eines anderen Kursbausteins auf diesen zu verweisen. Jeder
 Kursbaustein hat eine eigene ID-Nummer.
 
-![](assets/Baustein_ID.png)
+![Kursbaustein ID](assets/Baustein_ID.png)
 
 ### Tab Layout
 
@@ -116,9 +116,9 @@ anzeigen lassen und erkennt wie sich die Überschriften des konfigurierten
 Kursbausteins im Kurs darstellen werden und wie die Übersicht-Struktur des
 Kursbausteins aussehen wird.
 
-![](assets/Tab_Layoutd.png)
+![Kursbaustein Tab Layout](assets/Tab_Layoutd.png)
 
-###  Tab "Sichtbarkeit" und "Zugang" der herkömmlichen Kurse  {: #access}
+### Tab "Sichtbarkeit" und "Zugang" der herkömmlichen Kurse  {: #access}
 
 Über die Tabs Sichtbarkeit und Zugang kann der Zugriff auf einen Kursbaustein
 und aller untergeordneten Kursbausteine eingeschränkt werden, so dass nur
@@ -138,28 +138,28 @@ oder den Zugang zu setzen.
 
 Folgende Einstellungen bzw. Einschränkungen sind in beiden Tabs möglich:
 
-  * Für Lernende gesperrt
-  * Datumsabhängig
-  * Gruppenabhängig
-  * Bewertungsabhängig
-  * Nur im Prüfungsmodus
+* Für Lernende gesperrt
+* Datumsabhängig
+* Gruppenabhängig
+* Bewertungsabhängig
+* Nur im Prüfungsmodus
 
- **Für Lernende gesperrt** Alle Personen die ausschließlich als Kurs- oder
+**Für Lernende gesperrt** Alle Personen die ausschließlich als Kurs- oder
 Gruppenteilnehmer eingetragen sind, haben keinen Zugriff auf diesen Baustein.
 Dies kann beispielsweise genutzt werden, wenn bestimmte Bereiche (zunächst)
 nur für die Lehrenden sichtbar sein sollen.
 
- **Datumsabhängig**: Hier kann ein Start- und/oder Enddatum inkl. Uhrzeit für
+**Datumsabhängig**: Hier kann ein Start- und/oder Enddatum inkl. Uhrzeit für
 die Sichtbarkeit bzw. den Zugang zum Baustein definiert werden. So können Sie
 z.B. einen Fragebogen erst zum Ende des Kurses frei schalten oder
 Lehrmaterialien wöchentlich getaktet zur Verfügung stellen.
 
- **Gruppenabhängig**: Auf diesen Weg kann ein Baustein nur für eine bestimmte
+**Gruppenabhängig**: Auf diesen Weg kann ein Baustein nur für eine bestimmte
 Gruppe zur Verfügung gestellt werden. Häufig ist es sinnvoll die
 Gruppenabhängigkeit auf einen Strukturbaustein anzuwenden und alle für diese
 Gruppe relevanten Bausteine dort unterzuordnen.
 
- **Bewertungsabhängig**: Auf diesen Weg können bestimmte Kursbausteine oder
+**Bewertungsabhängig**: Auf diesen Weg können bestimmte Kursbausteine oder
 Bereiche in Abhängigkeit von anderen bewertbaren Kursbausteinen wie Tests,
 Aufgaben, Portfolioaufgabe, Checkliste oder Bewertungen bereitgestellt werden.
 Dabei kann sowohl auf eine bestimmte Mindestpunktzahl oder auf ein "bestanden"
@@ -167,19 +167,28 @@ eines anderen Kursbausteins geprüft werden. Beispielsweise können bestimmte
 Bereiche des Kurses erst frei geschaltet werden, wenn ein bestimmter Test
 bestanden wurde.
 
- **Nur im Prüfungsmodus**: Sollen bestimmte Kursbaustein nur während einer
+**Nur im Prüfungsmodus**: Sollen bestimmte Kursbaustein nur während einer
 OpenOlat Prüfungssituation angezeigt werden bzw. zugänglich sein, wählen Sie
 diese Einstellung. Weitere Informationen finden Sie im Abschnitt
 [Prüfungsmodus](../learningresources/Assessment_mode.de.md).
 
-Damit eine vorgenommene Einschränkung auch für die Kursbesitzer und
-Gruppenbetreuer gilt, muss die Option "_Regeln auch bei Besitzern und Betreuern anwenden_" ausgewählt werden. Wenn Sie diese Checkbox nicht
-ankreuzen, können Betreuer und Administrator den Kursbaustein immer sehen -
-unabhängig davon, welche Sichtbarkeits-Regeln Sie gesetzt haben.
+**Regeln auch bei Besitzer:innen und Betreuer:innen anwenden**: Damit eine vorgenommene Einschränkung auch für die Kursbesitzer:innen und Gruppenbetreuer:innen gilt, muss diese Option aktiviert werden. Ist diese Checkbox nicht angekreuzt, können Betreuer:innen und Administrator:innen den Kursbaustein *immer* sehen - unabhängig davon, welche Sichtbarkeits-Regeln eingestellt sind.
 
-Über die Schaltfläche
-"[Expertenmodus](Access_Restrictions_in_the_Expert_Mode.de.md)
-anzeigen" gelangen Sie zu einem Eingabefeld, wo Sie eine komplexere
+???+ info "Konfigurationsbeispiel zur Einschränkung der Sichtbarkeit"
+
+    Die Sichtbarkeit eines Bausteins ist "Gruppenabhängig" für Gruppe "A" konfiguriert. Die (De-)Aktivierung der Option "Regeln auch bei Besitzer:innen und Betreuer:innen anwenden" wirkt sich für die verschiedenen Rollen wie folgt auf die Sichtbarkeit aus:
+
+    Rolle | :fontawesome-regular-square: Regeln auch bei Besitzer:innen / Betreuer:innen anwenden | :fontawesome-regular-square-check: Regeln auch bei Besitzer:innen / Betreuer:innen anwenden
+    ---------|----------|---------
+    Teilnehmer:innen Gruppe "A" | :fontawesome-regular-eye: | :fontawesome-regular-eye:
+    Betreuer:innen Gruppe "A" | :fontawesome-regular-eye: | :fontawesome-regular-eye:
+    Teilnehmer:innen Gruppe "B"| :fontawesome-regular-eye-slash: | :fontawesome-regular-eye-slash:
+    Betreuer:innen Gruppe "B" | :fontawesome-regular-eye: | :fontawesome-regular-eye-slash:
+    Teilnehmer:innen des Kurses | :fontawesome-regular-eye-slash: | :fontawesome-regular-eye-slash:
+    Betreuer:innen des Kurses | :fontawesome-regular-eye: | :fontawesome-regular-eye-slash:
+    Besitzer:innen des Kurses | :fontawesome-regular-eye: | :fontawesome-regular-eye-slash:
+
+Über die Schaltfläche "[Expertenmodus](Access_Restrictions_in_the_Expert_Mode.de.md) anzeigen" gelangen Sie zu einem Eingabefeld, wo Sie eine komplexere
 Konfiguration Ihren Bedürfnissen entsprechend vornehmen können. Es ist auch
 möglich erst eine Grundeinstellung über die generellen Einstellungen
 vorzunehmen und dann die Syntax im Expertenmodus zu erweitern. Der
@@ -207,8 +216,3 @@ verwenden.
 
 Informationen zum Tab "Lernpfad" von Lernpfad Kursen finden Sie
 [hier](../learningresources/Learning_path_course_Course_editor.de.md).
-
-  
-
-  
-
