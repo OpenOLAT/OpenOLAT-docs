@@ -6,11 +6,11 @@
 
 ### Elements
 
- * Icon
- * Label
- * File name
- * Information
- * Actions
+ 1. Icon
+ 2. Label
+ 3. File name
+ 4. Information
+ 5. Actions
 
 #### Icon
 
@@ -18,11 +18,11 @@ Icon or thumbnail
 
 #### Label
 
-Link with following actions
+Link with action in the following order:
 
- * Edit
- * Open
- * Donwload
+ 1. Edit
+ 2. Open
+ 3. Donwload
 
 ##### Edit
 
@@ -30,7 +30,7 @@ The following criteria must be fulfilled:
 
  * Document is editbale
  * A document editor is available
- * The user has the right for editing
+ * The user has editing rights
 
 ##### View
 
@@ -61,8 +61,8 @@ Possible actions:
 
 ### Two lines
 
-![files two lines](assets/file_HFP_2Z.png){ class="shadow lightbox" }
+![files two lines](assets/file_HF_2Z.png){ class="shadow lightbox" }
 
 ### Responsive
 
-![file repsonsive](assets/file_HFP_RP.png){ class="shadow lightbox" }
+![file repsonsive](assets/file_HF_RP.png){ class="shadow lightbox" }
