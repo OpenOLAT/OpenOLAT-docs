@@ -18,6 +18,7 @@ nav:
       - Overview: ux/components.md
       - Button: ux/button.md
       - Card: ux/card.md
+      - File: ux/file.md
       - Object integration: ux/object_integration.md
       - Pickers: ux/pickers.md
       - Switch & Sliders: ux/switch_slider.md
