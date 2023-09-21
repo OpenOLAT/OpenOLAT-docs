@@ -22,6 +22,12 @@ Wenn kein Angebot erstellt wird, erfolgt auch kein Katalogeintrag.
 Angebote hängen am Kurs und werden dort von Autor:innen in den Einstellungen definiert:<br>
 **Administration > Einstellungen > Tab „Freigabe“**
 
+!!! info "Unterschied Katalog 1.0 und Katalog 2.0"
+
+    Im Katalog 1.0 werden alle Angebote in den Kursen erstellt (**Administration > Einstellungen > Tab Freigabe**) und dann in der **Katalogverwaltung** zusammengestellt.
+
+    Im Katalog 2.0 werden Angebote ebenfalls in den Kurseinstellungen erstellt. Zusätzlich werden hier noch Angaben gemacht, **wo** im Katalog das Angebot erscheinen soll. Anhand dieser Angaben kann der Katalog 2.0 die Angebote dann **dynamisch selbst zusammenstellen**.
+
 ![catalog20_angebot_erstellen_v1_de.png](assets/catalog20_angebot_erstellen_v1_de.png){ class="shadow lightbox" }
 
 
@@ -33,7 +39,7 @@ Auch der Zugang zu einem Kurs wird in der **Administration** unter den **Einstel
 
 Bei der Wahl "Privat" werden die Teilnehmenden durch die Besitzer bzw. Personen, die über das Recht der Mitgliederverwaltung verfügen, eingetragen. Was privat ist, soll auch nicht im Katalog veröffentlicht werden.
 
-Bei der Wahl der Option "Buchbare und offene Angebote" können die Lernenden einen Kurs/Lernressource selbst buchen, müssen aber eventuell (je nach Einstellung) ein Passwort eingeben.
+Bei Wahl der Option "Buchbare und offene Angebote" können die Lernenden einen Kurs/Lernressource selbst buchen, müssen aber eventuell (je nach Einstellung) ein Passwort eingeben.
 
 Wird die zweite Option "Buchbare und offene Angebote“ gewählt, können Sie anschliessend Angebote erstellen.
 
@@ -102,3 +108,8 @@ Der dynamische Katalog V2 kann mit diesen Metadaten alle Angebote, die die gleic
 Nach Klick auf die Kachel des Taxonomie-Launchers öffnet sich die sogenannte Microsite mit der Liste aller Kurse und Lernressourcen, die diesem Fachbereich zugeordnet wurden.  
 
 ![catalog20_taxonomylauncher_microsite_v1_de.png](assets/catalog20_taxonomylauncher_microsite_v1_de.png){ class="shadow lightbox" }
+
+
+!!! tipp "Katalog 1.0"
+
+    Informationen zum Erstellen von Angeboten im Katalog 1.0 finden Sie [hier](catalog1.0.de.md). 
