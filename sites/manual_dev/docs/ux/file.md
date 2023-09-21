@@ -2,7 +2,7 @@
 
 ## Base
 
-![tbd](assets/file_HF_1Z.png){ class="shadow lightbox" }
+![file base](assets/file_HF_1Z.png){ class="shadow lightbox" }
 
 ### Elements
 
@@ -56,13 +56,13 @@ Possible actions:
 
 ### With preview
 
-![tbd](assets/file_HFP_1Z.png){ class="shadow lightbox" }
-![tbd](assets/file_QFP_1Z.png){ class="shadow lightbox" }
+![file with preview](assets/file_HFP_1Z.png){ class="shadow lightbox" }
+![file with preview](assets/file_QFP_1Z.png){ class="shadow lightbox" }
 
 ### Two lines
 
-![tbd](assets/file_HFP_2Z.png){ class="shadow lightbox" }
+![files two lines](assets/file_HFP_2Z.png){ class="shadow lightbox" }
 
 ### Responsive
 
-![tbd](assets/file_HFP_RP.png){ class="shadow lightbox" }
+![file repsonsive](assets/file_HFP_RP.png){ class="shadow lightbox" }
