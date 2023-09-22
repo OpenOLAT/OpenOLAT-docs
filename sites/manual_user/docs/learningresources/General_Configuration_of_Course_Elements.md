@@ -153,10 +153,25 @@ passed.
 displayed or accessible only during an OpenOlat assessment situation, select
 this setting. For more information, refer to the section [Assessmentm Mode](../learningresources/Assessment_mode.md).
 
-In order for a restriction to apply to course owners and group coaches, the
-option "_Apply rules also for owners and tutors_" must be selected. If you
-do not check this box, the administrator and the owner can always see the
-course element - regardless of which visibility rules you have set.
+**Apply rules also for owners and tutors**: In order for a restriction to apply to course owners and group administrators, this option must be checked. If this checkbox is not activated, coaches and administrators will *always* be able to see the course element - regardless of which visibility rules are set.
+
+???+ info "Configuration example for restricting visibility"
+
+    The visibility of a course element is configured "Depending on group" for group "A". (De)activating the option "Apply rules also for owners and tutors" affects the visibility for the different roles as follows:
+
+    Role | :fontawesome-regular-square: Apply rules for owners / tutors | :fontawesome-regular-square-check: Apply rules for owners / tutors
+    ---------|----------|---------
+    Participants Group "A" | :fontawesome-regular-eye: | :fontawesome-regular-eye:
+    Coaches Group "A" | :fontawesome-regular-eye: | :fontawesome-regular-eye:
+    Participants Group "B" | :fontawesome-regular-eye-slash: | :fontawesome-regular-eye-slash:
+    Coaches Group "B" | :fontawesome-regular-eye: | :fontawesome-regular-eye-slash:
+    Participants of the course | :fontawesome-regular-eye-slash: | :fontawesome-regular-eye-slash:
+    Coaches of the course | :fontawesome-regular-eye: | :fontawesome-regular-eye-slash:
+    Owners of the course | :fontawesome-regular-eye: | :fontawesome-regular-eye-slash:
+
+!!! note "Note"
+
+    For people with multiple roles, the access/visibility restrictions take effect according to the currently selected role.
 
 The "Display [expert mode](Access_Restrictions_in_the_Expert_Mode.md)"
 button takes you to an input field where you can make a more complex

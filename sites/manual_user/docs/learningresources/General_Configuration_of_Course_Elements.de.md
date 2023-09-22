@@ -188,6 +188,10 @@ diese Einstellung. Weitere Informationen finden Sie im Abschnitt
     Betreuer:innen des Kurses | :fontawesome-regular-eye: | :fontawesome-regular-eye-slash:
     Besitzer:innen des Kurses | :fontawesome-regular-eye: | :fontawesome-regular-eye-slash:
 
+!!! note "Hinweis"
+
+    Bei Personen mit mehreren Rollen wirken sich die Zugangs- bzw. Sichtbarkeitsbeschränkungen entsprechend der aktuell ausgewählten Rolle aus.
+
 Über die Schaltfläche "[Expertenmodus](Access_Restrictions_in_the_Expert_Mode.de.md) anzeigen" gelangen Sie zu einem Eingabefeld, wo Sie eine komplexere
 Konfiguration Ihren Bedürfnissen entsprechend vornehmen können. Es ist auch
 möglich erst eine Grundeinstellung über die generellen Einstellungen
