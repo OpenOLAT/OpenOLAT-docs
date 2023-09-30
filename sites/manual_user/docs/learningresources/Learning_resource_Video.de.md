@@ -7,7 +7,7 @@ Eine Video-Lernressource wird im Autorenbereich über die Funktion "[Importieren
 
 ![lernressource_video.png](assets/Video_Einstellungen.png)  
 
-Es öffnet sich im nächsten Schritt die Eingabeseite der "Einstellungen". Wird im Tab  "Info" der Lernressource Video eine Beschreibung eingegeben, kann diese beim Einbetten in den Kurs auch als Beschreibung im Kurs angezeigt werden.
+Es öffnet sich im nächsten Schritt die Eingabeseite der "Einstellungen". Wird im Tab  "Info" der Lernressource Video eine Beschreibung eingegeben, kann diese beim Einbetten in den Kurs auch als Beschreibung im Kurs angezeigt werden. Weitere Infos siehe unten.
 
 !!! note "Info"
 
@@ -104,11 +104,11 @@ Punktevergabe definiert. Im Tab **"Feedback"** können Feedbacks basierend auf u
 
     Weitere Informationen zu den generellen Einstellungen von Quiz und Tests finden Sie im Kapitel "[Testfragen konfigurieren](../learningresources/Configure_test_questions.de.md)". Weitere Informationen zu den unterschiedlichen Fragetypen im Kapitel "[Test Fragetypen](../learningresources/Test_question_types.de.md)".
 
-### Videokonfiguration in den "Einstellungen" der Lernressource
+## Videokonfiguration in den "Einstellungen" der Lernressource
 
 Weitere Konfigurationen können in den "Einstellungen" im Bereich Administration vorgenommen werden.
 
-Die Tabs "Info", "Freigabe" und "Katalog" sind analog zu anderen Lernressourcen. Generelle Informationen zum Menü "Einstellungen"
+Die Tabs "Info", "Freigabe" und "Katalog" sind analog zu anderen Lernressourcen. Der Tab "Katalog" erscheint hier nur wenn der Katalog 1.0 in der OpenOlat Instanz aktiviert ist. Generelle Informationen zum Menü "Einstellungen"
 finden Sie [hier](../learningresources/Course_Settings.de.md).
 
 ### Metadaten
@@ -184,7 +184,7 @@ Sobald Untertitel vorhanden sind, wird folgendes Icon im Video-Player angezeigt:
 
 CC steht für den amerikanischen Ausdruck "[Closed captions](https://de.wikipedia.org/wiki/Untertitel#Technische_Ausf.C3.BChrungen)" (Wikipedia), und bedeutet dass Untertitel unsichtbar sind bis diese vom Benutzer aktiviert werden. In OpenOlat sieht das dann folgendermassen aus:
 
-![](assets/video_subtitle.png)
+![Untertitel](assets/video_subtitle.png)
 
 Sobald Sie mit dem Mauszeiger über das Icon fahren, klappt sich die Liste der bestehenden Untertitel aus. Die aktuelle Auswahl ist dabei eingefärbt.
 
@@ -204,7 +204,7 @@ Im Tab "Videoqualität"sehen Sie in welchen Auflösungen das Video vorliegt. Sob
 
 Im Tab Download kann eingestellt werden, ob die User das Video herunterladen dürfen oder nicht.
 
-##  Video Collection
+##  Menü Video Collection
 
 Nutzen Sie die "Video Collection"-Seite um durch alle Video Lernressourcen zu browsen, die in Ihrer Instanz vorhanden sind. Damit ein Video in der "Video Collection" angezeigt werden kann, muss der Publikationsstatus "Veröffentlicht" eingestellt sein. In Kombination mit der Freigabeeinstellung "Offen" wird es automatisch für alle registrierten Benutzer zugänglich. Die Beschreibung der Infoseite wird automatisch in der Einzelansicht eines Videos angezeigt, ebenso die Bewertungs- und Kommentarfunktion. 
 
@@ -214,5 +214,5 @@ Nutzen Sie die "Video Collection"-Seite um durch alle Video Lernressourcen zu br
 
 !!! info "Info"
 
-    Wenn Sie in Ihrer OpenOlat Instanz den "Video Collection" Eintrag in der Hauptnavigation nicht finden können, wurde dieser entweder vom Administrator ausgeblendet, oder Sie besitzen nicht die benötigten Rechte.
+    Wenn  in Ihrer OpenOlat Instanz der "Video Collection" Eintrag in der Hauptnavigation nicht erscheint, wurde dieser entweder vom Administrator ausgeblendet, oder Sie besitzen nicht die benötigten Rechte.
 

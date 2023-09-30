@@ -21,7 +21,7 @@
 
 Beispiel einer Taxonomiestruktur nach Fächern für den Dokumentenpool:
 
-![Struktur](assets/Taxonomie_Struktur_DE.png){ class="shadow lightbox" }
+![Taxonomie Struktur](assets/Taxonomie_Struktur_DE.png){ class="shadow lightbox" }
 
 Direkt auf der Übersichtsseite kann eine neue Taxonomie erstellt werden.
 Sofern Sie im Fragenpool bereits eine Fachbereichsstruktur angelegt haben,
@@ -30,7 +30,7 @@ wird diese hier mit dem Titel "Question Pool" angezeigt.
 Es können mehrere Taxonomiestrukturen erstellt und für verschiedene Zwecke
 (Fragenpool oder Dokumentenpool) aktiviert werden.
 
-![](assets/Taxonomy overview DE.png){ class="shadow lightbox" }
+![Taxonomie](assets/Taxonomy overview DE.png){ class="shadow lightbox" }
 
 Lässt man sich eine Taxonomie anzeigen gelangt man zur folgenden Übersicht:
 
@@ -62,6 +62,7 @@ erstellt werden.
 * **CSS class:** Sofern eine entsprechende css class im Theme hinterlegt ist, können Sie diese hier ausgewählen. Es können so nur Icons hinterlegt werden.
 * **Sichtbar:** Hier wird definiert, ob alle Taxonomieebenen von diesem Typ sichtbar sein sollen.
 * **Kompetenzen:** Wenn aktiviert, steht dieser Ebenentyp als Kompetenz zur Verfügung und kann z.B. zur kompetenzbasierten Verschlagwortung in ePortfolio-Einträgen genutzt werden.
+* **Leistungsnachweise:** Hier können Taxonomieebenen mit diesem Leveltyp für die Gruppierung von Leistungsnachweisen freigeschaltet werden.
 * **Beschreibung:** Eine kurze Beschreibung des Ebenentyps (optional)
 * **Sub types:** Aus den bereits bestehenden Ebenentypen kann nun ein Untertyp ausgewählt werden. So ist es möglich, eine hierarchische Struktur zu schaffen. Diese wird dann beim Erstellen der Taxonomieebenen sichtbar.
 
@@ -69,49 +70,45 @@ erstellt werden.
 
 ## Taxonomie
 
-In diesem Tab werden nun die einzelnen Taxonomieebenen erstellt und angezeigt.
+In diesem Tab werden nun die einzelnen Taxonomieebenen erstellt, importiert, exportiert und angezeigt.
+
+### Taxonomie erstellen
 
 Beim Erstellen werden folgende Angaben benötigt:
 
 * **Pfad**: Mit dem Pfad kann direkt die Position der neuen Taxonomieebene definiert werden.
 * **Kennzeichen**: Als Kennzeichen kann wiederum ein Kürzel für die Ebene verwendet werden.
-* **Anzeigename**: Der Anzeigename ist sprachabhängig und wird an unterschiedlichen Stellen verwendet: Katalog 2.0, Dokumentenpool, e-Portfolio.
-* **Typ**: Beim Typ wird nun der zuvor definierte Ebenentyp ausgewählt.
+* **Typ**: Beim Typ wird nun der zuvor definierte Ebenentyp ausgewählt. 
 * **Sortierung**: ::octicons-tag-24: *aktuell Beta Feature* Hier können Zahlen eingetragen werden, nach dem die Taxonomien sortiert werden. ( z.B. 1, 2, 3, 4, .. / 01, 02,03,04,...)
+* **Teaser Bild**
+* **Hintergrund bild**
+* **Anzeigename**: Der Anzeigename ist sprachabhängig und wird an unterschiedlichen Stellen verwendet: Katalog 2.0, Dokumentenpool, e-Portfolio.
 * **Beschreibung**: Beschreibung der Taxonomieebene. Wird im Katalog unter der Ebene angezeigt.
 
-![Taxonomie-ebenen](assets/Taxebenen.png){ class="shadow lightbox" }
+![Taxonomie-Ebenen](assets/Taxebenen.png){ class="shadow lightbox" }
 
 In der Übersicht ist nun die hierarchische Struktur sichtbar.
 
 ![Ausgeklappte Treetable der Taxonomie](assets/taxonomy-overview-hierarchy.de.jpg){ class="shadow lightbox" }
 
 In der Detailansicht können anschliessend Kompetenzen hinzugefügt werden. So
-erhalten Benutzer die Zugriffsrechte für die einzelnen Taxonomieebenen. Im
-OpenOlat wurde die Kompetenz auf den Release 12.2 neu hinzugefügt.
+erhalten Benutzer die Zugriffsrechte für die einzelnen Taxonomieebenen. 
 
 Es werden 4 verschiedene Kompetenzen unterschieden. Diese werden im Folgenden
 kurz umrissen:
 
-* Dozieren: Ein Benutzer mit einer Dozierkompetenz ist in dieser Kompetenz befähigt. Meist bedeutet dies, er hat ein gewisses Fachwissen, das er weitergeben kann. Die Dozierkompetenz wird dem Benutzer entweder manuell oder durch ein externes Verwaltungssystem hinzugefügt. Diese Kompetenz steuert den Zugriff sowohl im [Dokumentenpool](Modules_Document_pool.de.md) als auch im Fragenpool.
-* Verwalten: Benutzer können für gewisse Bereiche in der Taxonomie eine verwaltende Funktion haben. Dabei müssen Sie nicht zwingend auch die Dozierkompetenz haben. Diese Kompetenz wird vor allem im Fragenpool benutzt.
-* Haben: Diese Kompetenz wird momentan im OpenOlat noch nicht verwendet. Diese Kompetenz sollen zukünftig Lernende durch eine Lernaktivität im OpenOlat (z.B. absolvierter Test) erhalten. Diese Kompetenz wird auch ein Verfallsdatum haben.
-* Ziel: Diese Kompetenz wird momentan im OpenOlat noch nicht verwendet. Ein Lernender hat ein Ziel, das er erreichen möchte. Sein Ziel ist es, diese Kompetenz zu erwerben.
+* **Dozieren**: Ein Benutzer mit einer Dozierkompetenz ist in dieser Kompetenz befähigt. Meist bedeutet dies, er hat ein gewisses Fachwissen, das er weitergeben kann. Die Dozierkompetenz wird dem Benutzer entweder manuell oder durch ein externes Verwaltungssystem hinzugefügt. Diese Kompetenz steuert den Zugriff sowohl im [Dokumentenpool](Modules_Document_pool.de.md) als auch im Fragenpool.
+* **Verwalten**: Benutzer können für gewisse Bereiche in der Taxonomie eine verwaltende Funktion haben. Dabei müssen Sie nicht zwingend auch die Dozierkompetenz haben. Diese Kompetenz wird vor allem im Fragenpool benutzt.
+* **Haben**: Diese Kompetenz wird momentan im OpenOlat noch nicht verwendet. Diese Kompetenz sollen zukünftig Lernende durch eine Lernaktivität im OpenOlat (z.B. absolvierter Test) erhalten. Diese Kompetenz wird auch ein Verfallsdatum haben.
+* **Ziel**: Diese Kompetenz wird momentan im OpenOlat noch nicht verwendet. Ein Lernender hat ein Ziel, das er erreichen möchte. Sein Ziel ist es, diese Kompetenz zu erwerben.
 
 ![taxonomy overview](assets/taxonomy-overview.de.jpg){ class="shadow lightbox" }
 
-## Lost+Found
-
-Hier werden alle gelöschten Elemente aus dem Tab "Taxonomie" abgelegt.
-Momentan können diese jedoch nicht wiederhergestellt werden.
-
-## Taxonomie importieren und exportieren
-
-Um die Taxonomie zu importieren oder zu exportieren wähle den entsprechenden Menüpunkt im Mehr-Menü neben "Neue Taxonomieebene erstellen" aus.
-
 ### Taxonomie exportieren
 
-Die Taxonomie wird mit Klick auf den Menüpunkt als .zip Archiv heruntergeladen. Darin enthalten ist eine EXCEL-Tabelle mit der hierarchischen Struktur der Taxonomieebenen und eine Ordnerstruktur (media/ebene1/background;media/ebene1/teaser;) mit Teaser- und Hintergrundbildern der Taxonomie, wenn welche vorhanden sind. (mehr unter -> [Katalog 2.0](../../../manual_user/docs/area_modules/catalog2)
+![Taxonomie exportieren](assets/Taxonomie_exportieren.png)
+
+Die Taxonomie wird mit Klick auf den Menüpunkt als .zip Archiv heruntergeladen. Darin enthalten ist eine EXCEL-Tabelle mit der hierarchischen Struktur der Taxonomieebenen und eine Ordnerstruktur (media/ebene1/background;media/ebene1/teaser;) mit Teaser- und Hintergrundbildern der Taxonomie, wenn welche vorhanden sind. (mehr unter -> [Katalog 2.0](../../../manual_user/docs/area_modules/catalog2.0.de.md)
 
 ### Taxonomie importieren
 
@@ -140,8 +137,7 @@ Hier kann man entscheiden, ob man die existierenden Taxonomieebenen überschreib
 ![Tabellenvorlage-taxonomiestruktur](assets/taxonomystructure-import.jpg){ class="shadow lightbox" }
 
 2. In der Excel fügen Sie die neuen Ebenen hinzu oder verändern bestehende. Der Pfad muss vollständig angegeben werden. Ist dieser fehlerhaft, können gewisse Ebenen nicht importiert werden.
-
-    1. Hat man verschieden Sprachen in OpenOlat aktiviert und benutzt den Katalog 2.0, ist es ratsam Anzeigename und Beschreibung sprachabhängig zu gestalten. Zusätzliche Sprachen fügen Sie hinzu, indem Sie die Spalten "Länderkürzel", "Anzeigename" & "Beschreibung" kopieren, diese damit hinten anhängt und ein neues, existierendes Länderkürzel, Anzeigename + Beschreibung für jede Taxonomieebene ergänzt.
+ Hat man verschieden Sprachen in OpenOlat aktiviert und benutzt den [Katalog 2.0](../../../manual_user/docs/area_modules/catalog2.0.de.md), ist es ratsam Anzeigename und Beschreibung sprachabhängig zu gestalten. Zusätzliche Sprachen fügen Sie hinzu, indem Sie die Spalten "Länderkürzel", "Anzeigename" & "Beschreibung" kopieren, diese damit hinten anhängt und ein neues, existierendes Länderkürzel, Anzeigename + Beschreibung für jede Taxonomieebene ergänzt.
 
 3. Die geänderte Tabelle wird _ohne_ die Kopfzeile markiert und in das Eingabefeld kopiert. Im Schritt "Änderungen überprüfen" werden die Zellen auf Richtigkeit überprüft. Bei Fehlern erscheinen die Fehlermeldungen direkt am Eingabefeld.
 
@@ -154,3 +150,8 @@ Hier kann man entscheiden, ob man die existierenden Taxonomieebenen überschreib
 3. Wieder das gesamte Archiv zippen und unter Absatz B im Wizard einfügen.
 
 Alternativ ist es auch möglich, die vorhandene Vorlagen unter den jeweiligen Links herunterzuladen und diese entsprechend anzupassen.
+
+
+## Lost+Found
+
+Hier werden alle gelöschten Elemente aus dem Tab "Taxonomie" abgelegt. Momentan können diese jedoch nicht wiederhergestellt werden.

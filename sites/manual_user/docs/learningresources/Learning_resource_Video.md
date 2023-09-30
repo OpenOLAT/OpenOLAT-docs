@@ -104,11 +104,12 @@ In the tab **"Feedback"** feedbacks based on different criteria can be added. In
 
     Further information on the general settings of quiz and tests can be found in the chapter "Configuring test questions". For more information on the different question types, see the "[Test Question Types](../learningresources/Test_question_types.md)" chapter.
 
-### Videokonfiguration in den "Einstellungen" der Lernressource
+## Videokonfiguration in den "Einstellungen" der Lernressource
 
 You can now further configure your video in the tabs of the "Settings" of the administration menu.
 
-The "Info", "Share" and "Catalog" tabs are analogous to other learning resources. For general information about the Settings menu, click 
+The "Info", "Share" and "Catalog" tabs are analogous to other learning resources. 
+The tab "Catalog" only appears if the catalog 1.0 is activated. For general information about the Settings menu, click 
 [here](../learningresources/Course_Settings.md).
 
 ### Metadata

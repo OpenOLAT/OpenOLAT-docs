@@ -5,24 +5,29 @@ various other configuration tools. Here you can insert and modify course
 elements, view their current status and configuration as well as a course
 preview and finally publish your course.
 
-![](assets/course_editor_toolbar.png)
+![Course editor toolbar](assets/course_editor_toolbar18.jpg)
 
 ## Administration
 
 Here you have access to various other course tools. You will find information
-on the separate pages of the tools.
+on the separate pages of the tools. More information you will find [here](../learningresources/Using_Course_Tools.md).
 
-![](assets/administration_tools.png)
 
 ## Insert course elements
 
 Here you have access to all [course elements](Course_Elements.md)
 that you can integrate into a course.
 
-## Modify course element
+## Quick-Add
 
-Added course elements can be deleted, moved and copied. Furthermore, moving
-the course elements is also possible by drag & drop.
+Je nach Größe Ihres Bildschirmfensters steht Ihnen auch die Funktion "Quick Add" zur Verfügung. Hierüber kann einfach der Name des gewünschten Kursbausteins in das Feld geschrieben und somit der Baustein noch schneller hinzugefügt werden. 
+
+## Kursbausteine importieren
+
+An dieser Stelle können Sie Kursbausteine aus anderen Kursen mit Hilfe eines Wizards importieren. 
+
+Wählen Sie einen Kurs aus bei dem Sie Besitzer sind und entscheiden Sie sich für einen oder mehrere Kursbausteine dieses Kurses. Teilweise können Sie auch noch weitere Konfigurationen vornehmen an den ausgewählten Bausteinen vornehmen. Abschliessend "Fertigstellen" auswählen und die gewünschten Kursbausteine werden dem aktuellen Kurs hinzugefügt. 
+
 
 ## Status
 
@@ -31,46 +36,37 @@ on the number indicated and the corresponding problems will be displayed and
 can be solved. The legend also indicates what kind of problem it is.
 
 Possible configuration problems will additionally be displayed in the course
-navigation.
+navigation.  
 
-  
+![status problem course editor](assets/status_problem.png)
 
-![](assets/Kursstatus_problems_EN.png)
+Eventuelle Konfigurationsprobleme werden zusätzlich in der Kursnavigation bei den entsprechenden Kursbausteinen angezeigt.
 
 ## Configuration overview
 
 Here you will get an overview of the configuration of all course elements
 added to your course according to the course structure in the left navigation.
 
-  
-
-Select the columns you want to obtain overview information on.
-
-The column "Score" is only relevant for assessment elements. Here it will be
-indicated whether or not points have been assigned for course elements.
-
+Tip: Select the columns you want to obtain overview information on.
 Select only those columns that you really need. This way the display remains
 clear. Especially the column "Description" should only be displayed if there
 are no long texts in course elements.
 
-The columns _do not show the ratings_ for individual persons, but only give an
-overview of the configuration of the course elements. If points are to be
-awarded or a pass/fail is to be given, this will be done in the course's
-"[Assessment tool](../learningresources/Assessment_tool_overview.md)".
+The column "Score" is only relevant for assessment elements. Here it will be
+indicated whether or not points have been assigned for course elements.
 
-![](assets/Screenshot 2020-03-22 at 17.54.20.png)
+Um Anpassungen vorzunehmen wählen sie die gewünschten Kursbausteine aus und es erscheint der Button "change configuration". In conventional courses you can change the display of selected course elements at once and thus e.g. standardize it. In
+case of learning path courses further settings regarding assessment configuration and learning path are possible.
 
-The "Change configuration" button at the end of the list allows further
-detailed settings to be made. In conventional courses you can change the
-display of selected course elements at once and thus e.g. standardize it. In
-case of learning path courses further settings regarding assessment
-configuration and learning path are possible.
 
-  
+![change configuration](assets/Screenshot 2020-03-22 at 17.57.20.png)
 
-![](assets/Screenshot 2020-03-22 at 17.57.20.png)
+!!! info
 
-## Course preview  {: #preview}
+    The columns _do not show the ratings_ for individual persons, but only give an  overview of the configuration of the course elements. If points are to be   awarded or a pass/fail is to be given, this will be done in the course's "[Assessment tool](../learningresources/Assessment_tool_overview.md)".
+
+
+## Course preview  {: #preview} (nur für herkömmliche Kurse)
 
 The editor tool "Course preview" enables you to see course settings and
 content from the course participant's point of view. By clicking on "Course
@@ -81,10 +77,9 @@ attributes used in your course.
 In contrast to the view of the course content you will see all modifications
 or course elements not yet published in the course preview. Features depending
 on an interaction between participant and system will not be available in the
-course preview, e.g. enrolling in groups, starting a test, self-test or
-questionnaire, and performing tasks in the course element "Task."
+course preview, e.g. enrolling in groups, starting a test, self-test or questionnaire, and performing tasks in the course element "Task."
 
- More information on configuring the course preview:
+### More information on configuring the course preview:
 
 By means of this form you can define the conditions of the course's preview.  
   
@@ -117,17 +112,11 @@ For more information:
 [AAI attributes ](Access_Restrictions_in_the_Expert_Mode.md)  
 [__ General information on AAI](http://www.switch.ch/aai/)
 
-The course preview is useful, for example, to view a course from the
-participant's perspective before it starts or to check certain visibility
+The course preview is useful, for example, to view a course from the participant's perspective before it starts or to check certain visibility
 rules.
 
-If course owners only want to view the course presentation from the learner's
-perspective, they can simply register as participants in the member
-administration. This way you can switch between the desired course roles and
-views while the course editor is closed.
+In der Regel ist die Vorschau aber mehr notwendig, da bei geschlossenem Kurseditor einfach die "Teilnehmeransicht" gewählt werden kann. Dieser Weg bietet sich auch für Lernpfad Kurse an.
 
-![](assets/Screenshot 2020-03-22 at 17.58.56.png)
-![](assets/Screenshot 2020-03-22 at 18.00.14.png)
 
 ## Publishing
 
@@ -135,51 +124,29 @@ All settings and modifications made in the course editor will be released by
 means of "Publish". This way you can prepare, set up and design your course in
 the course editor at your leisure.
 
-Your course can either be published by clicking on that link in your toolbar
-or directly when closing your course editor. Only once you have published your
-course it will become visible in the course run with closed editor. This does
-not mean that learners will already see your course. In order to be able to do
-that you have to publish your course and configure your access (see chapter
+Your course can either be published by clicking on that link in your toolbar or directly when closing your course editor. Only once you have published your course it will become visible in the course run with closed editor. This does not mean that learners will already see your course. In order to be able to do that you have to publish your course and configure your access (see chapter
 "[Access configuration](Access_configuration.md)").
 
-If you want to make more differentiated settings when publishing, select the
-"Publish" button in the toolbar of the course editor.
+Das Publizieren kann entweder einfach beim Schliessen des Kurses vorgenommen werden oder man nutzt den Link in der Toolbar des Kurseditors. Über den Link in der Toolbar gelangt man in die manuelle Konfiguration des Publizierens. Beim Schliessen des Kurses ist auch ein schnelles/automatisches Publizieren möglich, was in den meisten Fällen ausreicht und deutlich schneller geht. 
 
- Button "Publish": Configuration steps
+!!! warning
+
+    In case you publish a course while others are working on it all non-saved data (such as entries in forums or Wikis) will be lost.
+    
+
+If you want to make more differentiated settings when publishing, select the "Publish" button in the toolbar of the course editor.
+
+### Manuelles Publizieren mit Wizard
 
 Step 1: First you have to select all those course elements you have modified
 and want to publish. Your choice will be reduced to course elements that are
 available for publishing.
 
-Step 2: Here you get access to the general
-publishing options of a course. Determine which OpenOlat-
+Step 2: Modification of course access: Here you get access to the general publishing options of a course. Determine which OpenOlat-
 users should have access to your course. See
 section "[Course Settings](Course_Settings.md)" to learn more about those options at your disposal. Now you can complete your publishing process.
 Just click on "Finish".
 
-Step 3: You can create a catalog entry for the course. Tip: Enter only
-complete and functional courses in the catalogue, no test or play courses.
+Eventuell gibt es noch Hinweise die angezeigt werden. Auch ein Eintrag in den Katalog ist bei Verwendung des [Katalog 1.0](../area_modules/catalog1.0.md) möglich.
 
-Step 4: At this stage you will be informed on course elements that may not
-have been configured correctly and could cause problems when starting your
-course.
-
-Step 5: Any background updates of course elements are displayed here.
-
-Step 6: At last you will get a summary of your published modifications as well
-as a message containing the number of course participants working on your
-course at that very moment.
-
-Complete the steps with "Finish". You can also
-shorten the process by skipping individual steps and clicking on "Finish".
-
-In most cases it is sufficient to publish the course simply by closing the
-course editor.
-
-As long as you have not published your course elements and set the course to
-"Published", course participants will not find it either via the search mask
-or in the list of courses.
-
-In case you publish a course while others are working on it all non-saved data
-(such as entries in forums or Wikis) will be lost.
 

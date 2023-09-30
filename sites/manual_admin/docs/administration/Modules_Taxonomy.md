@@ -20,7 +20,7 @@
 
 Example of a taxonomy structure according to subjects for the document pool:
 
-![](assets/Taxonomie_Struktur_DE.png){ class="shadow lightbox" }
+![taxonomy structure](assets/Taxonomie_Struktur_DE.png){ class="shadow lightbox" }
 
 Directly on the overview page a new taxonomy can be created. If a subject
 structure has already been created in the question pool, it will be shown here
@@ -59,6 +59,7 @@ In the tab "Level types" a new type can be created with "Add new level type".
   * **CSS class:** If a corresponding css class is added in the theme it can be chosen here. Only icons can be added.  
   * **Visible:** Here can be defined if the taxonomy level of this type should be visible.
   * **Competences:** If activated, this level type is available as a competence and can be used e.g. for competence-based keywording in ePortfolio entries.
+  * **Leistungsnachweise:** Hier können Taxonomieebenen mit diesem Leveltyp für die Gruppierung von Leistungsnachweisen freigeschaltet werden.
   * **Description:** If desired a short description of the level type can be added.
   * **Sub types:** Out of the already existing level types a sub type can be chosen. Like this it becomes possible to create a hierarchical structure. It will get visible when creating the taxonomy level.
 
@@ -66,16 +67,20 @@ In the tab "Level types" a new type can be created with "Add new level type".
 
 ## Taxonomy
 
-In this tab the single taxonomy levels are created and shown.
+In this tab the single taxonomy levels are created, imported, exported and shown.
+
+### Create taxonomy
 
 When creating the following attributes are necessary:
 
   * **Path:** With the path the position of the taxonomy level can be defined directly.
   * **Identifier:** With the identifier an abbreviation of the level can be defined.
-  * **Display name:** The display name is the name which is actually shown in the corresponding pool. 
   * **Type:** In the type the beforehand created level type can be chosen.
-  * **Order:** Hereby a manual order is possible by adding a number from 1-XX. The taxonomy-tiers will get ordered ascending by the numbers ( 1,2,3,4, / 01,02,03,04,..):octicons-tag-24: _experimental Feature_
-  * **Description:** If desired a short description of the taxonomy level can be added.
+  * **Order:** Hereby a manual order is possible by adding a number from 1-XX. The taxonomy-tiers will get ordered ascending by the numbers ( 1,2,3,4, / 01,02,03,04,..):octicons-tag-24: _experimental Feature_  * **Display name:** The display name is the name which is actually shown in the corresponding pool. 
+  * **Teaser Bild**
+  * **Hintergrund bild**
+  * **Anzeigename**: Der Anzeigename ist sprachabhängig und wird an unterschiedlichen Stellen verwendet: Katalog 2.0, Dokumentenpool, e-Portfolio.  
+  * **Description:** If desired a short description of the taxonomy level can be added. Wird im Katalog unter der Ebene angezeigt.
 
 ![](assets/Taxebenen EN.png){ class="shadow lightbox" }
 
@@ -90,25 +95,20 @@ been added in the release 12.2.
 4 different competences are distinguished. Following they are outlined
 shortly:
 
-  * Teach: A user with teach competence is qualified in this competence. Mostly this means he has a certain expert knowledge which he can hand over. Therefore learners will never have teach competences as the teach competence cannot be gained in OpenOlat. The teach competence is either added to a user manually or by an external management system. This competence manages the access to the [document pool](Modules_Document_pool.md) as well as to the question bank.
-  * Manage: User can have a managing function for a certain area of the taxonomy. Therefore the must not have teach competence at the same time. This competence is mainly used in the question bank.
-  * Have: This competence is not yet used in OpenOlat. In the future this competence can be gained by a learner through learning activities in OpenOlat (e.g. test). This competence has an expiry date.
-  * Target: This competence is not yet used in OpenOlat. A learner has a target he wants to reach. It is the target to gain this competence.
+  * **Teach**: A user with teach competence is qualified in this competence. Mostly this means he has a certain expert knowledge which he can hand over. Therefore learners will never have teach competences as the teach competence cannot be gained in OpenOlat. The teach competence is either added to a user manually or by an external management system. This competence manages the access to the [document pool](Modules_Document_pool.md) as well as to the question bank.
+  * **Manage**: User can have a managing function for a certain area of the taxonomy. Therefore the must not have teach competence at the same time. This competence is mainly used in the question bank.
+  * **Have**: This competence is not yet used in OpenOlat. In the future this competence can be gained by a learner through learning activities in OpenOlat (e.g. test). This competence has an expiry date.
+  * **Target**: This competence is not yet used in OpenOlat. A learner has a target he wants to reach. It is the target to gain this competence.
 
 ![overview over the taxonomy gui](assets/taxonomy-overview.jpg){ class="shadow lightbox" }
 
-## Lost+Found
-
-All deleted elements of the tab "Taxonomy" end up here. For the moment they
-cannot be reset.
-
-## Import and export taxonomy
-
-To import or export the taxonomy, select the corresponding menu item in the More menu next to "Create new taxonomy level".
 
 ### Export taxonomy
 
-The taxonomy is downloaded as a .zip archive by clicking on the menu item. This contains an EXCEL table with the hierarchical structure of the taxonomy level and a folder structure (media/level1/background;media/level1/teaser;) with teaser and background images of the taxonomy, if any are available. (more under -> [Catalogue 2.0](../../manual_user/docs/area_modules/catalog2.0.md))
+![Taxonomie exportieren](assets/Taxonomie_exportieren.png)
+
+The taxonomy is downloaded as a .zip archive by clicking on the menu item. This contains an EXCEL table with the hierarchical structure of the taxonomy level and a folder structure (media/level1/background;media/level1/teaser;) with teaser and background images of the taxonomy, if any are available. (more under -> [Catalogue 2.0](../../../manual_user/docs/area_modules/catalog2.0.md)
+
 
 ### Import taxonomy
 
@@ -138,8 +138,7 @@ Here you can decide whether you want to overwrite the existing taxonomy levels o
 ![table-template-taxonomy-structure](assets/taxonomystructure-import.jpg){ class="shadow lightbox" }
 
 2. Inside the excel sheet you add new taxonomy levels or change existing ones. The path that indicates the hierarchical structure is important. If this is incorrect, certain layers cannot be imported.
-
-   1. If you have activated different languages in OpenOlat and use the catalogue 2.0, it is advisable to make the display name and description language-dependent. Additional languages can be added by copying the columns "Country code", "Display name" & "Description" and adding a new, existing country code, display name + description for each taxonomy level.
+If you have activated different languages in OpenOlat and use the [catalogue 2.0](../../../manual_user/docs/area_modules/catalog2.0.md), it is advisable to make the display name and description language-dependent. Additional languages can be added by copying the columns "Country code", "Display name" & "Description" and adding a new, existing country code, display name + description for each taxonomy level.
 
 3. The modified table is now selected _without_ the header and copied into the input field. When proceeding to the next wizard step, the cells are checked for correctness. In case of errors, error messages appear directly at the input field.
 
@@ -152,3 +151,7 @@ Here you can decide whether you want to overwrite the existing taxonomy levels o
 3. zip the entire archive again and insert it under paragraph B in the wizard.
 
 Alternatively, it is also possible to download the existing templates under the respective links and adapt them accordingly.
+
+## Lost+Found
+
+All deleted elements of the tab "Taxonomy" end up here. For the moment they cannot be reset.

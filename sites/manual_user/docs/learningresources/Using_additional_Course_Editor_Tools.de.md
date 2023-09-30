@@ -45,13 +45,13 @@ Hier erhalten Sie einen Überblick über die Konfiguration aller im Kurs
 hinzugefügten Kursbausteine entsprechend der Kursstruktur in der linken
 Navigation. 
 
-Tipp: Wählen Sie nicht alle, sondern gezielt die Spalten aus, über die Sie Überblicksinformationen erhalten wollen. so bleibt die Anzeige übersichtlich. 
+Tipp: Wählen Sie nicht alle, sondern gezielt die Spalten aus, über die Sie Überblicksinformationen erhalten wollen. So bleibt die Anzeige übersichtlich. 
 Besonders die Spalte "Beschreibung" sollte
 nur eingeblendet werden, wenn in den Kursbausteinen hier keine langen Texte
 eingetragen sind. Die Spalte "Punkte" ist nur für Assessmentbausteine relevant. Hier wird angezeigt, ob für die jeweiligen Kursbausteine die Vergabe von Punkten
 aktiviert ist oder nicht.
 
-Um Anpassungen vorzunehmen wählen sie die gewünschten Kursbausteine aus und es erscheint der Button "Konfiguration ändern".
+Um Anpassungen vorzunehmen wählen sie die gewünschten Kursbausteine aus und es erscheint der Button "Konfiguration ändern". Die konkreten Möglichkeiten sind abhängig vom Kursbaustein und vom Kurstyp.
 
 ![Kurskonfiguration - Konfiguration ändern](assets/Kurseditor_Konfiguration_aendern.png)
 
@@ -60,7 +60,7 @@ Um Anpassungen vorzunehmen wählen sie die gewünschten Kursbausteine aus und es
     Die Spalten zeigen _nicht die Bewertungen_ für einzelne Personen an, sondern geben lediglich einen Überblick über die Konfiguration der Bausteine. Sollen Punkte vergeben oder ein bestanden/nicht bestanden werden, erfolgt dies im "[Bewertungswerkzeug](../learningresources/Assessment_tool_overview.de.md)" des Kurses.
 
 
-## Kursvorschau {: #preview} (nur für herkömmliche Kurse )
+## Kursvorschau {: #preview} (nur für herkömmliche Kurse)
 
 Das Editorwerkzeug "Kursvorschau" gibt  die Möglichkeit, die Kurseinstellungen und Inhalte aus der Sicht von Kursteilnehmenden zu betrachten. Mit Klick auf "Kursvorschau" wird Ihnen zunächst ein
 Konfigurationsmenu angezeigt, um das Betreten des Kurses zu einem bestimmten
@@ -113,21 +113,16 @@ Hier finden Sie weiterführende Informationen:
 [AAI-Attribute ](Access_Restrictions_in_the_Expert_Mode.de.md)  
 [__ AAI - Generelle Informationen](http://www.switch.ch/aai/)
 
-Die Kursvorschau bietet sich z.B. an um einen Kurs vor dem Start aus der
-Teilnehmerperspektive zu betrachten oder bestimmte Sichtbarkeitsregeln zu
+Die Kursvorschau bietet sich z.B. an um einen Kurs vor dem Start aus der Teilnehmerperspektive zu betrachten oder bestimmte Sichtbarkeitsregeln zu
 überprüfen.
 
 In der Regel ist die Vorschau aber mehr notwendig, da bei geschlossenem Kurseditor einfach die "Teilnehmeransicht" gewählt werden kann. Dieser Weg bietet sich auch für Lernpfad Kurse an.
 
 ## Publizieren
 
-Alle im Kurseditor vorgenommenen Einstellungen und Änderungen geben Sie über
-das "Publizieren" frei. So können Sie Ihren Kurs im Kurseditor in Ruhe
-vorbereiten, aufbauen und gestalten.
+Alle im Kurseditor vorgenommenen Einstellungen und Änderungen geben Sie über das "Publizieren" frei. So können Sie Ihren Kurs im Kurseditor in Ruhe vorbereiten, aufbauen und gestalten.
 
- Erst wenn Sie den Kurs publizieren, werden die Kursbausteine und die vorgenommenen Änderungen bei geschlossenem Editor sichtbar. Das bedeutet aber noch
-nicht, dass die Lernenden auch schon den Kurs sehen. Hierfür muss dieser
-veröffentlicht und der Zugang konfiguriert sein (vergl. Kapitel
+Erst wenn Sie den Kurs publizieren, werden die Kursbausteine und die vorgenommenen Änderungen bei geschlossenem Editor sichtbar. Das bedeutet aber noch nicht, dass die Lernenden auch schon den Kurs sehen. Hierfür muss dieser veröffentlicht und der Zugang konfiguriert sein (vergl. Kapitel
 "[Zugangskonfiguration](Access_configuration.de.md)")
 
 Das Publizieren kann entweder einfach beim Schliessen des Kurses vorgenommen werden oder man nutzt den Link in der Toolbar des Kurseditors. Über den Link in der Toolbar gelangt man in die manuelle Konfiguration des Publizierens. Beim Schliessen des Kurses ist auch ein schnelles/automatisches Publizieren möglich, was in den meisten Fällen ausreicht und deutlich schneller geht. 
