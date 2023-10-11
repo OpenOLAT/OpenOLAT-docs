@@ -13,10 +13,10 @@ Gehen Sie in das Bewertungswerkzeug und folgen Sie diesen Schritten:
 3. Nun sieht man den aktuellen Bewertungsstand der gewählten Person für alle bewertbaren Kursbausteine in einer Gesamtübersicht. 
 
     ![Übersicht aller Bewertungsbausteine für eine Person](assets/Personen_bewerten.png)
-Wählen Sie einen Kursbaustein aus um die Bewertung vorzunehmen. 
+
+    Wählen Sie einen Kursbaustein aus um die Bewertung vorzunehmen. 
   
-4. Sie gelangen zum [Bewertungsformular](The_assessment_form.de.md) des
-jeweiligen Kursbausteins und können dort alle relevanten Aktionen vornehmen. Die genauen Möglichkeiten sind vom Bausteintyp und den zugehörigen Einstellungen abhängig.
+4. Sie gelangen zum [Bewertungsformular](The_assessment_form.de.md) des jeweiligen Kursbausteins und können dort alle relevanten Aktionen vornehmen. Die genauen Möglichkeiten sind vom Bausteintyp und den zugehörigen Einstellungen abhängig.
 
     ![Bewertungsformular Aufgabe](assets/Bewertung_Baustein_172.png)
   
@@ -34,7 +34,8 @@ bewertbaren Kursbaustein für diese Person navigieren.
     Es werden wieder alle zu bewertenden Teilnehmenden angezeigt, dieses Mal aber nicht für den gesamten Kurs, sondern nur für den gewählten Kursbaustein. 
 
 2. Klicken Sie auf den Namen der Person, die Sie für den gewählten Kursbaustein bewerten wollen und Sie gelangen zum passenden [Bewertungsformular](The_assessment_form.de.md). 
-    ![Bewertungsformular Aufgabe](assets/Bewertung_Baustein_172.png) Die genauen Möglichkeiten sind vom Bausteintyp und den zugehörigen Einstellungen abhängig.
+ ![Bewertungsformular Aufgabe](assets/Bewertung_Baustein_172.png) 
+ Die genauen Möglichkeiten sind vom Bausteintyp und den zugehörigen Einstellungen abhängig.
 
 3. Über die Pfeile rechts oben können sie bei Bedarf zur nächsten bewertbaren
 Person für diesen Baustein navigieren.
