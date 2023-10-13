@@ -1,15 +1,8 @@
 # Assessment tool - overview
 
-The assessment tool is the central switch point for assessments of an OpenOlat
-course. Here course owners and tutors will get a general overview of all
-assessable elements of their course and can carry out assessments.
+The assessment tool is the central switch point for assessments of an OpenOlat course. Here course owners and tutors will get a general overview of all assessable elements of their course and can carry out assessments.
 
-Via course administration you will get to the assessment tool. When you open
-the assessment tool you will first see an overview page with central
-information as well as an overview of currently pending assessments.  This way
-you will quickly know what you have to do. From the overview page you can also access the concrete assessment areas of
-the individual course elements and
-persons.
+Via course administration you will get to the assessment tool. When you open the assessment tool you will first see an overview page with central information as well as an overview of currently pending assessments.  This way you will quickly know what you have to do. From the overview page you can also access the concrete assessment areas of the individual course elements and persons.
 
 ![assessmenttool](assets/assessment_Tool_172.png)
 
@@ -19,27 +12,19 @@ Let's take a closer look at the individual areas of the overview:
 
 ### Overview -> "Open reviews"
 
-Here you can see at a glance for which users one or more ratings are open.  It
-also shows how many modules of the respective user are to be rated. If only
-one building block needs to be rated, it is listed directly. By clicking on
-this module, you can access the corresponding rating.
+Here you can see at a glance for which users one or more ratings are open.  It also shows how many modules of the respective user are to be rated. If only one building block needs to be rated, it is listed directly. By clicking on this module, you can access the corresponding rating.
 
-Only the unfinished assessments are displayed here. Reviews that have already
-been completed are not listed here.
+Only the unfinished assessments are displayed here. Reviews that have already been completed are not listed here.
 
-### Overview -> "Review o release"
+### Overview -> "Valuations to be released"
 
 If there are assessments in the course that have not yet been made visible to participants, they will appear here.
 
 ### Overview -> "Participants"
 
-This area shows how many users, groups and course elements are generally
-available in this course.
+This area shows how many users, groups and course elements are generally available in this course.
 
-If a calculation of points has been defined on the topmost course element the
-corresponding average value will be displayed under "Average". Furthermore it
-will be displayed what percentage of participants has passed the entire course
-(if this option has been activated).
+If a calculation of points has been defined on the topmost course element the corresponding average value will be displayed under "Average". Furthermore it will be displayed what percentage of participants has passed the entire course (if this option has been activated).
 
 The linking allows coaches to quickly navigate to the appropriate participants and also generate and download the appropriate participant lists.
 
@@ -51,10 +36,8 @@ certificates (if generally activated) can also be subscribed to.
 
 ## Assessment mode
 
-If the course is in [assessment
-mode](https://confluence.openolat.org/display/OO152EN/Assessment+mode), this
-is also displayed in the assessment tool. You can also see how many people are
-already logged in and waiting for the exam to start.
+If the course is in [Assessment mode](../learningresources/Assessment_mode.md), this
+is also displayed in the assessment tool. You can also see how many people are already logged in and waiting for the exam to start.
 
 ![Display of waiting persons during running assessment mode](assets/Pruefungsmodus_Personen_warten.png)
 
@@ -160,9 +143,7 @@ The following items will not be deleted during the reset process:
 
 ## Recalculate data
 
-This link can be used to trigger a recalculation of the course. Thus, the
-course assessments and certificates of achievement can be updated, the
-calculation for passed and also manually set "passed" can be reset.
+This link can be used to trigger a recalculation of the course. Thus, the course assessments and certificates of achievement can be updated, the calculation for passed and also manually set "passed" can be reset.
 
 ## Bulk assessment
 

@@ -4,9 +4,9 @@
 
 Go to the assessment tool and follow these steps:
 
-1. click on the name of the course in the left column (top course node) and select the tab "Participants".
+1. Click on the name of the course in the left column (top course node) and select the tab "Participants".
 
-    ![assassment tool participants](assets/assassment_tool_participants_en.png)  
+    ![assessment tool participants](assets/assassment_tool_participants_en.png)  
   
 2. The current overall evaluation status of all course participants appears. Now select the person you want to rate by clicking on the respective name.
   
@@ -28,12 +28,11 @@ Select a course element to perform the assessment.
 
 1. Select the desired course element in the left navigation and click on the tab "Participants". 
 
-    ![Einzelnen Kursbaustein bewerten](assets/assesment_tool_course_element.png)
+    ![Assess particular course element](assets/assesment_tool_course_element.png)
 
     All participants to be evaluated will be displayed again, but this time not for the entire course, but only for the selected course element.
   
-2. Here you now select the desired individual person by clicking on the respective name. You will now be taken to the [assessment form](The_assessment_form.md) of the respective course element. The exact possibilities depend on the course
-element type and the corresponding settings.
+2. Here you now select the desired individual person by clicking on the respective name. You will now be taken to the [assessment form](The_assessment_form.md) of the respective course element. The exact possibilities depend on the course element type and the corresponding settings.
 
 ![](assets/4.png)  
   

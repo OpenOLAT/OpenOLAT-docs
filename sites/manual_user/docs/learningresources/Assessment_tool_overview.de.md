@@ -1,28 +1,19 @@
 # Bewertungswerkzeug - Übersicht
 
-Das Bewertungswerkzeug ist die zentrale Schaltstelle für die Bewertungen eines
-OpenOlat-Kurses. Kursbesitzer und Betreuer erhalten hier einen Gesamtüberblick
-über sämtliche im Kurs enthaltenen bewertbaren Bausteine und können die
-Bewertungen vornehmen.
+Das Bewertungswerkzeug ist die zentrale Schaltstelle für die Bewertungen eines OpenOlat-Kurses. Kursbesitzer und Betreuer erhalten hier einen Gesamtüberblick über sämtliche im Kurs enthaltenen bewertbaren Bausteine und können die Bewertungen vornehmen.
 
-Über die Kursadministration gelangt man in das Bewertungswerkzeug. Wenn Sie
-das Bewertungswerkzeug aufrufen, erscheint zunächst die Übersichtsseite mit
-zentralen Informationen sowie eine Übersicht der aktuell anstehenden
-Bewertungen. So wissen Sie schnell, was aktuell zu tun ist. Von der Übersichtsseite aus gelangen Sie auch zu den konkreten Bewertungsbereichen der einzelnen Kursbausteinen und Personen.
+Über die Kursadministration gelangt man in das Bewertungswerkzeug. Wenn Sie das Bewertungswerkzeug aufrufen, erscheint zunächst die Übersichtsseite mit zentralen Informationen sowie eine Übersicht der aktuell anstehenden Bewertungen. So wissen Sie schnell, was aktuell zu tun ist. Von der Übersichtsseite aus gelangen Sie auch zu den konkreten Bewertungsbereichen der einzelnen Kursbausteinen und Personen.
 
 ![Bewertungswerkzeug Startseite](assets/Bewertungswerkzeug_172.png)
 
 Schauen wir uns die einzelnen Bereiche der Übersicht genauer an:
 
-## Der generelle Bereich „Übersicht“ des Bewertungswerkzeugs
+## Der generelle Bereich "Übersicht" des Bewertungswerkzeugs
 
 ### Übersicht -> "Offene Bewertungen"
 
-Auf einen Blick ist hier ersichtlich, für welche Nutzer eine oder mehrere
-Bewertung(en) offen sind. Auch wird angezeigt, wie viele Bausteine des
-jeweiligen Benutzers zu bewerten sind. Sofern nur ein Baustein bewertet werden
-muss, wird dieser direkt aufgelistet. Mit einem Klick auf diesen Baustein
-kommt man zur entsprechenden Bewertung.
+Auf einen Blick ist hier ersichtlich, für welche Nutzer eine oder mehrere Bewertung(en) offen sind. Auch wird angezeigt, wie viele Bausteine des jeweiligen Benutzers zu bewerten sind. Sofern nur ein Baustein bewertet werden
+muss, wird dieser direkt aufgelistet. Mit einem Klick auf diesen Baustein kommt man zur entsprechenden Bewertung.
 
 In der Übersicht werden nur die unerledigten Bewertungen angezeigt. Bereits durchgeführte Bewertungen werden an dieser Stelle nicht aufgelistet.
 
@@ -47,6 +38,7 @@ Benachrichtigungen über neu erzeugte Zertifikate (sofern generell aktiviert) ab
 ### Im Prüfungsmodus
 
 Befindet sich der Kurs im [Prüfungsmodus](../learningresources/Assessment_mode.de.md) wird dies ebenfalls im Bewertungswerkzeug angezeigt. Auch ist erkennbar wie viele Personen bereits eingeloggt sind und auf den Start der Prüfung warten.
+
 ![Anzeige der wartenden Personen bei laufendem Prüfungsmodus](assets/Pruefungsmodus_Personen_warten.png)
 
 ## Aufträge
