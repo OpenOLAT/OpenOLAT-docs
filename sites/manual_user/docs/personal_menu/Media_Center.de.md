@@ -70,10 +70,6 @@ Zum anderen sind es **Inhaltselemente** (im Content Editor verwendete Elemente),
 **Video aufzeichnen:** In OpenOlat integrierte Video-Recording-Funktion. Klickt man auf "Video aufzeichnen" wird direkt die Aufnahmefunktion für die Webcam gestartet, sofern man im Browser den Zugriff auf die Kamera erlaubt.<br>
 **draw.io-Diagramme erstellen:** Ab Release 18.1
 
-!!! note "Hinweis"
-
-    Bei der Einbindung eines Dokuments in einer Portfolio Mappe werden diese als Links dargestellt und nicht direkt angezeigt.  
-
 
 **2. Im Content Editor erstellen**
 
