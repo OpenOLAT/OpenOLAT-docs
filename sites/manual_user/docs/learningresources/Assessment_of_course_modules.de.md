@@ -8,6 +8,7 @@ Generell können im Bewertungswerkzeug Bewertungen für die folgenden Kursbauste
 * Bewertung
 * Portfolioaufgabe
 * Kursbaustein "Struktur" sowie gesamte Kursbewertung
+* Kursbaustein "Teilnehmer:innen Ordner"
 * Integrierte externe Bausteine wie SCORM
 * [Aufgabe und Gruppenaufgabe](Assessing_tasks_and_group_tasks.de.md)
 * [Tests](Assessing_tests.de.md)
@@ -96,4 +97,4 @@ Bei Lernpfad-Kursen werden automatisch die Ergebnisse aller untergeordneten Asse
 Für das SCORM-Element kann das Bewertungsformular ausgefüllt werden. Wichtig ist, dass im Kursbaustein unter Lerninhalt entweder die Punktzahl oder Bestanden übertragen ausgewählt ist. Mehr Informationen dazu finden Sie [hier](../learningresources/Course_Element_SCORM_Learning_Content.de.md).
 
 ### LTI
-Auch für das LTI-Element kann das Bewertungsformular ausgefüllt und angepasst werden. Im Kursbaustein unter Seiteninhalt muss zwingend "Punkte übertragen" ausgewählt sein. Je nachdem muss ein Skalierungsfaktor eingetragen und die Punktzahl für das Bestehen definiert werden. Weitere Informationen zur Konfiguration von LTI-Seiten finden Sie [hier](../learningresources/Other.de.md).
+Auch für das LTI-Element kann das Bewertungsformular ausgefüllt und angepasst werden. Im Kursbaustein unter Seiteninhalt muss zwingend "Punkte übertragen" ausgewählt sein. Je nachdem muss ein Skalierungsfaktor eingetragen und die Punktzahl für das Bestehen definiert werden. Weitere Informationen zur Konfiguration von LTI-Seiten finden Sie [hier](../learningresources/Course_Element_LTI_Page.de.md).

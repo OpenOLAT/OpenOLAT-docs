@@ -8,6 +8,7 @@ In the assessment tool, assessments can be made for the following course element
   * Assessment
   * Portfolio task
   * Course element "Structure" or overall assessment of the course
+  * Course element "Participant Folder"
   * Integrated external modules
   * [Task and group task](Assessing_tasks_and_group_tasks.md) 
   * [Tests](Assessing_tests.md)
@@ -94,4 +95,4 @@ For learning path courses, the results of all subordinate assessment elements ar
 For the SCORM element the assessment form can be filled in. It is important that either Score or Transfer Passed is selected in the course element under Learning Content. More information can be found [here](../learningresources/Course_Element_SCORM_Learning_Content.md).
 
 ### LTI
-The assessment form can also be filled out and customized for the LTI element. In the course element under Page content, it is mandatory that "Transfer points" is selected. Depending on this, a scaling factor must be entered and the passing score defined. Further information on configuring LTI pages can be found [here](../learningresources/Other.md).
+The assessment form can also be filled out and customized for the LTI element. In the course element under Page content, it is mandatory that "Transfer points" is selected. Depending on this, a scaling factor must be entered and the passing score defined. Further information on configuring LTI pages can be found [here](../learningresources/Course_Element_LTI_Page.md).

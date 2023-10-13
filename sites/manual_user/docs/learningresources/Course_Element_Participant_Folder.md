@@ -5,10 +5,10 @@
 Name | Participant Folder
 ---------|----------
 Icon | ![Participant Folder Icon](assets/participant_folder_icon.png){ class=size24 }
-Available since | 
+Available since | updated in release 18.0
 Functional group | Communication and collaboration
 Purpose | File exchange between participants and coaches (per participant:in a drop box and a return box)
-Assessable | no
+Assessable | yes
 Specialty / Note |
 
 
@@ -23,6 +23,7 @@ Im Prinzip verbergen sich hinter diesem Kursbaustein zwei (Kursbaustein) Ordner 
 !!! info
 
     A similar configuration of file delivery + file return by coaches can also be     implemented with the course element ["Task"](Course_Element_Task.md), only that the possibilities of the task element are much more comprehensive and complex and here also an evaluation or allocation of points can be made.
+
 The course element "Participant folder" allows you to exchange files between participants and coaches. With the creation of the course element there are two folders available. On one side this is the drop box where participants can upload files for the coaches. On the other side it is the return box where coaches can upload files for all participants together or individually.
 
 ## Folder settings
