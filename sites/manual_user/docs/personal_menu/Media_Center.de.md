@@ -1,27 +1,23 @@
 # Das Medien Center
 
 
-In OpenOlat verwendete Medien können abgelegt werden
+Das Medien Center ist eine **zentrale Sammelstelle** unterschiedlicher Medientypen. Medien können...
 
-a) nur innerhalb eines Kursbausteins (z.B. Musterlösung im Kursbaustein Aufgabe)<br>
-b) nur im Ablageordner eines Kurses (z.B. HTML-Seite) oder<br>
-c) im **Medien Center**.
+* ... direkt im Medien Center erstellt werden (z.B. Videorecording, docx, pptx, …)
+* ... in verschiedenen Kursbausteinen erstellt und dann im Medien Center abgelegt werden
+* ... extern erstellt und als Datei hochgeladen werden
 
+* ... kursübergreifend verwendet werden
+* ... an andere Personen (Autor:innen) freigegeben (geteilt) werden und gemeinsam genutzt werden
 
-Das Medien Center ist eine **zentrale Sammelstelle** unterschiedlicher Medientypen. Medien können
+* ... versioniert werden
+* ... mit Tags verschlagwortet werden
+* ... einer Taxonomie zugeordnet werden
+* ... gefiltert werden (z.B. „Meine Medien“)
+* ... nach Verwendungsort gesucht werden
 
-* direkt im Medien Center erstellt werden (z.B. Videorecording, docx, pptx, …)
-* in verschiedenen Kursbausteinen erstellt und dann im Medien Center abgelegt werden
-* extern erstellt und als Datei hochgeladen werden
+![media_center_v1_de.png](assets/media_center_v1_de.png){ class=" shadow lightbox" }
 
-* kursübergreifend verwendet werden
-* an andere Personen (Autor:innen) freigegeben (geteilt) werden und gemeinsam genutzt werden
-
-* versioniert werden
-* mit Tags verschlagwortet werden
-* einer Taxonomie zugeordnet werden
-* gefiltert werden (z.B. „Meine Medien“)
-* nach Verwendungsort gesucht werden
 
 ## Zugang
 
@@ -126,7 +122,7 @@ Die **Filterfunktionen** helfen, die gesuchten Medien schnell zu finden. Suchen 
 
 * **Übersicht:** Zentrale Details, Aktivitätslog, Bearbeitungsmöglichkeit, Versionierung, Datei ersetzen
 * **Metadata:** Beschreibung, Lizenz, Tags, Fachbereich
-* **Verwendungen:** Wo wird das Artefakt verwendet?
+* **Verwendungen:** Wo wird die Datei oder das Inhaltselement verwendet?
 * **Freigaben:** Freigaben für Benutzer, Gruppen, Kurse definieren und ansehen
 
 ![media_center_share_v1_de.png](assets/media_center_share_v1_de.png){ class=" shadow lightbox" }
