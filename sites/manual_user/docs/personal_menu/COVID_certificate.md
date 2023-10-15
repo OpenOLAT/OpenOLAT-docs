@@ -1,15 +1,11 @@
 # COVID certificate
 
-    !!! Note
-
-    No data is stored. Only the date is saved for the validation of the COVID
-    certificate.
-
-Under "Profile" you will find the "COVID Certificate" tab. Here you can add new COVID certificates or view the status of an existing certificate.
-
+If the Covid certificate has been activated by the admin, users will find the "COVID certificate" tab under "Profile". Here you can add new COVID certificates or view the status of an existing certificate.
 The status of your certificate is only visible to you.
 
+!!! Note 
 
+    No data is stored. Only the date is saved for the validation of the COVID   certificate.
 
 ## Add COVID certificate
 
@@ -28,17 +24,15 @@ manually. Validation is not automatic in this case. (See Validation status)
 
 ## Validation status
 
-![](assets/Bildschirmfoto 2021-10-01 um 17.05.13.png)
-
-  
-
 ### Green
 
+![](assets/Bildschirmfoto%202021-10-01%20um%2017.05.13.png)
 Your certificate has been validated.
 
-![](assets/Bildschirmfoto 2021-10-01 um 17.03.01.png)
 
 ### Orange
+
+![](assets/Bildschirmfoto%202021-10-01%20um%2017.03.01.png)
 
 You have deposited data, but it has not yet been validated.
 
@@ -47,9 +41,9 @@ If you have added your certificate manually, the status is always orange.
 Please contact your 3G representative to have your certificate validated or if
 the automatic capture did not work.
 
-![](assets/Bildschirmfoto 2021-10-01 um 17.02.23.png)
-
 ### Red
+
+![](assets/Bildschirmfoto%202021-10-01%20um%2017.02.23.png)
 
 No certificate has been deposited yet or the automatic capture of the
 certificate could not be completed.
