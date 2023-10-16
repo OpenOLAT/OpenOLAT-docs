@@ -38,15 +38,14 @@ This column shows the users for whom the result is visible (![Eye](assets/sichtb
 
 To change the visibility, the desired users can be selected in the leftmost column and either the "Release" or "Withdraw release" button can be clicked. 
 
-
-The status completed has no effect on the visibility.
-
-
-
 ## Finalization of the assessment
+
+The finalization of an assessable course element is done via the button "Finalize (and release) assessment".
 
 The button "Finalize assessment" changes the status in the Status column. All selected users that have been set to completed will receive the status "Assessed". 
 
 ![Finalize assessment](assets/Bewertung_abschliessen1.jpg){ class="shadow lightbox" }
 
-Changes are then only possible if "Reopen assessment" is selected. This status helps you to keep track of the users that have already been assessed. This status has no effect on the visibility of the results for the user.
+Changes are then only possible if "Reopen assessment" is selected.
+
+This status helps you to keep track of the users that have already been assessed. This status has no effect on the visibility of the results for the user.
