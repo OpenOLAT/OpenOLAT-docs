@@ -24,24 +24,24 @@ This video offers a step-by-step tutorial in German (refers to an older OpenOlat
 
 ## Configuration options
 
-Aside from the title and the description, the following parameters can be configured for an exam setting:
+Aside from the title and the description displayed to the user in the exam notification,, the following parameters can be configured for an exam setting:
 
-**Start** : Define here the date and starting time for the planned exam. All OpenOlat functions will be inaccessible during the indicated **preparation time** , specified in minutes and in effect before the actual exam.
+**Start**: Define here the date and starting time for the planned exam. All OpenOlat functions will be inaccessible during the indicated **preparation time**, specified in minutes and in effect before the actual exam.
 
-**End** : Date and time the exam finishes. All OpenOlat functions will be inaccessible during the indicated **follow-up** , specified in minutes and in effect after the actual exam.
+**End**: Date and time the exam finishes. All OpenOlat functions will be inaccessible during the indicated **follow-up**, specified in minutes and in effect after the actual exam.
 
-**Start / End mode** : You can choose between manual and automatic handling of the exam. The selected manual mode adds start and end links to the corresponding exam setting in the overview.
+**Start / End mode**: You can choose between manual and automatic handling of the exam. The selected manual mode adds start and end links to the corresponding exam setting in the overview.
 
-**Participants** : Define here which users will be affected by the exam. Selecting one of the options "Participants from course or groups", "Course participants only" or "Group participants only". If you choose an option with a group, select the affected groups using either the "Select groups" or "Select learning areas" buttons.
+**Participants**: Define here which users will be affected by the exam. Selecting one of the options "Participants from course or groups", "Course participants only" or "Group participants only". If you choose an option with a group, select the affected groups using either the "Select groups" or "Select learning areas" buttons. If a curriculum is used, the audit may also refer to the curriculum participants.
 
-**Restrict access to single course elements** : In order to restrict the exam to individual elements of the respective course, select the checkbox here and click on the "Select course element" button. A list of all available elements, of which you can choose those you wish to be visible during the exam appears. All non-checked course elements will be masked for the duration of the exam.
+**Restrict access to single course elements**: In order to restrict the exam to individual elements of the respective course, select the checkbox here and click on the "Select course element" button. A list of all available elements, of which you can choose those you wish to be visible during the exam appears. All non-checked course elements will be masked for the duration of the exam.
 
-**First element shown** : If a particular element should be displayed upon starting the exam, please make use of the button "Select course element" and select one of the available course elements. Only those selected in the previous step will be available for selection.
+**First element shown**: If a particular element should be displayed upon starting the exam, please make use of the button "Select course element" and select one of the available course elements. Only those selected in the previous step will be available for selection.
 
-**Limit to IP address:** In order to limit access to an exam to particular computers or locations, you can check this box and enter the admissible IP addresses. They should be available from your IT department. Use this option if you wish to e.g. prevent a student to take an exam at his home computer.
+**Limit to IP address**: In order to limit access to an exam to particular computers or locations, you can check this box and enter the admissible IP addresses. They should be available from your IT department. Use this option if you wish to e.g. prevent a student to take an exam at his home computer.
 
-**Use Safe Exam Browser** : Using the Safe Exam Browser allows you to carry out online exams safely, by putting the affected computer in a so-called kiosk mode, changing any computer into a secure workstation. It prevents unauthorised resources being used during an exam. Enter the browser exam keys of all permitted Safe exam installations, in order to enable the exam in those. Users will be notified about the required use of the SEB. Once a permitted SEB installation is started, the exam can be carried out.
+**Use Safe Exam Browser**: Using the Safe Exam Browser allows you to carry out online exams safely, by putting the affected computer in a so-called kiosk mode, changing any computer into a secure workstation. It prevents unauthorised resources being used during an exam. Enter the browser exam keys of all permitted Safe exam installations, in order to enable the exam in those. Users will be notified about the required use of the SEB. Once a permitted SEB installation is started, the exam can be carried out.
 
-**Apply exam setting for coach** : Select this checkbox if coaches of the selected user groups should also be subjected to the exam and its effects.
+**Apply exam setting for coach**: Select this checkbox if coaches of the selected user groups should also be subjected to the exam and its effects.
 
-A current assessment mode can be followed by the teacher in the assessment tool. Evaluations, e.g. for submission tasks or essay elements of tests, can also be evaluated directly and activated or made visible for the users. This enables a direct inspection and review of exams. Furthermore, the teacher can end the assessment in manual mode in the assessment tool.
+A current assessment mode can be followed by the teacher in the [Assessment tool](Assessment_tool_overview.md). Evaluations, e.g. for submission tasks or essay elements of tests, can also be evaluated directly and activated or made visible for the users. This enables a direct inspection and review of exams. Furthermore, the teacher can end the assessment in manual mode in the assessment tool.
