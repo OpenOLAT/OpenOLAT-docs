@@ -17,6 +17,13 @@ bisherige E-Mail-Adresse verwendet. Sollten Sie den Aktivierungs-Link
 innerhalb von zwei Tagen (48 Stunden) nicht anwählen, verfällt der
 Änderungswunsch. Kontaktieren Sie dann Ihren Administrator.
 
+<details>
+    <summary>E-Mail-Signatur</summary>
+	Sollte die Möglichkeit zur Eingabe Ihrer E-Mail-Signatur nicht angzeigt werden, wenden Sie sich bitte an Ihren/Ihre Administrator:in.
+	<img src="../assets/configuration_profile_signature_v1_de.png" />
+
+</details>
+
 In den Kontaktdaten kann eine Telefonnummer für den Versand von SMS
 hinzugefügt werden. Wenn bei Ihrem System ein SMS-Service hinterlegt ist, kann
 das Passwort mit einer SMS Authentifizierung zurückgesetzt werden. Dafür muss

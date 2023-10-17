@@ -39,18 +39,18 @@ System gesendeten und empfangenen E-Mails im Homebereich jedes Benutzers im
 persönlichen Postfach auflistet. Das E-Mail-Postfach in OpenOlat ist eine
 optionale Komponente.
 
-### OLAT Postfach aktivieren:
+### OpenOlat Postfach aktivieren:
 
-  * Ist das OLAT Postfach ausgeschaltet, so werden alle in OLAT erstellten E-Mails ausschliesslich und an die persönliche E-Mail-Adresse versandt. Das OLAT Postfach ist im Home nicht sichtbar.
-  * Ist das OLAT Postfach eingeschaltet, so werden alle empfangenen und gesendeten E-Mails im Homebereich jedes Benutzers im persönlichen Postfach aufgelistet.
+  * Ist das OpenOlat Postfach ausgeschaltet, so werden alle in OpenOlat erstellten E-Mails ausschliesslich an die persönliche E-Mail-Adresse versandt. Das OpenOlat Postfach ist im Home nicht sichtbar.
+  * Ist das OpenOlat Postfach eingeschaltet, so werden alle empfangenen und gesendeten E-Mails im Homebereich jedes Benutzers im persönlichen Postfach aufgelistet.
 
 Jeder Benutzer kann zudem in den Systemeinstellungen konfigurieren, ob
 empfangene E-Mails nur intern oder auch an die persönliche E-Mail-Adresse
 zugestellt werden soll. Als Administrator können Sie das Standardverhalten
 festlegen:
 
-  * E-Mails an das interne OLAT Postfach zustellen
-  * E-Mails an das interne OLAT Postfach und die persönliche E-Mail-Adresse zustellen  
+  * E-Mails an das interne OpenOlat Postfach zustellen
+  * E-Mails an das interne OpenOlat Postfach und die persönliche E-Mail-Adresse zustellen  
   
 
 ##  Tab E-Mail-Vorlage {: #template}
@@ -65,3 +65,31 @@ Die folgenden Variablen müssen in der Vorlage vorkommen:
   *  **$content** : Wird ersetzt mit dem eigentlichen Inhalt der E-Mail. Der Inhalt ist in der Regel an die Sprache des Empfängers angepasst.
   *  **$footer** : Wird ersetzt mit der generischen Fusszeile. Die Fusszeile ist an die Sprache des Empfängers angepasst und kann mit dem Sprachanpassungswerkzeug für jede Sprache angepasst werden. (vgl. footer.no.userdata und footer.with.userdata aus dem Paket org.olat.core.util.mail)
 
+
+## Signatur
+
+Die Aktivierung der E-Mail-Signatur befindet sich unter folgendem Pfad:<br>
+**Administration > Customizing > Benutzer:innen-Attribute**
+
+**Schritt 1: Tab „Properties“ > Zeile „emailSignature“ aktivieren**
+
+<details>
+    <summary>Screen</summary>
+	<img src="../assets/e-mail_settings_activate1_v1_de.png" />
+</details>
+
+**Schritt 2: Tab „Contexts“ > org.olat.user.ProfileFormController definieren**
+
+<details>
+    <summary>Screen</summary>
+	<img src="../assets/e-mail_settings_activate2_v1_de.png" />
+</details>
+
+<details>
+    <summary>Screen</summary>
+	<img src="../assets/e-mail_settings_activate3_v1_de.png" />
+</details>
+
+Die empfohlene Einstellung:
+
+![e-mail_settings_activate4_v1_de.png](assets/e-mail_settings_activate4_v1_de.png){ class="shadow lightbox" }
