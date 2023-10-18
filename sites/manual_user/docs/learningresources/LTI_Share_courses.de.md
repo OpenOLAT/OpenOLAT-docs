@@ -10,9 +10,7 @@ Ein OpenOlat-Kurs wird von Moodle aus via LTI 1.3 gestartet. Dabei werden die Be
 
 ## Voraussetzungen
 
-Für die Konfiguration muss ein Administrator-Zugang in beiden Systemen gewährleistet sein.
-(In OpenOlat kann dies auch die Rolle Systemadministrator:in sein.) 
-Vorzugsweise erfolgt die Konfiguration auf beiden Systemen gleichzeitig, da bestimmte Dialoge in beiden Systemen direkt aufeinanderfolgend zu konfigurieren sind.
+Für die Konfiguration muss ein Administrator-Zugang in beiden Systemen gewährleistet sein. (In OpenOlat kann dies auch die Rolle Systemadministrator:in sein).  Vorzugsweise erfolgt die Konfiguration auf beiden Systemen gleichzeitig, da bestimmte Dialoge in beiden Systemen direkt aufeinanderfolgend zu konfigurieren sind.
 
 ## Ablauf der Konfiguration
 
@@ -52,7 +50,7 @@ Folgende Parameter sind als Mindestanforderung im Dialog zu definieren:
 | Public key			| Wird in OpenOlat generiert – kann erst nachträglich eingetragen werden |
 | Initiate Login URL	| Anmelde-URL (Form: hdps://<OpenOlat- URL/lT/login_iniTaTon) |
 | Redirection URL(s)	| Umleitungs-URL (Form: hdps://<OpenOlat-URL/lT/login) |
-| Tool Configuration Usage| Show in acTvity chooser and as a preconfigured tool |
+| Tool Configuration Usage| Show in actvity chooser and as a preconfigured tool |
 | Default Launch Container	| New window (OpenOlat unterstützt die Ausführung der Kurse nur in einem neuen Fenster.) |
 
 <details>
@@ -72,7 +70,7 @@ Nach dem Speichern können Sie weitere Details in der Übersicht über den Detai
 
 ## 2. Setup "externe Plattform" in OpenOlat
 
-Die AdministraTon von LTI 1.3 befindet sich in OpenOlat unter folgendem Pfad:<br>
+Die Administration von LTI 1.3 befindet sich in OpenOlat unter folgendem Pfad:<br>
 **Administration > Externe Werkzeuge > LTI 1.3**
 
 <details>
@@ -86,7 +84,7 @@ Unter “Externe Plattorm” kann die Moodle-Instanz erfasst werden:
 | --------------------- | ---------------------------------------------- |
 | Tool name				| Frei definierbar |
 | Plattform-ID / Issuer	| URL zur Moodle-Instanz |
-| Client-ID				| Client ID aus dem Dialog «Tool configuration details» in Moodle |
+| Client-ID				| Client ID aus dem Dialog "Tool configuration details" in Moodle |
 | Öffentlicher Schlüsseltyp | RSA-Schlüssel -> dieser Schlüssel wird anschliessend in der Tool-Konfiguration auf Moodle ergänzt |
 | Authorization	 		| Aus Moodle: Authentication request URL |
 | URL für Zugriffstoken	| Aus Moodle: Access token URL |
@@ -178,7 +176,7 @@ Wählen Sie im Kurseditor den Kursbaustein. Unter dem Tab "Seiteninhalt" muss zw
 
 Benutzerhandbuch: [LTI-Zugang zu einer Gruppe konfigurieren](https://docs.openolat.org/de/manual_user/groups/LTI_Share_groups/)
 
-Benutzerhandbuch: [Kursbaustein "LTI-Seite“](http://docs.openolat.org/de/manual_user/learningresources/Course_Element_LTI_Page/)
+Benutzerhandbuch: [Kursbaustein "LTI-Seite"](http://docs.openolat.org/de/manual_user/learningresources/Course_Element_LTI_Page/)
 
 Administrationshandbuch: [LTI 1.3 Integrationen im Überblick](http://docs.openolat.org/de/manual_admin/administration/LTI_Integrations/)
 

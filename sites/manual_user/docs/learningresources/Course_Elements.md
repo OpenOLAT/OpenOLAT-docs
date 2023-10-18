@@ -86,22 +86,11 @@ In addition, the course elements "Survey" and "Form" are assigned to the categor
 
 #### Highscore  {: #highscore}
 
-The highscore, except for the course element "practice" , can be added for all assessable course element as well as for
-structure elements.
+All assessable course elements, with the exception of "Practice" and "Structure", additionally receive the configuration tab "Highscore" if points are awarded at the element. The high score display enables a playful comparison of the participants and can be understood as a motivational factor.
 
-The highscore makes a playful comparison between test participants possible
-and can be seen as motivational factor. The prerequisite for using the
-"Highscore" tab is that points are awarded for the selected block (e.g. test,
-task, evaluation).
+First, "Show highscore" must be activated. Optionally, a start date can be added from which the highscore will be displayed. Without specifying the date, the high score will be displayed immediately after the test is finished.
 
-First "Show Highscore" needs to be enabled. Optional a starting date can be
-added. Upon this date the highscore will be shown. Otherwise the highscore is
-shown directly after finishing the test. Afterword it can be defined, if the
-user data is shown anonymized or with pre and last name. In the next part it
-can be chosen, which elements of the highscore should be shown. There is the
-choice between congratulation title, podium, histogram and top result listing.
-For the listing it can be defined additionally, if all users or only a certain
-number should be shown. At least one of the above options need to be selected.
+It can be defined whether the user data is displayed anonymously or with first and last name and which elements of the highscore should be displayed. You can choose between the position display, the winner's podium, the histogram and the list of the best participants. For the list it is also possible to define whether all users or only a certain number of the best users should appear. At least one of these options must be selected.
 
 ![highscore](assets/Highscore_EN.png)
 
@@ -111,7 +100,7 @@ Course elements in this category are mainly used for collaborative work and exch
 
 <div class="grid cards" markdown>
 
--	  [:fontawesome-solid-earth-americas: Wiki](Course_Element_Assessment.md)
+-	  [:fontawesome-solid-earth-americas: Wiki](Course_Element_Wiki.md)
 
     [:fontawesome-regular-comments: Forum](Course_Element_Forum.md)
 
@@ -141,19 +130,21 @@ Course elements in this category are mainly used for collaborative work and exch
 
 ![](assets/virtual_class.png)
 
-With the course elements [Adobe Connect](../learningresources/Course_Element_Adobe_Connect.md), [GoToMeeting](../learningresources/Course_Element_GoToMeeting.md), [Vitero](../learningresources/Course_Element_vitero.md) BigBllueButton and [OpenMeetings](../learningresources/Course_Element_OpenMeetings.md), different [virtual classrooms](../course_elements/Virtual_classrooms.md) can be used in OpenOlat for synchronous meetings, video conferences or webinars. Which course element will be integrated and which functionalities will be available depends on which configuration your OpenOlat system administrator has selected.
+With the course elements 
+[Adobe Connect](../learningresources/Course_Element_Adobe_Connect.md),
+[BigBlueButton](Course_Element_BigBlueButton.md),
+[GoToMeeting](../learningresources/Course_Element_GoToMeeting.md),
+[Microsoft Teams](Course_Element_Microsoft_Teams.md), [OpenMeetings](../learningresources/Course_Element_OpenMeetings.md), different [Virtual classrooms](../course_elements/Virtual_classrooms.md) can be used in OpenOlat for synchronous meetings, video conferences or webinars.
 
-A virtual room allows you to work online (synchronously) with several people
-who are geographically separated from you. Functions of virtual rooms include
-live chat, audio and video, desktop and document sharing. When entering a
-virtual room by means of a course element a new browser window will open in
-which the virtual session will take place.
+Which course element will be integrated and which functionalities will be available depends on which configuration your OpenOlat system administrator has selected.
 
-To be able to use all functionalities you will need a headset and a connected
-camera. Depending on your system you might have to download additional
-software temporarily.
+A virtual room allows you to work online (synchronously) with several people who are geographically separated from you. Functions of virtual rooms include live chat, audio and video, desktop and document sharing. When entering a virtual room by means of a course element a new browser window will open in which the virtual session will take place.
 
-### Administration and Organisation
+To be able to use all functionalities you will need a headset and a connected camera. Depending on your system you might have to download additional software temporarily.
+
+### Administration and Org
+
+The following course elements are particularly suitable for organizational matters and for the distribution of information.
 
 <div class="grid cards" markdown>
 
