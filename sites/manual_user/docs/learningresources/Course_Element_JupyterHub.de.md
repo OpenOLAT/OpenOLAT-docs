@@ -15,4 +15,4 @@ Spezialität / Hinweis | Beta-Version
 
 Der Kursbaustein dient der Bereitstellung von Jupyter-Images für Lernende und bietet somit Gelegenheit für zusätzliche sowie sehr spezifische Arten von Aufgabenstellungen.
 
-Weiere Inforatiopnen finden Sie auf [Jupyter.org](https://jupyter.org/hub).
+Weiere Informationen finden Sie auf [Jupyter.org](https://jupyter.org/hub).

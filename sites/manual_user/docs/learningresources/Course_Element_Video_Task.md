@@ -13,8 +13,6 @@ Assessable | yes
 Specialty / Note | Additional quizzes included in the video are not assessable
 
 
-
-
 With the course element "Video task" OpenOlat video learning resources can be reused for interactive (formative) exercises or tasks with assessments (summative). Participants have to identify relevant situations in a video and assign them to a category. The necessary placeholders in the video (= segments) and the categories are defined in the learning resource "Video" (see Video Editor). A practice mode and a sharp test mode are available.
 
 ## Tasks
@@ -39,7 +37,7 @@ In this mode, the segments (video sections) in the video are marked.
 
 ![video_task_modus_uebung_situationen_erkennen_v1_de.png](assets/video_task_modus_uebung_situationen_erkennen_v1_de.png){ class="shadow lightbox" }
 
-In this mode, the segments (video sections) in the video are **not marked**..
+In this mode, the segments (video sections) in the video are **not marked**.
 
 **Example:**
 
@@ -51,11 +49,11 @@ In this mode, the segments (video sections) in the video are **not marked**..
 
 ---
 
-### Test: Recognising situations
+### Test: Recognizing situations
 
 ![video_task_modus_test_situationen_erkennen_v1_de.png](assets/video_task_modus_test_situationen_erkennen_v1_de.png){ class="shadow lightbox" }
 
-In this mode, the segments (video sections) in the video are **not marked**..<br> Unlike the exercise, the test is **assessable**.
+In this mode, the segments (video sections) in the video are **not marked**.<br> Unlike the exercise, the test is **assessable**.
 
 **Example:**
 
@@ -119,13 +117,13 @@ a) insert a video learning resource and
 b) select the desired mode.
 
 ### Step 3
-Click on "Edit learning resource" in the "Configuration" tab. This will open the video editor.
+Click on "Edit Learning resource" in the "Configuration" tab. This will open the video editor.
 
 ### Step 4
 In the video editor, add segments and categories (see Video Learning Resource).
 
 
-Konfiguration, Was in der Lernressource? Was im KB?
+Configuration - What in the learning resource? What in the course element?
 
 ---
 
@@ -147,16 +145,16 @@ In addition, a summary is displayed at the end of the exercise and the solution 
 
 ![video_task_modus_uebung_begriffe_feedback_v1_de.png](assets/video_task_modus_uebung_begriffe_feedback_v1_de.png){ class="shadow lightbox" }
 
-Während eines **Tests** erhalten die Teilnehmer:innen dagegen keinerlei Feedback. Am Ende wird lediglich die Anzahl der Löungsversuche angzeigt. (Falls weitere Versuche erlaubt sind, erscheint auch nochmals die Aufgabenstellung und der Button zum Starten der Videoaufgabe.)
+During a **test**, on the other hand, the participants do not receive any feedback. At the end, only the number of attempts to solve the problem is displayed. (If further attempts are allowed, the task definition and the button for starting the video task will also appear again.)
 
 ![video_task_modus_test_feedback.png](assets/video_task_modus_test_feedback.png){ class="shadow lightbox" }
 
 ### Results for supervisors in exercises
 
-If in exercises tutors open a course element with a video task in the course menu, they will see the two **tabs "Participants" and "Preview "**.
+If in exercises tutors open a course element with a video task in the course menu, they will see the two **tabs "Participants" and "Preview"**.
 
-* In the tab **"Participants "** the processing status of the supervised course participants is displayed in a list.
-* In the **"Preview "** tab, the video is displayed as seen by participants.
+* In the tab **"Participants"** the processing status of the supervised course participants is displayed in a list.
+* In the **"Preview"** tab, the video is displayed as seen by participants.
 
 Supervisors can reset the number of attempts for each participant individually and/or reset the data of a video task.
 
@@ -167,11 +165,11 @@ Supervisors can reset the number of attempts for each participant individually a
 
 As the experiments are to remain anonymous during exercises, supervisors cannot see any results that can be attributed to specific persons. Instead, the attempts of all participants are shown as strokes in a common display. 
 
-To do this, click the button "Play all attempts"..
+To do this, click the button "Play all attempts".
 
 ![video_task_modus_uebung_alleversucheabspielen_v1_de.png](assets/video_task_modus_uebung_alleversucheabspielen_v1_de.png){ class="shadow lightbox" }
 
-In the timeline of the video, all successful answers are shown as green lines, the wrong answers as red lines. Supervisors can thus draw conclusions about widespread knowledge gaps among the participants. However, the results presented in this way may also indicate that the task should perhaps be adapted.
+In the timeline of the video, all successful answers are shown as green lines, the wrong answers as red lines. Coaches can thus draw conclusions about widespread knowledge gaps among the participants. However, the results presented in this way may also indicate that the task should perhaps be adapted.
 
 ![video_task_modus_uebung_alleversucheabspielen2_v1_de.png](assets/video_task_modus_uebung_alleversucheabspielen2_v1_de.png){ class="shadow lightbox" }
 
@@ -187,7 +185,7 @@ After clicking on the button, a confirmation prompt appears describing what is b
 
 ### Results for test supervisors
 
-If the mode "Test" was selected for the video task, the **Tabs "Participants" and "Preview "** as well as the **Tabs "Overview" and "Reminders "** appear.
+If the mode "Test" was selected for the video task, the **Tabs "Participants" and "Preview "** as well as the **Tabs "Overview" and "Reminders"** appear.
 
 ![video_task_betreueransicht_test_v1_de.png](assets/video_task_betreueransicht_test_v1_de.png){ class="shadow lightbox" }
 

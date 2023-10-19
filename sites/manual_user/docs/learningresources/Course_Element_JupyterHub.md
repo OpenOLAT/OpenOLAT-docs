@@ -15,4 +15,4 @@ Specialty / Note | Beta version
 
 The course element serves to provide Jupyter images for learners and thus offers opportunities for additional as well as very specific types of exercises.
 
-For more inforatiopnen see [jupyter.org](https://jupyter.org/hub).
+For more information see [jupyter.org](https://jupyter.org/hub).

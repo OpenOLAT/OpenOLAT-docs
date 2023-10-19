@@ -1,6 +1,5 @@
 # Kursbaustein "Video"
 
-
 ## Steckbrief
 
 Name | Video
@@ -12,9 +11,7 @@ Verwendungszweck | Anzeige von mp4-Dateien, inkl. der Ergänzungen in OpenOlat (
 Bewertbar | nein
 Spezialität / Hinweis |
 
-
-
-Verwenden Sie den Kursbaustein „Video“, um ein Video im MPEG-4 Format (.mp4) in Ihren Kurs einzubinden. Das Video muss extern erstellt werden und als Datei vorliegen oder via URL als Lernressource "Video" in OpenOlat vorliegen.
+Verwenden Sie den Kursbaustein "Video", um ein Video im MPEG-4 Format (.mp4) in Ihren Kurs einzubinden. Das Video muss extern erstellt werden und als Datei vorliegen oder via URL als Lernressource "Video" in OpenOlat vorliegen.
 
 Es wird jeweils ein Video pro Kursbaustein verlinkt. Je nach Konfiguration kann das Video auch mit einer Kommentierung und Bewertung versehen und so optimal in das Lehr-Lerngeschehen eines Kurses eingebunden werden.
 
@@ -26,23 +23,20 @@ Informationen zur Nachbearbeitung des Videos mit OpenOlat Quiz und Sprungmarken 
 
 Gehen Sie in den Kurseditor und fügen Sie Ihrem Kurs den Kursbaustein "Video" hinzu.
 
-Wenn Sie noch kein Video zugewiesen haben, erscheint beim Titel **Gewähltes Video**
-die Meldung _Kein Video ausgewählt_.
-Klicken Sie im Tab „Lerninhalt“ auf „Video auswählen oder importieren“, um Ihrem Kursbaustein ein Video zuzuordnen.
+Wenn Sie noch kein Video zugewiesen haben, erscheint beim Titel **Gewähltes Video** die Meldung _Kein Video ausgewählt_. Klicken Sie im Tab „Lerninhalt“ auf „Video auswählen oder importieren“, um Ihrem Kursbaustein ein Video zuzuordnen.
 
 Es erscheint ein neues Menü. Unter "Alle Einträge" sehen Sie alle Videos des Systems die Sie einbinden können. Unter "Meine Einträge" sehen Sie die Video Lernressourcen bei denen Sie Besitzer sind. Wählen sie das gewünschte Video aus. Eine Suche ist ebenfalls möglich.
 
-Klicken Sie auf „Importieren“ bzw. "Importieren URL", um ein *neues* Video hochzuladen bzw. zu verlinken. Alternativ können Sie eine neue Video Lernressource auch im [Autorenbereich](Learning_resource_Video.de.md) anlegen.
+Klicken Sie auf "Importieren" bzw. "Importieren URL", um ein *neues* Video hochzuladen bzw. zu verlinken. Alternativ können Sie eine neue Video Lernressource auch im [Autorenbereich](../area_modules/Authoring.de.md) anlegen.
 
 ## Hinzugefügtes Video konfigurieren
 
-Sobald Sie ein Video hinzugefügt haben, erscheint dessen Name als Link.
-Folgen Sie dem Link um zur Vorschau des Videos zu gelangen.
+Sobald Sie ein Video hinzugefügt haben, erscheint dessen Name als Link. Folgen Sie dem Link um zur Vorschau des Videos zu gelangen.
 
 Unter "Videoelemente anzeigen" können auch Anmkerungen, Segmente, Quiz und Kommentare, sofern in der Lernressource Video hinzugefügt, aktiviert werden.
 
 Haben Sie ein Video ausgewählt bzw. importiert erscheint im Tab Lerninhalt der Abschnitt
-**„Optionen“**. Hier können Sie definieren:
+**"Optionen"**. Hier können Sie definieren:
 
 * ob die Zuschauer das Video kommentieren und/oder bewerten dürfen
 * ob das Video automatisch gestartet werden soll oder nicht  
@@ -52,7 +46,7 @@ Haben Sie ein Video ausgewählt bzw. importiert erscheint im Tab Lerninhalt der 
 
 Sofern Titel und Beschreibung aktiviert wurden werden diese unterhalb des Videos angezeigt.
 
-Um die Zuordnung eines Videos nachträglich zu ändern und ein anderes Video auszuwählen, klicken Sie im Tab „Lerninhalt“ auf „Video auswechseln“ und wählen anschliessend ein anderes Video aus.
+Um die Zuordnung eines Videos nachträglich zu ändern und ein anderes Video auszuwählen, klicken Sie im Tab "Lerninhalt" auf "Video auswechseln" und wählen anschliessend ein anderes Video aus.
 
 !!! info "Info"
 

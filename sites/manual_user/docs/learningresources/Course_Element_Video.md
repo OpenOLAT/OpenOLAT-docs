@@ -1,7 +1,5 @@
 # Course Element "Video"
 
-
-
 ## Profile
 
 Name | Video
@@ -13,64 +11,56 @@ Purpose | Display of mp4 files, including the additions in OpenOlat (quizzes, co
 Assessable | no
 Specialty / Note | 
 
+Use the course element "Video" to embed a video in MPEG-4 format (.mp4) into your course. The video must be created externally and be available as a file or via URL as a learning resource "Video" in OpenOlat.
 
-Verwenden Sie den Kursbaustein „Video“, um ein Video im MPEG-4 Format (.mp4) in Ihren Kurs einzubinden. Das Video muss extern erstellt werden.
+One video per course element is linked. Depending on the configuration, the video can also be annotated and evaluated and thus optimally integrated into the teaching-learning process of a course.
 
-## Neues Video zuordnen
+If it is an interactive video, further actions such as answering quiz questions or calling up links are also possible.
+
+For information on post-processing the video with OpenOlat quizzes and skip marks, see the "[Learning resource: Video](../learningresources/Learning_resource_Video.de.md)" chapter.
+
+## Assign new video
+
 Go to the course editor and add the course element "Video" to your course.
 
-If you have not selected a video yet the message _No video
-selected_ will appear in the title **Selected video**.
-Klicken Sie im Tab „Lerninhalt“ auf „Video auswählen oder importieren“, um
-Ihrem Kursbaustein ein Video zuzuordnen. 
+If you have not yet assigned a video, the message _No video selected_ appears at the title **Selected video**. Click on "Select or import video" in the "Learning content" tab to assign a video to your course element.
 
-Es erscheint ein neues Menü. Unter "Alle Einträge" sehen Sie alle Videos des Systems die Sie einbinden können. Unter "Meine Einträge" sehen Sie die Video Lernressourcen bei denen Sie Besitzer sind. Wählen sie das gewünschte Video aus. Eine Suche ist ebenfalls möglich.
+A new menu appears. Under "All entries" you can see all videos of the system that you can embed. Under "My entries" you can see the video learning resources you are an owner of. Select the video you want. A search is also possible.
 
-Click on "Import" to upload a new video.Videos can either be imported to
-the course editor or by means of the "Authoring" site.  For further
-information please go to the chapter "Actions in the 'Authoring' section",
-section
-["Import"](Learning_resource_Video.md). 
+Click "Import" or "Import URL" to upload or link to a *new* video. Alternatively, you can create a new video learning resource in the [Authoring Area](../area_modules/Authoring.md).
 
-## Hinzugefügtes Video konfigurieren
+## Configure added video
 
-After adding your video its title will be displayed as a link. Follow this
-link to get to the preview. 
+Once you add a video, its name appears as a link. Follow the link to get to the preview of the video.
 
-Unter "Videoelemente anzeigen" können auch Anmkerungen, Segmente, Quiz und Kommentare, sofern in der Lernressource Video hinzugefügt, aktiviert werden.
+Under "Show video elements", annotations, segments, quizzes and comments, if added in the learning resource video, can also be activated.
 
-Once you have selected or imported a video, the "Options" section appears.
-Here you can define whether viewers are allowed to comment and/or rate the
-video and whether the video should be started automatically or not. You can
-also enter a description for the video. This will then appear below the video.
-You can either add your _own description_ in the appearing input field, use
-the _description of the learning resource_ from its corresponding [_info
-page_](../learningresources/Info_page.md), or omit the description completely.
+Once you have selected or imported a video, the following section appears in the Learning content tab
+**Options**. Here you can define:
 
-In order to change the assignment of your video you have to click on "**Replace Video**" in the tab "**Learning content**" before selecting another video.
+* Whether viewers may comment on and/or rate the video
+* whether the video should be started automatically or not
+* whether to restrict fast forward or not
+* whether to display the video title from the learning resource
+* whether to display a description of the video. You can either use the description from the info of the learning resource video, add a new description or omit it completely.
 
+If the title and description are enabled, they will be displayed below the video.
 
-!!! info 
+To change the assignment of a video afterwards and select a different video, click on "Change video" in the "Learning content" tab and then select a different video.
+
+!!! info "Info"
 
     In learning path courses, the tab "Learning path" can also be used to define as a completion criterion whether learners have to finish watching the video (95%) for the course element to be considered completed.
 
+In addition, all videos that are created in OpenOlat as learning resources and included in the course can be further configured. For example, a start image (poster) can be defined, chapter marks can be set or quiz questions can be added. The individual possibilities are explained in the chapter "[Learning resource: Video](Learning_resource_Video.md)".
 
-In addition, all videos created in OpenOlat as learning resources and
-integrated into the course can be further configured. This is done directly in
-the learning resource in the author area. Here, for example, a start image
-(poster) can be defined, chapter markers can be set or quiz questions can be
-added. The individual options are explained in the chapter "[Learning Resource: Video](Learning_resource_Video.md)".
+## Type of integration in the course
 
-## Art der Einbindung im Kurs {: #video_courseelement}
-
-The [course element "Video"](Course_Element_Video.md) allows the author to embed videos directly into a course. The video is either chosen out of the list of available videos in the authoring, or directly imported. Compared to videos embedded as a [course element "Single page" - videos embedded](Single_Page_Add_edit_video.md) course element "Single page" - videos embedded like this allow:
+A video that has been integrated into a course with the help of the course element video enables - in contrast to videos that are embedded via the [course element "Single Page"](Single_Page_Add_edit_video.md):
 
   * playback with subtitles
-  * playback in different resolutions (especially relevant for mobile, or without WiFi-access) 
-  * comments
-  * assessment
-  * landing picture by desire
-  * Combination with certain completion criteria in [learning path courses](../learningresources/Learning_path_course.md)
-
-
-
+  * playback in different resolutions (especially relevant for mobile devices, or without Wifi access)
+  * Comments
+  * Assessments
+  * a start image as desired
+  * Combination with specific completion criteria in [Learning path courses](../learningresources/Learning_path_course.de.md)

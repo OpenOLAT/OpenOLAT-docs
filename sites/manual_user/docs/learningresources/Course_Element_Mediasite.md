@@ -13,4 +13,4 @@ Assessable | no
 Specialty / Note | A documentation can be found at [mediasite.com](https://mediasite.com).
 
 
-Mediasite is an automated video platform for video recording, video managment and captioning. The OpenOlat mediasite module enables you to integrate mediasite content as single presentation, channel or module in courses. Further information is available on the documentation of [mediasite.com](https://mediasite.com).
+Mediasite is an automated video platform for video recording, video management and captioning. The OpenOlat mediasite module enables you to integrate mediasite content as single presentation, channel or module in courses. Further information is available on the documentation of [mediasite.com](https://mediasite.com).

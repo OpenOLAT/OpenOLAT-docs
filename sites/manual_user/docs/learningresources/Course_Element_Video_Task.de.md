@@ -13,7 +13,7 @@ Bewertbar | ja
 Spezialität / Hinweis | Zusätzliche im Video enthaltene Quizzes sind nicht bewertbar
 
 
-Mit dem  Kursbaustein „Videoaufgabe“ können OpenOlat Video-Lernressourcen für interaktive (formative) Übungen oder Aufgaben mit Bewertungen (summativ) wiederverwendet werden. Dabei müssen Teilnehmende in einem Video relevante Situationen erkennen und einer Kategorie zuordnen. Die dafür notwendigen Platzhalter im Video (= Segmente) sowie die Kategorien werden in der Lernressource "Video" definiert (siehe Video Editor). Es steht ein Übungsmodus und ein scharfer Testmodus zur Verfügung. 
+Mit dem Kursbaustein "Videoaufgabe" können OpenOlat Video-Lernressourcen für interaktive (formative) Übungen oder Aufgaben mit Bewertungen (summativ) wiederverwendet werden. Dabei müssen Teilnehmende in einem Video relevante Situationen erkennen und einer Kategorie zuordnen. Die dafür notwendigen Platzhalter im Video (= Segmente) sowie die Kategorien werden in der Lernressource "Video" definiert (siehe Video Editor). Es steht ein Übungsmodus und ein scharfer Testmodus zur Verfügung. 
 
 ## Aufgabenstellungen
 
@@ -83,7 +83,7 @@ Im Übungsmodus "Begriffe zuordnen" kann auch die Anzahl der Antwortversuche pro
 
 ## Erforderliche Lernressource
 
-In jeden Kursbaustein „Videoaufgabe“ muss eine Video-Lernressource eingefügt werden.
+In jeden Kursbaustein "Videoaufgabe" muss eine Video-Lernressource eingefügt werden.
 
 Dies ist eine mp4-Datei, die in den Autorenbereich hochgeladen wurde, oder ein Link auf eine Online-Ressource (z.B. Youtube).
 
@@ -123,7 +123,7 @@ Klicken Sie im Tab "Konfiguration" auf "Lernressource bearbeiten". Sie öffnen d
 Im Video-Editor fügen Sie Segmente und Kategorien hinzu (siehe Video-Lernressource).
 
 
-Konfiguration, Was in der Lernressource? Was im KB?
+Konfiguration - Was in der Lernressource? Was im Kursbaustein?
 
 ---
 
@@ -145,7 +145,7 @@ Ausserdem wird am Ende der Übung eine Zusammenfassung angezeigt und die Lösung
 
 ![video_task_modus_uebung_begriffe_feedback_v1_de.png](assets/video_task_modus_uebung_begriffe_feedback_v1_de.png){ class="shadow lightbox" }
 
-Während eines **Tests** erhalten die Teilnehmer:innen dagegen keinerlei Feedback. Am Ende wird lediglich die Anzahl der Löungsversuche angzeigt. (Falls weitere Versuche erlaubt sind, erscheint auch nochmals die Aufgabenstellung und der Button zum Starten der Videoaufgabe.)
+Während eines **Tests** erhalten die Teilnehmer:innen dagegen keinerlei Feedback. Am Ende wird lediglich die Anzahl der Lösungsversuche angzeigt. (Falls weitere Versuche erlaubt sind, erscheint auch nochmals die Aufgabenstellung und der Button zum Starten der Videoaufgabe.)
 
 ![video_task_modus_test_feedback.png](assets/video_task_modus_test_feedback.png){ class="shadow lightbox" }
 
