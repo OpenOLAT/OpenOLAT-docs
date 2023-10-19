@@ -1,5 +1,9 @@
 # Login
 
+## Sicherheit
+
+Die Anforderungen an die Sicherheit können je nach Institution variieren. In den Sicherheitseinstellungen können Sie daher den notwendigen Level an Sicherheit unter Berücksichtigung der damit eingegangenen Risiken einstellen.
+
 ## Passwörter
 
 Hier können die Syntax-Regeln für die OpenOlat Passwörter konfiguriert werden.
@@ -8,6 +12,10 @@ hinaus können weitere Anforderungen, wie Anzahl von Buchstaben, Groß- und
 Kleinschreibung, Anforderungen zu Ziffern und Sonderzeichen sowie bestimmte
 nicht erlaubte Werte definiert werden. Im Tab "Änderungsrichtlinien kann
 fesgelegt werden wie oft Benutzer ihr Passwort ändern müssen.
+
+## Anonyme und externe Benutzer:innen
+
+Administrator:innen können festlegen, ob und in welchem Umfang OpenOlat von anonymen Gäste und externen Benutzer:innen genutzt werden kann.
 
 ## Selbstregistration
 
@@ -28,5 +36,7 @@ Hier besteht die Möglichkeit einen SMS Dienst zu konfigurieren.
 Benachrichtigungen können dann auch per SMS verschickt werden. Zu beachten ist
 dabei, dass in diesem Kontext Kosten für den SMS Versand anfallen.
 
-  
+## Passwort Reset
+
+Hier kann für eine Kontenliste das Passwort neu gesetzt werden.
 

@@ -104,6 +104,17 @@ Wie unterscheiden sich Gruppen-Betreuer:innen von den Gruppen-Teilnehmenden?
 Wenn Sie auf das Icon "Tabelle herunterladen" klicken, werden Betreuer bzw. Teilnehmer der Gruppe
 in einer Excel-Datei ausgegeben.
 
+**Externe Mitglieder hinzufügen**
+
+Wurde auf Ihrem OpenOlat grundsätzlich von den Administrator:innen ermöglicht, auch externe Benutzer:innen als Gruppenmitglieder einzuladen, können Sie dies unter<br>
+**Gruppen > Gruppe auswählen > Administration > Tab Mitglieder > Button "Externe Mitglieder einladen"**
+
+<details>
+    <summary>Screen</summary>
+	<img src="../assets/group_administration_external_members_v1_de.png" />
+</details>
+
+
 ## Tab Kurse {: #courses}
 
 Dieser Tab ist nur verfügbar, wenn die Gruppe mit einem oder mehreren Kursen verbunden ist oder der/die Gruppenbesitzer:in über Autorenrechte verfügt.
