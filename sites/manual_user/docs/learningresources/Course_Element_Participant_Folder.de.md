@@ -36,13 +36,6 @@ Ist der Teilnehmer Abgabeordner aktiviert, können die Teilnehmenden Dateien hoc
 
 Zudem kann die Anzahl Dokumente, welche abgegeben werden können, eingeschränkt werden. Sobald diese Zahl erreicht ist, stehen keine Schreibwerkzeuge mehr zur Verfügung. Das heisst, die Dokumente können nicht mehr verschoben, kopiert, gezippt oder entzippt werden. Sie können jedoch weiterhin gelöscht werden. Falls gewünscht kann auch nur der Abgabe- oder nur der Rückgabeordner aktiviert werden.
 
-Im Tab "Template Einstellungen" können sowohl für den Abgabe- als auch den Rückgabeordner auch Unterordner angelegt und so eine durchgehende Ordner-Struktur angelegt werden. Zum Beispiel könnte ein Rückgabeordner einen Unterordner für inhaltliche Feedbacks und einen für ergänzende Dateien umfassen, oder ein Abgabeordner könnte eine gewisse gewünschte Struktur für die Abgaben widerspiegeln.
-Für den Teilnehmer Abgabeordner können weitere Konfigurationen
-vorgenommen werden. So können das Löschen und Überschreiben deaktiviert werden. Dies bedeutet, dass die Teilnehmer keine Dokumente mehr löschen können
-sobald Sie diese hochgeladen bzw. erstellt haben. Alle Dokumente bleiben zwingend im Abgabeordner. Weiter kann ein Zeitfenster für die Abgabe festgelegt werden, so dass die Abgabe nur in diesem Zeitraum möglich ist. Ausserhalb des Zeitraumes können Dokumente aber noch heruntergeladen werden.
-
-Zudem kann die Anzahl Dokumente eingeschränkt werden, welche abgegeben werden können. Sobald diese Zahl erreicht ist, stehen keine Schreibwerkzeuge mehr zur Verfügung. Das heisst, die Dokumente können nicht mehr verschoben, kopiert, gezippt oder entzippt werden. Sie können jedoch weiterhin gelöscht werden. Falls gewünscht, kann auch nur der Abgabe- oder nur der Rückgabeordner aktiviert werden.
-
 !!! warning "Achtung"
 
     Für den Teilnehmer:innen Ordner existiert wie für alle Upload Bereiche eine Speicherbegrenzung. Die vom Administrator eingestellte Begrenzungen für den Upload der Datei und die Begrenzung des gesamten Ordners wird angezeigt, wenn man versucht eine Datei hochzuladen.

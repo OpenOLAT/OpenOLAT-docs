@@ -13,7 +13,7 @@ Spezialität / Hinweis |
 
 
 
-Mit dem Kursbaustein „Umfrage“ fügen Sie Ihrem Kurs einen Online-Fragebogen hinzu. Als Basis wird die Lernressource "Formular" verwendet und mit dem Kursbaustein Umfrage verknüpft. Wenn Sie noch kein Formular für Befragungen erstellt haben, folgen Sie den Anweisungen im Kapitel "[3 Schritte zu Ihrem Formular](../forms/Three_Steps_to_your_Form.de.md)". Die Resultate einer Umfrage werden  standardmässig anonymisiert gespeichert.
+Mit dem Kursbaustein "Umfrage" fügen Sie Ihrem Kurs einen Online-Fragebogen hinzu. Als Basis wird die Lernressource "Formular" verwendet und mit dem Kursbaustein Umfrage verknüpft. Wenn Sie noch kein Formular für Befragungen erstellt haben, folgen Sie den Anweisungen im Kapitel "[3 Schritte zu Ihrem Formular](../forms/Three_Steps_to_your_Form.de.md)". Die Resultate einer Umfrage werden standardmässig anonymisiert gespeichert.
 
 Ein in einem Kurs verlinktes Formular kann nur solange vollständig im "[Formular-Editor](../learningresources/Form_editor_Questionnaire_editor.de.md)" bearbeitet werden, solange die Seite nicht aufgerufen wurde. Danach können nur noch Tippfehler korrigiert werden.
 
@@ -21,11 +21,11 @@ Ein in einem Kurs verlinktes Formular kann nur solange vollständig im "[Formula
 
     Wenn Teilnehmende aktuell die Umfrage ausführen, jedoch noch nicht abgeschlossen haben, gehen deren Resultate verloren.
 
-Weitere Informationen zum Thema Fragebogen und Umfrage finden Sie im Kapitel „[Formulare erstellen](../learningresources/Form.de.md)“ und den entsprechenden Unterkapiteln.
+Weitere Informationen zum Thema Fragebogen und Umfrage finden Sie im Kapitel "[Formulare erstellen](../learningresources/Form.de.md)" und den entsprechenden Unterkapiteln.
 
 ## Formular in Umfragen
 
-Die Lernressource Formular wird im Kursbaustein "Umfrage" in Form eines Fragebogens verwendet. Kursbesitzer können so Fragebögen in ihren Kurs einbinden und Lernende können die bereitgestellten Umfragen ausfüllen. Die Ergebnisse werden den Kursbesitzern und Betreuern, dann entsprechend im angezeigt.
+Die Lernressource Formular wird im Kursbaustein "Umfrage" in Form eines Fragebogens verwendet. Kursbesitzer können so Fragebögen in ihren Kurs einbinden und Lernende können die bereitgestellten Umfragen ausfüllen. Die Ergebnisse werden den Kursbesitzern und Betreuern, dann entsprechend angezeigt.
 
 OpenOlat stellt sicher, dass Kursteilnehmende die Umfrage bzw. den Fragebogen nur einmal ausfüllen können. Die Resultate werden standardmässig anonymisiert gespeichert. Eine Personalisierung ist jedoch durch die Auswahl der passenden Formular Elemente [Formular Editor](../learningresources/Form_editor_Questionnaire_editor.de.md) möglich.
 
@@ -61,7 +61,7 @@ Anschliessend kann definiert werden, wer dir Umfrage ausfüllen und wer die Erge
 
 * die Besitzer des Kurses
 * die Betreuer des Kurses
-* die Teilnehmenden des Kurses: Alle Personen die in der Rolle „Teilnehmer“ in den Kurs eingetragen sind
+* die Teilnehmenden des Kurses: Alle Personen die in der Rolle "Teilnehmer" in den Kurs eingetragen sind
 * Gäste: Personen ohne OpenOlat-Account
 
 Aktiviert man die erweiterte Konfiguration, können noch weitere Einstellungen vorgenommen werden, z.B. bestimmte Zeiträume der Teilnahme für bestimmte Rollen definiert werden und die Teilnahme durch bestimmte Gruppen festgelegt werden.
@@ -70,9 +70,9 @@ Auch die Ergebnisse können für all diese Gruppen frei gegeben und in der erwei
 
 !!! tip "Tipp"
 
-    Voraussetzung für die Bearbeitung der Umfrage ist jedoch, dass der gesamte Kurs auch für die jeweilige Personengruppe freigegeben ist. Soll also beispielsweise eine Umfrage auch von externen Personen (Gästen) ausfüllbar sein, muss auch der Kurs im Menü „Einstellungen“ > [Freigabe](../learningresources/Access_configuration.de.md) „offen ohne Buchung" für Gäste frei gegeben sein.
+    Voraussetzung für die Bearbeitung der Umfrage ist jedoch, dass der gesamte Kurs auch für die jeweilige Personengruppe freigegeben ist. Soll also beispielsweise eine Umfrage auch von externen Personen (Gästen) ausfüllbar sein, muss auch der Kurs im Menü "Einstellungen" > [Freigabe](../learningresources/Access_configuration.de.md) "offen ohne Buchung" für Gäste frei gegeben sein.
 
-Wird ein Formular als Umfrage in einem Kurs eingebunden, kann das Formular im Kurs über den Button „bearbeiten“ eingeschränkt geändert werden. Texte können geändert aber einzelne Blöcke nicht mehr verschoben oder neue Bereiche angelegt oder gelöscht werden. Im Formular erscheint die Meldung "Die Ressource wird bereits verwendet...".
+Wird ein Formular als Umfrage in einem Kurs eingebunden, kann das Formular im Kurs über den Button "bearbeiten" eingeschränkt geändert werden. Texte können geändert aber einzelne Blöcke nicht mehr verschoben oder neue Bereiche angelegt oder gelöscht werden. Im Formular erscheint die Meldung "Die Ressource wird bereits verwendet...".
 
 !!! warning "Achtung"
 
@@ -80,7 +80,7 @@ Wird ein Formular als Umfrage in einem Kurs eingebunden, kann das Formular im Ku
 
 ### Ansicht
 
-Was Besitzer, Betreuer und Teilnehmende bei geschlossenem Editor sehen ist davon abhängig welche Benutzerberechtigungen im Tab Umfrage ausgewählt wurden. Hat die jeweilige Personengruppe das Recht den Fragebogen auszufüllen (Teilnahme durch...), dann sieht sie als erstes auch den jeweiligen Fragebogen.  Sobald die Person aber selbst den Fragebogen ausgeüllt hat, erscheint die Fragebogen Statistik Übersicht direkt bei dem jeweiligen Umfrage Baustein, sofern für die Benutzergruppe auch die Resultate sichtbar sind.
+Was Besitzer, Betreuer und Teilnehmende bei geschlossenem Editor sehen ist davon abhängig welche Benutzerberechtigungen im Tab Umfrage ausgewählt wurden. Hat die jeweilige Personengruppe das Recht den Fragebogen auszufüllen (Teilnahme durch...), dann sieht sie als erstes auch den jeweiligen Fragebogen.  Sobald die Person aber selbst den Fragebogen ausgefüllt hat, erscheint die Fragebogen Statistik Übersicht direkt bei dem jeweiligen Umfrage Baustein, sofern für die Benutzergruppe auch die Resultate sichtbar sind.
 
 ![Umfrage Statistik](assets/Umfrage_Kurs.jpg){ class="shadow lightbox" }
 
@@ -88,7 +88,7 @@ Ist eine Personengruppe (z.B. Lernende) berechtigt die Umfrage auszufüllen aber
 
 ![Meldung Umfrage ausgefüllt](assets/Umfrage_ausgefuellt.jpg){ class="shadow lightbox" }
 
-Die Umfrage kann nur einmal ausgefüllt und nach dem abschicken nicht mehr geändert werden. Der User sieht eine entsprechende Information. Soll der Fragebogen noch nicht direkt abgeschickt werden, kann die Option „Zwischenspeichern“ verwendet werden.
+Die Umfrage kann nur einmal ausgefüllt und nach dem abschicken nicht mehr geändert werden. Der User sieht eine entsprechende Information. Soll der Fragebogen noch nicht direkt abgeschickt werden, kann die Option "Zwischenspeichern" verwendet werden.
 
 Ist eine Personengruppe weder berechtigt den Fragebogen auszufüllen noch die Resultate zu sehen, erscheint die Meldung "kein Zugang".
 
@@ -96,23 +96,23 @@ Ist eine Personengruppe weder berechtigt den Fragebogen auszufüllen noch die Re
 
 Folgende Auswertungstabs stehen den Berechtigten zur Verfügung:
 
-**Übersicht** : Hier erfährt man wie viele Personen den Fragenbogen ausgefüllt haben, den Abgabezeitraum sowie die Bearbeitungsdauer. Je nach Fragetyp werden auch noch weitere Kennzahlen aufgeführt.
+**Übersicht**: Hier erfährt man wie viele Personen den Fragenbogen ausgefüllt haben, den Abgabezeitraum sowie die Bearbeitungsdauer. Je nach Fragetyp werden auch noch weitere Kennzahlen aufgeführt.
 
-**Tabellen** : Hier sehen Sie die einzelnen Fragen und Antworten sowie bei Rubriks weitere statistische Auswertungen. Freitexte können zusätzlich als Excel Tabelle heruntergeladen werden.
+**Tabellen**: Hier sehen Sie die einzelnen Fragen und Antworten sowie bei Rubriks weitere statistische Auswertungen. Freitexte können zusätzlich als Excel Tabelle heruntergeladen werden.
 
-**Diagramme** : Im Tab Diagramme sehen Sie eine grafische Darstellung der einzelnen Fragen
+**Diagramme**: Im Tab Diagramme sehen Sie eine grafische Darstellung der einzelnen Fragen
 
-**Einzelne Fragebögen** : Hier hat man Zugriff auf die gesamten ausgefüllten, anonymen Fragebogen einzelner Personen.  
+**Einzelne Fragebögen**: Hier hat man Zugriff auf die gesamten ausgefüllten, anonymen Fragebogen einzelner Personen.  
   
 Ferner können die Inhalte aller 4 Tabs auch ausgedruckt oder als Excel Tabelle oder als PDF-Version heruntergeladen werden.
 
 Dieselbe Auswertung finden Sie auch im Menü `Administration > Fragebogen Statistiken`.
 
-Die Ergebnisse können auch über das Menü "[Datenarchivierung](../learningresources/Using_Course_Tools.de.md)" > “Umfragen“ gespeichert werden. Es handelt sich dabei um dieselbe Datei wie unter „Export“ im Kursrun.
+Die Ergebnisse können auch über das Menü "[Datenarchivierung](../learningresources/Using_Course_Tools.de.md)" > “Umfragen“ gespeichert werden. Es handelt sich dabei um dieselbe Datei wie unter "Export" im Kursrun.
 
 ### Umfragen zurücksetzen
 
-Kursbesitzer können schon ausgefüllte Fragebögen auch über den Link im 3-Punkte Menü des jeweiligen Kursbaustein „Zurücksetzen“. In diesem Fall werden alle bereits eingereichten Fragebögen für diese Umfrage gelöscht. Ein Zurücksetzen von einzelnen Fragebögen ist nicht möglich, da die Abgabe anonym erfolgt.
+Kursbesitzer können schon ausgefüllte Fragebögen auch über den Link im 3-Punkte Menü des jeweiligen Kursbaustein "Zurücksetzen". In diesem Fall werden alle bereits eingereichten Fragebögen für diese Umfrage gelöscht. Ein Zurücksetzen von einzelnen Fragebögen ist nicht möglich, da die Abgabe anonym erfolgt.
 
 ![Umfrage zurücksetzen](assets/Umfrage_zuruecksetzen.jpg){ class="shadow lightbox" }
 

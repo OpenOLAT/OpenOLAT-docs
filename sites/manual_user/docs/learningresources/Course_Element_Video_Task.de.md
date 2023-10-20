@@ -132,7 +132,7 @@ Konfiguration - Was in der Lernressource? Was im Kursbaustein?
 ### Prinzipien
 
 * Bei Übungen erfolgt die Bewertung automatisch. Sie kann nicht von Betreuer:innen abgeändert werden.
-* Im Test ...
+* Auch Tests werden automatisch bewertet. Betreuer:innen können alle Lösungsversuche im Bewertungswerkzeug ansehen und über die Freigabe der Bewertung entscheiden.
 * In einer Video-Lernressource enthaltene Quizfragen sind derzeit nicht in der Auswertung berücksichtigt. Im Kursbaustein Videoaufgabe bezieht sich die Auswertung ausschliesslich auf die Segmente.
 * Bei Übungen sollen die Ergebnisse anonym bleiben. Betreuer:innen sehen deshalb nur anonym dargestellte  Ergebnisse. 
 

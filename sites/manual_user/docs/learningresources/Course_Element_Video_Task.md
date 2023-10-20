@@ -29,7 +29,7 @@ In this mode, the segments (video sections) in the video are marked.
 * In the lower area of the video, steps of the treatment are shown.
 * While the video is playing, the appropriate name of the measure (category term) must be clicked on during the recognised step.
 * Feedback is given immediately after a term is selected.
-* Manual assessment by supervisors is not possible. (=> Practising should be possible without control).
+* Manual assessment by coaches is not possible. (=> Practising should be possible without control).
 
 ---
 
@@ -45,7 +45,7 @@ In this mode, the segments (video sections) in the video are **not marked**.
 * No segments (video sections) are marked in the lower area of the video.
 * While the video is playing, the student has to identify which phase of the conversation it is.
 * The feedback is given immediately after the selection of a term.
-* Manual assessment by supervisors is not possible. (=> Practising should be possible without control).
+* Manual assessment by coaches is not possible. (=> Practising should be possible without control).
 
 ---
 
@@ -73,7 +73,7 @@ In this mode, the segments (video sections) in the video are **not marked**.<br>
 
 ## Practice mode - Test mode
 
-When practising, the results should remain anonymous. Supervisors therefore only see anonymously presented results. In tests, on the other hand, the entries are assessed by the supervisors.
+When practising, the results should remain anonymous. Coaches therefore only see anonymously presented results. In tests, on the other hand, the entries are assessed by the supervisors.
 
 The number of solution attempts can be limited (1-9999).
 
@@ -131,10 +131,10 @@ Configuration - What in the learning resource? What in the course element?
 
 ### Principles
 
-* For exercises, the assessment is automatic. It cannot be changed by the supervisor.
-* Im Test ...
+* For exercises, the assessment is automatic. It cannot be changed by the coach.
+* Tests are also assessed automatically. Coaches can view all solution attempts in the assessment tool and decide whether to approve the assessment.
 * Quiz questions contained in a video learning resource are currently not included in the evaluation. In the course element video task the evaluation refers exclusively to the segments.
-* In exercises, the results should remain anonymous. Supervisors therefore only see anonymously presented results.
+* In exercises, the results should remain anonymous. Coaches therefore only see anonymously presented results.
 
 
 ### Result for participants
@@ -149,21 +149,21 @@ During a **test**, on the other hand, the participants do not receive any feedba
 
 ![video_task_modus_test_feedback.png](assets/video_task_modus_test_feedback.png){ class="shadow lightbox" }
 
-### Results for supervisors in exercises
+### Results for coaches in exercises
 
 If in exercises tutors open a course element with a video task in the course menu, they will see the two **tabs "Participants" and "Preview"**.
 
 * In the tab **"Participants"** the processing status of the supervised course participants is displayed in a list.
 * In the **"Preview"** tab, the video is displayed as seen by participants.
 
-Supervisors can reset the number of attempts for each participant individually and/or reset the data of a video task.
+Coaches can reset the number of attempts for each participant individually and/or reset the data of a video task.
 
 ![video_task_betreueransicht_v1_de.png](assets/video_task_betreueransicht_v1_de.png){ class="shadow lightbox" }
 
 
 ### "Play all attempts" button
 
-As the experiments are to remain anonymous during exercises, supervisors cannot see any results that can be attributed to specific persons. Instead, the attempts of all participants are shown as strokes in a common display. 
+As the experiments are to remain anonymous during exercises, coaches cannot see any results that can be attributed to specific persons. Instead, the attempts of all participants are shown as strokes in a common display. 
 
 To do this, click the button "Play all attempts".
 
@@ -189,4 +189,4 @@ If the mode "Test" was selected for the video task, the **Tabs "Participants" an
 
 ![video_task_betreueransicht_test_v1_de.png](assets/video_task_betreueransicht_test_v1_de.png){ class="shadow lightbox" }
 
-All results can be viewed by the owners and supervisors of this course in detail for each participant in the **tab "Participants"**.
+All results can be viewed by the owners and coaches of this course in detail for each participant in the **tab "Participants"**.
