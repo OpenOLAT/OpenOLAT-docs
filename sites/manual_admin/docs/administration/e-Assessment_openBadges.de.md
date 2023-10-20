@@ -47,3 +47,15 @@ Globale Badges können hier eingesehen werden. Der Status (aktiv / in Vorbereitu
 ![Wizard Schritt 5](assets/badges-wizard-5.de.jpg)
 6. Earners: Zeigt die Earners in einer Tabelle an, um zu sehen, welcher Teilnehmer sich bereits für die von Ihnen gewählten Kriterien qualifiziert.
 ![Wizard Schritt 6](assets/badges-wizard-6.de.jpg)
+
+## Verwendung der Badges
+
+Die Vergabe von Badges wird durch Kursbesitzer:innen in jedem Kurs unter<br>
+**Einstellungen > Tab Bewertung > Abschnitt Badges** <br>
+ermöglicht. Das Recht zur manuellen Vergabe kann hier auch Betreuer:innen gegeben werden.
+
+Wurden Badges aktiviert, ist nach dem nächsten Login in der **Kursadministration** die Option **Badges** vorhanden. Hier können die Vergaberegeln der Badges für den Kurs eingerichtet werden.
+
+Im **Bewertungswerkzeug** können die automatisch vergebenen Badges dann eingesehen oder auch manuell vergeben werden.
+
+Für Kursteilnehmer:innen sind erworbene Badges im Persönlichen Menü aufgelistet. [Hier](https://docs.openolat.org/de/manual_user/personal_menu/OpenBadges) mehr dazu.
