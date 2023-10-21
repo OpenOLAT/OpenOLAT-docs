@@ -33,19 +33,16 @@ run with the editor closed. For this purpose, a new enrollment or appointment
 is first created via the button "Create occasion" and the basic configuration
 is carried out as well as appointments are entered.
 
-![create_occaision.png](assets/create_occasion.png)
-
-Via the button "**Add appointment**" you can also add further appointments to this
-voting later.  Also, already created appointments can be revised again via the
-three-point link.
-
 ![add_appointment.png](assets/Termin_hinzufuegen.jpg)
 
-## Appointments: create & edit
 
-!!! info "Menu "Create occasion""
+## Configure accasion 
 
-    How to configure an enrollment or scheduling
+Ein "Anlass" ist eine Zusammenstellung von mehreren Terminen die ausgewählt werden können.
+
+![create_occaision.png](assets/create_occasion.png)
+
+How to configure an appointment booking or an appointment finding:
 
  **Title:** Enter the name of the appointment here, e.g. "Reconciliation
 closing meeting", "Kick-off meeting" etc.. The entry is required (mandatory
@@ -58,8 +55,8 @@ enrollment for one or more dates from a selection, e.g. lab dates.
 
  **Configuration:** Decide whether the participants are allowed to select only
 one or several appointments and whether the names of the participants are
-visible for other participants. In the case of "Enrollment", you can also
-define whether the coach must confirm the appointment.
+visible for other participants. In the case of "Appointment booking", you can also
+define whether the organizer have to confirm the appointment.
 
  **Organizer:** Define here who will be displayed as the organizer of the
 event.
@@ -98,15 +95,18 @@ possible.
 
 ![occasion.png](assets/Terminplanung_anlass.jpg)
 
-The specific dates of already created schedules can be viewed in more detail
+## Organize appointments
+
+The specific dates of already created schedules/appointments can be viewed in more detail
 via the "View appointments" link and edited by the course owner or coach. Here
-you can add, delete, rebook participants, adjust the description, change
-appointments or confirm appointments.
+you can add, delete, rebook participants, adjust the description, change appointments or confirm appointments.
 
 ![find_appointment.png](assets/Terminfindung_punkte.jpg)
 
-Participants can use the "**Select appointments**" link to see and select the
-appointments they want. If an appointment has been confirmed, this is also
-visible.
+## Participant view
+
+By clicking on the course element, participants are shown all, future or selected dates and a selection is possible via the link "**Select**". Filtering for dates with free places can also be done via the filter function.
 
 ![appointment.png](assets/Terminfindung.png)
+
+![Next apppointment](assets/Terminplanung18_Terminanzeige_en.png)
