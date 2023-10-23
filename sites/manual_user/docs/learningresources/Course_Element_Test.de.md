@@ -14,23 +14,20 @@ Spezialität / Hinweis |
 
 
 
-Mit dem Kursbaustein „Test“ binden Sie eine OpenOlat Lernressource „Test“ in Ihren Kurs ein. Ein Test wird im Kurs zur Leistungsüberprüfung oder als Quiz verwendet und umfasst diverse Frage-Typen. Er wird je nach Wahl der „[Fragetypen](../learningresources/Test_question_types.de.md)“ automatisiert oder manuell ausgewertet. OpenOlat verwendet das IMS-QTI 2.1 Format für Tests, was einen Austausch mit anderen Test-Systemen und Learning Management Systemen, die diesen Standard ebenfalls unterstützen, gewährt.
+Mit dem Kursbaustein "Test" binden Sie eine OpenOlat Lernressource "Test" in Ihren Kurs ein. Ein Test wird im Kurs zur Leistungsüberprüfung oder als Quiz verwendet und umfasst diverse Frage-Typen. Er wird je nach Wahl der "[Fragetypen](../learningresources/Test_question_types.de.md)" automatisiert oder manuell ausgewertet. OpenOlat verwendet das IMS-QTI 2.1 Format für Tests, was einen Austausch mit anderen Test-Systemen und Learning Management Systemen, die diesen Standard ebenfalls unterstützen, gewährt.
 
-Wenn Sie noch keinen Test ausgewählt haben, erscheint im Tab „Test-Konfiguration“ der Text _Keine Datei ausgewählt_. Klicken Sie auf „Datei wählen, erstellen oder importieren“, um einen Test dem Kursbaustein zuzuordnen oder einen neuen Test zu erstellen. Sollten Sie bereits einen Test ausgewählt
-haben, erscheint der Name dieser Lernressource hinter  _Gewählte Datei_. Mit Klick auf den Namen starten Sie die Vorschau des Tests. Mittels "Datei auswechseln" können Sie die Lernressource austauschen. Weitere Informationen
-finden Sie im Kapitel „[Tests erstellen](../learningresources/Test.de.md)“.
+Wenn Sie noch keinen Test ausgewählt haben, erscheint im Tab "Test-Konfiguration" der Text _Keine Datei ausgewählt_. Klicken Sie auf "Datei wählen, erstellen oder importieren", um einen Test dem Kursbaustein zuzuordnen oder einen neuen Test zu erstellen. Sollten Sie bereits einen Test ausgewählt haben, erscheint der Name dieser Lernressource hinter _Gewählte Datei_. Mit Klick auf den Namen starten Sie die Vorschau des Tests. Mittels "Datei auswechseln" können Sie die Lernressource austauschen. Weitere Informationen
+finden Sie im Kapitel "[Tests erstellen](../learningresources/Test.de.md)".
 
-Die zwei zentralen „[Tabs](../learningresources/Tests_at_course_level.de.md)“ in denen Sie Einstellungen für Ihren Test vornehmen können sind **Test-Konfiguration** und „**Optionen** “.
+Die zwei zentralen "[Tabs](../learningresources/Tests_at_course_level.de.md)" in denen Sie Einstellungen für Ihren Test vornehmen können sind **Test-Konfiguration** und "**Optionen**".
 
-Die Einstellungen unter "Optionen" werden zunächst aus den Optionen in der Lernressource übernommen, können aber bei Bedarf aber im Kurs geändert werden. Falls Sie angepasst werden sollen, kann im Tab "Optionen" die Einstellung "Konfiguration anpassen" ausgewählt werden. In diesem Fall können Sie eine Zeitbeschränkung setzen, die Anzahl der Lösungsversuche einschränken, Gästen erlauben den Test durchzuführen, verschiedene Darstellungsoptionen wählen usw.
-Ist die Option "Fragetitel anzeigen" nicht markiert aber gleichzeitig die Menu-Navigation erlaubt, werden statt der wirklichen Titel lediglich anonymisierte Titel in der Navigation angezeigt.
+Die Einstellungen unter "Optionen" werden zunächst aus den Optionen in der Lernressource übernommen, können aber bei Bedarf aber im Kurs geändert werden. Falls Sie angepasst werden sollen, kann im Tab "Optionen" die Einstellung "Konfiguration anpassen" ausgewählt werden. In diesem Fall können Sie eine Zeitbeschränkung setzen, die Anzahl der Lösungsversuche einschränken, Gästen erlauben den Test durchzuführen, verschiedene Darstellungsoptionen wählen usw. Ist die Option "Fragetitel anzeigen" nicht markiert aber gleichzeitig die Menü-Navigation erlaubt, werden statt der wirklichen Titel lediglich anonymisierte Titel in der Navigation angezeigt.
 
-Ferner kann ein Informationstext (HTML-Seite) für den Test eingerichtet werden, der auf der Startseite des Tests oberhalb der Start-Schaltfläche als "Rechtliche Hinweise" angezeigt wird. Um eine Datei hinzuzufügen, klicken Sie
-im Tab "Optionen" auf "Seite auswählen" oder Seite im Editor erstellen. Sie können die Datei auch später wieder auswechseln.
+Ferner kann ein Informationstext (HTML-Seite) für den Test eingerichtet werden, der auf der Startseite des Tests oberhalb der Start-Schaltfläche als "Rechtliche Hinweise" angezeigt wird. Um eine Datei hinzuzufügen, klicken Sie im Tab "Optionen" auf "Seite auswählen" oder Seite im Editor erstellen. Sie können die Datei auch später wieder auswechseln.
 
 Sobald Sie eine Datei ausgewählt haben, erweitert sich die Anzeige um das Feld "Sicherheitseinstellung" und Sie können Verlinkungen zu Dateien im Ablageordner zulassen. Das ist sinnvoll, wenn Sie z.B. auf andere HTML-Dateien oder Grafiken verlinken möchten. Diese Einstellung bewirkt aber auch, dass versierte Kursteilnehmer Einsicht in den gesamten Ablageordner des Kurses erlangen können.
 
-Wenn Sie den eingebundenen Test austauschen möchten, klicken Sie im Tab „Test-Konfiguration“ auf „Datei auswechseln“ und wählen den neuen Test. Falls bereits Testresultate von Kursteilnehmern vorhanden sind, können Sie diese im nächsten Schritt herunterladen.
+Wenn Sie den eingebundenen Test austauschen möchten, klicken Sie im Tab "Test-Konfiguration" auf "Datei auswechseln" und wählen den neuen Test. Falls bereits Testresultate von Kursteilnehmern vorhanden sind, können Sie diese im nächsten Schritt herunterladen.
 
 Ein in einem Kurs verlinkter Test kann nur solange vollständig im Test-Editor bearbeitet werden, bis er von mindestens einem Teilnehmenden gestartet und abgeschlossen wurde. Danach können nur noch Tippfehler korrigiert werden.
 
@@ -44,7 +41,7 @@ Die Resultate der Kursteilnehmenden werden personalisiert aufgezeichnet.
 
     ![](assets/selftest.png){class="size24"}
     
-    In OpenOlat gibt es zwei unterschiedliche Kursbausteine für Tests: „Tests“ und „Selbsttests“. Im Gegensatz zum Test werden im Selbsttest die Testresultate anonymisiert gespeichert. Selbsttests eignen sich für Übungszwecke und können unlimitiert absolviert werden. Auch werden bei Selbsttests die Ergebnisse nach Beenden des Tests automatisch angezeigt.
+    In OpenOlat gibt es zwei unterschiedliche Kursbausteine für Tests: "Tests" und "Selbsttests". Im Gegensatz zum Test werden im Selbsttest die Testresultate anonymisiert gespeichert. Selbsttests eignen sich für Übungszwecke und können unlimitiert absolviert werden. Auch werden bei Selbsttests die Ergebnisse nach Beenden des Tests automatisch angezeigt.
     
     Der Umgang mit Selbsttests ist ansonsten identisch mit der Handhabung der Tests.
 
@@ -70,7 +67,7 @@ Im Einzelnen sind folgende Einstellungen möglich nachdem Sie eine Lernressource
 
 #### Abschnitt Test
 
-**Bewertung mit Einstufung/Noten**
+**Bewertung mit Einstufung/Noten**:
 Wählen Sie eine der vorgegebenen Bewertungsskalen z.B. Noten, Niveaustufen oder Emojis aus. Sie können anschliessend die Punkte Untergrenze auch noch anpassen. Entscheiden Sie auch ob die Stufenzuordnung automatisch für den User sichtbar sein soll oder ob die Zuordnung manuell durch den Betreuer bereitgestellt werden soll.  
 
 **Bei Kursbewertung ausschliessen**: Wird hier der Haken gesetzt, bleibt der Test bei der Fortschrittsberechnung in einem [Lernpfad Kurs](../learningresources/Learning_path_course.de.md) unberücksichtigt. Bei einem herkömmlichen Kurs ist diese Einstellung nicht vorhanden.
@@ -83,7 +80,7 @@ Wählen Sie eine der vorgegebenen Bewertungsskalen z.B. Noten, Niveaustufen oder
 
 Bei einer manuellen Korrektur ist die Sichtbarkeit des Ergebnisses eingeschränkt und der Betreuer bzw. Korrektor muss die Korrektur manuell ergänzen. Zu den manuell zu bearbeitenden Fragen gehören Freitext, Datei hochladen und Zeichnen. Eine manuelle Korrektur kann bei Bedarf aber auch eingestellt werden, wenn der Test nur aus automatisch auswertbaren Fragetypen besteht.
 
-Aktiviert man die Option " **Manuell durch externe Korrektoren"** können auch OpenOlat Benutzer einen Test korrigieren, ohne dass sie Mitglied oder gar Betreuer des Kurses sind. Durch diese Wahl wird auch der Tab "Korrektoren" aktiviert und man erkennt, wer als Korrektor dem Test zugeordnet ist.
+Aktiviert man die Option "**Manuell durch externe Korrektoren**" können auch OpenOlat Benutzer einen Test korrigieren, ohne dass sie Mitglied oder gar Betreuer des Kurses sind. Durch diese Wahl wird auch der Tab "Korrektoren" aktiviert und man erkennt, wer als Korrektor dem Test zugeordnet ist.
 
 ![Test Tab Korrektoren](assets/Test_Tab_Korrektoren_DE.png){ class="shadow" }
 
@@ -114,7 +111,7 @@ Wenn das Feld "immer" gewählt wird, stehen die Resultate direkt nach Beenden de
 
 Bei der **Testzusammenfassung** wird u.a. die erreichte Prozentzahl, die Bearbeitungsdauer, die Anzahl der bearbeiteten Fragen und die erreichte Punktzahl sowie der Status angezeigt.
 
-Die **Sektionszusammenfassung** ist nur relevant, wenn ein Test auch [Sektionen](Configure_tests.de.md) enthält.
+Die **Sektionszusammenfassung** ist nur relevant, wenn ein Test auch [Sektionen](Configure_tests.de.md#sektion-ebene--section) enthält.
 
 Bei der **Fragenzusammenfassung** wird der Titel der Frage, die jeweils erreichte Punkte bzw. der passende Prozentwert angezeigt aber nicht die Fragestellung selbst.
 
@@ -150,7 +147,7 @@ Aktivieren Sie die Email Bestätigung, wenn Sie die Abgabe des Testes per Email 
 
 Für den Mailtext kann die Vorlage und ein voreingestellter Betreff mit dem Titel des Test-Kursbausteins im Betreff verwendet werden. Alternativ können die Vorlage und der Betreff auch geändert werden. Wählen Sie in diesem Fall bei "Vorlage" -> "Eigener Text" um den Mailingtext zu bearbeiten oder komplett zu ändern.
 
-Weitere Informationen zur Verwendung von Variablen in Mailing-Texten finden Sie [hier](Course_Elements.de.md#einsatz-von-variablen).
+Weitere Informationen zur Verwendung von Variablen in Mailing-Texten finden Sie [hier](Course_Element_EMail.de.md#einsatz-von-variablen).
 
 ### Tab "Erinnerungen"
 
@@ -165,7 +162,7 @@ Merkmal | ![Test](assets/test.png){ class=size16 } Test | ![Selbsttest](assets/s
  Fragetypen QTI 2.1 | Alle [Fragetypen](Test_question_types.de.md) möglich | Alle [Fragetypen](Test_question_types.de.md) möglich, aber nur automatisch auswertbare Fragetypten können auch für Punkte verwendet werden.
  Einbindung mit Kursbaustein | Test| Selbsttest
  Anzahl Aufrufe durch Kursteilnehmer | konfigurierbar | unlimitiert
- Ergebnisse | erscheinen im [Bewertungswerkzeug](../learningresources/Assessment_tool_overview.de.md) sowie in den [Test Statistiken](../learningresources/Using_Course_Tools.de.md#statistics) und sind für Betreuer einsehbar | erscheinen _nicht_ im [Bewertungswerkzeug](../learningresources/Assessment_tool_overview.de.md) und in den [Test Statistiken](../learningresources/Using_Course_Tools.de.md#statistics) und sind nicht personalisiert für Betreuer und Besitzer einsehbar
+ Ergebnisse | erscheinen im [Bewertungswerkzeug](../learningresources/Assessment_tool_overview.de.md) sowie in den [Test Statistiken](../learningresources/Using_Course_Tools.de.md#statistics) und sind für Betreuer einsehbar | erscheinen _nicht_ im [Bewertungswerkzeug](../learningresources/Assessment_tool_overview.de.md) und in den [Test Statistiken](../learningresources/Using_Course_Tools.de.md#test-statistiken) und sind nicht personalisiert für Betreuer und Besitzer einsehbar
  Datenarchivierung| ja, personalisiert| ja, anonymisiert. Eine personenbezogene Zuordnung oder Feedbacks sind aber nicht möglich.
 
 !!! tip "Tipp"
@@ -184,8 +181,7 @@ Wenn Sie einem Test beispielsweise eine neue Frage hinzufügen möchten oder fä
 
 ## Tests einsehen und bewerten
 
-Zugriff auf von Kursteilnehmern ausgefüllte Tests erhalten Sie im "[Bewertungswerkzeug](../learningresources/Assessment_tool_overview.de.md)". Das Bewertungswerkzeug finden Sie in der "Administration" des Kurses. Unter
-"Benutzer" werden sämtliche Tests und weitere bewertbare Kursbausteine eines Kurses angezeigt und können personenbezogen aufgerufen, eingesehen, geändert und kommentiert werden. Alternativ können die Ergebnisse auch im Kursrun bei geschlossenem Editor eingesehen und verwaltet werden. Im Kursrun besteht auch die Möglichkeit, Erinnerungen zu dem jeweiligen Test zu konfigurieren und so einen bedingungsabhängigen Mailversand auszulösen.
+Zugriff auf von Kursteilnehmern ausgefüllte Tests erhalten Sie im "[Bewertungswerkzeug](../learningresources/Assessment_tool_overview.de.md)". Das Bewertungswerkzeug finden Sie in der "Administration" des Kurses. Unter "Benutzer" werden sämtliche Tests und weitere bewertbare Kursbausteine eines Kurses angezeigt und können personenbezogen aufgerufen, eingesehen, geändert und kommentiert werden. Alternativ können die Ergebnisse auch im Kursrun bei geschlossenem Editor eingesehen und verwaltet werden. Im Kursrun besteht auch die Möglichkeit, Erinnerungen zu dem jeweiligen Test zu konfigurieren und so einen bedingungsabhängigen Mailversand auszulösen.
 
 ![Test Kursrun Teilnehmerliste](assets/Test_Kursrun_Teilnehmerliste_DE.png){ class="shadow" }
 
@@ -193,15 +189,15 @@ Sofern für einen Test auch externe Korrektoren aktiviert wurden, können diese 
 
 ## Testergebnisse und Archivierung
 
-Wählen Sie in der Kursansicht aus der "Administration“ -> [Datenarchivierung](../learningresources/Using_Course_Tools.de.md#archive)“. Gehen Sie links zu „Tests" oder auch komplett zu "Kursresultate" und speichern Sie die angezeigte Datei. Die Resultate von Selbsttests werden anonymisiert gespeichert.
+Wählen Sie in der Kursansicht aus der "Administration" -> "[Datenarchivierung](../learningresources/Using_Course_Tools.de.md#datenarchivierung--archive)". Gehen Sie links zu "Tests" oder auch komplett zu "Kursresultate" und speichern Sie die angezeigte Datei. Die Resultate von Selbsttests werden anonymisiert gespeichert.
 
 Nach der Archivierung finden Sie alle Angaben dazu, welche Person (bei Selbsttest anonymisiert durch eine Laufnummer) welche Fragen beantwortet hat, welche Antworten sie gegeben hat und beim Selbsttest wie viele Punkte erreicht wurden.
 
-Über Administration -> [„Test Statistiken"](../learningresources/Using_Course_Tools.de.md#statistics) können Sie auch schnell auf die grafische Auswertung Ihrer Testdaten zugreifen.
+Über Administration -> "[Test Statistiken](../learningresources/Using_Course_Tools.de.md#test-statistiken)" können Sie auch schnell auf die grafische Auswertung Ihrer Testdaten zugreifen.
 
 ## Arbeiten mit Tests
 
-In der Regel dienen Tests in OpenOlat der Wissensüberprüfung.  Hier ein paar Beispiele für den Einsatz von Tests:
+In der Regel dienen Tests in OpenOlat der Wissensüberprüfung. Hier ein paar Beispiele für den Einsatz von Tests:
 
 * Tests zur Wissensüberprüfung nach einer Phase der Wissensvermittlung
 * Tests zur Überprüfung des aktuellen Wissensstandes vor einem Kurs, um zu ermitteln wo noch Defizite bestehen bzw. um zu definieren auf welche Aspekte im Kurs besonders eingegangen werden soll
@@ -209,24 +205,22 @@ In der Regel dienen Tests in OpenOlat der Wissensüberprüfung.  Hier ein paar B
 * Tests im Sinne von Quiz als spielerische Komponente
 * Tests als Online-Klausur
 
-In Tests können vom Lehrenden diverse [Fragetypen](../learningresources/Test_question_types.de.md)verwendet werden. Je nach Fragetyp können Sie eine oder mehrere Antworten ankreuzen, Elemente per drag & drop verschieben, Texte und/oder Zahlen einfügen, Dateien hinzufügen, Markierungen vornehmen oder (sehr einfache) Zeichnungen vornehmen.  Pro OpenOlat Kurs können auch mehrere Tests für unterschiedliche Zwecke zum Einsatz kommen.
+In Tests können vom Lehrenden diverse [Fragetypen](../learningresources/Test_question_types.de.md) verwendet werden. Je nach Fragetyp können Sie eine oder mehrere Antworten ankreuzen, Elemente per drag & drop verschieben, Texte und/oder Zahlen einfügen, Dateien hinzufügen, Markierungen vornehmen oder (sehr einfache) Zeichnungen vornehmen. Pro OpenOlat Kurs können auch mehrere Tests für unterschiedliche Zwecke zum Einsatz kommen.
 
 ### So bearbeiten Sie einen Test
 
-Um mit der Bearbeitung eines Tests zu beginnen drücken Sie „Start“. Beantworten Sie die angezeigten Fragen und klicken Sie anschließend bei jeder Frage auf „Antwort speichern“. Sofern generell sichtbar, kann man in der linken Navigation sehen, welche Fragen bereits beantwortet wurden, welche Fragen nur angeschaut wurden und welche noch gar nicht angeklickt wurden.
+Um mit der Bearbeitung eines Tests zu beginnen drücken Sie "Start". Beantworten Sie die angezeigten Fragen und klicken Sie anschließend bei jeder Frage auf "Antwort speichern". Sofern generell sichtbar, kann man in der linken Navigation sehen, welche Fragen bereits beantwortet wurden, welche Fragen nur angeschaut wurden und welche noch gar nicht angeklickt wurden.
 
 ![](assets/Test_Anzeige.png)
 
-Je nach Einstellung können Sie über den Button „Nächste Frage“ und/oder einem Link in der linken Navigation weiter navigieren oder es wird automatisch die nächste Frage angezeigt. Ob Sie Fragen überspringen können oder Sie einen
-Beantwortungsfortschritt sehen, ist ebenfalls von der Konfiguration des Lehrenden abhängig. Je nach Konfiguration dürfen Sie den Test unterbrechen und zu einem späteren Zeitpunkt fortfahren oder generell abbrechen ohne dass
-Resultate gespeichert werden.
+Je nach Einstellung können Sie über den Button "Nächste Frage" und/oder einem Link in der linken Navigation weiter navigieren oder es wird automatisch die nächste Frage angezeigt. Ob Sie Fragen überspringen können oder Sie einen Beantwortungsfortschritt sehen, ist ebenfalls von der Konfiguration des Lehrenden abhängig. Je nach Konfiguration dürfen Sie den Test unterbrechen und zu einem späteren Zeitpunkt fortfahren oder generell abbrechen ohne dass Resultate gespeichert werden.
 
-Wenn Sie fertig sind mit der Bearbeitung und den Test abschließen wollen, klicken Sie auf den Button „Test beenden“. Es erfolgt noch einmal eine Sicherheitsabfrage und wenn Sie diese bestätigen, wird der Test gespeichert und ist für die Lehrenden sichtbar.
+Wenn Sie fertig sind mit der Bearbeitung und den Test abschließen wollen, klicken Sie auf den Button "Test beenden". Es erfolgt noch einmal eine Sicherheitsabfrage und wenn Sie diese bestätigen, wird der Test gespeichert und ist für die Lehrenden sichtbar.
 
 Je nach verwendeten Fragetypen wird der Test automatisch ausgewertet oder muss noch manuell vom Lehrenden bewertet werden. Eine entsprechende Info wird angezeigt. Der Besitzer des Kurses stellt auch ein, wann und wie detailliert Sie über Ihre Testresultate informiert werden.
 
-Im Bereich „Leistungsübersicht“ erhalten Sie weitere Informationen z.B.
+Im Bereich "Leistungsübersicht" erhalten Sie weitere Informationen z.B.
 
 ![](assets/Test_Leistungsuebersicht_kurs.png)
 
-Wenn Ihnen weitere Versuche zur Bearbeitung des Tests zur Verfügung stehen, können Sie mit „Start“ den Test noch einmal durchlaufen. Bisherige Durchläufe bleiben dabei erhalten.
+Wenn Ihnen weitere Versuche zur Bearbeitung des Tests zur Verfügung stehen, können Sie mit "Start" den Test noch einmal durchlaufen. Bisherige Durchläufe bleiben dabei erhalten.
