@@ -16,16 +16,9 @@ Spezialität / Hinweis |
 
 :octicons-device-camera-video-24: **Video-Einführung**: [Mitteilungen](<https://www.youtube.com/embed/3tAj19Avfkk>){:target="_blank”}
 
-Der Kursbaustein bietet die Möglichkeit, Mitteilungen in der Kursstruktur
-einzubetten. Diese Mitteilungen sind sowohl im Kurs als auch bei den
-Benachrichtigungen der einzelnen Benutzer (Persönliche Werkzeuge -> Abonnements) sichtbar. Bei der Mitteilung kann es
-sich sowohl um einen kurzen Infotext handeln, als auch um umfangreiche Infos,
-die per Datei-Anhang (max. 5 MB) beigefügt werden. 
+Der Kursbaustein bietet die Möglichkeit, Mitteilungen in der Kursstruktur einzubetten. Diese Mitteilungen sind sowohl im Kurs als auch bei den Benachrichtigungen der einzelnen Benutzer (Persönliche Werkzeuge -> Abonnements) sichtbar. Bei der Mitteilung kann es sich sowohl um einen kurzen Infotext handeln, als auch um umfangreiche Infos, die per Datei-Anhang (max. 5 MB) beigefügt werden. 
 
-Während der Erstellung
-einer Mitteilung kann definiert werden, ob die Mitteilung zusätzlich per Mail
-an bestimmte Nutzergruppen des Kurses (Abonnierte, Kursbesitzer, Betreuer,
-Mitglieder oder Gruppen) erfolgen soll und ob die jeweilige Mitteilung sofort oder zu einem späteren Zeitpunkt versendet wird.
+Während der Erstellung einer Mitteilung kann definiert werden, ob die Mitteilung zusätzlich per Mail an bestimmte Nutzergruppen des Kurses (Abonnierte, Kursbesitzer, Betreuer, Mitglieder oder Gruppen) erfolgen soll und ob die jeweilige Mitteilung sofort oder zu einem späteren Zeitpunkt versendet wird.
 
 ## Konfiguration im Kurseditor Tab "Mitteilungs-Konfiguration"
 
@@ -41,14 +34,9 @@ Kursbesucher Mitteilungen manuell abonnieren können.
 
 Im Bereich "Berechtigungen" kann definiert werden welche Kursrollen Mitteilungen verfassen und verwalten dürfen. Kursbesitzer können grundsätzlich Mitteilungen verfassen und verwalten.
 
-Mitteilungen können im persönlichen Menü unter "Abonnements" eingesehen
-werden. Die Anzahl angezeigter Mitteilungen kann im Kurseditor eingestellt
-werden.
+Mitteilungen können im persönlichen Menü unter "Abonnements" eingesehen werden. Die Anzahl angezeigter Mitteilungen kann im Kurseditor eingestellt werden.
 
-Standardmässig dürfen nur Betreuer und Besitzer Mitteilungen erstellen. Alle
-Kursteilnehmer dürfen jedoch Mitteilungen lesen. Im Tab „Mitteilungs-
-Konfiguration“ können Sie diese Einstellung Ihren Wünschen entsprechend
-anpassen.
+Standardmässig dürfen nur Betreuer und Besitzer Mitteilungen erstellen. Alle Kursteilnehmer dürfen jedoch Mitteilungen lesen. Im Tab "Mitteilungs-Konfiguration" können Sie diese Einstellung Ihren Wünschen entsprechend anpassen.
 
 !!! info "Hinweis"
 
