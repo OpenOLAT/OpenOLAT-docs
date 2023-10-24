@@ -42,7 +42,7 @@ Error code| Error description / reason
 
 **Which ports are used by BigBlueButton?**  
 
-If you are unable to access the BigBlueButton, this may be due to a setting in your firewall. You can test this by accessing the online meeting with your device from another network (guest WLAN etc.) or via hotspot using your mobile phone. If this works, you should check the following ports/shares on your firewall (in a business environment by your IT service/support):
+If you are unable to access the BigBlueButton, this may be due to a setting in your firewall. You can test this by accessing the online meeting with your device from another network (guest WIFI etc.) or via hotspot using your mobile phone. If this works, you should check the following ports/shares on your firewall (in a business environment by your IT service/support):
 
 Ports| Description  
 ---|---  
@@ -70,7 +70,7 @@ The following options are available to troubleshoot the problem:
   * Click on the audio icon in BigBlueButton and reconnect and check your audio in the Echo Test.
   * Is the correct microphone enabled in your system settings (e.g. is the notebook entered instead of the headset?)
   * Is the volume setting in the system settings correct and configured high enough?
-  * Do you have the possibility to use a network cable instead of WLAN or a hotspot via cell phone?
+  * Do you have the possibility to use a network cable instead of WIFI or a hotspot via cell phone?
 
 
 ## :material-video-box: Video problems
