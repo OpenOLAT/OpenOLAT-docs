@@ -36,6 +36,7 @@ nav:
       - E-Mail: "personal_menu/E-Mail.md"
       - Badges: "personal_menu/OpenBadges.md"
       - Media Center: "personal_menu/Media_Center.md"
+      - To-dos: "personal_menu/To-Dos.md"
     - Configuration:
       - Overview: "personal_menu/Configuration.md"
       - COVID certificate: "personal_menu/COVID_certificate.md"
