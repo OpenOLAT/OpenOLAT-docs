@@ -8,7 +8,7 @@ Sie können
 * Ihre To-Dos nach Status sortiert anzeigen (2)
 * durch Klick auf den kleinen Pfeil am Zeilenanfang die Details eines To-Dos aufklappen (3)
 * die To-Dos bearbeiten (4)
-* To-Dos löschen (Nach Selektion eines To-Dos in der ersten Spalte wird der Löschen-Button angezeigt.) (5)
+* To-Dos löschen (Nach Selektion eines To-Dos in der ersten Spalte wird der Löschen-Button angezeigt) (5)
 
 ![to-do_example_v1_de.png](assets/to-do_example_v1_de.png){ class=" shadow lightbox" }
 
