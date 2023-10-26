@@ -11,17 +11,17 @@
 
 * * *
 
-With OpenOlat 18.1 we release our next major release.
+With OpenOlat 18.1 we release our next major version.
 
-A comprehensive innovation is the **Login with Passkey** and the associated possibility to set up a **multi-level authentication concept** for OpenOlat. In addition, a **redesign of the login screen** has been carried out.
+A comprehensive innovation is the **login with Passkey** and the associated possibility to set up a **multi-level authentication concept** for OpenOlat. In addition, a **redesign of the login screen** has been carried out.
 
-In the project tool, numerous enhancements such as the **Project Report**, the **Whiteboard** and various optimizations around the display and handling of project data were implemented. The central access to **personal to-dos** supports users in maintaining an overview. The integration of **Draw.io** as **Diagram and Whiteboard tool** as well as the **Audio recorder** offer new possibilities to create and record information directly in OpenOlat.
+In the project tool, numerous enhancements such as the **project report**, the **whiteboard** and various optimizations around the display and handling of project data were implemented. The central access to **personal to-dos** supports users in maintaining an overview. The integration of **draw.io** as **diagram and whiteboard tool** as well as the **audio recorder** offer new possibilities to create and record information directly in OpenOlat.
 
-The **Quota** settings and **Sharing permissions** allow the **Media Center** to be fine-tuned to the needs of authors and users. When using **Edubase**, **Multi-PAK codes** are now also supported.
+The **quota** settings and **sharing permissions** allow the **Media Center** to be fine-tuned to the needs of authors and users. When using **Edubase**, **multi-PAK codes** are now also supported.
 
-In the eAssessment area, a negative point system can be mapped for many question types with the help of **Partial point calculation**. In rubric forms, **Rubric descriptions** provide more transparency in assessment, and the new **formatted exam log** supports queries about test runs.
+In the eAssessment area, a negative point system can be mapped for many question types with the help of **partial point calculation**. In rubric forms, **rubric descriptions** provide more transparency in assessment, and the new **formatted exam log** supports queries about test runs.
 
-System-wide visual customizations such as **new icons** through the FontAwesome upgrade, a new display for system messages, and previewing files in the **light box** give OpenOlat a fresh look.
+System-wide visual customizations such as **new icons** through the FontAwesome upgrade, a new display for system messages, and previewing files in the **Lightbox** give OpenOlat a fresh look.
 
 ![Number of features and bugs in release 18.1](assets/181/Features_Improvements_Labels_18.1_EN.png)
 
@@ -43,21 +43,21 @@ With Release 18.1, an upgrade to FontAwesome 6 has been implemented. As a result
 
     ![Old Icons](assets/181/Icons_old_EN.png){ class="shadow lightbox" title="Old course element icons" }
 
-### Light Box
+### Lightbox
 
-Previously, PDF documents, images, videos and audios were opened in a new browser tab for preview and display, which was somewhat cumbersome. Now the display in the light box is done in the same window.
+Previously, PDF documents, images, videos and audios were opened in a new browser tab for preview and display, which was somewhat cumbersome. Now the display in the Lightbox is done in the same window.
 
-=== "Light-Box with image"
+=== "Lightbox with image"
 
-    ![Light-Box image](assets/181/Lightbox_image_DE.png){ class="shadow lightbox" title="Image view in light box" }
+    ![Lightbox image](assets/181/Lightbox_image_DE.png){ class="shadow lightbox" title="Image view in Lightbox" }
 
-=== "Light-Box with PDF"
+=== "Lightbox with PDF"
 
-    ![Light-Box PDF](assets/181/Lightbox_PDF_DE.png){ class="shadow lightbox" title="PDF view in light box" }
+    ![Lightbox PDF](assets/181/Lightbox_PDF_DE.png){ class="shadow lightbox" title="PDF view in Lightbox" }
 
-=== "Light-Box with video"
+=== "Lightbox with video"
 
-    ![Light-Box Video](assets/181/Lightbox_video_DE.png){ class="shadow lightbox" title="Video view in Light-Box" }
+    ![Lightbox Video](assets/181/Lightbox_video_DE.png){ class="shadow lightbox" title="Video view in Lightbox" }
 
 ### New layout of messages
 
@@ -81,11 +81,11 @@ For an effortless changeover, the switch to the next security level can also be 
 
 * * *
 
-## Redesign Login
+## Redesign login mask
 
 With the "Passkey" implementation, a redesign of the OpenOlat login screen was also implemented. The previous tile display of all activated authentication options was dissolved and the optical design was improved. Different login services are now visible at a glance.
 
-![Example of new OpenOlat login screen](assets/181/Loginscreen_redesdign_EN.png){ class="shadow lightbox" title="New OpenOlat login screen" }
+![Example of new OpenOlat login mask](assets/181/Loginscreen_redesdign_EN.png){ class="shadow lightbox" title="New OpenOlat login mask" }
 
 * * *
 
@@ -97,9 +97,9 @@ A lot has happened in the projects section.
 
 To support collaboration and exchange in projects, a central whiteboard is available. Several project participants can work together collaboratively via the whiteboard. The current status can also be saved as a project file.
 
-![Project Whiteboard](assets/181/Project-whiteboard_EN.png){ class="shadow lightbox" title="Project Whiteboard" }
+![Project whiteboard](assets/181/Project-whiteboard_EN.png){ class="shadow lightbox" title="Project whiteboard" }
 
-### Project Report
+### Project report
 
 With 18.1, the project report is available. This allows the most important project data to be downloaded as required, prepared for management or meetings, and also archived.
 
@@ -130,7 +130,7 @@ To ensure that users don't miss any e-mail notifications about new to-dos, these
 
 ## Media Center
 
-With the use of the Content Editor in the course element "Page", the Media Center becomes more and more important.
+With the use of the content editor in the course element "Page", the Media Center becomes more and more important.
 
 For better management of media elements, the available storage space can be configured in the Media Center. Usually authors have higher storage space requirements, therefore the quota settings are made separately for these power users (DEFAULT::POWERUSERS) and for users without additional system roles (DEFAULT::USERS).
 
@@ -148,27 +148,27 @@ Administrative users such as learning resource managers and administrators have 
 
 The integration of the free drawing and diagram tool "draw.io" offers new possibilities for creating content in OpenOlat.
 
-In the area "Projects" it is used as a [whiteboard](#whiteboard), which can also be used collaboratively by several project members. In the course element "Page" as well as in the media center, diagrams can be created directly with the help of the editor and saved as .svg file.
+In the area "Projects" it is used as a [whiteboard](#whiteboard), which can also be used collaboratively by several project members. In the course element "Page" as well as in the Media Center, diagrams can be created directly with the help of the editor and saved as .svg file.
 
-=== "Draw.io Whiteboard"
+=== "draw.io whiteboard"
 
-    ![Draw.io Whiteboard](assets/181/Drawio_whiteboard_EN.png){ class="shadow lightbox" title="Draw.io Whiteboard" }
+    ![draw.io whiteboard](assets/181/Drawio_whiteboard_EN.png){ class="shadow lightbox" title="draw.io whiteboard" }
 
-=== "Draw.io Diagram Editor"
+=== "draw.io diagram editor"
 
-    ![Draw.io Diagram Editor](assets/181/Drawio_media_center_EN.png){ class="shadow lightbox" title="Draw.io Diagram Editor" }
+    ![Draw.io diagram editor](assets/181/Drawio_media_center_EN.png){ class="shadow lightbox" title="draw.io diagram editor" }
 
-Also everywhere where documents can be created (e.g. task module, folder), the new document types for diagrams or the whiteboard are available for selection.
+Also, wherever documents can be created (e.g. task element, folder), the new document types for diagrams or the whiteboard are available for selection.
 
-![Create new document with Draw.io](assets/181/Drawio_new_document_EN.png){ class="shadow lightbox" title="Create new document with Draw.io" }
+![Create new document with Draw.io](assets/181/Drawio_new_document_EN.png){ class="shadow lightbox" title="Create new document with draw.io" }
 
 * * *
 
-## Audio Recorder
+## Audio recorder
 
-Analogous to the video recorder, an audio recorder is now also implemented. It can be activated in the course element "Task" to create tasks or solutions. In the future, the audio recorder will also be available in the media center and as a block-based element in the course element "Page".
+Analogous to the video recorder, an audio recorder is now also implemented. It can be activated in the course element "Task" to create tasks or solutions. In the future, the audio recorder will also be available in the Media Center and as a block-based element in the course element "Page".
 
-![Audio Recording in Task Element](assets/181/Audio_recording_task_EN.png){ class="shadow lightbox" title="Audio Recording in Task element" }
+![Audio recording in task element](assets/181/Audio_recording_task_EN.png){ class="shadow lightbox" title="Audio recording in task element" }
 
 * * *
 
@@ -177,16 +177,16 @@ Analogous to the video recorder, an audio recorder is now also implemented. It c
 * Conversion conventional course: selection of learning path variant (with path or without sequence) for the target course
 * Task course element:
     * Upload multiple assignments via zip file
-    * Text optimization for "return and feedback" configuration
+    * Text optimization for "Return and feedback" configuration
     * Harmonization of document handling in table
-* Note at course element if linked learning resource has been deleted; affects elements test, self-test, video task, survey, form, blog, podcast, wiki, scorm, CP, portfolio task, document, exercise
+* Note at course element if linked learning resource has been deleted; affects course elements test, self-test, video task, survey, form, blog, podcast, wiki, scorm, CP, portfolio task, document, practice
 * Forum: Statistics report on forum posts and optimized actions on the course element
 * New color selection concept for course layout
 * Optimization of status warnings in the course
-* Optimized order of pre-filters under "My courses
+* Optimized order of pre-filters under "My courses"
 * Learning path: improved display of "Confirmation by user" at the course element
 * Cleanup and customization of variable names for certificates
-* Course Reminders: Addition of relevant variables for use in notifications
+* Course reminders: Addition of relevant variables for use in notifications
 * LTI: support for deep link
 
 * * *
@@ -195,13 +195,13 @@ Analogous to the video recorder, an audio recorder is now also implemented. It c
 
 ### Partial score calculation for question types
 
-A negative point system is used in part to evaluate exam questions, with points being calculated based on the answer selection. The new option "Partial points" maps this points calculation for the following question types: Multiple Choice, Hotspot, Hottext, Drag and Drop, Matrix, Gap (text and numeric), Gap with Dropdown.
+A negative point system is used in part to evaluate exam questions, with points being calculated based on the answer selection. The new option "Partial score" maps this points calculation for the following question types: multiple choice, hotspot, hottext, drag and drop, matrix, gap (text and numeric), gap with dropdown.
 
 In the calculation, a weighted score is added for each correctly selected answer, while a weighted score is subtracted for each incorrectly selected answer.
 
 ![Partial score for evaluation](assets/181/Partial_score_EN.png){ class="shadow lightbox" title="Partial score for evaluation" }
 
-### Form: Rubric Description
+### Form: Rubric description
 
 Forms with rubrics are often used in the course element "Assessment" in the context of practical performances and presentations. A description can now be stored for the rubrics in order to transparently show the individual assessment criteria to the participants and to support the coaches in the assessment. The colored output according to the traffic light system shows directly which criteria are assigned to a good, neutral or insufficient evaluation.
 
@@ -224,7 +224,7 @@ Forms with rubrics are often used in the course element "Assessment" in the cont
 ## All around UX / Usability
 
 * Optimized dialog for creating new documents (a11y)
-* Improved display of message for areas without data/content ("Empty state")
+* Improved display of message for areas without data / content ("Empty state")
 
 * * *
 
@@ -237,9 +237,9 @@ Forms with rubrics are often used in the course element "Assessment" in the cont
 * Groups: New filter "Name"
 * Subscriptions: display of course element title for more context information
 * Edubase:
-    * Support for Multi PAK
+    * Support for multi-PAK
     * Open eBook in new window
-* Lifecycle "Account": Optimized configuration of mail notifications and addition of variable for reaction period
+* Life cycle "Account": Optimized configuration of mail notifications and addition of variable for reaction period
 * Role based configuration for bulk search for users
 * Refactoring transcoding modules incl. option to delete the master video file
 * Integration of pdf.js as PDF viewer
