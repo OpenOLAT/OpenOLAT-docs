@@ -105,7 +105,7 @@ Um die Zusammenarbeit und den Austausch in Projekten zu unterstützen, steht ein
 
 Mit 18.1 steht der Projekt-Report zur Verfügung. Damit können die wichtigsten Projekt-Daten bei Bedarf heruntergeladen, für die Geschäftsleitung oder Meetings aufbereitet, und auch archiviert werden.
 
-Der Report besteht aus einem Word-Dokument, in dem Angaben zum Projekt (Titel und Teaser), die Projektmitglieder sowie sämtliche Inhalte wie Timeline, Termine, Meilensteine, To-dos, Notizen des Projektes und der aktuelle Stand des Whiteboards enthalten sind. Zusätzlich sind in einem Ordner alle Dateien und einzelnen Notizen separate abgelegt.
+Der Report besteht aus einem Word-Dokument, in dem Angaben zum Projekt (Titel und Teaser), die Projektmitglieder sowie sämtliche Inhalte wie Timeline, Termine, Meilensteine, To-dos, Notizen des Projektes und der aktuelle Stand des Whiteboards enthalten sind. Zusätzlich sind in einem Ordner alle Dateien und Notizen separat abgelegt.
 
 Der Report kann vom Zeitraum eingeschränkt werden, um beispielsweise wöchentliche oder monatliche Zusammenfassungen zu erstellen. Die Sortierung der Inhalte ist entweder chronologisch oder nach Objekttyp möglich.
 
@@ -214,7 +214,7 @@ Formulare mit Rubrics werden häufig im Kursbaustein "Bewertung" im Rahmen von p
 ### Weitere eAssessment-Neuerungen
 
 * Optimierte Anzeige von richtigen/falschen Antworten
-* Formattiertes Prüfungslog
+* Formatiertes Prüfungslog
 * Prüfungsmodus: Optimierung der Teilnehmenden-Auswahl
 * Archiv Kursresultate: Ergänzung der Daten zu Noten/Einstufungen, wenn aktiviert
 * Safe Exam Browser: Anzeige des generierten Links zum Beenden des SEB
