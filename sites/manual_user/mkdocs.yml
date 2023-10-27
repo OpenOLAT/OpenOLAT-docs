@@ -39,10 +39,10 @@ nav:
       - To-dos: "personal_menu/To-Dos.md"
     - Configuration:
       - Profile: "personal_menu/Profile.md"
+      - Profile: COVID certificate: "personal_menu/COVID_certificate.md"
       - Settings: "personal_menu/Settings.md"
       - Password: "personal_menu/Password.md"
-      - COVID certificate: "personal_menu/COVID_certificate.md"
-      
+       
  
   - Area and modules:
     - area_modules/index.md
