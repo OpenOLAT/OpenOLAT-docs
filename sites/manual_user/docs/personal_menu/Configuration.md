@@ -153,22 +153,3 @@ support link is available. As soon as the export has been carried out, you can
 download the user data stored about you here.
 
 ![](assets/Screenshot 2020-04-29 at 18.26.01.png)
-
-##  Password
-
-![](assets/Screenshot 2020-04-29 at 18.26.26.png)
-
-If your account is not controlled by an external user management system, you
-can change your password in the "Password" menu. Depending on the settings,
-the administrator can also force a new password to be assigned at certain
-intervals. When assigning a new password, make sure not to use the old
-password again. Depending on settings by your OLAT administrator the use of
-previous passwords might not be allowed.
-
-If you have forgotten your password you can request a new one on the login
-page. The activation link will then be sent to you by e-mail. If SMS
-authentication is possible in your system and you have activated it the
-activation code can also be sent by SMS.
-
-  
-

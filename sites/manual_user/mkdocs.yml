@@ -40,6 +40,7 @@ nav:
     - Configuration:
       - Overview: "personal_menu/Configuration.md"
       - COVID certificate: "personal_menu/COVID_certificate.md"
+      - Password: "personal_menu/Password.md"
  
   - Area and modules:
     - area_modules/index.md

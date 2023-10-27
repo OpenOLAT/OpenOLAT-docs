@@ -357,6 +357,7 @@ plugins:
           Participant Administration : Teilnehmeradministration
           Participant Folder : Teilnehmer Ordner
           Participant list : Teilnehmerliste
+          Password  : Passwort
           Payment modules : Bezahlungsmodule
           PayPal Configuration : PayPal Konfiguration
           Performance assessment : Leistungsbewertung
