@@ -195,7 +195,6 @@ plugins:
           Course Reminders : Erinnerung
           Course Settings : Kurseinstellungen
           Courses and Catalog : Kurse und Katalog
-          Profile: COVID certificate : Profil: COVID Zertifikat
           CP Editor : CP Editor
           CP learning content: CP Lerninhalt
           Create a blog : Blog erstellen
@@ -319,6 +318,7 @@ plugins:
           Line manager : Linienvorgesetzte(r)
           Login : Login
           Login and registration : Login und Registration
+          Login Concept : Login-Konzept
           Login Page : Login-Seite
           LTI 1.3 Integrations: LTI 1.3 Integrationen
           LTI access: LTI Zugang
@@ -357,6 +357,7 @@ plugins:
           Participant Administration : Teilnehmeradministration
           Participant Folder : Teilnehmer Ordner
           Participant list : Teilnehmerliste
+          Passkey : Passkey
           Password  : Passwort
           Payment modules : Bezahlungsmodule
           PayPal Configuration : PayPal Konfiguration
@@ -378,6 +379,7 @@ plugins:
           Practice: Übung
           Process of an assessment portfolio : Prozess eines Bewertungsportfolios
           Profile : Profil
+          Profile COVID certificate : Profil COVID Zertifikat
           Project member management : Projektmitgliederverwaltung 
           Project report : Projektreport
           Projects : Projekte

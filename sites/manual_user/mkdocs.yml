@@ -27,6 +27,8 @@ nav:
   - Login and registration:
     - login_registration/index.md
     - Login Page: "login_registration/Login_Page.md"
+    - Login Concept: "login_registration/Login_Concept.md"
+    - Passkey: "login_registration/Passkey.md"
 
   - Personal menu:
     - personal_menu/index.md
@@ -39,11 +41,10 @@ nav:
       - To-dos: "personal_menu/To-Dos.md"
     - Configuration:
       - Profile: "personal_menu/Profile.md"
-      - Profile: COVID certificate: "personal_menu/COVID_certificate.md"
+      - COVID certificate: "personal_menu/COVID_certificate.md"
       - Settings: "personal_menu/Settings.md"
       - Password: "personal_menu/Password.md"
        
- 
   - Area and modules:
     - area_modules/index.md
     - Courses:
