@@ -30,6 +30,7 @@ nav:
     - Login Concept: "login_registration/Login_Concept.md"
     - Password: "login_registration/Password.md"
     - Passkey: "login_registration/Passkey.md"
+    - Security levels: "login_registration/Security_levels.md"
 
   - Personal menu:
     - personal_menu/index.md
