@@ -13,8 +13,7 @@ Spezialität / Hinweis |
 
 
 
-Der Kursbaustein „Themenvergabe“ eignet sich dazu, wenn Sie in Ihrem Kurs Themen wie beispielsweise Semesterarbeiten ausschreiben und betreuen lassen wollen. Als Besitzer des Kurses bestimmen Sie die detaillierte Konfiguration der Themenvergabe. Dazu gehört unter anderem, wer Themen ausschreiben und betreuen darf, wie die Themen beschrieben werden müssen oder wie viele Themen ein Kursteilnehmer wählen kann. Speziell am Kursbaustein „Themenvergabe“ ist,
-dass nicht Sie als Kursbesitzer, sondern Themenverantwortliche Themen ausschreiben und betreuen.
+Der Kursbaustein "Themenvergabe" eignet sich dazu, wenn Sie in Ihrem Kurs Themen wie beispielsweise Semesterarbeiten ausschreiben und betreuen lassen wollen. Als Besitzer des Kurses bestimmen Sie die detaillierte Konfiguration der Themenvergabe. Dazu gehört unter anderem, wer Themen ausschreiben und betreuen darf, wie die Themen beschrieben werden müssen oder wie viele Themen ein Kursteilnehmer wählen kann. Speziell am Kursbaustein "Themenvergabe" ist, dass nicht Sie als Kursbesitzer, sondern Themenverantwortliche Themen ausschreiben und betreuen.
 
 ## Editoransicht
 
@@ -28,9 +27,7 @@ Wenn Sie diese Option auswählen, erscheint ein Feld, in welchem Sie die Anzahl 
 **Themenverantwortliche müssen Teilnehmer akzeptieren:**
 Wenn Sie diese Option auswählen, können sich Teilnehmer nur provisorisch für ein Thema einschreiben. Die Themenverantwortlichen müssen dann die definitiven Teilnehmer aus den möglichen Kandidaten auswählen und akzeptieren. Wenn Sie diese Option nicht auswählen, werden automatisch alle Teilnehmer akzeptiert, die sich für das Thema eingeschrieben haben. Die Themenverantwortlichen haben aber vorgängig die Möglichkeit, die maximale Teilnehmerzahl zu definieren.  
   
-**Nur ein Thema erlaubt (Akzeptierte Teilnehmer werden automatisch aus allen anderen Themen ausgetragen):** 
-Diese Option bedeutet, dass vom Themenverantwortlichen akzeptierte Teilnehmer automatisch aus allen anderen
-gewählten Themen ausgetragen werden. Teilnehmende sind also höchstens für ein Thema definitiv eingeschrieben.
+**Nur ein Thema erlaubt (Akzeptierte Teilnehmer werden automatisch aus allen anderen Themen ausgetragen):**  Diese Option bedeutet, dass vom Themenverantwortlichen akzeptierte Teilnehmer automatisch aus allen anderen gewählten Themen ausgetragen werden. Teilnehmende sind also höchstens für ein Thema definitiv eingeschrieben.
 
 **Zusätzliche Felder hinzufügen:**
 Über "Feld hinzufügen" können Sie maximal fünf Ihren Bedürfnissen angepasste Felder für die genauere Beschreibung der Themen hinzufügen.
@@ -55,51 +52,35 @@ geschlossen und die Teilnehmer können keine Dokumente mehr in den Abgabeordner 
 
 Wenn Sie "**Erscheint in der Tabelle**" wählen, wird der Termin in der Themenübersicht angezeigt.
 
+---
+
 ### Weitere Einstellungen der Themenvergabe
 
 **Themenverantwortliche ernennen - Tab "Verantwortliche"**
-Im Tab „Verantwortliche“ fügen Sie diejenigen OpenOlat-Benutzer hinzu, welche Themen ausschreiben und betreuen dürfen. Diese Personen müssen nicht zwingend
-Autorenrechte haben.
 
-Falls Sie einen Themenverantwortlichen entfernen, der bereits Themen ausgeschrieben hat, kann er diese weiterhin betreuen, aber keine neuen Themen ausschreiben.
+  Im Tab "Verantwortliche" fügen Sie diejenigen OpenOlat-Benutzer hinzu, welche Themen ausschreiben und betreuen dürfen. Diese Personen müssen nicht zwingend Autorenrechte haben.
+
+  Falls Sie einen Themenverantwortlichen entfernen, der bereits Themen ausgeschrieben hat, kann er diese weiterhin betreuen, aber keine neuen Themen ausschreiben.
 
 * **Rolle des Themenverantwortlichen**
-
-  Wenn Sie vom Besitzer als Themenverantwortlichen eingesetzt werden, können Sie
-selber Themen ausschreiben und betreuen. Öffnen Sie die Kursansicht und
-navigieren Sie zur Themenvergabe. Als Themenverantwortlicher haben Sie Zugriff
-auf die zugehörigen Ordner. Ferner können Sie das Thema editieren, die
-Teilnehmer des Themas verwalten sowie weitere Themenverantwortliche
-hinzufügen.
+  
+  Wenn Sie vom Besitzer als Themenverantwortlichen eingesetzt werden, können Sie selber Themen ausschreiben und betreuen. Öffnen Sie die Kursansicht und navigieren Sie zur Themenvergabe. Als Themenverantwortlicher haben Sie Zugriff auf die zugehörigen Ordner. Ferner können Sie das Thema editieren, die Teilnehmer des Themas verwalten sowie weitere Themenverantwortliche hinzufügen.
 
 * **Ordner - Tab "Teilbausteine"**
 
-  Im Abgabeordner können Teilnehmer Dateien hochladen, die dann für die
-Themenverantwortlichen zugänglich sind. Die Themenverantwortlichen können
-Dateien in den Rückgabeordner legen.Voraussetzung ist, dass die Ordner in der
-Konfiguration im Kurseditor aktiviert sind.
+  Im Abgabeordner können Teilnehmer Dateien hochladen, die dann für die Themenverantwortlichen zugänglich sind. Die Themenverantwortlichen können Dateien in den Rückgabeordner legen. Voraussetzung ist, dass die Ordner in der Konfiguration im Kurseditor aktiviert sind.
 
-* ***Bestätigung der Abgabe - Tab "Abgabe"**
+* **Bestätigung der Abgabe - Tab "Abgabe"**
 
-  Sie können optional einen Text eingeben, der dem Benutzer nach erfolgreicher
-Abgabe der Datei in einem Fenster präsentiert wird. Wenn Sie keinen Text
-eingeben, so wird sinngemäss folgender Text ausgegeben: Hiermit wird
-bestätigt, dass Meier Hubert (hmeier) die Datei "test.html" am 21.09.04 um
-00:14:42 hochgeladen hat.
+  Sie können optional einen Text eingeben, der dem Benutzer nach erfolgreicher Abgabe der Datei in einem Fenster präsentiert wird. Wenn Sie keinen Text eingeben, so wird sinngemäss folgender Text ausgegeben: Hiermit wird bestätigt, dass Meier Hubert (hmeier) die Datei "test.html" am 21.09.04 um 00:14:42 hochgeladen hat.
 
-  Wenn Sie die Option  _Text zusätzlich als E-Mail verschicken_ auswählen, so
-wird dem Benutzer nach erfolgreicher Abgabe seiner Datei ein E-Mail mit dem
-obigen Bestätigungstext geschickt.
+  Wenn Sie die Option  _Text zusätzlich als E-Mail verschicken_ auswählen, so wird dem Benutzer nach erfolgreicher Abgabe seiner Datei ein E-Mail mit dem obigen Bestätigungstext geschickt.
 
 ## Kursansicht {: #topic_assignment_runtime}
 
 ### **Neues Thema erstellen**
 
-Als Kursbesitzer oder Themenverantwortlicher können Sie neue Themen
-einrichten. Übergibt man den Lernenden das Recht des Themenverantwortlichen
-können sie selbst Themen(vorschläge) innerhalb eines Kurses einstellen und so
-z.B. die weitere Gestaltung eines Kurses mitbestimmen oder selbst Vorschläge
-für potenzielle Hausarbeiten oder Referate einreichen.
+Als Kursbesitzer oder Themenverantwortlicher können Sie neue Themen einrichten. Übergibt man den Lernenden das Recht des Themenverantwortlichen können sie selbst Themen(vorschläge) innerhalb eines Kurses einstellen und so z.B. die weitere Gestaltung eines Kurses mitbestimmen oder selbst Vorschläge für potenzielle Hausarbeiten oder Referate einreichen.
 
 Klicken Sie auf „**Neues Thema erstellen**“ und geben Sie Thementitel und
 Beschreibung ein. Je nach Konfiguration der Themenvergabe können Sie das Thema
@@ -111,20 +92,17 @@ bei Themenaus-/abwahl per E-Mail benachrichtigt werden soll.
 
 !!! tip "Tipp"
 
-    Wenn Sie zu einem späteren Zeitpunkt die Konfiguration ändern wollen, klicken Sie auf den Titel des Themas. Nun können Sie das Thema editieren, den Themenstatus von „frei“ auf „belegt“ oder umgekehrt ändern oder das Thema löschen.
+    Wenn Sie zu einem späteren Zeitpunkt die Konfiguration ändern wollen, klicken Sie auf den Titel des Themas. Nun können Sie das Thema editieren, den Themenstatus von "frei" auf "belegt" oder umgekehrt ändern oder das Thema löschen.
 
 ### **Thema erstellen und bearbeiten im Detail**
 
 * **Thema:**
 
-  Unter Titel ist der Titel des Themas aufgeführt, und kann vom
-Themenverantwortlichen geändert werden.  
+  Unter Titel ist der Titel des Themas aufgeführt, und kann vom Themenverantwortlichen geändert werden.  
   
 * **Verantwortlich:**
 
-  Hier sind die Themenverantwortlichen aufgelistet. Wenn
-User auf den Namen des Themenverantwortliches klicken, gelangen Sie zu seiner
-Visitenkarte und können ihn kontaktieren.
+  Hier sind die Themenverantwortlichen aufgelistet. Wenn User auf den Namen des Themenverantwortliches klicken, gelangen Sie zu seiner Visitenkarte und können ihn kontaktieren.
 
 !!! info "Info"
 
@@ -132,81 +110,52 @@ Visitenkarte und können ihn kontaktieren.
   
 * **Beschreibung:**
 
-  Im Feld Beschreibung können Detailinformationen zum Thema
-eingetragen werden.
+  Im Feld "Beschreibung" können Detailinformationen zum Thema eingetragen werden.
 
 * **Themenstatus:**
 
   In diesem Feld wird automatisch der Themenstatus angezeigt.
 
-  Sind Sie Themenverantwortlicher oder Kursbesitzer und es haben sich noch keine
-Teilnehmer für Ihr Thema eingeschrieben, ist der Themenstatus auf "Keine
-Teilnehmer zu prüfen" gesetzt. Haben sich Teilnehmer bereits eingetragen, ist
-der Status auf "Teilnehmer prüfen" gesetzt. Haben Sie bereits aus den
-möglichen Kandidaten Teilnehmer gewählt, wird der Status "Teilnehmer
-akzeptiert" angezeigt.
+  Sind Sie Themenverantwortlicher oder Kursbesitzer und es haben sich noch keine Teilnehmer für Ihr Thema eingeschrieben, ist der Themenstatus auf "Keine Teilnehmer zu prüfen" gesetzt. Haben sich Teilnehmer bereits eingetragen, ist der Status auf "Teilnehmer prüfen" gesetzt. Haben Sie bereits aus den möglichen Kandidaten Teilnehmer gewählt, wird der Status "Teilnehmer akzeptiert" angezeigt.
 
 * **Anzahl Bewerber limitieren:**
 
-  Die Themenverantwortlichen können die
-verfügbare Anzahl Plätze begrenzen.
+  Die Themenverantwortlichen können die verfügbare Anzahl Plätze begrenzen.
 
 * **Abmelden vom Thema erlauben:**
 
-  Sofern aktiviert dürfen sich die Teilnehmer
-auch wieder aus einem Thema austragen.
+  Sofern aktiviert dürfen sich die Teilnehmer auch wieder aus einem Thema austragen.
 
 * **Zusätzliche Felder:**
 
-  Sofern vom Kursbesitzer im Kurseditor eingerichtet
-(siehe oben) stehen den Themenverantwortlichen weitere Zusatzfelder zur
-Verfügung. Je nach Umsetzung stehen hier ein oder mehrere Auswahlelement in
-einer Drop-Downliste zur Verfügung oder die Themenveranwortlichen können
-selbst Text einfügen.
+  Sofern vom Kursbesitzer im Kurseditor eingerichtet (siehe oben), stehen den Themenverantwortlichen weitere Zusatzfelder zur Verfügung. Je nach Umsetzung stehen hier ein oder mehrere Auswahlelement in einer Drop-Downliste zur Verfügung oder die Themenveranwortlichen können selbst Text einfügen.
 
 * **Einschreibetermin:**
 
-  Sofern im Editor eingerichtet, können
-Themenverantwortliche hier eine Einschreibefrist definieren, wodurch nur in
-der entsprechenden Zeitspanne ein Thema aus- bzw. abgewählt werden kann. Vor
-und nach dieser Frist werden die Links "Wählen" und "Abwählen" deaktiviert und
-Benutzer können sich nicht in Ihr Thema ein- und austragen. Vor und nach
-Ablauf der Einschreibefrist können Teilnehmer aber vom Themenverantwortlichen
-manuell ein- oder ausgetragen werden.  
+  Sofern im Editor eingerichtet, können Themenverantwortliche hier eine Einschreibefrist definieren, wodurch nur in der entsprechenden Zeitspanne ein Thema aus- bzw. abgewählt werden kann. Vor und nach dieser Frist werden die Links "Wählen" und "Abwählen" deaktiviert und Benutzer können sich nicht in Ihr Thema ein- und austragen. Vor und nach Ablauf der Einschreibefrist können Teilnehmer aber vom Themenverantwortlichen manuell ein- oder ausgetragen werden.  
   
 * **Abgabetermin:**
 
-  Sofern im Editor eingerichtet, können Themenverantwortliche
-eine Abgabefrist definieren. Nur in der entsprechenden Zeitspanne können dann
-Dokumente in den Abgabeordner hochgeladen werden.  
+  Sofern im Editor eingerichtet, können Themenverantwortliche eine Abgabefrist definieren. Nur in der entsprechenden Zeitspanne können dann Dokumente in den Abgabeordner hochgeladen werden.  
   
 * **Anhang:**  
 
-  Im Feld Anhang können die Themenverantwortlichen eine Datei
-hochladen. Das macht dann Sinn wenn man noch umfangreiche Dokuemnte zu einem
-Thema ergänzen möchte. Mehrere Dateien können als ZIP-Datei hochgeladen
-werden.  
+  Im Feld Anhang können die Themenverantwortlichen eine Datei hochladen. Das macht dann Sinn wenn man noch umfangreiche Dokumente zu einem Thema ergänzen möchte. Mehrere Dateien können als ZIP-Datei hochgeladen werden.  
   
 * **E-Mail-Benachrichtigung bei Themen Auswahl/Abwahl:**
 
-  Wenn Sie diese Option
-wählen, werden Sie per E-Mail benachrichtigt, wenn Kursteilnehmer Ihr Thema
-aus- oder abwählen.
+  Wenn Sie diese Option wählen, werden Sie per E-Mail benachrichtigt, wenn Kursteilnehmer Ihr Thema aus- oder abwählen.
 
 ![themen_belegt.png](assets/Themen_belegt.jpg)
 
-Über "**Thema editieren**" gelangen Sie in den Bearbeitungsmodus und können die
-aufgeführten Felder ändern.
+Über "**Thema editieren**" gelangen Sie in den Bearbeitungsmodus und können die aufgeführten Felder ändern.
 
-Klicken Sie auf "**Thema löschen**", wenn Sie Ihr Thema aus der Themenvergabe
-entfernen möchten.
+Klicken Sie auf "**Thema löschen**", wenn Sie Ihr Thema aus der Themenvergabe entfernen möchten.
 
 Wählen Sie "**Themenstatus auf "Belegt" setzen**", wenn keine weiteren Teilnehmer
 ein Thema wählen können sollen. 
 
-Über "**Themenstatus auf "Frei" setzen**" können
-Sie ein Thema erneut zur Wahl öffnen, auch wenn sich bereits Teilnehmer
-eingeschrieben und Sie diese akzeptiert haben. 
+Über "**Themenstatus auf "Frei" setzen**" können Sie ein Thema erneut zur Wahl öffnen, auch wenn sich bereits Teilnehmer eingeschrieben und Sie diese akzeptiert haben. 
 
 !!! warning "Achtung"
 
@@ -216,7 +165,7 @@ eingeschrieben und Sie diese akzeptiert haben.
 
 ### Teilnehmer verwalten
 
-Wenn die Konfiguration der Themenvergabe vorsieht, dass die Wahl der Kursteilnehmer vom Themenverantwortlichen akzeptiert werden muss, sehen Sie auf der Startseite der Themenvergabe in der Tabelle den Vermerk „**Teilnehmer prüfen**“, sobald sich jemand für Ihr Thema eingeschrieben hat.
+Wenn die Konfiguration der Themenvergabe vorsieht, dass die Wahl der Kursteilnehmer vom Themenverantwortlichen akzeptiert werden muss, sehen Sie auf der Startseite der Themenvergabe in der Tabelle den Vermerk "**Teilnehmer prüfen**", sobald sich jemand für Ihr Thema eingeschrieben hat.
 
 ![teilnehmer_pruefen.png](assets/Themen_Teilnehmer_pruefen.png)
 
@@ -224,40 +173,23 @@ Wenn die Konfiguration der Themenvergabe vorsieht, dass die Wahl der Kursteilneh
 
 Öffnen Sie den Tab "**Teilnehmerverwaltung**" und akzeptieren Sie den/die Kandidaten.
 
-Über "**Als Teilnehmer übernehmen**" wählen Sie, wem Sie das Thema vergeben
-möchten. Die akzeptierten Teilnehmer werden zur Liste "Akzeptierte Teilnehmer"
-hinzugefügt und werden auf Ihren Wunsch per E-Mail benachrichtigt. Markieren
-Sie die Kandidaten, die Sie nicht akzeptieren, und klicken Sie auf
-"Entfernen". Auf Ihren Wunsch werden die abgelehnten Kandidaten ebenfalls per
-E-Mail benachrichtigt.
+Über "**Als Teilnehmer übernehmen**" wählen Sie, wem Sie das Thema vergeben möchten. Die akzeptierten Teilnehmer werden zur Liste "Akzeptierte Teilnehmer" hinzugefügt und werden auf Ihren Wunsch per E-Mail benachrichtigt. Markieren Sie die Kandidaten, die Sie nicht akzeptieren, und klicken Sie auf "Entfernen". Auf Ihren Wunsch werden die abgelehnten Kandidaten ebenfalls per E-Mail benachrichtigt.
 
-Wenn Sie die Anzahl der Plätze nicht limitiert haben, können Sie den Vorgang
-mehrmals wiederholen. Denken Sie daran, im Tab "Beschreibung" "Themenstatus
-auf "Belegt" setzen" zu wählen, damit sich keine weiteren Kursteilnehmer für
-Ihr Thema bewerben.
+Wenn Sie die Anzahl der Plätze nicht limitiert haben, können Sie den Vorgang mehrmals wiederholen. Denken Sie daran, im Tab "Beschreibung" "Themenstatus auf "Belegt" setzen" zu wählen, damit sich keine weiteren Kursteilnehmer für Ihr Thema bewerben.
 
 In diesem Tab können Sie auch manuell Teilnehmer sowie weitere Themenverantwortliche hinzufügen oder entfernen. Teilnehmer haben kein Recht, das Thema zu editieren.
 
 ### Dateien herunterladen und zurückgeben
 
-Im Tab „Ordner“ finden Sie im Abschnitt „Abgabeordner“ alle Dateien, die Kursteilnehmer abgegeben haben. Im Abschnitt „Rückgabeordner“ können Sie korrigierte Dateien zurückgeben. Für jeden Kursteilnehmer steht dazu ein Unterordner bereit.
+Im Tab "Ordner" finden Sie im Abschnitt "Abgabeordner" alle Dateien, die Kursteilnehmer abgegeben haben. Im Abschnitt "Rückgabeordner" können Sie korrigierte Dateien zurückgeben. Für jeden Kursteilnehmer steht dazu ein Unterordner bereit.
 
 ## Nutzerperspektive
 
-Falls der Themenstatus auf "Frei" ist, können sich Benutzer für ein Thema
-einschreiben, sofern sie die maximal mögliche Themenauswahl nicht
-überschritten haben. Steht der Themenstatus auf "Belegt" können sich keine
-weiteren Benutzer einschreiben. Wenn Sie bereits ein Thema gewählt haben,
-steht der Themenstatus entweder auf "Provisorisch zugewiesen", wenn der
-Themenverantwortliche Sie als Teilnehmer akzeptieren muss, oder auf
-"Zugewiesen", wenn die Einschreibung automatisch verläuft. Sobald Sie der
-Themenverantwortliche als Teilnehmer akzeptiert, wird der Themenstatus auf
-"Definitiv zugewiesen" gesetzt.
+Falls der Themenstatus auf "Frei" ist, können sich Benutzer für ein Thema einschreiben, sofern sie die maximal mögliche Themenauswahl nicht überschritten haben. Steht der Themenstatus auf "Belegt" können sich keine weiteren Benutzer einschreiben. Wenn Sie bereits ein Thema gewählt haben, steht der Themenstatus entweder auf "Provisorisch zugewiesen", wenn der Themenverantwortliche Sie als Teilnehmer akzeptieren muss, oder auf "Zugewiesen", wenn die Einschreibung automatisch verläuft. Sobald Sie der Themenverantwortliche als Teilnehmer akzeptiert, wird der Themenstatus auf "Definitiv zugewiesen" gesetzt.
 
 ## Themen einer Themenvergabe verwalten
 
-Der Kursbaustein „Themenvergabe“ kommt innerhalb eines OpenOlat-Kurses zum Einsatz. Der Besitzer eines Kurses kann den Kursbaustein nach Bedarf konfigurieren und Themenverantwortliche bestimmen. Als Themenverantwortliche/r können Sie den Kursteilnehmern Themen zur Auswahl anbieten und die Teilnehmer
-Ihrer Themen verwalten. Die Kursteilnehmer können schriftliche Arbeiten über den Abgabeordner einreichen und Sie können den Kursteilnehmern die korrigierten Arbeiten über den Rückgabeordner zurückgeben.
+Der Kursbaustein "Themenvergabe" kommt innerhalb eines OpenOlat-Kurses zum Einsatz. Der Besitzer eines Kurses kann den Kursbaustein nach Bedarf konfigurieren und Themenverantwortliche bestimmen. Als Themenverantwortliche/r können Sie den Kursteilnehmern Themen zur Auswahl anbieten und die Teilnehmer Ihrer Themen verwalten. Die Kursteilnehmer können schriftliche Arbeiten über den Abgabeordner einreichen und Sie können den Kursteilnehmern die korrigierten Arbeiten über den Rückgabeordner zurückgeben.
 
 ## Arbeiten mit der Themenvergabe
 
@@ -265,65 +197,35 @@ Ihrer Themen verwalten. Die Kursteilnehmer können schriftliche Arbeiten über d
 
 ### Thema auswählen {: #select}
 
-In der Themenvergabe stellen Themenverantwortliche Themen von beispielsweise
-Semesterarbeiten, Referaten, Webinarthemen oder Projekten zur Verfügung. Je
-nach Konfiguration können Sie eines oder mehrere Themen auswählen, Dateien
-hochladen und die vom Themenverantwortlichen zurückgegebenen Dateien einsehen.
+In der Themenvergabe stellen Themenverantwortliche Themen von beispielsweise Semesterarbeiten, Referaten, Webinarthemen oder Projekten zur Verfügung. Je nach Konfiguration können Sie eines oder mehrere Themen auswählen, Dateien hochladen und die vom Themenverantwortlichen zurückgegebenen Dateien einsehen.
 
 ### Tabellenübersicht Themenvergabe
 
-Als Kursteilnehmer sehen Sie in der Tabelle die ausgeschriebenen Themen sowie
-weitere Informationen wie die Namen der Verantwortlichen, den Einschreibe- und
-Abgabezeitraum oder die Anzahl der freien Plätze und können Ihr gewünschtes
-Thema „wählen“. Je nach Konfiguration können Sie eines oder mehrere Themen
-auswählen.
+Als Kursteilnehmer sehen Sie in der Tabelle die ausgeschriebenen Themen sowie weitere Informationen wie die Namen der Verantwortlichen, den Einschreibe- und Abgabezeitraum oder die Anzahl der freien Plätze und können Ihr gewünschtes Thema "wählen". Je nach Konfiguration können Sie eines oder mehrere Themen auswählen.
 
- **Themenstatus** : Falls der Themenstatus auf "Frei" ist, können Sie sich für
-ein Thema eintragen. Das ist so lange möglich bis die maximale Teilnehmerzahl
-oder ein Enddatum erreicht ist. Ist der Themenstatus auf "Belegt", können sich
-bei diesem Thema keine weiteren Benutzer eintragen. Wenn Sie bereits ein Thema
-gewählt haben, ist der Themenstatus entweder auf "Provisorisch zugewiesen",
-wenn der Themenverantwortliche Sie als Teilnehmer akzeptieren muss. Sobald Sie
-der Themenverantwortliche als Teilnehmer akzeptiert, wird der Themenstatus auf
-"Definitiv zugewiesen" gesetzt. Alternativ ist auch eine automatische
-Akzeptanz möglich.
+ **Themenstatus**: Falls der Themenstatus auf "Frei" ist, können Sie sich für ein Thema eintragen. Das ist so lange möglich bis die maximale Teilnehmerzahl oder ein Enddatum erreicht ist. Ist der Themenstatus auf "Belegt", können sich bei diesem Thema keine weiteren Benutzer eintragen. Wenn Sie bereits ein Thema gewählt haben, ist der Themenstatus entweder auf "Provisorisch zugewiesen", wenn der Themenverantwortliche Sie als Teilnehmer akzeptieren muss. Sobald Sie der Themenverantwortliche als Teilnehmer akzeptiert, wird der Themenstatus auf "Definitiv zugewiesen" gesetzt. Alternativ ist auch eine automatische Akzeptanz möglich.
 
-Sobald ihre Wahl definitiv ist, sehen Sie den entsprechenden Eintrag in der
-Tabelle und finden rechts oben den Link zu der Gruppe mit dem Titel Ihres
-Themas (eventuell erscheint der Eintrag erst nach dem nächsten OLAT Login).
-Sie können ein Thema nur dann abwählen, wenn der Themenverantwortliche es für
-das betroffene Thema gestattet. Besteht eine Einschreibefrist, können Sie sich
-nach Ablauf dieser Frist in jedem Fall nicht mehr austragen.
+Sobald ihre Wahl definitiv ist, sehen Sie den entsprechenden Eintrag in der Tabelle und finden rechts oben den Link zu der Gruppe mit dem Titel Ihres Themas (eventuell erscheint der Eintrag erst nach dem nächsten OLAT Login). Sie können ein Thema nur dann abwählen, wenn der Themenverantwortliche es für das betroffene Thema gestattet. Besteht eine Einschreibefrist, können Sie sich nach Ablauf dieser Frist in jedem Fall nicht mehr austragen.
 
-Möglicherweise sehen Sie nicht alle der aufgeführten Dinge, da Ihr Dozent
-nicht alle Funktionen verwendet.
+Möglicherweise sehen Sie nicht alle der aufgeführten Dinge, da Ihr Dozent nicht alle Funktionen verwendet.
 
 Klicken Sie auf ein Thema um weitere Informationen dazu zu erhalten:
 
 ### Themendetails
 
- **Thema** : Im Titel ist die Bezeichnung des Themas aufgeführt
+ **Thema**: Im Titel ist die Bezeichnung des Themas aufgeführt.
 
- **Verantwortlich** : Hier sind die Themenverantwortlichen aufgelistet. Wenn
-Sie auf den Namen des Themenverantwortlichen klicken, gelangen Sie zu seiner
-Visitenkarte und können ihn kontaktieren.
+ **Verantwortlich**: Hier sind die Themenverantwortlichen aufgelistet. Wenn Sie auf den Namen des Themenverantwortlichen klicken, gelangen Sie zu seiner Visitenkarte und können ihn kontaktieren.
 
- **Beschreibung** : Im Feld Beschreibung finden Sie, sofern angegeben,
-Detailinformationen zum Thema.
+ **Beschreibung**: Im Feld Beschreibung finden Sie, sofern angegeben, Detailinformationen zum Thema.
 
- **Zusätzliche Felder** : Eventuell werden Ihnen noch weitere Informationen in
-Zusatzfeldern bereitgestellt.  
+ **Zusätzliche Felder**: Eventuell werden Ihnen noch weitere Informationen in Zusatzfeldern bereitgestellt.  
 
- **Einschreibetermin** : Wenn die Themenverantwortlichen eine Einschreibefrist
-definiert haben, können Sie nur in der entsprechenden Zeitspanne ein Thema
-aus- bzw. abwählen. Vor und nach Ablauf der Einschreibefrist kann Sie der
-Themenverantwortliche manuell ein- oder austragen.
+ **Einschreibetermin**: Wenn die Themenverantwortlichen eine Einschreibefrist definiert haben, können Sie nur in der entsprechenden Zeitspanne ein Thema aus- bzw. abwählen. Vor und nach Ablauf der Einschreibefrist kann Sie der Themenverantwortliche manuell ein- oder austragen.
 
- **Abgabetermin** : Bis zu diesem Datum können Dateien im Ordner der
-Themenvergabe eingereicht werden.
+ **Abgabetermin**: Bis zu diesem Datum können Dateien im Ordner der Themenvergabe eingereicht werden.
 
- **Anhang** : Im Feld Anhang können die Themenverantwortlichen eine Datei
-bereitstellen.
+ **Anhang**: Im Feld Anhang können die Themenverantwortlichen eine Datei bereitstellen.
 
 ### Einreichungsprozess
 
@@ -331,13 +233,10 @@ Optional können bei der Themenvergabe auch Einsendungen verwaltet werden.
 
 **Dateien in den Abgabeordner der Themenvergabe hochladen**
 
-Klicken Sie auf den Titel des Themas. Im Tab „Ordner“ finden Sie den
-Abgabeordner. Je nach Konfiguration ist die Abgabe termingebunden und Sie
-können nur innerhalb der Abgabefrist Dateien hochladen. Genaue Information zu
-den Terminen finden Sie im Tab „Beschreibung“.
+Klicken Sie auf den Titel des Themas. Im Tab "Ordner" finden Sie den Abgabeordner. Je nach Konfiguration ist die Abgabe termingebunden und Sie können nur innerhalb der Abgabefrist Dateien hochladen. Genaue Information zu den Terminen finden Sie im Tab "Beschreibung".
 
 **Dateien aus dem Rückgabeordner herunterladen**
 
-Im Tab „Ordner“ finden Sie im Abschnitt „Rückgabeordner“ die Dateien, die Ihnen der Themenverantwortliche zurückgegeben hat.
+Im Tab "Ordner" finden Sie im Abschnitt "Rückgabeordner" die Dateien, die Ihnen der Themenverantwortliche zurückgegeben hat.
 
-Wenn Sie als Themenverantwortlicher eingesetzt werden, können Sie Themen ausschreiben. Mehr dazu und dem Akzeptieren und Betreuen von Teilnehmern erfahren Sie im Kapitel „Kursbausteine“ → "Andere" unter dem Punkt "[Kursbaustein Themenvergabe](../learningresources/Other.de.md#Andere-_bb_themenvergabe)".
+Wenn Sie als Themenverantwortlicher eingesetzt werden, können Sie Themen ausschreiben. Mehr dazu und dem Akzeptieren und Betreuen von Teilnehmern erfahren Sie im Kapitel "Kursbausteine" → "Andere" unter dem Punkt "[Kursbaustein Themenvergabe](../learningresources/Other.de.md#kursbaustein-„themenvergabe--topic_assignment)".
