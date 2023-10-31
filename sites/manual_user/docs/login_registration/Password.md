@@ -1,6 +1,10 @@
 # Password
 
 
+!!! info "Note"
+
+    If security level 2 was selected (passkey only), then password setting is no longer possible.
+
 ## Change the password yourself
 
 All users of OpenOlat can change their password at any time.
@@ -17,3 +21,6 @@ If you have the role of a user manager or administrator, you can reset passwords
 
 ![password_admin_v1_en.png](assets/password_admin_v1_en.png){ class=" shadow lightbox" }
 
+## Password assignment by
+
+tbd

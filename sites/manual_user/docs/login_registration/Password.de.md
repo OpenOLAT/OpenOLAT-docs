@@ -1,5 +1,8 @@
 # Passwort
 
+!!! info "Hinweis"
+
+    Wurde die Sicherheitsstufe 2 gewählt (nur Passkey), dann ist kein Passwort-Setzen mehr möglich.
 
 ## Passwort selbst ändern
 
@@ -17,3 +20,6 @@ Wenn Sie die Rolle eines/einer Benutzerverwalter:in haben oder Administrator:in 
 
 ![password_admin_v1_de.png](assets/password_admin_v1_de.png){ class=" shadow lightbox" }
 
+## Passwortvergabe durch
+
+tbd
