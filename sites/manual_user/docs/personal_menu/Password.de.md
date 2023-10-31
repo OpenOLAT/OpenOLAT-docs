@@ -1,7 +1,7 @@
 # Passwort
 
 Sofern Ihr Account nicht von einem externen Benutzerverwaltungssystem
-gesteuert wird (siehe [Login](../login_registration/index.de.md)), können Sie im persönlichen Menü im Abschnitt "Konfiguration" Ihr Passwort ändern. 
+gesteuert wird (siehe [Login-Konzept](../login_registration/Login_Concept.de.md)), können Sie im persönlichen Menü im Abschnitt "Konfiguration" Ihr Passwort ändern. 
 
 ![](assets/password_change_v1_de.png)
 

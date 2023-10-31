@@ -1,12 +1,12 @@
-# Registration, Login and Logout
+# Login and Registration
 
-  * [Login Page](Login_Page.md)
-  * [Session Timeout and Logout](../basic_concepts/Session_Timeout_and_Logout.md)
+To use OpenOlat to its full extent, you must be registered in OpenOlat. You can only use OpenOlat anonymously as a guest with limited possibilities. 
 
-  
-In this chapter you will learn how to register in OpenOlat and how to log out.
-Additionally you will come to know more about the information available on the
-login page.
+Each time you start OpenOlat, the [login page](Login_Page.md) appears, where you can log in. You can read more about the different login methods in this chapter.
+
+About logout and timeout you can find some information [here](../basic_concepts/Session_Timeout_and_Logout.md).
+
+
 
 ## Your first OpenOlat registration
 
@@ -21,6 +21,7 @@ in your organization.
 
 After successful registration you will be directed to the systemwide landing
 page, which can differ between systems and also between OpenOlat authors and
-users. Further information on how to set your personal landing can be found in
-[Settings](../personal_menu/Configuration.md#Configuration-_einstellungen).
+users. 
 
+Further information on how to set your personal landing can be found in
+[Settings](../personal_menu/Configuration.md#general).

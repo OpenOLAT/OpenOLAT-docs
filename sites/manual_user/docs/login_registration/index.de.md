@@ -1,13 +1,11 @@
-# Registrierung, Login und Logout
+# Login und Registrierung
 
-  * [Login-Seite](Login_Page.de.md)
-  * [Session-Timeout und Logout](../basic_concepts/Session_Timeout_and_Logout.de.md)
+Um OpenOlat in vollem Umfang nutzen zu können, müssen Sie in OpenOlat registriert sein. Anonym können Sie OpenOlat nur als Gast mit eng begenzten Möglichkeiten aufrufen. 
 
-  
+Bei jedem neuen Aufruf von OpenOlat erscheint die [Login-Seite](Login_Page.de.md), auf der Sie sich anmelden. Mehr zu den unterschiedlichen Login-Methoden erfahren Sie in diesem Kapitel.
 
-In diesem Kapitel erfahren Sie, wie Sie sich bei OpenOlat registrieren können,
-welche Information über die Login-Seite angeboten wird und wie das Logout
-funktioniert.
+Zu Logout und Timeout finden Sie [hier](../basic_concepts/Session_Timeout_and_Logout.de.md) einige Informationen.
+
 
 ## Erstmalige Registration
 
@@ -20,6 +18,8 @@ an den lokalen OpenOlat Support Ihrer Organisation.
 
 Nach erfolgreicher Registrierung wird die vom Systemadministrator festgelegte
 Startseite angezeigt. Diese kann je nach System unterschiedlich sein und auch
-noch mal für OpenOlat Autoren und Benutzer variieren. [Hier](../personal_menu/Configuration.de.md#Konfiguration-_einstellungen) finden Sie
+nochmals für OpenOlat-Autor:innen und Benutzer:innen variieren.
+
+[Hier](../personal_menu/Configuration.de.md#general) finden Sie
 Informationen dazu wie Sie ihre persönliche Startseite festlegen können.
 

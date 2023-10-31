@@ -1,6 +1,6 @@
 # Password
 
-If your account is not controlled by an external user management system (ses [Login](../login_registration/index.md)), you can change your password in your personal menu, section configuration.
+If your account is not controlled by an external user management system (see [Login Concept](../login_registration/Login_Concept.md)), you can change your password in your personal menu, section configuration.
 
 ![](assets/password_change_v1_en.png)
 
