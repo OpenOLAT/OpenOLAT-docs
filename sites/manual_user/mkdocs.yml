@@ -28,6 +28,7 @@ nav:
     - login_registration/index.md
     - Login Page: "login_registration/Login_Page.md"
     - Login Concept: "login_registration/Login_Concept.md"
+    - Password: "login_registration/Password.md"
     - Passkey: "login_registration/Passkey.md"
 
   - Personal menu:
