@@ -19,7 +19,7 @@
 
 ## Convert single questions
 
-Beside tests also single questions can be converted. Questions are converted in the question bank.
+Beside tests, single questions can also be converted. Questions are converted in the question bank.
 
 1. Open the [question bank](../area_modules/Question_Bank.md)
 2. Mark the questions (in the format IMS QTI 1.2) you want to convert
@@ -58,4 +58,4 @@ If you want to run the test in the new format QTI 2.1 you can:
 
 !!! tip "Recommendation"
 
-    If you exchange the existing test all results will be lost. It is thus recommended to create a new course element test and limit the visibility/access to the old test.
+    If you exchange the existing test all results will be lost. It is thus recommended to create a new course element "test" and limit the visibility/access to the old test.
