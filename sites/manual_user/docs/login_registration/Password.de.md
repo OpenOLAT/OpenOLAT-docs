@@ -19,6 +19,6 @@ Es kommt oft vor, dass jemand sein Passwort vergessen hat und um die Vergabe ein
 
 ![password_admin_v1_de.png](assets/password_admin_v1_de.png){ class=" shadow lightbox" }
 
-## Passwortvergabe durch
+## Passwortvergabe durch den Syncher
 
 tbd

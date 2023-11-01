@@ -6,16 +6,24 @@ Each time you start OpenOlat, the [login page](Login_Page.md) appears, where you
 
 About logout and timeout you can find some information [here](../basic_concepts/Session_Timeout_and_Logout.md).
 
+!!! hint "Frequently asked questions"
+
+    * [Where can I change my password?](../login_registration/Password.md)
+    * [Which security levels are available in OpenOlat?](../login_registration/Security_levels.md)
+    * [How can I create a passkey?](../login_registration/Passkey.md#activate)
+    * ...
 
 
-## Your first OpenOlat registration
 
-In order to work with OpenOlat you need an internet connection as well as a
-[browser](Login_Page.md#LoginPage-login_browsercheck). The kind of the first
-registration as well as the concrete procedure varies depending on the
-OpenOlat instance. However, usually the procedure is visible on the
-corresponding OpenOlat login page. In the case of dubieties or queries please
-contact the local OpenOlat support of your organization. Concerning your first
+## Registration
+
+The kind of the first registration as well as the concrete procedure varies depending on the
+OpenOlat instance:
+
+* In most cases you were already registeres as user by your administrator or user manager as OpenOlat user, befor you got access to a specific course.
+* But it is also possible to allow and configure self registration in OpenOlat.
+
+Usually the procedure is visible on the corresponding OpenOlat login page. In the case of dubieties or queries please contact the local OpenOlat support of your organization. Concerning your first
 OpenOlat registration, please contact the manager responsible for e-learning
 in your organization.
 

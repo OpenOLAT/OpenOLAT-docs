@@ -11,7 +11,7 @@
 ## Wie funktioniert Passkey?
 
 **Schritt 1:**<br> 
-Ein Gerät (z.B. ein Smartphone oder ein PC) erhält einen Passkey (Private Key). Der Private Key wird z.B. von OpenOlat erstellt. Dieser Schlüssel ist gerätespezifisch und bleibt immer auf dem Gerät (z.B. dem Smartphone) gespeichert. Er verlässt niemals den Sicherheitschip.
+Ein Gerät (z.B. ein Smartphone oder ein PC) erhält einen Passkey (Private Key). Die Erstellung des Private Keys wird z.B. von OpenOlat angestossen. Dieser Schlüssel ist gerätespezifisch und bleibt immer auf dem Gerät (z.B. dem Smartphone) gespeichert. Er verlässt niemals den Sicherheitschip.
 
 **Schritt 2:**<br> 
 Mit Hilfe des Private Key wird auf dem Smartphone ein Public Key erstellt. Der Public Key ist mathematisch mit dem Private Key "verwandt", aber es kann keine Kopie des Private Key daraus hergestellt werden. 
@@ -39,23 +39,24 @@ OpenOlat stösst die Erstellung eines Private Keys auf dem Zielgerät an und erh
 Bei künftigen Anmeldungen in OpenOlat von diesem Gerät aus werden dann jedes Mal die Prozessschritte 3-7 automatisch ausgeführt. Das vereinfacht die Anmeldung sehr, denn es wird kein Passwort benötigt. 
 
 
-## Passkey aktivieren
+## Passkey aktivieren {: #activate}
 
-Die Aktivierung von Passkey in OpenOlat erfolgt durch die Administrator:innen.
+Die Aktivierung von Passkey in OpenOlat erfolgt durch die Administrator:innen. Mit der Aktivierung wird bestimmt, dass Passkey verwendet werden kann oder muss.
+
+Die **Erstellung** des Passkeys geschieht dann aber durch den/die Benutzer:innen auf den jeweiligen Geräten. (In OpenOlat im **persönlichen Menü** unter **"Passwort"**.) Administrator:innen können Passkeys lediglich entfernen. 
 
 Passkey kann rollenbasiert konfiguriert werden und ist Teil eines dreistufigen Sicherheitskonzeptes in OpenOlat:
 
 **Stufe 1: nur Passwort**<br>
 **Stufe 2: nur Passkey**<br>
-**Stufe 3: Passkey + Passwort**<br>
+**Stufe 3: Passkey + Passwort** (2-Stufen-Authentifizierung)<br>
 
 Ist in OpenOlat eine Sicherheitsstufe mit Passkey konfiguriert worden, dann werden die Benutzer:innen bei der nächsten Anmeldung angehalten, einen Passkey zu erstellen und diesen zukünftig für die Anmeldung zu verwenden.
 
 
 !!! note "Hinweis"
 
-    Für bestimmte Rollen (z.B. Benutzerverwalter:innen und Administrator:innen) wird Stufe 3 mit einem zusätzlichen Passwort empfohlen.<br> 
-    (2-Stufen-Authentifizierung: Passkey + Passwort)
+    Für bestimmte Rollen (z.B. Benutzerverwalter:innen und Administrator:innen) wird Stufe 2 empfohlen.
 
 
 ## Was sind Recovery Keys?

@@ -18,6 +18,6 @@ It often happens that someone has forgotten his/her password and asks for a new 
 
 ![password_admin_v1_en.png](assets/password_admin_v1_en.png){ class=" shadow lightbox" }
 
-## Password assignment by
+## Password assignment by Syncher
 
 tbd

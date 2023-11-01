@@ -11,7 +11,7 @@
 ## How does Passkey work?
 
 **Step 1:** <br>
-A device (e.g. a smartphone or computer) receives a Passkey (private key). The private key is created by OpenOlat, for example. This key is device-specific and always remains stored on the device (e.g. the smartphone). It never leaves the security chip.
+A device (e.g. a smartphone or computer) receives a Passkey (private key). The creation of a private key is initiated by OpenOlat, for example. A private key is device-specific and always remains stored on the device (e.g. the smartphone). It never leaves the security chip.
 
 **Step 2:** <br>
 The private key is used to create a public key on the smartphone. The public key is mathematically "related" to the private key, but no copy of the private key can be made from it.
@@ -38,22 +38,23 @@ OpenOlat triggers the creation of a private key on the target device and receive
 
 For future logins to OpenOlat from this device, process steps 3-7 will then be performed automatically each time. This simplifies the login a lot, because no password is needed.
 
-## Activate Passkey
+## Activate Passkey {: #activate}
 
-The activation of Passkey in OpenOlat is done by the administrator.
+The activation of Passkey in OpenOlat is done by the administrator. Activation determines that the passkey can or must be used.
+
+However, the creation of the passkey is then done by the user(s) on the respective devices. (In OpenOlat in the **personal menu** at **"password"**.) Administrators can only remove passkeys.
 
 Passkey can be configured on a role-based basis and is part of a three-tier security concept in OpenOlat:
 
 **Step 1: only Password**<br>
 **Step 2: only Passkey**<br>
-**Step 3: Passkey + Password**<br>
+**Step 3: Passkey + Password**  (2-factor authentication)<br>
 
 If a security level with passkey has been configured in OpenOlat, then the users will be prompted to create a passkey the next time they log in and to use this passkey for logging in in the future.
 
 !!! note "Note"
 
-    Level 3 with an additional password is recommended for certain roles (e.g. user administrators and administrators).
-    (2-step authentication: passkey + password)
+    Level 2 is recommended for certain roles (e.g. user administrators and administrators).
 
 ## What are Recovery Keys?
 
