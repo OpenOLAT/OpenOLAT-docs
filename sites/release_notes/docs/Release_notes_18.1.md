@@ -7,7 +7,7 @@
 
 * * *
 
-:material-calendar-month-outline: **Release date: 10/25/2023 • Last update: 10/25/2023**
+:material-calendar-month-outline: **Release date: 10/25/2023 • Last update: 11/01/2023**
 
 * * *
 
@@ -126,6 +126,8 @@ A summary of all personal and assigned to-dos can be found centrally under the p
 
 To ensure that users don't miss any e-mail notifications about new to-dos, these have been upgraded both visually and in terms of content.
 
+As of :octicons-tag-24: release 18.1.1, the "To-do" module can be activated in the administration. In addition, a role-based configuration is possible with regard to the creation of new personal to-dos and their assignment / delegation.
+
 * * *
 
 ## Media Center
@@ -144,7 +146,7 @@ Administrative users such as learning resource managers and administrators have 
 
 * * *
 
-## Integration "draw.io" editor
+## Integration of "draw.io" editor
 
 The integration of the free drawing and diagram tool "draw.io" offers new possibilities for creating content in OpenOlat.
 
@@ -166,7 +168,7 @@ Also, wherever documents can be created (e.g. task element, folder), the new doc
 
 ## Audio recorder
 
-Analogous to the video recorder, an audio recorder is now also implemented. It can be activated in the course element "Task" to create tasks or solutions. In the future, the audio recorder will also be available in the Media Center and as a block-based element in the course element "Page".
+Analogous to the video recorder, an audio recorder is now also implemented. It can be activated in the course element "Task" to create tasks or solutions. As of :octicons-tag-24: release 18.1.1, the audio recorder is also available in the Media Center and as a block-based element in the course element "Page".
 
 ![Audio recording in task element](assets/181/Audio_recording_task_EN.png){ class="shadow lightbox" title="Audio recording in task element" }
 
@@ -184,7 +186,9 @@ Analogous to the video recorder, an audio recorder is now also implemented. It c
 * New color selection concept for course layout
 * Optimization of status warnings in the course
 * Optimized order of pre-filters under "My courses"
-* Learning path: improved display of "Confirmation by user" at the course element
+* Learning path:
+    * Improved display of "Confirmation by user" at the course element
+    * Exception rules: Wildcard match for user attributes, e.g. for email domain
 * Cleanup and customization of variable names for certificates
 * Course reminders: Addition of relevant variables for use in notifications
 * LTI: support for deep link
@@ -234,6 +238,7 @@ Forms with rubrics are often used in the course element "Assessment" in the cont
 * Personal calendar:
     * Refactoring appointment creation and automatic linking to original course, group, lesson
     * Optimized handling for selection of aggregated calendars
+* Replace action for Scorm package in the learning resource
 * Groups: New filter "Name"
 * Subscriptions: display of course element title for more context information
 * Edubase:
@@ -271,11 +276,14 @@ Forms with rubrics are often used in the course element "Assessment" in the cont
     * [x] Module "draw.io" for whiteboard and diagrams: `External Tools > draw.io`
     * [x] Delete master video file after transcoding: `Modules > Video` - tab "Video Configuration" - section "Transcoding"
     * [x] Function "Audio Recorder": `Module > Audio/video recording`
-    * [x] User tool "To-do": `Core configuration > Personal tools`
+    * [x] User tool "To-do":
+        * Activation: `Modules > To-do` and `Core configuration > Personal tools`
+        * Role-based configuration: `Module > To-do`(:octicons-tag-24: release 18.1.1)
     * [x] Role based bulk search: `olat.properties > usersearch.bulk.[role]=disabled`
 
 * * *
 
 ## More information
 
+* [Jira Release Notes 18.1.1](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=21706){:target="_blank”}
 * [Jira Release Notes 18.1.0](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=21000){:target="_blank”}

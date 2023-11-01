@@ -7,7 +7,7 @@
 
 * * *
 
-:material-calendar-month-outline: **Releasedatum: 25.10.2023 • Letztes Update: 25.10.2023**
+:material-calendar-month-outline: **Releasedatum: 25.10.2023 • Letztes Update: 01.11.2023**
 
 * * *
 
@@ -15,13 +15,13 @@ Mit OpenOlat 18.1 geben wir unseren nächsten Major Release frei.
 
 Eine umfassende Neuerung stellt der **Login mit Passkey** dar und damit verbunden die Möglichkeit, ein **mehrstufiges Authentifizierungskonzept** für OpenOlat einzurichten. In diesem Zuge wurde auch ein **Redesign des Login-Screens** vorgenommen.
 
-Im Projekt-Tool wurden zahlreiche Erweiterungen wie der **Projekt Report**, das **Whiteboard** und verschiedene Optimierungen rund um die Darstellung und das Handling der Projektdaten umgesetzt. Der zentrale Zugriff auf **persönliche To-dos** unterstützt Benutzer:innen dabei, den Überblick zu behalten. Die Integration von **Draw.io** als **Diagramm- und Whiteboard-Tool** sowie der **Audio Recorder** bieten neue Möglichkeiten, um Informationen direkt in OpenOlat zu erstellen und festzuhalten.
+Im Projekt-Tool wurden zahlreiche Erweiterungen wie der **Projekt Report**, das **Whiteboard** und verschiedene Optimierungen rund um die Darstellung und das Handling der Projektdaten umgesetzt. Der zentrale Zugriff auf **persönliche To-dos** unterstützt Benutzer:innen dabei, den Überblick zu behalten. Die Integration von **draw.io** als **Diagramm- und Whiteboard-Tool** sowie der **Audio Recorder** bieten neue Möglichkeiten, um Informationen direkt in OpenOlat zu erstellen und festzuhalten.
 
 Über die **Quota**-Einstellungen und **Freigabe-Berechtigungen** kann das **Medien Center** feingranular an die Bedürfnisse von Autor:innen und Benutzer:innen angepasst werden. Beim Einsatz von **Edubase** werden ab sofort auch **Multi-PAK Codes** unterstützt.
 
 Im Bereich eAssessment kann mithilfe der **Teilpunkte-Berechnung** ein Negativpunktesystem für viele Fragetypen abgebildet werden. In Rubrik-Formularen sorgen die **Rubric-Beschreibungen** für mehr Transparenz bei der Bewertung, und das neue **formatierte Prüfungslog** unterstützt bei Rückfragen zu Testdurchläufen.
 
-Systemweite visuelle Anpassungen wie **neue Icons** durch das FontAwesome Upgrade, eine neue Darstellung für Systemmeldungen sowie die Vorschau von Dateien in der **Light-Box** verleihen OpenOlat einen frischen Look.
+Systemweite visuelle Anpassungen wie **neue Icons** durch das FontAwesome Upgrade, eine neue Darstellung für Systemmeldungen sowie die Vorschau von Dateien in der **Lightbox** verleihen OpenOlat einen frischen Look.
 
 ![Anzahl Features und Bugs in Release 18.1](assets/181/Features_Improvements_Labels_18.1_DE.png)
 
@@ -43,21 +43,21 @@ Mit Release 18.1 wurde ein Upgrade auf FontAwesome 6 durchgeführt. Dadurch erst
 
     ![Alte Icons](assets/181/Icons_old_DE.png){ class="shadow lightbox" title="Alte Kursbaustein-Icons" }
 
-### Light-Box
+### Lightbox
 
-Bisher wurden PDF-Dokumente, Bilder, Videos und Audios zur Vorschau und Anzeige etwas umständlich in einem neuen Browser-Tab geöffnet. Neu erfolgt die Anzeige in der Light-Box im gleichen Fenster.
+Bisher wurden PDF-Dokumente, Bilder, Videos und Audios zur Vorschau und Anzeige etwas umständlich in einem neuen Browser-Tab geöffnet. Neu erfolgt die Anzeige in der Lightbox im gleichen Fenster.
 
-=== "Light-Box mit Bild"
+=== "Lightbox mit Bild"
 
-    ![Light-Box Bild](assets/181/Lightbox_image_DE.png){ class="shadow lightbox" title="Bild-Anzeige in Light-Box" }
+    ![Lightbox Bild](assets/181/Lightbox_image_DE.png){ class="shadow lightbox" title="Bild-Anzeige in Lightbox" }
 
-=== "Light-Box mit PDF"
+=== "Lightbox mit PDF"
 
-    ![Light-Box PDF](assets/181/Lightbox_PDF_DE.png){ class="shadow lightbox" title="PDF-Anzeige in Light-Box" }
+    ![Lightbox PDF](assets/181/Lightbox_PDF_DE.png){ class="shadow lightbox" title="PDF-Anzeige in Lightbox" }
 
-=== "Light-Box mit Video"
+=== "Lightbox mit Video"
 
-    ![Light-Box Video](assets/181/Lightbox_video_DE.png){ class="shadow lightbox" title="Video-Anzeige in Light-Box" }
+    ![Lightbox Video](assets/181/Lightbox_video_DE.png){ class="shadow lightbox" title="Video-Anzeige in Lightbox" }
 
 ### Neues Layout der Meldungen
 
@@ -128,6 +128,8 @@ Eine Zusammenfassung aller persönlichen und zugewiesenen To-dos finden Benutzer
 
 Damit Benutzer:innen keine E-Mail-Benachrichtigungen über neue To-dos verpassen, wurden diese inhaltlich und visuell aufgewertet.
 
+Ab :octicons-tag-24: Release 18.1.1 kann in der Administration das Modul "To-do" aktiviert werden. Zudem ist eine rollenbasierte Konfiguration möglich hinsichtlich der Erstellung neuer persönlicher To-dos und deren Zuweisung / Delegierung.
+
 * * *
 
 ## Medien Center
@@ -152,23 +154,23 @@ Die Integration des freien Zeichen- und Diagrammwerkzeugs "draw.io" bietet neue 
 
 Im Bereich "Projekte" kommt es als [Whiteboard](#whiteboard) zum Einsatz, welches auch kollaborativ von mehreren Projektmitgliedern genutzt werden kann. Im Kursbaustein "Seite" sowie im Medien Center können mithilfe des Editors direkt Diagramme erstellt und als .svg-Datei abgelegt werden.
 
-=== "Draw.io Whiteboard"
+=== "draw.io Whiteboard"
 
-    ![Draw.io Whiteboard](assets/181/Drawio_whiteboard_DE.png){ class="shadow lightbox" title="Draw.io Whiteboard" }
+    ![draw.io Whiteboard](assets/181/Drawio_whiteboard_DE.png){ class="shadow lightbox" title="draw.io Whiteboard" }
 
-=== "Draw.io Diagramm Editor"
+=== "draw.io Diagramm Editor"
 
-    ![Draw.io Diagramm Editor](assets/181/Drawio_media_center_DE.png){ class="shadow lightbox" title="Draw.io Diagramm Editor" }
+    ![draw.io Diagramm Editor](assets/181/Drawio_media_center_DE.png){ class="shadow lightbox" title="draw.io Diagramm Editor" }
 
 Auch überall, wo Dokumente erstellt werden können (z.B. Aufgabenbaustein, Ordner), stehen die neuen Dokumenttypen für Diagramme oder das Whiteboard zur Auswahl.
 
-![Neues Dokument mit Draw.io erstellen](assets/181/Drawio_new_document_DE.png){ class="shadow lightbox" title="Neues Dokument mit Draw.io erstellen" }
+![Neues Dokument mit draw.io erstellen](assets/181/Drawio_new_document_DE.png){ class="shadow lightbox" title="Neues Dokument mit draw.io erstellen" }
 
 * * *
 
 ## Audio Recorder
 
-Analog zum Video Recorder ist ab sofort auch ein Audio Recorder implementiert. Dieser kann im Kursbaustein "Aufgabe" zur Erstellung von Aufgaben oder Lösungen aktiviert werden. Zukünftig wird der Audio Recorder auch im Medien Center und als blockbasiertes Element im Kursbaustein "Seite" verfügbar sein.
+Analog zum Video Recorder ist ab sofort auch ein Audio Recorder implementiert. Dieser kann im Kursbaustein "Aufgabe" zur Erstellung von Aufgaben oder Lösungen aktiviert werden. Ab :octicons-tag-24: Release 18.1.1 ist der Audio Recorder auch im Medien Center und als blockbasiertes Element im Kursbaustein "Seite" verfügbar sein.
 
 ![Audio-Aufnahme im Aufgabenbaustein](assets/181/Audio_recording_task_DE.png){ class="shadow lightbox" title="Audio-Aufnahme im Aufgabenbaustein" }
 
@@ -186,7 +188,9 @@ Analog zum Video Recorder ist ab sofort auch ein Audio Recorder implementiert. D
 * Neues Farbwahl-Konzept für Kurs-Layout
 * Optimierung der Statuswarnungen im Kurs
 * Optimierte Reihenfolge der Vor-Filter unter "Meine Kurse"
-* Lernpfad: Verbesserte Darstellung der "Bestätigung durch Benutzer⸱in" am Baustein
+* Lernpfad:
+    * Verbesserte Darstellung der "Bestätigung durch Benutzer⸱in" am Baustein
+    * Ausnahmeregeln: Wildcard-Match für Benutzerattribute, z.B. für E-Mail-Domäne
 * Bereinigung und Anpassung der Namen von Variablen für Zertifikate
 * Kurserinnerungen: Ergänzung relevanter Variablen zur Verwendung in Benachrichtigungen
 * LTI: Unterstützung von Deep Link
@@ -234,6 +238,7 @@ Formulare mit Rubrics werden häufig im Kursbaustein "Bewertung" im Rahmen von p
 * Persönlicher Kalender:
     * Refactoring Termin-Erstellung und automatische Verlinkung zu Original-Kurs, -Gruppe, -Lektion
     * Optimierte Handhabung zur Auswahl aggregierter Kalender
+* Ersetzen-Aktion für Scorm-Paket in der Lernressource
 * Gruppen: Neuer Filter "Name"
 * Abonnements: Anzeige des Kurselement-Titels für mehr Kontext-Informationen
 * Edubase:
@@ -271,11 +276,14 @@ Formulare mit Rubrics werden häufig im Kursbaustein "Bewertung" im Rahmen von p
     * [x] Modul "draw.io" für Whiteboard und Diagramme: `Externe Werkzeuge > draw.io`
     * [x] Master-Videodatei nach Transkodierung löschen: `Module > Video` - Tab "Videokonfiguration" - Abschnitt "Transkodierung"
     * [x] Funktion "Audio Recorder": `Module > Audio/video recording`
-    * [x] Benutzerwerkzeug "To-do": `Core Konfiguration > Persönliche Werkzeuge`
+    * [x] Benutzerwerkzeug "To-do":
+        * Aktivierung: `Module > To-do` und `Core Konfiguration > Persönliche Werkzeuge`
+        * Rollenbasierte Konfiguration: `Module > To-do` (:octicons-tag-24: ab Release 18.1.1)
     * [x] Rollenbasierte Massensuche: `olat.properties > usersearch.bulk.[role]=disabled`
 
 * * *
 
 ## Weitere Informationen
 
+* [Jira Release Notes 18.1.1](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=21706){:target="_blank”}
 * [Jira Release Notes 18.1.0](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=21000){:target="_blank”}
