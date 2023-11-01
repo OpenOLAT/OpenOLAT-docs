@@ -19,7 +19,7 @@ OpenOlat fragt bei dem externen Tool nach, ob dieser Anmeldenamen zum Zutritt be
 
 Bei der Kombination von lokaler und externer Authentifizierung wird sowohl ein in OpenOlat gespeichertes Passwort benötigt, als auch eine Abfrage von OpenOlat bei einem externen Tool durchgeführt.
 
-* Ist das lokal gespeicherte Passwort ok?
+* Ist das lokal gespeicherte Passwort okay?
 * Bestätigt das externe Tool, dass der angemeldete Name zum Zugriff berechtigt ist?
 
 Wenn beide Faktoren erfüllt sind, wird der Zugang frei gegeben.

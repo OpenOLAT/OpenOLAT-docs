@@ -11,12 +11,10 @@
 ## Wie funktioniert Passkey?
 
 **Schritt 1:**<br> 
-Ein Gerät (z.B. ein Smartphone oder ein PC) erhält einen Passkey (Private Key). Der Private Key wird z.B. von OpenOlat erstellt.
-Dieser Schlüssel ist gerätespezifisch und bleibt immer auf dem Gerät (z.B. dem Smartphone) gespeichert. Er verlässt niemals den Sicherheitschip.
-
+Ein Gerät (z.B. ein Smartphone oder ein PC) erhält einen Passkey (Private Key). Der Private Key wird z.B. von OpenOlat erstellt. Dieser Schlüssel ist gerätespezifisch und bleibt immer auf dem Gerät (z.B. dem Smartphone) gespeichert. Er verlässt niemals den Sicherheitschip.
 
 **Schritt 2:**<br> 
-Mit Hilfe des Private Key wird auf dem Smartphone ein Public Key erstellt. Der Public Key ist mathematisch mit dem Private Key „verwandt“, aber es kann keine Kopie des Private Key daraus hergestellt werden. 
+Mit Hilfe des Private Key wird auf dem Smartphone ein Public Key erstellt. Der Public Key ist mathematisch mit dem Private Key "verwandt", aber es kann keine Kopie des Private Key daraus hergestellt werden. 
 
 **Schritt 3:**<br>
 Der Benutzer möchte mit seinem Gerät (z.B. dem Smartphone, auf dem der Private Key gespeichert ist) eine Applikation auf Server X (eine Website) aufrufen.
@@ -26,7 +24,7 @@ Der Public Key wird an den Server X geschickt.<br>
 Soll vom Smartphone eine andere Applikation auf einem anderen Server Y aufgerufen werden, muss der Public Key auch an diesen Server Y geschickt werden. Jede Applikation erhält einen eigenen Public Key. Die Applikationen wissen nicht voneinander, wer sonst noch einen solchen Public Key hat.
 
 **Schritt 5:**<br>
-Der Server X formuliert mit Hilfe des Public Keys eine Frage, die nur jemand beantworten kann, der über den Private Key verfügt. Diese Frage heisst „Challenge“ und wird vom Server X an das anfragende Gerät (z.B. das Smartphone) geschickt.
+Der Server X formuliert mit Hilfe des Public Keys eine Frage, die nur jemand beantworten kann, der über den Private Key verfügt. Diese Frage heisst "Challenge" und wird vom Server X an das anfragende Gerät (z.B. das Smartphone) geschickt.
 
 **Schritt 6:**<br>
 Mit Hilfe des Private Keys ist das Beantworten der Challenge für das Smartphone kein Problem. Die Antwort (Response) wird vom Smartphone an den fragenden Server X geschickt.
@@ -62,14 +60,12 @@ Ist in OpenOlat eine Sicherheitsstufe mit Passkey konfiguriert worden, dann werd
 
 ## Was sind Recovery Keys?
 
-Wenn kein Passwort mehr vorhanden ist, kann es auch nicht mehr von Administrator:innen zurückgesetzt werden. 
-Wurde in OpenOlat Passkey als alleinige Authentifizierungsmethode aktiviert, können keine Passwörter mehr vergeben werden. (Bei 2-Faktoren-Authentifizierung dagegegen schon, zusätzlich zu Passkey.)
+Wenn kein Passwort mehr vorhanden ist, kann es auch nicht mehr von Administrator:innen zurückgesetzt werden.  Wurde in OpenOlat Passkey als alleinige Authentifizierungsmethode aktiviert, können keine Passwörter mehr vergeben werden. (Bei 2-Faktoren-Authentifizierung dagegen schon, zusätzlich zu Passkey.)
 
-Geht der Schlüssel trotzdem einmal verloren, benötigt es einen Ersatzschlüssel. Bei Passkey ist der Ersatzschlüssel jedoch keine Kopie des Originalschlüsses (Private Key).
-Recovery Keys sind Einmal-Passwörter, die kein zweites Mal verwendet werden können.
+Geht der Schlüssel trotzdem einmal verloren, benötigt es einen Ersatzschlüssel. Bei Passkey ist der Ersatzschlüssel jedoch keine Kopie des Originalschlüsses (Private Key). Recovery Keys sind Einmal-Passwörter, die kein zweites Mal verwendet werden können.
 
 
-## Neue Recovery keys anfordern
+## Neue Recovery Keys anfordern
 
 Die Recovery Keys können **im persönlichen Menü** unter **"Passwort"** angefordert werden.
 

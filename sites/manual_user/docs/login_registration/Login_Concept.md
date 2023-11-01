@@ -11,18 +11,17 @@ With local authentication, the name and password are stored in OpenOlat (locally
 
 ## External Authentication
 
-With external authentication, the password is NOT stored in OpenOlat, but set and stored in an external tool.
-OpenOlat asks the external tool if this login name is authorized for access.
+With external authentication, the password is NOT stored in OpenOlat, but set and stored in an external tool. OpenOlat asks the external tool if this login name is authorized for access.
 
 ## 2-Factor Authentication
 
 The combination of local and external authentication requires both a password stored in OpenOlat and a query from OpenOlat to an external tool.
 
-* Is the locally stored password ok?
+* Is the locally stored password okay?
 * Does the external tool confirm that the logged in name is authorized to access?
 
 If both factors are met, access is granted.
 
 ## Passkey
 
-The passkey (private key) is located on the device, so passkey is actually a local authentication method. However, with special features. More details can be found in a [separate section](../login_registration/Passkey.en.md) here in the manual.
+The passkey (private key) is located on the device, so passkey is actually a local authentication method. However, with special features. More details can be found in a [separate section](../login_registration/Passkey.md) here in the manual.
