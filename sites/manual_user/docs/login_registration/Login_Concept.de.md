@@ -26,5 +26,5 @@ Wenn beide Faktoren erfüllt sind, wird der Zugang frei gegeben.
 
 ## Passkey
 
-Der Passkey (Private Key) liegt auf dem Gerät, Passkey ist also eigentlich eine lokale Authentifizierungsmethode. Allerdings mit Besonderheiten. Genaueres finden Sie in einem [separaten Abschnitt](../login_registration/Passkey.de.md) hier im Handbuch.
+Passkey könnte man als Zwitter-Lösung bezeichnen, sowohl lokale als auch externe Authenitifizierung Genaueres finden Sie in einem [separaten Abschnitt](../login_registration/Passkey.de.md) hier im Handbuch.
 

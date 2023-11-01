@@ -24,4 +24,4 @@ If both factors are met, access is granted.
 
 ## Passkey
 
-The passkey (private key) is located on the device, so passkey is actually a local authentication method. However, with special features. More details can be found in a [separate section](../login_registration/Passkey.md) here in the manual.
+Passkey could be called a hybrid solution, both local and external authentication. More details can be found in a [separate section](../login_registration/Passkey.md) here in the manual.
