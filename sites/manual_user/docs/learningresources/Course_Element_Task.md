@@ -18,7 +18,7 @@ Coaches can use the Task course element to organize actions and submission tasks
 The central configuration of the course element takes place in the first step in the tab "Workflow". Here you determine which of the following options you want to use:
 
 * **Task Assignment**: assign tasks to course participants or groups.
-* **Submission**: Learners should have the opportunity to submit tasks. This is where course participants create their solutions or upload them in a PDF file format.
+* **Submission**: Learners should have the opportunity to submit tasks. This is where course participants create their solutions or upload them. 
 * **Review and Correction**: this is where course participants will find their tasks corrected as well as requests for revisions.
 * **Revision Period**: course participants upload their revised documents in this element. You as a coach can place multiple revision requests until the task is considered completed and the revision process closed.
 * **Sample solution**: provide course participants with sample solutions of their tasks. You can either create them directly in OpenOlat or upload files.
@@ -66,7 +66,7 @@ The Learning Path tab also defines which criterion must be met for the task to b
 
 This is the central tab for configuring the course element Task. Here you can define which individual elements of the task are required in general. Should a concrete task be stored in the course element or will the user find the task somewhere else? Should the user hand in a document? Should there be feedback from the teacher? Should the user be able to revise a submission if necessary? Should a sample solution be provided? Should a score or passing be possible? Should certain learners be assessed by certain coaches?
 
-Simply activate the points you need and configure the relevant tabs in the next step.
+Simply activate the elements you need and configure the relevant tabs in the next step.
 
 The assignment, submission and sample solution steps can be configured with a deadline, with the assignment and submission open until that specific date, whereas the sample solution won't be available before the respective date. In addition to the normal deadline, a late deadline can also be specified.
 
@@ -82,7 +82,7 @@ In the "Coaching" section of the Workflow tab, participant-dependent coaching ca
 
 However, the differentiated assignment of persons takes place when the course editor is closed.
 
-**Specifics group task:**
+#### Specifics group task:
 In the group task, you additionally define in the "Task type" section for which groups or learning areas the task module is accessible. In return, the tutor assignment in the "Workflow" tab is omitted for the group task, since this assignment results automatically from the coach assignment of the group.
 
 !!! warning "Warning"
@@ -97,15 +97,17 @@ In the group task, you additionally define in the "Task type" section for which 
 
 In the "Assignment" tab you can
 
-* upload tasks created outside of OpenOlat (upload assignment)
+**a)Upload files**
 
-* Create files directly in OpenOlat with the OpenOlat HTML editor or possibly other available editors (create assignment) or
+Upload tasks created outside of OpenOlat (upload assignment)
+Auch kann eine Zip-Datei mit mehreren (verschiedenen) Aufgaben hochgeladen und jede Datei mit einem passenden Titel und einer Beschreibung versehen werden.
 
-* record tasks as a video directly with your webcam (Create video assignment).
+**Create files in differente formats**
 
-You can also provide your users with several files for one task. For this, however, they must be uploaded as a ZIP package.
+Create files directly in OpenOlat. 
+Welche Formate genau zur Verfügung stehen hängt davon ab welche von der OpenOlat Administration aktiviert wurden. Meist steht mindestens ein HTML-Editor zur Verfügung. Aber auch die Erstellung von Word, Excel, PowerPoint sowie seit :octicons-tag-24: Release 18.1.  Diagrammen oder Whiteboards ist möglich. Zusätzlich können eine spezifische Video- oder ab :octicons-tag-24: Release 18.1. auch eine Audio-Aufgabe erstellt werden.
 
-If a task is created with the internal OpenOlat editor, multiple files such as images or PDF files can be provided by first uploading them in the HTML editor and then linking them in the corresponding html page. Such a task will then be downloaded in .zip file format as well. If the HTML editor is used, the stored title is automatically used as the file name. However, this can be changed at any time.
+If a task is created with the internal OpenOlat HTML editor, multiple files such as images or PDF files can be provided by first uploading them in the HTML editor and then linking them in the corresponding html page. Such a task will then be downloaded in .zip file format as well. If the HTML editor is used, the stored title is automatically used as the file name. However, this can be changed at any time.
 
 In the section "Type of assignment" you determine whether a course participant is offered all available tasks for selection or whether a task is automatically assigned to him/her by random selection.
 
@@ -126,7 +128,7 @@ In the field "Message for user" you can provide general information for all cour
 
     If additional document editors are activated in the administration, additional file formats can also be created. For example, if Only Office is used, Word, Excel or PowerPoint files can also be created. The same applies to the creation of other (feedback) files.
 
-In the setting manual choice, if a course participant choses by incident a wrong or not-wanted assignment, it can be reset in the assessment tool by the course owner.
+In the setting manual choice, if a course participant choses by incident a wrong or not-wanted assignment, it can be reset in the [assessment tool](../learningresources/Assessment_tool_overview.de.md) by the course owner.
 
 ![Reset data of task](assets/task_reset_assessmenttool.png){ class="shadow" }
 
@@ -144,7 +146,7 @@ Determine how participants are allowed to hand in documents and how many in the 
 
 Submitting **with the embedded text editor** allows the creation of HTML documents directly in the course element. If other document editors are integrated in OpenOlat, additional formats can also be created. If only the option **Upload files** is enabled, course participants will have to have their documents ready for upload in an established file format. Enter a number in the field "Max. number of documents" in order to restrict the number of documents uploaded.
 
-It is now also possible to accept **video recordings** via webcam as a delivery. In the "Submission" tab, you can determine the maximum length of the recording as well as the video quality level. This allows learners to submit a video statement directly instead of a written document.
+It is now also possible to accept **video recordings** via webcam as a delivery. In the "Submission" tab, you can determine the maximum length of the recording as well as the video quality level. This allows learners to submit a video statement directly instead of a written document. eit :octicons-tag-24: Release 18.1. können auch Audio-Dateien zur Abgabe ausgewählt werden. 
 
 Activate **"Task as template"** if learners should use the stored task file as a basis for their work, for example if the task contains a pre-structured table to be filled in.
 
@@ -186,7 +188,7 @@ In order to provide all course participants with a sample solution regarding you
 
 If the assignment of scores has also been activated for the task, the Highscore tab can also be configured in more detail. You can specify the start date and define which elements are displayed and whether the display should be anonymous.
 
-For more information on this tab, which is available in several course elements, see [here](../learningresources/Assessment.md#highscore--highscore).
+For more information on this tab, which is available in several course elements, see [here](../learningresources/Course_Elements.md).
 
 ### Tab "Reminders"
 
@@ -194,9 +196,11 @@ If required, create reminders for participants to work on the course element.
 
 For more information on this tab, which is available in several course elements, see [here](../learningresources/Course_Reminders.md).
 
-## Working with Tasks and Group Tasks
+## Tasks and Group Tasks aus der User-Perspektive
 
-The course modules **Task** and **Group Task** provide exercises that you can hand in electronically. Via these course elements you can also receive feedback on your submissions, points and sample solutions and you can be shown whether you have passed the task or not. You may not see all of the above because not all options are used for your assignment.
+Lernende bzw. Kursteilnehmende finden über die Kursbausteine **Aufgabe** bzw. **Gruppenaufgabe** für sie bereitgestellte Aufgaben und können ihre Bearbeitungen von Aufgabenstellungen über diese Kursbausteine einreichen. 
+
+Via these course elements you can also receive feedback on your submissions, points and sample solutions and you can be shown whether you have passed the task or not. You may not see all of the above because not all options are used for your assignment.
 
 Subscribe to the respective task module to be quickly informed about changes via e-mail.
 
@@ -210,11 +214,12 @@ It is also possible that your coach has not stored the task in the course elemen
 
 ### Submit Solution
 
-When you have completed your task, upload it in the " Submission" step. Possibly the number of files to be submitted and the time period for submission is limited.
+Schauen Sie sich an welche Optionen zur Abgabe Ihnen zur Verfügung stehen. Je nach Konfiguration durch die Lehrperson können sie entweder Dokumente hochladen, Dateien mit dem OpenOlat Editor erstellen oder auch  kurze Audio- und Video-Aufnahmen direkt in OpenOlat erstellen. Beachten Sie die Optionen bei der Erstellung Ihrer Aufgabenlösung. 
 
-If configured accordingly by your coach, you can also create the solution of the task directly online. By default you have the possibility to create a HTML file. To do this, click on the "Create document" button. Enter a name and then create the content. The document can be saved temporarily and remains editable until you submit your task via the "Final submission" button. You will receive a confirmation that you have submitted documents.
+![Abgabemöglichkeiten beim KB Aufgabe](assets/Aufgabe_Abgabe18.png)
 
-If additional document editors are activated in the administration, other file formats can also be created. For example, when using Only Office or a commercial MS Office 365-abonnement , Word, Excel or PowerPoint files can also be created and submitted.
+In der Regel wird nur ein Teil der vier Optionen für Sie verfügbar sein.
+Laden Sie Ihre Lösung hoch bzw. erstellen Sie sie direkt in OpenOlat und das Dokument wird zwischengespeichert. Die Dokumenten bleiben solange für Sie bearbeitbar bis Sie über die Schaltfläche "Endgültige Abgabe" Ihre Aufgabe einreichen. Sie erhalten eine Bestätigung, dass Sie Dokumente abgegeben haben.
 
 In the submission step, which is now marked as completed with a green checkmark, you will receive an overview of the submitted files. You can still view the files, but you can no longer make any changes.
 

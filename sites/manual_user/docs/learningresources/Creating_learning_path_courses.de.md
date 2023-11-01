@@ -8,11 +8,11 @@ Kurs. Anschließend kann der gewünschte Kurstyp gewählt werden.
 
 Bereits existierende, herkömmliche Kurse können in Lernpfad Kurse umgewandelt
 werden. Einen entsprechenden Link findet man in der Kurs Administration und
-auch im Bereich "Einstellungen" im Tab "Durchführung".
+auch im Bereich ["Einstellungen"](../learningresources/Course_Settings.de.md) im Tab "Durchführung". Bei der Konvertierung kann ab :octicons-tag-24: Release 18.1.  auch der gewünschte Kurstyp für die Konvertierung "Mit Lernpfad" oder "Mit Lernfortschritt" ausgewählt werden. 
 
 :octicons-device-camera-video-24: **Video-Einführung**: [Herkömmliche Kurse in Kurse mit Lernpfad umwandeln](<https://www.youtube.com/embed/0Y39TXKwVqc>){:target="_blank”}
 
-![](assets/Kurs_umwandeln_Lernpad.png)
+![Link zur Konvertierung von herkömmlichen Kursen](assets/Kurs_umwandeln_Lernpad.png)
 
 Bei der Umwandlung wird eine Kopie des Kurses angelegt. Kurse die eine
 Portfolioaufgabe oder einen alten Fragebogen enthalten, können allerdings
@@ -37,7 +37,7 @@ Alternativ kann jeder obligatorische Kursbaustein mit einer zu erwartenden
 Bearbeitungszeit versehen werden und der Fortschritt sich auf die bereits
 absolvierten Zeiteinheiten beziehen.
 
-![](assets/Access_Course_Elements.de.png)
+![Berechnungsgrundlage Lernfortschritt](assets/Access_Course_Elements.de.png)
  
 Die Berechnungsgrundlage beeinflusst dann den für die Lernenden angezeigten
 Fortschritt, der in der Grafik rechts oben und im Bereich "Lernpfad" der Toolbar angezeigt
@@ -54,13 +54,13 @@ erscheinen sollen (Summe oder Durchschnitt) und ob und wie ein Bestehen
 des Kurses berechnet wird.
   
 
-![](assets/Prozentanzeige.png)
+![Lerner Prozentfortschritt](assets/Prozentanzeige.png)
 
 ## Lernpfad Kurse kopieren
 
 Wie alle Lernressourcen können auch Lernpfad Kurse kopiert werden. Neu ist
 jedoch seit OpenOlat 16 die Möglichkeit einen Lernpfad mit Hilfe eines Wizards
-zu kopieren (Beta). Auf diesem Weg können weitere Detaileinstellungen vor dem
+zu kopieren. Auf diesem Weg können weitere Detaileinstellungen vor dem
 Kopiervorgang vorgenommen werden, so dass eine spätere Überarbeitung entfällt.
 Folgende Dinge können eingestellt werden:
 
@@ -72,4 +72,4 @@ Folgende Dinge können eingestellt werden:
   * ob einzelne Kursbausteine obligatorisch oder freiwillig sind
   * sowie weitere Datumsangaben zu den einzelnen Kursbausteinen
 
-![](assets/Copy_Learning_Path.de.wm.png)
+![Administration - Kopieren mit Wizard](assets/Copy_Learning_Path.de.wm.png)

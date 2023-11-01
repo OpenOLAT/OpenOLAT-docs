@@ -9,7 +9,7 @@ Herkömmliche Kurse und Lernpfad Kurse.
 
 Der Kurstyp Lernpfad hilft den Lernenden, den Überblick über ihre
 Kursaktivitäten zu behalten. Die Visualisierung des Lernpfades zeigt auf einen
-Blick, was sie bereits absolviert haben, an welcher Stelle die [Lernenden](../learningresources/Learning_path_course_Participant_view.de.md)im Kurs sie
+Blick, was sie bereits absolviert haben, an welcher Stelle die [Lernenden](../learningresources/Learning_path_course_Participant_view.de.md) im Kurs sie
 aktuell stehen und welche Kursbausteine sie noch bearbeiten dürfen oder
 müssen.
 

@@ -4,9 +4,8 @@ The creation of both conventional and learning path courses takes place in the
 author area under "My entries" or "Favorites" -> Create -> Course. The desired
 course type can then be selected.
 
-Existing conventional courses can be converted into learning path courses. A
-corresponding link can be found in the course administration and also in the
-"Settings" area in the "Execution" tab.
+Existing conventional courses can be converted into learning path courses. A corresponding link can be found in the course administration and also in the ["Settings"](../learningresources/Course_Settings.md)  area in the "Execution" tab. 
+Bei der Konvertierung kann ab :octicons-tag-24: Release 18.1.  auch der gewünschte Kurstyp für die Konvertierung "Mit Lernpfad" oder "Mit Lernfortschritt" ausgewählt werden. 
 
 ![](assets/Kurs konvertieren EN.png)
 

@@ -18,13 +18,13 @@ Mit Hilfe des Kursbausteins Aufgabe können Lehrende Dateiabgaben und Einsendeau
 Die zentrale Konfiguration des Kursbausteins erfolgt im Tab "Workflow". Hier bestimmen Sie, welche der folgenden Optionen Sie verwenden möchten. Anschliessend können Sie diese weiter konfigurieren:
 
 * **Aufgabenstellung**: Stellen Sie eine Aufgabenstellung direkt im Kursbaustein zur Verfügung.
-* **Abgabe**: Lernende sollen die Möglichkeit haben ihre Bearbeitung einzureichen. Kursteilnehmer erstellen hier ihre Lösungen oder laden diese als PDF hoch.
+* **Abgabe**: Lernende sollen die Möglichkeit haben ihre Bearbeitung einzureichen. Kursteilnehmende erstellen hier ihre Lösungen oder laden diese hoch.
 * **Rückgabe und Feedback**: Korrigierte Aufgaben und Überarbeitungsanforderungen können hier den Teilnehmern zurückgegeben werden.
-* **Überarbeitung**: Teilnehmer geben in diesem Abschnitt überarbeitete Dokumente ab. Sie können weitere Korrekturanforderungen stellen, bis Sie die Aufgabe als erledigt betrachten und den Revisionsprozess schliessen.
+* **Überarbeitung**: Teilnehmende können wenn nötig eine Überarbeitungsmöglichkeit erhalten. Lehrende können weitere Korrekturanforderungen stellen, bis sie die Aufgabe als erledigt betrachten und den Revisionsprozess schliessen.
 * **Musterlösung**: Stellen Sie allen Teilnehmenden eine Musterlösung für die Aufgabe zur Verfügung. Musterlösungen können als Datei hochgeladen oder direkt in OpenOlat erstellt werden.
 * **Bewertung**: Punkte, bestanden/nicht bestanden und Feedbacks können individuell hinterlegt werden.
 
- Im Tab "Lernpfad" (bzw. im Tab "Workflow" bei herkömmlichen Kursen) kann ferner definiert werden ob die Aufgabe obligatorisch oder freiwillig ist. Obligatorische Aufgaben müssen bearbeitet werden und werden nach Ablauf des eingestellten Abgabetermins eingezogen und zur Bewertung an den Lehrenden übergeben. Bei freiwilligen Aufgaben kann der User selbst entscheiden ob er sie bearbeiten möchte. Ferner werden freiwillige Aufgaben nach der Deadline _nicht_ eingezogen.
+Im Tab "Lernpfad" (bzw. im Tab "Workflow" bei herkömmlichen Kursen) kann ferner definiert werden ob die Aufgabe obligatorisch oder freiwillig ist. Obligatorische Aufgaben müssen bearbeitet werden und werden nach Ablauf des eingestellten Abgabetermins eingezogen und zur Bewertung an den Lehrenden übergeben. Bei freiwilligen Aufgaben kann der User selbst entscheiden ob er sie bearbeiten möchte. Ferner werden freiwillige Aufgaben nach der Deadline _nicht_ eingezogen.
 
 !!! info "Hinweis"
 
@@ -66,7 +66,7 @@ Im Tab "Lernpfad" wird auch definiert, welches Kriterium erfüllt sein muss, dam
 
 Der Tab Workflow ist der zentrale Tab zur Konfiguration des Kursbausteins Aufgabe. Hier wird definiert welche einzelnen Elemente der Aufgabe überhaupt benötigt werden. Soll eine konkrete Aufgabenstellung im Kursbaustein hinterlegt werden oder findet der User die Aufgabe vielleicht woanders? Soll der User ein Dokument abgeben? Soll es ein Feedback vom Lehrenden geben? Sollen die User, wenn notwendig, die Möglichkeit zur Überarbeitung einer Einsendung erhalten können? Soll eine Musterlösung bereitgestellt werden? Soll eine Bewertung mit Punkten oder bestanden möglich sein? Sollen bestimmte Lernende von bestimmten Betreuenden bewertet werden?
 
-Aktivieren Sie einfach die Punkte, die Sie benötigen und konfigurieren Sie im nächsten Schritt die dafür relevanten Tabs.
+Aktivieren Sie einfach die Dinge die Sie benötigen und konfigurieren Sie im nächsten Schritt die dafür relevanten Tabs.
 
 Die Abschnitte Aufgabenstellung, Abgabe und Musterlösung können mit einem Datum versehen werden. Aufgabenstellung und Abgabe sind bis zum eingetragenen Datum verfügbar. Ergänzend zum normalen Abgabetermin kann auch noch ein verspäteter Abgabetermin angegeben werden.
 
@@ -82,7 +82,7 @@ Im Bereich "Betreuung" des Tabs Workflow kann eine teilnehmerabhängige Betreuun
 
 Die differenzierte Zuordnung der Personen erfolgt allerdings bei geschlossenem Kurseditor.
 
-**Spezifisches Gruppenaufgabe:**
+#### Spezifisches Gruppenaufgabe:
 In der Gruppenaufgabe legen Sie zusätzlich im Abschnitt "Aufgabentyp" fest, für welche Gruppen oder Lernbereiche der Aufgabenbaustein zugänglich ist. Dafür entfällt bei der Gruppenaufgabe die Betreuerzuordnung im Tab "Workflow" da sich diese Zuordnung automatisch durch die Betreuerzuordnung der Gruppe ergibt.  
 
 !!! warning "Achtung"
@@ -97,15 +97,15 @@ In der Gruppenaufgabe legen Sie zusätzlich im Abschnitt "Aufgabentyp" fest, fü
 
 Im Tab "Aufgabenstellung" können Sie
 
-* außerhalb von OpenOlat erstellte Aufgaben als Datei hochladen (Aufgabe hinzufügen),
+ **a) Dateien hochladen**
 
-* Dateien direkt in OpenOlat mit dem OpenOlat HTML-Editor oder eventuell weiteren zur Verfügung stehenden Editoren erstellen (Aufgabe erstellen) oder
+Ausserhalb von OpenOlat erstellte Aufgaben können als Datei hochladen. Auch kann eine Zip-Datei mit mehreren (verschiedenen) Aufgaben hochgeladen und jede Datei mit einem passenden Titel und einer Beschreibung versehen werden.
 
-* direkt mit Ihrer Webcam Aufgabenstellungen als Video aufnehmen (Video-Aufgabe erstellen).
+**b) Dateien unterschiedlicher Formate erstellen**
 
-Sie können ihren Benutzern für eine Aufgabe auch mehrere Dateien zur Verfügung stellen. Dafür müssen diese aber als ZIP-Paket hochgeladen werden.
+Dateien können direkt in OpenOlat estellt werden. Welche Formate genau zur Verfügung stehen hängt davon ab welche von der OpenOlat Administration aktiviert wurden. Meist steht mindestens ein HTML-Editor zur Verfügung. Aber auch die Erstellung von Word, Excel, PowerPoint sowie seit :octicons-tag-24: Release 18.1.  Diagrammen oder Whiteboards ist möglich. Zusätzlich können eine spezifische Video- oder ab :octicons-tag-24: Release 18.1. auch eine Audio-Aufgabe erstellt werden. 
 
-Wird eine Aufgabe direkt in OpenOlat mit dem internen Editor erstellt, können Sie ebenfalls mehrere Dateien (z.B. Bilder oder PDFs) zur Verfügung stellen, in dem Sie diese im HTML-Editor hochladen und dann in der HTML-Seite verlinken bzw. direkt anzeigen. So erstellte Aufgaben werden von den Benutzern dann ebenfalls im .zip Format heruntergeladen. Wird der HTML-Editor verwendet, wird automatisch der hinterlegte Titel auch als Dateiname übernommen. Dies kann aber jederzeit wieder geändert werden.
+Wird eine Aufgabe mit dem internen HTML-Editor erstellt, können Sie ebenfalls mehrere Dateien (z.B. Bilder oder PDFs) zur Verfügung stellen, in dem Sie diese im HTML-Editor hochladen und dann in der HTML-Seite verlinken bzw. direkt anzeigen. So erstellte Aufgaben werden von den Benutzern dann im .zip Format heruntergeladen. Wird der HTML-Editor verwendet, wird automatisch der hinterlegte Titel auch als Dateiname übernommen. Dies kann aber jederzeit wieder geändert werden.
 
 Im Feld "Art der Zuweisung" bestimmen Sie, ob einem Kursteilnehmer alle zur Verfügung stehenden Aufgaben zur Auswahl angeboten werden, oder ob ihm eine Aufgabe automatisch per Zufallsauswahl zugewiesen wird.
 
@@ -125,13 +125,13 @@ Im Feld "Mitteilung an Benutzer" können Sie für alle Kursteilnehmenden allgeme
 
     Sind in der Administration ergänzende Dokumenteneditoren aktiviert, können auch noch weitere Dateiformate erstellt werden. Beispielsweise können bei Verwendung von Only Office auch Word, Excel oder PowerPoint Dateien erstellt werden. Gleiches gilt für die Erstellung von sonstigen (Feedback-)Dateien.
 
-Wählt ein Kursteilnehmer bei der manuellen Auswahl aus versehen die falsche bzw. nicht gewollte Aufgabenstellung, kann die Wahl vom Kursbesitzer im Bewertungswerkzeug zurückgesetzt werden.
+Wählt ein Kursteilnehmer bei der manuellen Auswahl aus versehen die falsche bzw. nicht gewollte Aufgabenstellung, kann die Wahl vom Kursbesitzer im [Bewertungswerkzeug](../learningresources/Assessment_tool_overview.de.md) zurückgesetzt werden.
 
 ![Daten zurücksetzen](assets/Aufgabe_zuruecksetzen_173.png)
 
 Es folgt keine automatische Änderung. Der Teilnehmer erhält nun aber die Möglichkeit seine bisherigen Schritte wieder rückgängig zu machen.
 
-![Daten zurücksetzen](assets/task_reset_user_DE.jpg)
+![Daten zurücksetzen User](assets/task_reset_user_DE.jpg)
 
 !!! warning "Gruppenaufgabe"
 
@@ -143,7 +143,7 @@ Hier legen Sie fest wie und in welchem Umfang Kursteilnehmende Dokumente bzw. Be
 
 Die **"Abgabe mit OpenOlat Editor"** gestattet die Erstellung von Dokumenten direkt im Kursbaustein, die dann als HTML-Datei gespeichert werden. Sind weitere Dokument Editoren in OpenOlat eingebunden, können auch weitere Formate erstellt werden. Ist nur **"Dokumente hochladen"** aktiviert, müssen Kursteilnehmende ihr Dokument bereits in einem gängigen Dateiformat vorliegen haben um dieses hochzuladen. Lassen Sie das Feld bei "Max. Anzahl von Dokumenten" frei, wenn Sie die Anzahl der Dokumente nicht einschränken möchten. Sollen mehrere Dokumente abgegeben werden können Sie auch die Mindestanzahl von Dokumenten erhöhen.
 
-Es ist nun auch möglich Videoaufnahmen per Webcam als Abgabe zuzulassen (**"Videoaufnahmen zulassen"**) und dafür eine maximal Aufnahmedauer sowie die Qualität der Videoaufnahme festzulegen. Die Abgabe eines Videos ermöglicht es Lernenden z.B. statt eines schriftlichen Dokuments direkt ein Video-Statement einzureichen.
+Es ist nun auch möglich Videoaufnahmen per Webcam als Abgabe zuzulassen (**"Videoaufnahmen zulassen"**) und dafür eine maximal Aufnahmedauer sowie die Qualität der Videoaufnahme festzulegen. Die Abgabe eines Videos ermöglicht es Lernenden z.B. statt eines schriftlichen Dokuments direkt ein Video-Statement einzureichen. Seit :octicons-tag-24: Release 18.1. können auch Audio-Dateien zur Abgabe ausgewählt werden. 
 
 Aktivieren Sie **"Aufgabe ist Vorlage für die Abgabe"**, wenn die Lernenden die hinterlegte Aufgabendatei als Basis für ihre Bearbeitung nutzen sollen, beispielsweise wenn die Aufgabenstellung eine auszufüllende vorstrukturierte Tabelle beinhaltet.
 
@@ -185,7 +185,7 @@ Um allen Kursteilnehmenden eine Musterlösung zu den gestellten Aufgaben anzubie
 
 Sofern für die Aufgabe auch die Vergabe von Punkten aktiviert wurde, kann auch der Tab Highscore näher konfiguriert werden. So kann definiert werden welche Elemente angezeigt werde, ob die Darstellung anonym sein soll und ab welchem Zeitpunkt die Highscore-Liste sichtbar sein soll.
 
-Weitere Informationen zu diesem Tab, der in mehreren Kursbausteinen zur Verfügung steht, finden Sie [hier](../learningresources/Assessment.de.md#highscore--highscore).
+Weitere Informationen zu diesem Tab, der in mehreren Kursbausteinen zur Verfügung steht, finden Sie [hier](../learningresources/Course_Elements.de.md).
 
 ### Tab "Erinnerungen"
 
@@ -193,10 +193,11 @@ Erstellen Sie bei Bedarf Erinnerungen zur Bearbeitung des Kursbausteins für die
 
 Weitere Informationen zu diesem Tab, der in mehreren Kursbausteinen zur Verfügung steht, finden Sie [hier](../learningresources/Course_Reminders.de.md).
 
-## Arbeiten mit Aufgaben und Gruppenaufgaben
+## Aufgaben und Gruppenaufgaben aus der User-Perspektive
 
-Über die Kursbausteine **Aufgabe** und **Gruppenaufgabe** werden Übungsaufgaben bereitgestellt, die Sie elektronisch abgeben können. Über diese Bausteine können Sie auch Feedbacks zu Ihren Einsendungen, Punkte und Musterlösungen erhalten und Ihnen kann angezeigt werden, ob Sie die Aufgabe
-bestanden haben oder nicht. Möglicherweise sehen Sie nicht alle der genannten Dinge, da nicht alle Optionen für Ihre Aufgabe verwendet werden.
+Lernende bzw. Kursteilnehmende finden über die Kursbausteine **Aufgabe** bzw. **Gruppenaufgabe** für sie bereitgestellte Aufgaben und können ihre Bearbeitungen von Aufgabenstellungen über diese Kursbausteine einreichen. 
+
+Über diese Bausteine können Sie auch Feedbacks zu Ihren Einsendungen, Punkte und Musterlösungen erhalten und Ihnen kann angezeigt werden, ob Sie die Aufgabe bestanden haben oder noch Überarbeitungen notwendig sind.  Möglicherweise sehen Sie nicht alle der genannten Dinge, da nicht alle Optionen für Ihre Aufgabe verwendet wurden.
 
 Abonnieren Sie den jeweiligen Aufgabenbaustein um schnell per Mail über Änderungen informiert zu werden.
 
@@ -206,15 +207,16 @@ Je nach Konfiguration stehen im Schritt "Aufgabenstellung" eine oder mehrere Auf
 
 Wenn Sie eine Aufgabe gewählt haben oder Ihnen eine Aufgabe automatisch zugewiesen wurde, klicken Sie auf "Aufgabe herunterladen", um die Aufgabenstellung herunterzuladen bzw. anzeigen zu lassen. Wenn Sie auf den Dateinamen der Aufgabenstellung klicken wird die Aufgabe angezeigt. Die Aufgabe können Sie dann jederzeit wiederholt herunterladen.
 
-Es ist auch möglich, dass Ihr Dozent die Aufgabenstellung nicht in dem Kursbaustein "Aufgabe" hinterlegt hat, sondern einen anderen Ort z.B. eine Einzelseite oder eine externe Seite gewählt hat oder die Aufgabenstellung mündlich in Präsenz oder in einem Online-Meeting gestellt hat. In diesem Fall erscheint der Abschnitt "Zuweisung Aufgabenstellung" nicht.
+Es ist auch möglich, dass Ihre Lehrperson die Aufgabenstellung nicht in dem Kursbaustein "Aufgabe" hinterlegt hat, sondern einen anderen Ort z.B. eine HTML-Seite oder eine externe Seite gewählt hat oder die Aufgabenstellung mündlich in Präsenz oder in einem Online-Meeting gestellt hat. In diesem Fall erscheint der Abschnitt "Zuweisung Aufgabenstellung" nicht.
 
 ### Lösung abgeben
 
-Wenn Sie Ihre Aufgabe gelöst haben laden Sie diese im Schritt "Abgabe" hoch. Eventuell ist die Anzahl der abzugebenden Dateien und der Zeitraum für die Abgabe eingeschränkt.
+Schauen Sie sich an welche Optionen zur Abgabe Ihnen zur Verfügung stehen. Je nach Konfiguration durch die Lehrperson können sie entweder Dokumente hochladen, Dateien mit dem OpenOlat Editor erstellen oder auch  kurze Audio- und Video-Aufnahmen direkt in OpenOlat erstellen. Beachten Sie die Optionen bei der Erstellung Ihrer Aufgabenlösung. 
 
-Falls von Ihrem Betreuer entsprechend konfiguriert, können Sie die Lösung der Aufgabe auch direkt online erstellen. Standardmässig besteht hier die Möglichkeit eine HTML Datei zu erstellen. Klicken Sie dazu auf die Schaltfläche "Dokument erstellen". Geben Sie einen Namen an, und erstellen Sie dann den Inhalt. Das Dokument kann zwischengespeichert werden, und bleibt solange für Sie bearbeitbar bis Sie über die Schaltfläche "Endgültige Abgabe" Ihre Aufgabe einreichen. Sie erhalten eine Bestätigung, dass Sie Dokumente abgegeben haben.
+![Abgabemöglichkeiten beim KB Aufgabe](assets/Aufgabe_Abgabe18.png)
 
-Sind in der Administration ergänzende Dokumenteneditoren aktiviert, können auch noch weitere Dateiformate erstellt werden. Beispielsweise können bei Verwendung von Only Office oder der Verknüpfung mit einem kommerziellen MS Office 365-Abonnement auch Word, Excel oder PowerPoint Dateien erstellt und abgegeben werden.
+In der Regel wird nur ein Teil der vier Optionen für Sie verfügbar sein.
+Laden Sie Ihre Lösung hoch bzw. erstellen Sie sie direkt in OpenOlat und das Dokument wird zwischengespeichert. Die Dokumenten bleiben solange für Sie bearbeitbar bis Sie über die Schaltfläche "Endgültige Abgabe" Ihre Aufgabe einreichen. Sie erhalten eine Bestätigung, dass Sie Dokumente abgegeben haben.
 
 Im Abgabe-Schritt, der nun mit einem grünen Häkchen als erledigt markiert wird, erhalten Sie eine Übersicht über abgegebenen Dateien. Sie können sich die Dateien zwar noch ansehen aber keine Änderungen mehr vornehmen.
 
@@ -224,33 +226,33 @@ Wenn Sie noch _keine_ Einreichung vorgenommen haben, und der Betreuer keine Rüc
 
 Wenn Sie eine Bearbeitung eingereicht haben und der Betreuer noch keine Rückmeldung erstellt hat, erscheint die entsprechende Information.
 
-![](assets/Rueckgabe_Info.png)
+![Info: Noch keine Rückmeldung vom Betreuer](assets/Rueckgabe_Info.png)
 
 Sobald Ihr Betreuer ein Feedback erstellt hat finden Sie im Schritt "Rückgabe und Feedback" die Feedback Information.
 
-![](assets/Rueckgabe_Info_akzeptiert.png)
+![Info: Bearbeitung wurde akzeptiert und es gibt ein Feedback](assets/Rueckgabe_Info_akzeptiert.png)
 
 Wenn Ihre Bearbeitung nicht ausreichend war und der Betreuer eine Überarbeitung einfordert erscheint ebenfalls eine entsprechende Anzeige und Sie haben die Möglichkeit, eine neue Bearbeitung im Schritt "Überarbeitung" einzureichen. Eventuell wird dafür eine Deadline gesetzt.
 
-![](assets/Rueckgabe_ueberareiten.png)
+![Info: Die Abgabe wurde zur Überarbeitung zurückgewiesen](assets/Rueckgabe_ueberareiten.png)
 
 ### Aufgabe überarbeiten
 
-Wenn Sie eine Überarbeitung vornehmen müssen, gehen Sie wie unter "Abgabe" erläutert vor. Im Abschnitt "Überarbeitung" kann es auch sein, dass Ihr Betreuer Ihnen Ihre Arbeit mehrfach zur Korrektur zurückgibt.
+Wenn Sie eine Überarbeitung vornehmen müssen, gehen Sie wie unter "Lösung abgeben" erläutert vor. Im Abschnitt "Überarbeitung" kann es auch sein, dass Ihr Betreuer Ihnen Ihre Arbeit mehrfach zur Korrektur zurückgibt.
 
 Sobald er die Aufgabe als gelöst ansieht, wird er die Überarbeitungsperiode schliessen. Zu jedem Zeitpunkt sehen Sie welche Dokumente von Ihnen und Ihrem Betreuer abgegeben wurden und können diese einsehen.
 
-### "Musterlösung2 betrachten
+### "Musterlösung betrachten
 
-Ihr Dozent kann der Aufgabe eine Musterlösung anfügen, welche zu einem von ihm festgelegten Zeitpunkt sichtbar wird, aber immer erst nachdem ihre Lösung vom Betreuer akzeptiert wurde. Klicken Sie auf den Dateinamen bzw. den Button "Musterlösungen herunterladen", um die Musterlösung anzuschauen oder herunterzuladen.
+Ihr Dozent kann der Aufgabe eine Musterlösung anfügen, welche zu einem von ihm festgelegten Zeitpunkt sichtbar wird, aber immer erst _nachdem_ ihre Lösung vom Betreuer akzeptiert wurde. Klicken Sie auf den Dateinamen bzw. den Button "Musterlösungen herunterladen", um die Musterlösung anzuschauen oder herunterzuladen.
 
 ### "Bewertung" vom Betreuer lesen
 
 Die Bewertung kann folgende individuelle Informationen beinhalten: Eine Leistungsübersicht mit dem Status und Informationen zum Punktestand, ein Kommentarfeld sowie Bewertungsdokumente. Darüber hinaus kann der Betreuer hier auch noch allgemeine Informationen hinterlassen.
 
-![](assets/Bewertung_Info.png)
+![Bewertung User Sicht](assets/Bewertung_Info.png)
 
-## Gruppenaufgabe
+## Gruppenaufgabe User Perspektive
 
 Die Ansicht für OpenOlat Aufgaben und Gruppenaufgaben ist dieselbe. Sämtliche Entscheidungen und Einsendungen die während des Workflows getroffen werden, gelten jedoch immer für die gesamte Gruppe. Deshalb ist es wichtig, sich in der Gruppe abzustimmen _bevor_ eine endgültige Abgabe erfolgt. Gleichzeitig sollte man darauf achten, keine Deadline zu verpassen.
 
