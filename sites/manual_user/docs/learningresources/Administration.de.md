@@ -15,8 +15,7 @@ Die meisten zentralen Einstellungen nehmen Sie über die Menüs, die Sie in der 
 
 Auch der Einsatz weiterer Kursfunktionen der [Toolbar](Using_Additional_Course_Features.de.md) wird in diesem Kapitel erläutert. 
 
- ## Rollenwechsel 
-
+## Rollenwechsel 
 
 Noch ein wichtiger Tipp, der Ihnen die Arbeit an einem Kurs und die Betrachtung des Kurses aus unterschiedlichen Rollen erleichtert: 
 
