@@ -6,9 +6,6 @@ Es öffnet sich am rechten Rand durch Klick auf das kleine Bild rechts oben oder
 
 ![pers_menu1_v1_de.png](assets/pers_menu1_v1_de.png){ class="shadow lightbox"}
 
-
-
-
 Im persönlichen Menü finden Sie die folgenden Abschnitte:
 
 * **Persönliche Werkzeuge**
@@ -29,7 +26,7 @@ Im persönlichen Menü finden Sie die folgenden Abschnitte:
     * Notizen
     * Leistungsnachweise
     * Kompetenzen
-    * [Badges](../personal_menu/OpenBadges/.de.md)
+    * [Badges](../personal_menu/OpenBadges.de.md)
     * Buchungen
     * [Personensuche](../basic_concepts/Full_Text_Search.de.md)
     * Absenzen
@@ -43,7 +40,6 @@ Im persönlichen Menü finden Sie die folgenden Abschnitte:
     * Profil
     * Einstellungen
     * Passwort
-    <br><br><br>
 
 
 
@@ -67,8 +63,7 @@ Alle Werkzeuge, die Sie hier markieren, werden statt im persönlichen Menü in d
 
 ## Generell in der Hauptnavigation angezeigte Werkzeuge
 
-In der oberen Navigationsleiste generell immer verfügbar ist der
-[Chat](../basic_concepts/Chat.de.md) (instant Messenger) und die [Suche](../basic_concepts/Full_Text_Search.de.md).
+In der oberen Navigationsleiste generell immer verfügbar ist der [Chat](../basic_concepts/Chat.de.md) (instant Messenger) und die [Suche](../basic_concepts/Full_Text_Search.de.md).
 
 ![pers_menu_chat_suche_v1_de.png](assets/pers_menu_chat_suche_v1_de.png){ class="shadow lightbox"}
 

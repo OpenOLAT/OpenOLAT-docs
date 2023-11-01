@@ -1,6 +1,6 @@
 # Test konfigurieren
 
-Für die OpenOlat Tests stehen weitere Strukturierungs- und Konfigurationsmöglichkeiten zur Verfügung. Grundsätzlich besteht jeder Test mindestens aus einer Sektion und einer Frage. Deshalb finden Sie beim Erstellen eines neuen Tests bereits eine Sektion („Neue Sektion“) und eine Single-Choice-Frage („Neue Frage“). Falls in Ihrem Test keine Single-Choice Frage vorkommt, können Sie die standardmässig angelegte Single-Choice-Frage löschen, sobald Sie eine andere Frage hinzugefügt haben.
+Für die OpenOlat Tests stehen weitere Strukturierungs- und Konfigurationsmöglichkeiten zur Verfügung. Grundsätzlich besteht jeder Test mindestens aus einer Sektion und einer Frage. Deshalb finden Sie beim Erstellen eines neuen Tests bereits eine Sektion ("Neue Sektion") und eine Single-Choice-Frage ("Neue Frage"). Falls in Ihrem Test keine Single-Choice Frage vorkommt, können Sie die standardmässig angelegte Single-Choice-Frage löschen, sobald Sie eine andere Frage hinzugefügt haben.
 
 Einstellungen für Tests können auf drei Ebenen vorgenommen werden:
 
@@ -10,10 +10,9 @@ Einstellungen für Tests können auf drei Ebenen vorgenommen werden:
 
 Dabei ist die Test Ebene die oberste Ebene. Der Test kann dann mehrere Parts enthalten, die wiederum verschiedene Sektionen beinhalten. Enthält ein Test nur einen Part, kann dieser Part trotzdem mehrere Sektionen umfassen.
 
-**Sektionen** werden zur Gliederung Ihres Tests verwendet. Häufig werden zum Beispiel zuerst einleitende Fragen gestellt und dafür eine Sektion „Allgemeines“ erstellt. Ihr Test kann aus beliebig vielen Sektionen bestehen. Eine Verschachtelung mehrerer Sektionen untereinander ist möglich.
+**Sektionen** werden zur Gliederung Ihres Tests verwendet. Häufig werden zum Beispiel zuerst einleitende Fragen gestellt und dafür eine Sektion "Allgemeines" erstellt. Ihr Test kann aus beliebig vielen Sektionen bestehen. Eine Verschachtelung mehrerer Sektionen untereinander ist möglich.
 
-Wenn Sie eine neue Sektion oder einen weiteren Part hinzufügen möchten, wählen Sie oben im Dropdown-Menü `Elemente hinzufügen > Sektion` bzw. `Test-Part`.
-Anschließend können Sie der Sektion konkrete Fragen zuordnen.
+Wenn Sie eine neue Sektion oder einen weiteren Part hinzufügen möchten, wählen Sie oben im Dropdown-Menü `Elemente hinzufügen > Sektion` bzw. `Test-Part`. Anschließend können Sie der Sektion konkrete Fragen zuordnen.
 
 Im Folgenden werden die Einstellungsmöglichkeiten auf den drei Ebenen erläutert:
 
@@ -35,7 +34,7 @@ Auf Ebene des Tests legen Sie den Titel fest, der in der Navigation erscheint. Z
 
 !!! info
 
-    Eine zeitliche Beschränkung des Kurses kann sowohl direkt im Testeditor wie hier beschrieben oder nach dem Einbinden des Tests in einen Kurs im Kurseditor im Tab `Optionen` eingerichtet werden. Wenn nötig kann die Testzeit auch für einzelne Personen im [Bewertungswerkzeug](../learningresources/Assessment_tool_overview.de.md)verlängert werden.
+    Eine zeitliche Beschränkung des Kurses kann sowohl direkt im Testeditor wie hier beschrieben oder nach dem Einbinden des Tests in einen Kurs im Kurseditor im Tab `Optionen` eingerichtet werden. Wenn nötig kann die Testzeit auch für einzelne Personen im [Bewertungswerkzeug](../learningresources/Assessment_tool_overview.de.md) verlängert werden.
 
 ### Tab Feedback
 

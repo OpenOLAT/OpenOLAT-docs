@@ -10,10 +10,9 @@ Settings for tests can be made on three levels:
 
 The test level is the top level. The test can then contain several parts, which in turn contain different sections. If a test contains only one part, this part can still contain several sections.
 
- **Sections** are used to structure your test. Often, for example,
-introductory questions are asked first and a "General" section is created. Your test can consist of any number of sections. It is possible to nest several sections among each other.
+**Sections** are used to structure your test. Often, for example, introductory questions are asked first and a "General" section is created. Your test can consist of any number of sections. It is possible to nest several sections among each other.
 
-If you want to add a new section or another part, select "Section" or "Test Part" in the drop-down menu "Add Elements" → at the top. You can then assign specific questions to the section.
+If you want to add a new section or another part, select `"Section" or "Test Part" in the drop-down menu "Add Elements"` → at the top in the dropdown menu. You can then assign specific questions to the section.
 
 In the following, the setting options on the three levels are explained:
 
@@ -39,10 +38,8 @@ At test level, you define the title that appears in the navigation. The followin
   
 ### Tab Feedback
 
-* **Necessary score for "Passed" is reached:** Enter a total feedback
-here if the score for passed is reached.
-* **Necessary score for "Passed" _not_ reached:** Enter a total
-feedback here if the score is not sufficient.
+* **Necessary score for "Passed" is reached:** Enter a total feedback here if the score for passed is reached.
+* **Necessary score for "Passed" _not_ reached:** Enter a total feedback here if the score is not sufficient.
   
 ### Tab Expert {: #expert}
 
@@ -63,7 +60,7 @@ In the tab expert (or on the level of the part, as far as a part has been added)
 
 * **Allow comments:** The participant can take personal notes, which are not available after the test anymore and are not assessed. This feature can only be selected, if "Personal notes" is selected in Options.
 
-* **Allow review of questions:** After finishing the test the test and its answers can be shown again, but no corrections are possible.
+* **Allow review of questions:** After finishing the test, the test and its answers can be shown again, but no corrections are possible.
 
 * **Show solution:** In the review the solutions are shown additionally. This feature is only possible, if "Allow review of questions" is selected.
   
@@ -77,7 +74,7 @@ As soon as two or more parts exist, the configurations are defined mainly at the
 
 Several sections can be subordinated to a test part. Several nested sections with descriptions are displayed one below the other and can be shown and hidden separately and also displayed in random order. If only one test part exists for a test, all sections appear at the top level.
 
-In the **tab "Section"** a description for the section can be entered and it can be defined whether all or only a selection of the questions of the section should appear. Furthermore, the type of order, random or linear, can be defined.
+In the tab **"Section"** a description for the section can be entered and it can be defined whether all or only a selection of the questions of the section should appear. Furthermore, the type of order, random or linear, can be defined.
 
 The "Expert" tab of the Test or Part level can be overwritten and changed again at section level. This allows to configure a different behavior for single sections compared to the rest of the test.
 
@@ -86,3 +83,4 @@ If the visibility of the section title in the "Expert" tab is activated, the res
 * In the test, when a question belonging to the section is called. The participant can show or hide the section description.
 * In the test results.
 * In the correction workflow for the questions belonging to this section.
+* No keywords

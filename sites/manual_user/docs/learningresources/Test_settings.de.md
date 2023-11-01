@@ -10,8 +10,7 @@ Unter ["Inhalt editieren"](Test_editor_QTI_2.1.de.md) gelangt man in den Test Ed
 
 ### Test Exportieren
 
-In OpenOlat erstellte Tests können auch als Word-Datei exportiert werden.
-Klicken Sie dazu im Testeditor unter Export auf "Als Worddatei exportieren".
+In OpenOlat erstellte Tests können auch als Word-Datei exportiert werden. Klicken Sie dazu im Testeditor unter Export auf "Als Worddatei exportieren".
 
 Der Test wird dann im Zip-Format mit zwei Word-Dateien heruntergeladen, von denen eine Datei nur die Fragen, die andere zusätzlich noch die Lösungen enthält. Die exportierte Datei enthält alle wichtigen Informationen zum Test inklusive der Punktzahl, so dass Sie das Dokument direkt auch weiterverwenden können.
 
@@ -49,8 +48,7 @@ Folgende Konfigurationen können vorgenommen werden:
 
 Hier wählen Sie eine vorkonfigurierte Auswahl von typischen Einstellungen für unterschiedliche Nutzungssituationen von Tests.
 
-Entscheiden sie z.B. ob es sich um einen summativen oder formativen Test
-handelt oder verwenden Sie eine andere voreinstellte Konfiguration. Das erleichtert es gerade unerfahrenen Autoren schnell zu einer passenden Einstellung zu gelangen. Spätere Änderungen und individuelle Anpassungen sind aber weiterhin möglich.
+Entscheiden sie z.B. ob es sich um einen summativen oder formativen Test handelt oder verwenden Sie eine andere voreinstellte Konfiguration. Das erleichtert es gerade unerfahrenen Autoren schnell zu einer passenden Einstellung zu gelangen. Spätere Änderungen und individuelle Anpassungen sind aber weiterhin möglich.
 
 ![Test Standardeinstellungen](assets/Test_Standardeinstellungen_DE.png){ class="shadow" }
 
@@ -68,7 +66,7 @@ Personen ohne OpenOlat Account können ebenfalls den Test absolvieren. Gäste k�
 
 #### Nur Modul anzeigen, LMS ausblenden
 
-Diese Auswahl wird gewählt, um zu verhindern, dass ein Benutzer während eines Tests auf andere OpenOlat- Funktionen Zugriff hat. OpenOlat wird dabei ausgeblendet und erst wieder nach Beenden des Testes angezeigt.  
+Diese Auswahl wird gewählt, um zu verhindern, dass ein Benutzer während eines Tests auf andere OpenOlat-Funktionen Zugriff hat. OpenOlat wird dabei ausgeblendet und erst wieder nach Beenden des Testes angezeigt.  
 
 #### Fragetitel anzeigen
 
@@ -125,11 +123,11 @@ Wenn diese Checkbox ausgewählt ist, wird das Resultat nach Beenden des Tests an
 
 Aus den folgenden Optionen können diejenigen ausgewählt werden, welche Sie anzeigen möchten.
 
-* **Testzusammenfassung** : Die Metadaten des gesamten Tests werden als Zusammenfassung angezeigt (inkl. Punkte und Bestanden/Nicht bestanden).
-* **Sektionszusammenfassung** : Die Metadaten der Sektion werden als Zusammenfassung angezeigt.
-* **Fragezusammenfassung** : Die Metadaten jeder einzelnen Frage werden angezeigt.
-* **Antwort, vom Teilnehmer abgegeben** : Es wird die Fragestellung zusammen mit der Antwort des Teilnehmenden angezeigt.
-* **Lösung** : Es wird die Fragestellung zusammen mit der korrekten Lösung angezeigt. Wenn im Tab Feedback eine korrekte Lösung hinterlegt ist, wird diese in der Resultatansicht mit dieser Option auch angezeigt.
+* **Testzusammenfassung**: Die Metadaten des gesamten Tests werden als Zusammenfassung angezeigt (inkl. Punkte und Bestanden/Nicht bestanden).
+* **Sektionszusammenfassung**: Die Metadaten der Sektion werden als Zusammenfassung angezeigt.
+* **Fragezusammenfassung**: Die Metadaten jeder einzelnen Frage werden angezeigt.
+* **Antwort, vom Teilnehmer abgegeben**: Es wird die Fragestellung zusammen mit der Antwort des Teilnehmenden angezeigt.
+* **Lösung**: Es wird die Fragestellung zusammen mit der korrekten Lösung angezeigt. Wenn im Tab Feedback eine korrekte Lösung hinterlegt ist, wird diese in der Resultatansicht mit dieser Option auch angezeigt.
 
     ![Resultate Report](assets/Resultreport_DE.png){ class="shadow" }
 
@@ -143,20 +141,19 @@ Darüber werden in den weiteren Tabs der "Einstellungen", "Info", "Metadaten", "
 
 ## Menü "Korrektur" eines Tests
 
-Um einem Test weitere, auch kursübergreifende, Korrektoren hinzufügen zu
-können muss in der Administration des Tests im Menü „Korrektur“ die Korrektur eingeschaltet werden. Anschließend können die Korrektoren hinzugefügt, Korrekturaufträge vergeben und weitere Einstellungen vorgenommen werden.
+Um einem Test weitere, auch kursübergreifende, Korrektoren hinzufügen zu können, muss in der Administration des Tests im Menü "Korrektur" die Korrektur eingeschaltet werden. Anschließend können die Korrektoren hinzugefügt, Korrekturaufträge vergeben und weitere Einstellungen vorgenommen werden.
 
-### Tab „Konfiguration“
+### Tab "Konfiguration"
 
 Hier wird die externe Korrektur grundsätzlich eingeschaltet. Anschließend kann definiert werden ob die Prüflinge anonym oder mit sichtbarem Namen bewertet werden. Der Korrekturzeitraum gibt die maximale Zeit an, die dem Korrektor zur Verfügung steht.
 
-Die jeweiligen Korrektoren werden automatisch benachrichtigt, wenn neue Bearbeitungen des Tests vorliegen. Die Benachrichtigung kann entweder direkt nach Testabschluss oder einmal pro Tag verschickt werden. Hierfür kann ein passender Mailtext hinterlegt werden oder eine Vorlage („Vorlage Sprache wählen“) verwendet werden. Nach der ersten Mail Benachrichtigung können noch zwei Erinnerungsmails in selbst definierten Abständen (Tagen) verschickt werden.
+Die jeweiligen Korrektoren werden automatisch benachrichtigt, wenn neue Bearbeitungen des Tests vorliegen. Die Benachrichtigung kann entweder direkt nach Testabschluss oder einmal pro Tag verschickt werden. Hierfür kann ein passender Mailtext hinterlegt werden oder eine Vorlage ("Vorlage Sprache wählen") verwendet werden. Nach der ersten Mail Benachrichtigung können noch zwei Erinnerungsmails in selbst definierten Abständen (Tagen) verschickt werden.
 
-### Tab „Korrektoren“
+### Tab "Korrektoren"
 
 Hier werden die Personen hinzugefügt, die einen Test bewerten sollen. Dabei ist es egal, welche Rolle die Person in OpenOlat besitzt. Auch Benutzer können als Korrektoren hinzugefügt werden. Über das Zahnrad können weitere Konfigurationen vorgenommen werden, z.B. ein Korrektor kontaktiert, deaktiviert oder entfernt sowie die jeweiligen Korrekturaufträge angezeigt werden.
 
-### Tab „Korrekturaufträge“
+### Tab "Korrekturaufträge"
 
 Hier kann der Bearbeitungsstand der Korrekturaufträge der unterschiedlichen Korrektoren angezeigt und nach verschiedenen Kriterien gefiltert werden.
 

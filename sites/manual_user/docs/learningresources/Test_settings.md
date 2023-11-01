@@ -9,7 +9,13 @@ tab is explained in more detail in this chapter.
 
 ![Test administration](assets/Test_administration.png){ class="shadow" }
 
-### Export handwritten exams
+### Export tests
+
+Tests created in OpenOlat can also be exported as Word files. To do this, click "Export as Word file" under Export in the test editor.
+
+The test is then downloaded in zip format with two Word files, one containing only the questions and the other additionally containing the solutions. The exported file contains all the important information about the test, including the score, so you can also use the document directly.
+
+### Generate handwritten exams
 
 If you want to run a test offline, you can use this wizard to generate a cover sheet and different versions of your test resource with randomly selected answers.
 
@@ -21,7 +27,7 @@ If you want to run a test offline, you can use this wizard to generate a cover s
 
     ![Offline Test Cover Sheet Attributes](assets/Test_offline_Deckblattattribute_DE.png){ class="shadow" }
 
-3. here is the possibility to select and overwrite certain fields. The description field is copied over from the test resource and can be customized again here.
+3. Here you have the possibility to select and overwrite certain fields. The description field is copied over from the test resource and can be customized again here.
 
     ![Offline Test Cover Sheet Fields](assets/Test_offline_Deckblattfelder_DE.png){ class="shadow" }
 
@@ -55,7 +61,7 @@ Enter the maximum number of possible solution attempts for a test here. The valu
 
 Once the result is "passed", the user cannot perform the test again.  
 
-#### Anonym users (guests) allowed {: #guest}
+#### Anonymous users (guests) allowed {: #guest}
 
 Persons without OpenOlat account can also complete the course. The results are also available in the test statistics. However, guests cannot interrupt the test. Only completed tests are counted.  
 
@@ -65,7 +71,7 @@ This is chosen to prevent a user from having access to other OpenOlat functions 
 
 #### Show question title
 
-Select the checkbox to display the titles of the questions to the users. If the titles should not be displayed but the navigation is activated then an anonymous title appears in the menu navigation.  
+Select the checkbox to display the titles of the questions to the users. If the titles should not be displayed but the navigation is activated, an anonymous title will appear in the menu navigation.  
   
 #### Show menu navigation
 
@@ -88,7 +94,7 @@ Select the checkbox to show the users current score in the test run.
 
 #### Show questions max. points
 
-If the checkbox is checked, the maximum achievable points per question are displayed in the test.  
+If the checkbox is marked, the maximum achievable points per question are displayed in the test.  
 
 #### Allow to suspend
 
@@ -121,7 +127,7 @@ From the following options, you can select the ones you want to display.
 * **Test Summary**: The metadata of the entire test is displayed as a summary (including points and passed/failed).
 * **Section Summary**: The section's metadata is displayed as a summary.
 * **Question Summary**: The metadata of each question is displayed.
-* **Answer, submitted by participant**: The question is displayed together with the participant's answer.
+* **Answer, submitted by participant**: The question is displayed together with the participants answer.
 * **Solution**: The question is displayed together with the correct solution. If a correct solution is stored in the Feedback tab, it will also be displayed in the result view with this option.
 
 ![Result report](assets/Resultreport.png){ class="shadow" }
@@ -142,8 +148,7 @@ In order to be able to add further correctors to a test, even across courses, th
 
 Here the external grading is generally switched on. You can then define whether the test items are evaluated anonymously or with a visible name. The correction period specifies the maximum time available to the grader.
 
-The respective graders are automatically notified when new edits of the test are available. The notification can be sent either immediately after the test is completed or once a day. For this purpose, a suitable mail text can be
-stored or a template ("Choose language template") can be used. After the first mail notification, two reminder mails can be sent at user-defined intervals (days).
+The respective graders are automatically notified when new edits of the test are available. The notification can be sent either immediately after the test is completed or once a day. For this purpose, a suitable mail text can be stored or a template ("Choose language template") can be used. After the first mail notification, two reminder mails can be sent at user-defined intervals (days).
 
 ### Tab "Graders"
 
@@ -154,4 +159,4 @@ deactivated or removed and the respective grading assignments can be displayed.
 
 Here the processing status of the grading assignments of the different graders can be displayed and filtered according to various criteria.
 
-For more information on cross-course correction, see the [Coaching Tool](../area_modules/Coaching.de.md).
+For more information on cross-course correction, see the [Coaching Tool](../area_modules/Coaching.md).

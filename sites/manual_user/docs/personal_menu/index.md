@@ -2,29 +2,62 @@
 
 Each registered OpenOlat user has a personal menu that can be configured individually.
 
-This chapter will inform you on how to change the settings in your personal menu, on how to use further features like the full text search and the chat and on how to adapt the portal to your personal needs. If you cannot see the portal it was most probably disabled by the system administrator.
+It opens in the right margin by clicking on the small image in the upper right corner or the small arrow next to it.
+
+![pers_menu1_v1_de.png](assets/pers_menu1_v1_de.png){ class="shadow lightbox"}
+
+You can find the following sections in the personal menu:
+
+* **Personal Tools**
+* **Configuration**
+* **Help**
+* **System**
+* as well as the **Logout** function
+
+![pers_menu2_v1_de.png](assets/pers_menu2_v1_de.png){ class="shadow aside-right lightbox"}
 
 !!! note "Quick Links"
 
-    * [Personal Menu](../personal_menu/Personal_Tools.md)
-    * [Configuration](Configuration.md)
-    * [Full-Text Search](../basic_concepts/Full_Text_Search.md)
-    * [Chat](../basic_concepts/Chat.md)
-    * [Portal configuration](../basic_concepts/Portal_configuration.md)
-    * [Math formula](../basic_concepts/Math_formula.md)
-    * [Working with tables](../basic_concepts/Table_Concept.md)
+    **Personal tools**
+
+    * [Calender](../personal_menu/Calendar.md)
+    * Subscriptions
+    * [Personal folder](../personal_menu/Personal_folders.md)
+    * Notes
+    * Evidence of achievement
+    * Competences
+    * [Badges](../personal_menu/OpenBadges.md)
+    * Bookings
+    * [Other users](../basic_concepts/Full_Text_Search.md)
+    * Absences
+    * Portfolio 2.0
+    * [Media Center](../personal_menu/Media_Center.md)
+    * To-Dos
+    * [E-Mail](../personal_menu/E-Mail.md)
+
+    **Configuration**
+
+    * Profile
+    * System settings
+    * Password
+
+## Move tools to the main navigation
+
+If you prefer to have a tool displayed in the header instead of the personal menu, you can move the menu option from the personal menu to it.
+
+![pers_menu_moved_tool_v1_de.png](assets/pers_menu_moved_tool_v1_de.png){ class="shadow lightbox"}
+
+You make the setting for this in the<br>
+**Personal Menu > Section Configuration > System Tab > Section Personal tools**
+
+All tools that you mark here are displayed in the header at the top right instead of in the personal menu and can thus be accessed more quickly.
+
+![pers_menu_move_item_v1_de.png](assets/pers_menu_move_item_v1_de.png){ class="shadow lightbox"}
+
+!!! note "Please note:"
+
+    The tools are displayed only once, either in the personal menu **or** in the header.
 
 ## Navigation and personal menu
 
-In the navigation the [chat](../basic_concepts/Chat.md) is shown first. It is followed by the number of active users and the full text search. In the navigation your personal menu can be opened as well. It is divided into [personal tools](../personal_menu/Personal_Tools.md), [configuration](Configuration.md) and system. Further information about the single elements can be found under the corresponding link.
-
-![Navigation](assets/global_navigation.png){ class="shadow aside-right lightbox"}
-
-In the personal menu the following areas can be found:
-
-* [personal tools](../personal_menu/Personal_Tools.md)
-* [configuration](Configuration.md)
-* help and
-* system
-
-Depending on the tools selected in "System settings" certain personal tools are moved in the navigation on the top or stay in the personal menu on the right.
+In the navigation the [chat](../basic_concepts/Chat.md) (instant messenger) and the [Full Text Search](../basic_concepts/Full_Text_Search.md) are shown first.
