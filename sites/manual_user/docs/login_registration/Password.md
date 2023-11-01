@@ -1,13 +1,12 @@
 # Password
 
-
 !!! info "Note"
 
     If security level 2 was selected (passkey only), then password setting is no longer possible.
 
 ## Change the password yourself
 
-All users of OpenOlat can change their password at any time.
+All users of OpenOlat can change their existing passwords at any time.
 To do this, go to the personal menu.<br>
 **Personal Menu > Section "Configuration" > Password**
 

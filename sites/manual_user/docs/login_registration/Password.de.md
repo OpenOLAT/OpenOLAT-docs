@@ -6,7 +6,7 @@
 
 ## Passwort selbst ändern
 
-Alle Benutzer:innen von OpenOlat können ihr Passwort jederzeit selbst ändern.
+Alle Benutzer:innen von OpenOlat können ihre bestehenden Passwörter jederzeit selbst ändern.
 Gehen Sie dazu in das persönliche Menü.<br>
 **Persönliches Menü > Abschnitt "Konfiguration" > Passwort**
 

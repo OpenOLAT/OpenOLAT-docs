@@ -49,6 +49,7 @@ enabled.
 ## After login
 
 After your login you will navigate either to 
+
 * your personal homepage in OpenOlat, 
 * an info page, a page which usually contains general information on various topics, 
 * to the portal or 

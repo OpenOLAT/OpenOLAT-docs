@@ -48,9 +48,9 @@ aktiviert sein.
 
 ## Nach dem Login
 
-Nach dem Login gelangen Sie entweder  
-* auf Ihre persönliche Startseite in
-OpenOlat, 
+Nach dem Login gelangen Sie entweder
+
+* auf Ihre persönliche Startseite in OpenOlat, 
 * auf eine Infoseite, eine Seite die in der Regel generelle Informationen zu verschiedenen Themen enthält, 
 * das OpenOlat Portal oder 
 * auf eine von Ihnen selbst festgelegte Startseite. 
