@@ -12,8 +12,7 @@ Passkey ist Teil eines dreistufigen Sicherheitskonzeptes in OpenOlat:
 
 ## Durch Administrator:innen gesetzte Sicherheitsstufen
 
-Für manche Rollen macht eine höhere Sicherheitsstufe Sinn, z.B. für Benutzerverwalter:innen oder Administrator:innen.
-In OpenOlat kann deshalb für jede Rolle separat eine minimal erforderliche Sicherheitsstufe eingestellt werden.
+Für manche Rollen macht eine höhere Sicherheitsstufe Sinn, z.B. für Benutzerverwalter:innen oder Administrator:innen. In OpenOlat kann deshalb für jede Rolle separat eine minimal erforderliche Sicherheitsstufe eingestellt werden.
 
 ![security_levels_v1_de.png](assets/security_levels_v1_de.png){ class=" shadow lightbox" }
 
@@ -26,7 +25,7 @@ Die Umstellung kann gemacht werden **im persönlichen Menü** unter **"Passwort"
 
 ![security_levels_user_settings_v1_de.png](assets/security_levels_user_settings_v1_de.png){ class=" shadow lightbox" }
 
-Wird für das Höherstufen ein Passkey benötigt, können die Benutzer:innen den Passkey selbst generieren. (Ebenfalls im persönlichen Menü unter **"Passwort"**)
+Wird für das Höherstufen ein Passkey benötigt, können die Benutzer:innen den Passkey selbst generieren. (Ebenfalls im persönlichen Menü unter **"Passwort"**.)
 
 Wenn Benutzer:innen ihre Sicherheitsstufe selbst ändern dürfen, ist prinzipiell ein Erhöhen oder Herunterstufen möglich. Ob ein Herunterstufen möglich ist, hängt aber von der Vorgabe der Administrator:innen ab.
 
