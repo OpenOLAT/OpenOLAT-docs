@@ -158,7 +158,7 @@ Zur besseren Verwaltung der Medienelemente kann der verfügbare Speicherplatz im
 
 Wenden Sie sich bei Fragen zum Speicherbedarf an Ihre Administrator:innen.
 
-Sie finden die Information zum bereits verwendeten Speicherplatz links unten.¨ 
+Sie finden die Information zum bereits verwendeten Speicherplatz links unten.
 
 ![media_center_quota_v1_de.png](assets/media_center_quota_v1_de.png){ class=" shadow lightbox" }
 

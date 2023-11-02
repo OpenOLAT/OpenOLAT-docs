@@ -86,7 +86,7 @@ For better management of media items, the available storage space can be configu
 
 If you have any questions about storage requirements, contact your administrator.
 
-You can find the information about the storage space already used in the bottom left corner.¨
+You can find the information about the storage space already used in the bottom left corner.
 
 ![media_center_quota_v1_de.png](assets/media_center_quota_v1_de.png){ class=" shadow lightbox" }
 
