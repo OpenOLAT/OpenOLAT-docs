@@ -151,3 +151,14 @@ Einzelne Dateien können Sie auch im 3-Punkte-Menü löschen, wenn Sie ein einze
 
     Beachten Sie, dass Sie nur **eigene** Medien, die nicht in OpenOlat an anderen Stellen eingebunden sind, löschen können. 
 
+
+## Quota
+
+Zur besseren Verwaltung der Medienelemente kann der verfügbare Speicherplatz im Medien Center konfiguriert werden. In der Regel haben Autor:innen einen höheren Speicherplatzbedarf, daher werden die Quota-Einstellungen separat für diese Poweruser vorgenommen.
+
+Wenden Sie sich bei Fragen zum Speicherbedarf an Ihre Administrator:innen.
+
+Sie finden die Information zum bereits verwendeten Speicherplatz links unten.¨ 
+
+![media_center_quota_v1_de.png](assets/media_center_quota_v1_de.png){ class=" shadow lightbox" }
+
