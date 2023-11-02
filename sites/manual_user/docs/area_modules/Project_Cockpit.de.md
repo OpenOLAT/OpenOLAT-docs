@@ -13,7 +13,7 @@ Klickt man auf ein konkretes Projekt landet man im Cockpit des Projektes. Von hi
     Die genauen Möglichkeiten variieren leicht je nach Projekt-Rolle. 
 
 
-![projekt_erstellt_aus_vorlage_v1_de.png](assets/projekt_erstellt_aus_vorlage_v1_de.png){ class="shadow lightbox" }
+![projekt_erstellt_aus_vorlage_v1_de.png](assets/projekt_erstellt_aus_vorlage_v2_de.png){ class="shadow lightbox" }
 
 
 ## Objekte im Projekt
@@ -26,8 +26,9 @@ In einem Projekt kann man verschiedene Objekte anlegen/hochladen:
 * To-dos
 * Termine
 * Meilensteine
+* Whiteboard-Dateien (draw.io)
 
 Diese Objekte lassen sich miteinander verknüpfen, um so zusammengehörige Themen besser zu finden.
 Dabei öffnet man ein Objekt im Bearbeitungsmodus (ausser To-dos und Files, diese lassen sich direkt bearbeiten) und klickt unter Links entweder auf "Objekt verlinken", um ein bestehendes Objekt zu verlinken oder auf "Link hinzufügen" um ein Objekt mit Verknüpfung direkt zu erstellen.
 
-![Bild einer Verlinnkung im Projekt](assets/project-link.de.jpg)
+![Bild einer Verlinkung im Projekt](assets/project-link.de.jpg)
