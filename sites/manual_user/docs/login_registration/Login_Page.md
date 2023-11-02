@@ -6,7 +6,7 @@ First select your university on the intro page. You will then be passed on and i
 
 In case you should forget your password you can contact your responsible helpdesk.
 
-![login](assets/loginscreen.jpg)
+![login_v1_de.png](assets/login_v1_de.png){ class=" shadow lightbox" }
 
 ## Guest Access
 

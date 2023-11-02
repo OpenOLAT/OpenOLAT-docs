@@ -8,7 +8,7 @@ Auf der Einstiegsseite wählen Sie Ihre Hochschule aus. Sie werden weitergeleite
 
 Sollten Sie ihre Zugangsdaten (Benutzername und/oder Passwort) nicht mehr zu Hand haben, wenden Sie sich an Ihre zuständige Beratungsstelle.
 
-![Loginseite](assets/loginscreen.de.jpg)
+![login_v1_de.png](assets/login_v1_de.png){ class=" shadow lightbox" }
   
 ## Gastzugang
 
