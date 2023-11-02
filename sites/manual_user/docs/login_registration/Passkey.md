@@ -13,25 +13,39 @@
 **Step 1:** <br>
 A device (e.g. a smartphone or computer) receives a Passkey (private key). The creation of a private key is initiated by OpenOlat, for example. A private key is device-specific and always remains stored on the device (e.g. the smartphone). It never leaves the security chip.
 
+![passkey_step01_v1_de.png](assets/passkey_step01_v1_de.png){ class=" lightbox" }
+
 **Step 2:** <br>
 The private key is used to create a public key on the smartphone. The public key is mathematically "related" to the private key, but no copy of the private key can be made from it.
 
+![passkey_step02_v1_de.png](assets/passkey_step02_v1_de.png){ class=" lightbox" }
+
 **Step 3:** <br>
 The user wants to access an application on server X (a website) with his device (e.g. the smartphone on which the private key is stored).
+
+![passkey_step03_v1_de.png](assets/passkey_step03_v1_de.png){ class=" lightbox" }
 
 **Step 4:** <br>
 The public key is sent to server X.<br>
 If another application on another server Y is to be called from the smartphone, the public key must also be sent to this server Y.
 
+![passkey_step04_v1_de.png](assets/passkey_step04_v1_de.png){ class=" lightbox" }
+
 **Step 5:**<br>
 Server X uses the public key to formulate a question that can only be answered by someone who has the private key. This question is called "Challenge" and is sent from server X to the requesting device (e.g. the smartphone).
+
+![passkey_step05_v1_de.png](assets/passkey_step05_v1_de.png){ class=" lightbox" }
 
 **Step 6:**<br>
 With the help of the private key, answering the challenge is no problem for the smartphone. The response is sent from the smartphone to the server X that asked the question.
 
+![passkey_step06_v1_de.png](assets/passkey_step06_v1_de.png){ class=" lightbox" }
+
 **Step 7:**<br>
 The server can now use the public key to check the answer for correctness. But he could never calculate the answer himself. This is only possible with the help of the private key on the smartphone.<br>
 If the answer is correct, the server gives the green light: The challenge was answered correctly, access can be granted.
+
+![passkey_step07_v1_de.png](assets/passkey_step07_v1_de.png){ class=" lightbox" }
 
 **Passkey with OpenOlat:**<br>
 OpenOlat triggers the creation of a private key on the target device and receives a public key from there. (The private key is not created and transmitted outside the target device).

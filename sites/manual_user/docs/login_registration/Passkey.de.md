@@ -13,25 +13,39 @@
 **Schritt 1:**<br> 
 Ein Gerät (z.B. ein Smartphone oder ein PC) erhält einen Passkey (Private Key). Die Erstellung des Private Keys wird z.B. von OpenOlat angestossen. Dieser Schlüssel ist gerätespezifisch und bleibt immer auf dem Gerät (z.B. dem Smartphone) gespeichert. Er verlässt niemals den Sicherheitschip.
 
+![passkey_step01_v1_de.png](assets/passkey_step01_v1_de.png){ class=" lightbox" }
+
 **Schritt 2:**<br> 
 Mit Hilfe des Private Key wird auf dem Smartphone ein Public Key erstellt. Der Public Key ist mathematisch mit dem Private Key "verwandt", aber es kann keine Kopie des Private Key daraus hergestellt werden. 
 
+![passkey_step02_v1_de.png](assets/passkey_step02_v1_de.png){ class=" lightbox" }
+
 **Schritt 3:**<br>
 Der Benutzer möchte mit seinem Gerät (z.B. dem Smartphone, auf dem der Private Key gespeichert ist) eine Applikation auf Server X (eine Website) aufrufen.
+
+![passkey_step03_v1_de.png](assets/passkey_step03_v1_de.png){ class=" lightbox" }
 
 **Schritt 4:**<br>
 Der Public Key wird an den Server X geschickt.<br>
 Soll vom Smartphone eine andere Applikation auf einem anderen Server Y aufgerufen werden, muss der Public Key auch an diesen Server Y geschickt werden. Jede Applikation erhält einen eigenen Public Key. Die Applikationen wissen nicht voneinander, wer sonst noch einen solchen Public Key hat.
 
+![passkey_step04_v1_de.png](assets/passkey_step04_v1_de.png){ class=" shadow lightbox" }
+
 **Schritt 5:**<br>
 Der Server X formuliert mit Hilfe des Public Keys eine Frage, die nur jemand beantworten kann, der über den Private Key verfügt. Diese Frage heisst "Challenge" und wird vom Server X an das anfragende Gerät (z.B. das Smartphone) geschickt.
+
+![passkey_step05_v1_de.png](assets/passkey_step05_v1_de.png){ class=" lightbox" }
 
 **Schritt 6:**<br>
 Mit Hilfe des Private Keys ist das Beantworten der Challenge für das Smartphone kein Problem. Die Antwort (Response) wird vom Smartphone an den fragenden Server X geschickt.
 
+![passkey_step06_v1_de.png](assets/passkey_step06_v1_de.png){ class=" lightbox" }
+
 **Schritt 7:**<br>
 Der Server kann mit dem öffentlichen Schlüssel (Public Key) nun die Antwort auf Richtigkeit kontrollieren. Er könnte die Antwort aber niemals selbst berechnen. Das geht nur mit Hilfe des Private Keys auf dem Smartphone.<br> 
 Ist die Antwort korrekt, gibt der Server grünes Licht: Die Challenge wurde korrekt beantwortet, der Zugriff kann gewährt werden.
+
+![passkey_step07_v1_de.png](assets/passkey_step07_v1_de.png){ class=" lightbox" }
 
 **Passkey mit OpenOlat:**<br>
 OpenOlat stösst die Erstellung eines Private Keys auf dem Zielgerät an und erhält von dort einen Public Key. (Der Private Key wird nicht ausserhalb des Zielgerätes erstellt und übermittelt.)
