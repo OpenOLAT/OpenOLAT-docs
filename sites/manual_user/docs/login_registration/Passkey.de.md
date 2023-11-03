@@ -29,7 +29,7 @@ Der Benutzer möchte mit seinem Gerät (z.B. dem Smartphone, auf dem der Private
 Der Public Key wird an den Server X geschickt.<br>
 Soll vom Smartphone eine andere Applikation auf einem anderen Server Y aufgerufen werden, muss der Public Key auch an diesen Server Y geschickt werden. Jede Applikation erhält einen eigenen Public Key. Die Applikationen wissen nicht voneinander, wer sonst noch einen solchen Public Key hat.
 
-![passkey_step04_v1_de.png](assets/passkey_step04_v1_de.png){ class=" shadow lightbox" }
+![passkey_step04_v1_de.png](assets/passkey_step04_v1_de.png){ class=" lightbox" }
 
 **Schritt 5:**<br>
 Der Server X formuliert mit Hilfe des Public Keys eine Frage, die nur jemand beantworten kann, der über den Private Key verfügt. Diese Frage heisst "Challenge" und wird vom Server X an das anfragende Gerät (z.B. das Smartphone) geschickt.

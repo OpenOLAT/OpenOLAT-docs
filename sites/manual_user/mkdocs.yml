@@ -19,6 +19,7 @@ nav:
       - Chat: "basic_concepts/Chat.md"
       - Table concept: "basic_concepts/Table_Concept.md"
       - Math formula: "basic_concepts/Math_formula.md"
+      - To-dos: "basic_concepts/To_Dos_Basics.md"
     - Technology:
       - basic_concepts/Technology.md 
       - Using WebDAV: "basic_concepts/Using_WebDAV.md" 
