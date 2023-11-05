@@ -48,3 +48,7 @@ The same evaluation can also be found in the menu `Administration -> Survey stat
 Another way to save the results is via the menu `Data Archiving -> Surveys`. This is the same file as under "Export" in the course run.
 
 If a questionnaire is integrated into a course as a survey, the questionnaire can be changed in the course to a limited extent using the "Edit" button. Texts can be changed but individual blocks can no longer be moved or new areas created or deleted. The weighting of a category can still be changed.
+
+## Changes to forms and included questionnaires
+
+Please note that once a form has been called up by a participant, the form can only be changed in a limited way.

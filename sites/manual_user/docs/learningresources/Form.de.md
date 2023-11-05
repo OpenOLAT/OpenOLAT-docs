@@ -3,9 +3,11 @@
 * [Allgemeines zu Formularen](General_information_on_Forms.de.md)
 * [Drei Schritte zu Ihrem Formular](../forms/Three_Steps_to_your_Form.de.md)
 * [Formular Editor](../learningresources/Form_editor_Questionnaire_editor.de.md)
-  * [Rubrik](Rubric.de.md)
+
+   * [Rubrik](Rubric.de.md)
   * [Frageregeln](Question_rules.de.md)
 * [Formulare in Kursen](Forms_in_Courses.de.md)
+
   * [Formular in Formularen](Forms_in_Forms_Element.de.md)
   * [Formular in Umfragen](Forms_in_Questionnaires.de.md)
   * [Formular als Rubrik Bewertung](Forms_in_Rubric_Scoring.de.md)
