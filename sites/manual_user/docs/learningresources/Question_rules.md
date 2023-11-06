@@ -13,7 +13,7 @@ To create a question rule, these conditions must have been met:
 
 If the conditions are not met, a warning will be issued and you will not be able to create a rule.
 
-* The container can be named for better understanding. Without own naming this contains the default name _< Unnamed>[Container ID]_.
+* The container can be named for better understanding. Without own naming this contains the default name _< Unnamed >[Container ID]_.
 
     !!! info "Several levels"
 

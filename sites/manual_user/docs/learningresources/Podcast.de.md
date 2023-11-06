@@ -3,21 +3,14 @@
 * [Vier Schritte zu Ihrem Podcast](../resource_podcast/Four_Steps_to_Your_Podcast.de.md)
 * [Podcast - Weitere Konfigurationen](../learningresources/Podcast_Further_Configurations.de.md)
 
-Podcasts sind in OpenOlat Lernressourcen die sich in OpenOlat Kurse einbinden
-lassen.
+Podcasts sind in OpenOlat Lernressourcen die sich in OpenOlat Kurse einbinden lassen.
 
 Dieses Kapitel erklärt in einer Schritt-für-Schritt-Anleitung, wie ein Podcast
 erstellt, konfiguriert und in einen Kurs eingebunden werden kann.
 
 ## Allgemeines zu Podcast
 
-Der Begriff „Podcasting“ bildet sich aus den beiden Wörtern „iPod“ und
-„Broadcasting“ und bezeichnet das Produzieren und Anbieten von Audio- und
-Videodateien. Podcasts kann man abonnieren und die Episoden entweder über
-Portale wie iTunes auf mobile Endgeräte herunterladen, oder direkt in OpenOlat
-konsumieren. Die Episoden werden zeitlich sortiert angezeigt, die neuesten
-Meldungen erscheinen immer oben. Kursteilnehmer können Episoden bewerten und
-Kommentare dazu verfassen.
+Der Begriff "Podcasting" bildet sich aus den beiden Wörtern "iPod" und "Broadcasting" und bezeichnet das Produzieren und Anbieten von Audio- und Videodateien. Podcasts kann man abonnieren und die Episoden entweder über Portale wie iTunes auf mobile Endgeräte herunterladen, oder direkt in OpenOlat konsumieren. Die Episoden werden zeitlich sortiert angezeigt, die neuesten Meldungen erscheinen immer oben. Kursteilnehmer können Episoden bewerten und Kommentare dazu verfassen.
 
 !!! info ""
 

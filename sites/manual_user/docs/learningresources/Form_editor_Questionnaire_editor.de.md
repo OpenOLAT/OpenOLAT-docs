@@ -6,7 +6,7 @@
 
     Die folgenden Ausführungen beziehen sich auf den bisherigen Formular Editor.
 
-Wählen oder erstellen Sie eine Lernressource vom Typ „Formular“ und klicken Sie in der Administration auf „Inhalt editieren“. Es öffnet sich der Editor und über den Button "Inhalt hinzufügen" stehen verschiedene Möglichkeiten zur Verfügung.
+Wählen oder erstellen Sie eine Lernressource vom Typ "Formular“ und klicken Sie in der Administration auf "Inhalt editieren“. Es öffnet sich der Editor und über den Button "Inhalt hinzufügen" stehen verschiedene Möglichkeiten zur Verfügung.
 
 Sobald Sie ein Element erstellt haben, können Sie auch über das Pluszeichen weitere Elemente über oder unter einem Element hinzufügen. Jedes Element kann auch dupliziert, per drag and drop verschoben oder gelöscht werden.
 
@@ -38,7 +38,7 @@ Auch kann die Positionierung durch die Verwendung des Container Element weiter o
 
 ## Rubrik
 
-Für die Darstellung eines [Rubrik](Rubric.de.md) stehen drei unterschiedliche Typen zur Verfügung. Die Bewertungen können sich wie bei Single-Choice Fragen nur auf einen Aspekt beziehen oder kontinuierlich erfolgen. Anders als bei den anderen Fragetypen werden hier Fragen und Antworten über dasselbe Element organisiert.
+Für die Darstellung einer [Rubrik](Rubric.de.md) stehen drei unterschiedliche Typen zur Verfügung. Die Bewertungen können sich wie bei Single-Choice Fragen nur auf einen Aspekt beziehen oder kontinuierlich erfolgen. Anders als bei den anderen Fragetypen werden hier Fragen und Antworten über dasselbe Element organisiert.
 
 ![Formular Rubrik](assets/formular_rubrik.jpg){ class="shadow lightbox" }
 
@@ -46,7 +46,7 @@ Weitere Infos finden Sie [hier](Rubric.de.md).
 
 ## Einzelauswahl
 
-Erstellt eine Single-Choice Antwortskala. Die einzelnen Antworten können dabei nebeneinander, untereinander oder als Wahl Menü über die Option „Auswahlliste“ dargestellt werden. Die Einträge können über die Pfeiltasten nach oben oder unten verschoben werden.
+Erstellt eine Single-Choice Antwortskala. Die einzelnen Antworten können dabei nebeneinander, untereinander oder als Wahl Menü über die Option "Auswahlliste“ dargestellt werden. Die Einträge können über die Pfeiltasten nach oben oder unten verschoben werden.
 
 Im Bereich "Pflicht" kann man die Frage als obligatorisch oder freiwillig einstellen.
 
@@ -126,8 +126,8 @@ Einem Formular können mehrere Regeln hinzugefügt werden.
 
 Hier noch ein paar Tipps zur Verwendung des Formular Editors:
 
-* Bei der Wahl „Rubrik“ werden die Fragen und Antworten zusammen erstellt.
-* Bei allen anderen Fragetypen werden die Fragen mit Hilfe des Elements „Paragraph“ erstellt und den Antworten des passenden Fragetyps zugeordnet.
-* Über „Eintrag hinzufügen“ können Sie bei der Einzel- bzw. Mehrfachauswahl weitere Antwortelemente ergänzen.
-* Fügen Sie neben den Fragen bei Bedarf auch weitere Elemente z.B. „Nutzungsbedingungen“ oder „Informationen“ hinzu.
+* Bei der Wahl "Rubrik" werden die Fragen und Antworten zusammen erstellt.
+* Bei allen anderen Fragetypen werden die Fragen mit Hilfe des Elements "Paragraph" erstellt und den Antworten des passenden Fragetyps zugeordnet.
+* Über "Eintrag hinzufügen" können Sie bei der Einzel- bzw. Mehrfachauswahl weitere Antwortelemente ergänzen.
+* Fügen Sie neben den Fragen bei Bedarf auch weitere Elemente z.B. "Nutzungsbedingungen" oder "Informationen" hinzu.
 * Mit dem Element "Container" können Sie ein mehrspaltiges Design erstellen.

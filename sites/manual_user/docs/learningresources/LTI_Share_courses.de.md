@@ -167,8 +167,7 @@ Im OpenOlat-Kurs können Sie den Test-Aufruf in der Mitgliederverwaltung verifiz
 
 ## Externe Kurse im Bewertungswerkzeug
 
-Auch für den Kursbaustein LTI kann das Bewertungsformular ausgefüllt und angepasst werden. 
-Wählen Sie im Kurseditor den Kursbaustein. Unter dem Tab "Seiteninhalt" muss zwingend "Punkte übertragen" ausgewählt sein. Je nachdem muss auch ein Skalierungsfaktor eingetragen und die Punktzahl für das Bestehen definiert werden. Weitere Informationen zur Konfiguration von LTI-Seiten finden Sie [hier](https://docs.openolat.org/de/manual_user/learningresources/Course_Element_LTI_Page/).
+Auch für den Kursbaustein LTI kann das Bewertungsformular ausgefüllt und angepasst werden. Wählen Sie im Kurseditor den Kursbaustein. Unter dem Tab "Seiteninhalt" muss zwingend "Punkte übertragen" ausgewählt sein. Je nachdem muss auch ein Skalierungsfaktor eingetragen und die Punktzahl für das Bestehen definiert werden. Weitere Informationen zur Konfiguration von LTI-Seiten finden Sie [hier](https://docs.openolat.org/de/manual_user/learningresources/Course_Element_LTI_Page/).
 
 
 

@@ -13,7 +13,7 @@ Um eine Frageregel zu erstellen, müssen diese Bedingungen erfolgt sein:
 
 Falls die Bedingungen nicht erfüllt sind, erfolgt eine Warnung und sie können keine Regeln erstellen.
 
-* Der Container kann zur besseren Verständigung benannt werden. Ohne eigene Benahmung enthält dieser den Standardnamen _< Unbenannt>[Container ID]_.
+* Der Container kann zur besseren Verständigung benannt werden. Ohne eigene Benahmung enthält dieser den Standardnamen _< Unbenannt >[Container ID]_.
 
     !!! info "Verschiedene Ebenen"
 
