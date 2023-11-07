@@ -5,7 +5,15 @@ _Todo_
 - [ ] elaborate on guidelines
 - [ ] add accessiblity guidelines
 
----
+## Variants
+
+There are two different variants for the cards: normal (horizontal) and a compact (vertical).
+
+### Card list (horizontal)
+
+These cards work well on larger screens or for enriched view of a table list.
+
+Example is the course card as horizontal list card.
 
 ![coursecard](assets/course-card.jpg)
 
@@ -13,17 +21,14 @@ _Todo_
 2. **Course Information:** Space for course information. All Information gets displayed in vertical order.
 3. **Progress and Actions:** Space for Course Progress, if booked. Also the 2 action buttons are here.
 
-## Variants
 
-There are two different variants for the cards: normal (horizontal) and a compact (vertical).
+### Card compact (vertical)
 
-### Course Card (horizontal)
+These Cards are found in badges / media center / catalog.
 
+#### Shematic example of a card
 
-
-These cards work well on larger screens or for enriched view of a table list.
-
-### Course Card compact (vertical)
+![coursecard shematic](assets/shematic-compact-card.png)
 
  desktop | tablet | mobile
  :------: | :-----:| :-------:
@@ -31,9 +36,35 @@ These cards work well on larger screens or for enriched view of a table list.
  with 2 buttons | without image | 
  ![coursecard compactv2](assets/course-card-compact-2button.jpg) | ![coursecard compactv3](assets/course-card-compact-curriculum.jpg)
 
-A Variant currently in use in Catalog only. Smaller with less information (minus: course progress, duration, place).
 
-## Guidelines / Usage
+## Classes
+This is just an entrypoint, not an complete list.
+
+**Course Card /List Card**
+```CSS
+.o_coursetable.o_rendertype_custom .o_table_row .o_repo_entry_list_item {
+
+}
+```
+
+**Compact Cards:**
+
+``` Css
+%o_card,
+.o_card {
+	&:hover {
+	}
+}
+```
+
+## General Guidelines
+
+### Behaviour at different screen sizes
+
+The cards have a fixed width set in percentage.
+
+#### Mobile, smaller than
+Should span the whole device width.
 
 ### When to use
 
@@ -47,6 +78,3 @@ If we need a high information density or you need to compare data, the table vie
 
 Except for Buttons and the personal learning progress the content is right aligned.
 
-### Accessibility
-
---
