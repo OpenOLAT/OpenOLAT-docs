@@ -6,21 +6,13 @@
 
 ## Funktionsweise
 
-Der Katalog 1.0 kann von einem Administrator oder Katalogverwalter eingerichtet werden, so dass die Autoren Kurse und andere
-Lernressourcen sinnvoll in den Katalog einsortieren können. Die Reihenfolge
-der Katalogeinträge kann vom Administrator bzw. Katalogverwalter definiert
-werden.
+Der Katalog 1.0 kann von einem Administrator oder Katalogverwalter eingerichtet werden, so dass die Autoren Kurse und andere Lernressourcen sinnvoll in den Katalog einsortieren können. Die Reihenfolge der Katalogeinträge kann vom Administrator bzw. Katalogverwalter definiert werden.
 
 ![Katalog](assets/catalog-de.png)
 
-Verwenden Sie die Suchmaske, wenn Sie den gewünschten Kurs im Katalog nicht
-finden. Möglicherweise hat der Besitzer den Kurs noch nicht in den Katalog
-eingetragen.
+Verwenden Sie die Suchmaske, wenn Sie den gewünschten Kurs im Katalog nicht finden. Möglicherweise hat der Besitzer den Kurs noch nicht in den Katalog eingetragen.
 
-In den Katalog können nur Kurse und Lernressourcen vom Lehrenden eingetragen
-werden, die auch für die Lerner frei geschaltet sind. Die Sichtbarkeit im
-Katalog ist abhängig vom Publikationsstatus und den Freigabeeinstellungen der
-Lernressource:
+In den Katalog können nur Kurse und Lernressourcen vom Lehrenden eingetragen werden, die auch für die Lerner frei geschaltet sind. Die Sichtbarkeit im Katalog ist abhängig vom Publikationsstatus und den Freigabeeinstellungen der Lernressource:
 
 Benutzerrolle| Freigabeeinstellung| Publikationsstatus  
 ---|---|---  
@@ -38,8 +30,7 @@ Im Katalog 1.0 werden alle Angebote in den Kursen erstellt (**Administration > E
 
 !!! hint "Voraussetzung für ein Angebot"
 
-    Damit Sie ein Angebot erstellen können, muss als Buchungsmethode die Option "Buchbare und offene Angebote" gewählt werden. 
-    (**Administration > Einstellungen > Tab Freigabe**)
+    Damit Sie ein Angebot erstellen können, muss als Buchungsmethode die Option "Buchbare und offene Angebote" gewählt werden.  (**Administration > Einstellungen > Tab Freigabe**)
     
     ![catalog20_freigabe_v1_de.png](assets/catalog20_freigabe_v1_de.png){ class="shadow lightbox" }
 
@@ -57,11 +48,9 @@ Mit Klick auf den **Button "Erstellen"** wird das neue Angebot erstellt.
 
 ![catalog10_create_offer_v1_de.png](assets/catalog10_create_offer_v1_de.png){ class="shadow lightbox" }
 
-
 Klicken Sie im Angebot auf "**Katalog Konfiguration öffnen**". Sie springen damit direkt vom Tab "Freigabe" in den Tab "Katalog".
 
 ![catalog10_offer_in_catalog_v1_de.png](assets/catalog10_offer_in_catalog_v1_de.png){ class="shadow lightbox" }
-
 
 Klicken Sie anschliessend auf den Button "**In Katalog einfügen**" um den Kurs im Katalog zu registrieren.
 
@@ -77,4 +66,4 @@ Der fertige Katalog kann im Menü der Kopfzeile aufgerufen werden.
 
 !!! tipp "Katalog 2.0"
 
-    Informationen zum Erstellen von Angeboten im Katalog 2.0 finden Sie [hier](catalog2.0_angebote.md). 
+    Informationen zum Erstellen von Angeboten im Katalog 2.0 finden Sie [hier](../area_modules/catalog2.0_angebote.de.md). 

@@ -8,7 +8,7 @@ Kurse sind das wichtigste Grundelement in OpenOlat. Grundsätzlich werden alle L
 Wird ein Katalog zum Anbieten der Kurse und Lernressourcen gewünscht, kann dies vom OpenOlat [Administrator aktiviert](../../../manual_admin/docs/administration/Modules_Catalog_2.0.de.md) werden. Je nach Version des Katalogs erscheint er als eigener Menüpunkt [(Katalog V2)](../area_modules/catalog2.0.de.md) oder als Tab im Bereich Kurse [(Katalog V1)](../area_modules/catalog1.0.de.md). 
 
 ## Gruppen (M)
-Gruppen können für unterschiedliche Zwecke verwendet werden z.B. vereinfachen sie die Teilnehmeradministration oder erleichtern das kooperative, unahbängige Online-Lernen. 
+Gruppen können für unterschiedliche Zwecke verwendet werden z.B. vereinfachen sie die Teilnehmeradministration oder erleichtern das kooperative, unabhängige Online-Lernen. 
 
 ## Coaching (M)
 Werkzeug für Betreuer um einfach kursübergreifende Bewertungen und Aktionen durchzuführen. 

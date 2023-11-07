@@ -1,73 +1,70 @@
 # Catalog 2.0 - Overview
 
 
-## Wozu dient der Katalog?
+## What is the catalog for?
 
-Im Katalog können die in OpenOlat erstellten Kurse und Lernressourcen für die Lernenden präsentiert werden.
+The courses and learning resources created in OpenOlat can be presented to learners in the catalog.
 
-Interessiert sich jemand genauer für ein bestimmtes Angebot, kann zu jedem Eintrag die zugehörige Infoseite aufgerufen werden.
+If someone is interested in a specific offer, the corresponding information page can be called up for each entry.
 
-Entscheidet sich die Benutzerin / der Benutzer zum Besuch eines Kurses, kann dieser direkt vom Katalog aus aufgerufen werden, bzw. man gelangt zur Einstiegsseite, auf der ggf. Anmeldedaten eingegeben werden müssen.
+If the user decides to attend a course, it can be accessed directly from the catalog, or the user is taken to the entry page where registration data may have to be entered.
 
+## Where can I find the catalog 2.0?
 
-
-## Wo findet man den Katalog?
-
-Die OpenOlat-User finden den Katalog im **Menü der Kopfzeile**.
+OpenOlat users can find the catalog in the **header menu**.
 
 ![catalog20_kopfzeilenmenu_v1_de.png](assets/catalog20_kopfzeilenmenu_v1_de.png){ class="shadow lightbox" }
 
-Voraussetzung: Der Katalog muss in der OpenOlat [Administration aktiviert](../../../manual_admin/docs/administration/Modules_Catalog_2.0.de.md) worden sein. 
+Requirement: The catalog must be activated in the [administration](../../../manual_admin/docs/administration/Modules_Catalog_2.0.md). 
 
-!!! tip "Hinweis"
+!!! tip "Note"
 
-    Falls Sie den Eintrag im Menü nicht sehen, aber sicher sind, dass der Katalog 2.0 verwendet wird, schauen Sie bitte unter „Mehr“ ganz rechts nach. Hierhin werden alle Menüs verschoben, die aufgrund der Anzeigebreite des Monitors/Geräts nicht direkt angezeigt werden können.
+    If you do not see the entry in the menu, but are sure that Catalog 2.0 is being used, please look under "More" on the far right. All menus that cannot be displayed directly due to the display width of the monitor/device are moved here.
 
 
-## Die Bestandteile des Katalogs
+## The components of the catalog
 
-Der Katalog V2 enthält die Bestandteile
+Catalog 2.0 contains the following components:
 
-- Header: Kopfzeile mit Hintergrundbild
-- Suchfeld (innerhalb Header)
-- Filter für eine gezeilte Suche z.B. nach  Durchführungsformat, Typ der Lernressource, usw.
-- Launcher: Abschnitte im Katalog, in denen Katalogeinträge nach bestimmten Kriterien zusammengestellt werden z.B. zuletzt veröffentlichte Kurse (je nach Launchertyp und Launcherkonfiguration)
-- Kacheln/Karten mit Beschreibung eines Kurses oder einer Lernressource (entspricht der [Infoseite](../learningresources/Info_page.de.md) )
+- Header: Header with background image
+- Search field (inside the header)
+- Filter for a directed search, e.g. by implementation format, type of learning resource, etc.
+- Launcher: Sections in the catalog in which catalog entries are compiled according to certain criteria, e.g. recently published courses (depending on the launcher type and launcher configuration)
+- Tiles/cards with a description of a course or learning resource (corresponds to the [info page](../learningresources/Info_page.md))
 
 ![catalog20_bestandteile_v1_de.png](assets/catalog20_bestandteile_v1_de.png){ class="shadow lightbox" }
 
 
 
-## Welche Seiten und Ansichten hat der Katalog?
+## What pages and displays does the catalog have?
 
-**Seite/Ansicht 1:**<br>
-Wird in der Kopfzeile der Katalog (V2) aufgerufen, dann gelangt man zunächst auf die Startseite (Landing page) mit den Launchern.
+**Page/Display 1:**<br>
+If you call up the catalog (2.0) in the header, you will first be taken to the landing page with the launchers.
 
 ![catalog20_startseite_v1_de.png](assets/catalog20_startseite_v1_de.png){ class="shadow lightbox" }
 
-Im Suchfeld kann direkt nach bestimmten Lernressourcen gesucht werden. Indexiert sind dafür der Titel, der Teaser-Text und die Taxonomie. Sie können aber auch die angezeigten Kacheln/Karten anklicken, die in den Launchern gruppiert sind.
+Specific learning resources can be searched for directly in the search field. The title, teaser text and taxonomy are indexed for this purpose. However, you can also click on the displayed tiles/maps that are grouped in the launchers.
 
-**Seite/Ansicht 2:**<br>
-Bei Klick auf eine Karte/Kachel in einem Kategorie-Launcher öffnet sich eine Microsite (Listenansicht) mit den Kursen und Lernressourcen dieser Kategorie. 
-Zu einer Kategorie gehören alle Kurse und Lernressourcen die dem gleichen Taxonomie-Begriff zugeordnet sind. Auch Unterkategorien sind möglich.
+**Page/Display 2:**<br>
+Clicking on a card/tile in a category launcher opens a microsite (list view) with the courses and learning resources in this category. A category includes all courses and learning resources that are assigned to the same taxonomy term. Subcategories are also possible.
 
 ![catalog20_katagorielauncher_v1_de.png](assets/catalog20_katagorielauncher_v1_de.png){ class="shadow lightbox" }
 
-Erfolgt der Klick auf eine Karte/Kachel in einem anderen Launcher (nicht vom Typ Kategorie-Launcher) oder in einer Microsite öffnet sich die Info-Seite oder sofort der Kurs.
+If you click on a card/tile in another launcher (not of the category launcher type) or in a microsite, the info page or the course opens immediately.
 
-**Seite/Ansicht 3:**<br>
-Wird zuerst eine Microsite geöffnet, können Sie in der Liste die [Infoseiten](../learningresources/Info_page.de.md) anzeigen lassen oder die Kurs bzw. Lernressourcen gleich starten. 
+**Page/Display 3:**<br>
+If a microsite is opened first, you can display the [Info pages](../learningresources/Info_page.md) in the list or start the course or learning resources immediately.
 
 ![catalog20_microsite_v1_de.png](assets/catalog20_microsite_v1_de.png){ class="shadow lightbox" }
 
-!!! info "Hinweis"
+!!! info "Note"
 
-    Entsprechend der Struktur der Taxonomie können Microsites auch Unter-Microsites enthalten. 
+    According to the structure of the taxonomy, microsites can also contain sub-microsites.
 
 
-!!! tip "Tipp"
+!!! tip "Hint"
 
-    Mit den Filtern kann die Listenansicht angepasst werden.
+    The list view can be customized using the filters.
 
 
 

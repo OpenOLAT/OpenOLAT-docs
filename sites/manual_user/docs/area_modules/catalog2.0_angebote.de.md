@@ -3,7 +3,7 @@
 
 ## Was enthält der OpenOlat-Katalog?
 
-Wie in anderen Katalogen, werden auch im OpenOlat-Katalog in vielen kleinen Einträgen Kurzbeschreibungen zu „Produkten“ angezeigt. In OpenOlat sind dies
+Wie in anderen Katalogen, werden auch im OpenOlat-Katalog in vielen kleinen Einträgen Kurzbeschreibungen zu "Produkten" angezeigt. In OpenOlat sind dies
 
 - Kurse 
 - oder andere Lernressourcen, wie z.B. Tests oder Videos.
@@ -20,7 +20,7 @@ Wenn kein Angebot erstellt wird, erfolgt auch kein Katalogeintrag.
 ## Wie wird ein Angebot erstellt?
 
 Angebote hängen am Kurs und werden dort von Autor:innen in den Einstellungen definiert:<br>
-**Administration > Einstellungen > Tab „Freigabe“**
+**Administration > Einstellungen > Tab "Freigabe"**
 
 !!! info "Unterschied Katalog 1.0 und Katalog 2.0"
 
@@ -48,8 +48,7 @@ Wird die zweite Option "Buchbare und offene Angebote“ gewählt, können Sie an
 
 Ein Angebot enthält die Bedingungen, zu denen der Kurs oder die Lernressource genutzt werden kann.
 
-In einem **Angebot** wird definiert, wer sich unter welchen Umständen in die gewählte Lernressource bzw. den Kurs eintragen bzw. diese buchen kann. So ist eine Buchung mit Zugangscode, ohne oder per PayPal (sofern vom Admin aktiviert) möglich. Auch ein Zugang ohne Buchung oder als Gast können konfiguriert werden. Buchen kann dabei als Synonym für belegen, einschreiben, einkaufen verstanden werden.
-Wählen Sie die Schaltfläche "Angebot hinzufügen", um Buchungsmethoden (Angebote) hinzuzufügen.
+In einem **Angebot** wird definiert, wer sich unter welchen Umständen in die gewählte Lernressource bzw. den Kurs eintragen bzw. diese buchen kann. So ist eine Buchung mit Zugangscode, ohne oder per PayPal (sofern vom Admin aktiviert) möglich. Auch ein Zugang ohne Buchung oder als Gast können konfiguriert werden. Buchen kann dabei als Synonym für belegen, einschreiben, einkaufen verstanden werden. Wählen Sie die Schaltfläche "Angebot hinzufügen", um Buchungsmethoden (Angebote) hinzuzufügen.
 
 ![catalog20_auswahl_art_v1_de.png](assets/catalog20_auswahl_art_v1_de.png){ class="shadow lightbox" }
 
@@ -91,9 +90,9 @@ Es ist von grosser Bedeutung, welchem Fachbereich Autor:innen einen Kurs bzw. ei
 
 ![catalog20_fachbereich_v1_de.png](assets/catalog20_fachbereich_v1_de.png){ class="shadow lightbox" }
 
-Die im Tab „**Metadaten**“ gemachten Angaben zum Fachbereich können im Tab „**Freigabe**“ bei der Erstellung eines Angebots genutzt werden. Die Fachbereiche dienen der **Verschlagwortung** im Katalog. Es können mehrere Fachbereiche als Schlagwort angegeben werden. 
+Die im Tab "**Metadaten**" gemachten Angaben zum Fachbereich können im Tab "**Freigabe**" bei der Erstellung eines Angebots genutzt werden. Die Fachbereiche dienen der **Verschlagwortung** im Katalog. Es können mehrere Fachbereiche als Schlagwort angegeben werden. 
 
-Wenn Sie auf den kleinen Pfeil am Ende der Zeile „Fachbereiche / Katalog“ klicken, können Sie die Schlagworte auswählen. Zunächst erscheint ein Popup, in dem die verwendeten Fachbereiche aufgelistet sind. 
+Wenn Sie auf den kleinen Pfeil am Ende der Zeile "Fachbereiche / Katalog" klicken, können Sie die Schlagworte auswählen. Zunächst erscheint ein Popup, in dem die verwendeten Fachbereiche aufgelistet sind. 
 
 ![catalog20_metadata_subjects_popup_v1_de.png](assets/catalog20_metadata_subjects_popup_v1_de.png){ class="shadow lightbox" }
 
@@ -101,7 +100,7 @@ Sie können nun über das Suchfeld oder durch Öffnen eines Browsers weitere Fac
 
 ![catalog20_metadata_subjects_browser_v1_de.png](assets/catalog20_metadata_subjects_browser_v1_de.png){ class="shadow lightbox" }
 
-Der dynamische Katalog V2 kann mit diesen Metadaten alle Angebote, die die gleiche Taxonomie verwenden (die gleichen Fachbereiche angegeben haben), zusammenfassen und in einem Katalogabschnitt (Launcher) zusammen anzeigen (Taxonomie-Launcher). 
+Der dynamische Katalog 2.0 kann mit diesen Metadaten alle Angebote, die die gleiche Taxonomie verwenden (die gleichen Fachbereiche angegeben haben), zusammenfassen und in einem Katalogabschnitt (Launcher) zusammen anzeigen (Taxonomie-Launcher). 
 
 ![catalog20_taxonomylauncher_v1_de.png](assets/catalog20_taxonomylauncher_v1_de.png){ class="shadow lightbox" }
 

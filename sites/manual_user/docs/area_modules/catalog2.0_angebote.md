@@ -1,91 +1,112 @@
 # Catalog 2.0 -  Offers
 
 
-[## Was enthält der OpenOlat-Katalog?
+## What does the OpenOlat catalog contain?
 
-Wie in anderen Katalogen, werden auch im OpenOlat-Katalog in vielen kleinen Einträgen Kurzbeschreibungen zu „Produkten“ angezeigt. In OpenOlat sind dies
+As in other catalogs, the OpenOlat catalog also displays short descriptions of "products" in many small entries. In OpenOlat these are
 
-- Kurse 
-- oder andere Lernressourcen, wie z.B. Tests oder Videos.
-
-
-## Erscheinen alle Kurse im Katalog?
-
-Im Katalog werden **nicht automatisch** alle erstellten Kurse und Lernressourcen angezeigt. Die Autor:innen der jeweiligen Kurse und Lernressourcen entscheiden, ob etwas in den Katalog aufgenommen wird.
-
-Dazu muss im jeweiligen Kurs bzw. der Lernressource ein **Angebot** erstellt werden.<br>
-Wenn kein Angebot erstellt wird, erfolgt auch kein Katalogeintrag.
+- Courses 
+- or other learning resources, e.g. tests or videos.
 
 
-## Wie wird ein Angebot erstellt?
+## Do all courses appear in the catalog?
 
-Angebote hängen am Kurs und werden dort von Autor:innen in den Einstellungen definiert:<br>
-**Administration > Einstellungen > Tab „Freigabe“**
+All created courses and learning resources are **not automatically** displayed in the catalog.The authors of the respective courses and learning resources decide whether something is included in the catalog.
 
-!\[catalog20_angebot_erstellen_v1_de.png\](assets/catalog20_angebot_erstellen_v1_de.png){ class="shadow lightbox" }
-
-
-## Voraussetzung für ein Angebot
-
-Auch der Zugang zu einem Kurs wird in der **Administration** unter den **Einstellungen** im **Tab Freigabe** konfiguriert. Es stehen zwei grundsätzliche Varianten zur Verfügung:
-
-!\[catalog20_freigabe_v1_de.png\](assets/catalog20_freigabe_v1_de.png){ class="shadow lightbox" }
-
-Bei der Wahl "Privat" werden die Teilnehmenden durch die Besitzer bzw. Personen, die über das Recht der Mitgliederverwaltung verfügen, eingetragen. Was privat ist, soll auch nicht im Katalog veröffentlicht werden.
-
-Bei der Wahl der Option "Buchbare und offene Angebote" können die Lernenden einen Kurs/Lernressource selbst buchen, müssen aber eventuell (je nach Einstellung) ein Passwort eingeben.
-
-Wird die zweite Option "Buchbare und offene Angebote“ gewählt, können Sie anschliessend Angebote erstellen.
+To do this, an **offer** must be created in the respective course or learning resource.<br>
+If no offer is created, no catalog entry is made.
 
 
-## Was enthält ein Angebot?
+## How is an offer created?
 
-Ein Angebot enthält die Bedingungen, zu denen der Kurs oder die Lernressource genutzt werden kann.
+Offers are attached to the course and are defined there by authors in the settings:<br>
+**Administration > Settings > Tab "Shared"**
 
-In einem **Angebot** wird definiert, wer sich unter welchen Umständen in die gewählte Lernressource bzw. den Kurs eintragen bzw. diese buchen kann. So ist eine Buchung mit Zugangscode, ohne oder per PayPal (sofern vom Admin aktiviert) möglich. Auch ein Zugang ohne Buchung oder als Gast können konfiguriert werden. Buchen kann dabei als Synonym für belegen, einschreiben, einkaufen verstanden werden.
-Wählen Sie die Schaltfläche "Angebot hinzufügen", um Buchungsmethoden (Angebote) hinzuzufügen.
+!!! info "Difference between Catalog 1.0 and Catalog 2.0"
 
-!\[catalog20_auswahl_art_v1_de.png\](assets/catalog20_auswahl_art_v1_de.png){ class="shadow lightbox" }
+    In Catalog 1.0, all offers are created in the courses (**Administration > Settings > Tab Shared**) and then compiled in the **Catalog administration**.
 
-Es können zum gleichen Kurs mehrere verschiedene Angebote erstellt werden. Z.B. kann dann der gleiche Kurs für einige Teilnehmer kostenlos, für andere kostenpflichtig angeboten werden.
+    In Catalog 2.0, offers are also created in the course settings. In addition, you can specify **where** the offer should appear in the catalog. Based on this information, Catalog 2.0 can then **dynamically compile** the offers itself.
 
-Angebote können auch auf verschiedene Teilbereiche von Organisationen (Unterorganisationen) beschränkt werden.
+![catalog20_angebot_erstellen_v1_de.png](assets/catalog20_angebot_erstellen_v1_de.png){ class="shadow lightbox" }
 
-!\[catalog20_2angebote_v1_de.png\](assets/catalog20_2angebote_v1_de.png){ class="shadow lightbox" }
+## Requirements for an offer
 
-## Angebote veröffentlichen
+Access to a course is also configured in the **Administration** under **Settings** in the **Share** tab. There are two basic variants available:
 
-Angebote können unabhängig vom Publikationsstatus des Kurses veröffentlicht werden. Dazu wählt man in der Angebotserstellung "zeitbeschränkt" aus und definiert einen zukünftigen Zeitraum. Das Angebot ist dann im Katalog für diesen definierten Zeitraum verfügbar.
+![catalog20_freigabe_v1_de.png](assets/catalog20_freigabe_v1_de.png){ class="shadow lightbox" }
 
-!\[catalog20_zeitbeschraenkt_v1_de.png\](assets/catalog20_zeitbeschraenkt_v1_de.png){ class="shadow lightbox" }
+If "Private" is selected, the participants are entered by the owners or persons who have the right to manage members. What is private should not be published in the catalog.
 
-## Infoseite
+If the option "Bookable and open offers" is selected, learners can book a course/learning resource themselves, but may have to enter a password (depending on the setting).
 
-Wer im Katalog auf eine Kachel klickt, bekommt eine nährere Beschreibung zum angebotenen Kurs bzw. der Lernressource, ohne dass der Kurs bereits gestartet wird. Auch wenn für den Kursstart evtl. eine Zugangsberechtigung eingerichtet wurde, ist diese Infoseite im Katalog einsehbar. Sie enthält Angaben, die die Autorin / der Autor unter den Metadaten gemacht haben:
-**Administration > Einstellungen > Tab "Info"**
-
-!\[catalog20_eintrag_v1_de.png\](assets/catalog20_eintrag_v1_de.png){ class="shadow lightbox" }
-
-!\[catalog20_infoseite_v1_de.png\](assets/catalog20_infoseite_v1_de.png){ class="shadow lightbox" }
-
-## Metadaten, Fachbereich
-
-Es ist von grosser Bedeutung, welchem Fachbereich Autor:innen einen Kurs bzw. eine Lernressource zuordnen. Denn hinter dem Fachbereich steht die Taxonomie, nach der in den Taxonomie-Launchern des Katalogs Kurse zusammengestellt werden. Sie wählen den Fachbereich unter **Administration > Einstellungen > Tab "Metadaten"** 
-
-!\[catalog20_fachbereich_v1_de.png\](assets/catalog20_fachbereich_v1_de.png){ class="shadow lightbox" }
+If the second option "Bookable and open offers" is selected, you can then create offers.
 
 
-Die im Tab „Metadaten“ gemachten Angaben zum Fachbereich können im Tab „Freigabe“ bei der Erstellung eines Angebots genutzt werden. Die Fachbereiche dienen der Verschlagwortung im Katalog. Es können mehrere Fachbereiche als Schlagwort angegeben werden. 
+## What does an offer contain?
 
-Wenn Sie auf den kleinen Pfeil am Ende der Zeile „Fachbereiche / Katalog“ klicken, können Sie die Schlagworte auswählen. Zunächst erscheint ein Popup, in dem die verwendeten Fachbereiche aufgelistet sind. 
+An offer contains the conditions under which the course or learning resource can be used.
 
-!\[catalog20_metadata_subjects_popup_v1_de.png\](assets/catalog20_metadata_subjects_popup_v1_de.png){ class="shadow lightbox" }
+An **offer** defines who can register for or book the selected learning resource or course and under what circumstances. It is possible to book with an access code, without or via PayPal (if activated by the admin). Access without booking or as a guest can also be configured. Booking can be understood as a synonym for booking, registering, purchasing. Select the "Add offer" button to add booking methods (offers).
 
-Sie können nun über das Suchfeld oder durch Öffnen eines Browsers weitere Fachbereiche hinzufügen.
+![catalog20_auswahl_art_v1_de.png](assets/catalog20_auswahl_art_v1_de.png){ class="shadow lightbox" }
 
-!\[catalog20_metadata_subjects_browser_v1_de.png\](assets/catalog20_metadata_subjects_browser_v1_de.png){ class="shadow lightbox" }
+Several different offers can be created for the same course. For example, the same course can then be offered free of charge to some participants and for a fee to others.
 
-Der dynamische Katalog V2 kann mit diesen Metadaten alle Angebote, die die gleiche Taxonomie verwenden (die gleichen Fachbereiche angegeben haben), zusammenfassen und in einem Katalogabschnitt (Launcher) zusammen anzeigen (Taxonomie-Launcher). 
+Offers can also be limited to different parts of organizations (sub-organizations).
+
+![catalog20_2angebote_v1_de.png](assets/catalog20_2angebote_v1_de.png){ class="shadow lightbox" }
+
+## Publish offers
+
+Edit an offer to determine when and where it will appear in the catalog.
+
+![catalog20_offer_edit_v1_de.png](assets/catalog20_offer_edit_v1_de.png){ class="shadow lightbox" }
+
+Offers can be published regardless of the publication status of the course. To do this, select "time-limited" when creating the offer and define a future period. The offer is then available in the catalog for this defined period.
+
+![catalog20_zeitbeschraenkt_v1_de.png](assets/catalog20_zeitbeschraenkt_v1_de.png){ class="shadow lightbox" }
+
+In addition to the **basic activation** that the offer should be displayed in a catalog, a **specialist area** can be specified. If no subject area is specified, the offer can be found via the search function in the catalog, for example, but it will not be displayed in any taxonomy launcher in which offers with the same subject area are displayed together.
+
+In addition, the **access code**, for example, must be defined depending on the offer type.
+
+![catalog20_offer_activate_v1_de.png](assets/catalog20_offer_activate_v1_de.png){ class="shadow lightbox" }
 
 
-](catalog2.0_angebote.de.md)
+## Info page
+
+If you click on a tile in the catalog, you will receive a more detailed description of the course or learning resource offered without the course being started. Even if an access authorization may have been set up for the course start, this information page can be viewed in the catalog. It contains information that the author has entered in the metadata:
+**Administration > Settings > Tab "Info"**
+
+![catalog20_eintrag_v1_de.png](assets/catalog20_eintrag_v1_de.png){ class="shadow lightbox" }
+
+![catalog20_infoseite_v1_de.png](assets/catalog20_infoseite_v1_de.png){ class="shadow lightbox" }
+
+## Meta data, Specialist area
+
+It is of great importance to which specialist area authors assign a course or learning resource. This is because behind the subject area is the taxonomy according to which courses are compiled in the catalog's taxonomy launchers. You can select the specialist area under **Administration > Settings > Tab "Meta data"** 
+
+![catalog20_fachbereich_v1_de.png](assets/catalog20_fachbereich_v1_de.png){ class="shadow lightbox" }
+
+The information on the specialist area provided in the "**Metadata**" tab can be used in the "**Share**" tab when creating an offer. The subject areas are used for indexing in the catalog. Several subject areas can be specified as **keywords**.
+
+If you click on the small arrow at the end of the "Departments / Catalog" line, you can select the keywords. First, a pop-up appears in which the departments used are listed.
+
+![catalog20_metadata_subjects_popup_v1_de.png](assets/catalog20_metadata_subjects_popup_v1_de.png){ class="shadow lightbox" }
+
+You can now add further specialist areas using the search field or by opening a browser.
+
+![catalog20_metadata_subjects_browser_v1_de.png](assets/catalog20_metadata_subjects_browser_v1_de.png){ class="shadow lightbox" }
+
+The dynamic catalog 2.0 can use this metadata to combine all offers that use the same taxonomy (have the same subject areas specified) and display them together in a catalog section (launcher) (taxonomy launcher).
+
+![catalog20_taxonomylauncher_v1_de.png](assets/catalog20_taxonomylauncher_v1_de.png){ class="shadow lightbox" }
+
+Click on the taxonomy launcher tile to open the microsite with a list of all courses and learning resources that have been assigned to this subject area.
+
+![catalog20_taxonomylauncher_microsite_v1_de.png](assets/catalog20_taxonomylauncher_microsite_v1_de.png){ class="shadow lightbox" }
+
+!!! tip "Catalog 1.0"
+
+    Information on creating offers in catalog 1.0 can be found [here](catalog1.0.md).
