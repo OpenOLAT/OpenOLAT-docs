@@ -15,13 +15,13 @@ Spezialität / Hinweis |
 
 Verwenden Sie ein Wiki, um auf einfache Weise mit Kursteilnehmenden gemeinsam Inhalte zu erstellen. Ein Wiki kann für Gruppenarbeiten, als Dokumentationswerkzeug oder als Wissensbasis für Ihre Studien- oder Projektarbeit verwendet werden.
 
-Mit dem Kursbaustein „Wiki“ binden Sie eine Lernressource Wiki in Ihren Kurs ein. Klicken Sie im Tab „ **Wiki-Lerninhalt** “ auf „Wiki wählen, erstellen oder importieren“, ordnen ein bereits erstelltes Wiki zu oder erstellen ein neues. Eine Schritt-für-Schritt-Anleitung zu Ihrem Wiki finden Sie im Kapitel [„Wiki erstellen"](../learningresources/Wiki.de.md). Wenn Sie noch kein Wiki ausgewählt haben, erscheint beim Titel **Gewähltes Wiki** die Meldung _Kein Wiki ausgewählt_.
+Mit dem Kursbaustein "Wiki" binden Sie eine Lernressource Wiki in Ihren Kurs ein. Klicken Sie im Tab "**Wiki-Lerninhalt**" auf "Wiki wählen, erstellen oder importieren", ordnen ein bereits erstelltes Wiki zu oder erstellen ein neues. Eine Schritt-für-Schritt-Anleitung zu Ihrem Wiki finden Sie im Kapitel ["Wiki erstellen"](../learningresources/Wiki.de.md). Wenn Sie noch kein Wiki ausgewählt haben, erscheint beim Titel **Gewähltes Wiki** die Meldung _Kein Wiki ausgewählt_.
 
-Wenn Sie schon ein Wiki hinzugefügt haben, erscheint dessen Name. Um die Zuordnung eines Wikis nachträglich zu ändern, klicken Sie im Tab „Wiki-Lerninhalt“ auf „Wiki auswechseln“ und wählen anschliessend ein anderes Wiki.
+Wenn Sie schon ein Wiki hinzugefügt haben, erscheint dessen Name. Um die Zuordnung eines Wikis nachträglich zu ändern, klicken Sie im Tab "Wiki-Lerninhalt" auf "Wiki auswechseln" und wählen anschliessend ein anderes Wiki.
 
 Im Tab "Wiki-Lerninhalt" konfigurieren Sie die Benutzerberechtigungen des Wikis. Hier können Sie einstellen, dass neben den Besitzern auch Betreuer und Teilnehmer Wiki-Artikel bearbeiten dürfen. Standardmässig haben alle Kursteilnehmer Lese- und Schreibrechte in einem Wiki. Nur derjenige OpenOlat-Benutzer, der die Seite erstellt hat oder OpenOlat-Benutzer, welche beim Wiki als Besitzer eingetragen sind, dürfen Wiki-Seiten löschen.
 
-Im Kapitel „Lernaktivitäten im Kurs“ finden Sie unter dem Punkt [„Wiki"](../learningresources/Working_with_Wiki.de.md) Informationen dazu, wie die Wiki-Navigation angepasst werden kann, wie Sie neue Seiten erstellen und wie Sie die verschiedenen Versionen einer Seite betrachten können.
+Im Kapitel "Lernaktivitäten im Kurs" finden Sie unter dem Punkt ["Wiki"](../learningresources/Working_with_Wiki.de.md) Informationen dazu, wie die Wiki-Navigation angepasst werden kann, wie Sie neue Seiten erstellen und wie Sie die verschiedenen Versionen einer Seite betrachten können.
 
 !!! warning "Achtung"
 
@@ -33,7 +33,7 @@ Im Kapitel „Lernaktivitäten im Kurs“ finden Sie unter dem Punkt [„Wiki"](
 
 Wikis können für die kooperative Erstellung von Texten verwendet werden. Die einzelnen Seiten werden dabei in Form eines Hypertextes mit verlinkten Seiten umgesetzt.
 
-Wird ein Wiki in einem OpenOlat Kurs verwendet erscheint automatisch in der linken Kursnavigation das Wiki-Menü sowie weitere Wiki Links. Über den Link „Von A-Z“ rufen Sie das Inhaltsverzeichnis mit der Anzeige aller Wiki-Seite auf. So sehen Sie auf einen Blick, welche Seiten bereits erstellt wurden.
+Wird ein Wiki in einem OpenOlat Kurs verwendet erscheint automatisch in der linken Kursnavigation das Wiki-Menü sowie weitere Wiki Links. Über den Link "Von A-Z" rufen Sie das Inhaltsverzeichnis mit der Anzeige aller Wiki-Seite auf. So sehen Sie auf einen Blick, welche Seiten bereits erstellt wurden.
 
 Im Hauptbereich sehen Sie die jeweiligen Wiki Beiträge (Artikel), können die Wiki Seiten bearbeiten (Seite bearbeiten), zu den einzelnen Wiki Seiten Diskussionen führen und sich die Bearbeitungshistorie (Versionen/Autoren) ansehen. Sie können auch ein Wiki als Content Package (CP) exportieren und sich über Änderungen informieren lassen.  
 
@@ -45,7 +45,7 @@ Eine neue Wiki-Seite kann einfach über den Button "Erstellen" angelegt und ansc
 
 Ein anderer Weg eine neue Wiki Seite zu erstellen ist, auf der Seite auf der die Verlinkung zur neuen Wiki Seite erscheinen soll, eine passende interne Verlinkung zu erstellen. Dafür können Sie entweder den entsprechenden Button des Wiki Editors verwenden oder die passende Syntax direkt eintragen.
 
-Die Wiki-Syntax für neue interne Verlinkungen sind zwei öffnende eckige Klammern + Seitennamen+ zwei schliessende eckige Klammern. Also zum Beispiel: `[[Linkname]]`.
+Die Wiki-Syntax für neue interne Verlinkungen sind zwei öffnende eckige Klammern + Seitennamen + zwei schliessende eckige Klammern. Also zum Beispiel: `[[Linkname]]`.
 
 Die entsprechende Seite wird beim ersten Aufruf des Links dann automatisch angelegt.
 
@@ -53,7 +53,7 @@ Die entsprechende Seite wird beim ersten Aufruf des Links dann automatisch angel
 
 ## Inhalte einer Wiki-Seite ändern
 
-Um Inhalte einer Wiki-Seite zu bearbeiten wählen Sie den Tab „Seite bearbeiten“ der gewünschten Wiki Seite. Es erscheint der Wiki-Editor mit diversen Formatierungsmöglichkeiten. Hier können Sie auch Bilder, Medienlinks, mathematische Formeln, interne und externe Links in Ihr Wiki einbinden. Neben den Buttons im Editor existieren weitere Formatierungsmöglichkeiten, die Sie direkt im Text als Syntaxelemente einfügen können.
+Um Inhalte einer Wiki-Seite zu bearbeiten wählen Sie den Tab "Seite bearbeiten" der gewünschten Wiki Seite. Es erscheint der Wiki-Editor mit diversen Formatierungsmöglichkeiten. Hier können Sie auch Bilder, Medienlinks, mathematische Formeln, interne und externe Links in Ihr Wiki einbinden. Neben den Buttons im Editor existieren weitere Formatierungsmöglichkeiten, die Sie direkt im Text als Syntaxelemente einfügen können.
 
 Im nachfolgenden wird die Wiki-Syntax genauer erklärt.
 
@@ -144,7 +144,7 @@ Externe Adressen werden automatisch in einen Link umgewandelt, wenn Sie die voll
 
 ### Bilder und andere Dateien
   
-Um z.B. Bilder ins Wiki einzufügen, müssen Sie diese zuerst in OpenOlat hochladen (via Button " _Datei hochladen"_ ). Sobald sich mindestens eine Datei im Wiki befindet, erscheint das Drop-Down Menu _"Datei einfügen"_ , womit sich Bilder etc. bequem einfügen lassen.
+Um z.B. Bilder ins Wiki einzufügen, müssen Sie diese zuerst in OpenOlat hochladen (via Button "_Datei hochladen_"). Sobald sich mindestens eine Datei im Wiki befindet, erscheint das Drop-Down Menu "_Datei einfügen_" , womit sich Bilder etc. bequem einfügen lassen.
 
 === "Syntax"
 
@@ -262,9 +262,9 @@ Die Syntax der in OpenOlat verwendeten mathematischen Notation finden Sie unter:
   
 ## Anhänge, Links auf Dateien, Export
 
-Um eine Datei anzuhängen, laden Sie diese zuerst über „Datei hochladen“ hoch. Navigieren Sie an die Stelle auf der Wiki-Seite, an der die Datei erscheinen soll. Anschliessend wählen Sie die Datei über „Datei einfügen“ aus und bestätigen mit „Speichern“. Links zu anderen Wiki-Seiten werden über die Schaltfläche „Link einfügen“ erstellt. Weitere Formatierungsmöglichkeiten finden Sie eine Zeile darüber.
+Um eine Datei anzuhängen, laden Sie diese zuerst über "Datei hochladen" hoch. Navigieren Sie an die Stelle auf der Wiki-Seite, an der die Datei erscheinen soll. Anschliessend wählen Sie die Datei über "Datei einfügen" aus und bestätigen mit "Speichern". Links zu anderen Wiki-Seiten werden über die Schaltfläche "Link einfügen" erstellt. Weitere Formatierungsmöglichkeiten finden Sie eine Zeile darüber.
 
-Links auf Dateien in Ordner-Kurselementen in OpenOlat erstellen Sie, in dem Sie auf das Metadaten-Icon ![Icon Metadaten](assets/metadata_64_0_434343_none.png){ class=size16 } klicken, und dann den **Externen Link zu dieser Ressource** kopieren. Bitte beachten Sie, dass nur auf Dateien verlinkt werden kann, die sich innerhalb eines Unterordners in einem Ordner-Kurselement befinden.
+Links auf Dateien in Ordner-Kurselementen in OpenOlat erstellen Sie, indem Sie auf das Metadaten-Icon ![Icon Metadaten](assets/metadata_64_0_434343_none.png){ class=size16 } klicken, und dann den **Externen Link zu dieser Ressource** kopieren. Bitte beachten Sie, dass nur auf Dateien verlinkt werden kann, die sich innerhalb eines Unterordners in einem Ordner-Kurselement befinden.
 
 Das Wiki kann über den entsprechenden Link von allen Beteiligten als IMS-Content-Packaging exportiert und gespeichert werden. Autoren können ein exportiertes CP auch in OpenOlat wieder importieren.
 

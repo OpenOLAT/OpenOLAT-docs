@@ -1,6 +1,6 @@
 # Formular Editor
 
-Wählen oder erstellen Sie eine Lernressource vom Typ „Formular“. Klicken Sie dann in der Administration auf „Inhalt editieren“. Es öffnet sich der Formular Editor. Hier können Sie ein oder mehrere Layouts wählen und den Bereichen  verschiedene Elemente hinzufügen. 
+Wählen oder erstellen Sie eine Lernressource vom Typ "Formular". Klicken Sie dann in der Administration auf "Inhalt editieren". Es öffnet sich der Formular Editor. Hier können Sie ein oder mehrere Layouts wählen und den Bereichen  verschiedene Elemente hinzufügen. 
 
 Über den Button "Inhalt hinzufügen" können sie jederzeit verschiedene Elemente hinzufügen. Sobald Sie ein Element erstellt haben, können Sie auch über die 3-Punkte Option über den Link davor/danach hinzufügen weitere Elemente passgenau hinzufügen. 
 
@@ -65,11 +65,11 @@ Für die Darstellung eines [Rubrik](Rubric.de.md) stehen drei unterschiedliche T
 
 ![Formular Rubrik](assets/formular_rubrik17.png)){ class="shadow lightbox" }
 
-Für Rubrics stehen diverse Einstellungsmöglichkeiten zur Verfügung die Sie über das Zahnrad einblenden können. Weitere Infos zum Thema Rubric finden Sie [hier](Rubric.de.md).
+Für Rubriken stehen diverse Einstellungsmöglichkeiten zur Verfügung, die Sie über das Zahnrad einblenden können. Weitere Infos zum Thema Rubrik finden Sie [hier](Rubric.de.md).
 
 ## Einzelauswahl
 
-Erstellt eine Single-Choice Antwortskala. Die einzelnen Antworten können dabei nebeneinander, untereinander oder als Wahl Menü über die Option „Auswahlliste“ dargestellt werden. Die Einträge können über die Pfeiltasten nach oben oder unten verschoben werden.
+Erstellt eine Single-Choice Antwortskala. Die einzelnen Antworten können dabei nebeneinander, untereinander oder als Wahl Menü über die Option "Auswahlliste" dargestellt werden. Die Einträge können über die Pfeiltasten nach oben oder unten verschoben werden.
 
 Im Bereich "Pflicht" kann man die Frage als obligatorisch oder freiwillig einstellen. Obligatorische Blöcke müssen ausgefüllt werden um das Formular absenden zu können.
 
@@ -127,8 +127,7 @@ Ferner kann noch eine Trennlinie (Separator) hinzugefügt werden.
 
 ## Frageregeln
 
-
-Mit Frageregeln kann die Anzeige von Layout-Bereichen in Abhängigkeit von bestimmten Antworten der Einzel- oder Mehrfachwahl (Bedingungsfeld) gesetzt  werden. So wird ein Layout-Container mit den jeweiligen Elementen nur dann angezeigt, wenn der User eine bestimmte vorgegebene Antwort ausgewählt hat.
+Mit Frageregeln kann die Anzeige von Layout-Bereichen in Abhängigkeit von bestimmten Antworten der Einzel- oder Mehrfachwahl (Bedingungsfeld) gesetzt werden. So wird ein Layout-Container mit den jeweiligen Elementen nur dann angezeigt, wenn der User eine bestimmte vorgegebene Antwort ausgewählt hat.
 
 Einem Formular können mehrere Regeln hinzugefügt werden.
 
@@ -138,8 +137,8 @@ Einem Formular können mehrere Regeln hinzugefügt werden.
 
 Hier noch ein paar Tipps zur Verwendung des Formular Editors:
 
-* Bei der Wahl „Rubrik“ werden die Fragen und Antworten zusammen erstellt. Bei allen anderen Fragetypen werden die Fragen mit Hilfe des Elements „Paragraph“ erstellt und den Antworten des passenden Fragetyps zugeordnet.
-* Über „Eintrag hinzufügen“ können Sie bei der Einzel- bzw. Mehrfachauswahl weitere Antwortelemente ergänzen.
-* Fügen Sie neben den Fragen bei Bedarf auch weitere Elemente z.B. „Nutzungsbedingungen“ oder „Informationen“ hinzu.
+* Bei der Wahl "Rubrik" werden die Fragen und Antworten zusammen erstellt. Bei allen anderen Fragetypen werden die Fragen mit Hilfe des Elements "Paragraph" erstellt und den Antworten des passenden Fragetyps zugeordnet.
+* Über "Eintrag hinzufügen" können Sie bei der Einzel- bzw. Mehrfachauswahl weitere Antwortelemente ergänzen.
+* Fügen Sie neben den Fragen bei Bedarf auch weitere Elemente z.B. "Nutzungsbedingungen" oder "Informationen" hinzu.
 * Vergessen Sie nicht den Blöcken Namen zu hinterlegen wenn Sie eine selektive Freigabe per Frageregeln erstellen wollen.
 

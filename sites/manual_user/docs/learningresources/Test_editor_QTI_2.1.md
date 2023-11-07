@@ -4,8 +4,6 @@ The QTI 2.1 format is used in OpenOlat to create tests. A detailed description o
 
 Information on how to quickly create a test can be found [here](../../manual_how-to/test_creation_procedure/test_creation_procedure.md).
 
-Tests created in OpenOlat can also be exported as Word files. Click on "Export as Word file" under Export in the Test Editor. The test is then downloaded in Zip format with two Word files, one of which contains only the questions, the other the solutions. The exported file contains all important informatiomn about the test including the score, so that you can use the document directly for offline tests.
-
 On the following pages you will learn in detail which possibilities and settings the OpenOlat test editor offers:
 
 * [Test question types](Test_question_types.md)

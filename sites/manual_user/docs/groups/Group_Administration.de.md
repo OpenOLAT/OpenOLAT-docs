@@ -37,10 +37,7 @@ ausstatten. Wurde ein Werkzeug aktiviert, erscheint der entsprechende Eintrag in
 
 !!! Info
 
-    Damit die Werkzeuge in Gruppen zur Verfügung stehen, müssen Sie vom OpenOlat
-    Administrator aktiviert werden. Das gilt insbesondere für BigBlueButton, MS Teams
-    OpenMeetings, Wiki und Kalender. Stehen Ihnen bestimmte Werkzeuge als
-    Gruppenbesitzer:in nicht zur Verfügung, wurden diese vom OpenOlat Administrator
+    Damit die Werkzeuge in Gruppen zur Verfügung stehen, müssen Sie vom OpenOlat Administrator aktiviert werden. Das gilt insbesondere für BigBlueButton, MS Teams OpenMeetings, Wiki und Kalender. Stehen Ihnen bestimmte Werkzeuge als Gruppenbesitzer:in nicht zur Verfügung, wurden diese vom OpenOlat Administrator
     deaktiviert.
 
 Folgende Werkzeuge können aktiviert werden: 
@@ -59,36 +56,25 @@ Werkzeug | | Beschreibung
 :material-monitor: | BigBlueButton| Mit der Wahl von BigBlueButton können einer Gruppe mehrere BigBlueButton Räume zur Verfügung gestellt werden. Die Funktionalität ist ähnlich wie beim entsprechenden [Kursbaustein BigBlueButton](../learningresources/Course_Element_BigBlueButton.de.md). In der Gruppe stehen nur die für Gruppen generell aktivierten BigBlueButton Vorlagen zur Verfügung. Diese können von den Raum-Vorlagen in Kursen abweichen. Ist ein Gruppenmitglied im OpenOlat System Betreuer:in, Kursbesitzer:in, Autor:in oder Administrator:in, stehen gegebenenfalls noch weitere BigBlueButton Raum-Templates zur Verfügung.  
 :material-monitor: | Microsoft Teams| Mit der Wahl von Microsoft Teams können einer Gruppe mehrere Räume zur Verfügung gestellt werden. Weitere Informationen zu MS Teams finden Sie [hier](../learningresources/Course_Element_Microsoft_Teams.de.md).  
   
-Jedes Werkzeug kann nur einmal in eine Gruppe eingebunden werden. Es ist also
-nicht möglich, einer Gruppe mehrere Ordner, Wikis oder Foren-Bausteine zur
-Verfügung zu stellen. Wenn Sie mehrere Werkzeuge eines Typs benötigen,
-sollten Sie statt einer Gruppe einen Kurs verwenden.
+Jedes Werkzeug kann nur einmal in eine Gruppe eingebunden werden. Es ist also nicht möglich, einer Gruppe mehrere Ordner, Wikis oder Foren-Bausteine zur Verfügung zu stellen. Wenn Sie mehrere Werkzeuge eines Typs benötigen, sollten Sie statt einer Gruppe einen Kurs verwenden.
 
-Infos zur Nutzung der Werkzeuge durch die Gruppen-Teilnehmer finden Sie
-[hier](Using_Group_Tools.de.md).
+Infos zur Nutzung der Werkzeuge durch die Gruppen-Teilnehmer finden Sie [hier](Using_Group_Tools.de.md).
 
 ## Tab Mitglieder {: #members}
 
 In diesem Tab können der Gruppe weitere Mitglieder hinzugefügt und verwaltet werden.
 
-Das manuelle Hinzufügen von Mitgliedern durch Gruppenbetreuer:innen macht beispielsweise
-dann Sinn, wenn Sie ganz gezielt einzelne Personen Ihrer Gruppe hinzufügen möchten. 
+Das manuelle Hinzufügen von Mitgliedern durch Gruppenbetreuer:innen macht beispielsweise dann Sinn, wenn Sie ganz gezielt einzelne Personen Ihrer Gruppe hinzufügen möchten. 
 
 **Wer sieht was?**
 
 Wird die Einstellung "Mitglieder sehen Betreuer:innen" oder "Mitglieder sehen Teilnehmer:innen" aktiviert, erscheint in der linken Navigation das **Menü "Mitglieder"**. Je nach aktiviertem Haken, sehen dann die Mitglieder die entsprechenden Personen. 
 
-Mit der Option "Alle Benutzer:innen sehen Betreuer:innen" und "Alle Benutzer sehen Teilnehmer:innen" kann die Liste der Gruppenmitglieder zudem auf der **öffentlich sichtbaren Gruppenvisitenkarte** für
-alle Systembenutzer:innen freigeschaltet werden. Sofern die Warteliste aktiviert
-ist, kann definiert werden ob sie nur für Mitglieder oder alle Benutzer:innen sichtbar
-sein soll.
+Mit der Option "Alle Benutzer:innen sehen Betreuer:innen" und "Alle Benutzer sehen Teilnehmer:innen" kann die Liste der Gruppenmitglieder zudem auf der **öffentlich sichtbaren Gruppenvisitenkarte** für alle Systembenutzer:innen freigeschaltet werden. Sofern die Warteliste aktiviert ist, kann definiert werden ob sie nur für Mitglieder oder alle Benutzer:innen sichtbar sein soll.
 
-Mit der Option "Mitglieder dürfen Mitgliederliste herunterladen" können Sie
-steuern, ob Teilnehmer:innen die **Mitgliederliste zusätzlich auch als Excel-Datei**
-herunterladen dürfen oder nicht und ob die Mitgliederliste ausgedruckt werden kann.
+Mit der Option "Mitglieder dürfen Mitgliederliste herunterladen" können Sie steuern, ob Teilnehmer:innen die **Mitgliederliste zusätzlich auch als Excel-Datei** herunterladen dürfen oder nicht und ob die Mitgliederliste ausgedruckt werden kann.
 
-Wenn Sie die Option "**Teilnehmer können Gruppe verlassen**" aktivieren ist, können
-Teilnehmende die Gruppe direkt in der Gruppenübersicht verlassen. Falls nicht, erhalten die Gruppenbetreuer vom jeweiligen Teilnehmenden eine Mail zum Austrittswunsch. Die Gruppenbesitzer müssen dann die Person manuell aus der Gruppe entfernen.
+Wenn Sie die Option "**Teilnehmer können Gruppe verlassen**" aktivieren ist, können Teilnehmende die Gruppe direkt in der Gruppenübersicht verlassen. Falls nicht, erhalten die Gruppenbetreuer vom jeweiligen Teilnehmenden eine Mail zum Austrittswunsch. Die Gruppenbesitzer müssen dann die Person manuell aus der Gruppe entfernen.
 
 **Mitglieder hinzufügen, löschen und anzeigen**
 
@@ -101,8 +87,18 @@ Wie unterscheiden sich Gruppen-Betreuer:innen von den Gruppen-Teilnehmenden?
 
 Über "Mitglied hinzufügen" können Sie nach einzelnen Personen suchen oder auch mehrere Personen direkt der Gruppe hinzufügen, wenn Sie deren Anmeldenamen, E-Mail oder Institutionsnummer kennen. 
 
-Wenn Sie auf das Icon "Tabelle herunterladen" klicken, werden Betreuer bzw. Teilnehmer der Gruppe
-in einer Excel-Datei ausgegeben.
+Wenn Sie auf das Icon "Tabelle herunterladen" klicken, werden Betreuer bzw. Teilnehmer der Gruppe in einer Excel-Datei ausgegeben.
+
+**Externe Mitglieder hinzufügen**
+
+Wurde auf Ihrem OpenOlat grundsätzlich von den Administrator:innen ermöglicht, auch externe Benutzer:innen als Gruppenmitglieder einzuladen, können Sie dies unter<br>
+**Gruppen > Gruppe auswählen > Administration > Tab Mitglieder > Button "Externe Mitglieder einladen"**
+
+<details>
+    <summary>Screen</summary>
+	<img src="../assets/group_administration_external_members_v1_de.png" />
+</details>
+
 
 ## Tab Kurse {: #courses}
 
@@ -110,21 +106,15 @@ Dieser Tab ist nur verfügbar, wenn die Gruppe mit einem oder mehreren Kursen ve
 
 Wählt man "Kurs hinzufügen" erscheint eine Übersicht aller Ihnen als Gruppen-Betreuer:in zur Verfügung stehenden Kursen. Es können nur Kurse verbunden werden bei denen Sie als Besitzer:in eingetragen sind.
 
-Um einen Kurs auszuwählen, markieren Sie ihn, klicken auf den Titel oder klicken auf den Haken in der Spalte  "_Auswählen_". 
-Weiterführende Informationen zum Kurs, wie z.B. Autor:in, Sprache oder
-Beschreibung, erhalten Sie mit einem Klick auf das
-:octicons-info-16: Icon. 
+Um einen Kurs auszuwählen, markieren Sie ihn, klicken auf den Titel oder klicken auf den Haken in der Spalte  "_Auswählen_".  Weiterführende Informationen zum Kurs, wie z.B. Autor:in, Sprache oder Beschreibung, erhalten Sie mit einem Klick auf das :octicons-info-16: Icon. 
 
 OpenOlat Autor:innen können in diesem Bereich auch neue zu verknüpfende Kurse erstellen oder importieren. 
 
 Eine Gruppe kann von Kurs-Besitzer:innen mit einem oder mehreren Kursen verknüpft werden, ebenso wie in einen Kurs mehrere Gruppen eingebunden werden können. Es liegt keine Beschränkung der Anzahl eingebundener Kurse durch OpenOlat vor.
 
-Gruppen werden in Kursen sehr vielfältig verwendet z.B. für die kontrollierte
-Einschreibung für kooperative Aktivitäten, für die Vergabe von Referaten, die
-Anmeldung zu Exkursionen aber auch für das Rechtemanagement innerhalb von
-Kursen.
+Gruppen werden in Kursen sehr vielfältig verwendet z.B. für die kontrollierte Einschreibung für kooperative Aktivitäten, für die Vergabe von Referaten, die Anmeldung zu Exkursionen aber auch für das Rechtemanagement innerhalb von Kursen.
 
-Gruppen und Kurse können auf zwei Wegen verknüpft werden. Entweder ausgehend von der Gruppe im Tab "Kurse" oder ausgehend vom Kurs über die [Mitgliederveraltung](../learningresources/Members_management.de.md) → "Gruppen".
+Gruppen und Kurse können auf zwei Wegen verknüpft werden. Entweder ausgehend von der Gruppe im Tab "Kurse" oder ausgehend vom Kurs über die [Mitgliederverwaltung](../learningresources/Members_management.de.md) → "Gruppen".
 
 
 ## Tab Freigabe {: #booking}
@@ -133,12 +123,11 @@ Neben dem manuellen Hinzufügen von Personen durch den/die Gruppenbetreuer:in ka
 
 Folgende Optionen stehen zur Auswahl:
 
-* :material-key-variant: **Zugangscode**: Wählen Sie die Buchungsmethode "Zugangscode" um die Buchung auf diejenigen zu begrenzen, die über das hinterlegte Passwort verfügen. Hierfür wird manuell ein Zugangscode festgelegt, der von dem/der Gruppenbesitzer:in weitergegeben wird. Nur Personen die über diesen Zugangscode verfügen können die Gruppe buchen. Vor dem ersten Öffnen der Gruppe muss dieser Code von dem/der Benutzer:in eingegeben werden. Auch eine zeitliche Begrenzung der Buchung mit dem Zugangscode kann definiert werden.
+* :material-key-variant: **Zugangscode**: Wählen Sie die Buchungsmethode "Zugangscode" um die Buchung auf diejenigen zu begrenzen, die über das hinterlegte Passwort verfügen. Hierfür wird manuell ein Zugangscode festgelegt, der von dem/der Gruppenbesitzer:in weitergegeben wird. Nur Personen, die über diesen Zugangscode verfügen, können die Gruppe buchen. Vor dem ersten Öffnen der Gruppe muss dieser Code von dem/der Benutzer:in eingegeben werden. Auch eine zeitliche Begrenzung der Buchung mit dem Zugangscode kann definiert werden.
 * :material-gift: **Frei verfügbar**: Wählen Sie die freie Buchungsmethode, wenn ein Zutritt ohne Passwort möglich sein soll. Alle Systembenutzer können die Ressource dann buchen. Ein/eine Benutzer:in wird dadurch als Teilnehmer:in der Gruppe hinzugefügt. Es ist aber auch möglich, den freien Zugang zeitlich zu begrenzen. 
 * :fontawesome-brands-cc-paypal: **PayPal Checkout**  (nur verfügbar, wenn vom Administrator freigeschaltet): Wählen Sie diese Buchungsmethode um eine Buchung gegen eine finanzielle Vergütung zu ermöglichen. Bei dieser Buchungsmethode können Sie einen Betrag definieren, der mit einem PayPal Konto oder mit einer Kreditkarte (Visa/Mastercard) bezahlt werden muss. Die Warteliste kann mit dieser Buchungsmethode nicht verwendet werden. Die Optionen "Warteliste" bzw. "PayPal", werden nicht mehr in der Gruppenadministration angezeigt, sobald die jeweils andere gewählt wurde.
 
-Sobald eine Buchungsmethode konfiguriert wurde, wird die Gruppe in die Liste
-der **"Veröffentlichten Gruppen**" eingetragen und kann somit gesucht und gebucht werden. Wird keine Buchungsmethode konfiguriert, steht die Gruppe nur den eingetragenen Benutzer:innen zur Verfügung, die im Tab "Mitglieder" durch die Gruppen-Betreuenden hinzugefügt wurden.
+Sobald eine Buchungsmethode konfiguriert wurde, wird die Gruppe in die Liste der **"Veröffentlichten Gruppen**" eingetragen und kann somit gesucht und gebucht werden. Wird keine Buchungsmethode konfiguriert, steht die Gruppe nur den eingetragenen Benutzer:innen zur Verfügung, die im Tab "Mitglieder" durch die Gruppen-Betreuenden hinzugefügt wurden.
 
 Sie können auch mehrere Angebote konfigurieren. Diese gelten als verschiedene Optionen. Beispielsweise könnte man den Zugang für 2 Tage "frei verfügbar" einrichten und danach nur noch mit Passwort oder Bezahloption. Wenn sich die konfigurierten Angebote überlappen, können sich Interessierte die Option auswählen. Unter "Editieren" können Sie die Konfiguration der Angebote jederzeit wieder ändern. 
 

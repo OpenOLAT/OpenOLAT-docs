@@ -45,7 +45,7 @@ Es gibt drei Möglichkeiten QTI 2.1 Fragen über den Import-Button in den Fragen
   * QTI 2.1 **Excel import** via copy&paste: Prepare the questions in the "template excel import" you can find in the import wizard. When you are finished creating your questions in the Excel file, select the the questions in Excel and copy&paste them to the input field.
 
 
-### Nutzung der Datei "Vorlage Excelimport"   
+### Usage of the file "Excel Import Template"   
 
 Starten Sie den Excelimport über Copy&Paste und laden Sie sich die Vorlage Excelimport herunter. Sie bildet die Basis für Ihr weiteres Vorgehen.
 

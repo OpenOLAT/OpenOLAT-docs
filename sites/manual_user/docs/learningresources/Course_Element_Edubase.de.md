@@ -14,14 +14,9 @@ Spezialität / Hinweis |
 
 
 
-Mit diesem Kursbaustein können e-Books von Edubase verlinkt und direkt in
-OpenOlat aufgerufen werden.
+Mit diesem Kursbaustein können e-Books von Edubase verlinkt und direkt in OpenOlat aufgerufen werden.
 
-Um diesen Baustein zu nutzen, ist zwingend ein Account bei Edubase sowie
-entsprechende Berechtigungen zur Nutzung der jeweiligen eBooks notwendig.
-Kunden von frentix wenden Sie dafür bitte an
-[edubase@frentix.com](mailto:edubase@frentix.com), Nichtkunden kontaktieren
-direkt [Edubase](https://www.edubase.ch/).
+Um diesen Baustein zu nutzen, ist zwingend ein Account bei Edubase sowie entsprechende Berechtigungen zur Nutzung der jeweiligen eBooks notwendig. Kunden von frentix wenden Sie dafür bitte an [edubase@frentix.com](mailto:edubase@frentix.com), Nichtkunden kontaktieren direkt [Edubase](https://www.edubase.ch/).
 
 !!! info "Info"
 

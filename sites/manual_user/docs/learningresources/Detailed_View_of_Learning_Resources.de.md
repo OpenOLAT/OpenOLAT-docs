@@ -10,22 +10,22 @@ Lernressource sowie von der Infoseite aus Zugriff.
 
 Beispiele für eine Kurs- und eine Test-Toolbar:
 
-![](assets/toolbar_13.png)
-![](assets/toolbar_13_test.png)
+![Toolbar Kurs](assets/toolbar_13.png)
+![Toolbar Test](assets/toolbar_13_test.png)
 
 Das Dropdown-Menü "Administration" stellt sämtliche Werkzeuge zur
 Konfiguration und Einrichtung einer Lernressource bereit und ist ziemlich
 umfangreich. Die genauen Möglichkeiten variieren je nach Lernressource.
 
-![](assets/Kurs_Administration_15.png)
+![Administration Menüs](assets/Kurs_Administration_15.png)
 
 Im Untermenü "Einstellungen" sind viele Optionen gebündelt. Hier kann die
-Infoseite eingerichtet, die Freigabe der Lernressource organisiert,
-Katalogeinträge vorgenommen und einiges mehr.
+Infoseite eingerichtet, die Freigabe der Lernressource organisiert, Lizenzen definiert 
+und einiges mehr.
 
-![](assets/Einstellungen161.png)
+![Einstellungen der Administration](assets/Einstellungen18.png)
 
 Weitere Informationen zu ein einzelnen Einstellungen finden Sie unter 
-[_Kurseinstellungen_](../learningresources/Course_Settings.de.md).
+[Kurseinstellungen](../learningresources/Course_Settings.de.md).
 
  

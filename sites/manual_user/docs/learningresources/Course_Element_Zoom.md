@@ -12,7 +12,7 @@ Assessable | no
 Specialty / Note | Zoom is commercial software. To use the course element, a separate license and server hosting is required. Limited use is free for registered users.
 
 
-## Prerequisites
+## Requirements
 
 In order to use the course element "Zoom" for web conferencing,
 

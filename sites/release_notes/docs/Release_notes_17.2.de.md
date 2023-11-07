@@ -8,7 +8,7 @@
 
 * * *
 
-:material-calendar-month-outline: **Releasedatum: 10.02.2023 • Letztes Update: 24.08.2023**
+:material-calendar-month-outline: **Releasedatum: 10.02.2023 • Letztes Update: 01.11.2023**
 
 * * *
 
@@ -318,6 +318,9 @@ Es werden laufend weitere Ergänzungen vorgenommen.
 
 ## Weitere Informationen
 
+* [Jira Release Notes 17.2.18](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=21800){:target="_blank”}
+* [Jira Release Notes 17.2.17](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=21704){:target="_blank”}
+* [Jira Release Notes 17.2.16](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=21600){:target="_blank”}
 * [Jira Release Notes 17.2.15](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=21401){:target="_blank”}
 * [Jira Release Notes 17.2.14](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=21302){:target="_blank”}
 * [Jira Release Notes 17.2.13](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=21300){:target="_blank”}

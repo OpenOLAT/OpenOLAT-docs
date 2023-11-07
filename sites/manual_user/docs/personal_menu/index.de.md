@@ -1,40 +1,74 @@
-# :material-home: Persönliches Menü und allgemeine Funktionen
+# :material-home: Persönliches Menü
 
 Jeder registrierte OpenOlat User verfügt über sein persönliches Menü, das individuell konfiguriert werden kann.
 
-In diesem Kapitel erfahren Sie, welche
-Einstellungen Sie im persönlichen Menu vornehmen können und wie sie weitere
-Funktionen wie Volltextsuche und Chat nutzen und wie Sie das Portal, sofern generell aktiviert, individuell anpassen können.
+Es öffnet sich am rechten Rand durch Klick auf das kleine Bild rechts oben oder den kleinen Pfeil daneben.
+
+![pers_menu1_v1_de.png](assets/pers_menu1_v1_de.png){ class="shadow lightbox"}
+
+Im persönlichen Menü finden Sie die folgenden Abschnitte:
+
+* **Persönliche Werkzeuge**
+* **Konfiguration**
+* **Hilfe**
+* **System** 
+* sowie die **Logout**-Funktion
+
+![pers_menu2_v1_de.png](assets/pers_menu2_v1_de.png){ class="shadow aside-right lightbox"}
 
 !!! note "Quick Links"
 
-    * [Persönliche Werkzeuge](../personal_menu/Personal_Tools.de.md)
-    * [Konfiguration](Configuration.de.md)
-    * [Volltextsuche](../basic_concepts/Full_Text_Search.de.md)
-    * [Chat](../basic_concepts/Chat.de.md)
-    * [Portal konfigurieren](../basic_concepts/Portal_configuration.de.md)
-    * [Mathematische Formel](../basic_concepts/Math_formula.de.md)
-    * [mit Tabellen arbeiten](../basic_concepts/Table_Concept.de.md)
+    **Persönliche Werkzeuge**
 
-## Navigationsleiste und persönliches Menü
+    * [Kalender](../personal_menu/Calendar.de.md)
+    * Abonnements
+    * [Persönlicher Ordner](../personal_menu/Personal_folders.de.md)
+    * Notizen
+    * Leistungsnachweise
+    * Kompetenzen
+    * [Badges](../personal_menu/OpenBadges.de.md)
+    * Buchungen
+    * [Personensuche](../basic_concepts/Full_Text_Search.de.md)
+    * Absenzen
+    * Portfolio 2.0
+    * [Medien Center](../personal_menu/Media_Center.de.md)
+    * To-Dos
+    * [E-Mail](../personal_menu/E-Mail.de.md)
 
-In der oberen Navigationsleiste generell verfügbar ist der
-[Chat](../basic_concepts/Chat.de.md) (instant Messnger) und die Suche. Welche weiteren Elemente in der Navigationsleiste rechts oben angezeigt werden, ist abhängig von Ihren unter "Konfiguration" -> "Einstellungen" im Ausklappmenü rechts oben aktivierten Werkzeugen.
+    **Konfiguration**
 
-![Navigation](assets/global_navigation_DE.png){ class="shadow aside-right lightbox"}
+    * Profil
+    * Einstellungen
+    * Passwort
 
-Im persönlichen Menü finden Sie die folgenden Bereiche:
 
-* [Persönliche Werkzeuge](../personal_menu/Personal_Tools.de.md)
-* [Konfiguration](Configuration.de.md)
-* Hilfe
-* System sowie die Logout Funktion
 
-![Persönliches Menü](assets/Persoenliche_Leiste.png){ class="shadow aside-right lightbox"}
+## Werkzeuge in die Hauptnavigation verschieben
 
-Je nach unter "Einstellungen" ausgewählten Werkzeugen werden die Werkzeuge entweder in der oberen Leiste oder im Persönlichen Menübereich angezeigt.
+Wenn Sie ein Werkzeug statt im persönlichen Menü lieber in der Kopfzeile angezeigt haben möchten, können Sie die Menüoption vom persönlichen Menü dorthin verschieben. 
 
-Weitere Informationen zu den einzelnen Elementen finden Sie unter den entsprechenden Links.
+![pers_menu_moved_tool_v1_de.png](assets/pers_menu_moved_tool_v1_de.png){ class="shadow lightbox"}
+
+Die Einstellung dazu nehmen Sie vor im<br>
+**Persönlichen Menü > Abschnitt Konfiguration: Einstellungen > Tab System > Abschnitt Persönliche Werkzeuge**
+
+Alle Werkzeuge, die Sie hier markieren, werden statt im persönlichen Menü in der Kopfzeile rechts oben angezeigt und sind so schneller erreichbar. 
+
+![pers_menu_move_item_v1_de.png](assets/pers_menu_move_item_v1_de.png){ class="shadow lightbox"}
+
+!!! note "Beachten Sie:"
+
+    Die Werkzeuge werden nur einmal angezeigt, entweder im persönlichen Menü **oder** in der Kopfzeile.
+
+
+## Generell in der Hauptnavigation angezeigte Werkzeuge
+
+In der oberen Navigationsleiste generell immer verfügbar ist der [Chat](../basic_concepts/Chat.de.md) (instant Messenger) und die [Suche](../basic_concepts/Full_Text_Search.de.md).
+
+![pers_menu_chat_suche_v1_de.png](assets/pers_menu_chat_suche_v1_de.png){ class="shadow lightbox"}
+
+
+## Weitere Informationen
 
 :octicons-device-camera-video-24: **Video-Einführung**: [Navigation](<https://www.youtube.com/embed/kxfVVbfDXMw>){:target="_blank”}
 

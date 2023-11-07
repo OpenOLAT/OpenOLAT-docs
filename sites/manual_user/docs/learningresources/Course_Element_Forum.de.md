@@ -12,8 +12,7 @@ Bewertbar | nein
 Spezialität / Hinweis |
 
 
-
-Mit dem Kursbaustein „Forum“ können Sie in Ihrem Kurs auf einfache Weise asynchrone Online-Diskussionen für unterschiedliche Zwecke ermöglichen. Beispielsweise könnten Kursteilnehmende Beiträge mit Fragen zum Inhalt des Kurses verfassen und gegenseitig beantworten oder Sie initiieren eine Fachdiskussion oder setzen spezifische Foren basierte Online-Methoden um. Im Kapitel „Lernaktivitäten im Kurs“ finden Sie unter dem Punkt [„Forum"](../learningresources/Working_with_Forums.de.md) Informationen dazu, wie Forumsbeiträge erstellt und beantwortet werden. Standardmässig haben alle Kursteilnehmer Lese- und Schreibrechte in einem Forum.
+Mit dem Kursbaustein "Forum" können Sie in Ihrem Kurs auf einfache Weise asynchrone Online-Diskussionen für unterschiedliche Zwecke ermöglichen. Beispielsweise könnten Kursteilnehmende Beiträge mit Fragen zum Inhalt des Kurses verfassen und gegenseitig beantworten oder Sie initiieren eine Fachdiskussion oder setzen spezifische Foren basierte Online-Methoden um. Im Kapitel "Lernaktivitäten im Kurs" finden Sie unter dem Punkt ["Forum"](../learningresources/Working_with_Forums.de.md) Informationen dazu, wie Forumsbeiträge erstellt und beantwortet werden. Standardmässig haben alle Kursteilnehmer Lese- und Schreibrechte in einem Forum.
 
 Sie können das Forum auch als Alternative für den Mitteilungsbaustein für Ankündigungen von Seiten der Kursautoren verwenden, besonders wenn Rückfragen von den Lernenden erwünscht sind.
 
@@ -47,8 +46,7 @@ Neben dem Kursbaustein "Forum" gibt es auch die Möglichkeit ein zentrales Forum
 
 ## Arbeiten mit Foren
 
-Foren sind die zentralen Werkzeuge für die asynchrone Diskussion in Online-Kursen und auch in OLAT Gruppen. Foren können für den Austausch zwischen den Kursteilnehmenden, für organisatorische Absprachen oder die fachliche Diskussion mit dem Lehrenden verwendet werden. Einige Online-Methoden
-verwenden auch gezielt Foren z.B. für Pro-Contra-Diskussionen, die strukturierte Sammlung von Ideen zu bestimmten Aspekten (Brainstorming) usw.
+Foren sind die zentralen Werkzeuge für die asynchrone Diskussion in Online-Kursen und auch in OLAT Gruppen. Foren können für den Austausch zwischen den Kursteilnehmenden, für organisatorische Absprachen oder die fachliche Diskussion mit dem Lehrenden verwendet werden. Einige Online-Methoden verwenden auch gezielt Foren z.B. für Pro-Contra-Diskussionen, die strukturierte Sammlung von Ideen zu bestimmten Aspekten (Brainstorming) usw.
 
 ![](assets/Forum_Optionen.png)
 
@@ -56,7 +54,7 @@ Teilnehmer können in Foren ...
 
 ### Diskussionsthemen eröffnen
 
-Wenn Sie im Forum eine neue Nachricht verfassen möchten, wählen Sie „Diskussionsthema eröffnen“. Titel und Beitrag sind obligatorische Angaben. Achten Sie darauf einen aussagekräftigen Titel zu verwenden und bei Reply-Postings angemessen zu verändern.
+Wenn Sie im Forum eine neue Nachricht verfassen möchten, wählen Sie "Diskussionsthema eröffnen". Titel und Beitrag sind obligatorische Angaben. Achten Sie darauf einen aussagekräftigen Titel zu verwenden und bei Reply-Postings angemessen zu verändern.
 
 ![](assets/Diskussionsthema_eroeffnen.png)
 
@@ -66,18 +64,13 @@ Mit Hilfe des Foren-Editors können Sie Ihren Beitrag erstellen und formatieren 
 
 ### Forumsbeiträge beantworten
 
-Wenn Sie einen bestehenden Forumsbeitrag beantworten möchten, öffnen Sie das Diskussionsthema, indem Sie auf den Titel des Themas klicken. Wählen Sie dann „Antwort mit Zitat“, wenn der Anfangsbeitrag unter Ihrer Antwort erscheinen
-soll bzw. Sie direkt auf einzelne Passagen des Beitrags eingehen wollen. Oder wählen Sie „Antwort ohne Zitat“, um den Anfangsbeitrag nicht nochmals aufzuführen.
+Wenn Sie einen bestehenden Forumsbeitrag beantworten möchten, öffnen Sie das Diskussionsthema, indem Sie auf den Titel des Themas klicken. Wählen Sie dann "Antwort mit Zitat", wenn der Anfangsbeitrag unter Ihrer Antwort erscheinen soll bzw. Sie direkt auf einzelne Passagen des Beitrags eingehen wollen. Oder wählen Sie "Antwort ohne Zitat", um den Anfangsbeitrag nicht nochmals aufzuführen.
 
 ![](assets/Posting_beantworten.png)
 
 ### Forumsbeiträge markieren
 
-Einzelne Forumsbeiträge können markiert werden. Klicken Sie dazu in der
-Detailansicht eines Themas auf die kleine Flagge in der rechten oberen Ecke
-eines Beitrags. In der Forumsübersicht sehen Sie wie viele Beiträge pro Thema
-markiert wurden. Auf diese Weise können einzelne Beiträge leichter
-wiedergefunden oder für eine spätere Beantwortung gekennzeichnet werden.
+Einzelne Forumsbeiträge können markiert werden. Klicken Sie dazu in der Detailansicht eines Themas auf die kleine Flagge in der rechten oberen Ecke eines Beitrags. In der Forumsübersicht sehen Sie wie viele Beiträge pro Thema markiert wurden. Auf diese Weise können einzelne Beiträge leichter wiedergefunden oder für eine spätere Beantwortung gekennzeichnet werden.
 
 ![](assets/Posting_markieren.png)
 
@@ -93,10 +86,9 @@ Um bei neuen Forumsbeiträgen benachrichtigt zu werden, stellen Sie in der Über
 
 Eine Benachrichtigung erfolgt nur, wenn ein neuer Beitrag erstellt wurde, nicht aber wenn ein bestehender Beitrag geändert wurde!
 
-Sie können Ihrem Posting auch Dateien anhängen, z.B. wenn Ihr Beitrag umfangreicher ist oder Sie sich auf eine bestimmte Datei beziehen. Als Faustregel gilt: Postings, die länger sind als eine DIN A4 Seite sollten im Anhang angefügt und im Posting selbst nur kurz angerissen werden. Sie können
-Ihr Posting zu einem späteren Zeitpunkt auch wieder editieren oder löschen, sofern noch niemand auf Ihren Beitrag geantwortet hat.
+Sie können Ihrem Posting auch Dateien anhängen, z.B. wenn Ihr Beitrag umfangreicher ist oder Sie sich auf eine bestimmte Datei beziehen. Als Faustregel gilt: Postings, die länger sind als eine DIN A4 Seite sollten im Anhang angefügt und im Posting selbst nur kurz angerissen werden. Sie können Ihr Posting zu einem späteren Zeitpunkt auch wieder editieren oder löschen, sofern noch niemand auf Ihren Beitrag geantwortet hat.
 
-Es ist möglich, dass Kursteilnehmende vom Lehrenden zusätzlich Moderationsrechte in einem Forum erhalten. Was genau damit verbunden ist, erfahren Sie im Kapitel „[Kommunikation und Kollaboration](../learningresources/Communication_and_Collaboration.de.md)“.
+Es ist möglich, dass Kursteilnehmende vom Lehrenden zusätzlich Moderationsrechte in einem Forum erhalten. Was genau damit verbunden ist, erfahren Sie im Kapitel "[Kommunikation und Kollaboration](../learningresources/Communication_and_Collaboration.de.md)“.
 
 ### Darstellungsmöglichkeiten für Foren-Threads
 
@@ -112,15 +104,14 @@ User können sich alle Beiträge untereinander anzeigen lassen (alle), mit oder 
 
 ![](assets/Forum_Aufbau-1.png)
 
-Laden Sie impages "[Profil](../personal_menu/Configuration.de.md#profil--profile)" ein Foto hoch, damit neben Ihren Forumsbeiträgen anstelle des Standard-Profilbildes Ihr Foto erscheint.
+Laden Sie im "[Profil](../personal_menu/Configuration.de.md#profil--profile)" ein Foto hoch, damit neben Ihren Forumsbeiträgen anstelle des Standard-Profilbildes Ihr Foto erscheint.
 
 ### Abgrenzung: Dateidiskussion
 
-Die Dateidiskussion stellt eine Kombination aus Forum und Dateibereitstellung dar. So können in Kursen Foren-Diskussionen zu bestimmten Dokumenten erstellt
-werden z.B. zu einem Entwurf einer Seminararbeit, einem Bild, einem Konzept oder einem inhaltlichen Dokument. Zu jeder hochgeladenen Datei wird automatisch ein Forum erstellt.
+Die Dateidiskussion stellt eine Kombination aus Forum und Dateibereitstellung dar. So können in Kursen Foren-Diskussionen zu bestimmten Dokumenten erstellt werden z.B. zu einem Entwurf einer Seminararbeit, einem Bild, einem Konzept oder einem inhaltlichen Dokument. Zu jeder hochgeladenen Datei wird automatisch ein Forum erstellt.
 
-Um an einer Diskussion teilzunehmen, klicken Sie auf den Link „Anzeigen“ neben dem Dateinamen. Nun haben Sie dieselben Möglichkeiten, Diskussionsthemen zu eröffnen oder Beiträge zu beantworten wie im Forum.
+Um an einer Diskussion teilzunehmen, klicken Sie auf den Link "Anzeigen" neben dem Dateinamen. Nun haben Sie dieselben Möglichkeiten, Diskussionsthemen zu eröffnen oder Beiträge zu beantworten wie im Forum.
 
 #### Datei hochladen
 
-Standardmäßig können Kursteilnehmer keine Dateien hochladen. Diese Option kann aber vom Kursbesitzer im Kurseditor aktiviert werden. Wenn Sie über diese Möglichkeit verfügen, wählen Sie „Datei hochladen“, um eine eigene Datei hochzuladen. Wer wann welche Datei hochgeladen hat ist über die Spalten Vorname, Nachname bzw. Datum erkennbar.
+Standardmäßig können Kursteilnehmer keine Dateien hochladen. Diese Option kann aber vom Kursbesitzer im Kurseditor aktiviert werden. Wenn Sie über diese Möglichkeit verfügen, wählen Sie "Datei hochladen", um eine eigene Datei hochzuladen. Wer wann welche Datei hochgeladen hat ist über die Spalten Vorname, Nachname bzw. Datum erkennbar.

@@ -19,7 +19,7 @@ In addition to a [full text search](../basic_concepts/Full_Text_Search.md) for t
 
 ## Course Calendar
 
-One calendar can be activated per course. There are two options for integration. The calendar can either be displayed as a course element or at a central position at the top of the course toolbar and thus provide a good
+One calendar can be activated per course. There are two options for integration. The calendar can either be displayed as a [course element](../learningresources/Course_Elements.md) or at a central position at the top of the course toolbar and thus provide a good
 overview.
 
 New dates are simply created by clicking on the desired date. Afterwards, the title, description, start and end as well as a location, possible repetitions and visibility can be set. The date then appears in the calendar or in all instances of the course calendar and can be edited by clicking on the date and the "Edit" option.
@@ -32,15 +32,15 @@ By default, only owners of a course have write access to the calendar. Course pa
 
 ## Participant list
 
-Here all course owners, coaches and participants of a course can be displayed centrally. Course participants can send e-mails to specific persons, even to individual course members. In contrast to the [course element "Participant list"](../learningresources/Course_Elements.md) no further configurations can be made here.
+Here all course owners, coaches and participants of a course can be displayed centrally. Course participants can send e-mails to specific persons, even to individual course members. In contrast to the [course element "Participant list"](../learningresources/Course_Element_Participant_List.md) no further configurations can be made here.
 
 ## Participant infos
 
-This tool corresponds to the [course element "Notifications"](../learningresources/Course_Elements.md). Participants can subscribe to the tool and thus be notified when there is new information. In contrast to the course element no further configurations can be made here.
+This tool corresponds to the [course element "Notifications"](../learningresources/Course_Element_Notifications.md). Participants can subscribe to the tool and thus be notified when there is new information. In contrast to the course element no further configurations can be made here.
 
 ## E-Mail
 
-Here the course owner can configure to whom the learners can send mails via this link. There are three course roles to choose from: "course owner," "coach," and "participant". A further differentiation is not possible. In case you need more differentiated settings for sending mails to course members you should use the [course element "E-mail"](../learningresources/Course_Elements.md) or the [course element "List of participants"](../learningresources/Communication_and_Collaboration.md).
+Here the course owner can configure to whom the learners can send mails via this link. There are three course roles to choose from: "course owner", "coach", and "participant". A further differentiation is not possible. In case you need more differentiated settings for sending mails to course members you should use the [course element "E-mail"](../learningresources/Course_Element_EMail.md) or the [course element "Participant list"](../learningresources/Course_Element_Participant_List.md).
 
 ## Teams Online-Meeting
 
@@ -60,7 +60,7 @@ Here you can create or import a [Wiki (learning resource)](../learningresources/
 
 ## Forum
 
-A central forum can be activated for a course. Course members can subscribe to the forum as usual. However, differentiated settings as in the [course element "Forum"](../learningresources/Communication_and_Collaboration.md) are not possible here.
+A central forum can be activated for a course. Course members can subscribe to the forum as usual. However, differentiated settings as in the [course element "Forum"](../learningresources/Course_Element_Forum.md) are not possible here.
 
 ## Documents
 
@@ -70,13 +70,11 @@ The teacher can use this link to provide important central documents of the cour
 
 A simple chat room is available as standard in every course. It is suitable for short, synchronous exchanges. Here course members can make live contact with other learners and lecturers, provided they are logged in at the same time.
 
-When the chat function is on, participants will see a chat link in the center of the course toolbar.
+If the chat is enabled, course visitors will see the link to the course chat in the middle of the course toolbar. When calling up the chat, each course member can decide whether to act under his own name or anonymously in the chat. The default setting is "anonymous".
 
-If activated, course participants can choose between a personalised and an anonymous view. When entering the chat room their name will not be displayed. It will be displayed, however, if they select their name in the "Participants" section.
+The history of a course chat is accessible for up to one month. Above the text field, select the desired period. The Chat will be adapted when using a mobile device. Tip: Partially the portrait format is more useful than the landscape format.
 
-The history of a course chat is accessible for up to one month. Open the course chat and select the time span of your choice: 1 day, 1 week, or 1 month. The Chat will be adapted when using a mobile device. Tip: Partially the portrait format is more useful than the landscape format.
-
-!!! tip "Tip"
+!!! tip "Hint"
 
     If you want to use the chat more intensively, you should drag the chat window to a pleasant size.
 
@@ -86,7 +84,7 @@ A glossary explains the terms of a course, subject or event to the participants.
 
 The glossaries can be created as learning resources in the author area or directly in the course under "Settings-> Options".
 
-Once a glossary has been integrated into a course, the link to the glossary will appear in the course toolbar. In order to make that glossary visible in the toolbar you have to activate the corresponding tool "Glossary" in the tab "Toolbar.
+Once a glossary has been integrated into a course, the link to the glossary will appear in the course toolbar. In order to make that glossary visible in the toolbar you have to activate the corresponding tool "Glossary" in the tab "Toolbar".
 
 Enter the desired technical term under "Term". You can also add synonyms. For example, the term "Information Technology" can be supplemented with the synonym "IT". In the tab "Definition" you can then add the concrete definition of the term. Terms that have been entered can also be changed or deleted afterwards.
 
@@ -108,4 +106,4 @@ If you only want to give certain people, e.g. the participants of a course, the 
 
     The owners of a course are not automatically also owners of the learning resource.  If someone else has created a learning resource "Glossary" he/she will not automatically become owner of the course in which that resource has been integrated. In order to enable other course owners to make modifications you have to set up one of the described permissions or you have to enter the desired course owners as owners of the learning resource "Glossary".
 
-Furthermore, the links to the "Course Info" and to the "Lectures" appear in the course toolbar.  
+Furthermore, the links to the "[course info](../learningresources/Set_up_info_page.md)" and to the "[Lectures](../learningresources/Lectures_Teacher_view.md)" appear in the course toolbar.  

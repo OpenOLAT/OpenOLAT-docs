@@ -72,7 +72,7 @@ Nach Abschluss einer Challenge sind neben der Einordnung in Ranglisten detaillie
 
 ## Konfiguration
 
-Wie bei allen Kursbausteinen wird zur Konfiguration vom Autor der Kursbaustein Übung im Kursmenü ausgewählt. Vor allem im **Tab „Konfiguration“** finden sich dann die Einstellmöglichkeiten und Settings.
+Wie bei allen Kursbausteinen wird zur Konfiguration vom Autor der Kursbaustein Übung im Kursmenü ausgewählt. Vor allem im **Tab "Konfiguration“** finden sich dann die Einstellmöglichkeiten und Settings.
 
 ![course_element_practice_konfig_v1_de.png](assets/course_element_practice_konfig_v1_de.png){ class="shadow lightbox" }
 
@@ -108,7 +108,7 @@ In einer Übersicht sind alle zur Verfügung stehenden Fragen angezeigt (nach Fa
 
 !!! info "Beachten Sie:"
 
-    Es handelt sich um Verknüpfungen der Fragen. Es werden keine Kopien der Fragen im Kursbaustein abgelegt. Wenn also eine Frage verändert oder gelöscht wird, ist sie auch im Kursbaustein Üben entsprechend geändert oder weg.
+    Es handelt sich um Verknüpfungen der Fragen. Es werden keine Kopien der Fragen im Kursbaustein abgelegt. Wenn also eine Frage verändert oder gelöscht wird, ist sie auch im Kursbaustein Übung entsprechend geändert oder weg.
 
 
 ---

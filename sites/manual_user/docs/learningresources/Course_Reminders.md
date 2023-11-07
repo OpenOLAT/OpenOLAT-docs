@@ -2,7 +2,7 @@
 
 With the reminder function, you create rule lists, upon fulfillment of which a previously defined mail is automatically sent to a user group of the course defined in the rules. Frequency and sending time is defined system-wide by your system administrator. Reminders can also be triggered specifically - but reminders will still only be sent to those users for whom all conditions are considered to be met.
 
-![Reminders action menu](assets/reminders.png){ class="shadow" }
+![Erinnerungen Aktionsmenü](assets/reminder_DE.png){ class="shadow" }
 
 On the overview page you can see all reminders that have already been created for a course and you can also view reminders that have already been sent.  The list of already sent reminders contains information about the recipient as well as the sending time. Individual reminders from this list can be easily sent using the "Resend" link.
 
@@ -32,9 +32,9 @@ There are different types of conditions: Below is a brief explanation of the typ
 
 These conditions build on how long ago something happened, or how long away a certain point in time is.
 
-_Example_ : 5 weeks before the assignment for the group task closes.
+_Example_: 5 weeks before the assignment for the group task closes.
 
-_Example_ : 5 days after the user first accessed the course.  
+_Example_: 5 days after the user first accessed the course.  
   
 * Enrollment date
 * Begin date execution period of course
@@ -49,6 +49,7 @@ _Example_ : 5 days after the user first accessed the course.
 * Deadline: Form completition
 
 !!! info "Option before/after"
+
     For conditions which the option "before" or "after" can be considered, this is provided as a selection list.
     ![Option before/after](assets/reminder_option_before_after.png){ class="shadow" }
 
@@ -56,7 +57,7 @@ _Example_ : 5 days after the user first accessed the course.
 
 Here the number of attempts of assessable course elements is taken into account for the dispatch as a condition.
 
-_Example_ : A test has not been (0) attempted yet.
+_Example_: A test has not been (0) attempted yet.
 
 * Attempts  
   
@@ -64,12 +65,13 @@ _Example_ : A test has not been (0) attempted yet.
 
 Assessable course elements for which a score or pass status has been configured in the editor can be included here as a condition.
 
-_Example_ : Less than 3 points were achieved in a checklist.
+_Example_: Less than 3 points were achieved in a checklist.
   
 * Passed
 * Score
 
 !!! info "Operators"
+
     For the two conditions "Attempts" and "Score" operators are needed to correctly represent the different states "more than, less than, less than or equal, more or equal, equal" and "not equal". They are used to compare expressions with each other, and to generate a logical return value depending on this.
 
     Operator | Description | Explanation
@@ -91,7 +93,7 @@ _Example_ : Less than 3 points were achieved in a checklist.
 
 On the entered date (incl. time) the reminder will be sent at the next possible sending time. If "until date" is used, the reminder is sent at the next possible sending time until the date (and time) is reached.
 
-_Example_ : 24.06.2021 16:30  
+_Example_: 24.06.2021 16:30  
   
 * After date
 * Until date
@@ -100,7 +102,7 @@ _Example_ : 24.06.2021 16:30
 
 Based on the OLAT role the reminder will be sent to the course participants.
 
-_Example_ : Send to all owners and coaches.  
+_Example_: Send to all owners and coaches.  
   
 * Course role
 * Group member
@@ -109,7 +111,7 @@ _Example_ : Send to all owners and coaches.
 
 Here the sending is done based on certain user specific properties. Reminders will be sent to those course members who have the selected profile attribute.
 
-_Example_ : User from the city of Zurich.  
+_Example_: User from the city of Zurich.  
   
 ### Progress (only for [Learning path courses](../learningresources/Learning_path_course.md))
 Here the dispatch is based on the percentage course progress of the participants as configured in the administration settings.
@@ -123,16 +125,17 @@ You can combine as many conditions as you want. It is certainly useful to think 
 Using the email text, which can be customized as needed, you create very specific email reminders tailored to the situation.
 
 !!! tip "Tip"
+
     It is best to use the variables already entered to make the reminder as personal and helpful as possible.
 
-* **$firstName** : The first name of the user.
-* **$lastName** : The last name of the user
-* **$fullName** : The full name depending on the system configuration. The default value is "lastname, firstname".
-* **$email** : The email address of the user.
-* **$userName** : The username
-* **$courseUrl** : The internet address of the course
-* **$courseName** : The name of the course as on the info page
-* **$courseDescription** : The description of the course as on the info page.
+* **$firstName**: The first name of the user.
+* **$lastName**: The last name of the user
+* **$fullName**: The full name depending on the system configuration. The default value is "lastname, firstname".
+* **$email**: The email address of the user.
+* **$userName**: The username
+* **$courseUrl**: The internet address of the course
+* **$courseName**: The name of the course as on the info page
+* **$courseDescription**: The description of the course as on the info page.
 
 Here is an example:
 

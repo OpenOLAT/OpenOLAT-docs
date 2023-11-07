@@ -17,6 +17,13 @@ bisherige E-Mail-Adresse verwendet. Sollten Sie den Aktivierungs-Link
 innerhalb von zwei Tagen (48 Stunden) nicht anwählen, verfällt der
 Änderungswunsch. Kontaktieren Sie dann Ihren Administrator.
 
+<details>
+    <summary>E-Mail-Signatur</summary>
+	Sollte die Möglichkeit zur Eingabe Ihrer E-Mail-Signatur nicht angzeigt werden, wenden Sie sich bitte an Ihren/Ihre Administrator:in.
+	<img src="../assets/configuration_profile_signature_v1_de.png" />
+
+</details>
+
 In den Kontaktdaten kann eine Telefonnummer für den Versand von SMS
 hinzugefügt werden. Wenn bei Ihrem System ein SMS-Service hinterlegt ist, kann
 das Passwort mit einer SMS Authentifizierung zurückgesetzt werden. Dafür muss
@@ -169,22 +176,3 @@ entsprechende Support-Link ist hinterlegt. Sobald der Export durchgeführt
 wurde, können Sie die über Sie gespeicherten Benutzerdaten hier herunterladen.
 
 ![](assets/Benutzerdaten.png)
-
-##   Passwort
-
-![](assets/Passwort_aendern.png)
-
-Sofern Ihr Account nicht von einem externen Benutzerverwaltungssystem
-gesteuert wird, können Sie im Menü "Passwort" Ihr Passwort ändern. Je nach
-Einstellung kann der Administrator auch die Vergabe eines neuen Passworts in
-bestimmten Abständen erzwingen. Achten Sie darauf bei der Vergabe eines neuen
-Passworts nicht noch einmal das alte Passwort zu verwenden. Je nach
-Einstellungen durch den OLAT Administrator kann die Verwendung von vorherigen
-Passwörtern nicht erlaubt sein.
-
-Wenn Sie Ihr Passwort vergessen haben, können Sie auf der Login Seite ein
-neues Passwort anfordern. Der Aktivierungslink wird Ihnen anschliessend per
-Mail zugestellt. Falls in Ihrem System die SMS-Authentifizierung möglich und
-Sie diese aktiviert haben, kann der Aktivierungscode auch per SMS zugestellt
-werden.
-

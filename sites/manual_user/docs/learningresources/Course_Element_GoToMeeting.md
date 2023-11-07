@@ -13,11 +13,6 @@ Assessable | no
 Specialty / Note | GoToMeeting is commercial software. To use the course element, a separate license and server hosting is required.
 
 
-## (GoTo Training)
-
-
----|---  
-
 ## Tool-specific
   
 !!! note "Link to further information" 
@@ -25,7 +20,8 @@ Specialty / Note | GoToMeeting is commercial software. To use the course element
     Tool Website: [https://www.gotomeeting.com](https://www.gotomeeting.com/)  
 
 ## Configuration in the course editor
-no specific tab  
+
+No specific tab  
 
 ## Configuration in the course run (closed editor)
 

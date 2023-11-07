@@ -17,11 +17,11 @@ Hier definieren Sie weitere Informationen zum Kurs bzw. Lernressource. Hierzu z�
 
 ## Tab Metadaten
 
-Hier können Sie weitere Dinge, die unter „Infos“ erscheinen, z.B. die Namen der Lehrenden des Kurses, eintragen. Auch kann der Kurs einem vorgegebenen didaktischen Typ wie Selbstlernkurs oder Prüfungskurs zugeordnet werden. Besonders relevant ist auch der Eintrag der Lizenz des Kurses.
+Hier können Sie weitere Dinge, die unter "Infos" erscheinen, z.B. die Namen der Lehrenden des Kurses, eintragen. Auch kann der Kurs einem vorgegebenen didaktischen Typ wie Selbstlernkurs oder Prüfungskurs zugeordnet werden. Besonders relevant ist auch der Eintrag der Lizenz des Kurses.
 
 ## Tab Durchführung
 
-Hier können Sie den Durchführungszeitraum des Kurses definieren, das „[Lektionen- und Absenzmanagement](../learningresources/Lectures_and_absences.de.md)“ einschalten und weiter konfigurieren (sofern vom Administrator aktiviert), existierende herkömmliche Kurse in Lernpfad Kurse konvertieren bzw. bei [Lernpfad Kursen](Learning_path_course.de.md) definieren, wie der Lernfortschritt berechnet wird, anhand der Anzahl der Kursbausteine oder anhand der Bearbeitungsdauer der Kursbausteine.
+Hier können Sie den Durchführungszeitraum des Kurses definieren, das "[Lektionen- und Absenzmanagement](../learningresources/Lectures_and_absences.de.md)" einschalten und weiter konfigurieren (sofern vom Administrator aktiviert), existierende herkömmliche Kurse in Lernpfad Kurse konvertieren bzw. bei [Lernpfad Kursen](Learning_path_course.de.md) definieren, wie der Lernfortschritt berechnet wird, anhand der Anzahl der Kursbausteine oder anhand der Bearbeitungsdauer der Kursbausteine.
 
 ## Tab Freigabe
 
@@ -76,31 +76,31 @@ Im Einzelnen stehen folgende Konfigurationsmöglichkeiten zur Verfügung:
 
   * Punkte
     * Hier kann definiert werden ob bzw. welche Art von Punkten (Gesamtpunkte oder Durchschnitt) noch ergänzend zu der Prozentanzeige im Kurs angezeigt wird. ![Prozentanzeige](assets/percentages_points_DE.png){ class="shadow" }
-  * Betreuende können
+  * Betreuende können ...
     * Bewertung zuweisen
     * Bewertung freigeben: Hier kann eingestellt werden, ob der Betreuer die Möglichkeit haben soll, die Bewertung für die Teilnehmer freizugeben.
     * "bestanden" manuell setzen: Diese Option ist nur verfügbar, wenn das Feld "Betreuer kann Bewertung freigeben" aktiviert ist. In diesem Fall kann der Kurs Betreuer bzw. Besitzer im Bewertungswerkzeug manuell einstellen, ob ein Kursteilnehmer den Kurs bestanden hat oder nicht.
-  * Bestanden, sobald eines der Kriterien zutrifft
+  * Bestanden, sobald eines der Kriterien zutrifft ...
     * Lernfortschritt 100 %: Wenn alle obligatorischen Kursbausteine abgeschlossen wurden und 100 % angezeigt wird, gilt der Kurs automatisch als bestanden.
     * Alle Kursbausteine bestanden: Der Kurs gilt als bestanden, wenn alle bewertbaren Kursbausteine, die mit einem "bestanden/nicht bestanden" versehen sind, bestanden wurden, egal ob sich um obligatorische oder freiwillige Kursbausteine handelt. Um einzelne Kursbausteine auszunehmen, muss in der Konfiguration des Kursbausteins im Kurseditor "Bei Kurs-Bewertung ausschliessen" angehakt sein.
     * Anzahl Kursbausteine bestanden: Hier können Sie definieren, wie viele Kursbausteine bestanden sein müssen, damit der gesamte Kurs als bestanden gilt.
     * Punktschwelle erreicht: Hier können Sie definieren, wie viele Punkte Lernende erreichen müssen, damit der gesamte Kurs als bestanden gilt.
 
 !!! hint "Bestanden-Kriterien"
-
-  Die einzelnen Kriterien sind eine "Oder-Verknüpfung". Es genügt also, wenn eines der genannten Kriterien zutrifft.
+      
+      Die einzelnen Kriterien sind eine "Oder-Verknüpfung". Es genügt also, wenn eines der genannten Kriterien zutrifft.
 
 !!! hint "Herkömmlichen Kurse"
 
-  Bei herkömmlichen Kursen werden die Kriterien für das Bestehen eines Kurses im Kurseditor auf dem obersten Kursbaustein im Tab "Punkte" eingestellt und das Ergebnis auf der Kursstartseite angezeigt.
+    Bei herkömmlichen Kursen werden die Kriterien für das Bestehen eines Kurses im Kurseditor auf dem obersten Kursbaustein im Tab "Punkte" eingestellt und das Ergebnis auf der Kursstartseite angezeigt.
 
 !!! hint "Highscore"
 
-  Nur wenn unter "Punkte" Summe oder Durchschnitt gewählt wurde, kann im Kurseditor auch der Reiter "Highscore" des obersten Kursbausteins konfiguriert werden.
+     Nur wenn unter "Punkte" Summe oder Durchschnitt gewählt wurde, kann im Kurseditor auch der Reiter "Highscore" des obersten Kursbausteins konfiguriert werden.
 
 ### Leistungsnachweis
 
-Wenn Sie die Option "Leistungsnachweise verwenden" aktivieren, erscheint im Kurs im Toolbar Menü "[Mein Kurs](../learningresources/Additional_Course_Features.de.md)" die Option "Leistungsnachweis" und die Kursteilnehmenden sehen einen Überblick über die bewertbaren Kursbausteine mit ihrem jeweiligen aktuellen Bewertungsstatus.
+Wenn Sie die Option "Leistungsnachweise verwenden" aktivieren, erscheint im Kurs im Toolbar Menü ["Mein Kurs"](../learningresources/Additional_Course_Features.de.md) die Option "Leistungsnachweis" und die Kursteilnehmenden sehen einen Überblick über die bewertbaren Kursbausteine mit ihrem jeweiligen aktuellen Bewertungsstatus.
 
 Der Link zum Leistungsnachweis erscheint im Kurs erst dann, wenn im Kurs mindestens ein bewertbarer Kursbaustein existiert, und der Kursteilnehmer bereits mindestens eine Bewertung erhalten hat. Dies kann z.B. der Lösungsversuch eines Tests sein oder die Bewertung einer Aufgabe.
 
@@ -130,23 +130,19 @@ Um die Gültigkeit des Zertifikats zu überprüfen, muss der Vorlage das Attribu
 
 **Was geschieht beim Ablauf eines Zertifikats?**
 
-Anhand des Ausstellungsdatums sowie des Ablaufdatums des Zertifikats können [Erinnerungen](../learningresources/Course_Reminders.de.md){:target="_blank”} ausgelöst werden. Z.B. können Kursteilnehmer:innen eine Info erhalten, dass das Zertifikat abgelaufen ist oder in wenigen Tagen abläuft oder eine **Rezertifizierung** ab sofort möglich ist.
+Anhand des Ausstellungsdatums sowie des Ablaufdatums des Zertifikats können [Erinnerungen](../learningresources/Course_Reminders.de.md) ausgelöst werden. Z.B. können Kursteilnehmer:innen eine Info erhalten, dass das Zertifikat abgelaufen ist oder in wenigen Tagen abläuft oder eine **Rezertifizierung** ab sofort möglich ist.
 
 **Zertifikatsvorlage erstellen**
 
-Als Vorlage für das Zertifikat dient in der Regel eine systemweite, vom
-Administrator festgelegte PDF-Vorlage. Wenn Sie eine eigene Vorlage verwenden möchten, können Sie diese unter  **Zertifikatvorlage**  hochladen.
+Als Vorlage für das Zertifikat dient in der Regel eine systemweite, vom Administrator festgelegte PDF-Vorlage. Wenn Sie eine eigene Vorlage verwenden möchten, können Sie diese unter  **Zertifikatvorlage**  hochladen.
 
-Eine PDF-Vorlage ist keine gewöhnliche PDF-Datei, sondern muss mit HTML
-erzeugt werden, um Layout und Variablen zu gewährleisten.
+Eine PDF-Vorlage ist keine gewöhnliche PDF-Datei, sondern muss mit HTML erzeugt werden, um Layout und Variablen zu gewährleisten.
 
-Mit diesem [Zertifikatsbot](https://tools.vcrp.de/zertifikatsbot/){:target="_blank”} können
-einfach und schnell Zertifikatsvorlagen im HTML-Format erstellt werden. Wer den Bot an seine Bedürfnisse anpassen möchte, dem steht das
-[Repository](https://gitlab.vcrp.de/openolat/zertifikatsbot){:target="_blank”} mit dem öffentlich geschalteten Code (MIT Lizenz) zur Verfügung.
+Mit diesem [Zertifikatsbot](https://tools.vcrp.de/zertifikatsbot/){:target="_blank”} können einfach und schnell Zertifikatsvorlagen im HTML-Format erstellt werden. Wer den Bot an seine Bedürfnisse anpassen möchte, dem steht das [Repository](https://gitlab.vcrp.de/openolat/zertifikatsbot){:target="_blank”} mit dem öffentlich geschalteten Code (MIT Lizenz) zur Verfügung.
 
 Die Formularfelder müssen bestimmte Variablen enthalten, die vom System später durch die spezifischen Daten ersetzt werden. Es können alle Attribute als Variablen verwendet werden. Bei PDF-Vorlagen werden die Variablennamen ohne $-Präfix, bei HTML-Formularen mit $-Präfix verwendet.
 
-Zum Formatieren von Datumsformaten steht das "dateFormatter"-Objekt zur Verfügung. Damit lassen sich die "*Raw" formate mittels "formatDate()" formatieren oder mit formatDateRelative(Date baseLineDate, days, months, years) eine angegebene Periode addieren.
+Zum Formatieren von Datumsformaten steht das "dateFormatter"-Objekt zur Verfügung. Damit lassen sich die "*Raw" formate mittels "formatDate()" formatieren oder mit formatDateRelative (Date baseLineDate, days, months, years) eine angegebene Periode addieren.
 
 Unterschriften, Logos o.ä. können über die optionalen Variablen als statische Grafiken in das Zertifikat integriert werden. Die entsprechenden Dateien müssen dafür mit der Zertifikatsvorlage zur Verfügung stehen.
 
@@ -216,11 +212,8 @@ Unterschriften, Logos o.ä. können über die optionalen Variablen als statische
     _Daten aus der Kursbeschreibung:_
 
       * $!description  
-
       * $!objectives  
-
       * $!requirements  
-
       * $!credits
 
     _Optionale Variablen:_
@@ -242,10 +235,9 @@ Die Option zur Rezertifizierung ist gekoppelt an
 * eine bestehende frühere (Erst-)Zertifizierung
 * eine definierte Angabe, ab wann frühestens eine Rezertifizierung möglich ist.
 
-
 **Rezertifizierung aktivieren**
 
-Wird die Rezertifizeriung aktiviert, muss eine Angabe gemacht werden, ab wann eine Rezertifizierung möglich sein soll: „frühestens ab … Tage vor Ablauf Gültigkeit Zertifikat“.
+Wird die Rezertifizeriung aktiviert, muss eine Angabe gemacht werden, ab wann eine Rezertifizierung möglich sein soll: "frühestens ab ... Tage vor Ablauf Gültigkeit Zertifikat".
 
 (Der Wert muss kleiner als die Gültigkeitsdauer sein.)
 
@@ -257,7 +249,6 @@ Die Daten der teilnehmenden Personen werden bei der Rezertifizierung zurückgese
 
 Leistungsnachweise und Zertifikate früherer Durchgänge bleiben erhalten.
 
-
 ## Tab Optionen {: #options}
 
 Hier können Sie ein kurspezifisches [Glossar](../learningresources/Using_Additional_Course_Features.de.md) und einen [Ressourcenordner](../learningresources/index.de.md) aktivieren, konfigurieren und so mit Ihrem Kurs verbinden sowie einen speziellen Ordner für Betreuer erstellen.
@@ -268,9 +259,9 @@ Sie können hier entweder eine Verbindung zu einem bereits erstellten Glossar he
 
 ### Ressourcenordner einbinden
 
-Sie können hier entweder eine Verbindung zu einer bereits erstellten Lernressource "Ressourcenordner" herstellen oder im erscheinenden Menü einen neuen Ressourcenordner erstellen. Die Dateien des Ressourcenordners erscheinen anschließend im Ablageordner des Kurses im automatisch erstellten Unterordner „_sharedfolder“.
+Sie können hier entweder eine Verbindung zu einer bereits erstellten Lernressource "Ressourcenordner" herstellen oder im erscheinenden Menü einen neuen Ressourcenordner erstellen. Die Dateien des Ressourcenordners erscheinen anschließend im Ablageordner des Kurses im automatisch erstellten Unterordner "_sharedfolder“.
 
-Standardmässig sind die Dateien des Ressourcenordners im Kurs schreibgeschützt und eine Bearbeitung nur direkt in der Lernressource, nicht aber im Ablageordner des Kurses noch bei der Einbindung über Einzelseiten im Kurseditor möglich. Soll eine Bearbeitung aber auch im Kurs möglich sein, muss in den Optionen der Kurseinstellungen der Haken bei „Schreibgeschützt“ entfernt werden.
+Standardmässig sind die Dateien des Ressourcenordners im Kurs schreibgeschützt und eine Bearbeitung nur direkt in der Lernressource, nicht aber im Ablageordner des Kurses noch bei der Einbindung über Einzelseiten im Kurseditor möglich. Soll eine Bearbeitung aber auch im Kurs möglich sein, muss in den Optionen der Kurseinstellungen der Haken bei "Schreibgeschützt" entfernt werden.
 
 Weitere Informationen und eine Schritt-für-Schritt-Anleitung zur Einbindung eines Ressourcenorders finden Sie im Bereich [How to](../../manual_how-to/multiple_use/multiple_use.de.md).
 

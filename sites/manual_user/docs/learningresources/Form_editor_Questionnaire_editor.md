@@ -2,9 +2,9 @@
 
 !!! info "Hinweis"
 
-    Mit der OpenOlat Version 17.1 wurde der Formular Editor umfangreich geändert. Ausführungen zum aktuellen Formular Editor finden Sie [hier](Form_editor_QUestionnair_editor.de.md). 
+    OpenOlat Version 17.1 extensively changed the form editor. You can find information on the current form editor [here](Form_editor_Questionnaire_editor.md). 
 
-    Die folgenden Ausführungen beziehen sich auf den bisherigen Formular Editor.
+    The following explanations refer to the previous form editor.
 
 Select or create a learning resource of the type "Form" and click on "Edit content" in the administration. The editor opens and various options are available via the button "Add content".
 
@@ -32,13 +32,13 @@ If required, add a table to the form and configure it.
 
 If necessary, add image elements to the form. To do this, upload a suitable graphic file. Then you can further configure the file, e.g. place a title or subtitle and also define the size, placement or border.
 
-![Form image](assets/image.png){ class="shadow lightbox" }
+The positioning can also be further optimized by using the container element. 
 
-The positioning can also be further optimized by using the container element.  
+![Form image](assets/image.png){ class="shadow lightbox" }
   
 ## Rubric
 
-Three different types are available for displaying a rubric. As with Single choice questions, the evaluations can relate to only one aspect or be continuous. Unlike the other question types, questions and answers are organized using the same element.
+Three different types are available for displaying a [rubric](Rubric.md). As with Single choice questions, the evaluations can relate to only one aspect or be continuous. Unlike the other question types, questions and answers are organized using the same element.
 
 ![Form rubric](assets/rubic.png){ class="shadow lightbox" }
 
@@ -82,7 +82,11 @@ This element gives learners the ability to upload files. The Upload can be oblig
   
 ## Information
 
-The Information element can be used to query further user-specific information such as name or age. It can be selected whether the information must be filled in voluntarily (optional) or obligatory and whether the user may enter the data himself or whether the automatically transmitted data should be used.
+The Information element can be used to query further user-specific information such as name or age. One of the following three variants can be selected:
+
+a) the information is voluntary (optional)
+b) the information must be completed by the user (mandatory)
+c) the information is transferred automatically (automatically mandatory)
 
 This information causes the questionnaire to lose its anonymity.
 

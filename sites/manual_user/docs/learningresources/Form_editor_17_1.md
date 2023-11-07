@@ -1,7 +1,6 @@
 # Form editor
 
-Select or create a learning resource of the type "Form" and click on "Edit content" in the administration. The editor opens.
-Hier können Sie ein oder mehrere Layouts wählen und den Bereichen  verschiedene Elemente hinzufügen.
+Select or create a learning resource of the type "Form" and click on "Edit content" in the administration. The editor opens. Here you can select one or more layouts and add various elements to the areas.
 
 You can add various elements at any time using the "Add content" button. Once you have created an element, you can also use the 3-dot option via the Add before/after link to add more elements to fit. 
 
@@ -9,16 +8,13 @@ You can add various elements at any time using the "Add content" button. Once yo
 
 Each element can also be duplicated, moved by drag and drop or deleted.
 
-(delete: As soon as you have created an element, you can also use the plus sign to add further elements above or below an element. Each element can also be duplicated, moved by drag and drop or deleted.)
-
-
 !!! info "Availability"
 
     As of :octicons-tag-24: release 17.1. this redesigned form editor is available. It contains conceptual and UX improvements to ensure a more pleasant creation. Old forms (created with 16.1.-17.0.X) can still be opened and edited. If you want to fill an old form with new content, use the new layouts for that.
 
 ## Controls and blocks of the form editor
 
-* **Layout menu**: There you can set all the template for the layout, add layouts on top and bottom and move the layout in position or order.
+* **Layout menu**: Here, you can set all the template for the layout, add layouts on top and bottom and move the layout in position or order. You can also assign a name for the layout element and add further layouts before or after it.
 * **Block Menu** :material-cog: 
 Refers to an element added to the layout, e.g. a "paragraph" of text, a "single selection", etc. You can duplicate, move or delete an element or block here, as well as add other elements before or after it.
 * **Inspector**: In the overlaying menu that appears on the right there are all the settings that change the functionality, as well as the appearance of the particular block or layout.
@@ -27,9 +23,7 @@ Refers to an element added to the layout, e.g. a "paragraph" of text, a "single 
 
 ### Layout
 
-A layout is a higher-level block that allows you to structure the content in different ways using columns and rows. Within a column and row you can add as many blocks as you want.
-
-If you delete or change layouts, existing blocks will be moved to the existing columns. If they are not
+A layout is a higher-level block that allows you to structure the content in different ways using columns and rows. Within a column and row you can add as many blocks as you want. If you delete or change layouts, existing blocks will be moved to the existing columns. If they are not
 
 Currently the following layout templates are available:
 
@@ -69,8 +63,7 @@ The positioning can also be further optimized by using the container element.
   
 ## Rubric
 
-Three different types are available for displaying a rubric. 
-"Discrete with radio button" and "Discrete with slider" function similarly to single-choice questions and are linked to point values. "Continuous", on the other hand, allows for fluent scoring without points. Unlike the other question types, here questions and answers are organized using the same element.
+Three different types are available for displaying a [rubric](Rubric.md). "Discrete with radio button" and "Discrete with slider" function similarly to single-choice questions and are linked to point values. "Continuous", on the other hand, allows for fluent scoring without points. Unlike the other question types, here questions and answers are organized using the same element.
 
 ![Form rubric](assets/form_rubric_17.png){ class="shadow lightbox" }
 
@@ -81,8 +74,7 @@ Further information can be found [here](Rubric.md).
 
 Creates a single choice answer scale. The individual answers can be displayed next to each other, below each other or as a selection menu via the option "Selection list". The entries can be moved up or down using the arrow keys.
 
-Under "Obligation", one can set the question as obligatory or optional.
-Mandatory blocks must be filled in to submit the form.
+Under "Obligation", one can set the question as obligatory or optional. Mandatory blocks must be filled in to submit the form.
 
 The single choice question can also be used as a basis (condition) for the question rules. This way, certain containers and their contents are displayed depending on the answer selected by the user.
 
@@ -104,7 +96,7 @@ Give the element a meaningful name so that you can keep track of the question ru
   
 ## Text input
 
-The text input provides the learner with a single or multiline field for text input. Restriction to numbers or a date is also possible. The text input can be obligatory or optional (siehe Einzel- oder Mehrfachauswahl oben).
+The text input provides the learner with a single or multiline field for text input. Restriction to numbers or a date is also possible. The text input can be obligatory or optional (see single and multiple choice above).
 
 ![Form text input](assets/form_text_17.png){ class="shadow lightbox" }
   
@@ -137,15 +129,9 @@ With this element the coach can add a declaration of consent to the form, which 
 
 ![Form terms](assets/form_terms_of_use17.png){ class="shadow lightbox" }
 
-## Seperator
-
-Separation line for structuring areas
-
-![Form seperator](assets/seperator.png){ class="shadow lightbox" }
+A separator can also be added.
   
 ## Question rules
-
-(Branching - Working Title)
 
 With question rules, the display of Layouts can be made dependent on certain answers of the single or multiple choice (condition field). Thus, a layout with the respective elements is only displayed if the user has selected a certain predefined answer.
 
@@ -157,7 +143,7 @@ Several rules can be added to a form.
 
 Here are a few more tips for using the Form Editor:
 
-* For the "Rubric" choice, the questions and answers are created together.
+* For the "Rubric" choice, the questions and answers are created together. For all other question types, the questions are created using the "Paragraph" element and assigned to the answers of the appropriate question type.
 * Use "Add entry" to add additional answer elements for single or multiple choice.
 * In addition to the questions, add further elements if required, e.g. "Terms of use" or "Information".
 * Do not forget to assign names to the blocks if you want to create a selective release via question rules.

@@ -1,9 +1,6 @@
 #  Portfolioaufgabe: kommentieren und bewerten
 
-Haben Lernende eine Portfolioaufgabe bearbeitet und zumindest Teile publiziert
-können die Mappen bzw. Teile von anderen Personen kommentiert und je nach
-Einstellung auch bewertet werden. Im Folgenden wird das entsprechende Vorgehen
-beschrieben:
+Haben Lernende eine Portfolioaufgabe bearbeitet und zumindest Teile publiziert können die Mappen bzw. Teile von anderen Personen kommentiert und je nach Einstellung auch bewertet werden. Im Folgenden wird das entsprechende Vorgehen beschrieben:
 
 ## Portfolioaufgabe kommentieren  
   

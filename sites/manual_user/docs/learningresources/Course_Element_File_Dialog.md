@@ -21,7 +21,6 @@ However, unlike forums, the starting point is always an uploaded document that f
 
 Use file dialogue, for example, if you want your learners to comment specifically on an article, graphic or other text and discuss the content.
 
----
 
 ## Starting a file dialogue
 
@@ -46,15 +45,11 @@ If participants or coaches select the course element file dialogue, they will fi
 
 ![Dateidiskussion Dok1 Dok2](assets/course_element_file_dialog_doc1_doc2_v1_de.png){ class="shadow lightbox" }
 
-
----
-
 ## Uploading files
 
 ### Who can upload files?
 
-Uploading a file as the starting point of a file dialogue can be done by owner, coach or participant, depending on the configuration.
-When configuring the course element by the course owner, it can be determined, 
+Uploading a file as the starting point of a file dialogue can be done by owner, coach or participant, depending on the configuration. When configuring the course element by the course owner, it can be determined, 
 
 * who,
 * in which time frame
@@ -81,8 +76,6 @@ However, a corresponding tool must be available in OpenOlat to open it. For exam
 ### Where are these files located?
 
 The files uploaded to the course element file discussion are saved in a path within the file storage of OpenOlat, not in the storage folder. Access to these files is therefore only possible via the course element file discussion.
-
----
 
 ## Leading a dialogue
 
@@ -169,22 +162,21 @@ A wizard helps with moving.
 
 A distinction must be made when deleting:
 
-* **Deleting a single post**<br>
-    The creator of a dialogue post has the right to delete their own post.
-
-    However, deleting a post will normally also render the replies to that post obsolete. Therefore, the replies to this post will also be deleted. The dialogue thread will therefore be cut off at this point.
+* **Deleting a single post**
+  The creator of a dialogue post has the right to delete their own post. However, deleting a post will normally also render the replies to that post obsolete. Therefore, the replies to this post will also be deleted. The dialogue thread will therefore be cut off at this point.
 
 ![course_element_file_dialog_loeschen_beitrag_v1_de](assets/course_element_file_dialog_loeschen_beitrag_v1_de.png){ class="shadow lightbox" }
 
-* **Deleting the entire dialogue for a file**<br>		
-Owners and coaches have access to this option at the top right of the icon with the 3 dots.
-Alternatively, the 3 dots at the end of a table row (file) can also be selected in the table display.
+* **Deleting the entire dialogue for a file**:		
+Owners and coaches have access to this option at the top right of the icon with the 3 dots. Alternatively, the 3 dots at the end of a table row (file) can also be selected in the table display.
 
 ![course_element_file_dialog_loeschen_diskussion_v1_de](assets/course_element_file_dialog_loeschen_diskussion_v1_de.png){ class="shadow lightbox" }
 
 
 
-The course element File Dialog can be understood as a combination of forum and folder. The course element "File dialog" provides you with preset discussion forums; in contrast to an ordinary forum, dialogs here are explicitly based on certain documents. Use such a file dialog to let your course participants discuss e.g. scientific articles or papers.
+## Ending discussions
+
+### How can a discussion be ended
 
 The **manual closure** of a dialogue is done by the coaches and the owner.
 

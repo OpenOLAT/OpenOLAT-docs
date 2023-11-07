@@ -12,20 +12,15 @@ Bewertbar | nein
 Spezialität / Hinweis | Microsoft Teams ist eine kommerzielle Software. Um den Kursbaustein zu nutzen ist eine separate Lizenz und ein Serverhosting erforderlich.
 
 
-
 :octicons-device-camera-video-24: **Video-Einführung**: [Microsoft Teams](<https://www.youtube.com/embed/eyHOaF-ujuE>){:target="_blank”}
 
 ## Funktionen der Software  
 
-Microsoft Teams ermöglicht virtuelle Räume für synchrone Meetings mit Webcam- und Audio-Unterstützung
+Microsoft Teams ermöglicht virtuelle Räume für synchrone Meetings mit Webcam- und Audio-Unterstützung.
 
-  
 ## Systemvoraussetzungen
 
 MS Teams kann sowohl als App als auch im MS Browser Edge verwendet werden.
-
-----
-  
   
 ## Raum konfigurieren bei geschlossenem Kurseditor  
 
@@ -43,8 +38,6 @@ Termine anlegen.
 Die Varianten unterscheiden sich nur in der Erstellung der Termine. Es werden
 separate Online-Termine/Reservierungen erstellt, welche anschliessend im Tab
 "**Terminverwaltung**" über den Link "**Editieren**" bearbeitet werden können.  
-
- ---- 
 
 ## Online-Termin hinzufügen: Die Einstellungen im Detail
 
@@ -71,8 +64,6 @@ separate Online-Termine/Reservierungen erstellt, welche anschliessend im Tab
 
     Bei täglich oder wöchentlich wiederkehrenden Terminen muss zusätzlich das Start und Enddatum definiert werden. Im Anschluss werden sämtliche Termine für diese Zeitspanne angezeigt und es können noch einzelne Termine aus der Liste gelöscht oder hinzugefügt werden.
 
-  
-
 In der Konfiguration eines Raums kann sowohl während der Erstellung als auch
 später beim editieren über den Link "**Raumbuchungen anzeigen**", eine Übersicht
 über alle gebuchten BigBlueButton Räume der Instanz eingesehen werden. Das
@@ -95,7 +86,7 @@ termingebundenen Raum gelangen.
 
 Ruft ein Kursteilnehmer einen MS Teams Kursbaustein auf, sieht er eine
 Übersicht der aktuellen, der abgelaufenen und der permanenten Räume, sofern
-vorhanden.  Ein Klick auf "Auswählen" führt zum Login-Bereich des jeweiligen
+vorhanden. Ein Klick auf "Auswählen" führt zum Login-Bereich des jeweiligen
 Raums.
 
 ![BBB_uebersicht.png](assets/BBB_Uebersicht.png)

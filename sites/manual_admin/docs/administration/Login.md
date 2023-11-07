@@ -2,6 +2,10 @@
 
 Configuration of the login in the OpenOlat Administration
 
+## Security
+
+Requirements towards security can vary greatly depending on the institution. Use the security settings to configure the necessary security level while taking the associated risk into account.
+
 ## Passwords
 
 Here you can configure the syntax rules for the OLAT passwords. A minimum and
@@ -10,6 +14,10 @@ requirements such as number of letters, upper and lower case, requirements for
 numbers and special characters as well as certain invalid values can be
 defined. Under the tab "Change policies" you can define how often certain
 users have to change their password.
+
+## Anonymous and external users
+
+Administrators can define whether and to what extent OpenOlat can be used by anonymous guests and external users.
 
 ## Self-registration
 
@@ -29,3 +37,6 @@ Here it is possible to configure an SMS service. Notifications can then also
 be sent by SMS. Please note that there are costs for sending SMS messages in
 this context.
 
+## Password reset
+
+Here you can reset the password for an account list.

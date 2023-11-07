@@ -1,6 +1,5 @@
 # Course Element "External Page" {: #external_page}
 
-
 ## Profile
 
 Name | External page
@@ -12,27 +11,18 @@ Purpose | Display external web content within an OpenOlat course and integration
 Assessable | no
 Specialty / Note |
 
+With the help of the course element "External page" you can call up an external website. Simply enter the desired URL in the configuration in the tab "Page content" to integrate the external page into your course navigation. For the display of the linked page, the variants
 
-
-With the help of the course element "External page" you can call up an
-external website. Simply enter the desired URL in the configuration in the tab
-"Page content" to integrate the external page into your course navigation. For
-the display of the linked page, the variants
-
-  * "Embedded (source hidden)",
-  * "Embedded (source visible)",
+  * "Embedded" (source hidden),
+  * "Embedded" (source visible),
   * "New browser window" (source visible) and
-  * "Integrated completely (source hidden)
+  * "Integrated completely" (source hidden)
 
 are offered.
 
-For pages that require authentication and whose source is hidden, you can
-activate "Page pass-word controlled" and enter the corresponding values in the
-"User" and "Password" fields.
+For pages that require authentication and whose source is hidden, you can activate "Page password controlled" and enter the corresponding values in the "User" and "Password" fields.
 
-It is recommended to use this course element when planning to include pages
-containing database queries (e.g. research tools, online exercises, etc.). It
-is only possible to link external pages via HTTP or HTTPS protocols.
+It is recommended to use this course element when planning to include pages containing database queries (e.g. research tools, online exercises, etc.). It is only possible to link external pages via HTTP or HTTPS protocols.
 
 ## External page: configuration
 
@@ -48,13 +38,11 @@ is only possible to link external pages via HTTP or HTTPS protocols.
 
 *  _New browser window (source visible):_ Another option is the possibility to display your external page in its own browser window.
 
-By selecting the upper two options OLAT will transfer username and password in case your external page requests this.
-
 Embedded frames («iframe«) resemble single browser windows, however, they are part of the initial window's HTML page.
 
-Advantage of using an «iframe« : you can show any content in OLAT (e.g.complex web pages in nested frames, mathML etc.).
+Advantage of using an «iframe«: you can show any content in OLAT (e.g.complex web pages in nested frames, mathML etc.).
 
-Disadvantage of using an «iframe« : your content might appear along with its own scroll bar.
+Disadvantage of using an «iframe«: your content might appear along with its own scroll bar.
 
 !!! info "Info"
 

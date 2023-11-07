@@ -19,6 +19,7 @@ nav:
       - Chat: "basic_concepts/Chat.md"
       - Table concept: "basic_concepts/Table_Concept.md"
       - Math formula: "basic_concepts/Math_formula.md"
+      - To-dos: "basic_concepts/To_Dos_Basics.md"
     - Technology:
       - basic_concepts/Technology.md 
       - Using WebDAV: "basic_concepts/Using_WebDAV.md" 
@@ -27,6 +28,10 @@ nav:
   - Login and registration:
     - login_registration/index.md
     - Login Page: "login_registration/Login_Page.md"
+    - Login Concept: "login_registration/Login_Concept.md"
+    - Password: "login_registration/Password.md"
+    - Passkey: "login_registration/Passkey.md"
+    - Security levels: "login_registration/Security_levels.md"
 
   - Personal menu:
     - personal_menu/index.md
@@ -36,10 +41,13 @@ nav:
       - E-Mail: "personal_menu/E-Mail.md"
       - Badges: "personal_menu/OpenBadges.md"
       - Media Center: "personal_menu/Media_Center.md"
+      - To-dos: "personal_menu/To-Dos.md"
     - Configuration:
-      - Overview: "personal_menu/Configuration.md"
+      - Profile: "personal_menu/Profile.md"
       - COVID certificate: "personal_menu/COVID_certificate.md"
- 
+      - Settings: "personal_menu/Settings.md"
+      - Password: "personal_menu/Password.md"
+       
   - Area and modules:
     - area_modules/index.md
     - Courses:
@@ -79,6 +87,7 @@ nav:
       - Overview: "area_modules/Project_Overview.md"
       - Project member management: "area_modules/Project_Member_Management.md"
       - Cockpit: "area_modules/Project_Cockpit.md"
+      - Whiteboard: "area_modules/Project_Whiteboard.md"
       - Timeline: "area_modules/Project_Timeline.md"
       - Schedule: "area_modules/Project_Schedule.md"
       - To-dos: "area_modules/Project_Todos.md"
@@ -86,6 +95,7 @@ nav:
       - Notes: "area_modules/Project_Notes.md"
       - Files: "area_modules/Project_Files.md"
       - Administration: "area_modules/Project_Admin.md"
+      - Project Report: "area_modules/Project_Report.md"
     - Portfolio:
       - Overview: "area_modules/Portfolio.md"
       - Portfolio - General Information: "area_modules/Portfolio_General_Information.md"

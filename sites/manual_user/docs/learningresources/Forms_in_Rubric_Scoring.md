@@ -20,13 +20,13 @@ If you have not yet created a form, you can also create a new learning resource 
 
 A newly created form does not yet contain a rubric element. This has to be added in the course via "Edit" or alternatively directly in the learning resource in the [Form Editor](Form_editor_Questionnaire_editor.md).
 
-If a form is created directly in the course editor, a new learning resource Form will be created automatically, which can also be found in the [Authoring Area](../area_modules/Authoring.md)under "My entries" and can be included in further courses.
+If a form is created directly in the course editor, a new learning resource Form will be created automatically, which can also be found in the [Authoring Area](../area_modules/Authoring.md) under "My entries" and can be included in further courses.
 
 After a form has been selected it can be designed via the link "Edit". If the form has already been set up appropriately, it is no longer necessary to edit it.
 
 ### Evaluation rubric example
 
-This is how a rating rubric could look like:
+This is how a evaluation rubric could look like:
 
 ![Example rubric form](assets/Rubrik_Formular_Beispiel1.png){ class="shadow lightbox" }
 
@@ -34,7 +34,7 @@ This is how a rating rubric could look like:
 
 After a rubric has been linked to the assessment, the following additional configurations can be made in the "Assessment" tab:
 
-**Set status "To review" if accessible** : If the checkmark is set, the display "Correct" appears under status for owners and supervisors when the editor is closed. The participants will see "In correction". If the check mark is not set, the user will see "No indication" and the teachers will see the status "Not started" or "Assessed", depending on whether an assessment has already been made or not.  
+**Set status "To review" if accessible**: If the checkmark is set, the display "Correct" appears under status for owners and supervisors when the editor is closed. The participants will see "In correction". If the check mark is not set, the user will see "No indication" and the teachers will see the status "Not started" or "Assessed", depending on whether an assessment has already been made or not.  
   
 **Score granted**: Points can be awarded automatically or manually, if enabled. Automatic points can be taken as sum or average. Die minimalen und maximalen Punkte werden angezeigt bzw. können bei manueller Bewertung eingetragen werden.
 
@@ -48,13 +48,13 @@ After a rubric has been linked to the assessment, the following additional confi
 
 **Ignore in course assessment**: If checked, the evaluation will not be taken into account when [passing the course](../learningresources/Course_Settings.md). 
 
-**Individual comment** : If activated, an individual comment can be left on the rubric assessment e.g. an assessment can be explained in more detail.
+**Individual comment**: If activated, an individual comment can be left on the rubric assessment e.g. an assessment can be explained in more detail.
 
 **Individual assessment documents**: If activated, additional documents can be provided individually in addition to the rubric rating.
 
-**Notice for all users**: Allgemeine Informationen zur Bewertung des Kursbausteins für alle Lernenden. Erläutern sie eventuell näher die Kategorien des Rubriks.  
+**Notice for all users**: General information about the course element assessment for all learners. If necessary, explain the categories of the rubric in more detail.
 
-**Notice for coaches**: Notes for supervisors can be left here  z.B. was bei der Bewertung der Rubrik-Kategorien wichtig und zu beachten ist.  Participants will not see the notes.
+**Notice for coaches**: Notes for supervisors can be left here  e.g. what is important and to consider when evaluating rubric categories. Participants will not see the notes.
 
 Further information on the course element Assessment can be found [here](../learningresources/Course_Element_Assessment.md).
 

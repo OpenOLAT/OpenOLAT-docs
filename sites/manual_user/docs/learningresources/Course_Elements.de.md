@@ -92,11 +92,9 @@ Unter der Kategorie Wissensüberprüfung sind ausserdem die Kursbausteine "Umfra
 
 #### Highscore {: #highscore}
 
-Alle bewertbaren Kursbausteine, mit Ausnahme von "Übung" und "Struktur", erhalten zusätzlich das Konfigurationstab "Highscore", wenn am Baustein Punkte vergeben werden. Die Highscore-Darstellung ermöglicht einen spielerischen Vergleich der
-Teilnehmenden und kann als Motivationsfaktor verstanden werden.
+Alle bewertbaren Kursbausteine, mit Ausnahme von "Übung" und "Struktur", erhalten zusätzlich das Konfigurationstab "Highscore", wenn am Baustein Punkte vergeben werden. Die Highscore-Darstellung ermöglicht einen spielerischen Vergleich der Teilnehmenden und kann als Motivationsfaktor verstanden werden.
 
-Zuerst muss "Highscore anzeigen" aktiviert werden. Optional kann ein
-Anfangsdatum hinzugefügt werden, ab welchem der Highscore angezeigt wird. Ohne Angabe des Datums wird der Highscore direkt nach Beenden des Tests angezeigt.
+Zuerst muss "Highscore anzeigen" aktiviert werden. Optional kann ein Anfangsdatum hinzugefügt werden, ab welchem der Highscore angezeigt wird. Ohne Angabe des Datums wird der Highscore direkt nach Beenden des Tests angezeigt.
 
 Es kann definiert werden, ob die Benutzerdaten anonymisiert oder mit Vor- und Nachnamen dargestellt werden und welche Elemente des Highscores angezeigt werden sollen. Zur Auswahl stehen die Positionsanzeige, das Siegertreppchen, das Histogramm und die Liste der besten Teilnehmer. Für die Liste kann zudem definiert werden, ob alle Benutzer oder nur eine gewisse Anzahl der besten Benutzer erscheinen sollen. Es muss mindestens eine dieser Optionen ausgewählt werden.
 
@@ -108,7 +106,7 @@ Kursbausteine dieser Kategorie werden vor allem für kollaboratives Arbeiten und
 
 <div class="grid cards" markdown>
 
--	[:fontawesome-solid-earth-americas: Wiki](Course_Element_Assessment.de.md)
+-	[:fontawesome-solid-earth-americas: Wiki](Course_Element_Wiki.de.md)
 
     [:fontawesome-regular-comments: Forum](Course_Element_Forum.de.md)
 
@@ -138,7 +136,8 @@ Kursbausteine dieser Kategorie werden vor allem für kollaboratives Arbeiten und
 
 ![](assets/vitero.png)
 
-Mit den Kursbausteinen [Adobe Connect](Course_Element_Adobe_Connect.de.md), [BigBlueButton](Course_Element_BigBlueButton.de.md), [GoToMeeting](Course_Element_GoToMeeting.de.md), [Microsoft Teams](Course_Element_Microsoft_Teams.de.md), [OpenMeetings](Course_Element_OpenMeetings.de.md), [Vitero](Course_Element_vitero.de.md) und [Zoom](Course_Element_Zoom.de.md) können in OpenOlat unterschiedliche [Virtuelle Klassenzimmer](../course_elements/Virtual_classrooms.de.md) für synchrone Meetings, Video-Konferenzen oder Webinare eingesetzt werden.
+Mit den Kursbausteinen 
+[Adobe Connect](Course_Element_Adobe_Connect.de.md), [BigBlueButton](Course_Element_BigBlueButton.de.md), [GoToMeeting](Course_Element_GoToMeeting.de.md), [Microsoft Teams](Course_Element_Microsoft_Teams.de.md), [OpenMeetings](Course_Element_OpenMeetings.de.md), [Vitero](Course_Element_vitero.de.md) und [Zoom](Course_Element_Zoom.de.md) können in OpenOlat unterschiedliche [Virtuelle Klassenzimmer](../course_elements/Virtual_classrooms.de.md) für synchrone Meetings, Video-Konferenzen oder Webinare eingesetzt werden.
 
 Welche Kursbausteine für diese Zwecke verfügbar sind und welche Funktionalitäten jeweils zur Verfügung stehen, hängt von der Konfiguration ihres OpenOlat-Systems ab.
 
@@ -178,7 +177,7 @@ Zusätzliche Bausteine finden Sie in der Kategorie "Andere".
 
 </div>
 
-## Allgemeines zu Kursbaussteinen
+## Allgemeines zu Kursbausteinen
 
 Alle Kursbausteine verfügen über die Tabs "**Titel und Beschreibung**" sowie "**Layout**". Darüber hinaus gibt es noch bestimmte Tabs die je nach technischem Kurstyp durchgängig vorhanden sind. Der Tab "Lernpfad" existiert nur bei Lernpfad Kursen. Die Tabs "Sichtbarkeit" und "Zugang" existieren nur bei den herkömmlichen Kursen.
 
@@ -190,10 +189,10 @@ Eine Reihe an Kursbausteinen kann entweder zur summativen bzw. formativen Bewert
 [Bewertungswerkzeug](../learningresources/Using_Course_Tools.de.md) eingesehen und bearbeitet werden. Weitere Informationen zu diesen Bausteinen finden Sie u.a. im Kapitel [Wissensüberprüfung](../learningresources/Assessment.de.md):
 
 * [Aufgabe](../learningresources/Course_Element_Assessment.de.md) (manuelle Bewertung)
-* [Gruppenaufgabe](../learningresources/Assessment.de.md)(manuelle Bewertung)
-* [Portfolioaufgabe](../learningresources/Assessment.de.md)(manuelle Bewertung)
-* [Checkliste](../learningresources/Assessment.de.md) (manuelle & automatische Bewertung)
-* [Bewertung](../learningresources/Assessment.de.md) (manuelle Bewertung)
+* [Gruppenaufgabe](../learningresources/Assessment.de.md) (manuelle Bewertung)
+* [Portfolioaufgabe](../learningresources/Assessment.de.md) (manuelle Bewertung)
+* [Checkliste](../learningresources/Assessment.de.md)  (manuelle & automatische Bewertung)
+* [Bewertung](../learningresources/Assessment.de.md)  (manuelle Bewertung)
 * [LTI](../learningresources/Other.de.md) (automatische Bewertung, wird von LTI-Seite übertragen)
-* [SCORM](../learningresources/Knowledge_Transfer.de.md) (automatische Bewertung, wird durch SCORM-Modul übertragen)
-* [Test](../learningresources/Assessment.de.md) (automatische & manuelle Bewertung)
+* [SCORM](../learningresources/Knowledge_Transfer.de.md)  (automatische Bewertung, wird durch SCORM-Modul übertragen)
+* [Test](../learningresources/Assessment.de.md)  (automatische & manuelle Bewertung)

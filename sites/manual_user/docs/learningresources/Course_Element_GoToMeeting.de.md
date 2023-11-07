@@ -13,9 +13,7 @@ Bewertbar | nein
 Spezialität / Hinweis | GoToMeeting ist eine kommerzielle Software. Um den Kursbaustein zu nutzen ist eine separate Lizenz und ein Serverhosting erforderlich.
 
 
- 
-
-## Tool Spezifisches
+ ## Tool Spezifisches
   
 !!! note "Link zu weiteren Infos"
 
@@ -23,7 +21,7 @@ Spezialität / Hinweis | GoToMeeting ist eine kommerzielle Software. Um den Kurs
 
 ## Konfiguration im Kurseditor 
 
-kein spezifischer Tab 
+Kein spezifischer Tab 
 
 ## Konfiguration im Kursrun (geschlossener Editor)
 

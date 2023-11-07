@@ -21,11 +21,10 @@ Startpunkt ist jedoch, anders als bei Foren, immer eine hochgeladene Datei, die 
 
 Setzen Sie die Dateidiskussion beispielsweise ein, wenn Sie möchten, dass Ihre Lernenden sich gezielt zu einem Artikel, einer Grafik oder einen sonstigen Text äussern und die Inhalte diskutieren sollen.
 
----
 
 ## Dateidiskussion beginnen
 
-Nach Klick auf den Button „Dateidiskussion erstellen“ werden Sie aufgefordert, eine Datei als Diskussionsgrundlage hochzuladen oder auszuwählen. In den meisten Fällen ist es sinnvoll, dass von dem/der Besitzer:in oder dem/der Betreuer:in initial eine Datei als Diskussionsgrundlage bereitgestellt wird.
+Nach Klick auf den Button "Dateidiskussion erstellen" werden Sie aufgefordert, eine Datei als Diskussionsgrundlage hochzuladen oder auszuwählen. In den meisten Fällen ist es sinnvoll, dass von dem/der Besitzer:in oder dem/der Betreuer:in initial eine Datei als Diskussionsgrundlage bereitgestellt wird.
 
 ![Dateidiskussion neu](assets/course_element_file_dialog_neu_v1_de.png){ class="shadow lightbox" }
 
@@ -34,27 +33,23 @@ Nach Klick auf den Button „Dateidiskussion erstellen“ werden Sie aufgeforder
 
     Wird Ihnen kein Button „Dateidiskussion erstellen“ angezeigt, wurde vom Kursbesitzer eine entsprechende Restriktion eingerichtet. Siehe Abschnitt „Wer kann Dateien hochladen?“
 
-Es ist möglich, innerhalb des gleichen Kursbausteins „Dateidiskussion“ mehrere Dateien als Ausgangspunkt von Diskussionen anzulegen.
+Es ist möglich, innerhalb des gleichen Kursbausteins "Dateidiskussion" mehrere Dateien als Ausgangspunkt von Diskussionen anzulegen.
 
 
 !!! tip "Tipp"
 
-    Besteht kein zwingender inhaltlicher Zusammenhang, empfiehlt sich die Verwendung mehrerer Kursbausteine vom Typ „Dateidiskussion“, um die Diskussionsstränge zu separieren und übersichtlicher zu machen. Die Kursbausteine können im Menü evtl. bereits mit hilfreichen Titeln beschriftet und unterschieden werden.
+    Besteht kein zwingender inhaltlicher Zusammenhang, empfiehlt sich die Verwendung mehrerer Kursbausteine vom Typ 2Dateidiskussion", um die Diskussionsstränge zu separieren und übersichtlicher zu machen. Die Kursbausteine können im Menü evtl. bereits mit hilfreichen Titeln beschriftet und unterschieden werden.
 
 
 Wenn Teilnehmer:innen oder Betreuer:innen den Kursbaustein Dateidiskussion anwählen, sehen sie zunächst alle angelegten Dateidiskussionen bzw. die Dateien, hinter denen sich jeweils eine eigene Dateidiskussion befindet. Durch Wahl einer Datei gelangen sie in die entsprechende Dateidiskussion.
 
 ![Dateidiskussion Dok1 Dok2](assets/course_element_file_dialog_doc1_doc2_v1_de.png){ class="shadow lightbox" }
 
-
----
-
 ## Dateien hochladen
 
 ### Wer kann Dateien hochladen?
 
-Das Hochladen einer Datei als Ausgangspunkt einer Dateidiskussion kann je nach Konfiguration von Besitzer:innen, Betreuer:innen oder Teilnehmer:innen vorgenommen werden. 
-Beim Konfigurieren des Kursbausteins durch den Kursbesitzer kann bestimmt werden, 
+Das Hochladen einer Datei als Ausgangspunkt einer Dateidiskussion kann je nach Konfiguration von Besitzer:innen, Betreuer:innen oder Teilnehmer:innen vorgenommen werden. Beim Konfigurieren des Kursbausteins durch den Kursbesitzer kann bestimmt werden, 
 
 * wer 
 * in welchem Zeitfenster
@@ -81,8 +76,6 @@ Zum Öffnen muss jedoch ein entsprechendes Werkzeug in OpenOlat vorhanden sein. 
 ### Wo liegen diese Dateien?
 
 Die in den Kursbaustein Dateidiskussion hochgeladenen Dateien werden in einem Pfad innerhalb der Dateiablage von OpenOlat gespeichert, nicht im Ablageordner. Ein Zugriff auf diese Dateien ist also nur über den Kursbaustein Dateidiskussion möglich.
-
----
 
 ## Diskussion führen
 
@@ -133,7 +126,7 @@ Moderator:innen haben gewöhnlich die Aufgaben,
 
 !!! note "Hinweis"
 
-    Diese Aufgabe kann im Tab „Konfiguration“ allen Betreuer:innen zugewiesen werden. Auch weitere Einzelpersonen können namentlich genannt und berechtigt werden.
+    Diese Aufgabe kann im Tab "Konfiguration" allen Betreuer:innen zugewiesen werden. Auch weitere Einzelpersonen können namentlich genannt und berechtigt werden.
 
 
 ### Beiträge durchsuchen, Darstellung der Diskussion
@@ -169,16 +162,12 @@ Ein Wizard hilft beim Verschieben.
 
 Beim Löschen ist zu unterscheiden:
 
-* **Löschen eines einzelnen Beitrags**<br>
-    Der/die Ersteller:in eines Diskussionsbeitrags hat das Recht, den eigenen Beitrag auch wieder zu löschen.
-
-    Durch das Löschen eines Beitrags werden im Normalfall aber auch die Antworten auf diesen Beitrag obsolet. Deshalb werden die Antworten auf diesen Beitrag ebenfalls gelöscht. Der Diskussionsfaden wird also an dieser Stelle abgeschnitten.
+* **Löschen eines einzelnen Beitrags**: Der/die Ersteller:in eines Diskussionsbeitrags hat das Recht, den eigenen Beitrag auch wieder zu löschen. Durch das Löschen eines Beitrags werden im Normalfall aber auch die Antworten auf diesen Beitrag obsolet. Deshalb werden die Antworten auf diesen Beitrag ebenfalls gelöscht. Der Diskussionsfaden wird also an dieser Stelle abgeschnitten.
 
 ![course_element_file_dialog_loeschen_beitrag_v1_de](assets/course_element_file_dialog_loeschen_beitrag_v1_de.png){ class="shadow lightbox" }
 
-* **Löschen der gesamten Diskussion zu einer Datei**<br>		
-Besitzer:innen und Betreuer:innen steht diese Option rechts oben im Icon mit den 3 Punkte zur Verfügung.
-Alternativ können auch in der Tabellendarstellung die 3 Punkte am Ende einer Tabellenzeile (Datei) gewählt werden.
+* **Löschen der gesamten Diskussion zu einer Datei**:		
+Besitzer:innen und Betreuer:innen steht diese Option rechts oben im Icon mit den 3 Punkte zur Verfügung. Alternativ können auch in der Tabellendarstellung die 3 Punkte am Ende einer Tabellenzeile (Datei) gewählt werden.
 
 ![course_element_file_dialog_loeschen_diskussion_v1_de](assets/course_element_file_dialog_loeschen_diskussion_v1_de.png){ class="shadow lightbox" }
 
