@@ -6,7 +6,7 @@
 
 In the Courses menu you will see a tabular overview:
 
-* of all the courses you supervise,
+* of all the courses you coach,
 * which are published, completed or at least accessible to coaches
 * and also meet the other requirements listed in the table above.
 

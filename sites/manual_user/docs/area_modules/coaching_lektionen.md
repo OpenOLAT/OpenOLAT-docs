@@ -8,7 +8,7 @@
 
     If these requirements are met, the additional menu item " Lectures" is displayed in the coaching tool.
 
-    See also [Absence management](../learningresources/Lectures_and_absences.de.md)
+    See also [Absence management](../learningresources/Lectures_and_absences.md)
 
 
 ![coaching_lektionen0_v1_de.png](assets/coaching_lektionen0_v1_de.png){ class="shadow lightbox" }
@@ -20,14 +20,13 @@ You will find a daily overview in the "Cockpit" tab, while all your lesson block
 
 In the cockpit, a specific appointment can be selected and the associated lessons and absences can be displayed in an overview. Via the displayed overview and a click on the respective course, the teacher has access to further information and can also complete the absence detection.
 
-### 2. Tab Lesson
+### 2. Tab Lectures
 
-A time slot can be selected here and it can be searched for keywords. An overview of the lesson blocks for this time period is displayed. Further information on the subject of "Lectures" can be found
-[here](../learningresources/Lectures_Teacher_view.de.md).
+A time slot can be selected here and it can be searched for keywords. An overview of the lesson blocks for this time period is displayed. Further information on the subject of "Lectures" can be found [here](../learningresources/Lectures_Teacher_view.de.md).
 
 ### 3. Tab Absences
 
-Here you can search for users, lecturers, course titles and lesson blocks. The absences of specific persons for a selected time slot can be displayed. The columns can be sorted according to your requirements. (E.g. by courses, date, excused, names, etc.)
+Here you can search for users, lecturers, course titles and lecture blocks. The absences of specific persons for a selected time slot can be displayed. The columns can be sorted according to your requirements. (E.g. by courses, date, excused, names, etc.)
 
 ### 4. Tab Messages
 

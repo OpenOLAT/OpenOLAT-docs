@@ -9,33 +9,33 @@ The following learning resources can be created in authoring:
 The specific creation process is described on the following pages:
 
 * Creating courses <br>
-[User manual article](../learningresources/Creating_Course.de.md) | [Detailed instructions](../../manual_how-to/my_first_course/my_first_course.md)
+[User manual article](../learningresources/Creating_Course.md) | [Detailed instructions](../../manual_how-to/my_first_course/my_first_course.md)
 
 * Creating tests<br>
-[User manual article](../learningresources/Test.de.md) | [Detailed instructions](../../manual_how-to/test_creation_procedure/test_creation_procedure.de.md)
+[User manual article](../learningresources/Test.md) | [Detailed instructions](../../manual_how-to/test_creation_procedure/test_creation_procedure.md)
 
 * Creating CP learning content<br>
-[User manual article](../learningresources/CP_Editor.de.md) | [Detailed instructions](../../manual_how-to/content_package/content_package.de.md)
+[User manual article](../learningresources/CP_Editor.md) | [Detailed instructions](../../manual_how-to/content_package/content_package.md)
 
 * Creating wikis <br>
-[User manual article](../learningresources/Wiki.de.md) | [Detailed instructions](../../manual_how-to/wikis/wikis.de.md)
+[User manual article](../learningresources/Wiki.md) | [Detailed instructions](../../manual_how-to/wikis/wikis.md)
 
 * Creating podcasts <br>
-[User manual article](../learningresources/Podcast.de.md) | [Detailed instructions](../../manual_how-to/podcast/podcast.de.md)
+[User manual article](../learningresources/Podcast.md) | [Detailed instructions](../../manual_how-to/podcast/podcass.md)
 
 * Creating blogs<br>
-[User manual article](../learningresources/Blog.de.md) | [Detailed instructions](../../manual_how-to/blog/blog.de.md)
+[User manual article](../learningresources/Blog.md) | [Detailed instructions](../../manual_how-to/blog/blog.md)
 
 * Creating resource folders
 
 * Creating forms <br>
-[User manual article](../learningresources/Form.de.md)  | [Detailed instructions](../../manual_how-to/create_a_form/create_a_form.de.md)
+[User manual article](../learningresources/Form.md)  | [Detailed instructions](../../manual_how-to/create_a_form/create_a_form.md)
 
 * Creating portfolios<br>
-[User manual article](../learningresources/Portfolio_template_Creation.de.md) 
+[User manual article](../learningresources/Portfolio_template_Creation.md) 
 
 * Creating glossaries<br>
-[User manual article](../learningresources/Glossary.de.md) 
+[User manual article](../learningresources/Glossary.md) 
 
 !!! tip "Hint"
 
@@ -45,10 +45,9 @@ The specific creation process is described on the following pages:
 
 ##  Import learning resources
 
-Learning resources created outside OpenOlat or exported from an OpenOlat system can be imported into OpenOlat if they are in a format compatible with OpenOlat.
-Possible types are explained in ["Different types of learning resources"](../learningresources/index.md).
+Learning resources created outside OpenOlat or exported from an OpenOlat system can be imported into OpenOlat if they are in a format compatible with OpenOlat. Possible types are explained in ["Different types of learning resources"](../learningresources/index.md).
 
-With "Import URL", links to external videos, e.g. on YouTube, can also be set and created as OpenOlat [learning resource video](../learningresources/Learning_resource_Video.de.md).
+With "Import URL", links to external videos, e.g. on YouTube, can also be set and created as OpenOlat [learning resource video](../learningresources/Learning_resource_Video.md).
 
 ![autorenbereich_importieren_v1_de.png](assets/autorenbereich_importieren_v1_de.png){ class="shadow lightbox" }
 
@@ -65,7 +64,7 @@ At the end of the import, the "settings" menu appears. Here you can make further
 
 !!! info "Detailed course creation guide"
 
-    You can find detailed step-by-step instructions on how to create a course ["here"](../../manual_how-to/my_first_course/my_first_course.md).
+    You can find detailed step-by-step instructions on how to create a course [here](../../manual_how-to/my_first_course/my_first_course.md).
 
 
 :octicons-device-camera-video-24: **Video Introduction (German)**: [Requirements for authors](<https://www.youtube.com/embed/L0jc_LBKXLE>){:target="_blank”}

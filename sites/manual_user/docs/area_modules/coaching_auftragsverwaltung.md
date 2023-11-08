@@ -10,7 +10,7 @@ Here you get an overview of all your correctors and their grading status. You ca
 
 The corresponding column selection can be used to display how many tests a graders should grade in total, how many they have already completed, how many are open and which are overdue, and what correction time is planned. Furthermore, additional correctors can be added to a test or existing assignments can be deactivated.
 
-It is also possible to add correctors directly to the respective [test learning resource](../learningresources/Test_settings.de.md).
+It is also possible to add correctors directly to the respective [test learning resource](../learningresources/Test_settings.md).
 
 
 ### 2. Tab Grading assignments
