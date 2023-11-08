@@ -2,12 +2,9 @@
 
 ![Fragenpool](assets/Fragenpool_favoriten.png)
 
-Die Tabellenansicht der Fragen die im Fragenpool abgelegt sind bietet
-vielfältige Möglichkeiten. Achten Sie darauf, dass alle für Sie relevanten
-Spalten über das Zahnrad Symbol ausgewählt sind.
+Die Tabellenansicht der Fragen die im Fragenpool abgelegt sind bietet vielfältige Möglichkeiten. Achten Sie darauf, dass alle für Sie relevanten Spalten über das Zahnrad Symbol ausgewählt sind.
 
-Besonders relevante Fragen können Sie als **Favorit** markieren und so schnell wiederfinden. Eine weitere Möglichkeit ist mehrere Fragen in **Listen** zu organisieren und so eine individuelle Systematik für Ihre
-Fragen aufzubauen.
+Besonders relevante Fragen können Sie als **Favorit** markieren und so schnell wiederfinden. Eine weitere Möglichkeit ist mehrere Fragen in **Listen** zu organisieren und so eine individuelle Systematik für Ihre Fragen aufzubauen.
 
 Sie können Fragen im Bereich "Meine Fragen", in einer Liste oder in einer Gruppenfreigabe erstellen oder importieren. Dabei werden die Frageitems aber grundsätzlich unter "Meine Fragen" abgelegt und dann referenziert. 
 
@@ -15,16 +12,13 @@ Eine Übersicht der **Fragetypen**, die  erstellt und importiert werden können 
 
 ## Fragen im Fragenpool erstellen
 
-Frageitems können im Fragenpool über den Button "Frage erstellen" im QTI 2.1 Format erstellt und direkt zur weiteren
-Nutzung gespeichert werden. 
+Frageitems können im Fragenpool über den Button "Frage erstellen" im QTI 2.1 Format erstellt und direkt zur weiteren Nutzung gespeichert werden. 
 
 ![Fragetypen](assets/Frage_erstellen_typen.png)
 
 Bei der Erstellung wird ein Titel angegeben, anschliessend der Fragetyp und zum Schluss, wenn vorhanden, der Fachbereich ausgewählt. Die so erstellten Fragen können dann in die OpenOlat Lernressource Test importiert und verwendet werden.
 
-Informationen zur _Testerstellung_ finden [hier](.../../manual_how-to/test_creation_procedure/test_creation_procedure.de.md).
-Informationen zur weiteren Ausgestaltung einer Frage im Kapitel
-"[Detailansicht einer Frage"](Item_Detailed_View.de.md).
+Informationen zur _Testerstellung_ finden [hier](https://docs.openolat.org/de/manual_how-to/test_creation_procedure/test_creation_procedure/). Informationen zur weiteren Ausgestaltung einer Frage im Kapitel ["Detailansicht einer Frage"](Item_Detailed_View.de.md).
 
 
 
@@ -35,9 +29,8 @@ Es gibt drei Möglichkeiten QTI 2.1 Fragen über den Import-Button in den Fragen
 ![Fragen Import](assets/pool_import.png)
 
   *  **ZIP-Datei** von lokalem Computer: Falls Ihnen ein Set an QTI 2.1 Fragen oder ein Test als .zip-Datei zur Verfügung steht, können Sie diese hier importieren.
-  *  **Lernressource Test** aus Autorenbereich: Wählen Sie aus den verfügbaren Test Lernressourcen den Test aus, den Sie importieren möchten. Klicken Sie dazu in der entsprechenden Zeile auf den Link „Auswählen“. Alle Fragen der gewählten Lernressource werden direkt in den Fragenpool importiert. 
-    
-  * QTI 2.1 **Excelimport** über Copy&Paste: Bereiten Sie die Fragen in einem Tabellenkalkulationsprogramm wie Excel entsprechend der Excelimport-Vorlage, die Ihnen während des Imports angezeigt wird, vor. Kopieren Sie die Exeltabelle dann in das Formular-Feld. 
+  *  **Lernressource Test aus Autorenbereich**: Wählen Sie aus den verfügbaren Test Lernressourcen den Test aus, den Sie importieren möchten. Klicken Sie dazu in der entsprechenden Zeile auf den Link "Auswählen". Alle Fragen der gewählten Lernressource werden direkt in den Fragenpool importiert.   
+  * QTI 2.1 **Excelimport** über Copy&Paste: Bereiten Sie die Fragen in einem Tabellenkalkulationsprogramm wie Excel entsprechend der Excelimport-Vorlage, die Ihnen während des Imports angezeigt wird, vor. Kopieren Sie die Exceltabelle dann in das Formular-Feld. 
 
 ### Nutzung der Datei "Vorlage Excelimport" 
 
@@ -67,10 +60,9 @@ Die Vorlage enthält Informationen für den Import der folgenden Fragetypen:
 * Drag&Drop
 * Truefalse
 
-Die Fragen werden mit jeweils
-einer Trennzeile untereinander aufgeführt. Beim Kopieren wandelt Excel bzw. ein ähnliches Programm wie OpenOffice oder Numbers die Daten in einen Komma-Separierten Text um. 
+Die Fragen werden mit jeweils einer Trennzeile untereinander aufgeführt. Beim Kopieren wandelt Excel bzw. ein ähnliches Programm wie OpenOffice oder Numbers die Daten in einen Komma-Separierten Text um. 
 
-Im Folgenden werden die Möglichkeiten der in der Vorlage enthaltenen  Fragetypen vorgestellt:
+Im Folgenden werden die Möglichkeiten der in der Vorlage enthaltenen Fragetypen vorgestellt:
 
 #### Multiple-Choice Fragen
 
@@ -82,8 +74,7 @@ Im Folgenden werden die Möglichkeiten der in der Vorlage enthaltenen  Fragetype
  **min. answers**|  Min. Anzahl möglicher Antworten.  
  **points**|Maximal erreichbare Punktzahl. Die minimale Punktzahl ist 0.
  
-Sie können beliebig viele Antworten, jeweils in einer separaten Zeile erstellen.
-Die Punktwerte für die einzelnen Antworten können ebenfalls definiert werden z.B.
+Sie können beliebig viele Antworten, jeweils in einer separaten Zeile erstellen. Die Punktwerte für die einzelnen Antworten können ebenfalls definiert werden z.B.
 
 ![MC_Import_Beispiel](assets/MC_import_Beispiel.png )
 
@@ -128,7 +119,7 @@ Die Punktwerte für die einzelnen Antworten können ebenfalls definiert werden z
  **Question** | Fragestellung bzw. erstes Textelement der Frage 
  **points**| Maximal erreichbare Punktzahl. Die minimale Punktzahl ist 0.  
  **text**|  Textelemente mit weiteren Teilen für die Frage bzw. Zwischentexte vor und nach den Lücken.
-  **Punkte, wenn Lücke korrekt z.B. "1"**|die optionalen Antworten der Dropdown-Liste getrennt. Die korrekte Antwort wird in die folgende Spalte eingetragen.
+**Punkte, wenn Lücke korrekt z.B. "1"**|die optionalen Antworten der Dropdown-Liste getrennt. Die korrekte Antwort wird in die folgende Spalte eingetragen.
   
  Beispiel:
 
@@ -168,7 +159,7 @@ Korrekte Antworten werden also mit einem **+** und falsche mit **-** gekennzeich
  **question**|  Fragentext   
  **points**|  Maximal erreichbare Punktzahl. Die minimale Punktzahl ist 0.|    
 
-Die Maxtrix selbst verteilt sich über die Spalten und Zeilen. Die entsprechenden Punkte werden in das passende Feld eingetragen.
+Die Matrix selbst verteilt sich über die Spalten und Zeilen. Die entsprechenden Punkte werden in das passende Feld eingetragen.
 Hier ein Beispiel mit 3 Spalten und 3 Zeilen:
 
 ![Matrix_Import_Beispiel](assets/Matrix_Import_Beispiel.png) 
@@ -176,7 +167,7 @@ Hier ein Beispiel mit 3 Spalten und 3 Zeilen:
   
 #### Drag & Drop Fragen
 
-**type**|  Drag&drop  
+**type**|  Drag & drop  
 ---|---
  **title**|  Titel der Frage / Themengebiet  
  **question**|  Fragentext  
@@ -206,6 +197,5 @@ Beispiel:
 
 !!! Info
 
-    Neben den aufgeführten Feldern gibt es noch weitere optionale Felder wie
-    "Topic", "Keywords", "License" usw. Weitere Details dazu finden Sie direkt in der bereitgestellten Datei "Vorlage Excelimport".
+    Neben den aufgeführten Feldern gibt es noch weitere optionale Felder wie "Topic", "Keywords", "License" usw. Weitere Details dazu finden Sie direkt in der bereitgestellten Datei "Vorlage Excelimport".
 
