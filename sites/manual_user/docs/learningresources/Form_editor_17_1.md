@@ -2,11 +2,7 @@
 
 Select or create a learning resource of the type "Form" and click on "Edit content" in the administration. The editor opens. Here you can select one or more layouts and add various elements to the areas.
 
-You can add various elements at any time using the "Add content" button. Once you have created an element, you can also use the 3-dot option via the Add before/after link to add more elements to fit. 
-
-![more actions](assets/formular_mehr_Aktionen_en.png)){ class="lightbox" }
-
-Each element can also be duplicated, moved by drag and drop or deleted.
+You can add various elements at any time using the "Add content" button and then configure them further. The creation of a new form always begins with the creation of a "layout" that reflects the page structure.
 
 !!! info "Availability"
 
@@ -21,7 +17,7 @@ Refers to an element added to the layout, e.g. a "paragraph" of text, a "single 
 
 ![Gui-Formu editor](assets/form-editor-gui.jpg){ class="lightbox" }
 
-### Layout
+### Layout menu
 
 A layout is a higher-level block that allows you to structure the content in different ways using columns and rows. Within a column and row you can add as many blocks as you want. If you delete or change layouts, existing blocks will be moved to the existing columns. If they are not
 
@@ -35,25 +31,27 @@ The settings for each block are located in the Inspector. On larger screens it o
 
 By clicking on the title bar of the inspector window you can also move it around the content space. When you select a new block, the inspector jumps back to the default position.
 
-## Title
+## Block elements
+
+### Title
 
 Inserting headings and formatting with h1 to h6
 
 ![Form titel](assets/form_titel_17.png){ class="shadow lightbox" }
 
-## Paragraph
+### Paragraph
 
 Main element for adding text blocks, also for questions. The paragraph element contains central formatting and the possibility to distribute the text in columns.
 
 ![Form paragraph](assets/form_paragraph17.png){ class="shadow lightbox" }
   
-## Table
+### Table
 
 If required, add a table to the form and configure it.
 
 ![Form table](assets/form_table_17.png){ class="shadow lightbox" }
   
-## Image
+### Image
 
 If necessary, add image elements to the form. To do this, upload a suitable graphic file. 
 
@@ -61,7 +59,7 @@ If necessary, add image elements to the form. To do this, upload a suitable grap
 
 The positioning can also be further optimized by using the container element.  
   
-## Rubric
+### Rubric
 
 Three different types are available for displaying a [rubric](Rubric.md). "Discrete with radio button" and "Discrete with slider" function similarly to single-choice questions and are linked to point values. "Continuous", on the other hand, allows for fluent scoring without points. Unlike the other question types, here questions and answers are organized using the same element.
 
@@ -70,7 +68,7 @@ Three different types are available for displaying a [rubric](Rubric.md). "Discr
 For Rubrics, there are various setting options available that you can show via the cogwheel. 
 Further information can be found [here](Rubric.md).
   
-## Single choice
+### Single choice
 
 Creates a single choice answer scale. The individual answers can be displayed next to each other, below each other or as a selection menu via the option "Selection list". The entries can be moved up or down using the arrow keys.
 
@@ -82,7 +80,7 @@ Give the element a meaningful name so that you can keep track of the question ru
 
 ![Form single choice](assets/form_single_choice_17.png){ class="shadow lightbox" }
 
-## Multiple choice
+### Multiple choice
 
 Creates a multiple choice selection scale. If necessary, participants can add additional items to the list. The order of the individual choices can be changed using the arrows.
 
@@ -94,7 +92,7 @@ Give the element a meaningful name so that you can keep track of the question ru
 
 ![Form multiple choice](assets/form_multiple_choice17.png){ class="shadow lightbox" }
   
-## Text input
+### Text input
 
 The text input provides the learner with a single or multiline field for text input. Restriction to numbers or a date is also possible. The text input can be obligatory or optional (see single and multiple choice above).
 
@@ -106,7 +104,7 @@ This element gives learners the ability to upload files. The Upload can be oblig
 
 ![Form file upload](assets/form_file_upload_17.png){ class="shadow lightbox" }
   
-## Information
+### Information
 
 The Information element can be used to query further user-specific information such as name or age. 
 
@@ -123,7 +121,7 @@ If the form is used in the context of the course element "Survey", a survey can 
 
 ![Form user-specific information](assets/form_informations_17.png){ class="shadow lightbox" }
 
-## Terms of use
+### Terms of use
 
 With this element the coach can add a declaration of consent to the form, which must be checked off by the users, otherwise only an intermediate storage is possible but no delivery of the form.
 
@@ -131,7 +129,7 @@ With this element the coach can add a declaration of consent to the form, which 
 
 A separator can also be added.
   
-## Question rules
+### Question rules
 
 With question rules, the display of Layouts can be made dependent on certain answers of the single or multiple choice (condition field). Thus, a layout with the respective elements is only displayed if the user has selected a certain predefined answer.
 
@@ -139,12 +137,13 @@ Several rules can be added to a form.
 
 ![Form Question rules](assets/question_rules_example.jpg){ class="shadow lightbox" }
 
+Further information on the question rules can be found [here](../learningresources/Question_rules.md).
+
 ## Tips for using the Form Editor
 
 Here are a few more tips for using the Form Editor:
 
 * For the "Rubric" choice, the questions and answers are created together. For all other question types, the questions are created using the "Paragraph" element and assigned to the answers of the appropriate question type.
 * Use "Add entry" to add additional answer elements for single or multiple choice.
-* In addition to the questions, add further elements if required, e.g. "Terms of use" or "Information".
 * Do not forget to assign names to the blocks if you want to create a selective release via question rules.
 
