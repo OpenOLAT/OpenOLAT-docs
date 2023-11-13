@@ -124,16 +124,6 @@ Mit diesem Element kann dem Formular eine Einverständniserklärung hinzugefügt
 
 Ferner kann noch eine Trennlinie (Separator) hinzugefügt werden.
 
-## Frageregeln
-
-Mit Frageregeln kann die Anzeige von Layout-Bereichen in Abhängigkeit von bestimmten Antworten der Einzel- oder Mehrfachwahl (Bedingungsfeld) gesetzt werden. So wird ein Layout-Container mit den jeweiligen Elementen nur dann angezeigt, wenn der User eine bestimmte vorgegebene Antwort ausgewählt hat.
-
-Einem Formular können mehrere Regeln hinzugefügt werden.
-
-![Formular Frageregeln](assets/image2021-5-5_10-25-8.png){ class="shadow lightbox" }
-
-Weitere Infos zu den Frageregeln finden Sie [hier](../learningresources/Question_rules.de.md).
-
 ## Tipps zur Nutzung des Formular Editors
 
 Hier noch ein paar Tipps zur Verwendung des Formular Editors:
@@ -141,4 +131,5 @@ Hier noch ein paar Tipps zur Verwendung des Formular Editors:
 * Bei der Wahl "Rubrik" werden die Fragen und Antworten zusammen erstellt. Bei allen anderen Fragetypen werden die Fragen mit Hilfe des Elements "Paragraph" erstellt und den Antworten des passenden Fragetyps zugeordnet.
 * Über "Eintrag hinzufügen" können Sie bei der Einzel- bzw. Mehrfachauswahl weitere Antwortelemente ergänzen.
 * Vergessen Sie nicht den Blöcken Namen zu hinterlegen, wenn Sie eine selektive Freigabe per Frageregeln erstellen wollen.
+* Verwenden Sie [Frageregeln](../learningresources/Question_rules.de.md), wenn Sie komplexere Formulare mit Verzweigungen erstellen möchten. 
 

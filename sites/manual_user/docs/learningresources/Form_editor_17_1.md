@@ -146,4 +146,5 @@ Here are a few more tips for using the Form Editor:
 * For the "Rubric" choice, the questions and answers are created together. For all other question types, the questions are created using the "Paragraph" element and assigned to the answers of the appropriate question type.
 * Use "Add entry" to add additional answer elements for single or multiple choice.
 * Do not forget to assign names to the blocks if you want to create a selective release via question rules.
+* Verwenden Sie [Frageregeln](../learningresources/Question_rules.de.md), wenn Sie komplexere Formulare mit Verzweigungen erstellen möchten. 
 
