@@ -13,7 +13,7 @@ Die OpenOlat-User finden die Projekte **im Menü der Kopfzeile**.
 
 !!! info "Hinweis"
 
-    Der Menü-Eintrag kann auch an einer anderen Stelle stehen. Wenn viele Einträge in der Kopfzeile angezeigt werden, kann es auch sein, dass „Projekte“ unter „Mehr“ ganz rechts enthalten ist.
+    Der Menü-Eintrag kann auch an einer anderen Stelle stehen. Wenn viele Einträge in der Kopfzeile angezeigt werden, kann es auch sein, dass "Projekte" unter "Mehr" ganz rechts enthalten ist.
 
 ![projekte_hauptmenue_v1_de.png](assets/projekte_hauptmenue_v1_de.png){ class="shadow lightbox" }
 
@@ -27,6 +27,6 @@ Beispiele:
 * Lerntagebuch als Projekt
 * …
 
-## Aktivierung des Moduls „Projekte“
+## Aktivierung des Moduls "Projekte"
 
 Damit die Projekte im Menü verfügbar sind, muss das Modul von einem/einer Administrator:in aktiviert worden sein.

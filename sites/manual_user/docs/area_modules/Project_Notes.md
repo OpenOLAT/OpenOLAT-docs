@@ -1,7 +1,6 @@
 # Projects - Notes
 
-In each project, notes can be stored in the "Quick access" section. They are only available within the project.
-Unlike to-dos, notes can also be downloaded.
+In each project, notes can be stored in the "Quick access" section. They are only available within the project. Unlike to-dos, notes can also be downloaded.
 
 ![projekte_notiz_neu_schnellzugriff_v1_de.png](assets/projekte_notiz_neu_schnellzugriff_v1_de.png){ class="shadow lightbox" }
 

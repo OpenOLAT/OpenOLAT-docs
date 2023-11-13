@@ -8,19 +8,19 @@ In allen Projekten sind einzelne Arbeitspakete (To-dos) wesentlicher Bestandteil
 
 ## To-do erstellen
 
-Um ein neues To-do innerhalb eines Projektes zu erstellen haben Sie folgende Möglichkeiten:
+Um ein neues To-do innerhalb eines Projektes zu erstellen, haben Sie folgende Möglichkeiten:
 
-**a) Projekte > Tab „Meine Projekte“ > Projekt wählen > im Pulldown: „To-do erstellen“**
+**a) Projekte > Tab "Meine Projekte" > Projekt wählen > im Pulldown: "To-do erstellen"**
 
 ![projekte_todo_erstellen_pulldown_v1_de.png](assets/projekte_todo_erstellen_pulldown_v1_de.png){ class="shadow lightbox" }
 
-**b) Projekte > Tab „Meine Projekte“ > Projekt wählen > Klick auf das Plus-Symbol im Abschnitt „To-dos“**
+**b) Projekte > Tab "Meine Projekte" > Projekt wählen > Klick auf das Plus-Symbol im Abschnitt "To-dos"**
 
 ![projekte_todo_neu_plus_v1_de.png](assets/projekte_todo_neu_plus_v1_de.png){ class="shadow lightbox" }
 
 <br>
 
-**c) Projekte > Tab „Meine Projekte“ > Projekt wählen > Schnellzugriff Button „To-do“ > Klick auf den Button „To-do erstellen“**<
+**c) Projekte > Tab "Meine Projekte" > Projekt wählen > Schnellzugriff Button "To-do" > Klick auf den Button "To-do erstellen"**<
 
 ![projekte_todo_neu_schnellzugriff_v1_de.png](assets/projekte_todo_neu_schnellzugriff_v1_de.png){ class="shadow lightbox" }
 
@@ -30,11 +30,11 @@ Um ein neues To-do innerhalb eines Projektes zu erstellen haben Sie folgende Mö
 
 Haben Sie Ihr Projekt gewählt, können Sie von der Projektübersicht aus auf verschiedene Arten auf die to-dos der jeweiligen Projekte zugreifen.
 
-**a) Projekte > Tab „Meine Projekte“ > Projekt wählen > Schnellzugriff Button „To-do“**<br>
+**a) Projekte > Tab "Meine Projekte" > Projekt wählen > Schnellzugriff Button "To-do"**<br>
 oder<br>
-**b) Projekte > Tab „Meine Projekte“ > Projekt wählen > Titel im Abschnitt „To-dos“ anklicken**<br>
+**b) Projekte > Tab "Meine Projekte" > Projekt wählen > Titel im Abschnitt "To-dos" anklicken**<br>
 oder<br>
-**c) Projekte > Tab „Meine Projekte“ > Projekt wählen > im Abschnitt „alle To-dos anzeigen“ klicken**
+**c) Projekte > Tab "Meine Projekte" > Projekt wählen > im Abschnitt "alle To-dos anzeigen" klicken**
 
 ![projekte_todo-liste_anzeigen_v1_de.png](assets/projekte_todo-liste_anzeigen_v1_de.png){ class="shadow lightbox" }
 
@@ -43,7 +43,7 @@ oder<br>
 
 Um ein to-do zu bearbeiten klicken Sie in der To-do-Liste
 
-**a) auf den Titel des to-do’s**<br>
+**a) auf den Titel des to-dos**<br>
 oder<br>
 **b) auf die 3 Punkte am Ende einer Zeile.**
 
@@ -73,11 +73,11 @@ Die Unterscheidung zwischen Zuweisung und Delegation ermöglicht es,<br>
 
 ## To-dos verlinken
 
-Wenn Sie ein To-do bearbeiten, können Sie Links zu anderen Objekten dieses Projekts erstellen, indem Sie zu einem bereits bestehenden Objekt verlinken **(Button „Objekt verlinken")**.
+Wenn Sie ein To-do bearbeiten, können Sie Links zu anderen Objekten dieses Projekts erstellen, indem Sie zu einem bereits bestehenden Objekt verlinken **(Button "Objekt verlinken")**.
 
-**Unterschied „Objekt verlinken" und „Link hinzufügen"**<br>
+**Unterschied "Objekt verlinken" und "Link hinzufügen"**<br>
 Oft taucht während dem Erstellen eines To-dos das Bedürfnis auf, noch einen Entscheid, einen zusätzlichen Termin oder ein weiteres To-Do zu erstellen.
-Mit dem **Button „Link hinzufügen"**, können Sie diese Objekte neu erstellen und sie sind dann automatisch schon mit dem aktuellen Entscheid verlinkt. Der lange Umweg (anderen Objekttyp wählen, Objekt neu erstellen, Rückkehr zum Entscheid und erst dann die Verlinkung vornehmen) entfällt dadurch.
+Mit dem **Button "Link hinzufügen"**, können Sie diese Objekte neu erstellen und sie sind dann automatisch schon mit dem aktuellen Entscheid verlinkt. Der lange Umweg (anderen Objekttyp wählen, Objekt neu erstellen, Rückkehr zum Entscheid und erst dann die Verlinkung vornehmen) entfällt dadurch.
 
 
 ![projekte_todo_objektlink1_v1_de.png](assets/projekte_todo_objektlink1_v1_de.png){ class="shadow lightbox" }
@@ -103,25 +103,25 @@ Damit ein To-do als erledigt gilt, muss sein Status geändert werden. Diese Änd
 
 **a) Status in der Bearbeitungsmaske ändern**
 
-Im Popup zur Bearbeitung eines To-do’s kann auch der Status eingestellt werden.
+Im Popup zur Bearbeitung eines To-dos kann auch der Status eingestellt werden.
 
 ![projekte_todo_bearbeiten_status_aendern_v1_de.png](assets/projekte_todo_bearbeiten_status_aendern_v1_de.png){ class="shadow lightbox" }
 
-**b) „Abhaken“ eines To-do’s** 
+**b) "Abhaken" eines To-dos** 
 
-Wird in der Checkbox vor dem Titel ein Häkchen gesetzt, ändert sich der Status auf „Erledigt“.
+Wird in der Checkbox vor dem Titel ein Häkchen gesetzt, ändert sich der Status auf "Erledigt".
 
 ![projekte_todo_bearbeiten_erledigt_v1_de.png](assets/projekte_todo_bearbeiten_erledigt_v1_de.png){ class="shadow lightbox" }
 
-**c) „Abhaken“ eines To-do’s in der Liste**
+**c) "Abhaken" eines To-dos in der Liste**
 
 Wird in der To-Do Liste ein Eintrag durch Auswahl der Checkbox am Zeilenbeginn selektiert, wird er automatisch als erledigt markiert.
-Das To-do erscheint dann nur noch unter Tab „Alle“ und Tab „Erledigte“.
+Das To-do erscheint dann nur noch unter Tab "Alle" und Tab "Erledigte".
 
 ![projekte_todo_selektiert_erledigt_v1_de.png](assets/projekte_todo_selektiert_erledigt_v1_de.png){ class="shadow lightbox" }
 
 ## To-dos löschen
 
-Zum Löschen eines To-do’s klicken Sie auf die 3 Punkte am Ende einer Zeile und dann auf „Löschen". Das To-do erscheint dann nur noch unter dem Tab „Gelöscht“. Es kann nicht wiederhergestellt werden.
+Zum Löschen eines To-do’s klicken Sie auf die 3 Punkte am Ende einer Zeile und dann auf "Löschen". Das To-do erscheint dann nur noch unter dem Tab "Gelöscht“. Es kann nicht wiederhergestellt werden.
 
 ![projekte_todo_loeschen_v1_de.png](assets/projekte_todo_loeschen_v1_de.png){ class="shadow lightbox" }

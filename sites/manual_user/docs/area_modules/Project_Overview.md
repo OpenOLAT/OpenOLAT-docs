@@ -26,3 +26,7 @@ Examples:
 * Project weeks at schools
 * Learning diary as a project
 * …
+
+## Activation of the module "Projects"
+
+For the projects to be available in the menu, the module must have been activated by an administrator.

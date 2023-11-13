@@ -2,7 +2,9 @@
 
 In all projects, individual work packages (to-dos) are an essential part of the planning.
 
-Beyond the projects, to-dos can also be created and used in other areas (e.g. QM measures).
+!!! note "Note"
+
+    Beyond the projects, to-dos can also be created and used in other areas (e.g. QM measures).
 
 ## Create to-dos
 
@@ -75,7 +77,7 @@ When you edit a to-do, you can create links to other objects of this project by 
 
 **Difference between "Link object" and "Add link "**<br>
 Often, while creating a to-do, the need arises to create another decision, an additional appointment or another to-do.
-With the **"Add link "** button, you can create these objects again and they are then automatically linked to the current decision.  The long diversions (select another object type, create a new object, return to the decision and only then create the link) are thus eliminated.
+With the **"Add link"** button, you can create these objects again and they are then automatically linked to the current decision.  The long diversions (select another object type, create a new object, return to the decision and only then create the link) are thus eliminated.
 
 
 ![projekte_todo_objektlink1_v1_de.png](assets/projekte_todo_objektlink1_v1_de.png){ class="shadow lightbox" }

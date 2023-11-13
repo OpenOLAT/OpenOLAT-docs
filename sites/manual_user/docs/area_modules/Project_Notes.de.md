@@ -1,7 +1,6 @@
 # Projekte - Notizen
 
-In jedem Projekt können im Abschnitt "Schnellzugriff" Notizen hinterlegt werden. Sie sind nur innerhalb des Projektes verfügbar.
-Im Unterschied zu To-dos können Notizen auch heruntergeladen werden.
+In jedem Projekt können im Abschnitt "Schnellzugriff" Notizen hinterlegt werden. Sie sind nur innerhalb des Projektes verfügbar. Im Unterschied zu To-dos können Notizen auch heruntergeladen werden.
 
 ![projekte_notiz_neu_schnellzugriff_v1_de.png](assets/projekte_notiz_neu_schnellzugriff_v1_de.png){ class="shadow lightbox" }
 
@@ -16,11 +15,11 @@ Neben dem direkten Erstellen im Abschnitt "Schnellzugriff" können Notizen auch 
 
 Die Liste aller im Projekt vorhandenen Notizen öffnen Sie analog zu den To-dos oder Entscheiden: 
 
-**a) Projekte > Tab „Meine Projekte“ > Projekt wählen > Schnellzugriff Button „Notizen“**<br>
+**a) Projekte > Tab "Meine Projekte" > Projekt wählen > Schnellzugriff Button "Notizen"**<br>
 oder<br>
-**b) Projekte > Tab „Meine Projekte“ > Projekt wählen > Titel im Abschnitt „Notizen“ anklicken**<br>
+**b) Projekte > Tab "Meine Projekte" > Projekt wählen > Titel im Abschnitt "Notizen" anklicken**<br>
 oder<br>
-**c) Projekte > Tab „Meine Projekte“ > Projekt wählen > im Abschnitt „alle Notizen anzeigen“ klicken**
+**c) Projekte > Tab "Meine Projekte" > Projekt wählen > im Abschnitt "alle Notizen anzeigen" klicken**
 
 Beachten Sie, dass Sie zwischen der Ansicht der Karten und der Listenansicht wechseln können.  
 
@@ -38,7 +37,7 @@ Im Abschnitt Schnellzugriff werden die zuletzt verwendeten **Dateien** und **Not
 
 ## Notizen bearbeiten
 
-Um eine Notiz zu bearbeiten klicken Sie in der Liste
+Um eine Notiz zu bearbeiten, klicken Sie in der Liste
 
 **a) auf den Titel der Notiz** (wie auch im Schnellzugriff) und dann den **Button "Editieren"**<br>
 oder<br>
@@ -52,11 +51,11 @@ oder<br>
 
 ## Notizen verlinken
 
-Wenn Sie eine Notiz bearbeiten, können Sie Links zu anderen Objekten dieses Projekts erstellen, indem Sie zu einem bereits bestehenden Objekt verlinken **(Button „Objekt verlinken")**.
+Wenn Sie eine Notiz bearbeiten, können Sie Links zu anderen Objekten dieses Projekts erstellen, indem Sie zu einem bereits bestehenden Objekt verlinken **(Button "Objekt verlinken")**.
 
-**Unterschied „Objekt verlinken" und „Link hinzufügen"**<br>
+**Unterschied "Objekt verlinken" und "Link hinzufügen"**<br>
 Oft taucht während dem Erstellen einer Notiz das Bedürfnis auf, noch einen Entscheid, einen Termin oder ein To-Do zu erstellen.
-Mit dem **Button „Link hinzufügen"**, können Sie diese Objekte neu erstellen und sie sind dann automatisch schon mit der aktuellen Notiz verlinkt. Der lange Umweg (anderen Objekttyp wählen, Objekt neu erstellen, Rückkehr zum Entscheid und erst dann die Verlinkung vornehmen) entfällt dadurch.
+Mit dem **Button "Link hinzufügen"**, können Sie diese Objekte neu erstellen und sie sind dann automatisch schon mit der aktuellen Notiz verlinkt. Der lange Umweg (anderen Objekttyp wählen, Objekt neu erstellen, Rückkehr zum Entscheid und erst dann die Verlinkung vornehmen) entfällt dadurch.
 
 
 ![projekte_notiz_objektlink1_v1_de.png](assets/projekte_notiz_objektlink1_v1_de.png){ class="shadow lightbox" }
