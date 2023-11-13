@@ -1,11 +1,5 @@
 # Achievement Card (Working draft)
 
-_Todo_
-
-- [ ] elaborate on guidelines
-- [ ] add accessiblity guidelines
-
----
 ![File-upload](assets/file-card-badges-2.jpg)
 
 ## Components
