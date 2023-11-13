@@ -1,12 +1,8 @@
 # Components of the portfolio
 
-Every OpenOlat user has access to his individual portfolio area by the
-personal menu. The following chart shows the overview page of the Portfolio
-2.0.
+Every OpenOlat user has access to his individual portfolio area by the personal menu. The following chart shows the overview page of the Portfolio 2.0.
 
 ![portfolio_overview.png](assets/eP_Overview_EN.png)
-
-  
 
 The links on the overview page lead to further portfolio areas.
 
@@ -20,9 +16,7 @@ Links | Use
 
   
 
-In addition, there is access to the portfolio trash, access to help, the
-possibility to directly create new entries and to display the portfolio items
-that were last used.
+In addition, there is access to the portfolio trash, access to help, the possibility to directly create new entries and to display the portfolio items that were last used.
 
   
 

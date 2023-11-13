@@ -9,7 +9,7 @@
 In der Mitte ist der Inhaltsbereich.
 
 * **Layoutmenü**: Dort kann man all das Template für das Layout einstellen, Layouts oben und unten hinzufügen und das Layout in der Position bzw. Reihenfolge verschieben.
-* **Blockmenü**: (von l. n. r.) Schalten sie den Inspektor an und aus. Fügen sie Blöcke hinzu und verschieben sie den Block an der Schaltfläche mittels drag n drop an die gewünschte Position.
+* **Blockmenü**: (von links nach rechts) Schalten sie den Inspektor an und aus. Fügen sie Blöcke hinzu und verschieben sie den Block an der Schaltfläche mittels drag&drop an die gewünschte Position.
 * **Inspektor**: Dort befinden sich alle Einstellungen, die den Funktionsumfang, sowie das Aussehen des jeweiligen Blocks oder Layouts verändern.
 
 ![Bild der einzelnen Bedienelemente im ePortfolio](assets/content-editor-gui.de.jpeg){ class="lightbox" }
@@ -32,7 +32,8 @@ Mit dem Klick auf der Titelzeile des Inspektorfensters kann dieser auch verschob
 
 ### Titel
 
-Nutzen Sie dieses Element um schnell und einfach Titel hinzuzufügen. 
+Nutzen Sie dieses Element um schnell und einfach Titel hinzuzufügen.
+
 Mit der Auswahl von h1-h6 kann die Größe der Überschrift ausgewählt werden, wobei h1 der "Überschrift 1" entspricht und somit am grössten und h6 der "Überschrift 6" und somit am kleinsten ist.
 
 ### Paragraph
@@ -58,13 +59,11 @@ Hier haben Sie drei Möglichkeiten:
 * Laden Sie ein neues Dokument hoch oder 
 * Verbinden Sie ein Dokument aus Ihrem Medien Center.
 
-Ist ein externer Dokumenteneditor aktiviert und liegen die Dateien in einem Format vor, das von diesem unterstützt wird, können die Dateien auch
-direkt online weiterbearbeitet werden.
+Ist ein externer Dokumenteneditor aktiviert und liegen die Dateien in einem Format vor, das von diesem unterstützt wird, können die Dateien auch direkt online weiterbearbeitet werden.
 
 ### Bild
 
-Fügen Sie Bildelemente hinzu indem Sie eine Grafikdatei hochladen oder auf eine Grafik Ihres Medien Centers zugreifen. Anschliessend können Sie die Datei weiter konfigurieren, z.B.
-einen Titel oder Untertitel platzieren und auch die Größe, Platzierung oder Umrandung definieren.
+Fügen Sie Bildelemente hinzu indem Sie eine Grafikdatei hochladen oder auf eine Grafik Ihres Medien Centers zugreifen. Anschliessend können Sie die Datei weiter konfigurieren, z.B. einen Titel oder Untertitel platzieren und auch die Größe, Platzierung oder Umrandung definieren.
 
 !!! "Tipp"
 
@@ -76,7 +75,6 @@ Sie haben folgende Möglichkeiten ein Video in den Editor zu laden:
 * Record Video: Eine Videoaufnahme mit der Webcam erstellen
 * Video hinzufügen: Eine mp4 Videodatei hochladen
 * Eine Video Datei, die sich im Medien Center befindet auswählen und hinzufügen. 
-
 
 ### Aus Media Center wählen
 

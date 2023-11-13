@@ -1,8 +1,6 @@
 # Bestandteile des Portfolios
 
-Jeder OpenOlat User hat über das persönliche Menü rechts oben Zugriff auf
-seinen individuellen Portfoliobereich. In der folgenden Grafik sehen Sie die
-Übersichtseite des Portfolio 2.0.
+Jeder OpenOlat User hat über das persönliche Menü rechts oben Zugriff auf seinen individuellen Portfoliobereich. In der folgenden Grafik sehen Sie die Übersichtseite des Portfolio 2.0.
 
 ![portfolio_uebersicht.png](assets/Portfolio_Uebersicht.png)
 
@@ -17,7 +15,5 @@ Link | Nutzen
 [Zeige an mich freigegebene Mappen](Shared_with_me.de.md)|Hier werden alle Mappen angezeigt, die von anderen Personen erstellt und für den jeweiligen User freigegeben wurden. Zum Beispiel sehen hier Lehrende die von Studierenden für sie frei gegebenen Mappen.
 
 
-Darüber hinaus besteht Zugriff auf den Portfolio Papierkorb, Zugang zur Hilfe,
-die Möglichkeit direkt neue Einträge zu erstellen sowie die Portfolio Element,
-die zuletzt benutzt wurden, anzuzeigen.
+Darüber hinaus besteht Zugriff auf den Portfolio Papierkorb, Zugang zur Hilfe, die Möglichkeit direkt neue Einträge zu erstellen sowie die Portfolio Element, die zuletzt benutzt wurden, anzuzeigen.
 
