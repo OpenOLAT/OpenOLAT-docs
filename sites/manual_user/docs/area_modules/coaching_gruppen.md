@@ -12,7 +12,7 @@ In contrast to the participant and course overview (A and C), only the OpenOlat 
 You will see at once:
 
 * How many courses the respective group is involved in.
-  Whether all group members have already logged into the group at least once.
+* Whether all group members have already logged into the group at least once.
 * How many participants the group has in total.
 * And how many group members have already passed the associated course. (If a pass has been configured in the course).
 

@@ -18,9 +18,7 @@ Clicking on the 3 dots at the end of a table row (10) displays options only for 
 
 ### 1. Send e-mail
 
-Select the desired learning resources and click on "Send e-mail". A dialogue opens. 
-You can now define to whom the e-mail should be sent. 
-Possible recipients are **all course owners, all course supervisors and all participants**.
+Select the desired learning resources and click on "Send e-mail". A dialog opens. You can now define to whom the e-mail should be sent.  Possible recipients are **all course owners, all course supervisors and all participants**.
 
 Add a subject and the desired message. If necessary, an attachment and a copy for the sender can be added. 
 
@@ -34,12 +32,11 @@ Select the publication status that should apply to all selected learning resourc
 
 ### 3. Modify owners
 
-All **owners of the selected learning resources** are displayed here. You can remove them from several courses at the same time or add new owners to the selected learning resources. An
-email notification option completes the editing.
+All **owners of the selected learning resources** are displayed here. You can remove them from several courses at the same time or add new owners to the selected learning resources. An email notification option completes the editing.
 
 ### 4. Metadata and settings
 
-Through bulk actions, various **metadata** can be **standardised** here for the selected learning resources, e.g. if several courses belong to a continuing education series. By clicking, a wizard opens.
+Through bulk actions, various **metadata** can be **standardized** here for the selected learning resources, e.g. if several courses belong to a continuing education series. By clicking, a wizard opens.
 
 For all marked learning resources
 
@@ -47,7 +44,7 @@ For all marked learning resources
 * the delivery format, e.g. "examination course", can be selected
 * language and time requirements must be defined
 * and a suitable licence for the learning resources must be selected
-* a suitable subject area and the desired organisation for the learning resources must be selected.
+* a suitable subject area and the desired organization for the learning resources must be selected.
 * additional rights must be granted for all other authors.
 * as well as a consistent implementation period and location must be specified.
 
@@ -60,7 +57,7 @@ By clicking on "Copy" in the **menu that appears under the 3 dots at the end of 
 
 Select one or more learning resources to copy them. For example, to reuse for a new semester or to create a backup copy.
 
-Copied learning resources can then be found in the tab "My entries". The addition "(copy)" is added to the title. However, the title can subsequently be changed as desired.
+Copied learning resources can then be found in the tab "My entries". The addition ("copy") is added to the title. However, the title can subsequently be changed as desired.
 
 ### 6. Delete
 
@@ -71,6 +68,8 @@ If you only want to delete a **single learning resource**, you can also click on
 
 You must confirm this action again in the menu for the sake of safety. The owners of the learning resource will immediately be notified by e-mail. After being deleted, the learning resources no longer appear under "My entries" but are moved to the tab "Deleted" (recycle bin function). There they are only visible to the respective owners. Deleted learning resources can also be restored by the owners.
 OpenOlat administrators can also restore deleted learning resources as well as delete them permanently.
+
+OpenOlat administrators can also restore and permanently delete deleted learning resources.
 
 ### 7. Open/edit learning resource
 
@@ -105,7 +104,7 @@ This allows you to export your learning resources as a ZIP file, e.g. as a backu
 ### 13. Release of external OER catalogue
 
 If a course or learning resource is to be found by search engines, you can call up this option.<br>
-You can find a detailed guide to the topic [„here"](../../manual_how-to/oai_pmh/oai_pmh.md).
+You can find a detailed guide to the topic [here](../../manual_how-to/oai_pmh/oai_pmh.md).
 
 ### 14. Convert to learning path courses
 

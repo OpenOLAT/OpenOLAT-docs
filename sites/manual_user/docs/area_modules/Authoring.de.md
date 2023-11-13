@@ -2,8 +2,7 @@
 
 :octicons-device-camera-video-24: **Video-Einführung**: [Voraussetzungen für Autoren](<https://www.youtube.com/embed/L0jc_LBKXLE>){:target="_blank”}
 
-Im Autorenbereich finden OpenOlat Autor:innen alle Werkzeuge um Kurse und andere
-Lernressourcen zu erstellen, zu importieren und zu bearbeiten.
+Im Autorenbereich finden OpenOlat Autor:innen alle Werkzeuge um Kurse und andere Lernressourcen zu erstellen, zu importieren und zu bearbeiten.
 
 Alle bereits vorhandenen Kurse und Lernressourcen werden in einer Tabelle angezeigt.
 
@@ -11,21 +10,17 @@ Alle bereits vorhandenen Kurse und Lernressourcen werden in einer Tabelle angeze
 
 
 ### 1. Favoriten
-Im Filter-Tab "**Favoriten**" finden Sie alle Lernressourcen, die Sie selbst
-als Favorit gekennzeichnet haben. Diese Ansicht wird standardmässig angezeigt, wenn Sie den Autorenbereich aufrufen.
+Im Filter-Tab "**Favoriten**" finden Sie alle Lernressourcen, die Sie selbst als Favorit gekennzeichnet haben. Diese Ansicht wird standardmässig angezeigt, wenn Sie den Autorenbereich aufrufen.
 
 ### 2. Meine Kurse
 Im Filter-Tab "**Meine Kurse**" finden Sie alle Kurse, die Sie erstellt
 haben oder bei denen Sie als Besitzer (Co-Autor) eingetragen sind. "Meine Kurse" ist eine Teilmenge von "Meine Einträge". 
 
 ### 3. Meine Einträge 
-Im Filter-Tab „**Meine Einträge**“ finden Sie alle Lernressourcen, die Sie erstellt haben oder bei denen Sie als Besitzer:in (Co-Autor:in) eingetragen sind. Das sind neben den Kursen auch Test-Lernressourcen, Formulare, usw. 
+Im Filter-Tab "**Meine Einträge**" finden Sie alle Lernressourcen, die Sie erstellt haben oder bei denen Sie als Besitzer:in (Co-Autor:in) eingetragen sind. Das sind neben den Kursen auch Test-Lernressourcen, Formulare, usw. 
 
 ### 4. Suchmaske 
-Im Filter-Tab "**Suchmaske**" können Sie nach bestimmten Lernressourcen
-suchen. Hier sind alle Lernressourcen auffindbar, auf die Sie Zugriff haben.
-Sie können gezielt nach einem Titel suchen oder über die Filter ihre
-Ergebnisse eingrenzen.
+Im Filter-Tab "**Suchmaske**" können Sie nach bestimmten Lernressourcen suchen. Hier sind alle Lernressourcen auffindbar, auf die Sie Zugriff haben. Sie können gezielt nach einem Titel suchen oder über die Filter ihre Ergebnisse eingrenzen.
 
 ### 5. Gelöscht
 Im Filter-Tab "**Gelöscht**" haben Sie Zugriff auf Ihre gelöschten
@@ -50,14 +45,12 @@ Weitere Details zum Umgang mit den Filteroptionen erfahren Sie im Abschnitt zum
 
 ### 9. Spalten konfigurieren
 
-Über das Zahnrad-Icon kann ausgewählt werden, welche Spalten in der Tabelle angezeigt werden.
-Sie können so individuell die relevanten Informationen zusammenstellen.
+Über das Zahnrad-Icon kann ausgewählt werden, welche Spalten in der Tabelle angezeigt werden. Sie können so individuell die relevanten Informationen zusammenstellen.
 
 ![autorenbereich_spalten_auswaehlen_v1_de.png](assets/autorenbereich_spalten_auswaehlen_v1_de.png){ class="shadow lightbox" }
 
 **Beispiel:**<br>
-In der Spalte "Ref" ist angezeigt, ob bzw. wie oft eine Lernressource in OpenOlat Kursen
-referenziert wurde. Klicken Sie auf diese Zahl, werden Ihnen die Kurse namentlich angezeigt. Sie können dann direkt zum gewünschten Kurs springen.
+In der Spalte "Ref" ist angezeigt, ob bzw. wie oft eine Lernressource in OpenOlat Kursen referenziert wurde. Klicken Sie auf diese Zahl, werden Ihnen die Kurse namentlich angezeigt. Sie können dann direkt zum gewünschten Kurs springen.
 
 ![autorenbereich_spalten_auswaehlen2_v1_de.png](assets/autorenbereich_spalten_auswaehlen2_v1_de.png){ class="shadow lightbox" }
 

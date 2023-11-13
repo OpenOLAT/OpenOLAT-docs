@@ -1,6 +1,6 @@
 # Projects - Member Management
 
-The project members are usually made project members by the project owner(s). (As a rule, project management lies with the person who creates the new project).
+The project members are usually made project members by the project owner(s). (As a rule, project management lies with the person who creates the new project.)
 
 ![projekte_mitgliederverwaltung_aufrufen_v1_de.png](assets/projekte_mitgliederverwaltung_aufrufen_v1_de.png){ class="shadow lightbox" }
 
@@ -19,7 +19,7 @@ As soon as a project member is registered, he or she receives a link. After call
     "External member" is not a role. An external member can have all roles except owner (role that can be used to delete the whole project). 
 
 
-## Rollen
+## Roles
 
 |    | Project| Objects in project |Member Management | External Member Management |
 | ------------------------------------------------------------- | :--------------: | :--------------: | :--------------: | :--------------: |

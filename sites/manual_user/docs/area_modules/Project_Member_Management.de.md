@@ -16,7 +16,7 @@ Sobald ein Projektmitglied erfasst ist, erhält es einen Link. Nach Aufruf des L
 
 !!! info "Hinweis"
 
-    „Externes Mitglied“ ist keine Rolle. Ein externes Mitglied kann alle Rollen erhalten, ausser Besitzer:in (Rolle, mit der das ganze Projekt gelöscht werden kann). 
+    "Externes Mitglied" ist keine Rolle. Ein externes Mitglied kann alle Rollen erhalten, ausser Besitzer:in (Rolle, mit der das ganze Projekt gelöscht werden kann). 
 
 
 ## Rollen

@@ -5,13 +5,13 @@ OpenOlat has a modular structure. The most important areas and modules are gener
 Courses are the most important basic element in OpenOlat. Basically, all learning content is offered within courses.
 
 ## Catalog
-If a catalog for offering the courses and learning resources is desired, this optional module can be activated by the [OpenOlat administrator](../../../manual_admin/docs/administration/Modules_Catalog_2.0.md). Je nach Version des Katalogs erscheint er als eigener Menüpunkt [(Katalog V2)](../area_modules/catalog2.0.md) oder als Tab im Bereich Kurse [(Katalog V1)](../area_modules/catalog1.0.md). 
+If a catalog for offering the courses and learning resources is desired, this optional module can be activated by the [OpenOlat administrator](../../../manual_admin/docs/administration/Modules_Catalog_2.0.md). Depending on the version of the catalog, it appears as a separate menu item [(Catalog V2)](../area_modules/catalog2.0.md) or as a tab in the Courses area [(Catalog V1)](../area_modules/catalog1.0.md). 
 
 ## Groups (M)
-Groups can be used for different purposes e.g. they simplify participant administration or facilitate cooperative, unahbängige online learning.
+Groups can be used for different purposes e.g. they simplify participant administration or facilitate cooperative, independent online learning.
 
 ## Coaching (M)
-Werkzeug für Betreuer um einfach kursübergreifende Bewertungen und Aktionen durchzuführen. 
+Tool for coaches to easily carry out cross-course assessments and actions.
 
 ## Authoring area (M)
 Central area for OpenOlat authors. Here you can find everything needed to create new courses.
@@ -20,15 +20,15 @@ Central area for OpenOlat authors. Here you can find everything needed to create
 The question pool is an area where questions are collected for reuse. OpenOlat offers a management of access permissions etc. for this purpose.
 
 ## Projects (M)
-Tool für die kooperative Projekt-Arbeit mit Terminen, ToDos, Entscheid-Doku, gemeinsamen Dokumenten und mehr. 
+Tool for collaborative project work with deadlines, to-dos, decision documentation, shared documents and more.
 
 ## Portfolio
 Virtual portfolio that can be used both individually and in a course context and with different objectives.
 
 ## Curriculum management (M)
-Sofern vom Administrator freigegeben  Optionally, OpenOlat can also manage curricula in its own module.
+If approved by the administrator, OpenOlat can also optionally manage curricula in a separate module.
 
 
-(M) = Menüpunkt in der obersten Navigation
+(M) = Menu item in the top navigation
 
-(P) = Menüpunkt in den Persönlichen Werkzeugen
+(P) = Menu item in the personal tools

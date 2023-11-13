@@ -85,7 +85,7 @@ In OpenOlat, as well as speaking about members of a course etc., we also talk ab
 
 !!! info "Note"
 
-    Only those who are already members of the **project** can be added as members of a **decision**. On the selection list of possible new members of a decision only persons appear who have already been added in the project member administration..
+    Only those who are already members of the **project** can be added as members of a **decision**. On the selection list of possible new members of a decision only persons appear who have already been added in the project member administration.
 
 
 ![projekte_entscheid_bearbeiten_mitglied_v1_de.png](assets/projekte_entscheid_bearbeiten_mitglied_v1_de.png){ class="shadow lightbox" }

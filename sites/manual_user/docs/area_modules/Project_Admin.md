@@ -28,7 +28,7 @@ It simplifies the creation of a new project if a template can be used.
 
 A new, empty template can be created in the "Project templates" tab.
 
-It can be specified whether the template should only be available for own use or for all members of the organisational unit.
+It can be specified whether the template should only be available for own use or for all members of the organizational unit.
 
 ![projekte_admin_leere_vorlage_v1_de.png](assets/projekte_admin_leere_vorlage_v1_de.png){ class="shadow lightbox" }
 
@@ -36,7 +36,7 @@ To create a template, an already created project can also be saved as a template
 
 ![projekte_admin_als_vorlage_speichern_v2_de.png](assets/projekte_admin_als_vorlage_speichern_v2_de.png){ class="shadow lightbox" }
 
-## Finalise Projects
+## Finalize Projects
 
 If a project is completed, all project members subsequently have read-only access.
 
@@ -44,7 +44,7 @@ A project can only be completed by
 
 * Project owners,
 * Project leaders,
-* Project Office Staff,
+* Project office staff,
 * Administrators,
 * and project managers.
 
@@ -60,7 +60,7 @@ A project can only be completed by
 
 Projects can only be deleted by
 
-* the project's owner,
+* the projects owner,
 * Administrators,
 * and project managers.
 
@@ -83,7 +83,7 @@ This list contains projects in which there has been no activity for more than 28
 * **To delete**<br>
 The "To deleted" list only appears in the "Administration" tab. It displays projects with the status "completed" that also have no recent activity.
 
-* **Closed**<br>
+* **Closed**<br>s
 If projects have been closed for a long time, project managers can use this list to ask whether projects can be deleted.<br>
 Completed projects can still be reactivated.
 

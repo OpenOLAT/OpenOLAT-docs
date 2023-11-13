@@ -6,7 +6,7 @@
 
 ![Coaching Menü Aufträge](assets/Coaching_Auftraege.png){ class="shadow lightbox" }
 
-Hier haben Sie Zugriff auf alle Kursbausteine, die noch zu bewerten sind. Diese können entsprechend der Spalten sortiert und dann einzeln ausgewählt und bewertet werden. Mit Klick auf den Link „Bewerten" gelangt man in das entsprechende Bewertungsformular.
+Hier haben Sie Zugriff auf alle Kursbausteine, die noch zu bewerten sind. Diese können entsprechend der Spalten sortiert und dann einzeln ausgewählt und bewertet werden. Mit Klick auf den Link "Bewerten" gelangt man in das entsprechende Bewertungsformular.
 
 ### 2. Tab Offene Einstufungen/Noten
 Hier finden Sie alle Kursbausteine, die zwar schon bewertet wurden, bei denen aber die manuelle Zuordnung zu einer Notenskala bzw. einem Bewertungssystem noch nicht abgeschlossen wurde.

@@ -1,8 +1,6 @@
 # Projects - Files
 
-Under "Files" in the "Quick Access" section, files can be **uploaded** and new files **created** in a project.
-This way, all files can be saved together with the project. All media are then in the same place. 
-They are only available within the project.
+Under "Files" in the "Quick Access" section, files can be **uploaded** and new files **created** in a project. This way, all files can be saved together with the project. All media are then in the same place.  They are only available within the project.
 
 ![projekte_datei_erstellen_hochladen_v1_de.png](assets/projekte_datei_erstellen_hochladen_v1_de.png){ class="shadow lightbox" }
 
@@ -49,9 +47,9 @@ The following file formats can be created:
 
 !!! info "Create office documents"
 
-    Whether Microsoft file formats can be created depends on whether licences are available. Contact your administrator for this
+    Whether Microsoft file formats can be created depends on whether licences are available. Contact your administrator for this.
     
-    Without licences, the options for creating docx, pptx and xlsx formats are not displayed. (However, displaying and editing existing documents with ONLYOFFICE is usually possible).
+    Without licences, the options for creating docx, pptx and xlsx formats are not displayed. (However, displaying and editing existing documents with ONLYOFFICE is usually possible.)
 
 
 ## Show list of files

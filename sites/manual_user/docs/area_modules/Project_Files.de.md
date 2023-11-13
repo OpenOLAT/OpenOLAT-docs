@@ -1,8 +1,6 @@
 # Projekte - Dateien
 
-Unter "Dateien" im Abschnitt "Schnellzugriff" können in einem Projekt Dateien **hochgeladen** und neue Dateien **erstellt** werden.
-So können alle Dateien zusammen mit dem Projekt gespeichert werden. Alle Medien befinden sich dann am gleichen Ort. 
-Sie sind nur innerhalb des Projektes verfügbar.
+Unter "Dateien" im Abschnitt "Schnellzugriff" können in einem Projekt Dateien **hochgeladen** und neue Dateien **erstellt** werden. So können alle Dateien zusammen mit dem Projekt gespeichert werden. Alle Medien befinden sich dann am gleichen Ort.  Sie sind nur innerhalb des Projektes verfügbar.
 
 ![projekte_datei_erstellen_hochladen_v1_de.png](assets/projekte_datei_erstellen_hochladen_v1_de.png){ class="shadow lightbox" }
 
@@ -10,7 +8,7 @@ Sie sind nur innerhalb des Projektes verfügbar.
 
 Hinsichtlich der Dateiformate gibt es keine Einschränkungen. 
 
-Die hochgeladenen Dateien können je nach Format direkt geöffnet werden. 
+Die hochgeladenen Dateien können je nach Format direkt geöffnet werden.  
 Es gelten folgende Grundsätze:
 
 - Wenn keine Microsoft-Lizenenz vorhanden ist, werden docx, pptx und xlsx z.B. mit OnlyOffice geöffnet, wenn dafür eine Lizenz vorhanden ist.
@@ -58,11 +56,11 @@ Es können folgende Dateiformate erstellt werden:
 
 Die Liste aller im Projekt vorhandenen Dateien öffnen Sie analog zu den To-dos oder Entscheiden: 
 
-**a) Projekte > Tab „Meine Projekte“ > Projekt wählen > Schnellzugriff Button „Dateien“**<br>
+**a) Projekte > Tab "Meine Projekte" > Projekt wählen > Schnellzugriff Button "Dateien"**<br>
 oder<br>
-**b) Projekte > Tab „Meine Projekte“ > Projekt wählen > Titel im Abschnitt „Dateien“ anklicken**<br>
+**b) Projekte > Tab "Meine Projekte" > Projekt wählen > Titel im Abschnitt "Dateien" anklicken**<br>
 oder<br>
-**c) Projekte > Tab „Meine Projekte“ > Projekt wählen > im Abschnitt „alle Dateien anzeigen“ klicken**
+**c) Projekte > Tab "Meine Projekte" > Projekt wählen > im Abschnitt "alle Dateien anzeigen" klicken**
 
 Beachten Sie, dass Sie zwischen der Ansicht der Karten und der Listenansicht wechseln können.  
 

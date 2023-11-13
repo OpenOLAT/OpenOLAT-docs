@@ -38,6 +38,7 @@ nav:
     - Personal tools:
       - Calendar: "personal_menu/Calendar.md"
       - Personal folders: "personal_menu/Personal_folders.md"
+      - Competences : "personal_menu/Competences.md"
       - E-Mail: "personal_menu/E-Mail.md"
       - Badges: "personal_menu/OpenBadges.md"
       - Media Center: "personal_menu/Media_Center.md"

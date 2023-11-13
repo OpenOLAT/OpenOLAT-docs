@@ -28,7 +28,6 @@ In einem Projekt kann man verschiedene Objekte anlegen/hochladen:
 * Meilensteine
 * Whiteboard-Dateien (draw.io)
 
-Diese Objekte lassen sich miteinander verknüpfen, um so zusammengehörige Themen besser zu finden.
-Dabei öffnet man ein Objekt im Bearbeitungsmodus (ausser To-dos und Files, diese lassen sich direkt bearbeiten) und klickt unter Links entweder auf "Objekt verlinken", um ein bestehendes Objekt zu verlinken oder auf "Link hinzufügen" um ein Objekt mit Verknüpfung direkt zu erstellen.
+Diese Objekte lassen sich miteinander verknüpfen, um so zusammengehörige Themen besser zu finden. Dabei öffnet man ein Objekt im Bearbeitungsmodus (ausser To-dos und Files, diese lassen sich direkt bearbeiten) und klickt unter Links entweder auf "Objekt verlinken", um ein bestehendes Objekt zu verlinken oder auf "Link hinzufügen" um ein Objekt mit Verknüpfung direkt zu erstellen.
 
 ![Bild einer Verlinkung im Projekt](assets/project-link.de.jpg)

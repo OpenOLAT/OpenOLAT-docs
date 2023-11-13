@@ -1,6 +1,6 @@
 # Formular in der Portfolio 2.0 Vorlage
 
-In die Lernressource ["Portfolio 2.0 Vorlage"](Portfolio_template_Creation.de.md) können ebenfalls Formulare z.B. zur Selbstreflexion oder für die Bewertung von eigenen Leistungen oder auch im Sinne eines Fragebogens eingebunden werden.
+In die Lernressource "[Portfolio 2.0 Vorlage](Portfolio_template_Creation.de.md)" können ebenfalls Formulare z.B. zur Selbstreflexion oder für die Bewertung von eigenen Leistungen oder auch im Sinne eines Fragebogens eingebunden werden.
 
 Hierfür muss zunächst eine Portfolio 2.0 Vorlage erstellt werden. Wählen oder erstellen Sie dann einen Portfolio "Bereich" und wählen sie "Neue Aufgabe". Weitere generelle Informationen zur Erstellung einer Portfolio 2.0 Vorlage finden sie [hier](../learningresources/Portfolio_template_Administration_and_editing.de.md).
 
@@ -22,8 +22,7 @@ Nachdem ein Formular ausgewählt wurde, kann es über den Link "Bearbeiten" gest
 
 Sie können auch definieren, wer das Formular ausfüllen darf, nur der E-Portfolio Inhaber oder zusätzlich noch weitere Personen. Für die Beurteilung können auch weitere Personen eingeladen werden. Die Bewertung kann offen oder anonym erfolgen.
 
-Die Portfolio 2.0 Vorlage kann dann über den Kursbaustein "[Portfolioaufgabe](../learningresources/Creating_Portfolio_Tasks.de.md)" auch in einen Kurs
-eingebaut werden.
+Die Portfolio 2.0 Vorlage kann dann über den Kursbaustein "[Portfolioaufgabe](../learningresources/Creating_Portfolio_Tasks.de.md)" auch in einen Kurs eingebaut werden.
 
 ## Beispiel für ein Portfolio Formular
 
