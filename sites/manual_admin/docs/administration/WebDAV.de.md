@@ -47,7 +47,7 @@ werden. Die folgenden Konfigurationen können vorgenommen werden:
 	aktiviert ist, sind im WebDAV alle beendeten Kurse im Ordner "_beendet" zu
 	finden.
 
-  *  **Kurse nach Curriculum Elementen gruppieren ** 
+  *  **Kurse nach Curriculum Elementen gruppieren** 
 	Aktivieren Sie diese Option um für Curriculum-Gruppen Unterordner zu
 	erstellen der alle Kurses dieser Curriculum-Gruppe enthält.
 
@@ -74,6 +74,7 @@ werden. Die folgenden Konfigurationen können vorgenommen werden:
 
 ## Verwendung
 
-Weitere Informationen zur Anwendung von WebDAV in OpenOlat finden Sie unter
-[Einsatz von WebDAV](../../manual_user/supported_tech/Using_WebDAV.de.md).
+Weitere Informationen zur Anwendung von WebDAV in OpenOlat finden Sie unter [Einsatz von WebDAV](../../manual_user/basic_concepts/Using_WebDAV.de.md).
+
+
 

@@ -8,7 +8,7 @@
 	
 <div class="grid cards" markdown>
 
--	:fontawesome-solid-rocket:{ .lg .middle }  __Los geht's__
+-	:fontawesome-solid-rocket:{ .lg .middle }  __Los gehts__
 
     ---
 
@@ -26,7 +26,7 @@
 	[:octicons-arrow-right-24: Gruppen erstellen](../groups/Create_Groups.de.md)
 
 
--	:fontawesome-solid-user-pen:{ .lg .middle }  __Einführung für Autor*innen__
+-	:fontawesome-solid-user-pen:{ .lg .middle }  __Einführung für Autor:innen__
 
     ---
 
@@ -37,7 +37,7 @@
 	[:octicons-arrow-right-24: Katalog](../area_modules/catalog2.0.de.md)
 
 
--	:fontawesome-solid-user-graduate:{ .lg .middle }  __Einführung für Betreuer*innen__
+-	:fontawesome-solid-user-graduate:{ .lg .middle }  __Einführung für Betreuer:innen__
 
     ---
 

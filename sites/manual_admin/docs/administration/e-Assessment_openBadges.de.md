@@ -46,7 +46,6 @@ Globale Badges können hier eingesehen werden. Der Status (aktiv / in Vorbereitu
 5. Zusammenfassung: Bildschirm mit einer Zusammenfassung aller Details.
 ![Wizard Schritt 5](assets/badges-wizard-5.de.jpg)
 6. Earners: Zeigt die Earners in einer Tabelle an, um zu sehen, welcher Teilnehmer sich bereits für die von Ihnen gewählten Kriterien qualifiziert.
-![Wizard Schritt 6](assets/badges-wizard-6.de.jpg)
 
 ## Verwendung der Badges
 

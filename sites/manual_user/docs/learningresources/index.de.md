@@ -27,7 +27,7 @@ gespeichert. Jeder Test liegt in einem standardisierten Dokumentformat, dem
 IMS-QTI-Format, vor.
 
 Mehr Informationen zum Einsatz und Erstellung von Tests finden Sie im Kapitel
-["Tests erstellen"](../learningresources/Test.de.md) .
+["Tests erstellen"](../learningresources/Test.de.md).
 
 ## CP-Lerninhalt
 ![](assets/content.png)

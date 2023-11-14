@@ -65,5 +65,3 @@ Die eigentliche Bewertung der Lernenden erfolgt dann bei geschlossenem Kurs-Edit
 ![Bewertung Teilnehmerliste](assets/Bewertung181.jpg){ class="shadow lightbox" }
 
 Wählen Sie hierfür die zu bewertende Person aus der Liste aus und markieren Sie einfach die gewünschten Ausprägungen. Sofern aktiviert werden die Punkte aus der Rubrikbewertung automatisch übernommen und führen so schnell zu einer Kriterien basierten, transparenten Bewertung.
-
-![Rubrikbewertung am Teilnehmenden](assets/Rubrik_bew_181.jpg){ class="shadow lightbox" }

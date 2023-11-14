@@ -2,7 +2,7 @@
 
 
 !!! warning
-	Please note that AthenaPDF is no longer maintained by its developers. It is recommended to use [Gotenberg](gotenbergPDF.md) as an alternative PDF service in OpenOlat.
+	Please note that AthenaPDF is no longer maintained by its developers. It is recommended to use [Gotenberg](../installation/gotenbergPdf.md) as an alternative PDF service in OpenOlat.
 
 ## PDF Service
 

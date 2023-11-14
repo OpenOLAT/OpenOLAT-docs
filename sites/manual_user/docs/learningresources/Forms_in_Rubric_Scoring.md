@@ -66,4 +66,3 @@ The actual assessment of learners will then take place in course run directly at
 
 To do this, select the person to be assessed from the list and simply mark the desired points. If activated, the points from the rubric rating are automatically taken over and thus quickly lead to a criteria-based, transparent rating.
 
-![Rubric scoring for a participant](assets/Rubrik_bew_181.jpg){ class="shadow lightbox" }

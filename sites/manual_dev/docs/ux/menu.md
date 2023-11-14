@@ -1,6 +1,6 @@
 # Menu
 
-For more general navigation Patterns, visit the manual page [Design Patterns](sites/manual_dev/docs/ux/patterns.md).
+For more general navigation Patterns, visit the manual page [Design Patterns](https://docs.openolat.org/manual_dev/ux/patterns/).
 
 ## Main Menu / Top Menu
 

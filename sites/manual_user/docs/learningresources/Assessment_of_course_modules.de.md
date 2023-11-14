@@ -54,8 +54,7 @@ Die Checkboxen der einzelnen Benutzer können manuell nachgetragen und das Bewer
 ![Checkliste bewerten im Bewertungswerkzeug](assets/Checkliste_Bewertungsformular.png){ class="shadow lightbox" }
 
 ## Bewertung
-Die Bewertung des Kursbausteins "Bewertung" 
-umfasst folgende Optionen:
+Die Bewertung des Kursbausteins "Bewertung" umfasst folgende Optionen:
 
 ![3-Punkte Menü für Kursbaustein Bewertung](assets/Bewertungswerkzeug_Bewertung172.png){ class="shadow lightbox" }
 
@@ -86,7 +85,7 @@ Die Bewertung für das Portfolio ist im Bewertungswerkzeug dieselbe wie im Tab [
 
 Der Kursbaustein "Struktur" erscheint ebenfalls im Bewertungswerkzeug. Sofern für den Kurs generell Punkte aktiviert wurden werden hier die aufaddierten Punkte der untergeordneten bewertbaren Kursbausteine angezeigt. Allerdings können hier nicht manuell Punkte vergeben oder Bewertungen vorgenommen werden. Stattdessen wird der aktuelle Punkte-Status angezeigt. 
 
-Bei Lernpfad-Kursen werden automatisch die Ergebnisse aller untergeordneten Assessmentbausteine berücksichtigt. Bei herkömmlichen Kursen können die zu berücksichtigenden Kursbausteine im Kurseditor im Tab „Punkte“ gezielt ausgewählt werden. Der oberste Kursbaustein ist ebenfalls ein Strukturbaustein, deshalb werden hier die Punkte des gesamten Kurses zusammengezählt.
+Bei Lernpfad-Kursen werden automatisch die Ergebnisse aller untergeordneten Assessmentbausteine berücksichtigt. Bei herkömmlichen Kursen können die zu berücksichtigenden Kursbausteine im Kurseditor im Tab "Punkte" gezielt ausgewählt werden. Der oberste Kursbaustein ist ebenfalls ein Strukturbaustein, deshalb werden hier die Punkte des gesamten Kurses zusammengezählt.
 
 !!! tip "Tipp"
 
