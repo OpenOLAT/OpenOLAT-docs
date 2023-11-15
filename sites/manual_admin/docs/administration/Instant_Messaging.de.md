@@ -39,4 +39,4 @@ Gruppenteilnehmer sehen. Wenn ausgeschaltet erscheint anstelle des
 Statussymbols eine Sprechblase. Die Benutzer wissen dann nicht ob ihre
 Nachricht unmittelbar verschickt werden kann.
 
-Weitere Informationen zur Anwendung des Instant-Messaging Moduls finden Sie hier: [Chat](../../manual_user/personal__menu/Chat.de.md)
+Weitere Informationen zur Anwendung des Instant-Messaging Moduls finden Sie hier: [Chat](../../manual_user/basic_concepts/Chat.de.md)

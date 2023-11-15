@@ -295,7 +295,7 @@ Alternativ kann auch der "Publizieren"-Button im Editor rechts in der Toolleiste
 Welche Lernende Zugriff erhalten, bestimmen Sie in der Mitgliederverwaltung des Kurses.   
 
 20\. Sobald Testergebnisse vorhanden sind, können Betreuende im Betreuungswerkzeug Bewertungen vornehmen. (Gilt nicht bei Selbsttests.)<br>
-Weitere Infos dazu finden Sie im Kapitel "[Tests bewerten](https://docs.openolat.org/de/manual_user/learningresources/Assessing_tests/)".
+Weitere Infos dazu finden Sie im Kapitel "[Tests bewerten](../../manual_user/learningresources/Assessing_tests.de.md)".
 
 <br>
 

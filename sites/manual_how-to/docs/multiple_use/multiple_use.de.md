@@ -14,7 +14,7 @@ Typische Beispiele für derartige Dateien sind:
 ## Was Sie benötigen
 
 * Autorenrechte
-* einen [Ressourcenordner](https://docs.openolat.org/de/manual_user/learningresources/#ressourcenordner)
+* einen [Ressourcenordner](../../manual_user/learningresources/index.de.md#Ressourcenordner)
 * mehrere Kurse
 * Dateien, die Sie mehrfach verwenden wollen
 
@@ -22,7 +22,7 @@ Typische Beispiele für derartige Dateien sind:
 
 ## 1. Ressourcenordner erstellen  
 
-1.1 Gehen Sie hierfür in den [Autorenbereich](https://docs.openolat.org/de/manual_user/area_modules/Authoring/) und wählen Sie "Erstellen" -> "Ressourcenordner".
+1.1 Gehen Sie hierfür in den [Autorenbereich](../../manual_user/area_modules/Authoring.de.md) und wählen Sie "Erstellen" -> "Ressourcenordner".
 
 ![ressourcenordner_erstellen_v1_de.png](assets/ressourcenordner_erstellen_v1_de.png){ class="shadow lightbox" }  
 <br>

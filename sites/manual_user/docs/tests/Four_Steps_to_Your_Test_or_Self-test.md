@@ -46,7 +46,7 @@ You add further questions according to the same principle. The details of the se
 
 1. Select the top element of the test and edit the corresponding tabs as required.
 
-    ![Test configuration](assets/Test_Konfiguration.png){ class="shadow lightbox" }
+    ![Test Konfiguration](assets/Test_Konfiguration_DE.jpg){ class="shadow lightbox" }
 
     ![Close test](assets/Test_schliessen_DE.png)  
 
@@ -69,7 +69,7 @@ You add further questions according to the same principle. The details of the se
 
     ![Select test](assets/Test_referenzieren_DE.png){ class="shadow lightbox" }
 
-    ![Linked test](assets/Test_gewaehlte_datei_DE.png){ class="shadow lightbox" }
+    ![Eingebundener Test](assets/Test_gewaehlte_Datei_DE.png){ class="shadow lightbox" }
 
 2. Open the "Course Editor" via the "Administration" menu. Select "Insert course elements" and click on the desired course element Test
 or Self-test.
@@ -85,4 +85,5 @@ configuration" under "Selected file" and edit it as long as it has not been exec
 The test or self-test is now integrated in the course and visible and editable for the user. Tests (not self-tests) worked on by learners can be subsequently assessed by the teacher in the course run or in the assessment tool. For more info, see the chapter "[Assessing tests](../learningresources/Assessing_tests.md)".
 
 !!! note "Prerequisite"
-The prerequisite for the learner to be able to take the test is that the course has been published and the respective persons have access to the course.
+        
+    The prerequisite for the learner to be able to take the test is that the course has been published and the respective persons have access to the course.

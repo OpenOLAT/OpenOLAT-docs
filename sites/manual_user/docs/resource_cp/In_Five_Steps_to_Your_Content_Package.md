@@ -31,7 +31,7 @@ embedding it in your course and activating it for your participants.
 
  - Open the **CP-Editor**:
  
-    Go to the menu "Administration" of the CP learning resource and select **"Edit content "**. This way you get to the CP editor. Here you can edit, format and save the content using the HTML editor. You can also upload new pages and files to design your CP. Create a structured hypertext with multiple pages here.   
+    Go to the menu "Administration" of the CP learning resource and select **"Edit content"**. This way you get to the CP editor. Here you can edit, format and save the content using the HTML editor. You can also upload new pages and files to design your CP. Create a structured hypertext with multiple pages here.   
  
  - When you have made all the desired changes, select "save" and close the CP-editor. 
 
@@ -44,7 +44,7 @@ You must now navigate back to the course, which is still open in another Olat ta
 - Under "Display" you can determine whether the CP's own component menu should be integrated into course navigation.
 
 - Configure the other tabs of the course element if necessary.
-In the tab "Layout" you define the settings for the display of the CP. The setting options are identical to those of a [single page](Course_Element_Single_Page.md)
+In the tab "Layout" you define the settings for the display of the CP. The setting options are identical to those of a [Page](../../manual_user/learningresources/Course_Element_Page.md)
 
 - Then publish the course by clicking on the course title in the breadcrumb bar and publish the course automatically or manually.   
 

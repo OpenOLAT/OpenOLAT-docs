@@ -53,7 +53,7 @@ werden. Die folgenden Konfigurationen können vorgenommen werden:
 
   *  **Managed Kurs gruppieren**
   *  **Kennzeichen dem Titel voranstellen**  
-	Legen Sie fest ob das [Kennzeichen](../../manual_user/authoring/Set_up_info_page.de.md) dem Kurstitel
+	Legen Sie fest ob das [Kennzeichen](../../manual_user/learningresources/Set_up_info_page.de.md) dem Kurstitel
 	zur besseren Unterscheidung ähnlicher Titel vorangestellt werden soll.  
 
 * * *

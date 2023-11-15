@@ -22,7 +22,7 @@ Secondary navigation, if we need to further seperate content. Used heavily in gr
 
 Show the sub-pages mostly used in setting. It's a contextual nav, depending wich ressource you open.
 
-### left side nav / menu tree
+### Left side nav / Menu tree
 
 ![left-side-nav](assets/nav-left-sidenav.jpg){class="thumbnail-xl"}
 
@@ -43,9 +43,9 @@ The learning path nav is a custom menu tree with a custom skin. All the menu tre
 
 #### Options
 
-- visibility (yes/no)
-- Learning ressource icons (yes/No)
-- show Path (yes/no)
+- Visibility (yes/no)
+- Learning ressource icons (yes/no)
+- Show Path (yes/no)
 
 ### Menu Button
 

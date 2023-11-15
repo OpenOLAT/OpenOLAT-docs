@@ -8,8 +8,8 @@
     Taxonomie kann in mehreren OpenOlat Bereichen aktiviert und eingesetzt werden:
 
     * [Dokumentenpool](Modules_Document_pool.de.md)
-    * [Fragenpool](../../manual_user/question_bank/index.de.md)
-    * [ePortfolio](../../manual_user/portfolio/Competences_tags.de.md)
+    * [Fragenpool](../../manual_user/area_modules/Question_Bank.de.md)
+    * [ePortfolio](eAssessment_ePortfolio.de.md)
     * Verknüpfung mit Lernressourcen
 
  Die Verwendung der Taxonomie in OpenOlat wird laufend erweitert.
@@ -108,7 +108,7 @@ kurz umrissen:
 
 ![Taxonomie exportieren](assets/Taxonomie_exportieren.png)
 
-Die Taxonomie wird mit Klick auf den Menüpunkt als .zip Archiv heruntergeladen. Darin enthalten ist eine EXCEL-Tabelle mit der hierarchischen Struktur der Taxonomieebenen und eine Ordnerstruktur (media/ebene1/background;media/ebene1/teaser;) mit Teaser- und Hintergrundbildern der Taxonomie, wenn welche vorhanden sind. (mehr unter -> [Katalog 2.0](../../../manual_user/docs/area_modules/catalog2.0.de.md)
+Die Taxonomie wird mit Klick auf den Menüpunkt als .zip Archiv heruntergeladen. Darin enthalten ist eine EXCEL-Tabelle mit der hierarchischen Struktur der Taxonomieebenen und eine Ordnerstruktur (media/ebene1/background;media/ebene1/teaser;) mit Teaser- und Hintergrundbildern der Taxonomie, wenn welche vorhanden sind. (mehr unter -> [Katalog 2.0](../../manual_user/area_modules/catalog2.0.de.md))
 
 ### Taxonomie importieren
 
@@ -137,7 +137,7 @@ Hier kann man entscheiden, ob man die existierenden Taxonomieebenen überschreib
 ![Tabellenvorlage-taxonomiestruktur](assets/taxonomystructure-import.jpg){ class="shadow lightbox" }
 
 2. In der Excel fügen Sie die neuen Ebenen hinzu oder verändern bestehende. Der Pfad muss vollständig angegeben werden. Ist dieser fehlerhaft, können gewisse Ebenen nicht importiert werden.
- Hat man verschieden Sprachen in OpenOlat aktiviert und benutzt den [Katalog 2.0](../../../manual_user/docs/area_modules/catalog2.0.de.md), ist es ratsam Anzeigename und Beschreibung sprachabhängig zu gestalten. Zusätzliche Sprachen fügen Sie hinzu, indem Sie die Spalten "Länderkürzel", "Anzeigename" & "Beschreibung" kopieren, diese damit hinten anhängt und ein neues, existierendes Länderkürzel, Anzeigename + Beschreibung für jede Taxonomieebene ergänzt.
+ Hat man verschieden Sprachen in OpenOlat aktiviert und benutzt den [Katalog 2.0](../../manual_user/area_modules/catalog2.0.de.md), ist es ratsam Anzeigename und Beschreibung sprachabhängig zu gestalten. Zusätzliche Sprachen fügen Sie hinzu, indem Sie die Spalten "Länderkürzel", "Anzeigename" & "Beschreibung" kopieren, diese damit hinten anhängt und ein neues, existierendes Länderkürzel, Anzeigename + Beschreibung für jede Taxonomieebene ergänzt.
 
 3. Die geänderte Tabelle wird _ohne_ die Kopfzeile markiert und in das Eingabefeld kopiert. Im Schritt "Änderungen überprüfen" werden die Zellen auf Richtigkeit überprüft. Bei Fehlern erscheinen die Fehlermeldungen direkt am Eingabefeld.
 

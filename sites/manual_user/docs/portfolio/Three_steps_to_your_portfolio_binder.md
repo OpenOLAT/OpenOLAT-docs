@@ -50,8 +50,7 @@ from template or from course portfolio task you are not able to do so.
 3. Insert a title and save with "Create entry".  
 4. Additionally a summary, a teaser image and categories can be added.  
   
-5. Afterward different [contents](My+portfolio+binders.html#Myportfoliobinders-
-portfolioinhalt) can be added.  
+5. Afterward different [contents](../area_modules/My_portfolio_binders.md) can be added.  
   
 !!! info "Info"
 
