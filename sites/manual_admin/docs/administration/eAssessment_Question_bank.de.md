@@ -2,7 +2,7 @@
 
 Hier können Sie den Fragenpool aus Sicht des Systemadministrators
 konfigurieren. Einige der Einstellungen können auch in der 
-[Administration des Poolverwalters](https://docs.openolat.org/de/manual_admin/administration/eAssessment_Question_bank/?h=poolverwalter#rechte-poolverwalter) 
+[Administration des Poolverwalters](../administration/e-Assessment_Administration.de.md)
 vorgenommen werden.
 
 ![](assets/Fragenpool_admin.png){ class="shadow lightbox" }
