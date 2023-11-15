@@ -82,7 +82,7 @@ authors can organize their entire course files via WebDAV.
 
 ### Tab Instant-Messaging
 
-In the tab "Instant Messaging" you define the settings for the [chat function](../../manual_admin/docs/administration/Instant_Messaging.md) and your communication status after login.
+In the tab "Instant Messaging" you define the settings for the [chat function](../../manual_admin/administration/Instant_Messaging.md) and your communication status after login.
 
 ![](assets/Instant_Status.en.png)
 

@@ -22,7 +22,7 @@ If you have not yet created a form, you can create a new learning resource form 
 
 A newly created form does not yet contain any elements, questions or text fields. These have to be added in the course via "Edit" or alternatively directly in the learning resource in the [Form Editor](../learningresources/Form_editor_Questionnaire_editor.md).
 
-If a form is created in the course editor, a new learning resource Form will be created automatically, which can also be found in the [Authoring Area](../area_modules/Authoring.de.md) under "My entries" and can be included in further courses and course elements.
+If a form is created in the course editor, a new learning resource Form will be created automatically, which can also be found in the [Authoring Area](../area_modules/Authoring.md) under "My entries" and can be included in further courses and course elements.
 
 !!! info "Note"
 

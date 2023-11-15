@@ -7,7 +7,7 @@ In the "Administration" area of a test, you will find further menus, similar to 
 Under "Edit content" you get to the [test editor](Test_editor_QTI_2.1.md). The actual test is created here. The basic configuration of the entire test is mostly done in the "Settings", especially in the "Options" tab. The "Options"
 tab is explained in more detail in this chapter.
 
-![Test administration](assets/Test_administration.png){ class="shadow" }
+![Test Administration](assets/Test_administration_DE.png){ class="shadow" }
 
 ### Export tests
 
@@ -51,7 +51,7 @@ Here you select a preconfigured selection of typical settings for different test
 
 Decide, for example, whether it is a summative or formative test or use a different default configuration. This makes it easier, especially for inexperienced authors, to quickly find a suitable setting. Later changes and individual adjustments are still possible.
 
-![Test Standard settings](assets/Test_Standardeinstellungen.png){ class="shadow" }
+![Test Standardeinstellungen](assets/Test_Standardeinstellungen_DE.png){ class="shadow" }
   
 #### Limit number of test attempts
 

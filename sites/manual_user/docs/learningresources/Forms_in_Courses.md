@@ -13,7 +13,7 @@ In general, forms can also be created directly in the course via the respective 
 
 !!! info "Hint"
 
-    It is often unclear to OpenOlat authors that the forms created in the course are a _course-independent_ OpenOlat learning resource "form" that can be used in the various course elements as well as in other courses. It is therefore recommended that the learning resource is not created in the course, but in the [authoring area](../area_modules/Authoring.de.md) and then integrated into the course.
+    It is often unclear to OpenOlat authors that the forms created in the course are a _course-independent_ OpenOlat learning resource "form" that can be used in the various course elements as well as in other courses. It is therefore recommended that the learning resource is not created in the course, but in the [authoring area](../area_modules/Authoring.md) and then integrated into the course.
 
 ## Changes to forms and included questionnaires
 

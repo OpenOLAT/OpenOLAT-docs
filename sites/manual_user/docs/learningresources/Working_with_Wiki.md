@@ -51,7 +51,7 @@ Syntax| Result (formatting)
 Syntax| Result (formatting)  
 ---|---
 [[Internal link]] | Internal link  
-[[Link `|` Text]] | [Text](../manual_user/docs/learning_activities/Working_with_Wiki.md)
+[[Link `|` Text]] | [Text](../learningresources/Working_with_Wiki.md)
 [http://www.openolat.org](http://www.openolat.org/)| [http://www.openolat.org](http://www.openolat.org/)  
 [[http://www.openolat.org](http://www.openolat.org/) The OpenOlat website] | [The OpenOlat website](http://www.openolat.org/)  
 
@@ -241,7 +241,7 @@ The Wiki can be exported and saved as IMS Content Packaging by all participants 
 
 !!! info "Note"
 
-    If a wWiki is to be exported directly as a Wiki, this is only possible by the owner of the Wiki directly in the learning resource via the menus "Copy" or "Export content". Course participants do not have that option.
+    If a Wiki is to be exported directly as a Wiki, this is only possible by the owner of the Wiki directly in the learning resource via the menus "Copy" or "Export content". Course participants do not have that option.
 
 !!! warning "Attention"
 

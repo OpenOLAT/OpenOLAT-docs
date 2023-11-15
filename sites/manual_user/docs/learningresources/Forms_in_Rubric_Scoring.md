@@ -62,7 +62,7 @@ Further information on the course element Assessment can be found [here](../lear
 
 The actual assessment of learners will then take place in course run directly at the desired course element or in the assessment tool when the course editor is closed.
 
-![Rubric scoring participant list](assets/Bewertung181.jpg){ class="shadow lightbox" }
+![Bewertung Teilnehmerliste](assets/Bewertung181.jpg){ class="shadow lightbox" }
 
 To do this, select the person to be assessed from the list and simply mark the desired points. If activated, the points from the rubric rating are automatically taken over and thus quickly lead to a criteria-based, transparent rating.
 
