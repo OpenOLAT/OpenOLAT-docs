@@ -7,7 +7,7 @@
 
 * * *
 
-:material-calendar-month-outline: **Releasedatum: 25.10.2023 • Letztes Update: 01.11.2023**
+:material-calendar-month-outline: **Releasedatum: 25.10.2023 • Letztes Update: 15.11.2023**
 
 * * *
 
@@ -87,6 +87,8 @@ Weitere Informationen zu "Passkey in OpenOlat" finden Sie in unserem  Blogartike
 
 Mit der "Passkey"-Implementierung wurde auch ein Redesign der OpenOlat Login-Maske umgesetzt. Die bisherige Kachel-Darstellung aller aktivierten Authentifizerungsmöglichkeiten wurde in diesem Zuge aufgelöst und die optische Gestaltung verbessert. Verschiedene Login-Services sind dadurch nun auf einen Blick ersichtlich.
 
+Mit :octicons-tag-24: Release 18.1.2 kann der lokale OpenOlat Login optional als einzelner Button dargestellt werden, beispielsweise wenn es als sekundäres Login-Verfahren genutzt wird und gegenüber der primären Login-Variante nicht so prominent erscheinen soll.
+
 ![Beispiel für neue OpenOlat Login-Maske](assets/181/Loginscreen_redesdign_DE.png){ class="shadow lightbox" title="Neue OpenOlat Login-Maske" }
 
 * * *
@@ -111,6 +113,7 @@ Der Report kann vom Zeitraum eingeschränkt werden, um beispielsweise wöchentli
 
 ### Weitere Projekt-Neuerungen
 
+* Bereich "Dateien": Erstellung von Audio- und Video-Aufzeichnungen (:octicons-tag-24: ab Release 18.1.2)
 * Visuelle Optimierung der "To-do" Detail-Seite und optimierte Darstellung des "Erledigt"-Button
 * Sammelaktionen zum Download aller Dateien oder Löschen von Entscheiden, To-Dos und Notizen
 * Neue Filter und optimierte Anzeige der verlinkten Dokumente
@@ -170,7 +173,7 @@ Auch überall, wo Dokumente erstellt werden können (z.B. Aufgabenbaustein, Ordn
 
 ## Audio Recorder
 
-Analog zum Video Recorder ist ab sofort auch ein Audio Recorder implementiert. Dieser kann im Kursbaustein "Aufgabe" zur Erstellung von Aufgaben oder Lösungen aktiviert werden. Ab :octicons-tag-24: Release 18.1.1 ist der Audio Recorder auch im Medien Center und als blockbasiertes Element im Kursbaustein "Seite" verfügbar sein.
+Analog zum Video Recorder ist ab sofort auch ein Audio Recorder implementiert. Dieser kann im Kursbaustein "Aufgabe" zur Erstellung von Aufgaben oder Lösungen aktiviert werden. Ab :octicons-tag-24: Release 18.1.1 ist der Audio Recorder auch im Medien Center und als blockbasiertes Element im Kursbaustein "Seite" verfügbar. Im Projekt im Bereich "Dateien" können ab :octicons-tag-24: Release 18.1.2 ebenfalls Audio- und Video-Aufzeichnungen erstellt werden.
 
 ![Audio-Aufnahme im Aufgabenbaustein](assets/181/Audio_recording_task_DE.png){ class="shadow lightbox" title="Audio-Aufnahme im Aufgabenbaustein" }
 
@@ -219,6 +222,7 @@ Formulare mit Rubrics werden häufig im Kursbaustein "Bewertung" im Rahmen von p
 
 * Optimierte Anzeige von richtigen/falschen Antworten
 * Formatiertes Prüfungslog
+* Kursbaustein "Bewertung": Optimiertes Änderungslog für Massenbewertung
 * Prüfungsmodus: Optimierung der Teilnehmenden-Auswahl
 * Archiv Kursresultate: Ergänzung der Daten zu Noten/Einstufungen, wenn aktiviert
 * Safe Exam Browser: Anzeige des generierten Links zum Beenden des SEB
@@ -246,6 +250,7 @@ Formulare mit Rubrics werden häufig im Kursbaustein "Bewertung" im Rahmen von p
     * eBook in neuem Fenster öffnen
 * Lebenszyklus "Konto": Optimierte Konfiguration von Mailbenachrichtigungen und Ergänzung der Variable für Reaktionsfrist
 * Rollenbasierte Konfiguration für Massensuche nach Benutzer:innen
+* Poster-Bild für Video-Recordings
 * Refactoring Transcoding-Module inkl. Option zur Löschung der Master-Videodatei
 * Integration von pdf.js als PDF-Viewer
 
@@ -259,6 +264,7 @@ Formulare mit Rubrics werden häufig im Kursbaustein "Bewertung" im Rahmen von p
     * Optimierte Konfiguration für extern bzw. speziell verwaltete ("managed") Objekte
     * Spezieller API-Schlüssel für Zugriff auf die REST API
 * Content Package: verbesserte Kompatibilität
+* BBB verbesserte Unterstützung für 2.6+
 * Prüfung der Festplattengröße für ActiveMQ Artemis unterbunden
 
 * * *
@@ -269,7 +275,8 @@ Formulare mit Rubrics werden häufig im Kursbaustein "Bewertung" im Rahmen von p
 
     Folgende Funktionen müssen nach einem Update auf Release 18.1 in der `Administration` aktiviert bzw. konfiguriert werden:
 
-    * [x] Modul "Passkey" und Sicherheitsstufen für Authentifizierung: `Login > Passkey`
+    * [x] Modul "Passkey" und Sicherheitsstufen für Authentifizierung: `Login > Password und Authentifizierung` - Tab "Authentifizierung"
+    * [x] OpenOlat als einzelner Login-Button: `Login > Password und Authentifizierung` - Tab "Authentifizierung"
     * [x] Medien Center:
         * Rollenbasierte Freigabemöglichkeiten: `Module > Medien Center`
         * Quota-Konfiguration: `Core Konfiguration > Dateien und Ordner` - Tab "Quotas" (::DEFAULT::POWERUSERS & ::DEFAULT::USERS)
@@ -285,5 +292,6 @@ Formulare mit Rubrics werden häufig im Kursbaustein "Bewertung" im Rahmen von p
 
 ## Weitere Informationen
 
+* [Jira Release Notes 18.1.2](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=21801){:target="_blank”}
 * [Jira Release Notes 18.1.1](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=21706){:target="_blank”}
 * [Jira Release Notes 18.1.0](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=21000){:target="_blank”}

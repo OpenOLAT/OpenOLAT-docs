@@ -7,7 +7,7 @@
 
 * * *
 
-:material-calendar-month-outline: **Release date: 10/25/2023 • Last update: 11/01/2023**
+:material-calendar-month-outline: **Release date: 10/25/2023 • Last update: 11/15/2023**
 
 * * *
 
@@ -85,6 +85,8 @@ For an effortless changeover, the switch to the next security level can also be 
 
 With the "Passkey" implementation, a redesign of the OpenOlat login screen was also implemented. The previous tile display of all activated authentication options was dissolved and the optical design was improved. Different login services are now visible at a glance.
 
+With :octicons-tag-24: Release 18.1.2, the local OpenOlat login can optionally be displayed as a single button, for example if it is used as a secondary login procedure and should not appear so prominent compared to the primary login variant.
+
 ![Example of new OpenOlat login mask](assets/181/Loginscreen_redesdign_EN.png){ class="shadow lightbox" title="New OpenOlat login mask" }
 
 * * *
@@ -109,6 +111,7 @@ The report can be restricted by time period, for example to create weekly or mon
 
 ### Further project innovations
 
+* "Files" section: Creation of audio and video recordings (:octicons-tag-24: from release 18.1.2)
 * Visual optimization of the "To-do" details page and optimized display of the "Done" button
 * Bulk actions to download all files or delete decisions, to-dos and notes
 * New filters and optimized display of linked documents
@@ -168,7 +171,7 @@ Also, wherever documents can be created (e.g. task element, folder), the new doc
 
 ## Audio recorder
 
-Analogous to the video recorder, an audio recorder is now also implemented. It can be activated in the course element "Task" to create tasks or solutions. As of :octicons-tag-24: release 18.1.1, the audio recorder is also available in the Media Center and as a block-based element in the course element "Page".
+Analogous to the video recorder, an audio recorder is now also implemented. It can be activated in the course element "Task" to create tasks or solutions. As of :octicons-tag-24: release 18.1.1, the audio recorder is also available in the Media Center and as a block-based element in the course element "Page". In the project section "Files", audio and video recordings can also be created as of :octicons-tag-24: Release 18.1.2.
 
 ![Audio recording in task element](assets/181/Audio_recording_task_EN.png){ class="shadow lightbox" title="Audio recording in task element" }
 
@@ -213,12 +216,11 @@ Forms with rubrics are often used in the course element "Assessment" in the cont
 
 ![Rubric with description in use](assets/181/Rubric_description_run_EN.png){ class="shadow lightbox" title="Rubric with description in use" }
 
-* * *
-
 ### Further eAssessment enhancements
 
 * Optimized display of correct/wrong answers
 * Formatted exam log
+* Course element "Assessment": Optimized change log for bulk assessment
 * Exam mode: Optimization of participant selection
 * Archive course results: Addition of grades/grading data when enabled
 * Safe Exam Browser: Display of generated link to exit SEB
@@ -246,6 +248,7 @@ Forms with rubrics are often used in the course element "Assessment" in the cont
     * Open eBook in new window
 * Life cycle "Account": Optimized configuration of mail notifications and addition of variable for reaction period
 * Role based configuration for bulk search for users
+* Poster image for video recordings
 * Refactoring transcoding modules incl. option to delete the master video file
 * Integration of pdf.js as PDF viewer
 
@@ -259,6 +262,7 @@ Forms with rubrics are often used in the course element "Assessment" in the cont
     * Optimized configuration for externally or specially "managed" objects
     * Special API key for access to the REST API
 * Content Package: improved compatibility
+* BBB improved support for 2.6+
 * Disk size check for ActiveMQ Artemis disabled
 
 * * *
@@ -269,7 +273,8 @@ Forms with rubrics are often used in the course element "Assessment" in the cont
 
     The following functions have to be activated / configured in the `Administration` after an update to release 18.1:
 
-    * [x] Module "Passkey" and security levels for authentication: `Login > Passkey`
+    * [x] Module "Passkey" and security levels for authentication: `Login > Password and authentication` - tab "Authentication"
+    * [x] OpenOlat as single login button: `Login > Password and authentication` - tab "Authentication"
     * [x] Media Center:
         * Role-based sharing options: `Module > Media Center`
         * Quota configuration: `Core Configuration > Files and Folders` - tab "Quotas" (::DEFAULT::POWERUSERS & ::DEFAULT::USERS)
@@ -285,5 +290,6 @@ Forms with rubrics are often used in the course element "Assessment" in the cont
 
 ## More information
 
+* [Jira Release Notes 18.1.2](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=21801){:target="_blank”}
 * [Jira Release Notes 18.1.1](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=21706){:target="_blank”}
 * [Jira Release Notes 18.1.0](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=21000){:target="_blank”}
