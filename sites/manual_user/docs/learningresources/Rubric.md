@@ -37,32 +37,45 @@ Rubrics can be added to an OpenOlat form via "Add content" and then configured.
 
 ![Rubrik Editor](assets/Rubric_add_EN.png){ class="shadow lightbox" }
 
-There are three different types and display variants of rubrics:
+A rubric always consists of rows and columns that must be labeled and defined in a meaningful way.
 
-![Rubric variants](assets/Scale_types_EN.png){ class="shadow lightbox" }
+In the "Column label" area, enter a meaningful rating scale, e.g. very good, good, medium, bad, very bad.  Each column is always associated with a certain value, which can be specified more concretely in the advanced settings of the rubric inspector.
 
-The number of steps defines the number of rubric columns. In the "Column label" area, enter a meaningful rating scale, e.g. very good, good, medium, bad, very bad.  Each column is always associated with a certain value, which can be specified more concretely in the advanced settings.
+Enter individual criteria, statements or questions in the row area that match your scale. Additional lines are added via "Add question". 
+You can also format the short statements. Individual lines can be moved using the up/down double arrows. In addition, you can assign a weighting to each line and thus assign special importance to individual criteria, which is also reflected in the points awarded, e.g. by double or triple points. 
+It is also possible to set the value to 0 to exclude individual questions from the reports.
 
-Enter individual criteria, statements or questions in the row area that match your scale. Additional lines are added via "Add question". You can also add a scale range by clicking on the arrow on the upper right.
+An edited rubric can therefore automatically receive a corresponding number of points, which is particularly relevant when used in the course element "[Assessment](../learningresources/Course_Element_Assessment.de.md)".
+
+The cross double arrow can be used to create a section with two ends.
 
 ![Rubric scale range](assets/Rubric_scale_EN.png){ class="shadow lightbox" }
-
-Individual lines can be moved up or down using the double arrows on the right side. In addition, you can give each line a weighting of the respective statement and thus assign special meaning to individual criteria, which is also reflected in the scoring, e.g. by double or triple points. It is also possible to set the value to 0 to exclude individual questions from the reports.
-
-An edited rubric can therefore automatically receive a corresponding number of points, which is particularly relevant when used in the course element "[Assessment](../learningresources/Knowledge_Transfer.md)".
 
 !!! info "Note"
 
     If a rubric is included in a course module evaluation, the weighting can no longer be changed.
 
-## Extended Configuration
+### Rubric inspector
 
-By clicking on the cogwheel, the configuration menu for the rubric appears and you can configure the rubric in a more differentiated way using the "General" and "Advanced" tabs. 
+![Rubrik Varianten](assets/Rubrik_Inspektor_en.png){ class="shadow lightbox" }
 
-If you activate the tab "Extended", the following additional options are available:
+The **"General"** tab is used to define the rubric type. There are three different types or display variants of rubrics. The number of steps defines the number of rubric columns. 2-10 columns are possible.
 
-![Advanced rubric configuration](assets/Rubric_erweitert_en.png){ class="shadow lightbox" }
+If "criteria description" is activated :octicons-tag-24: Release 18.1, each cell of the rubric table can be provided with short descriptive texts so that the criteria-based evaluation becomes even clearer.
 
-You can give the rubric a name, which makes it easier for you to assign it later during evaluation. If required, you can also display the name directly in the questionnaire. Under Scale type, you can specify the type of Likert scale used and thus also define the value range: Determine at which end of the scale the positive rating is and define if necessary the ranges for insufficient, neutral and good. This information is taken into account in the evaluation.
+![Rubric Zellentext](assets/Rubric_zellentext.png){ class="shadow lightbox" }
 
-Click the "Save" button to close the rubric editor area. 
+You can also activate the option "No answer" and define whether editing the section is optional or mandatory. 
+
+If you activate the **"Extended"** tab, the following options are available to you:
+
+
+![extended rubric configuration](assets/Rubric_erweitert_en.png){ class="shadow lightbox" }
+
+You can give the rubric a name, which makes it easier for you to assign it later during evaluation. If required, you can also display the name directly in the questionnaire. 
+
+Under Scale type, you can specify the type of Likert scale used and thus also define the value range: Determine at which end of the scale the positive rating is and define if necessary the ranges for insufficient, neutral and good. This information is taken into account in the evaluation.
+
+!!! info "Info"
+
+    The rubric inspector can be freely positioned and moved in the form area.

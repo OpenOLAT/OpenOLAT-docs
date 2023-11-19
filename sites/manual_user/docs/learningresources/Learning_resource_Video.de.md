@@ -1,21 +1,24 @@
 # Lernressource: Video
 ![icon_video.png](assets/video_64_0_434343_none.png)
 
-Eine zum Import [vorbereitete Videodatei](Video_Upload.de.md) muss im .mp4 Format vorliegen, damit sie in OpenOlat als Video-Lernressource erkannt werden kann.
-
 Eine Video-Lernressource wird im Autorenbereich über die Funktion "[Importieren](../area_modules/authoring_new_course.de.md#lernressourcen-importieren)" oder "Importieren URL" erstellt. Dazu im Upload-Fenster die gewünschte Video-Datei auswählen, einen Titel vergeben und auf "Importieren" klicken. 
+
+Es öffnet sich im nächsten Schritt die Eingabeseite der ["Einstellungen"](../learningresources/Course_Settings.de.md). 
 
 ![lernressource_video.png](assets/Video_Einstellungen.png)  
 
-Es öffnet sich im nächsten Schritt die Eingabeseite der "Einstellungen". Wird im Tab  "Info" der Lernressource Video eine Beschreibung eingegeben, kann diese beim Einbetten in den Kurs auch als Beschreibung im Kurs angezeigt werden. Weitere Infos siehe unten.
 
-!!! note "Info"
+Im Tab "Info" haben Sie Möglichkeit eine Beschreibung einzutragen, die auch angezeigt werden kann, wenn die Lernressource Video in einen Kurs eingebaut wird. Wie man Videos der Lernressource Video generell in einen Kurs einbindet erfahren Sie im Kapitel ["Kursbaustein Video"](Course_Element_Video.de.md).
+
+!!! info "Info"
+
+    Wird eine Datei importiert muss diese im .mp4 Format vorliegen. Weitere technische Infos finden Sie [hier](Video_Upload.de.md).
+
+!!! note "Hinweis für YouTube Videos"
 
     Werden über "Importieren URL" YouTube Videos importiert, werden dabei auch Metadaten der YouTube Datei, wie der Titel oder ein Startbild übernommen.
 
-!!! note "Info"
-
-    Wie man die Videos der Lernressource Video einbindet erfahren Sie im Kapitel ["Kursbaustein Video"](Course_Element_Video.de.md) einrichten.
+    
 
 ##  Video Editor
 
@@ -23,16 +26,14 @@ In der Administration der Lernressource findet man den Link zum "Video-Editor". 
 
 ![lernressource_video.png](assets/Video-Editor.png)
 
-Der Video Editor umfasst drei Bearbeitungsbereiche: 
-* Konfigurationsbereich
-* Timeline
-* Vorschaubereich
+Der Video Editor umfasst drei Bearbeitungsbereiche:
+
+* Konfigurationsbereich (rechts oben)
+* Timeline (unten)
+* Vorschaubereich (links oben)
 
 Konfiguriert werden können: Kapitel, Annotationen, Segmente, Kommentare und Quiz. 
 
-!!! info "Tipp"
-
-    Hilfreich ist es die unterschiedlichen Elemente mit verschiedenen Farben zu kennzeichnen. 
 
 ### Kapitel {: #video_chapter}
 
@@ -40,7 +41,7 @@ Jedem Video können "Kapitel" als Sprungmarken hinzugefügt werden. Dies erleich
 
 Alternativ kann im Video an der Stelle gestoppt werden, wo das neue Kapitel beginnen soll. Anschliessend klicken Sie wiederum auf die Schaltfläche "Kapitel hinzufügen". Die Anfangszeit wird nun automatisch übernommen und es muss nur noch ein Kapitelname eingetragen werden.
 
-Kapitel können anschließend sowohl bearbeitet, als auch wieder gelöscht werden. Ferner sind die Kapitel in der Timeline sichtbar. 
+Kapitel können anschliessend sowohl bearbeitet, als auch wieder gelöscht werden. Ferner sind die Kapitel in der Timeline sichtbar. 
 
 ![lernressource_video.png](assets/Video-Editor_Kapitel.png)
 
@@ -92,7 +93,8 @@ Neben einfachen Text-Kommentaren und der Einbindung bestehender Videos (Import a
 
 An dieser Stelle können Sie dem Video einzelne Quizfragen hinzufügen. Aktuell stehen 12 verschiedene Fragetypen zur Auswahl. Anschliessend kann die Frage weiter konfiguriert werden. 
 
-Zur Konfiguration der Quizfrage kann 
+Zur Konfiguration der Quizfrage kann
+
 * der Zeitpunkt definiert werden zu dem die Frage erscheinen soll
 * eine Zeitbeschränkung für die Bearbeitung definiert werden
 * und definiert werden, ob es mehrere Lösungsversuche für eine Frage geben soll, oder diese übersprungen werden dürfen
@@ -121,7 +123,7 @@ Im Tab "Poster konfigurieren" legen Sie fest, mit welchem Vorschaubild das Video
 
 !!! info "Achtung"
 
-    Bitte beachten Sie, dass ein solches Bild dieselben Abmessungen in Pixel haben sollte wie das Originalvideo. Die entsprechenden Daten dazu finden Sie im Tab "Metadaten".
+    Bitte beachten Sie, dass ein hochgeladenes Bild dieselben Abmessungen in Pixel haben sollte wie das Originalvideo. Die entsprechenden Daten dazu finden Sie im Tab "Metadaten".
 
 ###  Untertitel konfigurieren  {: #video_subtitles}
 
