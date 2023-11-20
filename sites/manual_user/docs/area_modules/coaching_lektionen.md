@@ -22,7 +22,7 @@ In the cockpit, a specific appointment can be selected and the associated lesson
 
 ### 2. Tab Lectures
 
-A time slot can be selected here and it can be searched for keywords. An overview of the lesson blocks for this time period is displayed. Further information on the subject of "Lectures" can be found [here](../learningresources/Lectures_Teacher_view.de.md).
+A time slot can be selected here and it can be searched for keywords. An overview of the lesson blocks for this time period is displayed. Further information on the subject of "Lectures" can be found [here](../learningresources/Lectures_Teacher_view.md).
 
 ### 3. Tab Absences
 

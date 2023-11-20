@@ -15,7 +15,7 @@ OpenOlat users can find the catalog in the **header menu**.
 
 ![catalog20_kopfzeilenmenu_v1_de.png](assets/catalog20_kopfzeilenmenu_v1_de.png){ class="shadow lightbox" }
 
-Requirement: The catalog must be activated in the [administration](../../../manual_admin/docs/administration/Modules_Catalog_2.0.md). 
+Requirement: The catalog must be activated in the [administration](../../manual_admin/administration/Modules_Catalog_2.0.md). 
 
 !!! tip "Note"
 

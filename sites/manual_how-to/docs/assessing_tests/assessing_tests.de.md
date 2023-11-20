@@ -39,7 +39,7 @@ Mit **Klick auf "Korrektur" in der Zeile des aktuellen Kursruns** erhalten Sie d
 
 **2. Einstieg durch Aufruf des Bewertungswerkzeuges**
 
-Das Bewertungswerkzeug wird aufgerrufen via<br>
+Das Bewertungswerkzeug wird aufgerufen via<br>
 **Kurs > Administration > Bewertungswerkzeug**
 
 Im Bewertungswerkzeug werden alle bewertbaren Kursbausteine des ganzen Kurses angezeigt. Wählen Sie den relevanten Test-Kursbaustein. Sie erhalten...
@@ -114,7 +114,7 @@ Die Punkte je Fragen werden zur Punktesumme des Kursbausteins addiert.
 
 Die Endsumme der Punkte kann umgerechnet werden in
 
-* Noten (Details sind konfigurierbar, z.B. 1-6 oder 6-1
+* Noten (Details sind konfigurierbar, z.B. 1-6 oder 6-1)
 * Begriffe zur Bewertung (z.B. "sehr gut", "gut", usw. oder A1, B1, usw. für Sprachniveaus)
 * grafische Bewertung (z.B. verschiedene Smileys)
 

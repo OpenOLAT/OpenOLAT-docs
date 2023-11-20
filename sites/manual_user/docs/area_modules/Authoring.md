@@ -34,7 +34,7 @@ The second line already shows several **buttons** with filter options. By pressi
 In the **Search box** you can search directly for the title. Even parts of the title already provide a search result.
 
 You can find out more details on how to use the filter options in the article on the 
-[Filter Menu](../basic_concepts/Table_concept.md).
+[Filter Menu](../basic_concepts/Table_Concept.md).
 
 !!! hint "Hint"
 

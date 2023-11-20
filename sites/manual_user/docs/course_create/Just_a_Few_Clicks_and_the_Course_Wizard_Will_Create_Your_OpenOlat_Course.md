@@ -28,7 +28,7 @@ participants.
 
 Creating OpenOlat courses is pretty easy. In most cases, the wizard is not
 even necessary, especially since you will not really be able to avoid a later
-revision in the [course editor](../learningresources/General_Configuration_of_Course_Elements.md). It is better to look at the described [course cycle](../learningresources/General_Information.md) and set up your course directly with the [course editor](In_Five_Steps_to_Your_Course_With_the_Course_Editor.md).
+revision in the [course editor](../learningresources/General_Configuration_of_Course_Elements.md). It is better to look at the described [course cycle](../learningresources/General_Information.md) and set up your course directly with the [course editor](../learningresources/General_Configuration_of_Course_Elements.md).
 
 The assistant only works for "conventional courses". Learning path courses
 cannot be created with it.

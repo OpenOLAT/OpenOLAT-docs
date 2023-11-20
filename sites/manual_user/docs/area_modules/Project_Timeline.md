@@ -19,4 +19,4 @@ Actions that appear in the timeline are:
 * Deleting an object
 * Leaving/joining a project
 
-![Bild der Zeitleiste](assets/project-timeline.de.png)
+![Bild der Zeitleiste](assets/project-timeline.png)

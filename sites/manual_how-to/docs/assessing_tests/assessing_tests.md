@@ -2,130 +2,130 @@
 
 ??? abstract "Objectives and content of this instruction"
 
-    Sie haben bereits einen Kurs mit einem Test-Kursbaustein erstellt.<br>
-    Sie haben den Kurs veröffentlicht und die Kursteilnehmer haben den Test bearbeitet.<br>
-    Wie gehen Sie nun vor, um die Testergebnisse der Teilnehmer zu bewerten? Die folgende Anleitung zeigt es Ihnen.
+    You have already created a course with a course element.<br>
+    You have published the course and and the participants have worked on the test.<br>
+    How do you progress from here to assess the test results by the participants? The following instruction shows you how.
 
 ??? abstract "Target group"
 
-    [ ] Autor:innen [x] Betreuer:innen  [ ] Teilnehmer:innen
+    [ ] Authors [x] Coaches  [ ] Participants
 
-    [x] Anfänger:innen [x] Fortgeschrittene  [ ] Experten/Expertinnen
+    [x] Beginners [x] Amateurs  [ ] Experts
 
 
 ??? abstract "Expected previous knowledge"
 
-    * [„Wie erstelle ich meinen ersten OpenOlat-Kurs?"](../my_first_course/my_first_course.de.md)
-    * [„Wie gehe ich vor, wenn ich einen Test erstelle?"](../test_creation_procedure/test_creation_procedure.de.md)
-    * Bewertungswerkzeug
+    * ["How do I create my first OpenOlat course?"](../my_first_course/my_first_course.md)
+    * ["How do I proceed when I create a test?"](../test_creation_procedure/test_creation_procedure.md)
+    * Assessment tool
 
 
 ---
 
-## Wie gelange ich zur Bewertung eines Tests?
+## How do I get to the assessment of a test?
 
-Ein Test wird jeweils mit einem Bewertungsformular bewertet. Um es aufzurufen, gibt 3 Einstiegspunkte:
+Each test is assessed using an evaluation form. To call it up, there are 3 entry points:
 
-**1. Einstieg direkt im Kursbaustein**
+**1. Start directly in the course module**
 
-Wer als Betreuer:in angemeldet ist, sieht bei **Klick auf den Test-Kursbaustein** nicht den Test (wie die Teilnehmer), sondern eine Übersicht zum Bearbeitungsstatus der betreuten Teilnehmer:innen.
+If you are registered as a coach, when you **click on the test course element** you will not see the test (like the participants), but an overview of the processing status of the supervised participants.
 
-Im **Tab "Teilnehmer"** erhalten Sie die Liste der betreuten Teilnehmer mit Bearbeitungsstatus dieses Kursbausteins.
+In the **"Participants "** tab, you will see the list of coached participants with the processing status of this course element.
 
-Nach **Wahl eines Teilnehmers** gelangen Sie zum Bewertungsformular des Gesamttests.
+After **selecting a participant** you will be taken to the evaluation form for the overall test.
 
-Mit **Klick auf "Korrektur" in der Zeile des aktuellen Kursruns** erhalten Sie die Liste der Fragen dieses Tests und können jede Einzelfrage bewerten. (Zu jeder Frage gibt es ein Bewertungsformular.)
-
-<br>
-
-**2. Einstieg durch Aufruf des Bewertungswerkzeuges**
-
-Das Bewertungswerkzeug wird aufgerrufen via<br>
-**Kurs > Administration > Bewertungswerkzeug**
-
-Im Bewertungswerkzeug werden alle bewertbaren Kursbausteine des ganzen Kurses angezeigt. Wählen Sie den relevanten Test-Kursbaustein. Sie erhalten...
+By **clicking on "Correction" in the line of the current course run** you will receive the list of questions of this test and can evaluate each individual question. (There is an evaluation form for each question).
 
 <br>
 
-**3. Einstieg über das Coachingtool**
+**2. Access by calling up the assessment tool**
 
-Wird Ihnen im **Menü der Kopfzeile die Option "Coachingtool"** angezeigt, können Sie auch darüber zur Bewertung des Test-Kursbausteins gelangen.
+The evaluation tool is called up via<br>
+**Course > Administration > Assessment tool**
 
-Das Bewertungswerkzeug listet alle bewertbaren Kursbausteine eines Kurses auf, also auch einen darin enthaltenen Test. Das Coachingtool zeigt dagegen kursübergeifend anstehende Bewertungsaufträge an.
-
-* Offene Bewertungen
-* Freizugebende Bewertungen
-* Korrekturaufträge (auch wenn Sie eine Kurs-externe Person sind)
+All assessable course elements of the entire course are displayed in the assessment tool. Select the relevant test course element. You will receive...
 
 <br>
 
----
+**3. Access via the coaching tool**
 
-## Automatische und manuelle Bewertung 
+If the option **"Coaching tool"** is displayed in the **header menu**, you can also use it to access the assessment of the test course element.
 
-Viele Fragetypen können automatisch bewertet werden (z.B. Single Choice, Multiple Choice).
-Wird automatisch bewertet, können Sie die automatische Bewertung so übernehmen oder manuell mit einer eigenen (manuellen Bewertung) übersteuern.
+The assessment tool lists all assessable course elements of a course, including a test contained therein. The coaching tool, on the other hand, displays pending assessment assignments across all courses.
 
-Daneben gibt es Fragetypen, die zwingend manuell bewertet werden müssen, weil sie nicht automatisch auswertbar sind (z.B. Freitext-Eingabefeld).
+* Open assessment
+* Assessments to be shared
+* Correction orders (even if you are a person external to the course)
 
 <br>
 
 ---
 
-## Das Bewertungsformular
+## Automatic and manual evaluation
 
-Pro Frage eines Tests gibt es für jeden Kursteilnehmer in OpenOlat ein Bewertungsformular.
-Ausserdem gibt es ein Bewertungsformular für den gesamten Test-Kursbaustein.
+Many question types can be scored automatically (e.g. single choice, multiple choice).
+If automatic valuation is used, you can accept the automatic valuation or override it manually with your own (manual valuation).
 
-Dort können Sie
-
-* kurze Feedbacks geben (Kommentar für Teilnehmende)
-* Punkte vergeben
-* bestanden/nicht bestanden definieren 
-* die Freigabe der Resultate für Lernende einstellen
-* Kommentare für andere Betreuter hinterlassen
-* Bewertungsdokumente verteilen
-* eine Bewertung abschliessen
+In addition, there are question types that must be evaluated manually because they cannot be evaluated automatically (e.g. free text input field).
 
 <br>
 
 ---
 
-## Das Korrekturwerkzeug
+## The assessment form
 
-Für Tests ist zusätzlich ein Korrekturwerkzeug verfügbar, in dem die Tests **fragenweise** korrigiert werden können. Sie gelangen über das Bewertungswerkzeug dorthin.
+There is one evaluation form for each question of a test for each course participant in OpenOlat.
+There is also an evaluation form for the entire test course module.
 
-**Kurs wählen > Administration > Bewertungswerkzeug > Tab "Teilnehmer" > Button "Korrekturwerkzeug"**
+There you can
 
-Es kann damit auf 2 Arten korrigiert werden:
+* Provide brief feedback (commentary for participants)
+* Points awarded
+* Define pass/fail
+* Set the release of results for learners
+* Leave comments for other users
+* Distribute assessment documents
+* Complete an evaluation
 
-1. Eine bestimmte Frage auswählen und diese Frage bei allen Teilnehmern korrigieren.
-2. Einen Teilnehmer auswählen und dann nacheinander alle Fragen dieses Teilnehmers korrigieren, bevor Sie zum nächsten Teilnehmer wechseln.
+<br>
+
+---
+
+## The correction tool
+
+A correction tool is also available for tests, in which the tests can be corrected **question by question**. You can access this via the assessment tool.
+
+**Select course > Administration > Assessment tool > Tab "Participant" > Button "Correction tool"**
+
+It can be corrected in 2 ways:
+
+1. Select a specific question and correct this question for all participants.
+2. Select a participant and then correct all questions of this participant one after the other before switching to the next participant.
 
 
 <br>
 
 ---
 
-## Bewertungssysteme 
+## Assessment systems 
 
-Standardmässig wird in OpenOlat jede Frage mit Punkten bewertet.
+By default, every question in OpenOlat is awarded points.
 
-Die Punkte je Fragen werden zur Punktesumme des Kursbausteins addiert.
+The points for each question are added to the total points for the course element.
 
-Die Endsumme der Punkte kann umgerechnet werden in
+The final total of points can be converted into
 
-* Noten (Details sind konfigurierbar, z.B. 1-6 oder 6-1
-* Begriffe zur Bewertung (z.B. "sehr gut", "gut", usw. oder A1, B1, usw. für Sprachniveaus)
-* grafische Bewertung (z.B. verschiedene Smileys)
+* Grades (details are configurable, e.g. 1-6 or 6-1)
+* Terms for evaluation (e.g. "very good", "good", etc. or A1, B1, etc. for language levels)
+* Graphic evaluation (e.g. various smileys)
 
-Ob und wie eine Umwandlung der Punkte stattfindet, wird vom Kursautor festgelegt und kann nicht von bewertenden Personen eingestellt werden.
+Whether and how points are converted is determined by the course author and cannot be set by the evaluators.
 
 <br>
 
 ---
 
-## Links
+## Links (German)
 
 :octicons-device-camera-video-24: **Video-Einführung**: [Überblick Testing](<https://www.youtube.com/embed/fkqH41-8CaI>){:target="_blank”}
 
@@ -136,11 +136,11 @@ Ob und wie eine Umwandlung der Punkte stattfindet, wird vom Kursautor festgelegt
 
 ---
 
-## Checkliste
+## Checklist
 
-- [x] Wurde der Test von allen Kursteilnehmer bearbeitet?
-- [x] Ist der späteste erlaubte Bearbeitungszeitpunkt bereits überschritten?
-- [x] Ist klar, wer die Testergebnisse bewertet?
-- [x] Soll eine Person korrigieren, die nicht Mitglied des Kurses ist? 
-- [x] Sollen Korrekturaufträge vergeben werden?
+- [x] Was the test completed by all course participants?
+- [x] Has the latest permitted processing time already been exceeded?
+- [x] Is it clear who evaluates the test results?
+- [x] Should a person who is not a member of the course correct?
+- [x] Should correction orders be issued?
 
