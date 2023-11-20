@@ -12,12 +12,12 @@ You control most of the central settings via the tools that you find in the [adm
  * [Data archiving](Data_archiving.md) for securing course results and other things.
 
 The use of other course functions of the [Toolbar](Using_Additional_Course_Features.md) is also explained in this chapter.
-
+s
 ## Role change
 
 One more important tip to help you work on a course and view it from different roles: 
 
-If you as a course owner or coach have **more than one role** in a course (see [Members management](Members_management.md)), the option to switch user roles when the editor is closed will appear in the [course toolbar](Using_Additional_Course_Features.de.md), allowing you to view the course from the perspective of the different roles. 
+If you as a course owner or coach have **more than one role** in a course (see [Members management](Members_management.md)), the option to switch user roles when the editor is closed will appear in the [course toolbar](../learningresources/Using_Additional_Course_Features.md), allowing you to view the course from the perspective of the different roles. 
 
 Depending on which roles you have in the course, you will see the respective basic roles displayed. There is no further distinction between coaches and group coaches or participants and group participants, but the options within the role coach or participant are summarized.
 

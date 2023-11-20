@@ -26,7 +26,7 @@ you would like to continue using, it is a good idea to copy these course element
 
 ### The way:
 
-![](assets/Weg_importieren.en.png)
+![](assets/Weg_importieren_KB.png)
 
 a) Select the desired course in which the course element(s) to be copied are located.
 

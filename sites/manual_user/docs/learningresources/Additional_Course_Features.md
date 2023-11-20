@@ -77,7 +77,7 @@ You may also be able to edit glossary entries if this option has been activated 
 ###   Course chat
 
 Click on "Course chat" in order to open the chat window. At first you will always be anonymous. On the right side of the chat window there is the possibility to choose your
-alias or put your username on display. General chat features will be further explained in the section ["Chat"](../basic_concepts/Chat.de.md).
+alias or put your username on display. General chat features will be further explained in the section ["Chat"](../basic_concepts/Chat.md).
 
   
 

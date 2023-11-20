@@ -17,7 +17,7 @@ One video per course element is linked. Depending on the configuration, the vide
 
 If it is an interactive video, further actions such as answering quiz questions or calling up links are also possible.
 
-For information on post-processing the video with OpenOlat quizzes and skip marks, see the "[Learning resource: Video](../learningresources/Learning_resource_Video.de.md)" chapter.
+For information on post-processing the video with OpenOlat quizzes and skip marks, see the "[Learning resource: Video](../learningresources/Learning_resource_Video.md)" chapter.
 
 ## Assign new video
 
@@ -63,4 +63,4 @@ A video that has been integrated into a course with the help of the course eleme
   * Comments
   * Assessments
   * a start image as desired
-  * Combination with specific completion criteria in [Learning path courses](../learningresources/Learning_path_course.de.md)
+  * Combination with specific completion criteria in [Learning path courses](../learningresources/Learning_path_course.md)
