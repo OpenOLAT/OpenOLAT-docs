@@ -1,21 +1,47 @@
-# Creating Videos
+# Videos: Overview
 
-  * [Learning resource: Video](Learning_resource_Video.md)
-  * [Course Element: Video](Course_Element_Video.md)
-  * [Single Page: Add / edit video](Single_Page_Add_edit_video.md)
+The "Video" chapter explains to course authors how to 
+
+* record videos in OpenOlat yourself, import them or insert them as a link,
+* create videos as a learning resource,
+* integrate and configure videos in a course.
+* It is also important to know where and how the videos are saved.
+
+
+### Directly integrated
+Videos can be **directly integrated** as mp4 files or links. E.g. in the [course element "HTML page"](Course_Element_Single_Page.md) or in the feedback for a question.
+
+### Video learning resource
+Additional features can be added to the mp4 files in the OpenOlat video editor. This turns it into a [**video learning resource**](Learning_resource_Video.md), which contains annotations and quiz questions, for example. (These features can also be added to linked videos).
+
+### Learning resource in a course element
+The video learning resources can be **integrated into course elements** and provided with further configurations there. E.g. in the [course element "Video"](Course_Element_Video.md) or [course element "Video task"](Course_Element_Video_Task.md).
+
+### Where are the videos stored?
+* Videos in the course element "HTML page" are stored in the **storage folder** of the course. From there, they are linked to the course element. Videos embedded in this way are only available in the respective course.
+
+* Instead of storing videos in the storage folder of a course, they can also be stored in a [**resource folder**](../learningresources/Course_Settings.md#ressourcenordner-einbinden). Included resource folders can then be used in several courses.
+
+* Videos can be found as learning resources in the [**authoring area**](../area_modules/Authoring.md).
+
+* In addition, videos can also be stored in the [**Media Center**](../personal_menu/Media_Center.md).
+
+
+### Links
+
+  * [Learning resource Video](Learning_resource_Video.md)
   * [Video Upload](Video_Upload.md)
+  * [Video Recording](Video_Recording.md)
+  * [Course Element: Video](Course_Element_Video.md)
+  * [Course Element: Videotask](Course_Element_Video_Task.md)
+  * [Course Element: Page](Course_Element_Page.md)
+  * [Course Element: HTML Page](Course_Element_Single_Page.md)
+  * [Course Element: Video Livestream](Course_Element_Video_Livestream.md)
+  * [Course Element: Podcast](Course_Element_Podcast.md)
+  * [Course Element: Mediasite](Course_Element_Mediasite.md)
+  * [Video Collection](Learning_resource_Video.md#menu-video-collection)
+  * [Media Center](../personal_menu/Media_Center.md)
 
-  
-
-The chapter "Creating Video" explains course authors how to create videos as learning resource in OpenOlat and how to integrate them into a course. Here you will find information on how videos can be configured. Furthermore you will find information on how to embed videos in individual course pages and how to prepare videos for import in OpenOlat under "[Single Page: Add/edit video](Single_Page_Add_edit_video.md)".
-
-In OpenOlat videos can be implemented in different ways:
-
-  * as  **learning resource**. The video is created in the [Authoring](../area_modules/Authoring.md) via the option "Import" or "Import URL" and then appears as an independent learning resource "Video". Information on the video learning resource and "Video Collection" can be found on the "[Learning Resource: Video](Learning_resource_Video.md)" page.
-  *  **embedded in a single page** , where videos uploaded as a file can be linked. Further information for the embedding of videos in the [course element single page](../learningresources/Course_Element_Single_Page.md) you can find on the page. Videos embedded this way are only available in the course where the video is embedded in the corresponding storage folder. Instead of storing videos in the storage folder of a course, they can also be stored in a [resource folder](../learningresources/Course_Settings.md#including-resource-folder). Included resource folders can be used in multiple courses.
-  * directly as a **file** via the course element "Single page"
-  * with the **course element Podcast**
-  * als spezifische Aufgabe über den den **Kursbaustein Video-Aufgabe** 
 
 !!! info "Info"
 
