@@ -31,17 +31,17 @@ You can further refine the course list by filtering or searching.
 
 #### Static Launcher
 
-In this launcher one can add static text. Some options include: Bold,Italic, Text size, Font, Add image, Add video, Hyphens ...
+In this launcher one can add static text. Some options include: Bold, Italic, Text size, Font, Add image, Add video, Hyphens ...
 
 ### Tab Filters
 
 This tab controls which filters are available on the microsites and search results page. Here you can select which filters should be available for participants. By default, these filters are activated here.
 
-To add filters, press Add Filter in the top left-hand corner.
+To add filters, press "Add Filter" in the top left-hand corner.
 
 ### Layout
 
-This tab contains everything concerning the appearance of the catalog V2. You can customise the display title of the catalogue and select a background image for the header of the start page.
+This tab contains everything concerning the appearance of the catalog V2. You can customize the display title of the catalogue and select a background image for the header of the start page.
 
 Under **Tiles Taxonomy Levels Launcher**, one can influence the appearance of the tiles of the microsites.
 
@@ -51,10 +51,10 @@ The **Learning Resources Card display** controls which metadata should be displa
 
 ### Management of catalog V2
 
-Catalogue V2 is fed from the subject taxonomy, who can be administrated  under ´Administration > Taxonomy´. Users with the role [learning resource manager](../../manual_user/access_roles_rights/index.md) and administrator can manage the keywording via the menu.
+Catalogue V2 is fed from the subject taxonomy, who can be administrated  under `Administration > Taxonomy`. Users with the role [learning resource manager](../../manual_user/area_modules/coaching_linienvorgesetzte.md) and administrator can manage the keywording via the menu.
 Clicking takes you to the subjects. There you can select the current taxonomy, create and import new taxonomy levels and also delete levels.
 
-Deleting levels only deletes the keywording, not any linked learning resources. Once deleted, a learning resource no longer appears in the catalogue.
+Deleting levels only deletes the keywording, not any linked learning resources. Once deleted, a learning resource no longer appears in the catalog.
 
 !!! warning
 

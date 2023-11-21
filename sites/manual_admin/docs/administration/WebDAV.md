@@ -48,7 +48,7 @@ parameters can be configured
 
   *  **Group Managed Course**
   *  **Prepend external course reference to title**  
-	Decide whether the course [reference](../../manual_user/authoring/Set_up_info_page.md) should prepend
+	Decide whether the course [reference](../../manual_user/learningresources/Set_up_info_page.md) should prepend
 	the course title in order to be able to distinguish between similar course
 	titles.  
 
@@ -66,6 +66,5 @@ parameters can be configured
 
 ## Usage
 
-More information about WebDAV usage in OpenOlat: [Using
-WebDAV](../../manual_user/supported_tech/Using_WebDAV.md)
+More information about WebDAV usage in OpenOlat: [Using WebDAV](../../manual_user/basic_concepts/Using_WebDAV.md)
 
