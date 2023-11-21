@@ -1,4 +1,4 @@
-# Guest and invitation
+# Anonymous guests and external users
 
 In the area "Guest and Invitation" in the login configuration it is defined
 whether a guest login is possible, as well as further detailed settings in

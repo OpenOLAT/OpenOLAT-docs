@@ -1,9 +1,9 @@
-# Anonyme und externe Benutzer:innen
+# Anonyme Gäste und externe Benutzer:innen
 
 OpenOlat kann neben registrierten Benutzern auch benutzt werden von
 
-* **Gästen** (anonym)
-* **externen Benutzer:innen** (per Mail nur in einen bestimmten Kurs/Gruppe/Portfolio/Projekt eingeladen)
+* **Gästen** (anonym, können nur die für Gäste frei gegebenen Angebote nutzen)
+* **externen Benutzer:innen** (mindestens mit Mail bekannt, sind per Mail nur in einen ganz bestimmten Kurs/Gruppe/Portfolio/Projekt eingeladen)
 
 
 Administrator:innen können festlegen, ob und in welchem Umfang OpenOlat so genutzt werden kann.
