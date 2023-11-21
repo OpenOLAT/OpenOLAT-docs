@@ -20,6 +20,4 @@ gets access.
 ** Enables the full-text search also for guests. All courses with the access
 for guests are searched.
 
-  
-![](assets/admin_Login_gast.jpg){ class="shadow" }
 

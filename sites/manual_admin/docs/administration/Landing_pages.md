@@ -11,7 +11,7 @@ that's applied. Because of that, you might want to give the order of the rules
 some consideration.
 
 !!! attention 
-	Each user can choose his or her preferred landing page in the personal menu in [System Settings/System/Specific System Settings](../../manual_user/personal_nenu/Configuration.md#general). However, this
+	Each user can choose his or her preferred landing page in the personal menu in [System Settings/System/Specific System Settings](../../manual_user/personal_menu/Configuration.md). However, this
 	overrides the system default.
 
 ![](assets/admin_landingPage_EN.png){ class="shadow lightbox" }
