@@ -2,7 +2,7 @@
 
 * [Assessment mode](../learningresources/Assessment_mode.md)
 * [Performance assessment](../learningresources/Performance_assessment.md)
-* [Coaching](../area_modules/Coaching.de.md)
+* [Coaching](../area_modules/Coaching.md)
 
 OpenOlat allows the implementation of various performance and achievementcontrols. Beside the course elements designed for [knowledge transfer](../learningresources/Knowledge_Transfer.md) or
 [collaboration](../learningresources/Communication_and_Collaboration.md), there are a number of course elements with the sole purpose of performance control and [assessment](../learningresources/Assessment.md). These are again subdivided into two types: there those with a formative character, best suited to be used collaterally in a course or semester, such as the task, the portfolio task or the checklist. On the other hand are the tests, selectively used for primarily summative assessment.

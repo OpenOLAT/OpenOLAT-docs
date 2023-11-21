@@ -1,21 +1,23 @@
 # Learning resource: Video
 ![icon_video.png](assets/video_64_0_434343_none.png)
 
-To be recognized in OpenOlat as a video learning resource a [video file prepared for the import](Video_Upload.md) needs to be in the .mp4 form.
-
 A video learning resource is created in authoring with the feature "[Import](../area_modules/Authoring_BulkActions.md)" or "Import URL". Therefore you select the desired video-file in the upload window and click on "Import". 
 
+In the following step the form opens on [info page](../learningresources/Course_Settings.de.md). 
+
 ![lernressource_video.png](assets/Video_Einstellungen.png)  
+ 
+If a description is indicated on the info page after the import, it can be shown as course description when embedding into the course.Y ou can find out how to integrate videos from the video learning resource into a course in general in the chapter ["Course element video"](Course_Element_Video.md).
 
-In the following step the form opens on info page. If a description is indicated on the info page after the import, it can be shown as course description when embedding into the course.
+!!! info
 
-!!! info "Note"
+    If a file is imported, it must be in .mp4 format. Further technical information can be found [here](Video_Upload.md).
+
+!!! info "Note for YouTub videos"
 
     If YouTube videos are imported via "Import URL" YouTube, metadata of the YouTube file, such as the title or a start image, are also imported.
 
-!!! info "Note"
 
-    How to embed the videos of the learning resource video can be found in the chapter ["Course element video"](Course_Element_Video.md).
 
 ##  Video Editor
 
@@ -23,7 +25,8 @@ In the administration of the learning resource, you will find a link to the "Vid
 
 ![lernressource_video.png](assets/Video-Editor.png)
 
-The Video Editor includes three editing areas: 
+The Video Editor includes three editing areas:
+ 
 * Configuration area
 * Timeline
 * Preview area

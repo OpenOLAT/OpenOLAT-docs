@@ -23,8 +23,8 @@ Once the items have been created via OpenOlat, the structure is automatically cr
   * [Personal folder](../../manual_user/personal_menu/Personal_folders.md) (every user)  
   * [Folders of groups](../../manual_user/groups/Using_Group_Tools.md) (group members)
   * [Storage folders](../../manual_user/learningresources/Storage_folder.md) of courses (course owners only)
-  * [Folder - course element ](../../manual_user/learningresourses/Course_Element_Folder.md) (course members)
-  * [Resource folders](../../manual_user/learningresourses/Course_Settings.md#including-resource-folder) (only Learning Resource Owner)
+  * [Folder - course element](../../manual_user/learningresources/Course_Element_Folder.md) (course members)
+  * [Resource folders](../../manual_user/learningresources/Course_Settings.md#including-resource-folder) (only Learning Resource Owner)
 
 Who is allowed to upload files via WebDAV in the respective folders depends on
 the respective configuration.
@@ -88,7 +88,7 @@ In order to get access to a folder in OpenOlat via WebDAV you need:
 
     1. KDE Plasma: in Dolphin insert in the path webdavs:// + WebDAV-link. You will be asked for username and password. If the path is not shown, it can be activated with F6 any time. Example: <webdavs://www.olat.uzh.ch/olat/webdav/>.
     2. Gnome: `davs:// + username or email address + @` \+ WebDAV link. Example: `davs://jdoe@www.olat.uzh.ch/olat/webdav/`.
-    3. FUSE: WebDAV directories can be mounted directly into the file system (also compatible to OSX; for more information please go to the [FUSE website](http://fuse.sourceforge.net "FUSE website").
+    3. FUSE: WebDAV directories can be mounted directly into the file system (also compatible to OSX; for more information please go to the [FUSE website](http://fuse.sourceforge.net "FUSE website")).
 
 ??? abstract "Alternative"
 

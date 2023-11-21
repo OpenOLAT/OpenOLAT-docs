@@ -43,7 +43,7 @@ creation of many accounts is possible in a very short time.
 
 ## Users create their own account
 
-If self-registration is enabled in the "[Login](../administration/Login.de.md)" area of the
+If self-registration is enabled in the "[Login](../administration/Login.md)" area of the
 administration, any person can register themselves in the system. Further
 restrictions can be defined during self-registration.
 

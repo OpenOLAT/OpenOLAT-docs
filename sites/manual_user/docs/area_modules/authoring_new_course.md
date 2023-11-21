@@ -21,7 +21,7 @@ The specific creation process is described on the following pages:
 [User manual article](../learningresources/Wiki.md) | [Detailed instructions](../../manual_how-to/wikis/wikis.md)
 
 * Creating podcasts <br>
-[User manual article](../learningresources/Podcast.md) | [Detailed instructions](../../manual_how-to/podcast/podcass.md)
+[User manual article](../learningresources/Podcast.md) | [Detailed instructions](../../manual_how-to/podcast/podcast.md)
 
 * Creating blogs<br>
 [User manual article](../learningresources/Blog.md) | [Detailed instructions](../../manual_how-to/blog/blog.md)

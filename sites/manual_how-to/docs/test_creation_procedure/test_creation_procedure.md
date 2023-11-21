@@ -11,7 +11,7 @@
 
 ??? abstract "Expected previous knowledge"
 
-    * [„How do I create my first OpenOlat course?"](../my_first_course/my_first_course.md)
+    * ["How do I create my first OpenOlat course?"](../my_first_course/my_first_course.md)
 
 ---
 
@@ -117,8 +117,7 @@ An exam course is a normal course (no matter if learning path course or conventi
 
 6\. Select the test course element in the course menu on the left.
 
-7\. In den zugehörigen Tabs auf der rechten Seite befindet sich unter "Test-Konfiguration" der Button "Erstellen". Erstellen Sie mit ihm eine neue Test-Lernressource.
-In the related tabs on the right side, under "Test configuration" you will find the "Create" button. Use it to create a new test learning resource.
+7\. In the related tabs on the right side, under "Test configuration" you will find the "Create" button. Use it to create a new test learning resource.
 
 ![testerstellung_1_7_v1_de.png](assets/testerstellung_1_7_v1_de.png){ class="lightbox" } 
 
@@ -294,7 +293,7 @@ Alternatively, you can also use the "Publish" button in the editor on the right 
 In the member management of the course you decide which learners get access.
 
 20\. Once test results are available, coaches can make assessments in the coaching tool. (Does not apply to self-tests).<br>
-Further information can be found in chapter "[Evaluate Tests](../learningresources/Assessing_tests.md)".
+Further information can be found in chapter "[Evaluate Tests](../../manual_user/learningresources/Assessing_tests.md)".
 
 <br>
 
@@ -371,8 +370,7 @@ Add more questions according to the same principle. The details of the settings 
 
 <br>
 
-9\. Alternativ zur Erstellung neuer Fragen, können Sie unter dem gleichen Menüpunkt bereits vorhandene Fragen **"aus dem Fragenpool importieren"**.
-As an alternative to creating new questions, you can **import existing questions from the question pool** under the same menu item.
+9\. As an alternative to creating new questions, you can **import existing questions from the question pool** under the same menu item.
 
 ![testerstellung_3_9_v1_de.png](assets/testerstellung_3_9_v1_de.png){ class="lightbox" } 
 

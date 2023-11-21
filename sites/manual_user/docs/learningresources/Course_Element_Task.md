@@ -128,7 +128,7 @@ In the field "Message for user" you can provide general information for all cour
 
     If additional document editors are activated in the administration, additional file formats can also be created. For example, if Only Office is used, Word, Excel or PowerPoint files can also be created. The same applies to the creation of other (feedback) files.
 
-In the setting manual choice, if a course participant choses by incident a wrong or not-wanted assignment, it can be reset in the [assessment tool](../learningresources/Assessment_tool_overview.de.md) by the course owner.
+In the setting manual choice, if a course participant choses by incident a wrong or not-wanted assignment, it can be reset in the [assessment tool](../learningresources/Assessment_tool_overview.md) by the course owner.
 
 ![Reset data of task](assets/task_reset_assessmenttool.png){ class="shadow" }
 

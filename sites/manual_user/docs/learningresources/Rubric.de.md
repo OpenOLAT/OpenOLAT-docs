@@ -31,39 +31,50 @@ In OpenOlat können Rubriks z.B. eingesetzt werden um
 
   ![Rubrik Feedback](assets/rubrik_skalentexte.jpg){ class="shadow lightbox" }
 
-Rubriks können über "Inhalt hinzufügen" einem OpenOlat Formular hinzugefügt und anschließend konfiguriert werden.
+Rubriks können über "Inhalt hinzufügen" einem OpenOlat Formular hinzugefügt und anschliessend konfiguriert werden.
 
 ## Rubrik Konfiguration im Formular Editor
 
 ![Rubrik Editor](assets/formular_rubik17a.png){ class="shadow lightbox" }
 
-Es werden drei verschiedene Typen bzw. Darstellungsvarianten von Rubriks unterschieden:
+Ein Rubrik besteht immer aus Zeilen und Spalten die sinnvoll beschriftet und definiert werdern müssen. 
 
-![Rubrik Varianten](assets/Rubrik_Typ.jpg){ class="shadow lightbox" }
-
-Die Anzahl der Schritte definiert die Anzahl der Rubrik-Spalten. Geben Sie im Bereich "Spaltenbeschriftung" für jede Spalte eine sinnvolle Bewertungsskala ein z.B. sehr gut, gut mittel, schlecht, sehr schlecht. Jede Spalte ist immer mit einem bestimmten Wert verbunden, der in den erweiterten Einstellungen konkreter spezifiziert werden kann.
-
-Geben Sie im Bereich der Zeilen einzelne Kriterien, Statements oder Fragestellungen, die zu Ihrer Skala passen. Weitere Zeilen werden über "Frage hinzufügen" ergänzt. Sie können auch durch Klick auf den Pfeil, rechts einen Skalenbereich ergänzen.  
+Geben Sie im Bereich "Spaltenbeschriftung" für jede Spalte eine sinnvolle _Bewertungsskala_ ein z.B. sehr gut, gut mittel, schlecht, sehr schlecht. Jede Spalte ist immer mit einem bestimmten Wert verbunden, der in den erweiterten Einstellungen des Rubrik Inspektors konkreter spezifiziert werden kann.
+  
+Geben Sie im Bereich der Zeilen einzelne (Bewertungs-)Kriterien, Statements oder Fragestellungen ein. Weitere Zeilen werden über "Frage hinzufügen" ergänzt. Sie können die kurzen Statements auch formatieren. Einzelne Zeilen können mit Hilfe der oben/unten Doppelpfeile verschoben werden. Zusätzlich können Sie jede Zeile mit einer Gewichtung  versehen und so einzelne Kriterien besondere Bedeutung zuweisen, was sich auch bei der Punktevergabe widerspiegelt, z.B. durch doppelte oder dreifache Punkte. 
+Ferner ist es möglich den Wert auf 0 zu setzen um einzelne Fragen aus den Reports auszuschliessen. 
+ 
+Ein bearbeitetes Rubrik kann eingebunden in einen Kurs automatisch eine entsprechende Punktzahl erhalten, was besonders bei der Verwendung im Kursbaustein "[Bewertung](../learningresources/Course_Element_Assessment.de.md)" relevant ist. 
+ 
+Über den Quer-Doppelpfeil kann ein Rubrik mit zwei Enden erstellt werden. 
 
 ![Rubrik Skalenbereich](assets/Rubrik_2_enden.jpg){ class="shadow lightbox" }
 
-Einzelne Zeilen können mit Hilfe der Doppelpfeile rechts verschoben werden. Zusätzlich können Sie jede Zeile mit einer Gewichtung des jeweiligen Statements versehen und so einzelne Kriterien besondere Bedeutung zuweisen, was sich auch bei der Punktevergabe widerspiegelt, z.B. durch doppelte oder dreifache Punkte. Ferner ist es möglich den Wert auf 0 zu setzen um einzelne Fragen aus den Reports auszuschliessen.
-
-Ein bearbeitetes Rubrik kann somit auch automatisch eine entsprechende Punktzahl erhalten, was besonders bei der Verwendung im Kursbaustein "[Bewertung](../learningresources/Assessment.de.md)" relevant ist.
 
 !!! info "Hinweis"
 
     Wird ein Rubrik in einem Kursbaustein Bewertung eingebunden kann die Gewichtung nicht mehr geändert werden.
 
-## Erweiterte Konfiguration
+### Rubrik Inspektor
 
-Mit Klick auf das Zahnrad erscheint das Konfigurationsmenü für das Rubrik und Sie können über die Tabs "Generell" und "Erweitert" das Rubrik differenzierter konfigurieren. 
+![Rubrik Varianten](assets/Rubrik_Inspektor.png){ class="shadow lightbox" }
 
-Wenn Sie den Tab "Erweitert" aktivieren stehen Ihnen folgende zusätzliche Optionen zur Verfügung:
+Im Tab **"Generell"** wird der Rubrik-Typ festgelegt. Es werden drei verschiedene Typen bzw. Darstellungsvarianten von Rubriks unterschieden. Die Anzahl der Schritte definiert die Anzahl der Rubrik-Spalten. 2-10 Spalten sind möglich. 
+
+Wird "Beschreibung der Kriterien" aktiviert :octicons-tag-24: Release 18.1  kann jede Zelle der Rubrik-Tabelle mit kurzen Beschreibungstexten versehen werden, so dass die Kriterien basierte Bewertung noch deutlicher wird. 
+
+![Rubric Zellentext](assets/Rubric_zellentext.png){ class="shadow lightbox" }
+
+Ferner kann die Option "keine Antwort möglich" aktiviert und definiert werden ob die Bearbeitung des Rubriks freiwillig oder obligatorisch ist. 
+
+Wenn Sie den Tab **"Erweitert"** aktivieren stehen Ihnen folgende zusätzliche Optionen zur Verfügung:
 
 ![Erweitertes Rubrik Einstellungen](assets/Rubric_erweitert.png){ class="shadow lightbox" }
 
-Sie können dem Rubrik einen Namen geben, was Ihnen später die Zuordnung bei der Auswertung erleichtert. Zusätzlich kann der Name bei Bedarf auch direkt im Fragebogen angezeigt werden ("In Durchführung"). 
+Sie können dem Rubrik einen Namen geben, was Ihnen später die Zuordnung bei der Auswertung erleichtert. Zusätzlich kann der Name bei Bedarf auch direkt im Fragebogen angezeigt werden.
+
 Unter Skalentyp können Sie die Art der verwendeten Likert –Skala näher bestimmen und somit auch den Wertebereich definieren: Legen Sie fest an welchem Ende der Skala sich die positive Bewertung befindet und definieren Sie bei Bedarf die Bereiche für ungenügend, neutral und gut. Diese Information wird in der Auswertung berücksichtigt.
 
-Mit dem Button "Speichern" schliessen Sie den Rubrik-Editorbereich. 
+!!! info "Info"
+
+    Der Rubrik-Inspektor kann frei im Formularbereich positioniert und verschoben werden.

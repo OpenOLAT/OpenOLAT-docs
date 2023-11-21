@@ -8,8 +8,8 @@
 	Taxonomy can be activated and used in several OpenOlat areas:
 	
 	  * [Document pool](Modules_Document_pool.md)
-	  * [Question bank](../../manual_user/question_bank/index.md)
-	  * [ePortfolio](../../manual_user/portfolio/Competences_tags.md)
+	  * [Question bank](../../manual_user/area_modules/Question_Bank.md)
+	  * [ePortfolio](../../manual_user/area_modules/Competences_tags.md)
 	  * Linking with learning resources
 	
 	The usage of the taxonomy will be developed continuously.
@@ -107,7 +107,7 @@ shortly:
 
 ![Taxonomie exportieren](assets/Taxonomie_exportieren.png)
 
-The taxonomy is downloaded as a .zip archive by clicking on the menu item. This contains an EXCEL table with the hierarchical structure of the taxonomy level and a folder structure (media/level1/background;media/level1/teaser;) with teaser and background images of the taxonomy, if any are available. (more under -> [Catalogue 2.0](../../../manual_user/docs/area_modules/catalog2.0.md)
+The taxonomy is downloaded as a .zip archive by clicking on the menu item. This contains an EXCEL table with the hierarchical structure of the taxonomy level and a folder structure (media/level1/background;media/level1/teaser;) with teaser and background images of the taxonomy, if any are available. (more under -> [Catalog 2.0](../../manual_user/area_modules/catalog2.0.md))
 
 
 ### Import taxonomy
@@ -138,7 +138,7 @@ Here you can decide whether you want to overwrite the existing taxonomy levels o
 ![table-template-taxonomy-structure](assets/taxonomystructure-import.jpg){ class="shadow lightbox" }
 
 2. Inside the excel sheet you add new taxonomy levels or change existing ones. The path that indicates the hierarchical structure is important. If this is incorrect, certain layers cannot be imported.
-If you have activated different languages in OpenOlat and use the [catalogue 2.0](../../../manual_user/docs/area_modules/catalog2.0.md), it is advisable to make the display name and description language-dependent. Additional languages can be added by copying the columns "Country code", "Display name" & "Description" and adding a new, existing country code, display name + description for each taxonomy level.
+If you have activated different languages in OpenOlat and use the [Catalog 2.0](../../manual_user/area_modules/catalog2.0.md), it is advisable to make the display name and description language-dependent. Additional languages can be added by copying the columns "Country code", "Display name" & "Description" and adding a new, existing country code, display name + description for each taxonomy level.
 
 3. The modified table is now selected _without_ the header and copied into the input field. When proceeding to the next wizard step, the cells are checked for correctness. In case of errors, error messages appear directly at the input field.
 
