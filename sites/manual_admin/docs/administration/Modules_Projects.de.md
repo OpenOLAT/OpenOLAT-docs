@@ -26,7 +26,7 @@ Sollen auch Personen im Projekt mitarbeiten, die nicht in OpenOlat als Benutzer 
 
 !!! info "Hinweis"
 
-    „Externes Mitglied“ ist keine Rolle. Ein externes Mitglied kann alle Rollen erhalten, ausser Besitzer und Kursbesitzer (Rollen, mit denen das ganze Projekt gelöscht werden kann). 
+    "Externes Mitglied" ist keine Rolle. Ein externes Mitglied kann alle Rollen erhalten, ausser Besitzer und Kursbesitzer (Rollen, mit denen das ganze Projekt gelöscht werden kann). 
 
 
 ## Rollen
@@ -36,7 +36,7 @@ In einem Projekt können verschiedene Rollen vergeben werden.
 ![projektrollen_v1_de.png](assets/projektrollen_v1_de.png){ class="shadow lightbox" }
 
 
-**Besitzer:in(Projektbesitzer)**
+**Besitzer:in (Projektbesitzer)**
 
 tbd
 
@@ -76,7 +76,7 @@ Ausserdem git es Rollen, die über mehrere Projekte hinweg agieren können:
 
 **Projektverwalter:in**
 
-Die Projektverwalterin kann alle Projekte sehen, aktualisieren und verwalten inklusive dern Mitglieder. Sieht aber nicht deren Inhalt. Er ist neben dem Besitzer und der Administratorin, die Person, die die Leitungsrolle an andere vergebene kann. Er hat Zugriff auf den Tab "Administration" im Bereich Projekte.
+Die Projektverwalterin kann alle Projekte sehen, aktualisieren und verwalten inklusive deren Mitglieder. Sieht aber nicht deren Inhalt. Er ist neben dem Besitzer und der Administratorin, die Person, die die Leitungsrolle an andere vergebene kann. Er hat Zugriff auf den Tab "Administration" im Bereich Projekte.
 
 **Administrator:in**
 

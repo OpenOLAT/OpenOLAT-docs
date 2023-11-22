@@ -47,13 +47,13 @@ list".
 
 ---
 
-## Group Management
+## Group Management for group administrators
 
-Users with the role of group administrator have the same lists and tools in the "Groups" tab as participants, coaches and owners. In the second tab "Group management" you can also see all published and private groups and can manage them to the same extent as group administrators manage their groups.
+Users with the role of group administrators have the same lists and tools in the "Groups" tab as participants, coaches and owners. In the second tab "Group management" you can also see all published and private groups and can manage them to the same extent as group administrators manage their groups.
 
 In addition, a group manager can find and manage so-called "Orphans", groups without members and linked resources. He also has access to the life cycle of the groups and can start the deletion process or reactivate groups.
 
 ![Group management](assets/Gruppenverwalter.png){ class="shadow lightbox" }
 
-You can find more about the automatic groups lifecycle in the [admin manual](https://docs.openolat.org/manual_admin/administration/Automatic_Group_Lifecycle/)
+You can find more about the automatic groups lifecycle in the [admin manual](../../manual_admin/administration/Automatic_Group_Lifecycle.md)
 

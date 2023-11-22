@@ -57,5 +57,5 @@ Gruppenverwalter:innen können zudem Gruppen ohne Mitglieder und Kursanbindung f
 
 ![group_management_menu2_groupmanager_v1_de.png](assets/group_management_menu2_groupmanager_v1_de.png){ class="shadow lightbox" }
 
-Zum automatischen Gruppenlebenszyklus finden Sie mehr im [Administrationshandbuch](https://docs.openolat.org/de/manual_admin/administration/Automatic_Group_Lifecycle/).
+Zum automatischen Gruppenlebenszyklus finden Sie mehr im [Administrationshandbuch](../../manual_admin/administration/Automatic_Group_Lifecycle.de.md).
 

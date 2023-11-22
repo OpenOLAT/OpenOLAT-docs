@@ -1,84 +1,154 @@
 # Media Center
 
-The Media Center is the central collection point for all of a person's personal artifacts (media). Artifacts can be different media and documents or OpenOlat specific things.
 
-The individual artifacts can be used in the course via the course element [page](../learningresources/Course_Element_Page.md) or generally in the [portfolio](../area_modules/Portfolio.md).
+The Media Center is a **central collection point** for different types of media. Media can be...
 
-Media in the Media Center can be filtered by different criteria e.g. media type, own media ("My Media"), filtered by certain tags, if and where they are used or if an artifact is shared with others or not.
+* ... created directly in the Media Center (e.g. video recording, docx, pptx, ...)
+* ... created in various course elements and then stored in the Media Center
+* ... created externally and uploaded as a file
+  
+* ... used across courses
+* ... released (shared) to other persons (authors) and used jointly
 
-There are different ways how the artifacts can enter the media center. Below you will learn exactly how.
+* ... versioned
+* ... tagged
+* ... assigned to a taxonomy
+* ... filtered (e.g. "My media")
+* ... searched by place of use
 
-## Upload file directly in the Media Center
+![media_center_v1_de.png](assets/media_center_v1_de.png){ class=" shadow lightbox" }
 
-![Add media](assets/Medien_Center.en.png)
 
-Here you can create or upload artifacts. Additionally, a description, a topic/subject assignment and tags can be added. It can also defined for whom the artifact is released. Tags are used here for keywording and help to search for a specific term and thus to keep the overview in the media center.
+## Access
+
+In the Media Center, some media are available for several authors, some only for a single person (creator). That is why the Media Center is an individual, personal area and can be found in the **personal menu**.
+
+![media_center_pers_menu1_v1_de.png](assets/media_center_pers_menu1_v1_de.png){ class=" shadow lightbox" }
+
+![media_center_pers_menu2_v1_de.png](assets/media_center_pers_menu2_v1_de.png){ class=" shadow lightbox" }
+
+## Types of Media
+
+Different **file formats** and **content elements** are stored in the media center.
+
+On one hand, these are specific **file formats** such as
+
+* images (png, jpg, ...)
+* video files (mp4)
+* audio files (mp3)
+* Office documents (docx, xlsx, pptx, ...)
+* and others
+
+On the other hand, these are content elements (elements used in the content editor), such as
+
+* elements of the course element "Page" (created with the Content Editor)
+* elements of the "Portfolio" course element (created with the Content Editor)
+* texts
+* video recordings
+* quotes
+* forum posts
+* blog entries
+* wiki pages
+* certificates of achievement from courses
+* and others
+
+
+# Add media
+
+**1. Add directly in the Media Center**
+
+![media_center_upload_v1_de.png](assets/media_center_upload_v1_de.png){ class=" shadow lightbox" }
+
+**Add media file:** Upload images, videos, pdf, Excel, etc.<br>
+**Create documents:** Documents of integrated editors, e.g. Word, Excel, Powerpoint<br>
+**Add text:** Text elements for use in the content editor, created with a simple HTML editor<br>
+**Add quote:**  Quotes created directly in the Media Center can be inserted in several places without having to enter the entire source again and again. However, make sure that you provide all details carefully and comprehensively.<br>
+**Record video:** Video recording function integrated in OpenOlat. If you click on "Record video", the recording function for the webcam is started directly, provided you allow access to the camera in the browser.<br>
+**Create draw.io diagrams:** As of release 18.1
+
+
+**2. Create in the content editor**
+
+If you use the Content Editor to add content elements, e.g. in a course element ["Page"](../learningresources/Course_Element_Page.md), you have the option **"Select from my Media Center"** under "Add content". You can also create or upload content elements there, as when creating directly in the Media Center.
+
+![media_center_create_in_editor_v1_de.png](assets/media_center_create_in_editor_v1_de.png){ class=" shadow lightbox" }
+
+Each file or content element is given a title. In addition, a description, a topic/subject area assignment and tags can be added. You can also specify who the content element is shared with. Tags are used here for indexing and help to search for a specific term and thus maintain an overview in the Media Center.
+
 
 !!! info "Info"
 
-    The same menu is also available in the [E-Portfolio 2.0](../area_modules/The_portfolio_editor_17_1.md). Here you also have the possibility to create or upload artifacts via "Add content" -> "Choose from my media center".
+    Files and content elements can also be **versioned** or replaced. It is also possible to switch to older versions.
+
+    The changes can be tracked in the **activity log**.
 
 
-### Add media file
 
-Here you can access the upload area for files. Various file types such as Word, Excel, PDF etc. can be uploaded.
+**3. Connect to the Media Center**
 
-### Add document
+Certain content elements can also be linked to the Media Center and collected as links in OpenOlat. The elements include:
 
-Depending on which editors are activated in the OpenOlat system, documents such as docx, pptx or xlsx can be created here.
-
-!!! info "Note"
-
-    When including a document in a portfolio folder, they are displayed as links and not shown directly.
-
-### Add text
-
-Using this link, texts can be created and saved directly in the Media Center with the simple HTML editor. The text is displayed directly as text when included in a portfolio binder.
-
-### Add citation
-
-It is possible to create citations directly in the Media Center. This makes it possible, for example, to insert a quotation in several places in the portfolio without having to enter the entire source again and again. However, care should be taken to provide all information carefully and comprehensively.
-
-### Record video
-
-A short video recorded by webcam can also be created as an artifact in the Media Center. Clicking on "Record video" will directly start the recording function for the webcam, provided that you allow access to the camera in the browser.
-
-## Linking OpenOlat specific artifacts to the Media Center
-
-In addition to the artifacts created or uploaded in the Media Center, certain contributions/elements can also be collected in OpenOlat. These then also appear in the Media Center
-
-  1. forum entries 
-  2. blog entries
-  3. wiki pages
-  4. certificate of performance from courses
+1. forum posts
+2. blog entries
+3. wiki pages
+4. evidences of achievement from courses
 
 For example, to add a post, open your forum post and click on the puzzle piece.
 
 ![forumseintrag.png](assets/artefact_DE.png)
 
-After that, a page will appear where you can enter the title, tags as well as a description for the posting content. After saving, the artifact appears in your Media Center.
+A page will then appear where you can enter the title, tags and a description for the post content. After saving, the post will be displayed in your Media Center.
 
-For forum posts, blog entries and wiki pages, it is required that you are the creator of an entry or wiki page. Just editing the post is not enough.
+For forum posts, blog entries and wiki pages, it is necessary to be the creator of an entry or wiki page. Simply editing the post is not sufficient.
 
-Please note that you must be the author when connecting forum entries, blog entries or wiki pages. It is not sufficient to just have editing rights.
 
-## Artifacts display
-If you select an artifact, you will get more information about it. All artifacts have the tabs:
+## Use media
 
-* **Overview:** Central details, activity log, editing possibility, versioning, file replace
-* **Metadata:** Description, License, Tags, Subject
-* **Usage:** Where is the artifact used?
-* **Clearances:** Define and view shares for users, groups, courses
+The media contained in the Media Center can be inserted into course elements in the **Content Editor**, for example in the course element ["Page"](../learningresources/Course_Element_Page.md) or in the [Portfolio](../area_modules/Portfolio.md).
 
-Artifacts can also be versioned or replaced. Switching to older versions is also possible. The changes can be tracked in the activity log.
+![media_center_page_v1_de.png](assets/media_center_page_v1_de.png){ class=" shadow lightbox" }
 
-Artifacts can be downloaded and deleted via the 3-point menu
+The **filter functions** help you to find the media you are looking for quickly. Search for
+
+* media type
+* "My media" (your own media)
+* tags
+* taxonomy
+* where and whether media is used
+* whether media is shared or not
+
+**Information and descriptions** can be viewed by clicking on an entry in the Media Center. All descriptions contain the tabs:
+
+* **Overview:** Central details, activity log, editing option, versioning, file replacement
+* **Meta data:** Description, License, Tags, Department
+* **Usage:** Where is the file or content element used?
+* **Shares:** Define and view approvals for users, groups and courses
+
+![media_center_share_v1_de.png](assets/media_center_share_v1_de.png){ class=" shadow lightbox" }
+
+!!! note "Note"
+
+    When documents are included in a portfolio folder, they are displayed as links and are not displayed directly.
+
+
+
+## Download media
+
+The media can also be downloaded from the Media Center. You will find the option to do this in the 3-dot menu when you have clicked on an individual medium and the information and descriptions are displayed.
+
+![media_center_download_v1_de.png](assets/media_center_download_v1_de.png){ class=" shadow lightbox" }
+
+## Delete media
+
+If you select at least one list entry at the beginning of a line, the "Delete" button appears above the list, which can be used to delete several files and content elements in the Media Center at once.
+
+You can also delete individual files in the 3-dot menu if you have clicked on an individual medium and the information and descriptions are displayed. (Same menu as for downloading.)
+
+![media_center_delete_v1_de.png](assets/media_center_delete_v1_de.png){ class=" shadow lightbox" }
 
 !!! info "Info"
 
-    Note that you can only delete _own_ artifacts that are not included elsewhere in OpenOlat.
-
-
+    Please note that you can only delete **your own** media that are not integrated in other places in OpenOlat.
 
 ## Quota
 
