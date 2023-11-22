@@ -1,23 +1,29 @@
 # Anonymous guests and external users
 
-In the area "Guest and Invitation" in the login configuration it is defined
-whether a guest login is possible, as well as further detailed settings in
-this context.
+In addition to registered users, OpenOlat can also be used by
 
-Under Login → Guest and invitation settings need to be done, that the guest
-gets access.
+* **Guests** (anonymous, can only use the offers available to guests)
+* **External users** (at least known by e-mail, are only invited by e-mail to a very specific course/group/portfolio/project)
 
-  *  **Guest login on login page:  
-** means that the guest access can be chosen on the login page.
+Administrators can determine whether and to what extent OpenOlat can be used in this way.
 
-  *  **Links for guests:  
-** In the access configuration access of courses can be given to guests.
+![login_anonymous_external_user_tab1_v1_de.png](assets/login_anonymous_external_user_tab1_v1_de.png){ class="shadow lightbox" }
 
-  *  **Allow invitation:  
-** In the access right of the portfolio external users can be added.
 
-  *  **Full-text search for guests:  
-** Enables the full-text search also for guests. All courses with the access
-for guests are searched.
+*  **Guest login on login page:**
+Means that the guest access can be chosen on the login page.
+
+*  **Links for guests:**
+In the access configuration access of courses can be given to guests.
+
+*  **Allow invitation:**
+In the access right of the portfolio external users can be added.
+
+<br>
+
+![login_anonymous_external_user_tab2_v1_de.png](assets/login_anonymous_external_user_tab2_v1_de.png){ class="shadow lightbox" }
+
+*  **Full-text search for guests:**
+Enables the full-text search also for guests. All courses with the access for guests are searched.
 
 
