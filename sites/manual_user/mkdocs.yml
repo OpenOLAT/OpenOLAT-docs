@@ -240,6 +240,8 @@ nav:
     - Blog:
        - Overview: "learningresources/Blog.md"
        - Blog: "learningresources/Blog_Further_Configurations.md"
+    - Audio:
+      - Audio Recording: "learningresources/Audio_Recording.md" 
     - Video:
       - Overview: "learningresources/Video.md"
       - Learning resource Video: "learningresources/Learning_resource_Video.md"
