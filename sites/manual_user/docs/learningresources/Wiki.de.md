@@ -24,7 +24,7 @@ der Lernressource bzw. des Kurses gelöscht werden. Im Kurs können Sie im Tab
 "Wiki-Lerninhalt" auch die Benutzerberechtigungen für Teilnehmer und Betreuer
 anpassen.
 
-Wiki-Seiten werden mit Hilfe einer [Wiki-Syntax](../learningresources/Working_with_Wiki.de.md#wiki-syntax)
+Wiki-Seiten werden mit Hilfe einer [Wiki-Syntax](../learningresources/Course_Element_Wiki.de.md#wiki-syntax)
 erstellt, bearbeitet und untereinander verlinkt.
 
 Tipp: Achten Sie darauf, gezielt Verlinkungen zwischen den einzelnen Seiten

@@ -53,7 +53,7 @@ To edit the content of a wiki page, select the "Edit page" tab of the desired wi
 
 The wiki syntax is explained in more detail below.
 
-## Wiki Syntax
+## Wiki Syntax #wiki-syntax
 
 You can format your input using the following wiki syntax.
 
@@ -76,7 +76,7 @@ Syntax | Result (Formatting)
 Syntax | Result (Formatting)  
 ---|---  
 [[Internal link]] | Internal link
-[[Link `|` Text]] | [Text](Working_with_Wiki.de.md)
+[[Link `|` Text]] | [Text](Course_Element_Wiki.md)
 [http://www.openolat.org](http://www.openolat.org/) | [http://www.openolat.org](http://www.openolat.org/)
 [[http://www.openolat.org](http://www.openolat.org/) The Website of OpenOlat] | [The website of OpenOlat](http://www.openolat.org/)
 

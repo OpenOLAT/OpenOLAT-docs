@@ -12,13 +12,14 @@ If you have already added a Wiki its name will appear in the field. In order to 
 
 In the tab "Wiki learning content" you configure the user permissions of the Wiki. Here you can set that not only owners but also maintainers and participants may edit Wiki articles. By default all course participants have read and write permission in a Wiki. Only that OpenOlat user who has created the page or OpenOlat users who are registered as owners in a wiki will be allowed to delete wiki pages.
 
-In the chapter "Learning Activities in Courses" section ["Wiki"](../learningresources/Working_with_Wiki.md), you will find more information on how to adapt the Wiki syntax, how to create new pages, and how to view different versions of a Wiki page.
+In the chapter "Learning Activities in Courses" section ["Wiki"](../learningresources/Course_Element_Wiki.md), you will find more information on how to adapt the Wiki syntax, how to create new pages, and how to view different versions of a Wiki page.
 
 !!! warning "Attention"
 
     If you can't find the "Wiki" course element in the course editor, it was disabled by a system administrator.
 
 ##  Course Element: Forum {: #forum}
+
 ![Forum icon](../assets/forum_icon.png)
 
 With the course element "Forum" you can easily enable asynchronous online discussions for different purposes in your course. For example, course participants could write posts with questions about the content of the course and answer each other's questions, or you could initiate a technical discussion or implement specific forum-based online methods. In the chapter "Learning Activities in Courses" you will get further information on opening topics and replying to questions; see section ["Forum"](../learningresources/Working_with_Forums.md). Generally all course participants have read and write permission in a forum. All course authors and tutors dispose of the option to moderate a forum additionally.

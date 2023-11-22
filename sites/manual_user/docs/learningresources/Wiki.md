@@ -23,8 +23,7 @@ well as the Wiki itself can only be deleted by the owner of learning resources
 or courses. In your course you can also adjust user permissions for
 participants and coaches in the tab "Wiki learning content".
 
-Wiki pages are created, edited and linked by means of a [Wiki syntax](../learningresources/Working_with_Wiki.md#wiki-syntax).  
-
+Wiki pages are created, edited and linked by means of a [Wiki syntax](../learningresources/Course_Element_Wiki.md#wiki-syntax).
 
 Hint: Make sure to create targeted links between the individual pages to create a
 real hypertext with multiple nodes.
@@ -32,4 +31,3 @@ real hypertext with multiple nodes.
 !!! info "Info"
 
     If you can neither find the course element nor the learning resource "Wiki" in your OpenOlat instance an administrator has disabled this feature system-wide.
-

@@ -53,7 +53,7 @@ Um Inhalte einer Wiki-Seite zu bearbeiten wählen Sie den Tab "Seite bearbeiten"
 
 Im nachfolgenden wird die Wiki-Syntax genauer erklärt.
 
-## Wiki Syntax
+## Wiki Syntax #wiki-syntax
 
 Ihre Eingaben können Sie mit der folgenden Wiki-Syntax formatieren.
 
@@ -76,7 +76,7 @@ Syntax | Ergebnis (Formatierung)
 Syntax | Ergebnis (Formatierung)  
 ---|---  
 [[Interner link]] | Interner link
-[[Link `|` Text]] | [Text](Working_with_Wiki.de.md)
+[[Link `|` Text]] | [Text](Course_Element_Wiki.de.md)
 [http://www.openolat.org](http://www.openolat.org/) | [http://www.openolat.org](http://www.openolat.org/)
 [[http://www.openolat.org](http://www.openolat.org/) Die Website von OpenOlat] | [Die Website von OpenOlat](http://www.openolat.org/)
 

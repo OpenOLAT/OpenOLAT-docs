@@ -51,8 +51,8 @@ Wiki can be used for working in groups, as documentation tool or as knowledge
 base for your studies and projects.
 
 For more information on how to create Wikis and embed those in your course
-please go to the chapter ["Creating Wikis"](../resource_wiki/Four_Steps_to_Your_Wiki.md). How
-to generate content within a Wiki you can find [here](../learningresources/Working_with_Wiki.md).
+please go to the chapter ["Creating Wikis"](../resource_wiki/Wiki.md). How
+to generate content within a Wiki you can find [here](../learningresources/Course_Element_Wiki.md).
 
 ## Podcast
 ![icon](assets/podcast.png){class="size16"}

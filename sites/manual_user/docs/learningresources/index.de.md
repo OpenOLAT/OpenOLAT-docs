@@ -48,9 +48,7 @@ Mit Wikis können auf einfache Weise kooperativ, gemeinsam Inhalte erstellt werd
 Ein Wiki kann für Gruppenarbeiten, als Dokumentationswerkzeug oder als
 Wissensbasis für Ihre Studien- oder Projektarbeit verwendet werden.
 
-Mehr Informationen zur Erstellung von Wikis finden Sie im Kapitel 
-["Wiki erstellen"](../learningresources/Wiki.de.md). Wie Sie im Wiki Inhalte erstellen und
-sinnvoll arbeiten erfahren Sie [hier](../learningresources/Working_with_Wiki.de.md).
+Mehr Informationen zur Erstellung von Wikis finden Sie im Kapitel ["Wiki erstellen"](../learningresources/Wiki.de.md). Wie Sie im Wiki Inhalte erstellen und sinnvoll arbeiten erfahren Sie [hier](../learningresources/Course_Element_Wiki.de.md).
 
 ## Podcast
 ![](assets/podcast.png)

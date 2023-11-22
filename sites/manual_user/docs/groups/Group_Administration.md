@@ -48,7 +48,7 @@ Tool | | Description
 :fontawesome-regular-folder: | Folder| With a folder you enable the exchange of files between the members of your group. Joint editing of office documents is also possible, depending on the configuration by the OpenOlat administrator. Once the folder is activated and saved, you can configure the write permissions for it, i.e. define who can upload and create files.   
 :fontawesome-brands-rocketchat:| Forum| Here you provide your group with a forum for discussions. As the group's coach, you have the right to edit and delete posts as well as create new ones.  
 :fontawesome-solid-comment-sms: | Chat| You can provide a chat room for the group. You can see which other members are in the group chat.  
-:fontawesome-solid-globe: | Wiki| You can provide a wiki for the group to create content together. Further information about working with wikis can be found [here](../learningresources/Working_with_Wiki.md)   
+:fontawesome-solid-globe: | Wiki| You can provide a wiki for the group to create content together. Further information about working with wikis can be found [here](../learningresources/Course_Element_Wiki.md)
 :octicons-briefcase-24: | Portfolio| You can provide a [portfolio](../area_modules/Portfolio_General_Information.md) 2.0 to the group. However, it is not an assessment portfolio.  
 :material-monitor: | OpenMeetings| When OpenMeetings is enabled and saved, a virtual meeting room or classroom is available to the group. Further information about OpenMeetings can be found [here](../learningresources/Course_Element_OpenMeetings.md)
 :material-monitor: | BigBlueButton| By selecting BigBlueButton, multiple BigBlueButton rooms can be made available to a group. The functionality is similar to the corresponding [course element BigBlueButton](../learningresources/Course_Element_BigBlueButton.md). In the group, only the BigBlueButton templates generally activated for groups are available. These may differ from the room templates in courses. If a group member is a coach, course owner, author or administrator in the OpenOlat system, additional BigBlueButton room templates may be available to them.  
@@ -147,14 +147,8 @@ Public groups with various access options are particularly suitable, especially 
 
 ### Tab Group Life Cycle
 
-The status of the group and other information are displayed here. Furthermore, the status can be changed, e.g. an active group can be set inactive or an inactive group can be deleted or reactivated. Also, the group can be excluded from the automatic group life cycle, e.g. if it is an important group that must remain permanently present. 
+The status of the group and other information are displayed here. Furthermore, the status can be changed, e.g. an active group can be set inactive or an inactive group can be deleted or reactivated. Also, the group can be excluded from the automatic group life cycle, e.g. if it is an important group that must remain permanently present.
 
 ![Tab Group Life Cycle](assets/Gruppe_inaktivieren_173a_en.png){ class="shadow lightbox" }
 
 For more information, see the separate chapter [Automatic group life cycle](https://docs.openolat.org/manual_admin/administration/Automatic_Group_Lifecycle/?h=automa) in the Administration Manual.
-
-
-
-
-  
-
