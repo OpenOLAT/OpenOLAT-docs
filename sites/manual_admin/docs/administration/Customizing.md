@@ -26,7 +26,7 @@ the general menu. A link to the support contact form is also possible.
 
 ![](assets/help_facility.png){ class="shadow lightbox" }
 
-## Speech adaptation tool
+## Language adaptation tool
 
 Individual text elements can be adjusted here if required.
 
