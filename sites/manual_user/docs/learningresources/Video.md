@@ -18,11 +18,11 @@ Additional features can be added to the mp4 files in the OpenOlat video editor. 
 The video learning resources can be **integrated into course elements** and provided with further configurations there. E.g. in the [course element "Video"](Course_Element_Video.md) or [course element "Video task"](Course_Element_Video_Task.md).
 
 ### Where are the videos stored?
-* Videos in the course element "HTML page" are stored in the **storage folder** of the course. From there, they are linked to the course element. Videos embedded in this way are only available in the respective course.
+* Videos in the course element "**HTML page**" are stored in the **storage folder** of the course. From there, they are linked to the course element. Videos embedded in this way are only available in the respective course.
 
 * Instead of storing videos in the storage folder of a course, they can also be stored in a [**resource folder**](../learningresources/Course_Settings.md#ressourcenordner-einbinden). Included resource folders can then be used in several courses.
 
-* Videos can be found as learning resources in the [**authoring area**](../area_modules/Authoring.md).
+* Videos can be found as **learning resources** in the [**authoring area**](../area_modules/Authoring.md).
 
 * In addition, videos can also be stored in the [**Media Center**](../personal_menu/Media_Center.md).
 
