@@ -7,7 +7,7 @@
 
 * * *
 
-:material-calendar-month-outline: **Releasedatum: 12.07.2023 • Letztes Update: 25.10.2023**
+:material-calendar-month-outline: **Releasedatum: 12.07.2023 • Letztes Update: 21.11.2023**
 
 * * *
 
@@ -237,6 +237,7 @@ Mit Hilfe der neuen To-Do Infrastruktur kann direkt mit entsprechenden Massnahme
 
 ## Weitere Informationen
 
+* [Jira Release Notes 18.0.8](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=21900){:target="_blank”}
 * [Jira Release Notes 18.0.7](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=21700){:target="_blank”}
 * [Jira Release Notes 18.0.6](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=21500){:target="_blank”}
 * [Jira Release Notes 18.0.5](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=21400){:target="_blank”}
