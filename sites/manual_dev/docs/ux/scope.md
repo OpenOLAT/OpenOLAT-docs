@@ -1,5 +1,5 @@
 # Scope (chooser)
-![General scope](assets/scope-1.png)
+![General scope](assets/scope.png)
 
 Scope is an additional filter for the [fxtable](/.../.../manual_dev/ux/table.md), that controls the predefined filters below it. The Scope is not changeable in the sub filters, for example time range defined by the scope cannot be larger below.
 
@@ -8,7 +8,7 @@ It can have 1 - n different Scope filter., the optimum is 3-6. It's always right
 Scope needs to be defined, so that the user can understand the rules at the first glance.
 
 ## Functionality
-![Hover States](image.png)
+![Hover States](assets/scope_states.png)
 
   * Headline Label: bold, right aligned
   * secondary label: normal, right aligned
@@ -21,7 +21,7 @@ Scope needs to be defined, so that the user can understand the rules at the firs
 
 #### QM - Individual Scope
 
-![Alt text](image-1.png)
+![Alt text](assets/scope_callout.png)
 
 * instead of "All Scope"
 * clickable with popover
