@@ -3,7 +3,7 @@
 
 A video learning resource is created in authoring with the feature "[Import](../area_modules/Authoring_BulkActions.md)" or "Import URL". Therefore you select the desired video-file in the upload window and click on "Import". 
 
-In the following step the form opens on [info page](../learningresources/Course_Settings.de.md). 
+In the following step the form opens on [info page](../learningresources/Course_Settings.md). 
 
 ![lernressource_video.png](assets/Video_Einstellungen.png)  
  

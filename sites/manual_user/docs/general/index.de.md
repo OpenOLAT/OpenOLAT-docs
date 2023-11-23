@@ -4,7 +4,7 @@
 
 # Benutzerhandbuch
 	
-![Logo: OpenOlat – infinite learning](../../../assets/OpenOlat_Logo_claim_RGB.png)
+![Logo: OpenOlat – infinite learning](/docs/assets/OpenOlat_Logo_claim_RGB.png)
 	
 <div class="grid cards" markdown>
 
