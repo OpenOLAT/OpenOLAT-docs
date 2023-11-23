@@ -82,7 +82,7 @@ Mandatory tasks have to be completed and will be collected after the set deadlin
 
 ##  Course Element: Portfolio Task {: #course_element_portfolio}
 
-![portfolio_434343_64.png](../assets/portfolio_434343_64.png)
+[Portfolio Icon](assets/portfolio_434343_64.png)
 
 By means of the course element "Portfolio task" you can provide predefined
 portfolio templates to be filled by your course participants. The course
@@ -287,7 +287,7 @@ the corresponding subchapters.
 
 ##  Course Element: Checklist {: #course_element_checklist}
 
-![checklist.png](../assets/checklist.png)
+![Checkliste Icon](assets/checklist.png)
 
 The course element allows you to embed and evaluate checklists in the course
 structure. A checklist contains check elements with completed and uncompleted

@@ -37,7 +37,7 @@ In the portfolio assignment, for example, you can document and reflect on your l
 
 Once you have collected the portfolio assignment in the course, you will also find it in your [personal menu](../personal_menu/Personal_Tools.md) under "Portfolio 2.0" - "My portfolio folders".
 
-To submit the completed editing, publish the tasks and share [it](../area_modules/Shared_by_me.md).
+To submit the completed editing, publish the tasks and [share it](../area_modules/Shared_by_me.md).
 
 ## Create portfolio task
 

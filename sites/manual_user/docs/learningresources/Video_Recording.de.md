@@ -98,7 +98,7 @@ Um den Speicherverbrauch durch Videos der Kursteilnehmer:innen etwas zu steuern,
 Nachdem ein Video aufgenommen wurde, passt es OpenOlat in Bildgrösse, Auflösung und Qualität den voreingestellten Standards an. Dieses **Transcoding** wird automatisch von OpenOlat ausgeführt und die Videos werden dann gemäss der Voreinstellungen gespeichert. Das gewährleistet, dass die Videos bei der Anzeige in einem passenden Seitenverhältnis angezeigt werden und die Dateigrösse für die Speicherung optimiert wird.
 
 
-## Wieviel Speicherplatz steht für meine Videos zur Verfügung?
+## Wie viel Speicherplatz steht für meine Videos zur Verfügung?
 
 Bsp.: Medien Center<br>
 In der linken unteren Ecke sehen Sie den verfügbaren Speicherplatz (für das gesamte Medien Center) und wieviel davon bereits belegt ist. Der verfügbare Platz kann von den Administrator:innen bestimmt werden.

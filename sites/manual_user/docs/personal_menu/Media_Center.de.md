@@ -3,7 +3,7 @@
 
 Das Medien Center ist eine **zentrale Sammelstelle** unterschiedlicher Medientypen. Medien können...
 
-* ... direkt im Medien Center erstellt werden (z.B. Videorecording, docx, pptx, …)
+* ... direkt im Medien Center erstellt werden (z.B. Videorecording, docx, pptx, ...)
 * ... in verschiedenen Kursbausteinen erstellt und dann im Medien Center abgelegt werden
 * ... extern erstellt und als Datei hochgeladen werden
 
@@ -13,7 +13,7 @@ Das Medien Center ist eine **zentrale Sammelstelle** unterschiedlicher Medientyp
 * ... versioniert werden
 * ... mit Tags verschlagwortet werden
 * ... einer Taxonomie zugeordnet werden
-* ... gefiltert werden (z.B. „Meine Medien“)
+* ... gefiltert werden (z.B. "Meine Medien")
 * ... nach Verwendungsort gesucht werden
 
 ![media_center_v1_de.png](assets/media_center_v1_de.png){ class=" shadow lightbox" }
@@ -33,16 +33,16 @@ Im Medien Center werden verschiedene **Dateiformate** und **Inhaltselemente** ab
 
 Zum einen sind es bestimmte **Dateiformate**, wie
 
-* Bilder (png, jpg, …)
+* Bilder (png, jpg, ...)
 * Video-Dateien (mp4)
 * Audio-Dateien (mp3)
-* Office-Dokumente (docx, xlsx, pptx, …)
+* Office-Dokumente (docx, xlsx, pptx, ...)
 * u.a.
 
 Zum anderen sind es **Inhaltselemente** (im Content Editor verwendete Elemente), wie
 
-* Elemente des Kursbausteins „Seite“ (mit dem Content Editor erstellt)
-* Elemente des Kursbausteins „Portfolio“ (mit dem Content Editor erstellt)
+* Elemente des Kursbausteins "Seite" (mit dem Content Editor erstellt)
+* Elemente des Kursbausteins "Portfolio" (mit dem Content Editor erstellt)
 * Texte
 * Video-Recordings 
 * Zitate
@@ -104,8 +104,7 @@ Bei Forenbeiträgen, Blogeinträgen und Wikiseiten ist es erforderlich, dass man
 
 ## Medien nutzen
 
-Die im Medien Center enthaltenen Medien können im **Content Editor** in Kursbausteine eingefügt werden.
-Z.B. im Kursbaustein ["Seite"](../learningresources/Course_Element_Page.de.md) oder im [Portfolio](../area_modules/Portfolio.de.md).<br>
+Die im Medien Center enthaltenen Medien können im **Content Editor** in Kursbausteine eingefügt werden, z.B im Kursbaustein ["Seite"](../learningresources/Course_Element_Page.de.md) oder im [Portfolio](../area_modules/Portfolio.de.md).<br>
 
 ![media_center_page_v1_de.png](assets/media_center_page_v1_de.png){ class=" shadow lightbox" }
 
@@ -121,7 +120,7 @@ Die **Filterfunktionen** helfen, die gesuchten Medien schnell zu finden. Suchen 
 **Informationen und Beschreibungen** sehen Sie durch Anklicken eines Eintrags im Medien Center. Alle Beschreibungen enthalten die Tabs:
 
 * **Übersicht:** Zentrale Details, Aktivitätslog, Bearbeitungsmöglichkeit, Versionierung, Datei ersetzen
-* **Metadata:** Beschreibung, Lizenz, Tags, Fachbereich
+* **Metadaten:** Beschreibung, Lizenz, Tags, Fachbereich
 * **Verwendungen:** Wo wird die Datei oder das Inhaltselement verwendet?
 * **Freigaben:** Freigaben für Benutzer, Gruppen, Kurse definieren und ansehen
 

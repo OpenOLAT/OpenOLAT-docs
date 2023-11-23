@@ -21,13 +21,13 @@
 
 ## Wo finde ich den OpenOlat-Katalog?
 
-OpenOlat-Benutzer sehen in der Kopfzeile meistens "Kurse" und "Gruppen", wenn sie Teilnehmer sind. Autoren sehen zusätzlich den "Autorenbereich". Aber die Optionen in der Kopfzeile können variieren. Je nach Rolle oder aktivierten Modulen, können weitere Einträge in der Kopfzeile dazu kommen. So z.B. auch der Katalog. Wurde von ihrem Administrator der [Katalog (Version 2.0)](../../../manual_user/docs/area_modules/catalog2.0.de.md) aktiviert, finden Sie den Eintrag "Katalog" im Menü der Kopfzeile.	Wird kein Katalog im Menü angezeigt, wenden Sie sich bitte an Ihren Administrator.
+OpenOlat-Benutzer sehen in der Kopfzeile meistens "Kurse" und "Gruppen", wenn sie Teilnehmer sind. Autoren sehen zusätzlich den "Autorenbereich". Aber die Optionen in der Kopfzeile können variieren. Je nach Rolle oder aktivierten Modulen, können weitere Einträge in der Kopfzeile dazu kommen. So z.B. auch der Katalog. Wurde von ihrem Administrator der [Katalog (Version 2.0)](../../manual_user/area_modules/catalog2.0.de.md) aktiviert, finden Sie den Eintrag "Katalog" im Menü der Kopfzeile.	Wird kein Katalog im Menü angezeigt, wenden Sie sich bitte an Ihren Administrator.
 
 ![katalog_menu_kopfzeile_v1_de.png](assets/katalog_menu_kopfzeile_v1_de.png){ class="shadow lightbox" }  
 
 !!! tip "Hinweis"
 
-    In OpenOlat gibt es 2 Versionen des Katalogs: [Katalog 1.0](../../../manual_user/docs/area_modules/catalog1.0.de.md) und [Katalog 2.0](../../../manual_user/docs/area_modules/catalog2.0.de.md).
+    In OpenOlat gibt es 2 Versionen des Katalogs: [Katalog 1.0](../../manual_user/area_modules/catalog1.0.de.md) und [Katalog 2.0](../../manual_user/area_modules/catalog2.0.de.md).
 	Die nachstehenden Ausführungen beschreiben das Vorgehen im **Katalog 2.0**.
 
 ---
@@ -38,9 +38,9 @@ Der OpenOlat-Katalog listet **Kurzbeschreibungen zu Kursen und Lernressourcen** 
 
 ![katalog_community_v1_de.png](assets/katalog_community_v1_de.png){ class="shadow lightbox" } 
 
-Die Angaben in den Kurzbeschreibungen werden jeweils den Angaben entnommen, die Autoren beim Erstellen eines Kurses oder einer Lernressource in den [Einstellungen](../../../manual_user/docs/learningresources/Course_Settings.de.md) (Tab "Info" + Tab "Metadaten"). Meistens sind es Angaben, die Kursteilnehmenden auch auf der Infoseite zu einem Kurs finden.
+Die Angaben in den Kurzbeschreibungen werden jeweils den Angaben entnommen, die Autoren beim Erstellen eines Kurses oder einer Lernressource in den [Einstellungen](../../manual_user/learningresources/Course_Settings.de.md) (Tab "Info" + Tab "Metadaten"). Meistens sind es Angaben, die Kursteilnehmenden auch auf der Infoseite zu einem Kurs finden.
 
-Die **Gestaltung** des Katalogs wird vom [Administrator](../../../manual_admin/docs/administration/Modules_Catalog_2.0.de.md) festgelegt. Wurde z.B. bestimmt, dass in den Katalogeinträgen eine Angabe zum Durchführungsformat angezeigt werden soll, holt sich OpenOlat diese Information aus den Angaben der Autorin / des Autors unter "Einstellungen" und zeigt sie an der vorgesehenen Stelle auf der Katalogkachel an.
+Die **Gestaltung** des Katalogs wird vom [Administrator](../../manual_admin/administration/Modules_Catalog_2.0.de.md) festgelegt. Wurde z.B. bestimmt, dass in den Katalogeinträgen eine Angabe zum Durchführungsformat angezeigt werden soll, holt sich OpenOlat diese Information aus den Angaben der Autorin / des Autors unter "Einstellungen" und zeigt sie an der vorgesehenen Stelle auf der Katalogkachel an.
 
 ![kurs_einstellungen_v1_de.png](assets/kurs_einstellungen_v1_de.png){ class="shadow lightbox" } 
 
@@ -57,13 +57,13 @@ Die Autorin / der Autor  muss dazu
 
 a) den Kurs für den Katalog **frei geben** und
 
-b) ein [Angebot formulieren](../../../manual_user/docs/learningresources/Access_configuration.de.md), mit dem der Kurs oder die Lernressource im Katalog beworben wird.
+b) ein [Angebot formulieren](../../manual_user/learningresources/Access_configuration.de.md), mit dem der Kurs oder die Lernressource im Katalog beworben wird.
 
-Gehen Sie in die Administration Ihres Kurses. Dort finden Sie unter „Einstellungen“ auch den Reiter „Freigabe“.
+Gehen Sie in die Administration Ihres Kurses. Dort finden Sie unter "Einstellungen" auch den Reiter "Freigabe".
 
 ![kurs_freigabe_v1_de.png](assets/kurs_freigabe_v1_de.png){ class="shadow lightbox" }
 
-Enthält Ihr Kurs als Buchungsmethode „privat“ bedeutet das auch, dass er nirgends im Katalog erscheinen soll. Im ersten Schritt müssen Sie also die Buchungsmethode "Buchbare und offene Angebote - Buchbar für Benutzer*innen im Katalog" wählen und so die Anzeige Ihres Kurses im Katalog prinzipiell ermöglichen.
+Enthält Ihr Kurs als Buchungsmethode "privat" bedeutet das auch, dass er nirgends im Katalog erscheinen soll. Im ersten Schritt müssen Sie also die Buchungsmethode "Buchbare und offene Angebote - Buchbar für Benutzer*innen im Katalog" wählen und so die Anzeige Ihres Kurses im Katalog prinzipiell ermöglichen.
 
 ![kurs_freigabe_buchbar_v1_de.png](assets/kurs_freigabe_buchbar_v1_de.png){ class="shadow lightbox" }
 
@@ -85,7 +85,7 @@ Ob und wo der Kurs im Katalog erscheint, wird dann im zweiten Schritt durch die 
     Vor OpenOlat 17 und generell bei der Verwendung des Katalog 1.0 ist in den Einstellungen ein Reiter "Katalog" enthalten und es konnten noch keine Angebote erstellt werden. 
     Bei Verwendung des Katalog 2.0 ab OpenOlat 17 werden die Einstellungen für die Anzeige im Katalog im Reiter "Freigabe" gemacht (in Form von Angeboten.)
 
-Klicken Sie auf den Button „Angebot hinzufügen“, erhalten Sie eine Vorauswahl möglicher Angebotstypen.
+Klicken Sie auf den Button "Angebot hinzufügen", erhalten Sie eine Vorauswahl möglicher Angebotstypen.
 
 ![kurs_angebot_hinzufuegen_v1_de.png](assets/kurs_angebot_hinzufuegen_v1_de.png){ class="shadow lightbox" }
 

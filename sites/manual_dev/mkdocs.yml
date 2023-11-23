@@ -14,12 +14,14 @@ nav:
       - Overview: ux/patterns.md
       - Navigation: ux/nav.md
       - Empty state: ux/empty_state.md
+      - Tooltip: ux/tooltip.md
     - Components:
       - Overview: ux/components.md
       - Button: ux/button.md
       - Card: ux/card.md
       - File: ux/file.md
       - Object integration: ux/object_integration.md
+      - Performance widget: ux/performence_widget.md
       - Pickers: ux/pickers.md
       - Switch & Sliders: ux/switch_slider.md
       - Tab / Tab pane: ux/tab.md

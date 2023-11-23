@@ -66,9 +66,7 @@ Durch Klick auf den Namen eines Users gelangt man zur konkreten Bewertung. Hier 
 
 ![Bewertungsformular](assets/Bewertung_Bewerutngsformular_mit_Rubrik.png){ class="shadow lightbox" }
 
-Haben Sie ein [Rubrik](../learningresources/Rubric.de.md) als Bewertungsgrundlage hinterlegt, können Sie schnell und effektiv eine Kriterien basierte Bewertung vornehmen. Hier ein Beispiel:
-
-![Beispiel: Feedbackformualr mit Rubriks](assets/Bewertungswerkzeug_Rubrik.png){ class="shadow lightbox" }
+Haben Sie ein [Rubrik](../learningresources/Rubric.de.md) als Bewertungsgrundlage hinterlegt, können Sie schnell und effektiv eine Kriterien basierte Bewertung vornehmen.
 
 Darüber hinaus ist für den Kursbaustein "Bewertung" auch eine Massenbewertung möglich.
 

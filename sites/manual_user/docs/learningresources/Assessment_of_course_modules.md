@@ -64,10 +64,9 @@ The button "Adjust rating scale" is only available if a rating scale has been ac
 
 By clicking on the name of a user you will get to the concrete assessment. Here you fill in the corresponding assessment form and, if linked, use the assigned rubric assessment form.
 
-
 ![assessment form](assets/Bewertung_Bewerutngsformular_mit_Rubrik.png){ class="shadow lightbox" }
 
-If you have stored a [rubric](../learningresources/Rubric.md) as the basis for assessment, you can quickly and effectively carry out a criteria-based assessment. Here is an example:
+If you have stored a [rubric](../learningresources/Rubric.md) as the basis for assessment, you can quickly and effectively carry out a criteria-based assessment.
 
 In addition, bulk assessment is also possible for the course element "Assessment".
 

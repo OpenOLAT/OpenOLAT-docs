@@ -44,7 +44,7 @@ You must now navigate back to the course, which is still open in another Olat ta
 - Under "Display" you can determine whether the CP's own component menu should be integrated into course navigation.
 
 - Configure the other tabs of the course element if necessary.
-In the tab "Layout" you define the settings for the display of the CP. The setting options are identical to those of a [Page](../../manual_user/learningresources/Course_Element_Page.md)
+In the tab "Layout" you define the settings for the display of the CP. The setting options are identical to those of a Page.
 
 - Then publish the course by clicking on the course title in the breadcrumb bar and publish the course automatically or manually.   
 

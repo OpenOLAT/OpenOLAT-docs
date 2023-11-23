@@ -66,7 +66,7 @@ case of learning path courses further settings regarding assessment configuratio
     The columns _do not show the ratings_ for individual persons, but only give an  overview of the configuration of the course elements. If points are to be   awarded or a pass/fail is to be given, this will be done in the course's "[Assessment tool](../learningresources/Assessment_tool_overview.md)".
 
 
-## Course preview  {: #preview} (nur für herkömmliche Kurse)
+## Course preview (nur für herkömmliche Kurse) {: #preview}
 
 The editor tool "Course preview" enables you to see course settings and
 content from the course participant's point of view. By clicking on "Course

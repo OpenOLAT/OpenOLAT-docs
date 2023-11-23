@@ -5,7 +5,7 @@ address.
 
 ### Mandatory
 
-If this option is not activated, it means, that a user does not need an email
+If this option is *not* activated, it means that a user does not need an email
 address. However, this will lead to limitations, as OpenOlat is set up for
 users having an email address. The following limitations can occur (list is
 not closing):
@@ -55,7 +55,6 @@ behavior.
   * Send e-Mails to the internal OLAT inbox and the personal e-mail address
 
   
-
 ##  E-mail template {: #template}
 
 OpenOlat is sending e-mails for various events. To make the e-mails look more
@@ -67,5 +66,31 @@ The following variable have to be in the template:
   *  **$content** : Is replaced with the actual content of the e-mail. The content is normally written in the recipients language.
   *  **$footer** : Is replaced with the generic footer line. The footer is written in the recipients language and can be modified using the language adaption tool for each language (see footer.no.userdata and footer.with.userdata from package org.olat.core.util.mail)
 
-  
+  ## Signatur
+
+The activation of the e-mail signature can be found under the following path:<br>
+**Administration > Customizing > User attributes**
+
+**Step 1: Tab "Properties" > Activate column "emailSignature"**
+
+<details>
+    <summary>Screen</summary>
+	<img src="../assets/e-mail_settings_activate1_v1_de.png" />
+</details>
+
+**Step 2: Tab "Contexts" > Define org.olat.user.ProfileFormController**
+
+<details>
+    <summary>Screen</summary>
+	<img src="../assets/e-mail_settings_activate2_v1_de.png" />
+</details>
+
+<details>
+    <summary>Screen</summary>
+	<img src="../assets/e-mail_settings_activate3_v1_de.png" />
+</details>
+
+The recommended setting:
+
+![e-mail_settings_activate4_v1_de.png](assets/e-mail_settings_activate4_v1_de.png){ class="shadow lightbox" }
 

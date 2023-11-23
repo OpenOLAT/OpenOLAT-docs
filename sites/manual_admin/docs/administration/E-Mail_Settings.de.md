@@ -71,14 +71,14 @@ Die folgenden Variablen müssen in der Vorlage vorkommen:
 Die Aktivierung der E-Mail-Signatur befindet sich unter folgendem Pfad:<br>
 **Administration > Customizing > Benutzer:innen-Attribute**
 
-**Schritt 1: Tab „Properties“ > Zeile „emailSignature“ aktivieren**
+**Schritt 1: Tab "Properties" > Zeile "emailSignature" aktivieren**
 
 <details>
     <summary>Screen</summary>
 	<img src="../assets/e-mail_settings_activate1_v1_de.png" />
 </details>
 
-**Schritt 2: Tab „Contexts“ > org.olat.user.ProfileFormController definieren**
+**Schritt 2: Tab "Contexts" > org.olat.user.ProfileFormController definieren**
 
 <details>
     <summary>Screen</summary>

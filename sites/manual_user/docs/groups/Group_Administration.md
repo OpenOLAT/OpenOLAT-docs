@@ -12,7 +12,7 @@ Via the displayed tabs you can:
   * configure access to the group and
   * set the group inactive.
 
-As a group coach, you can make [general settings](../area_modules//Group_Management.md) and delete the group.
+As a group coach, you can make [general settings](../area_modules/Group_Management.md) and delete the group.
 
 The individual tabs of the administration of groups are explained below.  
 

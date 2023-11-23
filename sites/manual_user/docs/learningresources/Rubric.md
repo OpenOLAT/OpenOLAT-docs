@@ -45,7 +45,7 @@ Enter individual criteria, statements or questions in the row area that match yo
 You can also format the short statements. Individual lines can be moved using the up/down double arrows. In addition, you can assign a weighting to each line and thus assign special importance to individual criteria, which is also reflected in the points awarded, e.g. by double or triple points. 
 It is also possible to set the value to 0 to exclude individual questions from the reports.
 
-An edited rubric can therefore automatically receive a corresponding number of points, which is particularly relevant when used in the course element "[Assessment](../learningresources/Course_Element_Assessment.de.md)".
+An edited rubric can therefore automatically receive a corresponding number of points, which is particularly relevant when used in the course element "[Assessment](../learningresources/Course_Element_Assessment.md)".
 
 The cross double arrow can be used to create a section with two ends.
 

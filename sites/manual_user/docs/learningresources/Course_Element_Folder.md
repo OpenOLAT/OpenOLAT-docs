@@ -26,7 +26,7 @@ If the folder is used to allow course participants to upload files as well, you 
 
 ![Locked files in folder](assets/KB_Ordner_schloss.png)
 
-!!! info "Achtung"
+!!! info "Attention"
 
     Do not confuse: In addition to download folders in courses, learners also have [Personal Folders](../personal_menu/Personal_folders.md) available that can be used for individual learning regardless of the course. Furthermore, there is the course element "Participant Folder" (see below).
 
@@ -36,9 +36,9 @@ If the folder is used to allow course participants to upload files as well, you 
 
 In the tab "Folder configuration" of the course element you define where exactly the files of this folder should be stored in the folder of the course. For this OpenOlat can either generate a folder automatically or select a specific folder from the course folder.
 
-If the option "Automatically generated folder" is selected, OpenOlat creates the subfolder _courselementdata including a subfolder with the name of the respective course element "folder". All files of the course element are now saved here.
+If the option "Automatically generated folder" is selected, OpenOlat creates the subfolder _courselementdata_ including a subfolder with the name of the respective course element "folder". All files of the course element are now saved here.
 
-If you select "Choose folder from course storage" you can select an existing folder from the course folder. This is especially useful if you have already uploaded the files you want to make available in a structured way in the course's folder. In the next step, select an existing folder in the storage folder and create a new subfolder in the storage folder. If configured in the [course settings](../learningresources/Course_Settings.md), you can also access a linked resource folder via the storage folder.
+If you select "Choose folder from course storage" you can select an existing folder from the course folder. This is especially useful if you have already uploaded the files you want to make available in a structured way in the course's folder. In the next step, select an existing folder in the storage folder and create a new subfolder in the storage folder. If configured in the [Course Settings](../learningresources/Course_Settings.md), you can also access a linked resource folder via the storage folder.
 
 You can then upload files to the previously defined location in the "Upload files" area via the "Manage folder" link or display the files that have already been uploaded.
 
@@ -70,7 +70,7 @@ Furthermore, all users can ...
 
 ###  Metadata  {: #metadata}
 
-The gear symbol can be used to configure the [metadata](../basic_concepts/Full_Text_Search.md#metadata) of a file and thus add various information. In addition to the description and lock properties, the license information is particularly relevant. You can use the license information to define a specific license for the document, for example, use one of the existing Creative Commons licenses, enter the licensor, and leave additional information about the publisher, source, publication date, and so on. The license is displayed in a separate column in the folder module. By clicking on the license, the user receives the stored information on the respective license.
+The gear symbol can be used to configure the [Metadata](../basic_concepts/Full_Text_Search.md#metadata) of a file and thus add various information. In addition to the description and lock properties, the license information is particularly relevant. You can use the license information to define a specific license for the document, for example, use one of the existing Creative Commons licenses, enter the licensor, and leave additional information about the publisher, source, publication date, and so on. The license is displayed in a separate column in the folder module. By clicking on the license, the user receives the stored information on the respective license.
 
 The metadata also shows how often a file was called up. There is also a link with which you can directly link the respective file. Whether external persons can also access the file depends on the access settings of the course.
 

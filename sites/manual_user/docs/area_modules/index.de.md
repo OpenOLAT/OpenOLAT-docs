@@ -5,7 +5,7 @@ OpenOlat ist modular aufgebaut. Die wichtigsten Bereiche und Module sind allgeme
 Kurse sind das wichtigste Grundelement in OpenOlat. Grundsätzlich werden alle Lerninhalte innerhalb von Kursen angeboten. 
 
 ## Katalog
-Wird ein Katalog zum Anbieten der Kurse und Lernressourcen gewünscht, kann dies vom OpenOlat [Administrator aktiviert](../../../manual_admin/docs/administration/Modules_Catalog_2.0.de.md) werden. Je nach Version des Katalogs erscheint er als eigener Menüpunkt [(Katalog V2)](../area_modules/catalog2.0.de.md) oder als Tab im Bereich Kurse [(Katalog V1)](../area_modules/catalog1.0.de.md). 
+Wird ein Katalog zum Anbieten der Kurse und Lernressourcen gewünscht, kann dies vom OpenOlat [Administrator aktiviert](../../manual_admin/administration/Modules_Catalog_2.0.de.md) werden. Je nach Version des Katalogs erscheint er als eigener Menüpunkt [(Katalog V2)](../area_modules/catalog2.0.de.md) oder als Tab im Bereich Kurse [(Katalog V1)](../area_modules/catalog1.0.de.md). 
 
 ## Gruppen (M)
 Gruppen können für unterschiedliche Zwecke verwendet werden z.B. vereinfachen sie die Teilnehmeradministration oder erleichtern das kooperative, unabhängige Online-Lernen. 

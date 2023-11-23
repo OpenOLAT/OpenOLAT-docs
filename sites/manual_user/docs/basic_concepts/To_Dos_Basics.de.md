@@ -1,6 +1,6 @@
 # To-Dos
 
-## Wo hat es in OpenOlat To-Dos?
+## Wo gibt es in OpenOlat To-Dos?
 
 Die zu erledigenden Aufgaben (To-Dos) finden sich an mehreren Stellen in OpenOlat:
 

@@ -2,7 +2,7 @@
 
 ![portfolio_icon.png](../assets/portfolio_icon.png) 
 
-WThis chapter explains how the OpenOlat Portfolio 2.0 can be used. On the one hand, it contains information for authors regarding the creation of a portfolio template 2.0, including integration into OpenOlat courses. On the other hand, OpenOlat users will find information here on how to use the portfolio tasks provided and how to create their own [course-independent portfolios](../portfolio/Three_steps_to_your_portfolio_binder.md). Every OpenOlat user can create a portfolio folder themselves, if authorized by the administrator.
+This chapter explains how the OpenOlat Portfolio 2.0 can be used. On the one hand, it contains information for authors regarding the creation of a portfolio template 2.0, including integration into OpenOlat courses. On the other hand, OpenOlat users will find information here on how to use the portfolio tasks provided and how to create their own [course-independent portfolios](../portfolio/Three_steps_to_your_portfolio_binder.md). Every OpenOlat user can create a portfolio folder themselves, if authorized by the administrator.
 
 However, a central element of the OpenOlat portfolio is the valuation portfolio. For this purpose, the OpenOlat author creates [portfolio templates](../learningresources/Portfolio_template_Creation.md) with tasks and portfolio structures and makes them available in OLAT courses.
 

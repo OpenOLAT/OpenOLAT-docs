@@ -48,7 +48,7 @@ Ein Zugriff auf diesen Dateibereich ist auch bei geschlossenem Editor möglich.
 
 ### Benutzerberechtigungen einstellen
 
-Ferner kann im Bereich "Benutzerberechtigungen" definiert werden ob auch Betreuer und/oder Teilnehmer Dateien in den Ordner hochladen und bearbeiten dürfen. Standardmäßig dürfen neben den Besitzern auch Betreuer, aber nicht die Teilnehmer Dateien hochladen.
+Ferner kann im Bereich "Benutzerberechtigungen" definiert werden ob auch Betreuende und/oder Teilnehmende Dateien in den Ordner hochladen und bearbeiten dürfen. Standardmäßig dürfen neben den Besitzer:innen auch Betreuer:innen, aber nicht die Teilnehmer:innen Dateien hochladen.
 
 ## Einstellungen bei geschlossenem Editor
 

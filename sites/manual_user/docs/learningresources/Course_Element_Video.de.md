@@ -23,7 +23,7 @@ Informationen zur Nachbearbeitung des Videos mit OpenOlat Quiz und Sprungmarken 
 
 Gehen Sie in den Kurseditor und fügen Sie Ihrem Kurs den Kursbaustein "Video" hinzu.
 
-Wenn Sie noch kein Video zugewiesen haben, erscheint beim Titel **Gewähltes Video** die Meldung _Kein Video ausgewählt_. Klicken Sie im Tab „Lerninhalt“ auf „Video auswählen oder importieren“, um Ihrem Kursbaustein ein Video zuzuordnen.
+Wenn Sie noch kein Video zugewiesen haben, erscheint beim Titel **Gewähltes Video** die Meldung _Kein Video ausgewählt_. Klicken Sie im Tab "Lerninhalt" auf "Video auswählen oder importieren", um Ihrem Kursbaustein ein Video zuzuordnen.
 
 Es erscheint ein neues Menü. Unter "Alle Einträge" sehen Sie alle Videos des Systems die Sie einbinden können. Unter "Meine Einträge" sehen Sie die Video Lernressourcen bei denen Sie Besitzer sind. Wählen sie das gewünschte Video aus. Eine Suche ist ebenfalls möglich.
 

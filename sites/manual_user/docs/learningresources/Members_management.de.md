@@ -151,7 +151,7 @@ Statistiken und Test Statistiken. Die Daten können angezeigt und heruntergelade
 
 Für die aktivierte Personengruppe erscheint zusätzlich das Menü der Kurs "Administration".
 
-Mitglieder dürfen neue [Prüfungskonfigurationen](../learningresources/Assessment_mode.de.md)einrichten, bearbeiten und löschen.  
+Mitglieder dürfen neue [Prüfungskonfigurationen](../learningresources/Assessment_mode.de.md) einrichten, bearbeiten und löschen.  
   
 **Kurs Datenbank**
 
