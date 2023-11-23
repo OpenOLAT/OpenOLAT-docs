@@ -1,4 +1,4 @@
-# Page
+# Course Element "Page"
 
 ## Profile
 
