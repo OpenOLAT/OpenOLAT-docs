@@ -2,17 +2,17 @@
 
 :octicons-tag-24: Release 16.2
 
-OpenOlat Administratoren können die Option Umwandlung von Punkten in Noten einschalten und Bewertungssysteme erstellen.
+OpenOlat administrators can enable the option to convert points to grades and create grading systems.
 
 ![Einstufung/Noten aktivieren](assets/Admin_Noten_en.png)
 
-Der Begriff „Note“ wird hier als Platzhalter für alle möglichen Ausgabeformate verwendet. (Beispiele könnten sein: 1-6, A-F, „sehr gut“ - „ungenügend“, „Einsteiger“/„Spezialist“/„Experte“ etc.). 
+The term "Note" is used here as a placeholder for all possible output formats. (Examples could be: 1-6, A-F, "very good" - "unsatisfactory", "Beginner"/"Advanced"/"Expert" etc.). 
 
-Nach der Aktivierung können Kursbesitzer die Option im Kurseditor für einen Assessment Kursbaustein aktivieren. 
+After activation, course owners can activate the option in the course editor for an assessment course element.
 
 ## Grading system
 
-Folgende Einstellungen können Systemadministratoren vornehmen um die Bewertungsskalen zu konfigurieren:
+System administrators can make the following settings to configure the rating scales:
 
 ![bewertungssystem erstellen](assets/admin_Noten_Bewertungssystem_en.png){class="shadow"}
 
@@ -26,4 +26,4 @@ With textual types, one defines the number of performance classes and their name
 
 Examples are: Beginner, Advanced, Professional, different Smileys etc.
 
-In der Administration können mehrere Bewertungssysteme hinterlegt und zur Verfügung gestellt werden.
+Several rating systems can be stored and made available in the administration.

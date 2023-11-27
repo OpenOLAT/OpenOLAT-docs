@@ -63,8 +63,8 @@ the e-mail template you can modify the general appearance of all e-mails.
 
 The following variable have to be in the template:
 
-  *  **$content** : Is replaced with the actual content of the e-mail. The content is normally written in the recipients language.
-  *  **$footer** : Is replaced with the generic footer line. The footer is written in the recipients language and can be modified using the language adaption tool for each language (see footer.no.userdata and footer.with.userdata from package org.olat.core.util.mail)
+  *  **$content**: Is replaced with the actual content of the e-mail. The content is normally written in the recipients language.
+  *  **$footer**: Is replaced with the generic footer line. The footer is written in the recipients language and can be modified using the language adaption tool for each language (see footer.no.userdata and footer.with.userdata from package org.olat.core.util.mail)
 
   ## Signatur
 

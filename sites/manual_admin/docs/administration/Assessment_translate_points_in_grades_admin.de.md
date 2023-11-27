@@ -6,7 +6,7 @@ OpenOlat Administratoren können die Option Umwandlung von Punkten in Noten eins
 
 ![Einstufung/Noten aktivieren](assets/Admin_Noten.png)
 
-Der Begriff „Note“ wird hier als Platzhalter für alle möglichen Ausgabeformate verwendet. (Beispiele könnten sein: 1-6, A-F, „sehr gut“ - „ungenügend“, „Einsteiger“/„Spezialist“/„Experte“ etc.). 
+Der Begriff "Note" wird hier als Platzhalter für alle möglichen Ausgabeformate verwendet. (Beispiele könnten sein: 1-6, A-F, "sehr gut" - "ungenügend", "Einsteiger"/"Spezialist"/"Experte" etc.). 
 
 Nach der Aktivierung können Kursbesitzer die Option im Kurseditor für einen Assessment Kursbaustein aktivieren. 
 

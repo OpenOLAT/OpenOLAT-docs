@@ -19,7 +19,7 @@ OpenOlat instance and search for assessments.
 ## Certificates
 
 An e-mail address can be stored here to which copies of the certificates
-created can be sent. Copies to line managers are also possible.
+created can be sent. Copies to line managers are also possible. The upload of external certificates can also be enabled here. In addition, this function is also available for user administrators, line managers in the same organization or for responsible persons who are connected via a user-to-user relationship and can be configured separately in each case.
 
 ## Grading
 

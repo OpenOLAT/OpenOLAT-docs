@@ -64,15 +64,15 @@ Die zentrale Konfiguration des Kursbausteins erfolgt im Tab
 
   
 
-## Kursbaustein „Portfolioaufgabe“ {: #course_element_portfolio}
+## Kursbaustein "Portfolioaufgabe" {: #course_element_portfolio}
 
 ![Portfolio Icon](assets/portfolio_434343_64.png)
 
 Über den Kursbaustein „Portfolioaufgabe“ werden vom Lehrenden vordefinierte Portfolio Mappen für die Lernenden bereitgestellt. Die Kursteilnehmenden können die
 Portfolioaufgabe im Kurs abholen und werden anschliessend in ihren individuellen Portfoliobereich weitergeleitet. Das so abgeholte Portfolio kann dann von den Lernenden mit Inhalten und Artefakten befüllt und wenn gewünscht weiteren Personen oder den Kursbetreuern zugänglich gemacht werden. Je nach Konfiguration können diese Personen das Portfolio auch bewerten und kommentieren. 
 
-Für den Kursbaustein Portfolioaufgabe benötigen Sie eine „Portfolio 2.0
-Vorlage“, die mit dem Kursbaustein verknüpft wird. Sie können direkt im Kurs
+Für den Kursbaustein Portfolioaufgabe benötigen Sie eine "Portfolio 2.0
+Vorlage", die mit dem Kursbaustein verknüpft wird. Sie können direkt im Kurs
 über "Portfoliovorlage wählen oder erstellen" eine neue Portfoliovorlage
 erstellen bzw. eine zuvor erstellte verlinken.  Wie Sie eine Portfolioaufgabe
 genau erstellen erfahren Sie
@@ -95,11 +95,9 @@ Sie allgemeine Informationen zur Bewertung an alle Kursteilnehmer und
 -betreuer.
 
 Weitere Informationen wie Lernende eine Portfolioaufgabe abholen und nutzen
-finden Sie im Kapitel „[Portfolioaufgabe: abholen und
-bearbeiten](../learningresources/Portfolio_task_and_assignment_Collecting_and_editing.de.md)“.
+finden Sie im Kapitel "[Portfolioaufgabe: abholen und bearbeiten](../learningresources/Portfolio_task_and_assignment_Collecting_and_editing.de.md)".
 Wie Lehrende eine Portfolioaufgabe bewerten können, erfahren Sie im Kapitel
-„[Portfolioaufgabe: kommentieren und
-bewerten](../learningresources/Portfolio_assignment_Grading.de.md)“.
+2[Portfolioaufgabe: kommentieren und bewerten](../learningresources/Portfolio_assignment_Grading.de.md)".
 
 Generelle Infos zum Thema Portfolio bzw. E-Portfolio können Sie
 [hier](../area_modules/index.de.md) nachlesen.
@@ -119,30 +117,29 @@ Nur diese Gruppen können die Aufgabe anschliessend einsehen und bearbeiten.
 Solange keine Gruppe zugewiesen wurde, ist der Kursbaustein bei geschlossenem
 Editor nicht sichtbar.
 
-Bei geschlossenem Editor werden im Tab „Alle Teilnehmer“ die zugeordneten Gruppen angezeigt, die dann ausgewählt und bewertet werden können. Im Rahmen des
+Bei geschlossenem Editor werden im Tab "Alle Teilnehmer" die zugeordneten Gruppen angezeigt, die dann ausgewählt und bewertet werden können. Im Rahmen des
 Bewertungsprozesses kann entschieden werden, ob die Bewertung für die gesamte
 Gruppe gilt oder ob die Bewertung nur für ein bestimmtes Gruppenmitglied gilt.  
 
 ##  Kursbaustein „Test“  {: #course_element_test}
 ![Test Icon](assets/test.png)
 
-Mit dem Kursbaustein „Test“ binden Sie eine OpenOlat Lernressource „Test“ in
+Mit dem Kursbaustein "Test" binden Sie eine OpenOlat Lernressource "Test" in
 Ihren Kurs ein. Ein Test wird im Kurs zur Leistungsüberprüfung oder als Quiz
-verwendet und umfasst diverse Frage-Typen. Er wird je nach Wahl der  „[Fragetypen](../learningresources/Test_question_types.de.md)“ automatisiert oder manuell ausgewertet. OpenOlat verwendet das IMS-QTI 2.1
+verwendet und umfasst diverse Frage-Typen. Er wird je nach Wahl der  "[Fragetypen](../learningresources/Test_question_types.de.md)" automatisiert oder manuell ausgewertet. OpenOlat verwendet das IMS-QTI 2.1
 Format für Tests, was einen Austausch mit anderen Test-Systemen und Learning
 Management Systemen, die diesen Standard ebenfalls unterstützen, gewährt.
 
-Wenn Sie noch keinen Test ausgewählt haben, erscheint im Tab „Test-
-Konfiguration“ der Text  _Keine Datei ausgewählt_. Klicken Sie auf „Datei
-wählen, erstellen oder importieren“, um einen Test dem Kursbaustein zuzuordnen
+Wenn Sie noch keinen Test ausgewählt haben, erscheint im Tab "Test-
+Konfiguration" der Text  _Keine Datei ausgewählt_. Klicken Sie auf "Datei
+wählen, erstellen oder importieren", um einen Test dem Kursbaustein zuzuordnen
 oder einen neuen Test zu erstellen. Sollten Sie bereits einen Test ausgewählt
 haben, erscheint der Name dieser Lernressource hinter  _Gewählte Datei_. Mit
 Klick auf den Namen starten Sie die Vorschau des Tests. Mittels "Datei
 auswechseln" können Sie die Lernressource austauschen. Weitere Informationen
-finden Sie im Kapitel „[Tests
-erstellen](../learningresources/Test.de.md)“.
+finden Sie im Kapitel "[Tests erstellen](../learningresources/Test.de.md)".
 
-Die zwei zentralen „[Tabs](../learningresources/Tests_at_course_level.de.md)“ in denen Sie Einstellungen für Ihren Test vornehmen können sind  **Test-Konfiguration** und „**Optionen** “.
+Die zwei zentralen "[Tabs](../learningresources/Tests_at_course_level.de.md)" in denen Sie Einstellungen für Ihren Test vornehmen können sind  **Test-Konfiguration** und "**Optionen**".
 
 Die Einstellungen unter "Optionen" werden zunächst aus den Optionen in der
 Lernressource übernommen, können aber bei Bedarf aber im Kurs geändert werden.
@@ -167,8 +164,8 @@ oder Grafiken verlinken möchten. Diese Einstellung bewirkt aber auch, dass
 versierte Kursteilnehmer Einsicht in den gesamten Ablageordner des Kurses
 erlangen können.
 
-Wenn Sie den eingebundenen Test austauschen möchten, klicken Sie im Tab „Test-
-Konfiguration“ auf „Datei auswechseln“ und wählen den neuen Test. Falls
+Wenn Sie den eingebundenen Test austauschen möchten, klicken Sie im Tab "Test-
+Konfiguration" auf "Datei auswechseln" und wählen den neuen Test. Falls
 bereits Testresultate von Kursteilnehmern vorhanden sind, können Sie diese im
 nächsten Schritt herunterladen.
 
@@ -185,14 +182,14 @@ Die Resultate der Kursteilnehmenden werden personalisiert aufgezeichnet.
 
 ![test icon](assets/test.png)
 
-Der Selbsttest wird ähnlich konfiguriert und eingerichtet wie der Kursbaustein Test. Bei Selbsttests gibt es allerdings keine Option „bestanden/nicht bestanden“, der Tab
-„Highscore“ entfällt und der Kursbaustein taucht auch nicht im Bewertungswerkzeug auf.
+Der Selbsttest wird ähnlich konfiguriert und eingerichtet wie der Kursbaustein Test. Bei Selbsttests gibt es allerdings keine Option "bestanden/nicht bestanden", der Tab
+"Highscore" entfällt und der Kursbaustein taucht auch nicht im Bewertungswerkzeug auf.
 
-Im Gegensatz zum Kursbaustein „Test“ dienen Selbsttests Übungszwecken, d.h. die Resultate der Kursteilnehmenden werden anonymisiert gespeichert. Selbsttests können so oft wie erwünscht bearbeitet werden. 
+Im Gegensatz zum Kursbaustein "Test" dienen Selbsttests Übungszwecken, d.h. die Resultate der Kursteilnehmenden werden anonymisiert gespeichert. Selbsttests können so oft wie erwünscht bearbeitet werden. 
 
-Im Kursbaustein „Selbsttest“ werden genau wie beim Kursbaustein "Test" Lernressourcen vom Typ Test eingebunden. Wenn Sie noch keinen Test erstellt haben, folgen Sie den Anweisungen im Kapitel ["Wie gehe ich vor, wenn ich einen Test erstelle“](../../manual_how-to/test_creation_procedure/test_creation_procedure.de.md).
+Im Kursbaustein "Selbsttest" werden genau wie beim Kursbaustein "Test" Lernressourcen vom Typ Test eingebunden. Wenn Sie noch keinen Test erstellt haben, folgen Sie den Anweisungen im Kapitel ["Wie gehe ich vor, wenn ich einen Test erstelle“](../../manual_how-to/test_creation_procedure/test_creation_procedure.de.md).
 
-Weitere Informationen zu Tests finden Sie im Kapitel „[Tests erstellen](../learningresources/Test.de.md)“. Relevant ist hier vor allem das Unterkapitel „[Tests auf Kursebene](../learningresources/Tests_at_course_level.de.md).
+Weitere Informationen zu Tests finden Sie im Kapitel "[Tests erstellen](../learningresources/Test.de.md). Relevant ist hier vor allem das Unterkapitel "[Tests auf Kursebene](../learningresources/Tests_at_course_level.de.md)".
 
 Eine komplexere Alternative zum Selbsttest stellt der Kursbaustein Übung dar. 
 
@@ -243,12 +240,12 @@ Die Verwendung dieses Kursbausteins ist z.B. hilfreich, wenn die Lernenden besti
 
     Anders als beim Kursbaustein Umfrage erfolgt für diesen Kursbaustein allerdings keine spezifische grafische Auswertungsübersicht. 
 
-##  Kursbaustein „Umfrage“ {: #course_element_survey}
+##  Kursbaustein "Umfrage" {: #course_element_survey}
 
 ![Umfrage Icon](assets/formular_434343_64.png)
 
  
-Mit dem Kursbaustein „Umfrage“ fügen Sie Ihrem Kurs einen Online-Fragebogen hinzu. Als Basis wird die Lernressource "Formular" verwendet und mit dem Kursbaustein Umfrage verknüpft. Wenn Sie noch kein Formular für Befragungen erstellt haben, folgen Sie den Anweisungen im
+Mit dem Kursbaustein "Umfrage" fügen Sie Ihrem Kurs einen Online-Fragebogen hinzu. Als Basis wird die Lernressource "Formular" verwendet und mit dem Kursbaustein Umfrage verknüpft. Wenn Sie noch kein Formular für Befragungen erstellt haben, folgen Sie den Anweisungen im
 Kapitel "[3 Schritte zu Ihrem Formular](../forms/Three_Steps_to_your_Form.de.md)". Die Resultate einer Umfrage werden  standardmässig anonymisiert gespeichert. 
 
 Ein in einem Kurs verlinktes Formular kann nur solange vollständig im
@@ -260,10 +257,10 @@ Danach können nur noch Tippfehler korrigiert werden.
     Wenn Teilnehmende aktuell die Umfrage ausführen, jedoch noch nicht abgeschlossen haben, gehen deren Resultate verloren.
 
 Weitere Informationen zum Thema Fragebogen und Umfrage finden Sie im Kapitel
-„[Formulare erstellen](../learningresources/Form.de.md)“ und den
+"[Formulare erstellen](../learningresources/Form.de.md)" und den
 entsprechenden Unterkapiteln.
 
-## Kursbaustein „Checkliste“  {: #course_element_checklist}
+## Kursbaustein "Checkliste"  {: #course_element_checklist}
 
 ![Checkliste Icon](assets/checklist.png)
 

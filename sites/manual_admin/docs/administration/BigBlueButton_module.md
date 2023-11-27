@@ -35,13 +35,13 @@ room template.
 
 ## Add BigBlueButton-Server
 
-  *  **BigBlueButton API URL** : URL of the BBB-Server
+  *  **BigBlueButton API URL**: URL of the BBB-Server
 
-  *  **Shared secret** : API Key of the BBB-Server
+  *  **Shared secret**: API Key of the BBB-Server
 
-  *  **Capacity factor** : Server weighting in load balancing
+  *  **Capacity factor**: Server weighting in load balancing
 
-  *  **Activate server** : Server is available for load balancing
+  *  **Activate server**: Server is available for load balancing
 
 ![](assets/add-server.png){ class="shadow lightbox" }
 
@@ -63,7 +63,7 @@ BBB server or only the sessions of the current OpenOlat server.
 
 The capacity factor is recorded with a value between 1 and 100 per server. The
 calculated number of users* on the server is multiplied by the capacity
-factor. In this way, a server with stronger performance (RAM/CPU/disk) adapts
+factor. This way, a server with stronger performance (RAM/CPU/disk) adapts
 to a weaker one.  
   
  _*  Weighting when counting users from high to low: video users, audio users,
@@ -78,27 +78,18 @@ The room templates are available for selection when creating a new online-
 meeting. Templates control the following characteristics:
 
   * The available functions and standard settings in the online-meeting
-
   * The number of possible simultaneous users per room
-
   * Limits regarding duration and number of online rooms available
 
 ### Configuration of a room template
 
   *  **Room name:** Name of the room template
-
   *  **Description:**  Description of the room template (e.g. learning scenario, field of application)
-
   *  **Number of participants:**  Maximum number of participants
-
   *  **Duration (minutes):**  Maximum length of online-meeting
-
   *  **Enable room-template  :** Activated room templates are available in courses/groups for new online appointments and can be chosen by course owners
-
   *  **Number of rooms:**  Maximum number of concurrent rooms of the template
-
   *  **Open for external users:** A direct link is automatically generated for external users so that they can enter the BigBlueButton room without having to call OpenOlat first. The link is then displayed in the room configuration and can also be changed by the course owner or coach if necessary, as well as passed on to guests.
-
   *  **Room-template activated for <Role>:** Determines which roles can use the room template for new online-meetings. If the "Group member" option is activated, the template can also be used and further configured in OpenOlat groups.
 
 ![](assets/bbb_room_template.png){ class="shadow lightbox" }
@@ -116,17 +107,14 @@ meeting. Templates control the following characteristics:
 ## Online-Meetings
 
 Overview of configured online-meetings with the possibility to switch directly
-to the course/group (context) and/or delete this online-meeting.
+to the course/group (context) and/or delete this online-meeting. The search function can also be used to find specific BigBlueButton rooms and quickly mark and delete them, for example.
 
 ![](assets/bbb_administration_online-meetings.png){ class="shadow lightbox" }
 
 
 ## Calendar
 
-Calendar overview of configured online-meetings to check times with high
-occupancy and graphically display overlaps. This gives you a quick overview of
-the scheduled synchronous meetings of the entire OpenOlat instance and, if
-necessary, you can quickly select an alternative date.
+Calendar overview of all recorded online appointments to check times with high occupancy and display overlaps graphically.
 
 ![](assets/bbb_administration_calendar.png){ class="shadow lightbox" }
 

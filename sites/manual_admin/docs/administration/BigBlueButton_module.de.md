@@ -36,10 +36,10 @@ als belegt.
 
 ## BigBlueButton-Server hinzufügen
 
-  *  **BigBlueButton API URL** : URL BBB-Server
-  *  **Shared secret** : API Key BBB-Server
-  *  **Capacity factor** : Server-Gewichtung im Load-Balancing
-  *  **Server aktivieren** : Server steht für das Load-Balancing zur Verfügung
+  *  **BigBlueButton API URL**: URL BBB-Server
+  *  **Shared secret**: API Key BBB-Server
+  *  **Capacity factor**: Server-Gewichtung im Load-Balancing
+  *  **Server aktivieren**: Server steht für das Load-Balancing zur Verfügung
 
 ![](assets/add-server.png){ class="shadow lightbox" }
 
@@ -112,8 +112,7 @@ Beispiel schnell markiert und gelöscht werden.
 
 ## Kalender
 
-Kalenderübersicht über aller erfassten Online-Termine, um Zeiten mit hoher
-Belegung zu prüfen und Überschneidungen grafisch anzuzeigen.
+Kalenderübersicht über aller erfassten Online-Termine, um Zeiten mit hoher Belegung zu prüfen und Überschneidungen grafisch anzuzeigen.
 
 ![](assets/bbb_administration_voreinstellungen_kalender.png){ class="shadow lightbox" }
 
