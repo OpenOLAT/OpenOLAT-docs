@@ -171,7 +171,7 @@ nav:
       - Overview: "learningresources/Course_Elements.md"
       - Structure: "learningresources/Course_Element_Structure.md"
       - Page: "learningresources/Course_Element_Page.md"
-      - HTML Page: "learningresources/Course_Element_Single_Page.md"
+      - HTML Page: "learningresources/Course_Element_HTML_Page.md"
       - External Page: "learningresources/Course_Element_External_Page.md"
       - CP learning content: "learningresources/Course_Element_CP_Learning_Content.md"
       - SCORM Learning Content: "learningresources/Course_Element_SCORM_Learning_Content.md"
@@ -244,6 +244,7 @@ nav:
       - Audio Recording: "learningresources/Audio_Recording.md" 
     - Video:
       - Overview: "learningresources/Video.md"
+      - Video in HTML Pages: "learningresources/Video_in_HTML_Pages.md"
       - Learning resource Video: "learningresources/Learning_resource_Video.md"
       - Video Upload: "learningresources/Video_Upload.md"
       - Video Recording: "learningresources/Video_Recording.md"

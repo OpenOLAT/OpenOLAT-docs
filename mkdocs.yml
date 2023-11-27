@@ -290,7 +290,7 @@ plugins:
           How-to... : How-to...
           How to customize the course design with CSS : Wie kann ich eigene CSS für das Kursdesign verwenden?
           How to use the same files in several courses : Wie kann ich dieselben Dateien in mehreren Kursen einsetzen?
-          HTML page : HTML-Seite
+          HTML Page : HTML-Seite
           Imprint: Impressum
           In Five Steps to Your Content Package : Fünf Schritte zu Ihrem Content-Packaging
           Info page : Infoseite
@@ -457,6 +457,7 @@ plugins:
           Video : Video
           Video Livestream: Video Livestream
           Video in the single page : Video in der Einzelseite
+          Video in HTML Pages : Video im KB HTML-Seite
           Video Recording : Video aufnehmen
           Video task : Videoaufgabe
           Video Upload : Video hochladen
