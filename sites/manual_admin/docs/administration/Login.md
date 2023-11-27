@@ -1,7 +1,5 @@
 # Login
 
-Configuration of the login in the OpenOlat Administration
-
 ## Security
 
 Requirements towards security can vary greatly depending on the institution. Use the security settings to configure the necessary security level while taking the associated risk into account.
@@ -28,7 +26,7 @@ limited.
 
 ## Cloud login  
 
-It is possible to connect to social networks such as LinkedIn, Twitter,
+It is possible to connect to social networks such as LinkedIn, X,
 Google, Facebook, etc. for authentication.
 
 ## SMS

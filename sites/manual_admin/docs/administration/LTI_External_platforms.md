@@ -1,10 +1,62 @@
 # LTI - Externe Platformen
 
-:octicons-tag-24: Release 15.5 · :octicons-beaker-24: Beta Feature
+:octicons-tag-24: Release 15.5
 
-!!! warning "Beta-feature"
+## Basics
 
-	Attention! This is a beta feature. Be aware that using this feature might
-	result in unexpected behavior.
+Important terms in LTI terminology:
 
-TBD
+**Platform**: (corresponds to client) LMS in which the external content is integrated <br>
+**Tool**: (corresponds to host) LMS or other application that makes content available to others
+
+![LTI_share_groups_platform_tool_v1_de.png](assets/LTI_platform_tool_v1_de.png){ class="lightbox" }
+
+## OpenOlat as "Tool"
+
+If OpenOlat is used as a "tool" in the sense of the LTI terminology, existing courses in OpenOlat are displayed on another LMS. OpenOlat must provide information on the receiving platform (consumer) to ensure smooth communication between the two systems.
+
+The interaction with the other platforms (also "platform" in the sense of LTI terminology) is configured in the "External platforms" tab. OpenOlat is then the **tool** into which the course from the platforms defined here is integrated.
+
+![LTI_admin_config_v1_de.png](assets/LTI_admin_platform_v1_de.png){ class="shadow lightbox" }
+
+A separate configuration must be set up for each external platform. Use the "New external platform" button to create the connection to a new platform.
+
+!!! info "Note"
+
+	If several different OpenOlat courses are used from the same external platform, it is sufficient to configure the external platform only once at administrator level. The further configuration per course is then carried out by the course owner in the settings of the respective course<br>
+	(Course administration > Settings > Tab page content).
+
+
+## Configuration
+
+You can find a sample of an entire configuration under [Configuring LTI access to a course](../../manual_user/learningresources/LTI_Share_courses.md).
+
+In OpenOlat, the following parameters of the external partner instance are recorded under "External platform":
+
+| Field					| Comment |
+| --------------------- | ---------------------------------------------- |
+| Tool name				| Freely definable |
+| Plattform-ID / Issuer	| URL to the external instance |
+| Client-ID				| Client ID from the "Tool configuration details" dialog in the external platform |
+| Public key type | RSA key -> This key is then added to the tool configuration of the external platform |
+| Authorization	 		| From the external instance: Authentication request URL |
+| URL for access tokens	| From the external instance: Access token URL |
+| URL of the public keyring | From the external instance: Public Keyset URL |
+
+After completing the form, enter the public key on the external instance in the tool configuration there.
+
+![LTI_admin_platform_config_v1_de.png](assets/LTI_admin_platform_config_v1_de.png){ class="lightbox" }
+
+## Links
+
+IMS Global Learning Consortium: [Learning Tools Interoperability Core Specification](http://www.imsglobal.org/spec/lti/v1p3/)
+
+Admin manual: [LTI 1.3 Integration](http://docs.openolat.org/manual_admin/administration/LTI_Integrations/)
+
+Admin manual: [LTI - Externe Werkzeuge](http://docs.openolat.org/manual_admin/administration/LTI_External_tools/)
+
+User manual: [LTI-Zugang zu einem Kurs konfigurieren](https://docs.openolat.org/manual_user/learningresources/LTI_Share_courses/?h=lti)
+
+User manual: [Kursbaustein "LTI-Seite“](http://docs.openolat.org/manual_user/learningresources/Course_Element_LTI_Page/)
+
+User manual: [LTI-Zugang zu einer Gruppe konfigurieren](https://docs.openolat.org/manual_user/groups/LTI_Share_groups/)

@@ -23,7 +23,7 @@ zwischenzeitlich eine neue Version erstellt.
 
 Die Versionierung ist in allen Ordnern des Systems vorhanden: persönliche
 Ordner, Gruppenordner, Kursordner, Ressourcenordner und Kursbausteine
-'Ordner'.
+"Ordner".
 
 ## Quotas
 
@@ -55,12 +55,12 @@ Spezifische Quotas | Anwendungsbereich
 
 ## Grosse Dateien
 
-Im Tab **"Grosse Dateien** " können Administratoren gezielt nach grossen
+Im Tab "**Grosse Dateien**" können Administratoren gezielt nach grossen
 Dateien suchen und sich weitere Details zu diesen Dateien anzeigen lassen.
 
 ## Gelöschte Dateien
 
-Im Tab **"Gelöschte Dateien** " können von bestimmten Pfaden endgültig
+Im Tab "**Gelöschte Dateien**" können von bestimmten Pfaden endgültig
 gelöscht werden.
 
 ### Orphan Versionen löschen:

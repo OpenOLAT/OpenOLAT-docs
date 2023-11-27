@@ -16,7 +16,7 @@ Wenn sie den Katalog V1 einschalten, erscheint der Tab "Konfiguration" und Sie k
 ### Tab Startseite
 
 Auf der Startseite kann man sogenannte **"Launcher"** hinzufügen. Launcher sind die konfigurierbaren Zeilen der Startseite. Standardmässig ist ein Launcher vom Typ "Zuletzt hinzugefügt" aktiviert. Die Launcher kommen in 3 Typen: Statischer Text, Statisch (Manuell auswählen), Taxonomie-Ebenen.
-Allen Launcher kann ich einen sprachabhängigen Namen geben. Dieser Name erscheint dann als Headline über den Kacheln. Die Launcher können auch nur für spezifische Organisationen freigegeben werden. Dies erreiche ich über das Label 'Einschränkung auf Organisation'.
+Allen Launcher kann ich einen sprachabhängigen Namen geben. Dieser Name erscheint dann als Headline über den Kacheln. Die Launcher können auch nur für spezifische Organisationen freigegeben werden. Dies erreiche ich über das Label "Einschränkung auf Organisation".
 
 #### Taxonomie Launcher
 
@@ -40,9 +40,9 @@ Dieser Tab steuert, welche Filter auf den Microseiten und der Suchergebnisseite 
 
 Dieser Tab beinhaltet alles, was das Erscheinungsbild des Katalogs V2 angeht. Man kann den Anzeigetitel des Katalogs anpassen und ein Hintergrundbild für den Header der Startseite auswählen.
 
-Unter Kacheln Taxonomieebenen Launcher, kann man das Aussehen der Kacheln der Microsites beeinflussen.
+Unter **Kacheln Taxonomieebenen Launcher**, kann man das Aussehen der Kacheln der Microsites beeinflussen.
 
-Die Anzeige der Lernressourcen Card steuert, welche Metadaten auf der Card der Startseite angezeigt werden sollen. Diese Metadaten müssen in der jeweiligen Lernressource unter `Einstellungen > Metadaten` ausgefüllt werden.
+Die **Anzeige der Lernressourcen Card** steuert, welche Metadaten auf der Card der Startseite angezeigt werden sollen. Diese Metadaten müssen in der jeweiligen Lernressource unter `Einstellungen > Metadaten` ausgefüllt werden.
 
 ![Course card administration Options](assets/course-card-admin.de.jpg){class="lightbox"}
 

@@ -76,7 +76,7 @@ Man kann Lernressourcen auf Lizenzen einschränken. Entweder nur Lernressourcen 
 Verschiedene Sets können angewählt werden. Sets kategorisieren die Metadaten der Lernressourcen verschiedener Art. 
 
 * Taxonomie-basiertes Set
-* Organisations-basierte Set, basierend auf administrativer Org-Beziehung)
+* Organisations-basierte Set, (basierend auf administrativer Org-Beziehung)
 * Lizenzbasierte Set, sortiert nach Lizenzarten
 * Typ-basiertes Set, sortiert nach den Lernressourcentypen wie Kurs, Video, Podcast.
 * Angebot-basiertes Set, sortiert nach den Angebotstypen wie privat, buchbar mit Konto, Gast

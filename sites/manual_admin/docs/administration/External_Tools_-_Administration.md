@@ -33,7 +33,7 @@ created in OpenOlat.
 
 ## Adobe Connect
 
-Activation and configuration of Adobe Connect, if license available
+Activation and configuration of Adobe Connect, if license available.
 
 ## Zoom
 
@@ -50,7 +50,7 @@ This LTI version is currently in the trial phase.
 
 ## GoToTraining
 
-Activation and configuration if license available
+Activation and configuration if license available.
 
 ## vitero {: #vitero}
 
@@ -78,11 +78,11 @@ will not be considered.
 
 ## Edubase/Edubook
 
-Activation and configuration if license available
+Activation and configuration if license available.
 
 ## Youtube API
 
-Enter, remove or check API key
+Enter, remove or check API key.
 
 ## MediaSite
 
@@ -91,8 +91,6 @@ recording, video management and subtitling. The OpenOlat Mediasite module
 allows you to integrate MediaSite content into courses as a single
 presentation, channel, or module. For more information, see the
 [MediaSite](https://mediasite.com/) documentation.
-
-  
 
 ## edu-sharing
 
@@ -133,12 +131,12 @@ To learn more about how to install and configure the Gotenberg service please vi
 
 
 ### Athena PDF (outdated)
-[AthenaPDF](https://www.athenapdf.com) is a
+
+AthenaPDF is a
 PDF generator based on Electron and Docker. This implementation uses the
 Variant micro service. 
 
 More information on AthenaPDF can be found at
-[AthenaPDF](https://www.athenapdf.com) and
 [GitHub](https://github.com/arachnys/athenapdf/tree/master/weaver).
 
 To learn more about how to install and configure the AthenaPDF service please visit

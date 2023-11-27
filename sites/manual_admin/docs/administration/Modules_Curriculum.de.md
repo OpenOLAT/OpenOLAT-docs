@@ -21,8 +21,7 @@ Administration aktiviert werden.
 Curriculum-Typen definieren, welche Elemente ein Curriculum enthalten kann und
 geben diesen Elementen eine nähere Bedeutung. Beim Anlegen der Curriculum-
 Typen kann eine hierarchische Struktur abgebildet werden, dies ist aber nicht
-zwingend. Ein Beispiel für ein hierarchisches Curriculum ist `Lehrgang →
-Semester → Modul → Kurs`.
+zwingend. Ein Beispiel für ein hierarchisches Curriculum ist `Lehrgang → Semester → Modul → Kurs`.
 
 In der Tabelle werden die bereits angelegten Curriculum-Typen angezeigt. Eine
 Bearbeitung der Daten ist über das

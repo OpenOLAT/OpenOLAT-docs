@@ -41,12 +41,12 @@ Taxonomy in the tab level types.
 
 * **Use in document pool**: With this options it is defined if this competence type appears in the document pool.
 * **Documents enabled**: Only if this option is activated files can be uploaded on this level. Otherwise this level is only shown as structure without folder content.
-* **Manager competence**: Is not yet used.
+* **Manager competence**: Allow or not.
 * **Teacher competence**: In the teacher competence the access rights of the single levels of the document pool can be defined. First it is selected if a user with teach competence has read access to this level. If yes, the users can read the content of this level. Furthermore it can be defined if the read access is also valid on the other elements of the same hierarchical level. Therefore 1 instead of 0 need to be inserted.  
 If additionally "Allow write access" is selected, the users can also upload
 documents.
-* **Have competence*: Is not yet used.
-* **Target competence**: Is not yet used.
+* **Have competence**: Allow readers-only access or not.
+* **Target competence**: Allow readers-only access or not.
 
 These settings need to be repeated for all defined competence types.
 
@@ -54,6 +54,8 @@ Additionally the corresponding competence need to be added to the users. This
 happens either by the synchronization of an external management system or
 directly in OpenOlat. In OpenOlat this can be done either in the user
 management or in `Administration → Modules → Taxonomy`.
+
+Settings can also be made here for the "Field of action" and "Subject" competence types.
 
 ![](assets/documentpool_ap.png){ class="shadow lightbox" }
 

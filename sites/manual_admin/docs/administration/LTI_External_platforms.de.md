@@ -29,7 +29,7 @@ Für jede externe Plattform muss eine eigene Konfiguration eingerichtet werden. 
 
 ## Konfiguration
 
-Ein Muster einer gesamten Konfiguration finden Sie unter [LTI-Zugang zu einem Kurs konfigurieren](https://docs.openolat.org/de/manual_user/learningresources/LTI_Share_courses/?h=lti).
+Ein Muster einer gesamten Konfiguration finden Sie unter [LTI-Zugang zu einem Kurs konfigurieren](../../manual_user/learningresources/LTI_Share_courses.de.md).
 
 In OpenOlat werden unter “Externe Plattform” die folgenden Parameter der externen Partner-Instanz erfasst:
 

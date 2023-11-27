@@ -10,7 +10,7 @@ Hier können die Syntax-Regeln für die OpenOlat Passwörter konfiguriert werden
 Als Minimum muss eine Mindest- und eine Maximallänge definiert werden. Darüber
 hinaus können weitere Anforderungen, wie Anzahl von Buchstaben, Groß- und
 Kleinschreibung, Anforderungen zu Ziffern und Sonderzeichen sowie bestimmte
-nicht erlaubte Werte definiert werden. Im Tab "Änderungsrichtlinien kann
+nicht erlaubte Werte definiert werden. Im Tab "Änderungsrichtlinien" kann
 fesgelegt werden wie oft Benutzer ihr Passwort ändern müssen.
 
 ## Anonyme und externe Benutzer:innen
@@ -27,7 +27,7 @@ Selbstregistrierung eingeschränkt werden.
 ## Cloud Login
 
 Es besteht die Möglichkeit die Verbindung mit sozialen Netzwerken, wie
-LinkedIn, Twitter, Google, Facebook usw.  für die Authentifizierung
+LinkedIn, X, Google, Facebook usw.  für die Authentifizierung
 herzustellen.
 
 ## SMS

@@ -10,20 +10,20 @@ Administrators can determine whether and to what extent OpenOlat can be used in 
 ![login_anonymous_external_user_tab1_v1_de.png](assets/login_anonymous_external_user_tab1_v1_de.png){ class="shadow lightbox" }
 
 
-*  **Guest login on login page:**
+*  **"Guest login on login page2:**
 Means that the guest access can be chosen on the login page.
 
-*  **Links for guests:**
+*  **"Links for guests":**
 In the access configuration access of courses can be given to guests.
 
-*  **Allow invitation:**
+*  **"Allow invitation":**
 In the access right of the portfolio external users can be added.
 
 <br>
 
 ![login_anonymous_external_user_tab2_v1_de.png](assets/login_anonymous_external_user_tab2_v1_de.png){ class="shadow lightbox" }
 
-*  **Full-text search for guests:**
+*  **"Full-text search for guests":**
 Enables the full-text search also for guests. All courses with the access for guests are searched.
 
 

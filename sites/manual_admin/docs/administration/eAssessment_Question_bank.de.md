@@ -2,8 +2,7 @@
 
 Hier können Sie den Fragenpool aus Sicht des Systemadministrators
 konfigurieren. Einige der Einstellungen können auch in der 
-[Administration des Poolverwalters](../administration/e-Assessment_Administration.de.md)
-vorgenommen werden.
+[Administration des Poolverwalters](../../manual_user/area_modules/Question_Bank_administration.md) vorgenommen werden.
 
 ![](assets/Fragenpool_admin.png){ class="shadow lightbox" }
 
@@ -23,8 +22,7 @@ sind dieselben Fragen wie zuvor in den entsprechenden Listen verknüpft. Genau
 gleich verhält es sich mit Pools und Gruppen.
 
 Weitere Informationen zum
-[Beurteilungsprozess](../../manual_user/area_modules/Question_Bank_Review_Process.de.md) finden Sie im
-entsprechenden Kapitel.
+[Beurteilungsprozess](../../manual_user/area_modules/Question_Bank_Review_Process.de.md) finden Sie im entsprechenden Kapitel.
 
   * Taxonomie: Jedem Fragenpool ist die Taxonomie "Question pool" zugeordnet. Diese Taxonomie wurde automatisch aus den ehemaligen Fachbereichen erstellt. Änderungen können im Tab "Fachbereiche" vorgenommen werden. Weitere Informationen zur Taxonomie finden Sie [hier](Modules_Taxonomy.de.md).
   * Auswählbare Fachbereiche: Wenn "Alle Fachbereiche" ausgewählt ist, kann bei einer Frage jeder Fachbereich ausgewählt werden, unabhängig von den eigenen Kompetenzen.   
@@ -34,7 +32,7 @@ zugeordnete werden, bei denen man selbst über eine gewissen Kompetenz verfügt.
 Diese Kompetenzen werden entweder unter `Administration → Modules → Taxonomie`
 oder in der Benutzerverwaltung hinzugefügt.
   * Fachbereich beim Import erzeugen: Fragen können via Excel-Import im Fragenpool hinzugefügt werden. Bei jeder Frage kann als Metadaten der Fachbereich importiert werden. Wenn diese Option aktiviert ist, bedeutet dies, dass durch den Import neue Fachbereiche angelegt werden, sofern diese noch nicht bestehen. Wenn es sich nur um einen Tippfehler handelt, wird auch ein neuer Fachbereich erstellt.
-  * Stufen: Hier kann die Verwendung von [Stufen](manual) aktiviert werden.
+  * Stufen: Hier kann die Verwendung von [Stufen](../administration/Assessment_translate_points_in_grades_admin.de.md) aktiviert werden.
   * Fragen löschen, wenn Autor gelöscht: Wenn der letzte Autor einer Frage aus der Benutzerverwaltung von OpenOlat gelöscht wird, werden alle diese Fragen gelöscht, sofern diese Option hier aktiviert wird. Ansonsten bleiben die Fragen im Fragenpool drin, ohne zugeordneten Autor. Als Systemadministrator können Sie im Fragenpool unter `Fragen → Ohne Autor` all diejenigen Fragen suchen und einen neuen Autor zuordnen.
 
 !!! tip "Tipp"
@@ -81,8 +79,8 @@ Hier können neue Pools erstellt, bearbeitet und gelöscht werden. Pools wie
 auch Gruppen ermöglichen es, sich gegenseitig Fragen freizugeben und zu
 teilen.
 
-  * **öffentliche Pools**: Auf diese Pools haben alle Zugriff
-  * **private Pools**: auf diese Pools hat nur Zugriff, wer als Besitzer hinzugefügt worden ist
+  * **Öffentliche Pools**: Auf diese Pools haben alle Zugriff
+  * **Private Pools**: auf diese Pools hat nur Zugriff, wer als Besitzer hinzugefügt worden ist
 
 ## Tab Fragetypen
 

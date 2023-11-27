@@ -41,7 +41,7 @@ Für jedes externe Tool muss eine eigene Konfiguration eingerichtet werden. Verw
 
 ## Konfiguration
 
-Ein Muster einer gesamten Konfiguration finden Sie unter [LTI-Zugang zu einem Kurs konfigurieren](https://docs.openolat.org/de/manual_user/learningresources/LTI_Share_courses/?h=lti) 
+Ein Muster einer gesamten Konfiguration finden Sie unter [LTI-Zugang zu einem Kurs konfigurieren](../../manual_user/learningresources/LTI_Share_courses.de.md) 
 
 In OpenOlat werden unter “Neues Tool hinzufügen” die folgenden Parameter des externen Partner-Instanz erfasst:
 

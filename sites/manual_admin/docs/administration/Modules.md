@@ -42,17 +42,17 @@ functionality in OpenOlat. If the XSS scanner is switched off, the Wiki can be
 used with the risk of an XSS attack. However, the Wiki component has automatic
 versioning, which makes it difficult for attackers to remain undetected.
 
-## Kurserinnerungen 
+## Course reminders 
 
-Aktivierung der Kurserinnerungen und Einstellung der Versandhäufigkeit. 
+Activation of course reminders and setting the sending frequency.
 
-## Audio/Video-Aufnahme
+## Audio/Video recording
 
-Aktivierung der Video-Aufnahme Möglichkeit an verschiedenen Stellen in OpenOlat. Auch ein lokales Transcoding kann aktiviert werden. 
+Activation of the video recording option at various points in OpenOlat. Local transcoding can also be activated.
 
-## Covid-Zertifikat
+## Covid certificate
 
-Aktivierung des COVID-Zertifikats mit weiteren Einstellungen wie Gültigkeitsdauer, Erinnerungseinstellungen, Scan-Einstellungen für das Zertifikat.
+Activation of the COVID certificate with further settings such as validity period, reminder settings, scan settings for the certificate.
 
 ## Livestream
 
@@ -64,15 +64,15 @@ used when configuring the execution period of a course in learning resource
 management. For example, "SoSe23" could be used as the designation and "Summer
 semester 2023" as the name.
 
-## Medien Center
+## Media Center
 
-Hier kann definiert ob bzw. welche Taxonomie mit dem Medien Center verbunden werden sollen. 
+Here you can define whether or which taxonomy should be connected to the Media Center.
 
-## Datenschutz
+## Data privacy
 
-## Buchungen
+## Bookings
 
-Anzeige aller Buchungen für eine Buchungsnummer in einem angegebenen Zeitraum
+Display of all bookings for a booking number in a specified period
 
 ## Groups
 
@@ -84,13 +84,13 @@ inviting users to courses and groups and whether the invitation results in
 direct membership or must first be confirmed by the invited user.
 Administrators can also purge course and group members here.
 
-## Bibliothek
+## Library
 
-Aktivierung des Menüs "Bibliothek" und Wahl des zugehörigen Ressourcenordners.
+Activate the "Library" menu and select the corresponding resource folder.
 
 ## Forum
 
-Administrators can define here if pseudonymous forum posts are allowed and
+Administrators can define here, if pseudonymous forum posts are allowed and
 also define the appropriate default configuration for forums.
 
 ## Course
@@ -101,14 +101,14 @@ can also be made here. In the tab "Didactic Types" new didactic types can be
 defined and existing ones can be edited or deleted. Categories for color
 categories with CSS classes and style images can also be added here.
 
-## Rolle Person zu Person 
+## Role person to person
 
-Aktivierung von Person zu Person und Definition von konkreten verbundenen Rollen z.B. Vorgesetzter und Mitarbeiter oder Lehrer und Schüler.
+Activation from person to person and definition of concrete associated roles, e.g. manager and employee or teacher and student.
 
-## Anfrage Konto löschen
+## Request account deletion
 
-Aktivierung und Angabe einer Mailadresse für die Löschanfrage.
+Activation and specification of an e-mail address for the deletion request.
 
-## Qualitätsmanagement
+## Quality management
 
-Aktivierung und Definition von speziellen E-Mailadressen. 
+Activation and definition of special e-mail addresses.

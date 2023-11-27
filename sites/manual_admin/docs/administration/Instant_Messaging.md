@@ -29,8 +29,9 @@ appears for those groups for which the group member display is configured.
 Those group peers can be contacted using the messaging feature.
 
  **Show online status:** This setting enables the display of the users online
-status for group peers and online users. When disabled a chat icon appears
-instead of the status icon.
+status for group peers and online users. When disabled, a chat icon appears
+instead of the status icon. Users then do not know whether their message
+message can be sent immediately.
 
 More information about the usage of the Instant-Messaging module can be found
 here: [Chat](../../manual_user/basic_concepts/Chat.md)

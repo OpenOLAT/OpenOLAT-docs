@@ -19,14 +19,14 @@ deaktiviert werden.
 ## Lizenztypen
 
 In OpenOlat sind bereits 8 Standardlizenzen definiert, sieben Creative
-Commons-Lizenzen, sowie eine „All rights reserved“-Lizenz. Diese Standard
+Commons-Lizenzen, sowie eine "All rights reserved"-Lizenz. Diese Standard
 Lizenztypen können nicht gelöscht werden. Informationen zu Creative Commons
 finden Sie in der [Wikipedia](http://de.wikipedia.org/wiki/Creative_Commons
 "Wikipedia") und unter
 [www.creativecommons.org](http://www.creativecommons.org/
 "www.creativecommons.org"). Während die Creative Commons Lizenzen alle eine
 Kopie und Weiterverteilung eines geschützten Werkes erlauben, gestattet die
-„All rights reserved“ - Lizenz nur die Nutzung im vom Urheber vorgesehenen
+"All rights reserved" - Lizenz nur die Nutzung im vom Urheber vorgesehenen
 Kontext.
 
 Es können zusätzlich eigene Lizenzen erstellt werden, sollten die Standard

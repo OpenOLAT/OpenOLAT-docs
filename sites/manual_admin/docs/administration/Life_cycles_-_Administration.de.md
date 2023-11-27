@@ -16,8 +16,7 @@ entsprechenden Hinweis erhalten.
 In der OpenOlat Administration können sowohl Einstellungen für den Gruppen-
 Lebenszyklus als den Benutzerzyklus vorgenommen werden. Es können dabei auch
 bestimmte Gruppentypen ausgewählt und die Inaktivierung nur diese Gruppen
-eingeschränkt werden. Grundsätzlich der der [Gruppen-
-Lebenszyklus](Automatic_Group_Lifecycle.de.md) bezüglich der
+eingeschränkt werden. Grundsätzlich der der [Gruppen-Lebenszyklus](Automatic_Group_Lifecycle.de.md) bezüglich der
 Inaktivierung, der Löschung und der unwiderruflichen Löschung definiert
 werden.
 

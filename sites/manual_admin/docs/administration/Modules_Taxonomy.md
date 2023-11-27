@@ -12,11 +12,11 @@
 	  * [ePortfolio](../../manual_user/area_modules/Competences_tags.md)
 	  * Linking with learning resources
 	
-	The usage of the taxonomy will be developed continuously.
+The usage of the taxonomy will be developed continuously.
 	
-	Thus on one hand taxonomy structures can for example be built in the form of
-	subject, sphere of activity or competence structures. On the other hand
-	competences can be added to users which allows them access to the taxonomy.
+Thus on one hand taxonomy structures can for example be built in the form of
+subject, sphere of activity or competence structures. On the other hand
+competences can be added to users which allows them access to the taxonomy.
 
 Example of a taxonomy structure according to subjects for the document pool:
 
@@ -89,8 +89,7 @@ In the overview a hierarchical structure is now visible.
 ![opened Treetable from taxonomy structure](assets/taxonomy-overview-hierarchy.jpg){ class="shadow lightbox" }
 
 In the detail view competences can be added afterwards. Like this users get
-access rights for the single taxonomy levels. In OpenOlat competences have
-been added in the release 12.2.
+access rights for the single taxonomy levels.
 
 4 different competences are distinguished. Following they are outlined
 shortly:

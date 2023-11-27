@@ -14,7 +14,7 @@ Wichtige Begriffe in der LTI-Terminologie:
 
 ## LTI aktivieren
 
-Bevor die LTI-Verbindung eingerichtet werden kann, muss zuerst LTI aktiviert werden. Die Checkbox dazu befindet sich im Tab "Konfiguration" an oberster Stelle
+Bevor die LTI-Verbindung eingerichtet werden kann, muss zuerst LTI aktiviert werden. Die Checkbox dazu befindet sich im Tab "Konfiguration" an oberster Stelle.
 
 ![LTI_admin_config_v1_de.png](assets/LTI_admin_config_v1_de.png){ class="shadow lightbox" }
 
@@ -24,10 +24,10 @@ Bevor die LTI-Verbindung eingerichtet werden kann, muss zuerst LTI aktiviert wer
 
 Das Deployment eines Tools bestimmt, in welchem Umfang das Tool zur Verfügung gestellt wird:
 
-- Einsatz in einem einzelnen Kurs
-- Einsatz im gesamten System
-- Einsatz nur für den aktuellen Kontext
-- Einsatz generell ermöglicht (auch für zukünftige Kontexte)
+* Einsatz in einem einzelnen Kurs
+* Einsatz im gesamten System
+* Einsatz nur für den aktuellen Kontext
+* Einsatz generell ermöglicht (auch für zukünftige Kontexte)
 
 **Wer kann Deployments hinzufügen?**
 

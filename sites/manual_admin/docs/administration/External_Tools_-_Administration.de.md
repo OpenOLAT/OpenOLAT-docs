@@ -9,7 +9,7 @@ Klassenzimmer sowie Dokumenten Tools, Analyse Werkzeuge und ein PDF Generator.
 
 ## BigBlueButton
 
-[Administrative Konfiguration ](BigBlueButton_module.de.md)von BigBlueButton
+[Administrative Konfiguration](BigBlueButton_module.de.md) von BigBlueButton
 
 ## OpenMeetings
 
@@ -33,7 +33,13 @@ angelegten OpenMeetings Räume.
 
 ## Adobe Connect
 
-Aktivierung und Konfiguration von Adobe Connect, sofern Lizenz vorhanden
+Aktivierung und Konfiguration von Adobe Connect, sofern Lizenz vorhanden.
+
+## Zoom
+
+The Zoom integration lets you manage and start Zoom meetings.
+
+Lerne, wie man die [Zoom Integration aktiviert und konfiguriert](Zoom.de.md). 
 
 ## LTI 1.3
 
@@ -44,7 +50,7 @@ Diese LTI Version befindet sich aktuell in der Versuchsphase.
 
 ## GoToTraining
 
-Aktivierung und Konfiguration sofern Lizenz vorhanden
+Aktivierung und Konfiguration sofern Lizenz vorhanden.
 
 ## vitero {: #vitero}
 
@@ -74,11 +80,11 @@ Benutzerkonten und Termine werden nicht berücksichtigt.
 
 ## Edubase/Edubook
 
-Aktivierung und Konfiguration sofern Lizenz vorhanden
+Aktivierung und Konfiguration sofern Lizenz vorhanden.
 
 ## Youtube API
 
-Eingabe, Entfernung oder Prüfen des API Schlüssels
+Eingabe, Entfernung oder Prüfen des API Schlüssels.
 
 ## Opencast
 
@@ -136,7 +142,6 @@ PDF Generator der auf Electron und Docker basiert. Diese Implementation
 benutzt den Micro Service Variant. 
 
 Mehr Informationen zu AthenaPDF finden Sie unter
-[AthenaPDF](https://www.athenapdf.com) und
 [GitHub](https://github.com/arachnys/athenapdf/tree/master/weaver).
 
 Wie Sie den AthenaPDF-Service installieren und konfigurieren erfahren Sie im [Installationshandbuch](../installation/athenaPdf.md). 

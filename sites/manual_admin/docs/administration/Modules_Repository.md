@@ -11,7 +11,7 @@ It is also possible to inform all owners of a learning resource by e-mail when i
 !!! Hint
 	The settings made here are valid for the whole system.
 	Additionally as administrator you have the possibility to delete courses definitely. These courses cannot be restored anymore. 
-	Therefore open the tab "Deleted" in theauthoring. Under settings you chose the action "Delete permanently"
+	Therefore open the tab "Deleted" in theauthoring. Under settings you chose the action "Delete permanently".
 
 
 ![](assets/delete_permanently.jpg){ class="shadow lightbox" }

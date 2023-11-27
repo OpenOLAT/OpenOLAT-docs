@@ -41,8 +41,7 @@ zusätzlich der XSS-Scanner aktiviert werden. Dies kann zu Beeinträchtigungen
 in der Wiki Funktionalität in OpenOlat führen. Bei ausgeschaltetem XSS-Scanner
 kann das Wiki mit dem Risiko einer XSS Attacke verwendet werden. Allerdings
 verfügt die Wiki Komponente über eine automatische Versionierung, die es
-Angreifern schwierig macht unerkannt zu bleiben.“ Entfernt im Bereich
-Administration. Schauen, wo man es wieder einbauen kann/sollte.
+Angreifern schwierig macht, unerkannt zu bleiben. 
 
 ## Kurserinnerungen 
 

@@ -3,7 +3,7 @@
 The PayPal booking module allows authors of courses and project groups to
 charge money to grant access to those resources. Your clients can either pay
 by credit card or by their PayPal account if they have one. Note that your
-client's must not have a PayPal account to use this service, a credit card is
+clients must not have a PayPal account to use this service, a credit card is
 enough. In the PayPal configuration in the system administration you can
 configure your PayPal business account information that is used for all
 payment processes on this system.
@@ -22,7 +22,7 @@ In order to publish courses and project groups with payment restrictions you
 can select the PayPal booking method on the course details page or in the
 administration section of a project group. Make sure the PayPal module is
 configured properly in the system administration. You can find more
-information under
+information [here](../../manual_user/learningresources/Access_configuration.md){ class="shadow lightbox" }
 
 !!! warning "Attention"
 	Depending on the used currency, the country and the amount PayPal will charge

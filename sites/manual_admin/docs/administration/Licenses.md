@@ -2,7 +2,6 @@
 
 The OpenOlat license management is optional and can be managed in the
 administration.
-
  
 ## Activating Licenses
 
@@ -17,12 +16,10 @@ Licenses can be used in the following OpenOlat sections:
 In the administration the licenses can be activated and deactivated for these
 sections.
 
-  
-
 ## Types of licenses
 
 OpenOlat offers 8 default licenses, of which seven are Creative Commons
-licenses, and the eighth is an „All rights reserved“ license. Please note that
+licenses, and the eighth is an "All rights reserved" license. Please note that
 the default licenses can not be deleted.  Information on Creative Commons can
 be found in the [Wikipedia](http://en.wikipedia.org/wiki/Creative_Commons
 "Wikipedia") and on [www.creativecommons.org](http://www.creativecommons.org/

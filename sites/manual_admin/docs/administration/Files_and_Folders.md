@@ -9,7 +9,7 @@ actions in this regard.
 
 ## Versions
 
-In the "Versions" tab, the maximum number of versions for a file can be
+In the **"Versions" tab**, the maximum number of versions for a file can be
 defined.
 
 If versioning is enabled, files are not overwritten but created as a new
@@ -20,11 +20,11 @@ files can also be locked, e.g. if a user is working on a document and wants to
 prevent another user from creating a new version in the meantime.
 
 Versioning is available in all folders of the system: personal folders, group
-folders, course folders, resource folders and course elements 'folders'.
+folders, course folders, resource folders and course elements "folders".
 
 ## Quotas
 
-In the tab " **Quotas** " the maximum storage size and the upload limit for
+In the tab "**Quotas**" the maximum storage size and the upload limit for
 certain paths can be defined and adjusted.
 
 The following default values apply system-wide:
@@ -52,12 +52,12 @@ Specific Quotas | Scope
 
 ## Large Files
 
-In the " **Large Files** " tab, administrators can search specifically for
+In the "**Large Files**" tab, administrators can search specifically for
 large files and view more details about them.
 
 ## Deleted Files
 
-In the " **Deleted Files** " tab, files can be permanently deleted from
+In the "**Deleted Files**" tab, files can be permanently deleted from
 specific paths.
 
 ### Delete Orphan Versions:

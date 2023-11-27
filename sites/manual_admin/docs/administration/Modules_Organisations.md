@@ -21,7 +21,7 @@ In the tab "Organizational structure" you can find the already created
 organizations with their sub-organizations displayed as a tree structure.
 
 New organizations can be created using the "Create new organization" button,
-or for existing organizations using the cogwheel and "Create suborganization".
+or for existing organizations using the cogwheel and "Create sub-organization".
 In addition to the designation and the name, a description for the element can
 be entered. Furthermore, the assignment of the organization type is done here.
 

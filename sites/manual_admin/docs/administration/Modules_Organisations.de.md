@@ -103,10 +103,9 @@ Ressourcen gesucht werden, um diese dem Organisationselement zuzuordnen.
 Die Organisationstypen definieren, welche Elemente eine Organisationsstruktur
 enthalten kann und geben diesen Elementen eine nähere Bedeutung. Die Typen
 können dabei auch eine hierarchische Struktur abbilden, dies ist allerdings
-nicht zwingend. Ein Beispiel für Organisationstypen ist `Firma --> Bereich -->
-Abteilung`.
+nicht zwingend. Ein Beispiel für Organisationstypen ist `Firma --> Bereich --> Abteilung`.
 
-Über «Organisationstyp erstellen» können weitere Typen angelegt werden. Neben
+Über "Organisationstyp erstellen" können weitere Typen angelegt werden. Neben
 der Bezeichnung (Kennzeichen) und dem Namen kann eine Beschreibung angegeben
 werden. Es ist an dieser Stelle möglich, per CSS Klasse ein nur für diesen
 Organisationstyp geltendes Layout zu hinterlegen. Zudem können dem neuem

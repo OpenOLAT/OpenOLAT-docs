@@ -44,18 +44,14 @@ Hier können nun die Rechte für die einzelnen Ebenentypen aus der Taxonomie
 definiert werden. Damit hier ein Kompetenztyp erscheint, muss er also zuerst
 unter Modules → Taxonomy im Tab Ebenentypen erfasst werden.
 
-  
-
   * **In Dokumentenpool verwenden:** Mit dieser Option wird definiert, ob dieser Kompetenztyp im Dokumentpool auftaucht.
-  *  **Dokumenten einschalten** : Nur wenn diese Option aktiviert ist, können auf dieser Ebene Dokumente hochgeladen werden. Ansonsten wird diese Ebene als Struktur ohne Ordnerinhalte abgebildet. 
+  *  **Dokumenten einschalten**: Nur wenn diese Option aktiviert ist, können auf dieser Ebene Dokumente hochgeladen werden. Ansonsten wird diese Ebene als Struktur ohne Ordnerinhalte abgebildet. 
   *  **Verwalter-Kompetenz:** zulassen oder nicht  
-  *  **Dozier-Kompetenz** : In der Dozier-Kompetenz können die Zugriffsrechte auf die einzelnen Ebenen im Dokumentenpool definiert werden. Als erstes wird ausgewählt, ob die Personen mit der Dozier-Kompetenz lesenden Zugriff auf diese Ebene erhalten. Wenn ja, können diese Benutzer die Inhalte auf dieser Ebene lesen. Ausserdem kann definiert werden, ob der lesende Zugriff auch auf die anderen Elemente auf derselben Hierarchieebene gestattet sein soll. Dafür wird statt 0, 1 eingetragen.  
+  *  **Dozier-Kompetenz**: In der Dozier-Kompetenz können die Zugriffsrechte auf die einzelnen Ebenen im Dokumentenpool definiert werden. Als erstes wird ausgewählt, ob die Personen mit der Dozier-Kompetenz lesenden Zugriff auf diese Ebene erhalten. Wenn ja, können diese Benutzer die Inhalte auf dieser Ebene lesen. Ausserdem kann definiert werden, ob der lesende Zugriff auch auf die anderen Elemente auf derselben Hierarchieebene gestattet sein soll. Dafür wird statt 0, 1 eingetragen.  
 Wenn zusätzlich noch "Schreibender Zugriff gestatten" aktiviert wird, können
 diese Benutzer auch Dokumente hochladen.  
-  *  **Haben-Kompetenz** : lesenden Zugriff gestatten oder nicht  
+  *  **Haben-Kompetenz**: lesenden Zugriff gestatten oder nicht  
   *  **Ziel-Kompetenz:** lesenden Zugriff gestatten oder nicht  
-
-  
 
 Diese Einstellungen müssen nun für alle definierten Kompetenztypen wiederholt
 werden.
@@ -65,8 +61,6 @@ geschieht entweder über die Synchronisation von einem externen
 Benutzerverwaltungssystem oder direkt im OpenOlat. Im OpenOlat ist dies
 entweder in der Benutzerverwaltung oder in der `Administration → Modules →
 Taxonomy` möglich.
-
-  
 
 Ferner können hier Einstellungen für die Kompetenztypen "Handlungsfeld" und
 "Fach" vorgenommen werden.

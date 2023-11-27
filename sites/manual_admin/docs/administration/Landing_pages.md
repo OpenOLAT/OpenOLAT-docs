@@ -1,7 +1,5 @@
 # Landing pages
 
-
-
 Specify exactly who is presented with which landing page by defining finely-
 grained rule sets depending on user role and user attribute. Landing pages are
 assigned to each user group / rule separately. You can create as many rules as
@@ -11,7 +9,7 @@ that's applied. Because of that, you might want to give the order of the rules
 some consideration.
 
 !!! attention 
-	Each user can choose his or her preferred landing page in the personal menu in [System Settings/System/Specific System Settings](../../manual_user/personal_menu/Configuration.md). However, this
+	Each user can choose his or her preferred landing page in the personal menu in [System Settings/System/Specific System Settings](../../manual_user/personal_menu/Configuration.md#general). However, this
 	overrides the system default.
 
 ![](assets/admin_landingPage_EN.png){ class="shadow lightbox" }
@@ -48,7 +46,7 @@ column. Please note that the link needs to look like the following example:
         
     /MyCoursesSite/0
 
-which would look for a course accordingly:  
+Which would look for a course accordingly:  
     
     
     /RepositoryEntry/292192256/
@@ -61,7 +59,7 @@ always needs to be shortened according to the following pattern:
 
 !!! info
 	You can predefine two courses that will be displayed in the top navigation in
-	addition to the default sites. These are the Info courses 1 & 2\. Which
+	addition to the default sites. These are the Info courses 1 & 2. Which
 	courses will be displayed as info course 1 or 2 and are thus available for
 	selection in this form, is determined in Administration/Customizing/Sites in
 	the Info page n°1 / n°2 tabs.

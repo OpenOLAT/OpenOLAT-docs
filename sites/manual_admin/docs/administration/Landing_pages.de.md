@@ -12,14 +12,9 @@ zutreffen, lediglich die Reihenfolge ist relevant.
 !!! attention "Achtung"
 	Die benutzerspezifische Startseite, die der Benutzer im persönlichen Menü
 	unter [Einstellungen/System/Spezielle
-	Systemeinstellungen](../../manual_user/personal_menu/Configuration.de.md#general) für sich
-	persönlich festlegt, überschreibt die systemweite Startseite.
-
-  
+	Systemeinstellungen](../../manual_user/personal_menu/Configuration.de.md#general) für sich persönlich festlegt, überschreibt die systemweite Startseite.
 
 ![](assets/admin_landingPage_DE.png){ class="shadow lightbox" }
-
-  
 
 Die **Position** legt fest in welcher Reihenfolge die Regeln abgefragt werden:
 die Regel die zuerst zutrifft, deren Seite wird für die betreffende
@@ -56,7 +51,7 @@ dass der Link folgendes Format haben muss:
     
     /MyCoursesSite/0
 
-für einen Kurs sieht das folgendermassen aus:  
+Für einen Kurs sieht das folgendermassen aus:  
     
     
     /RepositoryEntry/292192256/

@@ -3,17 +3,9 @@
 !!! abstract ""
     available on :octicons-tag-24: Release 17.2 
 
-The purpose of the "Open Archives Initiative - Protocol for Metadata Harvesting" (OAI-PMH): access to digital resources, in our case published learning resources for metadata sharing with portals, search engines or catalogues. More information can be found on the [Open Archives web site](https://www.openarchives.org).
+The purpose of the "Open Archives Initiative - Protocol for Metadata Harvesting" (OAI-PMH): access to digital resources, in our case published learning resources for metadata sharing with portals, search engines or catalogues. More information can be found on the [Open Archives website](https://www.openarchives.org).
 
 ![Administration-Module Overview](assets/OAI-PMH.jpg){ class="shadow lightbox" }
-
-## Administration
-
-The module can be switched on under 'Administration-> Modules -> OAI PMH'. It is deactivated by default on every instance. If the module is switched on, the API end-point is also available, where all published resources are available via XML.
-
-### API Endpoint
-
-This is the application interface from which the metadata is retrieved. Different parameters can be used to filter for different learning resources. You can test die API endpoint, by clicking onto the button beneath the URL.
 
 ## Metadata prefix
 
@@ -61,7 +53,11 @@ Metadaten | OAI OpenOlat | OAI DublinCore
 
 ## Administration
 
-The module can be switched on under 'Administration-> Modules -> OAI PMH'. It is deactivated by default on every instance. If the module is switched on, the API endpoint, where all published resources are listed via XML, is also available.
+The module can be switched on under `Administration-> Modules -> OAI PMH`. It is deactivated by default on every instance. If the module is switched on, the API endpoint, where all published resources are listed via XML, is also available.
+
+### API Endpoint
+
+This is the application interface from which the metadata is retrieved. Different parameters can be used to filter for different learning resources. You can test die API endpoint, by clicking onto the button beneath the URL.
 
 ### Identifier Type
 
@@ -75,10 +71,10 @@ One can restrict learning resources. Either only learning resources with licence
 ## API Configuration
 
 ### Sets
-Different sets can be selected. Sets categorise the metadata of learning resources of different types. 
+Different sets can be selected. Sets categorize the metadata of learning resources of different types. 
 
 * Taxonomy-based set
-* Organisation-based set, based on administrative org relationship).
+* Organization-based set, (based on administrative org relationship).
 * Licence-based set, sorted by licence type
 * Type-based set, sorted by learning resource types such as course, video, podcast.
 * Offer-based set, sorted by the offer types such as private, bookable with account, guest.
