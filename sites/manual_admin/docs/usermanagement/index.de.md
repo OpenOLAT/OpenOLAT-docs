@@ -30,7 +30,7 @@ gefilterte Darstellung verwendet werden:
 Es werden drei Kursrollen unterschieden:
 
   * Kursbesitzer,
-  * [Kursbetreuer ](/sites/manual_user/docs/basic_concepts/coach.de.md) und
+  * [Kursbetreuer](../../manual_user/basic_concepts/Roles_Rights.de.md#kursbezogene-rollen-und-rechte) und
   * Kursteilnehmer.
 
 Die Mitglieder der jeweiligen Rollen können hier angezeigt und bearbeitet
@@ -42,6 +42,7 @@ Es existieren zwei Gruppenrollen: [Gruppenbetreuer](../../manual_user/groups/Gro
 und Gruppenteilnehmer. Diese können jeweils angezeigt und bearbeitet werden.
 
 <clear />
+
 ## Curriculumrollen
 
 ![](assets/Curriculumrollen.png){ class="shadow lightbox aside-right" }
@@ -53,8 +54,7 @@ werden können.
 ## Benutzerrollen
 
 Je nach Konfiguration in der Administration im Bereich
-"[Modules](../administration/Modules.de.md)" → "Benutzer zu Benutzer" stehen hier weitere Rollen
-zur Verfügung, die gefiltert angezeigt und definiert werden können.
+"[Modules](../administration/Modules.de.md)" → "Benutzer zu Benutzer" stehen hier weitere Rollen zur Verfügung, die gefiltert angezeigt und definiert werden können.
 
 ## Status
 
@@ -64,7 +64,7 @@ Benutzer der OpenOlat Instanz angezeigt werden.
 ![](assets/Geloeschte_Benutzer_DE.png){ class="shadow lightbox" }
 
 
-Die Tabelle «Gelöschte Benutzer» in der Benutzerverwaltung enthält folgende
+Die Tabelle "Gelöschte Benutzer" in der Benutzerverwaltung enthält folgende
 Informationen, die im Prozess der Benutzer-Löschung relevant sind:
 
   *  **Del_Benutzername:**  Im Lösch-Prozess wird der Benutzername des gelöschten Nutzers durch eine ID ersetzt.

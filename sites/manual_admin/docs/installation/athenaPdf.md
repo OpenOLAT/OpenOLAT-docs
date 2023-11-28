@@ -43,4 +43,4 @@ Open `Administration > External Tools > PDF generator`
 ## Security
  
 Make sure the AthenaPDF docker is only reachable by the IP address of your OpenOlat instance and to block all other requests. The PDF service is only
-use by OpenOlat to generate the PDF, the delivery of the PDFs is done by OpenOlat. Client never need to call AthenaPDF. 
+used by OpenOlat to generate the PDF, the delivery of the PDFs is done by OpenOlat. Clients never need to call AthenaPDF. 

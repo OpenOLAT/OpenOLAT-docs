@@ -36,5 +36,5 @@ The objects saved by users are displayed here.
 ## Java VM Info
 
 Here, administrators can find information about Java memory, threads, and
-environment variables, and can start the Java Garbage Collection.
+environment variables and can start the Java Garbage Collection.
 

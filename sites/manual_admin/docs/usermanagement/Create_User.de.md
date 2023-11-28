@@ -12,8 +12,7 @@ Ferner ist bei entsprechender Aktivierung auch eine Selbstregistrierung
 möglich.
 
 Sofern nichts anderes definiert wurde haben neu angelegte Accounts erst einmal
-die Organisationsrolle "Benutzer". Weitere [Rollen
-](Configure_User.de.md)können im nächsten Schritt zugeordnet werden.
+die Organisationsrolle "Benutzer". Weitere [Rollen](Configure_User.de.md) können im nächsten Schritt zugeordnet werden.
 
 Sobald ein Benutzer erstellt ist, hat er Zugriff auf OpenOlat und die jeweils
 für ihn zugeordneten Rechte.

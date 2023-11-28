@@ -1,9 +1,9 @@
 # Reports
 
-  * Questions to tests
+  * Questions in tests
   * Certificates
 
-## Questions to tests
+## Questions in tests
 
 In the Reports section, administrators can search for specific test questions.
 For example, all questions by an author or a specific title can be displayed.

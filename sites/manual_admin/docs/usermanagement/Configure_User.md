@@ -86,12 +86,12 @@ users can be defined (see [User Roles](index.md)).
   
 ### Quota
 
-Overview of the quota settings  
+Overview of the quota settings.  
   
 ### Lectures
 
 Overview of the status of lectures and absences and the associated progress
-of the user  
+of the user.  
   
 ### Competences
 
@@ -100,9 +100,5 @@ Have and Target.
   
 ### Curriculum
 
-Overview of assigned curricula  
-  
-### Grading assignments
-
-Overview of the assigned correction orders for tests
+Overview of assigned curricula.  
 

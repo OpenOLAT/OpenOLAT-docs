@@ -53,7 +53,7 @@ werden.
 Dieser Reiter generiert eine Übersicht mit allen Lernressourcen des Users.
 Benutzerverwalter und Administratoren können die User aus den jeweiligen
 Lernressourcen austragen sowie die jeweiligen Lernressourcen aufrufen.  Ferner
-kann der User als Besitzer, Coach oder Teilnehmer in weitere OpenOlat Kurse
+kann der User als Besitzer, Betreuer oder Teilnehmer in weitere OpenOlat Kurse
 eingetragen werden.  
   
 ### Buchungen
@@ -93,12 +93,12 @@ verwendet wird  (vergl. [Benutzerrollen](index.de.md)).
   
 ### Quota
 
-Übersicht über die Quota Einstellungen  
+Übersicht über die Quota Einstellungen.  
   
 ### Lektionen
 
 Übersicht über den Stand der Lektionen und Absenzen und den damit
-verbundenen Fortschritt des Users  
+verbundenen Fortschritt des Users. 
   
 ### Kompetenzen
 
@@ -107,6 +107,5 @@ Dozieren, Haben und Ziel hinzugefügt werden.
   
 ### Curriculum
 
-Übersicht über zugeordnete Curricula  
-KorrekturaufträgeÜbersicht über die zugeordneten Korrekturaufträge für Tests
+Übersicht über zugeordnete Curricula.
 

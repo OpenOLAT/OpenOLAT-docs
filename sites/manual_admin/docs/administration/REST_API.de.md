@@ -1,8 +1,6 @@
 # REST API
 
-  
-
-Das ziel des REST API ist es einen einfachen Austausch von URLs zu
+Das Ziel des REST API ist es, einen einfachen Austausch von URLs zu
 ermöglichen. Es ist beispielsweise möglich, Benutzer und Lerngruppen zu
 verwalten, Kurse zu importieren, oder Kataloge zusammenzustellen. Es kann auch
 zur Integration in andere Systeme benutzt werden, so wie Schülerverwaltung,
@@ -17,7 +15,7 @@ Das REST API kann unter Administration aktiviert / deaktiviert werden.
 
 ## Konzept
 
-„Representational State Transfer“, oder REST ist ein Architekturstil, der
+"Representational State Transfer", oder REST ist ein Architekturstil, der
 primär, aber nicht ausschliesslich, mit dem HTTP Protokoll genutzt werden
 soll. Im Falle von HTTP, benutzt es alle dessen Eigenschaften: URIs um
 Ressourcen zu beschreiben, HTTP Methoden als „Verben“ um Ressourcen zu
@@ -62,8 +60,6 @@ schlägt der Filter folgende zwei Methoden vor:
   1. Benutze das Session Cookie wieder auf jeder Anfrage. Der Vorteil dieser Methode ist, dass OpenOlat nicht eine neue Session kreieren muss mit jeder Anfrage.
   2. Wenn Sie kein Session Cookie benutzen, dann fügt der Filter immer einen HTTP Header (`X-OLAT-TOKEN`) der Antwort hinzu. Senden Sie dieses Token um ihre Rechte zu erhalten. 
 
-  
-
 ### Bewährte Vorgehensweise
 
 Wenn das REST API benutzt wird um spezifische Funktionen im OpenOlat Web-
@@ -76,10 +72,7 @@ wird, dann ist es empfehlenswert die „Basic Authentication“ zu benutzen und
 Session Cookies im HTTP client der fernen Applikation zu aktivieren.
 
 Wenn die zwei genannten Methoden nicht möglich sind, dann benutzen Sie die
-Methode 2 mit em `X-OLAT-TOKEN`. Beachten Sie, dass ein Benutzer nur ein `X-OLAT-
-TOKEN` zu einem beliebigen Zeitpunkt haben kann. Wenn Ihre ferne Applikation
-mehrere (gleichzeitige) Arbeiter hat, dann sollte „basic authentication“
-benutzt werden.
+Methode 2 mit em `X-OLAT-TOKEN`. Beachten Sie, dass ein Benutzer nur ein `X-OLAT- TOKEN` zu einem beliebigen Zeitpunkt haben kann. Wenn Ihre ferne Applikation mehrere (gleichzeitige) Arbeiter hat, dann sollte „basic authentication“ benutzt werden.
 
 Wenn Sie ein fernes Portal und einen eigenen single-sign-on Prozess
 implementieren möchten, dann kann Methode 2 benutzt werden um ein X-OLAT-TOKEN

@@ -2,11 +2,11 @@
 
 This guide walks you through installing OpenOlat Version 17.2.x or newer on a local GNU/Linux or similar system using _Tomcat 10.1_, _Java 17_ and _PostgreSQL 12_. If you already have an up and running installation, see our [Update Guide](updateGuide.md)
 
-_If you really want to install OpenOlat using MySQL as database, have a look at the [Special topics -> MySQL DB section](mysql.md) and try mixing it with the informations found in here. Please keep in mind that this is not recommended._
+_If you really want to install OpenOlat using MySQL as database, have a look at the [Special topics -> MySQL DB section](mysql.md) and try mixing it with the information found in here. Please keep in mind that this is not recommended._
 
 ## Create a user for OpenOlat
 
-The username is `openolat` in this guide with home directory in `/home/openolat/`. From here onwards do everything as the user `openolat` (unless pointed out differently). To create the user, you can simply use the command
+The username is `openolat` in this guide with home directory in `/home/openolat/`. From here onwards, do everything as the user `openolat` (unless pointed out differently). To create the user, you can simply use the command
 
 	useradd -m -s /bin/bash openolat
 
@@ -27,7 +27,7 @@ Create a directory downloads and keep the downloaded files there:
 	-rw-rw-r-- 1 openolat openolat 181853117 Mar 17 15:41 openolat_1723.war
 
 
-You do not need to use the exact versions from this manual, this is just an example. We recommend that you use the newest version within the given major version: Java 17, Tomcat 10.1. As for OpenOlat, take the newest release please. If not, make sure to use a version 17.2.x or newer. Note that you do not need a JDK to run OpenOlat, a JRE will work as well.
+You do not need to use the exact versions from this manual, this is just an example. We recommend that you use the newest version within the given major version: Java 17, Tomcat 10.1. As for OpenOlat, please use the newest release. If not, make sure to use a version 17.2.x or newer. Note that you do not need a JDK to run OpenOlat, a JRE will work as well.
 
 
 ## Prepare home directory
@@ -123,7 +123,7 @@ and activate them by issuing
 
 	openolat~$ ./start
 	
-... should output something like this:
+... should output look something like this:
 
 	Using CATALINA_BASE:   /home/openolat
 	Using CATALINA_HOME:   /home/openolat/tomcat

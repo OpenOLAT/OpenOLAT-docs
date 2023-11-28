@@ -29,7 +29,7 @@ filtered display:
 
 ## Course roles
 
-Three course roles are distinguished: course owner, [course coach](/sites/manual_user/docs/basic_concepts/coach.de.md)
+Three course roles are distinguished: course owner, [course coach](../../manual_user/basic_concepts/Roles_Rights.md#course-rights-and-roles)
 and course participant. The members of the respective roles can be displayed
 and edited here.
 
@@ -39,6 +39,7 @@ There are two group roles: [group coach](../../manual_user/groups/Group_Administ
 participants. These can be displayed and edited.
 
 <clear />
+
 ## Curriculum Roles
 
 ![](assets/CurRoles_EN.png){ class="shadow lightbox aside-right" }
@@ -49,9 +50,7 @@ edited.
 
 ## User roles
 
-Depending on the configuration in the administration in the "Modules" area →
-"User to user", additional roles are available here that can be configured and
-displayed filtered.
+Depending on the configuration in the administration in the "[Modules](../administration/Modules.md)" area → "User to user", additional roles are available here that can be configured and displayed filtered.
 
 ## Status
 

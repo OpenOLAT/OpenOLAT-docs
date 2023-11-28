@@ -3,7 +3,7 @@
 ## Module configuration
 
 The WebDAV module can be enabled/disabled system wide. The following
-parameters can be configured
+parameters can be configured:
 
   *  **WebDAV access**  
 	Enable or disable the WebDAV access. When enabled, all system users can access
@@ -29,22 +29,19 @@ parameters can be configured
 		it necessary to manually import certificates or to use a dedicated WebDAV
 		client.
 
-  * ** WebDAV Client exclusion**  
+  * **WebDAV Client exclusion**  
 	Turn exclusion of specific user WebDAV clients on or off. 
 
   * **List of User-Agents (comma as separator)**  
-	Not allowed user-agents
+	Not allowed user-agents.
 	
 * * *
 
   *  **Group courses by semester terms**  
-	Enable this flag to list the available semester terms first and within a
-	semester term only the courses from this term. This greatly improves usability
-	with many courses.
+	Activate this option to create a subfolder for each semester containing all courses of this semester. This option increases the usability for many courses. If this option is activated, no "_finished" folder is created for the finished courses. If this option is not activated, all completed courses can be found in the "_completed" folder in WebDAV.
 
   *  **Group courses by curriculum elements**  
-	Activate this option to create subfolders for curriculum groups containing all
-	courses of this curriculum group.
+	Activate this option to create subfolders for curriculum groups containing all courses of this curriculum group.
 
   *  **Group Managed Course**
   *  **Prepend external course reference to title**  
@@ -55,14 +52,10 @@ parameters can be configured
 * * *
 
   * **Enable access for courses where user is participant or coach**  
-	Enable this option to allow students and coaches to access course folders via
-	WebDAV. Only folder course element folders will be displayed.
+	Activate this option to also allow students and coaches to access their course folders. Only the folders of the corresponding folder course elements are displayed, as well as any integrated resource folders.
 
   *  **Enable access for courses that users marked as favorite**  
-	Enable this option to allow students and coaches to access course folders via
-	WebDAV that are marked as favorite, without being a member of that course.
-	Access configuration must be set correspondingly. Only folder course element
-	folders will be displayed.
+	Activate this option to also allow students and coaches to access course folders of courses that are in their favorites list but of which they are not members. This is only possible with the corresponding settings in the access configuration. Only the folders of the corresponding folder course elements are displayed, as well as any integrated resource folder.
 
 ## Usage
 

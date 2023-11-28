@@ -14,7 +14,7 @@ The REST API can be activated / deactivated under administration.
 
 ## Concepts
 
-Representational State Transfer or REST is a style of architecture to be
+"Representational State Transfer" or REST is a style of architecture to be
 primarily used with the HTTP protocol, but not exclusively. In the case of
 HTTP, it utilizes all its features: URIs to describe resources, HTTP Methods
 as "verbs" to manipulate resources (GET to retrieve resources, PUT to create

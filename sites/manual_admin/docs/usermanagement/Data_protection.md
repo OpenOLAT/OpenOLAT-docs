@@ -1,7 +1,7 @@
 # Data protection
 
 The EU General Data Protection Regulation (GDPR), which has been in force
-since 25 May 2018, regulates the basic principles of user data protection. To
+since May 25, 2018, regulates the basic principles of user data protection. To
 meet the requirements of the GDPR OpenOlat offers on the one hand the
 possibility to export user data and on the other hand the deletion of users
 and their data.
@@ -11,13 +11,13 @@ and their data.
 Deleting OpenOlat users has the following effect:
 
 * For users without a system role, all user data is deleted.
-* For users with administrative roles, all user data except first and last name is deleted to ensure a transparent and consistent display of administrative actions in the log files (e.g. of courses). If required, the data can also be deleted in the [user management](../usermanagement/index.md) via the “Clear” action in the “Deleted Users” table.
+* For users with administrative roles, all user data except first and last name is deleted to ensure a transparent and consistent display of administrative actions in the log files (e.g. of courses). If required, the data can also be deleted in the [user management](../usermanagement/index.md) via the “Clear” action in the "Deleted Users" table.
 * Personal data is deleted from the log tables. The username is deleted and replaced by an ID in the log tables.
 * Personal data is deleted from the log file. Instead of the username, only one ID is written into the log file.
-* The user’s portfolio is deleted.
+* The user’s [portfolio](../../manual_user/area_modules/Portfolio_General_Information.md) is deleted.
 * The user’s personal chat messages are deleted.
-* Personal forum posts and comments will be anonymized after the deletion of the user and identified as “unknown user”.
-* Comments and ratings of the user are deleted. Replies of the deleted user to comments are replaced by “User has been deleted”.
+* Personal forum posts and comments will be anonymized after the deletion of the user and identified as "unknown user".
+* Comments and ratings of the user are deleted. Replies of the deleted user to comments are replaced by "User has been deleted".
 * The user’s visiting card is no longer displayed in OpenOlat (e.g. in the forum or for comments).
 
 ## Export of user data

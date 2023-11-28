@@ -13,7 +13,7 @@ It scales smoothly and works nicely in a distributed context. It provides multip
 
 ## Run Gotenberg in Docker
 
-Start Gotenberg as a docker container with a command similar  to this:
+Start Gotenberg as a docker container with a command similar to this:
 
 `docker run -itd -p 8080:3000 --restart always gotenberg/gotenberg:7`
 

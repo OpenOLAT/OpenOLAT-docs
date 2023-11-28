@@ -14,11 +14,11 @@ It is normally no problem to skip some (major/minor) versions; an upgrade from 1
 
 ## Update procedure
 
-Updating OpenOlat is gernally very simple: 
+Updating OpenOlat is generally very simple: 
 
-1. stop tomcat
-2. link new release
-3. start tomcat
+1. Stop tomcat
+2. Link new release
+3. Start tomcat
 
 In a standard configuration all necessary database modifications will be prerfomed automatically during the tomcat startup. The first start of a new release might take some time as some migration or upgrading code might run. 
 
@@ -55,7 +55,7 @@ Follow the steps in detail:
 	- Look at the upgrades file and check if upgrade was successfull (set to `true`):    
 		`cat ~/olatdata/system/installed_database_upgrades.xml`
 		`cat ~/olatdata/system/installed_upgrades.xml`		
-2. Let everybody know you just updated to the newest version of OpenOlat x.x.x (Mastodon, twitter, facebook etc)
+2. Let everybody know you just updated to the newest version of OpenOlat x.x.x (Mastodon, X, facebook, etc.)
 
 3. Have a drink 🍺 and celebrate, but do so responsibly! ;-)
 
@@ -128,7 +128,7 @@ We recommend using the following software packages:
 
 If you have a very old system it is generally a good advice to update in steps: 
 
-- lower than version 10: update first to version 10
-- from version 10.0 it is safe to update straight to 15.3.x   
+- Lower than version 10: update first to version 10
+- From version 10.0 it is safe to update straight to 15.3.x   
   _Note that in version 15.4 all old upgraders have been removed. Thus, when updating from a version olther than 15.3 it is mandatory to install 15.3 before you continue with the more recent versions._ 
-- from version 15.3 it is safe to update straight to the newest OpenOlat version
+- From version 15.3 it is safe to update straight to the newest OpenOlat version

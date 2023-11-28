@@ -11,13 +11,13 @@ deren Daten.
 Das Löschen von OpenOlat Benutzern bewirkt folgendes:
 
 * Für Benutzer ohne Systemrolle werden alle Benutzerdaten gelöscht.
-* Für Benutzer mit administrativer Rolle werden alle Benutzerdaten bis auf Vor- und Nachnamen gelöscht, um eine transparente und konsistente Darstellung der administrativen Aktionen in den Logdateien (z. B. von Kursen) gewährleisten zu können. Die Daten können bei Bedarf in der [Benutzerverwaltung](../usermanagement/index.de.md) über die Aktion «Entfernen» in der Tabelle «Gelöschte Benutzer» ebenfalls gelöscht werden.
+* Für Benutzer mit administrativer Rolle werden alle Benutzerdaten bis auf Vor- und Nachnamen gelöscht, um eine transparente und konsistente Darstellung der administrativen Aktionen in den Logdateien (z. B. von Kursen) gewährleisten zu können. Die Daten können bei Bedarf in der [Benutzerverwaltung](../usermanagement/index.de.md) über die Aktion «Entfernen» in der Tabelle "Gelöschte Benutzer" ebenfalls gelöscht werden.
 * Persönliche Daten werden aus den Log-Tabellen gelöscht. Der Benutzername wird gelöscht und in den Log-Tabellen durch eine ID ersetzt.
 * Persönliche Daten werden aus dem Logfile gelöscht. Anstelle des Benutzernamens wird nur noch eine ID ins Logfile geschrieben.
 * Das [Portfolio](../../manual_user/area_modules/Portfolio_General_Information.de.md) sowie eigene Inhalte der Mediathek des Benutzers werden gelöscht.
 * Persönliche Chat-Nachrichten des Benutzers werden gelöscht.
-* Persönliche Forum-Posts und -Kommentare werden nach der Löschung des Nutzers anonymisiert und mit «unknown user» ausgewiesen.
-* Kommentare und Bewertungen (Ratings) des Benutzers werden gelöscht. Antworten des gelöschten Benutzers auf Kommentare werden durch «User has been deleted» ersetzt.
+* Persönliche Forum-Posts und -Kommentare werden nach der Löschung des Nutzers anonymisiert und mit "unknown user" ausgewiesen.
+* Kommentare und Bewertungen (Ratings) des Benutzers werden gelöscht. Antworten des gelöschten Benutzers auf Kommentare werden durch "User has been deleted" ersetzt.
 * Die Visitenkarte des Benutzers wird nicht mehr in OpenOlat (z. B. im Forum oder bei Kommentaren) angezeigt.
 
 ## Export von Benutzerdaten
@@ -28,7 +28,7 @@ durchgeführt werden.
 Der Export muss beim jeweiligen Benutzerverwalter angefordert werden. Der
 Benutzerverwalter kann über die Benutzerverwaltung den Export durchführen.
 Anschliessend steht der Export in den persönlichen Einstellungen des Nutzers,
-welcher den Export angefordert hat, im Tab «Benutzerdaten» zum Download
+welcher den Export angefordert hat, im Tab "Benutzerdaten" zum Download
 bereit. Zusätzlich wird ein Download-Link generiert, welcher dem Nutzer vom
 Benutzerverwalter zur Verfügung gestellt werden kann.
 

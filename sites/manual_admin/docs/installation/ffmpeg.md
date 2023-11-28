@@ -6,7 +6,7 @@ Not all browsers are able to produce audio files that are fully supported by the
 
 We use ffmpeg to perfom the conversion from files such as **ogg** to **m4a**.
 
-When using a hosting package of OpenOlat, your installation is managed, and you have to contact your OpenOlat hosting partner to activate the audio conversion using ffmpeg.
+When using a hosting package of OpenOlat, your installation is managed and you have to contact your OpenOlat hosting partner to activate the audio conversion using ffmpeg.
 
 When you host OpenOlat yourself, you can set up and use a local installation of ffmpeg.
 

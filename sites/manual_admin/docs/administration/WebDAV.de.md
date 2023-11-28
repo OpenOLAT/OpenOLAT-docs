@@ -32,7 +32,7 @@ werden. Die folgenden Konfigurationen können vorgenommen werden:
 		importiert oder spezielle WebDAV Programme verwendet werden.
 
   *  **WebDAV Client Verbot**  
-	Das Ausschliessen von spezifischen WebDAV-Clients ein- / ausschalten
+	Das Ausschliessen von spezifischen WebDAV-Clients ein- / ausschalten.
 
   *  **Liste von User-Agent**  
   	Liste der nicht erlaubten User-Agents.
@@ -42,10 +42,7 @@ werden. Die folgenden Konfigurationen können vorgenommen werden:
   *  **Kurse nach Semesterdaten gruppieren**  
 	Aktivieren Sie diese Option um für jedes Semester einen Unterordner zu
 	erstellen der alle Kurses dieses Semesters enthält. Diese Option erhöht die
-	Nutzbarkeit bei vielen Kursen. Wenn diese Option aktiviert ist, wird für die
-	beendeten Kurse kein Ordner "_beendet" erstellt. Sofern diese Option nicht
-	aktiviert ist, sind im WebDAV alle beendeten Kurse im Ordner "_beendet" zu
-	finden.
+	Nutzbarkeit bei vielen Kursen. Wenn diese Option aktiviert ist, wird für die beendeten Kurse kein Ordner "_beendet" erstellt. Sofern diese Option nicht aktiviert ist, sind im WebDAV alle beendeten Kurse im Ordner "_beendet" zu finden.
 
   *  **Kurse nach Curriculum Elementen gruppieren** 
 	Aktivieren Sie diese Option um für Curriculum-Gruppen Unterordner zu
@@ -59,18 +56,10 @@ werden. Die folgenden Konfigurationen können vorgenommen werden:
 * * *
 
   * **Zugriff für Studenten / Betreuer Kurse**  
-	Aktivieren Sie diese Option um auch Studenten und Betreuern den Zugriff auf
-	ihre Kursordner zu gestatten. Es werden nur die Ordner der entsprechenden
-	Ordner-Kursbausteine angezeigt, sowie ein eventuell eingebundene
-	Ressourcenordner.
+	Aktivieren Sie diese Option um auch Studenten und Betreuern den Zugriff auf ihre Kursordner zu gestatten. Es werden nur die Ordner der entsprechenden Ordner-Kursbausteine angezeigt, sowie ein eventuell eingebundene Ressourcenordner.
 
   *  **Zugriff für Studenten / Betreuer Favoriten**  
-	Aktivieren Sie diese Option um auch Studenten und Betreuern den Zugriff auf
-	Kursordner von Kursen zu gestatten, die sich in ihrer Favoritenliste befinden,
-	deren Mitglieder sie aber nicht sind. Dies ist nur möglich mit den
-	entsprechenden Einstellungen in der Zugriffskonfiguration. Es werden nur die
-	Ordner der entsprechenden Ordner-Kursbausteine angezeigt, sowie ein eventuell
-	eingebundener Ressourcenordner.
+	Aktivieren Sie diese Option um auch Studenten und Betreuern den Zugriff auf Kursordner von Kursen zu gestatten, die sich in ihrer Favoritenliste befinden, deren Mitglieder sie aber nicht sind. Dies ist nur möglich mit den entsprechenden Einstellungen in der Zugriffskonfiguration. Es werden nur die Ordner der entsprechenden Ordner-Kursbausteine angezeigt, sowie ein eventuell eingebundener Ressourcenordner.
 
 ## Verwendung
 
