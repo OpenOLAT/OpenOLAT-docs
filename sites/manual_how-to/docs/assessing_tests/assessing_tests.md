@@ -34,7 +34,7 @@ In the **"Participants "** tab, you will see the list of coached participants wi
 
 After **selecting a participant** you will be taken to the evaluation form for the overall test.
 
-By **clicking on "Correction" in the line of the current course run** you will receive the list of questions of this test and can evaluate each individual question. (There is an evaluation form for each question).
+By **clicking on "Correction" in the line of the current course run** you will receive the list of questions of this test and can evaluate each individual question. (There is an evaluation form for each question.)
 
 <br>
 
