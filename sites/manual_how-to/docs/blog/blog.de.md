@@ -15,7 +15,7 @@ a) Gehen Sie in den **Autorenbereich** und suchen Sie dort den Kurs, in den der 
   
 ![blog_autorenbereich_v1_de.png](assets/blog_autorenbereich_v1_de.png){ class="shadow lightbox" }  
 
-b) Öffnen Sie den gewünschten Kurs im **Kurseditor**, der sich im Menü "Administration befindet.
+b) Öffnen Sie den gewünschten Kurs im **Kurseditor**, der sich im Menü "Administration" befindet.
 
 c) Wählen Sie die Stelle im Kursmenü, an der der Baustein hinzugefügt werden soll. Kursbausteine werden immer unterhalb des aktuell ausgewählten Kursbausteins eingefügt. 
 
@@ -45,7 +45,7 @@ b) Hier können Sie nun
 
 Wir gehen im Folgenden davon aus, dass Sie einen **neuen** Blog beginnen möchten. 
   
-c) Klicken Sie auf den **Button „Erstellen“**. 
+c) Klicken Sie auf den **Button "Erstellen“**. 
 
 d) Geben Sie einen **Titel** für Ihre Blog-Lernressource ein und bestätigen Sie mit <b>"Erstellen"</b>. 
 
@@ -70,7 +70,7 @@ Differenziertere Einstellungen sind auch über die erweiterte Konfiguration mög
 
 b) **Blog-Moderatoren** verfügen zusätzlich im Kursrun* über den <b>Button "Blog bearbeiten"</b> und können Titel, Beschreibung und Bild eines Blogs bestimmen. Auch entscheiden sie zu Beginn, ob ein externer Blog oder ein OpenOlat-Blog verwendet werden soll. Diese Entscheidung ist notwendig, bevor Blogbeiträge z.B. von Teilnehmenden erstellt werden können.
 
-(*Kursrun = Modus „aktiver Kurs“, im Unterschied zum Kurs, der im Editor geöffnet ist)
+(*Kursrun = Modus "aktiver Kurs", im Unterschied zum Kurs, der im Editor geöffnet ist)
 
 c) Abschließend muss der Kurs **publiziert** und der Kurseditor geschlossen werden, damit die Änderungen sichtbar werden. 
 
@@ -78,7 +78,7 @@ c) Abschließend muss der Kurs **publiziert** und der Kurseditor geschlossen wer
 
 ## Schritt 4: Blogbeiträge hinzufügen  
 
-a) Öffnen Sie den Kurseditor erneut und klicken Sie im Tab "Blog Lerninhalt" auf „Editieren“.
+a) Öffnen Sie den Kurseditor erneut und klicken Sie im Tab "Blog Lerninhalt" auf "Editieren".
 
 ![blog_editieren_v1_de.png](assets/blog_editieren_v1_de.png){ class="shadow lightbox" } 
 
@@ -114,7 +114,7 @@ Kursrun (veröffentlichter Kurs) hinzugefügt werden.
 
 ## Schritt 5: Kurs publizieren und Kurs-Status auf "Veröffentlicht" ändern  
   
-Gehen Sie dazu vor, wie in [„Wie erstelle ich meinen ersten OpenOlat-Kurs"](../my_first_course/my_first_course.de.md) beschrieben.
+Gehen Sie dazu vor, wie in ["Wie erstelle ich meinen ersten OpenOlat-Kurs"](../my_first_course/my_first_course.de.md) beschrieben.
 
 Der Blog ist nun eingebunden und Kursteilnehmende können die Beiträge lesen.
 

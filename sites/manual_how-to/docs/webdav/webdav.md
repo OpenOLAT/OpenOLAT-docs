@@ -2,7 +2,7 @@
 
 ## What is WebDAV?
 
-WebDAV means "Web-based Distributed Authoring and Versioning;" it is an open
+WebDAV means "Web-based Distributed Authoring and Versioning"; it is an open
 standard to transfer files online. OpenOlat supports this protocol and thus
 helps you to easily transfer files from your computer to OpenOlat folders.
 
@@ -107,15 +107,17 @@ In order to get access to a folder in OpenOlat via WebDAV you need:
 If you have setup the connection successfully a directory will be opened on
 your computer containing the following sub-directories:
 
-  *  **coursefolders** : storage folder and folder course elements of all courses you own, or you are a member of. The storage folder is most and for all only visible to users holding author rights. All other users will find here course folders.
+  *  **coursefolders**: storage folder and folder course elements of all courses you own, or you are a member of. The storage folder is most and for all only visible to users holding author rights. All other users will find here course folders.
+
     * _other_: This folder only appears if in the administration semester terms are activated. In this folder all courses which are added to a term can be found.
+  
     * _finished_: This folder only appears if in the administration semester terms are not activated. In this folder all courses can be found, which have been set to finished in the course life-cycle. These are the courses which appear in the menu Courses in the tab "Finished".
 
     ![webdav_group_courses_by_semester_terms_v1_en.png](assets/webdav_group_courses_by_semester_terms_v1_en.png){ class="shadow lightbox" }
 
-  *  **groupfolders** : all groups you are enrolled in and have access to corresponding folders.
-  *  **home** : both of your personal folders (along with the sub-folders "private" and "public").
-  *  **sharedfolders** : All resource folders you own or have otherwise access to due to membership rights. Owners and coaches may read and write, and participants may read but not write.
+  *  **groupfolders**: all groups you are enrolled in and have access to corresponding folders.
+  *  **home**: both of your personal folders (along with the sub-folders "private" and "public").
+  *  **sharedfolders**: All resource folders you own or have otherwise access to due to membership rights. Owners and coaches may read and write, and participants may read but not write.
 
 
 !!! warning "To consider"

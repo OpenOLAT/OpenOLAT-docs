@@ -9,7 +9,7 @@ The blog is included within an OpenOlat course. If you have not yet created a co
 
 ---
 
-## Step 1: Open course editor and insert blog course element
+## Step 1: Open course editor and insert "Blog" course element
 
 a) Search in **"Authoring"** for your course, where you want to insert the blog.
   
@@ -19,7 +19,7 @@ b) Open the desired course in the **course editor** located in the administratio
 
 c) Select the position in the course menu where the course element is to be added. Course elements are always inserted below the currently selected course element.
 
-d) Click **"Insert course element "** in the editor header or use the quick-add function and select "blog" in the pop-up with the selection list.
+d) Click **"Insert course element"** in the editor header or use the quick-add function and select "Blog" in the pop-up with the selection list.
 
 The course element has already been added to the course.
 
@@ -69,7 +69,7 @@ a) The **Blog Learning Content** tab is used to define who can create blog posts
 
 b) **Blog moderators** additionally have the <b>"Edit blog"</b> button in the course run* and can determine the title, description and image of a blog. They also decide at the beginning if an external blog or an OpenOlat blog should be used. This decision is necessary before blog posts can be created e.g. by participants.
 
-(*course run = „active course" mode, as opposed to the course open in the editor)
+(*course run = "active course" mode, as opposed to the course open in the editor)
 
 c) Finally, the course must be **published** and the course editor closed so that the changes are visible.
 

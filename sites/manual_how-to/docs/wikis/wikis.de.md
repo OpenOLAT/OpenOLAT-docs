@@ -5,7 +5,7 @@ und es Ihren Wünschen entsprechend angepasst.
 
 ##  Voraussetzung
 
-Das Wiki wird innerhalb eines OpenOlat-Kurses eingebunden. Wenn Sie noch keinen Kurs erstellt haben, steht im Kapitel [„Wie erstelle ich meinen ersten OpenOlat-Kurs"](../my_first_course/my_first_course.de.md), wie Sie vorgehen müssen, bevor Sie mit Hilfe der folgenden Anleitung Ihr Wiki erstellen.
+Das Wiki wird innerhalb eines OpenOlat-Kurses eingebunden. Wenn Sie noch keinen Kurs erstellt haben, steht im Kapitel ["Wie erstelle ich meinen ersten OpenOlat-Kurs"](../my_first_course/my_first_course.de.md), wie Sie vorgehen müssen, bevor Sie mit Hilfe der folgenden Anleitung Ihr Wiki erstellen.
 
 ---
 
@@ -23,7 +23,7 @@ d) Klicken Sie in der Kopfzeile des Editors auf **"Kursbaustein einfügen"** ode
 
 Damit ist der Kursbaustein schon dem Kurs hinzugefügt.
 
-e) Vergeben Sie nun noch einen passenden **Titel** im Tab „Titel und Beschreibung“ und speichern Sie den Kursbaustein.  
+e) Vergeben Sie nun noch einen passenden **Titel** im Tab "Titel und Beschreibung" und speichern Sie den Kursbaustein.  
 
 !!! tip "Hinweis"
 
@@ -33,7 +33,7 @@ e) Vergeben Sie nun noch einen passenden **Titel** im Tab „Titel und Beschreib
 
 ## Schritt 2: Wiki (Lernressource) erstellen  
   
-a) Gehen Sie in den <b>Tab „Wiki-Lerninhalt“</b> und klicken Sie auf „Wiki wählen, erstellen oder importieren“.
+a) Gehen Sie in den <b>Tab "Wiki-Lerninhalt"</b> und klicken Sie auf "Wiki wählen, erstellen oder importieren".
 
 ![wiki_lerninhalt_v1_de.png](assets/wiki_lerninhalt_v1_de.png){ class="shadow lightbox" }  
 
@@ -45,7 +45,7 @@ b) Hier können Sie nun
 
 Wir gehen im Folgenden davon aus, dass Sie ein **neues** Wiki beginnen möchten. 
   
-c) Klicken Sie auf den **Button „Erstellen“**. 
+c) Klicken Sie auf den **Button "Erstellen"**. 
 
 d) Geben Sie einen **Titel** für Ihre Wiki-Lernressource ein und bestätigen Sie mit <b>"Erstellen"</b>. 
 
@@ -76,7 +76,7 @@ b) Abschließend muss der Kurs **publiziert** und der Kurseditor geschlossen wer
 
 ### a) Lernressource editieren
 
-Öffnen Sie den Kurseditor erneut und klicken Sie im Tab "Wiki-Lerninhalt" auf „Editieren“.
+Öffnen Sie den Kurseditor erneut und klicken Sie im Tab "Wiki-Lerninhalt" auf "Editieren".
 
 ![wiki_editieren_v1_de.png](assets/wiki_editieren_v1_de.png){ class="shadow lightbox" } 
 
@@ -127,7 +127,7 @@ Nun befinden Sie sich im Tab "Seite bearbeiten" des neu erstellten Artikels und 
 
 ### e) Wiki-Menü anpassen
 
-Für Änderungen des Menüs klicken Sie in der Dropdown-Auswahl „Wiki-Menu“ auf „Ändern“, um das Wiki-Menu mit den Wiki-Seiten nach Ihren Wünsche anzupassen.
+Für Änderungen des Menüs klicken Sie in der Dropdown-Auswahl „Wiki-Menu“ auf "Ändern", um das Wiki-Menu mit den Wiki-Seiten nach Ihren Wünsche anzupassen.
 
 ![wiki_menu_anpassen_v1_de.png](assets/wiki_menu_anpassen_v1_de.png){ class="shadow lightbox" }
 
@@ -150,6 +150,6 @@ Möglichkeit 4: Klicken Sie im Menü der Kopfzeile auf "Autorenbereich" und öff
 
 ## Schritt 5: Kurs publizieren und Status auf "Veröffentlicht" ändern  
   
-Gehen Sie dazu vor, wie in [„Wie erstelle ich meinen ersten OpenOlat-Kurs"](../my_first_course/my_first_course.de.md) beschrieben.
+Gehen Sie dazu vor, wie in ["Wie erstelle ich meinen ersten OpenOlat-Kurs"](../my_first_course/my_first_course.de.md) beschrieben.
 
 Das Wiki ist nun eingebunden und Kursteilnehmende können die Artikel lesen. Bzw. bei entsprechender Berechtigung auch bestehende Seiten bearbeiten und neue Seiten erstellen.

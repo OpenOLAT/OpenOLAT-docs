@@ -57,12 +57,10 @@ Not all existing courses and learning resources are automatically listed in the 
 
 <b>The author must for this purpose
 
-a) release the course for the catalog and
+a) **release** the course for the catalog and
 
-b) create an offer that promotes the course or learning resource in the catalog.
-</b>
+b) create an [offer](../../manual_user/learningresources/Access_configuration.md) that promotes the course or learning resource in the catalog.
 
-<br>
 Select your course and then the "Administration" icon. There you will also find the tab "Share" under "Settings".
 
 ![course_share_v1_en.png](assets/course_share_v1_en.png){ class="shadow lightbox" }
@@ -87,8 +85,7 @@ Whether and where the course appears in the catalog is then determined in the se
 !!! tip "Note"
 
     Before OpenOlat 17 und generell bei der Verwendung des Katalog 1.0 , there was a tab "Catalog" in the settings and no offers could be created yet. 
-    Bei Verwendung des Katalog 2.0 ab OpenOlat 17 
-   the settings for display in the catalog are made in the "Share" tab (In the form of offers.)
+    Bei Verwendung des Katalog 2.0 ab OpenOlat 17 the settings for display in the catalog are made in the "Share" tab (in the form of offers).
 
 
 If you click the "Add offer" button, you will get a pre-selection of possible offer types.
@@ -132,11 +129,11 @@ All listings that meet the criteria for a particular launcher will be displayed 
 * specifying the appropriate **display criteria** in your course (details under Administration > Settings)
 * and creating appropriate **offers**.
 
-<b>Example 1:</b>
+**Example 1:**
 
 A launcher is intended (by the administrator) only for members of a specific organizational unit and is displayed only to them. If you as author create an offer that is only valid for this specific organizational unit, it will appear in this launcher.
 
 
-<b>Example 2:</b>
+**Example 2:**
 
 In a launcher, only offers that contain a specific taxonomy keyword are displayed (set this way by the administrator). As an author, you enter the taxonomy term in the metadata of your course. When you create an offer, you will see that this taxonomy term is assigned. Thus, the offer automatically appears in launchers that are intended for courses with this taxonomy term.

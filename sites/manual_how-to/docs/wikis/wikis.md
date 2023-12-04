@@ -18,7 +18,7 @@ b) Open the desired course in the **course editor** located in the Administratio
 
 c) Select the position in the course menu where the course element is to be added. Course elements are always inserted below the currently selected course element.
 
-d) Click **"Insert course element "** in the editor header or use the Quick-Add function and select "Wiki" in the pop-up with the selection list.
+d) Click **"Insert course element"** in the editor header or use the Quick-Add function and select "Wiki" in the pop-up with the selection list.
 
 This means that the course element has already been added to the course.
 

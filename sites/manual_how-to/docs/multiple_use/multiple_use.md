@@ -1,17 +1,12 @@
 # How can I use the same files in several courses?
 
-If you want to implement a teaching scenario with several courses, e.g. a
-course of studies, and many files are to be used in all courses, it is
-advisable to store these files centrally in the **resource
-folder** and then integrate it in the desired courses.
-
-This has the advantage that you only have to make changes to the files once and they are automatically visible in all linked courses.
+If you want to implement a teaching scenario with several courses, e.g. a course of studies, and many files are to be used in all courses, it is advisable to store these files centrally in the **resource folder** and then integrate it in the desired courses. This has the advantage that you only have to make changes to the files once and they are automatically visible in all linked courses.
 
 Typical examples for such files are:
 
 * basic framework conditions,
 * general terms and conditions,
-* organisational information,
+* organizational information,
 * information on general support and contact persons,
 * cross-course teaching materials
 * etc.
@@ -96,7 +91,7 @@ Repeat the procedure for all relevant courses.
   
 3.2 The files of this folder can now be added in the course editor like all other files of the storage folder via course element "[Single Page](../../manual_user/learningresources/Knowledge_Transfer.md#single_page)".
 
-!!! warning "Please note:"
+!!! warning "Please note"
 
     You can only include <b>one</b> resource folder <b>per course</b>. You should therefore carefully consider in advance which files you want to organize using a cross-course resource folder instead of the course-specific folder.
 

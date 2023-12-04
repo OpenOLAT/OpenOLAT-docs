@@ -83,8 +83,9 @@ In the authoring area, the <b>OER column can be displayed</b> to show which cour
 ## How can I contribute to search engine optimization as an author?
 
 The information on the info pages of the courses and learning resources is recorded by the authors under the <b>settings</b> 
-- in the <b>Info tab</b> and 
-- the <b>Metadata tab</b>.
+
+* in the <b>Info tab</b> and 
+* the <b>Metadata tab</b>.
 
 So the more information the authors enter here and the better the descriptions are, the better an offer will be found by search engines.
 

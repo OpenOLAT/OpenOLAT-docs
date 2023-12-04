@@ -74,7 +74,7 @@ Die meisten Quotas sowie die Standardwerte werden durch den Administrator einger
 **Administration > Core Konfiguration > Dateien und Ordner**
 
 Mehr dazu finden Sie im Administrator-Handbuch unter 
-[„Dateien und Ordner"](../../manual_admin/administration/Files_and_Folders.de.md)
+["Dateien und Ordner"](../../manual_admin/administration/Files_and_Folders.de.md)
 
 <br>
 
@@ -95,7 +95,7 @@ Die Versionierung ist in allen Ordnern des Systems vorhanden:
 * Gruppenordner
 * Kursordner
 * Ressourcenordner 
-* Kursbaustein 'Ordner'
+* Kursbaustein "Ordner"
 
 <br>
 
@@ -147,7 +147,7 @@ Auch das endgültige Löschen kann in diesem Tab durch Markieren und Klick auf d
 <h3> Endgültiges Löschen durch den Administrator</h3>
 
 Administratoren können das endgültige Löschen in bestimmten Pfaden vornehmen. Es muss also nicht der gesamte "Papierkorb" komplett endgültig gelöscht werden.<br>
-**Administration > Core Konfiguration > Dateien und Ordner < Tab "Gelöschte Dateien" > Zeile selektieren > Option "löschen" am Ende der Zeile**<br>
+**Administration > Core Konfiguration > Dateien und Ordner < Tab "Gelöschte Dateien" > Zeile selektieren > Option "Löschen" am Ende der Zeile**<br>
 Ein Klick auf "Löschen" am Ende der Zeile meint hier also das endgültige Löschen der zum Löschen markierten Dateien (Dateien im "Papierkorb").
 
 ![loeschen_final_admin_v1_de.png](assets/loeschen_final_admin_v1_de.png){ class="shadow lightbox" }
@@ -200,7 +200,7 @@ In OpenOlat kann ein Lebenszyklusmanagement aktiviert werden für
 OpenOlat überwacht, ob eine Gruppe bzw. ein Kurs länger nicht benutzt wurde oder ein Benutzer lange nicht aktiv war. Nach vorgegebenen Kriterien verschickt es eine Meldung, die erst eine Reaktion und dann z.B. manuelles Löschen ermöglicht. Oder OpenOlat löscht ggf. auch automatisch nach eingestellten Kriterien.
 
 Ausführliche Informationen zum Lebenszyklusmanagement finden Sie unter<br>
-[„Wie manage ich Lebenszyklen von Gruppen, Kursen oder Benutzerkonten?"](../lifecycle/lifecycle.de.md)
+["Wie manage ich Lebenszyklen von Gruppen, Kursen oder Benutzerkonten?"](../lifecycle/lifecycle.de.md)
 
 ---
 

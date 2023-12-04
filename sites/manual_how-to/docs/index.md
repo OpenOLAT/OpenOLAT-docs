@@ -17,7 +17,8 @@
 
 ## Offer Courses
 
-1. [How can I have my courses found by search engines?](/manual_how-to/oai_pmh/oai_pmh)
+1. [How do I show my courses in the OpenOlat catalog?](../docs/catalog/catalog.md)
+2. [How can I have my courses found by search engines?](/manual_how-to/oai_pmh/oai_pmh)
 
 ## Participant Administration
 
@@ -29,11 +30,11 @@
 
 ## Tests and Assessments
 
-1. [How do I proceed when I create a test?](/de/manual_how-to/test_creation_procedure/test_creation_procedure)
-2. [How do I assess a test?](/de/manual_how-to/assessing_tests/assessing_tests)
+1. [How do I proceed when I create a test?](../docs/test_creation_procedure/test_creation_procedure.md)
+2. [How do I assess a test?](../docs/assessing_tests/assessing_tests.md)
 
 ## Adjust OpenOlat
 
-1. [What measures can I take to reduce storage space consumption?](/de/manual_how-to/reduce_storage_consumption/reduce_storage_consumption)
-2. [How do I manage lifecycles of groups, courses or user accounts?](/de/manual_how-to/lifecycle/lifecycle)
-3. [How to customize the course design with CSS](/manual_how-to/css/css)
+1. [What measures can I take to reduce storage space consumption?](../docs/reduce_storage_consumption/reduce_storage_consumption.md)
+2. [How do I manage lifecycles of groups, courses or user accounts?](../docs/lifecycle/lifecycle.md)
+3. [How to customize the course design with CSS](../docs/css/css.md)

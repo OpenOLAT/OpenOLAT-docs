@@ -118,10 +118,9 @@ make other sections of the website transparent:
   
 ## Example: Course element "Single page"  
 
-It may be usefull from time to time to change the background of a specific
-HTML page to adjust to the overall design of a course. It is also possible to
-do so with CSS. For instance, the following code can be inserted to the HTML
-in order to make the background of the page transparent:  
+It can often be necessary to adapt the background of a single HTML page to the overall design. In this case, too, the desired effect is realized with CSS code.
+
+For example, to make the HTML page transparent (so that the background of the page shines through), the body is made transparent in the HTML page of the course element single page:
   
 	body {  
 		background-color: transparent;  

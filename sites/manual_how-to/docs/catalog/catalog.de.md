@@ -21,7 +21,7 @@
 
 ## Wo finde ich den OpenOlat-Katalog?
 
-OpenOlat-Benutzer sehen in der Kopfzeile meistens "Kurse" und "Gruppen", wenn sie Teilnehmer sind. Autoren sehen zusätzlich den "Autorenbereich". Aber die Optionen in der Kopfzeile können variieren. Je nach Rolle oder aktivierten Modulen, können weitere Einträge in der Kopfzeile dazu kommen. So z.B. auch der Katalog. Wurde von ihrem Administrator der [Katalog (Version 2.0)](../../manual_user/area_modules/catalog2.0.de.md) aktiviert, finden Sie den Eintrag "Katalog" im Menü der Kopfzeile.	Wird kein Katalog im Menü angezeigt, wenden Sie sich bitte an Ihren Administrator.
+OpenOlat-Benutzer sehen in der Kopfzeile meistens "Kurse" und "Gruppen", wenn sie Teilnehmer sind. Autoren sehen zusätzlich den "Autorenbereich". Aber die Optionen in der Kopfzeile können variieren. Je nach Rolle oder aktivierten Modulen, können weitere Einträge in der Kopfzeile dazu kommen. So z.B. auch der Katalog. Wurde von ihrem Administrator der [Katalog (Version 2.0)](../../manual_user/area_modules/catalog2.0.de.md) aktiviert, finden Sie den Eintrag "Katalog" im Menü der Kopfzeile. Wird kein Katalog im Menü angezeigt, wenden Sie sich bitte an Ihren Administrator.
 
 ![katalog_menu_kopfzeile_v1_de.png](assets/katalog_menu_kopfzeile_v1_de.png){ class="shadow lightbox" }  
 
@@ -83,7 +83,7 @@ Ob und wo der Kurs im Katalog erscheint, wird dann im zweiten Schritt durch die 
 !!! tip "Hinweis"
 
     Vor OpenOlat 17 und generell bei der Verwendung des Katalog 1.0 ist in den Einstellungen ein Reiter "Katalog" enthalten und es konnten noch keine Angebote erstellt werden. 
-    Bei Verwendung des Katalog 2.0 ab OpenOlat 17 werden die Einstellungen für die Anzeige im Katalog im Reiter "Freigabe" gemacht (in Form von Angeboten.)
+    Bei Verwendung des Katalog 2.0 ab OpenOlat 17 werden die Einstellungen für die Anzeige im Katalog im Reiter "Freigabe" gemacht (in Form von Angeboten).
 
 Klicken Sie auf den Button "Angebot hinzufügen", erhalten Sie eine Vorauswahl möglicher Angebotstypen.
 

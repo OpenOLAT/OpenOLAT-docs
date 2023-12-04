@@ -34,25 +34,14 @@ Für die Verwendung der Lernressource in verschiedenen Kursbausteinen gibt es we
 
 a) Formular-Lernressource im **Kursbaustein Formular**
 
-Mehr dazu unter 
-
 b) Formular-Lernressource im **Kursbaustein Umfrage**
-
-Mehr dazu unter
 
 c) Formular-Lernressource im **Kursbaustein Bewertung**
 
-Mehr dazu unter
-
 d) Formular-Lernressource **im Portfolio**
-
-Mehr dazu unter
 
 e) Formular-Lernressource **Stand-alone**
 
-Mehr dazu unter
-
- 	
 ---
 
 ## 4. Was kann ein Formular?

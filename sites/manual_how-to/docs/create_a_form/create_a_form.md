@@ -34,23 +34,13 @@ There are further instructions for using the learning resource in different cour
 
 a) Form learning resource in **course element Form**.
 
-See more at 
-
 b) Form learning resource in **course element Survey**.
-
-See more at 
 
 c) Form learning resource in **course element Assessment**.
 
-See more at 
-
 d) Form learning resource **in a portfolio**
 
-See more at 
-
 e) Form learning resource **Stand alone**
-
-See more at 
 
  	
 ---
@@ -116,7 +106,7 @@ You can create a form learning resource directly in the authoring area. Subseque
 
 <h3>b) Authoring > tab "My entries" > select avaliable form > edit</h3>
 
-Does the form learning resource already exist but is still empty? Since we then edit a form**learning resource**, it can be found in the authoring area under the tab "My entries". (Only courses are listed under "My courses".) Use the filters to search in large databases.
+Does the form learning resource already exist but is still empty? Since we then edit a form **learning resource**, it can be found in the authoring area under the tab "My entries". (Only courses are listed under "My courses".) Use the filters to search in large databases.
 
 To edit, click on the title or on the edit icon or on the 3 dots at the end of the line.
 

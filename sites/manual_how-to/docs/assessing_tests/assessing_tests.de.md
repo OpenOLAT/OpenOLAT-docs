@@ -116,7 +116,7 @@ Die Endsumme der Punkte kann umgerechnet werden in
 
 * Noten (Details sind konfigurierbar, z.B. 1-6 oder 6-1)
 * Begriffe zur Bewertung (z.B. "sehr gut", "gut", usw. oder A1, B1, usw. für Sprachniveaus)
-* grafische Bewertung (z.B. verschiedene Smileys)
+* Grafische Bewertung (z.B. verschiedene Smileys)
 
 Ob und wie eine Umwandlung der Punkte stattfindet, wird vom Kursautor festgelegt und kann nicht von bewertenden Personen eingestellt werden.
 

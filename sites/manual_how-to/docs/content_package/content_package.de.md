@@ -24,7 +24,7 @@ Erstellen Sie eine Einführung in Ihr Thema als Content Package. Sie können die
 
 <br>
 
-Im Folgenden zeigen wir, wie ein Content Package innerhalb eines OpenOlat-Kurses eingebunden wird. Wenn Sie noch keinen Kurs erstellt haben, steht im Kapitel [„Wie erstelle ich meinen ersten OpenOlat-Kurs"](../my_first_course/my_first_course.de.md), wie Sie vorgehen müssen, bevor Sie mit Hilfe der folgenden Anleitung Ihr Content Package erstellen und einbinden.
+Im Folgenden zeigen wir, wie ein Content Package innerhalb eines OpenOlat-Kurses eingebunden wird. Wenn Sie noch keinen Kurs erstellt haben, steht im Kapitel ["Wie erstelle ich meinen ersten OpenOlat-Kurs"](../my_first_course/my_first_course.de.md), wie Sie vorgehen müssen, bevor Sie mit Hilfe der folgenden Anleitung Ihr Content Package erstellen und einbinden.
 
 ---
 
@@ -51,7 +51,7 @@ d) Klicken Sie in der Kopfzeile des Editors auf **"Kursbaustein einfügen"** ode
 
 Damit ist der Kursbaustein schon dem Kurs hinzugefügt.
 
-e) Vergeben Sie nun noch einen passenden **Titel** im Tab „Titel und Beschreibung“ und speichern Sie den Kursbaustein.  
+e) Vergeben Sie nun noch einen passenden **Titel** im Tab "Titel und Beschreibung" und speichern Sie den Kursbaustein.  
 
 !!! tip "Hinweis"
 
@@ -61,7 +61,7 @@ e) Vergeben Sie nun noch einen passenden **Titel** im Tab „Titel und Beschreib
 
 ## Schritt 2: Content Package (Lernressource) erstellen  
 
-a) Gehen Sie in den <b>Tab „Lerninhalt“</b> und klicken Sie auf „CP-Lerninhalt wählen, erstellen oder importieren“.
+a) Gehen Sie in den **Tab "Lerninhalt"** und klicken Sie auf „CP-Lerninhalt wählen, erstellen oder importieren“.
 
 ![cp_erstellen_v1_de.png](assets/cp_erstellen_v1_de.png){ class="shadow lightbox" }  
 
@@ -73,7 +73,7 @@ b) Hier können Sie nun
 
 Wir gehen im Folgenden davon aus, dass Sie ein **neues** Content Package erstellen möchten.
   
-c) Klicken Sie auf den **Button „Erstellen“**. 
+c) Klicken Sie auf den **Button "Erstellen"**. 
 
 ![cp_erstellen_importieren_v1_de.png](assets/cp_erstellen_importieren_v1_de.png){ class="shadow lightbox" }  
 
@@ -105,7 +105,7 @@ Fertig. Damit ist eine neue Lernressource angelegt und weitere Einstellungen sow
 
 <h3> a) Lernressource editieren (Vorschau öffnen)</h3>
 
-Öffnen Sie den Kurseditor und klicken Sie im Tab "Lerninhalt" auf „Editieren“.
+Öffnen Sie den Kurseditor und klicken Sie im Tab "Lerninhalt" auf "Editieren".
 
 ![cp_editieren_v1_de.png](assets/cp_editieren_v1_de.png){ class="shadow lightbox" } 
 
@@ -170,6 +170,6 @@ Gehen Sie dazu zurück zum **Kurseditor** und selektieren Sie den  Kursbaustein.
 
 ## Schritt 4: Kurs publizieren und Status auf "Veröffentlicht" ändern  
   
-Gehen Sie dazu vor, wie in [„Wie erstelle ich meinen ersten OpenOlat-Kurs"](../my_first_course/my_first_course.de.md) beschrieben.
+Gehen Sie dazu vor, wie in ["Wie erstelle ich meinen ersten OpenOlat-Kurs"](../my_first_course/my_first_course.de.md) beschrieben.
 
 Das Content Package ist nun eingebunden und Kursteilnehmende können den Inhalt lesen.

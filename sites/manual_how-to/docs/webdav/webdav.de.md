@@ -2,7 +2,7 @@
 
 ## Was ist WebDAV?
 
-WebDAV steht für „Web-based Distributed Authoring and Versioning“ und ist ein
+WebDAV steht für "Web-based Distributed Authoring and Versioning" und ist ein
 offener Standard zur Übermittlung von Dateien im Internet. OpenOlat
 unterstützt dieses Protokoll und ermöglicht so einen einfachen Dateitransfer
 von Ihrem Rechner zu OpenOlat-Ordnern.
@@ -44,7 +44,7 @@ fähigen Ordnern
 !!! info "Hinweis zu Shibboleth und Cloud Login"
 
     Falls Sie mit Shibboleth oder einem Cloud Login auf OpenOlat zugreifen, können Sie sich Ihr WebDAV- Passwort in den Einstellungen im persönlichen Menu einrichten. 
-    Wählen Sie hierzu den Link „Einstellungen“ und klicken Sie anschliessend im Tab „WebDAV“ auf die Schaltfläche „Passwort einrichten“. Wenn Sie bereits über ein OpenOlat-Passwort verfügen, verwenden Sie dieses für den WebDAV Zugang. 
+    Wählen Sie hierzu den Link "Einstellungen" und klicken Sie anschliessend im Tab "WebDAV" auf die Schaltfläche "Passwort einrichten". Wenn Sie bereits über ein OpenOlat-Passwort verfügen, verwenden Sie dieses für den WebDAV Zugang. 
   
 
 ## Die WebDAV-Verbindung einrichten
@@ -52,35 +52,35 @@ fähigen Ordnern
 ??? abstract "Windows 10 (sowie 7 + 8)"
 
     1. Starten Sie den Windows Explorer
-    2. Klicken Sie mit der rechten Maus auf „Dieser PC“
-    3. Wählen Sie „Netzlaufwerk verbinden“
+    2. Klicken Sie mit der rechten Maus auf "Dieser PC"
+    3. Wählen Sie "Netzlaufwerk verbinden"
     4. Wählen Sie einen Buchstaben für das Laufwerk.
-    5. Wählen Sie ganz unten den Punkt „Verbindung mit einer Webseite herstellen auf der Sie Dokumente und Bilder speichern können“ aus.
-    6. Klicken Sie auf „Weiter“.
-    7. Markieren Sie „Eine benutzerdefinierte Webadresse auswählen“.
-    8. Klicken Sie auf „Weiter“.
+    5. Wählen Sie ganz unten den Punkt "Verbindung mit einer Webseite herstellen auf der Sie Dokumente und Bilder speichern können" aus.
+    6. Klicken Sie auf "Weiter".
+    7. Markieren Sie "Eine benutzerdefinierte Webadresse auswählen".
+    8. Klicken Sie auf "Weiter".
     9. Geben Sie den WebDAV-Link ein.
-    10. Klicken Sie auf „Weiter“.
+    10. Klicken Sie auf "Weiter".
     11. Geben Sie nun Ihren OpenOlat-Benutzernamen bzw. die hinterlegte E-Mail Adresse und Ihr Passwort ein.
-    12. Klicken Sie auf „Fertigstellen“.
+    12. Klicken Sie auf "Fertigstellen".
 
 ??? abstract "Windows Vista"
 
-    1. Klicken Sie im Startmenü auf „Computer“.
-    2. Klicken Sie im folgenden Fenster in der Menüleiste oben auf „Netzlaufwerk zuordnen“ (unter „Weitere Befehle“).
+    1. Klicken Sie im Startmenü auf "Computer".
+    2. Klicken Sie im folgenden Fenster in der Menüleiste oben auf "Netzlaufwerk zuordnen" (unter "Weitere Befehle").
     3. Wählen Sie ganz unten den Punkt „Verbindung mit einer Webseite herstellen“ aus.
-    4. Klicken Sie auf „Weiter“.
-    5. Markieren Sie „Eine benutzerdefinierte Netzwerkressource auswählen“.
-    6. Klicken Sie auf „Weiter“.
+    4. Klicken Sie auf "Weiter".
+    5. Markieren Sie "Eine benutzerdefinierte Netzwerkressource auswählen".
+    6. Klicken Sie auf "Weiter".
     7. Geben Sie bei der Internet- oder Netzwerkadresse den WebDAV-Link ein.
-    8. Klicken Sie auf „Weiter“.
+    8. Klicken Sie auf "Weiter".
     9. Geben Sie nun Ihren OpenOlat-Benutzernamen bzw. die hinterlegte E-Mail Adresse und Ihr Passwort ein.
     10. Sie können einen Namen für die WebDAV-Verbindung eingeben.
-    11. Klicken Sie auf „Fertigstellen“.
+    11. Klicken Sie auf "Fertigstellen".
 
 ??? abstract "Mac"
 
-    1. Öffnen Sie im Finder das Menu „Gehe zu“ und dann „Mit Server verbinden.“ und geben dort den WebDAV-Link ein.
+    1. Öffnen Sie im Finder das Menu "Gehe zu" und dann "Mit Server verbinden." und geben dort den WebDAV-Link ein.
     2. Geben Sie nun Ihren OpenOlat-Benutzernamen bzw. die hinterlegte E-Mail Adresse und Ihr Passwort ein.
     3. Klicken Sie auf "OK"
 
@@ -91,7 +91,7 @@ fähigen Ordnern
     1. KDE Plasma: im Dolphin in der Pfadleiste webdavs:// + WebDAV-Link eingeben. Es wird nach Benutzername und Kennwort gefragt. Sollte die Pfadleiste nicht angezeigt werden, so kann sie jederzeit mit der Taste F6 aktiviert werden. Beispiel: <webdavs://www.olat.uzh.ch/olat/webdav/>.
 
     2. Gnome: `davs:// + benutzername oder emailadresse + @` \+ WebDAV-Link eingeben. Beispiel: `davs://pmuster@www.olat.uzh.ch/olat/webdav/`.
-    3. FUSE: WebDAV-Verzeichnisse können direkt ins Filesystem gemountet werden (geht auch unter OSX, mehr dazu auf der [FUSE-Website](http://fuse.sourceforge.net "FUSE-Website").
+    3. FUSE: WebDAV-Verzeichnisse können direkt ins Filesystem gemountet werden (geht auch unter OSX, mehr dazu auf der [FUSE-Website](http://fuse.sourceforge.net "FUSE-Website")).
 
 ??? abstract "Alternative"
 
@@ -109,7 +109,7 @@ fähigen Ordnern
 
 Wenn Sie die Verbindung erfolgreich eingerichtet haben, öffnet sich auf Ihrem Rechner ein Verzeichnis, das die folgenden Unterverzeichnisse enthält:
 
-  *  **coursefolders** : Ablageordner und Ordnerelement aller Kurse, die Sie besitzen bzw. deren Mitglied sie sind. Ablageordner sehen in der Regel nur Benutzer mit Autorenrechten. Alle anderen Benutzer finden hier Kursordner. 
+  *  **coursefolders**: Ablageordner und Ordnerelement aller Kurse, die Sie besitzen bzw. deren Mitglied sie sind. Ablageordner sehen in der Regel nur Benutzer mit Autorenrechten. Alle anderen Benutzer finden hier Kursordner. 
 
     * _other_: Dieser Ordner erscheint nur, wenn in der Administration die Semesterdaten aktiviert sind. In diesem Ordner befinden sich alle Kurse, welche keinem Semester zugeordnet sind.
 
@@ -117,9 +117,9 @@ Wenn Sie die Verbindung erfolgreich eingerichtet haben, öffnet sich auf Ihrem R
 
     ![webdav_kurse_nach_semesterdaten_gruppieren_v1_de.png](assets/webdav_kurse_nach_semesterdaten_gruppieren_v1_de.png){ class="shadow lightbox" }
 
-  *  **groupfolders** : Hier finden Sie alle Gruppen in denen Sie eingetragen sind und auf deren Ordner Sie Zugriff haben.
-  *  **home** : Ihre beiden persönlichen Ordner (mit den Unterordnern „private“ und „public“).
-  *  **sharedfolders** : Alle Ressourcenordner, die Sie besitzen, oder auf die Sie aufgrund von Teilnehmerrechten zugreifen dürfen. Besitzer und Betreuer erhalten Lese- und Schreibrechte, Teilnehmer nur Leserechte
+  *  **groupfolders**: Hier finden Sie alle Gruppen in denen Sie eingetragen sind und auf deren Ordner Sie Zugriff haben.
+  *  **home**: Ihre beiden persönlichen Ordner (mit den Unterordnern "private" und "public").
+  *  **sharedfolders**: Alle Ressourcenordner, die Sie besitzen, oder auf die Sie aufgrund von Teilnehmerrechten zugreifen dürfen. Besitzer und Betreuer erhalten Lese- und Schreibrechte, Teilnehmer nur Leserechte.
 
 
 !!! warning "Zu beachten"

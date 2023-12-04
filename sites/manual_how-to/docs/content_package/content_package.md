@@ -47,7 +47,7 @@ b) Open the desired course in the **Course editor** located in the "Administrati
 
 c) Select the position in the course menu where the course element is to be added. Course elements are always inserted below the currently selected course element.
 
-d) Click **"Insert course element "** in the editor header or use the Quick-Add function and select "CP learning content" in the popup with the selection list.
+d) Click **"Insert course element"** in the editor header or use the Quick-Add function and select "CP learning content" in the popup with the selection list.
 
 This means that the course element has already been added to the course.
 
@@ -120,7 +120,7 @@ This will take you to the preview of your content package. Since it is newly cre
 
 <h3> b) Open the CP editor</h3>
 
-By clicking **"Administration "** and then **"Edit content "** you reach the edit mode of the CP-Editor. The hatched header shows it to you. (However, you are not editing a course here, but a learning resource).
+By clicking **"Administration"** and then **"Edit content"** you reach the edit mode of the CP-Editor. The hatched header shows it to you. (However, you are not editing a course here, but a learning resource).
 
 Sie finden hier alle Werkzeuge zum Ergänzen von Inhalt in der CP-Lernressource:
 You will find here all tools for adding content to the CP learning resource:

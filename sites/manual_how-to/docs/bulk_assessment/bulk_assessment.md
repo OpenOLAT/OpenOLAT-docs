@@ -19,10 +19,9 @@
 
 ## What is a bulk assessment?
 
-With a bulk assessment you may assess several course participants with the [assessment tool
-](../../manual_user/learningresources/Assessment_tool_overview.md) at a time of your choice at once.
+With a bulk assessment you may assess several course participants with the [assessment tool](../../manual_user/learningresources/Assessment_tool_overview.md) at a time of your choice at once.
 <br><br>
-Bulk assessments can be done for [assessment course elements](../../manual_user/learningresources/Assessment.md):
+Bulk assessments can be done for ["Assessment" course elements](../../manual_user/learningresources/Course_Elements.md).
 
 * course element "task",
 * course element "group task" and
@@ -38,7 +37,7 @@ A bulk assessment can be performed by all persons who are otherwise authorized t
 
     Depending on the configuration of a course element, different options are available.
     
-    If the option "assessment" is not activated in the course element, no bulk assessment can be carried out.
+    If the option "Assessment" is not activated in the course element, no bulk assessment can be carried out.
 
     All course elements are displayed for which at least one of the following assessment features is configured:
 
@@ -51,52 +50,53 @@ A bulk assessment can be performed by all persons who are otherwise authorized t
 ## Where do you start a bulk assessment?
 
 The general procedure is:
-* Select in the [assessment tool
-](../../manual_user/learningresources/Assessment_tool_overview.md) the course element of your course, for which you want to do a bulk assessment
+
+* Select in the [Assessment tool](../../manual_user/learningresources/Assessment_tool_overview.md) the course element of your course, for which you want to do a bulk assessment
 * or select the "bulk assessment" option in the toolbar. 
 
 
-### The bulk assessment for <b>course element task</b> is started by 
+### The bulk assessment for **course element task** is started by 
+
 * selection of your course
-* then click the icon "administration"
-* click the menu option "assessment tool"
-* choose the course element of type "task" in the menu at the left side
-* select tab „participants“
+* then click the icon "Administration"
+* click the menu option "Assessment tool"
+* choose the course element of type "Task" in the menu at the left side
+* select tab "Participants"
 * click the button "start new bulk assessment" or the button "bulk assessment" in the tool bar
 
 ![bulk_assessment_ce_task_v1_en.png](assets/bulk_assessment_ce_task_v1_en.png){ class="shadow lightbox" }
 
 
-### The bulk assessment for <b>course element group task</b> is started by  
+### The bulk assessment for **course element group task** is started by  
 * selection of your course
 * then click the icon "administration"
-* click the menu option "assessment tool"
-* choose the course element of type "group task" in the menu at the left side
-* select tab „participants“
-* click the button "bulk assessment" in the tool bar
+* click the menu option "Assessment tool"
+* choose the course element of type "Group task" in the menu at the left side
+* select tab "Participants“
+* click the button "Bulk assessment" in the tool bar
 
 ![bulk_assessment_ce_grouptask_v1_en.png](assets/bulk_assessment_ce_grouptask_v1_en.png){ class="shadow lightbox" }
 
 
-### The bulk assessment for <b>course element assessment</b> is started by
+### The bulk assessment for **course element assessment** is started by
 * selection of your course
-* then click on the icon "administration"
-* click the menu option "assessment tool"
-* choose the course element of type "assessment" in the menu at the left side
-* select tab „participants“
-* click the button "start new bulk assessment" or the button "bulk assessment" in the tool bar
+* then click on the icon "Administration"
+* click the menu option "Assessment tool"
+* choose the course element of type "Assessment" in the menu at the left side
+* select tab "Participants“
+* click the button "Start new bulk assessment" or the button "Bulk assessment" in the tool bar
 
 ![bulk_assessment_ce_assessment_v1_en.png](assets/bulk_assessment_ce_assessment_v1_en.png){ class="shadow lightbox" }
 
 
-### The bulk assessment of an <b>entire course</b> or of a <b>certain group</b> 
+### The bulk assessment of an **entire course** or of a **certain group** 
 starts with the selection of the course or the group. 
 Then, however, concrete course elements must be selected which this course contains or which this group works on. From there on, the bulk assessment will be carried out according to one of the above procedures.
 
 
 ## How do I proceed after the start?
 
-After the start you will be guided step by step by a <b>wizard</b> through the bulk assessment.
+After the start you will be guided step by step by a wizard through the bulk assessment.
 
 
 ## Step 1: Choose your course element
@@ -116,7 +116,8 @@ Only the assessable course elements from the selected course are displayed in a 
 
 ## Step 2a: Prepare assessment data 
 
-For bulk assessment, you need a list that includes. 
+For bulk assessment, you need a list that includes
+
 * the user identification (username, registered email address or institution number/matriculation number),
 * the number of points,
 * status 
@@ -129,8 +130,8 @@ The individual fields are separated by tab or comma.
     * <b>Subpoints</b> can be entered with comma or period (Attention: comma cannot be used if comma is used as separator).
 
     * You can use the following inputs for the <b>passed status</b>:
-    passed: `y, yes, passed, true, 1, bestanden`<br>
-    failed: `no, failed, false, 0, nicht bestanden`
+    Passed: `y, yes, passed, true, 1, bestanden`<br>
+    Failed: `no, failed, false, 0, nicht bestanden`
 
 The easiest way is to use a table from Excel or OpenOffice and fill it with values.
 
@@ -139,7 +140,7 @@ The easiest way is to use a table from Excel or OpenOffice and fill it with valu
 
 ## Step 2b: Insert Assessment data 
 
-Upload here the rating data created outside OpenOlat by 'copy+paste' into the free field. If you have exported the empty table before, there should be no syntax problems. Select "separated by tab" if you are transferring data from an Excel file.
+Upload here the rating data created outside OpenOlat by "copy+paste" into the free field. If you have exported the empty table before, there should be no syntax problems. Select "separated by tab" if you are transferring data from an Excel file.
 
 Alternatively, you can enter the data manually.
 
@@ -167,6 +168,7 @@ Alternatively, you can enter the data manually.
 
 In step <b>column assignment</b> you can assign which columns of your externally created assessment (of your inserted data from Excel) stand for which field.<br>
 For example:
+
  * identifier => column 3
  * points => column 7<br>
  * passed => column 8

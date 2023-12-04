@@ -26,7 +26,7 @@ d) Klicken Sie in der Kopfzeile des Editors auf **"Kursbaustein einfügen"** ode
 
 Damit ist der Kursbaustein schon dem Kurs hinzugefügt.
 
-e) Vergeben Sie nun noch einen passenden **Titel** im Tab „Titel und Beschreibung“ und speichern Sie den Kursbaustein. 
+e) Vergeben Sie nun noch einen passenden **Titel** im Tab "Titel und Beschreibung" und speichern Sie den Kursbaustein. 
 
 
 !!! tip "Hinweis"
@@ -37,7 +37,7 @@ e) Vergeben Sie nun noch einen passenden **Titel** im Tab „Titel und Beschreib
    
 ## Schritt 2: Podcast (Lernressource) erstellen  
 
-a) Gehen Sie in den <b>Tab „Podcast-Lerninhalt“</b> und klicken Sie auf „Podcast wählen, erstellen oder importieren“.
+a) Gehen Sie in den <b>Tab "Podcast-Lerninhalt"</b> und klicken Sie auf "Podcast wählen, erstellen oder importieren".
 
 ![podcast_lerninhalt_v1_de.png](assets/podcast_lerninhalt_v1_de.png){ class="shadow lightbox" }  
   
@@ -49,7 +49,7 @@ b) Hier können Sie nun
 
 Wir gehen im Folgenden davon aus, dass Sie einen **neuen** Podcast beginnen möchten. 
   
-c) Klicken Sie auf den **Button „Erstellen“**. 
+c) Klicken Sie auf den **Button "Erstellen"**. 
 
 d) Geben Sie einen **Titel** für Ihre Podcast-Lernressource ein und bestätigen Sie mit <b>"Erstellen"</b>. 
 
@@ -74,7 +74,7 @@ Differenziertere Einstellungen sind auch über die erweiterte Konfiguration mög
 
 b) **Podcast-Moderatoren** verfügen zusätzlich im Kursrun* über den <b>Button "Podcast bearbeiten"</b> und können Titel, Beschreibung und Bild eines Podcasts bestimmen. Auch entscheiden sie zu Beginn, ob ein externer Podcast oder ein OpenOlat-Podcast verwendet werden soll. Diese Entscheidung ist notwendig, bevor Podcastbeiträge z.B. von Teilnehmenden erstellt werden können.
 
-(*Kursrun = Modus „aktiver Kurs“, im Unterschied zum Kurs, der im Editor geöffnet ist)
+(*Kursrun = Modus "aktiver Kurs", im Unterschied zum Kurs, der im Editor geöffnet ist)
 
 c) Abschließend muss der Kurs **publiziert** und der Kurseditor geschlossen werden, damit die Änderungen sichtbar werden. 
 
@@ -82,7 +82,7 @@ c) Abschließend muss der Kurs **publiziert** und der Kurseditor geschlossen wer
 
 ## Schritt 4: Podcast mit Inhalt (Episoden) füllen  
 
-a) Öffnen Sie den Kurseditor erneut und klicken Sie im Tab "Podcast Lerninhalt" auf „Editieren“.
+a) Öffnen Sie den Kurseditor erneut und klicken Sie im Tab "Podcast Lerninhalt" auf "Editieren".
 
 ![podcast_initiale_episode_v1_de.png](assets/podcast_initiale_episode_v1_de.png){ class="shadow lightbox" } 
 
@@ -116,7 +116,7 @@ d) Wenn Sie alle gewünschten Felder ausgefüllt haben, veröffentlichen Sie die
 
 ## Schritt 5: Kurs publizieren und Status auf "Veröffentlicht" ändern  
   
-Gehen Sie dazu vor, wie in [„Wie erstelle ich meinen ersten OpenOlat-Kurs"](../my_first_course/my_first_course.de.md) beschrieben.
+Gehen Sie dazu vor, wie in ["Wie erstelle ich meinen ersten OpenOlat-Kurs"](../my_first_course/my_first_course.de.md) beschrieben.
 
 Der Podcast ist nun eingebunden und Kursteilnehmende können die erste Episode
 herunterladen.

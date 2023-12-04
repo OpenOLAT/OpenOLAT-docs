@@ -20,7 +20,7 @@
 
 ![kurs-kursbaustein-lernressource-frage_v1_de.png](assets/kurs-kursbaustein-lernressource-frage_v1_de.png){ class="lightbox" } 
 
-**Kurs:**<br>Er wird im Kurseditor aus Kursbausteinen zusammengesetzt. 
+**Kurs:**<br> Er wird im Kurseditor aus Kursbausteinen zusammengesetzt. 
 
 **Kursbaustein:** <br>Die meisten Kursbausteine sind Behälter, in die eine Lernressource eingefügt wird. Z.B. wird in den Kursbaustein "Test" eine Lernressource "Test" eingefügt. Bitte diese beiden "Tests" unterscheiden!
 
@@ -400,7 +400,7 @@ Es erscheint eine Liste mit Ihren Test-Lernressourcen. Wählen Sie den vorbereit
 
 16\. Je nach Bedarf können noch die weiteren Tabs des Kursbausteins konfiguriert werden. Sie können teilweise die Einstellungen der Test-Lernressource mit den Einstellungen des Kursbausteins übersteuern. Das macht Sinn, wenn die gleiche Test-Lernressource in verschiedenen Kursen verwendet wird.
 
-17\. Damit der Test von den Lernenden bearbeiten werden kann muss der Kurs noch publiziert werden. Dafür einfach den Kurseditor z.B. durch Klick auf den Namen des Kurses in der Krümelnavigation schließen und bei der erscheinenden Auswahl das Publizieren durch die Auswahl "Ja" manuell oder automatisch" erlauben.
+17\. Damit der Test von den Lernenden bearbeiten werden kann muss der Kurs noch publiziert werden. Dafür einfach den Kurseditor z.B. durch Klick auf den Namen des Kurses in der Krümelnavigation schließen und bei der erscheinenden Auswahl das Publizieren durch die Auswahl "Ja manuell oder automatisch" erlauben.
 
 Alternativ kann auch der "Publizieren"-Button im Editor rechts in der Toolleiste oder das kleine rote Kreuz rechts oben verwendet werden.
 

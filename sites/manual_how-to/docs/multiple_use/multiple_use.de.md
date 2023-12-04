@@ -85,7 +85,7 @@ Wiederholen Sie das Vorgehen für alle relevanten Kurse.
 ## 3. Zugriff auf die Dateien organisieren  
 
 3.1 Um auf die Dateien des Ressourcenordners innerhalb des Kurses zuzugreifen, gehen Sie in den Ablageordner des Kurses. Hier finden sie den automatisch
-angelegten Unterordner „_sharedfolder“.
+angelegten Unterordner "_sharedfolder".
 
 ![ablageordner_menu_v1_de.png](assets/ablageordner_menu_v1_de.png){ class="shadow lightbox" } 
 

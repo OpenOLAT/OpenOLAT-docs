@@ -74,7 +74,7 @@ More sophisticated settings are also possible via the advanced configuration.
 
 b) **Podcast moderators** additionally have the <b>"Edit podcast"</b> button in the course run* and can determine the title, description and image of a podcast. They also decide at the beginning if an external podcast or an OpenOlat podcast should be used. This decision is necessary before podcast contributions can be created, e.g. by participants.
 
-(*course run = „active course" mode, as opposed to the course open in the editor)
+(*course run = "active course" mode, as opposed to the course open in the editor)
 
 c) Finally, the course must be **published** and the course editor closed so that the changes are visible.
 

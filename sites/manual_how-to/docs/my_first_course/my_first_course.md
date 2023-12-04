@@ -54,7 +54,7 @@ By clicking on the help "Course designs in comparison" you can learn about the d
 	It is possible to be guided through the creation of the course by a course wizard. In this manual, however, the procedure is presented in individual steps for better understanding.
 	
 	
-(Call the wizard in the lower right corner).
+(Call the wizard in the lower right corner.)
 
 ![course_create_wizard_v2_en.png](assets/course_create_wizard_v2_en.png){ class="shadow lightbox" }
 
@@ -213,7 +213,7 @@ Status| Access|
 <b>Preparation</b> | Only owners of this course have access to it.|
 <b>Review</b> | Only owners of this learning resource have access. All preparations for this learning resource have been completed and the content has been released for further review.  
 <b>Access for coach</b> | The course can be opened by coaches of this course in addition to the author (course owner).  
-<b>Published</b> | The course can now also be found in the "Courses" area. It can be opened and visited by all authorized persons (participants, supervisors, possibly guests).  
+<b>Published</b> | The course can now also be found in the "Courses" area. It can be opened and visited by all authorized persons (participants, coaches, possibly guests).  
 <b>Finished</b> | The course can still be opened and viewed by course members, but no more edits are possible (tests, forms, etc.)
   
 

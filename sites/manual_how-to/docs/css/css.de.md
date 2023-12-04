@@ -47,7 +47,7 @@ Sie benötigen:
 * und ein Werkzeug um das CSS von OpenOlat zu analysieren, bzw. die entsprechenden Selektoren, die verändert werden sollen, zu identifizieren.
 
 Möglich ist dies z.B. über die <b>Browser Option "Element untersuchen"</b>. In Firefox und Chrome ist dieses Werkzeug bereits integriert.
-Klicken Sie mit der rechten Maustaste in die Webseite und wählen Sie dann "Element untersuchen (Q)" bzw. "Untersuchen (Strg+Shift+I)". Wenn Sie z.B. auf die obere Navigationsleiste klicken, zeigt Ihnen die Information den Namen des Selektors an, in diesem Fall „#o_navbar_container“.
+Klicken Sie mit der rechten Maustaste in die Webseite und wählen Sie dann "Element untersuchen (Q)" bzw. "Untersuchen (Strg+Shift+I)". Wenn Sie z.B. auf die obere Navigationsleiste klicken, zeigt Ihnen die Information den Namen des Selektors an, in diesem Fall "#o_navbar_container".
 
 ## Was ist möglich?
 
@@ -119,13 +119,9 @@ sehen:
 
 ## Beispiel: Kursbaustein Einzelseite  
 
-Oft kann es nötig sein den Hintergrund einer einzelnen HTML Seite dem
-Gesamtdesign anzupassen. Auch in diesem Fall wird das Gewünschte mit CSS-Code
-realisiert.
+Oft kann es nötig sein den Hintergrund einer einzelnen HTML Seite dem Gesamtdesign anzupassen. Auch in diesem Fall wird das Gewünschte mit CSS-Code realisiert.
 
-Um die HTML Seite beispielsweise transparent zu machen (damit der Hintergrund
-der Seite durchscheint) wird in der HTML Seite des Kursbausteins Einzelseite
-der body transparent gemacht:  
+Um die HTML Seite beispielsweise transparent zu machen (damit der Hintergrund der Seite durchscheint) wird in der HTML Seite des Kursbausteins Einzelseite der body transparent gemacht:  
   
 	body {  
 		background-color: transparent;  
@@ -158,7 +154,7 @@ angepasst werden:
 
  **5\. Benutzermenü (rechtes Ausklappmenü):** CSS ID-Selektor `#o_offcanvas_right`
 
-Sollen die Überschriften angepasst werden, wählen Sie das Element **h2.** Auch
+Sollen die Überschriften angepasst werden, wählen Sie das Element **h2**. Auch
 hier können alle Eigenschaften mit CSS-Befehlen den eigenen Ansprüchen
 entsprechend angepasst werden. Dasselbe gilt dies auch für das Element **p**
 oder auch für die Links **a.** Vorstellbar wären für diese Elemente

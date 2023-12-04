@@ -3,7 +3,7 @@
 
 ## 1. Autorenrechte besorgen
 
-Um OpenOlat-Kurse erstellen zu können, benötigen Sie Autorenrechte. Wenden Sie sich bitte an Ihren <b>Administrator</b>, damit er Ihnen die Autorenrolle gibt. Sobald Sie Autor sind, erscheint im Menü Ihrer Kopfzeile der Eintrag <b>„Autorenbereich“</b>.
+Um OpenOlat-Kurse erstellen zu können, benötigen Sie Autorenrechte. Wenden Sie sich bitte an Ihren <b>Administrator</b>, damit er Ihnen die Autorenrolle gibt. Sobald Sie Autor sind, erscheint im Menü Ihrer Kopfzeile der Eintrag <b>"Autorenbereich2</b>.
 
 ![autorenbereich_menu_v1_de.png](assets/autorenbereich_menu_v1_de.png){ class="shadow lightbox" }
 

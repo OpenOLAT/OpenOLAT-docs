@@ -19,7 +19,7 @@
 
 ![kurs-kursbaustein-lernressource-frage_v1_de.png](assets/kurs-kursbaustein-lernressource-frage_v1_de.png){ class="lightbox" } 
 
-**Course:**<br>It is assembled from course elements in the course editor. 
+**Course:**<br> It is assembled from course elements in the course editor. 
 
 **Course element:** <br>Most course elements are containers into which a learning resource is inserted. E.g. a learning resource "Test" is inserted into the course element "Test". Please distinguish between these two "Tests"!
 
@@ -36,16 +36,16 @@ Settings (configurations) can be made for each of the elements. The configuratio
 
 
 **Configuration of the course:**<br>
-Authoring > select the course > Administration > Settings
+Authoring > Select the course > Administration > Settings
 
 **Configuration of the course element:**<br>
-Authoring > select the course > Administration > Course editor > select the course element > settings in the tabs
+Authoring > Select the course > Administration > Course editor > Select the course element > Settings in the tabs
 
 **Configuration of the learning resource:**<br>
-Authoring > select the form learning resource > Administration > Settings 
+Authoring > Select the form learning resource > Administration > Settings 
 
 **Configuration of a question:**<br>
-Open the question in the question editor > switch with a click on an element into the edit mode > related options appear 
+Open the question in the question editor > Switch with a click on an element into the edit mode > Related options appear 
 
 <br>
 
@@ -360,7 +360,7 @@ Add more questions according to the same principle. The details of the settings 
 
 ![testerstellung_3_7_v1_de.png](assets/testerstellung_3_7_v1_de.png){ class="lightbox" } 
 
-8\. In edit mode (recognizable by the shaded header) you can now add new questions under **"Add elements "**.
+8\. In edit mode (recognizable by the shaded header) you can now add new questions under **"Add elements"**.
 
 ![testerstellung_3_8_v1_de.png](assets/testerstellung_3_8_v1_de.png){ class="lightbox" } 
 
@@ -405,7 +405,7 @@ Alternatively, you can also use the "Publish" button in the editor on the right 
 You determine which learners get access in the member administration of the course.
 
 19\. Once test results are available, coaches can make assessments in the coaching tool. (Does not apply to self-tests).
-For more information, see chapter "Assingning tests".
+For more information, see chapter "Assinging tests".
 
 <br>
 
@@ -447,4 +447,4 @@ For more information, see chapter "Assingning tests".
 
 - [x] Learning resource "Test" configured?
 
-- [x] Course element "Test" configured?? 
+- [x] Course element "Test" configured?

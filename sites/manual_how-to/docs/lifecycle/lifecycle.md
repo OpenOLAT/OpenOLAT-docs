@@ -17,9 +17,9 @@
 
 In OpenOlat, lifecycle management can be enabled for
 
-* groups 
-* courses
-* user accounts
+* **groups** 
+* **courses**
+* **user accounts**
 
 OpenOlat monitors whether an object has not been used for a long time or a user has not been active for a long time. According to predefined criteria, it sends a message that first enables a reaction and then, for example, manual deletion. Or OpenOlat deletes if necessary also automatically according to set criteria.
 
@@ -38,7 +38,7 @@ Based on these **general** presets, life cycles can then be activated **for indi
 
 ## Group lifecycle
 
-The group lifecycle is managed by group administrators in the menu **Groups > tab "Group management "**<br>.
+The group lifecycle is managed by group administrators in the menu **Groups > tab "Group management"**<br>
 (based on the administrator's preferences).
 
 In the menu **"Groups" > tab "Group management"** click on the big arrows with the description of the steps. The descriptions on the arrows reflect the administrator's default settings.
@@ -53,7 +53,6 @@ In the menu **"Groups" > tab "Group management"** click on the big arrows with t
 <br>
 
 * In the second step (2nd arrow) you will find all already **inactive** groups listed.
-
 * If groups were automatically set to the status "inactive" by the system, it is also possible to reactivate groups here.
 
 ![lifecycle_groups_inactive_v1_en.png](assets/lifecycle_groups_inactive_v1_en.png){ class="shadow lightbox" }

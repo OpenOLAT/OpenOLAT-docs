@@ -9,7 +9,7 @@
 
     [x] Autor:innen [ ] Betreuer:innen  [ ] Teilnehmer:innen
 
-    [ ] Anfänger:innen [x] Fortgeschrittene  [x] Experten/Expertinnen
+    [ ] Anfänger:innen [x] Fortgeschrittene  [x] Expert:innen
 
 
 ??? abstract "Erwartete Vorkenntnisse"
@@ -62,7 +62,7 @@ Wenn das Modul eingeschaltet wurde, ist der API-Endpoint verfügbar, wo alle ver
 
 ![indexieren_zulassen_v1_de.png](assets/indexieren_zulassen_v1_de.png){ class="shadow lightbox" }
 
-2.) Es werden nur Kurse / Lernressourcen berücksichtigt, die den Status „Veröffentlicht“ haben.
+2.) Es werden nur Kurse / Lernressourcen berücksichtigt, die den Status "Veröffentlicht" haben.
 
 ![status_v1_de.png](assets/status_v1_de.png){ class="shadow lightbox" }
 

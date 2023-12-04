@@ -51,21 +51,21 @@ Some quotas can be set individually by users.
 These override the default value set by the administrator and apply, for example, to
 
 * the course element "folder" in a certain course of a certain author.<br>
-**Authoring > select a course > course editor > select course element of type "folder" > tab "Folder configuration" > button "Open folder" > button "Edit quota" at the bottom**
+**Authoring > Select a course > Course editor > Select course element of type "folder" > Tab "Folder configuration" > Button "Open folder" > Button "Edit quota" at the bottom**
 * the file folder of a course (setting by the course author):<br>
-**Authoring > select a course > Administration > Storage folder > button "Edit quota" at the bottom**
+**Authoring > Select a course > Administration > Storage folder > Button "Edit quota" at the bottom**
 ![quota_storage_folder_v1_en.png](assets/quota_storage_folder_v1_en.png){ class="shadow lightbox" }  
 
 <br>
 
 The quota for the personal folder of a specific user can be set in the user administration (with the appropriate authorization as user administrator):<br>
-**User management > select a user > tab "Quota"**
+**User management > Select a user > Tab "Quota"**
 ![quota_user_v1_en.png](assets/quota_user_v1_en.png){ class="shadow lightbox" }  
 
 <br>
 
 The quota for group folders is set in the group administration. It can be set once a group folder has been activated.<br>
-**Groups > Administration > tab "Tools" > Option "Folder" > area "Edit quota" is displayed**
+**Groups > Administration > Tab "Tools" > Option "Folder" > Area "Edit quota" is displayed**
 ![quota_groupfolder_v1_en.png](assets/quota_groupfolder_v1_en.png){ class="shadow lightbox" }
 
 <br>
@@ -74,7 +74,7 @@ Most quotas as well as the default values are set up by the administrator under<
 **Administration > Core functions > Files and folders**
 
 You can find more about this in the administrator manual under
-[„Files and folders"](../../manual_admin/administration/Files_and_Folders.md)
+["Files and folders"](../../manual_admin/administration/Files_and_Folders.md)
 
 <br>
 
@@ -95,7 +95,7 @@ Versioning is available in all folders of the system:
 * group folder
 * course folder
 * resource folder
-* course element 'folder'
+* course element "folder"
 
 <br>
 
@@ -128,13 +128,9 @@ Occasional cleaning up should also be initiated here by a responsible person.
 
 ## Measure 4: Delete files permanently
 
-Wenn Dateien in OpenOlat gelöscht werden, heisst das in vielen Fällen, dass sie zunächst in einen "Papierkorb" gelangen. Die Dateien können aus dem Papierkorb zurück geholt und wiederhergestellt werden. Erst wenn sie (nach nochmaliger Bestätigung) endgültig gelöscht werden, sind sie nicht mehr verfügbar.  
+When files are deleted in OpenOlat, in many cases this means that they are first placed in a "recycle bin". The files can be retrieved from the recycle bin and restored. Only when they are finally deleted (after confirmation) are they no longer available.
 
-Der Speicherplatz wird bei Dateien "im Papierkorb" weiterhin benötigt. Erst das endgültige Löschen reduziert den benötigten Speicherplatz.
-
-When files are deleted in OpenOlat, in many cases this means that they first go into a "recycle bin". The files can be retrieved from the recycle bin and restored. Only when they are finally deleted (after confirmation again), they are no longer available.  
-
-The storage space is still needed for files in the "recycle bin". Only the final deletion reduces the required storage space.
+The storage space is still required for files "in the recycle bin". Only the final deletion reduces the required storage space.
 
 <br>
 
@@ -198,15 +194,15 @@ administrators can search specifically for large files and view further details 
 
 In OpenOlat, lifecycle management can be enabled for.
 
-* course lifecycle
-* group lifecycle
-* user lifecycle
+* **course lifecycle**
+* **group lifecycle**
+* **user lifecycle**
 
 OpenOlat monitors whether an object has not been used for a long time or a user has not been active for a long time. According to predefined criteria, it sends a message that first enables a reaction and then, for example, manual deletion. Or OpenOlat deletes if necessary also automatically according to set criteria.
 
 
 Detailed information on life cycle management can be found at<br>
-[„How do I manage lifecycles of groups, courses or user accounts?"](../lifecycle/lifecycle.md)
+["How do I manage lifecycles of groups, courses or user accounts?"](../lifecycle/lifecycle.md)
 
 ---
 
