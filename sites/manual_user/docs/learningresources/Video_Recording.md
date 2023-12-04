@@ -98,7 +98,7 @@ In order to control the memory consumption by videos of the course participants,
 After a video has been recorded, OpenOlat adjusts the image size, resolution and quality to the preset standards. This **transcoding** is carried out automatically by OpenOlat and the videos are then saved according to the default settings. This ensures that the videos are displayed in a suitable aspect ratio and that the file size is optimized for storage.
 
 
-## ## How much storage space is available for my videos??
+## How much storage space is available for my videos??
 
 Example: Media Center<br>
 In the bottom left-hand corner, you can see the available storage space (for the entire Media Center) and how much of it is already occupied. The available space can be determined by the administrator.

@@ -9,8 +9,6 @@
 * Auf der Gegenseite muss in OpenOlat die **Möglichkeit zu Audioaufnahmen** durch den/die Administrator:in aktiviert worden sein:<br>
 **Administration > Module > Audio-/Videoaufnahmen**
 
-
-
 ## Wo können in OpenOlat Audios aufgenommen werden?
 
 ### Aufnahme im Medien Center
@@ -22,7 +20,6 @@ Unter den Möglichkeiten zum Hinzufügen neuer Mediendateien befindet sich auch 
 
 ![audio_recording_mediacenter_v3_de.png](assets/audio_recording_mediacenter_v3_de.png){ class=" shadow lightbox" }
 
-
 ### Aufnahme im Kursbaustein Seite
 
 Im Kursbaustein Seite kann innerhalb eines Layout-Elements auch ein Audio eingefügt werden. 
@@ -33,19 +30,15 @@ Hat man sich dafür entschieden, erscheint ein Popup zur Auswahl eines vorhanden
 
 ![audio_recording_page_add_v3_de.png](assets/audio_recording_page_add_v3_de.png){ class=" shadow lightbox" }
 
-
 ### Aufnahme im Kursbaustein HTML-Seite
 
 Der in OpenOlat verwendete HTML-Editor (Tiny) wird auch für das Einfügen und Aufzeichnen von Audios verwendet. Die Option zum Aufzeichnen eines Audios befindet sich unter den Werkzeugen, die auch zum Einfügen bereits vorhandener Medien verwendet werden.  
 
 ![audio_recording_html_editor_v3_de.png](assets/audio_recording_html_editor_v3_de.png){ class=" shadow lightbox" }
 
-
 !!! Note "Hinweis"
 
     Im HTML-Editor sind Audioaufnahmen zwar prinzipiell möglich, an manchen Stellen werden bei Aufruf des Editors aber aus verschiedenen Gründen nicht alle Bearbeitungsmöglichkeiten angeboten. Es kann also sein, dass beim Aufruf des HTML-Editors die Option zum Aufzeichnen eines Audios angeboten wird, bei einem Aufruf von anderer Stelle aus nicht. 
-
-
 
 ### Aufnahme im Kursbaustein Aufgabe
 
@@ -57,12 +50,9 @@ Die Möglichkeit zu Videoaufnahmen in einer Aufgabe ist in den Workflow eingebet
 
 Für Videoaufnahmen, die im Kursbaustein "Aufgabe" aufgezeichnet werden, besteht aktuell keine Möglichkeit zur Speicherung und Verlinkung im Medien Center.
 
-
 ### Aufnahme im Kursbaustein Gruppenaufgabe
 
 Die Audioaufnahme im Kursbaustein "Gruppenaufgabe" funktioniert wie im Kursbaustein "Aufgabe".
-
-
 
 ## Wo werden die Audioaufnahmen gespeichert?
 
@@ -72,7 +62,6 @@ Die Aufnahmen sind nicht im Autorenbereich, Ablageordner oder im Medien Center a
 ![audio_recording_task_storage_v3_de.png](assets/audio_recording_task_storage_v3_de.png){ class=" shadow lightbox" }
 
 Wird dagegen die **Audioaufnahme im Medien Center** gestartet, wird das Audio auch im Medien Center gespeichert.
-
 
 ## In welchem Format und welcher Qualität werden Aufnahmen gespeichert?
 
@@ -91,16 +80,13 @@ In der linken unteren Ecke sehen Sie den verfügbaren Speicherplatz (für das ge
 
 ![audio_recording_space_v3_de.png](assets/audio_recording_space_v3_de.png){ class=" shadow lightbox" }
 
-
 ## Wie lassen sich Audiaufnahmen exportieren?
-
 
 ### Download aus dem Kursbaustein Aufgabe und Gruppenaufgabe
 
 Sowohl Audioaufnahmen aus Aufgabenstellung als auch Audioaufnahmen in der Musterlösung können direkt im Kursbaustein heruntergeladen werden. Verwenden Sie dazu die Option unter den 3 Punkten am Ende einer Zeile. 
 
 ![audio_recording_task_download_v3_de.png](assets/audio_recording_task_download_v3_de.png){ class=" shadow lightbox" }
-
 
 ### Download aus dem Medien Center
 
