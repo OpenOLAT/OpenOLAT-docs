@@ -33,10 +33,7 @@ Mit Hilfe des Kursbausteins „LTI-Seite“ können Sie externe Lernapplikatione
 
 Die folgenden Parameter können im Kursbaustein konfiguriert werden:
 
-<details>
-    <summary>Screen</summary>
-	<img src="../assets/course_element_lti_page_content_v1_de.png" />
-</details>
+![course_element_lti_page_content_v1_de.png](assets/course_element_lti_page_content_v1_de.png){ class=" shadow lightbox" }
 
 **LTI Version:** Wir empfehlen die aktuelle Version LTI 1.3 Aus Kompatibilitätsgründen kann jedoch auch die ältere Version gewählt werden. 
 

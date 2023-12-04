@@ -35,10 +35,7 @@ and password.
 
 The following parameters can be configured:
 
-<details>
-    <summary>Screen</summary>
-	<img src="../assets/course_element_lti_page_content_v1_de.png" />
-</details>
+![course_element_lti_page_content_v1_de.png](assets/course_element_lti_page_content_v1_de.png){ class="shadow lightbox" }
 
 **LTI-Version:** We recommend the current version LTI 1.3 However, for compatibility reasons, the older version can also be selected.
 
