@@ -2,14 +2,6 @@
 
 :octicons-tag-24: Release 15.5
 
-## Basics
-
-Important terms in LTI terminology:
-
-**Platform**: (corresponds to client) LMS in which the external content is integrated <br>
-**Tool**: (corresponds to host) LMS or other application that makes content available to others
-
-![LTI_share_groups_platform_tool_v1_de.png](assets/LTI_platform_tool_v1_de.png){ class="lightbox" }
 
 ## OpenOlat as "Tool"
 
