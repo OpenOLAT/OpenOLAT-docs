@@ -7,7 +7,7 @@ Im Menü des Kurseditors haben Sie Zugriff auf weiteren Konfigurationstools in d
 ## Administration
 
 Über die Administration des Kurses haben Sie Zugriff auf diverse weitere Kurswerkzeuge. Informationen dazu
-finden Sie unter "[Einsatz der Kurswerkzeuge](../learningresources/Using_Course_Tools.de.md)"
+finden Sie unter "[Einsatz der Kurswerkzeuge](../learningresources/Using_Course_Tools.de.md)".
 
 
 ## Kursbaustein einfügen
@@ -60,7 +60,7 @@ Um Anpassungen vorzunehmen wählen sie die gewünschten Kursbausteine aus und es
     Die Spalten zeigen _nicht die Bewertungen_ für einzelne Personen an, sondern geben lediglich einen Überblick über die Konfiguration der Bausteine. Sollen Punkte vergeben oder ein bestanden/nicht bestanden werden, erfolgt dies im "[Bewertungswerkzeug](../learningresources/Assessment_tool_overview.de.md)" des Kurses.
 
 
-## Kursvorschau {: #preview} (nur für herkömmliche Kurse)
+## Kursvorschau (nur für herkömmliche Kurse) {: #preview} 
 
 Das Editorwerkzeug "Kursvorschau" gibt  die Möglichkeit, die Kurseinstellungen und Inhalte aus der Sicht von Kursteilnehmenden zu betrachten. Mit Klick auf "Kursvorschau" wird Ihnen zunächst ein
 Konfigurationsmenu angezeigt, um das Betreten des Kurses zu einem bestimmten
@@ -138,7 +138,7 @@ Schritt 1 - Kursbausteine wählen: Wählen Sie alle Kursbausteine aus, die Sie g
 Schritt 2 - Änderung des Kurszugriffs: Hier erhalten Sie Zugang zu den generellen
 Veröffentlichungsoptionen eines Kurses. Bestimmen Sie, welche OpenOlat-
 Benutzer Zugriff auf Ihren Kurs haben sollen. Lesen Sie im Kapitel
-„[Kurseinstellungen](Course_Settings.de.md)“ welche  Optionen Ihnen hier zur
+"[Kurseinstellungen](Course_Settings.de.md)" welche  Optionen Ihnen hier zur
 Verfügung stehen. Nach diesem Schritt kann der Vorgang des Publizierens
 bereits abgeschlossen werden. Klicken Sie dazu auf "Fertigstellen".
 

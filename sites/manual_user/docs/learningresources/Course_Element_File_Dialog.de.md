@@ -31,7 +31,7 @@ Nach Klick auf den Button "Dateidiskussion erstellen" werden Sie aufgefordert, e
 
 !!! note "Hinweis"
 
-    Wird Ihnen kein Button „Dateidiskussion erstellen“ angezeigt, wurde vom Kursbesitzer eine entsprechende Restriktion eingerichtet. Siehe Abschnitt „Wer kann Dateien hochladen?“
+    Wird Ihnen kein Button "Dateidiskussion erstellen" angezeigt, wurde vom Kursbesitzer eine entsprechende Restriktion eingerichtet. Siehe Abschnitt "Wer kann Dateien hochladen?"
 
 Es ist möglich, innerhalb des gleichen Kursbausteins "Dateidiskussion" mehrere Dateien als Ausgangspunkt von Diskussionen anzulegen.
 

@@ -122,6 +122,6 @@ Das To-do erscheint dann nur noch unter Tab "Alle" und Tab "Erledigte".
 
 ## To-dos löschen
 
-Zum Löschen eines To-do’s klicken Sie auf die 3 Punkte am Ende einer Zeile und dann auf "Löschen". Das To-do erscheint dann nur noch unter dem Tab "Gelöscht“. Es kann nicht wiederhergestellt werden.
+Zum Löschen eines To-do’s klicken Sie auf die 3 Punkte am Ende einer Zeile und dann auf "Löschen". Das To-do erscheint dann nur noch unter dem Tab "Gelöscht". Es kann nicht wiederhergestellt werden.
 
 ![projekte_todo_loeschen_v1_de.png](assets/projekte_todo_loeschen_v1_de.png){ class="shadow lightbox" }

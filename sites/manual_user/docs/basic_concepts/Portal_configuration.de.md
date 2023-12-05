@@ -9,8 +9,8 @@ in welcher Anordnung angezeigt werden sollen.
 
 Wenn Sie beispielsweise vorwiegend mit Gruppen arbeiten und deshalb den
 Abschnitt "Meine Gruppen" etwas prominenter platzieren möchten, klicken Sie
-oben rechts auf "Seite anpassen". Verschieben Sie den Abschnitt „Meine
-Gruppen“ mit Hilfe der Pfeile an den gewünschten Ort.
+oben rechts auf "Seite anpassen". Verschieben Sie den Abschnitt "Meine
+Gruppen" mit Hilfe der Pfeile an den gewünschten Ort.
 
 Weiter können Sie bestimmen, wie viele Einträge innerhalb eines Abschnittes
 angezeigt werden sollen. Um solche Anpassungen vorzunehmen, klicken Sie auf

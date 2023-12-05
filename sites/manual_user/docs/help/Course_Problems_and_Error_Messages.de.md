@@ -62,6 +62,6 @@ zugänglich sind.
 
 Wenn Sie einen Kurs bearbeiten und die Meldung bekommen, der Kurs wäre
 verändert worden, hat der Besitzer im Hintergrund den Kurs gerade aktualisiert
-und neu publiziert. Klicken Sie auf „Kurs schliessen und neustarten“, um zur
+und neu publiziert. Klicken Sie auf "Kurs schliessen und neustarten", um zur
 aktualisierten Version des Kurses zu gelangen.
 

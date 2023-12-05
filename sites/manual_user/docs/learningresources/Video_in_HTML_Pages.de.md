@@ -12,12 +12,12 @@ hochgeladene videos oder Links z.B. in Youtube
 keine Video-Lernressourcen (also ohne Annotationen, Quiz, usw.)
 
 ### Videorecording
-siehe ...
+Siehe [Videorecording](../learningresources/Video_Recording.de.md)
 
 ### Audiorecording
-siehe ..
+Siehe [Audiorecording](../learningresources/Audio_Recording.de.md)
 
-x x x 
+--- 
 
 Für die weitere Bearbeitung von HTML-Seiten können Sie den OpenOlat Editor nutzen. Er funktioniert ähnlich wie ein Textverarbeitungsprogramm. Eine automatisch erstellte Datei trägt bereits den Namen des Kurselements. Einmal angelegt, öffnen Sie die HTML-Datei mit dem Link "Seite bearbeiten" und Sie gelangen in den OpenOlat HTML Editor.
 

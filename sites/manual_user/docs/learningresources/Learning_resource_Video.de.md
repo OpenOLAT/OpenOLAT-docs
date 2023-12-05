@@ -62,8 +62,8 @@ Segmente werden im Kursbaustein Videoaufgabe benötigt. Es sind Videoabschnitte,
 **Segmente erstellen**
 
 1. Wählen Sie im Autorenbereich das gewünschte Video aus.
-2. Öffnen Sie dann unter „Administration“ den Videoeditor.
-3. Im Videoeditor wählen Sie den Tab „Segmente“.
+2. Öffnen Sie dann unter "Administration" den Videoeditor.
+3. Im Videoeditor wählen Sie den Tab "Segmente".
 4. Eingefügte Segmente werden in der Timeline in einer separaten Spur angezeigt. (Sie können sich nie überlappen.)
 
 !!! hint "Tipps"
@@ -74,10 +74,10 @@ Segmente werden im Kursbaustein Videoaufgabe benötigt. Es sind Videoabschnitte,
 **Segmente im Kursbaustein aktivieren**
 
 1. Wählen Sie im Autorenbereich den Kurs aus, in den die Video-Lernressource eingefügt werden soll.
-2. Öffnen Sie unter „Administration“ den Kurseditor.
+2. Öffnen Sie unter "Administration" den Kurseditor.
 3. Wählen Sie den Kursbaustein aus oder fügen Sie einen neuen Kursbaustein ein (Video oder Videoaufgabe).
-4. **a) Kursbaustein „Videoaufgabe“**:<br> Im Tab „Konfiguration“ finden Sie den Abschnitt „Videoelemente anzeigen“. Dort müssen Sie die Segmente aktiviert finden, denn eine Videoaufgabe braucht zwingend Segmente.<br>
-**b) Kursbaustein „Video“**:<br> Im Tab „Lerninhalt“ finden Sie den Abschnitt „Videoelemente anzeigen“. Dort können Sie die Anzeige der Segmente ein- oder ausblenden.
+4. **a) Kursbaustein "Videoaufgabe"**:<br> Im Tab "Konfiguration" finden Sie den Abschnitt "Videoelemente anzeigen". Dort müssen Sie die Segmente aktiviert finden, denn eine Videoaufgabe braucht zwingend Segmente.<br>
+**b) Kursbaustein "Video"**:<br> Im Tab „Lerninhalt“ finden Sie den Abschnitt "Videoelemente anzeigen". Dort können Sie die Anzeige der Segmente ein- oder ausblenden.
 
 ### Kommentare
 

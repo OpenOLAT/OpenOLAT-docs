@@ -7,54 +7,72 @@ Name | HTML-Page
 Icon | ![HTML page Icon](assets/single_page.png){ class=size24 }
 Available since | New edition with release 18
 Functional group | Knowledge transfer
-Purpose | Presentation of different content elements (text, images, videos) within a HTML page
+Purpose | Presentation of different content elements (text, images, videos) within an HTML page
 Assessable | no
-Specialty / Note | 
+Specialty / Note | To integrate Office documents, please use the "Document" course element.
 
-In the course element "Single page" you can insert various files in your course. In this way you can, for example, provide central information, the course schedule or literature tips for your course or place content such as pictures or videos precisely in the course. The files themselves are created in the [storage folder](../learningresources/Storage_folder.md) of the course.
+The course element is used to display **texts, images and videos** (Knowledge Transfer) as shown on websites.
 
-!!! info "Info"
+In the course element "HTML page", an **HTML file** is embedded as a **learning resource**.<br>
+You can design an HTML page in the **HTML editor**, which you can find in the tab "page content". The used files, as well as the HTML file itself, are put in the [Storage folder](../learningresources/Storage_folder.md) of the course. 
 
-    For integrating Office documents please use the course element "[Document](Knowledge_Transfer.md)".
+## Example
 
-  ## Tab Page content
+=== "View in course"
+
+    An HTML page can be designed primarily with images, text, tables and videos. Advanced authors can also insert HTML elements such as Accordion.
+
+    ![course_element_html_page_run_view_v1_de.png](../assets/course_element_html_page_run_view_v1_de.png){ class="shadow lightbox" }
+
+=== "Editing in editor"
+
+    The compilation of content works in a similar way to a word processing program. The Tiny editor is used to edit HTML files directly in OpenOlat.
+
+    (Note: In the "Page" course element, on the other hand, the content editor is used, in which the content is compiled as blocks => Improved display on mobile devices)
+
+    ![course_element_html_page_editor_view2_v1_de.png](../assets/course_element_html_page_editor_view2_v1_de.png){ class="shadow lightbox" }
+
+=== "HTML source code"
+
+    Authors with HTML knowledge can also view and edit the generated HTML source code directly.
+
+    ![course_element_html_page_sourcecode_view_v1_de.png](../assets/course_element_html_page_sourcecode_view_v1_de.png){ class="shadow lightbox" }
+
+
+
+## Tab Page content
 
 Here you carry out the central configuration of this course element. There are three possibilities to embed a page's content in your course:
 
   * Create new HTML page online
   * Select any file from the storage folder
-  * Upload file in storage folder
+  * Upload an externally created HTML file to the storage folder and link it to the course element
 
-For further editing of HTML pages you can use the OpenOlat Editor. It works similar to a word processing program. The automatically created file when you create a page for the first time already has the name of the course element. Once created, open the file with the link "Edit page" and you will get to the OpenOlat HTML Editor.
+![course_element_html_page_tab_pagecontent_v1_de.png](assets/course_element_html_page_tab_pagecontent_v1_de.png){ class="shadow lightbox" }
 
-![html editor](assets/html_editor.png)
+For **further editing** of HTML pages you can use the OpenOlat Editor. It works similar to a word processing program. The automatically created file when you create a page for the first time already has the name of the course element. Once created, open the file with the link "Edit page" and you will get to the OpenOlat HTML Editor.
 
-In the HTML editor you can insert links to pictures, videos, the individual course elements of the course and to the tools in the [toolbar](../learningresources/Using_additional_Course_Editor_Tools.md) in addition to the different formatting.
+Under "**Security settings**" you can specify whether references in your HTML pages are only possible to files in the same folder and to subfolders contained therein, or whether all files in the storage folder can be referenced. This is necessary, for example, if your HTML page contains graphics, CSS files or scripts that are located in other folders.
 
-You can also upload files that you have previously created to the storage folder of the course and link them with the help of the course element. The link "Select" shows you all files in the folder. Then you can link these files via the course element "Single page" and integrate them into your course. This method is recommended if you want to influence the structure of the folder yourself.
-
-With the "Single page", videos and audios can be integrated into the course in various ways. Detailed information can be found [here](../learningresources/Single_Page_Add_edit_video.md).
-
-The Files can also be swapped later.
-
-!!! warning "Attention"
-
-    Avoid opening or saving HTML pages that have been created by means of an external editor with the OpenOlat HTML editor; part of your formatting could be lost. The OpenOlat HTML editor contains only the < body > area of an HTML page. If entries are to be made in HTML < head >, this must be done in an external editor.
-
-Under "Security Settings" you can specify whether references in your HTML pages are only possible to files in the same folder and its subfolders, or whether all files in the storage folder can be referenced. This is necessary, for example, if your HTML page contains graphics, CSS files, or scripts located in other folders.
-
-Furthermore, you can define under "Security Settings" whether coaches are allowed to edit the stored HTML file. The coaches do not need any coach rights or access to the course editor.
+You can also define **whether coaches are allowed to edit the stored HTML file**. The coaches do not need course owner rights or access to the course editor.
 
 ## Tab Layout {: #layout}
 
-In the "**Layout**" tab you can define the settings for the display of page contents. Here you determine whether the page should be displayed unaltered, or optimized for OpenOlat. The display mode "Optimized for OpenOlat" allows you to e.g. apply the course layout to the page content, or to enable the course [glossary](../learningresources/Using_Additional_Course_Features.md#glossary).
+In the "**Layout**" tab you can define the settings for the display of page contents. Here you determine whether the page should be displayed unaltered, or optimized for OpenOlat. The display mode "Optimized for OpenOlat" allows you to e.g. apply the course layout to the page content, or to enable the course [Glossary](../learningresources/Using_Additional_Course_Features.md#glossary).
 
-The following settings can be made for the course element "Single page". 
+![course_element_html_page_tab_displaycontent_v1_de.png](assets/course_element_html_page_tab_displaycontent_v1_de.png){ class="shadow lightbox" }
+
+The following settings can be made for the course element "HTML page". 
+
 
 
 **Display mode:** 
 
-Select the mode "Standard" to display the resource unmodified. This mode is useful for resource that encounter render issues when using the mode "Optimized for OpenOlat", usually content not created with the OpenOlat editor, such as HTML5 content. Use the mode "Optimized for OpenOlat" when you want to embed the course layout, a JavaScript library, the OpenOlat glossary or when you want to use the automatic height detection of the page. In case of SCORM modules the mode "Standard" is recommended.
+Select the mode "Standard" to display the resource unmodified. This mode is useful for resource that encounter render issues when using the mode "Optimized for OpenOlat", usually content not created with the OpenOlat editor, such as HTML5 content.
+
+Use the mode "Optimized for OpenOlat" when you want to embed the course layout, a JavaScript library, the OpenOlat glossary or when you want to use the automatic height detection of the page.
+
+In case of SCORM modules the mode "Standard" is recommended.
 
  **Embed Javascript library:**
   
@@ -85,143 +103,143 @@ of a predefined character set (by default the same set will be used for content 
 
     As a rule, no changes are necessary in the "Layout" tab. The default settings are suitable for 90% of the courses.
 
-## Multiple single pages
+## The HTML editor
 
-![wizard icon](assets/wizard_434343_64.png)
+The **HTML editor Tiny MCE** is integrated at all points in OpenOlat where HTML pages are created and edited.
 
-With this option you can easily add and organize single pages in the course and quickly make the files visible in the course structure. Clicking on "Multiple Single Pages" opens the folder with all available files for the course. You can now select all files at once that you want to add directly as a single page. You can also decide whether the selected files should be inserted after or as subfolders of the current course element. The order can be changed afterwards.
+![course_element_html_page_editor_v1_en.png](assets/course_element_html_page_editor_v1_de.png){ class="shadow lightbox" }
 
-This function is useful if you have already created several HTML files or complex hypermedia files externally and stored them in the [Storage folder](../learningresources/Storage_folder.md) of the course. For complex pages with various links to graphics, etc., make sure to activate the option "Allow links in the entire storage folder". Furthermore you should name the file names as they should appear later in the course, because the file name is used as course element title.
+This externally developed editor is also open source. Further information can be found on the website: [https://www.tiny.cloud](https://www.tiny.cloud)
 
-Several individual pages can also be bundled very well with a [Course element "Structure"](Course_Element_Structure.md). This way, overview pages can be created automatically for the respective contents and the individual pages can be better structured.
+!!! info "Note"
 
-## Single Page: Add / edit video
+    The Tiny editor can be called up from OpenOlat with default settings. The **available editing options** (buttons offered in the editor) can thus be adapted to the usage situations.
 
-![video_icon.png](assets/add_video.png)
+    **Example:**<br>
+    In an HTML page for a course element, it is an enrichment that the option to record a video is offered when the HTML editor is called up. There are other places where the HTML editor is used where video recording is not useful or desirable. The option for video recording is not displayed there when the editor is opened.
 
-Another possibility to include videos in OLAT courses is to use the course element "**Single page**".
 
-In the course element "Single page" you will find an editor which you can use to integrate videos into the single page. In the tab "Page content" you can open the editor and get to the button "Add / edit video".
+!!! info "Note"
 
-![add_video_button.png](assets/SinglePage_Video_EN.png)  
+    For security reasons, not all HTML options can be made available. This applies in particular to integrated Javascript.
 
-For the display, the tool uses the media player integrated in OpenOlat, which has some advantages.
 
-1. The player automatically detects the format, as long video and audio tracks are encoded correctly.  
-2. The player detects whether the user accesses the video with a HTML5 enabled and codec compatible mobile browser. If so, videos will receive a HTML5 tag and can be viewed without difficulty on iPad or similar devices.
+## Elements and design of an HTML page
 
-!!! tip "Hint"
+The main available elements are described below.
 
-    You can also add a startup image (preview) to your media file.
+### Formatting
 
-This chapter provides you with the key information for using the "Add/edit video" plugin in TinyMCE (Supported are: FLV, MP4 (h264 coded), and AAC).
+These include, for example
 
-### Recommended format
+* Fonts (they can be set individually or selected from predefined standards, e.g. h2)
+* Enumerations (with dots or numbers. For HTML experts: with ul, ol)
+* Indentations
+* etc.
 
-The **mp4** container using the H.264 video codec and the **mp3** audio codec is widely established and accepted. Current releases of Win IE, Firefox, Chrome and Safari are capable of playing videos encoded in such a way.
 
-These are the options available to you:  
+### Video
 
-![video_types.pngg](assets/Video_Audio_Typen_EN.png)  
+![course_element_html_page_editor_menu_v1_de.png](assets/course_element_html_page_editor_menu_v1_de.png){ class="shadow lightbox" }
 
-| Option | Description  
----|---  
-Video | Embed a video with specific encoding.  
-Sound | Embed a sound file without video.  
-YouTube / Vimeo / Nanoo.tv | Embed a youtube / vimeo / nanoo.tv video.  
-http | Stream a flash file from a specific web server type.  
-rtmp | Stream a flash file from a specific streaming server.  
-  
-#### Video (.FLV, .F4V, .MP4, .M4V (h264 coded), .AAC and .M4A)
+The tool uses the media player integrated in OpenOlat for the display, which has several advantages.
 
-This setting is best suited for integrating videos in OpenOlat. Use the following container formats for uploading videos:
+1. The player recognizes the format itself as long as the video and audio data are encoded correctly.
+2. The player recognizes whether a user is accessing the video with an HTML-capable and codec-compatible mobile browser. In this case, the films are provided with an HTML5 tag and can also be displayed on an iPad or similar without any problems.
 
-| Format container | Container description |Description   | 
-| ---|---|---  |
-|  .FLV | Flash Container | Flash videos containing video and audio tracks, defined by Adobe    
-  .F4V||No container, but a pure video format without sound, defined by Adobe    
-  .MP4|MPEG-4|MP4 video and sound format, defined by MPEG (Moving Picture Experts Group), various codecs  
-  .M4V|MPEG-4|MP4 video format containing H.264 video codec as well as either MP3 or AAC audio codec; iTunes format  
-  
-You can either add the link to the video in the address field or upload the video.
+!!! info "Note"
+
+    Videos embedded here in HTML are simply played. They are not OpenOlat video learning resources. (They are therefore without annotations, quizzes, etc.)
+
+    If video learning resources are to be used, there is a separate "Video" course element for this.
+
+Video files can be uploaded (and saved in OpenOlat) or links to external videos (e.g. YouTube) can be set.
+
+Video files inserted in the course module can also be replaced later if required.
+Detailed information on integrating videos can be found here: ["Videos in HTML pages"](../learningresources/Video_in_HTML_Pages.md).
+
 
 !!! tip "Hint"
 
-    To ensure optimum compatibility, best use a MPEG-4 container with a H.264 encoded video track and either an AAC or MP3 encoded sound track. 
-    
-    This provides you with either the .mp4 or the .m4v file extension - but keep in mind that not all devices can play a .m4v file. 
-    
-    We advise against using flash movies, as many portable devices such as e.g. the iPad generally do not support flash movies.
+    You can also add a start image (preview) to your media file.
 
-##### Sound (.MP3)
 
-The player only offers limited functions when embedding mere sound files. Available functions are start, stop and the progress bar, but other functions such as full screen are missing. 
+### Video recording
 
-In the "Address" field you can either enter a link to an mp3 file or upload a file to OpenOlat. 
+See ["Video Recording"](../learningresources/Video_Recording.md).
 
-!!! check ""
 
-    Established browsers **all** fully support playback of mp3 audio files.
+### Music (.mp3)
 
-#### YouTube  
+When integrating audio-only files, only limited functions are available in the player. You can start, stop and have a progress indicator. Functions such as full screen are missing here.
 
-YouTube movies are linked directly, thus bypassing the upload selection field. Videos are **directly embedded** this way.  
+In the "Address" field, you can either enter a link to an mp3 file or upload a file to OpenOlat.
 
-![embed_youtube.png](assets/youtube_embed_DE.png)  
 
-Use the direct link to the video, available under "**Share**".
+### Audio recording
 
-![share_youtube.png](assets/youtube_share.png)
+See ["Audio Recording"](../learningresources/Audio_Recording.md).
 
-#### Vimeo
 
-Vimeo movies are also linked directly. Enter the link to the desired movie in the "Address" field.  
+### Images
 
-![embed_vimeo.png](assets/vimeo_embed_EN.png)
+The usual formats can be used (png, jpg, ...). You can also specify the display size and orientation.
 
-The direct link to the vimeo video can be found when following the "**Share**" link in the homepage.
 
-![share_vimeo.png](assets/vimeo_share_EN.jpg)
+### Mathematical formulas
 
-#### Nanoo.tv
+In OpenOlat we use **Mathjax** to display formulas.
 
-Videos from the [Nanoo.tv](https://portal.nanoo.tv/) platform can be linked directly. A Nanoo.tv account is required to use and display the videos.
 
-![nanootv.png](assets/Nanoo_tv_EN.png)
+### Emoticons
 
-The URL can be used to control whether the video starts automatically or not. Therefore the URL behind /link/ has to be adjusted accordingly.
+Choose emoticons as you are used to from social media.
 
-  * start automatically with "n": https://www.nanoo.tv/link/ **n** /sdxpLoaC
-  * start manually with "v": https://www.nanoo.tv/link/ **v** /sdxpLoaC
 
-The settings in the tab "Advanced" do not work here.
+### Hyper links
 
-#### http (pseudo) streaming server (only .FLV)
+Links to the Internet and within OpenOlat (certain course elements, also in other courses) can be inserted.<br>
+The links can point to images, videos or the tools in the [Toolbar](../learningresources/Using_Additional_Course_Features.md).<br>
+Select whether the link should be displayed in the OpenOlat course content or in a new window.
 
-This function allows you to integrate **flash movies** with the **.flv** format. Once a movie is correctly exported at its origin, an index is added. Utilizing this index, users can jump to any spot at will without completely loading the movie. This is not a proper streaming though, as it would require an appropriate streaming software installed on the server.
+### PDF files
 
-Enter the server address in the field "Streaming server". "Address" contains the address of the actual movie.  
+!!! tip "Recommendation"
 
-!!! warning "Attention"
+    In principle, it is also possible to display PDF and Office documents in an HTML page. If only Office documents are to be integrated, we recommend using the course elements ["Document"](../learningresources/Course_Element_Document.md) or ["Folder"](../learningresources/Course_Element_Folder.md). This method is recommended if you want to influence the structure of the filing folder yourself.
 
-    We **do not recommend** this option, as videos embedded in such a way cannot be viewed on the iPad.   
 
-#### rtmp streaming server
+### Upload externally created HTML pages
 
-This function enables you to use a flash streaming server. It requires a particular protocol, the so-called RMTP - Real Time Messaging Protocol. Various products are available to be employed as streaming servers, e.g. from the Akamai network.
+!!! tip "Hint"
 
-This protocol, developed by Adobe, permits the transmission of the video from the server to the flash player. It's common though to encounter problems with port settings and firewalls.  
+    You can also upload externally created files to the **storage folder** of the course or link a **resource folder** to the course and the storage folder. Click on the "Select" link to display all the files in the storage folder. You can then link these files via the "HTML page" course element and integrate them into your course. This method is recommended if you want to influence the structure of the storage folder yourself.
 
 !!! warning "Attention"
 
-    We **do not recommend** this option, as videos embedded in such a way cannot be viewed on the iPad.  
+    Do not open and save HTML pages that you have created with an external editor using the built-in HTML editor, as this may cause parts of the formatting to be lost. The OpenOlat HTML editor only contains the < body > area of an HTML page. If entries are to be made in the HTML < head >, this must be done in an external editor.
 
-    Since Flash is no longer supported by most browsers or only to a very limited extent, the use of Flash-based videos should generally be avoided.
 
-  
+## Differences: KB page - KB HTML page
 
-#### HTML5 Video
 
-OpenOlat also supports HTML5 videos embedded into a html page with external tools. This requires the author though to add different alternative video formats to the html tags (such as m4v and ogg) and file those in variable resolutions in OpenOlat, if necessary.  
+|                        | KB page                       | KB HTML page                  |
+| -----------------------| ------------------------------ | ------------------------------ |
+| Creation of the content | in Content Editor              | in HTML editor                 |
+| Design             | block-based approach          | HTML page                     |
+| Production effort     | lower, as pre-structured   | mostly higher                 |
+| Preview               | directly in editor               | separate tab "Display content" |
+| Media                 | in Media Center               | in the storage folder                |
+| Editing can be allowed for coaches  | :material-check: | :material-check:      |
+| Extended authorizations                    | :material-check: | :material-cancel:     |
+| Integration pdf        | :material-check:               | :material-check:               |
+| Integration office files | :material-check:         | :material-cancel:              |
+| Integration draw.io diagrams        | :material-check: | :material-cancel:     |
 
-In this case, OpenOlat supports pseudo streaming through progressive download respectively range requests.
+
+
+!!! info "Info"
+
+    The HTML page course element can be edited by course owners or optionally also by coaches.
+
+

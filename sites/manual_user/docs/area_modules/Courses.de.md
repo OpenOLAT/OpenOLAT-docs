@@ -38,4 +38,4 @@ Der OpenOlat Katalog ähnelt einem Vorlesungsverzeichnis in Papierform. Der Aufb
 
 ## Curriculum
 
-Verfügt ein User auch über Kurse, die einem [Curriculum](Curriculum_Management.de.md)zugeordnet sind, erscheint im Menü "Kurse" auch der Bereich "Lehrgänge".
+Verfügt ein User auch über Kurse, die einem [Curriculum](Curriculum_Management.de.md) zugeordnet sind, erscheint im Menü "Kurse" auch der Bereich "Lehrgänge".

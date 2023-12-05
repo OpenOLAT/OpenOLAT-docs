@@ -49,6 +49,7 @@ c) Extra: Extra Informationen
 d) Erklärung: weitere Erläuterungen z.B. ob dieses Element optional ist.
 
 Die Vorlage enthält Informationen für den Import der folgenden Fragetypen:
+
 * FIB (Lückentext)
 * Numerical (Numerische Eingabe)
 * MC (Multiple Choice)

@@ -15,7 +15,7 @@ Die OpenOlat-User finden den Katalog im **Menü der Kopfzeile**.
 
 ![catalog20_kopfzeilenmenu_v1_de.png](assets/catalog20_kopfzeilenmenu_v1_de.png){ class="shadow lightbox" }
 
-Voraussetzung: Der Katalog muss in der OpenOlat [Administration aktiviert](../../manual_admin/administration/Modules_Catalog_2.0.de.md) worden sein. 
+Voraussetzung: Der Katalog muss in der OpenOlat [Administration](../../manual_admin/administration/Modules_Catalog_2.0.de.md) aktiviert worden sein. 
 
 !!! tip "Hinweis"
 

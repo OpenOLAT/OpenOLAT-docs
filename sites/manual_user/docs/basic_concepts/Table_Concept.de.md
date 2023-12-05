@@ -1,6 +1,6 @@
 # Mit Tabellen arbeiten
 
-Die Tabellen im Bereich [Kurse](../area_modules/Courses.de.md)und im [Autorenbereich](../area_modules/Authoring.de.md)(für Autoren) bieten verschiedene Filter- und
+Die Tabellen im Bereich [Kurse](../area_modules/Courses.de.md) und im [Autorenbereich](../area_modules/Authoring.de.md) (für Autoren) bieten verschiedene Filter- und
 Einstellungsoptionen.
 
 

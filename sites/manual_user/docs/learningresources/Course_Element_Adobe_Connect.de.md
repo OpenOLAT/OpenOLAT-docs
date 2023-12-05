@@ -51,5 +51,5 @@ Im Tab "Meetings" wird die Übersicht der eingerichteten virtuellen Räume so an
 
     Adobe Connect Anbieter Webseite: <https://www.adobe.com/de/products/adobeconnect.html>
 
-    Da viele Hochschulen in Deutschland den [DFN Server](https://www.conf.dfn.de/anleitungen-und-dokumentation/adobe-connect)für Adobe Connect nutzen, können auch die entsprechenden Informationen interessant sein.
+    Da viele Hochschulen in Deutschland den [DFN Server](https://www.conf.dfn.de/anleitungen-und-dokumentation/adobe-connect) für Adobe Connect nutzen, können auch die entsprechenden Informationen interessant sein.
 

@@ -16,7 +16,7 @@ Like the "Test", the course element "Self-test" uses the learning resource Test 
 
 In contrast to the course element "Test" self-tests are suitable to get practice; results of self-tests will be saved anonymously. Self-tests can be taken as often as needed.
 
-The course element "Self-test" contains learning resources of the type "Test." If you have not generated a test before please follow the instructions in the chapter ["How do I proceed when I create a test"](../../manual_how-to/test_creation_procedure/test_creation_procedure.md).
+The course element "Self-test" contains learning resources of the type "Test." If you have not generated a test before please follow the instructions in the chapter "[How do I proceed when I create a test](../../manual_how-to/test_creation_procedure/test_creation_procedure.md)".
 
 For more information on tests, refer to the chapter "[Configure tests](../learningresources/Configure_tests.md)". The chapter "[Tests at course level](../learningresources/Tests_at_course_level.md)" is particularly relevant here.
 

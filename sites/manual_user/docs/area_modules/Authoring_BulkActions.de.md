@@ -21,7 +21,7 @@ Wählen Sie die gewünschten Lernressourcen aus und klicken Sie auf "E-Mail vers
 
 Fügen Sie einen Betreff und die gewünschte Nachricht hinzu. Bei Bedarf kann noch ein Anhang und eine Kopie für den Absender ergänzt werden.
 
-!!! info „Hinweis“
+!!! info "Hinweis"
 
     Sie können die E-Mail an alle Kurse schicken, die Ihnen angezeigt werden. Dazu gehören auch Kurse, welche für **alle Autoren** sichtbar sind. Sie müssen also nicht zwingend Mitglied des Kurses sein, um diese Funktion zu nutzen.
 
@@ -52,7 +52,7 @@ Bei Kursen besteht darüber hinaus auch die Möglichkeit, eine einheitliche Ausw
 ### 5. Kopieren
 
 Mit dem **Button "Kopieren" über der Tabelle** können Sie **mehrere Lernressourcen** kopieren.<br> 
-Durch Anklicken von „Kopieren“ im **Menü, das unter den 3 Punkten am Ende einer Zeile erscheint**, kopieren Sie eine **einzelne Lernressource**. (Die Lernressource dieser Tabellenzeile.)
+Durch Anklicken von "Kopieren" im **Menü, das unter den 3 Punkten am Ende einer Zeile erscheint**, kopieren Sie eine **einzelne Lernressource**. (Die Lernressource dieser Tabellenzeile.)
 
 Wählen Sie eine oder mehrere Lernressourcen aus um sie zu kopieren. Beispielsweise zur Wiederverwendung für ein neues Semester oder um eine Sicherheitskopie zu erstellen. 
 
@@ -93,7 +93,7 @@ Aktionen im Menü unter den 3 Punkten beziehen sich immer auf die **einzelne Ler
 
 ### 11. Mitgliederverwaltung
 
-Hier können Sie Mitglieder einer Lernressource organisieren. Mehr Informationen dazu finden Sie im Kapitel [Mitgliederverwaltung](../learningresources/Members_management.de.md)
+Hier können Sie Mitglieder einer Lernressource organisieren. Mehr Informationen dazu finden Sie im Kapitel [Mitgliederverwaltung](../learningresources/Members_management.de.md).
 
 ### 12. Inhalt exportieren
 

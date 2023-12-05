@@ -1,6 +1,6 @@
 # Allgemeines zu Tests
 
-OpenOlat Tests liegen in dem standardisierten Dokumentformat QTI 2.1 vor. QTI steht für „Question & Test Interoperability“ und ist ein definiertes, standardisiertes Datenformat, das zur Konzipierung von Online-Tests verwendet wird. Der Vorteil ist, dass diese standardisierten Tests in diversen LMS und anderen Systemen, die den Standard unterstützen, genutzt werden kann. [IMS](http://www.imsglobal.org/ "IMS") bemüht sich um die Entwicklung derartiger offener Standards für den E-Learning-Bereich.
+OpenOlat Tests liegen in dem standardisierten Dokumentformat QTI 2.1 vor. QTI steht für "Question & Test Interoperability" und ist ein definiertes, standardisiertes Datenformat, das zur Konzipierung von Online-Tests verwendet wird. Der Vorteil ist, dass diese standardisierten Tests in diversen LMS und anderen Systemen, die den Standard unterstützen, genutzt werden kann. [IMS](http://www.imsglobal.org/ "IMS") bemüht sich um die Entwicklung derartiger offener Standards für den E-Learning-Bereich.
 
 In OpenOlat gehören Tests zu den "Lernressourcen". Lernressourcen werden separat erstellt und lassen sich in Online-Kurse integrieren. So kann z.B. dieselbe Lernressource "Test (QTI 2.1)" in mehreren Kursen verwendet werden.
 
@@ -30,4 +30,4 @@ Die in Tests importierten Fragen aus dem Fragenpool können im Editor nicht bear
 
 Soll eine Frage bearbeitet werden, kann über "Kopie erstellen und bearbeiten" eine Kopie der Frage erstellt und die Bearbeitung ermöglicht werden. Die Frage bekommt dann eine neue eigene ID. Über die Master-ID kann jedoch weiterhin auf die ursprünglich importierte Original-Frage im Fragenpool zugegriffen werden.
 
-Möglicherweise haben Sie bereits eine Testdatei im IMS-QTI-Format aus einem anderen LMS exportiert und möchten diese in OpenOlat importieren. Im Kapitel „Aktionen im Autorenbereich“ steht unter dem Punkt [Importieren](../area_modules/authoring_new_course.de.md#lernressourcen-importieren), wie Sie vorgehen müssen.
+Möglicherweise haben Sie bereits eine Testdatei im IMS-QTI-Format aus einem anderen LMS exportiert und möchten diese in OpenOlat importieren. Im Kapitel "Aktionen im Autorenbereich" steht unter dem Punkt [Importieren](../area_modules/authoring_new_course.de.md#lernressourcen-importieren), wie Sie vorgehen müssen.

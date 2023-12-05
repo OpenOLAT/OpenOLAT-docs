@@ -11,11 +11,11 @@ In diesem Kapitel erfahren Sie, welche Einstellungen Sie im [persönlichen Menu]
 
 !!! info "Info"
 
-    Falls Sie den Tab „Portal“ nicht sehen, wurde diese Seite von ihrem Systemadministrator systemweit abgeschaltet.
+    Falls Sie den Tab "Portal" nicht sehen, wurde diese Seite von ihrem Systemadministrator systemweit abgeschaltet.
 
 ## Globale Navigation
 
-In der oberen Navigationsleiste generell verfügbar ist der [Chat](Chat.de.md) (instant Messenger). Welche weiteren Elemente in der Navigationsleiste rechts oben angezeigt werden, ist abhängig von Ihren Einstellungen.
+In der oberen Navigationsleiste generell verfügbar ist der [Chat](Chat.de.md) (Instant Messenger). Welche weiteren Elemente in der Navigationsleiste rechts oben angezeigt werden, ist abhängig von Ihren Einstellungen.
 
 ![Navigation](assets/global_navigation_DE.png){ class="shadow aside-right lightbox"}
 

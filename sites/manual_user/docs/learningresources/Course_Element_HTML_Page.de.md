@@ -14,10 +14,7 @@ Spezialität / Hinweis | Für die Einbindung von Office-Dokumenten nutzen Sie bi
 Der Kursbaustein wird dazu verwendet, **Text, Bilder und Videos** zu präsentieren (Wissensvermittlung), wie man es von Websites her kennt.
 
 Im Kursbaustein "HTML-Seite" ist eine **HTML-Datei als Lernressource**  eingebunden.<br>
-Die Gestaltung der HTML-Seite geschieht im **HTML-Editor**, der im Tab Seiteninhalt aufgerufen wird.
-Die verwendeten Dateien werden dabei im [Ablageordner](../learningresources/Storage_folder.de.md) des Kurses abgelegt. Auch die HTML-Datei selbst ist dort gespeichert.
-
-
+Die Gestaltung der HTML-Seite geschieht im **HTML-Editor**, der im Tab Seiteninhalt aufgerufen wird. Die verwendeten Dateien werden dabei im [Ablageordner](../learningresources/Storage_folder.de.md) des Kurses abgelegt. Auch die HTML-Datei selbst ist dort gespeichert.
 
 ## Beispiel
 
@@ -105,8 +102,6 @@ Erlaubt die Kodierung des JavaScript Codes anhand eines vordefinierten Zeichensa
 
     In der Regel sind im Tab "Layout" keine Änderungen notwendig. Die Standardeinstellungen passen für 90% der Kurse.
 
-
-
 ## Der HTML-Editor
 
 An allen Stellen in OpenOlat, an denen HTML-Seiten erzeugt und bearbeitet werden, ist der **HTML-Editor Tiny MCE** eingebunden.
@@ -125,7 +120,7 @@ Dieser extern entwickelte Editor ist ebenfalls Open Source. Weitere Informatione
 
 !!! info "Hinweis"
 
-    Es können aus Sicherheitsgründen nicht sämliche Möglichkeiten von HTML zur Verfügung gestellt werden. Dies betrifft insbesondere integriertes Javascript.
+    Es können aus Sicherheitsgründen nicht sämtliche Möglichkeiten von HTML zur Verfügung gestellt werden. Dies betrifft insbesondere integriertes Javascript.
 
 
 
@@ -174,19 +169,19 @@ Detaillierte Information zum Einbinden von Videos finden Sie hier: ["Videos in H
 
 ### Videorecording
 
-Siehe ["Video aufnehmen"](../learningresources/Video_Recording.de.md)
+Siehe ["Video aufnehmen"](../learningresources/Video_Recording.de.md).
 
 
 ### Musik (.MP3)
 
-Bei der Einbindung von reinen Audio-Dateien stehen nur eingeschränkte Funktionen im Player zur Verfügung. Man kann starten, stoppen und hat eine Fortschrittsanzeige, Funktionen wie Vollbild fehlen hier. 
+Bei der Einbindung von reinen Audio-Dateien stehen nur eingeschränkte Funktionen im Player zur Verfügung. Man kann starten, stoppen und hat eine Fortschrittsanzeige. Funktionen wie Vollbild fehlen hier. 
 
 Im Feld "Adresse" kann entweder ein Link auf ein mp3-File eingegeben werden oder man lädt eine Datei auf OpenOlat hoch.
 
 
 ### Audiorecording
 
-Siehe ["Audio aufnehmen"](../learningresources/Audio_Recording.de.md)
+Siehe ["Audio aufnehmen"](../learningresources/Audio_Recording.de.md).
 
 ### Bilder
 
@@ -224,8 +219,7 @@ Wählen Sie, ob der Link im OpenOlat-Kursinhalt oder in einem neuen Fenster ange
 
 !!! warning "Achtung"
 
-    Öffnen und speichern Sie HTML-Seiten, die Sie mit einem externen Editor
-    erstellt haben, nicht mit dem eingebauten HTML-Editor, da dadurch Teile der Formatierung verloren gehen können. Der OpenOlat HTML-Editor enthält nur den < body > Bereich einer HTML Seite. Sollen Einträge im HTML < head > vorgenommen werden, muss dies in einem externen Editor erfolgen.
+    Öffnen und speichern Sie HTML-Seiten, die Sie mit einem externen Editor erstellt haben, nicht mit dem eingebauten HTML-Editor, da dadurch Teile der Formatierung verloren gehen können. Der OpenOlat HTML-Editor enthält nur den < body > Bereich einer HTML Seite. Sollen Einträge im HTML < head > vorgenommen werden, muss dies in einem externen Editor erfolgen.
 
 
 

@@ -45,7 +45,7 @@ or alternatively<br>
 
 ![projekte_notizen_bearbeiten_v1_de.png](assets/projekte_notizen_bearbeiten_v1_de.png){ class="shadow lightbox" }
 
-!! note "Note"
+!!! note "Note"
 
     Notes are automatically saved. 
 

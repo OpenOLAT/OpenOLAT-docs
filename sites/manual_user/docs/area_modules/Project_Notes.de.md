@@ -45,7 +45,7 @@ oder<br>
 
 ![projekte_notizen_bearbeiten_v1_de.png](assets/projekte_notizen_bearbeiten_v1_de.png){ class="shadow lightbox" }
 
-!! note "Hinweis"
+!!! note "Hinweis"
 
     Notizen werden automatisch gespeichert. 
 

@@ -136,4 +136,4 @@ Neben der Bewertung im Bewertungswerkzeug können auch einzelne Tests im Kursrun
 
 Die Vorschau zeigt die User-Perspektive an und im Tab "Erinnerungen" besteht die Möglichkeit eine Erinnerungsmail für bestimmte Bedingungen der Test-Bearbeitung z.B. bei einer bestimmten Punktzahl, bestimmter Anzahl der Versuche oder beim bestehen/nicht bestehen zu verschicken (siehe [Erinnerung](Course_Reminders.de.md)). Der Tab "Kommunikation" ist für die Kommunikation während eines laufenden Tests z.B. im Rahmen von Online-Klausuren gedacht.
 
-![Test Übersicht für Betreuer](assets/Test_Kursrun_172.png)){ class="shadow lightbox" }
+![Test Übersicht für Betreuer](assets/Test_Kursrun_172.png){ class="shadow lightbox" }

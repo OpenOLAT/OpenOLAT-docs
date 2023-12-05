@@ -83,7 +83,7 @@ Im Rechtemanagement des Kurses können weitergehende *Rechtepakete* entweder an 
 
 ![Zusätzliche Rechte im Kurs konfigurieren](assets/memebers_managent_DE.png){ class="shadow" }
 
-!!! warning "Kurs-/Gruppenrollen"$
+!!! warning "Kurs-/Gruppenrollen"
 
     Sowohl die Kurs- als auch die Gruppenrechte sind unabhängig von der _systemweiten Rolle_, welche Benutzer:innen in der Benutzerverwaltung erhalten hat. Registrierte Benutzer:innen ohne zugewiesene Rolle können auch Kursbesitzer, Kursbetreuer oder Gruppenbetreuer sein.
 
