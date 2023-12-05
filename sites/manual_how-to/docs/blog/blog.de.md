@@ -5,7 +5,7 @@ erstellt und ihn Ihren Wünschen entsprechend angepasst.
 
 ##  Voraussetzung
 
-Der Blog wird innerhalb eines OpenOlat-Kurses eingebunden. Wenn Sie noch keinen Kurs erstellt haben, steht im Kapitel [„Wie erstelle ich meinen ersten OpenOlat-Kurs"](../my_first_course/my_first_course.de.md), wie Sie vorgehen müssen, bevor Sie mit Hilfe der folgenden Anleitung Ihren Blog erstellen.
+Der Blog wird innerhalb eines OpenOlat-Kurses eingebunden. Wenn Sie noch keinen Kurs erstellt haben, steht im Kapitel "[Wie erstelle ich meinen ersten OpenOlat-Kurs](../my_first_course/my_first_course.de.md)", wie Sie vorgehen müssen, bevor Sie mit Hilfe der folgenden Anleitung Ihren Blog erstellen.
 
 ---
 
@@ -23,7 +23,7 @@ d) Klicken Sie in der Kopfzeile des Editors auf **"Kursbaustein einfügen"** ode
 
 Damit ist der Kursbaustein schon dem Kurs hinzugefügt.
 
-e) Vergeben Sie nun noch einen passenden **Titel** im Tab „Titel und Beschreibung“ und speichern Sie den Kursbaustein.  
+e) Vergeben Sie nun noch einen passenden **Titel** im Tab "Titel und Beschreibung" und speichern Sie den Kursbaustein.  
 
 !!! tip "Hinweis"
 
@@ -33,7 +33,7 @@ e) Vergeben Sie nun noch einen passenden **Titel** im Tab „Titel und Beschreib
 
 ## Schritt 2: Blog (Lernressource) erstellen  
 
-a) Gehen Sie in den <b>Tab „Blog-Lerninhalt“</b> und klicken Sie auf „Blog wählen, erstellen oder importieren“.
+a) Gehen Sie in den <b>Tab „Blog-Lerninhalt“</b> und klicken Sie auf "Blog wählen, erstellen oder importieren".
 
 ![blog_lerninhalt_v1_de.png](assets/blog_lerninhalt_v1_de.png){ class="shadow lightbox" }  
 
