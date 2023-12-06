@@ -9,7 +9,7 @@ The "Video" chapter explains to course authors how to
 
 
 ### Directly integrated
-Videos can be **directly integrated** as mp4 files or links. E.g. in the [course element "HTML page"](Course_Element_Single_Page.md) or in the feedback for a question.
+Videos can be **directly integrated** as mp4 files or links. E.g. in the [course element "HTML page"](Course_Element_HTML_Page.md) or in the feedback for a question.
 
 ### Video learning resource
 Additional features can be added to the mp4 files in the OpenOlat video editor. This turns it into a [**video learning resource**](Learning_resource_Video.md), which contains annotations and quiz questions, for example. (These features can also be added to linked videos).
@@ -35,7 +35,7 @@ The video learning resources can be **integrated into course elements** and prov
   * [Course Element: Video](Course_Element_Video.md)
   * [Course Element: Videotask](Course_Element_Video_Task.md)
   * [Course Element: Page](Course_Element_Page.md)
-  * [Course Element: HTML Page](Course_Element_Single_Page.md)
+  * [Course Element: HTML Page](Course_Element_HTML_Page.md)
   * [Course Element: Video Livestream](Course_Element_Video_Livestream.md)
   * [Course Element: Podcast](Course_Element_Podcast.md)
   * [Course Element: Mediasite](Course_Element_Mediasite.md)

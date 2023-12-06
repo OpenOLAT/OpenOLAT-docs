@@ -14,7 +14,7 @@ The following course elements serve in particular to provide and structure cours
 
     [:fontawesome-solid-file-lines: Page](Course_Element_Page.md)
 
-    [:fontawesome-regular-file-lines: HTML-Page](Course_Element_Single_Page.md)
+    [:fontawesome-regular-file-lines: HTML-Page](Course_Element_HTML_Page.md)
 
     [:fontawesome-solid-up-right-from-square: External Page](Course_Element_External_Page.md)
 

@@ -47,7 +47,7 @@ Sie müssen nun wieder zurück zum Kurs navigieren, der in einem weiteren Olat T
 - Definieren Sie im Tab "Lerninhalt" ob die **Navigationsstruktur des CPs** im Kurs angezeigt werden soll oder nicht. 
 
 - Konfigurieren Sie bei Bedarf die weiteren Tabs des Kursbausteins.
-Im Tab “Layout“ definieren Sie beispielsweise die Einstellungen für die Anzeige des CPs. Die Einstellungsmöglichkeiten sind identisch mit denen einer [Einzelseite](../learningresources/Course_Element_Single_Page.de.md).
+Im Tab “Layout“ definieren Sie beispielsweise die Einstellungen für die Anzeige des CPs. Die Einstellungsmöglichkeiten sind identisch mit denen einer Einzelseite.
 
 - Publizieren Sie anschliessend den Kurs indem Sie in der Breadcrumb-Leiste auf den Kurstitel klicken und den Kurs automatisch oder manuell publizieren. 
 

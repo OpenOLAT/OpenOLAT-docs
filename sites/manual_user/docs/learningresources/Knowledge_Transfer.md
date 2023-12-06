@@ -11,20 +11,20 @@ title, and description. Use this course element to arrange your course content
 and/or to clearly separate your modules. Further information can be found
 [here](Course_Element_Structure.md).
 
-##  Course Element: Single Page {: #single_page}
+##  Course Element: HTML Page {: #html_page}
 
 ![single page icon](assets/single_page.png)
 
-In the course element "Single page" you can integrate various files directly
+In the course element "HTML page" you can integrate various files directly
 into the course structure. These web-specific files (pdf, html) can already be
 in the folder of the course or a linked resource folder or can be created
 directly with the course editor as HTML page. The web files linked in this way
 are displayed directly in the course structure in contrast to a provision via
-the course element "Folder". The course element "Single Page" is particularly
+the course element "Folder". The course element "HTML Page" is particularly
 suitable for the provision of quickly visible information and hypertext-based
-content. Further information on the course elements "Single Page" and
+content. Further information on the course elements "HTML Page" and
 "Multiple Single Pages" can be found
-[here](Course_Element_Single_Page.md).
+[here](Course_Element_HTML_Page.md).
 
 ##  Course Element: External Page {: #external_page}
 

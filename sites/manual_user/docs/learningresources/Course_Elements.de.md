@@ -20,7 +20,7 @@ Die folgenden Kursbausteine dienen insbesondere der Bereitstellung und Strukturi
 
     [:fontawesome-solid-file-lines: Seite](Course_Element_Page.de.md)
 
-    [:fontawesome-regular-file-lines: HTML-Seite](Course_Element_Single_Page.de.md)
+    [:fontawesome-regular-file-lines: HTML-Seite](Course_Element_HTML_Page.de.md)
 
     [:fontawesome-solid-up-right-from-square: Externe Seite](Course_Element_External_Page.de.md)
 

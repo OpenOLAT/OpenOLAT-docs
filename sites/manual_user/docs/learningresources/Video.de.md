@@ -8,7 +8,7 @@ Das Kapitel "Video" erklärt Kursautor:innen, wie man in OpenOlat
 * Ausserdem ist es wichtig zu wissen, wo und wie die Videos gespeichert werden.
 
 ### Direkt eingebunden
-Videos können als mp4-Dateien oder Links **direkt eingebunden** werden. Z.B. im [Kursbaustein "HTML-Seite"](Course_Element_Single_Page.de.md) oder im Feedback zu einer Frage.
+Videos können als mp4-Dateien oder Links **direkt eingebunden** werden. Z.B. im [Kursbaustein "HTML-Seite"](../learningresources/Course_Element_HTML_Page.de.md) oder im Feedback zu einer Frage.
 
 ### Video-Lernressource
 Es können den mp4-Dateien im OpenOlat-Video-Editor weitere Features hinzugefügt werden. So wird daraus eine [**Video-Lernressource**](Learning_resource_Video.de.md), die z.B. Annotationen und Quiz-Fragen enthält. (Auch verlinkten Videos können dieses Features hinzugefügt werden.)
@@ -31,7 +31,7 @@ Die Video-Lernressourcen können **in Kursbausteine eingebunden** werden und dor
 * [Kursbaustein "Video"](Course_Element_Video.de.md)
 * [Kursbaustein "Videoaufgabe"](Course_Element_Video_Task.de.md)
 * [Kursbaustein "Seite"](Course_Element_Page.de.md)
-* [Kursbaustein "HTML-Seite"](Course_Element_Single_Page.de.md)
+* [Kursbaustein "HTML-Seite"](Course_Element_HTML_Page.de.md)
 * [Kursbaustein "Video Livestream"](Course_Element_Video_Livestream.de.md)
 * [Kursbaustein "Podcast"](Course_Element_Podcast.de.md)
 * [Kursbaustein "Mediasite"](Course_Element_Mediasite.de.md)

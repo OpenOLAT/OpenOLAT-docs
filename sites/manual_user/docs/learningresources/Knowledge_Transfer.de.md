@@ -1,7 +1,7 @@
 # Wissensvermittlung
 
 
-##  Kursbaustein „Struktur“ {: #structure}
+##  Kursbaustein "Struktur" {: #structure}
 
 ![structure icon](assets/structure.png)
 
@@ -12,36 +12,36 @@ diesen Kursbaustein, um Ihre Kursinhalte zu gliedern und/oder Module klar zu
 trennen. Weitere Informationen finden Sie
 [hier](Course_Element_Structure.de.md).
 
-##  Kursbaustein "Einzelne Seite" {: #single_page}
+##  Kursbaustein "HTML Seite" {: #single_page}
 
 ![single page icon](assets/single_page.png)
 
-Im Kursbaustein „Einzelne Seite“ können Sie verschiedene Dateien direkt in die
+Im Kursbaustein "HTML Seite" können Sie verschiedene Dateien direkt in die
 Kursstruktur eingebunden werden. Diese webspezifischen Dateien (pdf, html)
 können bereits im Ablageordner des Kurses oder einem verknüpften
 Ressourcenordner vorliegen oder direkt mit dem Kurseditor als HTML-Seite
 erstellt werden. Die so verknüpften Web-Dateien werden im Gegensatz zu einer
 Bereitstellung über den Kursbaustein "Ordner" direkt in der Kursstruktur
-angezeigt. Der Kursbaustein "Einzelne Seite" eignet sich besonders für die
+angezeigt. Der Kursbaustein "HTML Seite" eignet sich besonders für die
 Bereitstellung von schnell sichtbaren Informationen und hypertextbasierten
-Inhalten. Weitere Informationen zu den Kursbausteinen "Einzelne Seite" und
+Inhalten. Weitere Informationen zu den Kursbausteinen "HTML Seite" und
 "Mehrere Einzelseiten" finden Sie
-[hier](Course_Element_Single_Page.de.md).
+[hier](Course_Element_HTML_Page.de.md).
 
 ##  Kursbaustein "Externe Seite" {: #external_page}
 
 ![external page icon](assets/external_page.png)
 
-Mit Hilfe des Kursbausteins „Externe Seite“ können Sie eine externe
+Mit Hilfe des Kursbausteins "Externe Seite" können Sie eine externe
 Internetseite aufrufen. Geben Sie einfach die gewünschte URL in der
 Konfiguration im Tab "Seiteninhalt" ein um die externe Seite in Ihre
 Kursnavigation zu integrieren.  Für die Anzeige der verlinkten Seite werden
 Ihnen die Varianten
 
-  * „Eingebettet (Quelle verborgen)“,
-  * „Eingebettet (Quelle sichtbar)“,
-  * „Neues Browserfenster“ (Quelle sichtbar) und
-  * „Vollständig integriert“ (Quelle verborgen)
+  * "Eingebettet (Quelle verborgen)",
+  * "Eingebettet (Quelle sichtbar)",
+  * "Neues Browserfenster" (Quelle sichtbar) und
+  * "Vollständig integriert" (Quelle verborgen)
 
 angeboten. Für Seiten, die eine Authentifizierung erfordern und deren Quelle
 verborgen ist, können Sie "Seite Passwort geschützt" aktivieren und die
@@ -76,11 +76,11 @@ Nachteil von «iframe»: Die Inhalte erscheinen unter Umständen mit eigenen Scr
 
   
 
-## Kursbaustein „CP-Lerninhalt“ {: #CP_learning_content}
+## Kursbaustein "CP-Lerninhalt" {: #CP_learning_content}
 
 ![icon cp learning content](assets/content.png)
 
-Nutzen Sie den Kursbaustein „CP-Lerninhalt“, um einen Lerninhalt im IMS-CP-
+Nutzen Sie den Kursbaustein "CP-Lerninhalt", um einen Lerninhalt im IMS-CP-
 Format (IMS-CP Version 1.1.2) in Ihren Kurs einzubinden. Das CP können Sie
 entweder direkt in OpenOlat erstellen, was im Kapitel ["Fünf Schritte zu Ihrem Content-Packaging"](../resource_cp/In_Five_Steps_to_Your_Content_Package.de.md)
 erklärt wird. Oder Sie erstellen das CP extern, beispielsweise mit
@@ -88,7 +88,7 @@ erklärt wird. Oder Sie erstellen das CP extern, beispielsweise mit
 
 Weitere Infos zum CP finden Sie [hier](../learningresources/CP_Editor.de.md).  
 
-##  Kursbaustein „SCORM-Lerninhalt“ {: #SCORM_learning_content}
+##  Kursbaustein "SCORM-Lerninhalt" {: #SCORM_learning_content}
 
 ![icon scorm learning content](assets/scorm.png)
 
@@ -97,7 +97,7 @@ Weitere Infos zum CP finden Sie [hier](../learningresources/CP_Editor.de.md).
 ## Kursbaustein "Dokument" {: #document}
 ![icon document](assets/document_icon.jpg)
 
-Mit dem Kursbaustein „Dokument“ können verschieden Dokumentformate direkt
+Mit dem Kursbaustein "Dokument" können verschieden Dokumentformate direkt
 sichtbar in den Kurs eingebunden werden. Der Kursbaustein ist besonders für
 Office-Dokumente, PDF oder auch die Anzeige von Grafik-Dateien geeignet. Dabei
 kann sowohl auf bereits vorliegende Dateien zurückgegriffen oder Dateien neu
@@ -126,15 +126,15 @@ angezeigt, wer das Dokument als letztes bearbeitet hat.
 
 !!! warning "Hinweis"
 
-    Für Video-Dateien sollte der Kursbaustein „Video“ und für HTML-Seiten der Kursbaustein „Einzelseite“ anstatt des Kursbaustein "Dokument" verwendet werden.
+    Für Video-Dateien sollte der Kursbaustein "Video" und für HTML-Seiten der Kursbaustein "Einzelseite" anstatt des Kursbaustein "Dokument" verwendet werden.
 
   
 
-##  Kursbaustein „Ordner“ {: #folder}
+##  Kursbaustein "Ordner" {: #folder}
 
 ![icon folder](assets/folder.png)
 
-Im Kursbaustein „Ordner“ können Sie Dateien zum Download anbieten. Vielfach
+Im Kursbaustein "Ordner" können Sie Dateien zum Download anbieten. Vielfach
 wird der Kursbaustein Ordner dazu verwendet, Kursmaterialien wie Folien oder
 Skripte zur Verfügung zu stellen. Darüber hinaus kann der Kursbaustein
 "Ordner" auch als kollaboratives Werkzeug für den Dateiupload der Lernenden
@@ -146,11 +146,11 @@ Weitere Informationen zur Konfiguration und Verwendung des Kursbausteins
 
   
 
-## Kursbaustein „Podcast“ {: #podcast}
+## Kursbaustein "Podcast" {: #podcast}
 
 ![icon podcast](assets/podcast.png)
 
-Den Kursbaustein „Podcast“ können Sie entweder dazu benutzen, Ihre eigenen
+Den Kursbaustein "Podcast" können Sie entweder dazu benutzen, Ihre eigenen
 Audio- und Videodateien oder externe Podcast-Episoden einfach in OpenOlat
 bereitzustellen. Kursteilnehmer können sich Episoden direkt in OpenOlat
 anzeigen lassen oder den Podcast abonnieren, die Episoden in Portale wie
@@ -163,9 +163,9 @@ separaten Kapiteln.
 ## Kursbaustein "Blog" {: #blog}
 ![icon blog](assets/blog.png)
 
-Über den „Blog“ können Sie die Teilnehmer des Kurses über aktuelle Themen in
+Über den "Blog" können Sie die Teilnehmer des Kurses über aktuelle Themen in
 Form von Text, Bild oder Video informieren. Sie können sowohl externe Blogs
-einbinden als auch einen neue OLAT Lernressource „Blog“ erstellen und
+einbinden als auch einen neue OLAT Lernressource "Blog" erstellen und
 verwenden. Kursbesitzer können in einem Blog beispielsweise mehr oder weniger
 regelmäßig einen inhaltlichen Blog führen und so die Kursteilnehmenden über
 neue aktuelle Inhalte zum Veranstaltungsthema informieren. Die Teilnehmenden
@@ -177,7 +177,7 @@ Wie Sie einen Blog [erstellen ](../resource_blog/Four_Steps_to_Your_Blog.de.md)u
 [konfigurieren ](../learningresources/Blog_Further_Configurations.de.md)erfahren Sie auf
 separaten Seiten.
 
-## Kursbaustein „Video“ {: #video}
+## Kursbaustein "Video" {: #video}
 
 ![icon video](assets/video_64_0_434343_none.png)
 
@@ -190,8 +190,7 @@ das Lehr-Lerngeschehen eines Kurses eingebunden werden.
 Weitere Informationen zum Kursbaustein Video finden Sie
 [hier](../learningresources/Course_Element_Video.de.md).
 Informationen zur Nachbearbeitung des Videos mit OLAT Quiz und Sprungmarken
-finden Sie im Kapitel "[Lernressource:
-Video](../learningresources/Learning_resource_Video.de.md)".
+finden Sie im Kapitel "[Lernressource: Video](../learningresources/Learning_resource_Video.de.md)".
 
 ##  Kursbaustein "Video Livestream"  {: #livestream}
 
