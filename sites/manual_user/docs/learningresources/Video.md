@@ -8,22 +8,22 @@ The "Video" chapter explains to course authors how to
 * It is also important to know where and how the videos are saved.
 
 
-### Directly integrated
+### Context 1: Directly integrated videos
 Videos can be **directly integrated** as mp4 files or links. E.g. in the [course element "HTML page"](Course_Element_Single_Page.md) or in the feedback for a question.
 
-### Video learning resource
+### Context 2: Video learning resources
 Additional features can be added to the mp4 files in the OpenOlat video editor. This turns it into a [**video learning resource**](Learning_resource_Video.md), which contains annotations and quiz questions, for example. (These features can also be added to linked videos).
 
-### Learning resource in a course element
+### Context 3: Video learning resource in a course element
 The video learning resources can be **integrated into course elements** and provided with further configurations there. E.g. in the [course element "Video"](Course_Element_Video.md) or [course element "Video task"](Course_Element_Video_Task.md).
 
 <br>
 
-| Variant | Characteristic | Usage  |
+| Context | Characteristic | Usage  |
 | ----------|----------|------------|
-| **directly integrated**  | mp4 file (uploaded)<br> or linked (Youtube and other)<br>(without additives) | in the HTML editor<br> (HTML page, feedbacks, etc.)  
-| **video learning resource** | with annotations, quizzes,... <br>editable via authoring area,<br>with uploaded or linked video files | in course element video, in course element video task
-| **learning resource in a course element** | a course element is container for a learning resource<br> with own, superordinated configuration | in a course
+| **directly integrated videos**  | mp4 file (uploaded)<br> or linked (Youtube and other)<br>(without additives) | in the HTML editor<br> (HTML page, feedbacks, etc.)  
+| **video learning resources** | with annotations, quizzes,... <br>editable via authoring area,<br>with uploaded or linked video files | in course element video, in course element video task
+| **video learning resource in a course element** | a course element is container for a learning resource<br> with own, superordinated configuration | in a course
 
 
 ### Where are the videos stored?

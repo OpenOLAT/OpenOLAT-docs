@@ -7,22 +7,22 @@ Das Kapitel "Video" erklärt Kursautor:innen, wie man in OpenOlat
 * Videos in einen Kurs einbindet und konfiguriert.
 * Ausserdem ist es wichtig zu wissen, wo und wie die Videos gespeichert werden.
 
-### Direkt eingebunden
+### Kontext 1: Direkt eingebundene Videos
 Videos können als mp4-Dateien oder Links **direkt eingebunden** werden. Z.B. im [Kursbaustein "HTML-Seite"](Course_Element_Single_Page.de.md) oder im Feedback zu einer Frage.
 
-### Video-Lernressource
+### Kontext 2: Video-Lernressourcen
 Es können den mp4-Dateien im OpenOlat-Video-Editor weitere Features hinzugefügt werden. So wird daraus eine [**Video-Lernressource**](Learning_resource_Video.de.md), die z.B. Annotationen und Quiz-Fragen enthält. (Auch verlinkten Videos können dieses Features hinzugefügt werden.)
 
-### Lernressource im Kursbaustein
+### Kontext 3: Video-Lernressourcen im Kursbaustein
 Die Video-Lernressourcen können **in Kursbausteine eingebunden** werden und dort mit weiteren Konfigurationen versehen werden. Z.B. im [Kursbaustein "Video"](Course_Element_Video.de.md) oder [Kursbaustein "Videoaufgabe"](Course_Element_Video_Task.de.md).
 
 <br>
 
-| Variante | Merkmale | Verwendung  |
+| Kontext | Merkmale | Verwendung  |
 | ----------|----------|------------|
-| **Direkt eingebunden**  | mp4-Datei (hochgeladen)<br> oder Link (Youtube u.a.)<br>(ohne Zusätze) | im HTML-Editor<br> (HTML-Seite, Feedbacks, usw.)  
-| **Video-Lernressource** | mit Annotationen, Quizzes,... <br>editierbar via Autorenbereich,<br>mit hochgeladenen oder verlinkten Video-Dateien | im KB Video, im KB Videoaufgabe
-| **Lernressource im Kursbaustein** | Kursbaustein ist Behälter für Lernressource<br> mit eigener, übergeordneter Konfiguration| im Kurs
+| **Direkt eingebunden Videos**  | mp4-Datei (hochgeladen)<br> oder Link (Youtube u.a.)<br>(ohne Zusätze) | im HTML-Editor<br> (HTML-Seite, Feedbacks, usw.)  
+| **Video-Lernressourcen** | mit Annotationen, Quizzes,... <br>editierbar via Autorenbereich,<br>mit hochgeladenen oder verlinkten Video-Dateien | im KB Video, im KB Videoaufgabe
+| **Video-Lernressource im Kursbaustein** | Kursbaustein ist Behälter für Lernressource<br> mit eigener, übergeordneter Konfiguration| im Kurs
 
 
 ### Wo befinden sich die Videos?
