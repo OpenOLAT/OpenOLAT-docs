@@ -6,15 +6,15 @@ By using the [data archiving](Using_Course_Tools.md#data-archiving-tool--archive
 
 * administrator's log file with personalized data of the course authors
 * user's log file Statistics log file with the anonymized data of the course participants
-* user's log file with personalized activities of the users
 
-![](assets/log_files.png){ class="shadow lightbox" }
+
+![log file](assets/log_files.png){ class="shadow lightbox" }
 
 !!! info "Privacy protection"
 
     The user log file with personalized data is only available for system administrators for privacy reasons.
 
-Users with the right to archive (usually course administrators) can save the desired log files as a ZIP file (e.g. _CourseLogFiles_2010-01-28_14-55-55.zip_) in their personal folder (_Personal folder_ -> _private_ -> _archive_). This ZIP file contains the selected files _course_statistic_log.csv_, _course_admin_log.csv_ or _course_user_log.csv_.
+Users with the right to archive (usually course administrators) can save the desired log files as a ZIP file (e.g. _CourseLogFiles_2010-01-28_14-55-55.zip_) in their [personal folder](../personal_menu/Personal_folders.md). This ZIP file contains the selected files _course_statistic_log.csv_, _course_admin_log.csv_ or _course_user_log.csv_.
 
 Please note that in the file _course_statistic_log.csv_ course participants are anonymized as follows:
 Each course participant receives a number (e.g. *7FFBA8C371B1A3DACCF5F12227A75CE82D6C4CE6) generated at random; this number remains unchanged within a course. This number persists throughout the course. Thus it is possible to observe activities of participant X in course Y but you will not be able to compare these data with course Z since your participant will get another number in course Z.
@@ -58,4 +58,4 @@ would be read accordingly (database operation: update / modify):
 
 `Add user [username] to [group]`
 
-Options to analyze log files graphically will be further described in the section ["Statistics"](Using_Course_Tools.md#course-statistics--statistics).
+

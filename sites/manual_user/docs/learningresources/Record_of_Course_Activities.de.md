@@ -1,22 +1,21 @@
 # Aufzeichnung der Kursaktivitäten
 
-OpenOlat zeichnet Kursaktivitäten der Kursteilnehmer und Kursautoren in Logfiles auf.
+OpenOlat zeichnet Kursaktivitäten der Kursteilnehmenden und Kursautoren in Logfiles auf.
 
 Innerhalb eines Kurses können über die [Datenarchivierung](Using_Course_Tools.de.md#datenarchivierung--archive) folgende Logfiles heruntergeladen werden:
 
 * Admin-Logfile mit personalisierten Daten der Kursautoren
-* Benutzer-Logfile mit personalisierten Aktivitäten der User
 * Statistik-Logfile mit den anonymisierten Daten der Kursteilnehmenden
 
-![Logfiles](assets/Logfiles.png){ class="shadow lightbox" }
+![Logfiles](assets/Kuraktivitaeten_logfiles_182.png){ class="shadow lightbox" }
 
 !!! info "Datenschutz"
 
-    Aus Datenschutzgründen ist das Benutzer-Logfile mit den personalisierten User-Daten nur für Systemadministratoren verfügbar.
+    Aus Datenschutzgründen ist ein Benutzer-Logfile mit den personalisierten User-Daten nur für Systemadministratoren verfügbar.
 
-Kursbesitzer und sonstige Personen, welche die Berechtigung zur Archivierung haben, können die gewünschten Logfiles als ZIP-Datei (z.B. _CourseLogFiles_2010-01-28_14-55-55.zip_ ) in Ihrem persönlichen Ordner (_Persönlicher Ordner_ -> _private_ -> _archive_) abspeichern. Die ZIP-Datei enthält dann alle gewünschten Dateien _course_statistic_log.csv_, _course_admin_log.csv_ und _course_user_log.csv_.
+Kursbesitzer und sonstige Personen, welche die Berechtigung zur Archivierung haben, können die gewünschten Logfiles als ZIP-Datei (z.B. _CourseLogFiles_2010-01-28_14-55-55.zip_ ) in Ihrem [persönlichen Ordner](../personal_menu/Personal_folders.de.md) abspeichern. Die ZIP-Datei enthält dann die ausgewählten Dateien _course_statistic_log.csv_, _course_admin_log.csv_ und _course_user_log.csv_.
 
-Beachten Sie, dass in der Datei course_statistic_log.csv die Kursteilnehmer folgendermassen anonymisiert sind:  
+Beachten Sie, dass in der Datei course_statistic_log.csv die Kursteilnehmenden folgendermassen anonymisiert sind:  
 Jeder Kursteilnehmer erhält eine zufällig erzeugte Nummer (z.B. *7FFBA8C371B1A3DACCF5F12227A75CE82D6C4CE6), die innerhalb eines Kurses konstant bleibt. Sie können so die Aktivitäten des Kursteilnehmer X im Kurs Y verfolgen, jedoch keine Vergleiche mit seinen Aktivitäten im Kurs Z machen, da der Kursteilnehmer X im Kurs Z eine neue Nummer erhält.
 
 Mögliche Einträge in den Logfile-Spalten **actionCrudType** (Datenbankoperation), **actionVerb** (Aktion) und **actionObject** (bearbeitetes Kursobjekt)(alphabetisch zusammengefasst):
@@ -60,4 +59,3 @@ wird folgendermassen gelesen (Datenbankoperation: update / modify):
 
 `Füge Benutzer [Benutzername] zu [Gruppe] hinzu`
 
-Grafikbasierte Auswertungsmöglichkeiten der Logfiles werden unter dem Punkt ["Statistiken"](Using_Course_Tools.de.md#kurs-statistiken--statistics) erklärt.
