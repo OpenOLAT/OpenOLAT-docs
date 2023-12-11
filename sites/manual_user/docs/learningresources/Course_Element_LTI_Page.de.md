@@ -35,7 +35,9 @@ Die folgenden Parameter können im Kursbaustein konfiguriert werden:
 
 ![course_element_lti_page_content_v1_de.png](assets/course_element_lti_page_content_v1_de.png){ class=" shadow lightbox" }
 
-**LTI Version:** Wir empfehlen die aktuelle Version LTI 1.3 Aus Kompatibilitätsgründen kann jedoch auch die ältere Version gewählt werden. 
+**LTI Version:** Wir empfehlen die aktuelle Version LTI 1.3 Aus Kompatibilitätsgründen kann jedoch auch die ältere Version gewählt werden.
+
+Wurden von Ihren Administrator:innen Deep Links eingerichtet, können Sie unter diesem Punkt vorkonfigurierte Deep Links auswählen. Die nachfolgenden Eintragungen sind dann teilweise bereits automatisch gemacht.
 
 **URL:** In diesem Eingabefeld geben Sie die Adresse der externen Lernapplikation ein.<br> Das Format ist z.B. "https://tools.< Firma xyz >.de/lti_quiz/lti_quizwand.php".
 

@@ -39,27 +39,29 @@ The following parameters can be configured:
 
 **LTI-Version:** We recommend the current version LTI 1.3 However, for compatibility reasons, the older version can also be selected.
 
- **URL:** In this input field, enter the address of the external learning application. <br> The format is for example "https://tools.< Firma xyz >.com/lti_quiz/lti_quizwand.php".
+If your administrator has set up deep links, you can select preconfigured deep links under this item. Some of the following entries are then already made automatically.
 
- **Key:** Please indicate the key provided by the supplier of your external learning application (in the example above this would be "lti_quiz").
+**URL:** In this input field, enter the address of the external learning application. <br> The format is for example "https://tools.< Firma xyz >.com/lti_quiz/lti_quizwand.php".
 
- **Password:** Please indicate the corresponding password to your key provided by the supplier of your external learning application (in the example above this would be "weeHoo1w").
+**Key:** Please indicate the key provided by the supplier of your external learning application (in the example above this would be "lti_quiz").
 
- **Skip launch page:**  If this option is activated, the connected application is displayed directly, without the "Display LTI Learning Content" intermediate page. The administrator can disable this option.
+**Password:** Please indicate the corresponding password to your key provided by the supplier of your external learning application (in the example above this would be "weeHoo1w").
 
-* * *
-
- **Transmit firstname/name:** By checking this box a user's first and last name will be transferred to your external learning application. Otherwise users will be able to use this application anonymously.
-
- **Transmit e-mail address:** By checking this box a user's e-mail address will be transferred to your external learning application.
-
- **Additional attributes:** You can add additional parameters inside this input box that should be transferred to a learning application. You can e.g. tell this learning application to transfer a query from the learning platform OLAT. (External learning applications have to be able to process such transferred information; therefore it is necessary to have an agreement with your provider.) You have the choice between text attributes (identical values for each user) and additional dynamic user attributes (different for each user). You can add as many attributes as you wish, but note that the LTI resource must know which attributes are sent as this is not specified in the standard.
+**Skip launch page:**  If this option is activated, the connected application is displayed directly, without the "Display LTI Learning Content" intermediate page. The administrator can disable this option.
 
 * * *
 
- **OpenOlat roles:** Here you can configure which role the user will have when launching the LTI resource. The three OpenOlat roles Author, Coach and Participant are supported. For each role the mapping can be defined to a corresponding role on the LTI resource. The following LTI roles are available: Learner, Instructor, Administrator, Teaching assistant, Content developer and Mentor.
+**Transmit firstname/name:** By checking this box a user's first and last name will be transferred to your external learning application. Otherwise users will be able to use this application anonymously.
 
- **Transfer score:** Select this checkbox when the LTI resource is generating a score value that can be transmitted to OpenOlat using the LTI 1.1 standard. This is optional. The submitted score will appear on the users start screen of the LTI course element as well as in the efficiency statement of this course. Please be aware that according to the LTI standard only values between 0 and 1 are allowed.
+**Transmit e-mail address:** By checking this box a user's e-mail address will be transferred to your external learning application.
+
+**Additional attributes:** You can add additional parameters inside this input box that should be transferred to a learning application. You can e.g. tell this learning application to transfer a query from the learning platform OLAT. (External learning applications have to be able to process such transferred information; therefore it is necessary to have an agreement with your provider.) You have the choice between text attributes (identical values for each user) and additional dynamic user attributes (different for each user). You can add as many attributes as you wish, but note that the LTI resource must know which attributes are sent as this is not specified in the standard.
+
+* * *
+
+**OpenOlat roles:** Here you can configure which role the user will have when launching the LTI resource. The three OpenOlat roles Author, Coach and Participant are supported. For each role the mapping can be defined to a corresponding role on the LTI resource. The following LTI roles are available: Learner, Instructor, Administrator, Teaching assistant, Content developer and Mentor.
+
+**Transfer score:** Select this checkbox when the LTI resource is generating a score value that can be transmitted to OpenOlat using the LTI 1.1 standard. This is optional. The submitted score will appear on the users start screen of the LTI course element as well as in the efficiency statement of this course. Please be aware that according to the LTI standard only values between 0 and 1 are allowed.
 
 !!! info "Info"
 

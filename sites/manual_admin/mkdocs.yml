@@ -53,6 +53,7 @@ nav:
         - Overview: "administration/LTI_Integrations.md"
         - External tools : "administration/LTI_External_tools.md"
         - External platforms : "administration/LTI_External_platforms.md"
+        - Deep Linking : "administration/LTI_Deeplinking.md"
         
     - Customizing: "administration/Customizing.md"
 
