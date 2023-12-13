@@ -1,4 +1,4 @@
-# Kursbaustein "Dateidiskussion“ {: #file_dialog}
+# Kursbaustein "Dateidiskussion" {: #file_dialog}
 
 
 ## Steckbrief
@@ -38,7 +38,7 @@ Es ist möglich, innerhalb des gleichen Kursbausteins "Dateidiskussion" mehrere 
 
 !!! tip "Tipp"
 
-    Besteht kein zwingender inhaltlicher Zusammenhang, empfiehlt sich die Verwendung mehrerer Kursbausteine vom Typ 2Dateidiskussion", um die Diskussionsstränge zu separieren und übersichtlicher zu machen. Die Kursbausteine können im Menü evtl. bereits mit hilfreichen Titeln beschriftet und unterschieden werden.
+    Besteht kein zwingender inhaltlicher Zusammenhang, empfiehlt sich die Verwendung mehrerer Kursbausteine vom Typ "Dateidiskussion", um die Diskussionsstränge zu separieren und übersichtlicher zu machen. Die Kursbausteine können im Menü evtl. bereits mit hilfreichen Titeln beschriftet und unterschieden werden.
 
 
 Wenn Teilnehmer:innen oder Betreuer:innen den Kursbaustein Dateidiskussion anwählen, sehen sie zunächst alle angelegten Dateidiskussionen bzw. die Dateien, hinter denen sich jeweils eine eigene Dateidiskussion befindet. Durch Wahl einer Datei gelangen sie in die entsprechende Dateidiskussion.
