@@ -1,67 +1,41 @@
 # Videos im Kursbaustein "HTML-Seite"
 
-!!! warning "Achtung"
-
-    Dieser Handbuchartikel ist noch in Bearbeitung.
-
 ![video.png](assets/add_video.png)
 
-### Video
-reines Abspielen,
-hochgeladene videos oder Links z.B. in Youtube 
-keine Video-Lernressourcen (also ohne Annotationen, Quiz, usw.)
+Videos, die in den Kursbaustein "HTML-Seite " eingebunden werden, sind **direkt eingebundene** Videos.<br> (Siehe [Übersicht zu Videos](Video.de.md))
 
-### Videorecording
-Siehe [Videorecording](../learningresources/Video_Recording.de.md)
+Es können in die OpenOlat-Datenbank **hochgeladene** Videos sein oder **Links**, z.B. auf Youtube-Videos.<br> 
+(Bei Videos in HTML-Seiten handelt sich also nicht um Video-Lernressourcen, d.h. sie sind ohne Annotationen, Quiz, usw.)
 
-### Audiorecording
-Siehe [Audiorecording](../learningresources/Audio_Recording.de.md)
+Die direkt eingebundenen Videos im Kursbaustein "HTML-Seite" sind **im Ablageordner des Kurses abgelegt**. Von dort werden sie in den Kursbaustein verlinkt. So eingebettete Videos stehen nur im jeweiligen Kurs zur Verfügung.
 
---- 
 
-Für die weitere Bearbeitung von HTML-Seiten können Sie den OpenOlat Editor nutzen. Er funktioniert ähnlich wie ein Textverarbeitungsprogramm. Eine automatisch erstellte Datei trägt bereits den Namen des Kurselements. Einmal angelegt, öffnen Sie die HTML-Datei mit dem Link "Seite bearbeiten" und Sie gelangen in den OpenOlat HTML Editor.
+##  Anzeige der Videos in einer HTML-Seite
 
-![html editor](assets/html_editor.png)
+Für die Anzeige greift das Tool auf den in OpenOlat integrierten **Mediaplayer** zurück, was einige Vorteile hat.  
 
-Im HTML Editor können Sie neben den verschiedenen Formatierungen auch Verlinkungen zu Bildern, Videos, den einzelnen Kursbausteinen des Kurses und zu den Tools in der [Toolbar](../learningresources/Using_Additional_Course_Features.de.md) einfügen.
+1. Der Player erkennt das Format selbst, solange die Video- und Audio-Daten richtig codiert sind.  
+2. Der Player erkennt, ob ein Benutzer mit einem HTML5-fähigen und Codec-kompatiblen Mobile-Browser auf das Video zugreift. In dem Fall werden die Filme mit einem HTML5-Tag versehen und können problemlos auch auf iPad o.ä. angezeigt werden.  
 
-Sie können auch Dateien die Sie zuvor erstellt haben in den Ablageordner des Kurses hochladen oder einen Ressourcenordner mit dem Kurs und dem Ablageordner verbinden. Über den Link "Auswählen" werden Ihnen alle Dateien angezeigt, die sich im Ablageordner befinden. Anschliessend können Sie diese Dateien über den Kursbaustein "Einzelne Seite" verlinken und so in Ihren Kurs einbinden. Dieser Weg empfiehlt sich, wenn Sie die Strukturierung des Ablageordners selbst beeinflussen möchten.
+OpenOlat unterstützt neben mp4 auch HTML5-Videos, welche in einer HTML-Seite mit externen Werkzeugen eingebunden wurden. In diesem Fall müssen Sie als Autor:in selbst dafür sorgen, dass in den HTML-Tags verschiedene alternative Videoformate angegeben wurden (z.B. m4v und ogg) und dass diese allenfalls auch in unterschiedlichen Auflösungen in OpenOlat abgelegt werden.
 
-Mit der "Einzelnen Seite" können auf verschiedene Weise Videos und Audios in den Kurs eingebunden werden. Detaillierte Information finden Sie [hier](../learningresources/Single_Page_Add_edit_video.de.md).
-
-Die Dateien können bei Bedarf später auch wieder ausgetauscht werden.
-
-!!! warning "Achtung"
-
-    Öffnen und speichern Sie HTML-Seiten, die Sie mit einem externen Editor
-    erstellt haben, nicht mit dem eingebauten HTML-Editor, da dadurch Teile der Formatierung verloren gehen können. Der OpenOlat HTML-Editor enthält nur den < body > Bereich einer HTML Seite. Sollen Einträge im HTML < head > vorgenommen werden, muss dies in einem externen Editor erfolgen.
-
-Unter "Sicherheitseinstellungen" können Sie festlegen, ob Verweise in Ihren HTML-Seiten nur auf Dateien des gleichen Ordners und auf darin enthaltene Unterordner möglich sind, oder ob alle Dateien des Ablageordners referenziert werden können. Dies ist beispielsweise notwendig, wenn Ihre HTML Seite Grafiken, CSS-Dateien oder Skripte enthält, die sich in anderen Ordnern befinden.
-
-Ferner können Sie definieren, ob Betreuer die hinterlegte HTML-Datei bearbeiten dürfen. Die Betreuer benötigen dafür keine Kursbesitzerrechte oder Zugang zum Kurseditor.
+OpenOlat unterstützt in diesem Fall das Pseudo-Streaming mittels Progressive Download bzw. Range-Requests.  
 
 
 
 ##  Video hinzufügen / editieren
 
-![video.png](assets/add_video.png)
+Im Kursbaustein "HTML-Seite" steht Ihnen ein HTML-Editor zur Verfügung, über den Sie auch Videos in eine HTML-Seite einbinden können. Im Tab "Seiteninhalt" können Sie den Editor öffnen und gelangen zum Button "Video hinzufügen / editieren".
 
-Eine weitere Möglichkeit Videos in OLAT Kursen einzubinden ist die Verwendung des Kursbausteins "**Einzelne Seite**".
-
-Im Kursbaustein "Einzelne Seite" steht Ihnen ein Editor zur Verfügung über den Sie auch Videos in eine HTML-Seite einbinden können. Im Tab "Seiteninhalt" können Sie den Editor öffnen und gelangen zum Button "Video hinzufügen / editieren".
-
-![video_button.png](assets/video_button.png)  
-
-Für die Anzeige greift das Tool auf den in OpenOlat integrierten Mediaplayer zurück, was einige Vorteile hat.  
-
-1. Der Player erkennt das Format selbst, solange die Video- und Audio-Daten richtig codiert sind.  
-2. Der Player erkennt, ob ein Benutzer mit einem HTML5-fähigen und Codec- kompatiblen mobile-Browser auf das Video zugreift. In dem Fall werden die Filme mit einem HTML5-Tag versehen und können problemlos auch auf iPad o.ä. angezeigt werden.  
+![video_button.png](assets/video_button.png){ class=" shadow lightbox" }  
 
 !!! tip "Tipp"
 
-    Sie können Ihrer Mediendatei auch noch ein Startbild (Vorschau) hinzufügen.
+    Sie können Ihrer Mediendatei auch noch ein Startbild hinzufügen.
+    (Upload eines Bildes unter "Vorschau".)
 
-Im Folgenden finden Sie die wichtigsten Informationen zur Nutzung des in Einzelseiten verwendeten TinyMCE Plugins "Video hinzufügen / editieren" (Unterstützt FLV, MP4 mit h264 codiert, AAC).
+Im Folgenden finden Sie die wichtigsten Informationen zur Nutzung des in HTML-Seiten verwendeten TinyMCE Plugins "Video hinzufügen / editieren" (Unterstützt FLV, MP4 mit h264 codiert, AAC).
+
 
 ### Empfohlenes Format
 
@@ -69,7 +43,7 @@ In der Praxis hat sich der **mp4** (oder MPEG-4) Container mit dem H.264 Video-C
 
 Die folgenden Optionen stehen Ihnen zur Verfügung:
 
-![video_typen.png](assets/Video_Audio_Typen_DE.png)
+![video_typen.png](assets/Video_Audio_Typen_DE.png){ class=" shadow lightbox" }
 
 | Option |  Beschreibung  |
 ---|---  
@@ -107,27 +81,27 @@ In das Adressfeld können Sie entweder den Link auf das Video direkt eingeben od
 
 YouTube Filme werden direkt verlinkt, d.h. die Auswahlbox für das Hochladen einer Datei wird hier nicht benötigt. Videos können mit dieser Konfiguration **direkt integriert** werden.
 
-![einbinden_youtube.png](assets/youtube_embed_DE.png)  
+![einbinden_youtube.png](assets/youtube_embed_DE.png){ class=" shadow lightbox" }   
 
 Benutzen Sie als "Adresse" einen direkten Link zu dem Video, erhältlich unter dem Link "**Teilen**".
 
-![teilen_youtube.png](assets/youtube_share.png)
+![teilen_youtube.png](assets/youtube_share.png){ class=" shadow lightbox" } 
 
 #### Vimeo  
 
 Vimeo Videos werden in OpenOlat ebenfalls direkt verlinkt. Unter "Adresse" geben Sie den Link des gewünschten Videos ein.
 
-![einbinden_vimeo.png](assets/vimeo_embed_DE.png)  
+![einbinden_vimeo.png](assets/vimeo_embed_DE.png){ class=" shadow lightbox" }   
 
 Einen direkten Link zum Vimeo-Video finden Sie unter dem Link "**Share**".  
 
-![teilen_vimeo.png](assets/vimeo_share_DE.png)
+![teilen_vimeo.png](assets/vimeo_share_DE.png){ class=" shadow lightbox" } 
 
 #### Nanoo.tv
 
 Videos von der Plattform [Nanoo.tv](https://portal.nanoo.tv/) können direkt verlinkt werden. Für die Nutzung und Anzeige der Videos ist ein Nanoo.tv-Account notwendig.
 
-![nanootv.png](assets/Nanoo_tv_DE.png)
+![nanootv.png](assets/Nanoo_tv_DE.png){ class=" shadow lightbox" } 
 
 Über die URL kann - unabhängig vom Browser - gesteuert werden, ob das Video sofort automatisch startet oder nicht. Dafür muss die URL hinter /link/ entsprechend angepasst werden.
 
@@ -157,12 +131,5 @@ Dieses von Adobe entwickelte Protokoll ermöglicht die Übertragung des Videos v
     Da mit dieser Variante der Einbettung die Inhalte nicht auf dem iPad und den meisten anderen mobilen Geräten angesehen werden können wird dieses Vorgehen **nicht empfohlen**.
 
     Da Flash von den meisten Browsern nicht mehr oder nur sehr eingeschränkt unterstützt wird, sollte generell auf den Einsatz von flashbasierten Videos verzichtet werden.
-
-#### HTML5 Video
-
-OpenOlat unterstützt auch HTML5 Videos welche in einer HTML Seite mit externen Werkzeugen eingebunden wurde. In diesem Fall muss der Autor selbst dafür sorgen, dass in dem HTML Tags verschiedene alternative Videoformate angegeben wurden (z.B. m4v und ogg) und diese allenfalls auch in unterschiedlichen Auflösungen in OpenOlat abgelegt werden.
-
-OpenOlat unterstützt in diesem Fall das Pseudo-Streaming mittels Progressive Download bzw. Range-Requests.  
-
 
 

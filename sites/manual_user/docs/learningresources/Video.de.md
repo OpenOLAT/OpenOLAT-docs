@@ -8,7 +8,7 @@ Das Kapitel "Video" erklärt Kursautor:innen, wie man in OpenOlat
 * Ausserdem ist es wichtig zu wissen, wo und wie die Videos gespeichert werden.
 
 ### Kontext 1: Direkt eingebundene Videos
-Videos können als mp4-Dateien oder Links **direkt eingebunden** werden. Z.B. im [Kursbaustein "HTML-Seite"](Course_Element_Single_Page.de.md) oder im Feedback zu einer Frage.
+Videos können als mp4-Dateien oder Links **direkt eingebunden** werden. Z.B. im [Kursbaustein "HTML-Seite"](Video_in_HTML_Pages.de.md) oder im Feedback zu einer Frage.
 
 ### Kontext 2: Video-Lernressourcen
 Es können den mp4-Dateien im OpenOlat-Video-Editor weitere Features hinzugefügt werden. So wird daraus eine [**Video-Lernressource**](Learning_resource_Video.de.md), die z.B. Annotationen und Quiz-Fragen enthält. (Auch verlinkten Videos können dieses Features hinzugefügt werden.)
