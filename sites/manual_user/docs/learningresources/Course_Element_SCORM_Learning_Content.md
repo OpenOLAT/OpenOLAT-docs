@@ -43,13 +43,9 @@ In the section "Settings" you can determine how your learning content should be 
 
  **Max number of attempts:** By means of the drop-down menu the number of attempts available can be limited. The highest value available for selection is 20.
 
-##   Tab Layout
+##   Tab Display options {: #layout}
 
 In the "Layout" tab you can define the settings for the display of the SCORM package. You can either use the layout configuration settings from the learning resource, or modify the standard settings. If you choose the "Modify" option, the following settings are available. You can then determine whether the SCORM package should be displayed unaltered, or optimized for OpenOlat. The display mode "Optimized for OpenOlat" allows you to e.g. apply the course layout to the SCORM package.
-
-Under "Settings" you can determine how the learning content is to be displayed to your course participants.
-
-### Display options
 
 * * *
 

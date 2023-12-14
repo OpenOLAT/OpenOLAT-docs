@@ -104,7 +104,7 @@ Filter the table beforehand by group. You can then sort by either first or last 
 
   
 
-##  Course element: Multiple checklists
+##  Course element: Multiple checklists {: #multi}
 
 ![multiple checklists icon.png](assets/wizard_434343_64.png)
 

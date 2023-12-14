@@ -43,14 +43,10 @@ Unter "Einstellungen" im Tab "Lerninhalt" können Sie bestimmen, wie der Lerninh
 
  **Maximale Anzahl Lösungsversuche:** Mittels des Drop-Down-Menus können Sie die Anzahl der Lösungsversuche einschränken. Der höchste zur Auswahl stehende Wert ist 20.
 
-## Tab Layout
+## Tab Anzeige Inhalt {: #layout}
 
 Im Tab "Layout" definieren Sie die Einstellungen für die Anzeige des SCORM- Lerninhaltes. Dazu können Sie entweder die Layout-Einstellungen der Lernressourcenverwaltung übernehmen, oder aber überschreiben. Wenn Sie die Option "Anpassen" wählen, stehen Ihnen die nachfolgenden Einstellungen zur Verfügung. So können Sie festlegen ob der SCORM-Lerninhalt unverändert, oder aber optimiert für OpenOlat angezeigt werden soll. Der Anzeigemodus "Optimiert für OpenOlat" gestattet Ihnen z.B. das Kurslayout auf den SCORM-Inhalt anzuwenden.
-
-Unter "Einstellungen" können Sie bestimmen, wie der Lerninhalt Ihren Kursteilnehmern angezeigt werden soll.
-
-### Optionen für die Anzeige
-
+	 
  * * *
  
  **Standardwerte übernehmen:** Werden Lernressourcen aus der Lernressourcenverwaltung in Kursen eingebunden, so können die Einstellungen für die Darstellung aus der Lernressourcenverwaltung übernommen werden (Option "Aus Layouteinstellungen der Lernressource übernehmen"). Möchten Sie für diesen Kurs die Standardwerte überschreiben, so wählen Sie die Option "Anpassen".
