@@ -12,7 +12,7 @@ In the first tab called "Choice" or the respective question type name, the actua
 
 By default "One line" is chosen, which is for answers using only one line and no further formatting is necessary. Use the option "Multi-line" if answers consist of two or more lines and no further formatting is necessary. Use "Formatted" if the answer consists of images, videos, links, mathematic formulas or any other formatting which can be created in the html editor of OpenOlat.
 
-![Editor to format text](assets/formatted_editor.jpg){ class="shadow lightbox" }
+![Editor to format text](assets/formatted.jpg){ class="shadow lightbox" }
 
 ## Tab Score {: #score}
 
@@ -22,9 +22,9 @@ The following settings are possible:
 
 * **Limit number of attempts:**
 
-    * Yes: Specify here how often the user may edit and save this question. The corresponding maximum number will then also be displayed during test editing. For example, if the number 1 is entered, the user can only edit and save the question once. Changes are then no longer possible. This is especially important if you are working with answer-specific feedback but do not want the user to be able to revise his answer based on this feedback during test editing.
-    * No: The number of attempts is unlimited. In this case, the user can save and correct his answers as many times as he wants. However, you can still limit attempts to work on a specific section or the whole test.
-    * Inherit: The number of attempts is taken form the level above.
+    * **Yes**: Specify here how often the user may edit and save this question. The corresponding maximum number will then also be displayed during test editing. For example, if the number 1 is entered, the user can only edit and save the question once. Changes are then no longer possible. This is especially important if you are working with answer-specific feedback but do not want the user to be able to revise his answer based on this feedback during test editing.
+    * **No**: The number of attempts is unlimited. In this case, the user can save and correct his answers as many times as he wants. However, you can still limit attempts to work on a specific section or the whole test.
+    * **Inherit:** The number of attempts is taken form the level above.
 
 * **Min. score:** For the question types single choice, multiple choice, hotspot, matrix and drag&drop, where it is possible to get a negative value, the minimum reachable score can be defined. Also for a negative total score the result can be set to 0 to avoid a negative score or a negative score can be tolerated. For all question types the default is set to 0.
 
@@ -32,9 +32,10 @@ The following settings are possible:
 
 * **Method of assessment:** For most question types, the type of scoring can also be defined.  
 
-    * If "All correct answers" is chosen, the score can only be reached when all answers are correct.
-    * If "Score per answer" is chosen, you can datermine in the column _Points_ what score is given per answer. Negative points are also possible here. No matter what is inserted here, with the summation the maximum score cannot be exceeded.
-    * For gap text questions, different "Score per answer and alternatives" can also be assigned and thus, for example, partial points can be stored for "half correct" answers.
+    * If **"All correct answers"** is chosen, the score can only be reached when all answers are correct.
+    * If **"Score per answer"** is chosen, you can datermine in the column _Points_ what score is given per answer. Negative points are also possible here. No matter what is inserted here, with the summation the maximum score cannot be exceeded.
+    * **"Partial score"** can be set for multiple choice, hotspot, hottext, drag and drop, matrix, gap (text and numeric), gap with dropdown.In the calculation, a weighted score is added for each correctly selected answer, while a weighted score is subtracted for each incorrectly selected answer. (new in :octicons-tag-24: Release 18.1.)
+    * For gap text and numerical input questions different **"Score per answer and alternatives"** can also be assigned and thus, for example, partial points can be stored for "half correct" answers.
     * The method of assessment cannot be chosen for Kprim, upload file, drawing or essay.
 
 ## Tab Feedback {: #feedback}
