@@ -27,4 +27,4 @@ Learning resource administrators or course owners receive an overview of all cor
 
 ### 3. Tab Open grade assignments
 
-tbd
+Hier werden die Kursbausteine (Tests und Aufgaben)mit den jeweiligen Personen angezeigt, die noch nicht einem Korrektor zugewiesen wurden. 

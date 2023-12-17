@@ -2,7 +2,7 @@
 
 !!! info "Note"
 
-    This tool is only displayed in the Coaching Tool if the Organization module has been activated by the administrator.
+    This tool is only displayed in the Coaching Tool if the [Organization module](../../../manual_admin/docs/administration/Modules_Organisations.md) has been activated by the administrator.
 
 ![coaching_linienvorgesetzter_v1_de.png](assets/coaching_linienvorgesetzter_v1_de.png){ class="shadow lightbox" }
 

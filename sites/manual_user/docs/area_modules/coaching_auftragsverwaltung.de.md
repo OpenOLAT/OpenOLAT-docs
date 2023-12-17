@@ -2,7 +2,7 @@
 
 ![coaching_auftragsverwaltung_v1_de.png](assets/coaching_auftragsverwaltung_v1_de.png){ class="shadow lightbox" }
 
-Dieses Menü bezieht sich auf den Korrektur-Workflow für die manuelle Bewertung von OpenOlat Tests. In der Lernressource Test kann der Korrektur-Workflow aktiviert werden. Sie können dann Tests eine oder mehrere Personen als Korrektoren zuordnen. Sofern Sie mindestens Besitzer eines Tests sind, bei dem diese Option aktiviert wurde, sehen Sie im Coaching Tool die Auftragsverwaltung und können die einzelnen Korrektoren und ihre Aktivitäten verwalten.
+Dieses Menü bezieht sich auf den Korrektur-Workflow für die manuelle Bewertung von OpenOlat Tests. In der Lernressource Test kann der [Korrektur-Workflow](../learningresources/Test_settings.de.md) aktiviert werden. Sie können dann Tests eine oder mehrere Personen als Korrektoren zuordnen. Sofern Sie mindestens Besitzer eines Tests sind, bei dem diese Option aktiviert wurde, sehen Sie im Coaching Tool die Auftragsverwaltung und können die einzelnen Korrektoren und ihre Aktivitäten verwalten.
 
 ### 1. Tab Korrektoren
 
@@ -28,4 +28,4 @@ Lernressourcenverwalter oder Kursbesitzer erhalten im Menü "Korrekturaufträge"
 
 ### 3. Tab Offene Zuweisungen
 
-tbd
+Hier werden die Kursbausteine (Tests und Aufgaben)mit den jeweiligen Personen angezeigt, die noch nicht einem Korrektor zugewiesen wurden. 

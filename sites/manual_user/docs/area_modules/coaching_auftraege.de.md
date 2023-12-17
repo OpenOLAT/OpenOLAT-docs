@@ -1,5 +1,7 @@
 # Coaching - Aufträge
 
+Hier sieht man an welchen Stellen noch konkrete Coaching Aktionen wie Bewertungen oder Einstufungen vorgenommen werden müssen bzw. ob diese noch freigegeben werden müssen.
+
 ![coaching_auftraege_v1_de.png](assets/coaching_auftraege_v1_de.png){ class="shadow lightbox" }
 
 ### 1. Tab Offene Bewertungen

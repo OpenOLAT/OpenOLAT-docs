@@ -1,5 +1,7 @@
 # Coaching - Orders
 
+Here you can see where specific coaching actions such as assess or gradings still need to be carried out or whether they still need to be released.
+
 ![coaching_auftraege_v1_de.png](assets/coaching_auftraege_v1_de.png){ class="shadow lightbox" }
 
 ### 1. Tab Open Assessments

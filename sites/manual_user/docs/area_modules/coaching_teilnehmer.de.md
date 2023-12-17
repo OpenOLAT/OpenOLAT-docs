@@ -4,10 +4,10 @@
 
 ### 1. WEN zeigt die Liste?
 
-Der Menüpunkt "Teilnehmer:innen" zeigt die Liste **aller von Ihnen betreuten** Teilnehmer:innen.
+Der Menüpunkt "Teilnehmer:innen" zeigt die Liste **aller von Ihnen betreuten** Teilnehmenden.
 
-  * Jeder Coach (Betreuer:in) sieht nur die von ihr/ihm betreuten Teilnehmer:innen.
-  * Es werden die Teilnehmer:innen aus **allen** betreuten Kursen angezeigt (im Unterschied zum Bewertungswerkzeug des Kurses. Dort werden nur Teilnehmer:innen des aktuellen Kurses angezeigt.)
+  * Jeder Coach (Betreuer:in) sieht nur die von ihr/ihm betreuten Teilnehmenden.
+  * Es werden die Teilnehmenden aus **allen** betreuten Kursen angezeigt (im Unterschied zum [Bewertungswerkzeug](../learningresources/Assessment_tool_overview.de.md) des Kurses. Dort werden nur Teilnehmenden des aktuellen Kurses angezeigt.)
 
 
 ### 2. WAS zeigt die Liste?  

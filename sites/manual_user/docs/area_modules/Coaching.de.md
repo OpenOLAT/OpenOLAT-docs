@@ -2,8 +2,6 @@
 
 ## Wozu dient das Coaching Tool?
 
-Letztlich werden Sie sich immer wieder Leistungsdaten oder den Bearbeitungsstand einzelner Lernender ansehen. Die Wege dorthin können aber unterschiedlich sein.
-
 Das Coaching Tool dient der **kursübergreifenden** Organisation und Verwaltung von Kursen, Teilnehmenden und Gruppen, sowie der **kursübergreifenden** Korrektur von Assessmentbausteinen, dem **kursübergreifenden** Absenzenmanagement und dem externen Korrektoren-Flow von OpenOlat Tests.
 
 Mit dem Coaching-Tool haben Kursbesitzer, Kursbettreuer und Gruppenbetreuer die Möglichkeit, alle ihnen zugewiesen Kurs- oder Gruppenteilnehmenden auf einen Blick zu sehen und zu verwalten. Sie gelangen von diesen Übersichten dann schnell auf unterschiedlichen Wegen zum Bewertungswerkzeug für einzelne Teilnehmende.
