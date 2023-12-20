@@ -50,8 +50,8 @@ Die folgenden Optionen stehen Ihnen zur Verfügung:
 Video | Einbindung eines Videos mit spezifischer Codierung.  
 Musik | Einbindung eines Audio-Files ohne Video.  
 YouTube / Vimeo / Nanoo.tv | Einbindung eines YouTube / Vimeo / Nanoo.tv - Videos  
-http | Streaming mit Flash-Datei von einem Webserver  
-rtmp | Streaming mit Flash-Datei von einem speziellen Streaming-Server  
+http | Streaming mit Flash-Datei von einem Webserver.  
+rtmp | Streaming mit Flash-Datei von einem speziellen Streaming-Server.  
   
 #### Video (.FLV, .F4V, .MP4 und .M4V - h264 kodiert, .AAC sowie .M4A)
 
@@ -79,7 +79,7 @@ In das Adressfeld können Sie entweder den Link auf das Video direkt eingeben od
 
 #### YouTube  
 
-YouTube Filme werden direkt verlinkt, d.h. die Auswahlbox für das Hochladen einer Datei wird hier nicht benötigt. Videos können mit dieser Konfiguration **direkt integriert** werden.
+YouTube Videos werden direkt verlinkt, d.h. die Auswahlbox für das Hochladen einer Datei wird hier nicht benötigt. Videos können mit dieser Konfiguration **direkt integriert** werden.
 
 ![einbinden_youtube.png](assets/youtube_embed_DE.png){ class=" shadow lightbox" }   
 
@@ -122,7 +122,7 @@ In das Feld "Streamingserver" muss die Adresse des Servers eingegeben werden. Un
 
 #### rtmp Streamingserver
 
-Mit dieser Funktion kann ein Flash Streaming-Server genutzt werden. Dabei wird ein spezielles Protokoll verwendet: RMTP - Real Time Messaging Protocol. Als Streaming-Server können verschiedene Produkte verwendet werden, z.B. das Akamai Netzwerk.
+Mit dieser Funktion kann ein Flash Streaming-Server genutzt werden. Dabei wird ein spezielles Protokoll verwendet: RTMP - Real Time Messaging Protocol. Als Streaming-Server können verschiedene Produkte verwendet werden, z.B. das Akamai Netzwerk.
 
 Dieses von Adobe entwickelte Protokoll ermöglicht die Übertragung des Videos vom Server zum Flash Player. Häufig kommt es bei dieser Variante aber zu Problemen mit Port-Einstellungen und Firewalls.
 
