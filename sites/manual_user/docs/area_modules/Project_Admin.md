@@ -60,7 +60,7 @@ A project can only be completed by
 
 Projects can only be deleted by
 
-* the projects owner,
+* the project owners,
 * Administrators,
 * and project managers.
 

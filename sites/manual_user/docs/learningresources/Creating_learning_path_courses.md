@@ -40,7 +40,8 @@ course is calculated.
 
  ![](assets/Prozentanzeige.en.png)
 
- ## Copying Learning path courses
+
+## Copying Learning path courses
 
 Like all learning resources, Learning path courses can be copied. New since OpenOlat 16 is the possibility to copy a learning path with the help of a wizard (beta). In this way, further detailed settings can be made prior to the
 copy process, so that a later revision is not necessary.

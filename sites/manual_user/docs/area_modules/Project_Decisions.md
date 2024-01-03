@@ -29,9 +29,9 @@ To create a new decision within a project, you have the following options:
 Once you have selected your project, you can access the decisions of the respective projects from the start screen (cockpit) in various ways.
 
 **a) Projects > Tab "My projects" > Select project > Quick start button "Decisions"**<br>
-oder<br>
+or<br>
 **b) Projects > Tab "My projects" > Select project > Press title in the section "Decisions"**<br>
-oder<br>
+or<br>
 **c) Projects > Tab "My projects" > Select project > in the section, click on "show all decisions"**
 
 ![projekte_entscheid-liste_anzeigen_v1_de.png](assets/projekte_entscheid-liste_anzeigen_v1_de.png){ class="shadow lightbox" }

@@ -405,7 +405,7 @@ Alternatively, you can also use the "Publish" button in the editor on the right 
 You determine which learners get access in the member administration of the course.
 
 19\. Once test results are available, coaches can make assessments in the coaching tool. (Does not apply to self-tests).
-For more information, see chapter "Assinging tests".
+For more information, see chapter "Assigning tests".
 
 <br>
 

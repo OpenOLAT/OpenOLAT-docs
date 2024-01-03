@@ -36,7 +36,7 @@ The following file formats can be created:
 
 * .docx (Word, Licence required)
 * .xlxs (Excel, Licence required)
-* . pptx (PowerPoint, Licence required)
+* .pptx (PowerPoint, Licence required)
 * .drawio (Diagram)
 * .dwb (Whiteboard)
 * .text (Unformatted text)
@@ -59,7 +59,7 @@ Open the list of all files in the project in the same way as the to-dos or decis
 **a) Projects > Tab "My projects" > Select project > Quick access button "Files"**<br>
 or<br>
 **b) Projects > Tab "My projects" > Select project > Click on the title in the "Files" section**<br>
-oder<br>
+or<br>
 **c) Projects > Tab "My projects" > Select project > click in the "show all files" section**
 
 Note that you can switch between the map view and the list view.  

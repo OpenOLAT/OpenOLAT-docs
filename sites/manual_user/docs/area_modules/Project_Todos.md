@@ -31,9 +31,9 @@ To create a new to-do within a project, you have the following options:
 Once you have selected your project, you can access the to-dos of the respective projects in various ways from the project overview.
 
 **a) Projects > Tab "My projects" > Select project >  Quick start button "To-do"**<br>
-oder<br>
+or<br>
 **b) Projects > Tab "My projects" > Select project >  Click the title in the section "To-dos"**<br>
-oder<br>
+or<br>
 **c) Projects > Tab "My projects" > Select project >  Click on the section "Show all to-dos"**
 
 ![projekte_todo-liste_anzeigen_v1_de.png](assets/projekte_todo-liste_anzeigen_v1_de.png){ class="shadow lightbox" }
@@ -75,7 +75,7 @@ The distinction between assignment and delegation makes it possible,<br>
 
 When you edit a to-do, you can create links to other objects of this project by linking to an already existing object **(button "Link object")**.
 
-**Difference between "Link object" and "Add link "**<br>
+**Difference between "Link object" and "Add link"**<br>
 Often, while creating a to-do, the need arises to create another decision, an additional appointment or another to-do.
 With the **"Add link"** button, you can create these objects again and they are then automatically linked to the current decision.  The long diversions (select another object type, create a new object, return to the decision and only then create the link) are thus eliminated.
 

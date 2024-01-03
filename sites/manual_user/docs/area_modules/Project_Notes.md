@@ -16,9 +16,9 @@ In addition to direct creation in the "Quick Access" section, notes can also be 
 Open the list of all notes in the project in the same way as for to-dos or decisions: 
 
 **a) Projects > Tab "My projects" > Select project > Quick Access Button "Notes"**<br>
-oder<br>
+or<br>
 **b) Projects > Tab "My projects" > Select project > Click on the title in the "Notes" section**<br>
-oder<br>
+or<br>
 **c) Projects > Tab "My projects" > Select project > Click in the "show all notes" section**
 
 Note that you can switch between the map view and the list view. 
