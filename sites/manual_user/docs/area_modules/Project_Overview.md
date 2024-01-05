@@ -27,6 +27,21 @@ Examples:
 * Learning diary as a project
 * …
 
+## What are the main functions/components of a project?
+
+After calling up a project, the main functions are displayed in the cockpit:
+
+1. Dates and milestones
+2. To-dos
+3. Decisions
+4. Notes
+6. Files
+5. Whiteboard (draw.io)
+7. Timeline
+8. Administration functions
+
+![projekte_overview_v1_de.png](assets/projekte_overview_v1_de.png){ class="shadow lightbox" }
+
 ## Activation of the module "Projects"
 
 For the projects to be available in the menu, the module must have been activated by an administrator.

@@ -27,6 +27,21 @@ Beispiele:
 * Lerntagebuch als Projekt
 * …
 
+## Welche Hauptfunktionen/Bestandteile hat ein Projekt?
+
+Nach dem Aufruf eines Projektes werden Ihnen im Cockpit die Hauptfunktionen angezeigt:
+
+1. Termine und Meilensteine
+2. To-dos
+3. Entscheide
+4. Notizen
+6. Dateien
+5. Whiteboard (draw.io)
+7. Timeline
+8. Verwaltungsfunktionen
+
+![projekte_overview_v1_de.png](assets/projekte_overview_v1_de.png){ class="shadow lightbox" }
+
 ## Aktivierung des Moduls "Projekte"
 
 Damit die Projekte im Menü verfügbar sind, muss das Modul von einem/einer Administrator:in aktiviert worden sein.
