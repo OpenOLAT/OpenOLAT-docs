@@ -1,6 +1,6 @@
 # Wie erstelle ich einen Podcast?
 
-Mit dieser Anleitung haben Sie in kurzer Zeit Ihrem Kurs einen Podcast hinzugefügt und eine erste Episode erstellt.
+Mit dieser Anleitung haben Sie in kurzer Zeit Ihrem Kurs einen Podcast hinzugefügt und eine erste Episode erstellt.  
 
 ##  Voraussetzungen
 
@@ -8,7 +8,7 @@ Mit dieser Anleitung haben Sie in kurzer Zeit Ihrem Kurs einen Podcast hinzugef�
 Produzieren Sie die Audio- oder Videodatei für Ihre Podcast-Episode mit einer dafür vorgesehenen Aufnahmesoftware (z.B. [GarageBand](http://www.apple.com/ilife/garageband/ "GarageBand")) und speichern Sie sie in einem der angegebenen Formate: MP3, MP4, M4V, M4A oder AAC. Achten Sie auf die angegebene Maximalgrösse.
 
 <h3> b) Ein OpenOlat-Kurs</h3>
-Der Podcast wird innerhalb eines OpenOlat-Kurses eingebunden. Wenn Sie noch keinen Kurs erstellt haben, steht im Kapitel [„Wie erstelle ich meinen ersten OpenOlat-Kurs"](../my_first_course/my_first_course.de.md), wie Sie vorgehen müssen, bevor Sie mit Hilfe der folgenden Anleitung Ihren Podcast erstellen.
+In dieser Anleitung wird davon ausgegangen, dass Sie Ihren Podcast im Rahmen eines Kurses einsetzen möchten. Wenn Sie noch keinen Kurs erstellt haben, steht im Kapitel [„Wie erstelle ich meinen ersten OpenOlat-Kurs"](../my_first_course/my_first_course.de.md), wie Sie vorgehen müssen, bevor Sie mit Hilfe der folgenden Anleitung Ihren Podcast erstellen.
 
 ---
 
@@ -53,7 +53,7 @@ c) Klicken Sie auf den **Button "Erstellen"**.
 
 d) Geben Sie einen **Titel** für Ihre Podcast-Lernressource ein und bestätigen Sie mit <b>"Erstellen"</b>. 
 
-Fertig. Damit ist eine neue Podcast-Lernressource angelegt und weitere Einstellungen sowie die konkrete Ausgestaltung können vorgenommen werden.
+Damit ist eine neue Podcast-Lernressource angelegt und weitere Einstellungen sowie die konkrete Ausgestaltung können vorgenommen werden.
 
 !!! tip "Tipp"
 
@@ -82,15 +82,17 @@ c) Abschließend muss der Kurs **publiziert** und der Kurseditor geschlossen wer
 
 ## Schritt 4: Podcast mit Inhalt (Episoden) füllen  
 
-a) Öffnen Sie den Kurseditor erneut und klicken Sie im Tab "Podcast Lerninhalt" auf "Editieren".
+a) Wählen Sie im Kurseditor im Tab "Podcast Lerninhalt" ->  "Editieren" ...
 
 ![podcast_initiale_episode_v1_de.png](assets/podcast_initiale_episode_v1_de.png){ class="shadow lightbox" } 
+
+... oder klicken Sie einfach bei geschlossenem Kurseditor auf den Podcast Kursbaustein.
 
 b) Beim **ersten Editieren** werden Sie nun gefragt, ob Sie eine Podcast-Episode neu erstellen wollen oder einen bestehenden Podcast einbinden möchten. Im Folgenden zeigen wir, wie Sie eine neue Podcast-Episode erstellen.
 
 ![podcast_erste_episode_v1_de.png](assets/podcast_erste_episode_v1_de.png){ class="shadow lightbox" }
 
-Klicken Sie auf "Episoden selbst erstellen" um die **Initial-Episode** des Podcasts zu erstellen. Dieser Schritt ist notwendig, damit Podcastepisoden von der definierten Zielgruppe anschließend ebenfalls eingestellt werden können.
+Klicken Sie auf "Episoden selbst erstellen" um die **Initial-Episode** des Podcast zu erstellen. Dieser Schritt ist notwendig, damit Podcastepisoden von der definierten Zielgruppe anschliessend ebenfalls eingestellt werden können.
 
 c) Fügen Sie nun den eigentlichen Inhalt Ihrer Podcast-Episode ein.
 
