@@ -1,4 +1,4 @@
-# Kursbaustein "Test“  {: #course_element_test}
+# Kursbaustein "Test"  {: #course_element_test}
 
 
 ## Steckbrief

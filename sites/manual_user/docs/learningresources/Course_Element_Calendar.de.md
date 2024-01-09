@@ -1,4 +1,4 @@
-# Kursbaustein "Kalender“ {: #cal}
+# Kursbaustein "Kalender" {: #cal}
 
 
 ## Steckbrief

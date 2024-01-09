@@ -1,4 +1,4 @@
-# Kursbaustein "Forum“ {: #forum}
+# Kursbaustein "Forum" {: #forum}
 
 ## Steckbrief
 

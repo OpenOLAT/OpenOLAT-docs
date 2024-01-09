@@ -1,4 +1,4 @@
-# Kursbaustein "CP-Lerninhalt“ {: #CP_learning_content}
+# Kursbaustein "CP-Lerninhalt" {: #CP_learning_content}
 
 
 ## Steckbrief

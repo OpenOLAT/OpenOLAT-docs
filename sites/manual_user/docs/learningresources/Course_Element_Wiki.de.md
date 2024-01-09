@@ -1,4 +1,4 @@
-# Kursbaustein "Wiki“ {: #wiki}
+# Kursbaustein "Wiki" {: #wiki}
 
 ## Steckbrief
 

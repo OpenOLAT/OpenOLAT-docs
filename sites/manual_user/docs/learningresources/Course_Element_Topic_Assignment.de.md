@@ -1,4 +1,4 @@
-# Kursbaustein "Themenvergabe“  {: #topic_assignment}
+# Kursbaustein "Themenvergabe"  {: #topic_assignment}
 
 ## Steckbrief
 

@@ -1,4 +1,4 @@
-# Kursbaustein "Einschreibung“ {: #enrolment}
+# Kursbaustein "Einschreibung" {: #enrolment}
 
 ## Steckbrief
 

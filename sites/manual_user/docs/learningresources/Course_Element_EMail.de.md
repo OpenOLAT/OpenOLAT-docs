@@ -1,4 +1,4 @@
-# Kursbaustein "E-Mail“ {: #mail}
+# Kursbaustein "E-Mail" {: #mail}
 
 
 ## Steckbrief

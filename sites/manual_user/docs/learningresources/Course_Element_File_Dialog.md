@@ -1,4 +1,4 @@
-#  Course Element "File Dialogue" {: #file_dialog}
+#  Course Element "File Dialog" {: #file_dialog}
 
 
 ## Profile

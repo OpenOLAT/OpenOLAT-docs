@@ -1,4 +1,4 @@
-# Kursbaustein "Linkliste“ {: #linklist}
+# Kursbaustein "Linkliste" {: #linklist}
 
 
 ## Steckbrief

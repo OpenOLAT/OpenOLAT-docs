@@ -18,7 +18,7 @@ Learning paths, unlike conventional courses, do not have the tabs "Visibility" a
 
 ![Learning path](assets/Lernpfad_tab17_en.png)
 
- * **Durchführung**
+ * **Execution**
   *  **Mandatory**: The completion of the course element is binding and will be considered in the percentage evaluation.
   *  **Optional**: Completion will not be taken into account when displaying percentages.
   * **Excluded**: Completion is not part of the learning path and is only controllable by exception. The course element is not visible for the participants.

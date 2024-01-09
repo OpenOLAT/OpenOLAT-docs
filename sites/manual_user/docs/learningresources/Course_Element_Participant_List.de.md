@@ -1,4 +1,4 @@
-# Kursbaustein "Teilnehmerliste“  {: #participant_list}
+# Kursbaustein "Teilnehmerliste"  {: #participant_list}
 
 
 ## Steckbrief

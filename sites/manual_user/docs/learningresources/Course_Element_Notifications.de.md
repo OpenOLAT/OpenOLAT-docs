@@ -1,4 +1,4 @@
-# Kursbaustein "Mitteilungen“ {: #notification}
+# Kursbaustein "Mitteilungen" {: #notification}
 
 
 ## Steckbrief

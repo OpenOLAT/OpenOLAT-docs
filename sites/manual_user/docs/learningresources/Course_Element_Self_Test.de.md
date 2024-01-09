@@ -1,4 +1,4 @@
-# Kursbaustein "Selbsttest“ {: #course_element_self_test}
+# Kursbaustein "Selbsttest" {: #course_element_self_test}
 
 
 ## Steckbrief

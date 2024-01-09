@@ -1,4 +1,4 @@
-# Kursbaustein "LTI-Seite“ {: #lti}
+# Kursbaustein "LTI-Seite" {: #lti}
 
 
 ## Steckbrief
@@ -14,7 +14,7 @@ Spezialität / Hinweis |
 
 
 
-Mit Hilfe des Kursbausteins „LTI-Seite“ können Sie externe Lernapplikationen in Ihren Kurs integrieren und den Inhalt im OpenOlat-Fenster anzeigen lassen. LTI steht für "Learning Tool Interoperability" und ist ein IMS Standard zur Einbindung von externen Lernapplikationen wie zum Beispiel einem Chat, einem Mediawiki, einem Testeditor oder einem virtuellen Labor. Weitere Informationen zu LTI finden Sie auf der LTI Projekthomepage: [http://www.imsglobal.org/lti/](http://www.imsglobal.org/lti/)
+Mit Hilfe des Kursbausteins "LTI-Seite" können Sie externe Lernapplikationen in Ihren Kurs integrieren und den Inhalt im OpenOlat-Fenster anzeigen lassen. LTI steht für "Learning Tool Interoperability" und ist ein IMS Standard zur Einbindung von externen Lernapplikationen wie zum Beispiel einem Chat, einem Mediawiki, einem Testeditor oder einem virtuellen Labor. Weitere Informationen zu LTI finden Sie auf der LTI Projekthomepage: [http://www.imsglobal.org/lti/](http://www.imsglobal.org/lti/)
 
 ## Prozess
 

@@ -1,4 +1,4 @@
-# Kursbaustein "Podcast“ {: #podcast}
+# Kursbaustein "Podcast" {: #podcast}
 
 
 ## Steckbrief

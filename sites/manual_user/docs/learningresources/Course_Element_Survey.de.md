@@ -1,4 +1,4 @@
-# Kursbaustein "Umfrage“ {: #course_element_survey}
+# Kursbaustein "Umfrage" {: #course_element_survey}
 
 ## Steckbrief
 
