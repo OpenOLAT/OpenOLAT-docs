@@ -95,6 +95,7 @@ nav:
       - Decisions: "area_modules/Project_Decisions.md"
       - Notes: "area_modules/Project_Notes.md"
       - Files: "area_modules/Project_Files.md"
+      - Video/Audio: "area_modules/Project_VideoAudio.md"
       - Administration: "area_modules/Project_Admin.md"
       - Project Report: "area_modules/Project_Report.md"
     - Portfolio:
