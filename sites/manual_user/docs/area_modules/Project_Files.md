@@ -52,6 +52,15 @@ The following file formats can be created:
     Without licences, the options for creating docx, pptx and xlsx formats are not displayed. (However, displaying and editing existing documents with ONLYOFFICE is usually possible.)
 
 
+## Video and audio recording
+
+In the **Files** section of an OpenOlat project, it is also possible to record videos and audio files directly in OpenOlat.
+
+Newly recorded videos are saved as mp4 files, audio as m4a files.
+
+![project_video_audio_recording_v1_de.png](assets/project_video_audio_recording_v1_de.png){ class="shadow lightbox" }
+
+
 ## Show list of files
 
 Open the list of all files in the project in the same way as the to-dos or decisions.: 
