@@ -13,5 +13,5 @@ It is best to first get an overview of the entire [course cycle](General_Informa
 
 Additionally, when creating a course, a wizard for beginners or a special exam course can be created. For most teaching scenarios, however, the default setting without a wizard is the appropriate choice.
 
-  ![Wizard Kurs erstellen](assets/course_create_wizard.en.wm.png){ class="shadow" }
+![course_create_wizard_v1_de.png](assets/course_create_wizard_v1_en.png){ class="shadow lightbox" }
 
