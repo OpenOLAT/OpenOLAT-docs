@@ -17,12 +17,12 @@
 
 ## Kurse anbieten
 
-1. [Wie zeige ich meine Kurse im OpenOlat-Katalog?](de/manual_how-to/catalog/catalog)
+1. [Wie zeige ich meine Kurse im OpenOlat-Katalog?](/de/manual_how-to/catalog/catalog)
 2. [Wie kann ich meine Kurse durch Suchmaschinen finden lassen?](/de/manual_how-to/oai_pmh/oai_pmh)
 
 ## Teilnehmeradministration
 
-1. [Gruppenszenarien](de/manual_how-to/purpose_of_groups/purpose_of_groups)
+1. [Gruppenszenarien](/de/manual_how-to/purpose_of_groups/purpose_of_groups)
 
 ## Teilnehmer betreuen
 

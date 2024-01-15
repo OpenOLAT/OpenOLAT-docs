@@ -17,7 +17,7 @@
 
 ## Offer Courses
 
-1. [How do I show my courses in the OpenOlat catalog?](/sites/manual_how-to/docs/catalog/catalog.md)
+1. [How do I show my courses in the OpenOlat catalog?](/manual_how-to/catalog/catalog)
 2. [How can I have my courses found by search engines?](/manual_how-to/oai_pmh/oai_pmh)
 
 ## Participant Administration
