@@ -28,4 +28,4 @@ Die Portfolio 2.0 Vorlage kann dann über den Kursbaustein "[Portfolioaufgabe](.
 
 ![Beispiel Formular im Portfolio](assets/Portfolio_Formular.png){ class="shadow lightbox" }
 
-Generelle Informationen zum Thema E-Portfolio finden Sie im Kapitel "[Portfolio erstellen](../area_modules/index.de.md)", insbesondere im Unterkapitel "[Prozess eines Bewertungspprtfolios](../portfolio/Process_of_an_assessment_portfolio.de.md)".
+Generelle Informationen zum Thema E-Portfolio finden Sie im Kapitel "[Portfolio erstellen](../area_modules/index.de.md)", insbesondere im Unterkapitel "[Prozess eines Bewertungspprtfolios](../../manual_admin/administration/eAssessment_ePortfolio.de.md)".
