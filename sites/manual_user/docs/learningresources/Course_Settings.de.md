@@ -235,11 +235,15 @@ Die Option zur Rezertifizierung ist gekoppelt an
 * eine bestehende frühere (Erst-)Zertifizierung
 * eine definierte Angabe, ab wann frühestens eine Rezertifizierung möglich ist.
 
+![course_settings_assessment_recertification_v1_de.png](assets/course_settings_assessment_recertification_v1_de.png){ class="shadow lightbox" }
+
+
 **Rezertifizierung aktivieren**
 
 Wird die Rezertifizeriung aktiviert, muss eine Angabe gemacht werden, ab wann eine Rezertifizierung möglich sein soll: "frühestens ab ... Tage vor Ablauf Gültigkeit Zertifikat".
 
 (Der Wert muss kleiner als die Gültigkeitsdauer sein.)
+
 
 **Erinnerungen einrichten**
 
