@@ -202,6 +202,7 @@ plugins:
           Create a blog : Blog erstellen
           Create a Content Package : Content Package erstellen
           Create a form : Formular erstellen
+          Create a glossary : Glossar erstellen
           Create a new project : Neues Projekt erstellen
           Create a podcast : Podcast erstellen
           Create a wiki : Wiki erstellen
@@ -446,6 +447,7 @@ plugins:
           Topic assigment : Themenvergabe
           Transfer files using WebDAV : Dateien mittels WebDAV übertragen
           Types of Course Element : Kursbausteine
+          Usage : Verwendung
           User management : Benutzerverwaltung
           User manual: Benutzerhandbuch
           User search : Personensuche

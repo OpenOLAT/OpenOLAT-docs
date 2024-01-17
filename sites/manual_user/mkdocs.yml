@@ -266,6 +266,8 @@ nav:
       - Forms in the ePortfolio template: "learningresources/Forms_in_the_ePortfolio_template.md"
     - Glossary:
       - Overview: "learningresources/Glossary.md"
+      - Usage: "learningresources/Glossary_usage.md"
+      - Create a glossary: "learningresources/Glossary_create.md"
    
   - Groups:
     - groups/index.md
