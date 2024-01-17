@@ -232,6 +232,8 @@ The option for recertification is linked to
 * an existing previous (initial) certification
 * a defined indication of the earliest date from which recertification is possible.
 
+![course_settings_assessment_recertification_v1_de.png](assets/course_settings_assessment_recertification_v1_de.png){ class="shadow lightbox" }
+
  **Allow re-certification**  
  
 If recertification is activated, a specification must be made as to when recertification should be possible: "at the earliest from ... days before expiry of certificate validity".
