@@ -367,6 +367,7 @@ plugins:
           Participant list : Teilnehmerliste
           Passkey : Passkey
           Password  : Passwort
+          Password and Authentication : Passwort und Authentifizierung
           Payment modules : Bezahlungsmodule
           PayPal Configuration : PayPal Konfiguration
           Performance assessment : Leistungsbewertung
