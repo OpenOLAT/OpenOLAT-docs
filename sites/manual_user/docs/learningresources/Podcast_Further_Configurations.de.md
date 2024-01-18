@@ -15,9 +15,9 @@ Wenn Sie einen neuen Kursbaustein Podcast Ihrem Kurs hinzugefügt haben, können
 
 ![Podcast anlegen](assets/Pocast_anlegen1.jpg)
 
-Generelle Infos zur Erstellung von Podcasts finden Sie in der [How to Podcast Anleitung](../../../manual_how-to/docs/podcast/podcast.de.md).
+Generelle Infos zur Erstellung von Podcasts finden Sie in der [How to Podcast Anleitung](../../manual_how-to/podcast/podcast.de.md).
 
-Wird die Option "Erstellen" gewählt [(vergl. Schritt 2 der How to Anleitung)](../../../manual_how-to/docs/podcast/podcast.de.md) bezieht sich das lediglich auf das Anlegen der Lernressource. Im nächsten Schritt muss immer noch definiert werden ob die Episoden selbst erstellt werden sollen oder ob ein bestehender Podcast eingebunden werden soll [(vergl. Schritt 4)](../../../manual_how-to/docs/podcast/podcast.de.md). Wählt man hier die externe Variante entspricht das der Wahl "Importieren URL" aus dem vorherigen Erstellungsmenü. 
+Wird die Option "Erstellen" gewählt [(vergl. Schritt 2 der How to Anleitung)](../../manual_how-to/podcast/podcast.de.md) bezieht sich das lediglich auf das Anlegen der Lernressource. Im nächsten Schritt muss immer noch definiert werden ob die Episoden selbst erstellt werden sollen oder ob ein bestehender Podcast eingebunden werden soll [(vergl. Schritt 4)](../../manual_how-to/podcast/podcast.de.md). Wählt man hier die externe Variante entspricht das der Wahl "Importieren URL" aus dem vorherigen Erstellungsmenü. 
 
 Eine angelegte Verknüpfung kann jederzeit wieder ausgewechselt oder editiert werden. Über "Podcast auswechseln" kann auch wieder zwischen einem internen und einem externen Podcast gewechselt werden. 
 "Editieren" entspricht den Bearbeitungsmöglichkeiten bei geschlossenem Editor. Beachten Sie, dass die Bearbeitungsmöglichkeiten bei externen Podcasts eingeschränkt sind und in diesem Fall keine eigenen Dateien dem Podcast hinzugefügt werden können. 

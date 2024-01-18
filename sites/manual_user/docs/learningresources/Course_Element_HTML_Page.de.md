@@ -22,7 +22,7 @@ Die Gestaltung der HTML-Seite geschieht im **HTML-Editor**, der im Tab Seiteninh
     
     Eine HTML-Seite kann vor allem mit Bildern, Texten, Tabellen und Videos gestaltet werden. Fortgeschrittene Autor:innen können aber auch HTML-Elemente wie Accordion einfügen.
 
-    ![course_element_html_page_run_view_v1_de.png](../assets/course_element_html_page_run_view_v1_de.png){ class="shadow lightbox" }
+    ![course_element_html_page_run_view_v1_de.png](../learningresources/assets/course_element_html_page_run_view_v1_de.png){ class="shadow lightbox" }
 
 === "Bearbeitung im Editor"
 
@@ -30,13 +30,13 @@ Die Gestaltung der HTML-Seite geschieht im **HTML-Editor**, der im Tab Seiteninh
 
     (Hinweis: Im Kursbaustein "Seite" wird dagegen der Content Editor verwendet, in dem die Inhalte als Blöcke zusammengestellt werden. => Verbesserte Dartstellung auf Mobiles)
     
-    ![course_element_html_page_editor_view2_v1_de.png](../assets/course_element_html_page_editor_view2_v1_de.png){ class="shadow lightbox" }
+    ![course_element_html_page_editor_view2_v1_de.png](../learningresources/assets/course_element_html_page_editor_view2_v1_de.png){ class="shadow lightbox" }
 
 === "HTML-Quellcode"
 
     Für Autor:innen mit HTML-Kenntnissen besteht auch die Möglichkeit, direkt den erzeugten HTML-Quellcode einzusehen und zu bearbeiten.
 
-    ![course_element_html_page_sourcecode_view_v1_de.png](../assets/course_element_html_page_sourcecode_view_v1_de.png){ class="shadow lightbox" }
+    ![course_element_html_page_sourcecode_view_v1_de.png](../learningresources/assets/course_element_html_page_sourcecode_view_v1_de.png){ class="shadow lightbox" }
 
 
 

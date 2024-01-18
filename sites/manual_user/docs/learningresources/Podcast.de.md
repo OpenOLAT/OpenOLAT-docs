@@ -4,8 +4,8 @@ Podcasts sind in OpenOlat Lernressourcen die sich sowohl kursunabhängig als auc
 
 Es gibt zwei Varianten von Podcasts: a) Podcasts, die in OpenOlat erstellt werden und b) externe Podcasts aus dem Internet, die per RSS-Feed eingebunden werden. Ein Podcast besteht in der Regel aus mehreren Episoden. Eine Episode kann ein Audio- oder Videobeitrag sein. 
 
-Im "How to" Bereich erfahren Sie wie man [Podcasts in Kursen erstellt ](../../../manual_how-to/docs/podcast/podcast.de.md). 
-Weitere Infos zur Konfiguration von Podcasts finden Sie  [hier.](../learningresources/Podcast_Further_Configurations.de.md)
+Im "How to" Bereich erfahren Sie wie man [Podcasts in Kursen erstellt ](../../manual_how-to/podcast/podcast.de.md). 
+Weitere Infos zur Konfiguration von Podcasts finden Sie  [hier](../learningresources/Podcast_Further_Configurations.de.md).
 
 
 ## Allgemeines zu Podcast

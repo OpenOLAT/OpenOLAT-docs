@@ -2,7 +2,7 @@
 
 Hier können Sie den Fragenpool aus Sicht des Systemadministrators
 konfigurieren. Einige der Einstellungen können auch in der 
-[Administration des Poolverwalters](../../manual_user/area_modules/Question_Bank_administration.md) vorgenommen werden.
+[Administration des Poolverwalters](../../manual_user/area_modules/Question_Bank_Administration.md) vorgenommen werden.
 
 ![](assets/Fragenpool_admin.png){ class="shadow lightbox" }
 
