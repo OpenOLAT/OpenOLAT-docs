@@ -8,9 +8,12 @@ Die zu erledigenden Aufgaben (To-Dos) finden sich an mehreren Stellen in OpenOla
 Hier finden Sie alle Ihre persönlichen To-Dos zusammengefasst in einer Übersicht.
 * innerhalb eines [Projektes](../area_modules/Project_Todos.de.md)<br>
 Hier handelt es sich um Aufgaben, die im Rahmen des Projektes zu erledigen sind.
-* im Kursbaustein Aufgabe<br>
-ab Release 18.2
-* ... (Weitere Implementierungen sind in Planung.)
+* im [Kurs](../learningresources/Course_todos.de.md)<br>
+Im Kursmenü **Administration > To-dos** können To-dos erstellt werden, die den aktuell editierten Kurs betreffen.
+(ab Release 18.2)
+* im [Kursbaustein Aufgabe](../learningresources/Course_Element_Task.de.md)<br>
+(ab Release 18.2)
+
 
 ## Bestandteile eines To-Dos
 
