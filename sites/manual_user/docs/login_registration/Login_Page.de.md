@@ -2,11 +2,29 @@
 
 :octicons-device-camera-video-24: **Video-Einführung**: [Login](<https://www.youtube.com/embed/Sy5cXJL7K90>){:target="_blank”} 
 
-Sie können sich jederzeit über die Zugangsseite Ihrer Organisation in OpenOlat einloggen. Beachten Sie, dass die genauen Zugangsmöglichkeiten je nach OpenOlat Instanz etwas variieren können.
+Auf der Startseite müssen Sie nachweisen, dass Sie eine Zugangsberechtigung zu OpenOlat haben. Sie können aber auch als Gast Zutritt erhalten.
+Beachten Sie, dass die genauen Zugangsmöglichkeiten je nach OpenOlat Instanz etwas variieren können.
 
-Auf der Einstiegsseite wählen Sie Ihre Hochschule aus. Sie werden weitergeleitet und aufgefordert, Ihre Zugangsdaten einzugeben. Wenn Sie keiner der aufgelisteten Hochschulen angehören, wählen Sie  die "Anmeldung mit OpenOlat-Konto". So können Sie die volle Funktionalität von OpenOlat benutzen.
+Sie finden auf der Einstiegsseite je nach Konfiguration und Gestaltung
 
-Sollten Sie ihre Zugangsdaten (Benutzername und/oder Passwort) nicht mehr zu Hand haben, wenden Sie sich an Ihre zuständige Beratungsstelle.
+* ein Eingabefeld für den Benutzernamen
+* ein Eingabefeld für das Passwort (aus Sicherheitsgründen meistens in einem zweiten Schritt)
+* je nach Sicherheitsstufe (mit oder ohne Passkey) eine Aufforderung zur Bestätigung
+* einen Button für das OpenOlat-Login
+* evtl. verschiedene Buttons von anderen Authentifizierungsdiensten
+* einen Button/Link zur Selbstregistrierung
+* einen Button für einen Zugang als Gast
+* einen Button/Link um ein neues Passwort anzufordern 
+* einen Link zu Ihrem Support (Telefonnummer, Mailadresse)
+* einen Link zu Hilfe-Seiten
+
+Oft ist die Einstiegsseite auch so eingerichtet, dass Sie zuerst Ihre Bildungseinrichtung oder eine Abteilung wählen können. Sie werden dann weitergeleitet und aufgefordert, Ihre Zugangsdaten einzugeben.
+
+Es ist auch möglich, dass Sie nach einer einmaligen Anmeldung in Ihrer Bildungseinrichtung automatisch eine Zutrittsbereichtigung zu OpenOlat erhalten haben und ohne weitere Anmeldung direkt Zugang zu OpenOlat erhalten (Single Sign On).
+
+Wenn Sie keiner aufgelisteten Bildungseinrichtungen angehören und keinen der angebotenen Authentifizierungsdienste nutzen wollen, wählen Sie die "Anmeldung mit OpenOlat-Konto".
+
+Sollten Sie ihre Zugangsdaten (Benutzername und/oder Passwort) nicht mehr zu Hand haben, wenden Sie sich bitte an Ihren zuständigen Support.
 
 ![login_v1_de.png](assets/login_v1_de.png){ class=" shadow lightbox" }
   
