@@ -6,7 +6,8 @@ Die Anforderungen an die Sicherheit können je nach Institution variieren. In de
 
 ## Passwort und Authentifizierung
 
-Hier können die Syntax-Regeln für die OpenOlat Passwörter konfiguriert werden.
+Hier kann die Sicherheitsstufe eingestellt werden (mit oder ohne Passkey).
+Ausserdem können die Syntax-Regeln für die OpenOlat Passwörter konfiguriert werden.
 Als Minimum muss eine Mindest- und eine Maximallänge definiert werden. Darüber
 hinaus können weitere Anforderungen, wie Anzahl von Buchstaben, Groß- und
 Kleinschreibung, Anforderungen zu Ziffern und Sonderzeichen sowie bestimmte

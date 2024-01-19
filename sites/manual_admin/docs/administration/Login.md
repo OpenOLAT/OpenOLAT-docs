@@ -6,12 +6,8 @@ Requirements towards security can vary greatly depending on the institution. Use
 
 ## Passwords
 
-Here you can configure the syntax rules for the OLAT passwords. A minimum and
-a maximum length must be defined as a minimum. In addition, further
-requirements such as number of letters, upper and lower case, requirements for
-numbers and special characters as well as certain invalid values can be
-defined. Under the tab "Change policies" you can define how often certain
-users have to change their password.
+The security level can be set here (with or without passkey). The syntax rules for the OpenOlat passwords can also be configured. A minimum and a maximum length must be defined as a minimum. In addition, further requirements such as number of letters, upper and lower case, requirements for
+numbers and special characters as well as certain invalid values can be defined. Under the tab "Change policies" you can define how often certain users have to change their password.
 
 ## Anonymous and external users
 
