@@ -42,9 +42,9 @@ This tab is only available in the Learning path course.
 
 Here you define whether the execution of the task is obligatory or voluntary or if the course element should hidden. Obligatory tasks are taken into account in the progress display, voluntary ones are not.
 
-The release date can be used if the course element is to be opened and started only on a certain date.
+The release date can be used if the course element is to be opened and started only on a certain date. However, the course element itself is already displayed in the course structure.
 
-The time entered under "To be edited by" refers to the deadline for picking up or starting the course element Task, not to the deadline for file upload (see Workflow).
+The time entered under "To be edited by" refers to the deadline for picking up or starting the course element Task, not to the deadline for file upload (see tab Workflow).
 
 In the case of the processing time, the estimated time a user needs to process the course element can be entered. An entry is especially relevant if the progress in the course refers to the processing time of the course elements (see Administration -> [Settings](../learningresources/Course_Settings.md) -> Tab "Execution").
 
@@ -68,9 +68,11 @@ This is the central tab for configuring the course element Task. Here you can de
 
 Simply activate the elements you need and configure the relevant tabs in the next step.
 
-The assignment, submission and sample solution steps can be configured with a deadline, with the assignment and submission open until that specific date, whereas the sample solution won't be available before the respective date. In addition to the normal deadline, a late deadline can also be specified.
+The task assignment, submission, late submission and sample solution steps can be configured with a deadline, with the assignment and submission open until that specific date, whereas the sample solution won't be available before the respective date. 
 
-Starting from the date entered, the sample solution can be provided for all participants or only those who have worked on the task.
+The user is shown both the normal submission deadline and the late deadline or the deadlines that are still in the future. The late submission is also displayed to the coach or course owner in the assessment flow.
+
+A sample solution can be provided for all participants or only those who have completed the task from the date entered.
 
 Instead of using a fixed calendar date, relative dates are available too, resulting in deadlines dependent on participant activities, such as a first course launch. All defined dates can be adapted individually, e.g. if a participant needs more time according to special circumstances. This is possible for all workflow steps. If the submission deadline is extended, the task will be opened again automatically. A date for late submission is also possible.
 

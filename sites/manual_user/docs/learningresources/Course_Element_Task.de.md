@@ -42,9 +42,9 @@ Dieser Tab ist nur im Lernpfad-Kurs verfügbar.
 
 Hier definieren Sie ob die Bearbeitung der Aufgabe obligatorisch oder freiwillig ist oder ob der Kursbaustein nicht angezeigt (Ausgenommen) werden soll. Obligatorische Aufgaben werden bei der Fortschrittsanzeige berücksichtigt, freiwillige nicht.
 
-Das Freigabedatum kann verwendet werden, wenn der Kursbaustein erst zu einem bestimmten Datum geöffnet und gestartet werden soll.
+Das Freigabedatum kann verwendet werden, wenn der Kursbaustein erst zu einem bestimmten Datum geöffnet und gestartet werden soll. Der Baustein selbst wird aber bereits in der Kursstruktur angezeigt.
 
-Die Zeitangabe unter "Zu bearbeiten bis" bezieht sich auf die Frist für das Abholen bzw. den Start des Kursbausteins Aufgabe, nicht auf den Abgabetermin für den Dateiupload (siehe Workflow).
+Die Zeitangabe unter "Zu bearbeiten bis" bezieht sich auf die Frist für das Abholen bzw. den Start des Kursbausteins Aufgabe, nicht auf den Abgabetermin für den Dateiupload (siehe Tab Workflow).
 
 Bei der Bearbeitungszeit kann die geschätzte Zeit, die ein User für die Bearbeitung des Kursbausteins benötigt, eingetragen werden. Ein Eintrag ist vor allem relevant, wenn sich der Fortschritt im Kurs auf die Bearbeitungszeit der Kursbausteine bezieht (siehe Administration -> [Einstellungen](../learningresources/Course_Settings.de.md) -> Tab "Durchführung")
 
@@ -68,7 +68,9 @@ Der Tab Workflow ist der zentrale Tab zur Konfiguration des Kursbausteins Aufgab
 
 Aktivieren Sie einfach die Dinge die Sie benötigen und konfigurieren Sie im nächsten Schritt die dafür relevanten Tabs.
 
-Die Abschnitte Aufgabenstellung, Abgabe und Musterlösung können mit einem Datum versehen werden. Aufgabenstellung und Abgabe sind bis zum eingetragenen Datum verfügbar. Ergänzend zum normalen Abgabetermin kann auch noch ein verspäteter Abgabetermin angegeben werden.
+Die Abschnitte Aufgabenstellung, Abgabe, verspätete Abgabe und Musterlösung können mit einem Datum versehen werden. Aufgabenstellung und Abgabe sind bis zum eingetragenen Datum verfügbar. 
+
+Wird die verspätete Abgabe aktiviert und ein Termin hinterlegt können Teilnehmende noch bis zum verspäteten Termin ihre Lösung einreichen. Für den User wird sowohl der normale Abgabetermin als auch der verspätete Termin angezeigt bzw. die Termine die noch in der Zukunft liegen. Die verspätete Abgabe wird dem Betreuer bzw. Kursbesitzer im Bewertungsflow ebenfalls angezeigt. 
 
 Eine Musterlösung kann für alle Teilnehmenden oder nur diejenigen, die die Aufgabe bearbeitet haben, ab dem eingetragenen Datum bereitgestellt werden.
 
@@ -82,7 +84,7 @@ Im Bereich "Betreuung" des Tabs Workflow kann eine teilnehmerabhängige Betreuun
 
 Die differenzierte Zuordnung der Personen erfolgt allerdings bei geschlossenem Kurseditor.
 
-#### Spezifisches Gruppenaufgabe:
+#### Spezifisches Gruppenaufgabe (im Tab Workflow):
 In der Gruppenaufgabe legen Sie zusätzlich im Abschnitt "Aufgabentyp" fest, für welche Gruppen oder Lernbereiche der Aufgabenbaustein zugänglich ist. Dafür entfällt bei der Gruppenaufgabe die Betreuerzuordnung im Tab "Workflow" da sich diese Zuordnung automatisch durch die Betreuerzuordnung der Gruppe ergibt.  
 
 !!! warning "Achtung"
