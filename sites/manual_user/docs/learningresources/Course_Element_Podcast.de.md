@@ -24,7 +24,7 @@ Personen die berechtigt sind neue Episoden zu erstellen (vergl. [Podcast konfigu
 
 Eine Episode enthält immer genau _eine_ Audio- oder Video-Datei. Wählen Sie diese auf ihrem Computer aus, damit sie danach hochgeladen werden kann. Dies kann je nach Grösse der Datei eine gewisse Zeit dauern. Beachten Sie, dass nur Flash-kompatible Formate erlaubt sind (d.h. FLV, MP3, MP4, M4V, M4A und AAC).
 
-Das genaue Vorgehen wird in Schritt 4 der Seite [Wie erstelle ich einen Podcast?](../../../manual_how-to/docs/podcast/podcast.de.md) beschrieben. 
+Das genaue Vorgehen wird in Schritt 4 der Seite [Wie erstelle ich einen Podcast?](../../manual_how-to/podcast/podcast.de.md) beschrieben. 
 
 ## Episoden kommentieren
 

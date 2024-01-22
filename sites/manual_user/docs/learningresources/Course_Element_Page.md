@@ -17,13 +17,13 @@ Specialty / Note | Editing in a block-based editor is used in form learning reso
     
     There are different layout variants to choose from, in which the desired elements such as images, texts, tables and videos can be flexibly placed and thus the entire page can be designed.
 
-    ![course_element_page_run_view_de.png](../assets/course_element_page_run_view_v1_de.png){ class="shadow lightbox" }
+    ![course_element_page_run_view_de.png](../learningresources/assets/course_element_page_run_view_v1_de.png){ class="shadow lightbox" }
 
 === "Edit mode"
 
     In contrast to the HTML editor (course element "HTML page"), the display in the block-based content editor already largely corresponds to the preview.
 
-    ![course_element_page_edit_mode_de.png](../assets/course_element_page_edit_mode_v1_de.png){ class="shadow lightbox" }
+    ![course_element_page_edit_mode_de.png](../learningresources/assets/course_element_page_edit_mode_v1_de.png){ class="shadow lightbox" }
 
 
 

@@ -45,7 +45,7 @@ The video learning resources can be **integrated into course elements** and prov
   * [Course Element: Video](Course_Element_Video.md)
   * [Course Element: Videotask](Course_Element_Video_Task.md)
   * [Course Element: Page](Course_Element_Page.md)
-  * [Course Element: HTML Page](Course_Element_Single_Page.md)
+  * [Course Element: HTML Page](Course_Element_HTML_Page.md)
   * [Course Element: Video Livestream](Course_Element_Video_Livestream.md)
   * [Course Element: Podcast](Course_Element_Podcast.md)
   * [Course Element: Mediasite](Course_Element_Mediasite.md)

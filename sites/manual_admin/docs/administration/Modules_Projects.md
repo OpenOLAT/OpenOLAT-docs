@@ -14,15 +14,15 @@ The project members are usually made project members by the project manager. (As
 
 As soon as a project member is registered, they receive a link. After clicking on the link, a wizard guides the new project member through the login and registration process.
 
-![projekte_mitgliederverwaltung_aufrufen_v1_de.png](assets/projekte_mitgliederverwaltung_aufrufen_v1_de.png){ class="shadow lightbox" }
+![projekte_mitgliederverwaltung_aufrufen_v1_de.png](../administration/assets/projects_membersmanagement_open_v1_de.png){ class="shadow lightbox" }
 
-![projekte_mitgliederverwaltung_v1_de.png](assets/projekte_mitgliederverwaltung_v1_de.png){ class="shadow lightbox" }
+![projekte_mitgliederverwaltung_v1_de.png](../administration/assets/projects_membersmanagements_members_v1_de.png){ class="shadow lightbox" }
 
 ## External members
 
 If people who are not registered as users in OpenOlat are also to work on the project, they can be invited as external members.
 
-![projekte_mitgliederverwaltung_externe_einladen_v1_de.png](assets/projekte_mitgliederverwaltung_externe_einladen_v1_de.png){ class="shadow lightbox" }
+![projekte_mitgliederverwaltung_externe_einladen_v1_de.png](../administration/assets/projects_membersmanagement_add_external_v1_de.png){ class="shadow lightbox" }
 
 !!! info "Note"
 
@@ -33,7 +33,7 @@ If people who are not registered as users in OpenOlat are also to work on the pr
 
 Various roles can be assigned in a project.
 
-![projektrollen_v1_de.png](assets/projektrollen_v1_de.png){ class="shadow lightbox" }
+![projektrollen_v1_de.png](../administration/assets/projects_membersmanagement_roles_v1_de.png){ class="shadow lightbox" }
 
 
 **Owner (Project owner)**

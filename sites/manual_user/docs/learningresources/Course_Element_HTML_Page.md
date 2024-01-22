@@ -22,7 +22,7 @@ You can design an HTML page in the **HTML editor**, which you can find in the ta
 
     An HTML page can be designed primarily with images, text, tables and videos. Advanced authors can also insert HTML elements such as Accordion.
 
-    ![course_element_html_page_run_view_v1_de.png](../assets/course_element_html_page_run_view_v1_de.png){ class="shadow lightbox" }
+    ![course_element_html_page_run_view_v1_de.png](../learningresources/assets/course_element_html_page_run_view_v1_de.png){ class="shadow lightbox" }
 
 === "Editing in editor"
 
@@ -30,13 +30,13 @@ You can design an HTML page in the **HTML editor**, which you can find in the ta
 
     (Note: In the "Page" course element, on the other hand, the content editor is used, in which the content is compiled as blocks => Improved display on mobile devices)
 
-    ![course_element_html_page_editor_view2_v1_de.png](../assets/course_element_html_page_editor_view2_v1_de.png){ class="shadow lightbox" }
+    ![course_element_html_page_editor_view2_v1_de.png](../learningresources/assets/course_element_html_page_editor_view2_v1_de.png){ class="shadow lightbox" }
 
 === "HTML source code"
 
     Authors with HTML knowledge can also view and edit the generated HTML source code directly.
 
-    ![course_element_html_page_sourcecode_view_v1_de.png](../assets/course_element_html_page_sourcecode_view_v1_de.png){ class="shadow lightbox" }
+    ![course_element_html_page_sourcecode_view_v1_de.png](../learningresources/assets/course_element_html_page_sourcecode_view_v1_de.png){ class="shadow lightbox" }
 
 
 
