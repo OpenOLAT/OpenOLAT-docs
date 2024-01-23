@@ -13,18 +13,22 @@ Specialty / Note | also available as group task
 
 ## General
 
-Coaches can use the Task course element to organize actions and submission tasks. Learners upload their submissions to the OpenOlat course and receive feedback or assessment from the teacher. Revisions can also be requested. Sample solutions can also be provided using this course element.
+Teachers can use the course element Assignment to organize **file submissions** and **submission assignments**. Learners upload their submissions to the OpenOlat course and receive feedback or an assessment from the teacher. Revisions can also be requested or sample solutions provided.
 
-The central configuration of the course element takes place in the first step in the tab "Workflow". Here you determine which of the following options you want to use:
+The desired functionality of the course element "Task" can be configured by the author in the settings:
 
-* **Task Assignment**: assign tasks to course participants or groups.
+
+
+* **Learning Path**: In the "Learning path" tab (or in the "Workflow" tab for conventional courses), you can define whether the task is mandatory or voluntary. Compulsory assignments must be completed and will be collected after the set deadline and handed over to the teacher for assessment. For voluntary tasks, the user can decide for themselves whether they want to work on them. Furthermore, voluntary tasks are _not_ collected after the deadline.
+* **Workflow**: The central configuration of the course element takes place in the "Workflow" tab. You can then configure them further.
+* **Task Assignment**: Assign tasks to course participants or groups.
 * **Submission**: Learners should have the opportunity to submit tasks. This is where course participants create their solutions or upload them. 
 * **Review and Correction**: this is where course participants will find their tasks corrected as well as requests for revisions.
 * **Revision Period**: course participants upload their revised documents in this element. You as a coach can place multiple revision requests until the task is considered completed and the revision process closed.
-* **Sample solution**: provide course participants with sample solutions of their tasks. You can either create them directly in OpenOlat or upload files.
 * **Assessment**: Score, Passed/Failed and feedback can be deposited here individually.
-
-In the tab "Learning path" (or in the tab "Workflow" for conventional courses) you can also define whether the task is mandatory or voluntary. Mandatory tasks have to be completed and will be collected after the set deadline and handed over to the coach for evaluation. In the case of optional tasks, the user can decide for himself if he wants to work on them. Furthermore, optional tasks are _not_ collected after the deadline.
+* **Sample solution**: provide course participants with sample solutions of their tasks. You can either create them directly in OpenOlat or upload files.
+* **High Score**: Here you can set up the display of a winner's podium, histogram or a high score list.
+* **Reminders & To-dos**: You can use the reminder function to send reminders to course members in the form of an e-mail. To-dos are stored for course participants in the personal menu under "To-dos".
 
 !!! info "Note"
 
@@ -53,7 +57,7 @@ The Learning Path tab also defines which criterion must be met for the task to b
 ![Completion criterion](assets/task_completion_criterion.png){ class="shadow" }
 
 * **Visit course element**: User has clicked on the course element.
-* **Confirmation by participant:** User has clicked on the "I've read the content" button
+* **Confirmation by participant:** User has clicked on the "I've read the content" button.
 * **Score**: The user has achieved at least the specified score while completing the task.
 * **Passed**: The user has fulfilled the "passed" requirements configured in the "Grading" tab or the task has been manually set to passed by the coach.
 * **Execution done**: All steps of the task flow were run through.

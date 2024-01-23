@@ -1,17 +1,34 @@
 # Login Page
 
-Login to OpenOlat is possible anytime through your organizations access page. Please consider that the access configuration can vary from OpenOlat instance to instance.
+On the start page, you must prove that you have access authorization to OpenOlat. However, you can also gain access as a guest.
+Please note that the exact access options may vary slightly depending on the OpenOlat instance.
 
-First select your university on the intro page. You will then be passed on and invited to enter your access data. If you do not belong to any of the listed universities, choose "Login with OpenOlat account". Now you can use the full functionality of OpenOlat.
+Depending on the configuration and design, you will find the following on the home page
 
-In case you should forget your password you can contact your responsible helpdesk.
+* an input field for the user name
+* an input field for the password (for safety reasons, usually in a second step)
+* depending on the security level (with or without passkey), a request for confirmation
+* a button for the OpenOlat login
+* possibly various buttons from other authentication services
+* a button/link for self-registration
+* a button for access as a guest
+* a button/link to request a new password
+* a link to your support (telephone number, e-mail address)
+* a link to help pages
+
+The homepage is often set up so that you can first select your educational institution or a department. You will then be redirected and asked to enter your access data.
+
+It is also possible for you to automatically receive an access authorization for OpenOlat after a one-time registration at your educational institution and gain direct access to OpenOlat without further registration (single sign-on).
+
+If you do not belong to any of the listed educational institutions and do not wish to use any of the authentication services offered, select "Login with OpenOlat account".
+
+If you no longer have your access data (user name and/or password) to hand, please contact your responsible support team.
 
 ![login_v1_de.png](assets/login_v1_de.png){ class=" shadow lightbox" }
 
 ## Guest Access
 
-You can use OpenOlat as a guest as well. The so-called guest access provides an insight into OpenOlat with limited access to certain features: you will only have access to learning content that is explicitly open to the public. In order to have access to other material and activities you will have to register first. Further information to the guest access can be found
-[here](../basic_concepts/guest_access.md).
+You can use OpenOlat as a guest as well. The so-called guest access provides an insight into OpenOlat with limited access to certain features: you will only have access to learning content that is explicitly open to the public. In order to have access to other material and activities you will have to register first. Further information to the guest access can be found [here](../basic_concepts/guest_access.md).
 
 ## Browser Check {: #browsercheck}
 

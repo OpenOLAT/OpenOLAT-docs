@@ -8,9 +8,10 @@ The tasks to be completed (to-dos) can be found in several places in OpenOlat:
 Here you will find all your personal to-dos summarized in an overview.
 * within a [project](../area_modules/Project_Todos.md)<br>
 These are tasks that need to be completed as part of the project.
-* in the course element Task<br>
-as of Release 18.2
-* ... (Further implementations are being planned.)
+* within a [Course](../learningresources/Course_todos.md)
+In the course menu **Administration > To-dos**, to-dos can be created that relate to the currently edited course.
+* in the [course element "Task"](../learningresources/Course_Element_Task.md)
+(as of Release 18.2)
 
 ## Components of a to-do
 

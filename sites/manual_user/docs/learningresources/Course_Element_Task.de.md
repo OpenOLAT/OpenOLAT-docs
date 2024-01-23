@@ -14,15 +14,15 @@ Spezialität / Hinweis | auch als Gruppenaufgabe verfügbar
 ## Allgemeines
 
 Mit Hilfe des Kursbausteins Aufgabe können Lehrende **Dateiabgaben** und **Einsendeaufgaben** organisieren. Lernende laden dabei ihre Einreichungen in den OpenOlat Kurs hoch und erhalten vom Lehrenden ein Feedback bzw. eine Bewertung. Ebenso können Überarbeitungen eingefordert oder Musterlösungen bereitgestellt werden.
-
+****
 Die gewünschte Funktionsweise des Kursbausteins "Aufgabe" lässt sich von den Autor:innen in den Einstellungen konfigurieren:  
 
-* **Tab Lernpfad**: Im Tab "Lernpfad" (bzw. im Tab "Workflow" bei herkömmlichen Kursen) kann definiert werden ob die Aufgabe obligatorisch oder freiwillig ist. Obligatorische Aufgaben müssen bearbeitet werden und werden nach Ablauf des eingestellten Abgabetermins eingezogen und zur Bewertung an den Lehrenden übergeben. Bei freiwilligen Aufgaben kann der User selbst entscheiden ob er sie bearbeiten möchte. Ferner werden freiwillige Aufgaben nach der Deadline _nicht_ eingezogen.
+* **Tab Lernpfad**: Im Tab "Lernpfad" (bzw. im Tab "Workflow" bei herkömmlichen Kursen) kann definiert werden, ob die Aufgabe obligatorisch oder freiwillig ist. Obligatorische Aufgaben müssen bearbeitet werden und werden nach Ablauf des eingestellten Abgabetermins eingezogen und zur Bewertung an den Lehrenden übergeben. Bei freiwilligen Aufgaben kann der User selbst entscheiden ob er sie bearbeiten möchte. Ferner werden freiwillige Aufgaben nach der Deadline _nicht_ eingezogen.
 * **Tab Workflow**: Die zentrale Konfiguration des Kursbausteins erfolgt im Tab "Workflow". Hier bestimmen Sie, welche der folgenden Optionen Sie verwenden möchten. Anschliessend können Sie diese weiter konfigurieren.
 * **Tab Aufgabenstellung**: Stellen Sie eine Aufgabenstellung direkt im Kursbaustein zur Verfügung.
 * **Tab Abgabe**: Lernende sollen die Möglichkeit haben ihre Bearbeitung einzureichen. Kursteilnehmende erstellen hier ihre Lösungen oder laden diese hoch.
 * **Tab Rückgabe und Feedback**: Korrigierte Aufgaben und Überarbeitungsanforderungen können hier den Teilnehmern zurückgegeben werden.<br>
-**Überarbeitung**: Teilnehmende können wenn nötig eine Überarbeitungsmöglichkeit erhalten. Lehrende können weitere Korrekturanforderungen stellen, bis sie die Aufgabe als erledigt betrachten und den Revisionsprozess schliessen.
+* **Überarbeitung**: Teilnehmende können wenn nötig eine Überarbeitungsmöglichkeit erhalten. Lehrende können weitere Korrekturanforderungen stellen, bis sie die Aufgabe als erledigt betrachten und den Revisionsprozess schliessen.
 * **Tab Bewertung**: Punkte, bestanden/nicht bestanden und Feedbacks können individuell hinterlegt werden.
 * **Tab Musterlösung**: Stellen Sie allen Teilnehmenden eine Musterlösung für die Aufgabe zur Verfügung. Musterlösungen können als Datei hochgeladen oder direkt in OpenOlat erstellt werden.
 * **Tab HighScore**: Hier können Sie die Anzeige von Siegertreppchen, Histogramm oder einer Highscore-Liste einrichten.
@@ -45,9 +45,9 @@ Dieser Tab ist nur im Lernpfad-Kurs verfügbar.
 
 Hier definieren Sie ob die Bearbeitung der Aufgabe obligatorisch oder freiwillig ist oder ob der Kursbaustein nicht angezeigt (Ausgenommen) werden soll. Obligatorische Aufgaben werden bei der Fortschrittsanzeige berücksichtigt, freiwillige nicht.
 
-Das Freigabedatum kann verwendet werden, wenn der Kursbaustein erst zu einem bestimmten Datum geöffnet und gestartet werden soll.
+Das Freigabedatum kann verwendet werden, wenn der Kursbaustein erst zu einem bestimmten Datum geöffnet und gestartet werden soll. Der Baustein selbst wird aber bereits in der Kursstruktur angezeigt.
 
-Die Zeitangabe unter "Zu bearbeiten bis" bezieht sich auf die Frist für das Abholen bzw. den Start des Kursbausteins Aufgabe, nicht auf den Abgabetermin für den Dateiupload (siehe Workflow).
+Die Zeitangabe unter "Zu bearbeiten bis" bezieht sich auf die Frist für das Abholen bzw. den Start des Kursbausteins Aufgabe, nicht auf den Abgabetermin für den Dateiupload (siehe Tab Workflow).
 
 Bei der Bearbeitungszeit kann die geschätzte Zeit, die ein User für die Bearbeitung des Kursbausteins benötigt, eingetragen werden. Ein Eintrag ist vor allem relevant, wenn sich der Fortschritt im Kurs auf die Bearbeitungszeit der Kursbausteine bezieht (siehe Administration -> [Einstellungen](../learningresources/Course_Settings.de.md) -> Tab "Durchführung")
 
@@ -56,7 +56,7 @@ Im Tab "Lernpfad" wird auch definiert, welches Kriterium erfüllt sein muss, dam
 ![Erledigungskriterium](assets/task_completion_criterion_DE.png){ class="shadow" }
 
 * **Kursbaustein öffnen**: User hat auf den Kursbaustein geklickt.
-* **Bestätigung durch den Benutzer**: User hat auf die Lesebestätigung geklickt
+* **Bestätigung durch den Benutzer**: User hat auf die Lesebestätigung geklickt.
 * **Punkte**: Der User hat bei der Bearbeitung der Aufgabe mindestens die angegebene Punktzahl erreicht.
 * **Bestanden**: Der User hat die im Tab "Bewertung" konfigurierten Anforderungen an "Bestanden" erfüllt bzw. die Aufgabe wurde manuell vom Betreuer auf bestanden gesetzt.
 * **Durchführung erledigt**: Alle Schritte des Aufgabenflows wurden durchlaufen.
@@ -71,7 +71,9 @@ Der Tab Workflow ist der zentrale Tab zur Konfiguration des Kursbausteins Aufgab
 
 Aktivieren Sie einfach die Dinge die Sie benötigen und konfigurieren Sie im nächsten Schritt die dafür relevanten Tabs.
 
-Die Abschnitte Aufgabenstellung, Abgabe und Musterlösung können mit einem Datum versehen werden. Aufgabenstellung und Abgabe sind bis zum eingetragenen Datum verfügbar. Ergänzend zum normalen Abgabetermin kann auch noch ein verspäteter Abgabetermin angegeben werden.
+Die Abschnitte Aufgabenstellung, Abgabe, verspätete Abgabe und Musterlösung können mit einem Datum versehen werden. Aufgabenstellung und Abgabe sind bis zum eingetragenen Datum verfügbar. 
+
+Wird die verspätete Abgabe aktiviert und ein Termin hinterlegt können Teilnehmende noch bis zum verspäteten Termin ihre Lösung einreichen. Für den User wird sowohl der normale Abgabetermin als auch der verspätete Termin angezeigt bzw. die Termine die noch in der Zukunft liegen. Die verspätete Abgabe wird dem Betreuer bzw. Kursbesitzer im Bewertungsflow ebenfalls angezeigt.
 
 Eine Musterlösung kann für alle Teilnehmenden oder nur diejenigen, die die Aufgabe bearbeitet haben, ab dem eingetragenen Datum bereitgestellt werden.
 
@@ -85,7 +87,7 @@ Im Bereich "Betreuung" des Tabs Workflow kann eine teilnehmerabhängige Betreuun
 
 Die differenzierte Zuordnung der Personen erfolgt allerdings bei geschlossenem Kurseditor.
 
-#### Spezifisches Gruppenaufgabe:
+#### Spezifische Gruppenaufgabe (im Tab Workflow):
 In der Gruppenaufgabe legen Sie zusätzlich im Abschnitt "Aufgabentyp" fest, für welche Gruppen oder Lernbereiche der Aufgabenbaustein zugänglich ist. Dafür entfällt bei der Gruppenaufgabe die Betreuerzuordnung im Tab "Workflow" da sich diese Zuordnung automatisch durch die Betreuerzuordnung der Gruppe ergibt.  
 
 !!! warning "Achtung"
@@ -196,13 +198,13 @@ Erstellen Sie bei Bedarf Erinnerungen zur Bearbeitung des Kursbausteins für die
 
 Weitere Informationen zu Erinnerungen finden Sie [hier](../learningresources/Course_Reminders.de.md).
 
-Als **Autor:in** können Sie eine automatische Erstellung von To-dos aktivieren (ab Release 18.2 vefügbar.). Wenn dann für einen der Workflow-Schritte eine Abgabefrist eingerichtet wurde (Deadline), wird für die Kursteilnehmer:innen automatisch ein To-do erstellt.
+Als **Autor:in** können Sie eine automatische Erstellung von To-dos aktivieren (ab Release 18.2 vefügbar). Wenn dann für einen der Workflow-Schritte eine Abgabefrist eingerichtet wurde (Deadline), wird für die Kursteilnehmer:innen automatisch ein To-do erstellt.
 
 Die **Teilnehmer:innen** finden die To-dos in ihrem persönlichen Menü unter ihren To-dos.
 
 **Betreuer:innen** verschaffen sich am besten unter **Administration > To-dos** einen Überblick über den Stand der To-Dos. 
 
-Weitere Informationen zu To-dos finden Sie [hier](../basic_concepts/To_dos_Basics.de.md).
+Weitere Informationen zu To-dos finden Sie [hier](../basic_concepts/To_Dos_Basics.de.md).
 
 !!! note "Hinweis"
 
@@ -243,11 +245,11 @@ Wenn Sie eine Bearbeitung eingereicht haben und der Betreuer noch keine Rückmel
 
 ![Info: Noch keine Rückmeldung vom Betreuer](assets/Rueckgabe_Info.png)
 
-Sobald Ihr Betreuer ein Feedback erstellt hat finden Sie im Schritt "Rückgabe und Feedback" die Feedback Information.
+Sobald Ihr Betreuer ein Feedback erstellt hat, finden Sie im Schritt "Rückgabe und Feedback" die Feedback Information.
 
 ![Info: Bearbeitung wurde akzeptiert und es gibt ein Feedback](assets/Rueckgabe_Info_akzeptiert.png)
 
-Wenn Ihre Bearbeitung nicht ausreichend war und der Betreuer eine Überarbeitung einfordert erscheint ebenfalls eine entsprechende Anzeige und Sie haben die Möglichkeit, eine neue Bearbeitung im Schritt "Überarbeitung" einzureichen. Eventuell wird dafür eine Deadline gesetzt.
+Wenn Ihre Bearbeitung nicht ausreichend war und der Betreuer eine Überarbeitung einfordert, erscheint ebenfalls eine entsprechende Anzeige und Sie haben die Möglichkeit, eine neue Bearbeitung im Schritt "Überarbeitung" einzureichen. Eventuell wird dafür eine Deadline gesetzt.
 
 ![Info: Die Abgabe wurde zur Überarbeitung zurückgewiesen](assets/Rueckgabe_ueberareiten.png)
 
@@ -257,7 +259,7 @@ Wenn Sie eine Überarbeitung vornehmen müssen, gehen Sie wie unter "Lösung abg
 
 Sobald er die Aufgabe als gelöst ansieht, wird er die Überarbeitungsperiode schliessen. Zu jedem Zeitpunkt sehen Sie welche Dokumente von Ihnen und Ihrem Betreuer abgegeben wurden und können diese einsehen.
 
-### "Musterlösung betrachten
+### Musterlösung betrachten
 
 Ihr Dozent kann der Aufgabe eine Musterlösung anfügen, welche zu einem von ihm festgelegten Zeitpunkt sichtbar wird, aber immer erst _nachdem_ ihre Lösung vom Betreuer akzeptiert wurde. Klicken Sie auf den Dateinamen bzw. den Button "Musterlösungen herunterladen", um die Musterlösung anzuschauen oder herunterzuladen.
 
@@ -269,6 +271,6 @@ Die Bewertung kann folgende individuelle Informationen beinhalten: Eine Leistung
 
 ## Gruppenaufgabe User Perspektive
 
-Die Ansicht für OpenOlat Aufgaben und Gruppenaufgaben ist dieselbe. Sämtliche Entscheidungen und Einsendungen die während des Workflows getroffen werden, gelten jedoch immer für die gesamte Gruppe. Deshalb ist es wichtig, sich in der Gruppe abzustimmen _bevor_ eine endgültige Abgabe erfolgt. Gleichzeitig sollte man darauf achten, keine Deadline zu verpassen.
+Die Ansicht für OpenOlat Aufgaben und Gruppenaufgaben ist dieselbe. Sämtliche Entscheidungen und Einsendungen, die während des Workflows getroffen werden, gelten jedoch immer für die gesamte Gruppe. Deshalb ist es wichtig, sich in der Gruppe abzustimmen _bevor_ eine endgültige Abgabe erfolgt. Gleichzeitig sollte man darauf achten, keine Deadline zu verpassen.
 
 Die Rückmeldungen des Betreuers werden für die gesamte Gruppe ebenfalls hier bereitgestellt. Bei Bedarf kann der Betreuer aber auch individuelle Punkte oder Feedbacks innerhalb einer Gruppenaufgabe verteilen.
