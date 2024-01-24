@@ -126,6 +126,7 @@ plugins:
           Assessing tasks and group tasks : Aufgaben und Gruppenaufgaben bewerten
           Assessing tests : Tests bewerten
           Assessment : Bewertung
+          Assessment management : Prüfungsverwaltung
           Assessment mode : Prüfungsmodus
           Assessment of course modules : Bewertung von Kursbausteinen
           Assessment of learners : Lernende bewerten
@@ -227,6 +228,7 @@ plugins:
           Customizing : Customizing
           Dashboard : Dashboard
           Data archiving : Datenarchivierung
+          Data collection previews : Datenerhebungsvorschau
           Data Management : Handhabung der Daten
           Data protection : Datenschutz
           Decisions : Entscheide
