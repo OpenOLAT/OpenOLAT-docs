@@ -1,5 +1,12 @@
 # Prüfungsmodus
 
+!!! note "Hinweis"
+
+    Vor Version 18.2 war die Konfiguration des Prüfungsmodus eine separate Menüoption in der Kursadministration. Ab Version 18.2 befindet sich die Konfiguration des Prüfungsmodus unter <br> **Administration > Prüfungsverwaltung > Tab "Prüfungsmodus"** <br>
+    Im Handbuch finden Sie deshalb die Beschreibung [hier](Assessment_Management.de.md).
+
+
+
 ## Im Kioskmodus Prüfungen und Tests durchführen
 
 Mit dem Prüfungsmodus erstellen Sie Prüfungskonfigurationen, in denen Tests und Prüfungen in geschütztem Modus während einer festgelegten Zeit durchgeführt werden. Dabei ist nur der Zugriff auf zuvor festgelegte Kursbausteine im betroffenen Kurs gestattet. Alle weiteren Funktionen in OpenOlat wie andere Kurse, Gruppen, Notizen etc. werden während der Prüfungsdauer ausgeblendet. Nur ein Logout ist während der Prüfung möglich.
