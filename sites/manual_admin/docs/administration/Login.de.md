@@ -16,9 +16,7 @@ fesgelegt werden wie oft Benutzer ihr Passwort ändern müssen.
 
 ## Cloud Login
 
-Es besteht die Möglichkeit die Verbindung mit sozialen Netzwerken, wie
-LinkedIn, X, Google, Facebook usw.  für die Authentifizierung
-herzustellen.
+Es besteht die Möglichkeit die Verbindung mit sozialen Netzwerken, wie LinkedIn, X, Google, Facebook usw.  für die Authentifizierung herzustellen.
 
 ## Anonyme und externe Benutzer:innen
 
@@ -34,9 +32,7 @@ Selbstregistrierung eingeschränkt werden.
 
 ## SMS
 
-Hier besteht die Möglichkeit einen SMS Dienst zu konfigurieren.
-Benachrichtigungen können dann auch per SMS verschickt werden. Zu beachten ist
-dabei, dass in diesem Kontext Kosten für den SMS Versand anfallen.
+Hier besteht die Möglichkeit einen SMS Dienst zu konfigurieren. Benachrichtigungen können dann auch per SMS verschickt werden. Zu beachten ist dabei, dass in diesem Kontext Kosten für den SMS Versand anfallen.
 
 
 

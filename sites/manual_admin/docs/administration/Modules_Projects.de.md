@@ -2,7 +2,7 @@
 
 :octicons-tag-24: Release 18.0
 
-Administratori:innen können
+Administrator:innen können
 
 * das Modul "Projekt" **aktivieren**
 * **Berechtigungen** für die projektübergreifenden Rollen vergeben (Organisationsrollen)
