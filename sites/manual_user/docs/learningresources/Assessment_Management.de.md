@@ -120,7 +120,7 @@ Wird manuell die Prüfung verspätet gestartet, dann verschiebt sich das Prüfun
 
 Ein laufender Prüfungsmodus kann von den Betreuer:innen im Bewertungswerkzeug verfolgt werden. 
 
-Bewertungen z.B. für Einsendeaufgaben oder Freitext Elemente von Tests können auch direkt bewertet und für die Teilnehmer freigeschaltet bzw. sichtbar gemacht werden. So wird direkt eine Prüfungseinsicht und –besprechung ermöglicht. 
+Bewertungen, z.B. für Einsendeaufgaben oder Freitext Elemente von Tests, können auch direkt bewertet und für die Teilnehmer freigeschaltet bzw. sichtbar gemacht werden. So wird direkt eine Prüfungseinsicht und –besprechung ermöglicht. 
 
 <br>
 
@@ -133,15 +133,46 @@ Bei manuellem Modus können Betreuer:innen und Kursbesitzer:innen die Prüfung i
 ![assessment_management_exam_stop_v1_de.png](assets/assessment_management_exam_stop_v1_de.png){ class="shadow lightbox" }
 
 
-Der Prüfunsmodus wird auch beendet, wenn der entsprechende Kurs beendet oder gelöscht wird.
+Der Prüfungsmodus wird auch beendet, wenn der entsprechende Kurs beendet oder gelöscht wird.
 
 <br>
 
 ## Tab "Konfiguration Prüfungsansicht"
 
-!!! warning "Achtung"
 
-    Dieser Abschnitt ist noch in Bearbeitung.
+### Um was geht es bei einer Prüfungseinsicht?
+
+Prüfungsteilnehmer:innen haben gelegentlich den Wunsch, nicht nur ihre Prüfungsergebnisse zu erfahren, sondern die absolvierte Prüfung nochmals im Original zu sehen. Es ist ein legitimes Anliegen um nachvollziehen zu können, wie das Prüfungsergebnis (Punkte/Noten) zustande kam. 
+
+Dem steht aber entgegen, dass die Teilnehmer die Prüfung nicht ausgehändigt bekommen sollen und auch keine Kopie davon erhalten oder selbst erstellen sollen (Sreenshots). Lediglich eine kurze Einsichtnahme soll gestattet werden um Verbreitung manipulierter Kopien auszuschliessen.  
+
+Deshalb gibt es in OpenOlat ein spezielles Werkzeug zur Prüfungseinsicht. Sie definieren
+
+* ein festes Zeitfenster,
+* während diesem Zeitfenster ist der Prüfungsmodus aktiv.
+
+Sie erstellen einen Termin zur Prüfungseinsicht unter<br>
+**Administration > Prüfungsverwaltung > Tab "Konfiguration Prüfungsansicht"**<br>
+Dort fügen Sie durch Klick auf den **Button "Prüfungseinsicht hinzufügen"** einen neuen Termin zur Prüfungseinsicht hinzu. Bereits definierte Zeitfenster werden aufgelistet.
+
+![assessment_management_tab_inspection_v1_de.png](assets/assessment_management_tab_inspection_v1_de.png){ class="shadow lightbox" }
 
 
+### Tab "Allgemein"
 
+Zunächst definieren Sie, wie lange die Einsichtnahme dauern darf und was während der Prüfungseinsicht gezeigt werden soll.
+
+![assessment_management_inspection_general2_v1_de.png](assets/assessment_management_inspection_general2_v1_de.png){ class="shadow lightbox" }
+
+
+### Tab "Zugang"
+
+Im Tab "Zugang" kann die Einsichtnahme durch Angabe einer oder mehrerer IP-Adressen auf ganz bestimmte Geräte eingeschränkt werden. (Z.B. nur ein ganz bestimmter Computer eines Betreuers /einer Betreuerin.)
+
+![assessment_management_inspection_access_v1_de.png](assets/assessment_management_inspection_access_v1_de.png){ class="shadow lightbox" }
+
+### Tab "Safe Exam Browser (SEB)"
+
+Durch Verwendung des SEB können alle anderen Aktivitäten auf dem Computer während der Einsichtnahme gesperrt werden.  
+
+![assessment_management_inspection_seb_v1_de.png](assets/assessment_management_inspection_seb_v1_de.png){ class="shadow lightbox" }
