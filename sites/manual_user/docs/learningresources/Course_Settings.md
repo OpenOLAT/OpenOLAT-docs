@@ -175,6 +175,9 @@ Signatures, logos or similar can be integrated into the certificate as static gr
 
       * $score
       * $status
+      * $grade
+      * $gradeLabel
+      * $gradeCutValue
 
     _Performance data (Learning path course only):_
 

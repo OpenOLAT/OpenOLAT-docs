@@ -178,6 +178,9 @@ Unterschriften, Logos o.ä. können über die optionalen Variablen als statische
 
       * $score
       * $status
+      * $grade
+      * $gradeLabel
+      * $gradeCutValue
 
     _Daten zur Leistung (nur Lernpfadkurs):_
 
