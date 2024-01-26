@@ -161,12 +161,15 @@ nav:
           - Lectures teacherview : "learningresources/Lectures_Teacher_view.md"
         - To-dos : "learningresources/Course_todos.md"
         - Course Reminders: "learningresources/Course_Reminders.md"
-        - Assessment management: "learningresources/Assessment_Management.md"
+        - Assessment management:
+          - Overview: "learningresources/Assessment_Management.md"
+          - Assessment mode: "learningresources/Assessment_mode.md"
+          - Assessment inspection: "learningresources/Assessment_inspection.md"
         - Data collection previews: "learningresources/Data_Collection_Previews.md"
         - Data archiving: "learningresources/Data_archiving.md"
         - Record of Course Activities: "learningresources/Record_of_Course_Activities.md"
         - Exams: "learningresources/Exams.md"
-        - Assessment mode: "learningresources/Assessment_mode.md"
+        - Assessment mode: "learningresources/Assessment_mode_v1.md"
       - Settings:
         - Overview: "learningresources/Course_Settings.md"
         - LTI access: "learningresources/LTI_Share_courses.md"
