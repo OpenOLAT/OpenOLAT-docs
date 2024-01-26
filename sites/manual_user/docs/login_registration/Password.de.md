@@ -14,11 +14,9 @@ Mehr dazu [hier](../personal_menu/Password.de.md).
 
 ## Passwortvergabe durch Benutzerverwalter:innen
 
-Es kommt oft vor, dass jemand sein Passwort vergessen hat und um die Vergabe einen neuen Passwortes bittet. Wenn Sie die Rolle eines/einer Benutzerverwalter:in haben oder Administrator:in sind, können Sie Passwörter neu setzen:<br>
+Es kommt oft vor, dass jemand sein Passwort vergessen hat und um die Vergabe eines neuen Passwortes bittet. Wenn Sie die Rolle eines/einer Benutzerverwalter:in haben oder Administrator:in sind, können Sie Passwörter neu setzen:<br>
 **Benutzerverwaltung > Benutzer wählen > Tab "Passwort"**
 
 ![password_admin_v1_de.png](assets/password_admin_v1_de.png){ class=" shadow lightbox" }
 
-## Passwortvergabe durch den Syncher
 
-tbd

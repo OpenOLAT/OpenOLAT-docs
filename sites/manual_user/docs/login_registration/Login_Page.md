@@ -20,9 +20,9 @@ The homepage is often set up so that you can first select your educational insti
 
 It is also possible for you to automatically receive an access authorization for OpenOlat after a one-time registration at your educational institution and gain direct access to OpenOlat without further registration (single sign-on).
 
-If you do not belong to any of the listed educational institutions and do not wish to use any of the authentication services offered, select "Login with OpenOlat account".
+If you do not wish to use any of the authentication services offered, select the dircet login with OpenOlat account.
 
-If you no longer have your access data (user name and/or password) to hand, please contact your responsible support team.
+If you no longer have your access data (user name and/or password) to hand, please click on "Forgotten password" or contact your responsible support team.
 
 ![login_v1_de.png](assets/login_v1_de.png){ class=" shadow lightbox" }
 
@@ -34,12 +34,11 @@ You can use OpenOlat as a guest as well. The so-called guest access provides an 
 
 OpenOlat is optimized for the following browser software (mobile or desktop):
 
-  * [Google Chrome](http://www.google.com/chrome/)
-  * [Apple Safari](http://www.apple.com/safari/)
-  * [Microsoft Edge](https://www.microsoft.com/edge)
-  * [Firefox](http://www.mozilla.org/firefox/)
+* [Apple Safari](https://www.apple.com/safari/)
+* [Firefox](https://www.mozilla.org/firefox/)
+* [Microsoft Edge](https://www.microsoft.com/edge)
+* [Google Chrome](https://www.google.com/chrome/)
 
-Internet Explorer in version 6 to 11 by Microsoft is not fully supported anymore. Microsoft dropped support for these versions, and security updates are no longer provided for. Should you use an older browser which is not supported anymore the corresponding warning will be shown by the login. Then you can use OpenOlat at your own risk or update your browser. This warning can be hidden through CSS by your system administrator.  
 
 ## Cookies & Javascript
 
@@ -51,9 +50,5 @@ After your login you will navigate either to
 
 * your personal homepage in OpenOlat, 
 * an info page, a page which usually contains general information on various topics, 
-* to the portal or 
+* to the [OpenOlat portal](../basic_concepts/Portal_configuration.md) or 
 * a landing page defined by you. 
-
-!!! Info
-
-    If you cannot see the "portal" it was most probably disabled by the system administrator.

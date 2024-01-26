@@ -13,7 +13,7 @@ Bei der lokalen Authentifizierung werden Name und Passwort in OpenOlat (lokal) g
 ## Externe Authentifizierung
 
 Bei der externen Authentifizierung wird das Passwort NICHT in OpenOlat gespeichert, sondern in einem externen Tool gesetzt und gespeichert.
-OpenOlat fragt bei dem externen Tool nach, ob dieser Anmeldenamen zum Zutritt berechtigt ist.
+OpenOlat fragt bei dem externen Tool nach, ob dieser Anmeldenamen zum Zutritt berechtigt ist (LDAP, oAuth, Shibboleth).
 
 ## 2-Faktoren-Authentifizierung
 
@@ -26,5 +26,7 @@ Wenn beide Faktoren erfüllt sind, wird der Zugang frei gegeben.
 
 ## Passkey
 
-Passkey könnte man als Zwitter-Lösung bezeichnen, sowohl lokale als auch externe Authenitifizierung Genaueres finden Sie in einem [separaten Abschnitt](../login_registration/Passkey.de.md) hier im Handbuch.
+Passkey ist eine Alternative zu Passwörtern. Anstelle der Eingabe eines Passworts durch eine Person wird ein im Gerät gespeicherter Key verwendet. (Gerätegebundene statt personengebundene Authentifizierung.)
+
+Genaueres finden Sie in einem [separaten Abschnitt](../login_registration/Passkey.de.md) hier im Handbuch.
 

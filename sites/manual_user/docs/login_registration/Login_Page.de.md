@@ -22,9 +22,9 @@ Oft ist die Einstiegsseite auch so eingerichtet, dass Sie zuerst Ihre Bildungsei
 
 Es ist auch möglich, dass Sie nach einer einmaligen Anmeldung in Ihrer Bildungseinrichtung automatisch eine Zutrittsbereichtigung zu OpenOlat erhalten haben und ohne weitere Anmeldung direkt Zugang zu OpenOlat erhalten (Single Sign On).
 
-Wenn Sie keiner aufgelisteten Bildungseinrichtungen angehören und keinen der angebotenen Authentifizierungsdienste nutzen wollen, wählen Sie die "Anmeldung mit OpenOlat-Konto".
+Wenn Sie keinen der angebotenen externen Authentifizierungsdienste nutzen wollen, wählen Sie die direkte Anmeldung mit dem OpenOlat-Konto.
 
-Sollten Sie ihre Zugangsdaten (Benutzername und/oder Passwort) nicht mehr zu Hand haben, wenden Sie sich bitte an Ihren zuständigen Support.
+Sollten Sie ihre Zugangsdaten (Benutzername und/oder Passwort) nicht mehr zu Hand haben, klicken Sie bitte auf "Passwort vergessen" oder wenden Sie sich an Ihren zuständigen Support.
 
 ![login_v1_de.png](assets/login_v1_de.png){ class=" shadow lightbox" }
   
@@ -36,12 +36,10 @@ Alternativ können Sie OpenOlat auch als Gast besuchen. Der Gastzugang gewährt 
 
 OpenOlat funktioniert optimal, wenn Sie mit folgenden Browsern arbeiten (Mobile oder Desktop):
 
-* [Google Chrome](http://www.google.com/chrome/)
-* [Apple Safari](http://www.apple.com/safari/)
+* [Apple Safari](https://www.apple.com/safari/)
+* [Firefox](https://www.mozilla.org/firefox/)
 * [Microsoft Edge](https://www.microsoft.com/edge)
-* [Firefox](http://www.mozilla.org/firefox/)
-
-Der Internet Explorer in der Version 6 bis 11 von Microsoft wird nicht mehr durchgängig unterstützt. Diese Versionen werden von Microsoft nicht mehr weiter gepflegt. Sollten Sie einen älteren Browser verwenden der nicht mehr unterstützt wird erscheint beim Login eine entsprechende Warnung. Sie können dann OpenOlat auf eigene Gefahr nutzen oder Ihren Browser aktualisieren. Diese Warnung kann auch vom Administrator per CSS ausgeblendet werden.
+* [Google Chrome](https://www.google.com/chrome/)
 
 ## Cookies & Javascript
 
@@ -53,9 +51,6 @@ Nach dem Login gelangen Sie entweder
 
 * auf Ihre persönliche Startseite in OpenOlat, 
 * auf eine Infoseite, eine Seite die in der Regel generelle Informationen zu verschiedenen Themen enthält, 
-* das OpenOlat Portal oder 
+* das [OpenOlat Portal](../basic_concepts/Portal_configuration.de.md) oder 
 * auf eine von Ihnen selbst festgelegte Startseite. 
 
-!!! Info "Info"
-
-    Falls Sie den Tab "Portal" nicht sehen, wurde diese Seite von ihrem Systemadministrator systemweit abgeschaltet.
