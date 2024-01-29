@@ -52,11 +52,13 @@ Durch Verwendung des SEB können alle anderen Aktivitäten auf dem Computer wäh
 
 Als Betreuer:in organisieren Sie im **Bewertungswerkzeug** die Einsichtnahmen für einzelne oder mehrere Prüfungsteilnehmer. (Z.B nur für diejenigen Prüfungsteilnehmer, die ausdrücklich eine Einsichtnahme wünschen.)
 
-*screen: Bewertungswerkzeug, Tab Prüfungseinsicht, Menü links markiert* 
+![assessment_management_inspection_new_v1_de.png](assets/assessment_management_inspection_new_v1_de.png){ class="shadow lightbox" }
 
-Bestimmen Sie den Termin und wählen Sie eines der von dem/der Kursbesitzer:in vordefnierten Ablaufschemata. So wird sichergestellt, dass für alle Einsichtnehmenden die gleichen Bedingungen herrschen.
+Ein Wizard führt Sie durch die Schritte.
+Bestimmen Sie z.B. den Termin und wählen Sie eines der von dem/der Kursbesitzer:in vordefnierten Ablaufschemata (Konfiguration). So wird sichergestellt, dass für alle Einsichtnehmenden die gleichen Bedingungen herrschen.
 
-*screen Bewertungswerkzeug, Prüfungseinsicht, Terminbestimmung*
+![assessment_management_inspection_select_config_v1_de.png](assets/assessment_management_inspection_select_config_v1_de.png){ class="shadow lightbox" }
+
 
 Die Termine zur Einsichtnahme können bereits vor Durchführung der Prüfung geplant werden.
 
@@ -64,25 +66,29 @@ Die Termine zur Einsichtnahme können bereits vor Durchführung der Prüfung gep
 
 Es empfiehlt sich, die Einsichtnahme als Betreuer:in an den geplanten Terminen zu begleiten.
 
-Die in der Konfiguration (von dem/der Kursbsitzer:in) vorgegebene Maximalzeit für die Einsichtnahme muss nicht zwingend bis zum Ende genutzt werden. Als Betreuer:in können Sie die Einsichtnahme vorzeitig abbrechen, wenn Sie z.B. unerlaubtes Verhalten bemerken. (Wenn z.B. jemand unerlaubt Fotos mit dem Mobil macht.)
+Die in der Konfiguration (von dem/der Kursbesitzer:in) vorgegebene Maximalzeit für die Einsichtnahme muss nicht zwingend bis zum Ende genutzt werden. Als Betreuer:in können Sie die Einsichtnahme vorzeitig abbrechen, wenn Sie z.B. unerlaubtes Verhalten bemerken. (Wenn z.B. jemand unerlaubt Fotos mit dem Mobil macht.)
 
-*screen Prüfungseinsicht mit Optionen der Betreuer:in*
+![assessment_management_inspection_coach1_v1_de.png](assets/assessment_management_inspection_coach1_v1_de.png){ class="shadow lightbox" }
+
 
 ## Einsichtnahme aus Sicht der Prüfungsteilnehmer:innen
 
-Als Prüfungsteilnehermer:in erhalten Sie eine Benachrichtigung mit Termin und Uhrzeit zur Einsichtnahme in Ihre Prüfung, sowie ggf. einen Zugangscode.
+Als Prüfungsteilnehmer:in erhalten Sie eine Benachrichtigung mit Termin und Uhrzeit zur Einsichtnahme in Ihre Prüfung, sowie ggf. einen Zugangscode.
 
 Ist das Zeitfenster zur Einsichtnahme verstrichen, wird die Einsichtnahme beendet. Wer nicht pünktlich mit der Einsichtnahme seiner Prüfung beginnt, verliert entsprechend Zeit.
 
-*screen Prüfungseinsicht*
+![assessment_management_inspection_participant1_v1_de.png](assets/assessment_management_inspection_participant1_v1_de.png){ class="shadow lightbox" }
+
 
 ## Dokumentation der Einsichtnahmen
 
-Alle Termine zur Einsichtnahme die von Betreuer:innen geplant wurden, sind in OpenOlat erfasst.
-Es kann also nachgewiesen werden, wenn Prüfungsteilnehmer:innen, die einen Termin zur Einsichtnahme hatten, diesen Termin nicht wahrgenommen haben.
+Alle Termine zur Einsichtnahme, die von Betreuer:innen geplant wurden, sind in OpenOlat erfasst.
+Es kann also nachgewiesen werden, wenn Prüfungsteilnehmer:innen, die einen Termin zur Einsichtnahme hatten, diesen Termin nicht wahrgenommen haben. Auch Beginn, Dauer und Ende der Einsichtnahmen werden protokolliert. 
 
-Auch Begin, Dauer und Ende der Einsichtnahmen werden protokolliert.
+Für mehrere Personen können Sie die **Tabs oberhalb der Tabelle** verwenden.<br> 
+Pro Person finden Sie alles im **Aktivitätslog** unter den 3 Punkten am Ende einer Zeile.<br>
 
+![assessment_management_inspection_log_v1_de.png](assets/assessment_management_inspection_log_v1_de.png){ class="shadow lightbox" }
 
 ## Unterschied: Report - Prüfungseinsicht
 
