@@ -19,6 +19,7 @@ nav:
       - Overview: ux/components.md
       - Button: ux/button.md
       - Card: ux/card.md
+      - Delete object: ux/delete_object.md
       - File: ux/file.md
       - Object integration: ux/object_integration.md
       - Performance widget: ux/performence_widget.md
