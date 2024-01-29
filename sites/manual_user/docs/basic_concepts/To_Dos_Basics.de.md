@@ -61,6 +61,9 @@ Sie können
 
 ![to-do_example_v1_de.png](assets/to-do_example_v1_de.png){ class=" shadow lightbox" }
 
+Zum **Kopieren** eines To-dos wählen Sie die Option **Duplizieren** unter den 3 Punkten am Ende einer Zeile. Zur Wahl der gewünschten Kopiervorlage helfen Ihnen die Tabs über der Liste. Z.B. indem Sie bereits erledigte To-dos vorselektieren.
+
+![to_do_basics_duplicate_v1_de.png](assets/to_do_basics_duplicate_v1_de.png){ class=" shadow lightbox" }
 
 !!! note "Hinweis"
 

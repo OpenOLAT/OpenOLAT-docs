@@ -59,6 +59,10 @@ You can
 
 ![to-do_example_v1_de.png](assets/to-do_example_v1_de.png){ class=" shadow lightbox" }
 
+To **copy** a to-do, select the **Duplicate** option under the 3 dots at the end of a line. The tabs above the list help you to select the desired copy template. For example, by preselecting to-dos that have already been completed.
+
+![to_do_basics_duplicate_v1_de.png](assets/to_do_basics_duplicate_v1_de.png){ class=" shadow lightbox" }
+
 
 !!! note "Note"
 
