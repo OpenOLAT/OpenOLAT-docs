@@ -338,16 +338,19 @@ plugins:
           Members management : Mitgliederverwaltung
           Microsoft Teams : Microsoft Teams
           Modules : Module
-          Modules Catalog : Modul Katalog
-          Modules Contact Tracing : Modul Kontaktverfolgung
-          Modules Curriculum : Modul Curriculum
-          Modules Document pool : Modul Dokumentenpool
-          Modules Media Center : Modul Medien Center
-          Modules OAI PMH : Modul OAI PMH
-          Modules Organisations : Modul Organisationen
-          Modules Projects : Modul Projekte
-          Modules Repository: Modul Repository
-          Modules Taxonomy : Modul Taxonomie
+          Module Audio/Video Recording: Modul Audo-/Video-Aufnahme
+          Module Catalog : Modul Katalog
+          Module Contact Tracing : Modul Kontaktverfolgung
+          Module Curriculum : Modul Curriculum
+          Module Document pool : Modul Dokumentenpool
+          Module Instant Messaging: Modul Instant Messaging
+          Module Lectures : Modul Lektionen
+          Module Media Center : Modul Medien Center
+          Module OAI PMH : Modul OAI PMH
+          Module Organisations : Modul Organisationen
+          Module Projects : Modul Projekte
+          Module Repository: Modul Repository
+          Module Taxonomy : Modul Taxonomie
           Multiple use of entries : Mehrfachverwendung von Einträgen
           My entries : Meine Einträge
           My first course : Mein erster Kurs
