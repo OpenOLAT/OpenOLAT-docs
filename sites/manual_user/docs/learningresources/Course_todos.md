@@ -40,6 +40,7 @@ Click on the large plus symbols at the beginning of the line to see the details.
 
 To-dos can be created in several places in OpenOlat. You can also find more information here:
 
-[To-dos in the Personal Menu](../personal_menu/To-Dos.md)
-[To-dos within a Project](../area_modules/Project_Todos.md)
+[General information on To-dos](../basic_concepts/To_Dos_Basics.md)<br>
+[To-dos in the Personal Menu](../personal_menu/To-Dos.md)<br>
+[To-dos within a Project](../area_modules/Project_Todos.md)<br>
 [To-dos in the course element "Task"](../learningresources/Course_Element_Task.md)

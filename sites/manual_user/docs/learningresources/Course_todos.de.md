@@ -41,6 +41,7 @@ Klicken Sie auf die grossen Plus-Symbole am Anfang der Zeile um die Details zu s
 
 To-dos können an mehreren Stellen in OpenOlat erstellt werden. Weitere Information finden Sie auch hier:
 
+[Allgemeines zu To-dos](../basic_concepts/To_Dos_Basics.de.md)<br>
 [To-dos im persönlichen Menü](../personal_menu/To-Dos.de.md)<br>
 [To-dos innerhalb eines Projektes](../area_modules/Project_Todos.de.md)<br>
 [To-dos im Kursbaustein Aufgabe](../learningresources/Course_Element_Task.de.md)
