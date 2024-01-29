@@ -4,7 +4,7 @@ The assessment tool is the central switch point for assessments of an OpenOlat c
 
 Via course administration you will get to the assessment tool. When you open the assessment tool you will first see an overview page with central information as well as an overview of currently pending assessments.  This way you will quickly know what you have to do. From the overview page you can also access the concrete assessment areas of the individual course elements and persons.
 
-![assessmenttool](assets/assessment_Tool_172.png)
+![assessment_tool_overview_v1_de.png](assets/assessment_tool_overview_v1_de.png)
 
 Let's take a closer look at the individual areas of the overview:
 
@@ -45,7 +45,17 @@ is also displayed in the assessment tool. You can also see how many people are a
 
 Below the overview is the link to the "Orders" area. Here you can see whether there are open assessments, levels/gradings have to be made manually and whether there are assessments to be released.
 
-![Assessment tool orders](assets/Bewertungswerkzeug_Auftraege.png)
+![assessment_tool_orders_v1_de.png](assets/assessment_tool_orders_v1_de.png)
+
+## Assessment inspection
+
+:octicons-tag-24: Release 18.2
+
+Coaches can give exam participants individual access to their exam after it has been completed. For this purpose, time slots are set in which the persons concerned can view their exam again under preconfigured conditions.
+
+You can find more information about the examination inspection [here](../learningresources/Assessment_inspection.md).
+
+![assessment_tool_inspection_v1_de.png](assets/assessment_tool_inspection_v1_de.png)
 
 ## Overview of the assessment elements of the course
 

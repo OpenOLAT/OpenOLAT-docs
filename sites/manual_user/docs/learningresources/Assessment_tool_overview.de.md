@@ -4,7 +4,7 @@ Das Bewertungswerkzeug ist die zentrale Schaltstelle für die Bewertungen eines 
 
 Über die Kursadministration gelangt man in das Bewertungswerkzeug. Wenn Sie das Bewertungswerkzeug aufrufen, erscheint zunächst die Übersichtsseite mit zentralen Informationen sowie eine Übersicht der aktuell anstehenden Bewertungen. So wissen Sie schnell, was aktuell zu tun ist. Von der Übersichtsseite aus gelangen Sie auch zu den konkreten Bewertungsbereichen der einzelnen Kursbausteinen und Personen.
 
-![Bewertungswerkzeug Startseite](assets/Bewertungswerkzeug_172.png)
+![assessment_tool_overview_v1_de.png](assets/assessment_tool_overview_v1_de.png)
 
 Schauen wir uns die einzelnen Bereiche der Übersicht genauer an:
 
@@ -45,7 +45,17 @@ Befindet sich der Kurs im [Prüfungsmodus](../learningresources/Assessment_mode.
 
 Unterhalb der Übersicht befindet sich der Link zum Bereich "Aufträge". Hier sieht man ob es offene Bewertungen gibt, Einstufungen/Noten manuell vorgenommen werden müssen und ob es freizugebende Bewertungen gibt.
 
-![Bewertungswerkzeug Aufträge](assets/Bewertungswerkzeug_Auftraege.png)
+![assessment_tool_orders_v1_de.png](assets/assessment_tool_orders_v1_de.png)
+
+## Prüfungseinsicht
+
+:octicons-tag-24: Release 18.2
+
+Betreuer:innen können Prüfungsteilnehmer:innen nach absolvierter Prüfung individuell Einsicht in ihre Prüfung geben. Dazu werden Zeitfenster festgelegt, in denen die betroffenen Personen unter vorkonfigurierten Bedingungen ihre Prüfung nochmals ansehen können. 
+
+Nähere Informationen zur Prüfungseinsicht finden Sie [hier](../learningresources/Assessment_inspection.de.md).
+
+![assessment_tool_inspection_v1_de.png](assets/assessment_tool_inspection_v1_de.png)
 
 ## Übersicht der Bewertungsbausteine des Kurses
 
