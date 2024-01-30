@@ -6,12 +6,12 @@
 
 Prüfungsteilnehmer:innen haben gelegentlich den Wunsch, nicht nur ihre Prüfungsergebnisse zu erfahren, sondern die absolvierte Prüfung nochmals im Original zu sehen. Es ist ein legitimes Anliegen um nachvollziehen zu können, wie das Prüfungsergebnis (Punkte/Noten) zustande kam. 
 
-Dem steht aber entgegen, dass die Teilnehmer die Prüfung nicht ausgehändigt bekommen sollen und auch keine Kopie davon erhalten oder selbst erstellen sollen (Sreenshots). Lediglich eine kurze Einsichtnahme soll gestattet werden, um Verbreitung manipulierter Kopien auszuschliessen.  
+Dem steht aber entgegen, dass die Teilnehmer die Prüfung nicht ausgehändigt bekommen sollen und auch keine Kopie davon erhalten oder selbst erstellen sollen (Screenshots). Lediglich eine kurze Einsichtnahme soll gestattet werden, um Verbreitung manipulierter Kopien auszuschliessen.  
 
 Deshalb gibt es in OpenOlat ein spezielles Werkzeug zur Prüfungseinsicht. Sie definieren
 
 * ein festes Zeitfenster,
-* während diesem Zeitfenster ist der Prüfungsmodus aktiv.
+* ob während diesem Zeitfenster der Prüfungsmodus aktiv ist.
 
 ## Konfiguration eines Ablaufschemas für eine Einsichtnahme 
 
@@ -55,7 +55,7 @@ Als Betreuer:in organisieren Sie im **Bewertungswerkzeug** die Einsichtnahmen f�
 ![assessment_management_inspection_new_v1_de.png](assets/assessment_management_inspection_new_v1_de.png){ class="shadow lightbox" }
 
 Ein Wizard führt Sie durch die Schritte.
-Bestimmen Sie z.B. den Termin und wählen Sie eines der von dem/der Kursbesitzer:in vordefnierten Ablaufschemata (Konfiguration). So wird sichergestellt, dass für alle Einsichtnehmenden die gleichen Bedingungen herrschen.
+Bestimmen Sie z.B. den Termin und wählen Sie eines der von dem/der Kursbesitzer:in vordefinierten Ablaufschemata (Konfiguration). So wird sichergestellt, dass für alle Einsichtnehmenden die gleichen Bedingungen herrschen.
 
 ![assessment_management_inspection_select_config_v1_de.png](assets/assessment_management_inspection_select_config_v1_de.png){ class="shadow lightbox" }
 
