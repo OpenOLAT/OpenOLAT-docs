@@ -1,6 +1,5 @@
 # Prüfungsverwaltung: Prüfungsmodus {: #Assessment_mode}
 
-
 !!! note "Hinweis"
 
     Vor Version 18.2 war die Konfiguration des Prüfungsmodus eine separate Menüoption in der Kursadministration. 
@@ -22,11 +21,9 @@ Sie **erstellen** die Konfiguration eines Prüfungsmodus, indem Sie
 
 ![assessment_management_create_exam_setting_v1_de.png](assets/assessment_management_create_exam_setting_v1_de.png){ class="shadow lightbox" }
 
-
 Auf der Übersichtsseite sehen Sie alle für einen Kurs bereits abgehaltenen, laufenden oder geplanten Prüfungen. Der Modus geplanter Prüfungen kann bis zur Prüfung noch bearbeitet werden, eine nachträgliche Bearbeitung ist nicht möglich. Die Übersicht enthält Informationen zu Datum und Dauer, Vor- und Nachlaufzeiten, sowie Benutzergruppen.
 
 ![assessment_management_exam_settings_overview_v1_de.png](assets/assessment_management_exam_settings_overview_v1_de.png){ class="shadow lightbox" }
-
 
 Prüfungskonfigurationen werden vorab erstellt und enthalten
 
@@ -51,7 +48,6 @@ Des Weiteren kann der Zugang zur Prüfung auf spezifische IP-Adressen beschränk
     
     Im herkömmlichen Kurs haben Sie ausserdem die Möglichkeit, beim Editieren eines Kursbausteins unter den Tabs "Sichtbarkeit" und "Zugang" die Option **"Nur im Prüfungsmodus"** zu wählen. Diese Option steht in Lernpfadkursen nicht zur Verfügung.
 
-
 ## Tab "Allgemein"
 
 ![assessment_management_create_exam_setting_tab_general_v1_de.png](assets/assessment_management_create_exam_setting_tab_general_v1_de.png){ class="shadow lightbox" }
@@ -64,7 +60,6 @@ Detailliert können neben Titel und Beschreibung, die dem Benutzer in der Prüfu
 
 **Art des Beginns / Endes**: Sie können zwischen automatischem und manuellem Start / Ende wählen. Stellen Sie als Autor:in hier "manuelle Bedienung" ein, finden Betreuer:innen auf der Übersichtsseite des Bewertungswerkzeugs einen Start- und Ende-Button bei der entsprechenden Prüfungskonfiguration, mit dem Sie den Prüfungsmodus manuell einschalten können.
 
-
 ## Tab "Einschränkungen Kursbaustein"
 
 ![assessment_management_create_exam_setting_tab_element_restriction_v1_de.png](assets/assessment_management_create_exam_setting_tab_element_restriction_v1_de.png){ class="shadow lightbox" }
@@ -72,8 +67,6 @@ Detailliert können neben Titel und Beschreibung, die dem Benutzer in der Prüfu
 **Zugriff auf Kursbaustein einschränken**: Um die Prüfung auf ausgewählte Kursbausteine des betroffenen Kurses zu beschränken, wählen Sie hier die Checkbox aus, und klicken Sie dann auf die Schaltfläche "Kursbausteine auswählen". Es öffnet sich eine Liste aller Kursbausteine des Kurses - wählen Sie jene Kurselemente aus, die den Probanden während der Prüfung angezeigt werden sollen. Alle anderen Kursbausteine werden für die Dauer der Prüfung ausgeblendet.
 
 **Startbaustein**: Soll den Studenten ein bestimmtes Kurselement direkt beim Start angezeigt werden, so arbeiten Sie mit der Schaltfläche "Kursbaustein auswählen". Wählen Sie aus den verfügbaren Kurselementen eines aus. Es werden nur die Kursbausteine angezeigt, die im Schritt zuvor zur Anzeige ausgewählt wurden.
-
-
 
 ## Tab "Zugang" 
 
@@ -92,8 +85,6 @@ Sobald eine Option mit Gruppen ausgewählt wurde, müssen Sie zwingend immer üb
 
 Ferner kann definiert werden ob der Prüfungsmodus auch auf Betreuer angewendet werden soll. 
 
-
-
 ## Tab "Safe Exam Browser"
 
 ![assessment_management_create_exam_setting_tab_seb_v1_de.png](assets/assessment_management_create_exam_setting_tab_seb_v1_de.png){ class="shadow lightbox" }
@@ -101,7 +92,6 @@ Ferner kann definiert werden ob der Prüfungsmodus auch auf Betreuer angewendet 
 **Safe Exam Browser verwenden**: Die Verwendung des [Safe Exam Browsers](http://www.safeexambrowser.org) erlaubt die sichere Ausführung von Online-Prüfungen, in dem der Computer in den sogenannten Kioskmodus versetzt wird. Dadurch wird die Verwendung unerlaubter Quellen während einer Prüfung unterbunden. Tragen Sie die Browser Exam Keys aller zugelassenen Browser-Instanzen ein, um die Ausführung im SEB zu ermöglichen. Benutzer werden darüber benachrichtigt, dass der SEB für die Prüfung Voraussetzung ist. Erst wenn OpenOlat im Safe Exam Browser gestartet wurde kann die Prüfung durchgeführt werden.
 
 <br>
-
 
 ##  Prüfung durchführen
 
@@ -115,7 +105,7 @@ Wurde von dem/der Kursbesitzer:in ein manueller Start vorgesehen, finden Betreue
 
 Wird der Prüfungsmodus manuell durch Betreuer:innen gestartet, so bleibt die Vorlaufzeit unverändert (wie in der Konfiguration vorgesehen), auch wenn der Button zum Start der Prüfung später als geplant geklickt wird.
 
-Wird manuell die Prüfung verspätet gestartet, dann verschiebt sich das Prüfungsende nach hinten.  Die vorkonfigurierte Prüfungs**dauer** bleibt also gleich. 
+Wird manuell die Prüfung verspätet gestartet, dann verschiebt sich das Prüfungsende nach hinten.  Die vorkonfigurierte Prüfungs **dauer** bleibt also gleich. 
 
 Ein laufender Prüfungsmodus kann von den Betreuer:innen im Bewertungswerkzeug verfolgt werden. 
 
@@ -130,6 +120,5 @@ Ein laufender Prüfungsmodus kann generell automatisch oder manuell beendet werd
 Bei manuellem Modus können Betreuer:innen und Kursbesitzer:innen die Prüfung im **Bewertungswerkzeug** beenden.
 
 ![assessment_management_exam_stop_v1_de.png](assets/assessment_management_exam_stop_v1_de.png){ class="shadow lightbox" }
-
 
 Der Prüfungsmodus wird auch beendet, wenn der entsprechende Kurs beendet oder gelöscht wird.

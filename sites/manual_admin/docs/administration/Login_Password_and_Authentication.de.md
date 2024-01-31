@@ -15,7 +15,7 @@ Durch das Einschalten wird die Option für Stufe 2 und 3 aktiviert und es werden
 
 <h3>2 Start Schaltfläche für OpenOlat Login</h3>
 
-Durch das Einschalten wird auf der Login-Seite **statt des Eingabfeldes** für den Benutzernamen eine **Schaltfläche** angezeigt, mit der das Eingabefeld aufgerufen werden kann.
+Durch das Einschalten wird auf der Login-Seite **statt des Eingabefeldes** für den Benutzernamen eine **Schaltfläche** angezeigt, mit der das Eingabefeld aufgerufen werden kann.
 
 **Zweck:**<br>
 Wenn das primäre Anmeldeverfahren nicht das OpenOlat-Login ist, dann soll oft das Eingabefeld für das OpenOlat-Login nicht direkt und prominent angezeigt werden. Ein Eingabefeld hat einen hohen Aufforderungscharakter und die Benutzer geben sofort Ihren (falschen) Anmeldenamen ein, statt die übrigen Anmeldeoptionen zu beachten.<br>

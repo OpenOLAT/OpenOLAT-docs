@@ -7,7 +7,7 @@ Use the security settings to configure the necessary security level while
 taking the associated risk into account.
 
 **Force file download in folders**: Select this security setting to always
-dowload files from folders and never open them directly in the browser. This
+download files from folders and never open them directly in the browser. This
 prevents possible Cross-Site-Scripting attacks (XSS). When this feature is
 enabled all documents are downloaded as files and will not be displayed in the
 browser directly, including HTML documents. This behavior does not apply to

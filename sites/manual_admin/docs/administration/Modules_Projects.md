@@ -47,8 +47,8 @@ Within a project, various roles can be assigned that only apply to the respectiv
 
 **Owner (Project owner)**
 
-* Project owner:in is the person who creates a new project.
-* It has all write and read rights in the project, including the right to delete.
+* Project owner is the person who creates a new project.
+* They have all write and read rights in the project, including the right to delete.
 
 **Manager (project manager)**
 
