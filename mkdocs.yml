@@ -110,6 +110,7 @@ plugins:
           Access configuration : Zugangskonfiguration
           Access Restrictions in the Expert Mode : Zugriffsbeschränkungen im Expertenmodus
           Account : Konto
+          Actions (To-dos) : Massnahmen (To-dos)
           Actions in the Authoring section : Aktionen im Autorenbereich
           Additional Course Features : Zusätzliche Kursfunktionen
           Adjust OpenOlat : OpenOlat anpassen
@@ -117,6 +118,7 @@ plugins:
           Administration : Administration
           Administration and Organisation : Verwaltung und Organisation
           Adobe Connect : Adobe Connect
+          Analysis : Analyse
           Analytics module : Analytics Modul
           Archive : Archiv
           Area and modules : Bereiche und Module
@@ -229,6 +231,8 @@ plugins:
           Customizing : Customizing
           Dashboard : Dashboard
           Data archiving : Datenarchivierung
+          Data collection : Datenerhebung
+          Data collection generators : Datenerhebungsgeneratoren
           Data collection previews : Datenerhebungsvorschau
           Data Management : Handhabung der Daten
           Data protection : Datenschutz
@@ -398,6 +402,7 @@ plugins:
           Project member management : Projektmitgliederverwaltung 
           Project report : Projektreport
           Projects : Projekte
+          Quality Management : Qualitätsmanagement
           Question Bank : Fragenpool
           Question Bank Administration : Fragenpool Administration
           Question bank possible operations : Mögliche Aktionen im Fragenpool
@@ -434,6 +439,7 @@ plugins:
           Storage folder : Ablageordner
           Supported Technologies : Unterstützende Technologien
           Survey : Umfrage
+          Surveys : Umfragen
           System : System
           Tab users : Tab Teilnehmer
           Table concept: Tabellenkonzept

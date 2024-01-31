@@ -31,6 +31,7 @@ nav:
       - Module Organisations: "administration/Modules_Organisations.md"
       - Module Curriculum: "administration/Modules_Curriculum.md"
       - Module Projects: "administration/Modules_Projects.md"
+      - Module Quality Management: "administration/Modules_Quality_Management.md"
       - Module OAI PMH: "administration/Modules_OAI.md"
     - Life cycles:
       - Overview : "administration/Life_cycles_-_Administration.md"

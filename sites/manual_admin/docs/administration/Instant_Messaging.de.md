@@ -1,4 +1,4 @@
-# Instant Messaging
+# Modul Instant Messaging
 
 Mit dem Instant-Messaging können die Funktionen "Chat" und "Kurznachrichten"
 freigeschaltet werden. Die folgenden Konfigurationsparameter stehen zur
