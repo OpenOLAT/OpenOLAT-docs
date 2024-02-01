@@ -27,7 +27,7 @@
   * Request account deletion
   * [Curriculum](Modules_Curriculum.md)
   * [Projects](Modules_Projects.md)
-  * Quality management
+  * [Quality management](Modules_Quality_Management.md)
   * [SEO / OATI-PMH metadata](Modules_OAI.md) 
 
 ## Instant Messaging
@@ -149,6 +149,8 @@ See [Projects](Modules_Projects.md)
 ## Quality management
 
 Activation and definition of special e-mail addresses.
+
+See [Quality management](Modules_Quality_Management.md)
 
 ## SEO / OATI-PMH metadata
 See [SEO / OATI-PMH metadata](Modules_OAI.md) 

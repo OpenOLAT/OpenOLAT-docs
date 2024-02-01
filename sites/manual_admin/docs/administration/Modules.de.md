@@ -28,7 +28,7 @@
   * [Curriculum](Modules_Curriculum.de.md)
   * To-do
   * [Projekte](Modules_Projects.de.md)
-  * Qualitätsmanagement
+  * [Qualitätsmanagement](Modules_Quality_Management.de.md)
   * [SEO / OAI-PMH Metadaten](Modules_OAI.de.md) 
 
 
@@ -168,6 +168,8 @@ Siehe [Projekte](Modules_Projects.de.md)
 ## Qualitätsmanagement
 
 Aktivierung und Definition von speziellen E-Mailadressen. 
+
+Siehe [Qualitätsmanagement](Modules_Quality_Management.de.md)
 
 ## SEO / OAI-PMH Metadaten
 
