@@ -123,6 +123,7 @@ nav:
   - Learning resources:
     - learningresources/index.md
     - General functions:
+      - Function concept: "learningresources/General_Functions_Concept.md"
       - Detailed View of Learning Resources: "learningresources/Detailed_View_of_Learning_Resources.md"
       - Set up info page: "learningresources/Set_up_info_page.md"
       - Technical Information on Resources and Usage: "learningresources/Technical_Information_on_Resources_and_Usage.md"
