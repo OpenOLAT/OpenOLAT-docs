@@ -11,6 +11,12 @@ Empty states are moments in an app where there is no data to display to the user
 5. **Primary action** The primary call to action (optional).
 6. **Additional components**  Additional components such as secondary actions (optional).
 
+## Small variant
+
+This is a smaller visual more compact layout, for rare occations if we have alot of empty states, or the space is scarse.
+
+![empty state](assets/empty_state_small.png)
+
 ## Empty Search State Variant
 
 An Empty search results empty state serves as a placeholder when there are no search results after doing a search or filtering results. It should describe that a search or filter came back with no results and does not contain a Primary or Secondar Action.
