@@ -21,72 +21,69 @@ The Media Center is a **central collection point** for different types of media.
 
 ## Access
 
-In the Media Center, some media are available for several authors, some only for a single person (creator). That is why the Media Center is an individual, personal area and can be found in the **personal menu**.
+The Media Center is initially an individual, personal area and can therefore also be found in the **personal tools**.
 
 ![media_center_pers_menu1_v1_de.png](assets/media_center_pers_menu1_v1_de.png){ class=" shadow lightbox" }
 
-![media_center_pers_menu2_v1_de.png](assets/media_center_pers_menu2_v1_de.png){ class=" shadow lightbox" }
+![media_center_pers_menu](assets/media-center_personal_menue_en.png){ class=" shadow lightbox" }
+
+Even if they are personal media, they can be shared with other people and used in various OpenOlat contexts.
 
 ## Types of Media
 
 Different **file formats** and **content elements** are stored in the media center.
 
-On one hand, these are specific **file formats** such as
-
 * images (png, jpg, ...)
 * video files (mp4)
 * audio files (mp3)
 * Office documents (docx, xlsx, pptx, ...)
-* and others
-
-On the other hand, these are content elements (elements used in the content editor), such as
-
-* elements of the course element "Page" (created with the Content Editor)
-* elements of the "Portfolio" course element (created with the Content Editor)
 * texts
-* video recordings
+* video recordings via webcam
+* audio recordings
 * quotes
 * forum posts
 * blog entries
 * wiki pages
 * certificates of achievement from courses
-* and others
 
 
-# Add media
+# Add media to the Media center
 
-**1. Add directly in the Media Center**
+There are various ways to store media in the Media center:
 
-![media_center_upload_v1_de.png](assets/media_center_upload_v1_de.png){ class=" shadow lightbox" }
+### Add directly in the Media Center
 
-**Add media file:** Upload images, videos, pdf, Excel, etc.<br>
-**Create documents:** Documents of integrated editors, e.g. Word, Excel, Powerpoint<br>
-**Add text:** Text elements for use in the content editor, created with a simple HTML editor<br>
-**Add quote:**  Quotes created directly in the Media Center can be inserted in several places without having to enter the entire source again and again. However, make sure that you provide all details carefully and comprehensively.<br>
-**Record video:** Video recording function integrated in OpenOlat. If you click on "Record video", the recording function for the webcam is started directly, provided you allow access to the camera in the browser.<br>
-**Create draw.io diagrams:** As of release 18.1
+![My media center add media](assets/My_media_cemter_add_media_en.png){ class=" shadow lightbox" }
 
+**Upload or link existing media**
 
-**2. Create in the content editor**
+* **Add media file:** Upload images, videos, pdf, Excel, etc.
+* **Add video via URL**: Videos from external portals such as YouTube, Vimeo, Panopto or nanoo.tv can simply be added via a link.
+* **Add citation:**  Quotations from books, articles, websites, films, etc. can be stored in text form and provided with metadata such as source, author, URL, etc. This means that citations can be inserted in several places in OpenOlat without having to enter the entire source again and again. However, make sure that you enter all details carefully and comprehensively.
 
-If you use the Content Editor to add content elements, e.g. in a course element ["Page"](../learningresources/Course_Element_Page.md), you have the option **"Select from my Media Center"** under "Add content". You can also create or upload content elements there, as when creating directly in the Media Center.
+**Create completely new media**
 
-![media_center_create_in_editor_v1_de.png](assets/media_center_create_in_editor_v1_de.png){ class=" shadow lightbox" }
-
-Each file or content element is given a title. In addition, a description, a topic/subject area assignment and tags can be added. You can also specify who the content element is shared with. Tags are used here for indexing and help to search for a specific term and thus maintain an overview in the Media Center.
-
-
-!!! info "Info"
-
-    Files and content elements can also be **versioned** or replaced. It is also possible to switch to older versions.
-
-    The changes can be tracked in the **activity log**.
+* **Create document:** Documents of integrated editors, e.g. Word, Excel, Powerpoint<br>
+* **Add text:** Text elements for use in the content editor, created with a simple HTML editor<br>
+* Create **draw.io diagram**: Creates a diagram, flowchart or drawing with the draw.io tool, as of :octicons-tag-24: Release 18.1.
+**Add text:** Text elements for use in the content editor, created with a simple HTML editor
+* **Record video:** Video recording function integrated in OpenOlat. If you click on "Record video", the recording function for the webcam is started directly, provided you allow access to the camera in the browser.
+* **Record Audio**:Audio recording function integrated in OpenOlat. If you click on "Record audio", the recording function is started, provided access has been permitted in the browser.
 
 
+### Create media form the content editor
 
-**3. Connect to the Media Center**
+Media for the Media Center can also be created in the OpenOlat course or in the portfolio using the content editor. In the course, for example, this can be done via the course element ["Page"](../learningresources/Course_Element_Page.md). Go to edit mode and select "Add content". The option **"Select from my Media Center "** will then appear next to opther options.
+![Medium auswählen aus dem Mediencenter1](assets/page_select_media_center_en.png){ class=" shadow lightbox" }
 
-Certain content elements can also be linked to the Media Center and collected as links in OpenOlat. The elements include:
+All the same options are available here as when creating directly in the Media Center.
+
+![Medium auswählen aus dem Mediencenter2](assets/Medien_center_wahlen_en.jpg){ class=" shadow lightbox" }
+
+### Collect content elements and link them to the Media Center
+In addition to creating or uploading media in the Media Center, media can also be _collected_ in other places in OpenOlat and linked to the Media Center by clicking on the puzzle piece.
+
+The elements include:
 
 1. forum posts
 2. blog entries
@@ -99,52 +96,51 @@ For example, to add a post, open your forum post and click on the puzzle piece.
 
 A page will then appear where you can enter the title, tags and a description for the post content. After saving, the post will be displayed in your Media Center.
 
-For forum posts, blog entries and wiki pages, it is necessary to be the creator of an entry or wiki page. Simply editing the post is not sufficient.
+!!! info "Important"
 
+    For forum posts, blog entries and wiki pages, it is necessary to be the creator of an entry or wiki page. Simply editing the post is not sufficient.
 
-## Use media
+## Configure media
+Each media element requires a title and can then be provided with further information and metadata. This information can later be further configured via the tabs of a media element.
 
-The media contained in the Media Center can be inserted into course elements in the **Content Editor**, for example in the course element ["Page"](../learningresources/Course_Element_Page.md) or in the [Portfolio](../area_modules/Portfolio.md).
+### Add metadata
 
-![media_center_page_v1_de.png](assets/media_center_page_v1_de.png){ class=" shadow lightbox" }
+The following information can be added to a media element:
 
-The **filter functions** help you to find the media you are looking for quickly. Search for
+* Description 
+* Tags for indexing and for a better overview
+* Topics/subject area assignment
+* License information
+* "Alt-Text" for draw.io files or graphics, particularly relevant for screen readers
 
-* media type
-* "My media" (your own media)
-* tags
-* taxonomy
-* where and whether media is used
-* whether media is shared or not
+The information and metadata options vary depending on the type of media. All information can be easily changed later in the corresponding tabs.
 
-**Information and descriptions** can be viewed by clicking on an entry in the Media Center. All descriptions contain the tabs:
+### Manage media information 
+
+Click on a media element to access the corresponding tabs. 
+
+Each media element includes the following tabs:
 
 * **Overview:** Central details, activity log, editing option, versioning, file replacement
-* **Meta data:** Description, License, Tags, Department
-* **Usage:** Where is the file or content element used?
-* **Shares:** Define and view approvals for users, groups and courses
+* **Metadata:** Description, License, Tags, Department
+* **Uses:** This shows where the element is used
+* **Shares:** Here you can define who a content element is shared with. Participants can only define groups. Authors have more options and can specify specific OpenOlat users, groups or courses.
 
-![media_center_share_v1_de.png](assets/media_center_share_v1_de.png){ class=" shadow lightbox" }
-
-!!! note "Note"
-
-    When documents are included in a portfolio folder, they are displayed as links and are not displayed directly.
-
-
-
-## Download media
-
-The media can also be downloaded from the Media Center. You will find the option to do this in the 3-dot menu when you have clicked on an individual medium and the information and descriptions are displayed.
+In addition, individual media can also be downloaded or deleted via the 3-dot menu.
 
 ![media_center_download_v1_de.png](assets/media_center_download_v1_de.png){ class=" shadow lightbox" }
 
-## Delete media
+!!! info "Tip"
+
+    The option of **versioning** media elements is interesting. For example, different work steps or intermediate stages can be saved. It is then possible to switch to older versions at any time.
+
+### Delete media
 
 If you select at least one list entry at the beginning of a line, the "Delete" button appears above the list, which can be used to delete several files and content elements in the Media Center at once.
+![media_center_delete_v1_de.png](assets/media_center_delete_v1_de.png){ class=" shadow lightbox" }
 
 You can also delete individual files in the 3-dot menu if you have clicked on an individual medium and the information and descriptions are displayed. (Same menu as for downloading.)
 
-![media_center_delete_v1_de.png](assets/media_center_delete_v1_de.png){ class=" shadow lightbox" }
 
 !!! info "Info"
 
@@ -152,13 +148,22 @@ You can also delete individual files in the 3-dot menu if you have clicked on an
 
 ## Quota
 
-For better management of media items, the available storage space can be configured in the Media Center. Generally, authors have higher storage requirements, so the quota settings are made separately for these power users.
-
-If you have any questions about storage requirements, contact your administrator.
-
-You can find the information about the storage space already used in the bottom left corner.
+The storage space available in the Media Center can be limited by the OpenOlat administrator. You can find the information about the storage space already used in the bottom left corner.
 
 ![media_center_quota_v1_de.png](assets/media_center_quota_v1_de.png){ class=" shadow lightbox" }
 
+Generally, authors have higher storage requirements, so the quota settings are made separately for these power users. If you have any questions about storage requirements, contact your administrator.
 
+## Use media
 
+And how can the media in the Media Center be reused? The media contained in the Media Center can be inserted into course elements in the **Content Editor**, for example in the course element ["Page"](../learningresources/Course_Element_Page.md) or in the [Portfolio](../area_modules/Portfolio.md).
+
+![media_center_page_v1_de.png](assets/media_center_page_v1_de.png){ class=" shadow lightbox" }
+
+The **filter functions** help you to find the media you are looking for quickly. Search or filter for ...
+
+![Medien Center Filtrfunktion](assets/Medien_center_Filterfunktion_en.png){ class=" shadow lightbox" }
+
+!!! note "Note"
+
+    When documents are included in a portfolio folder, they are displayed as _links_ and are not displayed directly.
