@@ -3,9 +3,9 @@
 
 ## Was ist ein Kurs?
 
-Ein OpenOlat-Kurs wird aus einzelnen Kursbausteinen zusammengesetzt. Jeder dieser Kursbausteine ist ein Behälter, in den eine Lernressource eingefügt wird.
+Ein OpenOlat-Kurs wird aus einzelnen Kursbausteinen zusammengesetzt. In den meisten Fällen ist jeder dieser Kursbausteine ein Behälter, in den eine Lernressource eingefügt wird.
 
-Beispiel: 
+Beispiel Kursbaustein "Video": 
 
 ![general_functions_concept_course_v1_de.png](assets/general_functions_concept_course_v1_de.png){ class="lightbox" }
 
@@ -18,6 +18,9 @@ Ein Kursbaustein "Video" muss mit den Zusatzfunktionen für Videos (Annotationen
 
 **Beispiel 2:**<br>
 Ein Kursbaustein "Test" muss mit Punkten und Auswertung von Fragen umgehen können. Diese Fähigkeiten benötigt z.B. ein Kursbaustein "BigBlueButton" (Videokonferenz) nicht.
+
+**Beispiel 3:**<br>
+Eine Checkliste ist ein Beispiel für einen Kursbaustein ohne Lernressource. Alle Funktionen der Checkliste sind im Kursbaustein selbst eingebaut.
 
 Autor:innen stehen je nach Konfiguration z.B. die folgenden Kursbaustein-Typen zur Verfügung:
 
@@ -46,7 +49,7 @@ Das Funktionskonzept mit den Kursbausteinen als Behälter für Lernressourcen ha
 
 ## Eigenständige Lernressourcen
 
-Im Normalfall werden Lernressourcen in Kursbausteine eingebunden. Es gibt jedoch auch die Möglichkeit, manche Lernressourcen eigenständig ("stand alone") zu benutzen.
+Im Normalfall werden Lernressourcen in Kursbausteine eingebunden ("embedded"). Es gibt jedoch auch die Möglichkeit, manche Lernressourcen eigenständig ("stand alone") zu benutzen.
 
 Das bedeutet, dass in den Einstellungen die Lernressource ähnlich einem Kurs behandelt wird. 
 So können z.B. einer Lernressource direkt Mitglieder zugewiesen werden.
@@ -59,10 +62,19 @@ Ein Wiki oder ein Blog sind Lernressourcen, bei denen eine Verwendung als eigens
 Bei Test-Lernressourcen ist dies dagegen eher nicht empfohlen, weil sich viele Auswertungsfunktionen im Test-Kursbaustein befinden. Durch Einbettung in einen Kurs wird der Test Teil des Gesamtkurses und kann die Ergebnisse an den Kurs weitergeben. Bei mehreren bewertbaren Kursbausteinen ist der Test dann für Betreuer:innen im Bewertungswerkzeug aufgeführt und es kann eine Bewertung für den Gesamtkurs gemacht werden. Wenn diese Gesamtschau benötigt wird, macht eine eigenständige Lernressource wenig Sinn. 
 
 
-### Unterschiede: Lernressource im Kurs <-> eigenständige Lernressource
+### Eigenständige Lernressourcen in Kursen
+
+!!! warning "Beachten Sie:"
+
+    Auch eigenständige Lernressourcen können weiter in Kurse eingebunden werden.
+    
+    Wurden Mitglieder aber direkt in die Lernressource eingebucht, kann dies zu Problemen führen, wenn diese Lernressource nun in verschiedene Kurse eingebunden wird. 
 
 
-|                                   |Lernressource im Kurs| eigenständige Lernressource |
+## Unterschiede: Lernressource im Kurs <-> eigenständige Lernressource
+
+
+|                                   |Lernressource im Kurs<br>"embedded"| eigenständige Lernressource<br>"stand alone" |
 |-------------------------------------------------|:-------------------:|:-------------------:|
 | Besitzer:innen als Mitglieder                   | ja    | ja   |
 | Betreuer:innen als Mitglieder                   | nein  | ja   |
@@ -71,20 +83,8 @@ Bei Test-Lernressourcen ist dies dagegen eher nicht empfohlen, weil sich viele A
 | Buchbare und offene Angebote                    | nein  | ja   |
 | im Katalog auflistbar<br>(Angebote erstellbar)  | nein  | ja   |
 | Status "Veröffenlicht" erforderlich             | nein  | ja   |
-| LTI 1.3 Zugangskonfiguration                    | nein  | ja   |
-| als Vorlage verwendbar                          | ja    | nein |
 | bei Videos: in Video Collection auflistbar      | ja    | ja   |
 
-
-
-### Eigenständige Lernressourcen in Kursen
-
-
-!!! warning "Beachten Sie:"
-
-    Auch eigenständige Lernressourcen können weiter in Kurse eingebunden werden.
-    
-    Wurden Mitglieder aber direkt in die Lernressource eingebucht, kann dies zu Problemen führen, wenn diese Lernressource nun in verschiedene Kurse eingebunden wird. 
 
 
 ## Verwendungszweck einer Lernressource vorsehen
