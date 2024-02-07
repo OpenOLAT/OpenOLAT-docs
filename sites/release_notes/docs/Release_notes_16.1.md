@@ -271,7 +271,7 @@ orders is done in a separate area.
 ## Technical details
 
   * Third-party libraries updated
-  * Performance improvement in the evaluation tool
+  * Performance improvement in the assessment tool
   * Code cleanup and minor revisions
 
   
