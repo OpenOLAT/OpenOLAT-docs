@@ -402,14 +402,6 @@ eigenem Symbol entsprechend ausgewiesen.
 
 ### Release Notes - Versionen
 
-  * [16.0.7](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=17804)
-  * [16.0.6](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=17800)
-  * [16.0.5](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=17701)
-  * [16.0.4](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=17602)
-  * [16.0.3](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=17600)
-  * [16.0.2](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=17400)
-  * [16.0.1](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=17300)
-  * [16.0](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=17014)
-
+* [YouTrack release notes 16.0](https://track.frentix.com/releaseNotes?q=16.0.x&title=Release%20Notes%2016.0)
   
 

@@ -285,12 +285,5 @@ _Gruppen_ bzw. _Curricula_ ausgewählt werden.
 
 ## Release Notes - Versionen
 
-  * [15.4.7](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=17101)
-  * [15.4.6](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=17027)
-  * [15.4.5](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=17024)
-  * [15.4.4](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=17023)
-  * [15.4.3](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=17021)
-  * [15.4.2](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=17018)
-  * [15.4.1](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=17015)
-  * [15.4](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=16941)
+* [YouTrack release notes 15.4](https://track.frentix.com/releaseNotes?q=15.4.x&title=Release%20Notes%2015.4)
 

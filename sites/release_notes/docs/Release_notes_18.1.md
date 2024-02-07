@@ -290,6 +290,4 @@ Forms with rubrics are often used in the course element "Assessment" in the cont
 
 ## More information
 
-* [Jira Release Notes 18.1.2](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=21801){:target="_blank”}
-* [Jira Release Notes 18.1.1](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=21706){:target="_blank”}
-* [Jira Release Notes 18.1.0](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=21000){:target="_blank”}
+* [YouTrack Release Notes 18.1](https://track.frentix.com/releaseNotes?q=18.1.x&title=Release%20Notes%2018.1.)

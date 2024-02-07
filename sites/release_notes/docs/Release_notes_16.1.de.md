@@ -316,7 +316,7 @@ einem separaten Bereich.
 
 ## Weitere Informationen
 
-  * [Jira Release notes 16.1](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=17108)
+* [YouTrack relase notes 16.1](https://track.frentix.com/releaseNotes?q=16.1.x&title=Release%20Notes%2016.1)
 
   
 

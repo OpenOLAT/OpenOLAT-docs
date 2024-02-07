@@ -174,11 +174,5 @@ It is possible to define *local* (= only available for this gap) or *global* (= 
 
 ## More information
 
-* [Jira Release Notes 17.0.7](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=19502)
-* [Jira Release Notes 17.0.6](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=19402)
-* [Jira Release Notes 17.0.5](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=19400)
-* [Jira Release Notes 17.0.4](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=19300)
-* [Jira Release Notes 17.0.3](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=19201)
-* [Jira Release Notes 17.0.2](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=19103)
-* [Jira Release Notes 17.0.1](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=19101)
-* [Jira Release Notes 17.0.0](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=18302)
+* [YouTrack Release Notes 17.0](https://track.frentix.com/releaseNotes?q=17.0.x&title=Release%20Notes%2017.0)
+

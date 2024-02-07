@@ -74,11 +74,11 @@ In OpenOlat, an appropriate infrastructure has been created for these requiremen
 
 ![Participant Chat](assets/162/TeilnehmerChat.png){ class="shadow lightbox" }
 
-For the administration of notifications, a **new area "Communication "** is available for the supervisors (supervisors) at the course element "Test". There, the status of the requests can be seen and it is displayed which supervisor is processing a request. It is also possible for several supervisors to join a request.
+For the administration of notifications, a **new area "Communication"** is available for the supervisors (supervisors) at the course element "Test". There, the status of the requests can be seen and it is displayed which supervisor is processing a request. It is also possible for several supervisors to join a request.
 
 ![Supervisor communication area](assets/162/Kommunikationsbereich.png){ class="shadow lightbox" }
 
-In addition, supervisors are actively notified of participant requests from ongoing exams if they have not opened the exam course.
+In addition, coaches are actively notified of participant requests from ongoing exams if they have not opened the exam course.
 
 ![Coaching Activities](assets/162/Coaching_activities.png){ class="shadow lightbox" }
 
@@ -139,7 +139,7 @@ Until now, statistical data on tests was only available at the top level of the 
 * Improved highlighting of course element types in the editor
 * Option to open Scorm modules in full screen mode
 * Course copy wizard:
-    * Display of default options.
+    * Display of default options
     * Options for test course element
     * Options for document and tutor folders
     * Shifting of course element specific dates to a specific date or by a specific number of days
@@ -178,17 +178,4 @@ Until now, statistical data on tests was only available at the top level of the 
 
 ## More information
 
-* [Jira Release Notes 16.2.13](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=19403)
-* [Jira Release Notes 16.2.12](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=19401)
-* [Jira Release Notes 16.2.11](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=19301)
-* [Jira Release Notes 16.2.10](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=19202)
-* [Jira Release Notes 16.2.9](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=19104)
-* [Jira Release Notes 16.2.8](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=19102)
-* [Jira Release Notes 16.2.7](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=19100)
-* [Jira Release Notes 16.2.6](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=18801)
-* [Jira Release Notes 16.2.5](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=18800)
-* [Jira Release Notes 16.2.4](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=18700)
-* [Jira Release Notes 16.2.3](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=18601)
-* [Jira Release Notes 16.2.2](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=18600)
-* [Jira Release Notes 16.2.1](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=18500)
-* [Jira Release Notes 16.2](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=17802)
+* [YouTrack Release Notes 16.2](https://track.frentix.com/releaseNotes?q=16.2.x&title=Release%20Notes%2016.2)

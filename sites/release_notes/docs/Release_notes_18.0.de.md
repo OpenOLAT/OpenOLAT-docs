@@ -237,12 +237,4 @@ Mit Hilfe der neuen To-Do Infrastruktur kann direkt mit entsprechenden Massnahme
 
 ## Weitere Informationen
 
-* [Jira Release Notes 18.0.8](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=21900){:target="_blank”}
-* [Jira Release Notes 18.0.7](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=21700){:target="_blank”}
-* [Jira Release Notes 18.0.6](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=21500){:target="_blank”}
-* [Jira Release Notes 18.0.5](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=21400){:target="_blank”}
-* [Jira Release Notes 18.0.4](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=21303){:target="_blank”}
-* [Jira Release Notes 18.0.3](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=21301){:target="_blank”}
-* [Jira Release Notes 18.0.2](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=21201){:target="_blank”}
-* [Jira Release Notes 18.0.1](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=21002){:target="_blank”}
-* [Jira Release Notes 18.0.0](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=19500){:target="_blank”}
+* [YouTrack Release Notes 18.0](https://track.frentix.com/releaseNotes?q=18.0.x&title=Release%20Notes%2018.0)

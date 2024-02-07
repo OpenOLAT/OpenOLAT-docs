@@ -318,22 +318,4 @@ Es werden laufend weitere Ergänzungen vorgenommen.
 
 ## Weitere Informationen
 
-* [Jira Release Notes 17.2.18](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=21800){:target="_blank”}
-* [Jira Release Notes 17.2.17](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=21704){:target="_blank”}
-* [Jira Release Notes 17.2.16](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=21600){:target="_blank”}
-* [Jira Release Notes 17.2.15](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=21401){:target="_blank”}
-* [Jira Release Notes 17.2.14](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=21302){:target="_blank”}
-* [Jira Release Notes 17.2.13](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=21300){:target="_blank”}
-* [Jira Release Notes 17.2.12](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=21100){:target="_blank”}
-* [Jira Release Notes 17.2.11](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=21001){:target="_blank”}
-* [Jira Release Notes 17.2.10](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=20900){:target="_blank”}
-* [Jira Release Notes 17.2.9](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=20800){:target="_blank”}
-* [Jira Release Notes 17.2.8](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=20702){:target="_blank”}
-* [Jira Release Notes 17.2.7](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=20701){:target="_blank”}
-* [Jira Release Notes 17.2.6](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=20700){:target="_blank”}
-* [Jira Release Notes 17.2.5](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=20600){:target="_blank”}
-* [Jira Release Notes 17.2.4](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=20500){:target="_blank”}
-* [Jira Release Notes 17.2.3](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=20401){:target="_blank”}
-* [Jira Release Notes 17.2.2](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=20200){:target="_blank”}
-* [Jira Release Notes 17.2.1](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=20101){:target="_blank”}
-* [Jira Release Notes 17.2.0](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=19000){:target="_blank”}
+* [YouTrack Release Notes 17.2](https://track.frentix.com/releaseNotes?q=17.2.x&title=Release%20Notes%2017.2)

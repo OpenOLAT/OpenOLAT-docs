@@ -78,11 +78,11 @@ overview of the course learning resources in the authoring area, a more
 targeted search / filtering for specific course types and provides information
 on the classification of the course.
 
-The _"Technical_ _course type_ " refers to the design as well as the available
+The "_Technical_ _course type_" refers to the design as well as the available
 structures and settings of the course. Currently, a distinction can be made
 here between Learning Path Course or Conventional Course.
 
-" _Didactical course types_ " refer to the course setting or the actual
+"_Didactical course types_" refer to the course setting or the actual
 content of the course. For example, it can be an exam course, self-learning
 course or seminar course. Currently the exam course is available as a standard
 type, the list of didactical course types can be extended in the
@@ -173,7 +173,7 @@ search function and a filter have been added, as well as the possibility to
 delete several appointments collectively.
 
 If an external Opencast server is used to store BigBlueButton _recordings_ ,
-these recordings can be marked as " _Permanent_ ". When deleting the meeting
+these recordings can be marked as "_Permanent_". When deleting the meeting
 or course, these recordings will then only be deleted on OpenOlat - not on the
 Opencast server.
 
@@ -282,14 +282,7 @@ selected as _recipients_.
 
 ## Release notes - versions
 
-  * [15.4.7](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=17101)
-  * [15.4.6](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=17027)
-  * [15.4.5](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=17024)
-  * [15.4.4](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=17023)
-  * [15.4.3](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=17021)
-  * [15.4.2](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=17018)
-  * [15.4.1](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=17015)
-  * [15.4](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=16941)
+* [YouTrack release notes 15.4](https://track.frentix.com/releaseNotes?q=15.4.x&title=Release%20Notes%2015.4)
 
   
 

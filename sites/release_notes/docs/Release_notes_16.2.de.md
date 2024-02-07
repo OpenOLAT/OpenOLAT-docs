@@ -184,17 +184,4 @@ Statistische Daten zu Tests waren bisher nur auf der obersten Ebene des Tests bz
 
 ## Weitere Informationen
 
-* [Jira Release Notes 16.2.13](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=19403)
-* [Jira Release Notes 16.2.12](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=19401)
-* [Jira Release Notes 16.2.11](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=19301)
-* [Jira Release Notes 16.2.10](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=19202)
-* [Jira Release Notes 16.2.9](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=19104)
-* [Jira Release Notes 16.2.8](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=19102)
-* [Jira Release Notes 16.2.7](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=19100)
-* [Jira Release Notes 16.2.6](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=18801)
-* [Jira Release Notes 16.2.5](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=18800)
-* [Jira Release Notes 16.2.4](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=18700)
-* [Jira Release Notes 16.2.3](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=18601)
-* [Jira Release Notes 16.2.2](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=18600)
-* [Jira Release Notes 16.2.1](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=18500)
-* [Jira Release Notes 16.2](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=17802)
+* [YouTrack Release Notes 16.2](https://track.frentix.com/releaseNotes?q=16.2.x&title=Release%20Notes%2016.2)

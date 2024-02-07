@@ -199,20 +199,10 @@ Optimizations from UX and usability point of view were also mainly implemented i
 ## Technical
 
 * Third-party libraries updated and code cleaned up
-* Performance optimization under Courses > "My Courses
+* Performance optimization under Courses > "My Courses"
 
 * * *
 
 ## More information
 
-* [Jira Release Notes 17.1.10](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=20400){:target="_blank”}
-* [Jira Release Notes 17.1.9](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=20300){:target="_blank”}
-* [Jira Release Notes 17.1.8](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=20100){:target="_blank”}
-* [Jira Release Notes 17.1.7](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=20000){:target="_blank”}
-* [Jira Release Notes 17.1.6](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=19803){:target="_blank”}
-* [Jira Release Notes 17.1.5](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=19802){:target="_blank”}
-* [Jira Release Notes 17.1.4](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=19800){:target="_blank”}
-* [Jira Release Notes 17.1.3](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=19700){:target="_blank”}
-* [Jira Release Notes 17.1.2](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=19603){:target="_blank”}
-* [Jira Release Notes 17.1.1](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=19501){:target="_blank”}
-* [Jira Release Notes 17.1.0](https://jira.openolat.org/secure/ReleaseNote.jspa?projectId=10000&version=18900){:target="_blank”}
+* [YouTrack Release Notes 17.1](https://track.frentix.com/releaseNotes?q=17.1.x&title=Release%20Notes%2017.1)
