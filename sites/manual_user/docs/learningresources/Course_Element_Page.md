@@ -29,9 +29,9 @@ Specialty / Note | Editing in a block-based editor is used in form learning reso
 
 ## Create page content
 
-In the **Tab "Page content"** open the editor.
+Der Kursbaustein Seite wird im Kurseditor hinzugefügt und in den Tabs konfiguriert. In the **Tab "Page content"** open the editor.
 
-![course_element_page_tab_seiteninhalt_de.png](assets/course_element_page_tab_seiteninhalt_v1_de.png){ class="shadow lightbox" }
+![Kursbaustein Seit im Kurseditor](assets/KB_Seite_Tab_Seiteninhalt19.png){ class="shadow lightbox" }
 
 The **Content Editor** will open. First, add a new layout. (More of these layouts can be added).
 
@@ -39,7 +39,8 @@ The **Content Editor** will open. First, add a new layout. (More of these layout
 
 One or more **content elements** can be added in each field of a layout.
 
-![course_element_page_tab_contentelement_v1_de.png](assets/course_element_page_tab_contentelement_v1_de.png){ class="shadow lightbox" }
+![Inhaltselement im Kursbaustein Seite hinzufügen](assets/KB_Seite_Inhalt_hinzufuegen.png){ class="shadow lightbox" }
+
 
 The following content elements are available:
 
@@ -47,15 +48,19 @@ The following content elements are available:
 * **Paragraph:** A text that can be designed with a small HTML editor.
 * **Table:** Table, which can be designed in an associated popup.
 * **Mathematical formula:** Creating mathematical formulas with the MathJax formula editor.
+* **Code:** Darstellung von Programmiercode ohne Ausführung. Ab :octicons-tag-24: Release 18.2. 
+* **Document:** Word, PowerPoint or Excel documents can be uploaded as well as created directly. PDF and others can be uploaded or taken from the Media Center.
+* **Audio:** Audio auswählen, neu aufnehmen oder als MP3 oder m4a Datei hinzufügen. Ab :octicons-tag-24: Release 18.2. 
 * **Image:** Inserting an image from the Media Center or uploading.
 * **Video:** Inserting a video file from the Media Center or uploading or new recording
+* **draw.io Diagramm:** Neu erstellen oder aus der Liste auswählen. Ab :octicons-tag-24: Release 18.2. 
 * **Citations:** Citations can be stored and reused as standalone content items in the Media Center.
-* **Document:** Word, PowerPoint or Excel documents can be uploaded as well as created directly. PDF and others can be uploaded or taken from the Media Center.
+* **Aus meinem Medien...** Zugriff auf alle Elemente des eigenen Medien Centers. Auch können neue Elemente für das Medien Center erstellt werden.
 * **Text segment:** A text that can be designed with an HTML editor. (With slightly more options than in the Paragraph content element).
 * **Separator:** A line used to visually separate two layouts. 
 
 
-## Edit page
+## Edit page (Bearbeitungsmodus)
 
 ### Edit layout
 
@@ -79,12 +84,9 @@ A content element can be changed by selecting it with a mouse click and using th
 * **Arrow cross:** Move within the layout (also to other fields)
 
 
-
-
 ## Media storage
 
-The Media Center is available for managing and sharing the integrated media elements in the course.<br>
-See [Media Center](../personal_menu/Media_Center.md).
+Die Ablage der eingefügten Medien erfolgt nicht wie bei dem [Kursbaustein "HTML-Seite"](../learningresources/Course_Element_HTML_Page.md) im [Ablageordner](../learningresources//Storage_folder.md) des Kurses sondern im [Medien Center](../personal_menu/Media_Center.md). Hier finden Sie alle eingebauten Medien wieder und können dort auch die weitere Verwaltung und Freigabe regeln. 
 
 Uploading media to the Media Center is done in the personal menu or in the Content Editor when creating a new content item.
 
@@ -97,7 +99,7 @@ Uploading media to the Media Center is done in the personal menu or in the Conte
 | -----------------------| ------------------------------ | ------------------------------ |
 | Content creation | in Content Editor              | in HTML-Editor                 |
 | Layout             | block-based approach          | HTML-Page                     |
-| Creation effort     | lower, since pre-structured   | mostly higher                 |
+| Creation effort     | lower, since pre-structured   | possibly higher                 |
 | Preview               | directly in editor               | separate tab "Display content" |
 | Media                 | in Media Center               | in storage folder                |
 | Editing can be allowed to coaches | :material-check: | :material-check:      |
