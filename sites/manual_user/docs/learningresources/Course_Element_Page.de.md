@@ -15,21 +15,24 @@ Spezialität / Hinweis | Die Bearbeitung in einem blockbasierten Editor wird neb
 
 === "Ansicht im Kurs"
     
-    Es stehen verschiedene Layout-Varianten zur Auswahl, in denen die gewünschten Elemente wie z.B. Bilder, Texte, Tabellen und Videos flexibel platziert und so die gesamte Seite gestaltet werden kann. 
+    Es stehen verschiedene Layout-Varianten zur Auswahl, in denen die gewünschten Elemente wie z.B. Bilder, Texte, Tabellen und Videos flexibel platziert und so die gesamte Seite gestaltet werden kann.
+    [Kursbaustein Seite im Kurs](assets/KB_Seite.png){ class="shadow lightbox" } 
+
+
 
 
 === "Bearbeitungsmodus"
 
     Im Unterschied zum HTML-Editor (Kursbaustein "HTML-Seite") entspricht die Darstellung im blockbasierten Content Editor bereits weitgehend der Vorschau.
-
+    [Kursbaustein Seite im Bearbeitungsmodus](assets/KB_Seite_Bearbeitungsmodus.jpg){ class="shadow lightbox" } 
 
 
 
 ## Seiteninhalt erstellen
 
-Im **Tab "Seiteninhalt"** rufen Sie den Editor auf.
+Der Kursbaustein Seite wird im Kurseditor hinzugefügt und in den Tabs konfiguriert. Im **Tab "Seiteninhalt"** rufen Sie den Editor auf.
 
-![course_element_page_tab_seiteninhalt_de.png](assets/course_element_page_tab_seiteninhalt_v1_de.png){ class="shadow lightbox" }
+![Kursbaustein Seite im Kurseditor](assets/KB_Seite_Tab_Seiteninhalt19.png){ class="shadow lightbox" }
 
 Es öffnet sich der **Content Editor**. Fügen Sie zunächst ein neues Layout ein. (Es können weitere dieser Layouts ergänzt werden.)
 
@@ -37,7 +40,7 @@ Es öffnet sich der **Content Editor**. Fügen Sie zunächst ein neues Layout ei
 
 In jedem Feld eines Layouts können ein oder mehrere **Inhaltselemente** hinzugefügt werden.
 
-![course_element_page_tab_contentelement_v1_de.png](assets/course_element_page_tab_contentelement_v1_de.png){ class="shadow lightbox" }
+![Inhaltselement im Kursbaustein Seite hinzufügen](assets/KB_Seite_Inhalt_hinzufuegen.png){ class="shadow lightbox" }
 
 Es stehen folgende Inhaltselemente zur Verfügung:
 
@@ -45,21 +48,25 @@ Es stehen folgende Inhaltselemente zur Verfügung:
 * **Paragraph:** Ein Text, der mit einem kleinen HTML-Editor gestaltet werden kann.
 * **Tabelle:** Tabelle, die in einem zugehörigen Popup gestaltet werden kann.
 * **Mathematische Formel:** Erstellung mathematischer Formeln mit dem Formeleditor MathJax.
+* **Code:** Darstellung von Programmiercode ohne Ausführung. Ab :octicons-tag-24: Release 18.2. 
+* **Dokument:** Word-, PowerPoint- oder Excel-Dokumente können sowohl hochgeladen als auch direkt erstellt werden. PDF und andere können hochgeladen oder aus dem Medien Center übernommen werden.
+* **Audio:** Audio auswählen, neu aufnehmen oder als MP3 oder m4a Datei hinzufügen. Ab :octicons-tag-24: Release 18.2. 
 * **Bild:** Einfügen eines Bildes aus dem Medien Center bzw. Upload.
 * **Video:** Einfügen einer Videodatei aus dem Medien Center bzw. Upload oder neues Recording
+* **draw.io Diagramm:** Neu erstellen oder aus der Liste auswählen. Ab :octicons-tag-24: Release 18.2. 
 * **Zitat:** Zitate können im Medien Center als eigenständige Inhaltselemente abgelegt und wiederverwendet werden.
-* **Dokument:** Word-, Powerpoint- oder Excel-Dokumente können sowohl hochgeladen als auch direkt erstellt werden. PDF und andere können hochgeladen oder aus dem Medien Center übernommen werden.
+* **Aus meinem Medien...** Zugriff auf alle Elemente des eigenen Medien Centers. Auch können neue Elemente für das Medien Center erstellt werden. 
 * **Textabschnitt:** Ein Text, der mit einem HTML-Editor gestaltet werden kann. (Mit etwas mehr Optionen als im Inhaltselement Paragraph.)
 * **Separator:** Eine Linie, mit der zwei Layouts optisch getrennt werden. 
 
 
-## Seite editieren
+## Seite editieren (Bearbeitungsmodus)
 
 ### Layout editieren
 
 Zum Editieren eines Layouts selektieren Sie das Layout. Es wird ein zugehöriger Rahmen angezeigt. Rechts oben werden Ihnen Icons mit Bearbeitungsoptionen angezeigt.
 
-Ist ein Layout selektiert, kann die Anordnung der Inhalteselemente auch nachträglich noch geändert werden, indem das Zahnrad-Icon geklickt und eine andere Layout-Anordnung gewählt wird.
+Ist ein Layout selektiert, kann die Anordnung der Inhaltselemente auch nachträglich noch geändert werden, indem das Zahnrad-Icon geklickt und eine andere Layout-Anordnung gewählt wird.
 
 Vorhandene Inhaltselemente bleiben erhalten und können in neue Layout-Felder verschoben werden.
 
@@ -78,14 +85,11 @@ Ein Inhaltselement kann geändert werden, indem man es per Mausklick selektiert 
 
 
 
-
 ## Ablage der Medien
 
-Zur Verwaltung und Freigabe der integrierten Medienelemente im Kurs steht das Medien Center zur Verfügung.<br>
-Siehe [Medien Center](https://docs.openolat.org/de/manual_user/personal_menu/Media_Center/#dokument-hinzufugen).
+Die Ablage der eingefügten Medien erfolgt nicht wie bei dem [Kursbaustein "HTML-Seite"](../learningresources/Course_Element_HTML_Page.de.md) im [Ablageordner](../learningresources//Storage_folder.de.md) des Kurses sondern im [Medien Center](../personal_menu/Media_Center.de.md). Hier finden Sie alle eingebauten Medien wieder und können dort auch die weitere Verwaltung und Freigabe regeln. 
 
 Der Upload der Medien ins Medien Center erfolgt im persönlichen Menü oder im Content Editor bei der Erstellung eines neuen Inhaltselements.
-
 
 
 ## Unterschiede: Seite - HTML-Seite
@@ -95,10 +99,10 @@ Der Upload der Medien ins Medien Center erfolgt im persönlichen Menü oder im C
 | -----------------------| ------------------------------ | ------------------------------ |
 | Erstellung des Inhalts | im Content Editor              | im HTML-Editor                 |
 | Gestaltung             | blockbasierter Ansatz          | HTML-Seite                     |
-| Erstellungsaufwand     | geringer, da vorstrukturiert   | meistens höher                 |
+| Erstellungsaufwand     | geringer, da vorstrukturiert   | teilweise höher                 |
 | Vorschau               | direkt im Editor               | separater Tab "Anzeige Inhalt" |
 | Medien                 | im Medien Center               | im Ablageordner                |
-| Editieren kann Betreuer:innen erlaubt werden  | :material-check: | :material-check:      |
+| Editieren kann Betreuenden erlaubt werden  | :material-check: | :material-check:      |
 | erweiterte Berechtigungen                     | :material-check: | :material-cancel:     |
 | Integration pdf        | :material-check:               | :material-check:               |
 | Integration Office-Dokumente | :material-check:         | :material-cancel:              |
