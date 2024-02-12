@@ -1,6 +1,6 @@
 # Qualitätsmanagement: Übersicht {: #Quality_Management}
 
-Um Rückmeldung zur Qualität von Kursen oder zur Unterricht zu erhalten, werden in OpenOlat **Formulare** innerhalb von Kursen eingesetzt.
+Um Rückmeldung zur Qualität von Kursen oder des Unterrichts zu erhalten, werden in OpenOlat **Formulare** innerhalb von Kursen eingesetzt.
 
 Die Organisation von **Befragungen (Datenerhebungen)** mit diesen Formularen (insbesondere die Bestimmung des Zeitpunktes oder des Zeitfensters für die Befragung) kann durch ein **Zusatzmodul "Qualitätsmanagement"** kursübergreifend bewerkstelligt werden.
 
@@ -23,7 +23,7 @@ Der Report ist Bestandteil des Kursbausteines und fasst deshalb nur die Antworte
 ## Fall 2: Ad-hoc-Datenerhebung in mehreren Kursen
 Für kursübergreifende Datenerhebungen wird das Modul "Qualitätsmanagement" benötigt. 
 
-Dort wird eine Formular-Lernressource wird mit einer neuen Datenerhebung (= adhoc-Befragung) verknüpft.
+Dort wird eine Formular-Lernressource mit einer neuen Datenerhebung (= adhoc-Befragung) verknüpft.
 Auf der Ebene dieser Datenerhebung werden dann Teilnehmer, Befragungsgegenstand und Datenerhebungszeitraum definiert. Der Befragungsgegenstand kann dabei variieren zwischen Betreuer, Kurs oder Curriculum/Curriculumelement, aber auch Organisation (bzw. einer Einheit davon).
 
 Im Modul "Qualitätsmanagement" steht dann ein kursübergreifender Report zur Verfügung. 
