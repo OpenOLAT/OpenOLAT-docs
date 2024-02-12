@@ -116,10 +116,10 @@ nav:
       - Overview: "area_modules/Quality_Management.md"
       - Surveys: "area_modules/Quality_Management_Surveys.md"
       - Data collection: "area_modules/Quality_Management_Data_Collections.md"
-      - Data collection preview: "area_modules/Quality_Management_Data_Collection_Preview.md" 
+      - Data collection preview: "area_modules/Quality_Management_Data_Collection_Preview.md"
       - Analysis: "area_modules/Quality_Management_Analysis.md"
       - Data collection generators: "area_modules/Quality_Management_Data_Collection_Generators.md"
-      - Suggestion for improvment: "area_modules/Quality_Management_Improvement.md" 
+      - Suggestion for improvement: "area_modules/Quality_Management_Improvement.md"
       - Actions (To-dos): "area_modules/Quality_Management_To-dos.md"    
 
   - Learning resources:
