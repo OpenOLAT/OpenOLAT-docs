@@ -35,3 +35,10 @@ Siehe [Benutzerhandbuch](../../manual_user/learningresources/Data_Collection_Pre
 In OpenOlat können an verschiedenen Stellen To-dos erstellt werden (Projekte, Aufgaben, usw.). Im Qualitätsmanagement redet man in der Regel eher von "Massnahmen" als Reaktion auf Erkenntnisse aus einer Erhebung. Technisch gesehen, handelt es sich bei "Massnahmen" aus dem QM um To-do-Objekte. 
 
 Wird diese Option aktiviert, können Qualitätsmanager:innen To-dos (Massnahmen) erstellen.
+
+
+## Aktivierung der Site
+
+Nachdem das Modul aktiviert worden ist, muss noch unter<br>
+**Administration > Customizing > Sites**<br>
+die Checkbox gesetzt und die Benutzergruppe definiert werden, die die Option "Qualitätsmanagement" in der Hauptnavigation angezeigt bekommt. 
