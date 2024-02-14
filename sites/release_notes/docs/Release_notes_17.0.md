@@ -174,5 +174,6 @@ It is possible to define *local* (= only available for this gap) or *global* (= 
 
 ## More information
 
-* [YouTrack Release Notes 17.0](https://track.frentix.com/releaseNotes?q=17.0.x&title=Release%20Notes%2017.0)
+* [YouTrack Release Notes 17.0](https://track.frentix.com/releaseNotes/OO?q=%2317.0.0%20&title=Release%20notes%2017.0)
+* * [YouTrack Release Notes 17.0 - 17.0.8](https://track.frentix.com/releaseNotes/OO?q=%2317.0.*&title=Release%20notes%2017.0.*)
 

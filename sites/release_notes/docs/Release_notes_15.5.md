@@ -387,4 +387,5 @@ the upper left corner.
 
 ## Release notes - versions
 
-* [YouTrack release notes 15.5](https://track.frentix.com/releaseNotes?q=15.5.x&title=Release%20Notes%2015.5)
+* [YouTrack release notes 15.5](https://track.frentix.com/releaseNotes/OO?q=%2315.5.0&title=Release%20notes%2015.5)
+* [YouTrack release notes 15.5 - 15.5.22](https://track.frentix.com/releaseNotes/OO?q=%2315.5.*&title=Release%20Notes%2015.5.*)

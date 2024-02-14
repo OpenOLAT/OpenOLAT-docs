@@ -205,4 +205,5 @@ Optimizations from UX and usability point of view were also mainly implemented i
 
 ## More information
 
-* [YouTrack Release Notes 17.1](https://track.frentix.com/releaseNotes?q=17.1.x&title=Release%20Notes%2017.1)
+* [YouTrack Release Notes 17.1](https://track.frentix.com/releaseNotes/OO?q=%2317.1.0%20&title=Release%20notes%2017.1)
+* [YouTrack Release Notes 17.1 - 17.1.10](https://track.frentix.com/releaseNotes/OO?q=%2317.1.*&title=Release%20notes%2017.1.*)

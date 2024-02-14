@@ -282,7 +282,8 @@ selected as _recipients_.
 
 ## Release notes - versions
 
-* [YouTrack release notes 15.4](https://track.frentix.com/releaseNotes?q=15.4.x&title=Release%20Notes%2015.4)
+* [YouTrack release notes 15.4](https://track.frentix.com/releaseNotes/OO?q=%2315.4)
+* [YouTrack release notes 15.4 - 15.4.7](https://track.frentix.com/releaseNotes/OO?q=%2315.4.*&title=Release%20notes%2015.4.*)
 
   
 

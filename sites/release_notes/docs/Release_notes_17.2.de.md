@@ -318,4 +318,5 @@ Es werden laufend weitere Ergänzungen vorgenommen.
 
 ## Weitere Informationen
 
-* [YouTrack Release Notes 17.2](https://track.frentix.com/releaseNotes?q=17.2.x&title=Release%20Notes%2017.2)
+* [YouTrack Release Notes 17.2](https://track.frentix.com/releaseNotes/OO?q=%2317.2.0%20&title=Release%20Notes%2017.2)
+* [YouTrack Release Notes 17.2 - 17.2.19](https://track.frentix.com/releaseNotes/OO?q=%2317.2.*&title=Release%20notes%2017.2.*)

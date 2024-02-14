@@ -285,5 +285,6 @@ _Gruppen_ bzw. _Curricula_ ausgewählt werden.
 
 ## Release Notes - Versionen
 
-* [YouTrack release notes 15.4](https://track.frentix.com/releaseNotes?q=15.4.x&title=Release%20Notes%2015.4)
+* [YouTrack release notes 15.4](https://track.frentix.com/releaseNotes/OO?q=%2315.4)
+* [YouTrack release notes 15.4 - 15.4.7](https://track.frentix.com/releaseNotes/OO?q=%2315.4.*&title=Release%20notes%2015.4.*)
 

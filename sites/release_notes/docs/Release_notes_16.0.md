@@ -384,7 +384,8 @@ accordingly with its own icon.
 
 ## Release notes - versions
 
-* [YouTrack release notes 16.0](https://track.frentix.com/releaseNotes?q=16.0.x&title=Release%20Notes%2016.0)
+* [YouTrack release notes 16.0](https://track.frentix.com/releaseNotes/OO?q=%2316.0.0&title=Release%20Notes%2016.0)
+* [YouTrack release notes 16.0 - 16.0.9](https://track.frentix.com/releaseNotes/OO?q=%2316.0.*&title=Release%20notes%2016.0.*)
 
   
 

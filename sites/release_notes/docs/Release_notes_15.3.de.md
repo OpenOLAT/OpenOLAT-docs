@@ -267,6 +267,7 @@ Organisationseinheit zugegriffen werden.
 
 ## Release Notes - Versionen
 
-* [YouTrack release notes 15.3](https://track.frentix.com/releaseNotes?q=15.3.x&title=Release%20Notes%2015.3)
+* [YouTrack release notes 15.3](https://track.frentix.com/releaseNotes/OO?q=%2315.3&title=Release%20notes%2015.3)
+* [YouTrack release notes 15.3 - 15.3.18](https://track.frentix.com/releaseNotes/OO?q=%2315.3.*&title=Release%20Notes%2015.3.*)
 
   

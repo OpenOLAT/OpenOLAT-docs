@@ -178,4 +178,5 @@ Until now, statistical data on tests was only available at the top level of the 
 
 ## More information
 
-* [YouTrack Release Notes 16.2](https://track.frentix.com/releaseNotes?q=16.2.x&title=Release%20Notes%2016.2)
+* [YouTrack Release Notes 16.2](https://track.frentix.com/releaseNotes/OO?q=%2316.2.0&title=Release%20notes%2016.2)
+* [YouTrack Release Notes 16.2 - 16.2.18](https://track.frentix.com/releaseNotes/OO?q=%2316.2.*&title=Release%20notes%2016.2.*)

@@ -93,7 +93,8 @@ course element either single videos or whole series can be integrated.
 
 ## Release notes - versions
 
-* [YouTrack release notes 15.2](https://track.frentix.com/releaseNotes?q=15.2.x&title=Release%20Notes%2015.2)
+* [YouTrack release notes 15.2](https://track.frentix.com/releaseNotes/OO?q=%2315.2%20&title=Release%20Notes%2015.2)
+* [YouTrack release notes 15.2 - 15.2.13](https://track.frentix.com/issues/OO?q=%2315.2.*)
 
   
 

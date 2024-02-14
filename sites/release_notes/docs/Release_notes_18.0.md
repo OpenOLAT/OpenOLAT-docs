@@ -237,4 +237,5 @@ With the help of the new To-Do infrastructure, it is possible to react directly 
 
 ## More information
 
-* [YouTrack Release Notes 18.0](https://track.frentix.com/releaseNotes?q=18.0.x&title=Release%20Notes%2018.0)
+* [YouTrack Release Notes 18.0](https://track.frentix.com/releaseNotes/OO?q=%2318.0.0%20&title=Release%20notes%2018.0)
+* [YouTrack Release Notes 18.0 - 18.0.8](https://track.frentix.com/releaseNotes/OO?q=%2318.0.*&title=Release%20notes%2018.0.*)

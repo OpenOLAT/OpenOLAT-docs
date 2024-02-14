@@ -282,5 +282,6 @@ orders is done in a separate area.
 
 ## Other resources
 
-* [YouTrack relase notes 16.1](https://track.frentix.com/releaseNotes?q=16.1.x&title=Release%20Notes%2016.1)
+* [YouTrack relase notes 16.1](https://track.frentix.com/releaseNotes/OO?q=%2316.1.0%20&title=Release%20notes%2016.1)
+* [YouTrack relase notes 16.1 - 16.1.8](https://track.frentix.com/releaseNotes/OO?q=%2316.1.*&title=Release%20notes%2016.1.*)
  

@@ -290,4 +290,5 @@ Forms with rubrics are often used in the course element "Assessment" in the cont
 
 ## More information
 
-* [YouTrack Release Notes 18.1](https://track.frentix.com/releaseNotes?q=18.1.x&title=Release%20Notes%2018.1.)
+* [YouTrack Release Notes 18.1](https://track.frentix.com/releaseNotes/OO?q=%2318.1.0%20&title=Release%20notes%2018.1)
+* [YouTrack Release Notes 18.1 - 18.1.4](https://track.frentix.com/releaseNotes/OO?q=%2318.1.*&title=Release%20notes%2018.1.*)
