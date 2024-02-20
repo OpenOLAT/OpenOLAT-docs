@@ -44,4 +44,5 @@ To-dos können an mehreren Stellen in OpenOlat erstellt werden. Weitere Informat
 [Allgemeines zu To-dos](../basic_concepts/To_Dos_Basics.de.md)<br>
 [To-dos im persönlichen Menü](../personal_menu/To-Dos.de.md)<br>
 [To-dos innerhalb eines Projektes](../area_modules/Project_Todos.de.md)<br>
-[To-dos im Kursbaustein Aufgabe](../learningresources/Course_Element_Task.de.md)
+[To-dos im Kursbaustein Aufgabe](../learningresources/Course_Element_Task.de.md)<br>
+[Massnahmen To-dos im Qualitätsmanagement](../area_modules/Quality_Management_To-dos.de.md)
