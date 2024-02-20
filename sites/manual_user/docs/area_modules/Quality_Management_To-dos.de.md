@@ -23,7 +23,6 @@ Alle To-dos zum Qualitätsmanagement sind unter "Massnahmen To-dos" aufgelistet.
 
 Werden die Massnahmen (To-dos) in der Übersicht des Qualitätsmanagements aufgerufen, wird beim Erstellen einer neuen Massnahme als Kontext des To-dos das Qualitätsmanagement generell eingetragen.
 
-![quality_management_to-dos_overview1_v1_de.png](assets/quality_management_to-dos_overview1_v1_de.png){ class="shadow lightbox" }
 
 ![quality_management_to-dos_overview2_v1_de.png](assets/quality_management_to-dos_overview2_v1_de.png){ class="shadow lightbox" }
 
