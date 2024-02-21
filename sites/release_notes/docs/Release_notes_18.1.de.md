@@ -49,7 +49,7 @@ Bisher wurden PDF-Dokumente, Bilder, Videos und Audios zur Vorschau und Anzeige 
 
 === "Lightbox mit Bild"
 
-    ![Lightbox Bild](assets/181/Lightbox_image_DE.png){ class="shadow lightbox" title="Bild-Anzeige in Lightbox" }
+    ![Lightbox Bild](assets/181/Lightbox_image_DE.jpg){ class="shadow lightbox" title="Bild-Anzeige in Lightbox" }
 
 === "Lightbox mit PDF"
 

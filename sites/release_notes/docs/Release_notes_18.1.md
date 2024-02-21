@@ -49,7 +49,7 @@ Previously, PDF documents, images, videos and audios were opened in a new browse
 
 === "Lightbox with image"
 
-    ![Lightbox image](assets/181/Lightbox_image_DE.png){ class="shadow lightbox" title="Image view in Lightbox" }
+    ![Lightbox image](assets/181/Lightbox_image_DE.jpg){ class="shadow lightbox" title="Image view in Lightbox" }
 
 === "Lightbox with PDF"
 
