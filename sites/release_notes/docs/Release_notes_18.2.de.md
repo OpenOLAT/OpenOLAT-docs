@@ -252,7 +252,7 @@ Bereich | Rolle
 
 * Link zu externer Website in Hauptnavigation einbinden
 * Optimierung der E-Mail-Benachrichtigungen für den Konto-Lebenszyklus
-* Aktualisierung der Opionen unter 'Link auf diese Seite teilen': LinkedIn, Facebook, X, E-Mail
+* Aktualisierung der Optionen unter 'Link auf diese Seite teilen': LinkedIn, Facebook, X, E-Mail
 * Badges: Integration der Markdown UI Bibliothek für einfache Formatierungen (Umbrüche, Listen) im Beschreibungstext (:octicons-tag-24: ab Release 18.2.1)
 * UI/UX: Neues Filter-Element 'Scope' zur vordefinierten Eingrenzung von Daten
 * UI/UX: Visuelle Optimierung der Datensatz-Details in Tabellen, z.B. bei To-dos und im Fragenpool

@@ -15,7 +15,7 @@ Informationen betreffend OpenOlat, seiner Funktionen und neuesten Änderungen fi
 
 ## Aktuelle Versionen:
 
-- [OpenOlat 18.2 Benutzerhandbuch](manual_user/general/) <!--- | [Release Notes 18.2](release_notes/Release_notes_18.2.de.md) -->
+- [OpenOlat 18.2 Benutzerhandbuch](manual_user/general/) | [Release Notes 18.2](release_notes/Release_notes_18.2.de.md)
 
 ## Ältere Versionen:
 
