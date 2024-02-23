@@ -120,7 +120,7 @@ Alternative solutions can be added via the plus icon if more than one solution i
 
 The points can be chosen freely. Points can also be awarded for alternative answers.
 
-The entry of the same answer in several gaps can be allowed or disallowed.
+If at least two gaps contain an identical answer option, the "Allow twice the same input" setting is available in the " Score" tab. This allows or prevents the entry of the same answer in multiple gaps.
 
 ![Editor Gap text Icon](assets/Editor_Lückentext_3Punkte.jpg){ class="shadow" }
 
@@ -128,10 +128,11 @@ The entry of the same answer in several gaps can be allowed or disallowed.
 
 ![Variants Gap text](assets/Lückentext_Varianten.jpg){ class="shadow" }
 
-##  Gap text with dropdown
+## Gap text with dropdown
+
 ![Icon Gap text with dropdown](assets/icon_dropdown_luecke.png){ class=size24 }
 
-Gap text with dropdown is basically a combination of gap text and single-choice selection. Similar to the gap text, gap elements are integrated into a continuous text. These gaps can then be assigned several answer alternatives and the correct answer can be marked. 
+Gap text with dropdown is basically a combination of gap text and single-choice selection. Similar to the gap text, gap elements are integrated into a continuous text. These gaps can then be assigned several answer alternatives and the correct answer can be marked.
 
 ![Dropdown gap text example](assets/gap_text_dropdown.png){ class="shadow" }
 

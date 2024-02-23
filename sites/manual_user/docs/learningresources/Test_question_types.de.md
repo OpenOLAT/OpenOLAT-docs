@@ -120,7 +120,7 @@ Für jede Lücke können folgende Attribute ausgefüllt werden:
 
 Die Punkte können frei gewählt werden. Es können auch Punkte für Antwortalternativen vergeben werden.
 
-Die Eingabe der gleichen Antwort in mehrere Lücken kann zugelassen oder unterbunden werden.
+Sobald mindestens zwei Lücken eine identische Antwortmöglichkeit enthalten, ist im Tab "Punkte" die Option "Doppelte Eingaben erlauben" verfügbar. Darüber kann die Eingabe der gleichen Antwort in mehrere Lücken zugelassen oder unterbunden werden.
 
 ![Editor Lückentext Icon](assets/Editor_Lueckentext_3Punkte_DE.jpg)
 
@@ -129,6 +129,7 @@ Die Eingabe der gleichen Antwort in mehrere Lücken kann zugelassen oder unterbu
 ![Varianten Lückentext](assets/Lueckentext_Varianten_DE.jpg){ class="shadow" }
 
 ## Lückentext mit Dropdown
+
 ![Icon Lückentext mit Dropdown](assets/icon_dropdown_luecke.png){ class=size24 }
 
 Beim Lückentext mit Dropdown handelt es sich im Prinzip um eine Kombination aus Lückentext und Single-Choice-Auswahl. Ähnlich wie beim Lückentext werden in einen Fließtext Lückenelemente eingebaut. Diesen Lücken können dann mehrere Antwortalternativen zugeordnet und die korrekte Antwort gekennzeichnet werden. 
