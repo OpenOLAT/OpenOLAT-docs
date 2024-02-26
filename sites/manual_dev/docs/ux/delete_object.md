@@ -23,7 +23,7 @@
 3. **Notification** List with users who are notified (optional).
 4. **Confirm** Confirmation by the user (optional).
 
-## Delete permantly
+## Delete permanently
 
 ### Single action
 
