@@ -20,7 +20,9 @@ You will only get search results of the course contents you have access to.
 
 In order to search in more detail please use the advanced search.
 
-![](assets/full_text_search_advanced_link_EN.png)![Example Full-text search](assets/full_text_search_advanced.png)
+![Activate advanced search](assets/full_text_search_advanced_link_EN.png)
+
+![Advanced full text search - example](assets/full_text_search_advanced.png)
 
 Select the option "Advanced search." The mode _Advanced search_ enables you to
 refine your search. Please note that these different fields have to be linked
@@ -39,67 +41,22 @@ learning content along with your search term.
     search](../learningresources/Course_Settings.md#CourseSettings-course_search), which can be
     activated for every course in the course toolbar. The setting is activated under "Administration" -> "Settings" in the "Toolbar" tab. The course search searches only the corresponding course.
 
-  
-
-##  Syntax {: #syntax}
+## Syntax {: #syntax}
 
 You can modify your query by means of the following syntax.  
-  
-**Single terms:** e.g. _OLAT_
 
- **Phrases:** should be put in double quotation marks, e.g. _"carbonated
-water"_
+**Single terms:** e.g. _OpenOlat_
 
- **Boolean operators:** Single terms as well as phrases can be linked by
-Boolean operators. Attention: Boolean operators have to be in capital letters.
+**Multiple terms:** in the search field are always linked with the OR operator
 
-  *  **OR:** If you do not use Boolean operators between terms you are searching for the OR operator will be used. For example: _"Analyzing water" Calcium_ and _"Analyzing water" OR Calcium_ will generate the same results, that is, all documents containing either "Analyzing water" or "Calcium"
-  *  **AND:** Using the AND operator will show documents containing all terms you are searching for. For example: _"Analyzing water" AND "Calcium"_ will show documents containing "Analyzing water" as well as "Calcium".
-  *  **NOT:** Using the NOT operator will eliminate documents containing specific terms. For example: _"Analyzing water" AND "Calcium" NOT "Tap water"_ will show a document containing "Analyzing water" and "Calcium" but not "Tap water".
-
-  
- **Searching by means of wildcards:** You can choose between two different
-kinds of wildcards in order to look for specific word fragments.
+**Searching by means of wildcards:** Wildcards can be used to search for specific word fragments.
 
   * The question mark within a term stands for any single letter. For example: The query _te?t_ will result in finding all documents containing the words "test", "text" etc.
   * The asterisk within a term stands for any number of letters. For example: The query _test*_ will result in finding all documents containing words beginning with "test". The asterisk can also be put within a term: _te*t_
 
-  
- **Fuzzy search:** By means of the tilde (swung dash) ~ you can search for
-words with similar spelling. For example: The query _sauna~_ will result in
-finding documents containing words such as "sauna", "saunas" or "fauna".
+**Advanced search:** In advanced search mode, the various search fields are linked with the AND operator.
 
- **Special characters:** The following characters are part of the search
-syntax in OLAT:
-
- **\+ - && | ! ( ) { } [ ] ^ " ~ * ? : \**
-
-If your query contains one of these characters you have to mask it using the
-backslash \\. For example if you are looking for the equation _(1+1):2=?_ you
-have to write _\\(1\\+1\\)\:2=\?_ instead.
-
- **Searching through fields:** In order to search through fields you can
-select the mode _Advanced search_ (different fields are linked by the AND
-operator). Or you can search through fields by means of your own Boolean link.
-In order to do this please use the following field names in the _Simple
-search_ mode:
-
-  *  _title_ (=Title)
-  *  _description_ (=Description)
-  *  _content_ (=Searching through a text)
-  *  _documenttype_ (=Document type)
-  *  _filetype_ (=File type)
-  *  _author_ (=Author)
-  *  _created_ (=Creation date)
-  *  _changed_ (=Last modification)
-
-Example: _description:Calcium_ will only search through the field
-_Description_.
-
-For more detailed information regarding the lucene search syntax used in OLAT
-please go to [Apache Lucene](http://lucene.apache.org/core/7_2_0/queryparser/org/apache/lucene/queryparser/classic/package-summary.html#package.description).
-
-##  Meta Data {: #metadata}
+## Meta Data {: #metadata}
 
 Meta data is data  **about**  data, containing information about attributes of
 other data. Metadata additionally describe a file, e.g. its title, author or
@@ -126,4 +83,3 @@ move it. This option is not available for folders.
 
 Using the external link, you can link directly to a specific file from outside
 of OpenOlat.
-
