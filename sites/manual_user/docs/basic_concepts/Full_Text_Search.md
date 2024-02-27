@@ -83,3 +83,12 @@ move it. This option is not available for folders.
 
 Using the external link, you can link directly to a specific file from outside
 of OpenOlat.
+
+## Search results
+
+In your search results the following will appear:
+
+* Data that is shared in business cards of users
+* Data / documents from "public folders" of users
+* Data / documents from courses in which you are a member and to which you also have access as a course member
+* Data / documents from courses that are configured as follows under Settings > Sharing: "Without booking" or "Freely available"

@@ -90,3 +90,12 @@ Diese Option ist für Ordner nicht vorhanden.
 
 Mit Hilfe des verfügbaren externen Links können Sie auch ausserhalb von
 OpenOlat direkt auf eine bestimmte Datei verlinken.
+
+## Suchergebnisse
+
+In den eigenen Suchergebnissen erscheinen:
+
+* Daten, die in Visitenkarten von Benutzer:innen freigegeben sind
+* Daten / Dokumente aus “öffentlichen Ordnern” von Benutzer:innen
+* Daten / Dokumente aus Kursen, in denen man selbst Mitglied ist und auf die man als Kursmitglied auch Zugriff hat
+* Daten / Dokumente aus Kursen, die unter Einstellungen > Freigabe wie folgt konfiguriert sind: "Ohne Buchung" oder "Frei verfügbar"
