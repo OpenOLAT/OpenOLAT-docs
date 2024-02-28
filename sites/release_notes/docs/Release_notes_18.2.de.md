@@ -7,7 +7,7 @@
 
 * * *
 
-:material-calendar-month-outline: **Releasedatum: 31.01.2024 • Letztes Update: 08.02.2024**
+:material-calendar-month-outline: **Releasedatum: 31.01.2024 • Letztes Update: 28.02.2024**
 
 * * *
 
@@ -259,6 +259,10 @@ Bereich | Rolle
 * UI/UX: Verbesserte Usability des Suchfeldes für Taxonomie und Organisation
 * UI/UX: Optimierte Anzeige und Label für die Konfigurationsseite 'Passwort und Authentifizierung'
 * UI/UX: Optimierte Systemmeldungen für nicht löschbare Konten
+* Lektionsverwaltung: Zusätzliche Informationen zu Lektionen und dem entsprechenden Kurs in den Benutzerdetails (:octicons-tag-24: ab Release 18.2.2)
+* Projekt:
+    * 'Wiederherstellen' und 'Endgültig Löschen' für gelöscht markierte Dateien (:octicons-tag-24: ab Release 18.2.2)
+    * Benachrichtigung an neue Projektmitglieder, wenn diese zum Projekt hinzugefügt werden (:octicons-tag-24: release 18.2.2)
 
 * * *
 
@@ -289,6 +293,7 @@ Ab :octicons-tag-24: Release 18.2.1 können in der `Administration` bestimmte De
 
     Folgende Funktionen müssen nach einem Update auf Release 18.2 in der `Administration` aktiviert bzw. konfiguriert werden:
 
+    * [x] Prüfungseinsicht: `e-Assessment > Prüfungsverwaltung > Tab 'Prüfungsverwaltung'` (:octicons-tag-24: ab Release 18.2.2)
     * [x] Externe Website im Hauptnavigation einbinden: `Customizing > Sites > Tab 'External Site'`
     * [x] Datenerhebungsvorschau (de)aktivieren: `Modules > Qualitätsmanagement > Abschnitt 'Datenerhebungsvorschau'`
     * [x] Individuelle GUI-Einstellungen von Benutzer:innen:
@@ -299,5 +304,6 @@ Ab :octicons-tag-24: Release 18.2.1 können in der `Administration` bestimmte De
 
 ## Weitere Informationen
 
+* [YouTrack Release Notes 18.2.2](https://track.frentix.com/releaseNotes/OO?q=Fix%20versions:%2018.2.2&title=Release%20Notes%2018.2.2){:target="_blank”}
 * [YouTrack Release Notes 18.2.1](https://track.frentix.com/releaseNotes/OO?q=Fix%20versions:%2018.2.1&title=Release%20Notes%2018.2.1){:target="_blank”}
 * [YouTrack Release Notes 18.2.0](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2018.2.0&title=Release%20Notes%2018.2.0){:target="_blank”}

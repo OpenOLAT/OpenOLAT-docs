@@ -7,7 +7,7 @@
 
 * * *
 
-:material-calendar-month-outline: **Release date: 01/31/2024 • Last update: 02/08/2024**
+:material-calendar-month-outline: **Release date: 01/31/2024 • Last update: 02/28/2024**
 
 * * *
 
@@ -275,6 +275,10 @@ As of :octicons-tag-24: Release 18.2.1, certain default values can be preconfigu
 * Course element 'Test': Display of the results
 * Course element 'Participant folder': Configuration of the submission drop box for participants and the return box for coaches
 * Course element 'Survey': Authorizations for participation and display of results
+* Lectures management: Additional information on lectures and the corresponding course in the user details (:octicons-tag-24: release 18.2.2)
+* Project:
+    * 'Restore' and 'Delete permanently' for files marked as deleted (:octicons-tag-24: release 18.2.2)
+    * Notification to new project members when they are added to the project (:octicons-tag-24: release 18.2.2)
 
 ### Further updates
 
@@ -289,6 +293,7 @@ As of :octicons-tag-24: Release 18.2.1, certain default values can be preconfigu
 
     The following functions have to be activated / configured in the `Administration` after an update to release 18.2:
 
+    * [x] Assessment inspection: `e-Assessment > Assessment management > Tab 'Assessment management'` (:octicons-tag-24: release 18.2.2)
     * [x] Include external website in the main navigation: `Customizing > Sites > Tab 'External Site'`
     * [x] (De)activate data collection preview: `Modules > Quality management > Section 'Data collection preview'`
     * [x] Individual GUI settings for users:
@@ -299,5 +304,6 @@ As of :octicons-tag-24: Release 18.2.1, certain default values can be preconfigu
 
 ## More information
 
+* [YouTrack Release Notes 18.2.2](https://track.frentix.com/releaseNotes/OO?q=Fix%20versions:%2018.2.2&title=Release%20Notes%2018.2.2){:target="_blank”}
 * [YouTrack Release Notes 18.2.1](https://track.frentix.com/releaseNotes/OO?q=Fix%20versions:%2018.2.1&title=Release%20Notes%2018.2.1){:target="_blank”}
 * [YouTrack Release Notes 18.2.0](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2018.2.0&title=Release%20Notes%2018.2.0){:target="_blank”}
