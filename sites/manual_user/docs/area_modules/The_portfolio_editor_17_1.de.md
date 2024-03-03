@@ -14,8 +14,7 @@ Der Portfolio Editor umfasst verschiedene Menü-Bereiche für die Konfiguration:
 * **Layoutmenü**: Ein Layout ist ein übergeordneter Bereich, der  unterschiedliche Strukturierungen des Inhalts durch Spalten und Zeilen ermöglicht. Im Layoutmenü kann ein ein- oder mehrspaltiges Layout ausgewählt, Layoutbereiche verschoben oder neue Layouts hinzufügt werden. Löscht oder verändert man Layouts werden existierende Blöcke in die vorhandenen Spalten geschoben. Aktuell sind folgende Layoutvorlagen verfügbar:
 ![layout-template](assets/layoutblock-template.jpg)
 * **Blockmenü**: Menü eines einzelnen Inhaltselements innerhalb eines Layouts. Über das Blockmenü kann ein Inhaltselement verschoben, hinzugefügt oder gelöscht werden. Auch der Inspektor mit weiteren Einstellungen für ein Inhaltselement kann über das Zahnrad :material-cog: aktiviert werden. 
-* **Inspektor**: Dort befinden sich alle Einstellungen, die den Funktionsumfang, sowie das Aussehen des jeweiligen Elements verändern, z.B. die Ausrichtung Bildern. Klickt man auf die Titelzeile des Inspektorfensters kann das Konfigurationsmenü auch verschoben werden. Wenn Sie einen neuen Block selektieren, springt der Inspektor wieder an die Standardposition.
-
+* **Inspektor**: Dort befinden sich alle Einstellungen, die den Funktionsumfang, sowie das Aussehen des jeweiligen Elements verändern, z.B. die Ausrichtung von Bildern. Klickt man auf die Titelzeile des Inspektorfensters kann das Konfigurationsmenü auch verschoben werden. Wenn Sie einen neuen Block selektieren, springt der Inspektor wieder an die Standardposition.
 
 ## Inhaltsblöcke - Inhalt hinzufügen 
 
