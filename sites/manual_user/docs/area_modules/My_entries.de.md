@@ -4,7 +4,7 @@ Unter "Meine Einträge" eines Portfolios werden alle persönlichen Einträge in 
 
 Einzelne Inhalte eines Eintrages werden je nach Typ im Media Center abgelegt und können auch dort bearbeitet werden. Allerdings werden keine kompletten Einträge im Media Center abgelegt.
 
-![meine_eintraege.png](assets/pf_meineeintraege_liste_DE.png)
+![meine_eintraege.png](assets/Meine_Eintraege_portfolio.png)
 
 !!! info "Info"
     
