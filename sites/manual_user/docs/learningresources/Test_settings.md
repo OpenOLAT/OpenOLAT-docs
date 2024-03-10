@@ -1,13 +1,12 @@
-# Test settings
+# Test settings - administration
 
-## Test administration
+In the "Administration" area of a test, you will find further menus, similar to other learning resources. Here you can configure the test in more detail. The "Settings" and "Edit content" menus are particularly important. 
 
-In the "Administration" area of a test, you will find further menus, similar to other learning resources. Here you can configure the test in more detail. The "Settings" and "Edit content" menus are particularly important. The "Assessment Tool" is relevant if the test is to be used independently of the course.  
+![Test Administration](assets/Test_administration_DE.png){ class="shadow" }
 
 Under "Edit content" you get to the [test editor](Test_editor_QTI_2.1.md). The actual test is created here. The basic configuration of the entire test is mostly done in the "Settings", especially in the "Options" tab. The "Options"
 tab is explained in more detail in this chapter.
 
-![Test Administration](assets/Test_administration_DE.png){ class="shadow" }
 
 ### Export tests
 
