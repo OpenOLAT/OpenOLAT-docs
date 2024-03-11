@@ -10,7 +10,7 @@ Die Datenerhebungsvorschau wird nach der [Aktivierung](../../manual_admin/admini
 * im Modul "Qualitätsmanagement"
 
 
-Wird die Option aktiviert, ist für Kursbesitzer:innen und Betreuer:innen im Menü der **Kursadministration** die Option "Datenerhebungsvorschau" angezeigt. Dort können die geplanten Erhebungen eingesehen werden, die diesen einzelnen Kurs betreffen. Kursbesitzer:innen können Bearbeitungen vornehmen, für die anderen Personen mit Zugriff ist diese Vorschau rein informativ.
+Wird die Option aktiviert, ist für Kursbesitzer:innen und Betreuer:innen im Menü der **Kursadministration** die Option "Datenerhebungsvorschau" angezeigt. Dort können die geplanten Erhebungen eingesehen werden, die diesen einzelnen Kurs betreffen. Kursbesitzer:innen können Bearbeitungen vornehmen, für die anderen Personen mit Zugriff ist Diese Vorschau ist rein informativ.
 
 Ausserdem kann die **Datenerhebungsvorschau in Curricula** aufgerufen werden und zeigt dort alle Erhebungen, die eines der Curriculumelemente betreffen.
 

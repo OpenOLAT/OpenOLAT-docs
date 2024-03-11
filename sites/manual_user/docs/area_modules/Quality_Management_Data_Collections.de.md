@@ -3,8 +3,19 @@
 
 ## Was ist eine Datenerhebung? 
 
+
+!!! info "Zusammenfassung"
+
+    Bei einer Datenerhebung wird
+    
+    * ein bestimmter **Personenkreis**
+    * in einem bestimmten **Zeitfenster**
+    * zu einem bestimmten **Thema**
+    * mit einem bestimmten **Formular** befragt.
+
+
 * Um Rückmeldung zur Qualität von Unterricht, Kursen, Dozierenden u.a. zu erhalten, wird ein Fragebogen (Formular-Lernressource) einem bestimmten Personenkreis zum Ausfüllen vorgelegt.  
-* Zum festgelegten Zeitpunkt werden E-Mails mit einem Link auf die Formular-Lernressource verschickt.
+* Zum festgelegten Zeitpunkt werden dann E-Mails mit einem Link auf die Formular-Lernressource verschickt.
 * Die Eingaben der Teilnehmer:innen werden vom Modul "Qualitätsmanagement" ausgewertet, z.B. auch über verschiedene Kurse hinweg.
 * Am Ende wird ein Report erzeugt, auf den ein bestimmbarer Personenkreis Zugriff erhält.
 * Die Datenerhebungen werden im Modul "Qualitätsmanagement" erstellt.
@@ -29,6 +40,7 @@ Wählen Sie eine bereits vorhandene oder erstellen Sie eine neue.
 ![quality_management_data_collection_select_form_v1_de.png](assets/quality_management_data_collection_select_form_v1_de.png){ class="shadow lightbox" }
 
 Die Eigenschaften und Funktionsweise der Datenerhebung wird in 5 Tabs definiert. Zum festgelegten Zeitpunkt werden E-Mails mit einem Link zum Formular an die hier festgelegten Teilnehmer:innen geschickt. Am Ende wird ein Report erzeugt, auf den die im Tab "Berechtigungen Report" genannten Personen Zugriff bekommen.
+(Sobald ein Report vorhanden ist, wird ein weiterer Tab "Report" angezeigt.)
 
 ![quality_management_data_collection_config_v1_de.png](assets/quality_management_data_collection_config_v1_de.png){ class="shadow lightbox" }
 
@@ -62,3 +74,33 @@ b) und ob/wie darüber informiert wird.
 * **E-Mail bei qualitativem Feedback** = Die in der 1. Spalte genannten Empfänger erhalten eine E-Mail, sobald ein Report erzeugt wurde und im Formular **Textfelder** ausgefüllt wurden oder eine Datei von den Befragten hochgeladen wurde.
 
 Qualitätsmanager:innen haben auch schon vor Abschluss Zugriff auf den aktuellen Status der Datenerhebung.
+
+**Tab "Report"**<br>
+Dieser Tab wird erst sichtbar, wenn ein Report vorhanden ist.
+
+![quality_management_data_collection_report_v1_de.png](assets/quality_management_data_collection_report_v1_de.png){ class="shadow lightbox" }
+
+## Datenerhebung ausführen
+
+Die Durchführung wird automatisch angestossen. Sobald das definierte Zeitfenster beginnt (Tab "Konfiguration"), können die befragten Personen das Formular ausfüllen und abgeben. Nach Ablauf dieser Frist ist eine Abgabe nicht mehr möglich. 
+
+
+## Datenerhebung abschliessen
+
+Eine Datenerhebung schliesst sich selbst ab, wenn das vorgegebene Zeitfenster abgelaufen ist. 
+
+![quality_management_closed_v1_de.png](assets/quality_management_closed_v1_de.png){ class="shadow lightbox" }
+
+Wurde eine Datenerhebung beendet, kann sie nicht mehr in den Status "Durchführung" zurückversetzt werden.
+
+Die Bearbeitung einer abgeschlossenen Datenerhebung ist nur noch möglich in den Tabs
+
+* Massnahmen To-dos
+* Berechtigungen Report und
+* Report
+
+Es besteht die Möglichkeit, den Abschluss einer laufenden Datenerhebung auch manuell zu erzwingen (ohne den Ablauf des vorgegebenen Zeitfensters abzuwarten). Klicken Sie dazu auf den Button zum Wechsel des Status.
+
+![quality_management_data_collection_close_manually_v1_de.png](assets/quality_management_data_collection_close_manually_v1_de.png){ class="shadow lightbox" }
+
+
