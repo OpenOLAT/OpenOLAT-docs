@@ -48,14 +48,16 @@ Es stehen folgende Inhaltselemente zur Verfügung:
 * **Paragraph:** Ein Text, der mit einem kleinen HTML-Editor gestaltet werden kann.
 * **Tabelle:** Tabelle, die in einem zugehörigen Popup gestaltet werden kann.
 * **Mathematische Formel:** Erstellung mathematischer Formeln mit dem Formeleditor MathJax.
-* **Code:** Darstellung von Programmiercode ohne Ausführung. Ab :octicons-tag-24: Release 18.2. 
+* **Code:** Darstellung von Programmiercode ohne Ausführung.<br> 
+30 versch. Programmiersprachen ab :octicons-tag-24: Release 18.2.
+![course_element_page_code_v1_de.png](assets/course_element_page_code_v1_de.png){ class="shadow lightbox" } 
 * **Dokument:** Word-, PowerPoint- oder Excel-Dokumente können sowohl hochgeladen als auch direkt erstellt werden. PDF und andere können hochgeladen oder aus dem Medien Center übernommen werden.
 * **Audio:** Audio auswählen, neu aufnehmen oder als MP3 oder m4a Datei hinzufügen. Ab :octicons-tag-24: Release 18.2. 
 * **Bild:** Einfügen eines Bildes aus dem Medien Center bzw. Upload.
 * **Video:** Einfügen einer Videodatei aus dem Medien Center bzw. Upload oder neues Recording
 * **draw.io Diagramm:** Neu erstellen oder aus der Liste auswählen. Ab :octicons-tag-24: Release 18.2. 
 * **Zitat:** Zitate können im Medien Center als eigenständige Inhaltselemente abgelegt und wiederverwendet werden.
-* **Aus meinem Medien...** Zugriff auf alle Elemente des eigenen Medien Centers. Auch können neue Elemente für das Medien Center erstellt werden. 
+* **Aus meinem Medien Center** Zugriff auf alle Elemente des eigenen Medien Centers. Auch können neue Elemente für das Medien Center erstellt werden. 
 * **Textabschnitt:** Ein Text, der mit einem HTML-Editor gestaltet werden kann. (Mit etwas mehr Optionen als im Inhaltselement Paragraph.)
 * **Separator:** Eine Linie, mit der zwei Layouts optisch getrennt werden. 
 

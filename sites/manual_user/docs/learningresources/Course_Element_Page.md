@@ -29,7 +29,8 @@ Specialty / Note | Editing in a block-based editor is used in form learning reso
 
 ## Create page content
 
-Der Kursbaustein Seite wird im Kurseditor hinzugefügt und in den Tabs konfiguriert. In the **Tab "Page content"** open the editor.
+The course element page is added in the course editor and configured in the tabs.
+Open the editor in **tab "Page content"** .
 
 ![Kursbaustein Seit im Kurseditor](assets/KB_Seite_Tab_Seiteninhalt19.png){ class="shadow lightbox" }
 
@@ -48,19 +49,21 @@ The following content elements are available:
 * **Paragraph:** A text that can be designed with a small HTML editor.
 * **Table:** Table, which can be designed in an associated popup.
 * **Mathematical formula:** Creating mathematical formulas with the MathJax formula editor.
-* **Code:** Darstellung von Programmiercode ohne Ausführung. Ab :octicons-tag-24: Release 18.2. 
+* **Code:** Display of programming code without execution.<br> 
+30 different programming languages, since :octicons-tag-24: release 18.2.
+![course_element_page_code_v1_de.png](assets/course_element_page_code_v1_de.png){ class="shadow lightbox" } 
 * **Document:** Word, PowerPoint or Excel documents can be uploaded as well as created directly. PDF and others can be uploaded or taken from the Media Center.
-* **Audio:** Audio auswählen, neu aufnehmen oder als MP3 oder m4a Datei hinzufügen. Ab :octicons-tag-24: Release 18.2. 
+* **Audio:** Select audio, re-record or add as MP3 or m4a file. Since :octicons-tag-24: release 18.2. 
 * **Image:** Inserting an image from the Media Center or uploading.
 * **Video:** Inserting a video file from the Media Center or uploading or new recording
-* **draw.io Diagramm:** Neu erstellen oder aus der Liste auswählen. Ab :octicons-tag-24: Release 18.2. 
+* **draw.io graph:** Create new or select from the list. Since :octicons-tag-24: release 18.2. 
 * **Citations:** Citations can be stored and reused as standalone content items in the Media Center.
-* **Aus meinem Medien...** Zugriff auf alle Elemente des eigenen Medien Centers. Auch können neue Elemente für das Medien Center erstellt werden.
+* **From my Media Center:** Access to all elements of your own Media Center. New elements can also be created for the Media Center.
 * **Text segment:** A text that can be designed with an HTML editor. (With slightly more options than in the Paragraph content element).
 * **Separator:** A line used to visually separate two layouts. 
 
 
-## Edit page (Bearbeitungsmodus)
+## Edit page (Edit mode)
 
 ### Edit layout
 
@@ -86,7 +89,7 @@ A content element can be changed by selecting it with a mouse click and using th
 
 ## Media storage
 
-Die Ablage der eingefügten Medien erfolgt nicht wie bei dem [Kursbaustein "HTML-Seite"](../learningresources/Course_Element_HTML_Page.md) im [Ablageordner](../learningresources//Storage_folder.md) des Kurses sondern im [Medien Center](../personal_menu/Media_Center.md). Hier finden Sie alle eingebauten Medien wieder und können dort auch die weitere Verwaltung und Freigabe regeln. 
+The inserted media is not stored as with the [course element "HTML page"](../learningresources/Course_Element_HTML_Page.md) in the [storage folder](../learningresources//Storage_folder.md) of the course but in the [Media Center](../personal_menu/Media_Center.md). Here you will find all installed media and can also regulate further management and release. 
 
 Uploading media to the Media Center is done in the personal menu or in the Content Editor when creating a new content item.
 
@@ -95,12 +98,12 @@ Uploading media to the Media Center is done in the personal menu or in the Conte
 ## Differences: Page - HTML-Page
 
 
-|                        | KB Page                       | KB HTML-Page                  |
+|                        | Course Element Page                       | Course Element HTML Page                  |
 | -----------------------| ------------------------------ | ------------------------------ |
-| Content creation | in Content Editor              | in HTML-Editor                 |
-| Layout             | block-based approach          | HTML-Page                     |
+| Content creation | in Content Editor              | in HTML Editor                 |
+| Layout             | block-based approach          | HTML Page                     |
 | Creation effort     | lower, since pre-structured   | possibly higher                 |
-| Preview               | directly in editor               | separate tab "Display content" |
+| Preview               | directly in editor               |  separate tab "Display content" |
 | Media                 | in Media Center               | in storage folder                |
 | Editing can be allowed to coaches | :material-check: | :material-check:      |
 | Extended authorizations                    | :material-check: | :material-cancel:     |
