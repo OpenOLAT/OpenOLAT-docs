@@ -133,7 +133,7 @@ Komponenten, welche alle in der openapi.json (
 `/org/Olat/restapi/openapi.json`) beschrieben sind.
 
 Das OpenAPI erlaubt es ein spezifisches Server-Prefix auszuwählen und es ist
-möglich gelistete Anfragen auszuführen, indem Sie den „try it out“ Button
+möglich gelistete Anfragen auszuführen, indem Sie den "try it out" Button
 benutzen. Es muss Ihnen bewusst sein, dass diese Anfragen verbindlich sind und
 direkt mit dem adressierten System interagieren.
 

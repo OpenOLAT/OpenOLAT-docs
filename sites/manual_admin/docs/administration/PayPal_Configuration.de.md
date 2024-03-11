@@ -35,21 +35,16 @@ Loggen Sie sich in Ihr PayPal Firmenkonto ein und vollziehen Sie die folgenden
 Schritte nach:
   
 
-- [x] Schritt 1: klicken Sie auf den Tab "Tools" (1) und wählen Sie den Punkt
-"Geschäftskonto einrichten" (2) aus. Klicken Sie auf den Button "Online
-Zahlungen einrichten" (3).  
+- [x] Schritt 1: klicken Sie auf den Tab "Tools" (1) und wählen Sie den Punkt "Geschäftskonto einrichten" (2) aus. Klicken Sie auf den Button "Online Zahlungen einrichten" (3).  
 ![](assets/OpenOlat-PayPal_Config_1.png){ class=" lightbox" } 
   
 - [x] Schritt 2: klicken Sie auf den Button "Jetzt API-Berechtigung erhalten" (4).  
 ![](assets/OpenOlat-PayPal_Config_2.png){ class=" lightbox" }  
   
-- [x] Schritt 3: auf der Seite "API-Berechtigung kopieren" sehen Sie die Client-ID
-(5) und den Schlüssel (6). Kopieren Sie beide Werte in ein Dokument zum
-Zwischenspeichern.  
-![](assets/OpenOlat-PayPal_Config_3.png){ class=" lightbox" }  
+- [x] Schritt 3: auf der Seite "API-Berechtigung kopieren" sehen Sie die Client-ID (5) und den Schlüssel (6). Kopieren Sie beide Werte in ein Dokument zum Zwischenspeichern. 
   
-- [x] Schritt 4: Achten Sie darauf, dass die von Ihnen gewünschte Währung
-eingestellt ist.  
+- [x] Schritt 4: Achten Sie darauf, dass die von Ihnen gewünschte Währung eingestellt ist.
+![](assets/paypalconfig4_en.png){ class="shadow lightbox" } 
 
    -  Klicken Sie dafür im Menu auf die Einstellungen und dann auf "Profil und
 Einstellungen". Anschliessend links in der Navigation auf "Geld, Bankkoten und
@@ -57,24 +52,15 @@ Kreditkarten". Unter "Währungen verwalten" sehen Sie die für Ihr Konto
 eingestellte Währung.  
 ![](assets/Bildschirmfoto 2020-11-13 um 10.37.20.png){ class="shadow lightbox" }  
   
-- [x] Schritt 5: Wenn Sie eine Währung erhalten, die von Ihnen nicht akzeptiert ist,
-wird die Buchung auf den Status "pendent" gestellt. Damit das nicht passiert,
-können Sie eine Einstellung anpassen.  
+- [x] Schritt 5: Wenn Sie eine Währung erhalten, die von Ihnen nicht akzeptiert ist, wird die Buchung auf den Status "pendent" gestellt. Damit das nicht passiert, können Sie eine Einstellung anpassen.  
 
-   -  Klicken Sie dafür wieder auf die Einstellungen und dann auf "Profil und
-Einstellungen". Anschliessend links in der Navigation auf
-"Zahlungseinstellungen". Unter "Zahlungen blockieren" klicken Sie auf
-"Bearbeiten. Es erscheint ein neues Fenster.    
+   -  Klicken Sie dafür wieder auf die Einstellungen und dann auf "Profil und Einstellungen". Anschliessend links in der Navigation auf "Zahlungseinstellungen". Unter "Zahlungen blockieren" klicken Sie auf "Bearbeiten". Es erscheint ein neues Fenster.    
 ![](assets/Bildschirmfoto 2020-11-13 um 10.49.05.png){ class="shadow lightbox" }  
   
-- [x]Schritt 6: In dem neuen Fenster klicken Sie bei "Zahlungseingänge in einer
-anderen Währung zulassen" auf "Ja, akzeptieren und umrechnen in Schweizer
-Franken". Bei "Doppelte Zahlungen vermeiden" sollte "Ja, versehentlich doppelt
-gesendete Zahlungen pro Rechnungsnummer ablehnen" angeklickt sein.  
+- [x]Schritt 6: In dem neuen Fenster klicken Sie bei "Zahlungseingänge in einer anderen Währung zulassen" auf "Ja, akzeptieren und umrechnen in Schweizer Franken". Bei "Doppelte Zahlungen vermeiden" sollte "Ja, versehentlich doppelt gesendete Zahlungen pro Rechnungsnummer ablehnen" angeklickt sein.  
 ![](assets/Bildschirmfoto 2020-11-13 um 10.49.27.png){ class="shadow lightbox" }  
   
-- [x] Schritt 7: loggen Sie sich nun mit einem Systemadministrator-Account bei Ihrem
-OpenOlat System ein.  
+- [x] Schritt 7: loggen Sie sich nun mit einem Systemadministrator-Account bei Ihrem OpenOlat System ein.  
 
    -  Klicken Sie auf den Tab "Administration" (7). Klicken Sie links in der
 Navigation auf "Bezahlungsmethode" (8) und dann auf "PayPal" (9).  

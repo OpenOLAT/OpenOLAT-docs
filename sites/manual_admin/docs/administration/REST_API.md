@@ -126,7 +126,7 @@ The OpenAPI is made up of a single document and contains multiple components,
 which are all described in the openapi.json ( `/org/Olat/restapi/openapi.json`)
 
 The OpenAPI allows to choose a custom server prefix in and it is possible to
-execute the listed requests by pressing the „try it out“ button. Be aware that
+execute the listed requests by pressing the "try it out" button. Be aware that
 these requests are binding and directly interacting with the addressed system.
 
   
