@@ -95,9 +95,8 @@ Wurde eine Datenerhebung beendet, kann sie nicht mehr in den Status "Durchführu
 
 Die Bearbeitung einer abgeschlossenen Datenerhebung ist nur noch möglich in den Tabs
 
-* Massnahmen To-dos
-* Berechtigungen Report und
-* Report
+* Massnahmen To-dos und
+* Berechtigungen Report
 
 Es besteht die Möglichkeit, den Abschluss einer laufenden Datenerhebung auch manuell zu erzwingen (ohne den Ablauf des vorgegebenen Zeitfensters abzuwarten). Klicken Sie dazu auf den Button zum Wechsel des Status.
 
