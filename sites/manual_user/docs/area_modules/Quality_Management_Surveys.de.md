@@ -20,15 +20,15 @@ Für das Qualitätsmanagement wird standardmässig eine **Formular-Lernressource
 
 ## Wo werden die Formulare erstellt?
 
-Die Formular-Lernressourcen für das Qualitätsmanagment werden **im Autorenbereich** erstellt, wie alle anderen Lernressourcen auch.
+Die Formular-Lernressourcen für das Qualitätsmanagement werden **im Autorenbereich** erstellt, wie alle anderen Lernressourcen auch.
 
 Auch bei der Erstellung einer Datenerhebung oder eines Datenerhebungsgenerators besteht die Möglichkeit, in den Autorenbereich zu wechseln und dort eine Formular-Lernressource zu erstellen. 
 
 
 
-## Wer erstellt die Formulare für das QM?
+## Wer erstellt die Formulare für das Qualitätsmanagement?
 
-Die Erstellung von Formular-Lernressourcen für das Qualitätsmanagment ist **nicht beschränkt auf Personen mit der Rolle Qualitätsmanager:in**.
+Die Erstellung von Formular-Lernressourcen für das Qualitätsmanagement ist **nicht beschränkt auf Personen mit der Rolle Qualitätsmanager:in**.
 
 Alle Autor:innen können Formular-Lernressourcen erstellen, die dann für das Qualitätsmanagement verwendet werden können.
 
@@ -37,7 +37,7 @@ Umgekehrt sind die selbst zur Qualitätskontrolle erstellten Lernressourcen für
 (Lernressource im Autorenbereich auswählen > Administration > Einstellungen > Tab Freigabe > Optionen unter "Autor:innen können ...") 
 
 
-## Was sollte ein QM-Formular enthalten?
+## Was sollte ein Qualitätsmanagements-Formular enthalten?
 
 Lernressourcen vom Typ "Formular" werden im Autorenbereich mit dem Content Editor erstellt. Es können also alle dort angebotenen Elemente in eine Formular-Lernressource eingefügt werden.
 
@@ -53,10 +53,10 @@ Wenn ein Formular für Befragungen im Rahmen des Qualitätsmanagements verwendet
 * Abschlussbefragung
 * Ad-hoc-Befragungen
 
-Es kommen also relativ wenige Standardfragebogen zum Einsatz, und 1 Fragebogen entspricht 1 Analyse.
+Es kommen also relativ wenige Standardfragebogen zum Einsatz, und ein Fragebogen entspricht eine Analyse.
 
 
-## Änderung von Formularen für das QM
+## Änderung von Formularen für das Qualitätsmanagement
 
 Einmal verwendete Formular-Lernressourcen können nur noch minimal bearbeitet werden. Abänderungen würden das Ergebnis verfälschen, weil dadurch die neu Befragten andere Fragen beantworten würden als vor der Änderung Befragte. 
 

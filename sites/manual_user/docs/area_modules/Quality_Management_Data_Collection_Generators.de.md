@@ -8,7 +8,7 @@
 
 ## Was macht ein Datenerhebungsgenerator?
 
-**Datenerhebungen** können im Modul Qualitätsmanagment auch **automatisiert nach bestimmten Regeln** erstellt werden. 
+**Datenerhebungen** können im Modul Qualitätsmanagement auch **automatisiert nach bestimmten Regeln** erstellt werden. 
 
 Die Beschreibung und Einrichtung der Regeln geschieht in sogenannten **Datenerhebungsgeneratoren**. 
 
@@ -44,7 +44,7 @@ Verwenden Sie möglichst einen Titel, der eine Aussage zu Inhalt und Verwendung 
 Wurde das Modul "Organisationseinheiten" aktiviert und eingerichtet, können Datenerhebungen auch auf ausgewählte Organisationseinheiten bezogen werden.
 
 **Formular**<br>
-Auch bei Datengeneratoren kommt jeweils nur 1 Formular zum Einsatz um Vergleichbarkeit und Auswertung zu ermöglichen. Soll ein weiteres Formular verwendet werden, müssten Sie einen weiteren Generator erstellen. 
+Auch bei Datengeneratoren kommt jeweils nur ein Formular zum Einsatz um Vergleichbarkeit und Auswertung zu ermöglichen. Soll ein weiteres Formular verwendet werden, müssten Sie einen weiteren Generator erstellen. 
 
 **Titel der Datenerhebung**<br>
 Geben Sie hier den Titel der vom Datengenerator erzeugten Datenerhebungen an. 
@@ -202,7 +202,7 @@ Siehe auch [Konfiguration im Typ Kurs](#Quality_Management_Data_Collection_Gener
 
 **Typ Curriculumelement**<br>
 
-Zu jedem Curriculumelement gibt es 1 Datenerhebung.
+Zu jedem Curriculumelement gibt es eine Datenerhebung.
 
 Abhänging davon, wie das Curriculum eingerichtet ist, können Curriculumelemente z.B. sein:
 

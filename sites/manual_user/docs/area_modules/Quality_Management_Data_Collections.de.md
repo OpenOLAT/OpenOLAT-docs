@@ -19,7 +19,6 @@
 * Die Eingaben der Teilnehmer:innen werden vom Modul "Qualitätsmanagement" ausgewertet, z.B. auch über verschiedene Kurse hinweg.
 * Am Ende wird ein Report erzeugt, auf den ein bestimmbarer Personenkreis Zugriff erhält.
 * Die Datenerhebungen werden im Modul "Qualitätsmanagement" erstellt.
-* Es können Erinnerungen und To-dos (Massnahmen) zugeordnet werden.
 
 ![quality_management_scheme_data_collection_v1_de.png](assets/quality_management_scheme_data_collection_v1_de.png){ class="lightbox" }
 

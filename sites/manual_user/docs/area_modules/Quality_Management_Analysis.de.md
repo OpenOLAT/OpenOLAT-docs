@@ -59,7 +59,7 @@ Für die Datengrundlage einer Analyse gelten die folgenden Regeln:
 
 ## Wer hat Zugriff auf Analysen?
 
-Auf Analysen haben nur Qualitätsmanager:innen und Prinicpals Zugriff.
+Auf Analysen haben nur Qualitätsmanager:innen und Principals Zugriff.
 
 Sie können die Analysen über die Hauptnavigation in der Kopfzeile aufrufen unter:<br>
 **Qualitätsmanagment > Analysen**
@@ -104,7 +104,7 @@ Für Einsichtnahme in die Datengrundlage, können auch die Formulare der einzeln
 ## Analyse: Heatmap
 
 In der Heatmap werden die problematischen Stellen visualisiert und schneller ersichtlich.
-Die Daten können dort nach verschiedenen Kritereien gruppiert und gefiltert werden. 
+Die Daten können dort nach verschiedenen Kriterien gruppiert und gefiltert werden. 
 
 Die Verwendung der Farben und ihre Zuordnung zu einem bestimmten Qualitätsbereich (gut, genügend, ungenügend) wird im Rubrik des Formulars definiert.
 
