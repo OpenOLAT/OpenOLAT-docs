@@ -88,12 +88,12 @@ Darstellungsqualität, Dateigrösse und Kompressionsdauer möglich.
 Je stärker komprimiert, desto weniger Speicher wird benötigt.
 
 Verschiedene Geräte / Browser haben verschiedene Bildschirmauflösungen und
-unterstützen unterschiedliche Codecs. Mit einem **Transcoding** werden von
+unterstützen unterschiedliche Codecs. Durch die **Transodierung** ("Transcoding") werden von
 einer ursprünglich möglichst hochwertigen Video- oder Audiodatei mit Hilfe
 einer speziellen Software Kopien angefertigt, die mit verschiedenen
 Auflösungen, Bitraten und Codecs komprimiert wurden.
 
-Transkodierung ist das Umwandeln einer Audio- oder Video-Datei in ein anderes
+Die Transkodierung ist das Umwandeln einer Audio- oder Video-Datei in ein anderes
 Audioformat oder Videoformat.
 
  Folgende Versionen eines Films sind abhängig von der Nutzung sinnvoll:
