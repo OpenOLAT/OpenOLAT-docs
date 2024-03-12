@@ -251,7 +251,7 @@ Formulare mit Rubrics werden häufig im Kursbaustein "Bewertung" im Rahmen von p
 * Lebenszyklus "Konto": Optimierte Konfiguration von Mailbenachrichtigungen und Ergänzung der Variable für Reaktionsfrist
 * Rollenbasierte Konfiguration für Massensuche nach Benutzer:innen
 * Poster-Bild für Video-Recordings
-* Refactoring Transcoding-Module inkl. Option zur Löschung der Master-Videodatei
+* Refactoring Transcoding-Modul inkl. Option zur Löschung der Master-Videodatei
 * Integration von pdf.js als PDF-Viewer
 
 * * *
