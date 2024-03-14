@@ -22,6 +22,7 @@ nav:
       - Delete object: ux/delete_object.md
       - File: ux/file.md
       - Object integration: ux/object_integration.md
+      - Object representation: ux/object_representation.md
       - Performance widget: ux/performence_widget.md
       - Pickers: ux/pickers.md
       - Switch & Sliders: ux/switch_slider.md
