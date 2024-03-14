@@ -61,3 +61,5 @@ Es kommen also relativ wenige Standardfragebogen zum Einsatz, und ein Fragebogen
 Einmal verwendete Formular-Lernressourcen können nur noch minimal bearbeitet werden. Abänderungen würden das Ergebnis verfälschen, weil dadurch die neu Befragten andere Fragen beantworten würden als vor der Änderung Befragte. 
 
 Soll mit neuen Formular-Lernressourcen gearbeitet werden, kann die bisherige Lernressource im Autorenbereich kopiert und die Kopie abgeändert werden. Anschliessend sollte die Formular-Lernressource für die weiteren Datenerhebungen zu einem günstigen Stichtag ausgetauscht werden.
+
+

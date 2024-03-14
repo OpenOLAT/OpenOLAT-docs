@@ -36,7 +36,7 @@ Im Modul "Qualitätsmanagement" steht dann ein kursübergreifender Report zur Ve
 
 ## Fall 3: Automatisierte Datenerhebung (in mehreren Kursen/Curricula oder kursunabhängig)
 
-Im Modul Qualitätsmanagment können Datenerhebungen auch automatisiert nach bestimmten Regeln erstellt werden.
+Im Modul Qualitätsmanagement können Datenerhebungen auch automatisiert nach bestimmten Regeln erstellt werden.
 Die Beschreibung und Einrichtung dieser Regeln geschieht in sogenannten **Datenerhebungsgeneratoren**.
 
 Der kursübergreifende Report baut dann auf mehreren Datenerhebungen auf. 
@@ -45,7 +45,7 @@ Der kursübergreifende Report baut dann auf mehreren Datenerhebungen auf.
 
 ## Das Modul "Qualitätsmanagement"
 
-Zu Ad-hoc-Datenerhebung (Fall 2) und regelmässiger Datenerhebung (Fall 3) wird das **Modul „Qualitätsmanagement“** verwendet. Es ermöglicht die Ergebnisse aus verschiedenen Kursen und Umfragen zusammen auszuwerten. Es greift von übergeordneter Stelle aus auf verschiedene Kurse zu und zieht sich die Ergebnisse der darin enthaltenen Umfragen (Formulare) zusammen.
+Zu Ad-hoc-Datenerhebung (Fall 2) und regelmässiger Datenerhebung (Fall 3) wird das **Modul "Qualitätsmanagement"** verwendet. Es ermöglicht die Ergebnisse aus verschiedenen Kursen und Umfragen zusammen auszuwerten. Es greift von übergeordneter Stelle aus auf verschiedene Kurse zu und zieht sich die Ergebnisse der darin enthaltenen Umfragen (Formulare) zusammen.
 
 Das Modul kann automatisch Aufforderungen mit dem Link zu einer Befragung verschicken.
 
@@ -61,7 +61,7 @@ Da die Ergebnisse verschiedene Kurse betreffen oder kursunabhängig sind, werden
 
 ## Bestandteile des Qualitätsmanagements
 
-Das Modul „Qualitätsmanagement“ in OpenOlat baut im Wesentlichen auf sechs Infrastrukturen auf:
+Das Modul "Qualitätsmanagement" in OpenOlat baut im Wesentlichen auf sechs Infrastrukturen auf:
 
 1. Lernressourcen "Formular"
 2. Datenerhebungen

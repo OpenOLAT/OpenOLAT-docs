@@ -28,7 +28,7 @@ Um ein neues To-do innerhalb eines Projektes zu erstellen, haben Sie folgende M�
 
 ## Liste der To-dos anzeigen
 
-Haben Sie Ihr Projekt gewählt, können Sie von der Projektübersicht aus auf verschiedene Arten auf die to-dos der jeweiligen Projekte zugreifen.
+Haben Sie Ihr Projekt gewählt, können Sie von der Projektübersicht aus auf verschiedene Arten auf die To-dos der jeweiligen Projekte zugreifen.
 
 **a) Projekte > Tab "Meine Projekte" > Projekt wählen > Schnellzugriff Button "To-do"**<br>
 oder<br>
@@ -41,9 +41,9 @@ oder<br>
 
 ## To-do bearbeiten
 
-Um ein to-do zu bearbeiten klicken Sie in der To-do-Liste
+Um ein To-do zu bearbeiten klicken Sie in der To-do-Liste
 
-**a) auf den Titel des to-dos**<br>
+**a) auf den Titel des To-dos**<br>
 oder<br>
 **b) auf die 3 Punkte am Ende einer Zeile.**
 
@@ -76,7 +76,7 @@ Die Unterscheidung zwischen Zuweisung und Delegation ermöglicht es,<br>
 Wenn Sie ein To-do bearbeiten, können Sie Links zu anderen Objekten dieses Projekts erstellen, indem Sie zu einem bereits bestehenden Objekt verlinken **(Button "Objekt verlinken")**.
 
 **Unterschied "Objekt verlinken" und "Link hinzufügen"**<br>
-Oft taucht während dem Erstellen eines To-dos das Bedürfnis auf, noch einen Entscheid, einen zusätzlichen Termin oder ein weiteres To-Do zu erstellen.
+Oft taucht während dem Erstellen eines To-dos das Bedürfnis auf, noch einen Entscheid, einen zusätzlichen Termin oder ein weiteres To-do zu erstellen.
 Mit dem **Button "Link hinzufügen"**, können Sie diese Objekte neu erstellen und sie sind dann automatisch schon mit dem aktuellen Entscheid verlinkt. Der lange Umweg (anderen Objekttyp wählen, Objekt neu erstellen, Rückkehr zum Entscheid und erst dann die Verlinkung vornehmen) entfällt dadurch.
 
 
@@ -115,7 +115,7 @@ Wird in der Checkbox vor dem Titel ein Häkchen gesetzt, ändert sich der Status
 
 **c) "Abhaken" eines To-dos in der Liste**
 
-Wird in der To-Do Liste ein Eintrag durch Auswahl der Checkbox am Zeilenbeginn selektiert, wird er automatisch als erledigt markiert.
+Wird in der To-do Liste ein Eintrag durch Auswahl der Checkbox am Zeilenbeginn selektiert, wird er automatisch als erledigt markiert.
 Das To-do erscheint dann nur noch unter Tab "Alle" und Tab "Erledigte".
 
 ![projekte_todo_selektiert_erledigt_v1_de.png](assets/projekte_todo_selektiert_erledigt_v1_de.png){ class="shadow lightbox" }
