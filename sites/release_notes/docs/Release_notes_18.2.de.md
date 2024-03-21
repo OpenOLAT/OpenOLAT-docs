@@ -7,7 +7,7 @@
 
 * * *
 
-:material-calendar-month-outline: **Releasedatum: 31.01.2024 • Letztes Update: 28.02.2024**
+:material-calendar-month-outline: **Releasedatum: 31.01.2024 • Letztes Update: 20.03.2024**
 
 * * *
 
@@ -104,6 +104,12 @@ Im Block 'Video' können neu auch Videos per URL eingebunden werden. Dafür wurd
 Der neue 'Code' Block ermöglicht die Textdarstellung in einer Schriftart mit festen Abständen und Nummerierung der Zeilen. Dies ist insbesondere bei technischen Lerninhalten wie Programmierbeispielen sehr hilfreich. Beim Anlegen des Code Blocks kann die verwendete Programmiersprache gewählt werden. Zur Weiterverarbeitung können Teilnehmende die Code-Vorlage direkt in die Zwischenablage kopieren.
 
 ![Code Block im Content Editor](assets/182/Code_block_DE.png){ class="shadow lightbox" title="Code Block im Content Editor" }
+
+### Neuer Block-Stil 'Hinweis'
+
+Ab :octicons-tag-24: Release 18.2.3 können Inhaltsblöcke und Layouts bei Bedarf als formatierte Hinweis-Box dargestellt werden. Bei Auswahl eines vordefinierten Hinweis-Typs werden somit wichtige Informationen durch eine entsprechende Farbgebung der Box - ggfs. mit passendem Icon - deutlich hervorgehoben. Ein Set an weiteren Farben und Icons zur benutzerdefinierten Gestaltung der Box ist ebenfalls verfügbar.
+
+![Seite mit Hinweis-Boxen](assets/182/Alert_block_DE.png){ class="shadow lightbox" title="Seite mit Hinweis-Boxen" }
 
 ### Weiteres im Formular Editor
 
@@ -304,6 +310,7 @@ Ab :octicons-tag-24: Release 18.2.1 können in der `Administration` bestimmte De
 
 ## Weitere Informationen
 
+* [YouTrack Release Notes 18.2.3](https://track.frentix.com/releaseNotes/OO?q=Fix%20versions:%2018.2.3&title=Release%20Notes%2018.2.3){:target="_blank”}
 * [YouTrack Release Notes 18.2.2](https://track.frentix.com/releaseNotes/OO?q=Fix%20versions:%2018.2.2&title=Release%20Notes%2018.2.2){:target="_blank”}
 * [YouTrack Release Notes 18.2.1](https://track.frentix.com/releaseNotes/OO?q=Fix%20versions:%2018.2.1&title=Release%20Notes%2018.2.1){:target="_blank”}
 * [YouTrack Release Notes 18.2.0](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2018.2.0&title=Release%20Notes%2018.2.0){:target="_blank”}

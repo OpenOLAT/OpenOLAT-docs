@@ -7,7 +7,7 @@
 
 * * *
 
-:material-calendar-month-outline: **Release date: 01/31/2024 • Last update: 02/28/2024**
+:material-calendar-month-outline: **Release date: 01/31/2024 • Last update: 03/20/2024**
 
 * * *
 
@@ -104,6 +104,12 @@ In the 'Video' block, videos can now also be integrated via URL. A corresponding
 The new 'Code' block enables text to be displayed in a font with fixed spacing and numbering of the lines. This is particularly useful for technical learning content such as programming examples. The programming language used can be selected when creating the code block. Participants can copy the code template directly to the clipboard for further processing.
 
 ![Code block in the content editor](assets/182/Code_block_EN.png){ class="shadow lightbox" title="Code block in the content editor" }
+
+### New block style 'Alert'
+
+As of :octicons-tag-24: Release 18.2.3, content blocks and layouts can be displayed as a formatted alert box if required. When selecting a predefined alert type, important information is clearly highlighted by a corresponding color of the box - if desired with a matching icon. A set of additional colors and icons for custom alert style of the box is also available.
+
+![Page with alert boxes](assets/182/Alert_block_DE.png){ class="shadow lightbox" title="Page with alert boxes" }
 
 ### Further updates in the form editor
 
@@ -304,6 +310,7 @@ As of :octicons-tag-24: Release 18.2.1, certain default values can be preconfigu
 
 ## More information
 
-* [YouTrack Release Notes 18.2.2](https://track.frentix.com/releaseNotes/OO?q=Fix%20versions:%2018.2.2&title=Release%20Notes%2018.2.2){:target="_blank”}
-* [YouTrack Release Notes 18.2.1](https://track.frentix.com/releaseNotes/OO?q=Fix%20versions:%2018.2.1&title=Release%20Notes%2018.2.1){:target="_blank”}
-* [YouTrack Release Notes 18.2.0](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2018.2.0&title=Release%20Notes%2018.2.0){:target="_blank”}
+* [YouTrack Release notes 18.2.3](https://track.frentix.com/releaseNotes/OO?q=Fix%20versions:%2018.2.3&title=Release%20Notes%2018.2.3){:target="_blank”}
+* [YouTrack Release notes 18.2.2](https://track.frentix.com/releaseNotes/OO?q=Fix%20versions:%2018.2.2&title=Release%20Notes%2018.2.2){:target="_blank”}
+* [YouTrack Release notes 18.2.1](https://track.frentix.com/releaseNotes/OO?q=Fix%20versions:%2018.2.1&title=Release%20Notes%2018.2.1){:target="_blank”}
+* [YouTrack Release notes 18.2.0](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2018.2.0&title=Release%20Notes%2018.2.0){:target="_blank”}
