@@ -182,6 +182,7 @@ nav:
         - Assessment mode: "learningresources/Assessment_mode_v1.md"
       - Settings:
         - Overview: "learningresources/Course_Settings.md"
+        - Tab Assessment: "learningresources/Course_Settings_Assessment.md"
         - LTI access: "learningresources/LTI_Share_courses.md"
         - Design possibilities of courses and course elements: "learningresources/Design_possibilities_of_courses_and_course_elements.md"
     - Course elements: 
