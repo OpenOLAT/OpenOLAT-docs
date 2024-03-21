@@ -1,10 +1,9 @@
 # Compact Card
 
 Compact card with image
-![Compactcard with hover](assets/compact-card-en.jpg) {style="thumbnail"}
+![Compactcard with hover](assets/compact-card-en.jpg)
 Compact card text only
 ![Compactcard-only-text](assets/compact-card-onlytext.jpg)
-
 
 ## Structure / Anatomy
 

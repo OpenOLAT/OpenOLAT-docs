@@ -1,4 +1,4 @@
-# Achievement Card (Working draft)
+# Achievement Card 
 
 ![File-upload](assets/file-card-badges-2.jpg)
 
