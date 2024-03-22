@@ -15,6 +15,8 @@ Spezialität / Hinweis | Übungsfragen können im Fragenpool verwaltet werden
 
 ## Funktionsprinzip
 
+:octicons-device-camera-video-24: **Video-Einführung**: [Der Kursbaustein Übung](<https://www.youtube.com/embed/ljbqzYLn0Zs>){:target="_blank”} 
+
 Der Kursbaustein "Übung" funktioniert nach dem Prinzip einer Lernkartei. Die Fächer entsprechen Levels.
 
 ![course_element_practice_flashcardfile_v1_de.png](assets/course_element_practice_flashcardfile_v1_de.png){ class="shadow lightbox" }
@@ -174,8 +176,4 @@ Kursbaustein Test | Kursbaustein Selbsttest | Kursbaustein Übung
 mit Punkten | mit Punkten  | ohne Punkte 
 einsehbar für Betreuer |  nicht einsehbar für Betreuer | einsehbare Level<br>Lernstand pro Level<br> Schwerpunktsetzung durch Teilnehmer:in
 1 Test-Lernressource | 1 Test-Lernressource | mehrere Lernressourcen<br>Freigaben/Shares aus dem Fragenpool<br>Filter mit Verwendung der Taxonomie
-
-<br>
-
-:octicons-device-camera-video-24: **Video-Einführung**: [Der Kursbaustein Übung](<https://www.youtube.com/embed/ljbqzYLn0Zs>){:target="_blank”} 
 
