@@ -14,9 +14,7 @@ Always use complete words, not just word parts.
 
  _-  Will not work: Indicati_  
   
-The search for partial terms therefore only works if wildcards are used. With " ? " is used to search for exactly one additional character while " * " searches for any number of additional characters.
-
-|
+The search for partial terms therefore only works if wildcards are used. With " ? " is used to search for exactly one additional character while " * " searches for any number of additional characters. Here are a few examples:
 
 Indicatio? = Indication
 

@@ -15,9 +15,8 @@ Es werden immer ganze Suchbegriffe erwartet.|
  _-  Funktioniert nicht: Indikati_  
   
 Die Suche nach Teilbegriffen funktioniert daher nur wenn Wildcards verwendet werden. Mit " ? " wird nach genau einem weiteren Zeichen gesucht, 
-während " * " nach einer beliebigen Anzahl weiterer Zeichen sucht.
+während " * " nach einer beliebigen Anzahl weiterer Zeichen sucht. Hier ein paar Beispiele: 
 
-|
 
 Indikatio? = Indikation
 

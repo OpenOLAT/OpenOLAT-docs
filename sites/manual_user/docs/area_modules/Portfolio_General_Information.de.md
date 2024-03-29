@@ -10,17 +10,17 @@ Portfolio — ein Begriff der oft gebraucht wird aber sehr unterschiedlich verst
 
 ### Portfoliotypen
 
-Portfolio ist nicht gleich Portfolio. Es wird zwischen diversen Typen unterschieden. Hier werden exemplarisch drei Typen vorgestellt, die auch mit dem OpenOlat ePortfolio umgesetzt werden können:
+Portfolio ist nicht gleich Portfolio. Es wird zwischen diversen Typen und Einsatzzwecken unterschieden. Hier  einige Beispiele, die sich alle auch mit OpenOlat realisieren lassen: 
 
   *  **Reflexionsportfolio**: Das Reflexionsportfolio kann nochmals unterteilt werden in ein Lern- und Beurteilungsportfolio. 
   
-  * **Lernportfolio**: Der Ersteller ist gleichzeitig auch Besitzer des Portfolios und erstellt das Portfolio grundsätzlich aus Eigenmotivation. So können Lernende z.B. ihr gesamtes Studium reflexiv begleiten (Selbstevaluation).   
+  * **Lernportfolio**: Der Ersteller ist gleichzeitig auch Besitzer des Portfolios und erstellt das Portfolio grundsätzlich aus Eigenmotivation. So können Lernende z.B. ihr gesamtes Studium, ein Semester oder spezifische thematische Bereiche reflexiv begleiten (Selbstevaluation).   
 
-  * **Bewertungsportfolio**: Die Reflexion wird als Teil eines Lehr-/Lernprozesses eingesetzt. Den Lernenden werden Aufgaben vorgegeben die mit Bewertungskriterien verknüpft sind. Die Bearbeitung des Portfolios wird somit fremdbestimmt. Häufig ist der Lernende dabei nicht Besitzer des Portfolios. 
+  * **Bewertungsportfolio**: Die Reflexion wird als Teil eines Lehr-/Lernprozesses eingesetzt. Den Lernenden werden Aufgaben vorgegeben die mit Bewertungskriterien verknüpft sind. Die Bearbeitung des Portfolios wird somit fremdbestimmt. Häufig ist der Lernende dabei nicht Besitzer des Portfolios oder arbeitet mit einem vorstrukturiertem Portfolio. 
   
   *   **Entwicklungsportfolio**: Die eigene Entwicklung wird mit diversen Artefakten dokumentiert. Ein Lernender dokumentiert seine Weiterentwicklung über einen längeren Zeitraum und sammelt dabei alle relevanten Artefakte in seinem ePortfolio. Bei Bedarf kann er aus diesen Entwicklungsdokumenten später noch unterschiedliche Portfolio Mappen gestalten.   
 
-  *   **Präsentationsportfolio**: Der Ersteller des Portfolios präsentiert hiermit sich selbst. Dieser Portfoliotyp kann z.B. auch in Form eines Bewerbungsportfolios genutzt werden. Hierfür stellt der User gesammelte Artefakte unter eine bestimmte Fragestellung oder für einen bestimmten Zweck bzw. für eine bestimmte Zielgruppe.   
+  *   **Präsentationsportfolio**: Der Ersteller des Portfolios präsentiert hiermit sich selbst oder eigene Projekte. Dieser Portfoliotyp kann z.B. auch in Form eines Bewerbungsportfolios genutzt werden. Hierfür stellt der User gesammelte Artefakte unter eine bestimmte Fragestellung oder für einen bestimmten Zweck bzw. für eine bestimmte Zielgruppe.   
 
 !!! tip "Tipp"
 
@@ -47,8 +47,6 @@ Natürlich gibt es auch bei Portfolios Nachteile:
 Weitere Informationen zum Thema finden Sie hier:
 
 [E-Portfolio](https://www.e-teaching.org/lehrszenarien/pruefung/pruefungsform/eportfolio/)
-
-[Lernszenarien](https://www.e-teaching.org/lehrszenarien/pruefung/pruefungsform/eportfolio/)
 
 [Eine Taxonomie für E-Portfolios](http://peter.baumgartner.name/wp-content/uploads/2012/12/Baumgartner_2012_Eine-Taxonomie-fuer-E-Portfolios.pdf)
 

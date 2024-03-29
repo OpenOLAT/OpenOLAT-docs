@@ -16,7 +16,7 @@ Gehen Sie den Bereich "Mein Fragenpool" → "Meine Fragen", wählen Sie die gew�
 
 ## c) Freigabe in einer Gruppe
 
-Sie können Fragen auch einer im Vorfeld angelegten OpenOlat Gruppe zugänglich machen. Erstellen Sie beispielsweise eine Gruppe, wenn Sie mit mehreren Personen an einer Sammlung von Fragen für einen Online-Test arbeiten oder eine gemeinsame Fragenbasis entwickeln wollen. Der Vorteil bei diesem Weg ist, dass Sie die Personen individuell zusammenstellen können und relativ einfach auch später noch weitere Personen der Gruppe hinzufügen können.
+Sie können Fragen auch einer im Vorfeld angelegten [OpenOlat Gruppe](../groups/index.de.md) zugänglich machen. Erstellen Sie beispielsweise eine Gruppe, wenn Sie mit mehreren Personen an einer Sammlung von Fragen für einen Online-Test arbeiten oder eine gemeinsame Fragenbasis entwickeln wollen. Der Vorteil bei diesem Weg ist, dass Sie die Personen individuell zusammenstellen können und relativ einfach auch später noch weitere Personen der Gruppe hinzufügen können.
 
 Gehen Sie den Bereich "Mein Fragenpool" → "Meine Fragen", wählen Sie die gewünschte/n Frage/n und wählen Sie über den Link "Freigeben" → "In Gruppe freigeben" und wählen Sie die gewünschte Gruppe aus. Sie haben anschließend die Möglichkeit zu entscheiden, ob die Frage im freigegebenen Pool auch bearbeitet werden darf oder nicht.
 

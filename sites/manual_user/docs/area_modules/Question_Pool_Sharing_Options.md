@@ -16,7 +16,7 @@ Go to the "My Question Pool" → "My Questions" section, select the question(s) 
 
 ## c) Release in a group
 
-You can also make questions accessible to an OpenOlat group created in advance. For example, create a group if you want to work with several users on a collection of questions for an online test or develop a common question base. The advantage with this way is that you can compose the users individually and add more users to the group relatively easily later.
+You can also make questions accessible to an [OpenOlat group](../groups/index.md) created in advance. For example, create a group if you want to work with several users on a collection of questions for an online test or develop a common question base. The advantage with this way is that you can compose the users individually and add more users to the group relatively easily later.
 
 Go to the "My Question Pool" → "My Questions" section, select the question(s) you want to share, and select "Share" → "Share in Group" via the link and select the group you want. You then have the option to decide whether the question in the shared pool may also be edited or not.
 

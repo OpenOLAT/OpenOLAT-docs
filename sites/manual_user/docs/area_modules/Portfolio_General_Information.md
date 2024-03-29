@@ -10,17 +10,17 @@ Portfolio – a term often used and interpreted differently. Originally the term
 
 ## Portfoliotypes
 
-A portfolio is not just portfolio. It is differentiated between many diverse types. Here, three types are shown for example, which can be implemented with the OpenOlat ePortfolio:
+A portfolio is not just portfolio. It is differentiated between many diverse types and purposes. Here are some examples, all of which can also be realized with OpenOlat: 
 
   * **Reflexion portfolio**: The reflection portfolio is divided one more time in learn and assessment portfolio.
   
-  * **Learn portfolio**: The creator is also the owner of the portfolio at the same time and in general the portfolio is created self-motivated. For example, learners can reflect on their entire course of study (self-evaluation).
+  * **Learn portfolio**: The creator is also the owner of the portfolio at the same time and in general the portfolio is created self-motivated. For example, learners can reflect on their entire course of study, a semester or specific subject areas (self-evaluation).
   
-  * **Assessment portfolio**: Reflection is used as part of a teaching/learning process. Learners are given tasks that are linked to assessment criteria. The processing of the portfolio is thus externally determined. Normally the creator is not the owner of the portfolio. 
+  * **Assessment portfolio**: Reflection is used as part of a teaching/learning process. Learners are given tasks that are linked to assessment criteria. The processing of the portfolio is thus externally determined. Normally the creator is not the owner of the portfolio or works with a pre-structured portfolio. 
   
   * **Development portfolio**: The own development is documented with diverse artifacts. A learner documents his further development over a longer period of time and collects all relevant artifacts in his ePortfolio. If necessary, he can later create different portfolio folders from these development documents.  
 
-  * **Presentation portfolio**: Hereby the creater of the portfolio is presenting himself. This type can be used e.g. as a form of an application portfolio. For this, the user places collected artifacts under a specific question or for a specific purpose or for a specific target group.  
+  * **Presentation portfolio**: Hereby the creater of the portfolio is presenting himself or own projects. This type can be used e.g. as a form of an application portfolio. For this, the user places collected artifacts under a specific question or for a specific purpose or for a specific target group.  
   
 
 !!! tip "Hint"
@@ -48,8 +48,6 @@ Of course, there are also disadvantages of a portfolio:
 You can find further information on the topic here (in German):
 
 [E-Portfolio](https://www.e-teaching.org/lehrszenarien/pruefung/pruefungsform/eportfolio/)
-
-[Lernszenarien](https://www.e-teaching.org/lehrszenarien/pruefung/pruefungsform/eportfolio/)
 
 [EinenTaxonomie für E-Portfolios](http://peter.baumgartner.name/wp-content/uploads/2012/12Baumgartner_2012_Eine-Taxonomie-fuer-E-Portfolios.pdf)
 

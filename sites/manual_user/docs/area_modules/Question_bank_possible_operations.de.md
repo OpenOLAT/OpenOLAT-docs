@@ -12,7 +12,7 @@ Ist eine Liste geöffnet, erlaubt diese Schaltfläche die entsprechende Liste zu
 
 ## Test erstellen
 
-Mit dieser Option wird aus den ausgewählten Fragen direkt eine neue Lernressource Test erstellt. Es kann dann sogleich der Titel der Lernressource eingetragen werden. Dieser Test befindet sich anschliessend im Autorenbereich unter "Meine Einträge".
+Mit dieser Option wird aus den ausgewählten Fragen direkt eine neue [Lernressource Test](../learningresources/Test.de.md) erstellt. Es kann dann sogleich der Titel der Lernressource eingetragen werden. Dieser Test befindet sich anschliessend im Autorenbereich unter "Meine Einträge".
 
 ## Export
 
