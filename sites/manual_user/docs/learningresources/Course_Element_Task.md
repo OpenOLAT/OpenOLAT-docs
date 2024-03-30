@@ -218,9 +218,9 @@ If you have selected a task or a task has been assigned to you automatically, cl
 
 It is also possible that your coach has not stored the task in the course element "Task", but has chosen another location, e.g. a single page or an external page, or has placed the task orally in presence or in an online meeting. In that case the section "Assignment of tasks" will not appear.
 
-### Submit Solution
+### Task submission - Submit Solution
 
-Schauen Sie sich an welche Optionen zur Abgabe Ihnen zur Verfügung stehen. Je nach Konfiguration durch die Lehrperson können sie entweder Dokumente hochladen, Dateien mit dem OpenOlat Editor erstellen oder auch  kurze Audio- und Video-Aufnahmen direkt in OpenOlat erstellen. Beachten Sie die Optionen bei der Erstellung Ihrer Aufgabenlösung. 
+In the task submission area, you have the option of submitting your solution. Depending on the teacher's configuration, you can either upload documents, create files with the OpenOlat Editor or create short audio and video recordings directly in OpenOlat.  
 
 ![Abgabemöglichkeiten beim KB Aufgabe](assets/Aufgabe_Abgabe18.png)
 
@@ -235,17 +235,17 @@ If you have _not_ yet submitted a solution and the coach has not provided feedba
 
 If you have submitted a solution and the coach has not yet provided a confirmation, the corresponding information appears:
 
-![](assets/Rueckgabe_Info.png)
+![Info: Noch keine Rückmeldung vom Betreuer](assets/Aufgabe_Rueckgabe_Feedback_offen.png)
 
 Once your coach has created a feedback you will find the feedback information in the step "Return and Feedback".
 
-![](assets/Rueckgabe_Info_akzeptiert.png)
+![Info: Bearbeitung wurde akzeptiert und es gibt ein Feedback](assets/Aufgabe_Rueckgabe_Feedback_FB.png)
 
 If your editing was insufficient and the coach requests a revision, a corresponding message will also appear and you will have the opportunity to submit a new editing in the "Revision" step. A deadline may be set for this.
 
-![](assets/Rueckgabe_ueberareiten.png)
+![Info: Die Abgabe wurde zur Überarbeitung zurückgewiesen](assets/Aufgabe_Rueckgabe_Feedback_zurueckgewiesen.png)
 
-### Revise Solution
+### Revision: Revise Solution
 
 If you need to make a revision, proceed as explained under "Submission". In the "Revision" section, your coach may also return your work to you several times for correction.
 
@@ -257,9 +257,9 @@ Your coach can attach a sample solution to the task, which will become visible a
 
 ### Read "Grading" from coach
 
-The assessment may include the following individual information: A performance overview with the status and information on the score, a comment field and evaluation documents. In addition, the coach can also leave general information here.
+Der Bereich Bewertung umfasst zum einen automatisch generierte Informationen der Leistungsübersicht mit Status,  Punktestand, Einstufung der gewählten Bewertungsskala, je nach Konfiguration des Kursbausteins. Zum anderen können Betreuende in dem Bereich Bewertung ein Feedback im Kommentarfeld sowie (Bewertungs-)dokumente hinterlegen. 
 
-![](assets/Bewertung_Info.png)
+![Bewertung User Sicht](assets/Aufgabe_Bewertung_TN.png)
 
 ## Group task
 

@@ -2,11 +2,11 @@
 
 Änderungen an Ihrem Kurs nehmen Sie im Kurseditor vor. Sie gelangen in den Kurseditor indem Sie den Kurs starten und im Menü unter "Administration" die Option "Kurseditor" auswählen. 
 
-![](assets/administration_kurseditor.png)
+![Administration, Link zum Kurseditor](assets/administration_kurseditor.png)
 
 Um einen Kursbaustein zu löschen zu duplizieren oder zu verschieben müssen Sie den gewünschten Kursbaustein zunächst auswählen. Anschliessend erscheint rechts oben das entsprechende Menü.
 
-![](assets/KB_verschieben.png)
+![Kursbausteine verschieben Menü](assets/KB_verschieben.png)
 
 Die jeweilige Aktion bezieht sich dabei auf den aktuell markierten und alle ihm untergeordneten Kursbausteine. Wählen Sie im Verschieben- bzw. Duplizieren-Fenster die Position unter die Sie das Kurselement einsetzen wollen, und wählen den entsprechenden Pfeil: Nach oben um das neue Element oberhalb einzusetzen, nach unten um das Element unterhalb einzusetzen, und den gebogenen Pfeil um das Element untergeordnet einzusetzen. 
 Ebenso ist es möglich, Kursbausteine einfach mittels „Drag&Drop“ in der Kursstruktur links zu verschieben.
@@ -19,11 +19,11 @@ Das Duplizieren von Kursbausteinen empfiehlt sich, wenn Sie beispielsweise Grupp
 
 Haben Sie in einem anderen Kurs bereits eine umfangreiche Kursstruktur angelegt die Sie weiterverwenden wollen, bietet es sich an, diese Kursbausteine über "Kursbausteine importieren" in den gewünschten Kurs zu kopieren.
 
-![](assets/KB_importieren.png)
+![Kursbausteine importieren Link](assets/KB_importieren.png)
 
 ## Der Weg:
 
-![](assets/Weg_importieren_KB.png)
+![Kursbausteine importieren Schritte im Wizard](assets/Weg_importieren_KB.png)
 
 a) Wählen Sie den gewünschten Kurs in dem sich der oder die zu kopierenden Kursbausteine befinden.
 

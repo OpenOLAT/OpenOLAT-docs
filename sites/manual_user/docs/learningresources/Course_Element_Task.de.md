@@ -228,7 +228,7 @@ Es ist auch möglich, dass Ihre Lehrperson die Aufgabenstellung nicht in dem Kur
 
 ### Lösung abgeben
 
-Schauen Sie sich an welche Optionen zur Abgabe Ihnen zur Verfügung stehen. Je nach Konfiguration durch die Lehrperson können sie entweder Dokumente hochladen, Dateien mit dem OpenOlat Editor erstellen oder auch  kurze Audio- und Video-Aufnahmen direkt in OpenOlat erstellen. Beachten Sie die Optionen bei der Erstellung Ihrer Aufgabenlösung. 
+Im Bereich "Abgabe" haben Sie die Möglichkeit Ihre Lösung einzureichen. Je nach Konfiguration durch die Lehrperson können sie entweder Dokumente hochladen, Dateien mit dem OpenOlat Editor erstellen oder auch  kurze Audio- und Video-Aufnahmen direkt in OpenOlat erstellen.  
 
 ![Abgabemöglichkeiten beim KB Aufgabe](assets/Aufgabe_Abgabe18.png)
 
@@ -237,25 +237,25 @@ Laden Sie Ihre Lösung hoch bzw. erstellen Sie sie direkt in OpenOlat und das Do
 
 Im Abgabe-Schritt, der nun mit einem grünen Häkchen als erledigt markiert wird, erhalten Sie eine Übersicht über abgegebenen Dateien. Sie können sich die Dateien zwar noch ansehen aber keine Änderungen mehr vornehmen.
 
-### Beurteilung herunterladen
+### Rückgabe und Feedback 
 
 Wenn Sie noch _keine_ Einreichung vorgenommen haben, und der Betreuer keine Rückmeldung bereitgestellt hat, ist dieser Bereich leer.
 
 Wenn Sie eine Bearbeitung eingereicht haben und der Betreuer noch keine Rückmeldung erstellt hat, erscheint die entsprechende Information.
 
-![Info: Noch keine Rückmeldung vom Betreuer](assets/Rueckgabe_Info.png)
+![Info: Noch keine Rückmeldung vom Betreuer](assets/Aufgabe_Rueckgabe_Feedback_offen.png)
 
 Sobald Ihr Betreuer ein Feedback erstellt hat, finden Sie im Schritt "Rückgabe und Feedback" die Feedback Information.
 
-![Info: Bearbeitung wurde akzeptiert und es gibt ein Feedback](assets/Rueckgabe_Info_akzeptiert.png)
+![Info: Bearbeitung wurde akzeptiert und es gibt ein Feedback](assets/Aufgabe_Rueckgabe_Feedback_FB.png)
 
 Wenn Ihre Bearbeitung nicht ausreichend war und der Betreuer eine Überarbeitung einfordert, erscheint ebenfalls eine entsprechende Anzeige und Sie haben die Möglichkeit, eine neue Bearbeitung im Schritt "Überarbeitung" einzureichen. Eventuell wird dafür eine Deadline gesetzt.
 
-![Info: Die Abgabe wurde zur Überarbeitung zurückgewiesen](assets/Rueckgabe_ueberareiten.png)
+![Info: Die Abgabe wurde zur Überarbeitung zurückgewiesen](assets/Aufgabe_Rueckgabe_Feedback_zurueckgewiesen.png)
 
 ### Aufgabe überarbeiten
 
-Wenn Sie eine Überarbeitung vornehmen müssen, gehen Sie wie unter "Lösung abgeben" erläutert vor. Im Abschnitt "Überarbeitung" kann es auch sein, dass Ihr Betreuer Ihnen Ihre Arbeit mehrfach zur Korrektur zurückgibt.
+Wenn Sie eine Überarbeitung vornehmen müssen, gehen Sie wie unter "Lösung abgeben" (Abgabe) erläutert vor. Im Abschnitt "Überarbeitung" kann es auch sein, dass Ihr Betreuer Ihnen Ihre Arbeit mehrfach zur Korrektur zurückgibt.
 
 Sobald er die Aufgabe als gelöst ansieht, wird er die Überarbeitungsperiode schliessen. Zu jedem Zeitpunkt sehen Sie welche Dokumente von Ihnen und Ihrem Betreuer abgegeben wurden und können diese einsehen.
 
@@ -265,9 +265,9 @@ Ihr Dozent kann der Aufgabe eine Musterlösung anfügen, welche zu einem von ihm
 
 ### "Bewertung" vom Betreuer lesen
 
-Die Bewertung kann folgende individuelle Informationen beinhalten: Eine Leistungsübersicht mit dem Status und Informationen zum Punktestand, ein Kommentarfeld sowie Bewertungsdokumente. Darüber hinaus kann der Betreuer hier auch noch allgemeine Informationen hinterlassen.
+Der Bereich Bewertung umfasst zum einen automatisch generierte Informationen der Leistungsübersicht mit Status,  Punktestand, Einstufung der gewählten Bewertungsskala, je nach Konfiguration des Kursbausteins. Zum anderen können Betreuende in dem Bereich Bewertung ein Feedback im Kommentarfeld sowie (Bewertungs-)dokumente hinterlegen. 
 
-![Bewertung User Sicht](assets/Bewertung_Info.png)
+![Bewertung User Sicht](assets/Aufgabe_Bewertung_TN.png)
 
 ## Gruppenaufgabe User Perspektive
 
