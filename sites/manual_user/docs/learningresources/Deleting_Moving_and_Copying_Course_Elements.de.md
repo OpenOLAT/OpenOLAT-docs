@@ -11,9 +11,10 @@ Um einen Kursbaustein zu löschen zu duplizieren oder zu verschieben müssen Sie
 Die jeweilige Aktion bezieht sich dabei auf den aktuell markierten und alle ihm untergeordneten Kursbausteine. Wählen Sie im Verschieben- bzw. Duplizieren-Fenster die Position unter die Sie das Kurselement einsetzen wollen, und wählen den entsprechenden Pfeil: Nach oben um das neue Element oberhalb einzusetzen, nach unten um das Element unterhalb einzusetzen, und den gebogenen Pfeil um das Element untergeordnet einzusetzen. 
 Ebenso ist es möglich, Kursbausteine einfach mittels „Drag&Drop“ in der Kursstruktur links zu verschieben.
 
-Die Änderungen zum Löschen, Verschieben und Kopieren von Kursbausteinen müssen publiziert werden, um sie für die Kursteilnehmer wirksam werden zu lassen. Solange Sie diese nicht publiziert haben, können gelöschte Kursbausteine wiederhergestellt werden.
+Das Duplizieren von Kursbausteinen empfiehlt sich beispielsweise, wenn Sie Gruppenaktionen im Kurs anbieten und dieselbe Struktur für mehrere Gruppen verwenden möchten.
 
-Das Duplizieren von Kursbausteinen empfiehlt sich, wenn Sie beispielsweise Gruppenarbeiten anbieten und dieselbe Struktur mehrmals verwenden möchten.
+Die Änderungen zum Löschen, Verschieben und Kopieren von Kursbausteinen müssen zum Schluss publiziert werden, um sie für die Kursteilnehmenden wirksam werden zu lassen. Solange Sie diese nicht publiziert haben, können gelöschte Kursbausteine wiederhergestellt werden.
+
 
 ## Kursbausteine importieren
 
@@ -21,7 +22,9 @@ Haben Sie in einem anderen Kurs bereits eine umfangreiche Kursstruktur angelegt 
 
 ![Kursbausteine importieren Link](assets/KB_importieren.png)
 
-## Der Weg:
+Anschliessend öffent sich ein Wizard. 
+
+### Der Weg:
 
 ![Kursbausteine importieren Schritte im Wizard](assets/Weg_importieren_KB.png)
 
