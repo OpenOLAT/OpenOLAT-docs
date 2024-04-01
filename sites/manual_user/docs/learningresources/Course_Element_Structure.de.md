@@ -9,13 +9,16 @@ Verfügbar seit | Release 1
 Funktionsgruppe | Wissensvermittlung
 Verwendungszweck | Gliederung des Menüs in Kapitel, Sammlung von Bewertungen aller dem Strukturbaustein untergeordneten Kursbausteine 
 Bewertbar | ja
-Spezialität / Hinweis | 
+Spezialität / Hinweis | Generierung von automatischen Übersichten 
 
 
+Verwenden Sie diesen Kursbaustein, um Ihre Kursbausteine zu gliedern, zu strukturieren und/oder Bereiche klar zu trennen. Legen sie z.B. einen Bereich für die Kommunikation und einen für Kursaktivitäten und einen für Inhalte an. 
 
-Der Kursbaustein Struktur dient vorrangig der Gliederung und Strukturierung des Kurses. Er bietet standardmässig eine automatische Übersicht über alle ihm untergeordneten Kursbausteine mit deren Kurztitel, Titel und Beschreibungen. Verwenden Sie diesen Kursbaustein, um Ihre Kursinhalte zu gliedern und/oder Module klar zu trennen.
+Der Kursbaustein Struktur bietet u.a. eine automatische Übersicht über alle ihm untergeordneten Kursbausteine mit deren Kurztitel, Titel und Beschreibungen. Mit der automatischen Übersicht ist auch eine automatisch generierte Leistungsübersicht mit Punkten, Status und Link zum Leistungsnachweis verbunden, sofern diese für den Kursbaustein bzw. den Kurs generell aktiviert wurden. 
 
-Die konkreten Einstellungsmöglichkeiten sind davon abhängig, ob der Kursbaustein in herkömmlichen oder in Lernpfad Kursen verwendet wird.
+![Leistungsübersicht Strukturbaustein für Teilnehmende in Lernpfadkursen](assets/Leistungsuebersicht_Struktur_Lernpfad1.png)
+
+Die konkreten Einstellungsmöglichkeiten sind davon abhängig, ob der Kursbaustein in herkömmlichen oder in Lernpfad Kursen verwendet wird. Hier die Tabs im Vergleich: 
 
 **Tabs in Lernpfad Kursen**
 
@@ -29,14 +32,13 @@ Weitere Informationen zu den allgemeinen Tabs "Titel und Beschreibung", Layout" 
 
 ## Tab Übersicht
 
-Sie können für den Kursbaustein "Struktur" im Tab Übersicht zwischen vier Darstellungsarten wählen und so ein automatisch von OpenOlat generierte Übersicht erzeugen, eine eigene HTML-Seite einbinden oder einfach den ersten untergeordneten Kursbaustein anzeigen lassen.
+Die zentralen Einstellungen werden im Tab "Übersicht" vorgenommen. Sie können zwischen vier Darstellungsarten für den Baustein wählen und so eine automatisch von OpenOlat generierte Übersicht erzeugen, eine eigene HTML-Seite verknüpfen oder einfach den ersten untergeordneten Kursbaustein anzeigen lassen.
 
-  * Wenn Sie den Radio-Button _«automatische Übersicht»_ wählen, wird ein von OpenOlat generiertes Verzeichnis der untergeordneten Kursbausteine angezeigt. Sie können zusätzlich auswählen, ob alle oder nur bestimmte Kursbausteine angezeigt werden und ob die Anzeige in einer oder zwei Spalten erfolgen soll.
-  * Wenn Sie den Radio-Button _«automatische Übersicht mit Vorschau»_ wählen, werden die untergeordneten Kursbausteine mit einer Vorschau angezeigt. Die genaue Vorschau variiert dabei je nach Kursbaustein. Die Konfigurationsmöglichkeiten dieser Einstellung sind ähnlich wie bei der automatischen Übersicht. Ferner kann eingestellt werden, ob sich die Vorschau auf alle Kursbausteine oder nur auf Strukturbausteine bezieht. Der User sieht allerdings keine Vorschau für Kursbausteine zu denen er (noch) keinen Zugang hat.
-  * Wenn Sie den Radio-Button _«eigene HTML-Seite»_ wählen, können Sie eine HTML Seite aus dem Ablageordner wählen, eine neue HTML Datei erstellen oder eine passende Datei importieren.   
-  * Wenn Sie den Radio-Button _«Keine Übersicht, erster sichtbarer Kursbaustein aktivieren»_ wählen, wird anstelle einer Übersicht der erste sichtbare, untergeordnete Kursbaustein angezeigt. Zusätzlich erscheint dann der Tab "Anzeige Inhalt" und weitere spezifische Einstellungen für HTML-Seiten können vorgenommen werden.
+  * **Automatische Übersicht** generiert ein Verzeichnis der untergeordneten Kursbausteine. Sie können zusätzlich auswählen, ob alle oder nur bestimmte Kursbausteine angezeigt werden und ob die Anzeige in einer oder zwei Spalten erfolgen soll.
+  * **Automatische Übersicht mit Vorschau** generiert ebenfalls Verzeichnis der untergeordneten Kursbausteine, zeigt aber zusätzlich noch eine Vorschau bei einigen Kursbausteinen an. Die genaue Vorschau variiert dabei je nach Kursbaustein. Die Konfigurationsmöglichkeiten dieser Einstellung sind ähnlich wie bei der automatischen Übersicht. Ferner kann eingestellt werden, ob sich die Vorschau auf alle Kursbausteine oder nur auf Strukturbausteine bezieht. Der User sieht allerdings keine Vorschau für Kursbausteine zu denen er (noch) keinen Zugang hat.
+  * **Eigene HTML-Seite** ermöglicht es anstatt der automatisch generierten Übersicht eine eigene Informationsseite zu erstellen. Dafür können Sie eine HTML-Seite aus dem Ablageordner wählen, eine neue HTML Datei erstellen oder eine passende Datei importieren. Im OpenOlat HTML-Editor können dann ähnlich wie beim Kursbaustein HTML-Seite Text, Bilder u.ä. hinzugefügt werden. Zusätzlich erscheint der Tab "Anzeige Inhalt" und weitere spezifische Einstellungen für HTML-Seiten können vorgenommen werden.  
+  * Wenn Sie den Radio-Button **Keine Übersicht, erster sichtbarer Kursbaustein aktivieren** wählen, wird anstelle einer Übersicht der erste sichtbare, untergeordnete Kursbaustein angezeigt. 
 
- **Anzeige in zwei Spalten**: Wählen Sie die Checkbox _Anzeige in zwei Spalten_ an, um das automatische Inhaltsverzeichnis bzw. die Vorschau in zwei Spalten anzeigen zu lassen.
 
 !!! info "Info"
 
@@ -50,17 +52,25 @@ Einen Sonderfall des Bausteins Struktur stellt der Hauptkursknoten dar. Er enth�
 
 ## Spezielle Einstellungen des Kursbausteins Struktur je nach Kurstyp
 
-## Einstellungen für herkömmliche Kurse
+### Einstellungen für Lernpfad Kurse
 
-### Tab Punkte   {: #score}
+Die Einstellungen im Tab "Lernpfad" unterscheiden sich grundsätzlich von den Einstellungen der anderen Kursbausteinen in Lernpfad Kursen. Bei Lernpfad Kursen wird im Kursbaustein Struktur definiert ob die Abfolge der Lernschritte der untergeordneten Kursbausteine sequenziell (nacheinander) oder flexibel, ohne Reihenfolge, erfolgt. Bei Strukturbausteinen gibt es kein spezifisches Erledigungskriterium.
 
-Der Kursbaustein Struktur bietet sich auch an um Punkte, die in anderen bewertbaren OpenOlat Kursbausteinen (z.B.  _Bewertung_, _Gruppen-/Aufgabe, SCORM-Lerninhalt, Checkliste, LTI-Seite, Portfolioaufgabe_, _Test_ ) gesammelt wurden aufzuaddieren und ein bestanden/nicht bestanden anzeigen zu lassen. Die zusammengefassten Resultate erscheinen beim Klick auf den Kursbaustein _Struktur_ im laufenden Kurs.
+![Tab Lernpfad für Strukturbausteine](assets/Tab_Lernpfad.png)
 
-Folgende Einstellungen sind möglich:
+Weitere Informationen zum Tab findet man [hier](../learningresources/Learning_path_course_Course_editor.de.md) 
 
- **Punkte berechnen?:** Es erscheint eine Übersicht der bewertbaren Bausteine Ihres Kurses die Sie für die Berechnung der Punkte berücksichtigen können.Wählen Sie entweder alle oder gezielte Bausteine aus und OpenOlat addiert die jeweiligen Punkte. Es ist auch möglich anstatt einer Gesamtsumme einen Durchschnittswert berechnen zu lassen. Das macht z.B. Sinn, wenn alle Bausteine dieselbe maximale Punktzahl haben. Bausteine, die (noch) keine Bewertung enthalten, bleiben bei der Berechnung unberücksichtigt. Der berechnete Wert wird dem User nach der Bewertung unter "Punkte" angezeigt.
+### Einstellungen für herkömmliche Kurse
 
- **Bestanden berechnen?:** Bestanden bzw. nicht bestanden kann sich auf eine Mindestpunktzahl beziehen, die Sie definieren oder auf das bestehen ausgewählter oder aller bewertbarer Kursbausteine. Wenn Sie _«Aus Punkteminimum»_ wählen, können Sie das Punkteminimum eingeben. Dieses bezieht sich auf die zuvor ausgewählten Kursbausteine, d.h. es wird auf dem Kursbaustein _Struktur_ ein _«Bestanden»_ angezeigt, wenn die Punktesumme obiger Kursbausteine grösser oder gleich gross wie das von Ihnen gewählte Punkteminimum ist.
+#### Tab Punkte   {: #score}
+
+Herkömmliche Kurs verfügen über den Tab "Punkte". Hier können Punkte, die in anderen bewertbaren OpenOlat Kursbausteinen (z.B.  _Bewertung_, _Gruppen-/Aufgabe, SCORM-Lerninhalt, Checkliste, LTI-Seite, Portfolioaufgabe_, _Test_) aufaddiert werden und ein bestanden/nicht bestanden angezeigt werden. Die zusammengefassten Resultate erscheinen beim Klick auf den Kursbaustein _Struktur_ im laufenden Kurs.
+
+Folgende Einstellungen zur Konfiguration der manuellen Bewertung sind möglich:
+
+ **Punkte** berechnen: Es erscheint eine Übersicht der bewertbaren Bausteine Ihres Kurses die Sie für die Berechnung der Punkte berücksichtigen können. Wählen Sie entweder alle oder gezielte Bausteine aus und OpenOlat addiert die jeweiligen Punkte. Es ist auch möglich anstatt einer Gesamtsumme einen Durchschnittswert berechnen zu lassen. Das macht z.B. Sinn, wenn alle Bausteine dieselbe maximale Punktzahl haben. Bausteine, die (noch) keine Bewertung enthalten, bleiben bei der Berechnung unberücksichtigt. Der berechnete Wert wird dem User nach der Bewertung unter "Punkte" angezeigt.
+
+ **Bestanden** berechnen: Bestanden bzw. nicht bestanden kann sich auf eine Mindestpunktzahl beziehen, die Sie definieren oder auf das bestehen ausgewählter oder aller bewertbarer Kursbausteine. Wenn Sie _«Aus Punkteminimum»_ wählen, können Sie das Punkteminimum eingeben. Dieses bezieht sich auf die zuvor ausgewählten Kursbausteine, d.h. es wird auf dem Kursbaustein _Struktur_ ein _«Bestanden»_ angezeigt, wenn die Punktesumme obiger Kursbausteine grösser oder gleich gross wie das von Ihnen gewählte Punkteminimum ist.
 
 Wenn Sie _«Von Bausteinen übernehmen»_ wählen, werden Ihnen unter **Bestanden von** die bewertbaren Kursbausteine Ihres Kurses angezeigt. Sie können nun diejenigen anwählen, deren Bestanden-Wert mit einer boolschen UND-Verknüpfung den Bestanden-Wert des Kursbausteins _Struktur_ bilden sollen. D.h. damit der Kursbaustein _Struktur_ ein _«Bestanden»_ anzeigt, müssen alle gewählten Kursbausteine ein _«Bestanden»_ aufweisen.
 
@@ -73,14 +83,24 @@ Wenn Sie _«Von Bausteinen übernehmen»_ wählen, werden Ihnen unter **Bestande
 
 Sollen für einen Kurs Leistungsnachweise ausgestellt werden, ist es notwendig die Einstellungen im Tab "Punkte" entsprechend anzupassen.
 
-Wenn Sie Leistungsnachweise verwenden, bzw. den Bestanden-Status des Kurses z.B. im Coaching-Tool überprüfen wollen, muss im Kurshauptknoten an dieser Stelle zwingend die Option **Bestanden berechnen?** aktiviert werden.
+Für den User zeigt sich die Leistungsübersicht wie folgt:
 
-Verwenden Sie für alle bewertbaren Kursbausteine eindeutige Kurztitel, um diese in der Auswahl im Tab "Punkte" rasch voneinander unterscheiden zu können.
+![Teilnehmer Leistungsübersicht des Strukturbausteins](assets/Leistungsuebersicht_Struktur_herkoemmlich.png)
 
-Der Kursbaustein "Struktur" und damit seine untergeordneten Kursbausteine können mit einem Passwort geschützt werden. Öffnen Sie dazu den Tab "Zugang" und legen dort unter "Passwort" das Passwort fest.
+!!! note "Hinweis"
 
-Auf dem obersten Kursbaustein kann im Tab "Zugang" kein Passwort hinterlegt werden.
+    Wenn Sie Leistungsnachweise verwenden, bzw. den Bestanden-Status des Kurses z.B. im Coaching-Tool überprüfen wollen, muss im Kurshauptknoten an dieser Stelle zwingend die Option **Bestanden berechnen?** aktiviert werden.
 
-## Einstellungen für Lernpfad Kurse
+!!! Tip "Tipp"
 
-Die Einstellungen im Tab "Lernpfad" unterscheiden sich grundsätzlich von den Einstellungen in anderen Kursbausteinen. Bei Lernpfad Kursen wird im Kursbaustein Struktur definiert ob die Abfolge der Lernschritte sequenziell (nacheinander) oder ohne Reihenfolge erfolgt. Bei Strukturbausteinen gibt es kein spezifisches Erledigungskriterium.
+    Verwenden Sie für alle bewertbaren Kursbausteine eindeutige Kurztitel, um diese in der Auswahl im Tab "Punkte" rasch voneinander unterscheiden zu können.
+
+#### Tab Zugang
+
+Der Kursbaustein "Struktur" und damit seine untergeordneten Kursbausteine können bei herkömmlichen Kursen mit einem Passwort geschützt werden. Setzen Sie dafür den Haken bei "Passwort" und hinterlegen Sie den gewünschten Code. 
+
+!!! warning "Achtung"
+
+    Auf dem obersten Kursbaustein, der eigentlich auch ein Strukturbaustein ist, kann im Tab "Zugang" _kein_ Passwort hinterlegt werden.
+
+
