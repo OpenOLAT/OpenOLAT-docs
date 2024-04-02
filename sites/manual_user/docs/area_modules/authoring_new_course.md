@@ -26,7 +26,8 @@ The specific creation process is described on the following pages:
 * Creating blogs<br>
 [User manual article](../learningresources/Blog.md) | [Detailed instructions](../../manual_how-to/blog/blog.md)
 
-* Creating resource folders
+* Creating resource folders<br>
+[User manual article](../learningresources/Resource_Folder.md) | [Detailed instructions](../../manual_how-to/multiple_use/multiple_use.md)
 
 * Creating forms <br>
 [User manual article](../learningresources/Form.md)  | [Detailed instructions](../../manual_how-to/create_a_form/create_a_form.md)

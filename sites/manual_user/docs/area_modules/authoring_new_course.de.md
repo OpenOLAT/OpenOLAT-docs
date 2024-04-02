@@ -27,7 +27,8 @@ Der konkrete Erstellungsprozess ist auf den folgenden Seiten beschrieben:
 * Blog erstellen<br>
 [Handbuchartikel](../learningresources/Blog.de.md) | [Ausführliche Anleitung](../../manual_how-to/blog/blog.de.md)
 
-* Ressourcenordner erstellen
+* Ressourcenordner erstellen<br>
+[Handbuchartikel](../learningresources/Resource_Folder.de.md) | [Ausführliche Anleitung](../../manual_how-to/multiple_use/multiple_use.de.md)
 
 * Formulare erstellen <br>
 [Handbuchartikel](../learningresources/Form.de.md)  | [Ausführliche Anleitung](../../manual_how-to/create_a_form/create_a_form.de.md)
