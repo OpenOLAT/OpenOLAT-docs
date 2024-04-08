@@ -10,7 +10,7 @@ Ziel ist die Ermöglichung eines adaptiven Designs, so dass die Inhalte auch auf
 
 !!! info "Hinweis"
       
-    Ein anderer Editor in OpenOlat ist z.B. der HTML-Editor „Tiny MC“, der z.B. im Kursbaustein „HTML-Seite“ verwendet wird.
+    Ein anderer Editor in OpenOlat ist z.B. der HTML-Editor "Tiny MC", der z.B. im Kursbaustein "HTML-Seite" verwendet wird.
 
 
 ## Wo kommt der Content Editor zum Einsatz?
@@ -166,7 +166,7 @@ Für das Überschriftselement sind verschiedene Schriftgrössen vordefiniert.
 ![content_editor_content_title_v1_de.png](assets/content_editor_content_title_v1_de.png){ class="shadow lightbox" }
 
 
-<h3>Textabschnitt </h3>
+<h3>Textabschnitt</h3>
 
 In einem Textabschnitt steht ein einfacher Texteditor zur Erstellung von Textblöcken zur Verfügung.
 

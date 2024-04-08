@@ -16,7 +16,8 @@ Ausserdem können Sie die Verwendung von **Leistungsnachweisen** und die Vergabe
 Bei [Lernpfad-Kursen](Learning_path_course.de.md) wird im Tab "Bewertung" die Bewertungsmethode bestimmt:
 
 * Es kann festgelegt werden, dass die Bewertung mit **Punkten** erfolgen soll (3 verschiedene Arten).
-Hier kann definiert werden ob bzw. welche Art von Punkten noch ergänzend zu der Prozentanzeige im Kurs angezeigt wird. ![course_settings_assessment_points_percentage_v1_de](assets/course_settings_assessment_points_percentage_v1_de.png){ class="shadow lightbox" }
+Hier kann definiert werden ob bzw. welche Art von Punkten noch ergänzend zu der Prozentanzeige im Kurs angezeigt wird. 
+![course_settings_assessment_points_percentage_v1_de](assets/course_settings_assessment_points_percentage_v1_de.png){ class="shadow lightbox" }
  
 * Ausserdem können auch die Kriterien für das **Bestehen** des gesamten Kurses eingestellt werden.
 
@@ -72,7 +73,7 @@ Betreuenden kann gestattet werden ...
 (Diese Option ist nur verfügbar, wenn das Feld "Bewertung freigeben" aktiviert ist. Nur in diesem Fall können Kursbetreuer:innen bzw. Besitzer:innen im Bewertungswerkzeug manuell einstellen, ob Kursteilnehmer:innen den Kurs bestanden haben oder nicht.)
 * Daten von Teilnehmenden zurückzusetzen,
 * eine Einstufung und Noten zuzuweisen,
-* und die Bewertung für die Teilneherm:innen freizugeben. 
+* und die Bewertung für die Teilnehmer:innen freizugeben. 
 
 ![course_settings_assessment_coaches_v1_de.png](assets/course_settings_assessment_coaches_v1_de.png){ class="shadow lightbox" }
 

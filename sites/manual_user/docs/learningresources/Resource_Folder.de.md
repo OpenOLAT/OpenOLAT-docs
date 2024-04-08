@@ -36,7 +36,7 @@ Ressourcenordner einbinden:<br>
 
 
 Schritt-für-Schritt-Anleitung zur Einbindung eines Ressourcenorders:<br>
-[How-to > Allgemeine Arbeitsweisen > Wie kann ich dieselben Dateien in mehreren Kursen einsetzen?](../../manual_how_to/multiple_use/multiple_use.de.md)
+[How-to > Allgemeine Arbeitsweisen > Wie kann ich dieselben Dateien in mehreren Kursen einsetzen?](../../manual_how-to/multiple_use/multiple_use.de.md)
 
 
 Ablageordner:<br>
