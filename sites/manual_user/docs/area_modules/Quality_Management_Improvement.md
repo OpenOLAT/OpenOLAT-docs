@@ -1,6 +1,6 @@
 # Quality Management: Suggestion for improvement {: #Quality_Management_Improvement}
 
-If quality management is activated, OpenOlat users will normally see the "Quality management" entry at the top of the main navigation bar. Participants will find **"My surveys"** and **"Suggestions for improvement"** there, while quality managers will find further options.
+If Quality management is activated, OpenOlat users will normally see the "Quality management" entry at the top of the main navigation bar. Participants will find **"My surveys"** and **"Suggestions for improvement"** there, while quality managers will find further options.
 
 ![quality_management_improvement_v1_de.png](assets/quality_management_improvement_v1_de.png){ class="lightbox" }
 

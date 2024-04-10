@@ -9,7 +9,7 @@ OpenOlat works with a roles and rights management. First, two user types are dif
 * **Anonymous guest:** Guests have - without registration - limited access to OpenOlat. They can only have a look at learning content enabled for guests, but cannot take part in learning activities. The link to the guest access can be found on the login page. Further information about guest can be found [here](guest_access.md).
 * **System user:**  Every user has a distinct username, which cannot be changed after the registration anymore. Users can use enabled learning content and can take part in learning activities. Additionally every users has an individual configurable landing page and [storage](../personal_menu/Personal_folders.md) available. Furthermore he can create [groups](../groups/index.md).
 
-!!! info "Note"
+!!! info "Info"
 
     Normally registered users without any further roles or rights are learners.
 
@@ -29,8 +29,8 @@ Here is an overview of all OpenOlat roles.
 * **Group manager**: The group manager has access to the group section and in there the tab [Group Administration](../area_modules/Group_Management.md). 
 * **Question bank manager**: The question bank manager has access to the [Question Bank](../area_modules/Question_Bank.md). In there he is able to open the administration section.
 * **Curriculum manager**: The curriculum manager has access to [Curriculum Management](../area_modules/Curriculum_Management.md) and can create new curricula and manage existing ones. If the curriculum manager is assigned to an organization, he or she only has access to the curricula of this organization.
-* **Lectures manager**: Lektionenblockverwalter haben Zugriff auf den Menüpunkt "Lektionenverwaltung" in der obersten Navigation. Sie können sämtlich Lektionen und Absenzen inklusive der jeweiligen Benutzer:innen der eigenen Organisationen sehen.   
-* **Project manager** Projektverwalter verfügen zusätzlich im Menüpunkt "Projekte" über den Tab "Administration" und haben hier Zugriff auf alle Projekte inklusive Mitgliederverwaltung und Konfiguration.
+* **Lectures manager**: Lesson block administrators have access to the menu item "Lesson administration" in the top navigation. They can see all lessons and absences including the respective users of their own organizations.   
+* **Project manager** Project administrators also have the "Administration" tab in the "Projects" menu item and can access all projects here, including member administration and configuration.
 * **Quality manager**: The quality manager has access to the Quality Management area and can manage all settings and objects such as questionnaires, data collection generators and the analysis tool.
 * **Line manager**: The line manager can be automatically informed about the receipt of certificates for all users of his organization.
 * **Learning resource manager**: A learning resource manager automatically has owner rights (= full access) for all courses and learning resources belonging to the own organization (see [Administrative release](../learningresources/Access_configuration.md#administrative-release)). In the status "Finished" and "Deleted" the access is read-only. The courses and learning resources can be found in the authoring area and can be copied as well as exported.

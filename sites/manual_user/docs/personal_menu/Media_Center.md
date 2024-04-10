@@ -130,7 +130,7 @@ In addition, individual media can also be downloaded or deleted via the 3-dot me
 
 ![media_center_download_v1_de.png](assets/media_center_download_v1_de.png){ class=" shadow lightbox" }
 
-!!! info "Tip"
+!!! info "Hint"
 
     The option of **versioning** media elements is interesting. For example, different work steps or intermediate stages can be saved. It is then possible to switch to older versions at any time.
 

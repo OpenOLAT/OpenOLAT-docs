@@ -23,10 +23,10 @@ The desired functionality of the course element "Task" can be configured by the 
 * **Workflow**: The central configuration of the course element takes place in the "Workflow" tab. You can then configure them further.
 * **Task Assignment**: Assign tasks to course participants or groups.
 * **Submission**: Learners should have the opportunity to submit tasks. This is where course participants create their solutions or upload them. 
-* **Review and Correction**: this is where course participants will find their tasks corrected as well as requests for revisions.
-* **Revision Period**: course participants upload their revised documents in this element. You as a coach can place multiple revision requests until the task is considered completed and the revision process closed.
+* **Review and Correction**: This is where course participants will find their tasks corrected as well as requests for revisions.
+* **Revision Period**: Course participants upload their revised documents in this element. You as a coach can place multiple revision requests until the task is considered completed and the revision process closed.
 * **Assessment**: Score, Passed/Failed and feedback can be deposited here individually.
-* **Sample solution**: provide course participants with sample solutions of their tasks. You can either create them directly in OpenOlat or upload files.
+* **Sample solution**: Provide course participants with sample solutions of their tasks. You can either create them directly in OpenOlat or upload files.
 * **High Score**: Here you can set up the display of a winner's podium, histogram or a high score list.
 * **Reminders & To-dos**: You can use the reminder function to send reminders to course members in the form of an e-mail. To-dos are stored for course participants in the personal menu under "To-dos".
 
@@ -106,12 +106,12 @@ In the "Assignment" tab you can
 **a)Upload files**
 
 Upload tasks created outside of OpenOlat (upload assignment)
-Auch kann eine Zip-Datei mit mehreren (verschiedenen) Aufgaben hochgeladen und jede Datei mit einem passenden Titel und einer Beschreibung versehen werden.
+You can also upload a zip file with several (different) tasks and provide each file with a suitable title and description.
 
 **Create files in differente formats**
 
 Create files directly in OpenOlat. 
-Welche Formate genau zur Verfügung stehen hängt davon ab welche von der OpenOlat Administration aktiviert wurden. Meist steht mindestens ein HTML-Editor zur Verfügung. Aber auch die Erstellung von Word, Excel, PowerPoint sowie seit :octicons-tag-24: Release 18.1.  Diagrammen oder Whiteboards ist möglich. Zusätzlich können eine spezifische Video- oder ab :octicons-tag-24: Release 18.1. auch eine Audio-Aufgabe erstellt werden.
+Exactly which formats are available depends on which have been activated by the OpenOlat administration. In most cases, at least one HTML editor is available. But it is also possible to create Word, Excel, PowerPoint and, since :octicons-tag-24: release 18.1, diagrams or whiteboards. In addition, a specific video task or, from :octicons-tag-24: Release 18.1, an audio task can also be created.
 
 If a task is created with the internal OpenOlat HTML editor, multiple files such as images or PDF files can be provided by first uploading them in the HTML editor and then linking them in the corresponding html page. Such a task will then be downloaded in .zip file format as well. If the HTML editor is used, the stored title is automatically used as the file name. However, this can be changed at any time.
 
@@ -152,13 +152,13 @@ Determine how participants are allowed to hand in documents and how many in the 
 
 Submitting **with the embedded text editor** allows the creation of HTML documents directly in the course element. If other document editors are integrated in OpenOlat, additional formats can also be created. If only the option **Upload files** is enabled, course participants will have to have their documents ready for upload in an established file format. Enter a number in the field "Max. number of documents" in order to restrict the number of documents uploaded.
 
-It is now also possible to accept **video recordings** via webcam as a delivery. In the "Submission" tab, you can determine the maximum length of the recording as well as the video quality level. This allows learners to submit a video statement directly instead of a written document. eit :octicons-tag-24: Release 18.1. können auch Audio-Dateien zur Abgabe ausgewählt werden. 
+It is now also possible to accept **video recordings** via webcam as a delivery. In the "Submission" tab, you can determine the maximum length of the recording as well as the video quality level. This allows learners to submit a video statement directly instead of a written document. Since :octicons-tag-24: Release 18.1, audio files can also be selected for submission. 
 
 Activate **"Task as template"** if learners should use the stored task file as a basis for their work, for example if the task contains a pre-structured table to be filled in.
 
 ![Working with task template](assets/Aufgabe_Vorlage.png)
 
-!!! Info "Note"
+!!! Info "Info"
 
     In order to use the template, editing in the corresponding editors must also be enabled by the OpenOlat administrators.  
 
@@ -176,7 +176,7 @@ By default a tutor can assess tasks by means of "Passed/failed". Passing can eit
 
 If points are awarded, the minimum and maximum number of points must be specified. In addition, you can then also select the "Evaluation with rating/grades" option. In this way, certain rating scales such as levels, grades, (competence) levels or labels can be assigned to the respective points. The available rating scales are defined by the OpenOlat administrator and can be selected via the button "Edit rating scale" and the points can be adjusted in detail. Furthermore, it has to be defined if the assignment to the calculated rating is done manually by the coach or if it should be displayed automatically when the points are changed.
 
-In the tab "Evaluation2 you can also define whether the result of the concrete task element is included in the evaluation of the entire course or should be excluded.
+In the tab "Evaluation" you can also define whether the result of the concrete task element is included in the evaluation of the entire course or should be excluded.
 
 Optionally, you can activate the option for individual comments or individual assessment documents, so that tutors have even more flexible feedback options.
 
@@ -196,11 +196,23 @@ If the assignment of scores has also been activated for the task, the Highscore 
 
 For more information on this tab, which is available in several course elements, see [here](../learningresources/Course_Elements.md).
 
-### Tab "Reminders"
+As **author** you can activate the automatic creation of to-dos (available from release 18.2). If a submission deadline has been set for one of the workflow steps (deadline), a to-do is automatically created for the course participants.
 
-If required, create reminders for participants to work on the course element.
+The **participants** can find the to-dos in their personal menu under their to-dos. The best way for coaches to get an overview of the status of the to-dos is to go to **Administration > To-dos**.
+
+Further information on To-dos can be found [here](../basic_concepts/To_Dos_Basics.md).
+
+### Tab "Reminders & To-dos"
+
+If necessary, create reminders for participants to complete the course element.
 
 For more information on this tab, which is available in several course elements, see [here](../learningresources/Course_Reminders.md).
+
+!!! note "Note"
+
+    Not in this tab, but under **Settings > "Options" tab > "Coach settings"**, a checkbox can be used to determine whether coaches can edit to-dos.
+
+
 
 ## Tasks and Group Tasks aus der User-Perspektive
 
@@ -224,8 +236,8 @@ In the task submission area, you have the option of submitting your solution. De
 
 ![Abgabemöglichkeiten beim KB Aufgabe](assets/Aufgabe_Abgabe18.png)
 
-In der Regel wird nur ein Teil der vier Optionen für Sie verfügbar sein.
-Laden Sie Ihre Lösung hoch bzw. erstellen Sie sie direkt in OpenOlat und das Dokument wird zwischengespeichert. Die Dokumenten bleiben solange für Sie bearbeitbar bis Sie über die Schaltfläche "Endgültige Abgabe" Ihre Aufgabe einreichen. Sie erhalten eine Bestätigung, dass Sie Dokumente abgegeben haben.
+As a rule, only some of the four options will be available to you.
+Upload your solution or create it directly in OpenOlat and the document will be cached. The documents remain editable for you until you submit your task via the "Final submission" button. You will receive confirmation that you have submitted documents.
 
 In the submission step, which is now marked as completed with a green checkmark, you will receive an overview of the submitted files. You can still view the files, but you can no longer make any changes.
 
@@ -257,7 +269,7 @@ Your coach can attach a sample solution to the task, which will become visible a
 
 ### Read "Grading" from coach
 
-Der Bereich Bewertung umfasst zum einen automatisch generierte Informationen der Leistungsübersicht mit Status,  Punktestand, Einstufung der gewählten Bewertungsskala, je nach Konfiguration des Kursbausteins. Zum anderen können Betreuende in dem Bereich Bewertung ein Feedback im Kommentarfeld sowie (Bewertungs-)dokumente hinterlegen. 
+The assessment area includes automatically generated information from the performance overview with status, score and grading of the selected grading scale, depending on the configuration of the course element. On the other hand, coaches can leave feedback in the comments field as well as (evaluation) documents in the evaluation section. 
 
 ![Bewertung User Sicht](assets/Aufgabe_Bewertung_TN.png)
 

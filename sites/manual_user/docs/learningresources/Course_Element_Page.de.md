@@ -16,6 +16,7 @@ Spezialität / Hinweis | Die Bearbeitung in einem blockbasierten Editor wird neb
 === "Ansicht im Kurs"
     
     Es stehen verschiedene Layout-Varianten zur Auswahl, in denen die gewünschten Elemente wie z.B. Bilder, Texte, Tabellen und Videos flexibel platziert und so die gesamte Seite gestaltet werden kann.
+
     [Kursbaustein Seite im Kurs](assets/KB_Seite.png){ class="shadow lightbox" } 
 
 
@@ -24,6 +25,7 @@ Spezialität / Hinweis | Die Bearbeitung in einem blockbasierten Editor wird neb
 === "Bearbeitungsmodus"
 
     Im Unterschied zum HTML-Editor (Kursbaustein "HTML-Seite") entspricht die Darstellung im blockbasierten Content Editor bereits weitgehend der Vorschau.
+    
     [Kursbaustein Seite im Bearbeitungsmodus](assets/KB_Seite_Bearbeitungsmodus.jpg){ class="shadow lightbox" } 
 
 

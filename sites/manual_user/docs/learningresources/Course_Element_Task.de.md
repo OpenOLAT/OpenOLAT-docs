@@ -198,7 +198,7 @@ Erstellen Sie bei Bedarf Erinnerungen zur Bearbeitung des Kursbausteins für die
 
 Weitere Informationen zu Erinnerungen finden Sie [hier](../learningresources/Course_Reminders.de.md).
 
-Als **Autor:in** können Sie eine automatische Erstellung von To-dos aktivieren (ab Release 18.2 vefügbar). Wenn dann für einen der Workflow-Schritte eine Abgabefrist eingerichtet wurde (Deadline), wird für die Kursteilnehmer:innen automatisch ein To-do erstellt.
+Als **Autor:in** können Sie eine automatische Erstellung von To-dos aktivieren (ab Release 18.2 verfügbar). Wenn dann für einen der Workflow-Schritte eine Abgabefrist eingerichtet wurde (Deadline), wird für die Kursteilnehmer:innen automatisch ein To-do erstellt.
 
 Die **Teilnehmer:innen** finden die To-dos in ihrem persönlichen Menü unter ihren To-dos.
 
@@ -208,7 +208,7 @@ Weitere Informationen zu To-dos finden Sie [hier](../basic_concepts/To_Dos_Basic
 
 !!! note "Hinweis"
 
-    Nicht in diesem Tab, sondern unter **Einstellungen > Tab "Optionen" > Abschnitt "Einstellungen Betreuer:innen"** kann mit einer Checkbox betimmt werden, ob Betreuer:innen To-dos bearbeiten können.
+    Nicht in diesem Tab, sondern unter **Einstellungen > Tab "Optionen" > Abschnitt "Einstellungen Betreuer:innen"** kann mit einer Checkbox bestimmt werden, ob Betreuer:innen To-dos bearbeiten können.
 
 ## Aufgaben und Gruppenaufgaben aus der User-Perspektive
 
