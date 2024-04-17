@@ -111,6 +111,12 @@ As of :octicons-tag-24: Release 18.2.3, content blocks and layouts can be displa
 
 ![Page with alert boxes](assets/182/Alert_block_DE.png){ class="shadow lightbox" title="Page with alert boxes" }
 
+### Background color and spacing
+
+To emphasize content a background color can be set for layouts from :octicons-tag-24: Release 18.2.5. With the optional display of the spaces between the individual content areas, these are also visually separated from each other.
+
+![Layout with background and spacing](assets/182/Layout_Background_color_DE.png){ class="shadow lightbox" title="Layout with background and spacing" }
+
 ### Further updates in the form editor
 
 === "Small spacing"
@@ -290,6 +296,8 @@ As of :octicons-tag-24: Release 18.2.1, certain default values can be preconfigu
 
 * Optimized storage and management of individual user GUI settings (such as table and profile configurations) in a separate table for better handling and targeted resetting of individual configurations
 * Update of third-party libraries
+* Support for new Keycloak versions (17+)
+* EduSharing SOAP API calls replaced by corresponding REST API calls (:octicons-tag-24: release 18.2.2)
 
 * * *
 
@@ -310,6 +318,8 @@ As of :octicons-tag-24: Release 18.2.1, certain default values can be preconfigu
 
 ## More information
 
+* [YouTrack Release notes 18.2.5](https://track.frentix.com/releaseNotes/OO?q=Fix%20versions:%2018.2.5&title=Release%20Notes%2018.2.5){:target="_blank”}
+* [YouTrack Release notes 18.2.4](https://track.frentix.com/releaseNotes/OO?q=Fix%20versions:%2018.2.4&title=Release%20Notes%2018.2.4){:target="_blank”}
 * [YouTrack Release notes 18.2.3](https://track.frentix.com/releaseNotes/OO?q=Fix%20versions:%2018.2.3&title=Release%20Notes%2018.2.3){:target="_blank”}
 * [YouTrack Release notes 18.2.2](https://track.frentix.com/releaseNotes/OO?q=Fix%20versions:%2018.2.2&title=Release%20Notes%2018.2.2){:target="_blank”}
 * [YouTrack Release notes 18.2.1](https://track.frentix.com/releaseNotes/OO?q=Fix%20versions:%2018.2.1&title=Release%20Notes%2018.2.1){:target="_blank”}

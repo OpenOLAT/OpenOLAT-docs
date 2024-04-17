@@ -111,6 +111,12 @@ Ab :octicons-tag-24: Release 18.2.3 können Inhaltsblöcke und Layouts bei Bedar
 
 ![Seite mit Hinweis-Boxen](assets/182/Alert_block_DE.png){ class="shadow lightbox" title="Seite mit Hinweis-Boxen" }
 
+### Hintergrundfarbe und Trennlinien
+
+Um Inhalte farblich zu betonen kann für Layouts ab :octicons-tag-24: Release 18.2.5 eine Hintergrundfarbe eingestellt werden. Mit der optionalen Anzeige der Abstände zwischen den einzelnen Inhaltsbereichen sind diese auch optisch voneinander abgegrenzt.
+
+![Layout mit Hintergrund und Trennlinien](assets/182/Layout_Background_color_DE.png){ class="shadow lightbox" title="Layout mit Hintergrund und Trennlinien" }
+
 ### Weiteres im Formular Editor
 
 === "Kleiner Abstand"
@@ -290,6 +296,8 @@ Ab :octicons-tag-24: Release 18.2.1 können in der `Administration` bestimmte De
 
 * Optimierte Speicherung und Verwaltung individueller GUI-Einstellungen von Benutzer:innen (wie z.B. Tabellen- und Profilkonfigurationen) in separater Tabelle für bessere Handhabung und gezieltes Zurücksetzen einzelner Konfigurationen
 * Aktualisierung der Bibliotheken von Drittanbietern
+* Unterstützung für neue Keycloak Versionen (17+)
+* EduSharing SOAP API Aufrufe durch entsprechende REST API Aufrufe ersetzt (:octicons-tag-24: ab Release 18.2.2)
 
 * * *
 
@@ -310,6 +318,8 @@ Ab :octicons-tag-24: Release 18.2.1 können in der `Administration` bestimmte De
 
 ## Weitere Informationen
 
+* [YouTrack Release Notes 18.2.5](https://track.frentix.com/releaseNotes/OO?q=Fix%20versions:%2018.2.5&title=Release%20Notes%2018.2.5){:target="_blank”}
+* [YouTrack Release Notes 18.2.4](https://track.frentix.com/releaseNotes/OO?q=Fix%20versions:%2018.2.4&title=Release%20Notes%2018.2.4){:target="_blank”}
 * [YouTrack Release Notes 18.2.3](https://track.frentix.com/releaseNotes/OO?q=Fix%20versions:%2018.2.3&title=Release%20Notes%2018.2.3){:target="_blank”}
 * [YouTrack Release Notes 18.2.2](https://track.frentix.com/releaseNotes/OO?q=Fix%20versions:%2018.2.2&title=Release%20Notes%2018.2.2){:target="_blank”}
 * [YouTrack Release Notes 18.2.1](https://track.frentix.com/releaseNotes/OO?q=Fix%20versions:%2018.2.1&title=Release%20Notes%2018.2.1){:target="_blank”}
