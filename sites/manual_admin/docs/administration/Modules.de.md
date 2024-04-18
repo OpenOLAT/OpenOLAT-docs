@@ -5,7 +5,7 @@
   * [Kontaktverfolgung](Modules_Contact_Tracing.de.md)
   * Wiki
   * Kurserinnerungen
-  * [Audio/Video-Aufnahme](Modules_Audio_Video_Recording.de.md)
+  * [Audio/Video-Aufnahme](../administration/)
   * COVID-Zertifikat
   * [Dokumentenpool](Modules_Document_pool.de.md)
   * Livestream

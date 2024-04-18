@@ -115,7 +115,7 @@ Ab :octicons-tag-24: Release 18.2.3 können Inhaltsblöcke und Layouts bei Bedar
 
 Um Inhalte farblich zu betonen kann für Layouts ab :octicons-tag-24: Release 18.2.5 eine Hintergrundfarbe eingestellt werden. Mit der optionalen Anzeige der Abstände zwischen den einzelnen Inhaltsbereichen sind diese auch optisch voneinander abgegrenzt.
 
-![Layout mit Hintergrund und Trennlinien](assets/182/Layout_Background_color_DE.png){ class="shadow lightbox" title="Layout mit Hintergrund und Trennlinien" }
+![Layout mit Hintergrund und Trennlinien](../docs/assets/182/Layout_Background_color_DE.png)){ class="shadow lightbox" title="Layout mit Hintergrund und Trennlinien" }
 
 ### Weiteres im Formular Editor
 

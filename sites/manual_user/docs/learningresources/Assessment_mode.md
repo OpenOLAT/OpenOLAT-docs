@@ -99,7 +99,7 @@ Users who have been assigned to an exam are informed about the start of the exam
 
 ![assessment_management_exam_info1_v1_de.png](assets/assessment_management_exam_info1_v1_de.png){ class="shadow lightbox" }
 
-If the course owner has provided a manual start, coaches will find a start and end button for the corresponding assessment tool configuration on the overview page. If the course owner has provided a manual start, coaches will find a start and end button for the corresponding assessment configuration on the overview page of the [assessment tool](Assessmemt_tool_overview.md). 
+If the course owner has provided a manual start, coaches will find a start and end button for the corresponding assessment tool configuration on the overview page. If the course owner has provided a manual start, coaches will find a start and end button for the corresponding assessment configuration on the overview page of the [assessment tool](Assessment_tool_overview.md). 
 
 ![assessment_management_exam_coach_v1_de.png](assets/assessment_management_exam_coach_v1_de.png){ class="shadow lightbox" }
 

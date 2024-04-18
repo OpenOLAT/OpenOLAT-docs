@@ -122,14 +122,14 @@ If a generator has been created, this results in a list of courses for which dat
 See also [Course Configuration](#Quality_Management_Data_Collection_Generators_Type_Course_Config).
 
 **Object of assessment**<br>
-The generator enters the assessment object in the [Data Collection](Quality_Management_Data_Collections.en.md):
+The generator enters the assessment object in the [Data Collection](Quality_Management_Data_Collections.md):
 
 * Coaches or
 * Course
 
 !!! note "Note"
 
-    If there are several coaches in a course who fulfill the other criteria, a [data collection](Quality_Management_Data_Collections.de.md) is initiated for each coach.
+    If there are several coaches in a course who fulfill the other criteria, a [data collection](Quality_Management_Data_Collections.md) is initiated for each coach.
 
 **Minimum number of lessons coaches**<br>
 The data collection only takes place if the coach has the minimum number of lessons in a course specified here. (Not only the lessons already completed).
@@ -178,7 +178,7 @@ The course members with the roles selected here can participate in the data coll
 ### Tab "Authorizations report"
 
 The configuration entered here is transferred 1:1 to the data surveys created.
-See [Data collections](Quality_Management_Data_Collections.de.md).
+See [Data collections](Quality_Management_Data_Collections.md).
 
 ### Tab "Positive list"
 
@@ -223,7 +223,7 @@ The number of days can also be negative.
 ### Tab "Authorizations report"
 
 The configuration entered here is transferred 1:1 to the data surveys created.
-See [Data collections](Quality_Management_Data_Collections.de.md).
+See [Data collections](Quality_Management_Data_Collections.md).
 
 ### Tab "Positive list"
 
