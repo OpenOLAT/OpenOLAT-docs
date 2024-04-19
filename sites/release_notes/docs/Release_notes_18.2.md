@@ -307,6 +307,8 @@ As of :octicons-tag-24: Release 18.2.1, certain default values can be preconfigu
 
     The following functions have to be activated / configured in the `Administration` after an update to release 18.2:
 
+    * [x] Default values for evidence of achievement: `Modules > Course > 'Use evidence of achievement' option`
+    * [x] Default values for course elements: `Modules > Course elements`
     * [x] Assessment inspection: `e-Assessment > Assessment management > Tab 'Assessment management'` (:octicons-tag-24: release 18.2.2)
     * [x] Include external website in the main navigation: `Customizing > Sites > Tab 'External Site'`
     * [x] (De)activate data collection preview: `Modules > Quality management > Section 'Data collection preview'`

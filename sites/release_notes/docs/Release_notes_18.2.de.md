@@ -115,7 +115,7 @@ Ab :octicons-tag-24: Release 18.2.3 können Inhaltsblöcke und Layouts bei Bedar
 
 Um Inhalte farblich zu betonen kann für Layouts ab :octicons-tag-24: Release 18.2.5 eine Hintergrundfarbe eingestellt werden. Mit der optionalen Anzeige der Abstände zwischen den einzelnen Inhaltsbereichen sind diese auch optisch voneinander abgegrenzt.
 
-![Layout mit Hintergrund und Trennlinien](../docs/assets/182/Layout_Background_color_DE.png)){ class="shadow lightbox" title="Layout mit Hintergrund und Trennlinien" }
+![Layout mit Hintergrund und Trennlinien](assets/182/Layout_Background_color_DE.png){ class="shadow lightbox" title="Layout mit Hintergrund und Trennlinien" }
 
 ### Weiteres im Formular Editor
 
@@ -307,6 +307,8 @@ Ab :octicons-tag-24: Release 18.2.1 können in der `Administration` bestimmte De
 
     Folgende Funktionen müssen nach einem Update auf Release 18.2 in der `Administration` aktiviert bzw. konfiguriert werden:
 
+    * [x] Defaultwerte Leistungsnachweis: `Module > Kurs > Option 'Leistungsnachweis verwenden'`
+    * [x] Defaultwerte Kursbausteine: `Module > Kursbausteine`
     * [x] Prüfungseinsicht: `e-Assessment > Prüfungsverwaltung > Tab 'Prüfungsverwaltung'` (:octicons-tag-24: ab Release 18.2.2)
     * [x] Externe Website im Hauptnavigation einbinden: `Customizing > Sites > Tab 'External Site'`
     * [x] Datenerhebungsvorschau (de)aktivieren: `Modules > Qualitätsmanagement > Abschnitt 'Datenerhebungsvorschau'`
