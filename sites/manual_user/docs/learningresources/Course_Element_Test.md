@@ -14,36 +14,31 @@ Specialty / Note |
 
 
 
-The course element "Test" integrates tests into a course. A test in a course is used to assess achievements and includes various question types. Depending on the choice of "[Question types](../learningresources/Test_question_types.md)", it is evaluated automatically or manually. OpenOlat uses the IMS-QTI 2.1 format for tests, which allows exchange with other test systems and learning management systems that also support this standard.
+The course element "Test" integrates tests into a course. A test in a course is used to assess achievements and includes various question types.
 
-If you have not selected any test yet, there will be a message saying _No file chosen_ under the tab "Test configuration". Click on "Choose, create or import file" to add a test to the course element, or to create a new test, respectively. In case you have already selected a test the name of this learning resource will be displayed after _Selected file_. Click on the name to open a preview of the test. Click on "Replace file" if you would like to exchange the learning resource with another one. Further information can be
-found in the chapter "[Configure Tests](../learningresources/Configure_tests.md)".
+Depending on the choice of "[Question types](../learningresources/Test_question_types.md)", one or more answers can be ticked, elements can be moved by drag & drop, texts and/or numbers can be inserted, files can be added, markers or (very simple) drawings can be created. The evaluation is then carried out manually or automatically, depending on the question type. 
 
-The two main [tabs](../learningresources/Tests_at_course_level.md) for test configuration are **Test configuration** and "**Options**".
+Several tests can also be used for different purposes per OpenOlat course. The results of course participants are recorded on a personalized basis.
 
-The settings under "Options" are initially being copied from the options of the learning resource. However, the options can be adjusted if needed. To do so, open the tab "Options" and click on "Adjust configuration". You may now set a time limit, limit the number of attempts, allow guests to do the test, choose from various display options, etc. If the option "Show question title" is not selected while menu navigation is allowed, the navigation will only show "anonymised" titles, not the real titles.
+OpenOlat uses the IMS-QTI 2.1 format for tests, which allows exchange with other test systems and learning management systems that also support this standard.
 
-Furthermore, you can set up an information text (HTML page) which will be visible at the test start page as "Information", above the "Start" button. To add a file go to the tab "Options" and click on "Select page" or "Create page and open in editor". You can replace the file later if needed.
+The two main tabs for test configuration are **Test configuration** and "**Options**".
 
-Once you have selected a file, the "security setting" field is added to the display and you can allow links to files in the storage folder. This is useful, for example, if you want to link to other HTML files or graphics. However, this setting also means that experienced course participants can view the entire folder of the course.
+!!! Warning "Attention"
 
-If you want to replace the included test, click "Replace file" in the "Test configuration" tab and select the new test. If test results from course participants are already available, you can download them in the next step.
+    If participants are currently taking the test but have not yet completed it, their results will be lost. Likewise, all results obtained between the replacement of the test and the publication of this change will be lost.
 
-Any test linked to a course can only be edited in your test-editor as long as there are no users launching and taking it. After that only typing errors can be corrected.
-
-!!! attention
-
-    In case participants are taking a test at that moment all their results will be lost since that test is not complete. All results achieved between replacing and publishing a test will be lost as well.
-
-The test results of the participants will be personalised.
 
 !!! info "Note"
 
-    ![](assets/selftest.png){class="size24"}
+    ![Test Icon](assets/selftest.png){class="size24"}
 
-    In OpenOlat there are two different course elements for tests: "Tests" and "Self-tests". In contrast to the test, in the self-test the test results are stored anonymously. Self-tests are suitable for practice purposes and can be completed without limit. The results of self-tests are also displayed automatically after the test is completed.
+    There are two different course elements for tests in OpenOlat: "Tests" and ["Self_Tests"](../learningresources/Course_Element_Self_Test.md). In contrast to the test, the test results are saved anonymously in the self-test. Self-tests are suitable for practice purposes and can be completed indefinitely. The results of self-tests are also displayed automatically once the test has been completed.
 
-    The handling of self-tests is otherwise identical to the handling of tests.
+    The handling of self-tests is otherwise identical to the handling of the tests.
+
+Further information on the learning resource Test
+can be found in the chapter "[Create tests](../learningresources/Test.md)".
 
 ## Test configuration
 
@@ -53,17 +48,17 @@ To do so, open the course, go to the course editor and add a course element "Tes
 
 The tabs "Title and description" and "Layout" are the same for all course elements.
 
-### Tab "Learning path"
-
-In the tab Learning path you can define if the course element is mandatory for the learning path course, if it should not be used for the learning path display ("Voluntary" setting) or if the course element should not be displayed at all ("Excluded" setting). Furthermore, a release date, a maximum processing date and the expected processing time can be defined. Furthermore, the following completion criteria are available for tests:
-
-![Test Erledigungskriterien](assets/Test_Erledigungskriterien_DE.png){ class="shadow" }
-
 ### "Test configuration" tab
 
-Here you select or create the test you want to use and assign to the course element Test. Subsequently, further settings can be made, e.g. the type of correction or the type of display of the test results can be defined.
+If you have not yet selected a test, a corresponding message will appear in the "Test configuration" tab. You can now "Select" or "Import" an existing test or "Create" a new test.
 
-In detail, the following settings are possible after you have created or assigned a learning resource test:
+Click on "Select" to assign a test to the course element. You will then also see the options for creating and importing again. Here you select or create the test that you want to use and assign to the course element Test. Further settings can then be made, e.g. the type of correction or the way in which the test results are displayed can be defined.
+
+If you have already linked a test to the course element Test, the name of the test and further information is displayed in the tab "Test configuration" and you can edit the test by clicking on "Edit learning resource".
+
+Click on the "Preview" button to see a test preview and click on the "Replace" link to replace the test by creating or importing a new test. If you want to replace a test for which test results are already available, you will receive a corresponding message and an archive file will be created and can be saved.
+
+An added test can be configured more specifically as follows:
 
 #### Section Test
 
@@ -73,6 +68,8 @@ Select one of the given rating scales e.g. grades, levels or emojis. You can als
 **Exclude from course evaluation**: If the check mark is set here, the test will not be taken into account when calculating progress in a [learning path course](../learningresources/Learning_path_course.md). This setting is not available for a conventional course.
 
 **Set test period**: During the test period, the test can be started. As soon as the "until time" is reached, the test is automatically ended. Even if the defined processing time has not yet been used up. Instead of a fixed date, a relative date can also be chosen, e.g. x days after the first course visit.
+
+If nothing is activated here, the test is accessible at all times, provided no restrictions have been defined elsewhere, e.g. under "Visibility" for conventional courses or due to a serial sequence for learning path courses.
 
 #### Section Correction {: #correction}
 
@@ -90,22 +87,19 @@ If the option "**Manual by external graders**" is activated, OpenOlat users can 
 
 **Release rating**: Set here whether the results are released by default or not.
 
-* Not released: By default, the assessment of the test is not released and cannot be viewed by the participants.
-* Released: The rating is released by default and can be viewed by the participants.
-
 ![Test Korrektur Einstellungen](assets/Test_Korrektur_Einstellungen_DE.jpeg){ class="shadow" }
 
 #### Section Report {: #report}
 
-**Display points on test home page**: When this option is selected, the points are displayed on the test home page for the user.
+Here you define whether and in what form the test results and the performance status should be displayed to the learners. If nothing is selected here, learners will not receive any information.
 
-**Display rating on test home page**: This can be used to define whether or under which conditions the rating should be displayed on the test start page.
+**Display points on test home page**: If this option is selected, users are shown the points and any other performance information such as success status, number of solution attempts and the level reached on the rating scale on the start page of the test.
 
-![Test Report Einstellungen](assets/Test_Report_Einstellungen_DE.png){ class="shadow" }
+In addition to the performance overview, the user can also be shown the specific test evaluation both directly after processing (**Display results after submitting the test**) and permanently on the course start page (**Display results on test home page**). Check the appropriate boxes.
+
+However, it is important that you specifically select the form in which the results are to be displayed in the next step under **"Overview of results"**.
 
 If the "Always" field is selected, the results will be available immediately after the test is finished. If "No" is selected, the results will not be displayed at all. And for the other options, criterion- or date-dependent displays can be defined.
-
-**Display assessment after test completion**: This configures what information learners receive. The selected choice is the same for "Show results on test home page" and "Show results after test completion":
 
 ![Optionen Resultate-Anzeige](assets/Optionen_Anzeige_Resultate_DE.png){ class="shadow" }
 
@@ -121,25 +115,42 @@ The **solution** contains the correct answers.
 
 Depending on the combination of display options, different types of feedback can thus be left for the user.
 
+For the display on the start page, you can also define the conditions under which it should be displayed.
+
+![Test Report Einstellungen](assets/Test_Report_config.png){ class="shadow" }
+
 ### Tab "Options"
 
 If you include a test in a course, the settings from the configuration of the learning resource "Test" (see "[Test Settings](Test_settings.md)" and "[Configure Test](Configure_tests.md)") are taken over by default. Therefore, in the "Options" tab, "Apply configuration from learning resource" is preselected and the corresponding settings made in the learning resource Test are displayed here.
 
-If the settings for a test included in the course are to be changed, "Customize configuration" can be selected and the desired changes made. These adjustments in the test do not affect the configuration of the learning resource Test itself.
+If the settings for a test included in the course are to be changed, "Customize configuration" can be selected and the desired changes made. For example, a time limit can be defined, the number of solution attempts can be restricted or guests can be allowed to perform the test. In addition, various display options can be configured.
 
-### Tab "Kommunikation"
+If the "Show question title" option is not selected but menu navigation is enabled at the same time, only anonymized titles are displayed in the navigation instead of the actual titles.
 
-Here you can set whether participants are allowed to send live chat requests to the course coaches or owners during the test. Of course, this only makes sense if real coaches observe the test execution during a defined test period.
+!!! info "Hinweis"
+
+    These adjustments in the test have no effect on the configuration of the test learning resource itself.
+
+In addition, an information text (HTML page) can also be set up for the test, which is displayed to the user on the start page of the test above the start button. To do this, click on "Create", "Select" or "Import" in the "Information text (HTML)" section of the "Options" tab.
+
+Activate "Allow linking in the entire storage folder" if you want to link to other HTML files or graphics in the information text, for example. However, this setting also means that experienced course participants can view the entire course folder.
+
+
+### Tab "Communication"
+
+Here you can set whether participants are allowed to send live chat requests to the course coaches or owners during the test. Of course, this only makes sense if real coaches observe the test execution during a defined test period. This procedure is helpful, for example, when conducting online examinations or synchronous admission examinations by test. 
 
 ### Tab "HighScore"
 
-A highscore overview can also be activated and further configured here for a test.
+A highscore overview can also be activated and further configured here for a test. This overview compares the test results of the course participants and ranks the individual results in comparison. 
 
 ![Highscore Einstellungen](assets/Highscore_Einstellungen_DE.png){ class="shadow" }
 
+You can find more information on the topic of high scores [here](../learningresources/Course_Elements.md)
+
 ### Tab "Correctors"
 
-An overview of the correctors and further information appears. Changes can be made via a link to the learning resource of the test.
+If correctors have been defined for the test in the learning resource via the correction workflow of the learning resource, an overview of the correctors and further information appears here. Changes can be made via a link to the learning resource of the test.
 
 ### Tab "Email Confirmation" (:octicons-tag-24: Release 17.2.)
 
@@ -147,11 +158,21 @@ Activate the Email confirmation if you want to confirm the submission of the tes
 
 For the mail text you can use the template and a preset subject with the title of the test course module in the subject. Alternatively, the template and the subject can also be changed. In this case, select "Template" -> "Custom Text" to edit or completely change the mailing text.
 
-For more information on using variables in mailing texts, see [here](Course_Element_EMail.md#use-of-variables).
+You can also use different variables such as name or score in the mail text. For more information on using variables in mailing texts, see [here](Course_Element_EMail.md#use-of-variables).
 
 ### Tab "Reminders"
 
 Here, reminder emails can be configured according to certain criteria. More information about sending reminders can be found [here](../learningresources/Course_Reminders.md).
+
+### Tab "Learning path"
+
+In the Learning path tab, you can define whether the test is mandatory for the learning path course, whether it should not be used for the learning path display ("Voluntary" setting) or whether the course element should not be displayed at all ("Excluded" setting). Furthermore, a release date, a maximum processing date and the expected processing time can be defined.
+
+The following completion criteria are also available for tests:
+
+![Test Erledigungskriterien](assets/Test_Erledigungskriterien_DE.png){ class="shadow" }
+
+Only if the selected condition is fulfilled is the progress shown to the user in the learning path display and in the progress percentage.
 
 ## Comparing Tests and Self-tests
 
@@ -171,7 +192,7 @@ Feature | ![Test](assets/test.png){ class=size16 } Test | ![Self-test](assets/se
 
 ## Changes to tests and self-tests
 
-!!! warning "Attention
+!!! warning "Attention"
 
     Once a test or self-test is included in a course, only very limited changes can be made under "Edit content". Therefore, tests should not be included in a course until they are completely finished.
 
@@ -181,9 +202,11 @@ For example, if you want to add a new question to a test or an answer was mistak
 
 ## View and assess tests
 
-Access tests completed by course participants in the "[Assessment tool](../learningresources/Assessment_tool_overview.md)". The assessment tool can be found in the "Administration" of the course. All tests and other assessable course elements of a course are displayed under "Users" and can be called up, viewed, changed and commented on in a person-related manner. Alternatively, the results can also be viewed and managed in the course run with the editor closed. In the course run it is also possible to configure reminders for the respective test and thus trigger a condition-dependent mail dispatch.
+Access tests completed by course participants in the "[Assessment tool](../learningresources/Assessment_tool_overview.md)". The assessment tool can be found in the "Administration" of the course. Navigate to the desired course element Test. In the "Participants" tab, all course participants are displayed with the respective processing status for this course element and you can see in the "Status" column whether an assessment is required. Open reviews are also displayed in the overview under "Open reviews".
 
-![Test Kursrun Teilnehmerliste](assets/Test_Kursrun_Teilnehmerliste_DE.png){ class="shadow" }
+Alternatively, the results can also be viewed and managed in the course run with the editor closed directly in the respective test course element. In the course run, it is also possible to configure reminders for the respective test and thus trigger a condition-dependent e-mail dispatch.
+
+![Test Kursrun Teilnehmerliste](assets/Test_Kursrun_19.png){ class="shadow" }
 
 If external correctors have also been activated for a test, they can assess it via the [Coaching Tool](../area_modules/Coaching.md).
 
@@ -193,19 +216,21 @@ In the course view, select from the "Administration" -> [Data archiving](../lear
 
 After archiving, you will find all the information about which person (anonymized by a run number in the case of self-testing) answered which questions, which answers they gave, and how many points were achieved in the case of self-testing.
 
+Attention: Archiving will change with OpenOlat :octicons-tag-24: Release 19 and will then take place in the "Archiving & Reporting" menu of the administration. 
+
 Via Administration -> "[Test Statistics](../learningresources/Using_Course_Tools.md#test-statistics)" you can also quickly access the graphical analysis of your test data.
 
 ## Working with tests
 
+### Application examples
 In general, tests in OpenOlat are used to test knowledge. Here are a few examples of the use of tests:
-
 * Tests for knowledge verification after a phase of knowledge transfer
 * Tests to check the current level of knowledge before a course, to determine where there are still deficits or to define which aspects should be particularly addressed in the course.
-* Tests to check one's own level of knowledge on a topic, to identify preferences and interests
+* Tests to check your own level of knowledge on a topic, to identify preferences and interests
+* Tests as individual feedback providers, provided that the OpenOlat feedback options are used intensively
 * Tests in the sense of quizzes as a playful component
 * Tests as an online exam
 
-In tests various [Question types](../learningresources/Test_question_types.md) can be used by the teacher. Depending on the question type, you can tick one or more answers, drag and drop elements, insert texts and/or numbers, add files, make marks or (very simple) drawings. Several tests can also be used per OpenOlat course for different purposes.
 
 ### How to edit a test
 
@@ -213,14 +238,12 @@ To start editing a test press "Start". Answer the questions displayed and then c
 
 ![](assets/Test_Anzeige.png)
 
-Depending on the setting, you can navigate further via the "Next question" button and/or a link in the left navigation or the next question will be displayed automatically. Whether you can skip questions or you see an answer progress also depends on the instructor's configuration. Depending on the configuration, you may be allowed to interrupt the test and continue at a later time or cancel it in general without results being saved.
+Depending on the setting, you can navigate further using the "Next question" button and/or a link in the left-hand navigation or the next question will be displayed automatically. Whether you can skip questions or see the progress of answers also depends on the configuration of the teacher. Depending on the configuration, you can interrupt the test and continue at a later time or cancel it without saving the results.
 
-When you have finished editing and want to close the test, click on the "End test" button. There will be another security prompt and if you confirm it, the test will be saved and will be visible for the teachers.
+When you have finished editing and want to complete the test, click on the "End test" button. You will be asked once again for confirmation and if you confirm this, the test will be saved and will be visible to the teachers.
 
-Depending on the question types used, the test is automatically assessed or must still be assessed manually by the instructor. A corresponding info is displayed. The owner of the course also sets when and how detailed you will be informed about your test results.
+Whether, how and when you see the results and the performance overview depends on the test configuration.
 
-In the section "Overview of services" you will find further information e.g.
-
-![](assets/Test_Leistungsuebersicht_kurs.png)
+![Leistungsübersicht Test Teilnehmendensicht](assets/Leistungsuebersicht_Test1.jpg)
 
 If you have more attempts available to process the test, you can run through the test again with "Start". Previous runs will be retained.

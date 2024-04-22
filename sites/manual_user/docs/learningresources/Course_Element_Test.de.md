@@ -129,7 +129,7 @@ Wenn die Einstellungen für einen im Kurs eingebundenen Test geändert werden so
 
 Ist die Option "Fragetitel anzeigen" nicht markiert aber gleichzeitig die Menü-Navigation erlaubt, werden statt der wirklichen Titel lediglich anonymisierte Titel in der Navigation angezeigt. 
 
-!!! info "Hinweis
+!!! info "Hinweis"
 
     Diese Anpassungen im Test haben keine Auswirkungen auf die Konfiguration der Lernressource Test selbst.
 
