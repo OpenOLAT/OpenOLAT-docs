@@ -13,76 +13,82 @@ Bewertbar | ja
 Spezialität / Hinweis |
 
 
-Der Kursbaustein "Bewertung" eignet sich, um Leistungen zu bewerten, welche nicht explizit elektronisch abgegeben werden, z.B. Präsenz-Referate oder Online-Webseiten. Auch eine Rubrik-Bewertung steht hier zur Verfügung.
-
-Auf separaten Seiten erfahren Sie wie man eine [Bewertung](Course_Element_Assessment.de.md) einrichtet, durchführt und konfiguriert.
+Der Kursbaustein "Bewertung" eignet sich, um Leistungen zu bewerten, welche nicht explizit elektronisch abgegeben werden, z.B. Präsenz-Referate oder Online-Webseiten. 
 
 ## Bewertung im Kurseditor erstellen und einrichten
 
-Die Konfiguration des Kursbausteins Bewertung nehmen Sie im Kurseditor im Tab „Bewertung“ vor. Hier können Sie die Bewertung so konfigurieren, dass
+Die Konfiguration des Kursbausteins Bewertung erfolgt im Kurseditor im Tab „Bewertung“. Hier können Sie die Bewertung so konfigurieren, dass
 
-  * Ein [Rubrik](../learningresources/Rubric.de.md) als Basis für die Bewertung verwendet wird
-  * Punkte vergeben werden (oder nicht)
-  * Bestanden/nicht bestanden angezeigt wird
-  * Ein individueller Kommentar hinzugefügt werden kann
-  * Ein individuelles Dokument hinzugefügt werden kann
+  * ein [Rubrik](../learningresources/Rubric.de.md) als Basis für die Bewertung verwendet wird,
+  * Punkte vergeben werden (oder nicht),
+  * Bestanden/nicht bestanden angezeigt wird,
+  * ein individueller Kommentar hinzugefügt werden kann,
+  * ein individuelles Dokument hinzugefügt werden kann
 
-Darüber hinaus kann über den Korrektur-Status definiert werden welche Anzeige der User und auch der Lehrende erhält. Bei aktivierter Option erscheint für den Lehrenden beim Status "Korrigieren" und für den Teilnehmer "in Korrektur" bzw. bei nicht Auswahl "Nicht gestartet" und für den User "Information nicht verfügbar". Je nach Art der Verwendung des Kursbausteins macht die eine oder andere Einstellung Sinn.
-
-Bei Lernpfad Kursen gibt es auch noch eine weitere Konfigurationsoption. So kann zusätzlich der Kursbaustein "Bewertung" auch bei der Gesamtpunktzahl (Bewertung) des Kurses ausgeschlossen werden. Das bedeutet, dass in der Anzeige des Fortschritts des Kurses der Kursbaustein zwar beim Prozentwert des Fortschritts berücksichtigt wird, nicht aber bei der Gesamtpunktzahl des Kurses, die unter der Prozentanzeige erscheint und auch im Leistungsnachweis zum Kurs enthalten ist.
-
-Zusätzlich können noch spezielle Hinweise für alle Benutzer und für andere Betreuer, die grundsätzlich angezeigt werden, ergänzt werden.
-
-![Bewertung Tab.png](assets/Bewertung_tab.png)
+![Bewertung Tab.png](assets/KB_Bewertung_Tab_Bewertung19.jpg)
 
 Die Einstellungen haben Einfluss auf die späteren Bewertungsoptionen und den für die Teilnehmenden sichtbaren Informationen.
 
-Achtung: Sobald eine Bewertung eines Kursteilnehmers stattgefunden hat, können Sie die Konfiguration im Kurseditor nicht mehr verändern.
+!!! warning "Achtung"
+
+    Sobald eine Bewertung eines Kursteilnehmers stattgefunden hat, können Sie die Konfiguration im Kurseditor nicht mehr verändern. 
+
 
 ## Tab "Bewertung" konfigurieren
 
 ### Rubrik-Bewertung
+Eine interessante Möglichkeit der Kriterien basierten Bewertung mit Hilfe des Kursbausteins "Bewertung" bietet die [Rubrik-Bewertung](../learningresources/Forms_in_Rubric_Scoring.de.md).
 
-Eine interessante Möglichkeit der Kriterien basierten Bewertung mit Hilfe des Kursbausteins "Bewertung" bietet die Rubrik-Bewertung. Dafür wählen Sie eine zuvor erstellte Lernressource Formular aus. Alternativ können Sie auch per Button "Rubrik-Formular auswählen" -> ein neues Formular mit Bewertungsraster (Rubrik) erstellen.  Wählen Sie in der Konfiguration der Punkte "Summe aus Rubrik Formular übernehmen" oder "Durchschnitt aus Rubrik-Formular übernehmen", dann werden die Punkte, die sich aus der Struktur des Rubriks ergeben, automatisch übernommen. Bei der Wahl der "Summe" werden die Punkte, die pro Zeile vergeben werden, aufaddiert. Bei der Wahl "Durchschnitt" wird die Durchschnittsumme aller Rubrik-Zeilen ermittelt. Alternativ kann auch eine manuelle Punktevergabe gewählt oder ganz auf Punkte verzichtet werden.
+Dabei wird ein OpenOlat Formular mit dem Kursbaustein Bewertung verknüpft. Anschliessend kann die durch das Rubrik-Formular generierte Punktzahl automatisch als Summe oder Durchschnitt übernommen werden. Bei der Wahl der "Summe" werden die Punkte, die pro Zeile vergeben werden, aufaddiert. Bei der Wahl "Durchschnitt" wird die Durchschnittsumme aller Rubrik-Zeilen ermittelt. Alternativ kann auch eine manuelle Punktevergabe gewählt oder ganz auf Punkte verzichtet werden.
 
 ### Punkte vergeben
 
-Folgende Optionen stehen zur Wahl:
+Sofern aktiviert können manuell durch die Betreuer und Kursbesitzer Punkte vergeben werden. Für die Punktevergabe müssen die minimalen und maximalen Punkte angegeben werden. 
 
-![Bewertung Punkte.png](assets/Bewertung_Punkte.jpg)
+Bei zusätzlicher Aktivierung der Rubrik-Bewertung können auch automatisiert Punkte aus dem Rubrik übernommen werden.   
 
-Die Rubrik-bezogenen Punkte erscheinen nur, wenn auch ein Rubrik-Formular für die Bewertung gewählt wurde.
+### Bewertung mit Einstufung/Noten
 
-Sollen Punkte vergeben werden, muss noch die minimale und die maximale Punktzahl definiert werden.
+Sobald "Punkte vergeben" eingeschaltet wurde, kann auch die Option "Bewertung mit Einstufung/Noten" eingeschaltet und weiter konfiguriert werden. 
+
+Klicken sie auf "Bewertungsskala bearbeiten" um eine Skala auszuwählen und eventuell weitere Einstellungen vorzunehmen. In der Skala ist auch definiert ob bzw. ab wann eine Bewertungsskala mit einem bestanden/nicht bestanden verbunden ist. 
+
+Anschliessend definieren Sie noch ab die Zuweisung zur gewählten Bewertungsskala manuell durch die Betreuenden oder automatisch durch die Zuordnung der erreichten Punktzahl erfolgen soll. 
+
 
 ### Bestanden / Nicht bestanden ausgeben
 
-Wenn Sie die Checkbox markieren, wird dem Kursteilnehmer ein _Bestanden_ resp. _Nicht bestanden_ angezeigt. Wenn Sie die Checkbox nicht ankreuzen, wird nichts angezeigt.
+Schalten Sie die Option ein, wenn den Lernenden angezeigt werden soll, ob der Kursbaustein bestanden wurde oder nicht. 
 
- **Art der Ausgabe:** Sie haben die Möglichkeit mit "Manuell durch Betreuer" zu bestimmen, ob das _Bestanden_ resp. _Nicht bestanden_ aufgrund einer Punkteschwelle automatisch vergeben wird oder ob der Betreuer dies manuell für die zu bewertenden Benutzer vergeben soll. Diese Auswahl können Sie nur machen, wenn Sie die Checkbox **Bestanden/Nicht bestanden ausgeben:** markiert haben.
+Sofern aktiviert kann bei Lernpfad Kursen im nächsten Schritt auch definiert werden ob der Kursbaustein bei der Bewertung des Kurses berücksichtigt werden soll oder nicht. Bei herkömmlichen Kursen wird dies im Tab "Punkte" des obersten Kursbausteins definiert. 
 
- **Punkteschwelle für Bestanden:** Geben Sie hier die Anzahl Punkte ein, die minimal notwendig ist, damit ein Kursteilnehmer ein _Bestanden_ erhält. Unterhalb dieser Schwelle erhält der Teilnehmer ein _Nicht bestanden_. Diese Eingabe können Sie nur machen, wenn Sie im Feld **Art der Ausgabe:** "Automatisch durch Punkteschwelle" gewählt haben. Ebenso, wenn **Punkte vergeben** ausgewählt ist.
+Wenn zusätzlich zu Bestanden/Nicht bestanden auch Punkte aktiviert wurden kann neben der standardmässigen manuellen Bewertung durch die Betreuer noch eine automatische, punkteabhängige Bewertung aktiviert werden. 
 
-### Individuelle Kommentare und Dokumente
+![Kursbaustein Bewertung Punkte und bestanden](assets/KB_Bewertung_Punkte_bestanden19.jpg)
 
-Aktivieren Sie die gewünschte Checkbox. um den Lernenden individuelle Kommentare und/oder Dokumente z.B. als Feedback bereitzustellen.
+Auch kann das Bestehen durch die ausgewählte Bewertungsskala erfolgen. 
 
-## Bewertung durchführen
+Sofern Punkte und/oder bestanden aktiviert wurde gibt es bei Lernpfad Kursen noch eine weitere Option: **„Bei Kurs-Bewertung berücksichtigen“**.  Ist die Option aktiviert, werden die vom User erreichten Punkte auf die in der Administration -> Einstellungen -> Bewertung definierten Punktschwelle, die für das Bestehendes Kurses notwendig ist, angerechnet bzw. der Kursbaustein als Teil der notwendigen Kursbausteine, die für das Bestehen des gesamten Kurses dienen, berücksichtigt. 
 
-Die Bewertung der Kursteilnehmenden wird vom Kursbesitzer oder Kursbetreuer entweder im Kursrun bei geschlossenem Kurseditor oder im [Bewertungswerkzeug](../learningresources/Assessment_tool_overview.de.md) durchgeführt. In der Übersicht erscheinen alle Kursteilnehmende und je nach Konfiguration der Spalten weitere Informationen wie die erreichte Punktzahl, der Status usw. Ferner kann hier auch eine Massenbewertung erfolgen oder die Daten aller Teilnehmenden zurückgesetzt werden.
+### Individuelle Kommentare, Dokumente und Infos
 
- **Im Kursrun:**
+Aktivieren Sie die gewünschte Checkbox. um den Lernenden individuelle Kommentare und/oder Dokumente z.B. als Feedback bereitzustellen. Unter "Erweiterte Konfigurationen ..." können Sie auch zusätzlich noch generelle Informationen für Betreuer und/oder Lernende hinterlegen.
 
-![Bewertung Kursrun.png](assets/Bewertung_kursrun16.png)
+### Status "Korrigieren" setzen 
+Bei aktivierter Option erscheint für den Lehrenden beim Status "Korrigieren" und für den Teilnehmer "in Korrektur" bzw. bei nicht Auswahl "Nicht gestartet" und für den User "Information nicht verfügbar". Aktivieren Sie die Option nur, wenn Sie die Info auch wirklich haben möchten. 
 
- **Im Bewertungswerkzeug:**
+## Bewertung im Kursrun durchführen
 
-![Bewertungswerkzeug.png](assets/Bewertung_Bewertungswerkzeug_16.jpg.png)
+Die Bewertung der Kursteilnehmenden wird vom Kursbesitzer oder Kursbetreuer entweder im Kursrun bei geschlossenem Kurseditor oder im [Bewertungswerkzeug](../learningresources/Assessment_tool_overview.de.md) durchgeführt. 
 
-Nun wird der entsprechende Kursteilnehmer ausgewählt und die angezeigten Felder ausgefüllt bzw. bei Rubrikbewertungen die Rubrik-Felder ausgefüllt.
+Im **Tab "Übersicht"** erscheint eine Gesamtübersicht zum Kursbaustein 
 
+![Kursbaustein Bewertung Übersicht im Kursrun](assets/KB_Bewertung_Uebersicht19.png)
 
+Im **Tab "Teilnehmer:innen"** werden alle Kursteilnehmenden angezeigt. Je nach Konfiguration der Spalten werden weitere Informationen wie die erreichte Punktzahl, der Status usw. für die jeweilige Person sichtbar. Ferner kann im Tab auch eine Massenbewertung erfolgen oder die Daten aller Teilnehmenden zurückgesetzt werden.
 
-Der User hat nach der Bewertung direkt Zugriff auf seine Bewertung inklusive Bewertungsrubrik bei einer Rubrik-Bewertung.
+Um eine Bewertung vorzunehmen wird der entsprechende Kursteilnehmer ausgewählt und die angezeigten Felder ausgefüllt bzw. bei Rubrikbewertungen die Rubrik-Felder ausgefüllt. Die Bewertung kann zwischengespeichert oder direkt abgeschlossen und freigegeben werden. 
 
-![User Rubrik.png](assets/Rubrik_Bewertung_user.png)
+Der User hat nach der Freigabe Zugriff auf seine Bewertung inklusive Bewertungsrubrik und sonstiger Feedbacks.  
+
+Im **"Tab Erinnerungen"** erscheinen die  für den Kursbaustein im Kurseditor angelegten [Erinnerungen](../learningresources/Course_Reminders.de.md). Auch neue Erinnerungen können hier erstellt oder vorhandene bearbeitet und gelöscht werden. 

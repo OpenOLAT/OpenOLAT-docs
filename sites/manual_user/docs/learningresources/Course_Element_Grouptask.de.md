@@ -30,17 +30,20 @@ Bei **Änderungen am Workflow**, z.B. dem Entfernen der Aufgabenstellung, wird a
 
 Nachträgliche Änderungen am Workflow wirken sich auf alle Gruppen aus, auch wenn diese den Workflow bereits begonnen haben.
 
-## Aufgabenstellung
+## Tab Aufgabenstellung
 Bei Gruppenaufgaben kann nur _ein Thema_ pro Gruppe gewählt werden. Sobald ein Gruppenteilnehmer ein Thema gewählt hat, ist das Thema für die gesamte Gruppe festgelegt. Dabei ist es egal wer aus der Gruppe die Wahl trifft.
 
 ## Tab Abgabe
 
 Ist die E-Mail Bestätigung aktiviert erhalten alle Gruppenmitglieder eine E-Mail-Bestätigung unabhängig davon wer die Abgabe Dateien erstellt, hochgeladen oder abgegeben hat.
 
-## Bewertung
+## Tab Bewertung
 Punkte und Feedbacks werden für die gesamte Gruppe erstellt, können aber individuell angepasst werden.
  
 Bei geschlossenem Editor werden im Tab "Teilnehmer:innen" die zugeordneten _Gruppen_ angezeigt, die dann ausgewählt und bewertet werden können. Im Rahmen des Bewertungsprozesses kann entschieden werden, ob die Bewertung für die gesamte Gruppe gilt oder ob die Bewertung nur für ein bestimmtes Gruppenmitglied gilt. 
+
+## Tab Erinnerungen & To-dos
+Bei Gruppenaufgaben gibt es keine To-dos, auch wenn sich sich die Option aktivieren lässt und zunächst ein anderer Eindruck entsteht. 
 
 ## Gruppenaufgabe User Perspektive
 
