@@ -80,7 +80,7 @@ In general the Drag&Drop questions has the same behavior as the matrix question.
 
 First a title and the question are inserted.
 
-Afterward it need to be selected, if the questions should be shuffled.
+Afterward it need to be selected, if the questions and categories should be shuffled.
 
 If the type single choice is selected, every item can be dropped only once. For multiple choice every item can be dropped in every category once, but not twice in the same category.
 

@@ -82,7 +82,7 @@ Eine Drag&Drop-Frage verhält sich im Grunde gleich wie die Matrix Frage. Die Te
 
 Zuerst werden der Titel und die Frage eingetragen.
 
-Dann kann die Reihenfolge der Begriffe auf zufällig ja oder nein gesetzt werden.
+Dann kann die Reihenfolge der Begriffe und Kategorien auf zufällig, ja oder nein gesetzt werden.
 
 Wenn der Typ Single Choice gewählt wird, kann jeder Begriff nur einmal zugeordnet werden. Bei Multiple Choice kann jeder Begriff einmal in jede Kategorie zugeordnet werden, jedoch nicht zweimal in die selbe Kategorie.
 
