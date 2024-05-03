@@ -21,6 +21,12 @@ Nachdem Sie im Kurseditor einen neuen Kursbaustein vom Typ "Seite" eingefügt ha
 
 ![content_editor_page_edit_v1_de.png](assets/content_editor_page_edit_v1_de.png){ class="shadow lightbox" }
 
+### Bearbeitungsmöglichkeit im Run Mode
+
+Im Run Mode (bei geschlossenem Kurseditor) können Sie als Kursbesitzer:in einen Kursbaustein "Seite" auch bearbeiten, nachdem Sie rechts oben den Toggle-Button zur Bearbeitung eingeschaltet haben.<br>
+(Sie öffnen damit nicht den Kurseditor, sondern direkt den Content Editor, den es zur Bearbeitung eines Kursbausteins vom Typ "Seite" benötigt.) 
+
+![content_editor_page_run_mode_v1_de.png](assets/content_editor_page_run_mode_v1_de.png){ class="shadow lightbox" }
 
 !!! info "Hinweis zur Speicherung"
       
@@ -33,6 +39,7 @@ Nachdem Sie im Kurseditor einen neuen Kursbaustein vom Typ "Seite" eingefügt ha
     
 
 Es besteht die Möglichkeit, auch Betreuer:innen im fertigen Kurs die Bearbeitung dieser Seite zu erlauben.
+(Auch für Betreuer:inen wird dann der Toggle-Button rechts oben im Kursbaustein Seite angezeigt.)
 
 ![content_editor_page_edit_right_coach_v1_de.png](assets/content_editor_page_edit_right_coach_v1_de.png){ class="shadow lightbox" }
 
@@ -69,7 +76,7 @@ Ist das Layout markiert (selektiert), können Sie auch nachträglich das Layout 
 
 ### Weitere Layouts einfügen
 
-Sie können mehrere dieser Layouts untereinander einfügen. Klicken Sie dazu auf das Icon mit den 3 Punkten rechts oben. 
+Sie können mehrere dieser Layouts untereinander einfügen. Klicken Sie dazu auf das Icon mit den 3 Punkten rechts oben. Auch am unteren Rand der Seite wird ein Button zum Einfügen eines weiteren Layout-Elements angezeigt.
 
 Sind mehrere Layouts vorhanden, können Sie die Reihenfolge der Layouts ändern. 
 Zum Verschieben eines gesamten Layouts verwenden Sie die Pfeile.
@@ -80,9 +87,11 @@ Zum Verschieben eines gesamten Layouts verwenden Sie die Pfeile.
 
 Zum Verlassen des Content Editors klicken Sie links oben auf "Zurück", Sie gelangen damit wieder zum Kurseditor, in dem alle Kursbausteine angezeigt werden.
 
-Ihre im Content Editor gemachten Einfügungen und Änderungen werden automatisch gespeichert.
+Haben Sie die Seite im Run Modus bearbeitet, verlassen Sie den Bearbeitungsmodus durch Umschalten des Toggle-Buttons.
 
-Um zwischendurch in die Vorschau zu wechseln, ohne den Editor zu verlassen, können Sie den Schalter "Bearbeitungsmodus" rechts oben benutzen.
+**Ihre im Content Editor gemachten Einfügungen und Änderungen werden automatisch gespeichert.**
+
+Auch um zwischendurch in die Vorschau zu wechseln, ohne den Editor zu verlassen, können Sie den Schalter "Bearbeitungsmodus" rechts oben benutzen.
 
 
 ## Inhalte in ein Layout einfügen
@@ -98,7 +107,7 @@ Um zwischendurch in die Vorschau zu wechseln, ohne den Editor zu verlassen, kön
 * Ein Block ist der gesamte Inhalt eines Feldes im Layout. 
 * Es können mehrere Inhalte in einen Block eingefügt werden, z.B. ein Titel und ein Text. 
 
-![content_editor_add_content_page_v1_de.png](assets/content_editor_add_content_page_v1_de.png){ class="shadow lightbox" title="Inhaltsblöcke im Kursbaustein Seite"}
+![content_editor_add_content_page_v2_de.png](assets/content_editor_add_content_page_v2_de.png){ class="shadow lightbox" title="Inhaltsblöcke im Kursbaustein Seite"}
 
 ![content_editor_add_content_form_v1_de.png](assets/content_editor_add_content_form_v1_de.png){ class="shadow lightbox" title="Inhaltsblöcke in der Lernressource Formular"}
 
@@ -166,12 +175,6 @@ Für das Überschriftselement sind verschiedene Schriftgrössen vordefiniert.
 ![content_editor_content_title_v1_de.png](assets/content_editor_content_title_v1_de.png){ class="shadow lightbox" }
 
 
-<h3>Textabschnitt</h3>
-
-In einem Textabschnitt steht ein einfacher Texteditor zur Erstellung von Textblöcken zur Verfügung.
-
-![content_editor_content_text_v1_de.png](assets/content_editor_content_text_v1_de.png){ class="shadow lightbox" }
-
 <h3>Paragraph</h3>
 
 In einem Paragraph stehen im Unterschied zu einem Textabschnitt auch Hinweisboxen und Spalten zur Verfügung.
@@ -179,13 +182,28 @@ In einem Paragraph stehen im Unterschied zu einem Textabschnitt auch Hinweisboxe
 ![content_editor_content_paragraph_v1_de.png](assets/content_editor_content_paragraph_v1_de.png){ class="shadow lightbox" }
 
 
+<h3>Textabschnitt</h3>
+
+In einem Textabschnitt steht ein einfacher Texteditor zur Erstellung von Textblöcken zur Verfügung.
+
+![content_editor_content_text_v1_de.png](assets/content_editor_content_text_v1_de.png){ class="shadow lightbox" }
+
+
 <h3>Bild</h3>
 
 Es können alle im Medien Center verfügbaren Bilder eingebunden werden. Neue Bilder können hochgeladen werden und sind dann im Medien Center abgelegt.
 
+
+<h3>Galerie</h3>
+
+Mehrere Bilder können in einem Galerie-Element durchgeblättert werden. Im Inspektor kann das Erscheinungsbild der Galerie variiert werden. Die Bilder entstammen dem Medien Center. 
+
+![content_editor_content_galerie_v1_de.png](assets/content_editor_content_galerie_v1_de.png){ class="shadow lightbox" }
+
 <h3>Separator</h3>
 
 Ein Separator ist eine Linie (optisches Gestaltungselement) zur Trennung von Inhalten.
+
 
 <h3>Tabelle</h3>
 
@@ -215,7 +233,9 @@ Audios können direkt in OpenOlat neu aufgenommen werden, hochgeladen oder aus d
 
 <h3>Video</h3>
 
-Im Block 'Video' können auch Videos per URL eingebunden werden. Unterstützt werden die Video-Formate MP4 und m3u8 sowie die Plattformen Youtube, Vimeo, Panopto und nanoo.tv. Auch die Aufzeichnung neuer Videos direkt in OpenOlat ist möglich.
+Im Block 'Video' können auch Videos per URL eingebunden werden. <br>
+Unterstützt werden die Video-Formate MP4 und m3u8 sowie die Plattformen Youtube, Vimeo, Panopto und nanoo.tv. <br>
+Auch die Aufzeichnung neuer Videos direkt in OpenOlat ist möglich.
 
 
 <h3>Zitat</h3>
@@ -225,19 +245,22 @@ Wird ein Text als Zitat erfasst, hat er automatisch eine vordefinierte Formatier
 
 <h3>Dokument</h3>
 
-Werden Dokumente (wie z.B. Word-Dateien) hochgeladen, können diese für andere OpenOlat-Autor:innen verfügbar und auf Wunsch auch bearbeitbar im Medien Center abgelegt werden.
+Dokumente (wie z.B. pdf- oder Word-Dateien) können per Drag&drop hochgeladen werden. Sie werden im Medien Center abgelegt. Fürs Medien Center können hier Beschreibungen und Angaben unter "Share" gemacht werden. Die zunächst nur für diesen Inhaltsblock hochgeladene Datei kann dann ggf. auch anderweitig und durch andere OpenOlat-Autor:innen verwendet werden.
+Auf Wunsch können die Dokumente auch bearbeitbar im Medien Center abgelegt werden.
 
-![content_editor_content_document_v1_de.png](assets/content_editor_content_document_v1_de.png){ class="shadow lightbox" }
+![content_editor_content_document_upload_v1_de.png](assets/content_editor_content_document_upload_v1_de.png){ class="shadow lightbox" }
+
 
 <h3>draw.io Diagramm</h3>
 
-Es können bereits vorhandene Diagramme aus dem Medien Center geladen werden oder direkt neue Diagramme mit draw.io erstellt werden. Die Bearbeitung findet auf einem externen Server statt. 
+Es können bereits vorhandene Diagramme aus dem Medien Center geladen werden oder direkt neue Diagramme mit draw.io erstellt werden. Wenn Sie als Einzelperson die Datei bearbeiten, findet die Bearbeitung auf dem OpenOlat-Server statt, im Kollaborationsmodus auf einem externen Server. 
 
 ![content_editor_content_drawio_v1_de.png](assets/content_editor_content_drawio_v1_de.png){ class="shadow lightbox" }
 
+
 <h3>Quiz</h3>
 
-Wie oben gezeigt, können in Formulare verschiedene Fragetypen eingefügt werden. Auch im Kursbaustein "Seite" sind ab Release 18.2.5 Quizfragen verfügbar. Dort sind sie jedoch nicht auswertbar, sondern zur abwechlungsreichen Inhaltsvermittlung gedacht. Für auswertbare Quizfragen verwenden Sie den Kursbaustein "Test" oder "Selbsttest".
+Wie oben gezeigt, können in Formulare verschiedene Fragetypen eingefügt werden. Auch im Kursbaustein "Seite" sind ab Release 19.0 Quizfragen verfügbar. Dort sind sie jedoch nicht auswertbar, sondern zur abwechlungsreichen Inhaltsvermittlung gedacht. Für auswertbare Quizfragen verwenden Sie den Kursbaustein "Test" oder "Selbsttest".
 
 
 <h3>Aus meinem Medien Center wählen</h3>
