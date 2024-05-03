@@ -260,7 +260,10 @@ Es können bereits vorhandene Diagramme aus dem Medien Center geladen werden ode
 
 <h3>Quiz</h3>
 
-Wie oben gezeigt, können in Formulare verschiedene Fragetypen eingefügt werden. Auch im Kursbaustein "Seite" sind ab Release 19.0 Quizfragen verfügbar. Dort sind sie jedoch nicht auswertbar, sondern zur abwechlungsreichen Inhaltsvermittlung gedacht. Für auswertbare Quizfragen verwenden Sie den Kursbaustein "Test" oder "Selbsttest".
+Wie oben gezeigt, können in Formulare verschiedene Fragetypen eingefügt werden. <br>
+Auch im Kursbaustein "Seite" sind ab Release 19.0 Quizfragen verfügbar. Ein Quiz (Paket aus einer oder mehreren Fragen) kann als Block in die Seite eingefügt werden. Zu jeder Frage können mehrere ausführliche Feedbacks hinzugefügt werden (inkl. Bildern und Videos). Als Inhaltsblock auf einem Kursbaustein "Seite" sind Quizzes zur abwechlungsreichen Inhaltsvermittlung gedacht und es werden deshalb keine Punkte an den Kurs weiter gegeben (kein bewertbarer Kursbaustein). Für auswertbare Quizfragen verwenden Sie den Kursbaustein "Test" oder "Selbsttest".
+
+![content_editor_content_quiz_v1_de.png](assets/content_editor_content_quiz_v1_de.png){ class="shadow lightbox" }
 
 
 <h3>Aus meinem Medien Center wählen</h3>
