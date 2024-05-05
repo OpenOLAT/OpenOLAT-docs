@@ -1,54 +1,62 @@
 # Einsatz der Kurswerkzeuge
 
-In Ihrem Kurs stehen Ihnen im Bereich der "Administration" eine Reihe von Werkzeugen zur Verfügung. Auf dieser Seite erhalten Sie einen Überblick über die Menüs der **"Administration"** von Kursen und Lernressourcen.
+In Ihrem Kurs stehen Ihnen im Bereich der "Administration" eine Reihe von Werkzeugen zur Verfügung. 
 
-![Course adminisatration](assets/Adminstration_17_de.png).
+![Course adminisatration](assets/Administration19_de.jpg).
 
-Sie können in der [Mitgliederverwaltung](Members_management.de.md) die Kursteilnehmenden und kursbezogenen Gruppen sowie Rechte organisieren. Die Kursstruktur und die Kursbausteine werden im Kurseditor eingerichtet. Im [Ablageordner](Storage_folder.de.md) werden die Kursdateien gesammelt.
+Andere Lernressourcen verfügen ebenfalls über das Menü Administration, jedoch sind die Menüs nicht so umfangreich und variieren je nach Lernressource. 
 
-Während der Durchführung des Kurses ist das [Bewertungswerkzeug](Assessment_tool_overview.de.md) relevant. Auch kursbezogene Erinnerungen und [Lektionen](Lectures_and_absences.de.md) können organisiert werden. Für Online-Klausuren bietet sich der [Prüfungsmodus](../learningresources/Assessment_mode.de.md) an. Es können auch bestimmte statistische Daten abgerufen und Daten [archiviert](Data_archiving.de.md) werden. Und natürlich können Kurse und Lernressourcen kopiert, exportiert oder gelöscht werden.
+Im Folgenden erhalten Sie einen Überblick über die **Menüs der "Administration" von Kursen**. 
 
+## Einstellungen 
+Hier werden Basic-Einstellungen vorgenommen und auch die Kursfreigabe eingerichtet. 
 
-!!! info "Info"
+Infos zum Menü "Einstellungen" finden Sie im Kapitel [Kurseinstellungen](Course_Settings.de.md)
 
-    Die Administrationsmenüs der unterschiedlichen Lernressourcen unterscheiden sich im Detail. Auch stehen nicht für jede Lernressource dieselben Untermenüs zur Verfügung.
+## Mitgliederverwaltung
+Sie können in der [Mitgliederverwaltung](Members_management.de.md) die Kursteilnehmenden und kursbezogenen Gruppen sowie Rechte organisieren und auch Buchungen und Einladungen für Externe organisieren. 
 
+## Ablageordner
+Im [Ablageordner](Storage_folder.de.md) werden die Kursdateien gesammelt, die mit einzelnen Kursbausteinen z.B. der HTML-Seite oder dem Kursbaustein Ordner verknüpft werden können.
 
-### Menüs im Bereich Administration
+## Bewertungswerkzeug
+Im Menü "Bewertungswerkzeug“, nicht zu verwechseln mit dem [Kursbaustein "Bewertung"](../learningresources/Course_Element_Assessment.de.md), erfolgt die gesamte Bewertung eines Kurses. Hier hat man Zugriff auf alle bewertbaren Kursbausteine und kann Bewertungen mit Punktevergabe, bestanden/nicht bestanden usw. vornehmen und individuelle Feedbacks bereitstellen.
 
-### Bewertungswerkzeug
+Umfangreiche Informationen findet man im Kapitel ["Bewertungswerkzeug"](Assessment_tool_overview.de.md).
 
-Im Menü "Bewertungswerkzeug“, nicht zu verwechseln mit dem [Kursbaustein "Bewertung"](../learningresources/Course_Element_Assessment.de.md), erfolgt die gesamte Bewertung eines Kurses. Hier hat man Zugriff auf alle bewertbaren Kursbausteine und kann Bewertungen mit Punktevergabe, bestanden/nicht bestanden vornehmen und individuelle Feedbacks bereitstellen.
+## To-dos
+Hier können To-dos für alle oder einzelne  Kursteilnehmenden erstellt, editiert und angezeigt werden. Weitere Details finden Sie im Kapitel [To-dos im Kurs](Course_todos.de.md)
 
-![Bewertungswerkzeug Übersicht](assets/eass_uebersichtsgrafik_DE.png)
+## Badges
 
-Das Menü Bewertungswerkzeug ist also während der Durchführung eines Kurses bzw. am Ende relevant.
+Hier können kursbezogene Badges erstellt, editiert und angezeigt werden. Weitere Details finden Sie im Kapitel [Open Badges](OpenBadges.de.md)
 
-Zugang zum Bewertungswerkzeug haben alle Besitzer des Kurses, Mitglieder einer Gruppe mit Rechten am Bewertungswerkzeug und alle Betreuer der Gruppen. Besitzer dürfen alle Kursteilnehmenden bewerten, Gruppenbetreuer nur die Mitglieder der betreuten Gruppen.
-
-!!! tip "Tipp"
-
-    Abonnieren Sie den Benachrichtigungsservice, entweder für neu eingegangene Testresultate und/oder neu erstellte Zertifikate.
-
-Weitere Informationen zum Bewertungswerkzeug finden Sie [hier](Assessment_tool_overview.de.md).
-
-### Unterlagen Betreuer
+## Unterlagen Betreuer:innen
 
 Dieses Menü gibt Betreuern die Möglichkeit Dateien abzulegen. Alle Betreuer und Kursbesitzer können auf diesen Bereich zugreifen. 
 
-Als Ablageort kann in den "Einstellungen" im Tab "Optionen" entweder ein bereits existierender Ordner des Ablageordners des Kurses gewählt oder ein neuer Ordner speziell für die Betreuer im Ablageordner generiert werden. 
+Damit dieses Menü erscheint muss zunächst im Kurs unter "Administration" -> "Einstellungen" im Tab "Optionen" die Option "Unteralgen Betreuer:innen Ordner" aktiviert werden.
 
-Wird die Option "Automatisch generierter Ordner" gewählt, haben die Betreuer im Gegensatz zu Kursbesitzern keinen Zugriff auf andere Dateien oder Ordner, die sich im Ablageordner des Kurses befinden. Dagegen haben  Kursbesitzer bzw. Personen mit Zugriff auf den Kurseditor vollen Zugriff auf den Ablageordner und sehen auch die Dateien der Betreuer im automatisch generierten Ordner "coachdocuments". Das bedeutet Kursbesitzer haben immer  Zugriff auf die Dateien des Betreuer Ordners und können sie auch für die Verknüpfung mit bestimmten Kursbausteinen z.B. einer Einzelseite nutzen. Umgekehrt erhalten Betreuer auch mit diesem Betreuer Ordner keine Möglichkeit Dateien in die Kursstruktur zu integrieren.
+Als Ablageort kann im Tab Optionen ein bereits existierender Ordner des Ablageordners des Kurses gewählt oder ein neuer Ordner speziell für die Betreuer im Ablageordner generiert werden. Wird die Option "Automatisch generierter Ordner" gewählt, haben die Betreuer im Gegensatz zu Kursbesitzern keinen Zugriff auf andere Dateien oder Ordner, die sich im Ablageordner des Kurses befinden. Dagegen haben  Kursbesitzer bzw. Personen mit Zugriff auf den Kurseditor vollen Zugriff auf den Ablageordner und sehen auch die Dateien der Betreuer im automatisch generierten Ordner "coachdocuments". Das bedeutet Kursbesitzer haben immer Zugriff auf die Dateien des Betreuer Ordners und können sie auch für die Verknüpfung mit bestimmten Kursbausteinen z.B. einer Einzelseite nutzen. Umgekehrt erhalten Betreuer auch mit diesem Betreuer Ordner keine Möglichkeit Dateien in die Kursstruktur zu integrieren.
 
-!!! info "Hinweis"
+## Lektionen und Absenzen 
+Hier können die Lektionenblöcke eines Kurses erstellt, angesehen und überarbeitet werden. Nähere Informationen zum Thema finden Sie im Kapitel [Lektionen und Absenzen](Lectures_and_absences.de.md). 
 
-    Das Menü "Unterlagen Betreuer" erscheint nur wenn in den Einstellungen des Kurses im Tab "Optionen" die entsprechende Funktion vom Kursbesitzer aktiviert wurde.
+## Erinnerung
+Hier können Erinnerungen für Kursteilnehmende erstellt, bearbeitet und angezeigt werden. Weitere Informationen finden Sie im Kapitel [Erinnerungen](Course_Reminders.de.md) 
 
-### Lernbereich {: #learning_area}
+## Prüfungsverwaltung
+Hier können Sie Konfigurationen für den Prüfungsmodus erstellen, bearbeiten und anzeigen lassen. Sie können beispielweise einen Prüfungsmodus konfigurieren, der nur bestimmte Kursbausteine zulässt und in einem geschützten Kioskmodus mit eingeschränkten Möglichkeiten ausgeführt wird. Weitere Details find Sie [hier](../learningresources/Assessment_mode.de.md) an. 
 
-Mit Hilfe eines Lernbereichs können mehrere Gruppen eines Kurses gebündelt werden. Dies ist besonders bei vielen Gruppen innerhalb eines Kurses sinnvoll. 
 
-Mit Hilfe der Schaltfläche "Lernbereich erstellen" weisen Sie dem Kurs einen neuen Lernbereich zu. Ordnen Sie dann diesem Lernbereich die gewünschten im Kurs existierenden Gruppen zu. 
+## Datenerhebungsvorschau
+Sofern vom Administrator aktiviert, erscheint der Menüpunkt in der Administration des Kurses. Hier können Kursbesitzer:innen die geplanten Erhebungen des Moduls [Qualitätsmanagement](../../../manual_admin/docs/administration/Modules_Quality_Management.de.md) des Kurses einsehen. Für Kursbesitzer:innen ist diese Vorschau rein _informativ_. Eine Bearbeitung ist lediglich für Qualitätsmanager:innen möglich.
+
+## Lernbereich {: #learning_area}
+
+Hier können die Lernbereiche des Kurses erstellt,  angezeigt und editiert werden. 
+
+Mit Hilfe eines Lernbereichs können mehrere Gruppen eines Kurses gebündelt werden. Dies ist besonders bei vielen Gruppen innerhalb eines Kurses sinnvoll. Über die Schaltfläche "Lernbereich erstellen" weisen Sie dem Kurs einen neuen Lernbereich zu. Ordnen Sie anschliessend diesem Lernbereich die gewünschten im Kurs existierenden Gruppen zu. 
 
 Lernbereiche können z.B. im Kurseditor beim Kursbaustein "Einschreibung" ausgewählt werden. Somit werden alle Gruppen eines Lernbereichs zur Einschreibung angeboten. Weiter stehen Lernbereiche in herkömmlichen Kursen jeweils in den Tabs "Sichtbarkeit" oder "Zugang" zur Auswahl, wenn die Option "gruppenabhängig" aktiviert ist.
 
@@ -58,10 +66,12 @@ Der Vorteil gegenüber der expliziten Auflistung aller relevanten Gruppen in den
 
     Lernbereiche können z.B. eingesetzt werden, wenn Sie denselben Kursbaustein mehreren Gruppen innerhalb eines Kurses verfügbar machen möchten, oder wenn bei einem Einschreibebaustein viele Gruppen zur Auswahl stehen, oder wenn Sie mehrere Gruppen für einen Betreuer bündeln möchten. Mit einem Lernbereich sparen Sie sich die wiederholte Auswahl jeder einzelnen Gruppe.
 
-
-### Kurs DB
+## Kurs DB
 
 Hier können Sie eine neue kurspezifische Datenbank anlegen, die bestimmte kurspezifische Informationen speichern kann.
+
+## Kurs, Test und Fragenbogen Statistiken
+Menüs für den Abruf bestimmter statistischer Daten
 
 ### Kurs Statistiken {: #statistics}
 
@@ -73,30 +83,44 @@ Statistiken können pro Stunde, pro Tag, pro Wochentag und pro Woche erstellt we
 
 ### Test Statistiken
 
-Die Test Statistiken erlauben generelle kursbezogene, anonymisierte statistische Auswertung der Tests eines Kurses. Angezeigt werden alle im Kurs enthaltenen Tests. Es werden sowohl die Kennzahlen für einen Test sowie weitere Analysen zur Bearbeitungsdauer, durchschnittlichen Punkten pro Frage und der prozentuale Anteil der richtigen Antworten pro Frage angezeigt. 
+Die Test Statistiken erlauben generelle kursbezogene, anonymisierte statistische Auswertung der OpenOlat Tests eines Kurses. Angezeigt werden alle im Kurs enthaltenen Tests. 
 
-Des Weiteren werden für jede Frage Kennzahlen wie die Anzahl der Teilnehmenden die die Frage ausgefüllt haben, die durchschnittliche Punktzahl und Bearbeitungsdauer usw. angezeigt und visualisiert. Durch Kennwerte zur Testevaluation und Itemanalyse können Sie so einen Test im Hinblick auf z.B. Schwierigkeit und Eignung evaluieren.
+Es werden sowohl die Kennzahlen für einen Test sowie weitere Analysen zur Bearbeitungsdauer, durchschnittlichen Punkten pro Frage und der prozentuale Anteil der richtigen Antworten pro Frage angezeigt. Des Weiteren werden für jede Frage Kennzahlen wie die Anzahl der Teilnehmenden die die Frage ausgefüllt haben, die durchschnittliche Punktzahl und Bearbeitungsdauer usw. angezeigt und visualisiert. Durch Kennwerte zur Testevaluation und Itemanalyse können Sie so einen Test im Hinblick auf z.B. Schwierigkeit und Eignung evaluieren.
+
+Ein Download der Rohdaten sowie eine Druckversion stehen hier ebenfalls zur Verfügung. 
 
 Zugang zu den Test Statistiken haben neben den Kursbesitzern auch alle Betreuer des Kurses.
 
 ### Fragebogen Statistiken
 
-Die Fragebogen Statistiken erlauben Ihnen die generelle kursbezogene, anonymisierte statistische Auswertung Ihrer Umfragen. Für jede Umfrage gibt es eine Übersicht, Tabellen, Diagramme, sowie Zugriff auf die einzelnen Fragebögen (Formulare) und die Möglichkeit des Exports.
+Die Fragebogen Statistiken erlauben Ihnen die generelle kursbezogene, anonymisierte statistische Auswertung Ihrer Umfragen. Für jede Umfrage gibt es eine Übersicht, Tabellen, Diagramme, sowie Zugriff auf die einzelnen Fragebogen Formulare.  Ferner ist ein Export der Daten als PDF oder Excel Tabelle sowie ein Ausdruck möglich. 
 
-In der Übersicht geht es um Kennzahlen wie die Anzahl der ausgefüllten Fragebögen, Abgabezeitraum und Bearbeitungsdauer. Im Tab "Tabellen" liegen Auswertungen zu einzelnen Fragen vor. Im Tab „Diagramme“ werden die Ergebnisse in Form von Balkendiagrammen visualisiert und die zugehörigen statistischen Daten wie Median, Varianz und Standardabweichung angezeigt. Im Tab „Einzelne Formulare haben Sie Zugriff auf jeden einzelnen Fragebogen. Alle Zugriffe sind anonymisiert.
+In der "Übersicht" geht es um Kennzahlen wie die Anzahl der ausgefüllten Fragebögen, Abgabezeitraum und Bearbeitungsdauer. Im Tab "Tabellen" liegen Auswertungen zu einzelnen Fragen vor. Im Tab „Diagramme“ werden die Ergebnisse in Form von Balkendiagrammen visualisiert und die zugehörigen statistischen Daten wie Median, Varianz und Standardabweichung angezeigt. Im Tab „Einzelne Formulare" haben Sie Zugriff auf jeden einzelnen Fragebogen. Alle Zugriffe sind anonymisiert.
 
 Zugang zu den Fragebogen Statistiken haben neben den Kursbesitzern auch alle Betreuer des Kurses.
 
-### Datenarchivierung   {: #archive}
 
-Über die [Datenarchivierung](Data_archiving.de.md) können die Ergebnisse diverser Kursbausteine eines Kurses gespeichert werden. Insbesondere die Speicherung von Ergebnissen der durchgeführten Umfragen, Tests, Selbsttests, Aufgaben, Gruppenaufgaben und die Kursresultate sind wichtige Elemente, die Sie zum Ende des Kurses sichern sollten.
+## Archivierung & Reporting {: #archive}
+
+Hier können Elemente des Kurses mit Hilfe eines Wizards archiviert werden. Dabei kann entweder ein Gesamtarchiv oder Teilarchiv mit ausgewählten Kursbausteinen erstellt werden. Insbesondere die Speicherung von Ergebnissen der durchgeführten Umfragen, Tests, Selbsttests, Aufgaben, Gruppenaufgaben und die Kursresultate sind wichtige Elemente, die Sie zum Ende des Kurses sichern sollten.
+
+Archive, die von  Kursbesitzer:innen erstellt werden sind anonymisiert. Die Ergebnisse werden in Form eines HTML-Dokuments sowie eines Excel-Rohdaten-Dokuments erstellt. Bei Bedarf kann auch noch ein PDF erstellt werden. Sobald das Archiv erstellt wurde erscheint es in der Übersicht.  
+
+Darüber hinaus können noch separat Logfiles, Kursresultate, Chat-Historie sowie Foren archiviert werden. 
+
+Details zur bisherigen Datenarchivierung findet man [hier](Data_archiving.de.md) 
 
 
-### Buchungsmöglichkeiten
+## Buchungsmöglichkeiten
 
 Hier erhalten Sie einen Überblick über alle Personen, die den Kurs gebucht haben.
 
 Dieses Menü erscheint nur wenn in den "Einstellungen" der Administration im Tab "Freigabe" eine Buchungsmethode ausgewählt wurde. 
+
+
+## Kopieren mit und ohne Wizard, Inhalt exportieren 
+
+Und natürlich können Kurse und Lernressourcen auch kopiert, exportiert oder gelöscht werden.
 
 ### Kopieren
 
@@ -128,14 +152,14 @@ Exportieren Sie Ihre Lernressourcen als ZIP-Datei um eine Sicherungskopie zu erh
 Als Besitzer einer Lernressource können Sie darüber hinaus im Administrationsmenü unter "Einstellungen" → "Freigabe für andere Autoren" bestimmen, ob Ihre Lernressource von allen anderen OpenOlat-Autoren des Systems exportiert, kopiert oder referenziert werden darf.  Weitere Infos dazu finden Sie [hier](../learningresources/Access_configuration.de.md).
 
 
-## (Lernressource) Löschen
+## (Kurs bzw. Lernressource) Löschen
 
-Wenn ein Kurs bzw. Lernressource gelöscht wird, werden alle Benutzerdaten entfernt und der Kurs ist nun weder für die ehemaligen Teilnehmenden noch die Betreuer aufruf- oder einsehbar. Kursbesitzer finden die gelöschte Lernressource anschließend im Autorenbereich im Tab "Gelöscht". Hier erscheint die Lernressource mit dem Status "Papierkorb". Es besteht weiter Zugriff auf die Menüpunkte der Administration. Der Status "Papierkorb" kann nicht geändert werden. Jedoch ist es möglich, über den Link im 3-Punkte Menü die Lernressource wiederherzustellen.
+Wenn ein Kurs bzw. Lernressource gelöscht wird, werden alle Benutzerdaten entfernt und der Kurs ist nun weder für die ehemaligen Teilnehmenden noch die Betreuer aufruf- oder einsehbar. Kursbesitzer finden die gelöschte Lernressource anschliessend im Autorenbereich im Tab "Gelöscht". Hier erscheint die Lernressource mit dem Status "Papierkorb". Es besteht weiter Zugriff auf die Menüpunkte der Administration. Der Status "Papierkorb" kann nicht geändert werden. Jedoch ist es möglich, über den Link im 3-Punkte Menü die Lernressource wiederherzustellen.
 
 
 !!! info "Endgültiges Löschen"
 
-    Das endgültige Löschen eines Kurses bzw. Lernressource aus dem Tab "Gelöscht" ist nur durch den OpenOlat Administrator möglich.
+    Das endgültige Löschen eines Kurses bzw. Lernressource aus dem Tab "Gelöscht" ist nur durch OpenOlat Administrator:innen möglich.
 
 !!! info "Archivierung"
 
@@ -143,18 +167,7 @@ Wenn ein Kurs bzw. Lernressource gelöscht wird, werden alle Benutzerdaten entfe
 
 Es ist möglich, andere Kursbesitzer via E-Mail über das Beenden oder Löschen eines Kurses zu informieren. Dies kann entweder im Beenden/Löschen-Dialog optional ausgewählt oder vom OpenOlat Administrator systemweit eingestellt werden.
 
+Bei einer gelöschten Lernressource erscheint in der Kurs Administration der Menüpunkt "Wiederherstellen". 
+
 Ebenso kann ein Kurs auch automatisiert beendet bzw. gelöscht werden. Entsprechende Einstellungen nimmt ebenfalls der OpenOlat Administrator vor.
 
-## Weitere Menüs und Details 
-
-Weitere Menüs der Administration werden auf separaten Handbuchseiten konkreter vorgestellt:
-
-* [(Kurs-) Einstellungen](../learningresources/Course_Settings.de.md)
-* [Mitgliederverwaltung](Members_management.de.md)
-* [Kursbausteine](../learningresources/Course_Elements.de.md) des Kurseditors
-* [Ablageordner](Storage_folder.de.md) 
-* [Bewertungswerkzeug](Assessment_tool_overview.de.md) 
-* [Erinnerung](Course_Reminders.de.md) 
-* [Prüfungsmodus](../learningresources/Assessment_mode.de.md)
-* [Lektionen und Absenzen](Lectures_and_absences.de.md)
-* [Datenarchivierung](Data_archiving.de.md)
