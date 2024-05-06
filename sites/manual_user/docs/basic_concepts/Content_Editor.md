@@ -97,6 +97,14 @@ To switch to the preview without leaving the editor, you can use the "Edit mode"
 
 ### Inspector
 
+As soon as content has been selected, a pop-up window appears in which the properties of this content can be set. 
+
+An inspector pop-up can also be shown and hidden using the cogwheel icon.
+
+![content_editor_content_move_v1_de.png](assets/content_editor_content_move_v1_de.png){ class="shadow lightbox" }
+
+### Move contents
+
 When content is selected, an icon with an arrow cross is displayed at the top left of the frame. If you select this icon, you can move the content to any other position by holding down the mouse button. Also in another layout field and in another layout element.
 
 ![content_editor_content_move_v1_de.png](assets/content_editor_content_move_v1_de.png){ class="shadow lightbox" }
@@ -215,7 +223,8 @@ As shown above, different question types can be inserted into forms. Quiz questi
 
 <h3>Choose from my media center</h3>
 
-Various media types can be stored in the Media Center. Instead of accessing a specific content type, you can use this selection option to access all media of different types that have been released to you in the Media Center.
+Various media types can be stored in the Media Center. Instead of accessing a specific content type, you can use this selection option to access all media of different types that have been released to you in the Media Center.<br>
+Use the “Add media file” button to create new media files directly.
 
 ![content_editor_content_media_center_v1_de.png](assets/content_editor_content_media_center_v1_de.png){ class="shadow lightbox" }
 
