@@ -64,17 +64,31 @@ Die Nutzung der Tools der Toolbar ist besonders für linear gestaltete [Lernpfad
 
 ## Tab Bewertung {: #assessment}
 
-Im Tab Bewertung können Sie Einstellungen vornehmen zu
+Im Tab Bewertung können Sie folgende Aspekte aktivieren bzw. konfigurieren:
 
-* Bewertungsmethoden (nur bei Lernpfadkursen): Punkte, Bestanden/Nicht bestanden 
-* Leistungsnachweisen
-* Vergabe von Zertifikaten
-* (ggf. Rezertifizierung)
-* Vergabe von Badges
-
+* Kurs-Bewertung mit Punkten: Summe, Durchschnitt, gewichtet
+* Anforderungen für das Bestehen des Kurses 
+* Leistungsnachweise aktivieren und konfigurieren
+* Kurs Zertifikate aktivieren, konfigurieren und auch eine Rezertifizierung einrichten
+* Die Vergabe von Badges aktivieren
 
 ![course_settings_assessment_v1_de.png](assets/course_settings_assessment_v1_de.png){ class="shadow lightbox" }
 
+Ein Kursbestehen kann sich bei Lernpfad-Kursen auf 
+* einen 100 % Fortschritt, 
+* das Bestehen aller Kursbausteine  
+* das Bestehen einer bestimmten Anzahl von Kursbausteinen  
+* einer bestimmten Punktzahl 
+
+oder einer Kombination dieser Aspekte beziehen. 
+
+Bei der Wahl "Anzahl Kursbausteine bestanden" und "Punkteschwelle erreicht" können die konkreten Kursbausteine die dabei berücksichtigt werden angezeigt werden. Blenden Sie zur besseren Übersicht die Spalte "Bei Kurs-Bewertung berücksichtigen" ein. 
+
+Die Konfiguration ob ein Kursbaustein bei der Gesamtbewertung berücksichtigt wird erfolgt allerdings im Kurseditor direkt beim jeweiligen Kursbaustein.  
+
+!!! info "Hinweis"
+
+    Bei herkömmlichen Kursen sind im Bewertungstab nur die Einstellungen für Leistungsnachweise, Zertifikate und Badges verfügbar.  Die Konfiguration für das Bestehen erfolgt im Kurseditor auf dem obersten Kursbaustein im Tab "Punkte". Einen Fortschritt gibt es bei herkömmlichen Kursen nicht.
 
 ## Tab Optionen {: #options}
 

@@ -25,7 +25,7 @@ Im Menü "Bewertungswerkzeug“, nicht zu verwechseln mit dem [Kursbaustein "Bew
 Umfangreiche Informationen findet man im Kapitel ["Bewertungswerkzeug"](Assessment_tool_overview.de.md).
 
 ## To-dos
-Hier können To-dos für alle oder einzelne  Kursteilnehmenden erstellt, editiert und angezeigt werden. Weitere Details finden Sie im Kapitel [To-dos im Kurs](Course_todos.de.md)
+Hier können To-dos für alle oder einzelne  Kursteilnehmenden erstellt, editiert und angezeigt werden. Weitere Details finden Sie im Kapitel [To-dos im Kurs](Course_todos.de.md).
 
 ## Badges
 

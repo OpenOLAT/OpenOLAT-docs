@@ -59,7 +59,7 @@ Tragen Sie hier die maximale Anzahl der möglichen Lösungsversuche für einen T
 
 Sobald das Ergebnis "bestanden" erreicht wird, kann der Benutzer den Test nicht noch einmal durchführen.
 
-**Anonyme Benutzer (Gäste) erlauben {: #guest}** 
+**Anonyme Benutzer (Gäste) erlauben {:#guest}** 
 
 Personen ohne OpenOlat Account können ebenfalls den Test absolvieren. Gäste können den Test jedoch nicht unterbrechen. Es werden nur abgeschlossene Tests gezählt. Die Resultate stehen ebenfalls in der Teststatistik zur Verfügung.
 
@@ -78,7 +78,7 @@ Wenn Sie die Menu-Navigation _nicht_ erlauben:
 * ist am Test "nicht lineare Navigation" eingestellt, kann die Navigation unterhalb der Frage über einen Button aufgerufen werden, um eine andere Frage auszuwählen.
 * ist am Test "lineare Navigation" eingestellt, erscheint nach dem Abschicken einer Antwort automatisch die nächste Frage und die Testperson kann nicht zu anderen Fragen navigieren.
 
-**Persönliche Notizen  {: #notes}**
+**Persönliche Notizen  {:#notes}**
 
 Sie können den Benutzern erlauben, während des Tests persönliche Notizen zu erstellen, die nach Abschluss des Tests nicht mehr zur Verfügung stehen.
 
@@ -114,7 +114,7 @@ Wenn die Option "Testquittung erstellen" ausgewählt ist, kann die Option Testqu
 
 Solange diese Checkbox ausgewählt ist, werden die Feedbacks im Testverlauf angezeigt. Wenn die Checkbox nicht mehr ausgewählt ist, werden keine Feedbacks mehr angezeigt. Dies betrifft die Feedbacks aller Frageitems und auch das Feedback, welches auf der Ebene Test hinzugefügt werden kann. Die einzelnen Feedbacks werden im Testeditor konfiguriert.  
   
-**Resultate nach Testabschluss anzeigen {: #results}**
+**Resultate nach Testabschluss anzeigen {:#results}**
 
 Wenn diese Checkbox ausgewählt ist, wird das Resultat nach Beenden des Tests angezeigt. Was genau angezeigt wird, kann ausgewählt werden.  
 

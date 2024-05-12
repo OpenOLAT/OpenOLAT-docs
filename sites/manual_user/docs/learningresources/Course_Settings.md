@@ -65,14 +65,29 @@ The use of the tools in the toolbar is particularly important for linear [Learni
 
 In the Assessment tab, you can make settings for
 
-* Assessment methods (only for learning path courses): points, pass/fail 
-* Proof of performance
-* Award of certificates
-* (recertification if applicable)
+* Assessment methods: total, average, weighted
+* Requirements for passing the course 
+* Activate and configure course certificates
+* Activate and configure course certificates and also set up recertification
 * Award of badges
 
 ![course_settings_assessment_v1_de.png](assets/course_settings_assessment_v1_de.png){ class="shadow lightbox" }
 
+For learning path courses, a course pass can be based on 
+* 100% learning progress, 
+* passing all course elements  
+* passing a certain number of course elements  
+* a certain number of reached points 
+
+or a combination of these aspects. 
+
+When selecting "Number of course elements passed" and "Score reached", the specific course elements that are taken into account can be displayed. For a better overview, show the column "Include in course assessment". 
+
+The configuration of whether a course element is included in the overall assessment is done in the course editor directly with the respective course element. 
+
+!!! info 
+
+    For conventional courses, only the settings for evidence of achievement, certificates and badges are available in the evaluation table.  The configuration for passing the course is done in the course editor on the top course element in the "Score" tab. There is no progression for conventional courses.
 
 ## Tab Options {: #options}
 
