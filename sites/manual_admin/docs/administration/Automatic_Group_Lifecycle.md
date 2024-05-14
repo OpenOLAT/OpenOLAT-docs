@@ -2,7 +2,7 @@
 
 The group life cycle makes it easy to **automatically** deactivate and then delete unused groups after a certain period of time.
 
-![automatic_grouplifecycle_v1_de.png](assets/automatic_grouplifecycle_v1_de.png){ class="lightbox" }
+![automatic_grouplifecycle_v1_en.png](assets/automatic_grouplifecycle_v1_en.png){ class="lightbox" }
 
 
 !!! note "Note"
@@ -103,7 +103,7 @@ Group administrators have the option of explicitly excluding their group from th
 As soon as an automatic notification has been triggered by the set conditions, OpenOlat checks to whom the notification is sent as an e-mail.
 
 
-![automatic_group_lifecycle_mailcascade_v1_de.png](assets/automatic_group_lifecycle_mailcascade_v1_de.png){ class="lightbox" }
+![automatic_group_lifecycle_mailcascade_v1_en.png](assets/automatic_group_lifecycle_mailcascade_v1_en.png){ class="lightbox" }
 
 
 
