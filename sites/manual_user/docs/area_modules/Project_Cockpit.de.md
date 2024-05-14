@@ -28,6 +28,32 @@ In einem Projekt kann man verschiedene Objekte anlegen/hochladen:
 * Meilensteine
 * Whiteboard-Dateien (draw.io)
 
-Diese Objekte lassen sich miteinander verknüpfen, um so zusammengehörige Themen besser zu finden. Dabei öffnet man ein Objekt im Bearbeitungsmodus (ausser To-dos und Files, diese lassen sich direkt bearbeiten) und klickt unter Links entweder auf "Objekt verlinken", um ein bestehendes Objekt zu verlinken oder auf "Link hinzufügen" um ein Objekt mit Verknüpfung direkt zu erstellen.
 
-![Bild einer Verlinkung im Projekt](assets/project-link.de.jpg)
+## Objekte verknüpfen
+
+Die Objekte eines Projektes lassen sich miteinander verknüpfen, um zusammengehörige Themen besser zu finden. Dazu öffnet man ein Objekt zum Bearbeiten und klickt unter **Links** entweder auf
+
+* den Button **"Objekt verlinken"**, um ein bestehendes Objekt zu verlinken oder auf 
+* den Button **"Link hinzufügen"**, um ein Objekt mit Verknüpfung direkt zu erstellen.
+
+![project_links_v1_de.png](assets/project_links_v1_de.png){ class="shadow lightbox" }
+
+
+
+## Benachrichtigungen
+
+In einem Projekt arbeiten mehrere Personen zusammen, deshalb ist es wichtig, über Fortschritte und Änderungen informiert zu werden. Verwenden Sie dazu die [Abonnement-Funktion](../personal_menu/Personal_Tools.de.md#subscriptions) (am rechten Rand, unter den Bildern der Projektmitglieder).
+
+![project_abo_v1_de.png](assets/project_abo_v1_de.png){ class="shadow lightbox" }
+
+!!! Note "Hinweis"
+
+    Standardmässig ist die Abonnement-Funktion in neuen Projekten aktiviert. Sie kann mit dem Toggle-Button ausgeschaltet werden.
+
+
+Die [Abonnement-Funktion](../personal_menu/Personal_Tools.de.md#subscriptions) steht auch in vielen anderen OpenOlat-Kursbausteinen zur Verfügung. In Projekten hat sie die folgende Besonderheit:
+
+* Es werden **Sammel-Mails** erzeugt, um zu vermeiden, dass wegen jeder kleinen Änderung im Projekt eine Mail verschickt wird.
+* **Ausnahme**: Änderungen bei To-dos
+
+

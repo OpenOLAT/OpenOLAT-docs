@@ -37,6 +37,7 @@ nav:
   - Personal menu:
     - personal_menu/index.md
     - Personal tools:
+      - Overview: "personal_menu/Personal_Tools.md"
       - Calendar: "personal_menu/Calendar.md"
       - Personal folders: "personal_menu/Personal_folders.md"
       - Competences : "personal_menu/Competences.md"
@@ -98,7 +99,7 @@ nav:
       - Files: "area_modules/Project_Files.md"
       - Video/Audio: "area_modules/Project_VideoAudio.md"
       - Administration: "area_modules/Project_Admin.md"
-      - Project Report: "area_modules/Project_Report.md"
+      - Project report: "area_modules/Project_Report.md"
     - Portfolio:
       - Overview: "area_modules/Portfolio.md"
       - Portfolio - General Information: "area_modules/Portfolio_General_Information.md"
