@@ -75,6 +75,8 @@ Projects can only be deleted by
 
 Administrators and project managers have another tab "Administration" under the menu item "Projects".
 
+![projekte_admin_admin_v1_de.png](assets/projekte_admin_admin_v1_de.png){ class="shadow lightbox" }
+
 The following (filter) functions are available there for your administrative tasks:
 
 * **No activity recently**<br>
@@ -91,4 +93,4 @@ Completed projects can still be reactivated.
 Deleted projects can still be viewed, but no longer edited.
 
 
-![projekte_admin_admin_v1_de.png](assets/projekte_admin_admin_v1_de.png){ class="shadow lightbox" }
+
