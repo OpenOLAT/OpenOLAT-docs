@@ -103,7 +103,7 @@ Group administrators have the option of explicitly excluding their group from th
 As soon as an automatic notification has been triggered by the set conditions, OpenOlat checks to whom the notification is sent as an e-mail.
 
 
-![automatic_group_lifecycle_mailcascade_v1_en.png](assets/automatic_group_lifecycle_mailcascade_v1_en.png){ class="lightbox" }
+![automatic_group_lifecycle_mailcascade_v2_en.png](assets/automatic_group_lifecycle_mailcascade_v2_en.png){ class="lightbox" }
 
 
 

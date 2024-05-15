@@ -103,7 +103,7 @@ Gruppenbetreuer:innen haben die Möglichkeit, ihre Gruppe aus den automatischen 
 Sobald durch die eingestellten Bedingungen eine automatische Benachrichtigung ausgelöst wurde, prüft OpenOlat, an wen die Benachrichtigung als Mail verschickt wird.
 
 
-![automatic_group_lifecycle_mailcascade_v1_de.png](assets/automatic_group_lifecycle_mailcascade_v1_de.png){ class="lightbox" }
+![automatic_group_lifecycle_mailcascade_v2_de.png](assets/automatic_group_lifecycle_mailcascade_v2_de.png){ class="lightbox" }
 
 
 
