@@ -2,7 +2,10 @@
 
 ??? abstract "Ziel und Inhalt dieser Anleitung"
 
-    tbd
+    Sie sollten mit dieser Anleitung
+
+    * wissen, was man in OpenOlat unter Lebenszyklen versteht, 
+    * in der Lage sein, ein Lebenszyklenmanagement einzurichten.
 
 ??? abstract "Zielgruppe"
 
@@ -104,4 +107,20 @@ Grundlage sind auch hier die Voreinstellungen des Administrators:
 
 ## Checkliste
 
-- [x] tbd
+**Gruppen-Lifecycle**
+
+- [x] durch Administrator:in : generelle Aktivierung/Konfiguration unter **Administration > Lebenszyklen > Gruppen** 
+- [x] durch Gruppenverwalter:in : Einrichtung im **Menü "Gruppen" > Tab "Gruppenverwaltung"**
+- [x] Benachrichtigung der betroffenen Benutzer konfigurieren
+
+**Kurs-Lifecycle**
+
+- [x] durch Administrator:in : generelle Aktivierung/Konfiguration unter **Administration > Lebenszyklen > Kurse** 
+- [x] durch alle Personen, die Zugriff auf den Autorenbereich haben: im **Autorenbereich > Tab "Gelöschte"** Kurse markieren und löschen
+- [x] Benachrichtigung der betroffenen Benutzer konfigurieren
+
+**Benutzerkonten-Lifecycle**
+
+- [x] durch Administrator:in : Generelle Aktivierung/Konfiguration unter **Administration > Lebenszyklen > Konto** 
+- [x] durch alle Personen, die Zugriff auf die Benutzerverwaltung haben: je nach Konfiguration von OpenOlat erkannte inaktive Benutzer manuell deaktivieren/löschen (**Benutzerverwaltung > Benutzer wählen > Tab Konto**)
+- [x] Benachrichtigung der betroffenen Benutzer konfigurieren

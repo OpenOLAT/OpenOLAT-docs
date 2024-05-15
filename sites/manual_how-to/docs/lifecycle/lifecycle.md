@@ -2,7 +2,10 @@
 
 ??? abstract "Objectives and content of this instruction"
 
-    tbd
+    With these instructions you should
+
+    * know what is meant by lifecycles in OpenOlat, 
+    * be able to set up life cycle management.
 
 ??? abstract "Target group"
 
@@ -84,7 +87,7 @@ The basis is the administrator's default settings:
 
 <br>
 
-## User account lifecycle<br>
+## User account lifecycle
 
 The user account lifecycle can be used by anyone who has access to the user administration.
 
@@ -103,4 +106,20 @@ The basis for this is also the default settings of the administrator:
 
 ## Checklist
 
-- [x] tbd
+**Group lifecycle**
+
+- [x] By administrators: general activation/configuration at **Administration > Lifecycle > Groups** 
+- [x] By group managers: settings at **menue "Groups" > tab "Group management"**
+- [x] Configure notification of affected users
+
+**Course lifecycle**
+
+- [x] By administrators: general activation/configuration at **Administration > Lifecycle > Courses** 
+- [x] By anyone who has access to the authoring area: mark courses in **Authoring > tab "Deleted"** and delete them
+- [x] Configure notification of affected users
+
+**User account lifecycle**
+
+- [x] By administrators: general activation/configuration at **Administration > Lifecycle > Account** 
+- [x] By anyone who has access to the **User management**: depending on the configuration of OpenOlat, manually deactivate/delete recognized inactive users (**User management > select user > tab Account**)
+- [x] Configure notification of affected users
