@@ -7,7 +7,6 @@ After your login you will navigate either to
 * the OpenOlat portal or
 * a start page defined individually by you. Each OpenOlat page can be marked as an individual starting page.
 
-This chapter will inform you on how to change the settings in your [personal menu](../personal_menu/Configuration.md), on how to use further features like the [full text search](Full_Text_Search.md) and the [chat](Chat.md) and on how to adapt the [portal](Portal_configuration.md) to your personal needs.
 
 !!! info
 

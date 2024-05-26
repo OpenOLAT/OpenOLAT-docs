@@ -31,5 +31,3 @@ After successful registration you will be directed to the systemwide landing
 page, which can differ between systems and also between OpenOlat authors and
 users. 
 
-Further information on how to set your personal landing can be found in
-[Settings](../personal_menu/Configuration.md#general).

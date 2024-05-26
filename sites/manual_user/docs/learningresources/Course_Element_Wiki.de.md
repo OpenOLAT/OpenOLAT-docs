@@ -11,49 +11,48 @@ Verwendungszweck | Gemeinsames Erstellen von Inhalten
 Bewertbar | nein
 Spezialität / Hinweis |
 
-Verwenden Sie ein Wiki, um auf einfache Weise mit Kursteilnehmenden gemeinsam Inhalte zu erstellen. Ein Wiki kann für Gruppenarbeiten, als Dokumentationswerkzeug oder als Wissensbasis für Ihre Studien- oder Projektarbeit verwendet werden.
+Verwenden Sie ein Wiki, um auf einfache Weise mit Kursteilnehmenden gemeinsam Inhalte zu erstellen. Ein Wiki kann für Gruppenarbeiten, als Dokumentationswerkzeug und generell für die kooperative Erstellung von Texten verwendet werden. Die einzelnen Seiten werden dabei in Form eines Hypertextes mit verlinkten Seiten umgesetzt.
 
-Mit dem Kursbaustein "Wiki" binden Sie eine Lernressource Wiki in Ihren Kurs ein. Klicken Sie im Tab "**Wiki-Lerninhalt**" auf "Wiki wählen, erstellen oder importieren", ordnen ein bereits erstelltes Wiki zu oder erstellen ein neues. Wenn Sie noch kein Wiki ausgewählt haben, erscheint beim Titel **Gewähltes Wiki** die Meldung _Kein Wiki ausgewählt_.
+## Im Kurseditor
 
-Wenn Sie schon ein Wiki hinzugefügt haben, erscheint dessen Name. Um die Zuordnung eines Wikis nachträglich zu ändern, klicken Sie im Tab "Wiki-Lerninhalt" auf "Wiki auswechseln" und wählen anschliessend ein anderes Wiki.
+Mit dem Kursbaustein "Wiki" binden Sie eine Lernressource Wiki in Ihren Kurs ein. 
 
-Im Tab "Wiki-Lerninhalt" konfigurieren Sie die Benutzerberechtigungen des Wikis. Hier können Sie einstellen, dass neben den Besitzern auch Betreuer und Teilnehmer Wiki-Artikel bearbeiten dürfen. Standardmässig haben alle Kursteilnehmer Lese- und Schreibrechte in einem Wiki. Nur derjenige OpenOlat-Benutzer, der die Seite erstellt hat oder OpenOlat-Benutzer, welche beim Wiki als Besitzer eingetragen sind, dürfen Wiki-Seiten löschen.
+Klicken Sie im Tab "**Wiki-Lerninhalt**" auf "Wiki wählen, erstellen oder importieren", ordnen ein bereits erstelltes Wiki zu oder erstellen ein neues. 
+
+Wenn Sie schon eine Wiki Lernressource hinzugefügt haben, erscheint dessen Name. Um die Zuordnung eines Wikis nachträglich zu ändern, klicken Sie im Tab "Wiki-Lerninhalt" auf "Wiki auswechseln" und wählen anschliessend ein anderes Wiki oder erstellen Sie ein neues.
+
+Im Tab "Wiki-Lerninhalt" können Sie auch die Berechtigungen für die Bearbeitung des Wikis definieren. So kann eingestellt werden, dass neben den Besitzern auch Betreuer und Teilnehmende Wiki-Artikel bearbeiten dürfen. Standardmässig haben alle Kursteilnehmer Lese- und Schreibrechte in einem Wiki. Einzelne Wiki-Seiten können nur von Besitzern der Lernressource gelöscht werden.
+
 
 !!! warning "Achtung"
 
     Wenn Sie in Ihrer OpenOlat Instanz keinen Kursbaustein "Wiki" finden können, so wurde dies systemweit von einem Administrator ausgeschaltet.
 
-## Arbeiten mit Wiki
+## Arbeiten mit Wiki (geschlossener Kurseditor)
 
-![Wiki Editor](assets/wiki.png){ class="shadow lightbox" }
-
-Wikis können für die kooperative Erstellung von Texten verwendet werden. Die einzelnen Seiten werden dabei in Form eines Hypertextes mit verlinkten Seiten umgesetzt.
+![Wiki Editor](assets/Wiki_Beispiel.jpg){ class="shadow lightbox" }
 
 Wird ein Wiki in einem OpenOlat Kurs verwendet erscheint automatisch in der linken Kursnavigation das Wiki-Menü sowie weitere Wiki Links. Über den Link "Von A-Z" rufen Sie das Inhaltsverzeichnis mit der Anzeige aller Wiki-Seite auf. So sehen Sie auf einen Blick, welche Seiten bereits erstellt wurden.
 
 Im Hauptbereich sehen Sie die jeweiligen Wiki Beiträge (Artikel), können die Wiki Seiten bearbeiten (Seite bearbeiten), zu den einzelnen Wiki Seiten Diskussionen führen und sich die Bearbeitungshistorie (Versionen/Autoren) ansehen. Sie können auch ein Wiki als Content Package (CP) exportieren und sich über Änderungen informieren lassen.  
 
-![Wiki Benutzer-Sicht](assets/Wiki_user.png){ class="shadow lightbox" }
+### Neue Wiki-Seiten erstellen
 
-## Neue Wiki-Seiten erstellen
+Eine neue Wiki-Seite kann einfach über den Button "Erstellen" angelegt und anschliessend mit Inhalten befüllt werden. Zu beachten dabei ist jedoch, dass die so erstellte Seite zunächst noch keine Verbindung zu der gesamten Wiki-Struktur besitzt. Um eine Verbindung herzustellen, sollten entsprechende Verlinkungen im "Wiki-Menu" und/oder auf der "Index" Seite des Wikis angelegt werden.
 
-Eine neue Wiki-Seite kann einfach über den Button "Erstellen" angelegt und anschließend mit Inhalten befüllt werden. Zu beachten dabei ist jedoch, dass die so erstellte Seite zunächst noch keine Verbindung zu der gesamten Wiki-Struktur besitzt. Um eine Verbindung herzustellen, sollten entsprechende Verlinkungen im "Wiki-Menu" und/oder auf der "Index" Seite des Wikis angelegt werden.
-
-Ein anderer Weg eine neue Wiki Seite zu erstellen ist, auf der Seite auf der die Verlinkung zur neuen Wiki Seite erscheinen soll, eine passende interne Verlinkung zu erstellen. Dafür können Sie entweder den entsprechenden Button des Wiki Editors verwenden oder die passende Syntax direkt eintragen.
-
-Die Wiki-Syntax für neue interne Verlinkungen sind zwei öffnende eckige Klammern + Seitennamen + zwei schliessende eckige Klammern. Also zum Beispiel: `[[Linkname]]`.
+Ein anderer Weg eine neue Wiki Seite zu erstellen ist, auf der Seite auf der die Verlinkung zur neuen Wiki Seite erscheinen soll, eine passende interne Verlinkung zu erstellen. Dafür können Sie entweder den entsprechenden Button des Wiki Editors verwenden oder die passende Syntax direkt eintragen. Die Wiki-Syntax für neue interne Verlinkungen sind zwei öffnende eckige Klammern + Seitennamen + zwei schliessende eckige Klammern. Also zum Beispiel: `[[Linkname]]`.
 
 Die entsprechende Seite wird beim ersten Aufruf des Links dann automatisch angelegt.
 
 ![Wiki internen Link anlegen](assets/interner_Link.png){ class="shadow lightbox" }
 
-## Inhalte einer Wiki-Seite ändern
+### Inhalte einer Wiki-Seite ändern
 
 Um Inhalte einer Wiki-Seite zu bearbeiten wählen Sie den Tab "Seite bearbeiten" der gewünschten Wiki Seite. Es erscheint der Wiki-Editor mit diversen Formatierungsmöglichkeiten. Hier können Sie auch Bilder, Medienlinks, mathematische Formeln, interne und externe Links in Ihr Wiki einbinden. Neben den Buttons im Editor existieren weitere Formatierungsmöglichkeiten, die Sie direkt im Text als Syntaxelemente einfügen können.
 
 Im nachfolgenden wird die Wiki-Syntax genauer erklärt.
 
-## Wiki Syntax #wiki-syntax
+## Wiki Syntax
 
 Ihre Eingaben können Sie mit der folgenden Wiki-Syntax formatieren.
 
@@ -77,10 +76,10 @@ Syntax | Ergebnis (Formatierung)
 ---|---  
 [[Interner link]] | Interner link
 [[Link `|` Text]] | [Text](Course_Element_Wiki.de.md)
-[http://www.openolat.org](http://www.openolat.org/) | [http://www.openolat.org](http://www.openolat.org/)
+Externer Link [[http://www.openolat.org](http://www.openolat.org/) | [http://www.openolat.org](http://www.openolat.org/)
 [[http://www.openolat.org](http://www.openolat.org/) Die Website von OpenOlat] | [Die Website von OpenOlat](http://www.openolat.org/)
 
-Externe Adressen werden automatisch in einen Link umgewandelt, wenn Sie die volle Adresse angeben: [http://www.openolat.org](http://www.openolat.org/). Möchten Sie statt des Links einen anderen Begriff angeben, setzen Sie die URL und den Begriff gemeinsam in eckige Klammern, getrennt durch ein Leerzeichen.
+Externe Adressen werden automatisch in einen Link umgewandelt, wenn Sie die volle Adresse angeben: [https://www.openolat.org](http://www.openolat.org/). Möchten Sie statt des Links einen anderen Begriff angeben, setzen Sie die URL und den Begriff gemeinsam in eckige Klammern, getrennt durch ein Leerzeichen.
 
 ### Tabellen
 
@@ -255,7 +254,11 @@ Die Syntax der in OpenOlat verwendeten mathematischen Notation finden Sie unter:
 === "Ergebnis"
 
     Hier den unformatierten Text eingeben  
-  
+
+!!! info "Hinweis"
+
+    Weitere Informationen zur Wiki-Syntax des Media-Wikis finden Sie hier: https://www.mediawiki.org/wiki/Help:Formatting.
+
 ## Anhänge, Links auf Dateien, Export
 
 Um eine Datei anzuhängen, laden Sie diese zuerst über "Datei hochladen" hoch. Navigieren Sie an die Stelle auf der Wiki-Seite, an der die Datei erscheinen soll. Anschliessend wählen Sie die Datei über "Datei einfügen" aus und bestätigen mit "Speichern". Links zu anderen Wiki-Seiten werden über die Schaltfläche "Link einfügen" erstellt. Weitere Formatierungsmöglichkeiten finden Sie eine Zeile darüber.

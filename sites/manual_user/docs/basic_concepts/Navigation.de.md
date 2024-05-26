@@ -7,7 +7,6 @@ Nach dem Login gelangen Sie entweder auf
 * das OpenOlat Portal oder
 * eine von Ihnen individuell festgelegte Startseite. Jede OpenOlat-Seite kann als individuelle Startseite markiert werden.
 
-In diesem Kapitel erfahren Sie, welche Einstellungen Sie im [persönlichen Menu](../personal_menu/Configuration.de.md) vornehmen können, wie sie weitere Funktionen wie [Volltextsuche](Full_Text_Search.de.md) und [Chat](Chat.de.md) nutzen und wie Sie das [Portal](Portal_configuration.de.md) individuell anpassen können.
 
 !!! info "Info"
 

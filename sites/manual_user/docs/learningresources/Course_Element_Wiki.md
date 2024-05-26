@@ -11,49 +11,45 @@ Purpose | Collaborative content creation
 Assessable | no
 Specialty / Note |
 
-Use a Wiki to easily create learning content together with your course participants. A Wiki is suitable for doing group work; it can serve as documentation tool or as some sort of knowledge base for your studies and projects.
+Use a Wiki to easily create learning content together with your course participants. A wiki can be used for group work, as a documentation tool and generally for the cooperative creation of texts. The individual pages are implemented in the form of hypertext with linked pages.
 
-The course element "Wiki" helps you to embed a Wiki in your course. Just click on "Select, create or import Wiki" in the tab "**Wiki learning content**" to assign a Wiki already existing or to create a new one. If you have not already selected a Wiki yet the title **Selected Wiki** will show the message _No Wiki selected_.
+## in the course editor
+
+With the "Wiki" course element, you integrate a wiki learning resource into your course. Just click on "Select, create or import Wiki" in the tab "**Wiki learning content**" to assign a Wiki already existing or to create a new one. 
 
 If you have already added a Wiki its name will appear in the field. In order to change the assignment of a Wiki click on "Replace Wiki" in the tab "Wiki learning content" before selecting another Wiki.
 
-In the tab "Wiki learning content" you configure the user permissions of the Wiki. Here you can set that not only owners but also maintainers and participants may edit Wiki articles. By default all course participants have read and write permission in a Wiki. Only that OpenOlat user who has created the page or OpenOlat users who are registered as owners in a wiki will be allowed to delete wiki pages.
+In the "Wiki learning content" tab, you can also define who is allowed to edit the wiki. Here you can set that not only owners but also maintainers and participants may edit Wiki articles. By default all course participants have read and write permission in a Wiki. Only that OpenOlat user who has created the page or OpenOlat users who are registered as owners in a wiki will be allowed to delete wiki pages.
 
 !!! warning "Attention"
 
     If you can't find the "Wiki" course element in the course editor, it was disabled by a system administrator.
 
-## Working with Wiki
+## Working with Wiki (closed course editor)
 
-![Wiki Editor](assets/wiki.png){ class="shadow lightbox" }
-
-Wikis can be used for the cooperative creation of texts. The individual pages are thereby implemented in the form of a hypertext with linked pages.
+![Wiki Editor](assets/Wiki_Beispiel.jpg){ class="shadow lightbox" } 
 
 If a wiki is used in an OpenOlat course, the wiki menu and other wiki links automatically appear in the left course navigation. Use the "From A-Z" link to call up the table of contents with the display of all wiki pages. This way you can see at a glance which pages have already been created.
 
 In the main area, you can see the respective wiki contributions (articles), edit the wiki pages (Edit page), hold discussions on the individual wiki pages and view the editing history (versions/authors). You can also export a wiki as a content package (CP) and be informed about changes.
 
-![Wiki User view](assets/Wiki_user.png){ class="shadow lightbox" }
-
-## Creating new Wiki pages
+### Creating new Wiki pages
 
 A new wiki page can be easily created using the "Create" button and then filled with content. It should be noted, however, that the page created in this way does not yet have a connection to the overall wiki structure. In order to establish a connection, appropriate links should be created in the "Wiki menu" and/or on the "Index" page of the Wiki.
 
-Another way to create a new wiki page is to create a matching internal link on the page where the link to the new wiki page should appear. For this purpose, you can either use the corresponding button of the Wiki Editor or enter the appropriate syntax directly.
-
-The wiki syntax for new internal links is two opening square brackets + page name+ two closing square brackets. So for example: `[[link name]]`.
+Another way to create a new wiki page is to create a matching internal link on the page where the link to the new wiki page should appear. For this purpose, you can either use the corresponding button of the Wiki Editor or enter the appropriate syntax directly. The wiki syntax for new internal links is two opening square brackets + page name+ two closing square brackets. So for example: `[[link name]]`.
 
 The corresponding page will then be created automatically the first time the link is called.
 
 ![Create internal wiki link](assets/interner_Link.png){ class="shadow lightbox" }
 
-## Change contents of a wiki page
+### Change contents of a wiki page
 
 To edit the content of a wiki page, select the "Edit page" tab of the desired wiki page. The Wiki Editor appears with various formatting options. Here you can also include images, media links, mathematical formulas, internal and external links in your wiki. In addition to the buttons in the editor, there are other formatting options that you can insert directly in the text as syntax elements.
 
 The wiki syntax is explained in more detail below.
 
-## Wiki Syntax #wiki-syntax
+## Wiki Syntax 
 
 You can format your input using the following wiki syntax.
 
@@ -255,6 +251,10 @@ The syntax of the mathematical notation used in OpenOlat can be found at: [http:
 === "Result"
 
     Insert the unformatted text here
+
+!!! info
+
+    Further information on the wiki syntax of the Media Wiki can be found here: https://www.mediawiki.org/wiki/Help:Formatting.
 
 ## Attachments, links to files, export
 

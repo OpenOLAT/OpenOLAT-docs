@@ -323,7 +323,7 @@ plugins:
           Lectures : Lektionen
           Lectures and absences : Lektionen und Absenzen
           Lectures - User View  : Lektionen - Sicht Benutzer
-          Lectures - Teacher View: Lektionen - Sicht Dozent
+          Lectures - Teacher View : Lektionen - Sicht Dozent
           Lecture management : Lektionen- und Absenzenmanagement
           Lernpfad Kurs  : Lernpfad Kurs
           Lernpfad Kurse  : Lernpfad Kurse
@@ -430,7 +430,7 @@ plugins:
           Search : Suchfunktion
           Security : Sicherheit
           Security levels : Sicherheitsstufen
-          Self-test : Self-test
+          Self-test : Selbsttest
           Session Timeout and Logout : Session-Timeout und Logout
           Set up info page : Infoseite einrichten
           Settings : Einstellungen

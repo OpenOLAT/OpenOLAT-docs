@@ -30,6 +30,3 @@ Nach erfolgreicher Registrierung wird die vom Systemadministrator festgelegte
 Startseite angezeigt. Diese kann je nach System unterschiedlich sein und auch
 nochmals für OpenOlat-Autor:innen und Benutzer:innen variieren.
 
-[Hier](../personal_menu/Configuration.de.md#general) finden Sie
-Informationen dazu wie Sie ihre persönliche Startseite festlegen können.
-
