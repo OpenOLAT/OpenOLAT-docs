@@ -12,9 +12,9 @@ There are two types of labels:
 
 ![label normal](assets/label_n.png){ class="shadow lightbox" }
 
-| Element                |  Font    | Size |
-|------------------------|----------|------|
-| Text                   |  Reguar  | 14px |
+| Element                |  Font-weight | Size          |
+|------------------------|--------------|---------------|
+| Text                   |  Normal      | Standard 14px |
 
 ### Light: Characteristic
 
@@ -22,9 +22,9 @@ There are two types of labels:
 
 ![label light](assets/label_l.png){ class="shadow lightbox" }
 
-| Element                |  Font    | Size |
-|------------------------|----------|------|
-| Text                   |  Reguar  | 85%  |
+| Element                |  Font-weight | Size |
+|------------------------|--------------|------|
+| Text                   |  Normal      | 85%  |
 
 ### General Guidelines
 
