@@ -1,7 +1,8 @@
-# Persönliche Ordner
+# Persönliche Werkzeuge: Persönliche Ordner
 
+![pers_menu_pers_folder_v1_de.png](assets/pers_menu_pers_folder_v1_de.png){ class="aside-right lightbox"}
 
-![Icon](assets/folder.png)
+![icon_folder.png](assets/icon_folder.png)
 
 ## Ordner im persönlichen Menu
 
@@ -24,7 +25,7 @@ des Users sichtbar. In den persönlichen Werkzeugen kann unter "Andere
 Benutzer" nach dem Benutzer gesucht werden, der ein Dokument dort hochgeladen
 hat. Dies vereinfacht den Datenaustausch zwischen OpenOlat Nutzern.
 
-![Persönlicher Ordner Link](assets/pers_ordner_DE.png)
+
 
 ## Allgemeines zum Ordner
 

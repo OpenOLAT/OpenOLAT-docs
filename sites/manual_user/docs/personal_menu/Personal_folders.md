@@ -1,6 +1,8 @@
-# Personal folders
+# Personal tools: Personal folders
 
-![Icon](assets/folder.png)
+![pers_menu_pers_folder_v1_de.png](assets/pers_menu_pers_folder_v1_de.png){ class="aside-right lightbox"}
+
+![icon_folder.png](assets/icon_folder.png)
 
 ## Folder in the personal menu
 
@@ -24,7 +26,7 @@ folder. The public folder is visible in the user's visiting card. In the
 personal tools in Other users you can search for the user who uploaded a file
 for you. This simplifies the data exchange between OpenOlat users.
 
-![](assets/pers_folder_EN.png)
+
 
 ## General Information about folders
 

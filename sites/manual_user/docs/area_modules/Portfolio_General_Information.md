@@ -45,7 +45,23 @@ Of course, there are also disadvantages of a portfolio:
   * A reflexion on its own is for sure a good thing but can be used to the extreme in a portfolio. This danger of "over reflexion" needs to be prevented. 
   * The use of ePortfolios only makes sense if they are used over a longer period of time, e.g. one semester, one year or during the entire study program.
 
-You can find further information on the topic here (in German):
+
+### What is a reflection?
+
+A reflection is an examination of a past event or current process that is as emotion-free as possible.
+Reflection means to regard what happened as distanced as possible. For example, what happened with a work assignment, with yourself or with a group, in what way, through what interventions
+or similar things. 
+When learning with portfolios, written reflection plays an important role in learning with portfolios.
+Each learner considers the own personal learning progress, the extent of the own interest, the own concern, the own involvement and where and how can be applied what has been learned .
+Good reflection is an important fundamental step for learners towards
+learners towards working independently.
+
+Reflections can also be edited afterwards. If you have linked an artifact
+in a folder, you can edit the associated reflection in the table overview in the
+“Reflection” column in the table overview.
+
+
+## Further information on the topic portfolio (in German):
 
 [E-Portfolio](https://www.e-teaching.org/lehrszenarien/pruefung/pruefungsform/eportfolio/)
 

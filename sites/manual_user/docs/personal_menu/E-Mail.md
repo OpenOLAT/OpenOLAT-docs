@@ -1,6 +1,8 @@
-# E-Mail
+# Personal tools: E-Mail
 
-![mail icon](assets/contact.png)
+![pers_menu_email_v1_de.png](assets/pers_menu_email_v1_de.png){ class="aside-right lightbox"}
+
+![icon_e-mail](assets/icon_e-mail.png)
 
 OpenOlat has an internal e-mail module that enables you to send mails from
 various points. If the mailbox is activated, e-mails can also be sent internally. If not, all e-mails created in OpenOlat will be sent exclusively to the respective personal e-mail address.

@@ -14,32 +14,38 @@ You can find the following sections in the personal menu:
 * **System**
 * as well as the **Logout** function
 
-![pers_menu2_v1_de.png](assets/pers_menu2_v1_de.png){ class="shadow aside-right lightbox"}
+![pers_menu2_v2_de.png](assets/pers_menu2_v2_de.png){ class="shadow aside-right lightbox"}
 
 !!! note "Quick Links"
 
     **Personal tools**
 
     * [Calender](../personal_menu/Calendar.md)
-    * Subscriptions
+    * [Subscriptions](../personal_menu/Subscriptions.md)
     * [Personal folder](../personal_menu/Personal_folders.md)
-    * Notes
-    * Evidence of achievement
+    * [Notes](../personal_menu/Notes.md)
+    * [Evidence of achievements](../personal_menu/Evidence_of_Achievements.md)
     * Competences
     * [Badges](../personal_menu/OpenBadges.md)
     * Bookings
-    * [Other users](../basic_concepts/Full_Text_Search.md)
+    * Other users
     * Absences
-    * Portfolio 2.0
+    * [Portfolio 2.0](../personal_menu/Portfolio.md)
     * [Media Center](../personal_menu/Media_Center.md)
-    * To-Dos
+    * [To-Dos](../personal_menu/To-Dos.md)
     * [E-Mail](../personal_menu/E-Mail.md)
 
     **Configuration**
 
-    * Profile
-    * System settings
-    * Password
+    * [Profile](../personal_menu/Profile.md)
+    * [System settings](../personal_menu/Settings.md)
+    * [Password](../personal_menu/Password.md)
+
+
+## Available tools
+
+Administrators can make a preselection and define the available tools (activate or deactivate).
+Depending on the configuration, the available selection may therefore contain more or fewer tools.
 
 ## Move tools to the main navigation
 

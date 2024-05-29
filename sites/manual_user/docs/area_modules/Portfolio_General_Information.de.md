@@ -44,7 +44,26 @@ Natürlich gibt es auch bei Portfolios Nachteile:
   * Eine Reflexion, welche von sich aus bestimmt eine gute Sache ist, kann mit dem Portfolio bis ins Extreme geführt werden. Dieser Gefahr des "Über-Reflektierens" muss vorgebeugt werden.
   * Der Einsatz von ePortfolios ist nur sinnvoll, wenn sie über einen längeren Zeitraum verwendet werden, z.B. ein Semester, ein Jahr oder während des gesamten Studiums.
 
-Weitere Informationen zum Thema finden Sie hier:
+
+### Was ist eine Reflexion?
+
+Eine Reflexion ist eine möglichst emotionsfreie Auseinandersetzung mit einem
+zurückliegenden Geschehen oder gerade laufenden Prozess. Reflexion heisst,
+möglichst distanziert zu betrachten, was z.B. mit einem Arbeitsauftrag, mit
+einem selbst oder mit einer Gruppe auf welche Weise, durch welche Eingriffe
+oder ähnlichem geschehen ist. Beim Lernen mit Portfolios nimmt die
+schriftliche Reflexion einen wichtigen Stellenwert ein. Jeder Lernende
+überlegt für sich selbst den persönlichen Lernzuwachs, das Ausmass des eigenen
+Interesses, der eigenen Betroffenheit und wo und wie das Erlernte angewandt
+werden kann. Gutes Reflektieren ist ein wichtiger grundsätzlicher Schritt von
+Lernenden in Richtung eigenverantwortliches Arbeiten.
+
+Reflexionen können auch nachträglich bearbeitet werden. Wenn Sie ein Artefakt
+in einer Mappe verlinkt haben, können Sie in der Tabellenübersicht in der
+Spalte "Reflexion" die zugehörige Reflexion bearbeiten.
+
+
+## Weitere Informationen zum Thema Portfolio
 
 [E-Portfolio](https://www.e-teaching.org/lehrszenarien/pruefung/pruefungsform/eportfolio/)
 

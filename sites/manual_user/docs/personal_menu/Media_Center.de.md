@@ -1,4 +1,8 @@
-# Das Medien Center
+# Persönliche Werkzeuge: Das Medien Center
+
+![pers_menu_mediacenter_v1_de.png](assets/pers_menu_mediacenter_v1_de.png){ class="aside-right lightbox"}
+
+![icon_media_center.png](assets/icon_media_center.png)
 
 Das Medien Center ist eine **zentrale Sammelstelle** für unterschiedlicher Medientypen. Medien können...
 

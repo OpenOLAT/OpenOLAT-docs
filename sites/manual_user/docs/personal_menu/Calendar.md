@@ -1,18 +1,26 @@
-# Calendar
+# Personal tools: Calendar
 
-![Calendar symbol](assets/calendar.png) Calendar in OpenOlat
+![pers_menu_calendar_v1_de.png](assets/pers_menu_calendar_v1_de.png){ class="aside-right lightbox"}
+
+![icon_calendar](assets/icon_calendar.png)
 
 You have threefold access to the calendar:
 
 * in your [personal menu](../personal_menu/index.md): aggregates all your OpenOlat calendars.
 * in the [group](../groups/Using_Group_Tools.md): grants you access to the group calendar as well as any imported external calendars.
-* in the course: provides access to course dates as well as group calendars. Calendars can be included in courses both in the course run and in the toolbar.
+* in the [course](../area_modules/Courses.md): provides access to course dates as well as group calendars. Calendars can be included in courses both in the course run and in the toolbar.
 
-Course calendars, like group calendars, are automatically added to your personal calendar; course events will be displayed there for you.
+Your personal calendar automatically contains the dates of the courses and groups you are a member of. The course and group calendars are added to the calendar list of the personal calendar and all appointments are displayed together in the personal calendar. You can edit the calendar list and define yourself which calendars are ultimately merged into your personal calendar.
+
+If you cannot find a calendar in the list of your personal tools, this has been switched off system-wide by an administrator.
+
 
 ## Create / Edit entry
 
-In order to add a new event to your calendar you have to click inside the appropriate calendar field. If you are a group member you have to first select from the pull-down menu to which calendar (personal calendar or group calendar) you want to add your new event. Events can be edited or deleted by clicking on the event an then "Edit". An event can also be moved by drag and drop.
+* In order to add a new event to your calendar you have to click inside the appropriate calendar field. 
+* If you are a group member you have to first select from the pull-down menu to which calendar (personal calendar or group calendar) you want to add your new event. 
+* Events can be edited or deleted by clicking on the event an then "Edit". 
+* An event can also be moved by drag and drop.
 
 For the "Event details" a subject as well as a start and end date are mandatory. Further a description can be added, a recurring option and a kind of visibility can be defined.
 
@@ -36,6 +44,7 @@ Recurring events can be edited as well. After saving the adaption it can be chos
 
 ![Recurring events](assets/recurringevent_EN.png){ class="shadow lightbox" }
 
+
 ### Visibility {: #visibility}
 
 Please determine who may see your calendar's entries.
@@ -54,7 +63,7 @@ In a group calendar group participants will see all entries of group members, no
 
 ### Calendar list
 
-The button "Settings" opens the calendar list, which allows you to (de)activate each single calendar and decide which calendar should be presented in what color.
+The button "Settings" (small button with the gear icon) opens the calendar list, which allows you to (de)activate each single calendar and decide which calendar should be presented in what color.
 
 ![Calendar settings](assets/calendar.gif){ class="shadow lightbox" }
 
@@ -70,7 +79,7 @@ Should your calendar remain empty or should certain events not appear, it could 
 
 ### Calendar integration
 
-Via iCal (a standard to manage dates) you can integrate various OpenOlat calendars into another one, e.g. the Google calendar. Use the iCal link ![RSS symbol](assets/rss.png){ width=24px } provided when clicking on the iCal icon either in the calendar view or in the respective table row in the calendar list. Other calendars like the ones out of PerformX can be integrated into the OpenOlat calendar as managed calendars. Managed appointments are marked with a padlock symbol.
+Via iCal (a standard to manage dates) you can integrate various OpenOlat calendars into another one, e.g. the Google calendar. Use the iCal link ![RSS symbol](assets/icon_rss_small.png){ width=24px } provided when clicking on the iCal icon either in the calendar view or in the respective table row in the calendar list. Other calendars like the ones out of PerformX can be integrated into the OpenOlat calendar as managed calendars. Managed appointments are marked with a padlock symbol.
 
 !!! info "Note"
 

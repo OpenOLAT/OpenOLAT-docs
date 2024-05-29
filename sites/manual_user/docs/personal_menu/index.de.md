@@ -8,40 +8,44 @@ Es öffnet sich am rechten Rand durch Klick auf das kleine Bild rechts oben oder
 
 Im persönlichen Menü finden Sie die folgenden Abschnitte:
 
-* **Persönliche Werkzeuge**
-* **Konfiguration**
-* **Hilfe**
-* **System** 
+* **1 Persönliche Werkzeuge** 
+* **2 Konfiguration**
+* **3 Hilfe**
+* **4 System** 
 * sowie die **Logout**-Funktion
 
-![pers_menu2_v1_de.png](assets/pers_menu2_v1_de.png){ class="shadow aside-right lightbox"}
+![pers_menu2_v2_de.png](assets/pers_menu2_v2_de.png){ class="shadow aside-right lightbox"}
 
 !!! note "Quick Links"
 
     **Persönliche Werkzeuge**
 
     * [Kalender](../personal_menu/Calendar.de.md)
-    * Abonnements
+    * [Abonnements](../personal_menu/Subscriptions.de.md)
     * [Persönlicher Ordner](../personal_menu/Personal_folders.de.md)
-    * Notizen
-    * Leistungsnachweise
+    * [Notizen](../personal_menu/Notes.de.md)
+    * [Leistungsnachweise](../personal_menu/Evidence_of_Achievements.de.md)
     * Kompetenzen
     * [Badges](../personal_menu/OpenBadges.de.md)
     * Buchungen
-    * [Personensuche](../basic_concepts/Full_Text_Search.de.md)
+    * Personensuche
     * Absenzen
-    * Portfolio 2.0
+    * [Portfolio 2.0](../personal_menu/Portfolio.de.md)
     * [Medien Center](../personal_menu/Media_Center.de.md)
-    * To-Dos
+    * [To-Dos](../personal_menu/To-Dos.de.md)
     * [E-Mail](../personal_menu/E-Mail.de.md)
 
     **Konfiguration**
 
-    * Profil
-    * Einstellungen
-    * Passwort
+    * [Profil](../personal_menu/Profile.de.md)
+    * [Einstellungen](../personal_menu/Settings.de.md)
+    * [Passwort](../personal_menu/Password.de.md)
 
 
+## Verfügbare Werkzeuge
+
+Administrator:innen können eine Vorauswahl treffen und die verfügbaren Werkzeuge festlegen (aktivieren bzw. deaktivieren).
+Je nach Konfiguration kann die verfügbare Auswahl also mehr oder weniger Werkzeuge enthalten.
 
 ## Werkzeuge in die Hauptnavigation verschieben
 

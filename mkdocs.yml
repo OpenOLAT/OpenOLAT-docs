@@ -107,6 +107,7 @@ plugins:
         de:
           About this manual: Über dieses Handbuch
           About us: Über uns
+          Absences : Absenzen
           Access configuration : Zugangskonfiguration
           Access Restrictions in the Expert Mode : Zugriffsbeschränkungen im Expertenmodus
           Account : Konto
@@ -151,6 +152,7 @@ plugins:
           BigBlueButton : BigBlueButton
           BigBlueButton module : Modul BigBlueButton
           Blog  : Blog
+          Bookings : Buchungen
           Bulk actions : Sammelaktionen
           Bulk assessment : Massenbewertung
           Calendar : Kalender
@@ -255,6 +257,7 @@ plugins:
           edu-sharing: edu-sharing
           Edubase: Edubase
           Enrolment: Einschreibung
+          Evidence of Achievements: Leistungsnachweise
           Exams : Prüfungen
           External Page : Externe Seite
           External platforms : Externe Platformen
@@ -371,6 +374,7 @@ plugins:
           Opencast : Opencast
           OpenMeetings : OpenMeetings
           Other : Andere
+          Other users : Personensuche
           Orders : Aufträge
           Orders management : Auftragsverwaltung
           Organize a topic assignment : Themenvergabe organisieren
@@ -441,6 +445,7 @@ plugins:
           Start screen : Startscreen
           Structure: Struktur
           Storage folder : Ablageordner
+          Subscriptions : Abonnements
           Suggestion for improvement : Verbesserungsvorschlag
           Supported Technologies : Unterstützende Technologien
           Survey : Umfrage

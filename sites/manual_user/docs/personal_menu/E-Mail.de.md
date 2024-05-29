@@ -1,6 +1,8 @@
-# E-Mail
+# Persönliche Werkzeuge: E-Mail
 
-![Mail Icon](assets/contact.png)
+![pers_menu_email_v1_de.png](assets/pers_menu_email_v1_de.png){ class="aside-right lightbox"}
+
+![icon_e-mail](assets/icon_e-mail.png)
 
 OpenOlat verfügt über ein internes E-Mail System, über das Sie an
 verschiedenen Orten Mails versenden können. Ist das Postfach aktiviert, können

@@ -1,19 +1,26 @@
-# Kalender
+# Persönliche Werkzeuge: Kalender
 
-![Kalendersymbol](assets/calendar.png) Kalender in OpenOlat
+![pers_menu_calendar_v1_de.png](assets/pers_menu_calendar_v1_de.png){ class="aside-right lightbox"}
+
+![icon_calendar](assets/icon_calendar.png)
 
 Die Kalenderfunktion steht Ihnen an verschiedenen Orten zur Verfügung:
 
 * Im [persönlichen Menü](../personal_menu/index.de.md): Übersicht über die Termine aller ihrer Gruppen und Kurse.
 * In der [Gruppe](../groups/Using_Group_Tools.de.md): Zugriff auf den Gruppenkalender sowie eventuell externe importierte Kalender.
-* Im Kurs: Zugriff auf Kurstermine sowie Zugriff auf alle Kalender von eingebundenen Gruppen. Kalender können in Kursen sowohl im Kursrun als auch in der Toolbar eingebunden sein.<br>:octicons-device-camera-video-24: **Video-Einführung**: [Kurskalender](<https://www.youtube.com/embed/tfx6UCYw8t8>){:target="_blank”} 
+* Im [Kurs](../area_modules/Courses.de.md): Zugriff auf Kurstermine sowie Zugriff auf alle Kalender von eingebundenen Gruppen. Kalender können in Kursen sowohl im Kursrun als auch in der Toolbar eingebunden sein.<br>:octicons-device-camera-video-24: **Video-Einführung**: [Kurskalender](<https://www.youtube.com/embed/tfx6UCYw8t8>){:target="_blank”} 
 
-Kurskalender, wie Gruppenkalender, werden automatisch in die Kalenderliste Ihres persönlichen Kalenders aufgenommen und Termine des Kurses werden dort angezeigt.
+Ihr persönlicher Kalenders enthält automatisch die Termine der Kurse und Gruppen, in denen Sie Mitglied sind. Die Kurs- und Gruppenkalender werden der Kalenderliste des persönlichen Kalenders hinzugefügt und so alle Termine zusammen im persönlichen Kalender angezeigt. Die Kalenderliste können Sie editieren und selbst definieren, welche Kalender letzlich in in Ihrem persönlichen Kalöender zusammengeführt werden.
+
+Wenn Sie in der Liste ihrer persönlichen Werkzeuge keinen Kalender finden, wurde dies systemweit von einem Administrator/einer Administratorin ausgeschaltet.
+
 
 ## Termin erstellen / bearbeiten
 
-Um einen neuen Termin hinzuzufügen, klicken Sie in das entsprechende
-Kalenderfeld. Wenn Sie Mitglied in Gruppen sind, treffen Sie erst oben im Kalender Pulldown-Menu die Auswahl, in welchem Kalender (persönlicher Kalender oder Gruppenkalender) Sie einen Termin erstellen möchten. Termine können nachträglich editiert oder wieder gelöscht werden, indem man auf den Termin und anschliessend auf die Schaltfläche "Editieren" klickt. Ein Termin kann auch mit Drag&Drop verschoben werden.
+* Um einen neuen Termin hinzuzufügen, klicken Sie in das entsprechende Kalenderfeld. 
+* Wenn Sie Mitglied in Gruppen sind, treffen Sie erst oben im Kalender Pulldown-Menu die Auswahl, in welchem Kalender (persönlicher Kalender oder Gruppenkalender) Sie einen Termin erstellen möchten. 
+* Termine können nachträglich editiert oder wieder gelöscht werden, indem man auf den Termin und anschliessend auf die Schaltfläche "Editieren" klickt. 
+* Ein Termin kann auch mit Drag&Drop verschoben werden.
 
 Zu den "Termindetails" gehören verbindlich ein Titel sowie ein Start- und Enddatum. Darüber hinaus kann eine Beschreibung hinzugefügt, eine Wiederholungsoption sowie die Art der Sichtbarkeit definiert werden. Sie können auch für unterschiedliche Kalender unterschiedliche Farben verwenden.
 
@@ -39,6 +46,7 @@ Auch Serientermine können bearbeitet werden. Nach dem Speichern der Anpassung k
 
 ![Serientermine](assets/serientermine_DE.png){ class="shadow lightbox" }
 
+
 ## Sichtbarkeit {: #visibility}
 
 Legen Sie hier fest, wer den Kalendereintrag sehen darf.
@@ -56,11 +64,12 @@ Je nach Kalenderart (Persönlicher Kalender, Gruppenkalender, Kurskalender) unte
 In einem Gruppenkalender sehen die Gruppenteilnehmenden alle Einträge der Gruppenmitglieder, egal ob die Termine privat oder öffentlich gesetzt sind. Ist die Gruppe einem Kurs zugeordnet, werden dort für die Gruppenteilnehmer folgende Einträge angezeigt: Öffentliche Einträge der Gruppe, die eigenen Gruppenkalendereinträge des jeweiligen Gruppenmitglieds sowie die
 kurspezifischen Kalendereinträge. Personen die nicht Mitglied der Gruppe sind, sehen im Kurs die Kalendereinträge der anderen Gruppen nicht. Sind einem Kurs also mehrere Gruppen zugeordnet, sehen die Mitglieder also nur die eigenen Gruppenkalendereinträge, aber nicht die der anderen Gruppen.
 
+
 ## Kalenderliste (im Bereich Persönliche Werkzeuge)
 
 ![Kalender Einstellungen](assets/Kalender_Einstellungen1.png){ class="shadow lightbox" }
 
-Über die Schaltfläche "Einstellungen" öffnet sich die Kalenderliste, in der Sie die einzelnen Kalender ein- und ausblenden und angeben, welcher Kalender in welcher Farbe angezeigt werden soll.
+Über die Schaltfläche "Einstellungen" (kleiner Button mit dem Zahnrad-Icon) öffnet sich die Kalenderliste, in der Sie die einzelnen Kalender ein- und ausblenden und angeben, welcher Kalender in welcher Farbe angezeigt werden soll.
 
 In der Kalenderliste finden Sie alle in ihren aktuellen Kalender (Gruppe, Kurs oder persönlich) eingebundenen weiteren Kalender. Klicken Sie auf die Farbe um eine andere Farbe auszuwählen. Über die Spalten "**Sichtbar**" und "**Aggregiert**" bestimmen Sie ob der ausgewählte Kalender angezeigt werden soll, bzw. ob er in den aggregierten Kalenderfeed integriert wird.
 
@@ -70,10 +79,11 @@ Der aggregierte Kalender ist ein Sammelfeed, der alle Kalender und dessen Termin
 
 Wenn Ihr Kalender trotz eingetragener Termine leer erscheint bzw. bestimmte Termine nicht angezeigt werden, ist der gewünschte Kalender möglicherweise in der Kalenderliste nicht ausgewählt.
 
+
 ## Kalender integrieren
 
 Über iCal (einem Standard zur Verwaltung von Terminen), können Sie die verschiedenen OpenOlat-Kalender in einen anderen Kalender wie z.B. den Google-Kalender integrieren. Klicken Sie dazu das iCal Icon
-![RSS Symbol](assets/rss.png){ width=24px } entweder in der Kalenderansicht oder in der entsprechenden Zeile der Kalenderliste, und kopieren Sie den iCal Link. Andere Kalender wie beispielsweise aus dem System PerformX lassen sich auf diese Art auch in den OpenOlat-Kalender als managed
+![RSS Symbol](assets/icon_rss_small.png){ width=24px } entweder in der Kalenderansicht oder in der entsprechenden Zeile der Kalenderliste, und kopieren Sie den iCal Link. Andere Kalender wie beispielsweise aus dem System PerformX lassen sich auf diese Art auch in den OpenOlat-Kalender als managed
 Kalender integrieren. Managed Termine werden mit einem Schloss-Symbol gekennzeichnet.
 
 !!! info "Hinweis"
