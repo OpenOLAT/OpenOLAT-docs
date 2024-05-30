@@ -43,13 +43,22 @@ Von folgenden Kursbausteinen können Sie Änderungsmeldungen im Abonnement bezie
 [Zu den Details >](Subscriptions.de.md)
 
 
-##  Persönlicher Ordner
+##  Persönlicher Ordner (bis Release 18)
 
 Im persönlichen Ordner stellt OpenOlat Ihnen Speicherplatz zur Verfügung. Sie
 können dort beispielsweise Präsentationen ablegen, auf die Sie von einem
 anderen Rechner zugreifen möchten, Forschungsarbeiten zwischenspeichern, etc.
 
 [Zu den Details >](Personal_folders.de.md)
+
+
+##  File Hub (ab Release 19)
+
+Ab Release 19 steht in OpenOlat ein File Hub zur Verfügung, in dem alle in OpenOlat vorhandenen Ordner aufgelistet sind. (Kursordner, Gruppenordner, Archivordner, usw.) Es werden im File Hub jedoch nur Ordner angezeigt, auf die der eingeloggte Benutzer auch Zugriffsberechtigung hat. Auch auf den **persönlichen Ordner** kann via File Hub zugegriffen werden.
+
+Deshalb wurde in den Auswahloptionen der persönlichen Werkzeuge ab Release 19 "Persönlicher Ordner" ersetzt durch "File Hub".
+
+[Zu den Details >](File_Hub.de.md)
 
 
 ## Notizen

@@ -22,7 +22,8 @@ You can find the following sections in the personal menu:
 
     * [Calender](../personal_menu/Calendar.md)
     * [Subscriptions](../personal_menu/Subscriptions.md)
-    * [Personal folder](../personal_menu/Personal_folders.md)
+    * [Personal folder (up to release 18)](../personal_menu/Personal_folders.md)
+    * [File Hub (from release 19)](../personal_menu/File_Hub.md)
     * [Notes](../personal_menu/Notes.md)
     * [Evidence of achievements](../personal_menu/Evidence_of_Achievements.md)
     * Competences

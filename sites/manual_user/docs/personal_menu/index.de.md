@@ -22,7 +22,8 @@ Im persönlichen Menü finden Sie die folgenden Abschnitte:
 
     * [Kalender](../personal_menu/Calendar.de.md)
     * [Abonnements](../personal_menu/Subscriptions.de.md)
-    * [Persönlicher Ordner](../personal_menu/Personal_folders.de.md)
+    * [Persönlicher Ordner (bis Release 18)](../personal_menu/Personal_folders.de.md)
+    * [File Hub (ab Release 19)](../personal_menu/File_Hub.de.md)
     * [Notizen](../personal_menu/Notes.de.md)
     * [Leistungsnachweise](../personal_menu/Evidence_of_Achievements.de.md)
     * Kompetenzen
