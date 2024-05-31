@@ -56,6 +56,8 @@ Es stehen folgende Inhaltselemente zur Verfügung:
 * **Dokument:** Word-, PowerPoint- oder Excel-Dokumente können sowohl hochgeladen als auch direkt erstellt werden. PDF und andere können hochgeladen oder aus dem Medien Center übernommen werden.
 * **Audio:** Audio auswählen, neu aufnehmen oder als MP3 oder m4a Datei hinzufügen. Ab :octicons-tag-24: Release 18.2. 
 * **Bild:** Einfügen eines Bildes aus dem Medien Center bzw. Upload.
+* **Bildergalerie:** Darstellung mehrerer Bilder als Slideshow, in einem Raster oder mit kleinen Vorschaubildern. Ab :octicons-tag-24: Release 19. 
+* **Bildervergleich:** Zwei übereinander liegende Bilder können durch einen Schieberegler überblendet werden. Ab :octicons-tag-24: Release 19. 
 * **Video:** Einfügen einer Videodatei aus dem Medien Center bzw. Upload oder neues Recording
 * **draw.io Diagramm:** Neu erstellen oder aus der Liste auswählen. Ab :octicons-tag-24: Release 18.2. 
 * **Zitat:** Zitate können im Medien Center als eigenständige Inhaltselemente abgelegt und wiederverwendet werden.

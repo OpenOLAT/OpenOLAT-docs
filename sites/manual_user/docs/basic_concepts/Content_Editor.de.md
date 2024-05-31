@@ -107,7 +107,7 @@ Auch um zwischendurch in die Vorschau zu wechseln, ohne den Editor zu verlassen,
 * Ein Block ist der gesamte Inhalt eines Feldes im Layout. 
 * Es können mehrere Inhalte in einen Block eingefügt werden, z.B. ein Titel und ein Text. 
 
-![content_editor_add_content_page_v2_de.png](assets/content_editor_add_content_page_v2_de.png){ class="shadow lightbox" title="Inhaltsblöcke im Kursbaustein Seite"}
+![content_editor_add_content_page_v3_de.png](assets/content_editor_add_content_page_v3_de.png){ class="shadow lightbox" title="Inhaltsblöcke im Kursbaustein Seite"}
 
 ![content_editor_add_content_form_v1_de.png](assets/content_editor_add_content_form_v1_de.png){ class="shadow lightbox" title="Inhaltsblöcke in der Lernressource Formular"}
 
@@ -196,9 +196,15 @@ Es können alle im Medien Center verfügbaren Bilder eingebunden werden. Neue Bi
 
 <h3>Galerie</h3>
 
-Mehrere Bilder können in einem Galerie-Element durchgeblättert werden. Im Inspektor kann das Erscheinungsbild der Galerie variiert werden. Die Bilder entstammen dem Medien Center. 
+Mehrere Bilder können in einem Galerie-Element durchgeblättert werden (Slideshow), in einem Raster dargestellt werden (Spalten und Zeilen von Autor:innen definierbar) oder mit mit vorschau dargestellt werden (1 Bild gross, die übrigen Bilder als verkleinerte Vorschaubilder). Im Inspektor kann das Erscheinungsbild der Galerie variiert werden. Die Bilder entstammen dem Medien Center. 
 
 ![content_editor_content_galerie_v1_de.png](assets/content_editor_content_galerie_v1_de.png){ class="shadow lightbox" }
+
+<h3>Bildervergleich</h3>
+
+Zwei übereinander liegende Bilder können durch einen Schieberegler überblendet werden.
+
+![content_editor_content_compare_images_v1_de.png](assets/content_editor_content_compare_images_v1_de.png){ class="shadow lightbox" }
 
 <h3>Separator</h3>
 
