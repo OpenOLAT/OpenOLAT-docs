@@ -5,7 +5,6 @@
 ![icon_file_hub.png](assets/icon_file_hub.png)
 
 
-## Was ist der File Hub?
 
 Ab Release 19 steht in OpenOlat ein File Hub als **globaler Dateibrowser** zur Verfügung, in dem **alle in OpenOlat vorhandenen Ordner** aufgelistet sind. (Kursordner, Gruppenordner, Archivordner, usw.) 
 
@@ -28,7 +27,7 @@ Siehe auch [File Hub (Basiskonzept)](../basic_concepts/File_Hub_Concept.de.md)
 
 Die Ordner und Dateien werden im File Hub entsprechend individuellen, persönlichen Berechtigungen angezeigt, deshalb gehört der File Hub auch zu den **persönlichen Werkzeugen** und ist im **persönlichen Menü** zu finden.
 
-Der File Hub wird aber auch an an vielen weiteren Stellen immer dann angezeigt, wenn **aus Dateien ausgewählt** werden soll.
+Der File Hub wird aber auch an vielen weiteren Stellen immer dann angezeigt, wenn **aus Dateien ausgewählt** werden soll.
 
 Zur **Anzeige eines Ordnerinhalts** finden Sie den File Hub zum Beispiel in der Kursadministration unter **Administration > Dateien**. (Ab Release 19)
 
