@@ -39,7 +39,7 @@ Im Run Mode (bei geschlossenem Kurseditor) können Sie als Kursbesitzer:in einen
     
 
 Es besteht die Möglichkeit, auch Betreuer:innen im fertigen Kurs die Bearbeitung dieser Seite zu erlauben.
-(Auch für Betreuer:inen wird dann der Toggle-Button rechts oben im Kursbaustein Seite angezeigt.)
+(Auch für Betreuer:innen wird dann der Toggle-Button rechts oben im Kursbaustein Seite angezeigt.)
 
 ![content_editor_page_edit_right_coach_v1_de.png](assets/content_editor_page_edit_right_coach_v1_de.png){ class="shadow lightbox" }
 
@@ -196,7 +196,7 @@ Es können alle im Medien Center verfügbaren Bilder eingebunden werden. Neue Bi
 
 <h3>Galerie</h3>
 
-Mehrere Bilder können in einem Galerie-Element durchgeblättert werden (Slideshow), in einem Raster dargestellt werden (Spalten und Zeilen von Autor:innen definierbar) oder mit mit vorschau dargestellt werden (1 Bild gross, die übrigen Bilder als verkleinerte Vorschaubilder). Im Inspektor kann das Erscheinungsbild der Galerie variiert werden. Die Bilder entstammen dem Medien Center. 
+Mehrere Bilder können in einem Galerie-Element durchgeblättert werden (Slideshow), in einem Raster dargestellt werden (Spalten und Zeilen von Autor:innen definierbar) oder mit Vorschau dargestellt werden (1 Bild gross, die übrigen Bilder als verkleinerte Vorschaubilder). Im Inspektor kann das Erscheinungsbild der Galerie variiert werden. Die Bilder entstammen dem Medien Center. 
 
 ![content_editor_content_galerie_v1_de.png](assets/content_editor_content_galerie_v1_de.png){ class="shadow lightbox" }
 

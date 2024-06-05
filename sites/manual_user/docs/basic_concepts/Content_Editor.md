@@ -149,15 +149,9 @@ Example:
 
 ## Content types
 
-<h3>Titel</h3>
+<h3>Title</h3>
 
 Various font sizes are predefined for the heading element.
-
-![content_editor_content_text_v1_de.png](assets/content_editor_content_text_v1_de.png){ class="shadow lightbox" }
-
-<h3>Text section</h3>
-
-A simple text editor is available in a text section for creating text blocks.
 
 ![content_editor_content_text_v1_de.png](assets/content_editor_content_text_v1_de.png){ class="shadow lightbox" }
 
@@ -167,9 +161,27 @@ In contrast to a text section, a paragraph also contains note boxes and columns.
 
 ![content_editor_content_paragraph_v1_de.png](assets/content_editor_content_paragraph_v1_de.png){ class="shadow lightbox" }
 
+<h3>Text section</h3>
+
+A simple text editor is available in a text section for creating text blocks.
+
+![content_editor_content_text_v1_de.png](assets/content_editor_content_text_v1_de.png){ class="shadow lightbox" }
+
 <h3>Image</h3>
 
 All images available in the Media Center can be integrated. New images can be uploaded and are then stored in the Media Center.
+
+<h3>Gallery</h3>
+
+Several images can be scrolled through in a gallery element (slideshow), displayed in a grid (columns and rows definable by author) or displayed with preview (1 image large, the remaining images as reduced preview images). The appearance of the gallery can be varied in the inspector. The images come from the Media Center. 
+
+![content_editor_content_galerie_v1_de.png](assets/content_editor_content_galerie_v1_de.png){ class="shadow lightbox" }
+
+<h3>Image comparison</h3>
+
+Two superimposed images can be cross-faded using a slider.
+
+![content_editor_content_compare_images_v1_de.png](assets/content_editor_content_compare_images_v1_de.png){ class="shadow lightbox" }
 
 <h3>Separator</h3>
 
@@ -207,19 +219,21 @@ If a text is entered as a quote, it automatically has a predefined formatting. T
 
 <h3>Document</h3>
 
-If documents (e.g. Word files) are uploaded, they can be made available to other OpenOlat authors and, if desired, stored in the Media Center for editing.
+Documents (e.g. pdf or Word files) can be uploaded using drag & drop. They are stored in the Media Center. For the Media Center, descriptions and information can be entered here under “Share”. The file initially uploaded only for this content block can then be used elsewhere and by other OpenOlat authors. If desired, the documents can also be stored in the Media Center for editing.
 
 ![content_editor_content_document_v1_de.png](assets/content_editor_content_document_v1_de.png){ class="shadow lightbox" }
 
 <h3>draw.io diagram</h3>
 
-Existing diagrams can be loaded from the Media Center or new diagrams can be created directly with draw.io. Editing takes place on an external server.
+Existing diagrams can be loaded from the Media Center or new diagrams can be created directly with draw.io. If you edit the file as an individual, the editing takes place on the OpenOlat server, in collaboration mode on an external server. 
 
 ![content_editor_content_drawio_v1_de.png](assets/content_editor_content_drawio_v1_de.png){ class="shadow lightbox" }
 
 <h3>Quiz</h3>
 
-As shown above, different question types can be inserted into forms. Quiz questions are also available in the course element "Page" from release 18.2.5. However, they cannot be evaluated, but are intended to provide a variety of content. For evaluable quiz questions, use the course element "Test" or "Self-test".
+As shown above, different question types can be inserted into forms. Quiz questions are also available in the course element “Page” from release 19.0. A quiz (package of one or more questions) can be inserted into the page as a block. Several detailed feedbacks can be added to each question (including pictures and videos). As a content block on a course element “Page”, quizzes are intended to provide a variety of content and therefore no points are awarded to the course (not an assessable course element). For evaluable quiz questions, use the course element “Test” or “Self-test”. 
+
+![content_editor_content_quiz_v1_de.png](assets/content_editor_content_quiz_v1_de.png){ class="shadow lightbox" }
 
 <h3>Choose from my media center</h3>
 

@@ -55,6 +55,8 @@ The following content elements are available:
 * **Document:** Word, PowerPoint or Excel documents can be uploaded as well as created directly. PDF and others can be uploaded or taken from the Media Center.
 * **Audio:** Select audio, re-record or add as MP3 or m4a file. Since :octicons-tag-24: release 18.2. 
 * **Image:** Inserting an image from the Media Center or uploading.
+* **Image gallery:** Display of several images as a slideshow, in a grid or with small thumbnails. As of :octicons-tag-24: Release 19.
+* **Image comparison:** Two superimposed images can be blended using a slider. As of :octicons-tag-24: Release 19. 
 * **Video:** Inserting a video file from the Media Center or uploading or new recording
 * **draw.io graph:** Create new or select from the list. Since :octicons-tag-24: release 18.2. 
 * **Citations:** Citations can be stored and reused as standalone content items in the Media Center.
