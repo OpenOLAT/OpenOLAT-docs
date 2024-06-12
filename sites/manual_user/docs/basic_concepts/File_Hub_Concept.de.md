@@ -1,11 +1,6 @@
 # Konzept des File Hub
 
 
-!!!warning ""
-
-    Still under construction...
-
-
 
 ## Was ist der File Hub?
 
@@ -102,29 +97,20 @@ Es werden im File Hub nur Ordner angezeigt, auf die die eingeloggte Person auch 
 
 ### Medien Center
 
-tbd
-
-Im [Medien Center](../personal_menu/Media_Center.de.md) als personalisierter Sammlung von ...
-
-Im File Hub werden die im [Medien Center](../personal_menu/Media_Center.de.md) aufgelisteten ... verlinkt? kopiert?
-
-im File Hub angzeigte Dateien des Medien Centers sind im File Hub ... kopierbar? verlinkbar?
-
-
+Im [Medien Center](../personal_menu/Media_Center.de.md) als ebenfalls personalisierter Sammlung, sind **Mediendateien** (z.B. mp4) und **Inhaltselemente** (z.B. mit dem Content Editor erstellte Elemente des Kursbausteins „Seite“) abgelegt. 
 
 
 
 ### Sharepoint
 
-Bei Sharepoint handelt es sich um eine externe Quelle (Microsoft Programm).
-Dateien aus Sharepoint können ...
-
-tbd
+Bei Sharepoint handelt es sich um eine externe Quelle (Microsoft Programm).<br>
+Dateien aus Sharepoint können im File Hub abgerufen werden, wenn die Zugriffsberechtigung von Administrator:innen eingerichtet wurde.
 
 
 ### Dropbox
 
-tbd
+Bei Dropbox handelt es sich um eine externe Quelle (Microsoft Programm).
+Dateien aus der Dropbox können im File Hub abgerufen werden, wenn die Zugriffsberechtigung von Administrator:innen eingerichtet wurde.
 
 
 ## Einrichten der Zugriffsbedingungen
@@ -134,11 +120,11 @@ Wie oben bereits erwähnt, werden im File Hub nur Ordner und Dateien angezeigt, 
 Beispiel Gruppenordner<br>
 Der File Hub erkennt automatisch, ob Sie Mitglied einer Gruppe sind und welche Gruppenordner Ihnen im File Hub angezeigt werden. Wer also Zugriff auf einen Gruppenordner via File Hub erhalten möchte, muss eine Mitgliedschaft in der betreffenden Gruppe erhalten (-> Gruppenverwaltung).
 
-Beispiel x<br>
+Beispiel Ablageordner<br>
+Im Ablageordner eines Kurses werden Dateien aus den Kursbausteinen des Kurses abgelegt. Die Menü-Option "Ablageordner" in der Kursadministration wird standardmässig nur den Kursbesitzer:innen angezeigt, die als Autor:innen den Kurs beasrbeiten können. Entsprechend werden im File Hub auch nur Ablageordner angzeigt, bei denen man selbst Kursbesitzer:in ist oder die von anderen Kursbesitzer:innen in den Kurseinstellungen freigegeben wurden.
 
-in file Hub?
-
-in jeweiligen Ordner-Kontext? (Einstellungen, Freigabe)
+Beispiel Sharepoint<br>
+Die Zugrifsmöglichkeit auf externe Werkzeuge, wie z.B. Microsoft Sharepoint, muss von Administrator:innen eingerichtet werden unter **Administration > Externe Werkzeuge > Microsoft Sharepoint**.
 
 
 ## Weitere Informationen
