@@ -6,7 +6,7 @@
 
     Ausserdem muss mindestens 1 Lektionenblock vorhanden sein. (In mindestens einem Kurs muss unter den Einstellungen > Tab "Durchführung" > Abschnitt "Konfiguration Lektionen- und Absenzenmanagment im Kurs" das Lektionenmanagement eingeschaltet sein.)
 
-    Sind diese Voraussetzungen erfüllt, wird der zusätzliche Menüpunkt "Lektionen" im Coachingtool angezeigt.
+    Sind diese Voraussetzungen erfüllt, wird der zusätzliche Tab "Lektionen" im Coachingtool angezeigt.
 
     Siehe auch [Absenzmanagement](../learningresources/Lectures_and_absences.de.md)
 
@@ -16,9 +16,13 @@
 
 ### 1. Tab Cockpit
 
-Du findest im Tab "Cockpit" eine Tagesübersicht, während im Tab "Lektionen" alle deine Lektionenblöcke angezeigt werden. Auch die bereits abgeschlossenen.
+Im Tab Cockpit erscheint eine Übersicht der Lektionenblöcke für den aktuellen Tag. Auch erscheinen Hinweise, falls es aktuell noch etwas zu erledigen gibt. Anstatt des aktuellen Tages kann auch ein konkreter alternativer Tag ausgewählt werden. 
 
-Im Cockpit kann ein bestimmter Termin ausgewählt und die zugehörigen Lektionen und Abwesenheiten im Überblick angezeigt werden. Über die angezeigte Übersicht und Klick auf den jeweiligen Kurs hat der Lehrende Zugriff auf weitere Informationen und kann auch die Absenzerfassung abschliessen.
+![Coaching Tab Cockpit](assets/Coaching_Cockpit1.png){ class="shadow lightbox" }
+
+Einzelne Lektionen können als Excel File exportiert und eine Abenzenliste und eine Präsenzliste im PDF-Format für den Download erstellt werden.
+
+Über die angezeigte Übersicht und Klick auf den jeweiligen Kurs hat die Lehrperson Zugriff auf weitere Informationen und kann auch die Absenzerfassung abschliessen.
 
 ### 2. Tab Lektionen
 

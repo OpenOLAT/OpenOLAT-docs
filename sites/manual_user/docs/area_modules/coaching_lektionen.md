@@ -16,9 +16,13 @@
 
 ### 1. Tab Cockpit
 
-You will find a daily overview in the "Cockpit" tab, while all your lesson blocks are displayed in the "Lessons" tab. Even those that have already been completed.
+An overview of the lesson blocks for the current day appears in the Cockpit tab. Notes also appear if there is still something to do. Instead of the current day, a specific alternative day can also be selected. 
 
-In the cockpit, a specific appointment can be selected and the associated lessons and absences can be displayed in an overview. Via the displayed overview and a click on the respective course, the teacher has access to further information and can also complete the absence detection.
+![Coaching Tab Cockpit](assets/Coaching_Cockpit1_en.png){ class="shadow lightbox" }
+
+Individual lessons can be exported as Excel files and an absence list and an attendance list in PDF format can be created for download.
+
+Via the displayed overview and a click on the respective course, the teacher has access to further information and can also complete the absence detection.
 
 ### 2. Tab Lectures
 
