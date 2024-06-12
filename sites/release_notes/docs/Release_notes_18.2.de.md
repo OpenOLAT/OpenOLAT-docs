@@ -7,7 +7,7 @@
 
 * * *
 
-:material-calendar-month-outline: **Releasedatum: 31.01.2024 • Letztes Update: 20.03.2024**
+:material-calendar-month-outline: **Releasedatum: 31.01.2024 • Letztes Update: 12.06.2024**
 
 * * *
 
@@ -265,16 +265,18 @@ Bereich | Rolle
 * Link zu externer Website in Hauptnavigation einbinden
 * Optimierung der E-Mail-Benachrichtigungen für den Konto-Lebenszyklus
 * Aktualisierung der Optionen unter 'Link auf diese Seite teilen': LinkedIn, Facebook, X, E-Mail
-* Badges: Integration der Markdown UI Bibliothek für einfache Formatierungen (Umbrüche, Listen) im Beschreibungstext (:octicons-tag-24: ab Release 18.2.1)
 * UI/UX: Neues Filter-Element 'Scope' zur vordefinierten Eingrenzung von Daten
 * UI/UX: Visuelle Optimierung der Datensatz-Details in Tabellen, z.B. bei To-dos und im Fragenpool
 * UI/UX: Verbesserte Usability des Suchfeldes für Taxonomie und Organisation
 * UI/UX: Optimierte Anzeige und Label für die Konfigurationsseite 'Passwort und Authentifizierung'
 * UI/UX: Optimierte Systemmeldungen für nicht löschbare Konten
+* Option für Upload-Aktion im Modul 'Bibliothek'
+* Badges: Integration der Markdown UI Bibliothek für einfache Formatierungen (Umbrüche, Listen) im Beschreibungstext (:octicons-tag-24: ab Release 18.2.1)
 * Lektionsverwaltung: Zusätzliche Informationen zu Lektionen und dem entsprechenden Kurs in den Benutzerdetails (:octicons-tag-24: ab Release 18.2.2)
 * Projekt:
     * 'Wiederherstellen' und 'Endgültig Löschen' für gelöscht markierte Dateien (:octicons-tag-24: ab Release 18.2.2)
-    * Benachrichtigung an neue Projektmitglieder, wenn diese zum Projekt hinzugefügt werden (:octicons-tag-24: release 18.2.2)
+    * Benachrichtigung an neue Projektmitglieder, wenn diese zum Projekt hinzugefügt werden (:octicons-tag-24: ab Release 18.2.2)
+* Schnellsuche in Benutzerverwaltung (:octicons-tag-24: ab Release 18.2.8)
 
 * * *
 
@@ -298,6 +300,7 @@ Ab :octicons-tag-24: Release 18.2.1 können in der `Administration` bestimmte De
 * Aktualisierung der Bibliotheken von Drittanbietern
 * Unterstützung für neue Keycloak Versionen (17+)
 * EduSharing SOAP API Aufrufe durch entsprechende REST API Aufrufe ersetzt (:octicons-tag-24: ab Release 18.2.2)
+* Import/Export von Kursen mit verknüpften Ressourcen per Softkey (:octicons-tag-24: ab Release 18.2.6)
 
 * * *
 
@@ -320,6 +323,8 @@ Ab :octicons-tag-24: Release 18.2.1 können in der `Administration` bestimmte De
 
 ## Weitere Informationen
 
+* [YouTrack Release Notes 18.2.9](https://track.frentix.com/releaseNotes/OO?q=Fix%20versions:%2018.2.9&title=Release%20Notes%2018.2.9){:target="_blank”}
+* [YouTrack Release Notes 18.2.8](https://track.frentix.com/releaseNotes/OO?q=Fix%20versions:%2018.2.8&title=Release%20Notes%2018.2.8){:target="_blank”}
 * [YouTrack Release Notes 18.2.7](https://track.frentix.com/releaseNotes/OO?q=Fix%20versions:%2018.2.7&title=Release%20Notes%2018.2.7){:target="_blank”}
 * [YouTrack Release Notes 18.2.6](https://track.frentix.com/releaseNotes/OO?q=Fix%20versions:%2018.2.6&title=Release%20Notes%2018.2.6){:target="_blank”}
 * [YouTrack Release Notes 18.2.5](https://track.frentix.com/releaseNotes/OO?q=Fix%20versions:%2018.2.5&title=Release%20Notes%2018.2.5){:target="_blank”}

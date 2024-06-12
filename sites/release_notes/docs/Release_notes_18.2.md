@@ -7,7 +7,7 @@
 
 * * *
 
-:material-calendar-month-outline: **Release date: 01/31/2024 • Last update: 03/20/2024**
+:material-calendar-month-outline: **Release date: 01/31/2024 • Last update: 06/12/2024**
 
 * * *
 
@@ -265,12 +265,18 @@ Area | Role
 * Include link to external website in main navigation
 * Optimized email notifications for the account lifecycle
 * Updated options under 'Share link to this page': LinkedIn, Facebook, X, Email
-* Badges: Integration of the Markdown UI library for simple formatting (breaks, lists) in the description text (:octicons-tag-24: from release 18.2.1)
 * UI/UX: New filter element 'Scope' for predefined limitation of data
 * UI/UX: Visual optimization of data details in tables, e.g. for to-dos and in the question pool
 * UI/UX: Improved usability of the search field for taxonomy and organization
 * UI/UX: Optimized display and label for the configuration page 'Password and authentication'
 * UI/UX: Optimized system messages for non-deletable accounts
+* Option for upload action in the Library module
+* Badges: Integration of the Markdown UI library for simple formatting (breaks, lists) in the description text (:octicons-tag-24: release 18.2.1)
+* Lectures management: Additional information on lectures and the corresponding course in the user details (:octicons-tag-24: release 18.2.2)
+* Project:
+    * 'Restore' and 'Delete permanently' for files marked as deleted (:octicons-tag-24: release 18.2.2)
+    * Notification to new project members when they are added to the project (:octicons-tag-24: release 18.2.2)
+* Quick search in user management (:octicons-tag-24: release 18.2.8)
 
 * * *
 
@@ -287,10 +293,6 @@ As of :octicons-tag-24: Release 18.2.1, certain default values can be preconfigu
 * Course element 'Test': Display of the results
 * Course element 'Participant folder': Configuration of the submission drop box for participants and the return box for coaches
 * Course element 'Survey': Authorizations for participation and display of results
-* Lectures management: Additional information on lectures and the corresponding course in the user details (:octicons-tag-24: release 18.2.2)
-* Project:
-    * 'Restore' and 'Delete permanently' for files marked as deleted (:octicons-tag-24: release 18.2.2)
-    * Notification to new project members when they are added to the project (:octicons-tag-24: release 18.2.2)
 
 ### Further updates
 
@@ -298,6 +300,7 @@ As of :octicons-tag-24: Release 18.2.1, certain default values can be preconfigu
 * Update of third-party libraries
 * Support for new Keycloak versions (17+)
 * EduSharing SOAP API calls replaced by corresponding REST API calls (:octicons-tag-24: release 18.2.2)
+* Course import/export with linked resources by soft key (:octicons-tag-24: release 18.2.6)
 
 * * *
 
@@ -320,6 +323,8 @@ As of :octicons-tag-24: Release 18.2.1, certain default values can be preconfigu
 
 ## More information
 
+* [YouTrack Release notes 18.2.9](https://track.frentix.com/releaseNotes/OO?q=Fix%20versions:%2018.2.9&title=Release%20Notes%2018.2.9){:target="_blank”}
+* [YouTrack Release notes 18.2.8](https://track.frentix.com/releaseNotes/OO?q=Fix%20versions:%2018.2.8&title=Release%20Notes%2018.2.8){:target="_blank”}
 * [YouTrack Release notes 18.2.7](https://track.frentix.com/releaseNotes/OO?q=Fix%20versions:%2018.2.7&title=Release%20Notes%2018.2.7){:target="_blank”}
 * [YouTrack Release notes 18.2.6](https://track.frentix.com/releaseNotes/OO?q=Fix%20versions:%2018.2.6&title=Release%20Notes%2018.2.6){:target="_blank”}
 * [YouTrack Release notes 18.2.5](https://track.frentix.com/releaseNotes/OO?q=Fix%20versions:%2018.2.5&title=Release%20Notes%2018.2.5){:target="_blank”}
