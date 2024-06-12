@@ -66,7 +66,7 @@ Sobald Sie **via Kursadministration** ein Archiv erstellen möchten, werden Sie 
 
 (Auf diese Art können nur Gesamtarchive erstellt werden.)
 
-* Öffnen Sie den den Autorenbereich.
+* Öffnen Sie den Autorenbereich.
 * Markieren Sie alle für die Archivierung gewünschten Kurse in der 1. Spalte.
 * Sobald mindestens ein Kurs selektiert ist, erscheint über der Liste eine Buttonzeile.
 * Wählen Sie den Button "Kurs archivieren".

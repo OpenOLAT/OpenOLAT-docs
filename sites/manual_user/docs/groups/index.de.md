@@ -32,7 +32,7 @@ Sie können dort
 
 * Gruppen verlassen
 * Gruppen löschen (wenn diese von Ihnen erstellt wurden)
-* (Nach Wahl einer Gruppe) die Mitglieder sehen und evtl. mit jemand Kontakt aufnehmen
+* (Nach Wahl einer Gruppe) die Mitglieder sehen und evtl. mit jemandem Kontakt aufnehmen
 * usw.
 
 
