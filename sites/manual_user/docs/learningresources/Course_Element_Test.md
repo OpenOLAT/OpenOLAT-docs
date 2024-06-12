@@ -77,13 +77,13 @@ If nothing is activated here, the test is accessible at all times, provided no r
 
 In case of manual correction, the visibility of the result is limited and the coach or corrector has to complete the correction manually. Questions to be edited manually include free text, upload file and draw. However, manual correction can also be set if required when the test consists only of automatically evaluable question types.
 
-If the option "**Manual by external graders**" is activated, OpenOlat users can also correct a test without being a member or even a coach of the course. This selection also activates the "Corrector" tab and you can see who is assigned to the test as a corrector.
+If the option "**Manually by external graders**" is activated, OpenOlat users can also correct a test without being a member or even a coach of the course. This selection also activates the "Corrector" tab and you can see who is assigned to the test as a corrector.
 
 [Test Tab Korrektoren](assets/Test_Tab_Korrektoren_DE.png){ class="shadow" }
 
 !!! info "Note"
 
-    If the option "Manual by external correctors" is not available, no [external correctors](Test_settings.md) have been configured in the learning resource Test.
+    If the option "Manually by external correctors" is not available, no [external correctors](Test_settings.md) have been configured in the learning resource Test.
 
 **Release rating**: Set here whether the results are released by default or not.
 
@@ -232,7 +232,7 @@ In general, tests in OpenOlat are used to test knowledge. Here are a few example
 * Tests as an online exam
 
 
-### How to edit a test
+### How to edit a test (Learners perspective)
 
 To start editing a test press "Start". Answer the questions displayed and then click "Save answer" for each question. If generally visible, you can see in the left navigation which questions have already been answered, which questions have only been looked at and which have not been clicked at all.
 

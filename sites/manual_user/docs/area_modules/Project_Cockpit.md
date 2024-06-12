@@ -28,6 +28,32 @@ In a project you can create/upload different objects:
 * Milestones
 * Whiteboard files (draw.io)
 
-These objects can be linked to each other in order to find related topics more easily. To do this, open an object in edit mode (except for to-dos and files, which can be edited directly) and click either on "Link object" under Links to link an existing object or on "Add link" to create an object with a link directly.
 
-![Bild einer Verlinnkung im Projekt](assets/project-link.de.jpg)
+## Link objects
+
+The objects in a project can be linked to each other to make it easier to find related topics. To do this, open an object for editing and click under **Links** either on
+
+* the **"Link object"** button to link to an existing object or to 
+* the **"Add link"** button to create an object with a link directly.
+
+![project_links_v1_de.png](assets/project_links_v1_de.png){ class="shadow lightbox" }
+
+
+
+## Notifications
+
+Several people work together on a project, so it is important to be informed about progress and changes. To do this, use the [Subscription function](../personal_menu/Personal_Tools.md#subscriptions--subscriptions) (on the right-hand side, below the images of the project members).
+
+![project_abo_v1_de.png](assets/project_abo_v1_de.png){ class="shadow lightbox" }
+
+!!! Note "Note"
+
+    The subscription function is activated in new projects by default. It can be switched off using the toggle button.
+
+
+The [Subscription function](../personal_menu/Personal_Tools.md#subscriptions--subscriptions) is also available in many other OpenOlat course elements. In projects it has the following special feature:
+
+* **Bulk mails** are created to avoid sending a mail for every small change in the project.
+* **Exception**: Changes to to-dos
+
+

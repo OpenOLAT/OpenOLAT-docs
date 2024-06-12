@@ -23,7 +23,7 @@ Notizen zu einem Kurs können Sie erstellen, wenn Sie in einem Kurs rechts oben 
 
 ![pers_menu_notes_open_v1_de.png](assets/pers_menu_notes_open_v1_de.png){ class="shadow lightbox"}
 
-Es öffnet sich ein Editor, in dem pro Kurs 1 Notizblatt zur Verfügung steht. 
+Es öffnet sich ein Editor, in dem pro Kurs ein Notizblatt zur Verfügung steht. 
 
 ![pers_menu_notes_editor_v1_de.png](assets/pers_menu_notes_editor_v1_de.png){ class="shadow lightbox"}
 

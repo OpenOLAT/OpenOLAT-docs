@@ -2,9 +2,26 @@
 
 ## Copy Projects
 
-Open the desired project and select the option "Copy project" at the top right below the 3 points.
+Open the desired project and select the “Edit project” option at the top right under the 3 dots.
+This editing does not refer to editing the content (entering appointments, creating to-dos, etc.), but to **editing the start page** of the project.
 
-![projekte_admin_projekt_kopieren_v1_de.png](assets/projekte_admin_projekt_kopieren_v1_de.png){ class="shadow lightbox" }
+![projekte_admin_projekt_bearbeiten_v2_de.png](assets/projekte_admin_projekt_bearbeiten_v2_de.png){ class="shadow lightbox" }
+
+![projekte_admin_projekt_bearbeiten_popup_v1_de.png](assets/projekte_admin_projekt_bearbeiten_popup_v1_de.png){ class="shadow lightbox" }
+
+## Member management
+
+See [Project Member Management](../area_modules/Project_Member_Management.md)
+
+## Download report
+
+See [Project report](../area_modules/Project_Report.md)
+
+## Copy projects
+
+This editing does not refer to editing the content (entering appointments, creating to-dos, etc.), but to **editing the start page** of the project.
+
+![projekte_admin_projekt_kopieren_v2_de.png](assets/projekte_admin_projekt_kopieren_v2_de.png){ class="shadow lightbox" }
 
 The following will be copied:
 

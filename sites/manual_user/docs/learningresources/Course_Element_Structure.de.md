@@ -74,7 +74,7 @@ Folgende Einstellungen zur Konfiguration der manuellen Bewertung sind möglich:
 
 Wenn Sie _«Von Bausteinen übernehmen»_ wählen, werden Ihnen unter **Bestanden von** die bewertbaren Kursbausteine Ihres Kurses angezeigt. Sie können nun diejenigen anwählen, deren Bestanden-Wert mit einer boolschen UND-Verknüpfung den Bestanden-Wert des Kursbausteins _Struktur_ bilden sollen. D.h. damit der Kursbaustein _Struktur_ ein _«Bestanden»_ anzeigt, müssen alle gewählten Kursbausteine ein _«Bestanden»_ aufweisen.
 
-**Nicht bestanden berechnen?:** Es ist auch möglich gezielt ein "nicht bestanden" zu berechnen.
+**Nicht bestanden** berechnen: Es ist auch möglich gezielt ein "nicht bestanden" zu berechnen.
 
 ![nicht bestanden berechnen](assets/nicht_bestanden_berechnen.png)
 
