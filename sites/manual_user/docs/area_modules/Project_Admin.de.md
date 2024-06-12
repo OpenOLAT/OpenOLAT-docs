@@ -57,8 +57,6 @@ Zum Erstellen einer Vorlage kann auch ein bereits angelegtes Projekt als Vorlage
 
 Wird ein Projekt abgeschlossen, haben alle Projektmitglieder anschliessend nur noch schreibgeschützten Zugriff.
 
-![projekte_admin_abschliessen_v2_de.png](assets/projekte_admin_abschliessen_v2_de.png){ class="shadow lightbox" }
-
 Abgeschlossen werden kann ein Projekt nur durch
 
 * Projektbesitzer:innen,
@@ -70,6 +68,8 @@ Abgeschlossen werden kann ein Projekt nur durch
 !!! Note "Hinweis"
 
     Durch diese Personen kann ein Projekt auch wieder reaktiviert werden.
+
+![projekte_admin_abschliessen_v1_de.png](assets/projekte_admin_abschliessen_v1_de.png){ class="shadow lightbox" }
 
 
 ## Projekte löschen 

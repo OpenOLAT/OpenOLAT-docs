@@ -67,14 +67,14 @@ Conventional courses have the "Points" tab. Here points that were collected in o
 
 The following settings are possible:
 
- **Calculate score?**: An overview of the assessable elements of your course will appear, which you can take into account when calculating the points. Select either all or specific course elements and OpenOlat adds the respective points. It is also possible to calculate an average value instead of a total. This makes sense, for example, if all course elements have the same maximum number of points. Course elements that do not (yet) contain a rating are not taken into account in the calculation. The calculated value is displayed to the user after the evaluation under "Score".
+ Calculate **score**: An overview of the assessable elements of your course will appear, which you can take into account when calculating the points. Select either all or specific course elements and OpenOlat adds the respective points. It is also possible to calculate an average value instead of a total. This makes sense, for example, if all course elements have the same maximum number of points. Course elements that do not (yet) contain a rating are not taken into account in the calculation. The calculated value is displayed to the user after the evaluation under "Score".
 
- **Calculate passing score?:** Pass or fail can refer to a minimum score that you define or to passing selected or all assessable course elements.
+ Calculate **passing score:** Pass or fail can refer to a minimum score that you define or to passing selected or all assessable course elements.
  If you select  _«As of minimum score»_ , you can enter the minimum score in another field. This refers to the course elements selected above, i.e. on the course element  _Structure_  a _«Passed»_  is displayed, if the total score is greater or equal to the selected minimum score. 
  
  If you select _«Adopt from course element»_, assessable course elements of your course are displayed by means of  **Passed by**. You can now select those whose "passed" value should result in the "passed" value of the course element  _Structure_ with a boolean AND-link. I.e. if the course element _Structure_  should show a  _«Passed»_, all selected course elements have to have a  _«Passed»_.
 
- **Calculate failed score?:**  It is also possible to calculate "Failed".
+ Calculate **failed score:**  It is also possible to calculate "Failed".
 
 ![structue score tab](assets/structure_score_tab.png)
 
@@ -88,12 +88,12 @@ For the user, the performance overview is as follows:
 ![Teilnehmer Leistungsübersicht des Strukturbausteins](assets/Leistungsuebersicht_Struktur_herkoemmlich.png)
 
 
-!!! note
+!!! note "Note"
 
     In case you wish to utilize an evidence of achievement or be able to check the Passed status in the Coaching tool, you must check the option  **Calculate passing score?**  in the course root node.
 
 
-!!! Tip
+!!! Tip "Hint"
 
     Use distinct short titles for all of your assessable course elements to be able to clearly distinguish them in the tab "Score."
 
@@ -101,9 +101,9 @@ For the user, the performance overview is as follows:
 #### Tab Access
 The course element "Structure" and thus its subordinate course elements can be protected with a password.
 
-!!! warning
+!!! warning "Attention"
 
-    On the top course element no password can be stored in the tab "Access".
+    On the top course element, which is actually also a structure element, _no_ password can be stored in the “Access” tab.
 
 
   
