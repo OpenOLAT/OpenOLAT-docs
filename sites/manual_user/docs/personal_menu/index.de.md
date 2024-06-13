@@ -26,9 +26,9 @@ Im persönlichen Menü finden Sie die folgenden Abschnitte:
     * [File Hub (ab Release 19)](../personal_menu/File_Hub.de.md)
     * [Notizen](../personal_menu/Notes.de.md)
     * [Leistungsnachweise](../personal_menu/Evidence_of_Achievements.de.md)
-    * Kompetenzen
+    * [Kompetenzen](../personal_menu/Competences.de.md)
     * [Badges](../personal_menu/OpenBadges.de.md)
-    * Buchungen
+    * [Buchungen](../personal_menu/Bookings.de.md)
     * Personensuche
     * Absenzen
     * [Portfolio 2.0](../personal_menu/Portfolio.de.md)

@@ -26,9 +26,9 @@ You can find the following sections in the personal menu:
     * [File Hub (from release 19)](../personal_menu/File_Hub.md)
     * [Notes](../personal_menu/Notes.md)
     * [Evidence of achievements](../personal_menu/Evidence_of_Achievements.md)
-    * Competences
+    * [Competences](../personal_menu/Competences.md)
     * [Badges](../personal_menu/OpenBadges.md)
-    * Bookings
+    * [Bookings](../personal_menu/Bookings.md)
     * Other users
     * Absences
     * [Portfolio 2.0](../personal_menu/Portfolio.md)
