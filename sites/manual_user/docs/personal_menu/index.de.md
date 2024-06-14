@@ -29,7 +29,7 @@ Im persönlichen Menü finden Sie die folgenden Abschnitte:
     * [Kompetenzen](../personal_menu/Competences.de.md)
     * [Badges](../personal_menu/OpenBadges.de.md)
     * [Buchungen](../personal_menu/Bookings.de.md)
-    * Personensuche
+    * [Personensuche](../personal_menu/Other_users.de.md)
     * Absenzen
     * [Portfolio 2.0](../personal_menu/Portfolio.de.md)
     * [Medien Center](../personal_menu/Media_Center.de.md)

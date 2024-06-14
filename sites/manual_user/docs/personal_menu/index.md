@@ -29,7 +29,7 @@ You can find the following sections in the personal menu:
     * [Competences](../personal_menu/Competences.md)
     * [Badges](../personal_menu/OpenBadges.md)
     * [Bookings](../personal_menu/Bookings.md)
-    * Other users
+    * [Other users](../personal_menu/Other_users.md)
     * Absences
     * [Portfolio 2.0](../personal_menu/Portfolio.md)
     * [Media Center](../personal_menu/Media_Center.md)
