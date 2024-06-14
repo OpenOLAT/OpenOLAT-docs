@@ -32,7 +32,7 @@ default character set is ISO-8859-1. If your tests or questionnaires contain
 e.g. Arabic characters you have to select the character set UTF-8.
 
 
-In the Specific system settings you can view and change the settings that can
+In the specific system settings you can view and change the settings that can
 make your daily start and work with OpenOlat easier.
 
 In the selection "Resume last session" you define what happens directly after
@@ -55,7 +55,8 @@ selected for this purpose.
   
 
 #### User tools:
-  Here you select which user tools should appear in the top
+
+Here you select which user tools should appear in the top
 right-hand corner of the menu bar (next to your profile picture) so that you
 can access these tools very quickly.
 
@@ -71,7 +72,7 @@ page of the user manual and Print to print the currently opened page.
   
 
 Finally, under "Settings" in the "System" tab, you have the option of
-**resetting** your system-related changes **to the  ** **default settings** ,
+**resetting** your system-related changes **to the  ** **default settings**,
 including settings for personalization, notifications and session restore.
 
 ###  Tab WebDAV {: #webdav}
@@ -103,4 +104,4 @@ from the operator, in accordance with Article 15 GDPR. The corresponding
 support link is available. As soon as the export has been carried out, you can
 download the user data stored about you here.
 
-![](assets/Screenshot 2020-04-29 at 18.26.01.png)
+![](assets/Benutzerdaten.png)

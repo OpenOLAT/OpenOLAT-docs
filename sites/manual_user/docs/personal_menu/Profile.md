@@ -1,7 +1,7 @@
 # Profile
 
 
-In the personal menu under the option "Profile" you can change your personal
+In the personal menu under the "Profile" option, you can change your personal
 data and set up your business card. Simply complete the fields provided.
 
 Changes to the e-mail address will only be applied if the new e-mail address
@@ -11,6 +11,13 @@ of your browser and log in to OpenOlat to activate the new e-mail address.
 Until activation, the previous e-mail address is used in OpenOlat. If you do
 not dial the activation link within two days (48 hours), the change request
 expires. In that case, please contact your administrator.
+
+<details>
+    <summary>E-Mail-Signature</summary>
+	If the option to enter your e-mail signature is not displayed, please contact your administrator.
+	<img src="../assets/configuration_profile_signature_v1_de.png" />
+
+</details>
 
 A phone number for sending SMS can be added in the contact data. If an SMS
 service is stored with your system, the password can be reset with an SMS

@@ -31,9 +31,7 @@ hat. Dies vereinfacht den Datenaustausch zwischen OpenOlat Nutzern.
 
 Ordner dienen dazu Dokumente abzulegen, Dateien zum Download bereitzustellen oder Dateien mit Anderen Usern auszutauschen. 
 
-Wenn Sie über Lese-  **und**  Schreibrechte verfügen, die Ihnen in Kursen oder Gruppen vom
-entsprechenden Betreuer erst zugewiesen werden müssen, können Sie in diesen
-Ordnern Dateien hochladen, erstellen, kopieren, verschieben und löschen. In den persönlichen Ordner haben Sie automatisch Schreib-und Leserechte.
+Wenn Sie über Lese-  **und**  Schreibrechte verfügen, die Ihnen in Kursen oder Gruppen vom entsprechenden Betreuer erst zugewiesen werden müssen, können Sie in diesen Ordnern Dateien hochladen, erstellen, kopieren, verschieben und löschen. In den persönlichen Ordner haben Sie automatisch Schreib-und Leserechte.
 
 Dateien die Sie in OpenOlat hochladen wollen sollten nur folgende Bestandteile
 im Dateinamen enthalten:
@@ -44,14 +42,7 @@ Zudem können Sie Dateien zippen und entzippen. Alle Aktionen lassen sich auf
 einzelne oder mehrere ausgewählte Dateien und Ordner anwenden. Wenn Sie viele
 Dateien auf einmal hochladen wollen, gibt es zwei Wege.
 
-Zum einen können Sie
-Ihre Dateien auf Ihrem Rechner zippen, die ZIP-Datei hochladen und im
-OpenOlat-Ordner entzippen.
-Zum anderen können Sie mehrere Dateien per WebDAV übertragen und organisieren. Alle Ordner sind WebDAV-fähig, d.h. Ordner in
-OpenOlat stehen Ihnen als gewöhnliches Netzlaufwerk zur Verfügung, über
-welches Sie sehr einfach Dateien kopieren, verschieben und löschen können.
-Weitere Infos finden Sie im Kapitel "[Einsatz von
-WebDAV](../basic_concepts/Using_WebDAV.de.md)".
+Zum einen können Sie Ihre Dateien auf Ihrem Rechner zippen, die ZIP-Datei hochladen und im OpenOlat-Ordner entzippen. Zum anderen können Sie mehrere Dateien per WebDAV übertragen und organisieren. Alle Ordner sind WebDAV-fähig, d.h. Ordner in OpenOlat stehen Ihnen als gewöhnliches Netzlaufwerk zur Verfügung, über welches Sie sehr einfach Dateien kopieren, verschieben und löschen können. Weitere Infos finden Sie im Kapitel "[Einsatz von WebDAV](../basic_concepts/Using_WebDAV.de.md)".
 
 !!! info "Hinweis"
 

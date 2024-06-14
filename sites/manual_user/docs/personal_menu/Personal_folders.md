@@ -8,7 +8,7 @@
 
 Under "Personal tools" all OpenOlat users have access to their
 personal folders. In this folder you
-can find 2 subfolders, the folders  _private_  and  _public._
+can find 2 subfolders, the folders  "private"  and  "public".
 
  _Private_
 
@@ -30,11 +30,9 @@ for you. This simplifies the data exchange between OpenOlat users.
 
 ## General Information about folders
 
-Folders can be used to store documents, to make files available for downloads
-or to provide an exchange platform for various users. If you have read **and**
-write access, which have to be assigned to users in courses and groups by a
-coach first, you are generally allowed to upload files, create, copy, move or
-delete them in folders.
+Folders are used to store documents, make files available for download or exchange files with other users. 
+
+If you have read **and** write permissions, which must first be assigned to you in courses or groups by the relevant coach, you can upload, create, copy, move and delete files in these folders. You automatically have read and write permissions in the personal folders.
 
 File names of files you wish to upload to OpenOlat should contain only the following:
 
@@ -44,14 +42,9 @@ Additionally you can zip or unzip files. All these actions can be performed
 with single files and folders or with several ones at once. If you want to
 upload many files at once there are two options at your disposal.
 
-On one side you can zip your files on your computer, upload the zip-file and
-unzip it in the OpenOlat folder. On the other side several files can be
-transferred and organized by WebDAV. All folders are WebDAV compatible. This
-means OpenOlat is available as a normal net-device, with which you can easily
-copy, move and delete files. Further information can be found in the chapter
-"[Using WebDAV](../basic_concepts/Using_WebDAV.md)".
+On the one hand, you can zip your files on your computer, upload the ZIP file and unzip it in the OpenOlat folder. You can also transfer and organize multiple files via WebDAV. All folders are WebDAV-capable, i.e. folders in OpenOlat are available to you as a normal network drive, which you can use to copy, move and delete files very easily. Further information can be found in the chapter "[Using WebDAV](../basic_concepts/Using_WebDAV.md)".
 
-!!! info
+!!! info "Note"
 
     In order for the WebDAV access to work, it needs to be activated by your OpenOlat administrator first.
 
@@ -59,7 +52,9 @@ copy, move and delete files. Further information can be found in the chapter
 
 The storage space per folder is limited. The administrator determines the
 available storage space. The default setting for the private
-and public folder is 100 MB. Your OpenOlat support is responsible for the increase of the quota. Please contact the corresponding contact person.
+and public folders is 100 MB. To increase this quota
+your respective OpenOlat support center. Please contact
+the responsible contact person if necessary.
 
 ## Other types of folders  
 

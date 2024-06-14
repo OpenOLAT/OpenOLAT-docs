@@ -3,14 +3,7 @@
 Im persönlichen Menu unter der Option "Profil" können Sie Ihre persönlichen
 Daten ändern und ihre Visitenkarte einrichten. Vervollständigen Sie einfach die vorgesehenen Felder.
 
-Änderungen der E-Mail-Adresse werden nur übernommen, wenn die neue E-Mail-
-Adresse aktiviert wird. Hierzu wird nach der Änderung ein Aktivierungs-Link an
-die neue Adresse versendet. Sie wählen den Link an oder kopieren ihn in die
-Adresszeile Ihres Browsers und melden sich bei OpenOlat an, um die neue
-E-Mail-Adresse freizuschalten. Bis zur Aktivierung wird in OpenOlat die
-bisherige E-Mail-Adresse verwendet. Sollten Sie den Aktivierungs-Link
-innerhalb von zwei Tagen (48 Stunden) nicht anwählen, verfällt der
-Änderungswunsch. Kontaktieren Sie dann Ihren Administrator.
+Änderungen der E-Mail-Adresse werden nur übernommen, wenn die neue E-Mail- Adresse aktiviert wird. Hierzu wird nach der Änderung ein Aktivierungs-Link an die neue Adresse versendet. Sie wählen den Link an oder kopieren ihn in die Adresszeile Ihres Browsers und melden sich bei OpenOlat an, um die neue E-Mail-Adresse freizuschalten. Bis zur Aktivierung wird in OpenOlat die bisherige E-Mail-Adresse verwendet. Sollten Sie den Aktivierungs-Link innerhalb von zwei Tagen (48 Stunden) nicht anwählen, verfällt der Änderungswunsch. Kontaktieren Sie dann Ihren Administrator.
 
 <details>
     <summary>E-Mail-Signatur</summary>

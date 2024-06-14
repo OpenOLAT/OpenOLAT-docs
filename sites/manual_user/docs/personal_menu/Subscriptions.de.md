@@ -43,7 +43,7 @@ Sie haben auch die Möglichkeit, sich mittels **RSS** über den Änderungsverlau
 
 
 
-Wenn Sie Änderungsmeldungen seltener oder häufiger per E-Mail erhalten wollen oder die E-Mail nicht erhalten wollen, können Sie dies unter „**Einstellungen - Allgemeine Systemeinstellungen**“ im Tab „**System**“ anpassen.
+Wenn Sie Änderungsmeldungen seltener oder häufiger per E-Mail erhalten wollen oder die E-Mail nicht erhalten wollen, können Sie dies unter "**Einstellungen - Allgemeine Systemeinstellungen**" im Tab "**System**" anpassen.
 
 Falls das **Portal** im Menü der Kopfzeile aktiviert ist, können die Änderungsmeldungen auch dort unter "**Meine Benachrichtigungen**" angezeigt werden.
 
@@ -70,7 +70,7 @@ Für alle Lernressourcen, die vor Release 17.2 erstellt wurden, kann das globale
 
 ## Abonnements abbestellen
 
-Wenn Sie das Abonnement nicht mehr wollen, können Sie es entweder abbestellen (an gleicher Stelle wie „Abonnieren“) oder Sie können unter „Abonnements“ hinter der Ressource die Option „löschen“ wählen.
+Wenn Sie das Abonnement nicht mehr wollen, können Sie es entweder abbestellen (an gleicher Stelle wie "Abonnieren") oder Sie können unter "Abonnements" hinter der Ressource die Option "löschen" wählen.
 
 Das Abonnement erlischt ausserdem, wenn Sie nicht mehr Mitglied im entsprechenden Kurs oder Baustein sind (direktes Mitglied oder Mitglied via Gruppe).
 

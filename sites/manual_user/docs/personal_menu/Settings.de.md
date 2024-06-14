@@ -80,9 +80,7 @@ geöffnete Seite drucken.
 	übersichtlich.
 
 Als letztes haben Sie unter "Einstellungen" im Tab "System" die Möglichkeit,
-ihre vorgenommenen systembezogenen Änderungen wieder **auf die Standardeinstellungen zurückzusetzen** , Hierzu zählen  Einstellungen bezüglich
-der Personalisierung, der Benachrichtigungen und der
-Sitzungswiederherstellung.
+ihre vorgenommenen systembezogenen Änderungen wieder **auf die Standardeinstellungen zurückzusetzen**, Hierzu zählen Einstellungen bezüglich der Personalisierung, der Benachrichtigungen und der Sitzungswiederherstellung.
 
 ### Tab WebDAV {: #webdav}
 
