@@ -55,10 +55,11 @@ nav:
       - To-dos: "personal_menu/To-Dos.md"
       - E-Mail: "personal_menu/E-Mail.md"
     - Configuration:
+      - Übersicht: "personal_menu/Personal_Configuration.md"
       - Profile: "personal_menu/Profile.md"
-      - COVID certificate: "personal_menu/COVID_certificate.md"
       - Settings: "personal_menu/Settings.md"
       - Password: "personal_menu/Password.md"
+      - COVID certificate: "personal_menu/COVID_certificate.md"
        
   - Area and modules:
     - area_modules/index.md
