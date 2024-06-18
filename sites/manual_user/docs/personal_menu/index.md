@@ -30,7 +30,7 @@ You can find the following sections in the personal menu:
     * [Badges](../personal_menu/OpenBadges.md)
     * [Bookings](../personal_menu/Bookings.md)
     * [Other users](../personal_menu/Other_users.md)
-    * Absences
+    * [Absences](../personal_menu/Absences.de.md)
     * [Portfolio 2.0](../personal_menu/Portfolio.md)
     * [Media Center](../personal_menu/Media_Center.md)
     * [To-Dos](../personal_menu/To-Dos.md)

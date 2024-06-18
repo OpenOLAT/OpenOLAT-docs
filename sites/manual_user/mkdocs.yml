@@ -49,7 +49,7 @@ nav:
       - Badges: "personal_menu/OpenBadges.md"
       - Bookings: "personal_menu/Bookings.md"
       - Other users: "personal_menu/Other_users.md"
-      #- Absences: "personal_menu/Absences.md"
+      - Absences: "personal_menu/Absences.md"
       - Portfolio: "personal_menu/Portfolio.md"
       - Media Center: "personal_menu/Media_Center.md"
       - To-dos: "personal_menu/To-Dos.md"
