@@ -61,8 +61,7 @@ Je nach Kalenderart (Persönlicher Kalender, Gruppenkalender, Kurskalender) unte
 
 ### Gruppenkalender in Verbindung mit Kurskalendern
 
-In einem Gruppenkalender sehen die Gruppenteilnehmenden alle Einträge der Gruppenmitglieder, egal ob die Termine privat oder öffentlich gesetzt sind. Ist die Gruppe einem Kurs zugeordnet, werden dort für die Gruppenteilnehmer folgende Einträge angezeigt: Öffentliche Einträge der Gruppe, die eigenen Gruppenkalendereinträge des jeweiligen Gruppenmitglieds sowie die
-kurspezifischen Kalendereinträge. Personen die nicht Mitglied der Gruppe sind, sehen im Kurs die Kalendereinträge der anderen Gruppen nicht. Sind einem Kurs also mehrere Gruppen zugeordnet, sehen die Mitglieder also nur die eigenen Gruppenkalendereinträge, aber nicht die der anderen Gruppen.
+In einem Gruppenkalender sehen die Gruppenteilnehmenden alle Einträge der Gruppenmitglieder, egal ob die Termine privat oder öffentlich gesetzt sind. Ist die Gruppe einem Kurs zugeordnet, werden dort für die Gruppenteilnehmer folgende Einträge angezeigt: Öffentliche Einträge der Gruppe, die eigenen Gruppenkalendereinträge des jeweiligen Gruppenmitglieds sowie die kurspezifischen Kalendereinträge. Personen die nicht Mitglied der Gruppe sind, sehen im Kurs die Kalendereinträge der anderen Gruppen nicht. Sind einem Kurs also mehrere Gruppen zugeordnet, sehen die Mitglieder also nur die eigenen Gruppenkalendereinträge, aber nicht die der anderen Gruppen.
 
 
 ## Kalenderliste (im Bereich Persönliche Werkzeuge)
@@ -82,9 +81,7 @@ Wenn Ihr Kalender trotz eingetragener Termine leer erscheint bzw. bestimmte Term
 
 ## Kalender integrieren
 
-Über iCal (einem Standard zur Verwaltung von Terminen), können Sie die verschiedenen OpenOlat-Kalender in einen anderen Kalender wie z.B. den Google-Kalender integrieren. Klicken Sie dazu das iCal Icon
-![RSS Symbol](assets/icon_rss_small.png){ width=24px } entweder in der Kalenderansicht oder in der entsprechenden Zeile der Kalenderliste, und kopieren Sie den iCal Link. Andere Kalender wie beispielsweise aus dem System PerformX lassen sich auf diese Art auch in den OpenOlat-Kalender als managed
-Kalender integrieren. Managed Termine werden mit einem Schloss-Symbol gekennzeichnet.
+Über iCal (einem Standard zur Verwaltung von Terminen), können Sie die verschiedenen OpenOlat-Kalender in einen anderen Kalender wie z.B. den Google-Kalender integrieren. Klicken Sie dazu das iCal Icon ![RSS Symbol](assets/icon_rss_small.png){ width=24px } entweder in der Kalenderansicht oder in der entsprechenden Zeile der Kalenderliste, und kopieren Sie den iCal Link. Andere Kalender wie beispielsweise aus dem System PerformX lassen sich auf diese Art auch in den OpenOlat-Kalender als managed Kalender integrieren. Managed Termine werden mit einem Schloss-Symbol gekennzeichnet.
 
 !!! info "Hinweis"
 

@@ -11,7 +11,7 @@ In OpenOlat können Leistungsnachweise erbracht werden für
 * abgegebene und bewertete Aufgaben
 * u.a.
 
-Als Bestätigung für den Besuch eines Kurses bzw. der Erreichung von bestimmten kursbezogenen Aktivitäten kann ausserdem ein [PDF-Zertifikat](../learningresources/Course_Settings_Assessment.de.md#kurs-zertifikat)ausgestellt werden. Ein Zertifikat kann auch ohne die Verwendung eines Leistungsnachweises ausgestellt werden.
+Als Bestätigung für den Besuch eines Kurses bzw. der Erreichung von bestimmten kursbezogenen Aktivitäten kann ausserdem ein [PDF-Zertifikat](../learningresources/Course_Settings_Assessment.de.md#kurs-zertifikat) ausgestellt werden. Ein Zertifikat kann auch ohne die Verwendung eines Leistungsnachweises ausgestellt werden.
 
 ![pers_menu_evid_of_achiev_list_v1_de.png](assets/pers_menu_evid_of_achiev_list_v1_de.png){ class="shadow lightbox"}
 

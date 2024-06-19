@@ -16,6 +16,13 @@ Until activation, the previous e-mail address is used in OpenOlat. If you do
 not dial the activation link within two days (48 hours), the change request
 expires. In that case, please contact your administrator.
 
+<details>
+    <summary>E-Mail-Signature</summary>
+	If the option to enter your e-mail signature is not displayed, please contact your administrator.
+	<img src="../assets/configuration_profile_signature_v1_de.png" />
+
+</details>
+
 A phone number for sending SMS can be added in the contact data. If an SMS
 service is stored with your system, the password can be reset with an SMS
 authentication. For this purpose, a phone number must be stored here. The
@@ -120,7 +127,7 @@ page of the user manual and Print to print the currently opened page.
   
 
 Finally, under "Settings" in the "System" tab, you have the option of
-**resetting** your system-related changes **to the  ** **default settings** ,
+**resetting** your system-related changes to the  **default settings** ,
 including settings for personalization, notifications and session restore.
 
 ###  Tab WebDAV {: #webdav}

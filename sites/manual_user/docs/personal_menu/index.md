@@ -8,10 +8,10 @@ It opens in the right margin by clicking on the small image in the upper right c
 
 You can find the following sections in the personal menu:
 
-* **Personal Tools**
-* **Configuration**
-* **Help**
-* **System**
+* **1 Personal Tools**
+* **2 Configuration**
+* **3 Help**
+* **4 System**
 * as well as the **Logout** function
 
 ![pers_menu2_v2_de.png](assets/pers_menu2_v2_de.png){ class="shadow aside-right lightbox"}
@@ -30,7 +30,7 @@ You can find the following sections in the personal menu:
     * [Badges](../personal_menu/OpenBadges.md)
     * [Bookings](../personal_menu/Bookings.md)
     * [Other users](../personal_menu/Other_users.md)
-    * [Absences](../personal_menu/Absences.de.md)
+    * [Absences](../personal_menu/Absences.md)
     * [Portfolio 2.0](../personal_menu/Portfolio.md)
     * [Media Center](../personal_menu/Media_Center.md)
     * [To-Dos](../personal_menu/To-Dos.md)

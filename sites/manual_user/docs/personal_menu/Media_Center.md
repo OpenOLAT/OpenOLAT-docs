@@ -9,10 +9,8 @@ The Media Center is a **central collection point** for different types of media.
 * ... created directly in the Media Center (e.g. video recording, docx, pptx, ...)
 * ... created in various course elements and then stored in the Media Center
 * ... created externally and uploaded as a file
-  
 * ... used across courses
 * ... released (shared) to other persons (authors) and used jointly
-
 * ... versioned
 * ... tagged
 * ... assigned to a taxonomy
@@ -76,7 +74,7 @@ There are various ways to store media in the Media center:
 
 ### Create media form the content editor
 
-Media for the Media Center can also be created in the OpenOlat course or in the portfolio using the content editor. In the course, for example, this can be done via the course element ["Page"](../learningresources/Course_Element_Page.md). Go to edit mode and select "Add content". The option **"Select from my Media Center "** will then appear next to opther options.
+Media for the Media Center can also be created in the OpenOlat course or in the portfolio using the content editor. In the course, for example, this can be done via the course element ["Page"](../learningresources/Course_Element_Page.md). Go to edit mode and select "Add content". The option **"Select from my Media Center"** will then appear next to opther options.
 ![Medium auswählen aus dem Mediencenter1](assets/page_select_media_center_en.png){ class=" shadow lightbox" }
 
 All the same options are available here as when creating directly in the Media Center.

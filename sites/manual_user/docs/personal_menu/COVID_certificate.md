@@ -3,9 +3,9 @@
 If the Covid certificate has been activated by the admin, users will find the "COVID certificate" tab under "Profile". Here you can add new COVID certificates or view the status of an existing certificate.
 The status of your certificate is only visible to you.
 
-!!! Note 
+!!! Note "Important"
 
-    No data is stored. Only the date is saved for the validation of the COVID   certificate.
+    No data is stored. Only the date is saved for the validation of the COVID certificate.
 
 ## Add COVID certificate
 
