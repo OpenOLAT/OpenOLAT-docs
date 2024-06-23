@@ -37,7 +37,7 @@ Die Teilnehmer sind in der Regel die Lernenden bzw. Personen, die an einem Onlin
 
 Ein Kursmitglied kann im Kurs gleichzeitig über mehrere Rollen verfügen. In diesem Fall erscheint bei den Personen in der Toolbar des Kurses die Möglichkeit, einen Rollenwechsel vorzunehmen und sich so den Kurs aus verschiedenen Kursrollen anzuschauen.  
 
-![](assets/Rollenwechsel1.png)
+![Rollenwechsel](assets/Rollenwechsel1.png)
 
   
 Häufig ist es sogar sinnvoll, sich als Kursbesitzer zusätzlich noch als Kursteilnehmer einzutragen, um sich den Kurs aus der entsprechenden Perspektive anzusehen.
@@ -81,7 +81,7 @@ Ab :octicons-tag-24: 17.0 verfügbar.
 
 Hier werden alle Personen angezeigt, die über die Option "Externe Mitglieder einladen" (siehe oben) dem Kurs hinzugefügt wurden. 
 
-##  Bereich "Rechte"
+##  Bereich "Rechte"   {: #rights}
 
 Häufig kommt es vor, dass man Benutzern weitere Rechte übergeben möchte ohne ihnen aber volle Besitzerrechte zu übertragen oder eine weitere kursspezifische Rolle zu vergeben. Dies können Sie hier im Bereich ****Rechte** der Mitgliederverwaltung erledigen. 
 

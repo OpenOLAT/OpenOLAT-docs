@@ -30,7 +30,7 @@ Die konkreten Einstellungsmöglichkeiten sind davon abhängig, ob der Kursbauste
 
 Weitere Informationen zu den allgemeinen Tabs "Titel und Beschreibung", Layout" sowie "Sichtbarkeit" und "Zugang" finden Sie [hier](../learningresources/General_Configuration_of_Course_Elements.de.md).
 
-## Tab Übersicht
+## Tab Übersicht  {: #overview}
 
 Die zentralen Einstellungen werden im Tab "Übersicht" vorgenommen. Sie können zwischen vier Darstellungsarten für den Baustein wählen und so eine automatisch von OpenOlat generierte Übersicht erzeugen, eine eigene HTML-Seite verknüpfen oder einfach den ersten untergeordneten Kursbaustein anzeigen lassen.
 

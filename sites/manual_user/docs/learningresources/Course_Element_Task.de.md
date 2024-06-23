@@ -40,7 +40,7 @@ Darüber hinaus verfügen Lernpfad Kurse noch über den Tab "Lernpfad" bzw. Herk
 
 Im Folgenden werden die einzelnen Tabs für den Kursbaustein Aufgabe näher erläutert.
 
-### Tab "Workflow“
+### Tab "Workflow“  {: #workflow}
 
 Der Tab Workflow ist der zentrale Tab zur Konfiguration des Kursbausteins Aufgabe. Hier wird definiert welche einzelnen Elemente der Aufgabe überhaupt benötigt werden. 
 
@@ -72,7 +72,7 @@ Die differenzierte Zuordnung der Personen erfolgt allerdings bei geschlossenem K
 
     Wird jedoch z.B. die Aufgabenstellung nachträglich hinzugefügt und ein Teilnehmer ist in ihrem persönlichen Workflow bereits weiter fortgeschritten, so muss nachträglich keine Aufgabe mehr ausgewählt werden.  
 
-### Tab "Aufgabenstellung“
+### Tab "Aufgabenstellung“  {: #assignment}
 
 Sofern im Tab "Workflow" die  "Aufgabenstellung" aktiviert wurde können Sie diese nun bereitstellen. 
 
@@ -108,7 +108,7 @@ Es folgt keine automatische Änderung. Der Teilnehmer erhält nun aber die Mögl
 
 ![Daten zurücksetzen User](assets/Aufgabe_User_Daten_zurücksetzen.png)
 
-### Tab "Abgabe“
+### Tab "Abgabe“  {: #submission}
 
 Hier legen Sie fest wie und in welchem Umfang Kursteilnehmende Dokumente bzw. Bearbeitungen abgeben können.
 
@@ -134,15 +134,15 @@ Darüber hinaus können Sie auch die minimale und maximale Anzahl von Dokumenten
 
 Aktivieren Sie die E-Mail Bestätigung damit Personen, die eine Aufgabe abgegeben haben eine entsprechende E-Mail erhalten. Der vorformulierte E-Mailtet kann bei Bedarf weiter angepasst werden. 
 
-### Tab "Rückgabe und Feedback"
+### Tab "Rückgabe und Feedback"  {: #revisions}
 
 In diesem Tab kann die minimale und maximale Anzahl von Rückgabedokumenten definiert werden.
 
-### Tab "Bewertung“
+### Tab "Bewertung“  {: #grading}
 
 Hier definieren Sie _wie_ die Lernenden bewertet werden sollen. Soll es Punkte geben? Soll es ein bestanden/nicht bestanden für den Kursbaustein geben? Soll die Punktebewertung mit einer Bewertungsskala verbunden werden? Wenn ja, mit welcher? Sollen weitere individuelle Kommentare oder Dokumente bereitgestellt werden können? Entscheiden Sie jeweils was für Ihr Szenario passend ist.
 
-#### Punkte vergeben
+#### Punkte vergeben  
 
 Wenn die Punktevergabe aktiviert wurde müssen die minimale und die maximale Punktzahl angegeben werden. Zusätzlich können Sie dann auch die Option "Bewertung mit Einstufung/Noten" wählen und weiter konfigurieren. So können den jeweiligen Punkten bestimmte Bewertungsskalen wie Level, Noten, (Kompetenz-)Stufen oder Label zugeordnet werden. Die zur Verfügung stehenden Bewertungsskalen werden vom OpenOlat Administrator definiert und können über den Button "Bewertungsskala bearbeiten" ausgewählt sowie die Punkte im Detail angepasst werden. Ferner muss definiert werden ob die Zuordnung zur berechneten Einstufung manuell durch den Betreuer erfolgt oder automatisch bei Punktänderung angezeigt werden soll.
 
@@ -158,7 +158,7 @@ Optional können sie noch die Möglichkeit für individuelle Kommentare oder ind
 #### Hinweise
 Wenn Sie die erweiterte Konfiguration aufklappen stehen noch weitere Konfigurationen zur Verfügung. Hier können Sie noch Hinweistexte für alle Lernenden und/oder für alle Betreuenden hinterlegen. 
 
-### Tab "Musterlösung“
+### Tab "Musterlösung“ {: #sample}
 
 Um allen Kursteilnehmenden eine Musterlösung zu den gestellten Aufgaben anzubieten, erstellen Sie entweder direkt die Musterlösung mit dem internen Editor, nehmen ein Video mit ihrer Webcam auf oder laden Dateien mit den Musterlösungen hoch. 
 

@@ -66,7 +66,7 @@ The Learning Path tab also defines which criterion must be met for the task to b
 
     Traditional courses do not have the "Learning Path" tab and instead have the "Visibility" and "Access" tabs, including expert mode.
 
-### Tab "Workflow"
+### Tab "Workflow"  {: #workflow}
 
 This is the central tab for configuring the course element Task. Here you can define which individual elements of the task are required in general. Should a concrete task be stored in the course element or will the user find the task somewhere else? Should the user hand in a document? Should there be feedback from the teacher? Should the user be able to revise a submission if necessary? Should a sample solution be provided? Should a score or passing be possible? Should certain learners be assessed by certain coaches?
 
@@ -99,7 +99,7 @@ In the group task, you additionally define in the "Task type" section for which 
 
     However, if you add the assignment step later and a member or group is already further into the task, then they don't have to choose an assignment anymore.
 
-### Tab "Assignment"
+### Tab "Assignment"   {: #assignment}
 
 In the "Assignment" tab you can
 
@@ -146,7 +146,7 @@ The assignment is not reset automatically. The participant gets the opportunity 
 
     In group tasks only one task can be chosen by the group. As soon as one member picks a task, this choice counts for all group members.
 
-### Tab "Submission"
+### Tab "Submission"  {: #submission}
 
 Determine how participants are allowed to hand in documents and how many in the segment "Submission configuration".
 
@@ -164,11 +164,11 @@ Activate **"Task as template"** if learners should use the stored task file as a
 
 In the "Submission confirmation" segment you will find the standard phrase to confirm that course participants have submitted their solutions successfully. This text can be adapted if necessary. The option "Send text additionally as e-mail" means that your text will be sent by e-mail as well. In group tasks all members get an e-mail confirmation.
 
-### Tab "Revisions and feedback"
+### Tab "Revisions and feedback"   {: #revisions}
 
 Here you can define the minimum and maximum number of return documents.
 
-### Tab "Grading"
+### Tab "Grading"  {: #grading}
 
 Here you define how each course participant shall be assessed. Should there be points? Should there be a pass/fail for the course element? Should the point evaluation be linked to a rating scale? Should it be possible to provide further individual comments or documents? Decide in each case what is suitable for your scenario.
 
@@ -182,7 +182,7 @@ Optionally, you can activate the option for individual comments or individual as
 
 In addition you can provide further information in the fields "Notice for all users" and "Notice for tutors," e.g. some general comment on how to assess course participants.
 
-### Tab "Sample Solutions"
+### Tab "Sample Solutions"  {: #sample}
 
 In order to provide all course participants with a sample solution regarding your tasks just either upload appropriate documents or directly create them via the embedded text editor. The sample solution is visible after the coach accepted solution documents for submission.
 

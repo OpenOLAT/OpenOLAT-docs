@@ -29,7 +29,7 @@ The concrete setting options depend on whether the course element is used in con
 
 For more information on the general tabs "Title and Description", "Layout" and "Visibility" and "Access", see [here](../learningresources/General_Configuration_of_Course_Elements.md)
 
-## Tab Overview
+## Tab Overview {: #overview}
 
 The central settings are made in the "Overview" tab.You can choose between four display modes for the course element "Structure" in the tab Overview and thus generate an automatically generated overview, integrate your own HTML page or simply display the first subordinate course element.
 

@@ -132,7 +132,7 @@ Allowing a course copy for other authors is useful for course templates, for exa
 As the owner of a learning resource, you can also determine in the administration menu under "Settings" → "Shared to other authors" whether your learning resource may be exported, copied or referenced by all other OpenOlat authors in the system.
 You can find further information [here](../learningresources/Access_configuration.md).
 
-### Delete (learning resource)
+### Delete (learning resource)   {: #delete}
 
 When a course or learning resource is deleted, all user data is removed and the course can now neither be accessed nor viewed by former participants or coaches. Course owners will subsequently find the deleted learning resource in the authoring area in the "Deleted" tab. Only the course owner has access and finds the course in the authoring area under the tab "Deleted". 
 Here the learning resource appears with the status "Trash". There is still access to the administration menu items. The "Trash" status cannot be changed. However, it is possible to restore the learning resource using the link in the 3-dot menu.

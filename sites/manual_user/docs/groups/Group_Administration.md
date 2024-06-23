@@ -28,7 +28,7 @@ Under the tab "Description" you can
 
 You have already made these settings during creation.
 
-## Tab Tools
+## Tab Tools  {: #tools}
 
 In the tab Tools the group can be provided by collaborative tools. 
 Once a tool is activated, its

@@ -30,7 +30,7 @@ Im Reiter (Tab) "Beschreibung" der Gruppen-Administration können Sie
 
 Diese Einstellungen haben Sie bereits bei der Erstellung vorgenommen.
 
-## Tab Werkzeuge
+## Tab Werkzeuge {: #tools}
 
 Im Tab Werkzeuge können Sie die Gruppe mit kollaborativen Werkzeugen
 ausstatten. Wurde ein Werkzeug aktiviert, erscheint der entsprechende Eintrag inkl. Icon im Menü links.

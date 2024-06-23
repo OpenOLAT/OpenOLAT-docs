@@ -12,7 +12,7 @@ sind hierfür relevant. Je ausführlicher Sie die Lernressource beschreiben,
 umso einfacher kann diese gefunden und desto besser sind Interessierte und
 spätere Teilnehmer informiert.
 
-![](assets/Einstellungen15.png)
+![Kursadministration Einstellungen](assets/Einstellungen15.png)
 
 Der Screenshot zeig die "Einstellungen" eines Kurses. Je nach Lernressource
 steht nur ein Teil der Tabs zur Verfügung.
@@ -98,7 +98,7 @@ resources) erstellen wollen, sind die Creative Commons Lizenzen ein passender
 Ansatz. Beachten Sie aber für alle verwendeten Materialien unbedingt das
 Urheberrecht, damit Ihre Angaben korrekt sind.
 
-## Durchführung
+## Durchführung {: #execution}
 
 Kurse verfügen, im Gegensatz zu anderen Lernressourcen, im Menü
 "Einstellungen" noch über den Tab "Durchführung".

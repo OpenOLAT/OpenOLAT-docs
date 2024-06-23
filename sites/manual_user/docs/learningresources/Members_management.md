@@ -76,7 +76,7 @@ Available in :octicons-tag-24: 17.0.
 
 All persons added to the course via the "Invite external members" option (see above) are displayed here. 
 
-##  Rights
+##  Rights  {: #rights}
 
 It often happens that you want to give users additional rights without giving them full ownership rights. You can do this in the **Rights** section of the members management.
 

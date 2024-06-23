@@ -152,7 +152,7 @@ Exportieren Sie Ihre Lernressourcen als ZIP-Datei um eine Sicherungskopie zu erh
 Als Besitzer einer Lernressource können Sie darüber hinaus im Administrationsmenü unter "Einstellungen" → "Freigabe für andere Autoren" bestimmen, ob Ihre Lernressource von allen anderen OpenOlat-Autoren des Systems exportiert, kopiert oder referenziert werden darf.  Weitere Infos dazu finden Sie [hier](../learningresources/Access_configuration.de.md).
 
 
-## (Kurs bzw. Lernressource) Löschen
+## (Kurs bzw. Lernressource) Löschen  {: #delete}
 
 Wenn ein Kurs bzw. Lernressource gelöscht wird, werden alle Benutzerdaten entfernt und der Kurs ist nun weder für die ehemaligen Teilnehmenden noch die Betreuer aufruf- oder einsehbar. Kursbesitzer finden die gelöschte Lernressource anschliessend im Autorenbereich im Tab "Gelöscht". Hier erscheint die Lernressource mit dem Status "Papierkorb". Es besteht weiter Zugriff auf die Menüpunkte der Administration. Der Status "Papierkorb" kann nicht geändert werden. Jedoch ist es möglich, über den Link im 3-Punkte Menü die Lernressource wiederherzustellen.
 

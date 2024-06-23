@@ -59,7 +59,7 @@ In the tab "Configuration" you determine first how many topics can be selected b
 
 ----
 
-### Further settings for topic assignment
+### Further settings for topic assignment  {: #persons}
 
 * **How to appoint topic authors - Tab "Persons in charge"**
   

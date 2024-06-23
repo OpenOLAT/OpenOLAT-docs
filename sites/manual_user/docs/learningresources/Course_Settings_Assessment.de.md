@@ -78,7 +78,7 @@ Betreuenden kann gestattet werden ...
 ![course_settings_assessment_coaches_v1_de.png](assets/course_settings_assessment_coaches_v1_de.png){ class="shadow lightbox" }
 
 
-## Leistungsnachweis
+## Leistungsnachweis 
 
 Wenn Sie die Option "Leistungsnachweise verwenden" aktivieren, erscheint im Kurs im Toolbar Menü ["Mein Kurs"](../learningresources/Additional_Course_Features.de.md) die Option "Leistungsnachweis" und die Kursteilnehmenden sehen einen Überblick über die bewertbaren Kursbausteine mit ihrem jeweiligen aktuellen Bewertungsstatus.
 
