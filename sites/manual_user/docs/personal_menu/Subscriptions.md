@@ -81,7 +81,7 @@ Thanks to RSS, you are quickly and conveniently informed about changes in the fo
 
  **Where can I find the address of the RSS file??:**
 
-Click on the icon ![](assets/icon_rss_small.png) . A new browser window opens. Ignore the content of the page and copy the web address (URL) to the clipboard. Then paste the web address into your RSS reader.
+Click on the icon ![](assets/icon_rss_small.png). A new browser window opens. Ignore the content of the page and copy the web address (URL) to the clipboard. Then paste the web address into your RSS reader.
 
 ![subscriptions_rss_v1_en.png](assets/subscriptions_rss_v1_en.png){ class=" shadow lightbox" }
 

@@ -1,172 +1,127 @@
-# Personal Menu
+# Personal Tools
 
-The personal tools can be displayed and set up more specifically via the drop-
-down menu in the top right-hand corner. The tools that are available to a user
-appear in Personal Tools.
+![pers_menu_tools_v1_de.png](assets/pers_menu_tools_v1_de.png){ class="aside-right shadow lightbox"}
 
-![](assets/en_personalmenu.png)
+You can find the personal Tools as a section in the [Personal Menu](index.md)
 
+Which tools are offered to you here is determined on the one hand by the default settings/activation in the system administration. On the other hand, you can decide whether the tools should appear in the [personal menu](index.md) or in the quick access in the header.
+
+<br>
+<br>
+
+## Calendar
   
+In the personal calendar, you can see your private appointments as well as entries from group and course calendars that have been added to your personal calendar via the calendar list.
 
-Some tools can also be added to the quick access in the settings. Then they
-appear directly in the upper navigation bar.
+You can create private appointments that only you can see, or public appointments that other OpenOlat users with access rights can also see.
 
-The following personal tools will be described briefly:
+[Here are the details >](Calendar.md)
 
-![](assets/User tools EN.png)
-![](assets/Benutzerwerkzeuge2.jpg)
-
-##  Calendar
-
-In your personal calendar you can see your private events as well as events
-regarding calendars of groups and courses. You can hide or unhide calendars
-via the calendar list. Should your calendar remain empty or should certain
-events not appear, it could be that you forgot to select that calendar in the
-calendar list.
-
-  
-
-If you can't find the calendar among your personal tools, it was disabled by a
-system administrator.
-
-It is possible to create private entries. While only you can see and access
-private entries, all registered OpenOlat users can see public entries
-including all details on your calendar.
-
-Further information on the calendar list, how to create entries and other
-calendar functions is available in the [calendar](Calendar.md) chapter.
 
 ##  Subscriptions {: #subscriptions}
 
-Thanks to OpenOlat's notifications you are always up-to-date regarding your
-courses or groups. OpenOlat assists you in getting information on
-modifications regarding subscribed objects. In order to get this information
-you have to first determine the relevant objects you want to stay informed on.
-You will be informed about e.g new documents in a folder, about answers to
-forum entries or modified Wiki pages. In many places you can select the option
-"Subscribe" within the relevant objects to be kept informed.
+Would you like to be informed promptly about changes to courses and groups? Then you can set up subscriptions for the desired course modules. News will then be sent to you once a day by e-mail.
 
-The following objects can be subscribed:  **Forum, Folder, Wiki, Task, File
-discussion, Portfolios, Blog, Podcast, Participant-Folder, Notifications and
-Video**. If you have the right to use the assessment tool you can be notified
-in case of new incoming test results or new registered users.
+You can subscribe to change notifications for the following course elements: 
 
-OpenOlat will send you an appropriate e-mail once a day, and if the the Portal
-is activated, news will be displayed immediately in the Portal under "My
-Notifications". If you prefer to receive such messages more or less often or
-not at all you can change this in the "Settings" in the tab "System". You will
-also find your news in the personal menu under "Subscriptions". You can choose
-to be shown any modifications within a certain period of time in the tab
-"News" or you can choose to have sent those modifications once again via
-e-mail. _The tab "_ Subscriptions _"_ provides you with a list of all
-subscribed objects _._ You have also the possibility to get information on
-modifications via RSS.
+* Forum
+* Folder
+* Wiki
+* Calendar
+* Task
+* File discussion
+* Portfolio maps
+* Notifications
+* Participant folder
+* Blog
+* Podcast
+* Video
+
+[Here are the details >](Subscriptions.md)
 
 
-### News via RSS {: #rss}
 
-**Why should I know what RSS is?:**
+##  Personal folder (up to Release 18)
 
-By means of RSS you will quickly and comfortably get information on
-modifications of forums and folders you have subscribed to. Just one look and
-you will see the titles of new entries as well as what has happend since your
-last login. Furthermore, you will receive relevant links in order to get
-directly to the new stuff in OpenOlat. All you need to get this service is the
-Internet address of the RSS files provided for you and a so-called RSS reader.  
-  
-**Where do I find this address of a RSS file?:**
+OpenOlat provides you with storage space in your personal folder. For example, you can store presentations there that you want to access from another computer, cache research papers, etc.
 
-Click on the icon
-![](assets/rss.png)A
-new window will be opened. Ignore the page's content and copy the URL to the
-temporary folder. Then paste the URL to your RSS reader.  
-  
-**How do I get a RSS reader?:**  
-We suggest the the following search terms: _RSS reader_ , _RSS newsreader_ ,
-_feedreader_ in order for you to find a suitable RSS reader  
-  
- **For more information:**  
-[__ Wikipedia](http://en.wikipedia.org/wiki/Rss_feed)
+Find out [more >](Personal_folder.md)
 
-  
+## File Hub (Release 19)
 
-If you do not need your subscription any longer you can either unsubscribe it
-(same place as "Subscribe") or you can select the option "Delete" in the
-section "Subscriptions," right next to your resource. The subscription also
-expires if you are no longer a member of the corresponding course or module
-(directly or via a group).
+From Release 19, a file hub is available in OpenOlat in which all folders available in OpenOlat are listed. (Course folders, group folders, archive folders, etc.) However, only folders to which the logged-in user has access authorization are displayed in the File Hub. The **personal folder** can also be accessed via the File Hub.
 
-##  Personal folder
+For this reason, "Personal Folder" has been replaced by "File Hub" in the selection options for personal tools from Release 19.
 
-OpenOlat provides you with storage space in your personal folder. You can, for
-example, store presentations that you would like to access from another
-computer, cache research work, etc. Further information can be found
-[here](Personal_folders.md).
+Find out [more >](File_Hub.md)
 
 ##  Notes
 
-You can take notes in each course. You can collect and edit your notes before
-even printing them.
+You can write notes in every course. Here you can see which notes you have made and can edit and print them out.
+
+Find out [more >](Notes.md)
 
 ##  Evidences of achievement
 
-An evidence of achievement is a certification of some assessment, e.g. tests,
-written examinations, or other tasks handed in to be reviewed. Course authors
-determine if OpenOlat should create assessments in their course. Course
-participants will see their evidences of achievement after taking a test, etc.
-that has been assessed. If a certificate is provided along with an evidence of
-achievement, you can view and download the certificate in the detailed view of
-the respective evidence of achievement.
+A certificate of achievement is a confirmation of a completed performance assessment and shows, for example, completed tests or submitted and assessed tasks. Course authors specify in their courses whether OpenOlat should create certificates of achievement. Course participants see their transcripts of records if they are attending courses with transcripts of records, have already performed and have been assessed. 
+
+Find out [more >](Evidence_of_Achievements.md)
 
 ## Competences
 
-Here the user gets an overview of all personal competencies assigned in
-OpenOlat, e.g. in ePortfolio entries or as a competency in the user profile.
+Here the user receives an overview of all personal skills assigned in OpenOlat, e.g. in ePortfolio entries or as skills in the user profile.
+
+Find out [more >](Competences.md)
+
+## Badges
+
+Badges can also be earned in OpenOlat, as is common in online games and learning opportunities. As the course author, you can determine whether a badge is awarded, for which achievement it is awarded and what the badge should look like.
+
+Find out [more >](OpenBadges.md)
 
 ## Bookings
 
-All of the user's course bookings are listed here, including additional
-booking information.
+All of the user's course bookings are listed here, including further booking information.
+
+Find out [more >](Bookings.md)
 
 ##  Other users
 
-Search for other OpenOlat users! Have a look at their visiting card, at the
-"Public" area of their personal folder, at any released portfolio folders, or
-send them a message by means of a contact form.
+You can search for other OpenOlat users, view public business cards, browse the "public" section of users' personal folders, view shared portfolio folders or contact the respective persons using the contact form.
+
+Find out [more >](Other_users.md)
 
 ## Absences
 
-If the "Absence Management" module is activated, users can view the absences
-recorded for them at this point.
+If the "Absence Management" module is activated, users can view the absences recorded for them at this point.
+
+Find out [more >](Absences.md)
 
 ##  Portfolio 2.0
 
-A Portfolio is used to document learning results as well as learning processes
-and is therefore meant to assist in reflecting on someone's process of development. Lernprodukte können hier gesammelt und bei Bedarf bestimmten Personen zugänglich gemacht werden.  The menu entry Portfolio 2.0 serves to create binders of portfolios before making those accessible to certain people (OpenOlat users as well as external people). You can also have a look at other users' portfolios
-or perform portfolio tasks of an OpenOlat course. 
+A portfolio is used to collect and document (learning) artifacts, learning outcomes and learning processes, as well as to promote reflection on one's own development process. Learning products can be collected here and made accessible to specific people if required.
 
-Further information you find [here](../area_modules/Portfolio_General_Information.md).  
+Find out [more >](Portfolio.md)
 
- What's a reflection?
+## Media Center
 
-A reflection is an examination of passed events or ongoing processes and
-should be unemotional. To reflect means to evaluate from a distance how e.g. a
-task has been performed, how one has dealt with oneself, with a certain
-situation, or how one has acted within a group, etc. When learning with
-portfolios this kind of written reflection is very important. Each lerner has
-to think about his or her own personal learning progress, about the amount of
-interest or concern, as well as about how the knowledge acquired can be used.
-Judgements such as "this was good, that wasn't interesting, etc." should not
-be mentioned in reflections. A good reflection is an important step towards
-learning with a high degree of personal responsibility.
+The Media Center is the central collection point for media:
 
-Reflections can be altered later on. When linking an artefact in a folder you
-can also edit its corresponding reflection in the table view, column
-"Reflection."
+* Different media types (file formats),
+* which (depending on the access authorization assigned) can also be used by different people.
+* and can be used in different places in OpenOlat.
+
+Find out [more >](Media_Center.md)
+
+## To-dos
+
+The tasks to be completed (to-dos) can be found in several places in OpenOlat (e.g. within a project). In the personal menu you will find all your personal to-dos summarized in an overview.
+
+Find out [more >](To-Dos.md)
 
 ##  E-mail
 
-The "E-mails" section provides you with an overview of all your sent and
-received E-mails. OpenOlat stores all E-mails and thus allows for an easy
-navigation between different contexts.
+You can view all emails sent and received in OpenOlat under Emails. The email history in OpenOlat is saved, thus maintaining an overview of emails received and sent. For a better overview, you can sort and display emails by context.
+
+Find out [more >](E-Mail.md)
 

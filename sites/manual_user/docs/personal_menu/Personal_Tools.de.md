@@ -45,9 +45,7 @@ Von folgenden Kursbausteinen können Sie Änderungsmeldungen im Abonnement bezie
 
 ##  Persönlicher Ordner (bis Release 18)
 
-Im persönlichen Ordner stellt OpenOlat Ihnen Speicherplatz zur Verfügung. Sie
-können dort beispielsweise Präsentationen ablegen, auf die Sie von einem
-anderen Rechner zugreifen möchten, Forschungsarbeiten zwischenspeichern, etc.
+Im persönlichen Ordner stellt OpenOlat Ihnen Speicherplatz zur Verfügung. Sie können dort beispielsweise Präsentationen ablegen, auf die Sie von einem anderen Rechner zugreifen möchten, Forschungsarbeiten zwischenspeichern, etc.
 
 [Zu den Details >](Personal_folders.de.md)
 
@@ -63,8 +61,7 @@ Deshalb wurde in den Auswahloptionen der persönlichen Werkzeuge ab Release 19 "
 
 ## Notizen
 
-In jedem Kurs können Sie Notizen verfassen. Unter diesem Punkt sehen Sie,
-welche Notizen Sie gemacht haben und können diese bearbeiten und ausdrucken.
+In jedem Kurs können Sie Notizen verfassen. Unter diesem Punkt sehen Sie, welche Notizen Sie gemacht haben und können diese bearbeiten und ausdrucken.
 
 [Zu den Details >](Notes.de.md)
 
@@ -75,14 +72,12 @@ Ein Leistungsnachweis ist eine Bestätigung einer erfolgten Leistungskontrolle u
 
 Eine besondere Form von Leistungsnachweis sind Zertifikate.
 
-[Zu den Details >](Evidence_of_Achivements.de.md)
+[Zu den Details >](Evidence_of_Achievements.de.md)
 
 
 ## Kompetenzen
 
-Hier erhält der Benutzer eine Übersicht zu allen persönlichen Kompetenzen, die
-in OpenOlat zugewiesen sind, z.B. in ePortfolio-Einträgen oder als Kompetenz
-im Benutzerprofil.
+Hier erhält der Benutzer eine Übersicht zu allen persönlichen Kompetenzen, die in OpenOlat zugewiesen sind, z.B. in ePortfolio-Einträgen oder als Kompetenz im Benutzerprofil.
 
 [Zu den Details >](Competences.de.md)
 
@@ -103,10 +98,7 @@ Alle Kurs-Buchungen des Benutzers werden hier inklusive weiterer Buchungsinforma
 
 ##  Andere Benutzer (Personensuche)
 
-Sie können nach anderen OpenOlat-Benutzern suchen, öffentliche Visitenkarten
-ansehen, den „public“-Bereich der persönlichen Ordner von Benutzern
-durchstöbern, freigegebene Portfoliomappen anschauen oder mit Hilfe des
-Kontaktformulars die jeweiligen Personen kontaktieren.
+Sie können nach anderen OpenOlat-Benutzern suchen, öffentliche Visitenkarten ansehen, den "public"-Bereich der persönlichen Ordner von Benutzern durchstöbern, freigegebene Portfoliomappen anschauen oder mit Hilfe des Kontaktformulars die jeweiligen Personen kontaktieren.
 
 [Zu den Details >](Other_users.de.md)
 
@@ -120,10 +112,7 @@ Bei aktiviertem Modul "Absenzenmanagement" können Benutzer an dieser Stelle die
 
 ##  Portfolio 2.0
 
-Ein Portfolio dient der Sammlung und Dokumentation von (Lern-)Artefakten,
-Lernergebnissen und Lernprozessen, sowie zur Förderung der Reflexion über den
-eigenen Entwicklungsprozess. Lernprodukte können hier gesammelt und bei Bedarf
-bestimmten Personen zugänglich gemacht werden.
+Ein Portfolio dient der Sammlung und Dokumentation von (Lern-)Artefakten, Lernergebnissen und Lernprozessen, sowie zur Förderung der Reflexion über den eigenen Entwicklungsprozess. Lernprodukte können hier gesammelt und bei Bedarf bestimmten Personen zugänglich gemacht werden.
 
 [Zu den Details >](Portfolio.de.md)
 
@@ -141,16 +130,14 @@ Das Medien Center ist die zentrale Sammelstelle für Medien:
 
 ##  To-Dos
 
-Die zu erledigenden Aufgaben (To-Dos) finden sich an mehreren Stellen in OpenOlat (z.B. innerhalb eines Projektes).
-Im persönlichen Menü finden Sie alle Ihre persönlichen To-Dos zusammengefasst in einer Übersicht.
+Die zu erledigenden Aufgaben (To-Dos) finden sich an mehreren Stellen in OpenOlat (z.B. innerhalb eines Projektes). Im persönlichen Menü finden Sie alle Ihre persönlichen To-Dos zusammengefasst in einer Übersicht.
 
 [Zu den Details >](To-Dos.de.md)
 
 
 ##  E-Mails
 
-Unter E-Mails können Sie alle in OpenOlat versandten und erhaltenen E-Mails einsehen. 
-Die E-Mail-Historie in OpenOlat wird gespeichert und somit der Überblick über erhaltene und versendete E-Mails gewahrt. Zur besseren Übersicht können Sie E-Mails nach Kontext sortieren und anzeigen lassen.
+Unter E-Mails können Sie alle in OpenOlat versandten und erhaltenen E-Mails einsehen. Die E-Mail-Historie in OpenOlat wird gespeichert und somit der Überblick über erhaltene und versendete E-Mails gewahrt. Zur besseren Übersicht können Sie E-Mails nach Kontext sortieren und anzeigen lassen.
 
 [Zu den Details >](E-Mail.de.md)
 
