@@ -21,7 +21,7 @@ There are basically two types of folders:
 
 ## Collected binders
 
-You can recognize the retrieved folders by the red border and the reference to the corresponding course. These folders are based on a "[Portfolio 2.0 template](../learningresources/Portfolio_template_Creation.md)" and are usually created by another person, usually the teacher. The collection takes place in the course via the "[Portfolio Task](../learningresources/Portfolio_task_and_assignment_Collecting_and_editing.md)". Alternatively, it is also possible to book and collect portfolio templates independently of the price.
+You can recognize the retrieved folders by the red border and the reference to the corresponding course. These folders are based on a "[Portfolio 2.0 template](../learningresources/Portfolio_template_Creation.md)" and are usually created by another person, usually the teacher. The collection takes place in the course via the "[Portfolio Task](../learningresources/Course_Element_Portfolio_Task.de.md)". Alternatively, it is also possible to book and collect portfolio templates independently of the price.
 
 As soon as a portfolio folder has been collected by the learner, it appears in the "My binders" area of the respective collector. When a user opens this folder, he/she can select the tasks stored there (free text or form type) and edit the portfolio activities provided by storing various artefacts (texts, files, etc.) or filling in a form.
 
@@ -35,10 +35,10 @@ As an alternative to adding content, already created portfolio entries can also 
 
 ## Self created binders
 
-In general, all OpenOlat users are allowed to create their [own portfolio binders](../portfolio/Three_steps_to_your_portfolio_binder.md) with sections and entries.  
+In general, all OpenOlat users are allowed to create their own portfolio binders. You can find out how to add content to the portfolios in the chapter ["Three steps to your portfolio binder"](../portfolio/Three_steps_to_your_portfolio_binder.md) and ["The Portfolio Editor"](The_portfolio_editor.md).
 
 !!! info "Info"
 
     The possibility to create own binders can be restricted by your administrator.
 
-    You can find out how to add content to the portfolios in the chapter ["Three steps to your portfolio binder"](../portfolio/Three_steps_to_your_portfolio_binder.md) and ["The Portfolio Editor"](The_portfolio_editor.md).
+    

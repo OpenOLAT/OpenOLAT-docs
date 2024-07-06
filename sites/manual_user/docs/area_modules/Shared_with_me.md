@@ -2,7 +2,7 @@
 
 ![shared_with_me.png](assets/portfolio_shared.png)
 
-You can access the binders released for you by clicking on "Show binders shared with me". The following menu appears with the three tabs "Favorites", "Entries/To do" and "Folders". Also you can see the entries which already got an [assessment](../portfolio/Process_of_an_assessment_portfolio.md).  
+You can access the binders released for you by clicking on "Show binders shared with me". The following menu appears with the three tabs "Favorites", "Entries/To do" and "Folders". Also you can see the entries which already got an assessment.  
 
 ![list.png](assets/portfolio_shared_with_me_list.jpg)
 

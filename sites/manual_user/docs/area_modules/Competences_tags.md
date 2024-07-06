@@ -4,17 +4,13 @@ With the help of taxonomies, competence structures can be built up which can be 
 
 !!! info "Info"
 
-    In order for the taxonomy(s) to be available in the ePortfolio, they must be activated for this purpose.
-
-![activate_tax.png](assets/Tax%20eP%20aktivieren%20EN.png)
-
-  
+    In order for the taxonomy(s) to be available in the ePortfolio, they must be activated by the [administrator](../../../manual_admin/docs/administration/eAssessment_ePortfolio.md).
+ 
 
 In a portfolio entry, the activated taxonomies are available to learners as competences and can be selected via a suggestion list.
 
 ![kompetences.png](assets/eP%20Kompetenz%20EN.png)
 
-  
 
 
 Learners can get an overview of all assigned competences via "Personal tools" → "Competences".
