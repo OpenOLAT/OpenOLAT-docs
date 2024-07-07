@@ -1,10 +1,27 @@
-# Kursbausteinen
+# Kursbausteine im Kurseditor
+
+:octicons-device-camera-video-24: **Video-Einführung**: [Kursbausteine einfügen](<https://www.youtube.com/embed/AJ76e3urdKA>){:target="_blank”}
+
+:octicons-device-camera-video-24: **Video-Einführung**: [Kursbausteine konfigurieren](<https://www.youtube.com/embed/SAkzzoOQEoQ>){:target="_blank”}
+
+
+## Übersicht der Konfiguration
+
+In der linken Navigation ganz oben wird die  Konfigurationsübersicht des Kurses und der Kursbausteine angezeigt. 
+
+Um Anpassungen vorzunehmen klicken Sie auf den gewünschten Kursbaustein um direkt zum Kursbaustein zu gelangen. Alternativ können Sie auch mehrere Kursbausteine auswählen. Dann erscheint der Button "Konfiguration ändern" und sie können bestimmte Änderungen für alle gewählten Kursbausteine übernehmen. Die konkreten Möglichkeiten sind abhängig vom Kursbaustein und vom Kurstyp.
+
+![Kurskonfiguration - Konfiguration ändern](assets/Kurseditor_Konfiguration_aendern.png)
+
+!!! tip "Tipp" 
+
+    Wählen Sie nicht alle, sondern gezielt die Spalten aus, über die Sie Überblicksinformationen erhalten wollen. So bleibt die Anzeige übersichtlich. Besonders die Spalte "Beschreibung" sollte nur eingeblendet werden, wenn in den Kursbausteinen hier keine langen Texte eingetragen sind. Die Spalte "Punkte" ist nur für Assessmentbausteine relevant. Hier wird angezeigt, ob für die jeweiligen Kursbausteine die Vergabe von Punkten aktiviert ist oder nicht.
+
 
 ## Hinzufügen von Kursbausteinen
 
 Ist ein Kurs erstellt, kann man beliebig viele Kursbausteine einfügen. Dabei
-können auch mehrere Kursbausteine desselben Typs verwendet und beliebig
-verschachtelt werden. Jedoch sollte der Aufbau eines Online-Kurses immer
+können auch mehrere Kursbausteine desselben Typs verwendet und beliebig verschachtelt werden. Jedoch sollte der Aufbau eines Online-Kurses immer
 sinnvoll und didaktisch durchdacht erfolgen und die Usability für den
 Lernenden im Blick behalten.
 
@@ -12,21 +29,10 @@ Um einen Kursbaustein dem Kurs hinzuzufügen wählen Sie im Kurseditor "Kursbaus
 
 Platzieren Sie den Cursor vor dem Hinzufügen des Bausteins bereits an die
 gewünschte Stelle, dann brauchen Sie den neuen Baustein nicht noch einmal zu
-verschieben.
+verschieben. Generell können alle Kursbausteine verschoben dupliziert und gelöscht werden. Weitere Infos finden Sie [hier](../learningresources/Deleting_Moving_and_Copying_Course_Elements.de.md).
 
 Ist der Kursbaustein hinzugefügt, kann er weiter konfiguriert werden.
 
-## Löschen, verschieben und duplizieren von Kursbausteinen
-
-Ist ein Kursbaustein im Kurseditor ausgewählt kann er über die Schaltfläche
-"Löschen" oben rechts gelöscht werden. Über das 3-Punkte-Menü daneben kann der
-Kursbaustein auch innerhalb des Kurses verschoben oder dupliziert werden.
-
-![Kursbaustein löschen](assets/löschen_kursbaustein.png)
-
-:octicons-device-camera-video-24: **Video-Einführung**: [Kursbausteine einfügen](<https://www.youtube.com/embed/AJ76e3urdKA>){:target="_blank”}
-
-:octicons-device-camera-video-24: **Video-Einführung**: [Kursbausteine konfigurieren](<https://www.youtube.com/embed/SAkzzoOQEoQ>){:target="_blank”}
 
 ## Konfigurationstabs von Kursbausteinen
 
@@ -53,8 +59,8 @@ fährt und wenn man im Tab "Layout" die Anzeige des Titels gewählt hat.
 Im Feld "**Beschreibung**" können Sie weitere Informationen zum Kursbaustein
 eingeben, z.B. wofür er gedacht ist.
 
-Sie können auch noch weitere Informationen in vorgebene Felder eingeben, wenn
-Sie den entsprechenden Bereich (erweiterete Informationen eingeben)
+Sie können auch noch weitere Informationen in vorgegebene Felder eingeben, wenn
+Sie den entsprechenden Bereich (erweiterte Informationen eingeben)
 aufklappen.
 
 Im Feld "**Lernziele**" können Sie konkrete Lernziele für einen einzelnen

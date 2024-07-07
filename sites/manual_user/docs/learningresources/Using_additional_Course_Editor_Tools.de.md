@@ -2,7 +2,7 @@
 
 Im Menü des Kurseditors haben Sie Zugriff auf weiteren Konfigurationstools in der Toolbar. Hier können Sie Kursbausteine einfügen, importieren und sich den aktuellen Status mit eventuellen Problemen anzeigen lassen.  
 
-![Toolbar des Kurseditors](assets/Menu_Kurseditor18.jpg)
+![Toolbar des Kurseditors](assets/Menu_Kurseditor19.png)
 
 ## Administration
 
@@ -12,7 +12,7 @@ finden Sie unter "[Einsatz der Kurswerkzeuge](../learningresources/Using_Course_
 
 ## Kursbaustein einfügen
 
-Hier haben Sie Zugriff auf alle [Kursbausteine](Course_Elements.de.md), die Sie in einen Kurs einbauen können. Einfach auswählen und dem Kurs hinzufügen.
+Hier haben Sie Zugriff auf alle [Kursbausteine](Course_Elements.de.md), die Sie in einen Kurs einbauen können. Einfach auswählen und dem Kurs hinzufügen. Weitere Infos finden Sie [hier](../learningresources/General_Configuration_of_Course_Elements.de.md). 
 
 ## Quick Add
 
@@ -31,34 +31,13 @@ gibt. Klicken Sie auf die angegebene Zahl und die zugehörigen Probleme werden
 angezeigt. Folgen Sie den Links um die Probleme zu beheben. Die Legende unten gibt ferner Auskunft um welche Art
 von Problem es sich handelt.
 
-![Stausanzeige im Kurseditor](assets/Status_18.jpg)
+![Stausanzeige im Kurseditor](assets/Status_19.jpg)
 
 Eventuelle Konfigurationsprobleme werden zusätzlich in der Kursnavigation bei den entsprechenden Kursbausteinen angezeigt.
 
 !!! note "Hinweis"
 
     Verwechseln Sie den "Status" im Kurseditor nicht mit dem ["Status" bei geschlossenem Kurseditor](../learningresources/Access_configuration.de.md). Das sind zwei verschiedene Funktionen.
-
-## Übersicht Konfiguration
-
-Hier erhalten Sie einen Überblick über die Konfiguration aller im Kurs
-hinzugefügten Kursbausteine entsprechend der Kursstruktur in der linken
-Navigation. 
-
-Tipp: Wählen Sie nicht alle, sondern gezielt die Spalten aus, über die Sie Überblicksinformationen erhalten wollen. So bleibt die Anzeige übersichtlich. 
-Besonders die Spalte "Beschreibung" sollte
-nur eingeblendet werden, wenn in den Kursbausteinen hier keine langen Texte
-eingetragen sind. Die Spalte "Punkte" ist nur für Assessmentbausteine relevant. Hier wird angezeigt, ob für die jeweiligen Kursbausteine die Vergabe von Punkten
-aktiviert ist oder nicht.
-
-Um Anpassungen vorzunehmen wählen sie die gewünschten Kursbausteine aus und es erscheint der Button "Konfiguration ändern". Die konkreten Möglichkeiten sind abhängig vom Kursbaustein und vom Kurstyp.
-
-![Kurskonfiguration - Konfiguration ändern](assets/Kurseditor_Konfiguration_aendern.png)
-
-!!! info "Hinweis"
-
-    Die Spalten zeigen _nicht die Bewertungen_ für einzelne Personen an, sondern geben lediglich einen Überblick über die Konfiguration der Bausteine. Sollen Punkte vergeben oder ein bestanden/nicht bestanden werden, erfolgt dies im "[Bewertungswerkzeug](../learningresources/Assessment_tool_overview.de.md)" des Kurses.
-
 
 ## Kursvorschau (nur für herkömmliche Kurse) {: #preview} 
 
@@ -109,27 +88,31 @@ Attribut-Wert: 4600
 Diese Eingabe zeigt den Kurs, wie er sich den Studierenden der Fachrichtung
 Chemie präsentiert.  
   
-Hier finden Sie weiterführende Informationen:  
-[AAI-Attribute ](Access_Restrictions_in_the_Expert_Mode.de.md)  
-[__ AAI - Generelle Informationen](http://www.switch.ch/aai/)
-
 Die Kursvorschau bietet sich z.B. an um einen Kurs vor dem Start aus der Teilnehmerperspektive zu betrachten oder bestimmte Sichtbarkeitsregeln zu
 überprüfen.
 
-In der Regel ist die Vorschau aber mehr notwendig, da bei geschlossenem Kurseditor einfach die "Teilnehmeransicht" gewählt werden kann. Dieser Weg bietet sich auch für Lernpfad Kurse an.
+Hier finden Sie weiterführende Informationen: 
+[AAI-Attribute ](Access_Restrictions_in_the_Expert_Mode.de.md)  sowie auf der Seite von [Switch](http://www.switch.ch/aai/).
+
+
+!!! info "Hinweis"
+
+    In der Regel ist diese Vorschau aber mehr notwendig, da bei geschlossenem Kurseditor einfach die "Teilnehmeransicht" gewählt werden kann. Dieser Weg bietet sich auch für Lernpfad Kurse an.
 
 ## Publizieren
 
 Alle im Kurseditor vorgenommenen Einstellungen und Änderungen geben Sie über das "Publizieren" frei. So können Sie Ihren Kurs im Kurseditor in Ruhe vorbereiten, aufbauen und gestalten.
 
 Erst wenn Sie den Kurs publizieren, werden die Kursbausteine und die vorgenommenen Änderungen bei geschlossenem Editor sichtbar. Das bedeutet aber noch nicht, dass die Lernenden auch schon den Kurs sehen. Hierfür muss dieser veröffentlicht und der Zugang konfiguriert sein (vergl. Kapitel
-"[Zugangskonfiguration](Access_configuration.de.md)")
+"[Zugangskonfiguration](Access_configuration.de.md)"). 
 
-Das Publizieren kann entweder einfach beim Schliessen des Kurses vorgenommen werden oder man nutzt den Link in der Toolbar des Kurseditors. Über den Link in der Toolbar gelangt man in die manuelle Konfiguration des Publizierens. Beim Schliessen des Kurses ist auch ein schnelles/automatisches Publizieren möglich, was in den meisten Fällen ausreicht und deutlich schneller geht. 
+Am einfachsten geht ein schnelles publizieren über das Schliessen des Kurseditors indem man einfach in der Bread-Crumb-Leiste auf den Titel des Kurses klickt. Hier wird man gefragt ob man automatisch, manuell oder nicht publizieren will. 
+
+Die Wahl des manuellen Publizierens entspricht der Wahl "Publizieren" im Kurseditor und erfolgt mit einem Wizard. 
 
 !!! warning "Hinweis"
 
-    Sollten Sie den Kurs publizieren, während Kursteilnehmer im Kurs arbeiten, gehen deren aktuelle Bewegungsdaten wie nicht gespeicherte Foren- und Wiki-Einträge verloren.
+    Sollten Sie den Kurs publizieren, während Kursteilnehmende im Kurs arbeiten, gehen deren aktuelle Bewegungsdaten wie nicht gespeicherte Foren- und Wiki-Einträge verloren.
     
 ### Manuelles Publizieren mit Wizard
 
@@ -142,7 +125,7 @@ Benutzer Zugriff auf Ihren Kurs haben sollen. Lesen Sie im Kapitel
 Verfügung stehen. Nach diesem Schritt kann der Vorgang des Publizierens
 bereits abgeschlossen werden. Klicken Sie dazu auf "Fertigstellen".
 
-Eventuell gibt es noch Hinweise die angezeigt werden. Auch ein Eintrag in den Katalog ist bei Verwendung des [Katalog 1.0](../area_modules/catalog1.0.de.md) möglich.
+Eventuell gibt es noch Hinweise die angezeigt werden. Auch ein gezielter Eintrag in den Katalog ist bei Verwendung des [Katalog 1.0](../area_modules/catalog1.0.de.md) möglich. Bei Verwendung des [Katalog 2.0](../area_modules/catalog2.0.de.md) erfolgt der Eintrag automatisch entsprechend der Taxonomie Konfiguration.
 
 
 

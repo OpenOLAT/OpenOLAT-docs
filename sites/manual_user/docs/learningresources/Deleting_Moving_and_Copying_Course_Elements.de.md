@@ -1,6 +1,6 @@
 # Löschen, Verschieben und Kopieren von Kursbausteinen
 
-Änderungen an Ihrem Kurs nehmen Sie im Kurseditor vor. Sie gelangen in den Kurseditor indem Sie den Kurs starten und im Menü unter "Administration" die Option "Kurseditor" auswählen. 
+Änderungen an Ihrem Kurs nehmen Sie im Kurseditor vor. Sie gelangen in den Kurseditor indem Sie den Kurs starten und im Menü unter "Administration" die Option "Kurseditor" auswählen.  
 
 ![Administration, Link zum Kurseditor](assets/administration_kurseditor.png)
 
