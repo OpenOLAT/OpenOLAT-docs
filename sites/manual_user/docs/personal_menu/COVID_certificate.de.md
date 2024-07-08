@@ -1,7 +1,13 @@
-# COVID Zertifikat
+# Persönliche Konfiguration: COVID Zertifikat
+
+![pers_menu_profile_v1_de.png](assets/pers_menu_profile_v1_de.png){ class="aside-right lightbox"}
+
+![icon_profile.png](assets/icon_profile.png)
 
 Sofern das Covid Zertifikat vom Admin aktiviert wurde finden User unter "Profil" den Tab "COVID-Zertifikat". Hier können neue persönliche COVID-Zertifikate hinzugefügt oder der Status eines bestehenden Zertifikats eingesehen werden. 
 Der Status ihres Zertifikats ist nur für Sie sichtbar.
+
+![pers_menu_profile_covid_v1_de.png](assets/pers_menu_profile_covid_v1_de.png){ class=" shadow lightbox" }
 
 !!! note  "Wichtig"
       
@@ -54,4 +60,5 @@ Die Daten auf dem Zertifikat müssen mit den Benutzerdaten in OpenOlat
 
 Wenden Sie sich bitte an Ihren 3G-Beauftragen, wenn sie Probleme beim
 Hinzufügen Ihres COVID-Zertifikats haben.
+
 

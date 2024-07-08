@@ -1,7 +1,10 @@
 # Profile
 
+![pers_menu_profile_v1_de.png](assets/pers_menu_profile_v1_de.png){ class="aside-right lightbox"}
 
-In the personal menu under the "Profile" option, you can change your personal
+![icon_profile.png](assets/icon_profile.png)
+
+In the personal menu, section "Configuration", under the "Profile" option, you can change your personal
 data and set up your business card. Simply complete the fields provided.
 
 Changes to the e-mail address will only be applied if the new e-mail address
@@ -49,3 +52,10 @@ check boxes cannot be edited. These are predefined system-wide.
 !!! tip
 	To view the business cards of other OpenOlat users, select **Other users** in the
 	personal menu and search for the desired person using the search mask.
+
+
+
+## Further information
+
+[Personal tools: E-Mail](../personal_menu/E-Mail.md)<br>
+

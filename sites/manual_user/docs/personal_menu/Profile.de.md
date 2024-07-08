@@ -1,6 +1,10 @@
-# Profil
+# Persönliche Konfiguration: Profil
 
-Im persönlichen Menu unter der Option "Profil" können Sie Ihre persönlichen
+![pers_menu_profile_v1_de.png](assets/pers_menu_profile_v1_de.png){ class="aside-right lightbox"}
+
+![icon_profile.png](assets/icon_profile.png)
+
+Im persönlichen Menu, Abschnitt "Konfiguration", unter der Option "Profil" können Sie Ihre persönlichen
 Daten ändern und ihre Visitenkarte einrichten. Vervollständigen Sie einfach die vorgesehenen Felder.
 
 Änderungen der E-Mail-Adresse werden nur übernommen, wenn die neue E-Mail- Adresse aktiviert wird. Hierzu wird nach der Änderung ein Aktivierungs-Link an die neue Adresse versendet. Sie wählen den Link an oder kopieren ihn in die Adresszeile Ihres Browsers und melden sich bei OpenOlat an, um die neue E-Mail-Adresse freizuschalten. Bis zur Aktivierung wird in OpenOlat die bisherige E-Mail-Adresse verwendet. Sollten Sie den Aktivierungs-Link innerhalb von zwei Tagen (48 Stunden) nicht anwählen, verfällt der Änderungswunsch. Kontaktieren Sie dann Ihren Administrator.
@@ -45,3 +49,10 @@ systemweit vorgegeben.
 	Um sich die Visitenkarten anderer OpenOlat-Benutzer anzuschauen, wählen Sie
 	**Andere Benutzer** im persönlichen Menü und suchen die gewünschte Person über
 	die Suchmaske.
+
+
+## Weitere Informationen
+
+[Persönliche Werkzeuge: E-Mail](../personal_menu/E-Mail.de.md)<br>
+
+

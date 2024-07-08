@@ -1,11 +1,15 @@
-# Einstellungen
+# Persönliche Konfiguration: Einstellungen
+
+![pers_menu_settings_v1_de.png](assets/pers_menu_settings_v1_de.png){ class="aside-right lightbox"}
+
+![icon_settings.png](assets/icon_settings.png)
 
 :octicons-device-camera-video-24: **Video-Einführung**: [Benutzereinstellungen](<https://www.youtube.com/embed/7osBJ99FIN8>){:target="_blank”}
 
 Mit Hilfe der Einstellungen können Sie OpenOlat nach Ihren Bedürfnissen
 anpassen.
 
-![](assets/Einstellungen_konfigurieren.png)
+
 
 ### Tab System
 
@@ -114,3 +118,8 @@ entsprechende Support-Link ist hinterlegt. Sobald der Export durchgeführt
 wurde, können Sie die über Sie gespeicherten Benutzerdaten hier herunterladen.
 
 ![](assets/Benutzerdaten.png)
+
+
+## Weitere Informationen
+
+[Persönliche Werkzeuge: E-Mail](../personal_menu/E-Mail.de.md)<br>

@@ -1,8 +1,12 @@
-# Settings
+# Personal Configuration: Settings
+
+![pers_menu_settings_v1_de.png](assets/pers_menu_settings_v1_de.png){ class="aside-right lightbox"}
+
+![icon_settings.png](assets/icon_settings.png)
 
 The settings allow you to adapt OpenOlat according to your needs.
 
-![](assets/Einstellungen_konfigurieren.en.png)
+
 
 ### Tab System
 
@@ -105,3 +109,7 @@ support link is available. As soon as the export has been carried out, you can
 download the user data stored about you here.
 
 ![](assets/Benutzerdaten.png)
+
+## Further information
+
+[Personal tools: E-Mail](../personal_menu/E-Mail.md)<br>
