@@ -91,7 +91,7 @@ To switch to the preview without leaving the editor, you can use the "Edit mode"
 * A block is the entire content of a field in the layout. 
 * Several contents can be inserted into a block, e.g. a title and a text. 
 
-![content_editor_add_content_page_v1_de.png](assets/content_editor_add_content_page_v1_de.png){ class="shadow lightbox" title="Inhaltsblöcke im Kursbaustein Seite"}
+![content_editor_add_content_page_v4_de.png](assets/content_editor_add_content_page_v4_de.png){ class="shadow lightbox" title="Inhaltsblöcke im Kursbaustein Seite"}
 
 ![content_editor_add_content_form_v1_de.png](assets/content_editor_add_content_form_v1_de.png){ class="shadow lightbox" title="Inhaltsblöcke in der Lernressource Formular"}
 
@@ -240,7 +240,7 @@ As shown above, different question types can be inserted into forms. Quiz questi
 Various media types can be stored in the Media Center. Instead of accessing a specific content type, you can use this selection option to access all media of different types that have been released to you in the Media Center.<br>
 Use the “Add media file” button to create new media files directly.
 
-![content_editor_content_media_center_v1_de.png](assets/content_editor_content_media_center_v1_de.png){ class="shadow lightbox" }
+![content_editor_content_media_center_v2_de.png](assets/content_editor_content_media_center_v2_de.png){ class="shadow lightbox" }
 
 !!! info "Hint"
 

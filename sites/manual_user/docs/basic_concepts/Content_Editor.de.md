@@ -107,7 +107,7 @@ Auch um zwischendurch in die Vorschau zu wechseln, ohne den Editor zu verlassen,
 * Ein Block ist der gesamte Inhalt eines Feldes im Layout. 
 * Es können mehrere Inhalte in einen Block eingefügt werden, z.B. ein Titel und ein Text. 
 
-![content_editor_add_content_page_v3_de.png](assets/content_editor_add_content_page_v3_de.png){ class="shadow lightbox" title="Inhaltsblöcke im Kursbaustein Seite"}
+![content_editor_add_content_page_v4_de.png](assets/content_editor_add_content_page_v4_de.png){ class="shadow lightbox" title="Inhaltsblöcke im Kursbaustein Seite"}
 
 ![content_editor_add_content_form_v1_de.png](assets/content_editor_add_content_form_v1_de.png){ class="shadow lightbox" title="Inhaltsblöcke in der Lernressource Formular"}
 
@@ -277,7 +277,7 @@ Auch im Kursbaustein "Seite" sind ab Release 19.0 Quizfragen verfügbar. Ein Qui
 Im Medien Center können verschiedene Medientypen abgelegt werden. Statt auf einen ganz bestimmten Inhaltstyp, können Sie unter dieser Auswahloption auf alle für Sie im Medien Center freigegebenen Medien unterschiedlichster Typen zugreifen.<br>
 Mit dem Button "Mediendatei hinzufügen" erstellen Sie direkt neue Mediendateien. 
 
-![content_editor_content_media_center_v1_de.png](assets/content_editor_content_media_center_v1_de.png){ class="shadow lightbox" }
+![content_editor_content_media_center_v2_de.png](assets/content_editor_content_media_center_v2_de.png){ class="shadow lightbox" }
 
 !!! info "Hinweis"
       
