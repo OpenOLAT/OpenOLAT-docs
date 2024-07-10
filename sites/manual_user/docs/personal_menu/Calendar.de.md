@@ -86,3 +86,14 @@ Wenn Ihr Kalender trotz eingetragener Termine leer erscheint bzw. bestimmte Term
 !!! info "Hinweis"
 
     Wenn Sie in Ihrer OpenOlat Instanz keinen Kursbaustein "Kalender" finden können, so wurde dies systemweit von einem Administrator ausgeschaltet.
+
+
+
+## Weitere Informationen
+
+[Kurskalender](../learningresources/Using_Additional_Course_Features.de.md#kurskalender)<br>
+[Gruppenkalender](../groups/Using_Group_Tools.de.md)<br>
+[Gruppenkalender aktivieren](../groups/Group_Administration.de.md#tools)<br>
+[Kursbaustein Kalender](../learningresources/Course_Element_Calendar.de.md)<br>
+[Aktivierung des Kalenders durch den Administrator:innen](../../manual_admin/administration/Core_functions.de.md#kalender-administration)<br>
+

@@ -82,3 +82,12 @@ Using iCal (a standard for managing appointments), you can integrate the various
 !!! info "Note"
 
     If you cannot find a "Calendar" course element in your OpenOlat instance, this has been switched off system-wide by an administrator.
+
+## Further information
+
+[Course Calender](../learningresources/Using_Additional_Course_Features.md#course-calendar)<br>
+[Group Calender](../groups/Using_Group_Tools.md)<br>
+[Activate group calender](../groups/Group_Administration.md#tools)<br>
+[Course element calender](../learningresources/Course_Element_Calendar.md)<br>
+[Activation of calenders by administrators](../../manual_admin/administration/Core_functions.de.md#calender-administration)<br>
+
