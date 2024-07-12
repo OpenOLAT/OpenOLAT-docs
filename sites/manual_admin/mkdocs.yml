@@ -21,6 +21,7 @@ nav:
       - Overview: "administration/Modules.md"
       - Module Instant Messaging: "administration/Instant_Messaging.md"
       - Module Contact Tracing: "administration/Modules_Contact_Tracing.md"
+      - Module Video: "administration/Modules_Video.md"
       - Module Audio/Video Recording: "administration/Modules_Audio_Video_Recording.md"
       - Module Document pool: "administration/Modules_Document_pool.md"
       - Module Taxonomy: "administration/Modules_Taxonomy.md"
