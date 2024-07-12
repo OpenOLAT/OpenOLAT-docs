@@ -1,8 +1,22 @@
-## Installation guide for OpenOlat 17.2 and greater
+## Installation guide for OpenOlat 18.2 and greater
 
-This guide walks you through installing OpenOlat Version 17.2.x or newer on a local GNU/Linux or similar system using _Tomcat 10.1_, _Java 17_ and _PostgreSQL 12_. If you already have an up and running installation, see our [Update Guide](updateGuide.md)
+This guide walks you through installing OpenOlat Version 18.2.x or newer on a local GNU/Linux or similar system using _Tomcat 10.1_, _Java 17_ and _PostgreSQL 12_. If you already have an up and running installation, see our [Update Guide](updateGuide.md)
 
 _If you really want to install OpenOlat using MySQL as database, have a look at the [Special topics -> MySQL DB section](mysql.md) and try mixing it with the information found in here. Please keep in mind that this is not recommended._
+
+### Supported releases
+
+Currently supported releases are:
+
+- 19.0.x Latest release
+- 18.2.x Old release with long term maintenance
+
+Older releases are not supported anymore and don't get any security updates. Long term releases are normally not under active development, but will get critical security updates. 
+
+Please upgrade as soon as possible if you have an older unsuppored release installed. 
+
+!!! Note
+	Security relevant issues are only visible to members of the [OpenOlat partner program](https://www.openolat.com/openolat-partner). Make sure you always update to the latest release to get all security patches. 
 
 ## Create a user for OpenOlat
 
@@ -24,10 +38,10 @@ Create a directory downloads and keep the downloaded files there:
 	openolat~$ ls -l downloads
 	-rw-rw-r-- 1 openolat openolat  12127326 Feb  9 10:51 apache-tomcat-10.1.5.tar.gz
 	-rw-rw-r-- 1 openolat openolat 191502157 Feb  9 10:51 OpenJDK17U-jdk_x64_linux_hotspot_17.0.6_10.tar.gz
-	-rw-rw-r-- 1 openolat openolat 181853117 Mar 17 15:41 openolat_1723.war
+	-rw-rw-r-- 1 openolat openolat 181853117 Mar 17 15:41 openolat_18211.war
 
 
-You do not need to use the exact versions from this manual, this is just an example. We recommend that you use the newest version within the given major version: Java 17, Tomcat 10.1. As for OpenOlat, please use the newest release. If not, make sure to use a version 17.2.x or newer. Note that you do not need a JDK to run OpenOlat, a JRE will work as well.
+You do not need to use the exact versions from this manual, this is just an example. We recommend that you use the newest version within the given major version: Java 17, Tomcat 10.1. As for OpenOlat, please use the newest release. If not, make sure to use a version 18.2.x or newer. Note that you do not need a JDK to run OpenOlat, a JRE will work as well.
 
 
 ## Prepare home directory
@@ -43,8 +57,8 @@ In the home directory:
 	openolat~$ tar xvf downloads/OpenJDK17U-jdk_x64_linux_hotspot_17.0.6_10.tar.gz
 	openolat~$ ln -s jdk-17.0.6+10 jre
  	
-	openolat~$ unzip -d openolat-17.2.3 downloads/openolat_1723.war
-	openolat~$ ln -s openolat-17.2.3 webapp
+	openolat~$ unzip -d openolat-17.2.3 downloads/openolat_18211.war
+	openolat~$ ln -s openolat-18.2.11 webapp
 	
 Note that this setup allows you to switch between different versions of JRE and tomcat by adjusting the symlinks jre and tomcat. An update works the same way, just stop OpenOlat, remove the symlink to webapp, unzip a new version and make a new symbolic webapp link.
 
