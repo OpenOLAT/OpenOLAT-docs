@@ -1,8 +1,8 @@
 # Modules
 
   * [Instant-Messaging](Instant_Messaging.md)
-  * Video
-  * [Contact tracing](Modules_Contact_Tracing.md)
+  * [Contact tracing](Modules_Contact_Tracing.md) 
+  * [Video](Modules_Video.md)
   * Wiki
   * Course reminders
   * [Audio/video recording](Modules_Audio_Video_Recording.md)

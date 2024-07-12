@@ -1,8 +1,8 @@
 # Module
 
   * [Instant-Messaging](Instant_Messaging.de.md)
-  * Video
   * [Kontaktverfolgung](Modules_Contact_Tracing.de.md)
+  * [Video](Modules_Video.de.md)
   * Wiki
   * Kurserinnerungen
   * [Audio/Video-Aufnahme](../administration/)
@@ -31,16 +31,18 @@
   * [Qualitätsmanagement](Modules_Quality_Management.de.md)
   * [SEO / OAI-PMH Metadaten](Modules_OAI.de.md) 
 
-
+Vi
 ## Instant-Messaging
 Siehe [Instant-Messaging](Instant_Messaging.de.md)
 
-## Video 
-Hier können die Lernressource Video und der Kursbaustein Video aktiviert werden. Auch Angaben zum Transkodierung sowie die Standardauflösung können definiert werden. 
 
 ## Kontaktverfolgung
 
 Siehe [Kontaktverfolgung](Modules_Contact_Tracing.de.md)
+
+## Video 
+Hier können die Lernressource Video und der Kursbaustein Video aktiviert werden. Auch Angaben zum Transkodierung sowie die Standardauflösung können definiert werden. 
+
 
 ##  Wiki
 
