@@ -38,7 +38,7 @@ Mit Hilfe der Check-Boxen bestimmen Sie, welche Einträge auf Ihrer Visitenkarte
 
 Mit Hilfe der Einstellungen können Sie OpenOlat nach Ihren Bedürfnissen anpassen.
 
-![](assets/Einstellungen_konfigurieren.png)
+
 
 ### Tab System
 

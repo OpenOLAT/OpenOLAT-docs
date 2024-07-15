@@ -1,8 +1,8 @@
 # Persönliche Konfiguration: Einstellungen
 
-![pers_menu_settings_v1_de.png](assets/pers_menu_settings_v1_de.png){ class="aside-right lightbox"}
+![pers_menu_settings_v1_de.png](../personal_menu/assets/pers_menu_settings_v1_de.png){ class="aside-right lightbox"}
 
-![icon_settings.png](assets/icon_settings.png)
+![icon_settings.png](../personal_menu/assets/icon_settings.png)
 
 :octicons-device-camera-video-24: **Video-Einführung**: [Benutzereinstellungen](<https://www.youtube.com/embed/7osBJ99FIN8>){:target="_blank”}
 

@@ -4,7 +4,7 @@ With the help of taxonomies, competence structures can be built up which can be 
 
 !!! info "Info"
 
-    In order for the taxonomy(s) to be available in the ePortfolio, they must be activated by the [administrator](../../../manual_admin/docs/administration/eAssessment_ePortfolio.md).
+    In order for the taxonomy(s) to be available in the ePortfolio, they must be activated by the [administrator](../../manual_admin/administration/eAssessment_ePortfolio.md).
  
 
 In a portfolio entry, the activated taxonomies are available to learners as competences and can be selected via a suggestion list.

@@ -1,8 +1,8 @@
 # Persönliche Konfiguration: Profil
 
-![pers_menu_profile_v1_de.png](assets/pers_menu_profile_v1_de.png){ class="aside-right lightbox"}
+![pers_menu_profile_v1_de.png](../personal_menu/assets/pers_menu_profile_v1_de.png){ class="aside-right lightbox"}
 
-![icon_profile.png](assets/icon_profile.png)
+![icon_profile.png](../personal_menu/assets/icon_profile.png)
 
 Im persönlichen Menu, Abschnitt "Konfiguration", unter der Option "Profil" können Sie Ihre persönlichen
 Daten ändern und ihre Visitenkarte einrichten. Vervollständigen Sie einfach die vorgesehenen Felder.

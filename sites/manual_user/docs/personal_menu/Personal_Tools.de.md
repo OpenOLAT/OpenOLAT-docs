@@ -2,7 +2,7 @@
 
 ![pers_menu_tools_v1_de.png](assets/pers_menu_tools_v1_de.png){ class="aside-right shadow lightbox"}
 
-Die persönlichen Werkzeuge finden Sie als einen Abschnitt im [persönlichen Menü](index.de.md).
+Die persönlichen Werkzeuge finden Sie als einen Abschnitt im [persönlichen Menü](../personal_menu/index.de.md).
 
 Welche Werkzeuge Ihnen hier angeboten werden, wird zum einen von Voreinstellungen/Aktivierung in der Systemadministration bestimmt. Zum anderen können Sie entscheiden, ob die Werkzeuge im [persönlichen Menü](../index.de.md) oder im Schnellzugriff in der Kopfzeile erscheinen sollen.
 
@@ -86,7 +86,7 @@ Hier erhält der Benutzer eine Übersicht zu allen persönlichen Kompetenzen, di
 
 Auch in OpenOlat können Badges (Abzeichen) erworben werden, wie sie in Online-Spielen und -Lernangeboten üblich sind. Als Kursautor:in können Sie bestimmen, ob ein Badge vergeben wird, für welche erbrachte Leistung er vergeben wird und wie der Badge aussehen soll.
 
-[Zu den Details >](Badges.de.md)
+[Zu den Details >](../personal_menu/OpenBadges.de.md)
 
 
 ## Buchungen
