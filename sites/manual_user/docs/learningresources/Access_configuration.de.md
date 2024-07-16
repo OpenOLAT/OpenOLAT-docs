@@ -25,7 +25,7 @@ Beendet | Alle Mitglieder haben weiter Zugriff auf den Kurs, können aber nur no
     Hat ein Kurs den Status "Review", "Freigabe für Betreuer" oder "Vorbereitung" erscheint der Kurs im Menü Kurse im Tab "in Vorbereitung". Ein Zugang zum Kurs mit allen integrierten Kursbausteinen ist aber nicht möglich. Auch ein Zugriff auf die Toolbar ist (noch) nicht möglich.
 
    
-Die konkrete Variante des Kurszugangs, bzw. generell des Zugangs zu einer Lernressource, wird im Tab "Freigabe" der Kurs Administration" eingerichtet. Im Folgenden erfahren Sie welche Optionen Ihnen zur Verfügung stehen.  
+Die konkrete Variante des Kurszugangs, bzw. generell des Zugangs zu einer Lernressource, wird im Tab "Freigabe" der Kurs Administration eingerichtet. Im Folgenden erfahren Sie, welche Optionen Ihnen zur Verfügung stehen.  
 
  
 
@@ -91,7 +91,7 @@ Haben Sie zuvor die Option "Buchbare und offene Angebote..." (ab :octicons-tag-2
     * Angebote können auf verschiedene Teilbereiche von Organisationen (Unterorganisationen) beschränkt werden.
   
 
-In einem "Angebot" wird definiert wer sich unter welchen Umständen in die gewählte Lernressource bzw. den Kurs eintragen bzw. diese buchen kann. Buchen kann dabei als Synonym für belegen, einschreiben, einkaufen verstanden werden. Die Details werden im Folgenden beschrieben. 
+In einem "Angebot" wird definiert, wer sich unter welchen Umständen in die gewählte Lernressource bzw. den Kurs eintragen bzw. diese buchen kann. Buchen kann dabei als Synonym für belegen, einschreiben, einkaufen verstanden werden. Die Details werden im Folgenden beschrieben. 
 
 Wählen Sie die Schaltfläche "Angebot hinzufügen", um  Buchungsmethoden (Angebote) hinzuzufügen.
 

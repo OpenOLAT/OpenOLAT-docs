@@ -14,7 +14,7 @@ Kursbesitzer können die Funktion im Kurseditor aktivieren und dort konfiguriere
 
 1. **Einstufung/Noten für einen Kursbaustein aktivieren** 
 Gehen Sie in den Kurseditor und wählen Sie den Kursbaustein für den die Einstufung aktiviert werden soll. Im Tab "Bewertung" können Sie die Einzelheiten einrichten. 
-(bei Tests im Tab "Testkonfiguration"). Achten Sie darauf, dass auch Punkte vergeben aktiviert ist und setzen Sie den Haken bei "Bewertung mit Einstufung/Noten. 
+(bei Tests im Tab "Testkonfiguration"). Achten Sie darauf, dass auch Punkte vergeben aktiviert ist und setzen Sie den Haken bei "Bewertung mit Einstufung/Noten". 
 2. **Zuweisung wählen** Sie können zwischen manueller und automatischer Zuweisung wählen. Bei der manueller Zuweisung muss der Betreuer die Zuordnung manuell auslösen und für den User sichtbar machen. 
 
 3. **Bewertungsskala auswählen und anpassen** Definieren Sie die minimalen und maximalen Punkte (speichern) und klicken Sie auf "Bewertungsskala bearbeiten". Es öffnet sich ein Einstellungsfenster. Hier können Sie ein Bewertungssystem auswählen und Bewertungsskala weiter anpassen.

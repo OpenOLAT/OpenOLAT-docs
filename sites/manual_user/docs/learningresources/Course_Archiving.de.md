@@ -116,7 +116,7 @@ Archivierte Selbsttests enthalten anonymisierte Benutzerdaten, Tests werden pers
 
 ### Kursresultate
 
-Hier werden die *Endresultate* von allen im Kurs integrierten Assessment Bausteinen wie Tests, Bewertungen, Portfolioaufgaben, Checklisten, Aufgaben usw. von allen Kursteilnehmenden gebündelt als Zip-Datei archiviert. Die zip Datei kann direkt heruntergeladen und gespeichert werden, liegt aber auch noch im privaten Ordner des Kursbesitzers in OpenOlat. 
+Hier werden die *Endresultate* von allen im Kurs integrierten Assessment Bausteinen wie Tests, Bewertungen, Portfolioaufgaben, Checklisten, Aufgaben usw. von allen Kursteilnehmenden gebündelt als Zip-Datei archiviert. Die Zip-Datei kann direkt heruntergeladen und gespeichert werden, liegt aber auch noch im privaten Ordner des Kursbesitzers in OpenOlat. 
 
 Im Zip-File findet man eine xlsx-Datei mit Informationen zu den Kursteilnehmenden sowie eventuell von den Teilnehmenden abgegebene Dokumente. Diese Dokumente werden pro Kursbaustein gebündelt und enthalten Unterordner mit den Namen der Teilnehmenden, die Dokumente eingereicht haben.
 

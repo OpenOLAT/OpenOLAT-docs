@@ -5,21 +5,20 @@
 
 ![einschreibung.png](assets/enrolment.png)
 
-Der Kursbaustein „Einschreibung“ wird verwendet, damit sich Kursteilnehmer in
+Der Kursbaustein "Einschreibung" wird verwendet, damit sich Kursteilnehmer in
 eine oder mehrere OpenOlat Gruppen eintragen können. Definieren Sie dazu im
-Tab „Konfiguration“, in welche und wie viele **Gruppen** sich Kursteilnehmende
+Tab "Konfiguration", in welche und wie viele **Gruppen** sich Kursteilnehmende
 einschreiben können. Sie können auch die Reihenfolge der Gruppen in der
 Auswahlliste definieren. Sollten Sie noch keine Gruppen erstellt haben oder
 weitere benötigen, so können Sie dies mit einem Klick auf „Auswählen“ und
 „Erstellen“ direkt im Tab „Konfiguration“ tun. Bestehende und neu erstellte
-Gruppen können in der [Mitgliederverwaltung
-](../learningresources/Members_management.de.md)bearbeitet werden.
+Gruppen können in der [Mitgliederverwaltung](../learningresources/Members_management.de.md)bearbeitet werden.
 
 Mittels "**Mehrere Eintragungen erlauben**" legen Sie optional fest, ob
 Kursteilnehmer sich in mehrere Gruppen eintragen dürfen, und falls ja, in wie
 viele.
 
-Im Feld „**Austragen erlaubt**“ bestimmen Sie optional, ob ein einmal
+Im Feld "**Austragen erlaubt**" bestimmen Sie optional, ob ein einmal
 eingeschriebener Kursteilnehmer die Möglichkeit hat, sich wieder aus einer
 Gruppe auszutragen. In der Gruppenverwaltung können Sie beim Editieren der
 Gruppe festlegen, ob es eine Warteliste und ob es ein automatisches Nachrücken
@@ -29,7 +28,7 @@ geben soll.
 
     Sofern Sie zuvor einen oder mehrere Lernbereiche in der Administration angelegt und hier Gruppen zugeordnet haben, können Sie auf diese Lernbereiche auch im Tab "Konfiguration" des Einschreibebausteins zugreifen.
 
-## Kursbaustein „Mitteilungen“ {: #notification}
+## Kursbaustein "Mitteilungen" {: #notification}
 
 ![mitteilung.png](assets/infomessage.png)
 
@@ -81,18 +80,18 @@ ab, da für die tatsächliche Anzahl der HTML Code verwendet wird.
 
   
 
-Über den Kursbaustein „E-Mail“ geben Sie Ihren Kursteilnehmern die
+Über den Kursbaustein "E-Mail" geben Sie Ihren Kursteilnehmern die
 Möglichkeit, eine E-Mail an einen von Ihnen definierten Empfängerkreis zu
 senden.
 
 Sie haben zwei Möglichkeiten, um Nachrichten zu versenden. Entweder geben Sie
-im Tab „**Empfänger**“ direkt die E-Mail-Adresse von bestimmten Personen ein, oder
+im Tab "**Empfänger**" direkt die E-Mail-Adresse von bestimmten Personen ein, oder
 sie wählen die Personengruppen aus, an die eine Nachricht versendet werden
 soll. Sie können differenziert festlegen ob die Nachricht an Kursbesitzer,
 Betreuer und / oder Teilnehmer von Kurs und / oder Gruppen geschickt wird.
 
-Um im Feld „E-Mailadressen“ mehrere Empfängeradressen einzutragen, müssen Sie
-diese durch einen Zeilenumbruch trennen, d.h. jede E-Mailadresse muss auf
+Um im Feld "E-Mail-Adressen" mehrere Empfängeradressen einzutragen, müssen Sie
+diese durch einen Zeilenumbruch trennen, d.h. jede E-Mail-Adresse muss auf
 einer eigenen Zeile stehen.
 
 ### Versand an Kurseigentümer/Betreuer/Teilnehmer
@@ -141,7 +140,7 @@ Folgende Variablen können im Betreff und im Text der E-Mail verwendet werden:
 
 Geben Sie durch einen geeigneten Kurztitel des Kursbausteins „E-Mail“ Ihren
 Kursteilnehmern einen Hinweis darauf, an welchen Empfängerkreis diese
-Nachricht versendet wird. Im E-Mailformular selbst werden die
+Nachricht versendet wird. Im E-Mail-Formular selbst werden die
 Empfängeradressen aus Gründen des Datenschutzes nicht angezeigt.
 
 !!! tip "Tipp"
@@ -258,8 +257,8 @@ anlegen. Die Auswahl erleichtert Ihnen die Erstellung von weiteren Terminen.
     Wird Start/Ende gewählt bleiben die gewählten Uhrzeiten erhalten und man braucht bei neuen Einträgen nur das Datum anzupassen.
 
  **Termine:** Hier werden die konkreten Wahltermine eingetragen. Durch Klick
-auf das „+ Zeichen“ werden neue Termine hinzugefügt. Durch Klick auf das „-
-Zeichen“ werden Termine wieder gelöscht.
+auf das "+ Zeichen" werden neue Termine hinzugefügt. Durch Klick auf das "-
+Zeichen" werden Termine wieder gelöscht.
 
  **Online Termin:** Die Optionen sind: Nein, kein Online-Termin oder man wählt
 direkt das gewünschte Tool BigBlueButton oder Teams aus, sofern vom

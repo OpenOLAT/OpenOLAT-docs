@@ -24,10 +24,10 @@ der Kurs-Administration.
 
 In der Kategorie Wissensüberprüfung findet man auch die Kursbausteine "Umfrage" und "Formular" mit dem man OpenOlat [Formulare](../learningresources/Form_editor_Questionnaire_editor.de.md) für Befragungen u.ä. in einen Kurs einbauen kann.
 
-## Kursbaustein „Bewertung“  {: #course_element_assessment}
+## Kursbaustein "Bewertung"  {: #course_element_assessment}
 ![Bewertung Icon](assets/manual_score.png)
 
-Der Kursbaustein „Bewertung“ eignet sich, um Leistungen zu bewerten, welche
+Der Kursbaustein "Bewertung" eignet sich, um Leistungen zu bewerten, welche
 nicht explizit elektronisch abgegeben werden, z.B. Präsenz-Referate oder
 Online-Webseiten. Auch eine Rubrik-Bewertung steht hier zur Verfügung.
 
@@ -47,7 +47,7 @@ OpenOlat Kurs hoch und erhalten vom Lehrenden ein Feedback bzw. eine
 Bewertung. Ebenso können Überarbeitungen eingefordert oder Musterlösungen bereitgestellt werden.
 
 Die zentrale Konfiguration des Kursbausteins erfolgt im Tab
-„Workflow“. Hier bestimmen Sie, welche der folgenden Optionen Sie verwenden möchten. Anschliessend können Sie diese weiter konfigurieren:
+"Workflow". Hier bestimmen Sie, welche der folgenden Optionen Sie verwenden möchten. Anschliessend können Sie diese weiter konfigurieren:
  
   * **Aufgabenstellung**: Stellen Sie eine Aufgabenstellung direkt im Kursbaustein zur Verfügung. 
   * **Abgabe**: Lernende sollen die Möglichkeit haben ihre Bearbeitung einzureichen. Kursteilnehmer erstellen hier ihre Lösungen oder laden diese als PDF hoch.
@@ -90,7 +90,7 @@ gelangen. Sie haben nun die Möglichkeit, mit der Schaltfläche
 
 Im Kurseditor im Tab „Bewertung" können Sie die Anzeige von Punkten, Status
 Bestanden/Nicht bestanden und individuellen Kommentaren vorkonfigurieren. In
-den Feldern „Hinweis für alle Benutzer“ und „Hinweis für Betreuer“ formulieren
+den Feldern "Hinweis für alle Benutzer" und "Hinweis für Betreuer" formulieren
 Sie allgemeine Informationen zur Bewertung an alle Kursteilnehmer und
 -betreuer.
 
@@ -111,7 +111,7 @@ Punkte und Feedbacks werden in diesem Kursbaustein für die gesamte Gruppe erste
 
 Folgende Unterschiede zum Kursbaustein Aufgabe sind zu beachten:
 
-Bei der Erstellung der Gruppenaufgabe müssen im Tab „Workflow“ eine oder
+Bei der Erstellung der Gruppenaufgabe müssen im Tab "Workflow" eine oder
 mehrere Gruppen ausgewählt werden, denen die Aufgabenstellung zugewiesen wird.
 Nur diese Gruppen können die Aufgabe anschliessend einsehen und bearbeiten.
 Solange keine Gruppe zugewiesen wurde, ist der Kursbaustein bei geschlossenem
@@ -178,7 +178,7 @@ abgeschlossen wurde. Danach können nur noch Tippfehler korrigiert werden.
 
 Die Resultate der Kursteilnehmenden werden personalisiert aufgezeichnet.
 
-##  Kursbaustein „Selbsttest“ {: #course_element_self_test}
+##  Kursbaustein "Selbsttest" {: #course_element_self_test}
 
 ![test icon](assets/test.png)
 
@@ -187,7 +187,7 @@ Der Selbsttest wird ähnlich konfiguriert und eingerichtet wie der Kursbaustein 
 
 Im Gegensatz zum Kursbaustein "Test" dienen Selbsttests Übungszwecken, d.h. die Resultate der Kursteilnehmenden werden anonymisiert gespeichert. Selbsttests können so oft wie erwünscht bearbeitet werden. 
 
-Im Kursbaustein "Selbsttest" werden genau wie beim Kursbaustein "Test" Lernressourcen vom Typ Test eingebunden. Wenn Sie noch keinen Test erstellt haben, folgen Sie den Anweisungen im Kapitel ["Wie gehe ich vor, wenn ich einen Test erstelle“](../../manual_how-to/test_creation_procedure/test_creation_procedure.de.md).
+Im Kursbaustein "Selbsttest" werden genau wie beim Kursbaustein "Test" Lernressourcen vom Typ Test eingebunden. Wenn Sie noch keinen Test erstellt haben, folgen Sie den Anweisungen im Kapitel ["Wie gehe ich vor, wenn ich einen Test erstelle"](../../manual_how-to/test_creation_procedure/test_creation_procedure.de.md).
 
 Weitere Informationen zu Tests finden Sie im Kapitel "[Tests erstellen](../learningresources/Test.de.md). Relevant ist hier vor allem das Unterkapitel "[Tests auf Kursebene](../learningresources/Tests_at_course_level.de.md)".
 
@@ -287,7 +287,7 @@ Weitere Informationen finden Sie
 
 ### Highscore {: #highscore}
 
-Alle bewertbaren Kursbausteine, mit Ausnahme des Kursbausteins Übung, sowie der Kursbaustein „Struktur“ verfügen zusätzlich über den Tab „Highscore“.
+Alle bewertbaren Kursbausteine, mit Ausnahme des Kursbausteins Übung, sowie der Kursbaustein "Struktur" verfügen zusätzlich über den Tab "Highscore".
 
 Die Highscore Darstellung ermöglicht einen spielerischen Vergleich der
 Teilnehmenden und kann als Motivationsfaktor verstanden werden. Voraussetzung

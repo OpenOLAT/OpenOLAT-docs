@@ -1,6 +1,6 @@
 # Test konfigurieren
 
-Für die OpenOlat Tests stehen weitere Strukturierungs- und Konfigurationsmöglichkeiten zur Verfügung. Grundsätzlich besteht jeder Test mindestens aus einer Sektion und einer Frage. Deshalb finden Sie beim Erstellen eines neuen Tests bereits eine Sektion ("Neue Sektion") und eine Single-Choice-Frage ("Neue Frage"). Falls in Ihrem Test keine Single-Choice Frage vorkommt, können Sie die standardmässig angelegte Single-Choice-Frage löschen, sobald Sie eine andere Frage hinzugefügt haben.
+Für die OpenOlat Tests stehen weitere Strukturierungs- und Konfigurationsmöglichkeiten zur Verfügung. Grundsätzlich besteht jeder Test mindestens aus einer Sektion und einer Frage. Deshalb finden Sie beim Erstellen eines neuen Tests bereits eine Sektion ("Neue Sektion") und eine Single-Choice-Frage ("Neue Frage"). Falls in Ihrem Test keine Single-Choice-Frage vorkommt, können Sie die standardmässig angelegte Single-Choice-Frage löschen, sobald Sie eine andere Frage hinzugefügt haben.
 
 Einstellungen für Tests können auf drei Ebenen vorgenommen werden:
 

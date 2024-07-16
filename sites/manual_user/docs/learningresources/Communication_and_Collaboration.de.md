@@ -6,7 +6,7 @@ Mehr Informationen zu [Virtuelle Klassenzimmer](../course_elements/Virtual_class
 
 Verwenden Sie ein Wiki, um auf einfache Weise mit Kursteilnehmenden gemeinsam Inhalte zu erstellen. Ein Wiki kann für Gruppenarbeiten, als Dokumentationswerkzeug oder als Wissensbasis für Ihre Studien- oder Projektarbeit verwendet werden.
 
-Mit dem Kursbaustein "Wiki" binden Sie eine Lernressource Wiki in Ihren Kurs ein. Klicken Sie im Tab "**Wiki-Lerninhalt**" auf „Wiki wählen, erstellen oder importieren“, ordnen ein bereits erstelltes Wiki zu oder erstellen ein neues. Eine Schritt-für-Schritt-Anleitung zu Ihrem Wiki finden Sie im Kapitel „Wiki erstellen". Wenn Sie noch kein Wiki ausgewählt haben, erscheint beim Titel **Gewähltes Wiki** die Meldung _Kein Wiki ausgewählt_.
+Mit dem Kursbaustein "Wiki" binden Sie eine Lernressource Wiki in Ihren Kurs ein. Klicken Sie im Tab "**Wiki-Lerninhalt**" auf „Wiki wählen, erstellen oder importieren“, ordnen ein bereits erstelltes Wiki zu oder erstellen ein neues. Eine Schritt-für-Schritt-Anleitung zu Ihrem Wiki finden Sie im Kapitel "Wiki erstellen". Wenn Sie noch kein Wiki ausgewählt haben, erscheint beim Titel **Gewähltes Wiki** die Meldung _Kein Wiki ausgewählt_.
 
 Wenn Sie schon ein Wiki hinzugefügt haben, erscheint dessen Name. Um die Zuordnung eines Wikis nachträglich zu ändern, klicken Sie im Tab "Wiki-Lerninhalt" auf "Wiki auswechseln" und wählen anschliessend ein anderes Wiki.
 
