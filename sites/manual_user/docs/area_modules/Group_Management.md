@@ -8,7 +8,7 @@ You can use the various filter options to display all your groups (My groups), y
 
 * **My groups**: Here you can find all the groups you are a member of.
 
-* **Inactive groups**: Unused groups can be [automatically](../../../manual_admin/docs/administration/Automatic_Group_Lifecycle.md) set to inactive status after a certain period of time. Group administrators can activate this mechanism and set the deadline.
+* **Inactive groups**: Unused groups can be [automatically](../../manual_admin/administration/Automatic_Group_Lifecycle.md) set to inactive status after a certain period of time. Group administrators can activate this mechanism and set the deadline.
 
 * **Published Groups**: All groups that have been published with a booking method can be viewed and selected here. The table provides an overview of the number of free places, the type of booking method and - where specified - the booking costs. Book or enter a group directly by clicking either the links "Book" or "Add to waiting
 list".

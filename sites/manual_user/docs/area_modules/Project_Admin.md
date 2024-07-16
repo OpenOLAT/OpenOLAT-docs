@@ -51,7 +51,7 @@ It can be specified whether the template should only be available for own use or
 
 To create a template, an already created project can also be saved as a template. It usually makes sense to create a "neutral" project that specifies the desired process structure.
 
-![projekte_admin_als_vorlage_speichern_v2_de.png](assets/projekte_admin_als_vorlage_speichern_v2_de.png){ class="shadow lightbox" }
+![projekte_admin_als_vorlage_speichern_v2_de.png](../area_modules/assets/projekte_admin_als_vorlage_speichern_v3_de.png){ class="shadow lightbox" }
 
 ## Finalize Projects
 
@@ -69,7 +69,7 @@ A project can only be completed by
 
     Through these people, a project can also be reactivated.
 
-![projekte_admin_abschliessen_v1_de.png](assets/projekte_admin_abschliessen_v1_de.png){ class="shadow lightbox" }
+![projekte_admin_abschliessen_v1_de.png](../area_modules/assets/projekt_abschliessen_v1_de.png){ class="shadow lightbox" }
 
 
 
@@ -81,7 +81,7 @@ Projects can only be deleted by
 * Administrators,
 * and project managers.
 
-![projekte_admin_loeschen_v1_de.png](assets/projekte_admin_loeschen_v1_de.png){ class="shadow lightbox" }
+![projekte_admin_loeschen_v1_de.png](../area_modules/assets/projekte_admin_loeschen_v2_de.png){ class="shadow lightbox" }
 
 !!! Note "Note"
 

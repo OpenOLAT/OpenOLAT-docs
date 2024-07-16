@@ -4,7 +4,7 @@ Mithilfe von Taxonomien können Kompetenzstrukturen aufgebaut werden, die zur Ve
 
 !!! info "Info"
 
-    Damit die Taxonomie(n) im ePortfolio verfügbar sind, müssen diese vom OpenOlat [Administrator aktiviert](../../../manual_admin/docs/administration/eAssessment_ePortfolio.de.md) werden.
+    Damit die Taxonomie(n) im ePortfolio verfügbar sind, müssen diese vom OpenOlat [Administrator aktiviert](../../manual_admin/administration/eAssessment_ePortfolio.de.md) werden.
 
   
 In einem Portfolio-Eintrag stehen den Lernenden die aktivierten Taxonomien als Kompetenzen zur Verfügung und können über eine Vorschlagsliste ausgewählt werden.

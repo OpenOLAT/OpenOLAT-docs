@@ -50,7 +50,7 @@ Hier können Sie Konfigurationen für den Prüfungsmodus erstellen, bearbeiten u
 
 
 ## Datenerhebungsvorschau
-Sofern vom Administrator aktiviert, erscheint der Menüpunkt in der Administration des Kurses. Hier können Kursbesitzer:innen die geplanten Erhebungen des Moduls [Qualitätsmanagement](../../../manual_admin/docs/administration/Modules_Quality_Management.de.md) des Kurses einsehen. Für Kursbesitzer:innen ist diese Vorschau rein _informativ_. Eine Bearbeitung ist lediglich für Qualitätsmanager:innen möglich.
+Sofern vom Administrator aktiviert, erscheint der Menüpunkt in der Administration des Kurses. Hier können Kursbesitzer:innen die geplanten Erhebungen des Moduls [Qualitätsmanagement](../../manual_admin/administration/Modules_Quality_Management.de.md) des Kurses einsehen. Für Kursbesitzer:innen ist diese Vorschau rein _informativ_. Eine Bearbeitung ist lediglich für Qualitätsmanager:innen möglich.
 
 ## Lernbereich {: #learning_area}
 

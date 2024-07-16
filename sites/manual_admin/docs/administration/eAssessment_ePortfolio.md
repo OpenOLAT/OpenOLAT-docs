@@ -10,7 +10,7 @@ If you deactivate an ePortfolio module in an ongoing course only its
 functionalities will no longer be visible in the GUI. All artefacts and
 folders will still be available.
 
-In order for users to be able to use the taxonomy(ies) in the [ePortfolio](../../../manual_user/docs/area_modules/Competences_tags.md), they must be activated by the OpenOlat administrator.
+In order for users to be able to use the taxonomy(ies) in the [ePortfolio](../../manual_user/area_modules/Competences_tags.md), they must be activated by the OpenOlat administrator.
 
 ![Tax_aktivieren.png](assets/Tax%20eP%20aktivieren%20EN.png)  
 

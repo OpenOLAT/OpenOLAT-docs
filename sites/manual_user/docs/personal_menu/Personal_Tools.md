@@ -45,7 +45,7 @@ You can subscribe to change notifications for the following course elements:
 
 OpenOlat provides you with storage space in your personal folder. For example, you can store presentations there that you want to access from another computer, cache research papers, etc.
 
-Find out [more >](Personal_folder.md)
+Find out [more >](../personal_menu/Personal_folders.md)
 
 ## File Hub (Release 19)
 

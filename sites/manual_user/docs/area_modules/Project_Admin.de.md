@@ -69,7 +69,7 @@ Abgeschlossen werden kann ein Projekt nur durch
 
     Durch diese Personen kann ein Projekt auch wieder reaktiviert werden.
 
-![projekte_admin_abschliessen_v1_de.png](assets/projekte_admin_abschliessen_v1_de.png){ class="shadow lightbox" }
+![projekte_admin_abschliessen_v1_de.png](../area_modules/assets/projekt_abschliessen_v1_de.png){ class="shadow lightbox" }
 
 
 ## Projekte löschen 

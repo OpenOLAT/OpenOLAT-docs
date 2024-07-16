@@ -221,7 +221,7 @@ If a text is entered as a quote, it automatically has a predefined formatting. T
 
 Documents (e.g. pdf or Word files) can be uploaded using drag & drop. They are stored in the Media Center. For the Media Center, descriptions and information can be entered here under “Share”. The file initially uploaded only for this content block can then be used elsewhere and by other OpenOlat authors. If desired, the documents can also be stored in the Media Center for editing.
 
-![content_editor_content_document_v1_de.png](assets/content_editor_content_document_v1_de.png){ class="shadow lightbox" }
+![content_editor_content_document_v1_de.png](../basic_concepts/assets/content_editor_content_document_upload_v1_de.png){ class="shadow lightbox" }
 
 <h3>draw.io diagram</h3>
 

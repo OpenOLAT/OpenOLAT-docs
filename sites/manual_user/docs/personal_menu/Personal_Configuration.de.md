@@ -4,7 +4,7 @@
 
 Die persönlichen Konfigurationen finden Sie als einen Abschnitt im [persönlichen Menü](../personal_menu/index.de.md), unterhalb der persönlichen Werkzeuge.
 
-Welche Konfigurationswerkzeuge Ihnen hier angeboten werden, wird zum einen von Voreinstellungen/Aktivierung in der Systemadministration bestimmt. Zum anderen können Sie entscheiden, ob die Werkzeuge im [persönlichen Menü](../index.de.md) oder im Schnellzugriff in der Kopfzeile erscheinen sollen.
+Welche Konfigurationswerkzeuge Ihnen hier angeboten werden, wird zum einen von Voreinstellungen/Aktivierung in der Systemadministration bestimmt. Zum anderen können Sie entscheiden, ob die Werkzeuge im [persönlichen Menü](../personal_menu/index.de.md) oder im Schnellzugriff in der Kopfzeile erscheinen sollen.
 
 <br>
 <br>

@@ -58,8 +58,6 @@ check boxes cannot be edited. These are predefined system-wide.
 
 The settings allow you to adapt OpenOlat according to your needs.
 
-![](assets/Einstellungen_konfigurieren.en.png)
-
 ### Tab System
 
 #### General system settings: {: #general}

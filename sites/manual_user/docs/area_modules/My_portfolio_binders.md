@@ -21,7 +21,7 @@ There are basically two types of folders:
 
 ## Collected binders
 
-You can recognize the retrieved folders by the red border and the reference to the corresponding course. These folders are based on a "[Portfolio 2.0 template](../learningresources/Portfolio_template_Creation.md)" and are usually created by another person, usually the teacher. The collection takes place in the course via the "[Portfolio Task](../learningresources/Course_Element_Portfolio_Task.de.md)". Alternatively, it is also possible to book and collect portfolio templates independently of the price.
+You can recognize the retrieved folders by the red border and the reference to the corresponding course. These folders are based on a "[Portfolio 2.0 template](../learningresources/Portfolio_template_Creation.md)" and are usually created by another person, usually the teacher. The collection takes place in the course via the "[Portfolio Task](../learningresources/Course_Element_Portfolio_Task.md)". Alternatively, it is also possible to book and collect portfolio templates independently of the price.
 
 As soon as a portfolio folder has been collected by the learner, it appears in the "My binders" area of the respective collector. When a user opens this folder, he/she can select the tasks stored there (free text or form type) and edit the portfolio activities provided by storing various artefacts (texts, files, etc.) or filling in a form.
 

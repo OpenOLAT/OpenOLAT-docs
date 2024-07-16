@@ -89,5 +89,5 @@ Using iCal (a standard for managing appointments), you can integrate the various
 [Group Calender](../groups/Using_Group_Tools.md)<br>
 [Activate group calender](../groups/Group_Administration.md#tools)<br>
 [Course element calender](../learningresources/Course_Element_Calendar.md)<br>
-[Activation of calenders by administrators](../../manual_admin/administration/Core_functions.de.md#calender-administration)<br>
+[Activation of calenders by administrators](../../manual_admin/administration/Core_functions.md#calender-administration)<br>
 

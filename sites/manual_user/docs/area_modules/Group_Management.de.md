@@ -9,7 +9,7 @@ Wenn in der OpenOlat Hauptnavigation der Tab Gruppen ausgewählt wird, öffnet s
 
  *  **Meine Gruppen**: Hier finden Sie alle Gruppen aufgelistet, in denen Sie Mitglied sind, egal in welcher Rolle.
 
-* **Inaktive Gruppen**: Nicht benutzte Gruppen können [automatisch](../../../manual_admin/docs/administration/Automatic_Group_Lifecycle.de.md) nach einer bestimmten Zeit auf den Status inaktiv gesetzt werden. Gruppenverwalter:innen können diesen Mechanismus aktivieren und die Frist festlegen.
+* **Inaktive Gruppen**: Nicht benutzte Gruppen können [automatisch](../../manual_admin/administration/Automatic_Group_Lifecycle.de.md) nach einer bestimmten Zeit auf den Status inaktiv gesetzt werden. Gruppenverwalter:innen können diesen Mechanismus aktivieren und die Frist festlegen.
 
 * **Veröffentlichte Gruppen**: Alle Gruppen, die mit einer Buchungsmethode veröffentlicht wurden, können hier eingesehen und ausgewählt werden. Die Tabelle gewährt eine Übersicht über die Anzahl freier Plätze, die Art der Buchungsmethode und - soweit festgelegt - die Buchungskosten. Gruppen können direkt aus der Tabelle heraus mit einem Klick auf die Links "Beitreten" oder "Warteliste eintragen"
 belegt werden.

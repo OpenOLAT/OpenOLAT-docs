@@ -6,7 +6,7 @@ Ferner wird definiert ob bzw. in welchem Umfang die Lernenden eigene Mappen erst
 
 Auch die Sichtbarkeit bestimmter Reiter wie "Überblick", "Einträge" und "Änderungsprotokoll" bzw. Elemente wie "Suche", "Zeitstrahl" oder "Kommentare" kann hier aktiviert werden oder nicht.
 
-Damit User die Taxonomie(n) im [ePortfolio](../../../manual_user/docs/area_modules/Competences_tags.de.md) verfügbar nutzen können  müssen diese vom OpenOlat Administrator aktiviert werden.
+Damit User die Taxonomie(n) im [ePortfolio](../../manual_user/area_modules/Competences_tags.de.md) verfügbar nutzen können  müssen diese vom OpenOlat Administrator aktiviert werden.
 
 ![Tax_aktivieren.png](assets/Tax%20eP%20aktivieren%20DE.png)  
 
