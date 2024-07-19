@@ -3,6 +3,20 @@
 With the aid of the following guidelines you will create a blog for your
 course in a short time and can adapt it according to your needs.
 
+## What kind of blog should it be?
+
+* specialists blog / info blog
+    - participants can only read
+    - normally used in several courses
+    - integrated via URL from an external source (e.g. Mastodon feed)
+* user generated content blog
+    - e.g. flipped classroom scenarios
+    - participants write and comment blog posts
+* learning journal
+    - typically one blog per participant
+    - not visible for other participants
+
+
 ##  Requirement
 
 The blog is included within an OpenOlat course. If you have not yet created a course, the chapter ["How do I create my first OpenOlat course"](../my_first_course/my_first_course.md) tells you how to proceed before creating your blog using the following instructions.

@@ -3,6 +3,20 @@
 Mit dieser Anleitung haben Sie in kurzer Zeit in Ihrem Kurs einen Blog
 erstellt und ihn Ihren Wünschen entsprechend angepasst.
 
+## Welche Art Blog soll es sein?
+
+* Fach-Blog / Info-Blog
+    - Teilnehmer:innen können nur lesen
+    - meist in mehreren Kursen eingesetzt
+    - via URL von extern eingebunden (z.B. Mastodon Feed)
+* User-Generated Content Blog
+    - z.B. Flipped Classroom Szenarien
+    - Teilnehmer:innen schreiben Beiträge und kommentieren
+* Lerntagebuch
+    - typischerweise ein Blog pro Teilnehmer:in
+    - nicht sichtbar für die andren Teilnehmer:innen
+
+
 ##  Voraussetzung
 
 Der Blog wird innerhalb eines OpenOlat-Kurses eingebunden. Wenn Sie noch keinen Kurs erstellt haben, steht im Kapitel "[Wie erstelle ich meinen ersten OpenOlat-Kurs](../my_first_course/my_first_course.de.md)", wie Sie vorgehen müssen, bevor Sie mit Hilfe der folgenden Anleitung Ihren Blog erstellen.
