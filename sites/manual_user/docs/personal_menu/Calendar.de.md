@@ -115,7 +115,7 @@ Zu jedem dieser eigenständigen Kalender kann mit einem Toggle-Button eingestell
 
 Unter dem Feedsymbol finden Sie die URL, mit der dieser Kalender an anderer Stelle eingebunden werden kann.
 
-???Unter dem Icon mit den 3 Punkten am Ende einer Zeile werden Bearbeitungsmöglichkeiten angzeigt, wenn es sich um eigenständige Kalender handelt. (Bei aggregierten Kalendern ist die Bearbeitung beschränkt/nicht möglich.)
+Unter dem Icon mit den 3 Punkten am Ende einer Zeile werden Bearbeitungsmöglichkeiten angzeigt, wenn es sich um eigenständige Kalender handelt. (Bei aggregierten Kalendern ist die Bearbeitung beschränkt/nicht möglich.)
 
 
 ## Kalender zur Kalenderliste hinzufügen
@@ -131,7 +131,7 @@ Mit Klick auf den kleinen Pfeil daneben können Kalender via URL verlinkt werden
 
 !!! info "Beachten Sie:"
     
-    Mit den Buttons oberhalb der Kalenderliste fügen Sie weitere eigenständige Kalender zur Kalenderliste hinzu. (Es erscheint eine weitere Zeile = weiterer eigenständiger Kalender.)<br> Die Optionen zum Hinzufügen oder Löschen unter den 3 Punkten am Ende einer Zeile bearbeiten dagegen nur diesen einzelnen Kalender. Wird hier ..., dann ???
+    Mit den Buttons oberhalb der Kalenderliste fügen Sie weitere eigenständige Kalender zur Kalenderliste hinzu. (Es erscheint eine weitere Zeile = weiterer eigenständiger Kalender.)<br> Die Optionen zum Hinzufügen oder Löschen unter den 3 Punkten am Ende einer Zeile bearbeiten dagegen nur diesen einzelnen Kalender. 
 
 
 
@@ -147,7 +147,6 @@ Mit Klick auf den kleinen Pfeil daneben können Kalender via URL verlinkt werden
 ## Managed Kalender
 
 Andere Kalender (wie beispielsweise aus dem System PerformX) lassen sich auf Feed auch in den OpenOlat-Kalender als **managed Kalender** integrieren. Managed Termine werden mit einem Schloss-Symbol gekennzeichnet.
-???Ein Managed Kalender ist...
 
 
 !!! info "Hinweis"
