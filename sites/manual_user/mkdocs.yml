@@ -245,6 +245,7 @@ nav:
       - Enrolment: "learningresources/Course_Element_Enrolment.md"
       - Notifications: "learningresources/Course_Element_Notifications.md"
       - E-Mail: "learningresources/Course_Element_EMail.md"
+      - Topic Broker : "learningresources/Course_Element_Topic_Broker.md"
       - Calendar: "learningresources/Course_Element_Calendar.md"
       - Appointment scheduling: "learningresources/Course_Element_Appointment_Scheduling.md"
       - LTI Page: "learningresources/Course_Element_LTI_Page.md"

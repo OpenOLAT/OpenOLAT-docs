@@ -154,6 +154,8 @@ The following course elements are particularly suitable for organizational matte
 
     [:fontawesome-regular-envelope: E-Mail](Course_Element_EMail.md)
 
+    [:fontawesome-solid-clipboard-list: Topic Broker](Course_Element_Topic_Broker.md)
+
     [:fontawesome-regular-calendar-days: Calendar](Course_Element_Calendar.md)
 
     [:fontawesome-regular-calendar: Appointment scheduling](Course_Element_Appointment_Scheduling.md)

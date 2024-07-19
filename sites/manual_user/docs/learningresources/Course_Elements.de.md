@@ -157,6 +157,8 @@ Für organisatorische Belange und zur Verteilung von Informationen eignen sich b
 
     [:fontawesome-regular-envelope: E-Mail](Course_Element_EMail.de.md)
 
+    [:fontawesome-solid-clipboard-list: Themenbörse](Course_Element_Topic_Broker.de.md)
+
     [:fontawesome-regular-calendar-days: Kalender](Course_Element_Calendar.de.md)
 
     [:fontawesome-regular-calendar: Terminplanung](Course_Element_Appointment_Scheduling.de.md)
