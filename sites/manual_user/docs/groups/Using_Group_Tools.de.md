@@ -21,11 +21,24 @@ Aus der ganzen Palette der Gruppenwerkzeuge zur Kollaboration können Gruppen**b
 | ![](assets/openmeetings.png){ class=size32 } | Microsoft Teams |  | Nutzen Sie MS Teams zur Online Kommunikation und Kollaboration in virtuellen Räumen. Bei entsprechender Konfiguration durch den/die Gruppenbetreuer:in können sowohl Gruppenbetreuer:innen als auch Gruppenmitglieder neue Meetings für gemeinsame Online-Session anlegen. |
   
 !!! info ""
+
 	Die mit einem :material-rss: markierten Werkzeuge können abonniert werden, so dass man schnell über Änderungen informiert wird.
 
 !!! info "Virtuelle Klassenräume"
+
 	Je nach Konfiguration durch den OpenOlat
 	[Administrator](../../manual_admin/administration/External_Tools_-_Administration.de.md), stehen
 	unterschiedliche virtuelle Klassenräume wie z.B. OpenMeetings, BigBlueButton,
 	Microsoft Teams als Gruppenwerkzeug zur Verfügung.
 
+!!! info "Gruppenkalender in Verbindung mit Kurskalendern"
+	
+	In einem Gruppenkalender sehen die Gruppenteilnehmer:innen alle Einträge der Gruppenmitglieder, egal ob die Termine privat oder öffentlich gesetzt sind.
+	
+	Ist die Gruppe einem Kurs zugeordnet, werden im Kurskalender den Gruppenteilnehmer:innen folgende Einträge angezeigt:
+
+	- öffentliche Einträge der Gruppe,
+	- die eigenen Gruppenkalendereinträge des jeweiligen Gruppenmitglieds,
+	- sowie die kurspezifischen Kalendereinträge. 
+	
+	Personen die nicht Mitglied der Gruppe sind, sehen im Kurskalender die Kalendereinträge der anderen Gruppen nicht. Sind einem Kurs mehrere Gruppen zugeordnet, sehen die Mitglieder also nur die eigenen Gruppenkalendereinträge, aber nicht die der anderen Gruppen.

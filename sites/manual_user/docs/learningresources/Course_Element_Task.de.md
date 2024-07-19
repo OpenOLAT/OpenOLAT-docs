@@ -5,44 +5,91 @@
 Name | Aufgabe
 ---------|----------
 Icon | ![Aufgabe Icon](assets/task.png){ class=size24  }
-Verfügbar seit | Neuauflage mit Release 10.3
+Verfügbar seit | Neuauflage mit Release 19
 Funktionsgruppe | Wissensüberprüfung
-Verwendungszweck | Abbildung komplexer Aufgabenworkflows mit konfigurierbaren Teilschritten wie Abgabe von Lösungsdokumenten, Feedback und Überarbeitungsschlaufe, Bereitstellung der Musterlösung und Bewertung
+Verwendungszweck | Abbildung komplexer Aufgabenworkflows mit konfigurierbaren Teilschritten, wie Abgabe von Lösungsdokumenten, Feedback (auch als Peer-Review) und Überarbeitungsschlaufe, Bereitstellung der Musterlösung und Bewertung
 Bewertbar | ja
 Spezialität / Hinweis | auch als [Gruppenaufgabe](../learningresources/Course_Element_Grouptask.de.md) verfügbar
 
-## Allgemeines
 
-Mit Hilfe des Kursbausteins Aufgabe können Lehrende **Dateiabgaben** und **Einsendeaufgaben** organisieren. Lernende laden dabei ihre Einreichungen in den OpenOlat Kurs hoch und erhalten vom Lehrenden ein Feedback bzw. eine Bewertung. Ebenso können Überarbeitungen eingefordert oder Musterlösungen bereitgestellt werden.
+Mit Hilfe des Kursbausteins Aufgabe können Lehrende **Dateiabgaben** und **Einsendeaufgaben** organisieren. Lernende laden dabei ihre Einreichungen in den OpenOlat Kurs hoch und erhalten ein Feedback bzw. eine Bewertung. Auch Peer-Reviews sind möglich. Ebenso können Überarbeitungen eingefordert oder Musterlösungen bereitgestellt werden.
 
-Die Konfiguration des Kursbausteins erfolgt wie bei allen Kursbausteinen im Kurseditor.
 
-## Überblick der Kursbaustein Tabs
 
-* **Tab Workflow**: Starten Sie die Konfiguration in diesem Kursbaustein und wählen Sie die Funktionen aus, die Sie benötigen. Anschliessend sind die passenden Tabs aktiv und können weiter konfiguriert werden
-* **Tab Aufgabenstellung**: Hier hinterlegen Sie Ihre Aufgabenstellung. 
-* **Tab Abgabe**: Hier definieren Sie Art und Umfang der Einsendemöglichkeiten für die Teilnehmenden. 
-* **Tab Rückgabe und Feedback**: Legen Sie die minimale und maximale Anzahl von Dokumenten fest, die die Teilnehmenden während der Schritte "Rückgabe und Feedback" und "Überarbeitung" abgeben dürfen.
-* **Tab Musterlösungen**: Hinterlegen Sie hier Ihre Musterlösung. 
-* **Tab Bewertung**: Konfigurieren Sie die Art der Bewertung und definieren Sie z.B. z.B. ob und wie viele Punkte vergeben werden, es ein bestanden/nicht bestanden gibt und ob individuelle Feedbacks vergeben werden können.
-* **Tab HighScore**: Sofern für die Aufgabe Punkte vergeben werden können Sie diese mit den HighScore-Optionen weiter visualisieren. 
-* **Tab Erinnerungen & To-dos**: Mit der Erinnerungsfunktion können Sie Erinnerungen in Form einer E-Mail an Kursmitglieder versenden und automatische To-dos für die Aufgabe generieren. To-dos werden den Kursteilnehmenden im persönlichen Menü unter "To-dos" hinterlegt. 
+## Aufgabe erstellen (Perspektive Autor:in) {: #create_task}
 
-Die Tabs "Titel und Beschreibung" sowie "Layout" finden sich bei allen Kursbausteinen. Hier können Sie Informationen zum Kursbaustein hinterlegen und die Darstellung konfigurieren. 
+Die Erstellung und Konfiguration einer Aufgabe erfolgt wie bei allen Kursbausteinen im Kurseditor.
 
-Darüber hinaus verfügen Lernpfad Kurse noch über den Tab "Lernpfad" bzw. Herkömmliche Kurse über die Tabs "Sichtbarkeit" und "Zugang".
+![course_element_task_tabs_v1_de.png](assets/course_element_task_tabs_v1_de.png){ class="shadow lightbox"}
 
-!!! info "Hinweis"
+!!! note "Quick Links"
 
-    Die Funktionsweise und der Aufbau der Kursbausteine "Aufgabe" und "[Gruppenaufgabe](../learningresources/Course_Element_Grouptask.de.md)" sind identisch.
+    * [Tab Titel und Beschreibung](#title)<br> Allgemeine Angaben über den Kursbaustein
+    * [Tab Layout](#layout)<br>Allgemeine Einstellungen im Layout
+    * [Tab Lernpfad](#learningpath)<br>Soll die Aufgabe freiwillig, Pflicht oder nur für bestimmte Personengruppen sein?
+    * [Tab Workflow](#workflow)<br>Hier bestimmen Sie, welche Schritte die Aufgabe enthalten soll.
+    * [Tab Aufgabenstellung](#assignment)<br>Erstellung oder Upload der Aufgabenstellung, Zuweisung verschiedener Aufgaben oder Ziehung, usw.
+    * [Tab Abgabe](#submission)<br>Definition der erwarteten Einsendungen (mit Vorlage?, als Audio-/Videoaufnahme?, usw.)
+    * [Tab Rückgabe und Feedback](#revisions)<br>Z.B. Definition des Prozesses für einen Peer-Review.
+    * [Tab Bewertung](#grading)<br> Konfiguration der Punktevergabe, Kriterium für Bestanden, Berücksichtigung in der Kursbewertung usw.
+    * [Tab Musterlösung](#sample)<br>Z.B. Bereitstellung einer pdf-Datei.
+    * [Tab Highscore](#highscore)<br>Visualisierung der Resultate, falls Punkte vergeben werden.
+    * [Tab Erinnerungen & To-dos](#reminders)<br>Vorbereitung automatischer Erinnerungsmails und To-dos
 
-## Konfigurationen
 
-Im Folgenden werden die einzelnen Tabs für den Kursbaustein Aufgabe näher erläutert.
+### Tab "Titel und Beschreibung“  {: #title}
+
+Die Angaben über den Kursbaustein entsprechen denen, wie sie in allen Kursbausteinen enthalten sind. 
+
+[nach oben ^](#create_task)
+
+
+### Tab "Layout“  {: #layout}
+
+Die Optionen zum Layout entsprechen denen, wie sie in allen Kursbausteinen enthalten sind. 
+
+[nach oben ^](#create_task)
+
+
+### Tab "Lernpfad“ {: #learningpath}
+
+!!! info "Herkömmliche Kurse"
+
+    Herkömmliche Kurse verfügen nicht über den Tab "Lernpfad" und haben stattdessen die Tabs "Sichtbarkeit" und "Zugang", inklusive Expertenmodus.
+
+
+Definieren Sie, ob die Bearbeitung der Aufgabe obligatorisch oder freiwillig ist oder ob der Kursbaustein nicht angezeigt (ausgenommen) werden soll. Obligatorische Aufgaben werden bei der Fortschrittsanzeige berücksichtigt, freiwillige nicht.
+
+Das **Freigabedatum** kann verwendet werden, wenn der Kursbaustein erst zu einem bestimmten Datum geöffnet und gestartet werden soll. Der Baustein selbst wird aber bereits in der Kursstruktur angezeigt.
+
+Die Zeitangabe unter "**Zu bearbeiten bis**" bezieht sich auf die Frist für das Abholen bzw. den Start des Kursbausteins Aufgabe, nicht auf den Abgabetermin für den Dateiupload (siehe Tab Workflow).
+
+Bei der **Bearbeitungszeit** kann die geschätzte Zeit, die ein/e Teilnehmer:in für die Bearbeitung des Kursbausteins benötigt, eingetragen werden. Ein Eintrag ist vor allem relevant, wenn sich der Fortschritt im Kurs auf die Bearbeitungszeit der Kursbausteine bezieht (siehe Administration -> [Einstellungen](../learningresources/Course_Settings.de.md) -> Tab "Durchführung")
+
+Im Tab "Lernpfad" wird auch definiert, welches Kriterium erfüllt sein muss, damit die Aufgabe als "erledigt" gilt. Folgende Optionen stehen zur Wahl:
+
+![Erledigungskriterium](assets/task_completion_criterion_DE.png){ class="shadow" }
+
+* **Kursbaustein öffnen**: User hat auf den Kursbaustein geklickt.
+* **Bestätigung durch den Benutzer**: User hat auf die Lesebestätigung geklickt.
+* **Punkte**: Der User hat bei der Bearbeitung der Aufgabe mindestens die angegebene Punktzahl erreicht.
+* **Bestanden**: Der User hat die im Tab "Bewertung" konfigurierten Anforderungen an "Bestanden" erfüllt bzw. die Aufgabe wurde manuell vom Betreuer auf bestanden gesetzt.
+* **Durchführung erledigt**: Alle Schritte des Aufgabenflows wurden durchlaufen.
+
+[nach oben ^](#create_task)
+
+
 
 ### Tab "Workflow“  {: #workflow}
 
-Der Tab Workflow ist der zentrale Tab zur Konfiguration des Kursbausteins Aufgabe. Hier wird definiert welche einzelnen Elemente der Aufgabe überhaupt benötigt werden. 
+Im Tab Workflow definieren Sie, welche einzelnen Elemente die Aufgabe überhaupt enthalten soll.
+
+!!! tip "Tipp"
+
+    Starten Sie die Konfiguration in diesem Tab und wählen Sie die Funktionen aus, die Sie benötigen. Anschliessend sind die benötigten Tabs aktiv/inaktiv und können weiter konfiguriert werden.
+
+
+![course_element_task_workflow_elements_v1_de.png](assets/course_element_task_workflow_elements_v1_de.png){ class="shadow lightbox"}
 
 Soll eine konkrete Aufgabenstellung im Kursbaustein hinterlegt werden oder findet der User die Aufgabe vielleicht woanders? Soll der User ein Dokument abgeben? Soll es ein Feedback vom Lehrenden geben? Sollen die User, wenn notwendig, die Möglichkeit zur Überarbeitung einer Einsendung erhalten können? Soll eine Musterlösung bereitgestellt werden? Soll eine Bewertung mit Punkten oder bestanden möglich sein? Sollen bestimmte Lernende von bestimmten Betreuenden bewertet werden?
 
@@ -50,12 +97,12 @@ Aktivieren Sie einfach die Dinge die Sie benötigen und konfigurieren Sie im nä
 
 Die Abschnitte Aufgabenstellung, Abgabe, verspätete Abgabe und Musterlösung können mit einem Datum versehen werden. Aufgabenstellung und Abgabe sind bis zum eingetragenen Datum verfügbar. 
 
-Wird die verspätete Abgabe aktiviert und ein Termin hinterlegt können Teilnehmende noch bis zum verspäteten Termin ihre Lösung einreichen. Für den User wird sowohl der normale Abgabetermin als auch der verspätete Termin angezeigt bzw. die Termine die noch in der Zukunft liegen. Die verspätete Abgabe wird dem Betreuer bzw. Kursbesitzer im Bewertungsflow ebenfalls angezeigt.
+Wird die verspätete Abgabe aktiviert und ein Termin hinterlegt, können Teilnehmende noch bis zum verspäteten Termin ihre Lösung einreichen. Für den User wird sowohl der normale Abgabetermin als auch der verspätete Termin angezeigt, bzw. die Termine, die noch in der Zukunft liegen. Die verspätete Abgabe wird dem Betreuer bzw. Kursbesitzer im Bewertungsflow ebenfalls angezeigt.
 
 Eine Musterlösung kann für alle Teilnehmenden oder nur diejenigen, die die Aufgabe bearbeitet haben, ab dem eingetragenen Datum bereitgestellt werden.
 Sind Musterlösungen aktiviert, kann hier auch definiert werden, ob Betreuer Dokumente hinzufügen und bearbeiten dürfen.
 
-Statt Kalenderdaten einzutragen können Sie auch mit _relativen Daten_ arbeiten. Legen Sie fest wie viele Tage nach dem ersten Kursbesuch oder der Buchung die Aufgabenstellung geöffnet bleibt. Alle eingestellten Zeitvorgaben können auch individuell angepasst werden, z.B. wenn ein Lerner aufgrund bestimmter Umstände eine Verlängerung benötigt. Dies gilt für alle Prozessschritte. Wenn Sie das Abgabedatum verlängern, wird die Aufgabe neu eröffnet. Auch ein Datum für eine verspätete Abgabe ist möglich.
+Statt Kalenderdaten einzutragen, können Sie auch mit _relativen Daten_ arbeiten. Legen Sie fest wie viele Tage nach dem ersten Kursbesuch oder der Buchung die Aufgabenstellung geöffnet bleibt. Alle eingestellten Zeitvorgaben können auch individuell angepasst werden, z.B. wenn ein Lerner aufgrund bestimmter Umstände eine Verlängerung benötigt. Dies gilt für alle Prozessschritte. Wenn Sie das Abgabedatum verlängern, wird die Aufgabe neu eröffnet. Auch ein Datum für eine verspätete Abgabe ist möglich.
 
 
 Im Bereich "Betreuung" des Tabs Workflow kann eine teilnehmerabhängige Betreuung aktiviert und konfiguriert werden.
@@ -70,13 +117,19 @@ Die differenzierte Zuordnung der Personen erfolgt allerdings bei geschlossenem K
 
     Bei Änderungen am Workflow, z.B. dem Entfernen der Aufgabenstellung, wird bei allen Teilnehmenden des Kurses dieser Bestandteil des Workflows entfernt. Die Information über bereits gewählte Aufgaben ist dann nicht mehr sichtbar. Wird der Bestandteil des Workflows wieder eingefügt, ist diese Information aber wieder zugänglich.
 
-    Wird jedoch z.B. die Aufgabenstellung nachträglich hinzugefügt und ein Teilnehmer ist in ihrem persönlichen Workflow bereits weiter fortgeschritten, so muss nachträglich keine Aufgabe mehr ausgewählt werden.  
+    Wird jedoch z.B. die Aufgabenstellung nachträglich hinzugefügt und ein/e Teilnehmer:in ist im persönlichen Workflow bereits weiter fortgeschritten, so muss nachträglich keine Aufgabe mehr ausgewählt werden.  
+
+[nach oben ^](#create_task)
+
 
 ### Tab "Aufgabenstellung“  {: #assignment}
 
-Sofern im Tab "Workflow" die  "Aufgabenstellung" aktiviert wurde können Sie diese nun bereitstellen. 
+!!! info "Voraussetzung"
 
- **a) Dateien hochladen**
+    Im Tab "Workflow" muss die "Aufgabenstellung" aktiviert worden sein, damit Sie diese nun bereitstellen können. 
+
+
+**a) Dateien hochladen**
 
 Ausserhalb von OpenOlat erstellte Aufgaben können als Datei hochgeladen werden. Auch kann eine Zip-Datei mit mehreren (verschiedenen) Aufgaben hochgeladen und jede Datei mit einem passenden Titel und einer Beschreibung versehen werden.
 
@@ -108,11 +161,24 @@ Es folgt keine automatische Änderung. Der Teilnehmer erhält nun aber die Mögl
 
 ![Daten zurücksetzen User](assets/Aufgabe_User_Daten_zurücksetzen.png)
 
+[nach oben ^](#create_task)
+
+
+
 ### Tab "Abgabe“  {: #submission}
 
-Hier legen Sie fest wie und in welchem Umfang Kursteilnehmende Dokumente bzw. Bearbeitungen abgeben können.
+Hier definieren Sie Art und Umfang der Einsendemöglichkeiten für die Teilnehmenden.
 
-Zur Auswahl stehen: 
+!!! info "Voraussetzung"
+
+    Im Tab "Workflow" muss 
+
+    * "Abgabe" aktiviert worden sein, damit Sie diese nun einrichten können.
+
+    ![course_element_task_workflow_activate_submission_v1_de.png](assets/course_element_task_workflow_activate_submission_v1_de.png){ class="shadow lightbox" }
+
+
+Nach Aktivierung stehen zur Auswahl: 
 
 **"Dokumente hochladen"**: In diesem Fall können Kursteilnehmende außerhalb von OpenOlat erstellte Dokumente hochladen und abgeben. 
 
@@ -134,9 +200,39 @@ Darüber hinaus können Sie auch die minimale und maximale Anzahl von Dokumenten
 
 Aktivieren Sie die E-Mail Bestätigung damit Personen, die eine Aufgabe abgegeben haben eine entsprechende E-Mail erhalten. Der vorformulierte E-Mailtet kann bei Bedarf weiter angepasst werden. 
 
+[nach oben ^](#create_task)
+
+
+
 ### Tab "Rückgabe und Feedback"  {: #revisions}
 
-In diesem Tab kann die minimale und maximale Anzahl von Rückgabedokumenten definiert werden.
+!!! info "Voraussetzung"
+
+    Im Tab "Workflow" muss 
+
+    * "Rückgabe und Feedback" aktiviert worden sein, damit Sie diese nun einrichten können,
+    * gewählt worden sein, ob das Feedback durch Betreuer:innen oder Peer-Review geschehen soll.
+
+    ![course_element_task_workflow_activate_fb_v1_de.png](assets/course_element_task_workflow_activate_fb_v1_de.png){ class="shadow lightbox" }
+
+
+**Rückgabe und Feedback durch Betreuer:innen**
+
+Wurde im Tab Workflow die Option "Durch Betreuende" gewählt, können nun im Tab "Rückgabe und Feedback" die minimale und die maximale Anzahl von Rückgabedokumenten festgelegt werden, die die Teilnehmenden während der Schritte "Rückgabe und Feedback" und "Überarbeitung" abgeben dürfen.
+
+**Rückgabe und Feedback durch Peer-Review**
+
+Wurde im Tab Workflow die Option "Mit Peer-Review" gewählt, können nun im Tab "Rückgabe und Feedback" die Regeln für die Abgabe eines Feedbacks durch andere Teilnehmer:innen festgelegt werden. Das Feedback der Reviewer:innen wird jeweils in einem [Formular](../learningresources/Forms_in_Courses.de.md) gegeben. Als Kursbesitzer:in geben Sie dieses [Formular](../learningresources/Forms_in_Courses.de.md) vor.
+
+Auch eine Rückmeldung an die Reviewer:innen kann ermöglicht werden (Hilfreich? Ja/Nein und Sternebewertung).
+
+![course_element_task_fb_v1_de.png](assets/course_element_task_fb_v1_de.png){ class="shadow lightbox" }
+
+
+
+[nach oben ^](#create_task)
+
+
 
 ### Tab "Bewertung“  {: #grading}
 
@@ -158,25 +254,54 @@ Optional können sie noch die Möglichkeit für individuelle Kommentare oder ind
 #### Hinweise
 Wenn Sie die erweiterte Konfiguration aufklappen stehen noch weitere Konfigurationen zur Verfügung. Hier können Sie noch Hinweistexte für alle Lernenden und/oder für alle Betreuenden hinterlegen. 
 
+[nach oben ^](#create_task)
+
+
+
 ### Tab "Musterlösung“ {: #sample}
 
-Um allen Kursteilnehmenden eine Musterlösung zu den gestellten Aufgaben anzubieten, erstellen Sie entweder direkt die Musterlösung mit dem internen Editor, nehmen ein Video mit ihrer Webcam auf oder laden Dateien mit den Musterlösungen hoch. 
+Um allen Kursteilnehmenden eine Musterlösung zu den gestellten Aufgaben anzubieten, erstellen Sie entweder die Musterlösung direkt mit dem internen Editor oder Sie nehmen ein Video mit Ihrer Webcam auf oder Sie laden Dateien mit den Musterlösungen hoch. 
 
-Die Musterlösung ist erst sichtbar, wenn die vom Teilnehmer eingereichten Dokumente vom Betreuer akzeptiert wurden.
+
+!!! info "Voraussetzung"
+
+    Im Tab "Workflow" muss 
+
+    * "Musterlösungen" aktiviert worden sein, damit Sie diese nun einrichten können.
+
+    ![course_element_task_workflow_activate_sample_v1_de.png](assets/course_element_task_workflow_activate_sample_v1_de.png){ class="shadow lightbox" }
+
+
+Per Voreinstellung ist die Musterlösung erst sichtbar, wenn die vom Teilnehmer eingereichten Dokumente von dem/der Betreuer:in akzeptiert wurden.
 
 !!! Tip "Tipp"
 
     Sollen die Teilnehmenden vorab bereits Hilfestellungen zur Bearbeitung der Aufgabe erhalten, laden Sie diese zusammen mit der Aufgabenstellung als ZIP-Dokument hoch oder nutzen Sie die das Mitteilungsfeld (siehe Tab "Aufgabenstellung").
 
-### Tab "HighScore"
+[nach oben ^](#create_task)
 
-Sofern für die Aufgabe im Tab "Bewertung" die Vergabe von Punkten aktiviert wurde kann auch der Tab Highscore konfiguriert werden. So kann definiert werden welche Elemente angezeigt werde, ob die Darstellung anonym sein soll und ab welchem Zeitpunkt die Highscore-Liste sichtbar sein soll.
+
+
+### Tab "HighScore"  {: #highscore}
+
+Sofern für die Aufgabe Punkte vergeben werden, können Sie diese mit den HighScore-Optionen visualisieren. 
+
+Voraussetzung ist, dass für die Aufgabe im Tab "Bewertung" die Vergabe von Punkten aktiviert wurde. Erst dann wird der Tab Highscore aktiv und kann konfiguriert werden. Es kann bestimmt werden, 
+
+* welche Elemente angezeigt werden, 
+* ob die Darstellung anonym sein soll und
+* ab welchem Zeitpunkt die Highscore-Liste sichtbar sein soll.
 
 Weitere Informationen zu diesem Tab, der in den meisten Assessment Kursbausteinen zur Verfügung steht, finden Sie [hier](../learningresources/Course_Elements.de.md).
 
-### Tab "Erinnerungen & To-dos"
+[nach oben ^](#create_task)
 
-Erstellen Sie bei Bedarf für die Teilnehmenden [Erinnerungen](../learningresources/Course_Reminders.de.md). zur Bearbeitung des Kursbausteins. 
+
+
+### Tab "Erinnerungen & To-dos"  {: #reminders}
+
+Mit der Erinnerungsfunktion können Sie [Erinnerungen](../learningresources/Course_Reminders.de.md) in Form einer E-Mail an Kursmitglieder versenden und automatische [To-dos](../learningresources/Course_todos.de.md)für die Aufgabe generieren. To-dos werden den Kursteilnehmenden im persönlichen Menü unter "[To-dos](../../personal_menu/To-Dos.de.md)" hinterlegt. 
+
 
 Wird die automatische Erstellung von To-dos aktiviert (ab :octicons-tag-24: Release 18.2.) sehen die Lernenden unter "Mein Kurs" -> To-dos den aktuellen Stand (Schritt) des Worklows der entsprechenden  und erkennen so rasch ob bzw. welche Aktionen aktuell von ihnen vorgenommen werden müssen. Darüber hinaus erscheinen diese To-dos auch bei den persönlichen To-dos der User in den persönlichen Werkzeugen. 
 
@@ -187,35 +312,22 @@ Weitere Informationen zu To-dos finden Sie [hier](../basic_concepts/To_Dos_Basic
 
     Ob auch Betreuende To-dos bearbeiten dürfen wird in den Einstellungen der Kurs-Administration definiert. Gehen Sie dafür in den Tab "Optionen" und aktivieren Sie den entsprechenden Haken.
     
-    
-### Tab "Lernpfad“ (nur für den Kurs-Typ Lernpfad)
-
-Hier definieren Sie ob die Bearbeitung der Aufgabe obligatorisch oder freiwillig ist oder ob der Kursbaustein nicht angezeigt (Ausgenommen) werden soll. Obligatorische Aufgaben werden bei der Fortschrittsanzeige berücksichtigt, freiwillige nicht.
-
-Das Freigabedatum kann verwendet werden, wenn der Kursbaustein erst zu einem bestimmten Datum geöffnet und gestartet werden soll. Der Baustein selbst wird aber bereits in der Kursstruktur angezeigt.
-
-Die Zeitangabe unter "Zu bearbeiten bis" bezieht sich auf die Frist für das Abholen bzw. den Start des Kursbausteins Aufgabe, nicht auf den Abgabetermin für den Dateiupload (siehe Tab Workflow).
-
-Bei der Bearbeitungszeit kann die geschätzte Zeit, die ein User für die Bearbeitung des Kursbausteins benötigt, eingetragen werden. Ein Eintrag ist vor allem relevant, wenn sich der Fortschritt im Kurs auf die Bearbeitungszeit der Kursbausteine bezieht (siehe Administration -> [Einstellungen](../learningresources/Course_Settings.de.md) -> Tab "Durchführung")
-
-Im Tab "Lernpfad" wird auch definiert, welches Kriterium erfüllt sein muss, damit die Aufgabe als "erledigt" gilt. Folgende Optionen stehen zur Wahl:
-
-![Erledigungskriterium](assets/task_completion_criterion_DE.png){ class="shadow" }
-
-* **Kursbaustein öffnen**: User hat auf den Kursbaustein geklickt.
-* **Bestätigung durch den Benutzer**: User hat auf die Lesebestätigung geklickt.
-* **Punkte**: Der User hat bei der Bearbeitung der Aufgabe mindestens die angegebene Punktzahl erreicht.
-* **Bestanden**: Der User hat die im Tab "Bewertung" konfigurierten Anforderungen an "Bestanden" erfüllt bzw. die Aufgabe wurde manuell vom Betreuer auf bestanden gesetzt.
-* **Durchführung erledigt**: Alle Schritte des Aufgabenflows wurden durchlaufen.
-
-!!! info "Herkömmliche Kurse"
-
-    Herkömmliche Kurse verfügen nicht über den Tab "Lernpfad" und haben stattdessen die Tabs "Sichtbarkeit" und "Zugang", inklusive Expertenmodus.
+  [nach oben ^](#create_task)
 
 
-## Aufgaben aus der User-Perspektive
+!!! info "Hinweis"
 
-Der gesamte Flow einer Aufgabe zeigt sich für den User direkt im Kursbaustein, angefangen vom Abholen der Aufgabe, über die Einreichung bis zur finalen Bewertung, je nach Konfiguration des Kursbausteins. 
+    Die Funktionsweise und der Aufbau der Kursbausteine "Aufgabe" und "[Gruppenaufgabe](../learningresources/Course_Element_Grouptask.de.md)" sind ähnlich.
+
+
+---
+
+## Aufgabe erledigen (Perspektive Kursteilnehmer:in)
+
+Alle Schritte einer Aufgabe (Workflow) zeigen sich für Kursteilnehmer:innen direkt im Kursbaustein, je nach Konfiguration des Kursbausteins. Nach Erledigung eines Schrittes wird der nächste Schritt angezeigt und zugänglich.
+ 
+![course_element_task_participant_view1_v1_de.png](assets/course_element_task_participant_view1_v1_de.png){ class="shadow lightbox" }
+
 
 !!!in  "Tipp"
 
@@ -256,6 +368,15 @@ Wenn Ihre Bearbeitung nicht ausreichend war und der Betreuer eine Überarbeitung
 
 ![Info: Die Abgabe wurde zur Überarbeitung zurückgewiesen](assets/Aufgabe_Rueckgabe_Feedback_zurueckgewiesen.png)
 
+
+### Ergebnisse des Peer-Reviews ansehen
+
+Wurde ein Peer-Review vorgesehen, sehen Sie eine Übersicht über Ihre vergebenen und erhaltenen Beurteilungen.
+
+![course_element_task_participant_peer1_v1_de.png](assets/course_element_task_participant_peer1_v1_de.png){ class="shadow lightbox" }
+
+
+
 ### Aufgabe überarbeiten
 
 Wenn Sie eine Überarbeitung vornehmen müssen, gehen Sie wie unter "Lösung abgeben" (Abgabe) erläutert vor. Im Abschnitt **"Überarbeitung"** kann es auch sein, dass Ihr Betreuer Ihnen Ihre Arbeit mehrfach zur Korrektur zurückgibt.
@@ -266,10 +387,22 @@ Sobald der Betreuer die Aufgabe als gelöst ansieht, wird er die Überarbeitungs
 
 Ihr Dozent kann der Aufgabe eine **Musterlösung** anfügen, welche zu einem von ihm festgelegten Zeitpunkt sichtbar wird, aber immer erst _nachdem_ ihre Lösung vom Betreuer akzeptiert wurde. Klicken Sie auf den Dateinamen bzw. den Button "Musterlösungen herunterladen", um die Musterlösung anzuschauen oder herunterzuladen.
 
-### "Bewertung" vom Betreuer lesen
+### "Bewertung" des Betreuers lesen
 
 Der Bereich **Bewertung** umfasst zum einen automatisch generierte Informationen der Leistungsübersicht mit Status,  Punktestand, Einstufung der gewählten Bewertungsskala, je nach Konfiguration des Kursbausteins. Zum anderen können Betreuende in dem Bereich Bewertung ein Feedback im Kommentarfeld sowie (Bewertungs-)dokumente hinterlegen. 
 
 ![Bewertung User Sicht](assets/Aufgabe_Bewertung_TN.png)
 
+---
 
+## Aufgaben betreuen (Perspektive Betreuer:in)
+
+
+### Peer-Review betreuen
+
+Der Ablauf eines Peer-Reviews wurde von dem/der Kursbesitzer:in festgelegt. Entsprechend finden Sie als Betreuer:in die Optionen für Ihre Betreuungsaufgabe vor.
+
+* In einer Übersicht sehen Sie den Stand der Peer-Reviews. In zwei Tabs finden Sie erhaltene und vergebene Beurteilungen der Teilnehmer:innen.
+* Als Betreuer:in können Sie manuell Reviewer:innen zuweisen.
+
+![course_element_task_coach_peer1_v1_de.png](assets/course_element_task_coach_peer1_v1_de.png){ class="shadow lightbox" }

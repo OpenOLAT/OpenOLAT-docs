@@ -21,11 +21,25 @@ Group **participants** will then see the following items in the group menu on th
 
   
 !!! info ""  
+
 	The tools marked with :material-rss: can be subscribed to, so that you are quickly informed about changes.
 
 !!! info "Virtual classrooms"
+
 	Depending on the configuration by the OpenOlat 
 	[Administrator](../../manual_admin/administration/External_Tools_-_Administration.md), different
 	virtual classrooms such as OpenMeetings, BigBlueButton,
 	Microsoft Teams are available as group tools.
 
+
+!!! info "Gruppenkalender in Verbindung mit Kurskalendern"
+	
+	In einem Gruppenkalender sehen die Gruppenteilnehmer:innen alle Einträge der Gruppenmitglieder, egal ob die Termine privat oder öffentlich gesetzt sind.
+	
+	Ist die Gruppe einem Kurs zugeordnet, werden im Kurskalender den Gruppenteilnehmer:innen folgende Einträge angezeigt:
+
+	- öffentliche Einträge der Gruppe,
+	- die eigenen Gruppenkalendereinträge des jeweiligen Gruppenmitglieds,
+	- sowie die kurspezifischen Kalendereinträge. 
+	
+	Personen die nicht Mitglied der Gruppe sind, sehen im Kurskalender die Kalendereinträge der anderen Gruppen nicht. Sind einem Kurs mehrere Gruppen zugeordnet, sehen die Mitglieder also nur die eigenen Gruppenkalendereinträge, aber nicht die der anderen Gruppen.
