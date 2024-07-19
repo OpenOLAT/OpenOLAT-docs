@@ -1,17 +1,18 @@
-# Externe Werkzeuge - Administration
+# Externe Werkzeuge - Übersicht
 
-![](assets/externe_Werkzeuge_16.png){ class="shadow lightbox aside-right-lg" }
+![admin_external_tools_overview_v1_de.png](assets/admin_external_tools_overview_v1_de.png){ class="shadow lightbox aside-right-lg" }
+
 
 In diesem Bereich können die OpenOlat Administratoren diverse externe Tools
 ein- und ausschalten und je nach Tool bestimmte Basiseinstellungen, die
 systemweit gelten, einrichten. Zu den Tools gehören mehrere virtuelle
 Klassenzimmer sowie Dokumenten Tools, Analyse Werkzeuge und ein PDF Generator.
 
-## BigBlueButton
+## BigBlueButton {: #bbb}
 
 [Administrative Konfiguration](BigBlueButton_module.de.md) von BigBlueButton
 
-## OpenMeetings
+## OpenMeetings {: #openmeetings}
 
 In der OpenOlat Systemadministration können Sie das OpenMeetings-Modul
 konfigurieren und die Funktionalität freischalten. Um das OpenMeetings-Modul
@@ -31,24 +32,33 @@ Räume erzeugt und genutzt werden:
 Im Tab "Räume" erhalten Administratoren einen Überblick über die in OpenOlat
 angelegten OpenMeetings Räume.
 
-## Adobe Connect
+## Adobe Connect {: #adobe_connect}
 
 Aktivierung und Konfiguration von Adobe Connect, sofern Lizenz vorhanden.
 
-## Zoom
+## Microsoft Teams {: #_microsoft_teams}
+
+tbd
+
+## Microsoft SharePoint / OneDrive {: #microsoft_sharepoint}
+
+Um im File Hub das Schreiben und Kopieren von Dateien von und nach SharePoint und OneDrive zu ermöglichen, müssen diese beiden Tools aktiviert werden. (Sie können einzeln aktiviert werden.)
+
+
+## Zoom {: #zoom}
 
 The Zoom integration lets you manage and start Zoom meetings.
 
 Lerne, wie man die [Zoom Integration aktiviert und konfiguriert](Zoom.de.md). 
 
-## LTI 1.3
+## LTI 1.3 {: #lti}
 
 Hier kann LTI 1.3 aktiviert und näher konfiguriert werden z.B. können externe
 LTI Plattformen und Tools verbunden werden.
 
 Diese LTI Version befindet sich aktuell in der Versuchsphase.
 
-## GoToTraining
+## GoToTraining {: #go_to_training}
 
 Aktivierung und Konfiguration sofern Lizenz vorhanden.
 
@@ -78,19 +88,27 @@ Bitte beachten Sie, dass für die OpenOlat Anbindung auf dem vitero Server
 automatisch Benutzerkonten eingerichtet werden. Allfällige bereits bestehende
 Benutzerkonten und Termine werden nicht berücksichtigt.
 
-## Edubase/Edubook
+## JupyterHub {: #jupyter}
+
+tbd
+
+## card2brain {: #card2brain}
+
+tbd
+
+## Edubase/Edubook {: #edubase}
 
 Aktivierung und Konfiguration sofern Lizenz vorhanden.
 
-## Youtube API
+## Youtube API {: #youtube_api}
 
 Eingabe, Entfernung oder Prüfen des API Schlüssels.
 
-## Opencast
+## Opencast {: #opencast}
 
 Aktivierung und Konfiguration sofern Lizenz vorhanden
 
-## MediaSite
+## MediaSite {: #mediasite}
 
 Aktivierung von MediaSite. MediaSite ist eine automatisierte Videoplattform
 für Videoaufzeichnung, Videomanagement und Untertitelung. Das OpenOlat
@@ -98,7 +116,7 @@ Mediasite-Modul ermöglicht es Ihnen, MediaSite-Inhalte als Einzelpräsentation,
 Kanal oder Modul in Kurse zu integrieren. Weitere Informationen finden Sie in
 der Dokumentation von [MediaSite](https://mediasite.com/).
 
-## edu-sharing
+## edu-sharing {: #edusharing}
 
 Edu-sharing ist eine Software, um Lernplattformen miteinander zu vernetzen, um
 Lerninhalte, Metadaten und Tools auszutauschen und in einer Bildungscloud
@@ -118,9 +136,21 @@ speichern.
 Weitere Information sind auf der [Webseite](https://edu-sharing.com/) von edu-
 sharing zu finden.
 
-## Analytics
+## Dokumenteneditoren {: #dokumenteneditoren}
+
+tbd
+
+## draw.io  {: #draw_io}
+
+tbd
+
+## Analytics {: #analytics}
 
 Möglichkeit, externe Analyse Services zu aktivieren.
+
+## KI Modul {: #ki_modul}
+
+tbd
 
 ## PDF Generator
 
