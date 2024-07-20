@@ -97,7 +97,7 @@ Hier finden Sie weiterführende Informationen:
 
 !!! info "Hinweis"
 
-    In der Regel ist diese Vorschau aber mehr notwendig, da bei geschlossenem Kurseditor einfach die "Teilnehmeransicht" gewählt werden kann. Dieser Weg bietet sich auch für Lernpfad Kurse an.
+    In der Regel ist diese Vorschau aber nicht mehr notwendig, da bei geschlossenem Kurseditor einfach die "Teilnehmeransicht" gewählt werden kann. Dieser Weg bietet sich auch für Lernpfad Kurse an.
 
 ## Publizieren
 
