@@ -212,12 +212,11 @@ Proof of performance and certificates from previous courses are retained.
 
 ## Badges
 
-You can find out more about badges here:
+To be able to use badges in courses, they must be activated here in the "Assessment" tab of the settings. There is then a new menu item in the course administration and the "Badge" tab also appears for assessment course elements.
 
-[User manual > Personal Menu > Personal Tools > Badges](../personal_menu/OpenBadges.md)
+Further information on badges can be found here: 
 
-[User manual > Learning resources > Course > Administration > Assessment tool > Badges](../learningresources/OpenBadges.md)
-
-[Admin manual > Administration > eAssessment Administration > Badges](../../manual_admin/administration/e-Assessment_openBadges.md)
-
+* [Info for course owners:](../learningresources/OpenBadges.md) Creating and editing badges
+* [Info for users:](../personal_menu/OpenBadges.md) Badges in the "Personal tools: 
+* [Info for OpenOlat administrators](../../../manual_admin/docs/administration/e-Assessment_openBadges.md)
 

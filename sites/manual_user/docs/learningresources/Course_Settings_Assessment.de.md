@@ -243,12 +243,11 @@ Leistungsnachweise und Zertifikate früherer Durchgänge bleiben erhalten.
 
 ## Badges
 
-Zu Badges finden Sie mehr hier:
+Um Badges in Kursen nutzen zu können, müssen sie hier im Tab "Bewertung" der Einstellungen aktiviert werden. Anschliessend gibt es einen neunen Menüpunkt in der Kurs Administration und bei Assessment Kursbausteinen erscheint zusätzlich der Tab "Badge".
 
-[Benutzerhandbuch > Persönliches Menü > Persönliche Werkzeuge > Badges](../personal_menu/OpenBadges.de.md)
+Weitere Infos zu Badges finden Sie hier: 
 
-[Benutzerhandbuch > Lernressourcen > Kurs > Administration > Bewertungswerkzeug > Badges](../learningresources/OpenBadges.de.md)
-
-[Administrationshandbuch > Administration > eAssessment Administration > Badges](../../manual_admin/administration/e-Assessment_openBadges.de.md)
-
+* [Infos für Kursbesitzer*innen:](../learningresources/OpenBadges.de.md) Erstellen und Bearbeiten von Badges
+* [Infos für Benutzer:](../personal_menu/OpenBadges.de.md) Badges bei den "Persönlichen Werkzeugen: 
+* [Infos für OpenOlat Administrator*innen](../../../manual_admin/docs/administration/e-Assessment_openBadges.de.md)
 
