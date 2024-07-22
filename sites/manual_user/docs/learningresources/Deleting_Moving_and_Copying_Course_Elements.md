@@ -3,26 +3,26 @@
 You can make changes to your course in the course editor. You can access the course editor by starting the course and selecting the option "Course editor"
 in the menu under "Administration".
 
-![](assets/course_editor_13.png)
+![course editor link](assets/course_editor_link_19.png)
 
 In order to delete, duplicate or move a course element, you have to select the course element first. Then the corresponding menu appears in the top right .
 
-![](assets/delete_move.png)
+![move course elements](assets/course_editor_move_delete.png)
 
 The respective action refers to the currently selected course element and all subordinate course elements. In the Move or Duplicate window, select the position under which you want to insert the course element and select the corresponding arrow: Up to insert the new element above, down to insert the element below, and the curved arrow to insert the element below. Likewise, it is possible to move course elements simply by means of "Drag&Drop" in the course structure on the left.
 
-The changes for deleting, moving and copying course elements have to be published to become effective for the course participants. As long as you have not published them, deleted course elements can be
-be restored.
-
 Duplicating course elements is recommended if, for example, you want to offer
 offer group work and want to use the same structure several times.
+
+The changes for deleting, moving and copying course elements have to be published to become effective for the course participants. As long as you have not published them, deleted course elements can be
+be restored.
 
 ## Importing course elements
 
 If you have already created a comprehensive course structure in another course
 you would like to continue using, it is a good idea to copy these course elements into the desired course via "Import course elements".
 
-![](assets/KB_importieren.en.png)
+![Import course elements](assets/KB_importieren.en.png)
 
 ### The way:
 
