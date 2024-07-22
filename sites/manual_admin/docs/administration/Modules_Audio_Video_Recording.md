@@ -1,31 +1,31 @@
-# Module: Audio/Video Recording
+# Module Audio/Video Recording
 
-## Aufnahmekonfigurationen
+## Recording configuration
 
-### Videoaufzeichnung aktivieren
+### Enable video recording
   
-Wenn Sie die Videoaufzeichnungsfunktion aktivieren, können Benutzer an vielen Stellen, an denen Videos verwendet werden, wie z. B. in Aufgaben oder Gruppenaufgaben, ihre eigenen Videos aufzeichnen.
+When you enable the video recording feature, users can record their own video in many places where video is used, such as in tasks or group tasks.
 
-### Audioaufzeichnung aktivieren
+### Enable audio recording
 
-Wenn Sie die Audioaufzeichnungsfunktion aktivieren, können Benutzer an vielen Stellen, an denen Audio verwendet wird, wie z. B. in Aufgaben oder Gruppenaufgaben, ihr eigenes Audio aufzeichnen.
+When you enable the audio recording feature, users can record their own audio in many places where audio is used, such as in tasks or group tasks.
 
-### Lokale Videokonvertierung aktivieren
+### Enable local video conversion
 
-In Webbrowsern aufgezeichnete Videodateien liegen oft nicht in einem Format vor, das in anderen Browsern verwendet werden kann. Dies erfordert die Konvertierung von Videos aus dem Originalformat in ein Format, das in allen Browsern funktioniert. **mp4** mit dem **h264** Codec für Video und dem **aac** Codec für Audio ist ein Format, das diese Anforderung erfüllt.
+Video files recorded in web browsers are often not in a format that can be used on other browsers. This requires the conversion of videos from the original format to a format that works on all browsers. **mp4** using the **h264** codec for video and the **aac** codec for audio is a format that satisfies this requirement.
 
-Es ist möglich, diese Konvertierung mit dem Tool **HandBrakeCLI** direkt auf dem Server durchzuführen, auf dem OpenOlat läuft. Sie können diese Option nur aktivieren, wenn HandBrakeCLI auf dem Server installiert und über den Standardpfad verfügbar ist.
+It is possible to perform this conversion directly on the server running OpenOlat using the tool **HandBrakeCLI**. You can only enable this option if HandBrakeCLI is installed on the server and available via the default path.
 
-Wie Sie HandBrakeCLI lokal installieren, erfahren Sie im Kapitel [HandBrakeCLI](../installation/handBrakeCli.md).
+For information on how to install HandBrakeCLI locally, see the chapter [HandBrakeCLI](../installation/handBrakeCli.md).
 
-### Lokale Audiokonvertierung aktivieren
+### Enable local audio conversion
 
-In Webbrowsern aufgezeichnete Audiodateien liegen oft nicht in einem Format vor, das in anderen Browsern verwendet werden kann. Dies erfordert die Konvertierung von Audiodateien aus dem Originalformat in ein Format, das in allen Browsern funktioniert. **m4a** mit dem Codec **aac** ist ein Format, das diese Anforderung erfüllt.
+Audio files recorded in web browsers are often not in a format that can be used on other browsers. This requires the conversion of audio files from the original format to a format that works on all browsers. **m4a** using the **aac** codec is a format that satisfies this requirement.
 
-Es ist möglich, diese Konvertierung direkt auf dem Server, auf dem OpenOlat läuft, mit dem Tool **ffmpeg** durchzuführen. Sie können diese Option nur aktivieren, wenn ffmpeg auf dem Server installiert und über den Standardpfad verfügbar ist.
+It is possible to perform this conversion directly on the server running OpenOlat using the tool **ffmpeg**. You can only enable this option if ffmpeg is installed on the server and available via the default path.
 
-Wie Sie ffmpeg lokal installieren, erfahren Sie im Kapitel [ffmpeg](../installation/ffmpeg.md).
+For information on how to install ffmpeg locally, see the chapter [ffmpeg](../installation/ffmpeg.md).
 
-## Umstellungsarbeiten
+## Conversion jobs
 
-Dieser Bereich enthält Audio- und Videodateien, die auf eine Konvertierung warten oder die nicht erfolgreich konvertiert werden konnten.
+This section contains audio and video files that are waiting to be converted or that failed to be converted successfully.
