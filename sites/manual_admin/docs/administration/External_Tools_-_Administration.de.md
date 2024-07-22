@@ -3,22 +3,25 @@
 ![admin_external_tools_overview_v1_de.png](assets/admin_external_tools_overview_v1_de.png){ class="shadow lightbox aside-right-lg" }
 
 
-In diesem Bereich können die OpenOlat Administratoren diverse externe Tools
-ein- und ausschalten und je nach Tool bestimmte Basiseinstellungen, die
-systemweit gelten, einrichten. Zu den Tools gehören mehrere virtuelle
-Klassenzimmer sowie Dokumenten Tools, Analyse Werkzeuge und ein PDF Generator.
+In diesem Bereich können die OpenOlat Administrator:innen diverse externe Tools
+ein- und ausschalten (z.B. mehrere virtuelle Klasdsenzimmer) und je nach Tool bestimmte Basiseinstellungen einrichten, die
+systemweit gelten.
 
 ## BigBlueButton {: #bbb}
 
-[Administrative Konfiguration](BigBlueButton_module.de.md) von BigBlueButton
+Um Webkonferenzen mit BigBlueButton in OpenOlat zu ermöglichen, muss BBB in der Administration aktiviert und konfiguriert worden sein.
+ 
+[Zu den Details >](BigBlueButton_module.de.md)
+
 
 ## OpenMeetings {: #openmeetings}
 
+OpenMeetings ist eine Webkonferenz-Lösung.
+
 In der OpenOlat Systemadministration können Sie das OpenMeetings-Modul
-konfigurieren und die Funktionalität freischalten. Um das OpenMeetings-Modul
-zu konfigurieren, geben Sie in im Tab "Konfiguration" die URL des
-OpenMeetings-Servers, sowie den zuvor in OpenMeetings angelegten Benutzernamen
-des Webservices und das zugehörige Passwort ein.  Speichern Sie die Daten
+konfigurieren und die Funktionalität freischalten. Geben Sie im Tab "Konfiguration" die URL des
+OpenMeetings-Servers ein, sowie den zuvor in OpenMeetings angelegten Benutzernamen
+des Webservices und das zugehörige Passwort.  Speichern Sie die Daten
 anschließend und drücken Sie die Schaltfläche "Serververbindung testen" um die
 Verbindungsdaten zu überprüfen.
 
@@ -32,37 +35,53 @@ Räume erzeugt und genutzt werden:
 Im Tab "Räume" erhalten Administratoren einen Überblick über die in OpenOlat
 angelegten OpenMeetings Räume.
 
+
 ## Adobe Connect {: #adobe_connect}
 
-Aktivierung und Konfiguration von Adobe Connect, sofern Lizenz vorhanden.
+Adobe Connect ist die Webkonferenzlösung aus der Adobe-Produktlinie.
+
+Eine Aktivierung und Konfiguration kann vorgenommen werden, wenn die erforderlichen Lizenzen vorhanden sind.
+
 
 ## Microsoft Teams {: #_microsoft_teams}
 
-tbd
+Die Aktivierung und Konfiguration kann vorgenommen werden, wenn die erforderlichen Lizenzen vorhanden sind.
+
 
 ## Microsoft SharePoint / OneDrive {: #microsoft_sharepoint}
 
-Um im File Hub das Schreiben und Kopieren von Dateien von und nach SharePoint und OneDrive zu ermöglichen, müssen diese beiden Tools aktiviert werden. (Sie können einzeln aktiviert werden.)
+Um im OpenOlat File Hub und OpenOlat Media Center das Schreiben und Kopieren von Dateien von und nach SharePoint und OneDrive zu ermöglichen, müssen diese beiden Tools aktiviert werden. (Sie können einzeln aktiviert werden.)
+
+Voraussetzung ist, dass die erforderlichen Lizenzen vorhanden sind.
 
 
 ## Zoom {: #zoom}
 
-The Zoom integration lets you manage and start Zoom meetings.
+Um Zoom Meetings in OpenOlat zu ermöglichen, muss Zoom in der Administration aktiviert und konfiguriert worden sein. 
 
-Lerne, wie man die [Zoom Integration aktiviert und konfiguriert](Zoom.de.md). 
+[Zu den Details >](Zoom.de.md)
+
 
 ## LTI 1.3 {: #lti}
 
-Hier kann LTI 1.3 aktiviert und näher konfiguriert werden z.B. können externe
-LTI Plattformen und Tools verbunden werden.
+Hier kann LTI 1.3 aktiviert und näher konfiguriert werden. So können z.B. externe LTI Plattformen und Tools verbunden werden.
 
-Diese LTI Version befindet sich aktuell in der Versuchsphase.
+[Zu den Details >](LTI_Integrations.de.md)
+
 
 ## GoToTraining {: #go_to_training}
 
-Aktivierung und Konfiguration sofern Lizenz vorhanden.
+GoToTraining ist eine virtuelle Schulungsplattform.
+
+Eine Aktivierung und Konfiguration kann vorgenommen werden, wenn die erforderlichen Lizenzen vorhanden sind.
+
+**Weitere Informationen:**<br>
+[Website GoToTraining](https://www.goto.de/training)
+
 
 ## vitero {: #vitero}
+
+Vitero ist ein Werkzeug zur Durchführung von Webkonferenzen bzw. Online-Meetings.
 
 Um die vitero Anbindung nutzen zu können müssen Sie über eine vitero Lizenz
 verfügen und in der Administrationsumgebung folgende Einstellungen vornehmen:
@@ -88,33 +107,60 @@ Bitte beachten Sie, dass für die OpenOlat Anbindung auf dem vitero Server
 automatisch Benutzerkonten eingerichtet werden. Allfällige bereits bestehende
 Benutzerkonten und Termine werden nicht berücksichtigt.
 
+**Weitere Informationen:**<br>
+[Website vitero](https://www.vitero.com/de)
+
+
 ## JupyterHub {: #jupyter}
 
-tbd
+JupyterHub dient der Bereitstellung von Jupyter-Images für Lernende.
+
+**Weitere Informationen:**<br>
+[Benutzerhandbuch: Kursbaustein JupyterHub](../../manual_user/learningresources/Course_Element_JupyterHub.de.md)
+
 
 ## card2brain {: #card2brain}
 
-tbd
+card2brain ist eine Software für das Lernen mit einem Lernkartei-System.
+
+Eine Aktivierung und Konfiguration kann vorgenommen werden, wenn die erforderlichen Lizenzen vorhanden sind.
+
+**Weitere Informationen:**<br>
+[Website card2brain](https://card2brain.ch/de)
+
 
 ## Edubase/Edubook {: #edubase}
 
-Aktivierung und Konfiguration sofern Lizenz vorhanden.
+Edubase ist eine E-Book-Plattform.
+
+Eine Aktivierung und Konfiguration kann vorgenommen werden, wenn die erforderlichen Lizenzen vorhanden sind.
+
+**Weitere Informationen:**<br>
+[Website Edubase](https://www.edubase.ch)
+
 
 ## Youtube API {: #youtube_api}
 
 Eingabe, Entfernung oder Prüfen des API Schlüssels.
 
+
 ## Opencast {: #opencast}
 
-Aktivierung und Konfiguration sofern Lizenz vorhanden
+Opencast ist eine Open Source Software zur Planung, Aufzeichnung und Veröffentlichung audiovisueller Lerninhalte, insbesondere für die Aufzeichnung und Distribution von Lehrveranstaltungen.
+
+Nach der Aktivierung können die API-, LTI-Konfiguration vorgenommen werden. Auch BigBlueButton-Recordings aus OpenOlat können verwendet werden.
+
 
 ## MediaSite {: #mediasite}
 
 Aktivierung von MediaSite. MediaSite ist eine automatisierte Videoplattform
 für Videoaufzeichnung, Videomanagement und Untertitelung. Das OpenOlat
 Mediasite-Modul ermöglicht es Ihnen, MediaSite-Inhalte als Einzelpräsentation,
-Kanal oder Modul in Kurse zu integrieren. Weitere Informationen finden Sie in
-der Dokumentation von [MediaSite](https://mediasite.com/).
+Kanal oder Modul in Kurse zu integrieren. 
+
+**Weitere Informationen:**<br>
+[Dokumentation zu MediaSite](https://mediasite.com/)
+
 
 ## edu-sharing {: #edusharing}
 
@@ -133,29 +179,43 @@ speichern.
 
 	https://your.openolat.domain/olat/edusharing/metadata
 
-Weitere Information sind auf der [Webseite](https://edu-sharing.com/) von edu-
-sharing zu finden.
+**Weitere Informationen:**<br>
+[Website edu-sharing](https://edu-sharing.com/)
+
 
 ## Dokumenteneditoren {: #dokumenteneditoren}
 
-tbd
+Zur Bearbeitung von Office-Dokumenten können in OpenOlat verschiedene Tools verwendet werden:
+
+* ONLYOFFICE
+* Microsoft Office
+
+Voraussetzung ist jeweils, dass die erforderlichen Lizenzen vorhanden sind.
+
 
 ## draw.io  {: #draw_io}
 
-tbd
+draw.io ist ein Online-Werkzeug zur Erstellung von Diagrammen, das in OpenOlat z.B. in Projekten genutzt werden kann.Voraussetzung ist die Aktivierung.
+
+**Weitere Informationen:**<br>
+[Website draw.io](https://www.drawio.com)
+
 
 ## Analytics {: #analytics}
 
-Möglichkeit, externe Analyse Services zu aktivieren.
+Hier besteht die Möglichkeit, externe Analyse Services zu aktivieren, wie z.B. Google Analytics.
+
 
 ## KI Modul {: #ki_modul}
 
-tbd
+Hier aktiveren und konfigurieren Sie die Werkzeuge der Künstlichen Intelligenz, die in OpenOlat eingebunden werden können. 
+
 
 ## PDF Generator
 
 In OpenOlat können an verschiedenen Orten PDFs erzeugt werden, z.B. Zertifikate, Testresultatet, Mitgliederlisten oder ähnliches. 
 Diese Funktionen stehen nur zur Verfügung, wenn einer der untenstehenden PDF Servcies konfiguriert ist. 
+
 
 ### Gotenberg (empfohlen)
 
@@ -163,7 +223,8 @@ Gotenberg ist ein PDF Generator der auf Google Chrome oder Chromium basiert und 
 
 Mehr Informationen über Gotenberg befinden sich auf [Gotenberg](https://gotenberg.dev/docs/about) und [GitHub](https://github.com/gotenberg/gotenberg).
 
-Wie Sie den AthenaPDF-Service installieren und konfigurieren erfahren Sie im [Installationshandbuch](../installation/gotenbergPdf.md).
+Wie Sie den Gotenberg PDF-Service installieren und konfigurieren erfahren Sie im [Installationshandbuch](../installation/gotenbergPdf.md).
+
 
 ### Athena PDF (veraltet)
 
