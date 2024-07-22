@@ -51,3 +51,28 @@ Die Recovery Keys können **im persönlichen Menü** unter **"Passwort"** angefo
 !!! note "Hinweis"
 
     Wurden neue Recovery Keys bestellt, sind alle alten ungültig, auch wenn sie noch nie benutzt wurden.
+
+
+
+## Passkey für mehrere Geräte
+
+Gehen Sie dazu in folgenden Schritten vor:
+
+1. Einrichten von Passkey auf dem Hauptgerät<br>
+Der/die Administrator:in kann rollenspezifisch Passkeys verlangen, aber auch andere Nutzer können ggf. selbst die Sicherheitsstufe erhöhen.<br> (Persönliches Menü > Passwort)
+
+2. Recovery Keys speichern<br>(nur zur einmaligen Verwendung)
+
+3. Ist Passkey aktiviert worden, wird beim ersten Einloggen die Erstellung eines Passkeys (Private Key) verlangt. Dieser ist gerätespezifisch und wird nur auf dem Gerät gespeichert.
+
+4. Wechseln Sie nun das Gerät und loggen Soe sich auf dem anderen Gerät ein. Das löst dort eine Meldung aus: "Für das Einloggen benötigt es einen Passkey" o.ä.
+
+5. Jetzt loggen Sie sich mit einem Recovery-Key ein. So kommen Sie vom anderen Gerät aus in OpenOlat.
+
+6. Damit es nicht jedes Mal erneut einen Recovery Key braucht, gehen Sie nach dem Einloggen auf dem neuen Gerät wieder in das persönliche Menü und dort zu "Passwort". Dort steht wieder der Button "Passkey erstellen" zur Verfügung.
+
+7. Erzeugen Sie mit dem Button einen neuen Passkey. Es wird eine weiterer Private Key für das aktuelle Gerät erstellt.
+
+8. Die verschiedenen Passkeys/Geräte sind dann aufgelistet im persönlichen Menü unter "Passwort".
+
+
