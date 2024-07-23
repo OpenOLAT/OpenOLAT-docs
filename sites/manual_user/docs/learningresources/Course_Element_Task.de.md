@@ -406,3 +406,8 @@ Der Ablauf eines Peer-Reviews wurde von dem/der Kursbesitzer:in festgelegt. Ents
 * Als Betreuer:in können Sie manuell Reviewer:innen zuweisen.
 
 ![course_element_task_coach_peer1_v1_de.png](assets/course_element_task_coach_peer1_v1_de.png){ class="shadow lightbox" }
+
+
+!!! note  "Hinweis"
+
+    Kursbetreuer:innen sehen nur Gruppen, in denen sie selbst Mitglied sind. Soll ein Peer-Review durch Mitglieder anderer Gruppen erfolgen, sind die Bewertungen dieser Teilnehmer:innen für Kursbetreuer:innen nicht vollständig ersichtlich.
