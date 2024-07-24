@@ -25,15 +25,17 @@ Diese Aufteilung bringt mehr Fairness bei der Themenvergabe, denn die Zuordnung 
 * Die Teilnehmer:innen können zu ihren gewählten Themen eine Prioritäten-Reihenfolge angeben.
 * Es kann sowohl eine Themenauswahl, wie auch eine Begrenzung der Anzahl Personen pro Thema vorgegeben werden.
 * Es kann auch eine bestimmte Anzahl Themen je Teilnehmer verpflichtend gemacht werden.
-* Die Themenwahl kann auf ein bestimmtes Zeitfenster beschränkt werden.
-* OpenOlat errechnet nach Schliessen des Zeitfensters anhand der angegebenen Prioritäten automatisch, wer welche Themen zugewiesen bekommt. Auch eine manuelle Zuordnung ist möglich.
+* Die Themenwahl muss auf ein bestimmtes Zeitfenster beschränkt werden.
+* OpenOlat kann nach Schliessen des Zeitfensters anhand der angegebenen Prioritäten automatisch berechnen, wer welche Themen zugewiesen bekommt. Die Berechnung kann automatisch oder manuell angestossen werden.
 
 
 ## Wer kann wählbare Themen erfassen?
 
 * Per Voreinstellung werden Themen durch die **Kursbesitzer:innen** erfasst.
 
-* **Betreuer:innen** und **Teilnehmer:innen** kann im Tab "Konfiguration" das Ergänzen von Themen ebenfalls erlaubt werden.
+* **Betreuer:innen** kann im Tab "Konfiguration" das Ergänzen von Themen ebenfalls erlaubt werden.
+
+* **Betreuer:innen** kann auch das Bearbeiten von Teilnehmer:innen erlaubt werden. (Thema zuweisen, Priorisierung anpassen, Teilnehmer:innen ein- oder ausschreiben)
 
 * Ferner können Themen auch aus einer **csv-Datei** importiert werden.
 
