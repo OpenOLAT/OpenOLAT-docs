@@ -107,10 +107,10 @@ Bei Sharepoint handelt es sich um eine externe Quelle (Microsoft Programm).<br>
 Dateien aus Sharepoint können im File Hub abgerufen werden, wenn die Zugriffsberechtigung von Administrator:innen eingerichtet wurde.
 
 
-### Dropbox
+### OneDrive
 
-Bei Dropbox handelt es sich um eine externe Quelle (Microsoft Programm).
-Dateien aus der Dropbox können im File Hub abgerufen werden, wenn die Zugriffsberechtigung von Administrator:innen eingerichtet wurde.
+Bei OneDrive handelt es sich um eine externe Quelle (Microsoft Programm).
+Dateien aus OneDrive können im File Hub abgerufen werden, wenn die Zugriffsberechtigung von Administrator:innen eingerichtet wurde.
 
 
 ## Einrichten der Zugriffsbedingungen
