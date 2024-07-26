@@ -131,7 +131,18 @@ Mit Klick auf den kleinen Pfeil daneben können Kalender via URL verlinkt werden
 
 !!! info "Beachten Sie:"
     
-    Mit den Buttons oberhalb der Kalenderliste fügen Sie weitere eigenständige Kalender zur Kalenderliste hinzu. (Es erscheint eine weitere Zeile = weiterer eigenständiger Kalender.)<br> Die Optionen zum Hinzufügen oder Löschen unter den 3 Punkten am Ende einer Zeile bearbeiten dagegen nur diesen einzelnen Kalender. 
+    Mit den Buttons oberhalb der Kalenderliste fügen Sie weitere **eigenständige Kalender** zur Kalenderliste hinzu.
+
+    * Es erscheint eine weitere Zeile = weiterer eigenständiger Kalender
+    * Sie können in der Kalenderliste bestimmen, ob die Termine dieses Kalenders in Ihren persönlichen Kalender übernommen werden sollen (Toogle-Button einschalten).
+    * Sie können den Kalendern unterschiedliche Farben geben.
+
+    Die Optionen zum Hinzufügen oder Löschen unter den 3 Punkten am Ende einer Zeile bearbeiten dagegen nur diesen einzelnen **(aggregierten) Kalender**.
+
+    * Die hier importierten Kalender erscheinen *nicht* in der Kalenderliste, sind aber in dem nun aggregierten Kalender enthalten.
+    * Sie können *keine* farbliche Unterscheidung vornehmen.
+
+    **Empfehlung:**<br> Zur besseren Übersichtlichkeit wird der Import als eigenständige Kalender empfohlen (Import durch Buttons in der Kopfzeile der Kalenderliste).
 
 
 
