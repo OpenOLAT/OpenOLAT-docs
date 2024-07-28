@@ -14,56 +14,45 @@ Der Portfolio Editor umfasst verschiedene Menü-Bereiche für die Konfiguration:
 * **Layoutmenü**: Ein Layout ist ein übergeordneter Bereich, der  unterschiedliche Strukturierungen des Inhalts durch Spalten und Zeilen ermöglicht. Im Layoutmenü kann ein ein- oder mehrspaltiges Layout ausgewählt, Layoutbereiche verschoben oder neue Layouts hinzufügt werden. Löscht oder verändert man Layouts werden existierende Blöcke in die vorhandenen Spalten geschoben. Aktuell sind folgende Layoutvorlagen verfügbar:
 ![layout-template](assets/layoutblock-template.jpg)
 * **Blockmenü**: Menü eines einzelnen Inhaltselements innerhalb eines Layouts. Über das Blockmenü kann ein Inhaltselement verschoben, hinzugefügt oder gelöscht werden. Auch der Inspektor mit weiteren Einstellungen für ein Inhaltselement kann über das Zahnrad :material-cog: aktiviert werden. 
-* **Inspektor**: Dort befinden sich alle Einstellungen, die den Funktionsumfang, sowie das Aussehen des jeweiligen Elements verändern, z.B. die Ausrichtung von Bildern. Klickt man auf die Titelzeile des Inspektorfensters kann das Konfigurationsmenü auch verschoben werden. Wenn Sie einen neuen Block selektieren, springt der Inspektor wieder an die Standardposition.
+* **Inspektor**: Dient der Konfiguration einzelner Inhaltselemente. Dort befinden sich alle Einstellungen, die den Funktionsumfang, sowie das Aussehen des jeweiligen Elements verändern, z.B. die Ausrichtung von Bildern. Klickt man auf die Titelzeile des Inspektor Fensters kann das Konfigurationsmenü selbst auch verschoben werden. Wenn Sie einen neuen Block selektieren, springt der Inspektor wieder an die Standardposition.
 
 ## Inhaltsblöcke - Inhalt hinzufügen 
 
 Über "Inhalt hinzufügen" werden die konkreten Inhaltselemente wie Texte, Bilder oder sonstige Medien hinzugefügt. Folgende Inhaltselemente stehen zur Wahl: 
 
-![Inhaltelemente im ePortfolio](assets/Portfolio_Editor_19.png){ class="lightbox" }
+![Inhaltelemente im ePortfolio](assets/Inhalt_hinzufuegen_portfolio_19.png){ class="lightbox" }
 
 ### Titel
 
-Nutzen Sie dieses Element um schnell und einfach Titel hinzuzufügen.
+Nutzen Sie dieses Element um schnell und einfach eine Überschrift hinzuzufügen.
 
-Mit der Auswahl von h1-h6 kann die Größe der Überschrift ausgewählt werden, wobei h1 der "Überschrift 1" entspricht und somit am grössten und h6 der "Überschrift 6" und somit am kleinsten ist. Im Tab "Layout kann ferner der Abstand zum Text definiert.
+Im Inspektor Menü kann eine Grösse von h1-h6 kann eingestellt werden, wobei h1 der "Überschrift 1" entspricht und somit am grössten und h6 der "Überschrift 6" und somit am kleinsten ist. Im Tab "Layout kann ferner, wie in den meisten Inhaltselemente, der Abstand zum Text definiert.
 ![Titel ePortfolio](assets/Titel_Portfolio.png){ class="lightbox" }
 
-### Paragraph
+### Text
 
-Paragraph bietet Zugriff auf eine einfache Version eines Text-Editors. Beispielsweise können Wörter fett formatiert, die Textfarbe geändert oder die Zentrierung im Textfluss definiert werden. Textelemente mit einfachen Formatierungen können so rasch erstellt werden.
+Nutzen sie dieses Element um beliebige Textpassagen einzufügen. Der Text kann mit Hilfe des Editors passend formatiert werden, z.B. für Fettdruck, Verlinkungen, Schriftfarbe usw.. 
 
-![Paragraph ePortfolio](assets/Paragraph_Portfolio.png){ class="lightbox" }
 
 ### Tabelle
 
-Fügen Sie Ihrem Portfolio eine Tabelle hinzu. Definieren sie die Anzahl der Zeilen und Spalten einer Tabelle und fügen sie eine Kopfzeile hinzu. Anschliessend befüllen Sie die jeweiligen Tabellenfelder.
+Verwenden Sie dieses Inhaltselement, wenn Sie Ihrem Portfolio eine Tabelle hinzufügen möchten. Definieren sie die Anzahl der Zeilen und Spalten einer Tabelle und fügen sie eine Kopfzeile hinzu. Anschliessend befüllen Sie die jeweiligen Tabellenfelder.
+
+![Element Tabelle im Portfolio Editor](assets/Editor_Tabelle_Portfolio.png){ class="lightbox" }
+
 
 ### Mathematische Formel
 
 Klicken Sie in das Bearbeitungsfeld und Sie erhalten Zugriff auf einen speziellen Formel-Editor. Sie können entweder die Formel im grafischen Editor oder im LaTeX Editor eingeben. 
 ![Mathe Formel ePortfolio](assets/Mathe_Formeln_Portfolio.png){ class="lightbox" }
 
-### Code
-Einfügen von Programmiercode. Der Inhalt wird als Code angezeigt und nicht ausgeführt. 
-![Code ePortfolio](assets/Code_Portfolio.png){ class="lightbox" }
+### Code-Beispiel
+Element zum Einfügen von Programmiercode. Der Inhalt wird als Code angezeigt und nicht ausgeführt. Diverse Code-Sprachen stehen zur Auswahl. Auch Zeilennummern können für die Übersicht eingeblendet werden. 
+![Code-Beispiel ePortfolio](assets/Code-Beispiel_Editor_19.png){ class="lightbox" }
 
-### Dokument
+### Zitat
 
-Hier haben Sie drei Möglichkeiten: 
-
-* Erstellen Sie ein neues Dokument, entsprechend der angegebenen Dateitypen (Dokument erstellen)
-* Laden Sie ein neues Dokument hoch (Dokument hinzufügen) oder 
-* Verbinden Sie ein Dokument aus Ihrem Medien Center (Auswahl aus der Liste).
-
-Ist ein externer Dokumenteneditor aktiviert und liegen die Dateien in einem Format vor, das von diesem unterstützt wird, können die Dateien auch direkt online weiterbearbeitet werden.
-
-### Audio
-Hier haben Sie die folgenden Möglichkeiten: 
-* Nutzen Sie den Audio-Editor und erstellen Sie eine Tonaufnahme (Audio aufnehmen)
-* Laden Sie eine Audiodatei (Audio hinzufügen)
-* Verbinden Sie eine Audiodatei aus Ihrem Medien Center (Auswahl aus der Liste).
-![Titel ePortfolio](assets/Audio_Portfolio.png){ class="lightbox" }
+Hier können Sie neue Zitate erstellen (Zitat hinzufügen) oder auf bereits im Medien Center hinterlegte Zitate zurückgreifen und diese einbinden. Einem neuen Zitat können diverse Informationen hinzugefügt werden z.B. Quelle, Sprache, Autor, URL.
 
 ### Bild
 
@@ -71,36 +60,84 @@ Fügen Sie Bildelemente hinzu indem Sie eine Grafikdatei hochladen oder auf eine
 
 !!! "Tipp"
 
-    Um die Positionierung einer Grafik zu optimieren nutzen sie am besten ein passendes z.B. mehrspaltiges Layout. 
+    Um die Positionierung einer Grafik zu optimieren verwenden Sie am besten ein passendes z.B. mehrspaltiges Layout. Je nach Art der Grafiken gilt dieser Tipp auch für das Inhaltselement "Galerie".
+
+### Galerie
+
+Neu ab :octicons-tag-24: Release 19 ist die Möglichkeit eine Bildergalerie hinzuzufügen. Mit Klick auf den Button "Hinzufügen" gelangt man in das Medien Center und kann dort mehrere Bilder auswählen. Die Art der Anzeige als Vorschau, Raster oder Slideshow kann im Inspector definiert werden. Das Beispiel zeigt eine Galerie mit Vorschau aus der User-Perspektive
+
+![Inhaltselement Galerie](assets/Editor_Galerie_Portfolio.png){ class="lightbox" }
+
+
+### Bildvergleich
+Neu ab :octicons-tag-24: Release 19 ist das Inhaltselement "Bildvergleich". Hierbei können 2 Bilder aus dem Medien Center ausgewählt und nebeneinandergestellt werden, z.B. zwei Versionen desselben Bildes. 
+Die Auswahl der Bilder erfolgt über das Inspektor Menü. Neben den Standard Typ kann der Bildvergleich auch für die Gegenüberstellung von einem richtigen und einem falschen Bild verwendet werden. 
+
+![Inhaltselement Bildvergleich](assets/Editor_Bildervergleich_Portfolio.png){ class="lightbox" }
+
+
+Der User kann mit einem Schieberegler den Ansichtsbereich der Bilder justieren. 
 
 ### Video
 
-Sie haben folgende Möglichkeiten ein Video in den Editor zu laden:
+Sie haben folgende Möglichkeiten ein Video in den Editor zu laden und bereitzustellen: 
 
 * Video hinzufügen: Eine mp4 Videodatei hochladen
 * Video per URL hinzufügen
 * Video aufnehmen: Eine Videoaufnahme mit der Webcam erstellen
 * Eine Video Datei, die sich im Medien Center befindet auswählen und hinzufügen. 
-![Titel ePortfolio](assets/Video_Portfolio.png){ class="lightbox" }
+![Inhalt hinzufügen Video Portfolio](assets/Video_Portfolio_Editor19.png){ class="lightbox" }
 
-### draw.io Diagramm
+### Audio
+Sie haben folgende Möglichkeiten ein Audio in den Editor zu laden und bereitzustellen: 
 
-Sie können ein neues draw.io Diagramm anlegen oder Sie fügen ein existierendes draw.io Diagramm aus Ihrem Medien Center hinzu. Die konkrete Ausgestaltung des Diagramms erfolgt über den Klick auf den "Editieren" Link im Eintrag.  
+* Nutzen Sie den integrierten Audio-Editor und erstellen Sie eine Tonaufnahme (Audio aufzeichnen)
+* Laden Sie eine Audiodatei hoch (Audio hinzufügen)
+* Verbinden Sie eine Audiodatei aus Ihrem Medien Center (Auswahl aus der Liste).
+![Inhalt hinzufügen Audio ePortfolio](assets/Audio_Portfolio_19.jpg){ class="lightbox" }
 
-### Zitat
+### Dokument
 
-Hier können Sie neue Zitate erstellen (Zitat hinzufügen) oder auf bereits im Medien Center hinterlegte Zitate zurückgreifen und diese einbinden. Einem neuen Zitat können diverse Informationen hinzugefügt werden z.B. Quelle, Sprache, Autor, URL ...
+Sie haben folgende Möglichkeiten ein Dokument in den Editor zu laden und bereitzustellen: 
 
-### Aus meinem Medien Center wählen
+* Erstellen Sie ein neues Dokument, entsprechend der angegebenen Dateitypen (Dokument erstellen)
+* Laden Sie ein neues Dokument hoch (Dokument hinzufügen) oder 
+* Verbinden Sie ein Dokument aus Ihrem Medien Center (Auswahl aus der Liste).
 
-Anstatt über einen speziellen Medientyp zu gehen können Sie auch direkt auf Ihr Medien Center zugreifen und dort hinterlegte Artefakte einbinden als auch neue Mediendateien des Medien Centers erstellen. Die Such- und Filteroptionen helfen, die gewünschte Datei schneller zu finden.
-![Titel ePortfolio](assets/Medien_Center_Portfolio.png){ class="lightbox" }
+Ist ein externer Dokumenteneditor aktiviert und liegen die Dateien in einem Format vor, das von diesem unterstützt wird, können die Dateien auch direkt online in OpenOlat weiterbearbeitet werden.
 
-Weitere Informationen finden Sie im [Medien Center](../personal_menu/Media_Center.de.md). 
+!!! Tip "Hinweis"
 
-### Textabschnitt
+    Die Inhalte der Dateien werden hier nicht direkt dargestellt, sondern müssen per Klick auf den Link geöffnet werden. 
 
-Das Element ähnelt dem Element "Paragraph" und dient somit ebenfalls dem Hinzufügen von Texten und Inhalten. Allerdings sind die Möglichkeiten deutlich umfangreicher. So können z.B. umfangreiche Formatierungen vorgenommen werden. 
+###  Diagramm 
+
+Sie können ein neues draw.io Diagramm anlegen oder Sie fügen ein existierendes draw.io Diagramm aus Ihrem Medien Center hinzu. Die konkrete Ausgestaltung des Diagramms erfolgt über den Klick auf den "Bearbeiten" Link im Eintrag.  
+
+![Inhaltselement Diagramm](assets/Editor_Diagramm_Portfolio.png){ class="lightbox" }
+
+Beim Erstellen eines Diagramms kann auch definiert werden ob bzw. wer das Diagramm bearbeiten darf. 
 
 ### Separator 
 Hinzufügen einer Trennlinie
+
+### HTML-Textcode
+
+Hier erscheint ein ähnlicher aber etwas erweiterter Text-Editor wie beim Inhaltselement "Text".
+
+
+### Hinweis-Box
+
+Interessant ist auch die Möglichkeit den Inhaltselementen eine Hinweis-Box hinzuzufügen. Diese Option steht für fast alle Inhaltselemente bis auf Titel und HTML-Textcode zur Verfügung. 
+
+![Hinweis-Box im Content Editor](assets/Hinweis-Box.png){ class="lightbox" }
+
+Hierüber können einzelne Inhaltselemente hervorgehoben und z.B. als Info, Tipp, Wichtig usw. gekennzeichnet werden. Auch die Vergabe eines eigenen Titels ist möglich. Darüber hinaus können die Hinweis-Boxen noch mit einem Icon versehen und definiert werden ob die Hinweis-Box einklappbar ist oder nicht. Bei benutzerdefinierten Hinweis-Typen kann auch ein Icon aus der Liste gewählt und die Farbe angepasst werden. Bei vordefinierten Typen sind diese Dinge vordefiniert.   
+
+
+### Medien Center
+
+Anstatt ein spezielles Inhaltselement zu wählen können Sie auch direkt in ihr [Medien Center](../personal_menu/Media_Center.de.md) wechseln und dort hinterlegte Elemente auswählen oder Mediendateien hochladen bzw. hinzufügen. 
+
+ Die Such- und Filteroptionen helfen, die gewünschte Datei(en) schnell zu finden.
+![Titel ePortfolio](assets/Medien_Center_Portfolio.png){ class="lightbox" }

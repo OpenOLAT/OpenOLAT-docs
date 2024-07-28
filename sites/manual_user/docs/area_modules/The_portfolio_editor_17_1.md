@@ -11,12 +11,10 @@ Der Portfolio Editor umfasst verschiedene Menü-Bereiche für die Konfiguration:
 
 ![Image of the individual controls in ePortfolio](assets/content-editor-gui.jpg){ class="lightbox" }
 
-In the middle is the content area.
-
 * **Layout Menu**: A layout is a higher-level block that allows you to structure the content in different ways using columns and rows. Im Layoutmenü kann ein ein- oder mehrspaltiges Layout ausgewählt, Layoutbereiche verschoben oder neue Layouts hinzufügt werden. Löscht oder verändert man Layouts werden existierende Blöcke in die vorhandenen Spalten geschoben. Aktuell sind folgende Layoutvorlagen verfügbar:
 ![layout-template](assets/layoutblock-template.jpg)
 * **Block Menu**: Menü eines einzelnen Inhaltselements innerhalb eines Layouts. Über das Blockmenü kann ein Inhaltselement verschoben, hinzugefügt oder gelöscht werden. Auch der Inspektor mit weiteren Einstellungen für ein Inhaltselement kann über das Zahnrad :material-cog: aktiviert werden. 
-* **Inspector**: There are all settings that change the functionality, as well as the appearance of the respective block or layout e.g. the alignment of images. By clicking on the title bar of the inspector window you can also move it. When you select a new block, the inspector jumps back to the default position.
+* **Inspector**: Used to configure individual content elements. There are all settings that change the functionality, as well as the appearance of the respective block or layout e.g. the alignment of images. By clicking on the title bar of the inspector window you can also move it. When you select a new block, the inspector jumps back to the default position.
 
 ## Content blocks - add content
 
