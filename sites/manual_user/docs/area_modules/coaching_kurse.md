@@ -38,7 +38,3 @@ In the Courses menu, you will see a tabular overview of all the courses you supe
 
 This area also provides a quick overview of the number of participants in the individual courses, the progress of the entire course participants and the extent to which the course participants have logged in.
 
-A green dot symbolises that all course participants have logged in at least once. An orange dot indicates that some of the course participants have already called up the course before. A red dot indicates that no participants have logged into the course yet.
-
-Another click on a course name leads to an overview of the course participants you supervise for this course and one can quickly see the course progress of the participants. You can then navigate back to the assessment tool of a course participant as well as display the performance overview or the absence management.
-

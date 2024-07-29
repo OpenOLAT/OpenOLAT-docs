@@ -38,7 +38,4 @@ Im Menü Kurse sehen Sie eine tabellarische Übersicht aller von Ihnen betreuten
 
 In diesem Bereich erhält man auch schnell einen Überblick über die Teilnehmerzahl der einzelnen Kurse, den Fortschritt der gesamten Kursteilnehmenden sowie das Ausmass des Logins der Kursteilnehmenden.
 
-Ein grüner Punkt symbolisiert, dass sich alle Kursteilnehmer mindestens einmal eingeloggt haben. Ein oranger Punkt zeigt an, dass ein Teil der Kursteilnehmenden den Kurs schon mal aufgerufen hat. Ein roter Punkt zeigt an, dass sich bisher noch keine Teilnehmenden in den Kurs eingeloggt haben.
-
-Ein weiterer Klick auf einen Kursnamen führt zu einer Übersicht der von Ihnen betreuten Kursteilnehmenden dieses Kurses und man erkennt rasch den Kursfortschritt der Teilnehmenden. Anschliessend kann wieder zum Bewertungswerkzeug eines Kursteilnehmers navigiert, sowie die Leistungsübersicht oder das Absenzenmanagement angezeigt werden.
 
