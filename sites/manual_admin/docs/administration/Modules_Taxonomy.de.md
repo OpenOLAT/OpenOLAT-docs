@@ -10,7 +10,7 @@
     * [Dokumentenpool](Modules_Document_pool.de.md)
     * [Fragenpool](../../manual_user/area_modules/Question_Bank.de.md)
     * [ePortfolio](eAssessment_ePortfolio.de.md)
-    * Verknüpfung mit Lernressourcen
+    *  Katalog [Catalog](../Modules_Catalog2.0.de.md)
 
  Die Verwendung der Taxonomie in OpenOlat wird laufend erweitert.
 
