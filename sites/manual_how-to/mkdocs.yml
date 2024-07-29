@@ -23,6 +23,7 @@ nav:
   - Tests and Assessments:
     - How do I proceed when I create a test?: "test_creation_procedure/test_creation_procedure.md"
     - How do I assess a test?: "assessing_tests/assessing_tests.md"
+    - How do I perform a peer review?: "peer_review/peer_review.md"
   - Adjust OpenOlat:
     - Reduce storage consumption: "reduce_storage_consumption/reduce_storage_consumption.md"
     - Lifecycle management: "lifecycle/lifecycle.md"

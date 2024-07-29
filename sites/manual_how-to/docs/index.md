@@ -30,11 +30,12 @@
 
 ## Tests and Assessments
 
-1. [How do I proceed when I create a test?](/sites/manual_how-to/docs/test_creation_procedure/test_creation_procedure.md)
-2. [How do I assess a test?](/sites/manual_how-to/docs/assessing_tests/assessing_tests.md)
+1. [How do I proceed when I create a test?](/manual_how-to/docs/test_creation_procedure/test_creation_procedure.md)
+2. [How do I assess a test?](/manual_how-to/docs/assessing_tests/assessing_tests.md)
+3. [How do I perform a peer review?](/manual_how-to/peer_review/peer_review.md)
 
 ## Adjust OpenOlat
 
-1. [What measures can I take to reduce storage space consumption?](/sites/manual_how-to/docs/reduce_storage_consumption/reduce_storage_consumption.md)
-2. [How do I manage lifecycles of groups, courses or user accounts?](/sites/manual_how-to/docs/lifecycle/lifecycle.md)
-3. [How to customize the course design with CSS](/sites/manual_how-to/docs/css/css.md)
+1. [What measures can I take to reduce storage space consumption?](/manual_how-to/docs/reduce_storage_consumption/reduce_storage_consumption.md)
+2. [How do I manage lifecycles of groups, courses or user accounts?](/manual_how-to/docs/lifecycle/lifecycle.md)
+3. [How to customize the course design with CSS](/manual_how-to/docs/css/css.md)

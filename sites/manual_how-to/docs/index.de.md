@@ -32,6 +32,7 @@
 
 1. [Wie gehe ich vor, wenn ich einen Test erstelle?](/de/manual_how-to/test_creation_procedure/test_creation_procedure)
 2. [Wie bewerte ich einen Test?](/de/manual_how-to/assessing_tests/assessing_tests)
+3. [Wie führe ich ein Peer-Review durch?](/de/manual_how-to/peer_review/peer_review)
 
 ## OpenOlat anpassen
 
