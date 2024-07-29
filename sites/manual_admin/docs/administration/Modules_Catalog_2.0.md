@@ -65,19 +65,21 @@ Deleting levels only deletes the keywording, not any linked learning resources. 
 
 ### Creation of suitable image material for the catalogue
 
-Images are used for various illustrative purposes in the catalogue. This is a list of image sizes and their behaviour in different dimensions.
+Images are used for various illustrative purposes in the catalogue. This is a list of image sizes and their behaviour in different dimensions. It is advised to use the provided images below as overlay guidelines in your graphic program. They already have reduced opacity build-in.
 
 #### Background images
 
-Image dimensions of **1324 x 240 px** are recommended for the backgrounds of the taxonomy subpages and the homepage. If the image is higher than 240px, a suitable section is taken from the centre.
+Image dimensions of **1324 x 240 px** are recommended for the backgrounds of the taxonomy subpages and the homepage. If the image is higher than 240px, a suitable section is taken from the centre. All the Images get cropped from the left, when viewing on smaller screens.
 Taxonomy level backgrounds can be customised in the ‘Taxonomy’ tab.
 The background image for the start page can be found under Layout.
 
+Cropping Behaviour illustrated.
+![cropping behaviour illustrated](assets/catalog_cropping.png)
 Background for the start page
-![Background start image](assets/catalog_background_start.png){class=‘lightbox’}
+![Background start image](assets/catalog_background_start.png){class="lightbox"}
 
 Background for the taxonomy levels
-![Background start image](assets/catalog_background_taxonomy.png){class=‘lightbox’}
+![Background start image](assets/catalog_background_taxonomy.png){class="lightbox"}
 
 #### Taxonomy launcher images
 Depending on the setting, we are dealing here with square or rectangular images.
@@ -85,11 +87,11 @@ The rectangular images have an aspect ratio of **16:9** with a recommended displ
 
 Rectangular
 
-![Rectangular teaser](assets/catalog_taxteaser.png){class=‘lightbox’}
+![Rectangular teaser](assets/catalog_taxteaser.png){class="lightbox"}
 
 Square
 
-![Square teaser](assets/catalog_taxteaser_square.png){class=‘lightbox’}
+![Square teaser](assets/catalog_taxteaser_square.png){class="lightbox"}
 
 #### Course images
 

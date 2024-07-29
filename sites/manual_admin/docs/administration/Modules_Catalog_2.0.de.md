@@ -61,13 +61,16 @@ Das Löschen der Ebenen löscht nur die Verschlagwortung, keine verknüpften Ler
 
 ### Erstellung von passendem Bildmaterial für den Katalog
 
-Im Katalog werden Bilder für unterschiedliche illustrative Zwecke benutzt. Dies ist eine Auflistung der Bildgrössen und des Verhaltens bei unterschiedlichen Dimensionen.
+Im Katalog werden Bilder für unterschiedliche illustrative Zwecke benutzt. Dies ist eine Auflistung der Bildgrössen und des Verhaltens bei unterschiedlichen Dimensionen. Die unten angebotenen Schemata kann man sich als Richtlinie im Grafikprogramm über das aktuelle Bild legen, um den passenden Auschnitt zu wählen.
 
 #### Hintergrundbilder
 
 Für die Hintergründe der Taxonomieunterseiten, sowie der Startseite werden Bilddimensionen von **1324 x 240 px** empfohlen. Ist das Bild höher als 240px wird ein passender Ausschnitt aus der Mitte heraus genommen.
 Taxonomieebenen-Hintergründe lassen sich im Tab "Taxonomie" anpassen.
 Das Hintergrundbild für die Startseite finet man unter Layout.
+
+Das Anschnitt (Cropping) Verhalten bei kleineren Bildgrössen illustriert:
+![cropping behaviour illustrated](assets/catalog_cropping.png)
 
 Hintergrund für den Start
 ![Hintergrund-Startbild](assets/catalog_background_start.png){class="lightbox"}
