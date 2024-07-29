@@ -58,3 +58,37 @@ Das Löschen der Ebenen löscht nur die Verschlagwortung, keine verknüpften Ler
     Die Fachbereiche, Verschlagwortung, Taxonomie die man als Lernressourcenverwalter bearbeiten kann, kann auch andere Bereiche betreffen, in denen die Taxonomie benutzt wird. Diese können sein: ePortfolio Einträge, Curriculum Einträge, Dokumentenpool.
 
 ![Verwaltung der Taxonomie](assets/taxonomy-management.de.jpg){class="lightbox"}
+
+### Erstellung von passendem Bildmaterial für den Katalog
+
+Im Katalog werden Bilder für unterschiedliche illustrative Zwecke benutzt. Dies ist eine Auflistung der Bildgrössen und des Verhaltens bei unterschiedlichen Dimensionen.
+
+#### Hintergrundbilder
+
+Für die Hintergründe der Taxonomieunterseiten, sowie der Startseite werden Bilddimensionen von **1324 x 240 px** empfohlen. Ist das Bild höher als 240px wird ein passender Ausschnitt aus der Mitte heraus genommen.
+Taxonomieebenen-Hintergründe lassen sich im Tab "Taxonomie" anpassen.
+Das Hintergrundbild für die Startseite finet man unter Layout.
+
+Hintergrund für den Start
+![Hintergrund-Startbild](assets/catalog_background_start.png){class="lightbox"}
+
+Hintergrund für die Taxonomyebenen
+![Hintergrund-Startbild](assets/catalog_background_taxonomy.png){class="lightbox"}
+
+#### Taxonomie-Launcher-Bilder
+Je nach Einstellung haben wir es hier mit quadratischen oder rechteckigen Bildern zu tun.
+Die Rechteckigen Bilder besitzen eine Aspect Ratio von **16:9** mit empfohlener Anzeige von **640 x 360 px**. Der Textbalken darunter verdeckt ca. 80px.
+
+Rechteckig
+
+![Rechteckiger Teaser](assets/catalog_taxteaser.png){class="lightbox"}
+
+Quadratisch
+
+![Quadratischer Teaser](assets/catalog_taxteaser_square.png){class="lightbox"}
+
+#### Kursbilder
+
+Können direkt im Kurs eingestellt werden und sollten die Dimensionen 570x380 px nicht überschreiten. Ansonsten wird hier auch ein passender Ausschnitt aus der Mitte genommen. Siehe hier
+
+![Quadratischer Teaser](assets/catalog_course.png){class="lightbox"}

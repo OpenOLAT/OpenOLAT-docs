@@ -62,3 +62,37 @@ Deleting levels only deletes the keywording, not any linked learning resources. 
 
 
 ![Management ofTaxonomie](assets/taxonomy-management.jpg){class="lightbox"}
+
+### Creation of suitable image material for the catalogue
+
+Images are used for various illustrative purposes in the catalogue. This is a list of image sizes and their behaviour in different dimensions.
+
+#### Background images
+
+Image dimensions of **1324 x 240 px** are recommended for the backgrounds of the taxonomy subpages and the homepage. If the image is higher than 240px, a suitable section is taken from the centre.
+Taxonomy level backgrounds can be customised in the ‘Taxonomy’ tab.
+The background image for the start page can be found under Layout.
+
+Background for the start page
+![Background start image](assets/catalog_background_start.png){class=‘lightbox’}
+
+Background for the taxonomy levels
+![Background start image](assets/catalog_background_taxonomy.png){class=‘lightbox’}
+
+#### Taxonomy launcher images
+Depending on the setting, we are dealing here with square or rectangular images.
+The rectangular images have an aspect ratio of **16:9** with a recommended display of **640 x 360 px**. The text bar underneath covers approx. 80px.
+
+Rectangular
+
+![Rectangular teaser](assets/catalog_taxteaser.png){class=‘lightbox’}
+
+Square
+
+![Square teaser](assets/catalog_taxteaser_square.png){class=‘lightbox’}
+
+#### Course images
+
+Can be set directly in the course and should not exceed the dimensions 570x380 px. Otherwise a suitable section from the centre will be used.
+
+![catalog Image](assets/catalog_course.png){class="lightbox"}
