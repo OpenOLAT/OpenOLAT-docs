@@ -398,7 +398,7 @@ Der Bereich **Bewertung** umfasst zum einen automatisch generierte Informationen
 ## Aufgaben betreuen (Perspektive Betreuer:in)
 
 
-### Peer-Review betreuen
+### Peer-Review betreuen {: #coach_peer_review}
 
 Der Ablauf eines Peer-Reviews wurde von dem/der Kursbesitzer:in festgelegt. Entsprechend finden Sie als Betreuer:in die Optionen für Ihre Betreuungsaufgabe vor.
 

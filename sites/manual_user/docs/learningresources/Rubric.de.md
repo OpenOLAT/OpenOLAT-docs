@@ -5,6 +5,7 @@ Ein Rubrik ist in OpenOlat ein Element der Lernressource "Formular". Rubriks bie
 * [Kursbaustein Umfrage](Forms_in_Questionnaires.de.md)
 * [Kursbaustein Formular](Forms_in_Forms_Element.de.md)
 * [Kursbaustein Bewertung](Forms_in_Rubric_Scoring.de.md)
+* [Kursbaustein Aufgabe mit Peer-Review](Course_Element_Task.de.md#revisions)
 * [Portfolio 2.0 Vorlage](Forms_in_the_ePortfolio_template.de.md)
 
 ## Einsatzbeispiele für Rubriks
@@ -15,21 +16,37 @@ In OpenOlat können Rubriks z.B. eingesetzt werden um
 
   ![Rubrik Beispiel Radiobutton1](assets/Rubrik_Beispiel1.jpg){ class="shadow lightbox" }
 
+<br>
+
 * Ausprägungen zwischen zwei extremen Skalen abzufragen
 
   ![Rubrik Beispiel Slider](assets/Rubrik_Beispiel2.jpg){ class="shadow lightbox" }
+
+<br>
 
 * Bewertungsraster für Lernenden-Aktionen zu erstellen
 
   ![Rubrik Beispiel Radiobutton2](assets/Rubrik_Beispiel3.jpg){ class="shadow lightbox" }
 
+<br>
+
 * eine Selbsteinschätzung z.B. Stärken und Schwächen vornehmen zu lassen
 
   ![Rubrik Beispiel Selbseinschätzung](assets/Rubrik_Beispiel4.jpg){ class="shadow lightbox" }
 
+<br>
+
 * Kriterien bezogene Punkte zu vergeben
 
   ![Rubrik Feedback](assets/rubrik_skalentexte.jpg){ class="shadow lightbox" }
+
+<br>
+
+* in einem Peer-Review die anderen Teilnehmer:innen zu bewerten
+
+  ![Rubrik Peer-Review](assets/Rubrik_Peer-Review.png){ class="shadow lightbox" }
+
+<br>
 
 Rubriks können über "Inhalt hinzufügen" einem OpenOlat Formular hinzugefügt und anschliessend konfiguriert werden.
 
@@ -37,7 +54,7 @@ Rubriks können über "Inhalt hinzufügen" einem OpenOlat Formular hinzugefügt 
 
 ![Rubrik Editor](assets/formular_rubik17a.png){ class="shadow lightbox" }
 
-Ein Rubrik besteht immer aus Zeilen und Spalten die sinnvoll beschriftet und definiert werdern müssen. 
+Ein Rubrik besteht immer aus Zeilen und Spalten die sinnvoll beschriftet und definiert werden müssen. 
 
 Geben Sie im Bereich "Spaltenbeschriftung" für jede Spalte eine sinnvolle _Bewertungsskala_ ein z.B. sehr gut, gut mittel, schlecht, sehr schlecht. Jede Spalte ist immer mit einem bestimmten Wert verbunden, der in den erweiterten Einstellungen des Rubrik Inspektors konkreter spezifiziert werden kann.
   

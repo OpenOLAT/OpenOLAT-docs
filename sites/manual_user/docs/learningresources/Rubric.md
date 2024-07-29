@@ -5,6 +5,7 @@ A rubric in OpenOlat is an element of the learning resource "Form". Rubrics are 
 * [Course element Survey](Forms_in_Questionnaires.md)
 * [Course element Form](Forms_in_Forms_Element.md)
 * [Course element Assessment](Forms_in_Rubric_Scoring.md)
+* [Course element Task with Peer Review](Course_Element_Task.md#revisions)
 * [Portfolio 2.0 template](Forms_in_the_ePortfolio_template.md)
 
 ## Examples of use for Rubrics
@@ -15,22 +16,41 @@ The scope of rubrics is wide. In OpenOlat, rubrics can be used, for example,
 
   ![Rubric Example Radiobutton1](assets/rubric_Beispiel1_EN.png){ class="shadow lightbox" }
 
+<br>
+
 * to query characteristics between two extreme scales
 
   ![Rubric Example Slider](assets/Rubrik_Beispiel2_EN.png){ class="shadow lightbox" }
-  
+ 
+<br>
+ 
 * to create a valuation grid for learner actions.
 
   ![Rubric Example Radiobutton2](assets/Rubrik_Beispiel3_EN.png){ class="shadow lightbox" }
 
-  * to have a self-assessment carried out, e.g. of strengths and weaknesses
+<br>
+
+* to have a self-assessment carried out, e.g. of strengths and weaknesses
+
+<br>
 
   ![Rubric example self-assessment](assets/Rubrik_Beispiel4_EN.png){ class="shadow lightbox" }
 
-  * to award criteria related points
+* to award criteria related points
+
+<br>
 
   ![Rubric Feedback](assets/Rubrik_Beispiel5_EN.png){ class="shadow lightbox" }
-  
+
+<br>
+
+* to assess other participants in a peer review
+
+  ![Rubrik Peer-Review](assets/Rubrik_Peer-Review.png){ class="shadow lightbox" }
+
+<br>
+
+
 Rubrics can be added to an OpenOlat form via "Add content" and then configured.
 
 ## Rubric configuration in form editor

@@ -1,6 +1,11 @@
 # Formular als Rubrik Bewertung
 
-Die Lernressource Formular, insbesondere das dort integrierte [Rubrik](Rubric.de.md) Element eignet sich optimal für eine Kriterien basierte Bewertung von Leistungen. Dafür wird ein zuvor erstelltes Formular mit einem Rubrik Element in den Kursbaustein "Bewertung" eines Kurses eingebaut.
+Die Lernressource Formular, insbesondere das dort integrierte [Rubrik](Rubric.de.md) Element eignet sich optimal für eine kriterienbasierte Bewertung von Leistungen. Dafür wird ein zuvor erstelltes Formular mit einem Rubrik Element in den Kursbaustein "Bewertung" eines Kurses eingebaut.
+
+!!! info "Hinweis"
+
+    Auch Bewertungen im Rahmen eines Peer-Reviews werden mit Rubrik-Formularen ausgeführt. Dazu benötigt es den [Kursbaustein Aufgabe](../learningresources/Course_Element_Task.de.md#coach_peer_review).
+
 
 ## Im Kurseditor
 
@@ -65,3 +70,4 @@ Die eigentliche Bewertung der Lernenden erfolgt dann bei geschlossenem Kurs-Edit
 ![Bewertung Teilnehmerliste](assets/Bewertung181.jpg){ class="shadow lightbox" }
 
 Wählen Sie hierfür die zu bewertende Person aus der Liste aus und markieren Sie einfach die gewünschten Ausprägungen. Sofern aktiviert werden die Punkte aus der Rubrikbewertung automatisch übernommen und führen so schnell zu einer Kriterien basierten, transparenten Bewertung.
+

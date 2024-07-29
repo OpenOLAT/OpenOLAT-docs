@@ -2,6 +2,10 @@
 
 The learning resource Form, especially the [rubric](Rubric.md) element integrated there, is ideally suited for a criteria-based assessment of achievements. For this purpose, a previously created form with a rubric element is integrated into the course element "Assessment" of a course.
 
+!!! info "Note"
+
+    Assessments as part of a peer review are also carried out using rubric forms. This requires a [course element task](../learningresources/Course_Element_Task.md#coach_peer_review).
+
 ## In the course editor
 
 Go to the course editor and add the [course element "Assessment"](../learningresources/Course_Element_Assessment.md). Then go to the "Assessment" tab and activate the "Rubric assessment".

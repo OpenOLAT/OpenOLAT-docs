@@ -10,8 +10,9 @@
   * [Forms in forms element](Forms_in_Forms_Element.md)
   * [Forms in surveys](Forms_in_Questionnaires.md)
   * [Forms in Rubric Scoring](Forms_in_Rubric_Scoring.md)
+  * [Forms in peer reviews](Course_Element_Task.md#revisions)
   * [Form in the Portfolio 2.0 template](Forms_in_the_ePortfolio_template.md)
 
-Formulare können in OpenOlat vielfältig eingesetzt werden. Sie können als normale Formulare mit Freitextfeldern, in Form von Fragebögen, als Bewertungsrubriks oder auch zur Selbsteinschätzung eingesetzt werden. Die Verwendung ist abhängig von den Zielen und Einsatzszenarien.
+Forms can be used in many different ways in OpenOlat. They can be used as normal forms with free text fields, in the form of questionnaires, as evaluation rubrics or for self-assessment. Their use depends on the objectives and application scenarios.
 
 This chapter explains how to create and configure forms for the purposes mentioned.
