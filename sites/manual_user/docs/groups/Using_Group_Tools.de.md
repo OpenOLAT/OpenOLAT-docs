@@ -1,4 +1,4 @@
-# Gruppenwerkzeuge nutzen
+# Gruppenwerkzeuge nutzen {: #group_tools}
 
 Aus der ganzen Palette der Gruppenwerkzeuge zur Kollaboration können Gruppen**betreuer:innen** für die Teilnehmer:innen eine Auswahl treffen. Gruppen**teilnehmer:innen** sehen im Gruppenmenü links dann (je nach Aktivierung) folgende Punkte:
 
@@ -31,7 +31,9 @@ Aus der ganzen Palette der Gruppenwerkzeuge zur Kollaboration können Gruppen**b
 	unterschiedliche virtuelle Klassenräume wie z.B. OpenMeetings, BigBlueButton,
 	Microsoft Teams als Gruppenwerkzeug zur Verfügung.
 
-!!! info "Gruppenkalender in Verbindung mit Kurskalendern"
+
+
+!!! info "Gruppenkalender in Verbindung mit Kurskalendern" 
 	
 	In einem Gruppenkalender sehen die Gruppenteilnehmer:innen alle Einträge der Gruppenmitglieder, egal ob die Termine privat oder öffentlich gesetzt sind.
 	

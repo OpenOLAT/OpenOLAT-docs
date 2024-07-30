@@ -1,4 +1,4 @@
-# Using Group Tools
+# Using Group Tools {: #group_tools}
 
 Group **coaches** have a full range of group collaboration tools they can choose for participants.
 Group **participants** will then see the following items in the group menu on the left (depending on activation):
@@ -32,7 +32,8 @@ Group **participants** will then see the following items in the group menu on th
 	Microsoft Teams are available as group tools.
 
 
-!!! info "Gruppenkalender in Verbindung mit Kurskalendern"
+
+!!! info "Gruppenkalender in Verbindung mit Kurskalendern" 
 	
 	In einem Gruppenkalender sehen die Gruppenteilnehmer:innen alle Einträge der Gruppenmitglieder, egal ob die Termine privat oder öffentlich gesetzt sind.
 	
