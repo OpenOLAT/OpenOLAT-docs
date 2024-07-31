@@ -44,7 +44,7 @@ The scope of rubrics is wide. In OpenOlat, rubrics can be used, for example,
 
 <br>
 
-* to assess other participants in a peer review
+* to assess other participants in a peer review and/or to carry out an assessment by coaches.
 
   ![Rubrik Peer-Review](assets/Rubrik_Peer-Review.png){ class="shadow lightbox" }
 

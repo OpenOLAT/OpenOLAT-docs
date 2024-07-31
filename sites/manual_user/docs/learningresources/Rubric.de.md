@@ -42,7 +42,7 @@ In OpenOlat können Rubriks z.B. eingesetzt werden um
 
 <br>
 
-* in einem Peer-Review die anderen Teilnehmer:innen zu bewerten
+* in einem Peer-Review die anderen Teilnehmer:innen zu bewerten und/oder eine Bewertung durch Betreuer:innen vorzunehmen
 
   ![Rubrik Peer-Review](assets/Rubrik_Peer-Review.png){ class="shadow lightbox" }
 
