@@ -95,3 +95,10 @@ Unter Skalentyp können Sie die Art der verwendeten Likert –Skala näher besti
 !!! info "Info"
 
     Der Rubrik-Inspektor kann frei im Formularbereich positioniert und verschoben werden.
+
+
+## Weitere Informationen
+
+[Formular als Rubrik Bewertung](Forms_in_Rubric_Scoring.de.md)
+
+

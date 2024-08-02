@@ -41,7 +41,7 @@ The settings influence the subsequent evaluation options and the information vis
 
 An interesting possibility of criteria-based assessment with the help of the course element "Assessment" is offered by the [rubric assessment](../learningresources/Forms_in_Rubric_Scoring.md).
 
-To do this, select a previously created learning resource form or create a new form using the button "Choose form" -> Create, to which you can sensibly add a rubric element. Select in the configuration of the items "Transfer sum from rubric form" or "Transfer average from rubric form", the items resulting from the rubric structure will then be automatically transferred. If you choose the "Sum" option, the points awarded per line will be added together. If "Average" is selected, the average sum of all column lines is determined. Alternatively, a manual scoring system can be selected or no points at all can be awarded.
+To do this, select a previously created learning resource form (containing a rubric element) or create a new form using the button "Choose form" -> Create, to which you can sensibly add a rubric element. Select in the configuration of the items "Transfer sum from rubric form" or "Transfer average from rubric form", the items resulting from the rubric structure will then be automatically transferred. If you choose the "Sum" option, the points awarded per line will be added together. If "Average" is selected, the average sum of all column lines is determined. Alternatively, a manual scoring system can be selected or no points at all can be awarded.
 
 ### Assigning points
 

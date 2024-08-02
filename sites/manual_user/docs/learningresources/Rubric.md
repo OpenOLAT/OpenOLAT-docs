@@ -99,3 +99,8 @@ Under Scale type, you can specify the type of Likert scale used and thus also de
 !!! info "Info"
 
     The rubric inspector can be freely positioned and moved in the form area.
+
+
+## Further information
+
+[Forms in Rubric Scoring](Forms_in_Rubric_Scoring.de.md)
