@@ -47,3 +47,10 @@ Mit der Schaltfläche "Bewertung abschliessen" wird der Status in der Spalte Sta
 Änderungen sind dann nur noch möglich, wenn "erneut für Beurteilung öffnen" gewählt wird. 
 
 Dieser Status hilft Ihnen den Überblick über die bereits bewerteten Benutzer zu behalten. Dieser Status hat keine Auswirkung auf die Sichtbarkeit der Ergebnisse für den Benutzer.
+
+
+## Weitere Informationen
+
+[Formular als Rubrik Bewertung](Forms_in_Rubric_Scoring.de.md)<br>
+[Rubrik](Rubric.de.md)
+

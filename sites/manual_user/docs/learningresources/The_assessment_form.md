@@ -49,3 +49,10 @@ The button "Finalize assessment" changes the status in the Status column. All se
 Changes are then only possible if "Reopen assessment" is selected.
 
 This status helps you to keep track of the users that have already been assessed. This status has no effect on the visibility of the results for the user.
+
+
+## Further information
+
+[Forms in rubric scoring](Forms_in_Rubric_Scoring.md)<br>
+[Rubric](Rubric.md)
+
