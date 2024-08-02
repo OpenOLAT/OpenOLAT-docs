@@ -22,6 +22,7 @@ nav:
       - Math formula: "basic_concepts/Math_formula.md"
       - To-dos: "basic_concepts/To_Dos_Basics.md"
       - Content Editor: "basic_concepts/Content_Editor.md"
+      - File and Data Collections: "basic_concepts/Object_Collections.md"
       - File Hub: "basic_concepts/File_Hub_Concept.md"
     - Technology:
       - basic_concepts/Technology.md 
