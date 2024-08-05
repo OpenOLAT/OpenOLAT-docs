@@ -33,7 +33,7 @@ Since release 18.2, over 115 new features and improvements have been added to Op
 
 ### Redesign folder component
 
-Bye, bye 20-year-old code base: the completely redesigned folder component with a new look and feel offers more than just a file collection.
+Bye, bye 20-year-old code base: the completely [redesigned folder component](../manual_user/basic_concepts/Folder_Concept.md){:target="_blank”} with a new look and feel offers more than just a file collection.
 
 Drag-and-drop support makes it easy to upload single or multiple files at the same time, and the folder-wide search function allows you to quickly find the file you want.
 
@@ -51,7 +51,7 @@ All deleted files are listed in the new trash (`Administration > Core Configurat
 
 ### File Hub
 
-The new File Hub is available as a personal tool and replaces the previous 'Personal Folder'. As a central entry point, users can find and search all their files from different OpenOlat areas. The files and folders are grouped in the same way as the WebDav view.
+The new [File Hub](../manual_user/basic_concepts/File_Hub_Concept.md){:target="_blank”} is available as a personal tool and replaces the previous 'Personal Folder'. As a central entry point, users can find and search all their files from different OpenOlat areas. The files and folders are grouped in the same way as the WebDav view.
 
 Access to your own files is possible system-wide via the "Add from File Hub" action in order to use the files in other locations in OpenOlat.
 
@@ -75,7 +75,7 @@ The integration of the organisation's Sharepoint Online drive is implemented in 
 
 ## Content Creator
 
-The Content Editor of the course element 'Page' becomes the Content Creator and offers further useful blocks for the didactic preparation of content from release 19.0.
+The Content Editor of the course element 'Page' becomes the [Content Creator](../manual_user/basic_concepts/Content_Editor.md){:target="_blank”} and offers further useful blocks for the didactic preparation of content from release 19.0.
 
 The selection dialogue for adding content in the Content Creator and Form Editor has been optimised and offers a comprehensive overview of all available objects.
 
@@ -101,7 +101,7 @@ With the integration of quiz questions, smaller knowledge tests are possible. Au
 
 ## Peer review
 
-The review and evaluation of tasks submitted by participants could previously only be carried out by the respective coaches. With the implementation of the peer review, participants now also have the opportunity to give each other feedback on the tasks they have completed.
+The review and evaluation of tasks submitted by participants could previously only be carried out by the respective coaches. With the implementation of the [peer review](../manual_user/learningresources/Course_Element_Task.md#revisions){:target="_blank”}, participants now also have the opportunity to give each other feedback on the tasks they have completed.
 
 The peer review is designed as an optional workflow step in the 'Task' course element. A corresponding rubric form (learning resource 'Form') can be integrated for assessment and evaluation.
 
@@ -129,7 +129,7 @@ Previously, criteria-based assessment was possible via the 'Manual assessment' c
 
 ## New course element 'Topic broker'
 
-First come, first served? The new 'Topic broker' course element solves this problem using a stable matching algorithm that ensures fair enrolment of participants in the topics offered.
+First come, first served? The new ['Topic broker'](../manual_user/learningresources/Course_Element_Topic_Broker.md){:target="_blank”} course element solves this problem using a stable matching algorithm that ensures fair enrolment of participants in the topics offered.
 
 The course element provides a list of possible topics and projects with a detailed description. Participants select and prioritise their desired topics. In the selection process, the participants' prioritisation wishes are taken into account and the allocation of topics is fixed.
 
@@ -183,7 +183,7 @@ Reviewers and coaches will find a direct link to the portfolio folder in the lis
 
 ## Course archiving and reporting
 
-Until now, course log files, reports and course element data could only be archived individually and cumbersomely. The new and revised 'Archiving and reporting' area in course administration enables quick and easy partial or complete archiving of a course.
+Until now, course log files, reports and course element data could only be archived individually and cumbersomely. The new and revised ['Archiving and reporting'](../manual_user/learningresources/Course_Archiving.md){:target="_blank”} area in course administration enables quick and easy partial or complete archiving of a course.
 
 A wizard supports the selection of the data to be archived for all or selected course elements as well as additional reports (chat protocol, course results) and log files. The archiving itself then takes place in the background as an asynchronous process. Finished archives are available for download for 10 days by default, after which they are automatically deleted.
 

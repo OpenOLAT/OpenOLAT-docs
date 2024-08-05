@@ -33,7 +33,7 @@ Seit Release 18.2 wurden über 115 neue Funktionen und Verbesserungen zu OpenOla
 
 ### Redesign Ordner-Komponente
 
-Bye, bye 20 Jahre alte Codebasis: Die komplett überarbeitete Ordnerkomponente mit neuem Look-and-feel bietet mehr als nur eine Dateiensammlung.
+Bye, bye 20 Jahre alte Codebasis: Die komplett [überarbeitete Ordner-Komponente](../manual_user/basic_concepts/Folder_Concept.de.md){:target="_blank”} mit neuem Look-and-feel bietet mehr als nur eine Dateiensammlung.
 
 Per Drag-and-Drop-Unterstützung lassen sich einzelne oder mehrere Dateien gleichzeitig bequem hochladen, über die ordnerweite Suchfunktion wird eine gewünschte Datei schnell gefunden.
 
@@ -51,7 +51,7 @@ Im neuen Papierkorb (`Administration > Core Konfiguration > Dateien und Ordner >
 
 ### File Hub
 
-Der neue File Hub ist als persönliches Werkzeug verfügbar und ersetzt den bisherigen 'Persönlichen Ordner'. Als zentraler Einstiegspunkt können Benutzer:innen alle ihre Dateien aus verschiedenene OpenOlat-Bereichen finden und diese durchsuchen. Die Dateien und Ordner sind analog zur WebDav-Ansicht gruppiert.
+Der neue [File Hub](../manual_user/basic_concepts/File_Hub_Concept.de.md){:target="_blank”} ist als persönliches Werkzeug verfügbar und ersetzt den bisherigen 'Persönlichen Ordner'. Als zentraler Einstiegspunkt können Benutzer:innen alle ihre Dateien aus verschiedenene OpenOlat-Bereichen finden und diese durchsuchen. Die Dateien und Ordner sind analog zur WebDav-Ansicht gruppiert.
 
 Der Zugriff auf die eigenen Dateien ist systemweit über die Aktion "Aus File Hub hinzufügen" möglich, um die Dateien an anderen Orten in OpenOlat zu verwenden.
 
@@ -75,7 +75,7 @@ Die Integration des Sharepoint Online Drives der Organisation ist im Media Cente
 
 ## Content Creator
 
-Der Content Editor des Kursbausteins 'Seite' wird zum Content Creator und bietet ab Release 19.0 weitere nützliche Blöcke zur didaktischen Aufbereitung von Inhalten.
+Der Content Editor des Kursbausteins 'Seite' wird zum [Content Creator](../manual_user/basic_concepts/Content_Editor.de.md){:target="_blank”} und bietet ab Release 19.0 weitere nützliche Blöcke zur didaktischen Aufbereitung von Inhalten.
 
 Der Auswahldialog zum Hinzufügen von Inhalten im Content Creator und Formular-Editor wurde optimiert und bietet einen umfassenden Überblick über alle verfügbaren Objekte.
 
@@ -101,7 +101,7 @@ Mit der Einbindung von Quizfragen sind kleinere Wissensüberprüfungen möglich.
 
 ## Peer Review
 
-Die Überprüfung und Bewertung von eingereichten Aufgaben von Teilnehmenden konnte bisher nur durch die jeweiligen Betreuenden erfolgen. Mit der Implementierung des Peer Reviews haben nun auch Teilnehmende die Möglichkeit, gegenseitig Feedback zu den gelösten Aufgaben abzugeben.
+Die Überprüfung und Bewertung von eingereichten Aufgaben von Teilnehmenden konnte bisher nur durch die jeweiligen Betreuenden erfolgen. Mit der Implementierung des [Peer Reviews](../manual_user/learningresources/Course_Element_Task.de.md#revisions){:target="_blank”} haben nun auch Teilnehmende die Möglichkeit, gegenseitig Feedback zu den gelösten Aufgaben abzugeben.
 
 Das Peer Review ist als optionaler Workflow-Schritt im Kursbaustein 'Aufgabe' konzipiert. Für die Beurteilung und Bewertung kann ein entsprechender Rubrik-Fragebogen (Lernressource 'Formular') eingebunden werden.
 
@@ -129,7 +129,7 @@ Bisher war eine kriterienbasierte Bewertung über den Baustein 'Manuelle Bewertu
 
 ## Neuer Kursbaustein 'Themenbörse'
 
-Wer zuerst kommt, mahlt zuerst? Diese Problematik löst der neue Kursbaustein 'Themenbörse' mittels Stable matching Algorithmus, der eine faire Einschreibung der Teilnehmenden in angebotene Themen sicherstellt.
+Wer zuerst kommt, mahlt zuerst? Diese Problematik löst der neue Kursbaustein ['Themenbörse'](../manual_user/learningresources/Course_Element_Topic_Broker.de.md){:target="_blank”} mittels Stable matching Algorithmus, der eine faire Einschreibung der Teilnehmenden in angebotene Themen sicherstellt.
 
 Am Baustein ist eine Liste der möglichen Themen und Projekte mit entsprechender Detail-Beschreibung verfügbar. Die Teilnehmenden wählen und priosieren ihre gewünschten Themen. Im Auswahlprozess werden die jeweiligen Prioritätenwünsche der Teilnehmenden berücksichtig und die Zuweisung der Themen fixiert.
 
@@ -183,7 +183,7 @@ Gutachter:innen und Betreuende finden in der Teilnehmendenliste am Baustein eine
 
 ## Kursarchivierung und Reporting
 
-Bisher konnten Kurs-Logfiles, Reports sowie Kursbaustein-Daten nur umständlich und jeweils einzeln archiviert werden. Der neue und überarbeitete Bereich 'Archivierung und Reporting' in der Kursadministration ermöglicht eine schnelle und einfache Teil- bzw. Gesamt-Archivierung eines Kurses.
+Bisher konnten Kurs-Logfiles, Reports sowie Kursbaustein-Daten nur umständlich und jeweils einzeln archiviert werden. Der neue und überarbeitete Bereich ['Archivierung und Reporting'](../manual_user/learningresources/Course_Archiving.de.md){:target="_blank”} in der Kursadministration ermöglicht eine schnelle und einfache Teil- bzw. Gesamt-Archivierung eines Kurses.
 
 Ein Wizard unterstützt bei der Auswahl der zu archivierenden Daten aller oder ausgewählter Kursbausteine sowie zusätzlicher Reports (Chatprotokoll, Kursresultate) und Logfiles. Die Archivierung selbst erfolgt anschliessend im Hintergrund als asynchroner Prozess. Fertige Archive stehen standardmässig 10 Tage zum Herunterladen zur Verfügung, danach werden sie automatisch gelöscht.
 
