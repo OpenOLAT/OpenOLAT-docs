@@ -62,6 +62,7 @@ nav:
 
   - User management:
     - usermanagement/index.md
+    - User / Account Search:  "usermanagement/Search_Users.md"
     - Create User: "usermanagement/Create_User.md"
     - Assign roles: "usermanagement/Assign_roles.md"
     - Configure User: "usermanagement/Configure_User.md"
