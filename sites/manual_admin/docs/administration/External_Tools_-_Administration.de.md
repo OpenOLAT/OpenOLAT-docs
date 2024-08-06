@@ -54,6 +54,8 @@ Um im OpenOlat File Hub und OpenOlat Media Center das Schreiben und Kopieren von
 
 Voraussetzung ist, dass die erforderlichen Lizenzen vorhanden sind.
 
+[Zu den Details >](SharePoint_OneDrive.de.md)
+
 
 ## Zoom {: #zoom}
 
