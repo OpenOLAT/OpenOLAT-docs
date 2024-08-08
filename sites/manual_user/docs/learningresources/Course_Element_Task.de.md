@@ -42,7 +42,7 @@ Die Erstellung und Konfiguration einer Aufgabe erfolgt wie bei allen Kursbaustei
 Die Angaben über den Kursbaustein entsprechen denen, wie sie in allen Kursbausteinen enthalten sind. 
 
 [nach oben (Perspektive Autor:in) ^](#create_task)<br>
-[Seitenanfang ^](#course_element_task)
+[zum Seitenanfang ^](#course_element_task)
 
 
 ### Tab "Layout“  {: #layout}
@@ -50,7 +50,7 @@ Die Angaben über den Kursbaustein entsprechen denen, wie sie in allen Kursbaust
 Die Optionen zum Layout entsprechen denen, wie sie in allen Kursbausteinen enthalten sind. 
 
 [nach oben (Perspektive Autor:in) ^](#create_task)<br>
-[Seitenanfang ^](#course_element_task)
+[zum Seitenanfang ^](#course_element_task)
 
 
 ### Tab "Lernpfad“ {: #learningpath}
@@ -79,7 +79,7 @@ Im Tab "Lernpfad" wird auch definiert, welches Kriterium erfüllt sein muss, dam
 * **Durchführung erledigt**: Alle Schritte des Aufgabenflows wurden durchlaufen.
 
 [nach oben (Perspektive Autor:in) ^](#create_task)<br>
-[Seitenanfang ^](#course_element_task)
+[zum Seitenanfang ^](#course_element_task)
 
 
 
@@ -123,7 +123,7 @@ Die differenzierte Zuordnung der Personen erfolgt allerdings bei geschlossenem K
     Wird jedoch z.B. die Aufgabenstellung nachträglich hinzugefügt und ein/e Teilnehmer:in ist im persönlichen Workflow bereits weiter fortgeschritten, so muss nachträglich keine Aufgabe mehr ausgewählt werden.  
 
 [nach oben (Perspektive Autor:in) ^](#create_task)<br>
-[Seitenanfang ^](#course_element_task)
+[zum Seitenanfang ^](#course_element_task)
 
 
 ### Tab "Aufgabenstellung“  {: #assignment}
@@ -166,7 +166,7 @@ Es folgt keine automatische Änderung. Der Teilnehmer erhält nun aber die Mögl
 ![Daten zurücksetzen User](assets/Aufgabe_User_Daten_zurücksetzen.png)
 
 [nach oben (Perspektive Autor:in) ^](#create_task)<br>
-[Seitenanfang ^](#course_element_task)
+[zum Seitenanfang ^](#course_element_task)
 
 
 
@@ -206,7 +206,7 @@ Darüber hinaus können Sie auch die minimale und maximale Anzahl von Dokumenten
 Aktivieren Sie die E-Mail Bestätigung damit Personen, die eine Aufgabe abgegeben haben eine entsprechende E-Mail erhalten. Der vorformulierte E-Mailtet kann bei Bedarf weiter angepasst werden. 
 
 [nach oben (Perspektive Autor:in) ^](#create_task)<br>
-[Seitenanfang ^](#course_element_task)
+[zum Seitenanfang ^](#course_element_task)
 
 
 
@@ -238,7 +238,7 @@ Damit neben Kursbesitzer:innen auch Betreuer:innen die automatische Reviewer-Zuw
 
 
 [nach oben (Perspektive Autor:in) ^](#create_task)<br>
-[Seitenanfang ^](#course_element_task)
+[zum Seitenanfang ^](#course_element_task)
 
 
 
@@ -277,7 +277,7 @@ Optional können sie noch die Möglichkeit für individuelle Kommentare oder ind
 Wenn Sie die erweiterte Konfiguration aufklappen stehen noch weitere Konfigurationen zur Verfügung. Hier können Sie noch Hinweistexte für alle Lernenden und/oder für alle Betreuenden hinterlegen. 
 
 [nach oben (Perspektive Autor:in) ^](#create_task)<br>
-[Seitenanfang ^](#course_element_task)
+[zum Seitenanfang ^](#course_element_task)
 
 
 
@@ -302,7 +302,7 @@ Per Voreinstellung ist die Musterlösung erst sichtbar, wenn die vom Teilnehmer 
     Sollen die Teilnehmenden vorab bereits Hilfestellungen zur Bearbeitung der Aufgabe erhalten, laden Sie diese zusammen mit der Aufgabenstellung als ZIP-Dokument hoch oder nutzen Sie die das Mitteilungsfeld (siehe Tab "Aufgabenstellung").
 
 [nach oben (Perspektive Autor:in) ^](#create_task)<br>
-[Seitenanfang ^](#course_element_task)
+[zum Seitenanfang ^](#course_element_task)
 
 
 
@@ -319,7 +319,7 @@ Voraussetzung ist, dass für die Aufgabe im Tab "Bewertung" die Vergabe von Punk
 Weitere Informationen zu diesem Tab, der in den meisten Assessment Kursbausteinen zur Verfügung steht, finden Sie [hier](../learningresources/Course_Elements.de.md).
 
 [nach oben (Perspektive Autor:in) ^](#create_task)<br>
-[Seitenanfang ^](#course_element_task)
+[zum Seitenanfang ^](#course_element_task)
 
 
 
@@ -338,7 +338,7 @@ Weitere Informationen zu To-dos finden Sie [hier](../basic_concepts/To_Dos_Basic
     Ob auch Betreuende To-dos bearbeiten dürfen wird in den Einstellungen der Kurs-Administration definiert. Gehen Sie dafür in den Tab "Optionen" und aktivieren Sie den entsprechenden Haken.
     
 [nach oben (Perspektive Autor:in) ^](#create_task)<br>
-[Seitenanfang ^](#course_element_task)
+[zum Seitenanfang ^](#course_element_task)
 
 
 !!! info "Hinweis"
@@ -381,7 +381,7 @@ Wenn Sie eine Aufgabe gewählt haben oder Ihnen eine Aufgabe automatisch zugewie
 Es ist auch möglich, dass Ihre Lehrperson die Aufgabenstellung nicht in dem Kursbaustein "Aufgabe" hinterlegt hat, sondern einen anderen Ort z.B. einen anderen Kursbaustein, einer HTML-Seite,  eine externe Webseite gewählt hat oder die Aufgabenstellung mündlich in Präsenz oder in einem Online-Meeting gestellt hat. In diesem Fall erscheint der Abschnitt "Zuweisung Aufgabenstellung" nicht.
 
 [nach oben (Perspektive Kursteilnehmer:in) ^](#process_task)<br>
-[Seitenanfang ^](#course_element_task)
+[zum Seitenanfang ^](#course_element_task)
 
 
 ### Lösung abgeben {: #process_task_solution}
@@ -396,7 +396,7 @@ Laden Sie Ihre Lösung hoch bzw. erstellen Sie sie direkt in OpenOlat und das Do
 Im Abgabe-Schritt, der nun mit einem grünen Häkchen als erledigt markiert wird, erhalten Sie eine Übersicht über abgegebenen Dateien. Sie können sich die Dateien zwar noch ansehen aber keine Änderungen mehr vornehmen.
 
 [nach oben (Perspektive Kursteilnehmer:in) ^](#process_task)<br>
-[Seitenanfang ^](#course_element_task)
+[zum Seitenanfang ^](#course_element_task)
 
 
 ### Rückgabe und Feedback {: #process_task_feedback}
@@ -416,7 +416,7 @@ Wenn Ihre Bearbeitung nicht ausreichend war und der Betreuer eine Überarbeitung
 ![Info: Die Abgabe wurde zur Überarbeitung zurückgewiesen](assets/Aufgabe_Rueckgabe_Feedback_zurueckgewiesen.png)
 
 [nach oben (Perspektive Kursteilnehmer:in) ^](#process_task)<br>
-[Seitenanfang ^](#course_element_task)
+[zum Seitenanfang ^](#course_element_task)
 
 
 ### Ergebnisse des Peer-Reviews ansehen {: #process_task_view_reviews}
@@ -426,7 +426,7 @@ Wurde ein Peer-Review vorgesehen, sehen Sie eine Übersicht über Ihre vergebene
 ![course_element_task_participant_peer1_v1_de.png](assets/course_element_task_participant_peer1_v1_de.png){ class="shadow lightbox" }
 
 [nach oben (Perspektive Kursteilnehmer:in) ^](#process_task)<br>
-[Seitenanfang ^](#course_element_task)
+[zum Seitenanfang ^](#course_element_task)
 
 
 ### Aufgabe überarbeiten {: #process_task_rework}
@@ -436,7 +436,7 @@ Wenn Sie eine Überarbeitung vornehmen müssen, gehen Sie wie unter "Lösung abg
 Sobald der Betreuer die Aufgabe als gelöst ansieht, wird er die Überarbeitungsperiode schliessen. Zu jedem Zeitpunkt sehen Sie welche Dokumente von Ihnen und Ihrem Betreuer abgegeben wurden und können diese einsehen.
 
 [nach oben (Perspektive Kursteilnehmer:in) ^](#process_task)<br>
-[Seitenanfang ^](#course_element_task)
+[zum Seitenanfang ^](#course_element_task)
 
 
 ### Musterlösung betrachten {: #process_task_view_example}
@@ -444,7 +444,7 @@ Sobald der Betreuer die Aufgabe als gelöst ansieht, wird er die Überarbeitungs
 Ihr Dozent kann der Aufgabe eine **Musterlösung** anfügen, welche zu einem von ihm festgelegten Zeitpunkt sichtbar wird, aber immer erst _nachdem_ ihre Lösung vom Betreuer akzeptiert wurde. Klicken Sie auf den Dateinamen bzw. den Button "Musterlösungen herunterladen", um die Musterlösung anzuschauen oder herunterzuladen.
 
 [nach oben (Perspektive Kursteilnehmer:in) ^](#process_task)<br>
-[Seitenanfang ^](#course_element_task)
+[zum Seitenanfang ^](#course_element_task)
 
 
 ### "Bewertung" des Betreuers lesen {: #process_task_view_coach_assessment}
@@ -454,7 +454,7 @@ Der Bereich **Bewertung** umfasst zum einen automatisch generierte Informationen
 ![Bewertung User Sicht](assets/Aufgabe_Bewertung_TN.png)
 
 [nach oben (Perspektive Kursteilnehmer:in) ^](#process_task)<br>
-[Seitenanfang ^](#course_element_task)
+[zum Seitenanfang ^](#course_element_task)
 
 
 ---
@@ -482,7 +482,7 @@ Ob die Reviewer die Namen der zugewiesenen Personen sehen, nur ihr eigener Name 
 Als Betreuer:in überwachen Sie die gegenseitigen Reviews und können ggf. auch eingreifen.
 
 [nach oben (Perspektive Betreuer:in) ^](#coach_task)<br>
-[Seitenanfang ^](#course_element_task)
+[zum Seitenanfang ^](#course_element_task)
 
 
 ### Peer-Review betreuen {: #coach_task_peer_review}
@@ -501,7 +501,7 @@ Der Ablauf eines Peer-Reviews wurde von dem/der Kursbesitzer:in festgelegt. Ents
     Kursbetreuer:innen sehen nur Gruppen, in denen sie selbst Mitglied sind. Soll ein Peer-Review durch Mitglieder anderer Gruppen erfolgen, sind die Bewertungen dieser Teilnehmer:innen für Kursbetreuer:innen nicht vollständig ersichtlich.
 
 [nach oben (Perspektive Betreuer:in) ^](#coach_task)<br>
-[Seitenanfang ^](#course_element_task)
+[zum Seitenanfang ^](#course_element_task)
 
 
 ### Manuelle Zuweisung von Reviewer:innen {: #coach_task_peer_review_assign_manually}
@@ -511,7 +511,7 @@ Wenn Sie als Betreuer:in bestimmen wollen, wer von wem ein Review erhält, könn
 ![course_element_task_peer-review_assign_reviewer_manually_v1_de.png](assets/course_element_task_peer-review_assign_reviewer_manually_v1_de.png){ class="shadow lightbox" }
 
 [nach oben (Perspektive Betreuer:in) ^](#coach_task)<br>
-[Seitenanfang ^](#course_element_task)
+[zum Seitenanfang ^](#course_element_task)
 
 
 ### Automatische Zuweisung von Reviewer:innen {: #coach_task_peer_review_assign_automatically}
@@ -528,4 +528,4 @@ Der automatische Zuordnungsprozess muss durch Kursbesitzer:innen oder Kursbetreu
 
 
 [nach oben (Perspektive Betreuer:in) ^](#coach_task)<br>
-[Seitenanfang ^](#course_element_task)
+[zum Seitenanfang ^](#course_element_task)

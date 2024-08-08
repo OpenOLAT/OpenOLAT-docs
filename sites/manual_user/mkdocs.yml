@@ -272,7 +272,9 @@ nav:
       - Podcast: "learningresources/Podcast_Further_Configurations.md"
     - Blog:
        - Overview: "learningresources/Blog.md"
-       - Blog: "learningresources/Blog_Further_Configurations.md"
+       - Create a blog: "learningresources/Blog_Create.md"
+       - Configure a blog: "learningresources/Blog_Configuration.md"
+       - Blogging: "learningresources/Blog_Blogging.md"
     - Audio:
       - Audio Recording: "learningresources/Audio_Recording.md" 
     - Video:

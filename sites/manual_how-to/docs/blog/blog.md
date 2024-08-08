@@ -1,12 +1,14 @@
-# How do I create a blog?
+# How do I create a blog? {: #how_do_i_create_a_blog}
 
 With the aid of the following guidelines you will create a blog for your
 course in a short time and can adapt it according to your needs.
 
 ## What kind of blog should it be?
 
-* specialists blog / info blog
+* info blog
+    - as information channel to all course participants
     - participants can only read
+* specialists blog
     - normally used in several courses
     - integrated via URL from an external source (e.g. Mastodon feed)
 * user generated content blog
@@ -43,6 +45,8 @@ e) Now assign a suitable **title** in the tab "Title and description" and save t
 
     If you close the course editor already now, no blog will be displayed in the menu because the course element is still incomplete. The learning resource is still missing.
 
+[to the top ^](#how_do_i_create_a_blog)
+
 ---
 
 ## Step 2: Create the blog (learning resource) 
@@ -73,6 +77,8 @@ Done. With this, a new blog learning resource is created and further settings as
     
     The same blog can be integrated in several OpenOlat courses and can also be used independently of the course.
 
+[to the top ^](#how_do_i_create_a_blog)
+
 ---
 
 ## Step 3: Define user rights
@@ -86,6 +92,8 @@ b) **Blog moderators** additionally have the <b>"Edit blog"</b> button in the co
 (*course run = "active course" mode, as opposed to the course open in the editor)
 
 c) Finally, the course must be **published** and the course editor closed so that the changes are visible.
+
+[to the top ^](#how_do_i_create_a_blog)
 
 ---
 
@@ -122,6 +130,8 @@ Additional entries can then be easily added via the <b>"Create new entry"</b> bu
 
     **Participants and coaches** create their posts with the editor closed in course run. (Course run = "active course" mode, as opposed to the course being open in the editor.)<br> **Owners** can also add new entries in the course editor.
 
+[to the top ^](#how_do_i_create_a_blog)
+
 ---
 
 ## Step 5: Publish course and change course status to "Published"
@@ -129,6 +139,8 @@ Additional entries can then be easily added via the <b>"Create new entry"</b> bu
 To do this, proceed as described in ["How do I create my first OpenOlat course"](../my_first_course/my_first_course.md).
 
 The blog is now integrated and course participants can read the posts.
+
+[to the top ^](#how_do_i_create_a_blog)
 
 ---
 
@@ -140,3 +152,4 @@ Instead of clicking on the "Create your own entries" button, click on the **"Emb
 
 Afterwards, the content of the external blog will be displayed directly in the OpenOlat course and can be star rated and also commented on. These comments are only visible within the course, not publicly on the Internet.
   
+[to the top ^](#how_do_i_create_a_blog)

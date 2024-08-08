@@ -1,4 +1,4 @@
-# Kursbaustein "Blog" {: #blog}
+# Kursbaustein "Blog" {: #course_element_blog}
 
 ## Steckbrief
 
@@ -12,28 +12,43 @@ Bewertbar | nein
 Spezialität / Hinweis |
 
 
-Über den "Blog" können Sie die Teilnehmer des Kurses über aktuelle Themen in Form von Text, Bild oder Video informieren. Sie können sowohl externe Blogs einbinden als auch einen neue OLAT Lernressource "Blog" erstellen und verwenden. Kursbesitzer können in einem Blog beispielsweise mehr oder weniger regelmäßig einen inhaltlichen Blog führen und so die Kursteilnehmenden über neue aktuelle Inhalte zum Veranstaltungsthema informieren. Die Teilnehmenden können diese Beiträge dann kommentieren und auch mit 1-5 Sternen bewerten. Ferner ist es möglich, den Kursteilnehmenden das Schreibrecht für einen Blog zu geben, so dass sie gemeinsam einen Kursblog führen können.
 
-Wie Sie einen Blog [erstellen](../resource_blog/Four_Steps_to_Your_Blog.de.md) und [konfigurieren](../learningresources/Blog_Further_Configurations.de.md) erfahren Sie auf separaten Seiten.
+Ähnlich wie der Podcast dient auch der Blog dazu, aktuelle neue Inhalte zur Verfügung zu stellen. In den Beiträgen können neben Text auch Bilder oder Filme eingebunden sein und in Kommentaren können auch Dateien angehängt (hochgeladen) werden. 
 
-Ähnlich wie der Podcast dient auch der Blog dazu, neue Inhalte zur Verfügung zu stellen. In den Beiträgen können neben Text auch Bilder oder Filme eingebunden sein.
+Als Kursbesitzer:innen / Betreuer:innen eines Kurses können Sie so z.B. in einem Blog die Teilnehmer:innen Ihres Kurses über aktuelle Themen informieren. Sie können auch mehr oder weniger regelmäßig einen inhaltlichen Blog führen und so die Kursteilnehmenden über neue Aspekte zum Veranstaltungsthema informieren.
 
-Jeder OpenOlat-Benutzer darf Blogeinträge mit 1-5 Sternen bewerten und kommentieren.  Um einen Kommentar zu verfassen oder bestehende Kommentare zu lesen, klicken Sie auf den Link "Kommentare". Sie sehen zudem die Bewertungen der anderen Blogleser.
 
-Blogeinträge _erstellen_ können Sie nur, wenn der Kursbesitzer Sie dazu berechtigt hat. Klicken Sie auf "Neuen Eintrag erstellen" und verfassen Sie den Blogeintrag.
+## Kursbaustein und Lernressource
 
-## Blogeintrag erstellen und editieren
+In einen Blog-Kursbaustein muss jeweils eine Blog-Lernressource eingebunden werden.
 
-**Titel:** Geben Sie einen Titel ein, der den Blogeintrag beschreibt. Dieses Feld ist obligatorisch.
+Wurde der Kursbaustein eingefügt, kann im **Tab "Blog-Lerninhalt"**
 
-**Beschreibung:** Die Beschreibung ist fakultativ und wird als Vorschau eines Artikels oder Eintrags verwendet. Es kann sich somit auch um eine kurze Einleitung oder Zusammenfassung handeln.
+* **1:** eine bereits **vorhandene Blog-Lernressource** aus dem Autorenbereich ausgewählt werden.
+* **2:** eine **neue Blog-Lernressource** direkt vom Kursbaustein aus erstellt werden. (Die Blog-Lernressource wird im Autorenbereich abgelegt und kann danach von dort auch in anderen Kursbausteinen verwendet werden.)
+* **3:** ein **externer Blog** als Lernressource **via URL** eingebunden werden.
+* **4:** ein **als Datei vorhandener Blog importiert** werden.
 
-**Inhalt:** Der Inhalt ist der eigentliche Blogeintrag. Dieses Feld sollte also unbedingt ausgefüllt werden. Formatierungen und Bilder sind erlaubt.
+![course_element_blog_content_v1_de.png](assets/course_element_blog_content_v1_de.png){ class="shadow lightbox" } 
 
-**Datum und Zeit der Veröffentlichung:** Das Datum und die Zeit der Veröffentlichung werden dafür verwendet, den Eintrag für andere Benutzer sichtbar zu machen oder zu verbergen. Liegt der Zeitpunkt der Veröffentlichung in der Vergangenheit, so wird der Eintrag sichtbar. Liegt er hingegen in der Zukunft, so handelt es sich um eine geplante Veröffentlichung des Eintrags.
 
-Sie können den Eintrag durch Klicken auf "Veröffentlichen" für andere zugänglich machen (ab dem angegebenen Datum). Wenn Sie an Ihrem Eintrag zu einem späteren Zeitpunkt weiterschreiben wollen, klicken Sie auf "Entwurf speichern". "Abbrechen" verwirft Ihre Änderungen und schliesst das Formularfenster. Entwürfe erscheinen in der Liste der Einträge gelb hinterlegt. Geplante Veröffentlichungen sind grün gekennzeichnet. Alle anderen Einträge sind öffentlich und für andere sichtbar.
+!!! info "Hinweis"
 
-Sie können den neuen Eintrag entweder direkt veröffentlichen, das Datum der Veröffentlichung wählen oder den Eintrag als Entwurf speichern.
+    Eine Blog-Lernressource kann auch im Autorenbereich unter dem Button "Erstellen" neu erstellt werden. Wird sie so erstellt, kann sie anschliessend im Kurseditor in einen Kursbaustein "Blog" eingebunden werden.<br><br>
+    ![course_element_blog_create_learningresource_v1_de.png](assets/course_element_blog_create_learningresource_v1_de.png){ class="shadow lightbox" } 
 
-Abonnieren Sie den RSS-Feed des Blogs, um keine neuen Einträge zu verpassen.
+
+!!! hint "Tipp"
+
+    Abonnieren Sie den RSS-Feed des Blogs, um keine neuen Einträge zu verpassen. Eine Anleitung dazu finden Sie hier: [Abonnements einrichten (Video-Einführung)](https://www.youtube.com/embed/h9gOqt7TR7Q)
+
+
+## Weitere Informationen
+
+[Blog erstellen](../learningresources/Blog_Create.de.md)<br>
+[Schritt-für-Schritt-Anleitung: Wie erstelle ich einen Blog?](../../manual_how-to/blog/blog.de.md)<br>
+[Blog konfigurieren](../learningresources/Blog_Configuration.de.md)<br>
+[Bloggen](../learningresources/Blog_Blogging.de.md)<br>
+[Abonnements einrichten (Video-Einführung)](https://www.youtube.com/embed/h9gOqt7TR7Q)
+
+

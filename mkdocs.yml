@@ -151,7 +151,8 @@ plugins:
           Bewertungswerkzeug  : Bewertungswerkzeug
           BigBlueButton : BigBlueButton
           BigBlueButton module : Modul BigBlueButton
-          Blog  : Blog
+          Blog : Blog
+          Blogging : Bloggen
           Bookings : Buchungen
           Bulk actions : Sammelaktionen
           Bulk assessment : Massenbewertung
@@ -173,6 +174,7 @@ plugins:
           Components : Bestandteile
           Components of the portfolio : Bestandteile des Portfolios
           Configuration : Konfiguration
+          Configure a blog : Blog konfigurieren
           Configure test questions : Test Fragen konfigurieren
           Configure tests : Test konfigurieren
           Configure User : Benutzer konfigurieren

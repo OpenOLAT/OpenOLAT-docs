@@ -1,20 +1,22 @@
-# Wie erstelle ich einen Blog?
+# Wie erstelle ich einen Blog? {: #how_do_i_create_a_blog}
 
 Mit dieser Anleitung haben Sie in kurzer Zeit in Ihrem Kurs einen Blog
 erstellt und ihn Ihren Wünschen entsprechend angepasst.
 
 ## Welche Art Blog soll es sein?
 
-* Fach-Blog / Info-Blog
+* Info-Blog
+    - als Informationskanal an alle Kursteinehmer:innen
     - Teilnehmer:innen können nur lesen
+* Fach-Blog 
     - meist in mehreren Kursen eingesetzt
-    - via URL von extern eingebunden (z.B. Mastodon Feed)
+    - via URL von extern eingebunden (z.B. Mastodon Feed)   
 * User-Generated Content Blog
     - z.B. Flipped Classroom Szenarien
     - Teilnehmer:innen schreiben Beiträge und kommentieren
 * Lerntagebuch
     - typischerweise ein Blog pro Teilnehmer:in
-    - nicht sichtbar für die andren Teilnehmer:innen
+    - nicht sichtbar für die anderen Teilnehmer:innen
 
 
 ##  Voraussetzung
@@ -42,6 +44,8 @@ e) Vergeben Sie nun noch einen passenden **Titel** im Tab "Titel und Beschreibun
 !!! tip "Hinweis"
 
     Wenn Sie den Kurseditor bereits jetzt schliessen, wird im Menü kein Blog angezeigt, denn der Kursbaustein ist noch unvollständig. Es fehlt noch die Lernressource.
+
+[zum Seitenanfang ^](#how_do_i_create_a_blog)
 
 ---
 
@@ -73,6 +77,8 @@ Fertig. Damit ist eine neue Blog-Lernressource angelegt und weitere Einstellunge
     
     Derselbe Blog kann in mehreren OpenOlat-Kursen eingebunden und auch kursunabhängig verwendet werden.
 
+[zum Seitenanfang ^](#how_do_i_create_a_blog)
+
 ---  
 
 ## Schritt 3: Benutzerberechtigungen definieren 
@@ -87,6 +93,8 @@ b) **Blog-Moderatoren** verfügen zusätzlich im Kursrun* über den <b>Button "B
 (*Kursrun = Modus "aktiver Kurs", im Unterschied zum Kurs, der im Editor geöffnet ist)
 
 c) Abschließend muss der Kurs **publiziert** und der Kurseditor geschlossen werden, damit die Änderungen sichtbar werden. 
+
+[zum Seitenanfang ^](#how_do_i_create_a_blog)
 
 ---
 
@@ -124,6 +132,8 @@ Kursrun (veröffentlichter Kurs) hinzugefügt werden.
 
     **Teilnehmer und Betreuer** erstellen ihre Beiträge bei geschlossenem Editor im Kursrun. (Kursrun = Modus „aktiver Kurs“, im Unterschied zum Kurs, der im Editor geöffnet ist) <br>**Besitzer** können neue Einträge auch im Kurseditor hinzufügen.
 
+[zum Seitenanfang ^](#how_do_i_create_a_blog)
+
 ---
 
 ## Schritt 5: Kurs publizieren und Kurs-Status auf "Veröffentlicht" ändern  
@@ -131,6 +141,8 @@ Kursrun (veröffentlichter Kurs) hinzugefügt werden.
 Gehen Sie dazu vor, wie in ["Wie erstelle ich meinen ersten OpenOlat-Kurs"](../my_first_course/my_first_course.de.md) beschrieben.
 
 Der Blog ist nun eingebunden und Kursteilnehmende können die Beiträge lesen.
+
+[zum Seitenanfang ^](#how_do_i_create_a_blog)
 
 ---
 
@@ -142,6 +154,7 @@ Der Blog ist nun eingebunden und Kursteilnehmende können die Beiträge lesen.
 
  Anschließend werden die Inhalte des externen Blogs im OpenOlat Kurs direkt angezeigt und können mit Sternchen bewertet und auch kommentiert werden. Diese Kommentierungen sind nur innerhalb des Kurses, nicht öffentlich im Internet, sichtbar.
 
+[zum Seitenanfang ^](#how_do_i_create_a_blog)
 
   
 
