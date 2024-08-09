@@ -85,34 +85,77 @@ Im Tab "Lernpfad" wird auch definiert, welches Kriterium erfüllt sein muss, dam
 
 ### Tab "Workflow“  {: #workflow}
 
-Im Tab Workflow definieren Sie, welche einzelnen Elemente die Aufgabe überhaupt enthalten soll.
+Im Tab "Workflow" definieren Sie, welche einzelnen Elemente die Aufgabe überhaupt enthalten soll.
 
 !!! tip "Tipp"
 
     Starten Sie die Konfiguration in diesem Tab und wählen Sie die Funktionen aus, die Sie benötigen. Anschliessend sind die benötigten Tabs aktiv/inaktiv und können weiter konfiguriert werden.
 
 
-![course_element_task_workflow_elements_v1_de.png](assets/course_element_task_workflow_elements_v1_de.png){ class="shadow lightbox"}
+![course_element_task_workflow_elements_v2_de.png](assets/course_element_task_workflow_elements_v2_de.png){ class="shadow lightbox"}
 
+![1_green_24.png](assets/1_green_24.png) **Relatives Datum**<br>
+Statt Kalenderdaten einzutragen, können Sie auch mit _relativen Daten_ arbeiten. Legen Sie fest, wie viele Tage nach dem ersten Kursbesuch oder der Buchung die Aufgabenstellung geöffnet bleibt. Alle eingestellten Zeitvorgaben können auch individuell angepasst werden, z.B. wenn ein Lerner aufgrund bestimmter Umstände eine Verlängerung benötigt. Dies gilt für alle Prozessschritte. Wenn Sie das Abgabedatum verlängern, wird die Aufgabe neu eröffnet. Auch ein Datum für eine verspätete Abgabe ist möglich.
+
+=== "Mit fixem Datum"
+
+    ![course_element_task_workflow_fix_dates_v1_de](assets/course_element_task_workflow_fix_dates_v1_de.png){ class="shadow lightbox" }
+
+=== "Mit relativem Datum"
+
+    ![course_element_task_workflow_relative_dates_v1_de](assets/course_element_task_workflow_relative_dates_v1_de.png){ class="shadow lightbox" }
+
+Die Umstellung auf relative Daten betrifft die Eingabefelder für **Aufgabenstellung**, **Abgabe** und **Musterlösung**.
+
+
+![2_green_24.png](assets/2_green_24.png) **Aufgabenstellung**<br>
 Soll eine konkrete Aufgabenstellung im Kursbaustein hinterlegt werden oder findet der User die Aufgabe vielleicht woanders? Soll der User ein Dokument abgeben? Soll es ein Feedback vom Lehrenden geben? Sollen die User, wenn notwendig, die Möglichkeit zur Überarbeitung einer Einsendung erhalten können? Soll eine Musterlösung bereitgestellt werden? Soll eine Bewertung mit Punkten oder bestanden möglich sein? Sollen bestimmte Lernende von bestimmten Betreuenden bewertet werden?
 
 Aktivieren Sie einfach die Dinge die Sie benötigen und konfigurieren Sie im nächsten Schritt die dafür relevanten Tabs.
 
+![3_green_24.png](assets/3_green_24.png) **Abgabe**<br>
 Die Abschnitte Aufgabenstellung, Abgabe, verspätete Abgabe und Musterlösung können mit einem Datum versehen werden. Aufgabenstellung und Abgabe sind bis zum eingetragenen Datum verfügbar. 
 
 Wird die verspätete Abgabe aktiviert und ein Termin hinterlegt, können Teilnehmende noch bis zum verspäteten Termin ihre Lösung einreichen. Für den User wird sowohl der normale Abgabetermin als auch der verspätete Termin angezeigt, bzw. die Termine, die noch in der Zukunft liegen. Die verspätete Abgabe wird dem Betreuer bzw. Kursbesitzer im Bewertungsflow ebenfalls angezeigt.
 
+![4_green_24.png](assets/4_green_24.png) **Feedback**<br>
+Standardmässig wird das Feedback durch Betreuende gegeben, es kann aber auch durch die anderen Teilnehmer:innen erfolgen (Peer-Review).
+
+![5_green_24.png](assets/5_green_24.png) **Überarbeitung**<br>
+Die Abgabe von Überarbeitungen durch Teilnehmer:innen nach der Korrektur kann optional erlaubt werden.
+
+![6_green_24.png](assets/6_green_24.png) **Musterlösung**<br>
 Eine Musterlösung kann für alle Teilnehmenden oder nur diejenigen, die die Aufgabe bearbeitet haben, ab dem eingetragenen Datum bereitgestellt werden.
-Sind Musterlösungen aktiviert, kann hier auch definiert werden, ob Betreuer Dokumente hinzufügen und bearbeiten dürfen.
+Sind Musterlösungen aktiviert, kann hier auch definiert werden, ob Betreuer:innen Dokumente hinzufügen und bearbeiten dürfen.
 
-Statt Kalenderdaten einzutragen, können Sie auch mit _relativen Daten_ arbeiten. Legen Sie fest wie viele Tage nach dem ersten Kursbesuch oder der Buchung die Aufgabenstellung geöffnet bleibt. Alle eingestellten Zeitvorgaben können auch individuell angepasst werden, z.B. wenn ein Lerner aufgrund bestimmter Umstände eine Verlängerung benötigt. Dies gilt für alle Prozessschritte. Wenn Sie das Abgabedatum verlängern, wird die Aufgabe neu eröffnet. Auch ein Datum für eine verspätete Abgabe ist möglich.
+![7_green_24.png](assets/7_green_24.png) **Bewertung**<br>
+Mit dem Einschalten dieses Toggle-Buttons wird der Tab "Bewertung" aktiviert, in dem die Details der Bewertung konfiguriert werden können.
+
+![8_green_24.png](assets/8_green_24.png) **Dokumente Konfiguration**<br>
+Diese Option wird nur angzeigt, wenn eine der Optionen "Aufgabenstellung" oder "Musterlösung" gewählt wurde und so das Hochladen von Dokumenten erforderlich ist. Es kann hier erlaubt werden, dass neben Kursbesitzer:innen auch Betreuer:innen Dokumente hinzufügen und bearbeiten können.
+
+![9_green_24.png](assets/9_green_24.png) **Betreuung**<br>
+Im Abschnitt "Betreuung" des Tabs "Workflow" kann eine teilnehmerabhängige Betreuung aktiviert und konfiguriert werden.
+
+![Betreuerabhängige Bewertung](assets/course_element_task_workflow_assign_coaches_v1_de.png)
+
+* **Zuweisung Betreuende/Teilnehmende**<br>
+Mit Wahl dieser Checkbox werden die weiteren Optionen zur Betreuung eingeblendet.
+Die differenzierte Zuordnung der Personen erfolgt dann bei geschlossenem Kurseditor.
+
+* **Zur Auswahl stehende Betreuende**<br>
+Es kann entschieden werden, ob neben den Betreuer:innen auch Kursbesitzer:innen für die Betreuung der Teilnehmer:innen zugewiesen werden sollen.
+
+* **Art der Zuweisung**<br>
+Die Zuweisung (Zuordnung) von betreuenden Personen zu einem/einer Teilnehmer:in kann manuell oder automatisch erfolgen.
+
+* **Benachrichtigung Betreuende**<br>
+Wählen Sie hier, in welchen Fällen Betreuende eine Benachrichtigung per Mail erhalten.
+
+* **Benachrichtigung Teilnehmende**<br>
+Wählen Sie hier, ob Teilnehmende über die Zuweisung zu einer betreuenden Person per Mail informiert werden.
 
 
-Im Bereich "Betreuung" des Tabs Workflow kann eine teilnehmerabhängige Betreuung aktiviert und konfiguriert werden.
-
-![Betreuerabhängige Bewertung](assets/Betreuer_Zuweisung.png)
-
-Die differenzierte Zuordnung der Personen erfolgt allerdings bei geschlossenem Kurseditor.
 
 !!! warning "Achtung"
 
@@ -121,6 +164,11 @@ Die differenzierte Zuordnung der Personen erfolgt allerdings bei geschlossenem K
     Bei Änderungen am Workflow, z.B. dem Entfernen der Aufgabenstellung, wird bei allen Teilnehmenden des Kurses dieser Bestandteil des Workflows entfernt. Die Information über bereits gewählte Aufgaben ist dann nicht mehr sichtbar. Wird der Bestandteil des Workflows wieder eingefügt, ist diese Information aber wieder zugänglich.
 
     Wird jedoch z.B. die Aufgabenstellung nachträglich hinzugefügt und ein/e Teilnehmer:in ist im persönlichen Workflow bereits weiter fortgeschritten, so muss nachträglich keine Aufgabe mehr ausgewählt werden.  
+
+!!! warning "Achtung"
+
+    Wenn unter den Kursmitgliedern keine Person die Rolle Betreuer:in hat und gleichzeitig Kursbesitzer:innen keine Betreuungsaufgaben wahrnehmen (Tab Workflow > Abschnitt "Betreuung" > "Zur Auswahl stehende Betreuende"), dann kann keine Betreuerzuweisung stattfinden.
+
 
 [nach oben (Perspektive Autor:in) ^](#create_task)<br>
 [zum Seitenanfang ^](#course_element_task)
@@ -358,6 +406,7 @@ Alle Schritte einer Aufgabe (Workflow) zeigen sich für Kursteilnehmer:innen dir
 !!! note "Quick Links: Aufgabe erledigen (Perspektive Kursteilnehmer:in)"
 
     * [Zugewiesene Aufgabe herunterladen](#process_task_download)
+    * [Von wem werde ich betreut?](#process_task_my_coach)
     * [Lösung abgeben](#process_task_solution)
     * [Rückgabe und Feedback](#process_task_feedback)
     * [Ergebnisse des Peer-Reviews ansehen](#process_task_view_reviews)
@@ -379,6 +428,19 @@ Je nach Konfiguration stehen im Schritt **"Zuweisung Aufgabenstellung"** eine od
 Wenn Sie eine Aufgabe gewählt haben oder Ihnen eine Aufgabe automatisch zugewiesen wurde, klicken Sie auf "Aufgabe herunterladen", um die Aufgabenstellung herunterzuladen bzw. anzeigen zu lassen. Wenn Sie auf den Dateinamen der Aufgabenstellung klicken wird die Aufgabe angezeigt. Die Aufgabe können Sie dann jederzeit wiederholt herunterladen.
 
 Es ist auch möglich, dass Ihre Lehrperson die Aufgabenstellung nicht in dem Kursbaustein "Aufgabe" hinterlegt hat, sondern einen anderen Ort z.B. einen anderen Kursbaustein, einer HTML-Seite,  eine externe Webseite gewählt hat oder die Aufgabenstellung mündlich in Präsenz oder in einem Online-Meeting gestellt hat. In diesem Fall erscheint der Abschnitt "Zuweisung Aufgabenstellung" nicht.
+
+[nach oben (Perspektive Kursteilnehmer:in) ^](#process_task)<br>
+[zum Seitenanfang ^](#course_element_task)
+
+### Von wem werde ich betreut? {: #process_task_my_coach}
+
+In Kurs-Settings mit sehr vielen Teilnehmenden werden diese häufig von mehreren Lehrpersonen betreut. Als Teilnehmer:in wird Ihnen ein/eine Betreuer:in zugewiesen.
+
+Sie sehen als Teilnehmer:in die Ihnen zugewiesene betreuende Person oberhalb der Aufgabe. Sollte kein/keine Betreuer:in angzeigt werden, wurde Ihnen noch niemand zugeteilt.
+
+![course_element_task_participant_view_mycoach_v1_de.png](assets/course_element_task_participant_view_mycoach_v1_de.png){ class="shadow lightbox" }
+
+Mit der Implementierung des Peer-Reviews haben seit Release 19 auch Teilnehmende die Möglichkeit, gegenseitig Feedback zu den gelösten Aufgaben abzugeben.
 
 [nach oben (Perspektive Kursteilnehmer:in) ^](#process_task)<br>
 [zum Seitenanfang ^](#course_element_task)
@@ -466,8 +528,8 @@ Der Bereich **Bewertung** umfasst zum einen automatisch generierte Informationen
 
     * [Regeln eines Peer-Reviews](#coach_task_peer_review_rules)
     * [Peer-Review betreuen](#coach_task_peer_review)
-    * [Manuelle Zuweisung von Reviewer:innen](#coach_task_peer_review_assign_manually)
-    * [Automatische Zuweisung von Reviewer:innen](#coach_task_peer_review_assign_automatically)
+    * [Manuelle Zuweisung von Peer-Reviewer:innen](#coach_task_peer_review_assign_manually)
+    * [Automatische Zuweisung von Peer-Reviewer:innen](#coach_task_peer_review_assign_automatically)
 
 
 
@@ -504,7 +566,7 @@ Der Ablauf eines Peer-Reviews wurde von dem/der Kursbesitzer:in festgelegt. Ents
 [zum Seitenanfang ^](#course_element_task)
 
 
-### Manuelle Zuweisung von Reviewer:innen {: #coach_task_peer_review_assign_manually}
+### Manuelle Zuweisung von Peer-Reviewer:innen {: #coach_task_peer_review_assign_manually}
 
 Wenn Sie als Betreuer:in bestimmen wollen, wer von wem ein Review erhält, können Sie die Zurordnung selbst vornehmen.
 
@@ -514,9 +576,9 @@ Wenn Sie als Betreuer:in bestimmen wollen, wer von wem ein Review erhält, könn
 [zum Seitenanfang ^](#course_element_task)
 
 
-### Automatische Zuweisung von Reviewer:innen {: #coach_task_peer_review_assign_automatically}
+### Automatische Zuweisung von Peer-Reviewer:innen {: #coach_task_peer_review_assign_automatically}
 
-Die Zuordnung von Reviewer:innen zu Teilnehmer:innen kann auch durch OpenOlat automatisch vorgenommen werden. Sie erfolgt gemäss den eingestellten Regeln. (Z.B. definierte Anzahl der Personen, die pro Teilnehmer:in zu reviewen sind.) Auch wenn vorab schon manuelle Zuordnungen durch Betreuer:innen gemacht wurden, werden diese bei den verbleibenden automatischen Zuordnungen berücksichtigt.
+Die Zuordnung von Peer-Reviewer:innen zu Teilnehmer:innen kann auch durch OpenOlat automatisch vorgenommen werden. Sie erfolgt gemäss den eingestellten Regeln. (Z.B. definierte Anzahl der Personen, die pro Teilnehmer:in zu reviewen sind.) Auch wenn vorab schon manuelle Zuordnungen durch Betreuer:innen gemacht wurden, werden diese bei den verbleibenden automatischen Zuordnungen berücksichtigt.
 
 Der automatische Zuordnungsprozess muss durch Kursbesitzer:innen oder Kursbetreuer:innen ausgelöst werden.
 
