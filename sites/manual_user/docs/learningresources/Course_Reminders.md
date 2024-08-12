@@ -142,3 +142,20 @@ Here is an example:
 ![Reminder Mail](assets/reminder_notification_text.png){ class="shadow" }
 
 At the top course node, all reminders that are not tied to a specific course element are also listed. Also here as well as with other assessment elements with the tab "Reminders" further configurations can be made, e.g. configured reminders can be edited, duplicated, sent, deleted. It is also possible to display the dispatch.
+
+
+## Empfänger
+
+Erinnerungen sind gut geeignet, um **Kursteilnehmer:innen** daran zu erinnern, was sie als nächstes erledigen sollten.
+Eine **Kopie an die Betreuer:innen und/oder Kursbesitzer:innen** informiert auch diese, dass Teilnehmer:innen etwas zu erledigen haben.
+
+
+In manchen Fällen sollen Erinnerungen **ausschliesslich an Betreuer:innen** geschickt werden.<br>
+**Beispiel:**<br>
+Kursteilnehmer:innen zeigen keinen Fortschritt. Der/die Betreuer:in sollte dann Kontakt mit diesen Kursteilnehmer:innen aufnehmen und Hilfestellung leisten. Die Erinnerung dazu sollte nur an den/die Betreuer:in gehen.
+
+Ebenso können Erinnerungen auch **ausschliesslich an die Kursbesitzer:innen** versandt werden.<br>
+**Beispiel:**<br>
+Manchmal vergessen Autor:innen ihren Kurs zu publizieren, weil noch Dinge unklar waren als sie das letzte Mal an der Kurserstellung gearbeitet haben. In diesem Fall kann der Kursstatus in Kombination mit der Rolle als Versandkriterium verwendet werden.
+
+![course_reminder_condition_status_v1_de.png](assets/course_reminder_condition_status_v1_de.png){ class="shadow lightbox" }
