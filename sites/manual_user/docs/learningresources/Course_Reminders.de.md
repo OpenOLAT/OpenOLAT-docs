@@ -47,7 +47,8 @@ Mehrere Bedingungen können nach Wunsch kombiniert werden können. Dadurch könn
 Es können folgende Kriterien als Bedingung konfiguriert werden:
 
 * **Einschreibedatum**<br>
-x Tage, Wochen, Monate oder Jahre danach
+Versand x Tage, Wochen, Monate oder Jahre danach<br>
+_Beispiel_: Benutzer:innen erhalten 2 Tage nach der Einschreibung zusätzliche Informationen zum Kurs. (Vorausgesetzt auch die übrigen Bedingungen werden erfüllt.)  
 
 * **Kursstatus**<br>
 Wählen Sie, in welchem Status sich der Kurs befinden muss, damit eine Erinnerung verschickt wird. 
@@ -60,6 +61,8 @@ Wählen Sie, in welchem Status sich der Kurs befinden muss, damit eine Erinnerun
     * Nicht Review
     * Nicht Freigabe Betreuer:innen
     * Nicht Veröffentlicht
+_Beispiel_: Nur wenn der Kurs den Status "Freigabe Betreuer:innen" hat, erhalten alle Betreuer:innen eine Info-Mail über ihre Betreuungsaufgabe.
+
 
 * **Beginndatum Durchführungszeitraum des Kurses**<br>
 x Tage, Wochen, Monate oder Jahre davor oder danach
@@ -91,7 +94,7 @@ Diese Option wird nur angezeigt, wenn die Zertifikatvergabe aktiviert ist (Kursa
 ---
 
 * **Gruppenmitglieder**<br>
-Auswahl einer bestimmten Gruppe. Nur deren Gruppenmitglieder erhalten die Mail. (Vorausgesetzt auch die übrigen Bedingungen werden erfüllt.)
+Auswahl einer bestimmten Gruppe. Nur deren Gruppenmitglieder erhalten die Mail. 
 
 * **Kursrolle**<br>
 Die Erinnerungsempfänger:innen müssen eine der folgenden Rollen innehaben:
@@ -103,7 +106,7 @@ Die Erinnerungsempfänger:innen müssen eine der folgenden Rollen innehaben:
     * Besitzer:innen und Betreuer:innen
     * Mitglieder
 
-    _Beispiel_: Alle Besitzer:innen und Betreuer:innen erhalten eine Erinnerung.  
+    _Beispiel_: Nur Besitzer:innen und Betreuer:innen erhalten eine Erinnerung.  
 
 * **Eigenschaft Benutzer:in**<br>
 Die Erinnerungsempfänger:innen müssen einen bestimmten Wert zu einem der folgenden Merkmale aufweisen:
@@ -133,7 +136,7 @@ Eingabefelder für Datum und Uhrzeit, als Eingabhilfe Button zur Anzeige des Kal
 
 * **Datum des letzten Versuchs**<br>
 Diese Option betrifft nur bewertbare Kursbausteine.
-    * Dropdown zur Auswahl eines bewertbaren Kursbaustein
+    * Dropdown zur Auswahl eines bewertbaren Kursbausteins
     * x Tage, Wochen, Monate oder Jahre danach
 
 * **Versuche**<br>
@@ -243,7 +246,7 @@ Eine **Kopie an die Betreuer:innen und/oder Kursbesitzer:innen** informiert auch
 
 In manchen Fällen sollen Erinnerungen **ausschliesslich an Betreuer:innen** geschickt werden.<br>
 **Beispiel:**<br>
-Kursteilnehmer:innen zeigen keinen Fortschritt. Der/die Betreuer:in sollte dann Kontakt mit diesen Kursteilnehmer:innen aufnehmen und Hilfestellung leisten. Die Erinnerung dazu sollte nur an den/die Betreuer:in gehen. Sie könnten als Bedingungen z.B. eingeben, dass der Fortschritt noch unter x% ist und
+Kursteilnehmer:innen zeigen keinen Fortschritt. Der/die Betreuer:in sollte dann Kontakt mit diesen Kursteilnehmer:innen aufnehmen und Hilfestellung leisten. Die Erinnerung dazu sollte nur an den/die Betreuer:in gehen. Sie könnten als Bedingungen z.B. eingeben, dass der Fortschritt noch unter x% ist und gleichzeitig ein bestimmter Punktewert in einem Eingangstest nicht erreicht wurde.
 
 Ebenso können Erinnerungen auch **ausschliesslich an die Kursbesitzer:innen** versandt werden.<br>
 **Beispiel:**<br>
