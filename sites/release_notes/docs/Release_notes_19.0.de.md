@@ -275,7 +275,7 @@ Als Basis für KI-Funktionen wurde die OpenAI API integriert. Im ersten Ansatz i
 
 * Unterstützung Multi-File-Upload
 * Unterstützung von Desktop Drag & Drop events
-* * MS Teams: Migration der API von Beta auf Graph 1.0 inklusive Delegate Permissions; dadurch vereinfachte Konfiguration im Azure Portal (nur noch ein Login auf Azure für sämtliche Berechtigungen notwendig)
+* MS Teams: Migration der API von Beta auf Graph 1.0 inklusive Delegate Permissions; dadurch vereinfachte Konfiguration im Azure Portal (nur noch ein Login auf Azure für sämtliche Berechtigungen notwendig)
 * Update von PDFBox auf 3.0.1
 * Unsafe-Eval
 * Gatling Tests Update + Java Refactoring

@@ -32,7 +32,7 @@ You can use OpenOlat as a guest as well. The so-called guest access provides an 
 
 ## Browser Check {: #browsercheck}
 
-OpenOlat is optimized for the following browser software (mobile or desktop):
+OpenOlat works optimally with the following browsers in a current version (mobile or desktop):
 
 * [Apple Safari](https://www.apple.com/safari/)
 * [Firefox](https://www.mozilla.org/firefox/)

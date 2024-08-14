@@ -34,7 +34,7 @@ Alternativ können Sie OpenOlat auch als Gast besuchen. Der Gastzugang gewährt 
 
 ## Browser {: #browsercheck}
 
-OpenOlat funktioniert optimal, wenn Sie mit folgenden Browsern arbeiten (Mobile oder Desktop):
+OpenOlat funktioniert optimal mit den folgenden Browsern in einer aktuellen Version (mobil oder Desktop):
 
 * [Apple Safari](https://www.apple.com/safari/)
 * [Firefox](https://www.mozilla.org/firefox/)
@@ -53,4 +53,3 @@ Nach dem Login gelangen Sie entweder
 * auf eine Infoseite, eine Seite die in der Regel generelle Informationen zu verschiedenen Themen enthält, 
 * das [OpenOlat Portal](../basic_concepts/Portal_configuration.de.md) oder 
 * auf eine von Ihnen selbst festgelegte Startseite. 
-
