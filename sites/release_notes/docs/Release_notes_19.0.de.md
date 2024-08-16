@@ -262,16 +262,16 @@ Als Basis für KI-Funktionen wurde die OpenAI API integriert. Im ersten Ansatz i
 ## Weiteres, kurz notiert
 
 * Autorenbereich:
-  * Aktivierung von Filtern mit nur einer Option (z.B. Favoriten, Meine Ressourcen) per Direktklick
-  * Ergänzung des 'Kennzeichen'-Feldes bei Import einer externen Ressource via URL
+    * Aktivierung von Filtern mit nur einer Option (z.B. Favoriten, Meine Ressourcen) per Direktklick
+    * Ergänzung des 'Kennzeichen'-Feldes bei Import einer externen Ressource via URL
 * Kursbaustein 'Aufgabe': Aktualisieren der Frist für To-do bei Verlängerung
 * Kursbaustein 'Formular': Erweitertung des Exports um hochgeladene Dateien
 * Kurserinnerungen:
-  * Kursstatus als neue Bedingung
-  * Gezielter Versand an Betreuer:innen, Besitzer:innen oder Externe Personen anstelle der ursprünglichen Empfänger
+    * Kursstatus als neue Bedingung
+    * Gezielter Versand an Betreuer:innen, Besitzer:innen oder Externe Personen anstelle der ursprünglichen Empfänger
 * Projekttool:
-  * Optimierung der Timeline
-  * Harmonisierung des Dialogs für Einzel- und Massenaktion 'Löschen'
+    * Optimierung der Timeline
+    * Harmonisierung des Dialogs für Einzel- und Massenaktion 'Löschen'
 * Fragenpool: Ergänzung der Tabellenspalte 'Sprache'
 * Kontoverwaltung: Optimierte Handhabung des Kontoablauf- bzw. Inaktivierungsdatums sowie Harmonisierung der Label
 * Angabe Gültigkeitsdatum bei manuell oder per Rest API hinzugefügten Zertifikaten

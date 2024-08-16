@@ -262,16 +262,16 @@ The OpenAI API was integrated as the basis for AI functions. In the first approa
 ## Further, briefly noted
 
 * Authoring area:
-  * Activation of filters with only one option (e.g. Favourites, My resources) via direct click
-  * Addition of the ' Identifier' field when importing an external resource via URL
+    * Activation of filters with only one option (e.g. Favourites, My resources) via direct click
+    * Addition of the ' Identifier' field when importing an external resource via URL
 * Course element 'Task': Updating the deadline for to-do in case of extension
 * Course element 'Form': Extension of the export to include uploaded files
 * Course reminders:
-  * Course status as new condition
-  * Targeted sending to coaches, owners or external persons instead of the original recipients
+    * Course status as new condition
+    * Targeted sending to coaches, owners or external persons instead of the original recipients
 * Project tool:
-  * Optimisation of the timeline
-  * Harmonisation of the dialogue for individual and bulk action 'Delete'
+    * Optimisation of the timeline
+    * Harmonisation of the dialogue for individual and bulk action 'Delete'
 * Question pool: Addition of the 'Language' table column
 * Account management: Optimised handling of the account expiry or inactivation date as well as harmonisation of the labels
 * Specification of validity date for certificates added manually or via Rest API
