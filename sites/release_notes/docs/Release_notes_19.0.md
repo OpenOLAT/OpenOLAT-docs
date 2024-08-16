@@ -7,7 +7,7 @@
 
 * * *
 
-:material-calendar-month-outline: **Release date: 07/10/2024 • Last update: 07/23/2024**
+:material-calendar-month-outline: **Release date: 07/10/2024 • Last update: 08/15/2024**
 
 * * *
 
@@ -135,6 +135,10 @@ The course element provides a list of possible topics and projects with a detail
 
 ![Course element Topic broker](assets/190/Topic_broker_EN.png){ class="shadow lightbox" title="Course element Topic broker - Participants' view" }
 
+Optionally, participants are informed by e-mail about the final enrollment.
+
+The import function can be used to create several topics at once, while the 'Delete' bulk action removes unneeded topics in the GUI. For further processing, the Excel export provides an overview of all topics offered as well as the enrollments per topic.
+
 * * *
 
 ## Refresh 'Blog' and 'Podcast'
@@ -249,6 +253,10 @@ The OpenAI API was integrated as the basis for AI functions. In the first approa
 
 ![Optimised overview - Evidence of achievement](assets/190/Evidence_of_achievement_redesign_EN.png){ class="shadow lightbox" title="Optimised overview of evidence of achievement" }
 
+* Course element ‘Test’: Further information on the test start page on automatic test collection plus updating the test duration and availability in case of disadvantage compensation (:octicons-tag-24: release 19.0.3)
+* Learning path: Optimised configuration when the course is passed (:octicons-tag-24: from release 19.0.3)
+* Optimised and modernised look and feel of the comments component (:octicons-tag-24: from release 19.0.3)
+
 * * *
 
 ## Further, briefly noted
@@ -268,11 +276,15 @@ The OpenAI API was integrated as the basis for AI functions. In the first approa
 * Account management: Optimised handling of the account expiry or inactivation date as well as harmonisation of the labels
 * Specification of validity date for certificates added manually or via Rest API
 * Update of the configuration for audio/video recordings in the administration
+* Conventional course: Selection of whether all or only a certain number of course elements must be passed in order to pass the course (:octicons-tag-24: release 19.0.3)
+* Added course reference and Ext. ID in the Excel export of the certificate report (:octicons-tag-24: from release 19.0.3)
+* Addition of a placeholder in the multi-line and formatted RichText input field (:octicons-tag-24: release 19.0.3)
 
 * * *
 
 ## Administrative / Technical
 
+* Updating of third-party libraries
 * Support multi-file upload
 * Support for desktop drag & drop events
 * MS Teams: Migration of the API from beta to Graph 1.0 including delegate permissions; this simplifies configuration in the Azure portal (only one login to Azure required for all authorisations)
@@ -282,6 +294,7 @@ The OpenAI API was integrated as the basis for AI functions. In the first approa
 * New component for date selection: vanillajs-datepicker
 * Migration routine "Clean up course members" for old releases removed
 * End of live: Integration of content in course element 'External page' is no longer supported (only iFrame)
+* Safe Exam Browser integration (SEB): Refactoring of the JavaScript API (:octicons-tag-24: release 19.0.3)
 
 * * *
 
@@ -299,6 +312,7 @@ The OpenAI API was integrated as the basis for AI functions. In the first approa
 
 ## More information
 
+* [YouTrack Release notes 19.0.3](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2019.0.3&title=Release%20Notes%2019.0.3){:target="_blank”}
 * [YouTrack Release notes 19.0.2](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2019.0.2&title=Release%20Notes%2019.0.2){:target="_blank”}
 * [YouTrack Release notes 19.0.1](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2019.0.1&title=Release%20Notes%2019.0.1){:target="_blank”}
 * [YouTrack Release notes 19.0.0](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2019.0.0&title=Release%20Notes%2019.0.0){:target="_blank”}

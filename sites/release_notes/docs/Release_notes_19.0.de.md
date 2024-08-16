@@ -7,7 +7,7 @@
 
 * * *
 
-:material-calendar-month-outline: **Releasedatum: 10.07.2024 • Letztes Update: 23.07.2024**
+:material-calendar-month-outline: **Releasedatum: 10.07.2024 • Letztes Update: 15.08.2024**
 
 * * *
 
@@ -25,7 +25,7 @@ Zahlreiche Optimierungen rund um **Usability und User Experience** runden diesen
 
 ![Anzahl Features und Bugs in Release 19.0](assets/190/Features_Improvements_Labels_19.0_DE.png)
 
-Seit Release 18.2 wurden über 115 neue Funktionen und Verbesserungen zu OpenOlat hinzugefügt. Hier finden Sie die wichtigsten Neuerungen zusammengefasst. Zusätzlich wurden mehr als 125 Bugs behoben. Die komplette Liste der Änderungen in 18.2 – 18.2.12 finden Sie [hier](Release_notes_18.2.de.md){:target="_blank”}.
+Seit Release 18.2 wurden über 115 neue Funktionen und Verbesserungen zu OpenOlat hinzugefügt. Hier finden Sie die wichtigsten Neuerungen zusammengefasst. Zusätzlich wurden mehr als 125 Bugs behoben. Die komplette Liste der Änderungen in 18.2 – 18.2.13 finden Sie [hier](Release_notes_18.2.de.md){:target="_blank”}.
 
 * * *
 
@@ -131,9 +131,13 @@ Bisher war eine kriterienbasierte Bewertung über den Baustein 'Manuelle Bewertu
 
 Wer zuerst kommt, mahlt zuerst? Diese Problematik löst der neue Kursbaustein ['Themenbörse'](../manual_user/learningresources/Course_Element_Topic_Broker.de.md){:target="_blank”} mittels Stable matching Algorithmus, der eine faire Einschreibung der Teilnehmenden in angebotene Themen sicherstellt.
 
-Am Baustein ist eine Liste der möglichen Themen und Projekte mit entsprechender Detail-Beschreibung verfügbar. Die Teilnehmenden wählen und priosieren ihre gewünschten Themen. Im Auswahlprozess werden die jeweiligen Prioritätenwünsche der Teilnehmenden berücksichtig und die Zuweisung der Themen fixiert.
+Am Baustein ist eine Liste der möglichen Themen und Projekte mit entsprechender Detail-Beschreibung verfügbar. Die Teilnehmenden wählen und priosieren ihre gewünschten Themen. Im Auswahlprozess werden die jeweiligen Prioritätenwünsche der Teilnehmenden berücksichtigt und die Zuweisung der Themen fixiert.
 
 ![Kursbaustein Themenbörse](assets/190/Topic_broker_DE.png){ class="shadow lightbox" title="Kursbaustein Themenbörse - Sicht Teilnehmende" }
+
+Optional werden die Teilnehmenden per E-Mail über die finale Einschreibung informiert.
+
+Via Import-Funktion können mehrere Themen auf einmal erstellt werden, mit der Sammelaktion 'Löschen' werden überflüssige Themen im GUI wieder entfernt. Zur Weiterverarbeitung liefert der Excel-Export eine Übersicht aller angebotenen Themen sowie die Einschreibungen pro Thema.
 
 * * *
 
@@ -249,6 +253,10 @@ Als Basis für KI-Funktionen wurde die OpenAI API integriert. Im ersten Ansatz i
 
 ![Optimierte Übersicht - Leistungsnachweis](assets/190/Evidence_of_achievement_redesign_DE.png){ class="shadow lightbox" title="Optimierte Übersicht - Leistungsnachweis" }
 
+* Kursbaustein 'Test': Informationen auf der Test-Startseite zu automatischem Testeinzug sowie Aktualisierung der Testdauer und Verfügbarkeit bei Nachteilsausgleich (:octicons-tag-24: ab Release 19.0.3)
+* Lernpfad: Optimierte Konfiguration, wann der Kurs bestanden ist (:octicons-tag-24: ab Release 19.0.3)
+* Optimierte und modernisierte Gestaltung der Kommentar-Komponente (:octicons-tag-24: ab Release 19.0.3)
+
 * * *
 
 ## Weiteres, kurz notiert
@@ -268,11 +276,15 @@ Als Basis für KI-Funktionen wurde die OpenAI API integriert. Im ersten Ansatz i
 * Kontoverwaltung: Optimierte Handhabung des Kontoablauf- bzw. Inaktivierungsdatums sowie Harmonisierung der Label
 * Angabe Gültigkeitsdatum bei manuell oder per Rest API hinzugefügten Zertifikaten
 * Aktualisierung der Konfiguration für Audio-/Videorecordings in der Administration
+* Herkömmlicher Kurs: Auswahl, ob alle oder nur eine bestimmte Anzahl an Bausteinen bestanden werden müssen, um den Kurs zu bestehen (:octicons-tag-24: ab Release 19.0.3)
+* Ergänzung des Kurs-Kennzeichens sowie der Ext. ID im Excel-Export des Zertifikate-Reports (:octicons-tag-24: ab Release 19.0.3)
+* Ergänzung eines Platzhalters im mehrzeiligen und formatierten RichText-Eingabefeld (:octicons-tag-24: ab Release 19.0.3)
 
 * * *
 
 ## Administratives / Technisches
 
+* Aktualisierung der Bibliotheken von Drittanbietern
 * Unterstützung Multi-File-Upload
 * Unterstützung von Desktop Drag & Drop events
 * MS Teams: Migration der API von Beta auf Graph 1.0 inklusive Delegate Permissions; dadurch vereinfachte Konfiguration im Azure Portal (nur noch ein Login auf Azure für sämtliche Berechtigungen notwendig)
@@ -282,6 +294,7 @@ Als Basis für KI-Funktionen wurde die OpenAI API integriert. Im ersten Ansatz i
 * Neue Komponente zur Datumsauswahl: vanillajs-datepicker
 * Migrationsroutine "Kursmitglieder bereinigen" für alte Releases entfernt
 * End of live: Integration von Inhalten in Kursbaustein 'Externe Seite' wird nicht mehr unterstützt (nur noch iFrame)
+* Safe Exam Browser Integration (SEB): Refactoring der JavaScript API (:octicons-tag-24: ab Release 19.0.3)
 
 * * *
 
@@ -299,6 +312,7 @@ Als Basis für KI-Funktionen wurde die OpenAI API integriert. Im ersten Ansatz i
 
 ## Weitere Informationen
 
+* [YouTrack Release Notes 19.0.3](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2019.0.3&title=Release%20Notes%2019.0.3){:target="_blank”}
 * [YouTrack Release Notes 19.0.2](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2019.0.2&title=Release%20Notes%2019.0.2){:target="_blank”}
 * [YouTrack Release Notes 19.0.1](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2019.0.1&title=Release%20Notes%2019.0.1){:target="_blank”}
 * [YouTrack Release Notes 19.0.0](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2019.0.0&title=Release%20Notes%2019.0.0){:target="_blank”}
