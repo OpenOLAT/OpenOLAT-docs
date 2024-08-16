@@ -32,6 +32,8 @@ You can find out how to create forms and integrate them into courses [here](../f
 
 After you have added the course element Form to the course, the following tabs are available in the course editor:
 
+![Formular Tabs](assets/Formular_Tabs1.jpg){ class="shadow lightbox" }
+
 In the tab "Title and description" as well as "Layout" general descriptions and information about the respective course element can be stored and the visual presentation can be defined. In the [tab Learning path](../learningresources/Learning_path_course_Course_editor.md) special settings are defined which are valid for learning path courses. Conventional courses, on the other hand, have the Visibility and Access tabs. Here you define who can see or edit this course element.
 
 ### Tab "Form"

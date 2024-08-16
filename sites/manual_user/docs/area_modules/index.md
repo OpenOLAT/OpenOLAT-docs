@@ -13,7 +13,7 @@ Groups can be used for different purposes e.g. they simplify participant adminis
 ## Coaching (M)
 Tool for coaches to easily carry out cross-course assessments and actions.
 
-## Authoring area (M)i
+## Authoring area (M)
 Central area for OpenOlat authors. Here you can find everything needed to create new courses.
 
 ## Question pool (M)

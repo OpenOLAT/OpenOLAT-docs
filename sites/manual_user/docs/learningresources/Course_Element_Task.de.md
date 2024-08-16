@@ -37,7 +37,7 @@ Die Erstellung und Konfiguration einer Aufgabe erfolgt wie bei allen Kursbaustei
     * [Tab Erinnerungen & To-dos](#reminders)<br>Vorbereitung automatischer Erinnerungsmails und To-dos
 
 
-### Tab "Titel und Beschreibung“  {: #title}
+### Tab "Titel und Beschreibung"  {: #title}
 
 Die Angaben über den Kursbaustein entsprechen denen, wie sie in allen Kursbausteinen enthalten sind. 
 
@@ -45,7 +45,7 @@ Die Angaben über den Kursbaustein entsprechen denen, wie sie in allen Kursbaust
 [zum Seitenanfang ^](#course_element_task)
 
 
-### Tab "Layout“  {: #layout}
+### Tab "Layout"  {: #layout}
 
 Die Optionen zum Layout entsprechen denen, wie sie in allen Kursbausteinen enthalten sind. 
 
@@ -53,7 +53,7 @@ Die Optionen zum Layout entsprechen denen, wie sie in allen Kursbausteinen entha
 [zum Seitenanfang ^](#course_element_task)
 
 
-### Tab "Lernpfad“ {: #learningpath}
+### Tab "Lernpfad" {: #learningpath}
 
 !!! info "Herkömmliche Kurse"
 
@@ -218,7 +218,7 @@ Es folgt keine automatische Änderung. Der Teilnehmer erhält nun aber die Mögl
 
 
 
-### Tab "Abgabe“  {: #submission}
+### Tab "Abgabe"  {: #submission}
 
 Hier definieren Sie Art und Umfang der Einsendemöglichkeiten für die Teilnehmenden.
 
@@ -290,7 +290,7 @@ Damit neben Kursbesitzer:innen auch Betreuer:innen die automatische Reviewer-Zuw
 
 
 
-### Tab "Bewertung“  {: #grading}
+### Tab "Bewertung"  {: #grading}
 
 Hier definieren Sie _wie_ die Lernenden bewertet werden sollen. Soll es Punkte geben? Soll es ein bestanden/nicht bestanden für den Kursbaustein geben? Soll die Punktebewertung mit einer Bewertungsskala verbunden werden? Wenn ja, mit welcher? Sollen weitere individuelle Kommentare oder Dokumente bereitgestellt werden können? Entscheiden Sie jeweils was für Ihr Szenario passend ist.
 
@@ -329,7 +329,7 @@ Wenn Sie die erweiterte Konfiguration aufklappen stehen noch weitere Konfigurati
 
 
 
-### Tab "Musterlösung“ {: #sample}
+### Tab "Musterlösung" {: #sample}
 
 Um allen Kursteilnehmenden eine Musterlösung zu den gestellten Aufgaben anzubieten, erstellen Sie entweder die Musterlösung direkt mit dem internen Editor oder Sie nehmen ein Video mit Ihrer Webcam auf oder Sie laden Dateien mit den Musterlösungen hoch. 
 
@@ -368,7 +368,6 @@ Weitere Informationen zu diesem Tab, der in den meisten Assessment Kursbausteine
 
 [nach oben (Perspektive Autor:in) ^](#create_task)<br>
 [zum Seitenanfang ^](#course_element_task)
-
 
 
 ### Tab "Erinnerungen & To-dos"  {: #reminders}

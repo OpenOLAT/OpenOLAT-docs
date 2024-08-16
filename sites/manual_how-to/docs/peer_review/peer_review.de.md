@@ -108,7 +108,7 @@ Gesamtpunkte können kommen aus<br>
     Der Kursbaustein Aufgabe und das Peer-Review können in vielen, auch ungewöhnlichen Varianten konfiguriert werden. Insbesondere für Anfänger gibt es deshalb ein paar Stolpersteine.
     
     * Vermeiden Sie Peer-Reviews ohne Zeitangabe.
-    * Vermeiden Sie Peer-Reviews mit relativen Daten.
+    * Vermeiden Sie Peer-Reviews mit relativen Datumsangaben.
     * Zu beachten bei Peer-Review mit Gruppen und Gruppenbetreuer:innen:<br>
      Kursbetreuer:innen sehen nur Teilnehmer:innen der eigenen Gruppe. So kann es vorkommen, dass Kursbetreuer:innen zwar Punktevergaben sehen, aber nicht zuordnen können, woher sie kommen.
      

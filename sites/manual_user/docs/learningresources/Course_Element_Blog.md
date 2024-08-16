@@ -14,26 +14,50 @@ Specialty / Note |
 
 
 
-Via the "Blog" you can inform the participants of the course about current topics in the form of text, pictures or video. You can integrate external blogs as well as create and use a new OLAT learning resource "Blog". Course owners can, for example, maintain a blog more or less regularly in a blog and thus inform course participants about new current content on the event topic. Participants can then comment on these contributions and rate them with 1-5 stars. It is also possible to give course participants the right to write a blog, so that they can jointly run a course blog.
+Similar to the podcast, the blog also serves to provide the latest new content. In addition to text, posts can also include images or films and files can also be attached (uploaded) in comments.
 
-How to [create](../resource_blog/Four_Steps_to_Your_Blog.md) and [configure](../learningresources/Blog_Further_Configurations.md) a blog is explained on separate pages.
+As the course owner / coach of a course, you can, for example, inform the participants of your course about current topics in a blog. You can also keep a more or less regular content blog and thus inform course participants about new aspects of the course topic.
 
-Similar to the podcast, the blog also serves to make new content available. In addition to text, images or films can also be included in the contributions.
+## Course element and learning resource
 
-Every OpenOlat user is allowed to rate and comment blog entries with 1-5 stars. To post a comment or read existing comments, click on the "Comments" link. You will also see the reviews of the other blog readers.
+A blog learning resource must be integrated into each blog course element.
 
-You _can_ create blog entries only if the course owner has authorized you to do so. Click on "Create new entry" and compose the blog entry.
+Once the course element has been inserted, the **"Blog learning content"** tab can be used to
 
-## Create and edit blog entry
+* **1:** select an **already existing blog learning resource** from the authoring area.
+* **2:** create a **new blog learning resource** directly in the course element. (The blog learning resource will be stored in the authoring area. Then, it can also be used in other course elements.)
+* **3:** integrate an **external blog** as a learning resource **via URL**.
+* **4:** import a **blog, which is available as a file**.
 
-**Title:** Enter a title that describes the blog entry. This field is mandatory.
+![course_element_blog_content_v1_de.png](assets/course_element_blog_content_v1_de.png){ class="shadow lightbox" } 
 
-**Description:** The description is optional and is used as a preview of an item or entry. Thus, it can also be a short introduction or summary.
 
-**Publishing date and time:** The publishing date and time are used to make the entry visible to other users or to hide it. If the time of publication is in the past, the entry becomes visible. If, on the other hand, it is in the future, then it is a planned publication of the entry.
+!!! info "Note"
 
-You can make the entry available to others by clicking "Publish" (from the specified date). If you want to continue writing your entry at a later time, click Save Draft. "Cancel" discards your changes and closes the form window. Drafts appear with a yellow background in the list of entries. Planned publications are marked in green. All other entries are public and visible for others.
+    A blog learning resource can also be created in the authoring area under the "Create" button. If it is created in this way, it can then be integrated into a "Blog" course element in the course editor.<br><br>
+    ![course_element_blog_create_learningresource_v1_de.png](assets/course_element_blog_create_learningresource_v1_de.png){ class="shadow lightbox" }
 
-You can either publish the new entry directly, choose the date of publication or save the entry as a draft.
 
-Subscribe to the RSS feed of the blog to not miss any new entries.
+!!! hint "Hint"
+
+    Subscribe to the blog's RSS feed to make sure you don't miss any new entries. 
+    You can find instructions here (German): [Set up subscriptions (video instruction)](https://www.youtube.com/embed/h9gOqt7TR7Q)
+
+
+## Further information
+
+[Create blogs](../learningresources/Blog_Create.md)<br>
+[Step-by-step instructions: How do I create a blog?](../../manual_how-to/blog/blog.md)<br>
+[Configure blog](../learningresources/Blog_Configuration.md)<br>
+[Blogging](../learningresources/Blog_Blogging.md)<br>
+
+
+
+
+
+
+
+
+
+
+

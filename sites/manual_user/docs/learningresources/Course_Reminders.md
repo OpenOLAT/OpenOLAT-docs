@@ -1,10 +1,10 @@
 # Course Reminders
 
-With the reminder function, you create rule lists, upon fulfillment of which a previously defined mail is automatically sent to a user group of the course defined in the rules. Frequency and sending time is defined system-wide by your system administrator. Reminders can also be triggered specifically - but reminders will still only be sent to those users for whom all conditions are considered to be met.
+The reminder function organizes the automatic sending of e-mails.
 
-![Erinnerungen Aktionsmenü](assets/reminder_DE.png){ class="shadow" }
+![course_reminder_access_v1_de.png](assets/course_reminder_access_v1_de.png){ class="shadow lightbox" }
 
-On the overview page you can see all reminders that have already been created for a course and you can also view reminders that have already been sent.  The list of already sent reminders contains information about the recipient as well as the sending time. Individual reminders from this list can be easily sent using the "Resend" link.
+Additional to the course administration, 
 
 ## Create reminder
 

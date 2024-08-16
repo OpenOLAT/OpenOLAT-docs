@@ -16,7 +16,7 @@ Die Einstellungen zur Darstellung sind je nach Kurstyp in den Tabs "Sichtbarkeit
 
 Wurde noch keine Blog-Lernressource eingefügt, besteht die Auswahl zwischen
 
-* eine im Autorenberreich vorhandene Blog-Lernressource auswählen
+* eine im Autorenbereich vorhandene Blog-Lernressource auswählen
 * eine Blog-Lernressource neu erstellen
 * einen externen Blog verlinken
 * einen als Datei vorhandenen Blog importieren
@@ -88,7 +88,7 @@ Die Einstellungen zur Freigabe entsprechen denen anderer Lernressourcen:
 * sowie eine Freigabeübersicht (wer hat welche Rechte an dieser Lernressource)
 
 **Quota**<br>
-Hier können die Limiten gesetzt werden, welcher Speicherplatz maximal beanspruchen werden darf.
+Hier können die Limits gesetzt werden, welcher Speicherplatz maximal beanspruchen werden darf.
 
 **Optionen**<br>
 Sie können hier erlauben oder unterbinden, dass Blogbeiträge kommentiert und bewertet werden können.
