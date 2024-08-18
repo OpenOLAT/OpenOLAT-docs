@@ -39,6 +39,7 @@ Different **file formats** and **content elements** are stored in the media cent
 * audio files (mp3)
 * Office documents (docx, xlsx, pptx, ...)
 * texts
+* diagrams (draw.io)
 * video recordings via webcam
 * audio recordings
 * quotes
@@ -50,19 +51,17 @@ Different **file formats** and **content elements** are stored in the media cent
 
 # Add media to the Media center
 
-There are various ways to store media in the Media center:
-
-### Add directly in the Media Center
-
 ![My media center add media](assets/My_media_cemter_add_media_en.png){ class=" shadow lightbox" }
 
-**Upload or link existing media**
+There are various ways to store media in the Media center:
+
+### Upload or link existing media directly in the Media Center
 
 * **Add media file:** Upload images, videos, pdf, Excel, etc.
 * **Add video via URL**: Videos from external portals such as YouTube, Vimeo, Panopto or nanoo.tv can simply be added via a link.
 * **Add citation:**  Quotations from books, articles, websites, films, etc. can be stored in text form and provided with metadata such as source, author, URL, etc. This means that citations can be inserted in several places in OpenOlat without having to enter the entire source again and again. However, make sure that you enter all details carefully and comprehensively.
 
-**Create completely new media**
+### Create new media directly in the Media Center
 
 * **Create document:** Documents of integrated editors, e.g. Word, Excel, Powerpoint<br>
 * **Add text:** Text elements for use in the content editor, created with a simple HTML editor<br>
@@ -71,8 +70,7 @@ There are various ways to store media in the Media center:
 * **Record video:** Video recording function integrated in OpenOlat. If you click on "Record video", the recording function for the webcam is started directly, provided you allow access to the camera in the browser.
 * **Record Audio**:Audio recording function integrated in OpenOlat. If you click on "Record audio", the recording function is started, provided access has been permitted in the browser.
 
-
-### Create media form the content editor
+### Create new media beyond the Media Center in the Content Editor
 
 Media for the Media Center can also be created in the OpenOlat course or in the portfolio using the content editor. In the course, for example, this can be done via the course element ["Page"](../learningresources/Course_Element_Page.md). Go to edit mode and select "Add content". The option **"Select from my Media Center"** will then appear next to opther options.
 ![Medium auswählen aus dem Mediencenter1](assets/page_select_media_center_en.png){ class=" shadow lightbox" }
@@ -82,18 +80,19 @@ All the same options are available here as when creating directly in the Media C
 ![Medium auswählen aus dem Mediencenter2](assets/Medien_center_wahlen_en.jpg){ class=" shadow lightbox" }
 
 ### Collect content elements and link them to the Media Center
+
 In addition to creating or uploading media in the Media Center, media can also be _collected_ in other places in OpenOlat and linked to the Media Center by clicking on the puzzle piece.
 
 The elements include:
 
-1. forum posts
-2. blog entries
-3. wiki pages
-4. evidences of achievement from courses
+* forum posts
+* blog entries
+* wiki pages
+* evidences of achievement from courses
 
 For example, to add a post, open your forum post and click on the puzzle piece.
 
-![forumseintrag.png](assets/artefact_DE.png)
+![forumseintrag.png](assets/Puzzle_Sammlung.jpg){ class=" shadow lightbox" }
 
 A page will then appear where you can enter the title, tags and a description for the post content. After saving, the post will be displayed in your Media Center.
 
@@ -125,7 +124,7 @@ Each media element includes the following tabs:
 * **Overview:** Central details, activity log, editing option, versioning, file replacement
 * **Metadata:** Description, License, Tags, Department
 * **Uses:** This shows where the element is used
-* **Shares:** Here you can define who a content element is shared with. Participants can only define groups. Authors have more options and can specify specific OpenOlat users, groups or courses.
+* **Shares:** Here you can define who a content element is shared with. Participants can only define groups. Authors have more options and can specify specific OpenOlat users, groups or courses. Sharing also allows files to be used collaboratively if editing is permitted. 
 
 In addition, individual media can also be downloaded or deleted via the 3-dot menu.
 
@@ -137,7 +136,7 @@ In addition, individual media can also be downloaded or deleted via the 3-dot me
 
 ### Delete media
 
-If you select at least one list entry at the beginning of a line, the "Delete" button appears above the list, which can be used to delete several files and content elements in the Media Center at once.
+If you select at least one list entry at the beginning of a line in the table view, the "Delete" button appears above the list, which can be used to delete several files and content elements in the Media Center at once.
 ![media_center_delete_v1_de.png](assets/media_center_delete_v1_de.png){ class=" shadow lightbox" }
 
 You can also delete individual files in the 3-dot menu if you have clicked on an individual medium and the information and descriptions are displayed. (Same menu as for downloading.)
@@ -157,7 +156,7 @@ Generally, authors have higher storage requirements, so the quota settings are m
 
 ## Use media
 
-And how can the media in the Media Center be reused? The media contained in the Media Center can be inserted into course elements in the **Content Editor**, for example in the course element ["Page"](../learningresources/Course_Element_Page.md) or in the [Portfolio](../area_modules/Portfolio.md).
+And how can the media in the Media Center be reused? The media contained in the Media Center can be inserted into course elements in the Content Editor, for example in the course element ["Page"](../learningresources/Course_Element_Page.md) or in the [Portfolio](../area_modules/Portfolio.md).
 
 ![media_center_page_v1_de.png](assets/media_center_page_v1_de.png){ class=" shadow lightbox" }
 

@@ -39,6 +39,7 @@ Im Medien Center können vielfältige **Dateiformate** und **Inhaltselemente** a
 * Audio-Dateien (mp3)
 * Office-Dokumente (docx, xlsx, pptx, ...)
 * Textelemente
+* Diagramme (draw.io)
 * eigene Video-Recordings per Webcam
 * Audio-Recordings
 * Zitate
@@ -49,19 +50,17 @@ Im Medien Center können vielfältige **Dateiformate** und **Inhaltselemente** a
 
 ## Medien dem Medien Center hinzufügen
 
- Um Medien im Medien Center zu hinterlegen gibt es verschiedene Wege: 
+![media_center_upload_v1_de.png](assets/Medien-Center_hinzufuegen.jpg){ class=" shadow lightbox" } 
 
-### Medien direkt im Medien Center hinzufügen
+Um Medien im Medien Center zu hinterlegen gibt es verschiedene Wege: 
 
-![media_center_upload_v1_de.png](assets/Medien-Center_hinzufuegen.jpg){ class=" shadow lightbox" }
-
-**Existierende Medien hochladen bzw. verlinken**
+### Existierende Medien direkt im Medien Center hochladen bzw. verlinken
 
 * **Mediendateien hinzufügen:** Bilder, Videos, pdf, Excel, usw. hochladen
 * **Video per URL hinzufügen**: Videos aus externen Portalen wie YouTube, Vimeo, Panopto oder nanoo.tv können einfach per Link hinzugefügt werden. 
 * **Zitat hinzufügen:** Hier können Zitate aus Büchern, Artikeln, Webseiten, Filmen u.ä. in Textform hinterlegt und mit Metadaten wie Quelle, Autor, URL usw. versehen werden. So können Zitate an mehreren Stellen in OpenOlat eingefügt werden, ohne immer wieder die gesamte Quelle eintragen zu müssen. Achten Sie aber darauf, alle Angaben sorgfältig und umfassend vorzunehmen.
 
-**Komplett neue Medien erstellen**
+### Neue Medien direkt im Medien Center erstellen
 
 * **Dokument erstellen:** Dokumente integrierter Editoren, z.B. Word, Excel, PowerPoint
 * **draw.io Diagramm erstellen**: Erstellt ein Diagramm, Flowchart bzw. eine Zeichnung mit dem Tool draw.io, ab :octicons-tag-24: Release 18.1. 
@@ -69,11 +68,10 @@ Im Medien Center können vielfältige **Dateiformate** und **Inhaltselemente** a
 * **Video aufzeichnen:** In OpenOlat integrierte Video-Recording-Funktion. Klickt man auf "Video aufzeichnen" wird direkt die Aufnahmefunktion für die Webcam gestartet, sofern man im Browser den Zugriff auf die Kamera erlaubt.
 * **Audio aufzeichnen:** In OpenOlat integrierte Audio-Recording-Funktion. Klickt man auf "Audio aufzeichnen" wird die Aufnahmefunktion gestartet, sofern im Browser der Zugriff erlaubt wurde.
 
+### Neue Medien jenseits des Medien Centers im Content Editor erstellen
 
-### Medien ausgehend vom Content Editor erstellen
-
-Medien für das Medien Center können auch im OpenOlat Kurs oder im Portfolio per Content Editor angelegt werden. Im Kurs geht das z.B. über den Kursbaustein ["Seite"](../learningresources/Course_Element_Page.de.md). Gehen Sie in den Bearbeitungsmodus und wählen Sie "Inhalt hinzufügen" aus. Anschliessend erscheint die Option **"Aus meinem Medien Center wählen"**.
-![Medium auswählen aus dem Mediencenter1](assets/Aus_Mediencenter_waehlen.png){ class=" shadow lightbox" }
+Medien für das Medien Center können auch im OpenOlat Kurs oder im Portfolio per [Content Editor](../basic_concepts/Content_Editor.de.md) angelegt werden. Im Kurs geht das z.B. über den Kursbaustein ["Seite"](../learningresources/Course_Element_Page.de.md). Gehen Sie in den Bearbeitungsmodus und wählen Sie "Inhalt hinzufügen" aus. Anschliessend erscheint die Option **"Aus meinem Medien Center wählen"**.
+![Medium auswählen aus dem Mediencenter1](assets/Inhalt_hinzufeugen_m1.jpg){ class=" shadow lightbox" }
 
  Hier stehen dann alle Möglichkeiten wie beim direkten Erstellen im Medien Center zur Verfügung.
 
@@ -92,7 +90,7 @@ Zu den Elementen gehören:
 
 Um z.B. ein Posting hinzuzufügen, öffnen Sie Ihren Forumsbeitrag und klicken auf das Puzzleteil. 
 
-![forumseintrag.png](assets/artefact_DE.png)
+![forumseintrag sammeln](assets/Puzzle_Sammlung.jpg){ class=" shadow lightbox" }
 
 Es erscheint eine Seite, auf der Sie wie üblich Metadaten hinterlegen und alles speichern können. Anschliessend ist der Beitrag in Ihrem Medien Center verlinkt verfügbar.
 
@@ -113,7 +111,7 @@ Folgende Informationen können einem Medienelement hinzugefügt werden:
 * Lizenzangabe
 * "Alt-Text" bei draw.io Dateien oder Grafiken, besonders relevant für Screenreader
 
-Je nach Art der Medientyps variieren die Informationen und Möglichkeiten der Metadaten. Alle Informationen können später problemlos in den entsprechenden Tabs geändert werden.  
+Je nach Art des Medientyps variieren die Informationen und Möglichkeiten der Metadaten. Alle Informationen können später problemlos in den entsprechenden Tabs geändert werden.  
 
 ### Medien Informationen verwalten 
 
@@ -124,8 +122,7 @@ Jedes Medienelement umfasst folgende Tabs:
 * **Übersicht:** mit zentralen Details, Aktivitätslog, Bearbeitungsmöglichkeit, Versionierung, Möglichkeit die Datei zu ersetzen
 * **Metadaten:** Infos zu Beschreibung, Lizenz, Tags, Fachbereich u.ä. 
 * **Verwendungen:** Hier wird angezeigt wo das Element verwendet wird. 
-* **Freigaben:** Hier kann festgelegt werden, für wen ein Inhaltselement freigegeben wird. Teilnehmende können nur Gruppen definieren. Autoren haben mehr Möglichkeiten und können spezifische OpenOlat Benutzer, Gruppen, oder Kurse angeben.  
-
+* **Freigaben:** Hier kann festgelegt werden, für wen ein Inhaltselement freigegeben wird. Teilnehmende können nur Gruppen definieren. Autoren haben mehr Möglichkeiten und können spezifische OpenOlat Benutzer, Gruppen, oder Kurse angeben. Durch die Freigabe können Dateien auch kollaborativ genutzt werden, wenn die Bearbeitung erlaubt wird.
 Darüber hinaus können über das 3Punkte-Menü auch einzelne Medien heruntergeladen oder gelöscht werden. 
 
 ![media_center_download_v1_de.png](assets/media_center_download_v1_de.png){ class=" shadow lightbox" }
@@ -136,7 +133,7 @@ Darüber hinaus können über das 3Punkte-Menü auch einzelne Medien heruntergel
 
 ### Medien löschen
 
-Selektieren Sie am Beginn einer Zeile mindestens einen Listeneintrag, erscheint über der Liste der Button "Löschen", mit dem sich mehrere Elemente auf einmal löschen lassen. 
+Selektieren Sie in der Tabellenansicht am Beginn einer Zeile mindestens einen Listeneintrag, erscheint über der Liste der Button "Löschen", mit dem sich mehrere Elemente auf einmal löschen lassen. 
 
 ![media_center_delete_v1_de.png](assets/media_center_delete_v1_de.png){ class=" shadow lightbox" }
 
@@ -157,7 +154,7 @@ In der Regel haben Autor:innen einen höheren Speicherplatzbedarf, daher werden 
 
 ## Medien verwenden
 
-Und wie können die Medien, die sich im Medien Center befinden weiterverwendet werden? Die Dateien, Dokumente und Sammlungen können z.B. im **Content Editor** im Kursbaustein ["Seite"](../learningresources/Course_Element_Page.de.md) oder im [Portfolio](../area_modules/Portfolio.de.md) verwendet werden. 
+Und wie können die Medien, die sich im Medien Center befinden weiterverwendet werden? Die Dateien, Dokumente und Sammlungen können z.B. im Content Editor im Kursbaustein ["Seite"](../learningresources/Course_Element_Page.de.md) oder im [Portfolio](../area_modules/Portfolio.de.md) verwendet werden. 
 
 ![media_center_page_v1_de.png](assets/media_center_page_v1_de.png){ class=" shadow lightbox" }
 
