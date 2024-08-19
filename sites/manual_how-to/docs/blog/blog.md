@@ -148,7 +148,7 @@ The blog is now integrated and course participants can read the posts.
 
 In addition to OpenOlat blogs, external blogs from the Internet can also be integrated into a course. For this, the RSS feed of the desired external blog is required.
 
-Instead of clicking on the "Create your own entries" button, click on the **"Embed an already existing external blog "** button and insert the RSS feed link in the dialog that appears.
+Instead of clicking on the "Create your own entries" button, click on the **"Embed an already existing external blog"** button and insert the RSS feed link in the dialog that appears.
 
 Afterwards, the content of the external blog will be displayed directly in the OpenOlat course and can be star rated and also commented on. These comments are only visible within the course, not publicly on the Internet.
   

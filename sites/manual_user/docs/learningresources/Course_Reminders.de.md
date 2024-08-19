@@ -61,6 +61,7 @@ Wählen Sie, in welchem Status sich der Kurs befinden muss, damit eine Erinnerun
     * Nicht Review
     * Nicht Freigabe Betreuer:innen
     * Nicht Veröffentlicht
+  
 _Beispiel_: Nur wenn der Kurs den Status "Freigabe Betreuer:innen" hat, erhalten alle Betreuer:innen eine Info-Mail über ihre Betreuungsaufgabe.
 
 
@@ -82,7 +83,7 @@ Siehe Hinweis zu Operatoren
 * **Fortschritt**<br>
 Nur bei [Lernpfad Kursen](../learningresources/Learning_path_course.de.md).
 Hier erfolgt der Versand basierend auf dem prozentualen Kursfortschritt der Teilnehmenden, wie er in den Einstellungen der Administration konfiguriert wurde.<br>
-_Beispiel_ : Benutzer die mindestens 80% eines Kurses erfolgreich abgeschlossen haben.<br>
+_Beispiel_: Benutzer die mindestens 80% eines Kurses erfolgreich abgeschlossen haben.<br>
 Siehe Hinweis zu Operatoren
 
 * **Ausstellungsdatum Zertifikat**<br>
@@ -127,7 +128,7 @@ Die Erinnerungsempfänger:innen müssen einen bestimmten Wert zu einem der folge
 ---
 
 * **Bis Datum**<br>
-Eingabefelder für Datum und Uhrzeit, als Eingabhilfe Button zur Anzeige des Kalenders
+Eingabefelder für Datum und Uhrzeit, als Eingabehilfe Button zur Anzeige des Kalenders
 
 * **Nach Datum**<br>
 Eingabefelder für Datum und Uhrzeit, als Eingabhilfe Button zur Anzeige des Kalenders

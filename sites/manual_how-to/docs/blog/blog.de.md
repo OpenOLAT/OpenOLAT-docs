@@ -51,7 +51,7 @@ e) Vergeben Sie nun noch einen passenden **Titel** im Tab "Titel und Beschreibun
 
 ## Schritt 2: Blog (Lernressource) erstellen  
 
-a) Gehen Sie in den <b>Tab „Blog-Lerninhalt“</b> und klicken Sie auf "Blog wählen, erstellen oder importieren".
+a) Gehen Sie in den <b>Tab "Blog-Lerninhalt"</b> und klicken Sie auf "Blog wählen, erstellen oder importieren".
 
 ![blog_lerninhalt_v1_de.png](assets/blog_lerninhalt_v1_de.png){ class="shadow lightbox" }  
 
@@ -130,7 +130,7 @@ Kursrun (veröffentlichter Kurs) hinzugefügt werden.
 
 !!! info "Hinweis"
 
-    **Teilnehmer und Betreuer** erstellen ihre Beiträge bei geschlossenem Editor im Kursrun. (Kursrun = Modus „aktiver Kurs“, im Unterschied zum Kurs, der im Editor geöffnet ist) <br>**Besitzer** können neue Einträge auch im Kurseditor hinzufügen.
+    **Teilnehmer und Betreuer** erstellen ihre Beiträge bei geschlossenem Editor im Kursrun. (Kursrun = Modus "aktiver Kurs", im Unterschied zum Kurs, der im Editor geöffnet ist) <br>**Besitzer** können neue Einträge auch im Kurseditor hinzufügen.
 
 [zum Seitenanfang ^](#how_do_i_create_a_blog)
 

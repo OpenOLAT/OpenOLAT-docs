@@ -39,7 +39,7 @@ Mit dem Toggle-Button darüber können Sie sich zusätzlich eine Zeitleiste und 
 
 !!! info "Voraussetzung"
 
-    Damit Sie als Kursteilnehmer:in oder Betreuer:in nicht nur kommentieren und bewerten, sondern auch eigene Beiträge schreiben können, muss dies von dem/der Kursbesitzer:in entsprechend erlaubt worden sein. (Siehe [Blog konfigurieren)](../learningresources/Blog_Configuration.de.md))<br>
+    Damit Sie als Kursteilnehmer:in oder Betreuer:in nicht nur kommentieren und bewerten, sondern auch eigene Beiträge schreiben können, muss dies von dem/der Kursbesitzer:in entsprechend erlaubt worden sein. (Siehe [Blog konfigurieren](../learningresources/Blog_Configuration.de.md))<br>
     Beachten Sie ausserdem, dass per Link eingefügte **externe** Blogs nicht bearbeitet werden können.
 
 Fügen Sie einen eigenen Beitrag hinzu, indem Sie den Button "Eintrag hinzufügen" verwenden.<br>
@@ -96,7 +96,7 @@ Im Normalzustand sehen Sie die Bewertungen der anderen Blogleser:innen angezeigt
 
 Unter dem Moderieren eines Blogs versteht man das Lenken oder ein lenkendes Eingreifen in eine Kommunikation. In einem Blog heisst das, dass eine Person überprüft, ob die Beiträge angemessen sind oder korrigiert, bzw. eventuell sogar gelöscht werden müssen. Moderator:innen eines OpenOlat-Blogs haben die Rechte alle Einträge zu lesen, zu kommentieren, zu editieren, zu löschen und neue Einträge zu erstellen. Zudem können Moderator:innen auch den Titel und die Beschreibung des ganzen Feeds anpassen.
 
-Die Aufgabe des/der Moderator:in kann auf jeden Fall von Kursbesitzer:innen übernommen werden. Das Moderatorenrecht kann aber auch an Betreuer:innen oder gezielt bestimmte Personen vergeben werden. (Siehe [Blog konfigurieren)](../learningresources/Blog_Configuration.de.md))
+Die Aufgabe des/der Moderator:in kann auf jeden Fall von Kursbesitzer:innen übernommen werden. Das Moderatorenrecht kann aber auch an Betreuer:innen oder gezielt bestimmte Personen vergeben werden. (Siehe [Blog konfigurieren](../learningresources/Blog_Configuration.de.md))
 
 [zum Seitenanfang ^](#blog_blogging)
 
