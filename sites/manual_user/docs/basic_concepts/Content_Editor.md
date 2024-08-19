@@ -175,13 +175,13 @@ All images available in the Media Center can be integrated. New images can be up
 
 Several images can be scrolled through in a gallery element (slideshow), displayed in a grid (columns and rows definable by author) or displayed with preview (1 image large, the remaining images as reduced preview images). The appearance of the gallery can be varied in the inspector. The images come from the Media Center. 
 
-![content_editor_content_galerie_v1_de.png](assets/content_editor_content_galerie_v1_de.png){ class="shadow lightbox" }
+![content_editor_content_galerie_v2_de.png](assets/content_editor_content_galerie_v2_de.png){ class="shadow lightbox" }
 
 <h3>Image comparison</h3>
 
 Two superimposed images can be cross-faded using a slider.
 
-![content_editor_content_compare_images_v1_de.png](assets/content_editor_content_compare_images_v1_de.png){ class="shadow lightbox" }
+![content_editor_content_compare_images_v2_de.png](assets/content_editor_content_compare_images_v2_de.png){ class="shadow lightbox" }
 
 <h3>Separator</h3>
 
@@ -231,9 +231,15 @@ Existing diagrams can be loaded from the Media Center or new diagrams can be cre
 
 <h3>Quiz</h3>
 
-As shown above, different question types can be inserted into forms. Quiz questions are also available in the course element “Page” from release 19.0. A quiz (package of one or more questions) can be inserted into the page as a block. Several detailed feedbacks can be added to each question (including pictures and videos). As a content block on a course element “Page”, quizzes are intended to provide a variety of content and therefore no points are awarded to the course (not an assessable course element). For evaluable quiz questions, use the course element “Test” or “Self-test”. 
+As shown above, different question types can be inserted into forms. Quiz questions are also available in the course element “Page” from release 19.0.
 
-![content_editor_content_quiz_v1_de.png](assets/content_editor_content_quiz_v1_de.png){ class="shadow lightbox" }
+Authors can create questions directly or choose already available questions from the question pool.
+
+A quiz (package of one or more questions) can be inserted into the page as a block. Several detailed feedbacks can be added to each question (including pictures and videos). 
+
+As a content block on a course element “Page”, quizzes are intended to provide a variety of content and therefore no points are awarded to the course (not an assessable course element). For evaluable quiz questions, use the course element “Test” or “Self-test”. 
+
+![content_editor_content_quiz_v2_de.png](assets/content_editor_content_quiz_v2_de.png){ class="shadow lightbox" }
 
 <h3>Choose from my media center</h3>
 

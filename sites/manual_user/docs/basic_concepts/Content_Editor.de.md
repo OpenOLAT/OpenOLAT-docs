@@ -188,13 +188,13 @@ Es können alle im Medien Center verfügbaren Bilder eingebunden werden. Neue Bi
 
 Mehrere Bilder können in einem Galerie-Element durchgeblättert werden (Slideshow), in einem Raster dargestellt werden (Spalten und Zeilen von Autor:innen definierbar) oder mit Vorschau dargestellt werden (1 Bild gross, die übrigen Bilder als verkleinerte Vorschaubilder). Im Inspektor kann das Erscheinungsbild der Galerie variiert werden. Die Bilder entstammen dem Medien Center. 
 
-![content_editor_content_galerie_v1_de.png](assets/content_editor_content_galerie_v1_de.png){ class="shadow lightbox" }
+![content_editor_content_galerie_v2_de.png](assets/content_editor_content_galerie_v2_de.png){ class="shadow lightbox" }
 
 <h3>Bildervergleich</h3>
 
 Zwei übereinander liegende Bilder können durch einen Schieberegler überblendet werden.
 
-![content_editor_content_compare_images_v1_de.png](assets/content_editor_content_compare_images_v1_de.png){ class="shadow lightbox" }
+![content_editor_content_compare_images_v2_de.png](assets/content_editor_content_compare_images_v2_de.png){ class="shadow lightbox" }
 
 
 <h3>Audio</h3>
@@ -231,12 +231,12 @@ Das Inhaltselement steht in der Lernressource Formular nicht zur Verfügung.
 
 <h3>Quiz</h3>
 
-Im Kursbaustein Seite gibt es im Content Editor auch die Möglichkeit neben Inhalten und Informationen auch Quizfragen in die Seite einzubauen. Es können neue automatisch auswertbare Quizfragen erstellt oder Fragen aus dem Fragenpool hinzugefügt werden.  Zu jeder Frage können auch mehrere ausführliche Feedbacks hinzugefügt werden (inkl. Bildern und Videos). 
+Im Kursbaustein Seite gibt es im Content Editor auch die Möglichkeit neben Inhalten und Informationen auch Quizfragen in die Seite einzubauen. Es können neue automatisch auswertbare Quizfragen erstellt oder Fragen aus dem Fragenpool hinzugefügt werden. Zu jeder Frage können auch mehrere ausführliche Feedbacks hinzugefügt werden (inkl. Bildern und Videos). 
 
 Diese kleinen Quizfragen sollen die Auseinanderserzung mit den Inhalten unterstützen. Es werden jedoch keine Punkte vergeben. 
 Für auswertbare Quizfragen verwenden Sie den Kursbaustein "Test" oder "Selbsttest".
 
-![content_editor_content_quiz_v1_de.png](assets/content_editor_content_quiz_v1_de.png){ class="shadow lightbox" }
+![content_editor_content_quiz_v2_de.png](assets/content_editor_content_quiz_v2_de.png){ class="shadow lightbox" }
 
 ### Andere & Design 
 
