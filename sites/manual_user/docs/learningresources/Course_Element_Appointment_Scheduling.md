@@ -24,7 +24,7 @@ Via the button "**Add appointment**" you can also add further appointments to th
 
 ![add_appointment.png](assets/Termin_hinzufuegen.jpg)
 
-## Configure accasion 
+## Configure occasion 
 
 An "event" is a set of several dates that can be selected.
 
