@@ -4,28 +4,28 @@ User managers and administrators can find in their top main menu the option "**U
 
 ![user_management_v1_de.png](assets/user_management_v1_de.png){ class="shadow lightbox }
 
-They have the right ...
+They have the right to...
 
-  * to search for existing users and request information<br>
-  [See details >](Search_Users.de.md)
+  * search for existing users and request information<br>
+  [See details >](Search_Users.md)
 
-  * to create new user accounts<br>
-  [See details >](Create_User.de.md)
+  * create new user accounts<br>
+  [See details >](Create_User.md)
 
-  * to assign different roles to users<br>
-  [See details >](Assign_roles.de.md)
+  * assign different roles to users<br>
+  [See details >](Assign_roles.md)
 
-  * to configure user accounts<br>
-  [See details >](Configure_User.de.md)
+  * configure user accounts<br>
+  [See details >](Configure_User.md)
 
-  * to import new users<br>
-  [See details >](Search_Users.de.md)
+  * import new users<br>
+  [See details >](Search_Users.md)
 
-  * to delete user accounts (administrators only)<br>
-  [See details >](Search_Users.de.md)
+  * delete user accounts (administrators only)<br>
+  [See details >](Search_Users.md)
 
-  * to delete or export user data in accordance with data protection regulations<br>
-  [See details >](Data_protection.de.md)
+  * delete or export user data in accordance with data protection regulations<br>
+  [See details >](Data_protection.md)
 
 
 

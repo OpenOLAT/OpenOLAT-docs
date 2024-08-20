@@ -2,7 +2,7 @@
 
 ![pers_menu_tools_v1_de.png](assets/pers_menu_tools_v1_de.png){ class="aside-right shadow lightbox"}
 
-You can find the personal Tools as a section in the [Personal Menu](index.md)
+You can find the personal Tools as a section in the [Personal Menu](index.md).
 
 Which tools are offered to you here is determined on the one hand by the default settings/activation in the system administration. On the other hand, you can decide whether the tools should appear in the [personal menu](index.md) or in the quick access in the header.
 
@@ -65,6 +65,8 @@ Find out [more >](Notes.md)
 
 A certificate of achievement is a confirmation of a completed performance assessment and shows, for example, completed tests or submitted and assessed tasks. Course authors specify in their courses whether OpenOlat should create certificates of achievement. Course participants see their transcripts of records if they are attending courses with transcripts of records, have already performed and have been assessed. 
 
+Certificates are a special form of proof of performance.
+
 Find out [more >](Evidence_of_Achievements.md)
 
 ## Competences
@@ -81,7 +83,7 @@ Find out [more >](OpenBadges.md)
 
 ## Bookings
 
-All of the user's course bookings are listed here, including further booking information.
+All of the users course bookings are listed here, including further booking information.
 
 Find out [more >](Bookings.md)
 

@@ -13,7 +13,7 @@ Ab Release 19 steht in OpenOlat ein File Hub als **globaler Dateibrowser** zur V
 
 * **Multi-File-Upload** per drag & drop
 * Werden im File Hub Dateien an einen anderen Ort übernommen, werden sie jeweils **kopiert**. <br>
-(Im Unterschied zum [Medien Center](../personal_menu/Media_Center.de.md), dort sollen z.B. Logos, AGBs u.ä. zentral verwaltet, upgedated und allen Autor:innen zur Verfügung gestellt werden. Deshalb werden dort die Dateien verlinkt.)
+(Im Unterschied zum [Medien Center](../personal_menu/Media_Center.de.md), dort sollen z.B. Logos, AGBs u.ä. zentral verwaltet, geupdated und allen Autor:innen zur Verfügung gestellt werden. Deshalb werden dort die Dateien verlinkt.)
 * Es werden nur Ordner im File Hub angezeigt, auf die die aktuell eingeloggte Person **Zugriffsberechtigungen** hat.
 
 
@@ -97,7 +97,7 @@ Es werden im File Hub nur Ordner angezeigt, auf die die eingeloggte Person auch 
 
 ### Medien Center
 
-Im [Medien Center](../personal_menu/Media_Center.de.md) als ebenfalls personalisierter Sammlung, sind **Mediendateien** (z.B. mp4) und **Inhaltselemente** (z.B. mit dem Content Editor erstellte Elemente des Kursbausteins „Seite“) abgelegt. 
+Im [Medien Center](../personal_menu/Media_Center.de.md) als ebenfalls personalisierter Sammlung, sind **Mediendateien** (z.B. mp4) und **Inhaltselemente** (z.B. mit dem Content Editor erstellte Elemente des Kursbausteins "Seite") abgelegt. 
 
 
 
@@ -124,7 +124,7 @@ Beispiel Ablageordner<br>
 Im Ablageordner eines Kurses werden Dateien aus den Kursbausteinen des Kurses abgelegt. Die Menü-Option "Ablageordner" in der Kursadministration wird standardmässig nur den Kursbesitzer:innen angezeigt, die als Autor:innen den Kurs beasrbeiten können. Entsprechend werden im File Hub auch nur Ablageordner angzeigt, bei denen man selbst Kursbesitzer:in ist oder die von anderen Kursbesitzer:innen in den Kurseinstellungen freigegeben wurden.
 
 Beispiel Sharepoint<br>
-Die Zugrifsmöglichkeit auf externe Werkzeuge, wie z.B. Microsoft Sharepoint, muss von Administrator:innen eingerichtet werden unter **Administration > Externe Werkzeuge > Microsoft Sharepoint**.
+Die Zugriffsmöglichkeit auf externe Werkzeuge, wie z.B. Microsoft Sharepoint, muss von Administrator:innen eingerichtet werden unter **Administration > Externe Werkzeuge > Microsoft Sharepoint**.
 
 
 ## Weitere Informationen

@@ -14,7 +14,7 @@ Benutzerverwalter:innen und Administrator:innen können auf unterschiedliche Wei
 
 ## Eingabe von Kriterien im Suchformular {: #search_user_form}
 
-Geben Sie Ihre relevanten Suchkriterien ein und bestätigen Sie mit der "Return"-Taste oder duruch Klick auf den Button "Suchen".
+Geben Sie Ihre relevanten Suchkriterien ein und bestätigen Sie mit der "Return"-Taste oder durch Klick auf den Button "Suchen".
 
 ![user_management_search_form_v1_de.png](assets/user_management_search_form_v1_de.png){ class="shadow lightbox" }
 
@@ -29,7 +29,7 @@ Wählen Sie links im Menü eines der relevanten Suchkriterien und nehmen Sie ein
 
 ### Organisationen
 
-Verwendet eine OpenOlat Instanz mehrere "Organisationen" können die Benutzer hier entsprechend sortiert dargestellt werden.
+Verwendet eine OpenOlat Instanz mehrere "Organisationen", können die Benutzer hier entsprechend sortiert dargestellt werden.
 
 ### Organisationsrollen
 

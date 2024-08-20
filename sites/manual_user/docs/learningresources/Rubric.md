@@ -59,9 +59,9 @@ Rubrics can be added to an OpenOlat form via "Add content" and then configured.
 
 A rubric always consists of rows and columns that must be labeled and defined in a meaningful way.
 
-In the "Column label" area, enter a meaningful rating scale, e.g. very good, good, medium, bad, very bad.  Each column is always associated with a certain value, which can be specified more concretely in the advanced settings of the rubric inspector.
+In the "Column label" area, enter a meaningful _rating scale_ for each column, e.g. very good, good, medium, bad, very bad.  Each column is always associated with a certain value, which can be specified more concretely in the advanced settings of the rubric inspector.
 
-Enter individual criteria, statements or questions in the row area that match your scale. Additional lines are added via "Add question". 
+Enter individual (assessment) criteria, statements or questions in the rows. Additional lines are added via "Add question". 
 You can also format the short statements. Individual lines can be moved using the up/down double arrows. In addition, you can assign a weighting to each line and thus assign special importance to individual criteria, which is also reflected in the points awarded, e.g. by double or triple points. 
 It is also possible to set the value to 0 to exclude individual questions from the reports.
 

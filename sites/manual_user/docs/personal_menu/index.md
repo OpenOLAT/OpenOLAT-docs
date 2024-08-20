@@ -65,6 +65,21 @@ All tools that you mark here are displayed in the header at the top right instea
 
     The tools are displayed only once, either in the personal menu **or** in the header.
 
-## Navigation and personal menu
+## Tools generally displayed in the main navigation
 
-In the navigation the [chat](../basic_concepts/Chat.md) (instant messenger) and the [Full Text Search](../basic_concepts/Full_Text_Search.md) are shown first.
+The [Chat](../basic_concepts/Chat.md) (instant messenger) and the [Search](../basic_concepts/Full_Text_Search.md) are generally always available in the top navigation bar.
+
+![pers_menu_chat_suche_v1_de.png](assets/pers_menu_chat_suche_v1_de.png){ class="shadow lightbox"}
+
+## Further information (German)
+
+:octicons-device-camera-video-24: **Video introduction**: [Navigation](<https://www.youtube.com/embed/kxfVVbfDXMw>){:target="_blank”}
+
+:octicons-device-camera-video-24: **Video introduction**: [The OpenOlat screen](<https://www.youtube.com/embed/WbD6ZSgZ02Y>){:target="_blank”}
+
+:octicons-device-camera-video-24: **Video introduction**: [Personal menu](<https://www.youtube.com/embed/VxK1EKV7_rc>){:target="_blank”}
+
+:octicons-device-camera-video-24: **Video introduction**: [Menu bar](<https://www.youtube.com/embed/_abUlsfmBcs>){:target="_blank”}
+
+
+

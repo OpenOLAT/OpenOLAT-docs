@@ -50,7 +50,7 @@ After a rubric has been linked to the assessment, the following additional confi
 
     Wenn Einstufung/Noten ausgewählt wurde ist hier bereits enthalten ob die Skala mit einem Bestehen kombiniert ist oder nicht. Eine separate Auswahl ist dann nicht mehr möglich. 
 
-**Ignore in course assessment**: If checked, the evaluation will not be taken into account when [passing the course](../learningresources/Course_Settings.md). 
+**Ignore in course assessment**: If checked, the assessment will not be taken into account when [passing the course](../learningresources/Course_Settings.md). 
 
 **Individual comment**: If activated, an individual comment can be left on the rubric assessment e.g. an assessment can be explained in more detail.
 
@@ -58,7 +58,7 @@ After a rubric has been linked to the assessment, the following additional confi
 
 **Notice for all users**: General information about the course element assessment for all learners. If necessary, explain the categories of the rubric in more detail.
 
-**Notice for coaches**: Notes for supervisors can be left here  e.g. what is important and to consider when evaluating rubric categories. Participants will not see the notes.
+**Notice for coaches**: Notes for coaches can be left here  e.g. what is important and to consider when evaluating rubric categories. Participants will not see the notes.
 
 Further information on the course element Assessment can be found [here](../learningresources/Course_Element_Assessment.md).
 
