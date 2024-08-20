@@ -19,11 +19,11 @@ You **create** the configuration of an assessment mode by selecting
 3. and select the **"Assessment mode"** tab.
 4. Click on the **"Create test configuration"** button.
 
-![assessment_management_create_exam_setting_v1_de.png](assets/assessment_management_create_exam_setting_v1_de.png){ class="shadow lightbox" }
+![assessment_management_create_exam_setting_v1_en.png](assets/assessment_management_create_exam_setting_v1_en.png){ class="shadow lightbox" }
 
 On the overview page, you can see all examinations that have already been held, are in progress or are planned for a course. The mode of scheduled exams can still be edited up until the exam, but it is not possible to edit them retrospectively. The overview contains information on date and duration, lead and lag times and user groups.
 
-![assessment_management_exam_settings_overview_v1_de.png](assets/assessment_management_exam_settings_overview_v1_de.png){ class="shadow lightbox" }
+![assessment_management_exam_settings_overview_v1_en.png](assets/assessment_management_exam_settings_overview_v1_en.png){ class="shadow lightbox" }
 
 Test configurations are created in advance and contain
 
@@ -50,7 +50,7 @@ Furthermore, access to the exam can be restricted to specific IP addresses or th
 
 ## Tab "General"
 
-![assessment_management_create_exam_setting_tab_general_v1_de.png](assets/assessment_management_create_exam_setting_tab_general_v1_de.png){ class="shadow lightbox" }
+![assessment_management_create_exam_setting_tab_general_v1_en.png](assets/assessment_management_create_exam_setting_tab_general_v1_en.png){ class="shadow lightbox" }
 
 In addition to the title and description displayed to the user in the exam notification, the following parameters can be configured in detail:
 
@@ -60,9 +60,9 @@ In addition to the title and description displayed to the user in the exam notif
 
 **Type of start/end**: You can choose between automatic and manual start/end. If you as the author set "manual operation" here, coaches will find a start and end button on the overview page of the assessment tool for the corresponding assessment configuration, which they can use to switch on the assessment mode manually.
 
-## Tab "Restrictions course element"
+## Tab "Element restriction"
 
-![assessment_management_create_exam_setting_tab_element_restriction_v1_de.png](assets/assessment_management_create_exam_setting_tab_element_restriction_v1_de.png){ class="shadow lightbox" }
+![assessment_management_create_exam_setting_tab_element_restriction_v1_en.png](assets/assessment_management_create_exam_setting_tab_element_restriction_v1_en.png){ class="shadow lightbox" }
 
 **Restrict access to course element**: To restrict the check to selected course elements of the relevant course, select the checkbox here and then click on the "Select course elements" button. A list of all course elements of the course opens - select the course elements that you want to be displayed to the participants during the exam. All other course elements are hidden for the duration of the exam.
 
@@ -70,9 +70,9 @@ In addition to the title and description displayed to the user in the exam notif
 
 ## Tab "Access"
 
-![assessment_management_create_exam_setting_tab_access_v1_de.png](assets/assessment_management_create_exam_setting_tab_access_v1_de.png){ class="shadow lightbox" }
+![assessment_management_create_exam_setting_tab_access_v1_en.png](assets/assessment_management_create_exam_setting_tab_access_v1_en.png){ class="shadow lightbox" }
 
-**Restriction to IP addresses**: To only allow the check to be carried out on certain computers or locations, select the checkbox here and then enter the permitted IP addresses. You should be able to obtain these from your IT department. For example, you can use it to prevent a candidate from taking an exam from home.
+**Limit to IP address**: To only allow the check to be carried out on certain computers or locations, select the checkbox here and then enter the permitted IP addresses. You should be able to obtain these from your IT department. For example, you can use it to prevent a candidate from taking an exam from home.
 
 **Participants**: Here you define for which users the check is valid. Select from the following options:
 
@@ -83,11 +83,18 @@ In addition to the title and description displayed to the user in the exam notif
 
 As soon as an option with groups has been selected, you must always select the relevant groups using the "Select groups" or "Select learning area" buttons. If a curriculum is used, this must also be selected.
 
+**Apply exame setting for coaches**:
+If this option is selected, the assessment mode also applies to coaches. This means that other functions are blocked (kiosk mode).
+
+!!! note "Note"
+
+    Before version 19.1, course owners were also switched to assessment mode. From version 19.1, course owners can continue to access their course as normal. 
+
 You can also define whether the assessment mode should also be applied to coaches.
 
 ## Tab "Safe Exam Browser"
 
-![assessment_management_create_exam_setting_tab_seb_v1_de.png](assets/assessment_management_create_exam_setting_tab_seb_v1_de.png){ class="shadow lightbox" }
+![assessment_management_create_exam_setting_tab_seb_v1_en.png](assets/assessment_management_create_exam_setting_tab_seb_v1_en.png){ class="shadow lightbox" }
 
 **Use Safe Exam Browser**: The use of the [Safe Exam Browser](http://www.safeexambrowser.org) allows the secure execution of online exams by putting the computer into the so-called kiosk mode. This prevents the use of unauthorized sources during an exam. Enter the browser exam keys of all authorized browser instances to enable execution in the SEB. Users are notified that the SEB is a prerequisite for the exam. The exam can only be carried out once OpenOlat has been started in the Safe Exam Browser.
 
