@@ -2,7 +2,8 @@
 
 !!! note "Hinweis"
 
-    Vor Version 18.2 war die Konfiguration des Prüfungsmodus eine separate Menüoption in der Kursadministration. 
+    Vor Version 18.2 war die Konfiguration des Prüfungsmodus eine separate Menüoption in der Kursadministration.
+
 
 ## Was versteht man unter "Prüfungsmodus"?
 
@@ -83,7 +84,12 @@ Detailliert können neben Titel und Beschreibung, die dem Benutzer in der Prüfu
 
 Sobald eine Option mit Gruppen ausgewählt wurde, müssen Sie zwingend immer über die Schaltflächen "Gruppen auswählen" oder "Lernbereich auswählen" die betroffenen Gruppen auswählen. Wird ein Curriculum verwendet, muss dies ebenfalls ausgewählt werden. 
 
-Ferner kann definiert werden ob der Prüfungsmodus auch auf Betreuer angewendet werden soll. 
+**Prüfungskonfiguration auch bei Betreuenden anwenden**:
+Wird diese Option gewählt, gilt der Prüfungsmodus auch für Betreuer:innen. D.h. auch für Betreuer:innen gilt der Kioskmodus, in dem andere Funktionen gesperrt sind.
+
+!!! note "Hinweis"
+
+    Vor Version 19.1 wurden auch Kursbesitzer:innen in den Prüfungsmodus versetzt. Ab Version 19.1 können Kursbesitzer:innen weiterhin normal auf ihren Kurs zugreifen. 
 
 ## Tab "Safe Exam Browser"
 
