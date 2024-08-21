@@ -4,8 +4,7 @@
 
 
 In diesem Bereich können die OpenOlat Administrator:innen diverse externe Tools
-ein- und ausschalten (z.B. mehrere virtuelle Klasdsenzimmer) und je nach Tool bestimmte Basiseinstellungen einrichten, die
-systemweit gelten.
+ein- und ausschalten (z.B. mehrere virtuelle Klassenzimmer) und je nach Tool bestimmte Basiseinstellungen einrichten, die systemweit gelten.
 
 ## BigBlueButton {: #bbb}
 
@@ -19,11 +18,7 @@ Um Webkonferenzen mit BigBlueButton in OpenOlat zu ermöglichen, muss BBB in der
 OpenMeetings ist eine Webkonferenz-Lösung.
 
 In der OpenOlat Systemadministration können Sie das OpenMeetings-Modul
-konfigurieren und die Funktionalität freischalten. Geben Sie im Tab "Konfiguration" die URL des
-OpenMeetings-Servers ein, sowie den zuvor in OpenMeetings angelegten Benutzernamen
-des Webservices und das zugehörige Passwort.  Speichern Sie die Daten
-anschließend und drücken Sie die Schaltfläche "Serververbindung testen" um die
-Verbindungsdaten zu überprüfen.
+konfigurieren und die Funktionalität freischalten. Geben Sie im Tab "Konfiguration" die URL des OpenMeetings-Servers ein, sowie den zuvor in OpenMeetings angelegten Benutzernamen des Webservices und das zugehörige Passwort.  Speichern Sie die Daten anschließend und drücken Sie die Schaltfläche "Serververbindung testen" um die Verbindungsdaten zu überprüfen.
 
 Wenn das Modul eingeschaltet und die Verbindungsparameter zum OpenMeetings-
 Server korrekt sind, können in OpenOlat an den folgenden Stellen OpenMeetings-

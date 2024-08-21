@@ -4,13 +4,12 @@
 
 
 In this area, the OpenOlat administrators can switch various external tools on
-and off (e.g. several virtual classrooms) and, depending on the tool, configure certain basic settings that
-apply system-wide.
+and off (e.g. several virtual classrooms) and, depending on the tool, configure certain basic settings that apply system-wide.
 
 
 ## BigBlueButton {: #bbb}
 
-Um Webkonferenzen mit BigBlueButton in OpenOlat zu ermöglichen, muss BBB in der Administration aktiviert und konfiguriert worden sein.
+To enable web conferences with BigBlueButton in OpenOlat, BBB must be activated and configured in the administration.
  
 [View more details >](BigBlueButton_module.md)
 
@@ -39,28 +38,28 @@ created in OpenOlat.
 
 ## Adobe Connect {: #adobe_connect}
 
-Adobe Connect ist die Webkonferenzlösung aus der Adobe-Produktlinie.
+Adobe Connect is the web conferencing solution from the Adobe product line.
 
-Eine Aktivierung und Konfiguration kann vorgenommen werden, wenn die erforderlichen Lizenzen vorhanden sind.
+Activation and configuration can be carried out if the required licenses are available.
 
 
 ## Microsoft Teams {: #_microsoft_teams}
 
-Die Aktivierung und Konfiguration kann vorgenommen werden, wenn die erforderlichen Lizenzen vorhanden sind.
+Activation and configuration can be carried out if the required licenses are available.
 
 
 ## Microsoft SharePoint / OneDrive {: #microsoft_sharepoint}
 
-Um im OpenOlat File Hub und OpenOlat Media Center das Schreiben und Kopieren von Dateien von und nach SharePoint und OneDrive zu ermöglichen, müssen diese beiden Tools aktiviert werden. (Sie können einzeln aktiviert werden.)
+To enable writing and copying files to and from SharePoint and OneDrive in the OpenOlat File Hub and OpenOlat Media Center, these two tools must be activated. (They can be activated individually).
 
-Voraussetzung ist, dass die erforderlichen Lizenzen vorhanden sind.
+The prerequisite is that the required licenses are available.
 
 [View more details >](SharePoint_OneDrive.md)
 
 
 ## Zoom {: #zoom}
 
-Um Zoom Meetings in OpenOlat zu ermöglichen, muss Zoom in der Administration aktiviert und konfiguriert worden sein. 
+To enable Zoom meetings in OpenOlat, Zoom must be activated and configured in the administration. 
 
 [View more details >](Zoom.md)
 
@@ -77,9 +76,9 @@ platforms and tools can be connected.
 
 ## GoToTraining {: #go_to_training}
 
-GoToTraining ist eine virtuelle Schulungsplattform.
+GoToTraining is a virtual training platform.
 
-Eine Aktivierung und Konfiguration kann vorgenommen werden, wenn die erforderlichen Lizenzen vorhanden sind.
+Activation and configuration can be carried out if the required licenses are available.
 
 **Further information:**<br>
 [Website GoToTraining](https://www.goto.de/training)
@@ -88,7 +87,7 @@ Eine Aktivierung und Konfiguration kann vorgenommen werden, wenn die erforderlic
 
 ## vitero {: #vitero}
 
-Vitero ist ein Werkzeug zur Durchführung von Webkonferenzen bzw. Online-Meetings.
+Vitero is a tool for holding web conferences and online meetings.
 
 In order to use the vitero connection, you must have a vitero license and make
 the following settings in the administration environment:
@@ -119,29 +118,29 @@ will not be considered.
 
 ## JupyterHub {: #jupyter}
 
-JupyterHub dient der Bereitstellung von Jupyter-Images für Lernende.
+JupyterHub is used to provide Jupyter images for learners.
 
-**Weitere Informationen:**<br>
-[Benutzerhandbuch: Kursbaustein JupyterHub](../../manual_user/learningresources/Course_Element_JupyterHub.de.md)
+**Further information:**<br>
+[User manual: Course element JupyterHub](../../manual_user/learningresources/Course_Element_JupyterHub.md)
 
 
 ## card2brain {: #card2brain}
 
-card2brain ist eine Software für das Lernen mit einem Lernkartei-System.
+card2brain is a software for learning with a flashcard system.
 
-Eine Aktivierung und Konfiguration kann vorgenommen werden, wenn die erforderlichen Lizenzen vorhanden sind.
+Activation and configuration can be carried out if the required licenses are available.
 
-**Weitere Informationen:**<br>
+**Further information:**<br>
 [Website card2brain](https://card2brain.ch/de)
 
 
 ## Edubase/Edubook {: #edubase}
 
-Edubase ist eine E-Book-Plattform.
+Edubase is an e-book platform.
 
-Eine Aktivierung und Konfiguration kann vorgenommen werden, wenn die erforderlichen Lizenzen vorhanden sind.
+Activation and configuration can be carried out if the required licenses are available.
 
-**Weitere Informationen:**<br>
+**Further information:**<br>
 [Website Edubase](https://www.edubase.ch)
 
 
@@ -153,9 +152,9 @@ Enter, remove or check API key.
 
 ## Opencast {: #opencast}
 
-Opencast ist eine Open Source Software zur Planung, Aufzeichnung und Veröffentlichung audiovisueller Lerninhalte, insbesondere für die Aufzeichnung und Distribution von Lehrveranstaltungen.
+Opencast is an open source software for planning, recording and publishing audiovisual learning content, especially for the recording and distribution of courses.
 
-Nach der Aktivierung können die API-, LTI-Konfiguration vorgenommen werden. Auch BigBlueButton-Recordings aus OpenOlat können verwendet werden.
+After activation, the API and LTI configuration can be carried out. BigBlueButton recordings from OpenOlat can also be used.
 
 
 ## MediaSite {: #mediasite}
@@ -192,19 +191,19 @@ Configuration takes place in four steps:
 
 ## Dokumenteneditoren {: #dokumenteneditoren}
 
-Zur Bearbeitung von Office-Dokumenten können in OpenOlat verschiedene Tools verwendet werden:
+Various tools can be used in OpenOlat to edit Office documents:
 
 * ONLYOFFICE
 * Microsoft Office
 
-Voraussetzung ist jeweils, dass die erforderlichen Lizenzen vorhanden sind.
+The prerequisite in each case is that the necessary licenses are available.
 
 
 ## draw.io  {: #draw_io}
 
-draw.io ist ein Online-Werkzeug zur Erstellung von Diagrammen, das in OpenOlat z.B. in Projekten genutzt werden kann.Voraussetzung ist die Aktivierung.
+draw.io is an online tool for creating diagrams that can be used in OpenOlat, e.g. in projects.
 
-**Weitere Informationen:**<br>
+**Further information:**<br>
 [Website draw.io](https://www.drawio.com)
 
 
@@ -215,7 +214,7 @@ Possibility to activate external analytics services., e.g. Google Analytics.
 
 ## KI Modul {: #ki_modul}
 
-Hier aktiveren und konfigurieren Sie die Werkzeuge der Künstlichen Intelligenz, die in OpenOlat eingebunden werden können. 
+This is where you activate and configure the artificial intelligence tools that can be integrated into OpenOlat. 
 
 
 ## PDF Generator

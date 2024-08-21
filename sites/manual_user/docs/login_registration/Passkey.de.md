@@ -3,7 +3,7 @@
 ## Was ist Passkey?
 
 * Passkey ist ein digitaler Schlüssel, kein Passwort.
-* Dieser Schlüssel wird indivuell für ein bestimmtes Gerät erstellt und dann im Browser oder Gerät gespeichert. Er ist also gerätegebunden, nicht personengebunden.
+* Dieser Schlüssel wird individuell für ein bestimmtes Gerät erstellt und dann im Browser oder Gerät gespeichert. Er ist also gerätegebunden, nicht personengebunden.
 * Wurde Passkey einmal erstellt, ist kein Passwort mehr erforderlich, das man vergessen könnte oder das gestohlen werden könnte. Sie müssen sich also lediglich Zutritt zu Ihrem Gerät verschaffen können (z.B. mit Fingerprint oder Gesichtserkennung). Alle weiteren Zugänge zu mit Passkey gesicherten Applikationen werden dann vom Gerät aus geprüft und gewährt.
 * Der Passkey ist jedoch kein Generalschlüssel für alle Applikationen, in denen man sich anmelden möchte. Jeder Account hat seinen eigenen Passkey. 
 * Bei einer Anmeldung treten ihr Gerät und der angefragte Server in Kontakt und klären untereinander (anhand des Passkeys), ob der Zugriff gewährt werden kann. Der eigentliche Schlüssel (Private Key) verlässt dabei das Gerät nicht. Deshalb gilt Passkey als besonders sicher. 
@@ -69,7 +69,7 @@ Der/die Administrator:in kann rollenspezifisch Passkeys verlangen, aber auch and
 
 5. Jetzt loggen Sie sich mit einem Recovery-Key ein. So kommen Sie vom anderen Gerät aus in OpenOlat.
 
-6. Damit es nicht jedes Mal erneut einen Recovery Key braucht, gehen Sie nach dem Einloggen auf dem neuen Gerät wieder in das persönliche Menü und dort zu "Passwort". Dort steht wieder der Button "Passkey erstellen" zur Verfügung.
+6. Damit es nicht jedes Mal erneut einen Recovery Key braucht, gehen Sie nach dem Einloggen auf dem neuen Gerät wieder in das persönliche Menü und dort zu "Passwort". Dort steht wieder der Button "Passkey erstellen" zur Verfügung.
 
 7. Erzeugen Sie mit dem Button einen neuen Passkey. Es wird eine weiterer Private Key für das aktuelle Gerät erstellt.
 

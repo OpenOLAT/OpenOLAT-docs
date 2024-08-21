@@ -49,3 +49,28 @@ The recovery keys can be requested **in the personal menu** under **"Password"**
 
     If new recovery keys have been ordered, all old ones are invalid, even if they have never been used.
 
+
+## Passkey for multiple devices
+
+Proceed as follows:
+
+1. Setting up Passkey on the main device<br>
+The administrator can request role-specific passkeys, but other users can also increase the security level themselves if necessary.<br> (Personal menu > Password)
+
+2. Save recovery keys<br>(for single use only)
+
+3. If Passkey has been activated, you will be asked to create a passkey (private key) the first time you log in. This is device-specific and is only saved on the device.
+
+4. Now change the device and log in on the other device. This triggers a message there: "A passkey is required to log in" or similar.
+
+5. Now log in with a recovery key. This will allow you to access OpenOlat from the other device.
+
+6. To avoid needing a recovery key every time, go back to the personal menu after logging in on the new device and go to "Password". The "Create passkey" button is available there again.
+
+7. Use the button to create a new passkey. Another private key is created for the current device.
+
+8. The various passkeys/devices are then listed in the personal menu under "Password".
+
+
+
+
