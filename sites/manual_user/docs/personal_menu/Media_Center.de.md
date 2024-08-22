@@ -158,7 +158,7 @@ Und wie können die Medien, die sich im Medien Center befinden weiterverwendet w
 
 ![media_center_page_v1_de.png](assets/media_center_page_v1_de.png){ class=" shadow lightbox" }
 
-Die Filterfunktionen helfen, die gesuchten Medien schnell zu finden. Suchen oder filtern Sie nach ...
+Die **Filterfunktionen** helfen, die gesuchten Medien schnell zu finden. Suchen oder filtern Sie nach ...
 
 ![Medien Center Filtrfunktion](assets/Medien_center_Filterfunktion.png){ class=" shadow lightbox" }
 

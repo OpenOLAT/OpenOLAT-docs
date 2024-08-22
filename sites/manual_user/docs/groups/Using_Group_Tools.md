@@ -33,14 +33,14 @@ Group **participants** will then see the following items in the group menu on th
 
 
 
-!!! info "Gruppenkalender in Verbindung mit Kurskalendern" 
+!!! info "Group calendars in conjunction with course calendars" 
 	
-	In einem Gruppenkalender sehen die Gruppenteilnehmer:innen alle Einträge der Gruppenmitglieder, egal ob die Termine privat oder öffentlich gesetzt sind.
+	In a group calendar, the group participants can see all the entries of the group members, regardless of whether the appointments are private or public.
 	
-	Ist die Gruppe einem Kurs zugeordnet, werden im Kurskalender den Gruppenteilnehmer:innen folgende Einträge angezeigt:
+	If the group is assigned to a course, the following entries are displayed to the group participants in the course calendar:
 
-	- öffentliche Einträge der Gruppe,
-	- die eigenen Gruppenkalendereinträge des jeweiligen Gruppenmitglieds,
-	- sowie die kurspezifischen Kalendereinträge. 
+	- public entries of the group,
+	- the respective group members own group calendar entries,
+	- as well as course specific calendar entries. 
 	
-	Personen die nicht Mitglied der Gruppe sind, sehen im Kurskalender die Kalendereinträge der anderen Gruppen nicht. Sind einem Kurs mehrere Gruppen zugeordnet, sehen die Mitglieder also nur die eigenen Gruppenkalendereinträge, aber nicht die der anderen Gruppen.
+	People who are not members of the group will not see the calendar entries of the other groups in the course calendar. If several groups are assigned to a course, the members will only see their own group calendar entries, but not those of the other groups.

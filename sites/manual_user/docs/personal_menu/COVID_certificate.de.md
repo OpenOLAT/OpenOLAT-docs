@@ -4,12 +4,12 @@
 
 ![icon_profile.png](assets/icon_profile.png)
 
-Sofern das Covid Zertifikat vom Admin aktiviert wurde finden User unter "Profil" den Tab "COVID-Zertifikat". Hier können neue persönliche COVID-Zertifikate hinzugefügt oder der Status eines bestehenden Zertifikats eingesehen werden. 
+Sofern das Covid Zertifikat vom Admin aktiviert wurde, finden User unter "Profil" den Tab "COVID-Zertifikat". Hier können neue persönliche COVID-Zertifikate hinzugefügt oder der Status eines bestehenden Zertifikats eingesehen werden. 
 Der Status ihres Zertifikats ist nur für Sie sichtbar.
 
 ![pers_menu_profile_covid_v1_de.png](assets/pers_menu_profile_covid_v1_de.png){ class=" shadow lightbox" }
 
-!!! note  "Wichtig"
+!!! note "Wichtig"
       
     Es werden **keine** Daten gespeichert. Für die Validierung des COVID-Zertifikats wird lediglich das Datum gespeichert.
  <br>

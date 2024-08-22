@@ -30,8 +30,7 @@ Folgende Objekte sind abonnierbar:
 
 Unter "Abonnements" im persönlichen Menü können Sie alle ihre Neuigkeiten gesammelt einsehen.
 
-Auf der Übersichtsseite, im **Tab "Neuigkeiten"**, können Sie sich Änderungen innerhalb
-eines Zeitraumes anzeigen lassen und bei Bedarf die Änderungen noch einmal per E-Mail verschicken.
+Auf der Übersichtsseite, im **Tab "Neuigkeiten"**, können Sie sich Änderungen innerhalb eines Zeitraumes anzeigen lassen und bei Bedarf die Änderungen noch einmal per E-Mail verschicken.
 
 ![subscriptions_news_v1_de.png](assets/subscriptions_news_v1_de.png){ class=" shadow lightbox" }
 

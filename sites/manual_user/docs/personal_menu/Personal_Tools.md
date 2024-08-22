@@ -15,7 +15,7 @@ In the personal calendar, you can see your private appointments as well as entri
 
 You can create private appointments that only you can see, or public appointments that other OpenOlat users with access rights can also see.
 
-[Here are the details >](Calendar.md)
+Find out [more >](Calendar.md)
 
 
 ##  Subscriptions {: #subscriptions}
@@ -37,7 +37,7 @@ You can subscribe to change notifications for the following course elements:
 * Podcast
 * Video
 
-[Here are the details >](Subscriptions.md)
+Find out [more >](Subscriptions.md)
 
 
 

@@ -14,15 +14,15 @@ can find 2 subfolders, the folders  "private"  and  "public".
 
 Every user can upload every supported file here. This folder can be used as
 temporary storage and to get access to files from different servers. Here
-OpenOlat works linke a cloud.
+OpenOlat works like a cloud.
 
-Additionally that data, which is downloaded in the data archiving is saved
+Additionally, that data, which is downloaded in the data archiving, is saved
 here as well.
 
  _Public_
 
 Files, which should be available for other OpenOlat users, can be stored in this
-folder. The public folder is visible in the user's visiting card. In the
+folder. The public folder is visible in the user's business card. In the
 personal tools in Other users you can search for the user who uploaded a file
 for you. This simplifies the data exchange between OpenOlat users.
 

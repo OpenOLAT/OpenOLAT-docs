@@ -58,6 +58,7 @@ check boxes cannot be edited. These are predefined system-wide.
 
 The settings allow you to adapt OpenOlat according to your needs.
 
+
 ### Tab System
 
 #### General system settings: {: #general}
@@ -157,4 +158,4 @@ from the operator, in accordance with Article 15 GDPR. The corresponding
 support link is available. As soon as the export has been carried out, you can
 download the user data stored about you here.
 
-![](assets/Screenshot 2020-04-29 at 18.26.01.png)
+![](assets/Benutzerdaten.png)

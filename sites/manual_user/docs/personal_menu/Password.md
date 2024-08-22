@@ -9,6 +9,7 @@ If your account is not controlled by an external user management system (see [Lo
 ![](assets/password_change_v1_en.png)
 
 
+
 * Administrators can also force a new password to be assigned at certain intervals.
 
 * When assigning a new password, make sure not to use the old password again.

@@ -72,7 +72,7 @@ There are various ways to store media in the Media center:
 
 ### Create new media beyond the Media Center in the Content Editor
 
-Media for the Media Center can also be created in the OpenOlat course or in the portfolio using the content editor. In the course, for example, this can be done via the course element ["Page"](../learningresources/Course_Element_Page.md). Go to edit mode and select "Add content". The option **"Select from my Media Center"** will then appear next to opther options.
+Media for the Media Center can also be created in the OpenOlat course or in the portfolio using the [content editor](../basic_concepts/Content_Editor.md). In the course, for example, this can be done via the course element ["Page"](../learningresources/Course_Element_Page.md). Go to edit mode and select "Add content". The option **"Select from my Media Center"** will then appear next to opther options.
 ![Medium auswählen aus dem Mediencenter1](assets/page_select_media_center_en.png){ class=" shadow lightbox" }
 
 All the same options are available here as when creating directly in the Media Center.
@@ -125,7 +125,6 @@ Each media element includes the following tabs:
 * **Metadata:** Description, License, Tags, Department
 * **Uses:** This shows where the element is used
 * **Shares:** Here you can define who a content element is shared with. Participants can only define groups. Authors have more options and can specify specific OpenOlat users, groups or courses. Sharing also allows files to be used collaboratively if editing is permitted. 
-
 In addition, individual media can also be downloaded or deleted via the 3-dot menu.
 
 ![media_center_download_v1_de.png](assets/media_center_download_v1_de.png){ class=" shadow lightbox" }

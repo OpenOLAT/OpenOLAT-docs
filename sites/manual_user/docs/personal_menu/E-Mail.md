@@ -13,7 +13,7 @@ You can send e-mails with open body from various instances, e.g.
   * in the course [Toolbar](../learningresources/Using_Additional_Course_Features.md)
   * via [Course Reminders](../learningresources/Course_Reminders.md)
   * invitations for courses or groups
-  * via visiting card
+  * via business card
   * using the [Group Tool Mail](../groups/Group_Administration.md)
   * in the [Members management](../learningresources/Members_management.md) of learning resources and groups.
 

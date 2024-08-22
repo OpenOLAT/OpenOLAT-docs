@@ -20,7 +20,7 @@ In OpenOlat werden Objekte und Dateien in verschiedenen Gefässen gesammelt. Hie
 | File Hub   | Medien Center  | Autorenbereich | Fragenpool  | Video Collection | Bibliothek | Dokumentenpool |
 | ---------- | -------------- | -------------- | -------------- |-------------- |-------------- |-------------- |
 |Kopieren und Verschieben von Dateien|Ressourcen-Quelle für die eigene Autorentätigkeit|Kurs- und Lernressourcen-Erstellung| Teilen und Wiederverwenden von Fragen aus dem gemeinsamen Pool zur Testerstellung|Videosammlung für alle Benutzer:innen, als "internes Youtube"| gemeinsam genutzte Dokumentensammlung|Dokumente stehen nur im Pool zur Verfügung und können nicht in einen Kurs eingebunden werden |
-|zentrale Dateiverwaltung| direktes Erstellen und Teilen verschiedener Medientypen, Ablage und Upload |Management der Zugriffsberechigungen|kollaborative Entwicklung und Review von Fragen für standardisierte Prüfungen|            |mit Prüfprozedere für neu eingestellte Dokumente|            |
+|zentrale Dateiverwaltung| direktes Erstellen und Teilen verschiedener Medientypen, Ablage und Upload |Management der Zugriffsberechtigungen|kollaborative Entwicklung und Review von Fragen für standardisierte Prüfungen|            |mit Prüfprozedere für neu eingestellte Dokumente|            |
 
 
 ## Zugriff {: #object_collections_access}

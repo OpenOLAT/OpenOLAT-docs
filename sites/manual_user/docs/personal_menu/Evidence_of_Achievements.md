@@ -4,7 +4,6 @@
 
 ![icon_icon_evidence_of_achievements.png](assets/icon_evidence_of_achievements.png)
 
-
 A performance record is a confirmation that a performance check has been carried out.
 In OpenOlat, evidences of achievement can be issued for
 
@@ -20,6 +19,7 @@ A [PDF certificate](../learningresources/Course_Settings_Assessment.md#course-ce
 ## Who awards certificates of achievement?
 
 The course authors determine in their courses whether OpenOlat should create performance records.
+
 
 ## Where can I see the performance records?
 
@@ -37,9 +37,12 @@ As a result, the "Evidence of achievement" option appears in the top right-hand 
 
     The link to the evidence of achievement only appears in the course if at least one assessable course element exists in the course and the course participant has already received at least one assessment. This can be, for example, the attempted solution to a test or the assessment of an assignment.
 
+
+
 ## Storage of evidence of achievement
 
 If you as the author:in switch off the "Use evidence of achievement" function, your course participants will no longer see any evidence of achievement. However, the evidence of achievement will not be lost, it will simply no longer be displayed. If you reactivate the evidence of achievement, all current data will be available again. If you delete a course with existing evidence of achievement, users can still view their evidence of achievement in the personal menu.
+
 
 ## External certificates
 

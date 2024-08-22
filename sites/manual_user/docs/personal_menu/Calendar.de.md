@@ -7,9 +7,13 @@
 Die Kalenderfunktion steht Ihnen an verschiedenen Orten zur Verfügung:
 
 * In der [Gruppe](../groups/Using_Group_Tools.de.md): <br>Zugriff auf den Gruppenkalender, sowie eventuell externe importierte Kalender.
+
 * Im [Kurs](../area_modules/Courses.de.md): <br>Zugriff auf Kurstermine, sowie Zugriff auf alle Kalender von eingebundenen Gruppen. Kurskalender können sowohl in einem Kursbaustein als auch in der Toolbar eingebunden sein.<br>
+
 ![pers_menu_calendar_course_v1_de.png](assets/pers_menu_calendar_course_v1_de.png){ class="aside-left lightbox" }
-<br>:octicons-device-camera-video-24: **Video-Einführung**: [Kurskalender](<https://www.youtube.com/embed/tfx6UCYw8t8>){:target="_blank”} 
+
+<br>:octicons-device-camera-video-24: **Video-Einführung**: [Kurskalender](<https://www.youtube.com/embed/tfx6UCYw8t8>){:target="_blank”}
+
 * Im [persönlichen Menü](../personal_menu/index.de.md) [(Persönliche Werkzeuge)](../personal_menu/Personal_Tools.de.md): <br>Im persönlichen Kalender können zusätzlich zu den persönlichen Terminen alle Termine aus Ihren verschiedenen Kursen und Gruppen, in denen Sie Mitglied sind, zusammengeführt werden. Sie erhalten so eine Übersicht. Auch externe Kalender können nach individuellem Bedarf importiert werden.
 
 ![pers_menu_calendar_overview_v1_de.png](assets/pers_menu_calendar_overview_v1_de.png){ class="lightbox" }
@@ -134,7 +138,7 @@ Mit Klick auf den kleinen Pfeil daneben können Kalender via URL verlinkt werden
     Mit den Buttons oberhalb der Kalenderliste fügen Sie weitere **eigenständige Kalender** zur Kalenderliste hinzu.
 
     * Es erscheint eine weitere Zeile = weiterer eigenständiger Kalender
-    * Sie können in der Kalenderliste bestimmen, ob die Termine dieses Kalenders in Ihren persönlichen Kalender übernommen werden sollen (Toogle-Button einschalten).
+    * Sie können in der Kalenderliste bestimmen, ob die Termine dieses Kalenders in Ihren persönlichen Kalender übernommen werden sollen (Toggle-Button einschalten).
     * Sie können den Kalendern unterschiedliche Farben geben.
 
     Die Optionen zum Hinzufügen oder Löschen unter den 3 Punkten am Ende einer Zeile bearbeiten dagegen nur diesen einzelnen **(aggregierten) Kalender**.

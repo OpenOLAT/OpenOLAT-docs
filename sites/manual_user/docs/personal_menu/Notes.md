@@ -5,6 +5,7 @@
 ![icon_notes.png](assets/icon_notes.png)
 
 
+
 ## Notes in OpenOlat
 
 Notes can be made in various places in OpenOlat:
@@ -15,9 +16,10 @@ Notes can be made in various places in OpenOlat:
 
 In the personal tools you will find all the notes you have made **on your courses**. (The notes on tests and projects are not included here).
 
+
 ## Where can I create notes on a course?
 
-You can create notes for a course by opening the **“My course"** drop-down menu in the top right-hand corner of a course and then selecting the "Notes” option. Here you can enter course-specific notes that only you can read.
+You can create notes for a course by opening the **"My course"** drop-down menu in the top right-hand corner of a course and then selecting the "Notes” option. Here you can enter course-specific notes that only you can read.
 
 ![pers_menu_notes_open_v1_de.png](assets/pers_menu_notes_open_v1_de.png){ class="shadow lightbox"}
 

@@ -1,11 +1,19 @@
-# COVID certificate
+# Personal configuration: COVID certificate
+
+![pers_menu_profile_v1_de.png](assets/pers_menu_profile_v1_de.png){ class="aside-right lightbox"}
+
+![icon_profile.png](assets/icon_profile.png)
 
 If the Covid certificate has been activated by the admin, users will find the "COVID certificate" tab under "Profile". Here you can add new COVID certificates or view the status of an existing certificate.
 The status of your certificate is only visible to you.
 
+![pers_menu_profile_covid_v1_de.png](assets/pers_menu_profile_covid_v1_de.png){ class=" shadow lightbox" }
+
 !!! Note "Important"
 
-    No data is stored. Only the date is saved for the validation of the COVID certificate.
+    **No** data is saved. Only the date is saved for the validation of the COVID certificate.
+
+
 
 ## Add COVID certificate
 
@@ -18,9 +26,8 @@ Validation Status).
 If automatic adding does **not** work, you can also add your certificate
 manually. Validation is not automatic in this case. (See Validation status)
 
-  
-
 ![](assets/Bildschirmfoto 2021-10-01 um 17.01.19.png)
+
 
 ## Validation status
 

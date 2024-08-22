@@ -101,7 +101,7 @@ _feedreader_ to find a suitable RSS reader for you.
 
 !!! info "Note"
 
-    All of a user's subscriptions are displayed in **User management**. They can also be deleted there by user administrators.
+    All of a users subscriptions are displayed in **User management**. They can also be deleted there by user administrators.
 
 
 

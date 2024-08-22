@@ -79,7 +79,7 @@ Werkzeuge die nicht als Schnellzugriff in der Navigationsleiste liegen, sind als
 !!! tip
 	Versuchen Sie nicht alle Werkzeuge zu aktivieren, sondern wählen sie gezielt die Werkezeuge aus, Sie Sie häufig benutzen. So bleibt die Menüleiste übersichtlich.
 
-Als letztes haben Sie unter "Einstellungen" im Tab "System" die Möglichkeit, ihre vorgenommenen systembezogenen Änderungen wieder **auf die Standardeinstellungen zurückzusetzen** , Hierzu zählen  Einstellungen bezüglich der Personalisierung, der Benachrichtigungen und der Sitzungswiederherstellung.
+Als letztes haben Sie unter "Einstellungen" im Tab "System" die Möglichkeit, ihre vorgenommenen systembezogenen Änderungen wieder **auf die Standardeinstellungen zurückzusetzen**, hierzu zählen Einstellungen bezüglich der Personalisierung, der Benachrichtigungen und der Sitzungswiederherstellung.
 
 ### Tab WebDAV {: #webdav}
 
