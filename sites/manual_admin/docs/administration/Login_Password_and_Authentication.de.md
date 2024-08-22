@@ -2,7 +2,7 @@
 
 ## Tab "Authentifizierung"
 
-![login_password_and_authentication_auth_v1_de.png](assets/login_password_and_authentication_auth_v1_de.png){ class="shadow lightbox" }
+![login_password_and_authentication_auth_v2_de.png](assets/login_password_and_authentication_auth_v2_de.png){ class="shadow lightbox" }
 
 <h3>1 Sicherheitsstufen verwenden/Passkey</h3>
 
@@ -43,18 +43,12 @@ Wenn von einem/einer Administrator:in die Sicherheitsstufe erhöht wurde, werden
 Hier legen Sie als Administrator:in fest, welche Kriterien ein Passwort erfüllen muss.
 Als Minimum muss eine Mindest- und eine Maximallänge definiert werden.
 
-![login_password_and_authentication_syntax_v1_de.png](assets/login_password_and_authentication_syntax_v1_de.png){ class="shadow lightbox" }
+![login_password_and_authentication_syntax_v2_de.png](assets/login_password_and_authentication_syntax_v2_de.png){ class="shadow lightbox" }
 
 
 ## Tab "Richtlinie zur Passwortänderung"
 
 Sie können hier festlegen wie oft Benutzer*innen ihr Passwort ändern müssen und ob ein Passwort wiederverwendet werden kann. Die Lebensdauer des Passwortes kann pro Rolle festgelegt werden.
 
-![login_password_and_authentication_pw_change_policies_v1_de.png](assets/login_password_and_authentication_pw_change_policies_v1_de.png){ class="shadow lightbox" }
+![login_password_and_authentication_pw_change_policies_v2_de.png](assets/login_password_and_authentication_pw_change_policies_v2_de.png){ class="shadow lightbox" }
 
-
-## Tab "Passwort Reset"
-
-Hier kann für mehrere Benutzer:innen (Kontenliste) das Passwort neu gesetzt werden.
-
-![login_password_and_authentication_pw_reset_v1_de.png](assets/login_password_and_authentication_pw_reset_v1_de.png){ class="shadow lightbox" }

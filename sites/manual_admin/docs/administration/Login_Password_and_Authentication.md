@@ -2,7 +2,7 @@
 
 ## Tab "Authentication"
 
-![login_password_and_authentication_auth_v1_de.png](assets/login_password_and_authentication_auth_v1_de.png){ class="shadow lightbox" }
+![login_password_and_authentication_auth_v2_de.png](assets/login_password_and_authentication_auth_v2_de.png){ class="shadow lightbox" }
 
 <h3>1 Use security levels/passkey</h3>
 
@@ -40,18 +40,12 @@ If the security level has been increased by an administrator, the persons concer
 As the administrator, you define here which criteria a password must fulfill.
 A minimum and maximum length must be defined.
 
-![login_password_and_authentication_syntax_v1_de.png](assets/login_password_and_authentication_syntax_v1_de.png){ class="shadow lightbox" }
+![login_password_and_authentication_syntax_v2_de.png](assets/login_password_and_authentication_syntax_v2_de.png){ class="shadow lightbox" }
 
 ## Tab "Password change policy"
 
 Here you can define how often users have to change their password and whether a password can be reused. The lifetime of the password can be defined for each role.
 
-![login_password_and_authentication_pw_change_policies_v1_de.png](assets/login_password_and_authentication_pw_change_policies_v1_de.png){ class="shadow lightbox" }
-
-## Tab "Password reset"
-
-The password for several users (account list) can be reset here.
-
-![login_password_and_authentication_pw_reset_v1_de.png](assets/login_password_and_authentication_pw_reset_v1_de.png){ class="shadow lightbox" }
+![login_password_and_authentication_pw_change_policies_v2_de.png](assets/login_password_and_authentication_pw_change_policies_v2_de.png){ class="shadow lightbox" }
 
 
