@@ -28,6 +28,8 @@ Diese Aufteilung bringt mehr Fairness bei der Themenvergabe, denn die Zuordnung 
 * Die Themenwahl ist auf ein bestimmtes Zeitfenster beschränkt.
 * OpenOlat kann nach Schliessen des Zeitfensters anhand der angegebenen Prioritäten berechnen, wer welche Themen zugewiesen bekommt. Die Berechnung kann automatisch oder manuell angestossen werden.
 
+[zum Seitenanfang ^](#topic_broker)
+
 ## Der Algorithmus für eine automatische Themenzuordnung {: #topic_broker_algorithm}
 
 Funktioniert ein Auswahl- und Zuordnungsverfahren nach dem Prinzip "first-come - first-serves" (wer zuerst kommt, wird zuerst bedient), dann ist dies unfair. Man kennt dies von der Vergabe von Tickets für Fussbalspiele und Konzerte. Benutzer:innen mit besserer Internetverbindung werden bevorzugt, genauso wie Benutzer:innen, die zum Zeitpunkt der Veröffentlichung sofort Zeit für die Anmeldung haben.
@@ -47,6 +49,7 @@ Die Themenvergabe im Kursbaustein Themenbörse geschieht deshalb in 2 Schritten:
 
     Aufgrund der vorangehend beschrieben Funktionsweise ist verständlich, dass die Themenbörse in offenen Kursen, mit undefinierter Anzahl Teilnehmer:innen, nicht verwendet werden kann.
 
+[zum Seitenanfang ^](#topic_broker)
 
 
 ## Wer kann wählbare Themen erfassen?
@@ -59,6 +62,9 @@ Die Themenvergabe im Kursbaustein Themenbörse geschieht deshalb in 2 Schritten:
 
 * Ferner können Themen auch aus einer **Excel-Datei** importiert werden.
 
+
+[zum Seitenanfang ^](#topic_broker)
+
 ---
 
 ## Themenbörse einrichten (Perspektive Kursbesitzer:in) {: #topic_broker_setup}
@@ -69,6 +75,10 @@ Die Themenvergabe im Kursbaustein Themenbörse geschieht deshalb in 2 Schritten:
 Im Tab "Konfiguration" werden die Rahmenbedingungen der Themenwahl und Einschreibung festgelegt.
 
 ![course_element_topic_broker_configuration_v1_de.png](assets/course_element_topic_broker_configuration_v1_de.png){ class="shadow lightbox" }
+
+
+[nach oben (Perspektive Kursbesitzer:in) ^](#topic_broker_setup)<br>
+[zum Seitenanfang ^](#topic_broker)
 
 
 ### Tab "Benutzerdefinierte Felder"
@@ -90,6 +100,10 @@ Der hier eingegebene Name erscheint als zusätzliches Feld im Popup "Thema hinzu
 Wird der Toggle-Button eingeschaltet, erscheint dieses Feld in der Übersichtstabelle per Default.
 
 
+[nach oben (Perspektive Kursbesitzer:in) ^](#topic_broker_setup)<br>
+[zum Seitenanfang ^](#topic_broker)
+
+
 ### Tab "Themen" (Erfassen von Themen)
 
 Die wählbaren Themen können im Kurseditor im Tab "Themen" durch Kursbesitzer:innen hinzugefügt und beschrieben werden. Alternativ kann dies auch ausserhalb des Editors im Run-Mode geschehen. Je nach Konfiguration auch durch Kursbetreuer:innen.
@@ -101,6 +115,9 @@ Im nachstehenden Beispiel ist im unteren Bereich zusätzlich ein Feld enthalten,
 ![course_element_topic_broker_add_topic_v1_de.png](assets/course_element_topic_broker_add_topic_v1_de.png){ class="shadow lightbox" }
 
 
+[nach oben (Perspektive Kursbesitzer:in) ^](#topic_broker_setup)<br>
+[zum Seitenanfang ^](#topic_broker)
+
 ---
 
 ## Themenbörse betreuen (Perspektive Kursbetreuer:in) {: #topic_broker_coaching}
@@ -110,6 +127,10 @@ Im nachstehenden Beispiel ist im unteren Bereich zusätzlich ein Feld enthalten,
 Die wählbaren Themen können schon durch Kursbesitzer:innen hinzugefügt und beschrieben worden sein (im Kurseditor im Tab "Themen"). Alternativ kann dies **auch durch Kursbetreuer:innen** geschehen. Dazu wählen Sie als Betreuer:in den Kursbaustein und den Tab "Themen". Die Themen können hier neu erstellt oder aus einer Excel-Tabelle importiert werden. (Unter der Auswahloption "Themen importieren" finden Sie auch eine Excel-Vorlage zum Download.)
 
 ![course_element_topic_broker_topics_coach_v1_de.png](assets/course_element_topic_broker_topics_coach_v1_de.png){ class="shadow lightbox" }
+
+
+[nach oben (Perspektive Kursbetreuer:in) ^](#topic_broker_coaching)<br>
+[zum Seitenanfang ^](#topic_broker)
 
 
 ### Ansicht der Themenwünsche
@@ -127,6 +148,10 @@ Im Tab "Teilnehmer:innen" sehen Sie als Betreuer:in, wer seine Themenwünsche sc
     Davon sollte jedoch möglichst nur in Ausnahmesituationen Gebrauch gemacht werden.
 
 
+[nach oben (Perspektive Kursbetreuer:in) ^](#topic_broker_coaching)<br>
+[zum Seitenanfang ^](#topic_broker)
+
+
 ### Themenzuordnung (Definitive Einschreibung ausstehend)
 
 Der Prozess verläuft in den Schritten
@@ -141,6 +166,9 @@ Es muss nun eine Zuordnung von Teilnehmer:innen und Themen durchgeführt werden.
 
 Die Ausführung des Zuordnungsprozesses kann **automatisch oder manuell angestossen** werden. Auf welche Art der Prozess angestossen wird, wird von Kursbesitzer:innen im Kurseditor im **Tab "Konfiguration"** festgelegt. 
 
+[nach oben (Perspektive Kursbetreuer:in) ^](#topic_broker_coaching)<br>
+[zum Seitenanfang ^](#topic_broker)
+
 
 ### Automatische Themenzuordnung {: #topic_broker_assignment_automatically}
 
@@ -151,6 +179,9 @@ Der Zuordnungsalgorithmus wird **nur einmal ausgeführt**. Das gefundene Zuordnu
 Betreuer:innen können die Einschreibungen jedoch manuell nachbessern und abändern (siehe [Korrektur](Course_Element_Topic_Broker.de.md#topic_broker_adjustment)).
 
 Nach einer automatischen Zuordnung wird immer eine Mail an alle Kursteilnehmer:innen verschickt.
+
+[nach oben (Perspektive Kursbetreuer:in) ^](#topic_broker_coaching)<br>
+[zum Seitenanfang ^](#topic_broker)
 
 
 ### Manuelle Themenzuordnung/Einschreibung durch Betreuer:innen {: #topic_broker_assignment_manually}
@@ -177,7 +208,8 @@ Auch beim manuellen Anstoss kann bestimmt werden, dass im Anschluss die Teilnehm
     Dies kann z.B. erforderlich sein, wenn eine Person nach Ablauf des Zeitfensters noch keine Themenangabe gemacht hatte und deshalb vom Algorithmus nicht zugeordnet werden konnte. 
 
 
-
+[nach oben (Perspektive Kursbetreuer:in) ^](#topic_broker_coaching)<br>
+[zum Seitenanfang ^](#topic_broker)
 
 
 ### Themenzuordnung beeinflussen {: #topic_broker_boost}
@@ -186,7 +218,8 @@ Mit einer **Boost-Funktion** können Betreuer:innen pro Einzelperson eine Gewich
 
 ![course_element_topic_broker_boost_v1_de.png](assets/course_element_topic_broker_boost_v1_de.png){ class="shadow lightbox" }
 
-
+[nach oben (Perspektive Kursbetreuer:in) ^](#topic_broker_coaching)<br>
+[zum Seitenanfang ^](#topic_broker)
 
 
 ### Korrektur der Themenzuordnung/Einschreibung durch Betreuer:innen {: #topic_broker_adjustment}
@@ -202,6 +235,9 @@ Eine Einschreibung (auch automatisch vorgenommene) kann von Betreuer:innen wiede
 ![course_element_topic_broker_enrollment_manually2_v1_de.png](assets/course_element_topic_broker_enrollment_manually2_v1_de.png){ class="shadow lightbox" }
 
 
+[nach oben (Perspektive Kursbetreuer:in) ^](#topic_broker_coaching)<br>
+[zum Seitenanfang ^](#topic_broker)
+
 
 ### Export der Themenwünsche und Priorisierungen {: #topic_broker_export}
 
@@ -212,6 +248,8 @@ Der Button ist sowohl im Kurseditor (für Kursbesitzer:innen) als auch im Run-Mo
 ![course_element_topic_broker_topic_export_coach_v1_de.png](assets/course_element_topic_broker_topic_export_coach_v1_de.png){ class="shadow lightbox" }
 
 
+[nach oben (Perspektive Kursbetreuer:in) ^](#topic_broker_coaching)<br>
+[zum Seitenanfang ^](#topic_broker)
 
 ---
 
@@ -226,6 +264,10 @@ Je nach voreingestellter Berechtigung können Teilnehmer:innen auch eine Einschr
 
 ![course_element_topic_broker_topic_participant_choose_v1_de.png](assets/course_element_topic_broker_topic_participant_choose_v1_de.png){ class="shadow lightbox" }
 
+[nach oben (Perspektive Kursteilnehmer:in) ^](#topic_broker_participant)<br>
+[zum Seitenanfang ^](#topic_broker)
+
+
 ### 2. Schritt: Themen priorisieren
 
 Wenn Sie aus vielen Themen wählen können, empfiehlt es sich, zunächst alle in Frage kommenden Themen in Ihre Auswahl aufzunehmen. Sie können in einem zweiten Schritt dann in dieser Vorauswahl eine Rangliste erstellen.
@@ -234,11 +276,19 @@ Solange die Auswahl noch im Gang ist (das Zeitfenster dafür noch nicht geschlos
 
 ![course_element_topic_broker_topic_participant_choose_priority_v1_de.png](assets/course_element_topic_broker_topic_participant_choose_priority_v1_de.png){ class="shadow lightbox" }
 
+[nach oben (Perspektive Kursteilnehmer:in) ^](#topic_broker_participant)<br>
+[zum Seitenanfang ^](#topic_broker)
+
+
 ### 3. Schritt: Zuordnung abwarten
 
 Sie werden informiert, sobald Ihnen ein Thema zugeteilt worden ist. Die definitive Zuordnung und Einschreibung (durch Ihren Betreuer/Ihre Betreuerin) findet erst statt, wenn der Zeitraum für die Auswahl abgelaufen ist und alle Kursteilnehmer:innen ihre Wünsche abgegeben haben. (Um eine gerechte Zuteilung zu ermöglichen, wird durch OpenOlat ein Zuteilungsvorschlag von einem Algorithmus erstellt.)
 
 ![course_element_topic_broker_participant_v1_de.png](assets/course_element_topic_broker_participant_v1_de.png){ class="shadow lightbox" }
+
+[nach oben (Perspektive Kursteilnehmer:in) ^](#topic_broker_participant)<br>
+[zum Seitenanfang ^](#topic_broker)
+
 
 ### 4. Schritt: Einschreibung(en) abfragen
 
@@ -246,6 +296,9 @@ Sobald die endgültige Einschreibung durch den/die Betreuer:in vorgenommen wurde
 
 ![course_element_topic_broker_participant_enrolled_v1_de.png](assets/course_element_topic_broker_participant_enrolled_v1_de.png){ class="shadow lightbox" }
 
+
+[nach oben (Perspektive Kursteilnehmer:in) ^](#topic_broker_participant)<br>
+[zum Seitenanfang ^](#topic_broker)
 
 ---
 
