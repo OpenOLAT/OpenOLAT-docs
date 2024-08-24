@@ -10,12 +10,12 @@ Der Content Editor wird an verschiedenen Stellen in OpenOlat verwendet.
 
 !!! info "Hinweis"
       
-    Neben dem Content Editor existiert in OpenOlat noch der HTML-Editor "Tiny MC", der z.B. im Kursbaustein "HTML-Seite" verwendet wird. 
+    Neben dem Content Editor existiert in OpenOlat noch der HTML-Editor "Tiny MC", der z.B. im [Kursbaustein "HTML-Seite"](../learningresources/Course_Element_HTML_Page.de.md) verwendet wird. 
 
 
 ## Wo kommt der Content Editor zum Einsatz?
 
-Der Content Editor wird im Kursbaustein "Seite", in der Lernressource "Formular" und im "Portfolio 2.0" verwendet.
+Der Content Editor wird im [Kursbaustein Seite](../learningresources/Course_Element_Page.de.md), in der [Lernressource "Formular"](../learningresources/Form.de.md) und im ["Portfolio 2.0"](../area_modules/The_portfolio_editor.de.md) verwendet.
 
 ### Kursbaustein Seite
 
@@ -25,13 +25,13 @@ Der Content Editor wird im Kursbaustein Seite entweder im Kurseditor im Tab „S
 
 ![content_editor_page_run_mode_v1_de.png](assets/content_editor_page_run_mode_v1_de.png){ class="shadow lightbox" }
 
-Über den Schiebeschalter können Sie den Bearbeitungsmodus ein- und ausschalten. 
+Über den Schiebeschalter kann der Bearbeitungsmodus ein- und ausgeschaltet werden. 
 
 **Im Kurseditor:**
 
 ![content_editor_page_edit_v1_de.png](assets/content_editor_page_edit_v1_de.png){ class="shadow lightbox" }
 
-Im Kurseditor kann konfiguriert werden, ob neben den Kursbesiter:innen auch Betreuende den jeweiligen Content Editor des Kursbausteins verwenden und Änderungen vornehmen dürfen. 
+Im Kurseditor kann konfiguriert werden, ob neben den Kursbesiter:innen auch Betreuende den jeweiligen Content Editor des Kursbausteins bei geschlossenem Kurseditor verwenden und Änderungen vornehmen dürfen. 
 
 ![content_editor_page_edit_right_coach_v1_de.png](assets/content_editor_page_edit_right_coach_v1_de.png){ class="shadow lightbox" }
 
@@ -42,32 +42,27 @@ Für Portfolio und Formular-Lernressource gelten andere Regeln.
 
 ### Lernressource Formular
 
-Der Content Editor wird auch in der [Lernressource Formular](../learningresources/Form.de.md) und somit mittelbar in den Kursbausteinen Formular und Umfrage eingesetzt. Die angezeigten Optionen zum Einfügen von Inhalt sind an das Formular angepasst, z.B. stehen hier verschiedene Fragetypen zur Auswahl.
+Der Content Editor wird auch in der [Lernressource Formular](../learningresources/Form.de.md) und somit mittelbar in den Kursbausteinen Formular und Umfrage in OpenOlat Kursen eingesetzt. Die angezeigten Optionen zum Einfügen von Inhalt sind an das Formular angepasst, z.B. stehen hier verschiedene Fragetypen zur Auswahl.
 
 ![Inhalte hinzufügen im Formular](assets/Formular_Inhalt_hinzufuegen19.jpg){ class="shadow lightbox" }
 
 ### E-Portfolio
 
-Auch für Einträge in [Portfolio-Mappen](../area_modules/The_portfolio_editor_17_1.de.md) wird der Content Editor verwendet.
+Auch für Einträge in [Portfolio-Mappen](../area_modules/The_portfolio_editor_17_1.de.md), die sowohl kursunabhängig als auch in Verbindung mit [Portfoliovorlagen](../learningresources/Portfolio_template_Creation.de.md) und [Portfolioaufgaben](../learningresources/Course_Element_Portfolio_Task.de.md) verwendet werden können, wird der Content Editor verwendet.
 
 ![content_editor_layout_portfolio_v1_de.png](assets/content_editor_layout_portfolio_v1_de.png){ class="shadow lightbox" }
 
 
 ## Layout im Content Editor
 
-Wenn Sie den Content Editor aufrufen müssen Sie als erstes ein neues Layout einfügen. Hierfür stehen mehrere Optionen zur Auswahl. 
+Bevor Sie Inhalte im Content Editor einfügen können, müssen Sie zuerst ein "neues Layout" hinzufügen. Das Layout dient als Raster, das die Anordnung der Inhalte (Blöcke) bestimmt.
 
-**Was ist ein Layout?**
+Es stehen verschiedene Layouts zur Auswahl, die sich durch unterschiedlich angeordnete Felder unterscheiden. Sie können auf einer Seite auch mehrere Layouts kombinieren.
 
-* Ein Layout ist ein Raster, das die Inhalte (Blöcke) strukturiert.
-* Es können mehrere Layouts in einem Kursbaustein "Seite" eingefügt werden.
-* Es stehen mehrere Layouts zur Auswahl, die sich durch unterschiedlich angeordnete Felder unterscheiden.
-
-Die Wahl eines konkreten Layouts kann später jederzeit wieder geändert werden. Klicken Sie hierfür einfach auf das Zahnrad des Layouts (Einstellungen bearbeiten) und wählen Sie ein neues Layout aus. 
+Falls nötig, lässt sich das Layout später jederzeit ändern. Klicken Sie dazu einfach auf das Zahnrad-Symbol (Einstellungen bearbeiten) des Layouts und wählen Sie ein neues Layout aus.
 
 ![Layout Wahl](assets/Lyout_Formular.jpg/){ class="shadow lightbox" }
 
-Sie können auch mehrere unterschiedliche Layouts miteinander kombinieren. 
 Sind mehrere Layouts vorhanden, können Sie die Reihenfolge der Layouts ändern. 
 Zum Verschieben eines gesamten Layouts verwenden Sie die Pfeile.
 
@@ -82,7 +77,7 @@ In jeden Bereich eines Layouts können Inhalts-Blöcke mit verschiedenen konkret
 
 ### Inhalte in einem Block hinzufügen, positionieren und konfigurieren
 
-Über "Inhalt hinzufügen" werden dann die konkreten Inhalte und Medien einem Block hinzugefügt. 
+Über "Inhalt hinzufügen" werden die konkreten Inhalte und Medien einem Block hinzugefügt. 
 
 Sobald ein hinzugefügter Inhalt angeklickt/markiert worden ist, erscheint ein Popup-Fenster, in dem Eigenschaften dieses Inhalts eingestellt werden können. Das ist der sogenannte "Inspektor". 
 
@@ -90,7 +85,9 @@ Das Inspektor-Popup lässt sich auch mit dem Zahnrad-Icon des Inhalts ein- und a
 
 ![content_editor_inspector_v1_de.png](assets/content_editor_inspector_v1_de.png){ class="shadow lightbox" }
 
-Neben dem Zahnradsymbol gibt es noch ein 3-Punkte Menü und ein Fadenkreuz. Über das Fadenkrueuz können weitere Inhaltselemente davor oder danach hinzugefügt oder das markierte Element gelöscht werden. Über das Fadenkreuz kann das markierte Element per Drag & Drop an eine andere Position, einen anderen Inhalts-Block oder ein anderes Layout verschoben werden.  
+**Menüs**
+
+Neben dem Zahnradsymbol gibt es noch ein 3-Punkte Menü und ein Fadenkreuz. Über das Fadenkreuz können weitere Inhaltselemente davor oder danach hinzugefügt oder das markierte Element gelöscht werden. Über das Fadenkreuz kann das markierte Element per Drag & Drop an eine andere Position, einen anderen Inhalts-Block oder ein anderes Layout verschoben werden.  
 
 ![content_editor_content_move_v1_de.png](assets/content_editor_content_move_v1_de.png){ class="shadow lightbox" }
 
@@ -106,7 +103,7 @@ Für die ansprechende Gestaltung eines Layouts sind einheitliche Abstände zwisc
 * M (mittel)
 * L (gross)
 * XL (extragross)
-* benutzerdefinert
+* benutzerdefiniert
 
 
 === "S (kleiner Abstand)"
@@ -138,7 +135,7 @@ Beispiel:
 
 Bitte beachten Sie, dass nicht in jedem Content Editor *alle* Elemente zur Verfügung stehen. 
 
-### Text
+### Text Elemente
 
 <h3>Titel</h3>
 
@@ -171,17 +168,23 @@ Der 'Code' Block ermöglicht die Textdarstellung in einer Schriftart mit festen 
 
 ![content_editor_content_code_v1_de.png](assets/content_editor_content_code_v1_de.png){ class="shadow lightbox" }
 
+Dieses Textelement existiert nicht im Formular Editor. 
+
 <h3>Zitat</h3>
 
 Wird ein Text als Zitat erfasst, hat er automatisch eine vordefinierte Formatierung. Die Zitate werden wie Audios oder Videos als wiederverwendbare Objekte im Medien Center gespeichert.  
 
-Dieses Inhaltselement existiert nur im Portfolio. 
+Dieses Textelement existiert nicht im Formular Editor. 
 
 ### Medien
 
+!!! info "Info"
+
+    Statt des Bereichs Medien mit den zugehörigen Inhaltselementen gibt es im [Formular Editor](../learningresources/Form_editor_17_1.de.md) die Bereiche "Fragetypen" und "Organisatorisch" mit entsprechenden Inhaltselementen. 
+
 <h3>Bild</h3>
 
-Es können alle im Medien Center verfügbaren Bilder eingebunden werden. Neue Bilder können hochgeladen werden und sind dann im Medien Center abgelegt.
+Alle im Medien Center verfügbaren Bilder können eingebunden werden. Neue Bilder lassen sich hochladen und werden automatisch im Medien Center abgelegt.
 
 
 <h3>Galerie</h3>
@@ -199,7 +202,7 @@ Zwei übereinander liegende Bilder können durch einen Schieberegler überblende
 
 <h3>Audio</h3>
 
-Audios können direkt in OpenOlat neu aufgenommen werden, hochgeladen oder aus den bereits vorhandenen Audios ausgewählt werden.
+Audios können direkt in OpenOlat neu aufgenommen, hochgeladen oder aus den bereits vorhandenen Audios ausgewählt werden.
 
 ![content_editor_content_audio_v1_de.png](assets/content_editor_content_audio_v1_de.png){ class="shadow lightbox" }
 
@@ -207,14 +210,16 @@ Audios können direkt in OpenOlat neu aufgenommen werden, hochgeladen oder aus d
 <h3>Video</h3>
 
 Im Block 'Video' können auch Videos per URL eingebunden werden. <br>
-Unterstützt werden die Video-Formate MP4 und m3u8 sowie die Plattformen Youtube, Vimeo, Panopto und nanoo.tv. <br>
-Auch die Aufzeichnung neuer Videos direkt in OpenOlat ist möglich.
+Unterstützt werden die Video-Formate MP4 und m3u8 sowie die Plattformen YouTube, Vimeo, Panopto und nanoo.tv. Auch die Aufzeichnung neuer Videos direkt in OpenOlat ist möglich.
 
 
 <h3>Dokument</h3>
 
-Dokumente (wie z.B. pdf- oder Word-Dateien) können per Drag&drop hochgeladen werden. Sie werden im Medien Center abgelegt. Fürs Medien Center können hier Beschreibungen und Angaben unter "Share" gemacht werden. Die zunächst nur für diesen Inhaltsblock hochgeladene Datei kann dann ggf. auch anderweitig und durch andere OpenOlat-Autor:innen verwendet werden.
-Auf Wunsch können die Dokumente auch bearbeitbar im Medien Center abgelegt werden.
+Hier können Dokumente in verschiedenen Formaten (z.B. PDF- oder Word-Dateien) per Drag & Drop hochgeladen, aus dem Medien Center ausgewählt oder in bestimmten Formaten direkt erstellt werden. Die Medien werden automatisch im Medien Center abgelegt.
+
+Über das Inspektor-Menü haben Sie ebenfalls Zugriff auf das Medien Center, um den Dokumenten zusätzliche Informationen hinzuzufügen und weitere Freigaben zu definieren. Eine Datei, die zunächst nur für einen Inhaltsblock vorgesehen war, kann dadurch auch anderweitig genutzt oder von anderen OpenOlat-Benutzer:innen bearbeitet werden.
+
+Zusätzlich besteht im Bereich "Share" die Möglichkeit, für neu erstellte oder hochgeladene Dokumente direkt eine Freigabe zu erteilen.
 
 ![content_editor_content_document_upload_v1_de.png](assets/content_editor_content_document_upload_v1_de.png){ class="shadow lightbox" }
 
@@ -225,16 +230,18 @@ Es können bereits vorhandene Diagramme aus dem Medien Center geladen werden ode
 
 ![content_editor_content_drawio_v1_de.png](assets/content_editor_content_drawio_v1_de.png){ class="shadow lightbox" }
 
-Das Inhaltselement steht in der Lernressource Formular nicht zur Verfügung. 
 
 ### Wissen 
 
+!!! info "Info"
+
+    Dieser Bereich existiert nur im Content Editors des Kursbaustein Seite.
+
 <h3>Quiz</h3>
 
-Im Kursbaustein Seite gibt es im Content Editor auch die Möglichkeit neben Inhalten und Informationen auch Quizfragen in die Seite einzubauen. Es können neue automatisch auswertbare Quizfragen erstellt oder Fragen aus dem Fragenpool hinzugefügt werden. Zu jeder Frage können auch mehrere ausführliche Feedbacks hinzugefügt werden (inkl. Bildern und Videos). 
+Mit diesem Inhaltselement können automatisiert auswertbare Quizfragen in eine Seite eingebunden werden. Sie haben die Möglichkeit, neue Fragen zu erstellen oder bestehende Fragen aus dem Fragenpool hinzuzufügen. Zu jeder Frage lassen sich zudem Feedbacks ergänzen, inklusive Bildern und Videos, was den Lernwert steigert.
 
-Diese kleinen Quizfragen sollen die Auseinanderserzung mit den Inhalten unterstützen. Es werden jedoch keine Punkte vergeben. 
-Für auswertbare Quizfragen verwenden Sie den Kursbaustein "Test" oder "Selbsttest".
+Diese kleinen Quizfragen sollen die Auseinandersetzung mit den Inhalten fördern, vergeben jedoch keine Punkte. Für bewertbare Quizfragen nutzen Sie bitte die Kursbausteine "Test" oder "Selbsttest".
 
 ![content_editor_content_quiz_v2_de.png](assets/content_editor_content_quiz_v2_de.png){ class="shadow lightbox" }
 
@@ -244,14 +251,16 @@ Für auswertbare Quizfragen verwenden Sie den Kursbaustein "Test" oder "Selbstte
 
 Ein Separator ist eine Linie (optisches Gestaltungselement) zur Trennung von Inhalten.
 
-### Medien Center
+<h3>HTML-Textcode</h3>
+Ausschließlich im Editor des Kursbausteins Seite gibt es noch den HTML-Textcode Editor. Er übernimmt ähnliche Funktionen wie das Inhaltselement "Text" bietet aber noch weitere Menüs und Möglichkeiten. 
 
-Im Medien Center können verschiedene Medientypen abgelegt werden. Statt auf einen ganz bestimmten Inhaltstyp, können Sie unter dieser Auswahloption im Kursbaustein "Seite" und im Portfolio direkt auf alle für Sie im Medien Center freigegebenen Medien unterschiedlichster Typen zugreifen.
 
-Mit dem Button "Mediendatei hinzufügen" erstellen Sie direkt neue Mediendateien. 
+## Medien Center
+Im Content Editor des Kursbausteins Seite und es Portfolios gibt es noch einen separaten Button, der zum Medien Center führt. Im Prinzp handelt es sich dabei um einen weiteren Weg unabhängig von der Art des Mediums auf die Dateien zuzugreifen. 
+
+Mit Klick auf den Link erhalten Sie Zugriff auf die Dateien Ihres Medien Center. Hier können Sie Dateien auswählen, erstellen oder hochladen. 
 
 ![content_editor_content_media_center_v2_de.png](assets/content_editor_content_media_center_v2_de.png){ class="shadow lightbox" }
 
-!!! info "Hinweis"
-      
-    Zum Medien Center finden Sie mehr Informationen hier:<br> [Benutzerhandbuch > Persönliches Menü > Persönliche Werkzeuge > Medien Center](../personal_menu/Media_Center.de.md)
+Weitere Infos zum Medien Center finden Sie im Bereich der 
+[Persönliche Werkzeuge > Medien Center](../personal_menu/Media_Center.de.md). 
