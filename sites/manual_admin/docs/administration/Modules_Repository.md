@@ -1,4 +1,4 @@
-# Module: Repository
+# Module Repository
 
 In the tab `Administration → Modules → Repository` multiple settings can be made. 
 Beside general settings about the course, the life cycle can be managed automatically. 

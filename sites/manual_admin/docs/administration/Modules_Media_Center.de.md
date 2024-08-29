@@ -1,4 +1,4 @@
-# Medien Center
+# Modul Medien Center
 
 
 Die Konfiguration des Medien Centers kann von Administrator:innen vorgenommen werden unter<br>

@@ -1,4 +1,4 @@
-# Modul: Repository
+# Modul Repository
 
 Im Tab `Administration → Modules → Repository` können diverse Einstellungen vorgenommen werden.
 Nebst allgemeinen Einstellungen zum Kurs kann hier der Lebenszyklus automatisch verwaltet werden. 

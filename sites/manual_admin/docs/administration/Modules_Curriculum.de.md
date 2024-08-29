@@ -1,4 +1,4 @@
-# Modul: Curriculum
+# Modul Curriculum
 
 ## Aktivierung des Curriculums
 

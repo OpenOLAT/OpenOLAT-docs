@@ -1,4 +1,4 @@
-# Module: OAI PMH
+# Modul OAI PMH
 
 !!! abstract ""
     zu :octicons-tag-24: Release 17.2 verfügbar

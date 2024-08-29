@@ -1,4 +1,4 @@
-# Lektionen- und Absenzenmanagement
+# Modul Lektionen- und Absenzenmanagement
 
 Bevor das Lektionen- und Absenzenmanagement genutzt werden kann, muss dies in
 der Administration aktiviert werden. 

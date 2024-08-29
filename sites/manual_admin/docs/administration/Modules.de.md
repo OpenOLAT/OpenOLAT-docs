@@ -31,7 +31,7 @@
   * [Qualitätsmanagement](Modules_Quality_Management.de.md)
   * [SEO / OAI-PMH Metadaten](Modules_OAI.de.md) 
 
-Vi
+
 ## Instant-Messaging
 Siehe [Instant-Messaging](Instant_Messaging.de.md)
 

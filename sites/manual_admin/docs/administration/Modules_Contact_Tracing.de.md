@@ -1,4 +1,4 @@
-# Modul: Kontaktverfolgung
+# Modul Kontaktverfolgung
 
 Mit diesem Modul ermöglicht OpenOlat eine software-unterstützte physische
 Kontaktverfolgung an einer Institution.

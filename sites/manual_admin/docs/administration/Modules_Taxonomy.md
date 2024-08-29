@@ -1,4 +1,4 @@
-# Modules: Taxonomy
+# Module Taxonomy
 
 !!! info "What is a taxonomy?"
 

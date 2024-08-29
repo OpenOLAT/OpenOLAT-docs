@@ -1,4 +1,4 @@
-# Modules: OAI-PMH
+# Module OAI-PMH
 
 !!! abstract ""
     available on :octicons-tag-24: Release 17.2 

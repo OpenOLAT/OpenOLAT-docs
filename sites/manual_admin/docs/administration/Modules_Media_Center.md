@@ -1,4 +1,4 @@
-# Media Center
+# Module Media Center
 
 The configuration of the media center can be made by the administrator under<br>
 **Administration > Module > Media Center**

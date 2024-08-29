@@ -1,4 +1,4 @@
-# Modules: Curriculum
+# Modules Curriculum
 
 ## Activation of the Curriculum
 

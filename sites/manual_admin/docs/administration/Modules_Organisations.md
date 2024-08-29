@@ -1,4 +1,4 @@
-# Modules: Organisations
+# Module Organisations
 
 ##  Activation of the organizational structures
 

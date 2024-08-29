@@ -1,4 +1,4 @@
-# Modules: Dokumentenpool
+# Modul Dokumentenpool
 
 !!! info "Was ist der Dokumentenpool?"
 

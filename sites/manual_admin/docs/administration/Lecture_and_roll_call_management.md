@@ -1,4 +1,4 @@
-# Lecture and roll call management
+# Module Lecture and Roll Call Management
 
 Before the lectures and absence management can be used it need to be activated
 in the administration. 

@@ -1,4 +1,4 @@
-# Modules: Contact Tracing
+# Module Contact Tracing
 
 With this module, OpenOlat enables software-supported physical contact tracing
 at an institution.

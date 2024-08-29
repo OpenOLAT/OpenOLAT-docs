@@ -1,4 +1,4 @@
-# Module: Catalog
+# Module Catalog
 
 ## Settings
 

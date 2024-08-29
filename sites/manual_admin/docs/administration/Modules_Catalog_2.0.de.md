@@ -1,4 +1,4 @@
-# Modul: Katalog
+# Modul Katalog
 
 ## Tab Einstellungen
 
