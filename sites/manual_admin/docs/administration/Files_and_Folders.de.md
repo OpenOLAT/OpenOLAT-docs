@@ -33,8 +33,6 @@ und Miniaturansichten und können diesbezüglich Aktionen vornehmen.
 
 ### Versionierung {: #files_and_folders_configuration_versions}
 
-Im **Abschnitt "Versionierung"** kann die maximale Anzahl von Versionen für eine Datei
-definiert werden.
 
 Bei eingeschalteter Versionierung werden Dateien nicht überschrieben, sondern
 als neue Version (auch Revision genannt) angelegt. Ältere Versionen eines
@@ -48,6 +46,9 @@ zwischenzeitlich eine neue Version erstellt.
 Die Versionierung ist in allen Ordnern des Systems vorhanden: persönliche
 Ordner, Gruppenordner, Kursordner, Ressourcenordner und Kursbausteine
 "Ordner".
+
+Im **Abschnitt "Versionierung"** kann die maximale Anzahl von Versionen für eine Datei
+definiert werden.
 
 **Button "Versionen aufräumen"**<br>
 Die Versionierung kann von der Anzahl her angepasst werden. Wird jetzt
