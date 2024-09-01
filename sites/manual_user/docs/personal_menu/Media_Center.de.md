@@ -4,7 +4,9 @@
 
 ![icon_media_center.png](assets/icon_media_center.png)
 
-Das Medien Center ist eine **zentrale Sammelstelle** für unterschiedlicher Medientypen. Medien können...
+Das Medien Center ist eine **zentrale Sammelstelle** für unterschiedlicher Medientypen. 
+
+Medien können...
 
 * ... direkt im Medien Center erstellt werden 
 * ... in verschiedenen Kursbausteinen erstellt und dann im Medien Center abgelegt werden
@@ -70,10 +72,7 @@ Um Medien im Medien Center zu hinterlegen gibt es verschiedene Wege:
 
 ### Neue Medien jenseits des Medien Centers im Content Editor erstellen
 
-Medien für das Medien Center können auch im OpenOlat Kurs oder im Portfolio per [Content Editor](../basic_concepts/Content_Editor.de.md) angelegt werden. Im Kurs geht das z.B. über den Kursbaustein ["Seite"](../learningresources/Course_Element_Page.de.md). Gehen Sie in den Bearbeitungsmodus und wählen Sie "Inhalt hinzufügen" aus. Anschliessend erscheint die Option **"Aus meinem Medien Center wählen"**.
-![Medium auswählen aus dem Mediencenter1](assets/Inhalt_hinzufeugen_m1.jpg){ class=" shadow lightbox" }
-
- Hier stehen dann alle Möglichkeiten wie beim direkten Erstellen im Medien Center zur Verfügung.
+Medien für das Medien Center können auch im OpenOlat Kurs oder im Portfolio per [Content Editor](../basic_concepts/Content_Editor.de.md) angelegt werden. Im Kurs geht das z.B. über den Kursbaustein ["Seite"](../learningresources/Course_Element_Page.de.md). Gehen Sie in den Bearbeitungsmodus und wählen Sie "Inhalt hinzufügen" aus. Es erscheint u.a. ein Button zum "Medien Center".  Klicken Sie auf den Button und sie gelangen zum Medien Center mit allen entsprechenden Möglichkeiten. 
 
 ![Medium auswählen aus dem Mediencenter2](assets/Medien_center_wahlen.jpg){ class=" shadow lightbox" }
 
@@ -125,7 +124,7 @@ Jedes Medienelement umfasst folgende Tabs:
 * **Freigaben:** Hier kann festgelegt werden, für wen ein Inhaltselement freigegeben wird. Teilnehmende können nur Gruppen definieren. Autoren haben mehr Möglichkeiten und können spezifische OpenOlat Benutzer, Gruppen, oder Kurse angeben. Durch die Freigabe können Dateien auch kollaborativ genutzt werden, wenn die Bearbeitung erlaubt wird.
 Darüber hinaus können über das 3Punkte-Menü auch einzelne Medien heruntergeladen oder gelöscht werden. 
 
-![media_center_download_v1_de.png](assets/media_center_download_v1_de.png){ class=" shadow lightbox" }
+![Medien Center 3-Punkte Menü](assets/Medien_Center_Menue.jpg){ class=" shadow lightbox" }
 
 !!! info "Tipp"
 

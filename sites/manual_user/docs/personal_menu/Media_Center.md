@@ -49,7 +49,7 @@ Different **file formats** and **content elements** are stored in the media cent
 * certificates of achievement from courses
 
 
-# Add media to the Media center
+## Add media to the Media center
 
 ![My media center add media](assets/My_media_cemter_add_media_en.png){ class=" shadow lightbox" }
 
@@ -72,12 +72,12 @@ There are various ways to store media in the Media center:
 
 ### Create new media beyond the Media Center in the Content Editor
 
-Media for the Media Center can also be created in the OpenOlat course or in the portfolio using the [content editor](../basic_concepts/Content_Editor.md). In the course, for example, this can be done via the course element ["Page"](../learningresources/Course_Element_Page.md). Go to edit mode and select "Add content". The option **"Select from my Media Center"** will then appear next to opther options.
-![Medium auswählen aus dem Mediencenter1](assets/page_select_media_center_en.png){ class=" shadow lightbox" }
+Media for the Media Center can also be created in the OpenOlat course or in the portfolio using the [content editor](../basic_concepts/Content_Editor.md). In the course, for example, this can be done via the course element ["Page"](../learningresources/Course_Element_Page.md). 
 
-All the same options are available here as when creating directly in the Media Center.
+Go to edit mode and select "Add content". Among other things, a button for the “Media Center” will appear.  Click on the button and you will be taken to the Media Center with all the corresponding options. 
 
-![Medium auswählen aus dem Mediencenter2](assets/Medien_center_wahlen_en.jpg){ class=" shadow lightbox" }
+
+![Select medium from the media center](assets/Medien_center_wahlen_en.jpg){ class=" shadow lightbox" }
 
 ### Collect content elements and link them to the Media Center
 
@@ -92,7 +92,7 @@ The elements include:
 
 For example, to add a post, open your forum post and click on the puzzle piece.
 
-![forumseintrag.png](assets/Puzzle_Sammlung.jpg){ class=" shadow lightbox" }
+![collect forum entry](assets/Puzzle_Sammlung.jpg){ class=" shadow lightbox" }
 
 A page will then appear where you can enter the title, tags and a description for the post content. After saving, the post will be displayed in your Media Center.
 
@@ -127,7 +127,7 @@ Each media element includes the following tabs:
 * **Shares:** Here you can define who a content element is shared with. Participants can only define groups. Authors have more options and can specify specific OpenOlat users, groups or courses. Sharing also allows files to be used collaboratively if editing is permitted. 
 In addition, individual media can also be downloaded or deleted via the 3-dot menu.
 
-![media_center_download_v1_de.png](assets/media_center_download_v1_de.png){ class=" shadow lightbox" }
+![Medien Center 3-Punkte Menü](assets/Medien_Center_Menue.jpg){ class=" shadow lightbox" }
 
 !!! info "Hint"
 
@@ -145,7 +145,7 @@ You can also delete individual files in the 3-dot menu if you have clicked on an
 
     Please note that you can only delete **your own** media that are not integrated in other places in OpenOlat.
 
-## Quota
+### Quota
 
 The storage space available in the Media Center can be limited by the OpenOlat administrator. You can find the information about the storage space already used in the bottom left corner.
 

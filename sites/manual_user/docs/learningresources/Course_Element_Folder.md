@@ -12,27 +12,15 @@ Assessable | no
 Specialty / Note | A similar course element is the course element "Participant folder".
 
 
-In the course element "Folder" you can offer files to be downloaded. Often folders are used to provide course participants with scripts or slides regarding your course. But the course element offers even more possibilities. Furthermore, the course element can also be configured in the tab "Folder configuration" to allow participants to upload and edit files.
+In the course element "Folder" you can offer files to be downloaded. Often folders are used to provide course participants with scripts or slides regarding your course. 
+ The “folder” can also be configured as a collaborative tool for learners to upload files.
 
-Please note: The order of the files is not fixed. The user can sort the files according to the columns by name, size and modification date.
 
-## General
-
-In the course element "Folder" teachers can provide files for download. By default, course element folders are configured in such a way that only owners and coaches are allowed to upload files and course participants only have the right to read or download files.
-
-Subscribe to the folder to be notified when new documents are added. You can find out about changes by e-mail or under "Subscriptions" in OpenOlat.
-
-If the folder is used to allow course participants to upload files as well, you will find the corresponding functions in the bar above the files. You can then also delete files, set up subfolders. If you want to prevent someone from deleting your files, you can click the [Metadata](../basic_concepts/Full_Text_Search.md#full-text-search) icon in the table view and lock the file.
-
-![Locked files in folder](assets/KB_Ordner_schloss.png)
-
-!!! info "Attention"
-
-    Do not confuse: In addition to download folders in courses, learners also have [Personal Folders](../personal_menu/Personal_folders.md) available that can be used for individual learning regardless of the course. Furthermore, there is the course element "Participant Folder" (see below).
-
-##  Tab Folder Configuration {: #config}
+## Configuration in the course editor: Tab Folder Configuration {: #config}
 
 ![tab folder configuration](assets/folger_configuration_15.png)
+
+The folder is configured in the course editor in the “Folder configuration” tab.
 
 In the tab "Folder configuration" of the course element you define where exactly the files of this folder should be stored in the folder of the course. For this OpenOlat can either generate a folder automatically or select a specific folder from the course folder.
 
