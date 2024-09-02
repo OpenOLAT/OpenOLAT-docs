@@ -1,32 +1,31 @@
-# Kurseinstellungen - Tab Bewertung {: #assessment}
+# Kurseinstellungen - Tab Bewertung {: }
 
 In Lernpfad-Kursen werden in diesem Tab die Einstellungen für die **Bewertungsmethode** und das **Bestehen** des Kurses definiert.<br>
 Ausserdem können Sie die Verwendung von **Leistungsnachweisen** und die Vergabe von **Zertifikaten** und **Badges** aktivieren. 
 
-![course_settings_assessment_v1_de.png](assets/course_settings_assessment_v1_de.png){ class="shadow lightbox" }
+![course_settings_assessment_v2_de.png](assets/course_settings_assessment_v2_de.png){ class="shadow lightbox" }
 
 
-## Einstellungen Bewertung (nur bei Lernpfad-Kursen)
 
 
-!!! hint "Bewertung bei herkömmlichen Kursen"
+## Kursbewertung mit Punkten (nur bei Lernpfad-Kursen)
 
-    Bei herkömmlichen Kursen werden die Kriterien für das Bestehen eines Kurses im Kurseditor auf dem obersten Kursbaustein im Tab "Punkte" eingestellt und das Ergebnis wird auf der Kursstartseite angezeigt.
+Für die Kursbewertung mit Punkten stehen 3 Möglichkeiten zur Auswahl:
 
-Bei [Lernpfad-Kursen](Learning_path_course.de.md) wird im Tab "Bewertung" die Bewertungsmethode bestimmt:
-
-* Es kann festgelegt werden, dass die Bewertung mit **Punkten** erfolgen soll (3 verschiedene Arten).
-Hier kann definiert werden ob bzw. welche Art von Punkten noch ergänzend zu der Prozentanzeige im Kurs angezeigt wird. 
-![course_settings_assessment_points_percentage_v1_de](assets/course_settings_assessment_points_percentage_v1_de.png){ class="shadow lightbox" }
- 
-* Ausserdem können auch die Kriterien für das **Bestehen** des gesamten Kurses eingestellt werden.
+* Summe
+* Summe mit Gewichtung
+* Durchschnitt
 
 ### Kursbewertung mit Punkten: Summe
+
+Es wird aus allen im Kurs erzielten Punkten die Summe gebildet.
 
 ![course_settings_assessment_points_sum_v1_de.png](assets/course_settings_assessment_points_sum_v1_de.png){ class="shadow lightbox" }
 
 
 ### Kursbewertung mit Punkten: Summe mit Gewichtung
+
+Bei der Summenbildung fliesst die Gewichtung mit ein.
 
 ![course_settings_assessment_points_sum_with_weighting_v1_de.png](assets/course_settings_assessment_points_sum_with_weighting_v1_de.png){ class="shadow lightbox" }
 
@@ -39,33 +38,44 @@ In der **Kurs-Konfigurationsübersicht** kann die Skalierung für alle bewertbar
 Die gewichtete Punktzahl wird Betreuenden im Bewertungsformular angezeigt. Für Teilnehmende ist die gewichtete Punktzahl in der Leistungsübersicht des jeweiligen bewertbaren Bausteins sowie im Leistungsnachweis sichtbar.
 
 
+
 ### Kursbewertung mit Punkten: Durchschnitt
 
 ![course_settings_assessment_points_sum_average_v1_de.png](assets/course_settings_assessment_points_sum_average_v1_de.png){ class="shadow lightbox" }
 
 !!! hint "Highscore"
 
-    Nur wenn unter "Kursbewertung mit Punkten" Summe oder Durchschnitt gewählt wurde, kann im Kurseditor auch der Reiter "Highscore" des obersten Kursbausteins konfiguriert werden.
+    Nur wenn unter "Kursbewertung mit Punkten" **Summe** oder **Durchschnitt** gewählt wurde, kann im Kurseditor auch der Reiter "Highscore" des obersten Kursbausteins konfiguriert werden.
+
+[zum Seitenanfang ^](#assessment)
 
 
-### Kursbewertung mit "Bestanden/Nicht bestanden"
+## Kursbewertung mit "Bestanden/Nicht bestanden"
 
-Ein Kurs kann als bestanden gelten, sobald eines der Kriterien zutrifft:
+Ein Lernpfad-Kurs kann als bestanden gelten, sobald eines der Kriterien zutrifft:
 
 * **Lernfortschritt 100 %**:<br> Wenn alle obligatorischen Kursbausteine abgeschlossen wurden und 100 % angezeigt wird, gilt der Kurs automatisch als bestanden.
 * **Alle Kursbausteine bestanden**:<br> Der Kurs gilt als bestanden, wenn alle bewertbaren Kursbausteine, die mit einem "bestanden/nicht bestanden" versehen sind, bestanden wurden, egal ob sich um obligatorische oder freiwillige Kursbausteine handelt. Um einzelne Kursbausteine auszunehmen, muss in der Konfiguration des Kursbausteins im Kurseditor "Bei Kurs-Bewertung ausschliessen" angehakt sein.
-* **Anzahl Kursbausteine bestanden**:<br> Hier können Sie definieren, wie viele Kursbausteine bestanden sein müssen, damit der gesamte Kurs als bestanden gilt.
-* **Punktschwelle erreicht**:<br> Hier können Sie definieren, wie viele Punkte Lernende erreichen müssen, damit der gesamte Kurs als bestanden gilt.
+* **Anzahl Kursbausteine bestanden**:<br> Hier können Sie definieren, wie viele und welche Kursbausteine bestanden sein müssen, damit der gesamte Kurs als bestanden gilt. Ob ein Kursbaustein bei der Gesamtbewertung berücksichtigt wird, muss allerdings im Kurseditor direkt beim jeweiligen Kursbaustein angegeben werden (Tab Bewertung).  
+* **Punktschwelle erreicht**:<br> Hier können Sie definieren, wie viele Punkte Lernende erreichen müssen, damit der gesamte Kurs als bestanden gilt. Ausserdem können Sie kontrollieren, von welchen Kursbausteinen die Punkte stammen müssen. Ob ein Kursbaustein bei der Gesamtbewertung berücksichtigt wird, muss im Kurseditor direkt beim jeweiligen Kursbaustein angegeben werden (Tab Bewertung).
 
 
-![course_settings_assessment_passed_v1_de.png](assets/course_settings_assessment_passed_v1_de.png){ class="shadow lightbox" }
+![course_settings_assessment_passed_v2_de.png](assets/course_settings_assessment_passed_v2_de.png){ class="shadow lightbox" }
 
-!!! hint "Bestanden-Kriterien"
+!!! info "Bestanden-Kriterien"
       
     Die einzelnen Kriterien sind eine "Oder-Verknüpfung". Es genügt also, wenn eines der genannten Kriterien zutrifft.
 
+!!! info "Welche Kursbausteine werden berücksichtigt?"
+      
+    Bei der Berechnung des **Lernfortschritts** zählen nur die **obligatorischen** Kursbausteine.
+    
+    Bei der Berechnung von "**Bestanden**" und **Punkten** zählen **obligatorische und freiwillige** Kursbausteine.
 
-### Bewertung durch Betreuende
+[zum Seitenanfang ^](#assessment)
+
+
+## Bewertung durch Betreuende
 
 Betreuenden kann gestattet werden ...
 
@@ -75,7 +85,23 @@ Betreuenden kann gestattet werden ...
 * eine Einstufung und Noten zuzuweisen,
 * und die Bewertung für die Teilnehmer:innen freizugeben. 
 
-![course_settings_assessment_coaches_v1_de.png](assets/course_settings_assessment_coaches_v1_de.png){ class="shadow lightbox" }
+![course_settings_assessment_coaches_v2_de.png](assets/course_settings_assessment_coaches_v2_de.png){ class="shadow lightbox" }
+
+
+
+
+!!! hint "Bewertung bei herkömmlichen Kursen"
+
+    Bei herkömmlichen Kursen werden die Kriterien für das Bestehen eines Kurses im Kurseditor auf dem obersten Kursbaustein im Tab "Punkte" eingestellt und das Ergebnis wird auf der Kursstartseite angezeigt.
+
+
+!!! hint "Punkteanzeige"
+
+    Wird in [Lernpfad-Kursen](Learning_path_course.de.md) mit **Punkten** bewertet, .
+    Hier kann definiert werden ob bzw. welche Art von Punkten noch ergänzend zu der Prozentanzeige im Kurs angezeigt wird. 
+    ![course_settings_assessment_points_percentage_v1_de](assets/course_settings_assessment_points_percentage_v1_de.png){ class="shadow lightbox" }
+ 
+[zum Seitenanfang ^](#assessment)
 
 
 ## Leistungsnachweis 
@@ -86,6 +112,7 @@ Der Link zum Leistungsnachweis erscheint im Kurs erst dann, wenn im Kurs mindest
 
 Wenn Sie die Funktion ausschalten, sehen Ihre Kursteilnehmenden keine Leistungsnachweise mehr. Die Leistungsnachweise gehen nicht verloren, sondern werden lediglich nicht mehr angezeigt. Wenn Sie den Leistungsnachweis wieder einschalten, stehen alle aktuellen Daten wieder zur Verfügung. Wenn Sie hingegen einen Kurs mit bestehenden Leistungsnachweisen löschen, können die Benutzer nach wie vor ihre Leistungsnachweise einsehen.
 
+[zum Seitenanfang ^](#assessment)
 
 
 ## (Kurs-)Zertifikat
@@ -209,6 +236,7 @@ Unterschriften, Logos o.ä. können über die optionalen Variablen als statische
 
 Sollten Sie eine Zertifikatvorlage wünschen, kontaktieren Sie uns unter [support@frentix.com](mailto:support@frentix.com) für einen Kostenvoranschlag für eine Vorlage gemäss Ihren individuellen Wünschen.
 
+[zum Seitenanfang ^](#assessment)
 
 
 ## Rezertifizierung
@@ -222,7 +250,7 @@ Die Option zur Rezertifizierung ist gekoppelt an
 * eine bestehende frühere (Erst-)Zertifizierung
 * eine definierte Angabe, ab wann frühestens eine Rezertifizierung möglich ist.
 
-![course_settings_assessment_recertification_v1_de.png](assets/course_settings_assessment_recertification_v1_de.png){ class="shadow lightbox" }
+![course_settings_assessment_recertification_v2_de.png](assets/course_settings_assessment_recertification_v2_de.png){ class="shadow lightbox" }
 
 
 **Rezertifizierung aktivieren**
@@ -240,6 +268,8 @@ Die Daten der teilnehmenden Personen werden bei der Rezertifizierung zurückgese
 
 Leistungsnachweise und Zertifikate früherer Durchgänge bleiben erhalten.
 
+[zum Seitenanfang ^](#assessment)
+
 
 ## Badges
 
@@ -247,7 +277,10 @@ Um Badges in Kursen nutzen zu können, müssen sie hier im Tab "Bewertung" der E
 
 Weitere Infos zu Badges finden Sie hier: 
 
-* [Infos für Kursbesitzer*innen:](../learningresources/OpenBadges.de.md) Erstellen und Bearbeiten von Badges
-* [Infos für Benutzer:](../personal_menu/OpenBadges.de.md) Badges bei den "Persönlichen Werkzeugen: 
-* [Infos für OpenOlat Administrator*innen](../../../manual_admin/docs/administration/e-Assessment_openBadges.de.md)
+* [Infos für Kursbesitzer:innen:](../learningresources/OpenBadges.de.md) Erstellen und Bearbeiten von Badges
+* [Infos für Benutzer:innen:](../personal_menu/OpenBadges.de.md) Badges bei den "Persönlichen Werkzeugen: 
+* [Infos für OpenOlat Administrator:innen](../../../manual_admin/docs/administration/e-Assessment_openBadges.de.md)
 
+
+
+[zum Seitenanfang ^](#assessment)
