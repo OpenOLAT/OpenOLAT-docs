@@ -8,8 +8,9 @@ _If you really want to install OpenOlat using MySQL as database, have a look at 
 
 Currently supported releases are:
 
-- 19.0.x Latest release
-- 18.2.x Old release with long term maintenance
+!!! Danger "Supported releases"
+	- 19.0.x Latest release
+	- 18.2.x Old release with long term maintenance
 
 Older releases are not supported anymore and don't get any security updates. Long term releases are normally not under active development, but will get critical security updates. 
 
@@ -101,6 +102,7 @@ Create the file `~/bin/setenv.sh` containing
 	-Dspring.profiles.active=myprofile \
 	-Djava.awt.headless=true \
 	-Djava.net.preferIPv4Stack=true \
+	-Djava.security.egd=file:/dev/urandom \
 	-XX:+HeapDumpOnOutOfMemoryError \
 	-XX:HeapDumpPath=. \
 	"
@@ -144,7 +146,7 @@ and activate them by issuing
 	Using CATALINA_TMPDIR: /tmp/openolat
 	Using JRE_HOME:        /home/openolat/jre
 	Using CLASSPATH:       /home/openolat/tomcat/bin/bootstrap.jar:/home/openolat/	tomcat/bin/tomcat-juli.jar
-	Using CATALINA_OPTS:   -Xmx1024m -Xms512m -XX:MaxMetaspaceSize=512m 	-Duser.name=openolat -Duser.timezone=Europe/Zurich  	-Dspring.profiles.active=myprofile -Djava.awt.headless=true 	-Djava.net.preferIPv4Stack=true -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=.
+	Using CATALINA_OPTS:   -Xmx1024m -Xms512m -XX:MaxMetaspaceSize=512m 	-Duser.name=openolat -Duser.timezone=Europe/Zurich  	-Djava.security.egd=file:/dev/urandom   -Dspring.profiles.active=myprofile -Djava.awt.headless=true 	-Djava.net.preferIPv4Stack=true -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=.
 	Using CATALINA_PID:    /home/openolat/run/openolat.pid
 	Existing PID file found during start.
 	Removing/clearing stale PID file.
