@@ -33,6 +33,7 @@
 1. [How do I proceed when I create a test?](/manual_how-to/docs/test_creation_procedure/test_creation_procedure.md)
 2. [How do I assess a test?](/manual_how-to/docs/assessing_tests/assessing_tests.md)
 3. [How do I perform a peer review?](/manual_how-to/peer_review/peer_review.md)
+4. [Communication during an exam](/manual_how-to/communication_during_exam/communication_during_exam)
 
 ## Adjust OpenOlat
 
