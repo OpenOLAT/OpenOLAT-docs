@@ -1,8 +1,8 @@
-# Suchfunktion
+# Fragenpool: Suchfunktion {: #question_pool_search}
 
-Mit der Suche im Fragenpool finden Sie Frageitems jeweils in dem Pool oder Liste in der Sie sich gerade befinden. Es ist nicht möglich Fragepoolübergreifend Items zu suchen.
+Mit der Suche im Fragenpool finden Sie Frageitems jeweils in dem Pool oder Liste in der Sie sich gerade befinden. Es ist nicht möglich, über mehrere Fragenpools hinweg Items zu suchen.
 
-## Einfache Suche
+## Einfache Suche {: #simple_search}
 
 Die einfache Suche ist eine Volltextsuche die über alle Elemente der Items sucht. Um die Suche zu optimieren, hier einige Informationen zur Syntax der zugrunde liegenden Lucene-Suche.
 
@@ -37,10 +37,11 @@ Zeichen werden ohne Leerschlag vor die entsprechenden Begriffe gesetzt.|
 Hallo -Du = findet alle Items die nur den ersten Begriff, auf gar keinen Fall aber den zweiten Begriff enthalten  
   
 Es gibt einige gesperrte Sonderzeichen die von Lucene verwendet werden, wie z.B. "_" und ":"| Werden diese Sonderzeichen verwendet, wird die Ergebnisliste vermultlich leer sein.  
-  
-## Erweiterte Suche
 
-Die erweiterte Suche ermöglicht die Suche über festgelegte Felder, und bezieht auch die Metadaten mit ein. Anders als bei der einfachen Suche, die ebenfalls über alle Felder sucht, wird hier aber genau festgelegt welcher Suchbegriff in welchem Feld gesucht werden soll, was die Trefferquote sowie die Genauigkeit der Suche erhöht. Es können beliebige Felder miteinander kombiniert werden.
+
+## Erweiterte Suche {: #advanced_search}
+
+Die erweiterte Suche ermöglicht die Suche über festgelegte Felder, und bezieht auch die Metadaten mit ein. Anders als bei der einfachen Suche, die ebenfalls über alle Felder sucht, wird hier aber genau festgelegt, welcher Suchbegriff in welchem Feld gesucht werden soll, was die Trefferquote sowie die Genauigkeit der Suche erhöht. Es können beliebige Felder miteinander kombiniert werden.
 
   
 
