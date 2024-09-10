@@ -6,6 +6,12 @@
 
 * The camera must be enabled for OpenOlat so that it can also be used for recordings in OpenOlat.
 
+* *Only MacOS:* In browsers other than Safari, the general permission to use the microphone 
+  and the camera must be granted. Set these permissions on the Mac under<br>
+  **System Settings -> Privacy & Security -> Microphone** and<br>
+  **System Settings -> Privacy & Security -> Camera**<br>
+  for the browser(s) you use for OpenOlat.
+
 * On the other side, the **option for video recordings** must be activated in OpenOlat by the administrator:<br>
 **Administration > Module > Audio-/Video Recorings**
 

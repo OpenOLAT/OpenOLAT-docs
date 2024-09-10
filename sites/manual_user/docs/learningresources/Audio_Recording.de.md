@@ -6,6 +6,11 @@
 
 * Damit das Mikrofon auch in OpenOlat für Aufnahmen genutzt werden kann, muss es für OpenOlat frei gegeben sein. 
 
+* *Nur MacOS:* In anderen Browsern als Safari muss die allgemeine Erlaubnis zur Verwendung des Mikrofons erteilt werden. 
+  Stellen Sie diese Berechtigung auf dem Mac unter<br>
+  **System Settings -> Privacy & Security -> Microphone**<br>
+  für den/die Browser ein, die Sie für OpenOlat verwenden.
+
 * Auf der Gegenseite muss in OpenOlat die **Möglichkeit zu Audioaufnahmen** durch den/die Administrator:in aktiviert worden sein:<br>
 **Administration > Module > Audio-/Videoaufnahmen**
 

@@ -6,6 +6,12 @@
 
 * Damit die Kamera auch in OpenOlat für Aufnahmen genutzt werden kann, muss sie für OpenOlat frei gegeben sein. 
 
+* *Nur MacOS:* In anderen Browsern als Safari muss die allgemeine Erlaubnis zur Verwendung des Mikrofons 
+  und der Kamera erteilt werden. Stellen Sie diese Berechtigungen auf dem Mac unter<br> 
+  **System Settings -> Privacy & Security -> Microphone** und<br> 
+  **System Settings -> Privacy & Security -> Camera**<br>
+  für den/die Browser ein, die Sie für OpenOlat verwenden.
+
 * Auf der Gegenseite muss in OpenOlat die **Möglichkeit zu Videoaufnahmen** durch den/die Administrator:in aktiviert worden sein:<br>
 **Administration > Module > Audio-/Videoaufnahmen**
 

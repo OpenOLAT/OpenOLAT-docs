@@ -6,6 +6,11 @@
 
 * The microphone must be enabled for OpenOlat so that it can also be used for recordings in OpenOlat.
 
+* *Only MacOS:* In browsers other than Safari, the general permission to use the microphone must be granted. 
+  Set this permission on the Mac under <br>
+  **System Settings -> Privacy & Security -> Microphone** <br>
+  for the browser(s) you use for OpenOlat.
+
 * On the other side, the **possibility to record audio** must have been activated in OpenOlat by the administrator:<br>
 **Administration > Module > Audio/Video recordings**
 
