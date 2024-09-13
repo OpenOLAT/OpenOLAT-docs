@@ -7,7 +7,7 @@
 
 * * *
 
-:material-calendar-month-outline: **Releasedatum: 10.07.2024 • Letztes Update: 15.08.2024**
+:material-calendar-month-outline: **Releasedatum: 10.07.2024 • Letztes Update: 11.09.2024**
 
 * * *
 
@@ -312,6 +312,9 @@ Als Basis für KI-Funktionen wurde die OpenAI API integriert. Im ersten Ansatz i
 
 ## Weitere Informationen
 
+* [YouTrack Release Notes 19.0.6](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2019.0.6&title=Release%20Notes%2019.0.6){:target="_blank”}
+* [YouTrack Release Notes 19.0.5](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2019.0.5&title=Release%20Notes%2019.0.5){:target="_blank”}
+* [YouTrack Release Notes 19.0.4](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2019.0.4&title=Release%20Notes%2019.0.4){:target="_blank”}
 * [YouTrack Release Notes 19.0.3](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2019.0.3&title=Release%20Notes%2019.0.3){:target="_blank”}
 * [YouTrack Release Notes 19.0.2](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2019.0.2&title=Release%20Notes%2019.0.2){:target="_blank”}
 * [YouTrack Release Notes 19.0.1](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2019.0.1&title=Release%20Notes%2019.0.1){:target="_blank”}
