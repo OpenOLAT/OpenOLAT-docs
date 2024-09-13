@@ -37,6 +37,8 @@ The Quick Access section displays the most recently used **files** and **notes**
 
 ## Edit notes
 
+The notes support commonmark, an unofficial specification of basic Markdown for formatting text. The syntax is listed on the following overview page: [https://commonmark.org/help/](https://commonmark.org/help/){:target="_blank”}
+
 To edit a note, click on the list and then
 
 **a) on the title of the note** (as also in the quick access) and then the **"Edit" button"**<br>
@@ -47,7 +49,7 @@ or alternatively<br>
 
 !!! note "Note"
 
-    Notes are automatically saved. 
+    Notes are automatically saved.
 
 ## Link notes
 

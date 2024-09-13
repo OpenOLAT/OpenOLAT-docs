@@ -37,6 +37,8 @@ Im Abschnitt Schnellzugriff werden die zuletzt verwendeten **Dateien** und **Not
 
 ## Notizen bearbeiten
 
+In den Notizen wird commonmark unterstützt, eine inoffizielle Spezifikation von grundlegendem Markdown zur Formatierung von Text. Auf der folgenden Übersichtsseite ist die Syntax aufgeführt: [https://commonmark.org/help/](https://commonmark.org/help/){:target="_blank”}
+
 Um eine Notiz zu bearbeiten, klicken Sie in der Liste
 
 **a) auf den Titel der Notiz** (wie auch im Schnellzugriff) und dann den **Button "Editieren"**<br>
