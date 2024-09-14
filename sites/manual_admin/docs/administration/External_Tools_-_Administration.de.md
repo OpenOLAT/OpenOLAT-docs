@@ -136,7 +136,7 @@ Eine Aktivierung und Konfiguration kann vorgenommen werden, wenn die erforderlic
 [Website Edubase](https://www.edubase.ch)
 
 
-## Youtube API {: #youtube_api}
+## YouTube API {: #youtube_api}
 
 Eingabe, Entfernung oder Prüfen des API Schlüssels.
 
@@ -192,7 +192,7 @@ Voraussetzung ist jeweils, dass die erforderlichen Lizenzen vorhanden sind.
 
 ## draw.io  {: #draw_io}
 
-draw.io ist ein Online-Werkzeug zur Erstellung von Diagrammen, das in OpenOlat z.B. in Projekten genutzt werden kann.Voraussetzung ist die Aktivierung.
+draw.io ist ein Online-Werkzeug zur Erstellung von Diagrammen, das in OpenOlat in vielen Stellen eingesetzt werden kann, z.B. in Projekten, im Portfolio, im Kursbaustein "Datei", im Medien Center bzw. an vielen Stellen an denen neue Dokumente erstellt werden können. In draw.io können auch mehrere Personen kooperativ an einem Diagramm arbeiten. Um draw.io zu nutzen, muss die Funktion in der Administration eingerichtet werden. 
 
 **Weitere Informationen:**<br>
 [Website draw.io](https://www.drawio.com)
@@ -210,8 +210,8 @@ Hier aktiveren und konfigurieren Sie die Werkzeuge der Künstlichen Intelligenz,
 
 ## PDF Generator
 
-In OpenOlat können an verschiedenen Orten PDFs erzeugt werden, z.B. Zertifikate, Testresultatet, Mitgliederlisten oder ähnliches. 
-Diese Funktionen stehen nur zur Verfügung, wenn einer der untenstehenden PDF Servcies konfiguriert ist. 
+In OpenOlat können an verschiedenen Orten PDFs erzeugt werden, z.B. Zertifikate, Testresultate, Mitgliederlisten oder ähnliches. 
+Diese Funktionen stehen nur zur Verfügung, wenn einer der untenstehenden PDF-Services konfiguriert ist. 
 
 
 ### Gotenberg (empfohlen)

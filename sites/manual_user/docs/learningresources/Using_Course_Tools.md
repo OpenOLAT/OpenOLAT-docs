@@ -2,7 +2,7 @@
 
 A number of tools are available in the "Administration" area of your course. On this page you will get an overview of the menus of courses and learning resources of the **"Administration"**. 
 
-![Course adminisatration](assets/Adminstration_17.png)
+![Course adminisatration](assets/administraion_19_en.jpg)
 
  You can organize course participants and course-related groups, as well as their rights, in the [members management](Members_management.md). The course structure and the course tools are set up in the course editor. Furthermore, you have access to the storage folder of a course.
 

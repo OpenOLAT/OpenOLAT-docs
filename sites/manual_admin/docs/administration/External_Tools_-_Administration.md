@@ -145,7 +145,7 @@ Activation and configuration can be carried out if the required licenses are ava
 
 
 
-## Youtube API {: #youtube_api}
+## YouTube API {: #youtube_api}
 
 Enter, remove or check API key.
 
@@ -201,7 +201,7 @@ The prerequisite in each case is that the necessary licenses are available.
 
 ## draw.io  {: #draw_io}
 
-draw.io is an online tool for creating diagrams that can be used in OpenOlat, e.g. in projects.
+draw.io is an online tool for creating diagrams that can be used in many places in OpenOlat, e.g. in projects, in the portfolio, in the course element "Document", in the Media Center and in many other places where new documents can be created. In draw.io, several people can also work together on one diagram. To use draw.io, the function must be set up in the administration 
 
 **Further information:**<br>
 [Website draw.io](https://www.drawio.com)

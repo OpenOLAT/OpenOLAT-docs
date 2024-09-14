@@ -2,22 +2,32 @@
 
 In Ihrem Kurs stehen Ihnen im Bereich der "Administration" eine Reihe von Werkzeugen zur Verfügung. 
 
-![Course adminisatration](assets/Administration19_de.jpg).
+![Course adminisatration](assets/Administration_19.png).
 
 Andere Lernressourcen verfügen ebenfalls über das Menü Administration, jedoch sind die Menüs nicht so umfangreich und variieren je nach Lernressource. 
 
 Im Folgenden erhalten Sie einen Überblick über die **Menüs der "Administration" von Kursen**. 
 
+!!! info "Info"
+
+    Je nach Konfiguration des Kurses sehen Sie eventuell nicht alle der aufgeführten Menüs. 
+
+
 ## Einstellungen 
 Hier werden Basic-Einstellungen vorgenommen und auch die Kursfreigabe eingerichtet. 
-
 Infos zum Menü "Einstellungen" finden Sie im Kapitel [Kurseinstellungen](Course_Settings.de.md)
 
 ## Mitgliederverwaltung
 Sie können in der [Mitgliederverwaltung](Members_management.de.md) die Kursteilnehmenden und kursbezogenen Gruppen sowie Rechte organisieren und auch Buchungen und Einladungen für Externe organisieren. 
 
-## Ablageordner
-Im [Ablageordner](Storage_folder.de.md) werden die Kursdateien gesammelt, die mit einzelnen Kursbausteinen z.B. der HTML-Seite oder dem Kursbaustein Ordner verknüpft werden können.
+## Kurseditor
+Zentraler Bereich zur Strukturierung des Kurses mit diversen Kursbausteinen. Infos zum [Kurseditor](../learningresources/General_Configuration_of_Course_Elements.de.md) finden Sie im separaten Kapitel. 
+
+## Dateien 
+
+Im Menü Dateien finden Sie die kursspezifischesn Dateien. Im [Ablageordners](Storage_folder.de.md) können Sie Ihre eigenen Kursdatei ablegen und den Ablageordner weiter mit Unterordnern ausgestalten. 
+Darüber hinaus findet man im Menü auch automatisch generierte Ordner wie  "_archives", "_coachdocuments", "_courselementdata" sowie "_sharedfolder" je nach Ausgestaltung des Kurses. 
+
 
 ## Bewertungswerkzeug
 Im Menü "Bewertungswerkzeug“, nicht zu verwechseln mit dem [Kursbaustein "Bewertung"](../learningresources/Course_Element_Assessment.de.md), erfolgt die gesamte Bewertung eines Kurses. Hier hat man Zugriff auf alle bewertbaren Kursbausteine und kann Bewertungen mit Punktevergabe, bestanden/nicht bestanden usw. vornehmen und individuelle Feedbacks bereitstellen.
@@ -29,7 +39,7 @@ Hier können To-dos für alle oder einzelne  Kursteilnehmenden erstellt, editier
 
 ## Badges
 
-Hier können kursbezogene Badges erstellt, editiert und angezeigt werden. Weitere Details finden Sie im Kapitel [Open Badges](OpenBadges.de.md)
+Hier können, sofern aktiviert, kursbezogene Badges erstellt, editiert und angezeigt werden. Weitere Details finden Sie im Kapitel [Open Badges](OpenBadges.de.md)
 
 ## Unterlagen Betreuer:innen
 
