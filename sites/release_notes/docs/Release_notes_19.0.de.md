@@ -293,7 +293,7 @@ Als Basis für KI-Funktionen wurde die OpenAI API integriert. Im ersten Ansatz i
 * Gatling Tests Update + Java Refactoring
 * Neue Komponente zur Datumsauswahl: vanillajs-datepicker
 * Migrationsroutine "Kursmitglieder bereinigen" für alte Releases entfernt
-* End of live: Integration von Inhalten in Kursbaustein 'Externe Seite' wird nicht mehr unterstützt (nur noch iFrame)
+* End of life: Option 'Vollständig integriert (Quelle verborgen)' für Inhalte im Kursbaustein 'Externe Seite' wird nicht mehr unterstützt
 * Safe Exam Browser Integration (SEB): Refactoring der JavaScript API (:octicons-tag-24: ab Release 19.0.3)
 
 * * *
