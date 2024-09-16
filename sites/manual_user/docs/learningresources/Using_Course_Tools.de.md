@@ -78,8 +78,8 @@ Der Vorteil gegenüber der expliziten Auflistung aller relevanten Gruppen in den
 
 Hier können Sie eine neue kurspezifische Datenbank anlegen, die bestimmte kurspezifische Informationen speichern kann.
 
-## Kurs, Test und Fragenbogen Statistiken
-Menüs für den Abruf bestimmter statistischer Daten
+## Kurs, Test und Fragebogen Statistiken
+Menüs für den Abruf bestimmter statistischer Daten.
 
 ### Kurs Statistiken {: #statistics}
 
@@ -116,7 +116,7 @@ Archive, die von  Kursbesitzer:innen erstellt werden sind anonymisiert. Die Erge
 
 Darüber hinaus können noch separat Logfiles, Kursresultate, Chat-Historie sowie Foren archiviert werden. 
 
-Details zur bisherigen Datenarchivierung findet man [hier](Data_archiving.de.md) 
+Details zur bisherigen Datenarchivierung findet man [hier](Data_archiving.de.md).
 
 
 ## Buchungsmöglichkeiten
