@@ -293,7 +293,7 @@ The OpenAI API was integrated as the basis for AI functions. In the first approa
 * Gatling tests update + Java refactoring
 * New component for date selection: vanillajs-datepicker
 * Migration routine "Clean up course members" for old releases removed
-* End of live: Integration of content in course element 'External page' is no longer supported (only iFrame)
+* End of life: Option ‘Integrated completely (source hidden)’ for content in course element ‘External page’ is no longer supported
 * Safe Exam Browser integration (SEB): Refactoring of the JavaScript API (:octicons-tag-24: release 19.0.3)
 
 * * *
