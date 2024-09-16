@@ -19,7 +19,7 @@ Auch der Einsatz weiterer Kursfunktionen der [Toolbar](Using_Additional_Course_F
 In der Toolbar wird Ihnen angezeigt, in welcher Rolle Sie gerade den Kurs betrachten. In der Regel wird das die Rolle "Besitzer:in" sein. Sie können aber jederzeit über das Ausklappmenü in die Teilnehmendenrolle wechseln. 
 
 ![Rollenwechsel](assets/Besitzer_TN.jpg)
-
+ßß
 Sofern Sie noch weitere Rollen im Kurs besitzen werden diese ebenfalls angezeigt und Sie können zur entsprechenden Ansicht wechseln.  
 
 Bei den Rollen wird aber nicht zwischen Betreuern und Gruppenbetreuern oder Teilnehmern und Gruppenteilnehmern unterschieden, sondern die Möglichkeiten innerhalb der Rolle Betreuer bzw. Teilnehmer zusammengefasst.

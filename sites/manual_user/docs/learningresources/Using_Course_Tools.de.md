@@ -1,4 +1,4 @@
-# Einsatz der Kurswerkzeuge
+ # Einsatz der Kurswerkzeuge
 
 In Ihrem Kurs stehen Ihnen im Bereich der "Administration" eine Reihe von Werkzeugen zur Verfügung. 
 
@@ -14,8 +14,7 @@ Im Folgenden erhalten Sie einen Überblick über die **Menüs der "Administratio
 
 
 ## Einstellungen 
-Hier werden Basic-Einstellungen vorgenommen und auch die Kursfreigabe eingerichtet. 
-Infos zum Menü "Einstellungen" finden Sie im Kapitel [Kurseinstellungen](Course_Settings.de.md)
+Hier werden Basic-Einstellungen vorgenommen und auch die Kursfreigabe eingerichtet. Infos zum Menü "Einstellungen" finden Sie im Kapitel [Kurseinstellungen](Course_Settings.de.md)
 
 ## Mitgliederverwaltung
 Sie können in der [Mitgliederverwaltung](Members_management.de.md) die Kursteilnehmenden und kursbezogenen Gruppen sowie Rechte organisieren und auch Buchungen und Einladungen für Externe organisieren. 
@@ -25,8 +24,7 @@ Zentraler Bereich zur Strukturierung des Kurses mit diversen Kursbausteinen. Inf
 
 ## Dateien 
 
-Im Menü Dateien finden Sie die kursspezifischesn Dateien. Im [Ablageordners](Storage_folder.de.md) können Sie Ihre eigenen Kursdatei ablegen und den Ablageordner weiter mit Unterordnern ausgestalten. 
-Darüber hinaus findet man im Menü auch automatisch generierte Ordner wie  "_archives", "_coachdocuments", "_courselementdata" sowie "_sharedfolder" je nach Ausgestaltung des Kurses. 
+Im Menü Dateien finden Sie die kursspezifischesn Dateien. Im [Ablageordners](Storage_folder.de.md) können Sie Ihre eigenen Kursdatei ablegen und den Ablageordner weiter mit Unterordnern ausgestalten. Darüber hinaus findet man im Menü auch automatisch generierte Ordner wie  "_archives", "_coachdocuments", "_courselementdata" sowie "_sharedfolder" je nach Ausgestaltung des Kurses. 
 
 
 ## Bewertungswerkzeug
@@ -45,7 +43,7 @@ Hier können, sofern aktiviert, kursbezogene Badges erstellt, editiert und angez
 
 Dieses Menü gibt Betreuern die Möglichkeit Dateien abzulegen. Alle Betreuer und Kursbesitzer können auf diesen Bereich zugreifen. 
 
-Damit dieses Menü erscheint muss zunächst im Kurs unter "Administration" -> "Einstellungen" im Tab "Optionen" die Option "Unteralgen Betreuer:innen Ordner" aktiviert werden.
+Damit dieses Menü erscheint muss zunächst im Kurs unter "Administration" -> "Einstellungen" im Tab "Optionen" die Option "Unterlagen Betreuer:innen Ordner" aktiviert werden.
 
 Als Ablageort kann im Tab Optionen ein bereits existierender Ordner des Ablageordners des Kurses gewählt oder ein neuer Ordner speziell für die Betreuer im Ablageordner generiert werden. Wird die Option "Automatisch generierter Ordner" gewählt, haben die Betreuer im Gegensatz zu Kursbesitzern keinen Zugriff auf andere Dateien oder Ordner, die sich im Ablageordner des Kurses befinden. Dagegen haben  Kursbesitzer bzw. Personen mit Zugriff auf den Kurseditor vollen Zugriff auf den Ablageordner und sehen auch die Dateien der Betreuer im automatisch generierten Ordner "coachdocuments". Das bedeutet Kursbesitzer haben immer Zugriff auf die Dateien des Betreuer Ordners und können sie auch für die Verknüpfung mit bestimmten Kursbausteinen z.B. einer Einzelseite nutzen. Umgekehrt erhalten Betreuer auch mit diesem Betreuer Ordner keine Möglichkeit Dateien in die Kursstruktur zu integrieren.
 
@@ -53,10 +51,10 @@ Als Ablageort kann im Tab Optionen ein bereits existierender Ordner des Ablageor
 Hier können die Lektionenblöcke eines Kurses erstellt, angesehen und überarbeitet werden. Nähere Informationen zum Thema finden Sie im Kapitel [Lektionen und Absenzen](Lectures_and_absences.de.md). 
 
 ## Erinnerung
-Hier können Erinnerungen für Kursteilnehmende erstellt, bearbeitet und angezeigt werden. Weitere Informationen finden Sie im Kapitel [Erinnerungen](Course_Reminders.de.md) 
+Hier können Erinnerungen für Kursteilnehmende erstellt, bearbeitet und angezeigt werden. Weitere Informationen finden Sie im Kapitel [Erinnerungen](Course_Reminders.de.md).
 
 ## Prüfungsverwaltung
-Hier können Sie Konfigurationen für den Prüfungsmodus erstellen, bearbeiten und anzeigen lassen. Sie können beispielweise einen Prüfungsmodus konfigurieren, der nur bestimmte Kursbausteine zulässt und in einem geschützten Kioskmodus mit eingeschränkten Möglichkeiten ausgeführt wird. Weitere Details find Sie [hier](../learningresources/Assessment_mode.de.md) an. 
+Hier können Sie Konfigurationen für den Prüfungsmodus erstellen, bearbeiten und anzeigen lassen. Sie können beispielsweise einen Prüfungsmodus konfigurieren, der nur bestimmte Kursbausteine zulässt und in einem geschützten Kioskmodus mit eingeschränkten Möglichkeiten ausgeführt wird. Weitere Details find Sie [hier](../learningresources/Assessment_mode.de.md) an. 
 
 
 ## Datenerhebungsvorschau

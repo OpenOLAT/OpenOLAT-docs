@@ -67,7 +67,7 @@ Folgende Möglichkeiten stehen Kursbesitzer:innen und Personen mit der entsprech
 
 ### Weitere Optionen und Anpassungen des Kursbausteins
 
-User können Änderungen im Ordner abonnieren. Zudem lässt sich die Ansicht individuell anpassen, indem zwischen der visuellen Kachelansicht und der detaillierten Tabellenansicht gewechselt wird. In der Tabellenansicht können die angezeigten Spalten ausgewählt werden, um mehr Details als in der Kachelansicht anzuzeigen. Die Suchfunktion ermöglicht es, Dateien schnell zu finden. Gelöschte Dokumente werden in den „Papierkorb“ verschoben.
+User können Änderungen im Ordner abonnieren. Zudem lässt sich die Ansicht individuell anpassen, indem zwischen der visuellen Kachelansicht und der detaillierten Tabellenansicht gewechselt wird. In der Tabellenansicht können die angezeigten Spalten ausgewählt werden, um mehr Details als in der Kachelansicht anzuzeigen. Die Suchfunktion ermöglicht es, Dateien schnell zu finden. Gelöschte Dokumente werden in den "Papierkorb" verschoben.
 
 Im 3-Punkte-Menü des Kursbausteins können Sie den [WebDAV-Link](../basic_concepts/Using_WebDAV.de.md) anzeigen lassen und Metadaten aktualisieren. 
 

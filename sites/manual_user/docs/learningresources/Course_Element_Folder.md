@@ -20,48 +20,66 @@ In the course element "Folder" you can offer files to be downloaded. Often folde
 
 ![tab folder configuration](assets/folger_configuration_15.png)
 
-The folder is configured in the course editor in the “Folder configuration” tab.
+The folder is configured in the course editor in the "Folder configuration" tab.
+
+**Select folder**
 
 In the tab "Folder configuration" of the course element you define where exactly the files of this folder should be stored in the folder of the course. For this OpenOlat can either generate a folder automatically or select a specific folder from the course folder.
 
 If the option "Automatically generated folder" is selected, OpenOlat creates the subfolder _courselementdata_ including a subfolder with the name of the respective course element "folder". All files of the course element are now saved here.
 
-If you select "Choose folder from course storage" you can select an existing folder from the course folder. This is especially useful if you have already uploaded the files you want to make available in a structured way in the course's folder. In the next step, select an existing folder in the storage folder and create a new subfolder in the storage folder. If configured in the [Course Settings](../learningresources/Course_Settings.md), you can also access a linked resource folder via the storage folder.
+If you select **"Choose folder from course storage"**v  you can select an existing folder from the course folder. This is especially useful if you have already uploaded the files you want to make available in a structured way in the course's folder. In the next step, select an existing folder in the storage folder and create a new subfolder in the storage folder. If a resource folder is linked to the course in the [Course settings](../learningresources/Course_Settings.md), this can also be selected. In this case, select "_sharedfolder" from the folders displayed in the storage folder.
 
-You can then upload files to the previously defined location in the "Upload files" area via the "Manage folder" link or display the files that have already been uploaded.
+**Upload files**
 
-Access to this file area is also possible when the editor is closed.
+Once you have selected the specific storage location, you can upload or create your files using the "Manage folder" button in the "Upload files" area. 
 
-### User rights settings
+![Dateien upload](assets/KB_Ordner_Datei_upload.png )
 
-Furthermore, in the "User rights" section, you can define whether coaches and/or participants are also allowed to edit and upload files to the folder. By default, coaches are allowed to upload files in addition to the owners, but not the participants.
+Access to this file area is also possible when the course editor is closed (see below).
 
-## Settings with closed editor
+**User rights**
 
-![folder screenshot](assets/Folder_EN.png)
+Under "User rights" you can define who can upload and create files in the course element folder. By default, coaches are allowed to upload files in addition to the owners, but not the participants.
 
-In the course run, course owners and persons with the right to save files in the folder can ...
+The extended configuration can also be used to define the provision of files for specific groups, e.g. for assistants or support staff, or for individual persons only. 
 
-  * Upload and download files
-  * Delete, move and copy files
-  * Create new documents
-  * Depending on the file type, you can also edit files, especially if a document editor is activated in the administration.
-  * Create new subfolders within the course element. So a course element "Folder" can contain several subfolders. The use of several course element folders is only necessary if the folders are to be integrated at different places in the course structure or if the folders are connected with different selective releases.
+## View with closed course editor
 
-To facilitate the upload and download of multiple files, the files can be zipped or unzipped. In addition, the use of [WebDAV](../basic_concepts/Using_WebDAV.md) is recommended for uploading more extensive materials.
+![folder screenshot](assets/Kursbasutein_Ordner_191a.jpg)
 
-Furthermore, all users can ...
+The following options are available to course owners and persons with the appropriate authorization:
 
-  * Send files of the folder by e-mail to registered OpenOlat users
-  * Search the files in the folder for keywords
-  * Subscribe to the folder and be quickly informed about changes
+### Add files
 
-###  Metadata  {: #metadata}
+**Upload files:** Select a file from your hard disk. Click on the small down arrow to see additional options (see screenshot "Upload files"):
 
-The gear symbol can be used to configure the [Metadata](../basic_concepts/Full_Text_Search.md#metadata) of a file and thus add various information. In addition to the description and lock properties, the license information is particularly relevant. You can use the license information to define a specific license for the document, for example, use one of the existing Creative Commons licenses, enter the licensor, and leave additional information about the publisher, source, publication date, and so on. The license is displayed in a separate column in the folder module. By clicking on the license, the user receives the stored information on the respective license.
+* **Add from file hub:** Access the [File Hub](../personal_menu/File_Hub.md) and your folders and files. You can also access your [Media Center](../personal_menu/Media_Center.md) and upload files directly to the File Hub.
+
+* **Create Document:** Depending on the editors activated (e.g. Word, Excel, PowerPoint, diagrams, whiteboard, text, HTML, CSS, XML), you can create new documents here and add a description, license and other metadata to them.
+
+* **Create folder:** Creates a new subfolder in the course element.
+
+* **Record video:** Record a video with your webcam.
+
+* **Record audio:** Record an audio file.
+
+### Further options and adjustments to the course element
+
+Users can subscribe to changes in the folder. The view can also be customized by switching between the visual tile view and the detailed table view. In the table view, the displayed columns can be selected to show more details than in the tile view. The search function makes it possible to find files quickly. Deleted documents are moved to the "trash can".
+
+You can display the [WebDAV link](../basic_concepts/Using_WebDAV.md) and update metadata in the 3-dot menu of the course element. 
+
+
+
+**Metadata**  {: #metadata}
+
+Course owners can edit the specific [metadata](../basic_concepts/Full_Text_Search.md#meta-data--metadata) of a file via the 3-dot menu of a specific file. 
+
+In addition to the description and lock properties, the license information is particularly relevant. You can use the license information to define a specific license for the document, for example, use one of the existing Creative Commons licenses, enter the licensor, and leave additional information about the publisher, source, publication date, and so on. The license is displayed in a separate column in the folder module. By clicking on the license, the user receives the stored information on the respective license.
 
 The metadata also shows how often a file was called up. There is also a link with which you can directly link the respective file. Whether external persons can also access the file depends on the access settings of the course.
 
-### Edit Files
+**Edit Files**
 
-Depending on the file type and activation in OpenOlat [Administration](../../manual_admin/administration/External_Tools_-_Administration.md), it is possible to edit files located in the course element "Folder". If editing is possible, the editing icon ![editing icon](assets/test.png){ class=size16 } appears in the table. Clicking on the icon opens the respective editing editor, e.g. Only Office. By using these external, cooperative editing tools, the course element "Folder" can also be used for the collaborative work of learners.
+Persons with editing rights can switch directly to editing mode for supported file formats such as docx, xlsx, pptx, draw.io, dwb, txt, html, css and xml by clicking on the file name. The prerequisite for this is that these formats have been activated in the OpenOlat [Administration](../../manual_admin/administration/External_Tools_-_Administration.md).
