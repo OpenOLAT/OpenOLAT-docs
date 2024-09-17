@@ -528,6 +528,13 @@ The automatic assignment process must be triggered by course owners or course co
 
     In order for coaches to be able to trigger the automatic reviewer assignment, the corresponding option must have been set up by the course owner.
 
+
+!!! info "Hint"
+
+    The “Automatically assign reviewer” button is not deactivated after an assignment has been made and is still available. The reason for this is that participants can still be added later or someone has received an extension.
+
+
+
 [Up (Coach perspective) ^](#coach_task)<br>
 [To the top of the page ^](#course_element_task)
 

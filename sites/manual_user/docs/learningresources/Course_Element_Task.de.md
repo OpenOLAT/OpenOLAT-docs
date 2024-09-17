@@ -587,6 +587,11 @@ Der automatische Zuordnungsprozess muss durch Kursbesitzer:innen oder Kursbetreu
 
     Damit auch Betreuer:innen die automatische Reviewer-Zuweisung auslösen können, muss die entsprechende Option von dem/der Kursbesitzer:in eingerichtet worden sein.
 
+!!! info "Hinweis"
+
+    Der Button “Automatisch Reviewer:in zuweisen” wird nach einer durchgeführten Zuweisung nicht deaktiviert und ist weiterhin verfügbar. Der Grund dafür ist, dass Teilnehmende auch später noch hinzukommen können oder jemand eine Verlängerung erhalten hat.
+
+
 
 [nach oben (Perspektive Betreuer:in) ^](#coach_task)<br>
 [zum Seitenanfang ^](#course_element_task)
