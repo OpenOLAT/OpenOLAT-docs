@@ -14,7 +14,7 @@ The following roles are responsible for creating and managing curricula and curr
 * Curriculum owner
 * Curriculum element owner
 
-Detailed information on the roles can be found [here](../../manual_admin/usermanagement/index.md).
+Detailed information on the roles can be found [here](../basic_concepts/Authorisation_Concept.md).
 
 The various curricula in OpenOlat are administered in the curriculum administration. As a rule, the curriculum administrator is responsible for administering the curricula.
 
@@ -24,13 +24,13 @@ The various curricula in OpenOlat are administered in the curriculum administrat
 
 At curriculum level, the curricula that have already been created are displayed in tabular form. The number of curriculum elements is also displayed. Curricula can be opened again for editing or deletion.
 
-![](assets/Curriculum_Element.png)
+![Übersicht aller Curricula](assets/Curriculum_Browser.png)
 
 **Level Curriculum element**
 
 If you are in a curriculum, its tree structure is displayed in the Curriculum Browser. All metadata such as start and end dates, curriculum type and timetable are also displayed.
 
-The following data can also be displayed in the table:
+In addition, the following data can be displayed in the table:
 
 * **Ref.:** Shows how many courses are assigned to this curriculum element.
 * **Members:** Displays the number of all members assigned to this element.
@@ -38,27 +38,32 @@ The following data can also be displayed in the table:
 * **Coaches:** Displays the number of hosts assigned to this item.
 * **Owners:** Displays the number of all owners assigned to this element.
 
-![](assets/Curriculum_Element.png)
+![Beispiel eines Curriculums mit Elementen](assets/Curriculum_Element.png)
+
 
 ## Create curriculum
 
 First, a curriculum must be created as the top level. Curriculum elements can then be subordinate to this.
 
+![Neues Curriculum erstellen](assets/Curriculum_erstellen.png)
+
+![](assets/CurrElement_create_EN.png)
+
+Curriculum elements can then be subordinated to this curriculum.
+
 Via "Create New Curriculum" you can enter a description in addition to the identifier and the name. You can also create a link to an organization or organizational element. All organizational elements to which the curriculum administrator has access are available for selection.
 
 Once the curriculum has been created, the curriculum elements can be created.
 
-![](assets/CurrElement_create_EN.png)
 
 ## Edit Curriculum and add Curriculum Administrator
 
 In the Curriculum Browser, you can edit the curriculum and change the metadata
-using ![](assets/Symbol_Bearbeiten.png) or the
-3-point menu.
+using ![](assets/Symbol_Bearbeiten.png) or the 3-point menu.
+
+![Curriculum bearbeiten](assets/Curriculum_bearbeiten1.png)
 
 In the tab "User administration" you can add further curriculum administrators to the curriculum or remove existing ones.
-
-![](assets/Curr_Add_user_EN-2.png)
 
 ## Search Curriculum
 
@@ -68,28 +73,25 @@ In the tab "Search" you can also search for curriculum elements, which for examp
 
 ## Creating a Curriculum Element
 
-* A new element is created via "Create new element".
-* A new sub-element can be created via the gear - "Create new sub-element".
+Befindet man sich in einem Curriculum können dort Curriculumelemente erstellt werden
 
-In addition to the designation and the name, a description can also be entered. You can also assign a curriculum type to the curriculum element, which defines the element in more detail.
+![Curriculum Element erstellen](assets/Curriculumelement_erstellen.jpg)
 
-You can choose whether the timetable for this element should be activated or deactivated or whether the setting should be taken from the configuration of the element type.
+Über das 3-Punkte-Menü stehen weitere Optionen zur Verfügung. 
 
-You can also specify a start and end date for the curriculum element.
+![Curriculum Element erstellen](assets/Curriculum_Elemenet_organisieren.jpg)
 
-![](assets/CurrEement_new_EN.png)
+Es ist auch möglich, das Element im Curriculum zu verschieben, ein neues Unterelement zu erstellen oder das Element zu löschen.
 
 ## Edit Curriculum Element
 
-The curriculum element can be further edited by clicking on the curriculum or the gearwheel. It is also possible to move the element in the curriculum, create a new subelement or delete the element.
-
-![](assets/curriculum_edit_element.png)
+Wählt man "bearbeiten" erscheinen die beiden Tabs "Metadaten" und "Kurse" und es können weitere Einstellungen vorgenommen werden. 
 
 ### Edit Metadata
 
 After you have selected the curriculum element, its metadata is displayed. This can be changed with the appropriate authorization.
 
-![](assets/curriculum_meta.png)
+![Curriculum Tab Metadaten](assets/Curriculum_Metadaten.png)
 
 ### Adding courses to the curriculum element
 

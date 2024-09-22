@@ -53,7 +53,7 @@ After the course has been published, the portfolio assignment can be picked up a
 
 Just click on the "Collect portfolio task" button.
 
-![](assets/pf_course_collect_assigment_EN.png)
+![collect portfolio task](assets/Portfolioaufgabe_abholen_19_en.png)
 
 ## Find Portfolio task
 
@@ -90,7 +90,7 @@ Under "Entries" all assigned tasks which have not been collected yet are availab
   
 During editing the status of the entry/assignment is "Draft".
   
-![](assets/pf_entry_publish_EN.png)
+![Publish entry](assets/Eintrag_publizieren_en.png)
 
 As soon as the entry/assignment is done, "Publish entry" can be selected. This makes the editing visible to other people who have access to the portfolio, and feedback or comments are possible.
 

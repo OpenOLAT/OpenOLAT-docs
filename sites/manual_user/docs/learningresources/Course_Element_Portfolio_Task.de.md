@@ -14,11 +14,11 @@ Spezialität / Hinweis |
 
 
 
-Über den Kursbaustein "Portfolioaufgabe" werden vom Lehrenden vordefinierte Portfolio Mappen für die Lernenden bereitgestellt. Die Kursteilnehmenden können die Portfolioaufgabe im Kurs abholen und werden anschliessend in ihren individuellen Portfoliobereich weitergeleitet. Das so abgeholte Portfolio kann dann von den Lernenden mit Inhalten und Artefakten befüllt und wenn gewünscht weiteren Personen oder den Kursbetreuern zugänglich gemacht werden. Je nach Konfiguration können diese Personen das Portfolio auch bewerten und kommentieren.
+Über den Kursbaustein "Portfolioaufgabe" werden vom Lehrenden vordefinierte Portfolio Mappen für die Lernenden bereitgestellt. Die Kursteilnehmenden können die Portfolioaufgabe im Kurs abholen und werden anschliessend in ihren individuellen Portfoliobereich weitergeleitet. Das so abgeholte Portfolio kann dann von den Lernenden mit Inhalten und Artefakten unterschiedlicher Formate befüllt und wenn gewünscht weiteren Personen oder den Kursbetreuern zugänglich gemacht werden. Je nach Konfiguration können diese Personen das Portfolio auch bewerten und kommentieren.
 
-Für den Kursbaustein Portfolioaufgabe benötigen Sie eine "Portfolio 2.0 Vorlage", die mit dem Kursbaustein verknüpft wird. Sie können direkt im Kurs über "Portfoliovorlage wählen oder erstellen" eine neue Portfoliovorlage erstellen bzw. eine zuvor erstellte verlinken.  Wie Sie eine Portfolioaufgabe genau erstellen erfahren Sie [hier](../learningresources/Creating_Portfolio_Tasks.de.md).
+Für den Kursbaustein Portfolioaufgabe benötigen Sie eine "Portfolio 2.0 Vorlage", die mit dem Kursbaustein verknüpft wird. Sie können direkt im Kurs über "Portfoliovorlage wählen oder erstellen" eine neue Portfoliovorlage erstellen bzw. eine zuvor erstellte verlinken. Wie Sie eine Portfolioaufgabe genau erstellen erfahren Sie [hier](../learningresources/Creating_Portfolio_Tasks.de.md).
 
-Sofern Sie bereits eine Portfoliovorlage hinzugefügt haben, erscheint diese unter Gewählte Portfoliovorlage. Folgen Sie dem Link um zur Vorschau zu gelangen. Sie haben nun die Möglichkeit, mit der Schaltfläche "Portfoliovorlage auswechseln" eine andere Portfolioaufgabe zu wählen.
+Sofern Sie bereits eine Portfoliovorlage hinzugefügt haben, erscheint diese im Kurseditor im Tab "Lerninhalt" unter "Gewählte Portfoliovorlage". Folgen Sie dem Link um zur Vorschau zu gelangen. Sie haben nun die Möglichkeit, mit der Schaltfläche "Portfoliovorlage auswechseln" eine andere Portfolioaufgabe zu wählen. 
 
 !!! Info
 
@@ -54,7 +54,7 @@ Nachdem der Kurs publiziert wurde, kann die Portfolioaufgabe von Kursteilnehmend
 
 Klicken Sie einfach auf den Button "Portfolioaufgabe abholen".
 
-![](assets/pf_aufgabeabholen_s1_DE.png)  
+![Portfolioaufgabe abholen](assets/Portfolioaufgabe_abholen_19.png)  
   
 ## Portfolioaufgabe finden
 
@@ -75,7 +75,7 @@ Klicken Sie entweder im Tab "Überblick" oder „
 
 Nun können die Aufgaben mit dem Portfolio Editor bearbeitet und passende Inhalte (Texte, Bilder, Videos usw.) und Artefakte über den Portfolio Editor hinzugefügt werden.
 
-![](assets/Portfolioaufgabe_bearbeiten.jpg)
+![Portfolio Inhalte hinzufügen](assets/Portfolio_Inhalt_hinzufuegen.png)
   
 Enthält die Portfolioaufgabe Formulare können diese ebenfalls ausgefüllt werden. Sofern in den Einstellungen der Portfolio Vorlage konfiguriert, dürfen die User auch neue Einträge ergänzen oder die gesamte abgeholte Mappe löschen.
 
@@ -91,7 +91,7 @@ In dem Tab "Einträge" werden alle noch nicht ausgewählte Aufgaben des jeweilig
   
 Während der Bearbeitung steht der Status des Eintrags auf "Entwurf".
 
-![](assets/Portfolioaufgabe_publizieren.png)
+![Eintrag publizieren](assets/Eintrag_publizieren.png)
 
 Sobald der Eintrag respektive die Aufgabe abgeschlossen ist, "Eintrag publizieren" wählen. So wird die Bearbeitung für andere Personen, die Zugang zum Portfolio haben, sichtbar und Feedbacks bzw. Kommentierungen sind möglich.  
 
@@ -109,13 +109,13 @@ Damit eine Aufgabe von anderen Personen bewertet oder kommentiert werden kann, m
 
 Die Freigabe erfolgt über "Zugangsrecht hinzufügen".
   
-![](assets/Portfoliomappe_freigeben.png)
+![Portfolio freigeben](assets/Portfoliomappe_freigeben.png)
   
 Wählen Sie die gewünschte Option z.B. "Kursbetreuer auswählen", um die entsprechende Personengruppe oder Einzelperson hinzuzufügen. Für die Freigabe an externe Personen, auch ohne OpenOlat Account, wählen Sie "Einladung hinzufügen". Es werden dann Einladungen per E-Mail verschickt.
 
 Im erscheinenden Dialog definieren Sie, welche Bereiche Sie der bzw. den gewählten Personen bereitstellen wollen und ob die Personen Bewertungen und/oder Kommentierungen vornehmen dürfen. Externe Personen können nur kommentieren, aber nicht bewerten.
 
-![](assets/pf_aufgabeabholen_auswahl_DE.png)
+![Rechte von weiteren Personen definieren](assets/pf_aufgabeabholen_auswahl_DE.png)
   
 Es kann auch eine E-Mail Benachrichtigung mit Link zur entsprechenden Mappe verschickt werden.
   
