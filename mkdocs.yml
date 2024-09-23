@@ -314,6 +314,7 @@ plugins:
           How to customize the course design with CSS : Wie kann ich eigene CSS für das Kursdesign verwenden?
           How to use the same files in several courses : Wie kann ich dieselben Dateien in mehreren Kursen einsetzen?
           HTML Page : HTML-Seite
+          Import questions : Fragen importieren
           Imprint: Impressum
           In Five Steps to Your Content Package : Fünf Schritte zu Ihrem Content-Packaging
           Info page : Infoseite
@@ -467,8 +468,10 @@ plugins:
           Table concept: Tabellenkonzept
           Task : Aufgabe
           Technical Information on Resources and Usage : Automatische Informationen zur Lernressource
+          Technical Requirements : Technische Voraussetzungen
           Technology: Technologie
           Technology and Navigation : Technologie und Navigation
+          Terms of use :  Nutzungsbedingungen
           Test : Test
           Test editor QTI 2.1 : Testeditor
           Test question types : Test Fragetypen
