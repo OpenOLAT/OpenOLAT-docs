@@ -92,7 +92,7 @@ When clicking on the icon "Download table" an excel file containing all owners o
 **Add external members**
 
 If your OpenOlat administrator has made it possible to invite external users as group members, you can change this under<br>
-**Groups > Select group > Administration > Tab Members > Button "Invite external members"**
+**Groups > Select group > Administration > Tab Members > Button "Invite external members"** (Up to a maximum of 180 days.)
 
 <details>
     <summary>Screen</summary>

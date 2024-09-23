@@ -100,7 +100,7 @@ As soon as the entry/assignment is done, "Publish entry" can be selected. This m
 
 ## Share portfolio
   
-To allow another user or teacher to comment on or grade an portfolio assignment, it must be shared. Portfolio binders can be shared with other OpenOlat users (teachers, learners) and external persons.
+To allow another user or teacher to comment on or grade an portfolio assignment, it must be shared. Portfolio binders can be shared with other OpenOlat users (teachers, learners) and external persons. (For external users up to a maximum of 180 days.)
 
 !!! info "Info"
 

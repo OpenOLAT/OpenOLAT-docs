@@ -3,7 +3,7 @@
 OpenOlat kann neben registrierten Benutzern auch benutzt werden von
 
 * **Gästen** (anonym, können nur die für Gäste frei gegebenen Angebote nutzen)
-* **externen Benutzer:innen** (mindestens mit Mail bekannt, sind per Mail nur in einen ganz bestimmten Kurs/Gruppe/Portfolio/Projekt eingeladen)
+* **externen Benutzer:innen** (mindestens mit Mail bekannt, sind per Mail nur in einen ganz bestimmten Kurs/Gruppe/Portfolio/Projekt eingeladen, maximale Nutzungsdauer 180 Tage)
 
 
 Administrator:innen können festlegen, ob und in welchem Umfang OpenOlat so genutzt werden kann.

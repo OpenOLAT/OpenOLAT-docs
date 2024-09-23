@@ -44,7 +44,7 @@ If the user has additional [system roles](../basic_concepts/Roles_Rights.md), su
 
 Users can be added to a course in several ways:
 
-a) by directly entering them in the member list by the course owner via the button "Add member" or "Import members" or "invite external members". In the first two cases, existing Openolat users are added. With the third option, people without an OpenOlat account can also be added to the learning resource.
+a) by directly entering them in the member list by the course owner via the button "Add member" or "Import members" or "invite external members". In the first two cases, existing Openolat users are added. With the third option, people without an OpenOlat account can also be added to the learning resource for a period up to a maximum of 180 days.
 
 b) by booking the course by the learner (see [access configuration](../learningresources/Access_configuration.md))
 

@@ -49,7 +49,7 @@ Besitzt der User noch darüberhinausgehende bestimmte [System-Rollen](../basic_c
 
 Benutzer können auf verschiedene Arten einem Kurs hinzugefügt werden:
 
-a) durch das direkte Eintragen in die Mitgliederliste durch den Kursbesitzerüber die Links "Mitglied hinzufügen", "Mitglieder importieren" oder "Externe Mitglieder einladen". In den ersten beiden Fällen werden existierende OpenOlat Benutzer hinzugefügt. Mit der dritten Option können auch Personen ohne OpenOlat Account der Lernressource hinzugefügt werden.
+a) durch das direkte Eintragen in die Mitgliederliste durch den Kursbesitzerüber die Links "Mitglied hinzufügen", "Mitglieder importieren" oder "Externe Mitglieder einladen". In den ersten beiden Fällen werden existierende OpenOlat Benutzer hinzugefügt. Mit der dritten Option können auch Personen ohne OpenOlat Account für eine Dauer von maximal 180 Tagen der Lernressource hinzugefügt werden.
 
 b) durch Buchung des Kurses durch den Lernenden (siehe[Zugangskonfiguration](../learningresources/Access_configuration.de.md))
 

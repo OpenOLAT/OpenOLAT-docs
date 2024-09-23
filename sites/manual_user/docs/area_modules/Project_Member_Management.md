@@ -8,7 +8,7 @@ The project members are usually made project members by the project owner(s). (A
 
 ## External members
 
-If people who are not registered as users in OpenOlat are also to work on the project, they can be invited as external members.
+If people who are not registered as users in OpenOlat are also to work on the project, they can be invited as external members. They can then use OpenOlat for a maximum of 180 days.
 
 As soon as a project member is registered, he or she receives a link. After calling up the link, a wizard guides the new project member through login and registration.
 

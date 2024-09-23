@@ -92,7 +92,7 @@ Wenn Sie auf das Icon "Tabelle herunterladen" klicken, werden Betreuer bzw. Teil
 **Externe Mitglieder hinzufügen**
 
 Wurde auf Ihrem OpenOlat grundsätzlich von den Administrator:innen ermöglicht, auch externe Benutzer:innen als Gruppenmitglieder einzuladen, können Sie dies unter<br>
-**Gruppen > Gruppe auswählen > Administration > Tab Mitglieder > Button "Externe Mitglieder einladen"**
+**Gruppen > Gruppe auswählen > Administration > Tab Mitglieder > Button "Externe Mitglieder einladen"** (Für maximal 180 Tage.)
 
 <details>
     <summary>Screen</summary>

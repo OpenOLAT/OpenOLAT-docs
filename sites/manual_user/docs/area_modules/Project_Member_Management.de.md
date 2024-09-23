@@ -8,7 +8,7 @@ Die Projektmitglieder werden in der Regel durch den/die Projektbesitzer:in zu Pr
 
 ## Externe Mitglieder
 
-Sollen auch Personen im Projekt mitarbeiten, die nicht in OpenOlat als Benutzer registriert sind, können sie als externe Mitglieder eingeladen werden.
+Sollen auch Personen im Projekt mitarbeiten, die nicht in OpenOlat als Benutzer registriert sind, können sie als externe Mitglieder eingeladen werden. Sie können OpenOlat dann für maximal 180 Tage nutzen.
 
 Sobald ein Projektmitglied erfasst ist, erhält es einen Link. Nach Aufruf des Links führt ein Wizard das neue Projektmitglied durch Anmeldung und Registration.
 

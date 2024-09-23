@@ -101,7 +101,7 @@ Sobald der Eintrag respektive die Aufgabe abgeschlossen ist, "Eintrag publiziere
 
 ## Portfolio freigeben
 
-Damit eine Aufgabe von anderen Personen bewertet oder kommentiert werden kann, muss der Besitzer der Mappe diese zunächst für die jeweilige Person(en) freigeben. Sie können Portfolio Mappen sowohl an andere OpenOlat User (Lehrende, Lernende) als auch an externe Personen freigeben.
+Damit eine Aufgabe von anderen Personen bewertet oder kommentiert werden kann, muss der Besitzer der Mappe diese zunächst für die jeweilige Person(en) freigeben. Sie können Portfolio Mappen sowohl an andere OpenOlat User (Lehrende, Lernende) als auch an externe Personen freigeben. (Für externe Personen maximal 180 Tage.)
 
 !!! info "Hinweis"
 
