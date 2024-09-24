@@ -1,8 +1,9 @@
-# Fragenpool Administration
+# Fragenpool: Administration {: #question_bank_administration}
 
-## Konfiguration durch Poolverwalter
+## Konfiguration durch Poolverwalter {: #pool_manager}
 
-Im Administrationsbereich des Fragenpools verwalten Poolverwalter fünf Bereiche zur Organisation des Fragenpool-Moduls. Der Poolverwalter ist wie z.B. der Benutzerverwalter oder Autor eine [Rolle](../basic_concepts/Roles_Rights.de.md), die ein Systembenutzer von einem Systemadministrator zugewiesen bekommt. Der Poolverwalter hat das Recht, organisatorische Aspekte der Fragenbank zu ändern, er hat jedoch keinen Einfluss auf den Inhalt der Fragenbank sowie einzelner Pools. Auf die folgenden Bereiche des Fragenpool hat der Poolverwalter Zugriff:
+Im Administrationsbereich des Fragenpools verwalten Poolverwalter fünf Bereiche zur Organisation des Fragenpool-Moduls.
+Der Poolverwalter ist wie z.B. der Benutzerverwalter oder Autor eine [Rolle](../basic_concepts/Roles_Rights.de.md), die ein Systembenutzer von einem Systemadministrator zugewiesen bekommt. Der Poolverwalter hat das Recht, organisatorische Aspekte der Fragenbank zu ändern, er hat jedoch keinen Einfluss auf den Inhalt der Fragenbank sowie einzelner Pools. Auf die folgenden Bereiche des Fragenpool hat der Poolverwalter Zugriff:
 
   * Beurteilungsprozess
   * Fachbereich
@@ -10,7 +11,9 @@ Im Administrationsbereich des Fragenpools verwalten Poolverwalter fünf Bereiche
   * Fragetyp
   * Stufe
 
-###  Beurteilungsprozess
+![question_bank_navigation_administration_v1_de.png](assets/question_bank_navigation_administration_v1_de.png){ class="shadow lightbox" }
+
+###  Beurteilungsprozess {: #review_process}
 
 Hier kann definiert werden wann eine Frage, für die ein Beurteilungsprozess gestartet wurde, den Status "final" erhält. Liegt ein Item unterhalb dieser Grenze wird das Item auf "Revision" gesetzt.
 

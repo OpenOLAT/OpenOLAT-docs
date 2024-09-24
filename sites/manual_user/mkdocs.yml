@@ -94,7 +94,7 @@ nav:
     - Question Bank:
       - Overview: "area_modules/Question_Bank.md"
       - Data Management: "area_modules/Data_Management.md"
-      - Import questions: "area_modules/Question_Pool_Import_Questions.md"
+      - Import questions: "area_modules/Question_Bank_Import_Questions.md"
       - Item Detailed View: "area_modules/Item_Detailed_View.md"
       - Question bank possible operations: "area_modules/Question_bank_possible_operations.md"
       - Search: "area_modules/Question_Pool_Search.md"
