@@ -34,7 +34,7 @@ Here is an overview of all OpenOlat roles.
 * **Quality manager**: The quality manager has access to the Quality Management area and can manage all settings and objects such as questionnaires, data collection generators and the analysis tool.
 * **Line manager**: The line manager can be automatically informed about the receipt of certificates for all users of his organization.
 * **Learning resource manager**: A learning resource manager automatically has owner rights (= full access) for all courses and learning resources belonging to the own organization (see [Administrative release](../learningresources/Access_configuration.md#administrative-release)). In the status "Finished" and "Deleted" the access is read-only. The courses and learning resources can be found in the authoring area and can be copied as well as exported.
-* **Principal**: The principal sees all areas of the system except administration, but has read-only access and cannot make any changes, edit objects, etc.
+* **Principal**: The principal sees many areas of the system, but has read-only access and cannot make any changes, edit objects, etc.
 * **Administrator**: The administrator has module and function management and has access to all areas of the system e.g. user management, catalog management, curriculum management, lectures management, except the administration page. This role can be limited to an organization. The administrator can delete users and also grant other people the right to manage the catalogue.
 * **System administrator**: The system administrator has access to the administration side and is responsible for the technical system configuration and its monitoring. This is a global role that is not tied to an organization.
 

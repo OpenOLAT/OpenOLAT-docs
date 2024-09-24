@@ -44,9 +44,11 @@ The course roles participants as well as the coaches also stand for the group pa
 | ![Finished](assets/s_fin_EN.png){ width=63px }               | Reading        | Reading,<br/>with clearance         | Reading            | :material-cancel:        |
 | ![Trash](assets/s_trash.png){ width=80px }          | Reading        | :material-cancel:                | :material-cancel: | :material-cancel:        |
 | **Course admin tools**                                                                                                                                           |
-| Members management                                        | Full access   | :material-cancel:                | Reading            | :material-cancel:        |
+| Members management                                       | Full access   | :material-cancel:                | Reading            | :material-cancel:        |
 | Assessment tool                                          | Full access   | :material-cancel:                | Reading            | :material-cancel:        |
-| Lessons & Absences                                          | Full access   | :material-cancel:                | Reading            | :material-cancel:        |
+| Files of a course                                        | Full access   |      Full access           | :material-cancel:           | :material-cancel:        |
+| Lessons & Absences                                       | Full access   | :material-cancel:                | Reading            | :material-cancel:        |
+| Archiving & Reporting                                    | Full access   |      Full access           | :material-cancel:           | :material-cancel:        |
 | **Course actions**                                                                                                                                              |
 | Copy                                                    | :material-check: | :material-check: with clearance |                   |                          |
 | Delete                                                     | :material-check: |                               |                   |                          |

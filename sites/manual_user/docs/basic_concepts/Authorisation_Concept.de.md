@@ -46,7 +46,9 @@ Die Kursrollen Teilnehmer sowie Betreuer stehen stellvertretend auch für die Gr
 | **Kursadmin-Tools**                                                                                                                                           |
 | Mitgliederverwaltung                                        | Vollzugriff   | :material-cancel:                | Lesend            | :material-cancel:        |
 | Bewertungswerkzeug                                          | Vollzugriff   | :material-cancel:                | Lesend            | :material-cancel:        |
-| Lektionen & Absenzen                                          | Vollzugriff   | :material-cancel:                | Lesend            | :material-cancel:        |
+| Dateien eines Kurses                                        | Vollzugriff   |      Vollzugriff           | :material-cancel:           | :material-cancel:        |
+| Lektionen & Absenzen                                         | Vollzugriff   | :material-cancel:                | Lesend            | :material-cancel:        |
+| Archivierung & Reporting                                    | Vollzugriff   |      Vollzugriff           | :material-cancel:           | :material-cancel:        |
 | **Kursaktionen**                                                                                                                                              |
 | Kopieren                                                    | :material-check: | :material-check: mit Freigabe |                   |                          |
 | Löschen                                                     | :material-check: |                               |                   |                          |
