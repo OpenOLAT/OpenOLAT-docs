@@ -24,12 +24,6 @@ The various curricula in OpenOlat are administered in the curriculum administrat
 
 At curriculum level, the curricula that have already been created are displayed in tabular form. The number of curriculum elements is also displayed. Curricula can be opened again for editing or deletion.
 
-![Übersicht aller Curricula](assets/Curriculum_Browser.png)
-
-**Level Curriculum element**
-
-If you are in a curriculum, its tree structure is displayed in the Curriculum Browser. All metadata such as start and end dates, curriculum type and timetable are also displayed.
-
 In addition, the following data can be displayed in the table:
 
 * **Ref.:** Shows how many courses are assigned to this curriculum element.
@@ -53,17 +47,16 @@ Curriculum elements can then be subordinated to this curriculum.
 
 Via "Create New Curriculum" you can enter a description in addition to the identifier and the name. You can also create a link to an organization or organizational element. All organizational elements to which the curriculum administrator has access are available for selection.
 
-Once the curriculum has been created, the curriculum elements can be created.
+Once the curriculum has been created, the *curriculum elements* can be created.
 
 
 ## Edit Curriculum and add Curriculum Administrator
 
-In the Curriculum Browser, you can edit the curriculum and change the metadata
-using ![](assets/Symbol_Bearbeiten.png) or the 3-point menu.
+In the Curriculum Browser, the curriculum can be edited and the metadata changed via the "Edit" link or the 3-dot menu.
 
 ![Curriculum bearbeiten](assets/Curriculum_bearbeiten1.png)
 
-In the tab "User administration" you can add further curriculum administrators to the curriculum or remove existing ones.
+In addition to the "Metadata" tab, the "User administration" tab is used to manage and organize curriculum administrators. New curriculum owners can be added or deleted here. 
 
 ## Search Curriculum
 
@@ -85,7 +78,7 @@ Es ist auch möglich, das Element im Curriculum zu verschieben, ein neues Untere
 
 ## Edit Curriculum Element
 
-Wählt man "bearbeiten" erscheinen die beiden Tabs "Metadaten" und "Kurse" und es können weitere Einstellungen vorgenommen werden. 
+If you select "Edit", the two tabs "Metadata" and "Courses" appear and further settings can be made. 
 
 ### Edit Metadata
 

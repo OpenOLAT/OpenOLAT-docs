@@ -71,7 +71,7 @@ Der Betreuer:innen-Chat während Prüfungen funktioniert unabhängig davon, ob d
 
 * Wählen Sie im Menü den Test-**Kursbaustein**, der die Prüfung enthält.
 * Als Betreuer:in sehen Sie nach dem Anklicken nicht den Test (wie die Teilnehmer:innen), sondern mehrere Tabs.
-* Wählen Sie den **Tab „Kommunikation“**. Dort finden Sie die Werkzeuge zur Kommunikation zwischen Prüfungsaufsicht (Betreuer:innen) und Prüfungsteilnehmer:innen.
+* Wählen Sie den **Tab "Kommunikation"**. Dort finden Sie die Werkzeuge zur Kommunikation zwischen Prüfungsaufsicht (Betreuer:innen) und Prüfungsteilnehmer:innen.
 
 Im **oberen Bereich** erstellen, bearbeiten und verwalten Sie die **Mitteilungen** (1:many) vor und während der Prüfung.
 

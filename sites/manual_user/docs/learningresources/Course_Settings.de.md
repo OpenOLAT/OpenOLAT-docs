@@ -6,7 +6,7 @@ Unter **Administration > Einstellungen** nehmen Sie Konfigurationen vor, die den
 
 :octicons-device-camera-video-24: **Video-Einführung**: [Kursbausteine konfigurieren](<https://www.youtube.com/embed/SAkzzoOQEoQ>){:target="_blank”}
 
-!!! info "Hinweise "
+!!! info "Hinweise"
 
     Jede [Lernressource](../learningresources/index.de.md) verfügt über ein Menü "Einstellungen", nicht nur Kurse.
     
@@ -83,7 +83,7 @@ Hier können Sie
 
 Im Tab "Freigabe" definieren Sie, wie und für wen ein Kurs oder eine Lernressource freigegeben wird. 
 
-* Ob der Zugang nur für ausgewählte Miglieder möglich ist, der Kurs selbst gewählt und gebucht werden kann oder der Zugang ganz offen steht 
+* Ob der Zugang nur für ausgewählte Mitglieder möglich ist, der Kurs selbst gewählt und gebucht werden kann oder der Zugang ganz offen steht 
 * Wann Teilnehmer:innen aus dem Kurs austreten können
 * Ob ggf. nur administrative Rollen einer bestimmten Organisationseinheit Zugriff erhalten
 * Ob und wie andere Autor:innen auf den Kurs zugreifen können
