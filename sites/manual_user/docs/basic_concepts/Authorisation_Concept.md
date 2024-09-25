@@ -1,4 +1,8 @@
-# Overview
+# Roles and Rights: Authorisation in courses {: #rights_in_courses}
+
+The access options to courses for the different roles are listed below.
+
+
 Legend
 
 | Term/Symbol    | Description                                |
@@ -8,9 +12,8 @@ Legend
 | :material-cancel: | No access. Neither writing nor reading |
 | :material-check:  | Action available                           |
 
-## Course access
-In this chapter, the access options of the respective users are shown with different roles.
-### Course roles
+
+## Rights of course roles
 The course roles participants as well as the coaches also stand for the group participants/coaches and curriculum participants/coaches.
 
 |                                                             | Owner         | Coach          | Participant       |
@@ -33,7 +36,12 @@ The course roles participants as well as the coaches also stand for the group pa
 | **Modules**                                                                                                             |
 | Coaching                                                    | Full access      | Full access       | :material-cancel: |
 
-### System wide roles
+
+[To the top of the page ^](#rights_in_courses)
+
+---
+
+## Rights of system wide roles
 |                                                             | Administrator | Author                            | Principal         | Line<br/>manager | 
 | ----------------------------------------------------------- | :-----------: | :------------------------------: | ----------------: | :----------------------: | 
 | **Access by status**                                                                                                                                       |
@@ -58,7 +66,12 @@ The course roles participants as well as the coaches also stand for the group pa
 | **Modules**                                                                                                                                                    |
 | Coaching                                                    | Full access      | :material-cancel:             | :material-cancel: | Reading                   |
 
-#### Participants
+
+[To the top of the page ^](#rights_in_courses)
+
+---
+
+## Rights of course participants
 |                                                             | Registrated User                                  | Anonymous guest               | 
 | ----------------------------------------------------------- | :-----------------------------------------------------: | :-------------------------: |
 | **Access by status**                                                                                                                             |
@@ -69,7 +82,11 @@ The course roles participants as well as the coaches also stand for the group pa
 | ![Finished](assets/s_fin_EN.png){ width=63px }               | Reading,<br/>if access "Available" "Without booking" | Reading,<br/>if guest access |
 | ![Trash](assets/s_trash.png){ width=80px }          | :material-cancel:                                       | :material-cancel:           |
 
-#### Manager-Roles
+[To the top of the page ^](#rights_in_courses)
+
+---
+
+## Rights of manager roles
 |                                                             | Learning resource<br/>manager |  Curriculum<br/>manager | Lection block<br/>manager |
 | ----------------------------------------------------------- | :---------------------------: | :------------------------: | :---------------------------: |
 | **Access per status**                                                                                                                                  |
@@ -91,7 +108,11 @@ The course roles participants as well as the coaches also stand for the group pa
 | Coaching                                                    | Full access                   | :material-cancel:          | :material-cancel:             |
 | Lessons management                                         | :material-cancel:             | :material-cancel:          | Full access                   |
 
-### Curriculum roles
+[To the top of the page ^](#rights_in_courses)
+
+---
+
+## Rights of curriculum roles
 |                                                             | Curriculum<br/>owner |  Curriculum<br/>element owner | Class teacher     |
 | ----------------------------------------------------------- | :----------------------: | :-----------------------------: | :---------------: |
 | **Access by status**                                                                                                                      |
@@ -109,3 +130,6 @@ The course roles participants as well as the coaches also stand for the group pa
 | Coaching - Lessons & Absences                               | :material-cancel:        | :material-cancel:               | Full access       |
 | Coaching - Courses                                            | :material-cancel:        | :material-cancel:               | :material-cancel: |
 | Lessons management                                         | :material-cancel:        | :material-cancel:               | :material-cancel: |
+
+[To the top of the page ^](#rights_in_courses)
+
