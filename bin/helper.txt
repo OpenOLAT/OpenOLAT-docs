@@ -1,0 +1,3 @@
+# Find all the manual references in OpenOlat
+cd OpenOlat/src/main/
+grep -r 'manual_user\|manual_admin\|manual_dev\|manual_how-to\|manual_notes' java | sed -e 's/.*\(manual_[^"]*\).*/\1/' | sed -e "s/.*\(manual_[^']*\).*/\1/" > ~/Desktop/20240926_OpenOlat_manuallinks.txt
