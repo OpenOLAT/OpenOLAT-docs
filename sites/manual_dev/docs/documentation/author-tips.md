@@ -119,7 +119,7 @@ Aside classes behave respsonsive, meaning the images get smaller if there is not
 | `aside-right-xl` | shrink to fit 400px width | ![thumbnail-xl](assets/example-screenshot.png){ class=aside-right-xl } |
 | `aside-left-sm` | shrink to fit 150px width | ![thumbnail-sm](assets/example-screenshot.png){ class=aside-left-sm } |
 | `aside-left` | shrink to fit 250px width | ![thumbnail](assets/example-screenshot.png){ class=aside-left } |
-| `aside-left-lg` | shrink to fit 300px width | ![thumbnail-lg](assets/example-screenshot.png){ class=aside-lefr-lg } |
+| `aside-left-lg` | shrink to fit 300px width | ![thumbnail-lg](assets/example-screenshot.png){ class=aside-left-lg } |
 | `aside-left-xl` | shrink to fit 400px width | ![thumbnail-xl](assets/example-screenshot.png){ class=aside-left-xl } |
 
 
