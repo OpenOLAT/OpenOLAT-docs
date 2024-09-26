@@ -103,12 +103,12 @@ There are some predefined image sizes that can be applied by assigning CSS class
 
 ### Aside images
 
-Sometimes it is handy to have all images in the same width displayed at the right side. For this purpose we have the aside classes. 
+Sometimes it is handy to have all images in the same width displayed at the right or lesft side. For this purpose we have the aside classes. 
 
 Aside classes behave respsonsive, meaning the images get smaller if there is not enough space on the screen
 
 !!! info
-	Note that aside images must be placed **before** the content. 
+	Note that aside images must be placed **before** the content regardless whether they are left or right positioned. 
 
 
 | CSS class | Description | Example |
@@ -117,6 +117,10 @@ Aside classes behave respsonsive, meaning the images get smaller if there is not
 | `aside-right` | shrink to fit 250px width | ![thumbnail](assets/example-screenshot.png){ class=aside-right } |
 | `aside-right-lg` | shrink to fit 300px width | ![thumbnail-lg](assets/example-screenshot.png){ class=aside-right-lg } |
 | `aside-right-xl` | shrink to fit 400px width | ![thumbnail-xl](assets/example-screenshot.png){ class=aside-right-xl } |
+| `aside-left-sm` | shrink to fit 150px width | ![thumbnail-sm](assets/example-screenshot.png){ class=aside-left-sm } |
+| `aside-left` | shrink to fit 250px width | ![thumbnail](assets/example-screenshot.png){ class=aside-left } |
+| `aside-left-lg` | shrink to fit 300px width | ![thumbnail-lg](assets/example-screenshot.png){ class=aside-lefr-lg } |
+| `aside-left-xl` | shrink to fit 400px width | ![thumbnail-xl](assets/example-screenshot.png){ class=aside-left-xl } |
 
 
 === "Markup"

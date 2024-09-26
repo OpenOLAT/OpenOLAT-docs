@@ -61,35 +61,53 @@ img {
 		float: right;
 		margin: 0 0 1.5em 1.5em;
 	}
-	&.aside-right-sm {
+	&.aside-left-sm,
+	&.aside-left,
+	&.aside-left-lg,
+	&.aside-left-xl {
+		float: left;
+		margin: 0 1.5em 1.5em 0;
+	}
+	&.aside-right-sm,
+	&.aside-left-sm {
 		max-width: 150px;
 	}
-	&.aside-right {
-		max-width: 250px;
+	&.aside-right,
+	&.aside-left {
+	max-width: 250px;
 	}
-	&.aside-right-lg {
-		max-width: 300px;
+	&.aside-right-lg,
+	&.aside-left-lg {
+	max-width: 300px;
 	}
-	&.aside-right-xl {
-		max-width: 400px;
+	&.aside-right-xl,
+	&.aside-left-xl {
+	max-width: 400px;
 	}
 	@media (max-width: 800px) { 
 		&.aside-right-lg,
-		&.aside-right-xl {
-			max-width: 300px;
+		&.aside-right-xl,
+		&.aside-left-lg,
+		&.aside-left-xl {
+	max-width: 300px;
 		}
 	}
 	@media (max-width: 600px) { 
 		&.aside-right-lg,
-		&.aside-right-xl {
-			max-width: 250px;
+		&.aside-right-xl,
+		&.aside-left-lg,
+		&.aside-left-xl {
+	max-width: 250px;
 		}
 	}
 	@media (max-width: 500px) { 
 		&.aside-right,
 		&.aside-right-lg,
-		&.aside-right-xl {
-			max-width: 150px;
+		&.aside-right-xl,
+		&.aside-left,
+		&.aside-left-lg,
+		&.aside-left-xl {
+	max-width: 150px;
 		}
 	}
 	

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* OpenOlat-docs extra stylesheet */
 /* 1) variables */
 /* 2) custome styles */
@@ -54,36 +55,40 @@ img.aside-right-sm, img.aside-right, img.aside-right-lg, img.aside-right-xl {
   float: right;
   margin: 0 0 1.5em 1.5em;
 }
-img.aside-right-sm {
+img.aside-left-sm, img.aside-left, img.aside-left-lg, img.aside-left-xl {
+  float: left;
+  margin: 0 1.5em 1.5em 0;
+}
+img.aside-right-sm, img.aside-left-sm {
   max-width: 150px;
 }
-img.aside-right {
+img.aside-right, img.aside-left {
   max-width: 250px;
 }
-img.aside-right-lg {
+img.aside-right-lg, img.aside-left-lg {
   max-width: 300px;
 }
-img.aside-right-xl {
+img.aside-right-xl, img.aside-left-xl {
   max-width: 400px;
 }
 @media (max-width: 800px) {
-  img.aside-right-lg, img.aside-right-xl {
+  img.aside-right-lg, img.aside-right-xl, img.aside-left-lg, img.aside-left-xl {
     max-width: 300px;
   }
 }
 @media (max-width: 600px) {
-  img.aside-right-lg, img.aside-right-xl {
+  img.aside-right-lg, img.aside-right-xl, img.aside-left-lg, img.aside-left-xl {
     max-width: 250px;
   }
 }
 @media (max-width: 500px) {
-  img.aside-right, img.aside-right-lg, img.aside-right-xl {
+  img.aside-right, img.aside-right-lg, img.aside-right-xl, img.aside-left, img.aside-left-lg, img.aside-left-xl {
     max-width: 150px;
   }
 }
 img.lightbox:hover {
   cursor: pointer;
-  box-shadow: 0 0px 15px 0px #ff9100;
+  box-shadow: 0 0px 15px 0px rgb(255, 145, 0);
 }
 
 /* always use hr to clear floating images */
@@ -108,8 +113,6 @@ figcaption {
     max-height: 100%;
   }
 }
-
-
 .ᴴₒᴴₒᴴₒ {
-	border-color: #bbb !important;
+  border-color: #ccc !important;
 }
