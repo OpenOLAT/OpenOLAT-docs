@@ -1,44 +1,68 @@
 # Zusätzliche Kursfunktionen
 
-Im Kurs stehen Usern eine Reihe von weiteren Kursfunktionen zur Verfügung, die der Besitzer des Kurses nach Bedarf ein- und ausschalten kann. So kann eine Toolbar mit diversen weiteren Funktionen aktiviert werden. Die Tools sind dann entweder über das Menü "Mein Kurs" oder direkt in der Toolbar aufrufbar. In der Toolbar sind die Tools unabhängig von bestimmten Freigaben innerhalb der Kursstruktur.
+Im Kurs stehen Usern eine Reihe von weiteren Kursfunktionen zur Verfügung, die der Besitzer bzw. die Besitzerin des Kurses nach Bedarf ein- und ausschalten kann. Diese Funktionen erscheinen dann entweder in der Toolbar oder unter "Mein Kurs". 
+
 
 ## Menü "Mein Kurs"
 
-Das Dropdown-Menü "Mein Kurs" bietet Zugriff auf personalisierte Bestandteile des Kurses. Abhängig von der Konfiguration des Kurses werden eventuell nicht alle Einträge angezeigt.
+Das Dropdown-Menü "Mein Kurs" bietet Zugriff auf personalisierte Bestandteile des Kurses.
 
-* Notizen: Hier können Sie kursspezifische Notizen eintragen, die nur Sie als Kursteilnehmer lesen können.
-* Der Leistungsnachweis zeigt Ihre Bewertungen im Kurs in Tabellenform an und gibt, sofern aktiviert, Zugriff auf das Zertifikat des Kurses.
-* Bookmark: Aktivieren Sie den Bookmark, dann erscheinen diese Kurse im Menü "Kurse" im Tab "Favoriten".
-* Gruppen: Hier sehe Sie alle _kursspezifischen_ Gruppen in denen Sie Mitglied sind.
-* Mit "Kurs verlassen" können Sie sich aus dem Kurs austragen.
+![Dropdown - Mein Kurs](assets/Mein_Kurs_menue_19.jpg)
+
+Abhängig von der Konfiguration des Kurses werden eventuell nicht alle Einträge angezeigt.
+
+* **Der Leistungsnachweis** zeigt Ihre Bewertungen im Kurs an und gibt, sofern aktiviert, Zugriff auf das Zertifikat des Kurses.
+* **To-dos**: Zeigt die aktuellen To-dos des Kurses an. 
+* **Notizen**: Hier können Sie kursspezifische Notizen eintragen, die nur Sie als Kursteilnehmer:in lesen können.
+* **Bookmark**: Aktivieren Sie den Bookmark, dann erscheinen diese Kurse im Menü "Kurse" im Tab "Favoriten".
+* **Einwilligung**: Sollte es im Kurs bestimmte Nutzungsbedingungen und/oder eine kursbezogene Datenschutzerklärung geben der Sie zugestimmt haben, können Sie diese hier einsehen und auch die Einwilligung widerrufen.  
+* **Gruppen**: Hier sehe Sie alle kursspezifischen Gruppen in denen Sie Mitglied sind und können direkt dorthin navigieren.
+* Mit **"Kurs verlassen"** können Sie sich aus dem Kurs austragen.
+
+
+### Leistungsnachweis
+
+Ein Leistungsnachweis ist eine Bestätigung einer erfolgten Leistungskontrolle und muss vom Kursbesitzer bzw. der Kursbesitzerin zunächst aktiviert werden. Lernende sehen dann die einzelnen absolvierten Assessmentbausteine des Kurses wie Tests oder Aufgaben, ihre Punkte und weitere Informationen.
+
+![Leistungsnachwei](assets/Leistungsnachweis_19.png)
+
+Falls für den Kurs ein Zertifikat ausgestellt wurde finden Sie dies ebenfalls unter "Leistungsnachweis" zum herunterladen. Betreuende des Kurses können die Zertifikate im [Coaching-Tool](../area_modules/Coaching.de.md) einsehen.
+Bei automatisch ausgestellten Zertifikaten nach erfolgreichem Abschluss eines Kurses erhalten Sie eine automatisch generierte Benachrichtigung per E-Mail.
+
+!!! info "Info"
+
+    Leistungsnachweise und Zertifikate aus all Ihren Kursen finden Sie unter ["Leistungsnachweise"](../personal_menu/Personal_Tools.de.md#leistungsnachweise). 
+
+### To-dos
+Hier werden Teilnehmenden alle für Sie relevanten To-dos des Kurses angezeigt. 
+Dabei kann es sich zum einen um automatisch generierte To-dos aus den Aufgaben-Kursbausteinen handeln. Dann werden aufgefordert einen bestimmten Schritt im Aufgabenflow zu gehen, z.B. eine Aufgabe auszuwählen, eine Lösung abzugeben o.ä. 
+Zum anderen können Lehrende allen Kursteilnehmenden oder auch nur einzelnen Personen bestimmte konkrete To-dos zuweisen. Lernende können den Status eines To-dos ändern, wenn sie die Aktion erledigt haben. 
+
+Die To-dos dienen dem User als Orientierung, was aktuell im Kurs zu tun ist. 
+Ein Überblick über alle persönlichen und kursbezogenen To-dos finden User im Bereich ["Persönliche Werkzeuge"](../personal_menu/To-Dos.de.md). Dort können sie auch eigene To-dos ergänzen.
+
+
+### Kurs verlassen
 
 Die "Kurs verlassen" Funktion beendet sofort ihre Kurs- oder Gruppenmitgliedschaft, abhängig davon auf welche Weise Sie Zugriff zum Kurs haben. Im Anschluss daran haben Sie keinen Zugriff mehr auf den Kurs, bzw.
 müssen den entsprechenden Kurs- oder Gruppenbetreuer kontaktieren um wieder Kurszugriff zu erhalten.
 
-Die Möglichkeit, sich aus einem Kurs auszutragen muss zuvor vom Kursbesitzer aktiviert worden sein und gilt nur für Kursteilnehmer, nicht für Betreuer oder Besitzer.
+Die Möglichkeit, sich aus einem Kurs auszutragen muss zuvor von den Kursbesitzer*innen in den Einstellungen des Kurses im Tab "Freigabe" aktiviert worden sein und gilt nur für Kursteilnehmende, nicht für Betreuer:innen oder Besitzer:innen.
 
-![Dropdown - Mein Kurs](assets/Mein_Kurs_Menue.png)
+## Elemente der Toolbar
 
-### Leistungsnachweis & Zertifikat
+In der Toolbar stehen die Tools unabhängig von bestimmten Freigaben innerhalb der Kursstruktur zur Verfügung.
 
-Ein Leistungsnachweis ist eine Bestätigung einer erfolgten Leistungskontrolle und zeigt beispielsweise absolvierte Tests oder abgegebene und bewertete Aufgaben an. Wenn der Besitzer des Kurses den Leistungsnachweis eingeschaltet hat, es im Kurs bewertbare Kursbausteine gibt, Sie bereits einen Test oder eine Aufgabe absolviert haben und bewertet wurden, ist Ihr Leistungsnachweis im Dropdown-Menü "Mein Kurs" aufrufbar. Falls für diesen Kurs ein Zertifikat ausgestellt wurde finden Sie dies ebenfalls unter "Leistungsnachweis" zum herunterladen. Betreuende können die Zertifikate im [Coaching-Tool](../area_modules/Coaching.de.md) einsehen.
+Standardmässig ist die [Kursinfo](../learningresources/Info_page.de.md) in der Toolbar sichtbar. Bei Lernpfad Kursen erscheint zusätzlich das Element "Lernpfad" in der Toolbar. Hier sehen User differenzierter ihren Fortschritt im Kurs und erhalten so eine gute Übersicht über erledigte und noch zu erledigende Kurselemente. 
+![Mein Lernpfad](assets/Mein_Lernpfad.png)
 
-Bei automatisch ausgestellten Zertifikaten nach erfolgreichem Abschluss eines Kurses erhalten Sie eine automatisch generierte Benachrichtigung per E-Mail.
+Hier ein **Schnellüberblick** über die ja nach Aktivierung durch die Kursbesitzer:innen zur Verfügung stehenden Werkzeuge der Toolbar. 
 
-Alle Ihre Leistungsnachweise und Zertifikate finden Sie auch unter
-["Leistungsnachweise"](../personal_menu/Personal_Tools.de.md#leistungsnachweise). Der Leistungsnachweis öffnet sich immer in einem neuen Fenster, das sich auch als Druckformat eignet.
-
-## Weitere Elemente der Toolbar
-
-Standardmäßig ist die [Kursinfo](../learningresources/Info_page.de.md) in der Toolbar sichtbar. Folgende weitere Tools können ebenfalls über die Toolbar aufrufbar sein:
-
-![Kurs Toolbar](assets/Toolbar_alles.png)
-
-* Lernpfad: Übersicht der erledigten und offenen Kurselemente
 * Kalender: Zugriff auf den kursspezifischen Kalender
 * Teilnehmerliste: Übersicht der Kursmitglieder
-* Teilnehmerinfos: Hier kann der Lehrende zentrale Kursinfos hinterlegen (Mitteilung)
-* E-Mail: Vom Lehrenden vorkonfigurierte Möglichkeit E-Mails an Kursbesitzer:innen, Betreuer:innen und/oder Teilnehmer:innen zu versehenden
+* Mitteilungen: Hier kann der Lehrende zentrale Kursinfos hinterlegen.
+* E-Mail: Kontaktmöglichkeit zu den Kursbesitzer:innen, Betreuer:innen 
+* BigBlueButton (oder andere virtuelle Klassenzimmer): Für synchrone Meetings
 * Blog: Zugriff auf einen zentralen Kurs-Blog
 * Wiki: Zugriff auf ein zentrales Wiki für den Kurs
 * Forum: Zugriff auf ein zentrales Kurs-Forum
@@ -47,22 +71,14 @@ Standardmäßig ist die [Kursinfo](../learningresources/Info_page.de.md) in der 
 * [Kurs-Chat](../basic_concepts/Chat.de.md): Für den synchronen Austausch der Kurs-Mitglieder
 * Kurssuche: Durchsuchen Sie den Kurs nach Schlüsselbegriffen
 
-### Lernpfad
-
-Hier erhalten Kursteilnehmende bei Lernpfad Kursen rasch einen Überblick, was sie bereits erledigt haben und welche Dinge im Kurs noch bearbeitet bzw. aufgerufen werden müssen.
-
-![Mein Lernpfad](assets/Mein_Lernpfad.png)
-
 ### Kurskalender
 
-Der Kalender geht in einem neuen Fenster auf. Termine im Kurskalender eintragen dürfen nur Kursbesitzer. Kurskalender werden automatisch zu Ihrem [persönlichen Kalender](../personal_menu/Personal_Tools.de.md) hinzugefügt. Wählen Sie dazu den Kurskalender in der Kalenderliste des persönlichen Kalenders aus. Informationen zur Kalenderliste sowie weiterer Kursfunktionen finden Sie im Kapitel [Kalender](../personal_menu/Calendar.de.md).
+Der Kalender geht in einem neuen Fenster auf. Termine im Kurskalender eintragen dürfen nur Kursbesitzer:innen. Kurskalender werden automatisch zu Ihrem [persönlichen Kalender](../personal_menu/Personal_Tools.de.md) hinzugefügt. Wählen Sie dazu den Kurskalender in der Kalenderliste des persönlichen Kalenders aus. Informationen zur Kalenderliste sowie weiterer Kursfunktionen finden Sie im Kapitel [Kalender](../personal_menu/Calendar.de.md).
 
 ### Glossar {: #glossary}
 
-Wenn der Kursbesitzer ein Glossar zur Begriffsklärung in den Kurs eingebunden hat, sehen Sie das Glossar Dropdown-Menü oben in der Kurstoolbar. Sie können das Glossar in einem neuen Fenster öffnen, oder die Begriffe im Kurs einblenden. Wenn im Kurs (beispielsweise im Wiki) ein Begriff erwähnt wird, der im Glossar steht, wird Ihnen die Definition angezeigt, wenn Sie mit der Maus über den Begriff fahren. Das Glossar kann auch ausgedruckt werden.
+Wenn der Kursbesitzer ein Glossar zur Begriffsklärung in den Kurs eingebunden hat, sehen Sie das Glossar Dropdown-Menü oben in der Kurstoolbar. Sie können das Glossar in einem neuen Fenster öffnen, oder die Begriffe im Kurs einblenden. Wenn im Kurs (beispielsweise im Wiki oder einer HTML-Seite) ein Begriff erwähnt wird, der im Glossar steht, wird Ihnen die Definition angezeigt, wenn Sie mit der Maus über den Begriff fahren. Das Glossar kann auch ausgedruckt werden.
 
 Eventuell können Sie die Glossareinträge auch bearbeiten, sofern diese Option vom Lehrenden aktiviert wurde. Weitere Infos dazu finden Sie [hier](../learningresources/Using_Additional_Course_Features.de.md).
 
-### Kurs-Chat
-
-Klicken Sie auf den Link "Kurs-Chat" um das Chatfenster zu öffnen. Dabei sind Sie zuerst immer anonym im Chatraum. Sie finden rechts vom Textfeld die Möglichkeit, Ihren Anonymous zu ändern bzw. Ihren  Benutzernamen anzeigen zu lassen. Allgemeine Chat-Funktionen sind im Kapitel "Persönliches Menü, Volltextsuche und Chat" unter dem Punkt ["Chat"](../basic_concepts/Chat.de.md) detailliert beschrieben.
+Weitere Informationen zu den anderen Elementen der Toolbar finden Sie [hier](../learningresources/Using_Additional_Course_Features.de.md). 
