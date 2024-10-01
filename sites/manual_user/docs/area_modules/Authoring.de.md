@@ -49,8 +49,8 @@ Weitere Details zum Umgang mit den Filteroptionen erfahren Sie im Abschnitt zum
 
 ![autorenbereich_spalten_auswaehlen_v1_de.png](assets/autorenbereich_spalten_auswaehlen_v1_de.png){ class="shadow lightbox" }
 
-**Beispiel:**<br>
-In der Spalte "Ref" ist angezeigt, ob bzw. wie oft eine Lernressource in OpenOlat Kursen referenziert wurde. Klicken Sie auf diese Zahl, werden Ihnen die Kurse namentlich angezeigt. Sie können dann direkt zum gewünschten Kurs springen.
+**Beispiel**:<br>
+In der Spalte "Ref." ist angezeigt, ob bzw. wie oft eine Lernressource in OpenOlat Kursen referenziert wurde. Klicken Sie auf diese Zahl, werden Ihnen die Kurse namentlich angezeigt. Sie können dann direkt zum gewünschten Kurs springen.
 
 ![autorenbereich_spalten_auswaehlen2_v1_de.png](assets/autorenbereich_spalten_auswaehlen2_v1_de.png){ class="shadow lightbox" }
 
@@ -60,5 +60,5 @@ Sie können die gesamte Tabelle in dem aktuell angezeigten Zustand herunterladen
 ### 11. Spalten sortieren
 Durch Klick auf einen Spaltentitel werden alle Einträge der Tabelle alphabetisch, nach Datum, usw. sortiert.
 
-**Beispiel:** Klick auf Spaltentitel "Titel der Lernressource" sortiert die Tabelle alphabetisch nach dem Titel. Bei nochmaligem Klick umgekehrt alphabetisch.
+**Beispiel**: Klick auf Spaltentitel "Titel der Lernressource" sortiert die Tabelle alphabetisch nach dem Titel. Bei nochmaligem Klick umgekehrt alphabetisch.
 

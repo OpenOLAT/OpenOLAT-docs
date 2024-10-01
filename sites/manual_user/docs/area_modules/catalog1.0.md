@@ -6,17 +6,17 @@ The Catalog 1.0 can be set up by an administrator or catalog administrator, so t
 
 ![catalog](assets/catalog.png)
 
-Use the search mask in case you should not find the appropriate course in the catalog. It may be that the course author has not yet listed that course in the OpenOlat catalog.
+Use the search mask in case you should not find the appropriate course in the catalog. Perhaps the course author has not yet listed that course in the OpenOlat catalog.
 
 Teachers can only enter courses and learning resources in the catalog that are also available to learners. The visibility in the catalog depends on the publication status and access settings of the learning resource:
 
-Users role | Access settings|Publication status
+Users role | Access settings | Publication status
 ---|---|---  
 Owner of learning resource| Private, Bookable, Open| Always visible  
 Coach of learning resource| Private, Bookable, Open|  "Access for coach", "Published" oder "Finished"  
-Participant of learning resource| Private, Bookable, Open| "Published" or "Finished"  
-All OpenOlat users| Bookable, Open| "Published" or "Finished"  
-Guests| Open & Access without login enabled| "Published" or "Finished"  
+Participant of learning resource| Private, Bookable, Open | "Published" or "Finished"  
+All OpenOlat users| Bookable, Open | "Published" or "Finished"  
+Guests| Open & Access without login enabled | "Published" or "Finished"  
 
 ## Offers in catalog 1.0
 
@@ -38,7 +38,7 @@ In the catalog 1.0, all offers are created in the courses (**Administration > Se
 ![catalog10_new_offer_v1_de.png](assets/catalog10_new_offer_v1_de.png){ class="shadow lightbox" }
 
 **Select an offer type** and open the popup to create a new offer.<br>
-Click on the **Create** button to create the new offer.
+Click on the **"Create" button** to create the new offer.
 
 ![catalog10_create_offer_v1_de.png](assets/catalog10_create_offer_v1_de.png){ class="shadow lightbox" }
 

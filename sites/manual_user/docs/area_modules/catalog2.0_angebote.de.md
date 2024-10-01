@@ -41,7 +41,7 @@ Bei der Wahl "Privat" werden die Teilnehmenden durch die Besitzer bzw. Personen,
 
 Bei Wahl der Option "Buchbare und offene Angebote" können die Lernenden einen Kurs/Lernressource selbst buchen, müssen aber eventuell (je nach Einstellung) ein Passwort eingeben.
 
-Wird die zweite Option "Buchbare und offene Angebote“ gewählt, können Sie anschliessend Angebote erstellen.
+Wird die zweite Option "Buchbare und offene Angebote" gewählt, können Sie anschliessend Angebote erstellen.
 
 
 ## Was enthält ein Angebot?

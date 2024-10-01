@@ -40,15 +40,15 @@ The specific creation process is described on the following pages:
 
 !!! tip "Hint"
 
-    If you want to build your courses systematically and use learning resources in multiple courses, it is recommended to create learning resources in "authoring" instead of using course elements in a specific course.
+    If you want to build your courses systematically and use learning resources in multiple courses, it is recommended to create learning resources in "Authoring" instead of using course elements in a specific course.
 
 ---
 
 ##  Import learning resources
 
-Learning resources created outside OpenOlat or exported from an OpenOlat system can be imported into OpenOlat if they are in a format compatible with OpenOlat. Possible types are explained in ["Different types of learning resources"](../learningresources/index.md).
+Learning resources created outside OpenOlat or exported from an OpenOlat system can be imported into OpenOlat if they are in a format compatible with OpenOlat. Possible types are explained in ["Various types of learning resources"](../learningresources/index.md).
 
-With "Import URL", links to external videos, e.g. on YouTube, can also be set and created as OpenOlat [learning resource video](../learningresources/Learning_resource_Video.md).
+With "Import URL", links to external videos, e.g. on YouTube, can also be set and created as OpenOlat [Learning resource "Video"](../learningresources/Learning_resource_Video.md).
 
 ![autorenbereich_importieren_v1_de.png](assets/autorenbereich_importieren_v1_de.png){ class="shadow lightbox" }
 

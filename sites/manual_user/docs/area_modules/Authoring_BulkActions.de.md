@@ -1,7 +1,7 @@
 #  Autorenbereich - Sammelaktionen
 
 Sobald in der 1. Spalte der Tabelle eine Lernressource ausgewählt wurde, erscheinen über der Tabelle zusätzliche Buttons (1-6). Mit ihnen lassen sich Aktionen für die ausgewählten Ressourcen durchführen, also für mehrere Lernressourcen gemeinsam (Bulk Actions).<br>
-Diese Buttons sind nicht sichtbar, wenn nicht mindestens 1 Lernressource selektiert ist.
+Diese Buttons sind nicht sichtbar, wenn nicht mindestens eine Lernressource selektiert ist.
 
 Bei Klick auf die 3 Punkte am Ende einer Tabellenzeile (10) werden Optionen nur für diese einzelne Lernressource dieser Zeile angezeigt. 
 
@@ -83,7 +83,7 @@ Mehr dazu finden Sie auf der Seite "[Infoseite einrichten](../learningresources/
  
 ### 9. Editieren
 
-Bei **editierbaren** Lernressourcen wie Kurs, Glossar, Test, ContentPackage, Blog und Podcast öffnet der Klick auf "Editieren" bzw. das Icon den entsprechenden Editor.
+Bei **editierbaren** Lernressourcen wie Kurs, Glossar, Test, CP-Lerninhalt, Blog und Podcast öffnet der Klick auf "Editieren" bzw. das Icon den entsprechenden Editor.
 
 ### 10. Weitere Optionen für einzelne Lernressourcen
 

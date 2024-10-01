@@ -6,7 +6,7 @@
 
 ## Funktionsweise
 
-Der Katalog 1.0 kann von einem Administrator oder Katalogverwalter eingerichtet werden, so dass die Autoren Kurse und andere Lernressourcen sinnvoll in den Katalog einsortieren können. Die Reihenfolge der Katalogeinträge kann vom Administrator bzw. Katalogverwalter definiert werden.
+Der Katalog 1.0 kann von einem Administrator oder Katalogverwalter eingerichtet werden, sodass die Autoren Kurse und andere Lernressourcen sinnvoll in den Katalog einsortieren können. Die Reihenfolge der Katalogeinträge kann vom Administrator bzw. Katalogverwalter definiert werden.
 
 ![Katalog](assets/catalog-de.png)
 
@@ -38,7 +38,7 @@ Im Katalog 1.0 werden alle Angebote in den Kursen erstellt (**Administration > E
 
     Bei Wahl der Option "**Buchbare und offene Angebote**" können die Lernenden einen Kurs/Lernressource selbst buchen, müssen aber eventuell (je nach Einstellung) ein Passwort eingeben.
 
-    Nur wenn die zweite Option "Buchbare und offene Angebote“ gewählt wird, können Sie anschliessend Angebote erstellen.
+    Nur wenn die zweite Option "Buchbare und offene Angebote" gewählt wird, können Sie anschliessend Angebote erstellen.
 
 
 ![catalog10_new_offer_v1_de.png](assets/catalog10_new_offer_v1_de.png){ class="shadow lightbox" }

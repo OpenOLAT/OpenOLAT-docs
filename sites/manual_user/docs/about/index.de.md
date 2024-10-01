@@ -8,8 +8,7 @@ Möglicherweise kennen Sie OLAT als Benutzer und möchten nun selbst Lerninhalte
 
 Falls Sie schon OLAT-Experte sind, dient Ihnen dieses Handbuch als Nachschlagewerk. Orientieren Sie sich am Inhaltsverzeichnis, um möglichst schnell an die gewünschte Stelle zu gelangen.
 
-In diesem Handbuch wird die weibliche Form der männlichen nicht beigestellt. Der Grund dafür ist allein die bessere Lesbarkeit. Wo sinnvoll, ist selbstverständlich immer auch die weibliche Form gemeint.
-
+Normalerweise wird in diesem Handbuch die männliche und weibliche Form verwendet. Sollte dies mal nicht der Fall sein, so bitten wir dies zu entschuldigen.
 
 
 ## Weitere Informationsquellen
@@ -18,36 +17,21 @@ In diesem Handbuch wird die weibliche Form der männlichen nicht beigestellt. De
 
 #### Handbuch Link
 
-Rechts oben in der der Hauptmenüleiste besteht jederzeit Zugang zum OpenOlat
-Handbuch (hier befinden Sie sich aktuell) und eventuell zu weiteren
-Hilfeseiten, je nach Konfiguration durch den System Administrator.  Klicken
-Sie einfach auf das Fragezeichen! :fontawesome-solid-circle-question:.
+Rechts oben in der der Hauptmenüleiste besteht jederzeit Zugang zum OpenOlat Handbuch (hier befinden Sie sich aktuell) und eventuell zu weiteren Hilfeseiten, je nach Konfiguration durch den System Administrator.  Klicken Sie einfach auf das Fragezeichen! :fontawesome-solid-circle-question:.
 
 !!! info
-	Falls der Link nicht erscheint, wurde er bei den Benutzerwerkzeugen in den
-	persönlichen [Einstellungen](../personal_menu/Configuration.de.md) ausgeblendet.
+	Falls der Link nicht erscheint, wurde er bei den Benutzerwerkzeugen in den persönlichen [Einstellungen](../personal_menu/Configuration.de.md) ausgeblendet.
 
 #### Kontextsensitive Hilfe
 
 ![](assets/Hilfe.png){ height=24px }
 
-Bei Ihrer täglichen Arbeit mit OpenOlat steht Ihnen dieses OpenOlat-Handbuch
-zur Seite, sowie an wichtigen Stellen im System die  kontextsensitive Hilfe.
-Diese Hilfe führt Sie direkt zur relevanten Stelle in OpenOlat Manual und
-erklärt Ihnen die Konfigurationsmöglichkeiten für den Ort an dem Sie sich
-gerade befinden. Sie erkennen diese Hilfestellung am Fragezeichen-Icon.
-Klicken Sie darauf und das Manual öffnet sich in einem neuen Fenster.
+Bei Ihrer täglichen Arbeit mit OpenOlat steht Ihnen dieses OpenOlat-Handbuch zur Seite, sowie an wichtigen Stellen im System die  kontextsensitive Hilfe. Diese Hilfe führt Sie direkt zur relevanten Stelle in OpenOlat Manual und erklärt Ihnen die Konfigurationsmöglichkeiten für den Ort an dem Sie sich gerade befinden. Sie erkennen diese Hilfestellung am Fragezeichen-Icon. Klicken Sie darauf und das Manual öffnet sich in einem neuen Fenster.
 
 
 #### Hilfe in Formularen
 
-Des weiteren finden Sie vor allem in Formularen drei weitere Hilfestellungen,
-die Ihnen kurz und knapp benötigte oder weiterführende Informationen zu z.B.
-einzelnen Formularfeldern. Wenn Sie dieses Icon
-![](assets/hover_help.png){ class=size16 }
-neben einer Feldbeschriftung sehen, fahren Sie mit der Maus darüber um eine
-kurze Information zu erhalten. Hier ein Beispiel aus der Konfiguration eines
-Tests im Kurseditor:
+Des weiteren finden Sie vor allem in Formularen drei weitere Hilfestellungen, die Ihnen kurz und knapp benötigte oder weiterführende Informationen zu z.B. einzelnen Formularfeldern. Wenn Sie dieses Icon ![](assets/hover_help.png){ class=size16 } neben einer Feldbeschriftung sehen, fahren Sie mit der Maus darüber um eine kurze Information zu erhalten. Hier ein Beispiel aus der Konfiguration eines Tests im Kurseditor:
 
 ![](assets/example_questionmark.de.png){ class="shadow" width=400px }
 
@@ -68,25 +52,20 @@ stellt direkt benötigte Informationen **über** den Feldinhalt zur Verfügung.
 
 ### Community, Kursvorlagen und Demokurse
 
-Auf dem [Community Server](https://community.openolat.org) sowie auf dem [Demoserver](https://learn.olat.com "Demoserver") gibt es Demokurse,
-die Sie betrachten können.
+Auf dem [Community Server](https://community.openolat.org) sowie auf dem [Demoserver](https://learn.olat.com "Demoserver") gibt es Demokurse, die Sie betrachten können.
 
 ### Support
 
-Bitte wenden Sie sich an die jeweilige Supportstelle(n) Ihrer OpenOlat
-Instanz. Die Supportadresse ist normalerweise im Hilfemenü im Kopfbereich der Seite zu finden oder im Impressum im Kopfbereich oder im Fussbereich der Seite. 
+Bitte wenden Sie sich an die jeweilige Supportstelle(n) Ihrer OpenOlat Instanz. Die Supportadresse ist normalerweise im Hilfemenü im Kopfbereich der Seite zu finden oder im Impressum im Kopfbereich oder im Fussbereich der Seite. 
 
 
 ## Copyright
 
-Dieses Handbuch basiert auf einer adaptierten Version des "OLAT 7.1 Handbuch" und wird unter einer 
-**Creative Commons Attribution-NonCommercial-ShareAlike license** Lizenz veröffentlicht.
+Dieses Handbuch basiert auf einer adaptierten Version des "OLAT 7.1 Handbuch" und wird unter einer  **Creative Commons Attribution-NonCommercial-ShareAlike license** Lizenz veröffentlicht.
 
-Seit 2015 wird das Handbuch von der Firma [frentix GmbH](https://www.frentix.com/) finanziert und gepflegt, dies
-ist die Firma die auch hinter der [Entwicklung des Open Source LMS OpenOlat](https://www.openolat.org) steht.  
+Seit 2015 wird das Handbuch von der Firma [frentix GmbH](https://www.frentix.com/) finanziert und gepflegt. Dies ist die Firma die auch hinter der [Entwicklung des Open Source LMS OpenOlat](https://www.openolat.org) steht.  
 
-In der langen Zeit der Entwicklung des Handbuches waren viele Personen involviert. Bitte respektieren Sie 
-das geistige Eigentum und die Lizenz, under der das Handbuch veröffentlicht wird. 
+In der langen Zeit der Entwicklung des Handbuches waren viele Personen involviert. Bitte respektieren Sie das geistige Eigentum und die Lizenz, unter der das Handbuch veröffentlicht wird. 
 
 !!! info ""
 	Some rights reserved! This document is copyright protected by the owners and companies listed below under the Attribution-NonCommercial-ShareAlike Creative Commons license. For more information check:

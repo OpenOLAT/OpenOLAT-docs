@@ -1,23 +1,14 @@
 # About this manual
 
-This user manual helps you to make yourself familiar with OpenOlat while
-thoroughly explaining its functionality.
+This user manual helps you to make yourself familiar with OpenOlat while thoroughly explaining its functionality.
 
-The OpenOlat manual is meant for people interested in e-learning as well as in
-making use of OpenOlat for various reasons. If you have not worked with
-OpenOlat (former OLAT) before, you will get more information on how to get
-started with this learning platform step by step which includes searching for
-predefined learning content, its adaption, as well as the handling of
-collaborative tools.
+The OpenOlat manual is meant for people interested in e-learning as well as in making use of OpenOlat for various reasons. If you have not worked with OpenOlat (former OLAT) before, you will get more information on how to get started with this learning platform step by step which includes searching for predefined learning content, its adaption, as well as the handling of collaborative tools.
 
-Perhaps you were already an experienced OLAT user but now you want to provide
-others with learning content in OpenOlat. In this case the chapters on
-learning resources, course elements, course editor and the ones on how to
-create courses or tests will assist you in your work.
+You may be familiar with OLAT as a user and would now like to make learning content available in OpenOlat yourself. In this case, the chapters on learning resources, course creation, course elements and course editor, test creation and course operation can support your work.
 
-If you were already an OLAT expert, this manual will serve as a work of
-reference. Its table of contents is there to guide you in order to find what you are looking for as
-fast as possible.
+If you were already an OLAT expert, this manual will serve as a work of reference. Its table of contents is there to guide you in order to find what you are looking for as fast as possible.
+
+
 
 ## Further Sources of Information
 
@@ -25,36 +16,22 @@ fast as possible.
 
 #### Manual link
 
-At the top right of the main menu bar there is always access to the OpenOlat
-manual (this is where you are currently located) and possibly to further help
-pages, depending on the configuration by the system administrator. Just click
-on the question mark :fontawesome-solid-circle-question:.
+At the top right of the main menu bar there is always access to the OpenOlat manual (this is where you are currently located) and possibly to further help pages, depending on the configuration by the system administrator. Just click on the question mark :fontawesome-solid-circle-question:.
 
 !!! info 
-	If the link does not appear it was hidden in the user tools in the personal
-	[settings](../personal_menu/Configuration.md#settings).
+	If the link does not appear, it was hidden in the user tools in the personal [settings](../personal_menu/Configuration.md#settings).
 
 
 #### Context help
 
 ![](assets/help.png){ height=24px }
 
-While working with OpenOlat, you cannot only dispose of this manual but also
-use OpenOlat's  context-sensitive Help. This Help feature explains the options
-you have regarding OpenOlat's configuration--right where you are at that
-particular moment, by opening the relevant location in this manual. You will
-recognize this feature by a question mark icon. Just click on that icon to
-open the manual in a new window.
+While working with OpenOlat, you cannot only dispose of this manual, but also use OpenOlat's context sensitive help. This Help feature explains the options you have regarding OpenOlat's configuration--right where you are at that particular moment, by opening the relevant location in this manual. You will recognize this feature by a question mark icon. Just click on that icon to open the manual in a new window.
 
 
 #### Help in forms
 
-In addition to that, you will find 3 more types of assistance mainly in forms,
-but not restricted to, which will provide you with brief information on single
-form fields. When locating this icon
-![](assets/hover_help.png){ class=size16 }
-to the right of a label, a mouseover will display a short information. Here an
-example of the configuration of a test in the course editor:
+In addition to that, you will find 3 more types of assistance mainly in forms, but not restricted to, which will provide you with brief information on single form fields. When locating this icon ![](assets/hover_help.png){ class=size16 } to the right of a label, a mouseover will display a short information. Here, an example of the configuration of a test in the course editor:
 
 ![](assets/example_questionmark.en.png){ class="shadow" width=400px }
 
@@ -71,12 +48,12 @@ example of the configuration of a test in the course editor:
 
 ![](assets/help_gui_demo1.en.png){ class="shadow" width=420px }
 
-...provides information about the what's required.
+...provides information about what is required.
 
 
 ### Community, course templates and demo courses
 
-On the [community server](https://community.openolat.org) as well as the [demo server](https://learn.olat.com "Demoserver") you will 
+On the [community server](https://community.openolat.org) as well as the [demo server](https://learn.olat.com "Demoserver"), you will 
 find demo courses.
 
 
@@ -87,19 +64,14 @@ Please contact your local support team. Normally this is found on the OpenOlat l
 
 ## Copyright
 
-This is an extended Adaption of the "OLAT 7.1 - User Manual", used under a
-**Creative Commons Attribution-NonCommercial-ShareAlike license**. 
+This is an extended Adaption of the "OLAT 7.1 - User Manual", used under a **Creative Commons Attribution-NonCommercial-ShareAlike license**. 
 
-Since 2015 the manual is financed and maintained by 
-[frentix GmbH](https://www.frentix.com/), the company behind
-the [Open Source LMS OpenOlat](https://www.openolat.com/).
+Since 2015 the manual is financed and maintained by [frentix GmbH](https://www.frentix.com/), the company behind the [Open Source LMS OpenOlat](https://www.openolat.com/).
 
-In the long history of this manual many people contributed their part. Please respect the intellectual property and the license under which this manual is published: 
+In the long history of this manual, many people contributed their part. Please respect the intellectual property and the license under which this manual is published: 
 
 !!! info "" 
-	Some rights reserved! This document is copyright protected by the owners and
-	companies listed below under the Attribution-NonCommercial-ShareAlike Creative
-	Commons license. For more information check:
+	Some rights reserved! This document is copyright protected by the owners and companies listed below under the Attribution-NonCommercial-ShareAlike Creative Commons license. For more information check:
 	<http://creativecommons.org/licenses/by-nc-sa/3.0/ch/>
 
 ##### Responsible people (in alphabetical order):

@@ -77,7 +77,7 @@ Here you will find an overview of the rights of the coach.
 | Enrollment | enrol = participant|  | 
 | Notifications | configurable: create, edit, delete messages|Management rights can be activated = editing and deleting all messages possible  | 
 | E-mail | send e-mails = participant|  | 
-| Calender | create calendar entries possible|  | 
+| Calendar | create calendar entries possible|  | 
 | Scheduling | configurable whether to edit appointments, Create dates (event)  | optional coach = Organizer, Confirm or reopen appointments   |   
 
 

@@ -83,9 +83,9 @@ If you click on a tile in the catalog, you will receive a more detailed descript
 
 ![catalog20_infoseite_v1_de.png](assets/catalog20_infoseite_v1_de.png){ class="shadow lightbox" }
 
-## Meta data, Specialist area
+## Metadata, Subjects
 
-It is of great importance to which specialist area authors assign a course or learning resource. This is because behind the subject area is the taxonomy according to which courses are compiled in the catalog's taxonomy launchers. You can select the specialist area under **Administration > Settings > Tab "Meta data"** 
+It is of great importance to which specialist area authors assign a course or learning resource. This is because behind the subject area is the taxonomy according to which courses are compiled in the catalog's taxonomy launchers. You can select the specialist area under **Administration > Settings > Tab "Metadata"** 
 
 ![catalog20_fachbereich_v1_de.png](assets/catalog20_fachbereich_v1_de.png){ class="shadow lightbox" }
 
