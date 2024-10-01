@@ -116,7 +116,7 @@ Welche Betreuer:innen gerade im Chat mit einem/einer Prüfungsteilnehmer:in sind
 
 ### Als Betreuer:in Kontakt zu Einzelpersonen aufnehmen
 
-Wenn Sie als Betreuer:in während der Prüfung von sich aus zu einer **Einzelperson** Kontakt aufnehmen wollen, verwenden Sie den **Chat**. Klicken Sie auf den Button „Teilnehmer:innen hinzufügen“.
+Wenn Sie als Betreuer:in während der Prüfung von sich aus zu einer **Einzelperson** Kontakt aufnehmen wollen, verwenden Sie den **Chat**. Klicken Sie auf den Button "Teilnehmer:innen hinzufügen".
 
 ![communication_during_exam_coach_add_chat1_v1_de.png](assets/communication_during_exam_coach_add_chat1_v1_de.png){ class="shadow lightbox" } 
 
@@ -127,7 +127,7 @@ Wenn Sie als Betreuer:in während der Prüfung von sich aus zu einer **Einzelper
 Für eine Mitteilung an alle Prüfungsteilnehmer:innen erstellen Sie als Betreuer:in normalerweise eine **Mitteilung**. Es gibt jedoch auch Ausnahmefälle, in denen ein **Chat** mit allen sinnvoll ist.
 
 **Beispiel:**<br>
-Mehrere Teilnehmer:innen schreiben: „In den Prüfungslagen hat es einen Fehler xy.“ Sie erwarten als Betreuer:in deshalb unmittelbar weitere Chat-Nachrichten von weiteren 100 Prüfungsteilnehmer:innen. Deshalb möchten Sie eine Antwort gleich an alle Prüfungsteilnehmer schicken mit einem Hinweis, „Achtung, wer es noch nicht gemerkt hat … Wir machen jetzt …“.
+Mehrere Teilnehmer:innen schreiben: "In den Prüfungslagen hat es den Fehler xy". Sie erwarten als Betreuer:in deshalb unmittelbar weitere Chat-Nachrichten von weiteren 100 Prüfungsteilnehmer:innen. Deshalb möchten Sie eine Antwort gleich an alle Prüfungsteilnehmer schicken mit einem Hinweis, "Achtung, wer es noch nicht gemerkt hat … Wir machen jetzt …".
 
 Normalerweise müssten Sie in allen 1:1-Chats antworten und jeden Chat einzeln schliessen. Für diese Situation steht Ihnen als Betreuer:in auch eine Bulk-Action zur Verfügung: Sie können einen Broadcast an alle **im Chat** verschicken. (Für planbare, nicht spontane Informationen empfiehlt sich dagegen das Verschicken als Mitteilung.)
 
@@ -137,9 +137,9 @@ Normalerweise müssten Sie in allen 1:1-Chats antworten und jeden Chat einzeln s
 ### Video-Chat
 
 Manchmal ist es hilfreich, wenn Prüfungsaufsicht und Prüfungsteilnehmer:in sich kurz in einem 1:1-Video-Chat sehen können.
-(Big Blue Button (BBB) ist vorkonfiguriert und muss nur durch einen/eine Administrator:in aktiviert werden. Es kann aber auch Teams oder ein anderes Videokonferenz-Tool verwendet werden. 
+(Big Blue Button (BBB) ist vorkonfiguriert und muss nur durch einen/eine Administrator:in aktiviert werden. Es kann aber auch Teams oder ein anderes Videokonferenz-Tool verwendet werden.)
 
-Einen Video-Chat können **nur Betreuer:innen starten** (im Chatfenster am unteren Rand, unter dem Eingabefeld)).<br> Prüfungsteilnehmer:innen erhalten dann eine Einladung und können diese annehmen.
+Einen Video-Chat können **nur Betreuer:innen starten** (im Chatfenster am unteren Rand, unter dem Eingabefeld).<br> Prüfungsteilnehmer:innen erhalten dann eine Einladung und können diese annehmen.
 
 ![communication_during_exam_coach_answer_video_v1_de.png](assets/communication_during_exam_coach_answer_video_v1_de.png){ class="shadow lightbox" }  
 
@@ -215,7 +215,7 @@ Wurde von dem/der Kursbesitzer:in erlaubt, dass Prüfungsteilnehmer:innen Rückf
 
 Damit Video-Chats möglich sind, muss z.B. BBB im Prüfungs-Chat erlaubt werden. (Es kann auch ein anderes Videokonferenz-Tool aktiviert werden, jedoch mindestens eines.)
 
-**Administration > Externe Werkzeuge > BBB  (oder anderes Videokonferenz-Tool) > Tab Konfiguration > „Aktivieren für“ > Prüfungs-Chat**
+**Administration > Externe Werkzeuge > BBB  (oder anderes Videokonferenz-Tool) > Tab Konfiguration > "Aktivieren für" > Prüfungs-Chat**
 
 ![communication_during_exam_admin1_v1_de.png](assets/communication_during_exam_admin1_v1_de.png){ class="shadow lightbox" }  
 

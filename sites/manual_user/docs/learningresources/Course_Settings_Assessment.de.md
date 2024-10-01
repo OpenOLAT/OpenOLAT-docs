@@ -31,7 +31,7 @@ Bei der Summenbildung fliesst die Gewichtung mit ein.
 
 Sind in einem Kurs mehrere Leistungen zu erbringen, fliessen diese zum Teil mit unterschiedlicher Gewichtung in die Gesamtbewertung des Kurses ein. Die Option "Summe mit Gewichtung" für die Kurs-Bewertung ermöglicht es, **bei bewertbaren Bausteinen** einen **Skalierungsfaktor** für die Punkte zu hinterlegen. Voraussetzung ist, dass diese bewertbaren Bausteine bei der Kurs-Bewertung berücksichtigt werden.
 
-In der **Kurs-Konfigurationsübersicht** kann die Skalierung für alle bewertbaren Bausteine geprüft und bei Bedarf direkt gesetzt bzw. editiert werden. Ein kompakte Ansicht über die bewertbaren Bausteine bietet der Vorfilter 'Bewertbar'.
+In der **Kurs-Konfigurationsübersicht** kann die Skalierung für alle bewertbaren Bausteine geprüft und bei Bedarf direkt gesetzt bzw. editiert werden. Ein kompakte Ansicht über die bewertbaren Bausteine bietet der Vorfilter "Bewertbar".
 
 ![Kurs-Konfiguration](assets/course_setting_assessment_weighting_score_scale_factor_v1_de.png){ class="shadow lightbox" title="Kurs-Konfiguration" }
 
@@ -54,8 +54,8 @@ Die gewichtete Punktzahl wird Betreuenden im Bewertungsformular angezeigt. Für 
 
 Ein Lernpfad-Kurs kann als bestanden gelten, sobald eines der Kriterien zutrifft:
 
-* **Lernfortschritt 100 %**:<br> Wenn alle obligatorischen Kursbausteine abgeschlossen wurden und 100 % angezeigt wird, gilt der Kurs automatisch als bestanden.
-* **Alle Kursbausteine bestanden**:<br> Der Kurs gilt als bestanden, wenn alle bewertbaren Kursbausteine, die mit einem "bestanden/nicht bestanden" versehen sind, bestanden wurden, egal ob sich um obligatorische oder freiwillige Kursbausteine handelt. Um einzelne Kursbausteine auszunehmen, muss in der Konfiguration des Kursbausteins im Kurseditor "Bei Kurs-Bewertung ausschliessen" angehakt sein.
+* **Lernfortschritt 100%**:<br> Wenn alle obligatorischen Kursbausteine abgeschlossen wurden und 100 % angezeigt wird, gilt der Kurs automatisch als bestanden.
+* **Alle Kursbausteine bestanden**:<br> Der Kurs gilt als bestanden, wenn alle bewertbaren Kursbausteine, die mit einem "bestanden/nicht bestanden" versehen sind, bestanden wurden, egal ob es sich um obligatorische oder freiwillige Kursbausteine handelt. Um einzelne Kursbausteine auszunehmen, muss in der Konfiguration des Kursbausteins im Kurseditor "Bei Kurs-Bewertung ausschliessen" angehakt sein.
 * **Anzahl Kursbausteine bestanden**:<br> Hier können Sie definieren, wie viele und welche Kursbausteine bestanden sein müssen, damit der gesamte Kurs als bestanden gilt. Ob ein Kursbaustein bei der Gesamtbewertung berücksichtigt wird, muss allerdings im Kurseditor direkt beim jeweiligen Kursbaustein angegeben werden (Tab Bewertung).  
 * **Punktschwelle erreicht**:<br> Hier können Sie definieren, wie viele Punkte Lernende erreichen müssen, damit der gesamte Kurs als bestanden gilt. Ausserdem können Sie kontrollieren, von welchen Kursbausteinen die Punkte stammen müssen. Ob ein Kursbaustein bei der Gesamtbewertung berücksichtigt wird, muss im Kurseditor direkt beim jeweiligen Kursbaustein angegeben werden (Tab Bewertung).
 
@@ -97,7 +97,7 @@ Betreuenden kann gestattet werden ...
 
 !!! hint "Punkteanzeige"
 
-    Wird in [Lernpfad-Kursen](Learning_path_course.de.md) mit **Punkten** bewertet, .
+    Wird in [Lernpfad-Kursen](Learning_path_course.de.md) mit **Punkten** bewertet.
     Hier kann definiert werden ob bzw. welche Art von Punkten noch ergänzend zu der Prozentanzeige im Kurs angezeigt wird. 
     ![course_settings_assessment_points_percentage_v1_de](assets/course_settings_assessment_points_percentage_v1_de.png){ class="shadow lightbox" }
  

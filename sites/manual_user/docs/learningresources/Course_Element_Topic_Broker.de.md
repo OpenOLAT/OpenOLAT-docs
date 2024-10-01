@@ -32,7 +32,7 @@ Diese Aufteilung bringt mehr Fairness bei der Themenvergabe, denn die Zuordnung 
 
 ## Der Algorithmus für eine automatische Themenzuordnung {: #topic_broker_algorithm}
 
-Funktioniert ein Auswahl- und Zuordnungsverfahren nach dem Prinzip "first-come - first-serves" (wer zuerst kommt, wird zuerst bedient), dann ist dies unfair. Man kennt dies von der Vergabe von Tickets für Fussbalspiele und Konzerte. Benutzer:innen mit besserer Internetverbindung werden bevorzugt, genauso wie Benutzer:innen, die zum Zeitpunkt der Veröffentlichung sofort Zeit für die Anmeldung haben.
+Funktioniert ein Auswahl- und Zuordnungsverfahren nach dem Prinzip "first-come - first-serves" (wer zuerst kommt, wird zuerst bedient), dann ist dies unfair. Man kennt dies von der Vergabe von Tickets für Fussballspiele und Konzerte. Benutzer:innen mit besserer Internetverbindung werden bevorzugt, genauso wie Benutzer:innen, die zum Zeitpunkt der Veröffentlichung sofort Zeit für die Anmeldung haben.
 
 Das Problem ist als "Stable Matching" Problem bekannt. Details zur Implementierung in OpenOlat finden Sie hier: [OpenOlat_Project_Broker_Matching_Algorithm.pdf](assets/OpenOlat_Project_Broker_Matching_Algorithm.pdf)
 
