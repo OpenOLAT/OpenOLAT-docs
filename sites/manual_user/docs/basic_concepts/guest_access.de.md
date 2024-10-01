@@ -6,10 +6,7 @@ Neben registrierten Benutzern können auch Personen ohne OpenOlat Account als
 Gäste Zugang zum System erhalten. Gäste sind anonyme, nicht registrierte
 Benutzer, welche in der [Benutzerverwaltung](../../manual_admin/usermanagement/index.de.md) nicht verwaltet werden können.  
 
-Damit Gäste Zugang erhalten, muss der Gastlogin vom Administrator der OpenOlat
-Instanz aktiviert werden. Auch kann konfiguriert werden auf welche OpenOlat
-Bereiche Gäste Zugriff haben und auf welche nicht. Diese Basis-Einstellungen
-sind nur durch den Systemadministrator möglich.
+Damit Gäste Zugang erhalten, muss der Gastlogin vom Administrator der OpenOlat Instanz aktiviert werden. Auch kann konfiguriert werden auf welche OpenOlat Bereiche Gäste Zugriff haben und auf welche nicht. Diese Basis-Einstellungen sind nur durch den Systemadministrator möglich.
 
 Grundsätzlich können diverse Lernressourcen z.B.  Wikis, Blogs, Tests, Videos oder Glossare für Gäste freigeschaltet werden.  
 

@@ -1,19 +1,19 @@
 # Roles and Rights: Overview {: #overview} 
 
-In OpenOlat you find 3 **Benutzertypen**.<br>
+In OpenOlat you find 3 **User types**.<br>
 [More details here >](User_Types.md)
 
-Insbesondere die registrierten Benutzer:innen können verschiedene **Rollen** erhalten.<br>
+Registered users in particular can be assigned various **roles**.<br>
 [More details here  >](Roles.md)
 
-Die **Zuweisung der Rollen** erfolgt meist in der Benutzerverwaltung, je nach Rolle aber auch an anderen Stellen.<br>
+The **assignment of roles** usually takes place in the user administration, but also in other places depending on the role.<br>
 [More details here  >](Assign_Roles.md)
 
-An die Rollen sind jeweils bestimmte Rechte geknüpft. Auch die **Rechte in Kursen**.<br>
+Certain rights are linked to each role. Also the **rights in courses**.<br>
 [More details here  >](Authorisation_Concept.md)
 
-Für die Betreuung der Lernenden ist besonders die **Rolle der Betreuer:innen** wichtig.<br>
+The **role of the coach** is particularly important for the supervision of learners.<br>
 [More details here  >](coach.md)
 
-Für Lernende, deren Daten nicht gespeichert werden müssen, kann auch ein anonymer **Gastzugang** genutzt werden.<br>
+For learners whose data does not need to be saved, anonymous **guest access** can also be used.<br>
 [More details here  >](guest_access.md)
