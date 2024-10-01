@@ -1,4 +1,4 @@
-# Guest access
+# Roles and Rights: Guest access {: #guest_access}
 
 ![Guest login](assets/guestlogin_en_wm.png){ class="shadow lightbox aside-right-lg" }
 
@@ -50,3 +50,6 @@ external link for the course.
     Administrative settings are made by OpenOlat administrators in the section
     Login → ["Guest and Invitation"](../../manual_admin/administration/Guest_and_invitation.md) and under ["Customizing"](../../manual_admin/administration/Customizing.md) → "Sites".
 
+
+
+[To the top of the page ^](#guest_access)

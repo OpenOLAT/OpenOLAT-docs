@@ -41,7 +41,7 @@ Die Kursrollen Teilnehmer sowie Betreuer stehen stellvertretend auch für die Gr
 
 ---
 
-## Rechte der systemweiten Rollen
+## Rechte der systemweiten Rollen in einem Kurs
 |                                                             | Administrator | Autor                            | Principal         | Linien-<br/>vorgesetzter | 
 | ----------------------------------------------------------- | :-----------: | :------------------------------: | ----------------: | :----------------------: | 
 | **Zugriff nach Status**                                                                                                                                       |
@@ -88,7 +88,7 @@ Die Kursrollen Teilnehmer sowie Betreuer stehen stellvertretend auch für die Gr
 
 ---
 
-## Rechte der Verwalter-Rollen
+## Rechte der Verwalter-Rollen in einem Kurs
 |                                                             | Lernressourcen-<br/>verwalter |  Curriculum-<br/>verwalter | Lektionenblock-<br/>verwalter |
 | ----------------------------------------------------------- | :---------------------------: | :------------------------: | :---------------------------: |
 | **Zugriff nach Status**                                                                                                                                  |
@@ -115,7 +115,7 @@ Die Kursrollen Teilnehmer sowie Betreuer stehen stellvertretend auch für die Gr
 
 ---
 
-## Rechte der Curriculum-Rollen
+## Rechte der Curriculum-Rollen in einem Kurs
 |                                                             | Curriculum-<br/>besitzer |  Curriculum-<br/>elementbesitzer | Klassenlehrer     |
 | ----------------------------------------------------------- | :----------------------: | :-----------------------------: | :---------------: |
 | **Zugriff nach Status**                                                                                                                      |

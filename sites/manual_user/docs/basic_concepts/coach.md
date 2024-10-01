@@ -1,10 +1,18 @@
-# Coach
+# Roles and Rights: The role of a coach {: #coach}
+
+"Coach" is one of the 3 course roles (next to participant and course owner).
+
+In this role, you do not normally have the right to edit the course. However, you can view the work status and test results of course members with the ‘Participant’ role.
+This is typically the role that **teachers** are assigned to accompany course participants.
+
+If the coaching task only relates to some of the course participants, groups can be formed.
+The role of **group coach** exists for groups.
+
+## Rights of coaches {: #coach_rights}
 
 Here you will find an overview of the rights of the coach.
-
-## Course elements
   
-### Knowledge transfer  
+### Rights in course elements for knowledge transfer  
   
 | Course element        | Rights                      | Additional configuration options |
 | --------------------- | --------------------------- | -------------------------------- |
@@ -20,8 +28,12 @@ Here you will find an overview of the rights of the coach.
 | card2brain flashcards | learn = participant         |                                  |
 | Edubase               |                             |                                  |
   
+ 
+[To the top of the page ^](#coach)
+ 
+---
   
-### Assessment  
+### Rights in course elements for assessment  
   
 | Course element | Rights                      | Additional configuration options |
 | -------------- | --------------------------- | -------------------------------- |
@@ -37,8 +49,12 @@ Here you will find an overview of the rights of the coach.
 | Form| Export form data, Reset data, open again|  | 
 | Practice| View results, Reset data = Course owner|  | 
   
-  
-### Communication and collaboration  
+ 
+[To the top of the page ^](#coach)
+ 
+---
+    
+### Rights in course elements for communication and collaboration  
   
 | Course element | Rights                      | Additional configuration options |
 | -------------- | --------------------------- | -------------------------------- |
@@ -50,7 +66,11 @@ Here you will find an overview of the rights of the coach.
 | Virtual Classrooms| moderation in VC (differences depending on VC)|  | 
   
   
-### Administration and Organization  
+[To the top of the page ^](#coach)
+ 
+---
+   
+### Rights in course elements for administration and organization  
 
 | Course element | Rights                      | Additional configuration options |
 | -------------- | --------------------------- | -------------------------------- |  
@@ -59,9 +79,13 @@ Here you will find an overview of the rights of the coach.
 | E-mail | send e-mails = participant|  | 
 | Calender | create calendar entries possible|  | 
 | Scheduling | configurable whether to edit appointments, Create dates (event)  | optional coach = Organizer, Confirm or reopen appointments   |   
-  
-  
-### Other  
+
+
+[To the top of the page ^](#coach)
+ 
+---
+    
+### Rights in other course elements  
 
 | Course element | Rights                      | Additional configuration options |
 | -------------- | --------------------------- | -------------------------------- |  
@@ -73,7 +97,12 @@ Here you will find an overview of the rights of the coach.
 
     By default, coaches do not have access to the course editor and therefore cannot create course elements or set them up in the course editor.
 
-## Course tools
+ 
+[To the top of the page ^](#coach)
+ 
+---
+  
+## Course tools {: #course_tools}
 
 The following tools are available to course coaches as standard.
 
@@ -117,5 +146,6 @@ Course coaches *do not* have access to the following functions.
 |Convert traditional courses to learning path courses|   |
   
 
-  
-
+   
+[To the top of the page ^](#coach)
+ 

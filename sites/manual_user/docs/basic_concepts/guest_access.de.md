@@ -1,4 +1,4 @@
-# Gastzugang
+# Rollen und Rechte: Gastzugang {: #guest_access}
 
 ![Gast-Login](assets/guestlogin_de_wm.png){ class="shadow lightbox aside-right-lg" }
 
@@ -13,7 +13,7 @@ sind nur durch den Systemadministrator möglich.
 
 Grundsätzlich können diverse Lernressourcen z.B.  Wikis, Blogs, Tests, Videos oder Glossare für Gäste freigeschaltet werden.  
 
-## Kursbereich  
+## Kursbereich 
 
 !!! warning "Hinweis"
 
@@ -50,3 +50,5 @@ Wenn Sie einem Gast einen direkten Zugriff zu einem Kurs geben, können Sie ihm 
     
     OpenOlat Administratoren finden auf den Seiten "[Gast und Einladung](../../manual_admin/administration/Guest_and_invitation.de.md)" sowie unter "[Customizing](../../manual_admin/administration/Customizing.de.md)" weitere Informationen zur Konfiguration von OpenOlat für Gäste. 
     
+
+[Zum Seitenanfang ^](#guest_access)
