@@ -2,16 +2,16 @@
 
 ![core_config_files_and_folders_v1_en.png](assets/core_config_files_and_folders_v1_en.png){ class="aside-right lightbox"}
 
-Für allgemeine Einstellungen/Konfigurationen betreffend Dateien und Ordnern finden Sie hier die Tabs
+For general settings/configurations relating to files and folders, you will find the tabs
 
-* [Übersicht](Files_and_Folders.md##files_and_folders_overview)
-* [Konfiguration](#files_and_folders_configuration) für Einstellungen zu
-    * [Versionierung](#files_and_folders_configuration_versions)
-    * [Lizenzen](#files_and_folders_configuration_license)
-    * der [endgütligen Löschung des Papierkorbs](#files_and_folders_configuration_trash)
-* [Quotas](#files_and_folders_quotas)<br>zur Festlegung des Speicherplatzes für alle Ordner
-* [Grosse Dateien](#files_and_folders_large_files)<br>für das Herausfiltern (und evtl. Löschen) besonders grosser Dateien, die die Quota belasten
-* [Papierkorb](#files_and_folders_trash)<br>zur Ansicht des Papierkorb-Inhalts
+* [Overview](Files_and_Folders.md##files_and_folders_overview)
+* [Configuration](#files_and_folders_configuration) for settings about
+    * [Versions](#files_and_folders_configuration_versions)
+    * [Licenses](#files_and_folders_configuration_license)
+    * the [the final deletion of the trash](#files_and_folders_configuration_trash)
+* [Quotas](#files_and_folders_quotas)<br>to define the storage space for all folders
+* [Large files](#files_and_folders_large_files)<br>for filtering out (and possibly deleting) particularly large files that burden the quota
+* [Trash](#files_and_folders_trash)<br>to view the contents of the recycle bin
 
 ---
 
@@ -19,11 +19,9 @@ Für allgemeine Einstellungen/Konfigurationen betreffend Dateien und Ordnern fin
 
 ![core_config_files_and_folders_tab_overview_v1_en.png](assets/core_config_files_and_folders_tab_overview_v1_en.png){ class="shadow lightbox" }
 
-In the Overview tab, administrators can get a quick overview of the number and
-size of OpenOlat files, versions, deleted files and thumbnails, and can take
-actions in this regard.
+In the Overview tab, administrators can get a quick overview of the number and size of OpenOlat files, versions, deleted files and thumbnails, and can take actions in this regard.
 
-[zum Seitenanfang ^](#files_and_folders)
+[To the top the page ^](#files_and_folders)
 
 
 ## Tab Configuration {: #files_and_folders_configuration}
@@ -33,39 +31,29 @@ actions in this regard.
 
 ### Versions {: #files_and_folders_configuration_versions}
 
-In the **"Versions" section**, the maximum number of versions for a file can be
-defined.
 
-If versioning is enabled, files are not overwritten but created as a new
-version (also called revision). Older versions of a document can be downloaded
-and restored if necessary. If files are deleted, they appear in the list of
-deleted files and can be restored. If the versioning function is enabled,
-files can also be locked, e.g. if a user is working on a document and wants to
-prevent another user from creating a new version in the meantime.
+If versioning is enabled, files are not overwritten but created as a new version (also called revision). Older versions of a document can be downloaded and restored if necessary. If files are deleted, they appear in the list of deleted files and can be restored. If the versioning function is enabled, files can also be locked, e.g. if a user is working on a document and wants to prevent another user from creating a new version in the meantime.
 
-Versioning is available in all folders of the system: personal folders, group
-folders, course folders, resource folders and course elements "folders".
+Versioning is available in all folders of the system: personal folders, group folders, course folders, resource folders and course elements "folders".
+
+In the **"Versions" section**, the maximum number of versions for a file can be defined.
 
 **Button "Clean up versions"**<br>
-The number of versions can be adjusted. If, for example, 5 versions are now
-changed to 2 versions, 3 versions per document are superfluous. However, these
-are not deleted directly. If you set the number back to 5 versions, they will
-become visible again. However, to delete these versions completely, click on
-Clean up versions. Afterwards, the versions can no longer be restored.
+The number of versions can be adjusted. If, for example, 5 versions are now changed to 2 versions, 3 versions per document are superfluous. However, these are not deleted directly. If you set the number back to 5 versions, they will become visible again. However, to delete these versions completely, click on Clean up versions. Afterwards, the versions can no longer be restored.
 
 
 ### Lizenz {: #files_and_folders_configuration_license}
 
-Im **Abschnitt "Lizenz"** kann gewählt werden, ob bei neu erstellten Dateien eine Lizenzangabe gemacht werden muss. Es erscheint dann bei fehlender Lizenzangabe eine Aufforderung zur Angabe des Lzinzgebers und eine Auswahl verschiedener Lizenzierungsmöglichkeiten (z.B. CC BY-N-ND u.a.).
+In the **"License"** section, you can select whether a license must be specified for newly created files. If the license is missing, a request to enter the licensor and a selection of different licensing options will appear (e.g. CC BY-N-ND u.a.).
 
 
 ### Trash {: #files_and_folders_configuration_trash}
 
-Im **Abschnitt "Papierkorb"** wird festgelegt, nach welcher Zeit die im Papierkorb liegenden Dateien endgütlig gelöscht werden.
+In the **section "Trash"** it is determined, after which time the files in the trash are permanently deleted.
 
-Den aktuellen Inhalt des Papierkorbs sehen Sie im separaten Tab "Papierkorb".
+You can see the current contents of the trash in the separate "Trash" tab.
 
-[zum Seitenanfang ^](#files_and_folders)
+[To the top the page ^](#files_and_folders)
 
 
 
@@ -73,8 +61,7 @@ Den aktuellen Inhalt des Papierkorbs sehen Sie im separaten Tab "Papierkorb".
 
 ![core_config_files_and_folders_tab_quota_v1_en.png](assets/core_config_files_and_folders_tab_quota_v1_en.png){ class="shadow lightbox" }
 
-In the tab "**Quotas**" the maximum storage size and the upload limit for
-certain paths can be defined and adjusted.
+In the tab "**Quotas**" the maximum storage size and the upload limit for certain paths can be defined and adjusted.
 
 The following default values apply system-wide:
 
@@ -99,7 +86,8 @@ Specific Quotas | Scope
 /cts/folders/BusinessGroup/4141565 | Folder in a specific group
 /homes/mmusterfrau | Personal folder of the user M. Musterfrau
 
-[zum Seitenanfang ^](#files_and_folders)
+[To the top the page ^](#files_and_folders)
+
 
 
 
@@ -107,47 +95,43 @@ Specific Quotas | Scope
 
 ![core_config_files_and_folders_tab_large_files_v1_en.png](assets/core_config_files_and_folders_tab_large_files_v1_en.png){ class="shadow lightbox" }
 
-In the "**Large Files**" tab, administrators can search specifically for
-large files and view more details about them.
+In the "**Large Files**" tab, administrators can search specifically for large files and view more details about them.
 
-Mit dem **Button "Clean up metadata"** wird ein Abgleich zwischen dem File-System und dem in der OpenOlat-Datenbank gespeicherten Abbild vorgenommen. Sollten Unstimmigkeiten vorliegen, wird das Abbild in der Datenbank aktualisiert.
+The **"Clean up metadata"** button is used to compare the file system with the image stored in the OpenOlat database. If there are any discrepancies, the image in the database is updated.
 
 ![core_config_files_and_folders_tab_large_files_screen_v1_en.png](assets/core_config_files_and_folders_tab_large_files_screen_v1_en.png){ class="shadow lightbox" }
 
-[zum Seitenanfang ^](#files_and_folders)
+[To the top the page ^](#files_and_folders)
 
 
 ## Tab Trash {: #files_and_folders_trash}
 
 ![core_config_files_and_folders_tab_trash_v1_en.png](assets/core_config_files_and_folders_tab_trash_v1_en.png){ class="shadow lightbox" }
 
-Alle gelöschten Dateien der Instanz gelangen zunächst in den Papierkorb. Dort werden sie nach einer bestimmten Zeit automatisch gelöscht oder können von Administrator:innen gezielt ausgewählt und sofort endgültig gelöscht werden.
+All deleted files in the instance are first sent to the trash. They are automatically deleted there after a certain period of time or can be specifically selected by the administrator and permanently deleted immediately.
 
-Das Wiederherstellen von Dateien im Papierkorb ist den Personen überlassen, die die Datei in den Papierkorb verschoben ("gelöscht") haben. Sie haben jeweils selbst die Möglichkeit, eine Datei aus dem Papierkorb zurück zu holen.
+Restoring files in the trash is left to the people who moved ("deleted") the file to the trash. You have the option of retrieving a file from the trash yourself.
 
-Die Verweildauer der gelöschten Dateien im Papierkorb bis zur endgültigen Löschung wird unter dem Tab "Konfiguration" bestimmt.
+The length of time the deleted files remain in the trash until final deletion is determined under the "Configuration" tab.
 
 ![core_config_files_and_folders_tab_configuration_trash_v1_en.png](assets/core_config_files_and_folders_tab_configuration_trash_v1_en.png){ class="shadow lightbox" }
 
-[zum Seitenanfang ^](#files_and_folders)
+[To the top the page ^](#files_and_folders)
+
 
 
 ---
 
 ## Deleted Files (before version 19)
 
-In the "**Deleted Files**" tab, files can be permanently deleted from
-specific paths.
+In the "**Deleted Files**" tab, files can be permanently deleted from specific paths.
 
 ## Delete Orphan Versions (before version 19)
 
-All documents which are manually deleted or for which versioning is no longer
-available are placed in a kind of recycle bin. (Dieser Papierkorb unterscheidet sich vom Papierkorb ab Version 19.) From there they could be
-restored, but they still need the same amount of memory. With Delete Orphan
-Versions this recycle bin is deleted. The versions can no longer be restored,
-but they also no longer require any memory. 
+All documents which are manually deleted or for which versioning is no longer available are placed in a kind of trash (This trash differs from the trash from version 19 onwards.) From there they could be restored, but they still need the same amount of memory. With Delete Orphan Versions this recycle bin is deleted. The versions can no longer be restored, but they also no longer require any memory. 
 
 
-[zum Seitenanfang ^](#files_and_folders)
+[To the top the page ^](#files_and_folders)
+
 
 

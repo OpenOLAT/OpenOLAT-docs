@@ -19,9 +19,7 @@ Für allgemeine Einstellungen/Konfigurationen betreffend Dateien und Ordnern fin
 
 ![core_config_files_and_folders_tab_overview_v1_de.png](assets/core_config_files_and_folders_tab_overview_v1_de.png){ class="shadow lightbox" }
 
-Im Tab Überblick erhalten Administratoren einen schnellen Gesamtüberblick über
-die Anzahl und die Größe von OpenOlat Dateien, Versionen, gelöschten Dateien
-und Miniaturansichten und können diesbezüglich Aktionen vornehmen.
+Im Tab Überblick erhalten Administratoren einen schnellen Gesamtüberblick über die Anzahl und die Größe von OpenOlat Dateien, Versionen, gelöschten Dateien und Miniaturansichten und können diesbezüglich Aktionen vornehmen.
 
 [zum Seitenanfang ^](#files_and_folders)
 
@@ -34,38 +32,24 @@ und Miniaturansichten und können diesbezüglich Aktionen vornehmen.
 ### Versionierung {: #files_and_folders_configuration_versions}
 
 
-Bei eingeschalteter Versionierung werden Dateien nicht überschrieben, sondern
-als neue Version (auch Revision genannt) angelegt. Ältere Versionen eines
-Dokumentes können heruntergeladen und bei Bedarf wiederhergestellt werden.
-Werden Dateien gelöscht, so erscheinen Sie in der Liste der gelöschten Dateien
-und können wiederhergestellt werden. Ist die Versionierungsfunktion
-eingeschaltet, so können Dateien auch gesperrt werden, z.B. wenn eine Person
-an einem Dokument arbeitet und verhindern möchte, dass eine andere Person
-zwischenzeitlich eine neue Version erstellt.
+Bei eingeschalteter Versionierung werden Dateien nicht überschrieben, sondern als neue Version (auch Revision genannt) angelegt. Ältere Versionen eines Dokumentes können heruntergeladen und bei Bedarf wiederhergestellt werden. Werden Dateien gelöscht, so erscheinen Sie in der Liste der gelöschten Dateien und können wiederhergestellt werden. Ist die Versionierungsfunktion eingeschaltet, so können Dateien auch gesperrt werden, z.B. wenn eine Person an einem Dokument arbeitet und verhindern möchte, dass eine andere Person zwischenzeitlich eine neue Version erstellt.
 
-Die Versionierung ist in allen Ordnern des Systems vorhanden: persönliche
-Ordner, Gruppenordner, Kursordner, Ressourcenordner und Kursbausteine
-"Ordner".
+Die Versionierung ist in allen Ordnern des Systems vorhanden: persönliche Ordner, Gruppenordner, Kursordner, Ressourcenordner und Kursbausteine "Ordner".
 
 Im **Abschnitt "Versionierung"** kann die maximale Anzahl von Versionen für eine Datei
 definiert werden.
 
 **Button "Versionen aufräumen"**<br>
-Die Versionierung kann von der Anzahl her angepasst werden. Wird jetzt
-beispielsweise von 5 Versionen auf 2 Versionen geändert, sind pro Dokument 3
-Versionen überflüssig. Diese werden jedoch nicht direkt gelöscht. Wenn Sie die
-Anzahl wieder auf 5 Versionen stellen, werden sie wieder sichtbar. Um jedoch
-diese Versionen ganz zu löschen, klicken Sie auf Versionen aufräumen.
-Anschliessend können die Versionen nicht mehr wiederhergestellt werden.
+Die Versionierung kann von der Anzahl her angepasst werden. Wird jetzt beispielsweise von 5 Versionen auf 2 Versionen geändert, sind pro Dokument 3 Versionen überflüssig. Diese werden jedoch nicht direkt gelöscht. Wenn Sie die Anzahl wieder auf 5 Versionen stellen, werden sie wieder sichtbar. Um jedoch diese Versionen ganz zu löschen, klicken Sie auf Versionen aufräumen. Anschliessend können die Versionen nicht mehr wiederhergestellt werden.
 
 ### Lizenz {: #files_and_folders_configuration_license}
 
-Im **Abschnitt "Lizenz"** kann gewählt werden, ob bei neu erstellten Dateien eine Lizenzangabe gemacht werden muss. Es erscheint dann bei fehlender Lizenzangabe eine Aufforderung zur Angabe des Lzinzgebers und eine Auswahl verschiedener Lizenzierungsmöglichkeiten (z.B. CC BY-N-ND u.a.).
+Im **Abschnitt "Lizenz"** kann gewählt werden, ob bei neu erstellten Dateien eine Lizenzangabe gemacht werden muss. Es erscheint dann bei fehlender Lizenzangabe eine Aufforderung zur Angabe des Lizenzgebers und eine Auswahl verschiedener Lizenzierungsmöglichkeiten (z.B. CC BY-N-ND u.a.).
 
 
 ### Papierkorb {: #files_and_folders_configuration_trash}
 
-Im **Abschnitt "Papierkorb"** wird festgelegt, nach welcher Zeit die im Papierkorb liegenden Dateien endgütlig gelöscht werden.
+Im **Abschnitt "Papierkorb"** wird festgelegt, nach welcher Zeit die im Papierkorb liegenden Dateien endgültig gelöscht werden.
 
 Den aktuellen Inhalt des Papierkorbs sehen Sie im separaten Tab "Papierkorb".
 
@@ -139,17 +123,11 @@ Die Verweildauer der gelöschten Dateien im Papierkorb bis zur endgültigen Lös
 
 ## Gelöschte Dateien (vor Version 19)
 
-Im Tab "**Gelöschte Dateien**" können von bestimmten Pfaden Dateien endgültig
-gelöscht werden.
+Im Tab "**Gelöschte Dateien**" können von bestimmten Pfaden Dateien endgültig gelöscht werden.
 
 ## Orphan Versionen löschen (vor Version 19)
 
-Alle Dokumente, welche manuell gelöscht werden oder für welche keine
-Versionierung mehr zur Verfügung steht, werden in eine Art Papierkorb gelegt. (Dieser Papierkorb unterscheidet sich vom Papierkorb ab Version 19.)
-Von dort könnten sie wiederhergestellt werden, benötigen jedoch auch nach wie
-vor dieselbe Speichermenge. Mit "Orphan Versionen löschen" wird dieser
-Papierkorb gelöscht. Die Versionen können nicht mehr wiederhergestellt werden,
-benötigen jedoch auch keinen Speicher mehr.  
+Alle Dokumente, welche manuell gelöscht werden oder für welche keine Versionierung mehr zur Verfügung steht, werden in eine Art Papierkorb gelegt. (Dieser Papierkorb unterscheidet sich vom Papierkorb ab Version 19.) Von dort könnten sie wiederhergestellt werden, benötigen jedoch auch nach wie vor dieselbe Speichermenge. Mit "Orphan Versionen löschen" wird dieser Papierkorb gelöscht. Die Versionen können nicht mehr wiederhergestellt werden, benötigen jedoch auch keinen Speicher mehr.  
 
 [zum Seitenanfang ^](#files_and_folders)
 
