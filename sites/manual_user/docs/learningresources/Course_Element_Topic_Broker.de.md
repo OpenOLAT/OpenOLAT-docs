@@ -74,8 +74,34 @@ Die Themenvergabe im Kursbaustein Themenbörse geschieht deshalb in 2 Schritten:
 
 Im Tab "Konfiguration" werden die Rahmenbedingungen der Themenwahl und Einschreibung festgelegt.
 
-![course_element_topic_broker_configuration_v1_de.png](assets/course_element_topic_broker_configuration_v1_de.png){ class="shadow lightbox" }
+![course_element_topic_broker_configuration_v2_de.png](assets/course_element_topic_broker_configuration_v2_de.png){ class="shadow lightbox" }
 
+![1_green_24.png](assets/1_green_24.png) **Einschreibemethode**<br>
+Aktuell ist die Methode ["Faire Auswahl"](#topic_broker_algorithm) verfügbar. Es ist geplant, dass weitere Methoden zur Auswahl hinzukommen. 
+
+![2_green_24.png](assets/2_green_24.png) **Einschreibungen pro Teilnehmer:in**<br>
+Die Teilnehmer:innen sollen mehrere Wunschthemen angeben können, jedoch nach Durchführung der Zuordnung nur für 1 oder eine begrenzte Anzahl Themen definitiv eingeschrieben werden. In diesem Feld geben Sie an, für wie viele Themen die definitve Einschreibung erfolgt. Es ist eine zwingernd zu machende Angabe, die für alle Teilnehmer:innen gilt.
+
+![3_green_24.png](assets/3_green_24.png) **Auswahl/Prioritäten pro Teilnehmer:in**<br>
+Wenn die Teilnehmer:innen mehrere Themen angegeben haben, können sie eine Auswahl als ihre Priorität/bevorzugter Wunsch markieren. In diesem Feld geben Sie an, wie viele Themen maximal als bevorzugtes Wunschthema angegeben werden können.
+
+**Teilnehmer:in kann ...**<br>
+![4_green_24.png](assets/4_green_24.png)  Wurden im Feld "Einschreibungen pro Teilnehmer:in" mehrere Einschreibungen als Vorgabe gewünscht, kann nun den Teilnehmer:innen erlaubt werden, die Anzahl der Einschreibungen individuell zu reduzieren. (Weniger Einschreibungen als im Feld "Einschreibungen pro Teilnehmer:in" vorgegeben wurde.)<br>
+![5_green_24.png](assets/5_green_24.png) Den Teilnehmer:innen kann auch erlaubt werden, Einschreibungen wieder zurückzuziehen, wenn nach Ablauf des Auswahlzeitraums die Zuteilung und Einschreibung erfolgt ist.
+
+![6_green_24.png](assets/6_green_24.png) **Auswahlzeitraum**<br>
+Der Auswahlzeitraum ist das Zeitfenster, innerhalb dessen die Teilnehmer:innen ihre Themenwünsche abgeben müssen. Nach Ende des Auswahlzeitraums finden die Einschreibungen statt.
+
+![7_green_24.png](assets/7_green_24.png) **Einschreibung nach Ablauf der Frist**<br>
+Als Kursbesitzer:in entscheiden Sie, ob die definitiven Einschreibungen automatisch oder manuell vorgenommen werden, sobald das Ende des Auwahlzeitraums erreicht ist.
+
+![8_green_24.png](assets/8_green_24.png) **Berechtigungen: Thema bearbeiten**<br>
+Standardmässig ist das Recht zum Bearbeiten der Themenvorgaben den Kursbesitzer:innen vorbehalten. Mit dieser Option kann das Recht auch Betreuer:innen gegeben werden.<br>
+Die Bearbeitung kann noch detaillierter spezifiziert werden, wenn die erweiterte Konfiguration genutzt wird (Toggle-Button am rechten Rand).
+
+![9_green_24.png](assets/9_green_24.png) **Berechtigungen: Teilnehmer:innen bearbeiten**<br>
+tbd <br>
+Die Bearbeitung kann noch detaillierter spezifiziert werden, wenn die erweiterte Konfiguration genutzt wird (Toggle-Button am rechten Rand).
 
 [nach oben (Perspektive Kursbesitzer:in) ^](#topic_broker_setup)<br>
 [zum Seitenanfang ^](#topic_broker)
