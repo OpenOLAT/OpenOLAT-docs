@@ -131,7 +131,7 @@ Ausserhalb dieses Curriculums hat ein/eine (Curriculum-)Kursbesitzer:in keine Au
 
 Wird die Curriculummitgliedschaft entzogen, wird dadurch auch in allen Kurses dieses Curriculums die Besitzerrolle aus den Kursen entfernt.
 
-Für die Rollen (Curriculum-)Kursbetreuer:innen und (Curriculum-)Kursteilnehmer:innen gilt Entsprechendes.
+Für die Rollen **(Curriculum-)Kursbetreuer:innen** und **(Curriculum-)Kursteilnehmer:innen** gilt Entsprechendes.
 
 !!! note "Hinweis"
 

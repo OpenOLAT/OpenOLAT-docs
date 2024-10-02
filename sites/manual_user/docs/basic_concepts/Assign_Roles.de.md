@@ -69,9 +69,6 @@ Da Gruppenverwalter:innen gruppenübergreifend Aufgaben wahrnehmen, ist dies ein
 
 ## Rollenzuweisung für Curricula {: #role_assignment_curriculum} 
 
-**Rollenzuweisung beim Hinzufügen neuer Curriculum-Mitglieder**<br> 
-Jedem Curriculum und jedem Curriculumelement können direkt Benutzer:innen mit bestimmten Rollen zugewiesen werden. Nach dem Eintragen hat die Person automatisch Zugriff auf **alle** Kurse, die mit dem jeweiligen Curriculum oder Curriculumelement verbunden sind.
-
 In einem Curriculum und Curriculumelement können folgende Rollen zugewiesen werden:
 
 * Elementbesitzer:in
@@ -80,7 +77,13 @@ In einem Curriculum und Curriculumelement können folgende Rollen zugewiesen wer
 * (Curriculum-)Betreuer:in
 * (Curriculum-)Teilnehmer:in
 
+Nach dem Eintragen der Rolle hat die Person automatisch Zugriff auf **alle** Kurse, die mit dem jeweiligen Curriculum oder Curriculumelement verbunden sind. (Entsprechend der Rechte, die mit ihrer Rolle im Curriculum verbunden sind.)
+
+**Rollenzuweisung beim Hinzufügen neuer Curriculum-Mitglieder**<br> 
+Jedem Curriculum und jedem Curriculumelement können **durch Curriculumverwalter:innen** direkt Benutzer:innen als neue Curriculumsmitglieder zugewiesen werden. Während des Eintrags der neuen Mitgliedschaft können gleich Rollen zugewiesen werden.
+
 ![roles_rights_curriculum_member_new1_v1_de.png](assets/roles_rights_curriculum_member_new1_v1_de.png){ class=" shadow lightbox" }
+
 ![roles_rights_curriculum_member_new2_v1_de.png](assets/roles_rights_curriculum_member_new2_v1_de.png){ class=" shadow lightbox" }
 
 **Rollenzuweisung bei bestehenden Mitgliedschaften ändern**<br> 
@@ -90,43 +93,49 @@ tbd
 
 
 **Zuweisung der Rolle Curriculumbesitzer:in**<br>
-Die Rolle des/der Curriculumbesitzer:in wird zugewiesen durch 
+Die Rolle des/der Curriculumbesitzer:in wird zugewiesen durch Curriculumverwalter:innen unter<br>
+**Curriculumverwaltung > Curriculum Browser > Tab Benutzerverwaltung > Button "Mitglied hinzufügen"**
 
-tbd
+![roles_rights_curriculum_add_curriculumowner_v1_de.png](assets/roles_rights_curriculum_add_curriculumowner_v1_de.png){ class=" shadow lightbox" }
 
 
 **Zuweisung der Rolle Curriculumelementbesitzer:in**<br>
-
-Die Rolle des/der Curriculumbesitzer:in wird zugewiesen durch 
 
 tbd
 
 
 **Zuweisung der Rolle Klassenlehrer:in**<br>
+
 tbd
-erfolgt durch 
-unter
+
 
 
 **Zuweisung der Rolle (Curriculum-)Kursbesitzer:in**<br>
+
 tbd
-erfolgt durch 
-unter
 
 
 **Zuweisung der Rolle (Curriculum-)Kursbetreuer:in**<br>
+
 tbd
-erfolgt durch 
-unter
+
 
 
 **Zuweisung der Rolle (Curriculum-)Kursteilnehmer:in**<br>
+
 tbd
-erfolgt durch 
-unter
+
+
+
+**Zuweisung der Rolle Curriculumverwalter:in**<br>
+Diese Rolle ist eine curriculumsübergreifende, systemweit geltende Rolle.
+Curriculumverwalter:innen können im Curriculum-Browser im Tab Benutzerverwaltung hinzugefügt werden.
+Siehe [Curriculum bearbeiten und Curriculumverwalter hinzufügen](../area_modules/Curriculum_Management.de.md#curriculum-bearbeiten-und-curriculumverwalter-hinzufugen).<br> 
+
 
 [zum Seitenanfang ^](#role_assignment)
 
+---
 
 ## Rollenzuweisung organisationsspezifischer Rollen {: #role_assignment_orgunit} 
 
@@ -194,5 +203,7 @@ Es kann nur die von Administrator:innen eingerichtete und definierte Systematik 
 [Selbst definierte Rollen und Beziehungen](roles.de.md#relations)<br> 
 
 [Rolle "Einladung"](roles.de.md#invitee)<br> 
+
+<br>
 
 [zum Seitenanfang ^](#role_assignment)
