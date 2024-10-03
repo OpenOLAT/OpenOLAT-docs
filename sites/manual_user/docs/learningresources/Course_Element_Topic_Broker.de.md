@@ -26,7 +26,7 @@ Diese Aufteilung bringt mehr Fairness bei der Themenvergabe, denn die Zuordnung 
 * Es kann sowohl eine Themenauswahl, wie auch eine Begrenzung der Anzahl Personen pro Thema vorgegeben werden. Auch eine Begrenzung auf Gruppen ist möglich.
 * Es kann auch eine bestimmte Anzahl Themen je Teilnehmer verpflichtend gemacht werden.
 * Die Themenwahl ist auf ein bestimmtes Zeitfenster beschränkt.
-* OpenOlat kann nach Schliessen des Zeitfensters anhand der angegebenen Prioritäten berechnen, wer welche Themen zugewiesen bekommt. Die Berechnung kann automatisch oder manuell angestossen werden.
+* OpenOlat kann nach Schliessen des Zeitfensters anhand der angegebenen Prioritäten berechnen, wer welche Themen zugewiesen bekommt. Die Berechnung kann automatisch oder manuell angestossen werden. Das manuelle Anstossen der Zuordnung (empfohlen) ist den Kursbesitzer:innen vorbehalten.
 
 [zum Seitenanfang ^](#topic_broker)
 
@@ -100,7 +100,7 @@ Standardmässig ist das Recht zum Bearbeiten der Themenvorgaben den Kursbesitzer
 Die Bearbeitung kann noch detaillierter spezifiziert werden, wenn die erweiterte Konfiguration genutzt wird (Toggle-Button am rechten Rand).
 
 ![9_green_24.png](assets/9_green_24.png) **Berechtigungen: Teilnehmer:innen bearbeiten**<br>
-tbd <br>
+Standardmässig ist das Recht zum Übersteuern und Bearbeiten einer getroffenen Themenauswahl den Kursbesitzer:innen vorbehalten. Mit dieser Option kann das Recht auch Betreuer:innen gegeben werden. (Diese haben normalerweise nur Leserecht, wenn sie einen der Namen wählen.)<br>
 Die Bearbeitung kann noch detaillierter spezifiziert werden, wenn die erweiterte Konfiguration genutzt wird (Toggle-Button am rechten Rand).
 
 [nach oben (Perspektive Kursbesitzer:in) ^](#topic_broker_setup)<br>
