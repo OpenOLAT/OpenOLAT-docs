@@ -104,20 +104,23 @@ Ist das optionale Zusatzmodul "Curriculum" aktiviert, stehen neben üblichen Kur
 
 * Curriculumbesitzer:in
 * Curriculumelementbesitzer:in
-* Klassenlehrer:in
+* Klassenlehrer:in (Master Coach)
 
 * (Curriculum-)Kursbesitzer:in 
 * (Curriculum-)Kursbetreuer:in
 * (Curriculum-)Kursteilnehmer:in
 
 **Die Rolle Curriculumbesitzer:in**<br>
-tbd
+Importiert oder erstellt eine Person mit Zugriff auf das Curriculummanagement (Curriculumverwalter:innen) ein neues Curriculum, wird diese Person zum Curriculumbesitzer/zur Curriculumbesitzerin. Damit ist dann insbesondere das Recht verbunden, das Curriculum zu strukturieren und dem Curriculum Kurse und (Curriculum-)Teilnehmer:innen hinzuzufügen.
+
+![roles_rights_curriculum_owner_v1_de.png](assets/roles_rights_curriculum_owner_v1_de.png){ class=" shadow lightbox" }
 
 **Die Rolle Curriculumelementbesitzer:in**<br>
-tbd
+Wie Besitzer:innen, haben auch Elementbesitzer:innen das Recht, das Curriculum zu strukturieren und dem Curriculum Kurse und (Curriculum-)Teilnehmer:innen hinzuzufügen - allerdings beschränkt auf ein Curriculumelement.
 
-**Die Rolle Klassenlehrer:in**<br>
-tbd
+**Die Rolle Klassenlehrer:in (Master Coach)**<br>
+Beispiel:<br>
+Hat eine Klasse unterschiedliche Fächer (Fächer entsprechen in OpenOlat Curriculumelementen), dann haben die Klassenlehrer:innen Zugriff auf die verschiedenen Curriculumelemente (Leserecht), während Fachlehrer:innen (Curriculumelementbesitzer:innen) nur Zugriff auf ihr Curriculumelement (Fach) haben.
 
 
 **Besitzer:in, Betreuer:in** und **Teilnehmer:in** sind die 3 Rollen von Kursmitgliedern. Ein Curriculum wird aus Kursen zusammengestellt. Deshalb gibt es diese 3 Rollen auch für alle Kurse eines bestimmten Curriculums - mit ein paar Besonderheiten. 
@@ -127,7 +130,7 @@ Im Normalfall können Benutzer:innen mit der systemweit gültigen Autorenrolle i
 
 Wird ein/eine Benutzer:in zum Curriculumsmitglied und erhält **innerhalb des Curriculums** die Rolle "Kursbesitzer:in", wird die Person dadurch in **allen Kursen dieses Curriculums** zur Kursbesitzer:in.
 
-Ausserhalb dieses Curriculums hat ein/eine (Curriculum-)Kursbesitzer:in keine Autorenrechte, wenn er/sie nicht die systemweit gültige Rolle Autor:in innehat. 
+Ausserhalb der Curriculumelemente hat ein/eine (Curriculum-)Kursbesitzer:in keine Autorenrechte, wenn er/sie nicht die systemweit gültige Rolle Autor:in innehat. 
 
 Wird die Curriculummitgliedschaft entzogen, wird dadurch auch in allen Kurses dieses Curriculums die Besitzerrolle aus den Kursen entfernt.
 
