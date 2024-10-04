@@ -7,7 +7,7 @@
 
 * * *
 
-:material-calendar-month-outline: **Release date: 07/10/2024 • Last update: 09/11/2024**
+:material-calendar-month-outline: **Release date: 07/10/2024 • Last update: 09/27/2024**
 
 * * *
 
@@ -295,6 +295,7 @@ The OpenAI API was integrated as the basis for AI functions. In the first approa
 * Migration routine "Clean up course members" for old releases removed
 * End of life: Option ‘Integrated completely (source hidden)’ for content in course element ‘External page’ is no longer supported
 * Safe Exam Browser integration (SEB): Refactoring of the JavaScript API (:octicons-tag-24: release 19.0.3)
+* Update pdf.js to version 4.6.82; fixes Firefox ESR 115 rendering issues (:octicons-tag-24: release 19.0.8)
 
 * * *
 
@@ -307,11 +308,14 @@ The OpenAI API was integrated as the basis for AI functions. In the first approa
     * [x] Time period for automatic deletion of files in the trash: `Administration > Core configuration > Files and folders > Tab 'Configuration'`
     * [x] SharePoint integration: `External tools > Microsoft SharePoint / OneDrive`.
     * [x] OpenAI for AI-generated questions: `External tools > AI module`
+    * [x] Apache configuration: Make sure that the (Apache) web server delivers *.mjs files with a suitable mimetype, as older distributions (especially RedHat) do not seem to contain the mjs mimetype.
 
 * * *
 
 ## More information
 
+* [YouTrack Release Notes 19.0.8](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2019.0.8&title=Release%20Notes%2019.0.8){:target="_blank”}
+* [YouTrack Release Notes 19.0.7](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2019.0.7&title=Release%20Notes%2019.0.7){:target="_blank”}
 * [YouTrack Release notes 19.0.6](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2019.0.6&title=Release%20Notes%2019.0.6){:target="_blank”}
 * [YouTrack Release notes 19.0.5](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2019.0.5&title=Release%20Notes%2019.0.5){:target="_blank”}
 * [YouTrack Release notes 19.0.4](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2019.0.4&title=Release%20Notes%2019.0.4){:target="_blank”}

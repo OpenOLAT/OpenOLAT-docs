@@ -7,7 +7,7 @@
 
 * * *
 
-:material-calendar-month-outline: **Releasedatum: 31.01.2024 • Letztes Update: 15.08.2024**
+:material-calendar-month-outline: **Releasedatum: 31.01.2024 • Letztes Update: 25.09.2024**
 
 * * *
 
@@ -323,6 +323,8 @@ Ab :octicons-tag-24: Release 18.2.1 können in der `Administration` bestimmte De
 
 ## Weitere Informationen
 
+* [YouTrack Release Notes 18.2.15](https://track.frentix.com/releaseNotes/OO?q=Fix%20versions:%2018.2.15&title=Release%20Notes%2018.2.15){:target="_blank”}
+* [YouTrack Release Notes 18.2.14](https://track.frentix.com/releaseNotes/OO?q=Fix%20versions:%2018.2.14&title=Release%20Notes%2018.2.14){:target="_blank”}
 * [YouTrack Release Notes 18.2.13](https://track.frentix.com/releaseNotes/OO?q=Fix%20versions:%2018.2.13&title=Release%20Notes%2018.2.13){:target="_blank”}
 * [YouTrack Release Notes 18.2.12](https://track.frentix.com/releaseNotes/OO?q=Fix%20versions:%2018.2.12&title=Release%20Notes%2018.2.12){:target="_blank”}
 * [YouTrack Release Notes 18.2.11](https://track.frentix.com/releaseNotes/OO?q=Fix%20versions:%2018.2.11&title=Release%20Notes%2018.2.11){:target="_blank”}
