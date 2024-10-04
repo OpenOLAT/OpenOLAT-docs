@@ -260,6 +260,7 @@ nav:
       - LTI Page: "learningresources/Course_Element_LTI_Page.md"
       - Topic assigment: "learningresources/Course_Element_Topic_Assignment.md"
       - Link list: "learningresources/Course_Element_Link_List.md"
+      - Selection: "learningresources/Course_Element_Selection.md"
     - Test:
       - Overview: "learningresources/Test.md"
       - General Information on Tests: "learningresources/General_Information_on_Tests.md"

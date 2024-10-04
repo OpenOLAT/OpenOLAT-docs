@@ -177,6 +177,8 @@ Zusätzliche Bausteine finden Sie in der Kategorie "Andere".
 
     [:octicons-link-24: Linkliste](Course_Element_Link_List.de.md)
 
+    [Auswahl](Course_Element_Selection.de.md)
+
 </div>
 
 ## Allgemeines zu Kursbausteinen

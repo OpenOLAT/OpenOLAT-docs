@@ -342,6 +342,7 @@ plugins:
           License: Lizenz
           Licenses : Lizenzen
           Line manager : Linienvorgesetzte(r)
+          Link list : Linkliste
           Login : Login
           Login and registration : Login und Registrierung
           Login Concept : Login-Konzept
@@ -445,6 +446,7 @@ plugins:
           Search : Suchfunktion
           Security : Sicherheit
           Security levels : Sicherheitsstufen
+          Selection : Auswahl
           Self-test : Selbsttest
           Session Timeout and Logout : Session-Timeout und Logout
           Set up info page : Infoseite einrichten

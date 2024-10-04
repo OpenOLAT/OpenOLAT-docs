@@ -174,6 +174,8 @@ Additional building blocks can be found in the category "Other".
 
     [:octicons-link-24: Link list](Course_Element_Link_List.md)
 
+    [Selection](Course_Element_Selection.md)
+
 </div>
 
 ## General information on course elements
