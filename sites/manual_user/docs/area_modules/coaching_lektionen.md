@@ -6,7 +6,7 @@
 
     In addition, there must be at least 1 lesson block. (In at least one course, lesson management must be activated under Settings > Tab "Execution" > Section "Configuration of Lesson and Absence Management in the Course.)
 
-    If these requirements are met, the additional menu item " Lectures" is displayed in the coaching tool.
+    If these requirements are met, the additional menu item "Lectures" is displayed in the coaching tool.
 
     See also [Absence management](../learningresources/Lectures_and_absences.md)
 
@@ -20,7 +20,7 @@ An overview of the lesson blocks for the current day appears in the Cockpit tab.
 
 ![Coaching Tab Cockpit](assets/Coaching_Cockpit1_en.png){ class="shadow lightbox" }
 
-Individual lessons can be exported as Excel files and an absence list and an attendance list in PDF format can be created for download.
+Individual lessons can be exported as excel files and an absence list and an attendance list in PDF format can be created for download.
 
 Via the displayed overview and a click on the respective course, the teacher has access to further information and can also complete the absence detection.
 

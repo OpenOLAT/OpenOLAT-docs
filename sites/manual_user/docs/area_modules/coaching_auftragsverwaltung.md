@@ -2,7 +2,7 @@
 
 ![coaching_auftragsverwaltung_v1_de.png](assets/coaching_auftragsverwaltung_v1_de.png){ class="shadow lightbox" }
 
-This menu refers to the correction workflow for the manual assessment of OpenOlat tests. The correction workflow can be activated in the learning resource "Test". You can then assign one or more people to tests as correctors. If you are at least the owner of a test for which this option has been activated, you will see the order management in the Coaching Tool and be able to manage the individual correctors and their activities.
+This menu refers to the correction workflow for the manual assessment of OpenOlat tests. The [Correction workflow](../learningresources/Test_settings.md) can be activated in the learning resource "Test". You can then assign one or more people to tests as correctors. If you are at least the owner of a test for which this option has been activated, you will see the order management in the Coaching Tool and be able to manage the individual correctors and their activities.
 
 ### 1. Tab Correctors
 
@@ -25,6 +25,6 @@ Learning resource administrators or course owners receive an overview of all cor
 ![Coching Tool Auftragsverwaltung](assets/Auftragsverwaltung_Korrekturauftraege.png){ class="shadow lightbox" }
 
 
-### 3. Tab Open grade assignments
+### 3. Tab Open grading assignments
 
-Hier werden die Kursbausteine (Tests und Aufgaben)mit den jeweiligen Personen angezeigt, die noch nicht einem Korrektor zugewiesen wurden. 
+The course elements (tests and tasks) with the respective persons, who have not yet been assigned to a corrector, are displayed here. 

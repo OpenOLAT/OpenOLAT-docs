@@ -4,7 +4,7 @@
 
 ### 1. WHICH courses does the list show?
 
-In the Courses menu you will see a tabular overview:
+In the Courses menu you will see a tabular overview
 
 * of all the courses you coach,
 * which are published, completed or at least accessible to coaches
@@ -18,7 +18,7 @@ You will see at a glance:
 * the number of participants in each course,
 * the progress of the course participants
 * as well as the extent of the course participants' login.
-  * A green dot symbolises that all course participants have logged in at least once.
+  * A green dot symbolizes that all course participants have logged in at least once.
   * An orange dot indicates that some of the course participants have already called up the course before.
   * A red dot indicates that no participants have logged into the course yet.
 

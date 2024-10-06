@@ -28,4 +28,4 @@ Lernressourcenverwalter oder Kursbesitzer erhalten im Menü "Korrekturaufträge"
 
 ### 3. Tab Offene Zuweisungen
 
-Hier werden die Kursbausteine (Tests und Aufgaben)mit den jeweiligen Personen angezeigt, die noch nicht einem Korrektor zugewiesen wurden. 
+Hier werden die Kursbausteine (Tests und Aufgaben) mit den jeweiligen Personen angezeigt, die noch nicht einem Korrektor zugewiesen wurden. 

@@ -4,7 +4,7 @@
 
 The table view of the questions stored in the question pool offers a variety of options. Make sure that all columns relevant to you are selected via the cogwheel icon
 
-You can mark particularly relevant questions that you have created as favorites and thus quickly find them again. Another possibility is to organize several questions in lists and thus build up an individual systematics for your questions.  
+You can mark particularly relevant questions that you have created as **favorites** and thus quickly find them again. Another possibility is to organize several questions in **** and thus build up an individual systematics for your questions.  
 
 You can create or import questions in the "My questions" area, in a list or in a group share. However, the question items are always stored under "My questions" and then referenced.
 
@@ -18,7 +18,7 @@ Question items can be created in the question pool using the "Create question" b
 
 A title is specified during creation, followed by the question type and, if available, the subject selected at the end. The questions created this way can then be imported into the OpenOlat learning resource Test and be utilized.
 
-Information on test creation can be found [here](https://docs.openolat.org/manual_how-to/test_creation_procedure/test_creation_procedure/). Information on the further design of a question in the chapter ["Item Detailed View"](Item_Detailed_View.md).
+Information on _test creation_ can be found [here](https://docs.openolat.org/manual_how-to/test_creation_procedure/test_creation_procedure/). Information on the further design of a question in the chapter ["Item Detailed View"](Item_Detailed_View.md).
 
 
 
@@ -49,6 +49,7 @@ c) Extra: Extra information
 d) Explanation: Further explanations, e.g. whether this element is optional.
 
 The template contains information for importing the following question types:
+
 * FIB (Fill in the blank)
 * Numerical 
 * MC (Multiple Choice)
@@ -86,7 +87,7 @@ You can create as many answers as you like, each in a separate line. The point v
  **title**|Title of the question / topic    
  **question**|The question text. Minimal HTML formatting is allowed.    
  **points**|The maximal score. The minimal score is always set to 0.
- **Points when this option is selected, e.g. "1" (correct) or "-1" (incorrect)**| Options text. You can have as many options as you like, each on a separated line with a "0" or "1" point configuration  
+ **Points when this option is selected, e.g. "1" (correct) or "-1" (incorrect)**| Options text. Any number of options can be specified, each option uses its own line with the respective number of points.  
   
 
 #### Fill-in-blank (gap) question
@@ -133,7 +134,7 @@ You can create as many answers as you like, each in a separate line. The point v
  **type**|  KPRIM  
 ---|---  
  **title**|  Title of the question / topic  
- **question**|  The question text. Minimal HTML formatting is allowed.  
+ **question**|  The question text. 
  **points**|  The maximal score. The minimal score is always set to 0.  
 +| Correct answer  
 -| Incorrect answer 
@@ -148,22 +149,23 @@ Correct answers are therefore marked with **+** and incorrect answers with **-**
  **type**|  ESSAY  
 ---|---  
  **title**|  Title of the question / topic  
- **question**|  The question text. Minimal HTML formatting is allowed.  
+ **question**|  The question text. 
  **points**|  The maximal score. The minimal score is always set to 0.  
  **min**|  Minimum word count  
  **max**|  Maximum word count  
   
   
 
-#### MATCH question
+#### Matrix question
 
- **type**|  MATCH 
+ **type**|  MATRIX 
 ---|---
  **title**|  Title of the question / topic  
- **question**|  The question text. Minimal HTML formatting is allowed.  
+ **question**|  The question text. 
  **points**|  The maximal score. The minimal score is always set to 0.  
   
-The matrix itself is distributed across the columns and rows. The corresponding points are entered in the appropriate field. Here is an example with 3 columns and 3 rows:
+The matrix itself is distributed across the columns and rows. The corresponding points are entered in the appropriate field.
+Here is an example with 3 columns and 3 rows:
 
 ![Matrix_Import_Beispiel](assets/Matrix_Import_Beispiel.png) 
 
@@ -173,7 +175,7 @@ The matrix itself is distributed across the columns and rows. The corresponding 
  **type**| Drag & drop  
 ---|---
  **title**|  Title of the question / topic  
- **question**|  The question text. Minimal HTML formatting is allowed.  
+ **question**|  The question text. 
  **points**|  The maximal score. The minimal score is always set to 0.
 
 The implementation in the Excel template is similar to Matrix questions and is spread over several columns and rows. The corresponding points are entered in the appropriate field. Here is an example with 3 columns and 3 rows:  

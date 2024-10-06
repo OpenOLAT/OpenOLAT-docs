@@ -9,17 +9,17 @@ In contrast to the participant and course overview (A and C), only the OpenOlat 
 
 ### 2. WHAT does the list show?  
 
-You will see at once:
+You will see at once,
 
-* How many courses the respective group is involved in.
-* Whether all group members have already logged into the group at least once.
-* How many participants the group has in total.
-* And how many group members have already passed the associated course. (If a pass has been configured in the course).
+* how many courses the respective group is involved in.
+* whether all group members have already logged into the group at least once.
+* how many participants the group has in total.
+* and how many group members have already passed the associated course. (If a pass has been configured in the course.)
 
 Clicking on a group name opens the list of group members with further information on the score, certificate, etc. <br>
 If you then click on a user name, the user-specific overview opens:
 
-* You get access to the person's assessment tool for the corresponding course.
-* Additionally, you have access to the lessons and the corresponding Evidence of achievement, if activated.
+* You get access to the persons assessment tool for the corresponding course.
+* Additionally, you have access to the lessons and the corresponding evidence of achievement, if activated.
 
 This way you can also assess group members.

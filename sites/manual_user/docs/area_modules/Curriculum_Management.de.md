@@ -104,11 +104,11 @@ Jedem Curriculumelement können direkt Benutzer:innen mit bestimmten Rollen zuge
 
 Unter "Benutzer hinzufügen" stehen folgende Rollen zur Verfügung:
 
-* Elementbesitzer
-* Klassenlehrer
-* Kursbesitzer
-* Betreuer
-* Teilnehmer
+* Elementbesitzer:in
+* Klassenlehrer:in
+* Kursbesitzer:in
+* Betreuer:in
+* Teilnehmer:in
 
 ![](assets/Curriculum_Benutzer_hinzufuegen.png)
 
