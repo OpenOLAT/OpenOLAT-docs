@@ -14,164 +14,164 @@ Speciality / Note | Der Kursbaustein ist nur in Lernpfadkursen einsetzbar.
 
 
 
-Der Kursbaustein "Auswahl" wird ähnlich verwendet, wie der Kursbaustein "Struktur". Auch unterhalb des Kursbausteins "Auswahl" befinden sich verschiedene weitere Kursbausteine. Im Unterschied zum Kursbaustein "Struktur", können die Teilnehmer:innen aber selbst bestimmen, welche Kursbausteine in ihrem Kursmenü enthalten sein sollen. Der/die Kursbesitzer:in gibt eine Anzahl Kursbausteine zur Auswahl vor (z.B. verschiedene Aufgaben). Jeder/jede Teilnehmer:in wählt dann im Kursbaustein "Auswahl" die Kursbausteine aus, die anschliessend im Kursmenü individuell angezeigt werden.
+The course element "Selection"  is used in a similar way to the "Structure" course element. There are also various other course elements below the "Selection" course element. In contrast to the "Structure" course element, however, participants can decide for themselves which course elements should be included in their course menu. The course owner specifies a number of course elements to choose from (e.g. different tasks). Each participant then selects the course elements in the course element "Selection", which are then displayed individually in the course menu.
 
 
-## Funktionsweise {: #selection_functionality}
+## Functionality {: #selection_functionality}
 
-* Im Kursmenü finden die Kursteilnehmer:innen einen Kursbaustein vom Typ "Auswahl" vor. (Der Titel kann auch anders heissen.)
-* Bei Klick auf den Kursbaustein werden verschiedene Kursbausteine zur Auswahl angeboten.
-* Jeder/jede Teilnehmer:in wählt aus den angebotenen Kursbausteinen eine vorgegebene Anzahl aus.
-* Die ausgewählten Kursbausteine erscheinen nun im Kursmenü des/der Teilnehmer:in unterhalb des Kursbausteins vom Typ "Auswahl" (individuelles Menü).
-
-
-[zum Seitenanfang ^](#selection)
+* In the course menu, course participants will find a course element of the type "Selection". (The title can also have a different name).
+* By clicking on the course element, various course elements are offered for selection.
+* Each participant selects a predetermined number of course modules from those offered.
+* The selected course elements now appear in the participant's course menu below the course element of type "Selection" (individual menu).
 
 
+[To the top of the page ^](#selection)
 
-## Auswahl treffen (Perspektive Kursteilnehmer:in) {: #selection_participant}
 
-**Schritt 1:**<br>
-Als Teilnehmer:in wählen Sie einfach den Kursbaustein vom Typ "Auswahl" in Ihrem Kurs. Dort wählen Sie, welche der vorgeschlagenen Kursbausteine Sie in Ihr Kursmenü aufnehmen wollen.
+
+## Selection (Participant) {: #selection_participant}
+
+**Step 1:**<br>
+As a participant, simply select the course element of the "Selection" type in your course. There you choose which of the suggested course elements you want to include in your course menu.
 
 ![course_element_selection_participant_choose_v1_de.png](assets/course_element_selection_participant_choose_v1_de.png){ class="shadow lightbox" }
 
-**Schritt 2:**<br>
-Anschliessend erscheinen die gewählten Kursbausteine in Ihrem Kursmenü und können bearbeitet werden.
+**Step 2:**<br>
+The selected course elements will then appear in your course menu and can be edited.
 
 ![course_element_selection_participant_selecterd_v1_de.png](assets/course_element_selection_participant_selected_v1_de.png){ class="shadow lightbox" }
 
 
-!!! info "Hinweis"
+!!! info "Note"
 
-    Die einmal getroffene Auswahl kann nicht mehr durch Teilnehmer:innen geändert werden. Für ein Zurücksetzen ist ein Eingreifen von Kursbesitzer:in oder Betreuer:in erforderlich.
+    Once a selection has been made, it can no longer be changed by participants. Intervention by the course owner or coach is required to reset the selection.
 
 
-### Ansicht im Lernpfad-Werkzeug
+### View in the learning path tool
 
-Kursteilnehmer:innen finden in der Werkzeugleiste das Icon "Lernpfad" und können dort nachvollziehen, welche Kursbausteine sie schon abgearbeitet haben.
-Solange in einem Kursbaustein vom Typ "Auswahl" noch keine Auswahl getroffen wurde, werden im Lernpfad-Werkzeug keine Kursbaustein angezeigt, die dem Auswahl-Baustein zugeordnet sind. Sobald eine Auswahl getroffen wurde, werden die ausgewählten Kursbausteine angezeigt.
+Course participants will find the "Learning path" icon in the toolbar, where they can see which course elements they have already completed.
+As long as no selection has been made in a course element of the type "Selection", no course elements assigned to the selection element are displayed in the learning path tool. As soon as a selection has been made, the selected course elements are displayed.
 
 ![course_element_selection_participant_learningpath_tool_v1_de.png](assets/course_element_selection_participant_learningpath_tool_v1_de.png){ class="shadow lightbox" }
 
 ![course_element_selection_participant_learningpath_v1_de.png](assets/course_element_selection_participant_learningpath_v1_de.png){ class="shadow lightbox" }
 
 
-[nach oben (Perspektive Kursteilnehmer:in) ^](#selection_participant)<br>
-[zum Seitenanfang ^](#selection)
+[Up (Participant) ^](#selection_participant)<br>
+[To the top of the page ^](#selection)
 
 ---
 
-## Auswahl einrichten (Perspektive Kursbesitzer:in) {: #selection_setup}
+## Set up selection (Perspective course owner) {: #selection_setup}
 
-### Kursbaustein einfügen
+### Add course element
 
-Fügen Sie im Kurseditor einen Kursbaustein "Auswahl" in Ihren Kurs ein, wie Sie einen Kursbaustein "Struktur" einfügen.
+Insert a "Selection" course element into your course in the course editor in the same way as you insert a “Structure” course element.
 
-### Erfassen auswählbarer Themen
+### Capture selectable topics
 
-Ziehen Sie im Kurseditor weitere Kursbausteine auf den Kursbaustein "Auswahl", damit sie ihm untergeordnet werden. Die verfügbare Auswahl bezieht sich dann auf diese untergeordneten Bausteine.
-
-
-### Tab "Lernpfad"
-
-Im Unterschied zu den zugeordneten Kursbausteinen, kann im Auswahl-Baustein selbst für die **Durchführung** gewählt werden, ob der Kursbaustein obligatorisch, freiwillig oder mit einer Ausnahmeregelung versehen ist.
-
-Das **Erledigungskriterium** kann für einen Kursbaustein "Auswahl" **nicht** gesetzt werden, sondern ist vorgegeben.
-Es zählt, ob zugeordnete Kursbausteine ausgewählt und erledigt sind. 
+In the course editor, drag additional course elements onto the "Selection" course element so that they are subordinate to it. The available selection then refers to these subordinate modules.
 
 
-### Tab "Lernpfad" der zugordneten Kursbausteine
+### Tab "Learning path"
 
-Alle im Kurseditor einem Kursbaustein "Auswahl" zugeordneten Kursbausteine werden zu Beginn automatisch "**ausgenommen**", also standardmässig nicht im Kursmenü angezeigt.
-Diese automatisch gesetzte Eigenschaft kann im Kurseditor **nicht** durch Autor:innen geändert werden.
+In contrast to the assigned course elements, you can choose whether the course element is compulsory, voluntary or subject to an exception in the selection element itself for **implementation**.
 
-Später, während der Durchführung des Kurses, wird nach getroffener Auswahl durch die Teilnehmer:innnen diese Eigenschaft automatisch individuell abgeändert.
+The **completion criterion** can **not** be set for a course element "Selection", but is predefined.
+It counts whether assigned course elements have been selected and completed. 
+
+
+### "Learning path" tab of the assigned course elements
+
+All course elements assigned to a course element "Selection" in the course editor are automatically "**excluded**" at the beginning, i.e. not displayed in the course menu by default.
+This automatically set property **cannot** be changed by authors in the course editor.
+
+Later, during the course, this property is automatically changed individually according to the selection made by the participants.
 
 ![course_element_selection_subordinate_path_v1_de.png](assets/course_element_selection_subordinate_path_v1_de.png){ class="shadow lightbox" }
 
 
-### Tab "Konfiguration"
+### Tab "Configuration"
 
-Im Tab "Konfiguration" kann angegeben werden, wie viele Kursbausteine die Teilnehmer:innen aus den Vorschlägen in ihr persönliches Kursmenü übernehmen müssen.
-Für Kursbesitzer:innen ist dies eine Pflichtangabe, damit der Kursbaustein "Auswahl" funktioniert. 
+In the "Configuration" tab, you can specify how many course elements the participants must transfer from the suggestions to their personal course menu.
+This is mandatory information for course owners so that the "Selection" course element works. 
 
 ![course_element_selection_config_v1_de.png](assets/course_element_selection_config_v1_de.png){ class="shadow lightbox" }
 
 
-[nach oben (Perspektive Kursbesitzer:in) ^](#selection_setup)<br>
-[zum Seitenanfang ^](#selection)
+[Up (Perspective course owner) ^](#selection_setup)<br>
+[To the top of the page ^](#selection)
 
 ---
 
-## Auswahl betreuen (Perspektive Kursbetreuer:in) {: #selection_coaching}
+## Coaching (Perspective coach) {: #selection_coaching}
 
-### Ansicht Kursbausteine
+### View course elements
 
-Im Kursmenü sehen Sie als Betreuer:in **alle** für die Teilnehmer:innen zur Auswahl stehenden Kursbausteine unterhalb eines Kursbausteins "Auswahl". 
+In the course menu, as a coach you will see **all** the course elements available for the participants to choose from below a course element "Selection". 
 
-Rufen Sie als Betreuer:in den Kursbaustein "Auswahl" auf, sehen Sie die Kursteilnehmer:innen aufgelistet und können sich informieren, wer welche Kursbausteine ausgewählt hat.
+If you call up the course element "Selection" as a coach, you will see the course participants listed and can find out who has selected which course elements.
 
-Wurde noch keine vollständige Auswahl getroffen, erkennen Sie dies am kleinen gelben Dreieck rechts. 
+If a complete selection has not yet been made, you can recognize this by the small yellow triangle on the right. 
 
-In der Detailansicht erkennt man an der Durchführung, welche Kursbausteine ein/eine Teilnehmer:in ausgewählt hat.
+In the detailed view, you can see which course elements a participant has selected.
 
-Kursbausteine mit dem Durchführungsstatus "Ausgenommen" werden nicht im Kursmenü angezeigt.
-Vor einer Auswahl haben alle wählbaren Kursbausteine diesen Status. Mit getroffener Wahl bekommt der Kursbaustein die Durchführung "Obligatorisch" oder "Freiwillig" (abhängig vom Status des Kursbausteins "Auswahl"). 
+Course elements with the implementation status "Excluded" are not displayed in the course menu.
+Before a selection is made, all selectable course elements have this status. Once a selection has been made, the course element is assigned the status "Compulsory" or "Optional" (depending on the status of the course element "Selection"). 
 
-Hat der/die Teilnehmer:in die geforderte Anzahl Kursbausteine ausgewählt, wird das gelbe Dreieck nicht mehr angezeigt.
+If the participant has selected the required number of course elements, the yellow triangle is no longer displayed.
 
 ![course_element_selection_coach1_v1_de.png](assets/course_element_selection_coach1_v1_de.png){ class="shadow lightbox" }
 
 
-### Ansicht gewählter Kursbausteine im Lernpfad-Werkzeug
+### View of selected course elements in the learning path tool
 
-Betreuer:innen können unter dem Icon "Lernpfad" in der Werkzeugleiste die Lernpfade aller Kursteilnehmer:innen anzeigen lassen. Öffnen sie das Werkzeug und wählen Sie einen/eine Teilnehmer:in aus.
+Coaches can display the learning paths of all course participants under the "Learning path" icon in the toolbar. Open the tool and select a participant.
 
 ![course_element_selection_coach2_v1_de.png](assets/course_element_selection_coach2_v1_de.png){ class="shadow lightbox" }
 
-Wenn noch keine Auswahl durch den/die Kursteilnehmer:in getroffen ist, werden auch noch keine Kursbausteine unterhalb des Kursbausteins "Auswahl" angezeigt. Sobald von Teilnehmer:innen eine Auswahl getroffen wurde, werden die gewählten Kursbaustein auch für Betreuer:innen in ihrem Lernpfadwerkzeug sichtbar.
+If no selection has yet been made by the course participant, no course elements will be displayed below the "Selection" course element. As soon as participants have made a selection, the selected course elements are also visible to coaches in their learning path tool.
 
 ![course_element_selection_coach3_v1_de.png](assets/course_element_selection_coach3_v1_de.png){ class="shadow lightbox" }
 
 
 
-[nach oben (Perspektive Kursbetreuer:in) ^](#selection_coaching)<br>
-[zum Seitenanfang ^](#selection)
+[Up (Course coach) ^](#selection_coaching)<br>
+[To the top of the page ^](#selection)
 
 
-### Von Teilnehmer:innen getroffene Auswahl zurücksetzen oder ändern
+### Reset or change selection made by participants
 
-Betreuer:innen und Besitzer:innen haben die Möglichkeit, die von Teilnehmer:innen getroffene Auswahl zu bearbeiten: 
+Coaches and owners have the opportunity to edit the selection made by participants: 
 
-* Wählen Sie im Kursmenü den gewünschten Kursbaustein "Auswahl". 
-* Als Betreuer:in werden Ihnen alle Teilnehmer:innen angezeigt. Wählen Sie einen/eine Teilnehmer:in.
-* Mit Klick auf den Eintrag in der Spalte "Durchführung" öffnet sich das Popup zum Überschreiben der Einstellung zur Durchführung.
+* Select the desired course element "Selection" in the course menu. 
+* All participants are displayed as coaches. Select a participant.
+* Click on the entry in the "Implementation" column to open the pop-up for overwriting the implementation setting.
 
 ![course_element_selection_coach_modify1_v1_de.png](assets/course_element_selection_coach_modify1_v1_de.png){ class="shadow lightbox" }
 
-**Variante:**
+**Variant:**
 
-* Öffnen Sie das Lernpfad-Werkzeug und wählen Sie einen/eine Teilnehmer:in.
-* Klicken Sie auf die 3 Punkte am Ende einer Zeile. Es öffnet sich das Popup zum Überschreiben der Einstellung zur Durchführung. 
-* Zum kompletten Zurücksetzen ändern Sie alle Kursbausteine auf "Ausgenommen". Klicken Sie dazu auf "Änderung löschen". Dadurch wird wieder der Ausgangszustand hergestellt.
+* Open the learning path tool and select a participant.
+* Click on the 3 dots at the end of a line. The pop-up for overwriting the setting for execution opens. 
+* To completely reset, change all course elements to "Excluded". To do this, click on "Delete change". This will restore the original status.
 
 ![course_element_selection_coach_modify2_v1_de.png](assets/course_element_selection_coach_modify2_v1_de.png){ class="shadow lightbox" }
 
 
-[nach oben (Perspektive Kursbetreuer:in) ^](#selection_coaching)<br>
-[zum Seitenanfang ^](#selection)
+[Up (Course coach) ^](#selection_coaching)<br>
+[To the top of the page ^](#selection)
 
 
 ---
 
-## Weitere Informationen 
+## Further information
 
-[Kursbaustein Struktur](../learningresources/Course_Element_Structure.de.md)<br>
+[Course element structure](../learningresources/Course_Element_Structure.md)<br>
 
 <br>
 
-[zum Seitenanfang ^](#selection)
+[To the top of the page ^](#selection)
 
 
 

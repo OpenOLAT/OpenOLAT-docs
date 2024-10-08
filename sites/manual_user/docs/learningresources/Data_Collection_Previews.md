@@ -4,9 +4,9 @@
 
 ## What is a Data Collection Preview?
 
-A **"Quality management"** module can be integrated into OpenOlat. This allows surveys (based on forms) to be created and evaluated across all courses. For example, a course element "Survey" could be included at the beginning of the course and another course element "Survey" at the end of the course.
+A **"Quality management" module** can be integrated into OpenOlat. This allows surveys (based on forms) to be created and evaluated across all courses. For example, a course element "Survey" could be included at the beginning of the course and another course element "Survey" at the end of the course.
 
-A person with the **role of "quality manager"** is responsible for the **creation and evaluation** of such surveys. It then sees all the results of the surveys across all courses.
+A person with the **role of "quality manager"** is responsible for the **creation and assessment** of such surveys. It then sees all the results of the surveys across all courses.
 
 If a course element has been added to a course in order to record the quality, then the course owners of this particular course also have a legitimate interest in finding out about the survey.
 

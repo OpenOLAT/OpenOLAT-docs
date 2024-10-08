@@ -36,7 +36,7 @@ Mit dem Klick auf der Titelzeile des Inspektorfensters kann dieser auch verschob
 
 ### Titel
 
-Fügen Sie einen Titel hinzu und wählen Sie die Grösse von h1 bis h6
+Fügen Sie einen Titel hinzu und wählen Sie die Grösse von h1 bis h6.
 
 ![Formular Titel](assets/formular_titel17.png){class="shadow lightbox"}
   

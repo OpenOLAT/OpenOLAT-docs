@@ -72,7 +72,7 @@ The following settings are possible:
  Calculate **passing score:** Pass or fail can refer to a minimum score that you define or to passing selected or all assessable course elements.
  If you select  _«As of minimum score»_ , you can enter the minimum score in another field. This refers to the course elements selected above, i.e. on the course element  _Structure_  a _«Passed»_  is displayed, if the total score is greater or equal to the selected minimum score. 
  
- If you select _«Adopt from course element»_, assessable course elements of your course are displayed by means of  **Passed by**. You can now select those whose "passed" value should result in the "passed" value of the course element  _Structure_ with a boolean AND-link. I.e. if the course element _Structure_  should show a  _«Passed»_, all selected course elements have to have a  _«Passed»_.
+ If you select _«Adopt from course element»_, assessable course elements of your course are displayed by means of  **Passed by**. You can now select those whose "Passed" value should result in the "Passed" value of the course element  _Structure_ with a boolean AND-link. I.e. if the course element _Structure_  should show a  _«Passed»_, all selected course elements have to have a  _«Passed»_.
 
  Calculate **failed score:**  It is also possible to calculate "Failed".
 
@@ -103,7 +103,7 @@ The course element "Structure" and thus its subordinate course elements can be p
 
 !!! warning "Attention"
 
-    On the top course element, which is actually also a structure element, _no_ password can be stored in the “Access” tab.
+    On the top course element, which is actually also a structure element, _no_ password can be stored in the "Access" tab.
 
 
   

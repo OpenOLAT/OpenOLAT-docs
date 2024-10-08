@@ -6,7 +6,7 @@ After you have added the course element Form to your course, the following tabs 
 
 ![Form Tabs](assets/Formular_Tabs1.jpg){ class="shadow lightbox" }
 
-In the tab "Title and description" as well as "Layout" general descriptions and information about the respective course element can be stored and the visual presentation can be defined. In the [tab learning path](../learningresources/Learning_path_course_Course_editor.md) special settings are defined which are valid for learning path courses. Conventional courses, on the other hand, have the Visibility and Access tabs. Here you define who can see or edit this course element.
+In the tab "Title and description" as well as "Layout" general descriptions and information about the respective course element can be stored and the visual presentation can be defined. In the [tab learning path](../learningresources/Learning_path_course_Course_editor.md) special settings are defined, which are valid for learning path courses. Conventional courses, on the other hand, have the Visibility and Access tabs. Here you define who can see or edit this course element.
 
 ## Tab Form in the course editor
 
@@ -32,7 +32,7 @@ If a form is created in the course editor, a new learning resource Form will be 
 
 In addition, you can define in the tab until when the form can be filled out by the learners. For this purpose, a fixed or a relative date can be used, e.g. x days after the first course visit. As soon as an end date is defined, the tab "[Reminders](../learningresources/Course_Reminders.md)" is also activated. For example, you could create a reminder that reminds learners to fill out the form a few days before the submission deadline. 
 
-If email confirmation is enabled, participants will receive a confirmation email and the form they completed as a PDF attachment. Zusätzlich können auch E-Mail Bestätigungen an Besitzer, Betreuer und Externe verschickt werden. 
+If e-mail confirmation is enabled, participants will receive a confirmation email and the form they completed as a PDF attachment. In addition, e-mail confirmations can also be sent to owners, coaches and external parties. 
 
 !!! warning "Attention"
 

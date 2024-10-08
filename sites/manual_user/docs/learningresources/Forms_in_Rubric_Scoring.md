@@ -4,7 +4,7 @@ The learning resource Form, especially the [rubric](Rubric.md) element integrate
 
 !!! info "Note"
 
-    Assessments as part of a peer review are also carried out using rubric forms. This requires a [course element task](../learningresources/Course_Element_Task.md#coach_peer_review).
+    Assessments as part of a peer review are also carried out using rubric forms. This requires a [course element task](../learningresources/Course_Element_Task.md#coach-peer-review--coach_task_peer_review).
 
 ## In the course editor
 
@@ -42,13 +42,13 @@ After a rubric has been linked to the assessment, the following additional confi
   
 **Score granted**: Points can be awarded automatically or manually, if enabled. Automatic points can be taken as sum or average. Die minimalen und maximalen Punkte werden angezeigt bzw. können bei manueller Bewertung eingetragen werden.
 
-**Levels/Grading**: Sofern Punkte vergeben werden können diese auch mit einer Einstufung/Noten verbunden werden. Die Zuweisung kann Manuell oder automatisch erfolgen. Ferner muss eine Bewertungsskala ausgewählt werden. Weitere Infos finden Sie [hier](../learningresources/Assessment_translate_points_in_grades.md). 
+**Levels/Grading**: If points are awarded, these can also be linked to a rating/grade. The assignment can be done manually or automatically. A rating scale must also be selected. Further information can be found [here](../learningresources/Assessment_translate_points_in_grades.md). 
 
 **Display pass/not passed**: If a pass is to be displayed, you can define whether the display should be automatic based on a point threshold or whether a pass should be set manually.
 
 !!! Info
 
-    Wenn Einstufung/Noten ausgewählt wurde ist hier bereits enthalten ob die Skala mit einem Bestehen kombiniert ist oder nicht. Eine separate Auswahl ist dann nicht mehr möglich. 
+    If Grading/Grades has been selected, it is already included here whether the scale is combined with a pass or not. A separate selection is then no longer possible. 
 
 **Ignore in course assessment**: If checked, the assessment will not be taken into account when [passing the course](../learningresources/Course_Settings.md). 
 

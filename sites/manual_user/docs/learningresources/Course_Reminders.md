@@ -24,7 +24,7 @@ First enter the description for the reminder. This description is only visible t
 
 In the second step of the wizard, the conditions are checked and displayed again.
 
-In the last step, you then enter the email text and can select whether coaches or owners should also receive a copy or whether a copy should be sent to an external address.
+In the last step, you then enter the e-mail text and can select whether coaches or owners should also receive a copy or whether a copy should be sent to an external address.
 
 
 ## Conditions for sending reminders
@@ -39,13 +39,13 @@ Several conditions can be combined as required. This allows reminders to be trig
 
 !!! info "Note"
 
-    The link is an "and" link. This means that only if all conditions are met, the reminder email will be triggered.
+    The link is an "and" link. This means that only if all conditions are met, the reminder e-mail will be triggered.
 
 The following criteria can be configured as a condition:
 
 * **Date of registration**<br>
 Shipping x days, weeks, months or years later<br>
-_Example_: Users will receive additional information about the course 2 days after enrollment. (Provided the other conditions are also met).
+_Example_: Users will receive additional information about the course 2 days after enrolment. (Provided the other conditions are also met).
 
 * **Course status**<br>
 Select the status the course must be in for a reminder to be sent.
@@ -59,7 +59,7 @@ Select the status the course must be in for a reminder to be sent.
     * Not release from coach
     * Not published
 
-_Example_: Only if the course has the status “Approved coaches” will all coaches receive an info email about their coaching task.
+_Example_: Only if the course has the status "Approved coaches" will all coaches receive an info e-mail about their coaching task.
 
 * **Start date Implementation period of the course**<br>
 x Days, weeks, months or years before or after
@@ -215,7 +215,7 @@ _Example_: 5 weeks before the assignment for the group task closes.
 
 _Example_: 5 days after the user first accessed the course.  
   
-* Enrollment date
+* Enrolment date
 * Begin date execution period of course
 * End date execution period of course
 * Initial course launch date
@@ -242,14 +242,14 @@ Using the email text, which can be customized as needed, you create very specifi
 
     It is best to use the variables already entered to make the reminder as personal and helpful as possible.
 
-* **$firstName**: The first name of the user.
+* **$firstName**: The first name of the user
 * **$lastName**: The last name of the user
-* **$fullName**: The full name depending on the system configuration. The default value is "lastname, firstname".
-* **$email**: The email address of the user.
-* **$userName**: The username
+* **$fullName**: The full name depending on the system configuration. The default value is "lastname, firstname"
+* **$email**: The email address of the user
+* **$userName**: The username.
 * **$courseUrl**: The internet address of the course
 * **$courseName**: The name of the course as on the info page
-* **$courseDescription**: The description of the course as on the info page.
+* **$courseDescription**: The description of the course as on the info page
 
 Here is an example:
 

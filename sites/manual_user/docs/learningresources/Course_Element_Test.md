@@ -152,9 +152,9 @@ You can find more information on the topic of high scores [here](../learningreso
 
 If correctors have been defined for the test in the learning resource via the correction workflow of the learning resource, an overview of the correctors and further information appears here. Changes can be made via a link to the learning resource of the test.
 
-### Tab "Email Confirmation" (:octicons-tag-24: Release 17.2.)
+### Tab "E-mail Confirmation" (:octicons-tag-24: Release 17.2.)
 
-Activate the Email confirmation if you want to confirm the submission of the test by email. You can use different variables like name or score in the mail text. A copy of the mail can also be sent to the course owners, responsible coaches or external mail addresses.
+Activate the e-mail confirmation if you want to confirm the submission of the test by email. You can use different variables like name or score in the mail text. A copy of the mail can also be sent to the course owners, responsible coaches or external mail addresses.
 
 For the mail text you can use the template and a preset subject with the title of the test course module in the subject. Alternatively, the template and the subject can also be changed. In this case, select "Template" -> "Custom Text" to edit or completely change the mailing text.
 
@@ -172,7 +172,7 @@ The following completion criteria are also available for tests:
 
 ![Test Erledigungskriterien](assets/Test_Erledigungskriterien_DE.png){ class="shadow" }
 
-Only if the selected condition is fulfilled is the progress shown to the user in the learning path display and in the progress percentage.
+Only if the selected condition is fulfilled. the progress is shown to the user in the learning path display and in the progress percentage.
 
 ## Comparing Tests and Self-tests
 
@@ -234,7 +234,7 @@ In general, tests in OpenOlat are used to test knowledge. Here are a few example
 
 ### How to edit a test (Learners perspective)
 
-To start editing a test press "Start". Answer the questions displayed and then click "Save answer" for each question. If generally visible, you can see in the left navigation which questions have already been answered, which questions have only been looked at and which have not been clicked at all.
+To start editing a test press "Start test". Answer the questions displayed and then click "Save answer" for each question. If generally visible, you can see in the left navigation which questions have already been answered, which questions have only been looked at and which have not been clicked at all.
 
 ![](assets/Test_Anzeige.png)
 
@@ -246,4 +246,4 @@ Whether, how and when you see the results and the performance overview depends o
 
 ![Leistungsübersicht Test Teilnehmendensicht](assets/Leistungsuebersicht_Test1.jpg)
 
-If you have more attempts available to process the test, you can run through the test again with "Start". Previous runs will be retained.
+If you have more attempts available to process the test, you can run through the test again with "Start test". Previous runs will be retained.

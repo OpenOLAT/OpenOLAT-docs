@@ -173,7 +173,7 @@ Des Weiteren stehen für Tests folgende Erledigungskriterien zur Verfügung:
 
 ![Test Erledigungskriterien](assets/Test_Erledigungskriterien_DE.png){ class="shadow" }
 
-Nur wenn die gewählte Bedingung erfüllt ist wird dem User der Fortschritt in der Lernpfadanzeige und in der Fortschrittsprozentzahl angezeigt.
+Nur wenn die gewählte Bedingung erfüllt ist, wird dem User der Fortschritt in der Lernpfadanzeige und in der Fortschrittsprozentzahl angezeigt.
 
 ## Test und Selbsttest im Vergleich
 

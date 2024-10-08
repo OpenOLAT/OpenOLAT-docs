@@ -35,8 +35,7 @@ Sobald Sie ein Video hinzugefügt haben, erscheint dessen Name als Link. Folgen 
 
 Unter "Videoelemente anzeigen" können auch Anmkerungen, Segmente, Quiz und Kommentare, sofern in der Lernressource Video hinzugefügt, aktiviert werden.
 
-Haben Sie ein Video ausgewählt bzw. importiert erscheint im Tab Lerninhalt der Abschnitt
-**"Optionen"**. Hier können Sie definieren:
+Haben Sie ein Video ausgewählt bzw. importiert erscheint im Tab Lerninhalt der Abschnitt **"Optionen"**. Hier können Sie definieren:
 
 * ob die Zuschauer das Video kommentieren und/oder bewerten dürfen
 * ob das Video automatisch gestartet werden soll oder nicht  

@@ -12,7 +12,7 @@ As soon as you have created an element, you can also use the plus sign to add fu
 
 ## Title
 
-Inserting headings and formatting with h1 to h6
+Inserting headings and formatting with h1 to h6.
 
 ![Form titel](assets/title.png){ class="shadow lightbox" }
 

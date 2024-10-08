@@ -35,7 +35,7 @@ After a form has been selected it can be designed via the link "Edit". If the fo
 Then you can define who can fill in the survey and who can see the results of the survey. The following options can be selected in each case:
 
 * the owners of the course
-* the supervisors of the course
+* the coaches of the course
 * the participants of the course: All people who are enrolled in the course in the role of "Participant".
 * guests: persons without OpenOlat account
 
@@ -71,13 +71,13 @@ If a group of people is neither authorized to fill in the questionnaire nor to v
 
 The following evaluation tabs are available to authorized persons:
 
-**Overview** : Here you can see how many people have filled out the questionnaire, the submission period as well as the processing time. Depending on the question type, other key figures are also listed.
+**Overview**: Here you can see how many people have filled out the questionnaire, the submission period as well as the processing time. Depending on the question type, other key figures are also listed.
 
-**Tables** : Here you can see the individual questions and answers as well as further statistical evaluations for rubrics. Free texts can also be downloaded as Excel tables.
+**Tables**: Here you can see the individual questions and answers as well as further statistical evaluations for rubrics. Free texts can also be downloaded as Excel tables.
 
-**Diagrams** : In the tab Diagrams you can see a graphical representation of the individual questions.
+**Diagrams**: In the tab Diagrams you can see a graphical representation of the individual questions.
 
-**Individual Questionnaires** : Here you have access to the entire completed, anonymous questionnaires of individual persons.  
+**Individual Questionnaires**: Here you have access to the entire completed, anonymous questionnaires of individual persons.  
   
 Furthermore, the contents of all 4 tabs can also be printed or downloaded as an Excel table or as a PDF version.
 

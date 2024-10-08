@@ -24,7 +24,7 @@ a) In the tab learning content "Select or create portfolio template"
 
 ![](assets/pf_course_add_template_EN.png)  
   
-b)In "My entries" select the template just created before.
+b) In "My entries" select the template just created before.
 
  Alternatively a new template can be "Created".  
   
@@ -34,9 +34,9 @@ element "Portfolio task". Also the option "Score granted" in the tab
 
 ## 3. Finalize
 
-After adding the course element and linking the "portfolio 2.0 template" the
+After adding the course element and linking the "Portfolio 2.0 template" the
 complete course must be published. You can choose fast publishing by simply
-closing the course editor or follow the steps of the publishing wizard by
+closing the course editor. Otherwise follow the steps of the publishing wizard by
 clicking on the option "Publish".
 
 The Portfolio 2.0 template is now available in the course and the course

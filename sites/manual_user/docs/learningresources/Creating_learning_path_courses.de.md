@@ -48,21 +48,14 @@ wird.
 :octicons-device-camera-video-24: **Video-Einführung**: [Wie sehe ich meinen Lernfortschritt?](<https://www.youtube.com/embed/sC2si_giXY8>){:target="_blank”}
 
 
-Darüber hinaus kann in den "Einstellungen" im Tab "Bewertung" noch definiert
-werden, ob auch die Gesamtpunkte des Kurses in der Fortschrittsgrafikanzeige
-erscheinen sollen (Summe oder Durchschnitt) und ob und wie ein Bestehen
-des Kurses berechnet wird.
+Darüber hinaus kann in den "Einstellungen" im Tab "Bewertung" noch definiert werden, ob auch die Gesamtpunkte des Kurses in der Fortschrittsgrafikanzeige erscheinen sollen (Summe oder Durchschnitt) und ob und wie ein Bestehen des Kurses berechnet wird.
   
 
 ![Lerner Prozentfortschritt](assets/Prozentanzeige.png)
 
 ## Lernpfad Kurse kopieren
 
-Wie alle Lernressourcen können auch Lernpfad Kurse kopiert werden. Neu ist
-jedoch seit OpenOlat 16 die Möglichkeit einen Lernpfad mit Hilfe eines Wizards
-zu kopieren. Auf diesem Weg können weitere Detaileinstellungen vor dem
-Kopiervorgang vorgenommen werden, so dass eine spätere Überarbeitung entfällt.
-Folgende Dinge können eingestellt werden:
+Wie alle Lernressourcen können auch Lernpfad Kurse kopiert werden. Neu ist jedoch seit OpenOlat 16 die Möglichkeit einen Lernpfad mit Hilfe eines Wizards zu kopieren. Auf diesem Weg können weitere Detaileinstellungen vor dem Kopiervorgang vorgenommen werden, so dass eine spätere Überarbeitung entfällt. Folgende Dinge können eingestellt werden:
 
   * ob bei Änderung des Durchführungszeitraums alle Datumseinstellungen automatisch angepasst werden
   * ob alle bisherigen Besitzer und Betreuer mitkopiert werden

@@ -10,7 +10,7 @@ Available since |
 Functional group | Assessment
 Purpose | Course element for integration of a learning resource "test" into a course
 Assessable | yes
-Specialty / Note | pre-configured course element "Test"
+Specialty / Note | Pre-configured course element "Test"
 
 Like the "Test", the course element "Self-test" uses the learning resource Test and is configured and set up similarly. The main difference is that there is no option "passed/failed" and the tab "Highscore" is omitted.
 
@@ -20,4 +20,4 @@ The course element "Self-test" contains learning resources of the type "Test." I
 
 For more information on tests, refer to the chapter "[Configure tests](../learningresources/Configure_tests.md)". The chapter "[Tests at course level](../learningresources/Tests_at_course_level.md)" is particularly relevant here.
 
-A more complex alternative to the self-test is the course element Exercise.
+A more complex alternative to the self-test is the course element "Practice".

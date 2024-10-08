@@ -59,9 +59,9 @@ After a form has been selected, it can be designed via the "Edit" link. If the f
 
 Then you can define who can fill in the survey and who can see the results of the survey. The following options can be selected:
 
-* the Owner of the course
-* the Coach of the course
-* the Participants of the course: All persons who are registered in the role "Participant" in the course.
+* the owner of the course
+* the coach of the course
+* the participants of the course: All persons who are registered in the role "Participant" in the course.
 * Guests: Persons without OpenOlat account
 
 If you activate the advanced configuration, you can make even more settings, e.g. define certain periods of participation for certain roles and specify participation by certain groups.
@@ -106,7 +106,7 @@ The following evaluation tabs are available for the authorized persons:
 
 Furthermore, the contents of all 4 tabs can also be printed or downloaded as an Excel spreadsheet or as a PDF version.
 
-The same evaluation can be found in the menu `Administration > Questionnaire statistics`.
+The same assessment can be found in the menu `Administration > Questionnaire statistics`.
 
 The results can also be saved via the menu "[Data archiving](../learningresources/Data_archiving.md)" > "Surveys". This is the same file as under "Export" in the course run.
 

@@ -35,7 +35,7 @@ By clicking on the title bar of the inspector window you can also move it around
 
 ### Title
 
-Inserting headings and formatting with h1 to h6
+Inserting headings and formatting with h1 to h6.
 
 ![Form titel](assets/form_titel_17.png){ class="shadow lightbox" }
 
@@ -129,15 +129,7 @@ With this element the coach can add a declaration of consent to the form, which 
 
 A separator can also be added.
   
-### Question rules
 
-With question rules, the display of Layouts can be made dependent on certain answers of the single or multiple choice (condition field). Thus, a layout with the respective elements is only displayed if the user has selected a certain predefined answer.
-
-Several rules can be added to a form.
-
-![Form Question rules](assets/question_rules_example.jpg){ class="shadow lightbox" }
-
-Further information on the question rules can be found [here](../learningresources/Question_rules.md).
 
 ## Tips for using the Form Editor
 

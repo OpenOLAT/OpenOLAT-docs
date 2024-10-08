@@ -35,8 +35,7 @@ Once you add a video, its name appears as a link. Follow the link to get to the 
 
 Under "Show video elements", annotations, segments, quizzes and comments, if added in the learning resource video, can also be activated.
 
-Once you have selected or imported a video, the following section appears in the Learning content tab
-**Options**. Here you can define:
+Once you have selected or imported a video, the following section appears in the Learning content tab **Options**. Here you can define:
 
 * Whether viewers may comment on and/or rate the video
 * whether the video should be started automatically or not

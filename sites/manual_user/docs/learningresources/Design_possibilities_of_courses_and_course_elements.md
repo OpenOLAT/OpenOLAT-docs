@@ -23,9 +23,9 @@ In the course editor, the tabs "Title and description" and "Layout" can be used 
 
 In the tab "Title and description" of a course element, in addition to the title and the general short description of the course element, extended information can be provided, which will be displayed as information in the upper part of the course element: Learning objectives, instructions, and specific guidance for coaches. 
 
-**Learning objectives:** Describe here what exactly you want to achieve with the course element. For example, in the case of structural modules, the learning objectives for the entire subordinate area can be explained. In general, you should check for which course elements a description of the learning objectives is relevant.
+**Learning objectives**: Describe here what exactly you want to achieve with the course element. For example, in the case of structural modules, the learning objectives for the entire subordinate area can be explained. In general, you should check for which course elements a description of the learning objectives is relevant.
   
-**Instructions:** Instruction or learning guidance for participants in the course. Explain in more detail here what you want learners to do with this course element. 
+**Instructions**: Instruction or learning guidance for participants in the course. Explain in more detail here what you want learners to do with this course element. 
   
 **Notes for coaches**
 Further information about this course element can be left for the coaches here. This information is visible only to coaches and owners of the course.

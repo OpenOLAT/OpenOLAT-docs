@@ -19,7 +19,7 @@ Der Kursbaustein "Themenvergabe" eignet sich dazu, wenn Sie in Ihrem Kurs Themen
 
 ### Themenvergabe konfigurieren
 
-Im Tab "Konfiguration" bestimmen Sie zuerst, wie viele Themen ein Teilnehmer wählen kann und ob seine Wahl gleich gilt oder zuerst vom Themenverantwortlichen akzeptiert werden muss. Weiter können Sie zusätzliche Felder hinzufügen, welche die Themen beschreiben und in der Tabelle mit allen ausgeschriebenen Themen aufgeführt werden. Hier können Sie auch konfigurieren, ob die Themeneinschreibung und -abgabe nur innerhalb einer bestimmten Frist möglich sein soll. Im Tab „Teilbausteine“ wählen Sie aus, ob es in Ihrer Themenvergabe einen Abgabeordner und einen Rückgabeordner geben soll. Kursteilnehmer laden ihre Dateien in den Abgabeorder und Themenverantwortliche können Dateien über den Rückgabeorder zurückgeben.
+Im Tab "Konfiguration" bestimmen Sie zuerst, wie viele Themen ein Teilnehmer wählen kann und ob seine Wahl gleich gilt oder zuerst vom Themenverantwortlichen akzeptiert werden muss. Weiter können Sie zusätzliche Felder hinzufügen, welche die Themen beschreiben und in der Tabelle mit allen ausgeschriebenen Themen aufgeführt werden. Hier können Sie auch konfigurieren, ob die Themeneinschreibung und -abgabe nur innerhalb einer bestimmten Frist möglich sein soll. Im Tab "Teilbausteine" wählen Sie aus, ob es in Ihrer Themenvergabe einen Abgabeordner und einen Rückgabeordner geben soll. Kursteilnehmer laden ihre Dateien in den Abgabeorder und Themenverantwortliche können Dateien über den Rückgabeorder zurückgeben.
 
 **Anzahl Themen pro Teilnehmer limitieren?:**
 Wenn Sie diese Option auswählen, erscheint ein Feld, in welchem Sie die Anzahl der Themen eingeben können, die ein Teilnehmer maximal pro Kursbaustein Themenvergabe auswählen darf.  
@@ -82,13 +82,7 @@ Wenn Sie "**Erscheint in der Tabelle**" wählen, wird der Termin in der Themenü
 
 Als Kursbesitzer oder Themenverantwortlicher können Sie neue Themen einrichten. Übergibt man den Lernenden das Recht des Themenverantwortlichen können sie selbst Themen(vorschläge) innerhalb eines Kurses einstellen und so z.B. die weitere Gestaltung eines Kurses mitbestimmen oder selbst Vorschläge für potenzielle Hausarbeiten oder Referate einreichen.
 
-Klicken Sie auf "**Neues Thema erstellen**" und geben Sie Thementitel und
-Beschreibung ein. Je nach Konfiguration der Themenvergabe können Sie das Thema
-mit weiteren Angaben beschreiben, die Einschreibe- und Abgabefrist festlegen,
-bestimmen, wie viele Kursteilnehmer Ihr Thema wählen dürfen und bei Bedarf
-zusätzliche Dateien als Anhang hochladen. Des weiteren legen Sie fest ob
-Teilnehmer Themen wieder abwählen dürfen, und ob die Themenverantwortlichen
-bei Themenaus-/abwahl per E-Mail benachrichtigt werden soll.
+Klicken Sie auf "**Neues Thema erstellen**" und geben Sie Thementitel und Beschreibung ein. Je nach Konfiguration der Themenvergabe können Sie das Thema mit weiteren Angaben beschreiben, die Einschreibe- und Abgabefrist festlegen, bestimmen, wie viele Kursteilnehmer Ihr Thema wählen dürfen und bei Bedarf zusätzliche Dateien als Anhang hochladen. Des weiteren legen Sie fest ob Teilnehmer Themen wieder abwählen dürfen, und ob die Themenverantwortlichen bei Themenaus-/abwahl per E-Mail benachrichtigt werden soll.
 
 !!! tip "Tipp"
 

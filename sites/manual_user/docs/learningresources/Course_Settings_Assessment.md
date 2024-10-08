@@ -42,7 +42,7 @@ The weighted score is displayed to coaches in the assessment form. For participa
 
 !!! hint "Highscore"
 
-    The "Highscore" tab of the top course element can only be configured in the course editor if **Total** or **average** has been selected under "Course evaluation with points".
+    The "Highscore" tab of the top course element can only be configured in the course editor if **Total** or **average** has been selected under "Course assessment with points".
 
 
 [To the top of the page ^](#course-settings---tab-assessment--assessment)
@@ -67,7 +67,7 @@ A learning path course can be considered passed as soon as one of the criteria i
 
     When calculating **learning progress**, only the **mandatory** course elements count.
 
-    When calculating "**passed**" and **points**, **mandatory and voluntary** course elements count.
+    When calculating "**passed**" and **points**, **mandatory and voluntary**, course elements count.
 
 
 [To the top of the page ^](#course-settings---tab-assessment--assessment)
@@ -109,7 +109,7 @@ If you activate the option "Use evidences of achievement", the option "Evidence 
 
 The link to the performance record only appears in the course if at least one assessable course element exists in the course and the course participant has already received at least one assessment. This can be, for example, the attempted solution to a test or the assessment of an assignment.
 
-If you deactivate this function, your course participants will no longer see any certificates of achievement. The certificates are not lost, they are simply no longer displayed. If you reactivate the transcript of records, all current data will be available again. However, if you delete a course with existing transcripts of records, users will still be able to view their evidences of achievement.
+If you deactivate this function, your course participants will no longer see any evidences of achievement. The certificates are not lost, they are simply no longer displayed. If you reactivate the transcript of records, all current data will be available again. However, if you delete a course with existing evidences of achievements, users will still be able to view their evidences of achievement.
 
 [To the top of the page ^](#course-settings---tab-assessment--assessment)
 
@@ -128,7 +128,7 @@ The "manual" selection also allows certificates to be used in courses without as
 
 **Where can the certificates be viewed?**
 
-As soon as the participant has fulfilled all the conditions for a passed course, the certificate is available in the **Toolbar of the respective course** under "My course" in the transcript of records. Users will also automatically receive an **e-mail notification** as soon as a certificate has been issued.
+As soon as the participant has fulfilled all the conditions for a passed course, the certificate is available in the **toolbar of the respective course** under "My course" in the transcript of records. Users will also automatically receive an **e-mail notification** as soon as a certificate has been issued.
 
 **How is the validity checked?**
 

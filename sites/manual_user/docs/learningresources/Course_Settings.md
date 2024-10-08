@@ -141,7 +141,7 @@ In the "**Navigation**" section you can set the visibility of the menu and crumb
 ![Lernpfad mit Icons](assets/lp_icons.png){ class="shadow" }
 ![Lernpfad ohne Pfad und Icons](assets/no_lp_no_icons.png){ class="shadow" }
 
-In the section **"Course element default style"** you can define the default presentation of the course elements and, for example, upload a background image and define the style of the image as well as assign a color category. In the preview you can see the effects.
+In the section "**Course element default style**" you can define the default presentation of the course elements and, for example, upload a background image and define the style of the image as well as assign a color category. In the preview you can see the effects.
 
 [To the top of the page ^](#course_settings)
 
@@ -196,9 +196,9 @@ Here you activate as required
 * a course-specific [glossary](../learningresources/Using_Additional_Course_Features.md)
 * a [resource folder](../learningresources/index.md) for your course
 * a special folder for coaches
-* To-dos for coaches<br>
+* to-dos for coaches<br>
 If you are a user with an administrative role (learning resource manager, administrator), you will be shown additional special options:
-* Invitation to activate external users for course owners with author rights
+* invitation to activate external users for course owners with author rights
 * activate the "LTI 1.3" release for course owners with authoring rights
 
 [For more details > ](../learningresources/Course_Settings_Options.md)<br>

@@ -18,64 +18,63 @@ The course element "Topic assignment" is useful if you want to announce e.g. top
 
 ## Editor view
 
-###  **How to configure topic assignments**
+###  How to configure topic assignments
 
 In the tab "Configuration" you determine first how many topics can be selected by one participant, if this selection is definite or if it has to be accepted by the topic author first. Furthermore you can add additional fields to describe a topic in more detail. This description will then be displayed in the table containing all topics announced. Here you can also determine if registrations and submissions shall only be possible within a certain period of time. In the tab "Sub-elements" you can choose if there should be a drop box as well as a return box in your topic assignment. Course participants will then upload their files to that drop box while topic authors will return those files by means of a return box.
 
-**Configure**
 
-* **Do you want to limit the number of Topics per participant?:** 
-  When selecting this option a field will pop up to indicate the number of Topics a participant may choose from the course element Topic assignment  
+**Do you want to limit the number of topics per participant?:** 
+When selecting this option a field will pop up to indicate the number of Topics a participant may choose from the course element Topic assignment  
   
-* **Topic authors have to accept participants:** 
-  When selecting this option participants can only register for a Topic temporarily. Topic authors will then have to select their candidates before finally accepting them. When deselecting this option all participants already registered for this Topic will be accepted automatically. However, topic authors are able to define the maximum number of participants first.  
+**Topic authors have to accept participants:** 
+When selecting this option, participants can only register for a topic temporarily. Topic authors will then have to select their candidates before finally accepting them. When deselecting this option, all participants already registered for this topic will be accepted automatically. However, topic authors are able to define the maximum number of participants first.  
   
-* **Only one Topic allowed (participants accepted will be signed out automatically from other Topics):** 
-  When selecting this option all users accepted as participants will be automatically signed out of all other topics selected before. This means that participants may be registered for only one Topic.
+**Only one Topic allowed (participants accepted will be signed out automatically from other topics):** 
+When selecting this option all users accepted as participants will be automatically signed out of all other topics selected before. This means that participants may be registered for only one Topic.
 
-* **Add additional fields:**
-  By means of "Add field" you can create fields according to your needs. You can create up to five additional fields for further details.
+**Add additional fields:**
+By means of "Add field" you can create fields according to your needs. You can create up to five additional fields for further details.
 
-  In the field "Name" you can indicate a favored field name.
+In the field "Name" you can indicate a favored field name.
 
-  You can offer your topic authors a selection of predefined values displayed in a pull-down menu. Please indicate the corresponding options in the field "Value" separated by semicolons or line breaks. When using a free-text field you can leave the field "Value" blank. Topic authors can then fill in a value of their own choice.
+You can offer your topic authors a selection of predefined values displayed in a pull-down menu. Please indicate the corresponding options in the field "Value" separated by semicolons or line breaks. When using a free-text field you can leave the field "Value" blank. Topic authors can then fill in a value of their own choice.
 
-  When selecting "**Appears in table**" this field will be displayed in the overview as requested. Apart from that this information will appear in the detailed topic description.
+When selecting "**Appears in table**" this field will be displayed in the overview as requested. Apart from that, this information will appear in the detailed topic description.
 
-  By means of "**Delete field**" you can delete additional fields.
+By means of "**Delete field**" you can delete additional fields.
 
 ![additional_fields.png](assets/Themenvergabe_Zusatz_EN.png)
 
-* **Manage dates:**
-  You can choose which dates should be at the disposal of topic authors.  
+**Manage dates:**
+You can choose which dates should be at the disposal of topic authors.  
   
-* **Registration date:** 
-  A topic author can determine a registration deadline for a Topic. After this deadline participants will no longer be able to select or deselect that Topic . However, a topic author still has the option to sign participants in or out.  
+**Registration date:** 
+A topic author can determine a registration deadline for a Topic. After this deadline participants will no longer be able to select or deselect that Topic . However, a topic author still has the option to sign participants in or out.  
   
-* **Deadline:** 
-  After a deadline the drop box will be closed. Participants will then no longer be able to upload documents to that drop box.  
+**Deadline:** 
+After a deadline the drop box will be closed. Participants will then no longer be able to upload documents to that drop box.  
   
-  When selecting **"Appears in table"**, your event will be displayed in the overview.
+When selecting **"Appears in table"**, your event will be displayed in the overview.
 
 ----
 
 ### Further settings for topic assignment  {: #persons}
 
-* **How to appoint topic authors - Tab "Persons in charge"**
+**How to appoint topic authors - Tab "Persons in charge"**
   
   In the tab "Persons in charge" you add those OpenOlat users who should be able to announce and supervise topics. These persons do not necessarily have to hold author rights.
 
   If you remove a topic author who has already announced a topic he will still be able to supervise it. However, this person will no longer be able to announce new topics.
 
-* **Role of topic authors**
+**Role of topic authors**
   
   When being authorized by a course author to act as topic author, you can announce as well as supervise topics. Just open the course view and navigate to your topic assignment. As a person responsible for a topic you can edit that topic, administer its participants or add more persons responsible for that topic.
 
-* **Folders - Tab "Sub-elements"**
+**Folders - Tab "Sub-elements"**
   
   In the submission folder, participants can upload files that are then accessible to the topic owners. Topic owners can place files in the return folder. The prerequisite is that the folders are activated in the configuration in the course editor.
 
-* **Confirmation of submission - "Submission"**
+**Confirmation of submission - "Submission"**
 
   You can optionally enter a text to be presented to the user in a new window after successfully handing in a file. If you do not enter a text, the following message (or similar) will appear: This is to confirm that John Miller (jmiller) has sent the file "test.html" on 21-09-04 at 00:14:42.
 
@@ -97,7 +96,7 @@ Click on "**Create new topic**" and enter the topic title and description. Depen
 
 * **Topic:** 
 
-  Via Topic you will find the topic's title, which can be edited by the person responsible.  
+  Via Topic you will find the topics title, which can be edited by the person responsible.  
   
 * **In charge:** 
 
@@ -170,7 +169,7 @@ If the configuration of your topic assignment requires that course participants 
 
 Now open the tab "**Topic assignment**" and accept the application of your candidate(s).
 
-Candidates are course participants applying for your topic. By means of "**Accept participant as**" you can decide to whom your topic should be assigned. All participants accepted will be added to the list "Participants accepted" and can be notified via e-mail if you wish. Just highlight those candidates you do not accept and click on "Delete." If you wish those candidates will be notified via e-mail as well.
+Candidates are course participants applying for your topic. By means of "**Accept participant as**" you can decide to whom your topic should be assigned. All participants accepted will be added to the list "Participants accepted" and can be notified via e-mail if you wish. Just highlight those candidates you do not accept and click on "Delete." If you wish, those candidates will be notified via e-mail as well.
 
 If you have not limited the number of vacancies you can repeat this procedure several times. Please remember to select "Topic set status on "Filled"" in the tab "Description" to avoid further applications for your topic.
 
@@ -234,5 +233,5 @@ Click on the title of the topic. In the "Folder" tab you will find the delivery 
 
 In the "Folder" tab, in the "Return folder" section, you will find the files that the topic owner has returned to you.
 
-If you are assigned as a topic owner, you can post topics. You can read more about this and about accepting and supervising participants in the chapter "Course elements" → "Others" under "[Course element](../learningresources/Other.md#course-element-topic-assignment--topic_assignment)"
+If you are assigned as a topic owner, you can post topics. You can read more about this and about accepting and coaching participants in the chapter "Course elements" → "Others" under "[Course element](../learningresources/Other.md#course-element-topic-assignment--topic_assignment)."
 

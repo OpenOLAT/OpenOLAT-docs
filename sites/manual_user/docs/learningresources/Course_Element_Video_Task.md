@@ -29,7 +29,7 @@ In this mode, the segments (video sections) in the video are marked.
 * In the lower area of the video, steps of the treatment are shown.
 * While the video is playing, the appropriate name of the measure (category term) must be clicked on during the recognised step.
 * Feedback is given immediately after a term is selected.
-* Manual assessment by coaches is not possible. (=> Practising should be possible without control).
+* Manual assessment by coaches is not possible. (=> Practicing should be possible without control).
 
 ---
 
@@ -45,7 +45,7 @@ In this mode, the segments (video sections) in the video are **not marked**.
 * No segments (video sections) are marked in the lower area of the video.
 * While the video is playing, the student has to identify which phase of the conversation it is.
 * The feedback is given immediately after the selection of a term.
-* Manual assessment by coaches is not possible. (=> Practising should be possible without control).
+* Manual assessment by coaches is not possible. (=> Practicing should be possible without control).
 
 ---
 
@@ -61,19 +61,19 @@ In this mode, the segments (video sections) in the video are **not marked**.<br>
 * No segments (video sections) are marked in the lower part of the video.
 * While the video is playing, the learner has to identify which phase of the conversation it is.
 * During a test, the participants do not receive any feedback.
-* At the end, it is only indicated that an automatic assessment has been made. However, the detailed evaluation result is only visible to the supervisor or owner.
+* At the end, it is only indicated that an automatic assessment has been made. However, the detailed evaluation result is only visible to the coach or owner.
 
 
 !!! info "Note"
 
-    In addition to the 3 tasks with segments, quiz questions can also be displayed at different times in the video. However, they are currently not taken into account in the evaluation.
+    In addition to the 3 tasks with segments, quiz questions can also be displayed at different times in the video. However, they are currently not taken into account in the assessment.
 
 
 ---
 
 ## Practice mode - Test mode
 
-When practising, the results should remain anonymous. Coaches therefore only see anonymously presented results. In tests, on the other hand, the entries are assessed by the supervisors.
+When practicing, the results should remain anonymous. Coaches therefore only see anonymously presented results. In tests, on the other hand, the entries are assessed by the coaches.
 
 The number of solution attempts can be limited (1-9999).
 
@@ -151,9 +151,9 @@ During a **test**, on the other hand, the participants do not receive any feedba
 
 ### Results for coaches in exercises
 
-If in exercises tutors open a course element with a video task in the course menu, they will see the two **tabs "Participants" and "Preview"**.
+If in exercises coaches open a course element with a video task in the course menu, they will see the two **tabs "Participants" and "Preview"**.
 
-* In the tab **"Participants"** the processing status of the supervised course participants is displayed in a list.
+* In the tab **"Participants"** the processing status of the coached course participants is displayed in a list.
 * In the **"Preview"** tab, the video is displayed as seen by participants.
 
 Coaches can reset the number of attempts for each participant individually and/or reset the data of a video task.
@@ -185,7 +185,7 @@ After clicking on the button, a confirmation prompt appears describing what is b
 
 ### Results for test supervisors
 
-If the mode "Test" was selected for the video task, the **Tabs "Participants" and "Preview "** as well as the **Tabs "Overview" and "Reminders"** appear.
+If the mode "Test" was selected for the video task, the **Tabs "Participants" and "Preview"** as well as the **Tabs "Overview" and "Reminders"** appear.
 
 ![video_task_betreueransicht_test_v1_de.png](assets/video_task_betreueransicht_test_v1_de.png){ class="shadow lightbox" }
 

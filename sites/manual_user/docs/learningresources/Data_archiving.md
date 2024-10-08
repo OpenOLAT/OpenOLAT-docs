@@ -14,7 +14,7 @@ Storage of old questionnaires. Generally no longer relevant.
 
 ### Surveys
 
- All surveys of the course are displayed. The desired survey to be archived can be selected and saved as a zip file.  
+All surveys of the course are displayed. The desired survey to be archived can be selected and saved as a zip file.  
 
 ### Tests
 
@@ -32,7 +32,7 @@ Archived self-tests and questionnaires contain anonymized user data, tests are s
   
 ### Course results
 
-Here, the **final results** of all assessment modules integrated in the course, such as tests, assessments, portfolio tasks, checklists and tasks from all course participants are archived bundled as a zip file. The zip file can be downloaded and saved directly, but is also still in the private folder of the course owner in OpenOlat.
+Here, the *final results* of all assessment modules integrated in the course, such as tests, assessments, portfolio tasks, checklists and tasks from all course participants are archived bundled as a zip file. The zip file can be downloaded and saved directly, but is also still in the private folder of the course owner in OpenOlat.
 
 The zip file contains an xlsx file with information about the course participants as well as any documents submitted by the participants. These documents are bundled per course element and contain subfolders with the names of the participants who submitted documents.
 

@@ -25,9 +25,9 @@ Im Kurseditor können die Tabs "Titel und Beschreibung" sowie "Layout" für die 
 
 Im Tab "Titel und Beschreibung" eines Kursbausteins können, neben dem Titel und der generellen kurzen Beschreibung des Kursbausteins, ergänzend erweiterte Informationen bereitgestellt werden, die im oberen Bereich des Kursbausteins als Information angezeigt werden. zu den erweiterten Informationen zählen: Lernziele, Anweisungen sowie spezifische Hinweise für Betreuer. 
 
-**Lernziele:** Beschreiben Sie hier, was Sie genau mit dem Kursbaustein erreichen wollen. Beispielsweise können bei Strukturbausteinen die Lernziele für den gesamten untergeordneten Bereich erläutert werden. Generell sollten Sie prüfen, bei welchen Kursbausteinen eine Beschreibung der Lernziele relevant ist. 
+**Lernziele**: Beschreiben Sie hier, was Sie genau mit dem Kursbaustein erreichen wollen. Beispielsweise können bei Strukturbausteinen die Lernziele für den gesamten untergeordneten Bereich erläutert werden. Generell sollten Sie prüfen, bei welchen Kursbausteinen eine Beschreibung der Lernziele relevant ist. 
   
-**Anweisungen:** Instruktionen oder Lernanweisungen für die Teilnehmenden des Kurses.
+**Anweisungen**: Instruktionen oder Lernanweisungen für die Teilnehmenden des Kurses.
 Erläutern Sie hier genauer, was die Lernenden mit diesem Kursbaustein machen sollen. 
   
 **Hinweise für Betreuer**

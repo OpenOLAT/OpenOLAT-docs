@@ -29,7 +29,7 @@ The virtual meeting room allows participants to communicate via text chat, audio
 
 ![vitero_course_editor.png](assets/Vitero_EN.png)
 
-You can enter your vitero dates in the course editor or in the published view. Select the button "**Create meeting**". Before you do this, you can use the "**Team room utilisation**" button to view the current utilisation of the available team rooms in order to find a free appointment. 
+You can enter your vitero dates in the course editor or in the published view. Select the button "**Create meeting**". Before you do this, you can use the "**Team room utilization**" button to view the current utilization of the available team rooms in order to find a free appointment. 
   
 ## Configuration in the course run (closed editor)
 

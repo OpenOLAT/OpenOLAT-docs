@@ -5,7 +5,7 @@ in the menu under "Administration".
 
 ![course editor link](assets/course_editor_link_19.png)
 
-In order to delete, duplicate or move a course element, you have to select the course element first. Then the corresponding menu appears in the top right .
+In order to delete, duplicate or move a course element, you have to select the course element first. Then the corresponding menu appears in the top right.
 
 ![move course elements](assets/course_editor_move_delete.png)
 
@@ -19,8 +19,7 @@ be restored.
 
 ## Importing course elements
 
-If you have already created a comprehensive course structure in another course
-you would like to continue using, it is a good idea to copy these course elements into the desired course via "Import course elements".
+If you have already created a comprehensive course structure in another course you would like to continue using, it is a good idea to copy these course elements into the desired course via "Import course elements".
 
 ![Import course elements](assets/KB_importieren.en.png)
 
@@ -49,9 +48,7 @@ d) In the next step, the files located in the storage folder of the course to be
 
 ## Changes to the current course
 
-You decide the time when the changes appear in the
-current course. All users who edit the course at the time of publishing must restart the
-course. Unsaved forum posts or test results will be lost! If users are in the course and you can postpone publishing to a later date, we recommend that you cancel the publishing process and repeat it later.
+You decide the time when the changes appear in the current course. All users who edit the course at the time of publishing must restart the course. Unsaved forum posts or test results will be lost! If users are in the course and you can postpone publishing to a later date, we recommend that you cancel the publishing process and repeat it later.
 
 
   

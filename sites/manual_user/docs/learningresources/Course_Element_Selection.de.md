@@ -80,7 +80,7 @@ Das **Erledigungskriterium** kann für einen Kursbaustein "Auswahl" **nicht** ge
 Es zählt, ob zugeordnete Kursbausteine ausgewählt und erledigt sind. 
 
 
-### Tab "Lernpfad" der zugordneten Kursbausteine
+### Tab "Lernpfad" der zugeordneten Kursbausteine
 
 Alle im Kurseditor einem Kursbaustein "Auswahl" zugeordneten Kursbausteine werden zu Beginn automatisch "**ausgenommen**", also standardmässig nicht im Kursmenü angezeigt.
 Diese automatisch gesetzte Eigenschaft kann im Kurseditor **nicht** durch Autor:innen geändert werden.

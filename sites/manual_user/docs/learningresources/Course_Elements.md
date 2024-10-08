@@ -100,7 +100,7 @@ Course elements in this category are mainly used for collaborative work and exch
 
 <div class="grid cards" markdown>
 
--	  [:fontawesome-solid-earth-americas: Wiki](Course_Element_Wiki.md)
+-	[:fontawesome-solid-earth-americas: Wiki](Course_Element_Wiki.md)
 
     [:fontawesome-regular-comments: Forum](Course_Element_Forum.md)
 
@@ -110,7 +110,7 @@ Course elements in this category are mainly used for collaborative work and exch
 
     [:fontawesome-solid-users: Participant list](Course_Element_Participant_List.md)
 
--	  [:fontawesome-solid-desktop: Vitero](Course_Element_vitero.md)
+-	[:fontawesome-solid-desktop: Vitero](Course_Element_vitero.md)
 
     [:fontawesome-solid-desktop: OpenMeetings](Course_Element_OpenMeetings.md)
 
@@ -148,7 +148,7 @@ The following course elements are particularly suitable for organizational matte
 
 <div class="grid cards" markdown>
 
--	  [:fontawesome-solid-right-to-bracket: Enrolment](Course_Element_Enrolment.md)
+-	[:fontawesome-solid-right-to-bracket: Enrolment](Course_Element_Enrolment.md)
 
     [:fontawesome-solid-circle-info: Notifications](Course_Element_Notifications.md)
 
@@ -168,7 +168,7 @@ Additional building blocks can be found in the category "Other".
 
 <div class="grid cards" markdown>
 
--	  [:fontawesome-solid-up-right-from-square: LTI Page](Course_Element_LTI_Page.md)
+-	[:fontawesome-solid-up-right-from-square: LTI Page](Course_Element_LTI_Page.md)
 
     [:fontawesome-regular-circle: Topic Assignment](Course_Element_Topic_Assignment.md)
 
