@@ -16,7 +16,7 @@ Die folgenden Kursbausteine dienen insbesondere der Bereitstellung und Strukturi
 
 <div class="grid cards" markdown>
 
--	[:fontawesome-solid-cubes: Struktur](Course_Element_Structure.de.md)
+	[:fontawesome-solid-cubes: Struktur](Course_Element_Structure.de.md)
 
     [:fontawesome-solid-file-lines: Seite](Course_Element_Page.de.md)
 
@@ -36,7 +36,7 @@ Die folgenden Kursbausteine dienen insbesondere der Bereitstellung und Strukturi
 
     [:fontawesome-solid-bullhorn: Blog](Course_Element_Blog.de.md)
 
--	[:fontawesome-solid-film: Video](Course_Element_Video.de.md)
+	[:fontawesome-solid-film: Video](Course_Element_Video.de.md)
 
     [:fontawesome-solid-video: Video Livestream](Course_Element_Video_Livestream.de.md)
 
@@ -60,7 +60,7 @@ Folgende Kursbausteine können insbesondere zur Wissensüberprüfung eingesetzt 
 
 <div class="grid cards" markdown>
 
--	[:fontawesome-regular-thumbs-up: Bewertung](Course_Element_Assessment.de.md)
+	[:fontawesome-regular-thumbs-up: Bewertung](Course_Element_Assessment.de.md)
 
     [:fontawesome-solid-bars-progress: Aufgabe](Course_Element_Task.de.md)
 
@@ -72,7 +72,7 @@ Folgende Kursbausteine können insbesondere zur Wissensüberprüfung eingesetzt 
 
     [:fontawesome-solid-square-pen: Selbsttest](Course_Element_Self_Test.de.md)
 
--	[:fontawesome-solid-futbol: Übung](Course_Element_Practice.de.md)
+	[:fontawesome-solid-futbol: Übung](Course_Element_Practice.de.md)
 
     [:octicons-arrow-right-24: Video-Aufgabe](Course_Element_Video_Task.de.md)
 
@@ -106,7 +106,7 @@ Kursbausteine dieser Kategorie werden vor allem für kollaboratives Arbeiten und
 
 <div class="grid cards" markdown>
 
--	[:fontawesome-solid-earth-americas: Wiki](Course_Element_Wiki.de.md)
+	[:fontawesome-solid-earth-americas: Wiki](Course_Element_Wiki.de.md)
 
     [:fontawesome-regular-comments: Forum](Course_Element_Forum.de.md)
 
@@ -116,7 +116,7 @@ Kursbausteine dieser Kategorie werden vor allem für kollaboratives Arbeiten und
 
     [:fontawesome-solid-users: Teilnehmerliste](Course_Element_Participant_List.de.md)
 
--	[:fontawesome-solid-desktop: Vitero](Course_Element_vitero.de.md)
+	[:fontawesome-solid-desktop: Vitero](Course_Element_vitero.de.md)
 
     [:fontawesome-solid-desktop: OpenMeetings](Course_Element_OpenMeetings.de.md)
 
@@ -151,7 +151,7 @@ Für organisatorische Belange und zur Verteilung von Informationen eignen sich b
 
 <div class="grid cards" markdown>
 
--	[:fontawesome-solid-right-to-bracket: Einschreibung](Course_Element_Enrolment.de.md)
+	[:fontawesome-solid-right-to-bracket: Einschreibung](Course_Element_Enrolment.de.md)
 
     [:fontawesome-solid-circle-info: Mitteilungen](Course_Element_Notifications.de.md)
 
@@ -171,13 +171,13 @@ Zusätzliche Bausteine finden Sie in der Kategorie "Andere".
 
 <div class="grid cards" markdown>
 
--	[:fontawesome-solid-up-right-from-square: LTI-Seite](Course_Element_LTI_Page.de.md)
+	[:fontawesome-solid-up-right-from-square: LTI-Seite](Course_Element_LTI_Page.de.md)
 
     [:fontawesome-regular-circle: Themenvergabe](Course_Element_Topic_Assignment.de.md)
 
     [:octicons-link-24: Linkliste](Course_Element_Link_List.de.md)
 
-    [Auswahl](Course_Element_Selection.de.md)
+    [:fontawesome-solid-arrows-turn-right: Auswahl](Course_Element_Selection.de.md)
 
 </div>
 

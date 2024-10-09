@@ -6,6 +6,7 @@
 ## Create Courses
 
 1. [How to create my first course](/manual_how-to/my_first_course/my_first_course)
+2. [How do I use course element "selection"?](/manual_how-to/course_element_selection/course_element_selection)
 
 ## Create Learning Resources
 

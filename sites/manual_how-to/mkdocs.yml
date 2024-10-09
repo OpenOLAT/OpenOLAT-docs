@@ -7,6 +7,7 @@ nav:
     - Transfer files using WebDAV: "webdav/webdav.md"
   - Create Courses:
     - My first course: "my_first_course/my_first_course.md"
+    - How do I use course element "selection"?: "course_element_selection/course_element_selection.md"
   - Create Learning Resources:
     - Create a blog: "blog/blog.md"
     - Create a Content Package: "content_package/content_package.md"
