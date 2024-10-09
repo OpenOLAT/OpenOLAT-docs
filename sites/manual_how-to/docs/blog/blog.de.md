@@ -31,11 +31,11 @@ a) Gehen Sie in den **Autorenbereich** und suchen Sie dort den Kurs, in den der 
   
 ![blog_autorenbereich_v1_de.png](assets/blog_autorenbereich_v1_de.png){ class="shadow lightbox" }  
 
-b) Öffnen Sie den gewünschten Kurs im **Kurseditor**, der sich im Menü "Administration" befindet.
+b) Öffnen Sie den gewünschten Kurs im **Kurseditor** (Menü "Administration" > Kurseditor).
 
 c) Wählen Sie die Stelle im Kursmenü, an der der Baustein hinzugefügt werden soll. Kursbausteine werden immer unterhalb des aktuell ausgewählten Kursbausteins eingefügt. 
 
-d) Klicken Sie in der Kopfzeile des Editors auf **"Kursbaustein einfügen"** oder nutzen Sie die Quick-Add Funktion und wählen Sie im Popup mit der Auswahlliste "Blog".
+d) Klicken Sie in der Kopfzeile des Editors auf **"Kursbaustein einfügen"** oder nutzen Sie die Quick-Add Funktion und wählen Sie im Popup mit der Auswahlliste den Kursbaustein "Blog".
 
 Damit ist der Kursbaustein schon dem Kurs hinzugefügt.
 

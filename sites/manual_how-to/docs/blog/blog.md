@@ -31,11 +31,11 @@ a) Search in **"Authoring"** for your course, where you want to insert the blog.
   
 ![blog_authoring_v1_en.png](assets/blog_authoring_v1_en.png){ class="shadow lightbox" }  
 
-b) Open the desired course in the **course editor** located in the administration menu.
+b) Open the desired course in the **course editor** (administration menu > option course editor).
 
 c) Select the position in the course menu where the course element is to be added. Course elements are always inserted below the currently selected course element.
 
-d) Click **"Insert course element"** in the editor header or use the quick-add function and select "Blog" in the pop-up with the selection list.
+d) Click **"Insert course element"** in the editor header or use the quick-add function and select course element "Blog" in the pop-up with the selection list.
 
 The course element has already been added to the course.
 
