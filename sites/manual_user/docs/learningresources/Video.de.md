@@ -29,7 +29,7 @@ Die Video-Lernressourcen können **in Kursbausteine eingebunden** werden und dor
 * Videos im Kursbaustein "**HTML-Seite**" sind im **Ablageordner** des Kurses abgelegt. Von dort werden sie in den Kursbaustein verlinkt. So eingebettete Videos stehen nur im jeweiligen Kurs zur Verfügung. 
 * Statt Videos im Ablageordner eines Kurses zu hinterlegen, können sie auch in einem [**Ressourcenordner**](../learningresources/Course_Settings.de.md#ressourcenordner-einbinden) abgelegt werden. Eingebundene Ressourcenordner können dann in mehreren Kursen verwendet werden.
 * Als **Lernressourcen** sind Videos im [**Autorenbereich**](../area_modules/Authoring.de.md) zu finden.
-* Ausserdem können Videos auch im [**Medien Center**](../personal_menu/Media_Center.de.md) abgelegt werden.
+* Ausserdem können Videos auch im [**Media Center**](../personal_menu/Media_Center.de.md) abgelegt werden.
 
 
 ### Links
@@ -46,7 +46,7 @@ Die Video-Lernressourcen können **in Kursbausteine eingebunden** werden und dor
 * [Kursbaustein "Podcast"](Course_Element_Podcast.de.md)
 * [Kursbaustein "Mediasite"](Course_Element_Mediasite.de.md)
 * [Video Collection](Learning_resource_Video.de.md#menu-video-collection)
-* [Medien Center](../personal_menu/Media_Center.de.md)
+* [Media Center](../personal_menu/Media_Center.de.md)
 
 
 !!! info "Info"

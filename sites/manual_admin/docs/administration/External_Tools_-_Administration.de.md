@@ -192,7 +192,7 @@ Voraussetzung ist jeweils, dass die erforderlichen Lizenzen vorhanden sind.
 
 ## draw.io  {: #draw_io}
 
-draw.io ist ein Online-Werkzeug zur Erstellung von Diagrammen, das in OpenOlat in vielen Stellen eingesetzt werden kann, z.B. in Projekten, im Portfolio, im Kursbaustein "Datei", im Medien Center bzw. an vielen Stellen an denen neue Dokumente erstellt werden können. In draw.io können auch mehrere Personen kooperativ an einem Diagramm arbeiten. Um draw.io zu nutzen, muss die Funktion in der Administration eingerichtet werden. 
+draw.io ist ein Online-Werkzeug zur Erstellung von Diagrammen, das in OpenOlat in vielen Stellen eingesetzt werden kann, z.B. in Projekten, im Portfolio, im Kursbaustein "Datei", im Media Center bzw. an vielen Stellen an denen neue Dokumente erstellt werden können. In draw.io können auch mehrere Personen kooperativ an einem Diagramm arbeiten. Um draw.io zu nutzen, muss die Funktion in der Administration eingerichtet werden. 
 
 **Weitere Informationen:**<br>
 [Website draw.io](https://www.drawio.com)

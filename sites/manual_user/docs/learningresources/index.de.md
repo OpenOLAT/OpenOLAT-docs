@@ -138,7 +138,7 @@ erstellen. Welche Dateien genau erstellt werden können sehen Sie in der angezei
 
 !!! info "Info"
 
-    Diagramm Dateien (draw.io) lassen sich hier in der Regel nicht direkt erstellen. Nutzen Sie hierfür z.B. das Medien Center, einen Kurs oder den Projekt Bereich. 
+    Diagramm Dateien (draw.io) lassen sich hier in der Regel nicht direkt erstellen. Nutzen Sie hierfür z.B. das Media Center, einen Kurs oder den Projekt Bereich. 
 
   
 

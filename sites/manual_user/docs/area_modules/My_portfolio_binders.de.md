@@ -27,7 +27,7 @@ Sobald eine Portfolio Mappe vom Lernenden abgeholt wurde erscheint sie in seinem
 
 !!! tip "Tipp"
 
-    By default können Sie in einer abgeholten Mappe keine eigenen strukturellen "Einträge" erstellen. Es können jedoch diverse Inhalte, auch aus dem [Medien Center](../personal_menu/Media_Center.de.md), hinzufügen.
+    By default können Sie in einer abgeholten Mappe keine eigenen strukturellen "Einträge" erstellen. Es können jedoch diverse Inhalte, auch aus dem [Media Center](../personal_menu/Media_Center.de.md), hinzufügen.
 
 Über den Button "Inhalt hinzufügen" gelangt man in den Portfolio Editor. Hier können diverse Elemente hinzugefügt werden und auch mit dem Containerelement gruppiert werden. Durch Klick auf das Pluszeichen können weitere Blöcke hinzugefügt und per drag and drop verschoben werden.
 

@@ -53,15 +53,15 @@ Es stehen folgende Inhaltselemente zur Verfügung:
 * **Code:** Darstellung von Programmiercode ohne Ausführung.<br> 
 30 versch. Programmiersprachen ab :octicons-tag-24: Release 18.2.
 ![course_element_page_code_v1_de.png](assets/course_element_page_code_v1_de.png){ class="shadow lightbox" } 
-* **Dokument:** Word-, PowerPoint- oder Excel-Dokumente können sowohl hochgeladen als auch direkt erstellt werden. PDF und andere können hochgeladen oder aus dem Medien Center übernommen werden.
+* **Dokument:** Word-, PowerPoint- oder Excel-Dokumente können sowohl hochgeladen als auch direkt erstellt werden. PDF und andere können hochgeladen oder aus dem Media Center übernommen werden.
 * **Audio:** Audio auswählen, neu aufnehmen oder als MP3 oder m4a Datei hinzufügen. Ab :octicons-tag-24: Release 18.2. 
-* **Bild:** Einfügen eines Bildes aus dem Medien Center bzw. Upload.
+* **Bild:** Einfügen eines Bildes aus dem Media Center bzw. Upload.
 * **Bildergalerie:** Darstellung mehrerer Bilder als Slideshow, in einem Raster oder mit kleinen Vorschaubildern. Ab :octicons-tag-24: Release 19. 
 * **Bildervergleich:** Zwei übereinander liegende Bilder können durch einen Schieberegler überblendet werden. Ab :octicons-tag-24: Release 19. 
-* **Video:** Einfügen einer Videodatei aus dem Medien Center bzw. Upload oder neues Recording
+* **Video:** Einfügen einer Videodatei aus dem Media Center bzw. Upload oder neues Recording
 * **draw.io Diagramm:** Neu erstellen oder aus der Liste auswählen. Ab :octicons-tag-24: Release 18.2. 
-* **Zitat:** Zitate können im Medien Center als eigenständige Inhaltselemente abgelegt und wiederverwendet werden.
-* **Aus meinem Medien Center** Zugriff auf alle Elemente des eigenen Medien Centers. Auch können neue Elemente für das Medien Center erstellt werden. 
+* **Zitat:** Zitate können im Media Center als eigenständige Inhaltselemente abgelegt und wiederverwendet werden.
+* **Aus meinem Media Center** Zugriff auf alle Elemente des eigenen Media Centers. Auch können neue Elemente für das Media Center erstellt werden. 
 * **Textabschnitt:** Ein Text, der mit einem HTML-Editor gestaltet werden kann. (Mit etwas mehr Optionen als im Inhaltselement Paragraph.)
 * **Separator:** Eine Linie, mit der zwei Layouts optisch getrennt werden. 
 
@@ -93,9 +93,9 @@ Ein Inhaltselement kann geändert werden, indem man es per Mausklick selektiert 
 
 ## Ablage der Medien
 
-Die Ablage der eingefügten Medien erfolgt nicht wie bei dem [Kursbaustein "HTML-Seite"](../learningresources/Course_Element_HTML_Page.de.md) im [Ablageordner](../learningresources//Storage_folder.de.md) des Kurses sondern im [Medien Center](../personal_menu/Media_Center.de.md). Hier finden Sie alle eingebauten Medien wieder und können dort auch die weitere Verwaltung und Freigabe regeln. 
+Die Ablage der eingefügten Medien erfolgt nicht wie bei dem [Kursbaustein "HTML-Seite"](../learningresources/Course_Element_HTML_Page.de.md) im [Ablageordner](../learningresources//Storage_folder.de.md) des Kurses sondern im [Media Center](../personal_menu/Media_Center.de.md). Hier finden Sie alle eingebauten Medien wieder und können dort auch die weitere Verwaltung und Freigabe regeln. 
 
-Der Upload der Medien ins Medien Center erfolgt im persönlichen Menü oder im Content Editor bei der Erstellung eines neuen Inhaltselements.
+Der Upload der Medien ins Media Center erfolgt im persönlichen Menü oder im Content Editor bei der Erstellung eines neuen Inhaltselements.
 
 
 ## Unterschiede: Seite - HTML-Seite
@@ -107,7 +107,7 @@ Der Upload der Medien ins Medien Center erfolgt im persönlichen Menü oder im C
 | Gestaltung             | blockbasierter Ansatz          | HTML-Seite                     |
 | Erstellungsaufwand     | geringer, da vorstrukturiert   | teilweise höher                 |
 | Vorschau               | direkt im Editor               | separater Tab "Anzeige Inhalt" |
-| Medien                 | im Medien Center               | im Ablageordner                |
+| Medien                 | im Media Center               | im Ablageordner                |
 | Editieren kann Betreuenden erlaubt werden  | :material-check: | :material-check:      |
 | erweiterte Berechtigungen                     | :material-check: | :material-cancel:     |
 | Integration pdf        | :material-check:               | :material-check:               |

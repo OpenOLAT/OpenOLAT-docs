@@ -21,10 +21,10 @@
 
 ## Wo können in OpenOlat Videos aufgenommen werden?
 
-### Aufnahme im Medien Center
+### Aufnahme im Media Center
  
 Öffnen Sie das **persönliche Menü** durch Klick auf das kleine Bild oder Dreieck rechts oben.
-Öffnen Sie darin dann das Medien Center.
+Öffnen Sie darin dann das Media Center.
 
 Unter den Möglichkeiten zum Hinzufügen neuer Mediendateien befindet sich auch **"Video aufzeichnen"**.
 
@@ -63,7 +63,7 @@ Die Möglichkeit zu Videoaufnahmen in einer Aufgabe ist in den Workflow eingebet
 
 ![video_recording_task_create_solution_v1_de.png](assets/video_recording_task_create_solution_v1_de.png){ class=" shadow lightbox" }
 
-Für Videoaufnahmen, die im Kursbaustein "Aufgabe" aufgezeichnet werden, besteht aktuell keine Möglichkeit zur Speicherung und Verlinkung im Medien Center.
+Für Videoaufnahmen, die im Kursbaustein "Aufgabe" aufgezeichnet werden, besteht aktuell keine Möglichkeit zur Speicherung und Verlinkung im Media Center.
 
 
 ### Aufnahme im Kursbaustein Gruppenaufgabe
@@ -75,11 +75,11 @@ Die Videoaufnahme im Kursbaustein "Gruppenaufgabe" funktioniert wie im Kursbaust
 ## Wo werden die Videoaufnahmen gespeichert?
 
 **Innerhalb eines Kursbausteins aufgenommene Videos** werden auch bei diesem Kursbaustein gespeichert. 
-Die Aufnahmen sind nicht im Autorenbereich, Ablageordner oder im Medien Center aufgeführt (Ausnahme: Kursbaustein Seite).
+Die Aufnahmen sind nicht im Autorenbereich, Ablageordner oder im Media Center aufgeführt (Ausnahme: Kursbaustein Seite).
 
 ![video_recording_task_storage_v1_de.png](assets/video_recording_task_storage_v1_de.png){ class=" shadow lightbox" }
 
-Wird dagegen die **Videoaufnahme im Medien Center** gestartet, wird das Video auch im Medien Center gespeichert.
+Wird dagegen die **Videoaufnahme im Media Center** gestartet, wird das Video auch im Media Center gespeichert.
 
 
 ## In welchem Format und welcher Qualität werden Aufnahmen gespeichert?
@@ -106,8 +106,8 @@ Nachdem ein Video aufgenommen wurde, passt es OpenOlat in Bildgrösse, Auflösun
 
 ## Wie viel Speicherplatz steht für meine Videos zur Verfügung?
 
-Bsp.: Medien Center<br>
-In der linken unteren Ecke sehen Sie den verfügbaren Speicherplatz (für das gesamte Medien Center) und wieviel davon bereits belegt ist. Der verfügbare Platz kann von den Administrator:innen bestimmt werden.
+Bsp.: Media Center<br>
+In der linken unteren Ecke sehen Sie den verfügbaren Speicherplatz (für das gesamte Media Center) und wieviel davon bereits belegt ist. Der verfügbare Platz kann von den Administrator:innen bestimmt werden.
 
 ![video_recording_space_v1_de.png](assets/video_recording_space_v1_de.png){ class=" shadow lightbox" }
 
@@ -122,9 +122,9 @@ Sowohl Videoaufnahmen aus Aufgabenstellung als auch Videoaufnahmen in der Muster
 ![video_recording_task_download_v1_de.png](assets/video_recording_task_download_v1_de.png){ class=" shadow lightbox" }
 
 
-### Download aus dem Medien Center
+### Download aus dem Media Center
 
-Wählen und öffnen Sie im Medien Center das gewünschte Video. Unter dem Button mit den 3 Punkten finden Sie die Option zum Herunterladen. 
+Wählen und öffnen Sie im Media Center das gewünschte Video. Unter dem Button mit den 3 Punkten finden Sie die Option zum Herunterladen. 
 
 ![video_recording_mediacenter_download_v1_de.png](assets/video_recording_mediacenter_download_v1_de.png){ class=" shadow lightbox" }
 

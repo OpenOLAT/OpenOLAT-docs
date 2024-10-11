@@ -1,15 +1,15 @@
-# Persönliche Werkzeuge: Das Medien Center
+# Persönliche Werkzeuge: Das Media Center
 
 ![pers_menu_mediacenter_v1_de.png](assets/pers_menu_mediacenter_v1_de.png){ class="aside-right lightbox"}
 
 ![icon_media_center.png](assets/icon_media_center.png)
 
-Das Medien Center ist eine **zentrale Sammelstelle** für unterschiedlicher Medientypen. 
+Das Media Center ist eine **zentrale Sammelstelle** für unterschiedlicher Medientypen. 
 
 Medien können...
 
-* ... direkt im Medien Center erstellt werden 
-* ... in verschiedenen Kursbausteinen erstellt und dann im Medien Center abgelegt werden
+* ... direkt im Media Center erstellt werden 
+* ... in verschiedenen Kursbausteinen erstellt und dann im Media Center abgelegt werden
 * ... extern erstellt und als Datei hochgeladen werden
 * ... kursübergreifend verwendet werden
 * ... an andere Personen freigegeben (geteilt)  und gemeinsam genutzt werden
@@ -24,7 +24,7 @@ Medien können...
 
 ## Zugang
 
-Das Medien Center ist zunächst ein individueller, persönlicher Bereich und deshalb auch im **persönlichen Menü** zu finden.
+Das Media Center ist zunächst ein individueller, persönlicher Bereich und deshalb auch im **persönlichen Menü** zu finden.
 
 ![media_center_pers_menu1_v1_de.png](assets/media_center_pers_menu1_v1_de.png){ class=" shadow lightbox" }
 
@@ -34,7 +34,7 @@ Auch wenn es sich um persönliche Medien handelt können diese mit anderen Perso
 
 ## Medientypen
 
-Im Medien Center können vielfältige **Dateiformate** und **Inhaltselemente** abgelegt und verwaltet werden. Hierzu gehören:  
+Im Media Center können vielfältige **Dateiformate** und **Inhaltselemente** abgelegt und verwaltet werden. Hierzu gehören:  
 
 * Bilder (png, jpg, ...)
 * Video-Dateien (mp4)
@@ -50,19 +50,19 @@ Im Medien Center können vielfältige **Dateiformate** und **Inhaltselemente** a
 * Wiki-Seiten
 * Leistungsnachweise aus Kursen
 
-## Medien dem Medien Center hinzufügen
+## Medien dem Media Center hinzufügen
 
 ![media_center_upload_v1_de.png](assets/Medien-Center_hinzufuegen.jpg){ class=" shadow lightbox" } 
 
-Um Medien im Medien Center zu hinterlegen gibt es verschiedene Wege: 
+Um Medien im Media Center zu hinterlegen gibt es verschiedene Wege: 
 
-### Existierende Medien direkt im Medien Center hochladen bzw. verlinken
+### Existierende Medien direkt im Media Center hochladen bzw. verlinken
 
 * **Mediendateien hinzufügen:** Bilder, Videos, pdf, Excel, usw. hochladen
 * **Video per URL hinzufügen**: Videos aus externen Portalen wie YouTube, Vimeo, Panopto oder nanoo.tv können einfach per Link hinzugefügt werden. 
 * **Zitat hinzufügen:** Hier können Zitate aus Büchern, Artikeln, Webseiten, Filmen u.ä. in Textform hinterlegt und mit Metadaten wie Quelle, Autor, URL usw. versehen werden. So können Zitate an mehreren Stellen in OpenOlat eingefügt werden, ohne immer wieder die gesamte Quelle eintragen zu müssen. Achten Sie aber darauf, alle Angaben sorgfältig und umfassend vorzunehmen.
 
-### Neue Medien direkt im Medien Center erstellen
+### Neue Medien direkt im Media Center erstellen
 
 * **Dokument erstellen:** Dokumente integrierter Editoren, z.B. Word, Excel, PowerPoint
 * **draw.io Diagramm erstellen**: Erstellt ein Diagramm, Flowchart bzw. eine Zeichnung mit dem Tool draw.io, ab :octicons-tag-24: Release 18.1. 
@@ -70,15 +70,15 @@ Um Medien im Medien Center zu hinterlegen gibt es verschiedene Wege:
 * **Video aufzeichnen:** In OpenOlat integrierte Video-Recording-Funktion. Klickt man auf "Video aufzeichnen" wird direkt die Aufnahmefunktion für die Webcam gestartet, sofern man im Browser den Zugriff auf die Kamera erlaubt.
 * **Audio aufzeichnen:** In OpenOlat integrierte Audio-Recording-Funktion. Klickt man auf "Audio aufzeichnen" wird die Aufnahmefunktion gestartet, sofern im Browser der Zugriff erlaubt wurde.
 
-### Neue Medien jenseits des Medien Centers im Content Editor erstellen
+### Neue Medien jenseits des Media Centers im Content Editor erstellen
 
-Medien für das Medien Center können auch im OpenOlat Kurs oder im Portfolio per [Content Editor](../basic_concepts/Content_Editor.de.md) angelegt werden. Im Kurs geht das z.B. über den Kursbaustein ["Seite"](../learningresources/Course_Element_Page.de.md). Gehen Sie in den Bearbeitungsmodus und wählen Sie "Inhalt hinzufügen" aus. Es erscheint u.a. ein Button zum "Medien Center".  Klicken Sie auf den Button und sie gelangen zum Medien Center mit allen entsprechenden Möglichkeiten. 
+Medien für das Media Center können auch im OpenOlat Kurs oder im Portfolio per [Content Editor](../basic_concepts/Content_Editor.de.md) angelegt werden. Im Kurs geht das z.B. über den Kursbaustein ["Seite"](../learningresources/Course_Element_Page.de.md). Gehen Sie in den Bearbeitungsmodus und wählen Sie "Inhalt hinzufügen" aus. Es erscheint u.a. ein Button zum "Media Center".  Klicken Sie auf den Button und Sie gelangen zum Media Center mit allen entsprechenden Möglichkeiten. 
 
 ![Medium auswählen aus dem Mediencenter2](assets/Medien_center_wahlen.jpg){ class=" shadow lightbox" }
 
-### Inhaltselemente sammeln und mit dem Medien Center verknüpfen
+### Inhaltselemente sammeln und mit dem Media Center verknüpfen
 
-Neben der Erstellung oder dem Upload von Medien im Medien Center können Medien auch an anderen Stellen in OpenOlat _gesammelt_ und mit dem Medien Center per Klick auf das Puzzleteil verknüpft werden. 
+Neben der Erstellung oder dem Upload von Medien im Media Center können Medien auch an anderen Stellen in OpenOlat _gesammelt_ und mit dem Media Center per Klick auf das Puzzleteil verknüpft werden. 
 
 Zu den Elementen gehören:
 
@@ -91,7 +91,7 @@ Um z.B. ein Posting hinzuzufügen, öffnen Sie Ihren Forumsbeitrag und klicken a
 
 ![forumseintrag sammeln](assets/Puzzle_Sammlung.jpg){ class=" shadow lightbox" }
 
-Es erscheint eine Seite, auf der Sie wie üblich Metadaten hinterlegen und alles speichern können. Anschliessend ist der Beitrag in Ihrem Medien Center verlinkt verfügbar.
+Es erscheint eine Seite, auf der Sie wie üblich Metadaten hinterlegen und alles speichern können. Anschliessend ist der Beitrag in Ihrem Media Center verlinkt verfügbar.
 
 !!! info "Wichtig"
 
@@ -145,7 +145,7 @@ Einzelne Dateien können Sie auch im 3-Punkte-Menü löschen, wenn Sie ein einze
 
 ### Quota
 
-Der im Medien Center verfügbare Speicherplatz kann vom OpenOlat Administrator eingeschränkt werden. Wieviel Speicher Ihnen genau zur Verfügung steht und wieviel Sie schon verbraucht haben, sehen Sie links unten.
+Der im Media Center verfügbare Speicherplatz kann vom OpenOlat Administrator eingeschränkt werden. Wieviel Speicher Ihnen genau zur Verfügung steht und wieviel Sie schon verbraucht haben, sehen Sie links unten.
 
 ![media_center_quota_v1_de.png](assets/media_center_quota_v1_de.png){ class=" shadow lightbox" }
 
@@ -153,13 +153,13 @@ In der Regel haben Autor:innen einen höheren Speicherplatzbedarf, daher werden 
 
 ## Medien verwenden
 
-Und wie können die Medien, die sich im Medien Center befinden weiterverwendet werden? Die Dateien, Dokumente und Sammlungen können z.B. im Content Editor im Kursbaustein ["Seite"](../learningresources/Course_Element_Page.de.md) oder im [Portfolio](../area_modules/Portfolio.de.md) verwendet werden. 
+Und wie können die Medien, die sich im Media Center befinden weiterverwendet werden? Die Dateien, Dokumente und Sammlungen können z.B. im Content Editor im Kursbaustein ["Seite"](../learningresources/Course_Element_Page.de.md) oder im [Portfolio](../area_modules/Portfolio.de.md) verwendet werden. 
 
 ![media_center_page_v1_de.png](assets/media_center_page_v1_de.png){ class=" shadow lightbox" }
 
 Die **Filterfunktionen** helfen, die gesuchten Medien schnell zu finden. Suchen oder filtern Sie nach ...
 
-![Medien Center Filtrfunktion](assets/Medien_center_Filterfunktion.png){ class=" shadow lightbox" }
+![Medien Center Filterfunktion](assets/Medien_center_Filterfunktion.png){ class=" shadow lightbox" }
 
 !!! note "Hinweis"
 

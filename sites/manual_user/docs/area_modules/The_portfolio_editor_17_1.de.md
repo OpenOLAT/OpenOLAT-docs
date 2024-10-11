@@ -52,11 +52,11 @@ Element zum Einfügen von Programmiercode. Der Inhalt wird als Code angezeigt un
 
 ### Zitat
 
-Hier können Sie neue Zitate erstellen (Zitat hinzufügen) oder auf bereits im Medien Center hinterlegte Zitate zurückgreifen und diese einbinden. Einem neuen Zitat können diverse Informationen hinzugefügt werden z.B. Quelle, Sprache, Autor, URL.
+Hier können Sie neue Zitate erstellen (Zitat hinzufügen) oder auf bereits im Media Center hinterlegte Zitate zurückgreifen und diese einbinden. Einem neuen Zitat können diverse Informationen hinzugefügt werden z.B. Quelle, Sprache, Autor, URL.
 
 ### Bild
 
-Fügen Sie Bildelemente hinzu indem Sie eine Grafikdatei hochladen oder auf eine Grafik Ihres Medien Centers zugreifen. Anschliessend können Sie die Datei weiter konfigurieren, z.B. einen Titel oder Untertitel platzieren und auch die Größe, Platzierung oder Umrandung definieren. Nutzen Sie hierfür das Inspektor Menü.
+Fügen Sie Bildelemente hinzu indem Sie eine Grafikdatei hochladen oder auf eine Grafik Ihres Media Centers zugreifen. Anschliessend können Sie die Datei weiter konfigurieren, z.B. einen Titel oder Untertitel platzieren und auch die Größe, Platzierung oder Umrandung definieren. Nutzen Sie hierfür das Inspektor Menü.
 
 !!! "Tipp"
 
@@ -64,13 +64,13 @@ Fügen Sie Bildelemente hinzu indem Sie eine Grafikdatei hochladen oder auf eine
 
 ### Galerie
 
-Neu ab :octicons-tag-24: Release 19 ist die Möglichkeit eine Bildergalerie hinzuzufügen. Mit Klick auf den Button "Hinzufügen" gelangt man in das Medien Center und kann dort mehrere Bilder auswählen. Die Art der Anzeige als Vorschau, Raster oder Slideshow kann im Inspector definiert werden. Das Beispiel zeigt eine Galerie mit Vorschau aus der User-Perspektive
+Neu ab :octicons-tag-24: Release 19 ist die Möglichkeit eine Bildergalerie hinzuzufügen. Mit Klick auf den Button "Hinzufügen" gelangt man in das Media Center und kann dort mehrere Bilder auswählen. Die Art der Anzeige als Vorschau, Raster oder Slideshow kann im Inspector definiert werden. Das Beispiel zeigt eine Galerie mit Vorschau aus der User-Perspektive
 
 ![Inhaltselement Galerie](assets/Editor_Galerie_Portfolio.png){ class="lightbox" }
 
 
 ### Bildvergleich
-Neu ab :octicons-tag-24: Release 19 ist das Inhaltselement "Bildvergleich". Hierbei können 2 Bilder aus dem Medien Center ausgewählt und nebeneinandergestellt werden, z.B. zwei Versionen desselben Bildes. 
+Neu ab :octicons-tag-24: Release 19 ist das Inhaltselement "Bildvergleich". Hierbei können 2 Bilder aus dem Media Center ausgewählt und nebeneinandergestellt werden, z.B. zwei Versionen desselben Bildes. 
 Die Auswahl der Bilder erfolgt über das Inspektor Menü. Neben den Standard Typ kann der Bildvergleich auch für die Gegenüberstellung von einem richtigen und einem falschen Bild verwendet werden. 
 
 ![Inhaltselement Bildvergleich](assets/Editor_Bildervergleich_Portfolio.png){ class="lightbox" }
@@ -85,7 +85,7 @@ Sie haben folgende Möglichkeiten ein Video in den Editor zu laden und bereitzus
 * Video hinzufügen: Eine mp4 Videodatei hochladen
 * Video per URL hinzufügen
 * Video aufnehmen: Eine Videoaufnahme mit der Webcam erstellen
-* Eine Video Datei, die sich im Medien Center befindet auswählen und hinzufügen. 
+* Eine Video Datei, die sich im Media Center befindet auswählen und hinzufügen. 
 ![Inhalt hinzufügen Video Portfolio](assets/Video_Portfolio_Editor19.png){ class="lightbox" }
 
 ### Audio
@@ -93,7 +93,7 @@ Sie haben folgende Möglichkeiten ein Audio in den Editor zu laden und bereitzus
 
 * Nutzen Sie den integrierten Audio-Editor und erstellen Sie eine Tonaufnahme (Audio aufzeichnen)
 * Laden Sie eine Audiodatei hoch (Audio hinzufügen)
-* Verbinden Sie eine Audiodatei aus Ihrem Medien Center (Auswahl aus der Liste).
+* Verbinden Sie eine Audiodatei aus Ihrem Media Center (Auswahl aus der Liste).
 ![Inhalt hinzufügen Audio ePortfolio](assets/Audio_Portfolio_19.jpg){ class="lightbox" }
 
 ### Dokument
@@ -102,7 +102,7 @@ Sie haben folgende Möglichkeiten ein Dokument in den Editor zu laden und bereit
 
 * Erstellen Sie ein neues Dokument, entsprechend der angegebenen Dateitypen (Dokument erstellen)
 * Laden Sie ein neues Dokument hoch (Dokument hinzufügen) oder 
-* Verbinden Sie ein Dokument aus Ihrem Medien Center (Auswahl aus der Liste).
+* Verbinden Sie ein Dokument aus Ihrem Media Center (Auswahl aus der Liste).
 
 Ist ein externer Dokumenteneditor aktiviert und liegen die Dateien in einem Format vor, das von diesem unterstützt wird, können die Dateien auch direkt online in OpenOlat weiterbearbeitet werden.
 
@@ -112,7 +112,7 @@ Ist ein externer Dokumenteneditor aktiviert und liegen die Dateien in einem Form
 
 ###  Diagramm 
 
-Sie können ein neues draw.io Diagramm anlegen oder Sie fügen ein existierendes draw.io Diagramm aus Ihrem Medien Center hinzu. Die konkrete Ausgestaltung des Diagramms erfolgt über den Klick auf den "Bearbeiten" Link im Eintrag.  
+Sie können ein neues draw.io Diagramm anlegen oder Sie fügen ein existierendes draw.io Diagramm aus Ihrem Media Center hinzu. Die konkrete Ausgestaltung des Diagramms erfolgt über den Klick auf den "Bearbeiten" Link im Eintrag.  
 
 ![Inhaltselement Diagramm](assets/Editor_Diagramm_Portfolio.png){ class="lightbox" }
 
@@ -135,9 +135,9 @@ Interessant ist auch die Möglichkeit den Inhaltselementen eine Hinweis-Box hinz
 Hierüber können einzelne Inhaltselemente hervorgehoben und z.B. als Info, Tipp, Wichtig usw. gekennzeichnet werden. Auch die Vergabe eines eigenen Titels ist möglich. Darüber hinaus können die Hinweis-Boxen noch mit einem Icon versehen und definiert werden ob die Hinweis-Box einklappbar ist oder nicht. Bei benutzerdefinierten Hinweis-Typen kann auch ein Icon aus der Liste gewählt und die Farbe angepasst werden. Bei vordefinierten Typen sind diese Dinge vordefiniert.   
 
 
-### Medien Center
+### Media Center
 
-Anstatt ein spezielles Inhaltselement zu wählen können Sie auch direkt in ihr [Medien Center](../personal_menu/Media_Center.de.md) wechseln und dort hinterlegte Elemente auswählen oder Mediendateien hochladen bzw. hinzufügen. 
+Anstatt ein spezielles Inhaltselement zu wählen können Sie auch direkt in ihr [Media Center](../personal_menu/Media_Center.de.md) wechseln und dort hinterlegte Elemente auswählen oder Mediendateien hochladen bzw. hinzufügen. 
 
  Die Such- und Filteroptionen helfen, die gewünschte Datei(en) schnell zu finden.
 ![Titel ePortfolio](assets/Medien_Center_Portfolio.png){ class="lightbox" }

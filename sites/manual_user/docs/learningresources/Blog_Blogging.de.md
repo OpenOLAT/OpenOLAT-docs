@@ -13,7 +13,7 @@ Ist in einem veröffentlichten Kurs ein Blog enthalten, können Betreuer:innen u
     * [Beiträge bewerten](#blog_blogging_assess_posts)
     * [einen Blog moderieren](#blog_blogging_moderate)
     * [Beiträge abonnieren](#blog_blogging_abo)
-    * [Beiträge im Medien Center ablegen](#blog_blogging_media_center)
+    * [Beiträge im Media Center ablegen](#blog_blogging_media_center)
 
 
 
@@ -112,9 +112,9 @@ Möchten Sie den direkten Link zu einem einzelnen Beitrag weitergeben, können S
 [zum Seitenanfang ^](#blog_blogging)
 
 
-## Beiträge im Medien Center ablegen {: #blog_blogging_media_center}
+## Beiträge im Media Center ablegen {: #blog_blogging_media_center}
 
-Als Ersteller:in können Sie Ihre Blogbeiträge auch im Medien Center ablegen. An den Beiträgen, zu denen Sie dieses Recht haben, wird ein entsprechender Button angezeigt.
+Als Ersteller:in können Sie Ihre Blogbeiträge auch im Media Center ablegen. An den Beiträgen, zu denen Sie dieses Recht haben, wird ein entsprechender Button angezeigt.
 
 [zum Seitenanfang ^](#blog_blogging)
 

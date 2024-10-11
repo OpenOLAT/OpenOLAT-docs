@@ -122,7 +122,7 @@ Innerhalb der Lernressource "Formular" gibt es ein eigenes Element, das im Formu
 In OpenOlat sind an einigen Stellen externe Werkzeuge eingebunden (meistens ebenfalls OpenSource, aber nicht von Frentix entwickelt), für die ebenfalls vor Benutzung die Bedingungen akzeptiert werden müssen.
 
 Beispiel **draw.io**<br>
-    draw.io ist ein Online-Werkzeug zur Erstellung von Diagrammen, das in OpenOlat in vielen Stellen eingesetzt werden kann, z.B. in Projekten, im Portfolio, im Kursbaustein "Datei", im Medien Center bzw. an vielen Stellen an denen neue Dokumente erstellt werden können. In draw.io können auch mehrere Personen kooperativ an einem Diagramm arbeiten. 
+    draw.io ist ein Online-Werkzeug zur Erstellung von Diagrammen, das in OpenOlat in vielen Stellen eingesetzt werden kann, z.B. in Projekten, im Portfolio, im Kursbaustein "Datei", im Media Center bzw. an vielen Stellen an denen neue Dokumente erstellt werden können. In draw.io können auch mehrere Personen kooperativ an einem Diagramm arbeiten. 
 
 [Zum Seitenanfang ^](#terms_of_use)
 

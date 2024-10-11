@@ -11,7 +11,7 @@
   * Livestream
   * [Taxonomie](Modules_Taxonomy.de.md)
   * Semesterdaten
-  * [Medien Center](Modules_Media_Center.de.md)
+  * [Media Center](Modules_Media_Center.de.md)
   * Datenschutz
   * Buchungen
   * Gruppen
@@ -88,11 +88,11 @@ Durchführungszeitraumes eines Kurses in der Lernressourcenverwaltung verwendet
 werden. Als Bezeichnung könnten z.B. "SoSe23" und als Name "Sommersemester
 2023" verwendet werden.
 
-## Medien Center
+## Media Center
 
-Hier kann definiert ob bzw. welche Taxonomie mit dem Medien Center verbunden werden sollen.
+Hier kann definiert ob bzw. welche Taxonomie mit dem Media Center verbunden werden sollen.
 
-Siehe [Medien Center](Modules_Media_Center.de.md)
+Siehe [Media Center](Modules_Media_Center.de.md)
 
 ## Datenschutz
 

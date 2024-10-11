@@ -55,7 +55,7 @@ Folgende Möglichkeiten stehen Kursbesitzer:innen und Personen mit der entsprech
 
 **Dateien hochladen:** Wählen Sie eine Datei von Ihrer Festplatte aus. Klicken Sie auf den kleinen Pfeil nach unten, um zusätzliche Optionen zu sehen (vergl. Screenshot "Dateien hochladen):
 
- * **Aus File Hub hinzufügen:** Greifen Sie auf den [File Hub](../personal_menu/File_Hub.de.md) sowie auf Ihre Ordner und Dateien zu. Sie können auch auf Ihr [Medien Center](../personal_menu/Media_Center.de.md) zugreifen und Dateien direkt in den File Hub hochladen.
+ * **Aus File Hub hinzufügen:** Greifen Sie auf den [File Hub](../personal_menu/File_Hub.de.md) sowie auf Ihre Ordner und Dateien zu. Sie können auch auf Ihr [Media Center](../personal_menu/Media_Center.de.md) zugreifen und Dateien direkt in den File Hub hochladen.
   
 * **Dokument erstellen:** Je nach aktivierten Editoren (z.B. Word, Excel, PowerPoint, Diagramme, Whiteboard, Text, HTML, CSS, XML) können Sie hier neue Dokumente erstellen und diese mit einer Beschreibung, Lizenz und weiteren Metadaten versehen.
   

@@ -16,10 +16,10 @@
 
 ## Wo können in OpenOlat Audios aufgenommen werden?
 
-### Aufnahme im Medien Center
+### Aufnahme im Media Center
  
 Öffnen Sie das **persönliche Menü** durch Klick auf das kleine Bild oder Dreieck rechts oben.
-Öffnen Sie darin dann das Medien Center.
+Öffnen Sie darin dann das Media Center.
 
 Unter den Möglichkeiten zum Hinzufügen neuer Mediendateien befindet sich auch **"Audio aufzeichnen"**.
 
@@ -53,7 +53,7 @@ Die Möglichkeit zu Videoaufnahmen in einer Aufgabe ist in den Workflow eingebet
 
 ![audio_recording_task_create_solution_v3_de.png](assets/audio_recording_task_create_solution_v3_de.png){ class=" shadow lightbox" }
 
-Für Videoaufnahmen, die im Kursbaustein "Aufgabe" aufgezeichnet werden, besteht aktuell keine Möglichkeit zur Speicherung und Verlinkung im Medien Center.
+Für Videoaufnahmen, die im Kursbaustein "Aufgabe" aufgezeichnet werden, besteht aktuell keine Möglichkeit zur Speicherung und Verlinkung im Media Center.
 
 ### Aufnahme im Kursbaustein Gruppenaufgabe
 
@@ -62,11 +62,11 @@ Die Audioaufnahme im Kursbaustein "Gruppenaufgabe" funktioniert wie im Kursbaust
 ## Wo werden die Audioaufnahmen gespeichert?
 
 **Innerhalb eines Kursbausteins aufgenommene Audios** werden auch bei diesem Kursbaustein gespeichert. 
-Die Aufnahmen sind nicht im Autorenbereich, Ablageordner oder im Medien Center aufgeführt (Ausnahme: Kursbaustein Seite).
+Die Aufnahmen sind nicht im Autorenbereich, Ablageordner oder im Media Center aufgeführt (Ausnahme: Kursbaustein Seite).
 
 ![audio_recording_task_storage_v3_de.png](assets/audio_recording_task_storage_v3_de.png){ class=" shadow lightbox" }
 
-Wird dagegen die **Audioaufnahme im Medien Center** gestartet, wird das Audio auch im Medien Center gespeichert.
+Wird dagegen die **Audioaufnahme im Media Center** gestartet, wird das Audio auch im Media Center gespeichert.
 
 ## In welchem Format und welcher Qualität werden Aufnahmen gespeichert?
 
@@ -80,8 +80,8 @@ Administrator:innen können eine lokale Audio-Konvertierung aktivieren unter<br>
 
 ## Wieviel Speicherplatz steht für meine Audios zur Verfügung?
 
-Bsp.: Medien Center<br>
-In der linken unteren Ecke sehen Sie den verfügbaren Speicherplatz (für das gesamte Medien Center) und wieviel davon bereits belegt ist. Der verfügbare Platz kann von den Administrator:innen bestimmt werden.
+Bsp.: Media Center<br>
+In der linken unteren Ecke sehen Sie den verfügbaren Speicherplatz (für das gesamte Media Center) und wieviel davon bereits belegt ist. Der verfügbare Platz kann von den Administrator:innen bestimmt werden.
 
 ![audio_recording_space_v3_de.png](assets/audio_recording_space_v3_de.png){ class=" shadow lightbox" }
 
@@ -93,9 +93,9 @@ Sowohl Audioaufnahmen aus Aufgabenstellung als auch Audioaufnahmen in der Muster
 
 ![audio_recording_task_download_v3_de.png](assets/audio_recording_task_download_v3_de.png){ class=" shadow lightbox" }
 
-### Download aus dem Medien Center
+### Download aus dem Media Center
 
-Wählen und öffnen Sie im Medien Center das gewünschte Video. Unter dem Button mit den 3 Punkten finden Sie die Option zum Herunterladen. 
+Wählen und öffnen Sie im Media Center das gewünschte Video. Unter dem Button mit den 3 Punkten finden Sie die Option zum Herunterladen. 
 
 ![audio_recording_mediacenter_download_v3_de.png](assets/audio_recording_mediacenter_download_v3_de.png){ class=" shadow lightbox" }
 

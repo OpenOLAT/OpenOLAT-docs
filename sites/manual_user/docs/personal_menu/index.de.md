@@ -32,7 +32,7 @@ Im persönlichen Menü finden Sie die folgenden Abschnitte:
     * [Personensuche](../personal_menu/Other_users.de.md)
     * [Absenzen](../personal_menu/Absences.de.md)
     * [Portfolio 2.0](../personal_menu/Portfolio.de.md)
-    * [Medien Center](../personal_menu/Media_Center.de.md)
+    * [Media Center](../personal_menu/Media_Center.de.md)
     * [To-Dos](../personal_menu/To-Dos.de.md)
     * [E-Mail](../personal_menu/E-Mail.de.md)
 

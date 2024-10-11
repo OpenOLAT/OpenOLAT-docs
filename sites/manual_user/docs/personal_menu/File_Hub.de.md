@@ -17,7 +17,7 @@ Es werden im File Hub aber nur Ordner angezeigt, auf die die eingeloggte Person 
 
 * **Multi-File-Upload** per drag & drop
 * Werden im File Hub Dateien an einen anderen Ort übernommen, werden sie jeweils **kopiert**. <br>
-(Im Unterschied zum [Medien Center](../personal_menu/Media_Center.de.md), dort sollen z.B. Logos, AGBs u.ä. zentral verwaltet, upgedated und allen Autor:innen zur Verfügung gestellt werden. Deshalb werden dort die Dateien verlinkt.)
+(Im Unterschied zum [Media Center](../personal_menu/Media_Center.de.md), dort sollen z.B. Logos, AGBs u.ä. zentral verwaltet, upgedated und allen Autor:innen zur Verfügung gestellt werden. Deshalb werden dort die Dateien verlinkt.)
 * Es werden nur Ordner im File Hub angezeigt, auf die die aktuell eingeloggte Person **Zugriffsberechtigungen** hat.
 
 Siehe auch [File Hub (Basiskonzept)](../basic_concepts/File_Hub_Concept.de.md)
@@ -44,5 +44,5 @@ Die Ansicht des File Hubs können Sie zwischen Kachel- und Listenansicht umschal
 ## Weitere Informationen
 
 [File Hub (Basiskonzept)](../basic_concepts/File_Hub_Concept.de.md)<br>
-[Medien Center](../personal_menu/Media_Center.de.md)<br>
+[Media Center](../personal_menu/Media_Center.de.md)<br>
 
