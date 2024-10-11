@@ -41,3 +41,4 @@
 1. [Mit welchen Massnahmen kann ich den Speicherverbrauch reduzieren?](/de/manual_how-to/reduce_storage_consumption/reduce_storage_consumption)
 2. [Wie manage ich Lebenszyklen von Gruppen, Kursen oder Benutzerkonten?](/de/manual_how-to/lifecycle/lifecycle)
 3. [Wie kann ich eigene CSS für das Kursdesign verwenden?](/de/manual_how-to/css/css)
+4. [Wie verwende ich das Sprachanpassungswerkzeug?](/de/manual_how-to/language_adaption_tool/language_adaption_tool)

@@ -291,6 +291,8 @@ plugins:
           General Information : Allgemeines
           General information on Forms : Allgemeines zu Formularen
           General Information on Tests : Allgemeines zu Tests
+          General information on the search : Allgemeines zur Suche
+          Global search : Globale Suche
           Glossary : Glossar
           GoToMeeting : GoToMeeting
           Grading / Evaluation Scale : Noten / Bewertungskala 
@@ -310,6 +312,8 @@ plugins:
           How do I perform a peer review? : Wie führe ich ein Peer-Review durch?
           How do I proceed when I create a test? : Wie gehe ich vor, wenn ich einen Test erstelle?
           How do I present my courses in the catalog? : Wie zeige ich meine Kurse im Katalog?
+          How do I use course element "selection"? : Wie verwende ich den Kursbaustein "Auswahl"?
+          How do I use the language adaption tool? : Wie verwende ich das Sprachanpassungswerkzeug?
           How-to... : How-to...
           How to customize the course design with CSS : Wie kann ich eigene CSS für das Kursdesign verwenden?
           How to use the same files in several courses : Wie kann ich dieselben Dateien in mehreren Kursen einsetzen?
@@ -343,6 +347,7 @@ plugins:
           Licenses : Lizenzen
           Line manager : Linienvorgesetzte(r)
           Link list : Linkliste
+          Local search : Lokale Suche
           Login : Login
           Login and registration : Login und Registrierung
           Login Concept : Login-Konzept
@@ -444,6 +449,9 @@ plugins:
           Schedule : Terminplan 
           SCORM Learning Content : SCORM-Lerninhalt
           Search : Suchfunktion
+          Search in a course : Suche im Kurs
+          Search in the file hub : Suche im File Hub
+          Search other users : Personensuche
           Security : Sicherheit
           Security levels : Sicherheitsstufen
           Selection : Auswahl

@@ -30,3 +30,4 @@ nav:
     - Reduce storage consumption: "reduce_storage_consumption/reduce_storage_consumption.md"
     - Lifecycle management: "lifecycle/lifecycle.md"
     - How to customize the course design with CSS: "css/css.md"
+    - How do I use the language adaption tool?: "language_adaption_tool/language_adaption_tool.md"
