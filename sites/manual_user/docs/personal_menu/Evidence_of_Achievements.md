@@ -5,50 +5,54 @@
 ![icon_icon_evidence_of_achievements.png](assets/icon_evidence_of_achievements.png)
 
 A performance record is a confirmation that a performance check has been carried out.
-In OpenOlat, evidences of achievement can be issued for
+In OpenOlat, proof of performance can be provided for various assessment course elements, e.g. for completed tests, submitted and assessed tasks, etc. 
 
-* completed tests
-* submitted and evaluated tasks
-* and more
-
-A [PDF certificate](../learningresources/Course_Settings_Assessment.md#course-certificate) can also be issued as confirmation that a course has been attended or that certain course-related activities have been completed. A certificate can also be issued without the use of a transcript of records.
 
 ![pers_menu_evid_of_achiev_list_v1_de.png](assets/pers_menu_evid_of_achiev_list_v1_de.png){ class="shadow lightbox"}
 
+A [PDF certificate](../learningresources/Course_Settings_Assessment.md#course-certificate) can also be issued as confirmation that a course has been attended or that certain course-related activities have been completed. A certificate can also be issued without the use of a transcript of records
 
 ## Who awards certificates of achievement?
 
 The course authors determine in their courses whether OpenOlat should create performance records.
 
+Activation takes place in Administration -> Settings in the [Assessment tab](../learningresources/Course_Settings_Assessment.md). 
 
-## Where can I see the performance records?
 
-Course participants can see their certificates of achievement collectively in their personal menu if they are attending courses with evidences of achievement, have already completed achievements and if these have also been assessed. 
+## Where can I see the the evidence of achievements?
 
-If a [certificate](../learningresources/Course_Settings_Assessment.md#course-certificate) is provided in a course in addition to the transcript of records, you can also view and download this in the individual view of the relevant transcript of records.
+Users can find their certificates of achievement, and if activated also their received [certificates](../learningresources/Course_Settings_Assessment.md#kurs-zertifikat), both in the respective course in which the certificate of achievement or certificate was issued and also collected in the personal tool menu. 
+
+### Evidence of achievement in the personal tools
+
+Die Anzeige im Persönlichen Menü eignet sich um einen schnellen Überblick über alle bereits in OpenOlat erhaltenen, persönlichen Leistungsnachweise und Zertifikate zu erhalten. So kann man schnell zu den einzelnen Leistungsnachweisen und Zertifikaten  navigieren und weitere Informationen erhalten. Aktivieren Sie in der Übersicht alle für Sie relevanten Spalten z.B. Punkte, Bestanden, Zertifikat. 
+
+Aktivieren Sie "ePortfolio" um einen Leistungsnachweis auch in Ihr [Portfolio](../personal_menu/Portfolio.de.md) zu übernehmen. Dabei wird der Leistungsnachweis in einem ersten Schritt in ihr persönliches ["Medien Center"](../personal_menu/Media_Center.de.md) eingefügt und kann von dort aus als Inhaltselement in ein Portfolio eingefügt werden. So können Zusammenstellungen von Leistungsnachweisen für unterschiedliche Zwecke kombiniert und auch bestimmten Personen zugänglich gemacht werden. 
+
+!!! info  "Info"
+
+    Bitte beachten: Leistungsnachweise und Zertifikate werden erst angezeigt, wenn bereits Leistungen erbracht wurden und wenn diese auch bewertet und die Sichtbarkeit für den User freigegeben wurde. Ausgestellte Zertifikate können auch heruntergeladen werden.
+
+**External certificates**
+
+OpenOlat users can also upload externally acquired certificates to OpenOlat to complete their profile. The "Upload certificate" button is located in the personal menu under the "Evidence of achievement" tab (if activated by the administrator).
+
+![pers_menu_evid_of_achiev_cert_upload_v1_de.png](assets/pers_menu_evid_of_achiev_cert_upload_v1_de.png){ class="shadow lightbox"}
+
 
 ## View evidence of achievement in the course
 
-In the course settings (in the "Assessment" tab), authors can activate the option ["Use evidence of achievement"](../learningresources/Course_Settings_Assessment.md).
+Wurde in einem Kurs der Leistungsnachweis aktiviert finden Teilnehmende in der Toolbar unter "Mein Kurs" den Link zu ihrem Leistungsnachweis. Klickt man auf den Link erhält man einen Überblick über die bewertbaren Kursbausteine des Kurses mit ihrem jeweiligen aktuellen Bewertungsstatus.
 
-As a result, the "Evidence of achievement" option appears in the top right-hand corner of the "My course" toolbar. Course participants will find an overview of the assessable course elements of the current course with their current assessment status.
+![Leistungsnachweis im Kurs](../learningresources/assets/Mein_Kurs_menue_19en.jpg)
+
+
 
 !!! info "Note"
 
     The link to the evidence of achievement only appears in the course if at least one assessable course element exists in the course and the course participant has already received at least one assessment. This can be, for example, the attempted solution to a test or the assessment of an assignment.
 
 
-
-## Storage of evidence of achievement
-
-If you as the author:in switch off the "Use evidence of achievement" function, your course participants will no longer see any evidence of achievement. However, the evidence of achievement will not be lost, it will simply no longer be displayed. If you reactivate the evidence of achievement, all current data will be available again. If you delete a course with existing evidence of achievement, users can still view their evidence of achievement in the personal menu.
-
-
-## External certificates
-
-OpenOlat users can also upload externally acquired certificates to OpenOlat to complete their profile. The "Upload certificate" button is located in the personal menu under the "Evidence of achievement" tab (if activated by the administrator).
-
-![pers_menu_evid_of_achiev_cert_upload_v1_de.png](assets/pers_menu_evid_of_achiev_cert_upload_v1_de.png){ class="shadow lightbox"}
 
 ## Further confirmation
 

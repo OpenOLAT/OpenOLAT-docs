@@ -24,9 +24,10 @@ Abhängig von der Konfiguration des Kurses werden eventuell nicht alle Einträge
 
 Ein Leistungsnachweis ist eine Bestätigung einer erfolgten Leistungskontrolle und muss vom Kursbesitzer bzw. der Kursbesitzerin zunächst aktiviert werden. Lernende sehen dann die einzelnen absolvierten Assessmentbausteine des Kurses wie Tests oder Aufgaben, ihre Punkte und weitere Informationen.
 
-![Leistungsnachwei](assets/Leistungsnachweis_19.png)
+![Leistungsnachweis](assets/Leistungsnachweis_19.png)
 
 Falls für den Kurs ein Zertifikat ausgestellt wurde finden Sie dies ebenfalls unter "Leistungsnachweis" zum herunterladen. Betreuende des Kurses können die Zertifikate im [Coaching-Tool](../area_modules/Coaching.de.md) einsehen.
+
 Bei automatisch ausgestellten Zertifikaten nach erfolgreichem Abschluss eines Kurses erhalten Sie eine automatisch generierte Benachrichtigung per E-Mail.
 
 !!! info "Info"
@@ -58,8 +59,9 @@ Standardmässig ist die [Kursinfo](../learningresources/Info_page.de.md) in der 
 
 Hier ein **Schnellüberblick** über die ja nach Aktivierung durch die Kursbesitzer:innen zur Verfügung stehenden Werkzeuge der Toolbar. 
 
-* Kalender: Zugriff auf den kursspezifischen Kalender
-* Teilnehmerliste: Übersicht der Kursmitglieder
+* Kurssuche: Durchsuchen Sie den Kurs nach Schlüsselbegriffen
+* Kurskalender: Zugriff auf den kursspezifischen Kalender
+* Liste der Teilnehmenden: Übersicht der Kursmitglieder
 * Mitteilungen: Hier kann der Lehrende zentrale Kursinfos hinterlegen.
 * E-Mail: Kontaktmöglichkeit zu den Kursbesitzer:innen, Betreuer:innen 
 * BigBlueButton (oder andere virtuelle Klassenzimmer): Für synchrone Meetings
@@ -67,9 +69,10 @@ Hier ein **Schnellüberblick** über die ja nach Aktivierung durch die Kursbesit
 * Wiki: Zugriff auf ein zentrales Wiki für den Kurs
 * Forum: Zugriff auf ein zentrales Kurs-Forum
 * Dokumente: Zugriff auf einen zentralen Dokumenten Ordner
-* Glossar: Zugriff auf das Glossar des Kurses
+* Glossar: Zugriff auf das Glossar des Kurses, sofern ein Glossar mit dem Kurs verbunden wurde
 * [Kurs-Chat](../basic_concepts/Chat.de.md): Für den synchronen Austausch der Kurs-Mitglieder
-* Kurssuche: Durchsuchen Sie den Kurs nach Schlüsselbegriffen
+
+
 
 ### Kurskalender
 
