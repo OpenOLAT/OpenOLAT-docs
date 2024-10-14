@@ -67,7 +67,8 @@ A certificate of achievement is a confirmation of a completed performance assess
 
 Certificates are a special form of proof of performance.
 
-Find out [more >](Evidence_of_Achievements.md)
+Find out [more >](Evidence_of_Achievements.md)<br>
+[For more details on **certificates** >](../learningresources/Course_Settings_Assessment.md#certificate)<br>
 
 ## Competences
 

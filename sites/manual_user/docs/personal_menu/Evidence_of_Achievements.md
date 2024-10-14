@@ -10,7 +10,7 @@ In OpenOlat, proof of performance can be provided for various assessment course 
 
 ![pers_menu_evid_of_achiev_list_v1_de.png](assets/pers_menu_evid_of_achiev_list_v1_de.png){ class="shadow lightbox"}
 
-A [PDF certificate](../learningresources/Course_Settings_Assessment.md#course-certificate) can also be issued as confirmation that a course has been attended or that certain course-related activities have been completed. A certificate can also be issued without the use of a transcript of records
+A [PDF certificate](../learningresources/Course_Settings_Assessment.md#certificate) can also be issued as confirmation that a course has been attended or that certain course-related activities have been completed. A certificate can also be issued without the use of a transcript of records
 
 ## Who awards certificates of achievement?
 
@@ -21,7 +21,7 @@ Activation takes place in Administration -> Settings in the [Assessment tab](../
 
 ## Where can I see the the evidence of achievements?
 
-Users can find their certificates of achievement, and if activated also their received [certificates](../learningresources/Course_Settings_Assessment.md#kurs-zertifikat), both in the respective course in which the certificate of achievement or certificate was issued and also collected in the personal tool menu. 
+Users can find their certificates of achievement, and if activated also their received [certificates](../learningresources/Course_Settings_Assessment.md#certificate), both in the respective course in which the certificate of achievement or certificate was issued and also collected in the personal tool menu. 
 
 ### Evidence of achievement in the personal tools
 
@@ -56,8 +56,8 @@ Wurde in einem Kurs der Leistungsnachweis aktiviert finden Teilnehmende in der T
 
 ## Further confirmation
 
-[Certificates of achievements](../learningresources/Course_Settings_Assessment.md#evidences-of-achievement)<br>
-[Certificates](../learningresources/Course_Settings_Assessment.md#course-certificate)<br>
+[Certificates of achievements](../learningresources/Course_Settings_Assessment.md#evidence_of_achievement)<br>
+[Certificates](../learningresources/Course_Settings_Assessment.md#certificate)<br>
 [Bewertungssysteme in OpenOlat: Noten](../../manual_admin/administration/Assessment_translate_points_in_grades_admin.md)<br>
 [Badges in den persönlichen Werkzeugen](OpenBadges.md)<br>
 [Badges im Bewertungswerkzeug](../learningresources/OpenBadges.md)<br>

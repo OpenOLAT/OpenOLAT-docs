@@ -72,7 +72,8 @@ Ein Leistungsnachweis ist eine Bestätigung einer erfolgten Leistungskontrolle u
 
 Eine besondere Form von Leistungsnachweis sind Zertifikate.
 
-[Zu den Details >](Evidence_of_Achievements.de.md)
+[Zu den Details >](Evidence_of_Achievements.de.md)<br>
+[Zu den Details der **Zertifikate** >](../learningresources/Course_Settings_Assessment.de.md#certificate)
 
 
 ## Kompetenzen

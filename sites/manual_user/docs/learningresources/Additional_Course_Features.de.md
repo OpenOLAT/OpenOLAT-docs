@@ -11,7 +11,7 @@ Das Dropdown-Menü "Mein Kurs" bietet Zugriff auf personalisierte Bestandteile d
 
 Abhängig von der Konfiguration des Kurses werden eventuell nicht alle Einträge angezeigt.
 
-* **Der Leistungsnachweis** zeigt Ihre Bewertungen im Kurs an und gibt, sofern aktiviert, Zugriff auf das Zertifikat des Kurses.
+* **Der Leistungsnachweis** zeigt Ihre Bewertungen im Kurs an und gibt, sofern aktiviert, Zugriff auf das [Zertifikat](../learningresources/Course_Settings_Assessment.de.md#certificate) des Kurses.
 * **To-dos**: Zeigt die aktuellen To-dos des Kurses an. 
 * **Notizen**: Hier können Sie kursspezifische Notizen eintragen, die nur Sie als Kursteilnehmer:in lesen können.
 * **Bookmark**: Aktivieren Sie den Bookmark, dann erscheinen diese Kurse im Menü "Kurse" im Tab "Favoriten".
@@ -26,7 +26,7 @@ Ein Leistungsnachweis ist eine Bestätigung einer erfolgten Leistungskontrolle u
 
 ![Leistungsnachweis](assets/Leistungsnachweis_19.png)
 
-Falls für den Kurs ein Zertifikat ausgestellt wurde finden Sie dies ebenfalls unter "Leistungsnachweis" zum herunterladen. Betreuende des Kurses können die Zertifikate im [Coaching-Tool](../area_modules/Coaching.de.md) einsehen.
+Falls für den Kurs ein [Zertifikat](../learningresources/Course_Settings_Assessment.de.md#certificate) ausgestellt wurde finden Sie dies ebenfalls unter "Leistungsnachweis" zum Herunterladen. Betreuende des Kurses können die Zertifikate im [Coaching-Tool](../area_modules/Coaching.de.md) einsehen.
 
 Bei automatisch ausgestellten Zertifikaten nach erfolgreichem Abschluss eines Kurses erhalten Sie eine automatisch generierte Benachrichtigung per E-Mail.
 

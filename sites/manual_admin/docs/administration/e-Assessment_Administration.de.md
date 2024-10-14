@@ -20,6 +20,9 @@ Instanz grundsätzlich aktivieren und nach Prüfungen suchen.
 
 Hier kann eine E-Mail Adresse hinterlegt werden an die Kopien der erstellten Zertifikate geschickt werden. Auch sind Kopien an Linienvorgesetze möglich.  Der Upload externer Zertifikate kann ebenfalls hier freigeschaltet werden. Zusätzlich ist diese Funktion auch für Benutzerverwalter, Linienvorgesetzte derselben Organisation oder für verantwortliche Personen, die über eine Benutzer-zu-Benutzer-Beziehungen verbunden sind, verfügbar und kann jeweils separat konfiguriert werden.
 
+[Zu den Details der Zertifikate >](../../manual_user/learningresources/Course_Settings_Assessment.de.md#certificate)<br>
+[Zu den Details der Rezertifizierung>](../../manual_user/learningresources/Course_Settings_Assessment.de.md#recertification)<br>
+
 ## Korrektur
 
 Hier kann der Korrektur Workflow für externe Korrektoren mit Zugriff über das

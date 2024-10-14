@@ -15,3 +15,5 @@ for a specific date or a specific course. After the search, the matching
 report can be downloaded. This gives an overview of all people who have passed
 the certificate for the respective search criteria.
 
+[For more details on certificates >](../../manual_user/learningresources/Course_Settings_Assessment.md#certificate)<br>
+[For more details on recertification>](../../manual_user/learningresources/Course_Settings_Assessment.md#recertification)<br>

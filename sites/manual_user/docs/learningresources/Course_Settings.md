@@ -185,6 +185,8 @@ In the Assessment tab, you can make settings for
 
 
 [For more details >](../learningresources/Course_Settings_Assessment.md)<br>
+[For more details on **certificates** >](../learningresources/Course_Settings_Assessment.md#certificate)<br>
+[For more details on **recertification** >](../learningresources/Course_Settings_Assessment.md#recertification)<br>
 [To the top of the page ^](#course_settings)
 
 ## Tab Options {: #options}

@@ -12,7 +12,7 @@ The drop down menu "My course" provides access to personalized course functions.
 Depending on the course configuration, it is possible that not all
 options are available.  
 
- * **Evidence of achievement** displays your assessments in the course in table form and, if activated, gives access to the certificate of the course.*
+ * **Evidence of achievement** displays your assessments in the course in table form and, if activated, gives access to the [certificate](../learningresources/Course_Settings_Assessment.md#certificate) of the course.*
  * **To-dos**: Displays the current to-dos of the course. 
   * **Notes**: Here you can enter course-specific notes that only you as a course participant can read. 
   * **Bookmark**: Bookmarked courses can be found in the "Courses" section in the "Favourites" tab.
@@ -27,7 +27,7 @@ An evidence of achievement is a confirmation of an existing efficiency control, 
 
 ![evidence of achievement](assets/evidence_of_achievement_19.jpg)
 
-If a certificate has been issued for this course, you will find it alongside the evidence of achievement details, ready for download. Coaches can view the certificates in the [Coaching-Tool](../area_modules/Coaching.md).
+If a [certificate](../learningresources/Course_Settings_Assessment.md#certificate) has been issued for this course, you will find it alongside the evidence of achievement details, ready for download. Coaches can view the certificates in the [Coaching-Tool](../area_modules/Coaching.md).
 
 Once a certificate is automatically issued after successfully completing a course, you will receive an automatically generated email notification.
 

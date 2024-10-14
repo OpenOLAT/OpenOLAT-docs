@@ -1,11 +1,14 @@
-# Course Settings - Tab Assessment {: #assessment}
+# Course Settings - Tab Assessment {: #tab_assessment}
 
 In learning path courses, the settings for the **assessment method** and the **pass** of the course are defined in this tab.<br>
 You can also activate the use of **credentials** and the awarding of **certificates** and **badges**. 
 
 ![course_settings_assessment_v2_de.png](assets/course_settings_assessment_v2_de.png){ class="shadow lightbox" }
 
-## Course assessment with points (only for learning path courses)
+
+
+
+## Course assessment with points (only for learning path courses) {: #evaluation_with_points}
 
 There are 3 options for the course evaluation with points:
 
@@ -14,14 +17,14 @@ There are 3 options for the course evaluation with points:
 * Average
 
 
-### Course evaluation with points: Sum
+### Course evaluation with points: Sum {: #evaluation_with_points_sum}
 
 The sum of all points achieved in the course is calculated.
 
 ![course_settings_assessment_points_sum_v1_de.png](assets/course_settings_assessment_points_sum_v1_de.png){ class="shadow lightbox" }
 
 
-### Course evaluation with points: Sum with weighting
+### Course evaluation with points: Sum with weighting {: #evaluation_with_points_weighting}
 
 The weighting is taken into account when calculating the sum.
 
@@ -36,7 +39,8 @@ In the **Course configuration overview**, the scaling for all assessable modules
 The weighted score is displayed to coaches in the assessment form. For participants, the weighted score is visible in the performance overview of the respective assessable module and in the performance record.
 
 
-### Course evaluation with points: Average
+
+### Course evaluation with points: Average {: #evaluation_with_points_average}
 
 ![course_settings_assessment_points_sum_average_v1_de.png](assets/course_settings_assessment_points_sum_average_v1_de.png){ class="shadow lightbox" }
 
@@ -45,10 +49,10 @@ The weighted score is displayed to coaches in the assessment form. For participa
     The "Highscore" tab of the top course element can only be configured in the course editor if **Total** or **average** has been selected under "Course assessment with points".
 
 
-[To the top of the page ^](#course-settings---tab-assessment--assessment)
+[To the top of the page ^](#tab_assessment)
 
 
-### Course assessment with "Passed/Failed"
+### Course assessment with "Passed/Failed" {: #evaluation_passed_failed}
 
 A learning path course can be considered passed as soon as one of the criteria is met:
 
@@ -70,12 +74,10 @@ A learning path course can be considered passed as soon as one of the criteria i
     When calculating "**passed**" and **points**, **mandatory and voluntary**, course elements count.
 
 
-[To the top of the page ^](#course-settings---tab-assessment--assessment)
+[To the top of the page ^](#tab_assessment)
 
 
-
-
-### Assessment by coaches
+### Assessment by coaches {: #assessment_by_coach}
 
 Coaches may be permitted ...
 
@@ -100,10 +102,10 @@ Coaches may be permitted ...
     ![course_settings_assessment_points_percentage_v1_de](assets/course_settings_assessment_points_percentage_v1_de.png){ class="shadow lightbox" }
 
 
-[To the top of the page ^](#course-settings---tab-assessment--assessment)
+[To the top of the page ^](#tab_assessment)
 
 
-## Evidences of achievement
+## Evidences of achievement {: #evidence_of_achievements}
 
 If you activate the option "Use evidences of achievement", the option "Evidence of achievement" appears in the course in the toolbar menu ["My course"](../learningresources/Additional_Course_Features.md) and the course participants see an overview of the assessable course elements with their current assessment status.
 
@@ -111,10 +113,10 @@ The link to the performance record only appears in the course if at least one as
 
 If you deactivate this function, your course participants will no longer see any evidences of achievement. The certificates are not lost, they are simply no longer displayed. If you reactivate the transcript of records, all current data will be available again. However, if you delete a course with existing evidences of achievements, users will still be able to view their evidences of achievement.
 
-[To the top of the page ^](#course-settings---tab-assessment--assessment)
+[To the top of the page ^](#tab_assessment)
 
 
-## (Course) certificate
+## (Course) certificate {: #certificate}
 
 **What is a certificate?**
 
@@ -235,13 +237,12 @@ Signatures, logos, etc. can be integrated into the certificate as static graphic
       * $custom2
       * $custom3
 
-
 If you would like a certificate template, please contact us at [support@frentix.com](mailto:support@frentix.com) for a cost estimate for a template according to your individual requirements.
 
-[To the top of the page ^](#course-settings---tab-assessment--assessment)
+[To the top of the page ^](#tab_assessment)
 
 
-## Recertification
+## Recertification {: #recertification}
 
 **Requirements**
 
@@ -261,13 +262,20 @@ If recertification is activated, a specification must be made as to when recerti
 
 (The value must be less than the validity period).
 
+
+**Set up reminders**
+
+Before recertification is finally activated, you will be asked to set up reminders. Define automatically sent messages to affected participants, e.g. as soon as their recertification becomes possible and/or when the validity of the previous certificate has expired.
+
+The data of the participants will be reset upon recertification (course reset).
+
 Evidence of achievement and certificates from previous courses are retained.
 
-[To the top of the page ^](#course-settings---tab-assessment--assessment)
+[To the top of the page ^](#tab_assessment)
 
 
 
-## Badges
+## Badges {: #badges}
 
 To be able to use badges in courses, they must be activated here in the "Assessment" tab of the settings. There is then a new menu item in the course administration and the "Badge" tab also appears for assessment course elements.
 
@@ -277,4 +285,4 @@ Further information on badges can be found here:
 * [Info for users:](../personal_menu/OpenBadges.md) Badges in the "Personal tools: 
 * [Info for OpenOlat administrators](../../../manual_admin/docs/administration/e-Assessment_openBadges.md)
 
-[To the top of the page ^](#course-settings---tab-assessment--assessment)
+[To the top of the page ^](#tab_assessment)

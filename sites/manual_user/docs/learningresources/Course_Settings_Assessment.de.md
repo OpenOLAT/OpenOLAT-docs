@@ -1,4 +1,4 @@
-# Kurseinstellungen - Tab Bewertung {: }
+# Kurseinstellungen - Tab Bewertung {: #tab_assessment}
 
 In Lernpfad-Kursen werden in diesem Tab die Einstellungen für die **Bewertungsmethode** und das **Bestehen** des Kurses definiert.<br>
 Ausserdem können Sie die Verwendung von **Leistungsnachweisen** und die Vergabe von **Zertifikaten** und **Badges** aktivieren. 
@@ -8,7 +8,7 @@ Ausserdem können Sie die Verwendung von **Leistungsnachweisen** und die Vergabe
 
 
 
-## Kursbewertung mit Punkten (nur bei Lernpfad-Kursen)
+## Kursbewertung mit Punkten (nur bei Lernpfad-Kursen) {: #evaluation_with_points}
 
 Für die Kursbewertung mit Punkten stehen 3 Möglichkeiten zur Auswahl:
 
@@ -16,14 +16,15 @@ Für die Kursbewertung mit Punkten stehen 3 Möglichkeiten zur Auswahl:
 * Summe mit Gewichtung
 * Durchschnitt
 
-### Kursbewertung mit Punkten: Summe
+
+### Kursbewertung mit Punkten: Summe {: #evaluation_with_points_sum}
 
 Es wird aus allen im Kurs erzielten Punkten die Summe gebildet.
 
 ![course_settings_assessment_points_sum_v1_de.png](assets/course_settings_assessment_points_sum_v1_de.png){ class="shadow lightbox" }
 
 
-### Kursbewertung mit Punkten: Summe mit Gewichtung
+### Kursbewertung mit Punkten: Summe mit Gewichtung {: #evaluation_with_points_weighting}
 
 Bei der Summenbildung fliesst die Gewichtung mit ein.
 
@@ -39,7 +40,7 @@ Die gewichtete Punktzahl wird Betreuenden im Bewertungsformular angezeigt. Für 
 
 
 
-### Kursbewertung mit Punkten: Durchschnitt
+### Kursbewertung mit Punkten: Durchschnitt {: #evaluation_with_points_average}
 
 ![course_settings_assessment_points_sum_average_v1_de.png](assets/course_settings_assessment_points_sum_average_v1_de.png){ class="shadow lightbox" }
 
@@ -47,10 +48,10 @@ Die gewichtete Punktzahl wird Betreuenden im Bewertungsformular angezeigt. Für 
 
     Nur wenn unter "Kursbewertung mit Punkten" **Summe** oder **Durchschnitt** gewählt wurde, kann im Kurseditor auch der Reiter "Highscore" des obersten Kursbausteins konfiguriert werden.
 
-[zum Seitenanfang ^](#assessment)
+[zum Seitenanfang ^](#tab_assessment)
 
 
-## Kursbewertung mit "Bestanden/Nicht bestanden"
+## Kursbewertung mit "Bestanden/Nicht bestanden" {: #evaluation_passed_failed}
 
 Ein Lernpfad-Kurs kann als bestanden gelten, sobald eines der Kriterien zutrifft:
 
@@ -72,10 +73,11 @@ Ein Lernpfad-Kurs kann als bestanden gelten, sobald eines der Kriterien zutrifft
     
     Bei der Berechnung von "**Bestanden**" und **Punkten** zählen **obligatorische und freiwillige** Kursbausteine.
 
-[zum Seitenanfang ^](#assessment)
+[zum Seitenanfang ^](#tab_assessment)
 
 
-## Bewertung durch Betreuende
+
+## Bewertung durch Betreuende {: #assessment_by_coach}
 
 Betreuenden kann gestattet werden ...
 
@@ -86,8 +88,6 @@ Betreuenden kann gestattet werden ...
 * und die Bewertung für die Teilnehmer:innen freizugeben. 
 
 ![course_settings_assessment_coaches_v2_de.png](assets/course_settings_assessment_coaches_v2_de.png){ class="shadow lightbox" }
-
-
 
 
 !!! hint "Bewertung bei herkömmlichen Kursen"
@@ -101,10 +101,11 @@ Betreuenden kann gestattet werden ...
     Hier kann definiert werden ob bzw. welche Art von Punkten noch ergänzend zu der Prozentanzeige im Kurs angezeigt wird. 
     ![course_settings_assessment_points_percentage_v1_de](assets/course_settings_assessment_points_percentage_v1_de.png){ class="shadow lightbox" }
  
-[zum Seitenanfang ^](#assessment)
+
+[zum Seitenanfang ^](#tab_assessment)
 
 
-## Leistungsnachweis 
+## Leistungsnachweis {: #evidence_of_achievements}
 
 Wenn Sie die Option "Leistungsnachweise verwenden" aktivieren, erscheint im Kurs im Toolbar Menü ["Mein Kurs"](../learningresources/Additional_Course_Features.de.md) die Option "Leistungsnachweis" und die Kursteilnehmenden sehen einen Überblick über die bewertbaren Kursbausteine mit ihrem jeweiligen aktuellen Bewertungsstatus.
 
@@ -112,10 +113,10 @@ Der Link zum Leistungsnachweis erscheint im Kurs erst dann, wenn im Kurs mindest
 
 Wenn Sie die Funktion ausschalten, sehen Ihre Kursteilnehmenden keine Leistungsnachweise mehr. Die Leistungsnachweise gehen nicht verloren, sondern werden lediglich nicht mehr angezeigt. Wenn Sie den Leistungsnachweis wieder einschalten, stehen alle aktuellen Daten wieder zur Verfügung. Wenn Sie hingegen einen Kurs mit bestehenden Leistungsnachweisen löschen, können die Benutzer nach wie vor ihre Leistungsnachweise einsehen.
 
-[zum Seitenanfang ^](#assessment)
+[zum Seitenanfang ^](#tab_assessment)
 
 
-## (Kurs-)Zertifikat
+## (Kurs-)Zertifikat {: #certificate}
 
 **Was ist ein Zertifikat?**
 
@@ -236,10 +237,10 @@ Unterschriften, Logos o.ä. können über die optionalen Variablen als statische
 
 Sollten Sie eine Zertifikatvorlage wünschen, kontaktieren Sie uns unter [support@frentix.com](mailto:support@frentix.com) für einen Kostenvoranschlag für eine Vorlage gemäss Ihren individuellen Wünschen.
 
-[zum Seitenanfang ^](#assessment)
+[zum Seitenanfang ^](#tab_assessment)
 
 
-## Rezertifizierung
+## Rezertifizierung {: #recertification}
 
 **Voraussetzungen**
 
@@ -268,10 +269,10 @@ Die Daten der teilnehmenden Personen werden bei der Rezertifizierung zurückgese
 
 Leistungsnachweise und Zertifikate früherer Durchgänge bleiben erhalten.
 
-[zum Seitenanfang ^](#assessment)
+[zum Seitenanfang ^](#tab_assessment)
 
 
-## Badges
+## Badges {: #badges}
 
 Um Badges in Kursen nutzen zu können, müssen sie hier im Tab "Bewertung" der Einstellungen aktiviert werden. Anschliessend gibt es einen neunen Menüpunkt in der Kurs Administration und bei Assessment Kursbausteinen erscheint zusätzlich der Tab "Badge".
 
@@ -283,4 +284,4 @@ Weitere Infos zu Badges finden Sie hier:
 
 
 
-[zum Seitenanfang ^](#assessment)
+[zum Seitenanfang ^](#tab_assessment)

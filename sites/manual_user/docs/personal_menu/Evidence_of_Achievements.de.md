@@ -9,7 +9,7 @@ In OpenOlat können Leistungsnachweise für unterschiedliche Assessment Kursbaus
 
 ![pers_menu_evid_of_achiev_list_v1_de.png](assets/pers_menu_evid_of_achiev_list_v1_de.png){ class="shadow lightbox"}
 
-Als Bestätigung für den Besuch eines Kurses bzw. der Erreichung von bestimmten kursbezogenen Aktivitäten kann ausserdem ein [PDF-Zertifikat](../learningresources/Course_Settings_Assessment.de.md#kurs-zertifikat) ausgestellt werden. Ein Zertifikat kann auch ohne die Verwendung eines Leistungsnachweises ausgestellt werden.
+Als Bestätigung für den Besuch eines Kurses bzw. der Erreichung von bestimmten kursbezogenen Aktivitäten kann ausserdem ein [PDF-Zertifikat](../learningresources/Course_Settings_Assessment.de.md#certificate) ausgestellt werden. Ein Zertifikat kann auch ohne die Verwendung eines Leistungsnachweises ausgestellt werden.
 
 
 ## Wer vergibt Leistungsnachweise?
@@ -18,13 +18,13 @@ Kursbesitzer:innen legen in ihren Kursen fest, ob OpenOlat Leistungsnachweise er
 
 ## Wo sieht man die Leistungsnachweise?
 
-User finden ihre Leistungsnachweise, und sofern aktiviert auch ihre erhaltenen [Zertifikate](../learningresources/Course_Settings_Assessment.de.md#kurs-zertifikat), sowohl im jeweiligen Kurs in dem der Leistungsnachweis bzw. das Zertifikat ausgestellt wurde als auch gesammelt im persönlichen Menü. 
+User finden ihre Leistungsnachweise, und sofern aktiviert auch ihre erhaltenen [Zertifikate](../learningresources/Course_Settings_Assessment.de.md#certificate), sowohl im jeweiligen Kurs in dem der Leistungsnachweis bzw. das Zertifikat ausgestellt wurde als auch gesammelt im persönlichen Menü. 
 
 ### Leistungsnachweise im Persönlichen Menü
 
 Die Anzeige im Persönlichen Menü eignet sich um einen schnellen Überblick über alle bereits in OpenOlat erhaltenen, persönlichen Leistungsnachweise und Zertifikate zu erhalten. So kann man schnell zu den einzelnen Leistungsnachweisen und Zertifikaten  navigieren und weitere Informationen erhalten. Aktivieren Sie in der Übersicht alle für Sie relevanten Spalten z.B. Punkte, Bestanden, Zertifikat. 
 
-Aktivieren Sie "ePortfolio" um einen Leistungsnachweis auch in Ihr [Portfolio](../personal_menu/Portfolio.de.md) zu übernehmen. Dabei wird der Leistungsnachweis in einem ersten Schritt in ihr persönliches ["Medien Center"](../personal_menu/Media_Center.de.md) eingefügt und kann von dort aus als Inhaltselement in ein Portfolio eingefügt werden. So können Zusammenstellungen von Leistungsnachweisen für unterschiedliche Zwecke kombiniert und auch bestimmten Personen zugänglich gemacht werden. 
+Aktivieren Sie "ePortfolio" um einen Leistungsnachweis auch in Ihr [Portfolio](../personal_menu/Portfolio.de.md) zu übernehmen. Dabei wird der Leistungsnachweis in einem ersten Schritt in ihr persönliches ["Media Center"](../personal_menu/Media_Center.de.md) eingefügt und kann von dort aus als Inhaltselement in ein Portfolio eingefügt werden. So können Zusammenstellungen von Leistungsnachweisen für unterschiedliche Zwecke kombiniert und auch bestimmten Personen zugänglich gemacht werden. 
 
 !!! info  "Info"
 
@@ -50,12 +50,12 @@ Wurde in einem Kurs der Leistungsnachweis aktiviert finden Teilnehmende in der T
 ## Weitere Informationen
 
 [Leistungsnachweise in Kursen](../learningresources/Course_Settings_Assessment.de.md#leistungsnachweis)<br>
-[Zertifikate](../learningresources/Course_Settings_Assessment.de.md#kurs-zertifikat)<br>
+[Zertifikate](../learningresources/Course_Settings_Assessment.de.md#certificate)<br>
 [Bewertungssysteme in OpenOlat: Noten](../../manual_admin/administration/Assessment_translate_points_in_grades_admin.de.md)<br>
 [Badges in den persönlichen Werkzeugen](OpenBadges.de.md)<br>
 [Badges im Bewertungswerkzeug](../learningresources/OpenBadges.de.md)<br>
 [Badges in der eAssessment-Administration](../../manual_admin/administration/e-Assessment_openBadges.de.md)<br>
 [Testquittung erstellen](../learningresources/Test_settings.de.md#tab-optionen)<br>
 [Testquittung validieren](../learningresources/Assessing_tests.de.md#korrekturwerkzeug)<br>
-[Rezertifizierung](../learningresources/Course_Settings_Assessment.de.md#rezertifizierung)
+[Rezertifizierung](../learningresources/Course_Settings_Assessment.de.md#recertification)
 
