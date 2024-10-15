@@ -1,6 +1,6 @@
 # Personal tools: Calendar
 
-![pers_menu_calendar_v1_de.png](assets/pers_menu_calendar_v1_de.png){ class="aside-right lightbox"}
+![pers_menu_calendar_v1_en.png](assets/pers_menu_calendar_v1_en.png){ class="aside-right lightbox"}
 
 ![icon_calendar](assets/icon_calendar.png)
 

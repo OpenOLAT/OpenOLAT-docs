@@ -1,6 +1,6 @@
 # Personal tools: Badges
 
-![pers_menu_badges_v1_de.png](assets/pers_menu_badges_v1_de.png){ class="aside-right lightbox"}
+![pers_menu_badges_v1_en.png](assets/pers_menu_badges_v1_en.png){ class="aside-right lightbox"}
 
 ![icon_badges.png](assets/icon_badges.png)
 
