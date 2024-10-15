@@ -1,7 +1,8 @@
 ## Working Processes
 
-1. [How to use the same files in several courses](/manual_how-to/multiple_use/multiple_use)
-2. [How to transfer files using WebDAV](/manual_how-to/webdav/webdav)
+1. [How do I create an Excel list of all available courses?](/manual_how-to/course_list/course_list)
+2. [How to use the same files in several courses](/manual_how-to/multiple_use/multiple_use)
+3. [How to transfer files using WebDAV](/manual_how-to/webdav/webdav)
 
 ## Create Courses
 

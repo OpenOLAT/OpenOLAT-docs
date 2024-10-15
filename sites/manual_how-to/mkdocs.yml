@@ -3,6 +3,7 @@ site_name: manual_how-to
 nav:
   - index.md
   - Working Processes:
+    - How do I create an Excel list of all available courses?: "course_list/course_list.md"
     - How to use the same files in several courses: "multiple_use/multiple_use.md"
     - Transfer files using WebDAV: "webdav/webdav.md"
   - Create Courses:

@@ -1,7 +1,8 @@
 ## Allgemeine Arbeitsweisen
 
-1. [Wie kann ich dieselben Dateien in mehreren Kursen einsetzen?](/de/manual_how-to/multiple_use/multiple_use)
-2. [Wie kann ich mittels WebDAV Dateien übertragen?](/de/manual_how-to/webdav/webdav)
+1. [Wie erstelle ich eine Excel-Liste aller vorhandenen Kurse?](/de/manual_how-to/course_list/course_list)
+2. [Wie kann ich dieselben Dateien in mehreren Kursen einsetzen?](/de/manual_how-to/multiple_use/multiple_use)
+3. [Wie kann ich mittels WebDAV Dateien übertragen?](/de/manual_how-to/webdav/webdav)
 
 ## Kurse erstellen
 
