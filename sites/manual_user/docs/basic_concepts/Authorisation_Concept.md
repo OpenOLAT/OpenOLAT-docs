@@ -55,6 +55,7 @@ The course roles participants as well as the coaches also stand for the group pa
 | Members management                                       | Full access   | :material-cancel:                | Reading            | :material-cancel:        |
 | Assessment tool                                          | Full access   | :material-cancel:                | Reading            | :material-cancel:        |
 | Files of a course                                        | Full access   |      Full access           | :material-cancel:           | :material-cancel:        |
+| Badges                                        | Full access   |      Full access           | Reading           | Reading        |
 | Lessons & Absences                                       | Full access   | :material-cancel:                | Reading            | :material-cancel:        |
 | Archiving & Reporting                                    | Full access   |      Full access           | :material-cancel:           | :material-cancel:        |
 | **Course actions**                                                                                                                                              |

@@ -56,6 +56,7 @@ Die Kursrollen Teilnehmer sowie Betreuer stehen stellvertretend auch für die Gr
 | Mitgliederverwaltung                                        | Vollzugriff   | :material-cancel:                | Lesend            | :material-cancel:        |
 | Bewertungswerkzeug                                          | Vollzugriff   | :material-cancel:                | Lesend            | :material-cancel:        |
 | Dateien eines Kurses                                        | Vollzugriff   |      Vollzugriff           | :material-cancel:           | :material-cancel:        |
+| Badges                                        | Vollzugriff   |      Vollzugriff           | Lesend           | Lesend        |
 | Lektionen & Absenzen                                         | Vollzugriff   | :material-cancel:                | Lesend            | :material-cancel:        |
 | Archivierung & Reporting                                    | Vollzugriff   |      Vollzugriff           | :material-cancel:           | :material-cancel:        |
 | **Kursaktionen**                                                                                                                                              |
