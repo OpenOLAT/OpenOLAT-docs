@@ -100,7 +100,7 @@ Wenn Sie bereits wissen, dass der Begriff "topnav" im Variablennamen (nicht im T
 **suchen in Anpassung**: Damit beschränkt sich die Suche auf bereits vorgenommene Änderungen innerhalb dieser Sprache.
 
 **e) Pakete**<br> 
-Solange Sie nicht wissen, in welchem Variablenpaket sich der zu ändernde Text befindet, wählen Sie "alle Pakte". Wenn Sie später genau wissen, zu welchem Paket der gesuchte Text gehört, können Sie gezielt das entsprechende Paket auswählen. Oft kommt innerhalb eines Paketes der Begriff mehrfach vor.
+Solange Sie nicht wissen, in welchem Variablenpaket sich der zu ändernde Text befindet, wählen Sie "alle Pakete". Wenn Sie später genau wissen, zu welchem Paket der gesuchte Text gehört, können Sie gezielt das entsprechende Paket auswählen. Oft kommt innerhalb eines Paketes der Begriff mehrfach vor.
 
 **f) Unterpakete berücksichtigen**<br>
 

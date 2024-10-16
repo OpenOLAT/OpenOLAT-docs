@@ -1,64 +1,63 @@
 # How do I create an Excel list of all available courses? {: #course_list}
 
-??? abstract "Ziel und Inhalt dieser Anleitung"
+??? abstract "Goal and content of these instructions"
 
-    Sie haben bereits mehrere Kurse erstellt und benötigen eine Übersicht als Excel-Tabelle (auch der noch nicht veröffentlichten). Hier eine kurze Anleitung.
+    You have already created several courses and need an overview as an Excel spreadsheet (including those not yet published). Here is a short guide.
 
-??? abstract "Zielgruppe"
+??? abstract "Target group"
 
-    [x] Autor:innen [x] Betreuer:innen  [ ] Teilnehmer:innen
+    [x] Authors [x] Coaches  [ ] Participants
 
-    [x] Anfänger:innen [x] Fortgeschrittene  [ ] Experten/Expertinnen
+    [x] Beginners [x] Amateurs  [ ] Experts
 
 
 ??? abstract "Erwartete Vorkenntnisse"
 
-    * ["Wie erstelle ich meinen ersten OpenOlat-Kurs?"](../my_first_course/my_first_course.de.md)
+    * ["How do I create my first OpenOlat course? "](../my_first_course/my_first_course.md)
    
 
 ---
 
-Im Autorenbereich lassen sich alle erstellen Kurse (auch die noch nicht veröffentlichten) durchsuchen, filtern und sortieren. Für manche Zwecke benötigt es jedoch den Export einer Übersichtsliste als Excel-Datei. Gehen Sie dazu in den folgenden Schritten vor.
+In the Authoring area, all created courses (including those not yet published) can be searched, filtered and sorted. For some purposes, however, it is necessary to export an overview list as an Excel file. To do this, follow the steps below.
 
 
-## Schritt 1: Autorenbereich öffnen
+## Step 1: Open "Authoring"
 
-Um den Autorenbereich in Ihrem Hauptmenü angezeigt zu bekommen, müssen Sie Autorenrechte besitzen. Wenden Sie sich an Ihre Administrator:innen, falls Ihnen der Autorenbereich nicht angezeigt wird.
+To display the Authoring area in your main menu, you must have author rights. Contact your administrator if the Authoring area is not displayed.
 
-## Schritt 2: Suche der Kurse
+## Step 2: Search of the courses
 
-* Verwenden Sie die Tabs "Favoriten", "Meine Kurse" oder "Meine Einträge", wenn diese Filter bereits eine Vorauswahl nach Ihren Vorstellungen enthalten.
-* Verwenden Sie den Tab "Suche", wenn nicht nur die eigenen Kurse angezeigt werden sollen.
-* Mit dem Suchfeld können Sie nach Namen oder Namensfragementen suchen. Wenn Sie mehrere Begriffe mit Leerzeichen getrennt eingeben, werden sie mit einem logischen ODER verknüpft, d.h. mindestens einer der Begriffe kommt dann in den aufgelisteten Kursnamen und Lernressourcen vor.
-* Starten Sie die Suche mit Klick auf das Lupensysmbol oder durch Drücken der Eingabetaste.
+* Use the "Favorites", "My courses" or "My entries" tabs if these filters already contain a preselection according to your preferences.
+* Use the "Search" tab if you want to display more than just your own courses.
+* You can use the search field to search for names or name query terms. If you enter several terms separated by spaces, they will be linked with a logical OR, i.e. at least one of the terms will appear in the course names and learning resources listed.
+* Start the search by clicking on the magnifying glass icon or by pressing the Enter key.
 
 ![course_list_tabs_v1_de.png](assets/course_list_tabs_v1_de.png){ class="shadow lightbox"}
 
-[zum Seitenanfang ^](#course_list)
+[To the top of the page ^](#course_list)
 
-## Schritt 3: Filtern der Suchergebnisse
+## Step 3: Filtering of the search
 
-Setzen Sie den Filter "Typ = Kurs".<br>
-Übernehmen Sie ihn mit Klick auf den Button "Übernehmen" am unteren Rand des Popups.
+Set the filter "Type = Course ".<br>
+Accept it by clicking on the "Accept" button at the bottom of the pop-up.
 
 ![course_list_filter_typ_v1_de.png](assets/course_list_filter_typ_v1_de.png){ class="shadow lightbox"}
 
-[zum Seitenanfang ^](#course_list)
+[To the top of the page ^](#course_list)
 
-## Schritt 4: Reihenfolge festlegen
+## Step 4: Set sequence
 
-Die im Schritt 5 erzeugte Excelliste enthält die Zeilen in der gleichen Reihenfolge, wie sie in OpenOlat angezeigt werden. Bereiten Sie deshalb die Liste in OpenOlat entsprechend vor.
+The Excel list created in step 5 contains the lines in the same order as they are displayed in OpenOlat. Therefore, prepare the list in OpenOlat accordingly.
 
-Klicken Sie auf die Spaltentitel, um die angezeigte Liste auf- oder absteigend zu sortieren.
+Click on the column titles to sort the displayed list in ascending or descending order.
 
-Wenn Sie eine andere Sortierung benötigen, hilft es Ihnen vielleicht, weitere Spalten einzublenden und nach diesen zu sortieren. Für das Einblenden weiterer Spalten klicken Sie auf das Zahnrad-Icon rechts oben über der Liste.
+If you require a different sorting, it may help to show additional columns and sort by them. To show additional columns, click on the cogwheel icon at the top right above the list.
 
+## Step 5: Creating an Excel list
 
-## Schritt 5: Erstellen einer Excel-Liste
-
-Klicken Sie auf den Download-Button rechts oben über der Liste und speichern Sie die Excel-Liste.
+Click on the download button at the top right above the list and save the Excel list.
 
 ![course_list_download_v1_de.png](assets/course_list_download_v1_de.png){ class="shadow lightbox"}
 
-[zum Seitenanfang ^](#course_list)
+[To the top of the page ^](#course_list)
 
