@@ -74,9 +74,12 @@ Im Übersichtstab erscheinen ähnliche Informationen wie im Übersichtsbereich d
 
 ### Tab Teilnehmer:innen
 
-Im Tab "Teilnehmer:innen" wird die eigentliche Bewertung vorgenommen und die Personen können ausgewählt und Punkte und Feedbacks hinterlegt und die Freigabe der Sichtbarkeit eingestellt werden. Die Tabelle zeigt dann den Bearbeitungstand aller Teilnehmenden des konkreten Kursbausteins an.  
+Im Tab "Teilnehmer:innen" wird die eigentliche Bewertung vorgenommen und die Personen können ausgewählt, Punkte und Feedbacks hinterlegt und die Freigabe der Sichtbarkeit eingestellt werden. 
+Die Tabelle zeigt dann den Bearbeitungstand aller Teilnehmenden des konkreten Kursbausteins an.  
 Ferner können bei Aufgaben im Teilnehmenden Tab auch alle abgegebenen Dokumente heruntergeladen werden. 
-Der automatisch generierte oberste Kursknoten zählt ebenfalls als bewertbarer Baustein. Er entspricht einem ["Struktur"](../learningresources/Knowledge_Transfer.de.md/#structure) Baustein. 
+
+Der automatisch generierte oberste Kursknoten zählt ebenfalls als bewertbarer Baustein. Er entspricht einem ["Struktur"](../learningresources/Knowledge_Transfer.de.md/#structure) Baustein.  
+Klickt man beim obersten Kursbaustein auf eine Person erhält man eine Gesamtübersichtübersicht über den Bearbeitungsstand der Assessmentbausteine des Kurses für diese Person und kann sich so auch den Leistungsnachweis der Person anzeigen lassen. 
 
 Ist auf dem oberersten Kursbaustein eine Punkteberechnung eingerichtet, können auf der obersten Ebene der Benutzeransicht auch die *Gesamtpunkte* eines Kurses bzw. die für den obersten Baustein definierten Punkte, angezeigt und die Gesamtergebnisse der Kursteilnehmenden heruntergeladen werden.
 
