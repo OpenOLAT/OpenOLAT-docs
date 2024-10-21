@@ -8,13 +8,13 @@ Name | Selection
 Icon | ![Selection Icon](assets/icon_selection.png){ class=size24  }
 Available since | Release 19.1
 Functional group | Administration and Organisation
-Purpose | Auswahl einer bestimmten Anzahl Kursbausteine innerhalb der Kursstruktur (Kursmenü) durch die Teilnehmer:innen
+Purpose | Selection of a certain number of course elements within the course structure (course menu) by the participants
 Assessable | no
-Speciality / Note | Der Kursbaustein ist nur in Lernpfadkursen einsetzbar.
+Speciality / Note | The course element can only be used in learning path courses.
 
 
 
-The course element "Selection"  is used in a similar way to the "Structure" course element. There are also various other course elements below the "Selection" course element. In contrast to the "Structure" course element, however, participants can decide for themselves which course elements should be included in their course menu. The course owner specifies a number of course elements to choose from (e.g. different tasks). Each participant then selects the course elements in the course element "Selection", which are then displayed individually in the course menu.
+The course element "Selection" is used in a similar way to the "Structure" course element. There are also various other course elements below the "Selection" course element. In contrast to the "Structure" course element, however, participants can decide for themselves which course elements should be included in their course menu. The course owner specifies a number of course elements to choose from (e.g. different tasks). Each participant then selects the course elements in the course element "Selection", which are then displayed individually in the course menu.
 
 
 ## Functionality {: #selection_functionality}
@@ -57,7 +57,7 @@ As long as no selection has been made in a course element of the type "Selection
 ![course_element_selection_participant_learningpath_v1_de.png](assets/course_element_selection_participant_learningpath_v1_de.png){ class="shadow lightbox" }
 
 
-[Up (Participant) ^](#selection_participant)<br>
+[Up (Participant perspective) ^](#selection_participant)<br>
 [To the top of the page ^](#selection)
 
 ---
@@ -66,7 +66,7 @@ As long as no selection has been made in a course element of the type "Selection
 
 ### Add course element
 
-Insert a "Selection" course element into your course in the course editor in the same way as you insert a “Structure” course element.
+Insert a "Selection" course element into your course in the course editor in the same way as you insert a "Structure" course element.
 
 ### Capture selectable topics
 
@@ -168,7 +168,7 @@ Coaches and owners have the opportunity to edit the selection made by participan
 ## Further information
 
 
-[How do I use course element "selection"?](../../manual_how-to/course_element_selection/course_element_selection.md)<br>
+[How do I use course element "Selection"?](../../manual_how-to/course_element_selection/course_element_selection.md)<br>
 [Course element "structure"](../learningresources/Course_Element_Structure.md)<br>
 
 

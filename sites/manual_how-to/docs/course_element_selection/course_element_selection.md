@@ -1,117 +1,117 @@
 # How do I use course element selection? {: #how_do_i_use_course_element_selection}
 
 
-Diese Anleitung zeigt Ihnen, wie Sie in Ihrem Kurs den Teilnehmer:innen eine Wahlmöglichkeit zwischen verschiedenen Pflicht-Kursbausteinen einrichten.
+This guide shows you how to give participants in your course the option of choosing between different compulsory course elements.
 
-!!! tip "Hinweis"
+!!! tip "Note"
 
-    Wenn die Teilnehmer:innen keine Pflicht-Kursbausteine erledigen sollen, sondern grundsätzlich freie Wahl haben, können Sie dies durch die Konfiguration "freiwillig" ermöglichen.<br>
-    **Kurs im Kurseditor öffnen > Kursbausteinbaustein wählen > Tab Lernpfad > Option "freiwillig"**
+    If you do not want participants to complete any compulsory course elements, but rather have a free choice, you can enable this by configuring "voluntary".<br>
+    **Open course in course editor > Select course element > Tab Learning path > Option "voluntary"**
 
-## Welche Art Auswahl sollen die Kursteilnehmer:innen treffen können? {: #examples}
+## What kind of choices should course participants be able to make? {: #examples}
 
-* Wahl zwischen verschiedenen Pflichtaufgaben
-    - Die Teilnehmer:innen sollen x aus y Aufgaben erledigen müssen.
-    - Typischerweise soll der gleiche Aufgabentyp (Kursbaustein-Typ) mehrfach angeboten werden.
-    - Bei gleichem Aufgabentyp mit je gleicher Punktzahl kann die individuelle Aufgabenwahl auf faire Art für die Gesamtbewertung des Kurses berücksichtigt werden.
-* Wahl zwischen verschiedenen Vertiefungsthemen
-    - Die Kursteilnehmer:innen sollen 1 oder mehrere Themen bearbeiten müssen, aber selbst aus einer vorgegebenen Auswahl ein oder mehrere Themen wählen können.
-    - Wurde das Vertiefungsthema gewählt, kann es durch die Kursteilnehmer:innen nicht mehr gewechselt werden. (Lediglich Betreuer:innen können dies noch.)
-* Wahl zwischen verschiedenen komplexeren Arbeitsaufträgen (Projektarbeiten) innerhalb eines Kurses
-    - Unterhalb des Kursbausteins "Auswahl" werden in Strukturbausteinen oder mit Kursbausteinen "Aufgabe" ganze Pakete mit Arbeitsaufträgen und Material bereit gestellt.
-    - Die Kursteilnehmer:innen können ein Thema wählen, das sie dann bearbeiten müssen.
-    - Jedem/jeder Kursteilnehmer:in werden dann **nur** diejenigen Kursbausteine im Kursmenü angezeigt, die zum gewählten Thema gehören. 
-
-
-
-##  Voraussetzung
-
-Der Kursbaustein "Auswahl" wird innerhalb eines OpenOlat-Kurses eingebunden. Wenn Sie noch keinen Kurs erstellt haben, steht im Kapitel "[Wie erstelle ich meinen ersten OpenOlat-Kurs](../my_first_course/my_first_course.de.md)", wie Sie vorgehen müssen, bevor Sie mit Hilfe der folgenden Anleitung diesen Kursbaustein einfügen.
+* Choice between various mandatory tasks
+    - The participants have to complete x out of y tasks.
+    - Typically, the same task type (course element type) should be offered several times.
+    - With the same type of task, each with the same number of points, the individual choice of task can be taken into account in a fair way for the overall assessment of the course.
+* Choice between various in-depth topics
+    - Course participants are required to work on one or more topics, but can choose one or more topics from a given selection.
+    - Once the specialization topic has been selected, it can no longer be changed by the course participants. (Only coaches can still do this.)
+* Choice between various more complex assignments (project work) within a course
+    - Below the "Selection" course element, entire packages with work assignments and material are provided in structure elements or with "Task" course elements.
+    - Course participants can choose a topic that they then have to work on.
+    - Each course participant will then **only** be shown those course elements in the course menu that belong to the selected topic. 
 
 
-## Schritt 1: Kurseditor öffnen und Kursbaustein "Auswahl" einfügen 
 
-a) Gehen Sie in den **Autorenbereich** und suchen Sie dort den Kurs, in den der Kursbaustein "Auswahl" eingefügt werden soll.
+##  Requirement
+
+The course element "Selection" is integrated within an OpenOlat course. If you have not yet created a course, the chapter explains "[How do I create my first OpenOlat course?](../my_first_course/my_first_course.de.md)" how to proceed before you insert this course element with the help of the following instructions.
+
+
+## Step 1: Open course editor and insert "Selection" course element 
+
+a) Go to the **Author area** and search for the course in which the course element "Selection" is to be inserted.
   
 
-b) Öffnen Sie den gewünschten Kurs im **Kurseditor** (Menü "Administration" > Kurseditor).
+b) Open the desired course in the **Course editor** (menu "Administration" > Course editor).
 
-c) Wählen Sie die Stelle im Kursmenü, an der der Baustein hinzugefügt werden soll. Kursbausteine werden immer unterhalb des aktuell ausgewählten Kursbausteins eingefügt. 
+c) Select the position in the course menu where the course element should be added. Course elements are always inserted below the currently selected course element. 
 
-d) Klicken Sie in der Kopfzeile des Editors auf **"Kursbaustein einfügen"** oder nutzen Sie die Quick-Add Funktion und wählen Sie im Popup mit der Auswahlliste den Kursbaustein "Auswahl".
+d) Click on **"Insert course element"** in the header of the editor or use the Quick-Add function and select the course element "Selection" in the pop-up with the selection list.
 
-Damit ist der Kursbaustein schon dem Kurs hinzugefügt.
+This means that the course element has already been added to the course.
 
-e) Vergeben Sie nun noch einen passenden **Titel** im Tab "Titel und Beschreibung" und speichern Sie den Kursbaustein.  
+e) Now assign a suitable **title** in the "Title and description" tab and save the course element.  
 
-!!! tip "Hinweis"
+!!! tip "Note"
 
-    Wenn Sie den Kurseditor bereits jetzt schliessen, wird im Menü der Kursbaustein zwar angezeigt, aber er ist noch unvollständig. Es fehlen noch die Kursbausteine, aus denen die Kursteilnehmer:innen auswählen sollen. Diese Kursbausteine müssen Sie als Autor:in noch bereit stellen. Es erscheint ein entsprechender Warnhinweis.
+    If you close the course editor now, the course element will be displayed in the menu, but it will still be incomplete. The course modules from which the course participants are to choose are still missing. As the author, you still have to provide these course elements. A corresponding warning will appear.
 
-[zum Seitenanfang ^](#how_do_i_use_course_element_selection)
+[To the top of the page ^](#how_do_i_use_course_element_selection)
 
 ---
 
-## Schritt 2: Die wählbaren Kursbausteine zur Verfügung stellen  
+## Step 2: Provide the selectable course elements  
 
-a) Klicken Sie in der Kopfzeile des Editors auf **"Kursbaustein einfügen"** oder nutzen Sie die Quick-Add Funktion und wählen Sie im Popup mit der Auswahlliste die Kursbausteine, die Sie zur Auswahl anzeigen wollen.
+a) Click on **"Insert course element"** in the header of the editor or use the Quick-Add function and select the course elements you want to display for selection in the pop-up with the selection list.
 
-b) Ziehen Sie nacheinander die Kursbausteine mit gedrückter Maustaste auf den Auswahl-Kursbaustein. Dadurch werden sie dem Auswahl-Kursbaustein untergeordnet. Die später für die Teilnehmer:innen verfügbare Auswahl bezieht sich auf diese untergeordneten Bausteine.
+b) Hold down the mouse button and drag the course elements one after the other onto the selected course element. This makes them subordinate to the selection course element. The selection available to participants later refers to these subordinate modules.
 
-**Beispiel: Für die Teilnehmer:innen stehen später 4 Kursbausteine zur Auswahl**
+**Example: Participants will later be able to choose from 4 course modules**
 
 ![selection_authoring2_v1_de.png](assets/selection_authoring2_v1_de.png){ class="shadow lightbox" }  
 
-[zum Seitenanfang ^](#how_do_i_use_course_element_selection)
+[To the top of the page ^](#how_do_i_use_course_element_selection)
 
 ---
 
-## Schritt 3: Konfiguration des Kursbausteins "Auswahl"  
+## Step 3: Configuration of the "Selection" course element  
 
-a) Wählen Sie links im Kursmenü den Kursbaustein "Auswahl" und bestimmen Sie nacheinander in den zugehörigen Tabs die Konfiguration.
+a) Select the course element "Selection" in the course menu on the left and determine the configuration in the corresponding tabs one after the other.
 
-b) Im Tab "Konfiguration" bestimmen Sie, wie viele der untergeordneten Kursbausteine die Kursteilnehmer:innen später auswählen müssen.
+b) In the "Configuration" tab, you determine how many of the subordinate course elements the course participants have to select later.
 
-**Beispiel: Die Kursteilnehmer:innen müssen 2 der 4 angebotenen Kursbausteine "Dateidiskussion" auswählen und bearbeiten**
+**Example: Course participants must select and complete 2 of the 4 "File discussion" course elements offered**
 
 ![selection_authoring_tab_config_v1_de.png](assets/selection_authoring_tab_config_v1_de.png){ class="shadow lightbox" }  
 
-Im Kursrun* werden die beiden gewählten Kursbausteine nach der Wahl in das Kursmenü eingefügt. Die Teilnehmer:innen haben also in diesem Abschnitt ein indiviuelles Kursmenü.<br> 
-Siehe [Der Kursbaustein "Auswahl", Abschnitt "Auswahl treffen"](../../manual_user/learningresources/Course_Element_Selection.de.md#selection_participant) 
+In the Course run*, the two selected course elements are added to the course menu after selection. The participants therefore have an individual course menu in this section.<br> 
+See [Course element "Selection", Section "Make a selection"](../../manual_user/learningresources/Course_Element_Selection.md) 
 
-(*Kursrun = Modus "aktiver Kurs", im Unterschied zum Kurs, der im Editor geöffnet ist)
-
-
-!!! info "Hinweis zur Konfiguration der zugeordneten Kursbausteine"
-
-    In den zugeordneten Kursbausteinen ist im Tab "Lernpfad" jeweils die Option "Ausnahme" voreingestellt und kann nicht geändert werden.
-    Siehe [Der Kursbaustein "Auswahl", Abschnitt "Auswahl einrichten"](../../manual_user/learningresources/Course_Element_Selection.de.md#selection_setup)
+(*Course run = Mode "active course", in contrast to the course that is open in the editor)
 
 
-c) Abschließend muss der Kurs **publiziert** und der Kurseditor geschlossen werden, damit die Änderungen sichtbar werden. 
+!!! info "Note on the configuration of the assigned course elements"
 
-[zum Seitenanfang ^](#how_do_i_use_course_element_selection)
+    In the assigned course elements, the "Exception" option is preset in the "Learning path" tab and cannot be changed.
+    See [The course element "Selection", Section "Make a selection"](../../manual_user/learningresources/Course_Element_Selection.md)
+
+
+c) Finally, the course must be **published** and the course editor closed so that the changes are visible. 
+
+[To the top of the page ^](#how_do_i_use_course_element_selection)
 
 ---
 
-## Schritt 4: Kurs publizieren und Kurs-Status auf "Veröffentlicht" ändern  
+## Step 4: Publish course and change course status to "Published"  
   
-Gehen Sie dazu vor, wie in ["Wie erstelle ich meinen ersten OpenOlat-Kurs"](../my_first_course/my_first_course.de.md) beschrieben.
+To do this, proceed as described in ["How do I create my first OpenOlat course?"](../my_first_course/my_first_course.md).
 
-Der Kursbaustein "Auswahl" ist nun eingebunden und Kursteilnehmende können aus mehreren Kursbausteinen selbst Pflicht-Bausteine wählen.
+The course element "Selection" is now integrated and course participants can choose compulsory elements from several course elements.
 
-[zum Seitenanfang ^](#how_do_i_use_course_element_selection)
+[To the top of the page ^](#how_do_i_use_course_element_selection)
 
 ---
 
-## Weitere Informationen
+## Further informations
 
-[Wie erstelle ich meinen ersten OpenOlat-Kurs](../my_first_course/my_first_course.de.md)<br>
-[Der Kursbaustein "Auswahl"](../../manual_user/learningresources/Course_Element_Selection.de.md)
+[How do I create my first OpenOlat course](../my_first_course/my_first_course.de.md)<br>
+[Course element "Selection"](../../manual_user/learningresources/Course_Element_Selection.de.md)
 
 <br>
 
-[zum Seitenanfang ^](#how_do_i_use_course_element_selection)
+[To the top of the page ^](#how_do_i_use_course_element_selection)
 
 ---
 

@@ -13,7 +13,7 @@ Zu Systemrollen gehören systemweit (für die ganze OpenOlat-Instanz) gültige B
 * **Einladung**: Eingeladene Personen mit Benutzertyp "externe Benutzer:in" (Siehe [Benutzertypen](User_Types.de.md))
 * **Benutzer:in**: Standardrolle für registrierte Personen 
 * **Autor:in**: Autor:innen haben Zugriff auf den Autorenbereich in der obersten Navigation. Damit sind sie berechtigt, Kurse und alle weiteren Lernressourcen zu erstellen. In der Suchmaske finden Autor:innen alle Kurse und Lernressourcen wie Tests, Filme und Portfoliovorlagen, welche für sie zugänglich sind. Diese Rolle wird häufig an Lehrende oder E-Learning Verantwortliche vergeben.  
-* **Benutzerverwalter:in**: Benutzerverwalter:innen haben Zugriff auf die [Benutzerverwaltung](../../manual_admin/usermanagement/index.de.md) und alle Benutzer:innen der eigenen Organisation. Sie können Benutzer:innen erstellen, bearbeiten und inaktiv setzen. Zudem können sie die Rolle Autor und weitere Rollen vergeben. Benutzerverwalter verfügen über den  Menüpunkt"Benutzerverwaltung" in der obersten Navigation. 
+* **Benutzerverwalter:in**: Benutzerverwalter:innen haben Zugriff auf die [Benutzerverwaltung](../../manual_admin/usermanagement/index.de.md) und alle Benutzer:innen der eigenen Organisation. Sie können Benutzer:innen erstellen, bearbeiten und inaktiv setzen. Zudem können sie die Rolle Autor und weitere Rollen vergeben. Benutzerverwalter verfügen über den Menüpunkt "Benutzerverwaltung" in der obersten Navigation. 
 * **Rollenverwalter:in**: Rollenverwalter:innen haben Zugriff auf die Benutzerverwaltung (separater Menüpunkt in der obersten Navigation) und können alle Benutzer:innen der eigenen Organisationen sehen und organisieren. Rollenverwalter können, ausser die Rollen Administrator und Systemadministrator, alle Rollen der Benutzer:innen ändern, sie vergeben und entfernen.
 * **Gruppenverwalter:in**: Gruppenverwalter:innen haben im Menüpunkt "Gruppen" zusätzlich Zugriff auf den Tab [Gruppenverwaltung](../area_modules/Group_Management.de.md). 
 * **Poolverwalter:in**: Poolverwalter:innen haben Zugriff auf den [Fragenpool](../area_modules/Question_Bank.de.md). Im Fragenpool können sie den Bereich Administration öffnen.
@@ -50,12 +50,6 @@ Innerhalb eines Kurses unterscheiden wir die 3 Kursrollen:
 * **Betreuer:in**: Der/die Kursbetreuer:in hat Zugriff auf das [Bewertungswerkzeug](../learningresources/Assessment_tool_overview.de.md) des Kurses, wie auch auf die Test- und Fragebogen-Statistik. Ein/eine Kursbetreuer:in kann jedoch den Kurs weder im Kurseditor bearbeiten noch den Kurs löschen. Im Bewertungswerkzeug sehen die Kursbetreuer:innen alle Kursteilnehmenden, jedoch keine Gruppenteilnehmenden. Weitere Details der Kursrolle Betreuer:in finden Sie [hier](coach.de.md).
 
 * **Teilnehmer:in**: Teilnehmer:innen können den Kurs öffnen und die bereitgestellten Kursbausteine und Inhalte bearbeiten (je nach Konfiguration). Sie haben jedoch keine zusätzlichen Rechte im Kurs.
-
-
-Eine Person mit Autorenrecht (= Systemrolle "Autor:in"), die einen Kurs erstellt, ist automatisch Besitzer:in des Kurses (Kursrolle "Besitzer:in").
-
-Wenn ein/eine Benutzer:in dem Kurs hinzugefügt wird, kann definiert werden, welche
-Mitgliederrechte dieser/diese Benutzer:in in diesem Kurs erhalten soll. Zur Auswahl stehen die 3 Kursrollen.
 
 ![Kursrollen](assets/course_rights_DE.png){ class="shadow" }
 
@@ -202,7 +196,7 @@ Sind die Rollen und ihre Systematik eingerichtet, können anschliessend die Bezi
 
 ---
 
-## Rolle „Einladung“ {: #invitee} 
+## Rolle "Einladung" {: #invitee} 
 
 Die Rolle "Einladung" ist für Personen, welche kein Benutzerkonto in OpenOlat haben und trotzem Daten in OpenOlat erfassen müssen. Sie erhalten eine Art Pseudo-Benutzerkonto, mit nur ganz wenigen Rechten. Die Rolle wird z.B. im Modul ePortfolio verwendet. Hier können die Verfasser:innen eines Beitrages auch externe Personen (z.B. den/die Lehrmeister:in) zur Beurteilung des Beitrages einladen. Diese externen Personen erhalten die Rolle "Einladung".
 
@@ -220,7 +214,7 @@ Als externe Benutzer:innen werden solche Personen nicht vollständig registriert
 ## Kontorollen {: #account_roles} 
 
 Die Kontorollen sind nur für die Suchfunktion der Administrator:innen relevant.<br>
-(Siehe [Kontorollen](../../manual_admin/usermanagement/Search_Users.de.md/#kontorollen))
+(Siehe [Kontorollen](../../manual_admin/usermanagement/Search_Users.de.md#kontorollen))
 
 [zum Seitenanfang ^](#roles)
 
@@ -250,7 +244,7 @@ Die Kontorollen sind nur für die Suchfunktion der Administrator:innen relevant.
 [Rollenzuweisung für Gruppenrollen](Assign_Roles.de.md#role_assignment_group)<br> 
 
 [Rollenzuweisung für Curricula](Assign_Roles.de.md#role_assignment_curriculum)<br> 
-[Rechte der Curriculum-Rollen](../basic_concepts/Authorisation_Concept.de.md##rechte-der-curriculum-rollen)<br> 
+[Rechte der Curriculum-Rollen](../basic_concepts/Authorisation_Concept.de.md#rechte-der-curriculum-rollen)<br> 
 
 [Rollenzuweisung der "Einladung"](Assign_Roles.de.md#role_assignment_invitee)<br> 
 

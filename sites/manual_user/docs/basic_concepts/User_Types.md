@@ -2,31 +2,31 @@
 
 ## Die 3 Benutzertypen
 
-OpenOlat arbeitet mit einem Rollen- und Rechte-Management. Auf oberster Ebene wird zwischen 3 grundsätzlichen Benutzertypen unterschieden. Dies sind:
+OpenOlat works with role and rights management. At the highest level, a distinction is made between 3 basic user types. These are
 
 ![roles_rights_user_types_v1_de.png](assets/roles_rights_user_types_v1_de.png){ class=" shadow lightbox" }
 
-### **Registrierte Benutzer:innen** (Standard)<br>
-Alle Benutzer:innen haben einen eindeutigen Benutzernamen, der nach der Registrierung zur Identifikation benutzt wird. Benutzer:innen können freigeschaltete Lerninhalte nutzen und sich an allen Lernaktivitäten beteiligen. Lernergebnisse (z.B. aus Tests) werden dem Benutzernamen zugeordnet. Zudem haben alle Benutzer:innen eine individuell konfigurierbare Startseite und [Speicherplatz](../personal_menu/Personal_folders.md) zur Verfügung. Alle registrierten Benutzer:innen hat auch die Möglichkeit eigene [Gruppen](../groups/index.md) zu erstellen und alle darin enthaltenen Funktionen und Tools zu nutzen. 
+### **Registered users** (Standard)<br>
+All users have a unique user name that is used for identification after registration. Users can use unlocked learning content and participate in all learning activities. Learning outcomes (e.g. from tests) are assigned to the user name. In addition, all users have an individually configurable start page and [storage space](../personal_menu/Personal_folders.md) at their disposal. All registered users can also create their own [groups](../groups/index.md) and use all the functions and tools contained therein. 
 
-Bei registrierten Benutzer:innen ohne weitere Rollen und Rechte handelt es sich in der Regel um die Lernenden.
+Registered users without further roles and rights are usually learners.
 
-Registrierte Benutzer:innen können aber auch zusätzlich eine oder mehrere Rollen erhalten. Mit jeder dieser Rollen sind Rechte für bestimmte Aufgaben verbunden. 
+Registered users can also be assigned one or more additional roles. Each of these roles is associated with rights for certain tasks. 
 
-### Weitere Benutzertypen
+### Further user types
 
-* **Externe Benutzer:innen**<br>
-sind in OpenOlat mit ihrer E-Mail-Adresse bekannt. Es existiert jedoch kein kompletter Datensatz mit Benutzerdaten, wie bei registrierten Benutzer:innen. Externe Benutzer:innen können dem entsprechend die meisten Rollen in OpenOlat nicht übernehmen, da sie eine volle Registrierung erfordern.
-Externe Benutzer:innen können bei Bedarf zu vollwertigen registrierten Benutzer:innen umgewandelt werden.
-
-
-* **Anonyme Gäste**<br>
-Gäste haben - ohne sich zu registrieren – beschränkten Zugang zu OpenOlat. Sie können für Gäste freigegebene Lerninhalte betrachten, sich jedoch nicht an allen Lernaktivitäten beteiligen. Der Link zum Gastzugang befindet sich auf der Login-Seite. Weitere Informationen zum Gast finden Sie [hier](guest_access.md).
+* **External users**<br>
+are known in OpenOlat with their e-mail address. However, there is no complete data record with user data, as is the case with registered users. Accordingly, external users cannot take on most roles in OpenOlat as they require full registration.
+External users can be converted to full registered users if required.
 
 
+* **Anonymous guests**<br>
+Guests have limited access to OpenOlat without registering. They can view learning content released for guests, but cannot participate in all learning activities. The link to guest access can be found on the login page. You can find further information about guest access [here](guest_access.md).
 
 
-!!! info "Hinweis"
 
-    Es versteht sich, dass nahezu alle Rollen nur an registrierte Benutzer:innen vergeben werden können. Anonyme Gäste und externe Benutzer:innen (nur mit E-Mail bekannt) können keine Aufgaben (wie z.B. Betreuer:in oder Administrator:in) innerhalb OpenOlat übernehmen.
+
+!!! info "Note"
+
+    It goes without saying that almost all roles can only be assigned to registered users. Anonymous guests and external users (only known by e-mail) cannot take on any tasks (such as coach or administrator) within OpenOlat.
 
