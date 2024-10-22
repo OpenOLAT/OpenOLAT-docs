@@ -130,3 +130,5 @@ Beispiel **draw.io**<br>
 ## Weiterführende Informationen
 
 [Archivierung der Zustimmungen zu Nutzungsbedingungen durch Administrator:innen](../../manual_admin/usermanagement/Data_protection.de.md#export-von-benutzerdaten)
+
+[Datenschutz](../../manual_admin/usermanagement/Data_protection.de.md)
