@@ -11,7 +11,7 @@ Purpose | self registration of participants in groups
 Assessable | no
 Speciality / Note | In contrast to the course elements "Topic assignment" and "Enrolment", all participants can specify several topics with priorities in the course element "Topic Broker". OpenOlat then creates assignments based on these topic and prioritization requests.
 
-With the "Topic exchange" course module, a registration process for a topic is completed in 2 steps:<br>
+With the "Topic exchange" course element, a registration process for a topic is completed in 2 steps:<br>
 1. Step: All participants indicate their preferred topics and prioritization.<br>
 2. Step: The topics are assigned to the participants.
 
@@ -26,14 +26,14 @@ This division brings more fairness to the allocation of topics, because the allo
 * Both a selection of topics and a limit on the number of people per topic can be specified. A limitation to groups is also possible.
 * A certain number of topics per participant can also be made mandatory.
 * The choice of topic is limited to a specific time slot.
-* After closing the time window, OpenOlat can calculate who is assigned which topics based on the specified priorities. The calculation can be triggered automatically or manually.
+* After closing the time window, OpenOlat can calculate who is assigned which topics based on the specified priorities. The calculation can be triggered automatically or manually. Manual initiation of the assignment (recommended) is reserved for course owners.
 
 [To the top of the page ^](#topic_broker)
 
 
 ## The algorithm for automatic topic assignment {: #topic_broker_algorithm}
 
-If a selection and allocation process works on a first-come, first-served basis, then this is unfair. This is familiar from the allocation of tickets for football matches and concerts. Users with a better internet connection will be given preference, as will users who have time to log in immediately at the time of publication.
+If a selection and allocation process works on a "first-come, first-served basis", then this is unfair. This is familiar from the allocation of tickets for football matches and concerts. Users with a better internet connection will be given preference, as will users who have time to log in immediately at the time of publication.
 
 The problem is known as the "stable matching" problem. Details on the implementation in OpenOlat can be found here: [OpenOlat_Project_Broker_Matching_Algorithm.pdf](assets/OpenOlat_Project_Broker_Matching_Algorithm.pdf)
 
@@ -76,31 +76,31 @@ In the "Configuration" tab, the framework conditions for the choice of subject a
 
 
 ![1_green_24.png](assets/1_green_24.png) **Enrollment method**<br>
-Aktuell ist die Methode ["Faire Auswahl"](#topic_broker_algorithm) verfügbar. Es ist geplant, dass weitere Methoden zur Auswahl hinzukommen. 
+The ["Fair selection"](#topic_broker_algorithm) method is currently available. It is planned that further methods will be added to the selection. 
 
-![2_green_24.png](assets/2_green_24.png) **Einschreibungen pro Teilnehmer:in**<br>
-Die Teilnehmer:innen sollen mehrere Wunschthemen angeben können, jedoch nach Durchführung der Zuordnung nur für 1 oder eine begrenzte Anzahl Themen definitiv eingeschrieben werden. In diesem Feld geben Sie an, für wie viele Themen die definitve Einschreibung erfolgt. Es ist eine zwingernd zu machende Angabe, die für alle Teilnehmer:innen gilt.
+![2_green_24.png](assets/2_green_24.png) **Enrolments per participant**<br>
+Participants should be able to specify several desired topics, but after the assignment has been carried out, they will only be definitively enrolled for 1 or a limited number of topics. In this field you indicate for how many topics the definitive enrolment will take place. This is a mandatory entry that applies to all participants.
 
-![3_green_24.png](assets/3_green_24.png) **Auswahl/Prioritäten pro Teilnehmer:in**<br>
-Wenn die Teilnehmer:innen mehrere Themen angegeben haben, können sie eine Auswahl als ihre Priorität/bevorzugter Wunsch markieren. In diesem Feld geben Sie an, wie viele Themen maximal als bevorzugtes Wunschthema angegeben werden können.
+![3_green_24.png](assets/3_green_24.png) **Selection/priorities per participant**<br>
+If participants have specified several topics, they can mark a selection as their priority/preferred choice. In this field, you specify the maximum number of topics that can be specified as preferred preferred topics.
 
-**Teilnehmer:in kann ...**<br>
-![4_green_24.png](assets/4_green_24.png)  Wurden im Feld "Einschreibungen pro Teilnehmer:in" mehrere Einschreibungen als Vorgabe gewünscht, kann nun den Teilnehmer:innen erlaubt werden, die Anzahl der Einschreibungen individuell zu reduzieren. (Weniger Einschreibungen als im Feld "Einschreibungen pro Teilnehmer:in" vorgegeben wurde.)<br>
-![5_green_24.png](assets/5_green_24.png) Den Teilnehmer:innen kann auch erlaubt werden, Einschreibungen wieder zurückzuziehen, wenn nach Ablauf des Auswahlzeitraums die Zuteilung und Einschreibung erfolgt ist.
+**Participant can ...**<br>
+![4_green_24.png](assets/4_green_24.png)  If several enrolments were requested as a default in the "Enrolments per participant" field, participants can now be allowed to reduce the number of enrolments individually. (Fewer enrolments than specified in the "Enrolments per participant" field).<br>
+![5_green_24.png](assets/5_green_24.png) Participants may also be allowed to withdraw enrolments if the allocation and enrolment has taken place after the end of the selection period.
 
-![6_green_24.png](assets/6_green_24.png) **Auswahlzeitraum**<br>
-Der Auswahlzeitraum ist das Zeitfenster, innerhalb dessen die Teilnehmer:innen ihre Themenwünsche abgeben müssen. Nach Ende des Auswahlzeitraums finden die Einschreibungen statt.
+![6_green_24.png](assets/6_green_24.png) **Selection period**<br>
+The selection period is the time window within which participants must submit their topic requests. Enrolment takes place after the end of the selection period.
 
-![7_green_24.png](assets/7_green_24.png) **Einschreibung nach Ablauf der Frist**<br>
-Als Kursbesitzer:in entscheiden Sie, ob die definitiven Einschreibungen automatisch oder manuell vorgenommen werden, sobald das Ende des Auwahlzeitraums erreicht ist.
+![7_green_24.png](assets/7_green_24.png) **Enrolment after the deadline**<br>
+As the course owner, you decide whether the final enrolments are made automatically or manually as soon as the end of the selection period is reached.
 
-![8_green_24.png](assets/8_green_24.png) **Berechtigungen: Thema bearbeiten**<br>
-Standardmässig ist das Recht zum Bearbeiten der Themenvorgaben den Kursbesitzer:innen vorbehalten. Mit dieser Option kann das Recht auch Betreuer:innen gegeben werden.<br>
-Die Bearbeitung kann noch detaillierter spezifiziert werden, wenn die erweiterte Konfiguration genutzt wird (Toggle-Button am rechten Rand).
+![8_green_24.png](assets/8_green_24.png) **Authorizations: edit topic**<br>
+By default, the right to edit the topic specifications is reserved for course owners. With this option, the right can also be given to coaches.<br>
+Editing can be specified in even greater detail if the extended configuration is used (toggle button on the right-hand side).
 
 ![9_green_24.png](assets/9_green_24.png) **Berechtigungen: Teilnehmer:innen bearbeiten**<br>
-tbd <br>
-Die Bearbeitung kann noch detaillierter spezifiziert werden, wenn die erweiterte Konfiguration genutzt wird (Toggle-Button am rechten Rand).
+By default, the right to override and edit a selected topic is reserved for course owners. With this option, the right can also be given to coaches. (They normally only have read-only rights if they select one of the names). <br>
+Editing can be specified in even greater detail if the extended configuration is used (toggle button on the right-hand side).
 
 
 [Up (Course owner perspective) ^](#topic_broker_setup)<br>
@@ -145,11 +145,11 @@ In the example below, the lower section also contains a field that was added in 
 
 ---
 
-### Coach topic exchange (course coach perspective) {: #topic_broker_coaching}
+## Coach topic exchange (course coach perspective) {: #topic_broker_coaching}
 
 ### Capture topics
 
-The selectable topics may have already been added and described by course owners (in the "Topics" tab in the course editor). Alternatively, this can also be done by course tutors. As a coach, select the course element and the "Topics" tab. The topics can be newly created here or imported from an Excel spreadsheet. (You will also find an Excel template for download under the "Import topics" selection option).
+The selectable topics may have already been added and described by course owners (in the "Topics" tab in the course editor). Alternatively, this can also be done by **course tutors**. As a coach, select the course element and the "Topics" tab. The topics can be newly created here or imported from an Excel spreadsheet. (You will also find an Excel template for download under the "Import topics" selection option).
 
 ![course_element_topic_broker_topics_coach_v1_de.png](assets/course_element_topic_broker_topics_coach_v1_de.png){ class="shadow lightbox" }
 
@@ -174,15 +174,16 @@ In the "Participants" tab, coaches can see who has already submitted their topic
 [Up (Course owner perspective) ^](#topic_broker_coaching)<br>
 [To the top of the page ^](#topic_broker)
 
+
 ### Topic assignment (final enrollment pending)
 
 The process proceeds in the following steps
 
 * "Selection in progress"
-* "Definitive enrollment pending"
+* "Definitive enrolment pending"
 * "Enrolment completed"
 
-Once all participants have entered their topic requests and the time window for submission has closed, the "Selection in progress" phase is complete. The status changes to "**Definitive enrollment pending**".
+Once all participants have entered their topic requests and the time window for submission has closed, the "Selection in progress" phase is complete. The status changes to "**Definitive enrolment pending**".
 
 Participants and topics must now be assigned. OpenOlat can automatically make assignments based on the topic and prioritization requests. For this purpose, OpenOlat uses a [fair algorithm](assets/OpenOlat_Project_Broker_Matching_Algorithm.pdf).
 
@@ -208,7 +209,7 @@ After an automatic assignment, an e-mail is always sent to all course participan
 
 ###  Manual topic assignment/enrolment by coaches {: #topic_broker_assignment_manually}
 
-If the course owner has selected the "Manual" option in the "Configuration" tab in the course editor, the execution of the assignment algorithm must be started by a course administrator.
+If the course owner has selected the "manual" option in the "Configuration" tab in the course editor, the execution of the assignment algorithm must be started by a course administrator.
 
 The time when they trigger enrolment is not fixed.
 
@@ -224,15 +225,22 @@ Once the coach has decided on a run (an assignment result), the **enrolment** is
 
 In the case of manual kick-off, you can also specify that the participants are subsequently informed of the enrolment by e-mail.
 
-![course_element_topic_broker_confirm_assignment_v1_de.png](assets/course_element_topic_broker_confirm_assignment_v1_de.png){ class="shadow lightbox" }
-
-In the case of manual kick-off, you can also specify that the participants are subsequently informed of the enrolment by email.
 
 !!! tip "Note"
 
     If there are still people with the status "Waiting list" or "Open" after clicking on "Apply", you can assign them manually (see [Adjustment](Course_Element_Topic_Broker.md#topic_broker_adjustment)).<br>
     This may be necessary, for example, if a person has not yet entered a topic after the time window has expired and therefore could not be assigned by the algorithm.
 
+
+[Up (Course owner perspective) ^](#topic_broker_coaching)<br>
+[To the top of the page ^](#topic_broker)
+
+
+### Influence topic assignment {: #topic_broker_boost}
+
+With a **boost function**, coaches can add a weighting for each individual and thus take corrective action. The assignments of participants with a boost are given preferential treatment by the enrolment algorithm.
+
+![course_element_topic_broker_boost_v1_de.png](assets/course_element_topic_broker_boost_v1_de.png){ class="shadow lightbox" }
 
 [Up (Course owner perspective) ^](#topic_broker_coaching)<br>
 [To the top of the page ^](#topic_broker)
@@ -271,7 +279,7 @@ The button is available both in the course editor (for course owners) and in run
 
 ## Choice of topic (student perspective) {: #topic_broker_participant}
 
-As a participant, simply select the course element Topic Exchange in your course. Depending on the phase of the enrolment process, you will be shown the current status of topic allocation.
+As a participant, simply select the course element Topic Broker in your course. Depending on the phase of the enrolment process, you will be shown the current status of topic allocation.
 
 ### 1. Step: Select topics
 Click on the "Add" button for a topic description that you would like to enrol in and it will be added to the list of your selected topics. 
@@ -295,6 +303,7 @@ As long as the selection is still in progress (the time window for this is not y
 
 [Up (Perspective course participant) ^](#topic_broker_participant)<br>
 [To the top of the page ^](#topic_broker)
+
 
 ### 3. Step: Wait for assignment
 
