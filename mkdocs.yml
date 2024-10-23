@@ -275,7 +275,9 @@ plugins:
           Folder: Ordner
           Folder concept: Ordnerkonzept
           Form : Formular
-          Form editor (Questionnaire editor) : Formular Editor
+          Form Editor : Formular-Editor
+          Form Elements : Formular-Elemente
+          Form Element Rubric : Formular-Element Rubrik
           Forms in Courses : Formulare in Kursen
           Forms in Rubric Scoring : Formular als Rubrik Bewertung
           Forms in the ePortfolio template : Formular in der Portfolio 2.0 Vorlage
@@ -289,7 +291,7 @@ plugins:
           General Configuration of Course Elements : Allgemeine Konfiguration von Kursbausteinen
           General functions : Allgemeine Funktionen
           General Information : Allgemeines
-          General information on Forms : Allgemeines zu Formularen
+          General information on forms : Allgemeines zu Formularen
           General Information on Tests : Allgemeines zu Tests
           General information on the search : Allgemeines zur Suche
           Global search : Globale Suche

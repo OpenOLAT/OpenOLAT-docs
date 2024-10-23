@@ -19,7 +19,14 @@ nav:
       - Session Timeout and Logout: "basic_concepts/Session_Timeout_and_Logout.md"  
     - Framework:
       - Navigation: "basic_concepts/Navigation.md"
-      - Full-Text Search: "basic_concepts/Full_Text_Search.md"
+      - Search:
+        - General information on the search: "basic_concepts/Search_General.md"
+        - Full-Text Search: "basic_concepts/Full_Text_Search.md"
+        - Global search: "basic_concepts/Search_Global.md"
+        - Local search: "basic_concepts/Search_Local.md"
+        - Search other users: "basic_concepts/Search_Person.md"
+        - Search in a course:  "basic_concepts/Search_in_Course.md"
+        - Search in the file hub:  "basic_concepts/Search_in_FileHub.md"
       - Portal configuration: "basic_concepts/Portal_configuration.md"
       - Chat: "basic_concepts/Chat.md"
       - Table concept: "basic_concepts/Table_Concept.md"
@@ -295,13 +302,12 @@ nav:
       - Overview: "learningresources/Resource_Folder.md"
     - Form:
       - Overview: "learningresources/Form.md"
+      - General information on forms: "learningresources/Forms_General_Information.md"
+      - Form Editor: "learningresources/Form_Editor.md"
+      - Form Elements: "learningresources/Form_Elements.md"
+      - Form Element Rubric: "learningresources/Form_Element_Rubric.md"
+      - Question rules: "learningresources/Form_Question_Rules.md"
       - Forms in Courses: "learningresources/Forms_in_Courses.md"
-      - General information on Forms: "learningresources/General_information_on_Forms.md"
-      - Form editor (Questionnaire editor): 
-        - Overview: "learningresources/Form_editor_Questionnaire_editor.md"
-        - Form Editor 17.1: "learningresources/Form_editor_17_1.md"
-        - Rubric: "learningresources/Rubric.md"
-        - Question rules: "learningresources/Question_rules.md"
     - Portfolio 2.0 Template:
       - Portfolio template Creation: "learningresources/Portfolio_template_Creation.md"
       - Portfolio template Administration and editing: "learningresources/Portfolio_template_Administration_and_editing.md"

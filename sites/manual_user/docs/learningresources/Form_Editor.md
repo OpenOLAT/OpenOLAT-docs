@@ -1,4 +1,4 @@
-# Form editor
+# The Form Editor
 
 Select or create a learning resource of the type "Form" and click on "Edit content" in the administration. The editor opens. Here you can select one or more layouts and add various elements to the areas.
 

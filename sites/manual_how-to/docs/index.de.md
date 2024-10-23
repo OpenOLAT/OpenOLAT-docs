@@ -13,7 +13,7 @@
 
 1. [Wie erstelle ich einen Blog?](/de/manual_how-to/blog/blog)
 2. [Wie erstelle ich ein Content Package?](/de/manual_how-to/content_package/content_package)
-3. [Wie erstelle ich eine Formular-Lernressource?](de/manual_how-to/create_a_form/create_a_form)
+3. [Wie erstelle ich eine Formular-Lernressource?](/de/manual_how-to/create_a_form/create_a_form)
 4. [Wie erstelle ich einen Podcast?](/de/manual_how-to/podcast/podcast)
 5. [Wie erstelle ich ein Wiki?](/de/manual_how-to/wikis/wikis)
 

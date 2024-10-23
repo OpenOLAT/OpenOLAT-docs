@@ -1,4 +1,4 @@
-# Forms in courses
+# Forms in courses {: #forms_in_courses} 
 
 The learning resource form can be used within courses for different purposes and with different [course elements](../learningresources/Course_Elements.md).
 
@@ -19,3 +19,5 @@ In general, forms can also be created directly in the course via the respective 
 ## Changes to forms and included questionnaires
 
 Please note that once a form has been called up by a participant, the form can only be changed in a limited way.
+
+[To the top of the page ^](#forms_in_courses)

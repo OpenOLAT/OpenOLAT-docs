@@ -1,4 +1,4 @@
-# Rubrik
+# Das Formular-Element Rubrik
 
 Ein Rubrik ist in OpenOlat ein Element der Lernressource "Formular". Rubriks bieten sich an, wenn Sie mehrere Fragen für die gleiche Bewertungsskala verwenden wollen. Der Anwendungsbereich von Rubrik Bewertungen ist gross. Generell können Rubrik Elemente in allen Formularen und für sämtliche Kursbausteine und Lernressourcen, die Formulare nutzen, verwendet werden. Konkret sind das:
 
