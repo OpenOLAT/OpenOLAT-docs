@@ -56,7 +56,7 @@ Besteht bereits eine Mitgliedschaft in einer Gruppe und Sie wollen die Rolle der
 
 
 **Zuweisung der Rolle Gruppenbetreuer:innen**<br>
-Wenn Sie eine neue Gruppe erstellen, sind Sie automatisch Betreuer:in dieser Gruppe. Betreuer:innen einer Gruppe erhalten zusätzlich den Link "Administration" im Menu. Wenn gewünscht, können dann weitere Personen zu Gruppenbetreuer:innen gemacht werden.<br>
+Wenn Sie eine neue Gruppe erstellen, sind Sie automatisch Betreuer:in dieser Gruppe. Betreuer:innen einer Gruppe erhalten zusätzlich den Link "Administration" im Menü. Wenn gewünscht, können dann weitere Personen zu Gruppenbetreuer:innen gemacht werden.<br>
 (Vorgehen dazu: Gruppen > Administration > Tab Mitglieder > Icon mit 3 Punkten am Ende der Zeile des betreffenden Mitglieds > Option "Mitglied bearbeiten")
 
 
@@ -94,7 +94,7 @@ Jedem Curriculumelement können durch Curriculumverwalter:innen, Curriculumbesit
 
 **Rollenzuweisung bei bestehenden Mitgliedschaften ändern**<br> 
 
-Die Bearbeitungsmöglichkeit  für die Rollen
+Die Bearbeitungsmöglichkeit für die Rollen
 
 * Curriculumelementbesitzer:in
 * Klassenlehrer:in

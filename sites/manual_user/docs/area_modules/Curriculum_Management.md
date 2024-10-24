@@ -4,7 +4,7 @@
 
 What does curriculum mean in OpenOlat?
 
-A curriculum is a curriculum, which is closely linked to teaching objectives and contents and which follows a certain sequence of events. In OpenOlat, the curriculum primarily serves to structure the educational offerings. This way, courses and learning resources can be displayed in chronological order in a tree structure and thus placed in a concrete educational context.
+Curriculums closely linked to teaching objectives and contents and which follows a certain sequence of events. In OpenOlat, the curriculum primarily serves to structure the educational offerings. This way, courses and learning resources can be displayed in chronological order in a tree structure and thus placed in a concrete educational context.
 
 ## Curriculum roles
 
@@ -23,6 +23,12 @@ The various curricula in OpenOlat are administered in the curriculum administrat
 **Level Curriculum**
 
 At curriculum level, the curricula that have already been created are displayed in tabular form. The number of curriculum elements is also displayed. Curricula can be opened again for editing or deletion.
+
+![Übersicht aller Curricula](assets/Curriculum_Browser.png)
+
+**Curriculum element level**
+
+If you are in a curriculum, its tree structure is displayed in the Curriculum Browser. All metadata such as start and end date, curriculum type and timetable are also visible.
 
 In addition, the following data can be displayed in the table:
 

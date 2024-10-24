@@ -244,7 +244,7 @@ The account roles are only relevant for the administrator's search function.<br>
 
 [Role assignment for course roles](Assign_Roles.md#role_assignment_course)<br> 
 
-[Role assignment for curricula](Assign_Roles.de.md#role_assignment_curriculum)<br>
+[Role assignment for curricula](Assign_Roles.md#role_assignment_curriculum)<br>
 [Rights of the curriculum roles](../basic_concepts/Authorization_Concept.md#rechte-der-curriculum-rollen)<br> 
 
 [Role assignment of the "Invitee"](Assign_Roles.md#role_assignment_invitee)<br>

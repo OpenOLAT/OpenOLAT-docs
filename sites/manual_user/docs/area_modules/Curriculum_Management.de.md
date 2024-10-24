@@ -20,7 +20,7 @@ Die verschiedenen Curricula in OpenOlat werden in dem Menü Curriculumverwaltung
 
 ## Curriculum Browser
 
- **Ebene Curriculum**
+**Ebene Curriculum**
 
 Auf Curriculum-Ebene werden die bereits erstellten Curricula tabellarisch angezeigt. Die Anzahl der Curriculumelemente, die zu einem Curriculum gehören, ist ebenfalls ersichtlich. Die Curricula können auf dieser obersten Ebene zum Bearbeiten wieder geöffnet oder auch gelöscht werden.
 
