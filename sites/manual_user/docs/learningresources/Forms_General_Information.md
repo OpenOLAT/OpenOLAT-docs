@@ -7,8 +7,3 @@ Typical for forms is that they consist of an information element, one or more qu
 In forms many different [question types](../learningresources/Form_editor_Questionnaire_editor.md) like rubric, single selection, multiple selection, text input and file upload are available. Each form consists of a page with one or more questions or elements. Branching is also possible via [Question rules](Question_rules.md).
 
 
-!!! warning "Attention"
-
-    The predecessor of the learning resource Form was the learning resource Questionnaire (QTI 1.2).
-
-    The support of the old QTI 1.2 questionnaires was terminated with OpenOlat 15. You have to create and configure a new learning resource ["Form"](../forms/Three_Steps_to_your_Form.md).
