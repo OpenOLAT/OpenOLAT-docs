@@ -194,7 +194,7 @@ kontaktieren Sie ihren Systemadministrator.
 
 Benutzerdaten| | Kontaktdaten|| Adressdaten ||
 ---|---|---|---|---|---  
-userName| Benutzername| telPrivate| Telefon privat| street| Strasse  
+nickName| Benutzername| telPrivate| Telefon privat| street| Strasse  
 firstName| Vorname| telMobile| Telefon Mobil| extendedAddress| Adresszusatz  
 lastName| Nachname| telOffice| Telefon Geschäft| poBox| Postfach  
 email| E-Mail-Adresse| skype| Skype ID| zipCode| PLZ  

@@ -181,7 +181,7 @@ administrator.
 
 User data|| Contact data|| Address data| |
 ---|---|---|---|---|---  
-userName| Username| telPrivate| Phone number private| street| Street  
+nickName| Username| telPrivate| Phone number private| street| Street  
 firstName| First name| telMobile| Phone number mobile| extendedAddress| Extra address line  
 lastName| Last name| telOffice| Phone number office| poBox| P.O.Box  
 email| E-mail address| skype| Skype ID| zipCode| Zip code  
