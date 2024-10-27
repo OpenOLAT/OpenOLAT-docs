@@ -4,7 +4,7 @@ Das Bewertungswerkzeug ist die zentrale Schaltstelle für die Bewertungen eines 
 
 Über die Kursadministration gelangt man in das Bewertungswerkzeug. Wenn Sie das Bewertungswerkzeug aufrufen, erscheint zunächst die Übersichtsseite mit zentralen Informationen sowie eine Übersicht der aktuell anstehenden Bewertungen und Aktionen. So wissen Sie schnell, was aktuell zu tun ist. Von der Übersichtsseite aus gelangen Sie auch zu den konkreten Bewertungsbereichen der einzelnen Kursbausteine und Personen.
 
-![assessment_tool_overview_v1_de.png](assets/Bewertungswerkezuge_191.png)
+![Bewertungswerkzeug Übersicht](assets/Bewertungswerkezuge_191.png)
 
 Schauen wir uns die einzelnen Bereiche der Übersicht genauer an:
 
@@ -30,6 +30,7 @@ In diesem Bereich wird angezeigt, wie viele Teilnehmende, Gruppen und Curriculum
 Wurde für den gesamten Kurs ein "Bestehen" konfiguriert, wird die Anzahl der jeweiligen Kursmitglieder angezeigt, die den Kurs bestanden bzw. nicht bestanden haben. Auch die durchschnittliche Verteilung der Punkte ist, sofern Punkte im Kurs aktiviert sind, erkennbar. 
 
 ![oberste Übersicht Bewertungswerkzeug](assets/Uebersicht_Bewertungswerkzeug.jpg)
+
 ### Prüfungsmodus (Übersicht)
 
 Ist für den Kurs eine Prüfung im [Prüfungsmodus](../learningresources/Assessment_mode.de.md) geplant oder findet gerade eine Prüfung statt wird dies ebenfalls im Bewertungswerkzeug angezeigt. 

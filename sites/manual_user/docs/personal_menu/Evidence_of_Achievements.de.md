@@ -14,7 +14,7 @@ Als Bestätigung für den Besuch eines Kurses bzw. der Erreichung von bestimmten
 
 ## Wer vergibt Leistungsnachweise?
 
-Kursbesitzer:innen legen in ihren Kursen fest, ob OpenOlat Leistungsnachweise erstellen soll. Die Aktivierung erfolgt in der Administration -> Einstellungen im [Tab Bewertung](../learningresources/Course_Settings_Assessment.de.md). 
+Kursbesitzer:innen legen in ihren Kursen fest, ob OpenOlat Leistungsnachweise erstellen und die Übersicht anzeigen soll. Die Aktivierung erfolgt in der Administration -> Einstellungen im [Tab Bewertung](../learningresources/Course_Settings_Assessment.de.md). 
 
 ## Wo sieht man die Leistungsnachweise?
 
@@ -24,7 +24,8 @@ User finden ihre Leistungsnachweise, und sofern aktiviert auch ihre erhaltenen [
 
 Die Anzeige im Persönlichen Menü eignet sich um einen schnellen Überblick über alle bereits in OpenOlat erhaltenen, persönlichen Leistungsnachweise und Zertifikate zu erhalten. So kann man schnell zu den einzelnen Leistungsnachweisen und Zertifikaten  navigieren und weitere Informationen erhalten. Aktivieren Sie in der Übersicht alle für Sie relevanten Spalten z.B. Punkte, Bestanden, Zertifikat. 
 
-Aktivieren Sie "ePortfolio" um einen Leistungsnachweis auch in Ihr [Portfolio](../personal_menu/Portfolio.de.md) zu übernehmen. Dabei wird der Leistungsnachweis in einem ersten Schritt in ihr persönliches ["Media Center"](../personal_menu/Media_Center.de.md) eingefügt und kann von dort aus als Inhaltselement in ein Portfolio eingefügt werden. So können Zusammenstellungen von Leistungsnachweisen für unterschiedliche Zwecke kombiniert und auch bestimmten Personen zugänglich gemacht werden. 
+Klicken Sie auf das ePortfolio Icon um ein einen Leistungsnachweis als Element im  [Medien Center](../personal_menu/Media_Center.de.md) zu speichern und so auch in Ihren [Portfolio](../personal_menu/Portfolio.de.md) Mappen einbinden zu können.
+So können Zusammenstellungen von Leistungsnachweisen für unterschiedliche Zwecke kombiniert und auch bestimmten Personen zugänglich gemacht werden. 
 
 !!! info  "Info"
 
