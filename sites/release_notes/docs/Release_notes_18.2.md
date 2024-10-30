@@ -7,7 +7,7 @@
 
 * * *
 
-:material-calendar-month-outline: **Release date: 01/31/2024 • Last update: 09/25/2024**
+:material-calendar-month-outline: **Release date: 01/31/2024 • Last update: 10/16/2024**
 
 * * *
 
@@ -323,6 +323,7 @@ As of :octicons-tag-24: Release 18.2.1, certain default values can be preconfigu
 
 ## More information
 
+* [YouTrack Release notes 18.2.16](https://track.frentix.com/releaseNotes/OO?q=Fix%20versions:%2018.2.16&title=Release%20Notes%2018.2.16){:target="_blank”}
 * [YouTrack Release notes 18.2.15](https://track.frentix.com/releaseNotes/OO?q=Fix%20versions:%2018.2.15&title=Release%20Notes%2018.2.15){:target="_blank”}
 * [YouTrack Release notes 18.2.14](https://track.frentix.com/releaseNotes/OO?q=Fix%20versions:%2018.2.14&title=Release%20Notes%2018.2.14){:target="_blank”}
 * [YouTrack Release notes 18.2.13](https://track.frentix.com/releaseNotes/OO?q=Fix%20versions:%2018.2.13&title=Release%20Notes%2018.2.13){:target="_blank”}
