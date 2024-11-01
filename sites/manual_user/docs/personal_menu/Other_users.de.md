@@ -1,4 +1,4 @@
-# Persönliche Werkzeuge: Personensuche
+# Persönliche Werkzeuge: Personensuche 
 
 ![pers_menu_other_users_v1_de.png](assets/pers_menu_other_users_v1_de.png){ class="aside-right lightbox"}
 
@@ -16,6 +16,12 @@ Im Unterschied zur allgemeinen Volltextsuche, die unter dem Lupensymbol in der K
 
 ## Weitere Informationen
 
-* [Volltextsuche](../basic_concepts/Full_Text_Search.de.md)<br>
+[Personensuche >](../basic_concepts/Search_Person.de.md)<br>
+
+[Allgemeines zur Suche >](../basic_concepts/Search_General.de.md)<br>
+[Globale Suche >](../basic_concepts/Search_Global.de.md)<br>
+[Lokale Suche >](../basic_concepts/Search_Local.de.md)<br>
+[Suche im Kurs >](../basic_concepts/Search_in_Course.de.md)<br>
+[Suche im File Hub >](../basic_concepts/Search_in_FileHub.de.md)<br>
 
 

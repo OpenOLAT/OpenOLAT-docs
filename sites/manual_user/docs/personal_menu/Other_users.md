@@ -16,8 +16,13 @@ In contrast to the general full-text search, which can be called up under the ma
 
 ## Further informations
 
-* [Full text search](../basic_concepts/Full_Text_Search.md)
+[Search for other users >](../basic_concepts/Search_Person.md)<br>
 
+[General information about the search >](../basic_concepts/Search_General.md)<br>
+[Global search >](../basic_concepts/Search_Global.md)<br>
+[Local search >](../basic_concepts/Search_Local.md)<br>
+[Search in a course >](../basic_concepts/Search_in_Course.md)<br>
+[Search in File Hub >](../basic_concepts/Search_in_FileHub.md)<br>
 
 
 
