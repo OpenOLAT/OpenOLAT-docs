@@ -10,41 +10,24 @@ The following course elements serve in particular to provide and structure cours
 
 <div class="grid cards" markdown>
 
-	  [:fontawesome-solid-cubes: Structure](Course_Element_Structure.md)
-
-    [:fontawesome-solid-file-lines: Page](Course_Element_Page.md)
-
-    [:fontawesome-regular-file-lines: HTML-Page](Course_Element_HTML_Page.md)
-
-    [:fontawesome-solid-up-right-from-square: External Page](Course_Element_External_Page.md)
-
-    [:fontawesome-solid-box-archive: CP Learning Content](Course_Element_CP_Learning_Content.md)
-
-    [:fontawesome-solid-box-archive: SCORM Learning Content](Course_Element_SCORM_Learning_Content.md)
-
-    [:fontawesome-regular-file: Document](Course_Element_Document.md)
-
-    [:fontawesome-regular-folder-open: Folder](Course_Element_Folder.md)
-
-    [:fontawesome-solid-video: Podcast](Course_Element_Podcast.md)
-
-    [:fontawesome-solid-bullhorn: Blog](Course_Element_Blog.md)
-
-	  [:fontawesome-solid-film: Video](Course_Element_Video.md)
-
-    [:fontawesome-solid-video: Video Livestream](Course_Element_Video_Livestream.md)
-
-    [:octicons-arrow-right-24: Opencast](Course_Element_Opencast.md)
-
-    [:octicons-arrow-right-24: edu-sharing](Course_Element_edu_Sharing.md)
-
-    [:octicons-arrow-right-24: card2brain](Course_Element_card2brain_Flashcards.md)
-
-    [:octicons-arrow-right-24: MediaSite](Course_Element_Mediasite.md)
-
-    [:octicons-arrow-right-24: Edubase](Course_Element_Edubase.md)
-
-    [:simple-jupyter: JupyterHub](Course_Element_JupyterHub.md)
+* [:fontawesome-solid-cubes: Structure](Course_Element_Structure.md)
+* [:fontawesome-solid-file-lines: Page](Course_Element_Page.md)
+* [:fontawesome-regular-file-lines: HTML-Page](Course_Element_HTML_Page.md)
+* [:fontawesome-solid-up-right-from-square: External Page](Course_Element_External_Page.md)
+* [:fontawesome-solid-box-archive: CP Learning Content](Course_Element_CP_Learning_Content.md)
+* [:fontawesome-solid-box-archive: SCORM Learning Content](Course_Element_SCORM_Learning_Content.md)
+* [:fontawesome-regular-file: Document](Course_Element_Document.md)
+* [:fontawesome-regular-folder-open: Folder](Course_Element_Folder.md)
+* [:fontawesome-solid-video: Podcast](Course_Element_Podcast.md)
+* [:fontawesome-solid-bullhorn: Blog](Course_Element_Blog.md)
+* [:fontawesome-solid-film: Video](Course_Element_Video.md)
+* [:fontawesome-solid-video: Video Livestream](Course_Element_Video_Livestream.md)
+* [:octicons-arrow-right-24: Opencast](Course_Element_Opencast.md)
+* [:octicons-arrow-right-24: edu-sharing](Course_Element_edu_Sharing.md)
+* [:octicons-arrow-right-24: card2brain](Course_Element_card2brain_Flashcards.md)
+* [:octicons-arrow-right-24: MediaSite](Course_Element_Mediasite.md)
+* [:octicons-arrow-right-24: Edubase](Course_Element_Edubase.md)
+* [:simple-jupyter: JupyterHub](Course_Element_JupyterHub.md)
 
 </div>
 
@@ -54,27 +37,17 @@ The following course elements can be used in particular to test knowledge.
 
 <div class="grid cards" markdown>
 
-	  [:fontawesome-regular-thumbs-up: Assessment](Course_Element_Assessment.md)
-
-    [:fontawesome-solid-bars-progress: Task](Course_Element_Task.md)
-
-    [:fontawesome-solid-bars-progress: Group Task](Course_Element_Grouptask.md)
-
-    [:fontawesome-solid-briefcase: Portfolio Task](Course_Element_Portfolio_Task.md)
-
-    [:fontawesome-solid-square-pen: Test](Course_Element_Test.md)
-
-    [:fontawesome-solid-square-pen: Self-test](Course_Element_Self_Test.md)
-
-	  [:fontawesome-solid-futbol: Practice](Course_Element_Practice.md)
-
-    [:octicons-arrow-right-24: Video Task](Course_Element_Video_Task.md)
-
-    [:material-clipboard-file-outline: Form](Course_Element_Form.md)
-
-    [:fontawesome-solid-sliders: Survey](Course_Element_Survey.md)
-
-    [:fontawesome-regular-square-check: Checklist](Course_Element_Checklist.md)
+* [:fontawesome-regular-thumbs-up: Assessment](Course_Element_Assessment.md)
+* [:fontawesome-solid-bars-progress: Task](Course_Element_Task.md)
+* [:fontawesome-solid-bars-progress: Group Task](Course_Element_Grouptask.md)
+* [:fontawesome-solid-briefcase: Portfolio Task](Course_Element_Portfolio_Task.md)
+* [:fontawesome-solid-square-pen: Test](Course_Element_Test.md)
+* [:fontawesome-solid-square-pen: Self-test](Course_Element_Self_Test.md)
+* [:fontawesome-solid-futbol: Practice](Course_Element_Practice.md)
+* [:octicons-arrow-right-24: Video Task](Course_Element_Video_Task.md)
+* [:material-clipboard-file-outline: Form](Course_Element_Form.md)
+* [:fontawesome-solid-sliders: Survey](Course_Element_Survey.md)
+* [:fontawesome-regular-square-check: Checklist](Course_Element_Checklist.md)
 
 </div>
 
@@ -100,29 +73,18 @@ Course elements in this category are mainly used for collaborative work and exch
 
 <div class="grid cards" markdown>
 
-	  [:fontawesome-solid-earth-americas: Wiki](Course_Element_Wiki.md)
-
-    [:fontawesome-regular-comments: Forum](Course_Element_Forum.md)
-
-    [:material-file-multiple-outline: File Dialog](Course_Element_File_Dialog.md)
-
-    [:fontawesome-solid-inbox: Participant folder](Course_Element_Participant_Folder.md)
-
-    [:fontawesome-solid-users: Participant list](Course_Element_Participant_List.md)
-
-	[:fontawesome-solid-desktop: Vitero](Course_Element_vitero.md)
-
-    [:fontawesome-solid-desktop: OpenMeetings](Course_Element_OpenMeetings.md)
-
-    [:fontawesome-solid-desktop: Adobe Connect](Course_Element_Adobe_Connect.md)
-
-    [:fontawesome-solid-desktop: GoToMeeting](Course_Element_GoToMeeting.md)
-
-    [:fontawesome-solid-desktop: BigBlueButton](Course_Element_BigBlueButton.md)
-
-    [:fontawesome-solid-desktop: Microsoft Teams](Course_Element_Microsoft_Teams.md)
-
-    [:fontawesome-solid-desktop: Zoom](Course_Element_Zoom.md)
+* [:fontawesome-solid-earth-americas: Wiki](Course_Element_Wiki.md)
+* [:fontawesome-regular-comments: Forum](Course_Element_Forum.md)
+* [:material-file-multiple-outline: File Dialog](Course_Element_File_Dialog.md)
+* [:fontawesome-solid-inbox: Participant folder](Course_Element_Participant_Folder.md)
+* [:fontawesome-solid-users: Participant list](Course_Element_Participant_List.md)
+* [:fontawesome-solid-desktop: Vitero](Course_Element_vitero.md)
+* [:fontawesome-solid-desktop: OpenMeetings](Course_Element_OpenMeetings.md)
+* [:fontawesome-solid-desktop: Adobe Connect](Course_Element_Adobe_Connect.md)
+* [:fontawesome-solid-desktop: GoToMeeting](Course_Element_GoToMeeting.md)
+* [:fontawesome-solid-desktop: BigBlueButton](Course_Element_BigBlueButton.md)
+* [:fontawesome-solid-desktop: Microsoft Teams](Course_Element_Microsoft_Teams.md)
+* [:fontawesome-solid-desktop: Zoom](Course_Element_Zoom.md)
 
 </div>
 
@@ -148,17 +110,12 @@ The following course elements are particularly suitable for organizational matte
 
 <div class="grid cards" markdown>
 
-	  [:fontawesome-solid-right-to-bracket: Enrolment](Course_Element_Enrolment.md)
-
-    [:fontawesome-solid-circle-info: Notifications](Course_Element_Notifications.md)
-
-    [:fontawesome-regular-envelope: E-Mail](Course_Element_EMail.md)
-
-    [:fontawesome-solid-clipboard-list: Topic Broker](Course_Element_Topic_Broker.md)
-
-    [:fontawesome-regular-calendar-days: Calendar](Course_Element_Calendar.md)
-
-    [:fontawesome-regular-calendar: Appointment scheduling](Course_Element_Appointment_Scheduling.md)
+* [:fontawesome-solid-right-to-bracket: Enrolment](Course_Element_Enrolment.md)
+* [:fontawesome-solid-circle-info: Notifications](Course_Element_Notifications.md)
+* [:fontawesome-regular-envelope: E-Mail](Course_Element_EMail.md)
+* [:fontawesome-solid-clipboard-list: Topic Broker](Course_Element_Topic_Broker.md)
+* [:fontawesome-regular-calendar-days: Calendar](Course_Element_Calendar.md)
+* [:fontawesome-regular-calendar: Appointment scheduling](Course_Element_Appointment_Scheduling.md)
 
 </div>
 
@@ -168,13 +125,10 @@ Additional building blocks can be found in the category "Other".
 
 <div class="grid cards" markdown>
 
-	  [:fontawesome-solid-up-right-from-square: LTI Page](Course_Element_LTI_Page.md)
-
-    [:fontawesome-regular-circle: Topic Assignment](Course_Element_Topic_Assignment.md)
-
-    [:octicons-link-24: Link list](Course_Element_Link_List.md)
-
-    [:fontawesome-solid-arrows-turn-right: Selection](Course_Element_Selection.md)
+* [:fontawesome-solid-up-right-from-square: LTI Page](Course_Element_LTI_Page.md)
+* [:fontawesome-regular-circle: Topic Assignment](Course_Element_Topic_Assignment.md)
+* [:octicons-link-24: Link list](Course_Element_Link_List.md)
+* [:fontawesome-solid-arrows-turn-right: Selection](Course_Element_Selection.md)
 
 </div>
 

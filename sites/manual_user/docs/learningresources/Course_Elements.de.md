@@ -14,75 +14,40 @@ Die folgenden Kursbausteine dienen insbesondere der Bereitstellung und Strukturi
 
 <!--    [![single page icon](assets/single_page_icon.png){ class=size16 } HTML-Seite](Course_Element_Single_Page.de.md)-->
 
-<div class="grid cards" markdown>
-
-	[:fontawesome-solid-cubes: Struktur](Course_Element_Structure.de.md)
-
-    [:fontawesome-solid-file-lines: Seite](Course_Element_Page.de.md)
-
-    [:fontawesome-regular-file-lines: HTML-Seite](Course_Element_HTML_Page.de.md)
-
-    [:fontawesome-solid-up-right-from-square: Externe Seite](Course_Element_External_Page.de.md)
-
-    [:fontawesome-solid-box-archive: CP-Lerninhalt](Course_Element_CP_Learning_Content.de.md)
-
-    [:fontawesome-solid-box-archive: SCORM-Lerninhalt](Course_Element_SCORM_Learning_Content.de.md)
-
-    [:fontawesome-regular-file: Dokument](Course_Element_Document.de.md)
-
-    [:fontawesome-regular-folder-open: Ordner](Course_Element_Folder.de.md)
-
-    [:fontawesome-solid-video: Podcast](Course_Element_Podcast.de.md)
-
-    [:fontawesome-solid-bullhorn: Blog](Course_Element_Blog.de.md)
-
-	[:fontawesome-solid-film: Video](Course_Element_Video.de.md)
-
-    [:fontawesome-solid-video: Video Livestream](Course_Element_Video_Livestream.de.md)
-
-    [:octicons-arrow-right-24: Opencast](Course_Element_Opencast.de.md)
-
-    [:octicons-arrow-right-24: edu-sharing](Course_Element_edu_Sharing.de.md)
-
-    [:octicons-arrow-right-24: card2brain](Course_Element_card2brain_Flashcards.de.md)
-
-    [:octicons-arrow-right-24: MediaSite](Course_Element_Mediasite.de.md)
-
-    [:octicons-arrow-right-24: Edubase](Course_Element_Edubase.de.md)
-
-    [:simple-jupyter: JupyterHub](Course_Element_JupyterHub.de.md)
-
-</div>
+* [:fontawesome-solid-cubes: Struktur](Course_Element_Structure.de.md)
+* [:fontawesome-solid-file-lines: Seite](Course_Element_Page.de.md)
+* [:fontawesome-regular-file-lines: HTML-Seite](Course_Element_HTML_Page.de.md)
+* [:fontawesome-solid-up-right-from-square: Externe Seite](Course_Element_External_Page.de.md)
+* [:fontawesome-solid-box-archive: CP-Lerninhalt](Course_Element_CP_Learning_Content.de.md)
+* [:fontawesome-solid-box-archive: SCORM-Lerninhalt](Course_Element_SCORM_Learning_Content.de.md)
+* [:fontawesome-regular-file: Dokument](Course_Element_Document.de.md)
+* [:fontawesome-regular-folder-open: Ordner](Course_Element_Folder.de.md)
+* [:fontawesome-solid-video: Podcast](Course_Element_Podcast.de.md)
+* [:fontawesome-solid-bullhorn: Blog](Course_Element_Blog.de.md)
+* [:fontawesome-solid-film: Video](Course_Element_Video.de.md)
+* [:fontawesome-solid-video: Video Livestream](Course_Element_Video_Livestream.de.md)
+* [:octicons-arrow-right-24: Opencast](Course_Element_Opencast.de.md)
+* [:octicons-arrow-right-24: edu-sharing](Course_Element_edu_Sharing.de.md)
+* [:octicons-arrow-right-24: card2brain](Course_Element_card2brain_Flashcards.de.md)
+* [:octicons-arrow-right-24: MediaSite](Course_Element_Mediasite.de.md)
+* [:octicons-arrow-right-24: Edubase](Course_Element_Edubase.de.md)
+* [:simple-jupyter: JupyterHub](Course_Element_JupyterHub.de.md)
 
 ### Wissensüberprüfung
 
 Folgende Kursbausteine können insbesondere zur Wissensüberprüfung eingesetzt werden.
 
-<div class="grid cards" markdown>
-
-	[:fontawesome-regular-thumbs-up: Bewertung](Course_Element_Assessment.de.md)
-
-    [:fontawesome-solid-bars-progress: Aufgabe](Course_Element_Task.de.md)
-
-    [:fontawesome-solid-bars-progress: Gruppenaufgabe](Course_Element_Grouptask.de.md)
-
-    [:fontawesome-solid-briefcase: Portfolioaufgabe](Course_Element_Portfolio_Task.de.md)
-
-    [:fontawesome-solid-square-pen: Test](Course_Element_Test.de.md)
-
-    [:fontawesome-solid-square-pen: Selbsttest](Course_Element_Self_Test.de.md)
-
-	[:fontawesome-solid-futbol: Übung](Course_Element_Practice.de.md)
-
-    [:octicons-arrow-right-24: Video-Aufgabe](Course_Element_Video_Task.de.md)
-
-    [:material-clipboard-file-outline: Formular](Course_Element_Form.de.md)
-
-    [:fontawesome-solid-sliders: Umfrage](Course_Element_Survey.de.md)
-
-    [:fontawesome-regular-square-check: Checkliste](Course_Element_Checklist.de.md)
-
-</div>
+* [:fontawesome-regular-thumbs-up: Bewertung](Course_Element_Assessment.de.md)
+* [:fontawesome-solid-bars-progress: Aufgabe](Course_Element_Task.de.md)
+* [:fontawesome-solid-bars-progress: Gruppenaufgabe](Course_Element_Grouptask.de.md)
+* [:fontawesome-solid-briefcase: Portfolioaufgabe](Course_Element_Portfolio_Task.de.md)
+* [:fontawesome-solid-square-pen: Test](Course_Element_Test.de.md)
+* [:fontawesome-solid-square-pen: Selbsttest](Course_Element_Self_Test.de.md)
+* [:fontawesome-solid-futbol: Übung](Course_Element_Practice.de.md)
+* [:octicons-arrow-right-24: Video-Aufgabe](Course_Element_Video_Task.de.md)
+* [:material-clipboard-file-outline: Formular](Course_Element_Form.de.md)
+* [:fontawesome-solid-sliders: Umfrage](Course_Element_Survey.de.md)
+* [:fontawesome-regular-square-check: Checkliste](Course_Element_Checklist.de.md)
 
 Die meisten Kursbausteine der Kategorie Wissensüberprüfung sind bewertbar und es können bei Bedarf Punkte vergeben werden. Dann können weitere Features wie die Addition von Punkten oder die Berechnung von Bestanden / Nicht bestanden für den Kurs, basierend auf den Bewertungen verschiedener Kursbausteine, hinzugefügt werden. Die Berechnung bei herkömmlichen Kursen erfolgt über den Kursbaustein [Struktur](Course_Element_Structure.de.md) bzw. am obersten Kursknoten.
 
@@ -104,33 +69,18 @@ Es kann definiert werden, ob die Benutzerdaten anonymisiert oder mit Vor- und Na
 
 Kursbausteine dieser Kategorie werden vor allem für kollaboratives Arbeiten und den Austausch untereinander eingesetzt. Hier sind auch die Bausteine für virtuelle Klassenräume und Online-Meetings zugeordnet.
 
-<div class="grid cards" markdown>
-
-	[:fontawesome-solid-earth-americas: Wiki](Course_Element_Wiki.de.md)
-
-    [:fontawesome-regular-comments: Forum](Course_Element_Forum.de.md)
-
-    [:material-file-multiple-outline: Dateidiskussion](Course_Element_File_Dialog.de.md)
-
-    [:fontawesome-solid-inbox: Teilnehmer Ordner](Course_Element_Participant_Folder.de.md)
-
-    [:fontawesome-solid-users: Teilnehmerliste](Course_Element_Participant_List.de.md)
-
-	[:fontawesome-solid-desktop: Vitero](Course_Element_vitero.de.md)
-
-    [:fontawesome-solid-desktop: OpenMeetings](Course_Element_OpenMeetings.de.md)
-
-    [:fontawesome-solid-desktop: Adobe Connect](Course_Element_Adobe_Connect.de.md)
-
-    [:fontawesome-solid-desktop: GoToMeeting](Course_Element_GoToMeeting.de.md)
-
-    [:fontawesome-solid-desktop: BigBlueButton](Course_Element_BigBlueButton.de.md)
-
-    [:fontawesome-solid-desktop: Microsoft Teams](Course_Element_Microsoft_Teams.de.md)
-
-    [:fontawesome-solid-desktop: Zoom](Course_Element_Zoom.de.md)
-
-</div>
+* [:fontawesome-solid-earth-americas: Wiki](Course_Element_Wiki.de.md)
+* [:fontawesome-regular-comments: Forum](Course_Element_Forum.de.md)
+* [:material-file-multiple-outline: Dateidiskussion](Course_Element_File_Dialog.de.md)
+* [:fontawesome-solid-inbox: Teilnehmer Ordner](Course_Element_Participant_Folder.de.md)
+* [:fontawesome-solid-users: Teilnehmerliste](Course_Element_Participant_List.de.md)
+* [:fontawesome-solid-desktop: Vitero](Course_Element_vitero.de.md)
+* [:fontawesome-solid-desktop: OpenMeetings](Course_Element_OpenMeetings.de.md)
+* [:fontawesome-solid-desktop: Adobe Connect](Course_Element_Adobe_Connect.de.md)
+* [:fontawesome-solid-desktop: GoToMeeting](Course_Element_GoToMeeting.de.md)
+* [:fontawesome-solid-desktop: BigBlueButton](Course_Element_BigBlueButton.de.md)
+* [:fontawesome-solid-desktop: Microsoft Teams](Course_Element_Microsoft_Teams.de.md)
+* [:fontawesome-solid-desktop: Zoom](Course_Element_Zoom.de.md)
 
 #### Virtuelle Räume
 
@@ -149,37 +99,21 @@ Damit Sie alle Funktionalitäten benutzen können, benötigen Sie ein Headset un
 
 Für organisatorische Belange und zur Verteilung von Informationen eignen sich besonders die nachfolgenden Kursbaussteine.
 
-<div class="grid cards" markdown>
-
-	[:fontawesome-solid-right-to-bracket: Einschreibung](Course_Element_Enrolment.de.md)
-
-    [:fontawesome-solid-circle-info: Mitteilungen](Course_Element_Notifications.de.md)
-
-    [:fontawesome-regular-envelope: E-Mail](Course_Element_EMail.de.md)
-
-    [:fontawesome-solid-clipboard-list: Themenbörse](Course_Element_Topic_Broker.de.md)
-
-    [:fontawesome-regular-calendar-days: Kalender](Course_Element_Calendar.de.md)
-
-    [:fontawesome-regular-calendar: Terminplanung](Course_Element_Appointment_Scheduling.de.md)
-
-</div>
+* [:fontawesome-solid-right-to-bracket: Einschreibung](Course_Element_Enrolment.de.md)
+* [:fontawesome-solid-circle-info: Mitteilungen](Course_Element_Notifications.de.md)
+* [:fontawesome-regular-envelope: E-Mail](Course_Element_EMail.de.md)
+* [:fontawesome-solid-clipboard-list: Themenbörse](Course_Element_Topic_Broker.de.md)
+* [:fontawesome-regular-calendar-days: Kalender](Course_Element_Calendar.de.md)
+* [:fontawesome-regular-calendar: Terminplanung](Course_Element_Appointment_Scheduling.de.md)
 
 ### Andere
 
 Zusätzliche Bausteine finden Sie in der Kategorie "Andere".
 
-<div class="grid cards" markdown>
-
-	[:fontawesome-solid-up-right-from-square: LTI-Seite](Course_Element_LTI_Page.de.md)
-
-    [:fontawesome-regular-circle: Themenvergabe](Course_Element_Topic_Assignment.de.md)
-
-    [:octicons-link-24: Linkliste](Course_Element_Link_List.de.md)
-
-    [:fontawesome-solid-arrows-turn-right: Auswahl](Course_Element_Selection.de.md)
-
-</div>
+* [:fontawesome-solid-up-right-from-square: LTI-Seite](Course_Element_LTI_Page.de.md)
+* [:fontawesome-regular-circle: Themenvergabe](Course_Element_Topic_Assignment.de.md)
+* [:octicons-link-24: Linkliste](Course_Element_Link_List.de.md)
+* [:fontawesome-solid-arrows-turn-right: Auswahl](Course_Element_Selection.de.md)
 
 ## Allgemeines zu Kursbausteinen
 
