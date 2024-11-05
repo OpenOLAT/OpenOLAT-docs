@@ -21,7 +21,6 @@ Example is the course card as horizontal list card.
 2. **Course Information:** Space for course information. All Information gets displayed in vertical order.
 3. **Progress and Actions:** Space for Course Progress, if booked. Also the 2 action buttons are here.
 
-
 ### Card compact (vertical)
 
 These Cards are found in badges / media center / catalog.
@@ -36,11 +35,18 @@ These Cards are found in badges / media center / catalog.
  with 2 buttons | without image | 
  ![coursecard compactv2](assets/course-card-compact-2button.jpg) | ![coursecard compactv3](assets/course-card-compact-curriculum.jpg)
 
+### Card compact horizontal
+
+The compact card can also be flipped into horizontal.
+
+![compact card horizontal variant](assets/compactcard-horizontal.png)
 
 ## Classes
+
 This is just an entrypoint, not an complete list.
 
-**Course Card /List Card**
+### Course Card /List Card
+
 ```CSS
 .o_coursetable.o_rendertype_custom .o_table_row .o_repo_entry_list_item {
 
@@ -52,8 +58,8 @@ This is just an entrypoint, not an complete list.
 ``` Css
 %o_card,
 .o_card {
-	&:hover {
-	}
+   &:hover {
+ }
 }
 ```
 
