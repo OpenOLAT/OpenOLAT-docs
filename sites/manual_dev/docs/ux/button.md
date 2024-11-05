@@ -63,13 +63,14 @@ Buttons can be aligned left, right, or center depending on the context.
 
 | Alignment| Use case| Sample Picture |
 |----------|----------|--------------|
-| *Left alignment*     | In page content and forms where the content is typically unconstrained other than by the normal OO Grid.  | ![freeflow diagram](assets/forms-freeflow.png) |
-| *Right alignment*     | In fixed dialogs flows (Yes/No, Cancel,Delete...) that continue in a progressive direction (wizards) and toolbars.  | ![workflow](assets/workflow-button.jpg) |
-| *centered*    | used for Emtpystates or  when the content has the only available action on the screen.  |![button centered](assets/button-centered-situation.jpg) |
+| *Left alignment*     | In page content and forms where the content is typically unconstrained other than by the normal OO Grid.   | ![freeflow diagram](assets/forms-freeflow.png)
+|*Left alignment*  |And also in Dialogs with forms|![freeflow diagram](assets/formdialog-button.png)  |
+| *Wizard*     | In Dialog flows / Wizards, thatcontinue in a progressive direction  | ![workflow](assets/workflow-button.png) |
+| *Right alignment*     | In fixed dialogs flows, where there's no form element | ![workflow](assets/dialog-button.png) |
+| *centered*    | used for Emtpystates or  when the content has the only available action on the screen.  |[Link to the Empty state declaration](empty_state.md) |
 
 ### Order
 
-When using multiple buttons, the position of the primary action is the most important part.
+A primary button will be left-aligned and positioned to the left of the secondary/tertiary button.
 
 ![button order](assets/button-order2.jpg){ class="thumbnail-xl" }
-A primary button will be left-aligned and positioned to the left of the secondary/tertiary button.
