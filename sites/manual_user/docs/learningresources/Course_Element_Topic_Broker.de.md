@@ -47,7 +47,7 @@ Die Themenvergabe im Kursbaustein Themenbörse geschieht deshalb in 2 Schritten:
 
 !!! note "Hinweis"
 
-    Aufgrund der vorangehend beschrieben Funktionsweise ist verständlich, dass die Themenbörse in offenen Kursen, mit undefinierter Anzahl Teilnehmer:innen, nicht verwendet werden kann.
+    Aufgrund der vorangehend beschriebenen Funktionsweise ist verständlich, dass die Themenbörse in offenen Kursen, mit undefinierter Anzahl Teilnehmer:innen, nicht verwendet werden kann.
 
 [zum Seitenanfang ^](#topic_broker)
 
@@ -93,15 +93,16 @@ Wenn die Teilnehmer:innen mehrere Themen angegeben haben, können sie eine Auswa
 Der Auswahlzeitraum ist das Zeitfenster, innerhalb dessen die Teilnehmer:innen ihre Themenwünsche abgeben müssen. Nach Ende des Auswahlzeitraums finden die Einschreibungen statt.
 
 ![7_green_24.png](assets/7_green_24.png) **Einschreibung nach Ablauf der Frist**<br>
-Als Kursbesitzer:in entscheiden Sie, ob die definitiven Einschreibungen automatisch oder manuell vorgenommen werden, sobald das Ende des Auwahlzeitraums erreicht ist.
+Als Kursbesitzer:in entscheiden Sie, ob die definitiven Einschreibungen automatisch oder manuell vorgenommen werden, sobald das Ende des Auswahlzeitraums erreicht ist.
 
 ![8_green_24.png](assets/8_green_24.png) **Berechtigungen: Thema bearbeiten**<br>
 Standardmässig ist das Recht zum Bearbeiten der Themenvorgaben den Kursbesitzer:innen vorbehalten. Mit dieser Option kann das Recht auch Betreuer:innen gegeben werden.<br>
 Die Bearbeitung kann noch detaillierter spezifiziert werden, wenn die erweiterte Konfiguration genutzt wird (Toggle-Button am rechten Rand).
 
 ![9_green_24.png](assets/9_green_24.png) **Berechtigungen: Teilnehmer:innen bearbeiten**<br>
-Standardmässig ist das Recht zum Übersteuern und Bearbeiten einer getroffenen Themenauswahl den Kursbesitzer:innen vorbehalten. Mit dieser Option kann das Recht auch Betreuer:innen gegeben werden. (Diese haben normalerweise nur Leserecht, wenn sie einen der Namen wählen.)<br>
-Die Bearbeitung kann noch detaillierter spezifiziert werden, wenn die erweiterte Konfiguration genutzt wird (Toggle-Button am rechten Rand).
+Standardmässig ist das Recht zum Übersteuern und Bearbeiten einer getroffenen Themenauswahl den Kursbesitzer:innen vorbehalten. Mit dieser Option kann das Recht auch Betreuer:innen gegeben werden. (Diese haben normalerweise nur Leserecht, wenn sie einen der Namen wählen.) Die Möglichkeit zum Übersteuern sollte jedoch möglichst nur in Ausnahmefällen benutzt werden, denn sie läuft der eigentlichen Absicht zuwider, eine faire Verteilung durch einen neutralen Algorithmus zu ermöglichen.<br>
+Die Bearbeitung kann noch detaillierter spezifiziert werden, wenn die erweiterte Konfiguration genutzt wird (Toggle-Button am rechten Rand).<br>
+ 
 
 [nach oben (Perspektive Kursbesitzer:in) ^](#topic_broker_setup)<br>
 [zum Seitenanfang ^](#topic_broker)
@@ -196,7 +197,7 @@ Die Ausführung des Zuordnungsprozesses kann **automatisch oder manuell angestos
 [zum Seitenanfang ^](#topic_broker)
 
 
-### Automatische Themenzuordnung {: #topic_broker_assignment_automatically}
+### Automatische Einschreibung/Themenzuordnung {: #topic_broker_assignment_automatically}
 
 Wurde von dem/der Kursbesitzer:in im Kurseditor im Tab "Konfiguration" die Option "automatisch" gewählt, dann startet kurze Zeit nach dem Schliessen des Zeitfensters, in dem die Teilnehmer:innen ihre Wahl treffen konnten, automatisch der Zuordnungsalgorithmus. (Wie lange der Prozess läuft, ist z.B. von der Anzahl der Themen und Teilnehmer:innen abhängig.)
 
@@ -210,11 +211,11 @@ Nach einer automatischen Zuordnung wird immer eine Mail an alle Kursteilnehmer:i
 [zum Seitenanfang ^](#topic_broker)
 
 
-### Manuelle Themenzuordnung/Einschreibung durch Betreuer:innen {: #topic_broker_assignment_manually}
+### Manuelle Einschreibung (Themenzuordnung) durch Betreuer:innen {: #topic_broker_assignment_manually}
 
-Wurde von dem/der Kursbesitzer:in im Kurseditor im Tab "Konfiguration" die Option "manuell" gewählt, dann muss die Ausführung des Zuordnungsalgorithmus von einem/einer Kursbetreuer:in gestartet werden.
+Wurde von dem/der Kursbesitzer:in im Kurseditor im Tab "Konfiguration" die Option "manuell" gewählt, dann muss die Ausführung des Zuordnungsalgorithmus von einem/einer Kursbesitzer:in oder einem/einer Kursbetreuer:in gestartet werden.
 
-Der Zeitpunkt, wann sie die Einschreibung auslösen, ist nicht festgelegt.
+Der Zeitpunkt, wann Sie die Einschreibung auslösen, ist nicht festgelegt. Während der Zuordnung befindet sich der Kursbaustein immer noch im Status "Definitive Einschreibung ausstehend".
 
 ![course_element_topic_broker_enrollment_start_v1_de.png](assets/course_element_topic_broker_enrollment_start_v1_de.png){ class="shadow lightbox" }
 
@@ -238,7 +239,7 @@ Auch beim manuellen Anstoss kann bestimmt werden, dass im Anschluss die Teilnehm
 [zum Seitenanfang ^](#topic_broker)
 
 
-### Themenzuordnung beeinflussen {: #topic_broker_boost}
+### Einschreibung (Themenzuordnung) beeinflussen {: #topic_broker_boost}
 
 Mit einer **Boost-Funktion** können Betreuer:innen pro Einzelperson eine Gewichtung ergänzen und so korrigierend eingreifen. Die Zuordnungen der Teilnehmer:innen mit einem Boost werden vom Einschreibealgorithmus bevorzugt behandelt.
 
@@ -248,17 +249,15 @@ Mit einer **Boost-Funktion** können Betreuer:innen pro Einzelperson eine Gewich
 [zum Seitenanfang ^](#topic_broker)
 
 
-### Korrektur der Themenzuordnung/Einschreibung durch Betreuer:innen {: #topic_broker_adjustment}
+### Korrektur der Einschreibung (Themenzuordnung) durch Betreuer:innen {: #topic_broker_adjustment}
+
+Befindet sich der Prozess in der Phase "Definitve Einschreibung ausstehend" können Betreuer:innen die getroffenen Zuordnungen korrigieren.
 
 Für eine Übersicht wählen Sie als Kursbetreuer:in den Kursbaustein und klicken dann im Tab "Teilnehmer:innen" auf das Plussymbol vor einem Namen in der Liste. Es öffnet sich die Ansicht der getroffenen Wahl und Prioritätensetzung dieser Person.
 
-Als Betreuer:in haben Sie die Möglichkeit, die Einschreibung manuell vorzunehmen oder auch ein vorausgewähltes Thema zu entfernen. 
+Als Betreuer:in haben Sie die Möglichkeit, ein vorausgewähltes Thema zu entfernen oder (wenn Sie diese Themenzuordnung gut heissen) die Einschreibung manuell vorzunehmen. 
 
 ![course_element_topic_broker_enrollment_manually_v1_de.png](assets/course_element_topic_broker_enrollment_manually_v1_de.png){ class="shadow lightbox" }
-
-Eine Einschreibung (auch automatisch vorgenommene) kann von Betreuer:innen wieder rückgängig gemacht werden (Austragen).
-
-![course_element_topic_broker_enrollment_manually2_v1_de.png](assets/course_element_topic_broker_enrollment_manually2_v1_de.png){ class="shadow lightbox" }
 
 
 [nach oben (Perspektive Kursbetreuer:in) ^](#topic_broker_coaching)<br>
@@ -272,6 +271,23 @@ Im Tab "Themen" kann mit dem Button "Daten exportieren" eine zip-Datei herunterg
 Der Button ist sowohl im Kurseditor (für Kursbesitzer:innen) als auch im Run-Mode für Betreuer:innen / Besitzer:innen verfügbar.
 
 ![course_element_topic_broker_topic_export_coach_v1_de.png](assets/course_element_topic_broker_topic_export_coach_v1_de.png){ class="shadow lightbox" }
+
+
+[nach oben (Perspektive Kursbetreuer:in) ^](#topic_broker_coaching)<br>
+[zum Seitenanfang ^](#topic_broker)
+
+
+### Korrektur abgeschlossener Einschreibungen durch Betreuer:innen {: #topic_broker_adjust_enrollment}
+
+Auch wenn bereits die Phase "Einschreibung abgeschlossen" erreicht ist, haben Sie als Kursbesitzer:in oder Betreuer:in, noch die Möglichkeit, Einschreibungen zu korrigieren. (Betreuer:innen, sofern ihnen die Berechtigung gegeben wurde.)
+
+Wählen Sie dazu den Tab "Themen" und öffnen Sie durch Klick auf das "+" in der ersten Spalte ein Thema.
+
+![course_element_topic_broker_modify_enrollment1_v1_de.png](assets/course_element_topic_broker_modify_enrollment1_v1_de.png){ class="shadow lightbox" }
+
+Eine Einschreibung (auch automatisch vorgenommene) kann wieder rückgängig gemacht werden (ausgetragen werden). Klicken Sie auf "Austragen" in der Zeile der betreffenden Person.
+
+![course_element_topic_broker_modify_enrollment2_v1_de.png](assets/course_element_topic_broker_modify_enrollment2_v1_de.png){ class="shadow lightbox" }
 
 
 [nach oben (Perspektive Kursbetreuer:in) ^](#topic_broker_coaching)<br>
