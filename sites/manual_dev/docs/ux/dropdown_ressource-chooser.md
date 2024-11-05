@@ -17,3 +17,4 @@ Select Multiple Objects out of a searchable list.
 
 ### Single Object/Ressource Selection
 
+Select single object via radio selection out of a list.

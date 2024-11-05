@@ -1,23 +1,19 @@
-# Dropdown Menu / Chooser
+# Directory Chooser
 
 ### Structure
 
-![Dropdown](assets/dropdown1.png)
+![directory choose](assets/directorychooser_copyto-dialog.png)
 
-* Search Input
-* Selected List
-* Divider
-* Search Results - Multi Checkbox
-* Actions
+* Sections
+* Breadcrumb
+* Search
+* Single selection list
+* Action button
 
 ## Variants
 
-### Rich List
+### Move to Dialogue
 
-* we can enhance to add 2 Lines and  Pictures to the results.
+![directory choose](assets/directorychooser_moveto-dialog.png)
 
-### Radio Selection / Single selection
-
-## Guidelines / Usage
-
-Use the dropdown menu when you have 5-15 items to choose from, for navigation or selection items.
+## CSS Classes / Javascript
