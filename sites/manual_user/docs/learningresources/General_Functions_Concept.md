@@ -14,13 +14,13 @@ Example Course element "Video":
 OpenOlat offers course authors a variety of different course element types. Each course element type has different capabilities.
 
 **Example 1:**<br>
-A "Video" course element must be able to handle the additional functions for videos (annotations, quizzes, chapters, comments, segments).
+A ["Video" course element](../learningresources/Course_Element_Video.md) must be able to handle the additional functions for videos (annotations, quizzes, chapters, comments, segments).
 
 **Example 2:**<br>
-A "Test" course element must be able to deal with scoring and evaluating questions. A "BigBlueButton" (video conference) course element, for example, does not require these skills.
+A ["Test" course element](../learningresources/Course_Element_Test.md) must be able to deal with scoring and evaluating questions. A "BigBlueButton" (video conference) course element, for example, does not require these skills.
 
 **Example 3:**<br>
-A checklist is an example of a course element without a learning resource. All checklist functions are built into the course element itself.
+A [checklist](../learningresources/Course_Element_Checklist.md) is an example of a course element without a learning resource. All checklist functions are built into the course element itself.
 
 Depending on the configuration, the following course element types are available to authors, for example:
 
@@ -28,7 +28,7 @@ Depending on the configuration, the following course element types are available
 
 ## What is a learning resource?
 
-As mentioned in the previous section, learning resources are objects that can be inserted into course elements.
+Learning resources are objects that can be inserted into course elements.
 
 !!! note "Exception"
 
@@ -39,9 +39,9 @@ As mentioned in the previous section, learning resources are objects that can be
 
 The functional concept with the course elements as a container for learning resources has significant advantages:
 
-* The learning resources can be used multiple times in different course modules and courses.
-* The learning resources can be replaced without destroying the course structure. The course elements continue to form the course structure as temporarily empty containers.
-* The course elements can be given properties (e.g. title) that are retained regardless of the learning resource inserted. For example, if another video learning resource with a different file name is inserted.
+* The learning resources can be **used multiple times** in different course modules and courses.
+* The learning resources can be **replaced** without destroying the course structure. The course elements continue to form the course structure as temporarily empty containers.
+* The course elements can be given **properties** (e.g. title) that are retained regardless of the learning resource inserted. For example, if another video learning resource with a different file name is inserted.
 
 
 ## Independent learning resources

@@ -11,16 +11,16 @@ Für das Qualitätsmanagement wird standardmässig eine **Formular-Lernressource
     Bitte unterscheiden Sie:
 
     * **Lernressource "Formular"** (entspricht einem Blatt Papier mit Fragen)
-    * **Kursbaustein "Formular"**<br>
+    * **[Kursbaustein "Formular"](../learningresources/Course_Element_Form.de.md)**<br>
     In diesen Kursbaustein wird eine Formular-Lernressource eingebunden. 
-    * **Kursbaustein "Umfrage"**<br>
+    * **[Kursbaustein "Umfrage"](../learningresources/Course_Element_Survey.de.md)**<br>
     Auch in diesen Kursbaustein wird eine Formular-Lernressource eingebunden. Im Unterschied zum Kursbaustein "Formular" können die Eintragungen der Teilnehmer:innen in die Formular-Lernressource jedoch anonym gemacht werden. Ausserdem wird ein Report mit Statistiken erzeugt.
 
 
 
 ## Wo werden die Formulare erstellt?
 
-Die Formular-Lernressourcen für das Qualitätsmanagement werden **im Autorenbereich** erstellt, wie alle anderen Lernressourcen auch.
+Die Formular-Lernressourcen für das Qualitätsmanagement werden **[im Autorenbereich](../area_modules/Authoring.de.md)** erstellt, wie alle anderen Lernressourcen auch.
 
 Auch bei der Erstellung einer Datenerhebung oder eines Datenerhebungsgenerators besteht die Möglichkeit, in den Autorenbereich zu wechseln und dort eine Formular-Lernressource zu erstellen. 
 
@@ -39,7 +39,7 @@ Umgekehrt sind die selbst zur Qualitätskontrolle erstellten Lernressourcen für
 
 ## Was sollte ein Qualitätsmanagements-Formular enthalten?
 
-Lernressourcen vom Typ "Formular" werden im Autorenbereich mit dem Content Editor erstellt. Es können also alle dort angebotenen Elemente in eine Formular-Lernressource eingefügt werden.
+Lernressourcen vom Typ "Formular" werden im Autorenbereich mit dem [Content Editor](../learningresources/Form_Editor.de.md) erstellt. Es können also alle dort angebotenen Elemente in eine Formular-Lernressource eingefügt werden.
 
 Häufig wird ein Rubrik-Element mit einer Likertskala verwendet. Mit Feldern für Freitext-Eingaben können persönliche Kommentare ermöglicht werden. Wenn keine Felder zur Angabe des Namens angelegt werden, bleibt die Umfrage anonym.
 
@@ -53,7 +53,7 @@ Wenn ein Formular für Befragungen im Rahmen des Qualitätsmanagements verwendet
 * Abschlussbefragung
 * Ad-hoc-Befragungen
 
-Es kommen also relativ wenige Standardfragebogen zum Einsatz, und ein Fragebogen entspricht eine Analyse.
+Es kommen also relativ wenige Standardfragebogen zum Einsatz, und ein Fragebogen entspricht einer Analyse.
 
 
 ## Änderung von Formularen für das Qualitätsmanagement

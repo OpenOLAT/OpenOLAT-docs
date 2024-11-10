@@ -14,13 +14,13 @@ Beispiel Kursbaustein "Video":
 OpenOlat bietet den Kursautor:innen eine Vielzahl verschiedener Kursbaustein-Typen an. Jeder Kursbausteintyp hat andere Fähigkeiten.
 
 **Beispiel 1:**<br>
-Ein Kursbaustein "Video" muss mit den Zusatzfunktionen für Videos (Annotationen, Quizzes, Kapitel, Kommentaren, Segmenten) umgehen können.
+Ein [Kursbaustein "Video"](../learningresources/Course_Element_Video.de.md) muss mit den Zusatzfunktionen für Videos (Annotationen, Quizzes, Kapitel, Kommentaren, Segmenten) umgehen können.
 
 **Beispiel 2:**<br>
-Ein Kursbaustein "Test" muss mit Punkten und Auswertung von Fragen umgehen können. Diese Fähigkeiten benötigt z.B. ein Kursbaustein "BigBlueButton" (Videokonferenz) nicht.
+Ein [Kursbaustein "Test"](../learningresources/Course_Element_Test.de.md) muss mit Punkten und Auswertung von Fragen umgehen können. Diese Fähigkeiten benötigt z.B. ein Kursbaustein "BigBlueButton" (Videokonferenz) nicht.
 
 **Beispiel 3:**<br>
-Eine Checkliste ist ein Beispiel für einen Kursbaustein ohne Lernressource. Alle Funktionen der Checkliste sind im Kursbaustein selbst eingebaut.
+Eine [Checkliste](../learningresources/Course_Element_Checklist.de.md) ist ein Beispiel für einen Kursbaustein ohne Lernressource. Alle Funktionen der Checkliste sind im Kursbaustein selbst eingebaut.
 
 Autor:innen stehen je nach Konfiguration z.B. die folgenden Kursbaustein-Typen zur Verfügung:
 
@@ -29,7 +29,7 @@ Autor:innen stehen je nach Konfiguration z.B. die folgenden Kursbaustein-Typen z
 
 ## Was ist eine Lernressource?
 
-Wie im vorhergehenden Abschnitt erwähnt, sind Lernressourcen Objekte, die in Kursbausteine eingefügt werden können.
+Lernressourcen sind Objekte, die in Kursbausteine eingefügt werden können.
 
 !!! note "Ausnahme"
 
@@ -41,9 +41,9 @@ Wie im vorhergehenden Abschnitt erwähnt, sind Lernressourcen Objekte, die in Ku
 
 Das Funktionskonzept mit den Kursbausteinen als Behälter für Lernressourcen hat wesentliche Vorteile:
 
-* Die Lernressourcen können mehrfach in verschiedenen Kursbausteinen und Kursen genutzt werden.
-* Die Lernressourcen können ausgewechselt werden, ohne dass dadurch die Kursstruktur zerstört wird. Die Kursbausteine bilden weiterhin als vorübergehend leere Behälter die Kursstruktur.
-* Den Kursbausteinen können Eigenschaften gegeben werden (z.B. Titel), die unabhängig von der eingefügten Lernressource erhalten bleiben. Z.B. wenn eine andere Video-Lernressource mit anderem Dateinamen eingefügt wird.
+* Die Lernressourcen können **mehrfach in verschiedenen Kursbausteinen und Kursen** genutzt werden.
+* Die Lernressourcen können **ausgewechselt werden**, ohne dass dadurch die Kursstruktur zerstört wird. Die Kursbausteine bilden weiterhin als vorübergehend leere Behälter die Kursstruktur.
+* Den Kursbausteinen können **Eigenschaften** gegeben werden (z.B. Titel), die **unabhängig** von der eingefügten Lernressource erhalten bleiben. Z.B. wenn eine andere Video-Lernressource mit anderem Dateinamen eingefügt wird oder ein Test speziell für den konkreten Kurs eine andere Grundeinstellung erhält. 
 
 
 

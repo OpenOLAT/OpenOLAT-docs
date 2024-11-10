@@ -10,16 +10,15 @@ For quality management, a **form learning resource** is used as standard, which 
         Please differentiate:
 
         * **learning resource "form"** (corresponds to a sheet of paper with questions)
-        * **course element "form"**<br>
+        * **[course element "form"](../learningresources/Course_Element_Form.md)**<br>
         A form learning resource is integrated into this course element.
-        * **course element "survey"**<br>
+        * **[course element "survey"](../learningresources/Course_Element_Survey.md)**<br>
         A form learning resource is also integrated into this course element. In contrast to the "form" course element, however, participants' entries in the "form" learning resource can be made anonymously. A report with statistics is also generated.
-
 
 
 ## Where are the forms created?
 
-The form learning resources for quality management are created **in the authoring area**, just like all other learning resources.
+The form learning resources for quality management are created **[in the authoring area](../area_modules/Authoring.md)**, just like all other learning resources.
 
 When creating a data collection or a data collection generator, it is also possible to switch to the author area and create a form learning resource there. 
 
@@ -39,7 +38,7 @@ Conversely, the learning resources you create yourself for quality control purpo
 
 ## What should a quality management form incorporate?
 
-Learning resources of the "Form" type are created in the authoring area with the Content Editor. This means that all elements offered there can be inserted into a form learning resource.
+Learning resources of the "Form" type are created in the authoring area with the [Content Editor](../learningresources/Form_Editor.md). This means that all elements offered there can be inserted into a form learning resource.
 
 A category element with a Likert scale is often used. Fields for free text entries can be used to enable personal comments. If no name fields are created, the survey remains anonymous.
 
