@@ -132,10 +132,10 @@ The Workflow tab provides you with an overview of all peer reviews completed by 
 
 [Sample form for peer reviews](assets/Musterformular_PeerReview.zip)
 
-## Links
+## Further information
 
-[Course element "task"](../../manual_user/learningresources/Course_Element_Task.md)
-
+[Course element "task"](../../manual_user/learningresources/Course_Element_Task.md)<br>
+[How do I create a form learning resource?](../../manual_how-to/create_a_form/create_a_form.md)<br>
 
 
 

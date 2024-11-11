@@ -1,6 +1,6 @@
-# Wie erstelle ich eine Formular-Lernressource?
+# Wie erstelle ich eine Formular-Lernressource? {: #create_form}
 
-## 1. Was ist in OpenOlat ein Formular?
+## 1. Was ist in OpenOlat ein Formular? {: #step1}
 
 Ein OpenOlat-Formular ist eine Seite, die von den Benutzern interaktiv ausgefüllt werden kann. Typischerweise sind Fragen zu beantworten, indem etwas angekreuzt wird oder eine Antwort als Text eingegeben wird.
 
@@ -10,7 +10,7 @@ Berechtigte Personen haben Zugriff auf die gemachten Angaben und können Auswert
 
 ---
 
-## 2. Kursbaustein und Lernressource
+## 2. Kursbaustein und Lernressource {: #step2}
 
 Ein OpenOlat-Kurs ist aus Kursbausteinen zusammengesetzt. Die meisten Kursbausteine sind Behälter, in die eine Lernressource eingefügt wird.
 
@@ -26,9 +26,12 @@ Für die Verwendung der Lernressource in verschiedenen Kursbausteinen gibt es we
 
     In früheren OpenOlat-Versionen wurden Formular-Lernressourcen als **Fragebogen** bezeichnet. Sie basierten auf dem Standard QTI 1.2, der inzwischen nicht mehr unterstützt wird.
 	
+
+[Zum Seitenanfang ^](#create_form)
+
 ---
 
-## 3. Wo werden Formular-Lernressourcen verwendet?
+## 3. Wo werden Formular-Lernressourcen verwendet?  {: #step3}
 
 ![grafik_5_formulare_v1_de.png](assets/grafik_5_formulare_v1_de.png){ width=400px class="lightbox" }
 
@@ -42,9 +45,12 @@ d) Formular-Lernressource **im Portfolio**
 
 e) Formular-Lernressource **Stand-alone**
 
+
+[Zum Seitenanfang ^](#create_form)
+
 ---
 
-## 4. Was kann ein Formular?
+## 4. Was kann ein Formular?  {: #step4}
 
 <h3> a) Wie sieht ein Formular aus?</h3>
 
@@ -91,9 +97,11 @@ Klickt ein Betreuer im Kurs auf genau den gleichen Kursbaustein mit Formular, da
     ![formular_frageregeln1_v1_de.png](assets/formular_frageregeln1_v1_de.png){ class="shadow lightbox" }
 
 
+[Zum Seitenanfang ^](#create_form)
+
 ---
 
-## 5. Formulare erstellen/editieren
+## 5. Formulare erstellen/editieren  {: #step5}
 
 Für das Erstellen von Formular-Lernressourcen steht ein **spezieller Editor** zur Verfügung. Er kann von verschiedenen Stellen aus aufgerufen werden:
 
@@ -144,9 +152,11 @@ Falls bereits eine Formular-Lernressource in den Kursbaustein eingebunden ist, k
     Wurde ein Formular bereits benutzt (von Teilnehmern ausgefüllt), bestehen Einschränkungen bei der Bearbeitung. (Siehe unten: 9. Formulare ändern)
 
 
+[Zum Seitenanfang ^](#create_form)
+
 ---
 
-## 6. Formulare im Editor gestalten
+## 6. Formulare im Editor gestalten  {: #step6}
 
 Sobald Sie mit Klick auf "Inhalt editieren" den Formular-Editor geöffnet haben, können Sie zunächst ein neues **Layout** einfügen. <br>
 Ein Layout meint hier ein **Raster**. Sie können mehrere solcher Layouts hintereinander einfügen.
@@ -197,9 +207,12 @@ Erkunden Sie die vielen Optionen!
 
 Wenn Sie fertig sind **schliessen Sie den Editor indem Sie auf den Titel des Formulars in der Krümelnavigation klicken**. Das Formular ist jetzt gespeichert und Sie sehen das Formular aus der Perspektive eines Users.
 
+
+[Zum Seitenanfang ^](#create_form)
+
 ---
 
-## 7. Formulare testen
+## 7. Formulare testen  {: #step7}
 
 Um als Autor ein Formular zu testen, wechseln Sie zur Teilnehmeransicht:
 
@@ -223,9 +236,12 @@ Um als Autor ein Formular zu testen, wechseln Sie zur Teilnehmeransicht:
     
     Mit dem Rollenwechsel zur Teilnehmeransicht im Editor umgehen Sie dies.
 
+
+[Zum Seitenanfang ^](#create_form)
+
 ---
 
-## 8. Formulare konfigurieren
+## 8. Formulare konfigurieren  {: #step8}
 
 <h3>Wo werden Konfigurationen vorgenommen?</h3>
 
@@ -275,11 +291,15 @@ Eine vollständige Aufzählung aller Konfigurationsmöglichkeiten über alle Ebe
 
 !!! tip "Zu beachten, wenn der Lernpfad verwendet wird"
 
-    Verwenden Sie den Lernpfad? Wenn ja, achten Sie darauf, dass nicht die Konfiguration vorhergehender Kursbausteine oder des obersten Kursknotens die Bearbeitung unerwünscht einschränkt. Z.B. durch sequenzielle Lernschritte oder wenn der vorhergehende Kursbaustein zwingend abgearbeitet werden muss, bervor man zum Formular gelangt.
+    Verwenden Sie den Lernpfad? Wenn ja, achten Sie darauf, dass nicht die Konfiguration vorhergehender Kursbausteine oder des obersten Kursknotens die Bearbeitung unerwünscht einschränkt. Z.B. durch sequenzielle Lernschritte oder wenn der vorhergehende Kursbaustein zwingend abgearbeitet werden muss, bevor man zum Formular gelangt.
+
+
+[Zum Seitenanfang ^](#create_form)
 
 ---
 
-## 9. Formulare ändern
+
+## 9. Formulare ändern  {: #step9}
 
 Sobald eine Formular-Lernressource in einen Kursbaustein eingebunden wurde und ein Kursteilnehmer das Formular ausgefüllt hat, exisitieren Daten.
 Das heisst aber auch, dass das Formular nach der ersten Benutzung nicht mehr verändert werden darf. Das würde sonst beliebige nachträgliche Manipulationen ermöglichen.
@@ -296,19 +316,27 @@ Das heisst aber auch, dass das Formular nach der ersten Benutzung nicht mehr ver
 
 ![formular_eingeschr_bearbeitung_v1_de.png](assets/formular_eingeschr_bearbeitung_v1_de.png){ class="shadow lightbox" }
 
+
+[Zum Seitenanfang ^](#create_form)
+
 ---
 
 ## Beispiele
 
-<h3>Beispiel 1: Umfrage zur Unterrichtsqualität</h3>
+### Beispiel 1: Umfrage zur Unterrichtsqualität {: #example1}
 
 Merkmale:
 
-* oft Single Choice
+* oft Single Choice, um zu eindeutiger Stellungnahme zu nötigen
 * anonym
 
+![form_example1_v1_de.png](assets/form_example1_v1_de.png){ class="shadow lightbox" }
 
-<h3>Beispiel 2: Mitarbeiterbefragung</h3>
+[OpenOlat-Lernressource zum Download](assets/OOAcademy_FB_V1.zip)
+
+---
+
+### Beispiel 2: Mitarbeiterbefragung {: #example2}
 
 Merkmale:
 
@@ -316,8 +344,45 @@ Merkmale:
 * oft Texteingabe, z.B. persönliche Ziele der Mitarbeiter
 * weniger Fragen mit Antwort richtig / falsch
 
-<h3>Beispiel 3: Umfrage zur Kundenzufriedenheit </h3>
+---
+
+### Beispiel 3: Umfrage zur Kundenzufriedenheit {: #example3}
 
 Merkmale:
 
 * oft Ampelsystem, da es die Beantwortung vereinfacht und wenig Aufwand für Kunden bedeutet
+
+---
+
+### Beispiel 4: Beurteilung der mündlichen Präsentation in Englisch {: #example4}
+
+Merkmale:
+
+* personalisiert
+* themenunabhängige Beurteilungskriterien
+* Formularoptionen müssen für die beurteilenden Prüfer schnell erfassbar sein
+
+![form_example4_v1_de.png](assets/form_example4_v1_de.png){ class="shadow lightbox" }
+
+[OpenOlat-Lernressource zum Download](assets/Muendliche_Praesentation__Beurteilung.zip)
+
+---
+
+### Beispiel 5: Rubrik im Peer Review {: #example5}
+
+Merkmale:
+
+* Formular enthält (ausser Titel u.ä) meist nur 1 Rubrik-Element
+
+![form_example5_v1_de.png](assets/form_example5_v1_de.png){ class="shadow lightbox" }
+
+[OpenOlat-Lernressource zum Download](assets/Musterformular_PeerReview.zip)
+
+[Zum Seitenanfang ^](#create_form)
+
+---
+
+
+## Weitere Informationen
+
+[Wie führe ich ein Peer Review durch?](../peer_review/peer_review.de.md)

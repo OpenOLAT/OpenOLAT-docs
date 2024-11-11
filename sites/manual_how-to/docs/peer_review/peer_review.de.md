@@ -139,10 +139,10 @@ Im Tab Workflow erhalten Sie eine Übersicht über alle getätigten Peer-Reviews
 [Musterformular für Peer-Review](assets/Musterformular_PeerReview.zip)
 
 
-## Links
+## Weitere Informationen
 
-[Kursbaustein Aufgabe](../../manual_user/learningresources/Course_Element_Task.de.md)
-
+[Kursbaustein Aufgabe](../../manual_user/learningresources/Course_Element_Task.de.md)<br>
+[Wie erstelle ich eine Formular-Lernressource?](../../manual_how-to/create_a_form/create_a_form.de.md)<br>
 
 
 ## Checkliste
