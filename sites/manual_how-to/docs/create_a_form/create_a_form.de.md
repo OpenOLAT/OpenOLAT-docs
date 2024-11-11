@@ -385,4 +385,21 @@ Merkmale:
 
 ## Weitere Informationen
 
-[Wie führe ich ein Peer Review durch?](../peer_review/peer_review.de.md)
+[Allgemeines zu Formularen >](../../manual_user/learningresources/Forms_General_Information.de.md)<br>
+
+[Formular-Editor >](../../manual_user/learningresources/Form_Editor.de.md)<br>
+[Formular-Elemente >](../../manual_user/learningresources/Form_Elements.de.md)<br>
+[Formular-Element Rubrik >](../../manual_user/learningresources/Form_Element_Rubric.de.md)<br>
+[Frageregeln in Formularen >](../../manual_user/learningresources/Form_Question_Rules.de.md)<br>
+
+[Formulare in Kursen >](../../manual_user/learningresources/Forms_in_Courses.de.md)<br>
+[Formulare im Kursbaustein Formular >](../../manual_user/learningresources/Forms_in_Forms_Element.de.md)<br>
+[Formulare im Kursbaustein Umfrage >](../../manual_user/learningresources/Forms_in_Questionnaires.de.md)<br>
+[Formulare als Rubrik Bewertung >](../../manual_user/learningresources/Forms_in_Rubric_Scoring.de.md)<br>
+[Formulare in Peer-Reviews >](../../manual_user/learningresources/Course_Element_Task.de.md#revisions)<br>
+[Formulare in der Portfolio 2.0 Vorlage >](../../manual_user/learningresources/Forms_in_the_ePortfolio_template.de.md)<br>
+
+[Wie führe ich ein Peer Review durch?](../peer_review/peer_review.de.md)<br>
+
+
+

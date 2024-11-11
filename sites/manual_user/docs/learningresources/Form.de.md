@@ -14,7 +14,7 @@ Hier finden Sie Informationen, wie Formulare für die genannten Zwecke erstellt 
 [Allgemeines zu Formularen >](Forms_General_Information.de.md)<br>
 [Wie erstelle ich eine Formular-Lernressource? >](../../manual_how-to/create_a_form/create_a_form.de.md)
 
-[Formular-Editor >](Form_editor_Questionnaire_editor.de.md)<br>
+[Formular-Editor >](Form_Editor.de.md)<br>
 [Formular-Elemente >](Form_Elements.de.md)<br>
 [Formular-Element Rubrik >](Form_Element_Rubric.de.md)<br>
 [Frageregeln in Formularen >](Form_Question_Rules.de.md)<br>
