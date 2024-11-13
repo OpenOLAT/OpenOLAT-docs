@@ -2,7 +2,7 @@
 
 Wer das Recht zur Benutzerverwaltung besitzt, kann über die Benutzersuche eine bestimmte Person suchen und für sie weitere Konfigurationen vornehmen. 
 
-Zu jedem/jeder Benutzer:in stehen die im Folgenden aufgeführten Reiter für die Konfiguration zur Verfügung.
+Zu jedem/jeder Benutzer:in stehen maximal die im Folgenden aufgeführten Reiter für die Konfiguration zur Verfügung (Administrator:innen). Je nach Rollen und aktivierten Modulen sind es evtl. weniger Reiter.
 
 ![configure_user_v1_de.png](assets/configure_user_v1_de.png){ class="shadow lightbox"}
 
