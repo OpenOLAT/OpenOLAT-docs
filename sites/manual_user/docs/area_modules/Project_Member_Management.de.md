@@ -6,6 +6,10 @@ Die Projektmitglieder werden in der Regel durch den/die Projektbesitzer:in zu Pr
 
 ![projekte_mitgliederverwaltung_v1_de.png](assets/projekte_mitgliederverwaltung_v1_de.png){ class="shadow lightbox" }
 
+!!! info "Hinweis"
+
+    Den Tab "Administration sehen nur OpenOlat Administrator:innen. Projekt Besitzer:innen sehen ihn nicht.
+
 ## Externe Mitglieder
 
 Sollen auch Personen im Projekt mitarbeiten, die nicht in OpenOlat als Benutzer registriert sind, können sie als externe Mitglieder eingeladen werden. Sie können OpenOlat dann für maximal 180 Tage nutzen.
@@ -16,7 +20,7 @@ Sobald ein Projektmitglied erfasst ist, erhält es einen Link. Nach Aufruf des L
 
 !!! info "Hinweis"
 
-    "Externes Mitglied" ist keine Rolle. Ein externes Mitglied kann alle Rollen erhalten, ausser Besitzer:in (Rolle, mit der das ganze Projekt gelöscht werden kann). 
+    "Externes Mitglied" ist keine OpenOlat Rolle. Ein externes Mitglied kann alle Rollen erhalten, ausser Besitzer:in (Rolle, mit der das ganze Projekt gelöscht werden kann). 
 
 
 ## Rollen

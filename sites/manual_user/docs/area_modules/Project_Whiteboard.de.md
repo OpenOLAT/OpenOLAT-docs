@@ -9,6 +9,6 @@ Im Bereich "Projekte" kommt das freie Zeichen- und Diagrammwerkzeug "draw.io" al
 ![project_drawio_v1_de.png](assets/project_drawio_v1_de.png){ class="shadow lightbox" }
 
 
-Die erstellten Zeichnungen werden zusammen mit den übrigen Dateien des Projektes abgelegt.
+Die erstellten Zeichnungen können auch zusammen mit den übrigen Dateien des Projektes gespeichert werden.
 
-![project_drawio_files_v1_de.png](assets/project_drawio_files_v1_de.png){ class="shadow lightbox" }
+![Whiteboard Diagramm speichern](assets/Whiteboard_speichern.jpg){ class="shadow lightbox" }

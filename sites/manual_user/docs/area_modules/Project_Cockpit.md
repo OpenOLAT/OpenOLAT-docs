@@ -4,6 +4,9 @@
 
 If you open the project tool, you will get an overview of all projects (tab: My projects).
 
+![Meine Projekte Startseite](assets/Meine_Projekte1.jpg){ class="shadow lightbox" }
+
+
 ## Start screen of a project (cockpit)
 
 Clicking on a specific project takes you to the project cockpit. From here, you can quickly access all central elements of this project, e.g. organize/view appointments, get an overview of to-dos, set/view decisions, create/read notes and upload/view files. The timeline also provides a quick overview of the latest changes. 
@@ -13,7 +16,7 @@ Clicking on a specific project takes you to the project cockpit. From here, you 
     The exact options vary slightly depending on the project role. 
 
 
-![projekt_erstellt_aus_vorlage_v1_de.png](assets/projekt_erstellt_aus_vorlage_v2_de.png){ class="shadow lightbox" }
+![Projekt Beispiel](assets/Ein_Projekt.jpg){ class="shadow lightbox" }
 
 
 ## Objects in the project
@@ -24,9 +27,8 @@ In a project you can create/upload different objects:
 * Files
 * Decisions
 * To-dos
-* Appointments
-* Milestones
-* Whiteboard files (draw.io)
+* Appointments and Milestones
+* Diagrams, Whiteboard files (draw.io)
 
 
 ## Link objects
@@ -38,13 +40,15 @@ The objects in a project can be linked to each other to make it easier to find r
 
 ![project_links_v1_de.png](assets/project_links_v1_de.png){ class="shadow lightbox" }
 
+!!! note 
 
+    The links are links within the project, not links to external web content. 
 
 ## Notifications
 
 Several people work together on a project, so it is important to be informed about progress and changes. To do this, use the [Subscription function](../personal_menu/Personal_Tools.md#subscriptions--subscriptions) (on the right-hand side, below the images of the project members).
 
-![project_abo_v1_de.png](assets/project_abo_v1_de.png){ class="shadow lightbox" }
+![Projekte abonnieren](assets/Projekt_abonnieren.jpg){ class="shadow lightbox" }
 
 !!! Note "Note"
 

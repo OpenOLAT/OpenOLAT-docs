@@ -8,6 +8,6 @@ In the "Projects" area, the free drawing and diagramming tool "draw.io" is used 
 ![project_drawio_v1_de.png](assets/project_drawio_v1_de.png){ class="shadow lightbox" }
 
 
-The created drawings are stored together with the other files of the project.
+The created drawings can also be saved together with the other files in the project.
 
-![project_drawio_files_v1_de.png](assets/project_drawio_files_v1_de.png){ class="shadow lightbox" }
+![Whiteboard Diagramm speichern](assets/Whiteboard_speichern.jpg){ class="shadow lightbox" }

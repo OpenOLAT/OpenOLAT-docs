@@ -44,4 +44,4 @@ After calling up a project, the main functions are displayed in the cockpit:
 
 ## Activation of the module "Projects"
 
-For the projects to be available in the menu, the module must have been activated by an administrator.
+For the projects to be available in the menu, the module must have been activated by an administrator. Further information can be found [here](../../../manual_admin/docs/administration/Modules_Projects.md).
