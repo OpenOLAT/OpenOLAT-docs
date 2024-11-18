@@ -43,7 +43,7 @@ In addition, the following data can be displayed in the table:
 
 ## Create curriculum
 
-First, a curriculum must be created as the top level. Curriculum elements can then be subordinate to this.
+First, a curriculum must be created in the "Curriculum Browser" tab as the top level. 
 
 ![Neues Curriculum erstellen](assets/Curriculum_erstellen.png)
 
@@ -62,7 +62,7 @@ In the Curriculum Browser, the curriculum can be edited and the metadata changed
 
 ![Curriculum bearbeiten](assets/Curriculum_bearbeiten1.png)
 
-In addition to the "Metadata" tab, the "User administration" tab is used to manage and organize curriculum administrators. New curriculum owners can be added or deleted here. 
+In addition to the "Metadata" tab, the "User management" tab is used to manage and organize curriculum administrators. New curriculum owners can be added or deleted here. 
 
 ## Search Curriculum
 
@@ -72,15 +72,15 @@ In the tab "Search" you can also search for curriculum elements, which for examp
 
 ## Creating a Curriculum Element
 
-Befindet man sich in einem Curriculum können dort Curriculumelemente erstellt werden
+If you are in a curriculum, curriculum elements can be created there
 
 ![Curriculum Element erstellen](assets/Curriculumelement_erstellen.jpg)
 
-Über das 3-Punkte-Menü stehen weitere Optionen zur Verfügung. 
+Further options are available via the 3-point menu. 
 
 ![Curriculum Element erstellen](assets/Curriculum_Elemenet_organisieren.jpg)
 
-Es ist auch möglich, das Element im Curriculum zu verschieben, ein neues Unterelement zu erstellen oder das Element zu löschen.
+It is also possible to move the element in the curriculum, create a new sub-element or delete the element.
 
 ## Edit Curriculum Element
 

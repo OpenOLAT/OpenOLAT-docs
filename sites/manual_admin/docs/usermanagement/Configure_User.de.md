@@ -69,9 +69,7 @@ Hier können die zu dem/der Benutzer:in gespeicherten Einstellungen des GUI zur�
 
 ### Gruppen
 
-Es wird eine Übersicht über alle Gruppen angezeigt, bei denen der/die Benutzer:in als Teilnehmer:in oder Betreuer:in dabei ist.
-Unter diesem Reiter kann der/die User:in auch weiteren Gruppen zugeordnet oder aus einer Gruppe ausgetragen
-werden.
+Es wird eine Übersicht über alle Gruppen angezeigt, bei denen der/die Benutzer:in als Teilnehmer:in oder Betreuer:in dabei ist. Unter diesem Reiter kann der/die User:in auch weiteren Gruppen zugeordnet oder aus einer Gruppe ausgetragen werden.
 
 [zum Seitenanfang ^](#user_configuration)
 
@@ -79,9 +77,7 @@ werden.
 ### Lernressourcen
 
 Dieser Reiter generiert eine Übersicht mit allen Kursen und Lernressourcen des Users/der Userin.
-Benutzerverwalter:innen und Administrator:innen können die User:innen aus den jeweiligen
-Lernressourcen austragen, sowie die jeweiligen Lernressourcen aufrufen. Umgekehrt kann der/die
-User:in als Besitzer:in, Betreuer:in oder Teilnehmer:in in weitere OpenOlat-Kurse eingetragen werden.  
+Benutzerverwalter:innen und Administrator:innen können die User:innen aus den jeweiligen Lernressourcen austragen, sowie die jeweiligen Lernressourcen aufrufen. Umgekehrt kann der/die User:in als Besitzer:in, Betreuer:in oder Teilnehmer:in in weitere OpenOlat-Kurse eingetragen werden.  
 
 [zum Seitenanfang ^](#user_configuration)
 
@@ -133,7 +129,7 @@ Hier werden sämtliche Abonnements eines Benutzers/einer Benutzerin angezeigt. S
 
 ### Beziehungen
 
-In diesem Reiter können Beziehungen zwischen dem/der gewählten User:in und weiteren OpenOlat-Benutzer:innen definiert werden. Z.B. ob jemand Vorgesetzter, Elternteil, Ausbildungsverantwortliche oder Schüler:in eines Lehrers/einer Lehrerin ist. Voraussetzzung ist, dass generell eine Systematik verwendet wird. (Vergl. [Benutzerrollen](index.de.md))
+In diesem Reiter können Beziehungen zwischen dem/der gewählten User:in und weiteren OpenOlat-Benutzer:innen definiert werden. Z.B. ob jemand Vorgesetzter, Elternteil, Ausbildungsverantwortliche oder Schüler:in eines Lehrers/einer Lehrerin ist. Voraussetzung ist, dass generell eine Systematik verwendet wird. (Vergl. [Benutzerrollen](index.de.md))
 
 [zum Seitenanfang ^](#user_configuration)
 
@@ -147,8 +143,7 @@ Hier kann eine individuelle Quota eingerichtet werden, um z.B. einer Person mit 
 
 ### Lektionen
 
-Hier finden Sie eine Übersicht über den Stand der Lektionen und Absenzen und den damit
-verbundenen Fortschritt des Users/der Userin.
+Hier finden Sie eine Übersicht über den Stand der Lektionen und Absenzen und den damit verbundenen Fortschritt des Users/der Userin.
 
 [zum Seitenanfang ^](#user_configuration)
 
@@ -169,7 +164,7 @@ Hier finden Sie eine Übersicht über alle Curricula, denen der/die User:in zuge
 
 ### Korrekturaufträge
 
-Hier kann abgefragt werden, welche Korrekturaufträge diesem Benutzer/ dieser Benutzerin zugeordnet wurden.
+Hier kann abgefragt werden, welche Korrekturaufträge diesem Benutzer / dieser Benutzerin zugeordnet wurden.
 
 [zum Seitenanfang ^](#user_configuration)
 

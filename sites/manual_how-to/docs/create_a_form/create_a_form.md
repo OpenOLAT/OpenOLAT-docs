@@ -1,16 +1,16 @@
 # How do I create a form learning resource?
 
-## 1. What is a form in OpenOlat?
+## 1. What is a form in OpenOlat? {: #step1}
 
 An OpenOlat form is a page that can be filled out interactively by users. Typically, questions are to be answered by ticking something or entering an answer as text.
 
 The information can be stored anonymously or on a personal basis.
 
-Authorized persons have access to the information provided and can call up (collective) evaluations.
+Authorized persons have access to the information provided and can call up (collective) assessments.
 
 ---
 
-## 2. Course element and learning resource
+## 2. Course element and learning resource {: #step2}
 
 An OpenOlat course is composed of course elements. Most course elements are containers into which a learning resource is inserted.
 
@@ -25,7 +25,10 @@ There are further instructions for using the learning resource in different cour
 !!! tip "Note"
 
     In previous OpenOlat versions, form learning resources were called **questionnaires**. They were based on the QTI 1.2 standard, which is now no longer supported.
-	
+
+
+[To the top of the page ^](#create_form)
+
 ---
 
 ## 3. Where are form learning resources used?
@@ -42,10 +45,12 @@ d) Form learning resource **in a portfolio**
 
 e) Form learning resource **Stand alone**
 
- 	
+
+[To the top of the page ^](#create_form)
+
 ---
 
-## 4. What is a form capable of?
+## 4. What is a form capable of?  {: #step4}
 
 <h3> a) How does a form look like?</h3>
 
@@ -65,7 +70,7 @@ Depending on the objective, forms can be designed quite differently with it. Her
 
 <h3> b) What does a form consist of?</h3>
 
-Each form consists of a page with one or more questions or other elements (e.g. title). The individual elements can be selected in the editor and then be edited. (Partially popups with setting options for this are displayed).
+Each form consists of a page with one or more questions or other elements (e.g. title). The individual elements can be selected in the editor and then be edited. In some cases, a pop-up (inspector window) with setting options is displayed.
 
 ![form_lecturer_evaluation_editor_v1_en.png](assets/form_lecturer_evaluation_editor_v1_en.png){ class="shadow lightbox" }
 
@@ -90,9 +95,11 @@ If a coach clicks on exactly the same course element with form in the course, he
     ![form_question_rules1_v1_en.png](assets/form_question_rules1_v1_en.png){ class="shadow lightbox" }
 
 
+[To the top of the page ^](#create_form)
+
 ---
 
-## 5. Create/edit forms
+## 5. Create/edit forms  {: #step5}
 
 A **special editor** is available for creating form learning resources. It can be called from different places:
 
@@ -143,6 +150,8 @@ If a form learning resource is already included in the course element, the edito
 
     If a form has already been used (filled in by participants), there are restrictions on editing. (See below: 9. Modify forms).
 
+
+[To the top of the page ^](#create_form)
 
 ---
 
@@ -197,6 +206,8 @@ Explore the many options available!
 
 When you are done **close the editor by clicking on the title of the form in the bread crumb navigation**. The form is now saved and you will see the form from a user's perspective.
 
+[To the top of the page ^](#create_form)
+
 ---
 
 ## 7. Testing forms
@@ -223,9 +234,12 @@ To test a form as an author, switch to the participant view:
     
     You can get around this by switching roles to the participant view in the editor.
 
+
+[To the top of the page ^](#create_form)
+
 ---
 
-## 8. Configure forms
+## 8. Configure forms  {: #step8}
 
 <h3>Where are configurations done?</h3>
 
@@ -279,7 +293,7 @@ A complete enumeration of all configuration options across all levels would be t
 
 ---
 
-## 9. Modify forms
+## 9. Modify forms  {: #step9}
 
 As soon as a form learning resource has been included in a course element and a course participant has filled in the form, data exists.
 However, this also means that the form must not be changed after the first use. This would otherwise allow any subsequent manipulations.
@@ -296,19 +310,27 @@ However, this also means that the form must not be changed after the first use. 
 
 ![form_restricted_edit_v1_en.png](assets/form_restricted_edit_v1_en.png){ class="shadow lightbox" }
 
+
+[To the top of the page ^](#create_form)
+
 ---
 
 ## Examples
 
-<h3>Example 1: Teaching quality survey</h3>
+### Example 1: Teaching quality survey {: #example1}
 
 Characteristics:
 
-* often Single Choice
+* often Single Choice, in order to force a clear statement
 * anonymous
 
+![form_example1_v1_de.png](assets/form_example1_v1_de.png){ class="shadow lightbox" }
 
-<h3>Example 2: Employee survey</h3>
+[OpenOlat learning resource to download](assets/OOAcademy_FB_V1.zip)
+
+---
+
+### Example 2: Employee survey {: #example2}
 
 Characteristics:
 
@@ -316,9 +338,59 @@ Characteristics:
 * often text input, e.g. personal goals of the employees
 * less questions with answer type correct / wrong
 
-<h3>Example 3: Customer satisfaction survey</h3>
+---
+
+### Example 3: Customer satisfaction survey
 
 Characteristics:
 
 * often traffic light system, as it simplifies the response and means little effort for customers
+
+---
+
+### Example 4: Assessment of the oral presentation in English {: #example4}
+
+Characteristics:
+
+* personalized
+* Assessment criteria independent of topic
+* Form options must be quickly comprehensible for the evaluating auditors
+
+![form_example4_v1_de.png](assets/form_example4_v1_de.png){ class="shadow lightbox" }
+
+[OpenOlat learning resource to download](assets/Muendliche_Praesentation__Beurteilung.zip)
+
+---
+
+### Example 5: Rubric in the peer review {: #example5}
+
+Characteristics:
+
+* Form usually contains only one heading element (except title etc.)
+
+![form_example5_v1_de.png](assets/form_example5_v1_de.png){ class="shadow lightbox" }
+
+[OpenOlat learning resource to download](assets/Musterformular_PeerReview.zip)
+
+[To the top of the page ^](#create_form)
+
+---
+
+# Further information
+
+[General information about forms >](../../manual_user/learningresources/Forms_General_Information.md)<br>
+
+[Form editor >](../../manual_user/learningresources/Form_Editor.md)<br>
+[Form elements >](../../manual_user/learningresources/Form_Elements.md)<br>
+[Form elements with rubric >](../../manual_user/learningresources/Form_Element_Rubric.md)<br>
+[Form question rules >](../../manual_user/learningresources/Form_Question_Rules.md)<br>
+
+[Forms in courses >](../../manual_user/learningresources/Forms_in_Courses.md)<br>
+[Forms in forms course element >](../../manual_user/learningresources/Forms_in_Forms_Element.md)<br>
+[Forms in questionnaires >](../../manual_user/learningresources/Forms_in_Questionnaires.md)<br>
+[Forms in rubric scoring >](../../manual_user/learningresources/Forms_in_Rubric_Scoring.md)<br>
+[Forms in peer reviews >](../../manual_user/learningresources/Course_Element_Task.md#revisions)<br>
+[Forms in the portfolio 2.0 template >](../../manual_user/learningresources/Forms_in_the_ePortfolio_template.md)<br>
+
+[How do I perform a peer review?](../peer_review/peer_review.md)<br>
 
