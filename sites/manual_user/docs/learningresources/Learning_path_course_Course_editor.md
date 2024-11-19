@@ -22,9 +22,9 @@ Learning paths, unlike conventional courses, do not have the tabs "Visibility" a
   *  **Mandatory**: The completion of the course element is binding and will be considered in the percentage evaluation.
   *  **Optional**: Completion will not be taken into account when displaying percentages.
   * **Excluded**: Completion is not part of the learning path and is only controllable by exception. The course element is not visible for the participants.
-  *  **Release date**: Controls the access to the respective course element. The block is visible but not accessible before the release date. A relative release date is also possible.
-  *  **Due date**: If a course element is mandatory you can also enter a date by which the element must be completed.
-  *  **Learning time (minutes)**: Here you can enter how long the creator estimates the processing time for a given element. The processing time is independent of how much time the user really needs for the block.
+  *  **Release date**: The course element is visible but not accessible before the release date. It can be opened and worked in from the specified date. If no entry is made, the folder remains permanently available from the release date, provided you have access to the course.
+  *  **Due date**: The course element can be opened and worked through up to the specified date. If no entry is made, the folder remains permanently available from the release date, provided you have access to the course.
+  *  **Learning time (minutes)**: Here you can enter how long the author estimates the processing time for a given element. The processing time is independent of how much time the user really needs for the course element. However, the estimated time can be used to calculate the learning progress.
 
 These settings are available for almost all course elements. An exception is the [course element "Structure"](../learningresources/Course_Element_Structure.md) that is meant for bundling course elements. In the structure element you can only define a sequence of learning steps that applies to all subordinate course elements, either sequentially or in specific order.
 
