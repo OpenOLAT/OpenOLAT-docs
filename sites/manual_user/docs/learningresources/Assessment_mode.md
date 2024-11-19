@@ -98,6 +98,8 @@ You can also define whether the assessment mode should also be applied to coache
 
 **Use Safe Exam Browser**: The use of the [Safe Exam Browser](http://www.safeexambrowser.org) allows the secure execution of online exams by putting the computer into the so-called kiosk mode. This prevents the use of unauthorized sources during an exam. Enter the browser exam keys of all authorized browser instances to enable execution in the SEB. Users are notified that the SEB is a prerequisite for the exam. The exam can only be carried out once OpenOlat has been started in the Safe Exam Browser.
 
+[Go to the details > ](../../manual_how-to/SEB/SEB.md)
+
 <br>
 
 ## Perform Exam
