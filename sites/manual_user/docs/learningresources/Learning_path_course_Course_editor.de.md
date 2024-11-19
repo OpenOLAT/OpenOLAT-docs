@@ -25,9 +25,9 @@ Lernpfad Kurse haben im Gegensatz zu herkömmlichen Kursen nicht die Tabs "Sicht
     *  **Obligatorisch**: Die Erledigung des Kursbausteins ist verbindlich und wird bei der prozentualen Auswertung des Lernfortschritts berücksichtigt.
     *  **Freiwillig**: Die Erledigung wird nicht bei der prozentualen Anzeige berücksichtigt.
     * **Ausgenommen**: Die Erledigung ist nicht Teil des Lernpfades und nur durch Ausnahmen steuerbar. Der Kursbaustein ist für die Teilnehmenden nicht sichtbar.
-  *  **Freigabedatum**: Regelt den Zugang zum jeweiligen Kursbaustein. Der Baustein ist vor dem Freigabedatum zwar sichtbar aber nicht zugänglich. Auch ein relatives Freigabedatum ist möglich.
-  *  **Zu bearbeiten bis**: Ist ein Kursbaustein obligatorisch, kann man auch ein Datum eintragen bis zu dem die Bearbeitung erfolgt sein muss.
-  *  **Bearbeitungszeit**: Hier kann eingetragen werden, wie lang der Ersteller die Bearbeitungszeit für den jeweiligen Baustein einschätzt. Die Bearbeitungszeit ist unabhängig davon wieviel Zeit der User wirklich für den Baustein benötigt.
+  *  **Freigabedatum**: Der Kursbaustein ist vor dem Freigabedatum zwar sichtbar, aber nicht zugänglich. Ab dem angegebenen Zeitpunkt ist das Öffnen und Arbeiten darin möglich. Wird keine Angabe gemacht, bleibt der Ordner ab dem Freigabdatum dauerhaft verfügbar, sofern man Zutritt zum Kurs hat.
+  *  **Zu bearbeiten bis**: Der Baustein kann bis zum angegeben Zeitpunkt geöffnet und bearbeitet werden. Wird keine Angabe gemacht, bleibt der Ordner ab dem Freigabdatum dauerhaft verfügbar, sofern man Zutritt zum Kurs hat.
+  *  **Bearbeitungszeit**: Hier kann eingetragen werden, wie lang der Ersteller die Bearbeitungszeit für den jeweiligen Baustein einschätzt. Die Bearbeitungszeit ist unabhängig davon, wieviel Zeit der/die Teilnehmer:in wirklich für den Baustein benötigt. Die geschätzte Zeitangabe kann jedoch für die Berechnung des Lernfortschritts verwendet werden.
 
 Diese Einstellungen stehen für fast alle Kursbausteine zur Verfügung. Eine Ausnahme bildet jedoch der [Kursbaustein "Struktur"](../learningresources/Course_Element_Structure.de.md), der für die Bündelung von Kursbausteinen gedacht ist. Im Strukturbaustein kann die Abfolge der Lernschritte die für alle untergeordneten Kurselemente gilt, mit sequenziell oder spezifischer Reihenfolge definiert werden.
 
