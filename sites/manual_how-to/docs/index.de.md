@@ -8,6 +8,7 @@
 
 1. [Wie erstelle ich meinen ersten OpenOlat-Kurs?](/de/manual_how-to/my_first_course/my_first_course)
 2. [Wie verwende ich den Kursbaustein "Auswahl"?](/de/manual_how-to/course_element_selection/course_element_selection)
+3. [Wie erstelle ich kursinterne Verzweigungen? (Branching)](/de/manual_how-to/branching/branching)
 
 ## Lernressourcen erstellen
 
@@ -36,6 +37,7 @@
 2. [Wie bewerte ich einen Test?](/de/manual_how-to/assessing_tests/assessing_tests)
 3. [Wie führe ich ein Peer-Review durch?](/de/manual_how-to/peer_review/peer_review)
 4. [Kommunikation während einer Prüfung](/de/manual_how-to/communication_during_exam/communication_during_exam)
+5. [Wie bereite ich eine Prüfung mit dem Safe Exam Browser vor?](/de/manual_how-to/SEB/SEB)
 
 ## OpenOlat anpassen
 

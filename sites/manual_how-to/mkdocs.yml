@@ -9,6 +9,7 @@ nav:
   - Create Courses:
     - My first course: "my_first_course/my_first_course.md"
     - How do I use course element "selection"?: "course_element_selection/course_element_selection.md"
+    - How do I create course-internal branches?: "branching/branching.md"
   - Create Learning Resources:
     - Create a blog: "blog/blog.md"
     - Create a Content Package: "content_package/content_package.md"
@@ -27,6 +28,7 @@ nav:
     - How do I assess a test?: "assessing_tests/assessing_tests.md"
     - How do I perform a peer review?: "peer_review/peer_review.md"
     - Communication during an exam: "communication_during_exam/communication_during_exam.md"
+    - How do I prepare an exam with the Safe Exam Browser?: "SEB/SEB.md"
   - Adjust OpenOlat:
     - Reduce storage consumption: "reduce_storage_consumption/reduce_storage_consumption.md"
     - Lifecycle management: "lifecycle/lifecycle.md"
