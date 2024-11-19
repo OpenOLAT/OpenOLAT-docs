@@ -10,7 +10,7 @@ A rubric in OpenOlat is an element of the learning resource "Form". Rubrics are 
 
 ## Examples of use for Rubrics
 
-The scope of rubrics is wide. In OpenOlat, rubrics can be used, for example,
+In OpenOlat, rubrics can be used, for example,
 
 * to query the degree of agreement on a question
 
@@ -92,9 +92,9 @@ If you activate the **"Extended"** tab, the following options are available to y
 
 ![extended rubric configuration](assets/Rubric_erweitert_en.png){ class="shadow lightbox" }
 
-You can give the rubric a name, which makes it easier for you to assign it later during evaluation. If required, you can also display the name directly in the questionnaire. 
+You can give the rubric a name, which makes it easier for you to assign it later during assessment. If required, you can also display the name directly in the questionnaire. 
 
-Under Scale type, you can specify the type of Likert scale used and thus also define the value range: Determine at which end of the scale the positive rating is and define if necessary the ranges for insufficient, neutral and good. This information is taken into account in the evaluation.
+Under Scale type, you can specify the type of Likert scale used and thus also define the value range: Determine at which end of the scale the positive rating is and define if necessary the ranges for insufficient, neutral and good. This information is taken into account in the assessment.
 
 !!! info "Info"
 
@@ -103,4 +103,4 @@ Under Scale type, you can specify the type of Likert scale used and thus also de
 
 ## Further information
 
-[Forms in Rubric Scoring](Forms_in_Rubric_Scoring.de.md)
+[Forms in Rubric Scoring](Forms_in_Rubric_Scoring.md)

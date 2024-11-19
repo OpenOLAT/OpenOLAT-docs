@@ -1,5 +1,7 @@
 # Forms in courses {: #forms_in_courses} 
 
+## Using the learning resource form
+
 The learning resource form can be used within courses for different purposes and with different [course elements](../learningresources/Course_Elements.md).
 
 These include:

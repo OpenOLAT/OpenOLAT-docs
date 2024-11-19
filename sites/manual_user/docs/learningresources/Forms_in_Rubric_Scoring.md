@@ -30,7 +30,7 @@ After a form has been selected it can be designed via the link "Edit". If the fo
 
 ### Evaluation rubric example
 
-This is how a evaluation rubric could look like:
+This is how a assessment rubric could look like:
 
 ![Example rubric form](assets/Rubrik_Formular_Beispiel1.png){ class="shadow lightbox" }
 

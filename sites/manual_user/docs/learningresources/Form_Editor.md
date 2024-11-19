@@ -1,134 +1,166 @@
-# The Form Editor
+# The Form Editor {: #editor}
 
-Select or create a learning resource of the type "Form" and click on "Edit content" in the administration. The editor opens. Here you can select one or more layouts and add various elements to the areas.
+## Calling up the editor {: #open_editor} 
 
-You can add various elements at any time using the "Add content" button and then configure them further. The creation of a new form always begins with the creation of a "layout" that reflects the page structure.
+The editor for creating and editing a form learning resource can be called up from various places:
 
-!!! info "Availability"
+<h3> Option 1</h3>
 
-    As of :octicons-tag-24: release 17.1. this redesigned form editor is available. It contains conceptual and UX improvements to ensure a more pleasant creation. Old forms (created with 16.1.-17.0.X) can still be opened and edited. If you want to fill an old form with new content, use the new layouts for that.
+If you need the form editor to create a new form learning resource, the easiest way to open it is in the authoring area: via the menu for creating new learning resources.
 
-## Controls and blocks of the form editor
+**Authoring > Create > Form**
 
-* **Layout menu**: Here, you can set all the template for the layout, add layouts on top and bottom and move the layout in position or order. You can also assign a name for the layout element and add further layouts before or after it.
-* **Block Menu** :material-cog: 
-Refers to an element added to the layout, e.g. a "paragraph" of text, a "single selection", etc. You can duplicate, move or delete an element or block here, as well as add other elements before or after it.
-* **Inspector**: In the overlaying menu that appears on the right there are all the settings that change the functionality, as well as the appearance of the particular block or layout.
-
-![Gui-Formu editor](assets/form-editor-gui.jpg){ class="lightbox" }
-
-### Layout menu
-
-A layout is a higher-level block that allows you to structure the content in different ways using columns and rows. Within a column and row you can add as many blocks as you want. If you delete or change layouts, existing blocks will be moved to the existing columns. If they are not
-
-Currently the following layout templates are available:
-
-![layout-template](assets/layoutblock-template.jpg)
-
-### Inspector
-
-The settings for each block are located in the Inspector. On larger screens it opens by default to the right of the selected block. You can show and hide the window by clicking on the :material-cog: settings icon.
-
-By clicking on the title bar of the inspector window you can also move it around the content space. When you select a new block, the inspector jumps back to the default position.
-
-## Block elements
-
-### Title
-
-Inserting headings and formatting with h1 to h6.
-
-![Form titel](assets/form_titel_17.png){ class="shadow lightbox" }
-
-### Paragraph
-
-Main element for adding text blocks, also for questions. The paragraph element contains central formatting and the possibility to distribute the text in columns.
-
-![Form paragraph](assets/form_paragraph17.png){ class="shadow lightbox" }
-  
-### Table
-
-If required, add a table to the form and configure it.
-
-![Form table](assets/form_table_17.png){ class="shadow lightbox" }
-  
-### Image
-
-If necessary, add image elements to the form. To do this, upload a suitable graphic file. 
-
-![Form image](assets/form_image17.png){ class="shadow lightbox" }
-
-The positioning can also be further optimized by using the container element.  
-  
-### Rubric
-
-Three different types are available for displaying a [rubric](Rubric.md). "Discrete with radio button" and "Discrete with slider" function similarly to single-choice questions and are linked to point values. "Continuous", on the other hand, allows for fluent scoring without points. Unlike the other question types, here questions and answers are organized using the same element.
-
-![Form rubric](assets/form_rubric_17.png){ class="shadow lightbox" }
-
-For Rubrics, there are various setting options available that you can show via the cogwheel. 
-Further information can be found [here](Rubric.md).
-  
-### Single choice
-
-Creates a single choice answer scale. The individual answers can be displayed next to each other, below each other or as a selection menu via the option "Selection list". The entries can be moved up or down using the arrow keys.
-
-Under "Obligation", one can set the question as obligatory or optional. Mandatory blocks must be filled in to submit the form.
-
-The single choice question can also be used as a basis (condition) for the question rules. This way, certain containers and their contents are displayed depending on the answer selected by the user.
-
-Give the element a meaningful name so that you can keep track of the question rules.
-
-![Form single choice](assets/form_single_choice_17.png){ class="shadow lightbox" }
-
-### Multiple choice
-
-Creates a multiple choice selection scale. If necessary, participants can add additional items to the list. The order of the individual choices can be changed using the arrows.
-
-Under "Obligation", one can set the question as obligatory or optional. Mandatory blocks must be filled in to submit the form.
-
-The multiple choice can also be used as a basis (condition) for the question rules. This way, certain containers and their contents are displayed depending on the predefined answer selected by the user.
-
-Give the element a meaningful name so that you can keep track of the question rules.
-
-![Form multiple choice](assets/form_multiple_choice17.png){ class="shadow lightbox" }
-  
-### Text input
-
-The text input provides the learner with a single or multiline field for text input. Restriction to numbers or a date is also possible. The text input can be obligatory or optional (see single and multiple choice above).
-
-![Form text input](assets/form_text_17.png){ class="shadow lightbox" }
-  
-## Upload file
-
-This element gives learners the ability to upload files. The Upload can be obligatory or optional (see single or multiple selection above).
-
-![Form file upload](assets/form_file_upload_17.png){ class="shadow lightbox" }
-  
-### Information
-
-The Information element can be used to query further user-specific information such as name or age. 
-
-One of the following three variants can be selected:
-
-a) the information is voluntary, users can fill in the fields if necessary (optional)
-
-b) the data must be filled in by the user, otherwise the form will not be saved (mandatory)
-
-c) the data is transferred automatically and cannot be changed (automatically obligatory).
-
-If the form is used in the context of the course element "Survey", a survey can lose its anonymity.
+![form_open_editor1_v1_de.png](assets/form_open_editor1_v1_de.png){ class="shadow lightbox" }
 
 
-![Form user-specific information](assets/form_informations_17.png){ class="shadow lightbox" }
+<h3> Option 2</h3>
 
-### Terms of use
+You can open form learning resources that have already been created in the authoring area in the editor after selecting them in the authoring area. Use the "Type = Form" filter to search, for example.
 
-With this element the coach can add a declaration of consent to the form, which must be checked off by the users, otherwise only an intermediate storage is possible but no delivery of the form.
+Select the corresponding line in the search result and click on the edit button at the end of the line.
 
-![Form terms](assets/form_terms_of_use17.png){ class="shadow lightbox" }
+**Open Authoring > Search for form learning resource > edit**
 
-A separator can also be added.
-  
+![form_open_editor2_v1_de.png](assets/form_open_editor2_v1_de.png){ class="shadow lightbox" }
+
+
+<h3> Option 3</h3>
+
+If you first insert a course element in the course editor, you can then insert a form learning resource into the "empty" course element. This means selecting an existing form learning resource from the authoring area, importing a form learning resource or creating a new form learning resource.
+
+**Course editor > Insert course element > Tab Form > Create**
+
+![form_open_editor3_v1_de.png](assets/form_open_editor3_v1_de.png){ class="shadow lightbox" }
+
+The form editor can also be called up from other course elements in the same way (e.g. course element Survey).
+
+!!! hint "Hint"
+
+    As the learning resource form can be used in very different ways, it makes sense to consider the later use when assigning the title, e.g. to prefix it with a suitable abbreviation. This makes it easier to find and assign later.
+
+[To the top of the page ^](#the-form-editor--editor)
+
+---
+
+## Creating a form learning resource {: #create} 
+
+After calling up the editor, the new form is initially still empty. First add a new layout.
+
+![form_edit_new_layout_v1_de.png](assets/form_edit_new_layout_v1_de.png){ class="shadow lightbox" }
+
+---
+
+### Insert layout {: #insert_layout}
+
+The creation of a new form always begins with the creation of a layout that reflects the page structure.
+
+A layout is a superordinate block that enables different structuring of the content using columns and rows. Any number of content blocks (content elements) can be added within a column and row.
+
+The following layout templates are currently available:
+
+![form_layoutblock_template_V1.jpg](assets/form_layoutblock_template_V1.jpg)
+
+[To the top of the page ^](#the-form-editor--editor)
+
+---
+
+### Edit layout {: #edit_layout} 
+
+Whenever you select an object in the form editor, an **Inspector pop-up** appears in which you can make settings for the currently selected object.
+
+To display the inspector for a layout,<br>
+- select the layout<br>
+- and click on the small gear wheel :materical-cog: at the top right of the selection frame (currently selected layout).
+
+Further options for editing this layout can be found in the icons to the right (duplicate, delete, move).
+
+![form_layout_inspector_v1_de.png](assets/form_layout_inspector_v1_de.png){ class="shadow lightbox" }
+
+
+!!! info "Can I change an already existing layout?"
+
+    Existing layouts can be changed. If you delete or change layouts, existing blocks are moved into the existing columns. 
+
+
+[To the top of the page ^](#the-form-editor--editor)
+
+---
+
+### Insert content elements {: #insert_content_element} 
+
+Click on one of the "Add content" buttons in the layout to insert additional content elements.
+
+Several content elements can be inserted in one layout area.
+
+The new element is inserted in the layout area in which the button is located.
+
+![form_content_add_v1_de.png](assets/form_content_add_v1_de.png){ class="shadow lightbox" }
+
+
+[To the top of the page ^](#the-form-editor--editor)
+
+---
+
+### Edit content elements {: #edit_content_element} 
+
+The settings for the respective blocks can be found (as with the layout) in the **Inspector**. On larger screens, it opens by default to the right of the selected block. You can show or hide the window by clicking on the :material-cog: settings icon.
+
+The inspector can also be moved by clicking on the title bar of the inspector window. If you select a new block, the inspector jumps back to the default position.
+
+![form_content_inspector_v1_de.png](assets/form_content_inspector_v1_de.png){ class="shadow lightbox" }
+
+**Depending on the content block selected, different options are displayed in the inspector.**
+
+**Example inspector for the title, "Style" tab**
+
+Here you can select a predefined font size for the title.
+
+![form_content_title_style_v1_de.png](assets/form_content_title_style_v1_de.png){ class="shadow lightbox" }
+
+**Example inspector for the title, "Layout" tab**
+
+Here you can select the size of the space between the content blocks. (Comparable to an "empty frame" around the content element).
+
+![form_content_title_layout_v1_de.png](assets/form_content_title_layout_v1_de.png){ class="shadow lightbox" }
+
+
+[To the top of the page ^](#the-form-editor--editor)
+
+---
+
+### Move content elements {: #move_content_element} 
+
+Among the icons in the top left-hand corner - they appear as soon as a content element is selected - there is also a double cross. If you position the mouse pointer on it, you can move the content element to another position in the layout by holding down the mouse button. This is possible across the various layout areas.
+
+![form_content_move_v1_de.png](assets/form_content_move_v1_de.png){ class="shadow lightbox" }
+
+
+[To the top of the page ^](#the-form-editor--editor)
+
+---
+
+### Configure Form
+
+To make settings for the form learning resource as a whole, exit the content editor. (You can call up the content editor again at any time under **Administration > Edit content**).
+
+Select **Administration > Settings** for the configuration.
+
+![form_config_v1_de.png](assets/form_config_v1_de.png){ class="shadow lightbox" }
+
+You can make the configuration here as you know it from other learning resources.
+
+* Info tab (e.g. title, description, cover picture, etc.)
+* Metadata tab (e.g. information on language, etc., which helps with the search)
+* Share tab (e.g. intended use, referenceability by other authors, etc.)
+
+!!! info "Note"
+
+    If you want to use the form in courses, you do not need to set up the "Release" tab of the learning resource form any further. Setting up the "Release" tab is primarily relevant if you want to use the learning resource stand-alone.
+
+
+[To the top of the page ^](#the-form-editor--editor)
+
+---
 
 
 ## Tips for using the Form Editor
@@ -136,7 +168,18 @@ A separator can also be added.
 Here are a few more tips for using the Form Editor:
 
 * For the "Rubric" choice, the questions and answers are created together. For all other question types, the questions are created using the "Paragraph" element and assigned to the answers of the appropriate question type.
-* Use "Add entry" to add additional answer elements for single or multiple choice.
+* Use [Question rules](../learningresources/Form_Question_Rules.md) if you want to create more complex forms with branches.
 * Do not forget to assign names to the blocks if you want to create a selective release via question rules.
-* Use [Question rules](../learningresources/Question_rules.md) if you want to create more complex forms with branches.
+
+
+[To the top of the page ^](#the-form-editor--editor)
+
+---
+
+## Further information
+
+[How do I create a form learning resource?](../../manual_how-to/create_a_form/create_a_form.md)<br>
+[Contents elements of a form](Form_Elements.md)<br>
+[The form elements rubric](Form_Element_Rubric.md)<br>
+[Setting up question rules in the form](Form_Question_Rules.md)<br>
 

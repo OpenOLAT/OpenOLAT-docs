@@ -6,7 +6,7 @@ Einem Formular können mehrere Regeln hinzugefügt werden.  Dadurch können unte
 
 ## Erstellung einer Regel
 
-Überlegen Sie sich zunächst, welche Bereiche Sie bei welcher Auswahl anzeigen wollen und setzen diese dann mit Hilfe der Fragergeln für das Formular um.
+Überlegen Sie sich zunächst, welche Bereiche Sie bei welcher Auswahl anzeigen wollen und setzen diese dann mit Hilfe der Frageregeln für das Formular um.
 
 ### Voraussetzungen 
 Um eine Frageregel zu erstellen, müssen folgende Bedingungen erfüllt sein:
@@ -24,11 +24,11 @@ Wichtig, um den Überblick zu behalten sollten Sie unbedingt für alle Layout un
 ![MC Inspektor Name vergeben](assets/Formular_MC_Inspektor1.png){ class="shadow lightbox" }
 
 ### Frageregeln im Menü hinterlegen
- Die Frageregeln können oben, rechts neben dem Administrationsmenü, aufgerufen werden.
+Die Frageregeln können oben, rechts neben dem Administrationsmenü, aufgerufen werden.
 
 ![Frageregeln aufrufen](assets/Fragebogen-icon.png){ class="shadow lightbox" }
 
-Ein neues Popup-Fenster erscheint Fragereln können erstellt und angezeigt werden.
+Ein neues Popup-Fenster erscheint Frageregeln können erstellt und angezeigt werden.
 
 ![Dialog zu Erstellung von Frageregeln](assets/image2021-5-6_8-50-14.png){ class="shadow lightbox" }
 

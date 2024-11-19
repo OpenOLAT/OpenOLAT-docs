@@ -26,7 +26,7 @@ Wählen Sie im Suchergebnis die entsprechende Zeile und klicken Sie am Ende der 
 
 <h3> Möglichkeit 3</h3>
 
-Wenn Sie zuerst einen Kursbaustein im Kurseditor einfügen, können Sie in den "leeren" Kursbausstein anschliessend eine Formular-Lernressource einfügen. Das heisst, eine bestehende Formular-Lernressource aus dem Autorenbereich auswählen, eine Formular-Lernressource importieren oder eine neue Lernressource Formular erstellen. 
+Wenn Sie zuerst einen Kursbaustein im Kurseditor einfügen, können Sie in den "leeren" Kursbaustein anschliessend eine Formular-Lernressource einfügen. Das heisst, eine bestehende Formular-Lernressource aus dem Autorenbereich auswählen, eine Formular-Lernressource importieren oder eine neue Lernressource Formular erstellen. 
 
 **Kurseditor > Kursbaustein einfügen > Tab Formular > erstellen**
 
