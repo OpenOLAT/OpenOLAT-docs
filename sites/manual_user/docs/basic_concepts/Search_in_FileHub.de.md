@@ -24,8 +24,7 @@ Im Suchfeld des File Hub, wird eine [Volltextsuche](Search_General.de.md#full_te
 
 ![search_in_filehub_fulltext_v1_de.png](assets/search_in_filehub_fulltext_v1_de.png){ class="shadow lightbox" }
 
-Sie ist auf die im File Hub angebotenen Ablageorte eingeschränkt. Dies sind
-folgende Ordner:
+Sie ist auf die im File Hub angebotenen Ablageorte eingeschränkt. Dies sind folgende Ordner:
 
 * Kursbaustein Ordner
 * Kursbaustein Dateidiskussion
@@ -49,7 +48,7 @@ Die "Erweiterte Suche" im Suchresultat ist ebenfalls eine [Volltextsuche](Search
         
         Im File Hub von OpenOlat wird ein Abbild des File-Systems verwendet, das um Metadaten ergänzt wird. Diese werden zur Indexierung verwendet.
         
-        Das Abbild wird ständig automatisch aktualisiert. Bei Bearf kann auch manuell ein Abgleich angestossen werden.
+        Das Abbild wird ständig automatisch aktualisiert. Bei Bedarf kann auch manuell ein Abgleich angestossen werden.
 
 
 

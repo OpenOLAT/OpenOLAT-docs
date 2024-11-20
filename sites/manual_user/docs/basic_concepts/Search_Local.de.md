@@ -1,6 +1,6 @@
 # Lokale Suche {: #search_local}
 
-Die lokale Suche bezieht sich auf einen konkreten Ordner (z.B. Kursbaustein „Ordner“).
+Die lokale Suche bezieht sich auf einen konkreten Ordner (z.B. Kursbaustein "Ordner").
 
 Sie sucht über folgende Metadaten der Ordner/Dateien in diesem Ordner:
 

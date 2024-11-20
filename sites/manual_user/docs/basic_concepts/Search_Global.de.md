@@ -14,16 +14,14 @@ Das heisst, dass **im ganzen OpenOlat** gesucht wird und auch innerhalb der Doku
 In den Suchergebnissen der globalen Suche erscheinen:
 
 * Daten, die in Visitenkarten von Benutzer:innen freigegeben sind
-* Daten / Dokumente aus “öffentlichen Ordnern” von Benutzer:innen
+* Daten / Dokumente aus "öffentlichen Ordnern" von Benutzer:innen
 * Daten / Dokumente aus Kursen, in denen man selbst Mitglied ist und auf die man als Kursmitglied auch Zugriff hat
 * Daten / Dokumente aus Kursen, die unter Einstellungen > Freigabe wie folgt konfiguriert sind: "Ohne Buchung" oder "Frei verfügbar"
 
 
 ## Aktivierung {: #activation}
 
-Die globale Suche ist nur dann sichtbar und nutzbar, wenn sie in der Administration
-aktiviert ist. Sollte dies bei Ihnen nicht der Fall sein, wenden Sie sich
-bitte an den oder die Administrator:in Ihrer OpenOlat Instanz.
+Die globale Suche ist nur dann sichtbar und nutzbar, wenn sie in der Administration aktiviert ist. Sollte dies bei Ihnen nicht der Fall sein, wenden Sie sich bitte an den oder die Administrator:in Ihrer OpenOlat Instanz.
 
 
 ## Weitere Informationen

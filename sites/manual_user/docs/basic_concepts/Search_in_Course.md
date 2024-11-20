@@ -1,30 +1,29 @@
 # Search in a course {: #search_in_course}
 
-Neben der Volltextsuche über das gesamte OpenOlat gibt es auch eine Kurssuche, welche pro
-Kurs in der Toolbar aktiviert werden kann.
+In addition to the full-text search across the entire OpenOlat, there is also a course search, which can be activated for each course in the toolbar.
 
 ![search_in_course_toolbar_v1_de.png](assets/search_in_course_toolbar_v1_de.png){ class="shadow lightbox" }
 
-Die Kurssuche durchsucht nur den entsprechenden Kurs. Es werden folgende Elemente gefunden:
+The course search only searches the corresponding course. The following elements are found:
 
-* Titel, Kurztitel und Beschreibung aller Kursbausteine
-* Inhalt von HTML-Seiten
-* Dokumente in Ordnern
-* Titel und Inhalt von Forumsbeiträgen
-* Titel und Inhalt von Mitteilungen
-* Wiki Beiträge
+* Title, short title and description of all course elements
+* Content of HTML pages
+* Documents in folders
+* Title and content of forum posts
+* Title and content of messages
+* Wiki contributions
 
-## Aktivierung {: #activation}
+## Activation {: #activation}
 
-Die Anzeige der Kurssuche wird unter "Administration" -> "Einstellungen" im Tab "[Toolbar](../learningresources/Course_Settings.de.md#toolbar)" aktiviert. 
+The display of the course search is activated under "Administration" -> "Settings" in the "[Toolbar](../learningresources/Course_Settings.md#toolbar)" tab. 
 
 ## Further information
 
-[Allgemeines zur Suche >](Search_General.md)<br>
-[Global search >](Search_Global.md)<br>
+[General things about the search >](Search_General.md)<br>
 [Local search >](Search_Local.md)<br>
-[Personensuche >](Search_Person.md)<br>
-[Search in File Hub >](Search_in_FileHub.md)<br>
+[Personal search >](Search_Person.md)<br>
+[Search in a course >](Search_in_Course.md)<br>
+[Search in FileHub >](Search_in_FileHub.md)<br>
 
 
 
