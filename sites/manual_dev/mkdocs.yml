@@ -27,6 +27,7 @@ nav:
       - Object representation: ux/object_representation.md
       - Performance widget: ux/performence_widget.md
       - Pickers: ux/pickers.md
+      - Scope: ux/scope.md
       - Switch & Sliders: ux/switch_slider.md
       - Tab / Tab pane: ux/tab.md
       - Table: ux/table.md
