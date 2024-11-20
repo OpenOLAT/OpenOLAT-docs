@@ -7,7 +7,7 @@
 
 * * *
 
-:material-calendar-month-outline: **Release date: 07/10/2024 • Last update: 10/16/2024**
+:material-calendar-month-outline: **Release date: 07/10/2024 • Last update: 11/08/2024**
 
 * * *
 
@@ -314,6 +314,8 @@ The OpenAI API was integrated as the basis for AI functions. In the first approa
 
 ## More information
 
+* [YouTrack Release notes 19.0.11](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2019.0.11&title=Release%20Notes%2019.0.11){:target="_blank”}
+* [YouTrack Release notes 19.0.10](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2019.0.10&title=Release%20Notes%2019.0.10){:target="_blank”}
 * [YouTrack Release notes 19.0.9](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2019.0.9&title=Release%20Notes%2019.0.9){:target="_blank”}
 * [YouTrack Release notes 19.0.8](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2019.0.8&title=Release%20Notes%2019.0.8){:target="_blank”}
 * [YouTrack Release notes 19.0.7](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2019.0.7&title=Release%20Notes%2019.0.7){:target="_blank”}
