@@ -1,13 +1,13 @@
-# Dropdown List
+# Object Selection List
 
 ## Elements
 
 ![Dropdown](assets/dropdown1.png)
 
-1. Search Input
-2. Selected List
-3. Results list
-4. Action Buttons
+1. **Search Input**
+2. **Selected List**
+3. **Results list**
+4. **Action Buttons**: Can have an Advanced selection via Browser
 
 ## Variants
 
