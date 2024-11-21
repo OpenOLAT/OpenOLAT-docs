@@ -1,18 +1,17 @@
 # SharePoint / OneDrive
 
 
-!!! warning "Achtung"
-
-    Dieser Artikel ist noch in Bearbeitung.
-
+## SharePoint
 
 Ab OpenOlat Version 19.0 wird für die Integration von SSO über Microsoft Entra ID, Microsoft Teams Online Meetings und
 die Microsoft SharePoint Integration nur noch eine einzige Microsoft Azure App eingerichtet.
 
-Für Unterstützung und Details wenden Sie sich bitte an frentix.
+!!! info "Info"
+
+    Für Unterstützung und Details wenden Sie sich bitte an frentix.
 
 
-## Voraussetzung
+### Voraussetzung
 
 SSO über Microsoft Entra ID (ehemals Microsoft Azure AD Authentication) ist die Voraussetzung für die Nutzung der Microsoft SharePoint Integration in OpenOlat. Dafür wird nur die entsprechende Berechtigung in der Login App ergänzt.
 
@@ -21,7 +20,7 @@ SSO über Microsoft Entra ID (ehemals Microsoft Azure AD Authentication) ist die
     Im Rahmen dieser Konfiguration kann auch **Office for the web** aktiviert werden. Diese Einstellung braucht jedoch nicht in der Microsoft Azure App konfiguriert werden, sondern ausschliesslich in der OpenOlat Administration. Diese Konfiguration muss von frentix vorgenommen werden.
 
 
-## Abfolge der Konfiguration
+### Abfolge der Konfiguration
 
 1. Erstellung Microsoft Azure App-Registrierung
 2. Ergänzung Berechtigungen in App-Registrierung für SSO über Microsoft Entra ID und für Microsoft SharePoint Integration
@@ -30,15 +29,17 @@ SSO über Microsoft Entra ID (ehemals Microsoft Azure AD Authentication) ist die
 5. nach Bedarf: Aktivierung der Microsoft SharePoint Integration in OpenOlat
 
 
-## Aktivierung in der OpenOlat-Administration 
+### Aktivierung in der OpenOlat-Administration 
 
 **Beachten Sie:**<br>
 SharePoint und OneDrive können einzeln und unabhängig voneinander eingebunden werden.
 
 ![sharepoint_config_v1_de.png](assets/sharepoint_config_v1_de.png){ class="shadow lightbox" }
 
+---
 
+## OneDrive
 
+!!! warning "Achtung"
 
-
-
+    Dieser Artikel ist noch in Bearbeitung.
