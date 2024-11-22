@@ -12,8 +12,5 @@ The **assignment of roles** usually takes place in the user administration, but 
 Certain rights are linked to each role. Also the **rights in courses**.<br>
 [More details here  >](Authorisation_Concept.md)
 
-The **role of the coach** is particularly important for the supervision of learners.<br>
-[More details here  >](coach.md)
-
 For learners whose data does not need to be saved, anonymous **guest access** can also be used.<br>
 [More details here  >](guest_access.md)

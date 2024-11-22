@@ -13,7 +13,6 @@ nav:
       - Roles: "basic_concepts/Roles.md"
       - Assign roles: "basic_concepts/Assign_Roles.md"
       - Authorisation in courses: "basic_concepts/Authorisation_Concept.md"
-      - The role of a coach: "basic_concepts/coach.md"
       - Guest access: "basic_concepts/guest_access.md"
     - Account:
       - Session Timeout and Logout: "basic_concepts/Session_Timeout_and_Logout.md"  
