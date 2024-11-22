@@ -4,22 +4,8 @@
 
 ![icon_media_center.png](assets/icon_media_center.png)
 
-Das Media Center ist eine **zentrale Sammelstelle** für unterschiedlicher Medientypen. 
+Das Media Center ist eine **zentrale Sammelstelle** für unterschiedlicher Medientypen. Auch das **Erstellen** direkt im Media Center ist möglich.
 
-## Merkmale des Media Centers
-
-Medien können...
-
-* ... direkt im Media Center erstellt werden 
-* ... in verschiedenen Kursbausteinen erstellt und dann im Media Center abgelegt werden
-* ... extern erstellt und als Datei hochgeladen werden
-* ... kursübergreifend verwendet werden
-* ... an andere Personen freigegeben (geteilt)  und gemeinsam genutzt werden
-* ... versioniert werden
-* ... mit Tags verschlagwortet werden
-* ... einer Taxonomie zugeordnet werden
-* ... gefiltert werden (z.B. "Meine Medien")
-* ... nach Verwendungsort gesucht werden
 
 ![media_center_v1_de.png](assets/media_center_v1_de.png){ class=" shadow lightbox" }
 
