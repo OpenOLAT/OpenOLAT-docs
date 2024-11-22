@@ -118,9 +118,9 @@ Ein Portfolio dient der Sammlung und Dokumentation von (Lern-)Artefakten, Lerner
 [Zu den Details >](Portfolio.de.md)
 
 
-##  Medien Center
+##  Media Center
 
-Das Medien Center ist die zentrale Sammelstelle für Medien:
+Das Media Center ist die zentrale Sammelstelle für Medien:
 
 * Unterschiedliche Medientypen (Dateiformate), 
 * die (je nach vergebener Zugriffsberechtigung) auch von verschiedenen Personen genutzt
