@@ -35,6 +35,7 @@ nav:
       - Content Editor: "basic_concepts/Content_Editor.md"
       - File and Data Collections: "basic_concepts/Object_Collections.md"
       - File Hub: "basic_concepts/File_Hub_Concept.md"
+      - Media Center: "basic_concepts/Media_Center_Concept.md"
     - Technology:
       - basic_concepts/Technology.md 
       - Using WebDAV: "basic_concepts/Using_WebDAV.md" 
