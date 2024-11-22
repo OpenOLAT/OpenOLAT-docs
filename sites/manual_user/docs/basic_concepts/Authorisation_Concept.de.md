@@ -41,7 +41,7 @@ Die Kursrollen Teilnehmer sowie Betreuer stehen stellvertretend auch für die Gr
 
 ---
 
-## Rechte der systemweiten Rollen in einem Kurs
+## Rechte der organisationsweiten Rollen in einem Kurs
 |                                                             | Administrator | Autor                            | Principal         | Linien-<br/>vorgesetzter | 
 | ----------------------------------------------------------- | :-----------: | :------------------------------: | ----------------: | :----------------------: | 
 | **Zugriff nach Status**                                                                                                                                       |

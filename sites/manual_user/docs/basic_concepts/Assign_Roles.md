@@ -1,9 +1,9 @@
 # Roles and Rights: Assign roles {: #role_assignment}
 
 
-## Role assignment for system roles {: #role_assignment_system}
+## Role assignment for organisation roles {: #role_assignment_org}
 
-System-wide roles are assigned in the user management:<br>
+Organisation-wide or system-wide roles are assigned in the user management:<br>
 **User management > Selecting a user > Tab "Roles"**<br>
 Accordingly, the assignment is typically made by user management or administrators.
 
@@ -23,7 +23,7 @@ Course owners add new course members at<br>
 The desired role within a course is then queried when the new member is entered.
 
 **Assignment of roles to course owners**<br>
-A person with author rights (= system role "Author"), who creates a course, is automatically the owner of this course (course role "Owner"). If desired, other people can then be made co-owners.
+A person with author rights (= organisation role "Author"), who creates a course, is automatically the owner of this course (course role "Owner"). If desired, other people can then be made co-owners.
 
 **Changing the roles of course members**<br>
 For members of a course, the role can be changed under<br>
@@ -58,7 +58,7 @@ When you create a new group, you are automatically the coach of this group. Coac
 (Procedure: Groups > Administration > Members tab > Icon with 3 dots at the end of the line of the member in question > Option "Edit member")
 
 **Assignment of the group administrator**<br>
-As group administrators perform cross-group tasks, this is a system-wide role. Therefore, this role is not assigned within a specific group, but in the user administration (procedure as for system-wide roles).
+As group administrators perform cross-group tasks, this is a organisation-wide role. Therefore, this role is not assigned within a specific group, but in the user administration (procedure as for organisation-wide roles).
 
 [To the top of the page ^](#role_assignment)
 
@@ -112,7 +112,7 @@ The role of the curriculum owner is assigned by curriculum administrators under<
 
 
 **Assignment of the role Curriculum administrator**<br>
-This role is a cross-curriculum, system-wide role.
+This role is a cross-curriculum, organisation-wide role.
 Curriculum administrators must therefore be added in the user administration.
 See [edit curriculum and add curriculum administrator](../area_modules/Curriculum_Management.md#edit-curriculum-and-add-curriculum-administrator)
 
@@ -150,7 +150,7 @@ If, for example, an external person is to be given access to a portfolio in the 
 
 ## Further information
 
-[System roles](roles.md#system)<br> 
+[Organisation roles](roles.md#org)<br> 
 
 [Course roles](roles.md#course)<br> 
 
@@ -161,7 +161,7 @@ If, for example, an external person is to be given access to a portfolio in the 
 [Curriculum roles](roles.md#curriculum)<br> 
 [Curriculum management](../area_modules/Curriculum_Management.md)<br> 
 
-[Roles in an organization](roles.md#orgunit)<br> 
+[Roles in an organization unit](roles.md#orgunit)<br> 
 
 [Self-defined roles and relations](roles.md#relations)<br> 
 

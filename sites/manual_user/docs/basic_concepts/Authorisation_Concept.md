@@ -41,7 +41,7 @@ The course roles participants as well as the coaches also stand for the group pa
 
 ---
 
-## Rights of system wide roles in a course
+## Rights of organisation wide roles in a course
 |                                                             | Administrator | Author                            | Principal         | Line<br/>manager | 
 | ----------------------------------------------------------- | :-----------: | :------------------------------: | ----------------: | :----------------------: | 
 | **Access by status**                                                                                                                                       |

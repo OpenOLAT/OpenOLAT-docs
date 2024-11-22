@@ -3,9 +3,9 @@
 
 Entsprechend den Aufgaben lassen sich die Rollen folgenden Kontexten zuordnen:
 
-## Systemweit gültige Rollen {: #system} 
+## Organisationsweit gültige Rollen {: #org} 
 
-Zu Systemrollen gehören systemweit (für die ganze OpenOlat-Instanz) gültige Berechtigungen. Die Systemrollen werden in der Benutzerverwaltung vergeben.
+Zu Organisationsrollen gehören organisationsweit (wie innerhalb der OpenOlat-Instanz definiert) gültige Berechtigungen. Die Organisationsrollen werden in der Benutzerverwaltung vergeben.
 
 ![roles_rights_system_roles_v1_de.png](assets/roles_rights_system_roles_v1_de.png)
 
@@ -29,7 +29,7 @@ Zu Systemrollen gehören systemweit (für die ganze OpenOlat-Instanz) gültige B
 
 !!! warning "Hinweis"
 
-    Die genannten Rollen stellen Optionen dar, normalen Usern systemweit umfangreiche weitere Rechte zu geben. In der Regel wird bei einer OpenOlat Instanz gezielt eine passende Rollenzusammensetzung gewählt und nicht alle spezifischen Rollen vergeben. Typisch ist eine Kombination aus Benutzer:in, Autor:in und Administrator:in bzw. Systemadministrator:in. Darüber hinausgehende Rollen ergeben sich aus der Struktur der jeweiligen Institution und der Nutzung von bestimmten Tools wie [Curriculum](../area_modules/Curriculum_Management.de.md) oder [Absenzen](../learningresources/Lectures_and_absences.de.md). Es ist also möglich, dass in Ihrer Instanz nicht alle potenziellen OpenOlat-Rollen verwendet werden. 
+    Die genannten Rollen stellen Optionen dar, normalen Usern organisationsweit umfangreiche weitere Rechte zu geben. In der Regel wird bei einer OpenOlat Instanz gezielt eine passende Rollenzusammensetzung gewählt und nicht alle spezifischen Rollen vergeben. Typisch ist eine Kombination aus Benutzer:in, Autor:in und Administrator:in bzw. Systemadministrator:in. Darüber hinausgehende Rollen ergeben sich aus der Struktur der jeweiligen Institution und der Nutzung von bestimmten Tools wie [Curriculum](../area_modules/Curriculum_Management.de.md) oder [Absenzen](../learningresources/Lectures_and_absences.de.md). Es ist also möglich, dass in Ihrer Instanz nicht alle potenziellen OpenOlat-Rollen verwendet werden. 
     
     Wenden Sie sich bei Rückfragen bezüglich der Rollenvergabe an den jeweiligen Support Ihrer OpenOlat Instanz.
 
@@ -86,7 +86,7 @@ Im Rechtemanagement des Kurses können weitergehende *Rechtepakete* entweder an 
 
 !!! note "Hinweis"
 
-    Gruppenteilnehmer:innen und Gruppenbetreuer:innen sind Rollen innerhalb einer bestimmten Gruppe. Die Rolle "Gruppenverwalter:in" ist dagegen eine systemweit gültige Rolle, denn ihre Aufgabe ist es gruppen**übergreifend** Verwaltungsaufgaben wahrzunehmen.
+    Gruppenteilnehmer:innen und Gruppenbetreuer:innen sind Rollen innerhalb einer bestimmten Gruppe. Die Rolle "Gruppenverwalter:in" ist dagegen eine organisationsweit gültige Rolle, denn ihre Aufgabe ist es gruppen**übergreifend** Verwaltungsaufgaben wahrzunehmen.
 
 [zum Seitenanfang ^](#roles)
 
@@ -120,11 +120,11 @@ Hat eine Klasse unterschiedliche Fächer (Fächer entsprechen in OpenOlat Curric
 **Besitzer:in, Betreuer:in** und **Teilnehmer:in** sind die 3 Rollen von Kursmitgliedern. Ein Curriculum wird aus Kursen zusammengestellt. Deshalb gibt es diese 3 Rollen auch für alle Kurse eines bestimmten Curriculums - mit ein paar Besonderheiten. 
 
 **Die Rolle (Curriculum-)Kursbesitzer:in**<br>
-Im Normalfall können Benutzer:innen mit der systemweit gültigen Autorenrolle im Autorenbereich Kurse erstellen. In jedem neu erstellten Kurs erhält der/die Erstellerin automatisch die Kursrolle "Kursbesitzer:in". Die Rolle "Kursbesitzer:in" gilt jeweils für einen Kurs.
+Im Normalfall können Benutzer:innen mit der organisationsweit gültigen Autorenrolle im Autorenbereich Kurse erstellen. In jedem neu erstellten Kurs erhält der/die Erstellerin automatisch die Kursrolle "Kursbesitzer:in". Die Rolle "Kursbesitzer:in" gilt jeweils für einen Kurs.
 
 Wird ein/eine Benutzer:in zum Curriculumsmitglied und erhält **innerhalb des Curriculums** die Rolle "Kursbesitzer:in", wird die Person dadurch in **allen Kursen dieses Curriculums** zur Kursbesitzer:in.
 
-Ausserhalb der Curriculumelemente hat ein/eine (Curriculum-)Kursbesitzer:in keine Autorenrechte, wenn er/sie nicht die systemweit gültige Rolle Autor:in innehat. 
+Ausserhalb der Curriculumelemente hat ein/eine (Curriculum-)Kursbesitzer:in keine Autorenrechte, wenn er/sie nicht die organisationsweit gültige Rolle Autor:in innehat. 
 
 Wird die Curriculummitgliedschaft entzogen, wird dadurch auch in allen Kurses dieses Curriculums die Besitzerrolle aus den Kursen entfernt.
 
@@ -132,7 +132,7 @@ Für die Rollen **(Curriculum-)Kursbetreuer:innen** und **(Curriculum-)Kursteiln
 
 !!! note "Hinweis"
 
-    Die vorstehend aufgeführten Rollen sind Rollen **innerhalb** eines bestimmten Curriculums. Die Rolle "Curriculumverwalter:in" ist dagegen eine systemweit gültige Rolle, denn ihre Aufgabe ist es curriculum**übergreifend** Verwaltungsaufgaben wahrzunehmen.<br>
+    Die vorstehend aufgeführten Rollen sind Rollen **innerhalb** eines bestimmten Curriculums. Die Rolle "Curriculumverwalter:in" ist dagegen eine organisationsweit gültige Rolle, denn ihre Aufgabe ist es curriculum**übergreifend** Verwaltungsaufgaben wahrzunehmen.<br>
     (Siehe [Curriculumverwaltung](../area_modules/Curriculum_Management.de.md))
 
 [zum Seitenanfang ^](#roles)
@@ -237,7 +237,7 @@ Die Kontorollen sind nur für die Suchfunktion der Administrator:innen relevant.
 
 ## Weiterführende Informationen
 
-[Rollenzuweisung für Systemrollen](Assign_Roles.de.md#role_assignment_system)<br>
+[Rollenzuweisung für Organisationsrollen](Assign_Roles.de.md#role_assignment_org)<br>
 
 [Rollenzuweisung für Kursrollen](Assign_Roles.de.md#role_assignment_course)<br> 
 

@@ -3,9 +3,9 @@
 The roles can be assigned to the following contexts according to the tasks:
 
 
-## System wide roles {: #system} 
+## Organisation wide roles {: #org} 
 
-System roles include system-wide authorizations (for the entire OpenOlat instance). The system roles are assigned in the user administration.
+Organisation roles include organisation-wide authorizations (as definied for the OpenOlat instance). The organisation roles are assigned in the user administration.
 
 ![roles_rights_system_roles_v1_de.png](assets/roles_rights_system_roles_v1_de.png)
 
@@ -29,7 +29,7 @@ System roles include system-wide authorizations (for the entire OpenOlat instanc
 
 !!! warning "Note"
 
-    The mentioned roles represent options to give normal users system-wide extensive additional rights. Usually an appropriate role composition is selected for an OpenOlat instance and not all specific roles are assigned.
+    The mentioned roles represent options to give normal users organisation-wide extensive additional rights. Usually an appropriate role composition is selected for an OpenOlat instance and not all specific roles are assigned.
     Typical is a combination of user, author and administrator or system administrator. Additional roles result from the structure of the respective institution and the use of certain tools such as [Curriculum](../area_modules/Curriculum_Management.md) or [Absences](../learningresources/Lectures_and_absences.md). It is therefore possible that not all potential OpenOlat roles are used in your instance.
     
     If you have any questions regarding the role management please contact the support of your own OpenOlat instance.
@@ -89,7 +89,7 @@ In the rights management of the course, further *rights packages* can be assigne
 
 !!! note "Note"
 
-    Group participants and group coaches are roles within a specific group. The "Group administrator" role, on the other hand, is a system-wide role, as its task is to perform administrative tasks **across all groups**.
+    Group participants and group coaches are roles within a specific group. The "Group administrator" role, on the other hand, is a organisation-wide role, as its task is to perform administrative tasks **across all groups**.
 
 
 [To the top of the page ^](#roles)
@@ -125,11 +125,11 @@ If a class has different subjects (subjects correspond to curriculum elements in
 **Owners, Coaches** and **Users** are the three roles of course participants. A curriculum is made up of courses. That is why these 3 roles are also available for all courses in a particular curriculum - with a few special features.
 
 **The role (Curriculum-) course owner**<br>
-Normally, users with the system-wide author role can create courses in the author area. In every newly created course, the creator automatically receives the course role "Course owner". The "Course owner" role applies to one course at a time.
+Normally, users with the organisation-wide author role can create courses in the author area. In every newly created course, the creator automatically receives the course role "Course owner". The "Course owner" role applies to one course at a time.
 
 If a user becomes a curriculum member and receives the role "course owner" **within the curriculum**, the person becomes the course owner in **all courses of this curriculum**.
 
-Outside of the curriculum elements, a (curriculum) course owner has no author rights if he/she does not have the system-wide role of author.
+Outside of the curriculum elements, a (curriculum) course owner has no author rights if he/she does not have the organisation-wide role of author.
 
 If the curriculum membership is withdrawn, the owner role is also removed from all courses in this curriculum.
 
@@ -137,7 +137,7 @@ The same applies to the roles of **(curriculum) course coaches** and **(curricul
 
 !!! note "Note"
 
-    The roles listed above are roles **within** a specific curriculum. The role of "curriculum administrator", on the other hand, is a system-wide role, as its task is to perform administrative tasks across the curriculum**.<br>
+    The roles listed above are roles **within** a specific curriculum. The role of "curriculum administrator", on the other hand, is a organisation-wide role, as its task is to perform administrative tasks across the curriculum**.<br>
     (See [Curriculum management](../area_modules/Curriculum_Management.md))
 
 [To the top of the page ^](#roles)
@@ -240,7 +240,7 @@ The account roles are only relevant for the administrator's search function.<br>
 
 ## Further information
 
-[Role assignment for system roles](Assign_Roles.md#role_assignment_system)<br>
+[Role assignment for organisational roles](Assign_Roles.md#role_assignment_org)<br>
 
 [Role assignment for course roles](Assign_Roles.md#role_assignment_course)<br> 
 

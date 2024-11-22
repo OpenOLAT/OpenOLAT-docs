@@ -1,9 +1,9 @@
 # Rollen und Rechte: Rollen zuweisen {: #role_assignment} 
 
 
-## Rollenzuweisung für Systemrollen {: #role_assignment_system} 
+## Rollenzuweisung für Organisationsrollen {: #role_assignment_org} 
 
-Systemweit gültige Rollen werden in der Benutzerverwaltung vergeben:<br>
+Organisationsweit oder systemweit gültige Rollen werden in der Benutzerverwaltung vergeben:<br>
 **Benutzerverwaltung > Auswahl eines Benutzers > Tab "Rollen"**<br>
 Dem entsprechend wird die Zuweisung typischerweise durch Benutzerverwalter:innen oder Administrator:innen vorgenommen.
 
@@ -25,7 +25,7 @@ Kursbesitzer:innen fügen neue Kursmitglieder hinzu unter<br>
 Die gewünschte Rolle innerhalb eines Kurses wird dann während des Erfassens des neuen Mitglieds abgefragt.
 
 **Rollenzuweisung der Kursbesitzer:innen**<br>
-Eine Person mit Autorenrecht (= Systemrolle "Autor:in"), die einen Kurs erstellt, ist automatisch Besitzer:in dieses Kurses (Kursrolle "Besitzer:in"). Wenn gewünscht, können dann weitere Personen zu Mit-Besitzer:innen gemacht werden.
+Eine Person mit Autorenrecht (= Organisationsrolle "Autor:in"), die einen Kurs erstellt, ist automatisch Besitzer:in dieses Kurses (Kursrolle "Besitzer:in"). Wenn gewünscht, können dann weitere Personen zu Mit-Besitzer:innen gemacht werden.
 
 **Rollen der Kursmitglieder ändern**<br>
 Bei Mitgliedern eines Kurses kann die Rolle geändert werden unter<br> 
@@ -61,7 +61,7 @@ Wenn Sie eine neue Gruppe erstellen, sind Sie automatisch Betreuer:in dieser Gru
 
 
 **Zuweisung der Rolle Gruppenverwalter:innen**<br>
-Da Gruppenverwalter:innen gruppenübergreifend Aufgaben wahrnehmen, ist dies eine systemweit gültige Rolle. Deshalb wird diese Rolle nicht innerhalb einer bestimmten Gruppe vergeben, sondern in der Benutzerverwaltung (Vorgehen wie für systemweit gültige Rollen).
+Da Gruppenverwalter:innen gruppenübergreifend Aufgaben wahrnehmen, ist dies eine organisationsweit gültige Rolle. Deshalb wird diese Rolle nicht innerhalb einer bestimmten Gruppe vergeben, sondern in der Benutzerverwaltung (Vorgehen wie für organisationsweit gültige Rollen).
 
 [zum Seitenanfang ^](#role_assignment)
 
@@ -116,7 +116,7 @@ Die Rolle des/der Curriculumbesitzer:in wird zugewiesen durch Curriculumverwalte
 
 
 **Zuweisung der Rolle Curriculumverwalter:in**<br>
-Diese Rolle ist eine curriculumsübergreifende, systemweit geltende Rolle.
+Diese Rolle ist eine curriculumsübergreifende, organisationsweit geltende Rolle.
 Curriculumverwalter:innen müssen deshalb in der Benutzerverwaltung hinzugefügt werden.
 Siehe [Curriculum bearbeiten und Curriculumverwalter hinzufügen](../area_modules/Curriculum_Management.de.md#curriculum-bearbeiten-und-curriculumverwalter-hinzufugen).<br> 
 
@@ -175,7 +175,7 @@ Es kann nur die von Administrator:innen eingerichtete und definierte Systematik 
 
 :octicons-device-camera-video-24: **Video-Einführung**: [Benutzerverwaltung](<https://www.youtube.com/embed/V1RuH0q08J8>){:target="_blank”}
 
-[Systemrollen](roles.de.md#system)<br> 
+[Organisationsrollen](roles.de.md#org)<br> 
 
 [Kursrollen](roles.de.md#course)<br> 
 
@@ -186,7 +186,7 @@ Es kann nur die von Administrator:innen eingerichtete und definierte Systematik 
 [Curriculumrollen](roles.de.md#curriculum)<br> 
 [Curriculumverwaltung](../area_modules/Curriculum_Management.de.md)<br> 
 
-[Rollen in einer Organisation](roles.de.md#orgunit)<br> 
+[Rollen in einer Organisationseinheit](roles.de.md#orgunit)<br> 
 
 [Selbst definierte Rollen und Beziehungen](roles.de.md#relations)<br> 
 
