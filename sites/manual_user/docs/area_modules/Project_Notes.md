@@ -2,14 +2,13 @@
 
 In each project, notes can be stored in the "Quick access" section. They are only available within the project. Unlike to-dos, notes can also be downloaded.
 
-![projekte_notiz_neu_schnellzugriff_v1_de.png](assets/projekte_notiz_neu_schnellzugriff_v1_de.png){ class="shadow lightbox" }
+![create note](assets/Notizen_erstellen.jpg){ class="shadow lightbox" }
 
 ## Create notes
 
-In addition to direct creation in the "Quick Access" section, notes can also be created in the list view of all notes.
+In addition to creating notes in the “Quick access” section, notes can also be created in the “Notes” area by clicking on the plus sign or directly in the notes area using the “Create note” button. 
 
-![projekte_notiz_erstellen_v1_de.png](assets/projekte_notiz_erstellen_v1_de.png){ class="shadow lightbox" }
-
+![Projekt Notizen erstellen](assets/Projekte_Notizen_erstellen.jpg){ class="shadow lightbox" }
 
 ## Show list of notes
 
@@ -33,19 +32,22 @@ You will find more options under the 3 dots at the end of each list entry.
 
 The Quick Access section displays the most recently used **files** and **notes** (max. 6, created, modified, viewed, downloaded). They can be opened and edited directly by the creator or members by clicking on them.
 
-![projekte_notizen_schnellzugriff_v1_de.png](assets/projekte_notizen_schnellzugriff_v1_de.png){ class="shadow lightbox" }
+![Projekte Notizen Schnellzugriff](assets/Notizen_Schnellzugriff.jpg){ class="shadow lightbox" }
 
 ## Edit notes
 
-The notes support commonmark, an unofficial specification of basic Markdown for formatting text. The syntax is listed on the following overview page: [https://commonmark.org/help/](https://commonmark.org/help/){:target="_blank”}
+To edit a note, click on the title of the note in quick access or in the notes area and activate the edit mode using the slider. 
 
-To edit a note, click on the list and then
+![Projket Notizen Bearbeitungsmodus](assets/Notizen_Bearbeitungsmodus.jpg){ class="shadow lightbox" }
 
-**a) on the title of the note** (as also in the quick access) and then the **"Edit" button"**<br>
-or alternatively<br>
-**b) on the 3 dots at the end of a line.**
+Instead of clicking on the title of a note, you can also go to the 3-dot menu and select “Edit note”. 
 
 ![projekte_notizen_bearbeiten_v1_de.png](assets/projekte_notizen_bearbeiten_v1_de.png){ class="shadow lightbox" }
+
+The editing mode must then also be activated. 
+
+
+The notes support commonmark, an unofficial specification of basic Markdown for formatting text. The syntax is listed on the following overview page: [https://commonmark.org/help/](https://commonmark.org/help/){:target="_blank”}
 
 !!! note "Note"
 
@@ -59,17 +61,15 @@ When you edit a note, you can create links to other objects of this project by l
 Often, while creating a note, the need arises to create another decision, an appointment or a to-do.
 With the **"Add link "** button, you can create these objects and they are then automatically linked to the current note. The long diversions (select a different object type, create a new object, return to the decision and only then make the link) is thus eliminated.
 
-
-![projekte_notiz_objektlink1_v1_de.png](assets/projekte_notiz_objektlink1_v1_de.png){ class="shadow lightbox" }
+![Notizen Link hinzufügen](assets/Notizen_Link_hinzufuegen.jpg){ class="shadow lightbox" }
 
 Linked objects can be decisions, for example: 
 
 ![projekte_notiz_objektlink2_v1_de.png](assets/projekte_notiz_objektlink2_v1_de.png){ class="shadow lightbox" }
 
-Links added to a note can be accessed directly:
+Links added to a note can be accessed directly  via the corresponding icons:
 
-![projekte_notiz_objektlink3_v1_de.png](assets/projekte_notiz_objektlink3_v1_de.png){ class="shadow lightbox" }
-
+![Link Icons in einer Notiz](assets/Notizen_Direktlink1.jpg){ class="shadow lightbox" }
 
 !!! info "What happens if a linked object is deleted?"
 
@@ -79,9 +79,11 @@ Links added to a note can be accessed directly:
 
 ## Notes for other project members
 
-You create notes for others in OpenOlat by assigning members to the notes.
+You create notes for others in OpenOlat by assigning members to the notes in edit mode.
 
-By assigning members (in the edit pop-up), a note appears with the members concerned, e.g. under "My notes".
+![Projkete Mitglieder hinzufügen](assets/Notizen_Mitglieder.jpg){ class="shadow lightbox" }
+
+By assigning members a note appears with the members concerned, e.g. under "My notes".
 
 ![projekte_notiz_mitglieder_v1_de.png](assets/projekte_notiz_mitglieder_v1_de.png){ class="shadow lightbox" }
 

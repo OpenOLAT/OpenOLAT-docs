@@ -56,9 +56,7 @@ Ein neu erstelltes To-do wird zunächst automatisch der Erstellerin / dem Erstel
 
 In einem weiteren Feld kann bestimmt werden, ob und an wen das To-do **delegiert** wird.
 
-Die Unterscheidung zwischen Zuweisung und Delegation ermöglicht es,<br>
-- klar nachzuvollziehen, wer ursprünglich für ein To-do zuständig war.<br>
-- Die Verantwortung kann bei der zugewiesenen Person bleiben, während z.B. die Ausführung bei der/den Personen liegt, an die ein To-do delegiert wurde.
+Die Unterscheidung zwischen Zuweisung und Delegation ermöglicht es, klar nachzuvollziehen, wer ursprünglich für ein To-do zuständig war. Die Verantwortung kann bei der zugewiesenen Person bleiben, während z.B. die Ausführung bei der/den Personen liegt, an die ein To-do delegiert wurde.
 
 
 ![projekte_todo_zuweisen_v1_de.png](assets/projekte_todo_zuweisen_v1_de.png){ class="shadow lightbox" }
