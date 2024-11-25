@@ -75,9 +75,13 @@ In der kompakten Tabellenansicht ist eine Massenaktion zum Löschen mehrerer Bei
 
 Die Kursmitglieder können Blogbeiträge mit einem Text kommentieren. Ab Release 19.1 können an Kommentare auch Dateien angehängt und hochgeladen werden.
 
-Um einen Kommentar zu verfassen oder bestehende Kommentare zu lesen, klicken Sie auf den Link "Kommentare". Es öffnet sich ein kleiner Texteditor. 
+Um einen Kommentar zu verfassen oder bestehende Kommentare zu lesen, klicken Sie in die Kommentarzeile. Es öffnet sich ein kleiner Texteditor. Mit Klick auf den Button "Kommentieren" schicken Sie den Kommentar ab.
 
-![blog_blogging_comment_v1_de.png](assets/blog_blogging_comment_v1_de.png){ class="shadow lightbox" }
+![blog_blogging_comment_v2_de.png](assets/blog_blogging_comment_v2_de.png){ class="shadow lightbox" }
+
+Sie können Ihrem Kommentar auch eine Datei anhängen. Dazu können Sie eine Datei neu hochladen oder aus Ihrem File Hub eine Datei auswählen.
+
+![blog_blogging_comment_file_v1_de.png](assets/blog_blogging_comment_file_v1_de.png){ class="shadow lightbox" }
 
 [zum Seitenanfang ^](#blog_blogging)
 
