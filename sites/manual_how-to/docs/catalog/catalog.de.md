@@ -1,4 +1,4 @@
-# Wie zeige ich meine Kurse im OpenOlat-Katalog?
+# Wie zeige ich meine Kurse im OpenOlat-Katalog? {: #catalog}
 
 ??? abstract "Ziel und Inhalt dieser Anleitung"
 
@@ -19,7 +19,7 @@
 
 ---
 
-## Wo finde ich den OpenOlat-Katalog?
+## Wo finde ich den OpenOlat-Katalog? {: #catalog_where}
 
 OpenOlat-Benutzer sehen in der Kopfzeile meistens "Kurse" und "Gruppen", wenn sie Teilnehmer sind. Autoren sehen zusätzlich den "Autorenbereich". Aber die Optionen in der Kopfzeile können variieren. Je nach Rolle oder aktivierten Modulen, können weitere Einträge in der Kopfzeile dazu kommen. So z.B. auch der Katalog. Wurde von ihrem Administrator der [Katalog (Version 2.0)](../../manual_user/area_modules/catalog2.0.de.md) aktiviert, finden Sie den Eintrag "Katalog" im Menü der Kopfzeile. Wird kein Katalog im Menü angezeigt, wenden Sie sich bitte an Ihren Administrator.
 
@@ -32,7 +32,7 @@ OpenOlat-Benutzer sehen in der Kopfzeile meistens "Kurse" und "Gruppen", wenn si
 
 ---
 
-## Was kann ich im OpenOlat-Katalog anzeigen?
+## Was kann ich im OpenOlat-Katalog anzeigen?  {: #catalog_what}
 
 Der OpenOlat-Katalog listet **Kurzbeschreibungen zu Kursen und Lernressourcen** auf. Es können bereits auf der Startseite einzelne Kacheln angezeigt werden. Unter den **Kategorien** befinden sich **Microsites**, auf denen dann weitere Einzelbeschreibungen (Kacheln) zu finden sind. 
 
@@ -49,7 +49,7 @@ Angaben, die im Katalog-Layout nicht vorgesehen sind, können also beim Katalog 
 
 ---
 
-## Wie wird entschieden, was im Katalog angezeigt wird?
+## Wie wird entschieden, was im Katalog angezeigt wird? {: #catalog_decision}
 
 Es werden nicht automatisch alle vorhandenen Kurse und Lernressourcen im Katalog aufgeführt. Ob ein Katalogeintrag erzeugt wird, entscheidet die Autorin oder der Autor des Kurses.
 
@@ -78,7 +78,7 @@ Ob und wo der Kurs im Katalog erscheint, wird dann im zweiten Schritt durch die 
 
 ---
 
-## Angebote erstellen 
+## Angebote erstellen  {: #catalog_create_offer}
 
 !!! tip "Hinweis"
 
@@ -103,7 +103,7 @@ Sie können mehrere Angebote erstellen. Sie können z.B. für eine bestimmte Org
 
 ---
 
-## Der Katalogaufbau 
+## Der Katalogaufbau {: #catalog_structure}
 
 Die Gestaltung des Katalogs wird einerseits durch die Angebote der Autor:innen bestimmt und andererseits durch die Vorgaben der Administratorin / des Administrators.
 
@@ -118,7 +118,7 @@ Sie werden deshalb als Launcher (engl. Starter, Startrampe) bezeichnet, weil in 
 
 ---
 
-## Wie beeinflusse ich als Autorin/Autor, in welchem Launcher mein Kurs angezeigt wird? 
+## Wie beeinflusse ich als Autorin/Autor, in welchem Launcher mein Kurs angezeigt wird? {: #catalog_launcher_decision}
 
 Alle Angebote, die die Kriterien für einen bestimmten Launcher erfüllen, werden in diesem Launcher angezeigt. Als Autorin oder Autor beeinflussen Sie also die Anzeige, indem Sie 
 

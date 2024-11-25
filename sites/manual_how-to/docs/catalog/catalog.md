@@ -1,4 +1,4 @@
-# How do I present my courses in the OpenOlat catalog?
+# How do I present my courses in the OpenOlat catalog? {: #catalog}
 
 ??? abstract "Objectives and content of this instruction"
 
@@ -20,7 +20,7 @@
 
 ---
 
-## Where do I find the OpenOlat catalog?
+## Where do I find the OpenOlat catalog? {: #catalog_where}
 
 OpenOlat users mostly see "Courses" and "Groups" in the header if they are participants. Authors additionally see "Authoring". But the options in the header can vary. Depending on the role or activated modules, more entries can be added to the header, for example, the catalog. If the [catalog 2.0](../../manual_user/area_modules/catalog2.0.md) has been activated by your administrator, you will find the entry "Catalog" in the menu of the header.	If no catalog is displayed in the menu, please contact your administrator.
 
@@ -33,7 +33,7 @@ OpenOlat users mostly see "Courses" and "Groups" in the header if they are parti
 
 ---
 
-## What can I show in the OpenOlat catalog?
+## What can I show in the OpenOlat catalog? {: #catalog_what}
 
 The OpenOlat catalog lists **short descriptions of courses and learning resources**. Individual tiles can already be displayed on the start page. Under the **categories** are **microsites**, on which further individual descriptions (tiles) can be found.
 
@@ -51,7 +51,7 @@ The author is therefore not completely free to add further information to the in
 
 ---
 
-## How is it decided what to display in the catalog?
+## How is it decided what to display in the catalog?  {: #catalog_decision}
 
 Not all existing courses and learning resources are automatically listed in the catalog. The author of the course decides whether a catalog entry is created.
 
@@ -80,7 +80,7 @@ Whether and where the course appears in the catalog is then determined in the se
 
 ---
 
-## Create offers
+## Create offers {: #catalog_create_offer}
 
 !!! tip "Note"
 
@@ -106,7 +106,7 @@ You can create multiple offers. For example, you can make one course freely avai
 
 ---
 
-## The catalog structure 
+## The catalog structure {: #catalog_structure}
 
 The design of the catalog is determined on the one hand by the offers of the authors and on the other hand by the specifications of the administrator.
 
@@ -122,7 +122,7 @@ They are called launchers because the catalog entries (tiles, cards) are usually
 
 ---
 
-## As an author, how do I influence in which launcher my course is displayed? 
+## As an author, how do I influence in which launcher my course is displayed? {: #catalog_launcher_decision}
 
 All listings that meet the criteria for a particular launcher will be displayed in that launcher. So, as an author, you influence the display by 
 
