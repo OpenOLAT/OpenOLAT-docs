@@ -12,7 +12,7 @@ Wenn Bilder bereits in geeigneter Grösse in OpenOlat importiert werden, müssen
 !!! tip "Tipp"
 
     Die unten angebotenen Muster (halbtransparente png) kann man sich im Grafikprogramm über das aktuelle Bild legen, um den passenden Ausschnitt zu wählen.<br>
-    [Mockups zum Download >](assets/catalog20_image_mockup.zip)
+    [Mockups zum Download >](assets/catalog20_image_mockups.zip)
 
 
 ### Header-Hintergrund {: #image_size_header}
