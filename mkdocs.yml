@@ -176,6 +176,7 @@ plugins:
           Components of the portfolio : Bestandteile des Portfolios
           Configuration : Konfiguration
           Configure a blog : Blog konfigurieren
+          Configure a podcast : Podcast konfigurieren
           Configure test questions : Test Fragen konfigurieren
           Configure tests : Test konfigurieren
           Configure User : Benutzer konfigurieren
@@ -353,6 +354,7 @@ plugins:
           Licenses : Lizenzen
           Line manager : Linienvorgesetzte(r)
           Link list : Linkliste
+          Listen and watch to podcasts : Podcasts anhören und ansehen
           Local search : Lokale Suche
           Login : Login
           Login and registration : Login und Registrierung

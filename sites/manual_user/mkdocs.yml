@@ -284,7 +284,8 @@ nav:
       - Overview: "learningresources/Wiki.md"
     - Podcast:
       - Overview: "learningresources/Podcast.md"
-      - Podcast: "learningresources/Podcast_Further_Configurations.md"
+      - Configure a podcast: "learningresources/Podcast_Configuration.md"
+      - Listen and watch to podcasts: "learningresources/Podcast_listen_and_watch.md"
     - Blog:
        - Overview: "learningresources/Blog.md"
        - Create a blog: "learningresources/Blog_Create.md"

@@ -1,6 +1,6 @@
-# Podcast - Weitere Konfigurationen
+# Podcast konfigurieren {: #config}
 
-Konfiguration von Podcasts in Kursen: 
+Die folgenden Ausführungen zur Konfiguration beziehen sich auf Podcasts in Kursen.
 
 ## Tab "Podcast-Lerninhalt"
 
@@ -87,3 +87,15 @@ Mit dem Recht "Beiträge erstellen" können auch Teilnehmende Episoden erstellen
 !!! info "Wichtig"
 
     Damit die Lernenden eigene Audio oder Video-Episoden hinzufügen können, muss ein erstes Video vorhanden sein. Zum Beispiel könnte die Lehrperson ein erstes Audio/Video hochladen und hier kurz erläutern, was die Lernenden im Podcast machen sollen oder in das Thema mit spannenden Reflexionsfragen einführen.
+
+
+
+[zum Seitenanfang ^](#config)
+
+
+## Weitere Informationen
+
+[Podcasts in Kursen erstellt >](../../manual_how-to/podcast/podcast.de.md)<br>
+[Podcasts anhören und ansehen >](../learningresources/Podcast_listen_and_watch.de.md)<br>
+
+
