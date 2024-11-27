@@ -40,6 +40,6 @@ SharePoint und OneDrive können einzeln und unabhängig voneinander eingebunden 
 
 ## OneDrive
 
-!!! warning "Achtung"
+Die Einbindung von OneDrive verläuft sehr ähnlich wie bei SharePoint und kann analog zur vorstehenden Beschreibung vorgenommen werden.
 
-    Dieser Artikel ist noch in Bearbeitung.
+
