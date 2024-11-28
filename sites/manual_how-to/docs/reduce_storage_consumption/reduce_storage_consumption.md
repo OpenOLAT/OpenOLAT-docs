@@ -23,9 +23,8 @@
 
 ### B) Delete unneeded files
 4) Delete files finally<br>
-5) Delete Orphans<br>
-6) Find and delete large files<br>
-7) Set up life cycles<br>
+5) Find and delete large files<br>
+6) Set up life cycles<br>
 
 ---
 
@@ -147,39 +146,20 @@ The final deletion can also be done in this tab by selecting it and clicking on 
 <h3> Final delete by the administrator</h3>
 
 Administrators can perform the final deletion in specific paths. This means that the "Recycle Bin" does not have to be permanently deleted at once.<br>
-**Administration > Core functions > Files and Folders < tab "Deleted files" > select a line > option "Delete" at the end of the line**<br>
+**Administration > Core functions > Files and Folders < tab "Trash" > select a line > option "Delete" at the end of the line**<br>
 A click on "Delete" at the end of the line means here the final deletion of the files marked for deletion (files in the "Recycle Bin").
 
-![delete_final_admin_v1_en.png](assets/delete_final_admin_v1_en.png){ class="shadow lightbox" }
+![trash_final_delete_v1_en.png](assets/trash_final_delete_v1_en.png){ class="shadow lightbox" }
 
 <br>
 
 <h3> Delete from the personal folder</h3>
 
-Everyone is responsible for the final deletion of files in the personal folder. A confirmation prompt will appear. The files will then be deleted permanently. (A recycle bin is not implemented here at the moment).
+Everyone is responsible for the final deletion of files in the personal folder (File Hub). A confirmation prompt will appear. The files will then be deleted permanently. 
 
 ---
 
-## Measure 5: Delete orphan versions
-
-<h3> a) What are Orphans?</h3>
-
-The term means in the context of OpenOlat "orphaned" files.
-
-All documents that are deleted manually or for which versioning is no longer available are placed in a kind of recycle bin. From there they could be restored, but they still need the same amount of memory. With "Delete Orphan Versions" this recycle bin is deleted. The versions can no longer be restored, but also no longer require any memory.
-
-<br>
-
-<h3> b) Where and by whom are Orphans deleted?</h3>
-
-The deletion of Orphans is done by the administrator under<br>
-**Administration > Core functions > Files and folders < tab "Deleted files" > button "Delete all versions"**
-
-![orphans_v1_en.png](assets/orphans_v1_en.png){ class="shadow lightbox" }
-
----
-
-## Measure 6: Large files
+## Measure 5: Large files
 
 Some file formats (e.g. videos) generally require more storage space. Therefore, it is particularly worthwhile here to delete versions that are no longer needed. OpenOlat offers a tool for this:
 
@@ -190,7 +170,7 @@ administrators can search specifically for large files and view further details 
 
 ---
 
-## Measure 7: Life cycles
+## Measure 6: Life cycles
 
 In OpenOlat, lifecycle management can be enabled for.
 
@@ -208,4 +188,11 @@ Detailed information on life cycle management can be found at<br>
 
 ## Checklist
 
-- [x] tbd
+- [x] Set up quotas?
+- [x] Set up versioning?
+- [x] Authors made aware of quota?
+- [x] Searched for large files and deleted those no longer needed in consultation with the owners? 
+- [x] Asked all users to clean up their personal folders? 
+- [x] Set up life cycles?
+
+

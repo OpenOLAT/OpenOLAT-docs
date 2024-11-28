@@ -23,9 +23,8 @@
 
 ### B) Unbenötigte Dateien löschen
 4) Dateien endgültig löschen<br>
-5) Orphans löschen<br>
-6) grosse Dateien finden und löschen<br>
-7) Lebenszyklen einrichten<br>
+5) grosse Dateien finden und löschen<br>
+6) Lebenszyklen einrichten<br>
 
 ---
 
@@ -147,38 +146,20 @@ Auch das endgültige Löschen kann in diesem Tab durch Markieren und Klick auf d
 <h3> Endgültiges Löschen durch den Administrator</h3>
 
 Administratoren können das endgültige Löschen in bestimmten Pfaden vornehmen. Es muss also nicht der gesamte "Papierkorb" komplett endgültig gelöscht werden.<br>
-**Administration > Core Konfiguration > Dateien und Ordner < Tab "Gelöschte Dateien" > Zeile selektieren > Option "Löschen" am Ende der Zeile**<br>
+**Administration > Core Konfiguration > Dateien und Ordner < Tab "Papierkorb" > Zeile selektieren > Option "Löschen" am Ende der Zeile**<br>
 Ein Klick auf "Löschen" am Ende der Zeile meint hier also das endgültige Löschen der zum Löschen markierten Dateien (Dateien im "Papierkorb").
 
-![loeschen_final_admin_v1_de.png](assets/loeschen_final_admin_v1_de.png){ class="shadow lightbox" }
+![trash_final_delete_v1_de.png](assets/trash_final_delete_v1_de.png){ class="shadow lightbox" }
 
 <br>
 
 <h3> Löschen im persönlichen Ordner</h3>
 
-Für das endgültige Löschen von Dateien im persönlichen Ordner ist jeder selbst verantwortlich. Es erscheint eine Abfrage zur Bestätigung. Darauf hin werden die Dateien endgültig gelöscht. (Ein Papierkorb ist hier im Moment noch nicht implementiert.)
+Für das endgültige Löschen von Dateien im persönlichen Ordner (File Hub) ist jeder selbst verantwortlich. Es erscheint eine Abfrage zur Bestätigung. Darauf hin werden die Dateien endgültig gelöscht. 
 
 ---
 
-## Massnahme 5: Orphan Versionen löschen
-
-<h3> a) Was sind Orphans?</h3>
-Der Begriff Orphans kommt aus dem Griechischen und bedeutet "Waisen". Im Zusammenhang mit OpenOlat sind damit "verwaiste" Dateien gemeint.
-
-Alle Dokumente, welche manuell gelöscht werden oder für welche keine Versionierung mehr zur Verfügung steht, werden in eine Art Papierkorb gelegt. Von dort könnten sie wiederhergestellt werden, benötigen jedoch auch nach wie vor dieselbe Speichermenge. Mit "Orphan Versionen löschen" wird dieser Papierkorb gelöscht. Die Versionen können nicht mehr wiederhergestellt werden, benötigen aber auch keinen Speicher mehr.
-
-<br>
-
-<h3> b) Wo und durch wen werden Orphans gelöscht?</h3>
-
-Das Löschen von Orphans wird vom Administrator vorgenommen unter <br>
-**Administration > Core Konfiguration > Dateien und Ordner < Tab "Gelöschte Dateien" > Button "Orphan Versionen löschen"**
-
-![orphans_v1_de.png](assets/orphans_v1_de.png){ class="shadow lightbox" }
-
----
-
-## Massnahme 6: Grosse Dateien
+## Massnahme 5: Grosse Dateien
 
 Manche Dateiformate (z.B. Videos) benötigen generell mehr Speicherplatz. Deshalb ist es hier besonders lohnend, wenn nicht mehr benötigte Versionen gelöscht werden. OpenOlat bietet ein Hilfsmittel dazu an:
 
@@ -189,7 +170,7 @@ können Administratoren gezielt nach grossen Dateien suchen und sich weitere Det
 
 ---
 
-## Massnahme 7: Lebenszyklen
+## Massnahme 6: Lebenszyklen
 
 In OpenOlat kann ein Lebenszyklusmanagement aktiviert werden für
 
@@ -206,4 +187,11 @@ Ausführliche Informationen zum Lebenszyklusmanagement finden Sie unter<br>
 
 ## Checkliste
 
-- [x] tbd
+- [x] Quotas eingerichtet?
+- [x] Versionierung eingerichtet?
+- [x] Autoren auf Quota hingewiesen?
+- [x] Nach grossen Dateien gesucht und in Absprache mit den Besitzer:innen nicht mehr benötigte gelöscht? 
+- [x] Alle Benutzer zum Aufräumen ihres persönlichen Ordners aufgefordert? 
+- [x] Lebenszyklen eingerichtet?
+
+
