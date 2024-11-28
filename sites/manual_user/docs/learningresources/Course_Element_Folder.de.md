@@ -61,10 +61,9 @@ Hier bestimmen Sie, wodurch der Kursbaustein im Kursmenü als "erledigt" markier
 
 ### Tab Ordnerkonfiguration {: #tab_folder_config}
 
-![tab folder configuration](assets/KB_Ordner_16.png)
+![course_element_folder_tab_folder_config_v1_de.png](assets/course_element_folder_tab_folder_config_v1_de.png){ class="shadow lightbox"}
 
-
-**Ordner wählen**<br>
+![1_green_24.png](assets/1_green_24.png) **Ordner wählen**<br>
 Im Tab "Ordnerkonfiguration" legen Sie fest, *wo* die Dateien dieses Ordners im Ablageordner des Kurses gespeichert werden sollen. OpenOlat kann dafür entweder automatisch einen neuen Ordner erstellen, oder Sie wählen einen bereits vorhandenen Ordner im Ablagebereich des Kurses aus.
 
 Wird die Option **"Automatisch generierter Ordner"** gewählt, legt OpenOlat im Menü "Dateien" den Unterordner "_courselementdata" an inklusive eines Unterordners mit dem Namen des jeweiligen Kursbaustein "Ordners" entlang der Navigationsstruktur. Alle Dateien des Kursbausteins werden nun hier gespeichert.
@@ -73,7 +72,7 @@ Wählt man **"Ordner aus Ablageordner des Kurses verwenden"** kann ein bereits e
 
 <br>
 
-**Dateien hochladen**<br>
+![2_green_24.png](assets/2_green_24.png) **Dateien hochladen**<br>
 Nachdem der konkrete Ablageort gewählt ist können Sie über den Button "Ordner verwalten" im Bereich "Dateien hochladen" Ihre Dateien hochladen oder erstellen. 
 
 ![Dateien upload](assets/KB_Ordner_Datei_upload.png )
@@ -82,7 +81,7 @@ Ein Zugriff auf diesen Dateibereich ist auch bei geschlossenem Kurseditor mögli
 
 <br>
 
-**Benutzerberechtigungen**<br>
+![3_green_24.png](assets/3_green_24.png) **Benutzerberechtigungen**<br>
 Unter "Berechtigungen" kann definiert werden, wer Dateien in dem Kursbaustein Ordner hochladen und erstellen darf. Standardmässig dürfen neben den Besitzer:innen auch Betreuer:innen, aber nicht die Teilnehmer:innen Dateien hochladen.
 
 Über die erweiterte Konfiguration kann ferner die Bereitstellung von Dateien auch für bestimmte Gruppen, z.B. für Assistenten oder Hiwis oder auch nur für einzelne Personen definiert werden. 
@@ -109,6 +108,7 @@ Folgende Möglichkeiten stehen Kursbesitzer:innen und Personen mit der entsprech
   
 * **Audio aufzeichnen:** Nehmen Sie eine Audiodatei auf.
 
+---
 
 ## Weitere Optionen und Anpassungen des Kursbausteins {: #further_options}
 
@@ -130,6 +130,7 @@ In den Metadaten wird auch angezeigt, wie häufig eine Datei aufgerufen wurde. F
 
 Personen mit Bearbeitungsrechten können bei unterstützten Dateiformaten wie docx, xlsx, pptx, draw.io, dwb, txt, html, css und xml durch einen Klick auf den Dateinamen direkt in den Bearbeitungsmodus wechseln. Voraussetzung dafür ist, dass diese Formate in der OpenOlat [Administration](../../manual_admin/administration/External_Tools_-_Administration.de.md) aktiviert wurden.
 
+---
 
 ## Weiterführende Informationen {: #further_information}
 
