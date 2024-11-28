@@ -16,6 +16,9 @@ Werkzeug für Betreuer um einfach kursübergreifende Bewertungen und Aktionen du
 ## Autorenbereich
 Zentraler Bereich für OpenOlat Autoren. Hier befindet sich alles, was zum Erstellen neuer Kurse erforderlich ist.
 
+## Video Collection
+Sammlung aller freigegebenen Video-Lernressourcen Ihrer OpenOlat-Instanz.
+
 ## Fragenpool
 Der Fragenpool ist ein Bereich, in dem Fragen zur Wiederverwendung gesammelt werden. OpenOlat bietet dazu ein Management der Zugriffsberechtigungen usw.
 

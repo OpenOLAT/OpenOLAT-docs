@@ -101,6 +101,8 @@ nav:
        - Overview: "area_modules/Authoring.md"
        - Create courses and learning resources: "area_modules/authoring_new_course.md"
        - Bulk actions: "area_modules/Authoring_BulkActions.md"
+    - Video Collection:
+        - Overwiew: "area_modules/Video_Collection.md" 
     - Question Bank:
       - Overview: "area_modules/Question_Bank.md"
       - Data Management: "area_modules/Data_Management.md"

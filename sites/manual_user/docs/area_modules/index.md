@@ -16,6 +16,9 @@ Tool for coaches to easily carry out cross-course assessments and actions.
 ## Authoring area
 Central area for OpenOlat authors. Here you can find everything needed to create new courses.
 
+## Video Collection
+Collection of all shared video learning resources of your OpenOlat instance.
+
 ## Question pool
 The question pool is an area where questions are collected for reuse. OpenOlat offers a management of access permissions etc. for this purpose.
 
