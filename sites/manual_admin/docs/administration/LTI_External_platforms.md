@@ -1,4 +1,4 @@
-# LTI - Externe Platformen
+# LTI - External Platforms
 
 :octicons-tag-24: Release 15.5
 
@@ -39,16 +39,21 @@ After completing the form, enter the public key on the external instance in the 
 
 ![LTI_admin_platform_config_v1_de.png](assets/LTI_admin_platform_config_v1_de.png){ class="lightbox" }
 
+
+
 ## Links
 
 IMS Global Learning Consortium: [Learning Tools Interoperability Core Specification](http://www.imsglobal.org/spec/lti/v1p3/)
 
-Admin manual: [LTI 1.3 Integration](http://docs.openolat.org/manual_admin/administration/LTI_Integrations/)
+Admin manual: [LTI 1.3 Integrations](../administration/LTI_Integrations.md)
 
-Admin manual: [LTI - Externe Werkzeuge](http://docs.openolat.org/manual_admin/administration/LTI_External_tools/)
+Admin manual: [LTI - External tools](../administration/LTI_External_tools.md)
 
-User manual: [LTI-Zugang zu einem Kurs konfigurieren](https://docs.openolat.org/manual_user/learningresources/LTI_Share_courses/?h=lti)
+User manual: [Configure LTI access to course](../../manual_user/learningresources/LTI_Share_courses.md)
 
-User manual: [Kursbaustein "LTI-Seite“](http://docs.openolat.org/manual_user/learningresources/Course_Element_LTI_Page/)
+User manual: [Course element "LTI Page"](../../manual_user/learningresources/Course_Element_LTI_Page.md)
 
-User manual: [LTI-Zugang zu einer Gruppe konfigurieren](https://docs.openolat.org/manual_user/groups/LTI_Share_groups/)
+User manual: [Configure LTI access to a group](../../manual_user/groups/LTI_Share_groups.md)
+
+User manual: [LTI Deep Linking](../../manual_user/groups/LTI_Deeplinking.de.md)
+

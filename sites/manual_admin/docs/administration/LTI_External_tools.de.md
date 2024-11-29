@@ -51,16 +51,20 @@ In OpenOlat werden unter “Neues Tool hinzufügen” die folgenden Parameter de
 
 ![LTI_admin_tool_config_v1_de.png](assets/LTI_admin_tool_config_v1_de.png){ class="lightbox" }
 
+
 ## Links
 
 IMS Global Learning Consortium: [Learning Tools Interoperability Core Specification](http://www.imsglobal.org/spec/lti/v1p3/)
 
-Administrationshandbuch: [LTI 1.3 Integration](http://docs.openolat.org/de/manual_admin/administration/LTI_Integrations/)
+Administrationshandbuch: [LTI 1.3 Integration](../administration/LTI_Integrations.de.md)
 
-Administrationshandbuch: [LTI - Externe Plattformen](http://docs.openolat.org/de/manual_admin/administration/LTI_External_platforms/)
+Administrationshandbuch: [LTI - Externe Plattformen](../administration/LTI_External_platforms.de.md)
 
-Benutzerhandbuch: [LTI-Zugang zu einem Kurs konfigurieren](https://docs.openolat.org/de/manual_user/learningresources/LTI_Share_courses/?h=lti)
+Benutzerhandbuch: [LTI-Zugang zu einem Kurs konfigurieren](../../manual_user/learningresources/LTI_Share_courses.de.md)
 
-Benutzerhandbuch: [Kursbaustein "LTI-Seite“](http://docs.openolat.org/de/manual_user/learningresources/Course_Element_LTI_Page/)
+Benutzerhandbuch: [Kursbaustein "LTI-Seite“](../../manual_user/learningresources/Course_Element_LTI_Page.de.md)
 
-Benutzerhandbuch: [LTI-Zugang zu einer Gruppe konfigurieren](https://docs.openolat.org/de/manual_user/groups/LTI_Share_groups/)
+Benutzerhandbuch: [LTI-Zugang zu einer Gruppe konfigurieren](../../manual_user/groups/LTI_Share_groups.de.md)
+
+Benutzerhandbuch: [LTI Deep Linking](../../manual_user/groups/LTI_Deeplinking.de.md)
+

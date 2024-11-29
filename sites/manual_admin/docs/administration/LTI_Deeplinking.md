@@ -1,9 +1,5 @@
 # LTI - Deep Linking
 
-!!! warning "Attention"
-
-    This article is still under construction.
-
 
 OpenOlat supports deep linking according to the [LTI 1.3 Deep Linking Protocol](https://www.imsglobal.org/spec/lti-dl/v2p0).
 
@@ -78,17 +74,17 @@ IMS Global Learning Consortium: [Learning Tools Interoperability Core Specificat
 
 IMS Global Learning Consortium: [LTI 1.3 Deep-Linking protocol](https://www.imsglobal.org/spec/lti-dl/v2p0)
 
-Admin manual: [LTI 1.3 Integration](http://docs.openolat.org/manual_admin/administration/LTI_Integrations/)
+Admin manual: [LTI 1.3 Integrations](../administration/LTI_Integrations.md)
 
-Admin manual: Administrationshandbuch: [LTI - Externe Werkzeuge](http://docs.openolat.org/manual_admin/administration/LTI_External_tools/)
+Admin manual: [LTI - External tools](../administration/LTI_External_tools.md)
 
-User manual: [LTI-Zugang zu einem Kurs konfigurieren](https://docs.openolat.org/de/manual_user/learningresources/LTI_Share_courses/?h=lti)
+Admin manual: [LTI - External platforms](../administration/LTI_External_platforms.md)
 
-User manual: [Kursbaustein "LTI-Seite“](http://docs.openolat.org/manual_user/learningresources/Course_Element_LTI_Page/)
+User manual: [Configure LTI access to a course](../../manual_user/learningresources/LTI_Share_courses.md)
 
-User manual: [LTI-Zugang zu einer Gruppe konfigurieren](https://docs.openolat.org/manual_user/groups/LTI_Share_groups/)
+User manual: [Course element "LTI Page"](../../manual_user/learningresources/Course_Element_LTI_Page.md)
 
-
+User manual: [Configure LTI access to a group](../../manual_user/groups/LTI_Share_groups.md)
 
 
 

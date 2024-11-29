@@ -47,18 +47,22 @@ In OpenOlat, the following parameters of the external partner instance are enter
 
 ![LTI_admin_tool_config_v1_de.png](assets/LTI_admin_tool_config_v1_de.png){ class="lightbox" }
 
+
+
 ## Links
 
 IMS Global Learning Consortium: [Learning Tools Interoperability Core Specification](http://www.imsglobal.org/spec/lti/v1p3/)
 
-Admin manual: [LTI 1.3 Integrations](http://docs.openolat.org/manual_admin/administration/LTI_Integrations/)
+Admin manual: [LTI 1.3 Integrations](../administration/LTI_Integrations.md)
 
-Admin manual: [LTI - External platforms](http://docs.openolat.org/manual_admin/administration/LTI_External_platforms/)
+Admin manual: [LTI - External platforms](../administration/LTI_External_platforms.md)
 
-User manual: [Configure LTI access to course](https://docs.openolat.org/manual_user/learningresources/LTI_Share_courses/?h=lti)
+User manual: [Configure LTI access to course](../../manual_user/learningresources/LTI_Share_courses.md)
 
-User manual: [Course element "LTI Page"](http://docs.openolat.org/manual_user/learningresources/Course_Element_LTI_Page/)
+User manual: [Course element "LTI Page"](../../manual_user/learningresources/Course_Element_LTI_Page.md)
 
-User manual: [Configure LTI access to a group](https://docs.openolat.org/manual_user/groups/LTI_Share_groups/)
+User manual: [Configure LTI access to a group](../../manual_user/groups/LTI_Share_groups.md)
+
+User manual: [LTI Deep Linking](../../manual_user/groups/LTI_Deeplinking.de.md)
 
 
