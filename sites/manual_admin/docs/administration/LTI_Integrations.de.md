@@ -51,5 +51,5 @@ Benutzerhandbuch: [Kursbaustein "LTI-Seite“](../../manual_user/learningresourc
 
 Benutzerhandbuch: [LTI-Zugang zu einer Gruppe konfigurieren](../../manual_user/groups/LTI_Share_groups.de.md)
 
-Benutzerhandbuch: [LTI Deep Linking](../../manual_user/groups/LTI_Deeplinking.de.md)
+Benutzerhandbuch: [LTI Deep Linking](../administration/LTI_Deeplinking.de.md)
 

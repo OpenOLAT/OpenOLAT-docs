@@ -49,6 +49,6 @@ User manual: [Course element "LTI Page"](../../manual_user/learningresources/Cou
 
 User manual: [Configure LTI access to a group](../../manual_user/groups/LTI_Share_groups.md)
 
-User manual: [LTI Deep Linking](../../manual_user/groups/LTI_Deeplinking.md)
+User manual: [LTI Deep Linking](../administration/LTI_Deeplinking.md)
 
 
