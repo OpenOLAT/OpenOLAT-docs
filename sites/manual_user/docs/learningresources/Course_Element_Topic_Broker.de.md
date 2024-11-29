@@ -74,7 +74,7 @@ Die Themenvergabe im Kursbaustein Themenbörse geschieht deshalb in 2 Schritten:
 
 Im Tab "Konfiguration" werden die Rahmenbedingungen der Themenwahl und Einschreibung festgelegt.
 
-![course_element_topic_broker_configuration_v2_de.png](assets/course_element_topic_broker_configuration_v2_de.png){ class="shadow lightbox" }
+![course_element_topic_broker_configuration_v3_de.png](assets/course_element_topic_broker_configuration_v3_de.png){ class="shadow lightbox" }
 
 ![1_green_24.png](assets/1_green_24.png) **Einschreibemethode**<br>
 Aktuell ist die Methode ["Faire Auswahl"](#topic_broker_algorithm) verfügbar. Es ist geplant, dass weitere Methoden zur Auswahl hinzukommen. 
@@ -95,11 +95,14 @@ Der Auswahlzeitraum ist das Zeitfenster, innerhalb dessen die Teilnehmer:innen i
 ![7_green_24.png](assets/7_green_24.png) **Einschreibung nach Ablauf der Frist**<br>
 Als Kursbesitzer:in entscheiden Sie, ob die definitiven Einschreibungen automatisch oder manuell vorgenommen werden, sobald das Ende des Auswahlzeitraums erreicht ist.
 
-![8_green_24.png](assets/8_green_24.png) **Berechtigungen: Thema bearbeiten**<br>
+![8_green_24.png](assets/8_green_24.png) **Rückzugfrist für Einschreibung**<br>
+Diese Option wird nur angeboten, wenn ![5_green_24.png](assets/5_green_24.png) "Einschreibung zurückziehen" gewählt wurde. Wenn ja, kann optional ein Zeitpunkt angegeben werden, bis zu dem eine Einschreibung zurückgezogen werden kann.
+
+![9_green_24.png](assets/9_green_24.png) **Berechtigungen: Thema bearbeiten**<br>
 Standardmässig ist das Recht zum Bearbeiten der Themenvorgaben den Kursbesitzer:innen vorbehalten. Mit dieser Option kann das Recht auch Betreuer:innen gegeben werden.<br>
 Die Bearbeitung kann noch detaillierter spezifiziert werden, wenn die erweiterte Konfiguration genutzt wird (Toggle-Button am rechten Rand).
 
-![9_green_24.png](assets/9_green_24.png) **Berechtigungen: Teilnehmer:innen bearbeiten**<br>
+![10_green_24.png](assets/10_green_24.png) **Berechtigungen: Teilnehmer:innen bearbeiten**<br>
 Standardmässig ist das Recht zum Übersteuern und Bearbeiten einer getroffenen Themenauswahl den Kursbesitzer:innen vorbehalten. Mit dieser Option kann das Recht auch Betreuer:innen gegeben werden. (Diese haben normalerweise nur Leserecht, wenn sie einen der Namen wählen.) Die Möglichkeit zum Übersteuern sollte jedoch möglichst nur in Ausnahmefällen benutzt werden, denn sie läuft der eigentlichen Absicht zuwider, eine faire Verteilung durch einen neutralen Algorithmus zu ermöglichen.<br>
 Die Bearbeitung kann noch detaillierter spezifiziert werden, wenn die erweiterte Konfiguration genutzt wird (Toggle-Button am rechten Rand).<br>
  
@@ -139,7 +142,7 @@ Die wählbaren Themen können im Kurseditor im Tab "Themen" durch Kursbesitzer:i
 
 Im nachstehenden Beispiel ist im unteren Bereich zusätzlich ein Feld enthalten, das im Tab "Benutzerdefinierte Felder" hinzugefügt wurde.
 
-![course_element_topic_broker_add_topic_v1_de.png](assets/course_element_topic_broker_add_topic_v1_de.png){ class="shadow lightbox" }
+![course_element_topic_broker_add_topic_v2_de.png](assets/course_element_topic_broker_add_topic_v2_de.png){ class="shadow lightbox" }
 
 
 [nach oben (Perspektive Kursbesitzer:in) ^](#topic_broker_setup)<br>

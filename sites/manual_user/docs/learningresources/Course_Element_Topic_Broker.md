@@ -72,7 +72,7 @@ The assignment of topics in the course module Topic Exchange therefore takes pla
 
 In the "Configuration" tab, the framework conditions for the choice of subject and enrollment are defined.
 
-![course_element_topic_broker_configuration_v2_en.png](assets/course_element_topic_broker_configuration_v2_en.png){ class="shadow lightbox" }
+![course_element_topic_broker_configuration_v3_en.png](assets/course_element_topic_broker_configuration_v3_en.png){ class="shadow lightbox" }
 
 
 ![1_green_24.png](assets/1_green_24.png) **Enrollment method**<br>
@@ -94,11 +94,14 @@ The selection period is the time window within which participants must submit th
 ![7_green_24.png](assets/7_green_24.png) **Enrolment after the deadline**<br>
 As the course owner, you decide whether the final enrolments are made automatically or manually as soon as the end of the selection period is reached.
 
-![8_green_24.png](assets/8_green_24.png) **Authorizations: edit topic**<br>
+![8_green_24.png](assets/8_green_24.png) **Withdraw deadline**<br>
+This option is only offered if ![5_green_24.png](assets/5_green_24.png) “Withdraw an enrollment” has been selected. If yes, you can optionally specify a time by which an enrollment can be withdrawn.
+
+![9_green_24.png](assets/9_green_24.png) **Authorizations: edit topic**<br>
 By default, the right to edit the topic specifications is reserved for course owners. With this option, the right can also be given to coaches.<br>
 Editing can be specified in even greater detail if the extended configuration is used (toggle button on the right-hand side).
 
-![9_green_24.png](assets/9_green_24.png) **Berechtigungen: Teilnehmer:innen bearbeiten**<br>
+![10_green_24.png](assets/10_green_24.png) **Berechtigungen: Teilnehmer:innen bearbeiten**<br>
 By default, the right to override and edit a selected topic is reserved for course owners. With this option, the right can also be given to coaches. (They normally only have read-only rights if they select one of the names). <br>
 Editing can be specified in even greater detail if the extended configuration is used (toggle button on the right-hand side).
 
@@ -138,7 +141,7 @@ The selectable topics can be added and described by course owners in the "Topics
 
 In the example below, the lower section also contains a field that was added in the "Custom fields" tab.
 
-![course_element_topic_broker_add_topic_v1_de.png](assets/course_element_topic_broker_add_topic_v1_de.png){ class="shadow lightbox" }
+![course_element_topic_broker_add_topic_v2_de.png](assets/course_element_topic_broker_add_topic_v2_de.png){ class="shadow lightbox" }
 
 [Up (Course owner perspective) ^](#topic_broker_setup)<br>
 [To the top of the page ^](#topic_broker)
