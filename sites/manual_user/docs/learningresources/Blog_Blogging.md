@@ -77,7 +77,7 @@ Course members can comment on blog posts with a text. As of release 19.1, files 
 
 To write a comment or read existing comments, click on the "Comments" link. A small text editor will open. 
 
-![blog_blogging_comment_v1_de.png](assets/blog_blogging_comment_v1_de.png){ class="shadow lightbox" }
+![blog_blogging_comment_v2_de.png](assets/blog_blogging_comment_v2_de.png){ class="shadow lightbox" }
 
 [Top of the page ^](#blog_blogging)
 
@@ -97,6 +97,10 @@ In the normal state, you will see the ratings of other blog readers. As soon as 
 Moderating a blog means directing or intervening in communication. In a blog, this means that a person checks whether the posts are appropriate or whether they need to be corrected or possibly even deleted. Moderators of an OpenOlat blog have the rights to read, comment, edit, delete and create new entries. Moderators can also customize the title and description of the entire feed. 
 
 The role of moderator can be taken on by course owners in any case. However, the right to act as moderator can also be assigned to coaches or specific persons. (See also [Blog configuration](../learningresources/Blog_Configuration.de.md))
+
+!!! note "Note"
+
+    If blog entries have been imported, they can only be deleted by moderators, owners or supervisors. (The original authors are still displayed as the creators of the posts).
 
 [To the top of the page ^](#blog_blogging)
 

@@ -102,6 +102,10 @@ Unter dem Moderieren eines Blogs versteht man das Lenken oder ein lenkendes Eing
 
 Die Aufgabe des/der Moderator:in kann auf jeden Fall von Kursbesitzer:innen übernommen werden. Das Moderatorenrecht kann aber auch an Betreuer:innen oder gezielt bestimmte Personen vergeben werden. (Siehe [Blog konfigurieren](../learningresources/Blog_Configuration.de.md))
 
+!!! note "Hinweis"
+
+    Sind Blogeinträge importiert worden, können sie nur von Moderator:innen, Besitzer:innen oder Betreuer:innen gelöscht werden. (Als Ersteller:innen der Beiträge sind dort weiterhin die ursprünglichen Autor:innen angezeigt.)
+
 [zum Seitenanfang ^](#blog_blogging)
 
 
