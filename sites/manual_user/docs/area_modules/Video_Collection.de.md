@@ -1,10 +1,6 @@
 # Video Collection {: #video_collection}
 
 
-!!! warning "Achtung"
-
-    Dieser Artikel ist noch in Bearbeitung.
-
 Sie finden die Video Collection im Hauptmenü der Kopfzeile. Es ist eine Art "Youtube innerhalb OpenOlat". Sie können durch alle in OpenOlat vorhandenen Videos browsen (sofern diese für Sie frei gegeben wurden).
 
 
@@ -21,7 +17,7 @@ Sie finden die Video Collection im Hauptmenü der Kopfzeile. Es ist eine Art "Yo
 
 ---
 
-## Was wird in der Video Collection angeboten?
+## Was wird in der Video Collection angeboten? {: #offering}
 
 In der Video Collection werden Video-Lernressourcen Ihrer OpenOlat-Instanz aufgelistet.
 
@@ -34,9 +30,12 @@ In der Video Collection werden Video-Lernressourcen Ihrer OpenOlat-Instanz aufge
 * In der Einzelansicht eines Videos wird automatisch die Beschreibung der Infoseite angezeigt. Der Inhalt der Infoseite wird übernommen aus den Einstellungen unter 
 **Autorenbereich > Lernressource wählen > Administration > Einstellungen > Tab "Info"**
 
-* Zu jedem Video besteht für alle Benutzer:innen die Möglichkeit, es durch Vergabe von Sternen zu bewerten.
+* Auch das Vorschaubild wird aus den Einstellungen der Lernressource übernommen.<br>
+**Autorenbereich > Lernressource wählen > Administration > Einstellungen > Tab "Info"**
 
-* Zu jedem Video kann durch die Benutzer:innen ein Kommentar abgegeben werden.
+* Jeds Video kann durch Vergabe von Sternen bewertet werden.
+
+* Zu jedem Video kann ein Kommentar abgegeben werden.
 
 
 !!! info "Hinweis"
@@ -49,20 +48,21 @@ In der Video Collection werden Video-Lernressourcen Ihrer OpenOlat-Instanz aufge
 ---
 
 
-## Wie kommen die Videos in die Video Collection?
+## Wie kommen die Videos in die Video Collection? {: #selection}
 
-Ob eine Video-Lernressource automatisch in der Video Collection angezeigt wird, hängt ab von
+Die Auswahl wird automatisch zusammengestellt. Ob eine Video-Lernressource in der Video Collection angezeigt wird gesteuert und hängt ab von
 
 * **Publikationsstatus:** Damit eine Video-Lernressource in der "Video Collection" angezeigt werden kann, muss der Publikationsstatus **"Veröffentlicht"** eingestellt sein.<br> 
 (Autorenbereich > Lernressource wählen > Button "Status")
 
-* **Freigabeeinstellung:** Es muss die Freigabeeinstellung **"Offen"** eingestellt sein.<br>
-(Autorenbereich > Lernressource wählen > Administration > Einstellungen > Tab "Freigabe")
+* **Freigabeeinstellung:** In den Freigabeeinstellung muss "In Video Collection anzeigen" eingestellt sein.<br>
+(Autorenbereich > Lernressource wählen > Administration > Einstellungen > Tab "Freigabe")<br>
+Ausserdem kann an dieser Stelle bestimmt werden, ob das Video nur für Mitglieder einer bestimmten Organisationseinheit sichtbar sein soll.
 
 
 !!! tip "Tipp"
 
-    Sollten Sie ein Video vermissen, überprüfen Sie bitte die Videoeinstellungen.
+    Sollten Sie ein Video vermissen, überprüfen Sie bitte die Einstellungen der Video-Lernressource.
 
 
 [zum Seitenanfang ^](#video_collection)
@@ -72,7 +72,7 @@ Ob eine Video-Lernressource automatisch in der Video Collection angezeigt wird, 
 
 ## Weitere Informationen
 
-[Funktionskonzept Kurse und Lernressourcen > ](../learningresources/General_Functions_Conceptde.md)<br>
+[Funktionskonzept Kurse und Lernressourcen > ](../learningresources/General_Functions_Concept.de.md)<br>
 [Lernressource Video > ](../learningresources/Learning_resource_Video.de.md)<br>
 [Video hochladen > ](../learningresources/Video_Upload.de.md)<br>
 [Video aufnehmen > ](../learningresources/Video_Recording.de.md)<br>
