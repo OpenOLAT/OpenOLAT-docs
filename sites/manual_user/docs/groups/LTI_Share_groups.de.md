@@ -68,11 +68,18 @@ Geben Sie hier den optionalen Schwellenwert an, ab dem das LTI.Element als besta
 
 ## Daten zur Gruppe per LTI übertragen
 
+
+!!! warning "Achtung"
+
+    Dieser Artikel ist noch in Bearbeitung.
+
+
+
 ??? Werden Informationen zu Gruppen über den Parameter "Zusätzliche Attribute" ausgetauscht?
 
 Die Informationen zu Gruppen werden als dynamische Benutzerattribute im Parameter "Zusätzliche Attribute" übergeben. Da es keine standardisierten Attribute sind, ist eine Absprachen zwischen den Administrator:innen der beiden LMS erforderlich.
 
-Beispiel: ...??
+Beispiel: ...
 
 
 **Wieviel weiss das andere LMS von den OpenOlat-Benutzerdaten?**<br>
@@ -105,9 +112,10 @@ Benutzerhandbuch: [LTI-Zugang zu einem Kurs konfigurieren](https://docs.openolat
 
 Benutzerhandbuch: [Kursbaustein "LTI-Seite“](http://docs.openolat.org/de/manual_user/learningresources/Course_Element_LTI_Page/)
 
+Benutzerhandbuch: [LTI Deep Linking](../administration/LTI_Deeplinking.de.md)
+
 Administrationshandbuch: [LTI 1.3 Integrationen im Überblick](http://docs.openolat.org/de/manual_admin/administration/LTI_Integrations/)
 
 Administrationshandbuch: [LTI - Externe Werkzeuge](http://docs.openolat.org/de/manual_admin/administration/LTI_External_tools/)
 
 Administrationshandbuch: [LTI - Externe Plattformen](http://docs.openolat.org/de/manual_admin/administration/LTI_External_platforms/)
-
