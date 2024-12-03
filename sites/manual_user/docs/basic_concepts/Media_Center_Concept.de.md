@@ -156,8 +156,20 @@ Und wie können die Medien, die sich im Media Center befinden weiterverwendet we
 
 Die **Filterfunktionen** helfen, die gesuchten Medien schnell zu finden. Suchen oder filtern Sie nach ...
 
-![Medien Center Filterfunktion](assets/media_center_filter_function_v1_de.png){ class=" shadow lightbox" }
+![media_center_filter_function_v1_de](assets/media_center_filter_function_v1_de.png){ class=" shadow lightbox" }
 
 !!! note "Hinweis"
 
     Bei der Einbindung von Dokumenten in einer Portfolio Mappe werden diese als _Links_ dargestellt und nicht direkt angezeigt.  
+
+
+## Media Center verwalten
+
+Administrator:innen haben beim Aufruf des Media Centers einen zusätzlichen Tab "Medienverwaltung", in dem sie Verwaltungsaufgaben im Media Center wahrnehmen können. Es werden dort alle Medien ausser den eigenen aufgelistet. 
+
+Nach Anklicken eines Mediums sind zu jedem Medium die Verwendungsorte, Freigaben, letzte Aufrufe, u.a. abrufbar.
+
+![media_center_administration_v1_de](assets/media_center_administration_v1_de.png){ class=" shadow lightbox" }
+
+
+
