@@ -6,21 +6,21 @@
 
 Ab Release 19 steht in OpenOlat ein File Hub als **globaler Dateibrowser** zur Verfügung, in dem **alle in OpenOlat vorhandenen Ordner** aufgelistet sind. (Kursordner, Gruppenordner, Archivordner, usw.) 
 
-![file_hub_pers_menu_storage_locations_v1_de.png](assets/file_hub_pers_menu_storage_locations_v1_de.png){ class="shadow lightbox"}
+![file_hub_pers_menu_storage_locations_v2_de.png](assets/file_hub_pers_menu_storage_locations_v2_de.png){ class="shadow lightbox"}
 
 
 ## Merkmale des File Hubs
 
 * **Multi-File-Upload** per drag & drop
 * Werden im File Hub Dateien an einen anderen Ort übernommen, werden sie jeweils **kopiert**. <br>
-(Im Unterschied zum [Medien Center](../personal_menu/Media_Center.de.md), dort sollen z.B. Logos, AGBs u.ä. zentral verwaltet, geupdated und allen Autor:innen zur Verfügung gestellt werden. Deshalb werden dort die Dateien verlinkt.)
+(Im Unterschied zum [Media Center](../personal_menu/Media_Center.de.md), dort sollen z.B. Logos, AGBs u.ä. zentral verwaltet, upgedated und allen Autor:innen zur Verfügung gestellt werden. Deshalb werden dort die Dateien verlinkt.)
 * Es werden nur Ordner im File Hub angezeigt, auf die die aktuell eingeloggte Person **Zugriffsberechtigungen** hat.
 
 
 ## Struktur
 
 
-![file_hub_concept_overview_v1_de.png](assets/file_hub_concept_overview_v1_de.png){ class="shadow lightbox"}
+![file_hub_concept_overview_v2_de.png](assets/file_hub_concept_overview_v2_de.png){ class="shadow lightbox"}
 
 
 
@@ -32,7 +32,7 @@ Die Ordner und Dateien werden im File Hub entsprechend individuellen, persönlic
 
 ![file_hub_pers_menu_open_v1_de.png](assets/file_hub_pers_menu_open_v1_de.png){ class=" shadow lightbox" }
 
-![file_hub_pers_menu_marked_v1_de.png](assets/file_hub_pers_menu_marked_v1_de.png){ class=" shadow lightbox" }
+![file_hub_pers_menu_marked_v2_de.png](assets/file_hub_pers_menu_marked_v2_de.png){ class=" shadow lightbox" }
 
 
 
@@ -95,11 +95,6 @@ Es werden im File Hub nur Ordner angezeigt, auf die die eingeloggte Person auch 
 * Es sind Unterordner innerhalb der Ressourcenordners möglich.
 
 
-### Medien Center
-
-Im [Medien Center](../personal_menu/Media_Center.de.md) als ebenfalls personalisierter Sammlung, sind **Mediendateien** (z.B. mp4) und **Inhaltselemente** (z.B. mit dem Content Editor erstellte Elemente des Kursbausteins "Seite") abgelegt. 
-
-
 
 ### Sharepoint
 
@@ -130,7 +125,7 @@ Die Zugriffsmöglichkeit auf externe Werkzeuge, wie z.B. Microsoft Sharepoint, m
 ## Weitere Informationen
 
 [File Hub im persönlichen Menü](../personal_menu/File_Hub.de.md)<br>
-[Medien Center](../personal_menu/Media_Center.de.md)<br>
+[Media Center](../personal_menu/Media_Center.de.md)<br>
 [Dokumentenpool](../../manual_admin/administration/Modules_Document_pool.de.md)<br>
 [Ablageordner](../learningresources/Storage_folder.de.md)<br>
 [Ressourcenordner](../learningresources/Resource_Folder.de.md)<br>

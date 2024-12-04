@@ -4,7 +4,7 @@
 
 As of Release 19, a file hub is available in OpenOlat as a **global file browser**, in which **all folders available in OpenOlat** are listed. (Course folders, group folders, archive folders, etc.) 
 
-![file_hub_pers_menu_storage_locations_v1_de.png](assets/file_hub_pers_menu_storage_locations_v1_de.png){ class="shadow lightbox"}
+![file_hub_pers_menu_storage_locations_v2_de.png](assets/file_hub_pers_menu_storage_locations_v2_de.png){ class="shadow lightbox"}
 
 ## Features of the File Hub
 
@@ -16,7 +16,7 @@ As of Release 19, a file hub is available in OpenOlat as a **global file browser
 
 ## Structure
 
-![file_hub_concept_overview_v1_de.png](assets/file_hub_concept_overview_v1_de.png){ class="shadow lightbox"}
+![file_hub_concept_overview_v2_de.png](assets/file_hub_concept_overview_v2_de.png){ class="shadow lightbox"}
 
 
 ## How do I open the file hub
@@ -25,7 +25,7 @@ The folders and files are displayed in the File Hub according to individual, per
 
 ![file_hub_pers_menu_open_v1_de.png](assets/file_hub_pers_menu_open_v1_de.png){ class=" shadow lightbox" }
 
-![file_hub_pers_menu_marked_v1_de.png](assets/file_hub_pers_menu_marked_v1_de.png){ class=" shadow lightbox" }
+![file_hub_pers_menu_marked_v2_de.png](assets/file_hub_pers_menu_marked_v2_de.png){ class=" shadow lightbox" }
 
 
 ### The File Hub in other contexts
@@ -80,9 +80,7 @@ Only folders to which the person logged in has access authorization are displaye
 * 1 resource folder can be integrated per course. 
 * Subfolders are possible within the resource folder.
 
-### Media Center
 
-In the [Media Center](../personal_menu/Media_Center.md), which is also a personalized collection, **media files** (e.g. mp4) and **content elements** (e.g. elements of the course element "Page" created with the Content Editor) are stored. 
 
 ### Sharepoint
 
