@@ -1,7 +1,6 @@
 # Additional Course Features
 
-In the course users have a number of additional course functions at their disposal, which the course author can activate and deactivate as required. 
-These functions then appear either in the toolbar or under “My course”. 
+In the course users have a number of additional course functions at their disposal, which the course author can activate and deactivate as required. These functions then appear either in the toolbar or under "My course". 
 
 ## Menu "My course"
 
@@ -9,8 +8,7 @@ The drop down menu "My course" provides access to personalized course functions.
 
 ![Dropdown - Mein Kurs](assets/Mein_Kurs_menue_19en.jpg)
 
-Depending on the course configuration, it is possible that not all
-options are available.  
+Depending on the course configuration, it is possible that not all options are available.  
 
  * **Evidence of achievement** displays your assessments in the course in table form and, if activated, gives access to the [certificate](../learningresources/Course_Settings_Assessment.md#certificate) of the course.*
  * **To-dos**: Displays the current to-dos of the course. 
@@ -36,12 +34,12 @@ Once a certificate is automatically issued after successfully completing a cours
     All your evidences of achievement and certificates will be listed in your ["Evidence of achievements"](../personal_menu/Personal_Tools.md#evidences-of-achievement). It always opens in a new window and is printable.
 
 ### To-dos
-Hier werden Teilnehmenden alle für Sie relevanten To-dos des Kurses angezeigt. 
-Dabei kann es sich zum einen um automatisch generierte To-dos aus den Aufgaben-Kursbausteinen handeln. Dann werden aufgefordert einen bestimmten Schritt im Aufgabenflow zu gehen, z.B. eine Aufgabe auszuwählen, eine Lösung abzugeben o.ä. 
-Zum anderen können Lehrende allen Kursteilnehmenden oder auch nur einzelnen Personen bestimmte konkrete To-dos zuweisen. Lernende können den Status eines To-dos ändern, wenn sie die Aktion erledigt haben. 
+Participants are shown all relevant to-dos for the course here. 
+On the one hand, these can be automatically generated to-dos from the task course elements. Then you are asked to take a certain step in the task flow, e.g. select a task, submit a solution or similar. 
+On the other hand, teachers can assign specific to-dos to all course participants or just to individuals. Learners can change the status of a to-do once they have completed the action. 
 
-Die To-dos dienen dem User als Orientierung, was aktuell im Kurs zu tun ist. 
-Ein Überblick über alle persönlichen und kursbezogenen To-dos finden User im Bereich ["Persönliche Werkzeuge"](../personal_menu/To-Dos.de.md). Dort können sie auch eigene To-dos ergänzen.  
+The to-dos serve as an orientation for the user as to what currently needs to be done in the course. 
+Users can find an overview of all personal and course-related to-dos in the ["Personal tools"](../personal_menu/To-Dos.md) section. They can also add their own to-dos there.
 
 ### Leave course
 

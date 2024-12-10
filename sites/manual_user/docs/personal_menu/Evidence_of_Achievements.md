@@ -25,13 +25,13 @@ Users can find their certificates of achievement, and if activated also their re
 
 ### Evidence of achievement in the personal tools
 
-Die Anzeige im Persönlichen Menü eignet sich um einen schnellen Überblick über alle bereits in OpenOlat erhaltenen, persönlichen Leistungsnachweise und Zertifikate zu erhalten. So kann man schnell zu den einzelnen Leistungsnachweisen und Zertifikaten  navigieren und weitere Informationen erhalten. Aktivieren Sie in der Übersicht alle für Sie relevanten Spalten z.B. Punkte, Bestanden, Zertifikat. 
+The display in the personal menu is suitable for obtaining a quick overview of all personal evidences of achievement and certificates already received in OpenOlat. This allows you to quickly navigate to the individual evidences of achievement and certificates and obtain further information. Activate all the columns relevant to you in the overview, e.g. Points, Passed, Certificate. 
 
-Aktivieren Sie "ePortfolio" um einen Leistungsnachweis auch in Ihr [Portfolio](../personal_menu/Portfolio.de.md) zu übernehmen. Dabei wird der Leistungsnachweis in einem ersten Schritt in ihr persönliches ["Medien Center"](../personal_menu/Media_Center.de.md) eingefügt und kann von dort aus als Inhaltselement in ein Portfolio eingefügt werden. So können Zusammenstellungen von Leistungsnachweisen für unterschiedliche Zwecke kombiniert und auch bestimmten Personen zugänglich gemacht werden. 
+Activate "ePortfolio" to transfer an evidence of achievement to your [Portfolio](../personal_menu/Portfolio.md). In a first step, the evidence of achievement is added to their personal ["Media Center"](../personal_menu/Media_Center.md) and can be inserted from there as a content element in a portfolio. In this way, compilations of evidences of achievement can be combined for different purposes and also made accessible to specific persons. 
 
 !!! info  "Info"
 
-    Bitte beachten: Leistungsnachweise und Zertifikate werden erst angezeigt, wenn bereits Leistungen erbracht wurden und wenn diese auch bewertet und die Sichtbarkeit für den User freigegeben wurde. Ausgestellte Zertifikate können auch heruntergeladen werden.
+    Please note: Evidences of achievement and certificates are only displayed if achievements have already been made and if these have also been evaluated and the visibility has been released for the user. Certificates issued can also be downloaded.
 
 **External certificates**
 
@@ -42,7 +42,7 @@ OpenOlat users can also upload externally acquired certificates to OpenOlat to c
 
 ## View evidence of achievement in the course
 
-Wurde in einem Kurs der Leistungsnachweis aktiviert finden Teilnehmende in der Toolbar unter "Mein Kurs" den Link zu ihrem Leistungsnachweis. Klickt man auf den Link erhält man einen Überblick über die bewertbaren Kursbausteine des Kurses mit ihrem jeweiligen aktuellen Bewertungsstatus.
+If the transcript of records has been activated in a course, participants will find the link to their transcript of records in the toolbar under "My course". If you click on the link, you will get an overview of the assessable course elements of the course with their current assessment status.
 
 ![Leistungsnachweis im Kurs](../learningresources/assets/Mein_Kurs_menue_19en.jpg)
 
@@ -54,14 +54,14 @@ Wurde in einem Kurs der Leistungsnachweis aktiviert finden Teilnehmende in der T
 
 
 
-## Further confirmation
+## Further information
 
-[Certificates of achievements](../learningresources/Course_Settings_Assessment.md#evidence_of_achievement)<br>
+[Evidences of achievements](../learningresources/Course_Settings_Assessment.md#evidence_of_achievement)<br>
 [Certificates](../learningresources/Course_Settings_Assessment.md#certificate)<br>
-[Bewertungssysteme in OpenOlat: Noten](../../manual_admin/administration/Assessment_translate_points_in_grades_admin.md)<br>
-[Badges in den persönlichen Werkzeugen](OpenBadges.md)<br>
-[Badges im Bewertungswerkzeug](../learningresources/OpenBadges.md)<br>
-[Badges in der eAssessment-Administration](../../manual_admin/administration/e-Assessment_openBadges.md)<br>
-[Testquittung erstellen](../learningresources/Test_settings.md#tab-options)<br>
-[Testquittung validieren](../learningresources/Assessing_tests.md#grading-tool)<br>
-[Rezertifizierung](../learningresources/Course_Settings_Assessment.md#recertification)
+[Assessment systems in OpenOlat: Grades](../../manual_admin/administration/Assessment_translate_points_in_grades_admin.md)<br>
+[Badges in the Personal Tools](OpenBadges.md)<br>
+[Badges in the Assessment Tool](../learningresources/OpenBadges.md)<br>
+[Badges in the eAssessment administration](../../manual_admin/administration/e-Assessment_openBadges.md)<br>
+[Create test receipt](../learningresources/Test_settings.md#tab-options)<br>
+[Validate test receipt](../learningresources/Assessing_tests.md#grading-tool)<br>
+[Recertification](../learningresources/Course_Settings_Assessment.md#recertification)

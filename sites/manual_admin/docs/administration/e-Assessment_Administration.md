@@ -12,7 +12,7 @@
 
 ## Coaching
 
-Here the coaching module is activated.
+Here, the coaching module is activated.
 
 ## Certificates
 
@@ -22,12 +22,11 @@ created can be sent. Copies to line managers are also possible. The upload of ex
 
 ## Assessment management
 
-At this point, administrators can basically enable assessment mode for the
-OpenOlat instance and search for assessments.
+At this point, administrators can basically enable assessment mode for the OpenOlat instance and search for assessments.
 
 ## Test
 
-An dieser Stelle werden die Testquittung konfiguriert und Einstellungen für den  Korrekturflow  von Tests definiert. Mit Hilfe des Korrektur-Workflows können Sie persönliche Korrekturaufträge generieren und diese definierten Korrektor:innen zuweisen. Die Korrektur über das Bewertungswerkzeug im Kurs ist dann nicht mehr möglich.
+This is where the test receipt is configured and settings for the correction flow of tests are defined. You can use the correction workflow to generate personal correction orders and assign them to defined correctors. Correction via the assessment tool in the course is then no longer possible.
 
   
 

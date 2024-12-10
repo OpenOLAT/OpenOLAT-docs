@@ -67,7 +67,7 @@ Stellen Lehrende ein vorstrukturiertes Portfolio mit Aufgabenstellungen bzw. Akt
 
 Nachdem eine Portfolioaufgabe vom User abgeholt wurde kann er über den Link "Portfolio öffnen" direkt die Portfolio Mappe aufrufen. Darüber hinaus werden nun noch weitere Informationen im Kursbereich angezeigt.
 
-Unter „Portfolio Überprüfung“ können User Zugriffsrechte für weitere Personen definieren und so z.B. Kursbesitzenden oder Betreuenden das Zugangsrecht für das persönliche Portfolio vergeben. Darüber hinaus wird nun beim Kursbaustein Portfolioaufgabe eine Schnellübersicht über die Bereiche der Portfolio-Mappe und, sobald abgeholt, auch der zugeordneten Aufgaben angezeigt. 
+Unter "Portfolio Überprüfung" können User Zugriffsrechte für weitere Personen definieren und so z.B. Kursbesitzenden oder Betreuenden das Zugangsrecht für das persönliche Portfolio vergeben. Darüber hinaus wird nun beim Kursbaustein Portfolioaufgabe eine Schnellübersicht über die Bereiche der Portfolio-Mappe und, sobald abgeholt, auch der zugeordneten Aufgaben angezeigt. 
 
 Sobald die Portfolioaufgabe im Kurs abgeholt wurde, findet der User diese auch in seinem [persönlichen Menü](../personal_menu/Personal_Tools.de.md) unter "Portfolio 2.0" - "Meine Portfolio Mappen". Im persönlichen Portfolio sind alle aus einem Kurs abgeholten Portfolioaufgaben mit einem roten Strich am linken Rand gekennzeichnet und enthalten den Hinweis auf den zugehörigen Kurs. 
 
