@@ -35,6 +35,12 @@ Currently the Text Button functions as unobtrusive Idea for a place, where alot 
 Buttons can have various sizes.
 XS / S / SM / M / L
 
+## Additional information
+
+Buttons may have additional information that the user needs to know before clicking on the action. These information is displayed above the button. The background is in a light color and the information starts with an icon.
+
+![Additional information](assets/additional-info.png){ class="thumbnail-xl" }
+
 ## Guidelines / Usage
 
 ### When to use
