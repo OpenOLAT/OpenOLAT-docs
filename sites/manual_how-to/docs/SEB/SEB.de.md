@@ -91,7 +91,7 @@ Wir empfehlen die Konfiguration hier auf dieser Seite in OpenOlat. Prinzipiell i
 
 
 ![2_green_24.png](assets/2_green_24.png) **Herunterladbare Konfigurationsdatei**<br>
-Wird hier "Ja" gewählt, kann die Konfigurationsdatei durch die Prüfungsteilnehmer:innen bei gestartem Prüfungsmodus aus OpenOlat heruntergeladen werden. Auch Autor:innen können die Datei jederzeit herunterladen und an die Prüfungsteilnehmer:innen verschicken. Siehe [Schritt 6](#download_SEB_configfile).
+Wird hier "Ja" gewählt, kann die Konfigurationsdatei durch die Prüfungsteilnehmer:innen bei gestartetem Prüfungsmodus aus OpenOlat heruntergeladen werden. Auch Autor:innen können die Datei jederzeit herunterladen und an die Prüfungsteilnehmer:innen verschicken. Siehe [Schritt 6](#download_SEB_configfile).
 
 Wird hier "Nein" gewählt, besteht die Downloadmöglichkeit für Teilnehmer:innen nicht mehr, für Autor:innen jedoch weiterhin, wie in [Schritt 6](#download_SEB_configfile) beschrieben.
 
@@ -254,7 +254,7 @@ durch Klicken auf den **Starten-Button** begonnen werden.
 
 **Schritt 1: Installation des SEB**<br>
 Der Safe Exam Browser muss im Voraus auf dem Gerät installiert werden. 
-Die Installationsdatei finden Sie auf der [Web Site des Herstellers](http://www.safeexambrowser.org/download_de.html).
+Die Installationsdatei finden Sie auf der [Website des Herstellers](http://www.safeexambrowser.org/download_de.html).
 
 Um Schwierigkeiten zu erkennen, ist eine von den Betreuer:innen vorab organisierte Probeprüfung empfehlenswert. So kann vorab sicher gestellt werden, dass auf allen Rechnern der SEB installiert ist.
 
@@ -315,7 +315,7 @@ Der SEB wird im Rahmen eines **Prüfungsmodus** in OpenOlat verwendet. Wird der 
 Das automatische Beenden eines Prüfungsmodus wird konfiguriert unter<br> 
 **Administration > Prüfungsverwaltung > Tab "Konfiguration Prüfungsmodus"**
 
-### Prüfung manuell beenden (Prüfung gleichzeitg für alle Beenden, durch Betreuer:innen)
+### Prüfung manuell beenden (Prüfung gleichzeitig für alle Beenden, durch Betreuer:innen)
 
 Es gilt auch hier: Wird der **Prüfungsmodus** durch den/die Betreuer:in beendet, wird auch der SEB beendet. Das manuelle Beenden eines laufenden Prüfungsmodus erfolgt durch Betreuer:innen unter<br>
 **Administration > Prüfungsverwaltung > Tab "Konfiguration Prüfungsmodus"**<br> 
@@ -366,7 +366,7 @@ Durch Verwendung des SEB können alle anderen Aktivitäten auf dem Computer auch
 
 ## Weiterführende Informationen
 
-[Web Site des Herstellers >](http://www.safeexambrowser.org)<br>
+[Website des Herstellers >](http://www.safeexambrowser.org)<br>
 [Prüfungsmodus >](../../manual_user/learningresources/Assessment_mode.de.md)<br>
 [Prüfungseinsicht > ](../../manual_user/learningresources/Assessment_inspection.de.md)<br>
 

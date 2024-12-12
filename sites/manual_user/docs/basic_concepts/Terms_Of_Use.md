@@ -69,7 +69,7 @@ If a text has been entered for the terms of use, it is retained after saving, re
 
 ### Management of the terms of use in the members management
 
-Those of the course participants who have given their consent to the course-specific terms of use can be viewed by the course owner under **Administration > Members management > Permissions**
+Those of the course participants who have given their consent to the course-specific terms of use can be viewed by the course owner under **Administration > [Members management](../learningresources/Members_management.md) > Permissions**
 
 ![terms_of_use_course_members_management1_v1_de.png](assets/terms_of_use_course_members_management1_v1_de.png){ class="shadow lightbox" }
 
@@ -81,7 +81,7 @@ Those of the course participants who have given their consent to the course-spec
 
 ### Acceptance of terms of use when copying courses
 
-Learning path courses can be copied with the help of a wizard (**Select course > Administration > Copy with wizard**). This wizard can be used to specify which settings are to be transferred to the copy before the copy process is executed. Among other things, the terms of use can also be copied.
+[Learning path courses](../learningresources/Creating_learning_path_courses.md) can be copied with the help of a wizard (**Select course > Administration > Copy with wizard**). This wizard can be used to specify which [course settings](../learningresources/Course_Settings.md) are to be transferred to the copy before the copy process is executed. Among other things, the terms of use can also be copied.
 
 ![terms_of_use_course_copy_v1_de.png](assets/terms_of_use_course_copy_v1_de.png){ class="shadow lightbox" }
 
@@ -99,7 +99,7 @@ When filling out a form, the content entered may also require participants to ac
 
 ### Define terms of use for a form
 
-Within the learning resource "Form" is the element "Form editor", which can be inserted by authors.
+Within the learning resource "Form" is the element "[Form editor](../learningresources/Form_Editor.md)", which can be inserted by authors.
 
 
 ![terms_of_use_form1_v1_de.png](assets/terms_of_use_form1_v1_de.png){ class="shadow lightbox" }
@@ -109,9 +109,9 @@ Within the learning resource "Form" is the element "Form editor", which can be i
 [To the top of the page ^](#terms-of-use)
 
 
-## Terms of use of extrernal tools {: #terms_of_use_external_tools}
+## Terms of use of external tools {: #terms_of_use_external_tools}
 
-In OpenOlat, external tools are integrated in some places (mostly also OpenSource, but not developed by Frentix), for which the conditions must also be accepted before use.
+In OpenOlat, external tools are integrated in some places (mostly also OpenSource, but not developed by frentix), for which the conditions must also be accepted before use.
 
 Example **draw.io**<br>
     draw.io is an online tool for creating diagrams that can be used in many places in OpenOlat, e.g. in projects, in the portfolio, in the "File" course element, in the Media Center and in many other places where new documents can be created. In draw.io, several people can also work together on a diagram.
@@ -122,5 +122,12 @@ Example **draw.io**<br>
 
 ## Further information
 
+[Archiving of consents to terms of use by administrators](../../manual_admin/usermanagement/Data_protection.md#export-von-benutzerdaten)
+
 [Archiving of consents to terms of use by administrators](../../manual_admin/usermanagement/Data_protection.md)
+
+[Settings in the Personal Menu](../personal_menu/Settings.md)
+
+
+
 
