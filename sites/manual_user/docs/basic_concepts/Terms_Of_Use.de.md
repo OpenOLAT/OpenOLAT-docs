@@ -78,7 +78,7 @@ Wurde ein Text für die Nutzungsbedingung erfasst, bleibt er nach dem Speichern 
 
 ### Verwaltung der Nutzungsbedingungen in der Mitgliederverwaltung
 
-Wer von den Kursteilnehmer:innen seine Zustimmung zu den kurspezifischen Nutzungsbedingungen gegeben hat, ist für den/die Kursbesitzer:in einsehbar unter **Administration > Mitgliederverwaltung > Einwilligungen**. 
+Wer von den Kursteilnehmer:innen seine Zustimmung zu den kurspezifischen Nutzungsbedingungen gegeben hat, ist für den/die Kursbesitzer:in einsehbar unter **Administration > [Mitgliederverwaltung](../learningresources/Members_management.de.md) > Einwilligungen**. 
 
 ![terms_of_use_course_members_management1_v1_de.png](assets/terms_of_use_course_members_management1_v1_de.png){ class="shadow lightbox" }
 
@@ -90,7 +90,7 @@ Wer von den Kursteilnehmer:innen seine Zustimmung zu den kurspezifischen Nutzung
 
 ### Übernahme von Nutzungsbedingungen beim Kopieren von Kursen
 
-Lernpfad-Kurse können mit Hilfe eines Wizards kopiert werden (**Kurs wählen > Administration > Kopieren mit Wizard**). Mit diesem Wizard kann vor der Ausführung des Kopiervorgangs festgelegt werden, welche Einstellungen in die Kopie übernommen werden sollen. Unter anderem können so auch die Nutzungsbedingungen übernommen werden.
+[Lernpfad-Kurse](../learningresources/Creating_learning_path_courses.de.md) können mit Hilfe eines Wizards kopiert werden (**Kurs wählen > Administration > Kopieren mit Wizard**). Mit diesem Wizard kann vor der Ausführung des Kopiervorgangs festgelegt werden, welche [Kurseinstellungen](../learningresources/Course_Settings.de.md) in die Kopie übernommen werden sollen. Unter anderem können so auch die Nutzungsbedingungen übernommen werden.
 
 ![terms_of_use_course_copy_v1_de.png](assets/terms_of_use_course_copy_v1_de.png){ class="shadow lightbox" }
 
@@ -108,7 +108,7 @@ Auch beim Ausfüllen eines Formulars kann der erfasste Inhalt es erforderlich ma
 
 ### Nutzungsbedingungen eines Formulars definieren
 
-Innerhalb der Lernressource "Formular" gibt es ein eigenes Element, das im Formulareditor von Autor:innen eingefügt werden kann.
+Innerhalb der Lernressource "[Formular](../learningresources/Form_Editor.de.md)" gibt es ein eigenes Element, das im Formulareditor von Autor:innen eingefügt werden kann.
 
 ![terms_of_use_form1_v1_de.png](assets/terms_of_use_form1_v1_de.png){ class="shadow lightbox" }
 ![terms_of_use_form2_v1_de.png](assets/terms_of_use_form2_v1_de.png){ class="shadow lightbox" }
@@ -132,3 +132,6 @@ Beispiel **draw.io**<br>
 [Archivierung der Zustimmungen zu Nutzungsbedingungen durch Administrator:innen](../../manual_admin/usermanagement/Data_protection.de.md#export-von-benutzerdaten)
 
 [Datenschutz](../../manual_admin/usermanagement/Data_protection.de.md)
+
+[Einstellungen im Persönlichen Menü](../personal_menu/Settings.de.md)
+
