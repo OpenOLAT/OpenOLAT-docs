@@ -6,7 +6,7 @@ OpenOlat collects objects and files in various containers. Here is an overview.
 
 | File Hub   | Media Center  | Authoring area |  Question pool  | Video Collection | Library | Document pool |
 | ---------- | -------------- | -------------- | -------------- |-------------- |-------------- |-------------- |
-|Shows all available files of the OpenOlat instance, including integrated external sources such as Sharepoint and OneDrive|Central audiovisual media collection|Contains courses and learning resources |Contains questions that are intended for multiple use|Lists all videos available in the instance|Files, hierarchically structured|Office documents and media files|
+|Shows all available files of the OpenOlat instance|Central audiovisual media collection|Contains courses and learning resources |Contains questions that are intended for multiple use|Lists all videos available in the instance|Files, hierarchically structured|Office documents and media files|
 
 
 ## Properties {: #object_collections_properties}

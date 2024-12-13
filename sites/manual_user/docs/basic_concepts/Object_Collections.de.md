@@ -6,7 +6,7 @@ In OpenOlat werden Objekte und Dateien in verschiedenen Gefässen gesammelt. Hie
 
 | File Hub   | Media Center  | Autorenbereich |  Fragenpool  | Video Collection | Bibliothek | Dokumentenpool |
 | ---------- | -------------- | -------------- | -------------- |-------------- |-------------- |-------------- |
-|zeigt alle verfügbaren Dateien der OpenOlat-Instanz, auch eingebundene externe Quellen, wie Sharepoint und OneDrive|zentrale audiovisuelle Mediensammlung|enthält Kurse und Lernressourcen |enthält Fragen, die zur Mehrfachverwendung vorgesehen sind|listet alle in der Instanz vorhandenen Videos|Dateien, hierarchisch gegliedert|Office-Dokumente und Mediendateien|
+|zeigt alle verfügbaren Dateien der OpenOlat-Instanz|zentrale audiovisuelle Mediensammlung|enthält Kurse und Lernressourcen |enthält Fragen, die zur Mehrfachverwendung vorgesehen sind|listet alle in der Instanz vorhandenen Videos|Dateien, hierarchisch gegliedert|Office-Dokumente und Mediendateien|
 
 
 ## Merkmale {: #object_collections_properties}
