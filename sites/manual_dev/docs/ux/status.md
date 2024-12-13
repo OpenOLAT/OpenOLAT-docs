@@ -88,7 +88,7 @@ Ampel logic: No action needed
 | Catalog    | Offer period          | :fontawesome-solid-clock:  | Planned     | 1.                   |
 | Curriculum | Curriculum element	 | :fontawesome-solid-pencil: |	Preparation | 2.                   |
 
-#### Orange
+### Orange
 
 Range of application
 
@@ -108,7 +108,7 @@ Ampel logic: Increased warning, intervention urgently required, but not yet crit
 | ------- | --------------------- | --------------------------- | ----------- | -------------------- |
 | Course  | Assessment inspection | :fontawesome-solid-spinner: | In progress | -                    |
 
-#### Red
+### Red
 
 Range of application
 1. Flagged as deleted
