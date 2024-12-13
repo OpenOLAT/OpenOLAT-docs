@@ -1,6 +1,6 @@
 # Suche im File Hub {: #search_in_file_hub}
 
-Der [File Hub](../personal_menu/File_Hub.de.md), den Sie unter den [persönlichen Werkzeugen](../personal_menu/Personal_Tools.de.md) finden, ist ein persönlicher Datei-Explorer und zeigt alle verfügbaren Dateien der OpenOlat-Instanz. Auch eingebundene externe Quellen, wie Sharepoint und OneDrive. Anders gesagt: Sie haben Zugriff auf alle Dateien, für die Sie eine Zugriffsberechtigung haben.
+Der [File Hub](../personal_menu/File_Hub.de.md), den Sie unter den [persönlichen Werkzeugen](../personal_menu/Personal_Tools.de.md) finden, ist ein persönlicher Datei-Explorer und zeigt verfügbare Dateien der OpenOlat-Instanz. 
 
 Entsprechend ist die Suche im File Hub in erster Linie auf **Dateien** ausgerichtet, die Sie z.B. kopieren oder verschieben wollen.
 
