@@ -4,7 +4,7 @@
 
 As of Release 19, a file hub is available in OpenOlat as a **global file browser**, in which **all folders available in OpenOlat** are listed. (Course folders, group folders, archive folders, etc.) 
 
-![file_hub_pers_menu_storage_locations_v2_de.png](assets/file_hub_pers_menu_storage_locations_v2_de.png){ class="shadow lightbox"}
+![file_hub_pers_menu_storage_locations_v3_de.png](assets/file_hub_pers_menu_storage_locations_v3_de.png){ class="shadow lightbox"}
 
 ## Features of the File Hub
 
@@ -16,7 +16,7 @@ As of Release 19, a file hub is available in OpenOlat as a **global file browser
 
 ## Structure
 
-![file_hub_concept_overview_v2_de.png](assets/file_hub_concept_overview_v2_de.png){ class="shadow lightbox"}
+![file_hub_concept_overview_v3_de.png](assets/file_hub_concept_overview_v3_de.png){ class="shadow lightbox"}
 
 
 ## How do I open the file hub
@@ -25,7 +25,7 @@ The folders and files are displayed in the File Hub according to individual, per
 
 ![file_hub_pers_menu_open_v1_de.png](assets/file_hub_pers_menu_open_v1_de.png){ class=" shadow lightbox" }
 
-![file_hub_pers_menu_marked_v2_de.png](assets/file_hub_pers_menu_marked_v2_de.png){ class=" shadow lightbox" }
+![file_hub_pers_menu_marked_v3_de.png](assets/file_hub_pers_menu_marked_v3_de.png){ class=" shadow lightbox" }
 
 
 ### The File Hub in other contexts
@@ -82,17 +82,6 @@ Only folders to which the person logged in has access authorization are displaye
 
 
 
-### Sharepoint
-
-Sharepoint is an external source (Microsoft program).<br>
-Files from Sharepoint can be accessed in the File Hub if the access authorization has been set up by administrators.
-
-
-### OneDrive
-
-OneDrive is an external source (Microsoft program).
-Files from OneDrive can be accessed in the File Hub if the access authorization has been set up by the administrator.
-
 ## Setting up the access conditions
 
 As mentioned above, the File Hub only displays folders and files for which access permission has been granted. Access permissions are granted/set up **in the respective sources**.
@@ -103,12 +92,6 @@ The File Hub automatically recognizes whether you are a member of a group and wh
 Example filing folder<br>
 Files from the course elements of a course are stored in the storage folder of a course. By default, the "Storage folder" menu option in the course administration is only displayed to course owners who can edit the course as authors.
 Accordingly, only folders for which you are the course owner or which have been shared by other course owners in the course settings are displayed in the File Hub.
-
-Example Sharepoint<br>
-Access to external tools, such as Microsoft Sharepoint, must be set up by the administrator under **Administration > External tools > Microsoft Sharepoint**.
-
-
-
 
 
 

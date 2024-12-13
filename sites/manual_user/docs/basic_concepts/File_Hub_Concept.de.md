@@ -6,7 +6,7 @@
 
 Ab Release 19 steht in OpenOlat ein File Hub als **globaler Dateibrowser** zur Verfügung, in dem **alle in OpenOlat vorhandenen Ordner** aufgelistet sind. (Kursordner, Gruppenordner, Archivordner, usw.) 
 
-![file_hub_pers_menu_storage_locations_v2_de.png](assets/file_hub_pers_menu_storage_locations_v2_de.png){ class="shadow lightbox"}
+![file_hub_pers_menu_storage_locations_v3_de.png](assets/file_hub_pers_menu_storage_locations_v3_de.png){ class="shadow lightbox"}
 
 
 ## Merkmale des File Hubs
@@ -20,7 +20,7 @@ Ab Release 19 steht in OpenOlat ein File Hub als **globaler Dateibrowser** zur V
 ## Struktur
 
 
-![file_hub_concept_overview_v2_de.png](assets/file_hub_concept_overview_v2_de.png){ class="shadow lightbox"}
+![file_hub_concept_overview_v3_de.png](assets/file_hub_concept_overview_v3_de.png){ class="shadow lightbox"}
 
 
 
@@ -32,7 +32,7 @@ Die Ordner und Dateien werden im File Hub entsprechend individuellen, persönlic
 
 ![file_hub_pers_menu_open_v1_de.png](assets/file_hub_pers_menu_open_v1_de.png){ class=" shadow lightbox" }
 
-![file_hub_pers_menu_marked_v2_de.png](assets/file_hub_pers_menu_marked_v2_de.png){ class=" shadow lightbox" }
+![file_hub_pers_menu_marked_v3_de.png](assets/file_hub_pers_menu_marked_v3_de.png){ class=" shadow lightbox" }
 
 
 
@@ -96,18 +96,6 @@ Es werden im File Hub nur Ordner angezeigt, auf die die eingeloggte Person auch 
 
 
 
-### Sharepoint
-
-Bei Sharepoint handelt es sich um eine externe Quelle (Microsoft Programm).<br>
-Dateien aus Sharepoint können im File Hub abgerufen werden, wenn die Zugriffsberechtigung von Administrator:innen eingerichtet wurde.
-
-
-### OneDrive
-
-Bei OneDrive handelt es sich um eine externe Quelle (Microsoft Programm).
-Dateien aus OneDrive können im File Hub abgerufen werden, wenn die Zugriffsberechtigung von Administrator:innen eingerichtet wurde.
-
-
 ## Einrichten der Zugriffsbedingungen
 
 Wie oben bereits erwähnt, werden im File Hub nur Ordner und Dateien angezeigt, auf die eine Zugriffsberechtigung besteht. Das Erteilen/Einrichten der Zugriffsberechtigungen geschieht **in den jeweiligen Quellen**.
@@ -116,10 +104,7 @@ Beispiel Gruppenordner<br>
 Der File Hub erkennt automatisch, ob Sie Mitglied einer Gruppe sind und welche Gruppenordner Ihnen im File Hub angezeigt werden. Wer also Zugriff auf einen Gruppenordner via File Hub erhalten möchte, muss eine Mitgliedschaft in der betreffenden Gruppe erhalten (-> Gruppenverwaltung).
 
 Beispiel Ablageordner<br>
-Im Ablageordner eines Kurses werden Dateien aus den Kursbausteinen des Kurses abgelegt. Die Menü-Option "Ablageordner" in der Kursadministration wird standardmässig nur den Kursbesitzer:innen angezeigt, die als Autor:innen den Kurs beasrbeiten können. Entsprechend werden im File Hub auch nur Ablageordner angzeigt, bei denen man selbst Kursbesitzer:in ist oder die von anderen Kursbesitzer:innen in den Kurseinstellungen freigegeben wurden.
-
-Beispiel Sharepoint<br>
-Die Zugriffsmöglichkeit auf externe Werkzeuge, wie z.B. Microsoft Sharepoint, muss von Administrator:innen eingerichtet werden unter **Administration > Externe Werkzeuge > Microsoft Sharepoint**.
+Im Ablageordner eines Kurses werden Dateien aus den Kursbausteinen des Kurses abgelegt. Die Menü-Option "Ablageordner" in der Kursadministration wird standardmässig nur den Kursbesitzer:innen angezeigt, die als Autor:innen den Kurs bearbeiten können. Entsprechend werden im File Hub auch nur Ablageordner angzeigt, bei denen man selbst Kursbesitzer:in ist oder die von anderen Kursbesitzer:innen in den Kurseinstellungen freigegeben wurden.
 
 
 ## Weitere Informationen
