@@ -114,6 +114,12 @@ Range of application
 1. Flagged as deleted
 2. 
 
+| Type    | Font      | Background | Border    | Label                                                              |
+| ------- | --------- | ---------- | --------- | ------------------------------------------------------------------ |
+| Regular | #FFFFFF | #b30018  | #a80016 | ![Regular green](assets/green-regular.png){ class="thumbnail-sm" } |
+| Light   | #b30018 | #FFFFFF  | #a80016 | ![Light green](assets/green-light.png){ class="thumbnail-sm" }     |
+| Mega    | #d6001c | #fff8f6  | #fff8f6 | ![Mega green](assets/green-mega.png){ class="thumbnail" }          |
+
 Ampel logic: Danger and critical, intervention required
 
 ### Brown
