@@ -10,7 +10,7 @@ Links | Use
 ---|---
 [Show my binders](My_portfolio_binders.md)|Here all personal folders are displayed and the user can create new folders.
 [Show my entries](My_entries.md)|All entries are displayed here and new entries can be created.
-[Open media center](../personal_menu/Media_Center.md)|Here you can find your artifacts and create or import new artifacts. An artifact can be, for example, a document, a media file, or a text.
+[Open media center](../personal_menu/Media_Center.md)|Here you can find your artifacts and create or import new artifacts. An artifact can be, for example, a document, a media file, or a text. Further general information on the Media Center can also be found [here](../basic_concepts/Media_Center_Concept.md)
 [To my shares](Shared_by_me.md)|Here the own folders are shown, which were released for further persons.
 [Show items shared with me](Shared_with_me.md)|Here all folders are indicated, which were provided by other persons and released for the respective user. For example, teachers can see the folders that students have released for them.
 

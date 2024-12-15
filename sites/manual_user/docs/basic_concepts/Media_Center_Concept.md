@@ -1,9 +1,5 @@
 # Media Center Concept
 
-![pers_menu_mediacenter_v1_de.png](assets/pers_menu_mediacenter_v1_de.png){ class="aside-right lightbox"}
-
-![icon_media_center.png](assets/icon_media_center.png)
-
 The Media Center is a **central collection point** for different types of media. Media can be...
 
 * ... created directly in the Media Center (e.g. video recording, docx, pptx, ...)
