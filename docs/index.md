@@ -16,7 +16,7 @@ Find information on OpenOlat, its features and latest changes here. Use the top 
 
 ## Current versions:
 
-- [OpenOlat 19.0 User Manual](manual_user/general/) <!-- | [Release notes 19.0](release_notes/Release_notes_19.0.md) -->
+- [OpenOlat 19.0 User Manual](manual_user/general/) | [Release notes 19.0](release_notes/Release_notes_19.0.md)
 
 ## Older versions:
 
