@@ -96,8 +96,9 @@ A number of enhancements have also been implemented for awarding badges in OpenO
 
 The section for activating "Modifications (On / Off)" for subscribable course elements and in the project tool has been completely revised. The redesigned icon with drop-down menu contains additional information:
 
+* Modifications are available directly on the course element even without an active subscription
 * Activation/deactivation of the subscription
-* Subscription list with the latest 10 entries
+* Subscription list with the latest entries
 * Predefined filters to narrow down the entries
 * Link to personal subscription overview
 * Help link to the manual

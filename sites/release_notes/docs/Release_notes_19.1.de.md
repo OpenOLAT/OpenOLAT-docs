@@ -77,7 +77,7 @@ Nach der Einführung der Themenbörse sind bereits erste Feedbacks in die weiter
 
 ## OpenBadges
 
-Auch für die Vergabe von Badges in OpenOlat wurden eine Reihe Erweiterungen implementiert:
+Auch für die Vergabe von Badges in OpenOlat wurden eine Reihe von Erweiterungen implementiert:
 
 * Lernpfad: Neue Bedingung "Erledigungskriterium für Kursbaustein erfüllt"
 * Optimierung des Wizards zur Ausstellung von Bagdes:
@@ -85,8 +85,8 @@ Auch für die Vergabe von Badges in OpenOlat wurden eine Reihe Erweiterungen imp
     * Überarbeitete Detailansicht
     * Ergänzung von Platzhalter- und Hinweistexten
     * Hilfe-Link
-* Verbesserte Badge-Auswahl mit Suchfeld, Multi-Checkbox-Liste und ergänzenden Informationen über verfügbare Badges
-* Verbesserte Kursauswahl mit Suchfeld und Multi-Checkbox-Liste für globale Badges
+* Verbesserte Badge-Auswahl mit Suchfeld, Mehrfachauswahl-Liste und ergänzenden Informationen über verfügbare Badges
+* Verbesserte Kursauswahl mit Suchfeld und Mehrfachauswahl-Liste für globale Badges
 
 ![Wizard für Badge](assets/191/Badges_completion_criterion_DE.png){ class="shadow lightbox" title="Vergabe eines Badges im Wizard konfigurieren" }
 
@@ -96,8 +96,9 @@ Auch für die Vergabe von Badges in OpenOlat wurden eine Reihe Erweiterungen imp
 
 Der Bereich zur Aktivierung von "Änderungen (Ein / Aus)" bei abonnierbaren Bausteinen und im Projekt-Tool wurde komplett überarbeitet. Das neugestaltete Icon mit Dropdown-Menü enthält ergänzende Informationen:
 
+* Änderungen sind auch ohne aktives Abonnement direkt am Baustein verfügbar
 * Aktivierung/Deaktivierung des Abonnements
-* Abonnementliste mit den letzten 10 Einträgen
+* Abonnementliste mit den letzten Einträgen
 * Vordefinierte Filter zur Eingrenzung der Einträge
 * Link zur persönlichen Abonnement-Übersicht
 * Hilfe-Link zum Handbuch
