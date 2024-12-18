@@ -3,8 +3,7 @@
 
 ## SharePoint
 
-Ab OpenOlat Version 19.0 wird für die Integration von SSO über Microsoft Entra ID, Microsoft Teams Online Meetings und
-die Microsoft SharePoint Integration nur noch eine einzige Microsoft Azure App eingerichtet.
+Ab OpenOlat Version 19.0 wird für die Integration von SSO über Microsoft Entra ID, Microsoft Teams Online Meetings und die Microsoft SharePoint Integration nur noch eine einzige Microsoft Azure App eingerichtet.
 
 !!! info "Info"
 

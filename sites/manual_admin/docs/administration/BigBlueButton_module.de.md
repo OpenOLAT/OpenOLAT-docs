@@ -1,7 +1,6 @@
 # Modul BigBlueButton {: #bbb}
 
-In der Verwaltung kann das virtuelle Klassenzimmer BigBlueButton aktiviert werden. Dieser Artikel beschreibt die Konfiguration von mehreren BigBlueButton-Servern, das Load-Balancing und das Einrichten von systemweiten
-Raumvorlagen.
+In der Verwaltung kann das virtuelle Klassenzimmer BigBlueButton aktiviert werden. Dieser Artikel beschreibt die Konfiguration von mehreren BigBlueButton-Servern, das Load-Balancing und das Einrichten von systemweiten Raumvorlagen.
 
 Die Anleitung zur Konfiguration von einzelnen Online-Terminen für Kursbesitzer
 wird im Kapitel [Kursbaustein BigBlueButton](../../manual_user/learningresources/Course_Element_BigBlueButton.de.md) beschrieben.
@@ -11,7 +10,7 @@ wird im Kapitel [Kursbaustein BigBlueButton](../../manual_user/learningresources
 ## Tab "Konfiguration" {: #tab_config}
 
   *  **Modul "BigBlueButton":** Aktivierung der Funktionalität
-  *  **Aktivieren für:** Freischaltung der Funktionalität einzeln für Kursbaustein BBB, Kursbaustein Terminplanung,Gruppen, Betreuer:innen-Chat
+  *  **Aktivieren für:** Freischaltung der Funktionalität einzeln für Kursbaustein BBB, Kursbaustein Terminplanung, Gruppen, Betreuer:innen-Chat
   *  **Online-Termine ohne Datum:** Zusätzliche Möglichkeit neben Online-Terminen auch "permanente Raumreservationen" ohne Datum freizuschalten. Diese sind im Kalender nicht ersichtlich und zählen zu jedem Zeitpunkt in den Limiten der Raumvorlage als belegt.
   *  **Profilbild übernehmen:**
   *  **Server:** In der Konfiguration werden die zur Verfügung stehenden BigBlueButton-Server pro OpenOlat-Instanz eingetragen.
@@ -48,37 +47,22 @@ Hier werden die zur Verfügung stehenden BigBlueButton-Server pro OpenOlat-Insta
 
 ### Load-Balancing {: #load_balancing}
 
-Ziel ist es, die erzeugte Last von gleichzeitigen Online-Terminen durch die
-Berücksichtigung von Performance-Parametern (wie Anzahl Videos und Anzahl
-Teilnehmenden der Meetings) auf den verfügbaren BigBlueButton-Server zu
-verteilen. OpenOlat besitzt dazu ein integriertes Load-Balancing. Beim
-initialen Start des Online-Termins (je nach Konfiguration durch den Moderator
-oder den ersten Teilnehmenden) wird der Server mit der geringsten Auslastung
-für das Meeting ausgewählt. Die Auslastung berechnet sich aus den
-unterschiedlichen Messfaktoren und gewichtet das Ergebnis mit dem
-Kapazitätsfaktor. 
+Ziel ist es, die erzeugte Last von gleichzeitigen Online-Terminen durch die Berücksichtigung von Performance-Parametern (wie Anzahl Videos und Anzahl Teilnehmenden der Meetings) auf den verfügbaren BigBlueButton-Server zu verteilen. OpenOlat besitzt dazu ein integriertes Load-Balancing. Beim initialen Start des Online-Termins (je nach Konfiguration durch den Moderator oder den ersten Teilnehmenden) wird der Server mit der geringsten Auslastung für das Meeting ausgewählt. Die Auslastung berechnet sich aus den unterschiedlichen Messfaktoren und gewichtet das Ergebnis mit dem Kapazitätsfaktor. 
 
-Über den Filter können die Server-Kennzahlen über den
-gesamten BBB-Server oder nur die Sessions des aktuellen OpenOlat-Servers
-ausgegeben werden.
+Über den Filter können die Server-Kennzahlen über den gesamten BBB-Server oder nur die Sessions des aktuellen OpenOlat-Servers ausgegeben werden.
 
 ### Kapazitätsfaktor {: #capacity_factor}
 
-Der Kapazitätsfaktor wird mit einem Wert zwischen 1 und 100 pro Server
-erfasst. Die berechneten Anzahl Benutzer* auf dem Server werden mit dem
-Kapazitätsfaktor multipliziert. Somit gleicht sich ein Server mit stärkerer
-Performance (RAM/CPU/Disk) einem Schwächeren an.  
+Der Kapazitätsfaktor wird mit einem Wert zwischen 1 und 100 pro Server erfasst. Die berechneten Anzahl Benutzer* auf dem Server werden mit dem Kapazitätsfaktor multipliziert. Somit gleicht sich ein Server mit stärkerer Performance (RAM/CPU/Disk) einem Schwächeren an.  
   
- _* Gewichtung bei der Zählung von Benutzern von hoch zu tief: Video-Benutzer,
-Audio-Benutzer, Viewer_
+ _* Gewichtung bei der Zählung von Benutzern von hoch zu tief: Video-Benutzer, Audio-Benutzer, Viewer_
 
 
 ---
 
 ## Tab "Raumvorlagen" {: #tab_room-templates}
 
-Die Raumvorlagen stehen bei der Erstellung eines neuen Online-Termins zur
-Auswahl. Die Vorlagen steuern:
+Die Raumvorlagen stehen bei der Erstellung eines neuen Online-Termins zur Auswahl. Die Vorlagen steuern:
 
   * Die zur Verfügung stehenden Funktionen und Standard-Einstellungen im Online-Termin.
   * Die Anzahl möglicher gleichzeitiger Nutzer pro Raum.
@@ -100,7 +84,7 @@ Auswahl. Die Vorlagen steuern:
      * Abgeschaltet (Alle können sofort eintreten.)
      * Alle Benutzer:innen (Jeder Zutritt müssen bestätigt werden.)
      * Nur Gäste und externe Benutzer:innen (Nur der Zutritt von Gästen und externen Benutzer:innen muss bestätigt werden.) 
-  *  **Raumvorlage aktiviert für _< Rolle>_:** Bestimmt, welche Rollen die Raumvorlage für neue Online-Termine nutzen können. Wird die Option "Gruppenmitglied" aktiviert, kann die Vorlage auch in OpenOlat [Gruppen ](../../manual_user/groups/Using_Group_Tools.de.md) verwendet und weiter konfiguriert werden.
+  *  **Raumvorlage aktiviert für _<Rolle>_:** Bestimmt, welche Rollen die Raumvorlage für neue Online-Termine nutzen können. Wird die Option "Gruppenmitglied" aktiviert, kann die Vorlage auch in OpenOlat [Gruppen ](../../manual_user/groups/Using_Group_Tools.de.md) verwendet und weiter konfiguriert werden.
 
 ![bbb_admin_room-template_config_v1_de.png](assets/bbb_admin_room-template_config_v1_de.png){ class="shadow lightbox" }
 

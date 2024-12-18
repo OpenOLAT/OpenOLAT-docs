@@ -5,7 +5,7 @@
 Name | Folder
 ---------|----------
 Icon | ![Task Icon](assets/folder.png){ class=size24 }
-Available since | New edition with release 17.1
+Available since | New edition with release 19.1
 Functional group | Knowledge transfer
 Purpose | Provision of files for download (e.g. material for the course)
 Assessable | no
@@ -24,11 +24,11 @@ The "folder" can also be configured as a collaborative tool for learners to uplo
 
 ### Tab folder configuration {: #tab_folder_config}
 
-![tab folder configuration](assets/folger_configuration_15.png)
+![course_element_folder_tab_folder_config_v1_de.png](assets/course_element_folder_tab_folder_config_v1_de.png){ class="shadow lightbox"}
 
 
-**Select folder**<br>
-In the tab "Folder configuration" of the course element you define where exactly the files of this folder should be stored in the folder of the course. For this, OpenOlat can either generate a folder automatically or select a specific folder from the course folder.
+![1_green_24.png](assets/1_green_24.png) **Select folder**<br>
+In the tab "Folder configuration" of the course element you define *where* exactly the files of this folder should be stored in the folder of the course. For this, OpenOlat can either generate a folder automatically or select a specific folder from the course folder.
 
 If the option **"Automatically generated folder"** is selected, OpenOlat creates the subfolder "_courselementdata" including a subfolder with the name of the respective course element "folder". All files of the course element are now saved here.
 
@@ -36,7 +36,7 @@ If you select **"Choose folder from course storage"**v  you can select an existi
 
 <br>
 
-**Upload files**<br>
+![2_green_24.png](assets/2_green_24.png) **Upload files**<br>
 Once you have selected the specific storage location, you can upload or create your files using the "Manage folder" button in the "Upload files" area. 
 
 ![Dateien upload](assets/KB_Ordner_Datei_upload.png )
@@ -45,7 +45,7 @@ Access to this file area is also possible when the course editor is closed (see 
 
 <br>
 
-**User rights**
+![3_green_24.png](assets/3_green_24.png) **User rights**
 
 Under "User rights" you can define who can upload and create files in the course element folder. By default, coaches are allowed to upload files in addition to the owners, but not the participants.
 
@@ -60,11 +60,12 @@ The extended configuration can also be used to define the provision of files for
 
 The following options are available to course owners and persons with the appropriate authorization:
 
+
 ### Add files
 
 **Upload files:** Select a file from your hard disk. Click on the small down arrow to see additional options (see screenshot "Upload files"):
 
-* **Add from file hub:** Access the [File Hub](../personal_menu/File_Hub.md) and your folders and files. You can also access your [Media Center](../personal_menu/Media_Center.md) and upload files directly to the File Hub.
+ * **Add from file hub:** Access the [File Hub](../personal_menu/File_Hub.md) and your folders and files. You can also access your [Media Center](../personal_menu/Media_Center.md) and upload files directly to the File Hub.
 
 * **Create Document:** Depending on the editors activated (e.g. Word, Excel, PowerPoint, diagrams, whiteboard, text, HTML, CSS, XML), you can create new documents here and add a description, license and other metadata to them.
 
@@ -73,6 +74,9 @@ The following options are available to course owners and persons with the approp
 * **Record video:** Record a video with your webcam.
 
 * **Record audio:** Record an audio file.
+
+---
+
 
 ### Further options and adjustments to the course element  {: #further_options}
 

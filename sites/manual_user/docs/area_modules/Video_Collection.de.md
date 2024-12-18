@@ -1,7 +1,7 @@
 # Video Collection {: #video_collection}
 
 
-Sie finden die Video Collection im Hauptmenü der Kopfzeile. Es ist eine Art "Youtube innerhalb OpenOlat". Sie können durch alle in OpenOlat vorhandenen Videos browsen (sofern diese für Sie frei gegeben wurden).
+Sie finden die Video Collection im Hauptmenü der Kopfzeile. Es ist eine Art "YouTube innerhalb OpenOlat". Sie können durch alle in OpenOlat vorhandenen Videos browsen (sofern diese für Sie frei gegeben wurden).
 
 
 ![video_collection_v1_de.png](assets/video_collection_v1_de.png){ class="shadow lightbox" }
@@ -11,7 +11,7 @@ Sie finden die Video Collection im Hauptmenü der Kopfzeile. Es ist eine Art "Yo
 
     Wenn in Ihrer OpenOlat-Instanz der Eintrag "Video Collection" in der Hauptnavigation nicht erscheint, wurde dieser entweder von Administrator:innen ausgeblendet oder Sie besitzen nicht die benötigten Rechte. 
     
-    Für eine Zugriffsberechtigung wenden Sie sich bitte an Ihre Administrator:innen. Die Video Collection kann z.B. auch ausschliesslich Lernresourcenverwalter:innen oder Autor:innen zur Verfügung gestellt werden.  
+    Für eine Zugriffsberechtigung wenden Sie sich bitte an Ihre Administrator:innen. Die Video Collection kann z.B. auch ausschliesslich Lernressourcenverwalter:innen oder Autor:innen zur Verfügung gestellt werden.  
 
 
 
@@ -33,7 +33,7 @@ In der Video Collection werden Video-Lernressourcen Ihrer OpenOlat-Instanz aufge
 * Auch das Vorschaubild wird aus den Einstellungen der Lernressource übernommen.<br>
 **Autorenbereich > Lernressource wählen > Administration > Einstellungen > Tab "Info"**
 
-* Jeds Video kann durch Vergabe von Sternen bewertet werden.
+* Jedes Video kann durch Vergabe von Sternen bewertet werden.
 
 * Zu jedem Video kann ein Kommentar abgegeben werden.
 

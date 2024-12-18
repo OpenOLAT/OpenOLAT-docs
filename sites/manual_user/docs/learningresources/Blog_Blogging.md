@@ -79,7 +79,11 @@ To write a comment or read existing comments, click on the "Comments" link. A sm
 
 ![blog_blogging_comment_v2_de.png](assets/blog_blogging_comment_v2_de.png){ class="shadow lightbox" }
 
-[Top of the page ^](#blog_blogging)
+You can also attach a file to your comment. To do this, you can upload a new file or select a file from your File Hub.
+
+![blog_blogging_comment_file_v1_en.png](assets/blog_blogging_comment_file_v1_en.png){ class=“shadow lightbox” }
+
+[To the top of the page ^](#blog_blogging)
 
 
 ## Assess posts {: #blog_blogging_assess_posts}
@@ -96,7 +100,7 @@ In the normal state, you will see the ratings of other blog readers. As soon as 
 
 Moderating a blog means directing or intervening in communication. In a blog, this means that a person checks whether the posts are appropriate or whether they need to be corrected or possibly even deleted. Moderators of an OpenOlat blog have the rights to read, comment, edit, delete and create new entries. Moderators can also customize the title and description of the entire feed. 
 
-The role of moderator can be taken on by course owners in any case. However, the right to act as moderator can also be assigned to coaches or specific persons. (See also [Blog configuration](../learningresources/Blog_Configuration.de.md))
+The role of moderator can be taken on by course owners in any case. However, the right to act as moderator can also be assigned to coaches or specific persons. (See also [Blog configuration](../learningresources/Blog_Configuration.md))
 
 !!! note "Note"
 
