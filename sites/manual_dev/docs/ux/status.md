@@ -9,7 +9,34 @@
 ### Mega
 
 ## Characteristics
-### Green
+
+### Neutral
+
+Range of application
+
+1. Waiting state
+2. Draft
+3. Security / Confidentiality
+4. Neutral
+5. Stable states
+
+Ampel logic: No action needed
+
+| Type    | Font      | Background | Border    | Label                                                            |
+| ------- | --------- | ---------- | --------- | ---------------------------------------------------------------- |
+| Full    | #FFFFFF | #044A95  | #003E80 | ![Regular blue](assets/blue-regular.png){ class="thumbnail-sm" } |
+| Light   | #044A95 | #FFFFFF  | #003E80 | ![Light blue](assets/blue-light.png){ class="thumbnail-sm" }     |
+| Mega    | #044A95 | #cde3f9  | #3F5873 | ![Mega blue](assets/blue-mega.png){ class="thumbnail" }          |
+
+| Component  | Context               | icon                       | State       | Range of application |
+| ---------- | --------------------- | -------------------------- | ----------- | -------------------- |
+| Course     |                       | :fontawesome-solid-pencil: | Preparation | 2.                   |
+| Course     | Assessment mode       | :fontawesome-solid-clock:  | Scheduled   | 1.                   |
+| Course     | Assessment inspection | :fontawesome-solid-clock:  | Scheduled   | 1.                   |
+| Catalog    | Offer period          | :fontawesome-solid-clock:  | Planned     | 1.                   |
+| Curriculum | Curriculum element	 | :fontawesome-solid-pencil: |	Preparation | 2.                   |
+
+### Success
 
 Range of application
 
@@ -38,7 +65,7 @@ Ampel logic: No dangers or safety concerns
 | Curriculum | Curriculum element    | :fontawesome-solid-check:          | Confirmed   | 4.                   |
 | Curriculum | Curriculum element    | :fontawesome-solid-check:          | Active      | 1.                   |
 
-### Yellow
+### Warning
 
 Range of application
 
@@ -63,33 +90,7 @@ Ampel logic: Attention required
 | Catalog    |                       | :fontawesome-solid-triangle-exclamation: | Fully booked     | 2.                   |
 | Curriculum | Curriculum element    | :fontawesome-solid-hourglass-half:       | Provisional      | 4.                   |
 
-### Blue
-
-Range of application
-
-1. Waiting state
-2. Draft
-3. Security / Confidentiality
-4. Neutral
-5. Stable states
-
-Ampel logic: No action needed
-
-| Type    | Font      | Background | Border    | Label                                                            |
-| ------- | --------- | ---------- | --------- | ---------------------------------------------------------------- |
-| Full    | #FFFFFF | #3F5873  | #384E66 | ![Regular blue](assets/blue-regular.png){ class="thumbnail-sm" } |
-| Light   | #3F5873 | #FFFFFF  | #384E66 | ![Light blue](assets/blue-light.png){ class="thumbnail-sm" }     |
-| Mega    | #3F5873 | #cde3f9  | #3F5873 | ![Mega blue](assets/blue-mega.png){ class="thumbnail" }          |
-
-| Component  | Context               | icon                       | State       | Range of application |
-| ---------- | --------------------- | -------------------------- | ----------- | -------------------- |
-| Course     |                       | :fontawesome-solid-pencil: | Preparation | 2.                   |
-| Course     | Assessment mode       | :fontawesome-solid-clock:  | Scheduled   | 1.                   |
-| Course     | Assessment inspection | :fontawesome-solid-clock:  | Scheduled   | 1.                   |
-| Catalog    | Offer period          | :fontawesome-solid-clock:  | Planned     | 1.                   |
-| Curriculum | Curriculum element	 | :fontawesome-solid-pencil: |	Preparation | 2.                   |
-
-### Orange
+### Critical
 
 Range of application
 
@@ -109,11 +110,13 @@ Ampel logic: Increased warning, intervention urgently required, but not yet crit
 | ------- | --------------------- | --------------------------- | ----------- | -------------------- |
 | Course  | Assessment inspection | :fontawesome-solid-spinner: | In progress | -                    |
 
-### Red
+### Danger
 
 Range of application
 1. Flagged as deleted
 2. Wrong
+
+Ampel logic: Danger and critical, intervention required
 
 | Type    | Font      | Background | Border    | Label                                                          |
 | ------- | --------- | ---------- | --------- | -------------------------------------------------------------- |
@@ -121,9 +124,7 @@ Range of application
 | Light   | #b30018 | #FFFFFF  | #a80016 | ![Light red](assets/red-light.png){ class="thumbnail-sm" }     |
 | Mega    | #b30018 | #ffc9bd  | #fff8f6 | ![Mega red](assets/red-mega.png){ class="thumbnail" }          |
 
-Ampel logic: Danger and critical, intervention required
-
-### Brown
+### Finised
 
 Range of application
 
@@ -143,7 +144,7 @@ Range of application
 | Course     | Assessment inspection | :fontawesome-solid-circle-xmark: | Cancelled | -                    |
 | Curriculum | Curriculum element    | :fontawesome-solid-ban:          | Finished  | 1./2.                |
 
-### Grey
+### Inactiv
 
 Range of application
 
