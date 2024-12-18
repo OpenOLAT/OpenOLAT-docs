@@ -16,7 +16,8 @@ Range of application
 1. Ready for use / Everything in order / Normal operation
 2. Available
 3. Success / Completed
-4. Approval / Release
+4. Correct
+5. Approval / Release
 6. Active connection
 
 Ampel logic: No dangers or safety concerns 
@@ -52,7 +53,7 @@ Ampel logic: Attention required
 | ------- | --------- | ---------- | --------- | ------------------------------------------------------------------- |
 | Full    | #574000 | #fbd774  | #fcca46 | ![Regular green](assets/yellow-regular.png){ class="thumbnail-sm" } |
 | Light   | #574000 | #FFFFFF  | #fcca46 | ![Light green](assets/yellow-light.png){ class="thumbnail-sm" }     |
-| Mega    | #805e00 | #fbe6a7  | #fbe6a7 | ![Mega green](assets/yellow-mega.png){ class="thumbnail" }          |
+| Mega    | #574000 | #fbe6a7  | #fbe6a7 | ![Mega green](assets/yellow-mega.png){ class="thumbnail" }          |
 
 | Component  | Context               | icon                                     | State            | Range of application |
 | ---------- | --------------------- | ---------------------------------------- | ---------------- | -------------------- |
@@ -74,11 +75,11 @@ Range of application
 
 Ampel logic: No action needed
 
-| Type    | Font      | Background | Border    | Label |
-| ------- | --------- | ---------- | --------- | ----- |
-| Full    | #FFFFFF | #3F5873  | #384E66 |       |
-| Light   | #3F5873 | #FFFFFF  | #384E66 |       |
-| Mega    |           |            |           |       |
+| Type    | Font      | Background | Border    | Label                                                            |
+| ------- | --------- | ---------- | --------- | ---------------------------------------------------------------- |
+| Full    | #FFFFFF | #3F5873  | #384E66 | ![Regular blue](assets/blue-regular.png){ class="thumbnail-sm" } |
+| Light   | #3F5873 | #FFFFFF  | #384E66 | ![Light blue](assets/blue-light.png){ class="thumbnail-sm" }     |
+| Mega    | #3F5873 | #cde3f9  | #3F5873 | ![Mega blue](assets/blue-mega.png){ class="thumbnail" }          |
 
 | Component  | Context               | icon                       | State       | Range of application |
 | ---------- | --------------------- | -------------------------- | ----------- | -------------------- |
@@ -98,11 +99,11 @@ Range of application
 
 Ampel logic: Increased warning, intervention urgently required, but not yet critical.
 
-| Type    | Font      | Background | Border    | Label |
-| ------- | --------- | ---------- | --------- | ----- |
-| Full    | #522D00 | #FFC685  | #ff8c00 |       |
-| Light   | #522D00 | #FFFFFF  | #ff8c00 |       |
-| Mega    |           |            |           |       |
+| Type    | Font      | Background | Border    | Label                                                                |
+| ------- | --------- | ---------- | --------- | -------------------------------------------------------------------- |
+| Full    | #522D00 | #FFC685  | #ffba6b | ![Regular orange](assets/orange-regular.png){ class="thumbnail-sm" } |
+| Light   | #522D00 | #FFFFFF  | #ff8c00 | ![Light orange](assets/orange-light.png){ class="thumbnail-sm" }     |
+| Mega    | #522D00 | #FFCF91  | #FFCF91 | ![Mega orange](assets/orange-mega.png){ class="thumbnail" }          |
 
 | Object  | Context               | icon                        | State       | Range of application |
 | ------- | --------------------- | --------------------------- | ----------- | -------------------- |
@@ -112,13 +113,13 @@ Ampel logic: Increased warning, intervention urgently required, but not yet crit
 
 Range of application
 1. Flagged as deleted
-2. 
+2. Wrong
 
-| Type    | Font      | Background | Border    | Label                                                              |
-| ------- | --------- | ---------- | --------- | ------------------------------------------------------------------ |
-| Regular | #FFFFFF | #b30018  | #a80016 | ![Regular green](assets/green-regular.png){ class="thumbnail-sm" } |
-| Light   | #b30018 | #FFFFFF  | #a80016 | ![Light green](assets/green-light.png){ class="thumbnail-sm" }     |
-| Mega    | #d6001c | #fff8f6  | #fff8f6 | ![Mega green](assets/green-mega.png){ class="thumbnail" }          |
+| Type    | Font      | Background | Border    | Label                                                          |
+| ------- | --------- | ---------- | --------- | -------------------------------------------------------------- |
+| Regular | #FFFFFF | #b30018  | #a80016 | ![Regular red](assets/red-regular.png){ class="thumbnail-sm" } |
+| Light   | #b30018 | #FFFFFF  | #a80016 | ![Light red](assets/red-light.png){ class="thumbnail-sm" }     |
+| Mega    | #b30018 | #ffc9bd  | #fff8f6 | ![Mega red](assets/red-mega.png){ class="thumbnail" }          |
 
 Ampel logic: Danger and critical, intervention required
 
@@ -130,10 +131,10 @@ Range of application
 2. Read-only / Limitations 
 
 | Type    | Font      | Background | Border    | Label |
-| ------- | --------- | ---------- | --------- | ----- |
-| Full    | #FFFFFF | #804A33  | #6D3F2C |       |
-| Light   | #804A33 | #FFFFFF  | #6D3F2C |       |
-| Mega    |           |            |           |       |
+| ------- | --------- | ---------- | --------- | ------------------------------------------------------------------ |
+| Full    | #FFFFFF | #804A33  | #6D3F2C | ![Regular brown](assets/brown-regular.png){ class="thumbnail-sm" } |
+| Light   | #804A33 | #FFFFFF  | #6D3F2C | ![Light brown](assets/brown-light.png){ class="thumbnail-sm" }     |
+| Mega    | #804A33 | #E7D2BC  | #E7D2BC | ![Mega brown](assets/brown-mega.png){ class="thumbnail" }          |
 
 | Object     | Context               | icon                             | State     | Range of application |
 | ---------- | --------------------- | -------------------------------- | --------- | -------------------- |
@@ -170,141 +171,177 @@ Ampel logic: Inactive or not relevant
 ## By object
 ### Global Status
 
-* Note
-* Info
-* Warning
-* Error
+| Status  | Color |
+| ------- | ----- | 
+| Note    |       |
+| Info    |       |
+| Warning |       |
+| Error   |       |
 
 #### Object Status (Life Cycle)
 
-* Active
-* Inactive
-* Deleted (Trash)
+| Status          | Color |
+| --------------- | ----- | 
+| Active          |       |
+| Inactive        |       |
+| Deleted (Trash) |       |
 
 ### User
 
 #### User Status
 
-* active
-* active and not deletable
-* pending
-* inactive
-* Login denied
+| Status                   | Color |
+| ------------------------ | ----- | 
+| active                   |       |
+| active and not deletable |       |
+| pending                  |       |
+| inactive                 |       |
+| Login denied             |       |
 
 #### User Chat Status
 
-* available
-* please do not disturb
-* not available
+| Status                | Color |
+| --------------------- | ----- | 
+| available             |       |
+| please do not disturb |       |
+| not available         |       |
 
 ### Learning Ressource
 
 #### LR Publish Status
 
-* Preparation
-* Review
-* Access for coach
-* Published
-* Finished
+| Status           | Color |
+| ---------------- | ----- | 
+| Preparation      |       |
+| Review           |       |
+| Access for coach |       |
+| Published        |       |
+| Finished         |       |
 
 #### LR Success status colors
 
-* Passed
-* not passed
-* undefined
+| Status     | Color |
+| ---------- | ----- |
+| Passed     |       |
+| not passed |       |
+| undefined  |       |
 
 #### LR Release status
 
-* released
-* not released
+| Status       | Color |
+| ------------ | ----- |
+| released     |       |
+| not released |       |
 
 ### Course Element
 
 #### Course element status / LR Learning-path progress
 
-* not ready
-* not started
-* started
-* to review
-* assessed
+| Status       | Color |
+| ------------ | ----- |
+| not ready |       |
+| not started |       |
+| started |       |
+| to review |       |
+| assessed |       |
 
 #### Course element visited status
 
-* visited
-* partly visited
-* not visited
+| Status       | Color |
+| ------------ | ----- |
+| visited |       |
+| partly visited |       |
+| not visited |       |
 
 ### e-portfolio
 
 #### Pages status
 
-* draft
-* published
-* in revision
-* closed
-* deleted
+| Status       | Color |
+| ------------ | ----- |
+| draft |       |
+| published |       |
+* in revision |       |
+* closed |       |
+* deleted |       |
 
 #### Sections status
 
-* assignment
-* not started
-* in progress
-* closed
+| Status       | Color |
+| ------------ | ----- |
+| assignment |       |
+| not started |       |
+| in progress |       |
+| closed |       |
 
 ### Quality Management
 
 #### Datenerhebungen
 
-* Preparation
-* Prepared
-* Durchführung
-* Abgeschlossen
+| Status       | Color |
+| ------------ | ----- |
+| Preparation |       |
+| Prepared |       |
+| Durchführung |       |
+| Abgeschlossen |       |
 
 ### Question Bank
 
 #### Question status
 
-* draft
-* review
-* revision
-* final
-* end of life
+| Status       | Color |
+| ------------ | ----- |
+| draft |       |
+| review |       |
+| revision |       |
+| final |       |
+| end of life |       |
 
 ### Curriculum
 
 #### Curriculum element status
 
-* active
-* inactive
-* deleted
+| Status       | Color |
+| ------------ | ----- |
+| active |       |
+| inactive |       |
+| deleted |       |
 
 ### Lection
 
 #### Lection block status
 
-* aktiv
-* autoerledigt
-* erledigt
+| Status       | Color |
+| ------------ | ----- |
+| aktiv |       |
+| autoerledigt |       |
+| erledigt |       |
 
 #### Lection Participant status
 
-* anwesend
-* entschuldigt
-* unentschuldligt
+| Status       | Color |
+| ------------ | ----- |
+| anwesend |       |
+| entschuldigt |       |
+| unentschuldligt |       |
 
 ### Coaching Tool
 
 #### Grading assignments
 
-* unassigned
-* open
-* first reminder
-* second reminder
-* deadline missed
-* closed (done)
+| Status       | Color |
+| ------------ | ----- |
+| unassigned |       |
+| open |       |
+| first reminder |       |
+| second reminder |       |
+| deadline missed |       |
+| closed (done) |       |
 
 #### Corrector status
 
-* active
-* inactive
-* removed
+| Status       | Color |
+| ------------ | ----- |
+| active |       |
+| inactive |       |
+| removed |       |
