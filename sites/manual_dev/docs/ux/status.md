@@ -26,7 +26,7 @@ Ampel logic: No action needed
 | ------- | --------- | ---------- | --------- | ---------------------------------------------------------------- |
 | Full    | #FFFFFF | #044A95  | #003E80 | ![Regular blue](assets/blue-regular.png){ class="thumbnail-sm" } |
 | Light   | #044A95 | #FFFFFF  | #003E80 | ![Light blue](assets/blue-light.png){ class="thumbnail-sm" }     |
-| Mega    | #044A95 | #cde3f9  | #3F5873 | ![Mega blue](assets/blue-mega.png){ class="thumbnail" }          |
+| Mega    | #044A95 | #cde3f9  | #cde3f9 | ![Mega blue](assets/blue-mega.png){ class="thumbnail" }          |
 
 | Component  | Context               | icon                       | State       | Range of application |
 | ---------- | --------------------- | -------------------------- | ----------- | -------------------- |
@@ -122,7 +122,7 @@ Ampel logic: Danger and critical, intervention required
 | ------- | --------- | ---------- | --------- | -------------------------------------------------------------- |
 | Regular | #FFFFFF | #b30018  | #a80016 | ![Regular red](assets/red-regular.png){ class="thumbnail-sm" } |
 | Light   | #b30018 | #FFFFFF  | #a80016 | ![Light red](assets/red-light.png){ class="thumbnail-sm" }     |
-| Mega    | #b30018 | #ffc9bd  | #fff8f6 | ![Mega red](assets/red-mega.png){ class="thumbnail" }          |
+| Mega    | #b30018 | #ffc9bd  | #ffc9bd | ![Mega red](assets/red-mega.png){ class="thumbnail" }          |
 
 ### Finised
 
