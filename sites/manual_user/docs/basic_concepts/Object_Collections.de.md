@@ -2,20 +2,31 @@
 
 In OpenOlat werden Objekte und Dateien in verschiedenen Gefässen gesammelt. Hier ein Überblick.
 
-## Inhalt {: #object_collections_content}
+## Wie unterscheiden sich die Objekte? {: #objects}
 
-| File Hub   | Media Center  | Autorenbereich |  Fragenpool  | Video Collection | Bibliothek | Dokumentenpool |
+**Bsp. Video**
+
+a) mp4-Datei, ohne Zusätze        = Objekt im File Hub
+
+b) mp4-Datei + Metadaten, Versionierung u.a.    = Objekt im Media Center
+
+c) mp4-Datei + Quizfragen, Kommentar, usw.   = Video-Lernessource, Objekt im Autorenbereich
+
+
+## Objektsammlungen: Inhalt {: #object_collections_content}
+
+| File Hub | Media Center  | Autorenbereich |  Fragenpool  | Video Collection | Bibliothek | Dokumentenpool |
 | ---------- | -------------- | -------------- | -------------- |-------------- |-------------- |-------------- |
-|zeigt alle verfügbaren Dateien der OpenOlat-Instanz|zentrale audiovisuelle Mediensammlung|enthält Kurse und Lernressourcen |enthält Fragen, die zur Mehrfachverwendung vorgesehen sind|listet alle in der Instanz vorhandenen Videos|Dateien, hierarchisch gegliedert|Office-Dokumente und Mediendateien|
+|zeigt alle verfügbaren Dateien der OpenOlat-Instanz|zentrale audiovisuelle Mediensammlung|enthält Kurse und Lernressourcen |enthält Fragen, die zur Mehrfachverwendung vorgesehen sind|Portal für alle freigegebenen Video-Lernressourcen|Dateien, hierarchisch gegliedert|Office-Dokumente und Mediendateien|
 
 
-## Merkmale {: #object_collections_properties}
+## Objektsammlungen: Merkmale {: #object_collections_properties}
 
 | File Hub   | Media Center  | Autorenbereich | Fragenpool  | Video Collection | Bibliothek |  Dokumentenpool |
 | ---------- | -------------- | -------------- | -------------- |-------------- |-------------- |-------------- |
 |persönlicher Datei-Explorer| persönlicher Bereich mit individuellem Inhalt|nur 1 Autorenbereich pro OpenOlat-Instanz|mehrere Fragenpools in einer OpenOlat-Instanz möglich|nur 1 Video Collection pro OpenOlat-Instanz|nur 1 Bibliothek pro OpenOlat-Instanz|taxonomiebasierte Dokumentenverwaltung|
 
-## Verwendung {: #object_collections_usage}
+## Objektsammlungen: Verwendung {: #object_collections_usage}
 
 | File Hub   | Media Center  | Autorenbereich | Fragenpool  | Video Collection | Bibliothek | Dokumentenpool |
 | ---------- | -------------- | -------------- | -------------- |-------------- |-------------- |-------------- |
@@ -23,7 +34,7 @@ In OpenOlat werden Objekte und Dateien in verschiedenen Gefässen gesammelt. Hie
 |zentrale Dateiverwaltung| direktes Erstellen und Teilen verschiedener Medientypen, Ablage und Upload |Management der Zugriffsberechtigungen|kollaborative Entwicklung und Review von Fragen für standardisierte Prüfungen|            |mit Prüfprozedere für neu eingestellte Dokumente|            |
 
 
-## Zugriff {: #object_collections_access}
+## Objektsammlungen: Zugriff {: #object_collections_access}
 
 | File Hub   | Media Center  | Autorenbereich | Fragenpool  | Video Collection | Bibliothek | Dokumentenpool |
 | ---------- | -------------- | -------------- | -------------- |-------------- |-------------- |-------------- |
@@ -31,7 +42,7 @@ In OpenOlat werden Objekte und Dateien in verschiedenen Gefässen gesammelt. Hie
 | Zugriff auf alle Dateien, für die man eine Zugriffsberechtigung hat|         |        |Zugriff auch direkt aus dem Testeditor|          |         |kann für alle OpenOlat-Benutzer:innen freigeschaltet werden|
 
 
-## Aktivierung {: #object_collections_activation}
+## Objektsammlungen: Aktivierung {: #object_collections_activation}
 
 | File Hub   | Media Center  | Autorenbereich | Fragenpool  | Video Collection | Bibliothek | Dokumentenpool |
 | ---------- | -------------- | -------------- | -------------- |-------------- |-------------- |-------------- |

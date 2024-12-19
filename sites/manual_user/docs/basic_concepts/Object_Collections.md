@@ -2,6 +2,18 @@
 
 OpenOlat collects objects and files in various containers. Here is an overview.
 
+
+## How do the objects differ? {: #objects}
+
+**Example: Video**
+
+a) mp4 file, without additions        = object in the File Hub
+
+b) mp4 file + metadaten, versioning etc.    = object in Media Center
+
+c) mp4 file + quizzes, comments, etc.   = learning resource video, object in the authoring area
+
+
 ## Content {: #object_collections_content}
 
 | File Hub   | Media Center  | Authoring area |  Question pool  | Video Collection | Library | Document pool |
