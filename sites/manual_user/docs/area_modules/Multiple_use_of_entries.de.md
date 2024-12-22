@@ -1,42 +1,44 @@
 # Mehrfachverwendung von Einträgen
 
-Es gibt verschiedene Szenarien, in denen Benutzer denselben Portfolioeintrag in mehreren Mappen verwenden möchten. Dies kann z. B. die Präsentation des Lebenslauf oder der eigenen Hobbys sein, oder auch eine Sammelmappe für die Betreuenden, in der Lernende ihren Werdegang und die wesentlichen Reflexionen zur Ausbildung zusammenzutragen und stetig ergänzen.
+Es gibt verschiedene Szenarien, in denen Benutzer denselben Portfolioeintrag in mehreren Mappen verwenden möchten. Dies kann z. B. die Präsentation des Lebenslaufs oder der eigenen Hobbys sein, oder auch eine Sammelmappe für die Betreuenden, in der Lernende ihren Werdegang und die wesentlichen Reflexionen zur Ausbildung zusammenzutragen und stetig ergänzen.
 
 Um den gleichen Portfolioeintrag in mehrere Mappen einzubinden, gibt es folgende Möglichkeiten:
 
  **a) Erstellen einer neuen Portfoliomappe aus bestehenden Einträgen**
 
-Beim Anlegen einer neuen Portfoliomappe steht die Option "Mappe aus bestehenden Einträgen erstellen" zur Verfügung. Die gewünschten Einträge können anschliessend aus einer Liste gefiltert und selektiert werden.
+Beim Anlegen einer neuen Portfoliomappe im Bereich ["Zu meinen Mappen"](../area_modules/My_portfolio_binders.de.md) steht die Option "Mappe aus bestehenden Einträgen erstellen" zur Verfügung. Die gewünschten Einträge können anschliessend aus einer Liste gefiltert und selektiert werden.
 
-![mappe_aus_eintraegen.png](assets/Mappe%20aus%20Eintraegen%20DE.png)  
+![Mappe aus Einträgen erstellen](assets/Mappe_aus_Eintraegen.jpg) 
    
   
  **b) Import eines Eintrages in eine bestehende Portfoliomappe**
 
-Innerhalb der Ziel-Portfoliomappe können auch ein oder mehrere Portfolioeinträge aus anderen (verschiedenen) Mappen importiert werden. Dafür werden die gewünschten Einträge aus einer Liste ausgewählt, die über den Button "Eintrag importieren" erscheint.
-
+Existiert die Portfolio-Mappe schon und sollen dort Einträge aus anderen Kontexten oder anderen Mappen übernommen werden, bietet sich dieser Weg an. Gehen Sie in die konkrete (Ziel-)Mappe und wählen Sie den Tab "Einträge". Klicken Sie dann auf den Button "Eintrag importieren". Es öffnet sich ein Fenster mit allen Einträgen und Sie können den Eintrag oder die Einträge auswählen und in einem konkreten Bereich einfügen. 
 
 ![import_mappe.png](assets/Import%20Mappe%20DE.png)  
   
  **c) Referenzierung des Inhaltes aus einem anderen Eintrag**
 
-Hierfür wird ein neuer Eintrag in einer Portfoliomappe angelegt. Über den Button "Inhalt referenzieren" kann anschliessend ein anderer Eintrag ausgewählt werden, dessen Inhalt im neuen Eintrag übernommen wird.
+Dieses Vorgehen greift immer dann, wenn man einen neuen Eintrag angelegt hat. Dabei ist es egal, ob der Eintrag sich in einer Mappe befindet oder unabhängig ist (floating Eintrag).
 
-![inhalte_referenzieren.png](assets/Eintrag%20Inhalt%20referenzieren%20DE.png)  
+Über den Button "Inhalt referenzieren" kann anschliessend ein anderer Eintrag ausgewählt werden, dessen Inhalt im neuen Eintrag übernommen und weiterbearbeitet wird.
+
+![inhalte_referenzieren.png](assets/Eintrag_Inhalt_referenzieren.jpg) 
   
-Es wird jeweils die Liste der Einträge angezeigt, die referenziert bzw. importiert werden können. Sind an den einzelnen Einträgen Kompetenzen oder Kategorien vergeben, kann in der Maske danach gefiltert werden. Mit der Suche können die Ergebnisse weiter verfeinert werden. Einträge, die bereits in Mappen referenziert sind, werden entsprechend gekennzeichnet.
+Es wird jeweils die Liste der Einträge angezeigt, die referenziert bzw. importiert werden können. Sind an den einzelnen Einträgen Kompetenzen oder Kategorien vergeben, kann in der Maske danach gefiltert werden. Mit der Suche können die Ergebnisse weiter verfeinert werden. Einträge, die bereits in Mappen referenziert sind, werden entsprechend mit einem gekrümmten Pfeil gekennzeichnet.
 
-![import_dialog.png](assets/Import%20Dialog%20DE.png)
+![import_dialog.png](assets/Referenzierung_Kennzeichen.jpg)
 
 ## Merkmale referenzierter Einträge
 
-Referenzierte Einträge werden in den Auswahllisten (Import-Maske) mit einem Pfeil gekennzeichnet. Im Eintrag selbst werden Meldungen zur Referenzierung angezeigt sowie ein Hinweis unterhalb des Titels, in wie vielen anderen Einträgen der gleiche Inhalt verwendet wird.
+Im Eintrag selbst werden Meldungen zur Referenzierung angezeigt sowie ein Hinweis unterhalb des Titels, in wie vielen anderen Einträgen der gleiche Inhalt verwendet wird.
+
+![Referenzierung](assets/Referenzierung_DE.png)
 
 !!! warning "Achtung"
 
-    Es handelt sich stets um denselben Eintrag. Ist ein Eintrag in Mappe A und Mappe B eingebunden, so werden Änderungen am Eintrag in Mappe A automatisch auch in Mappe B aktualisiert.
+    Es handelt sich stets um *denselben* Eintrag. Ist ein Eintrag in Mappe A und Mappe B eingebunden, so werden Änderungen am Eintrag in Mappe A automatisch auch in Mappe B aktualisiert.
 
-![refrenzierung.png](assets/Referenzierung_DE.png)
 
 Ist ein referenzierter Eintrag in einer Mappe bereits (ab)geschlossen, so kann der gleiche Eintrag in einer anderen Mappe nicht mehr geöffnet und verändert werden. Bei unterschiedlichen Zuständen der Einträge gewinnt der restriktivste.
 
