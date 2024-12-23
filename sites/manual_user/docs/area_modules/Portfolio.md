@@ -11,7 +11,7 @@ In the following chapters, you will learn general information about e-portfolios
   * [Portfolio - General Information](Portfolio_General_Information.md)
   * [Components of the portfolio](Components_of_the_portfolio.md)
   * [Three steps to your portfolio binder](../portfolio/Three_steps_to_your_portfolio_binder.md)
-  * [The Portfolio Editor](The_portfolio_editor.md)
+  * [The Portfolio Editor](The_portfolio_editor_17_1.md)
   * [Multiple use of entries](Multiple_use_of_entries.md)
   * [Competences tags](Competences_tags.md)
   * [Process of an assessment portfolio](../portfolio/Process_of_an_assessment_portfolio.md)

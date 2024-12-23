@@ -11,7 +11,7 @@ In den folgenden Kapiteln erfahren Sie Generelles zum Thema E-Portfolio, wie das
   * [Allgemeines zum Portfolio](Portfolio_General_Information.de.md)
   * [Bestandteile des Portfolios](Components_of_the_portfolio.de.md)
   * [Drei Schritte zu Ihrer Mappe](../portfolio/Three_steps_to_your_portfolio_binder.de.md)
-  * [Der Portfolio Editor](The_portfolio_editor.de.md)
+  * [Der Portfolio Editor](The_portfolio_editor_17_1.de.md)
   * [Mehrfachverwendung von Einträgen](Multiple_use_of_entries.de.md)
   * [Kompetenzen verschlagworten](Competences_tags.de.md)
   * [Prozess eines Bewertungsportfolios](../portfolio/Process_of_an_assessment_portfolio.de.md)
