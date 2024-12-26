@@ -2,19 +2,18 @@
 
 Unter "Dateien" im Abschnitt "Schnellzugriff" können in einem Projekt Dateien **hochgeladen** und neue Dateien **erstellt** werden. So können alle Dateien zusammen mit dem Projekt gespeichert werden. Alle Medien befinden sich dann am gleichen Ort.  Sie sind nur innerhalb des Projektes verfügbar.
 
-![projekte_datei_erstellen_hochladen_v1_de.png](assets/projekte_datei_erstellen_hochladen_v1_de.png){ class="shadow lightbox" }
 
 ## Dateien hochladen
 
-Hinsichtlich der Dateiformate gibt es keine Einschränkungen. 
+![Dateien hochladen im Schnellzugriff](assets/Projekte_a.jpg){ class="shadow lightbox" } 
 
 Die hochgeladenen Dateien können je nach Format direkt geöffnet werden.  
 Es gelten folgende Grundsätze:
 
-- Wenn keine Microsoft-Lizenenz vorhanden ist, werden docx, pptx und xlsx z.B. mit OnlyOffice geöffnet, wenn dafür eine Lizenz vorhanden ist.
+- Wenn keine Microsoft-Lizenz vorhanden ist, werden docx, pptx und xlsx z.B. mit OnlyOffice geöffnet, wenn dafür eine Lizenz vorhanden ist.
 - Pdf werden in der Regel mit OnlyOffice geöffnet.
 - Bilder werden im Browser geöffnet.
-- Dateiformate, die eine spezielle Software benötigen, werden nicht geöffnet. OpenOlat bietet statt dessen einen Download an. Die Datei kann so trotzdem zusammen mit den übrigen Daten im Projekt gespeichert werden.<br>Beispiel: Mac-Dateiformate, wie z.B. Pages oder Keynote. 
+- Dateiformate, die eine spezielle Software benötigen, werden nicht geöffnet. OpenOlat bietet stattdessen einen Download an. Die Datei kann so trotzdem zusammen mit den übrigen Daten im Projekt gespeichert werden.<br>Beispiel: Mac-Dateiformate, wie z.B. Pages oder Keynote. 
 
 
 !!! info "Technische Info zu den Dateien"
@@ -23,10 +22,10 @@ Es gelten folgende Grundsätze:
     
     * Das maximale Gesamtvolumen pro Projekt bzw. für alle Projekte ist per Voreinstellung ebenfalls nicht begrenzt.
 
-    * Eine Versionierung wird derzeit derzeit nicht vorgenommen.
+    * Eine Versionierung wird derzeit nicht vorgenommen.
+
+    * Hinsichtlich der Dateiformate gibt es keine Einschränkungen.
  
-
-
 
 ## Dateien erstellen
 
@@ -47,13 +46,13 @@ Es können folgende Dateiformate erstellt werden:
 
 !!! info "Erstellen von Office-Dokumenten"
 
-    Ob Microsoft-Dateiformate erstellt werden können, hängt davon ab, ob Lizenzen verfügbar sind. Wenden Sie sich dafür an Ihren Administrator. 
+    Ob Microsoft-Dateiformate erstellt werden können, hängt davon ab, ob Lizenzen verfügbar sind. Wenden Sie sich dafür an Ihren OpenOlat Administrator. 
     
-    Ohne Lizenzen werden die Optionen zum Erstellen der Formate docx, pptx und xlsx nicht angezeigt. (Eine Anzeige und Bearbeitung vorhandener Dokumente mit ONLYOFFICE ist jedoch in der Regel möglich.)
+    Ohne Lizenzen werden die Optionen zum Erstellen der Formate docx, pptx und xlsx nicht angezeigt. (Eine Anzeige und Bearbeitung vorhandener Dokumente mit OnlyOffice ist jedoch in der Regel möglich.)
 
 ## Video- und Audio-Recording
 
-Im Bereich **Dateien** eines OpenOlat-Projektes gibt es auch die Möglichkeit, Videos und Audiodateien direkt in OpenOlat aufzunehmen.
+Im Bereich **Dateien** eines OpenOlat-Projektes gibt es auch die Möglichkeit, Videos und Audiodateien direkt in OpenOlat aufzuzeichnen.
 
 Neu aufgenommene Videos werden als mp4-Dateien gespeichert, Audios als m4a-Dateien.
 
@@ -69,7 +68,9 @@ oder<br>
 oder<br>
 **c) Projekte > Tab "Meine Projekte" > Projekt wählen > im Abschnitt "alle Dateien anzeigen" klicken**
 
-Beachten Sie, dass Sie zwischen der Ansicht der Karten und der Listenansicht wechseln können.  
+![Projektdateien anzeigen Bereiche](assets/Projekte_Dateien_abc.jpg){ class="shadow lightbox" }
+
+Beachten Sie, dass Sie auf der Übersichtsseite aller Dateien zwischen der Ansicht der Karten und der Listenansicht wechseln können.  
 
 ![projekte_dateien_kartenansicht_v1_de.png](assets/projekte_dateien_kartenansicht_v1_de.png){ class="shadow lightbox" }
 
@@ -81,7 +82,7 @@ Unter den 3 Punkten am Ende jedes Listeneintrags finden Sie weitere Optionen.
 
 ## Schnellzugriff auf Dateien 
 
-Im Abschnitt Schnellzugriff werden die zuletzt verwendeten Dateien und Notizen angezeigt (max. 6, erstellt, hochgeladen, geändert, angesehen, heruntergeladen). Sie können direkt durch Anklicken vom Ersteller oder Mitgliedern geöffnet und weiterbearbeitet werden.
+Im Abschnitt Schnellzugriff (siehe a) werden die zuletzt verwendeten Dateien und Notizen angezeigt (max. 6 Elemente). Diese können einfach mit Klick auf das Dokument geöffnet und gegebenenfalls weiterbearbeitet werden.
 
 ![projekte_dateien_schnellzugriff_v1_de.png](assets/projekte_dateien_schnellzugriff_v1_de.png){ class="shadow lightbox" }
 
@@ -90,7 +91,8 @@ Im Abschnitt Schnellzugriff werden die zuletzt verwendeten Dateien und Notizen a
 
 Die Integration von Dokumenten-Editoren ermöglicht kollaboratives Arbeiten.
 
-* Die vorhandernen Dateien können von allen Projektmitgliedern bearbeitet werden.
+* Die vorhandenen Dateien können von allen Projektmitgliedern bearbeitet werden.
 * Auch ein **gleichzeitiges Bearbeiten** (z.B. einer Word-Datei während einer Online-Besprechung) ist möglich, wenn die entsprechenden Lizenzen für den Dokumenteneditor vorhanden sind.
 
 Wenden Sie sich ggf. an Ihre Administratorin / Ihren Administrator.
+

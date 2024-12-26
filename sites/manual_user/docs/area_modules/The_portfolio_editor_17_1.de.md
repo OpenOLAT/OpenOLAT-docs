@@ -12,9 +12,18 @@ Der Portfolio Editor umfasst verschiedene Menü-Bereiche für die Konfiguration:
 ![Bild der einzelnen Bedienelemente im ePortfolio](assets/content-editor-gui.de.jpeg){ class="lightbox" }
 
 * **Layoutmenü**: Ein Layout ist ein übergeordneter Bereich, der  unterschiedliche Strukturierungen des Inhalts durch Spalten und Zeilen ermöglicht. Im Layoutmenü kann ein ein- oder mehrspaltiges Layout ausgewählt, Layoutbereiche verschoben oder neue Layouts hinzufügt werden. Löscht oder verändert man Layouts werden existierende Blöcke in die vorhandenen Spalten geschoben. Aktuell sind folgende Layoutvorlagen verfügbar:
-![layout-template](assets/layoutblock-template.jpg)
+![layout-template](assets/layoutblock-template.jpg){ class="shadow lightbox" }
 * **Blockmenü**: Menü eines einzelnen Inhaltselements innerhalb eines Layouts. Über das Blockmenü kann ein Inhaltselement verschoben, hinzugefügt oder gelöscht werden. Auch der Inspektor mit weiteren Einstellungen für ein Inhaltselement kann über das Zahnrad :material-cog: aktiviert werden. 
 * **Inspektor**: Dient der Konfiguration einzelner Inhaltselemente. Dort befinden sich alle Einstellungen, die den Funktionsumfang, sowie das Aussehen des jeweiligen Elements verändern, z.B. die Ausrichtung von Bildern. Klickt man auf die Titelzeile des Inspektor Fensters kann das Konfigurationsmenü selbst auch verschoben werden. Wenn Sie einen neuen Block selektieren, springt der Inspektor wieder an die Standardposition.
+
+**Hinweis-Box im Inspektor**
+
+Interessant ist auch die Möglichkeit den Inhaltselementen eine Hinweis-Box hinzuzufügen. Diese Option steht für fast alle Inhaltselemente bis auf Titel und HTML-Textcode zur Verfügung. 
+
+![Hinweis-Box im Content Editor](assets/Hinweis-Box.png){ class="lightbox" }
+
+Hierüber können einzelne Inhaltselemente hervorgehoben und z.B. als Info, Tipp, Wichtig usw. gekennzeichnet werden. Auch die Vergabe eines eigenen Titels ist möglich. Darüber hinaus können die Hinweis-Boxen noch mit einem Icon versehen und definiert werden ob die Hinweis-Box einklappbar ist oder nicht. Bei benutzerdefinierten Hinweis-Typen kann auch ein Icon aus der Liste gewählt und die Farbe angepasst werden. Bei vordefinierten Typen sind diese Dinge vordefiniert.   
+
 
 ## Inhaltsblöcke - Inhalt hinzufügen 
 
@@ -58,13 +67,13 @@ Hier können Sie neue Zitate erstellen (Zitat hinzufügen) oder auf bereits im M
 
 Fügen Sie Bildelemente hinzu indem Sie eine Grafikdatei hochladen oder auf eine Grafik Ihres Media Centers zugreifen. Anschliessend können Sie die Datei weiter konfigurieren, z.B. einen Titel oder Untertitel platzieren und auch die Größe, Platzierung oder Umrandung definieren. Nutzen Sie hierfür das Inspektor Menü.
 
-!!! "Tipp"
+!!! Tip "Tipp"
 
     Um die Positionierung einer Grafik zu optimieren verwenden Sie am besten ein passendes z.B. mehrspaltiges Layout. Je nach Art der Grafiken gilt dieser Tipp auch für das Inhaltselement "Galerie".
 
 ### Galerie
 
-Neu ab :octicons-tag-24: Release 19 ist die Möglichkeit eine Bildergalerie hinzuzufügen. Mit Klick auf den Button "Hinzufügen" gelangt man in das Media Center und kann dort mehrere Bilder auswählen. Die Art der Anzeige als Vorschau, Raster oder Slideshow kann im Inspector definiert werden. Das Beispiel zeigt eine Galerie mit Vorschau aus der User-Perspektive
+Neu ab :octicons-tag-24: Release 19 ist die Möglichkeit eine Bildergalerie hinzuzufügen. Mit einem Klick auf den Button „Hinzufügen“ öffnet sich das Media Center, in dem mehrere Bilder ausgewählt werden können. Die Anzeigeart – Vorschau, Raster oder Slideshow – lässt sich im Inspector festlegen. Das gezeigte Beispiel präsentiert eine Galerie mit Vorschau aus der Perspektive eines Nutzers.
 
 ![Inhaltselement Galerie](assets/Editor_Galerie_Portfolio.png){ class="lightbox" }
 
@@ -126,18 +135,9 @@ Hinzufügen einer Trennlinie
 Hier erscheint ein ähnlicher aber etwas erweiterter Text-Editor wie beim Inhaltselement "Text".
 
 
-### Hinweis-Box
-
-Interessant ist auch die Möglichkeit den Inhaltselementen eine Hinweis-Box hinzuzufügen. Diese Option steht für fast alle Inhaltselemente bis auf Titel und HTML-Textcode zur Verfügung. 
-
-![Hinweis-Box im Content Editor](assets/Hinweis-Box.png){ class="lightbox" }
-
-Hierüber können einzelne Inhaltselemente hervorgehoben und z.B. als Info, Tipp, Wichtig usw. gekennzeichnet werden. Auch die Vergabe eines eigenen Titels ist möglich. Darüber hinaus können die Hinweis-Boxen noch mit einem Icon versehen und definiert werden ob die Hinweis-Box einklappbar ist oder nicht. Bei benutzerdefinierten Hinweis-Typen kann auch ein Icon aus der Liste gewählt und die Farbe angepasst werden. Bei vordefinierten Typen sind diese Dinge vordefiniert.   
-
-
 ### Media Center
 
 Anstatt ein spezielles Inhaltselement zu wählen können Sie auch direkt in ihr [Media Center](../personal_menu/Media_Center.de.md) wechseln und dort hinterlegte Elemente auswählen oder Mediendateien hochladen bzw. hinzufügen. 
 
- Die Such- und Filteroptionen helfen, die gewünschte Datei(en) schnell zu finden.
+Die Such- und Filteroptionen helfen, die gewünschte Datei(en) schnell zu finden.
 ![Titel ePortfolio](assets/Medien_Center_Portfolio.png){ class="lightbox" }

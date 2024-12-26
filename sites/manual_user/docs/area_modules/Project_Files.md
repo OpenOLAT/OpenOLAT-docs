@@ -2,11 +2,11 @@
 
 Under "Files" in the "Quick Access" section, files can be **uploaded** and new files **created** in a project. This way, all files can be saved together with the project. All media are then in the same place.  They are only available within the project.
 
-![projekte_datei_erstellen_hochladen_v1_de.png](assets/projekte_datei_erstellen_hochladen_v1_de.png){ class="shadow lightbox" }
+
 
 ## Upload files
 
-There are no restrictions regarding the file formats.
+![Dateien hochladen im Schnellzugriff](assets/Projekte_a.jpg){ class="shadow lightbox" } 
 
 The uploaded files can be opened directly depending on the format. 
 The following principles apply:
@@ -24,6 +24,8 @@ The following principles apply:
     * The maximum total volume per project or for all projects is also not limited by default.
 
     * Versioning is currently not carried out.
+    
+    * There are no restrictions regarding the file formats.
  
 
 
@@ -70,6 +72,8 @@ or<br>
 **b) Projects > Tab "My projects" > Select project > Click on the title in the "Files" section**<br>
 or<br>
 **c) Projects > Tab "My projects" > Select project > click in the "show all files" section**
+
+![Projektdateien anzeigen Bereiche](assets/Projekte_Dateien_abc.jpg){ class="shadow lightbox" }
 
 Note that you can switch between the map view and the list view.  
 
