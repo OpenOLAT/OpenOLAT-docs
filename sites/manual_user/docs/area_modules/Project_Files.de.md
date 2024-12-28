@@ -1,9 +1,15 @@
 # Projekte - Dateien
 
-Unter "Dateien" im Abschnitt "Schnellzugriff" können in einem Projekt Dateien **hochgeladen** und neue Dateien **erstellt** werden. So können alle Dateien zusammen mit dem Projekt gespeichert werden. Alle Medien befinden sich dann am gleichen Ort.  Sie sind nur innerhalb des Projektes verfügbar.
+Generell können Dateien für ein Projekt hochgeladen, erstellt oder aus anderen OpenOlat Bereichen hinzugefügt werden. Dies erfolgt jeweils entweder über den "Schnellzugriff" oder im Bereich "Dateien". Dabei sind die Möglichkeiten im Bereich "Dateien" umfangreicher. 
+
+Im Abschnitt "Schnellzugriff" werden generell die sechs zuletzt verwendeten Dateien *und* Notizen angezeigt. Diese können einfach mit Klick auf das Dokument geöffnet bzw. heruntergeladen und gegebenenfalls weiterbearbeitet werden.
+
+Im Abschnitt "Dateien" werden die sechs zuletzt hinzugefügten Dateien angezeigt und können ebenfalls direkt geöffnet bzw. heruntergeladen und gegebenenfalls weiterbearbeitet werden. 
 
 
 ## Dateien hochladen
+
+Am schnellsten lassen sich Dateien im Bereich "Schnellzugriff" hochladen. 
 
 ![Dateien hochladen im Schnellzugriff](assets/Projekte_a.jpg){ class="shadow lightbox" } 
 
@@ -29,9 +35,9 @@ Es gelten folgende Grundsätze:
 
 ## Dateien erstellen
 
-![projekte_dateien_dokument_erstellen_v1_de.png](assets/projekte_dateien_dokument_erstellen_v1_de.png){ class="shadow lightbox" }
+Ebenfalls im Schnellzugriff können auch rasch Dateien erstellt werden. Folgende Dokument-Formate stehen dabei zur Verfügung: 
 
-Es können folgende Dateiformate erstellt werden:
+![projekte_dateien_dokument_erstellen_v1_de.png](assets/projekte_dateien_dokument_erstellen_v1_de.png){ class="shadow lightbox" }
 
 * .docx (Word, Lizenz erforderlich)
 * .xlxs (Excel, Lizenz erforderlich)
@@ -52,21 +58,21 @@ Es können folgende Dateiformate erstellt werden:
 
 ## Video- und Audio-Recording
 
-Im Bereich **Dateien** eines OpenOlat-Projektes gibt es auch die Möglichkeit, Videos und Audiodateien direkt in OpenOlat aufzuzeichnen.
+Um Video- oder Audiodateien per Webcam aufzunehmen wechseln Sie in den Bereich "Dateien". Wählen sie hier Video oder Audio aufzeichnen und erlauben Sie den Zugriff auf Ihre Webcam bzw. Ihr Mikrofon um die Aufnahme vorzunehmen. 
 
-Neu aufgenommene Videos werden als mp4-Dateien gespeichert, Audios als m4a-Dateien.
+![Audio Video aufnehmen Projekte](assets/Projekt_Audio_aunehmen.jpg){ class="shadow lightbox" }
 
-![project_video_audio_recording_v1_de.png](assets/project_video_audio_recording_v1_de.png){ class="shadow lightbox" }
+Neu aufgenommene Videos werden als mp4-Dateien gespeichert, Audios als m4a-Dateien. Die Dateien stehen dann im Bereich "Dateien" für alle Projektmitglieder zur Verfügung. 
 
 ## Liste der Dateien anzeigen
 
-Die Liste aller im Projekt vorhandenen Dateien öffnen Sie analog zu den To-dos oder Entscheiden: 
+Alle Dateien eines Projektes finden Sie im Bereich "Dateien" des Projektes. Es gibt mehrere Wege um hierhin zu gelangen:
 
-**a) Projekte > Tab "Meine Projekte" > Projekt wählen > Schnellzugriff Button "Dateien"**<br>
-oder<br>
-**b) Projekte > Tab "Meine Projekte" > Projekt wählen > Titel im Abschnitt "Dateien" anklicken**<br>
-oder<br>
-**c) Projekte > Tab "Meine Projekte" > Projekt wählen > im Abschnitt "alle Dateien anzeigen" klicken**
+a) Schnellzugriff Button "Dateien
+
+b) Titel im Abschnitt "Dateien" anklicken
+
+c) im Abschnitt "alle Dateien anzeigen" klicken
 
 ![Projektdateien anzeigen Bereiche](assets/Projekte_Dateien_abc.jpg){ class="shadow lightbox" }
 
@@ -78,13 +84,11 @@ Unter den 3 Punkten am Ende jedes Listeneintrags finden Sie weitere Optionen.
 
 ![projekte_dateien_liste_v1_de.png](assets/projekte_dateien_liste_v1_de.png){ class="shadow lightbox" }
 
+## Dateien hinzufügen
 
+Im Bereich "Dateien" können auch Dateien, die sich an anderen Stellen in OpenOlat befinden hinzugefügt werden. Dabei hat man Zugriff auf alle Elemente des File-Hubs und des Media Centers.
 
-## Schnellzugriff auf Dateien 
-
-Im Abschnitt Schnellzugriff (siehe a) werden die zuletzt verwendeten Dateien und Notizen angezeigt (max. 6 Elemente). Diese können einfach mit Klick auf das Dokument geöffnet und gegebenenfalls weiterbearbeitet werden.
-
-![projekte_dateien_schnellzugriff_v1_de.png](assets/projekte_dateien_schnellzugriff_v1_de.png){ class="shadow lightbox" }
+![Dateien hinzufügen](assets/Projekt_Dateien_hinzufuegen.jpg){ class="shadow lightbox" }
 
 
 ## Dateien gemeinsam bearbeiten 
