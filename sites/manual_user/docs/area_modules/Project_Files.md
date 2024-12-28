@@ -2,9 +2,15 @@
 
 Under "Files" in the "Quick Access" section, files can be **uploaded** and new files **created** in a project. This way, all files can be saved together with the project. All media are then in the same place.  They are only available within the project.
 
+Generell können Dateien für ein Projekt hochgeladen, erstellt oder aus anderen OpenOlat Bereichen hinzugefügt werden. Dies erfolgt jeweils entweder über den "Schnellzugriff" oder im Bereich "Dateien". Dabei sind die Möglichkeiten im Bereich "Dateien" umfangreicher. 
 
+Im Abschnitt "Schnellzugriff" werden generell die sechs zuletzt verwendeten Dateien *und* Notizen angezeigt. Diese können einfach mit Klick auf das Dokument geöffnet bzw. heruntergeladen und gegebenenfalls weiterbearbeitet werden.
+
+Im Abschnitt "Dateien" werden die sechs zuletzt hinzugefügten Dateien angezeigt und können ebenfalls direkt geöffnet bzw. heruntergeladen und gegebenenfalls weiterbearbeitet werden. 
 
 ## Upload files
+
+Am schnellsten lassen sich Dateien im Bereich "Schnellzugriff" hochladen. 
 
 ![Dateien hochladen im Schnellzugriff](assets/Projekte_a.jpg){ class="shadow lightbox" } 
 
@@ -29,8 +35,8 @@ The following principles apply:
  
 
 
-
 ## Create files
+Ebenfalls im Schnellzugriff können auch rasch Dateien erstellt werden. Folgende Dokument-Formate stehen dabei zur Verfügung:
 
 ![projekte_dateien_dokument_erstellen_v1_de.png](assets/projekte_dateien_dokument_erstellen_v1_de.png){ class="shadow lightbox" }
 
@@ -56,22 +62,23 @@ The following file formats can be created:
 
 ## Video and audio recording
 
-In the **Files** section of an OpenOlat project, it is also possible to record videos and audio files directly in OpenOlat.
+Um Video- oder Audiodateien per Webcam aufzunehmen wechseln Sie in den Bereich "Dateien". Wählen sie hier Video oder Audio aufzeichnen und erlauben Sie den Zugriff auf Ihre Webcam bzw. Ihr Mikrofon um die Aufnahme vorzunehmen. 
 
-Newly recorded videos are saved as mp4 files, audio as m4a files.
+![Audio Video aufnehmen Projekte](assets/Projekt_Audio_aunehmen.jpg){ class="shadow lightbox" }
 
-![project_video_audio_recording_v1_de.png](assets/project_video_audio_recording_v1_de.png){ class="shadow lightbox" }
+Newly recorded videos are saved as mp4 files, audio as m4a files. The files are then available to all project members in the “Files” area. 
+
 
 
 ## Show list of files
 
-Open the list of all files in the project in the same way as the to-dos or decisions.: 
+Alle Dateien eines Projektes finden Sie im Bereich "Dateien" des Projektes. Es gibt mehrere Wege um hierhin zu gelangen: 
 
-**a) Projects > Tab "My projects" > Select project > Quick access button "Files"**<br>
-or<br>
-**b) Projects > Tab "My projects" > Select project > Click on the title in the "Files" section**<br>
-or<br>
-**c) Projects > Tab "My projects" > Select project > click in the "show all files" section**
+a) Quick access button "Files"
+
+b) Click on the title in the "Files" section
+
+c) click in the "show all files" section**
 
 ![Projektdateien anzeigen Bereiche](assets/Projekte_Dateien_abc.jpg){ class="shadow lightbox" }
 
@@ -83,13 +90,11 @@ You will find more options under the 3 dots at the end of each list entry.
 
 ![projekte_dateien_liste_v1_de.png](assets/projekte_dateien_liste_v1_de.png){ class="shadow lightbox" }
 
+## Dateien hinzufügen
 
+Im Bereich "Dateien" können auch Dateien, die sich an anderen Stellen in OpenOlat befinden hinzugefügt werden. Dabei hat man Zugriff auf alle Elemente des File-Hubs und des Media Centers.
 
-## Quick access to files 
-
-The Quick Access section displays the most recently used files and notes (max. 6, created, uploaded, changed, viewed, downloaded). They can be opened and edited directly by the creator or members by clicking on them.
-
-![projekte_dateien_schnellzugriff_v1_de.png](assets/projekte_dateien_schnellzugriff_v1_de.png){ class="shadow lightbox" }
+![Dateien hinzufügen](assets/Projekt_Dateien_hinzufuegen.jpg){ class="shadow lightbox" }
 
 
 ## Edit files together 
