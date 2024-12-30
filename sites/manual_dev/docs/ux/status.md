@@ -64,6 +64,7 @@ Ampel logic: No dangers or safety concerns
 | Catalog    | Offer period          | :fontawesome-solid-hourglass-half: | Ongoing     | 1.                   |
 | Curriculum | Curriculum element    | :fontawesome-solid-check:          | Confirmed   | 4.                   |
 | Curriculum | Curriculum element    | :fontawesome-solid-check:          | Active      | 1.                   |
+| Curriculum | Membership            | :fontawesome-solid-check:          | Active      | 1.                   |
 
 ### Warning
 
@@ -89,6 +90,7 @@ Ampel logic: Attention required
 | Course     | Assessment inspection | :fontawesome-solid-user-slash:           | No-show          | -                    |
 | Catalog    |                       | :fontawesome-solid-triangle-exclamation: | Fully booked     | 2.                   |
 | Curriculum | Curriculum element    | :fontawesome-solid-hourglass-half:       | Provisional      | 4.                   |
+| Curriculum | Membership            | :fontawesome-solid-hourglass-half:       | Reserved         | 4.                   |
 
 ### Critical
 
@@ -106,9 +108,10 @@ Ampel logic: Increased warning, intervention urgently required, but not yet crit
 | Light   | #522D00 | #FFFFFF  | #ff8c00 | ![Light orange](assets/orange-light.png){ class="thumbnail-sm" }     |
 | Mega    | #522D00 | #FFCF91  | #FFCF91 | ![Mega orange](assets/orange-mega.png){ class="thumbnail" }          |
 
-| Object  | Context               | icon                        | State       | Range of application |
-| ------- | --------------------- | --------------------------- | ----------- | -------------------- |
-| Course  | Assessment inspection | :fontawesome-solid-spinner: | In progress | -                    |
+| Object  | Context               | icon                             | State       | Range of application |
+| ------- | --------------------- | -------------------------------- | ----------- | -------------------- |
+| Course  | Assessment inspection | :fontawesome-solid-spinner:      | In progress | -                    |
+| Course  | Membership            | :fontawesome-solid-circle-xmark: | Declined    | 3.                   |
 
 ### Danger
 
@@ -160,13 +163,16 @@ Ampel logic: Inactive or not relevant
 | Light   | #595959 | #FFFFFF  | #454545 | ![Light grey](assets/grey-light.png){ class="thumbnail-sm" }     |
 | Mega    | #342c24 | #F6F6F6  | #F6F6F6 | ![Mega grey](assets/grey-mega.png){ class="thumbnail" }          |
 
-| Object     | Context               | icon                             | State         | Range of application |  
-| ---------- | --------------------- | -------------------------------- | ------------- | -------------------- |
-| Course     | Assessment mode       | :fontawesome-solid-circle-minus: | End           | 2.                   |
-| Course     | Assessment inspection | :fontawesome-solid-ban:          | Withdrawn     | 2.                   |
-| Catalog    |                       | :fontawesome-solid-eye-slash:    | Not available | 3.                   |
-| Catalog    | Offer period          | :fontawesome-solid-ban:          | Ended         | 2./3.                |
-| Curriculum | Curriculum element    | :fontawesome-solid-circle-xmark: | Cancelled     | 2./3.                |
+| Object     | Context               | icon                             | State              | Range of application |  
+| ---------- | --------------------- | -------------------------------- | ------------------ | -------------------- |
+| Course     | Assessment mode       | :fontawesome-solid-circle-minus: | End                | 2.                   |
+| Course     | Assessment inspection | :fontawesome-solid-ban:          | Withdrawn          | 2.                   |
+| Catalog    |                       | :fontawesome-solid-eye-slash:    | Not available      | 3.                   |
+| Catalog    | Offer period          | :fontawesome-solid-ban:          | Ended              | 2./3.                |
+| Curriculum | Curriculum element    | :fontawesome-solid-circle-xmark: | Cancelled          | 2./3.                |
+| Curriculum | Membership            | :fontawesome-solid-circle-xmark: | Cancelled          | 2./3.                |
+| Curriculum | Membership            | :fontawesome-solid-sack-xmark:   | Cancelled with fee | 2./3.                |
+| Curriculum | Membership            | :fontawesome-solid-circle-minus: | Removed            | 2./3.                |
 
 
 ## By object
