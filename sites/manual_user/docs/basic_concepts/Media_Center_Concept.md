@@ -1,6 +1,8 @@
 # Media Center Concept
 
-The Media Center is a **central collection point** for different types of media. Media can be...
+The Media Center is a **central collection point** for different types of media.
+
+Media can be...
 
 * ... created directly in the Media Center (e.g. video recording, docx, pptx, ...)
 * ... created in various course elements and then stored in the Media Center
@@ -60,20 +62,17 @@ There are various ways to store media in the Media center:
 ### Create new media directly in the Media Center
 
 * **Create document:** Documents of integrated editors, e.g. Word, Excel, Powerpoint<br>
-* **Add text:** Text elements for use in the content editor, created with a simple HTML editor<br>
 * Create **draw.io diagram**: Creates a diagram, flowchart or drawing with the draw.io tool, as of :octicons-tag-24: Release 18.1.
-**Add text:** Text elements for use in the content editor, created with a simple HTML editor
+* **Add text:** Text elements for use in the content editor, created with a simple HTML editor
 * **Record video:** Video recording function integrated in OpenOlat. If you click on "Record video", the recording function for the webcam is started directly, provided you allow access to the camera in the browser.
 * **Record Audio**:Audio recording function integrated in OpenOlat. If you click on "Record audio", the recording function is started, provided access has been permitted in the browser.
 
 ### Create new media beyond the Media Center in the Content Editor
 
-Media for the Media Center can also be created in the OpenOlat course or in the portfolio using the [content editor](../basic_concepts/Content_Editor.md). In the course, for example, this can be done via the course element ["Page"](../learningresources/Course_Element_Page.md). 
-
-Go to edit mode and select "Add content". Among other things, a button for the “Media Center” will appear.  Click on the button and you will be taken to the Media Center with all the corresponding options. 
-
+Media for the Media Center can also be created in the OpenOlat course or in the portfolio using the [content editor](../basic_concepts/Content_Editor.md). In the course, for example, this can be done via the course element ["Page"](../learningresources/Course_Element_Page.md). Go to edit mode and select "Add content". Among other things, a button for the “Media Center” will appear.  Click on the button and you will be taken to the Media Center with all the corresponding options. 
 
 ![Select medium from the media center](assets/Medien_center_wahlen_en.jpg){ class=" shadow lightbox" }
+
 
 ### Collect content elements and link them to the Media Center
 
@@ -162,3 +161,12 @@ The **filter functions** help you to find the media you are looking for quickly.
 !!! note "Note"
 
     When documents are included in a portfolio folder, they are displayed as _links_ and are not displayed directly.
+
+
+## Manage Media Center
+
+When accessing the Media Center, administrators have an additional "Media management" tab in which they can perform administrative tasks in the Media Center. All media except your own are listed there. 
+
+After clicking on a medium, the usage locations, releases, last views, etc. can be called up for each medium.
+
+![media_center_administration_v1_de](assets/media_center_administration_v1_de.png){ class=" shadow lightbox" }

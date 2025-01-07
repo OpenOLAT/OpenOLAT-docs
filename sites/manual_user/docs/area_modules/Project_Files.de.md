@@ -41,7 +41,7 @@ Ebenfalls im Schnellzugriff können auch rasch Dateien erstellt werden. Folgende
 
 * .docx (Word, Lizenz erforderlich)
 * .xlxs (Excel, Lizenz erforderlich)
-* . pptx (PowerPoint, Lizenz erforderlich)
+* .pptx (PowerPoint, Lizenz erforderlich)
 * .drawio (Diagramm)
 * .dwb (Whiteboard)
 * .text (unformatierter Text)
