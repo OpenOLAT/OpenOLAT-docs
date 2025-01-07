@@ -148,7 +148,7 @@ Adding a separator line.
 
 ### HTML text code
 
-A similar but slightly extended text editor appears here as for the “text” content element.
+A similar but slightly extended text editor appears here as for the "text" content element.
 
 ### Media Center
 

@@ -86,7 +86,7 @@ Nicht-frentix Kunden: Achtung -- Transcoding
 
 ## Optimierungen für ePortfolio- und Formular-Editor
 
-Der bestehende Editor zur Erstellung von [Formularen](../manual_user/learningresources/Form_editor_17_1.de.md) und [ePortfolio](../manual_user/area_modules/The_portfolio_editor_17_1.de.md)-Einträgen wurde neu gestaltet.
+Der bestehende Editor zur Erstellung von [Formularen](../../manual_user/docs/learningresources/Form_Editor.de.md) und [ePortfolio](../manual_user/area_modules/The_portfolio_editor_17_1.de.md)-Einträgen wurde neu gestaltet.
 
 Die bisher verwendeten Container wurden durch eine neue Layout-Komponente ersetzt. So kann schnell und einfach aus den fertigen Vorlagen das gewünschte Layout zusammengesetzt und nachfolgend mit Inhalten gefüllt werden.
 

@@ -150,22 +150,22 @@ If, for example, an external person is to be given access to a portfolio in the 
 
 ## Further information
 
-[Organisation roles](roles.md#org)<br> 
+[Organisation roles](roles.md#organisation-wide-roles--org)<br> 
 
-[Course roles](roles.md#course)<br> 
+[Course roles](roles.md#roles-in-a-course--course)<br> 
 
-[Group roles](roles.md#groups)<br> 
+[Group roles](roles.md#roles-in-groups--groups)<br> 
 [Creating a new group](../groups/index.md)<br> 
 [Group management](../area_modules/Group_Management.md)<br>
 
-[Curriculum roles](roles.md#curriculum)<br> 
+[Curriculum roles](roles.md#roles-in-curricula--curriculum)<br> 
 [Curriculum management](../area_modules/Curriculum_Management.md)<br> 
 
-[Roles in an organization unit](roles.md#orgunit)<br> 
+[Roles in an organization unit](roles.md#roles-in-an-organization--orgunit)<br> 
 
-[Self-defined roles and relations](roles.md#relations)<br> 
+[Self-defined roles and relations](roles.md#self-defined-roles-and-relations--relations)<br> 
 
-[Role "Invitee"](roles.md#invitee)<br> 
+[Role "Invitee"](roles.md#role-invitee--invitee)<br> 
 
 <br>
 

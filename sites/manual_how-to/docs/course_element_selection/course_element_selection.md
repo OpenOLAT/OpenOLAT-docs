@@ -26,7 +26,7 @@ This guide shows you how to give participants in your course the option of choos
 
 ##  Requirement
 
-The course element "Selection" is integrated within an OpenOlat course. If you have not yet created a course, the chapter explains "[How do I create my first OpenOlat course?](../my_first_course/my_first_course.de.md)" how to proceed before you insert this course element with the help of the following instructions.
+The course element "Selection" is integrated within an OpenOlat course. If you have not yet created a course, the chapter explains "[How do I create my first OpenOlat course?](../my_first_course/my_first_course.md)" how to proceed before you insert this course element with the help of the following instructions.
 
 
 ## Step 1: Open course editor and insert "Selection" course element 
@@ -106,8 +106,8 @@ The course element "Selection" is now integrated and course participants can cho
 
 ## Further informations
 
-[How do I create my first OpenOlat course](../my_first_course/my_first_course.de.md)<br>
-[Course element "Selection"](../../manual_user/learningresources/Course_Element_Selection.de.md)
+[How do I create my first OpenOlat course](../my_first_course/my_first_course.md)<br>
+[Course element "Selection"](../../manual_user/learningresources/Course_Element_Selection.md)
 
 <br>
 

@@ -122,7 +122,7 @@ Each media element includes the following tabs:
 * **Shares:** Here you can define who a content element is shared with. Participants can only define groups. Authors have more options and can specify specific OpenOlat users, groups or courses. Sharing also allows files to be used collaboratively if editing is permitted. 
 In addition, individual media can also be downloaded or deleted via the 3-dot menu.
 
-![Medien Center 3-Punkte Menü](assets/Medien_Center_Menue.jpg){ class=" shadow lightbox" }
+![Medien Center 3-Punkte Menü](assets/media_center_pers_menu1_v1_de.png){ class=" shadow lightbox" }
 
 !!! info "Hint"
 

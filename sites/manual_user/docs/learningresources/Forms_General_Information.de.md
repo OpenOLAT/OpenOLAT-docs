@@ -4,5 +4,5 @@ Formulare können sowohl [integriert in Kurse](Forms_in_Courses.de.md) als auch 
 
 Typisch für Formulare ist, dass sie aus einem Informationselement, einer oder mehreren Fragestellungen bestehen und den Usern eine Aktionsmöglichkeit bereitstellen. Beispielsweise kann etwas angekreuzt bzw. eine Auswahl getroffen oder eigener Text eingefügt werden. Je nach Umsetzung und weiterer Einbindung in einen Kurs sind die Angaben anonym oder personenbezogen.
 
-In Formularen stehen viele verschiedene [Fragetypen](../learningresources/Form_editor_Questionnaire_editor.de.md) wie Rubrik, Einzelauswahl, Mehrfachauswahl, Texteingabe und Datei hochladen zur Verfügung. Jedes Formular besteht aus einer Seite mit einer oder mehreren Fragen bzw. Elementen, die in ein oder mehere Layouts eingebunden sind. Eine Verzweigung ist über [Frageregeln](Question_rules.de.md) ebenfalls möglich.
+In Formularen stehen viele verschiedene [Fragetypen](../learningresources/Form_Editor.de.md) wie Rubrik, Einzelauswahl, Mehrfachauswahl, Texteingabe und Datei hochladen zur Verfügung. Jedes Formular besteht aus einer Seite mit einer oder mehreren Fragen bzw. Elementen, die in ein oder mehere Layouts eingebunden sind. Eine Verzweigung ist über [Frageregeln](../learningresources/Form_Question_Rules.de.md) ebenfalls möglich.
 

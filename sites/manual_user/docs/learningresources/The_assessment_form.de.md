@@ -18,7 +18,7 @@ Bei den Kursbausteinen [Aufgabe und Gruppenaufgaben](Assessing_tasks_and_group_t
 
 Sofern über den bewerteten Kursbaustein Dateien eingereicht werden, kann auch die Anzahl der Versuche der Lernenden manuell angepasst werden.
 
-Bei dem Kursbaustein „[Bewertung](../learningresources/Course_Element_Assessment.de.md)“ steht, sofern entsprechend aktiviert, ergänzend ein [Rubrik](../learningresources/Rubric.de.md) zur Bewertung zur Verfügung.
+Bei dem Kursbaustein "[Bewertung](../learningresources/Course_Element_Assessment.de.md)" steht, sofern entsprechend aktiviert, ergänzend ein [Rubrik](../learningresources/Forms_in_Rubric_Scoring.de.md) zur Bewertung zur Verfügung.
 
 ## Sichtbarkeit des Ergebnisses
 
@@ -52,5 +52,5 @@ Dieser Status hilft Ihnen den Überblick über die bereits bewerteten Benutzer z
 ## Weitere Informationen
 
 [Formular als Rubrik Bewertung](Forms_in_Rubric_Scoring.de.md)<br>
-[Rubrik](Rubric.de.md)
+
 

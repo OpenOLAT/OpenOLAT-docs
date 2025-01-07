@@ -73,11 +73,7 @@ Fügen Sie Bildelemente hinzu indem Sie eine Grafikdatei hochladen oder auf eine
 
 ### Galerie
 
-<<<<<<< Updated upstream
 Neu ab :octicons-tag-24: Release 19 ist die Möglichkeit eine Bildergalerie hinzuzufügen. Mit einem Klick auf den Button „Hinzufügen“ öffnet sich das Media Center, in dem mehrere Bilder ausgewählt werden können. Die Anzeigeart – Vorschau, Raster oder Slideshow – lässt sich im Inspector festlegen. Das gezeigte Beispiel präsentiert eine Galerie mit Vorschau aus der Perspektive eines Nutzers.
-=======
-Neu ab :octicons-tag-24: Release 19 ist die Möglichkeit eine Bildergalerie hinzuzufügen. Mit Klick auf den Button "Hinzufügen" gelangt man in das Media Center und kann dort mehrere Bilder auswählen. Die Art der Anzeige als Vorschau, Raster oder Slideshow kann im Inspector definiert werden. Das Beispiel zeigt eine Galerie mit Vorschau aus der User-Perspektive.
->>>>>>> Stashed changes
 
 ![Inhaltselement Galerie](assets/Editor_Galerie_Portfolio.png){ class="lightbox" }
 
