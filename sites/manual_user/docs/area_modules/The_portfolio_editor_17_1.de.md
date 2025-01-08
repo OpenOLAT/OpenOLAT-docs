@@ -128,7 +128,7 @@ Sie können ein neues draw.io Diagramm anlegen oder Sie fügen ein existierendes
 Beim Erstellen eines Diagramms kann auch definiert werden ob bzw. wer das Diagramm bearbeiten darf. 
 
 ### Separator 
-Hinzufügen einer Trennlinie
+Hinzufügen einer Trennlinie.
 
 ### HTML-Textcode
 

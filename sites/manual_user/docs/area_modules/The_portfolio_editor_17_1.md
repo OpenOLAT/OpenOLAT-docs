@@ -4,30 +4,30 @@
 
     As of :octicons-tag-24: release 17.1. this portfolio editor is available.  If you want to fill an old entry with new content, use the new layouts.
 
-Different layouts and content elements can be added to each portfolio entry. The configuration is carried out via the operating elements: Layout menu, the block menu and the inspector.
+Different layouts and content elements can be added to each portfolio entry. The configuration is carried out via the operating elements: Layout, the block menu and the inspector. 
 
 ## Controls Overview
-Der Portfolio Editor umfasst verschiedene Menü-Bereiche für die Konfiguration: 
+The Portfolio Editor includes various menu areas for configuration: 
 
 ![Image of the individual controls in ePortfolio](assets/content-editor-gui.jpg){ class="lightbox" }
 
 * **Layout Menu**: A layout is a higher-level block that allows you to structure the content in different ways using columns and rows. 
-Im Layoutmenü kann ein ein- oder mehrspaltiges Layout ausgewählt, Layoutbereiche verschoben oder neue Layouts hinzufügt werden. Löscht oder verändert man Layouts werden existierende Blöcke in die vorhandenen Spalten geschoben. Aktuell sind folgende Layoutvorlagen verfügbar:
+In the layout menu, you can select a single or multi-column layout, move layout areas or add new layouts. If you delete or change layouts, existing blocks are moved into the existing columns. The following layout templates are currently available:
 ![layout-template](assets/layoutblock-template.jpg){ class="shadow lightbox" }
-* **Block Menu**: Menü eines einzelnen Inhaltselements innerhalb eines Layouts. Über das Blockmenü kann ein Inhaltselement verschoben, hinzugefügt oder gelöscht werden. Auch der Inspektor mit weiteren Einstellungen für ein Inhaltselement kann über das Zahnrad :material-cog: aktiviert werden. 
+* **Block Menu**: Menu of an individual content element within a layout. A content element can be moved, added or deleted via the block menu. The inspector with further settings for a content element can also be activated via the :material-cog: gear wheel. 
 * **Inspector**: Used to configure individual content elements. There are all settings that change the functionality, as well as the appearance of the respective block or layout e.g. the alignment of images. By clicking on the title bar of the inspector window you can also move it. When you select a new block, the inspector jumps back to the default position.
 
-**Hinweis-Box im Inspektor**
+**Note box in the inspectorr**
 
-Interessant ist auch die Möglichkeit den Inhaltselementen eine Hinweis-Box hinzuzufügen. Diese Option steht für fast alle Inhaltselemente bis auf Titel und HTML-Textcode zur Verfügung. 
+Another interesting feature is the option to add a hint box to the content elements. This option is available for almost all content elements except for titles and HTML text code. 
 
 ![Hinweis-Box im Content Editor](assets/Hinweis-Box.png){ class="lightbox" }
 
-Hierüber können einzelne Inhaltselemente hervorgehoben und z.B. als Info, Tipp, Wichtig usw. gekennzeichnet werden. Auch die Vergabe eines eigenen Titels ist möglich. Darüber hinaus können die Hinweis-Boxen noch mit einem Icon versehen und definiert werden ob die Hinweis-Box einklappbar ist oder nicht. Bei benutzerdefinierten Hinweis-Typen kann auch ein Icon aus der Liste gewählt und die Farbe angepasst werden. Bei vordefinierten Typen sind diese Dinge vordefiniert.   
+Individual content elements can be highlighted and marked as Info, Tip, Important, etc., for example. It is also possible to assign your own title. In addition, the note boxes can be provided with an icon and it can be defined whether the note box is collapsible or not. For user-defined notice types, an icon can also be selected from the list and the color can be adjusted. These things are predefined for predefined types.
 
 ## Content blocks - add content
 
-Über "Inhalt hinzufügen" werden die konkreten Inhaltselemente wie Texte, Bilder oder sonstige Medien hinzugefügt. Folgende Inhaltselemente stehen zur Wahl: 
+The specific content elements such as texts, images or other media are added via "Add content". The following content elements are available: 
 
 
 ![Inhaltelemente im ePortfolio](assets/add_content_portfolio_en.png){ class="lightbox" }
@@ -37,7 +37,7 @@ Hierüber können einzelne Inhaltselemente hervorgehoben und z.B. als Info, Tipp
 Use this element to add titles quickly and easily.
 
 With the selection of h1-h6 the size of the heading can be chosen, where h1 corresponds to "Heading 1" and is therefore the largest and h6 corresponds to "Heading 6" and thus smallest.
-Im Tab "Layout kann ferner der Abstand zum Text definiert.
+The distance to the text can also be defined in the "Layout" tab.
 ![Titel ePortfolio](assets/Titel_Portfolio.png){ class="lightbox" }
 
 ### Text
@@ -57,24 +57,12 @@ Click in the editing field and you will be given access to a special formula edi
 ![Mathe Formel ePortfolio](assets/Mathe_Formeln_Portfolio.png){ class="lightbox" }
 
 ### Code example
-Element zum Einfügen von Programmiercode. Der Inhalt wird als Code angezeigt und nicht ausgeführt. Diverse Code-Sprachen stehen zur Auswahl. Auch Zeilennummern können für die Übersicht eingeblendet werden. 
+Element for inserting programming code. The content is displayed as code and is not executed. Various code languages are available for selection. Line numbers can also be displayed for the overview. 
 ![Code-Beispiel ePortfolio](assets/Code-Beispiel_Editor_19.png){ class="lightbox" }
 
-### Document
+### Quote
 
-Here, you have three different possibilities:
-* Create a new document according to the specified file types
-* Upload a new document (add document) or
-* Connect a document from your Media Center (Selection from the list).
-
-If an external document editor is activated and the files are in a format that is supported by it, the files can also be edited directly online.
-
-### Audio
-Hier haben Sie die folgenden Möglichkeiten: 
-* Nutzen Sie den Audio-Editor und erstellen Sie eine Tonaufnahme (Audio aufnehmen)
-* Laden Sie eine Audiodatei (Audio hinzufügen)
-* Verbinden Sie eine Audiodatei aus Ihrem Medien Center (Auswahl aus der Liste).
-![Titel ePortfolio](assets/Audio_Portfolio.png){ class="lightbox" }
+Here you can create new quotes (Add quote) or use quotes already stored in the Media Center and integrate them. Various information can be added to a new quote, e.g. source, language, author, URL.
 
 ### Citation 
 
@@ -90,15 +78,30 @@ Add image elements by uploading a graphic file or accessing a graphic from your 
 
 ### Galerie
 
-Neu ab :octicons-tag-24: Release 19 ist die Möglichkeit eine Bildergalerie hinzuzufügen. Mit einem Klick auf den Button „Hinzufügen“ öffnet sich das Media Center, in dem mehrere Bilder ausgewählt werden können. Die Anzeigeart – Vorschau, Raster oder Slideshow – lässt sich im Inspector festlegen. Das gezeigte Beispiel präsentiert eine Galerie mit Vorschau aus der Perspektive eines Nutzers.
+New from :octicons-tag-24: Release 19 is the possibility to add a picture gallery. Click on the “Add” button to open the Media Center, in which several images can be selected. The display type - preview, grid or slideshow - can be defined in the Inspector. The example shown presents a gallery with a preview from the perspective of a user.
 
 ![Inhaltselement Galerie](assets/Editor_Galerie_Portfolio.png){ class="lightbox" }    
 
-### Bildvergleich
-Neu ab :octicons-tag-24: Release 19 ist das Inhaltselement "Bildvergleich". Hierbei können 2 Bilder aus dem Media Center ausgewählt und nebeneinandergestellt werden, z.B. zwei Versionen desselben Bildes. 
-Die Auswahl der Bilder erfolgt über das Inspektor Menü. Neben den Standard Typ kann der Bildvergleich auch für die Gegenüberstellung von einem richtigen und einem falschen Bild verwendet werden. 
+### Image comparison
+New from :octicons-tag-24: Release 19 is the content element "Image comparison". This allows 2 images from the Media Center to be selected and placed next to each other, e.g. two versions of the same image. 
+The images are selected via the inspector menu. In addition to the standard type, the image comparison can also be used to compare a correct and an incorrect image. 
 
 ![Inhaltselement Bildvergleich](assets/Editor_Bildervergleich_Portfolio.png){ class="lightbox" }
+
+### Gallery
+
+New from :octicons-tag-24: Release 19 is the possibility to add a picture gallery. Clicking on the "Add" button takes you to the Media Center where you can select several images. The type of display as preview, grid or slideshow can be defined in the Inspector. The example shows a gallery with a preview from the user's perspective.
+
+![Inhaltselement Galerie](assets/Editor_Galerie_Portfolio.png){ class="lightbox" }
+
+### Image comparison
+
+New from :octicons-tag-24: Release 19 is the content element "Image comparison". This allows 2 images from the Media Center to be selected and placed next to each other, e.g. two versions of the same image. 
+The images are selected via the inspector menu. In addition to the standard type, the image comparison can also be used to compare a correct and an incorrect image. 
+
+![Inhaltselement Bildvergleich](assets/Editor_Bildervergleich_Portfolio.png){ class="lightbox" }
+
+The user can adjust the viewing area of the images using a slider. 
 
 ### Video
 
@@ -112,41 +115,40 @@ You have the following options for loading a video into the editor:
 
 
 ### Audio
-Sie haben folgende Möglichkeiten ein Audio in den Editor zu laden und bereitzustellen: 
+You have the following options for loading audio into the editor and making it available: 
 
-* Nutzen Sie den integrierten Audio-Editor und erstellen Sie eine Tonaufnahme (Audio aufzeichnen)
-* Laden Sie eine Audiodatei hoch (Audio hinzufügen)
-* Verbinden Sie eine Audiodatei aus Ihrem Media Center (Auswahl aus der Liste).
+* Use the integrated audio editor and create a sound recording (Record audio)
+* Upload an audio file (Add audio)
+* Connect an audio file from your Media Center (select from the list).
 ![Inhalt hinzufügen Audio ePortfolio](assets/Audio_Portfolio_19.jpg){ class="lightbox" }
 
-### Dokument
+### Document
 
-Sie haben folgende Möglichkeiten ein Dokument in den Editor zu laden und bereitzustellen: 
+Connect an audio file from your Media Center (select from the list).
 
-* Erstellen Sie ein neues Dokument, entsprechend der angegebenen Dateitypen (Dokument erstellen)
-* Laden Sie ein neues Dokument hoch (Dokument hinzufügen) oder 
-* Verbinden Sie ein Dokument aus Ihrem Media Center (Auswahl aus der Liste).
+* Create a new document according to the specified file types (Create document)
+* Upload a new document (Add document) or 
+* Connect a document from your Media Center (select from the list).
 
-Ist ein externer Dokumenteneditor aktiviert und liegen die Dateien in einem Format vor, das von diesem unterstützt wird, können die Dateien auch direkt online in OpenOlat weiterbearbeitet werden.
+If an external document editor is activated and the files are in a format that is supported by it, the files can also be edited directly online in OpenOlat.
 
-!!! Tip "Hinweis"
+!!! Tip "Note"
 
-    Die Inhalte der Dateien werden hier nicht direkt dargestellt, sondern müssen per Klick auf den Link geöffnet werden. 
+    The contents of the files are not displayed directly here, but must be opened by clicking on the link. 
 
 ### Diagram
 
-Sie können ein neues draw.io Diagramm anlegen oder Sie fügen ein existierendes draw.io Diagramm aus Ihrem Medien Center hinzu. Die konkrete Ausgestaltung des Diagramms erfolgt über den Klick auf den "Editieren" Link im Eintrag.  
 
 ![Inhaltselement Diagramm](assets/Editor_Diagramm_Portfolio.png){ class="lightbox" }
 
-Beim Erstellen eines Diagramms kann auch definiert werden ob bzw. wer das Diagramm bearbeiten darf. 
+When creating a diagram, you can also define whether or who is allowed to edit the diagram. 
 
 ### Separator 
-Adding a separator line
+Adding a separator line.
 
 ### HTML text code
 
-A similar but slightly extended text editor appears here as for the “text” content element.
+A similar but slightly extended text editor appears here as for the "text" content element.
 
 ### Media Center
 

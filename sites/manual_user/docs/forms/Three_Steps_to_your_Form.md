@@ -18,7 +18,7 @@ Here you will learn how to create a form for different purposes, set it up and i
 
 ## Step 2: Design + finalize form
 
-1. In the "administration" of the learning resource choose form > "edit content" and you will get to the [form editor](../learningresources/Form_editor_17_1.md)
+1. In the "administration" of the learning resource choose form > "edit content" and you will get to the [form editor](../learningresources/Form_Editor.md)
 2. "Neu Layout hinzufügen: Wählen Sie eine der angezeigten Grundstrukturen für Ihr Formular. Das Formular wird in die entsprechend gekennzeichneten Bereiche aufgeteilt indem Sie im nächsten Schritt verschiedene Inhalte hinzufügen können.
 3. choose "Add content" and select the desired element. It is best to start with a "Title" and add a short introductory text with the "Paragraph" element to inform the users accordingly.
 
@@ -32,7 +32,7 @@ Here you will learn how to create a form for different purposes, set it up and i
 
 Depending on the type of question you want to create, select "Rubric", "Single selection", "Multiple selection", "Upload file" or "Text input".
 
-For more details on how to use the Form Editor, see the "[Form Editor"](../learningresources/Form_editor_17_1.md) chapter.
+For more details on how to use the Form Editor, see the "[Form Editor"](../learningresources/Form_Editor.md) chapter.
 
 ## Step 3: Embed form directly in course
 

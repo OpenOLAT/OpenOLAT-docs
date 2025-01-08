@@ -8,7 +8,7 @@
     * [Document pool](Modules_Document_pool.md)
     * [Question bank](../../manual_user/area_modules/Question_Bank.md)
     * [ePortfolio](../../manual_user/area_modules/Competences_tags.md)
-    * Catalog [Catalog](../Modules_Catalog2.0.md)
+    * Catalog [Catalog](../administration/Modules_Catalog_2.0.md)
     
 The usage of the taxonomy will be developed continuously.
     
@@ -57,7 +57,7 @@ In the tab "Level types" a new type can be created with "Add new level type".
   * **CSS class:** If a corresponding css class is added in the theme it can be chosen here. Only icons can be added.  
   * **Visible:** Here can be defined if the taxonomy level of this type should be visible.
   * **Competences:** If activated, this level type is available as a competence and can be used e.g. for competence-based keywording in ePortfolio entries.
-  * **Leistungsnachweise:** Hier können Taxonomieebenen mit diesem Leveltyp für die Gruppierung von Leistungsnachweisen freigeschaltet werden.
+  * **Leistungsnachweise:** Taxonomy levels with this level type can be activated here for the grouping of certificates of achievement.
   * **Description:** If desired a short description of the level type can be added.
   * **Sub types:** Out of the already existing level types a sub type can be chosen. Like this it becomes possible to create a hierarchical structure. It will get visible when creating the taxonomy level.
 
@@ -75,10 +75,10 @@ When creating the following attributes are necessary:
   * **Identifier:** With the identifier an abbreviation of the level can be defined.
   * **Type:** In the type the beforehand created level type can be chosen.
   * **Order:** Hereby a manual order is possible by adding a number from 1-XX. The taxonomy-tiers will get ordered ascending by the numbers ( 1,2,3,4, / 01,02,03,04,..):octicons-tag-24: _experimental Feature_  * **Display name:** The display name is the name which is actually shown in the corresponding pool. 
-  * **Teaser Bild**
-  * **Hintergrund bild**
-  * **Anzeigename**: Der Anzeigename ist sprachabhängig und wird an unterschiedlichen Stellen verwendet: Katalog 2.0, Dokumentenpool, e-Portfolio.  
-  * **Description:** If desired a short description of the taxonomy level can be added. Wird im Katalog unter der Ebene angezeigt.
+  * **Teaser image**
+  * **Background image**
+  * **Dispaly name**: The display name depends on the language and is used in different places: Catalog 2.0, Document Pool, e-Portfolio.  
+  * **Description:** If desired a short description of the taxonomy level can be added. Displayed in the catalog below the level.
 
 ![](assets/Taxebenen EN.png){ class="shadow lightbox" }
 

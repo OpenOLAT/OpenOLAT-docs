@@ -13,16 +13,16 @@ When creating a new portfolio [binder](../area_modules/My_portfolio_binders.md),
   
  **b) Importing an entry into an existing portfolio binder**
 
-If the portfolio binder already exists and you want to transfer entries from other contexts or other binders, you can use this method. Go to the specific (target) binder and select the “Entries” tab. Then click on the “Import entry” button. A window with all entries will open and you can select the entry or entries and insert them in a specific area. 
+If the portfolio binder already exists and you want to transfer entries from other contexts or other binders, you can use this method. Go to the specific (target) binder and select the "Entries" tab. Then click on the "Import entry" button. A window with all entries will open and you can select the entry or entries and insert them in a specific area. 
 
 
 ![binder_from_portfolio.png](assets/Import%20Mappe%20EN.png)  
   
  **c) Referencing the content from another entry**
 
-Dieses Vorgehen greift immer dann, wenn man einen neuen Eintrag angelegt hat. Dabei ist es egal, ob der Eintrag sich in einer Mappe befindet oder unabhängig ist (floating Eintrag).
+This procedure always applies when you have created a new entry. It does not matter whether the entry is in a folder or is independent (floating entry).
 
-Über den Button "Inhalt referenzieren" kann anschliessend ein anderer Eintrag ausgewählt werden, dessen Inhalt im neuen Eintrag übernommen und weiterbearbeitet wird.
+The "Reference content" button can then be used to select another entry, the content of which is transferred to the new entry and processed further.
 
 ![reference_content.png](assets/Eintrag%20Inhalt%20referenzieren%20EN.png)  
   

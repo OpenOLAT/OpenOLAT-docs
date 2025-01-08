@@ -53,7 +53,7 @@ Die meisten Kursbausteine der Kategorie Wissensüberprüfung sind bewertbar und 
 
 Das Konfigurationstab "Erinnerungen" steht für alle bewertbaren Bausteine der Wissensüberprüfung zur Verfügung. Hier können in Abhängigkeit vom Bearbeitungsstatus des jeweiligen Kursbausteins E-Mails verschickt werden, z.B. wenn zu einem bestimmten Datum eine Aufgabe oder ein Test noch nicht bearbeitet wurde. Die Möglichkeiten sind ähnlich wie im Menü ["Erinnerung"](../learningresources/Course_Reminders.de.md) in der Kurs-Administration.
 
-Unter der Kategorie Wissensüberprüfung sind ausserdem die Kursbausteine "Umfrage" und "Formular" zugeordnet. Diese ermöglichen die Einbindung von OpenOlat [Formularen](../learningresources/Form_editor_Questionnaire_editor.de.md) in den Kurs, um diese für Unterrichtsevaluationen, allgemeine Befragungen, strukturierte Abfragen bestimmter Informationen der Teilnehmenden usw. zu nutzen.
+Unter der Kategorie Wissensüberprüfung sind ausserdem die Kursbausteine "Umfrage" und "Formular" zugeordnet. Diese ermöglichen die Einbindung von OpenOlat [Formularen](../learningresources/Form_Editor.de.md) in den Kurs, um diese für Unterrichtsevaluationen, allgemeine Befragungen, strukturierte Abfragen bestimmter Informationen der Teilnehmenden usw. zu nutzen.
 
 #### Highscore {: #highscore}
 

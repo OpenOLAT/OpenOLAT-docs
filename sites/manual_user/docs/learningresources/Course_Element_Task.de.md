@@ -276,7 +276,7 @@ Wurde im Tab Workflow die Option "Durch Betreuende" gewählt, können nun im Tab
 
 **Rückgabe und Feedback durch Peer-Review**
 
-Wurde im Tab Workflow die Option "Mit Peer-Review" gewählt, können nun im Tab "Rückgabe und Feedback" die Regeln für die Abgabe eines Feedbacks durch andere Teilnehmer:innen festgelegt werden. Das Feedback der Reviewer:innen wird jeweils in einem [Formular](../learningresources/Rubric.de.md) gegeben. Als Kursbesitzer:in geben Sie dieses [Formular](../learningresources/Rubric.de.md) vor. Für ein Peer-Review muss es ein Formular sein, das mindestens 1 Rubrik-Element enthält, denn nur das Rubrik-Element gibt die darin erreichten Punkte an den Kursbaustein weiter.
+Wurde im Tab Workflow die Option "Mit Peer-Review" gewählt, können nun im Tab "Rückgabe und Feedback" die Regeln für die Abgabe eines Feedbacks durch andere Teilnehmer:innen festgelegt werden. Das Feedback der Reviewer:innen wird jeweils in einem [Formular](../learningresources/Form_Element_Rubric.de.md) gegeben. Als Kursbesitzer:in geben Sie dieses [Formular](../learningresources/Form_Element_Rubric.de.md) vor. Für ein Peer-Review muss es ein Formular sein, das mindestens 1 Rubrik-Element enthält, denn nur das Rubrik-Element gibt die darin erreichten Punkte an den Kursbaustein weiter.
 
 ![course_element_task_fb_v1_de.png](assets/course_element_task_fb_v1_de.png){ class="shadow lightbox" }
 
@@ -372,7 +372,7 @@ Weitere Informationen zu diesem Tab, der in den meisten Assessment Kursbausteine
 
 ### Tab "Erinnerungen & To-dos"  {: #reminders}
 
-Mit der Erinnerungsfunktion können Sie [Erinnerungen](../learningresources/Course_Reminders.de.md) in Form einer E-Mail an Kursmitglieder versenden und automatische [To-dos](../learningresources/Course_todos.de.md)für die Aufgabe generieren. To-dos werden den Kursteilnehmenden im persönlichen Menü unter "[To-dos](../../personal_menu/To-Dos.de.md)" hinterlegt. 
+Mit der Erinnerungsfunktion können Sie [Erinnerungen](../learningresources/Course_Reminders.de.md) in Form einer E-Mail an Kursmitglieder versenden und automatische [To-dos](../learningresources/Course_todos.de.md)für die Aufgabe generieren. To-dos werden den Kursteilnehmenden im persönlichen Menü unter "[To-dos](../personal_menu/To-Dos.de.md)" hinterlegt. 
 
 
 Wird die automatische Erstellung von To-dos aktiviert (ab :octicons-tag-24: Release 18.2.) sehen die Lernenden unter "Mein Kurs" -> To-dos den aktuellen Stand (Schritt) des Worklows der entsprechenden  und erkennen so rasch ob bzw. welche Aktionen aktuell von ihnen vorgenommen werden müssen. Darüber hinaus erscheinen diese To-dos auch bei den persönlichen To-dos der User in den persönlichen Werkzeugen. 

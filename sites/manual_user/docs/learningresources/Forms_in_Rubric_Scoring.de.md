@@ -1,6 +1,6 @@
 # Formular als Rubrik Bewertung
 
-Die Lernressource Formular, insbesondere das dort integrierte [Rubrik](Rubric.de.md) Element eignet sich optimal für eine kriterienbasierte Bewertung von Leistungen. Dafür wird ein zuvor erstelltes Formular mit einem Rubrik Element in den Kursbaustein "Bewertung" eines Kurses eingebaut.
+Die Lernressource Formular, insbesondere das dort integrierte [Rubrik](../learningresources/Form_Element_Rubric.de.md) Element eignet sich optimal für eine kriterienbasierte Bewertung von Leistungen. Dafür wird ein zuvor erstelltes Formular mit einem Rubrik Element in den Kursbaustein "Bewertung" eines Kurses eingebaut.
 
 !!! info "Hinweis"
 
@@ -17,13 +17,13 @@ Im nächsten Schritt können sie ein passendes Rubrik-Formular auswählen oder e
 
 ![Rubrik-Formular Auswahldialog](assets/Rubrik-Formular_waehlen.png){ class="shadow lightbox" }
 
-Die Basis des Rubriks ist die Lernressource Formular der im [Formular-Editor](Form_editor_Questionnaire_editor.de.md) ein Rubrik Element hinzugefügt wurde.
+Die Basis des Rubriks ist die Lernressource Formular der im [Formular-Editor](../learningresources/Form_Editor.de.md) ein Rubrik Element hinzugefügt wurde.
 
 In der erscheinenden Übersicht werden alle Formulare, bei denen Sie Besitzer sind, angezeigt. Das gewünschte Formular mit dem Bewertungsrubrik kann einfach per Klick auf den Haken ausgewählt und so dem Kurs hinzugefügt werden.
 
 Hat man noch kein Formular erstellt, kann auch eine neue Lernressource Formular über den Button "Erstellen" angelegt oder ein extern vorliegendes Formular importiert werden. Anschliessend erscheint das gerade angelegte oder importierte Formular ebenfalls in der Liste und kann ausgewählt werden.
 
-Ein neu erstelltes Formular beinhaltet zunächst noch kein Rubrik Element. Dieses muss im Kurs über "Bearbeiten" oder alternativ direkt in der Lernressource im [Formular Editor](Form_editor_Questionnaire_editor.de.md) hinzugefügt werden.
+Ein neu erstelltes Formular beinhaltet zunächst noch kein Rubrik Element. Dieses muss im Kurs über "Bearbeiten" oder alternativ direkt in der Lernressource im [Formular Editor](../learningresources/Form_Editor.de.md) hinzugefügt werden.
 
 Wenn ein Formular direkt im Kurseditor erstellt wird, wird automatisch eine neue Lernressource Formular angelegt, die auch im [Autorenbereich](../area_modules/Authoring.de.md) unter "Meine Einträge" zu finden ist und in weiteren Kursen eingebunden werden kann.
 

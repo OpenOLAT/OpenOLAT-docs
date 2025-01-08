@@ -280,7 +280,7 @@ Weitere Infos zu Badges finden Sie hier:
 
 * [Infos für Kursbesitzer:innen:](../learningresources/OpenBadges.de.md) Erstellen und Bearbeiten von Badges
 * [Infos für Benutzer:innen:](../personal_menu/OpenBadges.de.md) Badges bei den "Persönlichen Werkzeugen: 
-* [Infos für OpenOlat Administrator:innen](../../../manual_admin/docs/administration/e-Assessment_openBadges.de.md)
+* [Infos für OpenOlat Administrator:innen](../../manual_admin/administration/e-Assessment_openBadges.de.md)
 
 
 

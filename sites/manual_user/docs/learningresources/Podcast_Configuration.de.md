@@ -35,11 +35,11 @@ Externe Podcast enthalten in der Regel bereits konkrete Inhalte (Episoden). Im K
 
 ### Benutzerberechtigungen
 
-Im Tab "Podcast-Lerninhalt können sie auch definieren wer einen Podcast moderieren und wer Beiträge erstellen darf. Auf diesen Weg können auch Teilnehmende das Recht erhalten Audio- und Video-Podcasts in OpenOlat hochzuladen. Besitzer verfügen standardmässig über diese Rechte. 
+Im Tab "Podcast-Lerninhalt" können sie auch definieren wer einen Podcast moderieren und wer Beiträge erstellen darf. Auf diesen Weg können auch Teilnehmende das Recht erhalten Audio- und Video-Podcasts in OpenOlat hochzuladen. Besitzer verfügen standardmässig über diese Rechte. 
 
 Das Moderationsrecht beinhaltet, dass die Personen den Podcast bearbeiten und alle Episoden und Kommentare löschen dürfen. Zudem können Moderatoren auch den Titel und die Beschreibung des ganzen Feeds anpassen. 
 
-Das Recht Beiträge zu erstellen bedeutet, dass die definierten Rollen bzw. Personen Audios und Videos in den Kursbaustein hochladen und mit Beschreibungen versehen  dürfen. 
+Das Recht Beiträge zu erstellen bedeutet, dass die definierten Rollen bzw. Personen Audios und Videos in den Kursbaustein hochladen und mit Beschreibungen versehen dürfen. 
 
 Mit Hilfe der erweiterten Konfiguration der Berechtigungen können die Einstellungen noch differenzierter vorgenommen werden und beispielsweise bestimmten Rollen, Gruppen oder auch einzelnen Personen die Berechtigung zum erstellen der Podcasts oder das Moderationsrecht erteilt werden. 
 

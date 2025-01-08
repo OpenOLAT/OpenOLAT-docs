@@ -157,8 +157,7 @@ anzeigen lassen oder den Podcast abonnieren, die Episoden in Portale wie
 iTunes laden und auf ihre mobilen Endgeräte kopieren.
 
 Wie Sie einen Podcast [erstellen ](../resource_podcast/Four_Steps_to_Your_Podcast.de.md)und
-[konfigurieren ](../learningresources/Podcast_Further_Configurations.de.md)erfahren Sie in
-separaten Kapiteln.
+[konfigurieren ](../learningresources/Podcast_Configuration.de.md)erfahren Sie in separaten Kapiteln.
 
 ## Kursbaustein "Blog" {: #blog}
 ![icon blog](assets/blog.png)
@@ -174,7 +173,7 @@ Ferner ist es möglich, den Kursteilnehmenden das Schreibrecht für einen Blog
 zu geben, so dass sie gemeinsam einen Kursblog führen können.
 
 Wie Sie einen Blog [erstellen ](../resource_blog/Four_Steps_to_Your_Blog.de.md)und
-[konfigurieren ](../learningresources/Blog_Further_Configurations.de.md)erfahren Sie auf
+[konfigurieren ](../learningresources/Blog_Configuration.de.md)erfahren Sie auf
 separaten Seiten.
 
 ## Kursbaustein "Video" {: #video}

@@ -70,7 +70,7 @@ To enable Zoom meetings in OpenOlat, Zoom must be activated and configured in th
 Here LTI 1.3 can be activated and configured in more detail e.g. external LTI
 platforms and tools can be connected.
 
-[Further details >](LTI_Integrations.de.md)
+[Further details >](LTI_Integrations.md)
 
 
 

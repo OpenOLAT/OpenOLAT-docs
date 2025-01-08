@@ -35,7 +35,7 @@ Click on the "Add server" button in the Configuration tab to open a pop-up for t
   *  **Manual selection only**: Only manually selected servers are available for load balancing
   *  **Button "Test server connection"**: A very practical help to check access to the server specified here.
 
-![](assets/add-server.png){ class="shadow lightbox" }
+![](../administration/assets/bbb_admin_add_server_v1_en.png){ class="shadow lightbox" }
 
 ---
 
