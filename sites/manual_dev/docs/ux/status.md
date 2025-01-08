@@ -64,7 +64,7 @@ Ampel logic: No dangers or safety concerns
 | Catalog    | Offer period          | :fontawesome-solid-hourglass-half: | Ongoing     | 1.                   |
 | Curriculum | Curriculum element    | :fontawesome-solid-check:          | Confirmed   | 4.                   |
 | Curriculum | Curriculum element    | :fontawesome-solid-check:          | Active      | 1.                   |
-| Curriculum | Membership            | :fontawesome-solid-check:          | Active      | 1.                   |
+| Curriculum | Membership            | :fontawesome-solid-circle-check:   | Active      | 1.                   |
 
 ### Warning
 
@@ -90,7 +90,7 @@ Ampel logic: Attention required
 | Course     | Assessment inspection | :fontawesome-solid-user-slash:           | No-show          | -                    |
 | Catalog    |                       | :fontawesome-solid-triangle-exclamation: | Fully booked     | 2.                   |
 | Curriculum | Curriculum element    | :fontawesome-solid-hourglass-half:       | Provisional      | 4.                   |
-| Curriculum | Membership            | :fontawesome-solid-hourglass-half:       | Reserved         | 4.                   |
+| Curriculum | Membership            | :fontawesome-solid-hourglass-half:       | Pending          | 4.                   |
 
 ### Critical
 
@@ -171,8 +171,8 @@ Ampel logic: Inactive or not relevant
 | Catalog    | Offer period          | :fontawesome-solid-ban:          | Ended              | 2./3.                |
 | Curriculum | Curriculum element    | :fontawesome-solid-circle-xmark: | Cancelled          | 2./3.                |
 | Curriculum | Membership            | :fontawesome-solid-circle-xmark: | Cancelled          | 2./3.                |
-| Curriculum | Membership            | :fontawesome-solid-sack-xmark:   | Cancelled with fee | 2./3.                |
-| Curriculum | Membership            | :fontawesome-solid-circle-minus: | Removed            | 2./3.                |
+| Curriculum | Membership            | :fontawesome-solid-circle-xmark: | Cancelled with fee | 2./3.                |
+| Curriculum | Membership            | :fontawesome-solid-circle-xmark: | Removed            | 2./3.                |
 
 
 ## By object
