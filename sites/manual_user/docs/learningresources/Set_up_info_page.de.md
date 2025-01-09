@@ -12,7 +12,7 @@ sind hierfür relevant. Je ausführlicher Sie die Lernressource beschreiben,
 umso einfacher kann diese gefunden und desto besser sind Interessierte und
 spätere Teilnehmer informiert.
 
-![Kursadministration Einstellungen](assets/Einstellungen15.png)
+![Kursadministration Einstellungen](assets/course_setting_tabs_DE.png)
 
 Der Screenshot zeig die "Einstellungen" eines Kurses. Je nach Lernressource
 steht nur ein Teil der Tabs zur Verfügung.
@@ -114,6 +114,10 @@ Durchführungszeitraum festgelegt werden. Folgende Optionen sind möglich:
 * _Ohne_: Wählen Sie diese Option, wenn der Kurs nicht zu einem bestimmten Daten beginnt und aufhört oder Sie den Termin nicht explizit in den Informationen einbauen möchten.
 
 * _Mit Beginn- und Enddatum_: Der Kursbesitzer kann hier das Start- und Enddatum des Kurses eintragen. Dabei ist beim Enddatum der Endtag miteingeschlossen (23:59). Das Datum erscheint anschließend als Information in der Kursübersicht. Das eingetragene Datum ist jedoch unabhängig vom Kursstatus und den Kurszugangsrechten (siehe Kapitel ["Zugangskonfiguration"](../learningresources/Access_configuration.de.md)). Es hat also keine Auswirkung auf die Sichtbarkeit und den Zugang für die Kursmitglieder.
+
+!!! note "Hinweis"
+
+    Beim Einsatz des automatischen Lebenszyklus wird der Kursstatus durch das Enddatum gesteuert.
 
 * _Semester_: Wenn auf Systemebene vom OpenOlat Administrator Semesterdaten konfiguriert wurden, kann hier eine der angezeigten Semester Optionen ausgewählt werden. Das Semester erscheint anschließend als Information in der Kursübersicht. Das Semester ist jedoch unabhängig vom Kursstatus und den Kurszugangsrechten (siehe Kapitel ["Zugangskonfiguration"](../learningresources/Access_configuration.de.md)). Es hat also keine Auswirkung auf die Sichtbarkeit und den Zugang für die Kursmitglieder.
 
