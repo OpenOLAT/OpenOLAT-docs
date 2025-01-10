@@ -26,6 +26,7 @@ Die Badge Infoseite kann über den aufgeführten öffentlichen Link geteilt werd
 
 [Badges im Bewertungswerkzeug](../learningresources/OpenBadges.de.md)<br>
 [Badges in der eAssessment-Administration](../../manual_admin/administration/e-Assessment_openBadges.de.md)<br>
+[Wie vergebe ich in meinem Kurs Badges? >](../../manual_how-to/badges/badges.de.md)<br>
 [Leistungsnachweise in Kursen](../learningresources/Course_Settings_Assessment.de.md#leistungsnachweis)<br>
 [Zertifikate](../learningresources/Course_Settings_Assessment.de.md#kurs-zertifikat)<br>
 

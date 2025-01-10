@@ -9,6 +9,7 @@
 1. [Wie erstelle ich meinen ersten OpenOlat-Kurs?](/de/manual_how-to/my_first_course/my_first_course)
 2. [Wie verwende ich den Kursbaustein "Auswahl"?](/de/manual_how-to/course_element_selection/course_element_selection)
 3. [Wie erstelle ich kursinterne Verzweigungen? (Branching)](/de/manual_how-to/branching/branching)
+4. [Wie vergebe ich in meinem Kurs Badges?](/de/manual_how-to/badges/badges)
 
 ## Lernressourcen erstellen
 

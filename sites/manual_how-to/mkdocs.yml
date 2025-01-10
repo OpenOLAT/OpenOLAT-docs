@@ -10,6 +10,7 @@ nav:
     - My first course: "my_first_course/my_first_course.md"
     - How do I use course element "selection"?: "course_element_selection/course_element_selection.md"
     - How do I create course-internal branches?: "branching/branching.md"
+    - How do I award badges in my course?: "badges/badges.md" 
   - Create Learning Resources:
     - Create a blog: "blog/blog.md"
     - Create a Content Package: "content_package/content_package.md"

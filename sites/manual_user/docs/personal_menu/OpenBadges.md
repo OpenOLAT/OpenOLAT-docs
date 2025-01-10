@@ -25,5 +25,6 @@ The badge info page can be shared via the listed public link and integrated into
 
 [Badges in the assessment tool](../learningresources/OpenBadges.md)<br>
 [Badges in the e-Assessment Administration](../../manual_admin/administration/e-Assessment_openBadges.md)<br>
+[How do I award badges in my course? >](../../manual_how-to/badges/badges.md)<br>
 [Evidences of achievement in courses](../learningresources/Course_Settings_Assessment.md#evidences-of-achievement)<br>
 [Certificates](../learningresources/Course_Settings_Assessment.md#course-certificate)<br>

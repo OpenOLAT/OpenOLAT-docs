@@ -9,6 +9,7 @@
 1. [How to create my first course](/manual_how-to/my_first_course/my_first_course)
 2. [How do I use course element "selection"?](/manual_how-to/course_element_selection/course_element_selection)
 3. [How do I create course-internal branches?](/manual_how-to/branching/branching)
+4. [How do I award badges in my course?](/manual_how-to/badges/badges)
 
 ## Create Learning Resources
 
