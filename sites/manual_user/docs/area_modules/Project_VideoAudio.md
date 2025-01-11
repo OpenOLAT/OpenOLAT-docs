@@ -8,9 +8,9 @@ The direct recording option for audio and video is gradually being expanded.
 
 ## Upload
 
-Within projects, video and audio files can be uploaded under **"Files"** and then linked in all other areas. The upload is also available in quick access.
+Within projects, video and audio files can be uploaded under "[Files](../area_modules/Project_Files.md)" and then linked in all other areas. The upload is also available in quick access.
 
-![project_quick_access_file_upload_v1_de.png](assets/project_quick_access_file_upload_v1_de.png){ class="shadow lightbox" }
+![audio or video upload](assets/project_quick_access_file_upload_v1_de.png){ class="shadow lightbox" }
 
 
 ## Recording
@@ -19,31 +19,41 @@ In the **Files** section of an OpenOlat project, in addition to the button for u
 
 Newly recorded videos are saved as mp4 files, audio as m4a files.
 
-![project_video_audio_recording_v1_de.png](assets/project_video_audio_recording_v1_de.png){ class="shadow lightbox" }
+![Audio oder Video aufnehmen](assets/Projekt_Audio_aunehmen.jpg){ class="shadow lightbox" }
 
 
 ## Linking
 
-You can add links to all objects within a project (Schedule, To-dos, Decisions,Notes, Files). If no video or audio can be recorded directly, this is the way to integrate videos and audios:
+You can add project-internal links to all objects within a project (Schedule, To-dos, Decisions,Notes, Files). You can also create links to videos in this way.
 
-* Record the video or audio elsewhere.
-* Upload the file in the project under **Files**.
-* Link the video or audio file to any object.
+### Link object
+Select this option if your video is already in the Files area of the project. You can select the desired file directly from the list. 
 
 ![project_video_audio_link_termin_v1_de.png](assets/project_video_audio_link_termin_v1_de.png){ class="shadow lightbox" }
+
+### Add link 
+
+Hier können Sie über "Datei hochladen" Ihre Video Datei hochladen. Sie wird dann im Bereich "Dateien" des Projektes abgelegt und mit dem Objekt passend verlinkt. 
+
+!!! warning "Achtung"
+
+    Mit Verlinkung ist hier nicht ein Link zu einer extern im Internet vorliegenden Video-Datei z.B. in YouTube gemeint. Derartige Links können z.B. über eine HTML-Seite mit entsprechenden Links hergestellt werden. 
 
 
 ## Download
 
-In particular, you will probably sometimes want to download video and audio files that you have recorded directly in OpenOlat. You can also download the video and audio files in projects under **Files**.
+In particular, you will probably sometimes want to download video and audio files that you have recorded directly in OpenOlat. As all project-related videos that you have uploaded or created in Olat are stored in the “Files” area, you can also download or delete them there. 
 
-![project_video_audio_download_file_v1_de.png](assets/project_video_audio_download_file_v1_de.png){ class="shadow lightbox" }
+![Einzelne Video Datei herunterladen](assets/Projekt_Video_herunterladen1.jpg){ class="shadow lightbox" }
 
+Um mehrere Dateien auf einmal herunterzuladen verwenden Sie am besten sie Tabellenansicht. Hier können Sie auf einen Schlag mehrere Dateien herunterladen oder löschen. 
 
 If you want to download all files at once, use the button with the 3 dots at the top right. The zip file created in this way also contains the video and audio files.
 
-![project_video_audio_download_all_v1_de.png](assets/project_video_audio_download_all_v1_de.png){ class="shadow lightbox" }
+![Alle Dateien des Projektes herunterladen](assets/Alle_dateien_herunterladen_Projekt1.jpg){ class="shadow lightbox" }
 
 ## Video/Audio in Reports
 
 When creating reports (e.g. also for archiving a project), all files can also be downloaded. The video and audio files are also included.
+
+![Projekte Reports](assets/Projekte_Report_herunterladen.jpg){ class="shadow lightbox" }
