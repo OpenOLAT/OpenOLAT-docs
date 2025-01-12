@@ -1,25 +1,27 @@
 # Projects - Administration
 
-## Copy Projects
+Um zur Projekt Administration Ihres Projektes zu gelangen öffnen Sie das gewünschte Projekt und klicken rechts oben auf die 3 Punkte. Im aufgeklappten Menü erscheinen mehrere administrative Möglichkeiten. 
 
-Open the desired project and select the “Edit project” option at the top right under the 3 dots.
+Zur Administration eines Projektes gehören
+
+* die Konfiguration und Darstellung der Startseite (Projekt bearbeiten) 
+* die [Verwaltung der Mitglieder](../area_modules/Project_Member_Management.md) des Projektes
+* die Möglichkeit [Reports](../area_modules/Project_Report.md) herunterzuladen
+* Projekte zu kopieren
+* Projekte als Vorlage zu speichern
+* Projekte zu beenden und abzuschliessen
+* Projekte zu löschen
+
+## Edit project
+
 This editing does not refer to editing the content (entering appointments, creating to-dos, etc.), but to **editing the start page** of the project.
 
 ![projekte_admin_projekt_bearbeiten_v2_de.png](assets/projekte_admin_projekt_bearbeiten_v2_de.png){ class="shadow lightbox" }
 
 ![projekte_admin_projekt_bearbeiten_popup_v1_de.png](assets/projekte_admin_projekt_bearbeiten_popup_v1_de.png){ class="shadow lightbox" }
 
-## Member management
-
-See [Project Member Management](../area_modules/Project_Member_Management.md)
-
-## Download report
-
-See [Project report](../area_modules/Project_Report.md)
 
 ## Copy projects
-
-This editing does not refer to editing the content (entering appointments, creating to-dos, etc.), but to **editing the start page** of the project.
 
 ![projekte_admin_projekt_kopieren_v2_de.png](assets/projekte_admin_projekt_kopieren_v2_de.png){ class="shadow lightbox" }
 
@@ -43,21 +45,24 @@ The following will **partially** be copied:
 
 It simplifies the creation of a new project if a template can be used.
 
-A new, empty template can be created in the "Project templates" tab.
-
-It can be specified whether the template should only be available for own use or for all members of the organizational unit.
-
-![projekte_admin_leere_vorlage_v1_de.png](assets/projekte_admin_leere_vorlage_v1_de.png){ class="shadow lightbox" }
-
-To create a template, an already created project can also be saved as a template. It usually makes sense to create a "neutral" project that specifies the desired process structure.
+A created project can be saved as a template. To do this, select the “Save as template” option in the 3-dot menu. 
 
 ![projekte_admin_als_vorlage_speichern_v2_de.png](../area_modules/assets/projekte_admin_als_vorlage_speichern_v3_de.png){ class="shadow lightbox" }
 
-## Finalize Projects
+A menu appears. Here you can specify, among other things, whether the template should only be available for your own use or for all members of the organizational unit.
 
-If a project is completed, all project members subsequently have read-only access.
+You can also create a blank template in the Project Templates tab, which is often a more useful option. 
 
-A project can only be completed by
+![projekte_admin_leere_vorlage_v1_de.png](assets/projekte_admin_leere_vorlage_v1_de.png){ class="shadow lightbox" }
+
+
+## Close and finalize Projects
+
+![projekte_admin_abschliessen_v1_de.png](../area_modules/assets/projekt_abschliessen_v1_de.png){ class="shadow lightbox" }
+
+If a project is closed, all project members subsequently have read-only access.
+
+A project can only be closed by
 
 * Project owners,
 * Project leaders,
@@ -69,19 +74,17 @@ A project can only be completed by
 
     Through these people, a project can also be reactivated.
 
-![projekte_admin_abschliessen_v1_de.png](../area_modules/assets/projekt_abschliessen_v1_de.png){ class="shadow lightbox" }
 
 
+## Delete Project
 
-## Delete Projects
+![projekte_admin_loeschen_v1_de.png](../area_modules/assets/projekte_admin_loeschen_v2_de.png){ class="shadow lightbox" }
 
 Projects can only be deleted by
 
 * the project owners,
 * Administrators,
 * and project managers.
-
-![projekte_admin_loeschen_v1_de.png](../area_modules/assets/projekte_admin_loeschen_v2_de.png){ class="shadow lightbox" }
 
 !!! Note "Note"
 
@@ -90,7 +93,7 @@ Projects can only be deleted by
 
 ## Tab Project administration 
 
-Administrators and project managers have another tab "Administration" under the menu item "Projects".
+OpenOlat Administrators and project managers have another tab "Administration" under the menu item "Projects".
 
 ![projekte_admin_admin_v1_de.png](assets/projekte_admin_admin_v1_de.png){ class="shadow lightbox" }
 
