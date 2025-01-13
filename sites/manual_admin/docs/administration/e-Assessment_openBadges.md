@@ -58,3 +58,11 @@ For course participants, acquired badges are listed in the personal menu. You ca
 
 
 
+---
+
+## Further information  {: #further_information}
+
+[Badges in Assessment tool >](../../manual_user/learningresources/OpenBadges.md)<br>
+[How do I award badges in my course? >](../../manual_how-to/badges/badges.md)<br>
+
+

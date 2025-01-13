@@ -1,12 +1,26 @@
-# Badges
+# Badges {: #badges}
 
-Open Badges is a system of digital certificates or learning badges that they can use to award individual progress.
+## Was ist ein Badge? {: #what_is_a_badge}
 
-## Badge tool
+Open Badges is a system of digital certificates or **learning badges** that they can use to award individual progress.<br>
+Ein Badge ist ein Online-Beweis für ein erreichtes Ziel. Er besteht aus
+* einem Bild (svg oder png)
+* Metainformation (Beschreibung des erreichten Ziels, Gültigkeitsdauer des Badges, Aussteller des Badges, Datum der Ausstellung, usw.)
+* einem Link
 
-Create Badges in the badge tool as rule based release or for manual release. 
+Der Unterschied zwischen einem Papier-Zertifikat und einem Online-Badge besteht darin, dass der Badge online über Links geteilt werden kann. So kann er z.B. in Lebenslauf, Portfolio mitgegeben werden.
+Ein Badge-Erwerber kann z.B. auch auf seinem LinkedIn-Profil die Badges einbinden.
 
-## Creating & editing a badge
+Im Unterschied zu einem formalen Zertifikat, ist die Idee des Badges eher spielerisch (Gamifikation, zur Auflockerung und Motivation, die Lerner:innen gewinnen etwas).
+
+---
+
+## Badge tool {: #badge_tool}
+
+Badges werden im Badge-Tool erstellt. Sie können manuell oder automatisch anhand definierter Regeln vergeben werden.
+
+
+## Creating & editing a badge {: #create}
 
 1. **Template**: First step is to select a template or upload your own image. Currently supported is SVG.
 ![Wizard Schritt 1](assets/badges-wizard-1.de.jpg)
@@ -25,7 +39,16 @@ Create Badges in the badge tool as rule based release or for manual release.
    
 6. **Earners**: Displays the Earners in a table to see, which participant already qualifies for the criteria you choose.
 
-## Assess Badges in Assessment tool
+---
+
+## Award Badges in Assessment tool {: #award_a_badge}
 
 Badges can be manually awarded in the assessment tool via Bulk action.
+
+---
+
+## Further information  {: #further_information}
+
+[How do I award badges in my course? >](../../manual_how-to/badges/badges.md)<br>
+[OpenBadges administration >](../../manual_admin/administration/e-Assessment_openBadges.md)<br>
 

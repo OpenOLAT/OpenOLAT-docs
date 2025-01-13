@@ -56,3 +56,12 @@ Wurden Badges aktiviert, ist nach dem nächsten Login in der **Kursadministratio
 Im **Bewertungswerkzeug** können die automatisch vergebenen Badges dann eingesehen oder auch manuell vergeben werden.
 
 Für Kursteilnehmer:innen sind erworbene Badges im Persönlichen Menü aufgelistet. [Hier](../../manual_user/personal_menu/OpenBadges.de.md) mehr dazu.
+
+
+---
+
+## Weiterführende Informationen  {: #further_information}
+
+[Badges im Bewertungswerkzeug >](../../manual_user/learningresources/OpenBadges.de.md)<br>
+[Wie vergebe ich in meinem Kurs Badges? >](../../manual_how-to/badges/badges.de.md)<br>
+

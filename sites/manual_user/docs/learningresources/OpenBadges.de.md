@@ -1,12 +1,28 @@
-# Badges
+# Badges {: #badges}
 
-Open Badges ist ein System digitaler Zertifikate oder Lernabzeichen, mit dem sie individuelle Fortschritte auszeichnen können.
+## Was ist ein Badge? {: #what_is_a_badge}
 
-## Badge-Tool
+Open Badges ist ein System digitaler Zertifikate oder **Lernabzeichen**, mit dem Sie individuelle Fortschritte auszeichnen können.<br>
+Ein Badge ist ein Online-Beweis für ein erreichtes Ziel. Er besteht aus
 
-Erstellen Sie Badges im Badge-Tool als regelbasierte Freigabe oder zur manuellen Freigabe. 
+* einem Bild (svg oder png)
+* Metainformation (Beschreibung des erreichten Ziels, Gültigkeitsdauer des Badges, Aussteller des Badges, Datum der Ausstellung, usw.)
+* einem Link
 
-## Erstellen und Bearbeiten eines Badges
+Der Unterschied zwischen einem Papier-Zertifikat und einem Online-Badge besteht darin, dass der Badge online über Links geteilt werden kann. So kann er z.B. in Lebenslauf, Portfolio mitgegeben werden.
+Ein Badge-Erwerber kann z.B. auch auf seinem LinkedIn-Profil die Badges einbinden.
+
+Im Unterschied zu einem formalen Zertifikat, ist die Idee des Badges eher spielerisch (Gamifikation, zur Auflockerung und Motivation, die Lerner:innen gewinnen etwas).
+
+---
+
+
+## Badge-Tool {: #badge_tool}
+
+Badges werden im Badge-Tool erstellt. Sie können manuell oder automatisch anhand definierter Regeln vergeben werden. 
+
+
+## Erstellen und Bearbeiten eines Badges {: #create}
 
 1. **Vorlage**: Der erste Schritt ist die Auswahl einer Vorlage oder das Hochladen eines eigenen Bildes. Derzeit wird SVG unterstützt.
 ![Wizard Schritt 1](assets/badges-wizard-1.de.jpg)
@@ -25,6 +41,16 @@ Erstellen Sie Badges im Badge-Tool als regelbasierte Freigabe oder zur manuellen
 
 6. **Earners**: Zeigt die Earners in einer Tabelle an, um zu sehen, welcher Teilnehmer sich bereits für die von Ihnen gewählten Kriterien qualifiziert.
 
-## Badges im Bewertungstool bewerten
+---
+
+## Badges im Bewertungstool vergeben {: #award_a_badge}
 
 Badges können im Bewertungstool manuell über eine Massenaktion vergeben werden.
+
+---
+
+## Weiterführende Informationen  {: #further_information}
+
+[Wie vergebe ich in meinem Kurs Badges? >](../../manual_how-to/badges/badges.de.md)<br>
+[OpenBadges Administration >](../../manual_admin/administration/e-Assessment_openBadges.de.md)<br>
+
