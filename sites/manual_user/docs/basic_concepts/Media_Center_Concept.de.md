@@ -146,7 +146,7 @@ Der im Media Center verfügbare Speicherplatz kann vom OpenOlat Administrator ei
 
 ![media_center_quota_v1_de.png](assets/media_center_quota_v1_de.png){ class=" shadow lightbox" }
 
-In der Regel haben Autor:innen einen höheren Speicherplatzbedarf, daher werden die Quota-Einstellungen separat für diese Poweruser vorgenommen. Wenden Sie sich bei Fragen zum Speicherbedarf an Ihre Administrator:innen.
+In der Regel haben Autor:innen einen höheren Speicherplatzbedarf, daher werden die Quota-Einstellungen separat für diese Poweruser vorgenommen. Wenden Sie sich bei Fragen zum Speicherbedarf an Ihre Administrator:innen oder Benutzerverwalter:innen.
 
 ## Medien verwenden
 

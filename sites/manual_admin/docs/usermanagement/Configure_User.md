@@ -134,7 +134,7 @@ In this tab, relations between the selected user and other OpenOlat users can be
 
 ### Quota
 
-An individual quota can be set up here, e.g. to give a person with special tasks more upload options.
+An individual quota can be set up here, e.g. to give a person with special tasks more upload options. For example, the quota in the Media Centre can be increased for authors who need to include a particularly large number of videos in their courses.
 
 [To the top of the page ^](#user_configuration)
   

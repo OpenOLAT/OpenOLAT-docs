@@ -136,7 +136,7 @@ In diesem Reiter können Beziehungen zwischen dem/der gewählten User:in und wei
 
 ### Quota
 
-Hier kann eine individuelle Quota eingerichtet werden, um z.B. einer Person mit besonderen Aufgaben mehr Upload-Möglichkeit zu geben.
+Hier kann eine individuelle Quota eingerichtet werden, um z.B. einer Person mit besonderen Aufgaben mehr Upload-Möglichkeit zu geben. Z.B. kann für Autor:innen, die besonders viele Videos in ihre Kurse einbinden müssen, die Quota im Media Center erhöht werden.
 
 [zum Seitenanfang ^](#user_configuration)
 

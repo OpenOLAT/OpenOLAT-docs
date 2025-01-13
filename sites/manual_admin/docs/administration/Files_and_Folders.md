@@ -85,6 +85,7 @@ Specific Quotas | Scope
 /course/10103238456/coursefolder | Course element "Folder" in a specific course
 /cts/folders/BusinessGroup/4141565 | Folder in a specific group
 /homes/mmusterfrau | Personal folder of the user M. Musterfrau
+/HomeSite/ < id-of-the-user > /MediaCenter/0/My/0 | Adjustment of a personal quota in the Media Center
 
 [To the top the page ^](#files_and_folders)
 

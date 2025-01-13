@@ -81,11 +81,13 @@ Systemweite Quotas | Anwendungsbereich
 
 Es können individuelle Quotas ergänzt werden. Diese übersteuern den Standardwert und gelten beispielsweise nur für einen ganz bestimmten Kursordner oder den persönlichen Ordner eines ganz bestimmten Benutzers / einer bestimmten Benutzerin.
 
+
 Spezifische Quotas | Anwendungsbereich
 ---------|----------
 /course/101032323838456/coursefolder | Kursbaustein "Ordner" in einem bestimmten Kurs
 /cts/folders/BusinessGroup/414156565 | Ordner in einer bestimmten Gruppen
 /homes/mmusterfrau | Persönlicher Ordner von der Benutzerin M. Musterfrau
+/HomeSite/ < id-des-benutzers > /MediaCenter/0/My/0 | Anpassung einer persönlichen Quota im Media Center
 
 [zum Seitenanfang ^](#files_and_folders)
 

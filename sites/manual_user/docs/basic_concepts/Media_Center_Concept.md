@@ -146,7 +146,7 @@ The storage space available in the Media Center can be limited by the OpenOlat a
 
 ![media_center_quota_v1_de.png](assets/media_center_quota_v1_de.png){ class=" shadow lightbox" }
 
-Generally, authors have higher storage requirements, so the quota settings are made separately for these power users. If you have any questions about storage requirements, contact your administrator.
+Generally, authors have higher storage requirements, so the quota settings are made separately for these power users. If you have any questions about storage requirements, contact your administrator or user manager.
 
 ## Use media
 
