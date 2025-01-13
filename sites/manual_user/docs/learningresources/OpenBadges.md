@@ -4,7 +4,7 @@
 
 Open Badges is a system of digital certificates or **learning badges** that they can use to award individual progress.<br>
 Ein Badge ist ein Online-Beweis für ein erreichtes Ziel. Er besteht aus
-* einem Bild (svg oder png)
+* einem Bild (svg oder png), 
 * Metainformation (Beschreibung des erreichten Ziels, Gültigkeitsdauer des Badges, Aussteller des Badges, Datum der Ausstellung, usw.)
 * einem Link
 
@@ -12,6 +12,16 @@ Der Unterschied zwischen einem Papier-Zertifikat und einem Online-Badge besteht 
 Ein Badge-Erwerber kann z.B. auch auf seinem LinkedIn-Profil die Badges einbinden.
 
 Im Unterschied zu einem formalen Zertifikat, ist die Idee des Badges eher spielerisch (Gamifikation, zur Auflockerung und Motivation, die Lerner:innen gewinnen etwas).
+
+---
+
+## Wo können Badges erworben werden? {: #badge_categories}
+
+Es können grundsätzlich 3 Kategorien von Badges erworben werden:
+
+* **Badges für einen Kurs**<br> (für das Bestehen des Kurses, bzw. das Erfüllen der dort gestellten Bedingungen)
+* **Badges für einen bestimmten Kursbaustein**<br> (wie Kursbadges, mit einer Bedingung für einen bestimmten Kursbaustein)
+* und **globale Badges**<br> (kursübergreifend, können nur von Administrator:innen erstellt werden) 
 
 ---
 

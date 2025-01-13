@@ -6,6 +6,7 @@ Open Badges ist ein System digitaler Zertifikate oder **Lernabzeichen**, mit dem
 Ein Badge ist ein Online-Beweis für ein erreichtes Ziel. Er besteht aus
 
 * einem Bild (svg oder png)
+* (evtl. mit einem editierbaren Schlüsselbegriff auf dem Bild)
 * Metainformation (Beschreibung des erreichten Ziels, Gültigkeitsdauer des Badges, Aussteller des Badges, Datum der Ausstellung, usw.)
 * einem Link
 
@@ -14,17 +15,71 @@ Ein Badge-Erwerber kann z.B. auch auf seinem LinkedIn-Profil die Badges einbinde
 
 Im Unterschied zu einem formalen Zertifikat, ist die Idee des Badges eher spielerisch (Gamifikation, zur Auflockerung und Motivation, die Lerner:innen gewinnen etwas).
 
+
 ---
 
+## Wo können Badges erworben werden? {: #badge_categories}
+
+Es können grundsätzlich 3 Kategorien von Badges erworben werden:
+
+* **Badges für einen Kurs**<br> (für das Bestehen des Kurses, bzw. das Erfüllen der dort gestellten Bedingungen)
+* **Badges für einen bestimmten Kursbaustein**<br> (wie Kursbadges, mit einer Bedingung für einen bestimmten Kursbaustein)
+* und **globale Badges**<br> (kursübergreifend, können nur von Administrator:innen erstellt werden) 
+
+
+---
+
+## Wie werden Kurs-Badges vergeben? {: #award_a_course-badge}
+
+Sie können manuell oder automatisch anhand definierter Regeln vergeben werden.
+
+### Kurs-Badges manuell vergeben
+
+In jedem Kurs kann unter<br>
+**Administration > Einstellungen > Tab Bewertung > Abschnitt "Badges"**<br>
+eine manuelle Vergabe durch Kursbesitzer:innen und Betreuer:innen ermöglicht werden.
+
+### Kurs-Badges im Bewertungstool vergeben
+
+Badges können im Bewertungstool manuell auch über eine Massenaktion vergeben werden.
+
+### Kurs-Badges automatisch vergeben
+
+Während der Erstellung eines Badges mit dem Wizard können im Schritt "Vergabekriterien" Regeln für die automatische Vergabe eines Badges festgelegt werden.
+
+---
+
+## Wie werden globale Badges vergeben? {: #award_a_course-badge}
+
+Auch globale Badges können manuell oder automatisch anhand definierter Regeln vergeben werden.
+Sowohl manuelle Vergabe, wie auch die Definition der Regeln für eine automatische Vergabe globaler Badges können jedoch nur durch Administrator:innen [Administrator:innen](../../manual_admin/administration/e-Assessment_openBadges.de.md) erfolgen.
+
+### Globale Badges manuell vergeben
+
+Globale Badges können durch Administrator:innen manuell vergeben werden unter<br>
+**Administration > e-Assessment > OpenBadges > Tab "Globale Badges" > Button"Badge manuell vergeben"**.<br>
+
+### Globale Badges automatisch vergeben
+
+Administrator:innen können die Regeln für eine automatische Vergabe einrichten unter<br>
+**Administration > e-Assessment > OpenBadges > Tab "Globale Badges"**.<br>
+Wenn dort das Badge-Tool zur Erstellung eines globalen Badges aufgerufen wird, können im Wizard die Regeln angegeben werden. 
+
+---
 
 ## Badge-Tool {: #badge_tool}
 
-Badges werden im Badge-Tool erstellt. Sie können manuell oder automatisch anhand definierter Regeln vergeben werden. 
+Badges werden im Badge-Tool erstellt. Ein Wizard führt durch die Erstellung.<br> Das Tool wird (mit kleinen Unterschieden) sowohl für die **Kurs-Badges** als auch für die **globalen Badges** verwendet.
+
+Eine Schritt-für-Schritt-Anleitung für **Kurs-Badges** finden Sie [hier](../../manual_how-to/badges/badges.de.md).
+
+Die Möglichkeit zur Erstellung von **globalen Badges** finden Sie [hier](../../manual_admin/administration/e-Assessment_openBadges.de.md) beschrieben.
+
 
 
 ## Erstellen und Bearbeiten eines Badges {: #create}
 
-1. **Vorlage**: Der erste Schritt ist die Auswahl einer Vorlage oder das Hochladen eines eigenen Bildes. Derzeit wird SVG unterstützt.
+1. **Vorlage**: Der erste Schritt ist die Auswahl einer Vorlage oder das Hochladen eines eigenen Bildes. Derzeit wird SVG und PNG unterstützt.
 ![Wizard Schritt 1](assets/badges-wizard-1.de.jpg)
 
 2. **Anpassung**: Wenn die Vorlage unter Berücksichtigung von Variablen erstellt wurde, können Sie Farben und Text in einer Vorlage ändern.
@@ -43,11 +98,7 @@ Badges werden im Badge-Tool erstellt. Sie können manuell oder automatisch anhan
 
 ---
 
-## Badges im Bewertungstool vergeben {: #award_a_badge}
 
-Badges können im Bewertungstool manuell über eine Massenaktion vergeben werden.
-
----
 
 ## Weiterführende Informationen  {: #further_information}
 

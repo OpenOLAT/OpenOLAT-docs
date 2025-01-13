@@ -24,9 +24,10 @@
 
 ## Welche Badges kann ich vergeben? {: #description}
 
-Es können grundsätzlich 2 Kategorien von Badges vergeben werden:
+Es können grundsätzlich 3 Kategorien von Badges vergeben werden:
 
-* **Badges im Kurs**<br> (für das Bestehen des Kurses, bzw. das Erfüllen der dort gestellten Bedingungen)
+* **Badges für einen Kurs**<br> (für das Bestehen des Kurses, bzw. das Erfüllen der dort gestellten Bedingungen)
+* **Badges für einen bestimmten Kursbaustein**<br> (wie Kursbadges, mit einer Bedingung für einen bestimmten Kursbaustein)
 * und **globale Badges**<br> (kursübergreifend, können nur von Administrator:innen erstellt werden) 
 
 
