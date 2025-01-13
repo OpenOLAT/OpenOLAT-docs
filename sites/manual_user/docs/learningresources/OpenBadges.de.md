@@ -27,6 +27,8 @@ Es können grundsätzlich 3 Kategorien von Badges erworben werden:
 * und **globale Badges**<br> (kursübergreifend, können nur von Administrator:innen erstellt werden) 
 
 
+[Zum Seitenanfang ^](#badges)
+
 ---
 
 ## Wie werden Kurs-Badges vergeben? {: #award_a_course-badge}
@@ -47,6 +49,8 @@ Badges können im Bewertungstool manuell auch über eine Massenaktion vergeben w
 
 Während der Erstellung eines Badges mit dem Wizard können im Schritt "Vergabekriterien" Regeln für die automatische Vergabe eines Badges festgelegt werden.
 
+[Zum Seitenanfang ^](#badges)
+
 ---
 
 ## Wie werden globale Badges vergeben? {: #award_a_course-badge}
@@ -65,6 +69,8 @@ Administrator:innen können die Regeln für eine automatische Vergabe einrichten
 **Administration > e-Assessment > OpenBadges > Tab "Globale Badges"**.<br>
 Wenn dort das Badge-Tool zur Erstellung eines globalen Badges aufgerufen wird, können im Wizard die Regeln angegeben werden. 
 
+[Zum Seitenanfang ^](#badges)
+
 ---
 
 ## Badge-Tool {: #badge_tool}
@@ -76,6 +82,9 @@ Eine Schritt-für-Schritt-Anleitung für **Kurs-Badges** finden Sie [hier](../..
 Die Möglichkeit zur Erstellung von **globalen Badges** finden Sie [hier](../../manual_admin/administration/e-Assessment_openBadges.de.md) beschrieben.
 
 
+[Zum Seitenanfang ^](#badges)
+
+---
 
 ## Erstellen und Bearbeiten eines Badges {: #create}
 
@@ -96,12 +105,25 @@ Die Möglichkeit zur Erstellung von **globalen Badges** finden Sie [hier](../../
 
 6. **Earners**: Zeigt die Earners in einer Tabelle an, um zu sehen, welcher Teilnehmer sich bereits für die von Ihnen gewählten Kriterien qualifiziert.
 
+[Zum Seitenanfang ^](#badges)
+
 ---
 
+## Ansicht vergebener Kurs-Badges {: #assigned_badges}
 
+Die Vergabe von **Kurs-Badges** wird durch Kursbesitzer:innen in jedem Kurs unter<br>
+**Einstellungen > Tab Bewertung > Abschnitt Badges** <br>
+ermöglicht. Das Recht zur manuellen Vergabe kann hier auch Betreuer:innen gegeben werden.
+
+Wurden Badges aktiviert, ist nach dem nächsten Login in der **Kursadministration** die Option **Badges** vorhanden. Hier können die Vergaberegeln der Badges für den Kurs eingerichtet werden.
+
+
+[Zum Seitenanfang ^](#badges)
+
+---
 
 ## Weiterführende Informationen  {: #further_information}
 
 [Wie vergebe ich in meinem Kurs Badges? >](../../manual_how-to/badges/badges.de.md)<br>
 [OpenBadges Administration >](../../manual_admin/administration/e-Assessment_openBadges.de.md)<br>
-
+[Der OpenBadges-Standard](https://www.imsglobal.org/activity/openbadges)<br>

@@ -1,13 +1,20 @@
-# OpenBadges
+# OpenBadges {: #badges}
 
 OpenBadges sind nach dem OpenBadges-Standard implementiert und voll kompatibel mit diesem.
-Weitere Informationen finden Sie [hier](https://www.imsglobal.org/activity/openbadges).
+Weitere Informationen zum Standard finden Sie [hier](https://www.imsglobal.org/activity/openbadges).
 
-## Konfiguration
+## Tab "Konfiguration"
 
-* Schalten Sie Badges für die gesamte Instanz Ihres OpenOlat ein/aus.
+* Hier schalten Sie Badges für die gesamte Instanz Ihres OpenOlat ein/aus.
+* Ausserdem können Organisation, die Badges verwenden, hier hinzugefügt werden.
 
-## Vorlagen
+![badges_global_config_v1_de.png](assets/badges_global_config_v1_de.png){ class="shadow lightbox" }
+
+[Zum Seitenanfang ^](#badges)
+
+---
+
+## Tab "Vorlagen"
 
 Es ist ein Standardset von Vorlagen bereits auf der OpenOlat Instanz instanziert. Weitere Vorlagen können  erstellt werden, indem  Bild, Name und eine Beschreibung der Vorlage spezifiziert wird.
 
@@ -15,7 +22,7 @@ Es ist ein Standardset von Vorlagen bereits auf der OpenOlat Instanz instanziert
 
 ### Name
 
-Ist der Anzeigename der Vorlage und wird im Wizard angezeigt.
+Der Name der Vorlage wird im Wizard angezeigt.
 
 ### Kategorien
 
@@ -23,15 +30,22 @@ Hier kann man die Vorlagen nach Kategorien einteilen. Badge-Vorlagen mit gleiche
 
 ### Anwendungsbereich
 
-Der Anwendungsbereich legt fest, ob ein Badge Global (für das Ausstellen auf Instanzebene) oder für Kurse verfügbar sein soll.
+Der Anwendungsbereich legt fest, ob ein Badge global (für das Ausstellen auf Instanzebene) oder für Kurse verfügbar sein soll.
 
-## Globale Badges
+[Zum Seitenanfang ^](#badges)
 
-Globale Badges können hier eingesehen werden. Der Status (aktiv / in Vorbereitung) und ob sie bereits vergeben wurden. Sie können auch bearbeitet und gelöscht werden. Global Badges sind nicht an einen Kurs gebunden und können manuell vergeben werden.
+---
 
-![Global Badges](assets/badges-admin-global.de.jpg)
+## Tab "Globale Badges"
 
-## Erstellen und Bearbeiten eines Badges
+Globale Badges können hier eingesehen werden, ebenso ihr Status (aktiv / in Vorbereitung) und ob sie bereits vergeben wurden. Sie können auch bearbeitet und gelöscht werden. Globale Badges sind nicht an einen Kurs gebunden.
+
+![Global Badges](assets/badges-admin-global.de.jpg){ class="shadow lightbox" }
+
+
+### Erstellen und Bearbeiten eines globalen Badges
+
+Im Tab "Globale Badges" befindet sich auch der Button "Globalen Badge hinzufügen". Er startet das Badge-Tool (Wizard) mit den folgenden Schritten:
 
 1. **Vorlage**: Der erste Schritt ist die Auswahl einer Vorlage oder das Hochladen eines eigenen Bildes. Derzeit wird SVG unterstützt.
 ![Wizard Schritt 1](assets/badges-wizard-1.de.jpg)
@@ -45,18 +59,37 @@ Globale Badges können hier eingesehen werden. Der Status (aktiv / in Vorbereitu
 ![Wizard Schritt 5](assets/badges-wizard-5.de.jpg)
 6. **Earners**: Zeigt die Earners in einer Tabelle an, um zu sehen, welcher Teilnehmer sich bereits für die von Ihnen gewählten Kriterien qualifiziert.
 
-## Verwendung der Badges
+### Globale Badges manuell vergeben
 
-Die Vergabe von Badges wird durch Kursbesitzer:innen in jedem Kurs unter<br>
-**Einstellungen > Tab Bewertung > Abschnitt Badges** <br>
-ermöglicht. Das Recht zur manuellen Vergabe kann hier auch Betreuer:innen gegeben werden.
+Die manuelle Vergabe ist möglich unter<br>
+**Administration > e-Assessment > OpenBadges > Tab "Globale Badges" > Button "Badge manuell vergeben"**.
 
-Wurden Badges aktiviert, ist nach dem nächsten Login in der **Kursadministration** die Option **Badges** vorhanden. Hier können die Vergaberegeln der Badges für den Kurs eingerichtet werden.
+![badges_global_manually_v1_de.png](assets/badges_global_manually_v1_de.png){ class="shadow lightbox" }
 
-Im **Bewertungswerkzeug** können die automatisch vergebenen Badges dann eingesehen oder auch manuell vergeben werden.
+### Globale Badges automatisch vergeben
 
-Für Kursteilnehmer:innen sind erworbene Badges im Persönlichen Menü aufgelistet. [Hier](../../manual_user/personal_menu/OpenBadges.de.md) mehr dazu.
+Die automatische Vergabe wird während des Erstellens im Wizard eingerichtet.
 
+[Zum Seitenanfang ^](#badges)
+
+---
+
+## Tab "Vergebene globale Badges"
+
+In diesem Tab werden vergebene **globale Badges** aufgelistet. (Die Kurs-Badges sind hier nicht enthalten.)
+
+
+!!! note "Hinweis"
+
+    **Kurs-Badges** können durch Betreuer:innen und Besitzer:innen im Bewertungswerkzeug eingesehen werden. Dort können die automatisch vergebenen Kurs-Badges eingesehen und Kurs-Badges manuell vergeben werden.
+
+
+!!! note "Hinweis"
+
+    Für Kursteilnehmer:innen sind erworbene Badges im Persönlichen Menü aufgelistet. [Hier](../../manual_user/personal_menu/OpenBadges.de.md) mehr dazu.
+
+
+[Zum Seitenanfang ^](#badges)
 
 ---
 
@@ -64,4 +97,4 @@ Für Kursteilnehmer:innen sind erworbene Badges im Persönlichen Menü aufgelist
 
 [Badges im Bewertungswerkzeug >](../../manual_user/learningresources/OpenBadges.de.md)<br>
 [Wie vergebe ich in meinem Kurs Badges? >](../../manual_how-to/badges/badges.de.md)<br>
-
+[Der OpenBadges-Standard](https://www.imsglobal.org/activity/openbadges)<br>
