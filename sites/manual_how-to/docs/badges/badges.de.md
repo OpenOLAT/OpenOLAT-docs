@@ -15,7 +15,7 @@
 ??? abstract "Erwartete Vorkenntnisse"
 
     * ["Wie erstelle ich meinen ersten OpenOlat-Kurs?"](../my_first_course/my_first_course.de.md)<br>
-    * Vertrautheit mit Basikonzepten von OO: Bulk-Actions, Filter, Tabellen (spalten ein-/ausblenden), Wizards
+    * Vertrautheit mit Basiskonzepten von OO: Bulk-Actions, Filter, Tabellen (Spalten ein-/ausblenden), Wizards
 
     https://docs.openolat.org/de/manual_user/basic_concepts/Table_Concept/
 

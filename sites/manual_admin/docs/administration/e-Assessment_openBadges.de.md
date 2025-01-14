@@ -6,7 +6,7 @@ Weitere Informationen zum Standard finden Sie [hier](https://www.imsglobal.org/a
 ## Tab "Konfiguration"
 
 * Hier schalten Sie Badges für die gesamte Instanz Ihres OpenOlat ein/aus.
-* Ausserdem können Organisation, die Badges verwenden, hier hinzugefügt werden.
+* Ausserdem können Organisationen, die Badges verwenden, hier hinzugefügt werden.
 
 ![badges_global_config_v1_de.png](assets/badges_global_config_v1_de.png){ class="shadow lightbox" }
 

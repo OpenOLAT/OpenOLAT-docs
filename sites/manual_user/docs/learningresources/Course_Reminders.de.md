@@ -25,7 +25,7 @@ Klicken Sie dazu auf die **Schaltfläche "Erinnerung erstellen"**. Es erscheint 
 
 ![course_reminder_new_v1_de.png](assets/course_reminder_new_v1_de.png){ class="shadow lightbox" }
 
-Geben Sie als erstes die Beschreibung für die Erinnerung ein. Diese Beschreibung ist nur für die Autoren sichtbar und dient der übersichtlichen und informativen Darstellung aller Erinnerungen eines Kurses. Wählen Sie dann die Bedingungen für den Versand aus.
+Geben Sie als erstes die Beschreibung für die Erinnerung ein. Diese Beschreibung ist nur für die Autor:innen sichtbar und dient der übersichtlichen und informativen Darstellung aller Erinnerungen eines Kurses. Wählen Sie dann die Bedingungen für den Versand aus.
 
 Im zweiten Schritt des Wizards werden die Bedingungen überprüft und noch einmal angezeigt. 
 
@@ -303,7 +303,7 @@ Erinnerungen können auch gezielt und wiederholt ausgelöst werden. Dabei werden
 
 ## Weiterführende Informationen  {: #further_information}
 
-[Persönliches Menü: E-Mail >](../../manual_user/personal_menu/E-Mail.de.md)<br>
-[Kursbaustein Mitteilungen >](../../manual_user/learningresources/Course_Element_Notifications.de.md)<br>
-[Teilnehmer Infos >](../../manual_user/learningresources/Using_Additional_Course_Features.de.md#teilnehmer-infos)<br>
+[Persönliches Menü: E-Mail >](../personal_menu/E-Mail.de.md)<br>
+[Kursbaustein Mitteilungen >](../learningresources/Course_Element_Notifications.de.md)<br>
+[Teilnehmer Infos >](../learningresources/Using_Additional_Course_Features.de.md#teilnehmer-infos)<br>
 
