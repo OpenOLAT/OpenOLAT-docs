@@ -44,4 +44,4 @@ Nach dem Aufruf eines Projektes werden Ihnen im Cockpit die Hauptfunktionen ange
 
 ## Aktivierung des Moduls "Projekte"
 
-Damit die Projekte im Menü verfügbar sind, muss das Modul von einem/einer Administrator:in aktiviert worden sein. Weitere Informationen dazu finden Sie [hier](../../../manual_admin/docs/administration/Modules_Projects.de.md).
+Damit die Projekte im Menü verfügbar sind, muss das Modul von einem/einer Administrator:in aktiviert worden sein. Weitere Informationen dazu finden Sie [hier](../../manual_admin/administration/Modules_Projects.de.md).

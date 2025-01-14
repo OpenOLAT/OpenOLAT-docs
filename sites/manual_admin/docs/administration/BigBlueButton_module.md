@@ -58,7 +58,6 @@ The capacity factor is recorded with a value between 1 and 100 per server. The c
   
  _*  Weighting when counting users from high to low: video users, audio users, viewer_
 
-![](assets/image2020-4-14_14-21-13.png){ class="shadow lightbox" }
 
 
 ## Room templates

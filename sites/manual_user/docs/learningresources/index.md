@@ -90,7 +90,7 @@ Further information about podcasts can be found [here](../learningresources/Podc
 
 In a blog, subject-related or personal information can be published and commented on in a time-structured manner. Blogs are often used as a kind of diary or journal. Course participants will be able to comfortably assess or comment on blog entries.
 
-Here you can find more information about the [course element blog](../learningresources/Course_Element_Blog.md). Information on how to create a blog and integrate it into your course, can be found in the [“How to section”](../../../manual_how-to/docs/blog/blog.md). 
+Here you can find more information about the [course element blog](../learningresources/Course_Element_Blog.md). Information on how to create a blog and integrate it into your course, can be found in the ["How to section"](../../manual_how-to/blog/blog.md). 
 
 [To the top of the page ^](#learning_resources)
 
@@ -118,7 +118,7 @@ With the help of the resource folder, files (content, information, graphics, etc
 
 Forms can be used in OpenOlat for a variety of purposes and in different places. They are suitable, for example, for surveys, data collection, self-assessments, questionnaires or rubric assessment. They are used in the course element "Form", in the course element "Survey" or as rubric assessment in the course element "Assessment" or course element "Task". 
 
-Each course participant can fill out the same questionnaire only once. The results are stored anonymously.  You can find more information on the use and creation of forms for surveys, rubrics etc. in the chapter  [Creating forms](../learningresources/Form.md).
+Each course participant can fill out the same questionnaire only once. The results are stored anonymously.  You can find more information on the use and creation of forms for surveys, rubrics etc. in the chapter [Creating forms](../learningresources/Form.md).
   
 [To the top of the page ^](#learning_resources)
 

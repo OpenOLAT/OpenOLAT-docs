@@ -150,22 +150,22 @@ If, for example, an external person is to be given access to a portfolio in the 
 
 ## Further information
 
-[Organisation roles](roles.md#organisation-wide-roles--org)<br> 
+[Organisation roles](../basic_concepts/Roles.md#organisation-wide-roles--org)<br> 
 
-[Course roles](roles.md#roles-in-a-course--course)<br> 
+[Course roles](../basic_concepts/Roles.md#roles-in-a-course--course)<br> 
 
-[Group roles](roles.md#roles-in-groups--groups)<br> 
-[Creating a new group](../groups/index.md)<br> 
+[Group roles](../basic_concepts/Roles.md#roles-in-groups--groups)<br> 
+[Creating a new group](../groups/Create_Groups.md)<br> 
 [Group management](../area_modules/Group_Management.md)<br>
 
-[Curriculum roles](roles.md#roles-in-curricula--curriculum)<br> 
+[Curriculum roles](../basic_concepts/Roles.md#roles-in-curricula--curriculum)<br> 
 [Curriculum management](../area_modules/Curriculum_Management.md)<br> 
 
-[Roles in an organization unit](roles.md#roles-in-an-organization--orgunit)<br> 
+[Roles in an organization unit](../basic_concepts/Roles.md#roles-in-an-organization--orgunit)<br> 
 
-[Self-defined roles and relations](roles.md#self-defined-roles-and-relations--relations)<br> 
+[Self-defined roles and relations](../basic_concepts/Roles.md#self-defined-roles-and-relations--relations)<br> 
 
-[Role "Invitee"](roles.md#role-invitee--invitee)<br> 
+[Role "Invitee"](../basic_concepts/Roles.md#role-invitee--invitee)<br> 
 
 <br>
 

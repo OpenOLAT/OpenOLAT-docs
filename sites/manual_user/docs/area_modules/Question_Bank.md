@@ -2,14 +2,14 @@
 
 ![](assets/repository.png)
 
-A question bank is a database of individual test questions resp. items, usually in the QTI technical format, including all relevant information and metadata. The question bank is your personal collection of questions available for further use. The main activities in the question pool are the administration, [search](Search.md) and publication of test questions, as well as the compilation of questions for test creation.
+A question bank is a database of individual test questions resp. items, usually in the QTI technical format, including all relevant information and metadata. The question bank is your personal collection of questions available for further use. The main activities in the question pool are the administration, [search](../basic_concepts/Search_General.md) and publication of test questions, as well as the compilation of questions for test creation.
 
 !!! note "Quick Links"
 
     * [Data Management](Data_Management.md)
     * [Item Detailed View](Item_Detailed_View.md)
     * [Question bank possible operations](Question_bank_possible_operations.md)
-    * [Search](Search.md)
+    * [Search](../basic_concepts/Search_General.md)
     * [Question Pool Sharing Options](Question_Pool_Sharing_Options.md)
     * [Question Bank Review Process](Question_Bank_Review_Process.md)
     * [Question Bank Administration](Question_Bank_Administration.md)

@@ -1,23 +1,23 @@
-# Fragepool: Fragen erstellen {: #question_pool_create_questions}
+# Question pool: Create Questions {: #question_pool_create_questions}
 
 ![Fragenpool](assets/Fragenpool_favoriten.png)
 
-Die Tabellenansicht der Fragen die im Fragenpool abgelegt sind bietet vielfältige Möglichkeiten. Achten Sie darauf, dass alle für Sie relevanten Spalten über das Zahnrad Symbol ausgewählt sind.
+The table view of the questions stored in the question pool offers a wide range of options. Make sure that all the columns relevant to you are selected using the cogwheel symbol.
 
-Besonders relevante Fragen können Sie als **Favorit** markieren und so schnell wiederfinden. Eine weitere Möglichkeit ist mehrere Fragen in **Listen** zu organisieren und so eine individuelle Systematik für Ihre Fragen aufzubauen.
+You can mark particularly relevant questions as **favorites** and find them again quickly. Another option is to organize several questions in **lists** and thus create an individual system for your questions.
 
-Sie können Fragen im Bereich "Meine Fragen", in einer Liste oder in einer Gruppenfreigabe erstellen oder importieren. Dabei werden die Frageitems aber grundsätzlich unter "Meine Fragen" abgelegt und dann referenziert. 
+You can create or import questions in the "My questions" area, in a list or in a group share. However, the question items are always stored under "My questions" and then referenced. 
 
-Eine Übersicht der **Fragetypen**, die  erstellt und importiert werden können finden Sie im Kapitel ["Test Fragetypen"](../learningresources/Test_question_types.de.md) 
+An overview of the **question types** that can be created and imported can be found in the chapter ["Test Question types"](../learningresources/Test_question_types.md) 
 
-## Fragen im Fragenpool erstellen
+## Create questions in the question pool
 
-Frageitems können im Fragenpool über den Button "Frage erstellen" im QTI 2.1 Format erstellt und direkt zur weiteren Nutzung gespeichert werden. 
+Question items can be created in the question pool using the "Create question" button in QTI 2.1 format and saved directly for further use. 
 
 ![Fragetypen](assets/Frage_erstellen_typen.png)
 
-Bei der Erstellung wird ein Titel angegeben, anschliessend der Fragetyp und zum Schluss, wenn vorhanden, der Fachbereich ausgewählt. Die so erstellten Fragen können dann in die OpenOlat Lernressource Test importiert und verwendet werden.
+During creation, a title is specified, followed by the question type and finally, if available, the subject area is selected. The questions created in this way can then be imported and used in the OpenOlat learning resource Test.
 
-Informationen zur _Testerstellung_ finden [hier](https://docs.openolat.org/de/manual_how-to/test_creation_procedure/test_creation_procedure/). Informationen zur weiteren Ausgestaltung einer Frage im Kapitel ["Detailansicht einer Frage"](Item_Detailed_View.de.md).
+Information on _test creation_ can be found [here](https://docs.openolat.org/manual_how-to/test_creation_procedure/test_creation_procedure/). Information on the further structure of a question in the chapter ["Detailed view of a question"](Item_Detailed_View.md).
 
 

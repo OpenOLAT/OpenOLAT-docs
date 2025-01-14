@@ -24,7 +24,7 @@ The Media Center is initially an individual, personal area and can therefore als
 
 ![media_center_pers_menu1_v1_de.png](assets/media_center_pers_menu1_v1_de.png){ class=" shadow lightbox" }
 
-![media_center_pers_menu](assets/media-center_personal_menue_en.png){ class=" shadow lightbox" }
+![media_center_pers_menu2_v1_de.png](assets/media_center_pers_menu2_v1_de.png){ class=" shadow lightbox" }
 
 Even if they are personal media, they can be shared with other people and used in various OpenOlat contexts.
 
@@ -49,7 +49,7 @@ Different **file formats** and **content elements** are stored in the media cent
 
 ## Add media to the Media center
 
-![My media center add media](assets/My_media_cemter_add_media_en.png){ class=" shadow lightbox" }
+![media_center_upload_v1_de.png](assets/media_center_add_media_v1_de.jpg){ class=" shadow lightbox" } 
 
 There are various ways to store media in the Media center:
 
@@ -71,7 +71,7 @@ There are various ways to store media in the Media center:
 
 Media for the Media Center can also be created in the OpenOlat course or in the portfolio using the [content editor](../basic_concepts/Content_Editor.md). In the course, for example, this can be done via the course element ["Page"](../learningresources/Course_Element_Page.md). Go to edit mode and select "Add content". Among other things, a button for the “Media Center” will appear.  Click on the button and you will be taken to the Media Center with all the corresponding options. 
 
-![Select medium from the media center](assets/Medien_center_wahlen_en.jpg){ class=" shadow lightbox" }
+![Medium auswählen aus dem Mediencenter2](assets/media_center_create_v1_de.jpg){ class=" shadow lightbox" }
 
 
 ### Collect content elements and link them to the Media Center
@@ -87,7 +87,7 @@ The elements include:
 
 For example, to add a post, open your forum post and click on the puzzle piece.
 
-![collect forum entry](assets/Puzzle_Sammlung.jpg){ class=" shadow lightbox" }
+![forumseintrag sammeln](assets/media_center_puzzle_v1_de.jpg){ class=" shadow lightbox" }
 
 A page will then appear where you can enter the title, tags and a description for the post content. After saving, the post will be displayed in your Media Center.
 
@@ -156,7 +156,7 @@ And how can the media in the Media Center be reused? The media contained in the 
 
 The **filter functions** help you to find the media you are looking for quickly. Search or filter for ...
 
-![Medien Center Filtrfunktion](assets/Medien_center_Filterfunktion_en.png){ class=" shadow lightbox" }
+![media_center_filter_function_v1_de](assets/media_center_filter_function_v1_de.png){ class=" shadow lightbox" }
 
 !!! note "Note"
 

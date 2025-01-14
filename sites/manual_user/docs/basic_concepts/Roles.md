@@ -187,7 +187,7 @@ In addition to the roles predefined in OpenOlat, administrators can also create 
 These freely definable roles can be assigned specific rights by administrators.
 
 For example, cross-course support functions such as mentors, learning guides and coaches can be set up for these roles with user-to-user relationships.<br>
-(See [Coaching - Role user-to-user](../../area_modules/coaching_personenbeziehungen.md))
+(See [Coaching - Role user-to-user](../area_modules/coaching_personenbeziehungen.md))
 
 **Requirements**:<br>
 Before relationships between roles can be defined, the **roles** must first exist and a **system** must be in place (which role is superior or subordinate to which other role).
@@ -245,7 +245,7 @@ The account roles are only relevant for the administrator's search function.<br>
 [Role assignment for course roles](Assign_Roles.md#role_assignment_course)<br> 
 
 [Role assignment for curricula](Assign_Roles.md#role_assignment_curriculum)<br>
-[Rights of the curriculum roles](../basic_concepts/Authorization_Concept.md#rechte-der-curriculum-rollen)<br> 
+[Rights of the curriculum roles](../basic_concepts/Authorisation_Concept.md#rights-of-curriculum-roles-in-a-course)<br> 
 
 [Role assignment of the "Invitee"](Assign_Roles.md#role_assignment_invitee)<br>
 
