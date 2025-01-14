@@ -125,5 +125,6 @@ Wurden Badges aktiviert, ist nach dem nächsten Login in der **Kursadministratio
 ## Weiterführende Informationen  {: #further_information}
 
 [Wie vergebe ich in meinem Kurs Badges? >](../../manual_how-to/badges/badges.de.md)<br>
+[Globale Badges >](../../manual_admin/administration/e-Assessment_openBadges.de.md#global_badges)<br>
 [OpenBadges Administration >](../../manual_admin/administration/e-Assessment_openBadges.de.md)<br>
-[Der OpenBadges-Standard](https://www.imsglobal.org/activity/openbadges)<br>
+[Der OpenBadges-Standard >](https://www.imsglobal.org/activity/openbadges)<br>
