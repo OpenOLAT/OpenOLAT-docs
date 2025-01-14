@@ -1,13 +1,17 @@
-# Erinnerungen
+# Erinnerungen {: #course_reminders}
 
 Mit der Erinnerungsfunktion wird der automatische Versand von Mails organisiert.
 
 ![course_reminder_access_v1_de.png](assets/course_reminder_access_v1_de.png){ class="shadow lightbox" }
 
-Zusätzlich zur Kursadministration können für bestimmte bewertbare Kursbausteine Erinnerungen auch direkt bei dem jeweiligen Kursbaustein eingerichtet werden. In diesem Fall ist der entsprechenden Kursbaustein bereits vorgewählt. So kann beispielweise rasch eine Erinnerung für Lernende erstellt werden, die einen bestimmten Test noch gar nicht durchgeführt haben (Versuche  = 0). Oder es kann eine E-Mail an alle Personen verschickt werden,  die eine Aufgabe bestanden haben.
+Zusätzlich zum Weg über die Kursadministration können für bestimmte bewertbare Kursbausteine Erinnerungen auch direkt bei dem jeweiligen Kursbaustein eingerichtet werden. In diesem Fall ist der entsprechenden Kursbaustein bereits vorgewählt. So kann beispielweise rasch eine Erinnerung für Lernende erstellt werden, die einen bestimmten Test noch gar nicht durchgeführt haben (Versuche  = 0). Oder es kann eine E-Mail an alle Personen verschickt werden, die eine Aufgabe bestanden haben.
 
 
-## Erinnerung erstellen
+[Zum Seitenanfang ^](#course_reminders)
+
+---
+
+## Erinnerung erstellen {: #create}
 
 Als Kursbesitzer:in definieren Sie in einer Regelliste,
 
@@ -28,8 +32,11 @@ Im zweiten Schritt des Wizards werden die Bedingungen überprüft und noch einma
 Im letzten Schritt geben Sie dann den E-Mail Text ein und können auswählen, ob auch Betreuer:innen oder Besitzer:innen eine Kopie erhalten sollen oder eine Kopie an eine externe Adresse verschickt werden soll.
 
 
+[Zum Seitenanfang ^](#course_reminders)
 
-## Bedingungen für den Versand von Erinnerungen
+---
+
+## Bedingungen für den Versand von Erinnerungen {: #conditions}
 
 Die Bedingungen können aus einem Dropdown-Menü gewählt werden. Je nach Bedingung erscheint rechts daneben ein weiteres Eingabefeld für genauere Angaben.
 
@@ -133,6 +140,15 @@ Eingabefelder für Datum und Uhrzeit, als Eingabehilfe Button zur Anzeige des Ka
 * **Nach Datum**<br>
 Eingabefelder für Datum und Uhrzeit, als Eingabhilfe Button zur Anzeige des Kalenders
 
+!!! info "Wann wird die Mail verschickt, wenn ich hier ein Datum angebe?"
+
+    Der Versand der Kurserinnerungen findet nicht sofort statt. Alle Erinnerungsmails werden gemeinsam z.B. täglich um 9.00 Uhr verschickt. Dies ist eine Voreinstellung und kann von Administrator:innen geändert und bis auf "stündlich" angepasst werden (Administration > Module > Kurserinnerungen). 
+    Zum Versandzeitpunkt prüft OpenOlat jeweils, welche Bedingungen erfüllt sind und verschickt entsprechend die Mails. Es werden dann alle Kurserinnerungen verschickt, die z.B. um 9.00 die Bedingungen erfüllen ("im Ausgangskorb liegen").
+
+    Wenn **"Bis Datum"** abgeprüft wird, kann die Bedingung zum Zeitpunkt der Reminder-Erstellung schon erfüllt sein und es werden Mails verschickt. Sinn macht diese Einstellung vor allem in Verbindung mit einer weiteren Bedingung, z.B. Wenn "bis Datum" "der Test bestanden wurde", wird eine Mail verschickt "Sie haben sich termingerecht qualifiziert und erhalten dafür ...".
+    
+    Wenn **"Nach Datum"** mit einem Datum nach dem Zeitpunkt der Reminder-Erstellung verwendet wird, werden die Mails im "Ausgangskorbs" zum erstmöglichen Versandtermin verschickt, wenn das "Nach Datum" erreicht wurde.
+
 ---
 
 * **Datum des letzten Versuchs**<br>
@@ -214,8 +230,11 @@ Diese Option betrifft nur Kursbausteine vom Typ "Formular".
     ![Erinnerung Operatoren](assets/reminder_operator_DE.png){ class="shadow" }
 
 
+[Zum Seitenanfang ^](#course_reminders)
 
-## E-Mail Text
+---
+
+## E-Mail Text {: #text}
 
 Mit Hilfe des E-Mail-Textes, der nach Bedarf angepasst werden kann, erstellen Sie ganz spezifische, auf die Situation angepasste E-Mail-Erinnerungen.
 
@@ -239,7 +258,11 @@ Hier ein Beispiel:
 Am obersten Kursknoten werden zusätzlich alle Erinnerungen aufgelistet, die an keinen bestimmten Kursbaustein gebunden sind. Auch können sowohl hier als auch bei anderen Assessment Bausteinen mit dem Tab "Erinnerungen" weitere Konfigurationen vorgenommen werden, z.B. konfigurierte Erinnerungen editiert, dupliziert, versendet, gelöscht werden. Auch die Anzeige des Versands ist möglich.
 
 
-## Empfänger
+[Zum Seitenanfang ^](#course_reminders)
+
+---
+
+## Empfänger {: #recipients}
 
 Erinnerungen sind gut geeignet, um **Kursteilnehmer:innen** daran zu erinnern, was sie als nächstes erledigen sollten.
 Eine **Kopie an die Betreuer:innen und/oder Kursbesitzer:innen** informiert auch diese, dass Teilnehmer:innen etwas zu erledigen haben.
@@ -256,7 +279,11 @@ Manchmal vergessen Autor:innen ihren Kurs zu publizieren, weil noch Dinge unklar
 ![course_reminder_condition_status_v1_de.png](assets/course_reminder_condition_status_v1_de.png){ class="shadow lightbox" }
 
 
-## Erinnerungen kontrollieren und bearbeiten 
+[Zum Seitenanfang ^](#course_reminders)
+
+---
+
+## Erinnerungen kontrollieren und bearbeiten {: #check_and_edit}
 
 Wurden bereits Erinnerungen erstellt, sind diese unter **Administration > Erinnerungen** aufgelistet.
 Auf der Übersichtsseite sehen Sie alle für diesen Kurs bereits erstellten Erinnerungen und können sich auch bereits versendete Erinnerungen anzeigen lassen. Die Liste der bereits versendeten Erinnerungen enthält Informationen zum Empfänger sowie die Sendezeit. Einzelne Erinnerungen aus dieser Liste können über den Link "Wieder schicken" einfach verschickt werden.
@@ -268,4 +295,15 @@ Neue Erinnerungen können jederzeit erstellt werden.
 Soll z.B. eine einzelne Bedingung für den Versand entfernt werden, finden Sie im Bearbeitungsmodus die Buttons zum Löschen einer einzelnen Bedingung rechts neben der jeweiligen Bedingung. 
 
 Erinnerungen können auch gezielt und wiederholt ausgelöst werden. Dabei werden Erinnerungen aber dennoch nur an jene Benutzer geschickt, für die alle Bedingungen als erfüllt gelten.
+
+
+[Zum Seitenanfang ^](#course_reminders)
+
+---
+
+## Weiterführende Informationen  {: #further_information}
+
+[Persönliches Menü: E-Mail >](../../manual_user/personal_menu/E-Mail.de.md)<br>
+[Kursbaustein Mitteilungen >](../../manual_user/learningresources/Course_Element_Notifications.de.md)<br>
+[Teilnehmer Infos >](../../manual_user/learningresources/Using_Additional_Course_Features.de.md#teilnehmer-infos)<br>
 
