@@ -63,7 +63,6 @@ Element for inserting programming code. The content is displayed as code and is 
 
 Here you can create new quotes (Add quote) or use quotes already stored in the Media Center and integrate them. Various information can be added to a new quote, e.g. source, language, author, URL.
 
-
 ### Image
 
 Add image elements by uploading a graphic file or accessing a graphic from your Media Center. You can then configure the file further, e.g. place a title or subtitle and also define the size, placement or border. Use the Inspector menu for this.
@@ -87,6 +86,21 @@ The images are selected via the inspector menu. In addition to the standard type
 
 The user can adjust the viewing area of the images using a slider. 
 
+### Gallery
+
+New from :octicons-tag-24: Release 19 is the possibility to add a picture gallery. Clicking on the "Add" button takes you to the Media Center where you can select several images. The type of display as preview, grid or slideshow can be defined in the Inspector. The example shows a gallery with a preview from the user's perspective.
+
+![Inhaltselement Galerie](assets/Editor_Galerie_Portfolio.png){ class="lightbox" }
+
+### Image comparison
+
+New from :octicons-tag-24: Release 19 is the content element "Image comparison". This allows 2 images from the Media Center to be selected and placed next to each other, e.g. two versions of the same image. 
+The images are selected via the inspector menu. In addition to the standard type, the image comparison can also be used to compare a correct and an incorrect image. 
+
+![Inhaltselement Bildvergleich](assets/Editor_Bildervergleich_Portfolio.png){ class="lightbox" }
+
+The user can adjust the viewing area of the images using a slider. 
+
 ### Video
 
 You have the following options for loading a video into the editor:
@@ -97,31 +111,31 @@ You have the following options for loading a video into the editor:
 * Select and add a video file from the Media Center.
 ![Titel ePortfolio](assets/Video_Portfolio.png){ class="lightbox" }
 
-
 ### Audio
-You have the following options for loading audio into the editor and making it available: 
-
-* Use the integrated audio editor and create a sound recording (Record audio)
-* Upload an audio file (Add audio)
+Here you have the following options: 
+* Use the audio editor and create a sound recording (Record audio)
+* Load an audio file (Add audio)
 * Connect an audio file from your Media Center (select from the list).
-![Inhalt hinzufügen Audio ePortfolio](assets/Audio_Portfolio_19.jpg){ class="lightbox" }
+![Titel ePortfolio](assets/Audio_Portfolio.png){ class="lightbox" }
+
 
 ### Document
 
-Connect an audio file from your Media Center (select from the list).
+Here, you have three different possibilities:
+* Create a new document according to the specified file types
+* Upload a new document (add document) or
+* Connect a document from your Media Center (Selection from the list).
 
-* Create a new document according to the specified file types (Create document)
-* Upload a new document (Add document) or 
-* Connect a document from your Media Center (select from the list).
+If an external document editor is activated and the files are in a format that is supported by it, the files can also be edited directly online.
 
-If an external document editor is activated and the files are in a format that is supported by it, the files can also be edited directly online in OpenOlat.
-
-!!! Tip "Note"
+!!! tip "Note"
 
     The contents of the files are not displayed directly here, but must be opened by clicking on the link. 
 
+
 ### Diagram
 
+You can create a new draw.io diagram or add an existing draw.io diagram from your Media Center. The actual design of the diagram is done by clicking on the "Edit" link in the entry.  
 
 ![Inhaltselement Diagramm](assets/Editor_Diagramm_Portfolio.png){ class="lightbox" }
 
