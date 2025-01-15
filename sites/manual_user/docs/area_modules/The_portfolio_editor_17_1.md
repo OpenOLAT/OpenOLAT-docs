@@ -101,6 +101,21 @@ The images are selected via the inspector menu. In addition to the standard type
 
 The user can adjust the viewing area of the images using a slider. 
 
+### Gallery
+
+New from :octicons-tag-24: Release 19 is the possibility to add a picture gallery. Clicking on the "Add" button takes you to the Media Center where you can select several images. The type of display as preview, grid or slideshow can be defined in the Inspector. The example shows a gallery with a preview from the user's perspective.
+
+![Inhaltselement Galerie](assets/Editor_Galerie_Portfolio.png){ class="lightbox" }
+
+### Image comparison
+
+New from :octicons-tag-24: Release 19 is the content element "Image comparison". This allows 2 images from the Media Center to be selected and placed next to each other, e.g. two versions of the same image. 
+The images are selected via the inspector menu. In addition to the standard type, the image comparison can also be used to compare a correct and an incorrect image. 
+
+![Inhaltselement Bildvergleich](assets/Editor_Bildervergleich_Portfolio.png){ class="lightbox" }
+
+The user can adjust the viewing area of the images using a slider. 
+
 ### Video
 
 You have the following options for loading a video into the editor:
