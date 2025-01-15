@@ -4,16 +4,15 @@
 
     As of :octicons-tag-24: release 17.1. this portfolio editor is available.  If you want to fill an old entry with new content, use the new layouts.
 
-Different layouts and content elements can be added to each portfolio entry. The configuration is carried out via the operating elements: Layout, the block menu and the inspector. 
+Different layouts and content elements can be added to each portfolio entry. The configuration is carried out via the operating elements: Layout, the block menu and the inspector.
 
 ## Controls Overview
 The Portfolio Editor includes various menu areas for configuration: 
 
 ![Image of the individual controls in ePortfolio](assets/content-editor-gui.jpg){ class="lightbox" }
 
-* **Layout Menu**: A layout is a higher-level block that allows you to structure the content in different ways using columns and rows. 
-In the layout menu, you can select a single or multi-column layout, move layout areas or add new layouts. If you delete or change layouts, existing blocks are moved into the existing columns. The following layout templates are currently available:
-![layout-template](assets/layoutblock-template.jpg){ class="shadow lightbox" }
+* **Layout Menu**: A layout is a higher-level block that allows you to structure the content in different ways using columns and rows. In the layout menu, you can select a single or multi-column layout, move layout areas or add new layouts. If you delete or change layouts, existing blocks are moved into the existing columns. The following layout templates are currently available:
+![layout-template](assets/layoutblock-template.jpg)
 * **Block Menu**: Menu of an individual content element within a layout. A content element can be moved, added or deleted via the block menu. The inspector with further settings for a content element can also be activated via the :material-cog: gear wheel. 
 * **Inspector**: Used to configure individual content elements. There are all settings that change the functionality, as well as the appearance of the respective block or layout e.g. the alignment of images. By clicking on the title bar of the inspector window you can also move it. When you select a new block, the inspector jumps back to the default position.
 
@@ -64,9 +63,6 @@ Element for inserting programming code. The content is displayed as code and is 
 
 Here you can create new quotes (Add quote) or use quotes already stored in the Media Center and integrate them. Various information can be added to a new quote, e.g. source, language, author, URL.
 
-### Citation 
-
-Here you can create new quote (Add quote) or use quote already stored in the Media Center and integrate them. Various information can be added to a new quote, e.g. source, language, author, URL ...
 
 ### Image
 
@@ -74,11 +70,11 @@ Add image elements by uploading a graphic file or accessing a graphic from your 
 
 !!! "Hint"
 
-    To optimize the positioning of a graphic, it is best to use a suitable layout, e.g. multi-column layout. Depending on the type of graphics, this tip also applies to the “Gallery” content element.
+    To optimize the positioning of a graphic, it is best to use a suitable layout, e.g. multi-column layout. Depending on the type of graphics, this tip also applies to the "Gallery" content element.
 
-### Galerie
+### Gallery
 
-New from :octicons-tag-24: Release 19 is the possibility to add a picture gallery. Click on the “Add” button to open the Media Center, in which several images can be selected. The display type - preview, grid or slideshow - can be defined in the Inspector. The example shown presents a gallery with a preview from the perspective of a user.
+New from :octicons-tag-24: Release 19 is the possibility to add a picture gallery. Click on the "Add" button to open the Media Center, in which several images can be selected. The display type - preview, grid or slideshow - can be defined in the Inspector. The example shown presents a gallery with a preview from the perspective of a user.
 
 ![Inhaltselement Galerie](assets/Editor_Galerie_Portfolio.png){ class="lightbox" }    
 
@@ -88,18 +84,6 @@ The images are selected via the inspector menu. In addition to the standard type
 
 ![Inhaltselement Bildvergleich](assets/Editor_Bildervergleich_Portfolio.png){ class="lightbox" }
 
-### Gallery
-
-New from :octicons-tag-24: Release 19 is the possibility to add a picture gallery. Clicking on the "Add" button takes you to the Media Center where you can select several images. The type of display as preview, grid or slideshow can be defined in the Inspector. The example shows a gallery with a preview from the user's perspective.
-
-![Inhaltselement Galerie](assets/Editor_Galerie_Portfolio.png){ class="lightbox" }
-
-### Image comparison
-
-New from :octicons-tag-24: Release 19 is the content element "Image comparison". This allows 2 images from the Media Center to be selected and placed next to each other, e.g. two versions of the same image. 
-The images are selected via the inspector menu. In addition to the standard type, the image comparison can also be used to compare a correct and an incorrect image. 
-
-![Inhaltselement Bildvergleich](assets/Editor_Bildervergleich_Portfolio.png){ class="lightbox" }
 
 The user can adjust the viewing area of the images using a slider. 
 
