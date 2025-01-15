@@ -1,41 +1,87 @@
-# System
+# System {: #system}
 
-Im Bereich System der OpenOlat Administration erhalten Administratoren
+Im Bereich "System" der OpenOlat-Administration erhalten Administrator:innen
 allgemeine Informationen zur System Runtime, wie genutzter Speicher, aktuelle
-Klickzahlen oder Datenverzeichnisse. Darüber hinaus haben die Administratoren
-hier Zugriff auf die Bereiche:
+Klickzahlen oder Datenverzeichnisse. 
 
-  * Info messages
-  * Benutzersessions
-  * Errors
-  * Locks
-  * Java VM Infos
-  * Scheduler
+Die Administrator:innen haben hier Zugriff auf die folgenden Bereiche:
 
-## Info messages:
+---
+
+## Info messages {: #info_message}
 
 Hier kann im OpenOlat HTML Editor eine Info Message erstellt werden, die auf
-der Login-Seite neben dem eigentlichen Login Zugangsbereich erscheint. Auch
-für Meldungen bezüglich Wartungsarbeiten gibt es einen eigenen Bereich. Diese
-Information, die auf allen OpenOlat-Seiten erscheint, kann ebenfalls im
-OpenOlat Editor erstellt werden. Zusätzlich können auch noch Dokumente (z.B.
-weitere Infos in pdf Form) verlinkt werden. Hierfür steht ein "static ordner"
-zur Verfügung.
+der **Login-Seite** neben dem eigentlichen Login Zugangsbereich erscheint. 
 
-## Benutzersession
+Auch für Meldungen bezüglich **Wartungsarbeiten** gibt es einen eigenen Bereich. Diese
+Information erscheint auf allen OpenOlat-Seiten und kann ebenfalls im
+OpenOlat-Editor erstellt werden. 
+
+Zusätzlich können Dokumente (z.B. weitere Infos in pdf-Form) verlinkt werden. Hierfür steht ein "Static Ordner" zur Verfügung.
+
+[Zum Seitenanfang ^](#system)
+
+---
+
+## Aktive Sitzungen {: #active_sessions}
 
 Hier werden die aktuell eingeloggten Personen angezeigt.
 
-## Errors
+[Zum Seitenanfang ^](#system)
+
+---
+
+## Errors {: #errors}
 
 Hier kann nach Fehlernummer und Datum gesucht werden.
 
-## Locks
+[Zum Seitenanfang ^](#system)
 
-Hier werden die durch Benutzer gespeicherten Objekte angezeigt.
+---
 
-## Java VM Infos
+## Caches {: #caches}
 
-Hier finden Administratoren Informationen zum Java Speicher, zu Threads und
+Hier werden Cache-Einstellungen aufgelistet und OpenOlat-Caches können geleert werden.
+
+[Zum Seitenanfang ^](#system)
+
+---
+
+## Locks {: #locks}
+
+Hier werden die durch Benutzer gesperrten Objekte angezeigt.
+
+[Zum Seitenanfang ^](#system)
+
+---
+
+## Database ORM {: #database}
+
+Der Tab "Database ORM" liefert Statistik-Angaben und listet JPA Queries und JPA Entities.
+
+[Zum Seitenanfang ^](#system)
+
+---
+
+## Java VM Infos {: #java}
+
+Hier finden Administrator:innen Informationen zum Java Speicher, zu Threads und
 Umgebungsvariablen und können die Java Garbage Collection starten.
 
+[Zum Seitenanfang ^](#system)
+
+---
+
+## Scheduler {: #scheduler}
+
+Hier finden Administrator:innen eine Übersicht über Scheduler-Jobs.
+
+[Zum Seitenanfang ^](#system)
+
+---
+
+## Konfigurationen {: #system_config}
+
+Hier finden Administrator:innen eine Auflistung aller Keys der Standard-Variablen und die Modul-Konfigurationen.
+
+[Zum Seitenanfang ^](#system)

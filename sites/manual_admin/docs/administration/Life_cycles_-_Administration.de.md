@@ -1,33 +1,56 @@
-# Lebenszyklen - Administration
+# Lebenszyklen: Übersicht {: #lifecycles}
 
-##  Automatisches Lebenszyklusmanagement
+In diesem Abschnitt können die folgenden Lebenszyklen administriert werden:
 
-Ähnlich dem automatisch gesteuerten Kurs-Lifecycle kann auch der Lebenszyklus
-von OpenOlat-Benutzern automatisiert werden. In einem ersten Schritt können
-somit die Konten von Benutzern, die über einen längeren Zeitraum nicht aktiv
-waren, zunächst deaktiviert und der Benutzerstatus auf "inaktiv" gesetzt
-werden. Erfolgt im festgelegten Zeitraum kein erneuter Login, so wird das
-Benutzerkonto gelöscht. Je nach Konfiguration können die Benutzer vor bzw.
-nach der Deaktivierung oder Löschung des Kontos eine E-Mail mit einem
-entsprechenden Hinweis erhalten.
+---
 
 ## Gruppen
 
-In der OpenOlat Administration können sowohl Einstellungen für den Gruppen-
-Lebenszyklus als den Benutzerzyklus vorgenommen werden. Es können dabei auch
-bestimmte Gruppentypen ausgewählt und die Inaktivierung nur diese Gruppen
-eingeschränkt werden. Grundsätzlich der der [Gruppen-Lebenszyklus](Automatic_Group_Lifecycle.de.md) bezüglich der
-Inaktivierung, der Löschung und der unwiderruflichen Löschung definiert
-werden.
+In der OpenOlat-Administration können Einstellungen für den [Gruppen-Lebenszyklus](Automatic_Group_Lifecycle.de.md) vorgenommen werden. Dieser vollzieht sich in den Schritten
 
-## Benutzer
+* Inaktivierung,
+* Löschung 
+* unwiderruflichen Löschung
 
-Hier können die konkreten unterschiedlichen Text Benachrichtigungen im Kontext
-der Kontendeaktivierung formuliert und der Zeitpunkt der Mailbenachrichtigung
-definiert werden. Ferner kann definiert werden, ob inaktive Benutzer gelöscht
-werden sollen.
+Einstellung können sowohl für Gruppen generell, als auch nur für bestimmte Gruppentypen gemacht werden. 
 
-  
+
+[Zu den Details >](Automatic_Group_Lifecycle.de.md)<br>
+[Zum Seitenanfang ^](#lifecycles)
+
+---
+
+## Kurse
+
+Im Lebenszyklus von Kursen kann festgelegt werden, 
+
+* ob und wann ein Kurs automatisch in den Status "Beendet" versetzt wird 
+* wann er danach in den Papierkorb verschoben wird
+* und wann er endgültig gelöscht wird
+
+Über jede Statusänderung können die Kursbesitzer:innen automatisch informiert werden.
+
+
+[Zum Seitenanfang ^](#lifecycles)
+
+---
+
+## Konto
+
+Ähnlich dem automatisch gesteuerten Kurs-Lifecycle kann auch der Lebenszyklus von Konten der OpenOlat-Benutzer:innen automatisiert werden. 
+
+* In einem ersten Schritt können die Konten von Benutzer:innenn, die über einen längeren Zeitraum nicht aktiv waren, zunächst deaktiviert und der Benutzerstatus auf "inaktiv" gesetzt
+werden. 
+* Erfolgt im festgelegten Zeitraum kein erneuter Login, so wird das
+Benutzerkonto gelöscht. Je nach Konfiguration können die Benutzer vor bzw.
+nach der Deaktivierung oder Löschung des Kontos eine E-Mail mit einem
+entsprechenden Hinweis erhalten.
+* Es kann eingerichtet werden, dass die unwiderrufliche Löschung im letzten Schritt automatisch oder ausschliesslich manuell erfolgen soll.
+
+Zu jedem Schritt können unterschiedliche Benachrichtigungen im Kontext der Schritte formuliert und der Zeitpunkt der Mailbenachrichtigung definiert werden.
+
+
+[Zum Seitenanfang ^](#lifecycles)
 
   
 

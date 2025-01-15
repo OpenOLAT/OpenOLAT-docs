@@ -1,22 +1,25 @@
-# Customizing
+# Customizing: Übersicht {: #customizing}
 
 Das Menü "Customizing" umfasst Einstellungen bezüglich:
 
-  * Darstellung
-  * Impressum
-  * Hilfe
-  * Sprachanpassungswerkzeug
-  * Portal
-  * Sites
+---
 
 ## Darstellung, Layout
 
 Hier können das Systemlayout, ein Firmenlogo und Eigenschaften bezüglich der
 Fusszeile hinterlegt werden.
 
+[Zum Seitenanfang ^](#customizing)
+
+---
+
 ## Impressum
 
 Aktivierung und Konfigurationen zum Impressum, auch für verschiedene Sprachen
+
+[Zum Seitenanfang ^](#customizing)
+
+---
 
 ## Hilfe
 
@@ -27,13 +30,30 @@ Kontaktformular ist möglich.
 
 ![](assets/Hilfemoeglichkeiten.png){ class="shadow lightbox" }
 
+[Zum Seitenanfang ^](#customizing)
+
+---
+
 ## Sprachpassungswerkzeug
 
 Hier können bei Bedarf einzelne Textelemente angepasst werden
 
-## Portal
+[Zum Seitenanfang ^](#customizing)
 
-Einstellungen für den Tab "Home"
+---
+
+## Systemregistrierung
+
+[Zum Seitenanfang ^](#customizing)
+
+---
+
+## Benutzer:innen-Attribute
+
+
+[Zum Seitenanfang ^](#customizing)
+
+---
 
 ## Sites
 
@@ -50,7 +70,6 @@ durch den Kursbesitzer, den Katalogverwalter oder den Systemadministrator.
 
 ![](assets/admin_customice_sites.de.jpg){ class="shadow lightbox" }
 
-  
+[Zum Seitenanfang ^](#customizing)
 
-  
 
