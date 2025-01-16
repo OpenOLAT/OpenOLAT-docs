@@ -108,7 +108,7 @@ Während der Erstellung von Badges mit dem Wizard, werden auch die Regeln für d
 * ein bestimmter Fortschritt im Lernpfad wurde erreicht
 * ein anderer Badge wurde bereits erworben
 * ein Kursbaustein ist bestanden
-* ein bestimmter Score wurde in einem berstimmten Kursbaustein erreicht
+* ein bestimmter Score wurde in einem bestimmten Kursbaustein erreicht
 
 Es können mehrere Bedingungen miteinander kombiniert werden.
 
@@ -152,7 +152,7 @@ a) **im letzten Schritt des Wizards**<br> (durch Autor:innen)<br>
 b) **in Teilnehmerlisten**<br>
     (Vergabe von Badges als Bulk-Action: Teilnehmer:innen markieren und dann Klick auf den grünen Button)<br>
 c) **in einer Badge-Liste**<br> 
-(Einzelnen Badge auswählen, es erscheint unten eine Liste, wer diesen Badge schon erhalten hat. Dann den Button zum Vergeben an weitere Kursteilnehmer:innen verwenden.)
+    (Einzelnen Badge auswählen, es erscheint unten eine Liste, wer diesen Badge schon erhalten hat. Dann den Button zum Vergeben an weitere Kursteilnehmer:innen verwenden.)
 
 
 ### Automatische Vergabe von Badges
@@ -233,7 +233,7 @@ widerrufen werden.
 
 (nur für berechtigte Kursbesitzer:innen und Betreuer:innen verfügbar)
 
-Zum Löschen eines Badges klicken Sie unter **Administration > Badges"** auf die 3 Punkte am Ende der Zeile des gewünschten Badges.
+Zum Löschen eines Badges klicken Sie unter **Administration > "Badges"** auf die 3 Punkte am Ende der Zeile des gewünschten Badges.
 
 Die Löschung kann dann auf 2 Arten erfolgen:
 

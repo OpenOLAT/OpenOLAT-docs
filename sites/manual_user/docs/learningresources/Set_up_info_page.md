@@ -6,9 +6,7 @@ parties after publication of the learning resource, independent of a booking,
 before entering the learning resource. This is useful, for example, if you
 want to inform the target group in advance.
 
-The info page is set up via the "Settings" of the "Administration" menu. Especially the tabs "Info","Metadata" and "Execution" are relevant. The more detailed you describe the
-learning resource, the easier it can be found and the better informed
-interested parties and later participants are.
+The info page is set up via the "Settings" of the "Administration" menu. Especially the tabs "Info", "Metadata" and "Execution" are relevant. The more detailed you describe the learning resource, the easier it can be found and the better informed interested parties and later participants are.
 
 ![](assets/settings15.png)
 
@@ -108,7 +106,13 @@ resource online, the field can remain empty. Alternatively, you can enter
 implementation period can be defined. The following options are possible:
 
   *  _None_:  Choose this option if the course does not start and end on a specific date or if you do not want to include the date explicitly in the information.
+
   *  _With begin and end date:_  The course owner can enter the start and end date of the course here. The end date includes the end day (23:59). The date then appears as information in the course overview. However, the date entered is independent of the course status and the course access rights (see chapter ["Access configuration"](../learningresources/Access_configuration.md)). It has no effect on the visibility and the access for the course members.
+
+!!! note "Note"
+
+    When using the automatic life cycle, the course status is controlled by the end date.
+
   *  _Semester:_  If semester data has been configured at system level by the OpenOlat Administrator, one of the displayed semester options can be selected here. The semester then appears as information in the course overview. However, the semester is independent of the course status and the course access rights (see chapter ["Access configuration"](../learningresources/Access_configuration.md)). It therefore has no effect on the visibility and access for course members.
 
 The configured execution period is displayed in the information of the course info.

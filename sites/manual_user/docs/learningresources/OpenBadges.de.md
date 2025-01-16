@@ -56,12 +56,12 @@ Während der Erstellung eines Badges mit dem Wizard können im Schritt "Vergabek
 ## Wie werden globale Badges vergeben? {: #award_a_course-badge}
 
 Auch globale Badges können manuell oder automatisch anhand definierter Regeln vergeben werden.
-Sowohl manuelle Vergabe, wie auch die Definition der Regeln für eine automatische Vergabe globaler Badges können jedoch nur durch Administrator:innen [Administrator:innen](../../manual_admin/administration/e-Assessment_openBadges.de.md) erfolgen.
+Sowohl manuelle Vergabe, wie auch die Definition der Regeln für eine automatische Vergabe globaler Badges können jedoch nur durch [Administrator:innen](../../manual_admin/administration/e-Assessment_openBadges.de.md) erfolgen.
 
 ### Globale Badges manuell vergeben
 
 Globale Badges können durch Administrator:innen manuell vergeben werden unter<br>
-**Administration > e-Assessment > OpenBadges > Tab "Globale Badges" > Button"Badge manuell vergeben"**.<br>
+**Administration > e-Assessment > OpenBadges > Tab "Globale Badges" > Button "Badge manuell vergeben"**.<br>
 
 ### Globale Badges automatisch vergeben
 

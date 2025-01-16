@@ -35,7 +35,7 @@ Hierüber können einzelne Inhaltselemente hervorgehoben und z.B. als Info, Tipp
 
 Nutzen Sie dieses Element um schnell und einfach eine Überschrift hinzuzufügen.
 
-Im Inspektor Menü kann eine Grösse von h1-h6 kann eingestellt werden, wobei h1 der "Überschrift 1" entspricht und somit am grössten und h6 der "Überschrift 6" und somit am kleinsten ist. Im Tab "Layout kann ferner, wie in den meisten Inhaltselemente, der Abstand zum Text definiert.
+Im Inspektor Menü kann eine Grösse von h1-h6 kann eingestellt werden, wobei h1 der "Überschrift 1" entspricht und somit am grössten und h6 der "Überschrift 6" und somit am kleinsten ist. Im Tab "Layout" kann ferner, wie in den meisten Inhaltselemente, der Abstand zum Text definiert.
 ![Titel ePortfolio](assets/Titel_Portfolio.png){ class="lightbox" }
 
 ### Text
