@@ -43,10 +43,10 @@ nav:
     - Reports: "administration/Reports.md"
     - e-Assessment Administration:
       - Overview: "administration/e-Assessment_Administration.md"
-      - eAssessment ePortfolio: "administration/eAssessment_ePortfolio.md"
-      - eAssessment Question bank: "administration/eAssessment_Question_bank.md"
-      - eAssessment Einstufung/Noten: "administration/Assessment_translate_points_in_grades_admin.md"
-      - eAssessment OpenBadges: "administration/e-Assessment_openBadges.md"
+      - ePortfolio: "administration/eAssessment_ePortfolio.md"
+      - Question bank: "administration/eAssessment_Question_bank.md"
+      - Einstufung/Noten: "administration/Assessment_translate_points_in_grades_admin.md"
+      - OpenBadges: "administration/e-Assessment_openBadges.md"
     - External tools :
       - Overview : "administration/External_Tools_-_Administration.md"
       - BigBlueButton module: "administration/BigBlueButton_module.md"

@@ -1,5 +1,7 @@
 # Reports: Übersicht {: #reports}
 
+![admin_reports_overview_v1_de.png](assets/admin_reports_overview_v1_de.png){ class="shadow lightbox aside-left-lg" }
+
 Administrator:innen können Reports zu folgenden Bereichen abfragen:
 
 ---
@@ -15,7 +17,7 @@ Personen, die das Zertifikat für die jeweiligen Suchkriterien bestanden haben.
 [Zu den Details der Rezertifizierung>](../../manual_user/learningresources/Course_Settings_Assessment.de.md#recertification)<br>
 [Zum Seitenanfang ^](#reports)
 
----
+
 
 ## Fragen in Tests {: #questions_in_tests}
 

@@ -1,10 +1,12 @@
 # Lebenszyklen: Übersicht {: #lifecycles}
 
+![admin_lifecycles_overview_v1_de.png](assets/admin_lifecycles_overview_v1_de.png){ class="shadow lightbox aside-left-lg" }
+
 In diesem Abschnitt können die folgenden Lebenszyklen administriert werden:
 
 ---
 
-## Gruppen
+## Gruppen {: #lifecycle_groups}
 
 In der OpenOlat-Administration können Einstellungen für den [Gruppen-Lebenszyklus](Automatic_Group_Lifecycle.de.md) vorgenommen werden. Dieser vollzieht sich in den Schritten
 
@@ -18,9 +20,9 @@ Einstellung können sowohl für Gruppen generell, als auch nur für bestimmte Gr
 [Zu den Details >](Automatic_Group_Lifecycle.de.md)<br>
 [Zum Seitenanfang ^](#lifecycles)
 
----
 
-## Kurse
+
+## Kurse {: #lifecycle_courses}
 
 Im Lebenszyklus von Kursen kann festgelegt werden, 
 
@@ -33,9 +35,9 @@ Im Lebenszyklus von Kursen kann festgelegt werden,
 
 [Zum Seitenanfang ^](#lifecycles)
 
----
 
-## Konto
+
+## Konto {: #lifecycle_accounts}
 
 Ähnlich dem automatisch gesteuerten Kurs-Lifecycle kann auch der Lebenszyklus von Konten der OpenOlat-Benutzer:innen automatisiert werden. 
 

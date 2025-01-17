@@ -1,8 +1,9 @@
 # Core Konfiguration: Übersicht {: #core_config}
 
-Im Bereich Core Konfiguration haben Administrator:innen Zugriff auf die Bereiche:
+![admin_core_config_overview_v1_de.png](assets/admin_core_config_overview_v1_de.png){ class="shadow lightbox aside-left-lg" }
+
+Im Bereich Core Konfiguration haben Administrator:innen Zugriff auf das nebenstehende Menü.
  
----
 
 ## Sprachen
 
@@ -13,7 +14,7 @@ Auch Einstellungen bezüglich einer geschlechterspezifischen Sprache können hie
 
 [Zum Seitenanfang ^](#core_config)
 
----
+
 
 ## Startseite
 
@@ -23,7 +24,7 @@ Administrator:innen können für verschiedene Rollen oder Benutzer:innen mit bes
 [Zu den Details >](../administration/Landing_pages.de.md)<br>
 [Zum Seitenanfang ^](#core_config)
 
----
+
 
 ##  Persönliche Werkzeuge für Benutzer
 
@@ -36,7 +37,7 @@ den Schnellzugriff aktiviert sind (Voreinstellung).
 
 [Zum Seitenanfang ^](#core_config)
 
----
+
 
 ## REST API
 
@@ -45,7 +46,7 @@ Neben der Aktivierung der Schnittstelle werden hier auch die gemanagten Objekte 
 [Zu den Details >](../administration/REST_API.de.md)<br>
 [Zum Seitenanfang ^](#core_config)
 
----
+
 
 ## Kalender Administration
 
@@ -55,7 +56,7 @@ An dieser Stelle können die System Administrator:innen die OpenOlat-Kalender ei
 
 [Zum Seitenanfang ^](#core_config)
 
----
+
 
 ## E-Mail-Einstellungen
 
@@ -64,7 +65,7 @@ Als Administrator:in finden Sie hier Konfigurationsmöglichkeiten der OpenOlat-E
 [Zu den Details >](../administration/E-Mail_Settings.de.md)<br>
 [Zum Seitenanfang ^](#core_config)
 
----
+
 
 ## Dateien und Ordner
 
@@ -76,7 +77,7 @@ Hier finden Sie Optionen zu allgemeinen Einstellungen/Konfigurationen betreffend
 [Zu den Details >](../administration/Files_and_Folders.de.md)<br>
 [Zum Seitenanfang ^](#core_config)
 
----
+
 
 ## WebDAV
 
@@ -85,7 +86,7 @@ Hier kann der WebDAV-Zugang systemweit eingerichtet und konfiguriert werden.
 [Zu den Details >](../administration/WebDAV.de.md)<br>
 [Zum Seitenanfang ^](#core_config)
 
----
+
 
 ## Zugangskontrolle
 
@@ -93,7 +94,7 @@ Hier können Sie die Zugangskontrolle für Lernressourcen und Gruppen für das g
 
 [Zum Seitenanfang ^](#core_config)
 
----
+
 
 ## Statistiken
 
@@ -101,7 +102,7 @@ Hier finden Sie Angaben zur Statistikgenerierung und Sie können das Updaten der
 
 [Zum Seitenanfang ^](#core_config)
 
----
+
 
 ## Volltextsuche
 
@@ -109,7 +110,7 @@ Hier finden Sie Angaben über die Indexierung der Volltextsuche.
 
 [Zum Seitenanfang ^](#core_config)
 
----
+
 
 ## Benachrichtigungen
 
@@ -118,7 +119,7 @@ Administrator:innen können hier ein sofortiges Senden veranlassen.
 
 [Zum Seitenanfang ^](#core_config)
 
----
+
 
 ## GUI-Einstellungen
 
@@ -126,7 +127,7 @@ Hier können eingestellte Werte zum Graphical User Interface zurückgesetzt werd
 
 [Zum Seitenanfang ^](#core_config)
 
----
+
 
 ## Lizenzen
 

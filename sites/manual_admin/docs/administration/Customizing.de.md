@@ -1,6 +1,8 @@
 # Customizing: Übersicht {: #customizing}
 
-Das Menü "Customizing" umfasst Einstellungen bezüglich:
+![admin_customizing_overview_v1_de.png](assets/admin_customizing_overview_v1_de.png){ class="shadow lightbox aside-left-lg" }
+
+Das Menü "Customizing" umfasst Einstellungen bezüglich der hier aufgeführten Menüpunkte.
 
 ---
 
@@ -11,7 +13,7 @@ Fusszeile hinterlegt werden.
 
 [Zum Seitenanfang ^](#customizing)
 
----
+
 
 ## Impressum
 
@@ -19,7 +21,7 @@ Aktivierung und Konfigurationen zum Impressum, auch für verschiedene Sprachen
 
 [Zum Seitenanfang ^](#customizing)
 
----
+
 
 ## Hilfe
 
@@ -32,7 +34,7 @@ Kontaktformular ist möglich.
 
 [Zum Seitenanfang ^](#customizing)
 
----
+
 
 ## Sprachpassungswerkzeug
 
@@ -40,20 +42,26 @@ Hier können bei Bedarf einzelne Textelemente angepasst werden
 
 [Zum Seitenanfang ^](#customizing)
 
----
+
 
 ## Systemregistrierung
 
 [Zum Seitenanfang ^](#customizing)
 
----
+
+
+## Portal
+
+[Zum Seitenanfang ^](#customizing)
+
+
 
 ## Benutzer:innen-Attribute
 
 
 [Zum Seitenanfang ^](#customizing)
 
----
+
 
 ## Sites
 

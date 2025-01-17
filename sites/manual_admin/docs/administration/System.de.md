@@ -1,10 +1,12 @@
 # System {: #system}
 
+![admin_system_overview_v1_de.png](assets/admin_system_overview_v1_de.png){ class="shadow lightbox aside-left-lg" }
+
 Im Bereich "System" der OpenOlat-Administration erhalten Administrator:innen
 allgemeine Informationen zur System Runtime, wie genutzter Speicher, aktuelle
 Klickzahlen oder Datenverzeichnisse. 
 
-Die Administrator:innen haben hier Zugriff auf die folgenden Bereiche:
+Die Administrator:innen haben hier Zugriff auf das nebenstehende Menü.
 
 ---
 
@@ -21,7 +23,7 @@ Zusätzlich können Dokumente (z.B. weitere Infos in pdf-Form) verlinkt werden. 
 
 [Zum Seitenanfang ^](#system)
 
----
+
 
 ## Aktive Sitzungen {: #active_sessions}
 
@@ -29,7 +31,7 @@ Hier werden die aktuell eingeloggten Personen angezeigt.
 
 [Zum Seitenanfang ^](#system)
 
----
+
 
 ## Errors {: #errors}
 
@@ -37,7 +39,7 @@ Hier kann nach Fehlernummer und Datum gesucht werden.
 
 [Zum Seitenanfang ^](#system)
 
----
+
 
 ## Caches {: #caches}
 
@@ -45,7 +47,7 @@ Hier werden Cache-Einstellungen aufgelistet und OpenOlat-Caches können geleert 
 
 [Zum Seitenanfang ^](#system)
 
----
+
 
 ## Locks {: #locks}
 
@@ -53,7 +55,7 @@ Hier werden die durch Benutzer gesperrten Objekte angezeigt.
 
 [Zum Seitenanfang ^](#system)
 
----
+
 
 ## Database ORM {: #database}
 
@@ -61,7 +63,7 @@ Der Tab "Database ORM" liefert Statistik-Angaben und listet JPA Queries und JPA 
 
 [Zum Seitenanfang ^](#system)
 
----
+
 
 ## Java VM Infos {: #java}
 
@@ -70,7 +72,7 @@ Umgebungsvariablen und können die Java Garbage Collection starten.
 
 [Zum Seitenanfang ^](#system)
 
----
+
 
 ## Scheduler {: #scheduler}
 
@@ -78,7 +80,7 @@ Hier finden Administrator:innen eine Übersicht über Scheduler-Jobs.
 
 [Zum Seitenanfang ^](#system)
 
----
+
 
 ## Konfigurationen {: #system_config}
 

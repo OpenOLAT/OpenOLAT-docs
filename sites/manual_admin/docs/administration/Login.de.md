@@ -1,8 +1,10 @@
 # Login: Übersicht {: #login}
 
-Zum Login können folgende Bereiche konfiguriert werden:
+![admin_login_overview_v1_de.png](assets/admin_login_overview_v1_de.png){ class="shadow lightbox aside-left-lg" }
+
+Zur Konfiguration des Logins steht das nebenstehende Menü zur Verfügung.
  
----
+
 
 ## Sicherheit
 
@@ -11,7 +13,7 @@ Die Anforderungen an die Sicherheit können je nach Institution variieren. In de
 [Zu den Details >](../administration/Login_Security.de.md)<br>
 [Zum Seitenanfang ^](#login)
 
----
+
 
 ## Passwort und Authentifizierung
 
@@ -26,7 +28,7 @@ fesgelegt werden wie oft Benutzer ihr Passwort ändern müssen.
 [Zu den Details >](../administration/Login_Password_and_Authentication.de.md)<br>
 [Zum Seitenanfang ^](#login)
 
----
+
 
 ## Cloud Login
 
@@ -34,7 +36,7 @@ Es besteht die Möglichkeit die Verbindung mit sozialen Netzwerken, wie LinkedIn
 
 [Zum Seitenanfang ^](#login)
 
----
+
 
 ## Anonyme und externe Benutzer:innen
 
@@ -43,7 +45,7 @@ Administrator:innen können festlegen, ob und in welchem Umfang OpenOlat von ano
 [Zu den Details >](../administration/Guest_and_Invitation.de.md)<br>
 [Zum Seitenanfang ^](#login)
 
----
+
 
 ## Selbstregistration
 
@@ -54,7 +56,7 @@ Selbstregistrierung eingeschränkt werden (Standardwert für die Konto-Gültigke
 
 [Zum Seitenanfang ^](#login)
 
----
+
 
 ## SMS
 

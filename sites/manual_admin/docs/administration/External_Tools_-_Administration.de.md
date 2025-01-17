@@ -1,12 +1,12 @@
 # Externe Werkzeuge: Übersicht {: #ext_tools}
 
-![admin_external_tools_overview_v1_de.png](assets/admin_external_tools_overview_v1_de.png){ class="shadow lightbox aside-right-lg" }
+![admin_external_tools_overview_v1_de.png](assets/admin_external_tools_overview_v1_de.png){ class="shadow lightbox aside-left-lg" }
 
 
-In diesem Bereich können die OpenOlat Administrator:innen diverse externe Tools
+In diesem Bereich können die OpenOlat-Administrator:innen diverse externe Tools
 ein- und ausschalten (z.B. mehrere virtuelle Klassenzimmer) und je nach Tool bestimmte Basiseinstellungen einrichten, die systemweit gelten.
 
----
+
 
 ## BigBlueButton {: #bbb}
 
@@ -15,7 +15,7 @@ Um Webkonferenzen mit BigBlueButton in OpenOlat zu ermöglichen, muss BBB in der
 [Zu den Details >](BigBlueButton_module.de.md)<br>
 [Zum Seitenanfang ^](#ext_tools)
 
----
+
 
 ## OpenMeetings {: #openmeetings}
 
@@ -36,7 +36,7 @@ angelegten OpenMeetings Räume.
 
 [Zum Seitenanfang ^](#ext_tools)
 
----
+
 
 ## Adobe Connect {: #adobe_connect}
 
@@ -46,7 +46,7 @@ Eine Aktivierung und Konfiguration kann vorgenommen werden, wenn die erforderlic
 
 [Zum Seitenanfang ^](#ext_tools)
 
----
+
 
 ## Microsoft Teams {: #_microsoft_teams}
 
@@ -54,7 +54,7 @@ Die Aktivierung und Konfiguration kann vorgenommen werden, wenn die erforderlich
 
 [Zum Seitenanfang ^](#ext_tools)
 
----
+
 
 ## Microsoft SharePoint / OneDrive {: #microsoft_sharepoint}
 
@@ -65,7 +65,7 @@ Voraussetzung ist, dass die erforderlichen Lizenzen vorhanden sind.
 [Zu den Details >](SharePoint_OneDrive.de.md)<br>
 [Zum Seitenanfang ^](#ext_tools)
 
----
+
 
 ## Zoom {: #zoom}
 
@@ -74,7 +74,7 @@ Um Zoom Meetings in OpenOlat zu ermöglichen, muss Zoom in der Administration ak
 [Zu den Details >](Zoom.de.md)<br>
 [Zum Seitenanfang ^](#ext_tools)
 
----
+
 
 ## LTI 1.3 {: #lti}
 
@@ -83,7 +83,7 @@ Hier kann LTI 1.3 aktiviert und näher konfiguriert werden. So können z.B. exte
 [Zu den Details >](LTI_Integrations.de.md)<br>
 [Zum Seitenanfang ^](#ext_tools)
 
----
+
 
 ## GoToTraining {: #go_to_training}
 
@@ -94,7 +94,7 @@ Eine Aktivierung und Konfiguration kann vorgenommen werden, wenn die erforderlic
 [Website GoToTraining >](https://www.goto.de/training)<br>
 [Zum Seitenanfang ^](#ext_tools)
 
----
+
 
 ## vitero {: #vitero}
 
@@ -128,7 +128,7 @@ Benutzerkonten und Termine werden nicht berücksichtigt.
 [Website vitero >](https://www.vitero.com/de)<br>
 [Zum Seitenanfang ^](#ext_tools)
 
----
+
 
 ## JupyterHub {: #jupyter}
 
@@ -138,7 +138,7 @@ JupyterHub dient der Bereitstellung von Jupyter-Images für Lernende.
 [Benutzerhandbuch: Kursbaustein JupyterHub >](../../manual_user/learningresources/Course_Element_JupyterHub.de.md)<br>
 [Zum Seitenanfang ^](#ext_tools)
 
----
+
 
 ## card2brain {: #card2brain}
 
@@ -150,7 +150,7 @@ Eine Aktivierung und Konfiguration kann vorgenommen werden, wenn die erforderlic
 [Website card2brain >](https://card2brain.ch/de)<br>
 [Zum Seitenanfang ^](#ext_tools)
 
----
+
 
 ## Edubase/Edubook {: #edubase}
 
@@ -162,7 +162,7 @@ Eine Aktivierung und Konfiguration kann vorgenommen werden, wenn die erforderlic
 [Website Edubase >](https://www.edubase.ch)<br>
 [Zum Seitenanfang ^](#ext_tools)
 
----
+
 
 ## YouTube API {: #youtube_api}
 
@@ -170,7 +170,7 @@ Eingabe, Entfernung oder Prüfen des API Schlüssels.
 
 [Zum Seitenanfang ^](#ext_tools)
 
----
+
 
 ## Opencast {: #opencast}
 
@@ -180,7 +180,7 @@ Nach der Aktivierung können die API-, LTI-Konfiguration vorgenommen werden. Auc
 
 [Zum Seitenanfang ^](#ext_tools)
 
----
+
 
 ## MediaSite {: #mediasite}
 
@@ -193,7 +193,7 @@ Kanal oder Modul in Kurse zu integrieren.
 [Dokumentation zu MediaSite >](https://mediasite.com/)<br>
 [Zum Seitenanfang ^](#ext_tools)
 
----
+
 
 ## edu-sharing {: #edusharing}
 
@@ -216,7 +216,7 @@ speichern.
 [Website edu-sharing >](https://edu-sharing.com/)<br>
 [Zum Seitenanfang ^](#ext_tools)
 
----
+
 
 ## Dokumenteneditoren {: #dokumenteneditoren}
 
@@ -229,7 +229,7 @@ Voraussetzung ist jeweils, dass die erforderlichen Lizenzen vorhanden sind.
 
 [Zum Seitenanfang ^](#ext_tools)
 
----
+
 
 ## draw.io  {: #draw_io}
 
@@ -239,7 +239,7 @@ draw.io ist ein Online-Werkzeug zur Erstellung von Diagrammen, das in OpenOlat i
 [Website draw.io >](https://www.drawio.com)<br>
 [Zum Seitenanfang ^](#ext_tools)
 
----
+
 
 ## Analytics {: #analytics}
 
@@ -247,7 +247,7 @@ Hier besteht die Möglichkeit, externe Analyse Services zu aktivieren, wie z.B. 
 
 [Zum Seitenanfang ^](#ext_tools)
 
----
+
 
 ## KI Modul {: #ki_modul}
 
@@ -255,9 +255,9 @@ Hier aktiveren und konfigurieren Sie die Werkzeuge der Künstlichen Intelligenz,
 
 [Zum Seitenanfang ^](#ext_tools)
 
----
 
-## PDF Generator
+
+## PDF Generator {: #pdf_generator}
 
 In OpenOlat können an verschiedenen Orten PDFs erzeugt werden, z.B. Zertifikate, Testresultate, Mitgliederlisten oder ähnliches. 
 Diese Funktionen stehen nur zur Verfügung, wenn ein PDF-Service konfiguriert ist. 
@@ -285,5 +285,5 @@ Wie Sie den AthenaPDF-Service installieren und konfigurieren erfahren Sie im [In
 
  [Zum Seitenanfang ^](#ext_tools)
 
---- 
+ 
 
