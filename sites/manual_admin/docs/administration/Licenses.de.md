@@ -1,9 +1,9 @@
-# Lizenzen
+# Lizenzen {: #licences}
 
 Das Lizenzmanagement in OpenOlat ist optional und kann in der Administration
 konfiguriert werden.
 
-## Aktivierung von Lizenzbereichen
+## Aktivierung von Lizenzbereichen {: #licences_activation}
 
 ![](assets/LizenzMgmt_aktivieren_EN.png){ class="shadow lightbox aside-right-lg" }
 
@@ -16,7 +16,11 @@ Die Verwendung von Lizenzen ist für folgende Bereiche in OpenOlat möglich:
 In der Administration können die Lizenzen für diese Bereiche aktiviert bzw.
 deaktiviert werden.
 
-## Lizenztypen
+[Zum Seitenanfang ^](#licences)
+
+---
+
+## Lizenztypen {: #licences_types}
 
 In OpenOlat sind bereits 8 Standardlizenzen definiert, sieben Creative
 Commons-Lizenzen, sowie eine "All rights reserved"-Lizenz. Diese Standard
@@ -52,9 +56,12 @@ Lizenztypen zu aktivieren.
 
 ![](assets/LizenzMgmt_Lizenztypen_DE.png){ class="shadow lightbox" }
 
-  
+  [Zum Seitenanfang ^](#licences)
 
-## Initiale Lizenzen festlegen
+---
+
+
+## Initiale Lizenzen festlegen {: #licences_initial}
 
 ![](assets/LizenzMgmt_initiale_DE.png){ class="shadow lightbox aside-right-lg" }
 
@@ -69,5 +76,8 @@ im Fragenpool bzw. einer neuen Lernressource im Autorenbereich wird
 automatisch die hinterlegte Lizenz sowie der angegebene Lizenzgeber
 zugeordnet.
 
-  
+[Zum Seitenanfang ^](#licences)
+
+---
+
 
