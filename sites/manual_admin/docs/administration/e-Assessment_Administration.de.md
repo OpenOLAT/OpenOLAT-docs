@@ -6,6 +6,9 @@ Im Bereich e-Assessment können Administrator:innen folgende Einstellungen vorne
 
 ## ePortfolio
 
+Das ePortfolio kann von Administrator:innen ein- oder ausgeschaltet werden. Ist es aktiviert, können verschiedene Einstellungen zu den Nutzungsmöglichkeiten festgelegt werden.
+
+
 [Zu den Details >](eAssessment_ePortfolio.de.md)<br>
 [Zum Seitenanfang ^](#e-assessments)
 
