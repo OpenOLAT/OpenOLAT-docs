@@ -1,26 +1,37 @@
-# Datenschutz
+# Datenschutz {: #data_protection}
 
 Die seit dem 25. Mai 2018 gültige Datenschutzgrundverordnung (DSGVO) der EU
 regelt die Grundlagen für den Datenschutz von Benutzern. Zur Erfüllung der
 Anforderungen der DSGVO bietet OpenOlat zum einen die Möglichkeit,
-Benutzerdaten zu exportieren und zum anderen die Löschung von Benutzern und
+Benutzerdaten zu exportieren und zum anderen die Löschung von Benutzer:innen und
 deren Daten.
 
-## Löschen von Benutzern und Benutzerdaten
+## Löschen von Benutzer:innen und Benutzerdaten {: #delete_user}
 
-Das Löschen von OpenOlat Benutzern bewirkt folgendes:
+Das Löschen von OpenOlat Benutzer:innen bewirkt folgendes:
 
-* Für Benutzer ohne Systemrolle werden alle Benutzerdaten gelöscht.
-* Für Benutzer mit administrativer Rolle werden alle Benutzerdaten bis auf Vor- und Nachnamen gelöscht, um eine transparente und konsistente Darstellung der administrativen Aktionen in den Logdateien (z. B. von Kursen) gewährleisten zu können. Die Daten können bei Bedarf in der [Benutzerverwaltung](../usermanagement/index.de.md) über die Aktion «Entfernen» in der Tabelle "Gelöschte Benutzer" ebenfalls gelöscht werden.
+* Für Benutzer:innen ohne Systemrolle werden alle Benutzerdaten gelöscht.
+* Für Benutzer:innen mit administrativer Rolle werden alle Benutzerdaten bis auf Vor- und Nachnamen gelöscht, um eine transparente und konsistente Darstellung der administrativen Aktionen in den Logdateien (z. B. von Kursen) gewährleisten zu können. Die Daten können bei Bedarf in der [Benutzerverwaltung](../usermanagement/index.de.md) über die Aktion «Entfernen» in der Tabelle "Gelöschte Benutzer" ebenfalls gelöscht werden.
 * Persönliche Daten werden aus den Log-Tabellen gelöscht. Der Benutzername wird gelöscht und in den Log-Tabellen durch eine ID ersetzt.
 * Persönliche Daten werden aus dem Logfile gelöscht. Anstelle des Benutzernamens wird nur noch eine ID ins Logfile geschrieben.
-* Das [Portfolio](../../manual_user/area_modules/Portfolio_General_Information.de.md) sowie eigene Inhalte der Mediathek des Benutzers werden gelöscht.
-* Persönliche Chat-Nachrichten des Benutzers werden gelöscht.
+* Das [Portfolio](../../manual_user/area_modules/Portfolio_General_Information.de.md) der Benutzer:innen wird gelöscht.
+* Ins [Media Center](../../manual_user/basic_concepts/Media_Center_Concept.de.md) hochgeladene Medien gehören grundsätzlich einem/einer Besitzer:in. Beim Löschen des/der Besitzer:in gilt für seine/ihre Inhalte:
+    * Medien mit Verwendung im ePortfolio werden gelöscht.
+    * Medien ohne Verwendung in einem Kursbaustein "Seite", die nicht geteilt werden, werden gelöscht.
+    * Medien mit Verwendung in einem Kursbasustein "Seite" oder solche, die geteilt wurden, werden beibehalten, sind ab dann aber ohne Besitzer:in.
+    * Medien ohne Besitzer:in werden in Zukunft in der Medienverwaltung für Administrator:innen angezeigt.
+* Persönliche Chat-Nachrichten der Benutzer:in werden gelöscht.
 * Persönliche Forum-Posts und -Kommentare werden nach der Löschung des Nutzers anonymisiert und mit "unknown user" ausgewiesen.
 * Kommentare und Bewertungen (Ratings) des Benutzers werden gelöscht. Antworten des gelöschten Benutzers auf Kommentare werden durch "User has been deleted" ersetzt.
 * Die Visitenkarte des Benutzers wird nicht mehr in OpenOlat (z. B. im Forum oder bei Kommentaren) angezeigt.
 
-## Export von Benutzerdaten
+
+[Zum Seitenanfang ^](#data_protection)
+
+---
+
+
+## Export von Benutzerdaten {: #export_user_data}
 
 Für jeden Benutzer kann ein Export der in OpenOlat hinterlegten Benutzerdaten
 durchgeführt werden.
@@ -68,9 +79,14 @@ Benutzers ist damit nicht möglich.
 
 ![Userdaten exportieren](assets/Export1_DE.png){ class="shadow lightbox" }
 
-## Weitere Datenschutz-Funktionen
+[Zum Seitenanfang ^](#data_protection)
 
-### Drucken der Nutzungsbedingungen
+---
+
+
+## Weitere Datenschutz-Funktionen 
+
+### Drucken der Nutzungsbedingungen {: #print_terms_of_use}
 
 Das Drucken der Nutzungsbedingungen ist sowohl während des Login-Prozesses im
 Dialog "Nutzungsbedingungen" als auch in den persönlichen Einstellungen im Tab
@@ -80,7 +96,10 @@ Dialog "Nutzungsbedingungen" als auch in den persönlichen Einstellungen im Tab
 
 ![Nutzungsbedingungen drucken in Benutzereinstelungen](assets/Nutzungsbedingungen_drucken1_DE-2.png){ class="shadow lightbox thumbnail-lg" }
 
-### Sichtbarkeit von E-Mail-Adressen in OpenOlat
+### Sichtbarkeit von E-Mail-Adressen in OpenOlat {: #visibility_of_e-mail}
 
-E-Mail Adressen anderer Nutzer sind in OpenOlat nur für administrative Nutzer,
-nicht aber für normale Nutzer sichtbar.
+E-Mail Adressen anderer Benutzer:innen sind in OpenOlat nur für administrative Benutzer:innen,
+nicht aber für normale Benutzer:innen sichtbar.
+
+[Zum Seitenanfang ^](#data_protection)
+
