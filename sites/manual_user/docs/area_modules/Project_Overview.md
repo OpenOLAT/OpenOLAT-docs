@@ -17,6 +17,11 @@ OpenOlat users can find the projects **in the header menu**.
 
 ![projekte_hauptmenue_v1_de.png](assets/projekte_hauptmenue_v1_de.png){ class="shadow lightbox" }
 
+!!! info “Note”
+
+    If a project has been deleted, it can no longer be edited. However, it is still in the “My projects” area -> in the “Deleted” tab. You can still access it from here. You can also download the report or reactivate the project.
+
+
 ## Which projects can be mapped in OpenOlat?
 
 Examples:

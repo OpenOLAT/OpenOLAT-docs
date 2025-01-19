@@ -17,6 +17,10 @@ Die OpenOlat-User finden die Projekte **im Menü der Kopfzeile**.
 
 ![projekte_hauptmenue_v1_de.png](assets/projekte_hauptmenue_v1_de.png){ class="shadow lightbox" }
 
+!!! info "Hinweis"
+
+    Wurde ein Projekt gelöscht kann es nicht mehr bearbeitet werden. Es liegt aber noch im Bereich "Meine Projekte" -> im Tab "Gelöschte". Von hier aus besteht noch einlesender Zugriff. Auch der Report kann heruntergeladen oder das Projekt reaktiviert werden.  
+
 ## Welche Projekte können in OpenOlat abgebildet werden?
 
 Beispiele:
