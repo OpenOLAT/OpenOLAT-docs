@@ -5,7 +5,7 @@
 
 * * *
 
-:material-calendar-month-outline: **Releasedatum: 27.11.2024 • Letztes Update: 17.12.2024**
+:material-calendar-month-outline: **Releasedatum: 27.11.2024 • Letztes Update: 15.01.2024**
 
 * * *
 
@@ -153,6 +153,11 @@ Der Bereich zur Aktivierung von "Änderungen (Ein / Aus)" bei abonnierbaren Baus
 * Prüfungsmodus nicht bei Kursbesitzer:innen ausführen
 * Neue Abstufung für initiale Rolle bei Kursaufruf (Kursrollen werden höher gewichtet als administrative Systemrollen)
 * Anpassung der Berechtigungen für die Rolle "Klassenlehrer:in"
+* Fragenpool: (:octicons-tag-24: ab Release 19.1.3)
+    * Umsetzung aktuelles Tabellen- und Filterkonzept
+    * Anzeige der Maximalpunktzahl pro Frage-Item
+    * Anzeige der Gesamtpunktzahl für einen Test im Wizard zur Test-Erstellung
+    * Sortierung der einzelnen Tabellenspalten im Wizard zur Test-Erstellung
 
 * * *
 
@@ -168,6 +173,7 @@ Der Bereich zur Aktivierung von "Änderungen (Ein / Aus)" bei abonnierbaren Baus
 * WebDAV: Unterstützung für BasicAuthentication entfernt
 * Konfiguration zur Begrenzung von Domänen externer Medienressourcen
 * OnlyOffice: im Lese-Modus erfolgt keine Aktualisierung des Inhaltes (= kein Live-View)
+* Überprüfung von Configuration Key *und* Browser-Exam Key (BEK) - geliefert vom JavaScript-API des SEB - für den Zugang zu OpenOlat im Prüfungsmodus mit SEB (:octicons-tag-24: ab Release 19.1.3)
 
 * * *
 
@@ -186,6 +192,7 @@ Der Bereich zur Aktivierung von "Änderungen (Ein / Aus)" bei abonnierbaren Baus
 
 ## Weitere Informationen
 
+* [YouTrack Release Notes 19.1.3](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2019.1.3&title=Release%20Notes%2019.1.3){:target="_blank"}
 * [YouTrack Release Notes 19.1.2](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2019.1.2&title=Release%20Notes%2019.1.2){:target="_blank"}
 * [YouTrack Release Notes 19.1.1](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2019.1.1&title=Release%20Notes%2019.1.1){:target="_blank"}
 * [YouTrack Release Notes 19.1.0](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2019.1.0&title=Release%20Notes%2019.1.0){:target="_blank"}

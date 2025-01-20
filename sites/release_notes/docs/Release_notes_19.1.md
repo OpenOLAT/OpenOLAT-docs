@@ -5,7 +5,7 @@
 
 * * *
 
-:material-calendar-month-outline: **Release date: 11/27/2024 • Last update: 12/017/2024**
+:material-calendar-month-outline: **Release date: 11/27/2024 • Last update: 01/15/2024**
 
 * * *
 
@@ -153,6 +153,11 @@ The section for activating "Modifications (On / Off)" for subscribable course el
 * Assessment mode not applied to course owners
 * New ranking of the initial role for course visit (course roles are weighted higher than administrative system roles)
 * Adjustment of the rights for the "Master coach" role
+* Question bank: (:octicons-tag-24: release 19.1.3)
+    * Implementation of current table and filter concept
+    * Display of the maximum score per question item
+    * Display of the total score for a test in the test creation wizard
+    * Sorting of the individual table columns in the test creation wizard
 
 * * *
 
@@ -168,6 +173,7 @@ The section for activating "Modifications (On / Off)" for subscribable course el
 * WebDAV: Support for BasicAuthentication removed
 * Configuration for limiting domains of external media resources
 * OnlyOffice: in read-only mode, the content is not updated (= no Live-View)
+* Checking the configuration key *and* browser exam key (BEK) - provided by the SEB's JavaScript API - for access to OpenOlat in assessment mode with SEB (:octicons-tag-24: release 19.1.3)
 
 * * *
 
@@ -186,6 +192,7 @@ The section for activating "Modifications (On / Off)" for subscribable course el
 
 ## More information
 
+* [YouTrack Release notes 19.1.3](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2019.1.3&title=Release%20Notes%2019.1.3){:target="_blank"}
 * [YouTrack Release notes 19.1.2](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2019.1.2&title=Release%20Notes%2019.1.2){:target="_blank"}
 * [YouTrack Release notes 19.1.1](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2019.1.1&title=Release%20Notes%2019.1.1){:target="_blank"}
 * [YouTrack Release notes 19.1.0](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2019.1.0&title=Release%20Notes%2019.1.0){:target="_blank"}
