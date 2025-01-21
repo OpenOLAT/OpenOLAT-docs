@@ -3,10 +3,11 @@
 ![admin_login_overview_v1_de.png](assets/admin_login_overview_v1_de.png){ class="shadow lightbox aside-left-lg" }
 
 Zur Konfiguration des Logins steht das nebenstehende Menü zur Verfügung.
- 
 
 
-## Sicherheit
+---
+
+## Sicherheit {: #security}
 
 Die Anforderungen an die Sicherheit können je nach Institution variieren. In den Sicherheitseinstellungen können Sie daher den notwendigen Level an Sicherheit unter Berücksichtigung der damit eingegangenen Risiken einstellen.
 
@@ -15,7 +16,7 @@ Die Anforderungen an die Sicherheit können je nach Institution variieren. In de
 
 
 
-## Passwort und Authentifizierung
+## Passwort und Authentifizierung {: #password_and_authentification}
 
 Hier kann die Sicherheitsstufe eingestellt werden (mit oder ohne Passkey).
 Ausserdem können die Syntax-Regeln für die OpenOlat Passwörter konfiguriert werden.
@@ -30,7 +31,7 @@ fesgelegt werden wie oft Benutzer ihr Passwort ändern müssen.
 
 
 
-## Cloud Login
+## Cloud Login {: #cloud_login}
 
 Es besteht die Möglichkeit die Verbindung mit sozialen Netzwerken, wie LinkedIn, X, Google, Facebook usw.  für die Authentifizierung herzustellen.
 
@@ -38,7 +39,7 @@ Es besteht die Möglichkeit die Verbindung mit sozialen Netzwerken, wie LinkedIn
 
 
 
-## Anonyme und externe Benutzer:innen
+## Anonyme und externe Benutzer:innen {: #anonymous_and_external}
 
 Administrator:innen können festlegen, ob und in welchem Umfang OpenOlat von anonymen Gäste und externen Benutzer:innen genutzt werden kann.
 
@@ -47,21 +48,24 @@ Administrator:innen können festlegen, ob und in welchem Umfang OpenOlat von ano
 
 
 
-## Selbstregistration
+## Selbstregistration {: #self-registration}
 
 Hier können Administrator:innen die Selbstregistration aktivieren, sowie weitere
 Detaileinstellungen in diesem Kontext vornehmen. Login-Formulare können auch
-in externe Webseiten eingebaut werden. Ferner kann die Gültigkeitsdauer eines Kontos bei
+in externe Webseiten eingebaut werden. Ferner kann z.B. die Gültigkeitsdauer eines Kontos bei
 Selbstregistrierung eingeschränkt werden (Standardwert für die Konto-Gültigkeit).
 
+[Zu den Details >](../administration/Login_Self-Registration.de.md)<br>
 [Zum Seitenanfang ^](#login)
 
 
 
-## SMS
+## SMS {: #sms}
 
 Hier besteht die Möglichkeit einen SMS-Dienst zu konfigurieren. Benachrichtigungen können dann auch per SMS verschickt werden. Zu beachten ist dabei, dass in diesem Kontext Kosten für den SMS-Versand anfallen.
 
 [Zum Seitenanfang ^](#login)
 
 
+
+ 

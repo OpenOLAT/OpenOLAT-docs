@@ -17,6 +17,7 @@ nav:
       - Security: "administration/Login_Security.md"
       - Password and Authentication: "administration/Login_Password_and_Authentication.md"
       - Guest and invitation: "administration/Guest_and_invitation.md"
+      - Self-registration : "administration/Login_Self-Registration.md"
     - Modules:
       - Overview: "administration/Modules.md"
       - Module Instant Messaging: "administration/Instant_Messaging.md"
