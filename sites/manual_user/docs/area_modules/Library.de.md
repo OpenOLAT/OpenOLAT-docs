@@ -48,7 +48,7 @@ Besitzer:innen des mit der Bibliothek verknüpften Ressourcenordners werden übe
 
 Alternativ kann eine andere Person für die Prüfung bestimmt werden und durch Administrator:innen in Administration > Module > Bibliothek eine Mailadresse angegeben werden. Ist dort keine Adresse eingetragen, erhalten die Besitzer:innen der Lernressource den Prüfauftrag.
 
-Ab Release 20 kann dieser Prüfprozess durch Admnistrator:innen auch deaktiviert werden (Administration > Module > Bibliothek). Dies ist nur zu empfehlen, wenn der Upload nicht erlaubt wurde (und dadurch nur Besitzer:innen des Ressourcenordners und Administrator:innen Dokumente hochladen können). Wenn Besitzer:innen des Resourcenordners die Einzigen sind, die Dokmuente hochladen, macht es begrenzt Sinn, bei jedem eigenen Dokument auch selbst eine Prüfung vornehmen zu müssen. 
+Ab Release 20 kann dieser Prüfprozess durch Administrator:innen auch deaktiviert werden (Administration > Module > Bibliothek). Dies ist nur zu empfehlen, wenn der Upload nicht allgemein erlaubt wurde (und dadurch nur Besitzer:innen des Ressourcenordners und Administrator:innen Dokumente hochladen können). Wenn Besitzer:innen des Resourcenordners die Einzigen sind, die Dokmuente hochladen, macht es begrenzt Sinn, bei jedem eigenen Dokument auch selbst eine Prüfung vornehmen zu müssen. 
 
 
 [Zum Seitenanfang ^](#library)
