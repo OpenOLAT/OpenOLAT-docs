@@ -149,6 +149,7 @@ nav:
       - Analysis: "area_modules/Quality_Management_Analysis.md"
       - Actions (To-dos): "area_modules/Quality_Management_To-dos.md"   
       - Suggestion for improvement: "area_modules/Quality_Management_Improvement.md" 
+    - Library: "area_modules/Library.md"
 
   - Learning resources:
     - learningresources/index.md
