@@ -1,10 +1,10 @@
-# Test Fragetypen
+# Test Fragetypen {: #question_types}
 
 Folgende Fragetypen können in OpenOlat Tests verwendet werden:
 
 Die mit einem * versehenen Fragetypen müssen manuell ausgewertet werden.
 
-## Single Choice
+## Single Choice {: #sc}
 
 ![Icon Single Choice Frage](assets/Icon_Single_Choice_DE.png){class=size24 }
 
@@ -20,7 +20,9 @@ Die richtige Antwort können Sie bestimmen, indem Sie in der Spalte _Korrekt_ di
 
 ![Beispiel Single Choice Frage](assets/Single_choice_Beispiel_DE.jpg){ class="shadow" }
   
-## Multiple Choice
+---
+
+## Multiple Choice {: #mc}
 
 ![Icon Multiple Choice Frage](assets/Icon_Multiple_Choice_Frage_DE.png){ class=size24 }
 
@@ -39,7 +41,9 @@ Ferner kann im Reiter "Feedback" neben der genauen Punktevergabe auch die Anzahl
 ![Beispiel Multiple Choice Frage](assets/Multiple_choice_Beispiel_DE.jpg)
 { class=thumbnail-sm }
 
-## Kprim
+---
+
+## Kprim {: #kprim}
 
 ![Icon Kprim Frage](assets/Icon_KPrim_Frage_DE.png){ class=size24 }
 
@@ -59,7 +63,9 @@ Alle Antworten korrekt = 100% der Punktzahl
 
 ![Beispiel Kprim Frage](assets/KPrim_Beispiel_DE.jpg){ class="thumbnail-xl" }
   
-## Matrix
+---
+
+## Matrix {: #matrix}
 
 ![Icon Matrix Frage](assets/Icon_Matrix_Frage_DE.png){ class=size24 }
 
@@ -74,7 +80,9 @@ Dann können sowohl in den Kolonnen als auch in den Zeilen die gewünschten Wert
 
 ![Beispiel Matrix Frage](assets/Matrix_Beispiel_DE.jpg){ class="shadow" }
   
-## Drag&Drop
+---
+
+## Drag&Drop {: #drag_drop}
 
 ![Icon Drag und Drop Frage](assets/Icon_DragDrop_DE.png){ class=size24 }
 
@@ -91,8 +99,14 @@ Bei der Ausrichtung der Antworten wird definiert, wo sich die zuzuordnenden Begr
 Dann werden in den Spalten Kategorien definiert. Kategorien sind die fixen Elemente, in welche die Begriffe gezogen werden. In den Zeilen werden Begriffe hinzugefügt. Die Begriffe können anschliessend mit Drag&Drop in die Kategorien gezogen werden.
 
 ![Beispiel Drag und Drop Frage](assets/DragDrop_Beispiel_DE.png){ class="shadow" }
-  
-## True/false
+
+!!! info "Hinweis: Einschränkung auf Mobiles"
+
+    Dieser Fragetyp ist nicht für mobile Geräte optimiert.
+
+---
+
+## True/false {: #true_false}
 
 ![Icon True False Frage](assets/Icon_true_false_DE.png){ class=size24 }
 
@@ -103,8 +117,10 @@ Benutzer wählen aus einer von drei Antwortoptionen aus: "Unbeantwortet", "Richt
 Anders als bei KPrim können die Punkte frei gewählt werden. Für die Antwortoption "Unbeantwortet" können ebenfalls Punkte vergeben werden.
 
 ![Beispiel True False Frage](assets/True_false_Beispiel_DE.png){ class="shadow" }
-  
-## Lückentext
+
+---
+
+## Lückentext {: #gap}
 
 ![Icon Lückentext Frage](assets/Icon_Lueckentext_DE.png){ class=size24 }
 
@@ -128,7 +144,9 @@ Sobald mindestens zwei Lücken eine identische Antwortmöglichkeit enthalten, is
 
 ![Varianten Lückentext](assets/Lueckentext_Varianten_DE.jpg){ class="shadow" }
 
-## Lückentext mit Dropdown
+---
+
+## Lückentext mit Dropdown {: #gap_dropdown}
 
 ![Icon Lückentext mit Dropdown](assets/icon_dropdown_luecke.png){ class=size24 }
 
@@ -140,7 +158,9 @@ Ferner können auch globale Antworten für die Lücken verwendet werden. Diese w
 
 Die Punktevergabe kann sowohl pauschal über alle Lücken erfolgen als auch für jede Antwort einer Lücke separat konfiguriert werden. 
 
-## Numerische Eingabe {: #ni}
+---
+
+## Numerische Eingabe {: #numeric_input}
 
 ![Icon Numerische Eingabe Frage](assets/Icon_Numerical_Input_DE.png){ class=size24 }
 
@@ -163,7 +183,9 @@ Für jede Lücke können folgende Attribute ausgefüllt werden:
 
 ![Beispiel Numerische Eingabe Frage](assets/Numerical_Input_Beispiel_DE.png){ class="shadow" }
 
-## Hottext
+---
+
+## Hottext {: #hottext}
 
 ![Icon Hottext Frage](assets/Icon_Hottext_DE.png){ class=size24 }
 
@@ -175,7 +197,9 @@ Anschliessend wird ein Text geschrieben und die gewünschten Auswahlbegriffe als
 
 ![Beispiel Hottext Frage](assets/Hottext_Beispiel_DE.png){ class="shadow" }
 
-## Hotspot
+---
+
+## Hotspot {: #hotspot}
 
 ![Icon Hotspot Frage](assets/Icon_Hotspot_DE.png){ class=size24 }
 
@@ -190,7 +214,9 @@ Bei einer Hotspot-Frage werden Hotspots bzw. Bereiche grafisch auf einem Bild da
 
 ![Beispiel Hotspot Frage](assets/Hotspot_Beispiel_DE.png){ class="shadow" }
 
-## Reihenfolge
+---
+
+## Reihenfolge {: #order}
 
 ![Icon Reihenfolge Frage](assets/Icon_Reihenfolge_DE.png){ class=size24 }
 
@@ -201,6 +227,12 @@ Zuerst werden der Titel und die Frage eingetragen.
 Dann können die Antworten in korrekter Reihenfolge eingetragen und die Ausrichtung der Darstellung vertikal oder horizontal gesetzt werden.
 
 ![Beispiel Reihenfolge Frage](assets/Reihenfolge_Beispiel_DE.png){ class="shadow" }
+
+!!! info "Hinweis: Einschränkung auf Mobiles"
+
+    Dieser Fragetyp ist nicht für mobile Geräte optimiert. Bitte berücksichtigen Sie dies bei der Erstellung Ihrer Frage. 
+
+---
 
 ## Freitext* {: #fib}
 
@@ -226,7 +258,9 @@ Freitext-Fragen sind mit einer festen Schriftbreite und der Tabulator-Funktion a
 
 	Mit dem Fragetyp Freitext werden oft Aufsätze geschrieben. Dieser Fragetyp hat deshalb eine Autosave-Funktion, welche den geschriebenen Text jede Minute speichert. Weitere Informationen zur Konfiguration von Aufsätzen finden Sie im Exkurs unterhalb dieser Tabelle.
 
-## Datei hochladen*
+---
+
+## Datei hochladen* {: #file_upload}
 
 ![Icon Datei Upload Frage](assets/Icon_Fileupload_DE.png){ class=size24 }
 
@@ -238,7 +272,9 @@ Eine korrekte Antwort kann nicht markiert, da die Auswertung dieses Fragetyps au
 
 ![Beispiel Datei Upload Frage](assets/Fileupload_Beispiel_DE.png){ class="shadow" }
 
-## Zeichnen*
+---
+
+## Zeichnen* {: #draw}
 
 ![Icon Zeichnen Frage](assets/Icon_Zeichnen_DE.png){ class=size24 }
 
@@ -249,6 +285,11 @@ Zuerst wird ein kurzer Titel und die Frage, respektive die Bearbeitungsanweisung
 Anschliessend wird ein Bild als Hintergrund hochgeladen. Dieses Bild muss dann von den Testteilnehmenden bearbeitet werden. Es muss keine Antwort angegeben werden, da die Auswertung dieses Fragetyps ausschliesslich manuell erfolgt.
 
 Es ist auch möglich Text hinzuzufügen. Die Textgrösse können sie mithilfe der Pinselgrösse steuern.
+
+!!! info "Hinweis: Einschränkung auf Mobiles"
+
+    Dieser Fragetyp ist nicht für mobile Geräte optimiert. Bitte berücksichtigen Sie dies bei der Erstellung Ihrer Frage. 
+
 
 ![Beispiel Zeichnen Frage](assets/Zeichnen_Beispiel_DE.png){ class="shadow" }
 
@@ -268,3 +309,6 @@ Es ist auch möglich Text hinzuzufügen. Die Textgrösse können sie mithilfe de
     * Falls der Test eine Zeitbeschränkung hat, wird der Text ganz am Schluss nur dann gespeichert, wenn er vor Ablauf der Zeit nochmals abgeschickt worden ist. Erinnern Sie die Testteilnehmer kurz vor Schluss daran, die Frage nochmals abzuschicken und anschliessend nichts mehr zu schreiben.
 
 	Bei Beachtung dieser Empfehlungen kann ein Aufsatz im OpenOlat geschrieben werden.
+
+
+[Zum Seitenanfang ^](#question_types)
