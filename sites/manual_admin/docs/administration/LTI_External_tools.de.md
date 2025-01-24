@@ -16,11 +16,11 @@ Anschliessend muss dann durch die Konfiguration im Tab "Externe Tools" die Kommu
 **Beispiele für externe Tools:**
 
 * Online-Kurse von anderen Anbietern
-* Simulationen, wie z.B. ...
-* Lernkarteien, wie z.B. ...
-* Apps, wie z.B. ...
-* Interaktive Übungen, wie z.B. ...
-* Games, wie z.B. ...
+* Simulationen
+* Lernkarteien
+* Apps
+* Interaktive Übungen
+* Games
 
 Für jedes externe Tool muss eine eigene Konfiguration eingerichtet werden. Verwenden Sie den Button "Neues Tool hinzufügen" um die Verbindung zu einem neuen Tool anzulegen.
 
