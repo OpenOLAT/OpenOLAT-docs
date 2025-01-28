@@ -30,7 +30,8 @@ Wenn durch den/die Administrator:in das Hochladen erlaubt wurde (Administration 
 
 **Was kann hochgeladen werden?**<br>
 
-Es kann eine Vielzahl von Dateiformaten hochgeladen werden:<br>
+Es kann eine Vielzahl von Dateiformaten hochgeladen werden:
+
 * Office-Dokumente, wie docx, xlsx, pdf, u.a. 
 * Bild-Dateien, wie jpg, png, u.a. 
 * Video-Dateien (mp4)
@@ -48,7 +49,7 @@ Besitzer:innen des mit der Bibliothek verknüpften Ressourcenordners werden übe
 
 Alternativ kann eine andere Person für die Prüfung bestimmt werden und durch Administrator:innen in Administration > Module > Bibliothek eine Mailadresse angegeben werden. Ist dort keine Adresse eingetragen, erhalten die Besitzer:innen der Lernressource den Prüfauftrag.
 
-Ab Release 20 kann dieser Prüfprozess durch Administrator:innen auch deaktiviert werden (Administration > Module > Bibliothek). Dies ist nur zu empfehlen, wenn der Upload nicht allgemein erlaubt wurde (und dadurch nur Besitzer:innen des Ressourcenordners und Administrator:innen Dokumente hochladen können). Wenn Besitzer:innen des Resourcenordners die Einzigen sind, die Dokmuente hochladen, macht es begrenzt Sinn, bei jedem eigenen Dokument auch selbst eine Prüfung vornehmen zu müssen. 
+Ab Release 19.1 kann dieser Prüfprozess durch Administrator:innen auch deaktiviert werden (Administration > Module > Bibliothek). Wenn Sie die Prüfung deaktivieren, sollten Sie sich allerdings bewusst sein, dass so jede Person, die auf die Bibliothek zugreifen kann, Dokumente dort ungeprüft hochladen kann.
 
 
 [Zum Seitenanfang ^](#library)
