@@ -2,9 +2,7 @@
 
 ![admin_system_overview_v1_de.png](assets/admin_system_overview_v1_de.png){ class="shadow lightbox aside-left-lg" }
 
-Im Bereich "System" der OpenOlat-Administration erhalten Administrator:innen
-allgemeine Informationen zur System Runtime, wie genutzter Speicher, aktuelle
-Klickzahlen oder Datenverzeichnisse. 
+Im Bereich "System" der OpenOlat-Administration erhalten Administrator:innen allgemeine Informationen zur System Runtime, wie genutzter Speicher, aktuelle Klickzahlen oder Datenverzeichnisse. 
 
 Die Administrator:innen haben hier Zugriff auf das nebenstehende Menü.
 
@@ -12,12 +10,9 @@ Die Administrator:innen haben hier Zugriff auf das nebenstehende Menü.
 
 ## Info messages {: #info_message}
 
-Hier kann im OpenOlat HTML Editor eine Info Message erstellt werden, die auf
-der **Login-Seite** neben dem eigentlichen Login Zugangsbereich erscheint. 
+Hier kann im OpenOlat HTML Editor eine Info Message erstellt werden, die auf der **Login-Seite** neben dem eigentlichen Login Zugangsbereich erscheint. 
 
-Auch für Meldungen bezüglich **Wartungsarbeiten** gibt es einen eigenen Bereich. Diese
-Information erscheint auf allen OpenOlat-Seiten und kann ebenfalls im
-OpenOlat-Editor erstellt werden. 
+Auch für Meldungen bezüglich **Wartungsarbeiten** gibt es einen eigenen Bereich. Diese Information erscheint auf allen OpenOlat-Seiten und kann ebenfalls im OpenOlat-Editor erstellt werden. 
 
 Zusätzlich können Dokumente (z.B. weitere Infos in pdf-Form) verlinkt werden. Hierfür steht ein "Static Ordner" zur Verfügung.
 
@@ -67,8 +62,7 @@ Der Tab "Database ORM" liefert Statistik-Angaben und listet JPA Queries und JPA 
 
 ## Java VM Infos {: #java}
 
-Hier finden Administrator:innen Informationen zum Java Speicher, zu Threads und
-Umgebungsvariablen und können die Java Garbage Collection starten.
+Hier finden Administrator:innen Informationen zum Java Speicher, zu Threads und Umgebungsvariablen und können die Java Garbage Collection starten.
 
 [Zum Seitenanfang ^](#system)
 

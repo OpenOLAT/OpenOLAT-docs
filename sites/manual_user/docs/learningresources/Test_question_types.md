@@ -1,14 +1,14 @@
-# Test question types
+# Test question types {: #question_types}
 
 The following question types can be used in OpenOlat tests:
 
 The question types marked with an * must be evaluated manually.
 
-## Single Choice
+## Single Choice {: #sc}
 
 ![Icon Single Choice Question](assets/Icon_Single_Choice_DE.png){ class=size24 }
 
-A single-choice question comprises a question and at least two answers; only one of them can be selected. In a test only one of those two answers is correct.
+A single-choice question consists of a question and answers, of which only one can be selected. In a test only one of those two answers is correct.
 
 First a short title and a question are inserted.
 
@@ -20,7 +20,9 @@ The correct answer can be selected in column _Correct Answer_. The order of the 
 
 ![Example Single Choice Question](assets/Single_choice_Beispiel.gif){ class="shadow" }
 
-## Multiple Choice
+---
+
+## Multiple Choice  {: #mc}
 
 ![Icon Multiple Choice Question](assets/Icon_Multiple_Choice_Frage_DE.png){ class=size24 }
 
@@ -36,9 +38,12 @@ The correct answers can be selected in column _Correct Answer_. The order of the
 
 Furthermore, in the "Feedback" tab, the number of response options for the user can be defined in addition to the exact point allocation.
 
-![Example Multiple Choice Question](assets/Multiple_choice_Beispiel.gif){ class="shadow" }
+![Beispiel Multiple Choice Frage](assets/Multiple_choice_Beispiel_DE.jpg)
+{ class=thumbnail-sm }
 
-## Kprim
+---
+
+## Kprim {: #kprim}
 
 ![Icon Kprim Question](assets/Icon_KPrim_Frage_DE.png){ class=size24 }
 
@@ -58,7 +63,7 @@ All correct answers = 100% score
 
 ![Example KPrim Question](assets/KPrim_Beispiel.jpeg){ class="shadow" }
 
-## Matrix
+## Matrix {: #matrix}
 
 ![Icon Matrix Question](assets/Icon_Matrix_Frage_DE.png){ class=size24 }
 
@@ -72,7 +77,7 @@ Then values can be added in the columns as well as in the rows. If more columns 
 
 ![Example Matrix Question](assets/Matrix_Beispiel.png){ class="shadow" }
 
-## Drag&Drop
+## Drag&Drop {: #drag_drop}
 
 ![Icon Drag and Drop Question](assets/Icon_DragDrop_DE.png){ class=size24 }
 
@@ -89,8 +94,12 @@ The alignment of the answers defines where the items in relation to the categori
 Then, the columns categories will be defined. Categories are the fix elements where the items will be dropped into. In the rows the items are added. With drag&drop the items can be moved into the categories afterward.
 
 ![Example Drag and Drop Question](assets/DragDrop_Beispiel.png){ class="shadow" }
+
+!!! info "Note: Restriction to mobiles"
+
+    This question type is not optimized for mobile devices.
   
-## True/false
+## True/false {: #true_false}
 
 ![Icon True False Question](assets/Icon_true_false_DE.png){ class=size24 }
 
@@ -103,7 +112,9 @@ The scores can be defined as needed. You may even give points for the option "Un
 
 ![Example True False Question](assets/True_false_Beispiel.png){ class="shadow" }
 
-## Gap text
+--
+
+## Gap text {: #gap}
 
 ![Icon Gap text Question](assets/Icon_Lueckentext_DE.png){ class=size24 }
 
@@ -128,7 +139,9 @@ If at least two gaps contain an identical answer option, the "Allow twice the sa
 
 ![Variants Gap text](assets/Lückentext_Varianten.jpg){ class="shadow" }
 
-## Gap text with dropdown
+---
+
+## Gap text with dropdown {: #gap_dropdown}
 
 ![Icon Gap text with dropdown](assets/icon_dropdown_luecke.png){ class=size24 }
 
@@ -140,7 +153,7 @@ Furthermore, global answers can also be used for the gaps. These are then displa
 
 Scoring can be done across all gaps as well as configured separately for each answer of a gap. 
 
-## Numerical input {: #ni}
+## Numerical input {: #numeric_input}
 
 ![Icon Numerical Input Question](assets/Icon_Numerical_Input_DE.png){ class=size24 }
 
@@ -163,7 +176,7 @@ First a short title is inserted. Afterward the next is written with fields for t
 
 ![Example Numerical Input Question](assets/Numerical_Input_Beispiel.png){ class="shadow" }
 
-## Hottext
+## Hottext {: #hottext}
 
 ![Icon Hottext Question](assets/Icon_Hottext_DE.png){ class=size24 }
 
@@ -175,7 +188,7 @@ Afterward a text is written and the selectable terms are marked as hottext. Fina
 
 ![Example Hottext Question](assets/Hottext_Beispiel.png){ class="shadow" }
 
-## Hotspot
+## Hotspot {: #hotspot}
 
 ![Icon Hotspot Question](assets/Icon_Hotspot_DE.png){ class=size24 }
 
@@ -190,7 +203,7 @@ In a hotspot question, hotspots/areas are graphically presented on an image and 
 
 ![Example Hotspot Question](assets/Hotspot_Beispiel.jpg){ class="shadow" }
 
-## Order
+## Order {: #order}
 
 ![Icon Order Question](assets/Icon_Reihenfolge_DE.png){ class=size24 }
 
@@ -199,6 +212,11 @@ This type of question requires learners to put elements (text or images) in a co
 First the title and the question are entered.
 
 Then the answers can be entered in the correct order and the alignment of the display can be set vertically or horizontally.
+
+!!! info "Note: Restriction to mobiles"
+
+    This question type is not optimized for mobile devices. Please take this into account when creating your question. 
+
 
 ![Example Order Question](assets/Reihenfolge_Beispiel.png){ class="shadow" }
 
@@ -226,7 +244,7 @@ Essay questions come with a pre-defined width and a tab function. Hence, answers
 
 	As the name already says, with this question type essays are often written. Thus this question type has got an autosave feature, which saves written text every minute. Further information about the configuration of essays can be found in the excursion below this table.
 
-## File upload*
+## File upload* {: #file_upload}
 
 ![Icon File Upload Question](assets/Icon_Fileupload_DE.png){ class=size24 }
 
@@ -238,7 +256,7 @@ No correct answer can be marked, as the assessment of this question type is only
 
 ![Example File Upload Question](assets/Fileupload_Beispiel.png){ class="shadow" }
 
-## Drawing*
+## Drawing* {: #draw}
 
 ![Icon Drawing Question](assets/Icon_Zeichnen_DE.png){ class=size24 }
 
@@ -251,11 +269,16 @@ assessment of this question type is done manually.
 
 It is also possible for the participants to add text via the text tool. The text size can be customized using the brush size.
 
+!!! info "Note: Restriction to mobiles"
+
+    This question type is not optimized for mobile devices. Please take this into account when creating your question. 
+
+
 ![Example Drawing Question](assets/Zeichnen_Beispiel.png){ class="shadow" }
   
 !!! info "Import questions"
 
-	Beside the direct creation, questions can also be imported out of the [question bank](../area_modules/Question_Bank.md) or by [Excel](../area_modules/Data_Management.md#usage-of-the-file-excel-import-template).
+	Beside the direct creation, questions can also be imported out of the [question bank](../area_modules/Question_Bank.md) or by [Excel](../area_modules/Data_Management.md#usage-of-the-file-excel-import-template)
 
 ??? abstract "Digression – Writing essays"
 
@@ -269,3 +292,6 @@ It is also possible for the participants to add text via the text tool. The text
     * If a test has a time limit, the text is saved at the very end only if it is submitted right before the time is running out. Please remind your test participants shortly before test end to submit the question one more time and not writing anything anymore afterward.
 
 	If considering these recommendations an essay can be written in OpenOlat.
+
+
+[To the top of the page ^](#question_types)

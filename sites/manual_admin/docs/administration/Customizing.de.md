@@ -8,8 +8,7 @@ Das Menü "Customizing" umfasst Einstellungen bezüglich der hier aufgeführten 
 
 ## Darstellung, Layout
 
-Hier können das Systemlayout, ein Firmenlogo und Eigenschaften bezüglich der
-Fusszeile hinterlegt werden.
+Hier können das Systemlayout, ein Firmenlogo und Eigenschaften bezüglich der Fusszeile hinterlegt werden.
 
 [Zum Seitenanfang ^](#customizing)
 
@@ -17,7 +16,7 @@ Fusszeile hinterlegt werden.
 
 ## Impressum
 
-Aktivierung und Konfigurationen zum Impressum, auch für verschiedene Sprachen
+Aktivierung und Konfigurationen zum Impressum, auch für verschiedene Sprachen.
 
 [Zum Seitenanfang ^](#customizing)
 
@@ -25,10 +24,7 @@ Aktivierung und Konfigurationen zum Impressum, auch für verschiedene Sprachen
 
 ## Hilfe
 
-Hier kann definiert werden welche Hilfeseiten über das Hilfe-Icon 
-:fontawesome-solid-circle-question: im
-allgemeinen Menü bereitgestellt werden. Auch ein Link zum Support
-Kontaktformular ist möglich.
+Hier kann definiert werden welche Hilfeseiten über das Hilfe-Icon  :fontawesome-solid-circle-question: im allgemeinen Menü bereitgestellt werden. Auch ein Link zum Support Kontaktformular ist möglich.
 
 ![](assets/Hilfemoeglichkeiten.png){ class="shadow lightbox" }
 

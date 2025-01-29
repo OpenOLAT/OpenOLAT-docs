@@ -36,13 +36,7 @@ Hier können die Lernressource Video und der Kursbaustein Video aktiviert werden
 
 ##  Wiki {: #wiki}
 
-Hier können Sie die Wikiressource systemweit ein- oder ausschalten". Die Wiki Komponente ist
-zurzeit noch anfällig für Cross-Site-Scripting Attacken (XSS). Daher kann
-zusätzlich der XSS-Scanner aktiviert werden. Dies kann zu Beeinträchtigungen
-in der Wiki-Funktionalität in OpenOlat führen. Bei ausgeschaltetem XSS-Scanner
-kann das Wiki mit dem Risiko einer XSS Attacke verwendet werden. Allerdings
-verfügt die Wiki Komponente über eine automatische Versionierung, die es
-Angreifern schwierig macht, unerkannt zu bleiben. 
+Hier können Sie die Wikiressource systemweit ein- oder ausschalten. Die Wiki Komponente ist zurzeit noch anfällig für Cross-Site-Scripting Attacken (XSS). Daher kann zusätzlich der XSS-Scanner aktiviert werden. Dies kann zu Beeinträchtigungen in der Wiki-Funktionalität in OpenOlat führen. Bei ausgeschaltetem XSS-Scanner kann das Wiki mit dem Risiko einer XSS Attacke verwendet werden. Allerdings verfügt die Wiki Komponente über eine automatische Versionierung, die es Angreifern schwierig macht, unerkannt zu bleiben. 
 
 [Zum Seitenanfang ^](#modules)
 
@@ -150,10 +144,7 @@ Hier kann definiert werden, ob Kursautor:innen und Lernende neue Gruppen erstell
 dürfen. Auch mögliche Rechte für Gruppenverwalter:innen und Lernressourcenverwalter:innen
 im Gruppenkontext können definiert werden. 
 
-Um den Datenschutzanforderungen gerecht zu werden, kann festgelegt werden, ob bei einer Einladung von
-Benutzer:innen in Kurse und Gruppen eine E-Mail versendet werden muss, ob die
-Einladung eine direkte Mitgliedschaft zur Folge hat oder erst durch den
-eingeladenen Benutzer bestätigt werden muss.
+Um den Datenschutzanforderungen gerecht zu werden, kann festgelegt werden, ob bei einer Einladung von Benutzer:innen in Kurse und Gruppen eine E-Mail versendet werden muss, ob die Einladung eine direkte Mitgliedschaft zur Folge hat oder erst durch den eingeladenen Benutzer bestätigt werden muss.
 
 Administrator:innen können hier auch Kurs- und Gruppenmitglieder bereinigen.
 
@@ -180,8 +171,7 @@ Hier nehmen Sie die Aktivierung des Menüs "Bibliothek" und Wahl des zugehörige
 
 ## Forum {: #forum}
 
-Administrator:innen können hier definieren, ob pseudonymisierte Forenbeiträge
-erlaubt sind und auch die passende Standardkonfiguration für Foren festlegen.
+Administrator:innen können hier definieren, ob pseudonymisierte Forenbeiträge erlaubt sind und auch die passende Standardkonfiguration für Foren festlegen.
 
 [Zum Seitenanfang ^](#modules)
 
@@ -191,9 +181,7 @@ erlaubt sind und auch die passende Standardkonfiguration für Foren festlegen.
 
 Wenn Autor:innen neue Kurse erstellen, finden Sie Voreinstellungen vor, die durch Administrator:innen hier festgelegt werden.
 
-* Im Tab "Einstellungen" kann der Standardtyp für die OpenOlat Kurse, Lernpfad
-oder herkömmlicher Kurs, festgelegt werden. Auch Einstellungen für bewertbare
-Kursbausteine können hier vorgenommen werden. 
+* Im Tab "Einstellungen" kann der Standardtyp für die OpenOlat Kurse, Lernpfad oder herkömmlicher Kurs, festgelegt werden. Auch Einstellungen für bewertbare Kursbausteine können hier vorgenommen werden. 
 * Im Tab "Durchführungsformate" können neue didaktische Typen definiert und vorhandene bearbeitet oder
 gelöscht werden. 
 * Auch Kategorien für Farbkategorien mit CSS-Klassen und Stil der Bilder können in diesem Menü hinzugefügt werden.
@@ -247,7 +235,7 @@ Nach Aktivierung von "Person zu Person" können OpenOlat-Rollen durch einen (def
 
 ## Anfrage Konto löschen {: #request_account_deletion}
 
-Hier können Anfragen zum Löschen des Kontos erlaubt werden. Für die Löschanfrage kann eine E-Mailadresse angegeben werden.
+Hier können Anfragen zum Löschen des Kontos erlaubt werden. Für die Löschanfrage kann eine E-Mail-Adresse angegeben werden.
 
 [Zum Seitenanfang ^](#modules)
 

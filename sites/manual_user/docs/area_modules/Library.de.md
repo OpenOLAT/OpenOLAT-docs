@@ -4,7 +4,7 @@
 ## Konzept {: #concept}
 
 * Die Bibliothek kann separat nach Bedarf für die ganze Instanz aktiviert/deaktiviert werden. 
-* Es gibt nur 1 Bibliothek pro OpenOlat-Instanz.
+* Es gibt nur eine Bibliothek pro OpenOlat-Instanz.
 * Sie erscheint in der Regel als Menüpunkt in der obersten Navigationszeile.
 * Technisch gesehen verbirgt sich hinter der Bibliothek ein verknüpfter Ressourcenordner, der im Autorenbereich bearbeitet werden kann.
 * Dokumente der Bibliothek können von Benutzer:innen kommentiert, heruntergeladen oder direkt als E-Mail verschickt werden.
@@ -47,7 +47,7 @@ Nach dem Hochladen eines Dokuments erfolgt zunächst standardmässig eine Prüfu
 
 Besitzer:innen des mit der Bibliothek verknüpften Ressourcenordners werden über einen neuen Upload informiert und müssen das Dokument freigeben.
 
-Alternativ kann eine andere Person für die Prüfung bestimmt werden und durch Administrator:innen in Administration > Module > Bibliothek eine Mailadresse angegeben werden. Ist dort keine Adresse eingetragen, erhalten die Besitzer:innen der Lernressource den Prüfauftrag.
+Alternativ kann eine andere Person für die Prüfung bestimmt werden und durch Administrator:innen in (Administration > Module > Bibliothek) eine Mailadresse angegeben werden. Ist dort keine Adresse eingetragen, erhalten die Besitzer:innen der Lernressource den Prüfauftrag.
 
 Ab Release 19.1 kann dieser Prüfprozess durch Administrator:innen auch deaktiviert werden (Administration > Module > Bibliothek). Wenn Sie die Prüfung deaktivieren, sollten Sie sich allerdings bewusst sein, dass so jede Person, die auf die Bibliothek zugreifen kann, Dokumente dort ungeprüft hochladen kann.
 

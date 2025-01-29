@@ -1,38 +1,56 @@
 # Customizing
 
-The "Customizing" menu contains settings regarding:
+![admin_customizing_overview_v1_de.png](assets/admin_customizing_overview_v1_de.png){ class="shadow lightbox aside-left-lg" }
 
-  * Layout
-  * Imprint
-  * Help
-  * Language adaption tool
-  * Portal
-  * Sites
+The "Customizing" menu contains settings relating to the menu items listed here.
+
+---
 
 ## Representation, layout
 
-The system layout, a company logo and properties regarding the footer can be
-stored here.
+The system layout, a company logo and properties relating to the footer can be stored here.
+
+[To the top of the page ^](#customizing)
+
 
 ## Imprint
 
-Activation and configuration of the imprint, also for different languages
+Activation and configuration of the imprint, also for different languages.
+
+[To the top of the page ^](#customizing)
+
 
 ## Help
 
-Here you can define which help pages are provided via the help
-icon  :fontawesome-solid-circle-question: in
-the general menu. A link to the support contact form is also possible.
+Here you can define which help pages are provided via the help icon  :fontawesome-solid-circle-question: in the general menu. A link to the support contact form is also possible.
 
 ![](assets/help_facility.png){ class="shadow lightbox" }
+
+[To the top of the page ^](#customizing)
+
 
 ## Language adaptation tool
 
 Individual text elements can be adjusted here if required.
 
+[To the top of the page ^](#customizing)
+
+## System registration
+
+[To the top of the page ^](#customizing)
+
+
+
 ## Portal
 
-Settings for the tab "Home"
+[To the top of the page ^](#customizing)
+
+
+## User attributes
+
+[To the top of the page ^](#customizing)
+
+
 
 ## Sites
 
@@ -48,3 +66,4 @@ the catalog administrator or the system administrator.
 
 ![](assets/admin_customice_sites.png){ class="shadow lightbox" }
 
+[To the top of the page ^](#customizing)

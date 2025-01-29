@@ -7,8 +7,7 @@ Im Bereich Core Konfiguration haben Administrator:innen Zugriff auf das nebenste
 
 ## Sprachen
 
-In diesem Bereich kann die Standardsprache gewählt und definiert werden, welche
-Sprachen den Benutzer:innen generell zur Verfügung stehen. Darüber hinaus können Sprachpakete importiert und exportiert werden.
+In diesem Bereich kann die Standardsprache gewählt und definiert werden, welche Sprachen den Benutzer:innen generell zur Verfügung stehen. Darüber hinaus können Sprachpakete importiert und exportiert werden.
 
 Auch Einstellungen bezüglich einer geschlechterspezifischen Sprache können hier von den OpenOlat Administrator:innen ausgewählt werden.
 

@@ -1,156 +1,261 @@
-# Modules
+# Modules: Overview {: #modules}
 
-  * [Instant-Messaging](Instant_Messaging.md)
-  * [Contact tracing](Modules_Contact_Tracing.md) 
-  * [Video](Modules_Video.md)
-  * Wiki
-  * Course reminders
-  * [Audio/video recording](Modules_Audio_Video_Recording.md)
-  * COVID certificate
-  * [Document pool](Modules_Document_pool.md)
-  * Live stream
-  * [Taxonomy](Modules_Taxonomy.md)
-  * Semester terms
-  * [Media Center](Modules_Media_Center.md)
-  * Data Privacy
-  * Bookings
-  * Groups
-  * [Lectures](Lecture_and_roll_call_management.md)
-  * Library
-  * Forum
-  * Course
-  * Course elements
-  * [Catalog](Modules_Catalog_2.0.md)
-  * [Repository](Modules_Repository.md)
-  * [Organisations](Modules_Organisations.md)
-  * Role user to user
-  * Request account deletion
-  * [Curriculum](Modules_Curriculum.md)
-  * [Projects](Modules_Projects.md)
-  * [Quality management](Modules_Quality_Management.md)
-  * [SEO / OATI-PMH metadata](Modules_OAI.md) 
+![admin_module_overview_v1_de.png](assets/admin_module_overview_v1_de.png){ class="shadow lightbox aside-left-lg" }
 
-## Instant Messaging
-See [Instant-Messaging](Instant_Messaging.md)
+Administrators have access to the modules in this area:
 
-## Video 
-Hier können die Lernressource Video und der Kursbaustein Video aktiviert werden. Auch Angaben zum Transkodierung sowie die Standardauflösung können definiert werden.   
 
-## Contact Tracing
-See [Contact tracing](Modules_Contact_Tracing.md)
+## Instant Messaging {: #instant_messaging}
 
-## Wiki
+Chat and short messages can be activated and configured here.
 
- **Block Wiki resource** : Wiki configuration: Disable the option "Enable Wiki
-resource" to block the Wiki system-wide. The Wiki component is currently still
-vulnerable to cross-site scripting attacks (XSS). Therefore the XSS scanner
-can be activated additionally. This can lead to impairments in the Wiki
-functionality in OpenOlat. If the XSS scanner is switched off, the Wiki can be
-used with the risk of an XSS attack. However, the Wiki component has automatic
-versioning, which makes it difficult for attackers to remain undetected.
+[See the details >](Instant_Messaging.md)<br>
+[To the top of the page ^](#modules)
 
-## Course reminders 
 
-Activation of course reminders and setting the sending frequency.
+## Contact Tracing {: #contact_tracing}
 
-## Audio/Video recording
+This module was created during the COVID pandemic. Activate the module if you have physical locations where people meet and you need to provide contact tracing information to the authorities due to public health regulations (e.g. COVID19).
 
-Activation of the video recording option at various points in OpenOlat. Local transcoding can also be activated.
+[See the details >](Modules_Contact_Tracing.md)<br>
+[To the top of the page ^](#modules)
 
-See [Audio/video recording](Modules_Audio_Video_Recording.md)
 
-## Covid certificate
+## Video {: #video}
 
-Activation of the COVID certificate with further settings such as validity period, reminder settings, scan settings for the certificate.
+The video learning resource and the video course element can be activated here. Information on transcoding and the standard resolution can also be defined.   
 
-## Document pool
-See [Document pool](Modules_Document_pool.md)
+[See the details >](Modules_Video.md)<br>
+[To the top of the page ^](#modules)
 
-## Livestream
 
-## Taxonomy
-See [Taxonomy](Modules_Taxonomy.md)
+## Wiki {: #wiki}
 
-## Semester terms
+Here you can switch the wiki resource on or off system-wide. The wiki component is currently still vulnerable to cross-site scripting attacks (XSS). The XSS scanner can therefore also be activated. This can lead to impairments in the wiki functionality in OpenOlat. If the XSS scanner is switched off, the wiki can be used with the risk of an XSS attack. However, the wiki component has automatic versioning, which makes it difficult for attackers to remain undetected. 
+
+[To the top of the page ^](#modules)
+
+
+## Course reminders {: #course_reminders}
+
+If the price reminders are activated here, the dispatch conditions are checked at the times specified here and the mails due are sent.
+
+[To the top of the page ^](#modules)
+
+
+## Audio/Video recording {: #audio_video_recording}
+
+The option for audio and video recordings available at various points in OpenOlat is activated or deactivated here.
+The recorded audio and video data is automatically converted in the background by an external service into a format that is compatible with most browsers. Local transcoding can also be activated.
+
+[See the details >](Modules_Audio_Video_Recording.md)<br>
+[To the top of the page ^](#modules)
+
+
+
+## Covid certificate {: #covid_certificate}
+
+During the COVID pandemic, the activation of the COVID certificate with further settings such as validity period, reminder settings, scan settings for the certificate was implemented here.
+
+[To the top of the page ^](#modules)
+
+
+
+## Document pool {: #documentpool}
+
+Der Dokumentenpool stellt eine Dokumentenbibliothek bereit, mit automatischer Strukturierung auf Basis einer Taxonomie und Kompetenzen.
+
+[See the details >](Modules_Document_pool.md)<br>
+[To the top of the page ^](#modules)
+
+
+## Livestream {: #livestream}
+
+The course element "Livestream" can be made available and configured here (Paella Player).
+
+[To the top of the page ^](#modules)
+
+
+## Taxonomy {: #taxonomy}
+
+Several taxonomies can be created and edited for different areas in OpenOlat.
+
+[See the details >](Modules_Taxonomy.md)<br>
+[To the top of the page ^](#modules)
+
+
+## Semester terms {: #semester_terms}
 
 Create and manage semester dates to be able to refer to a semester designation
 instead of a date for course durations. The semester data created here can be
 used when configuring the execution period of a course in learning resource
-management. For example, "SoSe23" could be used as the designation and "Summer
+management. For example, "SuSe23" could be used as the designation and "Summer
 semester 2023" as the name.
 
-## Media Center
+[To the top of the page ^](#modules)
 
-Here you can define whether or which taxonomy should be connected to the Media Center.
 
-See [Media Center](Modules_Media_Center.md)
+## Media Center {: #media_center}
 
-## Data privacy
+Media in the Media Center can be shared with others. Here you can define which sharing options the respective roles have.
 
-## Bookings
+You can also define whether or which taxonomy should be connected to the Media Center
 
-Display of all bookings for a booking number in a specified period
+[See the details >](Modules_Media_Center.md)<br>
+[To the top of the page ^](#modules)
 
-## Groups
 
-Here you can define if course authors and learners are allowed to create new
-groups. Possible rights for group administrators and learning resource
-administrators in the group context can also be defined. In order to meet data
-protection requirements, it can be defined whether an e-mail must be sent when
-inviting users to courses and groups and whether the invitation results in
-direct membership or must first be confirmed by the invited user.
+
+## Data privacy {: #data_privacy}
+
+You can define which system roles are allowed to see the administrative user properties, e.g. in the account search or in lists. Which user properties are considered administrative is configured in the user properties. 
+
+You can also determine which system roles are allowed to see the user's last visit.
+
+The course element "External page" can transmit data about the current account to the external system in the HTTP header of the request in order to implement certain learning scenarios (login name, e-mail, first name, last name, current IP address of the user). Define here whether this data should be transmitted or not.
+
+[To the top of the page ^](#modules)
+
+
+
+## Bookings {: #bookings}
+
+Here you can display all bookings for a specific booking number in a specific period.
+
+[To the top of the page ^](#modules)
+
+
+
+## Groups {: #groups}
+
+Here you can define if course authors and learners are allowed to create new groups. Possible rights for group administrators and learning resource administrators in the group context can also be defined.
+
+In order to meet data protection requirements, it can be defined whether an e-mail must be sent when inviting users to courses and groups and whether the invitation results in direct membership or must first be confirmed by the invited user.
+
 Administrators can also purge course and group members here.
 
-## Lectures
-See [Lectures](Lecture_and_roll_call_management.md)
+[To the top of the page ^](#modules)
 
-## Library
 
-Activate the "Library" menu and select the corresponding resource folder.
 
-## Forum
+## Lectures  {: #lectures}
 
-Administrators can define here, if pseudonymous forum posts are allowed and
-also define the appropriate default configuration for forums.
+If lesson and absence management is activated here, it can be configured with a variety of options. 
 
-## Course
+[See the details >](Lecture_and_roll_call_management.md)<br>
+[To the top of the page ^](#modules)
 
-In the "Settings" tab, the default type for OpenOlat courses, learning path or
-traditional course, can be defined. Settings for assessable course elements
-can also be made here. In the tab "Didactic Types" new didactic types can be
-defined and existing ones can be edited or deleted. Categories for color
-categories with CSS classes and style images can also be added here.
 
-## Course elements
 
-## Catalog
-See [Catalog](Modules_Catalog_2.0.md)
+## Library {: #library}
 
-## Repository
-See [Repository](Modules_Repository.md)
+Here you can activate the "Library" menu and select the corresponding resource folder.
 
-## Organisations
-See [Organisations](Modules_Organisations.md)
+[To the top of the page ^](#modules)
 
-## Role person to person
 
-Activation from person to person and definition of concrete associated roles, e.g. manager and employee or teacher and student.
+## Forum {: #forum}
 
-## Request account deletion
+Administrators can define here whether pseudonymized forum posts are permitted and also specify the appropriate default configuration for forums.
 
-Activation and specification of an e-mail address for the deletion request.
+[To the top of the page ^](#modules)
 
-## Curriculum
-See [Curriculum](Modules_Curriculum.md)
 
-## Projects
-See [Projects](Modules_Projects.md)
 
-## Quality management
+## Course {: #course}
 
-Activation and definition of special e-mail addresses.
+When authors create new courses, they will find default settings that are defined here by administrators.
 
-See [Quality management](Modules_Quality_Management.md)
+* The default type for OpenOlat courses, learning path or conventional course, can be defined in the "Settings" tab. Settings for assessable course elements can also be made here.
+* In the "Implementation formats" tab, new didactic types can be defined and existing ones edited or deleted.
+* Categories for color categories with CSS classes and style of images can also be added in this menu.
 
-## SEO / OATI-PMH metadata
-See [SEO / OATI-PMH metadata](Modules_OAI.md) 
+[To the top of the page ^](#modules)
+
+
+
+## Course elements {: #course_elements}
+
+Here you can define which course element types OpenOlat authors have available for their course creation.
+
+[To the top of the page ^](#modules)
+
+
+
+## Catalog {: #catalog}
+
+The use of a catalog can be switched on or off and configured here.
+
+[See the details >](Modules_Catalog_2.0.md)<br>
+[To the top of the page ^](#modules)
+
+
+## Repository {: #repository}
+
+Here you make settings in the repository.
+
+[See the details >](Modules_Repository.md)<br>
+[To the top of the page ^](#modules)
+
+
+## Organisations {: #organisations}
+
+With the "Organizations" module activated, organisational structures can be mapped in OpenOlat. This allows roles or access permissions to be restricted to specific organizational units.
+
+[See the details >](Modules_Organisations.md)<br>
+[To the top of the page ^](#modules)
+
+
+
+## Role person to person {: #role_user_to_user}
+
+After activating "Person to person", OpenOlat roles can be linked by a (definable) relationship type, e.g. coach and employee or teacher and student.
+
+[To the top of the page ^](#modules)
+
+
+
+## Request account deletion {: #request_account_deletion}
+
+Requests to delete the account can be permitted here. An e-mail address can be entered for the deletion request.
+
+[To the top of the page ^](#modules)
+
+
+## Curriculum {: #curriculum}
+
+If the "Curriculum" module is activated here, curriculum types can be created and settings made for them. 
+
+[See the details >](Modules_Curriculum.md)<br>
+[To the top of the page ^](#modules)
+
+
+## To-do {: #to-do}
+
+If the module is activated, you can define who can create, assign or delegate to-dos.
+
+[To the top of the page ^](#modules)
+
+
+## Projects {: #projects}
+
+The project tool available in OpenOlat is activated here.
+
+[See the details >](Modules_Projects.md)<br>
+[To the top of the page ^](#modules)
+
+
+
+## Quality management {: #quality_management}
+
+Here you will find the activation of quality management and the necessary definition of special e-mail addresses, e.g. for suggestions for improvement. 
+
+[See the details >](Modules_Quality_Management.md)<br>
+[To the top of the page ^](#modules)
+
+## SEO / OATI-PMH metadata {: #OAI-PMH}
+
+Here you can enable and configure that other service providers can collect the metadata of learning resources or forward it to search engine providers.
+
+[See the details >](Modules_OAI.md)<br>
+[To the top of the page ^](#modules)
