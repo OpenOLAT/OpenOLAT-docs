@@ -5,7 +5,7 @@
 
 * * *
 
-:material-calendar-month-outline: **Releasedatum: 27.11.2024 • Letztes Update: 15.01.2024**
+:material-calendar-month-outline: **Releasedatum: 27.11.2024 • Letztes Update: 29.01.2024**
 
 * * *
 
@@ -158,6 +158,7 @@ Der Bereich zur Aktivierung von "Änderungen (Ein / Aus)" bei abonnierbaren Baus
     * Anzeige der Maximalpunktzahl pro Frage-Item
     * Anzeige der Gesamtpunktzahl für einen Test im Wizard zur Test-Erstellung
     * Sortierung der einzelnen Tabellenspalten im Wizard zur Test-Erstellung
+* Modul "Bibliothek": direkte Freigabe von Dokumenten nach Upload ohne Genehmigung (konfigurierbar) (:octicons-tag-24: ab Release 19.1.4)
 
 * * *
 
@@ -184,7 +185,7 @@ Der Bereich zur Aktivierung von "Änderungen (Ein / Aus)" bei abonnierbaren Baus
     Folgende Funktionen müssen nach einem Update auf Release 19.1 in der `Administration` aktiviert bzw. konfiguriert werden:
 
     * [x] Mindeststandards für Passwörter: `Administration > Login > Password and Authentication > Password Syntax'`
-    * [X] CSRF Konfiguration: `Administration > Login > Sicherheit > Konfiguration'`
+    * [X] CSRF und Samesite cookie Konfiguration: `Administration > Login > Sicherheit > Konfiguration'`
     * [X] draw.io: `Administration > External tools > draw.io > Collaboration mode`
     * [X] Konfiguration externer Medienressourcen: `Administration > Login > Sicherheit > Medienserver`
 
@@ -192,6 +193,7 @@ Der Bereich zur Aktivierung von "Änderungen (Ein / Aus)" bei abonnierbaren Baus
 
 ## Weitere Informationen
 
+* [YouTrack Release Notes 19.1.4](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2019.1.4&title=Release%20Notes%2019.1.4){:target="_blank"}
 * [YouTrack Release Notes 19.1.3](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2019.1.3&title=Release%20Notes%2019.1.3){:target="_blank"}
 * [YouTrack Release Notes 19.1.2](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2019.1.2&title=Release%20Notes%2019.1.2){:target="_blank"}
 * [YouTrack Release Notes 19.1.1](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2019.1.1&title=Release%20Notes%2019.1.1){:target="_blank"}

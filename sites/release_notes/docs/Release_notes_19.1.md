@@ -5,7 +5,7 @@
 
 * * *
 
-:material-calendar-month-outline: **Release date: 11/27/2024 • Last update: 01/15/2024**
+:material-calendar-month-outline: **Release date: 11/27/2024 • Last update: 01/29/2024**
 
 * * *
 
@@ -158,6 +158,7 @@ The section for activating "Modifications (On / Off)" for subscribable course el
     * Display of the maximum score per question item
     * Display of the total score for a test in the test creation wizard
     * Sorting of the individual table columns in the test creation wizard
+* "Library" module: direct release of documents after upload without approval (configurable) (:octicons-tag-24: release 19.1.4)
 
 * * *
 
@@ -184,7 +185,7 @@ The section for activating "Modifications (On / Off)" for subscribable course el
     The following functions have to be activated / configured in the `Administration` after an update to release 19.1:
 
     * [x] Minimum standards for passwords: `Administration > Login > Password and Authentication > Password Syntax'`
-    * [X] CSRF configuration: `Administration > Login > Security > Configuration'`
+    * [X] CSRF and Samesite cookie configuration: `Administration > Login > Security > Configuration'`
     * [X] draw.io: `Administration > External tools > draw.io > Collaboration mode`
     * [X] Configuration external Media resources: `Administration > Login > Security > Media server`
 
@@ -192,6 +193,7 @@ The section for activating "Modifications (On / Off)" for subscribable course el
 
 ## More information
 
+* [YouTrack Release notes 19.1.4](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2019.1.4&title=Release%20Notes%2019.1.4){:target="_blank"}
 * [YouTrack Release notes 19.1.3](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2019.1.3&title=Release%20Notes%2019.1.3){:target="_blank"}
 * [YouTrack Release notes 19.1.2](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2019.1.2&title=Release%20Notes%2019.1.2){:target="_blank"}
 * [YouTrack Release notes 19.1.1](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2019.1.1&title=Release%20Notes%2019.1.1){:target="_blank"}
