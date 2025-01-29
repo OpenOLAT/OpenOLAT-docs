@@ -35,7 +35,7 @@ Hier können Sie als Administrator:in die grundsätzlichen Einstellungen zum Fra
 
 ## Zertifikate {: #certificates}
 
-Hier kann eine E-Mail Adresse hinterlegt werden, an die Kopien der erstellten Zertifikate geschickt werden. Auch sind Kopien an Linienvorgesetze möglich. 
+Hier kann eine E-Mail-Adresse hinterlegt werden, an die Kopien der erstellten Zertifikate geschickt werden. Auch sind Kopien an Linienvorgesetze möglich. 
 
 Der Upload externer Zertifikate kann ebenfalls hier freigeschaltet werden. 
 
@@ -55,7 +55,7 @@ An dieser Stelle können Administratoren den Prüfungsmodus für die OpenOlat In
 
 ## Test {: #test}
 
-An dieser Stelle werden die Testquittung konfiguriert und Einstellungen für den Korrektur-Workflow  von Tests definiert. Mit Hilfe des Korrektur-Workflows können Sie persönliche Korrekturaufträge generieren und diese definierten Korrektor:innen zuweisen. Die Korrektur über das Bewertungswerkzeug im Kurs ist dann nicht mehr möglich.
+An dieser Stelle werden die Testquittung konfiguriert und Einstellungen für den Korrektur-Workflow von Tests definiert. Mit Hilfe des Korrektur-Workflows können Sie persönliche Korrekturaufträge generieren und diese definierten Korrektor:innen zuweisen. Die Korrektur über das Bewertungswerkzeug im Kurs ist dann nicht mehr möglich.
 
 [Zum Seitenanfang ^](#e-assessments)
 

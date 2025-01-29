@@ -13,11 +13,14 @@ Assessable | yes
 Specialty / Note |
 
 
-By means of the course element "Portfolio task" you can provide predefined portfolio templates to be filled by your course participants. The course participants can then pick up the portfolio task in their course, and are then forwarded to their individual portfolio area. The portfolio picked up in this way can then be filled with content and artifacts by the learners and, if desired, made available to other people or the course coaches. Depending on the configuration, these persons can also evaluate and comment on the portfolio.
+Thanks to the course element "Portfolio task" you can provide predefined portfolio templates to be filled by your course participants. The course participants can then pick up the portfolio task in their course, and are then forwarded to their individual portfolio area. The portfolio picked up in this way can then be filled with content and artifacts by the learners and, if desired, made available to other people or the course coaches. Depending on the configuration, these persons can also evaluate and comment on the portfolio.
 
- !!! info
+ !!! info "Note"
 
     For the course element Portfolio task you need a ["Portfolio 2.0 template"](../learningresources/Portfolio_template_Creation.md), which you link to the course element. 
+
+
+## Create portfolio task
 
 **Assign portfolio 2.0 template to the portfolio assignment course element:**
 
@@ -29,14 +32,13 @@ If you have added a template to the course element, this can be seen directly in
 
 !!! info
 
-    In case a portfolio template has already been downloaded and edited it will no longer be possible to replace it.
+    In case a portfolio template has already been downloaded and edited, it will no longer be possible to replace it.
 
 **Configure further tabs**
 
 The other tabs of the course element can now be configured.
 
 In order for a portfolio to be evaluated, the "Assessment" tab must also be configured in the course editor. You can set the following here: 
-
 * Details on the awarding of points
 * Activation of a grading or rating scale
 * Display of pass/fail
@@ -65,9 +67,7 @@ After a portfolio task has been collected by the user, they can open the portfol
 
 Under "Portfolio review", users can define access rights for other people and thus, for example, grant course owners or coaches access rights to the personal portfolio. In addition, a quick overview of the areas of the portfolio folder and, once collected, the assigned tasks is now displayed in the portfolio task course element. 
 
-As soon as the portfolio task has been collected in the course, the user can also find it in their [personal menu](../personal_menu/Personal_Tools.md) under "Portfolio 2.0" - "My portfolio folders".
-
-In the personal portfolio, all portfolio tasks collected from a course are marked with a red line on the left-hand side and contain a reference to the associated course. 
+As soon as the portfolio task has been collected in the course, the user can also find it in their [personal menu](../personal_menu/Personal_Tools.md) under "Portfolio 2.0" - "My portfolio folders". In the personal portfolio, all portfolio tasks collected from a course are marked with a red line on the left-hand side and contain a reference to the associated course. 
 
 After collection, access is possible both from the course and from the personal area. 
   

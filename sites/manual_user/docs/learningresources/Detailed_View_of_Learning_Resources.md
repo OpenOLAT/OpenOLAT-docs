@@ -43,7 +43,7 @@ Additional owners can be added to the learning resource in the **Member manageme
 
 **Export content**, allows you to download the learning resource, e.g. as a backup file (zip file). This file can later be imported back into OpenOlat. In this way, learning resources can also be transferred to other OpenOlat instances.
 
-**Delete** causes the learning resource to be marked as "deleted". It will then appear in the "Deleted" tab in the author area (trash bin function). As long as the learning resource is still in the trash bin, it can be restored or permanently deleted. 
+**Delete** causes the learning resource to be marked as "Deleted". It will then appear in the "Deleted" tab in the author area (trash bin function). As long as the learning resource is still in the trash bin, it can be restored or permanently deleted. 
 
 
 

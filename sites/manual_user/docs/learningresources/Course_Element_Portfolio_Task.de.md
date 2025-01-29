@@ -51,6 +51,7 @@ Wie Lehrende eine Portfolioaufgabe bewerten können, erfahren Sie im Kapitel "[P
 
 Zum Schluss muss der Kursbaustein wie üblich publiziert werden.
 
+
 ## Teilnehmenden Sicht
 
 
