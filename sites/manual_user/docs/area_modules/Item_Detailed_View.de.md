@@ -1,4 +1,4 @@
-# Detailansicht einer Frage {: #question_details}
+# Fragenpool: Detailansicht einer Frage {: #question_details}
 
 Wenn Sie eine Frage im Fragenpool auswählen, befinden Sie sich in ihrer Detailansicht und direkt im Editor der Frage.
 Sie können dort die Frage bearbeiten, sowie weitere Konfigurationen vornehmen, z.B. Metadaten zuordnen.
@@ -40,6 +40,12 @@ Insgesamt stehen im Fragenpool mehr als 20 Metadatenfelder gemäss den [Learning
 Die Metadaten können in der Detailansicht durch einen Toggle-Button rechts oben angezeigt werden.
 
 ![question_details_metadata_v1_de.png](assets/question_details_metadata_v1_de.png){ class="shadow lightbox" }
+
+!!! info „Info"
+
+    Ist der [Beurteilungsprozess](Question_Bank_Review_Process.de.md) aktiviert, wird zusätzlich die Option ["Bewertung"](#metadata_ratings) angzeigt.
+
+
 
 [Zum Seitenanfang ^](#question_details)
 
@@ -139,6 +145,21 @@ Alle anderen Attribute im Bereich Technik können nicht bearbeitet werden.
 [Zum Seitenanfang ^](#question_details)
 
 
+### Bewertungen {: #metadata_ratings}
+
+![question_details_ratings_v1_de.png](assets/question_details_ratings_v1_de.png){ class="aside-right lightbox"}
+
+Sofern der Beurteilungsprozess aktiviert ist, werden in diesem Abschnitt die Bewertungen der Frage im Zusammenhang mit dem Beurteilungsprozess angezeigt. Diese Bewertungen aus dem Beurteilungsprozess werden zusätzlich noch bei den [Kommentaren und Bewertungen](#comments) durch andere Personen am unteren Rand des Bildschirms angezeigt.
+
+Ist der Beurteilungsprozess nicht aktiviert, fehlt das Dropdown "Bewertungen" in den Metadaten.
+
+
+[Details zum Beurteilungsprozess >](Question_Bank_Review_Process.de.md)<br>
+[Aktivierung des Beurteilungsprozesses durch Administrator:innen >](../../manual_admin/administration/eAssessment_Question_bank.de.md)<br>
+[Zum Seitenanfang ^](#question_details)
+
+
+
 ###  Pool {: #metadata_pool}
 
 Listet die Pools in welchen das Frageitem freigegeben wurde.
@@ -164,8 +185,19 @@ Listet die  Gruppen in welchen das Frageitem freigegeben wurde.
 
 ![question_details_comment_v1_de.png](assets/question_details_comment_v1_de.png){ class="shadow lightbox" }
 
-Die Kommentare und Bewertungen (Sterne), die hier am unteren Rand der Detailansicht zu einer Frage eingegeben werden, sind ausschliesslich von und für Autor:innen und Personen, die zur Administration Zugriff auf diese Frage haben.
+Die Kommentare und Bewertungen (Sterne), die hier am unteren Rand der Detailansicht zu einer Frage eingegeben werden, stammen von Autor:innen und Personen, die zur Administration Zugriff auf diese Frage haben. Jede Person mit Zugriff kann hier einen Kommentar abgeben. 
 
+Die Bewertungen im Zusammenhang mit einem Beurteilungsprozess (siehe Metadaten) werden zusätzlich darunter angezeigt.
 
 [Zum Seitenanfang ^](#question_details)
 
+
+## Weitere Informationen {: #further_info}
+
+[Frage erstellen >](Question_Bank_Create_Questions.de.md)<br>
+[Fragen importieren >](Question_Bank_Import_Questions.de.md)<br>
+[Details zum Beurteilungsprozess >](Question_Bank_Review_Process.de.md)<br>
+[Details zur Freigabe >](Question_Pool_Sharing_Options.de.md)<br>
+[Anleitung zur Testerstellung >](../../manual_how-to/test_creation_procedure/test_creation_procedure.de.md)<br> 
+
+[Zum Seitenanfang ^](#create_questions)

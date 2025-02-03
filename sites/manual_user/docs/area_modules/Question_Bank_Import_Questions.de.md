@@ -226,3 +226,13 @@ Beispiel:
 
     Neben den aufgeführten Feldern gibt es noch weitere optionale Felder wie "Topic", "Keywords", "License" usw. Weitere Details dazu finden Sie direkt in der bereitgestellten Datei "Vorlage Excelimport".
 
+
+## Weitere Informationen {: #further_info}
+
+[Fragen erstellen >](Question_Bank_Create_Questions.de.md)<br>
+[Detailansicht einer Frage >](Item_Detailed_View.de.md)<br>
+[Details zum Beurteilungsprozess >](Question_Bank_Review_Process.de.md)<br>
+[Details zur Freigabe >](Question_Pool_Sharing_Options.de.md)<br>
+[Anleitung zur Testerstellung >](../../manual_how-to/test_creation_procedure/test_creation_procedure.de.md)<br> 
+
+[Zum Seitenanfang ^](#create_questions)

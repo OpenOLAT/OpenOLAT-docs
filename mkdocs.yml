@@ -224,6 +224,7 @@ plugins:
           Create courses and learning resources: Kurse und Lernressourcen erstellen
           Create Groups : Gruppen erstellen
           Create Learning Resources : Lernressourcen erstellen
+          Create questions : Fragen erstellen
           Create User : Benutzer erstellen
           Creating Blogs : Blog erstellen
           Creating Courses : Kurs erstellen
@@ -439,10 +440,7 @@ plugins:
           Projects : Projekte
           Quality Management : Qualitätsmanagement
           Question Bank : Fragenpool
-          Question Bank Administration : Fragenpool Administration
-          Question bank possible operations : Mögliche Aktionen im Fragenpool
-          Question Bank Review Process : Fragenpool Beurteilungsprozess
-          Question Pool Sharing Options : Fragenpool Freigabemöglichkeiten
+          Question Bank Administration : Fragenpool-Administration
           Question rules : Frageregeln
           Record of Course Activities : Aufzeichnung der Kursaktivitäten
           Reduce storage consumption : Speicherverbrauch reduzieren
@@ -453,6 +451,7 @@ plugins:
           Requirements when Working with OpenOlat : Voraussetzungen für die Arbeit mit OpenOlat
           REST API : REST API
           Resource folder : Ressourcenordner
+          Review Process : Beurteilungsprozess
           Roles : Rollen
           Roles and Rights : Rollen und Rechte
           Role user to user : Personenbeziehungen
@@ -474,6 +473,7 @@ plugins:
           Shared by me : Von mir freigegeben
           Shared with me : An mich freigegeben
           SharePoint / OneDrive : SharePoint / OneDrive
+          Sharing Options : Freigabemöglichkeiten
           Single Page : Einzelne Seite
           Start: Start
           Start screen : Startscreen
@@ -525,6 +525,7 @@ plugins:
           Using Additional Course Features : Einsatz weiterer Kursfunktionen der Toolbar
           Using Course Tools : Einsatz der Kurswerkzeuge
           Using Group Tools : Gruppenwerkzeuge nutzen
+          Using the questions : Fragen verwenden
           Using WebDAV : Einsatz von WebDAV
           Various Types of Learning Resources : Verschiedene Typen von Lernressourcen
           Video : Video

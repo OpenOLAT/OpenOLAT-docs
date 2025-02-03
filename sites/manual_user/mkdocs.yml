@@ -105,13 +105,13 @@ nav:
         - Overwiew: "area_modules/Video_Collection.md" 
     - Question Bank:
       - Overview: "area_modules/Question_Bank.md"
-      - Data Management: "area_modules/Data_Management.md"
+      - Create questions : "area_modules/Question_Bank_Create_Questions.md"
       - Import questions: "area_modules/Question_Bank_Import_Questions.md"
       - Item Detailed View: "area_modules/Item_Detailed_View.md"
-      - Question bank possible operations: "area_modules/Question_bank_possible_operations.md"
+      - Using the questions: "area_modules/Question_bank_possible_operations.md"
       - Search: "area_modules/Question_Pool_Search.md"
-      - Question Pool Sharing Options: "area_modules/Question_Pool_Sharing_Options.md"
-      - Question Bank Review Process: "area_modules/Question_Bank_Review_Process.md"
+      - Sharing Options: "area_modules/Question_Pool_Sharing_Options.md"
+      - Review Process: "area_modules/Question_Bank_Review_Process.md"
       - Question Bank Administration: "area_modules/Question_Bank_Administration.md"
     - Projects:
       - Overview: "area_modules/Project_Overview.md"

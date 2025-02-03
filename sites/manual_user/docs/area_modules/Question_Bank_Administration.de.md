@@ -1,9 +1,12 @@
 # Fragenpool: Administration {: #question_bank_administration}
 
-## Konfiguration durch Poolverwalter {: #pool_manager}
+## Konfiguration durch Poolverwalter:innen {: #pool_manager}
 
-Im Administrationsbereich des Fragenpools verwalten Poolverwalter fünf Bereiche zur Organisation des Fragenpool-Moduls.
-Der Poolverwalter ist wie z.B. der Benutzerverwalter oder Autor eine [Rolle](../basic_concepts/Roles_Rights.de.md), die ein Systembenutzer von einem Systemadministrator zugewiesen bekommt. Der Poolverwalter hat das Recht, organisatorische Aspekte der Fragenbank zu ändern, er hat jedoch keinen Einfluss auf den Inhalt der Fragenbank sowie einzelner Pools. Auf die folgenden Bereiche des Fragenpool hat der Poolverwalter Zugriff:
+**Poolverwalter:in** ist eine [Rolle](../basic_concepts/Roles_Rights.de.md), die  OpenOlat-Benutzer:innen von Administrator:innen oder Benutzerverwalter:innen zugewiesen bekommen. 
+
+Poolverwalter:innen haben das Recht, organisatorische Aspekte der Fragenbank zu ändern. Sie haben jedoch keinen Einfluss auf den Inhalt der Fragenbank, sowie einzelner Pools.
+
+Im Administrationsbereich des Fragenpools verwalten Poolverwalter:innen fünf Bereiche zur Organisation des Fragenpool-Moduls.
 
   * Beurteilungsprozess
   * Fachbereich
@@ -11,48 +14,84 @@ Der Poolverwalter ist wie z.B. der Benutzerverwalter oder Autor eine [Rolle](../
   * Fragetyp
   * Stufe
 
-![question_bank_navigation_administration_v1_de.png](assets/question_bank_navigation_administration_v1_de.png){ class="shadow lightbox" }
+---
 
-###  Beurteilungsprozess {: #review_process}
+###  Beurteilungsprozess {: #assessment_process}
 
-Hier kann definiert werden wann eine Frage, für die ein Beurteilungsprozess gestartet wurde, den Status "final" erhält. Liegt ein Item unterhalb dieser Grenze wird das Item auf "Revision" gesetzt.
+![question_bank_administration_assessment_process_v1_de.png](assets/question_bank_administration_assessment_process_v1_de.png){ class="shadow lightbox" }
+
+Hier kann definiert werden, wann eine Frage den Status "Final" erhält, falls für sie ein Beurteilungsprozess gestartet wurde. Liegt ein Item unterhalb der hier angegebenen Grenze, wird das Item auf "Revision" gesetzt.
+
+[Zum Seitenanfang ^](#question_bank_administration)
+
+---
 
 ###  Fachbereich {: #subject}
 
-Fachbereiche dienen der fachlichen Verschlagwortung der Fragen (Items), und werden in einer hierarchischen Struktur dargestellt. Diese bildet z.B. in Ausbildungsorganisationen mögliche Studiengänge ab, oder eventuell in der Privatwirtschaft Organisationseinheiten. Neue Fachbereiche werden über die Schaltfläche "Neue Taxonomieebene erstellen" oder über "Taxonomieebenen importieren" hinzugefügt. Bereits bestehende Fachbereiche können auch bearbeitet werden.
+![question_bank_administration_subject_v1_de.png](assets/question_bank_administration_subject_v1_de.png){ class="shadow lightbox" }
 
-![](assets/Fragenpool_Taxonomie_erstellen.jpg)
+Fachbereiche dienen der fachlichen Verschlagwortung der Fragen (Items) und werden in einer hierarchischen Struktur dargestellt. Diese bildet z.B. in Ausbildungsorganisationen mögliche Studiengänge ab, in der Privatwirtschaft eventuell Organisationseinheiten. 
+
+Hinter den Fachbereichen steht eine [Taxonomie](../../manual_admin/administration/Modules_Taxonomy.de.md). Neue Fachbereiche werden über die Schaltfläche "Neue Taxonomieebene erstellen" oder über "Taxonomieebenen importieren" hinzugefügt. Bereits bestehende Fachbereiche können auch bearbeitet werden.
+
+Damit eine Frage in den Beurteilungsprozess gegeben werden kann, muss ein Fachbereich angegeben werden. Die Beurteilung soll durch Fachexperten erfolgen, die in diesem Bereich Kompetenz besitzen. Weil auch die Expert:innen einem Fachbereich zugeordnet sind, kann so eine Zuordnung von Frage und Expert:in erfolgen. 
+
+[Zum Seitenanfang ^](#question_bank_administration)
+
+---
 
 ###  Pool-Verwaltung {: #pool}
 
-Ein Pool (engl. Sammelbecken, Reservoir etc.) ist eine Fragendatenbank, die dafür freigegebenen Benutzern (Autoren) des Systems für den Austausch von Testfragen zur Verfügung steht. Fragenpools können entweder öffentlich sein, und stehen damit automatisch allen Autoren zur Verfügung, oder nicht öffentlich, wodurch sich der Zugriff auf ausgesuchte Personen einschränken lässt, z.B. die Mitarbeiter einer Abteilung. Diese Personen können über den Link "Besitzer" dem Pool hinzugefügt werden. So erstellte Pools erscheinen mit diesem Icon:
-![](assets/share_pool_64_0_434343_none.png)
+![question_bank_administration_pool_admin_v1_de.png](assets/question_bank_administration_pool_admin_v1_de.png){ class="shadow lightbox" }
 
-Benutzer ohne Poolverwalterrechte können ebenfalls eigene Pools erstellen. Die Freigabe für diese Pools erfolgt allerdings über OpenOlat Gruppen.  Solche Gruppenfreigaben erscheinen mit dem folgenden Icon:
-![](assets/group.png)
-Neue Pools werden über die Schaltfläche "Pool erstellen" hinzugefügt. Bereits bestehende Pools können ebenfalls bearbeitet, oder gelöscht werden.
+Ein Pool (engl. Sammelbecken, Reservoir etc.) ist eine Fragendatenbank, die Autor:innen für den Austausch von Testfragen zur Verfügung steht. 
 
- **Pool erstellen**
+Neue Pools werden über die Schaltfläche "Pool erstellen" hinzugefügt. Bereits bestehende Pools können bearbeitet, oder gelöscht werden.
 
-![](assets/qb_pool_DE.gif)
+Fragenpools können entweder **öffentlich** sein (und stehen damit automatisch allen Autor:innen zur Verfügung) oder **nicht öffentlich**, wodurch sich der Zugriff auf ausgesuchte Personen einschränken lässt. Z.B. die Mitarbeiter:innen einer Abteilung.
 
-  1. Schaltfläche Pool erstellen: Damit wird ein neuer Pool erstellt. Es öffnet sich ein Formular "Pool erstellen"
+![question_bank_administration_pool_admin_v1_de.png](assets/share_pool_64_0_434343_none.png){ class="aside-right lightbox" }
+
+Diese Personen können über den Link "Besitzer:in" dem Pool hinzugefügt werden. So erstellte Pools erscheinen mit dem nebenstehenden Icon.
+
+![question_bank_administration_pool_admin_v1_de.png](assets/group.png){ class="aside-right lightbox" }
+
+Benutzer:innen **ohne Poolverwalterrechte** können ebenfalls eigene Pools erstellen. Die Freigabe für diese Pools erfolgt allerdings über OpenOlat-Gruppen. Solche Gruppenfreigaben erscheinen mit dem nebenstehenden Icon.
+
+![question_bank_administration_pool_type_v1_de.png](assets/question_bank_administration_pool_type_v1_de.png){ class="shadow lightbox" }
+
+[Zum Seitenanfang ^](#question_bank_administration)
+
+
+**Pool erstellen**
+
+![question_bank_administration_pool_create_v1_de.png](assets/question_bank_administration_pool_create_v1_de.png){ class="shadow lightbox" }
+
+  1. Schaltfläche "Pool erstellen": Damit wird ein neuer Pool erstellt. Es öffnet sich ein Formular "Pool erstellen"
   2. Geben Sie den Namen des neuen Pools ein.
-  3. Legen Sie fest ob der Pool öffentlich (für alle Autoren sichtbar), oder Privat sein soll. Ist der Pool privat, können Sie unter Besitzer (5) festlegen, welche Benutzer Zugriff auf den Pool erhalten.
-  4. Für bereits bestehende Pools können Sie den Namen und die Sichtbarkeit ändern,
-  5. Besitzer hinzufügen oder entfernen
+  3. Legen Sie fest, ob der Pool öffentlich (für alle Autoren sichtbar) oder privat sein soll. Ist der Pool privat, können Sie unter Besitzer (5) festlegen, welche Benutzer:innen Zugriff auf den Pool erhalten.
+  4. Für bereits bestehende Pools können Sie den Namen und die Sichtbarkeit ändern.
+  5. Fügen Sie Besitzer:innen hinzu oder entfernen Sie diese.
+
+
+[Zum Seitenanfang ^](#question_bank_administration)
+
+---
+
 
 ###  Fragetyp {: #type}
 
-OpenOlat verfügt über diverse Test [Fragetypen](../learningresources/Test_question_types.de.md), die entweder im Testeditor der Lernressource Test oder im Itemeditor der Fragenbank erstellt werden können. Erstellen Sie zusätzliche Fragetypen, wenn die Standard Fragetypen von OpenOlat nicht genügen. Die Standard Fragetypen können nicht gelöscht werden.
+![question_bank_administration_question_types_v1_de.png](assets/question_bank_administration_question_types_v1_de.png){ class="shadow lightbox" }
+
+OpenOlat verfügt über diverse Test [Fragetypen](../learningresources/Test_question_types.de.md), die entweder im Testeditor der Lernressource Test oder im Itemeditor der Fragenbank erstellt werden können. Erstellen Sie zusätzliche Fragetypen, wenn die Standard-Fragetypen von OpenOlat nicht genügen. Die Standard-Fragetypen können nicht gelöscht werden.
 
 Ein vom Standard abweichender Fragetyp kann nicht über den Editor erstellt werden, sondern muss einer bestehenden Frage eines Standard-Typs in der Detailansicht mit Hilfe des Metadatums "Typ" in der Kategorie "Itemanalyse" zugewiesen werden. Eine in diesem Stil geänderte Frage wird nach wie vor dem ursprünglichen Fragetyp entsprechen, allerdings wird nun im Fragepool in der Spalte "Typ" der neue Typ angezeigt.
 
-Neu erstellte Fragen müssen pro verfügbare Sprache übersetzt werden, damit sowohl z.B. deutsch- als auch englisch-sprachige Benutzer die korrekten Begriffe angezeigt bekommen, und nicht den hier sichtbaren Übersetzungsschlüssel.
+Neu erstellte Fragen müssen pro verfügbarer Sprache übersetzt werden, damit sowohl z.B. deutsch- als auch englischsprachige Benutzer:innen die korrekten Begriffe angezeigt bekommen (und nicht den hier sichtbaren Übersetzungsschlüssel).
 
-**Fragentyp erstellen**
+**Fragetyp erstellen**
 
-Nachdem Sie mit Hilfe der Schaltfläche "Fragetyp erstellen" einen neuen Fragetyp erstellt haben, erscheint dieser zuunterst in der Tabelle der Typen, in der Spalte Übersetzung. Dazu wird stets folgende Namenskonvention angewandt:
+Nachdem Sie mit Hilfe der Schaltfläche "Fragetyp erstellen" einen neuen Fragetyp erstellt haben, erscheint dieser zuunterst in der Tabelle der Typen, in der Spalte "Übersetzung". Dazu wird stets folgende Namenskonvention angewandt:
 
     
     
@@ -74,13 +113,43 @@ Klicken Sie in der Tabellenspalte "Übersetzung" auf die entsprechende Zeile. Es
 
 Wiederholen Sie diese Schritte für jede in ihrer Instanz verfügbaren Sprache.
 
+[Zum Seitenanfang ^](#question_bank_administration)
+
+---
+
 ###  Stufe {: #level}
 
-Stufen stellen eine weitere Kategorisierungsmöglichkeit dar, und können z.B. mit einer Schwierigkeitsstufe verglichen werden. Hier erstellen Sie Stufen, die in ihrem Kontext ihren verfügbaren Ausbildungsleveln entsprechen. Beispiele für Stufen im schulischen Kontext sind: Unterstufe, Oberstufe, Gymnasium, Bachelor, Master. In einem Unternehmenskontext könnten Stufen so aussehen: ohne Berufsausbildung, mit Berufsausbildung, Führungsfunktion, Administration, Kader, Management. Stufen erstellen Sie analog zur Vorgehensweise der Erstellung neuer Fragetypen.
+![question_bank_administration_level_v1_de.png](assets/question_bank_administration_level_v1_de.png){ class="shadow lightbox" }
 
-![](assets/qb_det_edu_DE.gif)
+Stufen stellen eine weitere Kategorisierungsmöglichkeit dar und können z.B. mit einer Schwierigkeitsstufe verglichen werden. Hier erstellen Sie Stufen, die in ihrem Kontext ihren verfügbaren Ausbildungsleveln entsprechen. 
 
-Die Stufe eines Frageitems kann in der Detailansicht mit Hilfe des Metadatums "Level" in der Kategorie "Didaktik" zugewiesen werden. So kann z.B. die Schwierigkeitsstufe einer Frage festgelegt werden.
+Die Stufe eines Frageitems kann in der [Detailansicht](Item_Detailed_View/#metadata_general) als Metadatum "Stufe" unter "Allgemein" zugewiesen werden. So kann z.B. die Schwierigkeit einer Frage einer Stufe zugeordnet werden.
 
-Wie Fragetypen müssen auch Stufen pro verfügbare Sprache übersetzt werden, damit sowohl z.B. deutsch -als auch englisch-sprachige Benutzer die korrekten Begriffe angezeigt bekommen. Gehen Sie dazu wie unter "Fragetypen erstellen" beschrieben vor.
+Beispiele für Stufen im schulischen Kontext sind:
+
+* Unterstufe
+* Oberstufe
+* Gymnasium
+* Bachelor
+* Master 
+
+In einem Unternehmenskontext könnten Stufen so aussehen:
+
+* ohne Berufsausbildung
+* mit Berufsausbildung
+* Führungsfunktion
+* Administration
+* Kader
+* Management
+ 
+
+**Neue Stufen** erstellen Sie mit dem Button rechts oben.
+
+Wie Fragetypen, müssen auch Stufen pro verfügbarer Sprache übersetzt werden, damit sowohl z.B. deutsch- als auch englischsprachige Benutzer:innen die korrekten Begriffe angezeigt bekommen. Gehen Sie dazu vor, wie unter "Fragetypen erstellen" beschrieben.
+
+[Zum Seitenanfang ^](#question_bank_administration)
+
+
+
+
 
