@@ -117,7 +117,7 @@ Here you find a tool for collaborative project work with deadlines, to-dos, deci
 
 
 
-## Course Planner (bis Release 19 Curriculumverwaltung)  {: #course_planner}
+## Course Planner (up to release 19 Curriculum management)  {: #course_planner}
 
 ![11_green_24.png](assets/11_green_24.png){ class=" aside-left-lg" }
 
