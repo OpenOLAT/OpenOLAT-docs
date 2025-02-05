@@ -108,6 +108,7 @@ plugins:
           About this manual: Über dieses Handbuch
           About us: Über uns
           Absences : Absenzen
+          Absence Management : Absenzenverwaltung
           Access configuration : Zugangskonfiguration
           Access Restrictions in the Expert Mode : Zugriffsbeschränkungen im Expertenmodus
           Account : Konto
@@ -205,6 +206,7 @@ plugins:
           Course element Zoom : Kursbaustein Zoom
           Course elements : Kursbausteine
           Course Operation : Kursbetrieb
+          Course Planner : Course Planner
           Course Problems and Error Messages : Probleme und Fehlermeldungen im Kurs
           Course Reminders : Erinnerung
           Course Settings : Kurseinstellungen
