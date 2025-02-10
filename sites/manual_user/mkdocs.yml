@@ -39,6 +39,9 @@ nav:
       - basic_concepts/Technology.md 
       - Using WebDAV: "basic_concepts/Using_WebDAV.md" 
       - Technology and Navigation: "basic_concepts/Technology_and_Navigation.md"
+    - Accessibility:
+      - Basic principals: "basic_concepts/Accessibility_Principals.md"
+      - Colors: "basic_concepts/Accessibility_Colors.md"
  
   - Login and registration:
     - login_registration/index.md

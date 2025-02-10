@@ -111,6 +111,7 @@ plugins:
           Absence Management : Absenzenverwaltung
           Access configuration : Zugangskonfiguration
           Access Restrictions in the Expert Mode : Zugriffsbeschränkungen im Expertenmodus
+          Accessibility : Barrierefreiheit
           Account : Konto
           Actions (To-dos) : Massnahmen (To-dos)
           Actions in the Authoring section : Aktionen im Autorenbereich
@@ -148,6 +149,7 @@ plugins:
           Badges: Badges
           eAssessment OpenBadges: Badges
           Basic concepts : Basiskonzepte
+          Basic principals : Grundsätze
           Basic terms : Grundbegriffe
           Bewertungswerkzeug  : Bewertungswerkzeug
           BigBlueButton : BigBlueButton
@@ -169,6 +171,7 @@ plugins:
           Coach : Betreuer
           Coaching : Coaching
           Cockpit : Cockpit
+          Colors : Farben
           Communication and Collaboration : Kommunikation und Kollaboration
           Communication during an exam : Kommunikation während einer Prüfung
           Competences : Kompetenzen
