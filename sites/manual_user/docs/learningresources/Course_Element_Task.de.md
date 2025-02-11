@@ -388,6 +388,13 @@ Weitere Informationen zu To-dos finden Sie [hier](../basic_concepts/To_Dos_Basic
 [zum Seitenanfang ^](#course_element_task)
 
 
+### Tab Badges
+Wurde von dem/der Kursbesitzer:in unter **Administration > Einstellungen > Tab Bewertung > Abschnitt Badges** die Vergabe von Badges aktiviert, wird im Kurseditor zu diesem Kursbaustein der Tab "Badges" angezeigt und es kann ein spezifischer Badge für diesen Kursbaustein erstellt werden.
+
+[nach oben (Perspektive Autor:in) ^](#create_task)<br>
+[Zum Seitenanfang ^](#course_element_task)
+
+
 !!! info "Hinweis"
 
     Die Funktionsweise und der Aufbau der Kursbausteine "Aufgabe" und "[Gruppenaufgabe](../learningresources/Course_Element_Grouptask.de.md)" sind ähnlich.

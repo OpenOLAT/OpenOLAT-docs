@@ -51,6 +51,12 @@ Wie Lehrende eine Portfolioaufgabe bewerten können, erfahren Sie im Kapitel "[P
 
 Zum Schluss muss der Kursbaustein wie üblich publiziert werden.
 
+### Tab Badges
+Wurde von dem/der Kursbesitzer:in unter **Administration > Einstellungen > Tab Bewertung > Abschnitt Badges** die Vergabe von Badges aktiviert, wird im Kurseditor zu diesem Kursbaustein der Tab "Badges" angezeigt und es kann ein spezifischer Badge für diesen Kursbaustein erstellt werden.
+
+[Zum Seitenanfang ^](#course_element_portfolio)
+
+---
 
 ## Teilnehmenden Sicht
 

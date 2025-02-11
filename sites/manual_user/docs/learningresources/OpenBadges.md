@@ -24,7 +24,7 @@ Basically 3 categories of badges can be acquired:
 * and **global Badges**<br> (cross-course, can only be created by administrators) 
 
 
-[To the top of the page ^](#badges--badges)
+[To the top of the page ^](#badges)
 
 ---
 
@@ -47,7 +47,7 @@ Badges can also be awarded manually in the rating tool via a mass action.
 When creating a badge with the wizard, rules for the automatic awarding of a badge can be defined in the "Award criteria" step.
 
 
-[To the top of the page ^](#badges--badges)
+[To the top of the page ^](#badges)
 
 ---
 
@@ -68,7 +68,7 @@ Administrators can set up the rules for automatic assignment under<br>
 If the badge tool for creating a global badge is called up there, the rules can be specified in the wizard.
 
 
-[To the top of the page ^](#badges--badges)
+[To the top of the page ^](#badges)
 
 ---
 
@@ -80,7 +80,7 @@ You can find step-by-step instructions for **course badges** [here](../../manual
 
 The option to create **global badges** is described [here](../../manual_admin/administration/e-Assessment_openBadges.md).
 
-[To the top of the page ^](#badges--badges)
+[To the top of the page ^](#badges)
 
 ---
 
@@ -103,8 +103,12 @@ The option to create **global badges** is described [here](../../manual_admin/ad
    
 6. **Earners**: Displays the Earners in a table to see, which participant already qualifies for the criteria you choose.
 
+!!! note "Note"
 
-[To the top of the page ^](#badges--badges)
+    If entire courses are copied, the option to get badges is also included in the copy.
+
+
+[To the top of the page ^](#badges)
 
 ---
 
@@ -118,7 +122,20 @@ The right to manual assignment can also be given to coaches here.
 If badges have been activated, the **Badges** option will be available in **Course administration** after the next login. The rules for awarding badges for the course can be set up here.
 
 
-[To the top of the page ^](#badges--badges)
+[To the top of the page ^](#badges)
+
+---
+
+## View awarded badges in LinkedIn and other websites {: #assigned_badges_LinkedIn}
+
+In principle, the display of OpenOlat badges on other websites can be done manually by exporting and importing.
+
+LinkedIn allows you to display certificates in your personal profile. 
+The certificate or badge is checked with a host-based verification.
+A similar process is used to verify the certificate or badge. 
+
+
+[To the top of the page ^](#badges)
 
 ---
 

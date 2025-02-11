@@ -92,3 +92,9 @@ Um eine Bewertung vorzunehmen wird der entsprechende Kursteilnehmer ausgewählt 
 Der User hat nach der Freigabe Zugriff auf seine Bewertung inklusive Bewertungsrubrik und sonstiger Feedbacks.  
 
 Im **"Tab Erinnerungen"** erscheinen die  für den Kursbaustein im Kurseditor angelegten [Erinnerungen](../learningresources/Course_Reminders.de.md). Auch neue Erinnerungen können hier erstellt oder vorhandene bearbeitet und gelöscht werden. 
+
+
+### Tab Badges
+Wurde von dem/der Kursbesitzer:in unter **Administration > Einstellungen > Tab Bewertung > Abschnitt Badges** die Vergabe von Badges aktiviert, wird im Kurseditor zu diesem Kursbaustein der Tab "Badges" angezeigt und es kann ein spezifischer Badge für diesen Kursbaustein erstellt werden.
+
+[Zum Seitenanfang ^](#course_element_assessment)

@@ -48,6 +48,12 @@ Im Tab "Template Einstellungen" können sowohl für den Abgabe- als auch den Rü
 
 ![course_element_participant_folder_template_v1_de.png](assets/course_element_participant_folder_template_v1_de.png){ class="shadow lightbox" }
 
+
+## Tab Badges
+Wurde von dem/der Kursbesitzer:in unter **Administration > Einstellungen > Tab Bewertung > Abschnitt Badges** die Vergabe von Badges aktiviert, wird im Kurseditor zu diesem Kursbaustein der Tab "Badges" angezeigt und es kann ein spezifischer Badge für diesen Kursbaustein erstellt werden.
+
+[Zum Seitenanfang ^](#participant_folder)
+
 !!! warning "Achtung"
 
-    Die hier angelegten Unterordner können später nicht umbenannt werden. Lediglich ein löschen und neuanlegen ist möglich. Im Kursrun werden beim Versuch diese Unterordner umzubenennen Kopien der Unterordner mit neuem Namen erstellt.
+    Die hier angelegten Unterordner können später nicht umbenannt werden. Lediglich ein Löschen und Neuanlegen ist möglich. Im Kursrun werden beim Versuch diese Unterordner umzubenennen Kopien der Unterordner mit neuem Namen erstellt.

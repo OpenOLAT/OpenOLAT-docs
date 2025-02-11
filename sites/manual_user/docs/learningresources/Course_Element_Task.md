@@ -365,6 +365,15 @@ Further information on To-dos can be found [here](../basic_concepts/To_Dos_Basic
 [Up (Author perspective) ^](#create_task)<br>
 [To the top of the page ^](#course_element_task)
 
+
+### Tab Badges
+
+If the course owner has activated the assignment of badges under **Administration > Settings > Assessment tab > Badges section**, the ‘Badges’ tab is displayed in the course editor for this course element and a specific badge can be created for this course element.
+
+[Up (Author perspective) ^](#create_task)<br>
+[To the top of the page ^](#course_element_task)
+
+
 !!! info "Hint"
 
     The functionality and structure of the course elements "Task" and "[Group task](../learningresources/Course_Element_Grouptask.md)" are similar.

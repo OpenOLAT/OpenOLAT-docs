@@ -82,3 +82,10 @@ Wurden von Ihren Administrator:innen Deep Links eingerichtet, können Sie unter 
 * * *
 
 **Alle beim Start gesendete Information anzeigen (Debug):** Wenn Sie diese Checkbox ankreuzen, werden den Benutzern die gesendeten Informationen angezeigt. Diese Informationen beinhalten Parameter, wie zum Beispiel die Benutzeridentifikation, den Kursnamen, den Kursbaustein etc. Wenn Sie in der Kursansicht auf die Schaltfläche "Launch Endpoint with BasicLTI Data" oberhalb der Anzeige der gesendeten Daten drücken, gelangen Sie zur Startseite der Lernapplikation.
+
+
+## Tab Badges
+
+Wurde von dem/der Kursbesitzer:in unter **Administration > Einstellungen > Tab Bewertung > Abschnitt Badges** die Vergabe von Badges aktiviert, wird im Kurseditor zu diesem Kursbaustein der Tab "Badges" angezeigt und es kann ein spezifischer Badge für diesen Kursbaustein erstellt werden.
+
+[Zum Seitenanfang ^](#lti)

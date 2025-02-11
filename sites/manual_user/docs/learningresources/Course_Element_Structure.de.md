@@ -1,4 +1,4 @@
-# Kursbaustein "Struktur"
+# Kursbaustein "Struktur" {: #course_element_structure}
 
 ## Steckbrief
 
@@ -49,6 +49,13 @@ Die zentralen Einstellungen werden im Tab "Übersicht" vorgenommen. Sie können 
 Hier können Sie die Anzeige der Highscore-Darstellung aktivieren und konfigurieren. Sie können einen Gratulationstitel, ein Siegertreppchen, ein Histogramm sowie eine Bestenliste anzeigen lassen. Auch eine anonymisierte Darstellung ist hier möglich.
 
 Einen Sonderfall des Bausteins Struktur stellt der Hauptkursknoten dar. Er enthält zusätzlich den Tab "[Erinnerungen](../learningresources/Course_Reminders.de.md)" und kann weder gelöscht noch verschoben werden.
+
+## Tab Badges
+Wurde von dem/der Kursbesitzer:in unter **Administration > Einstellungen > Tab Bewertung > Abschnitt Badges** die Vergabe von Badges aktiviert, wird im Kurseditor zu diesem Kursbaustein der Tab "Badges" angezeigt und es kann ein spezifischer Badge für diesen Kursbaustein erstellt werden.
+
+[Zum Seitenanfang ^](#course_element_structure)
+
+---
 
 ## Spezielle Einstellungen des Kursbausteins Struktur je nach Kurstyp
 

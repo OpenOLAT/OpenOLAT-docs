@@ -51,6 +51,14 @@ You can find out how teachers can grade a portfolio assignment in the chapter "[
 Finally, the course element must be published as usual.
 
 
+### Tab Badges
+
+If the course owner has activated the assignment of badges under **Administration > Settings > Assessment tab > Badges section**, the ‘Badges’ tab is displayed in the course editor for this course element and a specific badge can be created for this course element.
+
+[To the top of the page ^](#course_element_portfolio)
+
+---
+
 ## Participant view
 
 ### Collect portfolio task

@@ -82,3 +82,12 @@ If your administrator has set up deep links, you can select preconfigured deep l
 * * *
 
  **Show all information transmitted on launch (Debug):** By checking this box, other users will be able to see the information sent. This information includes parameters such as user identification, course title, course element, etc.By clicking on "Launch Endpoint with BasicLTI Data" in the course view on top of your display of the data sent you will get to the homepage of your learning application.
+
+
+ ## Tab Badges
+ 
+ If the course owner has activated the assignment of badges under **Administration > Settings > Assessment tab > Badges section**, the ‘Badges’ tab is displayed in the course editor for this course element and a specific badge can be created for this course element.
+ 
+ [To the top of the page ^](#lti)
+ 
+ 

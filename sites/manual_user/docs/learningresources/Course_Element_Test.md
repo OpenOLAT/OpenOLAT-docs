@@ -174,6 +174,14 @@ The following completion criteria are also available for tests:
 
 Only if the selected condition is fulfilled. the progress is shown to the user in the learning path display and in the progress percentage.
 
+
+### Tab Badges
+
+If the course owner has activated the assignment of badges under **Administration > Settings > Assessment tab > Badges section**, the ‘Badges’ tab is displayed in the course editor for this course element and a specific badge can be created for this course element.
+
+[To the top of the page ^](#course_element_test)
+
+
 ## Comparing Tests and Self-tests
 
 Feature | ![Test](assets/test.png){ class=size16 } Test | ![Self-test](assets/selftest.png){ class=size16 } Self-test

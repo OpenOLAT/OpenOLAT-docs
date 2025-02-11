@@ -1,4 +1,4 @@
-# Course Element "Assessment"
+# Course Element "Assessment" {: #course_element_assessment}
 
 
 ## Profile
@@ -94,4 +94,12 @@ To make an assessment, select the relevant course participant and fill in the di
 
 The user now has direct access to his assessment including the assessment rubrics.
 
-Im **"Tab Erinnerungen"** erscheinen die  für den Kursbaustein im Kurseditor angelegten [Erinnerungen](../learningresources/Course_Reminders.md). Auch neue Erinnerungen können hier erstellt oder vorhandene bearbeitet und gelöscht werden. 
+Im **"Tab Erinnerungen"** erscheinen die  für den Kursbaustein im Kurseditor angelegten [Erinnerungen](../learningresources/Course_Reminders.md). Auch neue Erinnerungen können hier erstellt oder vorhandene bearbeitet und gelöscht werden.
+
+
+### Tab Badges
+
+If the course owner has activated the assignment of badges under **Administration > Settings > Assessment tab > Badges section**, the ‘Badges’ tab is displayed in the course editor for this course element and a specific badge can be created for this course element.
+
+[To the top of the page ^](#course_element_assessment)
+

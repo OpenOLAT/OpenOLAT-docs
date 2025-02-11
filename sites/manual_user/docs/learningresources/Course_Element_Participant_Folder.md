@@ -47,6 +47,14 @@ In the Template Settings tab, subfolders can be created for both the submission 
 
 ![course_element_participant_folder_template_v1_de.png](assets/course_element_participant_folder_template_v1_de.png){ class="shadow lightbox" }
 
+## Tab Badges
+
+If the course owner has activated the assignment of badges under **Administration > Settings > Assessment tab > Badges section**, the ‘Badges’ tab is displayed in the course editor for this course element and a specific badge can be created for this course element.
+
+[To the top of the page ^](#participant_folder)
+
+
+
 !!! warning 
 
     The subfolders created here cannot be renamed later. Only a deletion and a new creation is possible. In the course run, when you try to rename these subfolders, copies of the subfolders with new names will be created.

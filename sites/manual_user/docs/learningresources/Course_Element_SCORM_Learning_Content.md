@@ -1,4 +1,4 @@
-# Course Element "SCORM Learning Content"
+# Course Element "SCORM Learning Content" {: #course_element_scorm}
 
 ## Profile
 
@@ -83,3 +83,9 @@ In the "Layout" tab you can define the settings for the display of the SCORM pac
 
     SCORM learning content will always be presented with a homepage. If such content contains tasks as well as tests you will learn from that homepage more about your score and remaining attempts to take tests.
 
+
+### Tab Badges
+
+If the course owner has activated the assignment of badges under **Administration > Settings > Assessment tab > Badges section**, the ‘Badges’ tab is displayed in the course editor for this course element and a specific badge can be created for this course element.
+
+[To the top of the page ^](#course_element_scorm)

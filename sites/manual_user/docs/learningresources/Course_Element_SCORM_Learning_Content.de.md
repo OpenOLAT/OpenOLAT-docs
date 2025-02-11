@@ -1,4 +1,4 @@
-# Kursbaustein "SCORM-Lerninhalt"
+# Kursbaustein "SCORM-Lerninhalt" {: #course_element_scorm}
 
 ## Steckbrief
 
@@ -82,3 +82,9 @@ Im Tab "Layout" definieren Sie die Einstellungen für die Anzeige des SCORM- Ler
 !!! info "Info"
 
     SCORM-Lerninhalte werden stets mit Startseite angezeigt. Wenn ein SCORM-Lerninhalt Aufgaben und Tests beinhaltet, werden auf dieser Startseite die erreichte Punktzahl und die verbleibenden Versuche, den Lerninhalt erfolgreich zu absolvieren, ermittelt.
+
+
+### Tab Badges
+Wurde von dem/der Kursbesitzer:in unter **Administration > Einstellungen > Tab Bewertung > Abschnitt Badges** die Vergabe von Badges aktiviert, wird im Kurseditor zu diesem Kursbaustein der Tab "Badges" angezeigt und es kann ein spezifischer Badge für diesen Kursbaustein erstellt werden.
+
+[Zum Seitenanfang ^](#course_element_scorm)

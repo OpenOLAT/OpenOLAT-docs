@@ -1,4 +1,4 @@
-# Course Element "Checklist"
+# Course Element "Checklist" {: #course_element_checklist}
 
 
 ## Profile
@@ -77,6 +77,14 @@ If necessary, you can add a **file** for the participants to download.
 
 The table then displays an overview of the checkboxes that have been created.
 The order can also be changed here.
+
+
+### Tab Badges
+
+If the course owner has activated the assignment of badges under **Administration > Settings > Assessment tab > Badges section**, the ‘Badges’ tab is displayed in the course editor for this course element and a specific badge can be created for this course element.
+
+[To the top of the page ^](#course_element_checklist)
+
 
 ###  Use and evaluate checklists
 
