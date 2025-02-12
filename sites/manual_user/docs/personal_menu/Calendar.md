@@ -1,4 +1,4 @@
-# Personal tools: Calendar
+# Personal tools: Calendar {: #calendar}
 
 ![pers_menu_calendar_v1_en.png](assets/pers_menu_calendar_v1_en.png){ class="aside-right lightbox"}
 
@@ -20,9 +20,10 @@ The calendar function is available in various places:
 
     If you cannot find a calendar in the list of your personal tools, this has been switched off system-wide by an administrator.
 
+[To the top of the page ^](#calendar)
 
 
-## Create / Edit entry
+## Create / Edit entry {: #create_entry}
 
 To add a new appointment, click in the corresponding calendar field. A pop-up opens for the appointment details.
 
@@ -60,8 +61,10 @@ An appointment can also be moved using drag & drop.
 
     The "Delete this entry" button in the appointment details deletes the appointment permanently. The appointment cannot be restored!
 
+[To the top of the page ^](#calendar)
 
-### Recurring events
+
+## Recurring events {: #recurring_events}
 
 The desired frequency of series appointments can be selected in the appointment details under "Repetition". As soon as a repetition is desired, the input field appears with which the end of the series is defined (mandatory field).
 
@@ -69,9 +72,10 @@ The desired frequency of series appointments can be selected in the appointment 
 
 Serial appointments can also be edited. To do this, click on one of the appointments in the calendar. When saving the adjustment, you can select whether the change applies to all appointments in the series or only to the selected appointment. If all appointments are to be changed, those appointments that have not previously been customized will be changed.
 
+[To the top of the page ^](#calendar)
 
 
-### Visibility {: #visibility}
+## Visibility {: #visibility}
 
 Specify here who can see the calendar entry.
 
@@ -82,11 +86,13 @@ Depending on the type of calendar (Personal calendar, group calendar, course cal
 || Personal calendar| Group calendar| Course calendar  
 ---|---|---|---  
 **Private** | Only the creator is allowed to view the entry, as it is his or her calendar.| Only group members are allowed to view entries, as it is the calendar of the group. | Only course members are allowed to view entries, as it is the calendar of the course.  
-**Time visible only** | As only the creator is allowed to view the entry, these visibility levels have no effect in this context. | All group and course members can view the entries including all details. Additionally all registered OpenOlat users or guests with access to the group or course are allowed to view the time of the entries, but no further details. | All group and course members can view the entries including all details. Additionally all registered OpenOlat users or guests with access to the group or course are allowed to view the time of the entries, but no further details.
+**Only time information visible** | As only the creator is allowed to view the entry, these visibility levels have no effect in this context. | All group and course members can view the entries including all details. Additionally all registered OpenOlat users or guests with access to the group or course are allowed to view the time of the entries, but no further details. | All group and course members can view the entries including all details. Additionally all registered OpenOlat users or guests with access to the group or course are allowed to view the time of the entries, but no further details.
 **Public** | As only the creator is allowed to view the entry, these visibility levels have no effect in this context. | All group and course members can view the entries including all details. Additionally all registered OpenOlat users or guests with access to the group or course are allowed to view the entries including all details. | All group or course members can see the entry with all the details. In addition, all OpenOlat users or guests with access to the group/course can see all the details of the entry.
 
+[To the top of the page ^](#calendar)
 
-## Content
+
+## Content {: #content}
 
 The personal calendar is displayed:
 
@@ -99,8 +105,10 @@ The personal calendar is displayed:
 
     An aggregated calendar is a collective feed that contains all calendars and their appointments that you have access to. You can use this feed from other applications to add or display all your OpenOlat appointments there. This saves you the work of having to insert each calendar individually (see Integrating calendars below). You can also use the gear icon in the list to import files and calendars and reset the appointments of an entire calendar.
 
+[To the top of the page ^](#calendar)
 
-### Calendar list (in the Personal Tools area)
+
+## Calendar list (in the Personal Tools area) {: #list}
 
 The "Settings" button (small button with the cogwheel icon) opens the calendar list.
 
@@ -118,8 +126,10 @@ Under the feed symbol you will find the URL with which this calendar can be inte
 
 Editing options are displayed under the icon with the 3 dots at the end of a line if they are independent calendars. (Editing is limited/not possible for aggregated calendars).
 
+[To the top of the page ^](#calendar)
 
-## Add calendars to the calendar list
+
+## Add calendars to the calendar list {: #add_to_list}
 
 The course and group calendars are added to the calendar list of the personal calendar by default. 
 If you want to add another independent calendar to the calendar list, use the buttons above the list.
@@ -150,13 +160,17 @@ By clicking on the small arrow next to it, calendars can be linked via URL.
 
     If your calendar appears empty or certain appointments are not displayed despite having been entered, the desired calendar may not be selected in the calendar list. (Toggle button not switched on.)
 
+[To the top of the page ^](#calendar)
 
-## Share OpenOlat calendar
+
+## Share OpenOlat calendar {: #share}
 
 Using iCal (a standard for managing appointments), you can integrate the various OpenOlat calendars into another calendar, such as the Google calendar. To do this, click the iCal icon ![RSS symbol](assets/icon_rss_small.png){ width=24px } either in the calendar view or in the corresponding line of the calendar list and copy the iCal link. 
 
+[To the top of the page ^](#calendar)
 
-## Managed calendar
+
+## Managed calendar {: #managed}
 
 Other calendars (such as those from the PerformX system) can also be integrated into the OpenOlat calendar as **managed calendars** on Feed. Managed appointments are marked with a lock symbol.
 
@@ -164,6 +178,8 @@ Other calendars (such as those from the PerformX system) can also be integrated 
 !!! info "Note"
 
     In course and group calendars, the editing options may differ from the personal calendar. 
+
+[To the top of the page ^](#calendar)
 
 
 ## Further information
@@ -174,3 +190,4 @@ Other calendars (such as those from the PerformX system) can also be integrated 
 [Course element calender](../learningresources/Course_Element_Calendar.md)<br>
 [Activation of calenders by administrators](../../manual_admin/administration/Core_functions.md#calender-administration)<br>
 
+[To the top of the page ^](#calendar)

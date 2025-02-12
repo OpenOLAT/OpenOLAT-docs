@@ -1,4 +1,4 @@
-# Persönliche Werkzeuge: Kalender
+# Persönliche Werkzeuge: Kalender {: #calendar}
 
 ![pers_menu_calendar_v1_de.png](assets/pers_menu_calendar_v1_de.png){ class="aside-right lightbox"}
 
@@ -24,8 +24,10 @@ Die Kalenderfunktion steht Ihnen an verschiedenen Orten zur Verfügung:
     Wenn Sie in der Liste ihrer persönlichen Werkzeuge keinen Kalender finden, wurde dies systemweit von einem Administrator/einer Administratorin ausgeschaltet.
 
 
+[Zum Seitenanfang ^](#calendar)
 
-## Termin erstellen / bearbeiten
+
+## Termin erstellen / bearbeiten {: #create_entry}
 
 Um einen neuen Termin hinzuzufügen, klicken Sie in das entsprechende Kalenderfeld. Es öffnet sich ein Popup für die Termindetails.
 
@@ -65,15 +67,18 @@ Ein Termin kann auch mit Drag&Drop verschoben werden.
 
     Die Schaltfläche "Termin löschen" in den Termindetails löscht den Termin endgültig. Der Termin kann nicht wieder hergestellt werden!
 
+[Zum Seitenanfang ^](#calendar)
 
 
-## Wiederholung (Serientermine)
+## Wiederholung (Serientermine) {: #recurring_events}
 
 In den Termindetails kann unter "Wiederholung" die gewünschte Frequenz von Serienterminen ausgewählt werden. Sobald eine Wiederholung gewünscht wird, erscheint das Eingabefeld, mit dem das Ende der Serie definiert wird (Pflichtfeld).
 
 ![pers_menu_calendar_recurrence_v1_de.png](assets/pers_menu_calendar_recurrence_v1_de.png){ class="shadow lightbox" }
 
 Auch Serientermine können bearbeitet werden. Klicken Sie dazu im Kalender auf einen der Termine. Beim Speichern der Anpassung kann ausgewählt werden, ob die Änderung für alle Termine der Serie oder nur für den aufgerufenen Termin gilt. Wenn alle Termine geändert werden sollen, werden diese Termine geändert, welche zuvor nicht individuell angepasst wurden.
+
+[Zum Seitenanfang ^](#calendar)
 
 
 ## Sichtbarkeit {: #visibility}
@@ -86,11 +91,14 @@ Je nach Kalenderart (Persönlicher Kalender, Gruppenkalender, Kurskalender) unte
 
 || Persönlicher Kalender| Gruppenkalender| Kurskalender  
 ---|---|---|---  
-**Privat** | Nur der Ersteller darf den Kalendereintrag sehen, da der Kalender dieser Person zugewiesen wurde.| Nur Mitglieder der Gruppe, der dieser Kalender zugewiesen wurde, dürfen den Kalendereintrag sehen.| Nur Mitglieder des Kurses, der dieser Kalender zugewiesen wurde, dürfen den Kalendereintrag sehen.
-**Nur Zeit sichtbar** | Da nur der Ersteller und niemand anderes seinen Eintrag sehen kann, haben diese Einstellungen in diesem Kontext keinen Effekt. | Alle Gruppen- bzw. Kursmitglieder sehen den Eintrag mit allen Angaben. Zusätzlich können alle OpenOlat-Benutzer oder Gäste mit Zugriff auf die Gruppe/den Kurs die Zeit des Eintrags aber keine weiteren Angaben sehen. | Alle Gruppen- bzw. Kursmitglieder sehen den Eintrag mit allen Angaben. Zusätzlich können alle OpenOlat-Benutzer oder Gäste mit Zugriff auf die Gruppe/den Kurs die Zeit des Eintrags aber keine weiteren Angaben sehen.
+**Privat** | Nur der Ersteller darf den Kalendereintrag sehen, da der Kalender dieser Person zugewiesen wurde.| Nur Mitglieder der Gruppe, der dieser Kalender zugewiesen wurde, dürfen den Kalendereintrag sehen.| Nur Mitglieder des Kurses, dem dieser Kalender zugewiesen wurde, dürfen den Kalendereintrag sehen.
+**Nur Zeitangabe sichtbar** | Da nur der Ersteller und niemand anderes seinen Eintrag sehen kann, haben diese Einstellungen in diesem Kontext keinen Effekt. | Alle Gruppen- bzw. Kursmitglieder sehen den Eintrag mit allen Angaben. Zusätzlich können alle OpenOlat-Benutzer oder Gäste mit Zugriff auf die Gruppe/den Kurs die Zeit des Eintrags aber keine weiteren Angaben sehen. | Alle Gruppen- bzw. Kursmitglieder sehen den Eintrag mit allen Angaben. Zusätzlich können alle OpenOlat-Benutzer oder Gäste mit Zugriff auf die Gruppe/den Kurs die Zeit des Eintrags aber keine weiteren Angaben sehen.
 **Öffentlich** | Da nur der Ersteller und niemand anderes seinen Eintrag sehen kann, haben diese Einstellungen in diesem Kontext keinen Effekt. | Alle Gruppen- bzw. Kursmitglieder sehen den Eintrag mit allen Angaben. Zusätzlich können alle OpenOlat-Benutzer oder Gäste mit Zugriff auf die Gruppe/den Kurs alle Angaben des Eintrags sehen. | Alle Gruppen- bzw. Kursmitglieder sehen den Eintrag mit allen Angaben. Zusätzlich können alle OpenOlat-Benutzer oder Gäste mit Zugriff auf die Gruppe/den Kurs alle Angaben des Eintrags sehen.
 
-## Inhalt
+[Zum Seitenanfang ^](#calendar)
+
+
+## Inhalt {: #content}
 
 Im persönlichen Kalender werden angezeigt:
 
@@ -102,8 +110,10 @@ Im persönlichen Kalender werden angezeigt:
     
     Ein aggregierter Kalender ist ein Sammelfeed, der alle Kalender und dessen Termine enthält, auf die Sie Zugriff haben. Sie können diesen Feed von anderen Anwendungen aus verwenden, um alle Ihre OpenOlat-Termine dort einzufügen oder anzuzeigen. Dies erspart Ihnen die Arbeit, jeden Kalender einzeln einfügen zu müssen (siehe Kalender integrieren unten). Über das Zahnradsymbol in der Liste können Sie ferner Dateien und Kalender importieren sowie die Termine eines kompletten Kalenders zurücksetzen. 
 
+[Zum Seitenanfang ^](#calendar)
 
-## Kalenderliste
+
+## Kalenderliste {: #list}
 
 Über die Schaltfläche "Einstellungen" (kleiner Button mit dem Zahnrad-Icon) öffnet sich die Kalenderliste.
 
@@ -121,8 +131,10 @@ Unter dem Feedsymbol finden Sie die URL, mit der dieser Kalender an anderer Stel
 
 Unter dem Icon mit den 3 Punkten am Ende einer Zeile werden Bearbeitungsmöglichkeiten angzeigt, wenn es sich um eigenständige Kalender handelt. (Bei aggregierten Kalendern ist die Bearbeitung beschränkt/nicht möglich.)
 
+[Zum Seitenanfang ^](#calendar)
 
-## Kalender zur Kalenderliste hinzufügen
+
+## Kalender zur Kalenderliste hinzufügen  {: #add_to_list}
 
 Die Kurs- und Gruppenkalender werden der Kalenderliste des persönlichen Kalenders standardmässig hinzugefügt. 
 Soll ein weiterer eigenständiger Kalender zur Kalenderliste hinzugefügt werden, verwenden Sie dazu die Buttons oberhalb der Liste.
@@ -154,12 +166,17 @@ Mit Klick auf den kleinen Pfeil daneben können Kalender via URL verlinkt werden
 
     Wenn Ihr Kalender trotz eingetragener Termine leer erscheint bzw. bestimmte Termine nicht angezeigt werden, ist der gewünschte Kalender möglicherweise in der Kalenderliste nicht ausgewählt. (Toggle-Button nicht eingeschaltet.)
 
+[Zum Seitenanfang ^](#calendar)
 
-## OpenOlat-Kalender weitergeben
+
+## OpenOlat-Kalender weitergeben {: #share}
 
 Über iCal (einem Standard zur Verwaltung von Terminen), können Sie die verschiedenen OpenOlat-Kalender in einen anderen Kalender wie z.B. den Google-Kalender integrieren. Klicken Sie dazu das iCal Icon ![RSS Symbol](assets/icon_rss_small.png){ width=24px } entweder in der Kalenderansicht oder in der entsprechenden Zeile der Kalenderliste und kopieren Sie den iCal Link. 
 
-## Managed Kalender
+[Zum Seitenanfang ^](#calendar)
+
+
+## Managed Kalender {: #managed}
 
 Andere Kalender (wie beispielsweise aus dem System PerformX) lassen sich auf Feed auch in den OpenOlat-Kalender als **managed Kalender** integrieren. Managed Termine werden mit einem Schloss-Symbol gekennzeichnet.
 
@@ -167,6 +184,9 @@ Andere Kalender (wie beispielsweise aus dem System PerformX) lassen sich auf Fee
 !!! info "Hinweis"
 
     In Kurs- und Gruppenkalendern können die Bearbeitungsmöglichkeiten gegenüber dem persönlichen Kalender abweichen. 
+
+[Zum Seitenanfang ^](#calendar)
+
 
 
 ## Weitere Informationen
@@ -178,3 +198,4 @@ Andere Kalender (wie beispielsweise aus dem System PerformX) lassen sich auf Fee
 [Aktivierung des Kalenders durch Administrator:innen](../../manual_admin/administration/Core_functions.de.md#kalender-administration)<br>
 
 
+[Zum Seitenanfang ^](#calendar)
