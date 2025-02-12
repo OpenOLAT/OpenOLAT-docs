@@ -69,3 +69,8 @@ To **copy** a to-do, select the **Duplicate** option under the 3 dots at the end
     If you prefer to have your to-dos displayed in the header instead of the personal menu, you can move the menu option from the personal menu to the header. You can make the settings for this under<br>
     **Personal menu > Settings > Tab System > Section Personal Tools**<br>
     All tools that you select here are displayed in the header at the top right instead of in the personal menu and can therefore be accessed more quickly.
+
+
+## Notifications
+
+If to-dos are created or edited and other people are affected, they are notified of the changes by automatically generated mails. If several changes are made within a short period of time, a summarised email is generated.

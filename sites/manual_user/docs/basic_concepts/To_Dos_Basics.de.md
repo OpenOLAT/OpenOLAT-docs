@@ -70,3 +70,8 @@ Zum **Kopieren** eines To-dos wählen Sie die Option **Duplizieren** unter den 3
     Wenn Sie Ihre To-Dos statt im persönlichen Menü lieber in der Kopfzeile angezeigt haben möchten, können Sie die Menüoption vom persönlichen Menü dorthin verschieben. Die Einstellung dazu nehmen Sie vor unter<br>
     **Persönliches Menü > Einstellungen > Tab System > Abschnitt Persönliche Werkzeuge**<br>
     Alle Werkzeuge, die Sie hier markieren, werden statt im persönlichen Menü in der Kopfzeile rechts oben angezeigt und sind so schneller erreichbar.
+
+
+## Benachrichtigungen
+
+Werden To-dos erstellt oder bearbeitet und andere Personen sind dadurch betroffen, so werden sie durch automatisch erstellte Mails über die Änderungen benachrichtigt. Bei mehreren Änderungen in kurzer Zeit wird eine zusammengefasste Mail erzeugt.
