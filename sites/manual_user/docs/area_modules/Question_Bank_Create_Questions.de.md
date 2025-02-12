@@ -26,6 +26,25 @@ Bei der Erstellung wird ein Titel angegeben, anschliessend der Fragetyp und zum 
 [Zum Seitenanfang ^](#create_questions)
 
 
+## Fragen mit Hilfe von KI (Künstlicher Intelligenz) erstellen {: #create_with_AI}
+
+!!! warning "Achtung"
+
+    Diese Funktion befindet sich in einer Versuchsphase. Bitte beachten Sie, dass Fehler auftreten können, wenn diese Funktion verwendet wird.
+
+Bei [aktiviertem KI-Modul](../../manual_admin/administration/External_Tools_-_Administration.de.md#ki_modul) können im Fragenpool auch Fragen mit Hilfe von künstlicher Intelligenz erstellt werden. 
+
+![question_bank_create_question_KI_v1_de.png](assets/question_bank_create_question_KI_v1_de.png){ class="shadow lightbox" }
+
+Mit dieser Funktion können Vorschläge für Multiple Choice Fragen mittels KI erstellt werden. Sie fügen direkt in OpenOlat im Feld "Quelltext" Textinhalte (max. 6000 Zeichen) als Ausgangsmaterial ein, das der KI übergeben wird, die daraus Fragen generiert. 
+
+Zur Zeit werden nur deutsche und englische Texte unterstützt. 
+
+Bitte beachten Sie, dass die Fragen in jedem Einzelfall auf inhaltliche Korrektheit überprüft werden müssen.
+
+[Zum Seitenanfang ^](#create_questions)
+
+
 ## Beurteilung durch Fachkollegen {: #review}
 
 Nachdem eine Frage in erster Version erstellt wurde, kann sie zur Prüfung durch Fachkollegen in einen Beurteilungsprozess gegeben werden.
