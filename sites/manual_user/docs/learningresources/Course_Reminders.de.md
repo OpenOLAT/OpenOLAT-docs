@@ -240,16 +240,44 @@ Mit Hilfe des E-Mail-Textes, der nach Bedarf angepasst werden kann, erstellen Si
 
 !!! tip "Tipp"
 
-    Am besten verwenden Sie die bereits eingetragenen Variablen um die Erinnerung so persönlich und hilfreich wie möglich zu gestalten.
+    Durch Bewegen des Mauszeigers auf das kleine Fragezeichensymbol werden Ihnen die verfügbaren Variablen angezeigt.
 
-* **$firstName**: Der Vorname des Benutzers
-* **$lastName**: Der Nachname des Benutzers
-* **$fullName**: Der vollständige Name je nach Systemkonfiguration. Der Standardwert ist "Nachname, Vorname"
-* **$email**: Die Emailadresse des Benutzers
-* **$userName**: Der Benutzername
-* **$courseUrl**: Die Internetadresse des Kurses
-* **$courseName**: Der Name des Kurses wie auf der Infoseite
-* **$courseDescription**: Die Beschreibung des Kurses wie auf der Infoseite
+    ![course_reminders_variables_v1_de.png](assets/course_reminders_variables_v1_de.png){ class="shadow lightbox" }
+
+
+### Im Betreff verfügbare Variablen
+
+* **$courseName**: Der Name des Kurses wie auf der Infoseite.
+* **$courseAuthors**: Die Namen, die in den Kurseinstellungen, Tab "Metadaten" unter "Autor:innen/Durchführung mit" eingegeben wurde.
+* **$courseExecPeriodStart**: Das Datum, das in den Kurseinstellungen, Tab "Durchführung" als Beginn des Durchführungzeitraum angegeben wurde.
+* **$courseExecPeriodEnd**: Das Datum, das in den Kurseinstellungen, Tab "Durchführung" als Ende des Durchführungzeitraum angegeben wurde.
+* **$courseLocation**: Der Text, der in den Kurseinstellungen, Tab "Durchführung" als Durchführungsort eingegeben wurde.
+
+
+### Im Mailtext verfügbare Variablen
+
+* **$firstName**: Der Vorname des Benutzers.
+* **$lastName**: Der Nachname des Benutzers.
+* **$fullName**: Der vollständige Name je nach Systemkonfiguration. Der Standardwert ist "Nachname, Vorname".
+* **$email**: Die Emailadresse des Benutzers.
+* **$userName**: Der Benutzername.
+* **$courseUrl**: Die Internetadresse des Kurses.
+* **$courseName**: Der Name des Kurses wie auf der Infoseite.
+* **$courseDescription**: Die Beschreibung des Kurses wie auf der Infoseite.
+* **$courseAuthors**: Die Namen, die in den Kurseinstellungen, Tab "Metadaten" unter "Autor:innen/Durchführung mit" eingegeben wurde.
+* **$courseCertification**: Die Beschreibung der Bescheinigung, wie sie in den Kurseinstellungen, Tab "Info" angegeben wurde.
+* **$courseExecPeriodStart**: Das Datum, das in den Kurseinstellungen, Tab "Durchführung" als Beginn des Durchführungzeitraum angegeben wurde.
+* **$courseExecPeriodEnd**: Das Datum, das in den Kurseinstellungen, Tab "Durchführung" als Ende des Durchführungzeitraum angegeben wurde.
+* **$courseExpOfWork**: Der geschätzte Zeitaufwand, der in den Kurseinstellungen, Tab "Metadaten" unter "Zeitaufwand" als Text eingegeben wurde.
+* **$courseLocation**: Der Text, der in den Kurseinstellungen, Tab "Durchführung" als Durchführungsort eingegeben wurde.
+* **$courseMainLang**: Die Sprache, die in den Kurseinstellungen, Tab "Metadaten" unter "Hauptsprache" eingegeben wurde.
+* **$courseObjectives**: Der Text, der in den Kurseinstellungen, Tab "Info" als Lernzielbeschreibung eingegeben wurde.
+* **$courseReference**: Der Text, der in den Kurseinstellungen im Tab "Info" unter "Kennzeichen" eingegeben wurde.
+* **$courseRequirements**: Der Text, der in den Kurseinstellungen im Tab "Info" unter "Voraussetzungen" eingegeben wurde.
+* **$courseTeaser**: Der Teaser-Text, der in den Kurseinstellungen im Tab "Info" eingegeben wurde.
+* **$recipientFirstName**: 
+* **$recipientLastName**:
+
 
 Hier ein Beispiel:
 
@@ -268,16 +296,19 @@ Erinnerungen sind gut geeignet, um **Kursteilnehmer:innen** daran zu erinnern, w
 Eine **Kopie an die Betreuer:innen und/oder Kursbesitzer:innen** informiert auch diese, dass Teilnehmer:innen etwas zu erledigen haben.
 
 
-In manchen Fällen sollen Erinnerungen **ausschliesslich an Betreuer:innen** geschickt werden.<br>
+In manchen Fällen sollen Erinnerungen **ausschliesslich an Betreuer:innen** geschickt werden.
+
 **Beispiel:**<br>
 Kursteilnehmer:innen zeigen keinen Fortschritt. Der/die Betreuer:in sollte dann Kontakt mit diesen Kursteilnehmer:innen aufnehmen und Hilfestellung leisten. Die Erinnerung dazu sollte nur an den/die Betreuer:in gehen. Sie könnten als Bedingungen z.B. eingeben, dass der Fortschritt noch unter x% ist und gleichzeitig ein bestimmter Punktewert in einem Eingangstest nicht erreicht wurde.
 
-Ebenso können Erinnerungen auch **ausschliesslich an die Kursbesitzer:innen** versandt werden.<br>
+Ebenso können Erinnerungen auch **ausschliesslich an die Kursbesitzer:innen** versandt werden.
+
 **Beispiel:**<br>
 Manchmal vergessen Autor:innen ihren Kurs zu publizieren, weil noch Dinge unklar waren als sie das letzte Mal an der Kurserstellung gearbeitet haben. In diesem Fall kann der Kursstatus in Kombination mit der Rolle als Versandkriterium verwendet werden.
 
 ![course_reminder_condition_status_v1_de.png](assets/course_reminder_condition_status_v1_de.png){ class="shadow lightbox" }
 
+Für besondere Fälle können Erinnerungen auch **ausschliesslich an bestimmnte externe Mailadressen** versandt werden.
 
 [Zum Seitenanfang ^](#course_reminders)
 

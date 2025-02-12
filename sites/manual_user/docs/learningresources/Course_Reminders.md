@@ -235,7 +235,9 @@ Using the e-mail text, which can be customized as needed, you create very specif
 
 !!! tip "Tip"
 
-    It is best to use the variables already entered to make the reminder as personal and helpful as possible.
+    The available variables are displayed by moving the mouse pointer over the small question mark symbol.
+
+    ![course_reminders_variables_v1_en.png](assets/course_reminders_variables_v1_en.png){ class="shadow lightbox" }
 
 * **$firstName**: The first name of the user
 * **$lastName**: The last name of the user
