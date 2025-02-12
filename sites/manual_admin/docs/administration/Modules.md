@@ -234,6 +234,7 @@ If the "Curriculum" module is activated here, curriculum types can be created an
 
 If the module is activated, you can define who can create, assign or delegate to-dos.
 
+[See the details >](Modules_ToDo.md)<br>
 [To the top of the page ^](#modules)
 
 

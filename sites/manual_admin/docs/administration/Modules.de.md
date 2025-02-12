@@ -254,6 +254,7 @@ Wird das Modul "Curriculum" hier aktiviert, können Curriculumtypen angelegt und
 
 Bei aktiviertem Modul kann definiert werden, wer To-dos erstellen, zuweisen oder delegieren darf.
 
+[Zu den Details >](Modules_ToDo.de.md)<br>
 [Zum Seitenanfang ^](#modules)
 
 
