@@ -12,11 +12,10 @@ Bewertbar | nein
 Spezialität / Hinweis |
 
 
-Der Kursbaustein Video Livestream ermöglicht die gleichzeitige Anzeige von 2 Livestreams. Die Videos werden während eines vordefinierten Zeitfensters einzeln oder nebeneinander angezeigt. URLs /
+Der Kursbaustein Video Livestream ermöglicht die gleichzeitige Anzeige von 2 Livestreams. Die Videos werden während eines vordefinierten Zeitfensters einzeln oder nebeneinander angezeigt.
 
 Beispiel: Youtube-Livestream
 
-screen bsp TN-Screen
 
 **Anwendungsbeispiele:**
 
@@ -26,7 +25,7 @@ screen bsp TN-Screen
 
 ## Vorbereitung durch den/die Administrator:in
 
-x
+Die Administrator:innen finden die Konfiguration unter den Modulen.
 
 ![course_element_livestream_admin_settings_v1_de.png](assets/course_element_livestream_admin_settings_v1_de.png){ class="shadow lightbox" }
 
@@ -36,6 +35,6 @@ x
 
 Sind die Livestreams vorbereitet, finden die Kursautor:innen nach dem Einfügen des Kursbausteins im Kurseditor den **Tab Konfiguration**.
 
-screen Kurseditor
+
 
 
