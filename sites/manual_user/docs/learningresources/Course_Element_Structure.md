@@ -1,4 +1,4 @@
-# Course Element "Structure"
+# Course Element "Structure" {: #course_element_structure}
 
 ## Profile
 
@@ -47,6 +47,15 @@ The central settings are made in the "Overview" tab.You can choose between four 
 Here you can activate and configure the high score display. You can display a congratulation title, a winner's podium, a histogram as well as a highscore list. An anonymized representation is also possible here.
 
 Auch hier ist eine anonymisierte Darstellung möglich. It also contains the tab "[Reminders](../learningresources/Course_Reminders.md)" and can neither be deleted nor moved.
+
+
+## Tab Badges
+
+If the course owner has activated the assignment of badges under **Administration > Settings > Assessment tab > Badges section**, the ‘Badges’ tab is displayed in the course editor for this course element and a specific badge can be created for this course element.
+
+[To the top of the page ^](#course_element_structure)
+
+---
 
 ## Special settings of the course element structure depending on the course type
 
