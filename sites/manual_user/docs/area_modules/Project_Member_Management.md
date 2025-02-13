@@ -1,4 +1,4 @@
-# Projects - Member Management
+# Projects: Member Management {: #member_management}
 
 The project members are usually made project members by the project owner(s). (As a rule, project management lies with the person who creates the new project.)
 
@@ -10,7 +10,12 @@ The project members are usually made project members by the project owner(s). (A
 
     Only OpenOlat administrators can see the “Administration” tab. Project owners do not see it.
 
-## External members
+[To the top of the page ^](#member_management)
+
+---
+
+
+## External members {: #external}
 
 If people who are not registered as users in OpenOlat are also to work on the project, they can be invited as external members. They can then use OpenOlat for a maximum of 180 days.
 
@@ -22,8 +27,12 @@ As soon as a project member is registered, he or she receives a link. After call
 
     "External member" is not a OpenOlat role. An external member can have all roles except owner (role that can be used to delete the whole project). 
 
+[To the top of the page ^](#member_management)
 
-## Roles
+---
+
+
+## Roles {: #roles}
 
 |    | Project| Objects in project |Member Management | External Member Management |
 | ------------------------------------------------------------- | :--------------: | :--------------: | :--------------: | :--------------: |
@@ -42,4 +51,6 @@ As soon as a project member is registered, he or she receives a link. After call
 
 
 *Administrators can make themselves members, however this is will be recorded. This way, abusive access is to be curbed.
+
+[To the top of the page ^](#member_management)
 

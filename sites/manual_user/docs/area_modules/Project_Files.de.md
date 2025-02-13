@@ -1,4 +1,4 @@
-# Projekte - Dateien
+# Projekte: Dateien {: #files}
 
 Generell können Dateien für ein Projekt hochgeladen, erstellt oder aus anderen OpenOlat Bereichen hinzugefügt werden. Dies erfolgt jeweils entweder über den "Schnellzugriff" oder im Bereich "Dateien". Dabei sind die Möglichkeiten im Bereich "Dateien" umfangreicher. 
 
@@ -7,7 +7,7 @@ Im Abschnitt "Schnellzugriff" werden generell die sechs zuletzt verwendeten Date
 Im Abschnitt "Dateien" werden die sechs zuletzt hinzugefügten Dateien angezeigt und können ebenfalls direkt geöffnet bzw. heruntergeladen und gegebenenfalls weiterbearbeitet werden. 
 
 
-## Dateien hochladen
+## Dateien hochladen {: #upload}
 
 Am schnellsten lassen sich Dateien im Bereich "Schnellzugriff" hochladen. 
 
@@ -32,8 +32,12 @@ Es gelten folgende Grundsätze:
 
     * Hinsichtlich der Dateiformate gibt es keine Einschränkungen.
  
+[Zum Seitenanfang ^](#files)
 
-## Dateien erstellen
+---
+
+
+## Dateien erstellen {: #create}
 
 Ebenfalls im Schnellzugriff können auch rasch Dateien erstellt werden. Folgende Dokument-Formate stehen dabei zur Verfügung: 
 
@@ -56,15 +60,25 @@ Ebenfalls im Schnellzugriff können auch rasch Dateien erstellt werden. Folgende
     
     Ohne Lizenzen werden die Optionen zum Erstellen der Formate docx, pptx und xlsx nicht angezeigt. (Eine Anzeige und Bearbeitung vorhandener Dokumente mit OnlyOffice ist jedoch in der Regel möglich.)
 
-## Video- und Audio-Recording
+[Zum Seitenanfang ^](#files)
 
-Um Video- oder Audiodateien per Webcam aufzunehmen wechseln Sie in den Bereich "Dateien". Wählen sie hier Video oder Audio aufzeichnen und erlauben Sie den Zugriff auf Ihre Webcam bzw. Ihr Mikrofon um die Aufnahme vorzunehmen. 
+---
+
+
+## Video- und Audio-Recording {: #audio_video}
+
+Um Video- oder Audiodateien per Webcam aufzunehmen wechseln Sie in den Bereich "Dateien". Wählen sie hier "Video oder Audio aufzeichnen" und erlauben Sie den Zugriff auf Ihre Webcam bzw. Ihr Mikrofon um die Aufnahme vorzunehmen. 
 
 ![Audio Video aufnehmen Projekte](assets/Projekt_Audio_aunehmen.jpg){ class="shadow lightbox" }
 
 Neu aufgenommene Videos werden als mp4-Dateien gespeichert, Audios als m4a-Dateien. Die Dateien stehen dann im Bereich "Dateien" für alle Projektmitglieder zur Verfügung. 
 
-## Liste der Dateien anzeigen
+[Zum Seitenanfang ^](#files)
+
+---
+
+
+## Liste der Dateien anzeigen {: #list}
 
 Alle Dateien eines Projektes finden Sie im Bereich "Dateien" des Projektes. Es gibt mehrere Wege um hierhin zu gelangen:
 
@@ -84,14 +98,26 @@ Unter den 3 Punkten am Ende jedes Listeneintrags finden Sie weitere Optionen.
 
 ![projekte_dateien_liste_v1_de.png](assets/projekte_dateien_liste_v1_de.png){ class="shadow lightbox" }
 
-## Dateien hinzufügen
+Zum Ausklappen der Buttons zum Filtern klicken Sie auf den kleinen Pfeil in der Mitte oberhalb der Liste.
+
+
+[Zum Seitenanfang ^](#files)
+
+---
+
+
+## Dateien hinzufügen {: #add}
 
 Im Bereich "Dateien" können auch Dateien, die sich an anderen Stellen in OpenOlat befinden hinzugefügt werden. Dabei hat man Zugriff auf alle Elemente des File-Hubs und des Media Centers.
 
 ![Dateien hinzufügen](assets/Projekt_Dateien_hinzufuegen.jpg){ class="shadow lightbox" }
 
+[Zum Seitenanfang ^](#files)
 
-## Dateien gemeinsam bearbeiten 
+---
+
+
+## Dateien gemeinsam bearbeiten {: #edit}
 
 Die Integration von Dokumenten-Editoren ermöglicht kollaboratives Arbeiten.
 
@@ -100,3 +126,19 @@ Die Integration von Dokumenten-Editoren ermöglicht kollaboratives Arbeiten.
 
 Wenden Sie sich ggf. an Ihre Administratorin / Ihren Administrator.
 
+[Zum Seitenanfang ^](#files)
+
+---
+
+
+## Dateien löschen {: #delete}
+
+Zum Löschen einer Datei klicken Sie auf die 3 Punkte am Ende einer Zeile und dann auf "Löschen". Die Datei erscheint dann nur noch unter dem Tab "Gelöscht". Sie kann innerhalb eines gewissen Zeitraums wieder hergestellt werden.
+
+![project_files_delete_v1_de.png](assets/project_files_delete_v1_de.png){ class="shadow lightbox" }
+
+Wollen Sie mehrere Dateien auf einmal löschen (Sammelaktion), dann wählen Sie die Listenansicht und markieren die gewünschten Checkboxen am Anfang der Zeilen. Dadurch wird ein Button "Löschen" oberhalb der Liste eingeblendet.
+
+![project_files_delete_several_v1_de.png](assets/project_files_delete_several_v1_de.png){ class="shadow lightbox" }
+
+[Zum Seitenanfang ^](#files)

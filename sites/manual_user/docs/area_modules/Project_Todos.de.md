@@ -1,4 +1,4 @@
-# Projekte - To-dos
+# Projekte: To-dos {: #to-dos}
 
 In allen Projekten sind einzelne Arbeitspakete (To-dos) wesentlicher Bestandteil der Planung.
 
@@ -6,7 +6,7 @@ In allen Projekten sind einzelne Arbeitspakete (To-dos) wesentlicher Bestandteil
 
     Über die Projekte hinaus können To-dos auch in anderen Bereichen erstellt und genutzt werden (bspw. QM-Massnahmen).
 
-## To-do erstellen
+## To-do erstellen {: #create}
 
 Um ein neues To-do innerhalb eines Projektes zu erstellen, haben Sie folgende Möglichkeiten:
 
@@ -26,7 +26,12 @@ Um ein neues To-do innerhalb eines Projektes zu erstellen, haben Sie folgende M�
 
 ![projekte_todo_neu_button_v1_de.png](assets/projekte_todo_neu_button_v1_de.png){ class="shadow lightbox" }
 
-## Liste der To-dos anzeigen
+[Zum Seitenanfang ^](#to-dos)
+
+---
+
+
+## Liste der To-dos anzeigen {: #list}
 
 Haben Sie Ihr Projekt gewählt, können Sie von der Projektübersicht aus auf verschiedene Arten auf die To-dos der jeweiligen Projekte zugreifen.
 
@@ -38,8 +43,12 @@ oder<br>
 
 ![projekte_todo-liste_anzeigen_v1_de.png](assets/projekte_todo-liste_anzeigen_v1_de.png){ class="shadow lightbox" }
 
+[Zum Seitenanfang ^](#to-dos)
 
-## To-do bearbeiten
+---
+
+
+## To-do bearbeiten {: #edit}
 
 Um ein To-do zu bearbeiten klicken Sie in der To-do-Liste
 
@@ -49,8 +58,12 @@ oder<br>
 
 ![projekte_todo_bearbeiten_v1_de.png](assets/projekte_todo_bearbeiten_v1_de.png){ class="shadow lightbox" }
 
+[Zum Seitenanfang ^](#to-dos)
 
-## To-do zuweisen und delegieren
+---
+
+
+## To-do zuweisen und delegieren {: #assign}
 
 Ein neu erstelltes To-do wird zunächst automatisch der Erstellerin / dem Ersteller **zugewiesen**. (Es kann dann aber einer anderen Person zugewiesen werden.)
 
@@ -68,8 +81,12 @@ Die Unterscheidung zwischen Zuweisung und Delegation ermöglicht es, klar nachzu
     * Ein To-do kann an mehrere Personen delegiert werden.
 
 
+[Zum Seitenanfang ^](#to-dos)
 
-## To-dos verlinken
+---
+
+
+## To-dos verlinken {: #link}
 
 Wenn Sie ein To-do bearbeiten, können Sie Links zu anderen Objekten dieses Projekts erstellen, indem Sie zu einem bereits bestehenden Objekt verlinken **(Button "Objekt verlinken")**.
 
@@ -94,8 +111,12 @@ Einem To-do hinzugefügte Links können direkt aufgerufen werden.
     Wird ein verlinktes Objekt gelöscht, werden auch die Links gelöscht, die aus anderen Objekten auf dieses Objekt zeigen.
 
 
+[Zum Seitenanfang ^](#to-dos)
 
-## Erledigte To-dos
+---
+
+
+## Erledigte To-dos {: #done}
 
 Damit ein To-do als erledigt gilt, muss sein Status geändert werden. Diese Änderung kann auf verschiedene Arten erfolgen.
 
@@ -118,8 +139,20 @@ Das To-do erscheint dann nur noch unter Tab "Alle" und Tab "Erledigte".
 
 ![projekte_todo_selektiert_erledigt_v1_de.png](assets/projekte_todo_selektiert_erledigt_v1_de.png){ class="shadow lightbox" }
 
-## To-dos löschen
+[Zum Seitenanfang ^](#to-dos)
+
+---
+
+
+## To-dos löschen {: #delete}
 
 Zum Löschen eines To-do’s klicken Sie auf die 3 Punkte am Ende einer Zeile und dann auf "Löschen". Das To-do erscheint dann nur noch unter dem Tab "Gelöscht". Es kann nicht wiederhergestellt werden.
 
 ![projekte_todo_loeschen_v1_de.png](assets/projekte_todo_loeschen_v1_de.png){ class="shadow lightbox" }
+
+Wollen Sie mehrere To-dos auf einmal löschen (Sammelaktion), dann wählen Sie die Listenansicht und markieren die gewünschten Checkboxen am Anfang der Zeilen. Dadurch wird ein Button "Löschen" oberhalb der Liste eingeblendet.
+
+![projekte_todo_loeschen_mehrere_todos_v1_de.png](assets/projekte_todo_loeschen_mehrere_todos_v1_de.png){ class="shadow lightbox" }
+
+[Zum Seitenanfang ^](#to-dos)
+

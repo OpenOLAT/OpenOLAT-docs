@@ -1,16 +1,18 @@
-# Projects - Files
+# Projects:  Files {: #files}
 
 Under "Files" in the "Quick Access" section, files can be **uploaded** and new files **created** in a project. This way, all files can be saved together with the project. All media are then in the same place.  They are only available within the project.
 
-Generell können Dateien für ein Projekt hochgeladen, erstellt oder aus anderen OpenOlat Bereichen hinzugefügt werden. Dies erfolgt jeweils entweder über den "Schnellzugriff" oder im Bereich "Dateien". Dabei sind die Möglichkeiten im Bereich "Dateien" umfangreicher. 
+In general, files for a project can be uploaded, created or added from other OpenOlat areas. This is done either via ‘Quick access’ or in the ‘Files’ area. The options in the ‘Files’ area are more extensive. 
 
-Im Abschnitt "Schnellzugriff" werden generell die sechs zuletzt verwendeten Dateien *und* Notizen angezeigt. Diese können einfach mit Klick auf das Dokument geöffnet bzw. heruntergeladen und gegebenenfalls weiterbearbeitet werden.
+The ‘Quick access’ section generally displays the six most recently used files *and* notes. These can simply be opened or downloaded by clicking on the document and edited further if necessary.
 
-Im Abschnitt "Dateien" werden die sechs zuletzt hinzugefügten Dateien angezeigt und können ebenfalls direkt geöffnet bzw. heruntergeladen und gegebenenfalls weiterbearbeitet werden. 
+The six most recently added files are displayed in the ‘Files’ section and can also be opened or downloaded directly and edited further if necessary. 
 
-## Upload files
 
-Am schnellsten lassen sich Dateien im Bereich "Schnellzugriff" hochladen. 
+
+## Upload files {: #upload}
+
+The quickest way to upload files is in the ‘Quick access’ area. 
 
 ![Dateien hochladen im Schnellzugriff](assets/Projekte_a.jpg){ class="shadow lightbox" } 
 
@@ -34,9 +36,14 @@ The following principles apply:
     * There are no restrictions regarding the file formats.
  
 
+[To the top of the page ^](#files)
 
-## Create files
-Ebenfalls im Schnellzugriff können auch rasch Dateien erstellt werden. Folgende Dokument-Formate stehen dabei zur Verfügung:
+---
+
+
+## Create files {: #create}
+
+Files can also be created quickly in quick access. The following document formats are available:
 
 ![projekte_dateien_dokument_erstellen_v1_de.png](assets/projekte_dateien_dokument_erstellen_v1_de.png){ class="shadow lightbox" }
 
@@ -59,20 +66,27 @@ The following file formats can be created:
     
     Without licences, the options for creating docx, pptx and xlsx formats are not displayed. (However, displaying and editing existing documents with ONLYOFFICE is usually possible.)
 
+[To the top of the page ^](#files)
 
-## Video and audio recording
+---
 
-Um Video- oder Audiodateien per Webcam aufzunehmen wechseln Sie in den Bereich "Dateien". Wählen sie hier Video oder Audio aufzeichnen und erlauben Sie den Zugriff auf Ihre Webcam bzw. Ihr Mikrofon um die Aufnahme vorzunehmen. 
+
+## Video and audio recording {: #audio_video}
+
+To record video or audio files via webcam, switch to the ‘Files’ area. Select 'Record video or Audio' and allow access to your webcam or microphone to make the recording.
 
 ![Audio Video aufnehmen Projekte](assets/Projekt_Audio_aunehmen.jpg){ class="shadow lightbox" }
 
 Newly recorded videos are saved as mp4 files, audio as m4a files. The files are then available to all project members in the “Files” area. 
 
+[To the top of the page ^](#files)
+
+---
 
 
-## Show list of files
+## Show list of files {: #list}
 
-Alle Dateien eines Projektes finden Sie im Bereich "Dateien" des Projektes. Es gibt mehrere Wege um hierhin zu gelangen: 
+All files of a project can be found in the ‘Files’ section of the project. There are several ways to get here: 
 
 a) Quick access button "Files"
 
@@ -90,14 +104,26 @@ You will find more options under the 3 dots at the end of each list entry.
 
 ![projekte_dateien_liste_v1_de.png](assets/projekte_dateien_liste_v1_de.png){ class="shadow lightbox" }
 
-## Dateien hinzufügen
+To expand the filter buttons, click on the small arrow in the centre above the list.
 
-Im Bereich "Dateien" können auch Dateien, die sich an anderen Stellen in OpenOlat befinden hinzugefügt werden. Dabei hat man Zugriff auf alle Elemente des File-Hubs und des Media Centers.
+
+[To the top of the page ^](#files)
+
+---
+
+
+## Dateien hinzufügen {: #add}
+
+Files located elsewhere in OpenOlat can also be added in the ‘Files’ area. This gives you access to all elements of the File Hub and the Media Centre.
 
 ![Dateien hinzufügen](assets/Projekt_Dateien_hinzufuegen.jpg){ class="shadow lightbox" }
 
+[To the top of the page ^](#files)
 
-## Edit files together 
+---
+
+
+## Edit files together {: #edit}
 
 The integration of document editors enables collaborative work.
 
@@ -105,3 +131,22 @@ The integration of document editors enables collaborative work.
 * Even **simultaneous editing** (e.g. of a Word file during an online meeting) is possible if the corresponding licences for the document editor are available.
 
 If necessary, contact your administrator.
+
+[To the top of the page ^](#files)
+
+---
+
+
+## Delete files {: #delete}
+
+To delete a file, click on the 3 dots at the end of a line and then on ‘Delete’. The file will then only appear under the ‘Deleted’ tab. It can be restored within a certain period of time.
+
+![project_files_delete_v1_de.png](assets/project_files_delete_v1_de.png){ class="shadow lightbox" }
+
+If you want to delete several files at once (bulk action), select the list view and tick the required checkboxes at the beginning of the lines. This will display a ‘Delete’ button above the list.
+
+![project_files_delete_several_v1_de.png](assets/project_files_delete_several_v1_de.png){ class="shadow lightbox" }
+
+
+[To the top of the page ^](#files)
+

@@ -1,4 +1,4 @@
-# Projects - To-dos
+# Projects: To-dos {: #to-dos}
 
 In all projects, individual work packages (to-dos) are an essential part of the planning.
 
@@ -6,7 +6,8 @@ In all projects, individual work packages (to-dos) are an essential part of the 
 
     Beyond the projects, to-dos can also be created and used in other areas (e.g. QM measures).
 
-## Create to-dos
+
+## Create to-dos {: #create}
 
 To create a new to-do within a project, you have the following options:
 
@@ -26,7 +27,12 @@ To create a new to-do within a project, you have the following options:
 
 ![projekte_todo_neu_button_v1_de.png](assets/projekte_todo_neu_button_v1_de.png){ class="shadow lightbox" }
 
-## Show list of to-dos
+[To the top of the page ^](#to-dos)
+
+---
+
+
+## Show list of to-dos {: #list}
 
 Once you have selected your project, you can access the to-dos of the respective projects in various ways from the project overview.
 
@@ -38,8 +44,12 @@ or<br>
 
 ![projekte_todo-liste_anzeigen_v1_de.png](assets/projekte_todo-liste_anzeigen_v1_de.png){ class="shadow lightbox" }
 
+[To the top of the page ^](#to-dos)
 
-## Edit to-do
+---
+
+
+## Edit to-do {: #edit}
 
 To edit a to-do, click the following in the to-do list:
 
@@ -49,8 +59,12 @@ or<br>
 
 ![projekte_todo_bearbeiten_v1_de.png](assets/projekte_todo_bearbeiten_v1_de.png){ class="shadow lightbox" }
 
+[To the top of the page ^](#to-dos)
 
-## Assign and delegate to-do
+---
+
+
+## Assign and delegate to-do {: #assign}
 
 A newly created to-do is first automatically **assigned** to the creator. (However, it can then be assigned to another person).
 
@@ -69,9 +83,12 @@ The distinction between assignment and delegation makes it possible,<br>
 
     * A to-do can be delegated to several people.
 
+[To the top of the page ^](#to-dos)
+
+---
 
 
-## Link to-dos
+## Link to-dos {: #link}
 
 When you edit a to-do, you can create links to other objects of this project by linking to an already existing object **(button "Link object")**.
 
@@ -96,8 +113,12 @@ Links added to a to-do can be accessed directly.
     If a linked object is deleted, the links pointing to this object from other objects are also deleted.
 
 
+[To the top of the page ^](#to-dos)
 
-## Completed to-dos
+---
+
+
+## Completed to-dos {: #done}
 
 In order for a to-do to be considered completed, its status must be changed. This change can be made in several different ways.
 
@@ -120,8 +141,20 @@ The to-do then only appears under the "All" tab and the "Done" tab.
 
 ![projekte_todo_selektiert_erledigt_v1_de.png](assets/projekte_todo_selektiert_erledigt_v1_de.png){ class="shadow lightbox" }
 
-## Delete to-dos
+[To the top of the page ^](#to-dos)
+
+---
+
+
+## Delete to-dos {: #delete}
 
 To delete a to-do, click on the 3 dots at the end of a line and then on "Delete". The to-do then only appears under the tab "Deleted". It cannot be restored.
 
 ![projekte_todo_loeschen_v1_de.png](assets/projekte_todo_loeschen_v1_de.png){ class="shadow lightbox" }
+
+If you want to delete several to-dos at once (bulk action), select the list view and tick the desired checkboxes at the beginning of the lines. This will display a ‘Delete’ button above the list.
+
+![projekte_todo_loeschen_mehrere_todos_v1_de.png](assets/projekte_todo_loeschen_mehrere_todos_v1_de.png){ class="shadow lightbox" }
+
+
+[To the top of the page ^](#to-dos)
