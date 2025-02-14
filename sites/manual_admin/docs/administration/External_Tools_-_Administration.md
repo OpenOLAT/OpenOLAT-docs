@@ -1,6 +1,6 @@
-# External Tools - Overview
+# External Tools: Overview
 
-![admin_external_tools_overview_v1_de.png](assets/admin_external_tools_overview_v1_de.png){ class="shadow lightbox aside-right-lg" }
+![admin_external_tools_overview_v1_de.png](assets/admin_external_tools_overview_v1_de.png){ class="shadow lightbox aside-left-lg" }
 
 
 In this area, the OpenOlat administrators can switch various external tools on
