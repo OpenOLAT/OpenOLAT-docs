@@ -11,25 +11,25 @@ Ein Prüfungsmodus ist eine **Prüfungskonfiguration**, in der Tests und Prüfun
 
 Während dieser Zeit ist nur der Zugriff auf zuvor festgelegte Kursbausteine im betroffenen Kurs gestattet. Alle weiteren Funktionen in OpenOlat, wie andere Kurse, Gruppen, Notizen etc., werden während der Prüfungsdauer (Laufzeit des Prüfungsmodus) ausgeblendet. Nur ein Logout ist während der Prüfung möglich.
 
-## Konfiguration erstellen
+## Prüfungsmodus hinzufügen
 
-Sie **erstellen** die Konfiguration eines Prüfungsmodus, indem Sie 
+Sie **erstellen** und konfigurieren einen Prüfungsmodus, indem Sie 
 
 1. Ihren **Kurs** mit dem darin enthaltenen Test wählen,
 2. in der **"Administration"** die Option **"Prüfungsverwaltung"** wählen,
-3. und dort den **Tab "Prüfungsmodus"** auswählen.
-4. Klicken Sie dort auf den **Button "Prüfungskonfiguration erstellen"**.
+3. und dort den **Tab "Konfiguration Prüfungsmodus"** auswählen.
+4. Klicken Sie dort auf den **Button "Prüfungsmodus hinzufügen"**.
 
-![assessment_management_create_exam_setting_v1_de.png](assets/assessment_management_create_exam_setting_v1_de.png){ class="shadow lightbox" }
+![assessment_management_create_exam_setting_v2_de.png](assets/assessment_management_create_exam_setting_v2_de.png){ class="shadow lightbox" }
 
 Auf der Übersichtsseite sehen Sie alle für einen Kurs bereits abgehaltenen, laufenden oder geplanten Prüfungen. Der Modus geplanter Prüfungen kann bis zur Prüfung noch bearbeitet werden, eine nachträgliche Bearbeitung ist nicht möglich. Die Übersicht enthält Informationen zu Datum und Dauer, Vor- und Nachlaufzeiten, sowie Benutzergruppen.
 
-![assessment_management_exam_settings_overview_v1_de.png](assets/assessment_management_exam_settings_overview_v1_de.png){ class="shadow lightbox" }
+![assessment_management_exam_settings_overview_v2_de.png](assets/assessment_management_exam_settings_overview_v2_de.png){ class="shadow lightbox" }
 
 Prüfungskonfigurationen werden vorab erstellt und enthalten
 
 * eine Start- und Endzeit
-* evtl. Vor- und Nachlaufzeiten (falls diese gewünscht)
+* evtl. Vor- und Nachlaufzeiten (falls diese gewünscht sind)
 * evtl. Einschränkungen auf spezifische Nutzergruppen. 
 
 Ein Prüfungsmodus kann gelten
@@ -55,9 +55,13 @@ Des Weiteren kann der Zugang zur Prüfung auf spezifische IP-Adressen beschränk
 
 Detailliert können neben Titel und Beschreibung, die dem Benutzer in der Prüfungsbenachrichtigung angezeigt werden, die folgenden Parameter konfiguriert werden:
 
-**Beginn**: Legen Sie hier Datum und Uhrzeit für den Beginn der Prüfung fest. Die **Vorlaufzeit**, die Sie in Minuten angeben, sperrt OpenOlat während der angegebenen Dauer vor Prüfungsbeginn.
+**Beginn**: Legen Sie hier Datum und Uhrzeit für den Beginn der Prüfung fest. 
 
-**Ende**: Der Zeitpunkt an dem die Prüfung beendet wird. Wird eine **Nachlaufzeit** in Minuten angegeben, bleibt OpenOlat während dieser Dauer im Anschluss an die Prüfung noch gesperrt.
+Die **Vorlaufzeit**, die Sie in Minuten angeben, sperrt OpenOlat während der angegebenen Dauer vor Prüfungsbeginn.
+
+**Ende**: Der Zeitpunkt an dem die Prüfung beendet wird. 
+
+Wird eine **Nachlaufzeit** in Minuten angegeben, bleibt OpenOlat während dieser Dauer im Anschluss an die Prüfung noch gesperrt.
 
 **Art des Beginns / Endes**: Sie können zwischen automatischem und manuellem Start / Ende wählen. Stellen Sie als Autor:in hier "manuelle Bedienung" ein, finden Betreuer:innen auf der Übersichtsseite des Bewertungswerkzeugs einen Start- und Ende-Button bei der entsprechenden Prüfungskonfiguration, mit dem Sie den Prüfungsmodus manuell einschalten können.
 

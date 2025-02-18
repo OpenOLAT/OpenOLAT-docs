@@ -16,10 +16,10 @@ You **create** the configuration of an assessment mode by selecting
 
 1. Select your **course** with the test it contains,
 2. select the option **"Assessment management"** in **"Administration"**,
-3. and select the **"Assessment mode"** tab.
-4. Click on the **"Create test configuration"** button.
+3. and select the **"Configuration assessment mode"** tab.
+4. Click on the **"Add assessment mode"** button.
 
-![assessment_management_create_exam_setting_v1_en.png](assets/assessment_management_create_exam_setting_v1_en.png){ class="shadow lightbox" }
+![assessment_management_create_exam_setting_v2_en.png](assets/assessment_management_create_exam_setting_v2_en.png){ class="shadow lightbox" }
 
 On the overview page, you can see all examinations that have already been held, are in progress or are planned for a course. The mode of scheduled exams can still be edited up until the exam, but it is not possible to edit them retrospectively. The overview contains information on date and duration, lead and lag times and user groups.
 
@@ -28,7 +28,7 @@ On the overview page, you can see all examinations that have already been held, 
 Test configurations are created in advance and contain
 
 * A start and end date
-* Possible lead and follow-up times (if desired)
+* Possible prep and follow-up times (if desired)
 * Possible restrictions to specific user groups.
 
 One assessment mode may apply
@@ -54,9 +54,13 @@ Furthermore, access to the exam can be restricted to specific IP addresses or th
 
 In addition to the title and description displayed to the user in the exam notification, the following parameters can be configured in detail:
 
-**Start**: Specify the date and time for the start of the test here. The **lead time**, which you specify in minutes, locks OpenOlat for the specified duration before the exam starts.
+**Start**: Specify the date and time for the start of the test here. 
 
-**End**: The time at which the check is completed. If a **follow-up time** is specified in minutes, OpenOlat remains locked for this duration after the check.
+The **prep time**, which you specify in minutes, locks OpenOlat for the specified duration before the exam starts.
+
+**End**: The time at which the check is completed. 
+
+If a **follow-up time** is specified in minutes, OpenOlat remains locked for this duration after the check.
 
 **Type of start/end**: You can choose between automatic and manual start/end. If you as the author set "manual operation" here, coaches will find a start and end button on the overview page of the assessment tool for the corresponding assessment configuration, which they can use to switch on the assessment mode manually.
 
