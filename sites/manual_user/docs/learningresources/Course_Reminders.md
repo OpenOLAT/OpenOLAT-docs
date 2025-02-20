@@ -226,33 +226,52 @@ This option only affects course elements of the type "Form".
 
     ![Reminder operators](assets/reminder_operator_EN.png)
 
+[To the top of the page ^](#course_reminders)
+
+---
+
+### Variables available in the subject
+
+* **$courseName**: The name of the course as on the info page.
+* **$courseAuthors**: The names entered in the course settings, tab "Metadata" under "Author/Conduction with”.
+**$courseExecPeriodStart**: The date specified in the course settings, tab "Execution" as the start of the execution period.
+**$courseExecPeriodEnd**: The date specified in the course settings, tab "Execution" as the end of the execution period.
+**$courseLocation**: The text that was entered in the course settings, tab "Implementation" as the implementation location.
 
 
 
-## E-mail text {: #text}
+### Variables available in the mail text
 
-Using the e-mail text, which can be customized as needed, you create very specific e-mail reminders tailored to the situation.
 
-!!! tip "Tip"
-
-    The available variables are displayed by moving the mouse pointer over the small question mark symbol.
-
-    ![course_reminders_variables_v1_en.png](assets/course_reminders_variables_v1_en.png){ class="shadow lightbox" }
-
-* **$firstName**: The first name of the user
-* **$lastName**: The last name of the user
-* **$fullName**: The full name depending on the system configuration. The default value is "lastname, firstname"
-* **$email**: The e-mail address of the user
+* **$firstName**: The first name of the user.
+* **$lastName**: The last name of the user.
+* **$fullName**: The full name depending on the system configuration. The default value is "lastname, firstname".
+* **$email**: The e-mail address of the user.
 * **$userName**: The username.
-* **$courseUrl**: The internet address of the course
-* **$courseName**: The name of the course as on the info page
-* **$courseDescription**: The description of the course as on the info page
+* **$courseUrl**: The internet address of the course.
+* **$courseName**: The name of the course as on the info page.
+* **$courseDescription**: The description of the course as on the info page.
+* **$courseAuthors**: The names entered in the course settings, tab "Metadata" under "Author:inside/conducted with".
+* **$courseCertification**: The description of the certification as specified in the course settings, tab "Info".
+* **$courseExecPeriodStart**: The date specified in the course settings, tab "Execution" as the start of the execution period.
+* **$courseExecPeriodEnd**: The date specified in the course settings, tab "Execution" as the end of the execution period.
+* **$courseExpOfWork**: The estimated amount of time that was entered as text in the course settings, tab "Metadata" under "Time spent".
+* **$courseLocation**: The text that was entered in the course settings, tab "Implementation" as the implementation location.
+* **$courseMainLang**: The language entered in the course settings, tab "Metadata" under "Main language".
+* **$courseObjectives**: The text that was entered as the learning objective description in the course settings, tab "Info".
+* **$courseReference**: The text that was entered in the course settings in the "Info" tab under "Indicator".
+* **$courseRequirements**: The text that was entered in the course settings in the "Info" tab under "Requirements".
+* **$courseTeaser**: The teaser text entered in the “Info” tab of the course settings.
+* **$recipientFirstName**: 
+* **$recipientLastName**:
 
 Here is an example:
 
 ![Reminder Mail](assets/reminder_notification_text.png){ class="shadow" }
 
 At the top course node, all reminders that are not tied to a specific course element are also listed. Also here as well as with other assessment elements with the tab "Reminders" further configurations can be made, e.g. configured reminders can be edited, duplicated, sent, deleted. It is also possible to display the dispatch.
+
+[To the top of the page ^](#course_reminders)
 
 
 ## Recipients {: #recipients}
@@ -262,8 +281,9 @@ A **copy to the coaches and/or course owners** also informs them that participan
 
 
 In some cases, reminders should be sent **exclusively to coaches**.<br>
+
 **Example:**<br>
-Course participants do not show any progress. The coach should then contact these students and provide assistance. This reminder should only go to the coach.
+Course participants do not show any progress. The coach should then contact these students and provide assistance. This reminder should only go to the coach. You could enter as conditions, for example, that the progress is still below x% and at the same time a certain score has not been reached in an entrance test.
 
 Reminders can also be sent **exclusively to course owners**.<br>
 **Example:**<br>
@@ -271,6 +291,7 @@ Sometimes authors forget to publish their course because things were still uncle
 
 ![course_reminder_condition_status_v1_de.png](assets/course_reminder_condition_status_v1_de.png){ class="shadow lightbox" }
 
+For special cases, reminders can also be sent **exclusively to certain external e-mail addresses**.
 
 [To the top of the page ^](#course_reminders)
 
@@ -300,7 +321,7 @@ Reminders can also be triggered repeatedly and in a targeted manner. However, re
 
 [Personal Menu: E-Mails >](../personal_menu/E-Mail.md)<br>
 [Course element Notifications](../learningresources/Course_Element_Notifications.md)<br>
-[Participant infos](../learningresources/Using_Additional_Course_Features.de.md#teilnehmer-infos)<br>
+[Participant infos](../learningresources/Using_Additional_Course_Features.md#teilnehmer-infos)<br>
 
 
 

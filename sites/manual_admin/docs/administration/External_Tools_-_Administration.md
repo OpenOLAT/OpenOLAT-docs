@@ -3,14 +3,14 @@
 ![admin_external_tools_overview_v1_de.png](assets/admin_external_tools_overview_v1_de.png){ class="shadow lightbox aside-left-lg" }
 
 
-In this area, the OpenOlat administrators can switch various external tools on
-and off (e.g. several virtual classrooms) and, depending on the tool, configure certain basic settings that apply system-wide.
+In this area, the OpenOlat administrators can switch various external tools on and off (e.g. several virtual classrooms) and, depending on the tool, configure certain basic settings that apply system-wide.
 
 
 ## BigBlueButton {: #bbb}
 
 To enable web conferences with BigBlueButton in OpenOlat, BBB must be activated and configured in the administration.
  
+[See the details >](BigBlueButton_module.md)<br>
 [View more details >](BigBlueButton_module.md)
 
 
@@ -32,9 +32,10 @@ following locations:
   * In courses with the course element OpenMeetings. Each course element creates a corresponding room on the OpenMeetings server.
   * In groups with the OpenMeetings group tool. Each group has its own OpenMeetings room that can be used like any other group tool.
 
-The tab "Rooms" gives administrators an overview of the OpenMeetings rooms
-created in OpenOlat.
+The tab "Rooms" gives administrators an overview of the OpenMeetings rooms created in OpenOlat.
   
+[To the top of the page ^](#ext_tools)
+
 
 ## Adobe Connect {: #adobe_connect}
 
@@ -42,10 +43,14 @@ Adobe Connect is the web conferencing solution from the Adobe product line.
 
 Activation and configuration can be carried out if the required licenses are available.
 
+[To the top of the page ^](#ext_tools)
+
 
 ## Microsoft Teams {: #_microsoft_teams}
 
 Activation and configuration can be carried out if the required licenses are available.
+
+[To the top of the page ^](#ext_tools)
 
 
 ## Microsoft SharePoint / OneDrive {: #microsoft_sharepoint}
@@ -55,6 +60,7 @@ To enable writing and copying files to and from SharePoint and OneDrive in the O
 The prerequisite is that the required licenses are available.
 
 [View more details >](SharePoint_OneDrive.md)
+[To the top of the page ^](#ext_tools)
 
 
 ## Zoom {: #zoom}
@@ -62,16 +68,15 @@ The prerequisite is that the required licenses are available.
 To enable Zoom meetings in OpenOlat, Zoom must be activated and configured in the administration. 
 
 [View more details >](Zoom.md)
-
+[To the top of the page ^](#ext_tools)
 
 
 ## LTI 1.3 {: #lti}
 
-Here LTI 1.3 can be activated and configured in more detail e.g. external LTI
-platforms and tools can be connected.
+Here LTI 1.3 can be activated and configured in more detail e.g. external LTI platforms and tools can be connected.
 
 [Further details >](LTI_Integrations.md)
-
+[To the top of the page ^](#ext_tools)
 
 
 ## GoToTraining {: #go_to_training}
@@ -80,9 +85,8 @@ GoToTraining is a virtual training platform.
 
 Activation and configuration can be carried out if the required licenses are available.
 
-**Further information:**<br>
 [Website GoToTraining](https://www.goto.de/training)
-
+[To the top of the page ^](#ext_tools)
 
 
 ## vitero {: #vitero}
@@ -99,29 +103,23 @@ Under "Time Zone OLAT Server" you can set the time zone of your OpenOlat system.
 This is necessary to synchronize the times of the appointments with the vitero
 system.
 
-You will receive the following information from your vitero or OpenOlat
-administrator: "URL vitero server", "Web service username", "Web service
-password" and "Customer identifier".
+You will receive the following information from your vitero or OpenOlat administrator: "URL vitero server", "Web service username", "Web service password" and "Customer identifier".
 
-Once you have entered the password, select the "Test server connection" button
-to check the configuration and the connection to the vitero server. Then you
-can save the configuration and use vitero in your courses.
+Once you have entered the password, select the "Test server connection" button to check the configuration and the connection to the vitero server. Then you can save the configuration and use vitero in your courses.
 
-Please note that user accounts are automatically created for the OLAT
-connection on the vitero server. Any existing user accounts and appointments
-will not be considered.
+Please note that user accounts are automatically created for the OLAT connection on the vitero server. Any existing user accounts and appointments will not be considered.
 
 
-**Further information:**<br>
 [Website vitero](https://www.vitero.com/)
+[To the top of the page ^](#ext_tools)
 
 
 ## JupyterHub {: #jupyter}
 
 JupyterHub is used to provide Jupyter images for learners.
 
-**Further information:**<br>
 [User manual: Course element JupyterHub](../../manual_user/learningresources/Course_Element_JupyterHub.md)
+[To the top of the page ^](#ext_tools)
 
 
 ## card2brain {: #card2brain}
@@ -130,8 +128,8 @@ card2brain is a software for learning with a flashcard system.
 
 Activation and configuration can be carried out if the required licenses are available.
 
-**Further information:**<br>
 [Website card2brain](https://card2brain.ch/de)
+[To the top of the page ^](#ext_tools)
 
 
 ## Edubase/Edubook {: #edubase}
@@ -140,14 +138,15 @@ Edubase is an e-book platform.
 
 Activation and configuration can be carried out if the required licenses are available.
 
-**Further information:**<br>
 [Website Edubase](https://www.edubase.ch)
-
+[To the top of the page ^](#ext_tools)
 
 
 ## YouTube API {: #youtube_api}
 
 Enter, remove or check API key.
+
+[To the top of the page ^](#ext_tools)
 
 
 ## Opencast {: #opencast}
@@ -156,16 +155,17 @@ Opencast is an open source software for planning, recording and publishing audio
 
 After activation, the API and LTI configuration can be carried out. BigBlueButton recordings from OpenOlat can also be used.
 
+[To the top of the page ^](#ext_tools)
+
 
 ## MediaSite {: #mediasite}
 
 Activation of MediaSite. MediaSite is an automated video platform for video
 recording, video management and subtitling. The OpenOlat Mediasite module
-allows you to integrate MediaSite content into courses as a single
-presentation, channel, or module. 
+allows you to integrate MediaSite content into courses as a single presentation, channel, or module. 
 
-**Further information:**<br>
 [Documentation for MediaSite](https://mediasite.com/)
+[To the top of the page ^](#ext_tools)
 
 
 ## edu-sharing {: #edusharing}
@@ -184,12 +184,11 @@ Configuration takes place in four steps:
 
 	https://your.openolat.domain/olat/edusharing/metadata
 
-**Further informationen:**<br>
 [Website edu-sharing](https://edu-sharing.com/)
+[To the top of the page ^](#ext_tools)
 
 
-
-## Dokumenteneditoren {: #dokumenteneditoren}
+## Document editors {: #dokumenteneditoren}
 
 Various tools can be used in OpenOlat to edit Office documents:
 
@@ -198,26 +197,32 @@ Various tools can be used in OpenOlat to edit Office documents:
 
 The prerequisite in each case is that the necessary licenses are available.
 
+[To the top of the page ^](#ext_tools)
+
 
 ## draw.io  {: #draw_io}
 
-draw.io is an online tool for creating diagrams that can be used in many places in OpenOlat, e.g. in projects, in the portfolio, in the course element "Document", in the Media Center and in many other places where new documents can be created. In draw.io, several people can also work together on one diagram. To use draw.io, the function must be set up in the administration 
+draw.io is an online tool for creating diagrams that can be used in many places in OpenOlat, e.g. in projects, in the portfolio, in the course element "Document", in the Media Center and in many other places where new documents can be created. In draw.io, several people can also work together on one diagram. To use draw.io, the function must be set up in the administration.
 
-**Further information:**<br>
 [Website draw.io](https://www.drawio.com)
+[To the top of the page ^](#ext_tools)
 
 
 ## Analytics {: #analytics}
 
 Possibility to activate external analytics services., e.g. Google Analytics.
 
+[To the top of the page ^](#ext_tools)
+
 
 ## KI Modul {: #ki_modul}
 
 This is where you activate and configure the artificial intelligence tools that can be integrated into OpenOlat. 
 
+[To the top of the page ^](#ext_tools)
 
-## PDF Generator
+
+## PDF Generator {: #pdf_generator}
 
 In OpenOlat PDFs can be created in various places, e.g. certificates, test results, member lists or similar. 
 These functions are only available if one of the PDF services below is configured. 
@@ -244,3 +249,4 @@ More information on AthenaPDF can be found at
 To learn more about how to install and configure the AthenaPDF service please visit
 the [installation manual](../installation/athenaPdf.md). 
 
+[To the top of the page ^](#ext_tools)

@@ -3,9 +3,7 @@
 ![admin_external_tools_overview_v1_de.png](assets/admin_external_tools_overview_v1_de.png){ class="shadow lightbox aside-left-lg" }
 
 
-In diesem Bereich können die OpenOlat-Administrator:innen diverse externe Tools
-ein- und ausschalten (z.B. mehrere virtuelle Klassenzimmer) und je nach Tool bestimmte Basiseinstellungen einrichten, die systemweit gelten.
-
+In diesem Bereich können die OpenOlat-Administrator:innen diverse externe Tools ein- und ausschalten (z.B. mehrere virtuelle Klassenzimmer) und je nach Tool bestimmte Basiseinstellungen einrichten, die systemweit gelten.
 
 
 ## BigBlueButton {: #bbb}
@@ -283,7 +281,7 @@ Mehr Informationen zu AthenaPDF finden Sie unter
 
 Wie Sie den AthenaPDF-Service installieren und konfigurieren erfahren Sie im [Installationshandbuch](../installation/athenaPdf.md). 
 
- [Zum Seitenanfang ^](#ext_tools)
+[Zum Seitenanfang ^](#ext_tools)
 
  
 

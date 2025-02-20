@@ -88,7 +88,7 @@ Die Einstellung kann von Kursbesitzer:innen im Kurs unter **(Kurs-)Administratio
 
 OpenOlat kann an verschiedenen Stellen Benachrichtigungen über Ereignisse versenden. Wenn jemand die Benachrichtigungen erhalten möchte, kann dazu ein Abonnement eingerichtet werden.
 
-Benachrichtigungen über Ereignisse im Repository betreffen aktuell (Release 19) nur das Abonnenment "**Besitzer:innen über Statuswechsel für Lernressourcen benachrichtigen**".
+Benachrichtigungen über Ereignisse im Repository betreffen aktuell (Release 19) nur das Abonnement "**Besitzer:innen über Statuswechsel für Lernressourcen benachrichtigen**".
 
 A) Voreinstellung<br>
 Durch Aktivierung/Deaktivierung des Abonnements wird bestimmt, ob bei Erstellung eines neuen Kurses bzw. einer Lernressource im Repository als Default auch ein Abonnement für die beschriebene Zielgruppe eingerichtet wird. 

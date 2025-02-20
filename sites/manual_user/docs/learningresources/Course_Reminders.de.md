@@ -259,7 +259,7 @@ Mit Hilfe des E-Mail-Textes, der nach Bedarf angepasst werden kann, erstellen Si
 * **$firstName**: Der Vorname des Benutzers.
 * **$lastName**: Der Nachname des Benutzers.
 * **$fullName**: Der vollständige Name je nach Systemkonfiguration. Der Standardwert ist "Nachname, Vorname".
-* **$email**: Die Emailadresse des Benutzers.
+* **$email**: Die E-mail-Adresse des Benutzers.
 * **$userName**: Der Benutzername.
 * **$courseUrl**: Die Internetadresse des Kurses.
 * **$courseName**: Der Name des Kurses wie auf der Infoseite.
