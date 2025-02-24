@@ -4,11 +4,8 @@
 Das Modul "Organisationen" ist optional in OpenOlat verfügbar und muss in der Administration aktiviert werden. 
 
 !!! tip "Aktivierung"
-	Kunden von frentix kontaktieren für die Aktivierung bitte
-	[contact@frentix.com.](mailto:contact@frentix.com.) Nach der Aktivierung
-	können diverse zusätzliche Einstellungen für die systemweite Konfiguration
-	vorgenommen werden. Bei Systemen mit dem fx-Release werden diese Anpassung
-	durch frentix vorgenommen.  
+	
+	Kunden von frentix kontaktieren für die Aktivierung bitte [contact@frentix.com.](mailto:contact@frentix.com.) Nach der Aktivierung können diverse zusätzliche Einstellungen für die systemweite Konfiguration vorgenommen werden. Bei Systemen mit dem fx-Release werden diese Anpassung durch frentix vorgenommen.  
 	
 	:material-alert: **Nicht Hosting-Kunde von frentix?** Fragen Sie Ihren Systembetreiber!
 	

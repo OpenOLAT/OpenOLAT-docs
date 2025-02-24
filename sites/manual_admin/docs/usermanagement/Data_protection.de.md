@@ -18,7 +18,7 @@ Das Löschen von OpenOlat Benutzer:innen bewirkt folgendes:
 * Ins [Media Center](../../manual_user/basic_concepts/Media_Center_Concept.de.md) hochgeladene Medien gehören grundsätzlich einem/einer Besitzer:in. Beim Löschen des/der Besitzer:in gilt für seine/ihre Inhalte:
     * Medien mit Verwendung im ePortfolio werden gelöscht.
     * Medien ohne Verwendung in einem Kursbaustein "Seite", die nicht geteilt werden, werden gelöscht.
-    * Medien mit Verwendung in einem Kursbasustein "Seite" oder solche, die geteilt wurden, werden beibehalten, sind ab dann aber ohne Besitzer:in.
+    * Medien mit Verwendung in einem Kursbaustein "Seite" oder solche, die geteilt wurden, werden beibehalten, sind ab dann aber ohne Besitzer:in.
     * Medien ohne Besitzer:in werden in Zukunft in der Medienverwaltung für Administrator:innen angezeigt.
 * Persönliche Chat-Nachrichten der Benutzer:in werden gelöscht.
 * Persönliche Forum-Posts und -Kommentare werden nach der Löschung des Nutzers anonymisiert und mit "unknown user" ausgewiesen.
@@ -33,24 +33,13 @@ Das Löschen von OpenOlat Benutzer:innen bewirkt folgendes:
 
 ## Export von Benutzerdaten {: #export_user_data}
 
-Für jeden Benutzer kann ein Export der in OpenOlat hinterlegten Benutzerdaten
-durchgeführt werden.
+Für jeden Benutzer kann ein Export der in OpenOlat hinterlegten Benutzerdaten durchgeführt werden.
 
-Der Export muss beim jeweiligen Benutzerverwalter angefordert werden. Der
-Benutzerverwalter kann über die Benutzerverwaltung den Export durchführen.
-Anschliessend steht der Export in den persönlichen Einstellungen des Nutzers,
-welcher den Export angefordert hat, im Tab "Benutzerdaten" zum Download
-bereit. Zusätzlich wird ein Download-Link generiert, welcher dem Nutzer vom
-Benutzerverwalter zur Verfügung gestellt werden kann.
+Der Export muss beim jeweiligen Benutzerverwalter angefordert werden. Der Benutzerverwalter kann über die Benutzerverwaltung den Export durchführen. Anschliessend steht der Export in den persönlichen Einstellungen des Nutzers, welcher den Export angefordert hat, im Tab "Benutzerdaten" zum Download bereit. Zusätzlich wird ein Download-Link generiert, welcher dem Nutzer vom Benutzerverwalter zur Verfügung gestellt werden kann.
 
-Die exportierten Benutzerdaten sind nur für den Benutzer einsehbar, welcher
-den Export angefordert hat. Andere Benutzer und auch der Benutzerverwalter,
-der den Export ausgeführt hat, haben keinen Zugriff auf die exportierten
-Daten.
+Die exportierten Benutzerdaten sind nur für den Benutzer einsehbar, welcher den Export angefordert hat. Andere Benutzer und auch der Benutzerverwalter, der den Export ausgeführt hat, haben keinen Zugriff auf die exportierten Daten.
 
-Der Export dient einzig zur Information des Nutzers, welche Daten auf OpenOlat
-gespeichert und verarbeitet werden. Das Wiederherstellen eines gelöschten
-Benutzers ist damit nicht möglich.
+Der Export dient einzig zur Information des Nutzers, welche Daten auf OpenOlat gespeichert und verarbeitet werden. Das Wiederherstellen eines gelöschten Benutzers ist damit nicht möglich.
 
 ### Daten, die exportiert werden können
 
@@ -88,9 +77,7 @@ Benutzers ist damit nicht möglich.
 
 ### Drucken der Nutzungsbedingungen {: #print_terms_of_use}
 
-Das Drucken der Nutzungsbedingungen ist sowohl während des Login-Prozesses im
-Dialog "Nutzungsbedingungen" als auch in den persönlichen Einstellungen im Tab
-"Nutzungsbedingungen" möglich.
+Das Drucken der Nutzungsbedingungen ist sowohl während des Login-Prozesses im Dialog "Nutzungsbedingungen" als auch in den persönlichen Einstellungen im Tab "Nutzungsbedingungen" möglich.
 
 ![Nutzungsbedingungen drucken nach Login](assets/Nutzungsbedingungen_drucken2_DE-2.png){ class="shadow lightbox thumbnail-lg" }
 
@@ -98,8 +85,7 @@ Dialog "Nutzungsbedingungen" als auch in den persönlichen Einstellungen im Tab
 
 ### Sichtbarkeit von E-Mail-Adressen in OpenOlat {: #visibility_of_e-mail}
 
-E-Mail Adressen anderer Benutzer:innen sind in OpenOlat nur für administrative Benutzer:innen,
-nicht aber für normale Benutzer:innen sichtbar.
+E-Mail Adressen anderer Benutzer:innen sind in OpenOlat nur für administrative Benutzer:innen, nicht aber für normale Benutzer:innen sichtbar.
 
 [Zum Seitenanfang ^](#data_protection)
 

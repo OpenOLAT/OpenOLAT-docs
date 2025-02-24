@@ -161,7 +161,7 @@ Ins Media Center hochgeladene Medien gehören grundsätzlich einem/einer Besitze
 
 * Medien mit Verwendung im ePortfolio werden gelöscht.
 * Medien ohne Verwendung in einem Kursbaustein "Seite", die nicht geteilt werden, werden gelöscht.
-* Medien mit Verwendung in einem Kursbasustein "Seite" oder solche, die geteilt wurden, werden beibehalten, sind ab dann aber ohne Besitzer:in.
+* Medien mit Verwendung in einem Kursbaustein "Seite" oder solche, die geteilt wurden, werden beibehalten, sind ab dann aber ohne Besitzer:in.
 * Medien ohne Besitzer:in werden in Zukunft in der Medienverwaltung für Administrator:innen angezeigt.
 
 
