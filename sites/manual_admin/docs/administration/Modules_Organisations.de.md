@@ -31,21 +31,15 @@ Auch die Möglichkeit zur Selbstregistration von Kursteilnehmer:innen kann von d
 
 ## Tab Organisationsstruktur {: #tab_structure}
 
-Im Tab "Organisationsstruktur" finden sich die bereits erstellten
-Organisationen mit ihren Unterorganisationen als Baumstruktur dargestellt.
+Im Tab "Organisationsstruktur" finden sich die bereits erstellten Organisationen mit ihren Unterorganisationen als Baumstruktur dargestellt.
 
 ### Neue Organisationen erstellen und bearbeiten {: #create_and_edit}
 
 ![organisations_tab_structure_v1_de.png](assets/organisations_tab_structure_v1_de.png){ class="shadow lightbox" }
 
-Neue Organisationen können über den Button "Neue Organisation erstellen" rechts oben oder
-bei bestehenden Organisationen durch Klick auf die 3 Punkte und "Unterorganisation
-erstellen" hinzugefügt werden. 
-Es ist auch möglich, das Element im Organisationsbaum zu verschieben bzw.
-direkt eine neue Unterorganisation zu erstellen.
+Neue Organisationen können über den Button "Neue Organisation erstellen" rechts oben oder bei bestehenden Organisationen durch Klick auf die 3 Punkte und "Unterorganisation erstellen" hinzugefügt werden.  Es ist auch möglich, das Element im Organisationsbaum zu verschieben bzw. direkt eine neue Unterorganisation zu erstellen.
 
-Wird in der Baumstruktur ein Organisationselement ausgewählt, können die Metadaten des
-Organisationselementes und weitere Zuordnungen angepasst oder ergänzt werden. 
+Wird in der Baumstruktur ein Organisationselement ausgewählt, können die Metadaten des Organisationselementes und weitere Zuordnungen angepasst oder ergänzt werden. 
 
 
 ### Metadaten {: #edit_metadata}
@@ -62,18 +56,11 @@ Wird bei der Erstellung jedes Organisationselement mit einem entsprechenden Orga
 
 ![organisations_edit_tab_account_management_v1_de.png](assets/organisations_edit_tab_account_management_v1_de.png){ class="shadow lightbox" }
 
-Im Tab "Kontenverwaltung" erhält man eine Liste mit den aktuell dieser
-Organisationseinheit zugeordneten Benutzer:innen. Ebenso können bestehende Benutzer:innen wieder
-entfernt werden.
+Im Tab "Kontenverwaltung" erhält man eine Liste mit den aktuell dieser Organisationseinheit zugeordneten Benutzer:innen. Ebenso können bestehende Benutzer:innen wieder entfernt werden.
 
-Mit dem Button "Konto hinzufügen" können weitere Benutzer:innen einer bestimmten Rolle
-hinzugefügt werden. Hierfür wird aus den aufgelisteten Rollen die gewünschte
-ausgewählt. Im anschliessenden Dialog kann nach Benutzer:innen gesucht werden. 
-Entsprechend der Auswahl können sie hinzugefügt werden. Auch das Hinzufügen von mehreren
-Benutzer:innen ist möglich.
+Mit dem Button "Konto hinzufügen" können weitere Benutzer:innen einer bestimmten Rolle hinzugefügt werden. Hierfür wird aus den aufgelisteten Rollen die gewünschte ausgewählt. Im anschliessenden Dialog kann nach Benutzer:innen gesucht werden.  Entsprechend der Auswahl können sie hinzugefügt werden. Auch das Hinzufügen von mehreren Benutzer:innen ist möglich.
 
-Jeder Stufe der Organisation können Mitglieder verschiedenster
-Rollen zugeordnet werden. 
+Jeder Stufe der Organisation können Mitglieder verschiedenster Rollen zugeordnet werden. 
 
 Die **Rollen-Zuordnung** ist möglich
 
@@ -86,13 +73,9 @@ Die **Rollen-Zuordnung** ist möglich
 
 ![organisations_edit_tab_learning_resources_v1_de.png](assets/organisations_edit_tab_learning_resources_v1_de.png){ class="shadow lightbox" }
 
-Im Tab "Lernressourcen" werden dem Organisationselement direkt zugeordnete
-Kurse angezeigt. Diese können hier auch wieder entfernt werden. Über "Kurse
-hinzufügen" kann in einem Dialog nach weiteren eigenen und verfügbaren
-Kursen gesucht werden, um diese dem Organisationselement zuzuordnen.
+Im Tab "Lernressourcen" werden dem Organisationselement direkt zugeordnete Kurse angezeigt. Diese können hier auch wieder entfernt werden. Über "Kurse hinzufügen" kann in einem Dialog nach weiteren eigenen und verfügbaren Kursen gesucht werden, um diese dem Organisationselement zuzuordnen.
 
-Die **Zuordnung von Curricula** erfolgt in der Curriculumverwaltung am
-jeweiligen Curriculum.
+Die **Zuordnung von Curricula** erfolgt in der Curriculumverwaltung am jeweiligen Curriculum.
 
 
 ### Linienvorgesetzte {: #edit_linemanager}
@@ -130,16 +113,9 @@ Zu jedem Organisationselement kann eine E-Mail-Domäne angegeben werden, anhand 
 
 ![organisations_tab_types_v1_de.png](assets/organisations_tab_types_v1_de.png){ class="shadow lightbox" }
 
-Die Organisationstypen definieren, welche Elemente eine Organisationsstruktur
-enthalten kann und geben diesen Elementen eine nähere Bedeutung. Die Typen
-können dabei auch eine hierarchische Struktur abbilden, dies ist allerdings
-nicht zwingend. Ein Beispiel für Organisationstypen ist `Firma --> Bereich --> Abteilung`.
+Die Organisationstypen definieren, welche Elemente eine Organisationsstruktur enthalten kann und geben diesen Elementen eine nähere Bedeutung. Die Typen können dabei auch eine hierarchische Struktur abbilden, dies ist allerdings nicht zwingend. Ein Beispiel für Organisationstypen ist `Firma --> Bereich --> Abteilung`.
 
-Über "Organisationstyp erstellen" können weitere Typen angelegt werden. Neben
-der Bezeichnung (Kennzeichen) und dem Namen kann eine Beschreibung angegeben
-werden. Es ist an dieser Stelle möglich, per CSS Klasse ein nur für diesen
-Organisationstyp geltendes Layout zu hinterlegen. Zudem können dem neuem
-Organisationstyp bereits bestehende Typen untergeordnet werden.
+Über "Organisationstyp erstellen" können weitere Typen angelegt werden. Neben der Bezeichnung (Kennzeichen) und dem Namen kann eine Beschreibung angegeben werden. Es ist an dieser Stelle möglich, per CSS Klasse ein nur für diesen Organisationstyp geltendes Layout zu hinterlegen. Zudem können dem neuem Organisationstyp bereits bestehende Typen untergeordnet werden.
 
 
 [Zum Seitenanfang ^](#organisations)

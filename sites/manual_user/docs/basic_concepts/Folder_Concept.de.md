@@ -25,8 +25,7 @@ Innerhalb des persönlichen Ordners wird zwischen einem **privaten** und einem *
 
 In einem Kurs verwendete Dateien können im Ablageordner dieses Kurses hinterlegt werden. 
 
-Der Zugriff erfolgt im Kurs über **Administration > Dateien**
-oder über den [File Hub](../personal_menu/File_Hub.de.md) unter "Kurse".
+Der Zugriff erfolgt im Kurs über **Administration > Dateien** oder über den [File Hub](../personal_menu/File_Hub.de.md) unter "Kurse".
 
 Hier können z.B. auch Dateien hochgeladen werden, die später innerhalb des Kurses von einer Seite aus verlinkt und aufgerufen werden sollen.
 
