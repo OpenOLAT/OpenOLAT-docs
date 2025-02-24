@@ -105,7 +105,7 @@ nav:
        - Create courses and learning resources: "area_modules/authoring_new_course.md"
        - Bulk actions: "area_modules/Authoring_BulkActions.md"
     - Video Collection:
-        - Overwiew: "area_modules/Video_Collection.md" 
+        - Overview: "area_modules/Video_Collection.md" 
     - Question Bank:
       - Overview: "area_modules/Question_Bank.md"
       - Create questions : "area_modules/Question_Bank_Create_Questions.md"
@@ -183,9 +183,14 @@ nav:
         - Using Additional Course Features: "learningresources/Using_Additional_Course_Features.md"
       - Administration:
         - Overview: "learningresources/Administration.md"
-        - Using Course Tools: "learningresources/Using_Course_Tools.md"
+        - Settings:
+          - Overview: "learningresources/Course_Settings.md"
+          - Tab Assessment: "learningresources/Course_Settings_Assessment.md"
+          - Tab Options: "learningresources/Course_Settings_Options.md"
+          - LTI access: "learningresources/LTI_Share_courses.md"
+          - Design possibilities of courses and course elements: "learningresources/Design_possibilities_of_courses_and_course_elements.md"
         - Members management: "learningresources/Members_management.md"
-        - Storage folder: "learningresources/Storage_folder.md"
+        - Files: "learningresources/Storage_folder.md"
         - Assessment tool :
           - Overview : "learningresources/Assessment_tool_overview.md"
           - Tab users: "learningresources/Assessment_tool_tab_Users.md"
@@ -199,27 +204,31 @@ nav:
           - Assess tasks: "learningresources/Assess_tasks.md"
           - Portfolio assignment Grading: "learningresources/Portfolio_assignment_Grading.md"
           - Forms in Rubric Scoring: "learningresources/Forms_in_Rubric_Scoring.md"
-        - Lectures and absences:
+        - Events and Absences:
           - Overview: "learningresources/Lectures_and_absences.md"
           - Lectures : "learningresources/Lectures_User_view.md"
           - Lectures teacherview : "learningresources/Lectures_Teacher_view.md"
         - To-dos : "learningresources/Course_todos.md"
+        - Coach files : "learningresources/Coach_Files.md"
         - Course Reminders: "learningresources/Course_Reminders.md"
         - Assessment management:
           - Overview: "learningresources/Assessment_Management.md"
           - Assessment mode: "learningresources/Assessment_mode.md"
           - Assessment inspection: "learningresources/Assessment_inspection.md"
         - Data collection previews: "learningresources/Data_Collection_Previews.md"
+        - Learning areas: "learningresources/Learning_Areas.md"
+        - Course statistics: "learningresources/Statistics_Course.md"
+        - Test statistics: "learningresources/Statistics_Test.md"
+        - Survey statistics: "learningresources/Statistics_Survey.md"
         - Archiving & Reporting : "learningresources/Course_Archiving.md"
+        - Offer types : "learningresources/Offer_Types.md"
+        - Copy (a course) : "learningresources/Course_Copy.md"
+        - Copy with wizard : "learningresources/Course_Copy_Wizard.md"
+        - Export content : "learningresources/Export_Content.md"
+        - Delete : "learningresources/Course_Delete.md"
         - Record of Course Activities: "learningresources/Record_of_Course_Activities.md"
         - Exams: "learningresources/Exams.md"
         - Assessment mode: "learningresources/Assessment_mode_v1.md"
-      - Settings:
-        - Overview: "learningresources/Course_Settings.md"
-        - Tab Assessment: "learningresources/Course_Settings_Assessment.md"
-        - Tab Options: "learningresources/Course_Settings_Options.md"
-        - LTI access: "learningresources/LTI_Share_courses.md"
-        - Design possibilities of courses and course elements: "learningresources/Design_possibilities_of_courses_and_course_elements.md"
     - Course elements: 
       - Overview: "learningresources/Course_Elements.md"
       - Structure: "learningresources/Course_Element_Structure.md"

@@ -169,6 +169,7 @@ plugins:
           Checklist : Checkliste
           Classes : Klassen
           Coach : Betreuer
+          Coach files : Unterlagen Betreuer:innen
           Coaching : Coaching
           Cockpit : Cockpit
           Colors : Farben
@@ -185,6 +186,9 @@ plugins:
           Configure tests : Test konfigurieren
           Configure User : Benutzer konfigurieren
           Content Editor : Content Editor
+          Convert to learning path course : In Lernpfad-Kurs konvertieren
+          Copy (a course) : Kopieren (eines Kurses)
+          Copy with wizard : Kopieren mit Wizard
           Core functions : Core Konfiguration
           Course : Kurs
           Course design : Kursdesign
@@ -213,6 +217,7 @@ plugins:
           Course Problems and Error Messages : Probleme und Fehlermeldungen im Kurs
           Course Reminders : Erinnerung
           Course Settings : Kurseinstellungen
+          Course statistics : Kurs Statistiken
           Courses and Catalog : Kurse und Katalog
           COVID certificate: COVID Zertifikat
           CP Editor : CP Editor
@@ -253,6 +258,7 @@ plugins:
           Data protection : Datenschutz
           Decisions : Entscheide
           Deep Linking : Deep Linking
+          Delete : Löschen
           Deleting, Moving and Copying Course Elements : Löschen, Verschieben und Kopieren von Kursbausteinen
           Design : Design
           Design possibilities of courses and course elements : Gestalterische Möglichkeiten von Kursen und Kursbausteinen
@@ -263,14 +269,17 @@ plugins:
           E-Mail : E-Mail
           E-Mail Settings : E-Mail Einstellungen
           eAssessment : Online Prüfungen
+          eAssessment Levels/Grading : eAssessment Einstufung/Noten
           ePortfolio : ePortfolio
           Question bank : Fragenpool
           Edit a project : Projekt bearbeiten
           edu-sharing: edu-sharing
           Edubase: Edubase
           Enrolment: Einschreibung
+          Events and Absences : Termine und Absenzen
           Evidence of Achievements: Leistungsnachweise
           Exams : Prüfungen
+          Export content : Inhalt exportieren
           External Page : Externe Seite
           External platforms : Externe Platformen
           External tools : Externe Werkzeuge
@@ -345,6 +354,7 @@ plugins:
           Knowledge Transfer : Wissensvermittlung
           Landing pages : Startseite
           Learning Activities in Courses : Lernaktivitäten im Kurs
+          Learning areas : Lernbereiche
           Learning path course - Course editor : Lernpfadkurs - Kurseditor
           Learning path course - Participant view : Lernpfadkurs - Teilnehmeransicht
           Learning resources : Lernressourcen
@@ -405,6 +415,7 @@ plugins:
           Notifications : Mitteilungen
           Offer Courses : Kurse anbieten
           Offers : Angebote
+          Offer types : Angebotsarten
           Opencast : Opencast
           OpenMeetings : OpenMeetings
           Other : Andere
@@ -490,6 +501,7 @@ plugins:
           Supported Technologies : Unterstützende Technologien
           Survey : Umfrage
           Surveys : Umfragen
+          Survey statistics : Fragebogen Statistiken
           System : System
           Tab Assessment : Tab Bewertung
           Tab Options : Tab Optionen
@@ -505,6 +517,7 @@ plugins:
           Test editor QTI 2.1 : Testeditor
           Test question types : Test Fragetypen
           Test settings : Test Einstellungen
+          Test statistics : Test Statistiken
           The assessment form : Das Bewertungsformular
           The Idea of Open-Source Software : Der Open-Source-Gedanke
           The portfolio editor : Der Portfolio Editor
