@@ -44,6 +44,7 @@ Wird in der Baumstruktur ein Organisationselement ausgewählt, können die Metad
 
 ### Metadaten {: #edit_metadata}
 
+(Module > Organisationen > Tab "Organisationsstruktur" > Tab "Metadaten")
 ![organisations_edit_tab_metadata_v1_de.png](assets/organisations_edit_tab_metadata_v1_de.png){ class="shadow lightbox" }
 
 Neben der Bezeichnung und dem Namen kann eine Beschreibung für das Element eingetragen werden.
@@ -54,6 +55,7 @@ Wird bei der Erstellung jedes Organisationselement mit einem entsprechenden Orga
 
 ### Kontenverwaltung {: #edit_account_managment}
 
+(Module > Organisationen > Tab "Organisationsstruktur" > Tab "Kontenverwaltung")
 ![organisations_edit_tab_account_management_v1_de.png](assets/organisations_edit_tab_account_management_v1_de.png){ class="shadow lightbox" }
 
 Im Tab "Kontenverwaltung" erhält man eine Liste mit den aktuell dieser Organisationseinheit zugeordneten Benutzer:innen. Ebenso können bestehende Benutzer:innen wieder entfernt werden.
@@ -71,6 +73,7 @@ Die **Rollen-Zuordnung** ist möglich
 
 ### Lernressourcen {: #edit_learning_resources}
 
+(Module > Organisationen > Tab "Organisationsstruktur" > Tab "Lernressourcen")
 ![organisations_edit_tab_learning_resources_v1_de.png](assets/organisations_edit_tab_learning_resources_v1_de.png){ class="shadow lightbox" }
 
 Im Tab "Lernressourcen" werden dem Organisationselement direkt zugeordnete Kurse angezeigt. Diese können hier auch wieder entfernt werden. Über "Kurse hinzufügen" kann in einem Dialog nach weiteren eigenen und verfügbaren Kursen gesucht werden, um diese dem Organisationselement zuzuordnen.
@@ -80,6 +83,7 @@ Die **Zuordnung von Curricula** erfolgt in der Curriculumverwaltung am jeweilige
 
 ### Linienvorgesetzte {: #edit_linemanager}
 
+(Module > Organisationen > Tab "Organisationsstruktur" > Tab "Linienvorgesetzte")
 ![organisations_edit_tab_line_management_v1_de.png](assets/organisations_edit_tab_line_management_v1_de.png){ class="shadow lightbox" }
 
 Die Rechte, die Linienvorgesetzten zugeteilt werden, können für jede Organisationseinheit separat definiert werden. 
@@ -87,6 +91,7 @@ Die Rechte, die Linienvorgesetzten zugeteilt werden, können für jede Organisat
 
 ### Ausbildungsverantwortliche {: #edit_education_manager}
 
+(Module > Organisationen > Tab "Organisationsstruktur" > Tab "Ausbildungsverantwortliche")
 ![organisations_edit_tab_education_manager_v1_de.png](assets/organisations_edit_tab_education_manager_v1_de.png){ class="shadow lightbox" }
 
 Die Rechte, die Ausbildungsverantwortlichen zugeteilt werden, können für jede Organisationseinheit separat definiert werden. 
@@ -94,6 +99,7 @@ Die Rechte, die Ausbildungsverantwortlichen zugeteilt werden, können für jede 
 
 ### Rechnungsadressen {: #edit_billing_adresses}
 
+(Module > Organisationen > Tab "Organisationsstruktur" > Tab "Rechnungsadressen")
 ![organisations_edit_tab_billing_addresses_v1_de.png](assets/organisations_edit_tab_billing_addresses_v1_de.png){ class="shadow lightbox" }
 
 Für die Kurs- und Seminarverwaltung (ab Release 20 verfügbar) können hier Rechnungsadressen hinterlegt werden.
@@ -101,6 +107,7 @@ Für die Kurs- und Seminarverwaltung (ab Release 20 verfügbar) können hier Rec
 
 ### E-Mail-Domänen-Zuordnung {: #edit_mail_domain}
 
+(Module > Organisationen > Tab "Organisationsstruktur" > Tab "E-Mail-Domänen-Zuordnung")
 ![organisations_edit_tab_email_domain_v1_de.png](assets/organisations_edit_tab_email_domain_v1_de.png){ class="shadow lightbox" }
 
 Zu jedem Organisationselement kann eine E-Mail-Domäne angegeben werden, anhand derer die Zugehörigkeit von Benutzer:innen zu dieser Orgnisationseinheit geprüft werden kann. Die ist dann von Bedeutung, wenn sich Benutzer:innen selbst für Kurse anmelden können, die Kurse jedoch nur für eine bestimmte Organisationseinheit verfügbar sein soll. 

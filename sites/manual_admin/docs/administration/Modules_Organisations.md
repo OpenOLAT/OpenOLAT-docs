@@ -46,9 +46,19 @@ New organizations can be created using the "Create new organization" button, or 
 
 If an organizational element is selected in the tree structure, the metadata of the organizational element and other assignments can be adjusted or supplemented. 
 
+### Metadaten {: #edit_metadata}
+
+(Module > Organisationen > Tab "Organisationsstruktur" > Tab "Metadaten")
+![organisations_edit_tab_metadata_v1_de.png](assets/organisations_edit_tab_metadata_v1_de.png){ class="shadow lightbox" }
+
+Neben der Bezeichnung und dem Namen kann eine Beschreibung für das Element eingetragen werden.
+Ausserdem erfolgt hier die Zuordnung des Organisationstyps (wie im Tab "Organisationstypen" definiert).
+Wird bei der Erstellung jedes Organisationselement mit einem entsprechenden Organisationstyp verknüpft, kann so eine hierarchische Struktur aufgebaut werden. Damit ist die Abbildung von Ablauf- und Aufbauorganisationen möglich, eine Matrix-Organisation kann hingegen nicht dargestellt werden.
+
 
 ### Account management  {: #edit_account_managment}
 
+(Module > Organisationen > Tab "Organisationsstruktur" > Tab "Metadaten")
 ![organisations_edit_tab_account_management_v1_de.png](assets/organisations_edit_tab_account_management_v1_de.png){ class="shadow lightbox" }
 
 The "Account management" tab displays a list of the users currently assigned to this organizational unit. Existing users can also be removed again.
@@ -66,6 +76,7 @@ Members of different roles can be assigned to each level of the organization.
 
 ### Learning resources {: #edit_learning_resources}
 
+(Module > Organisationen > Tab "Organisationsstruktur" > Tab "Lernressourcen")
 ![organisations_edit_tab_learning_resources_v1_de.png](assets/organisations_edit_tab_learning_resources_v1_de.png){ class="shadow lightbox" }
 
 Courses directly assigned to the organizational element are displayed in the "Learning resources" tab. These can also be removed here. Via "Add courses", you can search for additional own and available courses in a dialog in order to assign them to the organizational element.
@@ -75,6 +86,7 @@ The **assignment of curricula** is done in the curriculum management at the resp
 
 ### Line manager  {: #edit_linemanager}
 
+(Module > Organisationen > Tab "Organisationsstruktur" > Tab "Linienvorgesetzte")
 ![organisations_edit_tab_line_management_v1_de.png](assets/organisations_edit_tab_line_management_v1_de.png){ class="shadow lightbox" }
 
 The rights assigned to line managers can be defined separately for each organizational unit. 
@@ -82,6 +94,7 @@ The rights assigned to line managers can be defined separately for each organiza
 
 ### Education manager {: #edit_education_manager}
 
+(Module > Organisationen > Tab "Organisationsstruktur" > Tab "Ausbildungsverantwortliche")
 ![organisations_edit_tab_education_manager_v1_de.png](assets/organisations_edit_tab_education_manager_v1_de.png){ class="shadow lightbox" }
 
 The rights assigned to those responsible for training can be defined separately for each organizational unit. 
@@ -89,6 +102,7 @@ The rights assigned to those responsible for training can be defined separately 
 
 ### Billing adresses {: #edit_billing_adresses}
 
+(Module > Organisationen > Tab "Organisationsstruktur" > Tab "Rechnungsadressen")
 ![organisations_edit_tab_billing_addresses_v1_de.png](assets/organisations_edit_tab_billing_addresses_v1_de.png){ class="shadow lightbox" }
 
 Invoice addresses can be stored here for course and seminar management (available from Release 20).
@@ -96,6 +110,7 @@ Invoice addresses can be stored here for course and seminar management (availabl
 
 ### Mail domain assignment {: #edit_mail_domain}
 
+(Module > Organisationen > Tab "Organisationsstruktur" > Tab "E-Mail-Domänen-Zuordnung")
 ![organisations_edit_tab_email_domain_v1_de.png](assets/organisations_edit_tab_email_domain_v1_de.png){ class="shadow lightbox" }
 
 An email domain can be specified for each organizational element, which can be used to check the affiliation of users to this organizational unit. This is important if users can register for courses themselves, but the courses should only be available for a specific organizational unit. 
@@ -105,7 +120,7 @@ An email domain can be specified for each organizational element, which can be u
 ---
 
   
-## Defining organization types {: #tab_types}
+## Tab organization types {: #tab_types}
 
 ![organisations_tab_types_v1_de.png](assets/organisations_tab_types_v1_de.png){ class="shadow lightbox" }
 
