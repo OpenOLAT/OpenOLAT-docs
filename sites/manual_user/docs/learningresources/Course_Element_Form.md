@@ -56,15 +56,26 @@ When a form is created in the course editor, a new learning resource Form is aut
 
     After a form has been selected, it can be designed via the "Edit" link. If the form has already been set up appropriately, editing is no longer necessary.
 
-![Formular Konfiguration](assets/Formular_Tab2.png){ class="shadow lightbox" }
+![course_element_form_tab_form_v1_de.png](assets/course_element_form_tab_form_v1_de.png){ class="shadow lightbox" }
+
+**Fill out the form multiple times**
+
+For some use cases, the form should only be able to be used once by each participant, e.g. for feedback on a course.
+In other use cases, a form should be able to be used multiple times by the same participant, e.g. a person should be able to place multiple orders using the same form. 
+Multiple use can therefore be permitted in the ‘Form’ course element using a toggle button.
+
+**Participation until...**
 
 In addition, you can define in the tab until when the form can be filled out by the learners. For this purpose, a fixed or a relative date can be used, e.g. x days after the first course attendance. As soon as an end date has been defined, the tab "[Reminders](../learningresources/Course_Reminders.md)" is also activated. For example, you could create a reminder to email learners again a few days before the submission deadline to remind them to complete the form.
+
+**E-Mail confirmation**
 
 If the e-mail confirmation is activated, the participants will receive a confirmation e-mail and the form they filled out as a PDF attachment. In addition, email confirmations can also be sent to owners, coaches and externals.
 
 !!! warning "Attention"
 
     Once a form has been viewed by at least one participant, it cannot be replaced or even rudimentarily edited.
+
 
 ## View: Owners and Coaches
 

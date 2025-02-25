@@ -56,9 +56,21 @@ Wenn ein Formular im Kurseditor erstellt wird, wird automatisch eine neue Lernre
 
     Nachdem ein Formular ausgewählt wurde kann es über den Link "Bearbeiten" gestaltet werden. Wurde das Formular schon vorher passend eingerichtet ist eine Bearbeitung nicht mehr nötig.
 
-![Formular Konfiguration](assets/Formular_Tab2.png){ class="shadow lightbox" }
+
+![course_element_form_tab_form_v1_de.png](assets/course_element_form_tab_form_v1_de.png){ class="shadow lightbox" }
+
+**Mehrfaches Ausfüllen des Formulars**
+
+Für manche Anwendungsfälle soll das Formular von jedem/jeder Teilnehmer:in nur einmal verwendet werden können, z.B. für das Feedback zu einem Kurs.
+In anderen Anwendungsfällen soll ein Formular mehrfach von den gleichen Teilnehmer:innen verwendet werden können, z.B. soll eine Person mit dem gleichen Formular mehrfach Bestellungen machen können. 
+Im Kursbaustein "Formular" kann deshalb mit einem Toggle-Button die Mehrfachverwendung erlaubt werden.
+
+
+**Teilnahme bis...**
 
 Zusätzlich kann in dem Tab definiert werden bis wann das Formular von den Lernenden ausgefüllt werden kann. Hierfür kann ein festes oder ein relatives Datum verwendet werden, z.B. x Tage nach dem ersten Kursbesuch. Sobald ein Enddatum definiert wurde wird auch der Tab "[Erinnerungen](../learningresources/Course_Reminders.de.md)" aktiviert. Zum Beispiel könnte man eine Erinnerung erstellen, die die Lernenden wenige Tage vor der Abgabedeadline noch einmal per Mail an das Ausfüllen des Formulars erinnert.
+
+**E-Mail Bestätigung**
 
 Wird die E-Mail Bestätigung aktiviert erhalten die Teilnehmenden eine Bestätigungs-E-Mail und das von ihnen ausgefüllte Formular als PDF Anhang. Zusätzlich können auch E-Mail Bestätigungen an Besitzer, Betreuer und Externe verschickt werden.
 
