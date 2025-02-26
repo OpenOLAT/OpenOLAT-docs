@@ -259,6 +259,7 @@ plugins:
           Decisions : Entscheide
           Deep Linking : Deep Linking
           Delete : Löschen
+          Delete user : Benutzer:in löschen
           Deleting, Moving and Copying Course Elements : Löschen, Verschieben und Kopieren von Kursbausteinen
           Design : Design
           Design possibilities of courses and course elements : Gestalterische Möglichkeiten von Kursen und Kursbausteinen
@@ -563,6 +564,7 @@ plugins:
           Wiki : Wiki
           Working Processes : Allgemeine Arbeitsweisen
           Working With Course Elements : Arbeiten mit Kursbausteinen
+          Working with media files : Arbeiten mit Mediendateien
           Working with tables : Mit Tabellen arbeiten
           Zoom : Zoom
           Zoom - Frequently asked questions : Zoom - Häufig gestellte Fragen
