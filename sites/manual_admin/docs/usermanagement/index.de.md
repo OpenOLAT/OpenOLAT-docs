@@ -12,17 +12,17 @@ Sie haben das Recht ...
   * neue Benutzerkonten zu erstellen<br>
   [Zu den Details >](Create_User.de.md)
 
+  * neue Benutzer:innen zu importieren<br>
+  [Zu den Details >](Search_Users.de.md)
+
   * Benutzer:innen unterschiedliche Rollen zuzuweisen<br>
   [Zu den Details >](Assign_roles.de.md)
 
   * Benutzerkonten zu konfigurieren<br>
   [Zu den Details >](Configure_User.de.md)
 
-  * neue Benutzer:innen zu importieren<br>
-  [Zu den Details >](Search_Users.de.md)
-
   * Benutzerkonten zu löschen (nur Administrator:innen)<br>
-  [Zu den Details >](Search_Users.de.md)
+  [Zu den Details >](Delete_User.de.md)
 
   * Benutzerdaten gemäss dem Datenschutz zu löschen oder zu exportieren<br>
   [Zu den Details >](Data_protection.de.md)

@@ -12,17 +12,17 @@ They have the right to...
   * create new user accounts<br>
   [See details >](Create_User.md)
 
+  * import new users<br>
+  [See details >](Search_Users.md)
+
   * assign different roles to users<br>
   [See details >](Assign_roles.md)
 
   * configure user accounts<br>
   [See details >](Configure_User.md)
 
-  * import new users<br>
-  [See details >](Search_Users.md)
-
   * delete user accounts (administrators only)<br>
-  [See details >](Search_Users.md)
+  [See details >](Delete_User.md)
 
   * delete or export user data in accordance with data protection regulations<br>
   [See details >](Data_protection.md)
