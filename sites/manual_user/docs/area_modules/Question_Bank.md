@@ -1,12 +1,24 @@
-# Question Bank
+# Question Bank: Overview {: #question_bank}
 
 ![](assets/repository.png)
 
-A question bank is a database of individual test questions resp. items, usually in the QTI technical format, including all relevant information and metadata. The question bank is your personal collection of questions available for further use. The main activities in the question pool are the administration, [search](../basic_concepts/Search_General.md) and publication of test questions, as well as the compilation of questions for test creation.
+The collaborative question bank in OpenOlat allows authors to create, save, edit and reuse test questions as independent items in a catalog-like structure.
+
+It is a **collection (database)** of many individual test questions, usually in QTI format, including all associated information and metadata.
+
+The questions can be shared with other people who also have access to the pool.
+
+The **goal** is the **reuse** of questions that have already been created. Be it in tests, as a quiz question in an interactive video or in a course element of the "Page" type. By yourself or (if approved) by other authors.
+
+**Users with **author rights** and administrative roles have access** to a question bank. The question bank is displayed to these users in the header of the main navigation bar.
+
+![question_bank_navigation1_v1_de.png](assets/question_bank_navigation1_v1_de.png){ class="shadow lightbox" }
+
 
 !!! note "Quick Links"
 
     * [Data Management](Data_Management.md)
+    * [Import questions](Question_Pool_Import_Questions.md)
     * [Item Detailed View](Item_Detailed_View.md)
     * [Question bank possible operations](Question_bank_possible_operations.md)
     * [Search](../basic_concepts/Search_General.md)

@@ -12,11 +12,11 @@ In der Regel ist dies nur der Fall, wenn die gewählte Standardfarbe bereits ein
 
 ## Empfehlungen
 
-A) Wenn die „Corporate Color“ über einen tiefen Kontrastwert verfügt, so sollte diese nur in Layoutelementen wie dem Logo oder als Hintergrundfarbe in der Topnavigation präsent sein und nicht als Linkfarbe verwendet werden. Als Linkfarbe könnte verwendet werden: 
+A) Wenn die "Corporate Color" über einen tiefen Kontrastwert verfügt, so sollte diese nur in Layoutelementen wie dem Logo oder als Hintergrundfarbe in der Topnavigation präsent sein und nicht als Linkfarbe verwendet werden. Als Linkfarbe könnte verwendet werden: 
 
 - eine kontrastreiche Variante der Hauptfarbe 
 - eine Komplementärfarbe, welche mit der Hauptfarbe harmoniert
-- eine sekundäre „Corporate Color“ 
+- eine sekundäre "Corporate Color"
 
 B) Ist keine alternative Farbe für die Links möglich, so kann die die automatische Kontrastanpassung deaktiviert und wieder die kontrastschwache Hauptfarbe verwendet werden. Wir weisen darauf hin, dass damit keine WCAG AA Konformität erreicht werden kann. 
 
