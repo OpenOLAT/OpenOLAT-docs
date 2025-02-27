@@ -24,6 +24,7 @@ nav:
     - Group Scenarios: "purpose_of_groups/purpose_of_groups.md"
   - Attend Participants:
     - Bulk assessment: "bulk_assessment/bulk_assessment.md"
+    - Information on learning progress: "progress_information/progress_information.md"
   - Tests and Assessments:
     - How do I proceed when I create a test?: "test_creation_procedure/test_creation_procedure.md"
     - How do I assess a test?: "assessing_tests/assessing_tests.md"

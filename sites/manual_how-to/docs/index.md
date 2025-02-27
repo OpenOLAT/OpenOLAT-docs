@@ -31,6 +31,7 @@
 ## Attend Participants
 
 1. [How and where can I do a bulk assessment?](/manual_how-to/bulk_assessment/bulk_assessment)
+2. [How can coaches be informed about the learning progress of course participants?](/manual_how-to/progress_information/progress_information)
 
 ## Tests and Assessments
 

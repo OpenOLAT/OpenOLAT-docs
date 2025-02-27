@@ -275,8 +275,8 @@ Mit Hilfe des E-Mail-Textes, der nach Bedarf angepasst werden kann, erstellen Si
 * **$courseReference**: Der Text, der in den Kurseinstellungen im Tab "Info" unter "Kennzeichen" eingegeben wurde.
 * **$courseRequirements**: Der Text, der in den Kurseinstellungen im Tab "Info" unter "Voraussetzungen" eingegeben wurde.
 * **$courseTeaser**: Der Teaser-Text, der in den Kurseinstellungen im Tab "Info" eingegeben wurde.
-* **$recipientFirstName**: 
-* **$recipientLastName**:
+* **$recipientFirstName**: siehe [Beispiel](../../manual_how-to/progress_information/progress_information.de.md#by_reminders)  
+* **$recipientLastName**: siehe [Beispiel](../../manual_how-to/progress_information/progress_information.de.md#by_reminders) 
 
 
 Hier ein Beispiel:

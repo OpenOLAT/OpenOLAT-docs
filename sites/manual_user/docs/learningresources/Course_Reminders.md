@@ -262,8 +262,8 @@ This option only affects course elements of the type "Form".
 * **$courseReference**: The text that was entered in the course settings in the "Info" tab under "Indicator".
 * **$courseRequirements**: The text that was entered in the course settings in the "Info" tab under "Requirements".
 * **$courseTeaser**: The teaser text entered in the “Info” tab of the course settings.
-* **$recipientFirstName**: 
-* **$recipientLastName**:
+* **$recipientFirstName**: see [example](../../manual_how-to/progress_information/progress_information.md#by_reminders)  
+* **$recipientLastName**: see [example](../../manual_how-to/progress_information/progress_information.md#by_reminders) 
 
 Here is an example:
 

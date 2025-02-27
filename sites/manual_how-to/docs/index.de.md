@@ -31,6 +31,7 @@
 ## Teilnehmer betreuen
 
 1. [Wie und wo kann ich eine Massenbewertung vornehmen?](/de/manual_how-to/bulk_assessment/bulk_assessment)
+2. [Wie können Betreuer:innen über den Lernfortschritt der Kursteilnehmer:innen informiert werden?](/de/manual_how-to/progress_information/progress_information)
 
 ## Tests und Prüfungen
 
