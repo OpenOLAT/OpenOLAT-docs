@@ -7,16 +7,16 @@ In OpenOlat verwendete Mediendateien werden in der Regel direkt am Ort der Verwe
 
 An verschiedenen Stellen in OpenOlat gibt es Ordner, in denen auch Mediendateien abgelegt sind. In diesen Ordnern können die Dateien als Ganzes ausgetauscht werden. (Das ist dort möglich, weil sie nicht mit zusätzlichen Metadaten versehen sind.)
 
-Beispiele:
+**Beispiele:**
 
-* Ablageordner eines Kurses
-* Gruppenordner
+* [Ablageordner eines Kurses >](../basic_concepts/Folder_Concept.de.md#storage_folder)
+* [Gruppenordner >](../basic_concepts/Folder_Concept.de.md#group_folder)
 
 
 
-## Lerninhalte im Content Creator
+## Lerninhalte im Content Editor
 
-Mediendateien, die mit dem Content Creator eingebunden werden, sind im Media Center abgelegt.
+Mediendateien, die mit dem [Content Editor](../basic_concepts/Content_Editor.de.md)eingebunden werden, sind im [Media Center](../basic_concepts/Media_Center_Concept.de.md) abgelegt.
 
 **Vorteile:**
 
@@ -31,7 +31,7 @@ Bei Lernressourcen im Autorenbereich, die Mediendateien enthalten, sind diese Me
 
 **Beispiele:**
 
-* Blog
-* Wiki
-* Test
+* [Blog >](../learningresources/Blog.de.md)
+* [Wiki >](../learningresources/Wiki.de.md)
+* [Test >](../learningresources/Test.de.md)
 
