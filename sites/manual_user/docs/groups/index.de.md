@@ -5,6 +5,7 @@
 !!! note "Quick Links"
 
     * [Gruppen erstellen](Create_Groups.de.md)
+    * [Gruppenmitglied werden](Group_Membership.de.md)
     * [Gruppenwerkzeuge nutzen](Using_Group_Tools.de.md)
     * [Gruppenadministration](Group_Administration.de.md)
     * [LTI Freigabe konfigurieren](LTI_Share_groups.de.md)

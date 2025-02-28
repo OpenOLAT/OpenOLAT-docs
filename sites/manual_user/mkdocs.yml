@@ -337,6 +337,7 @@ nav:
   - Groups:
     - groups/index.md
     - Create Groups: "groups/Create_Groups.md"
+    - Become a group member: "groups/Group_Membership.md"
     - Using Group Tools: "groups/Using_Group_Tools.md"
     - Administration: 
       - Group Administration: "groups/Group_Administration.md"

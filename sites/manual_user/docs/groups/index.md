@@ -3,6 +3,7 @@
 !!! note "Quick Links"
 
     * [Create Groups](Create_Groups.md)
+    * [Become a group member](Group_Membership.md)
     * [Group Administration](Group_Administration.md)
     * [Using Group Tools](Using_Group_Tools.md)
     * [LTI Sharing](LTI_Share_groups.md)
