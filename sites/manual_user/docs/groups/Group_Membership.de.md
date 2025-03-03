@@ -12,7 +12,7 @@ Auf welche Art Sie Gruppenmitglied werden können, hängt davon ab, um welche Gr
 ---
 
 
-## Durch Andere zum Gruppenmitglied werden
+## Durch andere zum Gruppenmitglied werden {: #by_others}
 
 ### Wer kann jemand zum Gruppenmitglied machen? 
  
@@ -75,7 +75,7 @@ Die Gruppenmitgliedschaft so gleichzeitig mehrfach hinzugefügter Mitglieder mus
 ---
 
 
-### Gruppenmitgliedschaft in der Benutzerverwaltung hinzufügen
+### Gruppenmitgliedschaft in der Benutzerverwaltung hinzufügen {: #add_groupmembers_in usermanagement}
 
 Haben Sie die Berechtigung zur Benutzerverwaltung, können Sie auch dort in einem Tab die vorhandenen Gruppenmitgliedschaften einsehen und neue hinzufügen. 
 
@@ -87,7 +87,7 @@ Haben Sie die Berechtigung zur Benutzerverwaltung, können Sie auch dort in eine
 ---
 
 
-## Automatisch erstellte Gruppenmitgliedschaften
+## Automatisch erstellte Gruppenmitgliedschaften {: #add_groupmembers_automatically}
 
 Werden in einem anderen System (z.B. einer HR-Software) bereits bestimmte Personen in Gruppen zusammengefasst, können diese Gruppenmitgliedschaften auch in OpenOlat abgebildet werden. Dazu benötigt es allerdings eine Middleware (Syncher), die dann automatisiert Benutzer:innen bestimmten OpenOlat-Gruppen zuordnen kann.
 
@@ -98,16 +98,10 @@ Bei Fragen zu automatisch zugewiesener Gruppenmitgliedschaft wenden Sie sich bit
 ---
 
 
-## Sich selbst als Gruppenmitglied eintragen
+## Sich selbst als Gruppenmitglied eintragen {: #by_yourself}
 
 
-!!! warning "Attention"
-
-    This article is still under construction.
-
-
-
-### Gruppen im Kursbaustein "Einschreibung"
+### Gruppen im Kursbaustein "Einschreibung" {: #add_groupmembership_in_course_element_enrolment}
 
 Wird von Autor:innen der [Kursbaustein "Einschreibung" ](../learningresources/Course_Element_Enrolment.de.md) verwendet, können dort Lerngruppen angelegt werden, die zunächst noch ohne Teilnehmer:innen sind. Diese können sich dann bei aktivem Kurs selbst in eine (oder mehrere) der angebotenen Gruppen als Mitglied eintragen.
 
@@ -118,23 +112,23 @@ Wird von Autor:innen der [Kursbaustein "Einschreibung" ](../learningresources/Co
 ---
 
 
-### Angebot
+### Angebot {: #offer}
 
+**Angebote erstellen**<br>
 Gruppen werden in mancher Hinsicht wie Lernressourcen behandelt. Auch für Gruppen kann ein Angebot erstellt werden unter **Gruppe > Administration > Tab Freigabe**.
+Der Beitritt zu einer Gruppe kann mit Zugangscode oder "Frei verfügbar" angeboten werden.
 
-Zugangscode oder Frei verfügbar
+**Wo finden Benutzer:innen Angebote für Gruppen?**<br>
+Gruppen mit Angeboten finden Benutzer:innen unter **“Veröffentlichte Gruppen”**. Mit Klick auf **“Beitreten”** kann ein Angebot gebucht werden und man wird zum Gruppenmitglied.
 
-Wo finden TN Angebote für Gruppen?
-
-Angebote für Gruppen nutzen
-
+![group_membership_offer_v1_de.png](assets/group_membership_offer_v1_de.png){ class="shadow lightbox" }
 
 
 [Zum Seitenanfang ^](#group_membership)
 
 ---
 
-### Überbuchung
+### Überbuchung {: #overbooking}
 
 Wurde die Gruppengrösse begrenzt, können Teilnehmer:innen, die sich in eine Gruppe eintragen wollen, in der schon alle Plätze besetzt sind, auf eine Warteliste genommen werden. (Siehe [Gruppen erstellen >](Create_Groups.de.md#vorgesehene-anzahl-teilnehmende))
 
@@ -148,8 +142,20 @@ Bei Überbuchung erscheinen entsprechende Hinweise, z.B.:
 
 ---
 
+### Eintragung in der Gruppenadministration
 
-## Selbst eine neue Gruppe gründen
+Mit entsprechenden Rechten (z.B. Administrator:in) kann kann man sich natürlich auch immer selbst als Teilnehmer:in in eine Gruppe einfügen.
+
+Das Vorgehen ist das gleiche, wie oben beschrieben. [("Wie können Gruppenbetreuer:innen jemand zum Gruppenmitglied machen?"](##add_groupmember), Schritt 3)<br>
+**Gruppe wählen > Administration > Tab Mitglieder > Button "Mitglied hinzufügen"**
+
+
+[Zum Seitenanfang ^](#group_membership)
+
+---
+
+
+## Selbst eine neue Gruppe gründen {: #found_a_group}
 
 ### Wer kann selbst eine Gruppe erstellen?
 
@@ -174,12 +180,12 @@ Wird eine Gruppe durch Sie erstellt, werden Sie automatisch Gruppenbetreuer:in. 
 ---
 
 
-## Weitere Informationen
+## Weitere Informationen {: #further_information}
 
 [Gruppe erstellen >](Create_Groups.de.md)<br>
 [Gruppenwerkzeuge nutzen >](Using_Group_Tools.de.md)<br>
 [Gruppe verlassen > ](Leave_a_Group.de.md)<br>
 [LTI-Zugang zu einer Gruppe konfigurieren > ](LTI_Share_groups.de.md)<br>
-[Für Administrator:innen: Systemweite Konfiguration der Gruppen >](../../manual_admin/administration/Modules.de.md)<br>
+Für Administrator:innen: [Systemweite Konfiguration der Gruppen >](../../manual_admin/administration/Modules.de.md)<br>
 
 [Zum Seitenanfang ^](#group_membership)
