@@ -464,11 +464,23 @@ If your editing was not sufficient and the coach requests a revision, a correspo
 [To the top of the page ^](#course_element_task)
 
 
+### Carry out a peer review {: #process_task_make_reviews}
+
+If a peer review was planned for the task, you will now be assigned review tasks. You are to assess the documents submitted by other course members. The documents you are to review can be assigned to you automatically or manually by coaches. 
+
+![course_element_task_participant_peer1_v1_de.png](assets/course_element_task_participant_peer1_v1_de.png){ class="shadow lightbox" }
+
+Once you have completed all the reviews, finalise this step by clicking on the ‘Complete reviews’ button.
+
+[Up (Participant perspective) ^](#process_task)<br>
+[To the top of the page ^](#course_element_task)
+
+
 ### View results of a peer review {: #process_task_view_reviews}
 
 If a peer review has been scheduled, you will see an overview of the assessments you have given and received.
 
-![course_element_task_participant_peer1_v1_de.png](assets/course_element_task_participant_peer1_v1_de.png){ class="shadow lightbox" }
+![course_element_task_participant_peer2_v1_de.png](assets/course_element_task_participant_peer2_v1_de.png){ class="shadow lightbox" }
 
 [Up (Participant perspective) ^](#process_task)<br>
 [To the top of the page ^](#course_element_task)

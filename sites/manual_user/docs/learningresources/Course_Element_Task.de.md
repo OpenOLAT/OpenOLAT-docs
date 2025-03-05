@@ -415,6 +415,7 @@ Alle Schritte einer Aufgabe (Workflow) zeigen sich für Kursteilnehmer:innen dir
     * [Von wem werde ich betreut?](#process_task_my_coach)
     * [Lösung abgeben](#process_task_solution)
     * [Rückgabe und Feedback](#process_task_feedback)
+    * [Peer-Reviews durchführen](#process_task_make_reviews)
     * [Ergebnisse des Peer-Reviews ansehen](#process_task_view_reviews)
     * [Aufgabe überarbeiten](#process_task_rework)
     * [Musterlösung betrachten](#process_task_view_example)
@@ -487,11 +488,23 @@ Wenn Ihre Bearbeitung nicht ausreichend war und der Betreuer eine Überarbeitung
 [zum Seitenanfang ^](#course_element_task)
 
 
+### Peer-Review durchführen {: #process_task_make_reviews}
+
+Wurde ein Peer-Review für die Aufgabe vorgesehen, erhalten Sie nun Review-Aufgaben zugewiesen. Sie sollen die abgegebenen Dokumente anderer Kursmitglieder beurteilen. Wessen Dokumente Sie reviewen sollen, kann Ihnen automatisch oder manuell durch Betreuer:innen zugeteilt werden. 
+
+![course_element_task_participant_peer1_v1_de.png](assets/course_element_task_participant_peer1_v1_de.png){ class="shadow lightbox" }
+
+Wenn Sie alle Reviews durchgeführt haben, schliessen Sie diesen Arbeitsschritt ab durch Klick auf den Button "Reviews abschliessen".
+
+[nach oben (Perspektive Kursteilnehmer:in) ^](#process_task)<br>
+[zum Seitenanfang ^](#course_element_task)
+
+
 ### Ergebnisse des Peer-Reviews ansehen {: #process_task_view_reviews}
 
 Wurde ein Peer-Review vorgesehen, sehen Sie eine Übersicht über Ihre vergebenen und erhaltenen Beurteilungen.
 
-![course_element_task_participant_peer1_v1_de.png](assets/course_element_task_participant_peer1_v1_de.png){ class="shadow lightbox" }
+![course_element_task_participant_peer2_v1_de.png](assets/course_element_task_participant_peer2_v1_de.png){ class="shadow lightbox" }
 
 [nach oben (Perspektive Kursteilnehmer:in) ^](#process_task)<br>
 [zum Seitenanfang ^](#course_element_task)
