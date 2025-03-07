@@ -17,7 +17,7 @@ Verschiedene **Erweiterungen im Peer-Review-Prozess** am Kursbaustein "Aufgabe" 
 
 Neu kann für die Vergabe von **OpenBadges** im Lernpfad auch das **Erledigungskriterium** von Kursbausteinen als Bedingung herangezogen werden. Der verbesserte Wizard führt Autoren bequem von der Erstellung bis zur finalen Konfiguration der Badges.
 
-Insgesamt wurde ein starker Fokus auf **Security** sowie **verbesserte Accessibilty** gelegt, zahlreiche Anpassungen im Bereich von **"UX und Usability"** und Optimierungen, wie beispielsweise für File Hub, Media Center und Projekt-Tool, runden diesen Release ab.
+Insgesamt wurde ein starker Fokus auf **Security** sowie **verbesserte Accessibility** gelegt, zahlreiche Anpassungen im Bereich von **"UX und Usability"** und Optimierungen, wie beispielsweise für File Hub, Media Center und Projekt-Tool, runden diesen Release ab.
 
 ![Anzahl Features und Bugs in Release 19.1](assets/191/Features_Improvements_Labels_19.1_DE.png)
 
@@ -117,7 +117,7 @@ Der Bereich zur Aktivierung von "Änderungen (Ein / Aus)" bei abonnierbaren Baus
 
 * * *
 
-## Accessibilty
+## Accessibility
 
 * Optimierte Navigation in der Seitenleiste für Screenreader
 * Ergänzung von Text für Screenreader zur Kennzeichnung aktiver Elemente
