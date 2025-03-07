@@ -339,6 +339,7 @@ nav:
     - Create Groups: "groups/Create_Groups.md"
     - Become a group member: "groups/Group_Membership.md"
     - Using Group Tools: "groups/Using_Group_Tools.md"
+    - Leave a group: "groups/Leave_a_Group.md"
     - Administration: 
       - Group Administration: "groups/Group_Administration.md"
       - LTI access: "groups/LTI_Share_groups.md"
