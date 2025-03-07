@@ -17,7 +17,7 @@ Various **extensions in the peer review process** in the "Task" course element s
 
 From now on, the **completion criterion** of course elements can also be used as a condition for the allocation of **OpenBadges** in the learning path. The improved wizard guides authors conveniently from the creation to the final configuration of the badges.
 
-Overall, a strong focus was placed on **security** and **improved accessibility**, numerous adjustments in the area of **"UX and usability ”** and optimizations, such as for File Hub, Media Center and Project Tool, complete this release.
+Overall, a strong focus was placed on **security** and **improved accessibility**, numerous adjustments in the area of **"UX and usability"** and optimizations, such as for File Hub, Media Center and Project Tool, complete this release.
 
 ![Number of features and bugs in release 19.1](assets/191/Features_Improvements_Labels_19.1_EN.png)
 
@@ -117,7 +117,7 @@ The section for activating "Modifications (On / Off)" for subscribable course el
 
 * * *
 
-## Accessibilty
+## Accessibility
 
 * Optimized navigation in the sidebar for screen readers
 * Addition of text for screen readers to mark active elements
