@@ -98,7 +98,14 @@ Specific Quotas | Scope
 
 In the "**Large Files**" tab, administrators can search specifically for large files and view more details about them.
 
-The **"Clean up metadata"** button is used to compare the file system with the image stored in the OpenOlat database. If there are any discrepancies, the image in the database is updated.
+The **"Clean up metadata"** button is used to compare the file system with the image stored in the OpenOlat database. If there are any discrepancies, the image in the database is updated.<br>
+The preview images are also updated in this context:
+
+* If preview images could not be generated (usually for technical reasons), their status is reset. (From version 19.1)
+* No **existing** preview images are deleted or regenerated.
+* For files with a **missing** preview image, the system attempts to recreate the preview image. (Depending on the file type, the attempt may not be successful.)
+* The preview image is created when the folder in question is opened. This means that it may take a moment for the preview image to appear.
+
 
 ![core_config_files_and_folders_tab_large_files_screen_v1_en.png](assets/core_config_files_and_folders_tab_large_files_screen_v1_en.png){ class="shadow lightbox" }
 

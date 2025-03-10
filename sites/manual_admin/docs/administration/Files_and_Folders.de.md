@@ -97,9 +97,16 @@ Spezifische Quotas | Anwendungsbereich
 
 ![core_config_files_and_folders_tab_large_files_v1_de.png](assets/core_config_files_and_folders_tab_large_files_v1_de.png){ class="shadow lightbox" }
 
-Im Tab "**Grosse Dateien**" können Administratoren gezielt nach grossen Dateien suchen und sich weitere Details zu diesen Dateien anzeigen lassen.
+Im Tab "**Grosse Dateien**" können Administrator:innen gezielt nach grossen Dateien suchen und sich weitere Details zu diesen Dateien anzeigen lassen.
 
-Mit dem **Button "Metadaten aufräumen"** wird ein Abgleich zwischen dem File-System und dem in der OpenOlat-Datenbank gespeicherten Abbild vorgenommen. Sollten Unstimmigkeiten vorliegen, wird das Abbild in der Datenbank aktualisiert.
+Mit dem **Button "Metadaten aufräumen"** wird ein Abgleich zwischen dem File-System und dem in der OpenOlat-Datenbank gespeicherten Abbild vorgenommen. Sollten Unstimmigkeiten vorliegen, wird das Abbild in der Datenbank aktualisiert.<br>
+In diesem Zusammenhang werden auch die Vorschaubilder aktualisiert:
+
+* Konnten Vorschaubilder nicht generiert werden (normalerweise aus technischen Gründen), wird ihr Status zurückgesetzt. (Ab Version 19.1)
+* Es werden keine **bestehenden** Vorschaubilder gelöscht oder neu generiert.
+* Für Dateien mit **fehlendem** Vorschaubild, versucht das System das Vorschaubild neu zu erstellen. (Je nach Dateityp kann es sein, dass der Versuch nicht erfolgreich ist.)
+* Erstellt wird das Vorschaubild dann, wenn der betreffende Ordner geöffnet wird. Das bedeutet, dass es jeweils einen Moment dauern kann, bis das Vorschaubild erscheint.
+
 
 ![core_config_files_and_folders_tab_large_files_screen_v1_de.png](assets/core_config_files_and_folders_tab_large_files_screen_v1_de.png){ class="shadow lightbox" }
 
