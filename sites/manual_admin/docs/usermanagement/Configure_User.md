@@ -5,7 +5,7 @@ If you have the right to manage users, you can search for a specific person usin
 A maximum of the tabs listed below are available for configuration for each user (administrator). Depending on the roles and activated modules, there may be fewer tabs.
 
 
-![configure_user_v1_de.png](assets/configure_user_v1_de.png){ class="shadow lightbox"}
+![configure_user_v2_en.png](assets/configure_user_v2_en.png){ class="shadow lightbox"}
 
 
 
@@ -38,7 +38,7 @@ The roles of the user are defined in this tab. If the Organizational units modul
 [To the top of the page ^](#user_configuration)
 
 
-### Change password
+### Password
 
 Here a new password can be set directly for the user or a password link can
 be generated, which is then sent to the user by mail, so that he can set a new
@@ -48,7 +48,7 @@ only displayed if the user is allowed to change the password.
 [To the top of the page ^](#user_configuration)
 
 
-### Authentifications
+### Authentications
 
 Here you can change the username and edit and delete authentications.  
   
@@ -61,7 +61,7 @@ User Properties can be displayed and exported as a table.
 
 [To the top of the page ^](#user_configuration)
 
-### GUI Settings
+### GUI preferences
 
 The GUI settings saved for the user(s) can be reset here.
 
@@ -83,6 +83,13 @@ This tab generates an overview with all learning resources of the user. User adm
 [To the top of the page ^](#user_configuration)
 
 
+### Projects
+
+All projects in which this user is a member are listed under this tab. 
+
+[To the top of the page ^](#user_configuration)
+
+
 ### Portfolio
 
 All portfolio folders to which the user is invited are displayed here. (This user's own portfolios are not listed here).
@@ -90,7 +97,7 @@ All portfolio folders to which the user is invited are displayed here. (This use
 [To the top of the page ^](#user_configuration)
 
 
-### Booking
+### Bookings
 
 The bookings of the user are displayed here.  
 
@@ -108,7 +115,7 @@ This tab displays all the badges you have purchased.
 
 [To the top of the page ^](#user_configuration)
   
-### Disadvantage compensation
+### Compensation for disadvantages
 
 Disadvantage compensation entitles test takers to use more time for a test due to a restriction. Disadvantage compensation can be added and configured under this tab.
 

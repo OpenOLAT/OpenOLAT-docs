@@ -4,7 +4,7 @@ Wer das Recht zur Benutzerverwaltung besitzt, kann über die Benutzersuche eine 
 
 Zu jedem/jeder Benutzer:in stehen maximal die im Folgenden aufgeführten Reiter für die Konfiguration zur Verfügung (Administrator:innen). Je nach Rollen und aktivierten Modulen sind es evtl. weniger Reiter.
 
-![configure_user_v1_de.png](assets/configure_user_v1_de.png){ class="shadow lightbox"}
+![configure_user_v2_de.png](assets/configure_user_v2_de.png){ class="shadow lightbox"}
 
 
 
@@ -78,6 +78,13 @@ Es wird eine Übersicht über alle Gruppen angezeigt, bei denen der/die Benutzer
 
 Dieser Reiter generiert eine Übersicht mit allen Kursen und Lernressourcen des Users/der Userin.
 Benutzerverwalter:innen und Administrator:innen können die User:innen aus den jeweiligen Lernressourcen austragen, sowie die jeweiligen Lernressourcen aufrufen. Umgekehrt kann der/die User:in als Besitzer:in, Betreuer:in oder Teilnehmer:in in weitere OpenOlat-Kurse eingetragen werden.  
+
+[zum Seitenanfang ^](#user_configuration)
+
+
+### Projekte
+
+Unter diesem Tab werden alle Projekte aufgelistet, in denen dieser/diese Benutzer:in Mitglied ist. 
 
 [zum Seitenanfang ^](#user_configuration)
 
