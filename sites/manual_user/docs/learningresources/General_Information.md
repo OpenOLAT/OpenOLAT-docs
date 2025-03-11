@@ -1,12 +1,12 @@
-# General Information
+# General Information {: #general_information}
 
 OpenOlat courses enable the mapping of various event formats e.g. lectures, seminars, online tutorials or group puzzles, as well as the implementation of different types of learning, e.g. problem-based learning, cooperative learning, self-organized learning etc. A maximum of flexibility is guaranteed by using any number of [course elements](Course_Elements.md) in any order of your choice; therefore it is easy to realize your didactic concept.
 
 Apply for author rights at your OpenOlat support center or the administrators of your OpenOlat instance and get started!
 
-## The course cycle at a glance
+## The course cycle at a glance {: #course_lifecycle}
 
-### 1. Create course
+### 1. Create course {: #stage1}
 
 Creating a Learning Resource Course in the Authoring Area and choosing the course type "Learning path" or "Conventional course".
 
@@ -17,7 +17,7 @@ Creating a Learning Resource Course in the Authoring Area and choosing the cours
 	  * [My first course](../../manual_how-to/my_first_course/my_first_course.md)
 	  * [Creating learning path courses](Creating_learning_path_courses.md)
 
-### 2. Set up, design, publish course
+### 2. Set up, design, publish course {: #stage2}
 
 You implement your course in the course editor by selecting suitable course elements, creating learning resources if necessary, and configuring everything as desired.
 
@@ -31,7 +31,7 @@ You implement your course in the course editor by selecting suitable course elem
 	  * [General Configuration of Course Elements](General_Configuration_of_Course_Elements.md)
 	  * [Course Settings](Course_Settings.md)
 
-### 3. Set up access
+### 3. Set up access {: #stage3}
 
 In the administration menu "Settings" the necessary settings for the access are made. The "Share" tab is particularly important here.
 
@@ -41,7 +41,7 @@ In the administration menu "Settings" the necessary settings for the access are 
 	  * [Access configuration](Access_configuration.md)
 	  * [Course Settings](Course_Settings.md)
   
-### 4. Publish course status
+### 4. Publish course status {: #stage4}
 
 In the course toolbar set the status to "Published" in order for students to see the course.
 
@@ -50,7 +50,7 @@ In the course toolbar set the status to "Published" in order for students to see
 !!! info "Further Information"
 	  * [Access configuration](Access_configuration.md)  
   
-### 5. Execute course and evaluate assessment modules
+### 5. Execute course and evaluate assessment modules {: #stage5}
 
 Now especially the assessment tool is needed and further actions are carried out directly in the course, e.g. forums are supervised, absences are organised etc.
 
@@ -59,7 +59,7 @@ Now especially the assessment tool is needed and further actions are carried out
 !!! info "Further Information"
 	  * [Course Operation](../learningresources/Administration.md)
 
-### 6. End course {: #end_course}
+### 6. End course {: #stage6}
 
 If the course has expired, the status is set to "finished".
 
@@ -68,7 +68,7 @@ If the course has expired, the status is set to "finished".
 !!! info "Further Information"
 	  * [Access configuration](Access_configuration.md)  
 
-### 7. Delete course
+### 7. Delete course {: #stage7}
 
 The deletion ("Delete") of the course is done via the appropriate menu in the course administration. Deleted courses can be shown or hidden in the authoring area via the filter option in the life cycle or specifically displayed in the "Deleted" tab.
 
@@ -88,9 +88,12 @@ The deletion ("Delete") of the course is done via the appropriate menu in the co
 	After the decision, choose the optimal and most effective course elements and try to bundle things that belong together in a meaningful way to achieve optimal usability. When the structure is clear, prepare the learning content, additional files ([HTML pages, PDF files, CPs](../learningresources/index.md), etc.) and everything you need for use in the learning platform.
 
 
+[To the top of the page ^](#general_information)
+
 ---
 
-## Role change
+## Role change {: #role_change}
+
 The toolbar shows you in which role you are currently viewing the course. As author of a course, this will be as a rule the "owner" role. However, you can switch to the participant role at any time via the drop-down menu. 
 
 ![Rollenwechsel](assets/Besitzer_TN.jpg)
@@ -101,6 +104,14 @@ There is no further distinction between coaches and group coaches or participant
 ßß
 The role change is useful if you want to look at the course from the respective perspective, e.g. as the course owner you want to take on the role of the participant. It is also possible to view the flow of the course elements task, group task, checklist or the participant folder from the participant's point of view.
 
+
+### Initial role when opening a course {: #initial_role}
+
+Users with administrative rights (such as administrator or learning resource manager) can open courses even though they are not a member of the course. This right corresponds to the role, but interferes if the user is explicitly supposed to be a participant in a course.
+
+Therefore: If a person with administrative rights is a participant in a course, the course is initially always opened in the “Participant” role. (However, the role can be changed as usual).
+
+This does not apply to course owners or coaches. For these roles, it makes sense to be in the “Course owner” or “Coach” role as soon as you enter the course. (You can then switch to participant view).
 
 
 <details>
@@ -124,3 +135,4 @@ The role change is useful if you want to look at the course from the respective 
 
 </details>
 
+[To the top of the page ^](#general_information)

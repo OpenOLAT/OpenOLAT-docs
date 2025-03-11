@@ -1,4 +1,4 @@
-# Allgemeines
+# Allgemeines {: #general_information}
 
 :octicons-device-camera-video-24: **Video-Einführung**: [OpenOlat Funktionsprinzipien](<https://www.youtube.com/embed/M-JkSAFN298>){:target="_blank”}
 
@@ -6,9 +6,9 @@ OpenOlat-Kurse ermöglichen das Abbilden von diversen Veranstaltungsformaten z.B
 
 Beantragen Sie bei Ihrer OpenOlat-Supportstelle bzw. den Administratoren Ihrer OpenOlat Instanz, Autorenrechte und legen Sie los!
 
-## Der Kurszyklus im Überblick
+## Der Kurszyklus im Überblick {: #course_lifecycle}
 
-### 1. Kurs anlegen
+### 1. Kurs anlegen {: #stage1}
 
 Lernressource Kurs im "Autorenbereich" erstellen und den gewünschten Kurstyp "Lernpfad" oder "herkömmlicher Kurs" wählen.
 
@@ -19,7 +19,7 @@ Lernressource Kurs im "Autorenbereich" erstellen und den gewünschten Kurstyp "L
 	  * [Mein erster Kurs](../../manual_how-to/my_first_course/my_first_course.de.md)
 	  * [Lernpfad Kurse erstellen](Creating_learning_path_courses.de.md)
 
-### 2. Kurs einrichten, gestalten, publizieren
+### 2. Kurs einrichten, gestalten, publizieren {: #stage2}
 
 Im Kurseditor setzen Sie dann Ihren Kurs um, indem Sie die für Sie passenden
 Kursbausteine auswählen, eventuell Lernressourcen erstellen und alles wie
@@ -35,7 +35,7 @@ gewünscht konfigurieren.
 	  * [Allgemeine Konfiguration von Kursbausteinen](General_Configuration_of_Course_Elements.de.md)
 	  * [Kurseinstellungen](Course_Settings.de.md)
 
-### 3. Zugang einrichten
+### 3. Zugang einrichten {: #stage3}
 
 Im Administrationsmenü "Einstellungen" werden die benötigten Einstellungen für den Zugang vorgenommen. Insbesondere der Tab "Freigabe" ist dabei wichtig.
 
@@ -45,7 +45,7 @@ Im Administrationsmenü "Einstellungen" werden die benötigten Einstellungen fü
 	  * [Zugangskonfiguration](Access_configuration.de.md)
 	  * [Kurseinstellungen](Course_Settings.de.md)
 
-### 4. Kurs Status veröffentlichen
+### 4. Kurs Status veröffentlichen {: #stage4}
 
 In der Kurs Toolbar den Status auf "Veröffentlicht" setzen, damit der Kurs
 auch für die Lernenden sichtbar wird.
@@ -55,7 +55,7 @@ auch für die Lernenden sichtbar wird.
 !!! info "Weitere Informationen"
 	  * [Zugangskonfiguration](Access_configuration.de.md)  
 
-### 5. Kurs durchführen und Assessmentbausteine bewerten
+### 5. Kurs durchführen und Assessmentbausteine bewerten {: #stage5}
 
 Nutzen Sie das Bewertungswerkzeug für Bewertung und Feedbacks. Posten Sie im
 Forum, organisieren Sie die Absenzen und nehmen Sie weitere betreuende
@@ -66,7 +66,7 @@ Handlungen vor.
 !!! info "Weitere Informationen"
 	  * [Kursbetrieb](../learningresources/Administration.de.md)
 
-### 6. Kurs beenden {: #end_course}
+### 6. Kurs beenden {: #stage6}
 
 Ist der Kurs abgelaufen, sollten Sie den Status auf "beendet" setzen.
 
@@ -75,7 +75,7 @@ Ist der Kurs abgelaufen, sollten Sie den Status auf "beendet" setzen.
 !!! info "Weitere Informationen"
 	  * [Zugangskonfiguration](Access_configuration.de.md)  
 
-### 7. Kurs löschen
+### 7. Kurs löschen {: #stage7}
 
 Das "Löschen" des Kurses erfolgt über das passende Menü in der Kurs
 Administration. Gelöschte Kurse können im Autorenbereich über die Filteroption
@@ -107,9 +107,12 @@ angezeigt werden.
 	klar ist, bereiten Sie die Lerninhalte, weitere Dateien ([HTML pages, PDF files, CPs](../learningresources/index.de.md), etc.) und alles, was Sie für den
 	Einsatz in der Lernplattform benötigen, vor.
 
+[Zum Seitenanfang ^](#general_information)
+
 ---
 
-## Rollenwechsel 
+## Rollenwechsel {: #role_change}
+
 In der Toolbar wird Ihnen angezeigt, in welcher Rolle Sie gerade den Kurs betrachten. Als Autor:in eines Kurses wird dies in der Regel die Rolle "Besitzer:in" sein. Sie können aber jederzeit über das Ausklappmenü in die Teilnehmendenrolle wechseln. 
 
 ![Rollenwechsel](assets/Besitzer_TN.jpg)
@@ -120,6 +123,15 @@ Bei den Rollen wird aber nicht zwischen Betreuer:innen und Gruppenbetreuer:innen
 
 Der Rollenwechsel bietet sich z.B. an, wenn man als Kursbesitzer:in die Teilnehmenden-Rolle einnehmen möchte. Auch kann man sich so den Flow der Kursbausteine Aufgabe, Gruppenaufgabe, Checkliste oder des Teilnehmer:innenordners aus der Teilnehmendensicht gut anschauen.
 
+
+
+### Initiale Rolle bei Kursaufruf {: #initial_role}
+
+Benutzer:innen mit administrativen Rechten (wie Administrator:in oder Lernressourcenmanager:in) können Kurse öffnen, obwohl sie kein Mitglied des Kurses sind. Dieses Recht entspricht der Rolle, stört aber, wenn der/die Benutzer:in explizit Teilnehmer:in in einem Kurs sein soll.
+
+Deshalb: Ist eine Person mit administrativen Rechten Teilnehmer:in in einem Kurs, wird der Kurs initial immer in der Rolle "Teilnehmer:in" geöffnet. (Die Rolle kann aber wie gewohnt gewechselt werden.)
+
+Dies gilt nicht für Kursbesitzer:innen oder Coaches. Denn für diese Rollen ist es sinnvoll, beim Betreten des Kurses sofort in der Rolle "Kursbesitzer:in" bzw. "Betreuer:in" zu sein. (Auf Teilnehmer:innenansicht kann dann umgestellt werden.)
 
 
 <details>
@@ -142,3 +154,5 @@ Der Rollenwechsel bietet sich z.B. an, wenn man als Kursbesitzer:in die Teilnehm
     - Trägt man sich aus der Gruppe wieder aus (und lädt den Kurs neu), so ist die Rolle "Teilnehmer:in" wieder weg und stattdessen die Teilnehmer:innenansicht wieder verfügbar.<br><br>
 
 </details>
+
+[Zum Seitenanfang ^](#general_information)
