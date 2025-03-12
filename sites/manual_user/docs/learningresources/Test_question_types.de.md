@@ -28,6 +28,11 @@ Die richtige Antwort können Sie bestimmen, indem Sie in der Spalte _Korrekt_ di
 
 Eine Multiple-Choice-Frage besteht aus einer Frage und mindestens zwei Antworten, wobei mehrere Antworten ausgewählt werden können. Im Test können mehrere Antworten richtig sein.
 
+![Beispiel Multiple Choice Frage](assets/Multiple_choice_Beispiel_DE.jpg)
+{ class=thumbnail-sm }
+
+
+**Tab "Auswahl**<br>
 Im Reiter "Auswahl" wird zuerst ein kurzer Titel und die Frage eingegeben.
 
 Anschliessend wird ausgewählt, ob die Reihenfolge der Antworten zufällig und die Ausrichtung der Antworten vertikal oder horizontal erscheinen soll und ob die Check-Boxen links oder rechts ausgerichtet sind.
@@ -36,10 +41,26 @@ Dann können Antworttexte eingefügt werden. Zusätzliche Antworten erstellen Si
 
 Die richtigen Antworten können Sie bestimmen, indem Sie in der Spalte _Korrekt_ die gewünschten Antworten markieren. Die Reihenfolge der Antworten können Sie mit den Pfeilen verändern.
 
+
+**Tab "Punkte**<br>
+Für MC-Fragen werden 3 Bewertungsmethoden  unterstützt:
+
+* **Alle korrekten Antworten**<br>
+Um die volle Punktzahl zu erhalten, müssen alle richtigen Antworten ausgewählt werden. Wenn eine oder mehrere richtige Antworten nicht ausgewählt werden oder eine oder mehrere falsche Antworten ausgewählt werden, wird die Endpunktzahl 0 sein.
+
+* **Punkte pro Antwort**<br>
+Positive und negative Punktevergabe sind für jede einzelne Antwortoption konfigurierbar.
+
+* **Teilpunkte**<br>
+Für jede richtig ausgewählte Antwort wird eine gewichtete Punktzahl addiert, während für jede falsch ausgewählte Antwort eine gewichtete Punktzahl abgezogen wird. Es wird die folgende Formel verwendet:<br>
+Punktzahl = maximale Punktzahl * (Anzahl der richtig markierten Antworten / Anzahl der richtigen Antworten) - maximale Punktzahl * (Anzahl der falsch markierten Antworten / Anzahl der falschen Antworten)
+
+<br>
+
+
+**Tab "Feedback"**<br>
 Ferner kann im Reiter "Feedback" neben der genauen Punktevergabe auch die Anzahl der Antwortmöglichkeiten des Users definiert werden.
 
-![Beispiel Multiple Choice Frage](assets/Multiple_choice_Beispiel_DE.jpg)
-{ class=thumbnail-sm }
 
 ---
 
@@ -71,6 +92,9 @@ Alle Antworten korrekt = 100% der Punktzahl
 
 Eine Matrix-Frage besteht aus mehreren Spalten und Zeilen, wobei die Antwort entweder als Single Choice oder als Multiple Choice pro Zeile ausgefüllt werden kann.
 
+![Beispiel Matrix Frage](assets/Matrix_Beispiel_DE.jpg){ class="shadow" }
+
+**Tab "Matrix"**<br>
 Wiederum werden zuerst der Titel und die Frage eingetragen.
 
 Anschliessend wird ausgewählt, ob die Reihenfolge der Antworten zufällig
@@ -78,8 +102,21 @@ erscheinen soll und ob die Antworten als Single oder Multiple Choice möglich si
 
 Dann können sowohl in den Kolonnen als auch in den Zeilen die gewünschten Werte eingetragen werden. Falls mehr Kolonnen oder Zeilen benötigt werden, können diese mit den entsprechenden Schaltflächen hinzugefügt werden. Zum Schluss müssen pro Zeile die korrekten Antworten ausgewählt werden. Bei Single Choice ist dies eine korrekte Antwort pro Zeile, bei Multiple Choice können dies mehrere korrekte Antworten pro Zeile sein.
 
-![Beispiel Matrix Frage](assets/Matrix_Beispiel_DE.jpg){ class="shadow" }
-  
+
+**Tab "Punkte**<br>
+Für MC-Fragen werden 3 Bewertungsmethoden  unterstützt:
+
+* **Alle korrekten Antworten**<br>
+Um die volle Punktzahl zu erhalten, müssen alle richtigen Antworten ausgewählt werden. Wenn eine oder mehrere richtige Antworten nicht ausgewählt werden oder eine oder mehrere falsche Antworten ausgewählt werden, wird die Endpunktzahl 0 sein.
+
+* **Punkte pro Antwort**<br>
+Positive und negative Punktevergabe sind für jede einzelne Antwortoption konfigurierbar.
+
+* **Teilpunkte**<br>
+Für jede richtig ausgewählte Antwort wird eine gewichtete Punktzahl addiert, während für jede falsch ausgewählte Antwort eine gewichtete Punktzahl abgezogen wird. Es wird die folgende Formel verwendet:<br>
+Punktzahl = maximale Punktzahl * (Anzahl der richtig markierten Antworten / Anzahl der richtigen Antworten) - maximale Punktzahl * (Anzahl der falsch markierten Antworten / Anzahl der falschen Antworten)
+
+
 ---
 
 ## Drag&Drop {: #drag_drop}
@@ -88,6 +125,9 @@ Dann können sowohl in den Kolonnen als auch in den Zeilen die gewünschten Wert
 
 Eine Drag&Drop-Frage verhält sich im Grunde gleich wie die Matrix Frage. Die Testteilnehmer müssen die Antworten jedoch nicht in Checkboxen ankreuzen, sondern können die Begriffe in die entsprechenden Kategorien verschieben.
 
+![Beispiel Drag und Drop Frage](assets/DragDrop_Beispiel_DE.png){ class="shadow" }
+
+**Tab "Drag and drop"**<br>
 Zuerst werden der Titel und die Frage eingetragen.
 
 Dann kann die Reihenfolge der Begriffe und Kategorien auf zufällig, ja oder nein gesetzt werden.
@@ -98,7 +138,20 @@ Bei der Ausrichtung der Antworten wird definiert, wo sich die zuzuordnenden Begr
 
 Dann werden in den Spalten Kategorien definiert. Kategorien sind die fixen Elemente, in welche die Begriffe gezogen werden. In den Zeilen werden Begriffe hinzugefügt. Die Begriffe können anschliessend mit Drag&Drop in die Kategorien gezogen werden.
 
-![Beispiel Drag und Drop Frage](assets/DragDrop_Beispiel_DE.png){ class="shadow" }
+
+**Tab "Punkte**<br>
+Für MC-Fragen werden 3 Bewertungsmethoden  unterstützt:
+
+* **Alle korrekten Antworten**<br>
+Um die volle Punktzahl zu erhalten, müssen alle richtigen Antworten ausgewählt werden. Wenn eine oder mehrere richtige Antworten nicht ausgewählt werden oder eine oder mehrere falsche Antworten ausgewählt werden, wird die Endpunktzahl 0 sein.
+
+* **Punkte pro Antwort**<br>
+Positive und negative Punktevergabe sind für jede einzelne Antwortoption konfigurierbar.
+
+* **Teilpunkte**<br>
+Für jede richtig ausgewählte Antwort wird eine gewichtete Punktzahl addiert, während für jede falsch ausgewählte Antwort eine gewichtete Punktzahl abgezogen wird. Es wird die folgende Formel verwendet:<br>
+Punktzahl = maximale Punktzahl * (Anzahl der richtig markierten Antworten / Anzahl der richtigen Antworten) - maximale Punktzahl * (Anzahl der falsch markierten Antworten / Anzahl der falschen Antworten)
+
 
 !!! info "Hinweis: Einschränkung auf Mobiles"
 

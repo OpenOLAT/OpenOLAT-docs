@@ -28,6 +28,10 @@ The correct answer can be selected in column _Correct Answer_. The order of the 
 
 A multiple-choice question comprises one question and at least two answers; several answers can be selected. In a test several answers can be correct.
 
+![Beispiel Multiple Choice Frage](assets/Multiple_choice_Beispiel_DE.jpg)
+{ class=thumbnail-sm }
+
+**Tab "Choice"**<br>
 First a short title and a question are inserted.
 
 Afterward it need to be selected, if the questions should be shuffled, if the alignment of the questions is vertically or horizontally and if the check-boxes are aligned left or right.
@@ -36,10 +40,25 @@ Then the answer texts can be added. Additional answers can be added with the but
 
 The correct answers can be selected in column _Correct Answer_. The order of the questions can be changed with the arrows.
 
-Furthermore, in the "Feedback" tab, the number of response options for the user can be defined in addition to the exact point allocation.
 
-![Beispiel Multiple Choice Frage](assets/Multiple_choice_Beispiel_DE.jpg)
-{ class=thumbnail-sm }
+**Tab "Score"**<br>
+3 assessment methods are supported for MC questions:
+
+* **All correct answers**<br>
+To receive the full score, all correct answers must be selected. If one or more correct answers are not selected or one or more incorrect answers are selected, the final score will be 0.
+
+* **Score per answer**<br>
+Positive and negative scoring can be configured for each individual answer option.
+
+* **Partial score**<br>
+A weighted score is added for each correctly selected answer, while a weighted score is subtracted for each incorrectly selected answer. The following formula is used:<br>
+Score = maximum score * (number of correctly marked answers / number of correct answers) - maximum score * (number of incorrectly marked answers / number of incorrect answers)
+
+<br>
+
+
+**Tab "Feedback"**<br>
+Furthermore, in the "Feedback" tab, the number of response options for the user can be defined in addition to the exact point allocation.
 
 ---
 
@@ -69,13 +88,29 @@ All correct answers = 100% score
 
 A matrix question consists of several rows and columns, where the answer can be filled in for every row, either as single choice or as multiple choice.
 
+![Example Matrix Question](assets/Matrix_Beispiel.png){ class="shadow" }
+
+**Tab "Match"**<br>
 Again first a title and the question are inserted.
 
 Afterwards, it needs to be selected, if the questions should be shuffled and if the answers are single or multiple choice.
 
 Then values can be added in the columns as well as in the rows. If more columns or rows are needed, they can be added with the corresponding button. Finally, the correct answer needs to be selected per row. For single choice it is one answer per row, for multiple choice several answers per row are possible.
 
-![Example Matrix Question](assets/Matrix_Beispiel.png){ class="shadow" }
+
+**Tab "Score"**<br>
+3 assessment methods are supported for MC questions:
+
+* **All correct answers**<br>
+To receive the full score, all correct answers must be selected. If one or more correct answers are not selected or one or more incorrect answers are selected, the final score will be 0.
+
+* **Score per answer**<br>
+Positive and negative scoring can be configured for each individual answer option.
+
+* **Partial score**<br>
+A weighted score is added for each correctly selected answer, while a weighted score is subtracted for each incorrectly selected answer. The following formula is used:<br>
+Score = maximum score * (number of correctly marked answers / number of correct answers) - maximum score * (number of incorrectly marked answers / number of incorrect answers)
+
 
 ## Drag&Drop {: #drag_drop}
 
@@ -83,6 +118,9 @@ Then values can be added in the columns as well as in the rows. If more columns 
 
 In general the Drag&Drop questions has the same behavior as the matrix question. However, the test participants do not select the checkboxes, but move the items in the corresponding category.
 
+![Example Drag and Drop Question](assets/DragDrop_Beispiel.png){ class="shadow" }
+
+**Tab "Drag and drop"**<br>
 First a title and the question are inserted.
 
 Afterward it need to be selected, if the questions and categories should be shuffled.
@@ -93,7 +131,20 @@ The alignment of the answers defines where the items in relation to the categori
 
 Then, the columns categories will be defined. Categories are the fix elements where the items will be dropped into. In the rows the items are added. With drag&drop the items can be moved into the categories afterward.
 
-![Example Drag and Drop Question](assets/DragDrop_Beispiel.png){ class="shadow" }
+
+**Tab "Score"**<br>
+3 assessment methods are supported for MC questions:
+
+* **All correct answers**<br>
+To receive the full score, all correct answers must be selected. If one or more correct answers are not selected or one or more incorrect answers are selected, the final score will be 0.
+
+* **Score per answer**<br>
+Positive and negative scoring can be configured for each individual answer option.
+
+* **Partial score**<br>
+A weighted score is added for each correctly selected answer, while a weighted score is subtracted for each incorrectly selected answer. The following formula is used:<br>
+Score = maximum score * (number of correctly marked answers / number of correct answers) - maximum score * (number of incorrectly marked answers / number of incorrect answers)
+
 
 !!! info "Note: Restriction to mobiles"
 
