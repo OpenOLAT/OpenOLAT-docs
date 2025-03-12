@@ -73,8 +73,6 @@ Als Standard empfehlen wir:
 
 
 
-
-
 ### Variante 1: Ohne Bewertung durch Kursteilnehmer:innen
 
 Soll das Peer-Review der Teilnehmer:innen **nicht** in die Bewertung einfliessen, sondern nur ein allgemeines Feedback abgegeben werden, zählt nur die Bewertung des Experten/der Expertin. Für eine Bewertung ausschliesslich durch den Experten/die Expertin, gehen Sie folgendermassen vor:
@@ -83,6 +81,8 @@ Soll das Peer-Review der Teilnehmer:innen **nicht** in die Bewertung einfliessen
 * Verwenden Sie für den Peer-Review z.B. ein Formular, das nur ein Textfeld für eine allgemeines Feedback der Reviewer:innen ermöglicht. 
 * Lassen Sie im **Tab "Workflow"** die Einstellung "Mit Peer-Review" selektiert. Wenn sie hier umstellen auf "Durch Betreuende" würde der Peer-Review-Prozess insgesamt deaktiviert. Auch eine allgemeine Rückmeldung ohne Punktebewertung würde damit deaktiviert.
 * Die Bewertung nur durch Expert:innen (Betreuer:innen), konfigurieren Sie im **Tab "Bewertung"**. Wenn Sie "Bestanden/Nicht bestanden" manuell durch die Betreuer:innen ermöglichen, ist nicht zwingend eine Punktevergabe erforderlich. Statt dessen kann für die Betreuer:innen auch ein Rubrik-Formular aktiviert werden.
+
+Ein Setting dieser Art kann z.B. verwendet werden, wenn die Reviews der Teilnehmer:innen den Expert:innen als Input dienen sollen, die Bewertung aber ausschliesslich bei den Expert:innen/Betreuer:innen bleiben soll.
 
 
 ### Variante 2: Gegenseitige Bewertung in Selbstlerngruppen
@@ -97,6 +97,13 @@ Gesamtpunkte können kommen aus<br>
 \- Rubrik-Bewertung<br>
 \- Rubrik-Peer-Review<br>
 \- Abgegebene Reviews
+
+
+### Variante 3: Gemeinsame Bewertung durch Teilnehmer:innen und Expert:innen
+
+Sie können auch ein Setting einrichten, bei dem Teilnehmer:innen und Expert:innen gemeinsam bewerten.
+Zum Beispiel könnte eine Gewichtung vorgenommen werden bei der die Reviews der Teilnehmer:innen einfach zählen und die Reviews der Expert:innen doppelt. 
+
 
 !!! tip "Empfehlung für Selbstlerngruppen"
 

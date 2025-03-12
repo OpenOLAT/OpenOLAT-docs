@@ -268,7 +268,7 @@ If the "By coach" option was selected in the Workflow tab, the minimum and maxim
 
 If the "With peer review" option was selected in the Workflow tab, the rules for the submission of feedback by other participants can now be defined in the "Return and feedback" tab. The feedback from the reviewers is given in a [form](../learningresources/Rubric.md). As the course owner, enter this [form](../learningresources/Rubric.md). For a peer review, it must be a form that contains at least 1 rubric element, because only the rubric element passes on the points achieved in it to the course element.
 
-![course_element_task_fb_v1_de.png](assets/course_element_task_fb_v1_de.png){ class="shadow lightbox" }
+![course_element_task_fb_v2_de.png](assets/course_element_task_fb_v2_de.png){ class="shadow lightbox" }
 
 You can also provide feedback to the reviewers (Helpful? Yes/No and star rating).
 

@@ -93,6 +93,13 @@ Total points can come from<br>
 \- Rubric peer review<br>
 \- Submitted reviews
 
+
+### Variant 3: Joint assessment by participants and experts
+
+You can also create a setting in which participants and experts evaluate together.
+For example, a weighting could be applied in which the participants' reviews count once and the experts' reviews count twice.
+
+
 !!! tip "Recommendation for self study groups"
 
     Activate "Total points from > Submitted reviews". It increases the likelihood of mutual reviews being made in self-study groups if the reviewers receive a fixed number of points per review made. If it is only a question of whether a review has been submitted, many result-distorting social processes in the group are also eliminated.

@@ -14,6 +14,7 @@ Spezialität / Hinweis | auch als [Gruppenaufgabe](../learningresources/Course_E
 
 Mit Hilfe des Kursbausteins Aufgabe können Lehrende **Dateiabgaben** und **Einsendeaufgaben** organisieren. Lernende laden dabei ihre Einreichungen in den OpenOlat Kurs hoch und erhalten ein Feedback bzw. eine Bewertung. Auch Peer-Reviews sind möglich. Ebenso können Überarbeitungen eingefordert oder Musterlösungen bereitgestellt werden.
 
+---
 
 
 ## Aufgabe erstellen (Perspektive Autor:in) {: #create_task}
@@ -51,6 +52,8 @@ Die Optionen zum Layout entsprechen denen, wie sie in allen Kursbausteinen entha
 
 [nach oben (Perspektive Autor:in) ^](#create_task)<br>
 [zum Seitenanfang ^](#course_element_task)
+
+---
 
 
 ### Tab "Lernpfad" {: #learningpath}
@@ -173,6 +176,8 @@ Wählen Sie hier, ob Teilnehmende über die Zuweisung zu einer betreuenden Perso
 [nach oben (Perspektive Autor:in) ^](#create_task)<br>
 [zum Seitenanfang ^](#course_element_task)
 
+---
+
 
 ### Tab "Aufgabenstellung“  {: #assignment}
 
@@ -216,6 +221,7 @@ Es folgt keine automatische Änderung. Der Teilnehmer erhält nun aber die Mögl
 [nach oben (Perspektive Autor:in) ^](#create_task)<br>
 [zum Seitenanfang ^](#course_element_task)
 
+---
 
 
 ### Tab "Abgabe"  {: #submission}
@@ -256,6 +262,7 @@ Aktivieren Sie die E-Mail Bestätigung damit Personen, die eine Aufgabe abgegebe
 [nach oben (Perspektive Autor:in) ^](#create_task)<br>
 [zum Seitenanfang ^](#course_element_task)
 
+---
 
 
 ### Tab "Rückgabe und Feedback"  {: #revisions}
@@ -276,18 +283,67 @@ Wurde im Tab Workflow die Option "Durch Betreuende" gewählt, können nun im Tab
 
 **Rückgabe und Feedback durch Peer-Review**
 
-Wurde im Tab Workflow die Option "Mit Peer-Review" gewählt, können nun im Tab "Rückgabe und Feedback" die Regeln für die Abgabe eines Feedbacks durch andere Teilnehmer:innen festgelegt werden. Das Feedback der Reviewer:innen wird jeweils in einem [Formular](../learningresources/Form_Element_Rubric.de.md) gegeben. Als Kursbesitzer:in geben Sie dieses [Formular](../learningresources/Form_Element_Rubric.de.md) vor. Für ein Peer-Review muss es ein Formular sein, das mindestens 1 Rubrik-Element enthält, denn nur das Rubrik-Element gibt die darin erreichten Punkte an den Kursbaustein weiter.
+Wurde im Tab Workflow die Option "Mit Peer-Review" gewählt, können nun im Tab "Rückgabe und Feedback" die Regeln für die Abgabe eines Feedbacks durch andere Teilnehmer:innen festgelegt werden. Das Feedback der Reviewer:innen wird jeweils in einem [Formular](../learningresources/Form_Element_Rubric.de.md) gegeben. Als Kursbesitzer:in geben Sie dieses [Formular](../learningresources/Form_Element_Rubric.de.md) vor. Für ein Peer-Review muss es ein Formular sein, das mindestens 1 Rubrik-Element enthält, denn nur das Rubrik-Element gibt die darin erreichten Punkte an den Kursbaustein weiter. Hier finden Sie ein  [Musterformular zum Download](assets/Example_PeerReview_v1_de.zip).
 
-![course_element_task_fb_v1_de.png](assets/course_element_task_fb_v1_de.png){ class="shadow lightbox" }
+![course_element_task_fb_v2_de.png](assets/course_element_task_fb_v2_de.png){ class="shadow lightbox" }
 
-Auch eine Rückmeldung an die Reviewer:innen kann ermöglicht werden (Hilfreich? Ja/Nein und Sternebewertung).
 
+![1_green_24.png](assets/1_green_24.png) **Formular**<br>
+Für Peer-Reviews wird ein geeignetes Rubrik-Formular benötigt. Hier finden Sie ein [Musterformular](assets/Example_PeerReview_v1_de.zip) (zip-Datei zum Import in Ihr OpenOlat).
+
+![2_green_24.png](assets/2_green_24.png) **Gegenseitige Beurteilung**<br>
+Wird die gegenseitige Beurteiligung erlaubt, können sich Teilnehmer:innen gegenseitig beurteilen, müssen es aber nicht.
+
+![3_green_24.png](assets/3_green_24.png) **Review-Form**<br>
+Betreffend der **Sichtbarkeit von Namen** können Sie als Autor:in eine der folgenden Formen wählen:<br> 
+\- Doppelblind-Review: Alle Namen sind anonym (ausgenommen Betreuende).<br>
+\- Einfachblind-Review: Der Name des Reviewers/der Reviewerin ist anonym.<br>
+\- Offenes Review: Alle Namen sind ersichtlich.
+
+![4_green_24.png](assets/4_green_24.png) **Zuweisung**<br>
+Sie bestimmen als Autor:in hier, **welche Aufgabenstellungen** die Reviewer:innen zum Review erhalten:<br> 
+\- **Dieselbe Aufgabenstellung**: Wenn eine Person z.B. Aufgabe 1 gezogen und gemacht hat, bekommt sie auch nur Aufgabe 1 zum Reviewen. Sie muss sich dann nicht in eine andere Thematik einarbeiten.<br>
+\- **Andere Aufgabenstellung**: Ein Review muss für eine andere Aufgabenstellung gemacht werden, als die Aufgabenstellung, die man selbst gezogen hat. Sind mehrere Reviews zu machen, müssen alle Reviews jedoch immer nur für den gleichen Aufgabentyp gemacht werden.<br>
+\- **Zufällig**: Die Reviewer:innen erhalten zufällige Aufgaben zum Review.
+
+![5_green_24.png](assets/5_green_24.png) **Anzahl Reviews**<br>
+Hier geben Sie an, wie viele Reviews für jeden/jede Teilnehmer:in vorgesehen sind. Je nach Anzahl der Teilnehmer:innen, kann die tatsächlich zu erledigende Zahl der Reviews aber abweichen. Im Idealfall entspricht die Anzahl der zu erledigenden Reviews der Anzahl Reviews, die man selbst von anderen erhält.  
+
+![6_green_24.png](assets/6_green_24.png) **Qualitätsfeedback für Reviewer:in**<br>
+Den Teilnehmer:innen kann die Möglichkeit gegeben werden, nach dem Erhalt von Reviews ihren Reviewer:innen eine Rückmeldung dazu zu geben. Ob das erhaltene Review hilfreich war, kann mit dem Daumensymbol oder mit Sternen signalisiert werden. 
+
+![7_green_24.png](assets/7_green_24.png) **Form des Feedbacks**<br>
+Wurde "Qualitätsfeedback für Reviewer:in" aktiviert, kann ausgewählt werden, mit welchen Symbolen den Reviewer:innen dieses Feedback gegeben werden soll ("Hilfreich? Ja/Nein" und Sternebewertung). 
+Als empfehlenswert hat sich die Symbolik mit "Daumen hoch" / "Daumen nach unten" herausgestellt.
+
+![8_green_24.png](assets/8_green_24.png) **Automatisch Reviewer:in zuweisen**<br>
+Autor:innen sehen alle Teilnehmer:innen eines Kurses, Betreuer:innen sehen aber eventuell nur ihre betreute Gruppe. 
+Damit Betreuer:innen die Reviews der betreuten Teilnehmer:innen ansehen können, muss die Zuweisung von Reviews innerhalb ihrer Gruppen erfolgen. (Nur dann können Betreuer:innen alle Reviews mitverfolgen.)<br>
+Wird die Option "Automatisch Reviewer:in zuweisen" gewählt, sehen Betreuer:innen zwar jeweils nur ihre Gruppe, die Zuweisung von Review-Aufträgen erfolgt aber unter allen Teilnehmer:innen. Betreuer:innen sehen dann, dass eine betreute Person von jemand aus der anderen Gruppe ein Review erhalten hat. Der Name der Person, die das Review gemacht hat, ist aber nicht ersichtlich.<br> 
 Damit neben Kursbesitzer:innen auch Betreuer:innen die automatische Reviewer-Zuweisung auslösen können, muss die entsprechende Option im Tab "Rückgabe und Feedback", Abschnitt "Berechtigungen" gewählt werden.
 
+
+Es gibt ein **Teilnehmer:innen-Review** und ein **Expert:innen-Review** mit je einem eigenen Formular. Das Teilnehmer:innen-Review kann aber auch (zusätzlich) von Betreuer:innen ausgefüllt werden. 
+
+* Betreuer:innen können so z.B. ein Teilnehmer:innen-Review machen, falls ein/eine Teilnehmer:in zu wenig Reviews erhalten hat. 
+* Auch wenn ein Teilnehmer:innen-Review als "nicht gültig" markiert wurde, können Betreuer:innen so ggf. ein Formular als Ersatz ausfüllen.
+* Ein Expert:innen-Formular für Betreuer:innen kann andere Kriterien enthalten als das Formular für Teilnehmer:innen. Auch in diesem Fall kann es Sinn machen, wenn Betreuer:innen beide Formulare verwenden können.
+
+!!! info "Hinweis"
+
+    Kursbesitzer:inen können konfigurieren, welches Review zählt. (Nur das der Teilnehmer:innen, nur das der Expert:innen oder beide.) Diese Konfiguration sollte beim Planen eines Peer-Reviews berücksichtigt werden. Siehe auch [Wie führe ich ein Peer-Review durch? >](../../manual_how-to/peer_review/peer_review.de.md) 
+
+
+**Weitere Informationen**
+
+[Musterformular für Peer-Review (zip-Datei zum Import in Ihr OpenOlat) >](assets/Example_PeerReview_v1_de.zip)<br>
+[Wie erstelle ich eine Formular-Lernressource? >](../../manual_how-to/create_a_form/create_a_form.de.md)<br>
+[Wie führe ich ein Peer-Review durch? >](../../manual_how-to/peer_review/peer_review.de.md)<br>
 
 [nach oben (Perspektive Autor:in) ^](#create_task)<br>
 [zum Seitenanfang ^](#course_element_task)
 
+---
 
 
 ### Tab "Bewertung"  {: #grading}
@@ -327,6 +383,7 @@ Wenn Sie die erweiterte Konfiguration aufklappen stehen noch weitere Konfigurati
 [nach oben (Perspektive Autor:in) ^](#create_task)<br>
 [zum Seitenanfang ^](#course_element_task)
 
+---
 
 
 ### Tab "Musterlösung" {: #sample}
@@ -352,6 +409,7 @@ Per Voreinstellung ist die Musterlösung erst sichtbar, wenn die vom Teilnehmer 
 [nach oben (Perspektive Autor:in) ^](#create_task)<br>
 [zum Seitenanfang ^](#course_element_task)
 
+---
 
 
 ### Tab "HighScore"  {: #highscore}
@@ -368,6 +426,8 @@ Weitere Informationen zu diesem Tab, der in den meisten Assessment Kursbausteine
 
 [nach oben (Perspektive Autor:in) ^](#create_task)<br>
 [zum Seitenanfang ^](#course_element_task)
+
+---
 
 
 ### Tab "Erinnerungen & To-dos"  {: #reminders}
@@ -386,6 +446,8 @@ Weitere Informationen zu To-dos finden Sie [hier](../basic_concepts/To_Dos_Basic
     
 [nach oben (Perspektive Autor:in) ^](#create_task)<br>
 [zum Seitenanfang ^](#course_element_task)
+
+---
 
 
 ### Tab Badges
