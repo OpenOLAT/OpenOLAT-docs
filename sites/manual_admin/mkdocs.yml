@@ -28,6 +28,7 @@ nav:
       - Module Taxonomy: "administration/Modules_Taxonomy.md"
       - Module Media Center: "administration/Modules_Media_Center.md"
       - Module Lectures: "administration/Lecture_and_roll_call_management.md"
+      - Module Course: "administration/Modules_Course.md"
       - Module Catalog: "administration/Modules_Catalog_2.0.md"
       - Module Repository: "administration/Modules_Repository.md"
       - Module Organisations: "administration/Modules_Organisations.md"

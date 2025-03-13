@@ -186,6 +186,7 @@ Wenn Autor:innen neue Kurse erstellen, finden Sie Voreinstellungen vor, die durc
 gelöscht werden. 
 * Auch Kategorien für Farbkategorien mit CSS-Klassen und Stil der Bilder können in diesem Menü hinzugefügt werden.
 
+[Zu den Details >](Modules_Course.de.md)<br>
 [Zum Seitenanfang ^](#modules)
 
 

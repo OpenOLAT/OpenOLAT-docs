@@ -170,6 +170,7 @@ When authors create new courses, they will find default settings that are define
 * In the "Implementation formats" tab, new didactic types can be defined and existing ones edited or deleted.
 * Categories for color categories with CSS classes and style of images can also be added in this menu.
 
+[See the details >](Modules_Course.md)<br>
 [To the top of the page ^](#modules)
 
 
