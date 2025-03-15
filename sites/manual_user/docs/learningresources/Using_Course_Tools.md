@@ -4,7 +4,7 @@ A range of tools are available to you in the "Administration" section of your co
 
 ![Course adminisatration](assets/administraion_19_en.jpg)
 
-Andere Lernressourcen verfügen ebenfalls über das Menü Administration, jedoch sind die Menüs nicht so umfangreich und variieren je nach Lernressource. 
+Other learning resources also have the Administration menu, but the menus are not as extensive and vary depending on the learning resource. 
 
 Below you will find an overview of the **menus for the "Administration" of courses**. 
 
@@ -16,11 +16,8 @@ Below you will find an overview of the **menus for the "Administration" of cours
 ## Settings
 Basic settings are made here and the course activation is also set up. Information on the "Settings" menu can be found in the chapter [Course_Settings](Course_Settings.md)
 
-## Member management
+## Members management
 You can organize course participants and course-related groups and rights in [Members_management](Members_management.md) and also organize bookings and invitations for external parties. 
-
-## Course editor
-Central area for structuring the course with various course elements. Information on the [Course editor](../learningresources/General_Configuration_of_Course_Elements.md) can be found in the separate chapter. 
 
 ## Files
 
@@ -39,37 +36,33 @@ To-dos for all or individual course participants can be created, edited and disp
 
 If activated, course-related badges can be created, edited and displayed here. Further details can be found in the chapter [Open Badges](OpenBadges.md)
 
-
-!!! tip "Hint"
-
-    Subscribe to the notification service, either for newly received test results and/or newly created certificates.
-
-Further information about the assessment tool you can found [here](Assessment_tool_overview.md).
-
-
-### Documents coach
+## Coach files
 
 This menu gives coaches the possibility to store files. All coaches and course owners can access this area.
 
-In order for this menu to appear, the option "Documents coach folder" must first be activated in the course under "Administration" -> "Settings" in the "Options" tab.
+In order for this menu to appear, the option "Documents coach folder" must first be activated in the course under "Administration" -> "Settings" in the "Options" tab. You can either select an existing folder of the storage folder or automatically generate a new folder for the storage folder.
 
-An existing folder of the course's storage folder can be selected as the storage location in the Options tab or a new folder can be generated specifically for the coaches in the storage folder. If the "Automatically generated folder" option is selected, coaches, unlike course owners, do not have access to other files or folders located in the courses storage folder. On the other hand, course owners or people with access to the course editor have full access to the storage folder and can also see the coaches' files in the automatically generated "coachdocuments" folder. This means that course owners always have access to the files in the coach folder and can also use them to link to certain course elements, e.g. an individual page. Conversely, coaches do not have the option of integrating files into the course structure with this coach folder.
+If the “Automatically generated folder” option is selected, the “_coachdocuments” folder is created. This folder will then also appear for course owners in the “Files” administration menu.
 
-### Lectures and absences
+As soon as the folder is created, supervisors only have access to this folder via the menu in the administration, but not to the entire storage folder, unless the top folder is selected as the supervisor folder. Course owners also have access to the supervisor folder. 
+
+This means that course owners always have access to the files in the coach folder and can also use them to link to certain course elements, e.g. an individual page. Conversely, coaches do not have the option of integrating files into the course structure with this coach folder.
+
+## Lectures and Absences
 The lesson blocks of a course can be created, viewed and revised here. You can find more information on this topic in the chapter [Lectures and absences](Lectures_and_absences.md).
 
 ## Reminders
 Reminders for course participants can be created, edited and displayed here. Further information can be found in the chapter [Reminders](Course_Reminders.md).
 
-## Assessment mode
+## Assessment management
 Here you can create, edit and display configurations for the exam mode. For example, you can configure an exam mode that only allows certain course elements and is executed in a protected kiosk mode with limited options. Further details can be found [here](../learningresources/Assessment_mode.md). 
 
-## Data collection preview
+## Data collection previews
 If activated by the administrator, the menu item appears in the administration of the course. Here, course owners can view the planned surveys for the [Quality Management](../../manual_admin/administration/Modules_Quality_Management.md) module of the course.
 For course owners, this preview is purely _informative_. Editing is only possible for quality managers.
 
 
-### Learning area {: #learning_area}
+## Learning areas {: #learning_area}
 
 The learning areas of the course can be created, displayed and edited here. 
 
@@ -83,14 +76,11 @@ The advantage over explicitly listing all relevant groups in the access and visi
 
     Learning areas can be used, for example, if you want to make the same course element available to several groups within a course, or if there are many groups to choose from for an enrolment element, or if you want to bundle several groups for one coach. With a learning area you save the repetitive selection of each group.
 
-### Course DB
+## Course DB
 
 Here you can create a new course-specific database that can store certain course-specific information.
 
-## Course, test and survey statistics
-Menus for retrieving certain statistical data.
-
-### Course Statistics {: #statistics}
+## Course Statistics {: #statistics}
 
 This course function provides you with statistics regarding access to your OpenOlat course. All course owners have access to those statistics. You will receive data in the form of tables as well as in the form of charts. Table data can be downloaded as Excel files (e.g. for further processing) to your computer.
 
@@ -99,7 +89,7 @@ Relevant for your total of course accesses are user clicks on a single course el
 Statistics can be created per hour, per day, per weekday or per week. Furthermore you can choose a certain period of time per day and per week during which any course access should be displayed in your statistics.
 When selecting a course element in your table its corresponding chart will be displayed. If you select the number of clicks in the row "Total" your chart will show all accesses sorted by course element.
 
-### Test statistics
+## Test statistics
 
 The test statistics allow you to perform general course-related, anonymous statistical evaluations of your tests. All tests included in the course are displayed. 
 
@@ -109,15 +99,15 @@ A download of the raw data and a print version are also available here.
 
 Access to the test statistics is not only available to the course owners but also to all coaches of the course.
 
-### Survey statistics
+## Survey statistics
 
-The survey statistics allow you to perform a general course-related, anonymized statistical evaluation of your surveys. For each survey there is an overview, tables, diagrams and access to the individual questionnaire forms.  It is also possible to export the data as a PDF or Excel table and to print it out. 
+The survey statistics allow you to perform a general course-related, anonymized statistical evaluation of your [surveys](../learningresources/Course_Element_Survey.md). For each survey there is an overview, tables, diagrams and access to the individual questionnaire forms.  It is also possible to export the data as a PDF or Excel table and to print it out. 
 
 The overview includes key figures such as the number of completed questionnaires, submission period and processing time. The tab "Tables" contains evaluations for individual questions. In the tab "Diagrams" the results are visualised in the form of bar charts and the corresponding statistical data such as median, variance and standard deviation are displayed. In the tab "Individual forms" you have access to each individual questionnaire. All accesses are anonymous.
 
 Besides course owners all coaches have access to survey statistics.
 
-### Archiving & Reporting  {: #archive}
+## Archiving & Reporting  {: #archive}
 
 Elements of the course can be archived here with the help of a wizard. Either a complete archive or a partial archive with selected course elements can be created. In particular, saving the results of the surveys, tests, self-tests, assignments, group tasks and the course results are important elements that you should save at the end of the course.
 
@@ -127,15 +117,14 @@ In addition, log files, course results, chat history and forums can be archived 
 
 Details on data archiving to date can be found [here](Data_archiving.md).
 
-### Booking methods
+## Booking methods
 
 Here you will find an overview of all the people who have booked your course.  
 
 This menu appears only if a booking method has been selected in the "Settings" of the administration in the tab "Share".
 
-### Copy with and without wizard, exportcontent
-
-Learning resources are copied in order to be able to reuse an old course structure for a new semester, for example. When copying a course, the structure, folder contents, HTML pages and group names (without group members) are copied. User data such as forum entries, group members, etc. are not copied. However, user data such as forum posts, group members, etc. will not be copied.
+## Copy  
+If a course has expired but is to be repeated in the next semester or at a certain interval, this course should be copied. When copying a course, the complete structure, folder contents, HTML pages and group names (without group members) are copied. The entire course structure is therefore retained. User data such as forum entries, group members, etc. are not copied. However, user data such as forum posts, group members, etc. will not be copied.
 This way you get a completely reset course without user-specific data remains.
 
 !!! tip "Hint"
@@ -146,9 +135,9 @@ This way you get a completely reset course without user-specific data remains.
 
     A course copy can also usefully be created as a backup after the course has been completed and before the course begins.
 
-### Copy with wizard
-
-With the help of the wizard, the elements of a course to be copied can be selected and thus a transfer for a new course run can be made even more effectively. The copy can be automatic or user-defined. In the case of the user-defined copy, the course objects to be copied can be selected and further settings can be made, e.g. with regard to member administration, certain course elements and other options. 
+## Copy with wizard
+Wählt man die Option "Kopieren mit Wizard", lässt sich detailliert festlegen, was und wie genau kopiert werden soll. 
+Dabei können bestimmte Grundeinstellungen wie Durchführungszeitraum, Kennzeichen oder Lizenz direkt ich für die Kopie angepasst werden. Auch kann gewählt werden ob die Kopie automatisch mit allen Kurselementen erstellt werden soll oder ob eine benutzerdefinierte Kopie mit ausgewählten Kursbausteinen erstellt werden soll bei der auch weitere Einstellungen zum Kopieren von Mitgliedern, Erinnerungen und Dokumenten berücksichtigt werden können. 
 
 This function is only available for [learning path course](../learningresources/Learning_path_course.md). 
 
@@ -158,18 +147,20 @@ Traditional courses and courses created before OpenOlat version 15 can be conver
 
 This function is only available for traditional courses.
 
-### Export content
+## Export content
 
-Export your learning resources as a ZIP file to keep a backup copy or to import the learning resource into another OpenOlat instance e.g. another educational institution for further use.
+Export your course or learning resources as a ZIP file to keep a backup copy or to import the learning resource into another OpenOlat instance e.g. another educational institution for further use.
 Allowing a course copy for other authors is useful for course templates, for example.
 
 As the owner of a learning resource, you can also determine in the administration menu under "Settings" → "Shared to other authors" whether your learning resource may be exported, copied or referenced by all other OpenOlat authors in the system.
-You can find further information [here](../learningresources/Access_configuration.md).
+You can find further information [here](../learningresources/Access_configuration.md). Allowing a course copy for other authors is useful for course templates, for example.
 
-### Delete (course/learning resource)   {: #delete}
+## Delete (course/learning resource)   {: #delete}
 
-When a course or learning resource is deleted, all user data is removed and the course can now neither be accessed nor viewed by former participants or coaches. Course owners will subsequently find the deleted learning resource in the authoring area in the "Deleted" tab. Only the course owner has access and finds the course in the authoring area under the tab "Deleted". 
-Here the learning resource appears with the status "Trash". There is still access to the administration menu items. The "Trash" status cannot be changed. However, it is possible to restore the learning resource using the link in the 3-dot menu.
+When a course or learning resource is deleted, all user data is removed and the course can now neither be accessed nor viewed by former participants or coaches. Course owners will subsequently find the deleted learning resource in the authoring area in the "Deleted" tab. 
+Here the learning resource appears with the status "Trash". There is still access to the administration menu items. 
+
+If a learning resource has been deleted, the menu item “Restore” appears in the course administration. The course can also be restored in this way.
 
 !!! info "Final deletion"
 
