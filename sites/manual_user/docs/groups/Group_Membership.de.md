@@ -4,7 +4,7 @@
 Es gibt in OpenOlat grundsätzlich 3 Möglichkeiten um Gruppenmitglied zu werden:
 
 * Sie können von Betreuer:innen und anderen Berechtigten in eine OpenOlat-Gruppe eingeladen und zum Mitglied gemacht werden,
-* Ihre Gruppenmitgliedschaft kann automatisch erstellt werden
+* Ihre Gruppenmitgliedschaft kann automatisch erstellt werden,
 * oder Sie können sich selbst als Gruppenmitglied eintragen.
 
 Auf welche Art Sie Gruppenmitglied werden können, hängt davon ab, um welche Gruppe es sich handelt und wie die Gruppe vom Ersteller/der Erstellerin konfiguriert ist.
@@ -130,7 +130,7 @@ Gruppen mit Angeboten finden Benutzer:innen unter **“Veröffentlichte Gruppen�
 
 ### Überbuchung {: #overbooking}
 
-Wurde die Gruppengrösse begrenzt, können Teilnehmer:innen, die sich in eine Gruppe eintragen wollen, in der schon alle Plätze besetzt sind, auf eine Warteliste genommen werden. (Siehe [Gruppen erstellen >](Create_Groups.de.md#vorgesehene-anzahl-teilnehmende))
+Wurde die Gruppengrösse begrenzt, können Teilnehmer:innen, die sich in eine Gruppe eintragen wollen, in der schon alle Plätze besetzt sind, auf eine Warteliste genommen werden. (Siehe [Gruppen erstellen >](Create_Groups.de.md#vorgesehene-anzahl-teilnehmende)).
 
 Bei Überbuchung erscheinen entsprechende Hinweise, z.B.:
 
@@ -146,7 +146,7 @@ Bei Überbuchung erscheinen entsprechende Hinweise, z.B.:
 
 Mit entsprechenden Rechten (z.B. Administrator:in) kann kann man sich natürlich auch immer selbst als Teilnehmer:in in eine Gruppe einfügen.
 
-Das Vorgehen ist das gleiche, wie oben beschrieben. [("Wie können Gruppenbetreuer:innen jemand zum Gruppenmitglied machen?"](##add_groupmember), Schritt 3)<br>
+Das Vorgehen ist das gleiche, wie oben beschrieben. (["Wie können Gruppenbetreuer:innen jemand zum Gruppenmitglied machen?"](#add_groupmember), Schritt 3)<br>
 **Gruppe wählen > Administration > Tab Mitglieder > Button "Mitglied hinzufügen"**
 
 

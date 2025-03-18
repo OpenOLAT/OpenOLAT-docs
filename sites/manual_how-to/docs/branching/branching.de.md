@@ -93,7 +93,7 @@ Dieses Vorgehen eignet sich besonders gut für verzweigtes Branching und Netzwer
 Sie haben eine spannende Idee, aber noch keine konkrete Verzweigungsstruktur und möchten Ihr Szenario nach und nach entwickeln? Dann gehen Sie so vor: Starten Sie mit der Story der Startseite (Kursbaustein HTML-Seite) und den ersten Wahlmöglichkeiten. Gestalten Sie nun nach und nach die unterschiedlichen Wahlmöglichkeiten aus. Achten Sie aber darauf die Teile wieder gut zusammenzuführen. 
 Dieses Vorgehen ist gut geeignet für hierarchische Strukturen und verzweigtes Branching.
 
-**c) Aus linear mach verzweigt**
+**c)	Aus linear mach verzweigt**
 
 Sie verfügen bereits über eine geeignete lineare Story? Dann ergänzen Sie diese mit passenden Verzweigungen an bestimmten Stellen. Diese Wahlmöglichkeiten können zu einer unterschiedlichen Fokussierung oder Vertiefung führen, leiten aber letztendlich immer wieder zum nächsten "Kapitel". Teilen Sie hierfür ihre Story in passende Kapitel und verzweigen Sie bei jedem Kapitel. Dieses Vorgehen passt gut zum Perlenkettenmodell. Ein Kapitel könnte eine Perle darstellen.
 
@@ -111,7 +111,7 @@ Sie benötigen:
 * einen klassischen bzw. **herkömmlichen Kurs**
 * viele Kursbausteine ["HTML-Seite"](../../manual_user/learningresources/Course_Element_HTML_Page.de.md). Die Bearbeitung erfolgt dann im OpenOlat HTML-Editor. Alternativ kann auch der [Kursbaustein Seite](../../manual_user/learningresources/Course_Element_Page.de.md) verwendet werden.
 * OpenOlat interne **JavaScript Links** der Kursbausteine. Diese können im [Kurseditor](../../manual_user/learningresources/General_Configuration_of_Course_Elements.de.md) ausgelesen werden.
-* Passende Konfiguration in [Administration > Einstellungen](../../manual_user/learningresources/Course_Settings.de.md) zum Ausblenden der Navigation
+* Passende Konfiguration in [Administration > Einstellungen](../../manual_user/learningresources/Course_Settings.de.md) zum Ausblenden der Navigation.
 
 Je nach Ausgestaltung benötigen Sie eventuell noch weitere Kursbausteine wie [Test](../../manual_user/learningresources/Course_Element_Test.de.md), Webcam-Aufnahmen, [Formulare](../../manual_user/learningresources/Course_Element_Form.de.md) usw. In den meisten Fällen werden Sie auch Grafiken für die Visualisierung benötigen. 
 
@@ -137,9 +137,9 @@ Erstellen Sie einen neuen klassischen (herkömmlichen) OpenOlat Kurs.
 
 ### Schritt 2: Startseite anlegen {: #step_2}
 
-Gehen Sie in den [Kurseditor](../../manual_user/learningresources/General_Configuration_of_Course_Elements.de.md) und fügen Sie einen Kursbaustein ["HTML-Seite"](../../manual_user/learningresources/Course_Element_HTML_Page.de.md) hinzu. Vergeben Sie als Titel im Tab „Titel und Beschreibung“ einen sinnvollen Titel z.B. „Startseite.“ Achten Sie auch im Weiteren auf eine möglichst eindeutige Bezeichnung von allen weiteren zu erstellenden Kursbausteinen. Das hilft Ihnen bei der Orientierung im Szenario.
+Gehen Sie in den [Kurseditor](../../manual_user/learningresources/General_Configuration_of_Course_Elements.de.md) und fügen Sie einen Kursbaustein ["HTML-Seite"](../../manual_user/learningresources/Course_Element_HTML_Page.de.md) hinzu. Vergeben Sie als Titel im Tab "Titel und Beschreibung" einen sinnvollen Titel z.B. "Startseite". Achten Sie auch im Weiteren auf eine möglichst eindeutige Bezeichnung von allen weiteren zu erstellenden Kursbausteinen. Das hilft Ihnen bei der Orientierung im Szenario.
 
-Gehen Sie in den Tab „Seiteninhalt“ und erstellen Sie eine neue Datei HTML-Seite. Es ist sinnvoll hierfür denselben Titel wie im Tab Titel und Beschreibung zu verwenden. Erlauben Sie sofern notwendig auch den Link im gesamten Ablageordner. 
+Gehen Sie in den Tab "Seiteninhalt" und erstellen Sie eine neue Datei HTML-Seite. Es ist sinnvoll hierfür denselben Titel wie im Tab Titel und Beschreibung zu verwenden. Erlauben Sie sofern notwendig auch den Link im gesamten Ablageordner. 
 
 [Zum Seitenanfang ^](#branching)
 
@@ -164,7 +164,7 @@ Anschliessend müssen die neuen HTML-Seiten mit der jeweiligen Story-Fortsetzung
 
 Gehen Sie nun für jeden Knoten in derselben Weise vor:<br> 
 
-* Kursbaustein „HTML-Seite“ einfügen 
+* Kursbaustein "HTML-Seite" einfügen 
 * Titel vergeben 
 * HTML-Seite erstellen 
 * Seite inhaltlich ausgestalten 
@@ -181,11 +181,11 @@ Gehen Sie nun für jeden Knoten in derselben Weise vor:<br>
 
 ### Schritt 5: Verlinkungen auslesen {: #step_5}
 
-Damit die diversen erstellten (HTML-)Seiten miteinander verbunden werden, müssen Sie noch die jeweils passenden kurbausteininternen Links auslesen und diese bmit den Wahloptionen verknüpfen. 
+Damit die diversen erstellten (HTML-)Seiten miteinander verbunden werden, müssen Sie noch die jeweils passenden kursbausteininternen Links auslesen und diese mit den Wahloptionen verknüpfen. 
 
 #### Wo findet man die benötigten Links?
 
-Hierfür werwird die internen Verlinkungsmöglichkeit, die generell für alle OpenOlat Kursbausteine zur Verfügung steht, verwendet.
+Hierfür wird die internen Verlinkungsmöglichkeit, die generell für alle OpenOlat Kursbausteine zur Verfügung steht, verwendet.
 Gehen Sie im Kurseditor zur gewünschten *Zielseite* einer Wahloption. Scrollen Sie im Tab "Titel und Beschreibung" nach unten und wählen Sie -> Link auf diesen Kursbaustein setzen. -> Kursinterner Link (JavaScript). 
 
 Der Link könnte z.B. so ähnlich aussehen: 
@@ -205,7 +205,7 @@ Kopieren Sie den bei Ihnen angezeigten Link.
 
 ### Schritt 6: Verlinkungen setzen {: #step_6}
 
-Navigieren Sie nun zu der HTML-Seite, auf der die zuvor aufgerufene Seite als Wahl-Option hinterlegt ist. Gehen Sie wieder in den HTML-Editor (Siehe Schritt 3). Markieren Sie die entsprechende Wahloption, wählen Sie „Einfügen“ -> Link bzw. nutzen direkt das entsprechend Symbol im HTML-Editor. 
+Navigieren Sie nun zu der HTML-Seite, auf der die zuvor aufgerufene Seite als Wahl-Option hinterlegt ist. Gehen Sie wieder in den HTML-Editor (Siehe Schritt 3). Markieren Sie die entsprechende Wahloption, wählen Sie "Einfügen" -> Link bzw. nutzen direkt das entsprechend Symbol im HTML-Editor. 
 
 ![HTML-Editor Linke einfügen](assets/Link_einfuegen.jpg)
 
@@ -247,12 +247,12 @@ Bevor Sie Ihr Branched-Scenario Ihren Lernenden zugänglich machen können, müs
 
 Gehen Sie in die Kursadministration und wählen Sie die [Einstellungen](../../manual_user/learningresources/Course_Settings.de.md).
 
-* Im **Tab „Layout“** kann nun die Navigation ausgeblendet werden:<br> 
+* Im **Tab "Layout"** kann nun die Navigation ausgeblendet werden:<br> 
 Kurs Administration -> Einstellungen -> Tab "Layout" -> Im Bereich Navigation alle Haken entfernen, keine Menü Navigation und keine Krümelnavigation
 ![Tab Layout](assets/Einstellungen_Layout.png)
 
-* im **Tab „Toolbar“** kann ferner die Toolbar für Teilnehmende ausgeblendet werden.<br>
-Kurs Administration -> Einstellungen -> Tab "Toolbar" -> „Toolbar sichtbar für Teilnehmende“ Haken entfernen
+* im **Tab "Toolbar"** kann ferner die Toolbar für Teilnehmende ausgeblendet werden.<br>
+Kurs Administration -> Einstellungen -> Tab "Toolbar" -> "Toolbar sichtbar für Teilnehmende" Haken entfernen
 ![Tab EinstellToobar](assets/Einstellungen_Tab_Toolbar.png)
 
 !!! warning "Wichtig"
@@ -281,7 +281,7 @@ Kurs Administration -> Einstellungen -> Tab "Toolbar" -> „Toolbar sichtbar fü
 
 [Beispiel-Kurs für Branching "Wähle gut" (erstellt durch vcrp) >](https://olat.vcrp.de/url/RepositoryEntry/4575461519?guest=true&lang=de) <br>
 [Kursbaustein "HTML-Seite" >](../../manual_user/learningresources/Course_Element_HTML_Page.de.md)<br> 
-[Kursbaustein „Seite“ >](../../manual_user/learningresources/Course_Element_Page.de.md)<br>
+[Kursbaustein "Seite" >](../../manual_user/learningresources/Course_Element_Page.de.md)<br>
 [Einstellungen am Kurs >](../../manual_user/learningresources/Course_Settings.de.md)<br>
 [Kurseditor >](../../manual_user/learningresources/General_Configuration_of_Course_Elements.de.md)<br>
 [Videos in OpenOlat >](../../manual_user/learningresources/Video.de.md)<br>
