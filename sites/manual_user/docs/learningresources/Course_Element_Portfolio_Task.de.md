@@ -160,6 +160,10 @@ Je nachdem, wie der/die Autor:in die Portfolioaufgabe vorbereitet hat, stehen Ih
 
 ![course_element_portfolio_task_solve3c_de.png](assets/course_element_portfolio_task_solve3c_de.png){ class="shadow lightbox" }
 
+Wurde nicht die Listenansicht gewählt, sondern die Kachelansicht, kann die Aufgabe über einen Dropdown-Button gewählt werden.
+
+![course_element_portfolio_task_solve3c_var_de.png](assets/course_element_portfolio_task_solve3c_var_de.png){ class="shadow lightbox" }
+
 **Schritt 3d:** Folgen Sie den Anweisungen. Die Aufgabe kann von Kursautor:innen ganz unterschiedlich gestaltet worden sein. Im folgenden Beispiel können Sie ein Dokument herunterladen und Ihre Antwort ergänzen.
 
 ![course_element_portfolio_task_solve3d_de.png](assets/course_element_portfolio_task_solve3d_de.png){ class="shadow lightbox" }
