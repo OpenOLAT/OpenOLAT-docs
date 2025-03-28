@@ -173,6 +173,11 @@ Wählen Sie hier, ob Teilnehmende über die Zuweisung zu einer betreuenden Perso
     Wenn unter den Kursmitgliedern keine Person die Rolle Betreuer:in hat und gleichzeitig Kursbesitzer:innen keine Betreuungsaufgaben wahrnehmen (Tab Workflow > Abschnitt "Betreuung" > "Zur Auswahl stehende Betreuende"), dann kann keine Betreuerzuweisung stattfinden.
 
 
+!!! info "Hinweis"
+
+    Die im Tab Workflow angezeigten und durch die Autor:innen wählbaren Optionen können durch Administrator:innen vorkonfiguriert werden. Siehe Administrationshandbuch > Module > Kursbausteine
+
+
 [nach oben (Perspektive Autor:in) ^](#create_task)<br>
 [zum Seitenanfang ^](#course_element_task)
 
@@ -607,11 +612,63 @@ Der Bereich **Bewertung** umfasst zum einen automatisch generierte Informationen
 
 !!! note "Quick Links: Aufgaben betreuen (Perspektive Betreuer:in)"
 
+    * [Zuweisung der Aufgaben kontrollieren](#coach_task_peer_review_check_assignment)
+    * [Abgabe kontrollieren](#coach_task_peer_review_check_delivery)
+    * [Review durch Betreuer:in](#coach_task_peer_review_by_coach)
     * [Regeln eines Peer-Reviews](#coach_task_peer_review_rules)
-    * [Peer-Review betreuen](#coach_task_peer_review)
+    * [Peer-Review betreuen](#coach_task_peer_review_supervise)
     * [Manuelle Zuweisung von Peer-Reviewer:innen](#coach_task_peer_review_assign_manually)
     * [Automatische Zuweisung von Peer-Reviewer:innen](#coach_task_peer_review_assign_automatically)
+    * [Peer-Reviews abschliessen](#coach_task_peer_review_close)
+    * [Betreuer:in nimmt an Peer-Review teil](#coach_task_peer_review_reviewer_participates)
+    * [Experten-Review](#coach_task_peer_review_expert)
+    * [Bewertung der Aufgabe](#coach_task_peer_review_evaluate)
 
+### Zuweisung der Aufgaben kontrollieren {: #coach_task_peer_review_check_assingment}
+
+Für Betreuer:innen stellen sich folgende Fragen und Kontrollaufgaben:
+
+* Ist eine automatische Zuweisung erfolgt?
+* Haben alle Teilnehmer:innen eine Aufgabe gezogen?
+* Wer hat welche Aufgabe gezogen? => Besteht bei den Zuordnungen Korrekturbedarf?
+* Wer hat noch keine Aufgabe gezogen? => Weshalb? => Die Personen können in der Liste selektiert und per Mail kontaktiert werden. => Evtl. ist eine Verlängerung zu machen, damit eine Person noch eine Aufgabe ziehen kann. (Eine automatische Zuweisung ist nicht möglich.)
+
+[nach oben (Perspektive Betreuer:in) ^](#coach_task)<br>
+[zum Seitenanfang ^](#course_element_task)
+
+
+### Abgabe kontrollieren {: #coach_task_peer_review_check_delivery}
+
+* Erfolgte die Abgabe innerhalb der gesetzten Abgabefrist?
+* Erfolgte eine verspätete Abgabe?
+* Gibt es für die Abgabe einen Grund zu individueller Verlängerung? Eine Verlängerung kann für Zuweisung, Abgabe und Lösungseinsicht gewährt werden. Eine Verlängerung der Überarbeitungszeit ist nicht möglich, denn die Überarbeitungszeit ist bereits eine Art Verlängerung.
+* Wenn Teilnehmer:innen aus Versehen abgegeben oder etwas vergessen haben, kann die Abgabemöglichkeit wieder eröffnet werden.
+* Ist ein vorzeitiges Einziehen der Aufgaben erforderlich? Das kann z.B. bei einem Betrugsversuch der Fall sein. 
+* Ist die Abgabefrist offen und es soll ein manuelles Einziehen erfolgen? (Wenn eine Abgabefrist gesetzt wurde, erfolgt immer ein automatischer Einzug, wenn jemand noch nicht selbst abgegeben hat.) 
+
+!!! note "Hinweis"
+
+    Eine **Verlängerung** kann auch durch Betreuer:innen eingerichtet werden. Die **Abgabefrist** kann dagegen nur durch Kursbesitzer:innen festgelegt werden.
+
+!!! note "Hinweis"
+
+    Bei unbegrenzt laufenden Kursen kann kein Abgabetermin gesetzt werden. Alternative kann in diesem Fall ein Zertifikat und eine Rezertifizierung sein. 
+
+[nach oben (Perspektive Betreuer:in) ^](#coach_task)<br>
+[zum Seitenanfang ^](#course_element_task)
+
+
+
+### Review durch Betreuer:in {: #coach_task_peer_review_by_coach}
+
+Ein Review ist nur möglich, wenn der oder die Teilnehmer:in abgegeben hat.
+
+Ein Review ist auch schon möglich, wenn bereits vor Ablauf der Abgabefrist abgegeben wurde.
+
+Wenn für das Review ein Zeitraum (durch den/die Besitzer:in) gesetzt wurde, kann das Review nicht durchgeführt werden. 
+
+[nach oben (Perspektive Betreuer:in) ^](#coach_task)<br>
+[zum Seitenanfang ^](#course_element_task)
 
 
 ### Regeln eines Peer-Reviews {: #coach_task_peer_review_rules}
@@ -628,7 +685,7 @@ Als Betreuer:in überwachen Sie die gegenseitigen Reviews und können ggf. auch 
 [zum Seitenanfang ^](#course_element_task)
 
 
-### Peer-Review betreuen {: #coach_task_peer_review}
+### Peer-Review betreuen {: #coach_task_peer_review_supervise}
 
 Der Ablauf eines Peer-Reviews wurde von dem/der Kursbesitzer:in festgelegt. Entsprechend finden Sie als Betreuer:in die Optionen für Ihre Betreuungsaufgabe vor.
 
@@ -653,13 +710,16 @@ Wenn Sie als Betreuer:in bestimmen wollen, wer von wem ein Review erhält, könn
 
 ![course_element_task_peer-review_assign_reviewer_manually_v1_de.png](assets/course_element_task_peer-review_assign_reviewer_manually_v1_de.png){ class="shadow lightbox" }
 
+Eine manuelle Zuweisung ist auch in der Tabelle möglich. Klicken Sie dazu auf die 3 Punkte. 
+
+
 [nach oben (Perspektive Betreuer:in) ^](#coach_task)<br>
 [zum Seitenanfang ^](#course_element_task)
 
 
 ### Automatische Zuweisung von Peer-Reviewer:innen {: #coach_task_peer_review_assign_automatically}
 
-Die Zuordnung von Peer-Reviewer:innen zu Teilnehmer:innen kann auch durch OpenOlat automatisch vorgenommen werden. Sie erfolgt gemäss den eingestellten Regeln. (Z.B. definierte Anzahl der Personen, die pro Teilnehmer:in zu reviewen sind.) Auch wenn vorab schon manuelle Zuordnungen durch Betreuer:innen gemacht wurden, werden diese bei den verbleibenden automatischen Zuordnungen berücksichtigt.
+Die Zuordnung von Peer-Reviewer:innen zu Teilnehmer:innen kann auch durch OpenOlat automatisch vorgenommen werden. Sie erfolgt gemäss den eingestellten Regeln. (Z.B. der definierten Anzahl der Personen, die pro Teilnehmer:in zu reviewen sind.) Auch wenn vorab schon manuelle Zuordnungen durch Betreuer:innen gemacht wurden, werden diese bei den verbleibenden automatischen Zuordnungen berücksichtigt.
 
 Der automatische Zuordnungsprozess muss durch Kursbesitzer:innen oder Kursbetreuer:innen ausgelöst werden.
 
@@ -677,3 +737,75 @@ Der automatische Zuordnungsprozess muss durch Kursbesitzer:innen oder Kursbetreu
 
 [nach oben (Perspektive Betreuer:in) ^](#coach_task)<br>
 [zum Seitenanfang ^](#course_element_task)
+
+
+### Peer-Reviews abschliessen {: #coach_task_peer_review_close}
+
+Wenn ein/eine Teilnehmer:in seine/ihre Reviews alle abgeschlossen hat, müssen die Reviews abgeben werden. Erst dann zählen sie. Die anderen Teilnehmer:innen werden nur mit abgeschlossenen Reviews beurteilt.
+
+Wenn die vorgegebene Zeit für Reviews abgelaufen ist, können Teilnehmer:innen keine Reviews mehr machen.
+
+Haben Teilnehmer:innen Reviews gemacht, aber nicht abgegeben, dann können diese Reviews nicht von Betreuer:innen eingezogen werden. Der Grund: Die Betreuer:innen können nicht wissen, ob ein nicht abgeschlossenes Review bereits final sein sollte und welche Qualität das Review zum aktuellen Zeitpunkt hat.
+
+Betreuer:innen können die Reviews nicht alle abschliessen. Sie müssen lediglich warten, bis der Zeitraum für die Reviews abgelaufen ist.
+
+Es ist nicht möglich, dass nach einem Peer-Review eine Überarbeitung erfolgt und dann nochmals ein zweites Review gemacht wird.
+
+[nach oben (Perspektive Betreuer:in) ^](#coach_task)<br>
+[zum Seitenanfang ^](#course_element_task)
+
+
+### Betreuer:in nimmt an Peer-Review teil {: #coach_task_peer_review_reviewer_participates}
+
+Es ist möglich, dass Betreuer:innen am Review teilnehmen wie Teilnehmer:innen. Sie haben dann für das Review sozusagen die Rolle eines/einer Teilnehmer:in und verwenden die gleichen Kriterien. 
+
+Das Review des/der Betreuer:in zählt in diesem Fall, wie die Reviews der übrigen Teilnhemer:innen.
+
+**Beispiel 1:**<br>
+Ein/e Reviewer:in fällt wegen Krankheit aus und der/die Betreuer:in springt als Reviewer:in ein. So wird sichergerstellt, dass alle die gleiche Anzahl Reviews erhalten.
+
+**Beispiel 2:**<br>
+Ein/eine Betreuer:in sieht, dass ein/e Reviewer:in ein Review falsch oder schlecht ausgeführt hat. Der/die Betreuer:in markiert darauf hin dieses Review als ungültig und macht selbst ein Review, damit diese Person wieder gleich viele Reviews erhalten hat.
+
+**Beispiel 3:**<br> 
+Es liegen aus dem Peer-Review zwei völlig gegensätzliche Reviews vor. Der/die Betreuer:in gibt deshalb ein vermittelndes oder korrigierendes Review dazu. (Im Unterschied zu einem Experten-Review wird hier das gleiche Bewertungsraster verwendet.) 
+
+
+[nach oben (Perspektive Betreuer:in) ^](#coach_task)<br>
+[zum Seitenanfang ^](#course_element_task)
+
+
+### Experten-Review {: #coach_task_peer_review_expert}
+
+Ein Experten-Review findet durch Betreuer:innen statt, nachdem ein Peer-Review stattgefunden hat.
+
+Es erfolgt analog dem [Kursbaustein "Bewertung"](../learningresources/Course_Element_Assessment.de.md#rubrik-bewertung), mit einem hinterlegten [Rubrik-Formular](../learningresources/Forms_in_Rubric_Scoring.de.md). (Also einem anderen Fragebogen, als die Peer-Reviewer:innen verwendet haben.)
+
+[nach oben (Perspektive Betreuer:in) ^](#coach_task)<br>
+[zum Seitenanfang ^](#course_element_task)
+
+
+### Bewertung der Aufgabe {: #coach_task_peer_review_evaluate}
+
+Wenn ein Peer-Review durchgeführt wurde, müssen die Ergebnisse nicht zwangsläufig in die **Bewertung** einfliessen. Es sind auch Reviews und Peer-Reviews ohne Bewertung möglich. Es kann gewählt werden, 
+
+* ob die Reviews aus einem Peer-Review in die Bewertung einfliessen,
+* nicht in die Bewertung einfliessen,
+* oder ausschliesslich das Experten-Review zählt.
+
+
+
+
+[nach oben (Perspektive Betreuer:in) ^](#coach_task)<br>
+[zum Seitenanfang ^](#course_element_task)
+
+
+## Weitere Informationen
+
+[Kursbaustein "Gruppenaufgabe" >](../learningresources/Course_Element_Grouptask.de.md)<br>
+[Kursbaustein "Portfolioaufgabe" >](../learningresources/Course_Element_Portfolio_Task/.de.md)<br>
+[Kursbaustein "Bewertung" >](../learningresources/Course_Element_Assessment.de.md#rubrik-bewertung)<br>
+[Rubrik-Formular >](../learningresources/Forms_in_Rubric_Scoring.de.md)<br>
+[Wie führe ich ein Peer-Review durch? >](../../manual_how-to/peer_review/peer_review.de.md)<br>
+
+
