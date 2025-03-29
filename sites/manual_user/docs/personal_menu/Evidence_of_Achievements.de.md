@@ -24,7 +24,7 @@ User finden ihre Leistungsnachweise, und sofern aktiviert auch ihre erhaltenen [
 
 Die Anzeige im Persönlichen Menü eignet sich um einen schnellen Überblick über alle bereits in OpenOlat erhaltenen, persönlichen Leistungsnachweise und Zertifikate zu erhalten. So kann man schnell zu den einzelnen Leistungsnachweisen und Zertifikaten  navigieren und weitere Informationen erhalten. Aktivieren Sie in der Übersicht alle für Sie relevanten Spalten z.B. Punkte, Bestanden, Zertifikat. 
 
-Klicken Sie auf das ePortfolio Icon um ein einen Leistungsnachweis als Element im  [Medien Center](../personal_menu/Media_Center.de.md) zu speichern und so auch in Ihren [Portfolio](../personal_menu/Portfolio.de.md) Mappen einbinden zu können.
+Klicken Sie auf das ePortfolio Icon um ein einen Leistungsnachweis als Element im  [Media Center](../personal_menu/Media_Center.de.md) zu speichern und so auch in Ihren [Portfolio](../personal_menu/Portfolio.de.md) Mappen einbinden zu können.
 So können Zusammenstellungen von Leistungsnachweisen für unterschiedliche Zwecke kombiniert und auch bestimmten Personen zugänglich gemacht werden. 
 
 !!! info  "Info"

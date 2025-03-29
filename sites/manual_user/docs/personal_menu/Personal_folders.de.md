@@ -1,13 +1,10 @@
-# Persönliche Werkzeuge: Persönliche Ordner
-
-![pers_menu_pers_folder_v1_de.png](assets/pers_menu_pers_folder_v1_de.png){ class="aside-right lightbox"}
+# Persönliche Werkzeuge: Persönliche Dateien 
 
 ![icon_folder.png](assets/icon_folder.png)
 
 ## Ordner im persönlichen Menu
 
-Unter "Persönliche Werkzeuge" haben alle OpenOlat Nutzer Zugriff auf ihre
-persönlichen Ordner. Diese unterteilen sich in "private" und "public" Ordner.
+Im File Hub finden User auch ihre "Persönlichen Dateien". Diese unterteilen sich in "private" und "public" Ordner.
 
  _Private_
 
@@ -64,8 +61,7 @@ Ordner Varianten mit unterschiedlicher Ausrichtung:
 
   * [Ablageordner](../learningresources/Storage_folder.de.md) (in Kursen)   
   * [Kursbaustein Ordner](../learningresources/Course_Element_Folder.de.md) (in Kursen) 
-  * Ordner der Themenwahl (in Kursen)
-  * [Teilnehmer Ordner](../learningresources/Communication_and_Collaboration.de.md#kursbaustein-teilnehmer-ordner--participant_folder) (in Kursen)
+  * [Teilnehmer:innen Ordner](../learningresources/Course_Element_Participant_Folder.de.md) (in Kursen)
   * [Ressourcenordner ](../learningresources/index.de.md#ressourcenordner)(Lernressource) 
   * [Werkzeug: Ordner](../groups/Using_Group_Tools.de.md) (in Gruppen, ähnlich dem Kursbaustein Ordner in Kursen)
 

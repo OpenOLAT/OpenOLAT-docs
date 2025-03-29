@@ -14,7 +14,7 @@ You can find the following sections in the personal menu:
 * **4 System**
 * as well as the **Logout** function
 
-![pers_menu2_v2_de.png](assets/pers_menu2_v2_de.png){ class="shadow aside-right lightbox"}
+![pers_menu2_v2_de.png](assets/personal_tools_20.jpg){ class="shadow aside-right lightbox"}
 
 !!! note "Quick Links"
 

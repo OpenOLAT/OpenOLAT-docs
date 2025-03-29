@@ -104,7 +104,7 @@ Im persönlichen Kalender werden angezeigt:
 
 1. Die selbst in diesem Kalender eingetragenen **persönlichen Termine**.
 2. Andere **eigenständige Kalender**, die in der Kalenderliste für die gemeinsame Ansicht ausgewählt wurden.<br> Z.B. ein Gruppen- oder Kurskalender.  
-3. **Aggregierte Kalender**<br> Aggregierte kalender haben ihrerseits Termine wieder aus mehreren verschiedenen Kalendern zusammengezogen. Bei aggregierten Kalendern ist zu beachten, dass OpenOlat nicht auflösen kann, woher die Termine ursprünglich kamen. Ein eingebundener aggregierter Kalender liefert diese Herkunftsinformation für die einzelnen Termine nicht mit, lediglich welche Kalender darin enthalten sind.
+3. **Aggregierte Kalender**<br> Aggregierte Kalender haben ihrerseits Termine wieder aus mehreren verschiedenen Kalendern zusammengezogen. Bei aggregierten Kalendern ist zu beachten, dass OpenOlat nicht auflösen kann, woher die Termine ursprünglich kamen. Ein eingebundener aggregierter Kalender liefert diese Herkunftsinformation für die einzelnen Termine nicht mit, lediglich welche Kalender darin enthalten sind.
 
 !!! info "Aggregierte Kalender"
     
@@ -129,7 +129,7 @@ Zu jedem dieser eigenständigen Kalender kann mit einem Toggle-Button eingestell
 
 Unter dem Feedsymbol finden Sie die URL, mit der dieser Kalender an anderer Stelle eingebunden werden kann.
 
-Unter dem Icon mit den 3 Punkten am Ende einer Zeile werden Bearbeitungsmöglichkeiten angzeigt, wenn es sich um eigenständige Kalender handelt. (Bei aggregierten Kalendern ist die Bearbeitung beschränkt/nicht möglich.)
+Unter dem Icon mit den 3 Punkten am Ende einer Zeile werden Bearbeitungsmöglichkeiten angezeigt, wenn es sich um eigenständige Kalender handelt. (Bei aggregierten Kalendern ist die Bearbeitung beschränkt/nicht möglich.)
 
 [Zum Seitenanfang ^](#calendar)
 

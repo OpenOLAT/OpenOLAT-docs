@@ -14,7 +14,7 @@ Im persönlichen Menü finden Sie die folgenden Abschnitte:
 * **4 System** 
 * sowie die **Logout**-Funktion
 
-![pers_menu2_v2_de.png](assets/pers_menu2_v2_de.png){ class="shadow aside-right lightbox"}
+![pers_menu2_v2_de.png](assets/persoenliche_Werkzeuge_20.jpg){ class="shadow aside-right lightbox"}
 
 !!! note "Quick Links"
 

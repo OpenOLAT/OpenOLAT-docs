@@ -1,13 +1,10 @@
-# Personal tools: Personal folders
-
-![pers_menu_pers_folder_v1_de.png](assets/pers_menu_pers_folder_v1_de.png){ class="aside-right lightbox"}
+# Personal tools: Personal files
 
 ![icon_folder.png](assets/icon_folder.png)
 
 ## Folder in the personal menu
 
-Under "Personal tools" all OpenOlat users have access to their
-personal folders. In this folder you
+Users can also find their “Personal files” in the File Hub. In this folder you
 can find 2 subfolders, the folders  "private"  and  "public".
 
  _Private_
@@ -62,7 +59,6 @@ In OpenOlat, several different versions of folders exist. Beside the two folders
 
   * [Storage folder](../learningresources/Storage_folder.md) (in courses)
   * [Course element folder](../learningresources/Course_Element_Folder.md) (in courses)
-  * Folders in Topic assignment (in courses)
-  * [Participant folder](../learningresources/Communication_and_Collaboration.md#course-element-participant-folder--participant_folder) (in courses)
+  * [Participant folder](../learningresources/Course_Element_Participant_Folder.md) (in courses)
   * [Resource folder](../learningresources/index.md#resource-folder) (learning resource)  
   * [Group tool: folder](../groups/Using_Group_Tools.md) (in groups, similar to the course element folder in courses)
