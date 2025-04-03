@@ -1,4 +1,4 @@
-# Mitgliederverwaltung
+# Mitgliederverwaltung {: #members_management}
 
 In der Mitgliederverwaltung sehen Kursbesitzer:innen alle Benutzer:innen und Gruppen eines Kurses und können diese umfassend organisieren z.B. bestimmte kursbezogene Rechte vergeben, Teilnehmer kontaktieren und Kurs-Gruppen organisieren. Das Rechtemanagement und die Verwaltung der Einwilligungen zu kursbezogenen Nutzungsbedingungen bzw. Datenschutzerklärung erfolgt ebenfalls hier.  
 
@@ -6,7 +6,7 @@ In der Mitgliederverwaltung sehen Kursbesitzer:innen alle Benutzer:innen und Gru
 
 
 
-## Bereich "Mitglieder"
+## Bereich "Mitglieder" {: #section_members}
 
 Wenn Sie die Mitgliederverwaltung öffnen, befinden Sie sich im Bereich "Mitglieder" und sehen eine tabellarische Auflistung aller Personen die Zugriff auf den Kurs bzw. die Lernressource haben. Über verschiedene Tabs können Sie sich alle oder bestimmte Kursmitglieder z.B. alle Betreuer oder ausschließlich die Teilnehmenden anzeigen lassen. Sie können die Rollenzuordnung der Personen bearbeiten, sie aus dem Kurs entfernen oder ihnen eine E-Mail schicken. Des Weiteren können Sie die jeweiligen Mitglieder als Excel Tabelle exportieren.
 
@@ -74,12 +74,12 @@ Für die meisten Kurse sind die Varianten a) und b) zu empfehlen.
 !!! hint "Tipp"
 
     Im letzten Schritt des Wizards können Sie eine eine E-Mail formulieren. Dort können Sie auch Variablen im E-Mail-Text verwenden. 
-    ($courseDescription, $courseName, $courseRef, $courseUrl, $email, $firstName, $lastName, $userName)
+    ($courseDescription, $courseName, $courseRef, $courseUrl, $courseLocation, $email, $firstName, $lastName, $userName)
 
 
 
 
-## Bereich "Gruppen"
+## Bereich "Gruppen" {: #section_groups}
 
 Hier sehen Sie die Gruppen des Kurses. Sie können  dem Kurs bereits existierende OpenOlat Gruppen hinzufügen oder neue Gruppen erstellen sowie Gruppen aus dem Kurs entfernen.
 
@@ -92,16 +92,21 @@ Typische Beispiele sind:
   * Gruppen für Gruppenarbeiten (kooperative Aktionen)
   * Gruppen für die Organisation des kursbezogenen Rechtemanagements
 
-## Bereich "Buchungen"
+
+## Bereich "Buchungen" {: #section_bookings}
 
 Sofern für einen Kurs eine [Buchungsmethode](../learningresources/Access_configuration.de.md)  eingerichtet wurde werden unter "Buchungen" alle Buchungen für diesen Kurs angezeigt, sortiert nach Status.
 
-## Bereich "Einladungen" 
+
+
+## Bereich "Einladungen" {: #section_invitations}
 Ab :octicons-tag-24: 17.0 verfügbar.
 
 Hier werden alle Personen angezeigt, die über die Option "Externe Mitglieder einladen" (siehe oben) dem Kurs hinzugefügt wurden. 
 
-##  Bereich "Rechte"   {: #rights}
+
+
+##  Bereich "Rechte"   {: #section_rights}
 
 Häufig kommt es vor, dass man Benutzern weitere Rechte übergeben möchte ohne ihnen aber volle Besitzerrechte zu übertragen oder eine weitere kursspezifische Rolle zu vergeben. Dies können Sie hier im Bereich ****Rechte** der Mitgliederverwaltung erledigen. 
 
@@ -180,7 +185,7 @@ Für die aktivierte Personengruppe erscheint zusätzlich das Menü der Kurs "Adm
 Mitglieder können hier Kursdatenbanken erstellen, zurücksetzen, löschen und exportieren.  
 
 
-##  Bereich "Einwilligungen"  {: #consent}
+##  Bereich "Einwilligungen"  {: #section_consent}
 
 Sofern kursbezogene Nutzungsbedingungen bzw. die kursbezogene Datenschutzerklärung [aktiviert](../learningresources/Course_Settings.de.md) sind, werden die gespeicherten Einwilligungen der einzelnen Benutzer hier aufgelistet. Ausgewählte Einwilligungen können an dieser Stelle widerrufen oder auch gelöscht werden. Beim Widerruf wird die Einwilligung zurückgesetzt, der Eintrag bleibt aber erhalten. Wird ein Benutzer in OpenOlat gelöscht, so werden auch alle kursbezogenen Einwilligungen des Benutzers entfernt.
 
