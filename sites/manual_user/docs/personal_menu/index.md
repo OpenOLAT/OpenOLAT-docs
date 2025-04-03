@@ -8,11 +8,11 @@ It opens in the right margin by clicking on the small image in the upper right c
 
 You can find the following sections in the personal menu:
 
-* **1 Personal Tools**
-* **2 Configuration**
-* **3 Help**
-* **4 System**
-* as well as the **Logout** function
+![1_green_20.png](assets/1_green_20.png) **Personal Tools**<br>
+![2_green_20.png](assets/2_green_20.png) **Configuration**<br>
+![3_green_20.png](assets/3_green_20.png) **Help**<br>
+![3_green_20.png](assets/4_green_20.png) **System**<br>
+as well as the **Logout** function
 
 ![pers_menu2_v2_de.png](assets/personal_tools_20.jpg){ class="shadow aside-right lightbox"}
 

@@ -8,11 +8,11 @@ Es öffnet sich am rechten Rand durch Klick auf das kleine Bild rechts oben oder
 
 Im persönlichen Menü finden Sie die folgenden Abschnitte:
 
-* **1 Persönliche Werkzeuge** 
-* **2 Konfiguration**
-* **3 Hilfe**
-* **4 System** 
-* sowie die **Logout**-Funktion
+![1_green_20.png](assets/1_green_20.png) **Persönliche Werkzeuge** <br>
+![2_green_20.png](assets/2_green_20.png) **Konfiguration** <br>
+![3_green_20.png](assets/3_green_20.png) **Hilfe**<br>
+![4_green_20.png](assets/4_green_20.png) **System** <br>
+sowie die **Logout**-Funktion
 
 ![pers_menu2_v2_de.png](assets/persoenliche_Werkzeuge_20.jpg){ class="shadow aside-right lightbox"}
 
