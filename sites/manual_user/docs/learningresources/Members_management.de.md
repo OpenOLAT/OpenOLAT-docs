@@ -1,10 +1,14 @@
 # Mitgliederverwaltung
 
-In der Mitgliederverwaltung sehen Kursbesitzer alle Benutzer und Gruppen eines Kurses und können diese umfassend organisieren z.B. bestimmte kursbezogene Rechte vergeben, Teilnehmer kontaktieren und Kurs-Gruppen organisieren. Das Rechtemanagement und die Verwaltung der Einwilligungen zu kursbezogenen Nutzungsbedingungen bzw. Datenschutzerklärung erfolgt ebenfalls hier.  
+In der Mitgliederverwaltung sehen Kursbesitzer:innen alle Benutzer:innen und Gruppen eines Kurses und können diese umfassend organisieren z.B. bestimmte kursbezogene Rechte vergeben, Teilnehmer kontaktieren und Kurs-Gruppen organisieren. Das Rechtemanagement und die Verwaltung der Einwilligungen zu kursbezogenen Nutzungsbedingungen bzw. Datenschutzerklärung erfolgt ebenfalls hier.  
+
+![members_management_open_v1_de.png](assets/members_management_open_v1_de.png){ class="shadow lightbox" }
+
+
 
 ## Bereich "Mitglieder"
 
-Wenn Sie die Mitgliederverwaltung öffnen befinden Sie sich im Bereich "Mitglieder" und sehen eine tabellarische Auflistung aller Personen die Zugriff auf den Kurs bzw. die Lernressource haben. Über verschiedene Tabs können Sie sich alle oder bestimmte Kursmitglieder z.B. alle Betreuer oder ausschließlich die Teilnehmenden anzeigen lassen. Sie können die Rollenzuordnung der Personen bearbeiten, sie aus dem Kurs entfernen oder ihnen eine E-Mail schicken. Des Weiteren können Sie die jeweiligen Mitglieder als Excel Tabelle exportieren.
+Wenn Sie die Mitgliederverwaltung öffnen, befinden Sie sich im Bereich "Mitglieder" und sehen eine tabellarische Auflistung aller Personen die Zugriff auf den Kurs bzw. die Lernressource haben. Über verschiedene Tabs können Sie sich alle oder bestimmte Kursmitglieder z.B. alle Betreuer oder ausschließlich die Teilnehmenden anzeigen lassen. Sie können die Rollenzuordnung der Personen bearbeiten, sie aus dem Kurs entfernen oder ihnen eine E-Mail schicken. Des Weiteren können Sie die jeweiligen Mitglieder als Excel Tabelle exportieren.
 
 ![Mitgliederverwaltung](assets/Mitgliederverwaltung17.png)
 
@@ -49,15 +53,31 @@ Besitzt der User noch darüberhinausgehende bestimmte [System-Rollen](../basic_c
 
 Benutzer können auf verschiedene Arten einem Kurs hinzugefügt werden:
 
-a) durch das direkte Eintragen in die Mitgliederliste durch den Kursbesitzerüber die Links "Mitglied hinzufügen", "Mitglieder importieren" oder "Externe Mitglieder einladen". In den ersten beiden Fällen werden existierende OpenOlat Benutzer hinzugefügt. Mit der dritten Option können auch Personen ohne OpenOlat Account für eine Dauer von maximal 180 Tagen der Lernressource hinzugefügt werden.
+a) durch das direkte Eintragen in die Mitgliederliste durch den Kursbesitzer über die Links "Mitglied hinzufügen", "Mitglieder importieren" oder "Externe Mitglieder einladen". In den ersten beiden Fällen werden existierende OpenOlat Benutzer hinzugefügt. Mit der dritten Option können auch Personen ohne OpenOlat Account für eine Dauer von maximal 180 Tagen der Lernressource hinzugefügt werden.
 
-b) durch Buchung des Kurses durch den Lernenden (siehe[Zugangskonfiguration](../learningresources/Access_configuration.de.md))
+b) durch Buchung des Kurses durch den Lernenden (siehe [Zugangskonfiguration](../learningresources/Access_configuration.de.md))
 
 c) durch Hinzufügen einer OpenOlat Gruppe. Alle Gruppenmitglieder werden dann dem Kurs hinzugefügt.
 
 d) durch ein übergeordnetes OpenOlat [Curriculum](../area_modules/Curriculum_Management.de.md)
 
 Für die meisten Kurse sind die Varianten a) und b) zu empfehlen.
+
+<br>
+
+**Manuelles Hinzufügen** (wie unter a) beschrieben)
+
+Öffnen Sie unter **Administration** die **Mitgliederverwaltung**. Dort finden Sie den **Button "Mitglied hinzufügen"**. Ein Wizard führt Sie dann durch die Schritte zum Hinzufügen neuer Kursmitglieder.
+
+![members_management_add_member_v1_de.png](assets/members_management_add_member_v1_de.png){ class="shadow lightbox" }
+
+!!! hint "Tipp"
+
+    Im letzten Schritt des Wizards können Sie eine eine E-Mail formulieren. Dort können Sie auch Variablen im E-Mail-Text verwenden. 
+    ($courseDescription, $courseName, $courseRef, $courseUrl, $email, $firstName, $lastName, $userName)
+
+
+
 
 ## Bereich "Gruppen"
 
