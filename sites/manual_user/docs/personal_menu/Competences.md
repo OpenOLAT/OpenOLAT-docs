@@ -11,24 +11,25 @@ Competences may have been assigned in ePortfolio entries, for example, or entere
 
 ![pers_menu_competences_example_v1_de.png](assets/pers_menu_competences_example_v1_de.png){ class="shadow lightbox"}
 
+!!! info
+
+    A prerequisite for the display of competencies is the use of the taxonomy module and the creation of taxonomy structures by OpenOlat administrators.
+
 ## Where do competences play a role?
 
-The awarding or acquisition of competencies occurs in the following contexts:
-
-- User profile
-- Personal Tools
-- ePortfolio
-- Taxonomy
-- User management
-- Document pool
-- Question pool
-- REST API
+In addition to being displayed in a user's personal tools, the awarding or acquisition of skills also occurs in the following contexts:
 
 
-## Further information
+- [ePortfolio](../area_modules/Competences_tags.md), Competences tags
+- [File-Hub](../basic_concepts/File_Hub_Concept.md) -> Document pool
 
-[Use tags on Competences](../area_modules/Competences_tags.md)<br>
-[Areas of competence](../../manual_admin/usermanagement/Configure_User.md)<br>
+In the admin manual
+
+- [eAssessment: Questeion bank](../../../manual_admin/docs/administration/eAssessment_Question_bank.md) (Administration)
+- [Module Taxonomy](../../../manual_admin/docs/administration/Modules_Taxonomy.md) (Administration)
+- [REST API](../../../manual_admin/docs/administration/REST_API.md) (Administration)
+- User profile of the [User management](../../../manual_admin/docs/usermanagement/Configure_User.md) (Administration)
+
 
 
 

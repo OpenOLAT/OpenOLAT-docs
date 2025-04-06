@@ -4,30 +4,30 @@
 
 ![icon_badges.png](assets/icon_badges.png)
 
-Die Badges in Ihrem persönlichen Menü sind der Ort, an dem Sie alle Ihre erworbenen Badges aufbewahren bzw. einsehen können, unabhängig davon, ob sie durch einen Kurs oder von einer Person oder Institution verliehen wurden.
+"Badges" in Ihrem persönlichen Menü sind der Ort, an dem Sie alle Ihre erworbenen Badges aufbewahren und einsehen können, unabhängig davon, wie und wo sie in OpenOlat verliehen wurden.
 
-Es werden der Titel des Badges und die Verleihungszeit angezeigt.
+Es werden zentrale Informationen zu den einzelnen Badges angezeigt, und einzelne Badges können heruntergeladen und zu LinkedIn hinzugefügt werden.
 
-![Persönliches Werkzeug für Badges](assets/badges-personal-tool.de.jpg)
+![Persönliches Werkzeug für Badges](assets/Badge_erhalten.jpg)
 
 Klickt man auf ein erhaltenes Badge gelangt man zur Badge Infoseite mit weiteren Informationen.
 
 
 ## Badge Infoseite
 
-Hier erfährt man wann und von wem das Badge vergeben wurde und erhält Informationen zum Vergabekontext. Eine Beschreibung und besonders die Vergabekriterien, die vom Erstellenden des Badges vergeben wurden, enthalten weitere wichtige Informationen. 
+Auf dieser Seite erfahren Sie, wann und von wem das Badge vergeben wurde, sowie den Kontext, in dem es vergeben wurde. Darüber hinaus enthält die Seite eine Beschreibung und insbesondere die Vergabekriterien, die vom Ersteller des Badges festgelegt wurden, und bieten somit weitere wichtige Informationen.
 
-Die Badge Infoseite kann über den aufgeführten öffentlichen Link geteilt werden und in anderen Webkontexten eingebunden werden. So können Personen auch ohne OpenOlat Account auf die Badge Infoseite zugreifen. 
+Die Badge-Infoseite kann über den öffentlichen Link geteilt und in anderen Webkontexten eingebunden werden, sodass Personen auch ohne OpenOlat-Account darauf zugreifen können.
 
-![Badges Infoseite](asset/../assets/badge-infosite.de.jpg)
+![Badges Infoseite](assets/Badge_Beispiel.jpg)
 
 
-## Weitere Informationen
+## Weitere Informationen zu den Badges für Lehrende 
 
-[Badges im Bewertungswerkzeug](../learningresources/OpenBadges.de.md)<br>
-[Badges in der eAssessment-Administration](../../manual_admin/administration/e-Assessment_openBadges.de.md)<br>
-[Wie vergebe ich in meinem Kurs Badges? >](../../manual_how-to/badges/badges.de.md)<br>
-[Leistungsnachweise in Kursen](../learningresources/Course_Settings_Assessment.de.md#leistungsnachweis)<br>
-[Zertifikate](../learningresources/Course_Settings_Assessment.de.md#kurs-zertifikat)<br>
+* [Badges im Bewertungswerkzeug](../learningresources/OpenBadges.de.md)<br>
+* [Badges in der eAssessment-Administration](../../../manual_admin/docs/administration/e-Assessment_openBadges.de.md) <br>
+* [Wie vergebe ich in meinem Kurs Badges?](../../../manual_how-to/docs/badges/badges.de.md)<br>
+* [Leistungsnachweise in Kursen](../learningresources/Course_Settings_Assessment.de.md#leistungsnachweis)<br>
+* [Zertifikate](../learningresources/Course_Settings_Assessment.de.md#kurs-zertifikat)<br>
 
 
