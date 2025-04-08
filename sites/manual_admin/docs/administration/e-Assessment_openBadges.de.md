@@ -53,7 +53,7 @@ Im Tab "Globale Badges" befindet sich auch der Button "Globalen Badge hinzufüge
 
 1. **Vorlage**: Der erste Schritt ist die Auswahl einer Vorlage oder das Hochladen eines eigenen Bildes. Derzeit wird SVG unterstützt.
 ![Wizard Schritt 1](assets/badges-wizard-1.de.jpg)
-2. **Anpassung**: Wenn die Vorlage unter Berücksichtigung von Variablen erstellt wurde, können Sie Farben und Text in einer Vorlage ändern.
+2. **Anpassung**: Wenn die Vorlage entsprechend erstellt wurde, können Sie Farben und Text während der Erstellung des Badges ändern.
 ![Wizard Schritt 2](assets/badges-wizard-2.de.jpg)
 3. **Details & Validierungszeitraum:** Obligatorische Details sind der Name, die Version und die Beschreibung des Badge sowie der Aussteller. Sie können zusätzlich eine URL und einen Kontakt zu den Ausstellereigenschaften hinzufügen. Die Gültigkeitsdauer kann auch so festgelegt werden, dass sie nie abläuft oder z. B. 12 Monate beträgt.
 ![Wizard Schritt 3](assets/badges-wizard-3.de.jpg)

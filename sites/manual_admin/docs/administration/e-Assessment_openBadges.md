@@ -54,7 +54,7 @@ Global badges can be viewed here. The status (active / in preparation) and wheth
 
 1. **Template**: The first step is to select a template or upload your own image. SVG is currently supported.
 ![Wizard Schritt 1](assets/badges-wizard-1.de.jpg)
-2. **Customization**: If the template was created taking variables into account, you can change colors and text in a template. 
+2. **Customization**: If the template was created accordingly, you can change colors and text while creating the badge.
 ![Wizard Schritt 2](assets/badges-wizard-2.de.jpg)
 3. **Details & Validation Period**: Mandatory details are the name, version and description of the badge and the issuer. You can also add a URL and a contact to the exhibitor properties. The validity period can also be set so that it never expires or is 12 months, for example.
 ![Wizard Schritt 3](assets/badges-wizard-3.de.jpg)
