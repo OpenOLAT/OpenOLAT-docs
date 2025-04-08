@@ -1,6 +1,6 @@
 # Kursbaustein "Themenbörse" {: #topic_broker}
 
-## Steckbrief
+## Steckbrief {: #profile}
 
 Name | Themenbörse
 ---------|----------
@@ -52,7 +52,7 @@ Die Themenvergabe im Kursbaustein Themenbörse geschieht deshalb in 2 Schritten:
 [zum Seitenanfang ^](#topic_broker)
 
 
-## Wer kann wählbare Themen erfassen?
+## Wer kann wählbare Themen erfassen? {: #topic_broker_eligible_topics}
 
 * Per Voreinstellung werden Themen durch die **Kursbesitzer:innen** erfasst.
 
@@ -70,7 +70,7 @@ Die Themenvergabe im Kursbaustein Themenbörse geschieht deshalb in 2 Schritten:
 ## Themenbörse einrichten (Perspektive Kursbesitzer:in) {: #topic_broker_setup}
 
 
-### Tab "Konfiguration"
+### Tab "Konfiguration" {: #topic_broker_setup_tab_config}
 
 Im Tab "Konfiguration" werden die Rahmenbedingungen der Themenwahl und Einschreibung festgelegt.
 
@@ -111,7 +111,7 @@ Die Bearbeitung kann noch detaillierter spezifiziert werden, wenn die erweiterte
 [zum Seitenanfang ^](#topic_broker)
 
 
-### Tab "Benutzerdefinierte Felder"
+### Tab "Benutzerdefinierte Felder" {: #topic_broker_setup_tab_custom_fields}
 
 Im Tab "Benutzerdefinierte Felder" können Zusatzfelder erstellt werden, die dann in jedem Thema angezeigt werden. Unter den 3 Punkten am Ende einer Zeile können sie jederzeit wieder bearbeitet und gelöscht werden.
 
@@ -134,7 +134,7 @@ Wird der Toggle-Button eingeschaltet, erscheint dieses Feld in der Übersichtsta
 [zum Seitenanfang ^](#topic_broker)
 
 
-### Tab "Themen" (Erfassen von Themen)
+### Tab "Themen" (Erfassen von Themen) {: #topic_broker_setup_tab_topic}
 
 Die wählbaren Themen können im Kurseditor im Tab "Themen" durch Kursbesitzer:innen hinzugefügt und beschrieben werden. Alternativ kann dies auch ausserhalb des Editors im Run-Mode geschehen. Je nach Konfiguration auch durch Kursbetreuer:innen.
 
@@ -152,7 +152,7 @@ Im nachstehenden Beispiel ist im unteren Bereich zusätzlich ein Feld enthalten,
 
 ## Themenbörse betreuen (Perspektive Kursbetreuer:in) {: #topic_broker_coaching}
 
-### Erfassen von Themen
+### Erfassen von Themen {: #topic_broker_coaching_capture_topics}
 
 Die wählbaren Themen können schon durch Kursbesitzer:innen hinzugefügt und beschrieben worden sein (im Kurseditor im Tab "Themen"). Alternativ kann dies **auch durch Kursbetreuer:innen** geschehen. Dazu wählen Sie als Betreuer:in den Kursbaustein und den Tab "Themen". Die Themen können hier neu erstellt oder aus einer Excel-Tabelle importiert werden. (Unter der Auswahloption "Themen importieren" finden Sie auch eine Excel-Vorlage zum Download.)
 
@@ -163,7 +163,7 @@ Die wählbaren Themen können schon durch Kursbesitzer:innen hinzugefügt und be
 [zum Seitenanfang ^](#topic_broker)
 
 
-### Ansicht der Themenwünsche
+### Ansicht der Themenwünsche {: #topic_broker_coaching_view_topic_requests}
 
 Im Tab "Teilnehmer:innen" sehen Sie als Betreuer:in, wer seine Themenwünsche schon abgegeben hat, bzw. auf der Warteliste oder schon eingeschrieben ist. Mit Klick auf das + vor einem der Namen öffnet sich die Detailansicht.
 
@@ -182,7 +182,7 @@ Im Tab "Teilnehmer:innen" sehen Sie als Betreuer:in, wer seine Themenwünsche sc
 [zum Seitenanfang ^](#topic_broker)
 
 
-### Themenzuordnung (Definitive Einschreibung ausstehend)
+### Themenzuordnung (Definitive Einschreibung ausstehend) {: #topic_broker_coaching_topic_assignment}
 
 Der Prozess verläuft in den Schritten
 
@@ -302,7 +302,8 @@ Eine Einschreibung (auch automatisch vorgenommene) kann wieder rückgängig gema
 
 Als Teilnehmer:in wählen Sie einfach den Kursbaustein Themenbörse in Ihrem Kurs. Je nach Phase des Einschreibungsprozesses wird Ihnen der aktuelle Stand der Themenvergabe angezeigt.
 
-### 1. Schritt: Themen wählen
+### 1. Schritt: Themen wählen {: #topic_broker_participant_step1}
+
 Klicken Sie bei einer Themenbeschreibung, für die Sie sich gern einschreiben würden,  auf den Button "Hinzufügen", dann wird er in die Liste Ihrer ausgewählten Themen übernommen. 
 
 Je nach voreingestellter Berechtigung können Teilnehmer:innen auch eine Einschreibung zurückziehen oder die Anzahl der Einschreibungen reduzieren.
@@ -313,7 +314,7 @@ Je nach voreingestellter Berechtigung können Teilnehmer:innen auch eine Einschr
 [zum Seitenanfang ^](#topic_broker)
 
 
-### 2. Schritt: Themen priorisieren
+### 2. Schritt: Themen priorisieren {: #topic_broker_participant_step2}
 
 Wenn Sie aus vielen Themen wählen können, empfiehlt es sich, zunächst alle in Frage kommenden Themen in Ihre Auswahl aufzunehmen. Sie können in einem zweiten Schritt dann in dieser Vorauswahl eine Rangliste erstellen.
 
@@ -325,7 +326,7 @@ Solange die Auswahl noch im Gang ist (das Zeitfenster dafür noch nicht geschlos
 [zum Seitenanfang ^](#topic_broker)
 
 
-### 3. Schritt: Zuordnung abwarten
+### 3. Schritt: Zuordnung abwarten {: #topic_broker_participant_step3}
 
 Sie werden informiert, sobald Ihnen ein Thema zugeteilt worden ist. Die definitive Zuordnung und Einschreibung (durch Ihren Betreuer/Ihre Betreuerin) findet erst statt, wenn der Zeitraum für die Auswahl abgelaufen ist und alle Kursteilnehmer:innen ihre Wünsche abgegeben haben. (Um eine gerechte Zuteilung zu ermöglichen, wird durch OpenOlat ein Zuteilungsvorschlag von einem Algorithmus erstellt.)
 
@@ -335,7 +336,7 @@ Sie werden informiert, sobald Ihnen ein Thema zugeteilt worden ist. Die definiti
 [zum Seitenanfang ^](#topic_broker)
 
 
-### 4. Schritt: Einschreibung(en) abfragen
+### 4. Schritt: Einschreibung(en) abfragen {: #topic_broker_participant_step4}
 
 Sobald die endgültige Einschreibung durch den/die Betreuer:in vorgenommen wurde, ist für Sie als Teilnehmer:in im Kursbaustein ersichtlich, für welches/welche Themen Sie eingeschrieben wurden.  
 
@@ -347,7 +348,7 @@ Sobald die endgültige Einschreibung durch den/die Betreuer:in vorgenommen wurde
 
 ---
 
-## Weitere Informationen 
+## Weitere Informationen {: #further_information}
 
 [Kursbaustein Themenvergabe](../learningresources/Course_Element_Topic_Assignment.de.md)<br>
 [Kursbaustein Einschreibung](../learningresources/Course_Element_Enrolment.de.md)<br>

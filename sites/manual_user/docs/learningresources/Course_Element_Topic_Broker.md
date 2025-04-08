@@ -1,6 +1,6 @@
 # Course Element "Topic Broker" {: #topic_broker}
 
-## Profile
+## Profile {: #profile}
 
 Name | Topic Broker
 ---------|----------
@@ -51,7 +51,7 @@ The assignment of topics in the course module Topic Exchange therefore takes pla
 [To the top of the page ^](#topic_broker)
 
 
-## Who can record eligible topics?
+## Who can record eligible topics? {: #topic_broker_eligible_topics}
 
 * By default, topics are entered by the **course owners**.
 
@@ -68,7 +68,7 @@ The assignment of topics in the course module Topic Exchange therefore takes pla
 
 ## Set up topic exchange (course owner perspective) {: #topic_broker_setup}
 
-### "Configuration" Tab
+### "Configuration" Tab {: #topic_broker_setup_tab_config}
 
 In the "Configuration" tab, the framework conditions for the choice of subject and enrollment are defined.
 
@@ -110,7 +110,7 @@ Editing can be specified in even greater detail if the extended configuration is
 [To the top of the page ^](#topic_broker)
 
 
-### "Custom fields" tab
+### "Custom fields" tab {: #topic_broker_setup_tab_custom_fields}
 
 Additional fields can be created in the "Custom fields" tab, which are then displayed in each topic. They can be edited and deleted at any time under the 3 dots at the end of a line.
 
@@ -133,7 +133,8 @@ If the toggle button is activated, this field appears in the overview table by d
 [Up (Course owner perspective) ^](#topic_broker_setup)<br>
 [To the top of the page ^](#topic_broker)
 
-### Tab "Topic" (Capturing topics)
+
+### Tab "Topic" (Capturing topics) {: #topic_broker_setup_tab_topic}
 
 The selectable topics can be added and described by course owners in the "Topics" tab of the course editor. Alternatively, this can also be done outside of the editor in run mode. Depending on the configuration, this can also be done by course coaches.
 
@@ -150,7 +151,7 @@ In the example below, the lower section also contains a field that was added in 
 
 ## Coach topic exchange (course coach perspective) {: #topic_broker_coaching}
 
-### Capture topics
+### Capture topics {: #topic_broker_coaching_capture_topics}
 
 The selectable topics may have already been added and described by course owners (in the "Topics" tab in the course editor). Alternatively, this can also be done by **course tutors**. As a coach, select the course element and the "Topics" tab. The topics can be newly created here or imported from an Excel spreadsheet. (You will also find an Excel template for download under the "Import topics" selection option).
 
@@ -160,7 +161,7 @@ The selectable topics may have already been added and described by course owners
 [To the top of the page ^](#topic_broker)
 
 
-### View of topic requests
+### View of topic requests {: #topic_broker_coaching_view_topic_requests}
 
 In the "Participants" tab, coaches can see who has already submitted their topic requests, who is on the waiting list or who is already enrolled. Click on the + in front of one of the names to open the detailed view.
 
@@ -178,7 +179,7 @@ In the "Participants" tab, coaches can see who has already submitted their topic
 [To the top of the page ^](#topic_broker)
 
 
-### Topic assignment (final enrollment pending)
+### Topic assignment (final enrollment pending) {: #topic_broker_coaching_topic_assignment}
 
 The process proceeds in the following steps
 
@@ -284,7 +285,8 @@ The button is available both in the course editor (for course owners) and in run
 
 As a participant, simply select the course element Topic Broker in your course. Depending on the phase of the enrolment process, you will be shown the current status of topic allocation.
 
-### 1. Step: Select topics
+### 1. Step: Select topics {: #topic_broker_participant_step1}
+
 Click on the "Add" button for a topic description that you would like to enrol in and it will be added to the list of your selected topics. 
 
 Depending on the preset authorization, participants can also withdraw an enrolment or reduce the number of enrolments.
@@ -296,7 +298,7 @@ Depending on the preset authorization, participants can also withdraw an enrolme
 [To the top of the page ^](#topic_broker)
 
 
-### 2. Step: Prioritize topics
+### 2. Step: Prioritize topics {: #topic_broker_participant_step2}
 
 If you have many topics to choose from, it is advisable to first include all possible topics in your selection. In a second step, you can then create a ranking list from this preselection.
 
@@ -308,7 +310,7 @@ As long as the selection is still in progress (the time window for this is not y
 [To the top of the page ^](#topic_broker)
 
 
-### 3. Step: Wait for assignment
+### 3. Step: Wait for assignment {: #topic_broker_participant_step3}
 
 You will be informed as soon as you have been assigned a topic. The final assignment and enrolment (by your coach) will only take place once the selection period has expired and all course participants have submitted their requests. (To enable fair allocation, OpenOlat creates an allocation proposal from an algorithm).
 
@@ -319,7 +321,7 @@ You will be informed as soon as you have been assigned a topic. The final assign
 [To the top of the page ^](#topic_broker)
 
 
-### 4. Step: Request enrolment(s)
+### 4. Step: Request enrolment(s) {: #topic_broker_participant_step4}
 
 As soon as the final enrolment has been made by the coach, you as a participant will be able to see in the course element which topic(s) you have been enroled for.  
 
@@ -330,7 +332,7 @@ As soon as the final enrolment has been made by the coach, you as a participant 
 
 ---
 
-## Further informations
+## Further information {: #further_information}
 
 [Course element Topic Assignment](../learningresources/Course_Element_Topic_Assignment.md)<br>
 [Course element Enrolment](../learningresources/Course_Element_Enrolment.md)<br>

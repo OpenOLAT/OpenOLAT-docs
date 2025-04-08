@@ -1,7 +1,7 @@
 # Course Element "Selection" {: #selection}
 
 
-## Profile
+## Profile {: #profile}
 
 Name | Selection
 ---------|----------
@@ -47,7 +47,7 @@ The selected course elements will then appear in your course menu and can be edi
     Once a selection has been made, it can no longer be changed by participants. Intervention by the course owner or coach is required to reset the selection.
 
 
-### View in the learning path tool
+### View in the learning path tool {: #selection_participant_view_in_learning_path_tool}
 
 Course participants will find the "Learning path" icon in the toolbar, where they can see which course elements they have already completed.
 As long as no selection has been made in a course element of the type "Selection", no course elements assigned to the selection element are displayed in the learning path tool. As soon as a selection has been made, the selected course elements are displayed.
@@ -64,16 +64,16 @@ As long as no selection has been made in a course element of the type "Selection
 
 ## Set up selection (Perspective course owner) {: #selection_setup}
 
-### Add course element
+### Add course element {: #selection_setup_add_element}
 
 Insert a "Selection" course element into your course in the course editor in the same way as you insert a "Structure" course element.
 
-### Capture selectable topics
+### Capture selectable topics {: #selection_setup_capture_topics}
 
 In the course editor, drag additional course elements onto the "Selection" course element so that they are subordinate to it. The available selection then refers to these subordinate modules.
 
 
-### Tab "Learning path"
+### Tab "Learning path" {: #selection_setup_tab_learning_path}
 
 In contrast to the assigned course elements, you can choose whether the course element is compulsory, voluntary or subject to an exception in the selection element itself for **implementation**.
 
@@ -81,7 +81,7 @@ The **completion criterion** can **not** be set for a course element "Selection"
 It counts whether assigned course elements have been selected and completed. 
 
 
-### "Learning path" tab of the assigned course elements
+### "Learning path" tab of the assigned course elements {: #selection_setup_tab_learning_path_assigned_elements}
 
 All course elements assigned to a course element "Selection" in the course editor are automatically "**excluded**" at the beginning, i.e. not displayed in the course menu by default.
 This automatically set property **cannot** be changed by authors in the course editor.
@@ -91,7 +91,7 @@ Later, during the course, this property is automatically changed individually ac
 ![course_element_selection_subordinate_path_v1_de.png](assets/course_element_selection_subordinate_path_v1_de.png){ class="shadow lightbox" }
 
 
-### Tab "Configuration"
+### Tab "Configuration" {: #selection_setup_tab_config}
 
 In the "Configuration" tab, you can specify how many course elements the participants must transfer from the suggestions to their personal course menu.
 This is mandatory information for course owners so that the "Selection" course element works. 
@@ -106,7 +106,7 @@ This is mandatory information for course owners so that the "Selection" course e
 
 ## Coaching (Perspective coach) {: #selection_coaching}
 
-### View course elements
+### View course elements {: #selection_coaching_view_elements}
 
 In the course menu, as a coach you will see **all** the course elements available for the participants to choose from below a course element "Selection". 
 
@@ -124,7 +124,7 @@ If the participant has selected the required number of course elements, the yell
 ![course_element_selection_coach1_v1_de.png](assets/course_element_selection_coach1_v1_de.png){ class="shadow lightbox" }
 
 
-### View of selected course elements in the learning path tool
+### View of selected course elements in the learning path tool {: #selection_coaching_view_selected_elements}
 
 Coaches can display the learning paths of all course participants under the "Learning path" icon in the toolbar. Open the tool and select a participant.
 
@@ -140,7 +140,7 @@ If no selection has yet been made by the course participant, no course elements 
 [To the top of the page ^](#selection)
 
 
-### Reset or change selection made by participants
+### Reset or change selection made by participants {: #selection_coaching_reset_selection}
 
 Coaches and owners have the opportunity to edit the selection made by participants: 
 
@@ -165,7 +165,7 @@ Coaches and owners have the opportunity to edit the selection made by participan
 
 ---
 
-## Further information
+## Further information {: #further_information}
 
 
 [How do I use course element "Selection"?](../../manual_how-to/course_element_selection/course_element_selection.md)<br>
