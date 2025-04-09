@@ -1,6 +1,6 @@
 # Module: Übersicht {: #modules}
 
-![admin_module_overview_v1_de.png](assets/admin_module_overview_v1_de.png){ class="shadow lightbox aside-left-lg" }
+![admin_module_overview_v2_de.png](assets/admin_module_overview_v2_de.png){ class="shadow lightbox aside-left-lg" }
 
 In diesem Bereich haben Administrator:innen Zugriff auf die Module:
 
@@ -15,12 +15,10 @@ Hier können Chat und Kurznachrichten aktiviert und konfiguriert werden.
 
 
 
-## Kontaktverfolgung {: #contact_tracing}
+## Kurserinnerungen {: #course_reminders}
 
-Dieses Modul wurde während der COVID-Pandemie erstellt. Aktivieren Sie das Modul, wenn Sie über physische Orte verfügen, an denen sich Menschen treffen und Sie aufgrund von Vorschriften im Bereich der öffentlichen Gesundheit (z.B. COVID19) den Behörden Informationen zur Kontaktverfolgung zur Verfügung stellen müssen.
+Sind die Kurserinnerungen hier aktiviert, werden zu den hier bestimmbaren Zeitpunkten die Versandbedingungen überprüft und die fälligen Mails verschickt.
 
-
-[Zu den Details >](Modules_Contact_Tracing.de.md)<br>
 [Zum Seitenanfang ^](#modules)
 
 
@@ -42,20 +40,22 @@ Hier können Sie die Wikiressource systemweit ein- oder ausschalten. Die Wiki Ko
 
 
 
-## Kurserinnerungen {: #course_reminders}
-
-Sind die Kurserinnerungen hier aktiviert, werden zu den hier bestimmbaren Zeitpunkten die Versandbedingungen überprüft und die fälligen Mails verschickt.
-
-[Zum Seitenanfang ^](#modules)
-
-
-
 ## Audio/Video-Aufnahme {: #audio_video_recording}
 
 Hier wird die an verschiedenen Stellen in OpenOlat vorhandene Möglichkeit für Audio- und Videoaufnahmen ein- oder ausgeschaltet.
 Die aufgezeichneten Audio- und Videodaten werden automatisch im Hintergrund von einem externen Dienst in ein Format konvertiert, das mit den meisten Browsern kompatibel ist. Auch ein lokales Transcoding kann aktiviert werden.
 
 [Zu den Details >](Modules_Audio_Video_Recording.de.md)<br>
+[Zum Seitenanfang ^](#modules)
+
+
+
+## Kontaktverfolgung {: #contact_tracing}
+
+Dieses Modul wurde während der COVID-Pandemie erstellt. Aktivieren Sie das Modul, wenn Sie über physische Orte verfügen, an denen sich Menschen treffen und Sie aufgrund von Vorschriften im Bereich der öffentlichen Gesundheit (z.B. COVID19) den Behörden Informationen zur Kontaktverfolgung zur Verfügung stellen müssen.
+
+
+[Zu den Details >](Modules_Contact_Tracing.de.md)<br>
 [Zum Seitenanfang ^](#modules)
 
 
@@ -77,19 +77,19 @@ Der Dokumentenpool stellt eine Dokumentenbibliothek bereit, mit automatischer St
 
 
 
-## Livestream {: #livestream}
-
-Hier kann der Kursbaustein "Livestream" verfügbar gemacht und konfiguriert werden (Paella Player).
-
-[Zum Seitenanfang ^](#modules)
-
-
-
 ## Taxonomie {: #taxonomy}
 
 Hier können mehrere Taxonomien für unterschiedliche Bereiche in OpenOlat erstellt und editiert werden.
 
 [Zu den Details >](Modules_Taxonomy.de.md)<br>
+[Zum Seitenanfang ^](#modules)
+
+
+
+## Livestream {: #livestream}
+
+Hier kann der Kursbaustein "Livestream" verfügbar gemacht und konfiguriert werden (Paella Player).
+
 [Zum Seitenanfang ^](#modules)
 
 
@@ -152,11 +152,12 @@ Administrator:innen können hier auch Kurs- und Gruppenmitglieder bereinigen.
 
 
 
-## Lektionen {: #lectures}
+## Termine / Absenzen (bis Release 19: Lektionen) {: #lectures}
 
-Wird hier das Lektionen- und Absenzenmanagement eingeschaltet, kann es mit einer Vielzahl an Optionen konfiguriert werden. 
+Wird hier das Management für Termine und Absenzen (vor Release 20: Lektionen- und Absenzenmanagement) eingeschaltet, kann es mit einer Vielzahl an Optionen konfiguriert werden. 
 
-[Zu den Details >](Lecture_and_roll_call_management.de.md)<br>
+[Zu den Details von "Termine / Absenzen" >](Modules_Events_and_Absences.de.md)<br>
+[Zu den Details des Lektionen- und Absenzenmanagements >](Lecture_and_roll_call_management.de.md)<br>
 [Zum Seitenanfang ^](#modules)
 
 
@@ -242,11 +243,12 @@ Hier können Anfragen zum Löschen des Kontos erlaubt werden. Für die Löschanf
 
 
 
-## Curriculum {: #curriculum}
+## Course Planner (bis Release 19: Curriculum) {: #curriculum}
 
-Wird das Modul "Curriculum" hier aktiviert, können Curriculumtypen angelegt und Einstellungen dazu gemacht werden. 
+Wird das Modul "Course Planner" (vor Release 20: Modul "Curriculum") hier aktiviert, können Elementtypen (vor Release 20: Curriculumtypen) angelegt und Einstellungen dazu gemacht werden. 
 
-[Zu den Details >](Modules_Curriculum.de.md)<br>
+[Zu den Details des Course Planners >](Modules_Course_Planner.de.md)<br>
+[Zu den Details des Curriculums >](Modules_Curriculum.de.md)<br>
 [Zum Seitenanfang ^](#modules)
 
 

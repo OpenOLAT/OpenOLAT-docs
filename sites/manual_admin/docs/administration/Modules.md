@@ -1,8 +1,9 @@
 # Modules: Overview {: #modules}
 
-![admin_module_overview_v1_de.png](assets/admin_module_overview_v1_de.png){ class="shadow lightbox aside-left-lg" }
+![admin_module_overview_v2_de.png](assets/admin_module_overview_v2_de.png){ class="shadow lightbox aside-left-lg" }
 
 Administrators have access to the modules in this area:
+
 
 
 ## Instant Messaging {: #instant_messaging}
@@ -13,12 +14,13 @@ Chat and short messages can be activated and configured here.
 [To the top of the page ^](#modules)
 
 
-## Contact Tracing {: #contact_tracing}
 
-This module was created during the COVID pandemic. Activate the module if you have physical locations where people meet and you need to provide contact tracing information to the authorities due to public health regulations (e.g. COVID19).
+## Course reminders {: #course_reminders}
 
-[See the details >](Modules_Contact_Tracing.md)<br>
+If the price reminders are activated here, the dispatch conditions are checked at the times specified here and the mails due are sent.
+
 [To the top of the page ^](#modules)
+
 
 
 ## Video {: #video}
@@ -29,18 +31,13 @@ The video learning resource and the video course element can be activated here. 
 [To the top of the page ^](#modules)
 
 
+
 ## Wiki {: #wiki}
 
 Here you can switch the wiki resource on or off system-wide. The wiki component is currently still vulnerable to cross-site scripting attacks (XSS). The XSS scanner can therefore also be activated. This can lead to impairments in the wiki functionality in OpenOlat. If the XSS scanner is switched off, the wiki can be used with the risk of an XSS attack. However, the wiki component has automatic versioning, which makes it difficult for attackers to remain undetected. 
 
 [To the top of the page ^](#modules)
 
-
-## Course reminders {: #course_reminders}
-
-If the price reminders are activated here, the dispatch conditions are checked at the times specified here and the mails due are sent.
-
-[To the top of the page ^](#modules)
 
 
 ## Audio/Video recording {: #audio_video_recording}
@@ -50,6 +47,16 @@ The recorded audio and video data is automatically converted in the background b
 
 [See the details >](Modules_Audio_Video_Recording.md)<br>
 [To the top of the page ^](#modules)
+
+
+
+## Contact Tracing {: #contact_tracing}
+
+This module was created during the COVID pandemic. Activate the module if you have physical locations where people meet and you need to provide contact tracing information to the authorities due to public health regulations (e.g. COVID19).
+
+[See the details >](Modules_Contact_Tracing.md)<br>
+[To the top of the page ^](#modules)
+
 
 
 
@@ -69,12 +76,6 @@ Der Dokumentenpool stellt eine Dokumentenbibliothek bereit, mit automatischer St
 [To the top of the page ^](#modules)
 
 
-## Livestream {: #livestream}
-
-The course element "Livestream" can be made available and configured here (Paella Player).
-
-[To the top of the page ^](#modules)
-
 
 ## Taxonomy {: #taxonomy}
 
@@ -82,6 +83,15 @@ Several taxonomies can be created and edited for different areas in OpenOlat.
 
 [See the details >](Modules_Taxonomy.md)<br>
 [To the top of the page ^](#modules)
+
+
+
+## Livestream {: #livestream}
+
+The course element "Livestream" can be made available and configured here (Paella Player).
+
+[To the top of the page ^](#modules)
+
 
 
 ## Semester terms {: #semester_terms}
@@ -93,6 +103,8 @@ management. For example, "SuSe23" could be used as the designation and "Summer
 semester 2023" as the name.
 
 [To the top of the page ^](#modules)
+
+
 
 
 ## Media Center {: #media_center}
@@ -138,11 +150,14 @@ Administrators can also purge course and group members here.
 
 
 
-## Lectures  {: #lectures}
 
-If lesson and absence management is activated here, it can be configured with a variety of options. 
 
-[See the details >](Lecture_and_roll_call_management.md)<br>
+## Events / Absences (up to release 19: Lessons) {: #lectures}
+
+If event and absence management (before release 20: lesson and absence management) is activated here, it can be configured with a variety of options.  
+
+[See the details of "Events / Absences" >](Modules_Events_and_Absences.md)<br>
+[See the details of "Lessons" >](Lecture_and_roll_call_management.md)<br>
 [To the top of the page ^](#modules)
 
 
@@ -152,6 +167,7 @@ If lesson and absence management is activated here, it can be configured with a 
 Here you can activate the "Library" menu and select the corresponding resource folder.
 
 [To the top of the page ^](#modules)
+
 
 
 ## Forum {: #forum}
@@ -175,6 +191,7 @@ When authors create new courses, they will find default settings that are define
 
 
 
+
 ## Course elements {: #course_elements}
 
 Here you can define which course element types OpenOlat authors have available for their course creation.
@@ -191,12 +208,14 @@ The use of a catalog can be switched on or off and configured here.
 [To the top of the page ^](#modules)
 
 
+
 ## Repository {: #repository}
 
 Here you make settings in the repository.
 
 [See the details >](Modules_Repository.md)<br>
 [To the top of the page ^](#modules)
+
 
 
 ## Organisations {: #organisations}
@@ -223,12 +242,15 @@ Requests to delete the account can be permitted here. An e-mail address can be e
 [To the top of the page ^](#modules)
 
 
-## Curriculum {: #curriculum}
 
-If the "Curriculum" module is activated here, curriculum types can be created and settings made for them. 
+## Course Planner (up to release 19: Curriculum) {: #curriculum}
 
-[See the details >](Modules_Curriculum.md)<br>
+If the "Course Planner" module (before release 20: module "Curriculum") is activated here, element types (before release 20: curriculum types) can be created and settings made for them.
+
+[See the details of the Course Planner >](Modules_Course_Planner.md)<br>
+[See the details of module Curriculum >](Modules_Curriculum.md)<br>
 [To the top of the page ^](#modules)
+
 
 
 ## To-do {: #to-do}
@@ -237,6 +259,7 @@ If the module is activated, you can define who can create, assign or delegate to
 
 [See the details >](Modules_ToDo.md)<br>
 [To the top of the page ^](#modules)
+
 
 
 ## Projects {: #projects}
@@ -254,6 +277,8 @@ Here you will find the activation of quality management and the necessary defini
 
 [See the details >](Modules_Quality_Management.md)<br>
 [To the top of the page ^](#modules)
+
+
 
 ## SEO / OATI-PMH metadata {: #OAI-PMH}
 
