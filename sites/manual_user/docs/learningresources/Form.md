@@ -21,8 +21,8 @@ Here you will find information on how to create and configure forms for the purp
 [Form question rules >](Form_Question_Rules.md)<br>
   
 [Forms in courses >](../learningresources/Forms_in_Courses.md)<br>
-[Forms in forms element](Forms_in_Forms_Element.md)<br>
-[Forms in surveys](Forms_in_Questionnaires.md)<br>
+[Forms in forms element](../learningresources/Course_Element_Form.md)<br>
+[Forms in surveys](../learningresources/Course_Element_Survey.md)<br>
 [Forms in Rubric Scoring](Forms_in_Rubric_Scoring.md)<br>
 [Forms in peer reviews](Course_Element_Task.md#revisions)<br>
 [Form in the Portfolio 2.0 template](Forms_in_the_ePortfolio_template.md)

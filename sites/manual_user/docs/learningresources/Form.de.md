@@ -20,8 +20,8 @@ Hier finden Sie Informationen, wie Formulare für die genannten Zwecke erstellt 
 [Frageregeln in Formularen >](Form_Question_Rules.de.md)<br>
 
 [Formulare in Kursen >](Forms_in_Courses.de.md)<br>
-[Formulare im Kursbaustein Formular >](Forms_in_Forms_Element.de.md)<br>
-[Formulare im Kursbaustein Umfrage >](Forms_in_Questionnaires.de.md)<br>
+[Formulare im Kursbaustein Formular >](../learningresources/Course_Element_Form.de.md) <br>
+[Formulare im Kursbaustein Umfrage >](../learningresources/Course_Element_Survey.de.md)<br>
 [Formulare als Rubrik Bewertung >](Forms_in_Rubric_Scoring.de.md)<br>
 [Formulare in Peer-Reviews >](Course_Element_Task.de.md#revisions)<br>
 [Formulare in der Portfolio 2.0 Vorlage >](Forms_in_the_ePortfolio_template.de.md)<br>

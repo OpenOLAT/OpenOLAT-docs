@@ -119,7 +119,7 @@ Mit dem Klick auf der Titelzeile des Inspektorfensters kann dieser auch verschob
 
 ![form_content_inspector_v1_de.png](assets/form_content_inspector_v1_de.png){ class="shadow lightbox" }
 
-**Je nach gewähltem Inhaltsblock werden im Inspektor verschiedene Optionen angezeigt.**
+Je nach gewähltem Inhaltsblock werden im Inspektor verschiedene Optionen angezeigt.
 
 **Beispiel Inspektor zum Titel, Tab "Style"**
 
@@ -175,7 +175,7 @@ Sie können hier die Konfiguration vornehmen, wie Sie es von anderen Lernressour
 
 Hier noch ein paar Tipps zur Verwendung des Formular-Editors:
 
-* Bei der Wahl "Rubrik" werden die Fragen und Antworten zusammen erstellt. Bei allen anderen Fragetypen werden die Fragen mit Hilfe des Elements "Paragraph" erstellt und den Antworten des passenden Fragetyps zugeordnet.
+* Bei der Wahl des Inhaltselements "Rubrik" werden die Fragen und Antworten zusammen erstellt. Bei allen anderen Fragetypen werden die Fragen mit Hilfe des Elements "Paragraph" erstellt und den Antworten des passenden Fragetyps zugeordnet.
 * Verwenden Sie [Frageregeln](../learningresources/Form_Question_Rules.de.md), wenn Sie komplexere Formulare mit Verzweigungen erstellen möchten.
 * Vergessen Sie nicht, den Blöcken Namen zu geben, wenn Sie eine selektive Freigabe per Frageregeln erstellen wollen.
 

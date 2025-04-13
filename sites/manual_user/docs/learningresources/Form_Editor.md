@@ -109,7 +109,7 @@ The inspector can also be moved by clicking on the title bar of the inspector wi
 
 ![form_content_inspector_v1_de.png](assets/form_content_inspector_v1_de.png){ class="shadow lightbox" }
 
-**Depending on the content block selected, different options are displayed in the inspector.**
+Depending on the content block selected, different options are displayed in the inspector.
 
 **Example inspector for the title, "Style" tab**
 
