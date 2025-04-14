@@ -2,13 +2,18 @@
 
 ## Tab Einstellungen {: #tab_settings}
 
-Hier können Administrator:innen das Modul des Kataloges einschalten. Man kann den Katalog V1 oder V2 aktivieren oder ihn komplett deaktivieren. Je nachdem welche Option Sie wählen erscheinen unterschiedliche weitere Tabs.
+Hier können Administrator:innen das Modul des Kataloges einschalten. Man kann den Katalog V1 oder V2 aktivieren oder ihn komplett deaktivieren. Je nachdem welche Option Sie wählen, erscheinen unterschiedliche weitere Tabs.
 
-Ist der Katalog V2 aktiviert, kann zusätzlich ab Release 20 der Web-Katalog aktiviert werden. 
+Ist der [Katalog V2](#config_catalog_v2) aktiviert, kann zusätzlich ab Release 20 der [Web-Katalog](#config_web-catalog) aktiviert werden. 
 
-Ausserdem kann eine Taxonomie für den Katalog gewählt werden.
+Ausserdem kann eine [Taxonomie](Modules_Taxonomy.de.md) für den Katalog gewählt werden.
 
 ![modules_catalog_tab_settings_v1_de.png](assets/modules_catalog_tab_settings_v1_de.png){ class="shadow lightbox" }
+
+[Zum Seitenanfang ^](#modul_catalog)
+
+---
+
 
 ## Konfiguration des Katalogs V1 {: #config_catalog_v1}
 
@@ -16,6 +21,10 @@ Wenn Sie den Katalog V1 einschalten, erscheint der Tab "Konfiguration" und Sie k
 
 ![Administration Katalog Version 1](assets/Admin_KatalogV1.png)
     
+[Zum Seitenanfang ^](#modul_catalog)
+
+---
+
 
 ## Konfiguration des Katalogs V2 {: #config_catalog_v2}
 
@@ -65,6 +74,11 @@ Das Löschen der Ebenen löscht nur die Verschlagwortung, keine verknüpften Ler
 
 ![Verwaltung der Taxonomie](assets/taxonomy-management.de.jpg){class="lightbox"}
 
+[Zum Seitenanfang ^](#modul_catalog)
+
+---
+
+
 ### Erstellung von passendem Bildmaterial für den Katalog {: #pictures_for_the_catalog}
 
 Im Katalog werden Bilder für unterschiedliche illustrative Zwecke benutzt. Dies ist eine Auflistung der Bildgrössen und des Verhaltens bei unterschiedlichen Dimensionen. Die unten angebotenen Schemata kann man sich als Richtlinie im Grafikprogramm über das aktuelle Bild legen, um den passenden Auschnitt zu wählen.
@@ -102,6 +116,9 @@ Können direkt im Kurs eingestellt werden und sollten die Dimensionen 570x380 px
 
 ![Quadratischer Teaser](assets/catalog_course.png){class="lightbox"}
 
+[Zum Seitenanfang ^](#modul_catalog)
+
+---
 
 ## Konfiguration des Web-Katalogs {: #config_web-catalog}
 
@@ -112,3 +129,15 @@ Der Web-Katalog ist ein nach aussen gespiegelter Katalog, auf den auch Personen 
 Der Web-Katalog kann auch vorübergehend deaktiviert werden.
 
 ![modules_catalog_web-catalog_v1_de.png](assets/modules_catalog_web-catalog_v1_de.png){ class="shadow lightbox" }
+
+[Zum Seitenanfang ^](#modul_catalog)
+
+
+---
+
+## Weitere Informationen {: #further_information}
+
+[Taxonomie einrichten >](Modules_Taxonomy.de.md)<br>
+[Beschreibung des Katalogs im Benutzerhandbuch >](../../../manual_user/area_modules/catalog2.0.de.md)<br>
+
+
