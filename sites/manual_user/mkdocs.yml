@@ -86,6 +86,7 @@ nav:
       - Overview: "area_modules/catalog2.0.md"
       - Offers: "area_modules/catalog2.0_angebote.md"
       - Design: "area_modules/catalog2.0_design.md"
+      - Web Catalog: "area_modules/catalog2.0_web.md"
     - Groups:
        - Group Management: "area_modules/Group_Management.md"
     - Coaching:
