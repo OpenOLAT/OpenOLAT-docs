@@ -1,19 +1,25 @@
-# Modul Katalog
+# Modul Katalog {: #modul_catalog}
 
-## Tab Einstellungen
+## Tab Einstellungen {: #tab_settings}
 
-Hier können Administratoren das Modul des Kataloges einstellen. Man kann den Katalog V1 oder V2 aktivieren oder ihn komplett deaktivieren. Je nachdem welche Option Sie wählen erscheinen unterschiedliche weitere Tabs.
+Hier können Administrator:innen das Modul des Kataloges einschalten. Man kann den Katalog V1 oder V2 aktivieren oder ihn komplett deaktivieren. Je nachdem welche Option Sie wählen erscheinen unterschiedliche weitere Tabs.
 
-## Konfiguration des Katalogs V1 
+Ist der Katalog V2 aktiviert, kann zusätzlich ab Release 20 der Web-Katalog aktiviert werden. 
 
-Wenn sie den Katalog V1 einschalten, erscheint der Tab "Konfiguration" und Sie können weitere Einstellungen vornehmen. 
+Ausserdem kann eine Taxonomie für den Katalog gewählt werden.
+
+![modules_catalog_tab_settings_v1_de.png](assets/modules_catalog_tab_settings_v1_de.png){ class="shadow lightbox" }
+
+## Konfiguration des Katalogs V1 {: #config_catalog_v1}
+
+Wenn Sie den Katalog V1 einschalten, erscheint der Tab "Konfiguration" und Sie können weitere Einstellungen vornehmen. 
 
 ![Administration Katalog Version 1](assets/Admin_KatalogV1.png)
     
 
-## Konfiguration des Katalogs V2
+## Konfiguration des Katalogs V2 {: #config_catalog_v2}
 
-### Tab Startseite
+### Tab Startseite {: #tab_start_page}
 
 Auf der Startseite kann man sogenannte **"Launcher"** hinzufügen. Launcher sind die konfigurierbaren Zeilen der Startseite. Standardmässig ist ein Launcher vom Typ "Zuletzt hinzugefügt" aktiviert. Die Launcher kommen in 3 Typen: Statischer Text, Statisch (Manuell auswählen), Taxonomie-Ebenen.
 Allen Launcher kann ich einen sprachabhängigen Namen geben. Dieser Name erscheint dann als Headline über den Kacheln. Die Launcher können auch nur für spezifische Organisationen freigegeben werden. Dies erreiche ich über das Label "Einschränkung auf Organisation".
@@ -32,11 +38,11 @@ Man kann die Kursliste weiter durch Filter oder Suche verfeinern.
 
 In diesem Launcher kann man statischen Text hinzufügen. Einige Optionen beinhalten: Fett, Kursiv, Textgrösse, Schriftart, Bild hinzufügen, Video hinzufügen, Trennstriche ...
 
-### Tab Filter
+### Tab Filter {: #tab_filter}
 
 Dieser Tab steuert, welche Filter auf den Microseiten und der Suchergebnisseite verfügbar sind und vom User genutzt werden können. Filter können z.B. Fachbereiche, Taxonomieebene, Angebotsart, Durchführungsformat, Semester, Lizenz, Hauptsprache, Lernressourcentyp, Autor usw. sein. 
 
-### Tab Layout
+### Tab Layout {: #tab_layout}
 
 Dieser Tab beinhaltet alles, was das Erscheinungsbild des Katalogs V2 angeht. Man kann den Anzeigetitel des Katalogs anpassen und ein Hintergrundbild für den Header der Startseite auswählen.
 
@@ -46,7 +52,7 @@ Die **Anzeige der Lernressourcen Card** steuert, welche Metadaten auf der Card d
 
 ![Course card administration Options](assets/course-card-admin.de.jpg){class="lightbox"}
 
-### Verwalten des Kataloges
+### Verwalten des Kataloges {: #v2_admin}
 
 Der Katalog V2 wird aus der Fachbereichs-Taxonomie gespeist. Benutzer mit der Rolle [Lernressourcenverwalter](../../manual_user/basic_concepts/Roles_Rights.de.md) und Administratoren können die Verschlagwortung über das Menü verwalten.
 Bei Klick gelangt man auf die Fachbereiche. Dort kann man die aktuelle Taxonomie auswählen, Neue Taxonomieebenen erstellen und importieren und auch Ebenen löschen.
@@ -59,7 +65,7 @@ Das Löschen der Ebenen löscht nur die Verschlagwortung, keine verknüpften Ler
 
 ![Verwaltung der Taxonomie](assets/taxonomy-management.de.jpg){class="lightbox"}
 
-### Erstellung von passendem Bildmaterial für den Katalog
+### Erstellung von passendem Bildmaterial für den Katalog {: #pictures_for_the_catalog}
 
 Im Katalog werden Bilder für unterschiedliche illustrative Zwecke benutzt. Dies ist eine Auflistung der Bildgrössen und des Verhaltens bei unterschiedlichen Dimensionen. Die unten angebotenen Schemata kann man sich als Richtlinie im Grafikprogramm über das aktuelle Bild legen, um den passenden Auschnitt zu wählen.
 
@@ -95,3 +101,14 @@ Quadratisch
 Können direkt im Kurs eingestellt werden und sollten die Dimensionen 570x380 px nicht überschreiten. Ansonsten wird hier auch ein passender Ausschnitt aus der Mitte genommen. Siehe hier
 
 ![Quadratischer Teaser](assets/catalog_course.png){class="lightbox"}
+
+
+## Konfiguration des Web-Katalogs {: #config_web-catalog}
+
+Wurde im Tab "Einstellungen" der Katalog V2 gewählt, steht als weitere Option die Aktivierung des Web-Katalogs zur Auswahl (ab Release 20).
+
+Der Web-Katalog ist ein nach aussen gespiegelter Katalog, auf den auch Personen zugreifen können, die noch nicht in OpenOlat registriert sind. Deshalb kann auch ein Link auf der Login-Seite eingerichtet werden, so dass der Web-Katalog ohne Login aufgerufen werden kann. Erst bei Buchung eines Kurses werden die Besucher:innen dann durch den Registrierungsprozess geführt.
+
+Der Web-Katalog kann auch vorübergehend deaktiviert werden.
+
+![modules_catalog_web-catalog_v1_de.png](assets/modules_catalog_web-catalog_v1_de.png){ class="shadow lightbox" }
