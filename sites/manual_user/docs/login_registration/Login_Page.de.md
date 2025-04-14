@@ -1,4 +1,4 @@
-# Login-Seite
+# Login-Seite {: #login}
 
 :octicons-device-camera-video-24: **Video-Einführung**: [Login](<https://www.youtube.com/embed/Sy5cXJL7K90>){:target="_blank”} 
 
@@ -14,6 +14,7 @@ Sie finden auf der Einstiegsseite je nach Konfiguration und Gestaltung
 * evtl. verschiedene Buttons von anderen Authentifizierungsdiensten
 * einen Button/Link zur Selbstregistrierung
 * einen Button für einen Zugang als Gast
+* einen Button zum Aufruf des Katalogs (ohne vorherige Registrierung)
 * einen Button/Link um ein neues Passwort anzufordern 
 * einen Link zu Ihrem Support (Telefonnummer, Mailadresse)
 * einen Link zu Hilfe-Seiten
@@ -26,9 +27,9 @@ Wenn Sie keinen der angebotenen externen Authentifizierungsdienste nutzen wollen
 
 Sollten Sie ihre Zugangsdaten (Benutzername und/oder Passwort) nicht mehr zu Hand haben, klicken Sie bitte auf "Passwort vergessen" oder wenden Sie sich an Ihren zuständigen Support.
 
-![login_v1_de.png](assets/login_v1_de.png){ class=" shadow lightbox" }
+![login_v2_de.png](assets/login_v2_de.png){ class=" shadow lightbox" }
   
-## Gastzugang
+## Gastzugang {: #guest}
 
 Alternativ können Sie OpenOlat auch als Gast besuchen. Der Gastzugang gewährt Ihnen einen Einblick in OpenOlat mit eingeschränkter Funktionalität: Sie haben nur Zugriff auf Lerninhalte, die ausdrücklich für Gäste freigegeben sind. Um Zugang zu weiteren Lernmaterialien und -aktivitäten zu erhalten, müssen Sie sich bei OpenOlat registrieren. Weitere Informationen zum Gastzugang finden Sie [hier](../basic_concepts/guest_access.de.md).
 
@@ -41,11 +42,11 @@ OpenOlat funktioniert optimal mit den folgenden Browsern in einer aktuellen Vers
 * [Microsoft Edge](https://www.microsoft.com/edge)
 * [Google Chrome](https://www.google.com/chrome/)
 
-## Cookies & Javascript
+## Cookies & Javascript {: #cookies}
 
 Grundsätzlich muss ihr Browser Session Cookies akzeptieren und Javascript muss aktiviert sein.
 
-## Nach dem Login
+## Nach dem Login {: #after_login}
 
 Nach dem Login gelangen Sie entweder
 
@@ -53,3 +54,8 @@ Nach dem Login gelangen Sie entweder
 * auf eine Infoseite, eine Seite die in der Regel generelle Informationen zu verschiedenen Themen enthält, 
 * das [OpenOlat Portal](../basic_concepts/Portal_configuration.de.md) oder 
 * auf eine von Ihnen selbst festgelegte Startseite. 
+
+
+## Nach dem Aufruf des Katalogs {: #webcatalog}
+
+Beim Aufruf des Katalogs auf der Login-Seite wird eine gespiegelte Version des Katalogs V2 angezeigt, für die keine Benutzerregistrierung zum Durchsuchen erforderlich ist. Erst wenn ein bestimmter Kurs gebucht werden soll, werden die Benutzer:innen durch einen Registrierungsprozess geführt.

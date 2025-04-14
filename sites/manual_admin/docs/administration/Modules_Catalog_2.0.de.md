@@ -138,6 +138,6 @@ Der Web-Katalog kann auch vorübergehend deaktiviert werden.
 ## Weitere Informationen {: #further_information}
 
 [Taxonomie einrichten >](Modules_Taxonomy.de.md)<br>
-[Beschreibung des Katalogs im Benutzerhandbuch >](../../../manual_user/area_modules/catalog2.0.de.md)<br>
+[Beschreibung des Katalogs im Benutzerhandbuch >](../../manual_user/area_modules/catalog2.0.de.md)<br>
 
 

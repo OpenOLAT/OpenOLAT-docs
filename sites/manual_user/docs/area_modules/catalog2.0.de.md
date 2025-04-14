@@ -1,7 +1,7 @@
-# Katalog 2.0 - Übersicht
+# Katalog 2.0:  Übersicht {: #catalog_overview}
 
 
-## Wozu dient der Katalog?
+## Wozu dient der Katalog? {: #catalog_purpose}
 
 Im Katalog können die in OpenOlat erstellten Kurse und Lernressourcen für die Lernenden präsentiert werden.
 
@@ -9,9 +9,12 @@ Interessiert sich jemand genauer für ein bestimmtes Angebot, kann zu jedem Eint
 
 Entscheidet sich die Benutzerin / der Benutzer zum Besuch eines Kurses, kann dieser direkt vom Katalog aus aufgerufen werden, bzw. man gelangt zur Einstiegsseite, auf der ggf. Anmeldedaten eingegeben werden müssen.
 
-## Wo findet man den Katalog 2.0?
 
-Die OpenOlat-User finden den Katalog im **Menü der Kopfzeile**.
+## Wo findet man den Katalog 2.0? {: #catalog_access}
+
+Das hängt davon ab, ob Sie bereits als Benutzer:in in OpenOlat registriert sind oder nicht.
+
+Die **registrierten OpenOlat-User** finden den Katalog im **Menü der Kopfzeile**.
 
 ![catalog20_kopfzeilenmenu_v1_de.png](assets/catalog20_kopfzeilenmenu_v1_de.png){ class="shadow lightbox" }
 
@@ -21,8 +24,12 @@ Voraussetzung: Der Katalog muss in der OpenOlat [Administration](../../manual_ad
 
     Falls Sie den Eintrag im Menü nicht sehen, aber sicher sind, dass der Katalog 2.0 verwendet wird, schauen Sie bitte unter "Mehr" ganz rechts nach. Hierhin werden alle Menüs verschoben, die aufgrund der Anzeigebreite des Monitors/Geräts nicht direkt angezeigt werden können.
 
+**Nicht registrierte OpenOlat-User** können auf eine von aussen zugängliche, gespiegelte Version des Katalogs zugreifen. (Ab Release 20 und sofern dieser sogenannte Web-Katalog aktiviert ist.) Der Zugriff ist direkt vom Login-Screen aus möglich. Der Link zum Web-Katalog kann aber auch an anderer Stelle in eine Website eingebaut sein. 
 
-## Die Bestandteile des Katalogs
+![catalog20_webcatalog_login_v1_de.png](assets/catalog20_webcatalog_login_v1_de.png){ class="shadow lightbox" }
+
+
+## Die Bestandteile des Katalogs {: #catalog_elements}
 
 Der Katalog 2.0 enthält die folgenden Bestandteile:
 
@@ -36,7 +43,7 @@ Der Katalog 2.0 enthält die folgenden Bestandteile:
 
 
 
-## Welche Seiten und Ansichten hat der Katalog?
+## Welche Seiten und Ansichten hat der Katalog? {: #catalog_views}
 
 **Seite/Ansicht 1:**<br>
 Wird in der Kopfzeile der Katalog (2.0) aufgerufen, dann gelangt man zunächst auf die Startseite (Landing page) mit den Launchern.
@@ -67,4 +74,8 @@ Wird zuerst eine Microsite geöffnet, können Sie in der Liste die [Infoseiten](
     Mit den Filtern kann die Listenansicht angepasst werden.
 
 
+---
 
+## Weitere Informationen {: #further_information}
+
+[Katalog einrichten (Administrationshandbuch) >](../../manual_admin/administration/Modules_Catalog_2.0.de.md)<br>
