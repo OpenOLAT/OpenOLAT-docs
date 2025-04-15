@@ -9,6 +9,9 @@ Interessiert sich jemand genauer für ein bestimmtes Angebot, kann zu jedem Eint
 
 Entscheidet sich die Benutzerin / der Benutzer zum Besuch eines Kurses, kann dieser direkt vom Katalog aus aufgerufen werden, bzw. man gelangt zur Einstiegsseite, auf der ggf. Anmeldedaten eingegeben werden müssen.
 
+[Zum Seitenanfang ^](#catalog_overview)
+
+---
 
 ## Wo findet man den Katalog 2.0? {: #catalog_access}
 
@@ -28,6 +31,9 @@ Voraussetzung: Der Katalog muss in der OpenOlat [Administration](../../manual_ad
 
 ![catalog20_webcatalog_login_v1_de.png](assets/catalog20_webcatalog_login_v1_de.png){ class="shadow lightbox" }
 
+[Zum Seitenanfang ^](#catalog_overview)
+
+---
 
 ## Die Bestandteile des Katalogs {: #catalog_elements}
 
@@ -41,7 +47,9 @@ Der Katalog 2.0 enthält die folgenden Bestandteile:
 
 ![catalog20_bestandteile_v1_de.png](assets/catalog20_bestandteile_v1_de.png){ class="shadow lightbox" }
 
+[Zum Seitenanfang ^](#catalog_overview)
 
+---
 
 ## Welche Seiten und Ansichten hat der Katalog? {: #catalog_views}
 
@@ -74,8 +82,17 @@ Wird zuerst eine Microsite geöffnet, können Sie in der Liste die [Infoseiten](
     Mit den Filtern kann die Listenansicht angepasst werden.
 
 
+[Zum Seitenanfang ^](#catalog_overview)
+
 ---
 
 ## Weitere Informationen {: #further_information}
 
+[Angebote erstellen >](../area_modules/catalog2.0_angebote.de.md)<br>
+[Katalog-Design >](../area_modules/catalog2.0_design.de.md)<br>
+[Der Web-Katalog >](../area_modules/catalog2.0_web.de.md)<br>
 [Katalog einrichten (Administrationshandbuch) >](../../manual_admin/administration/Modules_Catalog_2.0.de.md#config_web-catalog)<br>
+
+
+[Zum Seitenanfang ^](#catalog_overview)
+
