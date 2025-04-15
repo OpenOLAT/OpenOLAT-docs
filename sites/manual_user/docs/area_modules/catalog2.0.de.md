@@ -78,4 +78,4 @@ Wird zuerst eine Microsite geöffnet, können Sie in der Liste die [Infoseiten](
 
 ## Weitere Informationen {: #further_information}
 
-[Katalog einrichten (Administrationshandbuch) >](../../manual_admin/administration/Modules_Catalog_2.0.de.md)<br>
+[Katalog einrichten (Administrationshandbuch) >](../../manual_admin/administration/Modules_Catalog_2.0.de.md#config_web-catalog)<br>
