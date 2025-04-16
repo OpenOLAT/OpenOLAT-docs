@@ -247,6 +247,7 @@ plugins:
           Creating Tests : Tests erstellen
           Creating Videos : Video erstellen
           Creating Wikis : Wiki erstellen
+          Curricula/Products : Curricula/Produkte
           Curriculum Management : Curriculumverwaltung
           Customizing : Customizing
           Dashboard : Dashboard
@@ -277,6 +278,7 @@ plugins:
           edu-sharing: edu-sharing
           Edubase: Edubase
           Enrolment: Einschreibung
+          Events : Termine
           Events and Absences : Termine und Absenzen
           Evidence of Achievements: Leistungsnachweise
           Exams : Prüfungen
@@ -342,6 +344,7 @@ plugins:
           How to customize the course design with CSS : Wie kann ich eigene CSS für das Kursdesign verwenden?
           How to use the same files in several courses : Wie kann ich dieselben Dateien in mehreren Kursen einsetzen?
           HTML Page : HTML-Seite
+          Implementations : Durchführungen
           Import questions : Fragen importieren
           Imprint: Impressum
           In Five Steps to Your Content Package : Fünf Schritte zu Ihrem Content-Packaging

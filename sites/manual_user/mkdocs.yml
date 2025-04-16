@@ -143,7 +143,12 @@ nav:
         - Multiple use of entries: "area_modules/Multiple_use_of_entries.md"
         - Competences tags: "area_modules/Competences_tags.md"
         - The portfolio editor: "area_modules/The_portfolio_editor_17_1.md"
-    - Course Planner: "area_modules/Course_Planner.md"
+    - Course Planner:
+        - Overview: "area_modules/Course_Planner.md"
+        - Curricula/Products: "area_modules/Course_Planner_Products.md"
+        - Implementations: "area_modules/Course_Planner_Implementations.md"
+        - Events: "area_modules/Course_Planner_Events.md"
+        - Reports: "area_modules/Course_Planner_Reports.md"
     - Curriculum Management: "area_modules/Curriculum_Management.md"
     - Absence Management: "area_modules/Absence_Management.md"
     - Quality Management:
