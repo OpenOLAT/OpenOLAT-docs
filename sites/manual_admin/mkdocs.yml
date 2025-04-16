@@ -33,6 +33,7 @@ nav:
       - Module Repository: "administration/Modules_Repository.md"
       - Module Organisations: "administration/Modules_Organisations.md"
       - Module Curriculum: "administration/Modules_Curriculum.md"
+      - Module Course Planner: "administration/Modules_Course_Planner.md"
       - Module To-do: "administration/Modules_ToDo.md"
       - Module Projects: "administration/Modules_Projects.md"
       - Module Quality Management: "administration/Modules_Quality_Management.md"

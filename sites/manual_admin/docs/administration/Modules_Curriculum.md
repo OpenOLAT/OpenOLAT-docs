@@ -1,4 +1,4 @@
-# Modules Curriculum
+# Module Curriculum (up to release 19)
 
 ## Activation of the Curriculum
 

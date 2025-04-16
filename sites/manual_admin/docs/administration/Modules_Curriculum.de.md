@@ -1,4 +1,4 @@
-# Modul Curriculum
+# Modul Curriculum (bis Release 19)
 
 ## Aktivierung des Curriculums
 
