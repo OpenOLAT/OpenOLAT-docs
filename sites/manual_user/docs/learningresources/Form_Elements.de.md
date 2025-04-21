@@ -1,15 +1,18 @@
 # Formular-Elemente {: #form_elements} 
 
-In ein Formular können Sie die folgenden Inhaltselemente einfügen:
+In ein Formular können Sie über den Link "Inhalt hinzufügen" die folgenden Inhaltselemente  einem Layout hinzufügen:
 
 ![form_content_types_v1_de.png](assets/form_content_types_v1_de.png){ class="shadow lightbox" }
 
+Generell können alle Elemente aus dem Bereich "Fragetypen" als obligatorisch oder freiwillig konfiguriert werden. Obligatorisch bedeutet, dass die Teilnehmenden dieses Element zwingend ausfüllen müssen um das Formular final speichern zu können. Bei "freiwillig" kann das Formular auch gespeichert werden, wenn das Element nicht ausgefüllt wurde. 
+
+Ferner können viele Elemente mit einer speziellen *Hinweisbox* versehen werden (siehe unten) und auch die Grösse des Abstandes zwischen einzelnen Elementen im Tab "Layout" definiert werden. 
 
 ---
 
 ## Titel {: #form_element_title} 
 
-Das Inhaltselement Titel verwenden Sie für Überschriften. Sie können für die Schriftgrösse vordefinierte Formatierungen von h1 bis h6 auswählen.
+Das Inhaltselement "Titel" verwenden Sie für Überschriften. Sie können für die Schriftgrösse vordefinierte Formatierungen von h1 bis h6 auswählen.
 
 ![form_content_title_v1_de.png](assets/form_content_title_v1_de.png){ class="shadow lightbox" }
 
@@ -19,43 +22,12 @@ Das Inhaltselement Titel verwenden Sie für Überschriften. Sie können für die
 
 ## Text {: #form_element_text} 
 
-Das Textelement ist das am häufigsten verwendete Inhaltselement. Ein kleiner Editor ermöglicht verschiedene Formatierungen, das Hinzufügen von Links, HInzufügen von Aufzählungspunkten, usw.
-
-Es besteht auch die Möglichkeit den Text auf bis zu 4 Spalten zu verteilen.
+Mit dem Textelement können sämtliche Varianten von Texten, z.B. Informationen oder Fragen einem Formular hinzugefügt werden. Ein kleiner Editor ermöglicht verschiedene Formatierungen, das Hinzufügen von Links, Hinzufügen von Aufzählungspunkten, usw.. 
 
 ![form_content_text_v1_de.png](assets/form_content_text_v1_de.png){ class="shadow lightbox" }
 
 
-<h3>Hinweisbox</h3>
 
-Bei eingeschaltetem Toggle-Button wird der Text als Box angezeigt.
-
-![form_content_text_box_v1_de.png](assets/form_content_text_box_v1_de.png){ class="shadow lightbox" }
-
-Es werden die nachfolgenden Optionen zur Konfiguration angeboten.
-
-**Typ**<br>
-Mit dem Typ wird angegeben, welche vorformatierte Version der Box verwendet wird, bzw. ob sie benutzerdefiniert gestaltet wird.
-
-Es stehen folgende Typen zur Auswahl:
-
-* Notiz
-* Information
-* Tipp
-* Wichtig
-* Warnung
-* Fehler
-* Erfolg
-* Benutzerdefiniert (Hier können Sie selbst ein Icon wählen und die Hintergrundfarbe der Box auswählen.)
-
-**Titel**<br>
-Der Titel, den sie hier angeben, erscheint im Kopf der Hinweisbox.
-
-**Mit Icon**<br>
-Wählen Sie diese Option, wird in der linken oberen Ecke der Hinweisbox ein Icon angezeigt, z.B. eine "i" wenn als Typ "Information" gewählt wird.
-
-**Einklappbar**<br>
-Wahlen Sie diese Option, kann die ganze Box in der Teilnehmeransicht durch Klick auf das Symbol in der rechten oberen Ecke eingeklappt werden (nur die Titelzeile wird angezeigt). Mit erneutem Klick auf das Symbol wird die Box wieder in Normalgrösse angezeigt.
 
 [zum Seitenanfang ^](#form_elements)
 
@@ -64,7 +36,6 @@ Wahlen Sie diese Option, kann die ganze Box in der Teilnehmeransicht durch Klick
 ## Tabelle {: #form_element_tabelle} 
 
 Fügen Sie bei Bedarf dem Formular eine Tabelle hinzu und konfigurieren Sie diese.
-Eine Tabelle kann - wie das Textelement - auch als Hinweisbox gestaltet werden.
 
 ![form_content_table_v1_de.png](assets/form_content_table_v1_de.png){ class="shadow lightbox" }
 
@@ -75,13 +46,12 @@ Eine Tabelle kann - wie das Textelement - auch als Hinweisbox gestaltet werden.
 
 ## Rubrik {: #form_element_rubric}
 
-Im Unterschied zu Einzel- und Mehrfachauswahl, werden in einem [Rubrik-Element](Form_Element_Rubric.de.md) mehrere Fragen und Antworten über dasselbe Element organisiert.
-
-Für die Darstellung einer [Rubrik](Form_Element_Rubric.de.md) stehen unterschiedliche Typen zur Verfügung. Die Bewertungen können sich wie bei Einzelauswahl-Fragen (Single-Choice) nur auf einen Aspekt beziehen oder kontinuierlich erfolgen. 
+Ein Rubrik-Element besteht aus einem Gittermit Zeilen und Spalten. In den Zeilen werden die Bewertungskategorien bzw. Statements aufgeführt während die Spaltenüberschriften die Bewertungsskalen wiedergeben. So können sich mehrere unterschiedliche Statements auf eine Bewertungsskala beziehen. 
+Je nach konkreter Konfiguration können dabei sehr unterschiedliche Rubrik-Varianten entstehen die in Kursen u.a. auch als Bewertungselement für Lehrende oder als [Peer-Reviews](../learningresources/Course_Element_Task.de.md) im Aufgabenbaustein verwendet werden können.
 
 Mehr Information finden Sie in einer separaten Beschreibung des [Rubrik-Elements](Form_Element_Rubric.de.md).
 
-![form_content_rubric_v1_de.png](assets/form_content_rubric_v1_de.png){ class="shadow lightbox" }
+![Rubrik Element](assets/Rubrik.jpg){ class="shadow lightbox" }
 
 [zum Seitenanfang ^](#form_elements)
 
@@ -94,7 +64,10 @@ In einer Einzelauswahl (Single-Choice) muss von den Kursteilnehmenden genau 1 Op
 * Sie können mit dem Button "Eintrag hinzufügen" der Liste weitere Auswahloptionen hinzufügen.
 * Die Einträge können über die Pfeiltasten nach oben oder unten verschoben werden.
 * Die einzelnen Antwortmöglichkeiten können dabei nebeneinander, untereinander oder als Wahl Menü über die Option "Auswahlliste“ dargestellt werden. 
-* Im Bereich "Pflicht" kann man die Frage als obligatorisch oder freiwillig einstellen.
+
+!!! Tip "Hinweis"
+
+    Soll die Auswahl mit einer Fragestellung verknüpft werden müssen Sie dafür ein separates Text-Element verwenden. Gleiches gilt für die Mehrfachauswahl.
 
 Die Einzelauswahl kann auch als Basis (Bedingung) für die [Frageregeln](Form_Question_Rules.de.md) verwendet werden. Damit werden bestimmte Container und deren Inhalte in Abhängigkeit der vom User gewählten Antwort angezeigt.
 
@@ -108,16 +81,15 @@ Vergeben Sie einen sinnvollen Namen (Titel) für das Element, so dass Sie bei de
 
 ## Mehrfachauswahl {: #form_element_mc}
 
-In einer Mehrfachauswahl (Multiple-Choice) können von den Kursteilnehmenden mehrere Option aus einer Liste ausgewählt werden.
+In einer Mehrfachauswahl (Multiple-Choice) können von den Kursteilnehmenden mehrere Optionen aus einer Liste ausgewählt werden.
 
 * Sie können mit dem Button "Eintrag hinzufügen" der Liste weitere Auswahloptionen hinzufügen.
 * Die Einträge können über die Pfeiltasten nach oben oder unten verschoben werden.
 * Die einzelnen Antwortmöglichkeiten können dabei nebeneinander, untereinander oder als Wahl Menü über die Option "Auswahlliste“ dargestellt werden. 
-* Den Teilnehmenden kann auch gestattet werden, selbt Antwortoptionen hinzuzufügen.
-* Im Bereich "Pflicht" kann man die Frage als obligatorisch oder freiwillig einstellen.
+* Den Teilnehmenden kann auch gestattet werden, selbst Antwortoptionen hinzuzufügen.
 
 
-Die Einzelauswahl kann auch als Basis (Bedingung) für die [Frageregeln](Form_Question_Rules.de.md) verwendet werden. Damit werden bestimmte Container und deren Inhalte in Abhängigkeit der vom User gewählten Antwort angezeigt.
+Die Mehrfachauswahl kann auch als Basis (Bedingung) für die [Frageregeln](Form_Question_Rules.de.md) verwendet werden. Damit werden bestimmte Container und deren Inhalte in Abhängigkeit der vom User gewählten Antwort angezeigt.
 
 Vergeben Sie einen sinnvollen Namen (Titel) für das Element, so dass Sie bei den Frageregeln den Überblick behalten.
 
@@ -130,11 +102,10 @@ Vergeben Sie einen sinnvollen Namen (Titel) für das Element, so dass Sie bei de
 
 ## Texteingabe {: #form_element_text_input}
 
-Mit der Texteingabe wird den Lernenden ein ein- oder mehrzeiliges Feld für die Texteingabe bereitgestellt. Die Texteingabe kann obligatorisch oder freiwillig sein.
+Mit diesem Element erhalten die Teilnehmenden die Möglichkeit selbst Text im Formular einzutragen (eine Art Freitext Feld). 
 
-* Sie können bestimmen, welche Eingaben erlaubt sind (Text, nur Zahlen, nur Datum).
+* Formularersteller:innen können festlegen, welche Eingaben erlaubt sind (Text, nur Zahlen, nur Datum).
 * Das Eingabefeld kann ein- oder mehrzeilig angeboten werden.
-* Im Bereich "Pflicht" kann man die Eingabe als obligatorisch oder freiwillig einstellen.
 
 ![form_content_text_input_v1_de.png](assets/form_content_text_input_v1_de.png){ class="shadow lightbox" }
 
@@ -146,9 +117,8 @@ Mit der Texteingabe wird den Lernenden ein ein- oder mehrzeiliges Feld für die 
 
 Mit diesem Element erhalten die Lernenden die Möglichkeit, Dateien hochzuladen. 
 
-* Sie können die Dateigrösse begrenzen.
-* Der Upload kann auf betimmte Dateitypen begrenzt werden (z.B. pdf oder Bild-Dateien).
-* Eine Einstellung ob das Hochladen obligatorisch oder freiwillig erfolgt, ist ebenfalls gegeben.
+* Lehrende können die Dateigrösse begrenzen.
+* Der Upload kann auf bestimmte Dateitypen begrenzt werden (z.B. pdf oder Bild-Dateien).
 
 ![form_content_file_upload_v1_de.png](assets/form_content_file_upload_v1_de.png){ class="shadow lightbox" }
 
@@ -158,7 +128,7 @@ Mit diesem Element erhalten die Lernenden die Möglichkeit, Dateien hochzuladen.
 
 ## Informationen {: #form_element_info}
 
-Mit dem Element Informationen können weitere benutzerspezifische Informationen abgefragt werden. Als Autor:in bestimmen Sie im Editor durch Ankreuzen der Checkboxen, welche Angaben abgefragt werden.
+Mit dem Inhaltselement "Informationen" können weitere benutzerspezifische Informationen abgefragt werden. Als Autor:in bestimmen Sie im Editor durch Ankreuzen der Checkboxen, welche Angaben abgefragt werden.
 
 Es kann eine der folgenden 3 Varianten ausgewählt werden:
 
@@ -166,7 +136,9 @@ a) die Angaben sind freiwillig (optional)<br>
 b) die Angaben müssen vom Benutzer verpflichtend ausgefüllt werden (obligatorisch)<br>
 c) die Angaben sind bereits automatisch eingetragen (nicht veränderbar)
 
-Beachten Sie: Durch diese Informationen verliert der Fragebogen seine Anonymität.
+!!! info "Hinweis"
+
+    Beachten Sie: Durch diese Informationen verliert das Formular seine Anonymität.
 
 ![form_content_info_v1_de.png](assets/form_content_info_v1_de.png){ class="shadow lightbox" }
 
@@ -198,7 +170,7 @@ Im Inspektor finden Sie die Optionen zur Darstellung des Bildes:
 * Die **Ausrichtung** des Bildes innerhalb des Layoutbereichs
 * Verschiedene Skalierungsvarianten der **Bildgrösse** 
 * Verschiedene **Stile** (z.B. mit Rahmen, mit Schatten. u.a.)
-* Optionen zur Darstellung als **Hinweisbox** (wie beim [Inhaltselement "Text"](#form_element_text) beschrieben) 
+* Optionen zur Darstellung als **Hinweisbox** 
 
 **Tab "Titel"**
 
@@ -208,7 +180,7 @@ Im Inspektor finden Sie die Optionen zur Darstellung des Bildes:
 
 **Tab "Anzeige"**
 
-* Eine **Beschreibung** zum Bild, die durch Klick auf ein kleines Fragezeichensymbol abegrufen werden kann
+* Eine **Beschreibung** zum Bild, die durch Klick auf ein kleines Fragezeichensymbol abgerufen werden kann
 * Eine **Bildunterschrift** (in kleinerer Schriftgrösse unterhalb des Bildes dargestellt)
 
 
@@ -225,6 +197,37 @@ Der Separator ist eine feine Trennlinie zum Gliedern Ihres Formulars in Bereiche
 
 [zum Seitenanfang ^](#form_elements)
 
+
+## Hinweis-Box 
+
+Kein Inhaltselement aber eine interessante Funktion, die für viele Inhaltselemente wie Text, Tabelle, Bild, Rubrik, Nutzungsbedingungen usw. zur Verfügung steht ist die Hinweis-Box. Sie wird im Tab "Style" aktiviert und hilft ein Element besonders hervorzuheben.  
+
+![form_content_text_box_v1_de.png](assets/form_content_text_box_v1_de.png){ class="shadow lightbox" }
+
+Es werden die nachfolgenden Optionen zur Konfiguration angeboten.
+
+**Typ**<br>
+Mit dem Typ wird angegeben, welche vorformatierte Version der Box verwendet wird, bzw. ob sie benutzerdefiniert gestaltet wird.
+
+Es stehen folgende Typen zur Auswahl:
+
+* Notiz
+* Information
+* Tipp
+* Wichtig
+* Warnung
+* Fehler
+* Erfolg
+* Benutzerdefiniert (Hier können Sie selbst ein Icon wählen und die Hintergrundfarbe der Box auswählen.)
+
+**Titel**<br>
+Der Titel, den sie hier angeben, erscheint im Head der Hinweisbox.
+
+**Mit Icon**<br>
+Wählen Sie diese Option, wird in der linken oberen Ecke der Hinweisbox ein Icon angezeigt, z.B. eine "i" wenn als Typ "Information" gewählt wird.
+
+**Einklappbar**<br>
+Wahlen Sie diese Option, kann die ganze Box in der Teilnehmeransicht durch Klick auf das Symbol in der rechten oberen Ecke eingeklappt werden (nur die Titelzeile wird angezeigt). Mit erneutem Klick auf das Symbol wird die Box wieder in Normalgrösse angezeigt.
 
 
 ---

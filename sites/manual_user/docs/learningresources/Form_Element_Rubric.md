@@ -2,8 +2,8 @@
 
 A rubric in OpenOlat is an element of the learning resource "Form". Rubrics are useful when you want to use multiple questions for the same rating scale. The scope of rubric assessments is wide. In general, rubric elements can be used in all forms and for all course elements and learning resources that use forms. 
 
-* [Course element Survey](Forms_in_Questionnaires.md)
-* [Course element Form](Forms_in_Forms_Element.md)
+* [Course element Survey](../learningresources/Course_Element_Survey.md)
+* [Course element Form](../learningresources/Course_Element_Form.md)
 * [Course element Assessment](Forms_in_Rubric_Scoring.md)
 * [Course element Task with Peer Review](Course_Element_Task.md#revisions)
 * [Portfolio 2.0 template](Forms_in_the_ePortfolio_template.md)

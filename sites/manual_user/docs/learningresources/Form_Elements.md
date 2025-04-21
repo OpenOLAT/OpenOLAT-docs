@@ -1,14 +1,9 @@
 # Form elements
 
-!!! info "Hinweis"
+You can insert the following content elements into a form layout using the “Add content" link:
 
-    OpenOlat Version 17.1 extensively changed the form editor. You can find information on the current form editor [here](Form_editor_Questionnaire_editor.md). 
+![form_content_types_v1_de.png](assets/form_content_types_v1_de.png){ class="shadow lightbox" }
 
-    The following explanations refer to the previous form editor.
-
-Select or create a learning resource of the type "Form" and click on "Edit content" in the administration. The editor opens and various options are available via the button "Add content".
-
-As soon as you have created an element, you can also use the plus sign to add further elements above or below an element. Each element can also be duplicated, moved by drag and drop or deleted.
 
 ## Title
 
