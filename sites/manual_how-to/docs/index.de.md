@@ -4,6 +4,11 @@
 2. [Wie kann ich dieselben Dateien in mehreren Kursen einsetzen?](/de/manual_how-to/multiple_use/multiple_use)
 3. [Wie kann ich mittels WebDAV Dateien übertragen?](/de/manual_how-to/webdav/webdav)
 
+## Planung
+
+1. [Wie kann ich mit dem Course Planner Kursdurchführungen planen und durchführen?](/de/manual_how-to/course_planner_course/course_planner_course)
+2. [Wie kann ich mit dem Course Planner einen Bildungsgang planen und durchführen?](/de/manual_how-to/course_planner_curriculum/course_planner_curriculum)
+
 ## Kurse erstellen
 
 1. [Wie erstelle ich meinen ersten OpenOlat-Kurs?](/de/manual_how-to/my_first_course/my_first_course)
