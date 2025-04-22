@@ -335,6 +335,8 @@ plugins:
           How do I create an Excel list of all available courses? : Wie erstelle ich eine Excel-Liste aller vorhandenen Kurse?
           How do I create course-internal branches? : Wie erstelle ich kursinterne Verzweigungen? (Branching)
           How do I perform a peer review? : Wie führe ich ein Peer-Review durch?
+          How do I plan and run courses with the Course Planner? : Wie kann ich mit dem Course Planner Kursdurchführungen planen und durchführen?
+          How do I plan and run a curriculum with the Course Planner? : Wie kann ich mit dem Course Planner einen Bildungsgang planen und durchführen?
           How do I prepare an exam with the Safe Exam Browser? : Wie bereite ich eine Prüfung mit dem Safe Exam Browser vor?
           How do I present my courses in the catalog? : Wie zeige ich meine Kurse im Katalog?
           How do I proceed when I create a test? : Wie gehe ich vor, wenn ich einen Test erstelle?
@@ -448,6 +450,7 @@ plugins:
           Personal menu : Persönliches Menü
           Personal menu and general components: Persönliches Menü und allgemeine Funktionen
           Personal tools : Persönliche Werkzeuge
+          Planning :  Planung
           Podcast : Podcast
           Portal configuration : Portal konfigurieren
           Portfolio : Portfolio
