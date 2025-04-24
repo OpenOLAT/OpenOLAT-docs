@@ -5,7 +5,7 @@
 
 * * *
 
-:material-calendar-month-outline: **Release date: 11/27/2024 • Last update: 01/29/2024**
+:material-calendar-month-outline: **Release date: 11/27/2024 • Last update: 04/30/2025**
 
 * * *
 
@@ -132,9 +132,14 @@ The section for activating "Modifications (On / Off)" for subscribable course el
 
     The contrast adjustments made may have an effect on your OpenOlat theme! Further information: [Youtrack OO-8090](https://track.frentix.com/issue/OO-8090){:target="_blank"}
 
+* :octicons-tag-24: release 19.1.8:
+    * Improved aria-current support
+    * Correct titles in the personal menu
+    * Improved readability of the link in the header and footer icon
+
 * * *
 
-## Further, briefly noted
+## FileHub and Media Center
 
 * FileHub:
     * Support of write access for SharePoint Online integration
@@ -142,23 +147,59 @@ The section for activating "Modifications (On / Off)" for subscribable course el
 * Media Center:
     * New upload dialogue
     * Harmonization of the "Add" action for media selection
-* Project tool:
-    * New and extended upload dialog for files
-    * User management: New "Projects" tab lists the projects per user
-* Content Creator: Improvements for "Image Comparison"
+    * New single filter "Without author" in the media management (:octicons-tag-24: release 19.1.5)
+
+* * *
+
+## News about courses
+
+* Content Creator (Course element "Page"): Improvements for "Image Comparison"
 * Optimized validation in the enrolment course element
 * Video task: Display of the respective participants per attempt (only for test mode)
 * New "Download" class in the HTML editor to highlight downloadable content with a corresponding icon
-* Levels/Grading: Addition of a wizard for the bulk action "Apply grade" including display of existing and new results for participants
-* Assessment mode not applied to course owners
 * New ranking of the initial role for course visit (course roles are weighted higher than administrative system roles)
 * Adjustment of the rights for the "Master coach" role
-* Question bank: (:octicons-tag-24: release 19.1.3)
-    * Implementation of current table and filter concept
-    * Display of the maximum score per question item
-    * Display of the total score for a test in the test creation wizard
-    * Sorting of the individual table columns in the test creation wizard
+* Multiple use of the form in the form course element, e.g. for ordering books (:octicons-tag-24: release 19.1.5)
+* Standard configuration for the course execution period and marking of the currently relevant semester in the semester data (:octicons-tag-24: release 19.1.6)
+* Learning path: Exception rule for “Course run number”, e.g. to explicitly exclude or include certain course elements for recertification (:octicons-tag-24: release 19.1.7)
+* E-mail for course invitation: Information about the course location via the variable $courseLocation (:octicons-tag-24: release 19.1.7)
+* Course reminders: Addition of the variables “user name” and “e-mail” as well as optimization of further variables for affected users for reminders to substitute recipients (:octicons-tag-24: release 19.1.8)
+
+* * *
+
+## eTesting and assessment
+
+* Levels/Grading: Addition of a wizard for the bulk action "Apply grade" including display of existing and new results for participants
+* Assessment mode not applied to course owners
+* Redesign of the change log for assessable course elements (:octicons-tag-24: release 19.1.7)
+* Course element "Test": Support for multiple test resources, so that an already used test can be replaced by a new one without losing existing execution data of participants (:octicons-tag-24: release 19.1.8)
+
+* * *
+
+## Question bank
+
+:octicons-tag-24: release 19.1.3
+
+* Implementation of current table and filter concept
+* Display of the maximum score per question item
+* Display of the total score for a test in the test creation wizard
+* Sorting of the individual table columns in the test creation wizard
+
+* * *
+
+* * *
+
+## Further, briefly noted
+
+* Project tool:
+    * New and extended upload dialog for files
+    * User management: New "Projects" tab lists the projects per user
 * "Library" module: direct release of documents after upload without approval (configurable) (:octicons-tag-24: release 19.1.4)
+* QM reports: Access for master coaches (:octicons-tag-24: release 19.1.5)
+* Consent for recording the BBB meeting is saved in the GUI settings (:octicons-tag-24: release 19.1.5)
+* Opencast:
+    * Support for version 16 (:octicons-tag-24: release 19.1.6)
+    * Filter for private and public videos (:octicons-tag-24: release 19.1.6)
 
 * * *
 
@@ -188,11 +229,20 @@ The section for activating "Modifications (On / Off)" for subscribable course el
     * [X] CSRF and Samesite cookie configuration: `Administration > Login > Security > Configuration'`
     * [X] draw.io: `Administration > External tools > draw.io > Collaboration mode`
     * [X] Configuration external Media resources: `Administration > Login > Security > Media server`
+    * [X] Default for course execution period: `Administration > Modules > Course > Default setting > Execution period`
+    * [X] Marking the relevant semester: `Administration > Modules > Semester terms > Edit > Set as default for courses`
 
 * * *
 
 ## More information
 
+* [YouTrack Release notes 19.1.11](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2019.1.11&title=Release%20Notes%2019.1.11){:target="_blank"}
+* [YouTrack Release notes 19.1.10](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2019.1.10&title=Release%20Notes%2019.1.10){:target="_blank"}
+* [YouTrack Release notes 19.1.9](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2019.1.9&title=Release%20Notes%2019.1.9){:target="_blank"}
+* [YouTrack Release notes 19.1.8](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2019.1.8&title=Release%20Notes%2019.1.8){:target="_blank"}
+* [YouTrack Release notes 19.1.7](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2019.1.7&title=Release%20Notes%2019.1.7){:target="_blank"}
+* [YouTrack Release notes 19.1.6](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2019.1.6&title=Release%20Notes%2019.1.6){:target="_blank"}
+* [YouTrack Release notes 19.1.5](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2019.1.5&title=Release%20Notes%2019.1.5){:target="_blank"}
 * [YouTrack Release notes 19.1.4](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2019.1.4&title=Release%20Notes%2019.1.4){:target="_blank"}
 * [YouTrack Release notes 19.1.3](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2019.1.3&title=Release%20Notes%2019.1.3){:target="_blank"}
 * [YouTrack Release notes 19.1.2](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2019.1.2&title=Release%20Notes%2019.1.2){:target="_blank"}

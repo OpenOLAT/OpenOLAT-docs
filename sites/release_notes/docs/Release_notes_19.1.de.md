@@ -5,7 +5,7 @@
 
 * * *
 
-:material-calendar-month-outline: **Releasedatum: 27.11.2024 • Letztes Update: 29.01.2024**
+:material-calendar-month-outline: **Releasedatum: 27.11.2024 • Letztes Update: 30.04.2025**
 
 * * *
 
@@ -132,9 +132,14 @@ Der Bereich zur Aktivierung von "Änderungen (Ein / Aus)" bei abonnierbaren Baus
 
     Die vorgenommenen Kontrast-Anpassungen können Auswirkungen auf ihr OpenOlat-Theme haben! Weitere Informationen: [Youtrack OO-8090](https://track.frentix.com/issue/OO-8090){:target="_blank"}
 
+* :octicons-tag-24: ab Release 19.1.8:
+    * Verbesserte "aria-current" Unterstützung
+    * Korrekte Titel im persönlichen Menü
+    * Verbesserte Lesbarkeit des Links im Header- und Footer-Icon
+
 * * *
 
-## Weiteres, kurz notiert
+## FileHub und Media Center
 
 * FileHub:
     * Unterstützung für Schreibzugriff bei SharePoint Online-Integration
@@ -142,23 +147,57 @@ Der Bereich zur Aktivierung von "Änderungen (Ein / Aus)" bei abonnierbaren Baus
 * Media Center:
     * Neuer Upload-Dialog
     * Harmonisierung der Aktion „Hinzufügen“ für die Medienauswahl
-* Projekt-Tool:
-    * Neuer und erweiterter Upload-Dialog für Dateien
-    * Benutzerverwaltung: Neues Tab "Projekte" listet die Projekte pro Benutzer:in auf
-* Content Creator: Optimierungen für "Bildvergleich"
+    * Neuer Filter "Ohne Autor" in der Medienverwaltung (:octicons-tag-24: ab Release 19.1.5)
+
+* * *
+
+## Neues rund um Kurse
+
+* Content Creator (Kursbaustein "Seite"): Optimierungen für "Bildvergleich"
 * Optimierte Validierung im Einschreibe-Baustein
 * Videoaufgabe: Anzeige der jewweiligen Teilnehmenden pro Versuch (nur für Test-Modus)
 * Neue "Download"-Klasse im HTML-Editor, um herunterladbare Inhalte mit einem entsprechenden Symbol hervorzuheben
-* Einstufung/Noten: Ergänzung eines Wizards für die Massenaktion "Note anwenden" inklusive Anzeige der bestehenden und neuen Ergebnisse für die Teilnehmenden
-* Prüfungsmodus nicht bei Kursbesitzer:innen ausführen
 * Neue Abstufung für initiale Rolle bei Kursaufruf (Kursrollen werden höher gewichtet als administrative Systemrollen)
 * Anpassung der Berechtigungen für die Rolle "Klassenlehrer:in"
-* Fragenpool: (:octicons-tag-24: ab Release 19.1.3)
-    * Umsetzung aktuelles Tabellen- und Filterkonzept
-    * Anzeige der Maximalpunktzahl pro Frage-Item
-    * Anzeige der Gesamtpunktzahl für einen Test im Wizard zur Test-Erstellung
-    * Sortierung der einzelnen Tabellenspalten im Wizard zur Test-Erstellung
+* Mehrfachverwendung des Formulars im Formular-Kursbaustein, z. B. für Bestellungen von Büchern (:octicons-tag-24: ab Release 19.1.5)
+* Standardkonfiguration für den Kurs-Durchführungszeitraum sowie Markierung des aktuell relevanten Semesters in den Semesterdaten (:octicons-tag-24: ab Release 19.1.6)
+* Lernpfad: Ausnahmeregel für "Anzahl der Kursdurchführung", um z. B. bei Re-Zertifizierung bestimmte Bausteine explizit aus- oder einzuschliessen (:octicons-tag-24: ab Release 19.1.7)
+* E-Mail für die Kurseinladung: Angabe des Durchführungsortes per Variable $courseLocation (:octicons-tag-24: ab Release 19.1.7)
+* Kurserinnerungen: Ergänzung der Variablen "Benutzername" und "E-Mail" sowie Optimierung weiterer Variablen zu betroffenen Benutzer:innen für Erinnerungen an stellvertretende Empfänger:innen (:octicons-tag-24: ab Release 19.1.8)
+
+* * *
+
+## eTesting und Bewertung
+
+* Einstufung/Noten: Ergänzung eines Wizards für die Massenaktion "Note anwenden" inklusive Anzeige der bestehenden und neuen Ergebnisse für die Teilnehmenden
+* Prüfungsmodus nicht bei Kursbesitzer:innen ausführen
+* Redesign des Änderungslogs bei bewertbaren Kursbausteinen (:octicons-tag-24: ab Release 19.1.7)
+* Kursbaustein "Test": Unterstützung für mehrere Test-Ressourcen, so dass ein bereits verwendeter Test durch einen neuen ersetzt werden kann, ohne bestehende Durchführungsdaten von Teilnehmenden zu verlieren (:octicons-tag-24: ab Release 19.1.8)
+
+* * *
+
+## Fragenpool
+
+:octicons-tag-24: ab Release 19.1.3
+
+* Umsetzung aktuelles Tabellen- und Filterkonzept
+* Anzeige der Maximalpunktzahl pro Frage-Item
+* Anzeige der Gesamtpunktzahl für einen Test im Wizard zur Test-Erstellung
+* Sortierung der einzelnen Tabellenspalten im Wizard zur Test-Erstellung
+
+* * *
+
+## Weiteres, kurz notiert
+
+* Projekt-Tool:
+    * Neuer und erweiterter Upload-Dialog für Dateien
+    * Benutzerverwaltung: Neues Tab "Projekte" listet die Projekte pro Benutzer:in auf
 * Modul "Bibliothek": direkte Freigabe von Dokumenten nach Upload ohne Genehmigung (konfigurierbar) (:octicons-tag-24: ab Release 19.1.4)
+* QM-Reports: Zugriff für Klassenlehrer (:octicons-tag-24: ab Release 19.1.5)
+* Einverständnis zur Aufzeichnung des BBB-Meetings wird in den GUI-Einstellungen gespeichert (:octicons-tag-24: ab Release 19.1.5)
+* Opencast:
+    * Unterstützung für Version 16 (:octicons-tag-24: ab Release 19.1.6)
+    * Filter für private und öffentliche Videos (:octicons-tag-24: ab Release 19.1.6)
 
 * * *
 
@@ -188,11 +227,20 @@ Der Bereich zur Aktivierung von "Änderungen (Ein / Aus)" bei abonnierbaren Baus
     * [X] CSRF und Samesite cookie Konfiguration: `Administration > Login > Sicherheit > Konfiguration'`
     * [X] draw.io: `Administration > External tools > draw.io > Collaboration mode`
     * [X] Konfiguration externer Medienressourcen: `Administration > Login > Sicherheit > Medienserver`
+    * [X] Default für Kurs-Durchführungszeitraum: `Administration > Module > Kurs > Standardeinstellung > Durchführungszeitraum`
+    * [X] Auswahl des relevanten Semesters: `Administration > Module > Semesterdaten > Bearbeiten > Als Standard für Kurse festlegen`
 
 * * *
 
 ## Weitere Informationen
 
+* [YouTrack Release Notes 19.1.11](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2019.1.11&title=Release%20Notes%2019.1.11){:target="_blank"}
+* [YouTrack Release Notes 19.1.10](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2019.1.10&title=Release%20Notes%2019.1.10){:target="_blank"}
+* [YouTrack Release Notes 19.1.9](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2019.1.9&title=Release%20Notes%2019.1.9){:target="_blank"}
+* [YouTrack Release Notes 19.1.8](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2019.1.8&title=Release%20Notes%2019.1.8){:target="_blank"}
+* [YouTrack Release Notes 19.1.7](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2019.1.7&title=Release%20Notes%2019.1.7){:target="_blank"}
+* [YouTrack Release Notes 19.1.6](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2019.1.6&title=Release%20Notes%2019.1.6){:target="_blank"}
+* [YouTrack Release Notes 19.1.5](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2019.1.5&title=Release%20Notes%2019.1.5){:target="_blank"}
 * [YouTrack Release Notes 19.1.4](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2019.1.4&title=Release%20Notes%2019.1.4){:target="_blank"}
 * [YouTrack Release Notes 19.1.3](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2019.1.3&title=Release%20Notes%2019.1.3){:target="_blank"}
 * [YouTrack Release Notes 19.1.2](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2019.1.2&title=Release%20Notes%2019.1.2){:target="_blank"}
