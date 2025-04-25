@@ -1,6 +1,6 @@
-# Lernpfad Kurs - Kurseditor
+# Lernpfad Kurs - Kurseditor {: #course_editor}
 
-## Abfolge der Lernschritte
+## Abfolge der Lernschritte {: #learning_steps_order}
 
 ### Sequenziell oder ohne Reihenfolge
 
@@ -15,7 +15,7 @@ dies über das Hinzufügen und Konfigurieren des Kursbausteins "Struktur"
 erfolgen. Die gewählte Einstellung gilt dann für alle diesem [Kursbaustein "Struktur"](../learningresources/Course_Element_Structure.de.md)
 untergeordneten Kursbausteine. So kann beispielsweise ein Kurs standardmässig als sequenziell konfiguriert sein, aber ein bestimmter Bereich im Kurs kann permanent in beliebiger Reihenfolge aufgerufen werden.
 
-## Der Tab Lernpfad
+## Der Tab Lernpfad {: #tab_learning_path}
 
 Lernpfad Kurse haben im Gegensatz zu herkömmlichen Kursen nicht die Tabs "Sichtbarkeit" und "Zugang", sondern den Tab "Lernpfad". Hier können folgende Dinge konfiguriert werden:
 
@@ -31,21 +31,23 @@ Lernpfad Kurse haben im Gegensatz zu herkömmlichen Kursen nicht die Tabs "Sicht
 
 Diese Einstellungen stehen für fast alle Kursbausteine zur Verfügung. Eine Ausnahme bildet jedoch der [Kursbaustein "Struktur"](../learningresources/Course_Element_Structure.de.md), der für die Bündelung von Kursbausteinen gedacht ist. Im Strukturbaustein kann die Abfolge der Lernschritte die für alle untergeordneten Kurselemente gilt, mit sequenziell oder spezifischer Reihenfolge definiert werden.
 
-### Ausnahmen
 
-![Ausnahmen im Lernpfad konfigurieren](assets/Ausnahmen.png)
+### Ausnahmen {: #exceptions}
 
 :octicons-device-camera-video-24: **Video-Einführung**: [Ausnahmen im Lernpfad](<https://www.youtube.com/embed/MWWUmma2Cr0>){:target="_blank”}
 
-Mit Einschalten der "Ausnahmen" kann differenzierter eingestellt werden wer den jeweiligen Kursbaustein sehen und bearbeiten darf und wer nicht. Es wird zunächst eine Grundeinstellung vorgenommen und anschliessend können Ausnahmen von dieser Grundeinstellung definiert werden. Auch mehrere Ausnahmen (Oder-Verknüpfung) sind möglich. So kann ein Kursbaustein z.B. grundsätzlich obligatorisch sein aber so konfiguriert werden, dass die Bearbeitung für bestimmte Personen oder Gruppen freiwillig ist oder der Kursbaustein gar nicht sichtbar ist (ausgenommen). Mithilfe dieser Ausnahmen können individuelle Lernpfade für verschiedene Lernende umgesetzt werden.
+Mit Einschalten der "Ausnahmen" kann differenzierter eingestellt werden, wer den jeweiligen Kursbaustein sehen und bearbeiten darf und wer nicht. Es wird zunächst eine Grundeinstellung vorgenommen und anschliessend können Ausnahmen von dieser Grundeinstellung definiert werden. Auch mehrere Ausnahmen (Oder-Verknüpfung) sind möglich. So kann ein Kursbaustein z.B. grundsätzlich obligatorisch sein, aber so konfiguriert werden, dass die Bearbeitung für bestimmte Personen oder Gruppen freiwillig ist oder der Kursbaustein gar nicht sichtbar ist (ausgenommen). Mithilfe dieser Ausnahmen können individuelle Lernpfade für verschiedene Lernende umgesetzt werden.
+
+![learning_path_exceptions_v1_de.png](assets/learning_path_exceptions_v1_de.png)
 
 Die Ausnahmen können sich auf folgende Aspekte beziehen:
 
   * Gruppen
   * Organisationen
-  * Benutzer  
-  * Benutzer-Attribut
+  * Benutzer:in  
+  * Konto-Attribut
   * Kursbaustein bestanden: Der konfigurierte Kursbaustein wird in Abhängigkeit eines anderen bewertbaren Kursbausteins bereitgestellt. Zum Beispiel ist der Kursbaustein nicht sichtbar (= ausgenommen), wenn ein bestimmter Test nicht bestanden wurde.
+  * Kursdurchführung Nummer: Wird der Kurs (z.B. bei Rezertifizierung) mehrfach besucht, kann der konfigurierte Kursbaustein auch nur in einer der Durchführungen angezeigt werden. So können für eine Rezertifizierung oder einen Wiederholungskurs den Kursteilnehmer:innen unterschiedliche Kursbausteine angeboten werden.
 
  **Weitere Konfigurationsbeispiele für Ausnahmen:**
 
@@ -61,7 +63,7 @@ c) Der Kursbaustein ist grundsätzlich obligatorisch. Für diejenigen die eine b
 
 ![Beispiel C: Ausnahme mit Kursbausteinen](assets/Ausnahme_c.png)
 
-### Bearbeitungszeit
+### Bearbeitungszeit {: #learning_time}
 
 Die Bearbeitungszeit ist besonders relevant, wenn in den Kurseinstellungen für die Durchführung der Lernfortschritt anhand der Bearbeitungszeit ermittelt wird (siehe [Lernpfad Kurse](../learningresources/Creating_learning_path_courses.de.md) erstellen). In diesem Fall werden alle Zeitangaben der einzelnen Kursbausteine summiert und die Gesamtsumme als Basis für 100 % genommen.
 
@@ -76,7 +78,7 @@ schnell einen Überblick über den Zeitaufwand eines Bereichs oder Kapitels des 
 
 Die Zeitanzeige ist unabhängig davon, welche Art der Lernfortschrittsberechnung in den Kurs Einstellungen gewählt wurde. Also auch wenn der Fortschritt basierend auf der Anzahl der Kursbausteine erfolgt, wird die Bearbeitungszeit beim Strukturbaustein und bei den untergeordneten Kursbausteinen angezeigt.
 
-### Erledigungskriterien
+### Erledigungskriterien {: #completion_criterion}
 
 Bis auf den Kursbaustein "Struktur" bieten alle Kursbausteine die Möglichkeit, dass der Baustein als "erledigt" gilt, wenn er geöffnet wird oder wenn der User explizit die Bearbeitung bestätigt. Je nach Kursbaustein stehen auch noch weitere interessante Erledigungskriterien zur Verfügung:
 

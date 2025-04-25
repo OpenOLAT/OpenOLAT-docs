@@ -262,6 +262,7 @@ If recertification is activated, a specification must be made as to when recerti
 
 (The value must be less than the validity period).
 
+Please note that you can also display course elements only for the first certification or only for one of the recertifications. This can be determined in learning path courses via exceptions. [More >](../learningresources/Learning_path_course_Course_editor.md#exceptions)
 
 **Set up reminders**
 

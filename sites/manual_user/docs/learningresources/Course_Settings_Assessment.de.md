@@ -260,6 +260,7 @@ Wird die Rezertifizeriung aktiviert, muss eine Angabe gemacht werden, ab wann ei
 
 (Der Wert muss kleiner als die Gültigkeitsdauer sein.)
 
+Beachten Sie, dass Sie Kursbausteine auch nur bei der ersten Zertifizierung oder nur bei einer der Rezertifizierungen anzeigen können. Dies kann in Lernpfadkursen über Ausnahmen bestimmt werden. [Mehr dazu >](../learningresources/Learning_path_course_Course_editor.de.md#exceptions)
 
 **Erinnerungen einrichten**
 
