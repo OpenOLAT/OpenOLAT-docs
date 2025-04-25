@@ -47,7 +47,7 @@ Die Ausnahmen können sich auf folgende Aspekte beziehen:
   * Benutzer:in  
   * Konto-Attribut
   * Kursbaustein bestanden: Der konfigurierte Kursbaustein wird in Abhängigkeit eines anderen bewertbaren Kursbausteins bereitgestellt. Zum Beispiel ist der Kursbaustein nicht sichtbar (= ausgenommen), wenn ein bestimmter Test nicht bestanden wurde.
-  * Kursdurchführung Nummer: Wird der Kurs (z.B. bei Rezertifizierung) mehrfach besucht, kann der konfigurierte Kursbaustein auch nur in einer der Durchführungen angezeigt werden. So können für eine Rezertifizierung oder einen Wiederholungskurs den Kursteilnehmer:innen unterschiedliche Kursbausteine angeboten werden.
+  * Kursdurchführung Nummer: Wird der Kurs (z.B. bei Rezertifizierung) mehrfach besucht, kann der konfigurierte Kursbaustein auch nur in einer oder einigen der Durchführungen angezeigt werden. So können für eine Rezertifizierung oder einen Wiederholungskurs den Kursteilnehmer:innen unterschiedliche Kursbausteine angeboten werden.
 
  **Weitere Konfigurationsbeispiele für Ausnahmen:**
 
