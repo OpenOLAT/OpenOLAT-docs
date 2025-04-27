@@ -10,7 +10,7 @@ These include:
 * [Course element Form](../learningresources/Course_Element_Form.md)
 * [Course element Assessment](../learningresources/Course_Element_Assessment.md)
 * [Course element Task](../learningresources/Course_Element_Task.md)
-* Part of the [Portfolio 2.0 Template](Portfolio_template_Creation.md) about the course element Portfolio task
+* Part of the [Portfolio 2.0 Template](../learningresources/Forms_in_the_ePortfolio_template.md) about the course element Portfolio task
 
 In general, forms can also be created directly in the course via the respective course element.
 

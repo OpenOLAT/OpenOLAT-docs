@@ -14,6 +14,8 @@ The aim is to enable an adaptive design so that the content is also displayed ap
 
 ## Where is the Content Editor used?
 
+The content editor is used in the [Course element page](../learningresources/Course_Element_Page.md), in the [Learning resource “Form”](../learningresources/Form.md) and in the [“Portfolio 2.0”](../area_modules/The_portfolio_editor.md).
+
 ### Course element page
 
 After you have inserted a new "Page" course element in the course editor, select the **"Page content"** tab. The option to edit is offered there, which opens the content editor to design this course element.
@@ -35,7 +37,9 @@ It is also possible to allow coaches to edit this page in the finished course.
 
 ### Learning resource Form
 
-If you edit a "Form" learning resource in the authoring area, the editing also takes place in the Content Editor. The displayed options for inserting content are adapted to the form (various question types to choose from).
+The content editor is also used in the [learning resource form](../learningresources/Form.md) and all elements that use the learning resource form. 
+
+The displayed options for inserting content are adapted to the form, e.g. different question types are available here.
 
 ![content_editor_add_content_form_v1_de.png](assets/content_editor_add_content_form_v1_de.png){ class="shadow lightbox" }
 
@@ -45,11 +49,19 @@ The Content Editor is also used for entries in portfolio folders.
 
 ![content_editor_layout_portfolio_v1_de.png](assets/content_editor_layout_portfolio_v1_de.png){ class="shadow lightbox" }
 
-## Create layout
+## Layout in the content editor
 
-To ensure correct display on mobile devices, all content is inserted in layout grids. If a mobile is recognized as the current device, the layout fields can automatically be displayed one below the other.
+Before you can insert content in the Content Editor, you must first "add a new layout”. The layout serves as a grid that determines the arrangement of the content (blocks).
+
+There are various layouts to choose from, which differ in the way the fields are arranged. You can also combine several layouts on one page.
+
+If necessary, the layout can be changed later at any time. To do this, simply click on the gear icon (Edit settings) of the layout and select a new layout.
 
 ![content_editor_layout_v1_de.png](assets/content_editor_layout_v1_de.png){ class="shadow lightbox" }
+
+If several layouts are available in a form, you can change the order of the layouts. Use the arrows to move an entire layout.
+
+![content_editor_layout_move_v1_de.png](assets/content_editor_layout_move_v1_de.png){ class="shadow lightbox" }
 
 ### Replace layout template
 

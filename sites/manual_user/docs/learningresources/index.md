@@ -118,7 +118,7 @@ With the help of the resource folder, files (content, information, graphics, etc
 
 Forms can be used in OpenOlat for a variety of purposes and in different places. They are suitable, for example, for surveys, data collection, self-assessments, questionnaires or rubric assessment. They are used in the course element "Form", in the course element "Survey" or as rubric assessment in the course element "Assessment" or course element "Task". 
 
-Each course participant can fill out the same questionnaire only once. The results are stored anonymously.  You can find more information on the use and creation of forms for surveys, rubrics etc. in the chapter [Creating forms](../learningresources/Form.md).
+You can find more information on the use and creation of forms for surveys, rubrics etc. in the chapter [Creating forms](../learningresources/Form.md).
   
 [To the top of the page ^](#learning_resources)
 

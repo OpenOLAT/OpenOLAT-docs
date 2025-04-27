@@ -18,10 +18,15 @@ If the conditions are not met, a warning will be issued and you will not be able
 
 ### Assign suitable names
 
-It is important to assign meaningful names to all layout and content elements that you need for the question rules in order to maintain an overview. This is done for layouts via the icon or in the inspector for the content elements. 
+To maintain an overview, it is important that you assign meaningful names to all layout and content elements that you need for the question rules. This is done via the inspector, which you can call up via the cogwheel symbol if it is not already visible.
 
-![Layout Name vergeben](assets/Formular_ContainerName.png){ class="shadow lightbox" }
-![MC Inspektor Name vergeben](assets/Formular_MC_Inspektor1.png){ class="shadow lightbox" }
+Enter the name for a container layout element here:
+
+![Layout assign name](assets/Formular_Conatiner_Name1.jpg){ class="shadow lightbox" }
+
+To enter the name for a single or multiple selection element:
+
+![MC Inspector assign name](assets/Formular_Name1.jpg){ class="shadow lightbox" }
 
 ### Store question rules in the menu
 The question rules can be accessed at the top, to the right of the administration menu.
@@ -34,4 +39,4 @@ A new pop-up window appears, allowing you to create and display questionnaires.
   
 A question rule always consists of a condition with various options and an assigned action that is displayed. The condition is an MC or SC selection with the specific answer options. A layout container can then be selected for each answer option, e.g. containing specific information or further questions. Don't forget to save.
 
-![Question rule editor](assets/image2021-5-6_8-55-31.png){ class="shadow lightbox" }
+ ![Frageregel Editor](assets/Frageregeln_Beispiel.png){ class="shadow lightbox" }

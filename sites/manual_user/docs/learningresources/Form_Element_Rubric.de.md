@@ -2,8 +2,8 @@
 
 Ein Rubrik ist in OpenOlat ein Element der Lernressource "Formular". Rubriks bieten sich an, wenn Sie mehrere Fragen für die gleiche Bewertungsskala verwenden wollen. Der Anwendungsbereich von Rubrik Bewertungen ist gross. Generell können Rubrik Elemente in allen Formularen und für sämtliche Kursbausteine und Lernressourcen, die Formulare nutzen, verwendet werden. Konkret sind das:
 
-* [Kursbaustein Umfrage](Forms_in_Questionnaires.de.md)
-* [Kursbaustein Formular](Forms_in_Forms_Element.de.md)
+* [Kursbaustein Umfrage](../learningresources/Course_Element_Survey.de.md)
+* [Kursbaustein Formular](../learningresources/Course_Element_Form.de.md)
 * [Kursbaustein Bewertung](Forms_in_Rubric_Scoring.de.md)
 * [Kursbaustein Aufgabe mit Peer-Review](Course_Element_Task.de.md#revisions)
 * [Portfolio 2.0 Vorlage](Forms_in_the_ePortfolio_template.de.md)
@@ -54,14 +54,14 @@ Rubriks können über "Inhalt hinzufügen" einem OpenOlat Formular hinzugefügt 
 
 ![Rubrik Editor](assets/formular_rubik17a.png){ class="shadow lightbox" }
 
-Ein Rubrik besteht immer aus Zeilen und Spalten die sinnvoll beschriftet und definiert werden müssen. 
+Ein Rubrik besteht in der Regel aus Zeilen und Spalten die sinnvoll beschriftet und definiert werden müssen. 
 
 Geben Sie im Bereich "Spaltenbeschriftung" für jede Spalte eine sinnvolle _Bewertungsskala_ ein z.B. sehr gut, gut mittel, schlecht, sehr schlecht. Jede Spalte ist immer mit einem bestimmten Wert verbunden, der in den erweiterten Einstellungen des Rubrik Inspektors konkreter spezifiziert werden kann.
   
 Geben Sie im Bereich der Zeilen einzelne (Bewertungs-)Kriterien, Statements oder Fragestellungen ein. Weitere Zeilen werden über "Frage hinzufügen" ergänzt. Sie können die kurzen Statements auch formatieren. Einzelne Zeilen können mit Hilfe der oben/unten Doppelpfeile verschoben werden. Zusätzlich können Sie jede Zeile mit einer Gewichtung  versehen und so einzelne Kriterien besondere Bedeutung zuweisen, was sich auch bei der Punktevergabe widerspiegelt, z.B. durch doppelte oder dreifache Punkte. 
 Ferner ist es möglich den Wert auf 0 zu setzen um einzelne Fragen aus den Reports auszuschliessen. 
  
-Ein bearbeitetes Rubrik kann eingebunden in einen Kurs automatisch eine entsprechende Punktzahl erhalten, was besonders bei der Verwendung im Kursbaustein "[Bewertung](../learningresources/Course_Element_Assessment.de.md)" relevant ist. 
+Ein bearbeitetes Rubrik kann, eingebunden in einen Kurs, automatisch eine entsprechende Punktzahl erhalten, was besonders bei der Verwendung im Kursbaustein "[Bewertung](../learningresources/Course_Element_Assessment.de.md)" relevant ist. 
  
 Über den Quer-Doppelpfeil kann ein Rubrik mit zwei Enden erstellt werden. 
 
@@ -72,29 +72,54 @@ Ein bearbeitetes Rubrik kann eingebunden in einen Kurs automatisch eine entsprec
 
     Wird ein Rubrik in einem Kursbaustein Bewertung eingebunden kann die Gewichtung nicht mehr geändert werden.
 
-### Rubrik Inspektor
+### Einstellungen im Rubrik Inspektor
 
-![Rubrik Varianten](assets/Rubrik_Inspektor.png){ class="shadow lightbox" }
+![Rubrik Varianten](assets/Rubrik_Inspector_20.png){ class="shadow lightbox" }
 
-Im Tab **"Generell"** wird der Rubrik-Typ festgelegt. Es werden drei verschiedene Typen bzw. Darstellungsvarianten von Rubriks unterschieden. Die Anzahl der Schritte definiert die Anzahl der Rubrik-Spalten. 2-10 Spalten sind möglich. 
+#### Tab: Generell
 
-Wird "Beschreibung der Kriterien" aktiviert :octicons-tag-24: Release 18.1  kann jede Zelle der Rubrik-Tabelle mit kurzen Beschreibungstexten versehen werden, so dass die Kriterien basierte Bewertung noch deutlicher wird. 
+Im Tab „Generell“ wird der Basis Typ des Rubriks definiert.
+  * **Diskret mit Radio**: Die einzelnen Rubrikfelder erhalten Radio-Buttons von denen jeweils ein Button pro Zeile ausgewählt werden kann. Die Spaltenbeschriftung wird angezeigt. Eine erweiterte Beschreibung der Kriterien für einzelne Bewertungsfelder ist bei diesem Typ möglich. 
 
-![Rubric Zellentext](assets/Rubric_zellentext.png){ class="shadow lightbox" }
+  * **Diskret mit Sternchen**: Den Statements der Zeilen wird pauschal eine Sternchenbewertung zugewiesen. Eine Spaltenbeschriftung wird nur angezeigt, wenn die auch die Option "Keine Antwort möglich" aktiviert wurde, ansonsten ist die Anzeige der Sternchen mit der entsprechenden Auswahl selbsterklärend.  
+  * **Diskret mit Slider**: Hierbei kann ein Schieberegler entsprechend der Skala verschoben werden. Die Spaltenbeschriftung wird angezeigt. Diese Form bietet sich besonders an, wenn ein Rubrik mit 2 Skalen-Enden verwendet wird. 
+  * **Kontinuierlich**: Ähnlich wie „Diskret mit Slider“ aber mit einer fließenden nicht stufenweisen Bewertung. Eine Spaltenbeschriftung kann nicht definiert werden.  
 
-Ferner kann die Option "keine Antwort möglich" aktiviert und definiert werden ob die Bearbeitung des Rubriks freiwillig oder obligatorisch ist. 
+Die Anzahl der **Schritte** legt die Anzahl der Spalten fest bzw. bei der Sternchenbewertung die Anzahl der maximalen Sternchen. Bei einem kontinuierlichen Rubrik gibt es keine Schritte. 
 
-Wenn Sie den Tab **"Erweitert"** aktivieren stehen Ihnen folgende zusätzliche Optionen zur Verfügung:
+Für Rubriks vom Typ "Diskrete mit Radio" erscheint zusätzlich die Option **"Beschreibung der Kriterien".** Diese ermöglicht es deutlich differenziertere Rubriks zu erstellen. Aktiviert man das Feld "Beschreibung der Kriterien" kann über das Stiftsymbol ein Eingabefeld aktiviert werden, das es ermöglicht für jedes Kriterium eine konkretere Beschreibung zu hinterlegen. 
 
-![Erweitertes Rubrik Einstellungen](assets/Rubric_erweitert.png){ class="shadow lightbox" }
+![Rubric Zellentext](assets/Rubrik_Bewertungsfeld.png){ class="shadow lightbox" }
 
-Sie können dem Rubrik einen Namen geben, was Ihnen später die Zuordnung bei der Auswertung erleichtert. Zusätzlich kann der Name bei Bedarf auch direkt im Fragebogen angezeigt werden.
+Aktiviert man das Feld **„Kommentar pro Frage“** können User für jede Zeile eines Rubriks noch einen Kommentar zu ihrer Bewertung hinterlassen (Freitextfeld).
 
-Unter Skalentyp können Sie die Art der verwendeten Likert –Skala näher bestimmen und somit auch den Wertebereich definieren: Legen Sie fest an welchem Ende der Skala sich die positive Bewertung befindet und definieren Sie bei Bedarf die Bereiche für ungenügend, neutral und gut. Diese Information wird in der Auswertung berücksichtigt.
+Ferner kann definiert werden ob die Bearbeitung des gesamten Rubriks freiwillig oder obligatorisch ist. 
 
-!!! info "Info"
+Wird **„Keine Antwort möglich“** aktiviert, erscheint neben den Bewertungsoptionen zusätzlich die Auswahl „Keine Antwort möglich“. Damit kann das Rubrik-Element als bearbeitet gelten, auch wenn keine konkrete Bewertung abgegeben wird. Diese Option ist besonders sinnvoll, wenn ein Bewertungskriterium für einzelne Nutzer nicht relevant oder unpassend ist.
 
-    Der Rubrik-Inspektor kann frei im Formularbereich positioniert und verschoben werden.
+
+#### Tab: Erweitert
+
+Im Tab "Erweitert" des Inspektors können Sie dem Rubrik Element einen Namen geben und entscheiden ob der Name in der Durchführung und in den Reports angezeigt werden soll. 
+
+!!! info "Tipp
+
+    Wenn Sie planen ein Formular mit [Verzweigungen und Frageregeln](../learningresources/Form_Question_Rules.de.md) zu erstellen sollten Sie für Einzelauswahl und Mehrfachauswahl-Elemente undbedingt einen sinnvollen Namen vergeben. Das erleichtert Ihnen später die Zuordnung.
+
+Unter "Skalentyp" können Sie die Art der verwendeten Likert –Skala näher bestimmen und somit auch den Wertebereich definieren: Legen Sie fest an welchem Ende der Skala sich die positive Bewertung befindet und wo die Skala beginnen soll. Definieren Sie bei Bedarf auch die Bereiche für ungenügend, neutral und gut. Diese Information wird in der Auswertung des Formulars berücksichtigt.
+
+#### Tab: Style
+
+Wie bei anderen Fragetypen kann auch ein Rubrik mit einer Hinweis-Box versehen werden, zum Beispiel um besonders wichtige Rubriks hervorzuheben. Diese werden dann visuell besonders kenntlich gemacht.
+
+#### Tab: Layout
+
+Hier kann der Abstand des Rubrik-Elements zu anderen Formular Elementen festgelegt werden.
+
+
+!!! note "Tipp"
+
+    Der Rubrik-Inspektor kann frei im Formularbereich positioniert und verschoben werden. Verschieben Sie ihn so, dass er sie nicht stört oder andere wichtige Elemente überdeckt.
 
 
 ## Weitere Informationen

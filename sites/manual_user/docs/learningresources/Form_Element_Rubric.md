@@ -57,7 +57,7 @@ Rubrics can be added to an OpenOlat form via "Add content" and then configured.
 
 ![Rubrik Editor](assets/Rubric_add_EN.png){ class="shadow lightbox" }
 
-A rubric always consists of rows and columns that must be labeled and defined in a meaningful way.
+A rubric usually consists of rows and columns that must be labeled and defined in a meaningful way.
 
 In the "Column label" area, enter a meaningful _rating scale_ for each column, e.g. very good, good, medium, bad, very bad.  Each column is always associated with a certain value, which can be specified more concretely in the advanced settings of the rubric inspector.
 
@@ -75,30 +75,58 @@ The cross double arrow can be used to create a section with two ends.
 
     If a rubric is included in a course module evaluation, the weighting can no longer be changed.
 
-### Rubric inspector
+### Rubric inspector settings
 
-![Rubrik Varianten](assets/Rubrik_Inspektor_en.png){ class="shadow lightbox" }
+![Rubrik Varianten](assets/Rubrik_Inspector_20_en.png){ class="shadow lightbox" }
 
-The **"General"** tab is used to define the rubric type. There are three different types or display variants of rubrics. The number of steps defines the number of rubric columns. 2-10 columns are possible.
+#### General
 
-If "criteria description" is activated :octicons-tag-24: Release 18.1, each cell of the rubric table can be provided with short descriptive texts so that the criteria-based evaluation becomes even clearer.
+The basic type of rubric is defined in the “General” tab. 
 
-![Rubric Zellentext](assets/Rubric_zellentext.png){ class="shadow lightbox" }
+#### Tab: Generell
 
-You can also activate the option "No answer" and define whether editing the section is optional or mandatory. 
+Im Tab „Generell“ wird der Basis Typ des Rubriks definiert.
+  * **Diskret mit Radio**: Die einzelnen Rubrikfelder erhalten Radio-Buttons von denen jeweils ein Button pro Zeile ausgewählt werden kann. Die Spaltenbeschriftung wird angezeigt. Eine erweiterte Beschreibung der Kriterien für einzelne Bewertungsfelder ist bei diesem Typ möglich. 
 
-If you activate the **"Extended"** tab, the following options are available to you:
+  * **Diskret mit Sternchen**: Den Statements der Zeilen wird pauschal eine Sternchenbewertung zugewiesen. Eine Spaltenbeschriftung wird nur angezeigt, wenn die auch die Option "Keine Antwort möglich" aktiviert wurde, ansonsten ist die Anzeige der Sternchen mit der entsprechenden Auswahl selbsterklärend.  
+  * **Diskret mit Slider**: Hierbei kann ein Schieberegler entsprechend der Skala verschoben werden. Die Spaltenbeschriftung wird angezeigt. Diese Form bietet sich besonders an, wenn ein Rubrik mit 2 Skalen-Enden verwendet wird. 
+  * **Kontinuierlich**: Ähnlich wie „Diskret mit Slider“ aber mit einer fließenden nicht stufenweisen Bewertung. Eine Spaltenbeschriftung kann nicht definiert werden.  
+
+Die Anzahl der **Schritte** legt die Anzahl der Spalten fest bzw. bei der Sternchenbewertung die Anzahl der maximalen Sternchen. Bei einem kontinuierlichen Rubrik gibt es keine Schritte. 
+
+Für Rubriks vom Typ "Diskrete mit Radio" erscheint zusätzlich die Option **"Beschreibung der Kriterien".** Diese ermöglicht es deutlich differenziertere Rubriks zu erstellen. Aktiviert man das Feld "Beschreibung der Kriterien" kann über das Stiftsymbol ein Eingabefeld aktiviert werden, das es ermöglicht für jedes Kriterium eine konkretere Beschreibung zu hinterlegen. 
+
+![Rubric Zellentext](assets/Rubrik_Bewertungsfeld.png){ class="shadow lightbox" }
+
+Aktiviert man das Feld **„Kommentar pro Frage“** können User für jede Zeile eines Rubriks noch einen Kommentar zu ihrer Bewertung hinterlassen (Freitextfeld).
+
+Ferner kann definiert werden ob die Bearbeitung des gesamten Rubriks freiwillig oder obligatorisch ist. 
+
+Wird **„Keine Antwort möglich“** aktiviert, erscheint neben den Bewertungsoptionen zusätzlich die Auswahl „Keine Antwort möglich“. Damit kann das Rubrik-Element als bearbeitet gelten, auch wenn keine konkrete Bewertung abgegeben wird. Diese Option ist besonders sinnvoll, wenn ein Bewertungskriterium für einzelne Nutzer nicht relevant oder unpassend ist.
 
 
-![extended rubric configuration](assets/Rubric_erweitert_en.png){ class="shadow lightbox" }
+#### Tab: Erweitert
 
-You can give the rubric a name, which makes it easier for you to assign it later during assessment. If required, you can also display the name directly in the questionnaire. 
+Im Tab "Erweitert" des Inspektors können Sie dem Rubrik Element einen Namen geben und entscheiden ob der Name in der Durchführung und in den Reports angezeigt werden soll.
 
-Under Scale type, you can specify the type of Likert scale used and thus also define the value range: Determine at which end of the scale the positive rating is and define if necessary the ranges for insufficient, neutral and good. This information is taken into account in the assessment.
+!!! info "Tipp
 
-!!! info "Info"
+    Wenn Sie planen ein Formular mit [Verzweigungen und Frageregeln](../learningresources/Form_Question_Rules.md) zu erstellen sollten Sie für Einzelauswahl und Mehrfachauswahl-Elemente undbedingt einen sinnvollen Namen vergeben. Das erleichtert Ihnen später die Zuordnung.
 
-    The rubric inspector can be freely positioned and moved in the form area.
+Under “Scale type”, you can specify the type of Likert scale used and thus also define the value range: Specify at which end of the scale the positive rating is located and where the scale should start. If necessary, also define the ranges for unsatisfactory, neutral and good. This information is taken into account in the evaluation of the form.
+
+#### Tab: Style
+
+Wie bei anderen Fragetypen kann auch ein Rubrik mit einer Hinweis-Box versehen werden, zum Beispiel um besonders wichtige Rubriks hervorzuheben. Diese werden dann visuell besonders kenntlich gemacht.
+
+#### Tab: Layout
+
+Hier kann der Abstand des Rubrik-Elements zu anderen Formular Elementen festgelegt werden.
+
+
+!!! note "Info"
+
+    The rubric inspector can be freely positioned and moved in the form area. Move it so that it does not disturb you or cover other important elements.
 
 
 ## Further information

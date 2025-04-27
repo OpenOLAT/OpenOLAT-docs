@@ -35,14 +35,16 @@ Im Kurseditor kann konfiguriert werden, ob neben den Kursbesiter:innen auch Betr
 
 ![content_editor_page_edit_right_coach_v1_de.png](assets/content_editor_page_edit_right_coach_v1_de.png){ class="shadow lightbox" }
 
-Die Medien-Inhalte des [Kursbausteins „Seite“](../learningresources/Course_Element_Page.de.md) (Bilder, Audio, Video, Diagramme, Zitate, Dokumente, etc.) werden im [Medien Center](../personal_menu/Media_Center.de.md), nicht im Ablageordner des Kurses (vergl. [Kursbaustein "HTML-Seite"](../learningresources/Course_Element_HTML_Page.de.md)), gespeichert. Weitere Infos finden Sie bei den Erläuterungen zu den jeweiligen Kursbausteintypen. 
+Die Medien-Inhalte des [Kursbausteins „Seite“](../learningresources/Course_Element_Page.de.md) (Bilder, Audio, Video, Diagramme, Zitate, Dokumente, etc.) werden im [Media Center](../personal_menu/Media_Center.de.md), nicht im Ablageordner des Kurses (vergl. [Kursbaustein "HTML-Seite"](../learningresources/Course_Element_HTML_Page.de.md)), gespeichert. Weitere Infos finden Sie bei den Erläuterungen zu den jeweiligen Kursbausteintypen. 
 
 Für Portfolio und Formular-Lernressource gelten andere Regeln.
 
 
 ### Lernressource Formular
 
-Der Content Editor wird auch in der [Lernressource Formular](../learningresources/Form.de.md) und somit mittelbar in den Kursbausteinen Formular und Umfrage in OpenOlat Kursen eingesetzt. Die angezeigten Optionen zum Einfügen von Inhalt sind an das Formular angepasst, z.B. stehen hier verschiedene Fragetypen zur Auswahl.
+Der Content Editor wird auch in der [Lernressource Formular](../learningresources/Form.de.md) und allen Elementen die die Lernressource Formular nutzen verwendet. 
+
+Die angezeigten Optionen zum Einfügen von Inhalt sind an das Formular angepasst, z.B. stehen hier verschiedene Fragetypen zur Auswahl.
 
 ![Inhalte hinzufügen im Formular](assets/Formular_Inhalt_hinzufuegen19.jpg){ class="shadow lightbox" }
 
@@ -61,7 +63,7 @@ Es stehen verschiedene Layouts zur Auswahl, die sich durch unterschiedlich angeo
 
 Falls nötig, lässt sich das Layout später jederzeit ändern. Klicken Sie dazu einfach auf das Zahnrad-Symbol (Einstellungen bearbeiten) des Layouts und wählen Sie ein neues Layout aus.
 
-![Layout Wahl](assets/Lyout_Formular.jpg/){ class="shadow lightbox" }
+![Layout Wahl](assets/Lyout_Formular.jpg){ class="shadow lightbox" }
 
 Sind mehrere Layouts vorhanden, können Sie die Reihenfolge der Layouts ändern. 
 Zum Verschieben eines gesamten Layouts verwenden Sie die Pfeile.

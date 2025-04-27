@@ -55,7 +55,7 @@ Most of the course elements in the Assessment category are assessable and points
 
 The configuration tab "Reminders" is available for all assessable elements of the knowledge check. Here, e-mails can be sent depending on the processing status of the respective course element, e.g. if an assignment or a test has not yet been processed on a certain date. The possibilities are similar to those in the menu ["Reminder"](../learningresources/Course_Reminders.md) in the course administration.
 
-In addition, the course elements "Survey" and "Form" are assigned to the category "Knowledge check". These enable the integration of OpenOlat [forms](../learningresources/Form_editor_Questionnaire_editor.md) into the course in order to use them for teaching evaluations, general surveys, structured queries of certain information of the participants, etc.
+In addition, the course elements "Survey" and "Form" are assigned to the category "Knowledge check". These enable the integration of OpenOlat forms into the course in order to use them for teaching evaluations, general surveys, structured queries of certain information of the participants, etc.
 
 #### Highscore  {: #highscore}
 

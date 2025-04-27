@@ -18,10 +18,15 @@ Falls die Bedingungen nicht erfüllt sind, erfolgt eine Warnung und sie können 
 
 ### Passende Namen vergeben
 
-Wichtig, um den Überblick zu behalten sollten Sie unbedingt für alle Layout und Inhaltselemente, die Sie für die Frageregeln benötigen, sinnvolle Bezeichnungen vergeben. Dies erfolgt für Layouts über das Icon bzw. im Inspektor bei den Inhaltselementen.  
+Wichtig, um den Überblick zu behalten sollten Sie unbedingt für alle Layout und Inhaltselemente, die Sie für die Frageregeln benötigen, sinnvolle Bezeichnungen vergeben. Dies erfolgt über den Inspektor, den Sie jeweils über das Zahnrad-Symbol aufrufen können, wenn er nicht bereits sichtbar ist.
 
-![Layout Name vergeben](assets/Formular_ContainerName.png){ class="shadow lightbox" }
-![MC Inspektor Name vergeben](assets/Formular_MC_Inspektor1.png){ class="shadow lightbox" }
+Hier tragen Sie den Namen für ein Container Layout-Element ein:
+
+![Layout Name vergeben](assets/Formular_Conatiner_Name1.jpg){ class="shadow lightbox" }
+
+So tragen Sie den Namen für ein Einzel- oder Mehrfachauswahl-Element ein:
+
+![MC Inspektor Name vergeben](assets/Formular_Name1.jpg){ class="shadow lightbox" }
 
 ### Frageregeln im Menü hinterlegen
 Die Frageregeln können oben, rechts neben dem Administrationsmenü, aufgerufen werden.

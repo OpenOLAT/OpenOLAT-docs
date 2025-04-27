@@ -53,7 +53,7 @@ Die meisten Kursbausteine der Kategorie Wissensüberprüfung sind bewertbar und 
 
 Das Konfigurationstab "Erinnerungen" steht für alle bewertbaren Bausteine der Wissensüberprüfung zur Verfügung. Hier können in Abhängigkeit vom Bearbeitungsstatus des jeweiligen Kursbausteins E-Mails verschickt werden, z.B. wenn zu einem bestimmten Datum eine Aufgabe oder ein Test noch nicht bearbeitet wurde. Die Möglichkeiten sind ähnlich wie im Menü ["Erinnerung"](../learningresources/Course_Reminders.de.md) in der Kurs-Administration.
 
-Unter der Kategorie Wissensüberprüfung sind ausserdem die Kursbausteine "Umfrage" und "Formular" zugeordnet. Diese ermöglichen die Einbindung von OpenOlat [Formularen](../learningresources/Form_Editor.de.md) in den Kurs, um diese für Unterrichtsevaluationen, allgemeine Befragungen, strukturierte Abfragen bestimmter Informationen der Teilnehmenden usw. zu nutzen.
+Unter der Kategorie Wissensüberprüfung sind ausserdem die Kursbausteine "Umfrage" und "Formular" zugeordnet. Diese ermöglichen die Einbindung von OpenOlat Formularen in den Kurs, um diese für Unterrichtsevaluationen, allgemeine Befragungen, strukturierte Abfragen bestimmter Informationen der Teilnehmenden usw. zu nutzen.
 
 #### Highscore {: #highscore}
 
@@ -84,7 +84,7 @@ Kursbausteine dieser Kategorie werden vor allem für kollaboratives Arbeiten und
 
 #### Virtuelle Räume
 
-![](assets/vitero.png)
+![Vitero](assets/vitero.png)
 
 Mit den Kursbausteinen 
 [Adobe Connect](Course_Element_Adobe_Connect.de.md), [BigBlueButton](Course_Element_BigBlueButton.de.md), [GoToMeeting](Course_Element_GoToMeeting.de.md), [Microsoft Teams](Course_Element_Microsoft_Teams.de.md), [OpenMeetings](Course_Element_OpenMeetings.de.md), [Vitero](Course_Element_vitero.de.md) und [Zoom](Course_Element_Zoom.de.md) können in OpenOlat unterschiedliche [Virtuelle Klassenzimmer](../course_elements/Virtual_classrooms.de.md) für synchrone Meetings, Video-Konferenzen oder Webinare eingesetzt werden.

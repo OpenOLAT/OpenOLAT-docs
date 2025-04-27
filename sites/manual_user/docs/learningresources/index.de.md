@@ -114,7 +114,7 @@ Mit Hilfe des Ressourcenordners können Dateien (Inhalte, Informationen, Grafike
 
 Formulare können in OpenOlat für vielfältige Zwecke und an unterschiedlichen Stellen eingesetzt werden. Sie eignen sich z.B. für Umfragen, Datenerhebungen, Selbsteinschätzungen, Fragebogen oder Rubrikbewertung. Zum Einsatz kommen sie im Kursbaustein "Formular", im Kursbaustein "Umfrage" oder als Rubrikbewertung im Kursbaustein "Bewertung" oder Kursbaustein "Aufgabe". 
 
-Kursteilnehmende können dasselbe Formular nur einmal ausfüllen. Die Resultate werden anonymisiert gespeichert, sofern keine personalisierten Felder eingefügt werden. Mehr Informationen zum Einsatz und Erstellung von Formularen für Umfragen, Rubriks usw. finden Sie im Kapitel  [Formulare erstellen](../learningresources/Form.de.md).
+Mehr Informationen zum Einsatz und Erstellung von Formularen für Umfragen, Rubriks usw. finden Sie im Kapitel  [Formulare erstellen](../learningresources/Form.de.md).
 
 [zum Seitenanfang ^](#learning_resources)
 
