@@ -1,4 +1,4 @@
-# Module Lecture and Roll Call Management (up to release 19)
+# Module Events and Absences {: #module_events_and_absences}
 
 Before the lectures and absence management can be used it need to be activated
 in the administration. 
@@ -9,6 +9,10 @@ in the administration.
 	lectures and absence management is activated some additional settings can be done for the systemwide configuration. For systems with a fx-release these adaptations are done by frentix.  
 
 	:material-alert: **Not a frentix hosting-client?** Please ask your local system operator!
+
+[To the top of the page ^](#module_events_and_absences)
+  
+---
 
 ## Tab Permissions
 
@@ -41,6 +45,10 @@ teachers and course owners.
 
  **Allow assessment mode for lectures**  
   
+
+[To the top of the page ^](#module_events_and_absences)
+  
+---
 
 ### Globale configuration
 
@@ -98,6 +106,10 @@ days will be counted, the appeal period ends at the end of the day.
 
  **Display in courses**: all lesson blocks or only your own
 
+[To the top of the page ^](#module_events_and_absences)
+  
+---
+
 ## Tab Reasons lectures and absences
 
 In the administration reasons are created with a title and a description.
@@ -109,9 +121,15 @@ when closing a lecture block.
 
 ![](assets/Absenz_Begruendung.png){ class="shadow lightbox" }
 
+[To the top of the page ^](#module_events_and_absences)
+  
+---
+
 ## Tab Lectures report
 
 Reports for specific time periods can be displayed here.
 
+
+[To the top of the page ^](#module_events_and_absences)
   
 

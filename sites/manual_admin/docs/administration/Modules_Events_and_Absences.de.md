@@ -1,4 +1,4 @@
-# Modul Lektionen- und Absenzenmanagement (bis Release 19)
+# Modul Termine und Absenzen {: #module_events_and_absences}
 
 Bevor das Lektionen- und Absenzenmanagement genutzt werden kann, muss dies in
 der Administration aktiviert werden. 
@@ -11,6 +11,12 @@ der Administration aktiviert werden.
 	werden diese Anpassung durch frentix vorgenommen.  
 		
 	:material-alert: **Nicht Hosting-Kunde von frentix?** Fragen Sie Ihren Systembetreiber!
+
+
+[Zum Seitenanfang ^](#module_events_and_absences)
+  
+---
+
 
 ## Tab Berechtigungen
 
@@ -45,6 +51,10 @@ Dozenten und Kursbesitzer.
  **Prüfungsmodus für Lektionen erlauben**
 
   
+[Zum Seitenanfang ^](#module_events_and_absences)
+  
+---
+
 
 ### Globale Konfiguration
 
@@ -108,6 +118,11 @@ Tage gezählt, Rekursfristschluss ist jeweils am Ende des Tages.
 
  **Anzeige in Kursen**: alle Lektionenblöcke oder nur eigene
 
+[Zum Seitenanfang ^](#module_events_and_absences)
+  
+---
+
+
 ## Tabs Begründungen für Lektionen und Absenzen
 
 In der Administration werden auch die Begründungen erfasst und zwar jeweils
@@ -122,7 +137,15 @@ nicht.
 
 ![](assets/Absenz_Begruendung.png){ class="shadow lightbox" }
 
+[Zum Seitenanfang ^](#module_events_and_absences)
+  
+---
+
+
 ## Tab Lektionenblockreport
 
 Hier können Reports für bestimmte Zeiträume angezeigt werden.
 
+
+[Zum Seitenanfang ^](#module_events_and_absences)
+  
