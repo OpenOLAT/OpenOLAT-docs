@@ -1,10 +1,6 @@
 # Course Planner: Übersicht {: #course_planner}
 
 
-!!! warning "Achtung"
-
-    Dieser Artikel ist noch in Bearbeitung.
-
 Ab Release 20 verfügt OpenOlat über das eigenständige Zusatzmodul "Course Planner".
 OpenOlat kann aber auch weiterhin als klassisches LMS ohne dieses Modul genutzt werden.
 
@@ -16,8 +12,14 @@ Mit dem Course Planner kann die **Planungsarbeit** von der **Inhaltserstellung**
 
 Sie können natürlich auch ohne Course Planner OpenOlat-Kurse erstellen. Mit dem Course Planner steht Ihnen jedoch ein Werkzeug zur Verfügung, das die organisatorischen Aufgaben zusammenführt.
 
+[Zum Seitenanfang ^](#course_planner)
 
-??Die Planungsaufgaben betreffen
+---
+
+
+## Wie funktioniert der Course Planner? {: #functional_relationships}
+
+Die Planungsaufgaben betreffen
 
 - Katalog
 - Buchungsfunktionen 
@@ -25,6 +27,19 @@ Sie können natürlich auch ohne Course Planner OpenOlat-Kurse erstellen. Mit de
 - Zeitfenster für die Kursdurchführung
 - Platzkontingente in den Kursen
 - automatische Kurserstellung
+
+Dabei bestehen folgende grundsätzliche Zusammenhänge: 
+
+![course_planner_functional_relationships1_v1_de.png](assets/course_planner_functional_relationships1_v1_de.png){ class="shadow lightbox" }  
+
+Wenn Teilnehmer:innen ein ganzes Curriculum absolvieren sollen, werden sie zu Mitgliedern einer bestimmten Curriculum-Durchführung gemacht (nicht zu Mitgliedern einzelner Kurse oder einem Curriculum). Ausserdem kann auch eine Abrechnung für die Durchführung eingerichtet werden.
+
+![course_planner_functional_relationships2_v1_de.png](assets/course_planner_functional_relationships2_v1_de.png){ class="shadow lightbox" }  
+
+
+[Zum Seitenanfang ^](#course_planner)
+
+---
 
 
 ## Wer kann den Course Planner nutzen? {: #users}
@@ -63,10 +78,10 @@ Die Übersicht zeigt
 
 ![course_planner_overview_v1_de.png](assets/course_planner_overview_v1_de.png){ class="shadow lightbox" }  
 
-Mit Eingabe eines Begriffes im Suchfeld kann gesucht werden nach
+Mit Eingabe eines Begriffes im Suchfeld kann nach **Curriculumelementen** gesucht werden.<br>
+Wie auch bei anderen Suchen, kann mit Filtern das Suchergebnis eingegrenzt werden.
 
-* ...
-* ...
+![course_planner_search_v1_de.png](assets/course_planner_search_v1_de.png){ class="shadow lightbox" }  
 
 
 [Zum Seitenanfang ^](#course_planner)
@@ -75,7 +90,7 @@ Mit Eingabe eines Begriffes im Suchfeld kann gesucht werden nach
 
 ### Curricula/Produkte {: #curricula}
 
-tbd
+Curricula/Produkte bestehen aus mehreren Kursen und haben eine bestimmte Struktur/Abfolge, in der die enthaltenen Kurse kombiniert sind.
 
 ![course_planner_curricula_v1_de.png](assets/course_planner_curricula_v1_de.png){ class="shadow lightbox" }
 
@@ -87,7 +102,7 @@ tbd
 
 ### Durchführungen {: #implementations}
 
-tbd
+Ein Curriculum kann mehrfach durchgeführt werden. Z.B. kann sich jedes Semester der Ablauf eines Curriculums wiederholen.
 
 ![course_planner_implementations_v1_de.png](assets/course_planner_implementations_v1_de.png){ class="shadow lightbox" }
 
@@ -99,7 +114,7 @@ tbd
 
 ### Termine {: #events}
 
-tbd
+Die hier bestimmten Termine beziehen sich auf die Durchführung eines Curriculums oder eines Teilbereiches daraus. 
 
 ![course_planner_events_v1_de.png](assets/course_planner_events_v1_de.png){ class="shadow lightbox" }
 
@@ -111,7 +126,7 @@ tbd
 
 ### Reports {: #reports}
 
-tbd
+Anhand von Report-Vorlagen können verschiedene Reports erzeugt werden.
 
 ![course_planner_reports_v1_de.png](assets/course_planner_reports_v1_de.png){ class="shadow lightbox" }
 
