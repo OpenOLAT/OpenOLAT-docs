@@ -16,7 +16,7 @@ Darüber hinaus können [weitere Lernressourcen-Typen](#further_learningresource
 
 ![Kurs icon](assets/icon_course.png)
 
-Ein OpenOlat-Kurs kann als reiner Online-Kurs eingesetzt werden oder Vorlesungen, Seminare oder andere Präsenzveranstaltungen begleiten. In einem OLAT-Kurs können verschiedene didaktische Konzepte wie Webquest, Gruppenpuzzles, problembasiertes Lernen, gamebasierte Ansätze usw. umgesetzt werden. Ein Kurs ist in OpenOlat ein eigener Dokumententyp der beliebig viele "Kursbausteine" sowie weitere Funktionalitäten enthalten kann. 
+Ein OpenOlat-Kurs kann als reiner Online-Kurs eingesetzt werden oder Vorlesungen, Seminare oder andere Präsenzveranstaltungen begleiten. In einem OpenOlat-Kurs können verschiedene didaktische Konzepte wie Webquest, Gruppenpuzzles, kooperative Online-Seminare, problembasiertes Lernen, gamebasierte Ansätze usw. umgesetzt werden. Ein Kurs ist in OpenOlat ein eigener Dokumententyp der beliebig viele "Kursbausteine" sowie weitere Funktionalitäten enthalten kann. 
 
 Wie Kurse erstellt werden, erfahren Sie im Kapitel ["Kurs erstellen"](Creating_Course.de.md). Details zu Kursbausteinen und dem Kurseditor erfahren Sie im Kapitel ["Kursbausteine"](Course_Elements.de.md).
 
@@ -25,13 +25,13 @@ Wie Kurse erstellt werden, erfahren Sie im Kapitel ["Kurs erstellen"](Creating_C
 
 ---
 
-## Test (QTI 2.1) {: #test}
+## Test {: #test}
 
 ![learning_resource_test_v1_de.png](assets/learning_resource_test_v1_de.png){ class="aside-right lightbox"}
 
 ![Test icon](assets/icon_test.png)
 
-Tests können sowohl zu Prüfungs- als auch zu Übungszwecken verwendet werden. Im ersten Fall können die Kursautorinnen die Testresultate einsehen und den Testpersonen zuordnen, im zweiten Fall werden die Resultate anonymisiert gespeichert. Jeder Test liegt in einem standardisierten Dokumentenformat, dem IMS-QTI-Format, vor.
+OpenOlat Tests können Tests sowohl zu Prüfungs- als auch zu Übungszwecken verwendet werden. Im ersten Fall können die Kursautor:innen die Testresultate einsehen und den Testpersonen zuordnen, im zweiten Fall werden die Resultate anonymisiert gespeichert. Jeder Test liegt in dem  standardisierten IMS-QTI 2.1 Format vor.
 
 Mehr Informationen zum Einsatz und Erstellung von Tests finden Sie im Kapitel
 ["Tests erstellen"](../learningresources/Test.de.md).
@@ -58,7 +58,7 @@ Ein Content-Packaging (kurz CP) ist ein Lerninhalt in einem standardisierten E-L
 
 ![Wiki Icon](assets/icon_wiki.png)
 
-Mit Wikis können auf einfache Weise kooperativ, gemeinsam Inhalte erstellt werden. Ein Wiki kann für Gruppenarbeiten, als Dokumentationswerkzeug oder als Wissensbasis für Ihre Studien- oder Projektarbeit verwendet werden.
+Mit Wikis können auf einfache Weise kooperativ, gemeinsam Inhalte erstellt werden. Ein Wiki kann für Gruppenarbeiten, als Dokumentationswerkzeug oder als Wissensbasis für Studien- oder Projektarbeiten verwendet werden.
 
 Mehr Informationen zur Erstellung von Wikis finden Sie im Kapitel ["Wiki erstellen"](../learningresources/Wiki.de.md). Wie Sie im Wiki Inhalte erstellen und sinnvoll arbeiten erfahren Sie [hier](../learningresources/Course_Element_Wiki.de.md).
 

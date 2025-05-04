@@ -36,6 +36,7 @@ Die Erstellung und Konfiguration einer Aufgabe erfolgt wie bei allen Kursbaustei
     * [Tab Musterlösung](#sample)<br>Z.B. Bereitstellung einer pdf-Datei.
     * [Tab Highscore](#highscore)<br>Visualisierung der Resultate, falls Punkte vergeben werden.
     * [Tab Erinnerungen & To-dos](#reminders)<br>Vorbereitung automatischer Erinnerungsmails und To-dos
+    * [Tab Badges](#tab-badges<br>Erstellung von Badges für die Bearbeitung/Erledigung der Aufgabe
 
 
 ### Tab "Titel und Beschreibung"  {: #title}
@@ -69,7 +70,7 @@ Das **Freigabedatum** kann verwendet werden, wenn der Kursbaustein erst zu einem
 
 Die Zeitangabe unter "**Zu bearbeiten bis**" bezieht sich auf die Frist für das Abholen bzw. den Start des Kursbausteins Aufgabe, nicht auf den Abgabetermin für den Dateiupload (siehe Tab Workflow).
 
-Bei der **Bearbeitungszeit** kann die geschätzte Zeit, die ein/e Teilnehmer:in für die Bearbeitung des Kursbausteins benötigt, eingetragen werden. Ein Eintrag ist vor allem relevant, wenn sich der Fortschritt im Kurs auf die Bearbeitungszeit der Kursbausteine bezieht (siehe Administration -> [Einstellungen](../learningresources/Course_Settings.de.md) -> Tab "Durchführung")
+Bei der **Bearbeitungszeit** kann die geschätzte Zeit, die ein/e Teilnehmer:in für die Bearbeitung der Aufgabe benötigt, eingetragen werden. Ein Eintrag ist vor allem relevant, wenn sich der Fortschritt im Kurs auf die Bearbeitungszeit der Kursbausteine bezieht (siehe Administration -> [Einstellungen](../learningresources/Course_Settings.de.md) -> Tab "Durchführung")
 
 Im Tab "Lernpfad" wird auch definiert, welches Kriterium erfüllt sein muss, damit die Aufgabe als "erledigt" gilt. Folgende Optionen stehen zur Wahl:
 
@@ -92,9 +93,9 @@ Im Tab "Workflow" definieren Sie, welche einzelnen Elemente die Aufgabe überhau
 
 !!! tip "Tipp"
 
-    Starten Sie die Konfiguration in diesem Tab und wählen Sie die Funktionen aus, die Sie benötigen. Anschliessend sind die benötigten Tabs aktiv/inaktiv und können weiter konfiguriert werden.
+    Dies ist der erste Tab des Kursbausteins, den Sie konfigurieren sollten. Wählen Sie hier die konkreten Funktionen aus, die Sie benötigen. Anschliessend sind die passenden Tabs aktiv/inaktiv und können weiter konfiguriert werden.
 
-
+Folgende Optionen stehen Ihnen zur Verfügung: 
 ![course_element_task_workflow_elements_v2_de.png](assets/course_element_task_workflow_elements_v2_de.png){ class="shadow lightbox"}
 
 ![1_green_24.png](assets/1_green_24.png) **Relatives Datum**<br>
@@ -135,7 +136,7 @@ Sind Musterlösungen aktiviert, kann hier auch definiert werden, ob Betreuer:inn
 Mit dem Einschalten dieses Toggle-Buttons wird der Tab "Bewertung" aktiviert, in dem die Details der Bewertung konfiguriert werden können.
 
 ![8_green_24.png](assets/8_green_24.png) **Dokumente Konfiguration**<br>
-Diese Option wird nur angzeigt, wenn eine der Optionen "Aufgabenstellung" oder "Musterlösung" gewählt wurde und so das Hochladen von Dokumenten erforderlich ist. Es kann hier erlaubt werden, dass neben Kursbesitzer:innen auch Betreuer:innen Dokumente hinzufügen und bearbeiten können.
+Diese Option wird nur angezeigt, wenn eine der Optionen "Aufgabenstellung" oder "Musterlösung" gewählt wurde und so das Hochladen von Dokumenten erforderlich ist. Es kann hier erlaubt werden, dass neben Kursbesitzer:innen auch Betreuer:innen Dokumente hinzufügen und bearbeiten können.
 
 ![9_green_24.png](assets/9_green_24.png) **Betreuung**<br>
 Im Abschnitt "Betreuung" des Tabs "Workflow" kann eine teilnehmerabhängige Betreuung aktiviert und konfiguriert werden.
@@ -188,16 +189,19 @@ Wählen Sie hier, ob Teilnehmende über die Zuweisung zu einer betreuenden Perso
 
 !!! info "Voraussetzung"
 
-    Im Tab "Workflow" muss die "Aufgabenstellung" aktiviert worden sein, damit Sie diese nun bereitstellen können. 
+    Im Tab "Workflow" muss zunächst die "Aufgabenstellung" aktiviert worden, damit die konkrete Aufgabenstellung im Tab Aufgabenstellung bereitgestellt werden kann. 
 
 
-**a) Dateien hochladen**
+**a) Aufgabe hochladen**
 
-Ausserhalb von OpenOlat erstellte Aufgaben können als Datei hochgeladen werden. Auch kann eine Zip-Datei mit mehreren (verschiedenen) Aufgaben hochgeladen und jede Datei mit einem passenden Titel und einer Beschreibung versehen werden.
+Sie können eine oder mehrere zuvor erstellte Aufgaben-Dateien hochladen. Jede hochgeladene Aufgabe gilt dann als eine zu bearbeitende Alternative. Werden für die Bearbeitung einer Aufgabe mehrere ergänzende Dateien benötigt, sollten Sie alle benötigten Dateien als Zip-Datei bündeln und diese Zip-Datei als Aufgabendatei hochladen.  
+
+Generell sollte jede Aufgaben-Datei einen passenden Titel und eventuell eine kurze Beschreibung umfassen. 
+
 
 **b) Dateien unterschiedlicher Formate erstellen**
 
-Dateien können auch direkt in OpenOlat erstellt werden. Welche Formate genau zur Verfügung stehen hängt davon ab welche von der OpenOlat Administration aktiviert wurden. In der Regel steht mindestens ein HTML-Editor zur Verfügung. Aber auch die Erstellung von Word, Excel, PowerPoint sowie seit :octicons-tag-24: Release 18.1.  Diagrammen oder Whiteboards sind möglich. Zusätzlich können eine spezifische Video- und ab :octicons-tag-24: Release 18.1. auch eine Audio-Aufgabe erstellt werden. 
+Neben dem Upload können Dateien auch direkt in OpenOlat erstellt werden. Welche Formate genau zur Verfügung stehen hängt davon ab welche von der OpenOlat Administration aktiviert wurden. In der Regel steht mindestens ein HTML-Editor zur Verfügung. Aber auch die Erstellung von Word, Excel, PowerPoint sowie seit :octicons-tag-24: Release 18.1.  Diagrammen oder Whiteboards sind möglich. Zusätzlich können eine spezifische Video- und ab :octicons-tag-24: Release 18.1. auch eine Audio-Aufgabe erstellt werden. 
 
 Wird eine Aufgabe mit dem internen HTML-Editor erstellt, können Sie ebenfalls mehrere Dateien (z.B. Bilder oder PDFs) zur Verfügung stellen, in dem Sie diese im HTML-Editor hochladen und dann in der HTML-Seite verlinken bzw. direkt anzeigen. So erstellte Aufgaben werden von den Benutzern dann im .zip Format heruntergeladen. Wird der HTML-Editor verwendet, wird automatisch der hinterlegte Titel auch als Dateiname übernommen. Dies kann aber jederzeit wieder geändert werden.
 
@@ -205,21 +209,21 @@ Wird eine Aufgabe mit dem internen HTML-Editor erstellt, können Sie ebenfalls m
 
     Bitte beachten: Werden mehrere Dateien im Tab Aufgabenstellung hinterlegt, werden diese als mehrere verschiedene Aufgabenstellungen betrachtet. Es handelt sich _nicht_ um eine Aufgabe mit mehreren ergänzenden Dateien.
     
-Im Feld "Art der Zuweisung" bestimmen Sie, ob einem Kursteilnehmer alle zur Verfügung stehenden Aufgaben zur Auswahl angeboten werden, oder ob ihm eine Aufgabe automatisch per Zufallsauswahl zugewiesen wird.
+Im Feld **"Art der Zuweisung"** bestimmen Sie, ob einem Kursteilnehmer bzw. einer Kursteilnehmerin alle zur Verfügung stehenden Aufgaben zur Auswahl angeboten werden, oder ob eine Aufgabe automatisch per Zufallsauswahl zugewiesen wird.
 
-Wählen Sie im Feld "Typ der Ziehung", ob mehrere Kursteilnehmende die gleiche Aufgabe lösen können, oder ob jeder Kursteilnehmer bzw. Kursteilnehmerin eine andere Aufgabe lösen soll. Wenn die Aufgabe manuell gewählt wird, können Sie im Feld "Vorschau" weiter festlegen, ob die Kursteilnehmenden vor der Wahl einer Aufgabe diese einsehen dürfen. Wenn bei "Typ der Ziehung" jeder Kursteilnehmer eine andere Aufgabe lösen soll, müssen mindestens so viele Aufgaben hinterlegt werden, wie es Kursteilnehmende gibt, die diese Aufgabe lösen sollen.
+Wählen Sie im Feld **"Typ der Ziehung"**, ob mehrere Kursteilnehmende die gleiche Aufgabe lösen können, oder ob jeder Kursteilnehmer bzw. Kursteilnehmerin eine andere Aufgabe lösen soll. Wenn die Aufgabe manuell gewählt wird, können Sie im Feld "Vorschau" weiter festlegen, ob die Kursteilnehmenden vor der Wahl einer Aufgabe diese einsehen dürfen. Wenn bei "Typ der Ziehung" jeder Kursteilnehmer eine andere Aufgabe lösen soll, müssen mindestens so viele Aufgaben hinterlegt werden, wie es Kursteilnehmende gibt, die diese Aufgabe lösen sollen.
 
 !!! info "Tipp"
 
     Wenn der Kursbaustein nur _eine_ Aufgabe beinhaltet ist eine manuelle Wahl wenig sinnvoll. Nutzen Sie in diesem Fall am besten die automatische Zuweisung.
 
-Im Feld "Mitteilung an Benutzer" können Sie für alle Kursteilnehmenden allgemeine Hinweise zur Bearbeitung der Aufgaben formulieren.
+Im Feld **"Mitteilung an Benutzer"** können Sie für alle Kursteilnehmenden allgemeine Hinweise zur Bearbeitung der Aufgaben hinterlegen.
 
-Wählt ein Kursteilnehmer bei der manuellen Auswahl aus versehen die falsche bzw. nicht gewollte Aufgabenstellung, kann die Wahl vom Kursbesitzer im [Bewertungswerkzeug](../learningresources/Assessment_tool_overview.de.md) zurückgesetzt werden.
+Wählt ein User bei der manuellen Auswahl aus versehen die falsche bzw. nicht gewollte Aufgabenstellung, kann die Wahl vom Kursbesitzer im [Bewertungswerkzeug](../learningresources/Assessment_tool_overview.de.md) zurückgesetzt werden.
 
 ![Daten zurücksetzen](assets/Aufgabe_zuruecksetzen_173.png)
 
-Es folgt keine automatische Änderung. Der Teilnehmer erhält nun aber die Möglichkeit seine bisherigen Schritte wieder rückgängig zu machen.
+Es folgt *keine automatische* Änderung. Der Teilnehmer erhält nun aber die Möglichkeit seine bisherigen Schritte wieder rückgängig zu machen.
 
 ![Daten zurücksetzen User](assets/Aufgabe_User_Daten_zurücksetzen.png)
 
@@ -242,27 +246,25 @@ Hier definieren Sie Art und Umfang der Einsendemöglichkeiten für die Teilnehme
     ![course_element_task_workflow_activate_submission_v1_de.png](assets/course_element_task_workflow_activate_submission_v1_de.png){ class="shadow lightbox" }
 
 
-Nach Aktivierung stehen zur Auswahl: 
+Nach Aktivierung müssen Sie den Usern mindestens die Möglichkeit aktivieren Dokumente hochzuladen oder/und den OpenOlat Editor für die Abgabe zu nutzen. 
+
+Im Tab "Abgabe" stehen folgende Optionen zur Wahl bzw. können konfiguriert werden: 
 
 **"Dokumente hochladen"**: In diesem Fall können Kursteilnehmende außerhalb von OpenOlat erstellte Dokumente hochladen und abgeben. 
 
-**"Abgabe mit OpenOlat Editor"**: Mit dieser Auswahl können Teilnehmende die Erstellung von Dokumenten direkt im Kursbaustein vornehmen. Ein HTML-Editor kann dafür standardmässig verwendet werden. Sind weitere Dokument Editoren in OpenOlat eingebunden, können auch Dokumente in weiteren Formaten wie Word, Excel usw.  erstellt werden. 
-
-**Videoaufnahmen zulassen**: In diesem Fall können Lernende Videoaufnahmen per Webcam zu erstellen und abgeben. Auch eine maximale Aufnahmedauer sowie eine Qualitätsstufe kann für die Videos gewählt werden. 
-
-**Audioaufnahmen zulassen**: Hier erhält der User die Möglichkeit direkt in OpenOlat eine Tonaufnahme zu erstellen und einzureichen. (Seit :octicons-tag-24: Release 18.1.)
-
-!!! info "Hinweis"
-
-    Audio- und Videoaufnahmen müssen immer mit einer der Optionen "Dokumente hochladen" oder "Abgabe mit OpenOlat Editor" kombiniert werden. 
+**"Abgabe mit OpenOlat Editor"**: Mit dieser Auswahl können Teilnehmende die Erstellung von Dokumenten direkt im Kursbaustein vornehmen. Ein HTML-Editor kann dafür standardmässig verwendet werden. Sind weitere Dokument Editoren in OpenOlat eingebunden, können auch Dokumente in weiteren Formaten wie Word, Excel usw.  erstellt werden. Auch die Erstellung von drawio Diagrammen ist hier möglich.
 
 Aktivieren Sie **"Aufgabe ist Vorlage für die Abgabe"**, wenn die Lernenden die hinterlegte Aufgabendatei als Basis für ihre Bearbeitung nutzen sollen, beispielsweise wenn die Aufgabenstellung eine auszufüllende vorstrukturierte Tabelle beinhaltet. Voraussetzung ist, dass diese Option von den OpenOlat Administrationen freigeschaltet wurde.
 
 ![mit Vorlage bearbeiten](assets/Aufgabe_Vorlage.png)
 
-Darüber hinaus können Sie auch die minimale und maximale Anzahl von Dokumenten für die Abgabe definieren. Lassen Sie das Feld bei "Max. Anzahl von Dokumenten" frei, wenn Sie die Anzahl der Dokumente nicht einschränken möchten. Sollen zwingend mehrere Dokumente abgegeben werden können Sie auch die Mindestanzahl von Dokumenten erhöhen.
+**Videoaufnahmen zulassen**: In diesem Fall können Lernende zusätzlich Video-Aufnahmen per Webcam erstellen und einreichen. Auch eine maximale Aufnahmedauer sowie eine Qualitätsstufe kann für die Videos gewählt werden. 
 
-Aktivieren Sie die E-Mail Bestätigung damit Personen, die eine Aufgabe abgegeben haben eine entsprechende E-Mail erhalten. Der vorformulierte E-Mailtext kann bei Bedarf weiter angepasst werden. 
+**Audioaufnahmen zulassen**: In diesem Fall können Lernende zusätzlich Audio-Aufnahmen per Audio-Recorder erstellen und abgeben. Auch eine maximale Aufnahmedauer sowie eine Qualitätsstufe kann für die Audios gewählt werden. 
+
+Darüber hinaus können Lehrende auch die minimale und maximale Anzahl von Dokumenten für die Abgabe definieren. Soll es keine Einschränkung geben, lassen Sie die Felder einfach frei. 
+
+Aktivieren Sie die E-Mail-Bestätigung damit Personen, die eine Aufgabe abgegeben haben eine entsprechende Nachricht erhalten. Der vorformulierte E-Mailtext kann bei Bedarf weiter angepasst werden. 
 
 [nach oben (Perspektive Autor:in) ^](#create_task)<br>
 [zum Seitenanfang ^](#course_element_task)
@@ -276,10 +278,9 @@ Aktivieren Sie die E-Mail Bestätigung damit Personen, die eine Aufgabe abgegebe
 
     Im Tab "Workflow" muss 
 
-    * "Rückgabe und Feedback" aktiviert worden sein, damit Sie diese nun einrichten können,
-    * gewählt worden sein, ob das Feedback durch Betreuer:innen oder Peer-Review geschehen soll.
-
-    ![course_element_task_workflow_activate_fb_v1_de.png](assets/course_element_task_workflow_activate_fb_v1_de.png){ class="shadow lightbox" }
+    * das Feedback eingeschaltet sein.   
+    ![course_element_task_workflow_activate_fb_v1_de.png](assets/course_element_task_workflow_activate_fb_v1_de.png){ class="shadow lightbox" } 
+    * Je nach Wahl wer das Feedback geben soll, erscheinen im Tab "Rückgabe und Feedback" unterschiedliche Optionen 
 
 
 **Rückgabe und Feedback durch Betreuer:innen**
@@ -288,7 +289,9 @@ Wurde im Tab Workflow die Option "Durch Betreuende" gewählt, können nun im Tab
 
 **Rückgabe und Feedback durch Peer-Review**
 
-Wurde im Tab Workflow die Option "Mit Peer-Review" gewählt, können nun im Tab "Rückgabe und Feedback" die Regeln für die Abgabe eines Feedbacks durch andere Teilnehmer:innen festgelegt werden. Das Feedback der Reviewer:innen wird jeweils in einem [Formular](../learningresources/Form_Element_Rubric.de.md) gegeben. Als Kursbesitzer:in geben Sie dieses [Formular](../learningresources/Form_Element_Rubric.de.md) vor. Für ein Peer-Review muss es ein Formular sein, das mindestens 1 Rubrik-Element enthält, denn nur das Rubrik-Element gibt die darin erreichten Punkte an den Kursbaustein weiter. Hier finden Sie ein  [Musterformular zum Download](assets/Example_PeerReview_v1_de.zip).
+Wurde im Tab Workflow die Option "Mit Peer-Review" gewählt wird des komplexer. Nun können im Tab "Rückgabe und Feedback" die Regeln für die Abgabe eines Feedbacks durch andere Teilnehmer:innen festgelegt werden. Das Feedback der Reviewer:innen wird jeweils in einem [Formular](../learningresources/Form_Element_Rubric.de.md) meist mit Hilfe eines Rubriks gegeben. Als Kursbesitzer:in geben Sie dieses Review-Formular vor. 
+
+Wird im Tab Workflow auch die Bewertung aktiviert und sollen die Punkte für das Peer-Review automatisch aus dem Peer-Review Formular übernommen werden, muss das verwendete Peer-Review Formular auch (mindestens) ein Rubric-Element enthalten, da hierüber automatisch Punkte vergeben werden können.  Hier finden Sie ein  [Musterformular zum Download](assets/Example_PeerReview_v1_de.zip).
 
 ![course_element_task_fb_v2_de.png](assets/course_element_task_fb_v2_de.png){ class="shadow lightbox" }
 
@@ -297,7 +300,7 @@ Wurde im Tab Workflow die Option "Mit Peer-Review" gewählt, können nun im Tab 
 Für Peer-Reviews wird ein geeignetes Rubrik-Formular benötigt. Hier finden Sie ein [Musterformular](assets/Example_PeerReview_v1_de.zip) (zip-Datei zum Import in Ihr OpenOlat).
 
 ![2_green_24.png](assets/2_green_24.png) **Gegenseitige Beurteilung**<br>
-Wird die gegenseitige Beurteiligung erlaubt, können sich Teilnehmer:innen gegenseitig beurteilen, müssen es aber nicht.
+Wird die gegenseitige Beurteilung erlaubt, können sich Teilnehmer:innen gegenseitig beurteilen, müssen es aber nicht.
 
 ![3_green_24.png](assets/3_green_24.png) **Review-Form**<br>
 Betreffend der **Sichtbarkeit von Namen** können Sie als Autor:in eine der folgenden Formen wählen:<br> 
@@ -440,7 +443,7 @@ Weitere Informationen zu diesem Tab, der in den meisten Assessment Kursbausteine
 Mit der Erinnerungsfunktion können Sie [Erinnerungen](../learningresources/Course_Reminders.de.md) in Form einer E-Mail an Kursmitglieder versenden und automatische [To-dos](../learningresources/Course_todos.de.md)für die Aufgabe generieren. To-dos werden den Kursteilnehmenden im persönlichen Menü unter "[To-dos](../personal_menu/To-Dos.de.md)" hinterlegt. 
 
 
-Wird die automatische Erstellung von To-dos aktiviert (ab :octicons-tag-24: Release 18.2.) sehen die Lernenden unter "Mein Kurs" -> To-dos den aktuellen Stand (Schritt) des Worklows der entsprechenden  und erkennen so rasch ob bzw. welche Aktionen aktuell von ihnen vorgenommen werden müssen. Darüber hinaus erscheinen diese To-dos auch bei den persönlichen To-dos der User in den persönlichen Werkzeugen. 
+Wird die automatische Erstellung von To-dos aktiviert (ab :octicons-tag-24: Release 18.2.) sehen die Lernenden unter "Mein Kurs" -> To-dos den aktuellen Stand (Schritt) des Workflows der entsprechenden  und erkennen so rasch ob bzw. welche Aktionen aktuell von ihnen vorgenommen werden müssen. Darüber hinaus erscheinen diese To-dos auch bei den persönlichen To-dos der User in den persönlichen Werkzeugen. 
 
 Die To-dos helfen also den Lernenden den Überblick über ihre Aufgaben zu behalten. 
 Weitere Informationen zu To-dos finden Sie [hier](../basic_concepts/To_Dos_Basics.de.md).
@@ -510,7 +513,7 @@ Es ist auch möglich, dass Ihre Lehrperson die Aufgabenstellung nicht in dem Kur
 
 In Kurs-Settings mit sehr vielen Teilnehmenden werden diese häufig von mehreren Lehrpersonen betreut. Als Teilnehmer:in wird Ihnen ein/eine Betreuer:in zugewiesen.
 
-Sie sehen als Teilnehmer:in die Ihnen zugewiesene betreuende Person oberhalb der Aufgabe. Sollte kein/keine Betreuer:in angzeigt werden, wurde Ihnen noch niemand zugeteilt.
+Sie sehen als Teilnehmer:in die Ihnen zugewiesene betreuende Person oberhalb der Aufgabe. Sollte kein/keine Betreuer:in angezeigt werden, wurde Ihnen noch niemand zugeteilt.
 
 ![course_element_task_participant_view_mycoach_v1_de.png](assets/course_element_task_participant_view_mycoach_v1_de.png){ class="shadow lightbox" }
 

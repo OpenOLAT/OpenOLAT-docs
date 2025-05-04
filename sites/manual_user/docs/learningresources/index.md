@@ -12,7 +12,7 @@ OpenOlat comprises different types of [Learning Resources](../learningresources/
 
 ![icon](assets/course.png){class="size16"}
 
-An OpenOlat course can be used as an online-only course or accompany lectures, seminars or other face-to-face events. In an OLAT course different didactic concepts like webquest, group puzzles, problem-based learning, game-based approaches etc. can be implemented.
+An OpenOlat course can be used as an online-only course or accompany lectures, seminars or other face-to-face events. In an OpenOlat course different didactic concepts like webquest, group puzzles, cooperative online seminars, problem-based learning, game-based approaches etc. can be implemented.
 OpenOlat courses are unique document types. They can contain any number of "course elements", as well as other functionalities. 
 
 How to create courses will be illustrated in the chapter ["Creating Courses"](../learningresources/Creating_Course.md). 
@@ -22,13 +22,13 @@ More information on course elements and the course editor can be found in the ch
 
 ---
 
-## Test (QTI 2.1) {: #test}
+## Test {: #test}
 
 ![learning_resource_test_v1_de.png](assets/learning_resource_test_v1_de.png){ class="aside-right lightbox"}
 
 ![Test icon](assets/icon_test.png)
 
-Tests can be used for both examination and practice purposes. In the first case, the course authors can view the test results and assign them to the test subjects; in the second case, the results are stored anonymously. Each test is available in a standardized document format, the IMS QTI format.
+Tests can be used for both examination and practice purposes. In the first case, the course authors can view the test results and assign them to the test subjects; in the second case, the results are stored anonymously. Each test is available in the standardized IMS-QTI 2.1 format.
 
 More information on using and creating tests can be found in the chapter ["Creating Tests"](../learningresources/Test.md).
 
@@ -58,7 +58,7 @@ Content Packaging (abbr.: CP) is a kind of learning content in standardized e-le
 
 ![Wiki Icon](assets/icon_wiki.png)
 
-Wikis are particularly suited for creating content jointly in an easy way. A Wiki can be used for working in groups, as documentation tool or as knowledge base for your studies and projects.
+Wikis are particularly suited for creating content jointly in an easy way. A Wiki can be used for working in groups, as documentation tool or as knowledge base for studies and projects.
 
 For more information on how to create Wikis and embed those in your course, please go to the chapter ["Creating Wikis"](../learningresources/Wiki.md). How to generate content within a Wiki you can find [here](../learningresources/Course_Element_Wiki.md).
 

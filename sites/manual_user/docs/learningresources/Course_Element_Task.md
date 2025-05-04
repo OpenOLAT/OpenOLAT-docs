@@ -34,7 +34,7 @@ A task is created and configured in the course editor, as with all course elemen
     * [Tab Sample](#sample)<br> E.g. provision of a pdf file.
     * [Tab Highscore](#highscore)<br> Visualization of the results if points are awarded.
     * [Tab Reminders](#reminders)<br> Preparation of automatic reminder emails and to-dos
-
+    * [Tab Badges](#tab-badges<br>Creation of badges for the processing/completion of the task
 
 ### Tab "Title"  {: #title}
 
@@ -221,26 +221,23 @@ Here you define the type and scope of the submission options for the participant
 
     ![course_element_task_workflow_activate_submission_v1_de.png](assets/course_element_task_workflow_activate_submission_v1_de.png){ class="shadow lightbox" }
 
+After activation, you must at least enable users to upload documents and/or use the OpenOlat Editor for submission. 
 
-After activation, you can choose from:
+The following options are available or can be configured in the “Submission” tab:
 
 **"Upload documents"**: In this case, course participants can upload and submit documents created outside of OpenOlat.
 
-**"Submission with OpenOlat Editor**: With this selection, participants can create documents directly in the course element. An HTML editor can be used for this by default. If other document editors are integrated in OpenOlat, documents can also be created in other formats such as Word, Excel, etc.
-
-**Allow video recordings**: In this case, learners can create and submit video recordings via webcam. A maximum recording duration and a quality level can also be selected for the videos.
-
-**Allow audio recordings**: Here the user has the possibility to create and submit a sound recording directly in OpenOlat. (Since :octicons-tag-24: Release 18.1.)
-
-!!! info "Hint"
-
-    Audio and video recordings must always be combined with one of the options "Upload documents" or "Submit with OpenOlat Editor". 
+**"Submission with OpenOlat Editor**: With this selection, participants can create documents directly in the course element. An HTML editor can be used for this by default. If other document editors are integrated in OpenOlat, documents can also be created in other formats such as Word, Excel, etc.  The creation of drawio diagrams is also possible here.
 
 Activate **"Task is template for submission"** if learners are to use the stored task file as the basis for their work, for example if the task contains a pre-structured table to be filled in. The prerequisite is that this option has been enabled by the OpenOlat administrators.
 
 ![mit Vorlage bearbeiten](assets/Aufgabe_Vorlage.png)
 
-You can also define the minimum and maximum number of documents for submission. Leave the "Max. number of documents" field blank if you do not want to limit the number of documents. If it is mandatory to submit several documents, you can also increase the minimum number of documents.
+**Allow video recordings**: In this case, learners can create and submit video recordings via webcam. A maximum recording duration and a quality level can also be selected for the videos.
+
+**Allow audio recordings**: In this case, learners can also create and submit audio recordings using the OpenOlat audio recorder. A maximum recording duration and a quality level can also be selected for the audios. 
+
+You can also define the minimum and maximum number of documents for submission. Leave the "Max. number of documents" field blank if you do not want to limit the number of documents. 
 
 Activate the e-mail confirmation so that people who have submitted a task receive a corresponding e-mail. The pre-formulated e-mail text can be further customized if required.
 
@@ -254,10 +251,9 @@ Activate the e-mail confirmation so that people who have submitted a task receiv
 
     In the tab "Workflow"
 
-    * "Return and feedback" must have been activated so that you can now set this up,
-    * whether the feedback should be provided by coaches or peer review.
-
+    * "Return and feedback" must have been activated so that you can now set this up    
     ![course_element_task_workflow_activate_fb_v1_de.png](assets/course_element_task_workflow_activate_fb_v1_de.png){ class="shadow lightbox" }
+    * Depending on who is providing the feedback, different options appear in the Return and Feedback tab.
 
 
 **Revisions by coaches**
@@ -266,7 +262,10 @@ If the "By coach" option was selected in the Workflow tab, the minimum and maxim
 
 **Return and feedback**
 
-If the "With peer review" option was selected in the Workflow tab, the rules for the submission of feedback by other participants can now be defined in the "Return and feedback" tab. The feedback from the reviewers is given in a [form](../learningresources/Rubric.md). As the course owner, enter this [form](../learningresources/Rubric.md). For a peer review, it must be a form that contains at least 1 rubric element, because only the rubric element passes on the points achieved in it to the course element.
+If the "With peer review" option was selected in the Workflow tab, this becomes more complex. The rules for the submission of feedback by other participants can now be defined in the "Return and feedback" tab. The feedback from the reviewers is given in a [form](../learningresources/Rubric.md), usually with the help of a rubric. As the course owner, you provide this review form. 
+
+If the evaluation is also activated in the Workflow tab and the points for the peer review are to be taken automatically from the peer review form, the peer review form used must also contain (at least) one rubric element, as points can be awarded automatically via this.  Here you can find a [sample form for download](assets/Example_PeerReview_v1_en.zip).
+
 
 ![course_element_task_fb_v2_de.png](assets/course_element_task_fb_v2_de.png){ class="shadow lightbox" }
 

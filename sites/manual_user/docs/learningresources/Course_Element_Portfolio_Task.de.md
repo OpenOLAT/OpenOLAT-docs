@@ -22,7 +22,7 @@ Spezialität / Hinweis |
 
 !!! info "Hinweis"
 
-    Um einen funktionsfähigen Kursbaustein "Portfolioaufgabe" zu erhalten, wird zwingend eine Lernressource vom Typ ["Portfolio 2.0 Vorlage"](../learningresources/Portfolio_template_Creation.de.md) benötigt. Sie können als Autor:in eine passende Vorlage im [Tab "Lerninhalt"](#tab_learning_content) hinzufügen. 
+    Für die Portfolioaufgabe wird eine Lernressource ["Portfolio 2.0 Vorlage"](../learningresources/Portfolio_template_Creation.de.md) benötigt. Diese kann entweder im Kursbaustein Portfolioaufgabe im [Tab "Lerninhalt"](#tab_learning_content) oder zentral im Autorenbereich erstellt werden.    
 
 ---
 
