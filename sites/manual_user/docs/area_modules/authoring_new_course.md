@@ -32,7 +32,7 @@ The specific creation process is described on the following pages:
 * Creating forms <br>
 [User manual article](../learningresources/Form.md)  | [Detailed instructions](../../manual_how-to/create_a_form/create_a_form.md)
 
-* Creating portfolios<br>
+* Create a prepared or pre-structured portfolio template<br>
 [User manual article](../learningresources/Portfolio_template_Creation.md) 
 
 * Creating glossaries<br>
@@ -46,17 +46,19 @@ The specific creation process is described on the following pages:
 
 ##  Import learning resources
 
-Learning resources created outside OpenOlat or exported from an OpenOlat system can be imported into OpenOlat if they are in a format compatible with OpenOlat. Possible types are explained in ["Various types of learning resources"](../learningresources/index.md).
+![Lernressourcen importieren](assets/Datei_importieren_gesamt.jpg)
 
-With "Import URL", links to external videos, e.g. on YouTube, can also be set and created as OpenOlat [Learning resource "Video"](../learningresources/Learning_resource_Video.md).
-
-![autorenbereich_importieren_v1_de.png](assets/autorenbereich_importieren_v1_de.png){ class="shadow lightbox" }
+### Import file
+Learning resources created outside OpenOlat or exported from an OpenOlat system can be imported into OpenOlat if they are in a format compatible with OpenOlat. All of the types of learning resources, videos, certain standardized formats and any files can be imported.
 
 If you want to import a course e.g. from another OpenOlat instance, you will be asked if you also want to import the learning resources referenced by the course (e.g. a wiki or a test).
 
 Select the corresponding checkbox if you want to import the referenced learning resources as well. Publish the imported course afterwards to make it visible for you and other OpenOlat users.
 
 At the end of the import, the "settings" menu appears. Here you can make further configurations, e.g. a definition of the licence.
+
+### Embed via URL
+External videos, e.g. from YouTube, can also be integrated via URL. In this way, an OpenOlat [Learning resource video](../learningresources/Learning_resource_Video.md) is created in which the video is linked. All functions of the OpenOlat video editor are then available. 
 
 
 ---

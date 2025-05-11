@@ -28,4 +28,4 @@ The Portfolio 2.0 template can then also be integrated into a course via the cou
 
 ![Example form in portfolio](assets/Portfolio_Formular.png){ class="shadow lightbox" }
 
-For general information on e-portfolio, please refer to the chapter "[Creating a Portfolio](../area_modules/index.md)", especially the subchapter "[Process of an Assessment Portfolio](../../manual_admin/administration/eAssessment_ePortfolio.md)".
+

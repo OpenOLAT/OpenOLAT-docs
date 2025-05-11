@@ -10,7 +10,7 @@ Um ein Formular in eine Portfolio Aufgabe zu verwenden, wählen Sie unter Typ "F
 
 ![Portfolio Aufgabe mit Formular erstellen](assets/portfolio_Aufgabe1.png){ class="shadow lightbox" }
 
-Hat man noch kein Formular erstellt, kann eine neue Lernressource Formular über den Button "Erstellen" erstellt oder ein extern vorliegendes Formular importiert werden. Anschließend erscheint das gerade angelegte oder importierte Formular ebenfalls in der Liste und kann für die Portfolio Aufgabe ausgewählt werden.
+Hat man noch kein Formular erstellt, kann eine neue Lernressource Formular über den Button "Erstellen" erstellt oder ein extern vorliegendes Formular importiert werden. Anschliessend erscheint das gerade angelegte oder importierte Formular ebenfalls in der Liste und kann für die Portfolio Aufgabe ausgewählt werden.
 
 Ein neu erstelltes Formular beinhaltet zunächst noch keine Elemente, Fragen oder Textfelder. Diese müssen im Kurs über "Bearbeiten" oder alternativ direkt in der Lernressource im [Formular Editor](../learningresources/Form_Editor.de.md) hinzugefügt werden.
 
@@ -28,4 +28,3 @@ Die Portfolio 2.0 Vorlage kann dann über den Kursbaustein "[Portfolioaufgabe](.
 
 ![Beispiel Formular im Portfolio](assets/Portfolio_Formular.png){ class="shadow lightbox" }
 
-Generelle Informationen zum Thema E-Portfolio finden Sie im Kapitel "[Portfolio erstellen](../area_modules/index.de.md)", insbesondere im Unterkapitel "[Prozess eines Bewertungspprtfolios](../../manual_admin/administration/eAssessment_ePortfolio.de.md)".
