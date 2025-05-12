@@ -339,7 +339,7 @@ Es gibt ein **Teilnehmer:innen-Review** und ein **Expert:innen-Review** mit je e
 
 !!! info "Hinweis"
 
-    Kursbesitzer:inen können konfigurieren, welches Review zählt. (Nur das der Teilnehmer:innen, nur das der Expert:innen oder beide.) Diese Konfiguration sollte beim Planen eines Peer-Reviews berücksichtigt werden. Siehe auch [Wie führe ich ein Peer-Review durch? >](../../manual_how-to/peer_review/peer_review.de.md) 
+    Kursbesitzer:innen können konfigurieren, welches Review zählt. (Nur das der Teilnehmer:innen, nur das der Expert:innen oder beide.) Diese Konfiguration sollte beim Planen eines Peer-Reviews berücksichtigt werden. Siehe auch [Wie führe ich ein Peer-Review durch? >](../../manual_how-to/peer_review/peer_review.de.md) 
 
 
 **Weitere Informationen**

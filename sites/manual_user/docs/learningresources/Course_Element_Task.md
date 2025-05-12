@@ -260,18 +260,72 @@ Activate the e-mail confirmation so that people who have submitted a task receiv
 
 If the "By coach" option was selected in the Workflow tab, the minimum and maximum number of return documents that participants are allowed to submit during the "Return and feedback" and "Revision" steps can now be defined in the "Return and feedback" tab.
 
-**Return and feedback**
+**Return and feedback by means of peer reviews**
 
 If the "With peer review" option was selected in the Workflow tab, this becomes more complex. The rules for the submission of feedback by other participants can now be defined in the "Return and feedback" tab. The feedback from the reviewers is given in a [form](../learningresources/Rubric.md), usually with the help of a rubric. As the course owner, you provide this review form. 
 
-If the evaluation is also activated in the Workflow tab and the points for the peer review are to be taken automatically from the peer review form, the peer review form used must also contain (at least) one rubric element, as points can be awarded automatically via this.  Here you can find a [sample form for download](assets/Example_PeerReview_v1_en.zip).
+If the assessment is also activated in the Workflow tab and the points for the peer review are to be taken automatically from the peer review form, the peer review form used must also contain (at least) one rubric element, as points can be awarded automatically via this.  Here you can find a [sample form for download](assets/Example_PeerReview_v1_de.zip).
 
 
 ![course_element_task_fb_v2_de.png](assets/course_element_task_fb_v2_de.png){ class="shadow lightbox" }
 
-You can also provide feedback to the reviewers (Helpful? Yes/No and star rating).
 
-In order for coaches as well as course owners to be able to trigger the automatic reviewer assignment, the corresponding option must be selected in the "Return and feedback" tab, "Authorizations" section.
+![1_green_24.png](assets/1_green_24.png) **Form**<br>
+A suitable rubric form is required for peer reviews. Here you will find a [sample form](assets/Example_PeerReview_v1_de.zip) (zip file for importing into your OpenOlat).
+
+![2_green_24.png](assets/2_green_24.png) **Mutual assessment**<br>
+If mutual assessment is permitted, participants can assess each other, but do not have to.
+
+![3_green_24.png](assets/3_green_24.png) **Review-Form**<br>
+Regarding the **visibility of names**, you can choose one of the following forms as author:<br> 
+\- Double blind review: All names are anonymous (except coaches).<br>
+\- Single blind review: The name of the reviewer is anonymous.<br>
+\- Open review: All names are visible.
+
+![4_green_24.png](assets/4_green_24.png) **Assignment**<br>
+As the author, you determine here **which tasks** the reviewers receive for review:<br> 
+\- **The same assignment**: For example, if a person has drawn and completed task 1, they will only be given task 1 to review. They do not then have to familiarize themselves with another topic.<br>
+\- **Other assignments**: A review must be carried out for a different task than the task that you have drawn yourself. If several reviews are to be made, however, all reviews must always be made for the same task type.<br>
+\- **Random**: The reviewers are given random tasks to review.
+
+![5_green_24.png](assets/5_green_24.png) **Number of reviews**<br>
+Here you specify how many reviews are planned for each participant. However, depending on the number of participants, the actual number of reviews to be completed may vary. Ideally, the number of reviews to be completed should correspond to the number of reviews you receive from others.  
+
+![6_green_24.png](assets/6_green_24.png) **Quality feedback for reviewers**<br>
+Participants can be given the opportunity to provide their reviewers with feedback after receiving reviews. Whether the review received was helpful can be indicated with the thumb symbol or with stars. 
+
+![7_green_24.png](assets/7_green_24.png) **Form of feedback**<br>
+If "Quality feedback for reviewers" has been activated, you can select which symbols should be used to give the reviewers this feedback ("Helpful? Yes/No" and star rating). 
+The "thumbs up" / "thumbs down" symbol has proven to be recommendable.
+
+![8_green_24.png](assets/8_green_24.png) **Automatically assign reviewer**<br>
+Authors see all participants of a course, but coaches may only see their coached group. 
+In order for coaches to be able to view the reviews of the supervised participants, reviews must be assigned within their groups. (Only then can coaches follow all reviews).<br>
+If the "Automatically assign reviewers" option is selected, coaches will only see their group, but review assignments will be assigned among all participants. Coaches will then see that a coached person has received a review from someone in the other group. However, the name of the person who did the review is not visible.<br> 
+In order for coaches as well as course owners to be able to trigger the automatic reviewer assignment, the corresponding option must be selected in the "Revisions" tab, "Authorizations" section.
+
+
+There is a **Participant Review** and an **Expert Review**, each with its own form. However, the participant review can also (additionally) be completed by coaches. 
+
+* Coaches can do a participant review, for example, if a participant has received too few reviews. 
+* Even if a participant review has been marked as "not valid", coaches can fill out a form as a replacement if necessary.
+* An expert form for coaches may contain different criteria than the form for participants. In this case, it may also make sense for coaches to be able to use both forms.
+
+!!! info "Note"
+
+    Course owners can configure which review counts. (Only that of the participants, only that of the experts or both.) This configuration should be taken into account when planning a peer review. See also [How do I conduct a peer review? >](../../manual_how-to/peer_review/peer_review.md) 
+
+
+**Further informations**
+
+[Sample form for peer review (zip file for import into your OpenOlat) >](assets/Example_PeerReview_v1_de.zip)<br>
+[How do I create a form learning resource? >](../../manual_how-to/create_a_form/create_a_form.md)<br>
+[How do I carry out a peer review? >](../../manual_how-to/peer_review/peer_review.md)<br>
+
+[Up (Author perspective) ^](#create_task)<br>
+[To the top of the page ^](#course_element_task)
+
+---
 
 
 ### Tab "Grading"  {: #grading}

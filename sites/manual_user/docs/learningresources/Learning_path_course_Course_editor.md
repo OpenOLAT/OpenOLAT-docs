@@ -28,7 +28,7 @@ Learning paths, unlike conventional courses, do not have the tabs "Visibility" a
 
 These settings are available for almost all course elements. An exception is the [course element "Structure"](../learningresources/Course_Element_Structure.md) that is meant for bundling course elements. In the structure element you can only define a sequence of learning steps that applies to all subordinate course elements, either sequentially or in specific order.
 
-### Exceptions
+### Exceptions {: #exceptions}
 
 ![configure exceptions in learning path](assets/Ausnahmen.png)
 
@@ -41,6 +41,7 @@ The exceptions can refer to the following aspects:
   * User
   * User attribute
   * Course element passed: The configured course element is provided depending on another assessable course element. For example, the course element is not visible (= excluded) if a certain test has not been passed.
+  * Course run number: If the course is attended multiple times (e.g. for recertification), the configured course element can also only be displayed in one or some of the runs. In this way, different course elements can be offered to course participants for a recertification or a repeat course.
 
 **Further configuration examples for exceptions:**
 
@@ -52,7 +53,7 @@ b) The course element structure and all subordinated course elements are basical
 
 ![Example B: Exception with group or person](assets/Ausnahme_b.png)
 
-c) The course element is basically mandatory. For those who have passed a certain checklist the course element is optional and for those who have passed a certain test the course element is not visible at all (exceptions).
+c) The course element is mandatory. For those who have passed a certain checklist the course element is optional and for those who have passed a certain test the course element is not visible at all (exceptions).
 
 ![Example C: Exception with course elements](assets/Ausnahme_c.png)
 

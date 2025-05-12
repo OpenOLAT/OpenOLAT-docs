@@ -1,23 +1,26 @@
-# Members management
+# Members management {: #members_management}
 
 In the members management, course owners see all users and groups of a course and can organize them comprehensively, e.g. assign certain course-
 related rights, contact participants and organize course groups. Rights management and the administration of consents to course-related terms of use
 or privacy policy also take place here.
 
-## Members
+![members_management_open_v1_de.png](assets/members_management_open_v1_de.png){ class="shadow lightbox" }
+
+
+## Members {: #section_members}
 
 When you open the members management you are in the area "Members" and see a tabular list of all persons who have access to the course or learning resource. Several tabs filter the member list according to member roles. Under each tab you can view and manage (edit, remove) the corresponding users as well as add or import new persons or send e-mails to one or more persons. You can also export the respective members as Excel table.
 
 ![Members area](assets/memebers17.png)
 
-The "Search" element in the Members management can be used to search for members of a
-course, which is helpful for many participants.
+The "Search" element in the Members management can be used to search for members of a course, which is helpful for many participants.
 
 Select the columns that are relevant for you via the cogwheel menu and sort the list according to your wishes.
 
-## Edit user information
 
-If you select a person from the list, you will get further information about this person, e.g. information about the person's attendance behavior, which role he/she plays within the course, in which groups he/she is a member and his/her curriculum memberships.
+### Edit user information
+
+If you select a person from the list, you will get further information about this person, e.g. information about the person's attendance behavior, which role they play within the course, in which groups they are a member and their curriculum memberships.
 
 ![Edit member](assets/member17.png)
 
@@ -54,7 +57,21 @@ d) by a superordinate OpenOlat [Curriculum](../area_modules/Curriculum_Managemen
 
 For most courses, variants a) and b) are recommended.
 
-## Groups
+<br>
+
+**Manual addition** (as explained in a))
+
+Open the **Member administration** under **Administration**. There you will find the **Add member** button. A wizard will then guide you through the steps for adding new course members.
+
+![members_management_add_member_v1_de.png](assets/members_management_add_member_v1_de.png){ class="shadow lightbox" }
+
+!!! hint "Hint"
+
+    In the last step of the wizard, you can formulate an e-mail. You can also use variables in the email text. 
+    ($courseDescription, $courseName, $courseRef, $courseUrl, $courseLocation, $email, $firstName, $lastName, $userName)
+
+
+## Groups {: #section_groups}
 
 Here you can see the groups of the course. You can add, create and remove groups from the OpenOlat course, as well as display the groups associated with the course in tabular form. 
 
@@ -67,16 +84,18 @@ are:
   * Groups for group work (joint actions)
   * Groups for the organization of the course-related rights management
 
-## Bookings
+
+## Bookings {: #section_bookings}
 
 Under Bookings you can view all bookings for this course, sorted by status, if the course access is organized via the [booking method](../learningresources/Access_configuration.md).
 
-## Invitations 
+## Invitations {: #section_invitations}
 Available in :octicons-tag-24: 17.0.
 
 All persons added to the course via the "Invite external members" option (see above) are displayed here. 
 
-##  Rights  {: #rights}
+
+##  Rights  {: #section_rights}
 
 It often happens that you want to give users additional rights without giving them full ownership rights. You can do this in the **Rights** section of the members management.
 
@@ -98,7 +117,7 @@ Often, the specific assignment of certain rights, instead of the entry as owner,
 
 The following course rights can be assigned to individual user groups:
 
- **Group management**
+**Group management**
 
 In addition to the activated person search, the menu of the course "administration"  appears. Additionally, all actions of the area "Groups" of the members management, e.g. create groups, add to or remove from course, send mails to groups, as well as actions from the area "Consents".
   
@@ -106,46 +125,46 @@ In addition to the activated person search, the menu of the course "administrati
 
 The "Administration" menu also appears. All actions of the areas "Members", "Groups" and "Bookings" and "Consents" of the member administration are available but no rights management.  
   
- **Course editor**
+**Course editor**
 
 The "Administration" menu also appears.
 
 Even non-authors can use the course editor with all its functionalities. In addition there are further menus such as storage folder, lessons and absences, learning area, etc.  In addition, other menus such as the storage folder, lessons and absences, learning area, etc. are provided.
   
- **Archive tool**
+**Archive tool**
 
 The "Administration" menu also appears for the activated group of people.
 
 Members have access to all areas of [data archiving](Data_archiving.md) and thus to all data of the course. You may archive course data such as forums or test results from all participants.
 
   
- **Assessment tool**
+**Assessment tool**
 
-In addition, the "Administration" menu appears with the [Evaluation tool](Assessment_tool_overview.md).
+In addition, the "Administration" menu appears with the [Assessment tool](Assessment_tool_overview.md).
 
-This way, members with these rights can evaluate and comment on all of the course participants' achievements  even without coach rights,.  
+This way, members with these rights can evaluate and comment on all of the course participants' achievements, even without coach rights.  
 
 !!! info "info"
 
-    However, there is no access to the valuation in the course run.  
+    However, there is no access to the assessment in the course run.  
   
- **Glossary tool**
+**Glossary tool**
 
 This right allows members to edit the glossary, which of course only makes sense if a [glossary](Using_Additional_Course_Features.md) is assigned to the course. Access is directly via the "Glossary" tool in the toolbar.
   
- **Statistics**
+**Statistics**
 
 The "Administration" menu also appears for the activated group of people.
 
 Members with this right get access to all statistics areas available for this course, i.e. course statistics, questionnaire statistics and test statistics. The data can be displayed and downloaded.  
   
- **Assessment mode**
+**Assessment mode**
 
 The "Administration" menu also appears for the activated group of people.
 
 Members are allowed to set up the [test configuration](../learningresources/Assessment_mode.md) of the course.  
   
- **Course database**
+**Course database**
 
 The "Administration" menu also appears for the activated group of people.
 
@@ -153,6 +172,6 @@ Members have access to the course database and can create, reset, delete or expo
   
 
 
-##  Consents {: #consent}
+##  Consents {: #section_consent}
 
 If course-related terms of use or the course-related privacy policy are [activated](../learningresources/Course_Settings.md), the stored consent of the individual users is listed here. Selected consents can be revoked or deleted at this point. When revoking, the consent is reset, but the entry is retained. If a user is deleted in OpenOlat, all course-related consents of the user are also removed.

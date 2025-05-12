@@ -12,8 +12,7 @@ Wenn Sie die Mitgliederverwaltung öffnen, befinden Sie sich im Bereich "Mitglie
 
 ![Mitgliederverwaltung](assets/Mitgliederverwaltung17.png)
 
-Über das Suchfeld kann nach Mitgliedern eines
-Kurses gesucht werden, was bei vielen Teilnehmenden hilfreich ist.
+Über das Suchfeld kann nach Mitgliedern eines Kurses gesucht werden, was bei vielen Teilnehmenden hilfreich ist.
 
 Wählen Sie die für Sie relevanten Spalten über das Zahnrad Menü aus und sortieren Sie die Liste nach Ihren Wünschen.
   
@@ -27,11 +26,7 @@ Wenn Sie eine Person aus der Liste auswählen, erhalten Sie weitere Informatione
 Es gibt drei spezifische Kurs-Rollen:  
 
   * **Besitzer**   
-Besitzer haben alle Rechte innerhalb eines Kurses und können auf alle Menüs
-der [Kurs-Administration](Using_Course_Tools.de.md) zugreifen. Sie legen
-die Kursstruktur an und erstellen in der Regel den OpenOlat Kurs. Die Person,
-die einen Kurs anlegt ist automatisch Kurs-Besitzer. Kurs-Besitzer können auch
-weitere Besitzer des Kurses hinzufügen.
+Besitzer haben alle Rechte innerhalb eines Kurses und können auf alle Menüs der [Kurs-Administration](Using_Course_Tools.de.md) zugreifen. Sie legen die Kursstruktur an und erstellen in der Regel den OpenOlat Kurs. Die Person, die einen Kurs anlegt ist automatisch Kurs-Besitzer. Kurs-Besitzer können auch weitere Besitzer des Kurses hinzufügen.
 
   *  **[Betreuer](../basic_concepts/coach.de.md)**  
 Betreuer spielen in der Regel bei der _Kursdurchführung_ eine Rolle, sind jedoch bei der Erstellung nicht involviert. Kurs-Betreuer haben Zugriff auf das Bewertungswerkzeug und die Statistiken sowie die Bewertungen im Kursrun. Je nach Konfiguration im Kurseditor haben sie auch Zugriff auf weitere Optionen und Funktionen bestimmter Kursbausteine.
@@ -108,7 +103,7 @@ Hier werden alle Personen angezeigt, die über die Option "Externe Mitglieder ei
 
 ##  Bereich "Rechte"   {: #section_rights}
 
-Häufig kommt es vor, dass man Benutzern weitere Rechte übergeben möchte ohne ihnen aber volle Besitzerrechte zu übertragen oder eine weitere kursspezifische Rolle zu vergeben. Dies können Sie hier im Bereich ****Rechte** der Mitgliederverwaltung erledigen. 
+Häufig kommt es vor, dass man Benutzern weitere Rechte übergeben möchte ohne ihnen aber volle Besitzerrechte zu übertragen oder eine weitere kursspezifische Rolle zu vergeben. Dies können Sie hier im Bereich **Rechte** der Mitgliederverwaltung erledigen. 
 
 Im Bereich "Rechte" erscheinen alle kursspezifischen Gruppen, unterteilt nach Gruppen-Betreuer und Gruppen Teilnehmer und die der jeweiligen Gruppe zugeordneten Rechtegruppen.
 
@@ -130,7 +125,7 @@ Vergeben Sie diese erweiterten Rechte aber am besten an die _Teilnehmenden_ eine
 Folgende Kursrechte können an einzelne Benutzergruppen vergeben werden:
 
   
- **Gruppen-Verwaltung**
+**Gruppen-Verwaltung**
 
 Für die aktivierte Personengruppe erscheint zusätzlich das Menü der Kurs "Administration" und es stehen zusätzlich alle Aktionen aus dem Bereich "Gruppen" der Mitgliederverwaltung also z.B. Gruppen erstellen, zum Kurs hinzufügen oder entfernen, Mails an Gruppen verschicken sowie die Aktionen aus dem Bereich "Einwilligungen" zur Verfügung.  
   

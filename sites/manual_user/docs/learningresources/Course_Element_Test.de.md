@@ -95,7 +95,8 @@ Wählen Sie eine der vorgegebenen Bewertungsskalen z.B. Noten, Niveaustufen oder
 **Testzeitraum festlegen**: Während des Testzeitraum kann der Test gestartet werden. Sobald die "bis-Zeit" erreicht ist, wird der Test automatisch beendet. Auch dann, wenn die definierte Bearbeitungszeitdauer noch nicht aufgebraucht ist. Statt eines fixen Datums kann auch ein relatives Datum gewählt werden, z.B.  x Tage nach dem ersten Kursbesuch. 
 
 Wird hier nichts aktiviert ist der Test jederzeit zugänglich, sofern keine Einschränkungen an anderer Stelle z.B. unter "Sichtbarkeit" bei herkömmlichen Kursen oder aufgrund einer seriellen Reihenfolge bei Lernpfad Kursen definiert wurde. 
-  
+
+
 #### Abschnitt Korrektur {: #section_correction}
 
 **Korrektur**: Die Korrektur wird entweder **automatisch oder manuell** durchgeführt. Sobald ein manuell auszuwertender [Fragetyp](Test_question_types.de.md), z.B. Freitext vorhanden ist, muss zwingend eine manuelle Auswertung erfolgen. Bei der automatischen Korrektur werden alle Fragen automatisch und direkt korrigiert, das Resultat ist sofort für den User sichtbar.
@@ -106,11 +107,13 @@ Aktiviert man die Option "**Manuell durch externe Korrektoren**" können auch Op
 
 ![Test Tab Korrektoren](assets/Test_Tab_Korrektoren_DE.png){ class="shadow" }
 
+
 !!! info "Hinweis"
 
     Steht die Option "Manuell durch externe Korrektoren" nicht zur Verfügung, wurden in der Lernressource Test keine [externen Korrektoren](Test_settings.de.md) konfiguriert.
 
-**Freigabe Bewertung**: Stellen Sie hier ein, ob die Resultate standarmässig für die User freigegeben und somit sichtbar sind oder nicht.
+
+**Freigabe Bewertung**: Stellen Sie hier ein, ob die Resultate standardmässig für die User freigegeben und somit sichtbar sind oder nicht.
 
 ![Test Korrektur Einstellungen](assets/Test_Korrektur_Einstellungen_DE.jpeg){ class="shadow" }
   
@@ -163,7 +166,7 @@ Ist die Option "Fragetitel anzeigen" nicht markiert aber gleichzeitig die Menü-
 
 Zusätzlich kann auch ein Informationstext (HTML-Seite) für den Test eingerichtet werden, der dem User auf der Startseite des Tests oberhalb der Start-Schaltfläche angezeigt wird. Klicken Sie hierfür im Tab "Optionen" im Bereich "Informationstext (HTML) auf "Erstellen", "Auswählen" oder "Import".
 
-Aktivieren Sie "Verlinkung im gesamten Ablageordner zulassen", wenn Sie z.B. auf andere HTML-Dateien oder Grafiken im Informationstext verlinken möchten. Diese Einstellung bewirkt aber auch, dass versierte Kursteilnehmer Einsicht in den gesamten Ablageordner des Kurses erlangen können.
+Aktivieren Sie "Verlinkung im gesamten Ablageordner zulassen", wenn Sie z.B. auf andere HTML-Dateien oder Grafiken im Informationstext verlinken möchten. Diese Einstellung bewirkt aber auch, dass versierte Kursteilnehmer:innen Einsicht in den gesamten Ablageordner des Kurses erlangen können.
 
 
 [Zum Anfang des Abschnitts Testkonfiguration ^](#config)<br>
@@ -242,10 +245,10 @@ Merkmal | ![Test](assets/test.png){ class=size16 } Test | ![Selbsttest](assets/s
 ------|------|------
  Einsatzzweck | Prüfungstest, Test mit Prüfungsmöglichkeit durch den Lehrenden, Standard Test | Übung, Selbstevaluation, keine Einsicht durch Lehrperson
  Herstellung mit | [Testeditor](Test_editor_QTI_2.1.de.md) | [Testeditor](Test_editor_QTI_2.1.de.md)
- Fragetypen QTI 2.1 | Alle [Fragetypen](Test_question_types.de.md) möglich | Alle [Fragetypen](Test_question_types.de.md) möglich, aber nur automatisch auswertbare Fragetypten können auch für Punkte verwendet werden.
+ Fragetypen QTI 2.1 | Alle [Fragetypen](Test_question_types.de.md) möglich | Alle [Fragetypen](Test_question_types.de.md) möglich, aber nur automatisch auswertbare Fragetypen können auch für Punkte verwendet werden.
  Einbindung mit Kursbaustein | Test| Selbsttest
  Anzahl Aufrufe durch Kursteilnehmer | konfigurierbar | unlimitiert
- Ergebnisse | erscheinen im [Bewertungswerkzeug](../learningresources/Assessment_tool_overview.de.md) sowie in den [Test Statistiken](../learningresources/Using_Course_Tools.de.md#statistics) und sind für Betreuer einsehbar | erscheinen _nicht_ im [Bewertungswerkzeug](../learningresources/Assessment_tool_overview.de.md) und in den [Test Statistiken](../learningresources/Using_Course_Tools.de.md#test-statistiken) und sind nicht personalisiert für Betreuer und Besitzer einsehbar
+ Ergebnisse | erscheinen im [Bewertungswerkzeug](../learningresources/Assessment_tool_overview.de.md) sowie in den [Test Statistiken](../learningresources/Using_Course_Tools.de.md#statistics) und sind für Betreuer einsehbar | erscheinen _nicht_ im [Bewertungswerkzeug](../learningresources/Assessment_tool_overview.de.md) und in den [Test Statistiken](../learningresources/Using_Course_Tools.de.md#test-statistiken) und sind nicht personalisiert für Betreuer:innen und Besitzer:innen einsehbar
  Datenarchivierung| ja, personalisiert| ja, anonymisiert. Eine personenbezogene Zuordnung oder Feedbacks sind aber nicht möglich.
 
 !!! tip "Tipp"
@@ -315,7 +318,7 @@ Sofern für einen Test auch externe Korrektoren aktiviert wurden, können diese 
 In der angezeigten Liste können Sie nachvollziehen,
 
 ![1_green_24.png](assets/1_green_24.png) wann die Lernressource ausgetauscht wurde ("Zugewiesen am")<br>
-![2_green_24.png](assets/2_green_24.png) von wem sie ausgewechselt wurde ("Zugeweisen von")<br>
+![2_green_24.png](assets/2_green_24.png) von wem sie ausgewechselt wurde ("Zugewiesen von")<br>
 ![3_green_24.png](assets/3_green_24.png) wie oft die Testlernressource von Teilnehmer:innen bearbeitet wurde ("Durchläufe in diesem Kurs").<br> Beachten Sie, dass die Anzahl der Durchläufe von verschiedenen Personen stammen kann, die den Test jeweils einmal gemacht haben. Es kann aber auch sein, dass eine Person den Test mehrfach bearbeitet hat. Die Mehrfachbearbeitungen zählen auch jeweils als Durchläufe.
 
 ![course_element_test_replace_resource3_v1_de.png](assets/course_element_test_replace_resource3_v1_de.png){ class="shadow" }
@@ -333,7 +336,7 @@ Wurde die Test-Lernressource ausgewechselt, wird rechts oben ein Button zum Wech
 
 !!! note "Hinweis"
 
-    Wurde "Nur ersetzten" gewählt, wird nichts zurückgesetzt und in die Historie aufgenommen! Diese Variante ist mit Vorsicht zu verwenden. Wenn z.B. neu 12 Punkte erreicht werden können und bisher nur 10, sind immer noch maximal 10 Punkte im Kurs eingetragen. Solche Angaben können dann zu Verwirrung führen und müssen manuell korrgiert werden.
+    Wurde "Nur ersetzten" gewählt, wird nichts zurückgesetzt und in die Historie aufgenommen! Diese Variante ist mit Vorsicht zu verwenden. Wenn z.B. neu 12 Punkte erreicht werden können und bisher nur 10, sind immer noch maximal 10 Punkte im Kurs eingetragen. Solche Angaben können dann zu Verwirrung führen und müssen manuell korrigiert werden.
 
 
 [Zum Seitenanfang ^](#course_element_test)

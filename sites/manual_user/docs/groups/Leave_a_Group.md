@@ -19,9 +19,9 @@ Group supervisors can determine in advance whether group members can leave a gro
 
 ## End group membership by group coach
 
-If you select the group as group supervisor, you will find the list of participants under **Administration** in the **Members** tab.
+If you select the group as group coach, you will find the list of participants under **Administration** in the **Members** tab.
 
-To remove a **individual person** from the group, you can click on the 3 dots at the end of a line. There you will find the option "Remove".
+To remove an **individual person** from the group, you can click on the 3 dots at the end of a line. There you will find the option "Remove".
 
 If you want to remove **several group members** from the group at the same time, you can select the relevant rows in the first column. The “Remove” button will then appear above the list.
 
