@@ -2,8 +2,7 @@
 
 ##  Activation of the organizational structures
 
-The Organizations module is optionally available in OpenOlat and must be
-activated in Administration. 
+The Organizations module is optionally available in OpenOlat and must be activated in the administration. 
 
 !!! hint "Activation"
 	
@@ -11,8 +10,6 @@ activated in Administration.
 	[contact@frentix.com](mailto:contact@frentix.com) for this. After activation, various additional settings can be made for the system-wide configuration. For systems with the fx-Release, these adjustments are made by frentix.
 
 	:material-alert: **Not a frentix hosting-client?** Please ask your local system operator!
-
-![](assets/Org_Aktivierung_DE.png){ class="shadow lightbox" }
 
 
 ## Tab Configuration {: #tab_configuration}
@@ -24,7 +21,7 @@ In the Configuration tab
 * the organizational structures module is activated
 * e-mail domain mapping is activated (available from Release 20, can only be activated if the Organizations module is activated)
 
-The company structure can be mapped in the “Organizations” module. Roles, rights and visibility of courses and content can then be made dependent on membership of a specific organizational unit.
+The company structure can be mapped in the "Organizations" module. Roles, rights and visibility of courses and content can then be made dependent on membership of a specific organizational unit.
 
 The ability of course participants to register themselves can also be made dependent on membership of a specific organizational unit. This restriction is made by comparing the e-mail address of new users with the stored e-mail domains and automatically assigning them to a specific organizational unit.
 
@@ -48,17 +45,17 @@ If an organizational element is selected in the tree structure, the metadata of 
 
 ### Metadaten {: #edit_metadata}
 
-(Module > Organisationen > Tab "Organisationsstruktur" > Tab "Metadaten")
+(Modules > Organizations > Tab "Organization structure" > Tab "Metadata")
 ![organisations_edit_tab_metadata_v1_de.png](assets/organisations_edit_tab_metadata_v1_de.png){ class="shadow lightbox" }
 
-Neben der Bezeichnung und dem Namen kann eine Beschreibung für das Element eingetragen werden.
-Ausserdem erfolgt hier die Zuordnung des Organisationstyps (wie im Tab "Organisationstypen" definiert).
-Wird bei der Erstellung jedes Organisationselement mit einem entsprechenden Organisationstyp verknüpft, kann so eine hierarchische Struktur aufgebaut werden. Damit ist die Abbildung von Ablauf- und Aufbauorganisationen möglich, eine Matrix-Organisation kann hingegen nicht dargestellt werden.
+A description for the element can be entered in addition to the designation and name.
+The organization type is also assigned here (as defined in the "Organization types" tab).
+If each organizational element is linked to a corresponding organizational type during creation, a hierarchical structure can be created. This makes it possible to map process and organizational structures, but a matrix organization cannot be represented.
 
 
 ### Account management  {: #edit_account_managment}
 
-(Module > Organisationen > Tab "Organisationsstruktur" > Tab "Metadaten")
+(Modules > Organizations > Tab "Organization structure" > Tab "Metadata")
 ![organisations_edit_tab_account_management_v1_de.png](assets/organisations_edit_tab_account_management_v1_de.png){ class="shadow lightbox" }
 
 The "Account management" tab displays a list of the users currently assigned to this organizational unit. Existing users can also be removed again.
@@ -76,7 +73,7 @@ Members of different roles can be assigned to each level of the organization.
 
 ### Learning resources {: #edit_learning_resources}
 
-(Module > Organisationen > Tab "Organisationsstruktur" > Tab "Lernressourcen")
+(Modules > Organizations > Tab "Organization structure" > Tab "Learning resources")
 ![organisations_edit_tab_learning_resources_v1_de.png](assets/organisations_edit_tab_learning_resources_v1_de.png){ class="shadow lightbox" }
 
 Courses directly assigned to the organizational element are displayed in the "Learning resources" tab. These can also be removed here. Via "Add courses", you can search for additional own and available courses in a dialog in order to assign them to the organizational element.
@@ -86,7 +83,7 @@ The **assignment of curricula** is done in the curriculum management at the resp
 
 ### Line manager  {: #edit_linemanager}
 
-(Module > Organisationen > Tab "Organisationsstruktur" > Tab "Linienvorgesetzte")
+(Modules > Organizations > Tab "Organization structure" > Tab "Line management")
 ![organisations_edit_tab_line_management_v1_de.png](assets/organisations_edit_tab_line_management_v1_de.png){ class="shadow lightbox" }
 
 The rights assigned to line managers can be defined separately for each organizational unit. 
@@ -94,7 +91,7 @@ The rights assigned to line managers can be defined separately for each organiza
 
 ### Education manager {: #edit_education_manager}
 
-(Module > Organisationen > Tab "Organisationsstruktur" > Tab "Ausbildungsverantwortliche")
+(Modules > Organizations > Tab "Organization structure" > Tab "Education manager")
 ![organisations_edit_tab_education_manager_v1_de.png](assets/organisations_edit_tab_education_manager_v1_de.png){ class="shadow lightbox" }
 
 The rights assigned to those responsible for training can be defined separately for each organizational unit. 
@@ -102,7 +99,7 @@ The rights assigned to those responsible for training can be defined separately 
 
 ### Billing adresses {: #edit_billing_adresses}
 
-(Module > Organisationen > Tab "Organisationsstruktur" > Tab "Rechnungsadressen")
+(Modules > Organizations > Tab "Organization structure" > Tab "Billing adresses")
 ![organisations_edit_tab_billing_addresses_v1_de.png](assets/organisations_edit_tab_billing_addresses_v1_de.png){ class="shadow lightbox" }
 
 Invoice addresses can be stored here for course and seminar management (available from Release 20).
@@ -110,10 +107,10 @@ Invoice addresses can be stored here for course and seminar management (availabl
 
 ### Mail domain assignment {: #edit_mail_domain}
 
-(Module > Organisationen > Tab "Organisationsstruktur" > Tab "E-Mail-Domänen-Zuordnung")
+(Modules > Organizations > Tab "Organization structure" > Tab "E-mail domain assignment")
 ![organisations_edit_tab_email_domain_v1_de.png](assets/organisations_edit_tab_email_domain_v1_de.png){ class="shadow lightbox" }
 
-An email domain can be specified for each organizational element, which can be used to check the affiliation of users to this organizational unit. This is important if users can register for courses themselves, but the courses should only be available for a specific organizational unit. 
+An e-mail domain can be specified for each organizational element, which can be used to check the affiliation of users to this organizational unit. This is important if users can register for courses themselves, but the courses should only be available for a specific organizational unit. 
 
 [To the top of the page ^](#organisations)
 
@@ -143,6 +140,6 @@ Further types can be created via "Create organization type". In addition to the 
 
 ![organisations_tab_mail_domains_v1_de.png](assets/organisations_tab_mail_domains_v1_de.png){ class="shadow lightbox" }
 
-If organizational units exist, self-registration can be restricted to certain e-mail domains. New users are then automatically assigned to an organizational unit based on their email domain and are only permitted to self-register for content/courses in this organizational unit.
+If organizational units exist, self-registration can be restricted to certain e-mail domains. New users are then automatically assigned to an organizational unit based on their e-mail domain and are only permitted to self-register for content/courses in this organizational unit.
 
 [To the top of the page ^](#organisations)

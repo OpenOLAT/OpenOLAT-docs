@@ -231,7 +231,7 @@ Beim Kopieren eines Kurses werden die komplette Struktur, Ordnerinhalte, HTML-Se
 
 ![21_green_24.png](assets/21_green_24.png){ class=" aside-left-lg" }
 
-Wenn Sie einen Kurs mit Hilfe des Wizards kopieren, können Sie die zu kopierenden Elemente ausgewählen.
+Wenn Sie einen Kurs mit Hilfe des Wizards kopieren, können Sie die zu kopierenden Elemente auswählen.
 
 [Zu den Details >](Course_Copy_Wizard.de.md)<br> 
 [Zum Seitenanfang ^](#course_administration)

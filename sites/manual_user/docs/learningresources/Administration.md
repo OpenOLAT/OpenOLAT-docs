@@ -5,274 +5,274 @@
 :octicons-device-camera-video-24: **Video introduction (German)**: [Admin-Funktionen](<https://www.youtube.com/embed/rWPcz6udUrI>){:target="_blank”} 
 
 
-Haben Sie als **Autor:in** einen Kurs ausgewählt, wird Ihnen links oben der Button "Administration" angezeigt. Dort finden Sie alle Optionen zur **Bearbeitung, Konfiguration und Administration** des gewählten Kurses. (Vor und während der Nutzung des Kurses.) Zu den wichtigsten zählen für Autor:innen der [Kurseditor](#course_editor) und die [Einstellungen](#settings).
+If you have selected a course as **author**, the "Administration" button is displayed at the top left. There you will find all options for **editing, configuration and administration** of the selected course. (Before and during use of the course.) The most important options for authors include the [course editor](#course_editor) and the [settings](#settings).
 
-**Betreuer:innen** steht der Button "Administration" ebenfalls zur Verfügung. Allerdings sind dann weniger und nur für Betreuer:innen relevante Optionen angezeigt. Insbesondere z.B. das [Bewertungswerkzeug](#assessment_tool).
+**The "Administration" button is also available for coaches. However, fewer options are then displayed, and only those relevant to coaches. In particular, for example, the [assessment tool](#assessment_tool).
 
-!!! info "Hinweis"
+!!! info "Note"
 
-    Manche Optionen stehen nur zur Verfügung, wenn das entsprechende Feature aktiviert wurde. Wenden Sie sich gegebenenfalls an Ihren/Ihre Administrator:in.
+    Some options are only available if the corresponding feature has been activated. If necessary, please contact your administrator.
 
 
-Andere Lernressourcen verfügen ebenfalls über das Menü "Administration", jedoch sind die Menüoptionen dort nicht so umfangreich. Sie variieren je nach Lernressource.
+Other learning resources also have the "Administration" menu, but the menu options there are not as extensive. They vary depending on the learning resource.
 
-Im Folgenden erhalten Sie einen Überblick über die Menüoptionen der "Administration" von **Kursen**.
+Below you will find an overview of the "Administration" menu options for **Courses**.
 
 
 ---
 
-## Einstellungen {: #settings}
+## Settings {: #settings}
 
 ![1_green_24.png](assets/1_green_24.png){ class=" aside-left-lg" }
 
-Hier werden alle Einstellungen gemacht, die den **Kurs als Ganzes betreffen**. (Einstellungen, die nur einen bestimmten Kursbaustein betreffen, werden im Kurseditor nach Anwahl des betreffenden Kursbausteins gemacht.)
+All settings that affect the **course as a whole** are made here. (Settings that only affect a specific course element are made in the course editor after selecting the relevant course element).
 
-[Zu den Details >](Course_Settings.md)<br>
-[Zum Seitenanfang ^](#course_administration)
+[See the details >](Course_Settings.md)<br>
+[To the top of the page ^](#course_administration)
 
 
-## Mitgliederverwaltung {: #members_management}
+## Member management {: #members_management}
 
 ![2_green_24.png](assets/2_green_24.png){ class=" aside-left-lg" }
 
-In der Mitgliederverwaltung finden Kursbesitzer:innen eine Auflistung aller Personen die Zugriff auf den Kurs bzw. die Lernressource haben. Sie können hier weiteren Benutzer:innen und Gruppen Zugriff gewähren, indem Sie jemand zum Mitglied des Kurses machen.
+In the member administration, course owners will find a list of all persons who have access to the course or learning resource. You can grant access to other users and groups here by making someone a member of the course.
 
-[Zu den Details >](Members_management.md)<br>
-[Zum Seitenanfang ^](#course_administration)
+[See the details >](Members_management.md)<br>
+[To the top of the page ^](#course_administration)
 
 
-## Kurseditor {: #course_editor}
+## Course editor {: #course_editor}
 
 ![3_green_24.png](assets/3_green_24.png){ class=" aside-left-lg" }
 
-Im Kurseditor kann der Kurs bearbeitet werden, indem Kursbausteine hinzugefügt und konfiguriert werden.
+In the course editor the course can be edited by adding and configuring course elements.
 
-[Zu den Details >](General_Configuration_of_Course_Elements.md)<br>
-[Zum Seitenanfang ^](#course_administration)
+[See the details >](General_Configuration_of_Course_Elements.md)<br>
+[To the top of the page ^](#course_administration)
 
 
-## Dateien {: #files}
+## Files {: #files}
 
 ![4_green_24.png](assets/4_green_24.png){ class=" aside-left-lg" }
 
-Manche im Kurs verwendete Dateien werden im **Ablageordner** abgelegt. Dieser gehört zum Kurs und kann hier geöffnet werden.<br>
-(Andere Dateien und Objekte werden mit anderen Benutzer:innen geteilt, sind an anderen Stellen abgelegt und können im File Hub oder Media Center verwaltet werden.)
+Some files used in the course are stored in the **storage folder**. This belongs to the course and can be opened here.<br>
+(Other files and objects are shared with other users, are stored in other places and can be managed in the File Hub or Media Center).
 
-[Zu den Details über den Ablageordner >](Storage_folder.md)<br>
-[Zu den Details über den File Hub >](../personal_menu/File_Hub.md)<br>
-[Zu den Details über das Media Center >](../personal_menu/Media_Center.md)<br>
-[Über die Unterschiede zwischen Ablageordner, File Hub und Media Center >](../basic_concepts/Object_Collections.md)<br>
+[See the details about the Storage folder >](Storage_folder.md)<br>
+[See the details about the File Hub >](../personal_menu/File_Hub.md)<br>
+[See the details about the Media Center >](../personal_menu/Media_Center.md)<br>
+[About the differences between Storage folder, File hub and Media center >](../basic_concepts/Object_Collections.md)<br>
 
-[Zum Seitenanfang ^](#course_administration)
+[To the top of the page ^](#course_administration)
 
 
-## Bewertungswerkzeug {: #assessment_tool}
+## Assessment tool {: #assessment_tool}
 
 ![5_green_24.png](assets/5_green_24.png){ class=" aside-left-lg" }
 
-Das Bewertungswerkzeug (nicht zu verwechseln mit dem Kursbaustein "Bewertung") dient der Betreuung und Ergebniskontrolle aller Kursteilnehmer:innen. Hier hat man Zugriff auf alle bewertbaren Kursbausteine und kann z.B. Bewertungen mit Punktevergabe, bestanden/nicht bestanden usw. vornehmen und individuelle Feedbacks bereitstellen.
+The assessment tool (not to be confused with the course element "Assessment") is used to coach and monitor the results of all course participants. Here you have access to all assessable course elements and can, for example, make assessments with points, pass/fail etc. and provide individual feedback.
 
-[Zu den Details >](Assessment_tool_overview.md)<br>
-[Zum Seitenanfang ^](#course_administration)
+[See the details >](Assessment_tool_overview.md)<br>
+[To the top of the page ^](#course_administration)
 
 
 ## To-dos {: #to-dos}
 
 ![6_green_24.png](assets/6_green_24.png){ class=" aside-left-lg" }
 
-To-dos, die einen bestimmten Kurs betreffen, können direkt hier im Kurs erstellt werden. Es können To-dos an alle Kursteilnehmer:innen  oder an Einzelpersonen vergeben werden.
+To-dos relating to a specific course can be created directly here in the course. To-dos can be assigned to all course participants or to individuals.
 
-[Zu den Details >](Course_todos.md)<br>
-[Zum Seitenanfang ^](#course_administration)
+[See the details >](Course_todos.md)<br>
+[To the top of the page ^](#course_administration)
 
 
-## Termine und Absenzen {: #events_and_absences_}
+## Lectures and absences {: #events_and_absences_}
 
 ![7_green_24.png](assets/7_green_24.png){ class=" aside-left-lg" }
   
-Hier finden Sie das Werkzeug zur Administration von Terminen und Abwesenheiten der Teilnehmenden.
+Here you will find the tool for the administration of participants' lectures and absences.
 
-[Zu den Details >](Lectures_and_absences.md)<br>
-[Zum Seitenanfang ^](#course_administration)
+[See the details >](Lectures_and_absences.md)<br>
+[To the top of the page ^](#course_administration)
 
 
-## Unterlagen Betreuer:innen {: #coach_files}
+## Coach files {: #coach_files}
 
 ![8_green_24.png](assets/8_green_24.png){ class=" aside-left-lg" }
 
-Sofern aktiviert, können Betreuer:innen und Besitzer:innen des Kurses in diesem gemeinsamen Ordner Dateien ablegen, auf die nur sie zugreifen können. 
+If activated, coaches and owners of the course can store files in this shared folder that only they can access.
 
-[Zu den Details >](Coach_Files.md)<br>
-[Zum Seitenanfang ^](#course_administration)
+[See the details >](Coach_Files.md)<br>
+[To the top of the page ^](#course_administration)
 
 
 ## Badges {: #badges}
 
 ![9_green_24.png](assets/9_green_24.png){ class=" aside-left-lg" }
 
-Sofern aktiviert, können hier kursbezogene Badges erstellt, editiert und angezeigt werden.
+If activated, course-related badges can be created, edited and displayed here.
 
-[Zu den Details >](OpenBadges.md)<br>
-[Zum Seitenanfang ^](#course_administration)
+[See the details >](OpenBadges.md)<br>
+[To the top of the page ^](#course_administration)
 
 
-## Erinnerungen {: #reminders}
+## Reminders {: #reminders}
 
 ![10_green_24.png](assets/10_green_24.png){ class=" aside-left-lg" }
 
-Mit der Erinnerungsfunktion wird der automatische Versand von Mails organisiert. Der Versand kann an verschiedene Bedingungen geknüpft werden.
+The reminder function is used to organize the automatic sending of e-mails. If activated, course-related badges can be created, edited and displayed here.
 
-[Zu den Details >](Course_Reminders.md)<br>
-[Zum Seitenanfang ^](#course_administration)
+[See the details >](Course_Reminders.md)<br>
+[To the top of the page ^](#course_administration)
 
 
-## Prüfungsverwaltung {: #assessment_management}
+## Assessment management {: #assessment_management}
 
 ![11_green_24.png](assets/11_green_24.png){ class=" aside-left-lg" }
 
-Unter dieser Menüoption können Sie Konfigurationen für Prüfungsmodi erstellen, bearbeiten und anzeigen lassen. Sie können beispielsweise einen Prüfungsmodus konfigurieren, der für die Teilnehmer:innen nur bestimmte Kursbausteine aufrufbar macht und auch den Aufruf anderer Informationsquellen für die Teilnehmer:innen einschränkt.
+This menu option allows you to create, edit and display configurations for assessment modes. For example, you can configure an assessment mode that only allows participants to access certain course elements and also restricts participants from accessing other sources of information.
 
-[Zu den Details des Prüfungsmodus >](Assessment_mode.md)<br>
-[Zu den Details der Prüfungseinsicht >](Assessment_inspection.md)<br>
-[Zum Seitenanfang ^](#course_administration)
+[See the details about the assessment mode >](Assessment_mode.md)<br>
+[See the details about the assessment inspection >](Assessment_inspection.md)<br>
+[To the top of the page ^](#course_administration)
 
 
-## Datenerhebungsvorschau {: #data_collection_previews}
+## Data collection preview {: #data_collection_previews}
 
 ![12_green_24.png](assets/12_green_24.png){ class=" aside-left-lg" }
 
-Sofern aktiviert, können Kursbesitzer:innen die geplanten Erhebungen des **Moduls Qualitätsmanagement** des Kurses einsehen. Für Kursbesitzer:innen ist diese Vorschau rein informativ. Eine Bearbeitung ist lediglich für Qualitätsmanager:innen möglich.
+If activated, course owners can view the planned surveys of the **Quality Management** module of the course. This preview is purely informative for course owners. Editing is only possible for quality managers.
 
-[Zu den Details über das Qualitätsmanagement >](../../manual_admin/administration/Modules_Quality_Management.md)<br>
-[Zum Seitenanfang ^](#course_administration)
+[See the details about quality management >](../../manual_admin/administration/Modules_Quality_Management.md)<br>
+[To the top of the page ^](#course_administration)
 
 
-## Lernbereiche {: #learning_areas}
+## Learning areas {: #learning_areas}
 
 ![13_green_24.png](assets/13_green_24.png){ class=" aside-left-lg" }
 
-Mit Hilfe eines Lernbereichs können mehrere Gruppen eines Kurses gebündelt werden. Unter dieser Menüoption können die Lernbereiche des Kurses erstellt, angezeigt und editiert werden.
+Several groups of a course can be bundled together with the help of a learning area. The learning areas of the course can be created, displayed and edited under this menu option.
 
-[Zu den Details >](Learning_Areas.md)<br>
-[Zum Seitenanfang ^](#course_administration)
+[See the details >](Learning_Areas.md)<br>
+[To the top of the page ^](#course_administration)
 
 
-## Kurs DB {: #course_DB}
+## Course DB {: #course_DB}
 
 ![14_green_24.png](assets/14_green_24.png){ class=" aside-left-lg" }
 
-Hier können Sie eine neue kurspezifische Datenbank anlegen, die bestimmte kurspezifische Informationen speichern kann.
+Here you can create a new course-specific database that can store certain course-specific information.
 
 [Zum Seitenanfang ^](#course_administration)
 
 
-## Kurs Statistiken {: #course_statistics}
+## Course statistics {: #course_statistics}
 
 ![15_green_24.png](assets/15_green_24.png){ class=" aside-left-lg" }
 
-Diese Kursfunktion zeigt Ihnen Statistiken über den Zugriff auf Ihren OpenOlat-Kurs an. Zugang zu den Statistiken haben alle Besitzer:innen dieses Kurses.
+This course function shows you statistics on access to your OpenOlat course. All owners of this course have access to the statistics.
 
-[Zu den Details >](Statistics_Course.md)<br>
-[Zum Seitenanfang ^](#course_administration)
+[See the details >](Statistics_Course.md)<br>
+[To the top of the page ^](#course_administration)
 
 
-## Test Statistiken {: #test_statistics}
+## Test statistics {: #test_statistics}
 
 ![16_green_24.png](assets/16_green_24.png){ class=" aside-left-lg" }
 
-Die Test-Statistiken erlauben generelle kursbezogene, anonymisierte statistische Auswertung der OpenOlat-Tests eines Kurses. Angezeigt werden alle im Kurs enthaltenen Tests.
+The test statistics allow general course-related, anonymized statistical assessment of the OpenOlat tests in a course. All tests contained in the course are displayed.
 
-[Zu den Details >](Statistics_Test.md)<br>
-[Zum Seitenanfang ^](#course_administration)
+[See the details >](Statistics_Test.md)<br>
+[To the top of the page ^](#course_administration)
 
 
-## Fragenbogen Statistiken {: #survey_statistics}
+## Survey statistics {: #survey_statistics}
 
 ![17_green_24.png](assets/17_green_24.png){ class=" aside-left-lg" }
 
-Die Fragebogen-Statistiken erlauben Ihnen die generelle kursbezogene, anonymisierte statistische Auswertung Ihrer Umfragen.
+The survey statistics allow you to carry out a general course-related, anonymized statistical assessment of your surveys.
 
-[Zu den Details >](Statistics_Survey.md)<br>
-[Zum Seitenanfang ^](#course_administration)
+[See the details >](Statistics_Survey.md)<br>
+[To the top of the page ^](#course_administration)
 
 
-## Archivierung & Reporting {: #archiving_reporting}
+## Archiving & Reporting {: #archiving_reporting}
 
 ![18_green_24.png](assets/18_green_24.png){ class=" aside-left-lg" }
 
-Hier können Elemente des Kurses mit Hilfe eines Wizards archiviert werden. Es kann ein Gesamtarchiv oder ein Teilarchiv mit ausgewählten Kursbausteinen erstellt werden, sowie Kursresultate u.a.
+Elements of the course can be archived here with the help of a wizard. A complete archive or a partial archive with selected course elements can be created, as well as course results, etc.
 
-[Zu den Details >](Course_Archiving.md)<br> 
-[Zu den Details 2 >](Data_archiving.md)<br> 
-[Zum Seitenanfang ^](#course_administration)
+[See the details >](Course_Archiving.md)<br> 
+[See more details >](Data_archiving.md)<br> 
+[To the top of the page ^](#course_administration)
 
 
-## Angebotsarten {: #offer_types}
+## Types of offers {: #offer_types}
 
 ![19_green_24.png](assets/19_green_24.png){ class=" aside-left-lg" }
 
 tbd
 
-[Zu den Details >](Offer_Types.md)<br> 
-[Zum Seitenanfang ^](#course_administration)
+[See the details >](Offer_Types.md)<br> 
+[To the top of the page ^](#course_administration)
 
 
-## Kopieren {: #copy}
+## Cpy {: #copy}
 
 ![20_green_24.png](assets/20_green_24.png){ class=" aside-left-lg" }
 
-Beim Kopieren eines Kurses werden die komplette Struktur, Ordnerinhalte, HTML-Seiten und Gruppennamen (ohne Gruppenmitglieder) übernommen. Benutzerdaten wie Forenbeiträge, Gruppenmitglieder etc. werden jedoch nicht kopiert.
+When copying a course, the complete structure, folder contents, HTML pages and group names (without group members) are copied. However, user data such as forum posts, group members etc. are not copied.
 
-[Zu den Details >](Course_Copy.md)<br> 
-[Zum Seitenanfang ^](#course_administration)
+[See the details >](Course_Copy.md)<br> 
+[To the top of the page ^](#course_administration)
 
 
 ## Kopieren mit Wizard {: #copy_wizard}
 
 ![21_green_24.png](assets/21_green_24.png){ class=" aside-left-lg" }
 
-Wenn Sie einen Kurs mit Hilfe des Wizards kopieren, können Sie die zu kopierenden Elemente ausgewählen.
+If you copy a course using the wizard, you can select the elements to be copied.
 
-[Zu den Details >](Course_Copy_Wizard.md)<br> 
-[Zum Seitenanfang ^](#course_administration)
+[See the details >](Course_Copy_Wizard.md)<br> 
+[To the top of the page ^](#course_administration)
 
 
 
-## In Lernpfad-Kurs konvertieren
+## Convert to learning path course
 
 ![22_green_24.png](assets/22_green_24.png){ class=" aside-left-lg" }
 
-Herkömmliche Kurse (und damit u.a. alle Kurse die vor der OpenOlat Version 15 erstellt wurden), können über dieses Werkzeug in einen Lernpfad-Kurs konvertiert werden.
+Conventional courses (including all courses created before OpenOlat version 15) can be converted into a learning path course using this tool.
 
-Diese Funktion ist nur für herkömmliche Kurse verfügbar.
+The function is only available for conventional courses.
 
-[Zum Seitenanfang ^](#course_administration)
+[To the top of the page ^](#course_administration)
 
 
-## Inhalt exportieren {: #export_content}
+## Export content {: #export_content}
 
 ![23_green_24.png](assets/23_green_24.png){ class=" aside-left-lg" }
 
-Exportieren Sie Ihre Lernressourcen als ZIP-Datei um eine Sicherungskopie zu erhalten oder um die Lernressource in einer anderen OpenOlat Instanz zu importieren.
+Export your learning resources as a ZIP file to get a backup copy or to import the learning resource in another OpenOlat instance.
 
-[Zu den Details >](Export_Content.md)<br> 
-[Zum Seitenanfang ^](#course_administration)
+[See the details >](Export_Content.md)<br> 
+[To the top of the page ^](#course_administration)
 
 
-## Löschen {: #delete}
+## Delete {: #delete}
 
 ![24_green_24.png](assets/24_green_24.png){ class=" aside-left-lg" }
 
-Beim Löschen wird ein Kurse zunächst in den Papierkorb verschoben und alle Benutzerdaten werden entfernt. (Das gilt auch für Lernressourcen.)
+When a course is deleted, it is first moved to the recycle bin and all user data is removed. (This also applies to learning resources).
 
-[Zu den Details >](Course_Delete.md)<br> 
-[Zum Seitenanfang ^](#course_administration)
+[See the details >](Course_Delete.md)<br> 
+[To the top of the page ^](#course_administration)
 
 
 
 
 ## Further information {: #further_information}
 
-[Funktionen der Toolbar >](Using_Additional_Course_Features.md)
+[Fuctions of the toolbar >](Using_Additional_Course_Features.md)
 
 
