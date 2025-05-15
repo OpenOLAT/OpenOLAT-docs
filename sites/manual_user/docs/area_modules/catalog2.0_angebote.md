@@ -5,7 +5,8 @@
 
 As in other catalogs, the OpenOlat catalog also displays short descriptions of "products" in many small entries. In OpenOlat these are
 
-- Courses 
+- Courses
+- implementations of curricula/products
 - or other learning resources, e.g. tests or videos.
 
 

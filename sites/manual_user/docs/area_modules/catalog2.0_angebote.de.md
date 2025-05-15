@@ -6,6 +6,7 @@
 Wie in anderen Katalogen, werden auch im OpenOlat-Katalog in vielen kleinen Einträgen Kurzbeschreibungen zu "Produkten" angezeigt. In OpenOlat sind dies
 
 - Kurse 
+- Durchführungen Von Curricula/Produkten
 - oder andere Lernressourcen, wie z.B. Tests oder Videos.
 
 
