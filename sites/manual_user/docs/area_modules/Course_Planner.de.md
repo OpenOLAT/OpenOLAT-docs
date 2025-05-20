@@ -128,7 +128,7 @@ Die hier bestimmten Termine beziehen sich auf die Durchführung eines Curriculum
 
 Anhand von Report-Vorlagen können verschiedene Reports erzeugt werden.
 
-![course_planner_reports_v1_de.png](assets/course_planner_reports_v1_de.png){ class="shadow lightbox" }
+![course_planner_reports1_v1_de.png](assets/course_planner_reports1_v1_de.png){ class="shadow lightbox" }
 
 [Zu den Details >](../area_modules/Course_Planner_Reports.de.md)<br>
 [Zum Seitenanfang ^](#course_planner)
@@ -140,7 +140,7 @@ Anhand von Report-Vorlagen können verschiedene Reports erzeugt werden.
 
 [Wie erstelle ich meinen ersten OpenOlat-Kurs? >](../../manual_how-to/my_first_course/my_first_course.de.md)<br>
 [Wie kann ich mit dem Course Planner Kursdurchführungen planen und durchführen? >](../../manual_how-to/course_planner_courses/course_planner_courses.de.md)<br>
-[Wie kann ich mit dem Course Planner einen Bildungsgang / ein Curriculum planen und durchführen? >](../course_planner_curriculum/course_planner_curriculum.de.md)<br>
+[Wie kann ich mit dem Course Planner einen Bildungsgang / ein Curriculum planen und durchführen? >](../../manual_how-to/course_planner_curriculum/course_planner_curriculum.de.md)<br>
 [Course Planner aktivieren (Admin) >](../../manual_admin/administration/Modules_Course_Planner.de.md)<br>
 
 [Zum Seitenanfang ^](#course_planner)
