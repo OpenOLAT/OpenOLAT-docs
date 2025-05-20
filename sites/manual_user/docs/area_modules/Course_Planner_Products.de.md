@@ -1,5 +1,6 @@
 # Course Planner: Curricula/Produkte {: #products}
 
+![course_planner_curricula_v1_de.png](assets/course_planner_curricula_v1_de.png){ class="shadow lightbox" }  
 
 ## Was verstehen wir in OpenOlat unter einem Curriculum/Produkt?
 
