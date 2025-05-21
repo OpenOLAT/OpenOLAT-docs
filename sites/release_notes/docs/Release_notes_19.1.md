@@ -5,7 +5,7 @@
 
 * * *
 
-:material-calendar-month-outline: **Release date: 11/27/2024 • Last update: 04/30/2025**
+:material-calendar-month-outline: **Release date: 11/27/2024 • Last update: 05/21/2025**
 
 * * *
 
@@ -172,7 +172,8 @@ The section for activating "Modifications (On / Off)" for subscribable course el
 * Levels/Grading: Addition of a wizard for the bulk action "Apply grade" including display of existing and new results for participants
 * Assessment mode not applied to course owners
 * Redesign of the change log for assessable course elements (:octicons-tag-24: release 19.1.7)
-* Course element "Test": Support for multiple test resources, so that an already used test can be replaced by a new one without losing existing execution data of participants (:octicons-tag-24: release 19.1.8)
+* Course element "Test": Support for multiple test resources, so that an already used test can be replaced by a new one without losing existing execution data of participants (:octicons-tag-24: release 19.1.10)
+* Optional activation of the Safe Exam Browser in simplified assessment mode (:octicons-tag-24: release 19.1.12)
 
 * * *
 
@@ -200,6 +201,7 @@ The section for activating "Modifications (On / Off)" for subscribable course el
 * Opencast:
     * Support for version 16 (:octicons-tag-24: release 19.1.6)
     * Filter for private and public videos (:octicons-tag-24: release 19.1.6)
+* Inactive accounts of external users are reactivated when they are invited again (:octicons-tag-24: release 19.1.11)
 
 * * *
 
@@ -236,6 +238,7 @@ The section for activating "Modifications (On / Off)" for subscribable course el
 
 ## More information
 
+* [YouTrack Release notes 19.1.12](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2019.1.12&title=Release%20Notes%2019.1.12){:target="_blank"}
 * [YouTrack Release notes 19.1.11](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2019.1.11&title=Release%20Notes%2019.1.11){:target="_blank"}
 * [YouTrack Release notes 19.1.10](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2019.1.10&title=Release%20Notes%2019.1.10){:target="_blank"}
 * [YouTrack Release notes 19.1.9](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2019.1.9&title=Release%20Notes%2019.1.9){:target="_blank"}

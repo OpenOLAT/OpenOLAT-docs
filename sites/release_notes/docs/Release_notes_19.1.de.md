@@ -5,7 +5,7 @@
 
 * * *
 
-:material-calendar-month-outline: **Releasedatum: 27.11.2024 • Letztes Update: 30.04.2025**
+:material-calendar-month-outline: **Releasedatum: 27.11.2024 • Letztes Update: 21.05.2025**
 
 * * *
 
@@ -172,7 +172,8 @@ Der Bereich zur Aktivierung von "Änderungen (Ein / Aus)" bei abonnierbaren Baus
 * Einstufung/Noten: Ergänzung eines Wizards für die Massenaktion "Note anwenden" inklusive Anzeige der bestehenden und neuen Ergebnisse für die Teilnehmenden
 * Prüfungsmodus nicht bei Kursbesitzer:innen ausführen
 * Redesign des Änderungslogs bei bewertbaren Kursbausteinen (:octicons-tag-24: ab Release 19.1.7)
-* Kursbaustein "Test": Unterstützung für mehrere Test-Ressourcen, so dass ein bereits verwendeter Test durch einen neuen ersetzt werden kann, ohne bestehende Durchführungsdaten von Teilnehmenden zu verlieren (:octicons-tag-24: ab Release 19.1.8)
+* Kursbaustein "Test": Unterstützung für mehrere Test-Ressourcen, so dass ein bereits verwendeter Test durch einen neuen ersetzt werden kann, ohne bestehende Durchführungsdaten von Teilnehmenden zu verlieren (:octicons-tag-24: ab Release 19.1.10)
+* Optionale Aktivierung des Safe Exam Browsers im vereinfachten Prüfungsmodus (:octicons-tag-24: ab Release 19.1.12)
 
 * * *
 
@@ -198,6 +199,7 @@ Der Bereich zur Aktivierung von "Änderungen (Ein / Aus)" bei abonnierbaren Baus
 * Opencast:
     * Unterstützung für Version 16 (:octicons-tag-24: ab Release 19.1.6)
     * Filter für private und öffentliche Videos (:octicons-tag-24: ab Release 19.1.6)
+* Inaktive Konten externer Nutzer:innen werden bei erneuter Einladung wieder aktiviert (:octicons-tag-24: ab Release 19.1.11)
 
 * * *
 
@@ -234,6 +236,7 @@ Der Bereich zur Aktivierung von "Änderungen (Ein / Aus)" bei abonnierbaren Baus
 
 ## Weitere Informationen
 
+* [YouTrack Release Notes 19.1.12](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2019.1.12&title=Release%20Notes%2019.1.12){:target="_blank"}
 * [YouTrack Release Notes 19.1.11](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2019.1.11&title=Release%20Notes%2019.1.11){:target="_blank"}
 * [YouTrack Release Notes 19.1.10](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2019.1.10&title=Release%20Notes%2019.1.10){:target="_blank"}
 * [YouTrack Release Notes 19.1.9](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2019.1.9&title=Release%20Notes%2019.1.9){:target="_blank"}
