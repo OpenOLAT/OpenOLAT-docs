@@ -44,7 +44,10 @@ Wenn Teilnehmer:innen ein ganzes Curriculum absolvieren sollen, werden sie zu Mi
 
 ## Wer kann den Course Planner nutzen? {: #users}
 
-Nach der Aktivierung des Course Planners durch einen/eine Administrator:in steht er allen Autor:innen, Lernressourcenverwalter:innen und administrativen Rollen zur Verfügung.
+Nach der Aktivierung des Course Planners durch einen/eine Systemadministrator:in steht er allen Benutzer:innen mit der Rolle „Kursplaner:in“ zur Verfügung.
+Administrator:innen und Principals haben ebenfalls Zugriff. 
+Autor:innen und Lernressourcenverwalter:innen haben keinen Zugriff auf den Course Planner.
+
 
 [Zum Seitenanfang ^](#course_planner)
 
@@ -60,7 +63,7 @@ Wenn Sie Autorenrechte besitzen, finden Sie den Course Planner als **Menüpunkt 
 
 !!! info "Voraussetzung"
 
-    Um den Course Planner verwenden zu können, muss er von einem/einer Administrator:in aktiviert worden sein. Steht die Option nicht im Menü der Kopfzeile zur Verfügung, wenden Sie sich bitte an Ihren/Ihre Administrator:in.
+    Um den Course Planner verwenden zu können, muss er von einem/einer Systemadministrator:in aktiviert worden sein. Steht die Option nicht im Menü der Kopfzeile zur Verfügung, wenden Sie sich bitte an Ihren/Ihre Systemadministrator:in.
 
 
 
@@ -78,7 +81,7 @@ Die Übersicht zeigt
 
 ![course_planner_overview_v1_de.png](assets/course_planner_overview_v1_de.png){ class="shadow lightbox" }  
 
-Mit Eingabe eines Begriffes im Suchfeld kann nach **Curriculumelementen** gesucht werden.<br>
+Mit Eingabe eines Begriffes im Suchfeld kann nach **Durchführungen, Kursen und Terminen** gesucht werden.<br>
 Wie auch bei anderen Suchen, kann mit Filtern das Suchergebnis eingegrenzt werden.
 
 ![course_planner_search_v1_de.png](assets/course_planner_search_v1_de.png){ class="shadow lightbox" }  

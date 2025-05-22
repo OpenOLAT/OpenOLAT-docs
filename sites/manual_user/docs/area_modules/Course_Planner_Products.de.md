@@ -35,7 +35,7 @@ Curricula sind ein Zusatzmodul in OpenOlat und müssen zunächst frei geschaltet
 Kunden von frentix kontaktieren für die Aktivierung bitte [contact@frentix.com.](mailto:contact@frentix.com.)<br>
 Sind Sie kein Hosting-Kunde von frentix, fragen Sie bitte Ihren Systembetreiber. 
 
-Nach erfolgter Freischaltung können Administrator:innen das Modul aktivieren und einrichten unter: 
+Nach erfolgter Freischaltung können Systemadministrator:innen das Modul aktivieren und einrichten unter: 
 **Administration > Module > Curriculum**
 
 

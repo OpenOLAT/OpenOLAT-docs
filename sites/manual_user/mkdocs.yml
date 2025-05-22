@@ -149,7 +149,6 @@ nav:
         - Implementations: "area_modules/Course_Planner_Implementations.md"
         - Events: "area_modules/Course_Planner_Events.md"
         - Reports: "area_modules/Course_Planner_Reports.md"
-    - Curriculum Management: "area_modules/Curriculum_Management.md"
     - Absence Management: "area_modules/Absence_Management.md"
     - Quality Management:
       - Overview: "area_modules/Quality_Management.md"
