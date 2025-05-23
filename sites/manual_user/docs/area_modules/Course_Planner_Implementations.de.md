@@ -8,7 +8,7 @@
 Ein Curriculum (aus einem oder mehreren Kursen bestehend) kann mehrfach durchgeführt werden. Jede Durchführung kann zu einem anderen Termin stattfinden und an jeder Durchführung sind dann andere Teilnehmer:innen dabei.
 
 Ein Curriculum ist eine Art "Kopiervorlage für ein Kurspaket".
-Es ist aber in OpenOlat möglich, auch die Inhalte (Curriculumelemente) in jeder Durchführung anzupassen.
+Es ist aber in OpenOlat möglich, auch die Inhalte in jeder Durchführung anzupassen.
 
 [zum Seitenanfang ^](#implementations)
 
@@ -30,9 +30,9 @@ Haben Sie in der Übersicht des Courser Planners den Button "Durchführungen" ge
 
 Haben Sie in der Liste eine Durchführung gewählt und geöffnet, können Sie von hier aus
 
-![1_green_24.png](assets/1_green_24.png) rechts oben durch Klick auf den Button "**Gehe zu**" innerhalb der aktuellen Durchführung zu Curriculumelementen springen
+![1_green_24.png](assets/1_green_24.png) rechts oben durch Klick auf den Button "**Gehe zu**" innerhalb der aktuellen Durchführung zu einem Element springen
 
-![2_green_24.png](assets/2_green_24.png) mit den **Pfeiltasten** rechts oben zu anderen Durchführungen dieses Curriculums wechseln
+![2_green_24.png](assets/2_green_24.png) mit den **Pfeiltasten** rechts oben zu anderen Durchführungen  wechseln
 
 ![3_green_24.png](assets/3_green_24.png) durch Klick auf die verschiedenen **Tabs** diese Durchführung konfigurieren
 
@@ -97,9 +97,9 @@ In der angezeigten Baumstruktur kann jedes einzelne Element der Durchführung be
 
 ### Tab Kursinhalt {: #tab_content}
 
-Die Liste zeigt alle zu dieser Curriculum-Durchführung gehörenden Kurse.
+Die Liste zeigt alle zu dieser Durchführung gehörenden Kurse.
 
-Sollen für diese Durchführung (abweichend vom ursprünglichen Curriculum) weitere Kurse hinzugefügt werden, verwenden Sie den Button "**Kurs hinzufügen**" rechts oben.
+Sollen für diese Durchführung (abweichend von der ursprünglichen Struktur) weitere Kurse hinzugefügt werden, verwenden Sie den Button "**Kurs hinzufügen**" rechts oben.
 
 Die Option zum **Entfernen** eines **einzelnen Kurses** aus dieser Durchführung finden Sie unter den 3 Punkten am Ende einer Zeile.<br>
 Für das **Entfernen mehrerer Kurse** markieren Sie die Kurse mit den Checkboxen der ersten Spalte. Dann wird Ihnen ein Button zum Entfernen über der Liste angezeigt.
@@ -130,11 +130,11 @@ Für das **Entfernen mehrerer Kurse** markieren Sie die Kurse mit den Checkboxen
 
 ![course_planner_implementations_tab_members_v1_de.png](assets/course_planner_implementations_tab_members_v1_de.png){ class="shadow lightbox" }
 
-Wie bereits eingangs erwähnt, kann ein Curriculum (aus einem oder mehreren Kursen bestehend) mehrfach durchgeführt werden. An jeder Durchführung sind andere Teilnehmer:innen dabei.
+Wie bereits eingangs erwähnt, kann ein Bildungsprodukt (aus einem oder mehreren Kursen bestehend) mehrfach durchgeführt werden. An jeder Durchführung sind andere Teilnehmer:innen dabei.
 
-Deshalb werden Teilnehmer:innen zu Mitgliedern einer bestimmten Curriculum-Durchführung gemacht (nicht zu Mitgliedern einzelner Kurse oder einem Curriculum). Es kann bestimmt werden, ob sie Mitglieder der gesamten Durchführung oder nur eines Teilbereiches werden.
+Deshalb werden Teilnehmer:innen zu Mitgliedern einer bestimmten Durchführung gemacht (nicht zu Mitgliedern einzelner Kurse oder eines Bildungsprodukts). Es kann bestimmt werden, ob sie Mitglieder der gesamten Durchführung oder nur eines Teilbereiches werden.
 
-Es macht keinen Sinn, die Teilnehmer:innen zu Mitgliedern des Curriculums (der "Kopiervorlage") zu machen. Sie wären ja dann in allen Durchführungen eines Curriculums als Teilnehmer:innen dabei.
+Es macht keinen Sinn, die Teilnehmer:innen zu Mitgliedern des Bildungsprodukts (der "Kopiervorlage") zu machen. Sie wären ja dann in allen Durchführungen dieses Produkts als Teilnehmer:innen dabei.
 
 Curriculumsbesitzer:innen haben dagegen das Recht, das Curriculum (die "Originalversion", die "Kopiervorlage") zu bearbeiten. Deshalb können zu einem Curriculum/Produkt nur Besitzer:innen als Mitglieder hinzugefügt werden, keine Teilnehmer:innen.
 
@@ -173,7 +173,7 @@ Die Vielzahl der möglichen Einstellungen zu einer Durchführung sind unter mehr
 
 #### Tab Einstellungen > Metadaten
 
-Die hier eingegebenen Metadaten werden verwendet um ...
+Die hier eingegebenen Metadaten werden verwendet um z.B. Suchprozesse zu vereinfachen.
 
 ![course_planner_implementations_tab_settings_metadata_v1_de.png](assets/course_planner_implementations_tab_settings_metadata_v1_de.png){ class="shadow lightbox" }
 
@@ -202,7 +202,7 @@ Der sonst durch Kursbesitzer:innen vorgenommene Statuswechsel (z.B. von "proviso
 
 #### Tab Einstellungen > Optionen
 
-Für jede Durchführung eines Curriculums können hier separat Einstellungen vorgenommen werden für: 
+Für jede Durchführung können hier separat Einstellungen vorgenommen werden für: 
 
 - Kalenderkonfiguration
 - Stundenplan

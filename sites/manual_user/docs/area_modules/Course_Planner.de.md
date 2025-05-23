@@ -1,8 +1,8 @@
 # Course Planner: Übersicht {: #course_planner}
 
+!!! info "Hinweis"
 
-Ab Release 20 verfügt OpenOlat über das eigenständige Zusatzmodul "Course Planner".
-OpenOlat kann aber auch weiterhin als klassisches LMS ohne dieses Modul genutzt werden.
+    Ab Release 20 verfügt OpenOlat über das eigenständige Zusatzmodul "Course Planner". Es ist eine Weiterentwicklung des Curriculums in früheren Versionen. OpenOlat kann aber auch weiterhin als klassisches LMS ohne dieses Modul genutzt werden.
 
 ## Wozu dient der Course Planner? {: #purpose}
 
@@ -11,6 +11,18 @@ Der Course Planner ist ein Modul für das **Kursmanagement**. Ziel ist es, autom
 Mit dem Course Planner kann die **Planungsarbeit** von der **Inhaltserstellung** (im Autorenbereich) getrennt werden.
 
 Sie können natürlich auch ohne Course Planner OpenOlat-Kurse erstellen. Mit dem Course Planner steht Ihnen jedoch ein Werkzeug zur Verfügung, das die organisatorischen Aufgaben zusammenführt.
+
+
+| ohne Course Planner              | mit Course Planner                                        |
+| -------------------------------- | --------------------------------------------------------- |
+| nur eigenständige einzelne Kurse | mehrere Kurse gemeinsam                             |
+| alles wird einzeln in den  Kursen administriert und verwaltet | kursübergreifende Funktionen |
+| x                                | funktionale Trennung zwischen Administration und Inhalt   |
+| x                                | zentrale Planung mehrerer Kurse                           |
+| x                                | zentrale Mitgliederverwaltung mehrerer Kurse              |
+| x                                | zentrale Ausschreibung mehrerer Kurse                     |
+| x                                | zentrale Steuerung und Verwaltung mehrerer Kurse          |
+
 
 [Zum Seitenanfang ^](#course_planner)
 
@@ -32,7 +44,7 @@ Dabei bestehen folgende grundsätzliche Zusammenhänge:
 
 ![course_planner_functional_relationships1_v1_de.png](assets/course_planner_functional_relationships1_v1_de.png){ class="shadow lightbox" }  
 
-Wenn Teilnehmer:innen ein ganzes Curriculum absolvieren sollen, werden sie zu Mitgliedern einer bestimmten Curriculum-Durchführung gemacht (nicht zu Mitgliedern einzelner Kurse oder einem Curriculum). Ausserdem kann auch eine Abrechnung für die Durchführung eingerichtet werden.
+Wenn Teilnehmer:innen ein ganzes Bildungsprodukt absolvieren sollen, werden sie zu Mitgliedern einer bestimmten Durchführung gemacht (nicht zu Mitgliedern einzelner Kurse oder eines Bildungsprodukts). Ausserdem kann auch eine Abrechnung für die Durchführung eingerichtet werden.
 
 ![course_planner_functional_relationships2_v1_de.png](assets/course_planner_functional_relationships2_v1_de.png){ class="shadow lightbox" }  
 
@@ -95,6 +107,8 @@ Wie auch bei anderen Suchen, kann mit Filtern das Suchergebnis eingegrenzt werde
 
 Curricula/Produkte bestehen aus mehreren Kursen und haben eine bestimmte Struktur/Abfolge, in der die enthaltenen Kurse kombiniert sind.
 
+Ein Bildungsprodukt ist ein nach innen oder aussen gerichtetes Lernangebot mit Durchführungen. Meistens sind es mehrfache Durchführungen, also von Lernangeboten der gleichen „Art“ (-> Produkt). Der Course Planner vereinfacht die Arbeit wesentlich durch die gemeinsame zentrale Verwaltung.
+
 ![course_planner_curricula_v1_de.png](assets/course_planner_curricula_v1_de.png){ class="shadow lightbox" }
 
 [Zu den Details >](../area_modules/Course_Planner_Products.de.md)<br>
@@ -117,7 +131,7 @@ Ein Curriculum kann mehrfach durchgeführt werden. Z.B. kann sich jedes Semester
 
 ### Termine {: #events}
 
-Die hier bestimmten Termine beziehen sich auf die Durchführung eines Curriculums oder eines Teilbereiches daraus. 
+Die hier bestimmten Termine beziehen sich auf eine Durchführung oder eines Teilbereiches daraus. 
 
 ![course_planner_events_v1_de.png](assets/course_planner_events_v1_de.png){ class="shadow lightbox" }
 
