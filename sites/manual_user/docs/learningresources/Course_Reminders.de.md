@@ -4,8 +4,11 @@ Mit der Erinnerungsfunktion wird der automatische Versand von Mails organisiert.
 
 ![course_reminder_access_v1_de.png](assets/course_reminder_access_v1_de.png){ class="shadow lightbox" }
 
-Zusätzlich zum Weg über die Kursadministration können für bestimmte bewertbare Kursbausteine Erinnerungen auch direkt bei dem jeweiligen Kursbaustein eingerichtet werden. In diesem Fall ist der entsprechenden Kursbaustein bereits vorgewählt. So kann beispielweise rasch eine Erinnerung für Lernende erstellt werden, die einen bestimmten Test noch gar nicht durchgeführt haben (Versuche  = 0). Oder es kann eine E-Mail an alle Personen verschickt werden, die eine Aufgabe bestanden haben.
+Unter Kursadministration → Erinnerung werden alle Erinnerungen eines Kurses angezeigt und können dort auch erstellt werden. Zusätzlich gibt es bei allen Kursbausteinen, die mit der Erinnerungsfunktion verknüpft werden können, einen eigenen Tab „Erinnerungen“ direkt am Baustein.
 
+Erinnerungen, die nicht an einen bestimmten Kursbaustein gebunden sind, finden Sie im Kurseditor beim obersten Kursbaustein – ebenfalls im Tab „Erinnerungen“.
+
+An all diesen Stellen können Erinnerungen erstellt, angezeigt, bearbeitet und der Versand überprüft werden.
 
 [Zum Seitenanfang ^](#course_reminders)
 
@@ -13,23 +16,31 @@ Zusätzlich zum Weg über die Kursadministration können für bestimmte bewertba
 
 ## Erinnerung erstellen {: #create}
 
-Als Kursbesitzer:in definieren Sie in einer Regelliste,
+Als Kursbesitzer:in definieren Sie 
 
 * unter welchen **Bedingungen** die Erinnerung verschickt werden soll 
 * den **Mailtext**
 * an **wen** die Erinnerung verschickt werden soll
 
-Sobald die Bedingungen erfüllt sind, werden die Mails automatisch zum Versand freigegeben. Die genaue Sendezeit und Häufigkeit wird von Ihrem Systemadministrator systemweit festgelegt. 
-
-Klicken Sie dazu auf die **Schaltfläche "Erinnerung erstellen"**. Es erscheint ein Wizard, der Sie Schritt für Schritt durch den Erstellungsprozess führt.
+Um eine Erinnerung zu erstellen klicken Sie auf die **Schaltfläche "Erinnerung erstellen"**. Es erscheint ein Wizard, der Sie Schritt für Schritt durch den Erstellungsprozess führt.
 
 ![course_reminder_new_v1_de.png](assets/course_reminder_new_v1_de.png){ class="shadow lightbox" }
 
-Geben Sie als erstes die Beschreibung für die Erinnerung ein. Diese Beschreibung ist nur für die Autor:innen sichtbar und dient der übersichtlichen und informativen Darstellung aller Erinnerungen eines Kurses. Wählen Sie dann die Bedingungen für den Versand aus.
+**Schritt: Bedingungen bearbeiten**
 
-Im zweiten Schritt des Wizards werden die Bedingungen überprüft und noch einmal angezeigt. 
+Geben Sie als erstes die Beschreibung für die Erinnerung ein. Diese Beschreibung ist nur für die Autor:innen sichtbar und dient der übersichtlichen und informativen Darstellung der Erinnerungen eines Kurses. Wählen Sie dann die Bedingungen für den Versand aus.
 
-Im letzten Schritt geben Sie dann den E-Mail Text ein und können auswählen, ob auch Betreuer:innen oder Besitzer:innen eine Kopie erhalten sollen oder eine Kopie an eine externe Adresse verschickt werden soll.
+**Schritt: Bedingungen überprüfen**
+
+Im zweiten Schritt des Wizards werden die Bedingungen überprüft und noch einmal angezeigt an wen gemäß der Konfiguration die Erinnerung versandt würde. 
+
+**Schritt: E-Mail Benachrichtigung**
+
+Im letzten Schritt geben Sie dann den zu versendenden E-Mail-Text ein und können auswählen ob die Erinnerungen an alle Personen des Kurses auf die die definierten Regeln zutreffen versandt werden sollen. Optional dazu kann noch eine Kopie an Kursbesitzer:innen, Betreuende oder Personen mit einer externen Mail-Adresse verschickt werden.
+
+Alternativ kann die erstellte Erinnerung auch nur an die Besitzer:innen, zuständige Betreuer:innen oder externe E-Mail-Adressen versandt werden. Diese Option bietet sich vor allem für Test-Erinnerungen oder spezifische Erinnerungen für Lehrpersonen an.
+
+Sobald die Bedingungen für eine Erinnerung erfüllt sind, werden die Mails automatisch zum Versand freigegeben. Die genaue Sendezeit und Häufigkeit wird von Ihrem Systemadministrator systemweit festgelegt. 
 
 
 [Zum Seitenanfang ^](#course_reminders)
@@ -38,9 +49,9 @@ Im letzten Schritt geben Sie dann den E-Mail Text ein und können auswählen, ob
 
 ## Bedingungen für den Versand von Erinnerungen {: #conditions}
 
-Die Bedingungen können aus einem Dropdown-Menü gewählt werden. Je nach Bedingung erscheint rechts daneben ein weiteres Eingabefeld für genauere Angaben.
+Entscheidend für die zu versendenden Erinnerungen sind die konkreten Bedingungen. Hier bietet OpenOlat jede Menge Möglichkeiten. Die konkreten Bedingungen können aus einem Dropdown-Menü gewählt werden. Je nach Bedingung erscheint rechts daneben ein weiteres Eingabefeld für genauere Angaben.
 
-![course_reminder_condition1_v1_de.png](assets/course_reminder_condition1_v1_de.png){ class="shadow lightbox" }
+![Bedingungen für Erinnerungen](assets/Erinnerung_Bedingungen.png){ class="shadow lightbox" }
 
 Mehrere Bedingungen können nach Wunsch kombiniert werden können. Dadurch können auf den individuellen Bedarf zugeschnittene Erinnerungen ausgelöst werden. Es muss aber mindestens ein Kriterium gewählt werden, damit ein Versand ausgelöst werden kann.
 
@@ -48,14 +59,14 @@ Mehrere Bedingungen können nach Wunsch kombiniert werden können. Dadurch könn
 
 !!! info "Hinweis"
 
-    Bei der Verknüpfung handelt es sich um eine "und" Verknüpfung. Das heißt, nur wenn alle Bedingungen erfüllt sind, wird die Erinnerungsmail ausgelöst.
+    Bei der Verknüpfung handelt es sich um eine "und" Verknüpfung. Das heißt, nur wenn **alle** Bedingungen erfüllt sind, wird die Erinnerungsmail ausgelöst.
 
 
 Es können folgende Kriterien als Bedingung konfiguriert werden:
 
 * **Einschreibedatum**<br>
 Versand x Tage, Wochen, Monate oder Jahre danach<br>
-_Beispiel_: Benutzer:innen erhalten 2 Tage nach der Einschreibung zusätzliche Informationen zum Kurs. (Vorausgesetzt auch die übrigen Bedingungen werden erfüllt.)  
+_Beispiel_: Benutzer:innen erhalten 2 Tage nach der Einschreibung zusätzliche Informationen zum Kurs. 
 
 * **Kursstatus**<br>
 Wählen Sie, in welchem Status sich der Kurs befinden muss, damit eine Erinnerung verschickt wird. 
@@ -69,7 +80,7 @@ Wählen Sie, in welchem Status sich der Kurs befinden muss, damit eine Erinnerun
     * Nicht Freigabe Betreuer:innen
     * Nicht Veröffentlicht
   
-_Beispiel_: Nur wenn der Kurs den Status "Freigabe Betreuer:innen" hat, erhalten alle Betreuer:innen eine Info-Mail über ihre Betreuungsaufgabe.
+    _Beispiel_: Nur wenn der Kurs den Status "Freigabe Betreuer:innen" hat, erhalten alle Betreuer:innen eine Info-Mail über ihre Betreuungsaufgabe.
 
 
 * **Beginndatum Durchführungszeitraum des Kurses**<br>
@@ -85,19 +96,21 @@ x Tage, Wochen, Monate oder Jahre danach
 x Tage, Wochen, Monate oder Jahre danach
 
 * **Teilnehmer:in befindet sich in der Kursdurchführung Nummer**<br>
-Siehe Hinweis zu Operatoren
+Hier geht es um die Erstdurchführung oder Kurswiederholung zur Rezertifizierung. 
+
+    _Beispiel_: Kursteilnehmende die den Kurs das zweite Mal durchlaufen erhalten eine Erinnerungsmail.
 
 * **Fortschritt**<br>
-Nur bei [Lernpfad Kursen](../learningresources/Learning_path_course.de.md).
-Hier erfolgt der Versand basierend auf dem prozentualen Kursfortschritt der Teilnehmenden, wie er in den Einstellungen der Administration konfiguriert wurde.<br>
-_Beispiel_: Benutzer die mindestens 80% eines Kurses erfolgreich abgeschlossen haben.<br>
-Siehe Hinweis zu Operatoren
+Diese Option gibt es nur bei [Lernpfad Kursen](../learningresources/Learning_path_course.de.md).
+Hier erfolgt der Versand basierend auf dem prozentualen Kursfortschritt der Teilnehmenden, wie er in den Einstellungen der Kurs-Administration konfiguriert wurde.<br>
+_Beispiel_: Lernende, die mindestens 80% eines Kurses erfolgreich erledigt haben erhalten eine Motivationsmail um noch bald die letzten 20% zu erledigen.
 
 * **Ausstellungsdatum Zertifikat**<br>
-Diese Option wird nur angezeigt, wenn die Zertifikatvergabe aktiviert ist (Kursadministration > Einstellungen > Tab "Bewertung").
+Diese Option wird nur angezeigt, wenn die Zertifikatvergabe aktiviert ist (Kursadministration > Einstellungen > Tab "Bewertung").<br>
+_Beispiel_: Die Mail wird versandt 1 Tag nachdem ein Zertifikat ausgestellt wurde.
 
 * **Ablaufdatum Zertifikat**<br>
-Diese Option wird nur angezeigt, wenn die Zertifikatvergabe aktiviert ist (Kursadministration > Einstellungen > Tab "Bewertung").
+Diese Option wird nur angezeigt, wenn die Zertifikatvergabe aktiviert ist (Kursadministration > Einstellungen > Tab "Bewertung"). _Beispiel_: Die Mail wird versandt 2 Wochen bevor das Zertifikat abläuft, so dass die Teilnehmenden daran erinnert werden die für das Zertifikat notwendigen Aktivitäten durchzuführen bevor das Zertifikat abläuft.
 
 ---
 
@@ -128,33 +141,27 @@ Die Erinnerungsempfänger:innen müssen einen bestimmten Wert zu einem der folge
     * Institutions-E-Mail
     * Organisationseinheit / Studiengruppe
     * Studienfach
-    
+
     _Beispiel_: Benutzer aus der Stadt Zürich.  
+
+    Voraussetzung ist, dass die Angaben auch eingetragen bzw. übertragen wurden.
   
 
 ---
 
 * **Bis Datum**<br>
-Eingabefelder für Datum und Uhrzeit, als Eingabehilfe Button zur Anzeige des Kalenders
+Eingabefelder für Datum und Uhrzeit, als Eingabehilfe Button zur Anzeige des Kalenders. Diese Bedingung eignet sich häufig für die Kombination mit anderen Bedingungen.
 
 * **Nach Datum**<br>
-Eingabefelder für Datum und Uhrzeit, als Eingabhilfe Button zur Anzeige des Kalenders
-
-!!! info "Wann wird die Mail verschickt, wenn ich hier ein Datum angebe?"
-
-    Der Versand der Kurserinnerungen findet nicht sofort statt. Alle Erinnerungsmails werden gemeinsam z.B. täglich um 9.00 Uhr verschickt. Dies ist eine Voreinstellung und kann von Administrator:innen geändert und bis auf "stündlich" angepasst werden (Administration > Module > Kurserinnerungen). 
-    Zum Versandzeitpunkt prüft OpenOlat jeweils, welche Bedingungen erfüllt sind und verschickt entsprechend die Mails. Es werden dann alle Kurserinnerungen verschickt, die z.B. um 9.00 die Bedingungen erfüllen ("im Ausgangskorb liegen").
-
-    Wenn **"Bis Datum"** abgeprüft wird, kann die Bedingung zum Zeitpunkt der Reminder-Erstellung schon erfüllt sein und es werden Mails verschickt. Sinn macht diese Einstellung vor allem in Verbindung mit einer weiteren Bedingung, z.B. Wenn "bis Datum" "der Test bestanden wurde", wird eine Mail verschickt "Sie haben sich termingerecht qualifiziert und erhalten dafür ...".
-    
-    Wenn **"Nach Datum"** mit einem Datum nach dem Zeitpunkt der Reminder-Erstellung verwendet wird, werden die Mails im "Ausgangskorb" zum erstmöglichen Versandtermin verschickt, wenn das "Nach Datum" erreicht wurde.
+Eingabefelder für Datum und Uhrzeit, als Eingaehilfe Button zur Anzeige des Kalenders. Diese Bedingung eignet sich häufig für die Kombination mit anderen Bedingungen, z.B. wenn bis zu einem bestimmten Termin ein bestimmter Kursfortschritt nicht erreicht wurde.
 
 ---
 
 * **Datum des letzten Versuchs**<br>
-Diese Option betrifft nur bewertbare Kursbausteine.
-    * Dropdown zur Auswahl eines bewertbaren Kursbausteins
-    * x Tage, Wochen, Monate oder Jahre danach
+Diese Option bezieht sich auf bewertbare Kursbausteine.
+    * In der Dropdown-Liste werden die möglichen Kursbausteine, die berücksichtigt werden können, angezeigt. 
+    * x Tage, Wochen, Monate oder Jahre danach<br>
+    _Beispiel_: Die Erinnerung wird verschickt 1 Woche nachdem ein bestimmter Test ausgefüllt wurde.
 
 * **Versuche**<br>
 Diese Option betrifft nur bewertbare Kursbausteine. Hier wird die Anzahl der Lösungsversuche für den Mailversand berücksichtigt.<br>
@@ -166,27 +173,40 @@ Diese Option betrifft nur bewertbare Kursbausteine, für die ein Bestanden-Statu
 _Beispiel_: Ein Test-Kursbaustein wurde mit "Bestanden" bewertet.
 
 * **Punkte**<br>
-Diese Option betrifft nur bewertbare Kursbausteine, für die eine Punktezahl im Editor konfiguriert wurde. Diese können hier als Bedingung ausgewählt werden.<br>
+Diese Option betrifft nur bewertbare Kursbausteine, für die eine Punktezahl definiert wurde. Der Versand kann dann in Abhängigkeit einer Punktzahl erfolgen. <br>
 _Beispiel_: In einer Checkliste wurden weniger als 3 Punkte erreicht.
 
 
 ---
 
 * **Termin: Aufgabe Zuweisung**<br>
-Diese Option betrifft nur Kursbausteine vom Typ "Aufgabe".
-
+Diese Option betrifft nur Kursbausteine vom Typ "Aufgabe", bei denen auch die Aufgabenstellung im Kursbaustein abgelegt wurde und ein Termin für die Zuweisung zugeordnet wurde. Der Versand der Erinnerungsmail bezieht sich dann auf den im Kurseditor hinterlegten Termin, z.B. 
+x Tage, Wochen, Monate davor. 
 
 * **Termin: Aufgabe Dokumente abgeben**<br>
-Diese Option betrifft nur Kursbausteine vom Typ "Aufgabe". Wenn dort eine bearbeitete Aufgabe hochgeladen werden kann, kann eine Bedingung für eine Erinnerung sich auf den Abgabezeitpunkt der Aufgabendokumente beziehen.
+Diese Option betrifft nur Kursbausteine vom Typ "Aufgabe" bei denen die "Abgabe" in der Workflow-Konfiguration aktiviert wurde. Eine Erinnerungsmail kann dann x Tage, Wochen, Monate vor dem Abgabetermin verschickt werden. 
 
 * **Termin: Aufgabe Peer-Review Abgabe**<br>
-Diese Option betrifft nur Kursbausteine vom Typ "Aufgabe". Wenn dort ein Peer-Review konfiguriert ist, kann eine Bedingung sich auf den Abgabezeitpunkt des Peer-Reviews beziehen.
+Diese Option betrifft nur Kursbausteine vom Typ "Aufgabe" bei denen im Workflow die Peer-Review Funktion aktiviert wurde und ein "bis" Datum mit dem Review verknüpft wurde. 
+_Beispiel_: Eine Erinnerung wird 3 Tage vor dem finalen Peer-Review Endtermin verschickt.
 
 ---
 
 * **Termin: Formular ausfüllen**<br>
-Diese Option betrifft nur Kursbausteine vom Typ "Formular".
+Diese Option betrifft nur Kursbausteine vom Typ "Formular" bei denen im Kurseditor ein Endtermin für das Ausfüllen hinterlegt wurde. 
+_Beispiel_: Eine Erinnerung wird 2 Tage vor der Ausfülldeadline für das Formular verschickt.
 
+## Hinweise zur Konfiguration der Erinnerungen
+
+
+!!! info "Wann wird die Mail verschickt, wenn ich hier ein Datum angebe?"
+
+    Der Versand der Kurserinnerungen findet nicht sofort statt. Alle Erinnerungsmails werden gemeinsam z.B. täglich um 9.00 Uhr verschickt. Dies ist eine Voreinstellung und kann von Administrator:innen geändert und bis auf "stündlich" angepasst werden (Administration > Module > Kurserinnerungen). 
+    Zum Versandzeitpunkt prüft OpenOlat jeweils, welche Bedingungen erfüllt sind und verschickt entsprechend die Mails. Es werden dann alle Kurserinnerungen verschickt, die z.B. um 9.00 die Bedingungen erfüllen ("im Ausgangskorb liegen").
+
+    Wenn **"Bis Datum"** abgeprüft wird, kann die Bedingung zum Zeitpunkt der Reminder-Erstellung schon erfüllt sein und es werden Mails verschickt. Sinn macht diese Einstellung vor allem in Verbindung mit einer weiteren Bedingung, z.B. Wenn "bis Datum" "der Test bestanden wurde", wird eine Mail verschickt "Sie haben sich termingerecht qualifiziert und erhalten dafür ...".
+    
+    Wenn **"Nach Datum"** mit einem Datum nach dem Zeitpunkt der Reminder-Erstellung verwendet wird, werden die Mails im "Ausgangskorb" zum erstmöglichen Versandtermin verschickt, wenn das "Nach Datum" erreicht wurde.
 
 
 !!! info "Option davor/danach"
@@ -283,7 +303,7 @@ Hier ein Beispiel:
 
 ![Erinnerung Mail](assets/reminder_notification_text_DE.png){ class="shadow" }
 
-Am obersten Kursknoten werden zusätzlich alle Erinnerungen aufgelistet, die an keinen bestimmten Kursbaustein gebunden sind. Auch können sowohl hier als auch bei anderen Assessment Bausteinen mit dem Tab "Erinnerungen" weitere Konfigurationen vorgenommen werden, z.B. konfigurierte Erinnerungen editiert, dupliziert, versendet, gelöscht werden. Auch die Anzeige des Versands ist möglich.
+
 
 
 [Zum Seitenanfang ^](#course_reminders)
@@ -333,6 +353,7 @@ Erinnerungen können auch gezielt und wiederholt ausgelöst werden. Dabei werden
 ---
 
 ## Weiterführende Informationen  {: #further_information}
+Weitere OpenOlat Werkzeuge, die auf andere Weise auch für Erinnerungen verwendet werden können:  
 
 [Persönliches Menü: E-Mail >](../personal_menu/E-Mail.de.md)<br>
 [Kursbaustein Mitteilungen >](../learningresources/Course_Element_Notifications.de.md)<br>

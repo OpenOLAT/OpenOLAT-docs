@@ -13,7 +13,7 @@ Course archive files (**zip files**) can be created in the course administration
 **Complete archive - partial archive**
 Partial archives can also be created on request, e.g. if only the results of a particular course element are to be archived. course element are to be archived. (E.g. the final test and practice tests should not be included in the archive).
 
-Such a course archive must be distinguished from the “Export content” option in the course administration.
+Such a course archive must be distinguished from the [“Export content”](../learningresources/Export_Content.md) option in the course administration.
 
 | Course administration ><br> Export content | Course administration ><br> Course archive | Course administration ><br> Reports |
 | ------------------------------------- | ------------------------------------- | -------------------------------------|

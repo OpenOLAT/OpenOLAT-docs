@@ -4,7 +4,12 @@ The reminder function organizes the automatic sending of e-mails.
 
 ![course_reminder_access_v1_de.png](assets/course_reminder_access_v1_de.png){ class="shadow lightbox" }
 
-In addition to course administration, reminders can also be set up directly for the respective course element for certain assessable course elements. In this case, the corresponding course element is already preselected. For example, a reminder can be quickly created for learners who have not yet completed a particular test (attempts = 0). Or an e-mail can be sent to all people who have passed a task.
+All reminders for a course are displayed under Course administration → Reminders and can also be created there. In addition, all course elements that can be linked to the reminder function have their own “Reminders” tab directly on the element.
+
+Reminders that are not linked to a specific course element can be found in the course editor at the top course element - also in the “Reminders” tab.
+
+Reminders can be created, displayed, edited and the dispatch checked in all these places.
+
 
 [To the top of the page ^](#course_reminders)
 
@@ -19,8 +24,6 @@ As the course owner, you define a list of rules,
 * the **mail text**
 * to **who** the reminder should be sent to
 
-As soon as the conditions are met, the mails are automatically released for dispatch. The exact sending time and frequency is defined system-wide by your system administrator. 
-
 To do this, click on the **"Create reminder"** button. A wizard will appear to guide you step by step through the creation process.
 
 ![course_reminder_new_v1_de.png](assets/course_reminder_new_v1_de.png){ class="shadow lightbox" }
@@ -31,6 +34,7 @@ In the second step of the wizard, the conditions are checked and displayed again
 
 In the last step, you then enter the e-mail text and can select whether coaches or owners should also receive a copy or whether a copy should be sent to an external address.
 
+As soon as the conditions are met, the mails are automatically released for dispatch. The exact sending time and frequency is defined system-wide by your system administrator. 
 
 [To the top of the page ^](#course_reminders)
 
