@@ -113,14 +113,13 @@ Hier finden Sie ein Tool für die kooperative Projekt-Arbeit mit Terminen, ToDos
 
 
 
-## Course Planner (bis Release 19 Curriculumverwaltung)  {: #course_planner}
+## Course Planner  {: #course_planner}
 
 ![11_green_24.png](assets/11_green_24.png){ class=" aside-left-lg" }
 
-Ab :octicons-tag-24: Release 20 wurde statt der Curriculumverwaltung eine erweiterete, allgemeine Kursplanung in OpenOlat integriert. Bis Release 19 können Curricula optional in einem eigenen Modul verwaltet werden.
+Ab :octicons-tag-24: Release 20 wurde eine erweiterte, allgemeine Kursplanung in OpenOlat integriert.
 
-[Zu den Details des Course Planners (ab Release 20) >](Course_Planner.de.md)<br>
-[Zu den Details der Curriculumverwaltung (bis Release 19) >](Curriculum_Management.de.md)<br>
+[Zu den Details des Course Planners >](Course_Planner.de.md)<br>
 [Zum Seitenanfang ^](#sites)
 
 
