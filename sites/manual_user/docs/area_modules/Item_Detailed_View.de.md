@@ -41,7 +41,7 @@ Die Metadaten können in der Detailansicht durch einen Toggle-Button rechts oben
 
 ![question_details_metadata_v1_de.png](assets/question_details_metadata_v1_de.png){ class="shadow lightbox" }
 
-!!! info „Info"
+!!! info "Info"
 
     Ist der [Beurteilungsprozess](Question_Bank_Review_Process.de.md) aktiviert, wird zusätzlich die Option ["Bewertung"](#metadata_ratings) angzeigt.
 
@@ -170,7 +170,7 @@ Listet die Pools in welchen das Frageitem freigegeben wurde.
 
 ###  Gruppen {: #metadata_groups}
 
-Listet die  Gruppen in welchen das Frageitem freigegeben wurde.
+Listet die Gruppen in welchen das Frageitem freigegeben wurde.
 
 
 [Zum Seitenanfang ^](#question_details)

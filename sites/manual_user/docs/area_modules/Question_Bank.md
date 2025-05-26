@@ -37,11 +37,7 @@ Items that have been marked as favorites under "**My questions**" will appear ag
 
 If the [Assessment process](Question_Bank_Review_Process.md) is activated (authors assess each other's questions), then your own subjects are also visible under "My question pool" and, depending on authorization, the **"Assessment"** and **"Final"** sections.
 
-![question_bank_navigation_my_question_bank_v1_de.png](assets/question_bank_navigation_my_question_bank_v1_de.png){ class="shadow lightbox" }
 
-[More about the creation of questions >](Data_Management.md)<br>
-[Detailed view of a question >](Item_Detailed_View.md)<br>
-[More about the review process >](Question_Bank_Review_Process.md)<br>
 
 [To the top of the page ^](#question_bank)
 
@@ -69,5 +65,25 @@ The collaborative question pool in OpenOlat allows authors to store, create, edi
 
 This chapter explains how individual test questions, called items, can be created, edited and managed using the question pool. Each item contains not only the question and the corresponding answers, but also information about e.g. author, creation date, keywords, but also characteristic values for item analysis can be added.
 
-[Pool-administrators](Question_Bank_Administration.md) have additional access to further specific configurations in the administration section of the question bank.
+[To the top of the page ^](#question_bank)
 
+
+## Administration {: #administration}
+
+[Pool administrators (Question_Bank_Administration.de.md#pool_manager)] are also shown the Administration area of the question pool and have access to further specific configurations there.
+
+![question_bank_navigation_administration_v1_de.png](assets/question_bank_navigation_administration_v1_de.png){ class="shadow lightbox" }
+
+
+[See the details >](Question_Bank_Administration.md)<br>
+[To the top of the page ^](#question_bank)
+
+
+
+## Further information {: #further_info}
+
+[More about the creation of questions >](Data_Management.md)<br>
+[Detailed view of a question >](Item_Detailed_View.md)<br>
+[More about the review process >](Question_Bank_Review_Process.md)<br>
+
+[To the top of the page ^](#question_bank)

@@ -39,11 +39,6 @@ Ist der [Beurteilungsprozess](Question_Bank_Review_Process.de.md) aktiviert (Aut
 ![question_bank_navigation_my_question_bank_v1_de.png](assets/question_bank_navigation_my_question_bank_v1_de.png){ class="shadow lightbox" }
 
 
-
-[Mehr über das Erstellen von Fragen >](Data_Management.de.md)<br>
-[Detailansicht einer Frage >](Item_Detailed_View.de.md)<br>
-[Mehr über den Beurteilungsprozess >](Question_Bank_Review_Process.de.md)<br>
-
 [Zum Seitenanfang ^](#question_bank)
 
 
@@ -70,9 +65,6 @@ Der kollaborative Fragenpool in OpenOlat erlaubt Autoren, Testfragen als eigenst
 
 Dieses Kapitel erklärt wie einzelne Testfragen, sogenannte Items, mit dem Fragenpool erstellt, bearbeitet und verwaltet werden können. Jedes Item enthält nicht nur die Frage samt den dazugehörigen Antworten, sondern auch Informationen zu z.B. Autor, Erstelldatum, Schlagworte, aber auch Kennwerte zur Itemanalyse können hinzugefügt werden.
 
-[Mehr über das Erstellen von Fragen >](Data_Management.de.md)<br>
-[Detailansicht einer Frage >](Item_Detailed_View.de.md)<br>
-[Mehr über den Beurteilungsprozess >](Question_Bank_Review_Process.de.md)<br>
 
 [Zum Seitenanfang ^](#question_bank)
 
@@ -87,3 +79,11 @@ Dieses Kapitel erklärt wie einzelne Testfragen, sogenannte Items, mit dem Frage
 [Zu den Details >](Question_Bank_Administration.de.md)<br>
 [Zum Seitenanfang ^](#question_bank)
 
+
+## Weitere Informationen {: #further_info}
+
+[Mehr über das Erstellen von Fragen >](Data_Management.de.md)<br>
+[Detailansicht einer Frage >](Item_Detailed_View.de.md)<br>
+[Mehr über den Beurteilungsprozess >](Question_Bank_Review_Process.de.md)<br>
+
+[Zum Seitenanfang ^](#question_bank)

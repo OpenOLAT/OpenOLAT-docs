@@ -97,9 +97,7 @@ Nachdem Sie mit Hilfe der Schaltfläche "Fragetyp erstellen" einen neuen Fragety
     
     item.type.[Typenname]
 
-Dies ist der sogenannte Übersetzungsschlüssel, mit dem der Typenname in die
-verschiedenen, auf ihrer OpenOlat-Instanz verfügbaren, Sprachen übersetzt
-wird.
+Dies ist der sogenannte Übersetzungsschlüssel, mit dem der Typenname in die verschiedenen, auf ihrer OpenOlat-Instanz verfügbaren, Sprachen übersetzt wird.
 
 ![](assets/qb_qtypes.gif)
 

@@ -33,11 +33,11 @@ During creation, a title is specified, followed by the question type and finally
     This function is currently being tested. Please note that errors may occur when this function is used.
 
 
-With [activated AI module](../../manual_admin/administration/External_Tools_-_Administration.md#ki_modul), questions can also be created in the question pool with the help of artificial intelligence. 
+With [activated AI module](../../manual_admin/administration/External_Tools_-_Administration.md), questions can also be created in the question pool with the help of artificial intelligence. 
 
 ![question_bank_create_question_KI_v1_de.png](assets/question_bank_create_question_KI_v1_de.png){ class="shadow lightbox" }
 
-This function can be used to create suggestions for multiple choice questions using AI. You insert text content (max. 6000 characters) directly into the "Source text" field in OpenOlat as source material, which is passed to the AI, which then generates questions from it. 
+This function can be used to create suggestions for multiple choice questions using AI. You insert text content (max. 6000 characters) directly into the "Source text" field in OpenOlat as source material, which is passed to the AI, which then generates questions from it.
 
 Only German and English texts are currently supported. 
 
@@ -60,13 +60,13 @@ Once the first version of a question has been created, it can be submitted to a 
 
 Several pools may have been created by the pool administrator. As the author of a question, you can decide in which pool your question is released.
 
-[Details zur Freigabe >](Question_Pool_Sharing_Options.de.md)<br>
+[Details zur Freigabe >](Question_Pool_Sharing_Options.md)<br>
 [To the top of the page ^](#create_questions)
 
 
 ## Share question in group {: #share_with_group}
 
-If you are developing questions together, for example, you can create a workgroup in advance. If a newly created question should initially only be visible to the group members, you can also release the question for this group only in the toolbar under "Release".
+If you are developing questions together, for example, you can create a workgroup in advance. If a newly created question should initially only be visible to the group members, you can also release the question for this group only in the toolbar under "Share".
 
 [Details about Sharing >](Question_Pool_Sharing_Options.md)<br>
 [To the top of the page ^](#create_questions)

@@ -96,7 +96,7 @@ Weitere Informationen zum Konvertieren finden Sie unter "[Von QTI 1.2 zu QTI 2.1
 
 Mit diesem Button fügen Sie weitere Co-Autor:innen hinzu und erteilen ihnen damit Zugriffsrechte zu den selektierten Fragen.
 
-In der Detailansicht der Fragen werden die weiteren Autor:innen in den [Metadaten im Abschnitt "Rechte"](Item_Detailed_View.de.md##metadata_rights) angezeigt und können dort auch wieder entfernt werden.
+In der Detailansicht der Fragen werden die weiteren Autor:innen in den [Metadaten im Abschnitt "Rechte"](Item_Detailed_View.de.md#metadata_rights) angezeigt und können dort auch wieder entfernt werden.
 
 [Zum Seitenanfang ^](#using_the_questions)
 
@@ -124,7 +124,7 @@ Klicken Sie auf das "+"-Icon zu Beginn einer Zeile der Fragenliste. Es öffnet s
 
 ![question_bank_use_questions_metadata2_v1_de.png](assets/question_bank_use_questions_metadata2_v1_de.png){ class="shadow lightbox" }
 
-Weitere Informationen zu den einzelnen Metadaten finden Sie im Kapitel [Detailansicht einer Frage" - Metadaten](Item_Detailed_View.de.md#metadata).
+Weitere Informationen zu den einzelnen Metadaten finden Sie im Kapitel [Detailansicht einer Frage - Metadaten](Item_Detailed_View.de.md#metadata).
 
 [Zum Seitenanfang ^](#using_the_questions)
 

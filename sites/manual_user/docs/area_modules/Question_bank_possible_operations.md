@@ -1,4 +1,6 @@
-# Question bank possible operations
+# Question bank: Use questions {: #using_the_questions}
+
+If you select several questions in the list, you can continue to use the selected questions using the buttons at the bottom.
 
 ![Operations in the question bank](assets/question_bank_operations.png.jpg)
 
@@ -6,15 +8,24 @@
 
 Lists allow for you to compile question items taylored to your needs. To do this, select the corresponding questions under "My questions" or a pool and then click the "Lists" button below the table. Create a new list or add the question to an existing list.  
 
-A list is only visible to you. An item added to a list is only referenced and not copied. Modification to items in lists are therefore made to the original under "My questions". You can find all your lists in the left menu under "My favourites".
+![question_bank_use_questions_list1_v1_de.png](assets/question_bank_use_questions_list1_v1_de.png){ class="shadow lightbox" }
+
+A list is only visible to you. An item added to a list is only referenced and not copied. Modification to items in lists are therefore made to the original under "My questions". You can find all your lists in the left menu under "My favorites".
+
+![question_bank_use_questions_list2_v1_de.png](assets/question_bank_use_questions_list2_v1_de.png){ class="shadow lightbox" }
 
 If a list is already open, this button allows you to rename or delete the respective list. Items are not saved separately on lists. If you remove items from lists, these items are not deleted from the database.
 
-## Create test
+[To the top of the page ^](#using_the_questions)
 
-This option directly creates a new test from all chosen questions. The title of this new learning resource must be entered. Then the test is available under "Authoring - My entries".
 
-## Export
+## Create test {: #learning_resource_test}
+
+With this option, a new [Learning resource Test](../learningresources/Test.md) is created directly from the selected questions. The title of the learning resource can then be entered immediately. This test can then be found in the author area under "My entries".
+
+[To the top of the page ^](#using_the_questions)
+
+## Export {: #export}
 
 You can export marked questions to different formats. The following options are available:
 
@@ -22,25 +33,53 @@ You can export marked questions to different formats. The following options are 
 * QTI test file for exchange with other compatible LMSs
 * ZIP file for exchange with other OpenOlat systems or archiving
 
+[To the top of the page ^](#using_the_questions)
+
+
+
 ## Share {: #share}
 
-Shares items with pools and groups a user has access to.
+Pre-selected items can be added to groups or pools with this function, to which other users have access.
 
-Members of such a group have now access to the shared items. If one or more items were shared with one or more groups, the respective group names will be listed in the left menu under "Public shares".
+![question_bank_use_questions_share1_v1_de.png](assets/question_bank_use_questions_share1_v1_de.png){ class="shadow lightbox" }
 
-Unlike groups, all users with question bank access (authors) have access to public pools. When releasing the question, you can also define whether or not the question may be edited at the new location.
+**share in group**
 
-Note that even when sharing through a pool or a group, the respective persons must first have the right to access the question bank. For example, normal users do not normally have the right to access the question bank.  
+Group members of the groups you have selected will then have access to the corresponding questions. You can decide whether the group members can also edit your questions. 
 
-The [pool administrator](Question_Bank_Administration.md) (a specific OpenOlat role) can create an unlimited number of pools. These can be either public, and thus visible to all users, or private. The number of pools displayed can therefore vary from user to user. Contact your pool administrator if there is no public pool.
+If one or more questions have been released for one or more groups, the group names will appear in the question pool menu under "Releases".
 
-Items that are not allowed to be edited in the group or pool can be edited once they have been copied to "My Questions".
+![question_bank_use_questions_share_in_group_v1_de.png](assets/question_bank_use_questions_share_in_group_v1_de.png){ class="shadow lightbox" }
 
-## Copy
+**share in pool**
 
-Copy items from pools to create your own copy in "My Questions" in your question database. Copied questions initially have the suffix "(Copy)". In addition to "My questions", the copy of the questions that is created in lists or shares can also be saved under the respective list or share.
+When released into a pool, all users who also have access to this question pool have access to the released questions. 
 
-## Convert
+!!! tip "Note"
+
+    Please note that even when sharing to a pool or for a group, the respective persons must first have the right to access the question pool. For example, normal users do not have access rights to the question pools by default.
+
+[Pool administrators](Question_Bank_Administration.md) (a specific OpenOlat role) can create an unlimited number of pools. These can either be public, and therefore visible to all authorized users, or private. The number of pools displayed may therefore vary from user to user. Contact your pool administrator if you do not have access to a pool.
+
+When releasing, you can define whether the question may be edited in the new location or not.
+
+!!! tip "Note"
+
+    Items that may not be edited in the group or pool can be edited as soon as they have been copied to "My questions".
+
+[To the top of the page ^](#using_the_questions)
+
+
+## Copy {: #copy}
+
+Copy items from pools to create a copy in your question database under "My questions". Copied questions have the addition "(Copy)".
+
+The copy of questions created in lists or shares can also be saved under the respective list or share in addition to "My questions".
+
+[To the top of the page ^](#using_the_questions)
+
+
+## Convert {: #convert}
 
 Questions can be converted from the QTI Standard 1.2 to the QTI Standard 2.1. Therefore you chose the desired questions in the list. Afterward click on "Convert". After confirming the dialogue, the converted questions are now available in the standard 1.2 as well as in the standard 2.1.
 
@@ -48,20 +87,53 @@ The questions that are converted within lists or shares are also stored under th
 
 For more information on converting, see [changing from QTI 1.2 to QTI 2.1](../learningresources/Changing_from_QTI_1.2_to_QTI_2.1.md).
 
+[To the top of the page ^](#using_the_questions)
+
+
 ## Author rights {: #rights}
 
-Use this function to add more authors and thus their access rights to one or more items.
+Use this button to add further co-authors and grant them access rights to the selected questions.
 
-## Remove & Delete
+In the detailed view of the questions, the other authors are displayed in the [metadata in the "Rights" section](Item_Detailed_View.md) and can also be removed there.
+
+[To the top of the page ^](#using_the_questions)
+
+
+## Remove & Delete {: #delete}
 
 Item shares can be removed from lists, pools, and groups without deleting the original question in the question database. Using the "Remove" button only removes the reference to an item, but does not delete the item itself. An item is always only removed from the table you have currently open. By removing an item from a list, a group or a pool, no other shares than the one in question are affected.
 
 In order to irrevocably remove an item from all lists, groups and pools, you have to delete the item in your question database under "My questions". There it is permanently deleted and can no longer be restored.
 
+[To the top of the page ^](#using_the_questions)
+
+
 ## Change metadata {: #metadata}
 
-Metadata about items can be either adapted in an items detail view or with this function. The "Change metadata" function allows you to adjust single information statements simultaneously for multiple items, without entering the detailed view. Changes cannot be canceled. For further adjustments, each question must be called up individually. More information on the individual metadata fields can be found in the chapter "Item Detailed View" - [Meta Data](Item_Detailed_View.md#ItemDetailedView-item_details_metadaten).
+Meta information on questions can be customized here or in the [Detailed View](Item_Detailed_View.md) of an item. 
 
-To get a preview of an item and an overview of the most important metadata, click on the eye.
+The "Change metadata" button can be used to adjust individual pieces of information for several items at the same time without opening the detailed view of the questions. However, changes made in this way can no longer be undone. 
 
-To edit a question, click on Detailed view.
+![question_bank_use_questions_metadata1_v1_de.png](assets/question_bank_use_questions_metadata1_v1_de.png){ class="shadow lightbox" }
+
+For further adjustments, each question must be called up individually. 
+
+Click on the "+" icon at the beginning of a line in the question list. The preview of this item and the menu for the metadata of this question will open.
+
+![question_bank_use_questions_metadata2_v1_de.png](assets/question_bank_use_questions_metadata2_v1_de.png){ class="shadow lightbox" }
+
+Further information on the individual metadata can be found in the chapter [Detailed view of a question - Metadata](Item_Detailed_View.md#edit-metadata--metadata_edit).
+
+[To the top of the page ^](#using_the_questions)
+
+
+## Further information {: #further_info}
+
+[Create questions >](Question_Bank_Create_Questions.md)<br>
+[Import questions >](Question_Bank_Import_Questions.md)<br>
+[Item detailed view >](Item_Detailed_View.md)<br>
+[Details about the review process >](Question_Bank_Review_Process.md)<br>
+[Details about sharing options >](Question_Pool_Sharing_Options.md)<br>
+[Test creation procedure >](../../manual_how-to/test_creation_procedure/test_creation_procedure.md)<br>
+
+[To the top of the page ^](#using_the_questions)

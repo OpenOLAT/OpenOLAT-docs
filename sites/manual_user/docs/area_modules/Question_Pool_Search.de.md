@@ -33,8 +33,7 @@ Mit Hilfe von " " kann nach Phrasen, also einer Gruppe von Wörtern, gesucht wer
 
 *"Hallo Du"* => Findet alle Items die genau diese Phrase enthalten. 
   
-Mit Hilfe von " - " und " + " können mehrere Begriffe kombiniert werden. Die
-Zeichen werden ohne Leerschlag vor die entsprechenden Begriffe gesetzt.
+Mit Hilfe von " - " und " + " können mehrere Begriffe kombiniert werden. Die Zeichen werden ohne Leerschlag vor die entsprechenden Begriffe gesetzt.
 
 *+Hallo +Du* => Findet alle Items die beide Begriffe enthalten (UND-Verknüpfung).
 

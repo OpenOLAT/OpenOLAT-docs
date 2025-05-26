@@ -21,7 +21,6 @@ Folgende Prozessschritte sind also im Beurteilungsprozess des Fragenpools abgebi
   3. Die Fragen werden beurteilt. Die eigenen Fragen können nicht beurteilt werden, sondern nur die Fragen der anderen Benutzer, welche derselben Fachgruppe angehören.
   4. a) Die Beurteilung ist ungenügend. Das heisst, die Untergrenze der Bewertung mit den Sternen wird nicht erreicht. Die Frage geht zurück an den Ersteller in den Status Revision. Hier kann die Frage überarbeitet und erneut in die Beurteilung gegeben werden.  
 b) Die Beurteilung durch die Sterne ist genügend. Die definierte Anzahl Personen hat eine genügende Bewertung abgegeben. Die Frage wechselt in den Status "Final".
-
   5. Die Fragen aus dem Bereich "Final" können in den Test eingebunden werden.
 
 In der folgenden Abbildung sind auf der linken Seite die verschiedenen Bereiche aus dem Prozess abgebildet.
