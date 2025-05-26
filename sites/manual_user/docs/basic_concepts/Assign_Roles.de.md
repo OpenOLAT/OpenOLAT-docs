@@ -9,9 +9,9 @@ Dem entsprechend wird die Zuweisung typischerweise durch Benutzerverwalter:innen
 
 :octicons-device-camera-video-24: **Video-Einführung**: [Benutzerverwaltung](<https://www.youtube.com/embed/V1RuH0q08J8>){:target="_blank”}
 
-Als Standard-Rolle ist "Benutzer:in" eingetragen. Je nach Aufgabenbereich sind weitere Rollen - und damit weitere Rechte - zu aktivieren.
+Je nach Aufgabenbereich sind Rollen - und damit weitere Rechte - hinzuzufügen.
 
-![roles_rights_user_management_v1_de.png](assets/roles_rights_user_management_v1_de.png){ class=" shadow lightbox" }
+![roles_rights_user_management_v2_de.png](assets/roles_rights_user_management_v2_de.png){ class=" shadow lightbox" }
 
 [zum Seitenanfang ^](#role_assignment)
 
@@ -67,58 +67,11 @@ Da Gruppenverwalter:innen gruppenübergreifend Aufgaben wahrnehmen, ist dies ein
 
 ---
 
-## Rollenzuweisung für Curricula {: #role_assignment_curriculum} 
+## Rollenzuweisung für Course Planner {: #role_assignment_course_planner} 
 
-In einem Curriculum und Curriculumelement können folgende Rollen zugewiesen werden:
+Wer die Rolle eines/einer Kursplaner:in besitzt, hat automatisch Zugriff auf alle Kurse, die mit dem jeweiligen Curriculum/Produkt verbunden sind. 
 
-* Curriculumbesitzer:in
-* Elementbesitzer:in
-* Klassenlehrer:in (Master Coach)
-* (Curriculum-)Kursbesitzer:in
-* (Curriculum-)Betreuer:in
-* (Curriculum-)Teilnehmer:in
-
-Nach dem Eintragen der Rolle hat die Person automatisch Zugriff auf **alle** Kurse, die mit dem jeweiligen Curriculum oder Curriculumelement verbunden sind. Jeweils entsprechend den Rechten, die mit ihrer Rolle im Curriculum verbunden sind.
-
-Einem Curriculum als Ganzes können keine Mitglieder zugewiesen werden, nur den Curriculumelementen.
-
-**Rollenzuweisung beim Hinzufügen neuer Curriculum-Mitglieder**<br> 
-Jedem Curriculumelement können durch Curriculumverwalter:innen, Curriculumbesitzer:innen oder Curriculumelementbesitzer:innen direkt Benutzer:innen als neue Curriculumsmitglieder zugewiesen werden. Während des Eintrags der neuen Mitgliedschaft können gleich Rollen zugewiesen werden.
-
-![roles_rights_curriculum_member_new1_v1_de.png](assets/roles_rights_curriculum_member_new1_v1_de.png){ class=" shadow lightbox" }
-
-![roles_rights_curriculum_member_new2_v1_de.png](assets/roles_rights_curriculum_member_new2_v1_de.png){ class=" shadow lightbox" }
-
-
-<br>
-
-**Rollenzuweisung bei bestehenden Mitgliedschaften ändern**<br> 
-
-Die Bearbeitungsmöglichkeit für die Rollen
-
-* Curriculumelementbesitzer:in
-* Klassenlehrer:in
-* (Curriculum-)Kursbesitzer:in
-* (Curriculum-)Kursbetreuer:in
-* (Curriculum-)Kursteilnehmer:in
-
-finden Sie jeweils beim Curriculumelement: **Curriculumelement öffnen > 3-Punkt-Menü > Mitgliederverwaltung**
-
-![roles_rights_curriculum_member_modify_v1_de.png](assets/roles_rights_curriculum_member_modify_v1_de.png){ class=" shadow lightbox" }
-
-
-**Zuweisung der Rolle Curriculumbesitzer:in**<br>
-Die Rolle des/der Curriculumbesitzer:in wird zugewiesen durch Curriculumverwalter:innen unter<br>
-**Curriculumverwaltung > Curriculum Browser > Tab Benutzerverwaltung > Button "Mitglied hinzufügen"**
-
-![roles_rights_curriculum_add_curriculumowner_v1_de.png](assets/roles_rights_curriculum_add_curriculumowner_v1_de.png){ class=" shadow lightbox" }
-
-
-
-**Zuweisung der Rolle Curriculumverwalter:in**<br>
-Diese Rolle ist eine curriculumsübergreifende, organisationsweit geltende Rolle.
-Curriculumverwalter:innen müssen deshalb in der Benutzerverwaltung hinzugefügt werden.
-Siehe [Curriculum bearbeiten und Curriculumverwalter hinzufügen](../area_modules/Curriculum_Management.de.md#curriculum-bearbeiten-und-curriculumverwalter-hinzufugen).<br> 
+Einem Curriculum/Produkt können keine Mitglieder zugewiesen werden, nur den Durchführungen. Kursplaner:innen können die Teilnehmer:innen für alle Durchführungen zuweisen.
 
 
 [zum Seitenanfang ^](#role_assignment)
@@ -134,7 +87,7 @@ Die Rollen, die Benutzer:innen in unterschiedlichen Organisationseinheiten erhal
 
 Eine Person kann in mehreren Organisationseinheiten Mitglied sein und in jeder Organisationseinheit andere Rollen innehaben. Z.B. wenn die Person nur in der eigenen Organisationseinheit Autorenrechte haben soll. 
 
-![roles_rights_orgunit_v1_de.png](assets/roles_rights_orgunit_v1_de.png){ class=" shadow lightbox" }
+![roles_rights_orgunit_v2_de.png](assets/roles_rights_orgunit_v2_de.png){ class=" shadow lightbox" }
 
 
 [zum Seitenanfang ^](#role_assignment)
@@ -175,22 +128,21 @@ Es kann nur die von Administrator:innen eingerichtete und definierte Systematik 
 
 :octicons-device-camera-video-24: **Video-Einführung**: [Benutzerverwaltung](<https://www.youtube.com/embed/V1RuH0q08J8>){:target="_blank”}
 
-[Organisationsrollen](roles.de.md#org)<br> 
+[Organisationsrollen >](roles.de.md#org)<br> 
 
-[Kursrollen](roles.de.md#course)<br> 
+[Kursrollen >](roles.de.md#course)<br> 
 
-[Gruppenrollen](roles.de.md#groups)<br> 
-[Erstellen einer neuen Gruppe](../groups/index.de.md)<br> 
-[Gruppen verwalten](../area_modules/Group_Management.de.md)<br>
+[Gruppenrollen >](roles.de.md#groups)<br> 
+[Erstellen einer neuen Gruppe >](../groups/index.de.md)<br> 
+[Gruppen verwalten >](../area_modules/Group_Management.de.md)<br>
 
-[Curriculumrollen](roles.de.md#curriculum)<br> 
-[Curriculumverwaltung](../area_modules/Curriculum_Management.de.md)<br> 
+[Course Planner >](../area_modules/Course_Planner.de.md)<br> 
 
-[Rollen in einer Organisationseinheit](roles.de.md#orgunit)<br> 
+[Rollen in einer Organisationseinheit >](roles.de.md#orgunit)<br> 
 
-[Selbst definierte Rollen und Beziehungen](roles.de.md#relations)<br> 
+[Selbst definierte Rollen und Beziehungen >](roles.de.md#relations)<br> 
 
-[Rolle "Einladung"](roles.de.md#invitee)<br> 
+[Rolle "Einladung" >](roles.de.md#invitee)<br> 
 
 <br>
 
