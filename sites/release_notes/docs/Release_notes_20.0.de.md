@@ -49,7 +49,7 @@ Zur Unterstützung der Kursplaner:innen werden die wichtigsten Daten auf der Üb
 
 * **Widget "Mitglieder"**: Anzahl aktiver und ausstehender Teilnehmende, verbleibendes Platzkontingent sowie Anzeige der Personen mit anderen Rollen
 * **Widget "Termine"**: Auflistung der aktuellen und bevorstehenden Termine
-* **Widget "Kursinhalt"**: Anzeige des verknüpten Kurses und Kurs-Templates
+* **Widget "Kursinhalt"**: Anzeige des verknüpften Kurses und Kurs-Templates
 * **Widget "Katalog"**: Hinterlegte Angebotstypen sowie Verfügbarkeit der Durchführung im internen und externen Katalog
 
 ![Übersicht zu einer konkreten Durchführung](assets/200/CPL_implementation_preview_DE.png){ class="shadow lightbox" title="Übersicht zu einer konkreten Durchführung" }
@@ -70,7 +70,7 @@ Mit dem Course Planner findet die Verwaltung von Mitgliedern wie Teilnehmenden u
 
 Bestätigung ausstehender Mitgliedschaften, Stornierung von Buchungen, Entfernen von Teilnehmenden oder die Kursbuchung für eine andere Personen - alles ist abgedeckt. Bei manuellen Anpassungen von Mitgliedschaften können die Gründe als **Kommentar** erfasst werden. Über die Mitglieder- und Buchungshistorie sind alle Änderungen transparant und nachvollziehbar.
 
-Für jede Buchung, Buchnungs- oder Mitgliedschaftsanpassung kann eine entsprechende E-Mail-Benachrichtigungen ausgelöst werden, um die Teilnehmenden über die Änderung zu informieren.
+Für jede Buchung, Buchungs- oder Mitgliedschaftsanpassung kann eine entsprechende E-Mail-Benachrichtigungen ausgelöst werden, um die Teilnehmenden über die Änderung zu informieren.
 
 ![Mitglieder-Historie einer Durchführung](assets/200/CPL_impl_member_history_DE.png){ class="shadow lightbox" title="Mitglieder-Historie einer Durchführung" }
 
@@ -95,7 +95,7 @@ Für jedes Produkt/jede Durchführung steht ein Bereich "Reports" zur Verfügung
 
 ### Neue Bezeichnungen
 
-Mit Release 20.0.0 wurden folgende Bezeichnungen angepasst:
+Mit Release 20.0 wurden folgende Bezeichnungen angepasst:
 
 Bisher | Neu
 ---------|----------
@@ -110,7 +110,7 @@ Lektionenblockverwalter:in | Absenzverwalter:in
 
 ## Öffentlicher Katalog
 
-Zusätzlich zum internen Katalog in OpenOlat können Kurse und ganze Durchführungen auch im öffentlichen ("externen") Katalog publiziert werden. Damit haben Personen ohne OpenOlat-Login ebenfalls die Möglichkeit, das ausgeschriebene Kursangebot zu entdecken und gewünschte Kurse nach einer Registrierung zu buchen.
+Zusätzlich zum internen Katalog in OpenOlat können Kurse und ganze Durchführungen auch im öffentlichen (externen) Katalog publiziert werden. Damit haben Personen ohne OpenOlat-Login ebenfalls die Möglichkeit, das ausgeschriebene Kursangebot zu entdecken und gewünschte Kurse nach einer Registrierung zu buchen.
 
 Über den neuen Katalog-Launcher für "Ausgewählte Durchführungen" lassen sich die Durchführungen gezielt und mühelos für die Katalog-Startseite zusammenstellen.
 
@@ -148,13 +148,13 @@ Die **Validierung der E-Mail-Adresse per Code** gewährt einen sicheren Prozess 
 
 Wer Organisationseinheiten in OpenOlat verwendet, kann zudem ein **Mapping der E-Mail-Adressen-Domäne** auf die entsprechenden Organisationen einrichten. Wenn sich neue Benutzer selbst registrieren, werden diese nach der E-Mail-Validierung automatisch zu den entsprechenden Organisationen oder Unterorganisationen zugewiesen - das erspart den administrativen Verantwortlichen eine manuelle Zuordnung.
 
-![Zuordnung zur Organisation via E-Mail-Ad­res­sen-Domäne](assets/200/Org_mapping_mail_domain_DE.png){ class="shadow lightbox" title="Zuordnung zur Organisation via E-Mail-Ad­res­sen-Domäne" }
+![Zuordnung zur Organisation via E-Mail-Domäne](assets/200/Org_mapping_mail_domain_DE.png){ class="shadow lightbox" title="Zuordnung zur Organisation via E-Mail-Domäne" }
 
 * * *
 
 ## Neue Rolle "Ausbildungsverantwortliche:r" / "Education Manager"
 
-Ähnlich der vorhandenen Rolle "Linienverantwortliche:r" ist eine neue Organisationsrolle "Ausbildungsverantwortliche:r" verfügbar. Personen mit dieser Rolle kümmern sich um die Teilnehmenden im Rahmen ihrer Ausbildung und nehmen beispielsweise Kursbuchungen für sie vor, bestätigen reservierte Buchungen und behalten Lernstände, Termine und Absenzen der Teilnehmenden im Blick. Je nach konfigurierten Berechtigungen ist ihnen auch das Anlegen oder Deaktivieren von Benutzer:innen möglich.
+Ähnlich der vorhandenen Rolle "Linienverantwortliche:r" ist eine neue Organisationsrolle "Ausbildungsverantwortliche:r" verfügbar. Personen mit dieser Rolle betreuen die Teilnehmenden im Rahmen ihrer Ausbildung und nehmen beispielsweise Kursbuchungen in deren Namen vor, bestätigen reservierte Buchungen und behalten Lernstände, Termine und Absenzen der Teilnehmenden im Blick. Je nach konfigurierten Berechtigungen ist ihnen auch das Anlegen oder Deaktivieren von Benutzer:innen möglich.
 
 * * *
 
@@ -202,7 +202,7 @@ Wird der Course Planner umfassend eingesetzt, bietet es sich an, den Standard-Ve
 
 Kurse, die über den Course Planner verwaltet werden, sind mit dem Verwendungszweck "Einbindung in Produkt" explizit als solche gekennzeichnet.
 
-#### Kurs-Templates
+#### Kurs-Template
 
 Für wiederkehrende oder ähnlich strukturierte Kursformate können im Course Planner sogenannte Kurs-Templates hinterlegt und für mehrere Durchführungen genutzt werden.
 
@@ -299,7 +299,7 @@ Die Hierarchie der Organisationsebenen sowie die Vererbung von Rollen auf Untero
 
     Folgende Funktionen müssen nach einem Update auf Release 20.0 in der `Administration` aktiviert bzw. konfiguriert werden:
 
-    * [x] Passwortregeln für Passwort zurücksetzen: `Login > Passwort > Richtlinie zur Passwortänderung`
+    * [x] Regeln für "Passwort zurücksetzen": `Login > Passwort > Richtlinie zur Passwortänderung`
     * [x] Domain-Mapping via E-Mail-Adresse: `Module > Organisationen > Tab "Konfiguration" > E-Mail-Domänen-Zuordnungen`
     * [x] Organisationsspezifischer Ordner für rechtliche Dokumente: `Module > Organisationen > Tab "Konfiguration" > Rechtliche Dokumente`
     * [x] Globale Rollen in Standardorganisation verschieben: `Module > Organisationen > Tab "Konfiguration" > Status`
