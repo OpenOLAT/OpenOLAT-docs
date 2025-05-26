@@ -8,6 +8,8 @@
 
 ## Cockpit {: #cockpit}
 
+![absence_mgmt_cockpit1_v1_de.png](assets/absence_mgmt_cockpit1_v1_de.png){ class=" shadow lightbox" }
+
 [Zum Seitenanfang ^](#absence_management)
 
 
