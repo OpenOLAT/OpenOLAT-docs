@@ -121,10 +121,9 @@ Here you find a tool for collaborative project work with deadlines, to-dos, deci
 
 ![11_green_24.png](assets/11_green_24.png){ class=" aside-left-lg" }
 
-As of :octicons-tag-24: Release 20, an extended, general course planning function has been integrated into OpenOlat instead of curriculum management. Up to Release 19, curricula can optionally be managed in a separate module.
+As of :octicons-tag-24: Release 20, an extended, general course planning function has been integrated into OpenOlat.
 
 [To the details of the Course Planner (from Release 20) >](Course_Planner.md)<br>
-[To the details of curriculum management (up to release 19) >](Curriculum_Management.md)<br>
 [To the top of the page ^](#sites)
 
 
