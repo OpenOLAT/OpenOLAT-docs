@@ -78,7 +78,7 @@ Members of different roles can be assigned to each level of the organization.
 
 Courses directly assigned to the organizational element are displayed in the "Learning resources" tab. These can also be removed here. Via "Add courses", you can search for additional own and available courses in a dialog in order to assign them to the organizational element.
 
-The **assignment of curricula** is done in the curriculum management at the respective curriculum.
+The **assignment of curricula** is done in the Course Planner at the respective implementation.
 
 
 ### Line manager  {: #edit_linemanager}

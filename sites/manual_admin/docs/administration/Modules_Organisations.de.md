@@ -78,7 +78,7 @@ Die **Rollen-Zuordnung** ist möglich
 
 Im Tab "Lernressourcen" werden dem Organisationselement direkt zugeordnete Kurse angezeigt. Diese können hier auch wieder entfernt werden. Über "Kurse hinzufügen" kann in einem Dialog nach weiteren eigenen und verfügbaren Kursen gesucht werden, um diese dem Organisationselement zuzuordnen.
 
-Die **Zuordnung von Curricula** erfolgt in der Curriculumverwaltung am jeweiligen Curriculum.
+Die **Zuordnung von Bildungsprogrammen** erfolgt im Course Planner in der jeweiligen Durchführung.
 
 
 ### Linienvorgesetzte {: #edit_linemanager}
