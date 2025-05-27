@@ -2,6 +2,7 @@ site_name: release_notes
 
 nav:
   - index.md
+  - 20.0: "Release_notes_20.0.md"
   - 19.1: "Release_notes_19.1.md"
   - 19.0: "Release_notes_19.0.md"
   - 18.2: "Release_notes_18.2.md"
