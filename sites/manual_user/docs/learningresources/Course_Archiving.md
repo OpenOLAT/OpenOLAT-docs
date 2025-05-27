@@ -33,7 +33,7 @@ In the top button line of the author area, you will find an icon with 3 dots on 
 
 !!! info "Note"
 
-    Im Kursarchiv werden alle von Ihnen erstellten Archive aufgelistet. <br>Administrator:innen und Lernressourcenmanager:innen sehen unter Kursarchive auch nur die von Ihnen selbst erstellten Archive oder Kurse, in denen sie Besitzer sind. In the Course archive **management** tab, on the other hand, the archives of all authors are listed for administrators.
+    All the archives you have created are listed in the course archive. <br>Administrators and learning resource managers only see the archives or courses they have created themselves and own under Course archives. <br>In the Course archive **management** tab, on the other hand, the archives of all authors are listed for the system administrator.
 
 ![course_archiving_all_v1_de.png](assets/course_archiving_all_v1_de.png){ class="shadow lightbox" }
 
@@ -90,19 +90,20 @@ All course archives are listed in the **Course archive management** tab.
 
 ![course_archiving_management_v1_de.png](assets/course_archiving_management_v1_de.png){ class="shadow lightbox" }
 
+
 ## What is archived from the individual elements?
-
-### Questionnaire
-
-Storage of old questionnaires. Generally no longer relevant.
 
 ### Surveys
 
-All surveys of the course are displayed according to their integration in the course structure. The desired surveys to be archived can be selected and saved as a zip file.
+All [surveys](../learningresources/Course_Element_Survey.md) of the course are displayed according to their integration in the course structure. The desired surveys to be archived can be selected and saved as a zip file.
+
+### Questionnaire
+
+Storage of *old* OpenOlat questionnaires. Generally no longer relevant, as the questionnaires have been replaced by forms in the course element "Survey". 
 
 ### Tests
 
-All tests and self-tests of the course are displayed. The desired elements to be archived can be selected and saved as a zip file. The individual selected tests are then stored in a separate folder in the zip file.
+All [tests](../learningresources/Course_Element_Test.md) and [self-tests](../learningresources/Course_Element_Self_Test.md) of the course are displayed. The desired elements to be archived can be selected and saved as a zip file. The individual selected tests are then stored in a separate folder in the zip file.
 
 Archived self-tests contain anonymized user data, tests are saved on a personalized basis and contain all test results.
 
@@ -115,23 +116,23 @@ Archived self-tests contain anonymized user data, tests are saved on a personali
 
 ### Course results
 
-The *final results* of all assessment modules integrated in the course, such as tests, assessments, portfolio tasks, checklists, assignments, etc., are archived here as a zip file for all course participants. The zip file can be downloaded and saved directly, but can also be found in the course owner's private folder in OpenOlat.
+The *final results* of all assessment modules integrated in the course, such as [tests](../learningresources/Course_Element_Test.md), [assessments](../learningresources/Course_Element_Assessment.md), [portfolio tasks](../learningresources/Course_Element_Portfolio_Task.md), [checklists](../learningresources/Course_Element_Checklist.md), [tasks](../learningresources/Course_Element_Task.md), etc., are archived here as a zip file for all course participants. The zip file can be downloaded and saved directly, but can also be found in the course owner's private folder in OpenOlat.
 
 The zip file contains an xlsx file with information on the course participants and any documents submitted by the participants. These documents are bundled per course element and contain subfolders with the names of the participants who have submitted documents.
 
-Course results contain the summarized overall evaluation of a course, _not_ individual elements.
+Course results contain the summarized overall assessment of a course, _not_ individual elements.
 
 
 ### Task and group tasks
 
-All tasks and group tasks of the course are displayed. The desired tasks or group tasks to be archived can be selected and saved as a zip file.
+All [tasks](../learningresources/Course_Element_Task.md) and [group tasks](../learningresources/Course_Element_Grouptask.md) of the course are displayed. The desired tasks or group tasks to be archived can be selected and saved as a zip file.
 
 The zip file then contains the individual selected tasks/group tasks, each in a separate folder. This folder then contains the results of the individual learners as well as the overall overview as an Excel file.
 
 
-### Assignment of topics
+### Topic assignment
 
-All topics assigned to the course are displayed. The desired elements to be archived can be selected and saved as a zip file. The individual selected elements are then stored in a separate folder in the zip file.
+All [topics assigned](../learningresources/Course_Element_Topic_Assignment.md) to the course are displayed. The desired elements to be archived can be selected and saved as a zip file. The individual selected elements are then stored in a separate folder in the zip file.
 
 
 ### Log files
@@ -140,39 +141,39 @@ The personalized log files of course owners and the anonymized log files of cour
 
 ### Forums
 
-All forums of the course are displayed. The desired forums to be archived can be selected and saved as a zip file. In the zip file, the individual selected forums are then each in a separate folder with a DOCX file containing all the forum posts.
+All [forums](../learningresources/Course_Element_Forum.md) of the course are displayed. The desired forums to be archived can be selected and saved as a zip file. In the zip file, the individual selected forums are then each in a separate folder with a DOCX file containing all the forum posts.
 
-As of :octicons-tag-24: Release 18.0 : In addition to archiving, a report in xlsx format can also be generated for the desired forums. Each posting is noted in the report as a line entry and contains information on the creation date, last change, number of words, number of characters, etc.
+As of :octicons-tag-24: Release 18.0: In addition to archiving, a report in xlsx format can also be generated for the desired forums. Each posting is noted in the report as a line entry and contains information on the creation date, last change, number of words, number of characters, etc.
 
 ### File discussion
 
-All file discussions of the course are displayed. The desired elements to be archived can be selected and saved as a zip file.
+All [file discussions](../learningresources/Course_Element_File_Dialog.md) of the course are displayed. The desired elements to be archived can be selected and saved as a zip file.
 
 ### Participant folder
 
-All "Participants folder" course elements are displayed. The desired elements to be archived can be selected and saved as a zip file. The zip file then contains the individual elements, each with a folder for each participant with a submission and return folder.
+All ["Participants folder"](../learningresources/Course_Element_Participant_Folder.md) course elements are displayed. The desired elements to be archived can be selected and saved as a zip file. The zip file then contains the individual elements, each with a folder for each participant with a submission and return folder.
 
 ### Wikis
 
-All wikis in the course are listed. The desired wikis to be archived can be selected and saved as a zip file. The zip file then contains one folder for each wiki and a folder with metadata for each saved wiki.
+All [wikis](../learningresources//Course_Element_Wiki.md) in the course are listed. The desired wikis to be archived can be selected and saved as a zip file. The zip file then contains one folder for each wiki and a folder with metadata for each saved wiki.
 
 In the wiki, all pages and all uploaded files are packed into a ZIP file. The participant folder is saved according to the folder structure of this module.
 
 ### SCORM results
 
-All SCORM course elements of the course are listed. The desired wikis to be archived can be selected and the results saved as a zip file.
+All [SCORM](../learningresources/Course_Element_SCORM_Learning_Content.md) course elements of the course are listed. The desired wikis to be archived can be selected and the results saved as a zip file.
 
 ### Checklists
 
-All checklists for the course are listed. The desired checklists to be archived can be selected and saved as a zip file. The zip file contains a folder for each checklist. Inside is an xlsx file containing the results of the people who completed the checklists.
+All [checklists](../learningresources/Course_Element_Checklist.md) for the course are listed. The desired checklists to be archived can be selected and saved as a zip file. The zip file contains a folder for each checklist. Inside is an xlsx file containing the results of the people who completed the checklists.
 
 ### Forms
 
-All forms of the course are listed. The desired forms can be selected and saved as a zip file. The zip file contains a folder for each form. This contains an xlsx file with the form responses of the people who have completed the form.
+All [forms](../learningresources/Course_Element_Form.md) of the course are listed. The desired forms can be selected and saved as a zip file. The zip file contains a folder for each form. This contains an xlsx file with the form responses of the people who have completed the form.
 
 ### Video task
 
-All of the course elements integrated in the course Video task are listed, regardless of the mode selected. The desired modules can be selected and the results saved as a zip file. The zip file contains an xlsx file with the results of the individual participants. 
+All of the course elements integrated in the course [Video task](../learningresources/Course_Element_Video_Task.md) are listed, regardless of the mode selected. The desired modules can be selected and the results saved as a zip file. The zip file contains an xlsx file with the results of the individual participants. 
 
 ### Chat history
 
@@ -180,11 +181,11 @@ Here the chat history can be exported as an xlsx file and also deleted.
 
 ### Bookings
 
-The people who have booked the course are displayed here if the course has a booking method.
+The people who have booked the course are displayed here if the course has a [booking method](../learningresources/Access_configuration.md).
 
 ## More information
 
-When you delete a course, all course data (not the course elements!) is automatically saved in your personal folder.
+When you delete a course, all course data (not the course elements!) is automatically saved in your [personal folder](../personal_menu/Personal_folders.md).
 
 Further details on the recorded log files can be found in the chapter “[Recording of course activities](Record_of_Course_Activities.md)”.
 

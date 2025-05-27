@@ -1,11 +1,11 @@
 # Test statistics {: #test_statistics}
 
 
-The test statistics allow you to perform general course-related, anonymous statistical evaluations of your tests. All tests included in the course are displayed.
+The test statistics allow you to perform general course-related, anonymous statistical assessments of your tests. All tests included in the course are displayed.
 
 ![statistics_test_v1_de.png](assets/statistics_test_v1_de.png){ class="shadow lightbox" }
 
-The key figures for a test as well as further analyses of the time taken to complete a test, average points per question and the percentage of correct answers per question are displayed. In addition, key figures such as the number of participants who completed the question, average score, time taken to complete the question, etc. are displayed and visualized for each question. You can evaluate a test with regard to e.g. difficulty and suitability by means of characteristic values for test evaluation and item analysis.
+Both the key figures for a test and further analyses of the completion time, average points per question and the percentage of correct answers per question are displayed. Furthermore, key figures such as the number of participants who have completed the question, the average number of points and processing time etc. are displayed and visualized for each question. Using key values for test assessment and item analysis, you can assess a test in terms of difficulty and suitability, for example.
 
 A download of the raw data and a print version are also available here.
 

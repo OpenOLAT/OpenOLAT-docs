@@ -16,7 +16,7 @@ If you have selected a course as **author**, the "Administration" button is disp
 
 Other learning resources also have the "Administration" menu, but the menu options there are not as extensive. They vary depending on the learning resource.
 
-Below you will find an overview of the "Administration" menu options for **Courses**.
+Below you will find an overview of the "Administration" menu options for **courses**.
 
 
 ---

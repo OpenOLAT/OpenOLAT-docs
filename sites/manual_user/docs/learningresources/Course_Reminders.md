@@ -4,9 +4,9 @@ The reminder function organizes the automatic sending of e-mails.
 
 ![course_reminder_access_v1_de.png](assets/course_reminder_access_v1_de.png){ class="shadow lightbox" }
 
-All reminders for a course are displayed under Course administration → Reminders and can also be created there. In addition, all course elements that can be linked to the reminder function have their own “Reminders” tab directly on the element.
+All reminders for a course are displayed under Course administration → Reminders and can also be created there. In addition, all course elements that can be linked to the reminder function have their own "Reminders" tab directly on the element.
 
-Reminders that are not linked to a specific course element can be found in the course editor at the top course element - also in the “Reminders” tab.
+Reminders that are not linked to a specific course element can be found in the course editor at the top course element - also in the "Reminders" tab.
 
 Reminders can be created, displayed, edited and the dispatch checked in all these places.
 
@@ -28,25 +28,33 @@ To do this, click on the **"Create reminder"** button. A wizard will appear to g
 
 ![course_reminder_new_v1_de.png](assets/course_reminder_new_v1_de.png){ class="shadow lightbox" }
 
+**Step: Edit requirements**
+
 First enter the description for the reminder. This description is only visible to the authors and is used for the clear and informative presentation of all reminders of a course. Then select the conditions for shipping.
 
-In the second step of the wizard, the conditions are checked and displayed again.
+**Step: Check requirements**
 
-In the last step, you then enter the e-mail text and can select whether coaches or owners should also receive a copy or whether a copy should be sent to an external address.
+In the second step of the wizard, the conditions are checked and the person to whom the reminder would be sent according to the configuration is displayed again.
 
-As soon as the conditions are met, the mails are automatically released for dispatch. The exact sending time and frequency is defined system-wide by your system administrator. 
+**Step: E-mail notifications**
+
+In the last step, you then enter the email text to be sent and can select whether the reminders should be sent to all persons in the course to whom the defined rules apply. Optionally, you can also send a copy to course owners, coaches or people with an external e-mail address.
+
+Alternatively, the created reminder can also be sent only to the owners, responsible coaches or external e-mail addresses. This option is particularly useful for test reminders or specific reminders for teachers.
+
+As soon as the conditions for a reminder are met, the mails are automatically released for dispatch. The exact sending time and frequency is defined system-wide by your system administrator. 
+
 
 [To the top of the page ^](#course_reminders)
 
 ---
 
 
-
 ## Conditions for sending reminders {: #conditions}
 
-The conditions can be selected from a drop-down menu. Depending on the condition, a further input field appears to the right for more detailed information.
+The specific conditions are decisive for the reminders to be sent. OpenOlat offers a wide range of options here. The specific conditions can be selected from a drop-down menu. Depending on the condition, a further input field appears to the right for more detailed information.
 
-![course_reminder_condition1_v1_de.png](assets/course_reminder_condition1_v1_de.png){ class="shadow lightbox" }
+![Bedingungen für Erinnerungen](assets/Erinnerung_Bedingungen.png){ class="shadow lightbox" }
 
 Several conditions can be combined as required. This allows reminders to be triggered that are tailored to individual requirements. However, at least one criterion must be selected for a dispatch to be triggered.
 
@@ -54,13 +62,13 @@ Several conditions can be combined as required. This allows reminders to be trig
 
 !!! info "Note"
 
-    The link is an "and" link. This means that only if all conditions are met, the reminder e-mail will be triggered.
+    The link is an "and" link. This means that only if **all** conditions are met, the reminder e-mail will be triggered.
 
 The following criteria can be configured as a condition:
 
 * **Date of registration**<br>
 Dispatch x days, weeks, months or years later<br>
-_Example_: Users will receive additional information about the course 2 days after enrolment. (Provided the other conditions are also met).
+_Example_: Users will receive additional information about the course 2 days after enrolment.
 
 * **Course status**<br>
 Select the status the course must be in for a reminder to be sent.
@@ -92,20 +100,20 @@ x Days, weeks, months or years after
 * **Participant is in the course implementation number**<br>
 See note on operators
 
+    _Example_: Course participants who complete the course for the second time receive a reminder e-mail.
+
 * **Progress**<br>
 Only for [Learning path courses](../learningresources/Learning_path_course.md).
 In this case, the course is sent based on the percentage progress of the participants as configured in the administration settings.<br>
-_Example_: Users who have successfully completed at least 80% of a course.
-<br>
-See note on operators
+_Example_: Learners who have successfully completed at least 80% of a course will receive a motivational email to complete the last 20% soon.
 
 * **Certificate date of issue**<br>
-This option is only displayed if certificate allocation is activated
-(Course administration > Settings > Tab "Assessment").
+This option is only displayed if certificate allocation is activated. (Course administration > Settings > Tab "Assessment")<br>
+_Example_: The mail is sent 1 day after a certificate has been issued.
 
 * **Certificate date of expiry**<br>
-This option is only displayed if certificate allocation is activated
-(Course administration > Settings > Tab "Assessment").
+This option is only displayed if certificate allocation is activated. (Course administration > Settings > Tab "Assessment").<br>
+_Example_: The e-mail is sent 2 weeks before the certificate expires, so that participants are reminded to carry out the activities required for the certificate before it expires.
 
 ---
 
@@ -139,57 +147,60 @@ The reminder recipients must have a certain value for one of the following chara
   
     _Example_: User from the city of Zurich.
 
+    The prerequisite is that the details have also been entered or transferred. 
+
 ---
 
 * **Until date**<br>
-Input fields for date and time, as input help button for displaying the calendar
+Input fields for date and time, as input help button for displaying the calendar. This condition is often suitable for combination with other conditions.
 
 * **After date**<br>
-Input fields for date and time, as input help button for displaying the calendar
+Input fields for date and time, as input help button to display the calendar. This condition is often suitable for combining with other conditions, e.g. if a certain course progress has not been reached by a certain date.
+
+---
+
+* **Date of the last attempt**<br>
+This option relates to assessable course elements.
+    * The possible course elements that can be taken into account are displayed in the drop-down list.
+    * x days, weeks, months or years after<br>
+    _Example_: The reminder will be sent 1 week after a specific test has been completed.
+
+* **Attempts**<br>
+This option only affects assessable course elements for which a pass status has been configured in the editor. This can be selected here as a condition.<br>
+_Example_: One test course element was assessed as "Passed".
+
+* **Points**<br>
+This option only affects assessable course elements for which a number of points has been defined. They can then be sent depending on a score.<br>
+_Example_: Less than 3 points were achieved in one checklist.
+
+---
+
+* **Schedule: Task "Assignment"**<br>
+This option only affects course elements of the type “Task” for which the task has also been stored in the course element and a date has been assigned for the assignment. The reminder e-mail is then sent for the date stored in the course editor, e.g. x days, weeks, months before. 
+
+* **Schedule: Task "Submit documents"**<br>
+This option only affects course elements of the type "Task" for which "Submission" has been activated in the workflow configuration. A reminder e-mail can then be sent x days, weeks or months before the submission deadline. 
+
+* **Schedule: Task "Submit peer review task"**<br>
+This option only affects course elements of the type "Task" for which the peer review function has been activated in the workflow and a "until" date has been linked to the review. 
+_Example_: A reminder will be sent out 3 days before the final peer review deadline.
+
+---
+
+* **Schedule: Fill out form**<br>
+This option only affects course elements of the type "Form" for which an end date for completion has been defined in the course editor. 
+_Example_: A reminder will be sent out 2 days before the deadline for completing the form.
+
 
 !!! info "When is the e-mail being sent, if I specify a date here?"
 
     Course reminders are not sent out immediately. All reminder e-mails are sent together, e.g. daily at 9.00 am. This is a default setting and can be changed by administrators and adjusted to "hourly" (Administration > Modules > Course reminders).
     At the time of sending, OpenOlat checks which conditions are met and sends the e-mails accordingly. All course reminders that fulfill the conditions ("are in the outbox") at 9.00 a.m., for example, are then sent.
 
-    If **"To date"** is checked, the condition may already be fulfilled at the time the reminder is created and e-mails are sent. This setting is particularly useful in conjunction with another condition, e.g. if "to date" is "the test has been passed", an e-mail is sent "You have qualified on time and will receive ...".
+    If **"Until date"** is checked, the condition may already be fulfilled at the time the reminder is created and e-mails are sent. This setting is particularly useful in conjunction with another condition, e.g. if "to date" is "the test has been passed", an e-mail is sent "You have qualified on time and will receive ...".
 
-    If **"By date"** is used with a date after the time of reminder creation, the e-mails in the "Outbox" will be sent on the first possible sending date when the "By date" has been reached.
+    If **"From date"** is used with a date after the time of reminder creation, the e-mails in the "Outbox" will be sent on the first possible sending date when the "By date" has been reached.
 
----
-
-* **Date of last attempt**<br>
-This option only applies to assessable course elements.
-    * Dropdown for selecting an assessable course element
-    * x Days, weeks, months or years after
-
-* **Attempts**<br>
-This option only affects assessable course elements. The number of solution attempts for sending the mail is taken into account here.<br>
-_Example_: A test has not yet been carried out (0).
-
-* **Passed**<br>
-This option only affects assessable course elements for which a pass status has been configured in the editor. This can be selected here as a condition.<br>
-_Example_: One test course element was assessed as "Passed".
-
-* **Score**<br>
-This option only affects assessable course elements for which a number of points has been configured in the editor. These can be selected here as a condition.<br>
-_Example_: Less than 3 points were achieved in one checklist.
-
----
-
-* **Schedule: Task Assignment**<br>
-This option only affects course elements of the type "Task".
-
-* **Schedule: Task Submit documents**<br>
-This option only affects course elements of the type "Task". If an edited task can be uploaded there, a condition for a reminder can refer to the submission time of the task documents.
-
-* **Schedule: Task Peer review submission**<br>
-This option only affects course elements of the "Assignment" type. If a peer review is configured there, a condition can refer to the submission time of the peer review.
-
----
-
-* **Schedule: Fill out form**<br>
-This option only affects course elements of the type "Form".
 
 
 !!! info "Option before/after"
@@ -197,10 +208,12 @@ This option only affects course elements of the type "Form".
     For conditions that require a "before" or "after" specification for a date, this is provided as a selection list.
     ![Option davor/danach](assets/reminder_option_before_after_DE.png){ class="shadow" }
 
+
 !!! info "Date"
 
     The reminder is sent at the next possible sending time on the date (incl. time) entered. If "to date" is used, the reminder is sent at the next possible sending time until the date (and time) is reached.<br>
     _Example_: 24.06.2021 16:30 
+
 
 !!! info "Time span"
 
@@ -209,6 +222,7 @@ This option only affects course elements of the type "Form".
     _Example_: 5 weeks before the assignment for the group task closes.
 
     _Example_: 5 days after the user has accessed the course for the first time.
+
 
 
 !!! info "Operators"
@@ -226,13 +240,24 @@ This option only affects course elements of the type "Form".
 
     In our conditions in this case, for example, the result of a test (a) is compared with the entered value in the condition rule (b). If the logical return value is "True", i.e. the condition is true, then the reminder is triggered.
 
-    _Example_: A reminder should be sent when a student has scored a maximum of 5 points in a test. In OpenOlat the condition looks like this:
-
+    _Example_: A reminder should be sent when a participant has achieved a maximum of 5 points in a test. In OpenOlat, the condition looks like this:
     ![Reminder operators](assets/reminder_operator_EN.png)
 
 [To the top of the page ^](#course_reminders)
 
 ---
+
+## E-mail text {: #text}
+
+With the help of the e-mail text, which can be customized as required, you can create very specific e-mail reminders tailored to the situation.
+
+!!! tip "Hint"
+
+    The available variables are displayed by moving the mouse pointer over the small question mark symbol.
+
+    ![course_reminders_variables_v1_de.png](assets/course_reminders_variables_v1_de.png){ class="shadow lightbox" }
+
+
 
 ### Variables available in the subject
 
@@ -266,16 +291,17 @@ This option only affects course elements of the type "Form".
 * **$courseReference**: The text that was entered in the course settings in the "Info" tab under "Indicator".
 * **$courseRequirements**: The text that was entered in the course settings in the "Info" tab under "Requirements".
 * **$courseTeaser**: The teaser text entered in the “Info” tab of the course settings.
-* **$recipientFirstName**: see [example](../../manual_how-to/progress_information/progress_information.md#by_reminders)  
-* **$recipientLastName**: see [example](../../manual_how-to/progress_information/progress_information.md#by_reminders) 
+* **$recipientFirstName**: see [example](../../manual_how-to/progress_information/progress_information.md)  
+* **$recipientLastName**: see [example](../../manual_how-to/progress_information/progress_information.md) 
 
 Here is an example:
 
 ![Reminder Mail](assets/reminder_notification_text.png){ class="shadow" }
 
-At the top course node, all reminders that are not tied to a specific course element are also listed. Also here as well as with other assessment elements with the tab "Reminders" further configurations can be made, e.g. configured reminders can be edited, duplicated, sent, deleted. It is also possible to display the dispatch.
 
 [To the top of the page ^](#course_reminders)
+
+---
 
 
 ## Recipients {: #recipients}
@@ -290,6 +316,7 @@ In some cases, reminders should be sent **exclusively to coaches**.<br>
 Course participants do not show any progress. The coach should then contact these students and provide assistance. This reminder should only go to the coach. You could enter as conditions, for example, that the progress is still below x% and at the same time a certain score has not been reached in an entrance test.
 
 Reminders can also be sent **exclusively to course owners**.<br>
+
 **Example:**<br>
 Sometimes authors forget to publish their course because things were still unclear when they last worked on the course creation. In this case, the course status can be used in combination with the role as a dispatch criterion.
 

@@ -10,9 +10,9 @@ In der "Übersicht" geht es um Kennzahlen wie die Anzahl der ausgefüllten Frage
 
 Im Tab "Tabellen" liegen Auswertungen zu einzelnen Fragen vor. 
 
-Im Tab „Diagramme“ werden die Ergebnisse in Form von Balkendiagrammen visualisiert und die zugehörigen statistischen Daten wie Median, Varianz und Standardabweichung angezeigt. 
+Im Tab "Diagramme" werden die Ergebnisse in Form von Balkendiagrammen visualisiert und die zugehörigen statistischen Daten wie Median, Varianz und Standardabweichung angezeigt. 
 
-Im Tab „Einzelne Formulare" haben Sie Zugriff auf jedes einzelne Fragebogen-Formular. Alle Zugriffe sind anonymisiert.
+Im Tab "Einzelne Formulare" haben Sie Zugriff auf jedes einzelne Fragebogen-Formular. Alle Zugriffe sind anonymisiert.
 
 Zugang zu den Fragebogen Statistiken haben neben den Kursbesitzer:innen auch alle Betreuer:innen des Kurses.
 

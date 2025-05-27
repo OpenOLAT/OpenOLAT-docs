@@ -1,37 +1,37 @@
 # Working with media files {: #media_files}
 
-In OpenOlat verwendete Mediendateien werden in der Regel direkt am Ort der Verwendung hochgeladen und eingebunden. Sie finden die Medien an 3 verschiedenen Orten. 
+Media files used in OpenOlat are usually uploaded and integrated directly at the place of use. You will find the media in 3 different locations. 
 
 
-## Ordner
+## Folder
 
-An verschiedenen Stellen in OpenOlat gibt es Ordner, in denen auch Mediendateien abgelegt sind. In diesen Ordnern können die Dateien als Ganzes ausgetauscht werden. (Das ist dort möglich, weil sie nicht mit zusätzlichen Metadaten versehen sind.)
+There are folders in various places in OpenOlat in which media files are also stored. In these folders, the files can be exchanged as a whole. (This is possible because the folders are not provided with additional metadata).
 
-**Beispiele:**
+**Examples:**
 
-* [Ablageordner eines Kurses >](../basic_concepts/Folder_Concept.de.md#storage_folder)
-* [Gruppenordner >](../basic_concepts/Folder_Concept.de.md#group_folder)
-
-
-
-## Lerninhalte im Content Editor
-
-Mediendateien, die mit dem [Content Editor](../basic_concepts/Content_Editor.de.md) eingebunden werden, sind im [Media Center](../basic_concepts/Media_Center_Concept.de.md) abgelegt.
-
-**Vorteile:**
-
-* Die Medien sind in anderen Kursbausteinen verwendbar, die ebenfalls ihre Medien aus dem [Media Center](../basic_concepts/Media_Center_Concept.de.md) beziehen.
-* Es steht ein Rechtemanagement für das Teilen der Medien mit anderen Autor:innen zur Verfügung.
-* Die Mediendateien können mit Metadaten zur besseren Verwaltung versehen werden. 
+* [Storage folder of a course >](../basic_concepts/Folder_Concept.md#storage-folder--storage_folder)
+* [Group folder >](../basic_concepts/Folder_Concept.md#folder-for-members-of-a-group-group-folder--group_folder)
 
 
-## Fest zugeordnete Medien
 
-Bei Lernressourcen im Autorenbereich, die Mediendateien enthalten, sind diese Medien fix der jeweiligen Lernressource zugeordnet.
+## Learning content in the Content Editor
 
-**Beispiele:**
+Media files that are integrated with the [Content Editor](../basic_concepts/Content_Editor.md) are stored in the [Media Center](../basic_concepts/Media_Center_Concept.md).
 
-* [Blog >](../learningresources/Blog.de.md)
-* [Wiki >](../learningresources/Wiki.de.md)
-* [Test >](../learningresources/Test.de.md)
+**Advantages:**
+
+* The media can be used in other course elements that also obtain their media from the [Media Center](../basic_concepts/Media_Center_Concept.md).
+* Rights management is available for sharing media with other authors.
+* The media files can be provided with metadata for better management. 
+
+
+## Fixed assigned media
+
+For learning resources in the author area that contain media files, these media are permanently assigned to the respective learning resource.
+
+**Examples:**
+
+* [Blog >](../learningresources/Blog.md)
+* [Wiki >](../learningresources/Wiki.md)
+* [Test >](../learningresources/Test.md)
 

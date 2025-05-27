@@ -7,8 +7,7 @@ Das Modul Course Planner ist ab Release 20 optional an Stelle des Moduls Curricu
 
 !!! tip "Aktivierung"
 
-	Kunden von frentix kontaktieren für die Aktivierung bitte
-	[contact@frentix.com.](mailto:contact@frentix.com.) Nach der Aktivierung kann zusätzlich die Anzeige des persönlichen Curriculums (= "Lehrgänge") im Bereich "Kurse" aktiviert werden.  
+	Kunden von frentix kontaktieren für die Aktivierung bitte [contact@frentix.com.](mailto:contact@frentix.com.) Nach der Aktivierung kann zusätzlich die Anzeige des persönlichen Curriculums (= "Lehrgänge") im Bereich "Kurse" aktiviert werden.  
 		
 	:material-alert: **Nicht Hosting-Kunde von frentix?** Fragen Sie Ihren Systembetreiber!
  
@@ -24,7 +23,7 @@ Mit dieser Checkbox wird das gesamte Modul aktiviert.
 Alle Teilnehmer:innen finden in der Hauptnavigation in der Kopfzeile den Menü-Eintrag "Kurse". Unter diesem Menüpunkt können den Teilnehmer:innen ebenfalls Curricula angezeigt werden. 
 
 ![3_green_24.png](assets/3_green_24.png) **Benutzer:innen Übersicht**<br>
-Hier bestimmen Sie als Administrator:in, welche Optionen die Rollen 
+Hier bestimmen Sie als Administrator:in, welche Optionen die Rollen.
 
 * Course Planner
 * Education Manager und
@@ -95,7 +94,7 @@ Es ist an dieser Stelle möglich, per CSS-Klasse ein nur für diesen Element-Typ
 Erklären Sie hier mit einem Beschreibungstext Ihren Elementtyp.
 
 ![5_green_24.png](assets/5_green_24.png) **Features**<br>
-Mit aktiviertem **Absenzenmanagement** haben Sie in der Rolle als Course Planner das Tab "Absenezen" auf deiesem Element und können für alle Teilnehmer:innen dieses Elements die Absenzen einsehen. (Voraussetzung ist, dass das Modul "Absenzenverwaltung" aktiviert ist.)
+Mit aktiviertem **Absenzenmanagement** haben Sie in der Rolle als Course Planner das Tab "Absenz" auf deiesem Element und können für alle Teilnehmer:innen dieses Elements die Absenzen einsehen. (Voraussetzung ist, dass das Modul "Absenzenverwaltung" aktiviert ist.)
 
 Ebenfalls kann für diesen Element-Typ die Anzeige des **Stundenplans**
 aktiviert werden. Dieser vereint alle Kurskalender-Termine der zu diesem

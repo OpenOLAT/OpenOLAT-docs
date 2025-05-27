@@ -4,9 +4,9 @@ Mit der Erinnerungsfunktion wird der automatische Versand von Mails organisiert.
 
 ![course_reminder_access_v1_de.png](assets/course_reminder_access_v1_de.png){ class="shadow lightbox" }
 
-Unter Kursadministration → Erinnerung werden alle Erinnerungen eines Kurses angezeigt und können dort auch erstellt werden. Zusätzlich gibt es bei allen Kursbausteinen, die mit der Erinnerungsfunktion verknüpft werden können, einen eigenen Tab „Erinnerungen“ direkt am Baustein.
+Unter Kursadministration → Erinnerung werden alle Erinnerungen eines Kurses angezeigt und können dort auch erstellt werden. Zusätzlich gibt es bei allen Kursbausteinen, die mit der Erinnerungsfunktion verknüpft werden können, einen eigenen Tab "Erinnerungen" direkt am Baustein.
 
-Erinnerungen, die nicht an einen bestimmten Kursbaustein gebunden sind, finden Sie im Kurseditor beim obersten Kursbaustein – ebenfalls im Tab „Erinnerungen“.
+Erinnerungen, die nicht an einen bestimmten Kursbaustein gebunden sind, finden Sie im Kurseditor beim obersten Kursbaustein – ebenfalls im Tab "Erinnerungen".
 
 An all diesen Stellen können Erinnerungen erstellt, angezeigt, bearbeitet und der Versand überprüft werden.
 
@@ -110,7 +110,8 @@ Diese Option wird nur angezeigt, wenn die Zertifikatvergabe aktiviert ist (Kursa
 _Beispiel_: Die Mail wird versandt 1 Tag nachdem ein Zertifikat ausgestellt wurde.
 
 * **Ablaufdatum Zertifikat**<br>
-Diese Option wird nur angezeigt, wenn die Zertifikatvergabe aktiviert ist (Kursadministration > Einstellungen > Tab "Bewertung"). _Beispiel_: Die Mail wird versandt 2 Wochen bevor das Zertifikat abläuft, so dass die Teilnehmenden daran erinnert werden die für das Zertifikat notwendigen Aktivitäten durchzuführen bevor das Zertifikat abläuft.
+Diese Option wird nur angezeigt, wenn die Zertifikatvergabe aktiviert ist (Kursadministration > Einstellungen > Tab "Bewertung").<br>
+_Beispiel_: Die Mail wird versandt 2 Wochen bevor das Zertifikat abläuft, so dass die Teilnehmenden daran erinnert werden die für das Zertifikat notwendigen Aktivitäten durchzuführen bevor das Zertifikat abläuft.
 
 ---
 
@@ -173,15 +174,14 @@ Diese Option betrifft nur bewertbare Kursbausteine, für die ein Bestanden-Statu
 _Beispiel_: Ein Test-Kursbaustein wurde mit "Bestanden" bewertet.
 
 * **Punkte**<br>
-Diese Option betrifft nur bewertbare Kursbausteine, für die eine Punktezahl definiert wurde. Der Versand kann dann in Abhängigkeit einer Punktzahl erfolgen. <br>
+Diese Option betrifft nur bewertbare Kursbausteine, für die eine Punktezahl definiert wurde. Der Versand kann dann in Abhängigkeit einer Punktzahl erfolgen.<br>
 _Beispiel_: In einer Checkliste wurden weniger als 3 Punkte erreicht.
 
 
 ---
 
 * **Termin: Aufgabe Zuweisung**<br>
-Diese Option betrifft nur Kursbausteine vom Typ "Aufgabe", bei denen auch die Aufgabenstellung im Kursbaustein abgelegt wurde und ein Termin für die Zuweisung zugeordnet wurde. Der Versand der Erinnerungsmail bezieht sich dann auf den im Kurseditor hinterlegten Termin, z.B. 
-x Tage, Wochen, Monate davor. 
+Diese Option betrifft nur Kursbausteine vom Typ "Aufgabe", bei denen auch die Aufgabenstellung im Kursbaustein abgelegt wurde und ein Termin für die Zuweisung zugeordnet wurde. Der Versand der Erinnerungsmail bezieht sich dann auf den im Kurseditor hinterlegten Termin, z.B. x Tage, Wochen, Monate davor. 
 
 * **Termin: Aufgabe Dokumente abgeben**<br>
 Diese Option betrifft nur Kursbausteine vom Typ "Aufgabe" bei denen die "Abgabe" in der Workflow-Konfiguration aktiviert wurde. Eine Erinnerungsmail kann dann x Tage, Wochen, Monate vor dem Abgabetermin verschickt werden. 

@@ -136,9 +136,9 @@ Hier können die personalisierten Logfiles der Kursbesitzer sowie die anonymisie
 
 ### Foren
 
-Es werden alle [Foren](../learningresources/Course_Element_Form.de.md) des Kurses angezeigt. Die gewünschten zu archivierenden Foren können ausgewählt und als Zip-Datei gespeichert werden. In der Zip-Datei liegen dann die einzelnen ausgewählten Foren in jeweils einem extra Ordner mit einer DOCX-Datei, die sämtliche Forenbeiträge umfasst.
+Es werden alle [Foren](../learningresources/Course_Element_Forum.de.md) des Kurses angezeigt. Die gewünschten zu archivierenden Foren können ausgewählt und als Zip-Datei gespeichert werden. In der Zip-Datei liegen dann die einzelnen ausgewählten Foren in jeweils einem extra Ordner mit einer DOCX-Datei, die sämtliche Forenbeiträge umfasst.
 
-Ab :octicons-tag-24: Release 18.0 : Neben der Archivierung kann auch ein Bericht im xlsx-Format zu den gewünschten Foren generiert werden. Jedes Posting wird im Bericht als ein Zeileneintrag vermerkt und enthält Informationen zum Erstellungsdatum, letzte Änderung, Anzahl der Wörter, Zeichenzahl usw.  
+Ab :octicons-tag-24: Release 18.0: Neben der Archivierung kann auch ein Bericht im xlsx-Format zu den gewünschten Foren generiert werden. Jedes Posting wird im Bericht als ein Zeileneintrag vermerkt und enthält Informationen zum Erstellungsdatum, letzte Änderung, Anzahl der Wörter, Zeichenzahl usw.  
 
 ### Dateidiskussion
 

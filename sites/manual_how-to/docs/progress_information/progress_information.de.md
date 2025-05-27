@@ -76,7 +76,7 @@ Die [Erinnerungsfunktion](../../manual_user/learningresources/Course_Reminders.d
 
 **Beispiel 1: Automatische Mails an Kursteilnehmer:innen, cc an Betreuer:innen**<br> 
 
-Im letzten Schritt der Erstellung/Bearbeitung einer Erinnerung besteht die Möglichkeit, zusätzlich zum (durch Regeln definierten) Empfangerkreis die Betreuer:in dazu zu nehmen.
+Im letzten Schritt der Erstellung/Bearbeitung einer Erinnerung besteht die Möglichkeit, zusätzlich zum (durch Regeln definierten) Empfängerkreis die Betreuer:in dazu zu nehmen.
 
 ![course_reminder_cc_coach_v1_de.png](assets/course_reminder_cc_coach_v1_de.png){ class="shadow lightbox" }
 
