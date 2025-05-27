@@ -1,11 +1,6 @@
 # Web-Katalog (extern verfügbarer Katalog) {: #web_catalog}
 
 
-!!! warning "Achtung"
-
-    Dieser Artikel ist noch in Bearbeitung.
-
-
 ## Situation ohne Web-Katalog {: #without_web_catalog}
 
 In OpenOlat werden Kurse erstellt und können im Katalog angeboten werden. Um den Teilnehmer:innen beim Kursbesuch Feedback geben zu können oder Testergebnisse, Zertifikate usw. zu speichern, müssen die Teilnehmer:innen in OpenOlat registriert sein. Nur dann können die Ergebnisse gespeichert werden.
