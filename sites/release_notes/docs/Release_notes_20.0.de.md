@@ -100,6 +100,7 @@ Mit Release 20.0 wurden folgende Bezeichnungen angepasst:
 Bisher | Neu
 ---------|----------
 Curriculumverwaltung | Course Planner
+Curriculumverwalter:in | Kursplaner:in 
 Buchung | Buchungsauftrag
 Buchungsmethode | Angebotsart
 Lektion oder Lektionenblock | Termin
@@ -304,7 +305,7 @@ Die Hierarchie der Organisationsebenen sowie die Vererbung von Rollen auf Untero
     * [x] Organisationsspezifischer Ordner für rechtliche Dokumente: `Module > Organisationen > Tab "Konfiguration" > Rechtliche Dokumente`
     * [x] Globale Rollen in Standardorganisation verschieben: `Module > Organisationen > Tab "Konfiguration" > Status`
 
-    Konfigurationen bei Course Planner-Einsatz:
+    **Konfigurationen bei Course Planner-Einsatz:**
 
     * [x] Standardmässiger Verwendungszweck für neue Kurse: `Module > Course Planner > Tab "Course Planner"`
     * [x] Katalog-Launcher für Durchführungen: `Module > Katalog > Tab "Startseite" > Launcher für "Ausgewählte Durchführungen` 

@@ -15,7 +15,7 @@ Informationen betreffend OpenOlat, seiner Funktionen und neuesten Änderungen fi
 
 ## Aktuelle Versionen:
 
-- [OpenOlat 20.0 Benutzerhandbuch](manual_user/general/) <!-- | [Release Notes 20.0](release_notes/Release_notes_20.0.de.md) -->
+- [OpenOlat 20.0 Benutzerhandbuch](manual_user/general/) | [Release Notes 20.0](release_notes/Release_notes_20.0.de.md)
 
 ## Ältere Versionen:
 

@@ -11,8 +11,6 @@
 
 With OpenOlat 20.0 we release our next major version.
 
-!!!!!!!!!!!
-
 The focus of this release is the **brand new Course Planner** - with an intuitive **cockpit view**, versatile widgets for easy maintenance and management of courses, a **powerful event and member management**, the option to use **course templates**, a new **reporting area** and the **external catalog** for publishing your course offerings.
 
 In addition, two important enhancements have been implemented with the new **offer type "Invoice" including the cancellation process** and the introduction of the new role **Education manager**.
@@ -102,6 +100,7 @@ With Release 20.0, the following labels/terms have been adjusted:
 Previously | New
 ---------|----------
 Curriculum management | Course Planner
+Curriculum manager | Course planner
 Booking | Booking order
 Offer | Offer type
 Lecture or lecture block | Event
@@ -306,7 +305,7 @@ The hierarchy of organizational levels and the inheritance of roles to sub-organ
     * [x] Organization-specific folder for legal documents: `Module > Organizations > "Configuration" tab > Legal documents`
     * [x] Move global roles to standard organization: `Modules > Organizations > "Configuration" tab > Status`
 
-    Configurations for Course Planner use:
+    **Configurations for Course Planner use:**
 
     * [x] Default usage for new courses: `Module > Course Planner > Tab "Course Planner"`
     * [x] Catalog launcher for courses: `Module > Catalog > "Launch page" tab > Launcher for "Selected implementations"

@@ -38,6 +38,40 @@ Der Link zum Web-Katalog kann aber auch an anderer Stelle in eine Website eingeb
 
 ---
 
+## Angebote für den Web-Katalog erstellen
+
+Damit im Web-Katalog oder im internen Katalog ein Kurs ausgeschrieben werden kann, muss ein Angebot erstellt werden unter: **(Kurs-)Administration > Einstellungen > Tab "Freigabe"**<br>
+
+Bevor ein neues Angebot erstellt werden kann, müssen 2 Voraussetzungen erfüllt sein.
+
+![1_green_24.png](assets/1_green_24.png) Im Abschnitt "Verwendungszweck" muss die Option "Eigenständig" gewählt sein.
+
+![2_green_24.png](assets/2_green_24.png) Im Abschnitt "Freigabe" muss als "Zugang für Teilnehmer:innen" die Option "Buchbare und offene Angebote" gewählt sein.
+
+Anschliessend kann ein Angebot erstellt werden. ![3_green_24.png](assets/3_green_24.png) 
+
+![catalog20_webcatalog_offer1_v1_de.png](assets/catalog20_webcatalog_offer1_v1_de.png){ class="shadow lightbox" }
+
+
+Wenn Sie nun einen der Angebotstypen wählen, können Sie jeweils auch angeben, ob das Angebot im externen Web-Katalog veröffentlicht werden soll.<br>
+Soll für internen und externen Katalog das Angebot gleich sein, setzen Sie beide Häkchen.<br>
+Sollen für internen und externen Katalog Unterschiede bestehen (z.B. intern kostenlos - extern kostenpflichtig), erstellen Sie 2 verschiedene Angebote. 
+
+![catalog20_webcatalog_offer2_v1_de.png](assets/catalog20_webcatalog_offer2_v1_de.png){ class="shadow lightbox" }
+
+
+!!! hint "Hinweis"
+
+    Auch mit dem Course Planner erstellte Durchführungen können im Web-Katalog angeboten werden. In diesem Fall ist beim Kurs unter **Einstellungen > Tab "Freigabe" > Abschnitt "Verwendungszweck"** die Option "Einbindung in Curriculum/Produkt" ausgewählt und es kann im Kurs selbst kein Angebot erstellt werden.
+    
+    Mehr zu Angeboten von Durchführungen finden Sie [hier](../../manual_user/area_modules/Course_Planner_Implementations.de.md#tab_catalog).
+
+
+[Zum Seitenanfang ^](#web_catalog)
+
+---
+
+
 ## Weitere Informationen {: #further_information}
 
 [Web-Katalog einrichten (Administrationshandbuch) >](../../manual_admin/administration/Modules_Catalog_2.0.de.md)<br>
