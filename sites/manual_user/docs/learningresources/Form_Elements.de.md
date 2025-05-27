@@ -22,16 +22,15 @@ Das Inhaltselement "Titel" verwenden Sie für Überschriften. Sie können für d
 
 ## Text {: #form_element_text} 
 
-Mit dem Textelement können sämtliche Varianten von Texten, z.B. Informationen oder Fragen einem Formular hinzugefügt werden. Ein kleiner Editor ermöglicht verschiedene Formatierungen, das Hinzufügen von Links, Hinzufügen von Aufzählungspunkten, usw.. 
+Mit dem Textelement können sämtliche Varianten von Texten, z.B. Informationen oder Fragen einem Formular hinzugefügt werden. Ein kleiner Editor ermöglicht verschiedene Formatierungen, das Hinzufügen von Links, Hinzufügen von Aufzählungspunkten, usw...
 
 ![form_content_text_v1_de.png](assets/form_content_text_v1_de.png){ class="shadow lightbox" }
-
-
 
 
 [zum Seitenanfang ^](#form_elements)
 
 ---
+
 
 ## Tabelle {: #form_element_tabelle} 
 
@@ -46,7 +45,7 @@ Fügen Sie bei Bedarf dem Formular eine Tabelle hinzu und konfigurieren Sie dies
 
 ## Rubrik {: #form_element_rubric}
 
-Ein Rubrik-Element besteht aus einem Gittermit Zeilen und Spalten. In den Zeilen werden die Bewertungskategorien bzw. Statements aufgeführt während die Spaltenüberschriften die Bewertungsskalen wiedergeben. So können sich mehrere unterschiedliche Statements auf eine Bewertungsskala beziehen. 
+Ein Rubrik-Element besteht aus einem Gitter mit Zeilen und Spalten. In den Zeilen werden die Bewertungskategorien bzw. Statements aufgeführt während die Spaltenüberschriften die Bewertungsskalen wiedergeben. So können sich mehrere unterschiedliche Statements auf eine Bewertungsskala beziehen. 
 Je nach konkreter Konfiguration können dabei sehr unterschiedliche Rubrik-Varianten entstehen die in Kursen u.a. auch als Bewertungselement für Lehrende oder als [Peer-Reviews](../learningresources/Course_Element_Task.de.md) im Aufgabenbaustein verwendet werden können.
 
 Mehr Information finden Sie in einer separaten Beschreibung des [Rubrik-Elements](Form_Element_Rubric.de.md).
@@ -63,7 +62,7 @@ In einer Einzelauswahl (Single-Choice) muss von den Kursteilnehmenden genau 1 Op
 
 * Sie können mit dem Button "Eintrag hinzufügen" der Liste weitere Auswahloptionen hinzufügen.
 * Die Einträge können über die Pfeiltasten nach oben oder unten verschoben werden.
-* Die einzelnen Antwortmöglichkeiten können dabei nebeneinander, untereinander oder als Wahl Menü über die Option "Auswahlliste“ dargestellt werden. 
+* Die einzelnen Antwortmöglichkeiten können dabei nebeneinander, untereinander oder als Wahl Menü über die Option "Auswahlliste" dargestellt werden. 
 
 !!! Tip "Hinweis"
 
@@ -85,7 +84,7 @@ In einer Mehrfachauswahl (Multiple-Choice) können von den Kursteilnehmenden meh
 
 * Sie können mit dem Button "Eintrag hinzufügen" der Liste weitere Auswahloptionen hinzufügen.
 * Die Einträge können über die Pfeiltasten nach oben oder unten verschoben werden.
-* Die einzelnen Antwortmöglichkeiten können dabei nebeneinander, untereinander oder als Wahl Menü über die Option "Auswahlliste“ dargestellt werden. 
+* Die einzelnen Antwortmöglichkeiten können dabei nebeneinander, untereinander oder als Wahl Menü über die Option "Auswahlliste" dargestellt werden. 
 * Den Teilnehmenden kann auch gestattet werden, selbst Antwortoptionen hinzuzufügen.
 
 

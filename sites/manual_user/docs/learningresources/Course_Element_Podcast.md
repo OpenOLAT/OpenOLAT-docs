@@ -30,6 +30,6 @@ The exact procedure is described in step 4 of the page [How do I create a podcas
 
 All course participants have the right to comment on episodes and rate them with 1-5 stars. To post a comment or read existing comments, click on the "Comments" link.
 
-!!! Tip
+!!! Tip "Hint"
 
     Subscribe to the podcast's RSS feed to never miss new episodes.

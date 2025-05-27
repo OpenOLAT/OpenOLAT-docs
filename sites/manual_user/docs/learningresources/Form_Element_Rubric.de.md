@@ -50,6 +50,8 @@ In OpenOlat können Rubriks z.B. eingesetzt werden um
 
 Rubriks können über "Inhalt hinzufügen" einem OpenOlat Formular hinzugefügt und anschliessend konfiguriert werden.
 
+
+
 ## Rubrik Konfiguration im Formular Editor
 
 ![Rubrik Editor](assets/formular_rubik17a.png){ class="shadow lightbox" }
@@ -76,14 +78,16 @@ Ein bearbeitetes Rubrik kann, eingebunden in einen Kurs, automatisch eine entspr
 
 ![Rubrik Varianten](assets/Rubrik_Inspector_20.png){ class="shadow lightbox" }
 
+
+
 #### Tab: Generell
 
-Im Tab „Generell“ wird der Basis Typ des Rubriks definiert.
+Im Tab "Generell" wird der Basis Typ des Rubriks definiert.
   * **Diskret mit Radio**: Die einzelnen Rubrikfelder erhalten Radio-Buttons von denen jeweils ein Button pro Zeile ausgewählt werden kann. Die Spaltenbeschriftung wird angezeigt. Eine erweiterte Beschreibung der Kriterien für einzelne Bewertungsfelder ist bei diesem Typ möglich. 
 
   * **Diskret mit Sternchen**: Den Statements der Zeilen wird pauschal eine Sternchenbewertung zugewiesen. Eine Spaltenbeschriftung wird nur angezeigt, wenn die auch die Option "Keine Antwort möglich" aktiviert wurde, ansonsten ist die Anzeige der Sternchen mit der entsprechenden Auswahl selbsterklärend.  
   * **Diskret mit Slider**: Hierbei kann ein Schieberegler entsprechend der Skala verschoben werden. Die Spaltenbeschriftung wird angezeigt. Diese Form bietet sich besonders an, wenn ein Rubrik mit 2 Skalen-Enden verwendet wird. 
-  * **Kontinuierlich**: Ähnlich wie „Diskret mit Slider“ aber mit einer fließenden nicht stufenweisen Bewertung. Eine Spaltenbeschriftung kann nicht definiert werden.  
+  * **Kontinuierlich**: Ähnlich wie "Diskret mit Slider" aber mit einer fließenden nicht stufenweisen Bewertung. Eine Spaltenbeschriftung kann nicht definiert werden.  
 
 Die Anzahl der **Schritte** legt die Anzahl der Spalten fest bzw. bei der Sternchenbewertung die Anzahl der maximalen Sternchen. Bei einem kontinuierlichen Rubrik gibt es keine Schritte. 
 
@@ -91,11 +95,11 @@ Für Rubriks vom Typ "Diskrete mit Radio" erscheint zusätzlich die Option **"Be
 
 ![Rubric Zellentext](assets/Rubrik_Bewertungsfeld.png){ class="shadow lightbox" }
 
-Aktiviert man das Feld **„Kommentar pro Frage“** können User für jede Zeile eines Rubriks noch einen Kommentar zu ihrer Bewertung hinterlassen (Freitextfeld).
+Aktiviert man das Feld **"Kommentar pro Frage"** können User für jede Zeile eines Rubriks noch einen Kommentar zu ihrer Bewertung hinterlassen (Freitextfeld).
 
 Ferner kann definiert werden ob die Bearbeitung des gesamten Rubriks freiwillig oder obligatorisch ist. 
 
-Wird **„Keine Antwort möglich“** aktiviert, erscheint neben den Bewertungsoptionen zusätzlich die Auswahl „Keine Antwort möglich“. Damit kann das Rubrik-Element als bearbeitet gelten, auch wenn keine konkrete Bewertung abgegeben wird. Diese Option ist besonders sinnvoll, wenn ein Bewertungskriterium für einzelne Nutzer nicht relevant oder unpassend ist.
+Wird **"Keine Antwort möglich"** aktiviert, erscheint neben den Bewertungsoptionen zusätzlich die Auswahl "Keine Antwort möglich". Damit kann das Rubrik-Element als bearbeitet gelten, auch wenn keine konkrete Bewertung abgegeben wird. Diese Option ist besonders sinnvoll, wenn ein Bewertungskriterium für einzelne Nutzer nicht relevant oder unpassend ist.
 
 
 #### Tab: Erweitert
@@ -106,7 +110,7 @@ Im Tab "Erweitert" des Inspektors können Sie dem Rubrik Element einen Namen geb
 
     Wenn Sie planen ein Formular mit [Verzweigungen und Frageregeln](../learningresources/Form_Question_Rules.de.md) zu erstellen sollten Sie für Einzelauswahl und Mehrfachauswahl-Elemente undbedingt einen sinnvollen Namen vergeben. Das erleichtert Ihnen später die Zuordnung.
 
-Unter "Skalentyp" können Sie die Art der verwendeten Likert –Skala näher bestimmen und somit auch den Wertebereich definieren: Legen Sie fest an welchem Ende der Skala sich die positive Bewertung befindet und wo die Skala beginnen soll. Definieren Sie bei Bedarf auch die Bereiche für ungenügend, neutral und gut. Diese Information wird in der Auswertung des Formulars berücksichtigt.
+Unter "Skalentyp" können Sie die Art der verwendeten Likert–Skala näher bestimmen und somit auch den Wertebereich definieren: Legen Sie fest an welchem Ende der Skala sich die positive Bewertung befindet und wo die Skala beginnen soll. Definieren Sie bei Bedarf auch die Bereiche für ungenügend, neutral und gut. Diese Information wird in der Auswertung des Formulars berücksichtigt.
 
 #### Tab: Style
 

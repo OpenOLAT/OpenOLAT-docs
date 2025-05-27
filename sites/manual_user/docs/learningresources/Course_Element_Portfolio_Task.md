@@ -8,7 +8,7 @@ Name | Portfolio Task
 Icon | ![Portfolio task Icon](assets/portfolio_434343_64.png){ class=size24 }
 Available since | 
 Functional group | Assessment
-Purpose | Provision of a portolio folder for each course participant to work on
+Purpose | Provision of a portfolio folder for each course participant to work on
 Assessable | yes
 Specialty / Note |
 
@@ -22,7 +22,7 @@ Specialty / Note |
 
  !!! info "Note"
 
-    A learning resource [“Portfolio 2.0 Template”](../learningresources/Portfolio_template_Creation.md) is required for the portfolio assignment. This can either be created in the course element Portfolio assignment in the [tab "Learning content"](#tab_learning_content) or centrally in the authoring area.    
+    A learning resource ["Portfolio 2.0 Template"](../learningresources/Portfolio_template_Creation.md) is required for the portfolio assignment. This can either be created in the course element Portfolio assignment in the [tab "Learning content"](#tab_learning_content) or centrally in the authoring area.    
 
 ---
 
@@ -54,7 +54,7 @@ Once you have added a "Portfolio task" course element to the course, link the co
 
 ![course_element_portfolio_task_tab_learning_content_v1_de.png](assets/course_element_portfolio_task_tab_learning_content_v1_de.png){ class="shadow lightbox" }
 
-You can create a new portfolio template directly in the course via “Select or create portfolio template” or link a previously created template. 
+You can create a new portfolio template directly in the course via "Select or create portfolio template" or link a previously created template. 
 
 If you have added a template to the course element, this can be seen directly in the "Learning content" tab under "Selected portfolio template". The template can be edited via the "Edit" link. You can use the "Change portfolio template" link to add a different portfolio. Clicking on the name of the template will take you directly to the template folder. 
 
@@ -68,7 +68,7 @@ If you have added a template to the course element, this can be seen directly in
 
 ### Tab assessment {: #tab_assessment}
 
-In order for a portfolio to be assessed, the Assessment tab must also be configured in the course editor. 
+In order for a portfolio to be assessed, the "Assessment" tab must also be configured in the course editor. 
 
 ![course_element_portfolio_task_tab_assessment_v1_de.png](assets/course_element_portfolio_task_tab_assessment_v1_de.png){ class="shadow lightbox" }
 

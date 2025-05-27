@@ -1,128 +1,240 @@
-# Form elements
+# Form elements {: #form_elements} 
 
-You can insert the following content elements into a form layout using the “Add content" link:
+You can insert the following content elements into a form layout using the "Add content" link:
 
 ![form_content_types_v1_de.png](assets/form_content_types_v1_de.png){ class="shadow lightbox" }
 
+In general, all elements from the "Question types" section can be configured as mandatory or voluntary. Mandatory means that participants must complete this element in order to be able to save the form. With "voluntary", the form can also be saved if the element has not been completed. 
 
-## Title
+Furthermore, many elements can be provided with a special *hint box* (see below) and the size of the space between individual elements can also be defined in the "Layout" tab. 
 
-Inserting headings and formatting with h1 to h6.
+---
 
-![Form titel](assets/title.png){ class="shadow lightbox" }
 
-## Paragraph
+## Title {: #form_element_title} 
 
-Main element for adding text blocks, also for questions. The paragraph element contains central formatting and the possibility to distribute the text in columns.
+You use the "Title" content element for headings. You can select predefined formatting from h1 to h6 for the font size.
 
-![Form paragraph](assets/paragraph.png){ class="shadow lightbox" }
+![form_content_title_v1_de.png](assets/form_content_title_v1_de.png){ class="shadow lightbox" }
+
+[To the top of the page ^](#form_elements)
+
+---
+
+## Text {: #form_element_text} 
+
+The text element can be used to add all types of text, e.g. information or questions, to a form. A small editor enables various formatting, the addition of links, the addition of bullet points, etc...
+
+![form_content_text_v1_de.png](assets/form_content_text_v1_de.png){ class="shadow lightbox" }
+
+[To the top of the page ^](#form_elements)
+
+---
+
   
-## Table
+## Table {: #form_element_tabelle} 
 
 If required, add a table to the form and configure it.
 
-![Form table](assets/table.png){ class="shadow lightbox" }
+![form_content_table_v1_de.png](assets/form_content_table_v1_de.png){ class="shadow lightbox" }
+
+
+[To the top of the page ^](#form_elements)
+
+---
   
-## Image
+## Rubric {: #form_element_rubric}
 
-If necessary, add image elements to the form. To do this, upload a suitable graphic file. Then you can further configure the file, e.g. place a title or subtitle and also define the size, placement or border.
+A rubric element consists of a grid with rows and columns. The assessment categories or statements are listed in the rows, while the column headings reflect the assessment scales. In this way, several different statements can refer to one rating scale.
+Depending on the specific configuration, very different rubric variants can be created which can also be used in courses as an assessment element for teachers or as [Peer-Reviews](../learningresources/Course_Element_Task.md) in the task module.
 
-The positioning can also be further optimized by using the container element. 
+![Rubrik Element](assets/Rubrik.jpg){ class="shadow lightbox" }
 
-![Form image](assets/image.png){ class="shadow lightbox" }
+[To the top of the page ^](#form_elements)
+
+---
   
-## Rubric
+## Single choice {: #form_element_sc}
 
-Three different types are available for displaying a [rubric](Rubric.md). As with Single choice questions, the evaluations can relate to only one aspect or be continuous. Unlike the other question types, questions and answers are organized using the same element.
+In a single choice, course participants must select exactly 1 option from a list.
 
-![Form rubric](assets/rubic.png){ class="shadow lightbox" }
+* You can add further selection options to the list using the "Add entry" button.
+* The entries can be moved up or down using the arrow buttons.
+* The individual answer options can be displayed next to each other, one below the other or as a selection menu using the "Selection list" option.
 
-Further information can be found [here](Rubric.md).
+!!! Tip "Note"
+
+    If the selection is to be linked to a question, you must use a separate text element for this. The same applies to multiple selections.
+
+The individual selection can also be used as the basis (condition) for the [Question rules](Form_Question_Rules.md). This allows certain containers and their contents to be displayed depending on the answer selected by the user.
+
+Assign a meaningful name (title) to the element so that you can keep track of the question rules.
+
+![form_content_sc_v1_de.png](assets/form_content_sc_v1_de.png){ class="shadow lightbox" }
+
+[To the top of the page ^](#form_elements)
+
+---
+
+
+## Multiple choice {: #form_element_mc}
+
+In multiple choice, course participants can select several options from a list.
+
+* You can add further selection options to the list using the "Add entry" button.
+* The entries can be moved up or down using the arrow buttons.
+* The individual answer options can be displayed next to each other, one below the other or as a selection menu using the "Selection list" option. 
+* Participants can also be allowed to add answer options themselves.
+
+The multiple selection can also be used as a basis (condition) for the [Question rules](Form_Question_Rules.md). This allows certain containers and their contents to be displayed depending on the answer selected by the user.
+
+Assign a meaningful name (title) to the element so that you can keep track of the question rules.
+
+![form_content_mc_v1_de.png](assets/form_content_mc_v1_de.png){ class="shadow lightbox" }
+
+[To the top of the page ^](#form_elements)
+
+---
+
   
-## Single choice
+## Text input {: #form_element_text_input}
 
-Creates a single choice answer scale. The individual answers can be displayed next to each other, below each other or as a selection menu via the option "Selection list". The entries can be moved up or down using the arrow keys.
+This element gives participants the opportunity to enter their own text in the form (a kind of free text field).
 
-Under "Obligation", one can set the question as obligatory or optional.
+* Form creators can specify which entries are permitted (text, numbers only, date only).
+* The input field can be displayed on one or more lines.
 
-The single choice question can also be used as a basis (condition) for the question rules. This way, certain containers and their contents are displayed depending on the answer selected by the user.
+![form_content_text_input_v1_de.png](assets/form_content_text_input_v1_de.png){ class="shadow lightbox" }
 
-Give the element a meaningful name so that you can keep track of the question rules.
+[To the top of the page ^](#form_elements)
 
-![Form single choice](assets/formular_einzelauswahl.jpg){ class="shadow lightbox" }
+---
 
-## Multiple choice
-
-Creates a multiple choice selection scale. If necessary, participants can add additional items to the list. The order of the individual choices can be changed using the arrows.
-
-Under "Obligation", one can set the question as obligatory or optional.
-
-The multiple choice can also be used as a basis (condition) for the question rules. This way, certain containers and their contents are displayed depending on the predefined answer selected by the user.
-
-Give the element a meaningful name so that you can keep track of the question rules.
-
-![Form multiple choice](assets/formular_mehrfachwahl.jpg){ class="shadow lightbox" }
   
-## Text input
+## Upload file {: #form_element_file_upload}
 
-The text input provides the learner with a single or multiline field for text input. The text input can be obligatory or optional.
+This element gives learners the opportunity to upload files.
 
-![Form text input](assets/text.png){ class="shadow lightbox" }
+* Teachers can limit the file size.
+* The upload can be limited to certain file types (e.g. pdf or image files).
+
+![form_content_file_upload_v1_de.png](assets/form_content_file_upload_v1_de.png){ class="shadow lightbox" }
   
-## Upload file
+[To the top of the page ^](#form_elements)
 
-This element gives learners the ability to upload files. The Upload can be obligatory or optional.
+---
 
-![Form file upload](assets/upload.png){ class="shadow lightbox" }
-  
-## Information
 
-The Information element can be used to query further user-specific information such as name or age. One of the following three variants can be selected:
+## Information {: #form_element_info}
 
-a) the information is voluntary (optional)
-b) the information must be completed by the user (mandatory)
+The "Information" content element can be used to request further user-specific information. As the author, you determine which information is requested by ticking the checkboxes in the editor.
+
+One of the following 3 variants can be selected:
+
+a) the information is voluntary (optional)<br>
+b) the information must be completed by the user (mandatory)<br>
 c) the information is transferred automatically (automatically mandatory)
 
-This information causes the questionnaire to lose its anonymity.
+!!! info "Note"
 
-![Form user-specific information](assets/info.png){ class="shadow lightbox" }
+    Please note: This information makes the form anonymous.
 
-## Terms of use
+![form_content_info_v1_de.png](assets/form_content_info_v1_de.png){ class="shadow lightbox" }
 
-With this element the coach can add a declaration of consent to the form, which must be checked off by the users, otherwise only an intermediate storage is possible but no delivery of the questionnaire.
+[To the top of the page ^](#form_elements)
 
-![Form terms](assets/terms.png){ class="shadow lightbox" }
-  
-## Container
+---
 
-You can use containers to further structure forms. A 1-4 column layout is available. Nesting within a container field is also possible.
 
-Furthermore, containers can be used as collection elements and basis for the question rules (branching scenario).
+## Terms of use {: #form_element_terms_of_use}
 
-Containers without content are not displayed.
+This element adds a declaration of consent to the form, which must be ticked off by the user. Otherwise, the form can only be saved temporarily but not submitted.
+
+![form_content_terms_of_use_v1_de.png](assets/form_content_terms_of_use_v1_de.png){ class="shadow lightbox" }
+
+[To the top of the page ^](#form_elements)
+
+---
+
+## Image {: #form_element_picture}
+
+If you select "Image" in the pop-up with the overview of content elements after clicking on "Insert content", you will first be asked to upload an image file. Only after uploading will you return to the editor and the image element and the inspector will be displayed.
+
+![form_content_picture_v1_de.png](assets/form_content_picture_v1_de.png){ class="shadow lightbox" }
+
+In the inspector you will find the options for displaying the image:
+
+**Tab "Style"**
+
+* The **alignment** of the image within the layout area
+* Different scaling variants of the **image size**
+* Various **styles** (e.g. with frame, with shadow, etc.)
+* Options for display as **Hint box** 
+
+**Tab "Title"**
+
+* An input field for a **title** for the image
+* An indication of **where** the title should be displayed (above the image, centered on the image, etc.)
+* Selection of a **title style** (“light” for dark images, "dark" for lighter images)
+
+**Tab "Display"**
+
+* A **description** of the image, which can be called up by clicking on a small question mark symbol
+* A **caption** (displayed in a smaller font size below the image)
+
+[To the top of the page ^](#form_elements)
+
+---
+
 
 ## Seperator
 
 Separation line for structuring areas
 
-![Form seperator](assets/seperator.png){ class="shadow lightbox" }
+![form_content_separator_v1_de.png](assets/form_content_separator_v1_de.png){ class="shadow lightbox" }
+
+[To the top of the page ^](#form_elements)
+
+---
+
   
-## Question rules
+## Hint box
 
-(Branching - Working Title)
+The hint box is not a content element but an interesting function that is available for many content elements such as text, table, image, category, terms of use etc... It is activated in the "Style" tab and helps to emphasize an element.  
 
-With question rules, the display of containers can be made dependent on certain answers of the single or multiple choice (condition field). Thus, a container with the respective elements is only displayed if the user has selected a certain predefined answer.
+![form_content_text_box_v1_de.png](assets/form_content_text_box_v1_de.png){ class="shadow lightbox" }
 
-Several rules can be added to a form.
+The following configuration options are available.
 
-![Form Question rules](assets/question_rules_example.jpg){ class="shadow lightbox" }
+**Type**<br>
+The type is used to specify which pre-formatted version of the box is used or whether it is user-defined.
 
-## Tips for using the Form Editor
+The following types are available:
 
-Here are a few more tips for using the Form Editor:
+* Note
+* Information
+* Hint
+* Important
+* Warning
+* Mistake
+* Success
+* User-defined (Here you can choose an icon yourself and select the background color of the box).
 
-* For the "Rubric" choice, the questions and answers are created together.
-* For all other question types, the questions are created using the "Paragraph" element and assigned to the answers of the appropriate question type.
-* Use "Add entry" to add additional answer elements for single or multiple choice.
-* In addition to the questions, add further elements if required, e.g. "Terms of use" or "Information".
-* With the element "Container" you can create a multi-column design.
+**Title**<br>
+The title you enter here will appear in the head of the hint box.
+
+**With icon**<br>
+If you select this option, an icon is displayed in the top left-hand corner of the message box, e.g. an "i" if "Information" is selected as the type.
+
+**Foldable**<br>
+If you select this option, the entire box in the participant view can be collapsed by clicking on the icon in the top right-hand corner (only the title bar is displayed). Click on the icon again to display the box in normal size again.
+
+---
+
+
+## Further information
+
+[How do I create a form learning resource?](../../manual_how-to/create_a_form/create_a_form.md)<br>
+[The form editor](Form_Editor.md)<br>
+[The form element rubric](Form_Element_Rubric.md)<br>
+[Setting up question rules in the form](Form_Question_Rules.md)<br>

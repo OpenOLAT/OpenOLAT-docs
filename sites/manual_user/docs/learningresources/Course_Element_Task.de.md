@@ -185,7 +185,7 @@ Wählen Sie hier, ob Teilnehmende über die Zuweisung zu einer betreuenden Perso
 ---
 
 
-### Tab "Aufgabenstellung“  {: #assignment}
+### Tab "Aufgabenstellung"  {: #assignment}
 
 !!! info "Voraussetzung"
 
@@ -504,10 +504,11 @@ Je nach Konfiguration stehen im Schritt **"Zuweisung Aufgabenstellung"** eine od
 
 Wenn Sie eine Aufgabe gewählt haben oder Ihnen eine Aufgabe automatisch zugewiesen wurde, klicken Sie auf "Aufgabe herunterladen", um die Aufgabenstellung herunterzuladen bzw. anzeigen zu lassen. Wenn Sie auf den Dateinamen der Aufgabenstellung klicken wird die Aufgabe angezeigt. Die Aufgabe können Sie dann jederzeit wiederholt herunterladen.
 
-Es ist auch möglich, dass Ihre Lehrperson die Aufgabenstellung nicht in dem Kursbaustein "Aufgabe" hinterlegt hat, sondern einen anderen Ort z.B. einen anderen Kursbaustein, einer HTML-Seite,  eine externe Webseite gewählt hat oder die Aufgabenstellung mündlich in Präsenz oder in einem Online-Meeting gestellt hat. In diesem Fall erscheint der Abschnitt "Zuweisung Aufgabenstellung" nicht.
+Es ist auch möglich, dass Ihre Lehrperson die Aufgabenstellung nicht in dem Kursbaustein "Aufgabe" hinterlegt hat, sondern einen anderen Ort z.B. einen anderen Kursbaustein, einer HTML-Seite, eine externe Webseite gewählt hat oder die Aufgabenstellung mündlich in Präsenz oder in einem Online-Meeting gestellt hat. In diesem Fall erscheint der Abschnitt "Zuweisung Aufgabenstellung" nicht.
 
 [nach oben (Perspektive Kursteilnehmer:in) ^](#process_task)<br>
 [zum Seitenanfang ^](#course_element_task)
+
 
 ### Von wem werde ich betreut? {: #process_task_my_coach}
 
@@ -762,10 +763,10 @@ Es ist nicht möglich, dass nach einem Peer-Review eine Überarbeitung erfolgt u
 
 Es ist möglich, dass Betreuer:innen am Review teilnehmen wie Teilnehmer:innen. Sie haben dann für das Review sozusagen die Rolle eines/einer Teilnehmer:in und verwenden die gleichen Kriterien. 
 
-Das Review des/der Betreuer:in zählt in diesem Fall, wie die Reviews der übrigen Teilnhemer:innen.
+Das Review des/der Betreuer:in zählt in diesem Fall, wie die Reviews der übrigen Teilnehmer:innen.
 
 **Beispiel 1:**<br>
-Ein/e Reviewer:in fällt wegen Krankheit aus und der/die Betreuer:in springt als Reviewer:in ein. So wird sichergerstellt, dass alle die gleiche Anzahl Reviews erhalten.
+Ein/e Reviewer:in fällt wegen Krankheit aus und der/die Betreuer:in springt als Reviewer:in ein. So wird sichergestellt, dass alle die gleiche Anzahl Reviews erhalten.
 
 **Beispiel 2:**<br>
 Ein/eine Betreuer:in sieht, dass ein/e Reviewer:in ein Review falsch oder schlecht ausgeführt hat. Der/die Betreuer:in markiert darauf hin dieses Review als ungültig und macht selbst ein Review, damit diese Person wieder gleich viele Reviews erhalten hat.
@@ -806,7 +807,7 @@ Wenn ein Peer-Review durchgeführt wurde, müssen die Ergebnisse nicht zwangslä
 ## Weitere Informationen
 
 [Kursbaustein "Gruppenaufgabe" >](../learningresources/Course_Element_Grouptask.de.md)<br>
-[Kursbaustein "Portfolioaufgabe" >](../learningresources/Course_Element_Portfolio_Task/.de.md)<br>
+[Kursbaustein "Portfolioaufgabe" >](../learningresources/Course_Element_Portfolio_Task.de.md)<br>
 [Kursbaustein "Bewertung" >](../learningresources/Course_Element_Assessment.de.md#rubrik-bewertung)<br>
 [Rubrik-Formular >](../learningresources/Forms_in_Rubric_Scoring.de.md)<br>
 [Wie führe ich ein Peer-Review durch? >](../../manual_how-to/peer_review/peer_review.de.md)<br>
