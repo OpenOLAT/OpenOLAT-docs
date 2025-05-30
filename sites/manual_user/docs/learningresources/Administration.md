@@ -217,7 +217,7 @@ tbd
 [To the top of the page ^](#course_administration)
 
 
-## Cpy {: #copy}
+## Copy {: #copy}
 
 ![20_green_24.png](assets/20_green_24.png){ class=" aside-left-lg" }
 
