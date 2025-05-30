@@ -19,6 +19,7 @@ Chat and short messages can be activated and configured here.
 
 If the price reminders are activated here, the dispatch conditions are checked at the times specified here and the mails due are sent.
 
+[See the details >](Modules_Course_Reminders.md)<br>
 [To the top of the page ^](#modules)
 
 
@@ -152,12 +153,11 @@ Administrators can also purge course and group members here.
 
 
 
-## Events / Absences (up to release 19: Lessons) {: #lectures}
+## Events / Absences {: #events_and_absences}
 
 If event and absence management (before release 20: lesson and absence management) is activated here, it can be configured with a variety of options.  
 
 [See the details of "Events / Absences" >](Modules_Events_and_Absences.md)<br>
-[See the details of "Lessons" >](Lecture_and_roll_call_management.md)<br>
 [To the top of the page ^](#modules)
 
 
@@ -243,12 +243,11 @@ Requests to delete the account can be permitted here. An e-mail address can be e
 
 
 
-## Course Planner (up to release 19: Curriculum) {: #curriculum}
+## Course Planner {: #course_planner}
 
-If the "Course Planner" module (before release 20: module "Curriculum") is activated here, element types (before release 20: curriculum types) can be created and settings made for them.
+If the "Course Planner" module is activated here, element types can be created and settings made for them.
 
 [See the details of the Course Planner >](Modules_Course_Planner.md)<br>
-[See the details of module Curriculum >](Modules_Curriculum.md)<br>
 [To the top of the page ^](#modules)
 
 

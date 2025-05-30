@@ -1,4 +1,4 @@
-# Modules Course Planner {: #module_course_planner}
+# Module Course Planner {: #module_course_planner}
 
 
 ## Activation of the Course Planner {: #activation}

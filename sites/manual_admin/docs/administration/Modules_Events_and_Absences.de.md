@@ -1,5 +1,12 @@
 # Modul Termine und Absenzen {: #module_events_and_absences}
 
+
+!!! warning "Attention"
+
+    This article is still under construction.
+
+
+
 Bevor das Lektionen- und Absenzenmanagement genutzt werden kann, muss dies in
 der Administration aktiviert werden. 
 

@@ -1,5 +1,11 @@
 # Module Events and Absences {: #module_events_and_absences}
 
+
+!!! warning "Attention"
+
+    This article is still under construction.
+
+
 Before the lectures and absence management can be used it need to be activated
 in the administration. 
 

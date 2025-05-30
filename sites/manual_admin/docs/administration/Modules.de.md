@@ -19,6 +19,7 @@ Hier können Chat und Kurznachrichten aktiviert und konfiguriert werden.
 
 Sind die Kurserinnerungen hier aktiviert, werden zu den hier bestimmbaren Zeitpunkten die Versandbedingungen überprüft und die fälligen Mails verschickt.
 
+[Zu den Details >](Modules_Course_Reminders.de.md)<br>
 [Zum Seitenanfang ^](#modules)
 
 
@@ -152,12 +153,11 @@ Administrator:innen können hier auch Kurs- und Gruppenmitglieder bereinigen.
 
 
 
-## Termine / Absenzen (bis Release 19: Lektionen) {: #lectures}
+## Termine / Absenzen {: #events_and_absences}
 
 Wird hier das Management für Termine und Absenzen (vor Release 20: Lektionen- und Absenzenmanagement) eingeschaltet, kann es mit einer Vielzahl an Optionen konfiguriert werden. 
 
 [Zu den Details von "Termine / Absenzen" >](Modules_Events_and_Absences.de.md)<br>
-[Zu den Details des Lektionen- und Absenzenmanagements >](Lecture_and_roll_call_management.de.md)<br>
 [Zum Seitenanfang ^](#modules)
 
 
@@ -243,12 +243,11 @@ Hier können Anfragen zum Löschen des Kontos erlaubt werden. Für die Löschanf
 
 
 
-## Course Planner (bis Release 19: Curriculum) {: #curriculum}
+## Course Planner {: #course_planner}
 
-Wird das Modul "Course Planner" (vor Release 20: Modul "Curriculum") hier aktiviert, können Elementtypen (vor Release 20: Curriculumtypen) angelegt und Einstellungen dazu gemacht werden. 
+Wird das Modul "Course Planner" hier aktiviert, können Elementtypen angelegt und Einstellungen dazu gemacht werden. 
 
 [Zu den Details des Course Planners >](Modules_Course_Planner.de.md)<br>
-[Zu den Details des Curriculums >](Modules_Curriculum.de.md)<br>
 [Zum Seitenanfang ^](#modules)
 
 
