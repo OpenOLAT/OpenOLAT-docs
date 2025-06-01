@@ -7,7 +7,9 @@
 
 Im Unterschied zur allgemeinen Volltextsuche, die unter dem Lupensymbol in der Kopfzeile aufgerufen werden kann, ist die Suchfunktion im persönlichen Menü eine **Personensuche**. Das Suchformular enthält die entsprechenden Felder, mit denen die Suche eingegrenzt werden kann.
 
-![pers_menu_other_users_search_v1_de.png](assets/pers_menu_other_users_search_v1_de.png){ class="shadow lightbox"}
+Die zur Verfügung stehenden Suchfelder können je nach Rolle variieren. 
+
+![Personensuche](assets/Personensuche_20.png){ class="shadow lightbox"}
 
 !!! tip "Hinweis"
 
@@ -16,7 +18,7 @@ Im Unterschied zur allgemeinen Volltextsuche, die unter dem Lupensymbol in der K
 
 ## Weitere Informationen
 
-[Personensuche >](../basic_concepts/Search_Person.de.md)<br>
+Generelle Möglichkeiten der [Personensuche >](../basic_concepts/Search_Person.de.md)<br>
 
 [Allgemeines zur Suche >](../basic_concepts/Search_General.de.md)<br>
 [Globale Suche >](../basic_concepts/Search_Global.de.md)<br>

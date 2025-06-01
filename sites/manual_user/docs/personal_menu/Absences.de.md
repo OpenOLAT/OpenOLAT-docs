@@ -33,7 +33,7 @@ Darüber hinaus können über die Option "**Details**" weitere Einzelheiten ange
 Von Administrator:innen kann erlaubt werden (unter: Administration > Module > Lektionen), dass sich Teilnehmer:innen auch selbst abmelden können. Es erscheint dann der Button "Abmeldung" im Tab "Abmeldung / Dispense". Ansonsten werden in dieser Liste nur die von Betreuer:innen erfassten Abwesenheiten angezeigt.<br>
 
 
-![pers_menu_absences_dispensation_v1_de.png](assets/pers_menu_absences_dispensation_v1_de.png){ class="shadow lightbox"}
+![pers_menu_absences_dispensation_v1_de.png](assets/Abmeldung_Dispense.jpg){ class="shadow lightbox"}
 
 ## Tab Rekurse
 

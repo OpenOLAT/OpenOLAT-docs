@@ -2,34 +2,18 @@
 
 ![pers_menu_bookings_v1_de.png](assets/pers_menu_bookings_v1_de.png){ class="aside-right lightbox"}
 
-![icon_bookings.png](assets/icon_bookings.png)
+Unter „Buchungsaufträge“ im Bereich „Persönliche Werkzeuge“ finden OpenOlat Nutzer:innen eine Übersicht all ihrer gebuchten Kurse und Lernressourcen. Dabei erscheinen nur die Kurse und Lernressourcen, die auch mit einer [Buchungsmethode](../learningresources/Access_configuration.de.md), z.B. mit einem Kurscode verknüpft sind und vom Nutzer bzw. der Nutzerin gebucht wurden (Selbstregistrierung). Buchen kann dabei als Synonym für "belegen", "einschreiben" oder "einkaufen" verstanden werden.
 
+Lernressourcen bei denen die Besitzer:innen die Teilnehmenden manuell eintragen oder die Lernende über eine Gruppe zugeordnet werden, erscheinen hier *nicht*. 
 
-Wenn OpenOlat-Nutzer:innen als Mitglieder einem Kurs zugeordnet werden, kann dies geschehen
+![Meine Buchungsaufträge](assets/Meine_Buchungsauftraege.jpg){ class="aside-right lightbox"}
 
--  durch Kursbesitzer bzw. Personen, die über das Recht der Mitgliederverwaltung verfügen.<br> ([Kursadministration > Mitgliederverwaltung](../learningresources/Members_management.de.md#mitglieder-hinzufugen))
-- durch Selbstregistration (**Buchung**) der Teilnehmer:innen. Buchen kann dabei als Synonym für "belegen", "einschreiben" oder "einkaufen" verstanden werden.
+ Wählen Sie über das Zahnrad die Spalten aus, die Sie sehen möchten, z.B. den Angebotstyp (Code, frei verfügbar, PayPal) und den Titel des Angebots (= Inhalt). OpenOlat legt bei Buchung automatisch eine Buchungsnummer an, unter der diese Kursteilnahme verwaltet wird. Diese ist ebenfalls hier ersichtlich.
 
+Über das Icon rechts neben dem Zahnrad können Sie alle Buchungen downloaden. Des Weiteren könnten über das 3-Punkte-Menü die vorhandenen Infos zu einer konkreten Buchung gebündelt angezeigt werden.
+Sind für die die einzelnen Buchungen Rechnungsadressen von den OpenOlat [Administrator:innen](../../../manual_admin/docs/administration/Modules_Organisations.de.md) hinterlegt, können diese im Reiter Rechnungsadressen ausgelesen werden. 
 
-Um eine Übersicht zu erhalten, in welche Kurse man eingebucht ist, gibt es im persönlichen Menü eine Liste aller aktuell gebuchten Kurse.
-
-
-![pers_menu_bookings_example_v1_de.png](assets/pers_menu_bookings_example_v1_de.png){ class="shadow lightbox"}
-
-
-Alle Buchungen des Benutzers werden hier inklusive weiterer Buchungsinformationen aufgelistet.
-So ist z.B. ersichtlich, welche **Buchungsmethode** gewählt wurde.
-
-- **Zugangscode**<br> 
- Nur Personen, die über einen Zugangscode verfügen, können buchen. Vor dem ersten Öffnen muss dieser Code von dem/der Benutzer:in eingegeben werden. Auch eine zeitliche Begrenzung der Buchung mit dem Zugangscode kann definiert werden.
-- **Frei verfügbar**<br>
-Ein Zutritt ist ohne Passwort möglich. Alle Systembenutzer können die Ressource buchen und werden so als Teilnehmer:in hinzugefügt. Der freie Zugang kann zeitlich begrenzt werden.
-- **PayPal**<br>
-(Nur verfügbar, wenn vom Administrator freigeschaltet)
-
-OpenOlat legt bei Buchung eine Buchungsnummer an, unter der diese Kursteilnahme verwaltet wird.
-
-Die Möglichkeit zur Buchung kann z.B. im [Katalog](../area_modules/catalog2.0_angebote.de.md##wie-wird-ein-angebot-erstellt) angeboten werden, indem dort ein entsprechendes Angebot veröffentlicht wird.
+Die Möglichkeit zur Buchung erscheint ferner im [Katalog](../area_modules/catalog2.0_angebote.de.md##wie-wird-ein-angebot-erstellt), sofern das entsprechendes Angebot/die Lernressource dort veröffentlicht wurde.
 
 
 
