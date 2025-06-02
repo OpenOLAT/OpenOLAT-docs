@@ -148,7 +148,7 @@ Range of application
 | Course     | Assessment inspection | :fontawesome-solid-circle-xmark: | Cancelled | -                    |
 | Curriculum | Curriculum element    | :fontawesome-solid-ban:          | Finished  | 1./2.                |
 
-### Inactiv
+### Inactive
 
 Range of application
 
