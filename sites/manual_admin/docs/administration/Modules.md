@@ -1,6 +1,6 @@
 # Modules: Overview {: #modules}
 
-![admin_module_overview_v2_de.png](assets/admin_module_overview_v2_de.png){ class="shadow lightbox aside-left-lg" }
+![admin_module_overview_v3_de.png](assets/admin_module_overview_v3_de.png){ class="shadow lightbox aside-left-lg" }
 
 Administrators have access to the modules in this area:
 
@@ -95,13 +95,10 @@ The course element "Livestream" can be made available and configured here (Paell
 
 
 
-## Semester terms {: #semester_terms}
+## Time periods {: #time_periods}
 
-Create and manage semester dates to be able to refer to a semester designation
-instead of a date for course durations. The semester data created here can be
-used when configuring the execution period of a course in learning resource
-management. For example, "SuSe23" could be used as the designation and "Summer
-semester 2023" as the name.
+Create and manage time periods (e.g. semester dates) to be able to refer to a time period designation
+instead of a date for course durations. The time period created here can be used when configuring the execution period of a course in learning resource management. For example, "SuSe23" could be used as the designation and "Summer semester 2023" as the name.
 
 [To the top of the page ^](#modules)
 

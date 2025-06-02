@@ -1,6 +1,6 @@
 # Module: Übersicht {: #modules}
 
-![admin_module_overview_v2_de.png](assets/admin_module_overview_v2_de.png){ class="shadow lightbox aside-left-lg" }
+![admin_module_overview_v3_de.png](assets/admin_module_overview_v3_de.png){ class="shadow lightbox aside-left-lg" }
 
 In diesem Bereich haben Administrator:innen Zugriff auf die Module:
 
@@ -95,12 +95,10 @@ Hier kann der Kursbaustein "Livestream" verfügbar gemacht und konfiguriert werd
 
 
 
-## Semesterdaten {: #semester_terms}
+## Zeitabschnitte {: #time_periods}
 
-Erstellen und verwalten Sie Semesterdaten, um bei Kurslaufzeiten auf eine
-Semesterbezeichnung anstelle eines Datums verweisen zu können. Die hier
-erstellten Semesterdaten können bei der Konfiguration des
-Durchführungszeitraumes eines Kurses in der Lernressourcenverwaltung verwendet
+Erstellen und verwalten Sie Zeitabschnitte (z.B. Semesterdaten), um bei Kurslaufzeiten auf einen
+Zeitabschnitt anstelle eines Datums verweisen zu können. Die hier erstellten Zeitabschnitte können bei der Konfiguration des Durchführungszeitraumes eines Kurses in der Lernressourcenverwaltung verwendet
 werden. Als Bezeichnung könnten z.B. "SoSe23" und als Name "Sommersemester
 2023" verwendet werden.
 
