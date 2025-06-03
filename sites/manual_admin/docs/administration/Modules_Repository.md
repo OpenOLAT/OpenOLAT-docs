@@ -69,7 +69,7 @@ Various taxonomies can be created under **Administration > Modules > Taxonomy**.
 
 The activation and availability of these taxonomies in the repository can be carried out here under **Administration > Modules > Repository > Taxonomy** by administrators.
 
-[To module Taxonomy >](Modules_Taxonomy.de.md)<br>
+[To module Taxonomy >](Modules_Taxonomy.md)<br>
 [To the top of the page ^](#repository)
 
 ---

@@ -1,20 +1,24 @@
 # Projects - Administration
 
-Um zur Projekt Administration Ihres Projektes zu gelangen öffnen Sie das gewünschte Projekt und klicken rechts oben auf die 3 Punkte. Im aufgeklappten Menü erscheinen mehrere administrative Möglichkeiten. 
+To access the project administration of your project, open the desired project and click on the 3 dots at the top right. Several administrative options appear in the expanded menu. 
 
-Zur Administration eines Projektes gehören
+The administration of a project includes
 
-* die Konfiguration und Darstellung der Startseite (Projekt bearbeiten) 
-* die [Verwaltung der Mitglieder](../area_modules/Project_Member_Management.md) des Projektes
-* die Möglichkeit [Reports](../area_modules/Project_Report.md) herunterzuladen
-* Projekte zu kopieren
-* Projekte als Vorlage zu speichern
-* Projekte zu beenden und abzuschliessen
-* Projekte zu löschen
+* the configuration and display of the start page (edit project) 
+* the [member management](../area_modules/Project_Member_Management.md) of the project
+* the option to download [Reports](../area_modules/Project_Report.md)
+* copying projects
+* saving projects as a template
+* ending and completing projects
+* deleting projects
+
+!!! info "Info"
+
+    Which menu items appear in the area depends on the project role.
 
 ## Edit project
 
-This editing does not refer to editing the content (entering appointments, creating to-dos, etc.), but to **editing the start page** of the project.
+"Edit project" does not refer to editing the content (entering appointments, creating to-dos, etc.), but to **editing the start page** of the project.
 
 ![projekte_admin_projekt_bearbeiten_v2_de.png](assets/projekte_admin_projekt_bearbeiten_v2_de.png){ class="shadow lightbox" }
 

@@ -112,7 +112,7 @@ The Video Collection is a collection of all shared video learning resources of y
 
 Here you find a tool for collaborative project work with deadlines, to-dos, decision documentation, shared documents and more.
 
-[See the details >](Project_Overview.md.)<br>
+[See the details >](Project_Overview.md)<br>
 [To the top of the page ^](#sites)
 
 
@@ -134,7 +134,7 @@ As of :octicons-tag-24: Release 20, an extended, general course planning functio
 
 New users can be imported or created and configured in the user management. 
 
-[See the details >](../../manual_admin/usermanagement.md)<br>
+[See the details >](../../manual_admin/usermanagement/index.md)<br>
 [To the top of the page ^](#sites)
 
 

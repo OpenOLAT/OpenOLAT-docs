@@ -9,9 +9,16 @@ If someone is interested in a specific offer, the corresponding information page
 
 If the user decides to attend a course, it can be accessed directly from the catalog, or the user is taken to the entry page where registration data may have to be entered.
 
-## Where can I find the catalog 2.0?
+[To the top of the page ^](#catalog_overview)
 
-OpenOlat users can find the catalog in the **header menu**.
+---
+
+
+## Where can I find the catalog 2.0? {: #catalog_access}
+
+This depends on whether you are already registered as user:in in OpenOlat or not.
+
+The **registered OpenOlat users** can find the catalog in the **header menu**.
 
 ![catalog20_kopfzeilenmenu_v1_de.png](assets/catalog20_kopfzeilenmenu_v1_de.png){ class="shadow lightbox" }
 
@@ -21,8 +28,16 @@ Requirement: The catalog must be activated in the [administration](../../manual_
 
     If you do not see the entry in the menu, but are sure that Catalog 2.0 is being used, please look under "More" on the far right. All menus that cannot be displayed directly due to the display width of the monitor/device are moved here.
 
+**Non-registered OpenOlat users** can access an externally accessible, mirrored version of the catalog. (From Release 20 and if this so-called web catalog is activated.) Access is possible directly from the login screen. However, the link to the web catalog can also be integrated elsewhere in a website.
 
-## The components of the catalog
+![catalog20_webcatalog_login_v1_de.png](assets/catalog20_webcatalog_login_v1_de.png){ class="shadow lightbox" }
+
+[To the top of the page ^](#catalog_overview)
+
+---
+
+
+## The components of the catalog {: #catalog_elements}
 
 Catalog 2.0 contains the following components:
 
@@ -34,9 +49,12 @@ Catalog 2.0 contains the following components:
 
 ![catalog20_bestandteile_v1_de.png](assets/catalog20_bestandteile_v1_de.png){ class="shadow lightbox" }
 
+[To the top of the page ^](#catalog_overview)
+
+---
 
 
-## What pages and displays does the catalog have?
+## What pages and displays does the catalog have? {: #catalog_views}
 
 **Page/Display 1:**<br>
 If you call up the catalog (2.0) in the header, you will first be taken to the landing page with the launchers.
@@ -67,4 +85,16 @@ If a microsite is opened first, you can display the [Info pages](../learningreso
     The list view can be customized using the filters.
 
 
+[To the top of the page ^](#catalog_overview)
 
+---
+
+
+## Further information {: #further_information}
+
+[Create offer >](../area_modules/catalog2.0_angebote.md)<br>
+[Catalog design >](../area_modules/catalog2.0_design.md)<br>
+[The web catalog >](../area_modules/catalog2.0_web.md)<br>
+[Set up catalog (admin manual) >](../../manual_admin/administration/Modules_Catalog_2.0.md#config_web-catalog)<br>
+
+[To the top of the page ^](#catalog_overview)

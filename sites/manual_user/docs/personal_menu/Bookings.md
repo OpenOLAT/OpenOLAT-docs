@@ -4,32 +4,20 @@
 
 ![icon_bookings.png](assets/icon_bookings.png)
 
+Under "Booking requests" in the "Personal tools" section, OpenOlat users can find an overview of all their booked courses and learning resources. 
+Only those courses and learning resources appear that are also linked to a [booking method](../learningresources/Access_configuration.md), e.g. with a course code, and have been booked by the user (self-registration). Booking can be understood as a synonym for "enroll", "register" or "purchase".
 
-If OpenOlat users are assigned to a course as members, this can be done
-
-- by course owners or persons who have the right to manage members. <br> ([Course administration > Members management](../learningresources/Members_management.md#adding-members))
-- through self-registration (**booking**) by the participants. Booking can be understood as a synonym for "booking", "registering" or "purchasing".
-
-
-To get an overview of which courses you are enrolled in, there is a list of all currently booked courses in the personal menu.
-
+Learning resources where the owners enter the participants manually or the learners are assigned via a group do *not* appear here.
 
 ![pers_menu_bookings_example_v1_de.png](assets/pers_menu_bookings_example_v1_de.png){ class="shadow lightbox"}
 
+Use the cogwheel to select the columns you want to see, e.g. the offer type (code, freely available, PayPal) and the title of the offer (= content). When a booking is made, OpenOlat automatically creates a booking number under which this course participation is managed. This can also be seen here.
 
-All of the user's bookings are listed here, including further booking information.
-For example, you can see which **booking method** has been selected.
+You can download all bookings via the icon to the right of the cogwheel. Furthermore, the 3-dot menu can be used to display the available information on a specific booking in a bundle.
+If the OpenOlat [Administrator](../../manual_admin/docs/administration/Modules_Organizations.md) has stored invoice addresses for the individual bookings, these can be read out in the Invoice addresses tab.
 
-- **Access code**<br>
-  Only persons who have an access code can book. This code must be entered by the user before the first opening. A time limit for booking with the access code can also be defined.
-- **Available for free**<br>
-  Access is possible without a password. All system users can book the resource and are thus added as participants. Free access can be limited in time.
-- **PayPal**<br>
-  (Only available if enabled by the administrator)
+The option to book will also appear in the [catalog](../area_modules/catalog2.0_angebote.md##how-we-create-an-offer), provided that the corresponding offer/learning resource has been published there.
 
-OpenOlat creates a booking number at the time of booking, under which this course participation is managed.
-
-The possibility of booking can be offered, for example, in the [catalog](../area_modules/catalog2.0_angebote.md#how-is-an-offer-created) by publishing a corresponding offer there.
 
 ## Further information
 

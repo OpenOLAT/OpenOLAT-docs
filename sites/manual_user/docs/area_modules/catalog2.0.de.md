@@ -7,7 +7,7 @@ Im Katalog können die in OpenOlat erstellten Kurse und Lernressourcen für die 
 
 Interessiert sich jemand genauer für ein bestimmtes Angebot, kann zu jedem Eintrag die zugehörige Infoseite aufgerufen werden.
 
-Entscheidet sich die Benutzerin / der Benutzer zum Besuch eines Kurses, kann dieser direkt vom Katalog aus aufgerufen werden, bzw. man gelangt zur Einstiegsseite, auf der ggf. Anmeldedaten eingegeben werden müssen.
+Entscheidet sich der/die Benutzer:in zum Besuch eines Kurses, kann dieser direkt vom Katalog aus aufgerufen werden, bzw. man gelangt zur Einstiegsseite, auf der ggf. Anmeldedaten eingegeben werden müssen.
 
 [Zum Seitenanfang ^](#catalog_overview)
 

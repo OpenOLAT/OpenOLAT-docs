@@ -1,44 +1,55 @@
 # My portfolio binders
 
-In the personal menu every user gets access to his portfolio via the link "To my binders" to his portfolio folders.
+Every user has access to their portfolio in the personal menu. The link "To my portfolios" takes you to all your own portfolio folders and you can also create new folders.
 
-![my_binders.png](assets/portfolio_meine_mappen.png)
+![meine_mappen.png](assets/Meine_Mappen.jpg)
 
-Furthermore, new portfolio folders can be created here under "Create new folders". Via the gear icon the existing folders can be moved or exported as CP. In a folder directly there are also further export options like PDF export and export to a page.
 
-!!! warning "Attention"
+## The 2 types of binders
 
-    There are two places under "My Folders" where new folders can be created. Once on the top right (see previous screenshot and integrated into the page.) This second option offers more creation possibilities for the portfolio folders.
+There are basically two types of binders:
 
-![create_binder.png](assets/portfolio_mappe_erstellen2.jpg.png)
+* Folders collected in a course
+* Self-created, course-independent portfolios
 
-# The 2 types of folders
 
-There are basically two types of folders:
-
-1. Collected binders
-2. Self created binders 
-
-## Collected binders
+### Collected binders
 
 You can recognize the retrieved folders by the red border and the reference to the corresponding course. These folders are based on a "[Portfolio 2.0 template](../learningresources/Portfolio_template_Creation.md)" and are usually created by another person, usually the teacher. The collection takes place in the course via the "[Portfolio Task](../learningresources/Course_Element_Portfolio_Task.md)". Alternatively, it is also possible to book and collect portfolio templates independently of the price.
 
-As soon as a portfolio folder has been collected by the learner, it appears in the "My binders" area of the respective collector. When a user opens this folder, he/she can select the tasks stored there (free text or form type) and edit the portfolio activities provided by storing various artefacts (texts, files, etc.) or filling in a form.
+As soon as a portfolio folder has been collected by the learner, a copy of the template is created and the collected folder appears in their personal portfolio area under "My folders". When the user opens this folder, they can select or collect the tasks stored there (free text or form type) and edit the portfolio activities provided by storing various artifacts (texts, files, images, etc.) or filling out a prepared form.
 
-!!! tip "Hint"
+In the [Portfolio Editor](../area_modules/The_portfolio_editor_17_1.md), a layout must always be selected first before it can be filled with content and artifacts, optionally also from the [Media Center](../basic_concepts/Media_Center_Concept.md). Several layouts can also be used for a provided task. 
 
-    By default it is not possible to create own entries in a collected binder. But all contents of the [media center](../personal_menu/Media_Center.md) can be inserted into an entry.
+Alternatively, already created portfolio entries can also be linked via the ["Reference content"](Multiple_use_of_entries.md) button. Changes to the entries will then be reflected in all referenced locations.
 
-The "Add content" button takes you to the Portfolio Editor. Here various elements can be added and also grouped with the container element. By clicking on the plus sign, further blocks can be added and moved via drag and drop.
+!!! tip "Attention"
 
-As an alternative to adding content, already created portfolio entries can also be linked via the ["Reference content"](Multiple_use_of_entries.md) button. Changes to the entries are then possible at all referenced points.
+    "However, users cannot create new *"sections"* in a retrieved portfolio binder. By default, creating their own "entries" is also disabled.
 
-## Self created binders
+### Individual portfolio binders
 
-In general, all OpenOlat users are allowed to create their own portfolio binders. You can find out how to add content to the portfolios in the chapter ["Three steps to your portfolio binder"](../portfolio/Three_steps_to_your_portfolio_binder.md) and ["The Portfolio Editor"](The_portfolio_editor.md).
+All OpenOlat users can create individual, independent, personal portfolio binders with sections, entries, and various types of content. This allows them, for example, to document and support their own learning process without the need for a course context or formal instructional framework.
+
+In the "My Folders" section, there are two places where new binder can be created.
+
+
+#### a) Through the link "Create new binder" at the top right
+
+This way, users can quickly create a new, empty portfolio binder. All portfolio features are generally available, including the design of sections, editing metadata, exporting the binder, deleting the folder, and assigning access rights.
+
+#### b) Via the dropdown menu integrated into the portfolio folder page
+
+This provides an additional way to create a new binder.
+
+![mappe_erstellen.png](assets/portfolio_mappe_erstellen2.jpg.png)
+
+In addition to the option of creating an empty binder as described in a), there are the following additional options:
+* **"Create binder based on template"**: A Portfolio 2.0 template for which the user has permission can be used as the basis.
+* **"Create binder for portfolio task from course"**: Portfolio tasks from the user's own courses are displayed here, and one can be selected. This approach leads to the same result as when the user retrieves the portfolio directly from the course.
+* **"Create binder from entries"**: The user can bundle previously created entries into a new portfolio binder. A wizard guides the user step by step through the selection process.
+
 
 !!! info "Info"
 
-    The possibility to create own binders can be restricted by your administrator.
-
-    
+    The ability to create folders yourself can be restricted by your [administrator](../../manual_admin/administration/eAssessment_ePortfolio.md).

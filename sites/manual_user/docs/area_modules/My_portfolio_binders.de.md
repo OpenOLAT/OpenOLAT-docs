@@ -50,7 +50,7 @@ Neben der Möglichkeit eine leere Mappe wie über den a) zu erstellen gibt es no
 
 !!! info "Info"
     
-    Die Möglichkeit, selbst Mappen zu erstellen, kann von Ihrem [Administrator](../../manual_admin/administration/eAssessment_ePortfolio.de.md)eingeschränkt werden.
+    Die Möglichkeit, selbst Mappen zu erstellen, kann von Ihrem [Administrator](../../manual_admin/administration/eAssessment_ePortfolio.de.md) eingeschränkt werden.
 
     
 

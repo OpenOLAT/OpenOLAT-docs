@@ -31,7 +31,7 @@ By clicking on the name of a participant (via the "Overview" or "Participants" t
 
 ## B) Assessment tool {: #by_assessment_tool}
 
-If you are not only interested in a single course element, but would like to get an overview of the performance of the entire course, the most important tool for coaches is the [Assessment tool ](../manual_user/learningresources/Assessment_tool_overview.md). You can find it under Administration.
+If you are not only interested in a single course element, but would like to get an overview of the performance of the entire course, the most important tool for coaches is the [Assessment tool ](../../manual_user/learningresources/Assessment_tool_overview.md). You can find it under Administration.
 
 ![progress_information_assessment_tool_v1_de.png](assets/progress_information_assessment_tool_v1_de.png){ class="shadow lightbox" }
 

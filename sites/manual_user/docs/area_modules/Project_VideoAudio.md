@@ -33,20 +33,20 @@ Select this option if your video is already in the Files area of the project. Yo
 
 ### Add link 
 
-Hier können Sie über "Datei hochladen" Ihre Video Datei hochladen. Sie wird dann im Bereich "Dateien" des Projektes abgelegt und mit dem Objekt passend verlinkt. 
+Here you can upload your video file via "Upload file". It will then be stored in the "Files" section of the project and linked to the object. 
 
-!!! warning "Achtung"
+!!! warning "Attention"
 
-    Mit Verlinkung ist hier nicht ein Link zu einer extern im Internet vorliegenden Video-Datei z.B. in YouTube gemeint. Derartige Links können z.B. über eine HTML-Seite mit entsprechenden Links hergestellt werden. 
+    Linking here does not mean a link to an external video file available on the Internet, e.g. on YouTube. Such links can be created, for example, via an HTML page with corresponding links. 
 
 
 ## Download
 
-In particular, you will probably sometimes want to download video and audio files that you have recorded directly in OpenOlat. As all project-related videos that you have uploaded or created in Olat are stored in the “Files” area, you can also download or delete them there. 
+In particular, you will probably sometimes want to download video and audio files that you have recorded directly in OpenOlat. As all project-related videos that you have uploaded or created in Olat are stored in the "Files" area, you can also download or delete them there. 
 
 ![Einzelne Video Datei herunterladen](assets/Projekt_Video_herunterladen1.jpg){ class="shadow lightbox" }
 
-Um mehrere Dateien auf einmal herunterzuladen verwenden Sie am besten sie Tabellenansicht. Hier können Sie auf einen Schlag mehrere Dateien herunterladen oder löschen. 
+To download several files at once, it is best to use the table view. Here you can download or delete several files at once. 
 
 If you want to download all files at once, use the button with the 3 dots at the top right. The zip file created in this way also contains the video and audio files.
 

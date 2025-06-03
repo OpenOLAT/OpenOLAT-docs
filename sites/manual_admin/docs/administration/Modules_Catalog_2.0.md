@@ -125,5 +125,5 @@ Can be set directly in the course and should not exceed the dimensions 570x380 p
 
 ## Further information {: #further_information}
 
-[Taxonomie einrichten >](Modules_Taxonomy.de.md)<br>
-[Beschreibung des Katalogs im Benutzerhandbuch >](../../manual_user/area_modules/catalog2.0.de.md)<br>
+[Taxonomie einrichten >](Modules_Taxonomy.md)<br>
+[Beschreibung des Katalogs im Benutzerhandbuch >](../../manual_user/area_modules/catalog2.0.md)<br>

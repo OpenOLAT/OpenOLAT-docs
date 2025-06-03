@@ -11,7 +11,7 @@ Auch um den Katalog durchblättern zu können, muss man ohne den Web-Katalog ber
 
 ## Situation mit Web-Katalog {: #with_web_catalog}
 
-Ab Release 20 können in OpenOlat Angebote hinterlegt werden, die in einem externen Web-Katalog angezeigt werden. „Extern“ bedeutet, dass der Katalog nach ausserhalb der „Registrierungsmauer“ gespiegelt wird und dort ohne Registrierung aufgerufen werden kann. Die Ausgangsversion des Katalogs (innerhalb der „Registrierungsmauer“), die nur von registrierten Benutzer:innen aufgerufen werden kann, muss ein Katalog V2 sein. Ein Katalog V1 kann nicht als Web-Katalog angezeigt werden.
+Ab Release 20 können in OpenOlat Angebote hinterlegt werden, die in einem externen Web-Katalog angezeigt werden. "Extern" bedeutet, dass der Katalog nach ausserhalb der "Registrierungsmauer" gespiegelt wird und dort ohne Registrierung aufgerufen werden kann. Die Ausgangsversion des Katalogs (innerhalb der "Registrierungsmauer"), die nur von registrierten Benutzer:innen aufgerufen werden kann, muss ein Katalog V2 sein. Ein Katalog V1 kann nicht als Web-Katalog angezeigt werden.
 
 Auch die Preise und die Anzahl der in einem Kurs verfügbaren Plätze sind im Web-Katalog ersichtlich. 
 

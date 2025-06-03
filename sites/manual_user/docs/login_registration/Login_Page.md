@@ -1,4 +1,4 @@
-# Login Page
+# Login Page {: #login}
 
 On the start page, you must prove that you have access authorization to OpenOlat. However, you can also gain access as a guest.
 Please note that the exact access options may vary slightly depending on the OpenOlat instance.
@@ -40,11 +40,11 @@ OpenOlat works optimally with the following browsers in a current version (mobil
 * [Google Chrome](https://www.google.com/chrome/)
 
 
-## Cookies & Javascript
+## Cookies & Javascript {: #cookies}
 
 In any case, your browser must accept session cookies, and Javascript must be enabled.
 
-## After login
+## After login {: #after_login}
 
 After your login you will navigate either to 
 
@@ -52,3 +52,10 @@ After your login you will navigate either to
 * an info page, a page which usually contains general information on various topics, 
 * to the [OpenOlat portal](../basic_concepts/Portal_configuration.md) or 
 * a landing page defined by you. 
+
+
+## After calling up the catalog {: #webcatalog}
+
+When accessing the catalog on the login page, a mirrored version of catalog V2 is displayed, which does not require user registration to browse. Only when a specific course is to be booked are users guided through a registration process.
+
+
