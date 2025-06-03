@@ -66,7 +66,7 @@ By clicking on the name of a user you will get to the concrete assessment. Here 
 
 ![assessment form](assets/Bewertung_Bewerutngsformular_mit_Rubrik.png){ class="shadow lightbox" }
 
-If you have stored a [rubric](../learningresources/Rubric.md) as the basis for assessment, you can quickly and effectively carry out a criteria-based assessment.
+If you have stored a [rubric](../learningresources/Form_Element_Rubric.md) as the basis for assessment, you can quickly and effectively carry out a criteria-based assessment.
 
 In addition, bulk assessment is also possible for the course element "Assessment".
 

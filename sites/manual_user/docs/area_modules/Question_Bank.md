@@ -18,7 +18,7 @@ Users with **author rights** and administrative roles have **access** to a quest
 !!! note "Quick Links"
 
     * [Data Management](Data_Management.md)
-    * [Import questions](Question_Pool_Import_Questions.md)
+    * [Import questions](Question_Bank_Import_Questions.md)
     * [Item Detailed View](Item_Detailed_View.md)
     * [Question bank possible operations](Question_bank_possible_operations.md)
     * [Search](../basic_concepts/Search_General.md)
@@ -87,3 +87,4 @@ This chapter explains how individual test questions, called items, can be create
 [More about the review process >](Question_Bank_Review_Process.md)<br>
 
 [To the top of the page ^](#question_bank)
+
