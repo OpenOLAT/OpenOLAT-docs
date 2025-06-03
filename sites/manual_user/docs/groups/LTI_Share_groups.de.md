@@ -110,9 +110,9 @@ xxxx
 
 Benutzerhandbuch: [LTI-Zugang zu einem Kurs konfigurieren](https://docs.openolat.org/de/manual_user/learningresources/LTI_Share_courses/?h=lti)
 
-Benutzerhandbuch: [Kursbaustein "LTI-Seite“](http://docs.openolat.org/de/manual_user/learningresources/Course_Element_LTI_Page/)
+Benutzerhandbuch: [Kursbaustein "LTI-Seite"](http://docs.openolat.org/de/manual_user/learningresources/Course_Element_LTI_Page/)
 
-Benutzerhandbuch: [LTI Deep Linking](../administration/LTI_Deeplinking.de.md)
+Benutzerhandbuch: [LTI Deep Linking](../../manual_admin/administration/LTI_Deeplinking.de.md)
 
 Administrationshandbuch: [LTI 1.3 Integrationen im Überblick](http://docs.openolat.org/de/manual_admin/administration/LTI_Integrations/)
 

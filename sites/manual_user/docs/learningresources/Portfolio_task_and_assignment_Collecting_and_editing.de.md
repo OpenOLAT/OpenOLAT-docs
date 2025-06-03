@@ -25,9 +25,7 @@ Im persönlichen Portfolio sind alle aus einem Kurs abgeholten Portfolioaufgaben
 
 Öffnen Sie die Mappe der Portfolioaufgabe. Je nachdem wie der Lehrende die Portfolioaufgabe vorstrukturiert hat stehen Ihnen unterschiedliche Bereiche mit Portfolioaufgaben zur Verfügung. 
 
-Klicken Sie entweder im Tab „Überblick“ oder „Einträge“ auf einen Mappen Bereich und "Wählen Sie eine Aufgabe zur Bearbeitung". Anschliessend sind die zugehörige Aufgabenstellung sowie der Bearbeitungseditor sichtbar.
-
-![](assets/3_Portfolio.png)  
+Klicken Sie entweder im Tab "Überblick" oder "Einträge" auf einen Mappen Bereich und "Wählen Sie eine Aufgabe zur Bearbeitung". Anschliessend sind die zugehörige Aufgabenstellung sowie der Bearbeitungseditor sichtbar.
   
 
 Nun können die Aufgaben mit dem Portfolio Editor bearbeitet und passende Inhalte (Texte, Bilder, Videos usw.) und Artefakte über den Portfolio
@@ -37,8 +35,6 @@ Editor hinzugefügt werden.
   
 Enthält die Portfolioaufgabe Formulare können diese ebenfalls ausgefüllt werden. Sofern in den Einstellungen der Portfolio Vorlage konfiguriert, dürfen die User auch neue Einträge ergänzen oder die gesamte abgeholte Mappe löschen.
 
-
-![](assets/5_Portfolio.png)  
   
 ## Bearbeitungsstatus
 
@@ -74,17 +70,13 @@ Sie können Portfolio Mappen sowohl an andere OpenOlat User (Lehrende, Lernende)
   
 a) Öffnen Sie den Tab Freigabe.  
 
-b) Klicken Sie rechts oben auf den Link "Zugangsrecht hinzufügen".    
-  
-![](assets/Portfoliomappe_freigeben.png)
+b) Klicken Sie rechts oben auf den Link "Zugangsrecht hinzufügen".  
   
 c) Wählen Sie die gewünschte Option z.B. "Kursbetreuer auswählen", um die entsprechende Personengruppe oder Einzelperson hinzuzufügen. Für die Freigabe an externe Personen, auch ohne OpenOlat Account, wählen Sie "Einladung hinzufügen". Es werden dann Einladungen per
 E-Mail verschickt.  
   
 d) Im erscheinenden Dialog definieren Sie welche Bereiche Sie der bzw. den gewählten Personen bereitstellen wollen und ob die Personen Bewertungen und oder Kommentierungen vornehmen dürfen. Externe Personen können nur kommentieren aber
 nicht bewerten.
-
-![](assets/pf_aufgabeabholen_auswahl_DE.png)  
   
 Es kann auch eine E-Mail Benachrichtigung mit Link zur entsprechenden Mappe
 verschickt werden.  

@@ -88,7 +88,7 @@ Weitere Informationen zum Thema Podcast finden Sie [hier](../learningresources/P
 
 In einem Blog können fachbezogene oder persönliche Informationen zeitlich strukturiert veröffentlicht und kommentiert werden. Blogs werden häufig als Online-Tagebuch oder Online-Journal eingesetzt. In Kursen eingebundene Blogs können auch von Kursteilnehmenden auf einfache Art bewertet und kommentiert werden.
 
-Hier finden Sie weitere Infos über den [Kursbaustein Blog](../learningresources/Course_Element_Blog.de.md). Informationen dazu, wie Sie einen Blog erstellen und in Ihren Kurs einbinden, finden Sie im ["How to Bereich"](../../../manual_how-to/docs/blog/blog.de.md). 
+Hier finden Sie weitere Infos über den [Kursbaustein Blog](../learningresources/Course_Element_Blog.de.md). Informationen dazu, wie Sie einen Blog erstellen und in Ihren Kurs einbinden, finden Sie im ["How to Bereich"](../../manual_how-to/blog/blog.de.md). 
 
 [zum Seitenanfang ^](#learning_resources)
 

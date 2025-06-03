@@ -17,9 +17,9 @@ Der Kursbaustein "Bewertung" eignet sich, um Leistungen zu bewerten, welche nich
 
 ## Bewertung im Kurseditor erstellen und einrichten
 
-Die Konfiguration des Kursbausteins Bewertung erfolgt im Kurseditor im Tab „Bewertung“. Hier können Sie die Bewertung so konfigurieren, dass
+Die Konfiguration des Kursbausteins Bewertung erfolgt im Kurseditor im Tab "Bewertung". Hier können Sie die Bewertung so konfigurieren, dass
 
-  * ein [Rubrik](../learningresources/Rubric.de.md) als Basis für die Bewertung verwendet wird,
+  * ein [Rubrik](../learningresources/Form_Element_Rubric.de.md) als Basis für die Bewertung verwendet wird,
   * Punkte vergeben werden (oder nicht),
   * Bestanden/nicht bestanden angezeigt wird,
   * ein individueller Kommentar hinzugefügt werden kann,
@@ -37,7 +37,7 @@ Die Einstellungen haben Einfluss auf die späteren Bewertungsoptionen und den f�
 ## Tab "Bewertung" konfigurieren
 
 ### Rubrik-Bewertung
-Eine interessante Möglichkeit der Kriterien basierten Bewertung mit Hilfe des Kursbausteins "Bewertung" bietet die [Rubrik-Bewertung](../learningresources/Forms_in_Rubric_Scoring.de.md).
+Eine interessante Möglichkeit der Kriterien basierten Bewertung mit Hilfe des Kursbausteins "Bewertung" bietet die [Rubrik-Bewertung](../learningresources/Form_Element_Rubric.de.md).
 
 Dabei wird ein OpenOlat Formular, das mindestens ein Rubrik-Element enthält, mit dem Kursbaustein Bewertung verknüpft. Anschliessend kann die durch das Rubrik-Formular generierte Punktzahl automatisch als Summe oder Durchschnitt übernommen werden. Bei der Wahl der "Summe" werden die Punkte, die pro Zeile vergeben werden, aufaddiert. Bei der Wahl "Durchschnitt" wird die Durchschnittsumme aller Rubrik-Zeilen ermittelt. Alternativ kann auch eine manuelle Punktevergabe gewählt oder ganz auf Punkte verzichtet werden.
 

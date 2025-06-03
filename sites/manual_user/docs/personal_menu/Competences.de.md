@@ -26,9 +26,9 @@ Das Vergeben bzw. der Erwerb von Kompetenzen kommt neben der Anzeige in den pers
 
 Im Administrationshandbuch:
 
-- [Fragenpool](../../../manual_admin/docs/administration/eAssessment_Question_bank.de.md) (Administration)
-- [Modul Taxonomie](../../../manual_admin/docs/administration/Modules_Taxonomy.de.md) (Administration)
-- [REST API](../../../manual_admin/docs/administration/REST_API.de.md) (Administration)
-- Benutzerprofil der [Benutzerverwaltung](../../../manual_admin/docs/usermanagement/Configure_User.de.md) (Administration)
+- [Fragenpool](../../manual_admin/administration/eAssessment_Question_bank.de.md) (Administration)
+- [Modul Taxonomie](../../manual_admin/administration/Modules_Taxonomy.de.md) (Administration)
+- [REST API](../../manual_admin/administration/REST_API.de.md) (Administration)
+- Benutzerprofil der [Benutzerverwaltung](../../manual_admin/usermanagement/Configure_User.de.md) (Administration)
 
 

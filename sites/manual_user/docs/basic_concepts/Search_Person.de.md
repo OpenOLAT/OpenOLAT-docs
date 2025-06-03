@@ -2,7 +2,7 @@
 
 ## Personensuche im persönlichen Menü {: #personal_menu}
 
-Suchen Sie eine bestimmte Person (aus dem Personenkreis der auf Ihrer OpenOlat-Instanz registrierten Benutzer), dann verwenden Sie dazu am besten die [Personensuche im persönlichen Menü](../../personal_menu/Other_users.de.md).
+Suchen Sie eine bestimmte Person (aus dem Personenkreis der auf Ihrer OpenOlat-Instanz registrierten Benutzer), dann verwenden Sie dazu am besten die [Personensuche im persönlichen Menü](../basic_concepts/Search_Person.de.md).
 
 Das Suchformular enthält die entsprechenden Felder, mit denen die Suche eingegrenzt werden kann.
 
@@ -36,7 +36,7 @@ Auch eine [Massensuche](Search_General.de.md#bulk_search) steht zur Verfügung.
 
 ## Personensuche im Coaching Tool {: #coachingtool}
 
-Das Coaching Tool dient der kursübergreifenden Betreuung von Teilnehmer:innen. Bei vielen Kursen und Teilnehmer:innen hilft eine [Personensuche](../../area_modules/coaching_personensuche.de.md), die nur innerhalb des von Ihnen betreuten Personenkreises sucht.
+Das Coaching Tool dient der kursübergreifenden Betreuung von Teilnehmer:innen. Bei vielen Kursen und Teilnehmer:innen hilft eine [Personensuche](../area_modules/coaching_personensuche.de.md), die nur innerhalb des von Ihnen betreuten Personenkreises sucht.
 
 ![search_person_in_coachingtool_v1_de.png](assets/search_person_in_coachingtool_v1_de.png){ class="shadow lightbox"}
 

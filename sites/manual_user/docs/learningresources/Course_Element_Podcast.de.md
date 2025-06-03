@@ -20,7 +20,7 @@ Auch ist es möglich den Kursbaustein so zu konfigurieren, dass Kursteilnehmende
 
 ## Episode erstellen oder bearbeiten
 
-Personen die berechtigt sind neue Episoden zu erstellen (vergl. [Podcast konfigurieren](../learningresources/Podcast_Further_Configurations.de.md)) sehen den Button "Episode hinzufügen" und können so ihren Audio- oder Videobeitrag in den Podcast hochladen. 
+Personen die berechtigt sind neue Episoden zu erstellen (vergl. [Podcast konfigurieren](../learningresources/Podcast_Configuration.de.md)) sehen den Button "Episode hinzufügen" und können so ihren Audio- oder Videobeitrag in den Podcast hochladen. 
 
 Eine Episode enthält immer genau _eine_ Audio- oder Video-Datei. Wählen Sie diese auf ihrem Computer aus, damit sie danach hochgeladen werden kann. Dies kann je nach Grösse der Datei eine gewisse Zeit dauern. Beachten Sie, dass nur Flash-kompatible Formate erlaubt sind (d.h. FLV, MP3, MP4, M4V, M4A und AAC).
 

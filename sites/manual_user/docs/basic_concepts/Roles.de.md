@@ -135,7 +135,7 @@ Neben den in OpenOlat vorgegebenen Rollen gibt es auch die Möglichkeit, dass Ad
 Diese frei definierbaren Rollen können von Adminstrator:innen mit spezifischen Rechten ausgestattet werden.
 
 Für diese Rollen können mit Benutzer-zu-Benutzer-Beziehungen zum Beispiel kursübergreifende Betreuungsfunktionen wie Mentoren, Lernbegleiter und Vorgesetzte eingerichtet werden.<br>
-(Siehe [Coaching - Personenbeziehungen](../../area_modules/coaching_personenbeziehungen.de.md))
+(Siehe [Coaching - Personenbeziehungen](../area_modules/coaching_personenbeziehungen.de.md))
 
 **Voraussetzungen:**<br>
 Bevor Beziehungen zwischen Rollen definiert werden können, müssen einerseits zuerst die **Rollen** vorhanden sein und es muss eine **Systematik** vorhanden sein (welche Rolle ist welcher anderen Rolle über- bzw. untergeordnet).

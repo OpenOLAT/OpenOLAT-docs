@@ -18,7 +18,7 @@ Hier erfahren Sie wie Sie ein Formular für unterschiedliche Zwecke erstellen, e
 
 ## Schritt 2: Formular gestalten + finalisieren
 
-1. In der "Administration" der Lernressource Formular > "Inhalt editieren" wählen und sie gelangen in den [Formular Editor](../learningresources/Form_editor_17_1.de.md)
+1. In der "Administration" der Lernressource Formular > "Inhalt editieren" wählen und sie gelangen in den [Formular Editor](../learningresources/Form_Editor.de.md)
 2. "Neues Layout einfügen": Wählen Sie eine der angezeigten Grundstrukturen für Ihr Formular. Das Formular wird in die entsprechend gekennzeichneten Bereiche aufgeteilt in die Sie im nächsten Schritt verschiedene Inhalte einfügen können. 
 3. "Inhalt hinzufügen" wählen und das gewünschte Element auswählen. Starten Sie am besten mit einem "Titel" und fügen Sie mit dem Element "Paragraph" einen kurzen Einstiegstext hinzu um die User entsprechend zu informieren.
 
@@ -32,7 +32,7 @@ Hier erfahren Sie wie Sie ein Formular für unterschiedliche Zwecke erstellen, e
 
 Je nachdem welche Art von Fragen Sie erstellen möchten wählen Sie „Rubrik“, „Einzelauswahl“, „Mehrfachauswahl“, „Datei hochladen“ oder „Texteingabe“.
 
-Weitere Einzelheiten zur Verwendung des Formular Editors finden Sie im Kapitel "[Formular Editor"](../learningresources/Form_editor_17_1.de.md).
+Weitere Einzelheiten zur Verwendung des Formular Editors finden Sie im Kapitel "[Formular Editor"](../learningresources/Form_Editor.de.md).
 
 ## Schritt 3: Formular im Kurs einbinden
 

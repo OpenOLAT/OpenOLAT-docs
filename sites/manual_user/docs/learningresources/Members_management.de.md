@@ -54,7 +54,7 @@ b) durch Buchung des Kurses durch den Lernenden (siehe [Zugangskonfiguration](..
 
 c) durch Hinzufügen einer OpenOlat Gruppe. Alle Gruppenmitglieder werden dann dem Kurs hinzugefügt.
 
-d) durch ein übergeordnetes OpenOlat [Curriculum](../area_modules/Curriculum_Management.de.md)
+d) durch ein übergeordnetes OpenOlat Curriculum.
 
 Für die meisten Kurse sind die Varianten a) und b) zu empfehlen.
 
