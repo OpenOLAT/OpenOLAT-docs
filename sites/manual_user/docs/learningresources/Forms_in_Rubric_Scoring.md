@@ -1,6 +1,6 @@
 # Forms in Rubric Scoring
 
-The learning resource Form, especially the [rubric](Rubric.md) element integrated there, is ideally suited for a criteria-based assessment of achievements. For this purpose, a previously created form with a rubric element is integrated into the course element "Assessment" of a course.
+The learning resource Form, especially the [rubric](Form_Element_Rubric.md) element integrated there, is ideally suited for a criteria-based assessment of achievements. For this purpose, a previously created form with a rubric element is integrated into the course element "Assessment" of a course.
 
 !!! info "Note"
 
@@ -16,13 +16,13 @@ In the next step they can select or create a suitable rubric form.
 
 ![Select rubric form](assets/Rubrik-Formular_waehlen.png){ class="shadow lightbox" }
 
-The basis of the rubric is the learning resource form to which a rubric element has been added in the [form editor](Form_editor_Questionnaire_editor.md).
+The basis of the rubric is the learning resource form to which a rubric element has been added in the [form editor](Form_Editor.md).
 
 In the overview that appears, all forms for which you are the owner are displayed. The desired form with the assessment rubric can be selected simply by clicking on the checkmark and thus added to the course.
 
 If you have not yet created a form, you can also create a new learning resource form by clicking the button "Create" or import an existing external form. Afterwards, the just created or imported form will also appear in the list and can be selected.
 
-A newly created form does not yet contain a rubric element. This has to be added in the course via "Edit" or alternatively directly in the learning resource in the [Form Editor](Form_editor_Questionnaire_editor.md).
+A newly created form does not yet contain a rubric element. This has to be added in the course via "Edit" or alternatively directly in the learning resource in the [Form Editor](Form_Editor.md).
 
 If a form is created directly in the course editor, a new learning resource Form will be created automatically, which can also be found in the [Authoring Area](../area_modules/Authoring.md) under "My entries" and can be included in further courses.
 

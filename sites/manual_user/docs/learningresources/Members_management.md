@@ -53,7 +53,7 @@ b) by booking the course by the learner (see [access configuration](../learningr
 
 c) by adding a group. All group members will then be added to the course.
 
-d) by a superordinate OpenOlat [Curriculum](../area_modules/Curriculum_Management.md)
+d) by a superordinate OpenOlat Curriculum.
 
 For most courses, variants a) and b) are recommended.
 

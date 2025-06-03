@@ -152,7 +152,7 @@ subscribe to podcasts, upload those by means of online services such as iTunes
 before copying them to a mobile device.
 
 How to [create](../resource_podcast/Four_Steps_to_Your_Podcast.md) and
-[configure](../learningresources/Podcast_Further_Configurations.md) a podcast is explained in
+[configure](../learningresources/Podcast_Configuration.md) a podcast is explained in
 separate chapters.
 
 ##  Course Element: Blog {: #blog}
@@ -169,7 +169,7 @@ stars. It is also possible to give course participants the right to write a
 blog, so that they can jointly run a course blog.
 
 How to [create](../resource_blog/Four_Steps_to_Your_Blog.md) and
-[configure](../learningresources/Blog_Further_Configurations.md) a blog is explained on
+[configure](../learningresources/Blog_Configuration.md) a blog is explained on
 separate pages.
 
 ##  Course Element: Video {: #video}

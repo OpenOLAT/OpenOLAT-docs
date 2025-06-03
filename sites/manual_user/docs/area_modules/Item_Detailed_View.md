@@ -150,8 +150,8 @@ If the assessment process is activated, the ratings of the question in connectio
 
 If the assessment process is not activated, the "Ratings" dropdown in the metadata is missing.
 
-[Details about the review process >](Question_Bank_Review_Process.de.md)<br>
-[Activation of the review process by administrators >](../../manual_admin/administration/eAssessment_Question_bank.de.md)<br>
+[Details about the review process >](Question_Bank_Review_Process.md)<br>
+[Activation of the review process by administrators >](../../manual_admin/administration/eAssessment_Question_bank.md)<br>
 [To the top of the page ^](#question_details)
 
 

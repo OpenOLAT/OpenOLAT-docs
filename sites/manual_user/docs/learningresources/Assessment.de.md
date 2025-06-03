@@ -22,7 +22,7 @@ Ein weiterer Konfigurations-Tab der bei den meisten Kursbausteinen der Wissensü
 Mail verschickt werden, wenn zu einem bestimmten Datum eine Aufgabe oder ein Test noch nicht bearbeitet wurde. Die Möglichkeiten sind ähnlich wie im Menü ["Erinnerung"](../learningresources/Course_Reminders.de.md) in
 der Kurs-Administration. 
 
-In der Kategorie Wissensüberprüfung findet man auch die Kursbausteine "Umfrage" und "Formular" mit dem man OpenOlat [Formulare](../learningresources/Form_editor_Questionnaire_editor.de.md) für Befragungen u.ä. in einen Kurs einbauen kann.
+In der Kategorie Wissensüberprüfung findet man auch die Kursbausteine "Umfrage" und "Formular" mit dem man OpenOlat [Formulare](../learningresources/Form_Editor.de.md) für Befragungen u.ä. in einen Kurs einbauen kann.
 
 ## Kursbaustein "Bewertung"  {: #course_element_assessment}
 ![Bewertung Icon](assets/manual_score.png)
@@ -249,7 +249,7 @@ Mit dem Kursbaustein "Umfrage" fügen Sie Ihrem Kurs einen Online-Fragebogen hin
 Kapitel "[3 Schritte zu Ihrem Formular](../forms/Three_Steps_to_your_Form.de.md)". Die Resultate einer Umfrage werden  standardmässig anonymisiert gespeichert. 
 
 Ein in einem Kurs verlinktes Formular kann nur solange vollständig im
-"[Formular-Editor](../learningresources/Form_editor_Questionnaire_editor.de.md)" bearbeitet werden, solange die Seite nicht aufgerufen wurde.
+"[Formular-Editor](../learningresources/Form_Editor.de.md)" bearbeitet werden, solange die Seite nicht aufgerufen wurde.
 Danach können nur noch Tippfehler korrigiert werden.
 
 !!! note "Achtung"

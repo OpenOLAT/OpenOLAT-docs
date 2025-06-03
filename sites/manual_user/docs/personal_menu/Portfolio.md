@@ -18,7 +18,7 @@ Learning products can be collected here and, if required be made accessible to s
 [General information about the portfolio](../area_modules/Portfolio_General_Information.md)
 [Components of a portfolio](../area_modules/Components_of_the_portfolio.md)
 [Process of an assessment portfolio](../portfolio/Process_of_an_assessment_portfolio.md)
-[Portfolio tasks in courses](../learningresources/Course_Element_Portfolio_Task.de.md)
+[Portfolio tasks in courses](../learningresources/Course_Element_Portfolio_Task.md)
 
 
 

@@ -29,7 +29,7 @@ by a certain date. The possibilities are similar to those in the menu
 "Reminder" in the course administration for which you can find more
 information [here](../learningresources/Course_Reminders.md).
 
-The OpenOlat [questionnaire](../learningresources/Form_editor_Questionnaire_editor.md) or the course
+The OpenOlat [Questionnaire](../learningresources/Form_Elements.md#question-rules) or the course
 element Survey can also be found in the assessment category.
 
   
@@ -281,7 +281,7 @@ can be corrected.
     If participants are currently running the questionnaire but have not yet completed it, their results will be lost.
 
 Further information on the subject of questionnaires and surveys can be found
-in the chapter "[Creating questionnaires](../learningresources/Form_editor_Questionnaire_editor.md)" and
+in the chapter "[Creating questionnaires](../learningresources/Form_Elements.md#question-rules)" and
 the corresponding subchapters.
 
 

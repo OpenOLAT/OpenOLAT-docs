@@ -14,7 +14,7 @@ Learning resources where the owners enter the participants manually or the learn
 Use the cogwheel to select the columns you want to see, e.g. the offer type (code, freely available, PayPal) and the title of the offer (= content). When a booking is made, OpenOlat automatically creates a booking number under which this course participation is managed. This can also be seen here.
 
 You can download all bookings via the icon to the right of the cogwheel. Furthermore, the 3-dot menu can be used to display the available information on a specific booking in a bundle.
-If the OpenOlat [Administrator](../../manual_admin/docs/administration/Modules_Organizations.md) has stored invoice addresses for the individual bookings, these can be read out in the Invoice addresses tab.
+If the OpenOlat [Administrator](../../manual_admin/administration/Modules_Organizations.md) has stored invoice addresses for the individual bookings, these can be read out in the Invoice addresses tab.
 
 The option to book will also appear in the [catalog](../area_modules/catalog2.0_angebote.md##how-we-create-an-offer), provided that the corresponding offer/learning resource has been published there.
 

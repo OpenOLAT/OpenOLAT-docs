@@ -6,10 +6,7 @@ The "Courses" menu item gives you access to the courses and possibly other learn
 
 Under "My Courses", you can view all courses and learning resources that are active, in preparaion or finished. Or use the search to find a course or learning resource based on a keyword.
 
-You can also filter your courses based on various criteria, including the
-timeline, membership status, and results. To do so, click the small arrow and
-more filter options will appear. Learn more about how to best filter your
-tables [here](../basic_concepts/Table_Concept.md).
+You can also filter your courses based on various criteria, including the timeline, membership status, and results. To do so, click the small arrow and more filter options will appear. Learn more about how to best filter your tables [here](../basic_concepts/Table_Concept.md).
 
 ![Courses](assets/mycourses-de.png)
 
@@ -27,7 +24,7 @@ Mark the course as a favorite when you have found it. To do this, click on the w
 
 ## Catalog
 
-Wird der OpenOlat Katalog 1.0 in Ihrer Instanz verwendet sehen Sie den Tab "Katalog" im Bereich der Kurse. 
+If the OpenOlat catalog 1.0 is used in your instance, you will see the "Catalog" tab in the course area.
 
 The OpenOlat catalog is similar to a paper version of the course catalog. The structure of the catalog can be set up by the OpenOlat administrator. OpenOlat users can use the catalog to search for specific courses and learning resources. Further information on catalog 1.0 can be found [here](../area_modules/catalog1.0.md).
 
@@ -35,7 +32,3 @@ The OpenOlat catalog is similar to a paper version of the course catalog. The st
 
     If the catalog is generally deactivated, the menu item _not_ appears. If the [catalog 2.0](../area_modules/catalog2.0.md) :octicons-tag-24: Release 17.0 is used, the catalog appears as a separate menu item in the top navigation and not under "Courses". 
 
-
-## Curriculum
-
-If a user also has courses assigned to a curriculum, the "[Curricula](Curriculum_Management.md)" section will also appear in the "Courses" menu.

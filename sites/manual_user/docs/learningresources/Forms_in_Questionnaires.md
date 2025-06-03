@@ -2,7 +2,7 @@
 
 The learning resource Form is used in the course element "Survey" in the form of a questionnaire. Course owners can thus include questionnaires in their course and learners can complete the surveys provided. The results are then displayed to course owners and tutors accordingly.
 
-OpenOlat ensures that course participants can only fill out the survey or questionnaire once. By default, the results are stored anonymously. However, personalization is possible by selecting the appropriate form elements [Form Editor](../learningresources/Form_editor_Questionnaire_editor.md).
+OpenOlat ensures that course participants can only fill out the survey or questionnaire once. By default, the results are stored anonymously. However, personalization is possible by selecting the appropriate form elements [Form Editor](../learningresources/Form_Editor.md).
 
 You can learn how to create forms and integrate them into courses [here](../forms/Three_Steps_to_your_Form.md).
 
@@ -24,7 +24,7 @@ The central configuration is done in the tab "Survey". In the first step, you ca
 
 If you have not yet created a form, you can create a new learning resource form by clicking the "Create" button or import an existing external form. Afterwards, the newly created or imported form will also appear in the list and can be selected.
 
-A newly created form does not yet contain any elements, questions or text fields. These have to be added in the course via "Edit" or alternatively directly in the learning resource in the [Form Editor](../learningresources/Form_editor_Questionnaire_editor.md).
+A newly created form does not yet contain any elements, questions or text fields. These have to be added in the course via "Edit" or alternatively directly in the learning resource in the [Form Editor](../learningresources/Form_Editor.md).
 
 If a form is created directly in the course editor, a new learning resource Form will be created automatically, which can also be found in the [Authoring Area](../area_modules/Authoring.md) under "My entries" and can be included in further courses.
 

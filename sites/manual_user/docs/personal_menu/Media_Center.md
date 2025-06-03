@@ -24,8 +24,6 @@ The Media Center is a **central collection point** for different types of media.
 
 The Media Center is initially an individual, personal area and can therefore also be found in the **personal tools**.
 
-![media_center_pers_menu1_v1_de.png](assets/media_center_pers_menu1_v1_de.png){ class=" shadow lightbox" }
-
 ![media_center_pers_menu](assets/media-center_personal_menue_en.png){ class=" shadow lightbox" }
 
 Even if they are personal media, they can be shared with other people and used in various OpenOlat contexts.
@@ -74,10 +72,10 @@ There are various ways to store media in the Media center:
 
 Media for the Media Center can also be created in the OpenOlat course or in the portfolio using the [content editor](../basic_concepts/Content_Editor.md). In the course, for example, this can be done via the course element ["Page"](../learningresources/Course_Element_Page.md). 
 
-Go to edit mode and select "Add content". Among other things, a button for the “Media Center” will appear.  Click on the button and you will be taken to the Media Center with all the corresponding options. 
+Go to edit mode and select "Add content". Among other things, a button for the "Media Center" will appear.  Click on the button and you will be taken to the Media Center with all the corresponding options. 
 
 
-![Select medium from the media center](assets/Medien_center_wahlen_en.jpg){ class=" shadow lightbox" }
+![Select medium from the media center](assets/Aus_Mediencenter_waehlen.png){ class=" shadow lightbox" }
 
 ### Collect content elements and link them to the Media Center
 
@@ -91,8 +89,6 @@ The elements include:
 * evidences of achievement from courses
 
 For example, to add a post, open your forum post and click on the puzzle piece.
-
-![collect forum entry](assets/Puzzle_Sammlung.jpg){ class=" shadow lightbox" }
 
 A page will then appear where you can enter the title, tags and a description for the post content. After saving, the post will be displayed in your Media Center.
 
@@ -127,7 +123,6 @@ Each media element includes the following tabs:
 * **Shares:** Here you can define who a content element is shared with. Participants can only define groups. Authors have more options and can specify specific OpenOlat users, groups or courses. Sharing also allows files to be used collaboratively if editing is permitted. 
 In addition, individual media can also be downloaded or deleted via the 3-dot menu.
 
-![Medien Center 3-Punkte Menü](assets/Medien_Center_Menue.jpg){ class=" shadow lightbox" }
 
 !!! info "Hint"
 
@@ -136,7 +131,6 @@ In addition, individual media can also be downloaded or deleted via the 3-dot me
 ### Delete media
 
 If you select at least one list entry at the beginning of a line in the table view, the "Delete" button appears above the list, which can be used to delete several files and content elements in the Media Center at once.
-![media_center_delete_v1_de.png](assets/media_center_delete_v1_de.png){ class=" shadow lightbox" }
 
 You can also delete individual files in the 3-dot menu if you have clicked on an individual medium and the information and descriptions are displayed. (Same menu as for downloading.)
 
@@ -149,7 +143,6 @@ You can also delete individual files in the 3-dot menu if you have clicked on an
 
 The storage space available in the Media Center can be limited by the OpenOlat administrator. You can find the information about the storage space already used in the bottom left corner.
 
-![media_center_quota_v1_de.png](assets/media_center_quota_v1_de.png){ class=" shadow lightbox" }
 
 Generally, authors have higher storage requirements, so the quota settings are made separately for these power users. If you have any questions about storage requirements, contact your administrator.
 
@@ -157,11 +150,11 @@ Generally, authors have higher storage requirements, so the quota settings are m
 
 And how can the media in the Media Center be reused? The media contained in the Media Center can be inserted into course elements in the Content Editor, for example in the course element ["Page"](../learningresources/Course_Element_Page.md) or in the [Portfolio](../area_modules/Portfolio.md).
 
-![media_center_page_v1_de.png](assets/media_center_page_v1_de.png){ class=" shadow lightbox" }
+![media_center_page_v1_de.png](assets/page_select_media_center_en.png){ class=" shadow lightbox" }
 
 The **filter functions** help you to find the media you are looking for quickly. Search or filter for ...
 
-![Medien Center Filtrfunktion](assets/Medien_center_Filterfunktion_en.png){ class=" shadow lightbox" }
+![Medien Center Filtrfunktion](assets/file_hub_pers_menu2_v1_de.png){ class=" shadow lightbox" }
 
 !!! note "Note"
 
