@@ -22,7 +22,7 @@ Eine Auswahl aktueller Termine finden Sie auf der **Übersicht des Course Planne
 
 
 
-### Liste aller Termine
+### Liste aller Termine {: #event_list}
 
 Die komplette Übersicht über alle Termine im Course Planner erhalten Sie im Bereich "Termine". Verwenden Sie die Tabs und Filter zur Eingrenzung und Auswahl.
 
@@ -33,7 +33,7 @@ Die komplette Übersicht über alle Termine im Course Planner erhalten Sie im Be
 
 
 
-### Termine einer bestimmten Durchführung
+### Termine einer bestimmten Durchführung {: #events_of_an_implementation}
 
 Die **aktuell anstehenden** Termine einer Durchführung finden Sie auch unter<br>
 **Course Planner Übersicht > Durchführungen > Durchführung wählen > Tab Übersicht**
@@ -43,11 +43,11 @@ Die **aktuell anstehenden** Termine einer Durchführung finden Sie auch unter<br
 **Alle** Termine einer Durchführung finden Sie unter<br>
 **Course Planner Übersicht > Durchführungen > Durchführung wählen > Tab Termine**
 
-Sie können dort alle Ebenen der Curriculumstruktur oder nur die aktuelle Ebene als Unterauswahl nehmen. Ausserdem stehen unterschiedliche Filter zur Verfügung.
+Sie können dort alle Ebenen der Produktstruktur oder nur die aktuelle Ebene als Unterauswahl nehmen. Ausserdem stehen unterschiedliche Filter zur Verfügung.
 
 ![course_planner_events_display5_v1_de.png](assets/course_planner_events_display5_v1_de.png){ class="shadow lightbox" }
 
-### Ansichten
+### Ansichten {: #views}
 
 Die Termine können in einer Listenansicht oder als Timeline dargestellt werden. Verwenden Sie zum Umschalten der Ansicht die Buttons rechts oben.
 
@@ -97,11 +97,11 @@ Bei Bedarf können die in der Liste angezeigten Termine auch als Excel-Datei her
 
 [Wie erstelle ich meinen ersten OpenOlat-Kurs >](../my_first_course/my_first_course.de.md)<br>
 [Course Planner: Übersicht >](../../manual_user/area_modules/Course_Planner.de.md)<br>
-[Course Planner: Curricula/Produkte >](../../manual_user/area_modules/Course_Planner_Products.de.md)<br>
+[Course Planner: Produkte >](../../manual_user/area_modules/Course_Planner_Products.de.md)<br>
 [Course Planner: Durchführungen >](../../manual_user/area_modules/Course_Planner_Implementations.de.md)<br>
 [Course Planner: Reports >](../../manual_user/area_modules/Course_Planner_Reports.de.md)<br>
 [Wie kann ich mit dem Course Planner Kursdurchführungen planen und durchführen? >](../../manual_how-to/course_planner_courses/course_planner_courses.de.md)<br>
-[Wie kann ich mit dem Course Planner einen Bildungsgang / ein Curriculum planen und durchführen? >](../../manual_how-to/course_planner_curriculum/course_planner_curriculum.de.md)<br>
+[Wie kann ich mit dem Course Planner einen Bildungsgang planen und durchführen? >](../../manual_how-to/course_planner_curriculum/course_planner_curriculum.de.md)<br>
 [Course Planner aktivieren (Admin) >](../../manual_admin/administration/Modules_Course_Planner.de.md)<br>
 
 [zum Seitenanfang ^](#events)
