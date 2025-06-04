@@ -5,10 +5,13 @@
 
 ## Was ist eine Durchführung? {: #definition}
 
-Ein Curriculum (aus einem oder mehreren Kursen bestehend) kann mehrfach durchgeführt werden. Jede Durchführung kann zu einem anderen Termin stattfinden und an jeder Durchführung sind dann andere Teilnehmer:innen dabei.
+Ein Bildungsprogramm/Produkt (aus einem oder mehreren Kursen bestehend) kann mehrfach angeboten und durchgeführt werden. Jede Durchführung kann zu einem anderen Termin stattfinden und an jeder Durchführung sind dann andere Teilnehmer:innen dabei.
 
-Ein Curriculum ist eine Art "Kopiervorlage für ein Kurspaket".
-Es ist aber in OpenOlat möglich, auch die Inhalte in jeder Durchführung anzupassen.
+In einem Bildungsprogramm/Produkt werden zu jeder Durchführung ein oder mehrere Kurse zugeordnet. 
+
+Der oder die mehrfach verwendeten Kurse sind nur einmal vorhanden und Templates. Die Kurse werden für jede Durchführung instanziert (aus der Template-Vorlage erstellt). Diese Instanzierung kann auch automatisiert zu einem bestimmten Termin erfolgen. Z.B. einige Tage vor Beginn einer Durchführung. Bis dahin können die Kursbesitzer:innen noch an der Fertigstellung der Kurse (Templates) arbeiten. Das Organisatorische kann aber mit dem Course Planner bereits vorbereitet sein.
+
+Von diesem Konzeptidee her, werden in der Regel in jeder Durchführung die gleichen Kurse zugeordnet und verwendet. Es ist aber in OpenOlat auch möglich, die Inhalte in jeder Durchführung anzupassen.
 
 [zum Seitenanfang ^](#implementations)
 
@@ -17,7 +20,7 @@ Es ist aber in OpenOlat möglich, auch die Inhalte in jeder Durchführung anzupa
 
 ## Die Liste der Durchführungen {: #listing}
 
-Haben Sie in der Übersicht des Courser Planners den Button "Durchführungen" gewählt, gelangen Sie zunächst zu einer Liste aller Durchführungen dieses Curriculums. Sie können mit den Tabs (Reitern) Teil-Listen anzeigen lassen (z.B. "Aktiv") und mit Filtern die Auswahl weiter eingrenzen.
+Haben Sie in der Übersicht des Courser Planners den Button "Durchführungen" gewählt, gelangen Sie zunächst zu einer Liste aller Durchführungen dieses Produkts. Sie können mit den Tabs (Reitern) Teil-Listen anzeigen lassen (z.B. "Aktiv") und mit Filtern die Auswahl weiter eingrenzen.
 
 ![course_planner_implementations_list_v1_de.png](assets/course_planner_implementations_list_v1_de.png){ class="shadow lightbox" }  
 
@@ -57,7 +60,7 @@ Sobald Sie eine Durchführung geöffnet haben, lassen sich in den angezeigten Ta
 
 ### Tab Übersicht {: #tab_overview}
 
-Im Tab "Übersicht" werden Ihnen die nächsten Termine, die Angebote im Katalog und Kursinhalte dieses Curriculums angezeigt.
+Im Tab "Übersicht" werden Ihnen die nächsten Termine, die Angebote im Katalog und Kursinhalte dieses Produkts angezeigt.
 
 ![course_planner_implementations_tab_overview_v1_de.png](assets/course_planner_implementations_tab_overview_v1_de.png){ class="shadow lightbox" }
 
@@ -72,7 +75,7 @@ In der angezeigten Baumstruktur kann jedes einzelne Element der Durchführung be
 
 ![course_planner_implementations_tab_structure1_v1_de.png](assets/course_planner_implementations_tab_structure1_v1_de.png){ class="shadow lightbox" }
 
-![1_green_24.png](assets/1_green_24.png) Möchten Sie für diese Durchführung abweichend von der Curriculum-Struktur ("Kopiervorlage" dieser Struktur) andere Elemente hinzufügen, finden Sie unter dem Button **Erstellen** die verfügbaren Element-Typen, wie sie in der Administration definiert wurden. 
+![1_green_24.png](assets/1_green_24.png) Möchten Sie für diese Durchführung abweichend von der Produkt-Struktur ("Kopiervorlage" dieser Struktur) andere Elemente hinzufügen, finden Sie unter dem Button **Erstellen** die verfügbaren Element-Typen, wie sie in der Administration definiert wurden. 
 
 ![2_green_24.png](assets/2_green_24.png) Mit dem **Download-Button** können Sie die angezeigte Struktur auch als Excel-Datei herunterladen. 
 
@@ -130,17 +133,14 @@ Für das **Entfernen mehrerer Kurse** markieren Sie die Kurse mit den Checkboxen
 
 ![course_planner_implementations_tab_members_v1_de.png](assets/course_planner_implementations_tab_members_v1_de.png){ class="shadow lightbox" }
 
-Wie bereits eingangs erwähnt, kann ein Bildungsprodukt (aus einem oder mehreren Kursen bestehend) mehrfach durchgeführt werden. An jeder Durchführung sind andere Teilnehmer:innen dabei.
+Wie bereits weiter oben erwähnt, kann ein Bildungsprodukt (aus einem oder mehreren Kursen bestehend) mehrfach durchgeführt werden. An jeder Durchführung sind andere Teilnehmer:innen dabei.
 
 Deshalb werden Teilnehmer:innen zu Mitgliedern einer bestimmten Durchführung gemacht (nicht zu Mitgliedern einzelner Kurse oder eines Bildungsprodukts). Es kann bestimmt werden, ob sie Mitglieder der gesamten Durchführung oder nur eines Teilbereiches werden.
 
-Es macht keinen Sinn, die Teilnehmer:innen zu Mitgliedern des Bildungsprodukts (der "Kopiervorlage") zu machen. Sie wären ja dann in allen Durchführungen dieses Produkts als Teilnehmer:innen dabei.
+Würden die Teilnehmer:innen zu Mitgliedern des Bildungsprodukts (der "Kopiervorlage") gemacht, wären sie in allen Durchführungen dieses Produkts als Teilnehmer:innen dabei. Dies ist nicht erwünscht. Deshalb können zu einem Produkt nur Besitzer:innen als Mitglieder hinzugefügt werden, keine Teilnehmer:innen.
 
-Curriculumsbesitzer:innen haben dagegen das Recht, das Curriculum (die "Originalversion", die "Kopiervorlage") zu bearbeiten. Deshalb können zu einem Curriculum/Produkt nur Besitzer:innen als Mitglieder hinzugefügt werden, keine Teilnehmer:innen.
-
-Wird ein Kurs über den Course Planner verwaltet, ist die Einstellung "Einbindung in Curriculum/Produkt".<br>
-**(Kurs-)Administration > Einstellungen > Tab "Freigabe" > Abschnitt "Verwendung" > Button "Einbindung in Curriculum/Produkt"**<br>Der Kurs hat dann keine eigenständige Mitgliederverwaltung, die Mitgliederverwaltung erfolgt in der Mitgliederverwaltung der Durchführung.
-
+Weil die Mitgliederverwaltung bei Verwendung des Course Planners in der Durchführung gemacht wird, gibt es in den Einstellungen der Kurse die Einstellung "Einbindung in Curriculum/Produkt".<br>
+**(Kurs-)Administration > Einstellungen > Tab "Freigabe" > Abschnitt "Verwendung" > Button "Einbindung in Curriculum/Produkt"**<br>Der Kurs hat dann keine eigenständige Mitgliederverwaltung mehr, die Mitgliederverwaltung erfolgt in der Mitgliederverwaltung der Durchführung.
 
 
 [zum Seitenanfang ^](#implementations)
@@ -290,11 +290,11 @@ Haben Sie eine Durchführung bereits angezeigt, finden Sie die Option zum Lösch
 
 [Wie erstelle ich meinen ersten OpenOlat-Kurs >](../my_first_course/my_first_course.de.md)<br>
 [Course Planner: Übersicht >](../../manual_user/area_modules/Course_Planner.de.md)<br>
-[Course Planner: Curricula/Produkte >](../../manual_user/area_modules/Course_Planner_Products.de.md)<br>
+[Course Planner: Produkte >](../../manual_user/area_modules/Course_Planner_Products.de.md)<br>
 [Course Planner: Termine >](../../manual_user/area_modules/Course_Planner_Events.de.md)<br>
 [Course Planner: Reports >](../../manual_user/area_modules/Course_Planner_Reports.de.md)<br>
 [Wie kann ich mit dem Course Planner Kursdurchführungen planen und durchführen? >](../../manual_how-to/course_planner_courses/course_planner_courses.de.md)<br>
-[Wie kann ich mit dem Course Planner einen Bildungsgang / ein Curriculum planen und durchführen? >](../../manual_how-to/course_planner_curriculum/course_planner_curriculum.de.md)<br>
+[Wie kann ich mit dem Course Planner einen Bildungsgang planen und durchführen? >](../../manual_how-to/course_planner_curriculum/course_planner_curriculum.de.md)<br>
 [Course Planner aktivieren (Admin) >](../../manual_admin/administration/Modules_Course_Planner.de.md)<br>
 
 
