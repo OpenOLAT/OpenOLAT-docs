@@ -15,8 +15,8 @@ Sie können natürlich auch ohne Course Planner OpenOlat-Kurse erstellen. Mit de
 
 | ohne Course Planner              | mit Course Planner                                        |
 | -------------------------------- | --------------------------------------------------------- |
-| nur eigenständige einzelne Kurse | mehrere Kurse gemeinsam                             |
-| alles wird einzeln in den  Kursen administriert und verwaltet | kursübergreifende Funktionen |
+| nur eigenständige einzelne Kurse | einzelne oder mehrere Kurse mit mehreren Durchführungen   |
+| alles wird einzeln in den  Kursen administriert und verwaltet | zentrale Administration |
 | x                                | funktionale Trennung zwischen Administration und Inhalt   |
 | x                                | zentrale Planung mehrerer Kurse                           |
 | x                                | zentrale Mitgliederverwaltung mehrerer Kurse              |
@@ -29,24 +29,60 @@ Sie können natürlich auch ohne Course Planner OpenOlat-Kurse erstellen. Mit de
 ---
 
 
-## Wie funktioniert der Course Planner? {: #functional_relationships}
+## Planungsaufgaben {: #planning}
 
-Die Planungsaufgaben betreffen
 
-- Katalog
-- Buchungsfunktionen 
-- Preisangaben
-- Zeitfenster für die Kursdurchführung
-- Platzkontingente in den Kursen
-- automatische Kurserstellung
+Die Planungsaufgaben umfassen:
 
-Dabei bestehen folgende grundsätzliche Zusammenhänge: 
+- verschiedene Angebotstypen erstellen (z.B. kostenpflichtig / nicht kostenpflichtig)
+- mehrere Kursdurchführungen mit jeweils eigenem Zeitfenster planen
+- Angebote im Katalog platzieren
+- Platzkontingente in den Kursen definieren
+- automatische Kurserstellung aus Template vorbereiten
+- automatisierte Statusänderungen im Kurs einrichten
 
-![course_planner_functional_relationships1_v1_de.png](assets/course_planner_functional_relationships1_v1_de.png){ class="shadow lightbox" }  
 
-Wenn Teilnehmer:innen ein ganzes Bildungsprodukt absolvieren sollen, werden sie zu Mitgliedern einer bestimmten Durchführung gemacht (nicht zu Mitgliedern einzelner Kurse oder eines Bildungsprodukts). Ausserdem kann auch eine Abrechnung für die Durchführung eingerichtet werden.
+[Zum Seitenanfang ^](#course_planner)
 
-![course_planner_functional_relationships2_v1_de.png](assets/course_planner_functional_relationships2_v1_de.png){ class="shadow lightbox" }  
+---
+
+
+## Planung für Einzelkurse {: #planning_single_courses}
+
+Mit dem Course Planner können für einen Kurs mehrere Durchführungen erstellt und im Katalog angeboten werden.
+
+Diese administrative Planungsarbeit kann von einem/einer Kursplaner:in auch schon gemacht werden, wenn der Kurs noch nicht erstellt wurde oder noch nicht in endgültiger Version vorliegt.
+
+![course_planner_planning_single_course1_v1_de.png](assets/course_planner_planning_single_course1_v1_de.png){ class="shadow lightbox" } 
+
+Unabhängig von diesen administrativen Aufgaben (durchgeführt von einem/einer Kursplaner:in) kann ein Kurs von Autor:innen als Template erstellt und dann in alle Durchführungen eingebunden werden. 
+
+Die Instanzierung der Kurse kann auch automatisch auf einen bestimmbaren Termin vorgenommen werden.
+
+![course_planner_planning_single_course2_v1_de.png](assets/course_planner_planning_single_course2_v1_de.png){ class="shadow lightbox" } 
+
+Die Mitglieder können z.B. direkt durch Selbstbuchung eines Angebots im Katalog zu den einzelnen Durchführungen hinzugefügt werden.
+
+!!! info "Beachten Sie:"
+
+    Kursmitglied im Template-Kurs sind dann lediglich noch die Kurs-Besitzer:innen mit Autor:innen-Rolle.
+
+![course_planner_planning_single_course3_v1_de.png](assets/course_planner_planning_single_course3_v1_de.png){ class="shadow lightbox" } 
+
+
+[Zum Seitenanfang ^](#course_planner)
+
+---
+
+## Planung für strukturierte Bildungsgänge {: #planning_structured_product}
+
+Auch wenn Teilnehmer:innen ein Bildungsprodukt bestehend aus mehreren Kursen absolvieren sollen, werden sie zu Mitgliedern einer bestimmten Durchführung gemacht. (Nicht zu Mitgliedern einzelner Kurse oder zu Mitgliedern des Bildungsprodukt-Templates.) 
+
+![course_planner_planning_structured_product1_v1_de.png](assets/course_planner_planning_structured_product1_v1_de.png){ class="shadow lightbox" }  
+
+Ausserdem kann auch eine Abrechnung für die Durchführung eingerichtet werden.
+
+![course_planner_planning_structured_product2_v1_de.png](assets/course_planner_planning_structured_product2_v1_de.png){ class="shadow lightbox" }  
 
 
 [Zum Seitenanfang ^](#course_planner)
@@ -56,9 +92,11 @@ Wenn Teilnehmer:innen ein ganzes Bildungsprodukt absolvieren sollen, werden sie 
 
 ## Wer kann den Course Planner nutzen? {: #users}
 
-Nach der Aktivierung des Course Planners durch einen/eine Systemadministrator:in steht er allen Benutzer:innen mit der Rolle „Kursplaner:in“ zur Verfügung.
+Nach der Aktivierung des Course Planners durch einen/eine Systemadministrator:in steht er allen Benutzer:innen mit der **Rolle „Kursplaner:in“** zur Verfügung.
+
 Administrator:innen und Principals haben ebenfalls Zugriff. 
-Autor:innen und Lernressourcenverwalter:innen haben keinen Zugriff auf den Course Planner.
+
+Autor:innen und Lernressourcenverwalter:innen haben keinen Zugriff auf den Course Planner. Ihre Rolle, Rechte und Aufgaben fokusieren auf die Content-Erstellung.
 
 
 [Zum Seitenanfang ^](#course_planner)
@@ -68,7 +106,7 @@ Autor:innen und Lernressourcenverwalter:innen haben keinen Zugriff auf den Cours
 
 ##  Wo finde ich den Course Planner? {: #access}
 
-Wenn Sie Autorenrechte besitzen, finden Sie den Course Planner als **Menüpunkt der Hauptnavigation** in der Kopfzeile.  
+Wenn Sie die Rolle und Rechte eines/einer **Kursplaner:in** besitzen, finden Sie den Course Planner als **Menüpunkt der Hauptnavigation** in der Kopfzeile.  
 
 ![course_planner_menu_v1_de.png](assets/course_planner_menu_v1_de.png){ class="shadow lightbox" }  
 
@@ -103,13 +141,13 @@ Wie auch bei anderen Suchen, kann mit Filtern das Suchergebnis eingegrenzt werde
 
 ---
 
-### Curricula/Produkte {: #curricula}
-
-Curricula/Produkte bestehen aus mehreren Kursen und haben eine bestimmte Struktur/Abfolge, in der die enthaltenen Kurse kombiniert sind.
+### Produkte {: #products}
 
 Ein Bildungsprodukt ist ein nach innen oder aussen gerichtetes Lernangebot mit Durchführungen. Meistens sind es mehrfache Durchführungen, also von Lernangeboten der gleichen „Art“ (-> Produkt). Der Course Planner vereinfacht die Arbeit wesentlich durch die gemeinsame zentrale Verwaltung.
 
-![course_planner_curricula_v1_de.png](assets/course_planner_curricula_v1_de.png){ class="shadow lightbox" }
+Oft bestehen Curricula/Produkte aus mehreren Kursen und haben eine bestimmte Struktur/Abfolge, in der die enthaltenen Kurse kombiniert sind.
+
+![course_planner_products_v1_de.png](assets/course_planner_products_v1_de.png){ class="shadow lightbox" }
 
 [Zu den Details >](../area_modules/Course_Planner_Products.de.md)<br>
 [Zum Seitenanfang ^](#course_planner)
@@ -119,7 +157,7 @@ Ein Bildungsprodukt ist ein nach innen oder aussen gerichtetes Lernangebot mit D
 
 ### Durchführungen {: #implementations}
 
-Ein Curriculum kann mehrfach durchgeführt werden. Z.B. kann sich jedes Semester der Ablauf eines Curriculums wiederholen.
+Ein (Bildungs-)Produkt kann mehrfach angeboten und durchgeführt werden. Z.B. kann sich jedes Semester sowohl ein einzelner Kurs wiederholen, als auch ein strukturierter Bildungsgang bestehend aus mehreren Kursen.
 
 ![course_planner_implementations_v1_de.png](assets/course_planner_implementations_v1_de.png){ class="shadow lightbox" }
 
@@ -157,7 +195,7 @@ Anhand von Report-Vorlagen können verschiedene Reports erzeugt werden.
 
 [Wie erstelle ich meinen ersten OpenOlat-Kurs? >](../../manual_how-to/my_first_course/my_first_course.de.md)<br>
 [Wie kann ich mit dem Course Planner Kursdurchführungen planen und durchführen? >](../../manual_how-to/course_planner_courses/course_planner_courses.de.md)<br>
-[Wie kann ich mit dem Course Planner einen Bildungsgang / ein Curriculum planen und durchführen? >](../../manual_how-to/course_planner_curriculum/course_planner_curriculum.de.md)<br>
+[Wie kann ich mit dem Course Planner einen Bildungsgang planen und durchführen? >](../../manual_how-to/course_planner_curriculum/course_planner_curriculum.de.md)<br>
 [Course Planner aktivieren (Admin) >](../../manual_admin/administration/Modules_Course_Planner.de.md)<br>
 
 [Zum Seitenanfang ^](#course_planner)
