@@ -54,6 +54,13 @@ Nach Ende der Abgabefrist steht der Report allen Personen zur Verfügung, die im
 **Tab "Teilnehmer:innen"**<br>
 In diesem Tab wird die Gruppe der befragten Personen definiert, bzw. wer die Aufforderung zur Teilnahme mit dem Link zum Formular per Mail erhält.
 
+Unter dem Button "Teilnehmer:innen hinzufügen" können Personengruppen gesucht oder übernommen werden. Auch eine Einladung via Mail-Liste ist möglich. 
+
+Durch Aktivierung des Toggle-Buttons "Zugang über öffentlichen Link" kann ein Link generiert werden. Jeder der diesen Link benutzt, kann dann an der Datenerhebung teilnehmen ohne als OpenOlat-Benutzer:in registriert zu sein. 
+
+![quality_management_data_collection_config_tab_participants_v1_de.png](assets/quality_management_data_collection_config_tab_participants_v1_de.png){ class="shadow lightbox" }
+
+
 **Tab "Erinnerungen"**<br>
 Es können verschiedene Erinnerungsmails vorbereitet werden, die bei Eintritt der gewählten Versandbedingungen automatisch verschickt werden.
 
