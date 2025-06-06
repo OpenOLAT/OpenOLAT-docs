@@ -39,12 +39,15 @@ The taxonomies selected here should be the same as those used in the catalog. On
 
 ![5_green_24.png](assets/5_green_24.png) **Standard purpose for new courses**<br>
 
-Courses can be intended for stand-alone use or for integration into a curriculum/product. As an administrator, you specify here which use is preset by default.
+Courses can be intended for stand-alone use or for integration into a product. As an administrator, you specify here which use is preset by default.
 
 **Independent**: An independent course has a member administration. Access can be gained using the "Private" booking method by registering as a member (e.g. by course owners), by assigning an access code or by publication in the catalog. 
 
-**Integration into curriculum/product**: If the course is integrated into a curriculum/product, memberships are assigned and managed by the Course Planner. The course then does not require a second, independent membership administration.
+**Integration into product**: If the course is integrated into a product, memberships are assigned and managed by the Course Planner. The course then does not require a second, independent membership administration.
 
+!!! tip "Note"
+
+	If Course Planner is used extensively, it is advisable to set the default purpose for new courses in System administration > Course Planner settings to “Integration into product”.
 
 [To the top of the page ^](#module_course_planner)
 
@@ -54,7 +57,7 @@ Courses can be intended for stand-alone use or for integration into a curriculum
 
 ### Define element types {: #define_element_types}
 
-Element types define which elements a curriculum can contain and give these elements a more detailed meaning. A hierarchical structure can be mapped when creating the element types, but this is not mandatory. An example of a hierarchical curriculum is `Course → Semester → Module → Course`.
+Element types define which elements a product can contain and give these elements a more detailed meaning. A hierarchical structure can be mapped when creating the element types, but this is not mandatory. An example of a hierarchical product is `Training program → Semester → Module → Course`.
 
 An element can be a pure structure element ("With course content" switched off, comparable to course element "Structure").
 
@@ -91,7 +94,7 @@ Explain your element type here with a descriptive text.
 ![5_green_24.png](assets/5_green_24.png) **Features**<br>
 If **Absence management** is activated, you have the "Absences" tab on this element in the role of Course Planner and can view the absences for all participants in this element. (Prerequisite is that the "Absence management" module is activated).
 
-The **Schedule** can also be activated for this element type. This combines all course calendar dates for the courses assigned to this curriculum element.
+The **Schedule** can also be activated for this element type. This combines all course calendar dates for the courses assigned to this product element.
 
 If **Progress** is selected, the progress in learning path courses is displayed as a pie chart. 
 If the element consists of several sub-elements, the progress is calculated from the average of the sub-elements (learning path courses only). (The progress indicator is not available in conventional courses).
@@ -118,7 +121,7 @@ After activation, existing element types can also be subordinated to the new typ
 [How can I plan and run courses with the Course Planner? >](../../manual_how-to/course_planner_courses/course_planner_courses.md)<br>
 [How can I plan and run a course with the Course Planner? >](../../manual_how-to/course_planner_curriculum/course_planner_curriculum.md)<br>
 [Course Planner: Overview >](../../manual_user/area_modules/Course_Planner.md)<br>
-[Course Planner: Curricula/Produkts >](../../manual_user/area_modules/Course_Planner_Products.md)<br>
+[Course Planner: Products >](../../manual_user/area_modules/Course_Planner_Products.md)<br>
 [Course Planner: Implementations >](../../manual_user/area_modules/Course_Planner_Implementations.md)<br>
 [Course Planner: Events >](../../manual_user/area_modules/Course_Planner_Events.md)<br>
 [Course Planner: Reports >](../../manual_user/area_modules/Course_Planner_Reports.md)<br>

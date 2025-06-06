@@ -39,12 +39,15 @@ Die hier gewählten Taxonomien sollten die gleichen sein, wie die im Katalog ver
 
 ![5_green_24.png](assets/5_green_24.png) **Standardmässiger Verwendungszweck für neue Kurse**<br>
 
-Kurse können für eigenständige Verwendung oder zur Einbindung in ein Curriculum/Produkt vorgesehen werden. Als Administrator:in legen Sie hier fest, welche Verwendung standardmässig voreingestellt ist.
+Kurse können für eigenständige Verwendung oder zur Einbindung in ein Produkt vorgesehen werden. Als Administrator:in legen Sie hier fest, welche Verwendung standardmässig voreingestellt ist.
 
 **Eigenständig**: Ein eigenständiger Kurs besitzt eine Mitgliederverwaltung. Der Zugang kann mit der Buchungsmethode "Privat" durch Eintragung als Mitglied (z.B. durch Kursbesitzer:innen), durch Vergabe eines Zugangscodes oder über eine Veröffentlichung im Katalog erfolgen. 
 
-**Einbindung in Curriculum/Produkt**: Wird der Kurs in ein Curriculum/Produkt eingebunden, werden die Mitgliedschaften durch den Course Planner vergeben und verwaltet. Der Kurs benötigt dann keine zweite, eigenständige Mitgliederverwaltung.
+**Einbindung in Produkt**: Wird der Kurs in ein Produkt eingebunden, werden die Mitgliedschaften durch den Course Planner vergeben und verwaltet. Der Kurs benötigt dann keine zweite, eigenständige Mitgliederverwaltung.
 
+!!! tip "Hinweis"
+
+	Wird der Course Planner umfassend eingesetzt, bietet es sich an, den Standard-Verwendungszweck für neue Kurse in der Systemadministration > Course Planner-Settings auf "Einbindung in Produkt" einzustellen.
 
 [Zum Seitenanfang ^](#module_course_planner)
   
@@ -53,8 +56,8 @@ Kurse können für eigenständige Verwendung oder zur Einbindung in ein Curricul
 
 ### Definieren von Element-Typen {: #define_element_types}
 
-Element-Typen definieren, welche Elemente ein Curriculum enthalten kann und
-geben diesen Elementen eine nähere Bedeutung. Beim Anlegen der Element-Typen kann eine hierarchische Struktur abgebildet werden, dies ist aber nicht zwingend. Ein Beispiel für ein hierarchisches Curriculum ist `Lehrgang → Semester → Modul → Kurs`.
+Element-Typen definieren, welche Elemente ein Produkt enthalten kann und
+geben diesen Elementen eine nähere Bedeutung. Beim Anlegen der Element-Typen kann eine hierarchische Struktur abgebildet werden, dies ist aber nicht zwingend. Ein Beispiel für ein hierarchisches Produkt ist `Lehrgang → Semester → Modul → Kurs`.
 
 Ein Element kann ein reines Strukturelement sein ("Mit Kursinhalt" ausgeschaltet, 
 vergleichbar mit Kursbaustein "Struktur".)
@@ -98,7 +101,7 @@ Mit aktiviertem **Absenzenmanagement** haben Sie in der Rolle als Course Planner
 
 Ebenfalls kann für diesen Element-Typ die Anzeige des **Stundenplans**
 aktiviert werden. Dieser vereint alle Kurskalender-Termine der zu diesem
-Curriculum-Element zugeordneten Kurse.
+Produkt-Element zugeordneten Kurse.
 
 Wird **Fortschritt** selektiert, wird der Fortschritt in Lernpfadkursen als Kreisdiagramm angezeigt. 
 Besteht das Element aus mehreren Unterelementen, wird der Fortschritt aus dem Durchschnitt der Unterelemente (nur Lernpfadkurse) berechnet. (In herkömmlichen Kursen steht die Fortschrittsanzeige nicht zur Verfügung.)
@@ -126,7 +129,7 @@ Typen untergeordnet werden.
 [Wie kann ich mit dem Course Planner Kursdurchführungen planen und durchführen? >](../../manual_how-to/course_planner_courses/course_planner_courses.de.md)<br>
 [Wie kann ich mit dem Course Planner einen Bildungsgang planen und durchführen? >](../../manual_how-to/course_planner_curriculum/course_planner_curriculum.de.md)<br>
 [Course Planner: Übersicht >](../../manual_user/area_modules/Course_Planner.de.md)<br>
-[Course Planner: Curricula/Produkte >](../../manual_user/area_modules/Course_Planner_Products.de.md)<br>
+[Course Planner: Produkte >](../../manual_user/area_modules/Course_Planner_Products.de.md)<br>
 [Course Planner: Durchführungen >](../../manual_user/area_modules/Course_Planner_Implementations.de.md)<br>
 [Course Planner: Termine >](../../manual_user/area_modules/Course_Planner_Events.de.md)<br>
 [Course Planner: Reports >](../../manual_user/area_modules/Course_Planner_Reports.de.md)<br>
