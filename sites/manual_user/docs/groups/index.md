@@ -27,9 +27,9 @@ The groups can be displayed in a filtered way, which is especially helpful with 
 There you can
 
 * Leave groups
-* Delete groups (if you created them)
+* Delete groups (if they were created by you or you are the group coach)
 * See the members of a group (after selecting a group) and get in contact with them
-* etc.
+* Use tools available in the group, etc.
 
 ## What types of groups are there?
 

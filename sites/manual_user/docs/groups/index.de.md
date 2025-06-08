@@ -33,9 +33,9 @@ Gruppen hilfreich ist. Um die Filtermöglichkeiten zu sehen, müssen diese mit H
 Sie können dort
 
 * Gruppen verlassen
-* Gruppen löschen (wenn diese von Ihnen erstellt wurden)
+* Gruppen löschen (wenn diese von Ihnen erstellt wurden oder Sie Gruppenbetreuer:in sind)
 * (Nach Wahl einer Gruppe) die Mitglieder sehen und evtl. mit jemandem Kontakt aufnehmen
-* usw.
+* In der Gruppe zur Verfügung stehende Werkzeuge nutzen usw.
 
 
 ## Welche Gruppentypen gibt es?

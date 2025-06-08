@@ -32,7 +32,7 @@ Teilnehmende die Gruppe haben darf. Wenn die vorgesehene Anzahl Teilnehmenden ü
 
 !!! info "Info"
 
-    Wird eine Gruppe mit einem Kurs verknüpft können Kursbesitzer auf diesem Weg auch die Anzahl der Teilnehmenden eines Kurses steuern.
+    Wird eine Gruppe mit einem Kurs verknüpft können Kursbesitzer:innen auf diesem Weg auch die Anzahl der Teilnehmenden eines Kurses steuern.
 
 ### Warteliste + Automatisches Nachrücken
 
@@ -45,7 +45,7 @@ gewählt sein. Kriterium für das Nachrücken ist der Zeitpunkt der Einschreibun
 Sofern von OpenOlat Administrator:innen aktiviert, kann jeder/jede OpenOlat-Benutzer:in,
 nicht nur Autor:innen, selbständig Gruppen erstellen, den Gruppen vielfältige
 [Werkzeuge](Using_Group_Tools.de.md) zuordnen und beliebig
-viele andere OpenOlat-Benutzer:innen in die Gruppe einladen.
+viele andere OpenOlat-Benutzer:innen in die Gruppe einladen oder direkt hinzufügen 
 
 ## Gruppen für Kurse erstellen
 
@@ -53,4 +53,4 @@ OpenOlat Autor:innen haben darüber hinaus auch die Möglichkeit, kursspezifisch
 Gruppen direkt im gewünschten Kurs zu erstellen. Dies geschieht
 im Normalfall in der [Mitgliederverwaltung](../learningresources/Members_management.de.md) eines Kurses im Untermenü "Gruppen".
 Darüber hinaus können auch im Kurseditor an einigen Stellen Gruppen im jeweiligen Kontext erstellt werden. Hierzu zählen der
-[Einschreibebaustein](../learningresources/Course_Elements.de.md) und die Gruppenaufgabe. Darüber hinaus können in herkömmlichen Kursen im [Tab Sichtbarkeit oder Zugang](../learningresources/General_Configuration_of_Course_Elements.de.md) ebenfalls Gruppen erstellt werden.
+[Einschreibebaustein](../learningresources/Course_Element_Enrolment.de.md) und die [Gruppenaufgabe](../learningresources/Course_Element_Grouptask.de.md). Darüber hinaus können in herkömmlichen Kursen im [Tab Sichtbarkeit oder Zugang](../learningresources/General_Configuration_of_Course_Elements.de.md) ebenfalls Gruppen erstellt werden.
