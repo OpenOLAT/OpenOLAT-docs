@@ -1,11 +1,14 @@
 # Gruppen erstellen
 
-Es gibt verschiedene Orte, an denen Sie Gruppen erstellen können. In der Regel ist der Einstigespunkt die Hauptnavigation mit dem Menüpunkt "Gruppen". Wenn Sie eine Gruppe erstellen möchten, klicken Sie auf den **Button "Gruppe erstellen"**.
+Es gibt verschiedene Orte, an denen Sie Gruppen erstellen können. In der Regel ist der Einstiegspunkt die Hauptnavigation mit dem **Menüpunkt "Gruppen".** Sofern Sie berechtigt sind Gruppen zu erstellen,  finden Sie hier den Button "Gruppe erstellen". 
 
-![create_groups_v1_de.png](assets/create_groups_v1_de.png){ class="shadow lightbox" }
+![group_membership_create_group_v1_de.png](assets/group_membership_create_group_v1_de.png){ class="shadow lightbox" }
 
 
-### Name der Gruppe
+## Gruppe anlegen 
+Klicken Sie auf den Button "Gruppe erstellen" und füllen Sie die Felder des erscheinenden Pop-up Menü aus. 
+
+### Name der Gruppe (Pflichtfeld)
 
 Gruppen müssen mit Namen versehen werden. Der Name kann beliebig sein und darf
 alle Sonderzeichen und Ziffern enthalten. Für Benutzer ist es hilfreich, wenn
@@ -32,20 +35,20 @@ Teilnehmende die Gruppe haben darf. Wenn die vorgesehene Anzahl Teilnehmenden ü
 
 !!! info "Info"
 
-    Wird eine Gruppe mit einem Kurs verknüpft können Kursbesitzer:innen auf diesem Weg auch die Anzahl der Teilnehmenden eines Kurses steuern.
+    Wird eine Gruppe mit einem Kurs verknüpft können Kursbesitzer:innen auf diesem Weg auch die Anzahl der Teilnehmenden des Kurses steuern.
 
 ### Warteliste + Automatisches Nachrücken
 
-Sofern Sie die Anzahl der Teilnehmenden beschränkt haben, können Sie der Gruppe eine Warteliste hinzufügen. Kursteilnehmende können sich dann bei vollen Gruppen auf die Warteliste setzen lassen. Wenn sich jemand aus der Gruppe austrägt
-oder von dem/der Gruppenbetreuer:in ausgetragen wird, können Personen auf der Warteliste automatisch nachrücken. Dazu muss die Option "**automatisches Nachrücken**"
-gewählt sein. Kriterium für das Nachrücken ist der Zeitpunkt der Einschreibung in die Warteliste, d.h. die sich am längsten auf der Warteliste befindende Person rückt nach.
+Aktivieren Sie bei Bedarf die gewünschten Optionen. Sofern Sie die Anzahl der Teilnehmenden beschränkt haben, können Sie der Gruppe eine Warteliste hinzufügen. Interessent:innen können sich dann bei vollen Gruppen auf die Warteliste setzen lassen. Wenn sich jemand aus der Gruppe austrägt oder von dem/der Gruppenbetreuer:in ausgetragen wird, können Personen auf der Warteliste automatisch nachrücken. Kriterium für das Nachrücken ist der Zeitpunkt der Einschreibung in die Warteliste, d.h. die sich am längsten auf der Warteliste befindende Person rückt nach.
 
-## Wer kann Gruppen erstellen?
 
-Sofern von OpenOlat Administrator:innen aktiviert, kann jeder/jede OpenOlat-Benutzer:in,
-nicht nur Autor:innen, selbständig Gruppen erstellen, den Gruppen vielfältige
-[Werkzeuge](Using_Group_Tools.de.md) zuordnen und beliebig
-viele andere OpenOlat-Benutzer:innen in die Gruppe einladen oder direkt hinzufügen 
+## Wer kann eine Gruppe erstellen?{: #found_a_group}
+
+Sofern von OpenOlat Administrator:innen aktiviert (OpenOlat Administration -> Module -> Gruppen), kann jeder/jede OpenOlat-Benutzer:in, nicht nur Autor:innen, selbständig Gruppen erstellen, den Gruppen vielfältige
+[Werkzeuge](Using_Group_Tools.de.md) zuordnen und beliebig viele andere OpenOlat-Benutzer:innen in die Gruppe einladen oder direkt hinzufügen.
+
+Wird eine Gruppe durch Sie erstellt, werden Sie automatisch **Gruppenbetreuer:in**. In dieser Rolle erhalten Sie für Ihre Gruppe die Menüoption "Administration". Dort können Sie im Tab "Mitglieder" weitere Personen hinzufügen (zu Gruppenmitgliedern machen) und Rechte der Gruppenmitglieder konfigurieren.  Weitere Infos zum Hinzufügen von Mitgliedern finden Sie [hier](../groups/Group_Membership.de.md)
+
 
 ## Gruppen für Kurse erstellen
 

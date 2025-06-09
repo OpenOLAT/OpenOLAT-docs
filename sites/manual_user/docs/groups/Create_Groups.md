@@ -36,6 +36,8 @@ registrations, persons on the waiting list will move up automatically if the opt
 
 If activated by OpenOlat Administrator, any OpenOlat user, not only authors, can independently create groups, assign to the groups a variety of [tools](Using_Group_Tools.md) and invite or directly add any number of other OpenOlat users into the group.
 
+If you create a group, you automatically become the group administrator. In this role, you will have the "Administration" menu option for your group. There you can add further people (make them group members) and configure the rights of group members in the "Members" tab. 
+
 ## Creating groups for courses
 
 OpenOlat authors also have the possibility to create course-specific groups directly in the desired course [Members management](../learningresources/Members_management.md) to create. This happens normally in the member administration of a course in the submenu "Groups". In addition, groups can also be created in the course editor in some places in the respective context. These include the [enrollment element](../learningresources/Course_Element_Enrolment.md) and the [group task](../learningresources/Course_Element_Grouptask.md). In addition, groups can also be created in conventional courses in the [Visibility or Access tab](../learningresources/General_Configuration_of_Course_Elements.md).
