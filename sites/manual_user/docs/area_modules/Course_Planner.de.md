@@ -92,7 +92,7 @@ Ausserdem kann auch eine Abrechnung für die Durchführung eingerichtet werden.
 
 ## Wer kann den Course Planner nutzen? {: #users}
 
-Nach der Aktivierung des Course Planners durch einen/eine Systemadministrator:in steht er allen Benutzer:innen mit der **Rolle „Kursplaner:in“** zur Verfügung.
+Nach der Aktivierung des Course Planners durch einen/eine Systemadministrator:in steht er allen Benutzer:innen mit der **Rolle "Kursplaner:in"** zur Verfügung.
 
 Administrator:innen und Principals haben ebenfalls Zugriff. 
 
