@@ -96,7 +96,7 @@ Nach der Aktivierung des Course Planners durch einen/eine Systemadministrator:in
 
 Administrator:innen und Principals haben ebenfalls Zugriff. 
 
-Autor:innen und Lernressourcenverwalter:innen haben keinen Zugriff auf den Course Planner. Ihre Rolle, Rechte und Aufgaben fokusieren auf die Content-Erstellung.
+Autor:innen und Lernressourcenverwalter:innen haben keinen Zugriff auf den Course Planner. Ihre Rolle, Rechte und Aufgaben fokussieren auf die Content-Erstellung.
 
 
 [Zum Seitenanfang ^](#course_planner)
@@ -143,7 +143,7 @@ Wie auch bei anderen Suchen, kann mit Filtern das Suchergebnis eingegrenzt werde
 
 ### Produkte {: #products}
 
-Ein Bildungsprodukt ist ein nach innen oder aussen gerichtetes Lernangebot mit Durchführungen. Meistens sind es mehrfache Durchführungen, also von Lernangeboten der gleichen „Art“ (-> Produkt). Der Course Planner vereinfacht die Arbeit wesentlich durch die gemeinsame zentrale Verwaltung.
+Ein Bildungsprodukt ist ein nach innen oder aussen gerichtetes Lernangebot mit Durchführungen. Meistens sind es mehrfache Durchführungen, also von Lernangeboten der gleichen "Art" (-> Produkt). Der Course Planner vereinfacht die Arbeit wesentlich durch die gemeinsame zentrale Verwaltung.
 
 Oft bestehen Curricula/Produkte aus mehreren Kursen und haben eine bestimmte Struktur/Abfolge, in der die enthaltenen Kurse kombiniert sind.
 
