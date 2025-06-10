@@ -79,6 +79,19 @@ Das Recht zur Verwaltung eines Katalog- bzw. Fachbereichteils kann verschiedenen
 ![modules_catalog_management4_v1_de.png](assets/modules_catalog_management4_v1_de.png){ class="shadow lightbox" }
 
 
+Für Benutzer:innen mit diesem Recht gilt: 
+
+- **Bearbeiten:** Sie können Elemente innerhalb der Taxonomieebenen bearbeiten, verschieben, löschen oder neue Unterebenen erstellen.
+- **Vererbung:** Wer auf einer höheren Ebene Rechte hat (z. B. auf Institutsebene), darf automatisch auch die darunter liegenden Ebenen (z.B. Studiengänge) bearbeiten.
+- **Unterdelegation:** Diese Rechte können von oben nach unten weitergegeben werden.<br> 
+Beispiel: Ein Administrator gibt einer Person die Rechte für eine Taxonomieebene darunter (z.B. Fakultät). Diese Person kann dann selbst anderen innerhalb dieser Fakultät ähnliche Rechte geben – auch für untergeordnete Bereiche.
+
+Benutzer mit diesem Recht können nicht:
+
+- Taxonomien erstellen / bearbeiten / löschen
+- Ebenentypen erstellen / bearbeiten / löschen
+- Ziel-, Kredit- und Dozentenkompetenzen erstellen / bearbeiten / löschen
+
 [Zum Seitenanfang ^](#modul_catalog)
 
 ---

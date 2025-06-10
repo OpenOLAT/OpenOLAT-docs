@@ -81,6 +81,19 @@ The right to manage a catalog or subject area section can be granted to differen
 
 ![modules_catalog_management4_v1_de.png](assets/modules_catalog_management4_v1_de.png){ class="shadow lightbox" }
 
+The following applies to users with this right:
+
+- **Editing:** They can edit, move or delete elements within the taxonomy levels or create new sub-levels.
+- **Inheritance:** Anyone who has rights at a higher level (e.g. at institute level) may automatically edit the levels below (e.g. study programs).
+- **Sub-delegation:** These rights can be passed on from top to bottom.<br> 
+Example: An administrator gives a person the rights for a taxonomy level below (e.g. faculty). This person can then give similar rights to others within this faculty - even for subordinate areas.
+
+
+Users with this right cannot:
+
+- Create / edit / delete taxonomies
+- Create / edit / delete layer types
+- Create / edit / delete target, credit and lecturer competencies
 
 [To the top of the page ^](#modul_catalog)
 
