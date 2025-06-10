@@ -72,7 +72,12 @@ Das Löschen der Ebenen löscht nur die Verschlagwortung, keine verknüpften Ler
 
     Die Fachbereiche, Verschlagwortung, Taxonomie die man als Lernressourcenverwalter bearbeiten kann, kann auch andere Bereiche betreffen, in denen die Taxonomie benutzt wird. Diese können sein: ePortfolio Einträge, Curriculum Einträge, Dokumentenpool.
 
-![Verwaltung der Taxonomie](assets/taxonomy-management.de.jpg){class="lightbox"}
+![modules_catalog_management2_v1_de.png](assets/modules_catalog_management2_v1_de.png){ class="shadow lightbox" }
+
+Das Recht zur Verwaltung eines Katalog- bzw. Fachbereichteils kann verschiedenen Personen gegeben werden. (Initial wird dieses Recht von Administrator:innen vergeben.) Wählen Sie den gewünschten (Teil-)Fachbereich und dann den Tab "Verwaltung".
+
+![modules_catalog_management4_v1_de.png](assets/modules_catalog_management4_v1_de.png){ class="shadow lightbox" }
+
 
 [Zum Seitenanfang ^](#modul_catalog)
 

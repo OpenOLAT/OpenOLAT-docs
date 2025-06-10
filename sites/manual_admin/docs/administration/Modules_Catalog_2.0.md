@@ -75,7 +75,12 @@ Deleting levels only deletes the keywording, not any linked learning resources. 
     The subjects, keywording, taxonomy that can be edited as a learning resource administrator can also affect other areas in which the taxonomy is used. These can be: ePortfolio entries, curriculum entries, document pool.
 
 
-![Management of Taxonomy](assets/taxonomy-management.jpg){class="lightbox"}
+![modules_catalog_management2_v1_de.png](assets/modules_catalog_management2_v1_de.png){ class="shadow lightbox" }
+
+The right to manage a catalog or subject area section can be granted to different persons. (Initially, this right is assigned by administrators.) Select the desired subject area section and then the “management” tab.
+
+![modules_catalog_management4_v1_de.png](assets/modules_catalog_management4_v1_de.png){ class="shadow lightbox" }
+
 
 [To the top of the page ^](#modul_catalog)
 
