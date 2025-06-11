@@ -152,7 +152,7 @@ In the header of the course editor, a click on the small red number (if there ar
 ![work_result_badges_v1_en.png](assets/work_result_badges_v1_en.png){ class="shadow lightbox" }
 
 
-When you work as an author in the course editor, you do it in the role of the <b>owner</b> of this course. After leaving the course editor, you can also switch to the <b>participant view</b> to check the work result.
+When you work as an author in the course editor, you do it in the role of the <b>owner</b> of this course. After leaving the course editor (step 8), you can also switch to the <b>participant view</b> to check the work result.
 
 ![participant_view_v1_en.png](assets/participant_view_v1_en.png){ class="shadow lightbox" }
 

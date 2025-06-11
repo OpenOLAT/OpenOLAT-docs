@@ -3,7 +3,7 @@
 
 ## 1. Autorenrechte besorgen
 
-Um OpenOlat-Kurse erstellen zu können, benötigen Sie Autorenrechte. Wenden Sie sich bitte an Ihren <b>Administrator</b>, damit er Ihnen die Autorenrolle gibt. Sobald Sie Autor sind, erscheint im Menü Ihrer Kopfzeile der Eintrag <b>"Autorenbereich2</b>.
+Um OpenOlat-Kurse erstellen zu können, benötigen Sie Autorenrechte. Wenden Sie sich bitte an Ihren <b>Administrator</b>, damit er Ihnen die Autorenrolle gibt. Sobald Sie Autor sind, erscheint im Menü Ihrer Kopfzeile der Eintrag <b>"Autorenbereich"</b>.
 
 ![autorenbereich_menu_v1_de.png](assets/autorenbereich_menu_v1_de.png){ class="shadow lightbox" }
 
@@ -150,7 +150,7 @@ In der Kopfzeile des Kurseditors öffnet ein Klick auf die kleine rote Zahl (fal
 ![arbeitsergebnis_badges_v1_de.png](assets/arbeitsergebnis_badges_v1_de.png){ class="shadow lightbox" }
 
 <br>
-Wenn Sie als Autor im Kurseditor arbeiten, tun Sie das in der Rolle als <b>Besitzer</b> dieses Kurses. Nach Verlassen des Kurseditors können Sie auch in die <b>Teilnehmeransicht</b> wechseln, um das Arbeitsergebnis zu überprüfen.
+Wenn Sie als Autor im Kurseditor arbeiten, tun Sie das in der Rolle als <b>Besitzer</b> dieses Kurses. Nach Verlassen des Kurseditors (Schritt 8) können Sie auch in die <b>Teilnehmeransicht</b> wechseln, um das Arbeitsergebnis zu überprüfen.
 
 ![teilnehmeransicht_v1_de.png](assets/teilnehmeransicht_v1_de.png){ class="shadow lightbox" }
 <br>
