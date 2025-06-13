@@ -1,5 +1,6 @@
 # Course Element "Topic Broker" {: #topic_broker}
 
+
 ## Profile {: #profile}
 
 Name | Topic Broker
@@ -134,7 +135,7 @@ If the toggle button is activated, this field appears in the overview table by d
 [To the top of the page ^](#topic_broker)
 
 
-### Tab "Topic" (Capturing topics) {: #topic_broker_setup_tab_topic}
+### "Topics" tab (Capturing topics) {: #topic_broker_setup_tab_topic}
 
 The selectable topics can be added and described by course owners in the "Topics" tab of the course editor. Alternatively, this can also be done outside of the editor in run mode. Depending on the configuration, this can also be done by course coaches.
 
@@ -148,6 +149,48 @@ In the example below, the lower section also contains a field that was added in 
 [To the top of the page ^](#topic_broker)
 
 ---
+
+### Themen exportieren/importieren {: #topic_broker_export_import_topics}
+
+**Themen exportieren**<br>
+Zum Exportieren der Themen wählen Sie im Kurseditor den betreffenden Kursbaustein, dann den **Tab "Themen"** und dort den **Button "Daten exportieren"**.<br>
+Der Button steht auch nach dem Verlassen des Kurseditors im Run-Mode (Kopfzeile nicht schraffiert) zur Verfügung.
+
+Beim Export wird eine zip-Datei erstellt, die eine Excel-Datei (mit allen Themen) und die dazugehörigen Mediendateien enthält. 
+
+![course_element_topic_broker_topic_export1_v1_de.png](assets/course_element_topic_broker_topic_export1_v1_de.png){ class="shadow lightbox" }
+
+<br>
+
+**Themen importieren**<br>
+Importiert werden können Themen, die aus einem anderen Kursbaustein "Themenbörse" (meistens aus einem anderen Kurs) exportiert wurden. Die dort exportiere zip-Datei enhält
+
+- eine Excel-Datei mit den Themen,
+- alle zugehörigen Mediendateien,
+- sowie die nötigen Informationen zur Zuordnung den Mediendateien zu den richtigen Themen.
+
+Zum Import der Themen wählen Sie **"Themen importieren**, nachdem Sie auf den kleinen Pfeil neben dem Button "Thema hinzufügen" geklickt haben.
+
+![course_element_topic_broker_topics_v1_de.png](assets/course_element_topic_broker_topics_v1_de.png){ class="shadow lightbox" }
+
+Ein kleiner Wizard führt Sie durch den Importprozess.
+
+![course_element_topic_broker_topic_import1_v1_dn.png](assets/course_element_topic_broker_topic_import1_v1_en.png){ class="shadow lightbox" }
+
+Die Themen und Mediendateien müssen in zwei verschiedenen Feldern eingetragen werden. Für beide Felder stehen auch Musterdateien zum Herunterladen bereit. Im Normalfall werden Sie jedoch die an anderer Stelle aus einem OpenOlat-Kursbaustein "Themenbörse" exportierte zip-Datei verwenden.
+
+**a) Themen**<br>
+Hier werden die zu importierenden Themen als Texte (z.B. Titel) erfasst.
+Wenn Sie die Excel-Datei aus einer andernorts exportierten Themensammlung verwenden wollen, müssen Sie ggf. die dort exportierte zip-Datei zuerst entpacken und die darin enthaltene Excel-Datei verwenden.
+
+**b) Mediendateien**<br>
+Die Mediendateien müssen beim Import dem richtigen Thema zugeordnet werden. Die Informationen dafür sind ebenfalls in der andernorts aus OpenOlat exportierten zip-Datei enthalten. Deshalb muss in diesem Abschnitt noch die gesamte zip-Datei importiert werden.
+
+[nach oben (Perspektive Kursbesitzer:in) ^](#topic_broker_setup)<br>
+[zum Seitenanfang ^](#topic_broker)
+
+---
+
 
 ## Coach topic exchange (course coach perspective) {: #topic_broker_coaching}
 

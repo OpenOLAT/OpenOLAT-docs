@@ -21,9 +21,9 @@
 ??? abstract "Erwartete Vorkenntnisse"
 
     * ["Wie erstelle ich meinen ersten OpenOlat-Kurs?"](../my_first_course/my_first_course.de.md)<br>
-    * Vertrautheit mit Basiskonzepten von OpenOlat
+    * [Vertrautheit mit Basiskonzepten von OpenOlat >](../manual_user/basic_concepts.de.md)<br>
 
-    https://docs.openolat.org/de/manual_user/basic_concepts/
+
 
 
 ---
@@ -193,10 +193,10 @@ Der zusätzliche Identifier dient der Eindeutigkeit eines Termins, falls es Term
 Tag und Uhrzeit (Beginn und Ende)
 
 ![4_green_24.png](assets/4_green_24.png) **Einheit**: 
-tbd
+Wurde z.B. ein Vormittag von 8.00-12.00 Uhr vorgesehen, kann er beispielsweise in 4 Einheiten zu je 50 Minuten unterteilt werden. (Dazwischen jeweils Pausen.) 
 
 ![5_green_24.png](assets/5_green_24.png) **Ort**: 
-tbd
+Wo findet der Termin statt, fall physische Präsenz geplant ist.
 
 ![6_green_24.png](assets/6_green_24.png) **Online-Meeting**: 
 Der Course Planner ermöglicht die Verwaltung und Pflege von Terminen für Online-Meetings bereits in der Planungsphase direkt am Produkt bzw. auf der Durchführung - auch ohne bereits hinterlegte Kursinhalte. Es können Online-Meetings mit BigBlueButton und Teams eingerichtet werden. (Es hängt davon ab, was bei Ihnen in OpenOlat eingerichtet ist.)<br>
@@ -207,12 +207,10 @@ auf diesen appliziert und sind dann auch im Kurs verfügbar.
 Um Dozenten auswählen zu können, müssen zuerst Betreuer:innen als Mitglieder hinzugefügt werden.
 
 ![8_green_24.png](assets/8_green_24.png) **Beschreibung**: 
-Der hier eingegebene Text erscheint ...
-tbd
+Der hier eingegebene Text ist für eine den Titel ergänzende, etwas ausführlichere Beschreibung vorgesehen.
 
 ![9_green_24.png](assets/9_green_24.png) **Vorbereitung/Nachbereitung**: 
-Der hier eingegebene Text erscheint ...
-tbd
+Im hier eingegebenen Text können Aufgaben zur Vor- und Nachbereitung des Termins beschrieben werden.
 
 ![10_green_24.png](assets/10_green_24.png) **Präsenz**: 
 Wird bestimmt, dass eine Präsenzpflicht besteht, kann später im Absenzenmanagement verwaltet werden, ob eine Person anwesend war oder entschuldigt bzw. unentschuldigt gefehlt hat.
@@ -254,14 +252,14 @@ In jedem Kurs kann unter<br>
 ein Verwendungszweck gewählt werden. Zur Auswahl stehen
 
 - Eigenständig
-- Einbindung in Curriculum/Produkt -> Für die Verwendung im Course Planner zu wählen.
+- Einbindung in Produkt -> Für die Verwendung im Course Planner zu wählen.
 - Template
 
 ![course_planner_course_share_embedding1_v1_de.png](assets/course_planner_course_share_embedding1_v1_de.png){ class="shadow lightbox" } 
 
-!!! info "Was bewirkt die Einstellung "Einbindung in Curriculum/Produkt"?"
+!!! info "Was bewirkt die Einstellung "Einbindung in Produkt"?"
 
-    Mit Angabe des Verwendungszwecks "Einbindung in Curriculum/Produkt" werden die Teilnehmer:innen nun vom Course Planner verwaltet und nicht mehr in der Mitgliederverwaltung des Kurses. Würden direkt im Kurs nun noch Mitglieder hinzugefügt, entstünde eine Doppelspurigkeit (Mitglied direkt im Kurs **und** Mitglied im Curriculum/Produkt). Deshalb ist beim Verwendungszweck "Einbindung in Curriculum/Produkt" die Mitgliederverwaltung im Kurs selbst auf die Kursbesitzer:innen beschränkt, die den Kurs bearbeiten können.
+    Mit Angabe des Verwendungszwecks "Einbindung in Produkt" werden die Teilnehmer:innen nun vom Course Planner verwaltet und nicht mehr in der Mitgliederverwaltung des Kurses. Würden direkt im Kurs nun noch Mitglieder hinzugefügt, entstünde eine Doppelspurigkeit (Mitglied direkt im Kurs **und** Mitglied im Produkt). Deshalb ist beim Verwendungszweck "Einbindung in Produkt" die Mitgliederverwaltung im Kurs selbst auf die Kursbesitzer:innen beschränkt, die den Kurs bearbeiten können.
 
 
 **Teilschritt 1, Variante A**<br>
@@ -273,13 +271,13 @@ Sie können dort einen Kurs direkt anwählen und die vorstehend beschriebene Ein
 Gehen Sie in den **Autorenbereich** und wählen Sie nacheinander die Kurse, die Bestandteil Ihres Produkts sein sollen.
 
 **Teilschritt 2**<br>
-Unter **Administration > Einstellungen > Tab Freigabe** wählen Sie als Verwendungszweck **Einbindung in Curriculum/Produkt**.
+Unter **Administration > Einstellungen > Tab Freigabe** wählen Sie als Verwendungszweck **Einbindung in Produkt**.
 
 ![course_planner_course_share_embedding2_v1_de.png](assets/course_planner_course_share_embedding2_v1_de.png){ class="shadow lightbox" } 
 
 
 Der beschriebene Weg zur Angabe des Verwendungszwecks, kann auch zur Kontrolle verwendet werden. 
-Soll ein Kurs in einer Durchführung verwendet werden und er hat nicht den Verwendungszweck "Einbindung in Curriculum/Produkt", erscheint eine Warnmeldung.
+Soll ein Kurs in einer Durchführung verwendet werden und er hat nicht den Verwendungszweck "Einbindung in Produkt", erscheint eine Warnmeldung.
 
 
 !!! info "Tipp"
