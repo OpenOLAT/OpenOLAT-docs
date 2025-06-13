@@ -94,7 +94,7 @@ eingetragene Absenzen als unentschuldigt. Diese Option setzt alle
 eingetragenen Absenzen automatisch auf entschuldigt. Falls dies nicht
 zutrifft, muss die Absenz manuell auf unentschuldigt gesetzt werden.
 
-![25_green_24.png](assets/25_green_24.png) **Kursbesitzer dürfen alle Kurse in Curriculum Elementen sehen**
+![25_green_24.png](assets/25_green_24.png) **Kursbesitzer dürfen alle Kurse in Elementen sehen**
 
 ![26_green_24.png](assets/26_green_24.png) **Rekursmöglichkeit gewähren**: Wenn die Rekursfrist aktiviert ist, bekommen
 die Kursteilnehmenden die Möglichkeit, für eine eingetragenen Absenz Rekurs
