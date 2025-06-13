@@ -35,13 +35,13 @@ Hier können die Lernressource Video und der Kursbaustein Video aktiviert werden
 
 ##  Wiki {: #wiki}
 
-Hier können Sie die Wikiressource systemweit ein- oder ausschalten. Die Wiki Komponente ist zurzeit noch anfällig für Cross-Site-Scripting Attacken (XSS). Daher kann zusätzlich der XSS-Scanner aktiviert werden. Dies kann zu Beeinträchtigungen in der Wiki-Funktionalität in OpenOlat führen. Bei ausgeschaltetem XSS-Scanner kann das Wiki mit dem Risiko einer XSS Attacke verwendet werden. Allerdings verfügt die Wiki Komponente über eine automatische Versionierung, die es Angreifern schwierig macht, unerkannt zu bleiben. 
+Hier können Sie die Wiki-Ressource systemweit ein- oder ausschalten. Die Wiki-Komponente ist zurzeit noch anfällig für Cross-Site-Scripting Attacken (XSS). Daher kann zusätzlich der XSS-Scanner aktiviert werden. Dies kann zu Beeinträchtigungen in der Wiki-Funktionalität in OpenOlat führen. Bei ausgeschaltetem XSS-Scanner kann das Wiki mit dem Risiko einer XSS Attacke verwendet werden. Allerdings verfügt die Wiki-Komponente über eine automatische Versionierung, die es Angreifern schwierig macht, unerkannt zu bleiben. 
 
 [Zum Seitenanfang ^](#modules)
 
 
 
-## Audio/Video-Aufnahme {: #audio_video_recording}
+## Audio-/Video-Aufnahme {: #audio_video_recording}
 
 Hier wird die an verschiedenen Stellen in OpenOlat vorhandene Möglichkeit für Audio- und Videoaufnahmen ein- oder ausgeschaltet.
 Die aufgezeichneten Audio- und Videodaten werden automatisch im Hintergrund von einem externen Dienst in ein Format konvertiert, das mit den meisten Browsern kompatibel ist. Auch ein lokales Transcoding kann aktiviert werden.

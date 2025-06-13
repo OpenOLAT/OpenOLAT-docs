@@ -10,7 +10,7 @@ Es stehen derzeit folgende Bezahlungsmodule zur Verfügung und können konfiguri
 
 Verfügbar ab :octicons-tag-24: Release 20
 
-Wird ein OpenOlat-Curriculum verwendet, kann per Rechnung bestellt werden.
+Wird ein OpenOlat-Produkt angeboten, kann per Rechnung bestellt werden.
 
 [Zu den Details >](Payment_Invoice.de.md)<br>
 [Zum Seitenanfang ^](#payment)
