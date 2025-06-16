@@ -16,7 +16,7 @@ User administrators and administrators can search for specific users/accounts in
 
 Enter your relevant search criteria and confirm with the "Return" key or by clicking on the "Search" button.
 
-![user_management_search_form_v1_de.png](assets/user_management_search_form_v1_de.png){ class="shadow lightbox" }
+![user_management_search_form_v2_de.png](assets/user_management_search_form_v2_de.png){ class="shadow lightbox" }
 
 [To the top of the page ^](#search_user)
 
@@ -25,7 +25,7 @@ Enter your relevant search criteria and confirm with the "Return" key or by clic
 
 Select one of the relevant search criteria in the menu on the left and narrow it down.
 
-![user_management_search_left_menu_v1_de.png](assets/user_management_search_left_menu_v1_de.png){ class="shadow lightbox" }
+![user_management_search_left_menu_v2_de.png](assets/user_management_search_left_menu_v2_de.png){ class="shadow lightbox" }
 
 ### Organizations
 
@@ -39,16 +39,17 @@ The following organizational roles are distinguished and can be used for a filte
 
 * All system users
 * Authors
-* Group managers
-* Lesson block managers
+* Group administrator
+* Absence managers
 * Project managers
 * Quality managers
-* Pool managers
+* Question bank managers
 * User managers
-* Role managers
-* Curriculum managers
+* Roles managers
+* Course planners
 * Learning resource managers
 * Line managers
+* Education managers
 * Principals
 * Administrators
 * System administrators
@@ -58,9 +59,9 @@ The following organizational roles are distinguished and can be used for a filte
 
 We distiguish three course roles:
 
-  * Course owners,
+  * Course owners
   * [Course coaches](../../manual_user/basic_concepts/Roles_Rights.md#course-rights-and-roles) and
-  * Course participants.
+  * Course participants
 
 The members of the respective roles can be displayed and edited here.
 
@@ -70,15 +71,15 @@ The members of the respective roles can be displayed and edited here.
 There are two group roles, which can be displayed and edited: 
 
 * [Group coaches](../../manual_user/groups/Group_Administration.md) and 
-* Group participants. 
+* Group participants 
 
 
-### Curriculum Roles
+### Course Planner Roles
 
-If an OpenOlat instance uses the curriculum, there are other roles available in addition to the usual course roles, whose members can be displayed and edited.
+If an OpenOlat instance uses the Course Planner, there are other roles available in addition to the usual course roles, whose members can be displayed and edited.
 
-* Curriculum owners
-* Curriculum element owners
+* Product owners
+* Element owners
 * Head teachers
 * Course owners
 * Course coaches
@@ -88,12 +89,17 @@ If an OpenOlat instance uses the curriculum, there are other roles available in 
 ### Account rolls 
 (Before version 19.0: User roles)
 
-Depending on the configuration in the administration in the "[Modules](../administration/Modules.md)" area → "User to user", further roles are available here that can be filtered, displayed and defined:
+Depending on the configuration in the administration in the "[Modules](../administration/Modules.md)" area → "User to user", further roles are available here that can be filtered, displayed and defined. For example
 
 * Supervisor
 * Subordinate
+* Apprentice manager
+* Apprentice
 * Expert
+* Mentor
+* Mentee
 * User to be assessed
+* ...
 
 
 ### Account types
@@ -115,7 +121,7 @@ The following can be displayed here:
 * Deleted accounts
 
 
-![user_management_search_status_v1_de.png](assets/user_management_search_status_v1_de.png){ class="shadow lightbox" }
+![user_management_search_status_v2_de.png](assets/user_management_search_status_v2_de.png){ class="shadow lightbox" }
 
 
 The "**Deleted users**" table in the user administration contains the following
@@ -155,14 +161,14 @@ Under the menu "**Predefined search queries**" you will find frequently used sea
 
 For a quick search, simply enter a term or part of a term in the "Quick Search" field.
 
-![user_management_quick_search_v1_de.png](assets/user_management_quick_search_v1_de.png){ class="shadow lightbox" }
+![user_management_quick_search_v2_de.png](assets/user_management_quick_search_v2_de.png){ class="shadow lightbox" }
 
 [To the top of the page ^](#search_user)
 
 
 ## Bulk search {: #search_user_bulk_search}
 
-![user_management_bulk_search_v1_de.png](assets/user_management_bulk_search_v1_de.png){ class="shadow lightbox" }
+![user_management_bulk_search_v2_de.png](assets/user_management_bulk_search_v2_de.png){ class="shadow lightbox" }
 
 [To the top of the page ^](#search_user)
 
@@ -174,7 +180,7 @@ If a list of search results is displayed after a search action, filters can be u
 In the first step, you search for all users who belong to a specific organizational unit.
 In the second step, you filter out all inactive users of this organizational unit in the results.
  
-![user_management_filter_searchresults_v1_de.png](assets/user_management_filter_searchresults_v1_de.png){ class="shadow lightbox" }
+![user_management_filter_searchresults_v2_de.png](assets/user_management_filter_searchresults_v2_de.png){ class="shadow lightbox" }
 
 [To the top of the page ^](#search_user)
 

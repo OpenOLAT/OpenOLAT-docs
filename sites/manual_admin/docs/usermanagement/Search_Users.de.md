@@ -16,7 +16,7 @@ Benutzerverwalter:innen und Administrator:innen können auf unterschiedliche Wei
 
 Geben Sie Ihre relevanten Suchkriterien ein und bestätigen Sie mit der "Return"-Taste oder durch Klick auf den Button "Suchen".
 
-![user_management_search_form_v1_de.png](assets/user_management_search_form_v1_de.png){ class="shadow lightbox" }
+![user_management_search_form_v2_de.png](assets/user_management_search_form_v2_de.png){ class="shadow lightbox" }
 
 [Zum Seitenanfang ^](#search_user)
 
@@ -25,7 +25,7 @@ Geben Sie Ihre relevanten Suchkriterien ein und bestätigen Sie mit der "Return"
 
 Wählen Sie links im Menü eines der relevanten Suchkriterien und nehmen Sie eine Eingrenzung vor.
 
-![user_management_search_left_menu_v1_de.png](assets/user_management_search_left_menu_v1_de.png){ class="shadow lightbox" }
+![user_management_search_left_menu_v2_de.png](assets/user_management_search_left_menu_v2_de.png){ class="shadow lightbox" }
 
 ### Organisationen
 
@@ -39,15 +39,16 @@ gefilterte Darstellung verwendet werden:
 * Alle Systembenutzer:innen
 * Autor:innen
 * Gruppenverwalter:innen
-* Lektionenblockverwalter:innen
+* Absenzenverwalter:innen
 * Projektverwalter:innen
 * Qualityverwalter:innen
 * Poolverwalter:innen
 * Benutzerverwalter:innen
 * Rollenverwalter:innen
-* Curriculumverwalter:innen
+* Kursplaner:innen
 * Lernressourcenverwalter:innen
 * Linienvorgesetzte
+* Ausbildungsverantwortliche
 * Principals
 * Administrator:innen
 * Systemadministrator:innen
@@ -57,9 +58,9 @@ gefilterte Darstellung verwendet werden:
 
 Es werden drei Kursrollen unterschieden:
 
-  * Kursbesitzer,
-  * [Kursbetreuer](../../manual_user/basic_concepts/Roles_Rights.de.md#kursbezogene-rollen-und-rechte) und
-  * Kursteilnehmer.
+  * Kursbesitzer:innen
+  * [Kursbetreuer:innen](../../manual_user/basic_concepts/Roles_Rights.de.md#kursbezogene-rollen-und-rechte) und
+  * Kursteilnehmer:innen
 
 Die Mitglieder der jeweiligen Rollen können hier angezeigt und bearbeitet
 werden.
@@ -68,16 +69,16 @@ werden.
 
 Es existieren zwei Gruppenrollen, die angezeigt und bearbeitet werden können: 
 
-* [Gruppenbetreuer](../../manual_user/groups/Group_Administration.de.md) und 
-* Gruppenteilnehmer. 
+* [Gruppenbetreuer:innen](../../manual_user/groups/Group_Administration.de.md) und 
+* Gruppenteilnehmer:innen 
 
 
-### Curriculumrollen
+### Course Planner Rollen
 
-Nutzt eine OpenOlat Instanz das Curriculum, stehen neben üblichen Kursrollen noch weitere Rollen zur Verfügung, deren Mitglieder angezeigt und bearbeitet werden können.
+Nutzt eine OpenOlat Instanz den Course Planner, stehen neben üblichen Kursrollen noch weitere Rollen zur Verfügung, deren Mitglieder angezeigt und bearbeitet werden können.
 
-* Curriculumbesitzer:innen
-* Curriculumelementbesitzer:innen
+* Produktbesitzer:innen
+* Elementbesitzer:innen
 * Klassenlehrer:innen
 * Kursbesitzer:innen
 * Kursbetreuer:innen
@@ -87,12 +88,17 @@ Nutzt eine OpenOlat Instanz das Curriculum, stehen neben üblichen Kursrollen no
 ### Kontorollen 
 (Vor Version 19.0: Benutzerrollen)
 
-Je nach Konfiguration in der Administration im Bereich "[Modules](../administration/Modules.de.md)" → "Benutzer zu Benutzer" stehen hier weitere Rollen zur Verfügung, die gefiltert angezeigt und definiert werden können:
+Je nach Konfiguration in der Administration im Bereich "[Modules](../administration/Modules.de.md)" → "Benutzer zu Benutzer" stehen hier weitere Rollen zur Verfügung, die gefiltert angezeigt und definiert werden können. Zum Beispiel:
 
 * Vorgesetze:r
 * Untergebene:r
+* Lehrlingsverantwortliche:r
+* Lehrling
 * Expert:in
+* Mentor:in
+* Mentee
 * Zu Beurteilende:r
+* ...
 
 
 ### Kontotypen
@@ -108,14 +114,14 @@ Hier suchen Sie innerhalb vorselektierter Kontentypen.
 
 Hier können angezeigt werden:
 
-* ausstehende Benutzerkonten
-* inaktive Konten
-* gesperrte Konten 
-* gelöschte Konten
+* Ausstehende Konten
+* Inaktive Konten
+* Gesperrte Konten 
+* Gelöschte Konten
 
 
 
-![user_management_search_status_v1_de.png](assets/user_management_search_status_v1_de.png){ class="shadow lightbox" }
+![user_management_search_status_v2_de.png](assets/user_management_search_status_v2_de.png){ class="shadow lightbox" }
 
 
 Die Tabelle "**Gelöschte Benutzer**" in der Benutzerverwaltung enthält folgende
@@ -155,14 +161,14 @@ Unter dem Menü "**Vordefinierte Suchabfragen**" finden Sie oft benutzte Suchabf
 
 Zur schnellen Suche geben Sie einfach einen Begriff oder einen Teil davon in das Feld "Quick Search" ein.
 
-![user_management_quick_search_v1_de.png](assets/user_management_quick_search_v1_de.png){ class="shadow lightbox" }
+![user_management_quick_search_v2_de.png](assets/user_management_quick_search_v2_de.png){ class="shadow lightbox" }
 
 [Zum Seitenanfang ^](#search_user)
 
 
 ## Massensuche {: #search_user_bulk_search}
 
-![user_management_bulk_search_v1_de.png](assets/user_management_bulk_search_v1_de.png){ class="shadow lightbox" }
+![user_management_bulk_search_v2_de.png](assets/user_management_bulk_search_v2_de.png){ class="shadow lightbox" }
 
 [Zum Seitenanfang ^](#search_user)
 
@@ -174,7 +180,7 @@ Wird nach einer Suchaktion eine Liste mit den Suchergebnissen angezeigt, kann da
 Sie suchen im ersten Schritt alle Benutzer, die einer bestimmten Organisationseinheit angehören.
 Im zweiten Schritt filtern Sie in den Ergebnissen alle inaktiven Benutzer dieser Organisationseinheit heraus.
  
-![user_management_filter_searchresults_v1_de.png](assets/user_management_filter_searchresults_v1_de.png){ class="shadow lightbox" }
+![user_management_filter_searchresults_v2_de.png](assets/user_management_filter_searchresults_v2_de.png){ class="shadow lightbox" }
 
 [Zum Seitenanfang ^](#search_user)
 
