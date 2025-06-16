@@ -26,14 +26,14 @@ If the option is activated, the option to create suggestions for improvement is 
 This preview is displayed after activation
 
 * in courses
-* in curricula
+* in products
 * in the "Quality management" module
 
 If this option is activated, the "Data collection preview" option is displayed for course owners in the course administration menu. The planned surveys relating to this course can be viewed there. This preview is purely informative for course owners. Editing is only possible for quality managers.
 
 See [User manual](../../manual_user/learningresources/Data_Collection_Previews.md)
 
-In addition, the data collection preview can be called up in Curriculua and shows all surveys that relate to one of the curriculum elements.
+In addition, the data collection preview can be called up in products and shows all surveys that relate to one of the elements.
 
 The data collection preview in the "Quality management" module refers to all planned surveys (not just individual courses).
 

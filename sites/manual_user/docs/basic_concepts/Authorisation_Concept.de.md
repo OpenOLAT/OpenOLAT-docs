@@ -14,9 +14,9 @@ Legende
 
 
 ## Rechte der Kursrollen
-Die Kursrollen Teilnehmer sowie Betreuer stehen stellvertretend auch für die Gruppenteilnehmer/-betreuer und Curriculumteilnehmer/-betreuer.
+Die Kursrollen Teilnehmer:in sowie Betreuer:in stehen stellvertretend auch für die Gruppenteilnehmer:innen/-betreuer:innen und Durchführungsteilnehmer:innen/-betreuer:innen.
 
-|                                                             | Besitzer         | Betreuer          | Teilnehmer        |
+|                                                             | Besitzer:innen   | Betreuer:innen    | Teilnehmer:innen  |
 | ----------------------------------------------------------- | :--------------: | :---------------: | :---------------: |
 | **Zugriff nach Status**                                                                                                |
 | ![Vorbereitung](assets/s_prep_DE.png){ width=90px }         | Vollzugriff      | :material-cancel: | :material-cancel: |
@@ -28,7 +28,7 @@ Die Kursrollen Teilnehmer sowie Betreuer stehen stellvertretend auch für die Gr
 | **Kursadmin-Tools**                                                                                                    |
 | Mitgliederverwaltung                                        | Vollzugriff      | :material-cancel: | :material-cancel: |
 | Bewertungswerkzeug                                          | Vollzugriff      | Vollzugriff       | :material-cancel: |
-| Lektionen & Absenzen                                          | Vollzugriff      | :material-cancel: | :material-cancel: |
+| Termine & Absenzen                                          | Vollzugriff      | :material-cancel: | :material-cancel: |
 | **Kursaktionen**                                                                                                       |
 | Kopieren                                                    | :material-check: |                   |                   |
 | Löschen                                                     | :material-check: |                   |                   |
@@ -42,7 +42,7 @@ Die Kursrollen Teilnehmer sowie Betreuer stehen stellvertretend auch für die Gr
 ---
 
 ## Rechte der organisationsweiten Rollen in einem Kurs
-|                                                             | Administrator | Autor                            | Principal         | Linien-<br/>vorgesetzter | 
+|                                                             | Administrator:innen | Autor:innen                            | Principal         | Linien-<br/>vorgesetzte | 
 | ----------------------------------------------------------- | :-----------: | :------------------------------: | ----------------: | :----------------------: | 
 | **Zugriff nach Status**                                                                                                                                       |
 | ![Vorbereitung](assets/s_prep_DE.png){ width=90px }         | Vollzugriff   | :material-cancel:                | Lesend            | :material-cancel:        | 
@@ -57,7 +57,7 @@ Die Kursrollen Teilnehmer sowie Betreuer stehen stellvertretend auch für die Gr
 | Bewertungswerkzeug                                          | Vollzugriff   | :material-cancel:                | Lesend            | :material-cancel:        |
 | Dateien eines Kurses                                        | Vollzugriff   |      Vollzugriff           | :material-cancel:           | :material-cancel:        |
 | Badges                                        | Vollzugriff   |      Vollzugriff           | Lesend           | Lesend        |
-| Lektionen & Absenzen                                         | Vollzugriff   | :material-cancel:                | Lesend            | :material-cancel:        |
+| Termine & Absenzen                                         | Vollzugriff   | :material-cancel:                | Lesend            | :material-cancel:        |
 | Archivierung & Reporting                                    | Vollzugriff   |      Vollzugriff           | :material-cancel:           | :material-cancel:        |
 | **Kursaktionen**                                                                                                                                              |
 | Kopieren                                                    | :material-check: | :material-check: mit Freigabe |                   |                          |
@@ -74,12 +74,12 @@ Die Kursrollen Teilnehmer sowie Betreuer stehen stellvertretend auch für die Gr
 ---
 
 ## Rechte der Kursteilnehmer:innen
-|                                                             | Registrierter Benutzer                                  | Anonymer Gast               | 
+|                                                             | Registrierte Benutzer:innen                                | Anonymer Gast               | 
 | ----------------------------------------------------------- | :-----------------------------------------------------: | :-------------------------: |
 | **Zugriff nach Status**                                                                                                                             |
 | ![Vorbereitung](assets/s_prep_DE.png){ width=90px }         | :material-cancel:                                       | :material-cancel:           |
 | ![Review](assets/s_rev_DE.png){ width=56px }                | :material-cancel:                                       | :material-cancel:           |
-| ![Freigabe Betreuer](assets/s_acc_co_DE.png){ width=120px } | :material-cancel:                                       | :material-cancel:           |
+| ![Freigabe Betreuer:in](assets/s_acc_co_DE.png){ width=120px } | :material-cancel:                                       | :material-cancel:           |
 | ![Veröffentlicht](assets/s_publ_DE.png){ width=100px }      | Lesend,<br/>wenn Zugang "Frei verfügbar" "Ohne Buchung" | Lesend,<br/>wenn Gastzugang |
 | ![Beendet](assets/s_fin_DE.png){ width=63px }               | Lesend,<br/>wenn Zugang "Frei verfügbar" "Ohne Buchung" | Lesend,<br/>wenn Gastzugang |
 | ![Papierkorb](assets/s_trash_DE.png){ width=80px }          | :material-cancel:                                       | :material-cancel:           |
@@ -90,19 +90,19 @@ Die Kursrollen Teilnehmer sowie Betreuer stehen stellvertretend auch für die Gr
 ---
 
 ## Rechte der Verwalter-Rollen in einem Kurs
-|                                                             | Lernressourcen-<br/>verwalter |  Curriculum-<br/>verwalter | Lektionenblock-<br/>verwalter |
+|                                                             | Lernressourcen-<br/>verwalter:innen |  Kursplaner:innen | Absenzverwalter:innen |
 | ----------------------------------------------------------- | :---------------------------: | :------------------------: | :---------------------------: |
 | **Zugriff nach Status**                                                                                                                                  |
 | ![Vorbereitung](assets/s_prep_DE.png){ width=90px }         | Vollzugriff                   | :material-cancel:          | :material-cancel:             |
 | ![Review](assets/s_rev_DE.png){ width=56px }                | Vollzugriff                   | :material-cancel:          | :material-cancel:             |
-| ![Freigabe Betreuer](assets/s_acc_co_DE.png){ width=120px } | Vollzugriff                   | :material-cancel:          | :material-cancel:             |
+| ![Freigabe Betreuer:in](assets/s_acc_co_DE.png){ width=120px } | Vollzugriff                   | :material-cancel:          | :material-cancel:             |
 | ![Veröffentlicht](assets/s_publ_DE.png){ width=100px }      | Vollzugriff                   | :material-cancel:          | :material-cancel:             |
 | ![Beendet](assets/s_fin_DE.png){ width=63px }               | Lesend                        | :material-cancel:          | :material-cancel:             |
 | ![Papierkorb](assets/s_trash_DE.png){ width=80px }          | Lesend                        | :material-cancel:          | :material-cancel:             |
 | **Kursadmin-Tools**                                                                                                                                      |
 | Mitgliederverwaltung                                        | Vollzugriff                   | :material-cancel:          | :material-cancel:             |
 | Bewertungswerkzeug                                          | Vollzugriff                   | :material-cancel:          | :material-cancel:             |
-| Lektionen & Absenzen                                          | Vollzugriff                   | :material-cancel:          | :material-cancel:             |
+| Termine & Absenzen                                          | Vollzugriff                   | :material-cancel:          | :material-cancel:             |
 | **Kursaktionen**                                                                                                                                             |
 | Kopieren                                                    | :material-check:              |                            |                               |
 | Löschen                                                     | :material-check:              |                            |                               |
@@ -116,24 +116,24 @@ Die Kursrollen Teilnehmer sowie Betreuer stehen stellvertretend auch für die Gr
 
 ---
 
-## Rechte der Curriculum-Rollen in einem Kurs
-|                                                             | Curriculum-<br/>besitzer |  Curriculum-<br/>elementbesitzer | Klassenlehrer     |
+## Rechte der Produkt-Rollen in einem Kurs
+|                                                             | Produkt-<br/>besitzer:innen |  Elementbesitzer:innen | Klassenlehrer:innen   |
 | ----------------------------------------------------------- | :----------------------: | :-----------------------------: | :---------------: |
 | **Zugriff nach Status**                                                                                                                      |
 | ![Vorbereitung](assets/s_prep_DE.png){ width=90px }         | :material-cancel:        | :material-cancel:               | :material-cancel: |
 | ![Review](assets/s_rev_DE.png){ width=56px }                | :material-cancel:        | :material-cancel:               | :material-cancel: |
-| ![Freigabe Betreuer](assets/s_acc_co_DE.png){ width=120px } | :material-cancel:        | :material-cancel:               | :material-cancel: |
+| ![Freigabe Betreuer:in](assets/s_acc_co_DE.png){ width=120px } | :material-cancel:        | :material-cancel:               | :material-cancel: |
 | ![Veröffentlicht](assets/s_publ_DE.png){ width=100px }      | :material-cancel:        | :material-cancel:               | :material-cancel: |
 | ![Beendet](assets/s_fin_DE.png){ width=63px }               | :material-cancel:        | :material-cancel:               | :material-cancel: |
 | ![Papierkorb](assets/s_trash_DE.png){ width=80px }          | :material-cancel:        | :material-cancel:               | :material-cancel: |
 | **Admin-Tools**                                                                                                                              |
 | Mitgliederverwaltung                                        | :material-cancel:        | :material-cancel:               | Lesend            |
 | Bewertungswerkzeug                                          | :material-cancel:        | :material-cancel:               | Vollzugriff       |
-| Lektionen & Absenzen                                          | :material-cancel:        | :material-cancel:               | Vollzugriff       |
+| Termine & Absenzen                                          | :material-cancel:        | :material-cancel:               | Vollzugriff       |
 | **Module**                                                                                                                                   |
-| Coaching - Lektionen&Absenzen                               | :material-cancel:        | :material-cancel:               | Vollzugriff       |
+| Coaching - Termine&Absenzen                               | :material-cancel:        | :material-cancel:               | Vollzugriff       |
 | Coaching - Kurse                                            | :material-cancel:        | :material-cancel:               | :material-cancel: |
-| Lektionenverwaltung                                         | :material-cancel:        | :material-cancel:               | :material-cancel: |
+| Absenzenverwaltung                                         | :material-cancel:        | :material-cancel:               | :material-cancel: |
 
 
 [Zum Seitenanfang ^](#rights_in_courses)

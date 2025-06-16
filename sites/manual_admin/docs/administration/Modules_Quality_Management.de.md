@@ -28,14 +28,14 @@ Wird die Option aktiviert, wird unter dem Menüpunkt Qualitätsmanagment die Opt
 Diese Vorschau wird nach der Aktivierung angezeigt
 
 * in Kursen
-* in Curricula
+* in Produkten
 * im Modul "Qualitätsmanagement"
 
 Wird die Option aktiviert, ist für Kursbesitzer:innen im Menü der Kursadministration die Option "Datenerhebungsvorschau" angezeigt. Dort können die geplanten Erhebungen eingesehen werden, die diesen Kurs betreffen. Für Kursbesitzer:innen ist diese Vorschau rein informativ. Eine Bearbeitung ist lediglich für Qualitätsmanager:innen möglich.
 
 Siehe [Benutzerhandbuch](../../manual_user/learningresources/Data_Collection_Previews.de.md)
 
-Ausserdem kann die Datenerhebungsvorschau in Curriculua aufgerufen werden und zeigt dort alle Erhebungen, die eines der Curriculumelemente betreffen.
+Ausserdem kann die Datenerhebungsvorschau in Produkten aufgerufen werden und zeigt dort alle Erhebungen, die eines der Elemente betreffen.
 
 Die Datenerhebungsvorschau im Modul "Qualitätsmanagement" bezieht sich auf alle geplanten Erhebungen (nicht nur auf einzelne Kurse). 
 
