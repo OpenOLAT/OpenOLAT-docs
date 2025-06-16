@@ -112,6 +112,7 @@ Zu den Rollen, die begrenzt auf eine Organisationseinheit vergeben werden könne
 * Kursplaner:innen
 * Lernressourcenverwalter:innen
 * Linienvorgesetzte
+* Ausbildungsverantwortliche
 * Principals
 * Administrator:innen
 
