@@ -1,12 +1,5 @@
 # Wie kann ich mit dem Course Planner Kursdurchführungen planen und durchführen? {: #plan_and_run_courses_with_course_planner}
 
-
-!!! warning "Attention"
-
-    This article is still under construction.
-
-
-
 ??? abstract "Ziel und Inhalt dieser Anleitung"
 
     Diese Anleitung zeigt Ihnen, wie Sie mit dem Course Planner automatisiert und effizient vom Angebot ausgehend Kurse planen und erstellen.
@@ -63,12 +56,11 @@ Wenn Sie die **Rolle Kursplaner:in** besitzen, finden Sie den Course Planner als
 
 ## Schritt 1: Produkt erstellen  {: #create_product}
 
-tbd
-Was ist ein Produkt
-?? Wir unterscheiden ein Produkt (z.B. ein Kurs, der mehrfach angeboten werden kann) von einer Durchführung.
+Wir unterscheiden ein [Produkt](../../manual_user/area_modules/Course_Planner_Products.de.md#create_products) (z.B. einen Kurs, der mehrfach angeboten werden kann) von einer [Durchführung](../../manual_user/area_modules/Course_Planner_Implementations.de.md).
 
-- Produkt erstellen und planen (z.B. Sprachkurs "Spanisch für Anfänger")
-- Durchführungen (z.B. "Spanisch für Anfänger, Frühjahr 2025", "Spanisch für Anfänger, Herbst 2025")
+Beispiel:<br>
+- Als Produkt wird ein Sprachkurs "Spanisch für Anfänger" erstellt und geplant.
+- Durchführungen finden dann statt als "Spanisch für Anfänger, Frühjahr 2025", "Spanisch für Anfänger, Herbst 2025", usw.
 
 Öffnen Sie den Course Planner und wählen Sie dort den Button "Produkte". Sie können dort ein bereits vorhandenes Produkt aus der Liste auswählen oder eines neu erstellen. Dieses soll dann mehrfach in verschiedenen Durchführungen angeboten werden.
 
