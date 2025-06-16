@@ -67,11 +67,11 @@ Da Gruppenverwalter:innen gruppenübergreifend Aufgaben wahrnehmen, ist dies ein
 
 ---
 
-## Rollenzuweisung für Course Planner {: #role_assignment_course_planner} 
+## Rollenzuweisung im Course Planner {: #role_assignment_course_planner} 
 
-Wer die Rolle eines/einer Kursplaner:in besitzt, hat automatisch Zugriff auf alle Kurse, die mit dem jeweiligen Curriculum/Produkt verbunden sind. 
+Wer die Rolle eines/einer Kursplaner:in besitzt, hat automatisch Zugriff auf alle Kurse, die mit dem jeweiligen Produkt verbunden sind. 
 
-Einem Curriculum/Produkt können keine Mitglieder zugewiesen werden, nur den Durchführungen. Kursplaner:innen können die Teilnehmer:innen für alle Durchführungen zuweisen.
+Einem Produkt können keine Mitglieder zugewiesen werden, nur den Durchführungen. Kursplaner:innen können die Teilnehmer:innen für alle Durchführungen zuweisen.
 
 
 [zum Seitenanfang ^](#role_assignment)

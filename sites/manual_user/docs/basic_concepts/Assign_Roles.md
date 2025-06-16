@@ -64,11 +64,11 @@ As group administrators perform cross-group tasks, this is a organisation-wide r
 
 ---
 
-## Role assignment for curricula {: #role_assignment_curriculum}
+## Role assignment in the course planner {: #role_assignment_course_planner}
 
-The following roles can be assigned in a curriculum and curriculum element:
+The following roles can be assigned in a product and product element:
 
-* Curriculum owner
+* Product owner
 * Element owner
 * Class teacher (Master Coach)
 * (Curriculum-) Course owner
