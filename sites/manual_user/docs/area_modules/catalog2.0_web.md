@@ -24,16 +24,19 @@ For users already registered in OpenOlat, the booking is assigned to their exist
 
 The web catalog can be offered on the login screen from Release 20. (The web catalog and the display of the button must be set up in the administration).
 
+![catalog20_webcatalog_login_v1_de.png](assets/catalog20_webcatalog_login_v1_de.png){ class="shadow lightbox" }
+
 The link to the web catalog can also be integrated elsewhere in a website.
 
-![catalog20_webcatalog_login_v1_de.png](assets/catalog20_webcatalog_login_v1_de.png){ class="shadow lightbox" }
+[Direct links to an offer](#web_catalog_direct_link) can also be sent.
+
 
 [To the top of the page ^](#web_catalog)
 
 ---
 
 
-## Create offers in Web Catalog
+## Create offers in Web Catalog {: #web_catalog_offers}
 
 In order for a course to be advertised in the web catalog or in the internal catalog, an offer must be created under: **(Course) Administration > Settings > Tab "Share"**<br>
 
@@ -60,6 +63,16 @@ If there are to be differences between the internal and external catalog (e.g. i
     Courses created with the Course Planner can also be offered in the web catalog. In this case, the option "Integration in curriculum/product" is selected for the course under **Settings > "Share" tab > "Usage"** section and no offer can be created in the course itself.
 
     More about offers of implementations can be found [here](../../manual_user/area_modules/Course_Planner_Implementations.md#tab_catalog)
+
+
+### Direct link to an offer {: #web_catalog_direct_link}
+
+If you want to send a direct link to a specific offer, e.g. by e-mail (external or internal catalog), you will find the links in the overview of offers.
+
+**Example: Links to an offer for an implementation**
+
+![catalog20_webcatalog_offer_link_v1_de.png](assets/catalog20_webcatalog_offer_link_v1_de.png){ class="shadow lightbox" }
+
 
 [To the top of the page ^](#web_catalog)
 

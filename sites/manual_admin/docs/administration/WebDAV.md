@@ -15,22 +15,13 @@ parameters can be configured:
 	but the WebDAV link must be known by users as it is not displayed in the web
 	interface.
 
-  *  **Digest Authentication for HTTP access**  
-	To use WebDAV on Windows operating systems without manually importing
-	certificates it is mandatory to operate the WebDAV interface using HTTP and no
-	SSL. In that case files will be transfered without encryption. To still
-	transmit the password encrypted, the Digest Authentication method must be used
-	to support Windows.
+  *  **Digest Authentication**
 	
 	!!! attention "Security note"
-		The Digest Authentication method does not use strong encryption and can be
-		cracked with enough computing effort. To meet very high security demands users
-		should always use HTTPS with SSL encryption. When using Windows this will make
-		it necessary to manually import certificates or to use a dedicated WebDAV
-		client.
+		The Digest Authentication method does not use strong encryption and can be cracked with enough computing effort. To meet very high security demands users should always use HTTPS with SSL encryption.
 
   * **WebDAV Client exclusion**  
-	Turn exclusion of specific user WebDAV clients on or off. 
+	Turn exclusion of specific user WebDAV clients on or off.
 
   * **List of User-Agents (comma as separator)**  
 	Not allowed user-agents.

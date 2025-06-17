@@ -5,7 +5,7 @@
 
 * * *
 
-:material-calendar-month-outline: **Releasedatum: 20.03.2025 • Letztes Update: 21.05.2025**
+:material-calendar-month-outline: **Releasedatum: 20.03.2025 • Letztes Update: 11.06.2025**
 
 * * *
 
@@ -100,7 +100,7 @@ Mit Release 20.0 wurden folgende Bezeichnungen angepasst:
 Bisher | Neu
 ---------|----------
 Curriculumverwaltung | Course Planner
-Curriculumverwalter:in | Kursplaner:in 
+Curriculumverwalter:in | Kursplaner:in
 Buchung | Buchungsauftrag
 Buchungsmethode | Angebotsart
 Lektion oder Lektionenblock | Termin
@@ -241,7 +241,9 @@ Neu wird unterschieden, welcher Organisation ein:e Benutzer:in grundlegend angeh
 
 Die Hierarchie der Organisationsebenen sowie die Vererbung von Rollen auf Unterorganisationen wird explizit ausgewiesen. Werden globale Rollen (Systemadministrator:in, Gruppenverwalter:in, Poolverwalter:in) auf einer Unterorganisation vergeben, erscheint ein entsprechender Hinweis.
 
-![Überarbeitete Rollenverwaltung](assets/200/Role_management_DE.png){ class="shadow lightbox" title="Überarbeitete Rollenverwaltung" }
+Ab (:octicons-tag-24:) Release 20.0.4 zeigt der Bereich "Rollenverlauf" die Änderungshistorie der Rollenzuordnung an.
+
+![Überarbeitete Rollenverwaltung mit Historie](assets/200/Role_management_history_DE.png){ class="shadow lightbox" title="Überarbeitete Rollenverwaltung mit Historie" }
 
 * * *
 
@@ -316,6 +318,8 @@ Die Hierarchie der Organisationsebenen sowie die Vererbung von Rollen auf Untero
 
 ## Weitere Informationen
 
+* [YouTrack Release Notes 20.0.5](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.0.5&title=Release%20Notes%2020.0.5){:target="_blank"}
+* [YouTrack Release Notes 20.0.4](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.0.4&title=Release%20Notes%2020.0.4){:target="_blank"}
 * [YouTrack Release Notes 20.0.3](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.0.3&title=Release%20Notes%2020.0.3){:target="_blank"}
 * [YouTrack Release Notes 20.0.2](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.0.2&title=Release%20Notes%2020.0.2){:target="_blank"}
 * [YouTrack Release Notes 20.0.1](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.0.1&title=Release%20Notes%2020.0.1){:target="_blank"}
