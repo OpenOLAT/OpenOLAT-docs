@@ -150,44 +150,44 @@ In the example below, the lower section also contains a field that was added in 
 
 ---
 
-### Themen exportieren/importieren {: #topic_broker_export_import_topics}
+### Export/Import topics {: #topic_broker_export_import_topics}
 
-**Themen exportieren**<br>
-Zum Exportieren der Themen wählen Sie im Kurseditor den betreffenden Kursbaustein, dann den **Tab "Themen"** und dort den **Button "Daten exportieren"**.<br>
-Der Button steht auch nach dem Verlassen des Kurseditors im Run-Mode (Kopfzeile nicht schraffiert) zur Verfügung.
+**Export topics**<br>
+To export the topics, select the relevant course element in the course editor, then the **Tab "Topics"** and there the **Button “Export data"**.<br>
+The button is also available after leaving the course editor in run mode (header not hatched).
 
-Beim Export wird eine zip-Datei erstellt, die eine Excel-Datei (mit allen Themen) und die dazugehörigen Mediendateien enthält. 
+When exporting, a zip file is created that contains an Excel file (with all topics) and the associated media files.
 
 ![course_element_topic_broker_topic_export1_v1_de.png](assets/course_element_topic_broker_topic_export1_v1_de.png){ class="shadow lightbox" }
 
 <br>
 
-**Themen importieren**<br>
-Importiert werden können Themen, die aus einem anderen Kursbaustein "Themenbörse" (meistens aus einem anderen Kurs) exportiert wurden. Die dort exportiere zip-Datei enhält
+**Import topics**<br>
+You can import topics that have been exported from another course element "Topic exchange" (usually from another course). The zip file exported there contains
 
-- eine Excel-Datei mit den Themen,
-- alle zugehörigen Mediendateien,
-- sowie die nötigen Informationen zur Zuordnung den Mediendateien zu den richtigen Themen.
+- an Excel file with the topics,
+- all associated media files,
+- as well as the necessary information for assigning the media files to the correct topics.
 
-Zum Import der Themen wählen Sie **"Themen importieren**, nachdem Sie auf den kleinen Pfeil neben dem Button "Thema hinzufügen" geklickt haben.
+To import the themes, select **“Import themes"** after you have clicked on the small arrow next to the ”Add theme" button.
 
 ![course_element_topic_broker_topics_v1_de.png](assets/course_element_topic_broker_topics_v1_de.png){ class="shadow lightbox" }
 
-Ein kleiner Wizard führt Sie durch den Importprozess.
+A small wizard guides you through the import process.
 
 ![course_element_topic_broker_topic_import1_v1_dn.png](assets/course_element_topic_broker_topic_import1_v1_en.png){ class="shadow lightbox" }
 
-Die Themen und Mediendateien müssen in zwei verschiedenen Feldern eingetragen werden. Für beide Felder stehen auch Musterdateien zum Herunterladen bereit. Im Normalfall werden Sie jedoch die an anderer Stelle aus einem OpenOlat-Kursbaustein "Themenbörse" exportierte zip-Datei verwenden.
+The topics and media files must be entered in two different fields. Sample files are also available to download for both fields. Normally, however, you will use the zip file exported elsewhere from an OpenOlat course element "Topic exchange".
 
-**a) Themen**<br>
-Hier werden die zu importierenden Themen als Texte (z.B. Titel) erfasst.
-Wenn Sie die Excel-Datei aus einer andernorts exportierten Themensammlung verwenden wollen, müssen Sie ggf. die dort exportierte zip-Datei zuerst entpacken und die darin enthaltene Excel-Datei verwenden.
+**a) Topics**<br>
+The topics to be imported are entered here as texts (e.g. titles).
+If you want to use the Excel file from a topic collection exported elsewhere, you may first have to unzip the zip file exported there and use the Excel file it contains.
 
-**b) Mediendateien**<br>
-Die Mediendateien müssen beim Import dem richtigen Thema zugeordnet werden. Die Informationen dafür sind ebenfalls in der andernorts aus OpenOlat exportierten zip-Datei enthalten. Deshalb muss in diesem Abschnitt noch die gesamte zip-Datei importiert werden.
+**b) Media files**<br>
+The media files must be assigned to the correct topic during import. The information for this is also contained in the zip file exported elsewhere from OpenOlat. The entire zip file must therefore be imported in this section.
 
-[nach oben (Perspektive Kursbesitzer:in) ^](#topic_broker_setup)<br>
-[zum Seitenanfang ^](#topic_broker)
+[Up (Course owner perspective) ^](#topic_broker_setup)<br>
+[To the top of the page ^](#topic_broker)
 
 ---
 

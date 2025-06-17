@@ -45,7 +45,6 @@ Beim Hinzufügen neuer Mitglieder werden auch die Rollen "Gruppenteilnehmer:in" 
 
 ![roles_rights_group_member_v1_de.png](assets/roles_rights_group_member_v1_de.png){ class=" shadow lightbox" }
 
-
 **Rollen der Gruppenmitglieder ändern**<br>
 Besteht bereits eine Mitgliedschaft in einer Gruppe und Sie wollen die Rolle der Person ändern, können Sie dies (bei vorhandener Berechtigung zum Bearbeiten) in der Administration der Gruppe.
 

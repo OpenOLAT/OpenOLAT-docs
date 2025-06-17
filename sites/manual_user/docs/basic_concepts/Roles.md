@@ -96,54 +96,6 @@ In the rights management of the course, further *rights packages* can be assigne
 
 ---
 
-## Roles in curricula {: #curriculum} 
-
-If the optional additional module "Curriculum" is activated, additional roles are available alongside the usual course roles, which can be assigned to members of a curriculum.
-
-* Curriculum owner
-* Curriculum element owner
-* Class teacher (Master Coach)
-
-* (Curriculum) course owner
-* (Curriculum) course coach
-* (Curriculum) course participantss
-
-
-**The role curriculum owner**<br>
-If a person with access to curriculum management (curriculum administrators) imports or creates a new curriculum, this person becomes the curriculum owner. In particular, this entails the right to structure the curriculum and to add courses and (curriculum) participants to the curriculum.
-
-![roles_rights_curriculum_owner_v1_de.png](assets/roles_rights_curriculum_owner_v1_de.png){ class=" shadow lightbox" }
-
-
-**The role curriculum element owner**<br>
-Like owners, element owners also have the right to structure the curriculum and add courses and (curriculum) participants to the curriculum - but limited to one curriculum element.
-
-**The role class teacher (master coach)**<br>
-Example:<br>
-If a class has different subjects (subjects correspond to curriculum elements in OpenOlat), then the class teachers have access to the different curriculum elements (read permission), while subject teachers (curriculum element owners) only have access to their curriculum element (subject).
-
-**Owners, Coaches** and **Users** are the three roles of course participants. A curriculum is made up of courses. That is why these 3 roles are also available for all courses in a particular curriculum - with a few special features.
-
-**The role (Curriculum-) course owner**<br>
-Normally, users with the organisation-wide author role can create courses in the author area. In every newly created course, the creator automatically receives the course role "Course owner". The "Course owner" role applies to one course at a time.
-
-If a user becomes a curriculum member and receives the role "course owner" **within the curriculum**, the person becomes the course owner in **all courses of this curriculum**.
-
-Outside of the curriculum elements, a (curriculum) course owner has no author rights if he/she does not have the organisation-wide role of author.
-
-If the curriculum membership is withdrawn, the owner role is also removed from all courses in this curriculum.
-
-The same applies to the roles of **(curriculum) course coaches** and **(curriculum) course participants**.
-
-!!! note "Note"
-
-    The roles listed above are roles **within** a specific curriculum. The role of "curriculum administrator", on the other hand, is a organisation-wide role, as its task is to perform administrative tasks across the curriculum**.<br>
-    (See [Curriculum management](../area_modules/Curriculum_Management.md))
-
-[To the top of the page ^](#roles)
-
----
-
 ## Roles in an organization {: #orgunit}
 
 If the optional additional module "Organizational units" is activated, roles can also only be assigned for a specific organizational unit.
@@ -196,21 +148,6 @@ The **system** is determined by **administrators**.
 
 Once the roles and their system have been set up, the relationships can then be defined in **User administration**.<br>
 (See [Assign roles](Assign_Roles.md))
-
-[To the top of the page ^](#roles)
-
----
-
-## Role "Invitee" {: #invitee} 
-
-The "Invitee" role is for people who do not have a user account in OpenOlat and still need to enter data in OpenOlat. They are given a kind of pseudo user account with very few rights. The role is used in the ePortfolio module, for example. Here, the authors of a contribution can also invite external persons (e.g. the teacher) to assess the contribution. These external persons are assigned the "Invitee" role.
-
-All persons who have been added to a course via the option "**Invite external members**" receive the "role" or the associated rights status. In user management, the "Invitation" role should only be assigned in exceptional cases.
-
-As external users, such persons are not fully registered (only with e-mail) and therefore **do not have full user rights**, like the standard role "User".<br>
-(See [User types](User_Types.md))
-
-(Available since release 17.0.)
 
 [To the top of the page ^](#roles)
 

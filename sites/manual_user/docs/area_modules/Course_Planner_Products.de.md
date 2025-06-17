@@ -4,13 +4,13 @@
 
 ## Was verstehen wir in OpenOlat unter einem Produkt? {: #definition}
 
-Ein Bildungsprodukt ist ein nach innen oder aussen gerichtetes Lernangebot mit Durchführungen. Meistens sind es mehrfache Durchführungen, also von Lernangeboten der gleichen „Art“ (-> Produkt). 
+Ein Bildungsprodukt ist ein nach innen oder aussen gerichtetes Lernangebot mit Durchführungen. Meistens sind es mehrfache Durchführungen, also von Lernangeboten der gleichen "Art" (-> Produkt). 
 
 Oft bestehen Produkte aus mehreren Kursen und haben eine bestimmte Struktur/Abfolge, in der die enthaltenen Kurse kombiniert sind (strukturierte Produkte, Curricula). Die Kurse und Lernressourcen werden in zeitlicher Abfolge in einer Baumstruktur abgebildet.
 
-Im Kontext von Unternehmen wird statt von "Curriculum" öfter von (Bildungs-)"Produkt" gesprochen. Deshalb wird in OpenOlat seit Release 20 in der Regel der Begiff "Produkt" verwendet.
+Im Kontext von Unternehmen wird statt von "Curriculum" öfter von (Bildungs-)"Produkt" gesprochen. Deshalb wird in OpenOlat seit Release 20 in der Regel der Begriff "Produkt" verwendet.
 
-Ab  Release 20 wurde statt der Curriculumverwaltung eine erweiterte, allgemeine Kursplanung in OpenOlat integriert (Course Planner). 
+Ab Release 20 wurde statt der Curriculumverwaltung eine erweiterte, allgemeine Kursplanung in OpenOlat integriert (Course Planner). 
 
 [zum Seitenanfang ^](#products)
 

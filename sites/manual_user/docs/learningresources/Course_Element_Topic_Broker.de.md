@@ -162,7 +162,7 @@ Beim Export wird eine zip-Datei erstellt, die eine Excel-Datei (mit allen Themen
 <br>
 
 **Themen importieren**<br>
-Importiert werden können Themen, die aus einem anderen Kursbaustein "Themenbörse" (meistens aus einem anderen Kurs) exportiert wurden. Die dort exportiere zip-Datei enhält
+Importiert werden können Themen, die aus einem anderen Kursbaustein "Themenbörse" (meistens aus einem anderen Kurs) exportiert wurden. Die dort exportiere zip-Datei enthält
 
 - eine Excel-Datei mit den Themen,
 - alle zugehörigen Mediendateien,

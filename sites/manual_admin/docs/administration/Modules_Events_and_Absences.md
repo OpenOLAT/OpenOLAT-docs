@@ -1,11 +1,5 @@
 # Module Events and Absences {: #module_events_and_absences}
 
-
-!!! warning "Attention"
-
-    This article is still under construction.
-
-
 Before the lectures and absence management can be used it need to be activated
 in the administration. 
 
@@ -20,122 +14,127 @@ in the administration.
   
 ---
 
-## Tab Permissions
+## Tab Configuration
 
-Lesson and absence management can be switched on or off here. Notifications
-can also be activated.
+![modules_events_and_absences_tab_configuration_v1_de.png](assets/modules_events_and_absences_tab_configuration_v1_de.png){ class="shadow lightbox" }  
+
 
 ### Configuration - overridable on course level 
 
- **Allow override of configuration**: The standard configuration set in the
-administration can be overridden at the course level. This is not valid for
-the "Global configuration".
+![1_green_24.png](assets/1_green_24.png) **Switch on appointment and absence management**
 
- **Roll call enabled (default)**: Only if this option is activated the roll
-call can be done and the participants and the checkboxes are visible.
+![2_green_24.png](assets/2_green_24.png) **Switch on absences / cancelations / dispensations**
 
- **Calculate attendance rate (default)**: If this option is enabled a percent
-quote for the attendance is calculated.
+![3_green_24.png](assets/3_green_24.png) **Allow overwriting of the default configuration**: The default configuration, which is set in the administration, can be overwritten at course level. This does not apply to the "Global configuration".
 
- **Attendance quote  global in %**: This quote shows how many percent of
-attendance are required to fulfill the requirements of the course.
+![4_green_24.png](assets/4_green_24.png) **Switch on presence control**: I can only check attendance and see the participants and the checkboxes if this option is activated.
 
- **Synchronize teachers calendars**: Teachers (course coaches) get entries in
-their personal calendar (not the course calendar) for all lecture blocks where
-they are added as teachers (This features does not need to be turned on for
-Px-clients).
+![5_green_24.png](assets/5_green_24.png) **Calculation of the attendance rate**: If this option is activated, an attendance percentage is calculated.
 
- **Synchronize course calendars**: Thanks to this option all determined
-lecture blocks are shown in the course calendar directly, for participants,
-teachers and course owners.
+![6_green_24.png](assets/6_green_24.png) **Global absentee rate in %**: This quota indicates the percentage of attendance required to fulfill the conditions of a course.
 
- **Allow assessment mode for lectures**  
-  
+![7_green_24.png](assets/7_green_24.png) **Synchronize lecturer calendar**: Lecturers (course supervisors) receive entries in their personal calendar (not in the course calendar) for those lesson blocks for which they are assigned as lecturers (this function must be switched off for Px customers).
 
-[To the top of the page ^](#module_events_and_absences)
+![8_green_24.png](assets/8_green_24.png) **Synchronize course calendar**: This option allows the lesson blocks entered to be displayed directly in the course calendar for all participants, instructors and course owners.
+
+![9_green_24.png](assets/9_green_24.png) **Allow test mode for lessons**
+
+![10_green_24.png](assets/10_green_24.png) **Lead time**
+
+![11_green_24.png](assets/11_green_24.png) **Follow-up time**
+
+![12_green_24.png](assets/12_green_24.png) **Allowed IP addresses**
+
+![13_green_24.png](assets/13_green_24.png) **Safe Exam Browser - Type of use**
+
+![14_green_24.png](assets/14_green_24.png) **Downloadable configuration file**
+
+
   
 ---
 
 ### Globale configuration
 
- **Daily recording absences**: yes or no
+![15_green_24.png](assets/15_green_24.png) **Daily recording absences**: yes or no
 
- **Allow holding partial lectures**: When closing a lecture block the number
-of lectures which have been held really can be entered in "Effective
-lectures".
+![16_green_24.png](assets/16_green_24.png) **Allow holding partial lectures**: When completing a lesson block, the number of lessons that have actually been completed can be selected under “Effective lessons”. This means that the attendance rate is only partially calculated.
 
- **Lectures status**: If this option is selected lecture blocks can be
-cancelled. Thus this lecture block does not count for the attendance quote.
+![17_green_24.png](assets/17_green_24.png) **Lectures status**: If this option is selected lecture blocks can be cancelled. Thus this lecture block does not count for the attendance quote.
 
- **Reminder enabled**: The reminder feature can be activated here. Afterword
-the reminder and the auto close period need to be defined.
+![18_green_24.png](assets/18_green_24.png) **Default number of planned units**
 
- **Reminder period in days**: Here the reminder period is entered in days.
-After this number of days is reached the teacher is reminded to do the roll
-call. 1 day corresponds to 24 hours and the counting starts with the entered
-end of the lecture block.
+![19_green_24.png](assets/19_green_24.png) **Switch on reminder function**: This activates the reminder function. The reminder and blocking period must then be defined.
 
- **Auto close period in days**: Again the number of days is entered. After
-this period is expired the status of the lecture block is set to closed
-automatically. The already entered roll call is saved. If nothing has been
-entered all participants are saved as attendant. The auto close period starts
-the following day after the end time of the lecture block has been reached and
-runs until the end of a day.
+![20_green_24.png](assets/20_green_24.png) **Reminder period**: The reminder period is entered here in number of days. Once this number of days has been reached, the lecturer is reminded to check attendance. One day corresponds to 24 hours and counting begins at the end of the date entered.
 
- **Authorized absences**: This option allows to excuse absences. If this
-option is not activated all absences are considered as not excused.
+![21_green_24.png](assets/21_green_24.png) **Blocking period**: Again, the number of days is entered. After this period has expired, the status of the appointment is automatically set to completed. The attendance check already entered is saved. If nothing is entered, all participants are saved as present. The blocking period count begins on the day after the appointment has reached the end time and runs until the end of the day.
 
- **Count authorized absence as attendant**: Activating this option excused
-absences are calculated as attendant for the calculation of the attendance
-quote.
+![22_green_24.png](assets/22_green_24.png) **Excused absences**: This option allows absences to be excused. If this option is not activated, all absences are considered unexcused.
 
- **Count dispensation as attendant**: yes or no 
+![23_green_24.png](assets/23_green_24.png) **Excused absences count as present**: With this option, absences that are excused are counted as present for the calculation of the absentee rate.
 
- **Absence per default authorized**: In general all entered absences are not
-excused. However, this option sets all entered absences as excused
-automatically. If this does not apply, the absence need to be set as not
-excused manually.
+![24_green_24.png](assets/24_green_24.png) **Count absences as excused by default**:
+In principle, registered absences are considered unexcused. This option automatically sets all entered absences to excused. If this is not the case, the absence must be manually set to unexcused.
 
- **Course owner can see all courses in curriculum elements**: yes or no
+![25_green_24.png](assets/25_green_24.png) **Course owners may view all courses in elements**
 
- **Appeal absence enabled**: If the appeal is activated the course
-participants get the possibility to appeal for entered absences. For example
-this could be necessary if an absence is accepted as excused in retrospect or
-if the teacher entered the absence wrong.
+![26_green_24.png](assets/26_green_24.png) **Grant recourse**: If the appeal period is activated, course participants are given the opportunity to submit an appeal for a registered absence. This may be necessary, for example, if an absence is subsequently recognized as excused or if the lecturer has entered an absence incorrectly.
 
- **Appeal absence period in days**: The appeal period starts as soon as the
-lecture block is closed. Either the teacher has set the block to closed
-manually or the auto close period has expired and the lecture block has been
-set to closed automatically. The counting of the days starts the following day
-after the status of the lecture block has been set to closed. Afterward whole
-days will be counted, the appeal period ends at the end of the day.
+![27_green_24.png](assets/27_green_24.png) The appeal period begins as soon as the appointment is completed. Either the lecturer has manually set the deadline to completed or the blocking period has expired and the deadline has been automatically set to completed. The counting of days begins on the following day after the status of the appointment has been set to completed. Whole days are then counted and the deadline for appeals is at the end of each day.
 
- **Display in courses**: all lesson blocks or only your own
+![28_green_24.png](assets/28_green_24.png) **Display in courses**: Dates of all lecturers or only your own.
 
 [To the top of the page ^](#module_events_and_absences)
   
 ---
 
-## Tab Reasons lectures and absences
+## Tab Authorizations
 
-In the administration reasons are created with a title and a description.
-These reasons can only be edited here. Teachers cannot add own reasons.
+In this tab, the authorizations for lecturers / class teachers are defined with regard to dates and absences.
 
-Always when a lecture block is closed, a reason need to be chosen. If no
-reason is entered in the administration, the reason choice is not available
-when closing a lecture block.
-
-![](assets/Absenz_Begruendung.png){ class="shadow lightbox" }
+![modules_events_and_absences_tab_permissions_v1_de.png](assets/modules_events_and_absences_tab_permissions_v1_de.png){ class="shadow lightbox" }  
 
 [To the top of the page ^](#module_events_and_absences)
   
 ---
 
-## Tab Lectures report
 
-Reports for specific time periods can be displayed here.
+## Tab Reasons Dates 
+  
+Appointments can be ended automatically or manually. If an appointment is ended earlier, for example, a reason should be given. The **reason for ending an appointment differently** can be selected from a list.
 
+The available terms and descriptions for these justifications can be defined here by administrators.
+
+If no reasons are entered here, the reason selection does not appear when the appointment is closed.
 
 [To the top of the page ^](#module_events_and_absences)
   
+---
+
+## Tab Reasons for absences
+
+Owners/coaches can enter absences in the course administration. 
+Various terms can be selected for the reason for the absences, such as "illness", "accident", "lecturer ill", etc.
+
+The selection of terms and descriptions offered there can be defined here.
+
+[To the top of the page ^](#module_events_and_absences)
+  
+---
+
+## Tab Report
+
+Reports for specific time periods can be displayed here. You can preselect according to the status of the appointments/absences:
+
+- Open
+- Finished
+- Auto finished
+- Reopened
+
+All reports can also be downloaded as Excel files.
+
+[To the top of the page ^](#module_events_and_absences)
+
+
+
 

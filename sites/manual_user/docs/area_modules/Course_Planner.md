@@ -94,9 +94,101 @@ After activation of the Course Planner by a system administrator, it is availabl
 
 Administrators and principals also have access.
 
+Authors and learning resource administrators do not have access to the Course Planner. Their role, rights and tasks focus on content creation.
 
-tbd
+[To the top of the page ^](#course_planner)
+
+---
+
+## Where can I find the Course Planner? {: #access}
+
+If you have the role and rights of a **course planner**, you will find the Course Planner as a **menu item in the main navigation** in the header.
+
+![course_planner_menu_v1_de.png](assets/course_planner_menu_v1_de.png){ class="shadow lightbox" }  
+
+!!! info "Requirement"
+
+    In order to use the Course Planner, it must be activated by a system administrator. If the option is not available in the header menu, please contact your system administrator.
 
 
+[To the top of the page ^](#course_planner)
+
+---
 
 
+## The overview {: #overview}
+
+The overview shows
+
+- upcoming events,
+- the buttons for accessing the areas/functions described below,
+- as well as the search.
+
+![course_planner_overview_v1_de.png](assets/course_planner_overview_v1_de.png){ class="shadow lightbox" }  
+
+By entering a term in the search field, you can search for **performances, courses and dates**.<br>
+As with other searches, filters can be used to narrow down the search results.
+
+![course_planner_search_v1_de.png](assets/course_planner_search_v1_de.png){ class="shadow lightbox" }  
+
+[To the top of the page ^](#course_planner)
+
+---
+
+### Products {: #products}
+
+An educational product is an inwardly or outwardly directed learning offer with implementations. In most cases, these are multiple courses, i.e. learning opportunities of the same "type" (-> product). The Course Planner simplifies the work considerably through the shared central administration.
+
+Curricula/products often consist of several courses and have a certain structure/sequence in which the included courses are combined.
+
+![course_planner_products_v1_de.png](assets/course_planner_products_v1_de.png){ class="shadow lightbox" }
+
+[See the details >](../area_modules/Course_Planner_Products.md)<br>
+[To the top of the page ^](#course_planner)
+
+---
+
+
+### Implementations {: #implementations}
+
+An (educational) product can be offered and implemented several times. For example, a single course can be repeated each semester, as can a structured educational program consisting of several courses.
+
+![course_planner_implementations_v1_de.png](assets/course_planner_implementations_v1_de.png){ class="shadow lightbox" }
+
+[See the details >](../area_modules/Course_Planner_Implementations.md)<br>
+[To the top of the page ^](#course_planner)
+
+---
+
+### Events {: #events}
+
+The dates specified here refer to one implementation or a part thereof.
+
+![course_planner_events_v1_de.png](assets/course_planner_events_v1_de.png){ class="shadow lightbox" }
+
+[See the details >](../area_modules/Course_Planner_Events.md)<br>
+[To the top of the page ^](#course_planner)
+
+---
+
+### Reports {: #reports}
+
+Various reports can be generated using report templates.
+
+![course_planner_reports1_v1_de.png](assets/course_planner_reports1_v1_de.png){ class="shadow lightbox" }
+
+[See the details >](../area_modules/Course_Planner_Reports.md)<br>
+[To the top of the page ^](#course_planner)
+
+---
+
+## Further information {: #further information}
+
+
+[How do I create my first OpenOlat course? >](../../manual_how-to/my_first_course/my_first_course.md)<br>
+[How can I plan and carry out implementations with the Course Planner? >](../../manual_how-to/course_planner_courses/course_planner_courses.md)<br>
+[How can I plan and run a course with the Course Planner? >](../../manual_how-to/course_planner_curriculum/course_planner_curriculum.md)<br>
+[Activate Course Planner (Admin) >](../../manual_admin/administration/Modules_Course_Planner.md)<br>
+
+
+[To the top of the page ^](#course_planner)
