@@ -155,10 +155,15 @@ Die verschiedenen Durchführungen können im Katalog angeboten werden. Dazu muss
 
 ![course_planner_implementations_tab_catalog1_v1_de.png](assets/course_planner_implementations_tab_catalog1_v1_de.png){ class="shadow lightbox" }
 
+Um potenzielle Teilnehmer:innen auf ein Angebot im Katalog aufmerksam zu machen, können Sie einen Direktlink auf das Angebot z.B. in einer Mail verschicken. Sie finden die Links in der Übersicht der Angebote (je Durchführung im Tab Katalog).
+
+![course_planner_implementations_tab_catalog3_v1_de.png](assets/course_planner_implementations_tab_catalog3_v1_de.png){ class="shadow lightbox" }
 
 Wurden im Katalog Angebote mit Buchungsmöglichkeit ergänzt, sind die Buchungsaufträge und ihre Details ebenfalls unter dem Tab "Katalog" im Teilbereich "Buchungsaufträge" zu finden.  
 
 ![course_planner_implementations_tab_catalog2_v1_de.png](assets/course_planner_implementations_tab_catalog2_v1_de.png){ class="shadow lightbox" }
+
+
 
 [zum Seitenanfang ^](#implementations)
 
