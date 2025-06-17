@@ -16,20 +16,10 @@ werden. Die folgenden Konfigurationen können vorgenommen werden:
 	ausgeschaltet ist kann WebDAV immer noch verwendet werden, es wird lediglich
 	der Link nicht angezeigt.
 
-  *  **Digest Authentication bei HTTP Zugang verwenden**  
-	Um WebDAV unter Windows direkt ohne den manuellen Import von Zertifikaten
-	verwenden zu können ist ein Betrieb von WebDAV unter HTTP ohne SSL notwendig.
-	In diesem Fall werden die Dateien unverschlüsselt übertragen. Um das Passwort
-	trotzdem verschlüsselt zu übermitteln muss in diesem Fall der Digest-
-	Authentication Mechanismus verwendet werden, ansonsten kann WebDAV unter
-	Windows nicht verwendet werden.  
+  *  **Digest Authentication**
 	
 	!!! attention "Sicherheitshinweis"
-		Die Digest-Authentication Verschlüsselung verwendet keine starke Kryptographie
-		und kann mit entsprechendem Aufwand geknackt werden. Bei hohen
-		Sicherheitsanforderungen sollte immer der HTTPS Zugang mit SSL Verschlüsselung
-		verwendet werden. Unter Windows müssen hierfür leider Zertifikate manuell
-		importiert oder spezielle WebDAV Programme verwendet werden.
+		Die Digest-Authentication Verschlüsselung verwendet keine starke Kryptographie und kann mit entsprechendem Aufwand geknackt werden. Bei hohen Sicherheitsanforderungen sollte immer der HTTPS Zugang mit SSL Verschlüsselung verwendet werden.
 
   *  **WebDAV Client Verbot**  
 	Das Ausschliessen von spezifischen WebDAV-Clients ein- / ausschalten.
