@@ -88,8 +88,8 @@ The course roles participants as well as the coaches also stand for the group pa
 ---
 
 ## Rights of manager roles in a course
-|                                                             | Learning resource<br/>manager |  Curriculum<br/>manager | Lection block<br/>manager |
-| ----------------------------------------------------------- | :---------------------------: | :------------------------: | :---------------------------: |
+|                                                             | Administrator | Authors                            | Principal         | Line-<br/>manager | 
+| ----------------------------------------------------------- | :-----------: | :------------------------------: | ----------------: | :----------------------: | 
 | **Access per status**                                                                                                                                  |
 | ![Preparation](assets/s_prep.png){ width=90px }         | Full access                   | :material-cancel:          | :material-cancel:             |
 | ![Review](assets/s_rev_DE.png){ width=56px }                | Full acces                   | :material-cancel:          | :material-cancel:             |
@@ -113,8 +113,8 @@ The course roles participants as well as the coaches also stand for the group pa
 
 ---
 
-## Rights of curriculum roles in a course
-|                                                             | Curriculum<br/>owner |  Curriculum<br/>element owner | Class teacher     |
+## Rights of the product roles in a course
+|                                                             | Product<br/>owner |  element owner | Class teacher     |
 | ----------------------------------------------------------- | :----------------------: | :-----------------------------: | :---------------: |
 | **Access by status**                                                                                                                      |
 | ![Preparation](assets/s_prep.png){ width=90px }         | :material-cancel:        | :material-cancel:               | :material-cancel: |
