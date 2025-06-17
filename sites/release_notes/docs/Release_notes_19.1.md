@@ -5,7 +5,7 @@
 
 * * *
 
-:material-calendar-month-outline: **Release date: 11/27/2024 • Last update: 05/21/2025**
+:material-calendar-month-outline: **Release date: 11/27/2024 • Last update: 06/11/2025**
 
 * * *
 
@@ -238,6 +238,9 @@ The section for activating "Modifications (On / Off)" for subscribable course el
 
 ## More information
 
+* [YouTrack Release notes 19.1.15](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2019.1.15&title=Release%20Notes%2019.1.15){:target="_blank"}
+* [YouTrack Release notes 19.1.14](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2019.1.14&title=Release%20Notes%2019.1.14){:target="_blank"}
+* [YouTrack Release notes 19.1.13](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2019.1.13&title=Release%20Notes%2019.1.13){:target="_blank"}
 * [YouTrack Release notes 19.1.12](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2019.1.12&title=Release%20Notes%2019.1.12){:target="_blank"}
 * [YouTrack Release notes 19.1.11](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2019.1.11&title=Release%20Notes%2019.1.11){:target="_blank"}
 * [YouTrack Release notes 19.1.10](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2019.1.10&title=Release%20Notes%2019.1.10){:target="_blank"}

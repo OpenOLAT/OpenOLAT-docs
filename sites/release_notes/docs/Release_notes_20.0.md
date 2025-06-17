@@ -5,7 +5,7 @@
 
 * * *
 
-:material-calendar-month-outline: **Release date: 03/20/2025 • Last update: 05/21/2025**
+:material-calendar-month-outline: **Release date: 03/20/2025 • Last update: 06/11/2025**
 
 * * *
 
@@ -241,7 +241,9 @@ A distinction is now made between the basic organization to which a user belongs
 
 The hierarchy of organizational levels and the inheritance of roles to sub-organizations is explicitly shown. If global roles (system administrator, group manager, pool manager) are assigned to a sub-organization, a corresponding note appears.
 
-![Revised role management](assets/200/Role_management_EN.png){ class="shadow lightbox" title="Revised role management" }
+As of (:octicons-tag-24:) release 20.0.4, all changes to the role assignment are displayed in the "Role history" area.
+
+![Revised role management with history](assets/200/Role_management_history_EN.png){ class="shadow lightbox" title="Revised role management with history" }
 
 * * *
 
@@ -316,6 +318,8 @@ The hierarchy of organizational levels and the inheritance of roles to sub-organ
 
 ## More information
 
+* [YouTrack Release notes 20.0.5](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.0.5&title=Release%20Notes%2020.0.5){:target="_blank"}
+* [YouTrack Release notes 20.0.4](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.0.4&title=Release%20Notes%2020.0.4){:target="_blank"}
 * [YouTrack Release notes 20.0.3](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.0.3&title=Release%20Notes%2020.0.3){:target="_blank"}
 * [YouTrack Release notes 20.0.2](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.0.2&title=Release%20Notes%2020.0.2){:target="_blank"}
 * [YouTrack Release notes 20.0.1](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.0.1&title=Release%20Notes%2020.0.1){:target="_blank"}
