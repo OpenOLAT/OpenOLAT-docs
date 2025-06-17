@@ -24,16 +24,19 @@ Bei bereits in OpenOlat registrierten Benutzer:innen wird die Buchung ihrem best
 
 Der Web-Katalog kann ab Release 20 auf dem Login-Screen angeboten werden. (Der Web-Katalog und die Anzeige des Buttons muss in der Administration eingerichtet werden.)
 
-Der Link zum Web-Katalog kann aber auch an anderer Stelle in eine Website eingebaut werden. 
 
 ![catalog20_webcatalog_login_v1_de.png](assets/catalog20_webcatalog_login_v1_de.png){ class="shadow lightbox" }
+
+Der Link zum Web-Katalog kann aber auch an anderer Stelle in eine Website eingebaut werden.
+
+Und auch [direkte Links zu einem Angebot](#web_catalog_direct_link) können verschickt werden.
 
 [Zum Seitenanfang ^](#web_catalog)
 
 
 ---
 
-## Angebote für den Web-Katalog erstellen
+## Angebote für den Web-Katalog erstellen {: #web_catalog_offers}
 
 Damit im Web-Katalog oder im internen Katalog ein Kurs ausgeschrieben werden kann, muss ein Angebot erstellt werden unter: **(Kurs-)Administration > Einstellungen > Tab "Freigabe"**<br>
 
@@ -60,6 +63,15 @@ Sollen für internen und externen Katalog Unterschiede bestehen (z.B. intern kos
     Auch mit dem Course Planner erstellte Durchführungen können im Web-Katalog angeboten werden. In diesem Fall ist beim Kurs unter **Einstellungen > Tab "Freigabe" > Abschnitt "Verwendungszweck"** die Option "Einbindung in Curriculum/Produkt" ausgewählt und es kann im Kurs selbst kein Angebot erstellt werden.
     
     Mehr zu Angeboten von Durchführungen finden Sie [hier](../../manual_user/area_modules/Course_Planner_Implementations.de.md#tab_catalog).
+
+
+### Direktlink zu einem Angebot {: #web_catalog_direct_link}
+
+Wenn Sie einen Direktlink zu einem bestimmten Angebot z.B. per Mail verschicken wollen (externer oder interner Katalog), finden Sie die Links in der Übersicht der Angebote.
+
+**Beispiel: Links zum Angebot einer Durchführung**
+
+![catalog20_webcatalog_offer_link_v1_de.png](assets/catalog20_webcatalog_offer_link_v1_de.png){ class="shadow lightbox" }
 
 
 [Zum Seitenanfang ^](#web_catalog)
