@@ -17,19 +17,39 @@
     * ["How do I create my first OpenOlat course?"](../my_first_course/my_first_course.md)
 
 
-
 ---
 
 ## Where do I find the OpenOlat catalog? {: #catalog_where}
+
+### a) As a registered user
 
 OpenOlat users mostly see "Courses" and "Groups" in the header if they are participants. Authors additionally see "Authoring". But the options in the header can vary. Depending on the role or activated modules, more entries can be added to the header, for example, the catalog. If the [catalog 2.0](../../manual_user/area_modules/catalog2.0.md) has been activated by your administrator, you will find the entry "Catalog" in the menu of the header.	If no catalog is displayed in the menu, please contact your administrator.
 
 ![catalog_menu_header_v1_en.png](assets/catalog_menu_header_v1_en.png){ class="shadow lightbox" }  
 
+
+### b) Ohne Registrierung
+
+In OpenOlat können auch Angebote hinterlegt werden, die in einem externen Katalog angezeigt werden. "Extern" bedeutet, dass der Katalog nach ausserhalb der "Registrierungsmauer" gespiegelt wird und dort ohne Registrierung aufgerufen werden kann. Die Ausgangsversion des Katalogs (innerhalb der "Registrierungsmauer"), die nur von registrierten Benutzer:innen aufgerufen werden kann, muss ein Katalog V2 sein. Ein Katalog V1 kann nicht als externer Katalog angezeigt werden.
+
+Benutzer:innen können dann diese Kurse auswählen und buchen. Sie werden erst nach einer getroffenen Wahl durch den Registrierungsprozess geführt (um Arbeitsergebnisse speichern zu können).
+
+Bei bereits in OpenOlat registrierten Benutzer:innen wird die Buchung ihrem bestehenden Konto zugeordnet. Die Buchung wird anschliessend bestätigt.
+
+Der externe Katalog kann auf dem Login-Screen angeboten werden.
+Der Link kann aber auch an anderer Stelle z.B. in eine Website eingebaut oder per Mail verschickt werden. 
+Auch [direkte Links zu einem bestimmten Angebot](../../manual_user/area_modules/catalog2.0_web.de.md#web_catalog_direct_link) können verschickt werden.
+
+![catalog20_ext_catalog_login_v1_de.png](assets/catalog20_ext_catalog_login_v1_de.png){ class="shadow lightbox" } 
+
 !!! tip "Note"
 
     In OpenOlat there are 2 versions of the catalog: [catalog 1.0](../../manual_user/area_modules/catalog1.0.md) and [catalog 2.0](../../manual_user/area_modules/catalog2.0.md).
 	The following describes the procedure in **catalog 2.0.**
+
+
+
+[To the top of the page ^](#catalog)
 
 ---
 
@@ -48,6 +68,8 @@ The **layout** of the catalog is determined by the [administrator](../../manual_
 
 The author is therefore not completely free to add further information to the information specified in the catalog layout. On the other hand, this guarantees a uniform, orderly appearance of the catalog. Please contact your administrator if you have any wishes regarding the layout of the catalog tiles.
 
+
+[To the top of the page ^](#catalog)
 
 ---
 
@@ -78,6 +100,9 @@ Whether and where the course appears in the catalog is then determined in the se
 
     One might assume that only courses with the status "Published" can be included in the catalog. However, in catalog 2.0, offers can also be displayed even if the courses have not yet been published and will only become accessible from a certain point in time.
 
+
+[To the top of the page ^](#catalog)
+
 ---
 
 ## Create offers {: #catalog_create_offer}
@@ -86,7 +111,6 @@ Whether and where the course appears in the catalog is then determined in the se
 
     Before OpenOlat 17 und generell bei der Verwendung des Katalog 1.0 , there was a tab "Catalog" in the settings and no offers could be created yet. 
     Bei Verwendung des Katalog 2.0 ab OpenOlat 17 the settings for display in the catalog are made in the "Share" tab (in the form of offers).
-
 
 If you click the "Add offer" button, you will get a pre-selection of possible offer types.
 
@@ -104,6 +128,9 @@ You can create multiple offers. For example, you can make one course freely avai
 ![offer_access_code_v1_en.png](assets/offer_access_code_v1_en.png){ class="shadow lightbox" }
 ![offers_v1_en.png](assets/offers_v1_en.png){ class="shadow lightbox" }
 
+
+[To the top of the page ^](#catalog)
+
 ---
 
 ## The catalog structure {: #catalog_structure}
@@ -116,9 +143,10 @@ In catalog V2, sections with catalog entries (tiles, maps) are called launchers.
 
 ![catalog_launcher_v1_en.png](assets/catalog_launcher_v1_en.png){ class="shadow lightbox" }
 
-
 Within the launchers (these sections in the catalog), the catalog entries can be compiled according to certain criteria (depending on the launcher type and launcher configuration).
 They are called launchers because the catalog entries (tiles, cards) are usually dynamically compiled in them.
+
+[To the top of the page ^](#catalog)
 
 ---
 
@@ -137,3 +165,18 @@ A launcher is intended (by the administrator) only for members of a specific org
 **Example 2:**
 
 In a launcher, only offers that contain a specific taxonomy keyword are displayed (set this way by the administrator). As an author, you enter the taxonomy term in the metadata of your course. When you create an offer, you will see that this taxonomy term is assigned. Thus, the offer automatically appears in launchers that are intended for courses with this taxonomy term.
+
+[To the top of the page ^](#catalog)
+
+---
+
+
+## Further information {: #further_information}
+
+[Overview on catalog V2 >](../../manual_user/area_modules/catalog2.0.md)<br>
+[Create offers >](../../manual_user/area_modules/catalog2.0_angebote.md)<br>
+[Catalog design >](../../manual_user/area_modules/catalog2.0_design.md)<br>
+[The external catalog >](../../manual_user/area_modules/catalog2.0_web.md)<br>
+[Configure external catalog (administration manual) >](../../manual_admin/administration/Modules_Catalog_2.0.md)<br>
+
+[To the top of the page ^](#catalog)

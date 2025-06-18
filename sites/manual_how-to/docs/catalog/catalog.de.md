@@ -21,16 +21,38 @@
 
 ## Wo finde ich den OpenOlat-Katalog? {: #catalog_where}
 
-OpenOlat-Benutzer sehen in der Kopfzeile meistens "Kurse" und "Gruppen", wenn sie Teilnehmer sind. Autoren sehen zusätzlich den "Autorenbereich". Aber die Optionen in der Kopfzeile können variieren. Je nach Rolle oder aktivierten Modulen, können weitere Einträge in der Kopfzeile dazu kommen. So z.B. auch der Katalog. Wurde von ihrem Administrator der [Katalog (Version 2.0)](../../manual_user/area_modules/catalog2.0.de.md) aktiviert, finden Sie den Eintrag "Katalog" im Menü der Kopfzeile. Wird kein Katalog im Menü angezeigt, wenden Sie sich bitte an Ihren Administrator.
+### a) Als registrierte:r Benutzer:in
+
+OpenOlat-Benutzer:innen sehen in der Kopfzeile meistens "Kurse" und "Gruppen", wenn sie Teilnehmer:innen sind. Autor:innen sehen zusätzlich den "Autorenbereich". Aber die Optionen in der Kopfzeile können variieren. Je nach Rolle oder aktivierten Modulen, können weitere Einträge in der Kopfzeile dazu kommen. So z.B. auch der Katalog. Wurde von Ihrem/Ihrer Administrator:in der [Katalog (Version 2.0)](../../manual_user/area_modules/catalog2.0.de.md) aktiviert, finden Sie den Eintrag "Katalog" im Menü der Kopfzeile. Wird kein Katalog im Menü angezeigt, wenden Sie sich bitte an Ihren/Ihre Administrator:in.
 
 ![katalog_menu_kopfzeile_v1_de.png](assets/katalog_menu_kopfzeile_v1_de.png){ class="shadow lightbox" }  
+
+
+### b) Ohne Registrierung
+
+In OpenOlat können auch Angebote hinterlegt werden, die in einem externen Katalog angezeigt werden. "Extern" bedeutet, dass der Katalog nach ausserhalb der "Registrierungsmauer" gespiegelt wird und dort ohne Registrierung aufgerufen werden kann. Die Ausgangsversion des Katalogs (innerhalb der "Registrierungsmauer"), die nur von registrierten Benutzer:innen aufgerufen werden kann, muss ein Katalog V2 sein. Ein Katalog V1 kann nicht als externer Katalog angezeigt werden.
+
+Benutzer:innen können dann diese Kurse auswählen und buchen. Sie werden erst nach einer getroffenen Wahl durch den Registrierungsprozess geführt (um Arbeitsergebnisse speichern zu können).
+
+Bei bereits in OpenOlat registrierten Benutzer:innen wird die Buchung ihrem bestehenden Konto zugeordnet. Die Buchung wird anschliessend bestätigt.
+
+Der externe Katalog kann auf dem Login-Screen angeboten werden.
+Der Link kann aber auch an anderer Stelle z.B. in eine Website eingebaut oder per Mail verschickt werden. 
+Auch [direkte Links zu einem bestimmten Angebot](../../manual_user/area_modules/catalog2.0_web.de.md#web_catalog_direct_link) können verschickt werden.
+
+![catalog20_ext_catalog_login_v1_de.png](assets/catalog20_ext_catalog_login_v1_de.png){ class="shadow lightbox" } 
+
 
 !!! tip "Hinweis"
 
     In OpenOlat gibt es 2 Versionen des Katalogs: [Katalog 1.0](../../manual_user/area_modules/catalog1.0.de.md) und [Katalog 2.0](../../manual_user/area_modules/catalog2.0.de.md).
 	Die nachstehenden Ausführungen beschreiben das Vorgehen im **Katalog 2.0**.
 
+
+[zum Seitenanfang ^](#catalog)
+
 ---
+
 
 ## Was kann ich im OpenOlat-Katalog anzeigen?  {: #catalog_what}
 
@@ -46,6 +68,8 @@ Die **Gestaltung** des Katalogs wird vom [Administrator](../../manual_admin/admi
 
 Angaben, die im Katalog-Layout nicht vorgesehen sind, können also beim Katalog 2.0 nicht von den Autor:innen völlig frei ergänzt werden. Das garantiert aber andererseits ein einheitliches geordnetes Aussehen des Katalogs. Wenden Sie sich an Ihren Administrator, wenn Sie Wünsche zur Gestaltung der Katalog-Kacheln haben.
 
+
+[zum Seitenanfang ^](#catalog)
 
 ---
 
@@ -76,6 +100,9 @@ Ob und wo der Kurs im Katalog erscheint, wird dann im zweiten Schritt durch die 
 
     Man könnte annehmen, dass nur Kurse mit dem Status "Veröffentlicht" im Katalog enthalten sein können. Im Katalog 2.0 können jedoch auch bereits Angebote angezeigt werden, wenn die Kurse noch nicht veröffentlicht sind und erst ab einem bestimmten Zeitpunkt zugänglich werden!
 
+
+[zum Seitenanfang ^](#catalog)
+
 ---
 
 ## Angebote erstellen  {: #catalog_create_offer}
@@ -101,6 +128,9 @@ Sie können mehrere Angebote erstellen. Sie können z.B. für eine bestimmte Org
 ![angebot_zugangscode_v1_de.png](assets/angebot_zugangscode_v1_de.png){ class="shadow lightbox" }
 ![angebote_v1_de.png](assets/angebote_v1_de.png){ class="shadow lightbox" }
 
+
+[zum Seitenanfang ^](#catalog)
+
 ---
 
 ## Der Katalogaufbau {: #catalog_structure}
@@ -116,6 +146,8 @@ Im Katalog V2 werden Abschnitte mit Katalogeinträgen (Kacheln, Karten) als Laun
 Innerhalb der Launcher (diesen Abschnitten im Katalog) können die Katalogeinträge nach bestimmten Kriterien zusammengestellt werden (je nach Launchertyp und Launcherkonfiguration).
 Sie werden deshalb als Launcher (engl. Starter, Startrampe) bezeichnet, weil in ihnen die Katalogeinträge (Kacheln, Karten) meistens dynamisch zusammengestellt werden.
 
+[zum Seitenanfang ^](#catalog)
+
 ---
 
 ## Wie beeinflusse ich als Autorin/Autor, in welchem Launcher mein Kurs angezeigt wird? {: #catalog_launcher_decision}
@@ -125,11 +157,25 @@ Alle Angebote, die die Kriterien für einen bestimmten Launcher erfüllen, werde
 * die entsprechenden **Anzeigekriterien** in Ihrem Kurs angeben (Angaben unter Administration > Einstellungen)
 * und entsprechende **Angebote** erstellen.
 
-<b>Beispiel 1:</b>
+**Beispiel 1:**
 
 Ein Launcher ist (vom Administrator) nur für Mitglieder einer bestimmten Organisationseinheit vorgesehen und wird nur diesen angezeigt. Erstellen Sie als Autor:in ein Angebot, das nur für diese bestimmte Organisationseinheit gilt, erscheint es in diesem Launcher.
 
 
-<b>Beispiel 2:</b>
+**Beispiel 2:**
 
 In einem Launcher werden (vom Administrator so festgelegt) nur Angebote angezeigt, die ein bestimmtes Stichwort der Taxonomie enthalten. Als Autor tragen Sie in den Metadaten Ihres Kurses den Taxonomiebegriff ein. Beim Erstellen eines Angebots sehen Sie, dass dieser Taxonomiebegriff zugeordnet ist. Das Angebot erscheint also automatisch in Launchern, die für Kurse mit diesem Taxonomiebegriff vorgesehen sind.
+
+[zum Seitenanfang ^](#catalog)
+
+---
+
+## Weitere Informationen {: #further_information}
+
+[Übersicht zum Katalog V2 >](../../manual_user/area_modules/catalog2.0.de.md)<br>
+[Angebote erstellen >](../../manual_user/area_modules/catalog2.0_angebote.de.md)<br>
+[Katalog-Design >](../../manual_user/area_modules/catalog2.0_design.de.md)<br>
+[Der externe Katalog >](../../manual_user/area_modules/catalog2.0_web.de.md)<br>
+[Externen Katalog einrichten (Administrationshandbuch) >](../../manual_admin/administration/Modules_Catalog_2.0.de.md)<br>
+
+[zum Seitenanfang ^](#catalog)

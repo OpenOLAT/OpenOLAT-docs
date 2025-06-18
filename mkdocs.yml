@@ -273,7 +273,6 @@ plugins:
           eAssessment : Online Prüfungen
           eAssessment Levels/Grading : eAssessment Einstufung/Noten
           ePortfolio : ePortfolio
-          Question bank : Fragenpool
           Edit a project : Projekt bearbeiten
           edu-sharing: edu-sharing
           Edubase: Edubase
@@ -283,6 +282,7 @@ plugins:
           Evidence of Achievements: Leistungsnachweise
           Exams : Prüfungen
           Export content : Inhalt exportieren
+          External catalog : Externer Katalog
           External Page : Externe Seite
           External platforms : Externe Platformen
           External tools : Externe Werkzeuge
@@ -471,6 +471,7 @@ plugins:
           Project report : Projektreport
           Projects : Projekte
           Quality Management : Qualitätsmanagement
+          Question bank : Fragenpool
           Question Bank : Fragenpool
           Question Bank Administration : Fragenpool-Administration
           Question rules : Frageregeln
