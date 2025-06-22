@@ -6,7 +6,7 @@ If you create a new group you are automatically coach of this group. Coaches of 
 
 Via the displayed tabs you can:
 
-  * Provide tools to the group members,
+  * provide group members with tools and thus supplement the left-hand navigation of the group,
   * manage members,
   * Assign the group to courses,
   * configure access to the group and
@@ -26,7 +26,7 @@ Under the tab "Description" you can
 * limit the number of group participants and
 * activate a waiting list, if required. 
 
-You have already made these settings during creation.
+Note: You have already made these settings during creation.
 
 ## Tab Tools  {: #tools}
 
@@ -47,7 +47,7 @@ Tool | | Description
 :fontawesome-solid-calendar-days: | Calendar| You can provide the group with a calendar where you can enter common dates. Once the calendar is activated and saved, you can configure the write permissions for it, i.e. specify who can enter appointments. For more general information about calendar functions, see [Calendar](../personal_menu/Calendar.md).  
 :fontawesome-regular-folder: | Folder| With a folder you enable the exchange of files between the members of your group. Joint editing of office documents is also possible, depending on the configuration by the OpenOlat administrator. Once the folder is activated and saved, you can configure the write permissions for it, i.e. define who can upload and create files.   
 :fontawesome-brands-rocketchat:| Forum| Here you provide your group with a forum for discussions. As the group's coach, you have the right to edit and delete posts as well as create new ones.  
-:fontawesome-solid-comment-sms: | Chat| You can provide a chat room for the group. You can see which other members are in the group chat.  
+:fontawesome-solid-comment-sms: | Chat| You can provide a chat room for the group. You can also see here which other members are currently logged in to OpenOlat.  
 :fontawesome-solid-globe: | Wiki| You can provide a wiki for the group to create content together. Further information about working with wikis can be found [here](../learningresources/Course_Element_Wiki.md)
 :octicons-briefcase-24: | Portfolio| You can provide a [portfolio](../area_modules/Portfolio_General_Information.md) 2.0 to the group. However, it is not an assessment portfolio.  
 :material-monitor: | OpenMeetings| When OpenMeetings is enabled and saved, a virtual meeting room or classroom is available to the group. Further information about OpenMeetings can be found [here](../learningresources/Course_Element_OpenMeetings.md)
@@ -56,7 +56,7 @@ Tool | | Description
   
 Each tool can only be used once in a group. It is therefore not possible to e.g. provide your members with more than one folder, wiki or forum elements. If you need more tools of said elements, it is better to use an OpenOlat course instead.
 
-Information about the usage of tools of group participants can be found [here](Using_Group_Tools.md).
+Information on using the group tools from the group participant perspective can be found [here](Using_Group_Tools.md).
 
 ## Tab Members  {: #members}
 
@@ -111,12 +111,12 @@ OpenOlat authors can also create or import new courses to be linked in this area
 
 Course owners can link groups to several courses, and a course may have several embedded groups. OpenOlat does not restrict the number of embedded courses.
 
-Groups are used in courses in a wide variety of ways e.g. for controlled enrollment for cooperative activities, for the assignment of papers, the enrollment for registration for excursions but also for rights management within courses.
+Groups are used in many different ways in courses, e.g. for controlled enrolment in the course, for cooperative activities, for assigning presentations, for registering for excursions, but also for rights management within courses.
 
 Groups and courses can be linked in two ways: In the group, under the tab "Courses" in the group administrationor starting from the course via the "[Members management](../learningresources/Members_management.md)" → "Groups"
  
 
-### Tab Share {: #booking}
+## Tab Share {: #booking}
 
 In addition to adding people manually by the group coach, a group booking (offer) can also be created for groups. This way, interested parties can sign up for the group themselves.
 
@@ -126,13 +126,13 @@ The following options are available:
   * :material-gift: **Freely available:** Select the free booking method if no other restrictions shall apply. All users can book the resource. Using this booking method adds users as participants to the group. However, it is also possible to limit the free access in time.
   * :fontawesome-brands-cc-paypal: **PayPal Checkout** (only available if unlocked by an administrator): Select this booking method to enable booking for financial compensation. This booking method allows you to define an amount that must be paid with a PayPal account or with a credit card (Visa/Mastercard). The waiting list cannot be combined with this booking method. The options "waiting list" respectively "PayPal" will not appear in the group administration if the respective other is selected.
 
-Once a booking method is configured, the group will be listed in the "**Published groups**" and can thus be searched and booked by users. If no booking method is configured the group is only available for registered users, which has been added to the group by a coach under the tab "members".
-
 You can also configure multiple booking methods. These methods serve as different options the users can choose from.  For example, you could set up the access for 2 days "freely available" and then only with password or payment option. If the configured offers overlap, interested parties can choose the option. Under "Edit" you can change the configuration of the offers again at any time.
+
+Once a booking method is configured, the group will be listed in the "**Published groups**" and can thus be searched and booked by users. If no booking method is configured the group is only available for registered users, which has been added to the group by a coach under the tab "members".
 
 Once a resource has been booked by a user he/she will be added to the resource members list. From that moment on, the system decides whether a person has access to the group solely on the basis of the list of participants. Expired booking configurations therefore have no influence on a participation.
 
-If you delete people from the group manually, they can gain access to the group again by booking again, provided that a suitable offer still exists.
+If you manually delete people from the group, they can regain access to the group by booking again, provided that a suitable offer still exists. In this case, check whether it is possible to change or remove the offer so that a new entry is no longer possible.
 
 !!! info "Hint"
 
@@ -144,8 +144,9 @@ Public groups with various access options are particularly suitable, especially 
 * Projects or course-independent training can be offered 
 * You use the group to collect people you want to assign to a course later on
 * the number of participants is limited and the organization of the participants should be done through this group (also with automatic moving up)
+* If there should be different accesses for different OpenOlat organizations, e.g. internal and external booking
 
-### Tab Group Life Cycle
+## Tab Group Life Cycle
 
 The status of the group and other information are displayed here. Furthermore, the status can be changed, e.g. an active group can be set inactive or an inactive group can be deleted or reactivated. Also, the group can be excluded from the automatic group life cycle, e.g. if it is an important group that must remain permanently present.
 

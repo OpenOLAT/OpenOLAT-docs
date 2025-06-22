@@ -22,7 +22,7 @@ Möglich sind:
 
 Beide Aspekte können wie folgt miteinander kombiniert werden:
 
-## 1a) User trägt sich selbst in die konkrete Gruppe ein. {: #by_yourself} {: #offer}
+## 1a) User trägt sich selbst in die konkrete Gruppe ein. {: #by_yourself}
 
 ![group_membership_offer_v1_de.png](assets/group_membership_offer_v1_de.png){ class="shadow lightbox" }
 
@@ -53,7 +53,7 @@ Bei Überbuchung erscheinen entsprechende Hinweise, z.B.:
 
 [Zum Seitenanfang ^](#group_membership)
 
-## 2a)  Gruppen-Betreuende tragen Personen direkt in die Gruppe ein {: #by_others} {: #add_groupmember}
+## 2a)  Gruppen-Betreuende tragen Personen direkt in die Gruppe ein {: #add_groupmember}
 
 Als Gruppen-Betreuer:in wählen oder erstellen Sie die gewünschte Gruppe und gehen in den Tab „Administration“ der Gruppe. Im Tab „Mitglieder“ können dann weitere Teilnehmende und auch Betreuende hinzugefügt werden.
 
