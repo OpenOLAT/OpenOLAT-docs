@@ -1,0 +1,58 @@
+# Reports: Buchungsaufträge
+
+| Attribut                    | Quelle                 | Beschreibung                                                             | Linien-/Ausbildungsverantwortlicher                                      |
+|-----------------------------|------------------------|--------------------------------------------------------------------------|--------------------------------------------------------------------------|
+| Benutzerdaten               | Person                 | Gemäss Konfiguration in der Administration                               |                                                                          |
+| Mitgliedschaftsstatus       | Person                 | Status in Durchführung oder Kurs (eigenständig)                          |                                                                          |
+| Produkt	                  | Produkt                | Titel des Produkts                                                       |                                                                          |
+| Kennzeichen                 | Produkt                | Kennzeichen des Produkts                                                 |                                                                          |
+| Org ID (Produkt)            | Produkt                | Organisationsidentfikator des Produkts                                   |                                                                          |
+| Org name (Produkt)          | Produkt                | Organisationsname des Produkts                                           |                                                                          |
+| Durchführung                | Durchführung           | Titel der Durchführung                                                   |                                                                          |
+| Kennzeichen                 | Durchführung           | Kennzeichen der Durchführung                                             |                                                                          |
+| Durchführungstyp            | Durchführung           | Elementtyp der Durchführung                                              |                                                                          |
+| Durchführungsstatus         | Durchführung           | Status der Durchführung                                                  |                                                                          |
+| Durchführungsformat	      | Durchführung           | Durchführungsformat der Durchführung                                     |                                                                          |
+| Durchführung von            | Durchführung           | Beginn des Durchführungszeitraums der Durchführung                       |                                                                          |
+| Durchführung bis            | Durchführung           | Ende des Durchführungszeitraums der Durchführung                         |                                                                          |
+| Durchführungsort	          | Durchführung           | Ort der Durchführung                                                     |                                                                          |
+| Buchungsnummer	          | Buchungsauftrag        | Nummer des Buchungsauftrags                                              |                                                                          |
+| Buchungsstatus	          | Buchungsauftrag        | Status des Buchungsauftrags                                              |                                                                          |
+| Angebot	                  | Buchungsauftrag        | Label des gebuchten Angbots                                              |                                                                          |                                     
+| Angebotstyp	              | Buchungsauftrag        | Typ des gebuchten Angebots                                               |                                                                          |
+| Kostenstelle	              | Buchungsauftrag        | Kostenstelle des gebuchten Angebots                                      | :material-cancel: Nicht verfügbar                                        |
+| Konto	                      | Buchungsauftrag        | Eingegebenes Konto beim Buchungsprozess                                  | :material-cancel: Nicht verfügbar                                        |
+| PO Nummer	                  | Buchungsauftrag        | Eingegebene PO Nummer beim Buchungsprozess                               | :material-cancel: Nicht verfügbar                                        |
+| Kommentar zur Bestellung    | Buchungsauftrag        | Eingegebener Kommentar beim Buchungsprozess                              |                                                                          |
+| Auftragsdatum               | Buchungsauftrag        | Datum der Buchung                                                        |                                                                          |
+| Preis	                      | Buchungsauftrag        | Preis beim Zeitpunkt der Buchung                                         |                                                                          |
+| Stornogebühr	              | Buchungsauftrag        | Stornogebühr beim Zeitpunkt der Buchung                                  |                                                                          |
+| Rechnungsadresse            | Organisation           | Name der Rechnungsadresse                                                |                                                                          |
+| Name / Firma                | Organisation           | Rechnungsadresse                                                         |                                                                          |
+| Zusatz / Abteilung          | Organisation           | Rechnungsadresse                                                         |                                                                          |
+| Adresszeile 1               | Organisation           | Rechnungsadresse                                                         |                                                                          |
+| Adresszeile 2               | Organisation           | Rechnungsadresse                                                         |                                                                          |
+| Adresszeile 3               | Organisation           | Rechnungsadresse                                                         |                                                                          |
+| Adresszeile 4               | Organisation           | Rechnungsadresse                                                         |                                                                          |
+| Postfach                    | Organisation           | Rechnungsadresse                                                         |                                                                          |
+| Region                      | Organisation           | Rechnungsadresse                                                         |                                                                          |
+| PLZ                         | Organisation           | Rechnungsadresse                                                         |                                                                          |	
+| Ort                         | Organisation           | Rechnungsadresse                                                         |                                                                          |	
+| Land                        | Organisation           | Rechnungsadresse                                                         |                                                                          |
+| Org ID (Rechnungsadresse)   | Organisation           | Organisationsidentfikator der Rechnungsadresse                           |                                                                          |
+| Org name (Rechnungsadresse) | Organisation           | Organisationsname der Rechnungsadresse                                   |                                                                          |
+| Erster Besuch               | Kurs                   | Datum des allerersten Besuches in einem Kurs                             |                                                                          |
+| Letzter Besuch              | Kurs                   | Datum des allerletzten Besuchs in einem Kurs                             |                                                                          |
+| Punkte                      | Kursfortschritt/Status | Punktetotal der Durchführung / des Kurses (eigenständig)                 | :material-checkbox-marked-outline: "Kursfortschritt und Status anzeigen" |
+| Erfolgsstatus               | Kursfortschritt/Status | Kummilierter Status der Durchführung oder des Kurses (eigenständig)      | :material-checkbox-marked-outline: "Kursfortschritt und Status anzeigen" |
+| Bestanden                   | Kursfortschritt/Status | Anzahl "Bestanden"                                                       | :material-checkbox-marked-outline: "Kursfortschritt und Status anzeigen" |
+| Nicht bestanden             | Kursfortschritt/Status | Anzahl "Nicht bestanden"                                                 | :material-checkbox-marked-outline: "Kursfortschritt und Status anzeigen" |
+| Keine Angabe                | Kursfortschritt/Status | Anzahl "Keine Angabe"                                                    | :material-checkbox-marked-outline: "Kursfortschritt und Status anzeigen" |
+| Fortschritt                 | Kursfortschritt/Status | Kummilierter Fortschritt der Durchführung oder des Kurses (eigenständig) | :material-checkbox-marked-outline: "Kursfortschritt und Status anzeigen" |
+| Zertifikat                  | Kursfortschritt/Status | Anzahl Zertifikate                                                       | :material-checkbox-marked-outline: "Kursfortschritt und Status anzeigen" |
+| Gültigkeit des Zertifikats  | Kursfortschritt/Status | Nächstes Ablaufdatum eines Zertifikates                                  | :material-checkbox-marked-outline: "Kursfortschritt und Status anzeigen" |
+| Einheiten                   | Absenz                 | Anzahl Einheiten                                                         | :material-checkbox-marked-outline: "Termine und Absenzen anzeigen"       |
+| Anwesend                    | Absenz                 | Anzahl "Anwesend"                                                        | :material-checkbox-marked-outline: "Termine und Absenzen anzeigen"       |
+| Unentschuldigt              | Absenz                 | Anzahl "Unentschuldigt"                                                  | :material-checkbox-marked-outline: "Termine und Absenzen anzeigen"       |
+| Entschuldigt                | Absenz                 | Anzahl "Entschuldigt"                                                    | :material-checkbox-marked-outline: "Termine und Absenzen anzeigen"       |
+| Dispensiert                 | Absenz                 | Anzahl "Dispensiert"                                                     | :material-checkbox-marked-outline: "Termine und Absenzen anzeigen"       |
