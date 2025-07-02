@@ -93,7 +93,7 @@ Enthält Ihr Kurs als Buchungsmethode "privat" bedeutet das auch, dass er nirgen
 
 Ob und wo der Kurs im Katalog erscheint, wird dann im zweiten Schritt durch die Erstellung von Angeboten festgelegt. Im unteren Bereich können Sie ein oder mehrere Angebote für den Katalog erstellen.
 
-![kurs_angebot_neu_v1_de.png](assets/kurs_angebot_neu_v1_de.png){ class="shadow lightbox" }
+![catalog_course_offer_new_v2_de.png](assets/catalog_course_offer_new_v2_de.png){ class="shadow lightbox" }
 
 
 !!! tip "Hinweis"
@@ -114,7 +114,7 @@ Ob und wo der Kurs im Katalog erscheint, wird dann im zweiten Schritt durch die 
 
 Klicken Sie auf den Button "Angebot hinzufügen", erhalten Sie eine Vorauswahl möglicher Angebotstypen.
 
-![kurs_angebot_hinzufuegen_v1_de.png](assets/kurs_angebot_hinzufuegen_v1_de.png){ class="shadow lightbox" }
+![catalog_course_offer_add_v2_de.png](assets/catalog_course_offer_add_v2_de.png){ class="shadow lightbox" }
 
 !!! tip "Hinweis"
 
@@ -124,9 +124,13 @@ Wählen Sie den gewünschten Angebotstyp.
 
 Sie können mehrere Angebote erstellen. Sie können z.B. für eine bestimmte Organisationseinheit einen Kurs frei zugänglich machen, während er mit einem zweiten Angebot für andere kostenpflichtig angeboten wird.
 
-![angebot_frei_verfuegbar_v1_de.png](assets/angebot_frei_verfuegbar_v1_de.png){ class="shadow lightbox" }
-![angebot_zugangscode_v1_de.png](assets/angebot_zugangscode_v1_de.png){ class="shadow lightbox" }
-![angebote_v1_de.png](assets/angebote_v1_de.png){ class="shadow lightbox" }
+![catalog_offer_freely_available_v2_de.png](assets/catalog_offer_freely_available_v2_de.png){ class="shadow lightbox" }
+![catalog_offer_access_code_v2_de.png](assets/catalog_offer_access_code_v2_de.png){ class="shadow lightbox" }
+![catalog_offers_v2_de.png](assets/catalog_offers_v2_de.png){ class="shadow lightbox" }
+
+!!! tip "Hinweis"
+
+    Die Angebote sind im Katalog buchbar, sobald der Status auf "Veröffentlicht" gestellt wurde.
 
 
 [zum Seitenanfang ^](#catalog)
