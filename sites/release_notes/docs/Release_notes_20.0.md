@@ -5,7 +5,7 @@
 
 * * *
 
-:material-calendar-month-outline: **Release date: 03/20/2025 • Last update: 06/11/2025**
+:material-calendar-month-outline: **Release date: 03/20/2025 • Last update: 07/02/2025**
 
 * * *
 
@@ -264,6 +264,8 @@ As of (:octicons-tag-24:) release 20.0.4, all changes to the role assignment are
 === "User information in the user administration"
 
     ![Display of user information in the user administration](assets/200/User_profile_EN.png){ class="shadow lightbox" title="Display of user information in the user administration" }
+
+* Absence recording: The first admission date of participants is initially set analogous to the participants' course registration date (:octicons-tag-24: release 20.0.5)
 
 * * *
 

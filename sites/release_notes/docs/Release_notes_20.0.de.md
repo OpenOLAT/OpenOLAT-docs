@@ -5,7 +5,7 @@
 
 * * *
 
-:material-calendar-month-outline: **Releasedatum: 20.03.2025 • Letztes Update: 11.06.2025**
+:material-calendar-month-outline: **Releasedatum: 20.03.2025 • Letztes Update: 02.07.2025**
 
 * * *
 
@@ -264,6 +264,8 @@ Ab (:octicons-tag-24:) Release 20.0.4 zeigt der Bereich "Rollenverlauf" die Änd
 === "Benutzerinformationen in der Benutzerverwaltung"
 
     ![Anzeige der Benutzerinformationen in der Benutzerverwaltung](assets/200/User_profile_DE.png){ class="shadow lightbox" title="Anzeige der Benutzerinformationen in der Benutzerverwaltung" }
+
+* Absenzenerfassung: Das Datum der Erstzulassung von Teilnehmenden wird initial analog zum Kursbeitrittsdatum der Teilnehmer gesetzt (:octicons-tag-24: ab Release 20.0.5)
 
 * * *
 

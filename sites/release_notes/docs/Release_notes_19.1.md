@@ -5,7 +5,7 @@
 
 * * *
 
-:material-calendar-month-outline: **Release date: 11/27/2024 • Last update: 06/11/2025**
+:material-calendar-month-outline: **Release date: 11/27/2024 • Last update: 07/02/2025**
 
 * * *
 
@@ -164,6 +164,7 @@ The section for activating "Modifications (On / Off)" for subscribable course el
 * Learning path: Exception rule for “Course run number”, e.g. to explicitly exclude or include certain course elements for recertification (:octicons-tag-24: release 19.1.7)
 * E-mail for course invitation: Information about the course location via the variable $courseLocation (:octicons-tag-24: release 19.1.7)
 * Course reminders: Addition of the variables “user name” and “e-mail” as well as optimization of further variables for affected users for reminders to substitute recipients (:octicons-tag-24: release 19.1.8)
+* Notification course element: Automatic subscription for course members only (exception: open courses without membership) (:octicons-tag-24: as of release 19.1.15)
 
 * * *
 
@@ -216,8 +217,11 @@ The section for activating "Modifications (On / Off)" for subscribable course el
 * Improvement for Cookie management
 * WebDAV: Support for BasicAuthentication removed
 * Configuration for limiting domains of external media resources
-* OnlyOffice: in read-only mode, the content is not updated (= no Live-View)
+* OnlyOffice:
+    * In read-only mode, the content is not updated (= no Live-View)
+    * Fully configurable in olat.properties including onlyoffice.jwt.secret (:octicons-tag-24: release 19.1.15)
 * Checking the configuration key *and* browser exam key (BEK) - provided by the SEB's JavaScript API - for access to OpenOlat in assessment mode with SEB (:octicons-tag-24: release 19.1.3)
+* Update paella player dependencies (:octicons-tag-24: release 19.1.15)
 
 * * *
 

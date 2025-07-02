@@ -5,7 +5,7 @@
 
 * * *
 
-:material-calendar-month-outline: **Releasedatum: 27.11.2024 • Letztes Update: 11.06.2025**
+:material-calendar-month-outline: **Releasedatum: 27.11.2024 • Letztes Update: 02.07.2025**
 
 * * *
 
@@ -164,6 +164,7 @@ Der Bereich zur Aktivierung von "Änderungen (Ein / Aus)" bei abonnierbaren Baus
 * Lernpfad: Ausnahmeregel für "Anzahl der Kursdurchführung", um z. B. bei Re-Zertifizierung bestimmte Bausteine explizit aus- oder einzuschliessen (:octicons-tag-24: ab Release 19.1.7)
 * E-Mail für die Kurseinladung: Angabe des Durchführungsortes per Variable $courseLocation (:octicons-tag-24: ab Release 19.1.7)
 * Kurserinnerungen: Ergänzung der Variablen "Benutzername" und "E-Mail" sowie Optimierung weiterer Variablen zu betroffenen Benutzer:innen für Erinnerungen an stellvertretende Empfänger:innen (:octicons-tag-24: ab Release 19.1.8)
+* Mitteilungsbaustein: Automatisches Abonnement nur für Kursmitglieder (Ausnahme: Offene Kurse ohne Mitgliedschaft) (:octicons-tag-24: ab Release 19.1.15)
 
 * * *
 
@@ -214,8 +215,11 @@ Der Bereich zur Aktivierung von "Änderungen (Ein / Aus)" bei abonnierbaren Baus
 * Verbesserung des Cookie-Managements
 * WebDAV: Unterstützung für BasicAuthentication entfernt
 * Konfiguration zur Begrenzung von Domänen externer Medienressourcen
-* OnlyOffice: im Lese-Modus erfolgt keine Aktualisierung des Inhaltes (= kein Live-View)
+* OnlyOffice:
+    * Im Lese-Modus erfolgt keine Aktualisierung des Inhaltes (= kein Live-View)
+    * Vollständig konfigurierbar in den olat.properties inklusive onlyoffice.jwt.secret (:octicons-tag-24: ab Release 19.1.15)
 * Überprüfung von Configuration Key *und* Browser-Exam Key (BEK) - geliefert vom JavaScript-API des SEB - für den Zugang zu OpenOlat im Prüfungsmodus mit SEB (:octicons-tag-24: ab Release 19.1.3)
+* Aktualisierung Paella-Player-Abhängigkeiten (:octicons-tag-24: ab Release 19.1.15)
 
 * * *
 
