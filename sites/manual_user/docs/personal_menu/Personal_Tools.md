@@ -128,3 +128,9 @@ You can view all emails sent and received in OpenOlat under Emails. The email hi
 
 Find out [more >](E-Mail.md)
 
+
+!!! note "General Note"
+
+    If you prefer to have your tools displayed in the header instead of the personal menu, you can move the menu option from the personal menu to there. You make the setting for this under<br>
+    **Personal Menu > Setting > System tab > Personal tools section**<br>
+    All tools that you mark here are displayed in the header at the top right instead of in the personal menu and can thus be accessed more quickly.

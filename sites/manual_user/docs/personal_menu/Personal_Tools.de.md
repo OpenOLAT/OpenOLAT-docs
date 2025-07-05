@@ -143,3 +143,9 @@ Unter E-Mails können Sie alle in OpenOlat versandten und erhaltenen E-Mails ein
 [Zu den Details >](E-Mail.de.md)
 
 
+
+!!! info "Genereller Hinweis"
+
+    Wenn Sie Ihre Tools statt im persönlichen Menü lieber in der Kopfzeile angezeigt haben möchten, können Sie die Menüoption vom persönlichen Menü dorthin verschieben. Die Einstellung dazu nehmen Sie vor unter<br>
+    **Persönliches Menü > Einstellungen > Tab System > Abschnitt Persönliche Werkzeuge**<br>
+    Alle Werkzeuge, die Sie hier markieren, werden statt im persönlichen Menü in der Kopfzeile rechts oben angezeigt und sind so schneller erreichbar.
