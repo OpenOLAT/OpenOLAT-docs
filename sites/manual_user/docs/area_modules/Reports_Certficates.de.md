@@ -12,7 +12,6 @@
 | Ausgestellt am   | Kurs   | Austellungsdatum des Zertifikats           |
 | Gültig bis       | Kurs   | Ablaufdatum des Zertifikates               |
 
-
 ## Tab: Nach Produkten
 
 | Attribut         | Quelle         | Beschreibung                               |
