@@ -166,8 +166,21 @@ This option relates to assessable course elements.
     _Example_: The reminder will be sent 1 week after a specific test has been completed.
 
 * **Attempts**<br>
+tbd
+
+* **Passed**<br>
 This option only affects assessable course elements for which a pass status has been configured in the editor. This can be selected here as a condition.<br>
 _Example_: One test course element was assessed as "Passed".
+
+
+    !!! warning "Attention: Option "Undefined""
+
+        “Undefined” is the initial value for the passed status (success status) for all assessable course elements. Activating this option as a condition only makes sense in combination with the second condition “By date”. Otherwise, the reminder will be triggered directly at the next possible dispatch time.
+       
+        _Example "Reminder to coach"_: A course element task has not yet been assessed or has been completed with “Undefined” at time x.
+       
+        _Example "Reminder to participant"_: A course element checklist has not yet been completed at time x or has been completed by the coach with “Undefined”.
+
 
 * **Points**<br>
 This option only affects assessable course elements for which a number of points has been defined. They can then be sent depending on a score.<br>

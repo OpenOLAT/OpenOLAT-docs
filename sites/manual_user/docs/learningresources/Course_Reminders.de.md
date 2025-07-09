@@ -173,6 +173,15 @@ _Beispiel_: Ein Test wurde noch kein Mal (0) durchgeführt.
 Diese Option betrifft nur bewertbare Kursbausteine, für die ein Bestanden-Status im Editor konfiguriert wurde. Dieser kann hier als Bedingung ausgewählt werden.<br>
 _Beispiel_: Ein Test-Kursbaustein wurde mit "Bestanden" bewertet.
 
+    !!! warning "Achtung: Option "Keine Angabe""
+
+        "Keine Angabe" ist der initiale Wert für den Bestanden-Status (Erfolgsstatus) für alle bewertbaren Bausteine. Die Aktivierung dieser Option als Bedingung ist nur in Kombination mit der zweiten Bedingung "Nach Datum" sinnvoll. Andernfalls wird die Erinnerung direkt beim nächstmöglichen Versandzeitpunkt ausgelöst.
+       
+        _Beispiel "Erinnerung an Betreuer:in"_: Ein Kursbaustein Aufgabe wurde zum Zeitpunkt x noch nicht bewertet oder mit "Keine Angabe" abgeschlossen.
+       
+        _Beispiel "Erinnerung an Teilnehmer:in"_: Ein Kursbaustein Checkliste wurde zum Zeitpunkt x noch nicht bearbeitet oder von Betreuer:in mit "Keine Angabe" abgeschlossen.
+
+
 * **Punkte**<br>
 Diese Option betrifft nur bewertbare Kursbausteine, für die eine Punktezahl definiert wurde. Der Versand kann dann in Abhängigkeit einer Punktzahl erfolgen.<br>
 _Beispiel_: In einer Checkliste wurden weniger als 3 Punkte erreicht.
