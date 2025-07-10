@@ -64,7 +64,7 @@ Infos zur Nutzung der Gruppen-Werkzeuge aus der Gruppen-Teilnehmer:innen Perspek
 
 Hier können Sie: 
 *	definieren  wer welche Personen der Gruppe sehen kann.
-*	definieren ob sich Teilnehmende selbst wieder aus der Gruppe austragen dürfen. 
+*	definieren ob sich Teilnehmer:innen selbst wieder aus der Gruppe austragen dürfen. 
 * neue Mitglieder hinzufügen und verwalten. Sofern aktiviert kann auch eine Warteliste eingesehen und organisiert werden.
 
 
@@ -76,17 +76,17 @@ Mit der Option **"Alle Benutzer:innen sehen Betreuer:innen"** und **"Alle Benutz
 
 Sofern die Warteliste aktiviert ist, kann definiert werden ob sie nur für Mitglieder oder alle Benutzer:innen sichtbar sein soll.
 
-Mit der Option **"Mitglieder dürfen Mitgliederliste herunterladen"** können Sie steuern, ob Teilnehmer:innen die Mitgliederliste zusätzlich auch als Excel-Datei herunterladen dürfen oder nicht und ob die Mitgliederliste ausgedruckt werden kann.
+Mit der Option **"Mitglieder:innen dürfen Mitgliederliste herunterladen"** können Sie steuern, ob Teilnehmer:innen die Mitgliederliste zusätzlich auch als Excel-Datei herunterladen dürfen oder nicht und ob die Mitgliederliste ausgedruckt werden kann.
 
-Wenn Sie die Option **"Teilnehmer können Gruppe verlassen"** aktivieren ist, können Teilnehmende sich selbst aus der Gruppe wieder austragen, wenn sie wollen. Ansonsten muss die Entfernung von einem/einer Gruppen-Betreuer:in vorgenommen werden und erfolgt in der Regel erst auf Nachfrage. 
+Wenn Sie die Option **"Teilnehmer können Gruppe verlassen"** aktivieren ist, können Teilnehmer:innen sich selbst aus der Gruppe wieder austragen, wenn sie wollen. Ansonsten muss die Entfernung von einem/einer Gruppen-Betreuer:in vorgenommen werden und erfolgt in der Regel erst auf Nachfrage. 
 
 **Mitglieder Übersicht**
 
-Unter „Mitglieder“ werden die Mitglieder der Gruppe angezeigt. Sie können auch gefiltert nach Rolle oder Warteliste angezeigt oder gezielt gesucht oder gelöscht werden. Wenn Sie auf das Icon "Tabelle herunterladen" klicken, werden Betreuer bzw. Teilnehmer der Gruppe in einer Excel-Datei ausgegeben.
+Unter "Mitglieder" werden die Mitglieder:innen der Gruppe angezeigt. Sie können auch gefiltert nach Rolle oder Warteliste angezeigt oder gezielt gesucht oder gelöscht werden. Wenn Sie auf das Icon "Tabelle herunterladen" klicken, werden Betreuer bzw. Teilnehmer der Gruppe in einer Excel-Datei ausgegeben.
 
 **Mitglieder hinzufügen**
 
-Je nach Kurs-Rolle stehen dem User unterschiedliche Möglichkeiten zur Verfügung um Gruppenmitglieder hinzufügen. Benutzer:innen können über „Mitglied hinzufügen“ nach Personen, die ein Konto in OpenOlat haben, suchen.  OpenOlat Autor:innen können darüber hinaus auch die „Massensuche“ verwenden und mehrere Personen mit ihrer OpenOlat ID, E-Mail oder Institutionsnummer hinzufügen und auch Externe Mitglieder durch Angabe einer E-Mail-Adresse einladen.  <br>
+Je nach Kurs-Rolle stehen dem User unterschiedliche Möglichkeiten zur Verfügung um Gruppenmitglieder hinzufügen. Benutzer:innen können über "Mitglied hinzufügen" nach Personen, die ein Konto in OpenOlat haben, suchen.  OpenOlat Autor:innen können darüber hinaus auch die "Massensuche" verwenden und mehrere Personen mit ihrer OpenOlat ID, E-Mail oder Institutionsnummer hinzufügen und auch Externe Mitglieder durch Angabe einer E-Mail-Adresse einladen.  <br>
 
 <details>
     <summary>Autor:innen Ansicht</summary>
@@ -101,7 +101,7 @@ Wie unterscheiden sich Gruppen-Betreuer:innen von den Gruppen-Teilnehmenden?
   *  **Gruppen-Betreuer:innen:** Sie haben Zugriff auf die Einstellungen der Gruppen-Administration und können alle zuvor genannten Einstellungen vornehmen. Auch können Gruppen-Betreuer:innen eine Gruppe löschen. Wenn die Gruppe mit einem Kurs verbunden ist, haben Gruppen-Betreuer:innen im Kurs zusätzlich noch Zugriff auf das Bewertungswerkzeug und Teststatistiken der eigenen Gruppe. Sie können weitere, für Betreuer:innen freigegebene Aktionen vornehmen, allerdings nur mit Bezug auf ihre Gruppe. 
   *  **Teilnehmer:innen:**  Sie können die kollaborativen Werkzeuge der Gruppe nutzen und im Rahmen der vom Gruppen-Betreuer:innen konfigurierten Einstellungen agieren. 
 
-Das manuelle Hinzufügen von Mitgliedern durch Gruppenbetreuer:innen macht beispielsweise dann Sinn, wenn Sie ganz gezielt einzelne Personen Ihrer Gruppe hinzufügen möchten.  Eine andere Möglichkeit Personen einer Gruppe hinzuzufügen erfolgt über die Erstellung eines Angebots im Tab „Freigabe“. Weitere Information finden Sie unter [„Gruppenmitglied werden“](../groups/Group_Membership.de.md) insbesondere bei 2a).
+Das manuelle Hinzufügen von Mitgliedern durch Gruppenbetreuer:innen macht beispielsweise dann Sinn, wenn Sie ganz gezielt einzelne Personen Ihrer Gruppe hinzufügen möchten.  Eine andere Möglichkeit Personen einer Gruppe hinzuzufügen erfolgt über die Erstellung eines Angebots im Tab "Freigabe". Weitere Information finden Sie unter ["Gruppenmitglied werden"](../groups/Group_Membership.de.md) insbesondere bei 2a).
 
 
 

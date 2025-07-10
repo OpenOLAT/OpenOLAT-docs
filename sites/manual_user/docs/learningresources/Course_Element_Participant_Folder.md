@@ -24,8 +24,9 @@ The course element Participant Folder can also be included in the assessment in 
     A similar configuration of file delivery + file return by coaches can also be implemented with the course element ["Task"](Course_Element_Task.md), only that the possibilities of the task element are much more comprehensive and complex and here also an evaluation or allocation of points can be made.
 
 
-## Folder settings
-In the Folder settings configurations for the drop box and the return box can be made. By default both folders are enabled and delete and override is enabled for the participants.
+## Tab "Folder settings"
+
+In the "Folder settings" configurations for the drop box and the return box can be made. By default both folders are enabled and delete and override is enabled for the participants.
 
 ![course_element_participant_folder_settings_v1_de.png](assets/course_element_participant_folder_settings_v1_de.png){ class="shadow lightbox" }
 
@@ -41,7 +42,7 @@ Additionally the number of files can be limited. As soon as this number is reach
 
 A similar configuration of file submission and file return by coaches can also be implemented with the course element ["Task"](Course_Element_Task.md), except that the possibilities of the task element are much more comprehensive and complex.
 
-## Tab Template Einstellungen
+## Tab Template Settingss
 
 In the Template Settings tab, subfolders can be created for both the submission folder and the return folder, creating a continuous folder structure for all participants. For example, a return folder could include a subfolder for content feedback and one for supplemental files, or a submission folder could reflect some desired structure for the submissions. 
 

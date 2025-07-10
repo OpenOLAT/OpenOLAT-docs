@@ -60,44 +60,50 @@ Information on using the group tools from the group participant perspective can 
 
 ## Tab Members  {: #members}
 
-In this tab, people can be added to the group and the members can be managed.
-
-The manual addition of members by the group coach makes sense, for example, if you want to add specific individuals to your group.
-
-**Who sees what?**
-
-If the setting "Members see coaches" or "Members see participants" is activated, the **menu "Members"** appears in the left navigation. Depending on the activated hook, the members will then see the corresponding people.
-
-With the option "All users can see coaches" and "All users can see participants" the list of group members can be activated for all system users in on the **visiting card, visible to the public**. If the waiting list is activated, it can be defined if it should be visible for members or all users.
-
-The option "Users can download the list of members" additionally allows participants to download the **list of members as excel file** and to print it.
-
-If you enable the option "**Members can leave the group**", participants can leave the group directly in the group overview. If not checked, you will be notified via mail if a member wishes
-to leave the group. The participant must then be removed manually from the group.
-
-**Add, delete and display members**
-
-In the tab "Members", people of the group as well as group participants can be added as group owners. External members (people without an OpenOlat account) can be invited as well.
-
-What differentiates group coaches from group participants?
-
-  *  **Coach:** You have access to the group administration settings and can make all the previously mentioned settings. Group coaches can also delete a group. If the group is linked to a course, group coaches in the course also have access to the assessment tool and test statistics of their own group. They can perform other actions released for coaches, but only with reference to their group.
-  *  **Participant:**  Uses the collaborative tools of a group and act within the framework of the settings configured by the coach.
+Here you can:
+* Define who can see which people in the group.
+* Define whether participants may remove themselves from the group.
+* Add and manage new members. If activated, a waiting list can also be viewed and organized.
 
 
-Via "Add member" you can search for individual persons or add several persons directly to the group if you know their login name, e-mail or institution number.
+### Display members ###
 
-When clicking on the icon "Download table" an excel file containing all owners or participants of a group will be generated.
+If the setting **"Members see coaches"** or **"Members see participants"** is activated, the "Members" menu appears in the left-hand navigation. Depending on the activated checkmark, the members will then see the corresponding persons.
 
-**Add external members**
+With the option **"All users see coaches"** and **“All users see participants"**, the list of group members can also be activated on the publicly visible group business card for all system users.
 
-If your OpenOlat administrator has made it possible to invite external users as group members, you can change this under<br>
-**Groups > Select group > Administration > Tab Members > Button "Invite external members"** (Up to a maximum of 180 days.)
+If the waiting list is activated, you can define whether it should only be visible to members or all users.
+
+With the option **“Members may download member list"** you can control whether participants may also download the member list as an Excel file or not and whether the member list can be printed out.
+
+If you activate the option **"Participants can leave group"**, participants can remove themselves from the group if they wish. Otherwise, the removal must be carried out by a group coach and is usually only carried out on request.
+
+
+**Member overview**
+
+The members of the group are displayed under "Members". They can also be filtered by role or waiting list or searched for or deleted. If you click on the "Download table" icon, the group's coaches or participants are displayed in an Excel file.
+
+
+**Add member**
+
+Depending on the course role, users have different options for adding group members. Users can use "Add member" to search for people who have an account in OpenOlat.  OpenOlat authors can also use the "bulk search" and add several people with their OpenOlat ID, e-mail or institution number and also invite external members by entering an e-mail address. <br>
 
 <details>
     <summary>Screen</summary>
 	<img src="../assets/group_administration_external_members_v1_de.png" />
 </details>
+
+
+When adding people, you can decide whether they are added to the group as participants or coaches.
+
+How do group facilitators differ from group participants?
+
+*  **Group coaches**: You have access to the group administration settings and can make all the settings mentioned above. Group administrators can also delete a group. If the group is linked to a course, group tutors in the course also have access to the assessment tool and test statistics for their own group. They can perform other actions that are enabled for coaches, but only in relation to their group.
+*  **Members**:  You can use the group's collaborative tools and act within the framework of the settings configured by the group coaches.
+
+The manual addition of members by group administrators makes sense, for example, if you want to add specific individuals to your group.  Another way to add people to a group is by creating an offer in the "Share" tab. You can find further information under ["Become a group member"](../groups/Group_Membership.md), in particular under 2a).
+
+
 
 ## Tab Courses {: #courses}
 
@@ -152,4 +158,4 @@ The status of the group and other information are displayed here. Furthermore, t
 
 ![Tab Group Life Cycle](assets/Gruppe_inaktivieren_173a_en.png){ class="shadow lightbox" }
 
-For more information, see the separate chapter [Automatic group life cycle](https://docs.openolat.org/manual_admin/administration/Automatic_Group_Lifecycle/?h=automa) in the Administration Manual.
+For more information, see the separate chapter [Automatic group life cycle](https://docs.openolat.org/manual_admin/administration/Automatic_Group_Lifecycle/) in the Administration Manual.
