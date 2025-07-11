@@ -102,6 +102,10 @@ Zur Konfiguration der Quizfrage kann
 Die konkret angezeigten Tabs für die Quizfrage sind abhängig vom gewählten Fragetyp. Im ersten Tab wird die konkrete Fragestellung sowie die Antworten hinterlegt. Im Tab **"Punkte"** wird die Art der
 Punktevergabe definiert. Im Tab **"Feedback"** können Feedbacks basierend auf unterschiedlichen Kriterien hinzugefügt werden. Im Tab **"Vorschau"** bzw. **"Vorschau Lösung"** kann man sich die Darstellung der Frage anschauen. 
 
+Die Quizfragen dienen in erster Linie zur Aktivierung der Lernenden. Um das eben Gesehene zu reflektieren, soll eine Frage dazu beantwortet werden. Bei korrekter Beantwortung läuft das Video weiter (sofern man nicht überspringen darf).
+
+Die Quiz-Fragen im Video werden direkt bei der Beantwortung der Frage "ausgewertet" - aber nur, ob sie richtig oder falsch beantwortet wurden. Die zu einer Frage hinterlegten Punkte spielen bei der Verwendung im Video keine Rolle. Es gibt daher auch keine Gesamtauswertung am Ende des Videos. (Bei Verwendung der gleichen Frage z.B. in einem Test, werden die Punkte dagegen verwendet.)
+
 !!! note "Hinweis"
 
     Weitere Informationen zu den generellen Einstellungen von Quiz und Tests finden Sie im Kapitel "[Testfragen konfigurieren](../learningresources/Configure_test_questions.de.md)". Weitere Informationen zu den unterschiedlichen Fragetypen im Kapitel "[Test Fragetypen](../learningresources/Test_question_types.de.md)".

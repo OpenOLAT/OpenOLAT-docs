@@ -103,6 +103,10 @@ To configure the quiz question, you can
 The actual tabs displayed for the quiz question depend on the question type selected. The first tab contains the specific question and the answers. The tab **"Score"** defines the type of points to be awarded. 
 In the tab **"Feedback"** feedbacks based on different criteria can be added. In the tab **"Preview "** or **"Preview solution "** you can see how the question is displayed.
 
+The quiz questions primarily serve to activate the learners. In order to reflect on what has just been seen, a question should be answered. If the answer is correct, the video continues (unless you are allowed to skip).
+
+The quiz questions in the video are “evaluated” directly when the question is answered - but only whether they were answered correctly or incorrectly. The points stored for a question do not play a role when used in the video. There is therefore no overall evaluation at the end of the video. (However, if the same question is used in a test, for example, the points are used).
+
 !!! note "Note"
 
     Further information on the general settings of quiz and tests can be found in the chapter "Configuring test questions". For more information on the different question types, see the "[Test Question Types](../learningresources/Test_question_types.md)" chapter.
