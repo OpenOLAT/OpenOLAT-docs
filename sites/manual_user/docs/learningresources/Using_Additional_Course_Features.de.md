@@ -1,14 +1,16 @@
 # Einsatz weiterer Kursfunktionen der Toolbar
 
-In der Kurs "Administration" unter "Einstellungen" können Sie im Tab "Toolbar" die folgenden weiteren Funktionen einrichten.
+Kursbesitzer:innen können in der Kurs "Administration" unter "Einstellungen" zusätzlich bestimmte Werkzeuge der Toolbar aktivieren. 
 
 ![Toolbar einrichten](assets/Toolbar_154.png){ class="shadow lightbox" }
+
+Aktivierte Werkzeuge werden anschliessend direkt in der Toolbar  unabhängig von der Kursstruktur angezeigt. 
 
 ![Toolbar](assets/Toolbar15a.png){ class="shadow lightbox" }
 
 ## Kurssuche
 
-Neben der [Volltextsuche](../basic_concepts/Full_Text_Search.de.md) für das gesamte OpenOlat kann pro Kurs eine Kurssuche aktiviert werden. In dieser Suche werden folgende Elemente gefunden:
+Neben der Volltextsuche für das gesamte OpenOlat kann pro Kurs eine Kurssuche aktiviert werden. In dieser Suche werden folgende Elemente gefunden:
 
 * Titel, Kurztitel und Beschreibung aller Kursbausteine
 * Inhalt von HTML-Seiten
@@ -21,31 +23,36 @@ Neben der [Volltextsuche](../basic_concepts/Full_Text_Search.de.md) für das ges
 
 ## Kurskalender
 
-Pro Kurs kann ein Kalender aktiviert werden. Für die Einbindung gibt es zwei Optionen. Der Kalender kann entweder als [Kursbaustein](../learningresources/Course_Elements.de.md) oder an zentraler Position oben in der Kurstoolbar angezeigt werden und somit einen guten Überblick geben.
+Ruft man den Kalender auf öffnet er sich in einem neuen Fenster. Pro Kurs kann grundsätzlich nur ein Kalender aktiviert werden. Selbst wenn man weitere Kalender über den Kursbaustein Kalender hinzufügt handelt es sich um denselben Kalender. 
 
-Neue Termine werden einfach mit Klick auf das gewünschte Datum erstellt. Anschließend können Titel, Beschreibung, Beginn und Ende sowie eventuell ein Ort, mögliche Wiederholungen sowie die Sichtbarkeit eingestellt werden Anschließend erscheint der Termin im Kalender bzw. in allen Instanzen des Kurskalenders und kann mit Klick auf das Datum und der Option „Editieren“ überarbeitet werden.
+Neue Termine lassen sich einfach durch einen Klick auf das gewünschte Datum erstellen. Anschliessend können Titel, Beschreibung, Beginn und Ende, Ort, Wiederholungen sowie die Sichtbarkeit festgelegt werden. Der Termin erscheint danach im Kalender bzw. in allen Instanzen des Kurskalenders.
 
-Mit dem "Editieren" erhält man auch Zugriff auf weitere Kalendertabs und kann Verlinken zu im Kurs verwendeten Kursbausteinen oder externen Webseiten setzen. Möchten sie alle Termine eines Kurskalenders löschen, klicken Sie einfach auf das Zahnradsymbol im Kalenderbereich und wählen Sie "Kalender zurücksetzen".
+Über einen Klick auf den Termin und die Option „Editieren“ lassen sich Termine anpassen. Hier können auch Verlinkungen zu Kursbausteinen oder externen Webseiten gesetzt oder der Termin gelöscht werden.
 
-Kurskalender werden ferner automatisch in den [persönlichen Kalender](../personal_menu/Calendar.de.md) der Kursmitglieder übertragen. So können alle Termine auch direkt über den persönlichen OpenOlat Kalender aufgerufen werden. Gleiches gilt für Gruppenkalender. Bei Gruppenkalendern kann in der Gruppenadministration eingestellt werden welche Schreib- bzw. Leserechte die Mitglieder erhalten.
+Sollen alle Termine eines Kurskalenders gelöscht werden, kann dies über das Zahnradsymbol im Kalenderbereich mit der Option „Kalender zurücksetzen“ erfolgen.
 
-Standardmässig haben nur Besitzer eines Kurses Schreibrechte im Kalender. Kursteilnehmer haben lediglich Leserechte, können also keine neuen Termine verfassen oder bestehende Termine editieren. Fügt man den Kalender allerdings als Kursbaustein ein, kann man die Berechtigung im Kurseditor im Tab "Zugang" konfigurieren.
+![Kalender komplett löschen](assets/Kalender_zuruecksetzen.png){ class="shadow lightbox" }
 
-## Teilnehmerliste
+Standardmässig können nur Kursbesitzer:innen Termine im Kalender erstellen. Teilnehmende haben lediglich Leserechte und können weder neue Termine anlegen noch bestehende bearbeiten. Sollen Teilnehmende selbst Termine erstellen dürfen, kann statt des Kalenders in der Toolbar ein Kursbaustein „Kalender“ hinzugefügt und entsprechend konfiguriert werden.
 
-Hier können alle Kursbesitzer, Betreuer und Teilnehmenden eines Kurses zentral angezeigt werden. Kursteilnehmende können über die Teilnehmerliste E-Mails an bestimmte Personen, auch an einzelne Kursmitglieder, verschicken. Anders als im [Kursbaustein "Teilnehmerliste"](../learningresources/Course_Element_Participant_List.de.md) können hier jedoch keine weiteren Konfigurationen vorgenommen werden.  
+Kurskalender werden automatisch in den [persönlichen Kalender](../personal_menu/Calendar.de.md) der Kursmitglieder übertragen. So können alle Termine auch direkt über den persönlichen OpenOlat Kalender aufgerufen werden. Gleiches gilt für Gruppenkalender. Bei Gruppenkalendern kann in der Gruppenadministration eingestellt werden welche Schreib- bzw. Leserechte die Mitglieder erhalten.
 
-## Teilnehmer Infos
+
+## Liste der Teilnehmenden
+
+Hier können alle Kursbesitzer:innen, Betreuer:innen und Teilnehmenden eines Kurses zentral angezeigt werden. Kursteilnehmende können über die Teilnehmerliste E-Mails an bestimmte Personen, auch an einzelne Kursmitglieder, verschicken. Anders als im [Kursbaustein "Teilnehmerliste"](../learningresources/Course_Element_Participant_List.de.md) können hier jedoch keine weiteren Konfigurationen vorgenommen werden.  
+
+## Mitteilungen
 
 Das Tool entspricht dem [Kursbaustein "Mitteilungen"](../learningresources/Course_Element_Notifications.de.md). Teilnehmende können das Tool abonnieren und somit benachrichtigt werden, wenn es neue Informationen gibt. Anders als im Kursbaustein können hier jedoch keine weiteren Konfigurationen vorgenommen werden.  
 
 ## E-Mail
 
-Hier kann der Kursbesitzer konfigurieren an wen die Lernenden über diesen Link Mails verschicken können. Zur Auswahl stehen die drei Kursrollen "Kursbesitzer", "Betreuer" und "Teilnehmer". Eine weitere Differenzierung ist nicht möglich. Falls Sie differenziertere Einstellungen für den Versand an Kursmitglieder benötigen, sollten Sie den [Kursbaustein "E-Mail"](../learningresources/Course_Element_EMail.de.md) oder den [Kursbaustein "Teilnehmerliste"](../learningresources/Course_Element_Participant_List.de.md) nutzen.
+Hier können Kursbesitzer:innen konfigurieren an wen die Lernenden über diesen Link Mails verschicken können. Zur Auswahl stehen die drei Kursrollen "Kursbesitzer:innen", "Betreuer:innen" und "Teilnehmer:innen". Eine weitere Differenzierung ist nicht möglich. Falls Sie differenziertere Einstellungen für den Versand an Kursmitglieder benötigen, sollten Sie den [Kursbaustein "E-Mail"](../learningresources/Course_Element_EMail.de.md) oder den [Kursbaustein "Teilnehmerliste"](../learningresources/Course_Element_Participant_List.de.md) nutzen.
 
 ## Teams Online-Meeting
 
-Ähnlich wie im Kursbaustein Microsoft Teams können hier Räume für synchrone Meetings angelegt werden.
+Ähnlich wie im [Kursbaustein Microsoft](../learningresources/Course_Element_Microsoft_Teams.de.md) Teams können hier Räume für synchrone Meetings mit Teams angelegt werden.
 
 ## BigBlueButton Online-Termine
 
@@ -61,50 +68,75 @@ Hier können Sie ein [Wiki (Lernressource)](../learningresources/Wiki.de.md) ers
 
 ## Forum
 
-Für einen Kurs kann ein zentrales Forum aktiviert werden. Kursmitglieder können das Forum wie gewohnt abonnieren. Differenzierte Einstellungen wie beim [Kursbaustein "Forum"](../learningresources/Course_Element_Forum.de.md) sind hier allerdings nicht möglich.
+Ähnlich wie im [Kursbaustein Forum](../learningresources/Course_Element_Forum.de.md) kann hier ein Forum aktiviert werden. Kursmitglieder können das Forum wie gewohnt abonnieren. Differenzierte Einstellungen wie beim Kursbaustein "Forum" sind hier allerdings nicht möglich.
+
+!!! Tip "Tipp"
+
+    Verwenden Sie das Forum in der Toolbar, wenn in Ihrem Kurs die asynchrone Diskussion nicht im Vordergrund steht und Ihnen *ein* Forum für den gesamten Kurs ausreicht.
+    
+    Handelt es sich bei Ihrem Kurs jedoch um einen Kurs mit erhöhen asynchroner Diskussion und vielen Beiträgen, sollten Sie lieber mehrere Kursbausteine Forum verwenden.  
 
 ## Dokumente
 
-Über diesen Link kann die Lehrkraft wichtige zentrale Dokumente des Kurses zum Download bereitstellen. Die Lernenden können die Dokumente herunterladen, sich benachrichtigen lassen, wenn neue Dokumente bereitstehen (abonnieren) und bei Bedarf die Dateien per Mail versenden. Die Konfigurationsmöglichkeiten sind aber nicht so umfangreich wie beim [Kursbaustein "Ordner"](../learningresources/Course_Element_Folder.md).
+Über diesen Link können Kursbesitzer:innen und Betreuer:innen zentral Dokumente zum Download bereitstellen. Lernende können die Dateien herunterladen, Benachrichtigungen bei neuen Dokumenten abonnieren und die Dateien bei Bedarf per E-Mail versenden. Die Konfigurationsmöglichkeiten sind aber nicht so umfangreich wie beim [Kursbaustein "Ordner"](../learningresources/Course_Element_Folder.md).
 
 ## Kurs-Chat
 
-In jedem Kurs steht standardmässig ein einfacher Chat bereit.  Er eignet sich für den kurzen, synchronen Austausch. Hier können Kursmitglieder live Kontakt zu anderen Lernenden sowie den Dozierenden aufnehmen, sofern sie gleichzeitig eingeloggt sind.
+Der einfache Chat eignet sich für kurze, synchrone Austausche. Kursmitglieder können hier live mit anderen Teilnehmenden und Dozierenden kommunizieren, solange alle gleichzeitig eingeloggt sind.
 
-Ist der Chat eingeschaltet, sehen die Kursbesucher in der Mitte der Kurstoolbar den Link zum Kurs-Chat. Beim Aufruf des Chats kann jedes Kursmitglied entscheiden ob er unter seinem eigenen Namen oder anonymisiert im Chat agiert. Die Standardeinstellung ist "anonym".
+Beim Aufruf des Chats kann jedes Kursmitglied wählen, ob es mit dem eigenen Namen oder anonym am Chat teilnimmt (Standard: anonym). Die Größe des Chatfensters lässt sich flexibel anpassen. Chat-Verläufe sind bis zu einem Monat einsehbar, der gewünschte Zeitraum kann oberhalb des Textfelds ausgewählt werden.
 
-Im Chatfenster ist das Chatprotokoll bis zu einem Monat einsehbar. Wählen Sie oberhalb des Textfeldes den gewünschten Zeitraum aus. Der Chat wird bei der Nutzung von mobilen Endgeräten angepasst. Tipp: Teilweise ist die Verwendung des Hochformats sinnvoller als das Querformat.
-
-!!! tip "Tipp"
-
-    Wenn Sie den Chat intensiver nutzen wollen, sollten Sie das Chat-Fenster auf eine angenehme Größe ziehen.
+**Tipp** für die mobile Nutzung: Teilweise ist die Verwendung des Hochformats sinnvoller als das Querformat.
 
 ## Glossar {: #glossary}
 
-In einem Glossar können die Begriffe eines Kurses, eines Fachs bzw. einer Veranstaltung erklärt werden. Glossare sind OpenOlat Lernressourcen, die separat oder in einen Kurs eingebunden werden können.
+In einem Glossar können die Begriffe eines Kurses, eines Fachs bzw. einer Veranstaltung erklärt werden. Die Begriffe werden automatisch alphabetisch sortiert und können mit Klick auf den entsprechenden Startbuchstaben aufgerufen werden. 
 
-Glossare können wie alle Lernressourcen im Autorenbereich erstellt werden oder alternativ direkt im Kurs unter "Einstellungen-> Optionen".
+Aktivieren Lehrende das Glossar im Tab „Toolbar“ der Kurseinstellungen muss das Glossar im nächsten Schritt noch ein konkretes Glossar ausgewählt oder erstellt werden. Wechseln Sie dafür in den Tab „Optionen“. Hier kann eine existierende Lernressource Glossar ausgewählt oder eine neue Lernressource Glossar erstellt werden. 
 
-Nach der Einbindung eines Glossars in einen Kurs erscheint der Link zum Glossar in der Kurstoolbar. Damit das Glossar auch in der Toolleiste sichtbar wird muss noch im Tab "Toolbar" das entsprechende Werkzeug "Glossar" mit einem Häkchen aktiviert werden.
+Ist ein Glossar definiert erscheint der Glossar-Link in der Toolbar und User können das gesamte Glossar in einem neuen Fenster öffnen oder Glossarbegriffe in Lerninhalten z.B. im Kursbaustein HTML-Seite, Seite oder Foren-Postings einblenden lassen.  
 
-Öffnen Sie das Glossar und tragen Sie unter „Eintrag hinzufügen“ den gewünschten Fachausdruck ein. Sie können auch Synonyme ergänzen. Zum Beispiel kann der Begriff "Informationstechnologie" mit dem Synonym "IT" ergänzt werden. Im Tab "Definition" ergänzen Sie dann die konkrete Definition des Begriffs. Eingetragene Begriffe können auch im Nachhinein geändert oder gelöscht werden.
+Als Kursbesitzer:in können Sie, wenn Sie das Glossar über den entsprechenden Link geöffnet haben, Einträge hinzufügen, unabhängig davon, ob Sie auch Besitzer:in der  Glossar Lernressource  sind. 
 
-Wenn Sie das Glossar nicht mehr verwenden oder ein anderes Glossar einbinden möchten, können im Menü Einstellungen unter "[Optionen](../learningresources/Course_Settings.de.md)" die gewünschte Änderung vornehmen.
+Geben Sie den Begriff, den Sie definieren möchten sowie eventuelle Synonyme ein. Wechseln Sie zum Tab „Definition“ und ergänzen Sie die Definition des Begriffs. Speichern Sie die Einträge und fertig. 
 
-In der Lernressource "Glossar" kann im Tab "Schreibberechtigung" definiert werden ob nur die Besitzer der Lernressource Beiträge erstellen und editieren dürfen oder ob auch Benutzer das Recht erhalten. Besitzer der jeweiligen Lernressource "Glossar" können grundsätzlich alle erstellten Glossarbeiträge ändern und löschen. Standardmäßig können neue Glossareinträge nur vom Kursbesitzer vorgenommen werden.
+![Glossareintrag erstellen](assets/Glossar_Eintrag.png){ class="shadow lightbox" }
 
-![](assets/Glossar_Eintrag.png){ class="shadow lightbox" }
-
-![](assets/Glossar_Schreibberechtigung.png){ class="shadow lightbox" }
-
-Möchte man nur bestimmten Personen z.B. den Teilnehmenden eines Kurses das Schreibrecht für ein Glossar vergeben, geht man einen anderen Weg. Hierfür wird die "[Mitgliederverwaltung](Members_management.de.md)" eines Kurses verwendet. Erstellen Sie dort eine neue Gruppe und fügen Sie die gewünschten Personen als Teilnehmer der Gruppe hinzu. Gehen Sie anschließend in der "Mitgliederverwaltung" des Kurses in den Bereich "Rechte" und setzen Sie bei den Kursteilnehmern der Gruppe den Haken für das Recht "Glossarwerkzeug". Nun können die Personen der Gruppe Glossareinträge hinzufügen und ändern.
+Alle Einträge können später natürlich auch wieder geändert oder gelöscht werden.  
 
 !!! info "Hinweis"
 
-    Bitte beachten: Pro Kurs kann nur ein Glossar eingebunden werden.
+    Bitte beachten Sie: Pro Kurs kann nur *ein* Glossar eingebunden werden.
+
+Wenn Sie das Glossar nicht mehr verwenden oder ein anderes Glossar einbinden möchten, kann unter Kursadministration ->  Einstellungen -> "Optionen" die gewünschte Änderung vorgenommen werden.
 
 !!! warning "Achtung"
 
-    Die Besitzer eines Kurses sind nicht automatisch auch Besitzer der Lernressource.  Wurde also eine Lernressource "Glossar" von einer anderen Person erstellt, können nicht automatisch die Besitzer des Kurses, in dem die Lernressource eingebunden wurde, auch Einträge im Glossar vornehmen. Damit die anderen Kursbesitzer Änderungen vornehmen können, muss eine der beschriebenen Berechtigungen eingerichtet werden oder die gewünschten Kursbesitzer auch als Besitzer der jeweiligen Lernressource "Glossar" eingetragen werden.
+    Die Besitzer:innen eines Kurses sind nicht automatisch auch Besitzer:innen der Glossar Lernressource. Kursbesitzer:innen haben nur solange Zugriff auf die Lernressource wie sie auch im Kurs eingebunden ist. Wird das Glossar entfernt können nur Personen, die auch Besiter:in des Glossars sind dieses wieder dem Kurs hinzufügen. 
 
-Darüber hinaus erscheint in der Kurs-Toolbar noch der Link zur "[Kursinfo](../learningresources/Set_up_info_page.de.md)" und zu den "[Lektionen](../learningresources/Lectures_Teacher_view.de.md)", sofern eingerichtet.
+Ob auch Kursteilnehmende Glossareinträge hinzufügen und bearbeiten können ist abhängig von den Einstellungen in der Lernressource Glossar. Standardmaessig können nur Kurs-Besitzer:innen Einträge im Glossar vornehmen. 
+
+### So konfigurieren Sie ein Glossar mit weiteren Schreibrechten
+
+Hierfür gibt es zwei Wege:
+
+**Schreibrechte in der Lernressource Glossar definieren**
+
+Wechseln Sie in den Autorenbereich und rufen Sie die gewünschte Lernressource "Glossar" auf. Hier kann im Tab "Schreibberechtigung" definiert werden ob nur die Besitzer:innen der Lernressource Beiträge erstellen und editieren dürfen oder ob auch Benutzer:innen das Recht erhalten. 
+
+![Schreibberechtitung für User aktivieren](assets/Glossar_Schreibberechtigung.png){ class="shadow lightbox" }
+
+**Schreibrechte für bestimmte Personen des Kurses definieren**
+
+Möchte man dagegen nur bestimmten Personen z.B. den Teilnehmenden *eines Kurses* das Schreibrecht für ein im Kurs eingebundenes Glossar vergeben, geht man einen anderen Weg. 
+
+Gehen Sie in den Kurs in dem das Glossar eingebunden ist und wechseln Sie in die "[Mitgliederverwaltung](Members_management.de.md)". Erstellen Sie dort eine neue Gruppe und benennen Sie sie eindeutig z.B. "Rechtegruppe Glossar". Nachdem die Gruppe angelegt wurde werden Sie automatisch zur Gruppe geführt und können über die Gruppen Administration im Tab "Mitglieder" die gewünschten Personen, die Schreibrechte erhalten sollen als Teilnehmer:innen der Gruppe hinzufügen. 
+
+Wechseln Sie wieder in die "Mitgliederverwaltung" des Kurses und wählen Sie dort den Bereich "Rechte. Dort können Sie für die Teilnehmenden der Rechtegruppe Glossar das Glossarwerkzeug aktivieren. 
+
+Nun können die Personen der Gruppe Glossareinträge hinzufügen und ändern.
+
+
+
+
+
