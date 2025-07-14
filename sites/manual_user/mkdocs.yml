@@ -210,9 +210,9 @@ nav:
           - Portfolio assignment Grading: "learningresources/Portfolio_assignment_Grading.md"
           - Forms in Rubric Scoring: "learningresources/Forms_in_Rubric_Scoring.md"
         - Events and Absences:
-          - Overview: "learningresources/Lectures_and_absences.md"
-          - Lectures : "learningresources/Lectures_User_view.md"
-          - Lectures teacherview : "learningresources/Lectures_Teacher_view.md"
+          - Overview: "learningresources/Events_and_absences.md"
+          - User view : "learningresources/Events_and_absences_User_view.md"
+          - Teacher view : "learningresources/Events_and_absences_Teacher_view.md"
         - To-dos : "learningresources/Course_todos.md"
         - Coach files : "learningresources/Coach_Files.md"
         - Course Reminders: "learningresources/Course_Reminders.md"

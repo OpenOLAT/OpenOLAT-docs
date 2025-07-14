@@ -524,6 +524,7 @@ plugins:
           Tab users : Tab Teilnehmer
           Table concept: Tabellenkonzept
           Task : Aufgabe
+          Teacher view : Sicht Dozent
           Technical Information on Resources and Usage : Automatische Informationen zur Lernressource
           Technical Requirements : Technische Voraussetzungen
           Technology: Technologie
@@ -555,6 +556,7 @@ plugins:
           User manual: Benutzerhandbuch
           User search : Personensuche
           User types : Benutzertypen
+          User view  : Sicht Benutzer
           User / Account Search :  Benutzer-/Kontosuche
           Using additional Course Editor Tools : Verwendung weiterer Kurseditorwerkzeuge
           Using Additional Course Features : Einsatz weiterer Kursfunktionen der Toolbar

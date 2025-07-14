@@ -57,9 +57,9 @@ Hier sind die eigenen Rekurse aufgelistet. Wer ausser Ihnen sonst noch Ihre Reku
 
 ## Weitere Informationen {: #further_information}
 
-[Termine und Absenzen >](../learningresources/Lectures_and_absences.de.md)<br>
-[Termine und Absenzen aus Sicht Kursbesitzer:in >](../learningresources/Lectures_Teacher_view.de.md)<br>
-[Termine und Absenzen aus Sicht der Benutzer:innen >](../learningresources/Lectures_User_view.de.md)<br>
+[Termine und Absenzen >](../learningresources/Events_and_absences.de.md)<br>
+[Termine und Absenzen aus Sicht Kursbesitzer:in >](../learningresources/Events_and_absences_Teacher_view.de.md)<br>
+[Termine und Absenzen aus Sicht der Benutzer:innen >](../learningresources/Events_and_absences_User_view.de.md)<br>
 [Termine und Absenzen aus Sicht der Betreuer:innen >](../area_modules/coaching_lektionen.de.md)<br>
 [Absenzenverwaltung >](../area_modules/Absence_Management.de.md)<br>
 [Konfiguration für Termine und Absenzen in der Administration >](../../manual_admin/administration/Modules_Events_and_Absences.de.md)<br>

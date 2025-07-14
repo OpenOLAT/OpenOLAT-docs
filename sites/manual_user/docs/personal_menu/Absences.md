@@ -57,9 +57,9 @@ Your own appeals are listed here. Who else is allowed to view your appeals (lect
 
 ## Further information {: #further_information}
 
-[Events and absences >](../learningresources/Lectures_and_absences.md)<br>
-[Events and absences: Course owner view >](../learningresources/Lectures_Teacher_view.md)<br>
-[Events and absences: User view >](../learningresources/Lectures_User_view.md)<br>
+[Events and absences >](../learningresources/Events_and_absences.md)<br>
+[Events and absences: Course owner view >](../learningresources/Events_and_absences_Teacher_view.md)<br>
+[Events and absences: User view >](../learningresources/Events_and_absences_User_view.md)<br>
 [Events and absences: Coach view >](../area_modules/coaching_lektionen.md)<br>
 [Absence management >](../area_modules/Absence_Management.md)<br>
 [Configuration of events and absences in the administration >](../../manual_admin/administration/Modules_Events_and_Absences.md)<br>
