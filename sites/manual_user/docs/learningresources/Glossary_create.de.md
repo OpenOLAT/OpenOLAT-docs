@@ -7,7 +7,7 @@ Glossare können wie andere Lernressourcen im **Autorenbereich** erstellt werden
 
 ![glossary_create_authoring_v1_de.png](assets/glossary_create_authoring_v1_de.png){ class="shadow lightbox" }
 
-Alternativ kann die Erstellung auch direkt im Kurs unter **Administration -> Einstellungen -> Tab "Optionen“** aufgerufen werden.
+Alternativ kann die Erstellung auch direkt im Kurs unter **Administration -> Einstellungen -> Tab "Optionen"** aufgerufen werden.
 Sie finden dort den Button (4), der ein Popup-Fenster öffnet, in dem ein vorhandenes Glossar ausgewählt oder eine neue Glossar-Lernressource erstellt werden kann.
 
 ![glossary_create_settings_v1_de.png](assets/glossary_create_settings_v1_de.png){ class="shadow lightbox" }
@@ -24,7 +24,7 @@ Sie finden dort den Button (4), der ein Popup-Fenster öffnet, in dem ein vorhan
 
 ![glossary_authoring_edit_v1_de.png](assets/glossary_authoring_edit_v1_de.png){ class="shadow lightbox" }
 
-``2.`` Klicken Sie einen der Buttons **„Eintrag hinzufügen“**.
+``2.`` Klicken Sie einen der Buttons **"Eintrag hinzufügen"**.
 
 ![glossary_add_entry_v1_de.png](assets/glossary_add_entry_v1_de.png){ class="shadow lightbox" }
 

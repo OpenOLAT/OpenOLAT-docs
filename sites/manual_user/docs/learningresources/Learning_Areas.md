@@ -12,9 +12,14 @@ Learning areas can be selected e.g. in the course editor at the course element "
 The advantage over explicitly listing all relevant groups in the access and visibility restrictions is the greater flexibility and easier handling in the course editor. If new group rules are defined in the course, it must be republished. If a learning area rule is defined instead, the participation of a group can be defined in the learning area administration. The course does not need to be republished for this purpose.
 
 
-!!! tip "hint"
+!!! tip "Hint"
 
-    Learning areas can be used, for example, if you want to make the same course element available to several groups within a course, or if there are many groups to choose from for an enrolment element, or if you want to bundle several groups for one coach. With a learning area you save the repetitive selection of each group.
+    Learning areas can be used, for example,
+    * if you want to make the same course element available to several groups within a course,
+    * or if there are many groups to choose from for an enrolment element,
+    * or if you want to bundle several groups for one coach.
+
+    With a learning area you save the repetitive selection of each group.
 
 
 [To the top of the page ^](#learning_areas)
