@@ -42,7 +42,7 @@ Diese Angabe bezieht sich auf die beiden folgenden Angaben. Wird kein relatives 
 
 
 **Freigabedatum**<br>
-Der Kursbaustein ist vor dem Freigabedatum zwar sichtbar, aber nicht zugänglich. Ab dem angegebenen Zeitpunkt ist das Öffnen und Arbeiten darin möglich. Wird keine Angabe gemacht, bleibt der Ordner ab dem Freigabdatum dauerhaft verfügbar, sofern man Zutritt zum Kurs hat.
+Der Kursbaustein ist vor dem Freigabedatum zwar sichtbar, aber nicht zugänglich. Ab dem angegebenen Zeitpunkt ist das Öffnen und Arbeiten darin möglich. Wird keine Angabe gemacht, bleibt der Ordner ab dem Freigabedatum dauerhaft verfügbar, sofern man Zutritt zum Kurs hat.
 
 
 **Zu bearbeiten bis:**<br>

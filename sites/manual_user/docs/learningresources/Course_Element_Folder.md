@@ -22,6 +22,40 @@ The "folder" can also be configured as a collaborative tool for learners to uplo
 
 ### Tab learning path {: #tab_learning_path}
 
+=== "Learning path tab with fixed times"
+
+    ![course_element_folder_tab_learning_path_v1_de.png](assets/course_element_folder_tab_learning_path_v1_de.png){ class="shadow lightbox" }
+
+
+=== "Learning path tab with relative times"
+
+    ![Kursbaustein Ordner](assets/course_element_folder_tab_learning_path_relativ_v1_de.png){ class="shadow lightbox" } 
+
+
+**Implementations**<br>
+As with other course elements, you can specify that a "folder" must be opened at least once for it to be considered "completed". 
+As a voluntary course element, it does not count towards the calculation of learning progress.
+If it is excluded, it will not appear in the menu unless you specify that certain course members are to see this course element in the course menu when exceptions are activated.
+
+**Relative date**<br>
+This entry refers to the two following entries. If no relative date is required, fixed dates can (optionally) be entered for "Release date" and "To be processed by". If relative dates are required, reference points such as "x days after first course attendance" can be selected instead of fixed dates.
+
+**Share date**<br>
+The course element is visible but not accessible before the release date. It can be opened and worked in from the specified date. If no entry is made, the folder remains permanently available from the release date, provided you have access to the course.
+
+**To be edited by:**<br>
+The module can be opened and edited up to the specified date. 
+If no entry is made, the folder remains permanently available from the release date, provided you have access to the course.
+
+**Processing time**<br>
+Here you can enter how long the author estimates it will take to complete the course element. The processing time specified here is independent of how much time is actually required. However, the estimated time can be used to calculate the learning progress.
+
+**Completion criterion**<br>
+Here you determine how the course element is marked as "completed" in the course menu.
+
+---
+
+
 ### Tab folder configuration {: #tab_folder_config}
 
 ![course_element_folder_tab_folder_config_v1_de.png](assets/course_element_folder_tab_folder_config_v1_de.png){ class="shadow lightbox"}
