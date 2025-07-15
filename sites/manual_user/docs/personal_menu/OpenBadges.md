@@ -1,4 +1,4 @@
-# Personal tools: Badges
+# Personal tools: Badges {: #badges}
 
 ![pers_menu_badges_v1_en.png](assets/pers_menu_badges_v1_en.png){ class="aside-right lightbox"}
 
@@ -21,10 +21,10 @@ The badge info page can be shared via the listed public link and integrated into
 ![Badges Infoseite](assets/Badge_Beispiel.jpg)
 
 
-## Further information on the badges for teachers 
+## Further information on the badges for teachers {: #further_information}
 
-* [Badges in the assessment tool](../learningresources/OpenBadges.md)<br>
-* [Badges in the e-Assessment Administration](../../manual_admin/administration/e-Assessment_openBadges.md) <br> 
-* [How do I award badges in my course?](../../manual_how-to//badges/badges.md)<br>
-* [Evidences of achievement in courses](../learningresources/Course_Settings_Assessment.md#evidences-of-achievement)<br>
-* [Certificates](../learningresources/Course_Settings_Assessment.md#course-certificate)<br>
+* [Badges in the assessment tool >](../learningresources/OpenBadges.md)<br>
+* [Badges in the e-Assessment Administration >](../../manual_admin/administration/e-Assessment_openBadges.md) <br> 
+* [How do I award badges in my course? >](../../manual_how-to//badges/badges.md)<br>
+* [Evidences of achievement in courses >](../learningresources/Course_Settings_Assessment.md#evidences-of-achievement)<br>
+* [Certificates >](../learningresources/Course_Settings_Assessment.md#course-certificate)<br>

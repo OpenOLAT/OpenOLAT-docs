@@ -10,7 +10,7 @@ The calendar function is available in various places:
 
 * In the [course](../area_modules/Courses.md): <br> Access to course dates and access to all calendars of integrated groups. Calendars can be integrated into courses both in the course run and in the toolbar. <br>
 
-![pers_menu_calendar_course_v1_de.png](assets/pers_menu_calendar_course_v1_de.png){ class="aside-left lightbox" }
+![pers_menu_calendar_course_v1_de.png](assets/pers_menu_calendar_course_v1_de.png){ class="aside-left lightbox" }<br>
 
 * In the [personal menu](../personal_menu/index.md) [(Personal tools)](../personal_menu/Personal_Tools.md):<br> In addition to your personal appointments, all appointments from the various courses and groups of which you are a member can be combined in your personal calendar. This gives you an overview. External calendars can also be imported according to individual requirements.
 

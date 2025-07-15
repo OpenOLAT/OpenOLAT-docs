@@ -1,6 +1,6 @@
-# Personal tools: Portfolio
+# Personal tools: Portfolio {: #portfolio}
 
-![pers_menu_portfolio_v1_de.png](assets/pers_menu_portfolio_v1_de.png){ class="aside-right lightbox"}
+![pers_menu_portfolio_v2_de.png](assets/pers_menu_portfolio_v2_de.png){ class="aside-right lightbox"}
 
 ![icon_portfolio.png](assets/icon_portfolio.png)
 
@@ -12,13 +12,13 @@ Learning products can be collected here and, if required be made accessible to s
 ![pers_menu_portfolio_overview_v1_de.png](assets/my_portfolio_en.jpg){ class="shadow lightbox"}
 
 
-## Further information
+## Further information {: #further_information}
 
-[Portfolio overview for creating](../area_modules/Portfolio.md)
-[General information about the portfolio](../area_modules/Portfolio_General_Information.md)
-[Components of a portfolio](../area_modules/Components_of_the_portfolio.md)
-[Process of an assessment portfolio](../portfolio/Process_of_an_assessment_portfolio.md)
-[Portfolio tasks in courses](../learningresources/Course_Element_Portfolio_Task.md)
+[Portfolio overview for creating >](../area_modules/Portfolio.md)
+[General information about the portfolio >](../area_modules/Portfolio_General_Information.md)
+[Components of a portfolio >](../area_modules/Components_of_the_portfolio.md)
+[Process of an assessment portfolio >](../portfolio/Process_of_an_assessment_portfolio.md)
+[Portfolio tasks in courses >](../learningresources/Course_Element_Portfolio_Task.md)
 
 
 

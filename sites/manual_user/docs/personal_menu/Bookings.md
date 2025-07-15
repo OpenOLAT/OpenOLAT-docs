@@ -1,4 +1,4 @@
-# Personal tools: Bookings
+# Personal tools: Bookings {: #bookings}
 
 ![pers_menu_bookings_v1_en.png](assets/pers_menu_bookings_v1_en.png){ class="aside-right lightbox"}
 
@@ -19,11 +19,11 @@ If the OpenOlat [Administrator](../../manual_admin/administration/Modules_Organi
 The option to book will also appear in the [catalog](../area_modules/catalog2.0_angebote.md##how-we-create-an-offer), provided that the corresponding offer/learning resource has been published there.
 
 
-## Further information
+## Further information {: #further_information}
 
-[Booking methods](../learningresources/Access_configuration.md#publication-status)<br>
-[Add members to a course](../learningresources/Members_management.md#adding-members)<br>
-[Offers in a catalog](../area_modules/catalog2.0_angebote.md#how-is-an-offer-created)<br>
+[Booking methods >](../learningresources/Access_configuration.md#publication-status)<br>
+[Add members to a course >](../learningresources/Members_management.md#adding-members)<br>
+[Offers in a catalog >](../area_modules/catalog2.0_angebote.md#how-is-an-offer-created)<br>
 
 
 

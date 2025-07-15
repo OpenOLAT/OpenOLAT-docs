@@ -1,12 +1,12 @@
-# Persönliche Werkzeuge: Notizen
+# Persönliche Werkzeuge: Notizen {: #notes}
 
-![pers_menu_notes_v1_de.png](assets/pers_menu_notes_v1_de.png){ class="aside-right lightbox"}
+![pers_menu_notes_v2_de.png](assets/pers_menu_notes_v2_de.png){ class="aside-right lightbox"}
 
 ![icon_notes.png](assets/icon_notes.png)
 
 
 
-## Notizen in OpenOlat
+## Notizen in OpenOlat {: #notes_in_OpenOlat}
 
 In OpenOlat können an verschiedenen Stellen Notizen gemacht werden:
 
@@ -17,7 +17,7 @@ In OpenOlat können an verschiedenen Stellen Notizen gemacht werden:
 In den persönlichen Werkzeugen finden Sie alle Notizen, die Sie **zu Ihren Kursen** gemacht haben. (Die Notizen zu Tests und Projekten sind hier nicht enthalten.) 
 
 
-## Wo kann ich Notizen zu einem Kurs erstellen?
+## Wo kann ich Notizen zu einem Kurs erstellen? {: #where_create}
 
 Notizen zu einem Kurs können Sie erstellen, wenn Sie in einem Kurs rechts oben das **Dropdown-Menü "Mein Kurs"** öffnen und dann die Option "Notizen" wählen. Hier können Sie kursspezifische Notizen eintragen, die nur Sie lesen können.
 
@@ -34,7 +34,7 @@ Es öffnet sich ein Editor, in dem pro Kurs ein Notizblatt zur Verfügung steht.
     Vergessen Sie nicht zu speichern, wenn Sie den Editor verlassen. Scrollen Sie dazu zum Button am unteren Rand.
 
 
-## Wo kann ich die Notizen zu Kursen ansehen?
+## Wo kann ich die Notizen zu Kursen ansehen? {: #where_view}
 
 Die Notizblätter aus den verschiedenen Kursen können Sie **gesammelt in den persönlichen Werkzeugen** ansehen, bearbeiten, ausdrucken und löschen. 
 Klicken Sie zur Bearbeitung einer Notiz auf den Namen des Kurses.
@@ -42,11 +42,11 @@ Klicken Sie zur Bearbeitung einer Notiz auf den Namen des Kurses.
 ![pers_menu_notes_list_v1_de.png](assets/pers_menu_notes_list_v1_de.png){ class="shadow lightbox"}
 
 
-## Weitere Informationen
+## Weitere Informationen {: #further_information}
 
-[Unterbindung von Notizen im Prüfungsmodus](../learningresources/Assessment_mode.de.md#was-versteht-man-unter-prufungsmodus)<br>
-[Unterschied zu Projekt-Notizen](../area_modules/Project_Notes.de.md)<br>
-[Unterschied zu Notizen in Tests](../learningresources/Configure_tests.de.md#expert)<br>
-[Notizen und Datenschutz](../../manual_admin/usermanagement/Data_protection.de.md#daten-die-exportiert-werden-konnen)<br>
+[Unterbindung von Notizen im Prüfungsmodus >](../learningresources/Assessment_mode.de.md#was-versteht-man-unter-prufungsmodus)<br>
+[Unterschied zu Projekt-Notizen >](../area_modules/Project_Notes.de.md)<br>
+[Unterschied zu Notizen in Tests >](../learningresources/Configure_tests.de.md#expert)<br>
+[Notizen und Datenschutz >](../../manual_admin/usermanagement/Data_protection.de.md#daten-die-exportiert-werden-konnen)<br>
 
 

@@ -1,6 +1,6 @@
-# Personal tools: Media Center
+# Personal tools: Media Center {: #media_center}
 
-![pers_menu_mediacenter_v1_de.png](assets/pers_menu_mediacenter_v1_de.png){ class="aside-right lightbox"}
+![pers_menu_mediacenter_v2_de.png](assets/pers_menu_mediacenter_v2_de.png){ class="aside-right lightbox"}
 
 ![icon_media_center.png](assets/icon_media_center.png)
 
@@ -154,7 +154,7 @@ And how can the media in the Media Center be reused? The media contained in the 
 
 The **filter functions** help you to find the media you are looking for quickly. Search or filter for ...
 
-![Medien Center Filtrfunktion](assets/file_hub_pers_menu2_v1_de.png){ class=" shadow lightbox" }
+![Medien Center Filterfunktion](assets/file_hub_pers_menu2_v1_de.png){ class=" shadow lightbox" }
 
 !!! note "Note"
 

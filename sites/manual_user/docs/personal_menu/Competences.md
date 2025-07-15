@@ -1,6 +1,6 @@
-# Personal tools: Competences
+# Personal tools: Competences {: #competences}
 
-![pers_menu_competences_v1_de.png](assets/pers_menu_competences_v1_de.png){ class="aside-right lightbox"}
+![pers_menu_competences_v2_de.png](assets/pers_menu_competences_v2_de.png){ class="aside-right lightbox"}
 
 ![icon_competences.png](assets/icon_competences.png)
 
@@ -20,15 +20,15 @@ Competences may have been assigned in ePortfolio entries, for example, or entere
 In addition to being displayed in a user's personal tools, the awarding or acquisition of skills also occurs in the following contexts:
 
 
-- [ePortfolio](../area_modules/Competences_tags.md), Competences tags
-- [File-Hub](../basic_concepts/File_Hub_Concept.md) -> Document pool
+- [ePortfolio >](../area_modules/Competences_tags.md), Competences tags
+- [File-Hub >](../basic_concepts/File_Hub_Concept.md) -> Document pool
 
 In the admin manual
 
-- [eAssessment: Questeion bank](../../manual_admin/administration/eAssessment_Question_bank.md) (Administration)
-- [Module Taxonomy](../../manual_admin/administration/Modules_Taxonomy.md) (Administration)
-- [REST API](../../manual_admin/administration/REST_API.md) (Administration)
-- User profile of the [User management](../../manual_admin/usermanagement/Configure_User.md) (Administration)
+- [eAssessment: Questeion bank >](../../manual_admin/administration/eAssessment_Question_bank.md) (Administration)
+- [Module Taxonomy >](../../manual_admin/administration/Modules_Taxonomy.md) (Administration)
+- [REST API >](../../manual_admin/administration/REST_API.md) (Administration)
+- User profile of the [User management >](../../manual_admin/usermanagement/Configure_User.md) (Administration)
 
 
 

@@ -1,6 +1,6 @@
 # Persönliche Werkzeuge: Abonnements {: #subscriptions}
 
-![pers_menu_subscriptions_v1_de.png](assets/pers_menu_subscriptions_v1_de.png){ class="aside-right lightbox"}
+![pers_menu_subscriptions_v2_de.png](assets/pers_menu_subscriptions_v2_de.png){ class="aside-right lightbox"}
 
 ![icon_subscriptions.png](assets/icon_subscriptions.png)
 

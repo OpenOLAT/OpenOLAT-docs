@@ -1,6 +1,6 @@
-# Persönliche Werkzeuge: Portfolio
+# Persönliche Werkzeuge: Portfolio {: #portfolio}
 
-![pers_menu_portfolio_v1_de.png](assets/pers_menu_portfolio_v1_de.png){ class="aside-right lightbox"}
+![pers_menu_portfolio_v2_de.png](assets/pers_menu_portfolio_v2_de.png){ class="aside-right lightbox"}
 
 ![icon_portfolio.png](assets/icon_portfolio.png)
 
@@ -19,12 +19,13 @@ Personen (OpenOlat-Benutzern sowie Externen) [zugänglich machen](../area_module
 ![pers_menu_portfolio_overview_v1_de.png](assets/pers_menu_portfolio_overview_v1_de.png){ class="shadow lightbox"}
 
 
-## Weitere Informationen
+## Weitere Informationen {: #further_information}
 
-[Übersicht zur Portfolio-Erstellung](../area_modules/Portfolio.de.md)<br>
-[Allgemeines zum Portfolio](../area_modules/Portfolio_General_Information.de.md)<br>
-[Bestandteile des Portfolio](../area_modules/Components_of_the_portfolio.de.md)<br>
-[Portfolioaufgaben in Kursen](../learningresources/Course_Element_Portfolio_Task.de.md)<br>
+[Übersicht zur Portfolio-Erstellung >](../area_modules/Portfolio.de.md)<br>
+[Allgemeines zum Portfolio >](../area_modules/Portfolio_General_Information.de.md)<br>
+[Bestandteile des Portfolio >](../area_modules/Components_of_the_portfolio.de.md)<br>
+[Prozess eines Bewertungsportfolios >](../portfolio/Process_of_an_assessment_portfolio.de.mdmd)
+[Portfolioaufgaben in Kursen >](../learningresources/Course_Element_Portfolio_Task.de.md)<br>
 
 
 

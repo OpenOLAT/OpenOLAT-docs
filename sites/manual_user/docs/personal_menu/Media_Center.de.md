@@ -1,6 +1,6 @@
-# Persönliche Werkzeuge: Das Media Center
+# Persönliche Werkzeuge: Das Media Center {: #media_center}
 
-![pers_menu_mediacenter_v1_de.png](assets/Media_Center_20.jpg){ class="aside-right lightbox"}
+![pers_menu_mediacenter_v2_de.png](assets/pers_menu_mediacenter_v2_de.png){ class="aside-right lightbox"}
 
 ![icon_media_center.png](assets/icon_media_center.png)
 
@@ -17,7 +17,7 @@ Ausführliche Informationen zur Funktionsweise des Media Centers finden Sie unte
 
 
 
-## Weitere Informationen
+## Weitere Informationen {: #further_information}
 
 [Ausführliche Informationen zum Media Center (Basiskonzept) >](../basic_concepts/Media_Center_Concept.de.md)<br>
 [File Hub (Basiskonzept) >](../basic_concepts/File_Hub_Concept.de.md)<br>

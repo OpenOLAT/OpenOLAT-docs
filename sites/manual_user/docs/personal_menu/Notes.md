@@ -1,12 +1,12 @@
-# Personal tools: Notes
+# Personal tools: Notes {: #notes}
 
-![pers_menu_notes_v1_de.png](assets/pers_menu_notes_v1_de.png){ class="aside-right lightbox"}
+![pers_menu_notes_v2_de.png](assets/pers_menu_notes_v2_de.png){ class="aside-right lightbox"}
 
 ![icon_notes.png](assets/icon_notes.png)
 
 
 
-## Notes in OpenOlat
+## Notes in OpenOlat {: #notes_in_OpenOlat}
 
 Notes can be made in various places in OpenOlat:
 
@@ -17,7 +17,7 @@ Notes can be made in various places in OpenOlat:
 In the personal tools you will find all the notes you have made **on your courses**. (The notes on tests and projects are not included here).
 
 
-## Where can I create notes on a course?
+## Where can I create notes on a course? {: #where_create}
 
 You can create notes for a course by opening the **"My course"** drop-down menu in the top right-hand corner of a course and then selecting the "Notes” option. Here you can enter course-specific notes that only you can read.
 
@@ -33,18 +33,19 @@ An editor opens in which one note sheet is available per course.
 
     Don't forget to save when you leave the editor. To do this, scroll to the button at the bottom.
 
-## Where can I view the course notes?
+
+## Where can I view the course notes? {: #where_view}
 
 You can view, edit, print and delete the note sheets from the various courses **collected in the personal tools**. 
 To edit a note, click on the name of the course.
 
 ![pers_menu_notes_list_v1_de.png](assets/pers_menu_notes_list_v1_de.png){ class="shadow lightbox"}
 
-## Further information
+## Further information {: #further_information}
 
-[Preventing notes in assessment mode](../learningresources/Assessment_mode.md#what-is-meant-by-assessment-mode)<br>
-[Difference to project notes](../area_modules/Project_Notes.md)<br>
-[Difference to notes in tests](../learningresources/Configure_tests.md#tab-expert--expert)<br>
-[Notes and data protection](../../manual_admin/usermanagement/Data_protection.md)<br>
+[Preventing notes in assessment mode >](../learningresources/Assessment_mode.md#what-is-meant-by-assessment-mode)<br>
+[Difference to project notes >](../area_modules/Project_Notes.md)<br>
+[Difference to notes in tests >](../learningresources/Configure_tests.md#tab-expert--expert)<br>
+[Notes and data protection >](../../manual_admin/usermanagement/Data_protection.md)<br>
 
 

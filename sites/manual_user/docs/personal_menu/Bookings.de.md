@@ -1,6 +1,6 @@
-# Persönliche Werkzeuge: Buchungen
+# Persönliche Werkzeuge: Buchungen {: #bookings}
 
-![pers_menu_bookings_v1_de.png](assets/pers_menu_bookings_v1_de.png){ class="aside-right lightbox"}
+![pers_menu_bookings_v2_de.png](assets/pers_menu_bookings_v2_de.png){ class="aside-right lightbox"}
 
 Unter "Buchungsaufträge" im Bereich "Persönliche Werkzeuge" finden OpenOlat Nutzer:innen eine Übersicht all ihrer gebuchten Kurse und Lernressourcen. Dabei erscheinen nur die Kurse und Lernressourcen, die auch mit einer [Buchungsmethode](../learningresources/Access_configuration.de.md), z.B. mit einem Kurscode verknüpft sind und vom Nutzer bzw. der Nutzerin gebucht wurden (Selbstregistrierung). Buchen kann dabei als Synonym für "belegen", "einschreiben" oder "einkaufen" verstanden werden.
 
@@ -17,10 +17,10 @@ Die Möglichkeit zur Buchung erscheint ferner im [Katalog](../area_modules/catal
 
 
 
-## Weitere Informationen
+## Weitere Informationen {: #further_information}
 
-[Buchungsmethoden](../learningresources/Access_configuration.de.md#status-der-veroffentlichung)<br>
-[Mitglieder zu Kursen hinzufügen](../learningresources/Members_management.de.md#mitglieder-hinzufugen)<br>
-[Angebote im Katalog](../area_modules/catalog2.0_angebote.de.md##wie-wird-ein-angebot-erstellt)<br>
+[Buchungsmethoden >](../learningresources/Access_configuration.de.md#status-der-veroffentlichung)<br>
+[Mitglieder zu Kursen hinzufügen >](../learningresources/Members_management.de.md#mitglieder-hinzufugen)<br>
+[Angebote im Katalog >](../area_modules/catalog2.0_angebote.de.md##wie-wird-ein-angebot-erstellt)<br>
 
 

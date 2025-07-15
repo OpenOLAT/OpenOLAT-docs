@@ -1,6 +1,6 @@
 # Persönliche Werkzeuge: Kalender {: #calendar}
 
-![pers_menu_calendar_v1_de.png](assets/pers_menu_calendar_v1_de.png){ class="aside-right lightbox"}
+![pers_menu_calendar_v2_de.png](assets/pers_menu_calendar_v2_de.png){ class="aside-right lightbox"}
 
 ![icon_calendar](assets/icon_calendar.png)
 

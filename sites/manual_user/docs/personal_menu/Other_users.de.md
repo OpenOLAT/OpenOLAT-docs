@@ -1,6 +1,6 @@
-# Persönliche Werkzeuge: Personensuche 
+# Persönliche Werkzeuge: Personensuche {: #other_users}
 
-![pers_menu_other_users_v1_de.png](assets/pers_menu_other_users_v1_de.png){ class="aside-right lightbox"}
+![pers_menu_other_users_v2_de.png](assets/pers_menu_other_users_v2_de.png){ class="aside-right lightbox"}
 
 ![icon_other_users.png](assets/icon_other_users.png)
 
@@ -16,7 +16,8 @@ Die zur Verfügung stehenden Suchfelder können je nach Rolle variieren.
     Es muss mindestens ein Begriff zur Eingrenzung eingegeben werden.<br>
     Ausserdem muss der Suchbegriff eine gewisse Mindestlänge haben.
 
-## Weitere Informationen
+
+## Weitere Informationen {: #further_information}
 
 Generelle Möglichkeiten der [Personensuche >](../basic_concepts/Search_Person.de.md)<br>
 

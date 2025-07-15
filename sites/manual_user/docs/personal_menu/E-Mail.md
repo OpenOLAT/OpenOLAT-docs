@@ -1,6 +1,6 @@
-# Personal tools: E-Mail
+# Personal tools: E-Mail {: #email}
 
-![pers_menu_email_v1_de.png](assets/pers_menu_email_v1_de.png){ class="aside-right lightbox"}
+![pers_menu_email_v2_de.png](assets/pers_menu_email_v2_de.png){ class="aside-right lightbox"}
 
 ![icon_e-mail](assets/icon_e-mail.png)
 

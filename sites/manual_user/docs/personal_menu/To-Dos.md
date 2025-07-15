@@ -1,6 +1,6 @@
-# Personal tools: To-Dos
+# Personal tools: To-Dos {: #to_dos}
 
-![pers_menu_todos_v1_de.png](assets/pers_menu_todos_v1_de.png){ class="aside-right lightbox"}
+![pers_menu_todos_v2_de.png](assets/pers_menu_todos_v2_de.png){ class="aside-right lightbox"}
 
 ![icon_todo.png](assets/icon_todo.png)
 
@@ -27,11 +27,11 @@ You can
 
 
 
-## Further information
+## Further information {: #further_information}
 
-[General information on To-dos](../basic_concepts/To_Dos_Basics.md)<br>
-[To-dos in a course](../learningresources/Course_todos.md)<br>
-[To-dos within a project](../area_modules/Project_Todos.md)<br>
-[To-dos in the course element "Task"](../learningresources/Course_Element_Task.md)<br>
-[Action to-dos in the quality management](../area_modules/Quality_Management_To-dos.md)
+[General information on To-dos >](../basic_concepts/To_Dos_Basics.md)<br>
+[To-dos in a course >](../learningresources/Course_todos.md)<br>
+[To-dos within a project >](../area_modules/Project_Todos.md)<br>
+[To-dos in the course element "Task" >](../learningresources/Course_Element_Task.md)<br>
+[Action to-dos in the quality management >](../area_modules/Quality_Management_To-dos.md)
 

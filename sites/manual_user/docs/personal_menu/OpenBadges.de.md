@@ -1,6 +1,6 @@
-# Persönliche Werkzeuge: Badges
+# Persönliche Werkzeuge: Badges {: #badges}
 
-![pers_menu_badges_v1_de.png](assets/pers_menu_badges_v1_de.png){ class="aside-right lightbox"}
+![pers_menu_badges_v2_de.png](assets/pers_menu_badges_v2_de.png){ class="aside-right lightbox"}
 
 ![icon_badges.png](assets/icon_badges.png)
 
@@ -22,12 +22,12 @@ Die Badge-Infoseite kann über den öffentlichen Link geteilt und in anderen Web
 ![Badges Infoseite](assets/Badge_Beispiel.jpg)
 
 
-## Weitere Informationen zu den Badges für Lehrende 
+## Weitere Informationen zu den Badges für Lehrende {: #further_information}
 
-* [Badges im Bewertungswerkzeug](../learningresources/OpenBadges.de.md)<br>
-* [Badges in der eAssessment-Administration](../../manual_admin/administration/e-Assessment_openBadges.de.md) <br>
-* [Wie vergebe ich in meinem Kurs Badges?](../../manual_how-to/badges/badges.de.md)<br>
-* [Leistungsnachweise in Kursen](../learningresources/Course_Settings_Assessment.de.md#leistungsnachweis)<br>
-* [Zertifikate](../learningresources/Course_Settings_Assessment.de.md#kurs-zertifikat)<br>
+* [Badges im Bewertungswerkzeug >](../learningresources/OpenBadges.de.md)<br>
+* [Badges in der eAssessment-Administration >](../../manual_admin/administration/e-Assessment_openBadges.de.md) <br>
+* [Wie vergebe ich in meinem Kurs Badges? >](../../manual_how-to/badges/badges.de.md)<br>
+* [Leistungsnachweise in Kursen >](../learningresources/Course_Settings_Assessment.de.md#leistungsnachweis)<br>
+* [Zertifikate >](../learningresources/Course_Settings_Assessment.de.md#kurs-zertifikat)<br>
 
 

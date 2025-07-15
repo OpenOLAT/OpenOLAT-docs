@@ -1,6 +1,6 @@
-# Personal tools: Other users
+# Personal tools: Other users {: #other_users}
 
-![pers_menu_other_users_v1_de.png](assets/search_other_users_en.png){ class="aside-right lightbox"}
+![pers_menu_other_users_v2_de.png](assets/pers_menu_other_users_v2_de.png){ class="aside-right lightbox"}
 
 ![icon_other_users.png](assets/icon_other_users.png)
 
@@ -16,7 +16,8 @@ The search fields available may vary depending on the role.
     At least one term must be entered to narrow it down.<br>
     In addition, the search term must have a certain minimum length.
 
-## Further informations
+
+## Further information {: #further_information}
 
 General options for [Search for other users >](../basic_concepts/Search_Person.md)<br>
 
