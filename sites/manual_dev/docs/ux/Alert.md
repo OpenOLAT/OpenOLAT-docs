@@ -1,10 +1,8 @@
 # Notification
 
-![Notification messages](assets/alert-info.jpg)
-
 An Notification is a system generated, contextual, and timely message to a user that ,in most cases, results from their action.
 
-**Structure**
+## Structure
 
 1. Container: Wraps the content.
 2. Icon: Supports the variant meaning.
@@ -19,6 +17,7 @@ An Notification is a system generated, contextual, and timely message to a user 
 ## Types
 
 * Info Message
+ ![Notification messages](assets/alert-info.png)
 * Warning Message
 ![Notification messages](assets/alert-warning.jpg)
 * Error Message

@@ -17,6 +17,7 @@ nav:
       - Tooltip: ux/tooltip.md
     - Components:
       - Overview: ux/components.md
+      - Alert: ux/alert.md
       - Button: ux/button.md
       - Card: ux/card.md
       - Delete object: ux/delete_object.md
