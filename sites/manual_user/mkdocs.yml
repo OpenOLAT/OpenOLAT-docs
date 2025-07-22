@@ -31,6 +31,7 @@ nav:
       - Folder concept: "basic_concepts/Folder_Concept.md"
       - Math formula: "basic_concepts/Math_formula.md"
       - To-dos: "basic_concepts/To_Dos_Basics.md"
+      - Events and absences: "basic_concepts/Events_and_Absences.md"
       - Content Editor: "basic_concepts/Content_Editor.md"
       - Working with media files: "basic_concepts/Working_with_Media_Files.md"
       - File Hub: "basic_concepts/File_Hub_Concept.md"
@@ -189,6 +190,7 @@ nav:
         - Overview: "learningresources/Administration.md"
         - Settings:
           - Overview: "learningresources/Course_Settings.md"
+          - Tab Execution: "learningresources/Course_Settings_Execution.md"
           - Tab Assessment: "learningresources/Course_Settings_Assessment.md"
           - Tab Options: "learningresources/Course_Settings_Options.md"
           - LTI access: "learningresources/LTI_Share_courses.md"
@@ -208,10 +210,7 @@ nav:
           - Assess tasks: "learningresources/Assess_tasks.md"
           - Portfolio assignment Grading: "learningresources/Portfolio_assignment_Grading.md"
           - Forms in Rubric Scoring: "learningresources/Forms_in_Rubric_Scoring.md"
-        - Events and Absences:
-          - Overview: "learningresources/Events_and_absences.md"
-          - User view : "learningresources/Events_and_absences_User_view.md"
-          - Teacher view : "learningresources/Events_and_absences_Teacher_view.md"
+        - Events and absences: "learningresources/Events_and_absences.md"
         - To-dos : "learningresources/Course_todos.md"
         - Coach files : "learningresources/Coach_Files.md"
         - Course Reminders: "learningresources/Course_Reminders.md"

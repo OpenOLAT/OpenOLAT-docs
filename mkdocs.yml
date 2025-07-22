@@ -278,7 +278,7 @@ plugins:
           Edubase: Edubase
           Enrolment: Einschreibung
           Events : Termine
-          Events and Absences : Termine und Absenzen
+          Events and absences : Termine und Absenzen
           Evidence of Achievements: Leistungsnachweise
           Exams : Prüfungen
           Export content : Inhalt exportieren
@@ -520,6 +520,7 @@ plugins:
           Survey statistics : Fragebogen Statistiken
           System : System
           Tab Assessment : Tab Bewertung
+          Tab Execution : Tab Durchführung
           Tab Options : Tab Optionen
           Tab users : Tab Teilnehmer
           Table concept: Tabellenkonzept

@@ -1,89 +1,29 @@
 # Absenzenverwaltung {: #absence_management}
 
-!!! warning "Achtung"
 
-    Dieser Artikel ist noch in Bearbeitung.
+## Was ermöglicht die Absenzenverwaltung?  {: #purpose}
 
+Die im Hauptmenü angezeigte Absenzenverwaltung bezieht sich auf die **kursübergreifende Absenzenverwaltung** durch Berechtigte mit der **Rolle Absenzenverwalter:in**.
 
-## Was kann verwaltet werden? {: #administrated_absences}
+Berechtigte mit dieser Rolle bearbeiten z.B. Dispensen und Rekurse. Diese Verwaltungsaufgabe geht über die einfache Erfassung hinaus, die in einem bestimmten Kurs stattfindet und ist deshalb einer gesonderten Rolle zugeordnet.
 
-!!! info "Allgemeiner Hinweis"
-
-    Administrator:innen können die Möglichkeiten in der Absenzenverwaltung sehr detailliert einrichten. Sollte eine der beschriebenen Möglichkeiten bei Ihnen nicht zur Verfügung stehen, wenden Sie sich bitte an Ihre:n zuständige:n Adminisistrator:in.
-
-### Absenzen {: #absences_categories}
-
-Die Anwesenheit bzw. Absenz von Teilnehmer:innen kann in folgenden Kategorien erfasst werden:
-
-- Anwesend
-- Entschuldigte Abwesenheit
-- Unentschuldigte Abwesenheit
-- Dispensiert
-
-Absenzen werden in der Regel bei einer Anwesenheitskontrolle durch die **Betreuer:innen** erfasst.
-
-**Teilnehmer:innen** finden ihre erfassten Absenzen im [persönlichen Menü](../personal_menu/Absences.de.md).
-
-Aus den erfassten Absenzen wird eine **Anwesenheitsrate** berechnet. Durch Abgleich mit einer vorgegebenen erlaubten **Absenzquote** (z.B. 80%) kann daraus berechnet werden, ob ein Kurs als besucht gelten kann.
-
-### Abmeldungen {: #cancellations}
-
-Es kann den Teilnehmer:innen erlaubt werden, dass sie sich im [persönlichen Menü](../personal_menu/Absences.de.md#tab-abmeldung-dispense) im Voraus abmelden.
-
-### Entschuldigte Absenzen {: #excused_absences}
-
-Es kann systemweit eingestellt werden, dass entschuldigte Absenzen für die Berechnung der Anwesenheitsrate als "anwesend" gezählt werden.
-
-### Dispense {: #dispensations}
-
-Es gibt verschiedene Gründe, warum ein:e Teilnehmer:in grundsätzlich nicht an einem bestimmten Teil eines Kurses teilnehmen kann oder muss. In diesem Fall kann eine Dispens eingerichtet werden.
-
-### Rekurse {: #appeals}
-
-Teilnehmer:innen haben die Möglichkeit, gegen eine von Betreuer:innen z.B. vermeintlich unentschuldigte Absenz Rekurs einzulegen. Auch die Rekurse werden in OpenOlat erfasst.
+Daneben können Absenzen auch an anderen Stellen abgefragt oder erfasst werden.<br>
+Links zu Erklärungen der übrigen Punkte finden Sie unter den [weiterführenden Informationen](#further_information), bzw. in den [Basiskonzepten]((../basic_concepts/Events_and_Absences.de.md)) erklärt.
 
 [Zum Seitenanfang ^](#absence_management)
 
 ---
 
+
 ## Wo finde ich die Absenzenverwaltung?  {: #access}
 
-Es ist zu unterscheiden zwischen 
-
-1. der **Konfiguration** der Absenzenverwaltung in einem **Kurs**<br>
-    Die Konfiguration der Termin- und Absenzenverwaltung für einen bestimmten Kurs erfolgt durch die Kursbesitzer:innen in der Kursadministration:<br>
-    **Administration > Einstellungen > Tab "Durchführung" > Abschnitt "Konfiguration Termin- und Absenzenverwaltung im Kurs"**
-
-
-2. der **Erfassung und Verwaltung** der Absenzen in einem **Kurs**<br>
-    Die Erfassung und Verwaltung erfolgt im Run Mode (also zur Laufzeit, nicht im Editor) durch Kurtsbesitzer:innen unter:<br>
-    **Administration > Termine und Absenzen > Tab Teilnehmer**
-
-
-3. der Übersicht über die **persönlichen Absenzen**<br>
-    Die persönlichen Absenzen finden Sie und alle Teilnehmer:innen jeweils im [persönlichen Menü](../personal_menu/Absences.de.md). Hier ist die Verwaltung nur in begrenztem Rahmen und für sich persönlich möglich, z.B. in Form einer Abmeldung.  
-
-
-4.  der **kursübergreifenden Absenzenerfassungung** durch Coaches<br>
-    Die Möglichkeit zur Erfassung von Absenzen in verschiedenen Kursen finden Coaches im <br>
-    **Coachingtool > Tab Absenzen**.
-
-
-5. der **kursübergreifenden Absenzenverwaltung** durch Berechtigte mit der Rolle Absenzenverwalter:in.<br>
-    Zur Verwaltung gehört z.B. die Bearbeitung von Dispensen und Rekursen. Diese Verwaltungsaufgabe geht über die einfache Erfassung hinaus und ist deshalb einer gesonderten Rolle zugeordnet. Berechtigte finden die Werkzeuge im<br>
-   **Menü der Kopfzeile: Absenzenverwaltung**
-
-
-6. der **generellen Aktivierung und Konfiguration** durch Administrator:innen unter:<br>
-   **Administration > Module > Termine und Absenzen**
-
-
+Berechtigte finden die kursübergreifenden Absenzenverwaltung im **Menü der Kopfzeile:**
 
 ![absence_mgmt_menu_v1_de.png](assets/absence_mgmt_menu_v1_de.png){ class="shadow lightbox" }
 
-!!! info "Hinweis"
+!!! hint "Hinweis"
 
-    Der Menü-Eintrag kann auch an einer anderen Stelle stehen. Wenn viele Einträge in der Kopfzeile angezeigt werden, kann "Absenzenverwaltung" unter "Mehr" ganz rechts enthalten sein.
+    Der Menü-Eintrag kann auch an einer anderen Stelle in der Kopfzeile stehen. Wenn viele Einträge in der Kopfzeile angezeigt werden, kann "Absenzenverwaltung" unter "Mehr" ganz rechts enthalten sein.
 
 
 [Zum Seitenanfang ^](#absence_management)
@@ -92,11 +32,13 @@ Es ist zu unterscheiden zwischen
 
 ## Wer kann die Absenzenverwaltung benutzen? {: #users}
 
-Die im Hauptmenü angezeigte Absenzenverwaltung kann Absenzenverwalter:innen zur Verfügung gestellt werden. Hier kann die berechtigte Person alle Absenzen umfassend **verwalten**.
-
-Das **Erfassen** der einzelnen Absenzen obliegt in der Regel den Betreuer:innen. Deshalb finden diese die Werkzeuge zum Erfassen in den Kursen oder im Coachingtool. Die Teilnehmer:innen erfassen ihre eigenen Absenzen/Abmeldungen/Rekurse im [persönlichen Menü >](../personal_menu/Absences.de.md). 
-
 Ob die Absenzenverwaltung in einem bestimmten Kurs **verwendet** wird, entscheiden die Kursbesitzer:innen. 
+
+Das **Erfassen** der einzelnen Absenzen obliegt dann in der Regel den Betreuer:innen. Deshalb finden diese die Werkzeuge zum Erfassen in den Kursen oder im Coachingtool.<br>
+Die Teilnehmer:innen erfassen ihre eigenen Absenzen/Abmeldungen/Rekurse im [persönlichen Menü >](../personal_menu/Absences.de.md). 
+
+Die im Hauptmenü angezeigte und nachstehend beschriebene Absenzenverwaltung kann dagegen **Absenzenverwalter:innen** und administrativen Rollen zur Verfügung gestellt werden. In der kursübergreifenden Absenzenverwaltung kann auf alle Absenzen in der Gesamtschau zugegriffen werden und die berechtigten Personen können alle Absenzen umfassend **verwalten**.
+
 
 [Zum Seitenanfang ^](#absence_management)
 
@@ -139,7 +81,7 @@ Nach dem Aufruf der Absenzenverwaltung werden Ihnen die Hauptfunktionen als Tabs
 
 ## Tab Cockpit {: #tab_cockpit}
 
-Im Cockpit werden in zwei untereinanderliegenden Abschnitten die **Absenzen** und die **Meldungen** eines Tages angezeigt. Standardmässig wird der aktuelle Tag angezeigt, es kann jedoch ein beliebiger anderer Tag gewählt werden.
+Im Cockpit werden in zwei untereinanderliegenden Abschnitten die **Absenzen** und die **Meldungen** eines Tages angezeigt. Standardmässig wird der aktuelle Tag angezeigt, es kann jedoch rechts oben ein beliebiger anderer Tag gewählt werden.
 
 ![absence_mgmt_cockpit1_v1_de.png](assets/absence_mgmt_cockpit1_v1_de.png){ class=" shadow lightbox" }
 
@@ -218,9 +160,14 @@ Mit dem Suchfeld können Sie nach Benutzer:innen, Dozent:innen, Kurstiteln und T
 
 ## Weiterführende Informationen {: #further_information}
 
-[Absenzen im persönlichen Menü >](../personal_menu/Absences.de.md)<br>
-[Modul Termine und Absenzen aktivieren (Admin) >](../../manual_admin/administration/Modules_Events_and_Absences.de.md)<br>
-[Termine und Absenzen im Kurs >](../learningresources/Events_and_absences.de.md)<br>
+[Basiskonzept Termine und Absenzen >](../basic_concepts/Events_and_Absences.de.md)<br>
+[Aktivierung und Konfiguration des Absenzenmanagements durch Administrator:innen >](../../manual_admin/administration/Modules_Events_and_Absences.de.md)<br>
+[Konfiguration der Absenzenverwaltung in einem Kurs >](../learningresources/Course_Settings_Execution.de.md#config_event_and_absence_management)<br>
+[Erfassung und Verwaltung der Absenzen in einem Kurs durch Kursbesitzer:innen >](../learningresources/Events_and_absences.de.md)<br>
+[Erfassung und Verwaltung der Absenzen in einem Kurs durch Betreuer:innen >](../learningresources/x.de.md)<br>
+[Persönliche Absenzen >](../personal_menu/Absences.de.md)<br>
+[Kursübergreifende Absenzenerfassungung im Coachingtool >](../area_modules/Coaching.de.md)<br>
+
 
 [Zum Seitenanfang ^](#absence_management)
 

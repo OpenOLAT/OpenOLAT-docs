@@ -5,13 +5,16 @@
 ![icon_absences.png](assets/icon_absences.png)
 
 
-Bei aktiviertem Absenzenmanagment sind im persönlichen Menü die Kurse ersichtlich, in denen das Absenzenmanagement verwendet wird. 
+Bei aktiviertem Absenzenmanagment sind im persönlichen Menü die Kurse ersichtlich, in denen das Absenzenmanagement verwendet wird. Alle Benutzer:innen können ihre eigenen Absenzen dort ansehen und bearbeiten, soweit erlaubt.
 
 Es sind nicht nur Ihre persönlichen Absenzen in diesen Kursen (Termine) angezeigt, sondern der Übersicht halber auch alle Termine, die zum Gesamtprogramm der Kurse gehören und regulär zu besuchen wären. 
 
 Ausserdem werden Ihnen Abmeldungen, Dispense und Rekurse angezeigt.
 
-<br>
+Die Ansichten können in 4 Tabs abgerufen werden. In jedem Tab wird der Button für eine Abmeldung aus Eigeninitiative angezeigt.
+
+![pers_menu_absences_tabs_v1_de.png](assets/pers_menu_absences_tabs_v1_de.png){ class="shadow lightbox" }
+
 
 ## Tab Tagesübersicht {: #tab_overview}
 Im Tab "Tagesübersicht" sehen Sie die Termine und eventuelle Absenzen des aktuellen Tages. 
@@ -51,18 +54,21 @@ Hier sind die eigenen Rekurse aufgelistet. Wer ausser Ihnen sonst noch Ihre Reku
 
 ![pers_menu_absences_appeals_v2_de.png](assets/pers_menu_absences_appeals_v2_de.png){ class="shadow lightbox"}
 
+Wenn ein:e Teilnehmer:in mit der eingetragenen Absenz nicht einverstanden ist, kann ein Rekurs eingereicht werden. Nachdem der Termin zu Ende ist, erscheint ein Datum, ab welchem der Rekurs eingereicht werden kann. Dies wird berechnet aus der Endzeit des Termins plus die Tage der Sperrfrist. Sobald ein Termin automatisch (nach Ende der Sperrfrist) oder manuell durch den Dozenten (Kursbetreuer) auf "Erledigt" gesetzt worden ist, erscheint ein neues Datum, bis zu welchem der Rekurs eingereicht werden kann. Anschliessend wird "Geschlossen" angezeigt. Die Fristen werden systemweit in der Administration hinterlegt. Der Rekursantrag wird an die Dozenten des entsprechenden Termins gesendet.
+
 [Zum Seitenanfang ^](#pers_tools_absences)
 
 ---
 
 ## Weitere Informationen {: #further_information}
 
-[Termine und Absenzen >](../learningresources/Events_and_absences.de.md)<br>
-[Termine und Absenzen aus Sicht Kursbesitzer:in >](../learningresources/Events_and_absences_Teacher_view.de.md)<br>
-[Termine und Absenzen aus Sicht der Benutzer:innen >](../learningresources/Events_and_absences_User_view.de.md)<br>
-[Termine und Absenzen aus Sicht der Betreuer:innen >](../area_modules/coaching_lektionen.de.md)<br>
-[Absenzenverwaltung >](../area_modules/Absence_Management.de.md)<br>
-[Konfiguration für Termine und Absenzen in der Administration >](../../manual_admin/administration/Modules_Events_and_Absences.de.md)<br>
+[Basiskonzept Termine und Absenzen >](../basic_concepts/Events_and_Absences.de.md)<br>
+[Aktivierung und Konfiguration des Absenzenmanagements durch Administrator:innen >](../../manual_admin/administration/Modules_Events_and_Absences.de.md)<br>
+[Konfiguration der Absenzenverwaltung in einem Kurs >](../learningresources/Course_Settings_Execution.de.md#config_event_and_absence_management)<br>
+[Erfassung und Verwaltung der Absenzen in einem Kurs durch Kursbesitzer:innen >](../learningresources/Events_and_absences.de.md)<br>
+[Erfassung und Verwaltung der Absenzen in einem Kurs durch Betreuer:innen >](../learningresources/x.de.md)<br>
+[Kursübergreifende Absenzenerfassungung im Coachingtool >](../area_modules/Coaching.de.md)<br>
+[Kursübergreifende Absenzenverwaltung durch Absenzenverwalter:innen>](../area_modules/Absence_Management.de.md)<br>
 
 [Zum Seitenanfang ^](#pers_tools_absences)
 

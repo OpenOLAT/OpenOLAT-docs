@@ -1,9 +1,10 @@
-# Termine und Absenzen - Übersicht
+# Termine und Absenzen: Übersicht {: #events_and_absences_overview}
 
 
 !!! warning "Achtung"
 
     Dieser Artikel ist noch in Bearbeitung.
+
 
 
 Das Absenzmanagement bietet die Möglichkeit, online Anwesenheitslisten zu führen und Fehlzeiten zu dokumentieren. Die Anwesenheitskontrolle wird pro Kurs geführt. Dafür können im Kurs Lektionenblöcke mit 1-12 Lektionen erstellt werden. Die einzelnen Lektionen ermöglichen es, dass Teilnehmende einzelne Lektionen aus einem Lektionenblock fehlen können und nicht gleich den gesamten Lektionenblock als abwesend eingetragen bekommen.

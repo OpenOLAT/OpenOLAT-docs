@@ -1,4 +1,4 @@
-# Events and absences - Overview {: #events_and_absences_overview}
+# Events and absences: Overview {: #events_and_absences_overview} 
 
 Absence management allows you to keep attendance lists online and document absences. Attendance monitoring is carried out for each course. For this purpose, lecture blocks with 1-12 lessons can be created in the course. The individual lessons make it possible for participants to miss individual lessons from a lecture block and not have the entire lecture block entered as absent.
 
