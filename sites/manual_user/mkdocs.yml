@@ -191,6 +191,7 @@ nav:
         - Settings:
           - Overview: "learningresources/Course_Settings.md"
           - Tab Execution: "learningresources/Course_Settings_Execution.md"
+          - Tab Toolbar: "learningresources/Course_Settings_Toolbar.md"
           - Tab Assessment: "learningresources/Course_Settings_Assessment.md"
           - Tab Options: "learningresources/Course_Settings_Options.md"
           - LTI access: "learningresources/LTI_Share_courses.md"
