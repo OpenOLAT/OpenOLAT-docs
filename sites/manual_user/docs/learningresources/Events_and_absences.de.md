@@ -1,4 +1,4 @@
-# Termine und Absenzen: Übersicht {: #events_and_absences_overview}
+# Termine und Absenzen {: #course_admin_events_and_absences}
 
 
 !!! warning "Achtung"
@@ -6,8 +6,56 @@
     Dieser Artikel ist noch in Bearbeitung.
 
 
+Wurde durch den/die Kursbesitzer:in in **Administration > Einstellungen > Tab Durchführung**
+die Termin- und Absenzenverwaltung für den Kurs eingeschaltet, wird den Kursbesitzer:innen in der Kursadministration der Menüpunkt "Termine und Absenzen" angezeigt.
 
-Das Absenzmanagement bietet die Möglichkeit, online Anwesenheitslisten zu führen und Fehlzeiten zu dokumentieren. Die Anwesenheitskontrolle wird pro Kurs geführt. Dafür können im Kurs Lektionenblöcke mit 1-12 Lektionen erstellt werden. Die einzelnen Lektionen ermöglichen es, dass Teilnehmende einzelne Lektionen aus einem Lektionenblock fehlen können und nicht gleich den gesamten Lektionenblock als abwesend eingetragen bekommen.
+![events_and_absences_adminmenu_v1_de.png](assets/events_and_absences_adminmenu_v1_de.png){ class="shadow lightbox" }
+
+!!! info "Hinweis"
+
+    Kurs**betreuer:innen** finden diesen Punkt nicht im Menü der Kursadministration. Sie rufen den Screen zum Erfassen der Absenzen über das Icon in der Toolbar auf.
+    
+    Link, screen?
+
+
+[Zum Seitenanfang ^](#course_admin_events_and_absences)
+
+---
+
+## Tab Termine
+
+tbd
+
+[Zum Seitenanfang ^](#course_admin_events_and_absences)
+
+---
+
+## Tab Teilnehmer:innen
+
+tbd
+
+[Zum Seitenanfang ^](#course_admin_events_and_absences)
+
+---
+
+## Tab Rekurse
+
+tbd
+
+[Zum Seitenanfang ^](#course_admin_events_and_absences)
+
+---
+
+
+
+
+
+---
+
+---
+
+
+Das Absenzenmanagement bietet die Möglichkeit, online Anwesenheitslisten zu führen und Fehlzeiten zu dokumentieren. Die Anwesenheitskontrolle wird pro Kurs geführt. Dafür können im Kurs Lektionenblöcke mit 1-12 Lektionen erstellt werden. Die einzelnen Lektionen ermöglichen es, dass Teilnehmende einzelne Lektionen aus einem Lektionenblock fehlen können und nicht gleich den gesamten Lektionenblock als abwesend eingetragen bekommen.
 
 Die allgemeinen Einstellungen werden systemweit in der
 [Administration](../../manual_admin/administration/Lecture_and_roll_call_management.de.md) vorgenommen. Ferner kann das Absenzmanagement generell vom OpenOlat Administrator ein- oder ausgeschaltet werden.
