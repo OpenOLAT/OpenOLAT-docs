@@ -155,7 +155,7 @@ Im Bereich "**Standard Stil Kursbausteine**" können Sie die Basisdarstellung de
 Hier schalten Sie die Toolbar in der Kopfzeile des Kurses ein oder aus und definieren, welche konkreten einzelnen Werkzeuge in der Toolbar den Kursteilnehmer:innen angezeigt werden.
 
 
-[Zu den Details >](../learningresources/Course_Settings_Tooolbar.de.md)<br>
+[Zu den Details >](../learningresources/Course_Settings_Toolbar.de.md)<br>
 [Zum Seitenanfang ^](#course_settings)
 
 

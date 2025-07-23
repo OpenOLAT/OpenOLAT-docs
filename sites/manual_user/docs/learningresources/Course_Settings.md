@@ -152,7 +152,7 @@ In the section "**Course element default style**" you can define the default pre
 
 Here you can switch the toolbar in the course header on or off and define which specific individual tools are displayed to course participants in the toolbar.
 
-[For more details >](../learningresources/Course_Settings_Assessment.md)<br>
+[For more details >](../learningresources/Course_Settings_Toolbar.md)<br>
 [To the top of the page ^](#course_settings)
 
 
