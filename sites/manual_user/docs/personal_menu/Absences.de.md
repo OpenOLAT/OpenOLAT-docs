@@ -66,7 +66,7 @@ Wenn ein:e Teilnehmer:in mit der eingetragenen Absenz nicht einverstanden ist, k
 [Aktivierung und Konfiguration des Absenzenmanagements durch Administrator:innen >](../../manual_admin/administration/Modules_Events_and_Absences.de.md)<br>
 [Konfiguration der Absenzenverwaltung in einem Kurs >](../learningresources/Course_Settings_Execution.de.md#config_event_and_absence_management)<br>
 [Erfassung und Verwaltung der Absenzen in einem Kurs durch Kursbesitzer:innen >](../learningresources/Events_and_absences.de.md)<br>
-[Erfassung und Verwaltung der Absenzen in einem Kurs durch Betreuer:innen >](../learningresources/x.de.md)<br>
+[Erfassung und Verwaltung der Absenzen in einem Kurs durch Betreuer:innen >](../learningresources/Toolbar_Events.de.md)<br>
 [Kursübergreifende Absenzenerfassungung im Coachingtool >](../area_modules/Coaching.de.md)<br>
 [Kursübergreifende Absenzenverwaltung durch Absenzenverwalter:innen>](../area_modules/Absence_Management.de.md)<br>
 
