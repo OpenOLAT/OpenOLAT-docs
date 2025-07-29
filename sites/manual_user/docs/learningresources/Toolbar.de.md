@@ -172,8 +172,9 @@ Ist das Termin- und Absenzenmanagement eingeschaltet, kann es hier zur Ansicht b
 
 ![toolbar_glossary_v1_de.png](assets/toolbar_glossary_v1_de.png){ class="shadow lightbox"}
 
-Sofern ein Glossar mit dem Kurs verbunden wurde, kann es auch in der Toolbar aufgerufen werden.<br> 
-[Mehr dazu >](../learningresources/Toolbar_Glossary.de.md)
+Sofern ein Glossar mit dem Kurs verbunden wurde, kann es auch in der Toolbar aufgerufen werden.
+In einem Glossar können die Begriffe eines Kurses, eines Fachs bzw. einer Veranstaltung erklärt werden. Die Begriffe werden automatisch alphabetisch sortiert und können mit Klick auf den entsprechenden Startbuchstaben aufgerufen werden.<br> 
+[Mehr dazu >](../learningresources/Glossary.de.md)
 
 ---
 
