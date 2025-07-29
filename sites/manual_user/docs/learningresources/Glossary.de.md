@@ -1,8 +1,8 @@
-# Glossar
+# Glossar {: #glossary}
 
 ## Was ist und kann ein Glossar?
 
-Ein Glossar ist eine einfache Tabelle, in der Begriffe und Definitionen abgelegt und alphabetisch sortiert aufgelistet werden.
+Ein Glossar ist eine einfache Tabelle, in der Begriffe und ihre Definitionen abgelegt und alphabetisch sortiert aufgelistet werden.
 
 ![glossary_example_v1_de.png](assets/glossary_example_v1_de.png){ class="shadow lightbox" }
 
@@ -14,3 +14,12 @@ Es ist möglich Glossare so zu konfigurieren, dass auch Lernende ein Glossar inh
 
 Technisch betrachtet, ist in OpenOlat ein Glossar eine **Lernressource**.
 
+
+---
+
+## Weiterführende Informationen {: #further_information}
+
+[Glossar verwenden >](../learningresources/Glossary_usage.de.md)<br>
+[Glossar erstellen >](../learningresources/Glossary_create.de.md)
+
+[Zum Seitenanfang ^](#glossary)
