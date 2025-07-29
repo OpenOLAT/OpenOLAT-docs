@@ -183,7 +183,11 @@ nav:
         - Access Restrictions in the Expert Mode: "learningresources/Access_Restrictions_in_the_Expert_Mode.md"
         - Using additional Course Editor Tools: "learningresources/Using_additional_Course_Editor_Tools.md"
       - Toolbar:
+        - Overview: "learningresources/Toolbar.md"
         - Info page: "learningresources/Info_page.md"
+        - Events: "learningresources/Toolbar_Events.md"
+        - Glossary: "learningresources/Toolbar_Glossary.md"
+        - My course: "learningresources/Toolbar_My_Course.md"
         - Additional Course Features: "learningresources/Additional_Course_Features.md"
         - Using Additional Course Features: "learningresources/Using_Additional_Course_Features.md"
       - Administration:
