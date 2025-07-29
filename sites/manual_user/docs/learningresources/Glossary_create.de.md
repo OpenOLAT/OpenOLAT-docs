@@ -1,7 +1,7 @@
-# Glossar erstellen
+# Glossar erstellen {: #glossary_create}
 
 
-## Wo wird ein neues Glossar erstellt?
+## Wo wird ein neues Glossar erstellt? {: #where}
 
 Glossare können wie andere Lernressourcen im **Autorenbereich** erstellt werden.
 
@@ -17,7 +17,12 @@ Sie finden dort den Button (4), der ein Popup-Fenster öffnet, in dem ein vorhan
     Es können mehrere Glossare im Autorenbereich erstellt werden. Eingebunden werden kann aber pro Kurs jeweils nur 1 Glossar.
 
 
-## Glossareinträge erstellen
+[Zum Seitenanfang ^](#glossary_create)
+
+---
+
+
+## Glossareinträge erstellen {: #create_entries}
 
 ``1.`` Gehen Sie in den **Autorenbereich** und öffnen Sie das Glossar. <br>
 (Klick auf den Namen oder Klick auf den Edit-Button oder "Edit" unter dem Icon mit den 3 Punkten.)
@@ -42,7 +47,7 @@ Sie finden dort den Button (4), der ein Popup-Fenster öffnet, in dem ein vorhan
 
 Es kann ermöglicht werden, dass auch Lernende ein Glossar inhaltlich befüllen können.
 
-<h3>Schreibrecht für alle Benutzer</h3>
+<h3>Schreibrecht für alle Benutzer:innen</h3>
 
 In der Lernressource "Glossar" kann unter Administration > Einstellungen im **Tab "Schreibberechtigung"** definiert werden, ob nur die Besitzer der Lernressource Beiträge erstellen und editieren dürfen oder ob auch Benutzer das Recht erhalten.
 
@@ -58,12 +63,17 @@ Wenn diese Funktion eingeschaltet ist, wird der jeweilige Urheber und die letzte
 
 
 
-<h3>Schreibrecht nur für ausgewählte Benutzer</h3>
+<h3>Schreibrecht nur für ausgewählte Benutzer:innen</h3>
 
-Möchte man nur bestimmten Personen (z.B. den Teilnehmenden eines Kurses) das Schreibrecht für ein Glossar vergeben, geht man einen anderen Weg. Hierfür wird die **Mitgliederverwaltung** eines Kurses verwendet. Erstellen Sie dort eine neue **Gruppe** und fügen Sie die gewünschten Personen als Teilnehmer dieser Gruppe hinzu. Gehen Sie anschließend in der Mitgliederverwaltung des Kurses in den Bereich **"Rechte"** und setzen Sie bei den Kursteilnehmern der Gruppe den Haken für das Recht **"Glossarwerkzeug"**. Nun können die Personen der Gruppe Glossareinträge hinzufügen und ändern.
+Möchte man nur bestimmten Personen (z.B. den Teilnehmenden eines Kurses) das Schreibrecht für ein Glossar vergeben, geht man einen anderen Weg. Hierfür wird die **Mitgliederverwaltung** eines Kurses verwendet. Erstellen Sie dort eine neue **Gruppe** und fügen Sie die gewünschten Personen als Teilnehmer:innen dieser Gruppe hinzu. Gehen Sie anschließend in der Mitgliederverwaltung des Kurses in den Bereich **"Rechte"** und setzen Sie bei den Kursteilnehmer:innen der Gruppe den Haken für das Recht **"Glossarwerkzeug"**. Nun können die Personen der Gruppe Glossareinträge hinzufügen und ändern.
 
 
-## Glossar gestalten
+[Zum Seitenanfang ^](#glossary_create)
+
+---
+
+
+## Glossar gestalten {: #design}
 
 Die Erklärungen (Definitionen) können mit einem einfachen Editor bearbeitet werden, der neben Text Ergänzungen zulässt, wie
 
@@ -83,13 +93,17 @@ Das alphabetische Register ist für ein lateinisches Alphabet ausgelegt und beei
 
 !!! note "Achtung"
 
-    Die Besitzer eines Kurses sind nicht automatisch auch Besitzer der Lernressource. Wurde eine Lernressource "Glossar" von einer anderen Person erstellt, können nicht automatisch die Besitzer des Kurses, in dem die Lernressource eingebunden wurde, auch Einträge im Glossar vornehmen.  
+    Die Besitzer:innen eines Kurses sind nicht automatisch auch Besitzer:innen der Lernressource. Wurde eine Lernressource "Glossar" von einer anderen Person erstellt, können nicht automatisch die Besitzer:innen des Kurses, in dem die Lernressource eingebunden wurde, auch Einträge im Glossar vornehmen.  
     
-    Damit die anderen Kursbesitzer Änderungen vornehmen können, muss eine der beschriebenen Berechtigungen eingerichtet werden oder die gewünschten Kursbesitzer müssen auch als Besitzer der jeweiligen Lernressource "Glossar" eingetragen werden.
+    Damit die anderen Kursbesitzer Änderungen vornehmen können, muss eine der beschriebenen Berechtigungen eingerichtet werden oder die gewünschten Kursbesitzer:innen müssen auch als Besitzer:innen der jeweiligen Lernressource "Glossar" eingetragen werden.
 
 
+[Zum Seitenanfang ^](#glossary_create)
 
-## Glossar einbinden
+---
+
+
+## Glossar einbinden {: #integrate}
 
 Glossare sind OpenOlat-Lernressourcen, die normalerweise in einen Kurs eingebunden werden. Darüber hinaus ist auch eine Nutzung als Stand-alone-Lernressource möglich. In diesem Fall kann das Glossar dann z.B. auch als eigenständiges Angebot im Katalog angezeigt werden.
 
@@ -115,4 +129,10 @@ Eine generelle Aktivierung der Glossarfunktion durch Administrator:innen ist nic
 Wenn Sie das Glossar nicht mehr verwenden oder ein anderes Glossar in Ihren Kurs einbinden möchten, können Sie im Menü **Administration -> Einstellungen** unter dem Tab **Optionen** eine andere Glossar-Lernressource auswählen.
 
 
+---
 
+## Weiterführende Informationen {: #further_information}
+
+[Glossar verwenden >](../learningresources/Glossary_usage.de.md)
+
+[Zum Seitenanfang ^](#glossary_create)
