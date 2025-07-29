@@ -10,7 +10,7 @@
 - Er ist unabhängig vom Kursstatus und den Zugangsrechten. 
 - Er hat keine Auswirkungen auf die Sichtbarkeit und den Zugang für die Kursmitglieder.
 - Das Enddatum wird für den Kurs-Lebenszyklus verwendet.
-- In herkömmlichen Kursen gilt bei der Berechung von "Bestanden": Ein "Nicht bestanden" wird dann ausgegeben, wenn ein "Bestanden" nach dem Enddatum des Durchführungszeitraums nicht erreicht wurde.
+- In herkömmlichen Kursen gilt bei der Berechnung von "Bestanden": Ein "Nicht bestanden" wird dann ausgegeben, wenn ein "Bestanden" nach dem Enddatum des Durchführungszeitraums nicht erreicht wurde.
 - Auch für viele relative Daten im Kurs werden die hier erfassten Start- und Enddaten benutzt. Z.B. für  Erinnerungen oder im Aufgabenbaustein für das automatische Einziehen der Aufgabe.
 
 **Durchführungsort**<br>
@@ -29,12 +29,12 @@ Wird hier für den aktuellen Kurs das Termin- und Absenzenmanagement eingeschalt
 !!! tip "Hinweis"
 
     Im Unterschied zu Besitzer:innen finden **Betreuer:innen** das Tool zum Erfassen in der Werkzeugleiste.<br>
-    **Teilnehmer:innen** finden ihre Absenzen im [persönlichen Menü ](../personal_menu/Absences.de.md).
+    **Teilnehmer:innen** finden ihre Absenzen im [persönlichen Menü](../personal_menu/Absences.de.md).
 
 
 **Standard-Konfiguration überschreiben zulassen**<br>
 Ist das Überschreiben nicht zugelassen, wird die Voreinstellung des/der Administrator:in angewendet.
-Die nachstehenden Checkboxen und eingabefelder bleiben inaktiv und zeigen den voreingestellten Wert an.
+Die nachstehenden Checkboxen und Eingabefelder bleiben inaktiv und zeigen den voreingestellten Wert an.
 
 Wird das Überschreiben zugelassen, sind die nachfolgenden Checkboxen und Eingabefelder editierbar und es kann spezifisch für diesen Kurs eine Konfiguration der Termin- und Absenzenverwaltung vorgenommen werden.
 
@@ -67,7 +67,7 @@ Wenn Betreuer:innen oder Besitzer:innen einen Termin "als Prüfung markieren", w
 
 **Nachlaufzeit**<br>
 Die Nachlaufzeit bezieht sich auf "Prüfungsmodus für Termine erlauben".<br>
-Wenn Betreuer oder Besitzer einen Termin als "als Prüfung markieren", wird ein Prüfungsmodus mit dieser Vorgabe erstellt. (Alle so erstellen Prüfungsmodi des Kurses haben die gleiche Nachlaufzeit.)
+Wenn Betreuer:innen oder Besitzer:innen einen Termin als "als Prüfung markieren", wird ein Prüfungsmodus mit dieser Vorgabe erstellt. (Alle so erstellen Prüfungsmodi des Kurses haben die gleiche Nachlaufzeit.)
 
 **Erlaubte IP-Adressen**<br>
 Auch diese Angabe bezieht sich auf "Prüfungsmodus für Termine erlauben".
@@ -90,7 +90,7 @@ Der Lernfortschritt kann
 oder
 - anhand der Bearbeitungszeit der obligatorischen Kursbausteine berechnet werden.
 
-Freiwillige  Kursbausteine werden nicht berücksichtigt.
+Freiwillige Kursbausteine werden nicht berücksichtigt.
 
 
 [Zum Seitenanfang ^](#tab_execution)
@@ -105,7 +105,7 @@ Freiwillige  Kursbausteine werden nicht berücksichtigt.
 [Erfassung und Verwaltung der Absenzen in einem Kurs durch Kursbesitzer:innen >](../learningresources/Events_and_absences.de.md)<br>
 [Erfassung und Verwaltung der Absenzen in einem Kurs durch Betreuer:innen >](../learningresources/Toolbar_Events.de.md)<br>
 [Persönliche Absenzen >](../personal_menu/Absences.de.md)<br>
-[Kursübergreifende Absenzenerfassungung im Coachingtool >](../area_modules/Coaching.de.md)<br>
+[Kursübergreifende Absenzenerfassung im Coachingtool >](../area_modules/Coaching.de.md)<br>
 [Kursübergreifende Absenzenverwaltung durch Absenzenverwalter:innen>](../area_modules/Absence_Management.de.md)<br>
 
 [Zum Seitenanfang ^](#tab_execution)

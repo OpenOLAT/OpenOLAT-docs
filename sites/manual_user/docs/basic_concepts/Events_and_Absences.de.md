@@ -18,7 +18,7 @@ Auf diese Termine können auch Dozent:innen gebucht werden. (Nur Betreuer:innen 
 |[Termine im persönlichen Menü](../personal_menu/To-Dos.de.md)| x | x | 
 |[Termine in Kalendern](../personal_menu/Calendar.de.md#create_entry)| x | x | 
 |[Termine in BigBlueButton](../../manual_admin/administration/BigBlueButton_module.de.md#tab_online-meetings)| x |  | 
-|[Termine in Micorosft Teams](../learningresources/Course_Element_Microsoft_Teams.de.md#raum-konfigurieren-bei-geschlossenem-kurseditor)| x |  | 
+|[Termine in Microsoft Teams](../learningresources/Course_Element_Microsoft_Teams.de.md#raum-konfigurieren-bei-geschlossenem-kurseditor)| x |  | 
 
 
 [Zum Seitenanfang ^](#events_and_absences)
@@ -30,7 +30,7 @@ Auf diese Termine können auch Dozent:innen gebucht werden. (Nur Betreuer:innen 
 
 !!! info "Allgemeiner Hinweis"
 
-    Administrator:innen können die Möglichkeiten in der Absenzenverwaltung sehr detailliert einrichten. Sollte eine der beschriebenen Möglichkeiten bei Ihnen nicht zur Verfügung stehen, wenden Sie sich bitte an Ihre:n zuständige:n Adminisistrator:in.
+    Administrator:innen können die Möglichkeiten in der Absenzenverwaltung sehr detailliert einrichten. Sollte eine der beschriebenen Möglichkeiten bei Ihnen nicht zur Verfügung stehen, wenden Sie sich bitte an Ihre:n zuständige:n Administrator:in.
 
 !!! info "Allgemeiner Hinweis"
 
@@ -103,7 +103,7 @@ Es ist zu unterscheiden zwischen
     [Mehr dazu >](../personal_menu/Absences.de.md)
 
 
-6.  der **kursübergreifenden Absenzenerfassungung** durch Coaches<br>
+6.  der **kursübergreifenden Absenzenerfassung** durch Coaches<br>
     Die Möglichkeit zur Erfassung von Absenzen in verschiedenen Kursen finden Coaches im <br>
     **Coachingtool > Button "Termine/Absenzen"**.<br>
     [Mehr dazu >](../area_modules/Coaching.de.md)
@@ -127,7 +127,7 @@ Es ist zu unterscheiden zwischen
 [Erfassung und Verwaltung der Absenzen in einem Kurs durch Kursbesitzer:innen >](../learningresources/Events_and_absences.de.md)<br>
 [Erfassung und Verwaltung der Absenzen in einem Kurs durch Betreuer:innen >](../learningresources/Toolbar_Events.de.md)<br>
 [Persönliche Absenzen >](../personal_menu/Absences.de.md)<br>
-[Kursübergreifende Absenzenerfassungung im Coachingtool >](../area_modules/Coaching.de.md)<br>
+[Kursübergreifende Absenzenerfassung im Coachingtool >](../area_modules/Coaching.de.md)<br>
 [Kursübergreifende Absenzenverwaltung durch Absenzenverwalter:innen >](../area_modules/Absence_Management.de.md)<br>
 
 [Zum Seitenanfang ^](#events_and_absences)

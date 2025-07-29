@@ -5,13 +5,16 @@
 ![icon_absences.png](assets/icon_absences.png)
 
 
-If absence management is activated, the courses in which absence management is used can be seen in the personal menu. 
+When absence management is activated, the courses in which absence management is used are visible in the personal menu. All users can view and edit their own absences there, if permitted.
 
-Not only are your personal absences from these courses (events) shown, but for the sake of clarity also all events that are part of the overall course program and should have been attended regularly. 
+Not only are your personal absences from these courses (dates) displayed, but for the sake of clarity, all dates that are part of the overall course program and would normally be attended are also displayed.
 
 You will also be shown deregistrations, dispensations and appeals.
 
-<br>
+The views can be accessed in 4 tabs. Each tab displays a button for unsubscribing on your own initiative.
+
+![pers_menu_absences_tabs_v1_de.png](assets/pers_menu_absences_tabs_v1_de.png){ class="shadow lightbox" }
+
 
 ## Tab Daily overview {: #tab_overview}
 In the "Daily overview" tab, you can see the events and any absences for the current day. 
@@ -36,7 +39,7 @@ In addition, further details can be displayed using the "**Details**" option. <b
 
 ## Tab Notices / Dispensation {: #tab_notices_dispensation}
 
-Administrators can allow participants to unsubscribe themselves (under: Administration > Modules > Events/Absences). The "Record new notice of absence" button will then appear at the top right. Otherwise, only the absences recorded by coaches are displayed in this list. <br>
+Administrators can allow participants to unsubscribe themselves (under: Administration > Modules > Events/Absences). The "Log out" button will then appear in the top right corner. Otherwise, only the absences recorded by supervisors will be displayed in this list. <br>
 
 
 ![pers_menu_absences_dispensation_v1_de.png](assets/Abmeldung_Dispense.jpg){ class="shadow lightbox"}
@@ -50,6 +53,8 @@ Administrators can allow participants to unsubscribe themselves (under: Administ
 Your own appeals are listed here. Who else is allowed to view your appeals (lecturers, class teachers) is determined by the administrator.
 
 ![pers_menu_absences_appeals_v2_de.png](assets/pers_menu_absences_appeals_v2_de.png){ class="shadow lightbox"}
+
+If a participant disagrees with the recorded absence, an appeal can be lodged. Once the appointment has ended, a date will appear from which the appeal can be lodged. This is calculated from the end time of the appointment plus the number of days of the blocking period. As soon as a deadline has been set to "Completed" automatically (after the end of the blocking period) or manually by the lecturer (course coach), a new date appears by which the appeal can be submitted. Subsequently, "Closed" is displayed. The deadlines are stored system-wide in the administration. The appeal application is sent to the lecturers of the corresponding deadline. 
 
 [To the top of the page ^](#pers_tools_absences)
 
