@@ -119,6 +119,15 @@ Events are closed using the [appointment icon in the toolbar](../learningresourc
 
 ---
 
+### Reopen events {: #reopen_events}
+
+A completed event can be reopened by course owners. You will find the option under the three dots in the row of an appointment.
+
+![events_and_absences_reopen_event1_v1_de.png](assets/events_and_absences_reopen_event1_v1_de.png){ class="shadow lightbox"}
+
+[To the top of the page ^](#course_admin_events_and_absences)
+
+---
 
 ### Manage teachers {: #manage_teachers}
 

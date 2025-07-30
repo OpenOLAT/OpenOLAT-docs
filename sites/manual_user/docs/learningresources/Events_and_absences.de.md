@@ -122,6 +122,15 @@ Das Abschliessen von Terminen findet über das [Termin-Icon in der Toolbar](../l
 
 ---
 
+### Termine wiedereröffnen {: #reopen_events}
+
+Ein bereits abgeschlossener Termin kann von Kursbesitzer:innen wiedereröffnet werden. Sie finden die Option unter den 3 Punkten in der Zeile eines Termins.
+
+![events_and_absences_reopen_event1_v1_de.png](assets/events_and_absences_reopen_event1_v1_de.png){ class="shadow lightbox"}
+
+[Zum Seitenanfang ^](#course_admin_events_and_absences)
+
+---
 
 ### Dozenten/Dozentinnen verwalten {: #manage_teachers}
 
