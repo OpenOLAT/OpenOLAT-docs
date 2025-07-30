@@ -5,7 +5,7 @@
 
 * * *
 
-:material-calendar-month-outline: **Releasedatum: 27.11.2024 • Letztes Update: 02.07.2025**
+:material-calendar-month-outline: **Releasedatum: 27.11.2024 • Letztes Update: 30.07.2025**
 
 * * *
 
@@ -240,6 +240,8 @@ Der Bereich zur Aktivierung von "Änderungen (Ein / Aus)" bei abonnierbaren Baus
 
 ## Weitere Informationen
 
+* [YouTrack Release Notes 19.1.17](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2019.1.17&title=Release%20Notes%2019.1.17){:target="_blank"}
+* [YouTrack Release Notes 19.1.16](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2019.1.16&title=Release%20Notes%2019.1.16){:target="_blank"}
 * [YouTrack Release Notes 19.1.15](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2019.1.15&title=Release%20Notes%2019.1.15){:target="_blank"}
 * [YouTrack Release Notes 19.1.14](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2019.1.14&title=Release%20Notes%2019.1.14){:target="_blank"}
 * [YouTrack Release Notes 19.1.13](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2019.1.13&title=Release%20Notes%2019.1.13){:target="_blank"}

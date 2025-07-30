@@ -320,6 +320,7 @@ As of (:octicons-tag-24:) release 20.0.4, all changes to the role assignment are
 
 ## More information
 
+* [YouTrack Release notes 20.0.6](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.0.6&title=Release%20Notes%2020.0.6){:target="_blank"}
 * [YouTrack Release notes 20.0.5](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.0.5&title=Release%20Notes%2020.0.5){:target="_blank"}
 * [YouTrack Release notes 20.0.4](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.0.4&title=Release%20Notes%2020.0.4){:target="_blank"}
 * [YouTrack Release notes 20.0.3](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.0.3&title=Release%20Notes%2020.0.3){:target="_blank"}
