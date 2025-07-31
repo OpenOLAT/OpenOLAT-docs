@@ -187,8 +187,6 @@ nav:
         - Info page: "learningresources/Info_page.md"
         - Events: "learningresources/Toolbar_Events.md"
         - My course: "learningresources/Toolbar_My_Course.md"
-        - Additional Course Features: "learningresources/Additional_Course_Features.md"
-        - Using Additional Course Features: "learningresources/Using_Additional_Course_Features.md"
       - Administration:
         - Overview: "learningresources/Administration.md"
         - Settings:
