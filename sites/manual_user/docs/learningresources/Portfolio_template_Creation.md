@@ -8,20 +8,20 @@ Create a template
 ---  
 1. Go to the author area and click on the "Create" option. Select "Portfolio 2.0 Template" from the list of learning resources that appears.
 
-    ![](assets/portfolio_template.jpg)  
+    ![Create Portfolio 2.0 template](assets/portfolio_template20_en.jpg)
   
 2. Insert the title of the learning resource and click "Create".  
 
 3. You will now be taken directly to the "Portfolio 2.0 template" learning resource and are in the settings menu of the learning resource.
   
-4. In the tab "Settings" further configurations of the portfolio can be made. Portfolio-specific settings can be made in the "Settings" tab in particular.
+4. In the tab "Settings" further configurations of the portfolio can be made. Portfolio-specific settings can be made in the "Options" tab in particular.
 These include:
 
     * whether users are allowed to make their own independent entries in the portfolio in addition to editing tasks
     * whether users are allowed to delete a folder (which is often useful)
     * whether an additional template folder should be used and whether these templates are necessary to create new entries.
 
-6. The other tabs Metadata, Access and Catalog can also be configured further.  
+6. The other tabs [Info, Metadata](../learningresources/Set_up_info_page.md) and [Share](../learningresources/Access_configuration.md) can also be configured further.  
 
 Then close the view via the X at the top right or click on the title of the portfolio template just created in the bread-crumb bar.
 
@@ -31,5 +31,5 @@ Further information on editing and designing the Portfolio Template 2.0 can be f
   
 If you want to use the type "Form" in your assignement, you must also create and integrate a corresponding [learning resource "Form"](../learningresources/Forms_in_the_ePortfolio_template.md). The procedure for creating the learning resource is the same as for other learning resources like portfolio template.
 
-To integrate an already created Portfolio 2.0 template in an OpenOlat course you have to add the course element "[Portfolio task](Creating_Portfolio_Tasks.md)" to this course.
+To integrate an already created Portfolio 2.0 template in an OpenOlat course you have to add the [course element "Portfolio task"](../learningresources/Course_Element_Portfolio_Task.md) to this course.
 

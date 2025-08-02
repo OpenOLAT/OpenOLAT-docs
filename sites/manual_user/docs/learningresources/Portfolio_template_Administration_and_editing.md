@@ -4,14 +4,14 @@ Open in the authoring area under "My entries" the desired Portfolio 2.0 template
 
 If you have created a new Portfolio 2.0 template, it already contains a "section" which you can rename and further develop.
 
-![](assets/13_portfolio_task.png)
+![](assets/Portfolio_template_edit_section20_en.png)
 
 You can also create new areas and tasks for these areas.
 
 ## Create a section  
 
 1.  Choose "Create new section" from the menu or below the section.
-![](assets/13_portfolio_create_section.png)  
+![Portfolio create section](assets/Portffolio_create_scetion_20.jpg) 
   
 2. Enter a title for the section.
 ![](assets/portfolio_new_section.jpg)  
@@ -28,7 +28,7 @@ You can also create new areas and tasks for these areas.
 ## Create and edit assignments - Essay  
  
 1. Open the portfolio template in Authoring and "My entries". Select either the desired section in "Overview" or the link "New assignment" from the menu. Afterwards you can assign it to the section.
-![](assets/13_portfolio_new_assignment.png)  
+![new assignment portfolio](assets/Portffolio_new_assignment_20_en.jpg) 
   
 2. Insert short title and additionally a summary for a greater overview for the users can be created.  
 ![](assets/portfolio_new_assigment.jpg)
@@ -77,7 +77,7 @@ The actual task can be entered as text in the "Task" area, uploaded and saved as
 
 !!! tip "Hint"
 
-	In order for an external assessment to take place, the user must activate people for the assessment in the "Release" tab after collecting the portfolio task, e.g. all course members or course coaches or certain individual people. ![](assets/Mappe_freigeben.png)
+	In order for an external assessment to take place, the user must activate people for the assessment in the "Release" tab after collecting the portfolio task, e.g. all course members or course coaches or certain individual people. ![](assets/Portfolio_Freigabe_20.png)
 
 	These people can then use the form and make ratings. Several ratings can also be displayed in a kind of spider's web.
 
@@ -103,5 +103,5 @@ Further settings can be made in the "Administration" menu in the "Settings" menu
 
 In the tab "Overview" of the toolbar you can also edit the metadata of the portfolio template.
 
-![](assets/13_portfolio_edit_metadata.png)
+![portfolio edit metadata](assets/portfolio_metadata_20_en.jpg)
 
