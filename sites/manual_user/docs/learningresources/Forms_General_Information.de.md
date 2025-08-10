@@ -1,8 +1,10 @@
 # Allgemeines zu Formularen
 
-Formulare können sowohl [integriert in Kurse](Forms_in_Courses.de.md) als auch komplett kursunabhängig z.B. ergänzend zu einer Präsenz-Veranstaltung als Fragebogen oder Einstiegsformular eingesetzt werden.
+Typisch für Formulare ist, dass sie aus einem Informationselement sowie einer oder mehreren Fragen bestehen und den Usern eine Handlungsmöglichkeit bieten. So kann zum Beispiel etwas angekreuzt, eine Auswahl getroffen oder ein eigener Text eingegeben werden. Je nach Umsetzung und Einbindung in einen Kurs sind die Angaben entweder anonym oder personenbezogen.
 
-Typisch für Formulare ist, dass sie aus einem Informationselement, einer oder mehreren Fragestellungen bestehen und den Usern eine Aktionsmöglichkeit bereitstellen. Beispielsweise kann etwas angekreuzt bzw. eine Auswahl getroffen oder eigener Text eingefügt werden. Je nach Umsetzung und weiterer Einbindung in einen Kurs sind die Angaben anonym oder personenbezogen.
+In Formularen stehen verschiedene Fragetypen zur Verfügung, etwa Rubrik, Einzelauswahl, Mehrfachauswahl, Texteingabe oder Datei-Upload. Jedes Formular besteht aus einer Seite mit einer oder mehreren Fragen bzw. Elementen, die in ein oder mehrere Layouts eingebettet sind. Über Frageregeln ist auch eine Verzweigung möglich.
 
-In Formularen stehen viele verschiedene Fragetypen wie Rubrik, Einzelauswahl, Mehrfachauswahl, Texteingabe und Datei hochladen zur Verfügung. Jedes Formular besteht aus einer Seite mit einer oder mehreren Fragen bzw. Elementen, die in ein oder mehere Layouts eingebunden sind. Eine Verzweigung ist über Frageregeln ebenfalls möglich.
+Wird ein Formular als Stand-alone-Version, also unabhängig von einem Online-Kurs, veröffentlicht, kann es zwar angesehen und ausgefüllt werden, jedoch nicht gespeichert oder eingereicht werden. Das heisst: Es dient dann nur zu Demonstrationszwecken und erfüllt nicht die volle Funktionalität eines Formulars.
+
+Wenn Sie möchten, dass Personen ein Formular ausfüllen und einreichen können und Sie als Ersteller:in die Ergebnisse sehen, müssen Sie es unbedingt in einen [OpenOlat Kurs einbinden](Forms_in_Courses.de.md). 
 

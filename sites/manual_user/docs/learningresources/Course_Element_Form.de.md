@@ -14,7 +14,7 @@ Spezialität / Hinweis |
 
 
 
-Mit dem Kursbaustein "Formular" können Sie die Lernressource Formular einem Kurs hinzufügen. Das Formular funktioniert ähnlich wie der Kursbaustein "Umfrage" und kann ebenfalls nur einmal ausgefüllt werden. Allerdings sind die Bearbeitungen des Formulars nicht anonym (zumindest in der Standard Einstellung).
+Mit dem Kursbaustein "Formular" können Sie die Lernressource Formular einem Kurs hinzufügen. Das Formular funktioniert ähnlich wie der [Kursbaustein "Umfrage"](../learningresources/Course_Element_Survey.de.md) und kann ebenfalls nur einmal ausgefüllt werden. Allerdings sind die Bearbeitungen des Formulars nicht anonym (zumindest in der Standard Einstellung).
 
 Für das Ausfüllen des Kursbausteins kann im Tab "Formular" ein letzter Abgabetermin definiert werden. Eine [Kurs-Erinnerung](../learningresources/Course_Reminders.de.md) kann ebenfalls ergänzend verknüpft werden. Anders als beim Umfragebaustein erhalten die Teilnehmenden bei Abgabe des ausgefüllten Formulars automatisch eine Bestätigungsmail mit Datum und Zeitpunkt der Abgabe sowie ihr ausgefülltes Formular als PDF im Anhang.
   
@@ -28,7 +28,7 @@ Die Verwendung dieses Kursbausteins ist z.B. hilfreich, wenn die Lernenden besti
 
 ## Formulare einbinden
 
-Wie Sie Formulare erstellen und in Kurse einbinden erfahren Sie [hier](../forms/Three_Steps_to_your_Form.de.md).
+Wie Sie Formulare erstellen und in Kurse einbinden erfahren Sie im [How-to Bereich](../../manual_how-to/docs/create_a_form/)
 
 Nachdem Sie den Kursbaustein Formular dem Kurs hinzugefügt haben stehen Ihnen im Kurseditor folgende Tabs zur Verfügung:
 
@@ -42,7 +42,7 @@ Die zentrale Konfiguration erfolgt im Tab "Formular". Hier wird im ersten Schrit
 
 ![Formular auswählen](assets/Formular_waehlen.jpg){ class="shadow lightbox" }
 
-Nach Klick auf den Button werden alle Formulare, bei denen man Besitzer ist, angezeigt und können einfach per Klick auf den Haken ausgewählt werden.
+Nach Klick auf den Button werden alle Formulare, bei denen man Besitzer:in ist, angezeigt und können einfach per Klick auf den Haken ausgewählt werden.
 
 ![Formular Auswahldialog](assets/Formular_auswahlmenue1.jpg){ class="shadow lightbox" }
 
@@ -65,24 +65,23 @@ Für manche Anwendungsfälle soll das Formular von jedem/jeder Teilnehmer:in nur
 In anderen Anwendungsfällen soll ein Formular mehrfach von den gleichen Teilnehmer:innen verwendet werden können, z.B. soll eine Person mit dem gleichen Formular mehrfach Bestellungen machen können. 
 Im Kursbaustein "Formular" kann deshalb mit einem Toggle-Button die Mehrfachverwendung erlaubt werden.
 
-
 **Teilnahme bis...**
 
-Zusätzlich kann in dem Tab definiert werden bis wann das Formular von den Lernenden ausgefüllt werden kann. Hierfür kann ein festes oder ein relatives Datum verwendet werden, z.B. x Tage nach dem ersten Kursbesuch. Sobald ein Enddatum definiert wurde wird auch der Tab "[Erinnerungen](../learningresources/Course_Reminders.de.md)" aktiviert. Zum Beispiel könnte man eine Erinnerung erstellen, die die Lernenden wenige Tage vor der Abgabedeadline noch einmal per Mail an das Ausfüllen des Formulars erinnert.
+Zusätzlich kann im Tab "Formular" definiert werden bis wann das Formular von den Lernenden ausgefüllt werden kann. Hierfür kann ein festes oder ein relatives Datum verwendet werden, z.B. x Tage nach dem ersten Kursbesuch. Sobald ein Enddatum definiert wurde wird auch der Tab "[Erinnerungen](../learningresources/Course_Reminders.de.md)" aktiviert. Zum Beispiel könnte man eine Erinnerung erstellen, die die Lernenden wenige Tage vor der Abgabedeadline noch einmal per Mail an das Ausfüllen des Formulars erinnert.
 
 **E-Mail Bestätigung**
 
-Wird die E-Mail Bestätigung aktiviert erhalten die Teilnehmenden eine Bestätigungs-E-Mail und das von ihnen ausgefüllte Formular als PDF Anhang. Zusätzlich können auch E-Mail Bestätigungen an Besitzer, Betreuer und Externe verschickt werden.
+Wird die E-Mail Bestätigung aktiviert erhalten die Teilnehmenden eine Bestätigungs-E-Mail und das von ihnen ausgefüllte Formular als PDF Anhang. Zusätzlich können auch E-Mail Bestätigungen an Besitzer:innen, Betreuer:innen und Externe verschickt werden.
 
 !!! warning "Achtung"
 
     Sobald ein Formular von mindestens einem Teilnehmenden angesehen wurde, kann es nicht mehr ersetzt und nur ansatzweise bearbeitet werden.
 
-## Ansicht: Besitzer und Betreuer
+## Ansicht: Besitzer:in und Betreuer:in
 
-Bei geschlossenem Kurseditor sehen Besitzer und Betreuer eine Übersicht der Lernenden des Kurses und ihren Status der Bearbeitung z.B. "Nicht gestartet". Über die Filterfunktion kann auch eine bestimmte Personengruppe angezeigt werden, z.B. alle Personen, die das Formular noch nicht gestartet haben. Das eigentliche Formular sehen Besitzer und Betreuer hier aber nicht. Ein Export der Formulardaten ist ebenfalls möglich.
+Bei geschlossenem Kurseditor sehen Besitzer:innen und Betreuer eine Übersicht der Lernenden des Kurses und ihren Status der Bearbeitung z.B. "Nicht gestartet". Über die Filterfunktion kann auch eine bestimmte Personengruppe angezeigt werden, z.B. alle Personen, die das Formular noch nicht gestartet haben. Das eigentliche Formular sehen Besitzer:innen und Betreuer:innen hier aber nicht. Ein Export der Formulardaten ist ebenfalls möglich.
 
-Besitzer haben ferner noch die Möglichkeit, die Daten einzelner Personen oder alle Daten zurückzusetzen und verfügen zusätzlich noch über den Tab "Erinnerungen", wenn die Formularabgabe mit einer Deadline versehen ist. Hier können sie neue Erinnerungen erstellen und sehen welche [Erinnerungen](../learningresources/Course_Reminders.de.md) schon versandt wurden.
+Besitzer:innen haben ferner noch die Möglichkeit, die Daten einzelner Personen oder alle Daten zurückzusetzen und verfügen zusätzlich noch über den Tab "Erinnerungen", wenn die Formularabgabe mit einer Deadline versehen ist. Hier können sie neue Erinnerungen erstellen und sehen welche [Erinnerungen](../learningresources/Course_Reminders.de.md) schon versandt wurden.
 
 ![Formular Durchführung Teilnehmerliste](assets/Fromular_kursrun.png){ class="shadow lightbox" }
 
@@ -92,4 +91,4 @@ Teilnehmenden wird dagegen direkt beim Klick auf das Formular das konkrete Formu
 
 ![Formular Durchführung Beispiel](assets/Formular_Beispiel_Kurs.jpg){ class="shadow lightbox" }
 
-Das fertig ausgefüllte Formular muss abschließend gespeichert werden und kann dann vom User nicht mehr bearbeitet, nur noch angezeigt werden.
+Das fertig ausgefüllte Formular muss abschliessend gespeichert werden und kann dann vom User nicht mehr bearbeitet, nur noch angezeigt werden.

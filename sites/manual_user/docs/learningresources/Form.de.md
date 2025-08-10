@@ -1,15 +1,14 @@
 # Formulare - Übersicht
 
-Formulare können in OpenOlat vielfältig eingesetzt werden: 
+Formulare lassen sich in OpenOlat auf vielfältige Weise nutzen:  
 
-* Als normale Formulare (zum Ankreuzen oder auch mit Freitextfeldern), 
-* in Form von Online-Umfragen, 
-* als Bewertungsrubriks 
-* oder auch zur Selbsteinschätzung.
+* als klassische Formulare (mit Auswahlfeldern oder Freitexteingaben)  
+* für Online-Umfragen  
+* als Bewertungsrubrics
+* oder zur Selbsteinschätzung  
 
-Die Verwendung ist abhängig von den Zielen und Einsatzszenarien.
-
-Hier finden Sie Informationen, wie Formulare für die genannten Zwecke erstellt und konfiguriert werden.
+Welche Variante sinnvoll ist, hängt von Ihren Zielen und dem Einsatzszenario ab.
+Hier erfahren Sie, wie Formulare für die genannten Zwecke erstellt und konfiguriert werden können. 
 
 [Allgemeines zu Formularen >](Forms_General_Information.de.md)<br>
 [Wie erstelle ich eine Formular-Lernressource? >](../../manual_how-to/create_a_form/create_a_form.de.md)

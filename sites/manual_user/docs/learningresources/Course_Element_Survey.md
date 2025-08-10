@@ -13,9 +13,13 @@ Specialty / Note |
 
 
 
-With the course element "Survey" you can add an online questionnaire to your course. The learning resource "Form" is used as a basis and linked to the course element Survey. If you have not yet created a questionnaire, follow the instructions in chapter "[3 steps to your questionnaire](../forms/Three_Steps_to_your_Form.md)". By default, the results are stored anonymously. 
+With the course element "Survey" you can add an online questionnaire to your course. The learning resource "Form" is used as a basis and linked to the course element Survey. The results of a survey are stored anonymously by default.
 
-A formular linked in a course can only be edited completely in the "[Form editor](../learningresources/Form_editor_Questionnaire_editor.md)" as long as the page has not been opened. After that only typing errors can be corrected.
+If you have not yet created a form for surveys, take a look at the [How-to section](../../manual_how-to/docs/create_a_form/create_a_form.md) to find out how you can create forms for your survey.
+
+!!! Note "Attention"
+
+    A formu linked in a course can only be edited completely in the "[Form editor](../learningresources/Form_editor_Questionnaire_editor.md)" as long as the page has not been opened. After that only typing errors can be corrected.
 
 !!! Note "Attention"
 
@@ -27,9 +31,8 @@ Further information on the subject of questionnaires and surveys can be found in
 
 The learning resource form is used in the course element "Survey" in the form of a questionnaire. Course owners can thus include questionnaires in their course and learners can complete the surveys provided. The results are displayed to the course owners and coaches then accordingly.
 
-OpenOlat ensures that course participants can only fill out the survey or questionnaire once. The results are stored anonymously by default. However, personalization is possible by selecting the appropriate form elements [Form Editor](../learningresources/Form_editor_Questionnaire_editor.md).
+OpenOlat ensures that course participants can only fill out the survey or questionnaire once. The results are stored anonymously by default. However, personalization is possible by selecting the appropriate form elements [Form Editor](../learningresources/Form_Editor.md)
 
-You can learn how to create forms and integrate them into courses [here](../forms/Three_Steps_to_your_Form.md).
 
 ### Course editor
 
@@ -39,7 +42,7 @@ Go to the course editor and add the course element Survey. After you have added 
 
 In the tab "Title and description" as well as "Layout" general descriptions and information about the respective course element can be stored and the visual presentation can be defined. In the [Tab Learning path](../learningresources/Learning_path_course_Course_editor.md) special settings are defined, which are valid for learning path courses, e.g. "Survey participated" can be selected as completion criterion.
 
-Conventional courses, on the other hand, have the Visibility and Access tabs. Here you define who can see or edit this course element.
+Classic courses, on the other hand, have the Visibility and Access tabs. Here you define who can see or edit this course element.
 
 #### Tab "Survey"
 
@@ -49,7 +52,7 @@ The central configuration is done in the "Survey" tab. Here, in the first step, 
 
 If you have not yet created a form, you can create a new learning resource form using the "Create" button or import an existing external form. Subsequently, the form just created or imported also appears in the list and can be selected.
 
-A newly created form does not yet contain any elements, questions or text fields. These must be added in the course via "Edit" or alternatively directly in the learning resource in the [Form Editor](../learningresources/Form_editor_Questionnaire_editor.md).
+A newly created form does not yet contain any elements, questions or text fields. These must be added in the course via "Edit" or alternatively directly in the learning resource in the [Form Editor](../learningresources/Form_Editor.md) 
 
 If a form is created directly in the course editor, a new learning resource Form is automatically created, which can also be found in the [Authoring area](../area_modules/Authoring.md) under "My entries" and can be included in further courses.
 
@@ -57,7 +60,11 @@ After a form has been selected, it can be designed via the "Edit" link. If the f
 
 ![Umrage einbinden](assets/Umfrage_Tab.png){ class="shadow lightbox" }
 
-Then you can define who can fill in the survey and who can see the results of the survey. The following options can be selected:
+!!! warning "Attention"
+
+    Once a form has been viewed by at least one participant, it can no longer be replaced. The "Replace" button is then omitted. If necessary, a new course element “Survey” must be created and the desired form integrated.
+
+In the "User rights" section of the “Survey” tab, you can specify who can complete the survey and who can view the results of the survey. The following options are available:
 
 * the owner of the course
 * the coach of the course
@@ -70,13 +77,9 @@ Also the results can be released to all these groups and associated with a start
 
 !!! tip "Hint"
 
-    However, a prerequisite for processing the survey is that the entire course is also released for the respective group of people. For example, if a survey is to be fillable by external persons (guests) as well, the course has to be "open without booking" for guests in the menu "Settings" > [Share](../learningresources/Access_configuration.md)
-
+    However, a prerequisite for processing the survey is that the entire course is also released for the respective group of people. For example, if a survey is also to be completed by external persons (guests), the course must also include an access offer for guests > [Release](../learningresources/Access_configuration.md). Please note that a course release for guests is only possible for classic courses, not for learning path courses.   
+ 
 If a form is included as a survey in a course, the form can be modified in a limited way in the course via the "edit" button. Texts can be changed but individual blocks can no longer be moved or new areas can be created or deleted. The message "The resource is already used..." appears in the form.
-
-!!! warning "Attention"
-
-    Once a form has been viewed by at least one participant, it can no longer be replaced. The "Replace" button is then omitted.
 
 ### View
 
@@ -96,7 +99,7 @@ If a group of persons is neither authorized to fill in the questionnaire nor to 
 
 The following evaluation tabs are available for the authorized persons:
 
-**Overview**: Here you can find out how many people have completed the questionnaire, the submission period and the processing time. Depending on the question type, other key figures are also listed.
+**Overview**: Here you can find out how many people have completed the survey, the submission period and the processing time. Depending on the question type, other key figures are also listed.
 
 **Tables**: Here you can see the individual questions and answers as well as further statistical evaluations for rubrics. Free texts can also be downloaded as an Excel table.
 
@@ -106,14 +109,16 @@ The following evaluation tabs are available for the authorized persons:
 
 Furthermore, the contents of all 4 tabs can also be printed or downloaded as an Excel spreadsheet or as a PDF version.
 
+**Further areas for viewing the results**
+
 The same assessment can be found in the menu `Administration > Questionnaire statistics`.
 
-The results can also be saved via the menu "[Data archiving](../learningresources/Data_archiving.md)" > "Surveys". This is the same file as under "Export" in the course run.
+The results can also be saved as part of the [course archiving](../learningresources//Course_Archiving.md). It is even possible to bundle the results of several course elements in one zip file.
 
 ### Reset surveys
 
 Course owners can also "Reset" already completed questionnaires via the link in the 3-point menu of the respective course element. In this case, all questionnaires already submitted for this survey will be deleted. It is not possible to reset individual questionnaires, as the submission is anonymous.
 
-![Umfrage zurücksetzen](assets/Umfrage_zuruecksetzen.jpg){ class="shadow lightbox" }
+![survey reset](assets/Umfrage_zuruecksetzen20.jpg){ class="shadow lightbox" }
 
 Furthermore, the contents of all 4 tabs can also be printed or downloaded as an Excel spreadsheet or as a PDF version.
