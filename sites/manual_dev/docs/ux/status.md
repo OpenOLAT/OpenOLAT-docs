@@ -51,9 +51,10 @@ Ampel logic: No dangers or safety concerns
 
 | Type    | Font      | Background | Border    | Label                                                              |
 | ------- | --------- | ---------- | --------- | ------------------------------------------------------------------ |
-| Regular | #FFFFFF | #1B652C  | #0D591B | ![Regular green](assets/green-regular.png){ class="thumbnail-sm" } |
-| Light   | #1B652C | #FFFFFF  | #0D591B | ![Light green](assets/green-light.png){ class="thumbnail-sm" }     |
-| Mega    | #1B652C | #e6eee2  | #e6eee2 | ![Mega green](assets/green-mega.png){ class="thumbnail" }          |
+| Regular | #FFFFFF | #268000  | #1F6600 | ![Regular green](assets/green-regular.png){ class="thumbnail-sm" } |
+| Light   | #268000 | #FFFFFF  | #268000 | ![Light green](assets/green-light.png){ class="thumbnail-sm" }     |
+| Mega    | #268000 | #B8D7AD  | #1F6600 | ![Mega green](assets/green-mega.png){ class="thumbnail" }          |
+| Icon    | #268000 | -          | -         | ![Icon orange](assets/green-icon.png){ class="thumbnail" }          | 
 
 | Component      | Context               | icon                               | State       | Range of application |
 | -------------- | --------------------- | ---------------------------------- | ----------- | -------------------- |
@@ -66,6 +67,7 @@ Ampel logic: No dangers or safety concerns
 | Curriculum     | Curriculum element    | :fontawesome-solid-check:          | Active      | 1.                   |
 | Curriculum     | Membership            | :fontawesome-solid-circle-check:   | Active      | 1.                   |
 | Payment module | Billing address       | :fontawesome-solid-check:          | Active      | 1.                   |
+| Test           | Question              | :fontawesome-solid-circle-check:   | Answered    | 1.                   |
 
 ### Warning
 
@@ -105,14 +107,16 @@ Ampel logic: Increased warning, intervention urgently required, but not yet crit
 
 | Type    | Font      | Background | Border    | Label                                                                |
 | ------- | --------- | ---------- | --------- | -------------------------------------------------------------------- |
-| Full    | #522D00 | #FFC685  | #ffba6b | ![Regular orange](assets/orange-regular.png){ class="thumbnail-sm" } |
-| Light   | #522D00 | #FFFFFF  | #ff8c00 | ![Light orange](assets/orange-light.png){ class="thumbnail-sm" }     |
-| Mega    | #522D00 | #FFCF91  | #FFCF91 | ![Mega orange](assets/orange-mega.png){ class="thumbnail" }          |
+| Full    | #663B00 | #F4AC47  | #A66100 | ![Regular orange](assets/orange-regular.png){ class="thumbnail-sm" } |
+| Light   | #A66100 | #FFFFFF  | #A66100 | ![Light orange](assets/orange-light.png){ class="thumbnail-sm" }     |
+| Mega    | #663B00 | #FFDAA6  | #A66100 | ![Mega orange](assets/orange-mega.png){ class="thumbnail" }          |
+| Icon    | #A66100 | -          | -         | ![Icon orange](assets/orange-icon.png){ class="thumbnail" }          |   
 
-| Object  | Context               | icon                             | State       | Range of application |
-| ------- | --------------------- | -------------------------------- | ----------- | -------------------- |
-| Course  | Assessment inspection | :fontawesome-solid-spinner:      | In progress | -                    |
-| Course  | Membership            | :fontawesome-solid-circle-xmark: | Declined    | 3.                   |
+| Object  | Context               | icon                             | State        | Range of application |
+| ------- | --------------------- | -------------------------------- | ------------ | -------------------- |
+| Course  | Assessment inspection | :fontawesome-solid-spinner:      | In progress  | -                    |
+| Course  | Membership            | :fontawesome-solid-circle-xmark: | Declined     | 3.                   |
+| Test    | Question              | :fontawesome-solid-circle-play:  | Not answered | 1.                   |
 
 ### Danger
 
