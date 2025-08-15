@@ -4,6 +4,7 @@ search:
 ---
 # OpenOlat Handbuch Archiv
 
+- [OpenOlat 20.0 Benutzerhandbuch](../../archive_mkdocs/20.0/de/manual_user/general/) | [Release Notes 20.0](release_notes/Release_notes_20.0.de.md)
 - [OpenOlat 19.1 Benutzerhandbuch](../../archive_mkdocs/19.1/de/manual_user/general/) | [Release Notes 19.1](release_notes/Release_notes_19.1.de.md)
 - [OpenOlat 19.0 Benutzerhandbuch](../../archive_mkdocs/19.0/de/manual_user/general/) | [Release Notes 19.0](release_notes/Release_notes_19.0.de.md)
 - [OpenOlat 18.2 Benutzerhandbuch](../../archive_mkdocs/18.2/de/manual_user/general/) | [Release Notes 18.2](release_notes/Release_notes_18.2.de.md)
