@@ -21,7 +21,7 @@ Also new is the **validation of the e-mail address via code** (e.g. for self-reg
 
 The release is rounded off by a **modernized display of user information**, a **redesign of role management** in the user administration and many other optimizations and improvements that make working with the LMS even more convenient.
 
-![Number of features and bugs in release 20.1](assets/200/Features_Improvements_Labels_20.0_DE.png)
+![Number of features and bugs in release 20.1](assets/200/Features_Improvements_Labels_20.0_EN.png)
 
 Since release 19.1, over 120 new features and improvements have been added to OpenOlat. Here you can find the most important new features and changes. In addition, more than 85 bugs have been fixed. The complete list of changes in 19.1.x can be found [here](Release_notes_19.1.md){:target="_blank”}.
 
@@ -93,7 +93,7 @@ A "Reports" area is available for each product/implementation to generate **Exce
     * Level can be used as a implementation (root element)
     * Level is used to structure the implementation or can itself contain content (= one course / several courses)
 
-### New labels
+### New labels  {: #new-labels}
 
 With Release 20.0, the following labels/terms have been adjusted:
 

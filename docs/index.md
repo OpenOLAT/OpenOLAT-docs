@@ -16,13 +16,13 @@ Find information on OpenOlat, its features and latest changes here. Use the top 
 
 ## Current versions:
 
-- [OpenOlat 20.0 User Manual](manual_user/general/) | [Release notes 20.0](release_notes/Release_notes_20.0.md)
+- [OpenOlat 20.1 User Manual](manual_user/general/) | [Release notes 20.1](release_notes/Release_notes_20.1.md)
 
 ## Older versions:
 
+- [OpenOlat 20.0 User Manual](manual_user/general/) | [Release notes 20.0](release_notes/Release_notes_20.0.md)
 - [OpenOlat 19.1 User Manual](/archive_mkdocs/19.1/manual_user/general/) | [Release notes 19.1](release_notes/Release_notes_19.1.md)
 - [OpenOlat 18.2 User Manual](/archive_mkdocs/18.2/manual_user/general/) | [Release notes 18.2](release_notes/Release_notes_18.2.md)
-- [OpenOlat 17.2 User Manual](/archive_mkdocs/17.2/manual_user/general/) | [Release notes 17.2](release_notes/Release_notes_17.2.md)
 
 :material-alert: **Is the version you are looking for missing?** Try it in the [OpenOlat User Manual Archive](archive.md)
 

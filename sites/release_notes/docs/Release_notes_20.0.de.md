@@ -93,7 +93,7 @@ Für jedes Produkt/jede Durchführung steht ein Bereich "Reports" zur Verfügung
     * Ebene darf als Durchführung (Root-Element) verwendet werden
     * Ebene dient zur Strukturierung der Durchführung bzw. kann selbst Inhalt (= einen Kurs / mehrere Kurse ) enthalten
 
-### Neue Bezeichnungen
+### Neue Bezeichnungen {: #neue-bezeichnungen}
 
 Mit Release 20.0 wurden folgende Bezeichnungen angepasst:
 
