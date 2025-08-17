@@ -6,7 +6,7 @@
 
 If your account is not controlled by an external user management system (see [Login Concept](../login_registration/Login_Concept.md)), you can change your password in your personal menu, section configuration.
 
-![](assets/password_change_v1_en.png)
+![Personal password settings](assets/Passwort_20_en.png)
 
 
 
@@ -20,6 +20,7 @@ If your account is not controlled by an external user management system (see [Lo
 
 * If SMS authentication is possible in your system and you have activated it the activation code can also be sent by SMS.
 
+* If enabled by the OpenOlat administrators, you can also change your security level yourself.
 
 
 ## Further information

@@ -8,9 +8,9 @@ The settings allow you to adapt OpenOlat according to your needs.
 
 
 
-### Tab System
+## Tab System
 
-#### General system settings: {: #general}
+### General system settings: {: #general}
 
 Here you can read out your username and your OpenOlat role. You can also
 select your individual system language. OpenOlat has been translated into
@@ -54,17 +54,16 @@ left under "Copy link". It is even easier to simply click on the start page
 icon on the desired start page. Any OpenOlat page you have access to can be
 selected for this purpose.
 
-![](assets/change_startpage_EN.png)
+![change startpage](assets/change_startpage_EN.png)
 
   
-
-#### User tools:
+### User tools:
 
 Here you select which user tools should appear in the top
 right-hand corner of the menu bar (next to your profile picture) so that you
 can access these tools very quickly.
 
-![](assets/Einstellungen_Werkzeug.en.png)
+![list user](assets/persoenliche_Werkzeuge_20_en.png)
 
 Tools that are not available as quick access in the navigation bar are
 available as menu items in the personal menu. Use Help to get to the start

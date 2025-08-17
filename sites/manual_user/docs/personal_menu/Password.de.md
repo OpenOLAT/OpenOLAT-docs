@@ -7,7 +7,7 @@
 Sofern Ihr Account nicht von einem externen Benutzerverwaltungssystem
 gesteuert wird (siehe [Login-Konzept](../login_registration/Login_Concept.de.md)), können Sie im persönlichen Menü im Abschnitt "Konfiguration" Ihr Passwort ändern. 
 
-![](assets/password_change_v1_de.png)
+![Persönliche Passwort Einstellungen](assets/Passwort_20.png)
 
 
 *  Administrator:innen können die Erneuerung eines neuen Passworts in bestimmten Abständen auch erzwingen. 
@@ -19,6 +19,8 @@ gesteuert wird (siehe [Login-Konzept](../login_registration/Login_Concept.de.md)
 * Wenn Sie Ihr Passwort vergessen haben, können Sie auf der Login-Seite ein neues Passwort anfordern. Der Aktivierungslink wird Ihnen anschliessend per Mail zugestellt. 
 
 * Falls in Ihrem System die SMS-Authentifizierung möglich ist und Sie diese aktiviert haben, kann der Aktivierungscode auch per SMS zugestellt werden.
+
+* Sofern von den OpenOlat Administrator:innen aktiviert können Sie auch Ihre Sicherheitsstufe selbst wechseln.
 
 
 
