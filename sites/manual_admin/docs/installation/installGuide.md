@@ -1,6 +1,6 @@
-## Installation guide for OpenOlat 18.2 and greater
+## Installation guide for OpenOlat 20.1 and greater
 
-This guide walks you through installing OpenOlat Version 18.2.x or newer on a local GNU/Linux or similar system using _Tomcat 10.1_, _Java 17_ and _PostgreSQL 12_. If you already have an up and running installation, see our [Update Guide](updateGuide.md)
+This guide walks you through installing OpenOlat Version 20.1.x or newer on a local GNU/Linux or similar system using _Tomcat 10.1_, _Java 17_ and _PostgreSQL 12_. If you already have an up and running installation, see our [Update Guide](updateGuide.md)
 
 _If you really want to install OpenOlat using MySQL as database, have a look at the [Special topics -> MySQL DB section](mysql.md) and try mixing it with the information found in here. Please keep in mind that this is not recommended._
 
@@ -9,7 +9,8 @@ _If you really want to install OpenOlat using MySQL as database, have a look at 
 Currently supported releases are:
 
 !!! Danger "Supported releases"
-	- 19.1.x - 20.1.x
+	- 19.1.x and 20.1.x
+	- Other releases, including 20.0.x, are not supported anymore
 
 Older releases are not supported anymore and don't get any security updates. Long term releases are normally not under active development, but will get critical security updates. 
 
@@ -116,7 +117,7 @@ Create the file `~/conf/server.xml`
 	<?xml version='1.0' encoding='utf-8'?>
 	<Server port="8085" shutdown="SHUTDOWN">
 	  <Service name="Catalina">
-	    <Connector port="8088" protocol="HTTP/1.1" />
+	    <Connector port="8088" protocol="HTTP/1.1" maxPartCount="-1" maxParameterCount="-1" />
 	    <Engine name="Catalina" defaultHost="localhost">
 	      <Host name="localhost"  appBase="webapps" />
 	    </Engine>

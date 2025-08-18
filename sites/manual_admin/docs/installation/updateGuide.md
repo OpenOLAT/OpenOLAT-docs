@@ -122,6 +122,14 @@ We recommend using the following software packages:
 - Java-WM: AdoptOpenJDK 17 LTS: [https://adoptopenjdk.net/](https://adoptopenjdk.net/)
 - Application server: Tomcat 9: [https://tomcat.apache.org/](https://tomcat.apache.org/)
 
+### Tomcat 10.1.42 and greater
+Tomcat 10.1.42 changed the behavior of the number of parameters that can be submitted by the browser by default. This new defaults break OpenOlat when using the standard Tomcat HTTP connector. 
+
+In your `server.xml` make sure you set `maxPartCount` and `maxParameter` to indefinite (-1).
+
+	<Connector port="8088" protocol="HTTP/1.1" maxPartCount="-1" maxParameterCount="-1" />
+
+
 ## Troubleshooting
 
 ### Updating from older versions {id=oldversions}
