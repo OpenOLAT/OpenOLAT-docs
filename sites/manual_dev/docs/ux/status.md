@@ -22,11 +22,12 @@ Range of application
 
 Ampel logic: No action needed
 
-| Type    | Font      | Background | Border    | Label                                                            |
-| ------- | --------- | ---------- | --------- | ---------------------------------------------------------------- |
-| Full    | #FFFFFF | #044A95  | #003E80 | ![Regular blue](assets/blue-regular.png){ class="thumbnail-sm" } |
-| Light   | #044A95 | #FFFFFF  | #003E80 | ![Light blue](assets/blue-light.png){ class="thumbnail-sm" }     |
-| Mega    | #044A95 | #cde3f9  | #cde3f9 | ![Mega blue](assets/blue-mega.png){ class="thumbnail" }          |
+| Type      | Font      | Background | Border    | Label                                                             |
+| --------- | --------- | ---------- | --------- | ----------------------------------------------------------------- |
+| Full      | #FFFFFF | #146DCC  | #105CAD | ![Regular blue](assets/blue-regular.png){ class="thumbnail-sm" }  |
+| Light     | #105CAD | #FFFFFF  | #105CAD | ![Light blue](assets/blue-light.png){ class="thumbnail-sm" }      |
+| Mega      | #105CAD | #cde3f9  | #105CAD | ![Mega blue](assets/blue-mega.png){ class="thumbnail" }           |
+| Component | #105CAD | -          | -         | ![Component blue](assets/blue-component.png){ class="thumbnail" } | 
 
 | Component  | Context               | icon                       | State       | Range of application |
 | ---------- | --------------------- | -------------------------- | ----------- | -------------------- |
@@ -49,12 +50,12 @@ Range of application
 
 Ampel logic: No dangers or safety concerns 
 
-| Type    | Font      | Background | Border    | Label                                                              |
-| ------- | --------- | ---------- | --------- | ------------------------------------------------------------------ |
-| Regular | #FFFFFF | #268000  | #1F6600 | ![Regular green](assets/green-regular.png){ class="thumbnail-sm" } |
-| Light   | #268000 | #FFFFFF  | #268000 | ![Light green](assets/green-light.png){ class="thumbnail-sm" }     |
-| Mega    | #268000 | #B8D7AD  | #1F6600 | ![Mega green](assets/green-mega.png){ class="thumbnail" }          |
-| Icon    | #268000 | -          | -         | ![Icon orange](assets/green-icon.png){ class="thumbnail" }          | 
+| Type      | Font      | Background | Border    | Label                                                                |
+| --------- | --------- | ---------- | --------- | -------------------------------------------------------------------- |
+| Regular   | #FFFFFF | #37AD00  | #298500 | ![Regular green](assets/green-regular.png){ class="thumbnail-sm" }   |
+| Light     | #298500 | #FFFFFF  | #298500 | ![Light green](assets/green-light.png){ class="thumbnail-sm" }       |
+| Mega      | #298500 | #C4E6B8  | #298500 | ![Mega green](assets/green-mega.png){ class="thumbnail" }            |
+| Component | #298500 | -          | -         | ![Component orange](assets/green-component.png){ class="thumbnail" } | 
 
 | Component      | Context               | icon                               | State       | Range of application |
 | -------------- | --------------------- | ---------------------------------- | ----------- | -------------------- |
@@ -105,12 +106,12 @@ Range of application
 
 Ampel logic: Increased warning, intervention urgently required, but not yet critical.
 
-| Type    | Font      | Background | Border    | Label                                                                |
-| ------- | --------- | ---------- | --------- | -------------------------------------------------------------------- |
-| Full    | #663B00 | #F4AC47  | #A66100 | ![Regular orange](assets/orange-regular.png){ class="thumbnail-sm" } |
-| Light   | #A66100 | #FFFFFF  | #A66100 | ![Light orange](assets/orange-light.png){ class="thumbnail-sm" }     |
-| Mega    | #663B00 | #FFDAA6  | #A66100 | ![Mega orange](assets/orange-mega.png){ class="thumbnail" }          |
-| Icon    | #A66100 | -          | -         | ![Icon orange](assets/orange-icon.png){ class="thumbnail" }          |   
+| Type      | Font      | Background | Border    | Label                                                                 |
+| --------- | --------- | ---------- | --------- | --------------------------------------------------------------------- |
+| Full      | #663C00 | #F4AC47  | #D17A00 | ![Regular orange](assets/orange-regular.png){ class="thumbnail-sm" }  |
+| Light     | #D17A00 | #FFFFFF  | #D17A00 | ![Light orange](assets/orange-light.png){ class="thumbnail-sm" }      |
+| Mega      | #663B00 | #FFDAA6  | #D17A00 | ![Mega orange](assets/orange-mega.png){ class="thumbnail" }           |
+| Component | #D17A00 | -          | -         | ![Component orange](assets/orange-component.png){ class="thumbnail" } |   
 
 | Object  | Context               | icon                             | State        | Range of application |
 | ------- | --------------------- | -------------------------------- | ------------ | -------------------- |
