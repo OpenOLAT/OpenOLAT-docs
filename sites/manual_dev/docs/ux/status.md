@@ -27,7 +27,7 @@ Ampel logic: No action needed
 | Full      | #FFFFFF | #146DCC  | #105CAD | ![Regular blue](assets/blue-regular.png){ class="thumbnail-sm" }  |
 | Light     | #105CAD | #FFFFFF  | #105CAD | ![Light blue](assets/blue-light.png){ class="thumbnail-sm" }      |
 | Mega      | #105CAD | #cde3f9  | #105CAD | ![Mega blue](assets/blue-mega.png){ class="thumbnail" }           |
-| Component | #105CAD | -          | -         | ![Component blue](assets/blue-component.png){ class="thumbnail" } | 
+| Base      | #105CAD | -          | -         | ![Component blue](assets/blue-component.png){ class="thumbnail" } | 
 
 | Component  | Context               | icon                       | State       | Range of application |
 | ---------- | --------------------- | -------------------------- | ----------- | -------------------- |
@@ -55,7 +55,7 @@ Ampel logic: No dangers or safety concerns
 | Regular   | #FFFFFF | #37AD00  | #298500 | ![Regular green](assets/green-regular.png){ class="thumbnail-sm" }   |
 | Light     | #298500 | #FFFFFF  | #298500 | ![Light green](assets/green-light.png){ class="thumbnail-sm" }       |
 | Mega      | #298500 | #C4E6B8  | #298500 | ![Mega green](assets/green-mega.png){ class="thumbnail" }            |
-| Component | #298500 | -          | -         | ![Component orange](assets/green-component.png){ class="thumbnail" } | 
+| Base      | #298500 | -          | -         | ![Component orange](assets/green-component.png){ class="thumbnail" } | 
 
 | Component      | Context               | icon                               | State       | Range of application |
 | -------------- | --------------------- | ---------------------------------- | ----------- | -------------------- |
@@ -111,7 +111,7 @@ Ampel logic: Increased warning, intervention urgently required, but not yet crit
 | Full      | #663C00 | #F4AC47  | #D17A00 | ![Regular orange](assets/orange-regular.png){ class="thumbnail-sm" }  |
 | Light     | #D17A00 | #FFFFFF  | #D17A00 | ![Light orange](assets/orange-light.png){ class="thumbnail-sm" }      |
 | Mega      | #663B00 | #FFDAA6  | #D17A00 | ![Mega orange](assets/orange-mega.png){ class="thumbnail" }           |
-| Component | #D17A00 | -          | -         | ![Component orange](assets/orange-component.png){ class="thumbnail" } |   
+| Base      | #D17A00 | -          | -         | ![Component orange](assets/orange-component.png){ class="thumbnail" } |   
 
 | Object  | Context               | icon                             | State        | Range of application |
 | ------- | --------------------- | -------------------------------- | ------------ | -------------------- |
