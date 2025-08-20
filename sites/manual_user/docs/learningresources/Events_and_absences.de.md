@@ -225,8 +225,8 @@ Die Bearbeitung der Rekurse erfolgt in der Regel durch Absenzenverwalter:innen, 
 [Konfiguration der Absenzenverwaltung in einem Kurs >](../learningresources/Course_Settings_Execution.de.md#config_event_and_absence_management)<br>
 [Erfassung und Verwaltung der Absenzen in einem Kurs durch Betreuer:innen >](../learningresources/Toolbar_Events.de.md)<br>
 [Persönliche Absenzen >](../personal_menu/Absences.de.md)<br>
-[Kursübergreifende Absenzenerfassungung im Coachingtool >](../area_modules/Coaching.de.md)<br>
-[Kursübergreifende Absenzenverwaltung durch Absenzenverwalter:innen>](../area_modules/Absence_Management.de.md)<br>
+[Kursübergreifende Absenzenerfassung im Coachingtool >](../area_modules/Coaching.de.md)<br>
+[Kursübergreifende Absenzenverwaltung durch Absenzenverwalter:innen >](../area_modules/Absence_Management.de.md)<br>
 
 [Zum Seitenanfang ^](#course_admin_events_and_absences)
 

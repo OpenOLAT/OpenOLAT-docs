@@ -142,11 +142,89 @@ As soon as at least one date is selected in the first column, the button for man
 ---
 
 
+### Exclude Participants {: #exclude_participants}
+
+When you open the detailed view of an event (by clicking on the + at the beginning of the relevant line), an icon with three dots is displayed at the bottom. There you will find the option to exclude participants from the selected event.
+
+![events_and_absences_tab_events_exclude_participants_v1_de.png](assets/events_and_absences_tab_events_exclude_participants_v1_de.png){ class="shadow lightbox" }
+
+[To the top of the page ^](#course_admin_events_and_absences)
+
+---
+
+
+## Tab Participants {: #tab_participants}
+
+The "Participants" tab provides an overview of all participants in the course or selected groups. (Excluding owners and coaches.)
+
+![events_and_absences_tab_participants1_v1_de.png](assets/events_and_absences_tab_participants1_v1_de.png){ class="shadow lightbox" }
+
+**Initial registration**<br>
+The date of initial registration defines when participants started the course.
+
+**Units**<br>
+Here you can see how many units this event comprises.
+
+**Present**<br>
+The "Present" column calculates the attendance rate for events that have already taken place. For example, if only one event has taken place and the participant was present, 100% will be displayed in the "Attendance" column.<br>
+The attendance rate is calculated based on the date of initial registration. Events that took place before the date of initial registration are not included in the calculation.
+
+**Unexcused**<br>
+
+**Excused**<br>
+
+**Dispensed**<br>
+
+**Progress**<br>
+Progress is displayed graphically. Green symbolizes attendance, orange symbolizes excused absences, and red symbolizes unexcused absences or missed events.
+
+![attention-icon](assets/attention_434343_64.png){class="size24"}<br>
+The attention column with the symbol indicates whether the defined attendance rate has been achieved. If a red exclamation mark is displayed, the required limit has not been reached.
+
+![info](assets/infomessage.png){class=“size24”}<br>
+The info column displays information that deviates from the default settings. This could be a personal threshold value or a later course start date, for example. These two options can be defined in the settings (pencil icon). The personal threshold value defines the attendance rate to be achieved for the participant(s) in question. 
+
+[To the top of the page ^](#course_admin_events_and_absences)
+
+---
+
+
+### Customize the threshold for mandatory attendance {: #personal_rate}
+
+The threshold value for compulsory attendance set for the course can be adjusted individually. To do this, select the relevant person in the Participants tab and click on the edit icon.
+
+![events_and_absences_tab_participants_personal_rate_v1_de.png](assets/events_and_absences_tab_participants_personal_rate_v1_de.png){ class="shadow lightbox" }
+
+[To the top of the page ^](#course_admin_events_and_absences)
+
+---
 
 
 
+## Tab Appeals {: #tab_appeals}
+
+If appeals have been submitted, you can get an overview under this tab as the course owner. Filters help you when there are a large number of appeals.
+
+![events_and_absences_tab_appeals1_v1_de.png](assets/events_and_absences_tab_appeals1_v1_de.png){ class="shadow lightbox" }
+
+Appeals are usually processed by absence administrators, who can access all appeals across courses in the central [cross-course absence management system](../area_modules/Absence_Management.md).
+
+[To the top of the page ^](#course_admin_events_and_absences)
+
+---
 
 
+## Further information {: #further_information}
+
+[Basic concept Events and Absences >](../basic_concepts/Events_and_Absences.de.md)<br>
+[Activation and configuration of absence management by administrators >](../../manual_admin/administration/Modules_Events_and_Absences.de.md)<br>
+[Configuring absence management in a course >](../learningresources/Course_Settings_Execution.de.md#config_event_and_absence_management)<br>
+[Registering and managing absences in a course by coaches>](../learningresources/Toolbar_Events.de.md)<br>
+[Personal absences >](../personal_menu/Absences.de.md)<br>
+[Cross-course absence recording in the coaching tool >](../area_modules/Coaching.de.md)<br>
+[Cross-course absence management by absence administrators>](../area_modules/Absence_Management.de.md)<br>
+
+[Zum Seitenanfang ^](#course_admin_events_and_absences)
 
 
 

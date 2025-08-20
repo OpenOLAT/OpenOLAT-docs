@@ -90,7 +90,7 @@ Standardmässig haben nur Besitzer eines Kurses Schreibrechte im Kalender. Kurst
 
 ![toolbar_participant_list_v1_de.png](assets/toolbar_participant_list_v1_de.png){ class="shadow lightbox"}
 
-Die Teilnehmerliste kann in der Auflistung aller Kursmitglieder auch Kontaktmöglchkeiten enthalten.<br>
+Die Teilnehmerliste kann in der Auflistung aller Kursmitglieder auch Kontaktmöglichkeiten enthalten.<br>
 [Mehr dazu >](../learningresources/Course_Element_Participant_List.de.md)
 
 ---
