@@ -96,7 +96,7 @@ Es ist zu unterscheiden zwischen
 4. der **Erfassung und Verwaltung** der Absenzen in einem **Kurs** durch **Betreuer:innen**<br>
     Die Erfassung und Verwaltung durch Betreuer:innen erfolgt unter:<br>
     **Toolbar > Termine**<br>
-    [Mehr dazu >](../learningresources/x.de.md)
+    [Mehr dazu >](../learningresources/Toolbar_Events.de.md)
 
 5. der Übersicht über die **persönlichen Absenzen**<br>
     Die persönlichen Absenzen finden Sie und alle Teilnehmer:innen jeweils im persönlichen Menü. Hier ist die Verwaltung nur in begrenztem Rahmen und für sich persönlich möglich, z.B. in Form einer Abmeldung.<br>

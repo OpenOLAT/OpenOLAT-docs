@@ -93,7 +93,7 @@ A distinction must be made between
 4. the **recording and management** of absences in a **course** by **coaches**<br>
     Recording and administration by coaches takes place at:<br>
     **Toolbar > Events**<br>
-    [More about that >](../learningresources/x.md)
+    [More about that >](../learningresources/Toolbar_Events.md)
 
 5. the overview of **personal absences**<br>
     You and all participants can find your personal absences in your personal menu. Here, administration is only possible to a limited extent and for yourself, e.g., in the form of deregistration.<br>
