@@ -5,7 +5,7 @@
 
 * * *
 
-:material-calendar-month-outline: **Release date: 11/27/2024 • Last update: 07/30/2025**
+:material-calendar-month-outline: **Release date: 11/27/2024 • Last update: 08/27/2025**
 
 * * *
 
@@ -136,6 +136,16 @@ The section for activating "Modifications (On / Off)" for subscribable course el
     * Improved aria-current support
     * Correct titles in the personal menu
     * Improved readability of the link in the header and footer icon
+* :octicons-tag-24: release 19.1.18
+    * Addition of “aria-expanded” in open/close profile link in main navigation and menu tree
+    * Decorative images that do not convey content are given an empty alternative text (alt=“”) instead of aria-hidden=“true”
+    * Removal of redundant titles in menu trees
+* :octicons-tag-24: release 19.1.19
+    * Optimized support for Firefox keyboard navigation (cmd-Enter)
+    * Conversion of column headings for sorting tables as buttons
+    * Accessibility of the course menu on small screens via keyboard
+    * Tests: Optimization for intuitive focus order
+    * Avoidance of empty bookmark links in the menu (test and forum)
 
 * * *
 
@@ -189,8 +199,6 @@ The section for activating "Modifications (On / Off)" for subscribable course el
 
 * * *
 
-* * *
-
 ## Further, briefly noted
 
 * Project tool:
@@ -221,7 +229,7 @@ The section for activating "Modifications (On / Off)" for subscribable course el
     * In read-only mode, the content is not updated (= no Live-View)
     * Fully configurable in olat.properties including onlyoffice.jwt.secret (:octicons-tag-24: release 19.1.15)
 * Checking the configuration key *and* browser exam key (BEK) - provided by the SEB's JavaScript API - for access to OpenOlat in assessment mode with SEB (:octicons-tag-24: release 19.1.3)
-* Update paella player dependencies (:octicons-tag-24: release 19.1.15)
+* Update paella player dependencies (:octicons-tag-24: releases 19.1.15 and 19.1.18)
 
 * * *
 
@@ -242,6 +250,8 @@ The section for activating "Modifications (On / Off)" for subscribable course el
 
 ## More information
 
+* [YouTrack Release notes 19.1.19](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2019.1.19&title=Release%20Notes%2019.1.19){:target="_blank"}
+* [YouTrack Release notes 19.1.18](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2019.1.18&title=Release%20Notes%2019.1.18){:target="_blank"}
 * [YouTrack Release notes 19.1.17](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2019.1.17&title=Release%20Notes%2019.1.17){:target="_blank"}
 * [YouTrack Release notes 19.1.16](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2019.1.16&title=Release%20Notes%2019.1.16){:target="_blank"}
 * [YouTrack Release notes 19.1.15](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2019.1.15&title=Release%20Notes%2019.1.15){:target="_blank"}

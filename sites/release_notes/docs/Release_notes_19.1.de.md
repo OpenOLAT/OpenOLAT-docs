@@ -5,7 +5,7 @@
 
 * * *
 
-:material-calendar-month-outline: **Releasedatum: 27.11.2024 • Letztes Update: 30.07.2025**
+:material-calendar-month-outline: **Releasedatum: 27.11.2024 • Letztes Update: 27.08.2025**
 
 * * *
 
@@ -136,6 +136,16 @@ Der Bereich zur Aktivierung von "Änderungen (Ein / Aus)" bei abonnierbaren Baus
     * Verbesserte "aria-current" Unterstützung
     * Korrekte Titel im persönlichen Menü
     * Verbesserte Lesbarkeit des Links im Header- und Footer-Icon
+* :octicons-tag-24: Release 19.1.18
+    * Ergänzung "aria-expanded" in open/close Profil-Link in Hauptnavigation und Menübaum
+    * Dekorative Bilder, die keinen Inhalt vermitteln, erhalten einen leeren Alternativtext (alt=„“) anstelle von aria-hidden=„true“
+    * Entfernung redundanter Titel in Menübäumen
+* :octicons-tag-24: Release 19.1.19
+    * Optimierte Unterstützung für Firefox-Tastaturnavigation (cmd-Enter)
+    * Umsetzung von Spaltenüberschriften für Sortiertabellen als Buttons
+    * Erreichbarkeit des Kursmenüs auf kleinen Bildschirmen per Tastatur
+    * Tests: Optimierung für intuitive Fokus-Reihenfolge
+    * Vermeidung leerer Bookmark-Links im Menü (Test und Forum)
 
 * * *
 
@@ -219,7 +229,7 @@ Der Bereich zur Aktivierung von "Änderungen (Ein / Aus)" bei abonnierbaren Baus
     * Im Lese-Modus erfolgt keine Aktualisierung des Inhaltes (= kein Live-View)
     * Vollständig konfigurierbar in den olat.properties inklusive onlyoffice.jwt.secret (:octicons-tag-24: ab Release 19.1.15)
 * Überprüfung von Configuration Key *und* Browser-Exam Key (BEK) - geliefert vom JavaScript-API des SEB - für den Zugang zu OpenOlat im Prüfungsmodus mit SEB (:octicons-tag-24: ab Release 19.1.3)
-* Aktualisierung Paella-Player-Abhängigkeiten (:octicons-tag-24: ab Release 19.1.15)
+* Aktualisierung Paella-Player-Abhängigkeiten (:octicons-tag-24: Releases 19.1.15 und 19.1.18)
 
 * * *
 
@@ -240,6 +250,8 @@ Der Bereich zur Aktivierung von "Änderungen (Ein / Aus)" bei abonnierbaren Baus
 
 ## Weitere Informationen
 
+* [YouTrack Release Notes 19.1.19](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2019.1.19&title=Release%20Notes%2019.1.19){:target="_blank"}
+* [YouTrack Release Notes 19.1.18](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2019.1.18&title=Release%20Notes%2019.1.18){:target="_blank"}
 * [YouTrack Release Notes 19.1.17](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2019.1.17&title=Release%20Notes%2019.1.17){:target="_blank"}
 * [YouTrack Release Notes 19.1.16](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2019.1.16&title=Release%20Notes%2019.1.16){:target="_blank"}
 * [YouTrack Release Notes 19.1.15](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2019.1.15&title=Release%20Notes%2019.1.15){:target="_blank"}
