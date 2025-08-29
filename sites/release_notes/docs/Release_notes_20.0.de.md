@@ -34,7 +34,7 @@ Planung - Buchung - Durchführung: Der neue Course Planner deckt alle Phasen der
 !!! abstract "Auf einen Blick"
 
     * Pflegen und strukturieren Sie ihr **Kursangebot** mitsamt Durchführungsterminen, Preisangaben und verfügbarem Platzkontingent.
-    * Verwenden Sie **Kurs-Templates** für wiederkehrende Formate und eine automatisierte Instanzierung der Inhalte bei Kursstart.
+    * Verwenden Sie **Kurs-Templates** für wiederkehrende Formate und eine automatisierte Instanziierung der Inhalte bei Kursstart.
     * Hinterlegen Sie die gewünschten **Angebotsarten** wie beispielsweise Rechnung, Zugangscode oder Paypal für verschiedene Buchungsmöglichkeiten.
     * Nutzen Sie bei der **Terminplanung** die direkte Integration von BigBlueButton & MS Teams für Online-Veranstaltungen.
     * Präsentieren Sie ihr Kursangebot im **öffentlichen Katalog** - es ist kein Login erforderlich.
@@ -68,13 +68,13 @@ Die hinterlegten Termine werden später bei der Verknüpfung der Durchführung m
 
 Mit dem Course Planner findet die Verwaltung von Mitgliedern wie Teilnehmenden und Dozierenden sowie deren Buchungen direkt am Produkt/der Durchführung statt.
 
-Bestätigung ausstehender Mitgliedschaften, Stornierung von Buchungen, Entfernen von Teilnehmenden oder die Kursbuchung für eine andere Personen - alles ist abgedeckt. Bei manuellen Anpassungen von Mitgliedschaften können die Gründe als **Kommentar** erfasst werden. Über die Mitglieder- und Buchungshistorie sind alle Änderungen transparant und nachvollziehbar.
+Bestätigung ausstehender Mitgliedschaften, Stornierung von Buchungen, Entfernen von Teilnehmenden oder die Kursbuchung für eine andere Personen - alles ist abgedeckt. Bei manuellen Anpassungen von Mitgliedschaften können die Gründe als **Kommentar** erfasst werden. Über die Mitglieder- und Buchungshistorie sind alle Änderungen transparent und nachvollziehbar.
 
 Für jede Buchung, Buchungs- oder Mitgliedschaftsanpassung kann eine entsprechende E-Mail-Benachrichtigungen ausgelöst werden, um die Teilnehmenden über die Änderung zu informieren.
 
 ![Mitglieder-Historie einer Durchführung](assets/200/CPL_impl_member_history_DE.png){ class="shadow lightbox" title="Mitglieder-Historie einer Durchführung" }
 
-Dozierende und Lehrpersone können bequem per Sammelaktion verwaltet und direkt auf mehrere Termine gebucht bzw. wieder entfernt werden.
+Dozierende und Lehrpersonen können bequem per Sammelaktion verwaltet und direkt auf mehrere Termine gebucht bzw. wieder entfernt werden.
 
 ![Sammelaktionen zur Verwaltung von Dozierenden](assets/200/CPL_manage_teachers_DE.png){ class="shadow lightbox" title="Sammelaktionen zur Verwaltung von Dozierenden" }
 
@@ -139,7 +139,7 @@ Damit einhergehend wurden folgende Erweiterungen in OpenOlat umgesetzt:
 
 * * *
 
-## Erweiterter Selbstregistierungsprozess
+## Erweiterter Selbstregistrierungsprozess
 
 Entscheiden sich Personen ohne OpenOlat-Login für die Buchung eines Kurses aus dem externen Katalog, können sie sich per Selbstregistrierung direkt einen Account erstellen. Der erweiterte und optimiere Wizard führt dabei Schritt für Schritt durch die Registrierung.
 
@@ -169,7 +169,7 @@ Ab Version 20.0 profitieren Kursleitende, Ausbildungsverantwortliche und Vorgese
 
 Im Bereich "Personen" wurde das aktuelle Tabellen- und Filterkonzept umgesetzt sowie zusätzliche relevante Informationen, insbesondere für die Sicht der Rollen Ausbildungsverantwortliche:r und Linienvorgesetzte:r, ergänzt.
 
-Betreuende mit verschiedenen Rollen wie "Klassenlehrer:in", "Ausbildungsverantwortliche:r" oder beispielsweise einer "Mentor"-Funkton können hier bequem zwischen den jeweiligen betreuten Personengruppen wechseln.
+Betreuende mit verschiedenen Rollen wie "Klassenlehrer:in", "Ausbildungsverantwortliche:r" oder beispielsweise einer "Mentor"-Funktion können hier bequem zwischen den jeweiligen betreuten Personengruppen wechseln.
 
 ![Funktionsbasierte Ansichten im Coaching Tool](assets/200/Coaching_tool_rolebased_view2_DE.png){ class="shadow lightbox" title="Funktionsbasierte Ansichten im Coaching Tool" }
 
@@ -179,7 +179,7 @@ Neu ist die Möglichkeit, direkt über das Coaching Tool **Excel-Reports** zu re
 
 ## Organisationsspezifische Ablage
 
-Werden Organisationsstrukturen verwendet, kann eine eigene Ablage für organisationsspezifische und rechtliche Dokumente (z. B. für zugrundeliegende Verträge, allgemeinene Geschäftsbedingungen) aktiviert werden. Diese steht pro Organisationsebene zur Verfügung.
+Werden Organisationsstrukturen verwendet, kann eine eigene Ablage für organisationsspezifische und rechtliche Dokumente (z. B. für zugrundeliegende Verträge, allgemeine Geschäftsbedingungen) aktiviert werden. Diese steht pro Organisationsebene zur Verfügung.
 
 Benutzer:innen mit administrativen Rollen und entsprechender Organisationszugehörigkeit können auf diese Dokumente via File Hub bzw. WebDav zugreifen.
 
@@ -209,11 +209,11 @@ Für wiederkehrende oder ähnlich strukturierte Kursformate können im Course Pl
 
 Ein Template wird dabei wie ein normaler Kurs aufgebaut, die Pflege und Weiterentwicklung für zukünftige Durchführungen kann direkt im Template erfolgen - das spart Zeit.
 
-Für einzelne Durchführungen wird das Kurs-Template - automatisch oder manuell - instanziert und steht dann als "richtiger" Kurs mitsamt Inhalten bei Kursstart zur Verfügung.
+Für einzelne Durchführungen wird das Kurs-Template - automatisch oder manuell - instanziiert und steht dann als "richtiger" Kurs mitsamt Inhalten bei Kursstart zur Verfügung.
 
 ### Neue Navigation unter "Kurse"
 
-Um insbesondere Teilnehmenden einen besseren Überlick und Einstieg zu ihren (gebuchten) Kursinhalten zu gewährleisten, wurde die Navigation im Bereich "Kurse" überarbeitet.
+Um insbesondere Teilnehmenden einen besseren Überblick und Einstieg zu ihren (gebuchten) Kursinhalten zu gewährleisten, wurde die Navigation im Bereich "Kurse" überarbeitet.
 
 Bisher wurden unter "Meine Kurse" alle Kurse gelistet, in denen der/die Benutzer:in eine Mitgliedschaft besitzt. Unter "Curriculum/Lehrgänge" wurden die Kurse eingebettet in der Struktur des jeweiligen Curriculums angezeigt.
 
@@ -275,7 +275,7 @@ Ab (:octicons-tag-24:) Release 20.0.4 zeigt der Bereich "Rollenverlauf" die Änd
 * Richtlinie zur Passwortänderung: Änderung der Gültigkeitsdauer von Stunden in Minuten; Default-Wert: 30 Minuten
 * Aktualisierung der Bibliotheken von Drittanbietern
 * Update ical4j to 4.1 (bessere Unterstützung von Zeitzonen - hauptsächlich für Outlook)
-* Bereinigung der temporären Key-Konfguration sowie Refactoring der Option, um ein Passwort zu setzen, wenn keine OLAT-Authentifizierung existiert
+* Bereinigung der temporären Key-Konfiguration sowie Refactoring der Option, um ein Passwort zu setzen, wenn keine OLAT-Authentifizierung existiert
 * Support für "Remote login" wurde entfernt
 * REST: Authentifizierung mit Klartextparametern wurde entfernt
 * Properties vom Typ "Passwort/Secret" werden verborgen
