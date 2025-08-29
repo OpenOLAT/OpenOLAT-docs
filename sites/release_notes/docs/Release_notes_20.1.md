@@ -5,7 +5,7 @@
 
 * * *
 
-:material-calendar-month-outline: **Release date: 07/16/2025 • Last update: 07/30/2025**
+:material-calendar-month-outline: **Release date: 07/16/2025 • Last update: 09/03/2025**
 
 * * *
 
@@ -40,6 +40,9 @@ Course owner | CPL Course owner
 Master coach | CPL Master coach
 
 ![Course roles via Course Planner](assets/201/CPL_course-roles_EN.png){ class="shadow lightbox" title="Course roles via Course Planner" }
+
+* octicons-tag-24: release 20.1.2
+    * Display/assignment of relationships between subjects (taxonomy) and events
 
 * * *
 
@@ -99,8 +102,11 @@ Further new features are:
 * Extension of the selection period including reopening of already completed assignments
 * Confirmation of the number of registrations by participants if the specified number can be reduced independently
 * Addition to the topic exchange under Course administration > Files > "Show memory usage"
+* Activity log for traceability of actions and configuration changes (:octicons-tag-24: release 20.1.2)
 
 ![Import of topics including media files](assets/201/Topic_broker_import_EN.png){ class="shadow lightbox" title="Import of topics including media files" }
+
+![Activity log](assets/201/Topic_broker_activity_log_EN.png){ class="shadow lightbox" title="Activity log" }
 
 * * *
 
@@ -247,13 +253,35 @@ To correct typing errors or link an updated image, it is permitted to edit badge
 
 ![Badge versioning](assets/201/Badge_versioning_EN.png){ class="shadow lightbox" title="Badge versioning" }
 
+### Further new features
+
+* Optimized recipient selection for global badges
+
 * * *
 
 ## UX, Usability
 
-* Standardization and optimization of the list view of courses/learning resources in the courses, coaching and catalog areas (as of :octicons-tag-24: Release 20.1.1)
+* Standardization and optimization of the list view of courses/learning resources in the courses, coaching and catalog areas (:octicons-tag-24: Release 20.1.1)
 * Optimized filter component
 * More consistent behavior
+
+![Optimized list view in the courses area](assets/201/Course_list_optimized_EN.png){ class="shadow lightbox" title="Optimized list view in the courses area" }
+
+* * *
+
+## Accessibility
+
+* :octicons-tag-24: release 20.1.2
+    * Optimized contrast handling in test navigation, for icons and progress display
+    * Addition of “aria-expanded” in open/close profile link in main navigation and menu tree
+    * Decorative images that do not convey content are given an empty alternative text (alt=“”) instead of aria-hidden=“true”
+    * Removal of redundant titles in menu trees
+* :octicons-tag-24: release 20.1.3
+    * Optimized support for Firefox keyboard navigation (cmd-Enter)
+    * Conversion of column headings for sorting tables as buttons
+    * Accessibility of the course menu on small screens via keyboard
+    * Tests: Optimization for intuitive focus order
+    * Avoidance of empty bookmark links in the menu (test and forum)
 
 * * *
 
@@ -316,6 +344,8 @@ To correct typing errors or link an updated image, it is permitted to edit badge
 
 ## More information
 
+* [YouTrack Release notes 20.1.4](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.1.4&title=Release%20Notes%2020.1.4){:target="_blank"}
+* [YouTrack Release notes 20.1.3](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.1.3&title=Release%20Notes%2020.1.3){:target="_blank"}
 * [YouTrack Release notes 20.1.2](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.1.2&title=Release%20Notes%2020.1.2){:target="_blank"}
 * [YouTrack Release notes 20.1.1](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.1.1&title=Release%20Notes%2020.1.1){:target="_blank"}
 * [YouTrack Release notes 20.1.0](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.1.0&title=Release%20Notes%2020.1.0){:target="_blank"}

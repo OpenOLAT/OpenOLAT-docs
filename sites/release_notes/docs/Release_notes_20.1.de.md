@@ -5,7 +5,7 @@
 
 * * *
 
-:material-calendar-month-outline: **Releasedatum: 16.07.2025 • Letztes Update: 30.07.2025**
+:material-calendar-month-outline: **Releasedatum: 16.07.2025 • Letztes Update: 03.09.2025**
 
 * * *
 
@@ -40,6 +40,9 @@ Kursbesitzer:in | CPL Kursbesitzer:in
 Klassenlehrer:in | CPL Klassenlehrer:in
 
 ![Kursrollen via Course Planner](assets/201/CPL_course-roles_DE.png){ class="shadow lightbox" title="Kursrollen via Course Planner" }
+
+* :octicons-tag-24: Release 20.1.2
+    * Abbildung/Zuordnung von Beziehungen zwischen Fachbereichen (Taxonomie) und Terminen
 
 * * *
 
@@ -95,12 +98,15 @@ Für Themen, die beispielsweise als Teil eines Seminars oder Labors eine physisc
 Weitere Neuerungen sind:
 
 * Export der Themen inklusive Mediendateien als Zip-Datei
-* Erweiteter Import von Themen inklusive Mediendateien wie Teaser-Bild, Teaser-Video sowie Dateien benutzerdefinierter Felder
+* Erweiterter Import von Themen inklusive Mediendateien wie Teaser-Bild, Teaser-Video sowie Dateien benutzerdefinierter Felder
 * Verlängerung des Auswahlzeitraumes inklusive Wiederöffnen bereits abgeschlossener Zuteilungen
 * Bestätigung der Anzahl Einschreibungen durch Teilnehmende, wenn die vorgegebene Anzahl selbstständig reduziert werden kann
 * Ergänzung der Themenbörse unter Kurs-Administration > Dateien > "Speicherverbrauch anzeigen"
+* Aktivitätslog zur Nachvollziehbarkeit von Aktionen und Konfgurationsänderungen (:octicons-tag-24: ab Release 20.1.2)
 
 ![Import von Themen inklusive Mediendateien](assets/201/Topic_broker_import_DE.png){ class="shadow lightbox" title="Import von Themen inklusive Mediendateien" }
+
+![Aktivitätslog](assets/201/Topic_broker_activity_log_DE.png){ class="shadow lightbox" title="Aktivitätslog" }
 
 * * *
 
@@ -116,7 +122,7 @@ Zusätzlich lässt sich ein Kommentarfeld aktivieren, welches die Teilnehmenden 
 
 ![Kommentar bei Terminbuchung](assets/201/Appointments_participant_comment_DE.png){ class="shadow lightbox" title="Kommentar bei Terminbuchung" }
 
-Teilnehmende sehen über einen neuen Filter auch ausgebuchte bzw. bestätigte Termine und - wenn aktiviert - wer diese Termine gebucht hat. So können sie andere Teilnehmende kontaktieren, um untereindaner Termine/Gruppen zu tauschen.
+Teilnehmende sehen über einen neuen Filter auch ausgebuchte bzw. bestätigte Termine und - wenn aktiviert - wer diese Termine gebucht hat. So können sie andere Teilnehmende kontaktieren, um untereinander Termine/Gruppen zu tauschen.
 
 Organisatoren können sich ausserdem optional per E-Mail benachrichtigen lassen, sobald jemand einen Termin auswählt/bucht.
 
@@ -185,7 +191,7 @@ Auf Systemen mit bisherigem Katalog-Zugang ausschliesslich über "Kurse" muss di
 
 ## eTesting
 
-Beim Einsatz des Prüfungsmodus für Prüfungen oder bei der Prüfungseinsicht werden neu bestimmte Benutzer- und Systemaktivitäten im Kurslog eingetragen, um beispielsweise bei Supportfragen nach der Prüfung/Prüfungseinsich die Vorgänge nachvollziehen zu können.
+Beim Einsatz des Prüfungsmodus für Prüfungen oder bei der Prüfungseinsicht werden neu bestimmte Benutzer- und Systemaktivitäten im Kurslog eingetragen, um beispielsweise bei Supportfragen nach der Prüfung/Prüfungseinsicht die Vorgänge nachvollziehen zu können.
 
 So werden Beginn und Ende des Prüfungsmodus / der Prüfungseinsicht, tatsächlicher Beginn und tatsächliches Ende (Sperren) der spezifischen Benutzer:innen sowie die Erteilung einer Verlängerung bzw. eines Nachteilsausgleichs erfasst.
 
@@ -247,6 +253,10 @@ Zur Korrektur von Tippfehlern oder Verknüpfung eines aktualisierten Bildes ist 
 
 ![Badge Versionierung](assets/201/Badge_versioning_DE.png){ class="shadow lightbox" title="Badge Versionierung" }
 
+### Weitere Neuerungen
+
+* Optimierte Empfängerauswahl für globale Badges
+
 * * *
 
 ## UX, Usability
@@ -254,6 +264,24 @@ Zur Korrektur von Tippfehlern oder Verknüpfung eines aktualisierten Bildes ist 
 * Vereinheitlichung und Optimierung der Listenansicht von Kursen/Lernressourcen in den Bereichen Kurse, Coaching und Katalog (ab :octicons-tag-24: Release 20.1.1)
 * Optimierte Filter-Komponente
 * Konsistenteres Verhalten
+
+![Optimierte Listenansicht im Bereich Kurse](assets/201/Course_list_optimized_DE.png){ class="shadow lightbox" title="Optimierte Listenansicht im Bereich Kurse" }
+
+* * *
+
+## Accessibility
+
+* :octicons-tag-24: Release 20.1.2
+    * Optimierte Kontrastbehandlung in Test-Navigation, für Icons und Fortschrittsanzeige
+    * Ergänzung "aria-expanded" in open/close Profil-Link in Hauptnavigation und Menübaum
+    * Dekorative Bilder, die keinen Inhalt vermitteln, erhalten einen leeren Alternativtext (alt=„“) anstelle von aria-hidden=„true“
+    * Entfernung redundanter Titel in Menübäumen
+* :octicons-tag-24: Release 20.1.3
+    * Optimierte Unterstützung für Firefox-Tastaturnavigation (cmd-Enter)
+    * Umsetzung von Spaltenüberschriften für Sortiertabellen als Buttons
+    * Erreichbarkeit des Kursmenüs auf kleinen Bildschirmen per Tastatur
+    * Tests: Optimierung für intuitive Fokus-Reihenfolge
+    * Vermeidung leerer Bookmark-Links im Menü (Test und Forum)
 
 * * *
 
@@ -298,13 +326,13 @@ Zur Korrektur von Tippfehlern oder Verknüpfung eines aktualisierten Bildes ist 
     * [x] Zugang Bereich "Kurse" nur für Teilnehmende: `Module > Repository > Tab "Zugang"`
     * [x] (De-)Aktivierung Kursbaustein "Externe Seite": `Module > Externe Seite`
     * [x] Report über Kurs-Mitgliedschaften: `Reports > Kurs Mitgliedschaften` 
-    * [x] OpenBadges - Versifizierungsmethode: `e-Assessment > OpenBadges > Konfiguration > Verifizierung`
+    * [x] OpenBadges - Verifizierungsmethode: `e-Assessment > OpenBadges > Konfiguration > Verifizierung`
     * [x] (De-)Aktivierung Modul "Kreditpunkte" und Verwaltung Kreditpunktesysteme: `Bezahlmodule > Kreditpunkte`
     * [x] RestAPI Einschränkung: `Core Konfiguration > REST API > API Zugriff`
 
     **Ergänzung der QM-Variablen in Sprachanpassungen:**
 
-    * [x] Sprachanassungen müssen in den neuen Variablen neu gesetzt werden. Die bisherigen bleiben als Referenz erhalten:
+    * [x] Sprachanpassungen müssen in den neuen Variablen neu gesetzt werden. Die bisherigen bleiben als Referenz erhalten:
 
         bis 20.0 | ab 20.1
         ---------|----------
@@ -317,6 +345,7 @@ Zur Korrektur von Tippfehlern oder Verknüpfung eines aktualisierten Bildes ist 
 
 ## Weitere Informationen
 
-* [YouTrack Release Notes 20.1.2](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.1.2&title=Release%20Notes%2020.1.2){:target="_blank"}
+* [YouTrack Release Notes 20.1.4](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.1.4&title=Release%20Notes%2020.1.4){:target="_blank"}
+* [YouTrack Release Notes 20.1.3](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.1.3&title=Release%20Notes%2020.1.3){:target="_blank"}* [YouTrack Release Notes 20.1.2](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.1.2&title=Release%20Notes%2020.1.2){:target="_blank"}
 * [YouTrack Release Notes 20.1.1](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.1.1&title=Release%20Notes%2020.1.1){:target="_blank"}
 * [YouTrack Release Notes 20.1.0](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.1.0&title=Release%20Notes%2020.1.0){:target="_blank"}
