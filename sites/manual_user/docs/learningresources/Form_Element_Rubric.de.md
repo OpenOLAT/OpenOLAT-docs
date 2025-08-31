@@ -106,7 +106,7 @@ Wird **"Keine Antwort möglich"** aktiviert, erscheint neben den Bewertungsoptio
 
 Im Tab "Erweitert" des Inspektors können Sie dem Rubrik Element einen Namen geben und entscheiden ob der Name in der Durchführung und in den Reports angezeigt werden soll. 
 
-!!! info "Tipp
+!!! info "Tipp"
 
     Wenn Sie planen ein Formular mit [Verzweigungen und Frageregeln](../learningresources/Form_Question_Rules.de.md) zu erstellen sollten Sie für Einzelauswahl und Mehrfachauswahl-Elemente undbedingt einen sinnvollen Namen vergeben. Das erleichtert Ihnen später die Zuordnung.
 

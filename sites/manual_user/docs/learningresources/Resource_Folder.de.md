@@ -1,33 +1,46 @@
 # Ressourcenordner {: #resource_folder}
 
-Mit Hilfe des Ressourcenordners können Dateien (Inhalte, Informationen, Grafiken usw.) in mehreren Kursen verwendet werden. Dabei werden die Dateien aus dem Ressourcenordner referenziert und brauchen somit nicht mehrfach erstellt werden. Änderungen an den Dateien im Ressourcenordner gelten dann für alle verknüpften Kurse.
+Ressourcenordner zählen in OpenOlat zu den Lernressourcen und werden im Autorenbereich erstellt. Sie können stand-alone oder verknüpft mit Kursen verwendet werden. 
 
-## Ablageordner - Ressourcenordner
+Um neben den normalen Kurs Dateiein auch kursübergreifende Dateien für die Kurserstellung verwenden zu können sollte ein Ressourcenordner verwendet werden.
 
-Die in einem Kurs verwendeten Medien-Dateien (Bilder, Videos, u.a.) werden zu einem grossen Teil im [Ablageordner](../learningresources/Storage_folder.de.md) des Kurses gespeichert. (Sie können aber auch verlinkt werden, wie z.B. Youtube-Videos.)
+## Ressourcenorder im Kurs verwenden
 
-Der Zugriff auf den Ablageordner erfolgt über **Administration > Ablageordner**.
+Mit einem Ressourcenordner lassen sich Dateien (z. B. Inhalte, Informationen, Grafiken) zentral organisieren und in mehreren Kursen nutzen.
 
-![resource_folder_storagefolder_v1_de.png](assets/resource_folder_storagefolder_v1_de.png){ class="shadow lightbox" }
+Um einen Ressourcenordner mit einem Kurs zu verbinden, wählen Sie im Kurs unter Administration → Einstellungen → Optionen den gewünschten Ressourcenordner aus oder erstellen einen neuen. Pro Kurs kann nur ein Ressourcenordner verknüpft werden.
 
-Sollen die Mediendateien mehrfach verwendet werden (in verschiedenen Kursen), kann auch ein gemeinsamer **Ressourcenordner** angelegt werden. Es ist sozusagen ein kursübergreifender Ablageordner.
-
-Der Ressourcenordner erscheint innerhalb des Ablageordners als Unterordner **_sharedfolder**.
-
-Zu beachten ist, dass nur **ein** Ressourcenordner pro Kurs hinzugefügt werden kann.
-
-![resource_folder_sharedfolder_v1_de.png](assets/resource_folder_sharedfolder_v1_de.png){ class="shadow lightbox" }
-
-## Einbindung
-
-Soll in einem Kurs neben dem kursspezifischen [Ablageordner](../learningresources/Storage_folder.de.md) ein kursübergreifend genutzter Ressourcenordner verwendet werden, muss er [eingebunden](../learningresources/Course_Settings.de.md#ressourcenordner-einbinden) werden:<br>
-**Administration > Einstellungen > Optionen**
-
-Er kann auch schreibgeschützt eingebunden werden.
+Bei der Einbindung gibt es zwei Varianten: schreibgeschützt oder ohne Schreibschutz.
 
 ![resource_folder_select_v1_de.png](assets/resource_folder_select_v1_de.png){ class="shadow lightbox" }
 
+**Schreibgeschützt**: Die Dateien werden nur referenziert. Im Kurs können sie weder verändert noch gelöscht oder ergänzt werden. Damit ist sichergestellt, dass alle Kurse stets dieselben aktuellen Dateien nutzen.
 
+**Ohne Schreibschutz**: Kursbesitzerinnen können Dateien ändern, löschen oder neue hinzufügen. Diese Anpassungen werden direkt im Ressourcenordner übernommen und wirken sich damit auf alle verknüpften Kurse aus – auch wenn die betreffenden Personen keine Besitzerinnen des Ressourcenordners sind.
+
+Überlegen Sie daher sorgfältig, ob der Schreibschutz aufgehoben werden soll.
+
+### Hier findet man die Dateien des Ressourcenordners
+Wurde ein Ressourcenordner mit dem Kurs verbunden erscheint er in der Kurs-Administration unter "Dateien" als "**_sharedfolder**" mit allen Dateien, die im Rssourcenordner hinterlegt wurden. 
+
+![sharedfolder](assets/sharedfolder_20.png){ class="shadow lightbox" }
+
+![sharedfolder Dateien](assets/sharedfolder_20_b.png){ class="shadow lightbox" }
+
+In der Standard Einstellung sind die Dateien des Ressourcenordners schreibgeschützt und können nicht verändert werden. 
+
+### Zugriff auf die Dateien
+Die Dateien des Ressourcenordners können genau wie alle anderen Dateien des Ablageordner eines Kurses verwendet und auch mit unterschiedlichen Kursbausteien verknüpft werden. 
+
+So könnten zentrale Dateien z.B. für die einheitliche Kurslayouts verwendet, oder Dokumente über den Kursbaustein Dokument bereitgestellt oder Bilder im Kursbaustein "HTML Seite" integriert werden usw. Immer dann, wenn innerhal bdes Kurses Zugriff auf den Ablageordner besteht können auch die Dokumente des verknüpften Ressourcenordners über "_sharedfolder" verwendet werden. 
+
+
+## Kursunabhängige Nutzung
+Um den Ressourcenordner stand-alone zu verwenden muss im Ressourcenordner unter Administration -> Einstellungen im Tab "Freigabe" die eigenständige Verwendung aktiviert und die Freigabe weiter konfiguriert werden z.B. frei für Gäste oder mit einem Passwort. Ferner muss der Ressourcenordner dann auch veröffentlich werden. Bei einer Verbindung mit einem Kurs ist das nicht nötig.
+
+Genauere Informationen finden Sie unter ["Zugangskonfiguration/Freigabe"](../learningresources/Access_configuration.de.md)
+
+Eine weitere Möglichkeit der unabhängigen Nutzung besteht über WebDAV. In der WebDAV-Ansicht werden neben Kursen und Gruppen auch die Sharedfolders, bei denen man Besitzer*in ist, angezeigt.
 
 ## Links
 
