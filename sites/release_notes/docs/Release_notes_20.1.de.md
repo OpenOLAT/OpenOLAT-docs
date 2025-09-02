@@ -43,16 +43,19 @@ Klassenlehrer:in | CPL Klassenlehrer:in
 
 * :octicons-tag-24: Release 20.1.2
     * Abbildung/Zuordnung von Beziehungen zwischen Fachbereichen (Taxonomie) und Terminen
+    * Kennzeichnung des Standard-CPL-Elementes bei Modularisierung von Kursen
 
 * * *
 
 ## Coaching Tool
 
-### Redesign
+### Redesign/Erweiterungen
 
 Das Redesign des Coaching Tools wurde fortgesetzt und umfasst neben der Umsetzung des modernen Tabellen- und Filterkonzeptes auch die Ergänzung und optimierte Anzeige kontext-spezifischer Daten sowie die Realisierung der - aus dem Bereich "Kurse" bekannten - Listenansicht für Lernressourcen.
 
 ![Kursübersicht im Coaching Tool](assets/201/CoachingTool_courses_DE.png){ class="shadow lightbox" title="Kursübersicht im Coaching Tool" }
+
+Ab :octicons-tag-24: Release 20.1.2 enthält der im Report-Bereich verfügbare Absenzen-Bericht für Ausbildungsverantwortliche noch mehr relevante Informationen.
 
 ### Abspaltung von "Kurse"
 
@@ -102,7 +105,7 @@ Weitere Neuerungen sind:
 * Verlängerung des Auswahlzeitraumes inklusive Wiederöffnen bereits abgeschlossener Zuteilungen
 * Bestätigung der Anzahl Einschreibungen durch Teilnehmende, wenn die vorgegebene Anzahl selbstständig reduziert werden kann
 * Ergänzung der Themenbörse unter Kurs-Administration > Dateien > "Speicherverbrauch anzeigen"
-* Aktivitätslog zur Nachvollziehbarkeit von Aktionen und Konfgurationsänderungen (:octicons-tag-24: ab Release 20.1.2)
+* Aktivitätslog zur Nachvollziehbarkeit von Aktionen und Konfigurationsänderungen (:octicons-tag-24: ab Release 20.1.2)
 
 ![Import von Themen inklusive Mediendateien](assets/201/Topic_broker_import_DE.png){ class="shadow lightbox" title="Import von Themen inklusive Mediendateien" }
 
@@ -164,6 +167,9 @@ In diesem Zuge wurde ausserdem die globale Aktion "Daten neu berechnen" entfernt
     * Bei neuen Systemen per Default deaktiviert, da Verwendung aus Sicherheitsgründen nicht mehr empfohlen (eingebundene Seiten müssen für den Zugriff bestimmte Bedingungen erfüllen, andernfalls funktionieren sie nicht)
     * Bei bestehenden Systemen optional deaktivierbar
 * Kurseditor "Kursbausteine einfügen": Verschiebung der Kursbausteine "HTML-Seite" und "Externe Seite" in den Bereich "Andere" (Nutzung aus Sicherheitsgründen nicht mehr empfohlen)
+* Beschränkung der Benutzersuche innerhalb des Kurses auf Kursmitglieder (:octicons-tag-24: ab Release 20.1.2)
+* Lernpfad: Anzeige der vorläufigen Gesamtpunktzahl inklusive nicht freigegebener Punkte (:octicons-tag-24: ab Release 20.1.2)
+* Konfiguration der Standardrolle bei Zugriff auf Kurse im Falle mehrerer Kursrollen (:octicons-tag-24: ab Release 20.1.3)
 
 * * *
 
@@ -255,15 +261,17 @@ Zur Korrektur von Tippfehlern oder Verknüpfung eines aktualisierten Bildes ist 
 
 ### Weitere Neuerungen
 
-* Optimierte Empfängerauswahl für globale Badges
+* Optimierte Empfängerauswahl für globale Badges (:octicons-tag-24: ab Release 20.1.2)
 
 * * *
 
 ## UX, Usability
 
-* Vereinheitlichung und Optimierung der Listenansicht von Kursen/Lernressourcen in den Bereichen Kurse, Coaching und Katalog (ab :octicons-tag-24: Release 20.1.1)
 * Optimierte Filter-Komponente
 * Konsistenteres Verhalten
+* Vereinheitlichung und Optimierung der Listenansicht von Kursen/Lernressourcen in den Bereichen Kurse, Coaching und Katalog (ab :octicons-tag-24: Release 20.1.1)
+* Neutrale Farbgebung für die Lernpfad-Fortschrittsanzeige (ab :octicons-tag-24: Release 20.1.2)
+* Optimierte und funktional erweiterte Einbindung von Video-Lernressourcen in Video-Kursbaustein (ab :octicons-tag-24: Release 20.1.3)
 
 ![Optimierte Listenansicht im Bereich Kurse](assets/201/Course_list_optimized_DE.png){ class="shadow lightbox" title="Optimierte Listenansicht im Bereich Kurse" }
 
@@ -313,6 +321,9 @@ Zur Korrektur von Tippfehlern oder Verknüpfung eines aktualisierten Bildes ist 
 * OAuth Erweiterungen für automatisierte Setups wie z. B. Kubernetes:
     * Konfigurationsunterstützung für generischen Provider in olat.properties
     * Weitere Konfigurationsoptionen für olat.local.properties
+* SEO: Verhinderung der Indizierung dynamischer Links (:octicons-tag-24: Release 20.1.2)
+* Aktualisierung der Abhängigkeiten des Paella-Players (:octicons-tag-24: Release 20.1.2)
+* Option zur Deaktivierung von MathJax in den olat.properties: mathjax.cdn= and mathlive.cdn= (:octicons-tag-24: Release 20.1.3)
 
 * * *
 
@@ -322,6 +333,7 @@ Zur Korrektur von Tippfehlern oder Verknüpfung eines aktualisierten Bildes ist 
 
     Folgende Funktionen müssen nach einem Update auf Release 20.1 in der `Administration` aktiviert bzw. konfiguriert werden:
 
+    * [x] Konfiguration der Kurs-Standardrolle: `Module > Repository > Standard-Rollenpriorität` (:octicons-tag-24: Release 20.1.3)
     * [x] Site für Zugang zum Katalog V1 aktivieren: `Customizing > Sites > Katalog`
     * [x] Zugang Bereich "Kurse" nur für Teilnehmende: `Module > Repository > Tab "Zugang"`
     * [x] (De-)Aktivierung Kursbaustein "Externe Seite": `Module > Externe Seite`
@@ -346,6 +358,7 @@ Zur Korrektur von Tippfehlern oder Verknüpfung eines aktualisierten Bildes ist 
 ## Weitere Informationen
 
 * [YouTrack Release Notes 20.1.4](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.1.4&title=Release%20Notes%2020.1.4){:target="_blank"}
-* [YouTrack Release Notes 20.1.3](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.1.3&title=Release%20Notes%2020.1.3){:target="_blank"}* [YouTrack Release Notes 20.1.2](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.1.2&title=Release%20Notes%2020.1.2){:target="_blank"}
+* [YouTrack Release Notes 20.1.3](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.1.3&title=Release%20Notes%2020.1.3){:target="_blank"}
+* [YouTrack Release Notes 20.1.2](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.1.2&title=Release%20Notes%2020.1.2){:target="_blank"}
 * [YouTrack Release Notes 20.1.1](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.1.1&title=Release%20Notes%2020.1.1){:target="_blank"}
 * [YouTrack Release Notes 20.1.0](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.1.0&title=Release%20Notes%2020.1.0){:target="_blank"}

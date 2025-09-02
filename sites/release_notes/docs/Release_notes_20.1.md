@@ -43,16 +43,19 @@ Master coach | CPL Master coach
 
 * octicons-tag-24: release 20.1.2
     * Display/assignment of relationships between subjects (taxonomy) and events
+    * Flagging of the standard CPL element for modularization of courses
 
 * * *
 
 ## Coaching tool
 
-### Redesign
+### Redesign/Enhancements
 
 The redesign of the Coaching tool was continued and includes the implementation of the modern table and filter concept as well as the addition and optimized display of context-specific data and the implementation of the list view for learning resources known from the “Courses" area.
 
 ![Course overview in the Coaching tool](assets/201/CoachingTool_courses_EN.png){ class="shadow lightbox" title="Course overview in the Coaching tool" }
+
+As of :octicons-tag-24: Release 20.1.2, the absence report for education managers available in the report area contains even more relevant information.
 
 ### Separation from "Courses"
 
@@ -164,6 +167,9 @@ As part of this process, the global action “Recalculate data” has also been 
     * Deactivated by default for new systems, as use is no longer recommended for security reasons (integrated pages must fulfill certain conditions for access, otherwise they will not work)
     * Can be optionally deactivated for existing systems
 * Course editor "Insert course elements": Moving the course elements "HTML page" and "External page" to the "Other" section (use no longer recommended for security reasons)
+* Restriction of the user search within the course to course members (:octicons-tag-24: release 20.1.2)
+* Learning path: Display of the provisional total score including points not released (:octicons-tag-24: release 20.1.2)
+* Configuration of the default role when accessing courses in the case of multiple course roles (:octicons-tag-24: release 20.1.3)
 
 * * *
 
@@ -255,15 +261,17 @@ To correct typing errors or link an updated image, it is permitted to edit badge
 
 ### Further new features
 
-* Optimized recipient selection for global badges
+* Optimized recipient selection for global badges (:octicons-tag-24: release 20.1.2)
 
 * * *
 
 ## UX, Usability
 
-* Standardization and optimization of the list view of courses/learning resources in the courses, coaching and catalog areas (:octicons-tag-24: Release 20.1.1)
 * Optimized filter component
 * More consistent behavior
+* Standardization and optimization of the list view of courses/learning resources in the courses, coaching and catalog areas (:octicons-tag-24: release 20.1.1)
+* Neutral color scheme for the learning path progress indicator (:octicons-tag-24: release 20.1.2)
+* Optimized and functionally enhanced integration of video learning resources in video course elements (:octicons-tag-24: release 20.1.3)
 
 ![Optimized list view in the courses area](assets/201/Course_list_optimized_EN.png){ class="shadow lightbox" title="Optimized list view in the courses area" }
 
@@ -313,6 +321,9 @@ To correct typing errors or link an updated image, it is permitted to edit badge
 * OAuth extensions for automated setups such as Kubernetes:
     * Configuration support for generic provider in olat.properties
     * Further configuration options for olat.local.properties
+* SEO: prevent indexing dynamic links (:octicons-tag-24: release 20.1.2)
+* Update paella player dependencies (:octicons-tag-24: release 20.1.2)
+* Option to disable MathJax in the olat.properties: mathjax.cdn= and mathlive.cdn= (:octicons-tag-24: release 20.1.3)
 
 * * *
 
@@ -322,6 +333,7 @@ To correct typing errors or link an updated image, it is permitted to edit badge
 
     The following functions have to be activated / configured in the `Administration` after an update to release 20.1:
 
+    * [x] Configuration of course default role: `Modules > Repository > Default role priority` (:octicons-tag-24: release 20.1.3)
     * [x] Activate site for access to catalog V1: `Customizing > Sites > Catalogue`.
     * [x] Access area “Courses” only for participants: `Module > Repository > Tab “Access”`
     * [x] (De-)Activate course element “External page”: `Modules > External page`
