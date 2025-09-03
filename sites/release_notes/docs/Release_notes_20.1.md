@@ -27,7 +27,7 @@ Since release 20.1, over 105 new features and improvements have been added to Op
 
 ## Course Planner
 
-With :octicons-tag-24: Release 20.1, the system-wide rebranding was continued and implemented for the designation "Curriculum", the curriculum roles and for course roles managed by the Course Planner (CPL) (see also [Designation changes Release 20.0](Release_notes_20.0.md#new-labels)).
+With :octicons-tag-24: release 20.1, the system-wide rebranding was continued and implemented for the designation "Curriculum", the curriculum roles and for course roles managed by the Course Planner (CPL) (see also [Designation changes Release 20.0](Release_notes_20.0.md#new-labels)).
 
 Previous | New
 ---------|----------
@@ -55,7 +55,7 @@ The redesign of the Coaching tool was continued and includes the implementation 
 
 ![Course overview in the Coaching tool](assets/201/CoachingTool_courses_EN.png){ class="shadow lightbox" title="Course overview in the Coaching tool" }
 
-As of :octicons-tag-24: Release 20.1.2, the absence report for education managers available in the report area contains even more relevant information.
+As of :octicons-tag-24: release 20.1.2, the absence report for education managers available in the report area contains even more relevant information.
 
 ### Separation from "Courses"
 
@@ -68,7 +68,7 @@ In future, the "Courses" area will focus on learners/participants. People with a
     * Release 20.1: "Courses" for participants; "Courses" and "Coaching" for coaches/owners (optionally configurable)
     * Release 20.2: "Courses" for participants; "Coaching" for coaches/owners
 
-Additional options and instructions for a gradual changeover of access from "Courses" to "Coaching" for coaches are available from :octicons-tag-24: Release 20.1.1 and support users in the transition phase.
+Additional options and instructions for a gradual changeover of access from "Courses" to "Coaching" for coaches are available from :octicons-tag-24: release 20.1.1 and support users in the transition phase.
 
 ![Configuration of learning resource access](assets/201/Coaching_migration_EN.png){ class="shadow lightbox" title="Configuration of learning resource access" }
 
@@ -185,7 +185,7 @@ In addition, the navigation concept, the display of the taxonomy tree and the ma
 
 ### Access to catalog V1
 
-With the conversion of the navigation under "Courses" in :octicons-tag-24: Release 20.0, catalog V1 - analogous to catalog V2 - is now only available as a separate site. The configuration for displaying "Catalog in courses" has been removed.
+With the conversion of the navigation under "Courses" in :octicons-tag-24: release 20.0, catalog V1 - analogous to catalog V2 - is now only available as a separate site. The configuration for displaying "Catalog in courses" has been removed.
 
 On systems with previous catalog access exclusively via "Courses", the site must be activated.
 
@@ -213,7 +213,7 @@ In addition to the existing subscription function for blogs and podcasts about n
 
 ## New module "Credit points"
 
-As of :octicons-tag-24: Release 20.1.1, the first version of the "Credit points" module is available, which will also be relevant in connection with certification programs in OpenOlat in the future.
+As of :octicons-tag-24: release 20.1.1, the first version of the "Credit points" module is available, which will also be relevant in connection with certification programs in OpenOlat in the future.
 
 The module can be used to globally define your own credit point systems. These will later enable participants to collect educational points/credits, such as ECTS or LearnCoins, for passing courses.
 
@@ -262,6 +262,7 @@ To correct typing errors or link an updated image, it is permitted to edit badge
 ### Further new features
 
 * Optimized recipient selection for global badges (:octicons-tag-24: release 20.1.2)
+* Optimization of performance when issuing and sending badges (:octicons-tag-24: release 20.1.4)
 
 * * *
 
@@ -279,12 +280,12 @@ To correct typing errors or link an updated image, it is permitted to edit badge
 
 ## Accessibility
 
-* :octicons-tag-24: release 20.1.2
+* :octicons-tag-24: Release 20.1.2
     * Optimized contrast handling in test navigation, for icons and progress display
     * Addition of “aria-expanded” in open/close profile link in main navigation and menu tree
     * Decorative images that do not convey content are given an empty alternative text (alt=“”) instead of aria-hidden=“true”
     * Removal of redundant titles in menu trees
-* :octicons-tag-24: release 20.1.3
+* :octicons-tag-24: Release 20.1.3
     * Optimized support for Firefox keyboard navigation (cmd-Enter)
     * Conversion of column headings for sorting tables as buttons
     * Accessibility of the course menu on small screens via keyboard
@@ -323,7 +324,8 @@ To correct typing errors or link an updated image, it is permitted to edit badge
     * Further configuration options for olat.local.properties
 * SEO: prevent indexing dynamic links (:octicons-tag-24: release 20.1.2)
 * Update paella player dependencies (:octicons-tag-24: release 20.1.2)
-* Option to disable MathJax in the olat.properties: mathjax.cdn= and mathlive.cdn= (:octicons-tag-24: release 20.1.3)
+* Option to disable MathJax in the olat.properties: `mathjax.cdn=` and `mathlive.cdn=` (:octicons-tag-24: release 20.1.3)
+* Prevention of system startup if file system and database do not match: `integrity.fs.db.enable=false` und `integrity.fs.db.enable.values=true,false` (:octicons-tag-24: release 20.1.4)
 
 * * *
 

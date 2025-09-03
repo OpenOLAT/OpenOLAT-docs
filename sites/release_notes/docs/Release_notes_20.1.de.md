@@ -105,7 +105,7 @@ Weitere Neuerungen sind:
 * Verlängerung des Auswahlzeitraumes inklusive Wiederöffnen bereits abgeschlossener Zuteilungen
 * Bestätigung der Anzahl Einschreibungen durch Teilnehmende, wenn die vorgegebene Anzahl selbstständig reduziert werden kann
 * Ergänzung der Themenbörse unter Kurs-Administration > Dateien > "Speicherverbrauch anzeigen"
-* Aktivitätslog zur Nachvollziehbarkeit von Aktionen und Konfigurationsänderungen (:octicons-tag-24: ab Release 20.1.2)
+* Aktivitätslog zur Nachvollziehbarkeit von Aktionen und Konfigurationsänderungen (:octicons-tag-24: Release 20.1.2)
 
 ![Import von Themen inklusive Mediendateien](assets/201/Topic_broker_import_DE.png){ class="shadow lightbox" title="Import von Themen inklusive Mediendateien" }
 
@@ -167,9 +167,9 @@ In diesem Zuge wurde ausserdem die globale Aktion "Daten neu berechnen" entfernt
     * Bei neuen Systemen per Default deaktiviert, da Verwendung aus Sicherheitsgründen nicht mehr empfohlen (eingebundene Seiten müssen für den Zugriff bestimmte Bedingungen erfüllen, andernfalls funktionieren sie nicht)
     * Bei bestehenden Systemen optional deaktivierbar
 * Kurseditor "Kursbausteine einfügen": Verschiebung der Kursbausteine "HTML-Seite" und "Externe Seite" in den Bereich "Andere" (Nutzung aus Sicherheitsgründen nicht mehr empfohlen)
-* Beschränkung der Benutzersuche innerhalb des Kurses auf Kursmitglieder (:octicons-tag-24: ab Release 20.1.2)
-* Lernpfad: Anzeige der vorläufigen Gesamtpunktzahl inklusive nicht freigegebener Punkte (:octicons-tag-24: ab Release 20.1.2)
-* Konfiguration der Standardrolle bei Zugriff auf Kurse im Falle mehrerer Kursrollen (:octicons-tag-24: ab Release 20.1.3)
+* Beschränkung der Benutzersuche innerhalb des Kurses auf Kursmitglieder (:octicons-tag-24: Release 20.1.2)
+* Lernpfad: Anzeige der vorläufigen Gesamtpunktzahl inklusive nicht freigegebener Punkte (:octicons-tag-24: Release 20.1.2)
+* Konfiguration der Standardrolle bei Zugriff auf Kurse im Falle mehrerer Kursrollen (:octicons-tag-24: Release 20.1.3)
 
 * * *
 
@@ -261,7 +261,8 @@ Zur Korrektur von Tippfehlern oder Verknüpfung eines aktualisierten Bildes ist 
 
 ### Weitere Neuerungen
 
-* Optimierte Empfängerauswahl für globale Badges (:octicons-tag-24: ab Release 20.1.2)
+* Optimierte Empfängerauswahl für globale Badges (:octicons-tag-24: Release 20.1.2)
+* Optimierung der Performance beim Ausstellen und Versenden von Badges (:octicons-tag-24: Release 20.1.4)
 
 * * *
 
@@ -269,9 +270,9 @@ Zur Korrektur von Tippfehlern oder Verknüpfung eines aktualisierten Bildes ist 
 
 * Optimierte Filter-Komponente
 * Konsistenteres Verhalten
-* Vereinheitlichung und Optimierung der Listenansicht von Kursen/Lernressourcen in den Bereichen Kurse, Coaching und Katalog (ab :octicons-tag-24: Release 20.1.1)
-* Neutrale Farbgebung für die Lernpfad-Fortschrittsanzeige (ab :octicons-tag-24: Release 20.1.2)
-* Optimierte und funktional erweiterte Einbindung von Video-Lernressourcen in Video-Kursbaustein (ab :octicons-tag-24: Release 20.1.3)
+* Vereinheitlichung und Optimierung der Listenansicht von Kursen/Lernressourcen in den Bereichen Kurse, Coaching und Katalog (:octicons-tag-24: Release 20.1.1)
+* Neutrale Farbgebung für die Lernpfad-Fortschrittsanzeige (:octicons-tag-24: Release 20.1.2)
+* Optimierte und funktional erweiterte Einbindung von Video-Lernressourcen in Video-Kursbaustein (:octicons-tag-24: Release 20.1.3)
 
 ![Optimierte Listenansicht im Bereich Kurse](assets/201/Course_list_optimized_DE.png){ class="shadow lightbox" title="Optimierte Listenansicht im Bereich Kurse" }
 
@@ -323,7 +324,8 @@ Zur Korrektur von Tippfehlern oder Verknüpfung eines aktualisierten Bildes ist 
     * Weitere Konfigurationsoptionen für olat.local.properties
 * SEO: Verhinderung der Indizierung dynamischer Links (:octicons-tag-24: Release 20.1.2)
 * Aktualisierung der Abhängigkeiten des Paella-Players (:octicons-tag-24: Release 20.1.2)
-* Option zur Deaktivierung von MathJax in den olat.properties: mathjax.cdn= and mathlive.cdn= (:octicons-tag-24: Release 20.1.3)
+* Option zur Deaktivierung von MathJax in den olat.properties: `mathjax.cdn=` und `mathlive.cdn=` (:octicons-tag-24: Release 20.1.3)
+* Verhinderung des Systemstarts, wenn Dateisystem und Datenbank nicht übereinstimmen: `integrity.fs.db.enable=false` und `integrity.fs.db.enable.values=true,false` (:octicons-tag-24: Release 20.1.4)
 
 * * *
 
