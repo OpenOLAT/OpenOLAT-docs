@@ -255,7 +255,8 @@ Einige Icons werden in jedem Kurs angezeigt, sobald die Toolbar angezeigt wird. 
 
 ### Automatisch angezeigte Tool-Icons {: #show_icons_automatically}
 
-Die Anzeige des Icons "Termine" kann nicht direkt manuell veranlasst werden. Es erscheint automatisch in der Toolbar, wenn das Termin- und Absenzenmanagement aktiviert wurde.<br> [Mehr dazu >](../learningresources/Toolbar_Events.de.md)<br>
+Die Anzeige des Icons "Termine" kann nicht direkt manuell veranlasst werden. Es erscheint automatisch in der Toolbar, wenn das Termin- und Absenzenmanagement aktiviert wurde.<br>
+[Mehr dazu >](../learningresources/Toolbar_Events.de.md)<br>
 
 [Zum Seitenanfang ^](#toolbar)
 
