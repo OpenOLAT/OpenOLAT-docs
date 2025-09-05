@@ -1,13 +1,13 @@
-# Course Planner: Curricula/Products {: #products}
+# Course Planner: Products {: #products}
 
-![course_planner_products_v1_de.png](assets/course_planner_products_v1_de.png){ class="shadow lightbox" }
+![course_planner_products_v2_de.png](assets/course_planner_products_v2_de.png){ class="shadow lightbox" }
 
 
 ## What do we mean by a product in OpenOlat? {: #definition}
 
 An educational product is an inwardly or outwardly directed learning offer with implementations. In most cases, there are multiple implementations, i.e. learning opportunities of the same "type" (-> product).
 
-Products often consist of several courses and have a specific structure/sequence in which the courses they contain are combined (structured products, curricula). The courses and learning resources are mapped in chronological order in a tree structure.
+Products often consist of several courses and have a specific structure/sequence in which the courses they contain are combined (structured products). The courses and learning resources are mapped in chronological order in a tree structure.
 
 In the context of companies, the term (educational) "product" is often used instead of "curriculum". For this reason, the term "product" has generally been used in OpenOlat since Release 20.
 
@@ -48,15 +48,15 @@ After activation, system administrators can activate and set up the module at:
 ---
 
 
-## Create Curriculum/Product {: #create_product}
+## Create Product {: #create_product}
 
-To create a curriculum/product, open the Course Planner and then the "Curricula/Products" subsection.
+To create a product, open the Course Planner and then the "Products" subsection.
 
-![course_planner_products1_v1_de.png](assets/course_planner_products1_v1_de.png){ class="shadow lightbox" }  
+![course_planner_products1_v2_de.png](assets/course_planner_products1_v2_de.png){ class="shadow lightbox" }  
 
-![course_planner_products2_v1_de.png](assets/course_planner_products2_v1_de.png){ class="shadow lightbox" }  
+![course_planner_products2_v2_de.png](assets/course_planner_products2_v2_de.png){ class="shadow lightbox" }  
 
-![course_planner_products3_v1_de.png](assets/course_planner_products3_v1_de.png){ class="shadow lightbox" }
+![course_planner_products3_v2_de.png](assets/course_planner_products3_v2_de.png){ class="shadow lightbox" }
 
 ![1_green_24.png](assets/1_green_24.png) **Title**:
 The specification of a title is mandatory.
@@ -65,10 +65,10 @@ The specification of a title is mandatory.
 The indicator is also a mandatory field. (It is used as an identifier to differentiate between elements with the same title).
 
 ![3_green_24.png](assets/3_green_24.png) **Organizations**:
-When you create a new curriculum, you can also restrict it to use within a specific organizational unit if you have activated the "Organizations" module.
+When you create a new product, you can also restrict it to use within a specific organizational unit if you have activated the "Organizations" module.
 
 ![4_green_24.png](assets/4_green_24.png) **Absence management**:
-With this selection, you determine whether absence management should be used for this curriculum/product. (Prerequisite is that it has been activated by an administrator and made available to the course authors).
+With this selection, you determine whether absence management should be used for this product. (Prerequisite is that it has been activated by an administrator and made available to the course authors).
 
 ![5_green_24.png](assets/5_green_24.png) **Description**:
 In this editor for the description, you can insert videos in addition to text, images and links or record audio directly by clicking on the microphone button.
@@ -78,21 +78,32 @@ In this editor for the description, you can insert videos in addition to text, i
 ---
 
 
-## Import Curriculum/Product {: #course_settings}
+## Import product {: #import_product}
 
-A curriculum/product normally comprises several courses.
+If you want to use an existing product for your planning, you can also import products. To do this, click on the three dots next to the ‘Create product’ button.
+
+![course_planner_product_import_v1_de.png](assets/course_planner_product_import_v1_de.png){ class="shadow lightbox" }  
+
+[To the top of the page ^](#products)
+
+---
+
+
+## Settings in the courses of a product {: #course_settings}
+
+A product normally comprises several courses.
 The **intended use** can be defined in the settings for each course:
 
 * independent learning resource
 * as a template
-* for integration into a curriculum/product
+* for integration into a product
 
-If a course is managed via the Course Planner, the setting is "**Integration in curriculum/product**". The course then has no independent member administration. In this case, the member administration takes place in the member administration of [Implementation](../../manual_how-to/course_planner_courses/course_planner_courses.md#add_members).
+If a course is managed via the Course Planner, the setting is "**Integration in product**". The course then has no independent member administration. In this case, the member administration takes place in the member administration of [Implementation](../../manual_how-to/course_planner_courses/course_planner_courses.md#add_members).
 
 You can find the setting under:<br>
-**(Choice of a course >) Administration > Settings > Tab Share > Implementation in a Curriculum/Product**
+**(Choice of a course >) Administration > Settings > Tab Share > Implementation in a Product**
 
-![course_planner_products_share_v1_de.png](assets/course_planner_products_share_v1_de.png){ class="shadow lightbox" }  
+![course_planner_products_share_v2_de.png](assets/course_planner_products_share_v2_de.png){ class="shadow lightbox" }  
 
 [To the top of the page ^](#products)
 
