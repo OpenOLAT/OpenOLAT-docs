@@ -1,6 +1,6 @@
 # Course Planner: Reports {: #reports}
 
-![course_planner_reports_v1_de.png](assets/course_planner_reports1_v1_de.png){ class="shadow lightbox" } 
+![course_planner_reports1_v2_de.png](assets/course_planner_reports1_v2_de.png){ class="shadow lightbox" } 
 
 Various templates are available for creating reports, which you can use to obtain an overview of the booking orders received.
 

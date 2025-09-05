@@ -1,6 +1,6 @@
 # Course Planner: Reports {: #reports}
 
-![course_planner_reports_v1_de.png](assets/course_planner_reports1_v1_de.png){ class="shadow lightbox" }  
+![course_planner_reports1_v2_de.png](assets/course_planner_reports1_v2_de.png){ class="shadow lightbox" }  
 
 Für die Erstellung von Reports stehen verschiedene Vorlagen zur Verfügung, mit denen Sie sich einen Überblick über die eingegangenen Buchungsaufträge verschaffen können. 
 
