@@ -1,6 +1,6 @@
 # Course Planner: Durchführungen {: #implementations}
 
-![course_planner_implementations_v1_de.png](assets/course_planner_implementations_v1_de.png){ class="shadow lightbox" } 
+![course_planner_implementations_v2_de.png](assets/course_planner_implementations_v2_de.png){ class="shadow lightbox" } 
 
 
 ## Was ist eine Durchführung? {: #definition}
@@ -33,15 +33,15 @@ Haben Sie in der Übersicht des Courser Planners den Button "Durchführungen" ge
 
 Haben Sie in der Liste eine Durchführung gewählt und geöffnet, können Sie von hier aus
 
-![1_green_24.png](assets/1_green_24.png) rechts oben durch Klick auf den Button "**Gehe zu**" innerhalb der aktuellen Durchführung zu einem Element springen
+![1_green_24.png](assets/1_green_24.png) rechts oben durch Klick auf den Button "**Gehe zu**" innerhalb der aktuellen Durchführung zu einem Element springen.
 
-![2_green_24.png](assets/2_green_24.png) mit den **Pfeiltasten** rechts oben zu anderen Durchführungen  wechseln
+![2_green_24.png](assets/2_green_24.png) mit den **Pfeiltasten** rechts oben zu anderen Durchführungen  wechseln.
 
-![3_green_24.png](assets/3_green_24.png) durch Klick auf die verschiedenen **Tabs** diese Durchführung konfigurieren
+![3_green_24.png](assets/3_green_24.png) durch Klick auf die verschiedenen **Tabs** diese Durchführung konfigurieren.
 
-![4_green_24.png](assets/4_green_24.png) durch Klick auf eine der **Überschriften** direkt zum entsprechenden Tab springen
+![4_green_24.png](assets/4_green_24.png) durch Klick auf eine der **Überschriften** direkt zum entsprechenden Tab springen.
 
-![5_green_24.png](assets/5_green_24.png) durch Klick auf das **+** Kursinhalte hinzufügen
+![5_green_24.png](assets/5_green_24.png) durch Klick auf das **+** Kursinhalte hinzufügen.
 
 ![course_planner_implementations_navigation_v1_de.png](assets/course_planner_implementations_navigation_v1_de.png){ class="shadow lightbox" }
 

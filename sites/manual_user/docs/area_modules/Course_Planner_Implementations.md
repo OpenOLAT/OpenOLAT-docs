@@ -1,6 +1,6 @@
 # Course Planner: Implementations {: #implementations}
 
-![course_planner_implementations_v1_de.png](assets/course_planner_implementations_v1_de.png){ class="shadow lightbox" } 
+![course_planner_implementations_v2_de.png](assets/course_planner_implementations_v2_de.png){ class="shadow lightbox" } 
 
 ## What is an implementation? {: #definition}
 
@@ -31,15 +31,15 @@ If you have selected the "Executions" button in the Courser Planner overview, yo
 
 Once you have selected and opened an implementation in the list, you can
 
-![1_green_24.png](assets/1_green_24.png) click on the "**Go to**" button at the top right to jump to an element within the current execution
+![1_green_24.png](assets/1_green_24.png) click on the "**Go to**" button at the top right to jump to an element within the current execution.
 
-![2_green_24.png](assets/2_green_24.png) Use the **arrow buttons** at the top right to switch to other bushings
+![2_green_24.png](assets/2_green_24.png) use the **arrow buttons** at the top right to switch to other bushings.
 
-![3_green_24.png](assets/3_green_24.png) configure this execution by clicking on the various **tabs**
+![3_green_24.png](assets/3_green_24.png) configure this execution by clicking on the various **tabs**.
 
-![4_green_24.png](assets/4_green_24.png) click on one of the **headings** to jump directly to the corresponding tab
+![4_green_24.png](assets/4_green_24.png) click on one of the **headings** to jump directly to the corresponding tab.
 
-![5_green_24.png](assets/5_green_24.png) by clicking on the **+** Add course content
+![5_green_24.png](assets/5_green_24.png) by clicking on the **+** add course content.
 
 ![course_planner_implementations_navigation_v1_de.png](assets/course_planner_implementations_navigation_v1_de.png){ class="shadow lightbox" }
 
@@ -82,7 +82,7 @@ In the displayed tree structure, each individual element of the implementation c
 
 ![6_green_24.png](assets/6_green_24.png) If the "Quality management" module has been activated, you can jump to the assigned **data collection preview** for each element.
 
-[7_green_24.png](assets/7_green_24.png) The **Learning progress** column shows the average progress of all participants. All learning path courses for this element are taken into account. (Conventional courses do not provide any data on learning progress).
+![7_green_24.png](assets/7_green_24.png) The **Learning progress** column shows the average progress of all participants. All learning path courses for this element are taken into account. (Conventional courses do not provide any data on learning progress).
 
 ![8_green_24.png](assets/8_green_24.png) Under the **3 points** you will find options for editing the elements.
 
