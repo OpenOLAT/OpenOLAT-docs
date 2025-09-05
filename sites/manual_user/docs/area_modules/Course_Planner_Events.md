@@ -1,7 +1,7 @@
 # Course Planner: Events {: #events}
 
 
-![course_planner_events_access_v1_de.png](assets/course_planner_events_access_v1_de.png){ class="shadow lightbox" }
+![course_planner_events_access_v2_de.png](assets/course_planner_events_access_v2_de.png){ class="shadow lightbox" }
 
 ## What dates does the Course Planner cover? {: #type_of_events}
 
@@ -17,14 +17,14 @@ The dates created and displayed in the Course Planner refer to the elements used
 
 You can find a selection of current dates on the **Overview of the Course Planner**.
 
-![course_planner_events_display1_v1_de.png](assets/course_planner_events_display1_v1_de.png){ class="shadow lightbox" }
+![course_planner_events_display1_v2_de.png](assets/course_planner_events_display1_v2_de.png){ class="shadow lightbox" }
 
 
 ### List of all events {: #event_list}
 
 You will find a complete overview of all dates in the Course Planner in the "Dates" section. Use the tabs and filters to narrow down and select.
 
-![course_planner_events_display2_v1_de.png](assets/course_planner_events_display2_v1_de.png){ class="shadow lightbox" }
+![course_planner_events_display2_v2_de.png](assets/course_planner_events_display2_v2_de.png){ class="shadow lightbox" }
 
 ![course_planner_events_display3_v1_de.png](assets/course_planner_events_display3_v1_de.png){ class="shadow lightbox" }
 
