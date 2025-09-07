@@ -246,6 +246,14 @@ Conventional courses (including all courses created before OpenOlat version 15) 
 
 The function is only available for conventional courses.
 
+!!! info
+
+    If the course is only to be transferred to the current format, the “With learning progress” option is usually the better choice. In this case, the course structure does not have to be edited in a fixed order, which is more in line with the hypermedia structure of the previous course. If necessary, this setting can also be adjusted retrospectively in the course editor of the copied course at the top course element. 
+    
+    Please note that guests do not have access to learning path courses. 
+
+Translated with DeepL.com (free version)
+
 [To the top of the page ^](#course_administration)
 
 

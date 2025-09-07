@@ -74,35 +74,53 @@ Die Themenvergabe im Kursbaustein Themenbörse geschieht deshalb in 2 Schritten:
 
 Im Tab "Konfiguration" werden die Rahmenbedingungen der Themenwahl und Einschreibung festgelegt.
 
-![course_element_topic_broker_configuration_v3_de.png](assets/course_element_topic_broker_configuration_v3_de.png){ class="shadow lightbox" }
+![Konfiguration Themenbörse](assets/Themenboerse_20.jpg){ class="shadow lightbox" }
 
-![1_green_24.png](assets/1_green_24.png) **Einschreibemethode**<br>
-Aktuell ist die Methode ["Faire Auswahl"](#topic_broker_algorithm) verfügbar. Es ist geplant, dass weitere Methoden zur Auswahl hinzukommen. 
 
-![2_green_24.png](assets/2_green_24.png) **Einschreibungen pro Teilnehmer:in**<br>
-Die Teilnehmer:innen sollen mehrere Wunschthemen angeben können, jedoch nach Durchführung der Zuordnung nur für 1 oder eine begrenzte Anzahl Themen definitiv eingeschrieben werden. In diesem Feld geben Sie an, für wie viele Themen die definitve Einschreibung erfolgt. Es ist eine zwingernd zu machende Angabe, die für alle Teilnehmer:innen gilt.
+#### Themenauswahl ![1_green_24.png](assets/1_green_24.png) 
 
-![3_green_24.png](assets/3_green_24.png) **Auswahl/Prioritäten pro Teilnehmer:in**<br>
+**Auswahlzeitraum**<br>
+Der Auswahlzeitraum ist das Zeitfenster, innerhalb dessen die Teilnehmer:innen ihre Themenwünsche abgeben müssen. Nach Ende des Auswahlzeitraums wird die Einschreibung ausgelöst.
+
+**Auswahl/Prioritäten pro Teilnehmer:in**<br>
 Wenn die Teilnehmer:innen mehrere Themen angegeben haben, können sie eine Auswahl als ihre Priorität/bevorzugter Wunsch markieren. In diesem Feld geben Sie an, wie viele Themen maximal als bevorzugtes Wunschthema angegeben werden können.
 
-**Teilnehmer:in kann ...**<br>
-![4_green_24.png](assets/4_green_24.png)  Wurden im Feld "Einschreibungen pro Teilnehmer:in" mehrere Einschreibungen als Vorgabe gewünscht, kann nun den Teilnehmer:innen erlaubt werden, die Anzahl der Einschreibungen individuell zu reduzieren. (Weniger Einschreibungen als im Feld "Einschreibungen pro Teilnehmer:in" vorgegeben wurde.)<br>
-![5_green_24.png](assets/5_green_24.png) Den Teilnehmer:innen kann auch erlaubt werden, Einschreibungen wieder zurückzuziehen, wenn nach Ablauf des Auswahlzeitraums die Zuteilung und Einschreibung erfolgt ist.
+Beides sind Pflichtfelder
 
-![6_green_24.png](assets/6_green_24.png) **Auswahlzeitraum**<br>
-Der Auswahlzeitraum ist das Zeitfenster, innerhalb dessen die Teilnehmer:innen ihre Themenwünsche abgeben müssen. Nach Ende des Auswahlzeitraums finden die Einschreibungen statt.
+#### Einschreibung
 
-![7_green_24.png](assets/7_green_24.png) **Einschreibung nach Ablauf der Frist**<br>
-Als Kursbesitzer:in entscheiden Sie, ob die definitiven Einschreibungen automatisch oder manuell vorgenommen werden, sobald das Ende des Auswahlzeitraums erreicht ist.
+![2_green_24.png](assets/2_green_24.png) **Einschreibungen pro Teilnehmer:in**<br>
+Hier wird definiert für wie viele Themen ein Teilnehmer bzw. eine Teilnehmerin letztendlich eingeschrieben wird, unabhängig von der Anzahl seiner/ihrer Prioritäten. Diese Angabe ist verbindlich. 
 
-![8_green_24.png](assets/8_green_24.png) **Rückzugfrist für Einschreibung**<br>
-Diese Option wird nur angeboten, wenn ![5_green_24.png](assets/5_green_24.png) "Einschreibung zurückziehen" gewählt wurde. Wenn ja, kann optional ein Zeitpunkt angegeben werden, bis zu dem eine Einschreibung zurückgezogen werden kann.
+![3_green_24.png](assets/3_green_24.png) **Teilnehmer:in kann ...**<br>
+Bei Bedarf können Teilnehmende auch die angegebene Anzahl der Einschreibungen von ![2_green_24.png](assets/2_green_24.png) selbst **reduzieren**, z.B. wenn sie gar nicht mehrere Themen bearbeiten. möchten. 
 
-![9_green_24.png](assets/9_green_24.png) **Berechtigungen: Thema bearbeiten**<br>
+![4_green_24.png](assets/4_green_24.png) 
+Den Teilnehmer:innen kann auch erlaubt werden, Einschreibungen wieder **zurückzuziehen**, wenn nach Ablauf des Auswahlzeitraums die Zuteilung und Einschreibung erfolgt ist. Wird der Haken für diese Option gesetzt, kann ein Datum eingetragen werden bis zu dem eine Einschreibung zurückgezogen werden kann.
+
+ ![5_green_24.png](assets/5_green_24.png) **Einschreibemethode**<br>
+Aktuell ist nur die Methode ["Faire Auswahl"](#topic_broker_algorithm) verfügbar. Es ist geplant, dass weitere Methoden zur Auswahl hinzukommen. 
+
+ ![6_green_24.png](assets/6_green_24.png) **Überschneidung der Durchführungszeiträume**<br>
+Generell können Wahlthemen auch mit einem Durchführungszeitraum versehen werden. Ist dies der Fall kann es wichtig sein zeitliche Überschneidungen bei der Wahl zu vermeiden. Durch das Setzen des Hakens wird eine Überschneidung im Einschreibeprozess vermieden 
+
+![7_green_24.png](assets/7_green_24.png) **Einschreibung nach Ablauf der Frist auslösen**<br>
+Grundsätzlich gibt es zwei Möglichkeiten, nach Ablauf der Einschreibefrist die Verteilung der Teilnehmenden auszulösen: Entweder manuell durch die Kursitzer:innen (siehe unten) oder automatisch durch das System nach Ende des Auswahlzeitraums. 
+
+Entscheiden Sie sich für "automatisch" erscheinen weitere Optionen und Sie können definieren nach welchem Prinzip die automatische Verteilung erfolgen soll.  
+a) **Maximale Anzahl Einschreibungen:** Hohe Einschreibequote und geringe Warteliste<br>
+b) **Maximale Prioritätenberücksichtigung:** Fokussiert auf eine möglichst hohe Erfüllung der gewählten Prioritäten <br>
+c) **Maximale Themenzahl**: Hohe Themenquote durch ausreichend Teilnehmende
+
+
+#### Berechtigungen  ![8_green_24.png](assets/8_green_24.png) 
+Bei Bedarf können neben den Kursbesitzer:innen auch Betreuende das Recht erhalten Themen und/oder Teilnehmende zu bearbeiten. 
+
+**Thema bearbeiten**<br>
 Standardmässig ist das Recht zum Bearbeiten der Themenvorgaben den Kursbesitzer:innen vorbehalten. Mit dieser Option kann das Recht auch Betreuer:innen gegeben werden.<br>
 Die Bearbeitung kann noch detaillierter spezifiziert werden, wenn die erweiterte Konfiguration genutzt wird (Toggle-Button am rechten Rand).
 
-![10_green_24.png](assets/10_green_24.png) **Berechtigungen: Teilnehmer:innen bearbeiten**<br>
+**Teilnehmer:innen bearbeiten**<br>
 Standardmässig ist das Recht zum Übersteuern und Bearbeiten einer getroffenen Themenauswahl den Kursbesitzer:innen vorbehalten. Mit dieser Option kann das Recht auch Betreuer:innen gegeben werden. (Diese haben normalerweise nur Leserecht, wenn sie einen der Namen wählen.) Die Möglichkeit zum Übersteuern sollte jedoch möglichst nur in Ausnahmefällen benutzt werden, denn sie läuft der eigentlichen Absicht zuwider, eine faire Verteilung durch einen neutralen Algorithmus zu ermöglichen.<br>
 Die Bearbeitung kann noch detaillierter spezifiziert werden, wenn die erweiterte Konfiguration genutzt wird (Toggle-Button am rechten Rand).<br>
  

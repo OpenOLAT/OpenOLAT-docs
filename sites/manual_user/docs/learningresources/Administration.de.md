@@ -242,9 +242,17 @@ Wenn Sie einen Kurs mit Hilfe des Wizards kopieren, können Sie die zu kopierend
 
 ![22_green_24.png](assets/22_green_24.png){ class=" aside-left-lg" }
 
-Herkömmliche Kurse (und damit u.a. alle Kurse die vor der OpenOlat Version 15 erstellt wurden), können über dieses Werkzeug in einen Lernpfad-Kurs konvertiert werden.
+Herkömmliche Kurse (und damit u.a. alle Kurse die vor der OpenOlat Version 15 erstellt wurden), können über dieses Werkzeug in einen Lernpfad-Kurs konvertiert werden. Beim Konvertieren muss als erstes entschieden werden, ob ein der Kurs "mit Lernpfad" oder "Mit Fortschritt" erstellt werden soll. 
 
 Diese Funktion ist nur für herkömmliche Kurse verfügbar.
+
+!!! info "Tipp"
+
+     Wenn der Kurs lediglich in das aktuelle Format übertragen werden soll, ist in den meisten Fällen die Option „Mit Lernfortschritt“ die bessere Wahl. Hier muss die Kursstruktur nicht in einer festen Reihenfolge bearbeitet werden, was der Hypermedia-Struktur des Ausgangskurses eher entspricht. Diese Einstellung kann bei Bedarf auch nachträglich im Kurseditor des kopierten Kurses am obersten Kursbaustein angepasst werden.
+     
+     Beachten Sie, dass grundsätzlich Gäste keinen Zugang zu Lernpfad-Kursen haben. 
+
+
 
 [Zum Seitenanfang ^](#course_administration)
 
