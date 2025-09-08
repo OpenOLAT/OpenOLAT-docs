@@ -211,7 +211,7 @@ Hier können Elemente des Kurses mit Hilfe eines Wizards archiviert werden. Es k
 
 ![19_green_24.png](assets/19_green_24.png){ class=" aside-left-lg" }
 
-tbd
+Um einen Kurs oder eine andere Lernressource im Katalog anzubieten, benötigt es jeweils mindestens ein Angebot. Es können aber auch mehrere verschiedene Angebote erstellt werden, zu denen Sie hier die Buchungsaufträge finden.
 
 [Zu den Details >](Offer_Types.de.md)<br> 
 [Zum Seitenanfang ^](#course_administration)

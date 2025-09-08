@@ -211,7 +211,7 @@ Elements of the course can be archived here with the help of a wizard. A complet
 
 ![19_green_24.png](assets/19_green_24.png){ class=" aside-left-lg" }
 
-tbd
+In order to offer a course or other learning resource in the catalog, at lerast one offer is required. However, several different offers can also be created, for which you will find the booking orders here.
 
 [See the details >](Offer_Types.md)<br> 
 [To the top of the page ^](#course_administration)
