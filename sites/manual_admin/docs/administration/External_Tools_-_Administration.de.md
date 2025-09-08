@@ -261,16 +261,16 @@ In OpenOlat können an verschiedenen Orten PDFs erzeugt werden, z.B. Zertifikate
 Diese Funktionen stehen nur zur Verfügung, wenn ein PDF-Service konfiguriert ist. 
 
 
-### Gotenberg (empfohlen)
+### Gotenberg (empfohlen) {: #gotenberg}
 
 Gotenberg ist ein PDF Generator der auf Google Chrome oder Chromium basiert und es ist Docker basiert.
 
-Mehr Informationen über Gotenberg befinden sich auf [Gotenberg](https://gotenberg.dev/docs/about) und [GitHub](https://github.com/gotenberg/gotenberg).
+Mehr Informationen über Gotenberg befinden sich auf [Gotenberg](https://gotenberg.dev/docs/getting-started/introduction) und [GitHub](https://github.com/gotenberg/gotenberg).
 
 Wie Sie den Gotenberg PDF-Service installieren und konfigurieren erfahren Sie im [Installationshandbuch](../installation/gotenbergPdf.md).
 
 
-### Athena PDF (veraltet)
+### Athena PDF (veraltet) {: #athena}
 
 [AthenaPDF](https://www.athenapdf.com) ist ein
 PDF Generator der auf Electron und Docker basiert. Diese Implementation
