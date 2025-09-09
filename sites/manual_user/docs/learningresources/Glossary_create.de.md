@@ -47,7 +47,7 @@ Sie finden dort den Button (4), der ein Popup-Fenster öffnet, in dem ein vorhan
 
 Es kann ermöglicht werden, dass auch Lernende ein Glossar inhaltlich befüllen können.
 
-<h3>Schreibrecht für alle Benutzer:innen</h3>
+### Schreibrecht für alle Benutzer:innen
 
 In der Lernressource "Glossar" kann unter Administration > Einstellungen im **Tab "Schreibberechtigung"** definiert werden, ob nur die Besitzer der Lernressource Beiträge erstellen und editieren dürfen oder ob auch Benutzer das Recht erhalten.
 
@@ -63,7 +63,7 @@ Wenn diese Funktion eingeschaltet ist, wird der jeweilige Urheber und die letzte
 
 
 
-<h3>Schreibrecht nur für ausgewählte Benutzer:innen</h3>
+### Schreibrecht nur für ausgewählte Benutzer:innen
 
 Möchte man nur bestimmten Personen (z.B. den Teilnehmenden eines Kurses) das Schreibrecht für ein Glossar vergeben, geht man einen anderen Weg. Hierfür wird die **Mitgliederverwaltung** eines Kurses verwendet. Erstellen Sie dort eine neue **Gruppe** und fügen Sie die gewünschten Personen als Teilnehmer:innen dieser Gruppe hinzu. Gehen Sie anschließend in der Mitgliederverwaltung des Kurses in den Bereich **"Rechte"** und setzen Sie bei den Kursteilnehmer:innen der Gruppe den Haken für das Recht **"Glossarwerkzeug"**. Nun können die Personen der Gruppe Glossareinträge hinzufügen und ändern.
 

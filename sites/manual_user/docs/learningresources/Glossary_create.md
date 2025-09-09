@@ -1,7 +1,7 @@
 # Glossary - create
 
 
-## Where is a new glossary created?
+## Where is a new glossary created? {: #where}
 
 Glossaries can be created like other learning resources in the **Author area**.
 
@@ -14,11 +14,14 @@ You will find the button (4) there, which opens a pop-up window in which an exis
 
 !!! note "Note"
 
-    Several glossaries can be created in the author area. However, only 1 glossary can be included per course.
+    Several glossaries can be created in the author area. However, only on glossary can be included per course.
+
+[To the top of the page ^](#glossary_create)
+
+---
 
 
-
-## Create glossary entries
+## Create glossary entries {: #create_entries}
 
 ``1.`` Go to the **Authoring area** and open the glossary. <br>
 (Click on the name or click on the edit button or "edit" under the icon with the three points.)
@@ -48,7 +51,7 @@ In the learning resource "Glossary" under Administration > Settings in the **Tab
 
 **Owners** of the respective learning resource "Glossary" can change and delete all created glossary entries. By default, new glossary entries can only be made by the course owner.
 
-The selection “Write authorization for all users” allows **all system users** to create new glossary entries.
+The selection "Write authorization for all users" allows **all system users** to create new glossary entries.
 Anyone who has created a glossary entry can then edit and delete this self-created entry.
 The owners of a glossary, on the other hand, can change or delete all contributions - including those created by other users - at any time.
 
@@ -60,6 +63,10 @@ If this function is activated, the respective author and the last person who mad
 ### Writing permission for selected users
 
 If you only want to grant writing permission for a glossary to certain people (e.g. participants in a course), there is another way. The **Member administration** of a course is used for this. Create a new **group** there and add the desired persons as participants in this group. Then go to the **"Rights"** area in the course's member administration and check the **"Glossary tool"** right for the course participants in the group. The people in the group can now add and change glossary entries.
+
+[To the top of the page ^](#glossary_create)
+
+---
 
 
 ## Design glossary
@@ -74,7 +81,7 @@ The explanations (definitions) can be edited with a simple editor that allows ad
 
 The alphabetical register is designed for a Latin alphabet and contains the characters from A-Z. For a glossary with a different character set, the register should be switched off.
 
-**Administration > Settings > "Alphabetical tab"** tab
+**Administration > Settings > "Alphabetical tab"**
 
 ![glossary_settings_register_v1_de.png](assets/glossary_settings_register_v1_de.png){ class="shadow lightbox" }
 
@@ -84,8 +91,12 @@ The alphabetical register is designed for a Latin alphabet and contains the char
 
     In order for the other course owners to be able to make changes, one of the described authorizations must be set up or the desired course owners must also be entered as owners of the respective "Glossary" learning resource.
 
+[To the top of the page ^](#glossary_create)
 
-## Include glossary
+---
+
+
+## Integrate glossary {: #integrate}
 
 Glossaries are OpenOlat learning resources that are usually integrated into a course. They can also be used as stand-alone learning resources. In this case, the glossary can also be displayed as a stand-alone resource in the catalog, for example.
 
@@ -96,17 +107,24 @@ A general activation of the glossary function by administrators is not required.
 ![glossary_create_settings_v1_de.png](assets/glossary_create_settings_v1_de.png){ class="shadow lightbox" }
 
 ``2.`` In order for the integrated glossary to be visible in the course toolbar, the display as a tool must be selected. Select the corresponding checkbox under<br>
-**Administration > Settings > "Toolbar" tab
+**Administration > Settings > "Toolbar" tab**
 
 ![glossary_settings_toolbar_activate_v1_de.png](assets/glossary_settings_toolbar_activate_v1_de.png){ class="shadow lightbox" }
 
 
 !!! note "Note"
 
-    Only 1 glossary can be integrated per course. However, several glossary learning resources can be available in the authoring area so that different glossaries can be used in different courses.
+    Only one glossary can be integrated per course. However, several glossary learning resources can be available in the authoring area so that different glossaries can be used in different courses.
 
 If you no longer use the glossary or would like to include a different glossary in your course, you can select a different glossary learning resource in the **Administration -> Settings** menu under the **Options** tab.
 
 
+---
 
+## Further information  {: #further_information}
+
+
+[Create glossary >](../learningresources/Glossary_create.md)
+
+[To the top of the page ^](#glossary_usage)
 
