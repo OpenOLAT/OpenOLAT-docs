@@ -24,7 +24,7 @@ Personen (OpenOlat-Benutzern sowie Externen) [zugänglich machen](../area_module
 [Übersicht zur Portfolio-Erstellung >](../area_modules/Portfolio.de.md)<br>
 [Allgemeines zum Portfolio >](../area_modules/Portfolio_General_Information.de.md)<br>
 [Bestandteile des Portfolio >](../area_modules/Components_of_the_portfolio.de.md)<br>
-[Prozess eines Bewertungsportfolios >](../portfolio/Process_of_an_assessment_portfolio.de.mdmd)
+[Prozess eines Bewertungsportfolios >](../portfolio/Process_of_an_assessment_portfolio.de.md)
 [Portfolioaufgaben in Kursen >](../learningresources/Course_Element_Portfolio_Task.de.md)<br>
 
 

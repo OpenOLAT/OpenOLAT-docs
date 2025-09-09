@@ -31,7 +31,7 @@ Authorized users can find the cross-course absence management in the **header me
 
 ## Who can use the absence management? {: #users}
 
-Course owners decide whether absence management is used in a particular course.
+Course owners decide whether absence management is **used** in a particular course.
 
 The **recording** of individual absences is then usually the responsibility of the coaches. That is why they will find the tools for recording absences in the courses or in the coaching tool.
 Participants record their own absences/cancellations/appeals in the [personal menu >](../personal_menu/Absences.md).

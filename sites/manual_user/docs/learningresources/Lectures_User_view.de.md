@@ -2,7 +2,7 @@
 
 Ein Benutzer kann seine Absenzen im persönlichen Menu öffnen
 
-![Persönliches Menü Absenzen](assets/Absenzen_aufrufen.png)
+![Persönliches Menü Absenzen](assets/Absenz_TNview_EN.png)
 
 ## Übersicht der Kurse
 

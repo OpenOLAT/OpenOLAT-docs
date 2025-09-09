@@ -2,7 +2,7 @@
 
 !!! info "Hinweis"
 
-    Dieses Werkzeug wird im Coaching Tool nur angezeigt, wenn vom Administrator das Modul [Curriculum](../../manual_admin/administration/Modules_Curriculum.de.md) aktiviert wurde.
+    Dieses Werkzeug wird im Coaching Tool nur angezeigt, wenn vom Administrator das Modul Curriculum aktiviert wurde.
 
 ![coaching_klassen_v1_de.png](assets/coaching_klassen_v1_de.png){ class="shadow lightbox" }
 

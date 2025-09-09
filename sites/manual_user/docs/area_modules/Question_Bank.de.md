@@ -18,7 +18,7 @@ Die Fragen können mit anderen Personen, die auch Zugriff auf den Pool haben, ge
 !!! note "Quick Links"
 
     * [Handhabung der Daten](Data_Management.de.md)
-    * [Fragen importieren](Question_Pool_Import_Questions.de.md)
+    * [Fragen importieren](Question_Bank_Import_Questions.de.md)
     * [Detailansicht einer Frage](Item_Detailed_View.de.md)
     * [Mögliche Aktionen im Fragenpool](Question_bank_possible_operations.de.md)
     * [Suche im Fragenpool](Question_Pool_Search.de.md)

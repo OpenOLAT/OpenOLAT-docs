@@ -35,7 +35,7 @@ Im Kurseditor kann konfiguriert werden, ob neben den Kursbesiter:innen auch Betr
 
 ![content_editor_page_edit_right_coach_v1_de.png](assets/content_editor_page_edit_right_coach_v1_de.png){ class="shadow lightbox" }
 
-Die Medien-Inhalte des [Kursbausteins „Seite“](../learningresources/Course_Element_Page.de.md) (Bilder, Audio, Video, Diagramme, Zitate, Dokumente, etc.) werden im [Media Center](../personal_menu/Media_Center.de.md), nicht im Ablageordner des Kurses (vergl. [Kursbaustein "HTML-Seite"](../learningresources/Course_Element_HTML_Page.de.md)), gespeichert. Weitere Infos finden Sie bei den Erläuterungen zu den jeweiligen Kursbausteintypen. 
+Die Medien-Inhalte des [Kursbausteins "Seite"](../learningresources/Course_Element_Page.de.md) (Bilder, Audio, Video, Diagramme, Zitate, Dokumente, etc.) werden im [Media Center](../personal_menu/Media_Center.de.md), nicht im Ablageordner des Kurses (vergl. [Kursbaustein "HTML-Seite"](../learningresources/Course_Element_HTML_Page.de.md)), gespeichert. Weitere Infos finden Sie bei den Erläuterungen zu den jeweiligen Kursbausteintypen. 
 
 Für Portfolio und Formular-Lernressource gelten andere Regeln.
 
@@ -182,7 +182,7 @@ Dieses Textelement existiert nicht im Formular Editor.
 
 !!! info "Info"
 
-    Statt des Bereichs Medien mit den zugehörigen Inhaltselementen gibt es im [Formular Editor](../learningresources/Form_editor_17_1.de.md) die Bereiche "Fragetypen" und "Organisatorisch" mit entsprechenden Inhaltselementen. 
+    Statt des Bereichs Medien mit den zugehörigen Inhaltselementen gibt es im [Formular Editor](../learningresources/Form_Editor.de.md) die Bereiche "Fragetypen" und "Organisatorisch" mit entsprechenden Inhaltselementen. 
 
 <h3>Bild</h3>
 
