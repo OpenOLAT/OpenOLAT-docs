@@ -1,8 +1,5 @@
 # Tests exportieren {: #test_export}
 
-!!! warning "Achtung"
-
-    Dieser Artikel ist noch in Bearbeitung.
 
 Beim Exportieren von Tests ist zu unterscheiden zwischen
 
