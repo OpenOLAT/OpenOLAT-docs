@@ -9,5 +9,6 @@
   * [Configure tests](Configure_tests.md)
 * [Test settings](Test_settings.md)
 * [Tests at course level](Tests_at_course_level.md)
+* [Export tests](Test_export.md)
 
 This chapter explains how OpenOlat authors can create tests, which question types are available and which configuration options are available. In addition, there is information on the integration and use of tests and self-tests in courses as well as the evaluation and provision of test results.

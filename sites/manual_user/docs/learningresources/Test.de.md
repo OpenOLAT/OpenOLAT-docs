@@ -9,5 +9,6 @@
   * [Test konfigurieren](Configure_tests.de.md)
 * [Test Einstellungen](Test_settings.de.md)
 * [Tests auf Kursebene](Tests_at_course_level.de.md)
+* [Tests exportieren](Test_export.de.md)
 
 Dieses Kapitel erklärt wie OpenOlat Autoren Tests erstellen können, welche Fragetypen zur Verfügung stehen und welche Konfigurationsmöglichkeiten bereitstehen. Darüber hinaus gibt es Informationen zur Einbindung und Nutzung von Tests und Selbsttests in Kursen sowie der Auswertung und Bereitstellung von Testergebnissen.  
