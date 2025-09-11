@@ -27,8 +27,8 @@ At least one property marked in green from each column must be true:
 
 ## The tools
 
-![coaching_werkzeuge_v2_de.png](assets/coaching_werkzeuge_v2_de.png){ class="shadow lightbox" }
+![coaching_werkzeuge_v3_en.png](assets/coaching_werkzeuge_v3_en.png){ class="shadow lightbox" }
 
 !!! info "Note"
 
-    The left-hand side menu will rarely contain all the menu options shown here. Depending on the activated modules, a different composition is displayed. Here in the manual, the maximum selection is shown for explanation.
+    The menu will rarely contain all the options shown here. Depending on the activated modules, a different composition is displayed. Here in the manual, the maximum selection is shown for explanation.

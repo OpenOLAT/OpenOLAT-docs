@@ -1,4 +1,4 @@
-# Coaching - Übersicht
+# Coaching - Übersicht {: #coaching}
 
 ## Wozu dient das Coaching Tool?
 
@@ -11,7 +11,7 @@ Mit dem Coaching-Tool haben Kursbesitzer, Kursbettreuer und Gruppenbetreuer die 
 
 !!! info "Hinweis"
 
-    Die Menüoption "Coaching" kann grundsätzlich nur erscheinen, wenn das Werkzeug vom OpenOlat Administrator auch aktiviert wurde.
+    Die Menüoption "Coaching" kann grundsätzlich nur erscheinen, wenn das Werkzeug in der OpenOlat Administration auch aktiviert wurde.
 
 Ob das Coaching Tool im Hauptmenü dann angezeigt wird, hängt von weiteren Faktoren ab:
 
@@ -27,9 +27,9 @@ Aus jeder Spalte muss mindestens eine grün markierte Eigenschaft zutreffen:
 
 ## Die Werkzeuge
 
-![coaching_werkzeuge_v2_de.png](assets/coaching_werkzeuge_v2_de.png){ class="shadow lightbox" }
+![coaching_werkzeuge_v3_de.png](assets/coaching_werkzeuge_v3_de.png){ class="shadow lightbox" }
 
 !!! info "Hinweis"
 
-    Das Menü der linken Seite wird in den seltensten Fällen alle hier gezeigten Menüoptionen enthalten. Je nach aktivierten Modulen wird eine andere Zusammensetzung angezeigt. Hier im Handbuch soll zur Erklärung die maximale Auswahl gezeigt werden.
+    Das Menü wird in den seltensten Fällen alle hier gezeigten Optionen enthalten. Je nach aktivierten Modulen wird eine andere Zusammensetzung angezeigt. Hier im Handbuch soll zur Erklärung die maximale Auswahl gezeigt werden.
 
