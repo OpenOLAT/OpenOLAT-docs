@@ -13,17 +13,17 @@ Das Modul Course Planner ist ab Release 20 optional an Stelle des Moduls Curricu
  
 ### Tab Course Planner
 
-![modules_course_planner_tab_cp_v1_de.png](assets/modules_course_planner_tab_cp_v1_de.png){ class="shadow lightbox" }
+![modules_course_planner_tab_cp_v2_de.png](assets/modules_course_planner_tab_cp_v2_de.png){ class="shadow lightbox" }
 
 
 ![1_green_24.png](assets/1_green_24.png) **Course Planner einschalten**<br>
 Mit dieser Checkbox wird das gesamte Modul aktiviert.
 
-![2_green_24.png](assets/2_green_24.png) **Curriculum in "Meine Kurse"**<br>
-Alle Teilnehmer:innen finden in der Hauptnavigation in der Kopfzeile den Menü-Eintrag "Kurse". Unter diesem Menüpunkt können den Teilnehmer:innen ebenfalls Curricula angezeigt werden. 
+![2_green_24.png](assets/2_green_24.png) **Produkt in "Meine Kurse"**<br>
+Alle Teilnehmer:innen finden in der Hauptnavigation in der Kopfzeile den Menü-Eintrag "Kurse". Unter diesem Menüpunkt können den Teilnehmer:innen ebenfalls Produkte angezeigt werden. 
 
 ![3_green_24.png](assets/3_green_24.png) **Benutzer:innen Übersicht**<br>
-Hier bestimmen Sie als Administrator:in, welche Optionen die Rollen.
+Hier bestimmen Sie als Administrator:in, welche Optionen die Rollen
 
 * Course Planner
 * Education Manager und

@@ -14,12 +14,12 @@ From Release 20, the Course Planner module is optionally available in OpenOlat i
 
 ### Tab Course Planner
 
-![modules_course_planner_tab_cp_v1_de.png](assets/modules_course_planner_tab_cp_v1_de.png){ class="shadow lightbox" }
+![modules_course_planner_tab_cp_v2_de.png](assets/modules_course_planner_tab_cp_v2_de.png){ class="shadow lightbox" }
 
 ![1_green_24.png](assets/1_green_24.png) **Turn on Course Planner**<br>
 This checkbox activates the entire module.
 
-![2_green_24.png](assets/2_green_24.png) **Curriculum in "My courses"**<br>
+![2_green_24.png](assets/2_green_24.png) **Product in "My courses"**<br>
 All participants will find the menu item "Courses" in the header of the main navigation bar. Curricula can also be displayed to participants under this menu item. 
 
 ![3_green_24.png](assets/3_green_24.png) **User overview**<br>
