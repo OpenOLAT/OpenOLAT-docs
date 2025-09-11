@@ -167,13 +167,13 @@ Im nachstehenden Beispiel ist im unteren Bereich zusätzlich ein Feld enthalten,
 
 ---
 
-### Themen exportieren/importieren {: #topic_broker_export_import_topics}
+### Themen und Daten exportieren/importieren {: #topic_broker_export_import_topics}
 
 **Themen exportieren**<br>
 Zum Exportieren der Themen wählen Sie im Kurseditor den betreffenden Kursbaustein, dann den **Tab "Themen"** und dort den **Button "Daten exportieren"**.<br>
 Der Button steht auch nach dem Verlassen des Kurseditors im Run-Mode (Kopfzeile nicht schraffiert) zur Verfügung.
 
-Beim Export wird eine zip-Datei erstellt, die eine Excel-Datei (mit allen Themen) und die dazugehörigen Mediendateien enthält. 
+Beim Export wird eine zip-Datei erstellt, die eine Excel-Datei (mit allen Themen) und die dazugehörigen Mediendateien enthält. Im Tab "Teilnehmende" der Excel-Datei ist ersichtlich, welche Teilnehmenden für dieses Thema eingetragen sind. 
 
 ![course_element_topic_broker_topic_export1_v1_de.png](assets/course_element_topic_broker_topic_export1_v1_de.png){ class="shadow lightbox" }
 

@@ -150,13 +150,13 @@ In the example below, the lower section also contains a field that was added in 
 
 ---
 
-### Export/Import topics {: #topic_broker_export_import_topics}
+### Export/Import topics and data {: #topic_broker_export_import_topics}
 
 **Export topics**<br>
 To export the topics, select the relevant course element in the course editor, then the **Tab "Topics"** and there the **Button “Export data"**.<br>
 The button is also available after leaving the course editor in run mode (header not hatched).
 
-When exporting, a zip file is created that contains an Excel file (with all topics) and the associated media files.
+When exporting, a zip file is created that contains an Excel file (with all topics) and the associated media files. The Participants’ tab in the Excel file shows which participants are registered for this topic.
 
 ![course_element_topic_broker_topic_export1_v1_de.png](assets/course_element_topic_broker_topic_export1_v1_de.png){ class="shadow lightbox" }
 
