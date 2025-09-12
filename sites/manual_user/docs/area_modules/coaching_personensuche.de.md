@@ -2,10 +2,9 @@
 
 ![coaching_user_search1_v1_de.png](assets/coaching_user_search1_v1_de.png){ class="shadow lightbox" }
 
-
 !!! tip "Tipp"
 
-  Wenn Sie das Lupensymbol ohne Eingabe eines Names klicken, erhalten Sie die Gesamtliste der von Ihnen betreuten Personen. Sie finden hier viele Filtermöglichkeiten. 
+    Wenn Sie das Lupensymbol ohne Eingabe eines Names klicken, erhalten Sie die Gesamtliste der von Ihnen betreuten Personen. Sie finden hier viele Filtermöglichkeiten. 
 
  
 ![coaching_user_search2_v1_de.png](assets/coaching_user_search2_v1_de.png){ class="shadow lightbox" }

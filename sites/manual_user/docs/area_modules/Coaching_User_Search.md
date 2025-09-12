@@ -1,4 +1,4 @@
-# Coaching - User search {: #search}
+# Coaching - User search {: #user_search}
 
 ![coaching_user_search1_v1_de.png](assets/coaching_user_search1_v1_de.png){ class="shadow lightbox" }
 

@@ -1,14 +1,15 @@
-# Coaching - User search {: #search}
+# Coaching - Personensuche {: #user_search}
 
 ![coaching_user_search1_v1_de.png](assets/coaching_user_search1_v1_de.png){ class="shadow lightbox" }
 
-!!! tip "Hint"
+!!! tip "Tipp"
 
-    If you click on the magnifying glass icon without entering a name, you will see a complete list of the people you are responsible for. Here you will find many filter options. 
+    Wenn Sie das Lupensymbol ohne Eingabe eines Names klicken, erhalten Sie die Gesamtliste der von Ihnen betreuten Personen. Sie finden hier viele Filtermöglichkeiten. 
 
+ 
 ![coaching_user_search2_v1_de.png](assets/coaching_user_search2_v1_de.png){ class="shadow lightbox" }
 
 <br>
-If you use the search form, you can search for many individual characteristics.
+Verwenden Sie das Suchformular, kann nach vielen Einzelmerkmalen gesucht werden.
 
 ![coaching_user_search3_v1_de.png](assets/coaching_user_search3_v1_de.png){ class="shadow lightbox" }

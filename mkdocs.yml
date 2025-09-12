@@ -137,6 +137,7 @@ plugins:
           Assessment mode : Prüfungsmodus
           Assessment of course modules : Bewertung von Kursbausteinen
           Assessment of learners : Lernende bewerten
+          Assessment orders : Bewertungsaufträge
           Assessment tool : Bewertungswerkzeug
           Assign roles : Rollen zuweisen
           Attend Participants : Teilnehmer betreuen
@@ -436,7 +437,7 @@ plugins:
           Other : Andere
           Other users : Personensuche
           Orders : Aufträge
-          Orders management : Auftragsverwaltung
+          Order management : Auftragsverwaltung
           Organize a topic assignment : Themenvergabe organisieren
           Overview : Übersicht
           Page: Seite
@@ -444,10 +445,11 @@ plugins:
           Participant Folder : Teilnehmer Ordner
           Participant list : Teilnehmerliste
           Passkey : Passkey
-          Password  : Passwort
+          Password : Passwort
           Password and Authentication : Passwort und Authentifizierung
           Payment modules : Bezahlungsmodule
           PayPal Configuration : PayPal Konfiguration
+          People : Personen
           Performance assessment : Leistungsbewertung
           Personal folders : Persönliche Ordner
           Personal Menu : Persönliche Werkzeuge
