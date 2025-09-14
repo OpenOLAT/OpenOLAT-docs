@@ -14,41 +14,44 @@ Spezialität / Hinweis |
 
 
 
-Mit dem Kursbaustein Terminplanung können sowohl Einschreibungen für bestimmte Termine als auch Terminfindungen organisiert werden. Generell kann konfiguriert werden, ob mehrere Termine ausgewählt werden können, ob es eine Begrenzung der Teilnehmerzahl gibt, ob die Teilnehmenden sehen wer sich eingetragen hat und ob ein BigBlueButton Raum zugeordnet werden soll.
+Mit dem Kursbaustein Terminplanung lassen sich sowohl Einschreibungen für feste Termine als auch Terminfindungen organisieren. Dabei kann unter anderem festgelegt werden, ob mehrere Termine auswählbar sind, ob die Teilnehmendenzahl begrenzt wird, ob sichtbar ist, wer sich eingetragen hat, und ob ein in der OpenOlat-Instanz installiertes virtuelles Klassenzimmer (z. B. BigBlueButton oder Teams) zugeordnet werden soll.
 
-Im Kurseditor wird der Kursbaustein hinzugefügt und es kann festgelegt werden, ob Betreuer Themen und Termine ebenfalls bearbeiten dürfen oder ob dies nur durch die Kursbesitzer möglich ist. Soll die Terminwahl nur innerhalb eines bestimmten Zeitfensters möglich sein, müssen die Zeitangaben im Kurseditor im Tab "Lernpfad" entsprechend angegeben werden bzw. bei herkömmlichen Kursen die Sichtbarkeit oder der Zugang passend konfiguriert werden.
+## Im Kurseditor
 
-Die eigentliche Konfiguration und Einrichtung der Termine erfolgt jedoch im Kursrun bei geschlossenem Editor. Dafür werden zunächst über den Button "Anlass erstellen" eine neue Einschreibung oder Terminfindung angelegt und die Basiskonfiguration vorgenommen sowie Termine eingetragen.
+Im Kurseditor wird der Kursbaustein hinzugefügt. Im Tab "Konfiguration" werden die Berechtigungen für bestimmte Personengruppen festgelegt. So kann definiert werden ob Kurs Besitzer:innen und /oder Kurs Betreuende als Organisator:innen der Termine gelten, ob diese eine E-Mail-Benachrichtigung erhalten, ob Teilnehmende ihre Wahl kommentieren dürfen und wer die Berechtigung erhält einen Anlass zu bearbeiten (z.B. Personen mit einer bestimmten Rolle, einzelne Teilnehmende oder bestimmte Gruppe). 
 
-Über den Button "**Termin hinzufügen**" können Sie auch später noch weitere Termine dieser Abstimmung hinzufügen.  Auch können bereits angelegte Termine über den Drei-Punkte-Link wieder überarbeitet werden.
+Soll die Terminwahl nur innerhalb eines bestimmten Zeitfensters möglich sein, müssen die Zeitangaben im Kurseditor im Tab "Lernpfad" entsprechend angegeben werden bzw. bei herkömmlichen Kursen die Sichtbarkeit oder der Zugang passend konfiguriert werden.
 
-![Termin hinzufügen](assets/Termin_hinzufuegen.jpg)
+## Im Kursrun (geschlossener Kurseditor)
 
-## Anlass konfigurieren
+Die eigentliche Konfiguration und Einrichtung der wählbaren Termine erfolgt im Kursrun bei geschlossenem Editor. Über den Button „Anlass erstellen“ wird zunächst eine neue Terminbuchung oder Terminfindung angelegt, die Basiskonfiguration vorgenommen und die ersten Termine eingetragen. Mit „Termin hinzufügen“ können später weitere Termine ergänzt werden. Bereits angelegte Termine lassen sich über das Drei-Punkte-Menü jederzeit wieder bearbeiten.
 
-Ein "Anlass" ist eine Zusammenstellung von mehreren Terminen die ausgewählt werden können.
+### Anlass konfigurieren
 
-![Anlass erstellen, Konfiguration](assets/Anlass_erstellen.png)
+Klicken Sie als erstes auf **"Anlass erstellen".** Ein "Anlass" ist eine Zusammenstellung von mehreren Terminen die ausgewählt werden können. 
 
-So konfigurieren Sie eine Terminbuchung oder Terminfindung:
+Es erscheint das Konfigurationsmenü und Sie können folgende Aspekte festlegen: 
 
-**Titel:** Geben Sie hier die Bezeichnung des Termins an, z.B. "Abstimmung Abschlussmeeting", "Kick-Off-Meeting" usw. Die Eingabe ist notwendig
-(Pflichtfeld).
+![Anlass erstellen, Konfiguration](assets/Terminplanung_Anlass_erstellen_20.jpg)
 
- **Beschreibung:** Erläutern Sie die Terminwahl näher.
 
- **Typ:** Entscheiden Sie ob es sich um eine Terminfindung für einen gemeinsamen Termin oder um die Einschreibung für einen oder mehrere Termine
-aus einer Auswahl, z.B. Labortermine handelt.
+**Titel:** Geben Sie hier die Bezeichnung des Termins an, z.B. "Abstimmung Abschlussmeeting", "Kick-Off-Meeting" usw. Die Eingabe ist notwendig (Pflichtfeld).
 
- **Konfiguration:** Entscheiden sie ob die Teilnehmenden nur einen oder mehrere Termine auswählen dürfen und ob die Namen der Teilnehmenden für andere Teilnehmende sichtbar sein sollen. Beim Typ "Terminbuchung" kann ergänzend noch definiert werden ob der Organisator den Termin noch bestätigen muss.
+**Beschreibung:** Erläutern Sie die Terminwahl näher. Worum geht es?
 
- **Organisator:**  Definieren Sie hier, wer als Organisator der Terminplanung angezeigt wird.
+**Typ:** Entscheiden Sie ob es sich um eine *Terminfindung* für einen gemeinsamen Termin oder um die Einschreibung für einen oder mehrere Termine aus einer Auswahl, z.B. Labortermine handelt (= *Terminbuchung*).
 
- **Ort:** Geben Sie hier den Veranstaltungsort ein.
+**Konfiguration:** Entscheiden sie ob die Teilnehmenden nur einen oder mehrere Termine auswählen dürfen und ob die Namen der Teilnehmenden für andere Teilnehmende sichtbar sein sollen. Beim Typ "Terminbuchung" kann ergänzend noch definiert werden ob die Organisator:innen den Termin noch bestätigen müssen. 
 
- **Max. Teilnehmer:** Sie können die Mitgliederzahl für einen Termin begrenzen (nur bei "Terminbuchung").
+**Organisator:in:**  Definieren Sie hier, wer als Organisator:in der Terminplanung für die User angezeigt wird.
 
- **Terminart:** Sie können Termine basierend auf der Dauer, basierend auf einem Start- und Enddatum oder wiederkehrend nach bestimmten Wochentagen anlegen. Die Auswahl erleichtert Ihnen die Erstellung von weiteren Terminen.
+**Ort:** Geben Sie hier den Veranstaltungsort ein.
+
+**Max. Teilnehmer:** Sie können die Mitgliederzahl für einen Termin begrenzen (nur bei "Terminbuchung").
+
+**Einschreibefrist:** Hier kann festgelegt werden, bis wann vor dem Termin eine Einschreibung möglich ist. Beispiel: Mit „1d“ endet die Einschreibung einen Tag vor dem Termin.
+
+**Terminart:** Sie können Termine basierend auf der Dauer, basierend auf einem Start- und Enddatum oder wiederkehrend nach bestimmten Wochentagen anlegen. Die Auswahl erleichtert Ihnen die Erstellung von weiteren Terminen.
 
 !!! info "Info"
 
@@ -56,30 +59,41 @@ aus einer Auswahl, z.B. Labortermine handelt.
 
     Wird Start/Ende gewählt bleiben die gewählten Uhrzeiten erhalten und man braucht bei neuen Einträgen nur das Datum anzupassen.
 
- **Termine:** Hier werden die konkreten Wahltermine eingetragen. Durch Klick auf das "+ Zeichen" werden neue Termine hinzugefügt. Durch Klick auf das "-Zeichen" werden Termine wieder gelöscht.
+**Termine:** Hier werden die konkreten Wahltermine eingetragen. Durch Klick auf das "+ Zeichen" werden neue Termine hinzugefügt. Durch Klick auf das "-Zeichen" werden Termine wieder gelöscht.
 
- **Online Termin:** Die Optionen sind: Nein, kein Online-Termin oder man wählt direkt das gewünschte Tool BigBlueButton oder Teams aus, sofern vom Administrator die Virtuellen Klassenzimmer aktiviert wurden.
+**Online Termin:** Sollen die Wahltermine mit einem Virtuellen Klassenzimmer wie BigBlueButton oder Teams verbunden werden, kann das hier direkt vorausgewählt und die Räume entsprechend konfiguriert werden. Welche Systeme zur Verfügung stehen ist abhängig von der jeweiligen OpenOlat Installation. 
+Wählen Sie "Nein", wenn keine entsprechende  Verknüpfung vorgesehen ist. 
 
-!!! tip "Tipp"
+!!! info "Info"
 
-    Wird BigBlueButton oder Teams aktiviert, kann für die gewählten Termine jeweils ein BigBlueButton bzw. Teams Raum hinzugefügt und weiter konfiguriert werden. Beim Ort wird in diesem Fall automatisch "online" angezeigt.
+    Wird BigBlueButton oder Teams aktiviert wird beim Ort automatisch "online" angezeigt.  
 
   
 Ein erstellter "Anlass" kann später mit Klick auf das Zahnrad bearbeitet, dupliziert oder gelöscht werden. Auch kann der Teilnehmerkreis für den Anlass auf bestimmte Gruppen eingeschränkt werden. Ein Export der Teilnehmenden für einen Anlass ist ebenfalls möglich.
 
-![Anlass Zahnrad Menue](assets/Terminplanung_anlass.jpg)
+![Anlass Zahnrad Menue](assets/Anlasse_bearbeiten_20.jpg)
 
-## Termine organisieren 
+### Termine organisieren 
 
-Die konkreten für einen "Anlasse" definierten Termine können über den Link "Termine anzeigen" im Überblick näher betrachtet und vom Kursbesitzer bzw. Betreuer auch einzeln editiert werden. Sie können hier Teilnehmende hinzufügen, löschen, umbuchen, die Beschreibung anpassen, Termine ändern oder Termine bestätigen.
+![Termine anzeigen](assets/Terminplanung_Termine_anzeigen_20.jpg)
 
-![Termine organisieren Punktemenue](assets/Terminfindung_punkte.jpg)
+Die konkreten für einen "Anlasse" definierten Termine können über den Link "Termine anzeigen" im Überblick näher betrachtet und von den Kursbesitzer:innen bzw. Betreuer:innen auch einzeln editiert werden. 
 
-## Teilnehmerperspektive
+Sie können hier Teilnehmende hinzufügen, löschen, umbuchen, die Beschreibung anpassen, Termine ändern oder bei der Terminplanung Termine bestätigen.
 
-Mit Klick auf den Kursbaustein werden den Teilnehmenden alle, zukünftige oder ausgewählte Termine angezeigt und eine Auswahl ist über den Link "**Eintragen**" möglich. Auch eine Filterung nach Terminen mit freien Plätzen kann über die Filterfunktion vorgenommen werden. 
+![Termine organisieren Punktemenue](assets/Termine_bearbeiten_20.jpg)
 
-![Einschreibung Teilnehmersicht](assets/Terminplanung18_Einschreibung.png)
+### Teilnehmenden Perspektive
 
-![Terminfindung Anzeige Teilnehmer](assets/Terminplanung18_Terminanzeige.png)
+Mit Klick auf den Kursbaustein werden den Teilnehmenden die vorbereiteten Terminfindungen bzw. möglichen Terminbuchungen angezeigt. Umfasst der Kursbaustein mehrere Anlässe erscheint zunächst eine Übersichtsseite. 
+
+![Terminplanung Teilnehmerperspektiv](assets/Terminplanung_TN.png)
+
+Anschliessend können die Termine ausgewählt werden. Gibt es nur einen Anlass wird die konkrete Auswahl direkt angezeigt. 
+
+Über den Button "Eintragen" kann ein Termin gewählt werden. Je nach Konfiguration kann auch noch ein Kommentar hinzugefügt oder mehrere Termine ausgewählt werden. Auch ein Austragen ist möglich.  
+
+![Terminplanung Teilenhmer Auswahl](assets/Terminplanung_TN_wahl_20.png)
+
+Über die Filteroption "Ausgebucht" können sich Teilnehmende auch anzeigen lassen wer den Termin ausgewählt (sofern aktiviert) und untereinander Kontakt aufnehmen um Termine zu tauschen. 
 
