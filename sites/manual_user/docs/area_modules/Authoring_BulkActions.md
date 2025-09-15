@@ -61,15 +61,16 @@ Copied learning resources can then be found in the tab "My entries". The additio
 
 ### 6. Delete
 
-A learning resource can only be deleted by the owners of the learning resource.
+A learning resource can only be deleted by the owner of the learning resource, learning resource managers, and administrators.
 
 With the **button above the table** you can quickly delete **several learning resources at once**.<br>
 If you only want to delete a **single learning resource**, you can also click on the **3 dots at the end of the respective table row** and then on the option "Delete".
 
-You must confirm this action again in the menu for the sake of safety. The owners of the learning resource will immediately be notified by e-mail. After being deleted, the learning resources no longer appear under "My entries" but are moved to the tab "Deleted" (trash function). There they are only visible to the respective owners. Deleted learning resources can also be restored by the owners.
+You must confirm this action again in the menu for the sake of safety. The owners of the learning resource will be notified by email, if configured.
 
-OpenOlat administrators can also restore deleted learning resources as well as delete them permanently.
+After deletion, the learning resources will only appear in the ["**Deleted**" tab](../area_modules/Authoring.md#authoring-deleted) (trash function) for the respective owners, learning resource managers, and administrators.
 
+As the owner, you can restore deleted learning resources. Only administrators or learning resource managers can permanently delete learning resources.
 
 ### 7. Open/edit learning resource
 

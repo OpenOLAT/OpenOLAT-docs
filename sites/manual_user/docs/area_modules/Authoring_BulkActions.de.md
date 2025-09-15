@@ -60,14 +60,16 @@ Kopierte Lernressourcen befinden sich anschliessend im Tab "Meine Einträge". De
 
 ### 6. Löschen
 
-Eine Lernressource kann nur von den Besitzern der Lernressource gelöscht werden.
+Eine Lernressource kann nur von den Besitzer:innen der Lernressource sowie Lernressourcenverwalter:innen und Administrator:innen gelöscht werden.
 
 Mit dem **Button über der Tabelle** können Sie schnell **mehrere Lernressourcen auf einmal** löschen.<br>
 Wollen Sie nur eine **einzelne Lernressource** löschen, können Sie auch auf die **3 Punkte am Ende der betreffenden Tabellenzeile** klicken und dann auf die Option "Löschen".
 
-Sie müssen diese Aktion zur Sicherheit noch einmal im Menü bestätigen. Die Besitzer der Lernressource werden per E-Mail benachrichtigt. Nach dem Löschen erscheinen die Lernressourcen nicht mehr unter "Meine Einträge", sondern werden in den Tab "Gelöscht" (Papierkorb-Funktion) verschoben. Dort sind sie nur noch für die jeweiligen Besitzer sichtbar. Durch die Besitzer können gelöschte Lernressourcen auch wieder hergestellt werden. 
+Sie müssen diese Aktion zur Sicherheit noch einmal im Menü bestätigen. Die Besitzer der Lernressource werden - sofern konfigurert - per E-Mail benachrichtigt.
 
-Die OpenOlat Administratoren können gelöschte Lernressourcen ebenfalls wiederherstellen und auch final löschen.
+Nach dem Löschen erscheinen die Lernressourcen nur noch im [Tab "**Gelöscht**"](../area_modules/Authoring.de.md#authoring-deleted) (Papierkorb-Funktion) für die jeweiligen Besitzer:innen sowie Lernressourcenverwalter:innen und Administrator:innen.
+
+Als Besitzer:in können Sie gelöschte Lernressourcen wiederherstellen. Das dauerhafte Löschen der Lernressourcen ist nur durch Administrator:innen oder Lernressourcenverwalter:innen möglich.
 
 ### 7. Lernressource öffnen/bearbeiten
 

@@ -20,8 +20,11 @@ In the filter tab "**My entries**", you will find all learning resources you hav
 ### 4. Search form
 In the filter tab "**Search form**", you can search for specific learning resources. All learning resources to which you have access can be found here. You can search for a specific title or use the filters to narrow down your results.
 
-### 5. Deleted
-In the filter tab "**Deleted**", you have access to your deleted learning resources for which you are entered as the owner (co-author). The tab "Deleted" is therefore a kind of trash bin. From here, the already deleted learning resources can be restored or permanently deleted by the administrator.
+### 5. Deleted {: #authoring-deleted}
+
+In the filter tab "**Deleted**", you have access to your deleted learning resources for which you are listed as the owner (co-author). The tab "Deleted" is therefore a kind of trash bin.
+Here you can restore your learning resources/courses.
+Only administrators or learning resource managers can permanently delete learning resources/courses.
 
 ### 6. Create your own filter tabs 
 You can also completely recreate a frequently needed filter query in the line with the filter tabs (1-5).<br>By clicking on "Save filter" you can give your current filter combination a name of your own, which can then be called up again the same way. ![Filter](assets/Autorenbereich_Filter_172.png)
