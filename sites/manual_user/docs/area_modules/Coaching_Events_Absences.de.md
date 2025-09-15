@@ -5,10 +5,10 @@
     Dieser Artikel ist noch in Bearbeitung.
 
     
-![coaching_events1_v1_de.png](assets/coaching_events1_v1_de.png){ class="shadow lightbox" }
+![coaching_events_absences1_v1_de.png](assets/coaching_events_absences1_v1_de.png){ class="shadow lightbox" }
 
 
-## Als Betreuer - Als Klassenlehrer {: #tabs_coach-}
+## Als Betreuer - Als Klassenlehrer {: #tabs_coach-master_coach}
 
 tbd
 
@@ -42,7 +42,7 @@ tbd
 * In einer Vorauswahl können Sie alle oder nur die unentschuldigten Absenzen anzeigen lassen.
 
 
-![coaching_events_absences1_v1_de.png](assets/coaching_events_absences1_v1_de.png){ class="shadow lightbox" }
+![coaching_events_absences_tab_absences1_v1_de.png](assets/coaching_events_absences_tab_absences1_v1_de.png){ class="shadow lightbox" }
 
 Um eine Absenz zu entschuldigen, markieren Sie die betreffende Person. Sobald mindestens eine Person markiert ist, erscheint der Button zum Erfassen einer Entschuldigung über der Liste.
 
@@ -53,7 +53,7 @@ Um eine Absenz zu entschuldigen, markieren Sie die betreffende Person. Sobald mi
 ---
 
 
-## Tab Meldungen
+## Tab Meldungen {: #tab_notices}
 
 tbd
 
@@ -62,7 +62,7 @@ tbd
 ---
 
 
-## Tab Rekurse
+## Tab Rekurse {: #tab_appeals}
 
 tbd
 
@@ -71,7 +71,7 @@ tbd
 ---
 
 
-## Tab Personensuche
+## Tab Personensuche {: #tab_user_search}
 
 tbd
 

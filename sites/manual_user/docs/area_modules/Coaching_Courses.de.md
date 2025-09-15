@@ -5,7 +5,7 @@
     Dieser Artikel ist noch in Bearbeitung.
 
 
-![coaching_kurse_v1_de.png](assets/coaching_kurse_v1_de.png){ class="shadow lightbox" }
+![coaching_courses1_v1_de.png](assets/coaching_courses1_v1_de.png){ class="shadow lightbox" }
 
 ### 1. WELCHE Kurse zeigt die Liste?
 

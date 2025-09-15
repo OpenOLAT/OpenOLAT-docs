@@ -5,11 +5,11 @@
     Dieser Artikel ist noch in Bearbeitung.
 
 
+![coaching_people1_v1_de.png](assets/coaching_people1_v1_de.png){ class="shadow lightbox" }
 
 
-![coaching_teilnehmer_v1_de.png](assets/coaching_teilnehmer_v1_de.png){ class="shadow lightbox" }
 
-### 1. WEN zeigt die Liste?
+## 1. WEN zeigt die Liste?
 
 Der Menüpunkt "Teilnehmer:innen" zeigt die Liste **aller von Ihnen betreuten** Teilnehmenden.
 
@@ -17,7 +17,7 @@ Der Menüpunkt "Teilnehmer:innen" zeigt die Liste **aller von Ihnen betreuten** 
   * Es werden die Teilnehmenden aus **allen** betreuten Kursen angezeigt (im Unterschied zum [Bewertungswerkzeug](../learningresources/Assessment_tool_overview.de.md) des Kurses. Dort werden nur Teilnehmenden des aktuellen Kurses angezeigt.)
 
 
-### 2. WAS zeigt die Liste?  
+## 2. WAS zeigt die Liste?  
 
 Sie können die angezeigten Spalten selbst festlegen, indem Sie rechts oben auf das Zahnrad-Icon klicken. Typischerweise sehen Sie
 
@@ -28,3 +28,11 @@ In der Spalte "Eingeloggt" gibt eine farbliche Kodierung und eine Zahl einen ras
 * Wie viele davon sind schon besucht oder bestanden?
 * usw.
 
+
+## Kontaktieren {: #contact}
+
+Um einer bestimmten Person eine Mail zu schreiben, klicken Sie einfach auf die 3 Punkte am Ende der betreffenden Zeile.
+
+Um eine Mail an mehrere Personen zu schreiben, markieren Sie die betreffenden Personen in der ersten Spalte. Anschliessend erscheint über der Liste ein Button "Kontaktieren".
+
+![coaching_people_contact_v1_de.png](assets/coaching_people_contact_v1_de.png){ class="shadow lightbox" }

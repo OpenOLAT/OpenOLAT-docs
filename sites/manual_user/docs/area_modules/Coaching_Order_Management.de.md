@@ -4,7 +4,7 @@
 
     Dieser Artikel ist noch in Bearbeitung.
 
- 
+ ![coaching_order_management1_v1_de.png](assets/coaching_order_management1_v1_de.png){ class="shadow lightbox" }
 
 ![coaching_auftragsverwaltung_v1_de.png](assets/coaching_auftragsverwaltung_v1_de.png){ class="shadow lightbox" }
 
