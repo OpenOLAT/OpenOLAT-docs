@@ -4,7 +4,7 @@
 ![coaching_people1_v1_de.png](assets/coaching_people1_v1_de.png){ class="shadow lightbox" }
 
 
-## Welche Personen zeigt die Liste? {: #people_who}
+## WEN zeigt die Liste? {: #people_who}
 
 Der Menüpunkt "Personen" im Coaching Tool zeigt die Liste **aller von Ihnen betreuten** Teilnehmenden.
 
@@ -48,12 +48,12 @@ Sie können die angezeigten Spalten selbst festlegen, indem Sie rechts oben übe
 * **durchschnittlicher Fortschritt**<br>
     Durchschnitt über alle Kurse von Ihnen betreuten Kurse
 * **Erfolgsstatus**<br>
-  * "Bestanden"/"Nicht bestanden"/"keine Angabe" in grafischer Darstellung
-  * "Bestanden"/"Nicht bestanden"/"keine Angabe" in Zahlen
+    * "Bestanden"/"Nicht bestanden"/"keine Angabe" in grafischer Darstellung
+    * "Bestanden"/"Nicht bestanden"/"keine Angabe" in Zahlen
 * **Zertifikate**<br>
   Anzahl der erhaltenen Zertifikate / Anzahl der möglichen Zertifikate
 * **Weitere Aktionen** (Icon mit 3 Punkten)<br>
-  * Kontaktieren (per E-Mail)
+    * Kontaktieren (per E-Mail)
 
 [Zum Seitenanfang ^](#people)
 
