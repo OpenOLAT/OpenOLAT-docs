@@ -1,14 +1,15 @@
 # Module Events and Absences {: #module_events_and_absences}
 
-Before the lectures and absence management can be used it need to be activated
-in the administration. 
+Before the lectures and absence management can be used it need to be activated in the administration. 
 
 !!! tip "Activation"
+
 	Customers of frentix please contact
 	[contact@frentix.com](mailto:contact@frentix.com) for this. As soon as the 
 	lectures and absence management is activated some additional settings can be done for the systemwide configuration. For systems with a fx-release these adaptations are done by frentix.  
 
 	:material-alert: **Not a frentix hosting-client?** Please ask your local system operator!
+
 
 [To the top of the page ^](#module_events_and_absences)
   
@@ -57,7 +58,7 @@ in the administration.
 
 ![15_green_24.png](assets/15_green_24.png) **Daily recording absences**: yes or no
 
-![16_green_24.png](assets/16_green_24.png) **Allow holding partial lectures**: When completing a lesson block, the number of lessons that have actually been completed can be selected under “Effective lessons”. This means that the attendance rate is only partially calculated.
+![16_green_24.png](assets/16_green_24.png) **Allow holding partial lectures**: When completing a lesson block, the number of lessons that have actually been completed can be selected under "Effective lessons". This means that the attendance rate is only partially calculated.
 
 ![17_green_24.png](assets/17_green_24.png) **Lectures status**: If this option is selected lecture blocks can be cancelled. Thus this lecture block does not count for the attendance quote.
 
@@ -101,11 +102,11 @@ In this tab, the authorizations for lecturers / class teachers are defined with 
 
 ## Tab Reasons Dates 
   
-Appointments can be ended automatically or manually. If an appointment is ended earlier, for example, a reason should be given. The **reason for ending an appointment differently** can be selected from a list.
+Events can be ended automatically or manually. If an appointment is ended earlier, for example, a reason should be given. The **reason for ending an appointment differently** can be selected from a list.
 
 The available terms and descriptions for these justifications can be defined here by administrators.
 
-If no reasons are entered here, the reason selection does not appear when the appointment is closed.
+If no reasons are entered here, the reason selection does not appear when the Events is closed.
 
 [To the top of the page ^](#module_events_and_absences)
   

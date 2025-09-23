@@ -97,7 +97,7 @@ Die Bearbeitung der Rekurse erfolgt in der Regel durch Absenzenverwalter:innen, 
 Kursbesitzer:innen steht das Icon ebenfalls zur Verfügung. Bei ihnen öffnet sich der Screen zum **Erfassen und Verwalten** von Terminen und Absenzen, der weitestgehend der Erfassung und Verwaltung unter **Administration > Termine und Absenzen** entspricht.<br>
 Siehe [Erfassung und Verwaltung der Absenzen in einem Kurs durch Kursbesitzer:innen >](../learningresources/Events_and_absences.de.md)<br>
 
-Technisch gesehen werden in diesen beiden Screens Laufzeitdaten erfasst, im Unterschied zur [Konfiguration](../learningresources/Course_Settings_Execution.de.md#config_event_and_absence_management).
+Technisch gesehen werden in diesen beiden Screens Laufzeitdaten erfasst,im Unterschied zur [Konfiguration](../learningresources/Course_Settings_Execution.de.md#config_event_and_absence_management).
 
 ![toolbar_events_owner1_v1_de.png](assets/toolbar_events_owner1_v1_de.png){ class="shadow lightbox"}
 
@@ -111,12 +111,12 @@ Technisch gesehen werden in diesen beiden Screens Laufzeitdaten erfasst, im Unte
 
 [Toolbar Übersicht >](../learningresources/Toolbar.de.md)<br>
 
-[Basiskonzept Termine und Absenzen >](../basic_concepts/Events_and_Absences.de.md)<br>
+[Basiskonzept: Termine und Absenzen >](../basic_concepts/Events_and_Absences.de.md)<br>
 [Aktivierung und Konfiguration des Absenzenmanagements durch Administrator:innen >](../../manual_admin/administration/Modules_Events_and_Absences.de.md)<br>
 [Konfiguration der Absenzenverwaltung in einem Kurs >](../learningresources/Course_Settings_Execution.de.md#config_event_and_absence_management)<br>
 [Erfassung und Verwaltung der Absenzen in einem Kurs durch Kursbesitzer:innen >](../learningresources/Events_and_absences.de.md)<br>
 [Persönliche Absenzen >](../personal_menu/Absences.de.md)<br>
-[Kursübergreifende Absenzenerfassungung im Coachingtool >](../area_modules/Coaching.de.md)<br>
+[Kursübergreifende Absenzenerfassung im Coachingtool >](../area_modules/Coaching.de.md)<br>
 [Kursübergreifende Absenzenverwaltung durch Absenzenverwalter:innen>](../area_modules/Absence_Management.de.md)<br>
 
 [Zum Seitenanfang ^](#toolbar_events)

@@ -81,13 +81,13 @@ Mit den Fokus-Elementen über der Liste können Sie eine Ihrer Rollen wählen. D
 
 ## Weiterführende Informationen {: #further_information}
 
-[Coaching: Personensuche >](../../manual_user/area_modules/Coaching_User_Search.de.md)<br>
-[Coaching: Personen >](../../manual_user/area_modules/Coaching_People.de.md)<br>
-[Coaching: Kurse >](../../manual_user/area_modules/Coaching_Courses.de.md)<br>
-[Coaching: Gruppen >](../../manual_user/area_modules/Coaching_Groups.de.md)<br>
-[Coaching: Termine / Absenzen >](../../manual_user/area_modules/Coaching_Events_Absences.de.md)<br>
-[Coaching: Bewertungsaufträge >](../../manual_user/area_modules/Coaching_assessment_orders.de.md)<br>
-[Coaching: Reports >](../../manual_user/area_modules/Coaching_Reports.de.md)<br>
-[Coaching: Auftragsverwaltung >](../../manual_user/area_modules/Coaching_Order_Management.de.md)
+[Coaching: Personensuche >](../area_modules/Coaching_User_Search.de.md)<br>
+[Coaching: Personen >](../area_modules/Coaching_People.de.md)<br>
+[Coaching: Kurse >](../area_modules/Coaching_Courses.de.md)<br>
+[Coaching: Gruppen >](../area_modules/Coaching_Groups.de.md)<br>
+[Coaching: Termine / Absenzen >](../area_modules/Coaching_Events_Absences.de.md)<br>
+[Coaching: Bewertungsaufträge >](../area_modules/Coaching_assessment_orders.de.md)<br>
+[Coaching: Reports >](../area_modules/Coaching_Reports.de.md)<br>
+[Coaching: Auftragsverwaltung >](../area_modules/Coaching_Order_Management.de.md)
 
 [Zum Seitenanfang ^](#coaching)

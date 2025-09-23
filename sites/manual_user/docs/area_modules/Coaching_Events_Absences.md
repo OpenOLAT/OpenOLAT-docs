@@ -37,14 +37,14 @@ tbd
 
 ## Tab Absences {: #tab_absences}
 
-* Im Suchfeld können Sie nach Benutzer:innen, Dozent:innen, Kurstiteln und Terminen suchen.
-* Schränken Sie den Zeitraum ein, für den Absenzen gesucht werden sollen.
-* In einer Vorauswahl können Sie alle oder nur die unentschuldigten Absenzen anzeigen lassen.
+* In the search field, you can search for users, instructors, course titles, and dates.
+* Limit the period for which absences are to be searched.
+* In a preselection, you can display all absences or only unexcused absences.
 
 
 ![coaching_events_absences1_v1_de.png](assets/coaching_events_absences1_v1_de.png){ class="shadow lightbox" }
 
-Um eine Absenz zu entschuldigen, markieren Sie die betreffende Person. Sobald mindestens eine Person markiert ist, erscheint der Button zum Erfassen einer Entschuldigung über der Liste.
+To excuse an absence, select the person concerned. Once at least one person has been selected, the button for entering an excuse appears above the list.
 
 ![coaching_events_absences_authorize_v1_de.png](assets/coaching_events_absences_authorize_v1_de.png){ class="shadow lightbox" }
 

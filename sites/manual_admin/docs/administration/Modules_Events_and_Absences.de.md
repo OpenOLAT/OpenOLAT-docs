@@ -4,6 +4,7 @@
 Bevor das Modul "Termine und Absenzen" genutzt werden kann, muss es in der Administration aktiviert werden.
 
 !!! tip "Aktivierung"
+
 	Kunden von frentix kontaktieren für die Aktivierung bitte
 	[contact@frentix.com.](mailto:contact@frentix.com.) Sobald das Modul "Termine und Absenzen" aktiviert ist, können diverse zusätzliche Einstellungen für die systemweite Konfiguration vorgenommen werden. Bei Systemen mit dem fx-Release werden diese Anpassung durch frentix vorgenommen.  
 		
@@ -58,8 +59,7 @@ Bevor das Modul "Termine und Absenzen" genutzt werden kann, muss es in der Admin
 
 ![16_green_24.png](assets/16_green_24.png) **Termine partiell durchgeführt zulassen**: Beim Abschliessen eines Lektionenblocks kann unter "Effektive Lektionen" die Anzahl Lektionen ausgewählt werden, welche tatsächlich durchgeführt worden sind. Die Anwesenheitsquote wird dadurch auch nur partiell berechnet.
 
-![17_green_24.png](assets/17_green_24.png) **Terminstatus**: Wenn diese Option gewählt wird, können ganze
-Termine abgesagt werden. Dieser Termin zahlt dann nicht zur Anwesenheitsquote.
+![17_green_24.png](assets/17_green_24.png) **Terminstatus**: Wenn diese Option gewählt wird, können ganze Termine abgesagt werden. Dieser Termin zahlt dann nicht zur Anwesenheitsquote.
 
 ![18_green_24.png](assets/18_green_24.png) **Default Anzahl von geplanten Einheiten**
 
@@ -81,7 +81,7 @@ Termine abgesagt werden. Dieser Termin zahlt dann nicht zur Anwesenheitsquote.
 
 ![27_green_24.png](assets/27_green_24.png) **Rekursfrist**: Die Rekursfrist beginnt, sobald der Termin erledigt ist. Entweder hat der Dozent den Termin manuell auf erledigt gesetzt oder die Sperrfrist ist abgelaufen und der Termin wurde automatisch auf erledigt gesetzt. Die Zählung der Tage beginnt am Folgetag, nachdem der Status des Termins auf erledigt gesetzt worden ist. Anschliessend werden ganze Tage gezählt, Rekursfristschluss ist jeweils am Ende des Tages.
 
-![28_green_24.png](assets/28_green_24.png) **Anzeige in Kursen**: Termine aller Dozenten oder nur eigene
+![28_green_24.png](assets/28_green_24.png) **Anzeige in Kursen**: Termine aller Dozenten oder nur eigene.
 
 
 [Zum Seitenanfang ^](#module_events_and_absences)
