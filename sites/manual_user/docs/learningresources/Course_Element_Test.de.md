@@ -121,7 +121,7 @@ Aktiviert man die Option "**Manuell durch externe Korrektoren**" können auch Op
 
 Hier wird definiert ob und welcher Form den Lernenden die Testergebnisse und der Leistungsstatus angezeigt werden sollen. Wird hier gar nichts ausgewählt erhalten die Lernenden auch keinerlei Informationen.
 
-**Leistungsübersicht auf Test-Startseite anzeigen**: Wenn diese Option angewählt ist, werden den Usern die Punkte und eventuelle weitere Leistungsinformationen wie Erfolgsstatus, Anzahl der Lösungsversuche und die erreichte Stufe der Bewertungsskala auf der Startseite des Tests  angezeigt.
+**Leistungsübersicht auf Test-Startseite anzeigen**: Wenn diese Option angewählt ist, werden den Usern die Punkte und eventuelle weitere Leistungsinformationen wie Erfolgsstatus, Anzahl der Lösungsversuche und die erreichte Stufe der Bewertungsskala auf der Startseite des Tests angezeigt.
 
 Neben der Leistungsübersicht können dem User auch die konkrete Testauswertung sowohl direkt nach der Bearbeitung (**Resultate nach Abgabe des Tests anzeigen**) als auch permanent auf der Kurs-Startseite (**Resultate auf Test-Startseite anzeigen**) angezeigt werden. Setzen Sie die entsprechenden Haken. 
 

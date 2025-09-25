@@ -6,7 +6,7 @@
 
 
 
-![coaching_kurse_v1_de.png](assets/coaching_kurse_v1_de.png){ class="shadow lightbox" }
+![coaching_kurse_v1_de.png](assets/coaching_courses1_v1_de.png){ class="shadow lightbox" }
 
 ### 1. WHICH courses does the list show?
 

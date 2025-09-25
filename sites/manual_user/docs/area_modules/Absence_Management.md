@@ -7,7 +7,7 @@ The absence management displayed in the main menu refers to **cross-course absen
 Users with this role process exemptions and appeals, for example. This administrative task goes beyond simple data entry, which takes place in a specific course, and is therefore assigned to a separate role.
 
 Absences can also be queried or recorded in other places.<br>
-Links to explanations of the remaining points can be found under [further information](#further_information) or explained in the [basic concepts]((../basic_concepts/Events_and_Absences.md)).
+Links to explanations of the remaining points can be found under [further information](#further_information) or explained in the [learning resources](../learningresources/Events_and_absences.md).
 
 [To the top of the page ^](#absence_management)
 

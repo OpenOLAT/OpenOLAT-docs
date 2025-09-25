@@ -19,15 +19,15 @@ Der Kursbaustein "Themenvergabe" eignet sich dazu, wenn Sie in Ihrem Kurs Themen
 
 ### Themenvergabe konfigurieren
 
-Im Tab "Konfiguration" bestimmen Sie zuerst, wie viele Themen ein Teilnehmer wählen kann und ob seine Wahl gleich gilt oder zuerst vom Themenverantwortlichen akzeptiert werden muss. Weiter können Sie zusätzliche Felder hinzufügen, welche die Themen beschreiben und in der Tabelle mit allen ausgeschriebenen Themen aufgeführt werden. Hier können Sie auch konfigurieren, ob die Themeneinschreibung und -abgabe nur innerhalb einer bestimmten Frist möglich sein soll. Im Tab "Teilbausteine" wählen Sie aus, ob es in Ihrer Themenvergabe einen Abgabeordner und einen Rückgabeordner geben soll. Kursteilnehmer laden ihre Dateien in den Abgabeorder und Themenverantwortliche können Dateien über den Rückgabeorder zurückgeben.
+Im Tab "Konfiguration" bestimmen Sie zuerst, wie viele Themen Teilnehmende wählen kann und ob ihre Wahl gleich gilt oder zuerst vom Themenverantwortlichen akzeptiert werden muss. Weiter können Sie zusätzliche Felder hinzufügen, welche die Themen beschreiben und in der Tabelle mit allen ausgeschriebenen Themen aufgeführt werden. Hier können Sie auch konfigurieren, ob die Themeneinschreibung und -abgabe nur innerhalb einer bestimmten Frist möglich sein soll. Im Tab "Teilbausteine" wählen Sie aus, ob es in Ihrer Themenvergabe einen Abgabeordner und einen Rückgabeordner geben soll. Kursteilnehmende laden ihre Dateien in den Abgabeorder und Themenverantwortliche können Dateien über den Rückgabeorder zurückgeben.
 
-**Anzahl Themen pro Teilnehmer limitieren?:**
-Wenn Sie diese Option auswählen, erscheint ein Feld, in welchem Sie die Anzahl der Themen eingeben können, die ein Teilnehmer maximal pro Kursbaustein Themenvergabe auswählen darf.  
+**Anzahl Themen pro Teilnehmer:in limitieren?:**
+Wenn Sie diese Option auswählen, erscheint ein Feld, in welchem Sie die Anzahl der Themen eingeben können, die Teilnehmende maximal pro Kursbaustein Themenvergabe auswählen darf.  
   
 **Themenverantwortliche müssen Teilnehmer akzeptieren:**
 Wenn Sie diese Option auswählen, können sich Teilnehmer nur provisorisch für ein Thema einschreiben. Die Themenverantwortlichen müssen dann die definitiven Teilnehmer aus den möglichen Kandidaten auswählen und akzeptieren. Wenn Sie diese Option nicht auswählen, werden automatisch alle Teilnehmer akzeptiert, die sich für das Thema eingeschrieben haben. Die Themenverantwortlichen haben aber vorgängig die Möglichkeit, die maximale Teilnehmerzahl zu definieren.  
   
-**Nur ein Thema erlaubt (Akzeptierte Teilnehmer werden automatisch aus allen anderen Themen ausgetragen):**  Diese Option bedeutet, dass vom Themenverantwortlichen akzeptierte Teilnehmer automatisch aus allen anderen gewählten Themen ausgetragen werden. Teilnehmende sind also höchstens für ein Thema definitiv eingeschrieben.
+**Nur ein Thema erlaubt (Akzeptierte Teilnehmemende werden automatisch aus allen anderen Themen ausgetragen):**  Diese Option bedeutet, dass vom Themenverantwortlichen akzeptierte Teilnehmende automatisch aus allen anderen gewählten Themen ausgetragen werden. Teilnehmende sind also höchstens für ein Thema definitiv eingeschrieben.
 
 **Zusätzliche Felder hinzufügen:**
 Über "Feld hinzufügen" können Sie maximal fünf Ihren Bedürfnissen angepasste Felder für die genauere Beschreibung der Themen hinzufügen.

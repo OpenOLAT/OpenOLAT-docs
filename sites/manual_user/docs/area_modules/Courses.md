@@ -30,7 +30,7 @@ Mark the course as a favorite when you have found it. To do this, click on the w
 
 ## Education products
 
-Der Bereich "Bildungsprodukte" wird angezeigt wenn der [Course Planner](../area_modules/Course_Planner.de.md) in der Administration aktiviert wurde. 
+Der Bereich "Bildungsprodukte" wird angezeigt wenn der [Course Planner](../area_modules/Course_Planner.md) in der Administration aktiviert wurde. 
 
 Unter Bildungsprodukte werden dann dem User die Kurse und Lernressourcen angezeigt, die zu den Bildungsgängen (Durchführungen) des Users gehören. Hat sich ein User z.B. in einem Bildungsgang eingeschrieben der mit dem Course Planner organisiert wird, erscheinen hier alle Kurse, die diesem Bildungsgang zugeordnet sind. Ist der User in mehreren Durchführungen eingeschrieben sieht er unter Bildungsprodukte alle zugehörigen Kurse. 
 

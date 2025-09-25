@@ -2,7 +2,7 @@
 
 !!! info "Note"
 
-    This tool will only be shown in the coaching tool, if the administrator has activated the [curriculum module](../../manual_admin/administration/Modules_Curriculum.md).
+    This tool will only be shown in the coaching tool, if the administrator has activated the curriculum module.
 
 ![coaching_klassen_v1_de.png](assets/coaching_klassen_v1_de.png){ class="shadow lightbox" }
 

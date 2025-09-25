@@ -1,6 +1,6 @@
 # Coaching - People {: #people}
 
-![coaching_teilnehmer_v1_de.png](assets/coaching_teilnehmer_v1_de.png){ class="shadow lightbox" }
+![coaching_teilnehmer_v1_de.png](assets/coaching_people1_v1_de.png){ class="shadow lightbox" }
 
 
 ### 1. WHOM does the list show?  {: #people_who}

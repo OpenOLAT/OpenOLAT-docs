@@ -8,7 +8,7 @@ Die im Hauptmenü angezeigte Absenzenverwaltung bezieht sich auf die **kursüber
 Berechtigte mit dieser Rolle bearbeiten z.B. Dispensen und Rekurse. Diese Verwaltungsaufgabe geht über die einfache Erfassung hinaus, die in einem bestimmten Kurs stattfindet und ist deshalb einer gesonderten Rolle zugeordnet.
 
 Daneben können Absenzen auch an anderen Stellen abgefragt oder erfasst werden.<br>
-Links zu Erklärungen der übrigen Punkte finden Sie unter den [weiterführenden Informationen](#further_information), bzw. in den [Basiskonzepten]((../basic_concepts/Events_and_Absences.de.md)) erklärt.
+Links zu Erklärungen der übrigen Punkte finden Sie unter den [weiterführenden Informationen](#further_information), bzw. in den [Lernressourcen](../learningresources/Events_and_absences.de.md) erklärt.
 
 [Zum Seitenanfang ^](#absence_management)
 

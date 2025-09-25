@@ -28,17 +28,17 @@ OpenOlat users mostly see "Courses" and "Groups" in the header if they are parti
 ![catalog_menu_header_v1_en.png](assets/catalog_menu_header_v1_en.png){ class="shadow lightbox" }  
 
 
-### b) Ohne Registrierung
+### b) Without registration
 
-In OpenOlat können auch Angebote hinterlegt werden, die in einem externen Katalog angezeigt werden. "Extern" bedeutet, dass der Katalog nach ausserhalb der "Registrierungsmauer" gespiegelt wird und dort ohne Registrierung aufgerufen werden kann. Die Ausgangsversion des Katalogs (innerhalb der "Registrierungsmauer"), die nur von registrierten Benutzer:innen aufgerufen werden kann, muss ein Katalog V2 sein. Ein Katalog V1 kann nicht als externer Katalog angezeigt werden.
+In OpenOlat, you can also store offers that are displayed in an external catalog. "External" means that the catalog is mirrored outside the "registration wall" and can be accessed there without registration. The initial version of the catalog (within the "registration wall"), which can only be accessed by registered users, must be a V2 catalog. A V1 catalog cannot be displayed as an external catalog.
 
-Benutzer:innen können dann diese Kurse auswählen und buchen. Sie werden erst nach einer getroffenen Wahl durch den Registrierungsprozess geführt (um Arbeitsergebnisse speichern zu können).
+Users can then select and book these courses. They will only be guided through the registration process after making a selection (in order to save their work).
 
-Bei bereits in OpenOlat registrierten Benutzer:innen wird die Buchung ihrem bestehenden Konto zugeordnet. Die Buchung wird anschliessend bestätigt.
+For users already registered in OpenOlat, the booking will be assigned to their existing account. The booking will then be confirmed.
 
-Der externe Katalog kann auf dem Login-Screen angeboten werden.
-Der Link kann aber auch an anderer Stelle z.B. in eine Website eingebaut oder per Mail verschickt werden. 
-Auch [direkte Links zu einem bestimmten Angebot](../../manual_user/area_modules/catalog2.0_web.de.md#web_catalog_direct_link) können verschickt werden.
+The external catalog can be offered on the login screen.
+However, the link can also be incorporated elsewhere, e.g., into a website, or sent by email. 
+[Direct links to a specific offer](../../manual_user/area_modules/catalog2.0_web.md) can also be sent.
 
 ![catalog20_ext_catalog_login_v1_de.png](assets/catalog20_ext_catalog_login_v1_de.png){ class="shadow lightbox" } 
 
@@ -110,7 +110,7 @@ Whether and where the course appears in the catalog is then determined in the se
 !!! tip "Note"
 
     Before OpenOlat 17 und generell bei der Verwendung des Katalog 1.0 , there was a tab "Catalog" in the settings and no offers could be created yet. 
-    Bei Verwendung des Katalog 2.0 ab OpenOlat 17 the settings for display in the catalog are made in the "Share" tab (in the form of offers).
+    When using Catalog 2.0 from OpenOlat 17 onwards, the settings for the display in the catalog are made in the "Share" tab (in the form of offers).
 
 If you click the "Add offer" button, you will get a pre-selection of possible offer types.
 

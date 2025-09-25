@@ -58,7 +58,7 @@ The tabs "Title and description" and "Layout" are the same for all course elemen
 
 ### Tab "Learning path" {: #tab_learning_path}
 
-In the Learning path tab, you can define whether the test is mandatory for the learning path course, whether it should not be used for the learning path display (“Voluntary” setting) or whether the course element should not be displayed at all (“Excluded” setting). Furthermore, a release date, a maximum processing date and the expected processing time can be defined. 
+In the Learning path tab, you can define whether the test is mandatory for the learning path course, whether it should not be used for the learning path display ("Voluntary" setting) or whether the course element should not be displayed at all ("Excluded" setting). Furthermore, a release date, a maximum processing date and the expected processing time can be defined. 
 
 The following completion criteria are also available for tests: 
 
@@ -87,7 +87,7 @@ An added test can be configured more specifically as follows:
 
 #### Section Test {: #section_test}
 
-**Evaluation with grading/marks**:
+**Assessment with grading/marks**:
 Select one of the given rating scales e.g. grades, levels or emojis. You can also adjust the points lower limit afterwards. Also decide if the level assignment should be automatically visible to the user or if the assignment should be provided manually by the coach.
 
 **Exclude from course evaluation**: If the check mark is set here, the test will not be taken into account when calculating progress in a [learning path course](../learningresources/Learning_path_course.md). This setting is not available for a conventional course.

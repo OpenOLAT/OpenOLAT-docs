@@ -5,7 +5,7 @@
     This article is still under construction.
 
   
-![coaching_events1_v1_de.png](assets/coaching_events1_v1_de.png){ class="shadow lightbox" }
+![coaching_events1_v1_de.png](assets/coaching_events_absences1_v1_de.png){ class="shadow lightbox" }
 
 
 ## As Coach - As Master Coach {: #tabs_coach-master_coach}

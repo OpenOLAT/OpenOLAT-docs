@@ -86,7 +86,7 @@ Mit den Fokus-Elementen über der Liste können Sie eine Ihrer Rollen wählen. D
 [Coaching: Kurse >](../area_modules/Coaching_Courses.de.md)<br>
 [Coaching: Gruppen >](../area_modules/Coaching_Groups.de.md)<br>
 [Coaching: Termine / Absenzen >](../area_modules/Coaching_Events_Absences.de.md)<br>
-[Coaching: Bewertungsaufträge >](../area_modules/Coaching_assessment_orders.de.md)<br>
+[Coaching: Bewertungsaufträge >](../area_modules/Coaching_Assessment_Orders.de.md)<br>
 [Coaching: Reports >](../area_modules/Coaching_Reports.de.md)<br>
 [Coaching: Auftragsverwaltung >](../area_modules/Coaching_Order_Management.de.md)
 

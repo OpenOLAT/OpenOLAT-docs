@@ -90,7 +90,7 @@ If required, the dates displayed in the list can also be downloaded as an Excel 
 
 ## Further information {: #further_information}
 
-[How do I create my first OpenOlat course >](../my_first_course/my_first_course.md)<br>
+[How do I create my first OpenOlat course >](../../manual_how-to/my_first_course/my_first_course.md)<br>
 [Course Planner: Overview >](../../manual_user/area_modules/Course_Planner.md)<br>
 [Course Planner: Products >](../../manual_user/area_modules/Course_Planner_Products.md)<br>
 [Course Planner: Implementations >](../../manual_user/area_modules/Course_Planner_Implementations.md)<br>
