@@ -102,7 +102,7 @@ Den Teilnehmer:innen kann auch erlaubt werden, Einschreibungen wieder **zurückz
 Aktuell ist nur die Methode ["Faire Auswahl"](#topic_broker_algorithm) verfügbar. Es ist geplant, dass weitere Methoden zur Auswahl hinzukommen. 
 
  ![6_green_24.png](assets/6_green_24.png) **Überschneidung der Durchführungszeiträume**<br>
-Generell können Wahlthemen auch mit einem Durchführungszeitraum versehen werden. Ist dies der Fall kann es wichtig sein zeitliche Überschneidungen bei der Wahl zu vermeiden. Durch das Setzen des Hakens wird eine Überschneidung im Einschreibeprozess vermieden 
+Generell können Wahlthemen auch mit einem Durchführungszeitraum versehen werden. Ist dies der Fall kann es wichtig sein zeitliche Überschneidungen bei der Wahl zu vermeiden. Durch das Setzen des Hakens wird eine Überschneidung im Einschreibeprozess vermieden.
 
 ![7_green_24.png](assets/7_green_24.png) **Einschreibung nach Ablauf der Frist auslösen**<br>
 Grundsätzlich gibt es zwei Möglichkeiten, nach Ablauf der Einschreibefrist die Verteilung der Teilnehmenden auszulösen: Entweder manuell durch die Kursitzer:innen (siehe unten) oder automatisch durch das System nach Ende des Auswahlzeitraums. 

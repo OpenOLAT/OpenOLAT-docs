@@ -67,7 +67,7 @@ The assignment of topics in the course module Topic Exchange therefore takes pla
 
 ---
 
-## Set up topic exchange (course owner perspective) {: #topic_broker_setup}
+## Set up topic broker (course owner perspective) {: #topic_broker_setup}
 
 ### "Configuration" Tab {: #topic_broker_setup_tab_config}
 
@@ -76,35 +76,52 @@ In the "Configuration" tab, the framework conditions for the choice of subject a
 ![course_element_topic_broker_configuration_v3_en.png](assets/course_element_topic_broker_configuration_v3_en.png){ class="shadow lightbox" }
 
 
-![1_green_24.png](assets/1_green_24.png) **Enrollment method**<br>
-The ["Fair selection"](#topic_broker_algorithm) method is currently available. It is planned that further methods will be added to the selection. 
+#### Topic selection ![1_green_24.png](assets/1_green_24.png)
+
+**Selection period**<br>
+The selection period is the time frame within which participants must submit their topic requests. Registration will be triggered at the end of the selection period.
+
+**Selection/Priorities per participant**<br>
+If participants have specified several topics, they can mark a selection as their priority/preferred choice. In this field, you specify the maximum number of topics that can be specified as preferred topics.
+
+Both are mandatory fields
+
+#### Enrolment
 
 ![2_green_24.png](assets/2_green_24.png) **Enrolments per participant**<br>
-Participants should be able to specify several desired topics, but after the assignment has been carried out, they will only be definitively enrolled for 1 or a limited number of topics. In this field you indicate for how many topics the definitive enrolment will take place. This is a mandatory entry that applies to all participants.
+This defines how many subjects a participant will ultimately be enrolled in, regardless of the number of his/her priorities. This information is binding.
 
-![3_green_24.png](assets/3_green_24.png) **Selection/priorities per participant**<br>
-If participants have specified several topics, they can mark a selection as their priority/preferred choice. In this field, you specify the maximum number of topics that can be specified as preferred preferred topics.
+![3_green_24.png](assets/3_green_24.png) **Participant can ...**<br>
+If necessary, participants can also **reduce** the specified number of registrations themselves, e.g. if they do not want to work on multiple topics. 
 
-**Participant can ...**<br>
-![4_green_24.png](assets/4_green_24.png)  If several enrolments were requested as a default in the "Enrolments per participant" field, participants can now be allowed to reduce the number of enrolments individually. (Fewer enrolments than specified in the "Enrolments per participant" field).<br>
-![5_green_24.png](assets/5_green_24.png) Participants may also be allowed to withdraw enrolments if the allocation and enrolment has taken place after the end of the selection period.
+![4_green_24.png](assets/4_green_24.png)
+Participants may also be allowed to **withdraw** their registrations if allocation and registration have taken place after the selection period has expired. If this option is checked, a date can be entered by which a registration can be withdrawn.<br>
 
-![6_green_24.png](assets/6_green_24.png) **Selection period**<br>
-The selection period is the time window within which participants must submit their topic requests. Enrolment takes place after the end of the selection period.
+![5_green_24.png](assets/5_green_24.png) **Selection period**<br>
+Currently, only the ["Fair Selection"] method is available. There are plans to add further selection methods in the future. 
 
-![7_green_24.png](assets/7_green_24.png) **Enrolment after the deadline**<br>
-As the course owner, you decide whether the final enrolments are made automatically or manually as soon as the end of the selection period is reached.
+![6_green_24.png](assets/6_green_24.png) **Enrolment after the deadline**<br>
+In general, election topics can also be assigned an implementation period. If this is the case, it may be important to avoid overlaps in the election schedule. By checking the box, you can avoid overlaps in the registration process.
 
-![8_green_24.png](assets/8_green_24.png) **Withdraw deadline**<br>
-This option is only offered if ![5_green_24.png](assets/5_green_24.png) “Withdraw an enrollment” has been selected. If yes, you can optionally specify a time by which an enrollment can be withdrawn.
+![7_green_24.png](assets/7_green_24.png) **Withdraw deadline**<br>
+There are basically two ways to trigger the distribution of participants after the registration deadline has expired: either manually by the course administrators (see below) or automatically by the system after the end of the selection period.
 
-![9_green_24.png](assets/9_green_24.png) **Authorizations: edit topic**<br>
-By default, the right to edit the topic specifications is reserved for course owners. With this option, the right can also be given to coaches.<br>
-Editing can be specified in even greater detail if the extended configuration is used (toggle button on the right-hand side).
+If you select "automatic", additional options will appear and you can define the principle according to which the automatic distribution should take place.  
+a) **Maximum number of enrolments**: High enrolment rate and short waiting list<br>
+b) **Maximum consideration of priorities**: Focused on achieving the highest possible level of fulfillment of the selected priorities<br>
+c) **Maximum number of topics**: High topic quota due to sufficient number of participants
 
-![10_green_24.png](assets/10_green_24.png) **Berechtigungen: Teilnehmer:innen bearbeiten**<br>
-By default, the right to override and edit a selected topic is reserved for course owners. With this option, the right can also be given to coaches. (They normally only have read-only rights if they select one of the names). <br>
-Editing can be specified in even greater detail if the extended configuration is used (toggle button on the right-hand side).
+
+#### Authorization ![8_green_24.png](assets/8_green_24.png)
+If necessary, in addition to course owners, coaches can also be given the right to edit topics and/or participants. 
+
+**Edit topic**<br>
+By default, the right to edit the topic specifications is reserved for course owners. With this option, the right can also be granted to coaches.<br>
+The processing can be specified in even greater detail if the advanced configuration is used (toggle button on the right-hand side).
+
+**Edit participants**<br>
+By default, the right to override and edit a selected topic is reserved for course owners. With this option, the right can also be given to coaches. (They normally only have read access if they choose one of the names.) However, the override option should only be used in exceptional cases, as it runs counter to the actual intention of enabling fair distribution through a neutral algorithm.<br>
+The processing can be specified in even greater detail if the advanced configuration is used (toggle button on the right-hand side).<br>
 
 
 [Up (Course owner perspective) ^](#topic_broker_setup)<br>

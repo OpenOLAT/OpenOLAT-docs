@@ -44,7 +44,7 @@ Sie können die angezeigten Spalten selbst festlegen, indem Sie rechts oben übe
 * **Nicht besucht**<br>
     In wie vielen der von Ihnen betreuten Kurse ist ein/e Benutzer:in Mitglied, hat den Kurs aber noch nie besucht?
 * **Letzter Besuch**<br>
-  Vor wieviel Tage war der letzte Besuch in einem der von Ihnen betreuten Kurse?
+    Vor wieviel Tage war der letzte Besuch in einem der von Ihnen betreuten Kurse?
 * **durchschnittlicher Fortschritt**<br>
     Durchschnitt über alle Kurse von Ihnen betreuten Kurse
 * **Erfolgsstatus**<br>

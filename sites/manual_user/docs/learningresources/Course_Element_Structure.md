@@ -42,7 +42,7 @@ The central settings are made in the "Overview" tab.You can choose between four 
 
     If you have chosen your own HTML page and this contains links to graphics or other files stored in OpenOlat, you must select the option "Allow links in the entire storage folder" under "Security settings". You can also allow coaches to edit the HTML page without access to the course editor.
 
-##  Tab Highscore
+## Tab Highscore
 
 Here you can activate and configure the high score display. You can display a congratulation title, a winner's podium, a histogram as well as a highscore list. An anonymized representation is also possible here.
 
@@ -51,7 +51,7 @@ Auch hier ist eine anonymisierte Darstellung möglich. It also contains the tab 
 
 ## Tab Badges
 
-If the course owner has activated the assignment of badges under **Administration > Settings > Assessment tab > Badges section**, the ‘Badges’ tab is displayed in the course editor for this course element and a specific badge can be created for this course element.
+If the course owner has activated the assignment of badges under **Administration > Settings > Assessment tab > Badges section**, the "Badges" tab is displayed in the course editor for this course element and a specific badge can be created for this course element.
 
 [To the top of the page ^](#course_element_structure)
 
@@ -70,7 +70,7 @@ Further information on the tab can be found [here](../learningresources/Learning
 
 ### Settings for conventional courses
 
-#### Tab Score   {: #score}
+#### Tab Score  {: #score}
 
 Conventional courses have the "Points" tab. Here points that were collected in other assessable OpenOlat course elements (e.g. _assessment_, _group/assignment, SCORM learning content, checklist, LTI page, portfolio task_, _test_ ) be added up and a pass/fail result displayed. The summarized results appear when you click on the course element _Structure_ in the current course.
 

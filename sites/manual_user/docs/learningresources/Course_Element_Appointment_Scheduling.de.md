@@ -24,7 +24,7 @@ Soll die Terminwahl nur innerhalb eines bestimmten Zeitfensters möglich sein, m
 
 ## Im Kursrun (geschlossener Kurseditor)
 
-Die eigentliche Konfiguration und Einrichtung der wählbaren Termine erfolgt im Kursrun bei geschlossenem Editor. Über den Button „Anlass erstellen“ wird zunächst eine neue Terminbuchung oder Terminfindung angelegt, die Basiskonfiguration vorgenommen und die ersten Termine eingetragen. Mit „Termin hinzufügen“ können später weitere Termine ergänzt werden. Bereits angelegte Termine lassen sich über das Drei-Punkte-Menü jederzeit wieder bearbeiten.
+Die eigentliche Konfiguration und Einrichtung der wählbaren Termine erfolgt im Kursrun bei geschlossenem Editor. Über den Button "Anlass erstellen" wird zunächst eine neue Terminbuchung oder Terminfindung angelegt, die Basiskonfiguration vorgenommen und die ersten Termine eingetragen. Mit "Termin hinzufügen" können später weitere Termine ergänzt werden. Bereits angelegte Termine lassen sich über das Drei-Punkte-Menü jederzeit wieder bearbeiten.
 
 ### Anlass konfigurieren
 

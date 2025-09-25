@@ -10,7 +10,7 @@ Verfügbar seit |
 Funktionsgruppe | Wissensüberprüfung
 Verwendungszweck | Kursbaustein zum Einbinden einer Test-Lernressource in einen Kurs
 Bewertbar | ja
-Spezialität / Hinweis |  vorkonfigurierter Kursbaustein ""Test"
+Spezialität / Hinweis |  vorkonfigurierter Kursbaustein "Test"
 
 Der Selbsttest wird ähnlich konfiguriert und eingerichtet wie der Kursbaustein Test. Bei Selbsttests gibt es allerdings keine Option "bestanden/nicht bestanden", der Tab "Highscore" entfällt und der Kursbaustein taucht auch nicht im Bewertungswerkzeug auf.
 

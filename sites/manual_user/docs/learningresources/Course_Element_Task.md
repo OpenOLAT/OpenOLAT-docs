@@ -14,6 +14,8 @@ Specialty / Note | also available as [group task](../learningresources/Course_El
 
 Teachers can use the course element Assignment to organize **file submissions** and **submission assignments**. Learners upload their submissions to the OpenOlat course and receive feedback or an assessment from the teacher. Peer reviews are also possible. Revisions can also be requested or sample solutions provided.
 
+---
+
 
 ## Create task (Author perspective) {: #create_task}
 
@@ -280,7 +282,7 @@ If the "By coach" option was selected in the Workflow tab, the minimum and maxim
 
 **Return and feedback by means of peer reviews**
 
-If the "With peer review" option was selected in the Workflow tab, this becomes more complex. The rules for the submission of feedback by other participants can now be defined in the "Return and feedback" tab. The feedback from the reviewers is given in a [form](../learningresources/Rubric.md), usually with the help of a rubric. As the course owner, you provide this review form. 
+If the "With peer review" option was selected in the Workflow tab, this becomes more complex. The rules for the submission of feedback by other participants can now be defined in the "Return and feedback" tab. The feedback from the reviewers is given in a [form](../learningresources/Form_Element_Rubric.md), usually with the help of a rubric. As the course owner, you provide this review form. 
 
 If the assessment is also activated in the Workflow tab and the points for the peer review are to be taken automatically from the peer review form, the peer review form used must also contain (at least) one rubric element, as points can be awarded automatically via this. Here you can find a [sample form for download](assets/Example_PeerReview_v1_de.zip).
 
@@ -751,7 +753,7 @@ One reviewer is absent due to illness and the coaches steps in as reviewer. This
 A coach sees that a reviewer has performed a review incorrectly or poorly. The coach then marks this review as invalid and makes a review themselves so that this person has received the same number of reviews again.
 
 **Example 3:**<br>
-There are two completely contradictory reviews from the peer review. The supervisor therefore provides a mediating or corrective review. (In contrast to an expert review, the same evaluation grid is used here).
+There are two completely contradictory reviews from the peer review. The supervisor therefore provides a mediating or corrective review. (In contrast to an expert review, the same assessment grid is used here).
 
 [Up (Coach perspective) ^](#coach_task)<br>
 [To the top of the page ^](#course_element_task)

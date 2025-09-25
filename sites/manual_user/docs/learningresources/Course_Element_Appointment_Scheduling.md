@@ -8,29 +8,31 @@ Name | Appointment scheduling
 Icon | ![Appointment scheduling Icon](assets/dateentry.png){ class=size24 }
 Available since | 
 Functional group | Administration and organisation
-Purpose | Scheduling and enrollment for specific joint appointments
+Purpose | Scheduling and enrolment for specific joint appointments
 Assessable | No
 Specialty / Note |
 
 
 
-The course element Appointment Scheduling can be used to organize enrollments for specific appointments as well as to find appointments. In general, you can configure whether multiple appointments can be selected, whether there is a limit to the number of participants, whether participants can see who has registered and whether a BigBlueButton room should be assigned.
+The scheduling course element can be used to organize registrations for fixed dates as well as appointment scheduling. Among other things, you can specify whether multiple dates can be selected, whether the number of participants is limited, whether it is visible who has registered, and whether a virtual classroom installed in the OpenOlat instance (e.g., BigBlueButton or Teams) should be assigned.
 
-In the course editor, the course element is added and it can be determined whether coaches can also edit occasions and appointments or whether this is only possible by the course owners. If the choice of appointments should only be possible within a certain time window, the time specifications in the course editor must be specified accordingly in the tab "Learning path" or, in the case of conventional courses, the visibility or access must be configured appropriately.
+## In the course editor
 
-However, the actual configuration and setup of the dates is done in the course run with the editor closed. For this purpose, a new enrollment or appointment is first created via the button "Create occasion" and the basic configuration is carried out as well as appointments are entered.
+The course element is added in the course editor. The permissions for specific groups of people are defined in the "Configuration" tab. This allows you to define whether course owners and/or course coaches are considered organizers of the events, whether they receive email notifications, whether participants are allowed to comment on their choices, and who is authorized to edit an event (e.g., people with a specific role, individual participants, or a specific group).
 
-Via the button "**Add appointment**" you can also add further appointments to this voting later. Also, already created appointments can be revised again via the three-point link.
+If the selection of dates should only be possible within a certain time window, the time specifications must be entered accordingly in the course editor in the "Learning Path" tab or, in the case of conventional courses, the visibility or access must be configured accordingly.
 
-![add_appointment.png](assets/Termin_hinzufuegen.jpg)
+## Configure occasion (closed course editor)
 
-## Configure occasion 
+The actual configuration and setup of the selectable dates takes place in the course run with the editor closed. The "Create event" button is used to first create a new appointment booking or appointment scheduling, perform the basic configuration, and enter the first dates. Additional dates can be added later using "Add appointment". Dates that have already been created can be edited at any time using the three-dot menu.
 
-An "event" is a set of several dates that can be selected.
+### Configure occasion
 
-![create_occaision.png](assets/create_occasion.png)
+First, click on **"Create event"**. An "event" is a compilation of several dates that can be selected.
 
-How to configure an appointment booking or an appointment finding:
+The configuration menu appears and you can specify the following aspects: 
+
+![Anlass erstellen, Konfiguration](assets/Terminplanung_Anlass_erstellen_20.jpg)
 
  **Title:** Enter the name of the appointment here, e.g. "Reconciliation closing meeting", "Kick-off meeting" etc. The entry is required (mandatory field).
 
@@ -44,7 +46,7 @@ How to configure an appointment booking or an appointment finding:
 
  **Location:** Enter the location of the event here.
 
- **Max. Participants:** You can limit the number of members for an appointment (only for "Enrollment").
+ **Max. Participants:** You can limit the number of members for an appointment (only for "Enrolment").
 
 **Type of appointment:** You can create appointments based on duration, based on a start and end date, or recurring by specific days of the week. The selection makes it easier for you to create additional appointments.
 
