@@ -127,7 +127,7 @@ Dabei muss berücksichtigt werden, dass Informationen programmtechnisch an unter
 |**Quota** :octicons-person-24: | tbd |
 |**Lektionen** :octicons-person-24: | Die Teilnahme an Lektionen/Absenzen werden gelöscht.|
 |**Kompetenzen** :octicons-person-24: | Kompetenzen werden gelöscht.|
-|Benutzerverwaltung > **Curriculum** :octicons-person-24: | tbd |
+|Benutzerverwaltung > **Course Planner Rollen** :octicons-person-24: | tbd |
 |**Persönlicher Kalender** :octicons-person-24: | Der persönliche Kalender wird gelöscht|
 |**Chatverlauf** :octicons-person-24: | Chats (Nachrichten, Einstellungen) werden anonymisiert.|
 |**Persönlicher Ordner** :octicons-person-24: |Der persönliche Ordner wird gelöscht|
