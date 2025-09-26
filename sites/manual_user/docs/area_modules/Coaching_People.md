@@ -2,6 +2,7 @@
 
 ![coaching_teilnehmer_v1_de.png](assets/coaching_people1_v1_de.png){ class="shadow lightbox" }
 
+![coaching_people_who_v1_de.png](assets/coaching_people_who_v1_de.png){ class="shadow lightbox" }
 
 ### 1. WHOM does the list show?  {: #people_who}
 
@@ -10,14 +11,13 @@ The menu item "Participants" shows the list of **all the participants you are re
   * The participants from **all** coached courses are displayed (in contrast to the course [assessment tool](../learningresources/Assessment_tool_overview.md). There, only participants from the current course are displayed.)
   * Each coach only sees the participants they are coaching.
   * The participants you are supervising are **grouped and assigned roles** that you, as their coach, have in relation to them.<br>
-  In the example shown below, the caregiver can access presorted lists that correspond to their 4 roles:
+  In the example shown above, the caregiver can access presorted lists that correspond to their 4 roles:
     * As Coach
     * As Course Owner
     * As Line Manager
     * As Education manager
 
 
-![coaching_people_who_v1_de.png](assets/coaching_people_who_v1_de.png){ class="shadow lightbox" }
 
 [To the top of the page ^](#people)
 

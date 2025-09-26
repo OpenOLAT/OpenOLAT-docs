@@ -4,6 +4,9 @@
 ![coaching_people1_v1_de.png](assets/coaching_people1_v1_de.png){ class="shadow lightbox" }
 
 
+![coaching_people_who_v1_de.png](assets/coaching_people_who_v1_de.png){ class="shadow lightbox" }
+
+
 ## WEN zeigt die Liste? {: #people_who}
 
 Der Menüpunkt "Personen" im Coaching Tool zeigt die Liste **aller von Ihnen betreuten** Teilnehmenden.
@@ -11,14 +14,12 @@ Der Menüpunkt "Personen" im Coaching Tool zeigt die Liste **aller von Ihnen bet
   * Es werden die Teilnehmenden aus **allen** betreuten Kursen angezeigt. (Im Unterschied zum [Bewertungswerkzeug](../learningresources/Assessment_tool_overview.de.md) des Kurses. Dort werden nur Teilnehmende des aktuellen Kurses angezeigt.)
   * Jeder Coach (Betreuer:in) sieht nur die von ihr/ihm betreuten Teilnehmenden.
   * Die betreuten Teilnehmenden sind **gruppiert und den Rollen zugeordnet**, die Sie als Betreuende:r gegenüber dieser Person haben.<br> 
-  Im nachstehend gezeigten Beispiel kann die betreuende Person vorsortierte Listen abrufen, die ihren 4 Rollen entsprechen:
+  Im oben gezeigten Beispiel kann die betreuende Person vorsortierte Listen abrufen, die ihren 4 Rollen entsprechen:
     * als Betreuer:in
     * als Kursbesitzer:in
     * als Lininenvorgesetzte:r
     * als Ausbildungsverantwortliche:r
 
-
-![coaching_people_who_v1_de.png](assets/coaching_people_who_v1_de.png){ class="shadow lightbox" }
 
 
 [Zum Seitenanfang ^](#people)
