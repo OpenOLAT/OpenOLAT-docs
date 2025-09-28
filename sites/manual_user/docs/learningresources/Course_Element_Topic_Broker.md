@@ -320,8 +320,7 @@ As a coach, you have the option of making the enrolment manually or removing a p
 
 Enrolment (including automatic enrolment) can be canceled by coaches (deregistration).
 
-![course_element_topic_broker_enrollment_manually2_v1_de.png](assets/course_element_topic_broker_enrollment_manually2_v1_de.png){ class="shadow lightbox" }
-
+![course_element_topic_broker_modify_enrollment2_v1_de.png](assets/course_element_topic_broker_modify_enrollment2_v1_de.png){ class="shadow lightbox" }
 
 [Up (Course owner perspective) ^](#topic_broker_coaching)<br>
 [To the top of the page ^](#topic_broker)

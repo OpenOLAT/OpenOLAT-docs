@@ -60,7 +60,7 @@ The layout options are the same as those contained in all course elements.
 
 !!! info "Traditional courses"
 
-    Traditional courses do not have the “Learning path” tab and instead have the “Visibility” and “Access” tabs, including expert mode.
+    Traditional courses do not have the "Learning path" tab and instead have the "Visibility" and "Access" tabs, including expert mode.
 
 
 Here you define whether the execution of the task is obligatory or voluntary or if the course element should hidden. Obligatory tasks are taken into account in the progress display, voluntary ones are not.
@@ -427,7 +427,7 @@ For more information on this tab, which is available in several course elements,
 
 ### Tab "Reminders & To-dos"    {: #reminders}
 
-With the reminder function, you can send [Reminders](../learningresources/Course_Reminders.md) to course members in the form of an e-mail and generate automatic [To-dos](../learningresources/Course_todos.md) for the task. To-dos are stored for course participants in the personal menu under "[To-dos](../../personal_menu/To-Dos.md)".
+With the reminder function, you can send [Reminders](../learningresources/Course_Reminders.md) to course members in the form of an e-mail and generate automatic [To-dos](../learningresources/Course_todos.md) for the task. To-dos are stored for course participants in the personal menu under "[To-dos](../personal_menu/To-Dos.md)".
 
 If the automatic creation of to-dos is activated (from :octicons-tag-24: Release 18.2.), learners can see the current status (step) of the corresponding worklow under "My course" -> To-dos and thus quickly recognize whether or which actions currently need to be taken by them. In addition, these to-dos also appear in the user's personal to-dos in the personal tools. 
 
