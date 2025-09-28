@@ -199,7 +199,7 @@ If correctors have been defined for the test in the learning resource via the co
 [To the top of the page ^](#course_element_test)
 
 
-### Tab "E-mail Confirmation" (:octicons-tag-24: Release 17.2.) {: #tab_email_confirmation}
+### Tab "E-mail Confirmation" 
 
 Activate the e-mail confirmation if you want to confirm the submission of the test by e-mail. You can use different variables like name or score in the mail text. A copy of the mail can also be sent to the course owners, responsible coaches or external mail addresses.
 
@@ -222,6 +222,8 @@ Here, reminder e-mails can be configured according to certain criteria. More inf
 ### Tab "Badges" {: #tab_badges}
 
 If the course owner has activated the assignment of badges under **Administration > Settings > Assessment tab > Badges** section, the "Badges" tab will be displayed in the course editor for this course element and a specific badge can be created for this course element.
+For more information on badges and how they are awarded, see the chapter [“Badges”](../learningresources/OpenBadges.md).
+
 
 [Beginning of test configuration section ^](#config)<br>
 [To the top of the page ^](#course_element_test)
@@ -242,7 +244,8 @@ Attribute | ![Test](assets/test.png){ class=size16 } Test | ![Selbsttest](assets
 
 !!! tip "Hint"
 
-    Sometimes it makes sense to use the "Test" type, even if you actually want to provide learners with a self-test. Tests make it possible to support learners individually if necessary and also to provide feedback on manually assessable question types.
+    Sometimes it makes sense to use the "Test" type, even if you actually want to provide learners with a self-test. Tests enable learners to be supported individually as needed and also provide feedback on manually assessable question types, and can give teachers feedback on the quality and effectiveness of their questions.
+    
 
 [To the top of the page ^](#course_element_test)
 
@@ -255,22 +258,29 @@ Attribute | ![Test](assets/test.png){ class=size16 } Test | ![Selbsttest](assets
 
     Once a test or self-test is included in a course, only very limited changes can be made under "Edit content". Therefore, tests should not be included in a course until they are completely finished.
 
-Why is that? Assuming you could still add questions in an embedded test or mark other answers as correct, on the one hand not all test subjects would encounter the same conditions. On the other hand, results might have already been saved that cannot be uniquely assigned to a version of the test file after the change. Therefore, editing of already included tests and self-tests is severely limited.
+Why is that? Assuming you could still add questions in an embedded test or mark other answers as correct, on the one hand not all test subjects would encounter the same conditions. On the other hand, results might have already been saved that cannot be uniquely assigned to a version of the test file after the change (This was the case until release 19.1.10.). Therefore, editing of already included tests and self-tests is severely limited.
 
-**The work-around with only one learning resource**
+So the question is what you can do if you need to change a test for valid reasons. You have the following options:
 
-For example, if you want to add a new question to a test or an answer was mistakenly marked as correct, copy the Test learning resource in the authoring area and resave the test that way. Edit and correct the test and then integrate it into the desired course. To do this, switch to the course editor and replace the file in the course element of the desired test. If results have already been received, they will be archived in your personal folder (private) and you can decide whether OpenOlat should inform those course participants who have already taken the test about the change.
+### Replacing tests that have already been edited
 
-**Use of several test learning resources one after the other in the same test course element**<br>(from release 19.1.10)
+If you want to change a test retrospectively (e.g., add new questions or correct incorrect answers), first copy the Test learning resource in the authoring area and edit the copy. Then integrate it into the desired course.
 
-If you replace the test learning resource in a test course element that has already been completed by participants, a **controlled replacement** can be carried out from release 19.1.10 onwards. All previous test runs are then marked as invalid and reset. The evaluation form is also deleted/reset. With the "Replace only" option, however, nothing is reset in the participants' test results.
+To do this, open the relevant course element in the course editor, switch to the "Test configuration" tab, and click Replace. Select the prepared test copy.
 
-If you want to replace the learning resource in a used test course element, a dialog appears.<br> (**Course editor > Select course element > Test configuration tab > Replace learning resource**)<br>
-You will be informed of the effects of the exchange and the differences between the various test learning resources.
-You must also expressly confirm that you are aware of these effects and wish to exchange the test learning resource.
+There are two options available in the next step:
+
+* **Controlled replacement**: All previous runs and evaluations become invalid, and the evaluation form is reset. You will also receive the previous results as a ZIP download.
+
+* **Replace only**: The test is replaced, existing runs and evaluations are retained.
+
+Before the replacement, a dialog box informs you of the effects. You must explicitly confirm these.
+
 
 **Example:**
 ![course_element_test_replace_resource1_v1_de](assets/course_element_test_replace_resource1_v1_de.png){ class="shadow" }
+
+After the replacement, the link “Show history” also appears next to the ‘Replace’ button, see [“Test history”](#history). 
 
 [To the top of the page ^](#course_element_test)
 
@@ -280,9 +290,11 @@ You must also expressly confirm that you are aware of these effects and wish to 
 
 Access tests completed by course participants in the "[Assessment tool](../learningresources/Assessment_tool_overview.md)". The assessment tool can be found in the "Administration" of the course. Navigate to the desired course element Test. In the "Participants" tab, all course participants are displayed with the respective processing status for this course element and you can see in the "Status" column whether an assessment is required. Open reviews are also displayed in the overview under "Open reviews".
 
-Alternatively, the results can also be viewed and managed in the course run with the editor closed directly in the respective test course element. In the course run, it is also possible to configure reminders for the respective test and thus trigger a condition-dependent e-mail dispatch.
+Alternatively, the results can also be viewed and managed in the course run with the editor closed directly in the respective test course element. 
+To do this, switch to the “Participants” tab. As the course owner, you also have access to other tabs in the course run, such as Preview, Communication, Reminders, and Badges. Some of these tabs are also available to coaches.
 
-![Test Kursrun Teilnehmerliste](assets/Test_Kursrun_19.png){ class="shadow" }
+
+![Test Kursrun Teilnehmerliste](assets/Test_Kursrun_20a.jpg){ class="shadow" }
 
 If external correctors have also been activated for a test, they can assess it via the [Coaching Tool](../area_modules/Coaching.md).
 
@@ -326,16 +338,15 @@ If the test learning resource has been replaced, a button for switching between 
 
 
 
-
 ## Test results and archiving {: #archive}
 
-In the course view, select from the "Administration" -> [Data archiving](../learningresources/Using_Course_Tools.md#data-archiving-tool--archive)". Go to "Tests" on the left or also completely to "Course results" and save the displayed file. The results of self-tests are saved anonymously.
+You can archive test results. To do this, select [Archiving & Reporting](../learningresources/Course_Archiving.md) in the administration area. Here you can download all course results from all assessable course elements, including tests.
 
-After archiving, you will find all the information about which person (anonymized by a run number in the case of self-testing) answered which questions, which answers they gave, and how many points were achieved in the case of self-testing.
+Alternatively, you can select only the results of certain tests and save only those. To do this, select “Course archiving” -> “Partial archives” -> “Create archive” and select the desired test element. Select the default settings or customize specific archiving options. A zip file will be created, which will then be available in the Course Archiving area for a certain period of time, e.g., 10 days, and can be copied, downloaded, and deleted. 
 
-Attention: Archiving will change with OpenOlat :octicons-tag-24: Release 19 and will then take place in the "Archiving & Reporting" menu of the administration. 
+![Tests archivieren](assets/Kurs_archivieren_20.jpg)
 
-Via Administration -> "[Test Statistics](../learningresources/Using_Course_Tools.md#test-statistics)" you can also quickly access the graphical analysis of your test data.
+It is still possible to download the raw data from tests via “[Test Statistics](../learningresources/Statistics_Test.md)” in the Administration area. Here you can also quickly access the graphical analysis of your test data. 
 
 [To the top of the page ^](#course_element_test)
 
@@ -343,23 +354,29 @@ Via Administration -> "[Test Statistics](../learningresources/Using_Course_Tools
 
 
 
-## Working with tests
+## Working with tests  {: #work_with_tests}
 
 ### Application examples
-In general, tests in OpenOlat are used to test knowledge. Here are a few examples of the use of tests:
-* Tests for knowledge verification after a phase of knowledge transfer
-* Tests to check the current level of knowledge before a course, to determine where there are still deficits or to define which aspects should be particularly addressed in the course.
-* Tests to check your own level of knowledge on a topic, to identify preferences and interests
-* Tests as individual feedback providers, provided that the OpenOlat feedback options are used intensively
-* Tests in the sense of quizzes as a playful component
-* Tests as an online exam
+Tests can be used in the following scenarios, among others:
+
+* **Final assessment**: Review of acquired knowledge after a learning or training phase or an online course
+
+* **Pre-test**: Assessment of current knowledge before the start of the course in order to identify existing gaps and determine the focus of the course
+
+* **Interest test**: Self-assessment of one's own level of knowledge and identification of personal preferences and interests
+
+* **Answer-specific feedback**: Tests as individual feedback providers with intensive use of the OpenOlat feedback functions
+
+* **Quiz game**: Playful knowledge assessment in the form of quizzes, quests, storytelling, etc.
+
+* **Online exam**: Conducting exam-relevant online or e-exams
 
 
 ### How to edit a test (Learners perspective)
 
-To start editing a test press "Start test". Answer the questions displayed and then click "Save answer" for each question. If generally visible, you can see in the left navigation which questions have already been answered, which questions have only been looked at and which have not been clicked at all.
+Let's switch to the learner's perspective.To start editing a test press "Start test". Answer the questions displayed and then click "Save answer" for each question. If generally visible, you can see in the left navigation which questions have already been answered, which questions have only been looked at and which have not been clicked at all.
 
-![](assets/Test_Anzeige.png)
+![test navigation left](assets/Test_Anzeige.png)
 
 Depending on the setting, you can navigate further using the "Next question" button and/or a link in the left-hand navigation or the next question will be displayed automatically. Whether you can skip questions or see the progress of answers also depends on the configuration of the teacher. Depending on the configuration, you can interrupt the test and continue at a later time or cancel it without saving the results.
 

@@ -12,9 +12,10 @@ Schauen wir uns die einzelnen Bereiche der Übersicht genauer an:
 
 ### "Offene Bewertungen" (Übersicht)
 
-Auf einen Blick ist hier ersichtlich, ob bzw. für wen eine oder mehrere Bewertung(en) offen sind. Auch wird angezeigt, wie viele Bausteine des jeweiligen Benutzers zu bewerten sind. Sofern nur ein Baustein bewertet werden muss, wird dieser direkt aufgelistet. Mit einem Klick auf den Baustein kommt man zur entsprechenden Bewertung.
+Auf einen Blick ist hier ersichtlich, ob bzw. für wen eine oder mehrere Bewertung(en) offen sind. Auch wird angezeigt, wie viele Bausteine des jeweiligen Users zu bewerten sind. Sofern nur ein Baustein bewertet werden muss, wird dieser direkt aufgelistet. Mit einem Klick auf den Baustein kommt man zur entsprechenden Bewertung.
 
 ![Offene Bewertungen](assets/offene_Bewertungen.jpg)
+
 In der Übersicht werden nur die unerledigten Bewertungen angezeigt. Bereits durchgeführte Bewertungen werden an dieser Stelle nicht aufgelistet.
 
 ### "Freizugebende Bewertungen" (Übersicht)
@@ -46,7 +47,7 @@ Auch ist hier erkennbar wie viele Personen bereits eingeloggt sind und auf den S
 Hier können Betreuende über den Abonnieren Schieberegler einschalten, dass sie bei neuen Einsendungen, Testresultaten und sonstigen Einreichungen eine E-Mail erhalten. Auch können
 Benachrichtigungen über neu erzeugte Zertifikate (sofern generell aktiviert) abonniert werden.
 
-![Benachrichtigungsservice aktivieren](assets/uebersicht_abonnieren1.jpg)
+![Benachrichtigungsservice aktivieren](assets/Benachrichtigungen_Bewertungswerkzeug20.jpg)
 
 ## Aufträge
 
@@ -93,6 +94,8 @@ Wie genau Bewertungen vorgenommen werden erfahren Sie im Kapitel ["Bewertung von
 !!! info "Hinweis"
 
     Sofern eine Prüfungseinsicht für Teilnehmende aktiviert wurde erscheint beim entsprechenden Kursbaustein auch noch der Tab "Prüfungseinsicht". 
+
+Ausführliche Informationen zur Bearbeitung und Bewertung im Tab Teilnehmer:innen finden Sie im Kapitel ["Tab Teilnehmer"](../learningresources//Assessment_tool_tab_Users.de.md)
 
 ## Daten zurücksetzen {: #course_reset}
 

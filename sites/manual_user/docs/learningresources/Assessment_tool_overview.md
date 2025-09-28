@@ -50,7 +50,7 @@ Here coaches can activate the option to receive an e-mail for new submissions,
 test results and other submissions.  Notifications about newly generated
 certificates (if generally activated) can also be subscribed to.
 
-![Benachrichtigungsservice aktivieren](assets/uebersicht_abonnieren1.jpg)
+![Benachrichtigungsservice aktivieren](assets/Benachrichtigungen_Bewertungswerkzeug20.jpg)
 
 
 ## Orders

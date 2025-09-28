@@ -31,9 +31,7 @@ Die zwei zentralen Tabs in denen Sie Einstellungen für Ihren Test vornehmen kö
 
 
 !!! info "Hinweis"
-
-    ![Test Icon](assets/selftest.png){class="size24"}
-    
+      
     In OpenOlat gibt es zwei unterschiedliche Kursbausteine für Tests: "Tests" und ["Selbsttests"](../learningresources/Course_Element_Self_Test.de.md). Im Gegensatz zum Test werden im Selbsttest die Testresultate anonymisiert gespeichert. Selbsttests eignen sich für Übungszwecke und können unlimitiert absolviert werden. Auch werden bei Selbsttests die Ergebnisse nach Beenden des Tests automatisch angezeigt.
     
     Der Umgang mit Selbsttests ist ansonsten identisch mit der Handhabung der Tests.
@@ -103,7 +101,7 @@ Wird hier nichts aktiviert ist der Test jederzeit zugänglich, sofern keine Eins
 
 Bei einer manuellen Korrektur ist die Sichtbarkeit des Ergebnisses eingeschränkt und der Betreuer bzw. Korrektor muss die Korrektur manuell ergänzen. Zu den manuell zu bearbeitenden Fragen gehören Freitext, Datei hochladen und Zeichnen. Eine manuelle Korrektur kann bei Bedarf aber auch eingestellt werden, wenn der Test nur aus automatisch auswertbaren Fragetypen besteht.
 
-Aktiviert man die Option "**Manuell durch externe Korrektoren**" können auch OpenOlat Benutzer einen Test korrigieren, ohne dass sie Mitglied oder gar Betreuer des Kurses sind. Durch diese Wahl wird auch der Tab "Korrektoren" aktiviert und man erkennt, wer als Korrektor dem Test zugeordnet ist.
+Aktiviert man die Option "**Manuell durch externe Korrektoren**" können auch OpenOlat Benutzer:innen einen Test korrigieren, ohne dass sie Mitglied oder gar Betreuer:in des Kurses sind. Durch diese Wahl wird auch der Tab "Korrektoren" aktiviert und man erkennt, wer als Korrektor dem Test zugeordnet ist.
 
 ![Test Tab Korrektoren](assets/Test_Tab_Korrektoren_DE.png){ class="shadow" }
 
@@ -205,9 +203,9 @@ Sofern für in der Lernressource Test über den Korrektur-Workflow der Lernresso
 
 
 
-### Tab "E-Mail Bestätigung" (:octicons-tag-24: Release 17.2.) {: #tab_email_confirmation}
+### Tab "E-Mail Bestätigung" 
 
-Aktivieren Sie die E-Mail Bestätigung, wenn die Lernenden nach Abgabe es Tests eine Bestätigung erhalten sollen. Eine Kopie der Mail kann auch an die Kursbesitzer, zuständige Betreuer oder externe Mail-Adressen verschickt werden.
+Aktivieren Sie die E-Mail Bestätigung, wenn die Lernenden nach Abgabe des Tests eine Bestätigung erhalten sollen. Eine Kopie der Mail kann auch an die Kursbesitzer:innen, zuständige Betreuer:innen oder externe E-Mail-Adressen verschickt werden.
 
 Für den Mailtext kann die Vorlage und ein voreingestellter Betreff mit dem Titel des Test-Kursbausteins verwendet werden. Alternativ kann beides auch geändert werden. Wählen Sie in diesem Fall bei "Vorlage" -> "Eigener Text" um den Mailingtext zu bearbeiten oder komplett zu ändern. 
 
@@ -227,9 +225,10 @@ Hier können Erinnerungsmails nach bestimmten Kriterien konfiguriert werden. Wei
 [Zum Seitenanfang ^](#course_element_test)
 
 
-### Tab Badges {: #tab_badges}
+### Tab "Badges" {: #tab_badges}
 
 Wurde von dem/der Kursbesitzer:in unter **Administration > Einstellungen > Tab Bewertung > Abschnitt Badges** die Vergabe von Badges aktiviert, wird im Kurseditor zu diesem Kursbaustein der Tab "Badges" angezeigt und es kann ein spezifischer Badge für diesen Kursbaustein erstellt werden.
+Mehr Informationen zum Thema Badges und wie sie vergeben werden erfahren Sie im Kapitel ["Badges"](../learningresources/OpenBadges.de.md).
 
 
 [Zum Anfang des Abschnitts Testkonfiguration ^](#config)<br>
@@ -243,17 +242,17 @@ Wurde von dem/der Kursbesitzer:in unter **Administration > Einstellungen > Tab B
 
 Merkmal | ![Test](assets/test.png){ class=size16 } Test | ![Selbsttest](assets/selftest.png){ class=size16 } Selbsttest
 ------|------|------
- Einsatzzweck | Prüfungstest, Test mit Prüfungsmöglichkeit durch den Lehrenden, Standard Test | Übung, Selbstevaluation, keine Einsicht durch Lehrperson
+ Einsatzzweck | Prüfungstest, Test mit Einblick für die Lehrenden, Standard Test | Übung, Selbstevaluation, keine Einsicht durch Lehrperson
  Herstellung mit | [Testeditor](Test_editor_QTI_2.1.de.md) | [Testeditor](Test_editor_QTI_2.1.de.md)
  Fragetypen QTI 2.1 | Alle [Fragetypen](Test_question_types.de.md) möglich | Alle [Fragetypen](Test_question_types.de.md) möglich, aber nur automatisch auswertbare Fragetypen können auch für Punkte verwendet werden.
  Einbindung mit Kursbaustein | Test| Selbsttest
- Anzahl Aufrufe durch Kursteilnehmer | konfigurierbar | unlimitiert
- Ergebnisse | erscheinen im [Bewertungswerkzeug](../learningresources/Assessment_tool_overview.de.md) sowie in den [Test Statistiken](../learningresources/Using_Course_Tools.de.md#statistics) und sind für Betreuer einsehbar | erscheinen _nicht_ im [Bewertungswerkzeug](../learningresources/Assessment_tool_overview.de.md) und in den [Test Statistiken](../learningresources/Using_Course_Tools.de.md#test-statistiken) und sind nicht personalisiert für Betreuer:innen und Besitzer:innen einsehbar
+ Anzahl Aufrufe durch Kursteilnehmende | konfigurierbar | unlimitiert
+ Ergebnisse | erscheinen im [Bewertungswerkzeug](../learningresources/Assessment_tool_overview.de.md) sowie in den Test Statistiken und sind für Betreuer:innen einsehbar | erscheinen _nicht_ im [Bewertungswerkzeug](../learningresources/Assessment_tool_overview.de.md) und in den Test Statistiken und sind nicht personalisiert für Betreuer:innen und Besitzer:innen einsehbar
  Datenarchivierung| ja, personalisiert| ja, anonymisiert. Eine personenbezogene Zuordnung oder Feedbacks sind aber nicht möglich.
 
 !!! tip "Tipp"
 
-    Manchmal ist es sinnvoll, den Typ "Test" zu verwenden, auch wenn man den Lernenden eigentlich einen Selbsttest zur Verfügung stellen möchte. Tests ermöglichen bei Bedarf die Lernenden individuell zu unterstützen und auch Feedback zu manuell bewertbaren Fragetypen bereitzustellen.
+    Manchmal ist es sinnvoll, den Typ "Test" zu verwenden, auch wenn man den Lernenden eigentlich einen Selbsttest zur Verfügung stellen möchte. Tests ermöglichen bei Bedarf die Lernenden individuell zu unterstützen und auch Feedback zu manuell bewertbaren Fragetypen bereitzustellen und können Lehrenden ein Feedback zur Qualität und Effektivität ihrer Fragen geben. 
 
 
 [Zum Seitenanfang ^](#course_element_test)
@@ -267,23 +266,28 @@ Merkmal | ![Test](assets/test.png){ class=size16 } Test | ![Selbsttest](assets/s
 
     Sobald ein Test oder Selbsttest in einen Kurs eingebunden wird, können nur noch sehr eingeschränkt Änderungen unter "Lernressource bearbeiten" vorgenommen werden. Deshalb sollte ein Test möglichst erst in einen Kurs eingebunden werden, wenn er vollständig fertiggestellt ist.
 
-Warum ist das so? Angenommen Sie könnten in einem eingebundenen Test noch Fragen hinzufügen oder andere Antworten als korrekt markieren, würden einerseits nicht alle Testpersonen die gleichen Voraussetzungen antreffen. Andererseits könnten bereits Resultate gespeichert worden sein, die nach der Änderung nicht eindeutig einer Version der Testdatei zugewiesen werden können. (dies wqr bis Release 19.1.10 der Fall.) Deshalb wurde das Editieren bereits eingebundener Tests und Selbsttests stark eingeschränkt.
+Warum ist das so? Angenommen Sie könnten in einem eingebundenen Test noch Fragen hinzufügen oder andere Antworten als korrekt markieren, würden einerseits nicht alle Testpersonen die gleichen Voraussetzungen antreffen. Andererseits könnten bereits Resultate gespeichert worden sein, die nach der Änderung nicht eindeutig einer Version der Testdatei zugewiesen werden können (dies war bis Release 19.1.10 der Fall.) Deshalb wurde das Editieren bereits eingebundener Tests und Selbsttests stark eingeschränkt.
 
-**Der Work-around mit nur einer Lernressource** 
+Die Frage ist also was man tun kann, wenn man doch mal einen Test aus triftigen Gründen ändern muss. Hierfür haben Sie folgende Möglichkeit:
 
-Wenn Sie einem Test beispielsweise eine neue Frage hinzufügen möchten oder fälschlicherweise eine Antwort als korrekt markiert wurde, kopieren Sie die Lernressource Test im Autorenbereich und speichern den Test so neu. Bearbeiten und korrigieren Sie den Test und binden Sie den Test anschliessend in dem gewünschten Kurs ein. Wechseln Sie dafür in den Kurseditor und tauschen Sie im Kursbaustein des gewünschten Tests die Datei aus. Wenn bereits Resultate eingegangen sind, werden diese in Ihrem persönlichen Ordner (private) archiviert und Sie können entscheiden, ob OpenOlat diejenigen Kursteilnehmer, die den Test bereits absolviert haben, über die Änderung informieren soll.
+### Bereits bearbeitete Tests austauschen
 
-**Nutzung mehrerer Test-Lernressourcen nacheinander im gleichen Test-Kursbaustein**<br>(ab Release 19.1.10)
+Wenn Sie einen Test nachträglich ändern möchten (z. B. neue Fragen hinzufügen oder fehlerhafte Antworten korrigieren), kopieren Sie zunächst die Lernressource Test im Autorenbereich und bearbeiten Sie die Kopie. Binden Sie diese anschliessend im gewünschten Kurs ein.
 
-Wenn Sie in einem Test-Kursbaustein, der bereits von Teilnehmer:innen bearbeitet wurde, die Test-Lernressource austauschen, kann seit Release 19.1.10 ein **kontrollierter Austausch** erfolgen. Dabei werden dann alle bisherigen Testläufe als ungültig markiert und zurückgesetzt. Auch das Bewertungsformular wird gelöscht/zurückgesetzt. Mit der Option "Nur ersetzten" wird dagegen in den Testergebnissen der Teilnehmer:innen nichts zurückgesetzt.
+Dazu öffnen Sie im Kurseditor den betreffenden Kursbaustein, wechseln in den Tab Test-Konfiguration und klicken auf Ersetzen. Wählen Sie die vorbereitete Test-Kopie aus.
 
-Wenn Sie in einem benutzen Test-Kursbaustein die Lernressource austauschen wollen, erscheint ein Dialog.<br> (**Kurseditor > Kursbaustein wählen > Tab Test-Konfiguration > Lernressource ersetzen**)<br>
-Sie werden darauf hingewiesen, welche Auswirkungen der Austausch hat und welche Unterschiede die verschiedenen Test-Lernressourcen aufweisen.<br>
-Sie müssen ausserdem ausdrücklich bestätigen, dass Sie sich dieser Auswirkungen bewusst sind und die Test-Lernressource austauschen wollen.
+Im nächsten Schritt stehen zwei Optionen zur Verfügung:
+
+* **Kontrollierter Austausch**: Alle bisherigen Durchläufe und Bewertungen werden ungültig, das Bewertungsformular wird zurückgesetzt. Die bisherigen Ergebnisse erhalten Sie zusätzlich als ZIP-Download.
+
+* **Nur ersetzen**: Der Test wird ausgetauscht, bestehende Durchläufe und Bewertungen bleiben erhalten.
+
+Vor dem Austausch informiert Sie ein Dialog über die Auswirkungen. Diese müssen Sie ausdrücklich bestätigen.
 
 **Beispiel:**
 ![course_element_test_replace_resource1_v1_de](assets/course_element_test_replace_resource1_v1_de.png){ class="shadow" }
 
+Nach dem Austausch erscheint beim Button "Ersetzen" auch der Link "Verlauf anzeigen", siehe ["Test-Historie"](#history). 
 
 [Zum Seitenanfang ^](#course_element_test)
 
@@ -292,11 +296,11 @@ Sie müssen ausserdem ausdrücklich bestätigen, dass Sie sich dieser Auswirkung
 
 ## Tests einsehen und bewerten {: #evaluate}
 
-Betreuer und Kursbesitzer haben im "[Bewertungswerkzeug](../learningresources/Assessment_tool_overview.de.md)" Zugriff auf die bearbeiteten Tests. Das Bewertungswerkzeug finden Sie in der "Administration" des Kurses. Navigieren Sie zum gewünschten Kursbaustein Test. Im Tab  "Teilnehmer:innen" werden alle Kursteilnehmenden mit dem jeweiligen Bearbeitungsstand zu diesem Kursbaustein angezeigt und Sie erkennen in der Spalte "Status" ob eine Bewertung erforderlich ist. Auch werden offene Bewertungen bereits in der Übersicht unter "Offene Bewertungen angezeigt. 
+Betreuer:innen und Kursbesitzer:innen haben im "[Bewertungswerkzeug](../learningresources/Assessment_tool_overview.de.md)" Zugriff auf alle bearbeiteten Tests. Das Bewertungswerkzeug finden Sie in der "Administration" des Kurses. Navigieren Sie zum gewünschten Kursbaustein Test. Im Tab  "Teilnehmer:innen" werden alle Kursteilnehmenden mit dem jeweiligen Bearbeitungsstand zu diesem Kursbaustein angezeigt und Sie erkennen in der Spalte "Status" ob eine Bewertung erforderlich ist. Auch werden offene Bewertungen bereits in der Übersicht unter "Offene Bewertungen angezeigt. 
 
-Alternativ können die Ergebnisse auch im Kursrun bei geschlossenem Editor direkt beim jeweiligen Test Kursbaustein eingesehen und verwaltet werden. Im Kursrun besteht auch die Möglichkeit, Erinnerungen zu dem jeweiligen Test zu konfigurieren und so einen bedingungsabhängigen Mailversand auszulösen.
+Alternativ können die Ergebnisse eines spezifischen Tests auch im Kursrun bei geschlossenem Kurseitor direkt beim jeweiligen Test-Kursbaustein eingesehen und verwaltet werden. Wechseln Sie hierfür in den Tab "Teilnehmer:innen". Zusätzlich stehen Ihnen als Kursbesitzer:in im Kursrun noch weitere Tabs wie Vorschau, Kommunikation, Erinnerungen und Badges zur Verfügung. Auch Betreuer:innen verfügen teilweise über diese Tabs.
 
-![Test Kursrun Teilnehmerliste](assets/Test_Kursrun_19.png){ class="shadow" }
+![Test Kursrun Teilnehmerliste](assets/Test_Kursrun_20a.jpg){ class="shadow" }
 
 Sofern für einen Test auch externe Korrektoren aktiviert wurden, können diese die Bewertungen über das [Coaching Tool](../area_modules/Coaching.de.md) vornehmen.
 
@@ -344,15 +348,15 @@ Wurde die Test-Lernressource ausgewechselt, wird rechts oben ein Button zum Wech
 ---
 
 
-## Testergebnisse und Archivierung {: #archive}
+## Testergebnisse archivieren {: #archive}
 
-Wählen Sie in der Administration des Kurses die Option "[Datenarchivierung](../learningresources/Using_Course_Tools.de.md#datenarchivierung--archive)". Gehen Sie links zu "Tests" oder auch komplett zu "Kursresultate" und speichern Sie die angezeigte Datei. Die Resultate von Selbsttests werden anonymisiert gespeichert.
+Sie können die Ergebnisse von Tests archivieren. Wählen Sie dafür in der Administration [„Archivierung & Reporting“](../learningresources/Course_Archiving.de.md). Hier können Sie nun entweder alle Kursresultate von sämtlichen bewertbaren Kursbausteinen u.a. Tests herunterladen. 
 
-Nach der Archivierung finden Sie alle Angaben dazu, welche Person (bei Selbsttest anonymisiert durch eine Laufnummer) welche Fragen beantwortet hat, welche Antworten sie gegeben hat und beim Selbsttest wie viele Punkte erreicht wurden.
+Alternativ können Sie auch nur die Ergebnisse bestimmter Tests auswählen und nur diese speichern. Wählen Sie dafür die „Kursarchivierung“ -> „Teilarchive“ -> Archiv erstellen“ und markieren Sie den oder die gewünschten Test-Bausteine. Wählen Sie die Standard-Einstellungen oder passen Sie bestimmte Archivierungsoptionen an. Es wird eine Zip-Datei erstellt, die dann im Bereich Kursarchivierung für eine bestimmte Zeit, z.B. 10 Tage, bereitliegt und kopiert, heruntergeladen und gelöscht werden kann. 
 
-Achtung: Die Archivierung ändert sich mit OpenOlat :octicons-tag-24: Release 19 und erfolgt dann im Menü "Archivierung & Reporting" der Administration. 
+![Tests archivieren](assets/Kurs_archivieren_20.jpg)
 
-Weiterhin erhalten bleibt die Möglichkeit die Rohdaten von Tests über die "[Test Statistiken](../learningresources/Using_Course_Tools.de.md#test-statistiken)" im Bereich Administration herunterzuladen. 
+Weiterhin erhalten bleibt die Möglichkeit die Rohdaten von Tests über die "[Test Statistiken](../learningresources/Statistics_Test.de.md)" im Bereich Administration herunterzuladen. Auch die grafische Auswertung ist hier zu finden. 
 
 [Zum Seitenanfang ^](#course_element_test)
 
@@ -363,18 +367,24 @@ Weiterhin erhalten bleibt die Möglichkeit die Rohdaten von Tests über die "[Te
 
 
 ### Einsatzbeispiele
-In der Regel dienen Tests in OpenOlat der Wissensüberprüfung. Hier ein paar Beispiele für den Einsatz von Tests:
-* Tests zur Wissensüberprüfung nach einer Phase der Wissensvermittlung
-* Tests zur Überprüfung des aktuellen Wissensstandes vor einem Kurs, um zu ermitteln wo noch Defizite bestehen bzw. um zu definieren auf welche Aspekte im Kurs besonders eingegangen werden soll
-* Tests zur Überprüfung des eigenen Wissensstandes zu einem Thema, zur Identifikation von Vorlieben und Interessen
-* Tests als individuelle Feedbackgeber, sofern intensiv die OpenOlat Feedbackmöglichkeiten verwendet werden
-* Tests im Sinne von Quiz als spielerische Komponente im Rahmen von Online-Games, Quests u.ä.
-* Tests als Online-Klausur
+Tests können unter anderem in folgenden Szenarien eingesetzt werden:
+
+* **Abschluss-Assessment**: Überprüfung des erworbenen Wissens nach einer Lern- oder Trainingsphase oder eines Online-Kurses
+
+* **Pre-Test**: Erfassung des aktuellen Wissensstands vor Kursbeginn, um vorhandene Lücken zu erkennen und Schwerpunkte für den Kurs festzulegen
+
+* **Interessen-Test**: Selbstüberprüfung zum eigenen Wissensstand sowie zur Identifikation persönlicher Vorlieben und Interessen
+
+* **Antwortspezifisches Feedback**: Tests als individuelle Feedbackgeberbei intensiver Nutzung der OpenOlat-Feedbackfunktionen
+
+* **Quiz-Game**: Spielerische Wissensüberprüfung in Form von Quiz, Quests, Storytelling u.ä.
+
+* **Online-Klausur**: Durchführung von prüfungsrelevanten Online- oder E-Klausuren
 
 
 ### So bearbeiten Sie einen Test (Lernendenperspektive) {: #participate_as_learner}
 
-Um mit der Bearbeitung eines Tests zu beginnen drücken Sie "Test starten". Beantworten Sie die angezeigten Fragen und klicken Sie anschliessend bei jeder Frage auf "Antwort speichern". Sofern generell sichtbar, kann man in der linken Navigation sehen, welche Fragen bereits beantwortet wurden, welche Fragen nur angeschaut wurden und welche noch gar nicht angeklickt wurden.
+Wechseln wir noch in die Lernendenperspektive. Um mit der Bearbeitung eines Tests zu beginnen drücken Sie "Test starten". Beantworten Sie die angezeigten Fragen und klicken Sie anschliessend bei jeder Frage auf "Antwort speichern". Sofern generell sichtbar, kann man in der linken Navigation sehen, welche Fragen bereits beantwortet wurden, welche Fragen nur angeschaut wurden und welche noch gar nicht angeklickt wurden.
 
 ![Test Navigation links](assets/Test_Anzeige.png)
 
