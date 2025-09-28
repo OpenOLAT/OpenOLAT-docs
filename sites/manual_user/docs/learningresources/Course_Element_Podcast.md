@@ -20,7 +20,7 @@ It is also possible to configure the course element so that course participants 
 
 ## Create or edit episode
 
-People who are authorized to create new episodes (see [Configure podcast](../learningresources/Podcast_Further_Configurations.md)) will see the "Add episode" button and can upload their audio or video contribution to the podcast.
+People who are authorized to create new episodes (see [Configure podcast](../learningresources/Podcast_Configuration.md)) will see the "Add episode" button and can upload their audio or video contribution to the podcast.
 
 An episode always contains exactly one audio or video file. Select it on your computer so that it can be uploaded afterwards. This may take some time depending on the size of the file. Note that only Flash-compatible formats are allowed (i.e. FLV, MP3, MP4, M4V, M4A and AAC).
 

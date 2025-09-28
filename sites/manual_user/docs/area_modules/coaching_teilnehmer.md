@@ -1,7 +1,5 @@
 # Coaching - Members
 
-![coaching_teilnehmer_v1_de.png](assets/coaching_teilnehmer_v1_de.png){ class="shadow lightbox" }
-
 ### 1. WHOM does the list show?
 
 The menu item "Participants" shows the list of **all the participants you are responsible for**.

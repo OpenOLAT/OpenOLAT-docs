@@ -17,7 +17,7 @@ Organisation roles include organisation-wide authorizations (as definied for the
 * **Role manager**: Role managers have access to the user administration (separate menu item in the top navigation) and all users of his or her own organization. Apart from the roles "Administrator" and "System Administrator", they can change, assign and remove all user roles.
 * **Group manager**: The group manager has access to the "Group" section and in there the tab [Group Administration](../area_modules/Group_Management.md). 
 * **Question bank manager**: Question bank managers has access to the [Question Bank](../area_modules/Question_Bank.md). In there, they are able to open the administration section.
-* **Curriculum manager**: The curriculum manager has access to [Curriculum Management](../area_modules/Curriculum_Management.md) and can create new curricula and manage existing ones. If the curriculum manager is assigned to an organization, he or she only has access to the curricula of this organization.
+* **Curriculum manager**: The curriculum manager has access to Curriculum Management and can create new curricula and manage existing ones. If the curriculum manager is assigned to an organization, he or she only has access to the curricula of this organization.
 * **Lectures manager**: Lesson block administrators have access to the menu item "Lesson administration" in the top navigation. They can see all lessons and absences including the respective users of their own organizations.   
 * **Project manager** Project administrators also have the "Administration" tab in the "Projects" menu item and can access all projects here, including member administration and configuration.
 * **Quality manager**: The quality manager has access to the Quality Management area and can manage all settings and objects such as questionnaires, data collection generators and the analysis tool.
@@ -30,7 +30,7 @@ Organisation roles include organisation-wide authorizations (as definied for the
 !!! warning "Note"
 
     The mentioned roles represent options to give normal users organisation-wide extensive additional rights. Usually an appropriate role composition is selected for an OpenOlat instance and not all specific roles are assigned.
-    Typical is a combination of user, author and administrator or system administrator. Additional roles result from the structure of the respective institution and the use of certain tools such as [Curriculum](../area_modules/Curriculum_Management.md) or [Absences](../learningresources/Lectures_and_absences.md). It is therefore possible that not all potential OpenOlat roles are used in your instance.
+    Typical is a combination of user, author and administrator or system administrator. Additional roles result from the structure of the respective institution and the use of certain tools such as Curriculum or [Absences](../learningresources/Lectures_and_absences.md). It is therefore possible that not all potential OpenOlat roles are used in your instance.
     
     If you have any questions regarding the role management please contact the support of your own OpenOlat instance.
 

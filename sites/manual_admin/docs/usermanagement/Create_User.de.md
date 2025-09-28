@@ -56,7 +56,7 @@ deaktivierte Benutzer angezeigt sowie bestimmte User ausgewählt und gelöscht
 werden. Dabei wird das gesamte Benutzerkonto inklusive aller persönlichen
 Daten gelöscht.
 
-![](assets/Benutzer_loeschen.png){ class="shadow lightbox" }
+![](assets/delete_user_var1_step2_v1_de.png){ class="shadow lightbox" }
 
   
 

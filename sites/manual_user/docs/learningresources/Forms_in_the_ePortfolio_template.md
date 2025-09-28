@@ -12,7 +12,7 @@ To use a form in a portfolio task, select "Form" under Type. Then you can use a 
 
 If you haven't created a form yet, you can create a new learning resource form by clicking the "Create" button or import an externally existing form. Afterwards, the just created or imported form also appears in the list and can be selected for the portfolio task.
 
-A newly created form does not yet contain any elements, questions or text fields. These have to be added in the course via "Edit" or alternatively directly in the learning resource in the [Form Editor](Form_editor_Questionnaire_editor.md).
+A newly created form does not yet contain any elements, questions or text fields. These have to be added in the course via "Edit" or alternatively directly in the learning resource in the [Form Editor](../learningresources/Form_Editor.md).
 
 If a form is created directly in the course editor, a new learning resource Form will be created automatically, which can also be found in the [Authoring Area](../area_modules/Authoring.md) under "My entries" and can be included in further courses and course elements.
 

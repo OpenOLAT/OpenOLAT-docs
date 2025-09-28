@@ -1,7 +1,5 @@
 # Coaching - Kurse
 
-![coaching_kurse_v1_de.png](assets/coaching_kurse_v1_de.png){ class="shadow lightbox" }
-
 ### 1. WELCHE Kurse zeigt die Liste?
 
 Im Menü Kurse sehen Sie eine tabellarische Übersicht
@@ -18,7 +16,7 @@ Sie sehen auf einen Blick,
 * die Teilnehmerzahl der einzelnen Kurse,
 * den Fortschritt der Kursteilnehmenden
 * sowie das Ausmass des Logins der Kursteilnehmenden.
-  * Ein grüner Punkt symbolisiert, dass sich alle Kursteilnehmer mindestens einmal eingeloggt haben.
+  * Ein grüner Punkt symbolisiert, dass sich alle Kursteilnehmenden mindestens einmal eingeloggt haben.
   * Ein oranger Punkt zeigt an, dass ein Teil der Kursteilnehmenden den Kurs schon mal aufgerufen hat.
   * Ein roter Punkt zeigt an, dass sich bisher noch keine Teilnehmenden in den Kurs eingeloggt haben.
 

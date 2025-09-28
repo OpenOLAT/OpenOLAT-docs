@@ -1,7 +1,5 @@
 # Coaching - Courses
 
-![coaching_kurse_v1_de.png](assets/coaching_kurse_v1_de.png){ class="shadow lightbox" }
-
 ### 1. WHICH courses does the list show?
 
 In the Courses menu you will see a tabular overview

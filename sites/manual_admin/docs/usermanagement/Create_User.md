@@ -53,7 +53,7 @@ The "Delete user" link allows to view the users without activity and
 deactivated users, as well as to select and delete specific users. This will
 delete the entire user account including all personal data.
 
-![](assets/User loeschen EN.png){ class="shadow lightbox" }
+![](assets/delete_user_var1_step2_v1_de.png){ class="shadow lightbox" }
 
   
 

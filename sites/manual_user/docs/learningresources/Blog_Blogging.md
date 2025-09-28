@@ -81,8 +81,6 @@ To write a comment or read existing comments, click on the "Comments" link. A sm
 
 You can also attach a file to your comment. To do this, you can upload a new file or select a file from your File Hub.
 
-![blog_blogging_comment_file_v1_en.png](assets/blog_blogging_comment_file_v1_en.png){ class=“shadow lightbox” }
-
 [To the top of the page ^](#blog_blogging)
 
 

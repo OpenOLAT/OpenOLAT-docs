@@ -15,7 +15,7 @@ Spezialität / Hinweis |
 
 Mit dem Kursbaustein "Umfrage" fügen Sie Ihrem Kurs einen Online-Fragebogen hinzu. Als Basis wird die Lernressource "Formular" verwendet und mit dem Kursbaustein Umfrage verknüpft. Die Resultate einer Umfrage werden standardmässig anonymisiert gespeichert.
 
-Wenn Sie noch kein Formular für Befragungen erstellt haben, schauen Sie im [How-to Bereich](../../manual_how-to/docs/create_a_form/create_a_form.de.md)  nach, wie Sie Formulare für Ihre Umfrage erstellen können. 
+Wenn Sie noch kein Formular für Befragungen erstellt haben, schauen Sie im [How-to Bereich](../../manual_how-to/create_a_form/create_a_form.de.md)  nach, wie Sie Formulare für Ihre Umfrage erstellen können. 
 
 !!! note "Hinweis"
 

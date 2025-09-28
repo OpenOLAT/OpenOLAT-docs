@@ -15,7 +15,7 @@ Lecturers can also be booked for these dates. (Only coaches can be made lecturer
 |[Events in Projects](../area_modules/Project_Schedule.md)| x |  | 
 |[Events in (Project) To-dos](../area_modules/Project_Schedule.md)| x |  | 
 |[Events in Personal Menu](../personal_menu/To-Dos.md)| x | x | 
-|[Events in Calendars](../personal_menu/Calendar.de.md#create_entry)| x | x | 
+|[Events in Calendars](../personal_menu/Calendar.md#create_entry)| x | x | 
 |[Events in BigBlueButton](../../manual_admin/administration/BigBlueButton_module.md#tab_online-meetings)| x |  | 
 |[Events in Microsoft Teams](../learningresources/Course_Element_Microsoft_Teams.md#raum-konfigurieren-bei-geschlossenem-kurseditor)| x |  | 
 
@@ -119,10 +119,10 @@ A distinction must be made between
 ## Further information {: #further_information}
 
 [Activation and configuration of absence management by administrators >](../../manual_admin/administration/Modules_Events_and_Absences.md)<br>
-[Configuring absence management in a course >](../learningresources/Course_Settings_Execution.de.md#config_event_and_absence_management)<br>
-[Recording and managing absences in a course by course owners >](../learningresources/Events_and_absences.de.md)<br>
-[Recording and managing absences in a course by coaches >](../learningresources/Toolbar_Events.de.md)<br>
-[Personal absences >](../personal_menu/Absences.de.md)<br>
+[Configuring absence management in a course >](../learningresources/Course_Settings_Execution.md#config_event_and_absence_management)<br>
+[Recording and managing absences in a course by course owners >](../learningresources/Events_and_absences.md)<br>
+[Recording and managing absences in a course by coaches >](../learningresources/Toolbar_Events.md)<br>
+[Personal absences >](../personal_menu/Absences.md)<br>
 [Cross-course absence recording in the coaching tool >](../area_modules/Coaching.md)<br>
 [Cross-course absence management by absence administrators >](../area_modules/Absence_Management.md)<br>
 

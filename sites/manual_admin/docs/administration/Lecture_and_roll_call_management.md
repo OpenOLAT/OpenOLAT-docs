@@ -107,7 +107,6 @@ Always when a lecture block is closed, a reason need to be chosen. If no
 reason is entered in the administration, the reason choice is not available
 when closing a lecture block.
 
-![](assets/Absenz_Begruendung.png){ class="shadow lightbox" }
 
 ## Tab Lectures report
 

@@ -14,7 +14,7 @@
 ??? abstract "Erwartete Vorkenntnisse"
 
     * ["Wie erstelle ich meinen ersten OpenOlat-Kurs?"](../my_first_course/my_first_course.de.md)<br>
-    * [Vertrautheit mit Basiskonzepten von OpenOlat >](../manual_user/basic_concepts.de.md)<br>
+    * [Vertrautheit mit Basiskonzepten von OpenOlat >](../../manual_user/basic_concepts.de.md)<br>
 
 
 

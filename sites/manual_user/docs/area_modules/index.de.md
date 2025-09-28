@@ -130,7 +130,7 @@ Ab :octicons-tag-24: Release 20 wurde eine erweiterte, allgemeine Kursplanung in
 
 In der Benutzerverwaltung können neue Benutzer importiert oder angelegt und konfiguriert werden. 
 
-[Zu den Details >](../../manual_admin/usermanagement.de.md)<br>
+[Zu den Details >](../../manual_admin/usermanagement/index.de.md)<br>
 [Zum Seitenanfang ^](#sites)
 
 

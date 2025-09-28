@@ -49,7 +49,7 @@ tbd
 [Course Planner: Durchführungen >](../../manual_user/area_modules/Course_Planner_Implementations.de.md)<br>
 [Course Planner: Termine >](../../manual_user/area_modules/Course_Planner_Events.de.md)<br>
 [Course Planner: Reports >](../../manual_user/area_modules/Course_Planner_Reports.de.md)<br>
-[Wie kann ich mit dem Course Planner Kursdurchführungen planen und durchführen? >](../course_planner_course/course_planner_course.de.md)<br>
+[Wie kann ich mit dem Course Planner Kursdurchführungen planen und durchführen? >](../course_planner_courses/course_planner_courses.de.md)<br>
 [Course Planner aktivieren (Admin) >](../../manual_admin/administration/Modules_Course_Planner.de.md)<br>
 
 [zum Seitenanfang ^](#plan_and_run_curriculum_with_course_planner)

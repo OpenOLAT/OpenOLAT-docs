@@ -1,7 +1,5 @@
 # Coaching - Teilnehmer:innen
 
-![coaching_teilnehmer_v1_de.png](assets/coaching_teilnehmer_v1_de.png){ class="shadow lightbox" }
-
 ### 1. WEN zeigt die Liste?
 
 Der Menüpunkt "Teilnehmer:innen" zeigt die Liste **aller von Ihnen betreuten** Teilnehmenden.

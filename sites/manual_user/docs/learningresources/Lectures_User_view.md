@@ -12,7 +12,6 @@ He or she can see how many lectures are recorded per course and how his or her a
 ![](assets/attention_434343_64.png)
 if the attendance rate falls below the required minimum.
 
-![Abesenzen Übersicht Kurse](assets/Absenzen_uebersicht_kurse173_en.png)  
 
 ## Detailed view of a course
 
@@ -22,10 +21,8 @@ If the user displays the details of a course, the individual sessions, lecture b
   *  **In process**: Means that a lecture block has reached the end date, but the absence check has not yet been completed.
   *  **Voluntary event**: Lectures are recorded as a lecture block, but are not calculated for the attendance rate. Voluntary lessons are not checked for absences.
 
-If a participant does not agree with the registered absence, an appeal can be submitted. After the block of lectures has ended, a date will appear from which the appeal can be submitted. This will be calculated from the end time of the lecture block plus the days of the blocking period. As soon as a lecture block has been set to "Done" automatically (after the end of the blocking period) or manually by the instructor (course coach), a new date appears until which the appeal can be submitted. Closed" is then displayed. The deadlines are stored system-wide in the administration. The appeal request is sent to the lecturers of the corresponding lecture block.
+If a participant does not agree with the registered absence, an appeal can be submitted. After the block of lectures has ended, a date will appear from which the appeal can be submitted. This will be calculated from the end time of the lecture block plus the days of the blocking period. As soon as a lecture block has been set to "Done" automatically (after the end of the blocking period) or manually by the instructor (course coach), a new date appears until which the appeal can be submitted. "Closed" is then displayed. The deadlines are stored system-wide in the administration. The appeal request is sent to the lecturers of the corresponding lecture block.
 
-
-![Absenzen Detail Übersicht](assets/absenzen_detailsicht_kurs.png)
 
   
 

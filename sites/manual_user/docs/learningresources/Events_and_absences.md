@@ -62,13 +62,13 @@ A pop-up window will open for you to enter all the details for the event.
 An event can comprise 1–12 units.<br>
 Example: An event lasts 2 hours, divided into 4 thematic units (4 x 0.5 hours).
 
-**Place**: This is where you specify where this appointment will take place. This could be a location or the exact room name, for example.
+**Place**: This is where you specify where this event will take place. This could be a location or the exact room name, for example.
 
-**Online Meeting**: If the appointment is to take place online, the meeting can be organized directly from here.
+**Online Meeting**: If the event is to take place online, the meeting can be organized directly from here.
 
-**Lecturers**: A course coach must be selected for each appointment. Only the selected course coach can carry out attendance checks. (Only a person who also has the role of "Coach" can be added as a lecturer.) If a course owner also wishes to take on this role, they must additionally register as a course coach for the course.
+**Lecturers**: A course coach must be selected for each event. Only the selected course coach can carry out attendance checks. (Only a person who also has the role of "Coach" can be added as a lecturer.) If a course owner also wishes to take on this role, they must additionally register as a course coach for the course.
 
-**Description**: Here you can optionally add a description for the appointment.
+**Description**: Here you can optionally add a description for the event.
 
 **Preparation/Follow-up**: If you would like to give participants a pre- or post-assignment for the respective event, you can add it here. It will be displayed in the calendar if the dates are synchronized with the course calendar (Course Administration > Settings > Implementation tab).
 
@@ -216,15 +216,15 @@ Appeals are usually processed by absence administrators, who can access all appe
 
 ## Further information {: #further_information}
 
-[Basic concept Events and Absences >](../basic_concepts/Events_and_Absences.de.md)<br>
-[Activation and configuration of absence management by administrators >](../../manual_admin/administration/Modules_Events_and_Absences.de.md)<br>
-[Configuring absence management in a course >](../learningresources/Course_Settings_Execution.de.md#config_event_and_absence_management)<br>
-[Registering and managing absences in a course by coaches>](../learningresources/Toolbar_Events.de.md)<br>
-[Personal absences >](../personal_menu/Absences.de.md)<br>
-[Cross-course absence recording in the coaching tool >](../area_modules/Coaching.de.md)<br>
-[Cross-course absence management by absence administrators>](../area_modules/Absence_Management.de.md)<br>
+[Basic concept Events and Absences >](../basic_concepts/Events_and_Absences.md)<br>
+[Activation and configuration of absence management by administrators >](../../manual_admin/administration/Modules_Events_and_Absences.md)<br>
+[Configuring absence management in a course >](../learningresources/Course_Settings_Execution.md#config_event_and_absence_management)<br>
+[Registering and managing absences in a course by coaches>](../learningresources/Toolbar_Events.md)<br>
+[Personal absences >](../personal_menu/Absences.md)<br>
+[Cross-course absence recording in the coaching tool >](../area_modules/Coaching.md)<br>
+[Cross-course absence management by absence administrators>](../area_modules/Absence_Management.md)<br>
 
-[Zum Seitenanfang ^](#course_admin_events_and_absences)
+[To the top of the page ^](#course_admin_events_and_absences)
 
 
 

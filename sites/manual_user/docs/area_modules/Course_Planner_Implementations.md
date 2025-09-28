@@ -269,7 +269,7 @@ If you have already displayed an execution, you will also find the option to del
 
 ## Further information {: #further_information}
 
-[How do I create my first OpenOlat course >](../my_first_course/my_first_course.md)<br>
+[How do I create my first OpenOlat course >](../../manual_how-to/my_first_course/my_first_course.md)<br>
 [Course Planner: Overview >](../../manual_user/area_modules/Course_Planner.md)<br>
 [Course Planner: Products >](../../manual_user/area_modules/Course_Planner_Products.md)<br>
 [Course Planner: Events >](../../manual_user/area_modules/Course_Planner_Events.md)<br>

@@ -15,11 +15,11 @@ Specialty / Note |
 
 With the course element "Survey" you can add an online questionnaire to your course. The learning resource "Form" is used as a basis and linked to the course element Survey. The results of a survey are stored anonymously by default.
 
-If you have not yet created a form for surveys, take a look at the [How-to section](../../manual_how-to/docs/create_a_form/create_a_form.md) to find out how you can create forms for your survey.
+If you have not yet created a form for surveys, take a look at the [How-to section](../../manual_how-to/create_a_form/create_a_form.md) to find out how you can create forms for your survey.
 
 !!! Note "Attention"
 
-    A formu linked in a course can only be edited completely in the "[Form editor](../learningresources/Form_editor_Questionnaire_editor.md)" as long as the page has not been opened. After that only typing errors can be corrected.
+    A formu linked in a course can only be edited completely in the "[Form editor](../learningresources/Form_Editor.md)" as long as the page has not been opened. After that only typing errors can be corrected.
 
 !!! Note "Attention"
 
@@ -62,9 +62,9 @@ After a form has been selected, it can be designed via the "Edit" link. If the f
 
 !!! warning "Attention"
 
-    Once a form has been viewed by at least one participant, it can no longer be replaced. The "Replace" button is then omitted. If necessary, a new course element “Survey” must be created and the desired form integrated.
+    Once a form has been viewed by at least one participant, it can no longer be replaced. The "Replace" button is then omitted. If necessary, a new course element "Survey" must be created and the desired form integrated.
 
-In the "User rights" section of the “Survey” tab, you can specify who can complete the survey and who can view the results of the survey. The following options are available:
+In the "User rights" section of the "Survey" tab, you can specify who can complete the survey and who can view the results of the survey. The following options are available:
 
 * the owner of the course
 * the coach of the course

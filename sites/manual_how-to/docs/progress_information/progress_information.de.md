@@ -33,7 +33,7 @@ Durch Klick auf den Namen eines/einer Teilnehmer:in (via Tab "Überblick" oder T
 
 ## B) Bewertungswerkzeug {: #by_assessment_tool}
 
-Wenn Sie sich nicht nur für einen einzelnen Kursbaustein interessieren, sondern einen Überblick über die Leistungen im gesamten Kurs verschaffen möchten, ist das wichtigste Werkzeug der Betreuer:innen das [Bewertungswerkzeug ](../manual_user/learningresources/Assessment_tool_overview.md). Sie finden es unter der Administration.
+Wenn Sie sich nicht nur für einen einzelnen Kursbaustein interessieren, sondern einen Überblick über die Leistungen im gesamten Kurs verschaffen möchten, ist das wichtigste Werkzeug der Betreuer:innen das [Bewertungswerkzeug ](../manual_user/learningresources/Assessment_tool_overview.de.md). Sie finden es unter der Administration.
 
 ![progress_information_assessment_tool_v1_de.png](assets/progress_information_assessment_tool_v1_de.png){ class="shadow lightbox" }
 

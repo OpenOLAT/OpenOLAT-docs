@@ -19,7 +19,7 @@ The course element "Assessment" is suitable for assessing performances that are 
 
 You configure the assessment module in the course editor in the tab "Assessment". Here you can configure the evaluation in such a way that
 
-  * A [rubric](../learningresources/Rubric.md) is used as the basis for the evaluation
+  * A [rubric](../learningresources/Form_Element_Rubric.md) is used as the basis for the evaluation
   * Points are awarded (or not)
   * Pass/Fail is displayed
   * An individual comment can be added to
@@ -45,31 +45,31 @@ To do this, select a previously created learning resource form (containing a rub
 
 ### Assigning points
 
-If activated, points can be awarded manually by the supervisors and course owners. The minimum and maximum points must be specified for the awarding of points. 
+If activated, points can be awarded manually by the coaches and course owners. The minimum and maximum points must be specified for the awarding of points. 
 
 If the rubric evaluation is also activated, points can also be automatically transferred from the rubric.
 
-### Bewertung mit Einstufung/Noten
+### Assessment with grading/marks
 
-Sobald "Punkte vergeben" eingeschaltet wurde, kann auch die Option "Bewertung mit Einstufung/Noten" eingeschaltet und weiter konfiguriert werden. 
+Once "Award points" has been activated, the option "Assessment with classification/grades" can also be activated and further configured. 
 
-Klicken sie auf "Bewertungsskala bearbeiten" um eine Skala auszuwählen und eventuell weitere Einstellungen vorzunehmen. In der Skala ist auch definiert ob bzw. ab wann eine Bewertungsskala mit einem bestanden/nicht bestanden verbunden ist. 
+Click on "Edit rating scale" to select a scale and make any further settings. The scale also defines whether and from when a rating scale is linked to a pass/fail result. 
 
-Anschliessend definieren Sie noch ab die Zuweisung zur gewählten Bewertungsskala manuell durch die Betreuenden oder automatisch durch die Zuordnung der erreichten Punktzahl erfolgen soll. 
+Then you define whether the assignment to the selected rating scale should be done manually by the coaches or automatically by assigning the points achieved. 
 
 ### Display Passed / Failed:
 
 Activate this option if you want learners to see whether the course element has been passed or not. 
 
-Sofern aktiviert kann bei Lernpfad Kursen im nächsten Schritt auch definiert werden ob der Kursbaustein bei der Bewertung des Kurses berücksichtigt werden soll oder nicht. Bei herkömmlichen Kursen wird dies im Tab "Punkte" des obersten Kursbausteins definiert. 
+If activated, the next step in learning path courses is to define whether or not the course element should be included in the course assessment. For conventional courses, this is defined in the "Points" tab of the top course element. 
 
-Wenn zusätzlich zu Bestanden/Nicht bestanden auch Punkte aktiviert wurden kann neben der standardmässigen manuellen Bewertung durch die Betreuer noch eine automatische, punkteabhängige Bewertung aktiviert werden. 
+If points have been activated in addition to Pass/Fail, an automatic, point-based assessment can be activated in addition to the standard manual assessment by the supervisors. 
 
 ![Kursbaustein Bewertung Punkte und bestanden](assets/KB_Bewertung_Punkte_bestanden19_en.jpg)
 
-Auch kann das Bestehen durch die ausgewählte Bewertungsskala erfolgen. 
+Passing can also be achieved through the selected assessment scale. 
 
-Sofern Punkte und/oder bestanden aktiviert wurde gibt es bei Lernpfad Kursen noch eine weitere Option: **„Bei Kurs-Bewertung berücksichtigen“**.  Ist die Option aktiviert, werden die vom User erreichten Punkte auf die in der Administration -> Einstellungen -> Bewertung definierten Punktschwelle, die für das Bestehendes Kurses notwendig ist, angerechnet bzw. der Kursbaustein als Teil der notwendigen Kursbausteine, die für das Bestehen des gesamten Kurses dienen, berücksichtigt. 
+If points and/or passing grades have been activated, there is another option for learning path courses: **"Include in course evaluation"**. If this option is enabled, the points achieved by the user are credited to the point threshold defined in Administration -> Settings -> Grading, which is necessary for passing the course, or the course element is taken into account as part of the necessary course elements that serve to pass the entire course. 
 
 ### Individual comments, documents and information
 
@@ -94,12 +94,12 @@ To make an assessment, select the relevant course participant and fill in the di
 
 The user now has direct access to his assessment including the assessment rubrics.
 
-Im **"Tab Erinnerungen"** erscheinen die  für den Kursbaustein im Kurseditor angelegten [Erinnerungen](../learningresources/Course_Reminders.md). Auch neue Erinnerungen können hier erstellt oder vorhandene bearbeitet und gelöscht werden.
+The **"Reminders" tab** displays the [reminders](../learningresources/Course_Reminders.md) created for the course element in the course editor. New memories can also be created here, or existing ones can be edited and deleted.
 
 
 ### Tab Badges
 
-If the course owner has activated the assignment of badges under **Administration > Settings > Assessment tab > Badges section**, the ‘Badges’ tab is displayed in the course editor for this course element and a specific badge can be created for this course element.
+If the course owner has activated the assignment of badges under **Administration > Settings > Assessment tab > Badges section**, the "Badges" tab is displayed in the course editor for this course element and a specific badge can be created for this course element.
 
 [To the top of the page ^](#course_element_assessment)
 

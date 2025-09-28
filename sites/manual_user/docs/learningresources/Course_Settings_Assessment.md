@@ -10,14 +10,14 @@ You can also activate the use of **credentials** and the awarding of **certifica
 
 ## Course assessment with points (only for learning path courses) {: #evaluation_with_points}
 
-There are 3 options for the course evaluation with points:
+There are 3 options for the course assessment with points:
 
 * Sum
 * Sum with weighting
 * Average
 
 
-### Course evaluation with points: Sum {: #evaluation_with_points_sum}
+### Course assessment with points: Sum {: #evaluation_with_points_sum}
 
 The sum of all points achieved in the course is calculated.
 
@@ -284,6 +284,6 @@ Further information on badges can be found here:
 
 * [Info for course owners:](../learningresources/OpenBadges.md) Creating and editing badges
 * [Info for users:](../personal_menu/OpenBadges.md) Badges in the "Personal tools: 
-* [Info for OpenOlat administrators](../../../manual_admin/docs/administration/e-Assessment_openBadges.md)
+* [Info for OpenOlat administrators](../../manual_admin/administration/e-Assessment_openBadges.md)
 
 [To the top of the page ^](#tab_assessment)
