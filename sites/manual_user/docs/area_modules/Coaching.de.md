@@ -84,10 +84,11 @@ Mit den Fokus-Elementen über der Liste können Sie eine Ihrer Rollen wählen. D
 [Coaching: Personensuche >](../area_modules/Coaching_User_Search.de.md)<br>
 [Coaching: Personen >](../area_modules/Coaching_People.de.md)<br>
 [Coaching: Kurse >](../area_modules/Coaching_Courses.de.md)<br>
-[Coaching: Gruppen >](../area_modules/Coaching_Groups.de.md)<br>
+[Coaching: Bildungsprodukte >](../../manual_user/area_modules/Coaching_Educational_Products.de.md)<br>
 [Coaching: Termine / Absenzen >](../area_modules/Coaching_Events_Absences.de.md)<br>
 [Coaching: Bewertungsaufträge >](../area_modules/Coaching_Assessment_Orders.de.md)<br>
 [Coaching: Reports >](../area_modules/Coaching_Reports.de.md)<br>
+[Coaching: Gruppen >](../area_modules/Coaching_Groups.de.md)<br>
 [Coaching: Auftragsverwaltung >](../area_modules/Coaching_Order_Management.de.md)
 
 [Zum Seitenanfang ^](#coaching)

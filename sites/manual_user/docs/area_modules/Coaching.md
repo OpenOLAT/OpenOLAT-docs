@@ -85,10 +85,11 @@ You can select one of your roles using the focus elements above the list. This w
 [Coaching: User search >](../area_modules/Coaching_User_Search.md)
 [Coaching: People >](../area_modules/Coaching_People.md)<br>
 [Coaching: Courses >](../area_modules/Coaching_Courses.md)<br>
-[Coaching: Groups >](../area_modules/Coaching_Groups.md)<br>
+[Coaching: Educational_Products >](../../manual_user/area_modules/Coaching_Educational_Products.md)<br>
 [Coaching: Events / Absences >](../area_modules/Coaching_Events_Absences.md)<br>
 [Coaching: Assessment orders >](../area_modules/Coaching_Assessment_Orders.md)<br>
 [Coaching: Reports >](../area_modules/Coaching_Reports.md)<br>
+[Coaching: Groups >](../area_modules/Coaching_Groups.md)<br>
 [Coaching: Order management >](../area_modules/Coaching_Order_Management.md)
 
 
