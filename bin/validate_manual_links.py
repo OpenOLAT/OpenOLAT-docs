@@ -161,20 +161,25 @@ def find_manual_links(repo_root, only_errors=False):
                 except Exception as e:
                     print(f"✗ {filename}:{line_num} {link}: Error - {e}")
 
-        csv_data.sort(key=lambda x: (x["filename"], x["line"]))
+        if csv_data:
+            csv_data.sort(key=lambda x: (x["filename"], x["line"]))
 
-        csv_filename = "manual_links_validation.csv"
-        with open(csv_filename, "w", newline="", encoding="utf-8") as csvfile:
-            fieldnames = ["filename", "line", "link", "english_ok", "german_ok"]
-            writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+            csv_filename = "manual_links_validation.csv"
+            with open(csv_filename, "w", newline="", encoding="utf-8") as csvfile:
+                fieldnames = ["filename", "line", "link", "english_ok", "german_ok"]
+                writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
 
-            writer.writeheader()
-            writer.writerows(csv_data)
+                writer.writeheader()
+                writer.writerows(csv_data)
 
-        print(f"\n✓ Results written to {csv_filename}")
-        print(f"  Total matches: {len(csv_data)}")
-        if only_errors:
-            print("  (Filtered to show only errors)")
+            print(f"\n✓ Results written to {csv_filename}")
+            print(f"  Total matches: {len(csv_data)}")
+            if only_errors:
+                print("  (Filtered to show only errors)")
+        else:
+            print("\n✓ No results to write")
+            if only_errors:
+                print("  All links are working correctly!")
     else:
         print("No manual links found")
 
