@@ -43,6 +43,7 @@ nav:
       - Automatic Group Lifecycle: "administration/Automatic_Group_Lifecycle.md"
     - Payment modules:
       - Overview: "administration/Payment_modules.md"
+      - Credit points: "administration/Payment_Credit_Points.md"
       - Invoice: "administration/Payment_Invoice.md"
       - PayPal Configuration: "administration/PayPal_Configuration.md"
     - Reports: "administration/Reports.md"
