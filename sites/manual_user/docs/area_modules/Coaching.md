@@ -1,6 +1,6 @@
 # Coaching - Overview
 
-## What is the Coaching Tool for?
+## What is the Coaching Tool for? {: #purpose}
 
 The Coaching Tool is used for the **cross-course** organization and administration of courses, participants and groups, as well as the **cross-course** correction of assessment modules, the **cross-course** absence management and the external corrector flow of OpenOlat tests.
 
@@ -92,4 +92,4 @@ You can select one of your roles using the focus elements above the list. This w
 [Coaching: Groups >](../area_modules/Coaching_Groups.md)<br>
 [Coaching: Order management >](../area_modules/Coaching_Order_Management.md)
 
-
+[To the top of the page ^](#coaching)

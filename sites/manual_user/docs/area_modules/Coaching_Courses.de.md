@@ -33,7 +33,7 @@ Im oben gezeigten Beispiel kann die betreuende Person vorsortierte Listen abrufe
 Sie sehen auf einen Blick zum Beispiel
 
 * in welchen Kursen (Lernressourcen) Sie Betreuer:in sind,
-* wieviele Teilnehmende in diesen Kursen sind
+* wie viele Teilnehmende in diesen Kursen sind
 * und wie weit die Bearbeitung dieser Kurse insgesamt fortgeschritten ist.
 
 Von dieser Liste aus können Sie gezielt in einen Kurs und das dortige Bewertungswerkzeug wechseln.  
@@ -47,7 +47,7 @@ Welche Spalten angezeigt werden, können Sie selbst festlegen, indem Sie rechts 
 * **Technischer Typ** (z.B. "Lernpfad" oder "Herkömmlicher Kurs")
 * **Titel**
 * **Ext. ID** (externe ID, die einer anderen Systematik folgen kann als die von OpenOlat automatisch vergebene ID)
-* **Kennzzeichen**
+* **Kennzeichen**
 * **Beginn** (Beginn des Durchführungszeitraums dieses Kurses)
 * **Ende** (Ende des Durchführungszeitraums dieses Kurses) 
 * **Referenzierungen** (Wo und wie oft wird dieser 

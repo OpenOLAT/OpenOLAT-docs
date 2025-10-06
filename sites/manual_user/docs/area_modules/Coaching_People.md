@@ -74,6 +74,7 @@ To write an e-mail to **multiple people**, select the relevant people in the fir
 
 [Coaching: User search >](../area_modules/Coaching_User_Search.md)<br>
 [Coaching: Courses >](../area_modules/Coaching_Courses.md)<br>
+[Coaching: Educational Products >](../area_modules/Coaching_Educational_Products.md)<br>
 [Coaching: Groups >](../area_modules/Coaching_Groups.md)<br>
 [Coaching: Events / Absences >](../area_modules/Coaching_Events_Absences.md)<br>
 [Coaching: Assessment orders >](../area_modules/Coaching_Assessment_Orders.md)<br>
