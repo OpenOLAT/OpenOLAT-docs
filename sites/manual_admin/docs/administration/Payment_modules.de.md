@@ -15,7 +15,7 @@ Verfügbar ab :octicons-tag-24: Release 20.1
 In Planung:
 Die Credits können wiederum als Währung verwendet werden, um weitere Kurse zu kaufen oder um im Rahmen einer Rezertifizierung die gesammelten Credits für die Erneuerung des Zertifikats einzulösen.
 
-[Zu den Details >](Credit_Points.de.md)<br>
+[Zu den Details >](Payment_Credit_Points.de.md)<br>
 [Zum Seitenanfang ^](#payment)
 
 ---
