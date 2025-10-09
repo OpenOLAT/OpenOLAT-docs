@@ -116,6 +116,10 @@ new relationships between the selected user and other OpenOlat users can be spec
 
 Only the system of roles set up and defined by the administrator can be used.
 
+With the user-to-user relationship in OpenOlat, cross-course support functions can be set up in the administration or user management, for example for mentors, learning guides and coaches. If this is the case, coaches can easily and clearly access the persons to be coached in the Coaching Tool and make assessments.
+
+Specific rights can be defined for each user-to-user relationship and thus access can be granted to explicitly released contents of the supervised persons, such as course list, calendar, absence overview, evidences of achievements and certificates. Similarly, the role of "line manager" is also mapped in the Coaching Tool. Defined contents of users of the own organizational unit can also be accessed here.
+
 [To the top of the page ^](#role_assignment)
 
 ---
@@ -124,20 +128,13 @@ Only the system of roles set up and defined by the administrator can be used.
 ## Further information
 
 [Organisation roles](../basic_concepts/Roles.md#organisation-wide-roles--org)<br> 
-
 [Course roles](../basic_concepts/Roles.md#roles-in-a-course--course)<br> 
-
 [Group roles](../basic_concepts/Roles.md#roles-in-groups--groups)<br> 
 [Creating a new group](../groups/Create_Groups.md)<br> 
 [Group management](../area_modules/Group_Management.md)<br>
-
 [Roles in an organization unit](../basic_concepts/Roles.md#roles-in-an-organization--orgunit)<br> 
-
 [Self-defined roles and relations](../basic_concepts/Roles.md#self-defined-roles-and-relations--relations)<br> 
-
-[Role "Invitee"](../basic_concepts/Roles.md#role-invitee--invitee)<br> 
-
-<br>
+[Role "Invitee"](../basic_concepts/Roles.md#role-invitee--invitee)
 
 [To the top of the page ^](#role_assignment)
 

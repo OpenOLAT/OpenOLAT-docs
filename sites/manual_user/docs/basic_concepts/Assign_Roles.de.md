@@ -119,6 +119,10 @@ neue Beziehungen zwischen dem/der gewählten Benutzer:in und anderen OpenOlat-Nu
 
 Es kann nur die von Administrator:innen eingerichtete und definierte Systematik der Rollen verwendet werden.
 
+Mit der Benutzer-zu-Benutzerbeziehung in OpenOlat können in der Administration bzw. in der Benutzerverwaltung kursübergreifende Betreuungsfunktionen für beispielsweise Mentoren, Lernbegleiter und Vorgesetzte eingerichtet werden. Ist dies der Fall, können Betreuende im Coaching Tool einfach und übersichtlich auf die zu betreuenden Personen zugreifen und Bewertungen vornehmen.
+
+Für jede Benutzer-zu-Benutzerbeziehung können spezifische Rechte definiert und somit der Zugriff auf explizit freigegebene Inhalte der Betreuten erteilt werden, wie z.B. Kursliste, Kalender, Absenzenübersicht, Leistungsnachweise und Zertifikate. Analog wird auch die Rolle "Linienvorgesetzter" im Coaching Tool abgebildet. Hier kann ebenfalls auf definierte Inhalte von Benutzern der eigenen Organisationseinheit zugegriffen werden.
+
 [zum Seitenanfang ^](#role_assignment)
 
 ---
@@ -128,21 +132,13 @@ Es kann nur die von Administrator:innen eingerichtete und definierte Systematik 
 :octicons-device-camera-video-24: **Video-Einführung**: [Benutzerverwaltung](<https://www.youtube.com/embed/V1RuH0q08J8>){:target="_blank”}
 
 [Organisationsrollen >](Roles_Rights.de.md)<br> 
-
 [Kursrollen >](Roles_Rights.de.md)<br> 
-
 [Gruppenrollen >](Roles_Rights.de.md)<br> 
 [Erstellen einer neuen Gruppe >](../groups/index.de.md)<br> 
 [Gruppen verwalten >](../area_modules/Group_Management.de.md)<br>
-
 [Course Planner >](../area_modules/Course_Planner.de.md)<br> 
-
 [Rollen in einer Organisationseinheit >](Roles_Rights.de.md)<br> 
-
 [Selbst definierte Rollen und Beziehungen >](Roles_Rights.de.md)<br> 
-
-[Rolle "Einladung" >](Roles_Rights.de.md)<br> 
-
-<br>
+[Rolle "Einladung" >](Roles_Rights.de.md) 
 
 [zum Seitenanfang ^](#role_assignment)
