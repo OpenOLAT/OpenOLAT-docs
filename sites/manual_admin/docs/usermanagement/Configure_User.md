@@ -5,7 +5,7 @@ If you have the right to manage users, you can search for a specific person usin
 A maximum of the tabs listed below are available for configuration for each user (administrator). Depending on the roles and activated modules, there may be fewer tabs.
 
 
-![configure_user_v2_en.png](assets/configure_user_v2_en.png){ class="shadow lightbox"}
+![user_management_configure_user_v3_en.png](assets/user_management_configure_user_v3_en.png){ class="shadow lightbox"}
 
 
 
@@ -61,6 +61,7 @@ User Properties can be displayed and exported as a table.
 
 [To the top of the page ^](#user_configuration)
 
+
 ### GUI preferences
 
 The GUI settings saved for the user(s) can be reset here.
@@ -102,19 +103,30 @@ All portfolio folders to which the user is invited are displayed here. (This use
 The bookings of the user are displayed here.  
 
 [To the top of the page ^](#user_configuration)
-  
+
+
+### Credit points
+
+The user's acquired credit points are displayed here. 
+
+[To the top of the page ^](#user_configuration)
+
+
+
 ### Statements
 
 The certificates, points and progress of a user are displayed here. Certificates acquired elsewhere can also be uploaded in order to obtain an overview of the entire transcript of records in OpenOlat.
 
 [To the top of the page ^](#user_configuration)
 
+
 ### Badges
 
 This tab displays all the badges you have purchased.
 
 [To the top of the page ^](#user_configuration)
-  
+
+
 ### Compensation for disadvantages
 
 Disadvantage compensation entitles test takers to use more time for a test due to a restriction. Disadvantage compensation can be added and configured under this tab.
@@ -144,13 +156,15 @@ In this tab, relations between the selected user and other OpenOlat users can be
 An individual quota can be set up here, e.g. to give a person with special tasks more upload options. For example, the quota in the Media Centre can be increased for authors who need to include a particularly large number of videos in their courses.
 
 [To the top of the page ^](#user_configuration)
-  
-### Lectures
 
-Here you will find an overview of the status of lessons and absences and the associated progress of the user.
+
+### Events
+
+Here you will find an overview of events and absences of the user.
 
 [To the top of the page ^](#user_configuration)
-  
+
+
 ### Competences
 
 Areas of competence can be added to the user here. They are categorized according to "Manage", "Teach", "Have" and "Target".
@@ -158,14 +172,14 @@ Areas of competence can be added to the user here. They are categorized accordin
 [To the top of the page ^](#user_configuration)
   
 
-### Curriculum
+### Products
 
-Here you will find an overview of all curricula to which the user is assigned, as well as the user's progress.
+Here you will find an overview of all products to which the user is assigned, as well as the user's progress.
 
 [To the top of the page ^](#user_configuration)
 
 
-# Grading assignments
+### Grading assignments
 
 Here you can check which grading assignments have been assigned to this user.
 

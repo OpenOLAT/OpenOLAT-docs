@@ -4,7 +4,7 @@ Wer das Recht zur Benutzerverwaltung besitzt, kann über die Benutzersuche eine 
 
 Zu jedem/jeder Benutzer:in stehen maximal die im Folgenden aufgeführten Reiter für die Konfiguration zur Verfügung (Administrator:innen). Je nach Rollen und aktivierten Modulen sind es evtl. weniger Reiter.
 
-![configure_user_v2_de.png](assets/configure_user_v2_de.png){ class="shadow lightbox"}
+![user_management_configure_user_v3_de.png](assets/user_management_configure_user_v3_de.png){ class="shadow lightbox"}
 
 
 
@@ -37,7 +37,7 @@ In diesem Reiter werden die Rollen des/der Benutzer:in definiert. Bei aktivierte
 [zum Seitenanfang ^](#user_configuration)
 
 
-### Passwort ändern
+### Passwort
 
 Hier kann ein neues Passwort direkt gesetzt oder ein Passwortlink generiert werden, der dem/der User:in dann per Mail zugeschickt wird, so dass er/sie selbst ein neues Passwort setzen kann. 
 Der Abschnitt "Passwortlink senden für OpenOlat Passwort" wird nur angezeigt, sofern es dem/der Benutzer:in
@@ -103,7 +103,14 @@ Hier werden die Buchungen und Vorbestellungen des Users angezeigt.
 
 [zum Seitenanfang ^](#user_configuration)
 
-  
+
+### Kreditpunkte
+
+Hier sind die erworbenen Kreditpunkte des Users angezeigt. 
+
+[zum Seitenanfang ^](#user_configuration)
+
+
 ### Statements
 
 Hier werden die Leistungsnachweise, Punkte und der Fortschritt eines/einer Benutzer:in angezeigt. Auch anderweitig erworbene Zertifikate können hochgeladen werden, um in OpenOlat einen Überblick über den gesamten Leistungsnachweis zu erhalten.  
@@ -148,9 +155,9 @@ Hier kann eine individuelle Quota eingerichtet werden, um z.B. einer Person mit 
 [zum Seitenanfang ^](#user_configuration)
 
 
-### Lektionen
+### Termine
 
-Hier finden Sie eine Übersicht über den Stand der Lektionen und Absenzen und den damit verbundenen Fortschritt des Users/der Userin.
+Hier finden Sie eine Übersicht über die Termine und Absenzen des Users/der Userin.
 
 [zum Seitenanfang ^](#user_configuration)
 
@@ -162,9 +169,9 @@ Hier können dem/der Benutzer:in Kompetenzbereiche hinzugefügt werden. Sie sind
 [zum Seitenanfang ^](#user_configuration)
 
 
-### Curriculum
+### Produkte
 
-Hier finden Sie eine Übersicht über alle Curricula, denen der/die User:in zugeordnet ist, sowie über den Fortschritt des Benutzers/der Benutzerin.
+Hier finden Sie eine Übersicht über alle Bildungsoprodukte, denen der/die Benutzer:in zugeordnet ist, sowie über den Fortschritt des Benutzers/der Benutzerin.
 
 [zum Seitenanfang ^](#user_configuration)
 
