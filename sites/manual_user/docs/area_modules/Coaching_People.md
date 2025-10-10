@@ -4,19 +4,29 @@
 
 ![coaching_people_who_v1_de.png](assets/coaching_people_who_v1_de.png){ class="shadow lightbox" }
 
-### 1. WHOM does the list show?  {: #people_who}
+### WHOM does the list show?  {: #people_who}
 
 The menu item "Participants" shows the list of **all the participants you are responsible for**.
 
   * The participants from **all** coached courses are displayed (in contrast to the course [assessment tool](../learningresources/Assessment_tool_overview.md). There, only participants from the current course are displayed.)
   * Each coach only sees the participants they are coaching.
   * The participants you are supervising are **grouped and assigned roles** that you, as their coach, have in relation to them.<br>
-  In the example shown above, the caregiver can access presorted lists that correspond to their 4 roles:
+  In the example shown above, the caregiver can access presorted lists that correspond to their roles:
     * As Coach
     * As Course Owner
     * As Line Manager
     * As Education manager
 
+
+!!! hint "Note on the role line manager"
+
+    ![coaching_people_line_manager_v1_de.png](assets/coaching_people_line_manager_v1_de.png){ class="shadow lightbox" }
+    This role is only displayed in the Coaching Tool if the [Organization module](../../manual_admin/administration/Modules_Organisations.md) has been activated by the administrator. If you are a line manager, you can be informed about the learning progress within your organizational unit. Automatic notification of all certificates received is also possible.
+
+
+!!! hint "Note on other personal relationships"
+
+    Even if you have defined your [own roles and relationships](../../manual_user/basic_concepts/Assign_Roles.md#role_assignment_relations), these roles will be displayed here so that you can view a pre-grouped list.
 
 
 [To the top of the page ^](#people)
@@ -24,7 +34,7 @@ The menu item "Participants" shows the list of **all the participants you are re
 ---
 
 
-### 2. WHAT does the list show?  {: #people_what}
+### WHAT does the list show?  {: #people_what}
 
 You can define the displayed columns yourself by clicking on the cogwheel icon at the top right. The available columns may vary depending on the selected role. 
 
@@ -81,6 +91,7 @@ To write an e-mail to **multiple people**, select the relevant people in the fir
 [Coaching: Reports >](../area_modules/Coaching_Reports.md)<br>
 [Coaching: Order management >](../area_modules/Coaching_Order_Management.md)<br>
 [Roles >](../basic_concepts/Roles.md)<br>
+[Define own roles and relations >](../../manual_user/basic_concepts/Assign_Roles.md#role_assignment_relations)<br>
 [Assessment tool >](../learningresources/Assessment_tool_overview.md)<br>
 
 [To the top of the page ^](#people)

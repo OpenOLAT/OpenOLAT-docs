@@ -1,6 +1,6 @@
 # Coaching - Personensuche {: #user_search}
 
-![coaching_user_search1_v1_de.png](assets/coaching_user_search1_v1_de.png){ class="shadow lightbox" }
+![coaching_user_search1_v2_de.png](assets/coaching_user_search1_v2_de.png){ class="shadow lightbox" }
 
 !!! tip "Tipp"
 

@@ -14,12 +14,23 @@ Der Menüpunkt "Personen" im Coaching Tool zeigt die Liste **aller von Ihnen bet
   * Es werden die Teilnehmenden aus **allen** betreuten Kursen angezeigt. (Im Unterschied zum [Bewertungswerkzeug](../learningresources/Assessment_tool_overview.de.md) des Kurses. Dort werden nur Teilnehmende des aktuellen Kurses angezeigt.)
   * Jeder Coach (Betreuer:in) sieht nur die von ihr/ihm betreuten Teilnehmenden.
   * Die betreuten Teilnehmenden sind **gruppiert und den Rollen zugeordnet**, die Sie als Betreuende:r gegenüber dieser Person haben.<br> 
-  Im oben gezeigten Beispiel kann die betreuende Person vorsortierte Listen abrufen, die ihren 4 Rollen entsprechen:
+  Im oben gezeigten Beispiel kann die betreuende Person vorsortierte Listen abrufen, die ihren Rollen entsprechen:
     * als Betreuer:in
     * als Kursbesitzer:in
     * als Lininenvorgesetzte:r
     * als Ausbildungsverantwortliche:r
 
+
+!!! hint "Hinweis zur Rolle Linienvorgesetzte:r"
+
+    ![coaching_people_line_manager_v1_de.png](assets/coaching_people_line_manager_v1_de.png){ class="shadow lightbox" }
+    Diese Rolle wird im Coaching Tool nur angezeigt, wenn vom Administrator das [Modul Organisation](../../manual_admin/administration/Modules_Organisations.de.md) aktiviert wurde. 
+    Sind Sie Linienvorgesetzte:r, können Sie sich über die Lernfortschritte innerhalb ihrer Organisationseinheit informieren. Auch eine automatische Benachrichtigung über alle erhaltenen Zertifikate ist möglich.
+
+
+!!! hint "Hinweis zu weiteren Personenbeziehungen"
+
+    Auch wenn Sie [eigene Rollen und Beziehungen](../../manual_user/basic_concepts/Assign_Roles.de.md#role_assignment_relations) definiert haben, werden Ihnen diese Rollen hier angezeigt, um eine vorgruppierte Liste anzeigen zu können.
 
 
 [Zum Seitenanfang ^](#people)
@@ -85,6 +96,7 @@ Um eine Mail an **mehrere Personen** zu schreiben, markieren Sie die betreffende
 [Coaching: Gruppen >](../../manual_user/area_modules/Coaching_Groups.de.md)<br>
 [Coaching: Auftragsverwaltung >](../../manual_user/area_modules/Coaching_Order_Management.de.md)<br>
 [Rollen >](../../manual_user/basic_concepts/Roles.de.md)<br>
+[Eigene Rollen und Beziehungen definieren >](../../manual_user/basic_concepts/Assign_Roles.de.md#role_assignment_relations)<br>
 [Bewertungswerkzeug >](../../manual_user/learningresources/Assessment_tool_overview.de.md)<br>
 
 [Zum Seitenanfang ^](#people)
