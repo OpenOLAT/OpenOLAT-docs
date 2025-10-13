@@ -12,8 +12,8 @@ Zu Organisationsrollen gehören organisationsweit (wie innerhalb der OpenOlat-In
 
 * **Autor:in**: Autor:innen haben Zugriff auf den Autorenbereich in der obersten Navigation. Damit sind sie berechtigt, Kurse und alle weiteren Lernressourcen zu erstellen. In der Suchmaske finden Autor:innen alle Kurse und Lernressourcen wie Tests, Filme und Portfoliovorlagen, welche für sie zugänglich sind. Diese Rolle wird häufig an Lehrende oder E-Learning Verantwortliche vergeben.
 * **Lernressourcenverwalter:in**: Lernressourcenverwalter:innen haben automatisch Besitzerrechte (= Vollzugriff) für alle Kurse und Lernressourcen, die der eigenen Organisation (siehe [Administrative Freigabe](../learningresources/Access_configuration.de.md#administrative-freigabe)) angehören. Im Status "Beendet" und "Gelöscht" ist der Zugriff lesend. Über den Autorenbereich sind die Kurse und Lernressourcen auffindbar und können kopiert sowie exportiert werden.
-* **Linienvorgesetzte/r**: Linienvorgesetzte können für alle Benutzer innerhalb ihrer Organisation automatisch über den Erhalt von Zertifikaten informiert werden.
-* **Ausbildungsverantwortliche/r**: Die Rechte, die Ausbildungsverantwortlichen zugeteilt werden, können für jede Organisationseinheit separat definiert werden.
+* **Linienvorgesetzte/r**: Linienvorgesetzte können z.B. innerhalb ihrer Organisationseinheit automatisch über die Ausstellung von Zertifikaten für Benutzer:innen informiert werden.
+* **Ausbildungsverantwortliche/r**: Die Rechte, die Ausbildungsverantwortlichen zugeteilt werden, gelten jeweils für den gesamten Strang ihrer Organisationseinheit. Sie umfassen Rechte im Coaching-Werkzeug, auch wenn sie dort nicht unmittelbar als Betreuer:in tätig und zugeordnet sind. Oder auch administrative Funktionen, wie das Kontrollieren von Buchungsuafträgen, das Sperren von Konten u.a.
 * **Principal**: Der Principal sieht viele Bereiche des Systems, hat aber nur Lesezugriff und kann keine Änderungen vornehmen, Objekte bearbeiten etc.
 * **Absenzenverwalter:in**: Ihnen steht in der Hauptnavigation der Menüpunkt "Absenzenverwaltung" für die Administration der Absenzen innerhalb ihrer Organisationseinheit zur Verfügung.
 * **Kursplaner:in**: Kursplaner:innen haben Zugriff auf den [Course Planner](../area_modules/Course_Planner.de.md). Sind Kursplaner:innen einer Organisation zugeordnet, so besitzen sie nur Zugang zum Course Planner dieser Organisation.
@@ -33,6 +33,46 @@ Zu Organisationsrollen gehören organisationsweit (wie innerhalb der OpenOlat-In
     Wenden Sie sich bei Rückfragen bezüglich der Rollenvergabe an den jeweiligen Support Ihrer OpenOlat Instanz.
 
 [zum Seitenanfang ^](#roles)
+
+
+---
+
+
+## Rollen in einer Organisationseinheit {: #orgunit} 
+
+Ist das optionale Zusatzmodul "Organisationseinheiten" aktiviert, können Rollen auch nur für eine bestimmte Organisationseinheit vergeben werden.
+
+Benutzer:innen können Mitglied in verschiedenen Organisationseinheiten sein und dort jeweils unterschiedliche Rollen zugewiesen bekommen.
+
+Zu den Rollen, die begrenzt auf eine Organisationseinheit vergeben werden können, gehören
+
+* Alle Systembenutzer:innen
+* Autor:innen
+* Gruppenverwalter:innen
+* Absenzenverwalter:innen
+* Projektverwalter:innen
+* Qualityverwalter:innen
+* Poolverwalter:innen
+* Benutzerverwalter:innen
+* Rollenverwalter:innen
+* Kursplaner:innen
+* Lernressourcenverwalter:innen
+* Linienvorgesetzte
+* Ausbildungsverantwortliche
+* Principals
+* Administrator:innen
+
+(Systemadministrator:innen sind per Definition für das Gesamtsystem zuständig und nicht auf Organisationseinheiten beschränkbar.)
+
+Organisationsrollen werden in der Benutzerverwaltung vergeben.<br>
+(Siehe [Rollenzuweisung organisationsspezifischer Rollen](Assign_Roles.de.md#role_assignment_orgunit))
+
+!!! info "Ohne aktivierte Organisationseinheiten"
+
+    Ist das Modul "Organisationseinheiten" nicht eingerichtet, sind alle Benutzer:innen automatisch Mitglieder in der einzigen vorhandenen Gesamtorganisation (OpenOlat) und alle Rollen beziehen sich darauf.
+
+[zum Seitenanfang ^](#roles)
+
 
 ---
 
@@ -91,43 +131,6 @@ Im Rechtemanagement des Kurses können weitergehende *Rechtepakete* entweder an 
 
 ---
 
-
-## Rollen in einer Organisation {: #orgunit} 
-
-Ist das optionale Zusatzmodul "Organisationseinheiten" aktiviert, können Rollen auch nur für eine bestimmte Organisationseinheit vergeben werden.
-
-Benutzer:innen können Mitglied in verschiedenen Organisationseinheiten sein und dort jeweils unterschiedliche Rollen zugewiesen bekommen.
-
-Zu den Rollen, die begrenzt auf eine Organisationseinheit vergeben werden können, gehören
-
-* Alle Systembenutzer:innen
-* Autor:innen
-* Gruppenverwalter:innen
-* Absenzenverwalter:innen
-* Projektverwalter:innen
-* Qualityverwalter:innen
-* Poolverwalter:innen
-* Benutzerverwalter:innen
-* Rollenverwalter:innen
-* Kursplaner:innen
-* Lernressourcenverwalter:innen
-* Linienvorgesetzte
-* Ausbildungsverantwortliche
-* Principals
-* Administrator:innen
-
-(Systemadministrator:innen sind per Definition für das Gesamtsystem zuständig und nicht auf Organisationseinheiten beschränkbar.)
-
-Organisationsrollen werden in der Benutzerverwaltung vergeben.<br>
-(Siehe [Rollenzuweisung organisationsspezifischer Rollen](Assign_Roles.de.md#role_assignment_orgunit))
-
-!!! info "Ohne aktivierte Organisationseinheiten"
-
-    Ist das Modul "Organisationseinheiten" nicht eingerichtet, sind alle Benutzer:innen automatisch Mitglieder in der einzigen vorhandenen Gesamtorganisation (OpenOlat) und alle Rollen beziehen sich darauf.
-
-[zum Seitenanfang ^](#roles)
-
----
 
 ## Selbst definierte Rollen und Beziehungen {: #relations} 
 
