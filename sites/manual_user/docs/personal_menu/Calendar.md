@@ -1,6 +1,6 @@
 # Personal tools: Calendar {: #calendar}
 
-![pers_menu_calendar_v1_en.png](assets/pers_menu_calendar_v1_en.png){ class="aside-right lightbox"}
+![pers_menu_calendar_v3_de.png](assets/pers_menu_calendar_v3_de.png){ class="aside-right lightbox"}
 
 ![icon_calendar](assets/icon_calendar.png)
 
@@ -10,17 +10,19 @@ The calendar function is available in various places:
 
 * In the [course](../area_modules/Courses.md): <br> Access to course dates and access to all calendars of integrated groups. Calendars can be integrated into courses both in the course run and in the toolbar. <br>
 
-![pers_menu_calendar_course_v1_de.png](assets/pers_menu_calendar_course_v1_de.png){ class="aside-left lightbox" }<br>
+![pers_menu_calendar_course_v1_de.png](assets/pers_menu_calendar_course_v1_de.png){ class="shadow lightbox" }<br>
 
 * In the [personal menu](../personal_menu/index.md) [(Personal tools)](../personal_menu/Personal_Tools.md):<br> In addition to your personal appointments, all appointments from the various courses and groups of which you are a member can be combined in your personal calendar. This gives you an overview. External calendars can also be imported according to individual requirements.
 
-![pers_menu_calendar_overview_v1_de.png](assets/pers_menu_calendar_overview_v1_de.png){ class="lightbox" }
+![pers_menu_calendar_overview_v1_de.png](assets/pers_menu_calendar_overview_v1_de.png){ class="shadow lightbox" }
 
 !!! info "Note"
 
     If you cannot find a calendar in the list of your personal tools, this has been switched off system-wide by an administrator.
 
 [To the top of the page ^](#calendar)
+
+---
 
 
 ## Create / Edit entry {: #create_entry}
@@ -63,6 +65,8 @@ An appointment can also be moved using drag & drop.
 
 [To the top of the page ^](#calendar)
 
+---
+
 
 ## Recurring events {: #recurring_events}
 
@@ -73,6 +77,8 @@ The desired frequency of series appointments can be selected in the appointment 
 Serial appointments can also be edited. To do this, click on one of the appointments in the calendar. When saving the adjustment, you can select whether the change applies to all appointments in the series or only to the selected appointment. If all appointments are to be changed, those appointments that have not previously been customized will be changed.
 
 [To the top of the page ^](#calendar)
+
+---
 
 
 ## Visibility {: #visibility}
@@ -91,6 +97,8 @@ Depending on the type of calendar (Personal calendar, group calendar, course cal
 
 [To the top of the page ^](#calendar)
 
+---
+
 
 ## Content {: #content}
 
@@ -106,6 +114,8 @@ The personal calendar is displayed:
     An aggregated calendar is a collective feed that contains all calendars and their appointments that you have access to. You can use this feed from other applications to add or display all your OpenOlat appointments there. This saves you the work of having to insert each calendar individually (see Integrating calendars below). You can also use the gear icon in the list to import files and calendars and reset the appointments of an entire calendar.
 
 [To the top of the page ^](#calendar)
+
+---
 
 
 ## Calendar list (in the Personal Tools area) {: #list}
@@ -127,6 +137,8 @@ Under the feed symbol you will find the URL with which this calendar can be inte
 Editing options are displayed under the icon with the 3 dots at the end of a line if they are independent calendars. (Editing is limited/not possible for aggregated calendars).
 
 [To the top of the page ^](#calendar)
+
+---
 
 
 ## Add calendars to the calendar list {: #add_to_list}
@@ -162,12 +174,16 @@ By clicking on the small arrow next to it, calendars can be linked via URL.
 
 [To the top of the page ^](#calendar)
 
+---
+
 
 ## Share OpenOlat calendar {: #share}
 
 Using iCal (a standard for managing appointments), you can integrate the various OpenOlat calendars into another calendar, such as the Google calendar. To do this, click the iCal icon ![RSS symbol](assets/icon_rss_small.png){ width=24px } either in the calendar view or in the corresponding line of the calendar list and copy the iCal link. 
 
 [To the top of the page ^](#calendar)
+
+---
 
 
 ## Managed calendar {: #managed}
@@ -180,6 +196,8 @@ Other calendars (such as those from the PerformX system) can also be integrated 
     In course and group calendars, the editing options may differ from the personal calendar. 
 
 [To the top of the page ^](#calendar)
+
+---
 
 
 ## Further information

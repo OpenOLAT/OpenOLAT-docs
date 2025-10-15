@@ -1,6 +1,6 @@
 # Personal tools: Other users {: #other_users}
 
-![pers_menu_other_users_v2_de.png](assets/pers_menu_other_users_v2_de.png){ class="aside-right lightbox"}
+![pers_menu_other_users_v3_de.png](assets/pers_menu_other_users_v3_de.png){ class="aside-right lightbox"}
 
 ![icon_other_users.png](assets/icon_other_users.png)
 

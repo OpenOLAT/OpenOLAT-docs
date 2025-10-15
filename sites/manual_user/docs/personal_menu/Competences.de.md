@@ -1,6 +1,6 @@
 # Persönliche Werkzeuge: Kompetenzen {: #competences}
 
-![pers_menu_competences_v2_de.png](assets/pers_menu_competences_v2_de.png){ class="aside-right lightbox"}
+![pers_menu_competences_v3_de.png](assets/pers_menu_competences_v3_de.png){ class="aside-right lightbox"}
 
 ![icon_competences.png](assets/icon_competences.png)
 
@@ -16,7 +16,12 @@ Die Zuordnung von Kompetenzen kann z.B. in ePortfolio-Einträgen erfolgt sein od
 
     Voraussetzung für die Anzeige der Kompetenzen ist die Verwendung des Taxonomie Moduls und der Aufbau von Taxonomie Strukturen durch OpenOlat Administrator:innen.
 
-## Wo spielen Kompetenzen eine Rolle?
+[Zum Seitenanfang ^](#competences)
+
+---
+
+
+## Wo spielen Kompetenzen eine Rolle? {: #further_information}
 
 Das Vergeben bzw. der Erwerb von Kompetenzen kommt neben der Anzeige in den persönlichen Werkzeugen eines Users noch in folgenden Zusammenhängen vor:
 
@@ -31,4 +36,5 @@ Im Administrationshandbuch:
 - [REST API >](../../manual_admin/administration/REST_API.de.md) (Administration)
 - Benutzerprofil der [Benutzerverwaltung >](../../manual_admin/usermanagement/Configure_User.de.md) (Administration)
 
+[Zum Seitenanfang ^](#competences)
 

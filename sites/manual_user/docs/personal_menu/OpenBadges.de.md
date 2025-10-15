@@ -1,6 +1,6 @@
 # Persönliche Werkzeuge: Badges {: #badges}
 
-![pers_menu_badges_v2_de.png](assets/pers_menu_badges_v2_de.png){ class="aside-right lightbox"}
+![pers_menu_badges_v3_de.png](assets/pers_menu_badges_v3_de.png){ class="aside-right lightbox"}
 
 ![icon_badges.png](assets/icon_badges.png)
 
@@ -13,13 +13,20 @@ Es werden zentrale Informationen zu den einzelnen Badges angezeigt, und einzelne
 Klickt man auf ein erhaltenes Badge gelangt man zur Badge Infoseite mit weiteren Informationen.
 
 
-## Badge Infoseite
+---
+
+
+## Badge Infoseite {: #badge_info}
 
 Auf dieser Seite erfahren Sie, wann und von wem das Badge vergeben wurde, sowie den Kontext, in dem es vergeben wurde. Darüber hinaus enthält die Seite eine Beschreibung und insbesondere die Vergabekriterien, die vom Ersteller des Badges festgelegt wurden, und bieten somit weitere wichtige Informationen.
 
 Die Badge-Infoseite kann über den öffentlichen Link geteilt und in anderen Webkontexten eingebunden werden, sodass Personen auch ohne OpenOlat-Account darauf zugreifen können.
 
 ![Badges Infoseite](assets/Badge_Beispiel.jpg)
+
+[Zum Seitenanfang ^](#badges)
+
+---
 
 
 ## Weitere Informationen zu den Badges für Lehrende {: #further_information}
@@ -30,4 +37,5 @@ Die Badge-Infoseite kann über den öffentlichen Link geteilt und in anderen Web
 * [Leistungsnachweise in Kursen >](../learningresources/Course_Settings_Assessment.de.md#leistungsnachweis)<br>
 * [Zertifikate >](../learningresources/Course_Settings_Assessment.de.md#kurs-zertifikat)<br>
 
+[Zum Seitenanfang ^](#badges)
 

@@ -1,8 +1,10 @@
 # Persönliche Werkzeuge: To-Dos {: #to_dos}
 
-![pers_menu_todos_v2_de.png](assets/pers_menu_todos_v2_de.png){ class="aside-right lightbox"}
+![pers_menu_todos_v3_de.png](assets/pers_menu_todos_v3_de.png){ class="aside-right lightbox"}
 
 ![icon_todo.png](assets/icon_todo.png)
+
+
 
 ![To-do Übersicht](assets/To_do_allgemein.png){ class=" shadow lightbox" }
 
@@ -11,7 +13,8 @@ Ferner können alle User hier unabhängig von OpenOlat Kursen oder Projekten eig
 
 ![To-do erstellen Userperspektive ](assets/To-do_erstellen.png){ class=" shadow lightbox" }
 
-## Die To-do Übersicht
+
+## Die To-do Übersicht {: #to_dos_overview}
 
 In der Tabelle erscheinen alle persönlichen To-dos und können bei Bedarf weiter gefiltert werden. Welche Spalten in der Tabelle angezeigt werden kann über das Zahnrad ausgewählt werden. 
 
@@ -35,13 +38,14 @@ Im persönlichen Bereich selbst erstellte To-dos können vollständig bearbeitet
 
     Automatisch in Kursen zugewiesene To-dos aus einem Kursbaustein „Aufgabe“ dienen nur der Information. Sie werden nur angezeigt, können aber nicht bearbeitet oder gelöscht werden!
 
+---
 
 
 ## Weitere Informationen  {: #further_information}
 
-[Allgemeines zu To-dos >](../basic_concepts/To_Dos_Basics.de.md) mit weiteren Detail-Informationen<br>
+[Allgemeines zu To-dos >](../basic_concepts/To_Dos_Basics.de.md)<br>
 [To-dos im Kurs >](../learningresources/Course_todos.de.md)<br>
 [To-dos innerhalb eines Projektes >](../area_modules/Project_Todos.de.md)<br>
 [To-dos im Kursbaustein Aufgabe >](../learningresources/Course_Element_Task.de.md)<br>
-[Massnahmen To-dos im Qualitätsmanagement >](../area_modules/Quality_Management_To-dos.de.md)
+[Massnahmen To-dos im Qualitätsmanagement >](../area_modules/Quality_Management_To-dos.de.md)<br>
 

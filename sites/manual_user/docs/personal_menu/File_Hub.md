@@ -1,6 +1,6 @@
 # Personal tools: File Hub {: #file_hub}
 
-![pers_menu_file_hub_v2_de.png](assets/pers_menu_file_hub_v2_de.png){ class="aside-right lightbox"}
+![pers_menu_file_hub_v3_de.png](assets/pers_menu_file_hub_v3_de.png){ class="aside-right lightbox"}
 
 ![icon_file_hub.png](assets/icon_file_hub.png)
 
@@ -12,6 +12,10 @@ However, only folders to which the person logged in has access authorization are
 
 ![pers_menu_file_hub_storage_locations_v1_de.png](assets/pers_menu_file_hub_storage_locations_v1_de.png){ class="shadow lightbox"}
 
+[To the top of the page ^](#file_hub)
+
+---
+
 
 ## Features of the File Hub {: #features}
 
@@ -22,6 +26,10 @@ However, only folders to which the person logged in has access authorization are
 
 See also [File Hub (basic concept)](../basic_concepts/File_Hub_Concept.md)
 
+[To the top of the page ^](#file_hub)
+
+---
+
 
 ## Where is the File Hub used? {: #where_used}
 
@@ -31,6 +39,10 @@ However, the File Hub is also displayed in many other places whenever **selected
 
 To **display the contents of a folder**, you can find the File Hub in the course administration under **Administration > Files**. (From release 19)
 
+[To the top of the page ^](#file_hub)
+
+---
+
 
 ## Toggle tile view - list view {: #views}
 
@@ -39,6 +51,10 @@ You can switch the view of the File Hub between tile and list view. In both view
 ![pers_menu_file_hub_tiles_v1_de.png](assets/pers_menu_file_hub_tiles_v1_de.png){ class=" shadow lightbox" }
 
 ![pers_menu_file_hub_list_v1_de.png](assets/pers_menu_file_hub_list_v1_de.png){ class=" shadow lightbox" }
+
+[To the top of the page ^](#file_hub)
+
+---
 
 
 ## General information about folders {: #general_info}
@@ -61,10 +77,18 @@ On the one hand, you can zip your files on your computer, upload the ZIP file an
 
     In order for the WebDAV access to work, it needs to be activated by your OpenOlat administrator first.
 
+[To the top of the page ^](#file_hub)
+
+---
+
 
 ## Quota {: #quota}
 
 The storage space per folder is limited. The administrator determines the available storage space. The default setting for the private and public folders is 100 MB. To increase this quota your respective OpenOlat support center. Please contact the responsible contact person if necessary.
+
+[To the top of the page ^](#file_hub)
+
+---
 
 
 ## Personal Files {: #personal_files}
@@ -88,6 +112,10 @@ folder. The public folder is visible in the user's business card. In the
 personal tools in Other users you can search for the user who uploaded a file
 for you. This simplifies the data exchange between OpenOlat users.
 
+[To the top of the page ^](#file_hub)
+
+---
+
 
 ## Further information {: #further_information}
 
@@ -101,3 +129,5 @@ In OpenOlat, several different versions of folders exist. Beside the two folders
   * [Participant folder >](../learningresources/Course_Element_Participant_Folder.md) (in courses)
   * [Resource folder >](../learningresources/index.md#resource-folder) (learning resource)  
   * [Group tool: folder >](../groups/Using_Group_Tools.md) (in groups, similar to the course element folder in courses)
+
+[To the top of the page ^](#file_hub)

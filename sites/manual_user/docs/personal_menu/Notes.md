@@ -1,6 +1,6 @@
 # Personal tools: Notes {: #notes}
 
-![pers_menu_notes_v2_de.png](assets/pers_menu_notes_v2_de.png){ class="aside-right lightbox"}
+![pers_menu_notes_v3_de.png](assets/pers_menu_notes_v3_de.png){ class="aside-right lightbox"}
 
 ![icon_notes.png](assets/icon_notes.png)
 
@@ -33,6 +33,10 @@ An editor opens in which one note sheet is available per course.
 
     Don't forget to save when you leave the editor. To do this, scroll to the button at the bottom.
 
+[To the top of the page ^](#notes)
+
+---
+
 
 ## Where can I view the course notes? {: #where_view}
 
@@ -47,5 +51,7 @@ To edit a note, click on the name of the course.
 [Difference to project notes >](../area_modules/Project_Notes.md)<br>
 [Difference to notes in tests >](../learningresources/Configure_tests.md#tab-expert--expert)<br>
 [Notes and data protection >](../../manual_admin/usermanagement/Data_protection.md)<br>
+
+[To the top of the page ^](#notes)
 
 

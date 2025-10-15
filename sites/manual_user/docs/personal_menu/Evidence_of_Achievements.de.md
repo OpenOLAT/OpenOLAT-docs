@@ -1,6 +1,6 @@
-# Persönliche Werkzeuge: Leistungsnachweise
+# Persönliche Werkzeuge: Leistungsnachweise {: #evidence_of_achievements}
 
-![pers_menu_evid_of_achiev_v2_de.png](assets/pers_menu_evid_of_achiev_v2_de.png){ class="aside-right lightbox"}
+![pers_menu_evid_of_achiev_v3_de.png](assets/pers_menu_evid_of_achiev_v3_de.png){ class="aside-right lightbox"}
 
 ![icon_icon_evidence_of_achievements.png](assets/icon_evidence_of_achievements.png)
 
@@ -12,15 +12,21 @@ In OpenOlat können Leistungsnachweise für unterschiedliche Assessment Kursbaus
 Als Bestätigung für den Besuch eines Kurses bzw. der Erreichung von bestimmten kursbezogenen Aktivitäten kann ausserdem ein [PDF-Zertifikat](../learningresources/Course_Settings_Assessment.de.md#certificate) ausgestellt werden. Ein Zertifikat kann auch ohne die Verwendung eines Leistungsnachweises ausgestellt werden.
 
 
-## Wer vergibt Leistungsnachweise?
+## Wer vergibt Leistungsnachweise? {: #who_awards}
 
 Kursbesitzer:innen legen in ihren Kursen fest, ob OpenOlat Leistungsnachweise erstellen und die Übersicht anzeigen soll. Die Aktivierung erfolgt in der Administration -> Einstellungen im [Tab Bewertung](../learningresources/Course_Settings_Assessment.de.md). 
 
-## Wo sieht man die Leistungsnachweise?
+[Zum Seitenanfang ^](#evidence_of_achievements)
+
+---
+
+
+## Wo sieht man die Leistungsnachweise? {: #where}
 
 User finden ihre Leistungsnachweise, und sofern aktiviert auch ihre erhaltenen [Zertifikate](../learningresources/Course_Settings_Assessment.de.md#certificate), sowohl im jeweiligen Kurs in dem der Leistungsnachweis bzw. das Zertifikat ausgestellt wurde als auch gesammelt im persönlichen Menü. 
 
-### Leistungsnachweise im Persönlichen Menü
+
+### Leistungsnachweise im Persönlichen Menü {: #where_in_pers_tools}
 
 Die Anzeige im Persönlichen Menü eignet sich um einen schnellen Überblick über alle bereits in OpenOlat erhaltenen, persönlichen Leistungsnachweise und Zertifikate zu erhalten. So kann man schnell zu den einzelnen Leistungsnachweisen und Zertifikaten  navigieren und weitere Informationen erhalten. Aktivieren Sie in der Übersicht alle für Sie relevanten Spalten z.B. Punkte, Bestanden, Zertifikat. 
 
@@ -37,7 +43,12 @@ OpenOlat User können auch extern erworbene Zertifikate in OpenOlat hochladen, u
 
 ![pers_menu_evid_of_achiev_cert_upload_v1_de.png](assets/pers_menu_evid_of_achiev_cert_upload_v1_de.png){ class="shadow lightbox"}
 
-### Leistungsnachweis im Kurs anzeigen
+[Zum Seitenanfang ^](#evidence_of_achievements)
+
+---
+
+
+### Leistungsnachweis im Kurs anzeigen {: #where_in_course}
 
 Wurde in einem Kurs der Leistungsnachweis aktiviert finden Teilnehmende in der Toolbar unter "Mein Kurs" den Link zu ihrem Leistungsnachweis. Klickt man auf den Link erhält man einen Überblick über die bewertbaren Kursbausteine des Kurses mit ihrem jeweiligen aktuellen Bewertungsstatus.
 
@@ -47,16 +58,21 @@ Wurde in einem Kurs der Leistungsnachweis aktiviert finden Teilnehmende in der T
 
     Der Link zum Leistungsnachweis erscheint im Kurs erst dann, wenn im Kurs mindestens ein bewertbarer Kursbaustein existiert, und der Kursteilnehmer bzw. die Kursteilnehmerin bereits mindestens eine Bewertung erhalten hat. Dies kann z.B. der Lösungsversuch eines Tests sein oder die Bewertung einer Aufgabe.
 
+[Zum Seitenanfang ^](#evidence_of_achievements)
 
-## Weitere Informationen
+---
 
-[Leistungsnachweise in Kursen](../learningresources/Course_Settings_Assessment.de.md#leistungsnachweis)<br>
-[Zertifikate](../learningresources/Course_Settings_Assessment.de.md#certificate)<br>
-[Bewertungssysteme in OpenOlat: Noten](../../manual_admin/administration/Assessment_translate_points_in_grades_admin.de.md)<br>
-[Badges in den persönlichen Werkzeugen](OpenBadges.de.md)<br>
-[Badges im Bewertungswerkzeug](../learningresources/OpenBadges.de.md)<br>
-[Badges in der eAssessment-Administration](../../manual_admin/administration/e-Assessment_openBadges.de.md)<br>
-[Testquittung erstellen](../learningresources/Test_settings.de.md#tab-optionen)<br>
-[Testquittung validieren](../learningresources/Assessing_tests.de.md#korrekturwerkzeug)<br>
-[Rezertifizierung](../learningresources/Course_Settings_Assessment.de.md#recertification)
 
+## Weitere Informationen {: #further_information}
+
+[Leistungsnachweise in Kursen >](../learningresources/Course_Settings_Assessment.de.md#leistungsnachweis)<br>
+[Zertifikate >](../learningresources/Course_Settings_Assessment.de.md#certificate)<br>
+[Bewertungssysteme in OpenOlat: Noten >](../../manual_admin/administration/Assessment_translate_points_in_grades_admin.de.md)<br>
+[Badges in den persönlichen Werkzeugen >](OpenBadges.de.md)<br>
+[Badges im Bewertungswerkzeug >](../learningresources/OpenBadges.de.md)<br>
+[Badges in der eAssessment-Administration >](../../manual_admin/administration/e-Assessment_openBadges.de.md)<br>
+[Testquittung erstellen >](../learningresources/Test_settings.de.md#tab-optionen)<br>
+[Testquittung validieren >](../learningresources/Assessing_tests.de.md#korrekturwerkzeug)<br>
+[Rezertifizierung >](../learningresources/Course_Settings_Assessment.de.md#recertification)
+
+[Zum Seitenanfang ^](#evidence_of_achievements)

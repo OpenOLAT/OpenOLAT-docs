@@ -1,6 +1,6 @@
 # Personal tools: Badges {: #badges}
 
-![pers_menu_badges_v1_en.png](assets/pers_menu_badges_v1_en.png){ class="aside-right lightbox"}
+![pers_menu_badges_v3_de.png](assets/pers_menu_badges_v3_de.png){ class="aside-right lightbox"}
 
 ![icon_badges.png](assets/icon_badges.png)
 
@@ -12,13 +12,20 @@ Central information about each badge is displayed, and individual badges can be 
 
 If you click on a badge you have received, you will be taken to the badge information page with further information.
 
-## Badge info page
+---
+
+
+## Badge info page {: #badge_info}
 
 Here you can find out when and by whom the badge was awarded and information on the award context. A description and, in particular, the award criteria assigned by the creator of the badge contain further important information.
 
 The badge info page can be shared via the listed public link and integrated into other web contexts. This means that people can also access the badge info page without an OpenOlat account. 
 
 ![Badges Infoseite](assets/Badge_Beispiel.jpg)
+
+[To the top of the page ^](#badges)
+
+---
 
 
 ## Further information on the badges for teachers {: #further_information}
@@ -28,3 +35,5 @@ The badge info page can be shared via the listed public link and integrated into
 * [How do I award badges in my course? >](../../manual_how-to//badges/badges.md)<br>
 * [Evidences of achievement in courses >](../learningresources/Course_Settings_Assessment.md#evidences-of-achievement)<br>
 * [Certificates >](../learningresources/Course_Settings_Assessment.md#course-certificate)<br>
+
+[To the top of the page ^](#badges)

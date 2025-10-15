@@ -1,6 +1,6 @@
 # Persönliche Werkzeuge: Abonnements {: #subscriptions}
 
-![pers_menu_subscriptions_v2_de.png](assets/pers_menu_subscriptions_v2_de.png){ class="aside-right lightbox"}
+![pers_menu_subscriptions_v3_de.png](assets/pers_menu_subscriptions_v3_de.png){ class="aside-right lightbox"}
 
 ![icon_subscriptions.png](assets/icon_subscriptions.png)
 
@@ -26,7 +26,7 @@ Folgende Objekte sind abonnierbar:
 
 <br>
 
-## Ansicht der Mitteilungen aus Abonnements
+## Ansicht der Mitteilungen aus Abonnements {: #view_notifications}
 
 Unter "Abonnements" im persönlichen Menü können Sie alle ihre Neuigkeiten gesammelt einsehen.
 
@@ -50,9 +50,12 @@ Falls das **Portal** im Menü der Kopfzeile aktiviert ist, können die Änderung
 
     Personen, die das Recht für das **Bewertungswerkzeug** besitzen (z.B. Betreuer:innen oder Kursbesitzer:innen), können sich benachrichtigen lassen, wenn **neue Testresultate eingegangen** sind oder sich **neue Benutzer:innen** registriert haben.
 
+[Zum Seitenanfang ^](#subscriptions)
+
+---
 
 
-## Globale Abos
+## Globale Abos {: #global_subscriptions}
 
 Ist das globale Abonnement für Lernressourcen aktiviert, werden die Statusänderungen übersichtlich unter den persönlichen Abonnenments im Tab Neuigkeiten aufgelistet und zusätzlich in der E-Mail Sammelbenachrichtigung für Abonnements aufgeführt.
 
@@ -65,14 +68,20 @@ Für alle Lernressourcen, die vor Release 17.2 erstellt wurden, kann das globale
 
     Besitzer:innen von Kursen und Lernressourcen müssen mitunter informiert werden, wenn sich der Status ihrer Ressourcen durch andere Autor:innen oder - bei Verwendung des automatischen Kurs-Lebenszyklus - systemgesteuert ändert. Dies kann beispielsweise wichtig sein, wenn mehrere verantwortliche Personen einen Kurs gemeinsam administrieren oder der Kurs explizit auf den Status "Beendet" oder "Gelöscht" gesetzt wird.
 
+[Zum Seitenanfang ^](#subscriptions)
+
+---
 
 
-## Abonnements abbestellen
+## Abonnements abbestellen {: #unsubscribe}
 
 Wenn Sie das Abonnement nicht mehr wollen, können Sie es entweder abbestellen (an gleicher Stelle wie "Abonnieren") oder Sie können unter "Abonnements" hinter der Ressource die Option "löschen" wählen.
 
 Das Abonnement erlischt ausserdem, wenn Sie nicht mehr Mitglied im entsprechenden Kurs oder Baustein sind (direktes Mitglied oder Mitglied via Gruppe).
 
+[Zum Seitenanfang ^](#subscriptions)
+
+---
 
 
 ## Neuigkeiten per RSS {: #rss}
@@ -99,8 +108,12 @@ Klicken Sie auf das Icon ![](assets/icon_rss_small.png) . Ein neues Browser-Fens
 Wir empfehlen folgende Suchbegriffe: _RSS reader_ , _RSS newsreader_ ,
 _feedreader_ um einen für Sie geeigneten RSS-Reader zu finden.
 
+[Zum Seitenanfang ^](#subscriptions)
 
-## Weitere Informationen
+---
+
+
+## Weitere Informationen {: #further_information}
 
 [Wikipedia-Artikel zu RSS](http://en.wikipedia.org/wiki/Rss_feed)<br>
 [Kursbaustein Mitteilungen](../learningresources/Course_Element_Notifications.de.md)<br>
@@ -112,3 +125,4 @@ _feedreader_ um einen für Sie geeigneten RSS-Reader zu finden.
     In der **Benutzerverwaltung** werden sämtliche Abonnements eines Users angezeigt. Sie können dort durch Benutzerverwalter:innen auch gelöscht werden.
 
 
+[Zum Seitenanfang ^](#subscriptions)

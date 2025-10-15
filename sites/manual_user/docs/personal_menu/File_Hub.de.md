@@ -1,6 +1,6 @@
 # Persönliche Werkzeuge: File Hub {: #file_hub}
 
-![pers_menu_file_hub_v2_de.png](assets/pers_menu_file_hub_v2_de.png){ class="aside-right lightbox"}
+![pers_menu_file_hub_v3_de.png](assets/pers_menu_file_hub_v3_de.png){ class="aside-right lightbox"}
 
 ![icon_file_hub.png](assets/icon_file_hub.png)
 
@@ -12,6 +12,10 @@ Es werden im File Hub aber nur Ordner angezeigt, auf die die eingeloggte Person 
 
 ![pers_menu_file_hub_storage_locations_v1_de.png](assets/pers_menu_file_hub_storage_locations_v1_de.png){ class="shadow lightbox"}
 
+[Zum Seitenanfang ^](#file_hub)
+
+---
+
 
 ## Merkmale des File Hubs {: #features}
 
@@ -22,6 +26,10 @@ Es werden im File Hub aber nur Ordner angezeigt, auf die die eingeloggte Person 
 
 Siehe auch [File Hub (Basiskonzept)](../basic_concepts/File_Hub_Concept.de.md)
 
+[Zum Seitenanfang ^](#file_hub)
+
+---
+
 
 ## Wo wird der File Hub verwendet? {: #where_used}
 
@@ -31,6 +39,10 @@ Der File Hub wird aber auch an vielen weiteren Stellen immer dann angezeigt, wen
 
 Zur **Anzeige eines Ordnerinhalts** finden Sie den File Hub zum Beispiel in der Kursadministration unter **Administration > Dateien**. (Ab Release 19)
 
+[Zum Seitenanfang ^](#file_hub)
+
+---
+
 
 ## Umschaltung Kachelansicht - Listenansicht {: #views}
 
@@ -39,6 +51,10 @@ Die Ansicht des File Hubs können Sie zwischen Kachel- und Listenansicht umschal
 ![pers_menu_file_hub_tiles_v1_de.png](assets/pers_menu_file_hub_tiles_v1_de.png){ class=" shadow lightbox" }
 
 ![pers_menu_file_hub_list_v1_de.png](assets/pers_menu_file_hub_list_v1_de.png){ class=" shadow lightbox" }
+
+[Zum Seitenanfang ^](#file_hub)
+
+---
 
 
 ## Allgemeines zum Ordner {: #general_info}
@@ -62,10 +78,18 @@ Zum einen können Sie Ihre Dateien auf Ihrem Rechner zippen, die ZIP-Datei hochl
 
     Damit der Zugriff via WebDAV auf OpenOlat funktioniert muss WebDAV von Ihrem OpenOlat Administrator werden.
 
+[Zum Seitenanfang ^](#file_hub)
+
+---
+
 
 ## Quota {: #quota}
 
 Der Speicherplatz pro Ordner ist begrenzt. Der Administrator legt den zur Verfügung stehenden Speicherplatz fest. Die Grundeinstellung für den privaten und öffentlichen Ordner liegt bei 100 MB. Für die Erhöhung dieser Quota ist Ihre jeweilige OpenOlat-Supportstelle zuständig. Wenden Sie sich gegebenenfalls an die zuständigen Ansprechpartner.
+
+[Zum Seitenanfang ^](#file_hub)
+
+---
 
 
 ## Persönliche Dateien {: #personal_files}
@@ -97,3 +121,4 @@ In OpenOlat gibt es mehrere unterschiedliche Varianten von Ordnern. Neben den be
   * [Ressourcenordner >](../learningresources/index.de.md#ressourcenordner)(Lernressource) 
   * [Werkzeug: Ordner >](../groups/Using_Group_Tools.de.md) (in Gruppen, ähnlich dem Kursbaustein Ordner in Kursen)
 
+[Zum Seitenanfang ^](#file_hub)

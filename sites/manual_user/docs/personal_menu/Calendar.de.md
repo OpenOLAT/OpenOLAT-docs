@@ -1,6 +1,6 @@
 # Persönliche Werkzeuge: Kalender {: #calendar}
 
-![pers_menu_calendar_v2_de.png](assets/pers_menu_calendar_v2_de.png){ class="aside-right lightbox"}
+![pers_menu_calendar_v3_de.png](assets/pers_menu_calendar_v3_de.png){ class="aside-right lightbox"}
 
 ![icon_calendar](assets/icon_calendar.png)
 
@@ -10,13 +10,13 @@ Die Kalenderfunktion steht Ihnen an verschiedenen Orten zur Verfügung:
 
 * Im [Kurs](../area_modules/Courses.de.md): <br>Zugriff auf Kurstermine, sowie Zugriff auf alle Kalender von eingebundenen Gruppen. Kurskalender können sowohl in einem Kursbaustein als auch in der Toolbar eingebunden sein.<br>
 
-![pers_menu_calendar_course_v1_de.png](assets/pers_menu_calendar_course_v1_de.png){ class="aside-left lightbox" }
+![pers_menu_calendar_course_v1_de.png](assets/pers_menu_calendar_course_v1_de.png){ class="shadow lightbox" }
 
 <br>:octicons-device-camera-video-24: **Video-Einführung**: [Kurskalender](<https://www.youtube.com/embed/tfx6UCYw8t8>){:target="_blank”}
 
 * Im [persönlichen Menü](../personal_menu/index.de.md) [(Persönliche Werkzeuge)](../personal_menu/Personal_Tools.de.md): <br>Im persönlichen Kalender können zusätzlich zu den persönlichen Terminen alle Termine aus Ihren verschiedenen Kursen und Gruppen, in denen Sie Mitglied sind, zusammengeführt werden. Sie erhalten so eine Übersicht. Auch externe Kalender können nach individuellem Bedarf importiert werden.
 
-![pers_menu_calendar_overview_v1_de.png](assets/pers_menu_calendar_overview_v1_de.png){ class="lightbox" }
+![pers_menu_calendar_overview_v1_de.png](assets/pers_menu_calendar_overview_v1_de.png){ class="shadow lightbox" }
 
 
 !!! info "Hinweis"
@@ -25,6 +25,8 @@ Die Kalenderfunktion steht Ihnen an verschiedenen Orten zur Verfügung:
 
 
 [Zum Seitenanfang ^](#calendar)
+
+---
 
 
 ## Termin erstellen / bearbeiten {: #create_entry}
@@ -69,6 +71,8 @@ Ein Termin kann auch mit Drag&Drop verschoben werden.
 
 [Zum Seitenanfang ^](#calendar)
 
+---
+
 
 ## Wiederholung (Serientermine) {: #recurring_events}
 
@@ -79,6 +83,8 @@ In den Termindetails kann unter "Wiederholung" die gewünschte Frequenz von Seri
 Auch Serientermine können bearbeitet werden. Klicken Sie dazu im Kalender auf einen der Termine. Beim Speichern der Anpassung kann ausgewählt werden, ob die Änderung für alle Termine der Serie oder nur für den aufgerufenen Termin gilt. Wenn alle Termine geändert werden sollen, werden diese Termine geändert, welche zuvor nicht individuell angepasst wurden.
 
 [Zum Seitenanfang ^](#calendar)
+
+---
 
 
 ## Sichtbarkeit {: #visibility}
@@ -97,6 +103,8 @@ Je nach Kalenderart (Persönlicher Kalender, Gruppenkalender, Kurskalender) unte
 
 [Zum Seitenanfang ^](#calendar)
 
+---
+
 
 ## Inhalt {: #content}
 
@@ -111,6 +119,8 @@ Im persönlichen Kalender werden angezeigt:
     Ein aggregierter Kalender ist ein Sammelfeed, der alle Kalender und dessen Termine enthält, auf die Sie Zugriff haben. Sie können diesen Feed von anderen Anwendungen aus verwenden, um alle Ihre OpenOlat-Termine dort einzufügen oder anzuzeigen. Dies erspart Ihnen die Arbeit, jeden Kalender einzeln einfügen zu müssen (siehe Kalender integrieren unten). Über das Zahnradsymbol in der Liste können Sie ferner Dateien und Kalender importieren sowie die Termine eines kompletten Kalenders zurücksetzen. 
 
 [Zum Seitenanfang ^](#calendar)
+
+---
 
 
 ## Kalenderliste {: #list}
@@ -132,6 +142,8 @@ Unter dem Feedsymbol finden Sie die URL, mit der dieser Kalender an anderer Stel
 Unter dem Icon mit den 3 Punkten am Ende einer Zeile werden Bearbeitungsmöglichkeiten angezeigt, wenn es sich um eigenständige Kalender handelt. (Bei aggregierten Kalendern ist die Bearbeitung beschränkt/nicht möglich.)
 
 [Zum Seitenanfang ^](#calendar)
+
+---
 
 
 ## Kalender zur Kalenderliste hinzufügen  {: #add_to_list}
@@ -168,12 +180,16 @@ Mit Klick auf den kleinen Pfeil daneben können Kalender via URL verlinkt werden
 
 [Zum Seitenanfang ^](#calendar)
 
+---
+
 
 ## OpenOlat-Kalender weitergeben {: #share}
 
 Über iCal (einem Standard zur Verwaltung von Terminen), können Sie die verschiedenen OpenOlat-Kalender in einen anderen Kalender wie z.B. den Google-Kalender integrieren. Klicken Sie dazu das iCal Icon ![RSS Symbol](assets/icon_rss_small.png){ width=24px } entweder in der Kalenderansicht oder in der entsprechenden Zeile der Kalenderliste und kopieren Sie den iCal Link. 
 
 [Zum Seitenanfang ^](#calendar)
+
+---
 
 
 ## Managed Kalender {: #managed}
@@ -187,6 +203,7 @@ Andere Kalender (wie beispielsweise aus dem System PerformX) lassen sich auf Fee
 
 [Zum Seitenanfang ^](#calendar)
 
+---
 
 
 ## Weitere Informationen

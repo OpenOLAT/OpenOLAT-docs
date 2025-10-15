@@ -1,6 +1,6 @@
 # Persönliche Werkzeuge: Notizen {: #notes}
 
-![pers_menu_notes_v2_de.png](assets/pers_menu_notes_v2_de.png){ class="aside-right lightbox"}
+![pers_menu_notes_v3_de.png](assets/pers_menu_notes_v3_de.png){ class="aside-right lightbox"}
 
 ![icon_notes.png](assets/icon_notes.png)
 
@@ -33,6 +33,10 @@ Es öffnet sich ein Editor, in dem pro Kurs ein Notizblatt zur Verfügung steht.
     
     Vergessen Sie nicht zu speichern, wenn Sie den Editor verlassen. Scrollen Sie dazu zum Button am unteren Rand.
 
+[Zum Seitenanfang ^](#notes)
+
+---
+
 
 ## Wo kann ich die Notizen zu Kursen ansehen? {: #where_view}
 
@@ -41,6 +45,10 @@ Klicken Sie zur Bearbeitung einer Notiz auf den Namen des Kurses.
 
 ![pers_menu_notes_list_v1_de.png](assets/pers_menu_notes_list_v1_de.png){ class="shadow lightbox"}
 
+[Zum Seitenanfang ^](#notes)
+
+---
+
 
 ## Weitere Informationen {: #further_information}
 
@@ -48,5 +56,7 @@ Klicken Sie zur Bearbeitung einer Notiz auf den Namen des Kurses.
 [Unterschied zu Projekt-Notizen >](../area_modules/Project_Notes.de.md)<br>
 [Unterschied zu Notizen in Tests >](../learningresources/Configure_tests.de.md#expert)<br>
 [Notizen und Datenschutz >](../../manual_admin/usermanagement/Data_protection.de.md#daten-die-exportiert-werden-konnen)<br>
+
+[Zum Seitenanfang ^](#notes)
 
 

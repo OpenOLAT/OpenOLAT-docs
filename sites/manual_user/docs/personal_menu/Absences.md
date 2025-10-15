@@ -1,6 +1,6 @@
 # Personal tools: Absences {: #pers_tools_absences}
 
-![pers_menu_absences_v1_en.png](assets/pers_menu_absences_v1_en.png){ class="aside-right lightbox"}
+![pers_menu_absences_v3_de.png](assets/pers_menu_absences_v3_de.png){ class="aside-right lightbox"}
 
 ![icon_absences.png](assets/icon_absences.png)
 

@@ -1,12 +1,12 @@
 # Persönliche Werkzeuge: Das Media Center {: #media_center}
 
-![pers_menu_mediacenter_v2_de.png](assets/pers_menu_mediacenter_v2_de.png){ class="aside-right lightbox"}
+![pers_menu_mediacenter_v3_de.png](assets/pers_menu_mediacenter_v3_de.png){ class="aside-right lightbox"}
 
 ![icon_media_center.png](assets/icon_media_center.png)
 
-Alle OpenOlat User finden bei den „Persönlichen Werkzeugen“ ihr persönliches „Media Center“.  Hier können User Medien erstellen, hochladen und verwalten. Außerdem werden hier Medien angezeigt, die andere User für Sie freigegeben haben. 
+Alle OpenOlat User finden bei den „Persönlichen Werkzeugen“ ihr persönliches „Media Center“.  Hier können Benutzer:innen Medien erstellen, hochladen und verwalten. Außerdem werden hier Medien angezeigt, die andere Benutzer:innen für Sie freigegeben haben. 
 
-Bei den Medien kann es sich beispielsweise um normale Dateien aber auch um OpenOlat spezifische Elemente wie Foreneinträge, Blog-Beiträge oder Leistungsnachweise handeln. 
+Bei den Medien kann es sich beispielsweise um normale Dateien, aber auch um OpenOlat spezifische Elemente wie Foreneinträge, Blog-Beiträge oder Leistungsnachweise handeln. 
 Ferner stehen diverse Filtermöglichkeiten zur Verfügung um sich nur bestimmte Dateien anzeigen zu lassen. 
 
 ![media_center_v1_de.png](assets/media_center_v1_de.png){ class=" shadow lightbox" }
@@ -15,6 +15,7 @@ Ferner stehen diverse Filtermöglichkeiten zur Verfügung um sich nur bestimmte 
 
 Ausführliche Informationen zur Funktionsweise des Media Centers finden Sie unter [„Konzept des Media Centers“](../basic_concepts/Media_Center_Concept.de.md).
 
+---
 
 
 ## Weitere Informationen {: #further_information}

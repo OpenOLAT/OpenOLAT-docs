@@ -1,6 +1,6 @@
-# Personal tools: Subscriptions
+# Personal tools: Subscriptions {: #subscriptions}
 
-![pers_menu_subscriptions_v2_de.png](assets/pers_menu_subscriptions_v2_de.png){ class="aside-right lightbox"}
+![pers_menu_subscriptions_v3_de.png](assets/pers_menu_subscriptions_v3_de.png){ class="aside-right lightbox"}
 
 ![icon_subscriptions.png](assets/icon_subscriptions.png)
 
@@ -24,7 +24,7 @@ The following objects can be subscribed to:
 
 <br>
 
-## View notifications from subscriptions
+## View notifications from subscriptions {: #view_notifications}
 
 Under "Subscriptions" in the personal menu, you can view all your news in one place.
 
@@ -48,9 +48,12 @@ If the **Portal** is activated in the header menu, the change notifications can 
 
     Persons who have the right to use the **assessment tool** (e.g. coaches or course owners) can be notified when **new test results** have been received or **new users** have registered.
 
+[To the top of the page ^](#subscriptions)
+
+---
 
 
-## Global subscriptions
+## Global subscriptions {: #global_subscriptions}
 
 If the global subscription for learning resources is activated, the status changes are clearly listed under the personal subscriptions in the News tab and are also listed in the collective e-mail notification for subscriptions.
 
@@ -63,14 +66,20 @@ The global subscription can be activated retrospectively for all learning resour
 
     Owners of courses and learning resources sometimes need to be informed when the status of their resources is changed by other authors or - when using the automatic course lifecycle - by the system. This can be important, for example, if several responsible persons administer a course together or if the course is explicitly set to the status "Finished" or "Deleted".
 
+[To the top of the page ^](#subscriptions)
+
+---
 
 
-## Unsubscribe
+## Unsubscribe {: #unsubscribe}
 
 If you no longer want the subscription, you can either cancel it (in the same place as "Subscribe") or you can select the "Delete" option under "Subscriptions" after the resource.
 
 The subscription also expires if you are no longer a member of the corresponding course or module (direct member or member via group).
 
+[To the top of the page ^](#subscriptions)
+
+---
 
 
 ## News per RSS {: #rss}
@@ -91,8 +100,12 @@ Click on the icon ![](assets/icon_rss_small.png). A new browser window opens. Ig
 We recommend the following search terms: _RSS reader_ , _RSS newsreader_ ,
 _feedreader_ to find a suitable RSS reader for you.
 
+[To the top of the page ^](#subscriptions)
 
-## Further information
+---
+
+
+## Further information {: #further_information}
 
 [Wikipedia-Artikel zu RSS](http://en.wikipedia.org/wiki/Rss_feed)<br>
 [Kursbaustein Mitteilungen](../learningresources/Course_Element_Notifications.md)<br>
@@ -104,5 +117,5 @@ _feedreader_ to find a suitable RSS reader for you.
     All of a users subscriptions are displayed in **User management**. They can also be deleted there by user administrators.
 
 
-
+[To the top of the page ^](#subscriptions)
 

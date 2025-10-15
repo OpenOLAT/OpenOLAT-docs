@@ -1,6 +1,6 @@
 # Personal tools: To-Dos {: #to_dos}
 
-![pers_menu_todos_v2_de.png](assets/pers_menu_todos_v2_de.png){ class="aside-right lightbox"}
+![pers_menu_todos_v3_de.png](assets/pers_menu_todos_v3_de.png){ class="aside-right lightbox"}
 
 ![icon_todo.png](assets/icon_todo.png)
 
@@ -25,6 +25,7 @@ You can
     **Personal Menu > Setting > System tab > Personal tools section**<br>
     All tools that you mark here are displayed in the header at the top right instead of in the personal menu and can thus be accessed more quickly.
 
+---
 
 
 ## Further information {: #further_information}
