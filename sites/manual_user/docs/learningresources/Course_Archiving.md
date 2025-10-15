@@ -1,4 +1,4 @@
-# Course administration - Archiving & Reporting {: #Course_Archiving}
+# Course administration - Archiving & Reporting {: #course_archiving}
 
 :octicons-tag-24: Release 19.0
 
@@ -179,14 +179,20 @@ All of the course elements integrated in the course [Video task](../learningreso
 
 Here the chat history can be exported as an xlsx file and also deleted.
 
-### Bookings
+### Booking orders
 
-The people who have booked the course are displayed here if the course has a [booking method](../learningresources/Access_configuration.md).
+The people who have booked the course are displayed here if the course has [offers](../learningresources/Access_configuration.md).
 
-## More information
+[To the top of the page ^](#course_archiving)
+
+---
+
+## More information {: #further_information}
 
 When you delete a course, all course data (not the course elements!) is automatically saved in your [personal folder](../personal_menu/Personal_folders.md).
 
 Further details on the recorded log files can be found in the chapter “[Recording of course activities](Record_of_Course_Activities.md)”.
 
 By assigning rights in [Members management](Members_management.md), other persons can also be given the right to archive all data.
+
+[To the top of the page ^](#course_archiving)

@@ -1,11 +1,11 @@
 # Personal tools: Booking orders {: #bookings}
 
-![pers_menu_bookings_v1_en.png](assets/pers_menu_bookings_v1_en.png){ class="aside-right lightbox"}
+![pers_menu_bookings_v3_de.png](assets/pers_menu_bookings_v3_de.png){ class="aside-right lightbox"}
 
 ![icon_bookings.png](assets/icon_bookings.png)
 
-Under "Booking requests" in the "Personal tools" section, OpenOlat users can find an overview of all their booked courses and learning resources. 
-Only those courses and learning resources appear that are also linked to a [booking method](../learningresources/Access_configuration.md), e.g. with a course code, and have been booked by the user (self-registration). Booking can be understood as a synonym for "enroll", "register" or "purchase".
+Under "Booking orders" in the "Personal tools" section, OpenOlat users can find an overview of all their booked courses and learning resources. 
+Only those courses and learning resources appear that are also linked to a [offer type](../learningresources/Access_configuration.md), e.g. with a course code, and have been booked by the user (self-registration). Booking can be understood as a synonym for "enroll", "register" or "purchase".
 
 Learning resources where the owners enter the participants manually or the learners are assigned via a group do *not* appear here.
 
@@ -21,7 +21,7 @@ The option to book will also appear in the [catalog](../area_modules/catalog2.0_
 
 ## Further information {: #further_information}
 
-[Booking methods >](../learningresources/Access_configuration.md#publication-status)<br>
+[Offer type >](../learningresources/Access_configuration.md#publication-status)<br>
 [Add members to a course >](../learningresources/Members_management.md#adding-members)<br>
 [Offers in a catalog >](../area_modules/catalog2.0_angebote.md#how-is-an-offer-created)<br>
 

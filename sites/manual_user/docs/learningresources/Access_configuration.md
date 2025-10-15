@@ -24,7 +24,7 @@ The concrete variant of course access (or access to a learning resource in gener
 
 ## Tab Share
 
-### Configure booking methods and create offers from Release :octicons-tag-24: 17.0
+### Configure offer types and create offers
 
 Access to a course is configured in "Administration" → "Settings" in the "Sharing" tab.
 There are two basic options available:
@@ -68,9 +68,9 @@ download | The learning resource is available for download by other authors and 
     
     Consider carefully whether you really want to make the respective releases for *all* other authors of the OpenOlat instance.
 
-## Configure offer / offers {: #offer}
+## Configure offers {: #offer}
 
-If you have previously selected the option "Bookable and open offers..." (:octicons-tag-24: Release 17.0) you can then create offers.
+If you have previously selected the option "Bookable and open offers..." you can then create offers.
 
 ![offer Screen](assets/offer.jpg){ class="lightbox" }
 
@@ -79,9 +79,9 @@ If you have previously selected the option "Bookable and open offers..." (:octic
     * Offers can be published independent of the publication status of the course. To do this, select a in the offer creation "time limited" and define a future period. The offer is then available in the catalog for this defined period.
     * Offers can be limited to different parts of organizations (sub-organizations).
 
-You can define when and under which conditions the users of the users of the system can book a learning resource. Booking can be used as a synonym for book, enroll, purchase.The details are described below.
+You can define when and under which conditions the users of the users of the system can book a learning resource. Booking can be used as a synonym for enroll, purchase. The details are described below.
 
-Select the button "Create offer" / "Add booking method" to add offers / booking methods.
+Select the button "Create offer" to add offers.
 
 !!! info  "Attention"
 
@@ -91,7 +91,7 @@ Select the button "Create offer" / "Add booking method" to add offers / booking 
 
 ![key](assets/key.png){ class="size24" } **Access code**
 
-Select access code to restrict the booking to a specific group of people. Only people who have this access code can book the resource. Before opening the course for the first time, the user must enter this code, which may have been sent in advance by e-mail or written on the whiteboard in the case of blended learning events. The code needs to be entered only once.
+Select access code to restrict the booking orders to a specific group of people. Only people who have this access code can book the resource. Before opening the course for the first time, the user must enter this code, which may have been sent in advance by e-mail or written on the whiteboard in the case of blended learning events. The code needs to be entered only once.
 
 ![gift](assets/gift.png){ class="size24" } **Free available**
 
@@ -99,11 +99,9 @@ Select this option if no further restrictions apply. All OLAT users can open and
 
 ![paypal](assets/cc-paypal.png){ class="size24" } **PayPal and credit card**
   
-Is only available if enabled by the [administrator](../../manual_admin/administration/PayPal_Configuration.md): Select the PayPal/credit cards to enable booking against a financial payment. You can define an amount that has to be paid with a PayPal account or with a credit card (Visa/Mastercard). (This function is only available for users with author rights.)
+Is only available if enabled by the [administrator](../../manual_admin/administration/PayPal_Configuration.md): Select the PayPal/credit cards to enable booking orders against a financial payment. You can define an amount that has to be paid with a PayPal account or with a credit card (Visa/Mastercard). (This function is only available for users with author rights.)
 
 ![notBooking](assets/notBooking.jpg){ class="size24" } **Without booking**
-
-:octicons-tag-24: Release 17.0
 
 With this offer you can publish a course which can be accessed by all OpenOlat users without showing up in the member administration.
 
@@ -117,9 +115,9 @@ In the traditional course, an offer can also be created for guests only. This is
 
 ### Details for offer configuration
 
-Optionally, a start and end date can be added to a booking configuration/offer configuration. This configuration is then only valid between the configured date valid. You can also specify only a start date or only an end date. If you do not want to specify a time restriction, leave this field empty. Booking methods can be adjusted later.
+Optionally, a start and end date can be added to a booking configuration/offer configuration. This configuration is then only valid between the configured date valid. You can also specify only a start date or only an end date. If you do not want to specify a time restriction, leave this field empty. Offer types can be adjusted later.
 
-You can also configure multiple booking methods/offers. These are considered as different options from which the user can choose, in this case make sure that the descriptions are meaningful. For example, course codes can be combined for people from different contexts or a course can be configured to be free until a certain date and then only accessible with a password.
+You can also configure multiple offer type. These are considered as different options from which the user can choose, in this case make sure that the descriptions are meaningful. For example, course codes can be combined for people from different contexts or a course can be configured to be free until a certain date and then only accessible with a password.
 
 !!! warning "Attention"
 
@@ -127,7 +125,7 @@ You can also configure multiple booking methods/offers. These are considered as 
     
     Therefore, expired booking configurations have no influence on a participant list. As the owner of the resource, you can also add or remove a person from the list of participants at any time. In the second case, the user can re-enter the resource as a participant by booking again.
 
-You can easily delete the configured booking methods/offers at any time. The bookings already made remain in place and are not affected by this affected.
+You can easily delete the configured offers at any time. The booking orders already made remain in place and are not affected by this affected.
 
 ## Share Overview
 

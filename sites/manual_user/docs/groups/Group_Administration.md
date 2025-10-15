@@ -1,4 +1,4 @@
-# Group Administration
+# Group Administration {: #group_administration}
 
 If you create a new group you are automatically coach of this group. Coaches of a group get the link "**Administration**" in the menu of the group. 
 
@@ -124,25 +124,25 @@ Groups and courses can be linked in two ways: In the group, under the tab "Cours
 
 ## Tab Share {: #booking}
 
-In addition to adding people manually by the group coach, a group booking (offer) can also be created for groups. This way, interested parties can sign up for the group themselves.
+In addition to adding people manually by the group coach, a group booking order (offer) can also be created for groups. This way, interested parties can sign up for the group themselves.
 
 The following options are available:
 
-  * :material-key-variant: **Access code**: Select the "access code" booking methods if the booking shall be restricted to people in possession of the access code. An access code is manually set by the owner of the group, who then passes the code on to authorized users. Only users who can provide this access code will be able to book the resource. In order to open the group, this code must be entered when opening the group for the first time. It is also possible to define a time limit for booking with the access code.
-  * :material-gift: **Freely available:** Select the free booking method if no other restrictions shall apply. All users can book the resource. Using this booking method adds users as participants to the group. However, it is also possible to limit the free access in time.
-  * :fontawesome-brands-cc-paypal: **PayPal Checkout** (only available if unlocked by an administrator): Select this booking method to enable booking for financial compensation. This booking method allows you to define an amount that must be paid with a PayPal account or with a credit card (Visa/Mastercard). The waiting list cannot be combined with this booking method. The options "waiting list" respectively "PayPal" will not appear in the group administration if the respective other is selected.
+  * :material-key-variant: **Access code**: Select the "access code" offer type if the booking orders shall be restricted to people in possession of the access code. An access code is manually set by the owner of the group, who then passes the code on to authorized users. Only users who can provide this access code will be able to book the resource. In order to open the group, this code must be entered when opening the group for the first time. It is also possible to define a time limit for booking orders with the access code.
+  * :material-gift: **Freely available:** Select the free offer type if no other restrictions shall apply. All users can book the resource. Using this offer type adds users as participants to the group. However, it is also possible to limit the free access in time.
+  * :fontawesome-brands-cc-paypal: **PayPal Checkout** (only available if unlocked by an administrator): Select this offer type to enable booking orders for financial compensation. This offer type allows you to define an amount that must be paid with a PayPal account or with a credit card (Visa/Mastercard). The waiting list cannot be combined with this offer type. The options "waiting list" respectively "PayPal" will not appear in the group administration if the respective other is selected.
 
-You can also configure multiple booking methods. These methods serve as different options the users can choose from.  For example, you could set up the access for 2 days "freely available" and then only with password or payment option. If the configured offers overlap, interested parties can choose the option. Under "Edit" you can change the configuration of the offers again at any time.
+You can also configure multiple offer types. These types serve as different options the users can choose from.  For example, you could set up the access for 2 days "freely available" and then only with password or payment option. If the configured offers overlap, interested parties can choose the option. Under "Edit" you can change the configuration of the offers again at any time.
 
-Once a booking method is configured, the group will be listed in the "**Published groups**" and can thus be searched and booked by users. If no booking method is configured the group is only available for registered users, which has been added to the group by a coach under the tab "members".
+Once a offer type is configured, the group will be listed in the "**Published groups**" and can thus be searched and booked by users. If no offer type is configured the group is only available for registered users, which has been added to the group by a coach under the tab "members".
 
-Once a resource has been booked by a user he/she will be added to the resource members list. From that moment on, the system decides whether a person has access to the group solely on the basis of the list of participants. Expired booking configurations therefore have no influence on a participation.
+Once a resource has been booked by a user he/she will be added to the resource members list. From that moment on, the system decides whether a person has access to the group solely on the basis of the list of participants. Expired booking order configurations therefore have no influence on a participation.
 
-If you manually delete people from the group, they can regain access to the group by booking again, provided that a suitable offer still exists. In this case, check whether it is possible to change or remove the offer so that a new entry is no longer possible.
+If you manually delete people from the group, they can regain access to the group by a new booking order, provided that a suitable offer still exists. In this case, check whether it is possible to change or remove the offer so that a new entry is no longer possible.
 
 !!! info "Hint"
 
-    Delete offers that are no longer needed or configure them with a deadline. The bookings already made remain valid and are not affected by this.
+    Delete offers that are no longer needed or configure them with a deadline. The booking orders already made remain valid and are not affected by this.
 
 
 Public groups with various access options are particularly suitable, especially when:
@@ -150,7 +150,7 @@ Public groups with various access options are particularly suitable, especially 
 * Projects or course-independent training can be offered 
 * You use the group to collect people you want to assign to a course later on
 * the number of participants is limited and the organization of the participants should be done through this group (also with automatic moving up)
-* If there should be different accesses for different OpenOlat organizations, e.g. internal and external booking
+* If there should be different accesses for different OpenOlat organizations, e.g. internal and external booking orders
 
 ## Tab Group Life Cycle
 

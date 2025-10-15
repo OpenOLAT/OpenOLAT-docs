@@ -1,4 +1,4 @@
-# Gruppenadministration
+# Gruppenadministration {: #group_administration}
 
 Wenn Sie eine neue Gruppe erstellen, sind Sie automatisch Betreuer:in dieser
 Gruppe. Betreuer:innen einer Gruppe erhalten zusätzlich den Link "**Administration**" im Menu.
@@ -128,21 +128,21 @@ Neben dem manuellen Hinzufügen von Personen durch den/die Gruppenbetreuer:in ka
 
 Folgende Optionen stehen zur Auswahl:
 
-* :material-key-variant: **Zugangscode**: Wählen Sie die Buchungsmethode "Zugangscode" um die Buchung auf diejenigen zu begrenzen, die über das hinterlegte Passwort verfügen. Hierfür wird manuell ein Zugangscode festgelegt, der von dem/der Gruppenbesitzer:in weitergegeben wird. Nur Personen, die über diesen Zugangscode verfügen, können die Gruppe buchen. Vor dem ersten Öffnen der Gruppe muss dieser Code von dem/der Benutzer:in eingegeben werden. Auch eine zeitliche Begrenzung der Buchung mit dem Zugangscode kann definiert werden.
-* :material-gift: **Frei verfügbar**: Wählen Sie die freie Buchungsmethode, wenn ein Zutritt ohne Passwort möglich sein soll. Alle Systembenutzer können die Ressource dann buchen. Ein/eine Benutzer:in wird dadurch als Teilnehmer:in der Gruppe hinzugefügt. Es ist aber auch möglich, den freien Zugang zeitlich zu begrenzen. 
-* :fontawesome-brands-cc-paypal: **PayPal Checkout**  (nur verfügbar, wenn vom Administrator freigeschaltet): Wählen Sie diese Buchungsmethode um eine Buchung gegen eine finanzielle Vergütung zu ermöglichen. Bei dieser Buchungsmethode können Sie einen Betrag definieren, der mit einem PayPal Konto oder mit einer Kreditkarte (Visa/Mastercard) bezahlt werden muss. Die Warteliste kann mit dieser Buchungsmethode nicht verwendet werden. Die Optionen "Warteliste" bzw. "PayPal", werden nicht mehr in der Gruppenadministration angezeigt, sobald die jeweils andere gewählt wurde.
+* :material-key-variant: **Zugangscode**: Wählen Sie die Angebotsart "Zugangscode" um den Buchungsauftrag auf diejenigen zu begrenzen, die über das hinterlegte Passwort verfügen. Hierfür wird manuell ein Zugangscode festgelegt, der von dem/der Gruppenbesitzer:in weitergegeben wird. Nur Personen, die über diesen Zugangscode verfügen, können die Gruppe buchen. Vor dem ersten Öffnen der Gruppe muss dieser Code von dem/der Benutzer:in eingegeben werden. Auch eine zeitliche Begrenzung des Buchungsauftrag mit dem Zugangscode kann definiert werden.
+* :material-gift: **Frei verfügbar**: Wählen Sie die freie Angebotsart, wenn ein Zutritt ohne Passwort möglich sein soll. Alle Systembenutzer können die Ressource dann buchen. Ein/eine Benutzer:in wird dadurch als Teilnehmer:in der Gruppe hinzugefügt. Es ist aber auch möglich, den freien Zugang zeitlich zu begrenzen. 
+* :fontawesome-brands-cc-paypal: **PayPal Checkout**  (nur verfügbar, wenn vom Administrator freigeschaltet): Wählen Sie diese Angebotsart um einen Buchungsauftrag gegen eine finanzielle Vergütung zu ermöglichen. Bei dieser Angebotsart können Sie einen Betrag definieren, der mit einem PayPal Konto oder mit einer Kreditkarte (Visa/Mastercard) bezahlt werden muss. Die Warteliste kann mit dieser Angebotsart nicht verwendet werden. Die Optionen "Warteliste" bzw. "PayPal", werden nicht mehr in der Gruppenadministration angezeigt, sobald die jeweils andere gewählt wurde.
 
 Sie können auch **mehrere Angebote** konfigurieren. Diese gelten als verschiedene Optionen. Beispielsweise könnte man den Zugang für 2 Tage "frei verfügbar" einrichten und danach nur noch mit Passwort oder Bezahloption. Wenn sich die konfigurierten Angebote überlappen, können sich Interessierte die Option auswählen. Unter "Editieren" können Sie die Konfiguration der Angebote jederzeit wieder ändern. 
 
-Sobald ein Angebot konfiguriert wurde, wird die Gruppe in die Liste der **"Veröffentlichten Gruppen**" eingetragen und kann somit gesucht und gebucht werden. Wird keine Buchungsmethode konfiguriert, steht die Gruppe nur den eingetragenen Benutzer:innen zur Verfügung, die im Tab "Mitglieder" durch die Gruppen-Betreuenden hinzugefügt wurden.
+Sobald ein Angebot konfiguriert wurde, wird die Gruppe in die Liste der **"Veröffentlichten Gruppen**" eingetragen und kann somit gesucht und gebucht werden. Wird keine Angebotsart konfiguriert, steht die Gruppe nur den eingetragenen Benutzer:innen zur Verfügung, die im Tab "Mitglieder" durch die Gruppen-Betreuenden hinzugefügt wurden.
 
 Hat ein/eine Benutzer:in eine Gruppe gebucht, so wird die Person in der Teilnehmendenliste dieser Gruppe eingetragen. Von dem Zeitpunkt an entscheidet das System einzig über die Teilnehmerliste, ob eine Person Zugang zur Gruppe hat. Abgelaufene Angebote haben daher keinen Einfluss auf eine Teilnehmerschaft.
 
-Wenn Sie Personen manuell aus der Gruppe löschen, können sich diese, sofern noch ein passendes Angebot existiert, durch erneutes Buchen wieder Zugang zur Gruppe verschaffen. Prüfen Sie in diesem Fall, ob es möglich ist das Angebot so zu ändern oder zu entfernen, dass ein erneuter Eintrag nicht mehr möglich ist. 
+Wenn Sie Personen manuell aus der Gruppe löschen, können sich diese, sofern noch ein passendes Angebot existiert, durch einen neuen Buchungsauftrag wieder Zugang zur Gruppe verschaffen. Prüfen Sie in diesem Fall, ob es möglich ist das Angebot so zu ändern oder zu entfernen, dass ein erneuter Eintrag nicht mehr möglich ist. 
 
 !!! info "Tipp"
 
-    Löschen Sie nicht mehr benötigte Angebote wieder oder konfigurieren Sie diese mit einer Deadline. Die bereits getätigten Buchungen bleiben bestehen und sind davon nicht weiter tangiert.
+    Löschen Sie nicht mehr benötigte Angebote wieder oder konfigurieren Sie diese mit einer Deadline. Die bereits getätigten Buchungsaufträge bleiben bestehen und sind davon nicht weiter tangiert.
 
 
 Öffentliche Gruppen mit verschiedenen Zugangsmöglichkeiten eignen sich vor allem wenn:
@@ -150,7 +150,7 @@ Wenn Sie Personen manuell aus der Gruppe löschen, können sich diese, sofern no
 * Projekte oder kursunabhängige Schulungen angeboten werden. 
 * Sie die Gruppe zur Sammlung von Personen verwenden, die Sie später einem Kurs zuordnen wollen
 * die Teilnehmerzahl begrenzt und die Organisation der Teilnehmenden über diese Gruppe erfolgen soll (auch mit automatischem Nachrücken)
-* Wenn es für unterschiedliche OpenOlat Organisationen unterschiedliche Zugänge geben soll z.B. interne und externe Buchung
+* Wenn es für unterschiedliche OpenOlat Organisationen unterschiedliche Zugänge geben soll z.B. interne und externe Buchungsaufträge
 
 ## Tab Gruppen-Lebenszyklus
 

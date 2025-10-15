@@ -1,9 +1,7 @@
 # Zugangskonfiguration / Freigabe {: #access-configuration}
 
-Damit ein Kurs für die Lernenden sichtbar wird, muss er zunächst
-veröffentlicht werden. 
-Generell werden folgende Varianten der Publikation unterschieden, die unter
-"Status" in der Toolleiste eines Kurses sichtbar sind:
+Damit ein Kurs für die Lernenden sichtbar wird, muss er zunächst veröffentlicht werden. 
+Generell werden folgende Varianten der Publikation unterschieden, die unter "Status" in der Toolleiste eines Kurses sichtbar sind:
 
 ## Status der Veröffentlichung
 
@@ -31,7 +29,7 @@ Die konkrete Variante des Kurszugangs, bzw. generell des Zugangs zu einer Lernre
 
 ## Tab Freigabe
 
-### Buchungsmethoden konfigurieren und Angebote erstellen ab Release :octicons-tag-24: 17.0
+### Angebotsarten konfigurieren und Angebote erstellen
 
 Der Zugang zu einem Kurs wird in der "Administration" → "Einstellungen" im Tab "Freigabe" konfiguriert.
 Es stehen zwei grundsätzliche Varianten zur Verfügung:
@@ -81,7 +79,7 @@ exportieren | Die Lernressource ist für alle andere Autoren zum Download freige
 
 ## Angebot / Angebote erstellen {: #offer}
 
-Haben Sie zuvor die Option "Buchbare und offene Angebote..." (ab :octicons-tag-24: Release 17.0) gewählt, können Sie anschliessend Angebote erstellen.
+Haben Sie zuvor die Option "Buchbare und offene Angebote..." gewählt, können Sie anschliessend Angebote erstellen.
 
 ![offer Screen](assets/offer.de.jpg)
 
@@ -91,9 +89,9 @@ Haben Sie zuvor die Option "Buchbare und offene Angebote..." (ab :octicons-tag-2
     * Angebote können auf verschiedene Teilbereiche von Organisationen (Unterorganisationen) beschränkt werden.
   
 
-In einem "Angebot" wird definiert, wer sich unter welchen Umständen in die gewählte Lernressource bzw. den Kurs eintragen bzw. diese buchen kann. Buchen kann dabei als Synonym für belegen, einschreiben, einkaufen verstanden werden. Die Details werden im Folgenden beschrieben. 
+In einem Angebot wird definiert, wer sich unter welchen Umständen in die gewählte Lernressource bzw. den Kurs eintragen bzw. diese buchen kann. Buchen kann dabei als Synonym für belegen, einschreiben, einkaufen verstanden werden. Die Details werden im Folgenden beschrieben. 
 
-Wählen Sie die Schaltfläche "Angebot hinzufügen", um  Buchungsmethoden (Angebote) hinzuzufügen.
+Wählen Sie die Schaltfläche "Angebot hinzufügen", um Angebote hinzuzufügen.
 
 !!! info  "Achtung"
 
@@ -103,7 +101,7 @@ Wählen Sie die Schaltfläche "Angebot hinzufügen", um  Buchungsmethoden (Angeb
 
 ![key](assets/key.png){ class="size24" }  **Zugangscode**
 
-Wählen Sie Zugangscode um die Buchung auf einen bestimmten Personenkreis einzuschränken. Nur Personen die über diesen Zugangscode verfügen können die Ressource buchen. Vor dem ersten Öffnen des Kurses muss dieser Code, der beispielsweise im Vorfeld per vom Kursbesitzer per Mail verschickt oder bei Blended-Learning Veranstaltungen an die Tafel geschrieben wurde, vom Benutzer eingegeben werden. Der Code braucht nur einmal eingetragen zu werden.
+Wählen Sie Zugangscode um die Buchungsaufträge auf einen bestimmten Personenkreis einzuschränken. Nur Personen die über diesen Zugangscode verfügen können die Ressource buchen. Vor dem ersten Öffnen des Kurses muss dieser Code, der beispielsweise im Vorfeld per vom Kursbesitzer per Mail verschickt oder bei Blended-Learning Veranstaltungen an die Tafel geschrieben wurde, vom Benutzer eingegeben werden. Der Code braucht nur einmal eingetragen zu werden.
 
 ![gift](assets/gift.png){ class="size24" } **Frei verfügbar**
 
@@ -111,12 +109,11 @@ Wählen Sie diese Option, wenn keine weiteren Einschränkungen gelten. Alle Open
 
 ![paypal](assets/cc-paypal.png){ class="size24" }   **PayPal und Kreditkarte**
   
-Diese Option ist nur verfügbar wenn sie vom [Administrator freigeschaltet](../../manual_admin/administration/PayPal_Configuration.de.md) wurde. Wählen Sie PayPal/Kreditkarten um eine Buchung gegen eine finanzielle Vergütung zu ermöglichen. Dabei können Sie einen Betrag definieren, der mit einem PayPal Konto oder mit einer Kreditkarte (Visa/Mastercard) bezahlt werden muss. (Diese Funktion steht nur Benutzern mit Autorenrechten zur Verfügung.)
+Diese Option ist nur verfügbar wenn sie vom [Administrator freigeschaltet](../../manual_admin/administration/PayPal_Configuration.de.md) wurde. Wählen Sie PayPal/Kreditkarten um einen Buchungsauftrag gegen eine finanzielle Vergütung zu ermöglichen. Dabei können Sie einen Betrag definieren, der mit einem PayPal Konto oder mit einer Kreditkarte (Visa/Mastercard) bezahlt werden muss. (Diese Funktion steht nur Benutzer:innen mit Autorenrechten zur Verfügung.)
 
 ![notBooking](assets/notBooking.jpg){ class="size24" }  **Ohne Buchung**
-Ab :octicons-tag-24: 17.0 verfügbar.
 
-Mit diesem Angebot können sie einen Kurs veröffentlichen auf den alle OpenOlat Benutzer zugreifen können, ohne dass diese in der Mitgliederverwaltung auftauchen.
+Mit diesem Angebot können Sie einen Kurs veröffentlichen, auf den alle OpenOlat Benutzer:innen zugreifen können, ohne dass diese in der Mitgliederverwaltung auftauchen.
 
 !!! info "Hinweis"
 
@@ -139,8 +136,8 @@ Sie können auch mehrere Angebote konfigurieren. Diese gelten als verschiedene O
     Abgelaufene Buchungskonfigurationen haben daher keinen Einfluss auf eine Teilnehmerschaft. Als Besitzer der Ressource können Sie auch jederzeit eine Person zu der Teilnehmerliste hinzufügen bzw. entfernen. In dem zweiten Fall kann der Benutzer durch erneutes Buchen sich wieder in die Ressource als Teilnehmer eintragen.
 
 
-Sie können die konfigurierten Buchungsmethoden/Angebote jederzeit problemlos löschen.
-Die bereits getätigten Buchungen bleiben bestehen und sind davon nicht weiter tangiert.
+Sie können die konfigurierten Angebote jederzeit problemlos löschen.
+Die bereits getätigten Buchungsaufträge bleiben bestehen und sind davon nicht weiter tangiert.
 
 ## Freigabeübersicht
 

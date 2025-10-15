@@ -1,4 +1,4 @@
-# Kursadministration - Archivierung & Reporting {: #Course_Archiving}
+# Kursadministration - Archivierung & Reporting {: #course_archiving}
 
 :octicons-tag-24: Release 19.0
 
@@ -174,12 +174,15 @@ Es werden alle im Kurs eingebauten Kursbausteine [Video-Aufgabe](../learningreso
 
 Hier kann der Chatverlauf als xlsx Datei exportiert und auch gelöscht werden.
 
-### Buchungen
+### Buchungsaufträge
 
-Hier werden die Personen, die den Kurs gebucht haben angezeigt, sofern der Kurs über eine [Buchungsmethode](../learningresources/Access_configuration.de.md) verfügt.
+Hier werden die Personen, die den Kurs gebucht haben angezeigt, sofern der Kurs über [Angebote](../learningresources/Access_configuration.de.md) verfügt.
 
+[Zum Seitenanfang ^](#course_archiving)
 
-## Weitere Informationen
+---
+
+## Weitere Informationen {: #further_information}
 
 Wenn Sie einen Kurs löschen, werden automatisch alle Kursdaten (nicht die Kursbausteine!) in Ihrem [persönlichen Ordner](../personal_menu/Personal_folders.de.md) gespeichert.
 
@@ -187,3 +190,4 @@ Weitere Details zu den aufgezeichneten Logfiles erfahren Sie im Kapitel "[Aufzei
 
 Über die Rechtevergabe in der [Mitgliederverwaltung](Members_management.de.md) kann auch weiteren Personen das Recht für die gesamte Datenarchivierung gegeben werden.
 
+[Zum Seitenanfang ^](#course_archiving)
