@@ -158,6 +158,7 @@ plugins:
           Blog : Blog
           Blogging : Bloggen
           Bookings : Buchungen
+          Booking orders : Buchungsaufträge
           Bulk actions : Sammelaktionen
           Bulk assessment : Massenbewertung
           Calendar : Kalender

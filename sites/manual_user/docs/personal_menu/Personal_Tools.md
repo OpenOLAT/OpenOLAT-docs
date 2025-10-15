@@ -1,6 +1,6 @@
 # Personal Tools {: #personal_tools}
 
-![pers_menu_tools_v2_de.png](assets/pers_menu_tools_v2_de.png){ class="aside-right shadow lightbox"}
+![pers_menu_tools_v3_en.png](assets/pers_menu_tools_v3_en.png){ class="aside-right shadow lightbox"}
 
 You can find the personal Tools as a section in the [Personal Menu](index.md).
 
@@ -82,9 +82,9 @@ Badges can also be earned in OpenOlat, as is common in online games and learning
 Find out [more >](OpenBadges.md)
 
 
-## Bookings {: #bookings}
+## Booking orders {: #bookings}
 
-All of the users course bookings are listed here, including further booking information.
+All of the users booking orders are listed here, including further booking information.
 
 Find out [more >](Bookings.md)
 

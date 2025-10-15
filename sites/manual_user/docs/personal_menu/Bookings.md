@@ -1,4 +1,4 @@
-# Personal tools: Bookings {: #bookings}
+# Personal tools: Booking orders {: #bookings}
 
 ![pers_menu_bookings_v1_en.png](assets/pers_menu_bookings_v1_en.png){ class="aside-right lightbox"}
 
@@ -9,7 +9,7 @@ Only those courses and learning resources appear that are also linked to a [book
 
 Learning resources where the owners enter the participants manually or the learners are assigned via a group do *not* appear here.
 
-![pers_menu_bookings_example_v1_de.png](assets/pers_menu_bookings_example_v1_de.png){ class="shadow lightbox"}
+![pers_menu_booking_orders2_v1_en.png](assets/pers_menu_booking_orders2_v1_en.png){ class="shadow lightbox }
 
 Use the cogwheel to select the columns you want to see, e.g. the offer type (code, freely available, PayPal) and the title of the offer (= content). When a booking is made, OpenOlat automatically creates a booking number under which this course participation is managed. This can also be seen here.
 
@@ -25,5 +25,5 @@ The option to book will also appear in the [catalog](../area_modules/catalog2.0_
 [Add members to a course >](../learningresources/Members_management.md#adding-members)<br>
 [Offers in a catalog >](../area_modules/catalog2.0_angebote.md#how-is-an-offer-created)<br>
 
-
+[To the top of the page ^](#bookings)
 

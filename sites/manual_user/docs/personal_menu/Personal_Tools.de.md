@@ -1,6 +1,6 @@
 # Persönliche Werkzeuge {: #personal_tools}
 
-![pers_menu_tools_v2_de.png](assets/pers_menu_tools_v2_de.png){ class="aside-right shadow lightbox"}
+![pers_menu_tools_v3_de.png](assets/pers_menu_tools_v3_de.png){ class="aside-right shadow lightbox"}
 
 Die persönlichen Werkzeuge finden Sie als einen Abschnitt im [persönlichen Menü](../personal_menu/index.de.md).
 
@@ -82,9 +82,9 @@ Auch in OpenOlat können Badges (Abzeichen) erworben werden, wie sie in Online-S
 [Zu den Details >](../personal_menu/OpenBadges.de.md)
 
 
-## Buchungen {: #bookings}
+## Buchungsaufträge {: #bookings}
 
-Alle Kurs-Buchungen des Benutzers werden hier inklusive weiterer Buchungsinformationen aufgelistet.
+Alle Buchungsaufträge des/der Benutzer:in werden hier inklusive weiterer Buchungsinformationen aufgelistet.
 
 [Zu den Details >](Bookings.de.md)
 
