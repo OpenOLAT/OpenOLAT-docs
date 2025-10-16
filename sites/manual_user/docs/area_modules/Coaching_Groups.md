@@ -1,18 +1,23 @@
 # Coaching - Groups {: #groups}
 
-!!! warning "Attention"
 
-    This article is still under construction.
+![coaching_groups1_v1_de.png](assets/coaching_groups1_v1_de.png){ class="shadow lightbox" }
+
+![coaching_groups2_v1_de.png](assets/coaching_groups2_v1_de.png){ class="shadow lightbox" }
 
 
-![coaching_gruppen_v1_de.png](assets/coaching_groups1_v1_de.png){ class="shadow lightbox" }
+### 1. WHOM does the list show?  {: #groups_who}
 
-### 1. WHOM does the list show?
 The menu item "Groups" shows the list of all groups you are coaching, which are located in the Coaching tool.
 
-In contrast to the participant and course overview (A and C), only the OpenOlat users who are registered in one of the course-related groups appear in the group overview (B).
+Unlike the person and course overview, the group overview only shows OpenOlat users who are registered in one of the course-related groups.
 
-### 2. WHAT does the list show?  
+[To the top of the page ^](#groups)
+ 
+---
+
+
+### 2. WHAT does the list show?  {: #groups_what}
 
 You will see at once,
 
@@ -21,10 +26,25 @@ You will see at once,
 * how many participants the group has in total.
 * and how many group members have already passed the associated course. (If a pass has been configured in the course.)
 
-Clicking on a group name opens the list of group members with further information on the score, certificate, etc. <br>
-If you then click on a user name, the user-specific overview opens:
+Clicking on a group name opens the list of group members with further information on the score, certificate, etc.
 
-* You get access to the persons assessment tool for the corresponding course.
-* Additionally, you have access to the lessons and the corresponding evidence of achievement, if activated.
+When you click on a user name, the rating tool for that person opens again and you can rate the group member or contact them by email.
 
-This way you can also assess group members. 
+[To the top of the page ^](#groups)
+ 
+---
+
+## Further information {: #further_information}
+
+[Coaching: User search >](../../manual_user/area_modules/Coaching_User_Search.md)<br>
+[Coaching: People >](../../manual_user/area_modules/Coaching_People.md)<br>
+[Coaching: Courses >](../../manual_user/area_modules/Coaching_Courses.md)<br>
+[Coaching: Educational products >](../../manual_user/area_modules/Coaching_Educational_Products.md)<br>
+[Coaching: Events / Absences >](../../manual_user/area_modules/Coaching_Events_Absences.md)<br>
+[Coaching: Assessment orders >](../../manual_user/area_modules/Coaching_assessment_orders.md)<br>
+[Coaching: Reports >](../../manual_user/area_modules/Coaching_Reports.md)<br>
+[Coaching: Order management >](../../manual_user/area_modules/Coaching_Order_Management.md)<br>
+[Roles >](../../manual_user/basic_concepts/Roles.md)<br>
+[Assessment tool >](../../manual_user/learningresources/Assessment_tool_overview.md)<br>
+
+ [To the top of the page ^](#order_management)

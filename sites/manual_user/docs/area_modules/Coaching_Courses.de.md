@@ -50,7 +50,7 @@ Welche Spalten angezeigt werden, können Sie selbst festlegen, indem Sie rechts 
 * **Kennzeichen**
 * **Beginn** (Beginn des Durchführungszeitraums dieses Kurses)
 * **Ende** (Ende des Durchführungszeitraums dieses Kurses) 
-* **Referenzierungen** (Wo und wie oft wird dieser 
+* **Referenzierungen**
 * **Status** ("in Review", "Veröffentlicht", "Beendet")
 * **#Teilnehmer:innen** (Anzahl aller Teilnehmenden)
 * **#Besucht** (Anzahl der Teilnehmenden, die diesen Kurs schon einmal besucht haben)
@@ -86,3 +86,6 @@ Welche Spalten angezeigt werden, können Sie selbst festlegen, indem Sie rechts 
 [Bewertungswerkzeug >](../../manual_user/learningresources/Assessment_tool_overview.de.md)<br>
 
 [Zum Seitenanfang ^](#courses)
+
+
+[hallo](../../manual_user/le)

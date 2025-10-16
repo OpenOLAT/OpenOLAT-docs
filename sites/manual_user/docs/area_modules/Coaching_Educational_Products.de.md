@@ -15,5 +15,5 @@ Durch Klick auf einen Namen öffnen Sie die Baumstruktur dieses Produkts.
 
 Sie können nun durch Klick auf eines der Elemente im Produkt dieses **direkt öffnen** und von dort weiter navigieren.
 
-Mit dem **Button "Mehr erfahren"** gelangen Sie zu einer Übersichtsseite des Produkts, in der alle enthaltenenen Kurse und Termine angezeigt werden.
+Mit dem **Button "Mehr erfahren"** gelangen Sie zu einer Übersichtsseite des Produkts, in der alle enthaltenen Kurse und Termine angezeigt werden.
 

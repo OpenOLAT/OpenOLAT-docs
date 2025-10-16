@@ -7,7 +7,7 @@
 
 ![coaching_events_absences_events_coach-master_v1_de.png](assets/coaching_events_absences_events_coach-master_v1_de.png){ class="shadow lightbox" }
 
-Auf oberster Ebene können Sie die Ansicht Ihrer Termine und Absenzen fokusieren auf Ihre Rolle als Betreuer:in oder ggf. als Klassenlehrer:in zu fokusieren.
+Auf oberster Ebene können Sie die Ansicht Ihrer Termine und Absenzen fokussieren auf Ihre Rolle als Betreuer:in oder ggf. als Klassenlehrer:in zu fokussieren.
 
 Im [Course Planner](../../manual_user/area_modules/Course_Planner.de.md) besteht die Möglichkeit, einer Person die Rolle der Klassenlehrerin bzw. des Klassenlehrers zuzuweisen. 
 (Voraussetzung: Das Modul Course Planner wurde von einem/einer Administrator:in aktiviert.)
@@ -92,8 +92,7 @@ Alle Meldungen im Zusammenhang mit Absenz und Dispens sind in diesem Tab gesamme
 
 Im **Suchfeld** können Sie nach Benutzer:innen, Dozent:innen, Kurstiteln und Terminen suchen.
 
-Filtern Sie nach **Art der Meldung** ("Ohne Abmeldung", "abgemeldet", "dispensiert") oder<br> nach 
-**entschuldigt** und/oder **unentschuldigt**.
+Filtern Sie nach **Art der Meldung** ("Ohne Abmeldung", "abgemeldet", "dispensiert") oder<br> nach **entschuldigt** und/oder **unentschuldigt**.
 
 Als Filteroption **"Grund"** stehen Ihnen die vom Administrator vordefinierten Begriffe zur Auswahl.
 

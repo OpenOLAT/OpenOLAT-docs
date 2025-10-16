@@ -1,4 +1,4 @@
-# Roles and Rights: Which roles are available? {: #overview} 
+# Roles and Rights: Which roles are available? {: #roles} 
 
 The roles can be assigned to the following contexts according to the tasks:
 
@@ -10,21 +10,21 @@ Organisation roles include organisation-wide authorizations (as definied for the
 ![roles_rights_system_roles_v1_de.png](assets/roles_rights_system_roles_v1_de.png)
 
 
-* **Invitee**: Invited persons with user type "external user" (see [User_Types](User_Types.md))
-* **User**: Standard role for registered users
 * **Author**: The author has access to the authoring area. This allows the author to create courses and all other learning resources. In the search mask the author finds all courses and learning resources such as tests, films and portfolio templates which are accessible to authors. This role is often assigned to teachers or e-learning managers.
-* **User manager**:User managers have access to the [User management](../../manual_admin/usermanagement/index.md) and all users of the own organization. They can create, edit and inactivate users. They can also assign the Author role and other roles. User administrators have the menu item "User administration" in the top navigation bar. 
-* **Role manager**: Role managers have access to the user administration (separate menu item in the top navigation) and all users of his or her own organization. Apart from the roles "Administrator" and "System Administrator", they can change, assign and remove all user roles.
-* **Group manager**: The group manager has access to the "Group" section and in there the tab [Group Administration](../area_modules/Group_Management.md). 
-* **Question bank manager**: Question bank managers has access to the [Question Bank](../area_modules/Question_Bank.md). In there, they are able to open the administration section.
-* **Curriculum manager**: The curriculum manager has access to Curriculum Management and can create new curricula and manage existing ones. If the curriculum manager is assigned to an organization, he or she only has access to the curricula of this organization.
-* **Lectures manager**: Lesson block administrators have access to the menu item "Lesson administration" in the top navigation. They can see all lessons and absences including the respective users of their own organizations.   
+* **Learning resource manager**: A learning resource manager automatically has owner rights (= full access) for all courses and learning resources belonging to the own organization (see [Administrative release](../learningresources/Access_configuration.md#administrative-release)). In the status "Finished" and "Deleted" the access is read-only. The courses and learning resources can be found in the authoring area and can be copied as well as exported.
+* **Line manager**: The line manager can be automatically informed about the receipt of certificates for all users of his organization.
+* **Education manager**: The rights assigned to training managers apply to the entire branch of their organizational unit. They include rights in the coaching tool, even if they are not directly active and assigned there as coaches. Or administrative functions, such as checking booking orders, blocking accounts, etc.
+* **Principal**: The principal sees many areas of the system, but has read-only access and cannot make any changes, edit objects, etc.
+* **Absence manager**: The menu item "Absence management" is available in the main navigation for the administration of absences within your organizational unit.
+* **Course planner**: Course planners have access to the [Course Planner](../area_modules/Course_Planner.md). If course planners are assigned to an organization, they only have access to that organization's Course Planner.
 * **Project manager** Project administrators also have the "Administration" tab in the "Projects" menu item and can access all projects here, including member administration and configuration.
 * **Quality manager**: The quality manager has access to the Quality Management area and can manage all settings and objects such as questionnaires, data collection generators and the analysis tool.
-* **Line manager**: The line manager can be automatically informed about the receipt of certificates for all users of his organization.
-* **Learning resource manager**: A learning resource manager automatically has owner rights (= full access) for all courses and learning resources belonging to the own organization (see [Administrative release](../learningresources/Access_configuration.md#administrative-release)). In the status "Finished" and "Deleted" the access is read-only. The courses and learning resources can be found in the authoring area and can be copied as well as exported.
-* **Principal**: The principal sees many areas of the system, but has read-only access and cannot make any changes, edit objects, etc.
+* **User manager**:User managers have access to the [User management](../../manual_admin/usermanagement/index.md) and all users of the own organization. They can create, edit and inactivate users. They can also assign the Author role and other roles. User administrators have the menu item "User administration" in the top navigation bar. 
+* **Role manager**: Role administrators have access to user management (separate menu item in the top navigation bar) and can view and organize all users in their own organizations. Role administrators can change, assign, and remove all user roles except for the roles of administrator and system administrator.
 * **Administrator**: The administrator has module and function management and has access to all areas of the system e.g. user management, catalog management, curriculum management, lectures management, except the administration page. This role can be limited to an organization. The administrator can delete users and also grant other people the right to manage the catalogue.
+* **Group manager**: The group manager has access to the "Group" section and in there the tab [Group Administration](../area_modules/Group_Management.md). 
+* **Question bank manager**: Question bank managers has access to the [Question Bank](../area_modules/Question_Bank.md). In there, they are able to open the administration section.
+* **Pool manager**: Pool administrators have access to the [Question pool](../area_modules/Question_Bank.md). In the question pool, they can open the Administration section.
 * **System administrator**: The system administrator has access to the administration side and is responsible for the technical system configuration and its monitoring. This is a global role that is not tied to an organization.
 
 !!! warning "Note"
@@ -39,6 +39,43 @@ Organisation roles include organisation-wide authorizations (as definied for the
 
 
 ---
+
+## Roles in an organization {: #orgunit}
+
+If the optional additional module "Organizational units" is activated, roles can also only be assigned for a specific organizational unit.
+
+Users can be members of different organizational units and be assigned different roles there.
+
+The roles that can be limited to an organizational unit include
+
+* All system users
+* Authors
+* Group managers
+* Lection block managers
+* Project managers
+* Quality managers
+* Question bank managers
+* User managers
+* Role managers
+* Curriculum managers
+* Learning resource managers
+* Line managers
+* Principals
+* Administrators
+
+(System administrators are by definition responsible for the entire system and cannot be restricted to organizational units).
+
+Organizational roles are assigned in the user administration.<br>
+(See [Role assignment of organization-specific roles](Assign_Roles.md#role_assignment_orgunit))
+
+!!! info "Without activated organizational units"
+
+    If the "Organizational units" module is not set up, all users are automatically members of the only existing overall organization (OpenOlat) and all roles refer to it.
+
+[To the top of the page ^](#roles)
+
+---
+
 
 
 ## Roles in a course {: #course} 
@@ -91,42 +128,6 @@ In the rights management of the course, further *rights packages* can be assigne
 
     Group participants and group coaches are roles within a specific group. The "Group administrator" role, on the other hand, is a organisation-wide role, as its task is to perform administrative tasks **across all groups**.
 
-
-[To the top of the page ^](#roles)
-
----
-
-## Roles in an organization {: #orgunit}
-
-If the optional additional module "Organizational units" is activated, roles can also only be assigned for a specific organizational unit.
-
-Users can be members of different organizational units and be assigned different roles there.
-
-The roles that can be limited to an organizational unit include
-
-* All system users
-* Authors
-* Group managers
-* Lection block managers
-* Project managers
-* Quality managers
-* Question bank managers
-* User managers
-* Role managers
-* Curriculum managers
-* Learning resource managers
-* Line managers
-* Principals
-* Administrators
-
-(System administrators are by definition responsible for the entire system and cannot be restricted to organizational units).
-
-Organizational roles are assigned in the user administration.<br>
-(See [Role assignment of organization-specific roles](Assign_Roles.md#role_assignment_orgunit))
-
-!!! info "Without activated organizational units"
-
-    If the "Organizational units" module is not set up, all users are automatically members of the only existing overall organization (OpenOlat) and all roles refer to it.
 
 [To the top of the page ^](#roles)
 

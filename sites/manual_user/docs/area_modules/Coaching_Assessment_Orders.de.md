@@ -20,6 +20,7 @@ Hier haben Sie Zugriff auf alle Kursbausteine, die noch zu bewerten sind. Diese 
 ---
 
 ### Tab Offene Einstufungen/Noten {: #tab_open_classifications_scores}
+
 Hier finden Sie alle Kursbausteine, die zwar schon bewertet wurden, bei denen aber die manuelle Zuordnung zu einer Notenskala bzw. einem Bewertungssystem noch nicht abgeschlossen wurde.
 
 Der Tab ist nur relevant, wenn mindestens einem  Kursbaustein auch eine Bewertungsskala zur manuellen Freigabe zugewiesen wurde.
