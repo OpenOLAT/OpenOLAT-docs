@@ -100,7 +100,7 @@ All portfolio folders to which the user is invited are displayed here. (This use
 
 ### Bookings
 
-The bookings of the user are displayed here.  
+The booking orders and pre-orders of the user are displayed here.  
 
 [To the top of the page ^](#user_configuration)
 

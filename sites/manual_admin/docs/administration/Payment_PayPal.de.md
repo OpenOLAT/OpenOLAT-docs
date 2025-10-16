@@ -1,13 +1,13 @@
-# PayPal Konfiguration
+# PayPal Konfiguration {: #PayPal}
 
-Das PayPal Buchungsmodul erlaubt es Autoren Kurse und Arbeitsgruppen gegen
+Das PayPal Bezahlungsmodul erlaubt es Autor:innen Kurse und Arbeitsgruppen gegen
 Geld freizuschalten. Ihre Kunden können dabei entweder mit Kreditkarte oder
 direkt über PayPal bezahlen sofern sie einen PayPal Account besitzen. Dieser
 ist aber für Ihre Kunden nicht zwingend notwendig. In der PayPal Konfiguration
 der Systemadministration können Sie die PayPal Kontoinformationen hinterlegen,
 die für alle Bezahlprozesse verwendet werden sollen.
 
-Um die PayPal Buchungsmethode verwenden zu können müssen Sie über einen PayPal
+Um die PayPal Bezahlmethode verwenden zu können müssen Sie über einen PayPal
 Firmenkonto verfügen. Einen solches Konto können Sie bei PayPal ohne weitere
 Kosten erstellen. In Ihrem PayPal Konto können Sie anschliessend eine
 sogenannte API-Berechtigung erstellen. Diese besteht aus der Client-ID und dem
@@ -18,16 +18,21 @@ diese Sicherheitselemente auf der PayPal Webseite erstellen können.
 
 ## Verwendung in Kursen und Arbeitsgruppen
 
-Um Kurse und Arbeitsgruppen gegen Geld freizuschalten können Sie nach
+Um Kurse und Arbeitsgruppen gegen Geld freizuschalten, können Sie nach
 erfolgreicher Konfiguration des PayPal Moduls auf der Detailseite des Kurses
 oder in der Administrationsumgebung der Arbeitsgruppe die PayPal
-Buchungsmethode auswählen. Weitere Informationen finden Sie unter
+Angebotsart auswählen. Weitere Informationen finden Sie unter
 [Zugangskonfiguration](../../manual_user/learningresources/Access_configuration.de.md){ class="shadow lightbox" }
 
 !!! warning "Achtung"
 	Je nach Währung, Land und Betrag verlangt PayPal eine Transaktionsgebühr.
 	Diese beträgt ca. 5% des Betrages und wird von dem jeweiligen Betrag
 	abgezogen.
+
+[Zum Seitenanfang ^](#PayPal)
+
+---
+
 
 ## PayPal API Berechtigung erstellen
 
@@ -78,3 +83,4 @@ zwischengespeichert haben.
 
 ![](assets/Paypal_config_4.png){ class=" lightbox" }
   
+[Zum Seitenanfang ^](#PayPal)

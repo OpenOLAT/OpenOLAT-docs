@@ -1,21 +1,8 @@
 # Payment modules: Overview {: #payment}
 
-![admin_payment_overview_v2_en.png](assets/admin_payment_overview_v2_en.png){ class="shadow lightbox aside-left-lg" }
+![admin_payment_overview_v3_en.png](assets/admin_payment_overview_v3_en.png){ class="shadow lightbox aside-left-lg" }
 
 The following payment modules are currently available and can be configured:
-
----
-## Credit points {: #payment_credit_points}
-
-Available from :octicons-tag-24: Release 20.1
-
-The module allows you to define your own credit point systems globally. These enable participants to collect educational points/credits, such as ECTS or LearnCoins, for passing courses.
-
-In planning:
-Credits can be used as currency to purchase additional courses or to redeem accumulated credits for certificate renewal as part of recertification.
-
-[See the details >](Payment_Credit_Points.md)<br>
-[To the top of the page ^](#payment)
 
 ---
 
@@ -39,14 +26,7 @@ Configure the PayPal API authorization for PayPal access with the Client ID and 
 You must first create these two security elements in your PayPal business account. 
 OpenOlat does not support subsequent changes to orders from your Paypal account.
 
-[See the details >](PayPal_Configuration.md)<br>
-[To the top of the page ^](#payment)
-
----
-
-
-## Legacy Paypal {: #payment_legacy_paypal}
-
+[See the details >](Payment_PayPal.md)<br>
 [To the top of the page ^](#payment)
 
 ---

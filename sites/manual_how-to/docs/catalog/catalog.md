@@ -34,7 +34,7 @@ In OpenOlat, you can also store offers that are displayed in an external catalog
 
 Users can then select and book these courses. They will only be guided through the registration process after making a selection (in order to save their work).
 
-For users already registered in OpenOlat, the booking will be assigned to their existing account. The booking will then be confirmed.
+For users already registered in OpenOlat, the booking order will be assigned to their existing account. The booking order will then be confirmed.
 
 The external catalog can be offered on the login screen.
 However, the link can also be incorporated elsewhere, e.g., into a website, or sent by email. 
@@ -87,7 +87,7 @@ Select your course and then the "Administration" icon. There you will also find 
 
 ![course_share_v1_en.png](assets/course_share_v1_en.png){ class="shadow lightbox" }
 
-If your course contains "Private" as booking method, it also means, that it should not appear anywhere in the catalog. So in the first step you have to select the booking method "Bookable and open offers - Bookable by users in the catalog" and thus enable the display of your course in the catalog in principle.
+If your course contains "Private" as offer type, it also means, that it should not appear anywhere in the catalog. So in the first step you have to select the offer type "Bookable and open offers - Bookable by users in the catalog" and thus enable the display of your course in the catalog in principle.
 
 ![course_share_bookable_v1_en.png](assets/course_share_bookable_v1_en.png){ class="shadow lightbox" }
 
@@ -118,7 +118,7 @@ If you click the "Add offer" button, you will get a pre-selection of possible of
 
 !!! tip "Note"
 
-    If the "Add offer" button is inactive, the booking method is still set as "private".
+    If the "Add offer" button is inactive, the offer type is still set as "private".
 
 Choose the type of offer you want.
 

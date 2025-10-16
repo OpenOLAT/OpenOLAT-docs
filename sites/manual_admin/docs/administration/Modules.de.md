@@ -129,9 +129,9 @@ Der Kursbaustein "Externe Seite" kann im HTTP Header der Anfrage Daten zum aktue
 
 
 
-## Buchungen {: #bookings}
+## Buchungsaufträge {: #booking_orders}
 
-Hier können Sie für eine bestimmte Buchungsnummer alle Buchungen in einem bestimmten Zeitraum anzeigen lassen.
+Hier können Sie für eine bestimmte Buchungsnummer alle Buchungsaufträge in einem bestimmten Zeitraum anzeigen lassen.
 
 [Zum Seitenanfang ^](#modules)
 

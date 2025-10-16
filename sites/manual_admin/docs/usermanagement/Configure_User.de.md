@@ -99,7 +99,7 @@ Hier werden alle Portfolio-Mappen angezeigt, zu welchen der/die Benutzer:in eing
 
 ### Buchungen
 
-Hier werden die Buchungen und Vorbestellungen des Users angezeigt. 
+Hier werden die Buchungsaufträge und Vorbestellungen des Users angezeigt. 
 
 [zum Seitenanfang ^](#user_configuration)
 

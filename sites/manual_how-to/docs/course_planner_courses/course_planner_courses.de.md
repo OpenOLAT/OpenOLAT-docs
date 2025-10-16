@@ -31,7 +31,7 @@ Mit dem Course Planner kann die **Planungsarbeit** von der **Inhaltserstellung**
 * Planung mehrfacher Durchführungen des gleichen Kurses zu verschiedenen Zeiten
 * Planung von Bildungsgängen mit mehreren Kursen (und jeweils mehreren Durchführungen)
 * Erstellung von Angeboten im Katalog
-* Reports zu den bereits eingegangenen Buchungen
+* Reports zu den bereits eingegangenen Buchungsaufträgen
 * Planung von Terminen im Zusammenhang mit den verschiedenen Durchführungen (z.B. für Präsenzveranstaltungen oder Prüfungen)
 * ...
 * Terminierung einer automatischen Instanzierung der Kurse

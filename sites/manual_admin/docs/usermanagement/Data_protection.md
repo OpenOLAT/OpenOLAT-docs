@@ -49,7 +49,7 @@ The export serves solely to inform the user which data is stored and processed o
 * Information on terms of use and when they were accepted
 * Entries of the personal calendar (iCal)
 * Subscriptions
-* Course bookings
+* Course booking orders
 * Evidences of achievement
 * Membership to couses
 * Membership to groups

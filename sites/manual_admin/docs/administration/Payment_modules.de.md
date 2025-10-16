@@ -1,24 +1,11 @@
 # Bezahlungsmodule: Übersicht {: #payment}
 
-![admin_payment_overview_v2_de.png](assets/admin_payment_overview_v2_de.png){ class="shadow lightbox aside-left-lg" }
+![admin_payment_overview_v3_de.png](assets/admin_payment_overview_v3_de.png){ class="shadow lightbox aside-left-lg" }
 
 Es stehen derzeit folgende Bezahlungsmodule zur Verfügung und können konfiguriert werden:
 
 ---
 
-## Kreditpunkte {: #payment_credit_points}
-
-Verfügbar ab :octicons-tag-24: Release 20.1
-
-Über das Modul können eigene Kreditpunktesysteme global definiert werden. Diese ermöglichen später den Teilnehmenden für das Bestehen von Kursen Bildungspunkte/Credits, wie zum Beispiel ECTS oder LearnCoins, zu sammeln.
-
-In Planung:
-Die Credits können wiederum als Währung verwendet werden, um weitere Kurse zu kaufen oder um im Rahmen einer Rezertifizierung die gesammelten Credits für die Erneuerung des Zertifikats einzulösen.
-
-[Zu den Details >](Payment_Credit_Points.de.md)<br>
-[Zum Seitenanfang ^](#payment)
-
----
 
 ## Rechnung {: #payment_invoice}
 
@@ -40,14 +27,7 @@ Secret. Diese zwei Sicherheitselemente müssen Sie zuerst in Ihrem PayPal
 Businesskonto erstellen. OpenOlat unterstützt nicht nachträgliche Anderungen
 am Bestellungen von Ihrem Paypal Konto.
 
-[Zu den Details >](PayPal_Configuration.de.md)<br>
-[Zum Seitenanfang ^](#payment)
-
----
-
-
-## Legacy Paypal {: #payment_legacy_paypal}
-
+[Zu den Details >](Payment_PayPal.de.md)<br>
 [Zum Seitenanfang ^](#payment)
 
 ---

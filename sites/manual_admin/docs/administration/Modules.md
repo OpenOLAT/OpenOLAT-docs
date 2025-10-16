@@ -128,9 +128,9 @@ The course element "External page" can transmit data about the current account t
 
 
 
-## Bookings {: #bookings}
+## Booking orders {: #booking_orders}
 
-Here you can display all bookings for a specific booking number in a specific period.
+Here you can display all booking orders for a specific booking number in a specific period.
 
 [To the top of the page ^](#modules)
 

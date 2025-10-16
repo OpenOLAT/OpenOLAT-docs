@@ -67,7 +67,7 @@ WebDAV access can be set up and configured system-wide here.
 
 ## Access control
 
-Here you can switch access control for learning resources and groups on and off for the entire system. If access control is switched on, you can select the available booking methods.
+Here you can switch access control for learning resources and groups on and off for the entire system. If access control is switched on, you can select the available offer styles.
 
 [To the top of the page ^](#core_config)
 

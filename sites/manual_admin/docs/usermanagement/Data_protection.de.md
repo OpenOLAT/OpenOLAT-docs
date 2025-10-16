@@ -50,7 +50,7 @@ Der Export dient einzig zur Information des Nutzers, welche Daten auf OpenOlat g
 * Informationen zu Nutzungsbedingungen und wann diese akzeptiert wurden
 * Einträge des persönlichen Kalenders (iCal)
 * Abonnements
-* Kurs-Buchungen
+* Kurs-Buchungsaufträge
 * Leistungsnachweise
 * Zugehörigkeit zu Kursen
 * Zugehörigkeit zu Gruppen

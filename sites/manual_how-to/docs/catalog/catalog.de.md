@@ -34,7 +34,7 @@ In OpenOlat können auch Angebote hinterlegt werden, die in einem externen Katal
 
 Benutzer:innen können dann diese Kurse auswählen und buchen. Sie werden erst nach einer getroffenen Wahl durch den Registrierungsprozess geführt (um Arbeitsergebnisse speichern zu können).
 
-Bei bereits in OpenOlat registrierten Benutzer:innen wird die Buchung ihrem bestehenden Konto zugeordnet. Die Buchung wird anschliessend bestätigt.
+Bei bereits in OpenOlat registrierten Benutzer:innen wird der Buchungsauftrag ihrem bestehenden Konto zugeordnet. Der Buchungsauftrag wird anschliessend bestätigt.
 
 Der externe Katalog kann auf dem Login-Screen angeboten werden.
 Der Link kann aber auch an anderer Stelle z.B. in eine Website eingebaut oder per Mail verschickt werden. 
@@ -87,7 +87,7 @@ Gehen Sie in die Administration Ihres Kurses. Dort finden Sie unter "Einstellung
 
 ![kurs_freigabe_v1_de.png](assets/kurs_freigabe_v1_de.png){ class="shadow lightbox" }
 
-Enthält Ihr Kurs als Buchungsmethode "privat" bedeutet das auch, dass er nirgends im Katalog erscheinen soll. Im ersten Schritt müssen Sie also die Buchungsmethode "Buchbare und offene Angebote - Buchbar für Benutzer*innen im Katalog" wählen und so die Anzeige Ihres Kurses im Katalog prinzipiell ermöglichen.
+Enthält Ihr Kurs als Angebotsart "privat" bedeutet das auch, dass er nirgends im Katalog erscheinen soll. Im ersten Schritt müssen Sie also die Angebotsart "Buchbare und offene Angebote - Buchbar für Benutzer:innen im Katalog" wählen und so die Anzeige Ihres Kurses im Katalog prinzipiell ermöglichen.
 
 ![kurs_freigabe_buchbar_v1_de.png](assets/kurs_freigabe_buchbar_v1_de.png){ class="shadow lightbox" }
 
@@ -118,7 +118,7 @@ Klicken Sie auf den Button "Angebot hinzufügen", erhalten Sie eine Vorauswahl m
 
 !!! tip "Hinweis"
 
-    Ist der Button "Angebot hinzufügen" inaktiv, ist die Buchungsmethode noch als "privat" eingestellt.
+    Ist der Button "Angebot hinzufügen" inaktiv, ist die Angebotsart noch als "privat" eingestellt.
 
 Wählen Sie den gewünschten Angebotstyp.
 

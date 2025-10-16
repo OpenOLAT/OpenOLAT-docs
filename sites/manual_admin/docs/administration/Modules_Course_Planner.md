@@ -41,7 +41,7 @@ The taxonomies selected here should be the same as those used in the catalog. On
 
 Courses can be intended for stand-alone use or for integration into a product. As an administrator, you specify here which use is preset by default.
 
-**Independent**: An independent course has a member administration. Access can be gained using the "Private" booking method by registering as a member (e.g. by course owners), by assigning an access code or by publication in the catalog. 
+**Independent**: An independent course has a member administration. Access can be gained using the "Private" offer type by registering as a member (e.g. by course owners), by assigning an access code or by publication in the catalog. 
 
 **Integration into product**: If the course is integrated into a product, memberships are assigned and managed by the Course Planner. The course then does not require a second, independent membership administration.
 

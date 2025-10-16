@@ -89,7 +89,7 @@ Hier kann der WebDAV-Zugang systemweit eingerichtet und konfiguriert werden.
 
 ## Zugangskontrolle
 
-Hier können Sie die Zugangskontrolle für Lernressourcen und Gruppen für das gesamte System ein- und ausschalten. Bei eingeschalteter Zugangskontrolle können Sie die zur Verfügung stehenden Buchungsmethoden auswählen.
+Hier können Sie die Zugangskontrolle für Lernressourcen und Gruppen für das gesamte System ein- und ausschalten. Bei eingeschalteter Zugangskontrolle können Sie die zur Verfügung stehenden Angebotsarten auswählen.
 
 [Zum Seitenanfang ^](#core_config)
 
