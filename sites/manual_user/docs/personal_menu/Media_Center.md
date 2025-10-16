@@ -13,7 +13,7 @@ Furthermore, various filter options are available to display only certain files.
 
 ‘My Media Centre’ initially reflects a person's individual files. This is why the Media Centre can also be found under personal tools. Regardless of this, the media in the Media Centre can also be accessed at certain points in OpenOlat, e.g. in courses or in the portfolio. A corresponding menu appears there, which can be used to select existing elements from your own Media Centre or to create new media and save it directly in the Media Centre.
 
-Detailed information on how the Media Centre works can be found at [„Konzept des Media Centers“](../basic_concepts/Media_Center_Concept.md).
+Detailed information on how the Media Centre works can be found at [„Media Center concept“](../basic_concepts/Media_Center_Concept.md).
 
 ---
 

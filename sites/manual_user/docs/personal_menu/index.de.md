@@ -14,7 +14,7 @@ Im persönlichen Menü finden Sie die folgenden Abschnitte:
 ![4_green_20.png](assets/4_green_20.png) **System** <br>
 sowie die **Logout**-Funktion
 
-![pers_menu2_v2_de.png](assets/persoenliche_Werkzeuge_20.jpg){ class="shadow aside-right lightbox"}
+![pers_menu2_v2_de.png](assets/pers_menu2_v2_de.png){ class="shadow aside-right lightbox"}
 
 !!! note "Quick Links"
 
@@ -28,7 +28,7 @@ sowie die **Logout**-Funktion
     * [Leistungsnachweise](../personal_menu/Evidence_of_Achievements.de.md)
     * [Kompetenzen](../personal_menu/Competences.de.md)
     * [Badges](../personal_menu/OpenBadges.de.md)
-    * [Buchungen](../personal_menu/Bookings.de.md)
+    * [Buchungsaufträge](../personal_menu/Bookings.de.md)
     * [Personensuche](../personal_menu/Other_users.de.md)
     * [Absenzen](../personal_menu/Absences.de.md)
     * [Portfolio 2.0](../personal_menu/Portfolio.de.md)

@@ -14,7 +14,7 @@ You can find the following sections in the personal menu:
 ![3_green_20.png](assets/4_green_20.png) **System**<br>
 as well as the **Logout** function
 
-![pers_menu2_v2_de.png](assets/personal_tools_20.jpg){ class="shadow aside-right lightbox"}
+![pers_menu2_v2_en.png](assets/pers_menu2_v2_en.png){ class="shadow aside-right lightbox"}
 
 !!! note "Quick Links"
 
@@ -28,7 +28,7 @@ as well as the **Logout** function
     * [Evidence of achievements](../personal_menu/Evidence_of_Achievements.md)
     * [Competences](../personal_menu/Competences.md)
     * [Badges](../personal_menu/OpenBadges.md)
-    * [Bookings](../personal_menu/Bookings.md)
+    * [Booking orders](../personal_menu/Bookings.md)
     * [Other users](../personal_menu/Other_users.md)
     * [Absences](../personal_menu/Absences.md)
     * [Portfolio 2.0](../personal_menu/Portfolio.md)
@@ -70,6 +70,7 @@ All tools that you mark here are displayed in the header at the top right instea
 The [Chat](../basic_concepts/Chat.md) (instant messenger) and the [Search](../basic_concepts/Full_Text_Search.md) are generally always available in the top navigation bar.
 
 ![pers_menu_chat_suche_v1_de.png](assets/pers_menu_chat_suche_v1_de.png){ class="shadow lightbox"}
+
 
 ## Further information (German)
 
