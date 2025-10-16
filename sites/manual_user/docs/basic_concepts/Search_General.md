@@ -23,7 +23,7 @@ When searching, it depends on which **starting point** you are searching from. D
 ## Full text search {: #full_text_search}
 
 The full-text search is used for the global search. You can use it to search for the search terms in various course and group **content**, for example in forum posts, PDF and Word files.
-You can also search for users, portfolio folders and artifacts, as well as for documents in the [Personal folders](../personal_menu/Personal_folders.md). An exception is the private folder, which is not indexed.
+You can also search for portfolio folders and artifacts, as well as for documents in the [Personal folders](../personal_menu/Personal_folders.md). An exception is the private folder, which is not indexed.
 
 ![](assets/generelle_Suche.png)
 
