@@ -50,7 +50,7 @@ Personen können auf verschiedene Arten einem Kurs hinzugefügt werden:
 
 
 * durch manuelles Eintragen durch die Kursbesitzer:innen  
-* durch Buchung des Kurses durch Lernende (siehe [Zugangskonfiguration](../learningresources/Access_configuration.de.md))  
+* durch Buchungsaufträge von Lernenden (siehe [Zugangskonfiguration](../learningresources/Access_configuration.de.md))  
 * durch das Hinzufügen einer OpenOlat-Gruppe. Alle Gruppenmitglieder werden dabei automatisch dem Kurs hinzugefügt.  
 * über den Course Planer im Rahmen eines übergeordneten Curriculums (CPL-Mitgliedschaft)
 
@@ -70,6 +70,10 @@ Alternativ kann die Option "Externe Mitglieder einladen" verwendet werden. Auf d
     Im letzten Schritt des Wizards können Sie eine E-Mail formulieren. Dort können Sie auch Variablen im E-Mail-Text verwenden. 
     ($courseDescription, $courseName, $courseRef, $courseUrl, $courseLocation, $email, $firstName, $lastName, $userName)
 
+[Zum Seitenanfang ^](#members_management)
+
+---
+
 
 ## Bereich "Gruppen" {: #section_groups}
 
@@ -88,18 +92,33 @@ Ferner können bestimmte Kursbausteine automatisch Gruppen erstellen z.B. die [T
 
 Wie Gruppen generell erstellt und konfiguriert werden, und wie man Gruppenmitglieder verwaltet, wird im Kapitel "[Gruppen](../groups/index.de.md)" behandelt.
 
-## Bereich Course Planner
+[Zum Seitenanfang ^](#members_management)
+
+---
+
+
+## Bereich Course Planner {: #section_course_planner}
 
 Sofern ein Kurs mit dem [Course Planner](../area_modules/Course_Planner.de.md) verbunden ist erscheinen die entsprechenden Informationen ebenfalls in der Mitgliederverwaltung. 
 
 ![Mitgliederverwaltung Course Planner](assets/Course_Planner_Mitgliederverwaltung.png)
 
+[Zum Seitenanfang ^](#members_management)
 
-## Bereich "Buchungsaufträge" {: #section_bookings}
+---
 
-Sofern für einen Kurs eine [Buchungsmethode](../learningresources/Access_configuration.de.md) eingerichtet wurde, werden unter „Buchungsaufträge“ alle Buchungen für diesen Kurs nach Status sortiert angezeigt.  
 
-Eine Buchungsmethode bedeutet, dass der Kurs eigenständig und buchbar ist und somit ein Angebot – zum Beispiel über einen Zugangscode – enthält.
+## Bereich "Buchungsaufträge" {: #section_booking_orders}
+
+Sofern für einen Kurs [Angebote](../learningresources/Access_configuration.de.md) eingerichtet wurden, werden unter „Buchungsaufträge“ alle Buchungsaufträge für diesen Kurs nach Status sortiert angezeigt.  
+
+Ein hier angezeigter Buchungsauftrag bedeutet, dass der Kurs eigenständig und buchbar ist und somit ein Angebot – zum Beispiel über einen Zugangscode – enthält.
+
+![members_management_booking_orders_v1_de.png](assets/members_management_booking_orders_v1_de.png){ class="shadow lightbox" }
+
+[Zum Seitenanfang ^](#members_management)
+
+---
 
 
 ## Bereich "Einladungen" {: #section_invitations}
@@ -107,6 +126,9 @@ Ab :octicons-tag-24: 17.0 verfügbar.
 
 Hier werden alle Personen angezeigt, die über die Option "Externe Mitglieder einladen" (siehe oben) dem Kurs hinzugefügt wurden. 
 
+[Zum Seitenanfang ^](#members_management)
+
+---
 
 
 ##  Bereich "Rechte"   {: #section_rights}
@@ -140,7 +162,7 @@ Für die aktivierte Personengruppe erscheint zusätzlich das Menü der Kurs "Adm
 **Mitglieder-Verwaltung**
 
 Für die aktivierte Personengruppe erscheint zusätzlich das Menü der Kurs "Administration". 
-Es stehen alle Aktionen der Bereiche Mitglieder, Gruppen, Buchungen und Einwilligungen der Mitgliederverwaltung zur Verfügung, jedoch kein Rechtemanagement und kein Course-Planner-Bereich.
+Es stehen alle Aktionen der Bereiche Mitglieder, Gruppen, Buchungsaufträge und Einwilligungen der Mitgliederverwaltung zur Verfügung, jedoch kein Rechtemanagement und kein Course-Planner-Bereich.
   
 **Kurseditor**
 
@@ -189,10 +211,13 @@ Für die aktivierte Personengruppe erscheint zusätzlich das Menü der Kurs "Adm
 
 Mitglieder können hier Kursdatenbanken erstellen, zurücksetzen, löschen und exportieren.  
 
+[Zum Seitenanfang ^](#members_management)
+
+---
+
 
 ##  Bereich "Einwilligungen"  {: #section_consent}
 
 Sofern kursbezogene Nutzungsbedingungen bzw. die kursbezogene Datenschutzerklärung [aktiviert](../learningresources/Course_Settings.de.md) sind, werden die gespeicherten Einwilligungen der einzelnen Benutzer hier aufgelistet. Ausgewählte Einwilligungen können an dieser Stelle widerrufen oder auch gelöscht werden. Beim Widerruf wird die Einwilligung zurückgesetzt, der Eintrag bleibt aber erhalten. Wird ein User in OpenOlat gelöscht, so werden auch alle kursbezogenen Einwilligungen entfernt.
-
-  
-
+ 
+[Zum Seitenanfang ^](#members_management)

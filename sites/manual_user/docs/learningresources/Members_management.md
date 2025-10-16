@@ -51,7 +51,7 @@ If the user has additional [system roles](../basic_concepts/Roles_Rights.md), su
 Users can be added to a course in several ways:
 
 * By manual entry by the course owner
-* By learners booking the course (see [Access configuration](../learningresources/Access_configuration.md))
+* By learners booking orders (see [Access configuration](../learningresources/Access_configuration.md))
 * By adding an OpenOlat group. All group members are automatically added to the course.  
 * via the Course Planner as part of a higher-level curriculum (CPL membership)
 
@@ -69,6 +69,10 @@ Alternatively, you can use the “Invite external members” option. This allows
 
     In the last step of the wizard, you can formulate an e-mail. You can also use variables in the email text. 
     ($courseDescription, $courseName, $courseRef, $courseUrl, $courseLocation, $email, $firstName, $lastName, $userName)
+
+[To the top of the page ^](#members_management)
+
+---
 
 
 ## Groups {: #section_groups}
@@ -88,20 +92,40 @@ Furthermore, certain course elements can automatically create groups, e.g., the 
 
 How to create and configure groups and how to manage group members is covered in the chapter "[Groups](../groups/index.md)".
 
-## Course Planner
+[To the top of the page ^](#members_management)
+
+---
+
+
+## Course Planner {: #section_course_planner}
 If a course is linked to the [Course Planner](../area_modules/Course_Planner.md), the relevant information will also appear in the members management section. 
 
-## Booking Orders {: #section_bookings}
+[To the top of the page ^](#members_management)
 
-If a [booking method](../learningresources/Access_configuration.md) has been set up for a course, all bookings for this course are displayed under “Booking orders” sorted by status.  
+---
 
-A booking method means that the course is independent and bookable and therefore includes an offer—for example, via an access code.
+
+## Booking Orders {: #section_booking_orders}
+
+If an [offer](../learningresources/Access_configuration.md) has been set up for a course, all booking orders for this course are displayed under “Booking orders” sorted by status.  
+
+A booking order displayed here means that the course is independent and bookable and therefore contains an offer – for example, via an access code.
+
+![members_management_booking_orders_v1_de.png](assets/members_management_booking_orders_v1_de.png){ class="shadow lightbox" }
+
+[To the top of the page ^](#members_management)
+
+---
 
 
 ## Invitations {: #section_invitations}
 Available in :octicons-tag-24: 17.0.
 
 All persons added to the course via the "Invite external members" option (see above) are displayed here. 
+
+[To the top of the page ^](#members_management)
+
+---
 
 
 ##  Rights  {: #section_rights}
@@ -132,7 +156,7 @@ In addition to the activated person search, the menu of the course "administrati
   
 **Member management**
 
-The "Administration" menu also appears. All actions of the areas "Members", "Groups" and "Bookings" and "Consents" of the member administration are availablebut not rights management or the Course Planner area.  
+The "Administration" menu also appears. All actions of the areas "Members", "Groups" and "Booking orders" and "Consents" of the member administration are available but not "rights management" or the "Course Planner" area.  
   
 **Course editor**
 
@@ -181,8 +205,15 @@ The "Administration" menu also appears for the activated group of people.
 
 Members have access to the course database and can create, reset, delete or export it.  
   
+[To the top of the page ^](#members_management)
+
+---
 
 
 ##  Consents {: #section_consent}
 
 If course-related terms of use or the course-related privacy policy are [activated](../learningresources/Course_Settings.md), the stored consent of the individual users is listed here. Selected consents can be revoked or deleted at this point. When revoking, the consent is reset, but the entry is retained. If a user is deleted in OpenOlat, all course-related consents of the user are also removed.
+
+[To the top of the page ^](#members_management)
+
+
