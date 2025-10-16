@@ -1,4 +1,4 @@
-# Group Management
+# Group Management {: #group_management}
 
 If the groups are called up in the main navigation, the Groups menu opens **for participants, coaches and owners**.
 
@@ -10,7 +10,7 @@ You can use the various filter options to display all your groups (My groups), y
 
 * **Inactive groups**: Unused groups can be [automatically](../../manual_admin/administration/Automatic_Group_Lifecycle.md) set to inactive status after a certain period of time. Group administrators can activate this mechanism and set the deadline.
 
-* **Published Groups**: All groups that have been published with a booking method can be viewed and selected here. The table provides an overview of the number of free places, the type of booking method and - where specified - the booking costs. Book or enter a group directly by clicking either the links "Book" or "Add to waiting
+* **Published Groups**: All groups that have been published with an offer can be viewed and selected here. The table provides an overview of the number of free places, the type of offer and - where specified - the booking costs. Book or enter a group directly by clicking either the links "Book" or "Add to waiting
 list".
 
 * **Search**: Here you can search for a specific group.
