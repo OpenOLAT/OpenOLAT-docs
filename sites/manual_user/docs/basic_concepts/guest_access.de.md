@@ -18,7 +18,7 @@ Grundsätzlich können diverse Lernressourcen z.B.  Wikis, Blogs, Tests, Videos 
     aktivierbar.
 
 In einem herkömmlichen Kurs kann der Kursbesitzer die Zugangskonfiguration in den
-"Einstellungen"→ Tab "Freigabe" so einrichten, dass auch Gäste Zugriff auf den Kurs erhalten. Als Einstellung muss dabei die Buchungsmethode aktiviert und in einem zweiten Schritt der Gastzugang ausgewählt werden.
+"Einstellungen"→ Tab "Freigabe" so einrichten, dass auch Gäste Zugriff auf den Kurs erhalten. Als Einstellung muss dabei die Angebotsart aktiviert und in einem zweiten Schritt der Gastzugang ausgewählt werden.
 
 ![Gastzugang](assets/Gastzugang_de.png)
 

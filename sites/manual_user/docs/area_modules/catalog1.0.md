@@ -1,4 +1,4 @@
-# Catalog 1.0
+# Catalog 1.0 {: #catalog_1}
 
 ## Functionality
 
@@ -24,7 +24,7 @@ In the catalog 1.0, all offers are created in the courses (**Administration > Se
 
 !!! hint "Requirements for an offer"
 
-    To be able to create a quote, you must select the option "Bookable and open quotes" as the booking method.
+    To be able to create an offer, you must select the option "Bookable and open quotes" as the offer style.
     (**Administration > Settings > Tab Shared**)
 
     ![catalog20_freigabe_v1_de.png](assets/catalog20_freigabe_v1_de.png){ class="shadow lightbox" }

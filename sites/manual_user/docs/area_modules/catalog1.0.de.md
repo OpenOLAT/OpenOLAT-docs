@@ -1,4 +1,4 @@
-# Katalog 1.0
+# Katalog 1.0 {: #catalog_1}
 
 :octicons-device-camera-video-24: **Video-Einführung**: [Katalog](<https://www.youtube.com/embed/LiqkkT06hWo>){:target="_blank”}
 
@@ -30,7 +30,7 @@ Im Katalog 1.0 werden alle Angebote in den Kursen erstellt (**Administration > E
 
 !!! hint "Voraussetzung für ein Angebot"
 
-    Damit Sie ein Angebot erstellen können, muss als Buchungsmethode die Option "Buchbare und offene Angebote" gewählt werden.  (**Administration > Einstellungen > Tab Freigabe**)
+    Damit Sie ein Angebot erstellen können, muss als Angebotsart die Option "Buchbare und offene Angebote" gewählt werden.  (**Administration > Einstellungen > Tab Freigabe**)
     
     ![catalog20_freigabe_v1_de.png](assets/catalog20_freigabe_v1_de.png){ class="shadow lightbox" }
 

@@ -16,7 +16,7 @@ Generally, various learning resources, e.g. wikis, blogs, tests, videos or gloss
     Guest access can only be activated for conventional courses, not for learning path courses.
 
 In a course, the course owner can set up the access configuration in the
-"Settings"→ "Access" tab so that guests can also access the course. The booking method must be activated as a setting and guest access must be selected in a second step.
+"Settings"→ "Access" tab so that guests can also access the course. The offer style must be activated as a setting and guest access must be selected in a second step.
 
 ![guest access](assets/Gastzugang_en.png)
 

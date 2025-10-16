@@ -1,7 +1,7 @@
-# Katalog 2.0 - Angebote
+# Katalog 2.0 - Angebote {: #offers}
 
 
-## Was enthält der OpenOlat-Katalog?
+## Was enthält der OpenOlat-Katalog? {: #offers_catalog_content}
 
 Wie in anderen Katalogen, werden auch im OpenOlat-Katalog in vielen kleinen Einträgen Kurzbeschreibungen zu "Produkten" angezeigt. In OpenOlat sind dies
 
@@ -10,15 +10,19 @@ Wie in anderen Katalogen, werden auch im OpenOlat-Katalog in vielen kleinen Eint
 - oder andere Lernressourcen, wie z.B. Tests oder Videos.
 
 
-## Erscheinen alle Kurse im Katalog?
+## Erscheinen alle Kurse im Katalog? {: #offers_display_decision}
 
 Im Katalog werden **nicht automatisch** alle erstellten Kurse und Lernressourcen angezeigt. Die Autor:innen der jeweiligen Kurse und Lernressourcen entscheiden, ob etwas in den Katalog aufgenommen wird.
 
 Dazu muss im jeweiligen Kurs bzw. der Lernressource ein **Angebot** erstellt werden.<br>
 Wenn kein Angebot erstellt wird, erfolgt auch kein Katalogeintrag.
 
+[Zum Seitenanfang ^](#offers)
 
-## Wie wird ein Angebot erstellt?
+---
+
+
+## Wie wird ein Angebot erstellt? {: #offers_create}
 
 Angebote hängen am Kurs und werden dort von Autor:innen in den Einstellungen definiert:<br>
 **Administration > Einstellungen > Tab "Freigabe"**
@@ -31,8 +35,12 @@ Angebote hängen am Kurs und werden dort von Autor:innen in den Einstellungen de
 
 ![catalog20_angebot_erstellen_v1_de.png](assets/catalog20_angebot_erstellen_v1_de.png){ class="shadow lightbox" }
 
+[Zum Seitenanfang ^](#offers)
 
-## Voraussetzung für ein Angebot
+---
+
+
+## Voraussetzung für ein Angebot {: #offers_requirements}
 
 Auch der Zugang zu einem Kurs wird in der **Administration** unter den **Einstellungen** im **Tab Freigabe** konfiguriert. Es stehen zwei grundsätzliche Varianten zur Verfügung:
 
@@ -44,12 +52,16 @@ Bei Wahl der Option "Buchbare und offene Angebote" können die Lernenden einen K
 
 Wird die zweite Option "Buchbare und offene Angebote" gewählt, können Sie anschliessend Angebote erstellen.
 
+[Zum Seitenanfang ^](#offers)
 
-## Was enthält ein Angebot?
+---
+
+
+## Was enthält ein Angebot? {: #offer_content}
 
 Ein Angebot enthält die Bedingungen, zu denen der Kurs oder die Lernressource genutzt werden kann.
 
-In einem **Angebot** wird definiert, wer sich unter welchen Umständen in die gewählte Lernressource bzw. den Kurs eintragen bzw. diese buchen kann. So ist eine Buchung mit Zugangscode, ohne oder per PayPal (sofern vom Admin aktiviert) möglich. Auch ein Zugang ohne Buchung oder als Gast können konfiguriert werden. Buchen kann dabei als Synonym für belegen, einschreiben, einkaufen verstanden werden. Wählen Sie die Schaltfläche "Angebot hinzufügen", um Buchungsmethoden (Angebote) hinzuzufügen.
+In einem **Angebot** wird definiert, wer sich unter welchen Umständen in die gewählte Lernressource bzw. den Kurs eintragen bzw. diese buchen kann. So ist ein Buchungsauftrag mit Zugangscode, ohne oder per PayPal (sofern vom Admin aktiviert) möglich. Auch ein Zugang ohne Buchungsauftrag oder als Gast können konfiguriert werden. Buchen kann dabei als Synonym für belegen, einschreiben, einkaufen verstanden werden. Wählen Sie die Schaltfläche "Angebot hinzufügen", um Angebote hinzuzufügen.
 
 ![catalog20_auswahl_art_v1_de.png](assets/catalog20_auswahl_art_v1_de.png){ class="shadow lightbox" }
 
@@ -59,7 +71,12 @@ Angebote können auch auf verschiedene Teilbereiche von Organisationen (Unterorg
 
 ![catalog20_2angebote_v1_de.png](assets/catalog20_2angebote_v1_de.png){ class="shadow lightbox" }
 
-## Angebote veröffentlichen
+[Zum Seitenanfang ^](#offers)
+
+---
+
+
+## Angebote veröffentlichen {: #offer_publish}
 
 Editieren Sie ein Angebot um festzulegen, wann und wo es im Katalog erscheinen wird.
 
@@ -75,8 +92,12 @@ Ausserdem muss je nach Angebotstyp z.B. der **Zugangscode** definiert werden.
 
 ![catalog20_offer_activate_v1_de.png](assets/catalog20_offer_activate_v1_de.png){ class="shadow lightbox" }
 
+[Zum Seitenanfang ^](#offers)
 
-## Infoseite
+---
+
+
+## Infoseite {: #offer_info}
 
 Wer im Katalog auf eine Kachel klickt, bekommt eine nährere Beschreibung zum angebotenen Kurs bzw. der Lernressource, ohne dass der Kurs bereits gestartet wird. Auch wenn für den Kursstart evtl. eine Zugangsberechtigung eingerichtet wurde, ist diese Infoseite im Katalog einsehbar. Sie enthält Angaben, die die Autorin / der Autor unter den Metadaten gemacht haben:
 **Administration > Einstellungen > Tab "Info"**
@@ -85,7 +106,12 @@ Wer im Katalog auf eine Kachel klickt, bekommt eine nährere Beschreibung zum an
 
 ![catalog20_infoseite_v1_de.png](assets/catalog20_infoseite_v1_de.png){ class="shadow lightbox" }
 
-## Metadaten, Fachbereich
+[Zum Seitenanfang ^](#offers)
+
+---
+
+
+## Metadaten, Fachbereich {: #offer_metadata}
 
 Es ist von grosser Bedeutung, welchem Fachbereich Autor:innen einen Kurs bzw. eine Lernressource zuordnen. Denn hinter dem Fachbereich steht die Taxonomie, nach der in den Taxonomie-Launchern des Katalogs Kurse zusammengestellt werden. Sie wählen den Fachbereich unter **Administration > Einstellungen > Tab "Metadaten"** 
 
@@ -113,3 +139,5 @@ Nach Klick auf die Kachel des Taxonomie-Launchers öffnet sich die sogenannte Mi
 !!! tipp "Katalog 1.0"
 
     Informationen zum Erstellen von Angeboten im Katalog 1.0 finden Sie [hier](catalog1.0.de.md). 
+
+[Zum Seitenanfang ^](#offers)

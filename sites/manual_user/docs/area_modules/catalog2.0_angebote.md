@@ -1,7 +1,7 @@
-# Catalog 2.0 -  Offers
+# Catalog 2.0 -  Offers {: #offers}
 
 
-## What does the OpenOlat catalog contain?
+## What does the OpenOlat catalog contain? {: #offers_catalog_content}
 
 As in other catalogs, the OpenOlat catalog also displays short descriptions of "products" in many small entries. In OpenOlat these are
 
@@ -10,15 +10,19 @@ As in other catalogs, the OpenOlat catalog also displays short descriptions of "
 - or other learning resources, e.g. tests or videos.
 
 
-## Do all courses appear in the catalog?
+## Do all courses appear in the catalog? {: #offers_display_decision}
 
 All created courses and learning resources are **not automatically** displayed in the catalog.The authors of the respective courses and learning resources decide whether something is included in the catalog.
 
 To do this, an **offer** must be created in the respective course or learning resource.<br>
 If no offer is created, no catalog entry is made.
 
+[To the top of the page ^](#offers)
 
-## How is an offer created?
+---
+
+
+## How is an offer created? {: #offers_create}
 
 Offers are attached to the course and are defined there by authors in the settings:<br>
 **Administration > Settings > Tab "Shared"**
@@ -31,7 +35,12 @@ Offers are attached to the course and are defined there by authors in the settin
 
 ![catalog20_angebot_erstellen_v1_de.png](assets/catalog20_angebot_erstellen_v1_de.png){ class="shadow lightbox" }
 
-## Requirements for an offer
+[To the top of the page ^](#offers)
+
+---
+
+
+## Requirements for an offer {: #offers_requirements}
 
 Access to a course is also configured in the **Administration** under **Settings** in the **Share** tab. There are two basic variants available:
 
@@ -43,12 +52,16 @@ If the option "Bookable and open offers" is selected, learners can book a course
 
 If the second option "Bookable and open offers" is selected, you can then create offers.
 
+[To the top of the page ^](#offers)
 
-## What does an offer contain?
+---
+
+
+## What does an offer contain? {: #offer_content}
 
 An offer contains the conditions under which the course or learning resource can be used.
 
-An **offer** defines who can register for or book the selected learning resource or course and under what circumstances. It is possible to book with an access code, without or via PayPal (if activated by the admin). Access without booking or as a guest can also be configured. Booking can be understood as a synonym for booking, registering, purchasing. Select the "Add offer" button to add booking methods (offers).
+An **offer** defines who can register for or book the selected learning resource or course and under what circumstances. A booking order is possible with an access code, without or via PayPal (if activated by the admin). Access without booking order or as a guest can also be configured. Booking can be understood as a synonym for booking, registering, purchasing. Select the "Add offer" button to add offers.
 
 ![catalog20_auswahl_art_v1_de.png](assets/catalog20_auswahl_art_v1_de.png){ class="shadow lightbox" }
 
@@ -58,7 +71,12 @@ Offers can also be limited to different parts of organizations (sub-organization
 
 ![catalog20_2angebote_v1_de.png](assets/catalog20_2angebote_v1_de.png){ class="shadow lightbox" }
 
-## Publish offers
+[To the top of the page ^](#offers)
+
+---
+
+
+## Publish offers {: #offer_publish}
 
 Edit an offer to determine when and where it will appear in the catalog.
 
@@ -74,8 +92,12 @@ In addition, the **access code**, for example, must be defined depending on the 
 
 ![catalog20_offer_activate_v1_de.png](assets/catalog20_offer_activate_v1_de.png){ class="shadow lightbox" }
 
+[To the top of the page ^](#offers)
 
-## Info page
+---
+
+
+## Info page {: #offer_info}
 
 If you click on a tile in the catalog, you will receive a more detailed description of the course or learning resource offered without the course being started. Even if an access authorization may have been set up for the course start, this information page can be viewed in the catalog. It contains information that the author has entered in the metadata:
 **Administration > Settings > Tab "Info"**
@@ -84,7 +106,12 @@ If you click on a tile in the catalog, you will receive a more detailed descript
 
 ![catalog20_infoseite_v1_de.png](assets/catalog20_infoseite_v1_de.png){ class="shadow lightbox" }
 
-## Metadata, Subjects
+[To the top of the page ^](#offers)
+
+---
+
+
+## Metadata, Subjects {: #offer_metadata}
 
 It is of great importance to which specialist area authors assign a course or learning resource. This is because behind the subject area is the taxonomy according to which courses are compiled in the catalog's taxonomy launchers. You can select the specialist area under **Administration > Settings > Tab "Metadata"** 
 
@@ -111,3 +138,6 @@ Click on the taxonomy launcher tile to open the microsite with a list of all cou
 !!! tip "Catalog 1.0"
 
     Information on creating offers in catalog 1.0 can be found [here](catalog1.0.md).
+
+
+[To the top of the page ^](#offers)
