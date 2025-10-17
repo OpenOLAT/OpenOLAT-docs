@@ -7,7 +7,7 @@
 
 ![coaching_events_absences_events_coach-master_v1_de.png](assets/coaching_events_absences_events_coach-master_v1_de.png){ class="shadow lightbox" }
 
-Auf oberster Ebene können Sie die Ansicht Ihrer Termine und Absenzen fokussieren auf Ihre Rolle als Betreuer:in oder ggf. als Klassenlehrer:in zu fokussieren.
+Auf oberster Ebene können Sie die Ansicht Ihrer Termine und Absenzen fokussieren auf Ihre Rolle als Betreuer:in oder ggf. als Klassenlehrer:in.
 
 Im [Course Planner](../../manual_user/area_modules/Course_Planner.de.md) besteht die Möglichkeit, einer Person die Rolle der Klassenlehrerin bzw. des Klassenlehrers zuzuweisen. 
 (Voraussetzung: Das Modul Course Planner wurde von einem/einer Administrator:in aktiviert.)
