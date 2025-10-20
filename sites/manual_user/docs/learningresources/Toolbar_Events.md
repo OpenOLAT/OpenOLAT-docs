@@ -58,7 +58,7 @@ Once you have finished recording absences, proceed as follows:
 
 ### Cancel events {: #cancel_events}
 
-As a caregiver, you can cancel a current event by
+As a coach, you can cancel a current event by
 
 1. Click on the "Events" icon in the toolbar.
 2. Select the tab "Events"

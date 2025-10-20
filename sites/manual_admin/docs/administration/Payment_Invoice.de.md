@@ -5,7 +5,7 @@ Verfügbar ab :octicons-tag-24: Release 20
 Sind in OpenOlat Buchungsaufträge vorhandenen, können dort Excel-Dateien exportiert werden.
 Die Strategie ist hier, dass über diese Excel-Reports die relevanten Daten an andere, auf Rechnungsstellung spezialisierte Programme, übergeben werden und dort weiter verarbeitet werden können.
 
-OpenOlat selbst, kann aktuell keine Rechnungen generieren. Entsprechend können auch keine Mahnungen usw. in OpenOlat direkt erstellt und verwaltet werden.
+OpenOlat selbst kann aktuell keine Rechnungen generieren. Entsprechend können auch keine Mahnungen usw. in OpenOlat direkt erstellt und verwaltet werden.
 
 ---
 
