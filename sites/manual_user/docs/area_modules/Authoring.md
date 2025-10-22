@@ -1,4 +1,4 @@
-# Authoring - Overview
+# Authoring - Overview {: #authoring}
 
 :octicons-device-camera-video-24: **Video introduction (German)**: [Voraussetzungen für Autoren](<https://www.youtube.com/embed/L0jc_LBKXLE>){:target="_blank”}
 
@@ -60,3 +60,17 @@ You can download the entire table in the currently displayed state.
 By clicking on a column title, all entries in the table will be sorted alphabetically, by date, etc.
 
 **Example**: Click on column title "Title of learning resource" to sort the table alphabetically by title. Click again and it will appear in reverse alphabetical order.
+
+[To the top of the page ^](#authoring)
+
+---
+
+
+## Further information {: #further information}
+
+[Create a course (overview) >](../../manual_user/learningresources/Creating_Course.md)<br>
+[How to create my first course (detailed instructions) >](../../manual_how-to/my_first_course/my_first_course.md)<br>
+[Course editor >](../../manual_user/learningresources/General_Configuration_of_Course_Elements.md)<br>
+[Course design >](../../manual_user/learningresources/Learning_path_course.md)<br>
+
+[To the top of the page ^](#authoring)

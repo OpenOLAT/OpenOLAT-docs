@@ -1,4 +1,4 @@
-#  Authoring - Bulk Actions
+#  Authoring - Bulk Actions {: #authoring_bulk_actions}
 
 As soon as a learning resource has been selected in the first column of the table, additional buttons (1-6) appear above the table. They can be used to carry out actions for the selected resources, i.e. for several learning resources together (Bulk Actions).<br>
 For these buttons to be visible, at least one learning resource must be selected.
@@ -114,3 +114,18 @@ If the table row is a conventional course, the option "Convert to learning path 
 ### 15. Copy with Wizard
 
 If the table row is a learning path course, the option "Copy with wizard" is also displayed.
+
+
+[To the top of the page ^](#authoring_bulk_actions)
+
+---
+
+
+## Further information {: #further information}
+
+[Create a course (overview) >](../../manual_user/learningresources/Creating_Course.md)<br>
+[How to create my first course (detailed instructions) >](../../manual_how-to/my_first_course/my_first_course.md)<br>
+[Course editor >](../../manual_user/learningresources/General_Configuration_of_Course_Elements.md)<br>
+[Course design >](../../manual_user/learningresources/Learning_path_course.md)<br>
+
+[To the top of the page ^](#authoring_bulk_actions)

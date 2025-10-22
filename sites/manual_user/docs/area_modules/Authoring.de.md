@@ -1,4 +1,4 @@
-# Autorenbereich - Übersicht
+# Autorenbereich - Übersicht {: #authoring}
 
 :octicons-device-camera-video-24: **Video-Einführung**: [Voraussetzungen für Autoren](<https://www.youtube.com/embed/L0jc_LBKXLE>){:target="_blank”}
 
@@ -63,3 +63,16 @@ Durch Klick auf einen Spaltentitel werden alle Einträge der Tabelle alphabetisc
 
 **Beispiel**: Klick auf Spaltentitel "Titel der Lernressource" sortiert die Tabelle alphabetisch nach dem Titel. Bei nochmaligem Klick umgekehrt alphabetisch.
 
+[Zum Seitenanfang ^](#authoring)
+
+---
+
+
+## Weitere Informationen {: #further information}
+
+[Kurs erstellen (Übersicht) >](../../manual_user/learningresources/Creating_Course.de.md)<br>
+[Wie erstelle ich meinen ersten OpenOlat-Kurs? (Ausführliche Anleitung) >](../../manual_how-to/my_first_course/my_first_course.de.md)<br>
+[Kurseditor >](../../manual_user/learningresources/General_Configuration_of_Course_Elements.de.md)<br>
+[Kursdesign >](../../manual_user/learningresources/Learning_path_course.de.md)<br>
+
+[Zum Seitenanfang ^](#authoring)

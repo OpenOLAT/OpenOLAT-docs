@@ -1,4 +1,4 @@
-#  Autorenbereich - Sammelaktionen
+#  Autorenbereich - Sammelaktionen {: #authoring_bulk_actions}
 
 Sobald in der 1. Spalte der Tabelle eine Lernressource ausgewählt wurde, erscheinen über der Tabelle zusätzliche Buttons (1-6). Mit ihnen lassen sich Aktionen für die ausgewählten Ressourcen durchführen, also für mehrere Lernressourcen gemeinsam (Bulk Actions).<br>
 Diese Buttons sind nicht sichtbar, wenn nicht mindestens eine Lernressource selektiert ist.
@@ -113,3 +113,17 @@ Handelt es sich in der Tabellenzeile um einen herkömmlichen Kurs, wird zusätzl
 ### 15. Kopieren mit Wizard 
 
 Handelt es sich in der Tabellenzeile um einen Lernpfad-Kurs, wird zusätzlich die Option "Kopieren mit Wizard" angezeigt.
+
+[Zum Seitenanfang ^](#authoring_bulk_actions)
+
+---
+
+
+## Weitere Informationen {: #further information}
+
+[Kurs erstellen (Übersicht) >](../../manual_user/learningresources/Creating_Course.de.md)<br>
+[Wie erstelle ich meinen ersten OpenOlat-Kurs? (Ausführliche Anleitung) >](../../manual_how-to/my_first_course/my_first_course.de.md)<br>
+[Kurseditor >](../../manual_user/learningresources/General_Configuration_of_Course_Elements.de.md)<br>
+[Kursdesign >](../../manual_user/learningresources/Learning_path_course.de.md)<br>
+
+[Zum Seitenanfang ^](#authoring_bulk_actions)
