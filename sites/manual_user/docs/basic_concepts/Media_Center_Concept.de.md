@@ -1,7 +1,7 @@
 # Konzept des Media Centers {: #media_center_concept}
 
 
-Das Media Center ist eine **zentrale Sammelstelle** für unterschiedlicher Medientypen. 
+Das Media Center ist eine **zentrale Sammelstelle** für unterschiedliche Medientypen. 
 
 Medien können...
 
@@ -30,7 +30,7 @@ Das Media Center ist zunächst ein individueller, persönlicher Bereich und desh
 
 ![media_center_pers_menu2_v1_de.png](assets/media_center_pers_menu2_v1_de.png){ class=" shadow lightbox" }
 
-Auch wenn es sich um persönliche Medien handelt können diese mit anderen Personen geteilt und in verschiedenen OpenOlat Kontexten verwendet werden. 
+Auch wenn es sich um persönliche Medien handelt, können diese mit anderen Personen geteilt und in verschiedenen OpenOlat Kontexten verwendet werden. 
 
 [Zum Seitenanfang ^](#media_center_concept)
 

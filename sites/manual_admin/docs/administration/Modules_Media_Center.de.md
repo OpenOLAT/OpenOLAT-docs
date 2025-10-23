@@ -6,6 +6,8 @@ Die Konfiguration des Media Centers kann von Administrator:innen vorgenommen wer
 
 ![modules_media_center_admin_v2_de.png](assets/modules_media_center_admin_v2_de.png){ class="shadow lightbox" }
 
+[Zum Seitenanfang ^](#module_media_center)
+
 ---
 
 
@@ -35,6 +37,10 @@ Werden Inhalte im Media Center abgelegt, können sie zur Verwendung durch andere
 
 Ansicht der Autor:innen:<br>
 ![modules_media_center_share_v2_de.png](assets/modules_media_center_share_v2_de.png){ class="shadow lightbox" }
+
+Administrative Benutzer:innen wie Lernressourcenverwalter:innen und Administrator:innen haben aufgrund ihrer höher berechtigten Rollen indirekt Zugriff auf Medienelemente ihrer Organisation, die im Kontext "Kurs" geteilt sind. Zur besseren Abgrenzung ist für diese Benutzer:innen neben dem Bereich "Mein Media Center" auch eine "Medienverwaltung" verfügbar.
+
+![modules_media_center_media_mgmt_v1_de.png](assets/modules_media_center_media_mgmt_v1_de.png){ class="shadow lightbox" }
 
 [Zum Seitenanfang ^](#module_media_center)
   
