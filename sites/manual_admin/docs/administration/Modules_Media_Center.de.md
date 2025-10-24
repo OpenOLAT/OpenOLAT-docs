@@ -13,8 +13,9 @@ Die Konfiguration des Media Centers kann von Administrator:innen vorgenommen wer
 
 ## Lizenzen {: #licences}
 
-Es kann eine Lizenzüberprüfung bei neuen Medien erzwungen werden.
+Falls unter **Core Konfiguration > Lizenzen** die Verwendung von Lizenzen für das Media Center vorgesehen ist, kann anschliessend durch diese Checkbox die Lizenzangabe zum Pflichtfeld für alle ins Media Center hochgeladenen oder erstellten Medien gemacht werden.  
 
+[Mehr zur Verwendung von Lizenzen >](Licenses.de.md)<br>
 [Zum Seitenanfang ^](#module_media_center)
   
 ---
@@ -38,10 +39,21 @@ Werden Inhalte im Media Center abgelegt, können sie zur Verwendung durch andere
 Ansicht der Autor:innen:<br>
 ![modules_media_center_share_v2_de.png](assets/modules_media_center_share_v2_de.png){ class="shadow lightbox" }
 
-Administrative Benutzer:innen wie Lernressourcenverwalter:innen und Administrator:innen haben aufgrund ihrer höher berechtigten Rollen indirekt Zugriff auf Medienelemente ihrer Organisation, die im Kontext "Kurs" geteilt sind. Zur besseren Abgrenzung ist für diese Benutzer:innen neben dem Bereich "Mein Media Center" auch eine "Medienverwaltung" verfügbar.
+Administrative Benutzer:innen, wie Lernressourcenverwalter:innen und Administrator:innen, haben aufgrund ihrer höher berechtigten Rollen **indirekt** Zugriff auf Medien. Sie haben **administrativen Zugriff** auf alle Medien, die in ihrer Organisation, den Gruppen, den Kursen und mit den Benutzer:innen geteilt werden.
+
+Zur besseren Abgrenzung des administrativen Zugriffs ist neben dem Bereich "Mein Media Center" zusätzlich noch die "Medienverwaltung" verfügbar.
+(Benutzer:innen ohne administrativen Zugriff finden dieses Tab nicht vor.)
 
 ![modules_media_center_media_mgmt_v1_de.png](assets/modules_media_center_media_mgmt_v1_de.png){ class="shadow lightbox" }
 
 [Zum Seitenanfang ^](#module_media_center)
   
 ---
+
+
+## Weitere Information {: #further_information}
+
+[Media Center Konzept >](../../manual_user/basic_concepts/Media_Center_Concept.de.md)<br>
+[Media Center im persönlichen Menü >](../../manual_user/personal_menu/Media_Center.de.md)<br>
+
+[Zum Seitenanfang ^](#module_media_center)
