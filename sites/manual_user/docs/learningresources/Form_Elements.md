@@ -182,6 +182,9 @@ In the inspector you will find the options for displaying the image:
 * A **description** of the image, which can be called up by clicking on a small question mark symbol
 * A **caption** (displayed in a smaller font size below the image)
 
+**Tab "Layout"**
+* Option to configure the spacing of the image
+
 [To the top of the page ^](#form_elements)
 
 ---

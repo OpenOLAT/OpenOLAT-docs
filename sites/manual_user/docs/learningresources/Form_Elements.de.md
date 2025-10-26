@@ -6,7 +6,7 @@ In ein Formular können Sie über den Link "Inhalt hinzufügen" die folgenden In
 
 Generell können alle Elemente aus dem Bereich "Fragetypen" als obligatorisch oder freiwillig konfiguriert werden. Obligatorisch bedeutet, dass die Teilnehmenden dieses Element zwingend ausfüllen müssen um das Formular final speichern zu können. Bei "freiwillig" kann das Formular auch gespeichert werden, wenn das Element nicht ausgefüllt wurde. 
 
-Ferner können viele Elemente mit einer speziellen *Hinweisbox* versehen werden (siehe unten) und auch die Grösse des Abstandes zwischen einzelnen Elementen im Tab "Layout" definiert werden. 
+Ferner können viele Elemente im Tab "Style" mit einer speziellen *Hinweisbox* versehen werden (siehe unten) und auch die Grösse des Abstandes zwischen einzelnen Elementen im Tab "Layout" definiert werden. 
 
 ---
 
@@ -181,6 +181,9 @@ Im Inspektor finden Sie die Optionen zur Darstellung des Bildes:
 
 * Eine **Beschreibung** zum Bild, die durch Klick auf ein kleines Fragezeichensymbol abgerufen werden kann
 * Eine **Bildunterschrift** (in kleinerer Schriftgrösse unterhalb des Bildes dargestellt)
+
+**Tab "Layout"**
+* Möglichkeit den Abstand des Bildes zu konfigurieren
 
 
 [zum Seitenanfang ^](#form_elements)

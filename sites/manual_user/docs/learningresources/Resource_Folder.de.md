@@ -16,7 +16,7 @@ Bei der Einbindung gibt es zwei Varianten: schreibgeschützt oder ohne Schreibsc
 
 **Schreibgeschützt**: Die Dateien werden nur referenziert. Im Kurs können sie weder verändert noch gelöscht oder ergänzt werden. Damit ist sichergestellt, dass alle Kurse stets dieselben aktuellen Dateien nutzen.
 
-**Ohne Schreibschutz**: Kursbesitzerinnen können Dateien ändern, löschen oder neue hinzufügen. Diese Anpassungen werden direkt im Ressourcenordner übernommen und wirken sich damit auf alle verknüpften Kurse aus – auch wenn die betreffenden Personen keine Besitzerinnen des Ressourcenordners sind.
+**Ohne Schreibschutz**: Kursbesitzer:innen können Dateien ändern, löschen oder neue hinzufügen. Diese Anpassungen werden direkt im Ressourcenordner übernommen und wirken sich damit auf alle verknüpften Kurse aus – auch wenn die betreffenden Personen keine Besitzer:innen des Ressourcenordners sind.
 
 Überlegen Sie daher sorgfältig, ob der Schreibschutz aufgehoben werden soll.
 
@@ -30,9 +30,9 @@ Wurde ein Ressourcenordner mit dem Kurs verbunden erscheint er in der Kurs-Admin
 In der Standard Einstellung sind die Dateien des Ressourcenordners schreibgeschützt und können nicht verändert werden. 
 
 ### Zugriff auf die Dateien
-Die Dateien des Ressourcenordners können genau wie alle anderen Dateien des Ablageordner eines Kurses verwendet und auch mit unterschiedlichen Kursbausteien verknüpft werden. 
+Die Dateien des Ressourcenordners können genau wie alle anderen Dateien des Ablageordner eines Kurses verwendet und auch mit unterschiedlichen Kursbausteinen verknüpft werden. 
 
-So könnten zentrale Dateien z.B. für die einheitliche Kurslayouts verwendet, oder Dokumente über den Kursbaustein Dokument bereitgestellt oder Bilder im Kursbaustein "HTML Seite" integriert werden usw. Immer dann, wenn innerhal bdes Kurses Zugriff auf den Ablageordner besteht können auch die Dokumente des verknüpften Ressourcenordners über "_sharedfolder" verwendet werden. 
+So könnten zentrale Dateien z.B. für die einheitliche Kurslayouts verwendet, oder Dokumente über den Kursbaustein Dokument bereitgestellt oder Bilder im Kursbaustein "HTML-Seite" integriert werden usw. Immer dann, wenn innerhalb des Kurses Zugriff auf den Ablageordner besteht können auch die Dokumente des verknüpften Ressourcenordners über "_sharedfolder" verwendet werden. 
 
 
 ## Kursunabhängige Nutzung
@@ -40,7 +40,9 @@ Um den Ressourcenordner stand-alone zu verwenden muss im Ressourcenordner unter 
 
 Genauere Informationen finden Sie unter ["Zugangskonfiguration/Freigabe"](../learningresources/Access_configuration.de.md)
 
-Eine weitere Möglichkeit der unabhängigen Nutzung besteht über WebDAV. In der WebDAV-Ansicht werden neben Kursen und Gruppen auch die Sharedfolders, bei denen man Besitzer*in ist, angezeigt.
+!!! note "Hinweis"
+
+    Eine weitere Möglichkeit der unabhängigen Nutzung besteht über [WebDAV](../basic_concepts/Using_WebDAV.de.md). In der WebDAV-Ansicht werden neben Kursen und Gruppen auch die Sharedfolders, bei denen man Besitzer:in ist, angezeigt.
 
 ## Links
 
@@ -56,7 +58,4 @@ Ablageordner:<br>
 [Benutzerhandbuch > Lernressourcen > Kurs > Administration > Ablageordner](../learningresources/Storage_folder.de.md)
 
 
-!!! note "Hinweis"
-      
-    Auf den Ressourcenordner kann auch via WebDAV zugegriffen werden.
 

@@ -66,7 +66,7 @@ In the "Column label" area, enter a meaningful _rating scale_ for each column, e
 Enter individual (assessment) criteria, statements or questions in the rows. Additional lines are added via "Add question". You can also format the short statements. Individual lines can be moved using the up/down double arrows. In addition, you can assign a weighting to each line and thus assign special importance to individual criteria, which is also reflected in the points awarded, e.g. by double or triple points. 
 It is also possible to set the value to 0 to exclude individual questions from the reports.
 
-An edited rubric can therefore automatically receive a corresponding number of points, which is particularly relevant when used in the course element "[Assessment](../learningresources/Course_Element_Assessment.md)".
+An edited rubric can therefore automatically receive a corresponding number of points, which is particularly relevant when used in the course element "[Assessment](../learningresources/Course_Element_Assessment.md)" or for peer review assessments in the course element [”Task"](../learningresources/Course_Element_Task.md). 
 
 The cross double arrow can be used to create a section with two ends.
 

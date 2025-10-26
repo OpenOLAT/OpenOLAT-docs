@@ -1,11 +1,12 @@
 # Video: Übersicht
 
-Das Kapitel "Video" erklärt Kursautor:innen, wie man in OpenOlat
+Das Kapitel „Video“ zeigt Kursautor:innen, wie sie in OpenOlat
 
-* Videos selbst aufnimmt, importiert oder als Link einfügt,
-* Videos als Lernressource erstellt,
-* Videos in einen Kurs einbindet und konfiguriert.
-* Ausserdem ist es wichtig zu wissen, wo und wie die Videos gespeichert werden.
+* eigene Videos aufnehmen, importieren oder per Link einfügen,
+* Videos als Lernressourcen anlegen,
+* diese in ihren Kurs einbinden und passend konfigurieren können.
+
+Zudem wird erläutert, wo und wie die Videos gespeichert werden.
 
 ### Kontext 1: Direkt eingebundene Videos
 Videos können als mp4-Dateien oder Links **direkt eingebunden** werden. Z.B. im [Kursbaustein "HTML-Seite"](Video_in_HTML_Pages.de.md) oder im Feedback zu einer Frage.
@@ -34,19 +35,22 @@ Die Video-Lernressourcen können **in Kursbausteine eingebunden** werden und dor
 
 ### Links
 
-* [Lernressource Video](Learning_resource_Video.de.md)
-* [Video im Kursbaustein HTML-Seite](Video_in_HTML_Pages.de.md)
+* [Lernressource Video](Learning_resource_Video.de.md) und [Video Collection](Learning_resource_Video.de.md#menu-video-collection)
+* Videos im [Media Center](../personal_menu/Media_Center.de.md)
+
+Videos in Kursen, in diversen Kursbausteinen 
+* [im Kursbaustein "Video"](Course_Element_Video.de.md)
+* [im Kursbaustein "Videoaufgabe"](../learningresources/Course_Element_Video_Task.de.md)
+* [im Kursbaustein HTML-Seite](Video_in_HTML_Pages.de.md)
+* [im Kursbaustein "Seite"](Course_Element_Page.de.md)
+* [im Kursbaustein "Video Livestream"](Course_Element_Video_Livestream.de.md)
+* [im Kursbaustein "Podcast"](Course_Element_Podcast.de.md)
+* [im Kursbaustein "Mediasite"](Course_Element_Mediasite.de.md)
+
+Grundsätzliches
 * [Video hochladen](Video_Upload.de.md)
 * [Video aufnehmen](Video_Recording.de.md)
-* [Kursbaustein "Video"](Course_Element_Video.de.md)
-* [Kursbaustein "Videoaufgabe"](Course_Element_Video_Task.de.md)
-* [Kursbaustein "Seite"](Course_Element_Page.de.md)
-* [Kursbaustein "HTML-Seite"](Course_Element_HTML_Page.de.md)
-* [Kursbaustein "Video Livestream"](Course_Element_Video_Livestream.de.md)
-* [Kursbaustein "Podcast"](Course_Element_Podcast.de.md)
-* [Kursbaustein "Mediasite"](Course_Element_Mediasite.de.md)
-* [Video Collection](Learning_resource_Video.de.md#menu-video-collection)
-* [Media Center](../personal_menu/Media_Center.de.md)
+
 
 
 !!! info "Info"

@@ -32,7 +32,7 @@ Wenn Sie zuerst einen Kursbaustein im Kurseditor einfügen, können Sie in den "
 
 ![form_open_editor3_v1_de.png](assets/form_open_editor3_v1_de.png){ class="shadow lightbox" }
 
-Auf die gleiche Art und Weise ist der Formular-Editor auch von anderen Kursbausteinen aus aufrufbar (z.B. Kursbaustein Umfrage). 
+Auf die gleiche Art und Weise ist der Formular-Editor auch von anderen Kursbausteinen aus aufrufbar (z.B. [Kursbaustein Umfrage](../learningresources/Form_Editor.de.md)). 
 
 !!! hint "Tipp"
 

@@ -32,7 +32,7 @@ If you first insert a course element in the course editor, you can then insert a
 
 ![form_open_editor3_v1_de.png](assets/form_open_editor3_v1_de.png){ class="shadow lightbox" }
 
-The form editor can also be called up from other course elements in the same way (e.g. course element Survey).
+The form editor can also be called up from other course elements in the same way (e.g. [course element Survey](../learningresources/Form_Editor.md)).
 
 !!! hint "Hint"
 

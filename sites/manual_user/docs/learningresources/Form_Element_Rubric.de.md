@@ -63,7 +63,7 @@ Geben Sie im Bereich "Spaltenbeschriftung" für jede Spalte eine sinnvolle _Bewe
 Geben Sie im Bereich der Zeilen einzelne (Bewertungs-)Kriterien, Statements oder Fragestellungen ein. Weitere Zeilen werden über "Frage hinzufügen" ergänzt. Sie können die kurzen Statements auch formatieren. Einzelne Zeilen können mit Hilfe der oben/unten Doppelpfeile verschoben werden. Zusätzlich können Sie jede Zeile mit einer Gewichtung  versehen und so einzelne Kriterien besondere Bedeutung zuweisen, was sich auch bei der Punktevergabe widerspiegelt, z.B. durch doppelte oder dreifache Punkte. 
 Ferner ist es möglich den Wert auf 0 zu setzen um einzelne Fragen aus den Reports auszuschliessen. 
  
-Ein bearbeitetes Rubrik kann, eingebunden in einen Kurs, automatisch eine entsprechende Punktzahl erhalten, was besonders bei der Verwendung im Kursbaustein "[Bewertung](../learningresources/Course_Element_Assessment.de.md)" relevant ist. 
+Ein bearbeitetes Rubrik kann, eingebunden in einen Kurs, automatisch eine entsprechende Punktzahl erhalten, was besonders bei der Verwendung in den Kursbausteinen "[Bewertung](../learningresources/Course_Element_Assessment.de.md)" oder für Peer-Review Bewertungen im Kursbaustein ["Aufgabe"](../learningresources/Course_Element_Task.de.md) relevant ist. 
  
 Über den Quer-Doppelpfeil kann ein Rubrik mit zwei Enden erstellt werden. 
 
@@ -72,7 +72,7 @@ Ein bearbeitetes Rubrik kann, eingebunden in einen Kurs, automatisch eine entspr
 
 !!! info "Hinweis"
 
-    Wird ein Rubrik in einem Kursbaustein Bewertung eingebunden kann die Gewichtung nicht mehr geändert werden.
+    Wird ein Rubrik in einem Kursbaustein  eingebunden kann die Gewichtung nicht mehr geändert werden.
 
 ### Einstellungen im Rubrik Inspektor
 
