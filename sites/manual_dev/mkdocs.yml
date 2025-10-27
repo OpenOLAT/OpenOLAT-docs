@@ -8,6 +8,9 @@ nav:
     - Development Environment:
       - Overview: dev/development_environment.md
       - IntelliJ: dev/intellij.md
+    - System Architecture:
+      - Flow diagrams: 
+        - Catalog: dev/flow_diagrams_catalog.md  
   - UX Guidelines:
     - ux/index.md
     - Design Pattern:
