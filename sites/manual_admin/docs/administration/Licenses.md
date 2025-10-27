@@ -12,6 +12,7 @@ Licenses can be used in the following OpenOlat sections:
   * Folder
   * Question bank
   * Learning resource
+  * Media Center
 
 In the administration the licenses can be activated and deactivated for these
 sections.

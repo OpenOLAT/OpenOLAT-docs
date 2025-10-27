@@ -12,6 +12,7 @@ Die Verwendung von Lizenzen ist für folgende Bereiche in OpenOlat möglich:
   * Ordner
   * Fragenpool
   * Lernressourcen
+  * Media Center
 
 In der Administration können die Lizenzen für diese Bereiche aktiviert bzw.
 deaktiviert werden.

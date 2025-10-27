@@ -9,7 +9,7 @@ All OpenOlat users can find their personal Media Centre under Personal Tools. He
 The media can be normal files, for example, but also OpenOlat-specific elements such as forum entries, blog posts or performance records.
 Furthermore, various filter options are available to display only certain files. 
 
-![media_center_v1_de.png](assets/media_center_v1_de.png){ class=" shadow lightbox" }
+![pers_menu_media_center_example_v1_de.png](assets/pers_menu_media_center_example_v1_de.png){ class=" shadow lightbox" }
 
 ‘My Media Centre’ initially reflects a person's individual files. This is why the Media Centre can also be found under personal tools. Regardless of this, the media in the Media Centre can also be accessed at certain points in OpenOlat, e.g. in courses or in the portfolio. A corresponding menu appears there, which can be used to select existing elements from your own Media Centre or to create new media and save it directly in the Media Centre.
 

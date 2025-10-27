@@ -9,7 +9,7 @@ Alle OpenOlat User finden bei den „Persönlichen Werkzeugen“ ihr persönlich
 Bei den Medien kann es sich beispielsweise um normale Dateien, aber auch um OpenOlat spezifische Elemente wie Foreneinträge, Blog-Beiträge oder Leistungsnachweise handeln. 
 Ferner stehen diverse Filtermöglichkeiten zur Verfügung um sich nur bestimmte Dateien anzeigen zu lassen. 
 
-![media_center_v1_de.png](assets/media_center_v1_de.png){ class=" shadow lightbox" }
+![pers_menu_media_center_example_v1_de.png](assets/pers_menu_media_center_example_v1_de.png){ class=" shadow lightbox" }
 
 „Mein Media Center“ spiegelt zunächst die individuellen Dateien einer Person wider. Deshalb findet man das Media Center auch unter den persönlichen Werkzeugen. Unabhängig davon kann an bestimmten Stellen in OpenOlat auch auf die Medien des Media Centers zugegriffen werden, z.B. in Kursen oder im Portfolio. Dort erscheint ein passendes Menü, über das man vorhandene Elemente aus dem eigenen Media Center auswählen oder neue Medien erstellen und direkt im Media Center speichern kann.
 

@@ -181,6 +181,7 @@ plugins:
           Competences tags : Kompetenzen verschlagworten
           Components : Bestandteile
           Components of the portfolio : Bestandteile des Portfolios
+          Concept: Konzept
           Configuration : Konfiguration
           Configure a blog : Blog konfigurieren
           Configure a podcast : Podcast konfigurieren
@@ -398,6 +399,7 @@ plugins:
           Managing Topics of Topic Assignments : Themen einer Themenvergabe verwalten
           Math formula : Mathematische Formel
           Media Center : Media Center
+          Media items : Einzelmedien
           Mediasite : Mediasite
           Members : Teilnehmer:innen
           Members management : Mitgliederverwaltung
