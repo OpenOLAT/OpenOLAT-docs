@@ -22,9 +22,9 @@ Bevor das Modul "Termine und Absenzen" genutzt werden kann, muss es in der Admin
 
 ### Konfiguration - auf Kursebene übersteuerbar
 
-![1_green_24.png](assets/1_green_24.png) **Termin- und Absenzenverwaltung einschalten**
+![1_green_24.png](assets/1_green_24.png) **Termin- und Absenzenverwaltung einschalten**: Generelle Aktivierung („Hauptschalter“)
 
-![2_green_24.png](assets/2_green_24.png) **Absenzen / Abmeldungen / Dispensen einschalten**
+![2_green_24.png](assets/2_green_24.png) **Absenzen / Abmeldungen / Dispensen einschalten**: Bewirkt, dass Betreuende im Coachingtool > Termine das Tab "Meldungen" angezeigt bekommen.
 
 ![3_green_24.png](assets/3_green_24.png) **Überschreiben der Standard-Konfiguration zulassen**: Die Standard-Konfiguration, welche in der Administration gesetzt wird, kann auf Kursebene
 überschrieben werden. Dies gilt nicht für die "Globale Konfiguration".
@@ -39,7 +39,7 @@ Bevor das Modul "Termine und Absenzen" genutzt werden kann, muss es in der Admin
 
 ![8_green_24.png](assets/8_green_24.png) **Kurskalender synchronisieren**: Durch diese Option werden die erfassten Lektionenblöcke gleich direkt im Kurskalender angezeigt für alle Teilnehmer, Dozenten und Kursbesitzer.
 
-![9_green_24.png](assets/9_green_24.png) **Prüfungsmodus für Lektionen erlauben**
+![9_green_24.png](assets/9_green_24.png) **Prüfungsmodus für Termine erlauben**
 
 ![10_green_24.png](assets/10_green_24.png) **Vorlaufzeit**
 
@@ -49,7 +49,7 @@ Bevor das Modul "Termine und Absenzen" genutzt werden kann, muss es in der Admin
 
 ![13_green_24.png](assets/13_green_24.png) **Safe Exam Browser - Art der Benutzung**
 
-![14_green_24.png](assets/14_green_24.png) **Herunterladbare Konfigurationsdatei**
+![14_green_24.png](assets/14_green_24.png) **Herunterladbare Konfigurationsdatei**: Wird der SEB eingerichtet, kann optional die Konfigurationsdatei heruntergeladen werden, die z.B. an Prüfungsteilnehmer:innen verteilt werden kann. (Dies ist wichtig, wenn für die Prüfung eigene Geräte der Teilnehmer:innen verwendet werden (BYOD).) 
 
 
 

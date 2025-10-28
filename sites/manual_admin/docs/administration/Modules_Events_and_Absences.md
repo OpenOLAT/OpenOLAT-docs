@@ -22,9 +22,9 @@ Before the lectures and absence management can be used it need to be activated i
 
 ### Configuration - overridable on course level 
 
-![1_green_24.png](assets/1_green_24.png) **Switch on appointment and absence management**
+![1_green_24.png](assets/1_green_24.png) **Switch on appointment and absence management**: General activation (‘main switch’)
 
-![2_green_24.png](assets/2_green_24.png) **Switch on absences / cancelations / dispensations**
+![2_green_24.png](assets/2_green_24.png) **Switch on absences / cancelations / dispensations**: Causes coaches to see the ‘Notifications’ tab in the coaching tool > events.
 
 ![3_green_24.png](assets/3_green_24.png) **Allow overwriting of the default configuration**: The default configuration, which is set in the administration, can be overwritten at course level. This does not apply to the "Global configuration".
 
@@ -38,7 +38,7 @@ Before the lectures and absence management can be used it need to be activated i
 
 ![8_green_24.png](assets/8_green_24.png) **Synchronize course calendar**: This option allows the lesson blocks entered to be displayed directly in the course calendar for all participants, instructors and course owners.
 
-![9_green_24.png](assets/9_green_24.png) **Allow test mode for lessons**
+![9_green_24.png](assets/9_green_24.png) **Allow test mode for events**
 
 ![10_green_24.png](assets/10_green_24.png) **Lead time**
 
@@ -48,7 +48,7 @@ Before the lectures and absence management can be used it need to be activated i
 
 ![13_green_24.png](assets/13_green_24.png) **Safe Exam Browser - Type of use**
 
-![14_green_24.png](assets/14_green_24.png) **Downloadable configuration file**
+![14_green_24.png](assets/14_green_24.png) **Downloadable configuration file**: Once the SEB has been set up, the configuration file can be downloaded as an option and distributed to exam participants, for example. (This is important if, participants' own devices are used for the exam (BYOD).) 
 
 
   
