@@ -48,7 +48,7 @@ To add further events, use the "Add event" button at the top right above the lis
 
 A pop-up window will open for you to enter all the details for the event.
 
-![events_and_absences_tab_events_create2_v1_de.png](assets/events_and_absences_tab_events_create2_v1_de.png){ class="shadow lightbox" }
+![events_and_absences_tab_events_create2_v2_de.png](assets/events_and_absences_tab_events_create2_v2_de.png){ class="shadow lightbox" }
 
 **Title**: Give it a meaningful name.
 
@@ -64,7 +64,9 @@ Example: An event lasts 2 hours, divided into 4 thematic units (4 x 0.5 hours).
 
 **Place**: This is where you specify where this event will take place. This could be a location or the exact room name, for example.
 
-**Online Meeting**: If the event is to take place online, the meeting can be organized directly from here.
+**Online Meeting**: If the event is to take place online, the meeting can be organised directly from here. You have the option of starting a BigBlueButton, Teams or, for example, Zoom meeting from an event and also accessing it later via ‘Events’.
+The online meeting takes over people and descriptions from the event (people, title, time, etc.).
+Learners can access it via the calendar or the ‘Events’ icon in the toolbar.
 
 **Lecturers**: A course coach must be selected for each event. Only the selected course coach can carry out attendance checks. (Only a person who also has the role of "Coach" can be added as a lecturer.) If a course owner also wishes to take on this role, they must additionally register as a course coach for the course.
 

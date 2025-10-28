@@ -50,7 +50,7 @@ Zum Hinzufügen weiterer Termine verwenden Sie den Button "Termin hinzufügen" r
 
 Es öffnet sich ein Popup zur Erfassung aller Angaben zum Termin. 
 
-![events_and_absences_tab_events_create2_v1_de.png](assets/events_and_absences_tab_events_create2_v1_de.png){ class="shadow lightbox" }
+![events_and_absences_tab_events_create2_v2_de.png](assets/events_and_absences_tab_events_create2_v2_de.png){ class="shadow lightbox" }
 
  **Titel**: Vergeben Sie einen sinnvollen Namen.
 
@@ -66,7 +66,9 @@ Es öffnet sich ein Popup zur Erfassung aller Angaben zum Termin.
 
  **Ort**: Hier wird angegeben, wo dieser Termin stattfindet. Das kann z.B. ein Präsenzort oder die genaue Zimmerbezeichnung sein.
 
- **Online Meeting**: Soll der Termin online stattfinden, kann das Meeting direkt von hier aus  organisiert werden.
+ **Online Meeting**: Soll der Termin online stattfinden, kann das Meeting direkt von hier aus  organisiert werden. Man hat die Möglichkeit, aus einen Termin ein BigBlueButton-, Teams- oder z.B. Zoom-Meeting zu starten und es auch später wieder über "Termine" abzurufen.
+ Das Online Meeting übernimmt dabei Personen und Beschreibungen aus dem Termin (Personen, Titel, Zeit...).
+Lernende haben Zugriff über den Kalender oder das Icon "Termine" in der Toolbar.
 
 **Dozent:innen**: Für jeden Termin muss ein:e Kursbetreuer:in ausgewählt werden. Nur die ausgewählten Kursbetreuer:innen können die Anwesenheitskontrolle durchführen. (Als Dozent:in kann nur eine Person hinzugefügt werden, die auch die Rolle "Betreuer:in" besitzt.) Möchte ein:e Kursbesitzer:in ebenfalls diese Funktion übernehmen, muss er/sie sich zusätzlich als Kursbetreuer:in in den Kurs eintragen.
 
