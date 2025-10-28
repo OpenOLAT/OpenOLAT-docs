@@ -34,7 +34,7 @@ Before the lectures and absence management can be used it need to be activated i
 
 ![6_green_24.png](assets/6_green_24.png) **Global absentee rate in %**: This quota indicates the percentage of attendance required to fulfill the conditions of a course.
 
-![7_green_24.png](assets/7_green_24.png) **Synchronize lecturer calendar**: Lecturers (course supervisors) receive entries in their personal calendar (not in the course calendar) for those lesson blocks for which they are assigned as lecturers (this function must be switched off for Px customers).
+![7_green_24.png](assets/7_green_24.png) **Synchronize lecturer calendar**: Lecturers (course coaches) receive entries in their personal calendar (not in the course calendar) for those lesson blocks for which they are assigned as lecturers (this function must be switched off for Px customers).
 
 ![8_green_24.png](assets/8_green_24.png) **Synchronize course calendar**: This option allows the lesson blocks entered to be displayed directly in the course calendar for all participants, instructors and course owners.
 

@@ -8,7 +8,7 @@ related rights, contact participants and organize course groups. Rights manageme
 
 ## Members {: #section_members}
 
-When you open member management, you will find yourself in the “Members” area. There you will see a tabular overview of all persons who have access to the course or learning resource. Using various tabs, you can display all or selected course members, for example, only supervisors or only participants. It is also possible to filter by course role or account type.
+When you open member management, you will find yourself in the “Members” area. There you will see a tabular overview of all persons who have access to the course or learning resource. Using various tabs, you can display all or selected course members, for example, only coaches or only participants. It is also possible to filter by course role or account type.
 
 You can edit the role assignments of the individuals, remove them from the course, or send them an email. You can also export the member data as an Excel spreadsheet.
 

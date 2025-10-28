@@ -7,7 +7,7 @@
 
 ![coaching_events_absences_events_coach-master_v1_de.png](assets/coaching_events_absences_events_coach-master_v1_de.png){ class="shadow lightbox" }
 
-At the top level, you can focus the view of your appointments and absences on your role as a supervisor or, if applicable, as a class teacher.
+At the top level, you can focus the view of your appointments and absences on your role as a coach or, if applicable, as a class teacher.
 
 In the [Course Planner](../../manual_user/area_modules/Course_Planner.md), it is possible to assign the role of homeroom teacher to a person. 
 (Prerequisite: The Course Planner module has been activated by an administrator.)
@@ -26,7 +26,7 @@ In the Cockpit tab, you will find a daily overview with the following sections
 * Absences
 * Notices
 
-(Depending on the focus you have previously set as a supervisor or class teacher.)<br>
+(Depending on the focus you have previously set as a coach or class teacher.)<br>
 Instead of the current day, you can also select another day.
 
 ![coaching_events_absences_tab_events_cockpit_v1_de.png](assets/coaching_events_absences_tab_events_cockpit_v1_de.png){ class="shadow lightbox" }

@@ -269,7 +269,7 @@ The installation file can be found on the [manufacturer's website](http://www.sa
 In order to identify difficulties, a trial test organized by the coaches in advance is recommended. This ensures that the SEB is installed on all computers in advance.
 
 **Step 2: Receiving the configuration file**<br>
-All exam participants must receive the configuration file from their supervisors (e.g. by email or as a download).
+All exam participants must receive the configuration file from their coaches (e.g. by e-mail or as a download).
 
 
 **Step 3: Start test by calling up the configuration file**<br>
@@ -298,7 +298,7 @@ As a general rule, you should not intervene while the check mode is running. How
 
 !!! tip "Note"
 
-    A special exam chat is available in OpenOlat for communication between supervisors and exam participants.
+    A special exam chat is available in OpenOlat for communication between coaches and exam participants.
     You can find out more about communication during an exam [here](../communication_during_exam/communication_during_exam.md).
 
 [To the top of the page ^](#SEB)

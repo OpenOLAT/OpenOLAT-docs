@@ -1,7 +1,7 @@
 # E-Mail Einstellungen
 
 Hier kann definiert werden, welche Einschränkungen Benutzer in Bezug auf die
-Emailadresse haben.
+E-Mail-Adresse haben.
 
 ### Obligatorisch
 

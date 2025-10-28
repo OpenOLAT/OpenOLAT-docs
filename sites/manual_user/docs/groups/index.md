@@ -52,6 +52,6 @@ With the help of additional software (Syncher), it is also possible to carry out
 
 !!! note "Note"
 
-    The information in this chapter is primarily intended for course participants, supervisors and course owners (authors).
+    The information in this chapter is primarily intended for course participants, coaches and course owners (authors).
 
     If you are also in charge of managing the groups, further actions are available to you. You will find more information about this in the chapter [Group management](../area_modules/Group_Management.md).

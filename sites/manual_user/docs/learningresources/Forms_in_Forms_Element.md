@@ -42,7 +42,7 @@ If e-mail confirmation is enabled, participants will receive a confirmation emai
 
 ### For owners and coaches
 
-When the course editor is closed, owners and tutors will see an overview of learners in the course and their editing status, e.g. "Not started". The filter function can also be used to display a specific group of people, e.g. all people who have not yet started the form. However, owners and supervisors do not see the actual form here. It is also possible to export the form data.
+When the course editor is closed, owners and tutors will see an overview of learners in the course and their editing status, e.g. "Not started". The filter function can also be used to display a specific group of people, e.g. all people who have not yet started the form. However, owners and coaches do not see the actual form here. It is also possible to export the form data.
 
 Owners also have the option of resetting the data of individual persons or all data and also have the "Reminders" tab if the form submission has a deadline. Here they can create new reminders and see which [Reminders](../learningresources/Course_Reminders.md) have already been sent.
 

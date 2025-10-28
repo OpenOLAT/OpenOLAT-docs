@@ -1,37 +1,28 @@
 # E-Mail Settings
 
-Here it can be defined which limitations a user has regarding the email
-address.
+Here it can be defined which limitations a user has regarding the e-mail address.
 
 ### Mandatory
 
-If this option is *not* activated, it means that a user does not need an email
-address. However, this will lead to limitations, as OpenOlat is set up for
-users having an email address. The following limitations can occur (list is
-not closing):
+If this option is *not* activated, it means that a user does not need an e-mail address. However, this will lead to limitations, as OpenOlat is set up for users having an e-mail address. The following limitations can occur (list is not closing):
 
-  * No real emails will be sent.
+  * No real e-mails will be sent.
   * No notifications will be sent.
-  * Login with email address is not possible.
+  * Login with e-mail address is not possible.
   * Password cannot be reset.
 
 ### Unique
 
-If this option is not activated, it means, that several users can have the
-same email address. However, this will lead to limitations, as OpenOlat is set
-up for users having an email address. The following limitations can occur
-(list is not closing):
+If this option is not activated, it means, that several users can have the same e-mail address. However, this will lead to limitations, as OpenOlat is set up for users having an e-mail address. The following limitations can occur (list is not closing):
 
-  * Login with email address is deactivated in general. This means that any user cannot login with the email address, but only with the username. This is also valid for users who possess a unique email address. 
-  * Users without a unique email address can reset their password only by inserting the username, but not the email address.
+  * Login with e-mail address is deactivated in general. This means that any user cannot login with the e-mail address, but only with the username. This is also valid for users who possess a unique e-mail address. 
+  * Users without a unique e-mail address can reset their password only by inserting the username, but not the e-mail address.
 
 ![](assets/email_EN.png){ class="shadow lightbox" }
 
 !!! warning "Warning"
 
-	In both cases there can either no or no unique email be sent. Therefore we
-	recommend compulsory to activate the internal OpenOlat inbox! Otherwise
-	unexpected errors may occur!
+	In both cases there can either no or no unique e-mail be sent. Therefore we recommend compulsory to activate the internal OpenOlat inbox! Otherwise unexpected errors may occur!
 
   
 
@@ -44,7 +35,7 @@ is an optional component.
 ### Enable your OLAT e-mail inbox:
 
   * If the OLAT inbox system is disabled, all OLAT e-mails will be sent exclusively to the personal e-mail address. The OLAT inbox is not visible in the home area with this configuration.
-  * If the OLAT inbox system is enabled, all received and sent emails will be listed in the users personal inbox.
+  * If the OLAT inbox system is enabled, all received and sent e-mails will be listed in the users personal inbox.
 
 In addition, each user can configure in his preferences wether he wants to
 receive mails from OLAT to his personal e-mail address or if he prefers to

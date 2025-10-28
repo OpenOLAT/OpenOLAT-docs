@@ -11,7 +11,7 @@ A maximum of the tabs listed below are available for configuration for each user
 
 ### User profile
 
-Personal data, personal details, contact details and details of the institution are recorded in the user profile. (See Personal Menu > Configuration > [Profile](../../manual_user/personal_menu/Profile.md)). Furthermore, the personal information entered by the user, as well as the respective business card and the selected personal picture/photo are visible. The mandatory entries in the user profile include: Login name, first name, surname and e-mail address. If the sending of emails to this address is to be prevented, this email address can be blocked.
+Personal data, personal details, contact details and details of the institution are recorded in the user profile. (See Personal Menu > Configuration > [Profile](../../manual_user/personal_menu/Profile.md)). Furthermore, the personal information entered by the user, as well as the respective business card and the selected personal picture/photo are visible. The mandatory entries in the user profile include: Login name, first name, surname and e-mail address. If the sending of e-mails to this address is to be prevented, this e-mail address can be blocked.
 
 [To the top of the page ^](#user_configuration)
 
@@ -19,7 +19,7 @@ Personal data, personal details, contact details and details of the institution 
 ### System settings
 
 The system settings made by the user are displayed here (see Personal Menu > Configuration > [Settings](../../manual_user/personal_menu/Configuration.md)).  
-This includes, for example, the default language and whether emails are only sent within OpenOlat or also to the address in the profile. 
+This includes, for example, the default language and whether e-mails are only sent within OpenOlat or also to the address in the profile. 
 
 [To the top of the page ^](#user_configuration)
 

@@ -87,7 +87,7 @@ Mandatory tasks have to be completed and will be collected after the set deadlin
 By means of the course element "Portfolio task" you can provide predefined
 portfolio templates to be filled by your course participants. The course
 participants can then pick up the portfolio task in their course, 
-and are then forwarded to their individual portfolio area. The portfolio picked up in this way can then be filled with content and artifacts by the learners and, if desired, made available to other people or the course supervisors. Depending on the configuration, these persons can also evaluate and comment on the portfolio. 
+and are then forwarded to their individual portfolio area. The portfolio picked up in this way can then be filled with content and artifacts by the learners and, if desired, made available to other people or the course coaches. Depending on the configuration, these persons can also evaluate and comment on the portfolio. 
  
 For the course element Portfolio task you need a "Portfolio 2.0 template",
 which you link to the course element. If you have not yet created a Portfolio
@@ -108,7 +108,7 @@ button.
 
 In the tab "Evaluation" you can preconfigure the display of points, status
 passed/failed and individual comments. In the fields "Note for all users" and
-"Note for supervisors" you formulate general information for the evaluation to
+"Note for coaches" you formulate general information for the evaluation to
 all course participants and coaches.
 
 Further information on how learners can pick up and use a portfolio task can

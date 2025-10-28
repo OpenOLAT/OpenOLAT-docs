@@ -38,7 +38,7 @@ This is how a assessment rubric could look like:
 
 After a rubric has been linked to the assessment, the following additional configurations can be made in the "Assessment" tab:
 
-**Set status "To review" if accessible**: If the checkmark is set, the display "Correct" appears under status for owners and supervisors when the editor is closed. The participants will see "In correction". If the check mark is not set, the user will see "No indication" and the teachers will see the status "Not started" or "Assessed", depending on whether an assessment has already been made or not.  
+**Set status "To review" if accessible**: If the checkmark is set, the display "Correct" appears under status for owners and coaches when the editor is closed. The participants will see "In correction". If the check mark is not set, the user will see "No indication" and the teachers will see the status "Not started" or "Assessed", depending on whether an assessment has already been made or not.  
   
 **Score granted**: Points can be awarded automatically or manually, if enabled. Automatic points can be taken as sum or average. Die minimalen und maximalen Punkte werden angezeigt bzw. können bei manueller Bewertung eingetragen werden.
 

@@ -26,7 +26,7 @@
 During an online exam, **various communication needs** may arise:
 
 * individual participants have individual problems
-* the examination supervisor (coach) would like to point out that there are only 10 minutes left to complete the work
+* the examination coach would like to point out that there are only 10 minutes left to complete the work
 * the coach answers the question of a single person
 * the coach recognizes through a query that a note to all exam participants is required
 * ...
@@ -69,7 +69,7 @@ The coach chat during exams works regardless of whether the general chat functio
 
 * In the menu, select the test **course element** that contains the exam.
 * As a coach, you will not see the test after clicking on it (like the participants), but several tabs.
-* Select the **"Communication"** tab. There you will find the tools for communication between exam supervisors (coaches) and exam participants.
+* Select the **"Communication"** tab. There you will find the tools for communication between coaches and exam participants.
 
 In the **upper area** you create, edit and manage the **notifications** (1:many) before and during the exam.
 
@@ -108,7 +108,7 @@ To reply/join the chat, click on **"Join"** in the relevant row in the "Action" 
 ![communication_during_exam_coach_answer_chat1_v1_de.png](assets/communication_during_exam_coach_answer_chat1_v1_de.png){ class="shadow lightbox" } 
 
 If there are several coaches, each coach decides for themself whether to join a chat.<br>
-All coaches (exam supervisors) can see which coaches are currently chatting with an exam participant in a separate column.
+All coaches can see which coaches are currently chatting with an exam participant in a separate column.
 
 ![communication_during_exam_coach_several_v1_de.png](assets/communication_during_exam_coach_several_v1_de.png){ class="shadow lightbox" } 
 
@@ -185,7 +185,7 @@ Archiving completed **Chat** histories is currently only possible for individual
 
 ### Notifications from the coach
 
-Messages (1:many) can only be sent by coaches (examination supervisors) to the examination candidates. The other way around is not possible. The exam chat must be used for inquiries from exam participants.
+Messages (1:many) can only be sent by coaches to the examination candidates. The other way around is not possible. The exam chat must be used for inquiries from exam participants.
 
 Messages appear in the header for exam participants. They remain there until a read confirmation has been submitted by clicking on the button.
 
@@ -245,7 +245,7 @@ More about the [Safe Exam Browser >](../../manual_user/learningresources/Assessm
 - [x] Are there opportunities for communication between the coaches outside of the examination course?
 - [x] Should coaches be able to send messages to all exam participants during the exam?
 - [x] Have messages of greeting, information about the imminent end of the exam, etc. been prepared and agreed?
-- [x] Are all members of the exam supervisors aware of the communication options during the examination? (messages and exam chat)
+- [x] Are all members of the coaches aware of the communication options during the examination? (messages and exam chat)
 
 
 [To the top of the page ^](#communication_during_exam)

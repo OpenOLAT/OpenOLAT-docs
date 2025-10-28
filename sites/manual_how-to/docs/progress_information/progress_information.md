@@ -63,7 +63,7 @@ Click on a name to display the learning path of this person.
 
 ## D) Automatic reminders {: #by_reminders}
 
-The [reminder function](../../manual_user/learningresources/Course_Reminders.md) is mostly used to send emails to participants. However, it can also be used to inform coaches.
+The [reminder function](../../manual_user/learningresources/Course_Reminders.md) is mostly used to send e-mails to participants. However, it can also be used to inform coaches.
 
 ![course_reminder_access_v1_de.png](assets/course_reminder_access_v1_de.png){ class="shadow lightbox" }
 
@@ -84,7 +84,7 @@ For example, a reminder could be sent to those participants who have never acces
 
 !!! tip "Hint"
 
-    Variables can also be used in the text of the reminder emails. (See [Variables in the e-mail text of reminders](../../manual_user/learningresources/Course_Reminders.md).) Various variables are available to distinguish between the recipients who were originally contacted and the (alternatively) informed coaches:
+    Variables can also be used in the text of the reminder e-mails. (See [Variables in the e-mail text of reminders](../../manual_user/learningresources/Course_Reminders.md).) Various variables are available to distinguish between the recipients who were originally contacted and the (alternatively) informed coaches:
 
     $FirstName<br>
     $LastName<br>

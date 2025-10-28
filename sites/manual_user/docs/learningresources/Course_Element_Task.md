@@ -753,7 +753,7 @@ One reviewer is absent due to illness and the coaches steps in as reviewer. This
 A coach sees that a reviewer has performed a review incorrectly or poorly. The coach then marks this review as invalid and makes a review themselves so that this person has received the same number of reviews again.
 
 **Example 3:**<br>
-There are two completely contradictory reviews from the peer review. The supervisor therefore provides a mediating or corrective review. (In contrast to an expert review, the same assessment grid is used here).
+There are two completely contradictory reviews from the peer review. The coach therefore provides a mediating or corrective review. (In contrast to an expert review, the same assessment grid is used here).
 
 [Up (Coach perspective) ^](#coach_task)<br>
 [To the top of the page ^](#course_element_task)

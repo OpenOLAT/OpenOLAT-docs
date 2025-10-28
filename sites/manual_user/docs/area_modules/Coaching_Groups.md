@@ -28,7 +28,7 @@ You will see at once,
 
 Clicking on a group name opens the list of group members with further information on the score, certificate, etc.
 
-When you click on a user name, the rating tool for that person opens again and you can rate the group member or contact them by email.
+When you click on a user name, the rating tool for that person opens again and you can rate the group member or contact them by e-mail.
 
 [To the top of the page ^](#groups)
  

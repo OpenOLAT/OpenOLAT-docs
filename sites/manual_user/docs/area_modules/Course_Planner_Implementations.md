@@ -145,7 +145,7 @@ The various implementations can be offered in the catalog. To do this, an [offer
 
 ![course_planner_implementations_tab_catalog1_v1_de.png](assets/course_planner_implementations_tab_catalog1_v1_de.png){ class="shadow lightbox" }
 
-To draw the attention of potential participants to an offer in the catalog, you can send a direct link to the offer, e.g. in an email. You will find the links in the overview of the offers (per event in the Catalog tab).
+To draw the attention of potential participants to an offer in the catalog, you can send a direct link to the offer, e.g. in an e-mail. You will find the links in the overview of the offers (per event in the Catalog tab).
 
 ![course_planner_implementations_tab_catalog3_v1_de.png](assets/course_planner_implementations_tab_catalog3_v1_de.png){ class="shadow lightbox" }
 

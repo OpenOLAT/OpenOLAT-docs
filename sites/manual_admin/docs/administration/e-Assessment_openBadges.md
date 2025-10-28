@@ -85,7 +85,7 @@ This tab lists **global badges** that have been awarded. (The course badges are 
 
 !!! note "Note"
 
-    **Course badges** can be viewed by supervisors and owners in the assessment tool. The automatically assigned course badges can be viewed there and course badges can be assigned manually.
+    **Course badges** can be viewed by coaches and owners in the assessment tool. The automatically assigned course badges can be viewed there and course badges can be assigned manually.
 
 
 !!! note "Note"

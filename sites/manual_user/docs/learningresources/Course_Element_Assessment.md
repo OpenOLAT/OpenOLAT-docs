@@ -63,7 +63,7 @@ Activate this option if you want learners to see whether the course element has 
 
 If activated, the next step in learning path courses is to define whether or not the course element should be included in the course assessment. For conventional courses, this is defined in the "Points" tab of the top course element. 
 
-If points have been activated in addition to Pass/Fail, an automatic, point-based assessment can be activated in addition to the standard manual assessment by the supervisors. 
+If points have been activated in addition to Pass/Fail, an automatic, point-based assessment can be activated in addition to the standard manual assessment by the coaches. 
 
 ![Kursbaustein Bewertung Punkte und bestanden](assets/KB_Bewertung_Punkte_bestanden19_en.jpg)
 

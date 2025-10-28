@@ -37,7 +37,7 @@ Users can then select and book these courses. They will only be guided through t
 For users already registered in OpenOlat, the booking order will be assigned to their existing account. The booking order will then be confirmed.
 
 The external catalog can be offered on the login screen.
-However, the link can also be incorporated elsewhere, e.g., into a website, or sent by email. 
+However, the link can also be incorporated elsewhere, e.g., into a website, or sent by e-mail. 
 [Direct links to a specific offer](../../manual_user/area_modules/catalog2.0_web.md) can also be sent.
 
 ![catalog20_ext_catalog_login_v1_de.png](assets/catalog20_ext_catalog_login_v1_de.png){ class="shadow lightbox" } 

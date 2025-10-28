@@ -24,7 +24,7 @@ Media can be...
 
 ## Access {: #access}
 
-The Media Center is initially an individual, personal area and can therefore also be found in the **personal tools**.
+The Media Center is initially an individual, personal area and can therefore also be found in the **personal menu**.
 
 ![media_center_pers_menu1_v1_de.png](assets/media_center_pers_menu1_v1_de.png){ class=" shadow lightbox" }
 
@@ -82,7 +82,7 @@ There are various ways to store media in the Media center:
 
 ### Create new media beyond the Media Center in the Content Editor {: #create_in_editor}
 
-Media for the Media Center can also be created in the OpenOlat course or in the portfolio using the [content editor](../basic_concepts/Content_Editor.md). In the course, for example, this can be done via the course element ["Page"](../learningresources/Course_Element_Page.md). Go to edit mode and select "Add content". Among other things, a button for the “Media Center” will appear.  Click on the button and you will be taken to the Media Center with all the corresponding options. 
+Media for the Media Center can also be created in the OpenOlat course or in the portfolio using the [content editor](../basic_concepts/Content_Editor.md). In the course, for example, this can be done via the course element ["Page"](../learningresources/Course_Element_Page.md). Go to edit mode and select "Add content". Among other things, a button for the "Media Center" will appear.  Click on the button and you will be taken to the Media Center with all the corresponding options. 
 
 ![Medium auswählen aus dem Mediencenter2](assets/media_center_create_v1_de.jpg){ class=" shadow lightbox" }
 
@@ -109,46 +109,14 @@ A page will then appear where you can enter the title, tags and a description fo
     For forum posts, blog entries and wiki pages, it is necessary to be the creator of an entry or wiki page. Simply editing the post is not sufficient.
 
 
+!!! info "Mandatory information"
+
+    Each media element must have a title and can then be provided with additional information and metadata. This information can be further configured later using the tabs of a media element.
+
+
 [To the top of the page ^](#media_center_concept)
 
 ---
-
-
-## Configure media {: #config}
-
-Each media element requires a title and can then be provided with further information and metadata. This information can later be further configured via the tabs of a media element.
-
-
-### Add metadata {: #add_metadata}
-
-The following information can be added to a media element:
-
-* Description 
-* Tags for indexing and for a better overview
-* Topics/subject area assignment
-* License information
-* "Alt-Text" for draw.io files or graphics, particularly relevant for screen readers
-
-The information and metadata options vary depending on the type of media. All information can be easily changed later in the corresponding tabs.
-
-
-### Manage media information {: #media_info}
-
-Click on a media element to access the corresponding tabs. 
-
-Each media element includes the following tabs:
-
-* **Overview:** Central details, activity log, editing option, versioning, file replacement
-* **Metadata:** Description, License, Tags, Department
-* **Uses:** This shows where the element is used
-* **Shares:** Here you can define who a content element is shared with. Participants can only define groups. Authors have more options and can specify specific OpenOlat users, groups or courses. Sharing also allows files to be used collaboratively if editing is permitted. 
-In addition, individual media can also be downloaded or deleted via the 3-dot menu.
-
-![Medien Center 3-Punkte Menü](assets/media_center_pers_menu1_v1_de.png){ class=" shadow lightbox" }
-
-!!! info "Hint"
-
-    The option of **versioning** media elements is interesting. For example, different work steps or intermediate stages can be saved. It is then possible to switch to older versions at any time.
 
 ### Delete media {: #delete_media}
 
@@ -170,17 +138,29 @@ Media uploaded to the Media Center always belong to one owner. When the owner de
 * Media used in a "Page" course element or those that have been shared are retained, but are then without an owner.
 * Media without an owner will be displayed in the media management for administrators in future.
 
+[To the top of the page ^](#media_center_concept)
 
+---
 
 ### Quota
 
-The storage space available in the Media Center can be limited by the OpenOlat administrator. You can find the information about the storage space already used in the bottom left corner.
+The storage space available in the Media Center can be limited by the OpenOlat administrator. You can see exactly how much storage space you have available and how much you have already used at the bottom left.
 
 ![media_center_quota_v1_de.png](assets/media_center_quota_v1_de.png){ class=" shadow lightbox" }
 
-Generally, authors have higher storage requirements, so the quota settings are made separately for these power users. If you have any questions about storage requirements, contact your administrator or user manager.
+Authors usually require more storage space, so quota settings are configured separately for these power users. If you have any questions about storage requirements, please contact your administrator or user manager.
 
-## Use media
+!!! hint "Note"
+
+        Only media that has been uploaded/created by the user is displayed as storage consumption. If all media displayed is exclusively referenced (shared by other authors), then storage consumption of 0 is displayed.
+
+
+[To the top of the page ^](#media_center_concept)
+
+---
+
+
+## Use media {: #usage}
 
 And how can the media in the Media Center be reused? The media contained in the Media Center can be inserted into course elements in the Content Editor, for example in the course element ["Page"](../learningresources/Course_Element_Page.md) or in the [Portfolio](../area_modules/Portfolio.md).
 
@@ -194,11 +174,26 @@ The **filter functions** help you to find the media you are looking for quickly.
 
     When documents are included in a portfolio folder, they are displayed as _links_ and are not displayed directly.
 
+[To the top of the page ^](#media_center_concept)
 
-## Manage Media Center
+---
+
+
+## Manage Media Center {: #media_center_administration}
 
 When accessing the Media Center, administrators have an additional "Media management" tab in which they can perform administrative tasks in the Media Center. All media except your own are listed there. 
 
 After clicking on a medium, the usage locations, releases, last views, etc. can be called up for each medium.
 
 ![media_center_administration_v1_de](assets/media_center_administration_v1_de.png){ class=" shadow lightbox" }
+
+[To the top of the page ^](#media_center_concept)
+
+---
+
+## Further information {: #further_information}
+
+[Information and settings for individual media >](../basic_concepts/Media_Center_Items.md)<br>
+[Media Center in the personal menu >](../personal_menu/Media_Center.md)<br>
+
+[To the top of the page ^](#media_center_concept)

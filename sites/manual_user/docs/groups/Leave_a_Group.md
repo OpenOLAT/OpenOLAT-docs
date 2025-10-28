@@ -7,7 +7,7 @@ Group membership can be terminated in various ways.
 
 There are groups in which membership should be voluntary, e.g. interest groups. However, some groups should not be able to be left on one's own initiative, such as a training class.
 
-Group supervisors can determine in advance whether group members can leave a group independently. Select the group. Under **Administration** in **Tab "Members"** you will find the option with which you can allow participants to leave the group on their own initiative.
+Group coaches can determine in advance whether group members can leave a group independently. Select the group. Under **Administration** in **Tab "Members"** you will find the option with which you can allow participants to leave the group on their own initiative.
 
 ![leave_group_on_own_initiative_v1_de.png](assets/leave_group_on_own_initiative_v1_de.png){ class="shadow lightbox" }
 

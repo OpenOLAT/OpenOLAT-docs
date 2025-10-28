@@ -39,7 +39,7 @@ Course owners can be automatically informed of any status changes.
 Similar to the automatically controlled course lifecycle, the lifecycle of OpenOlat users' accounts can also be automated. 
 
 * In a first step, the accounts of users who have not been active for a longer period of time can be deactivated and the user status set to "inactive".
-* If the user does not log in again within the specified period, the user account is deleted. Depending on the configuration, users may receive an email with a corresponding message before or after the account is deactivated or deleted.
+* If the user does not log in again within the specified period, the user account is deleted. Depending on the configuration, users may receive an e-mail with a corresponding message before or after the account is deactivated or deleted.
 * It can be set up that the irrevocable deletion in the last step should take place automatically or exclusively manually.
 
 Different notifications can be formulated for each step in the context of the steps and the time of the mail notification can be defined.

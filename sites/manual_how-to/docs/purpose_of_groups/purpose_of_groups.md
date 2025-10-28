@@ -38,7 +38,7 @@ There are many reasons and intentions why groups are formed. Depending on the pu
 **Characteristics:**
 
 * learners usually stay in the same group only for a certain course (with a certain level).
-* creation of the group by the administrator/supervisor
+* creation of the group by the administrator/coach
 * possibly group membership through self-booking
 
 **Tools in OpenOlat:**
@@ -349,7 +349,7 @@ There are many reasons and intentions why groups are formed. Depending on the pu
 * course element checklist
 * course element wiki (wiki entry per group)
 * group folder
-* group supervisor
+* group coach
 * collaboration tools: chat, messages, e-mail
 * ...
 
@@ -368,7 +368,7 @@ There are many reasons and intentions why groups are formed. Depending on the pu
 
 * virtual classrooms (BBB, Teams, etc.)
 * video recording
-* collaboration tools: chat, messaging, email
+* collaboration tools: chat, messaging, e-mail
 * course element video task
 * ...
 

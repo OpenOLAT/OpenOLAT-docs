@@ -18,7 +18,7 @@ Specialty / Note |
 * Predefined portfolio folders are made available to learners by the teacher via the "Portfolio task" course element. 
 * Course participants can collect the portfolio assignment in the course and are then forwarded to their individual portfolio area. 
 * The portfolio collected in this way can then be filled by learners with content and artifacts in different formats.
-* If desired, the portfolio can be made accessible to other people or the course supervisors. Depending on the configuration, these people can also rate and comment on the portfolio.
+* If desired, the portfolio can be made accessible to other people or the course coaches. Depending on the configuration, these people can also rate and comment on the portfolio.
 
  !!! info "Note"
 

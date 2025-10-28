@@ -183,7 +183,7 @@ After clicking on the button, a confirmation prompt appears describing what is b
 ![video_task_modus_uebung_alledatenzuruecksetzen2_v1_de.png](assets/video_task_modus_uebung_alledatenzuruecksetzen2_v1_de.png){ class="shadow lightbox" }
 
 
-### Results for test supervisors
+### Results for test coaches
 
 If the mode "Test" was selected for the video task, the **Tabs "Participants" and "Preview"** as well as the **Tabs "Overview" and "Reminders"** appear.
 

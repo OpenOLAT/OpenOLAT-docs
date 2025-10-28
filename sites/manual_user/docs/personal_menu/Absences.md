@@ -39,7 +39,7 @@ In addition, further details can be displayed using the "**Details**" option. <b
 
 ## Tab Notices / Dispensation {: #tab_notices_dispensation}
 
-Administrators can allow participants to unsubscribe themselves (under: Administration > Modules > Events/Absences). The "Log out" button will then appear in the top right corner. Otherwise, only the absences recorded by supervisors will be displayed in this list. <br>
+Administrators can allow participants to unsubscribe themselves (under: Administration > Modules > Events/Absences). The "Log out" button will then appear in the top right corner. Otherwise, only the absences recorded by coaches will be displayed in this list. <br>
 
 
 ![pers_menu_absences_dispensation_v1_de.png](assets/Abmeldung_Dispense.jpg){ class="shadow lightbox"}

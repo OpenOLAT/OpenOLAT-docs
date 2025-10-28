@@ -109,7 +109,7 @@ The manual addition of members by group administrators makes sense, for example,
 
 This tab is available only if the group is associated with one or more courses or the group owner has author rights.
 
-If you select "Add course", an overview of all courses available to you as a group supervisor will appear. Only courses for which you are registered as the owner can be connected.
+If you select "Add course", an overview of all courses available to you as a group coach will appear. Only courses for which you are registered as the owner can be connected.
 
 To select a course, highlight it, click on the title or click on the check mark in the "_Select_" column. A click on the :octicons-info-16: icon provides you with further information on the course, such as author, language or the description. 
 

@@ -177,7 +177,7 @@ control) are automatically extended by the disadvantage compensation.
 ## User relations in coaching tool
 
 With the user-to-user relationship in OpenOlat, cross-course support functions
-for mentors, learning guides and supervisors can be represented.
+for mentors, learning guides and coaches can be represented.
 
 The coaching tool now provides easy and clear access to the coached users.
 

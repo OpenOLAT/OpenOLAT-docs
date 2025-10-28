@@ -99,7 +99,7 @@ The basis for this is also the default settings of the administrator:
 
 * In the first step, the accounts of users who have not been active for a longer period of time can first be deactivated and the user status set to "inactive". These accounts will now appear in the list under "inactive users".
 * If there is no new login within the specified period, the user account can be deleted automatically.
-* Depending on the configuration, users may receive an email with an appropriate notice before or after account deactivation or deletion.
+* Depending on the configuration, users may receive an e-mail with an appropriate notice before or after account deactivation or deletion.
 * The different notification texts related to account deactivation can be formulated and the time of mail notification can be defined. Furthermore, it can be defined whether inactive users should be deleted.
 
 ---

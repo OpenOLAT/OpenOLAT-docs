@@ -102,7 +102,7 @@ The role of moderator can be taken on by course owners in any case. However, the
 
 !!! note "Note"
 
-    If blog entries have been imported, they can only be deleted by moderators, owners or supervisors. (The original authors are still displayed as the creators of the posts).
+    If blog entries have been imported, they can only be deleted by moderators, owners or coaches. (The original authors are still displayed as the creators of the posts).
 
 [To the top of the page ^](#blog_blogging)
 

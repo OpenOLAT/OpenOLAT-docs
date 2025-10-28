@@ -161,9 +161,9 @@ Similar to the existing role of "Line manager", a new organizational role of "Ed
 
 ## Coaching Tool: Cockpit & Reports
 
-The Coaching Tool is a central area in OpenOlat for people with a supervisory function.
+The Coaching Tool is a central area in OpenOlat for people with a coaching function.
 
-From version 20.0, course instructors, education managers and supervisors benefit from a redesigned, clean **Cockpit view**. Course bookings, learning statuses and participants' progress can be seen at a glance - for quick decisions and targeted coaching. In addition, open assignments such as corrections, assessments or approvals are available across all courses.
+From version 20.0, course instructors, education managers and coaches benefit from a redesigned, clean **Cockpit view**. Course bookings, learning statuses and participants' progress can be seen at a glance - for quick decisions and targeted coaching. In addition, open assignments such as corrections, assessments or approvals are available across all courses.
 
 ![Cockpit Coaching Tool](assets/200/Coaching_tool_cockpit_EN.png){ class="shadow lightbox" title="Cockpit Coaching Tool" }
 

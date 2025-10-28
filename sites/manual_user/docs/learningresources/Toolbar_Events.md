@@ -4,7 +4,7 @@
 The "Dates" icon is automatically displayed if dates and absences have been activated in the course.<br>
 (Administration > Settings > Implementation)
 
-It is then available to participants, supervisors, and owners of the course. However, depending on the role and the associated rights, different options are displayed. 
+It is then available to participants, coaches, and owners of the course. However, depending on the role and the associated rights, different options are displayed. 
 
 ## Call as participant {: #call_as_participant}
 

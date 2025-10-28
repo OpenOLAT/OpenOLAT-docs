@@ -91,7 +91,7 @@ If an OpenOlat instance uses the Course Planner, there are other roles available
 
 Depending on the configuration in the administration in the "[Modules](../administration/Modules.md)" area → "User to user", further roles are available here that can be filtered, displayed and defined. For example
 
-* Supervisor
+* Coach
 * Subordinate
 * Apprentice manager
 * Apprentice

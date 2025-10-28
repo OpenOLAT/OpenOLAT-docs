@@ -52,7 +52,7 @@ Course authors can determine when and which badge their course participants rece
 If badges are generally activated, the possibility of awarding badges can be activated for each course under<br>
 **Administration > Settings > Tab Assessment > Toggle-Button "Award badges"**<br>
 
-You can also specify whether manual allocation by course owners and supervisors should be possible.
+You can also specify whether manual allocation by course owners and coaches should be possible.
 
 ![badges_activation_course_v1_de.png](assets/badges_activation_course_v1_de.png){ class="shadow lightbox" }  
 

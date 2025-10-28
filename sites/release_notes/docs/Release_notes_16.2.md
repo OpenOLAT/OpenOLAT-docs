@@ -10,7 +10,7 @@
 
 With OpenOlat 16.2 we release our next major release.
 
-Especially in the area of online testing and evaluation there are many new features. A major new feature is the **exam chat** with its own communication area to better support participants during the online exam and to respond to their questions. The **transfer of points into grades or other evaluation scales** creates better comparability and the prerequisite for further processing of the performances. A consistent approval process of the performances, the newly structured **design of the assessment tool overview** enriched with graphics, the **PDF export** for test results and CP learning content as well as supplementary information in the assessment form for supervisors are just some of the numerous improvements. The **enhanced Safe Exam Browser configuration** facilitates its use. **Upgrades** for the HTML editor "TinyMCE", Mathjax for Latex formulas and a new integrated formula editor enrich this release. In addition, the **OpenOlat manual has been migrated** from Confluence to the Markdown-based MKDocs for an efficient editing workflow and more flexible division of the individual sections.
+Especially in the area of online testing and evaluation there are many new features. A major new feature is the **exam chat** with its own communication area to better support participants during the online exam and to respond to their questions. The **transfer of points into grades or other evaluation scales** creates better comparability and the prerequisite for further processing of the performances. A consistent approval process of the performances, the newly structured **design of the assessment tool overview** enriched with graphics, the **PDF export** for test results and CP learning content as well as supplementary information in the assessment form for coaches are just some of the numerous improvements. The **enhanced Safe Exam Browser configuration** facilitates its use. **Upgrades** for the HTML editor "TinyMCE", Mathjax for Latex formulas and a new integrated formula editor enrich this release. In addition, the **OpenOlat manual has been migrated** from Confluence to the Markdown-based MKDocs for an efficient editing workflow and more flexible division of the individual sections.
 
 ![Number of Features Bugs](assets/162/Features_Improvements_Labels_EN.png)
 
@@ -69,14 +69,14 @@ For exams written by examinees at home (e.g., Open-Book Exam, Take-Home Exam), p
 In OpenOlat, an appropriate infrastructure has been created for these requirements:
 
 * Invigilators can send messages to all examinees (one-way broadcast message).
-* The integrated exam chat enables a direct exchange between supervisor and examinee. The chat can be started from both sides.
-* Supervisors can start a BigBlueButton video conference with the examinee if needed and use screen sharing there.
+* The integrated exam chat enables a direct exchange between coaches and examinee. The chat can be started from both sides.
+* Coaches can start a BigBlueButton video conference with the examinee if needed and use screen sharing there.
 
 ![Participant Chat](assets/162/TeilnehmerChat.png){ class="shadow lightbox" }
 
-For the administration of notifications, a **new area "Communication"** is available for the supervisors (supervisors) at the course element "Test". There, the status of the requests can be seen and it is displayed which supervisor is processing a request. It is also possible for several supervisors to join a request.
+For the administration of notifications, a **new area "Communication"** is available for the coaches at the course element "Test". There, the status of the requests can be seen and it is displayed which coach is processing a request. It is also possible for several coaches to join a request.
 
-![Supervisor communication area](assets/162/Kommunikationsbereich.png){ class="shadow lightbox" }
+![Coach communication area](assets/162/Kommunikationsbereich.png){ class="shadow lightbox" }
 
 In addition, coaches are actively notified of participant requests from ongoing exams if they have not opened the exam course.
 
@@ -88,7 +88,7 @@ In addition, coaches are actively notified of participant requests from ongoing 
 
 For the use of the Safe Exam Browser in online exams, the configuration keys created in the [Safe Exam Browser](https://safeexambrowser.org) could previously be stored in OpenOlat.
 
-In addition, the **standard Safe Exam Browser configurations** have now also been integrated into OpenOlat, so that standard configurations can be made directly in OpenOlat. The configuration file can - depending on the selected option - be downloaded by the supervisor or by the examinees themselves before the exam.
+In addition, the **standard Safe Exam Browser configurations** have now also been integrated into OpenOlat, so that standard configurations can be made directly in OpenOlat. The configuration file can - depending on the selected option - be downloaded by the coach or by the examinees themselves before the exam.
 
 ![Safe Exam Browser Configuration](assets/162/SEB_configuration.png){ class="shadow lightbox" }
 
@@ -98,7 +98,7 @@ In addition, the **standard Safe Exam Browser configurations** have now also bee
 
 #### Assessment: Improvement of the release process
 
-The previous release status workflow for assessments was sometimes very intransparent for authors/supervisors and was implemented differently depending on the course element. With this release, the **release status workflow has been standardized** and the display has been revised.
+The previous release status workflow for assessments was sometimes very intransparent for authors/coaches and was implemented differently depending on the course element. With this release, the **release status workflow has been standardized** and the display has been revised.
 
 At the same time, the **assessment form has been optimized** for a clear display of the respective release status and the actions for buffering or completing the assessment with or without release have been rearranged.
 
@@ -148,7 +148,7 @@ Until now, statistical data on tests was only available at the top level of the 
 
 #### For tutors
 
-* Learning path: reading confirmation of individual participants can be reset by supervisor
+* Learning path: reading confirmation of individual participants can be reset by coach
 * PDF export for content package content
 
 * * *

@@ -64,7 +64,7 @@ Here is a **quick overview** of the toolbar tools available after activation by 
  * Course calendar: Access to the course-specific calendar
   * Participant list: Overview of course members
   * Participant information: The coach can store central course information here (notifications)
-  * E-mail: Pre-configured by the coach to send e-mails to course owners, supervisors and/or participants
+  * E-mail: Pre-configured by the coach to send e-mails to course owners, coaches and/or participants
   * BigBlueButton (or other virtual classrooms): For synchronous meetings
   * Blog: Access to a central course blog
   * Wiki: Access to a central Wiki for the course

@@ -38,7 +38,7 @@ Here you will find an overview of the rights of the coach.
 | Course element | Rights                      | Additional configuration options |
 | -------------- | --------------------------- | -------------------------------- |
 | Assessment     |Assess participants         | An evaluation of learners is however possible for coaches via the "assessment tool". |
-| Task           | correct tasks, extend deadlines, assess, finish, documents submitted, download                                                                                          | create new task ; Course owners can also assign specific participants to supervisors           |
+| Task           | correct tasks, extend deadlines, assess, finish, documents submitted, download                                                                                          | create new task ; Course owners can also assign specific participants to coaches           |
 | Portfolio task | assess                                                                                                |                             |
 | Grouptask      | only access as group coach of an assigned group (analogous to task)                                                          | create or upload a new task |
 | Test           | Test overview, Insight into performed tests with manual evaluation, Scoring, Correction and cancellation option, but no test configuration |  Communication option if enabled                           |

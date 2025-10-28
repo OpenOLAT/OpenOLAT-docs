@@ -148,7 +148,7 @@ Ins Media Center hochgeladene Medien gehören grundsätzlich einem/einer Besitze
 
 ## Quota {: #quota}
 
-Der im Media Center verfügbare Speicherplatz kann vom OpenOlat Administrator eingeschränkt werden. Wieviel Speicher Ihnen genau zur Verfügung steht und wieviel Sie schon verbraucht haben, sehen Sie links unten.
+Der im Media Center verfügbare Speicherplatz kann vom OpenOlat Administrator eingeschränkt werden. Wie viel Speicher Ihnen genau zur Verfügung steht und wieviel Sie schon verbraucht haben, sehen Sie links unten.
 
 ![media_center_quota_v1_de.png](assets/media_center_quota_v1_de.png){ class=" shadow lightbox" }
 

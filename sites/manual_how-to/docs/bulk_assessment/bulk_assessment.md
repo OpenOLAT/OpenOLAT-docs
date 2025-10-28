@@ -118,7 +118,7 @@ Only the assessable course elements from the selected course are displayed in a 
 
 For bulk assessment, you need a list that includes
 
-* the user identification (username, registered email address or institution number/matriculation number),
+* the user identification (username, registered e-mail address or institution number/matriculation number),
 * the number of points,
 * status 
 * and, if desired, the comment.
