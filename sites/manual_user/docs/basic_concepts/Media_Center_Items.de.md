@@ -10,12 +10,14 @@ Zu jedem im Media Center abgelegten Einzelmedium können Informationen und Einst
 
 ## Tab Übersicht {: #media_center_overview}
 
-**Übersicht:** mit zentralen Details, Aktivitätslog, Bearbeitungsmöglichkeit, Versionierung, Möglichkeit die Datei zu ersetzen
+Der Tab **Übersicht** zeigt die Details Typ, Ersteller:in, Erstellungsdatum und Dateigrösse. Es besteht ausserdem die Möglichkeit den Aktivitätslog anzuzeigen und eine neue Version zu erstellen bzw. das Bild zu ersetzen.
 
 ![media_center_items_tab_overview_v1_de.png](assets/media_center_items_tab_overview_v1_de.png){ class="shadow lightbox" } 
 
 
 ### Aktivitätslog {: #media_center_activitylog}
+
+Im Aktivitätslog kann nachverfolgt werden, wann das Medienelement von wem bearbeitet wurde.
 
 ![media_center_items_tab_overview_activity_v1_de.png](assets/media_center_items_tab_overview_activity_v1_de.png){ class="shadow lightbox" } 
 
@@ -24,7 +26,7 @@ Zu jedem im Media Center abgelegten Einzelmedium können Informationen und Einst
 
 Interessant ist die Möglichkeit Medienelemente zu **versionieren**. So können z.B. verschiedene Arbeitsschritte oder Zwischenstufen gesichert werden. Ein Wechsel zu älteren Versionen ist dann jederzeit möglich.
 
-Mit "Bild ersetzen" wird dagegen in der aktuellen Version das Bild ausgetauscht. Alle sonstigen eingegebenen Metadaten und Einstellungen (z.B. Freigabe) bleiben dabei erhalten. 
+Mit **Bild ersetzen** wird dagegen in der aktuellen Version das Bild ausgetauscht. Alle sonstigen eingegebenen Metadaten und Einstellungen (z.B. Freigaben) bleiben dabei erhalten. 
 
 
 ![media_center_items_tab_overview_new_version_v1_de.png](assets/media_center_items_tab_overview_new_version_v1_de.png){ class="shadow lightbox" } 
@@ -66,7 +68,7 @@ Je nach Art des Medientyps variieren die Informationen und Möglichkeiten der Me
 ---
 
 
-## Tab Verwendung {: #media_center_uses}
+## Tab Verwendungen {: #media_center_uses}
 
 Im Tab "Verwendungen" können Sie nachvollziehen, wo das Medienelement verwendet wird.<br> 
 Durch Klick auf die Verwendungsangabe können Sie direkt an die Stelle in diesem Kurs springen.
