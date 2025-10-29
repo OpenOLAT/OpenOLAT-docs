@@ -90,11 +90,14 @@ In addition, a billing system can also be set up for the implementation.
 
 ## Who can use the Course Planner? {: #users}
 
-After activation of the Course Planner by a system administrator, it is available to all users with the **role "Course Planner"**.
+After activation of the Course Planner by a system administrator, it is available to all users with the **role "Course Planner"**. (When using organisational units, the role course planner may also be restricted to certain organisational units.) 
 
-Administrators and principals also have access.
+**Administrators** and **principals** also have access. (These roles may also be restricted to organisational units.)
 
-Authors and learning resource administrators do not have access to the Course Planner. Their role, rights and tasks focus on content creation.
+Limited to a specific product, **product owners** and **element owners** can access it within their area of responsibility.
+
+Authors and learning resource administrators do not have access to the Course Planner. 
+Their role, rights and responsibilities focus on content creation rather than on the planning, scheduling and administration of courses and implementations.
 
 [To the top of the page ^](#course_planner)
 

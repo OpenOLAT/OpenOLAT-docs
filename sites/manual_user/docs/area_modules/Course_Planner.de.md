@@ -92,12 +92,13 @@ Ausserdem kann auch eine Abrechnung für die Durchführung eingerichtet werden.
 
 ## Wer kann den Course Planner nutzen? {: #users}
 
-Nach der Aktivierung des Course Planners durch einen/eine Systemadministrator:in steht er allen Benutzer:innen mit der **Rolle "Kursplaner:in"** zur Verfügung.
+Nach der Aktivierung des Course Planners durch einen/eine Systemadministrator:in steht er allen Benutzer:innen mit der **Rolle "Kursplaner:in"** zur Verfügung. (Bei Verwendung von Organisationseinheiten, kann die Rolle Kursplaner:innen auch auf bestimmte Organisationseinheiten beschränkt sein.) 
 
-Administrator:innen und Principals haben ebenfalls Zugriff. 
+**Administrator:innen** und **Principals** haben ebenfalls Zugriff. (Auch diese Rollen sind evtl. auf Organisationseinheiten beschränkt.)
 
-Autor:innen und Lernressourcenverwalter:innen haben keinen Zugriff auf den Course Planner. Ihre Rolle, Rechte und Aufgaben fokussieren auf die Content-Erstellung.
+Begrenzt auf ein bestimmtes Produkt können die **Produktbesitzer:innen** und **Elementbesitzer:innen** im Rahmen ihres Zuständigkeitsbereichs zugreifen.
 
+Autor:innen und Lernressourcenverwalter:innen haben keinen Zugriff auf den Course Planner. Ihre Rolle, Rechte und Aufgaben fokussieren auf die Content-Erstellung, weniger auf die Planung, Terminierung und Administration von Kursen und Durchführungen.
 
 [Zum Seitenanfang ^](#course_planner)
 
