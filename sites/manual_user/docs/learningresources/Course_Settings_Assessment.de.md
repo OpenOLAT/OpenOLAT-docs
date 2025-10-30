@@ -144,7 +144,12 @@ Anhand des Ausstellungsdatums sowie des Ablaufdatums des Zertifikats können [Er
 
 **Zertifikatsvorlage erstellen**
 
-Als Vorlage für das Zertifikat dient in der Regel eine systemweite, vom Administrator festgelegte PDF-Vorlage. Wenn Sie eine eigene Vorlage verwenden möchten, können Sie diese unter  **Zertifikatvorlage**  hochladen.
+Als Vorlage für das Zertifikat dient in der Regel eine systemweite, vom Administrator festgelegte PDF-Vorlage. Wenn Sie eine eigene Vorlage verwenden möchten, können Sie diese im Kurs unter **Administration > Einstellungen > Bewertung > Abschnitt "Zertifikat" > Zertifikatvorlage** hochladen.
+
+!!! hint "Hinweis"
+
+    Wenn Sie den Button "**Vorschau**" verwenden, wird Ihnen immer nur ein Dummy angezeigt.
+    In einer Vorschau werden grundsätzlich nur Dummy-Daten verwendet und keine echten Werte aus der Datenbank. Es steht z.B. überall das aktuelle Datum. Es soll gar nicht der Eindruck entstehen, dass das ein echtes Zertifikat sein könnte. Eine Vorschau muss absichtlich und offensichtlich falsch sein.
 
 Eine PDF-Vorlage ist keine gewöhnliche PDF-Datei, sondern muss mit HTML erzeugt werden, um Layout und Variablen zu gewährleisten.
 

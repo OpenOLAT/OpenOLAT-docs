@@ -144,7 +144,12 @@ To check the validity of the certificate, the "certificateVerificationUrl" attri
 
 **Create certificate template**
 
-A system-wide PDF template defined by the administrator is usually used as a template for the certificate. If you would like to use your own template, you can upload it under **Certificate template**.
+A system-wide PDF template defined by the administrator is usually used as a template for the certificate. If you would like to use your own template, you can upload it in the course under **Administration > Settings > section "Certificate" > Certificate template**.
+
+!!! hint "Note"
+
+    When you use the ‘**Preview**’ button, only a dummy is displayed.
+    A preview always uses dummy data and not real values from the database. For example, the current date is displayed everywhere. It should not give the impression that this could be a real certificate. A preview must be deliberately and obviously incorrect.
 
 A PDF template is not an ordinary PDF file, but must be created with HTML to ensure layout and variables.
 
