@@ -21,14 +21,14 @@
 
 ## Wo finde ich den OpenOlat-Katalog? {: #catalog_where}
 
-### a) Als registrierte:r Benutzer:in
+### a) Als registrierte:r Benutzer:in {: #catalog_where_reg}
 
 OpenOlat-Benutzer:innen sehen in der Kopfzeile meistens "Kurse" und "Gruppen", wenn sie Teilnehmer:innen sind. Autor:innen sehen zusätzlich den "Autorenbereich". Aber die Optionen in der Kopfzeile können variieren. Je nach Rolle oder aktivierten Modulen, können weitere Einträge in der Kopfzeile dazu kommen. So z.B. auch der Katalog. Wurde von Ihrem/Ihrer Administrator:in der [Katalog (Version 2.0)](../../manual_user/area_modules/catalog2.0.de.md) aktiviert, finden Sie den Eintrag "Katalog" im Menü der Kopfzeile. Wird kein Katalog im Menü angezeigt, wenden Sie sich bitte an Ihren/Ihre Administrator:in.
 
 ![katalog_menu_kopfzeile_v1_de.png](assets/katalog_menu_kopfzeile_v1_de.png){ class="shadow lightbox" }  
 
 
-### b) Ohne Registrierung
+### b) Ohne Registrierung (externer Web-Katalog) {: #catalog_where_nonreg}
 
 In OpenOlat können auch Angebote hinterlegt werden, die in einem externen Katalog angezeigt werden. "Extern" bedeutet, dass der Katalog nach ausserhalb der "Registrierungsmauer" gespiegelt wird und dort ohne Registrierung aufgerufen werden kann. Die Ausgangsversion des Katalogs (innerhalb der "Registrierungsmauer"), die nur von registrierten Benutzer:innen aufgerufen werden kann, muss ein Katalog V2 sein. Ein Katalog V1 kann nicht als externer Katalog angezeigt werden.
 
@@ -42,6 +42,7 @@ Auch [direkte Links zu einem bestimmten Angebot](../../manual_user/area_modules/
 
 ![catalog20_ext_catalog_login_v1_de.png](assets/catalog20_ext_catalog_login_v1_de.png){ class="shadow lightbox" } 
 
+[Weitere Informationen zum externen Katalog >](../../manual_user/area_modules/catalog2.0_web.de.md)
 
 !!! tip "Hinweis"
 

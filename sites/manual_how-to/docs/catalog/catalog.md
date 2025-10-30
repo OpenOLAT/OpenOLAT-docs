@@ -21,14 +21,14 @@
 
 ## Where do I find the OpenOlat catalog? {: #catalog_where}
 
-### a) As a registered user
+### a) As a registered user {: #catalog_where_reg}
 
 OpenOlat users mostly see "Courses" and "Groups" in the header if they are participants. Authors additionally see "Authoring". But the options in the header can vary. Depending on the role or activated modules, more entries can be added to the header, for example, the catalog. If the [catalog 2.0](../../manual_user/area_modules/catalog2.0.md) has been activated by your administrator, you will find the entry "Catalog" in the menu of the header.	If no catalog is displayed in the menu, please contact your administrator.
 
 ![catalog_menu_header_v1_en.png](assets/catalog_menu_header_v1_en.png){ class="shadow lightbox" }  
 
 
-### b) Without registration
+### b) Without registration (external Web catalog) {: #catalog_where_nonreg}
 
 In OpenOlat, you can also store offers that are displayed in an external catalog. "External" means that the catalog is mirrored outside the "registration wall" and can be accessed there without registration. The initial version of the catalog (within the "registration wall"), which can only be accessed by registered users, must be a V2 catalog. A V1 catalog cannot be displayed as an external catalog.
 
@@ -41,6 +41,8 @@ However, the link can also be incorporated elsewhere, e.g., into a website, or s
 [Direct links to a specific offer](../../manual_user/area_modules/catalog2.0_web.md) can also be sent.
 
 ![catalog20_ext_catalog_login_v1_de.png](assets/catalog20_ext_catalog_login_v1_de.png){ class="shadow lightbox" } 
+
+[Further informationen on the external catalog >](../../manual_user/area_modules/catalog2.0_web.md)
 
 !!! tip "Note"
 

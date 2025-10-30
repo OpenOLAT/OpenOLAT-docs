@@ -16,7 +16,7 @@ If the user decides to attend a course, it can be accessed directly from the cat
 
 ## Where can I find the catalog 2.0? {: #catalog_access}
 
-This depends on whether you are already registered as user:in in OpenOlat or not.
+The catalog can be made available to both registered and unregistered users. Where you can access the catalogue depends on whether you are already registered as a user in OpenOlat or not.
 
 The **registered OpenOlat users** can find the catalog in the **header menu**.
 
@@ -32,6 +32,7 @@ Requirement: The catalog must be activated in the [administration](../../manual_
 
 ![catalog20_webcatalog_login_v1_de.png](assets/catalog20_webcatalog_login_v1_de.png){ class="shadow lightbox" }
 
+[Further informationen on the external catalog >](../../manual_user/area_modules/catalog2.0_web.md)<br>
 [To the top of the page ^](#catalog_overview)
 
 ---

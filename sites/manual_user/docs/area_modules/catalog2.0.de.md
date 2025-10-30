@@ -15,7 +15,7 @@ Entscheidet sich der/die Benutzer:in zum Besuch eines Kurses, kann dieser direkt
 
 ## Wo findet man den Katalog 2.0? {: #catalog_access}
 
-Das hängt davon ab, ob Sie bereits als Benutzer:in in OpenOlat registriert sind oder nicht.
+Der Katalog kann sowohl registrierten wie auch nicht registrierten Benutzer:innen zugänglich gemacht werden. Wo Sie den Katalog aufrufen können, hängt davon ab, ob Sie bereits als Benutzer:in in OpenOlat registriert sind oder nicht.
 
 Die **registrierten OpenOlat-User** finden den Katalog im **Menü der Kopfzeile**.
 
@@ -31,6 +31,7 @@ Voraussetzung: Der Katalog muss in der OpenOlat [Administration](../../manual_ad
 
 ![catalog20_webcatalog_login_v1_de.png](assets/catalog20_webcatalog_login_v1_de.png){ class="shadow lightbox" }
 
+[Weitere Informationen zum externen Katalog >](../../manual_user/area_modules/catalog2.0_web.de.md)<br>
 [Zum Seitenanfang ^](#catalog_overview)
 
 ---
