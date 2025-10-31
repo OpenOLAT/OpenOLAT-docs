@@ -7,11 +7,11 @@
 
 Ein Bildungsprogramm/Produkt (aus einem oder mehreren Kursen bestehend) kann mehrfach angeboten und durchgeführt werden. Jede Durchführung kann zu einem anderen Termin stattfinden und an jeder Durchführung sind dann andere Teilnehmer:innen dabei.
 
-In einem Bildungsprogramm/Produkt werden zu jeder Durchführung ein oder mehrere Kurse zugeordnet. 
+In einem Bildungsprogramm/Produkt werden zu jeder Durchführung ein oder mehrere Kurse zugeordnet. Der oder die mehrfach verwendeten Kurse sind nur einmal vorhanden.
 
-Der oder die mehrfach verwendeten Kurse sind nur einmal vorhanden und Templates. Die Kurse werden für jede Durchführung instanziert (aus der Template-Vorlage erstellt). Diese Instanzierung kann auch automatisiert zu einem bestimmten Termin erfolgen. Z.B. einige Tage vor Beginn einer Durchführung. Bis dahin können die Kursbesitzer:innen noch an der Fertigstellung der Kurse (Templates) arbeiten. Das Organisatorische kann aber mit dem Course Planner bereits vorbereitet sein.
+Soll ein Kurs mehrfach verwendet werden und dabei immer genau gleich bleiben, kann er auch als Template angelegt werden. Die Kurse werden dann für jede Durchführung instanziert (aus der Template-Vorlage erstellt). Diese Instanzierung kann auch automatisiert zu einem bestimmten Termin erfolgen. Z.B. einige Tage vor Beginn einer Durchführung. Bis dahin können die Templatebesitzer:innen noch an der Fertigstellung der Template-Kurse arbeiten. Das Organisatorische zur Durchführung (Termin, Katalogangebot, usw.) kann aber mit dem Course Planner bereits vorbereitet sein.
 
-Von diesem Konzeptidee her, werden in der Regel in jeder Durchführung die gleichen Kurse zugeordnet und verwendet. Es ist aber in OpenOlat auch möglich, die Inhalte in jeder Durchführung anzupassen.
+Von dieser Konzeptidee her, werden in der Regel in jeder Durchführung die gleichen Kurse zugeordnet und verwendet. Es ist aber in OpenOlat auch möglich, die Inhalte in jeder Durchführung anzupassen.
 
 [zum Seitenanfang ^](#implementations)
 
@@ -71,6 +71,7 @@ Im Tab "Übersicht" werden Ihnen die nächsten Termine, die Angebote im Katalog 
 
 ### Tab Struktur {: #tab_structure}
 
+Wenn es sich um eine strukturierte Durchführung handelt (der Typ wird beim Erstellen einer neuen Durchführung ausgewählt) wird das Tab "Struktur angezeigt.
 In der angezeigten Baumstruktur kann jedes einzelne Element der Durchführung bearbeitet werden, bzw. es können Informationen dazu abgefragt werden.
 
 ![course_planner_implementations_tab_structure1_v1_de.png](assets/course_planner_implementations_tab_structure1_v1_de.png){ class="shadow lightbox" }
@@ -108,6 +109,26 @@ Die Option zum **Entfernen** eines **einzelnen Kurses** aus dieser Durchführung
 Für das **Entfernen mehrerer Kurse** markieren Sie die Kurse mit den Checkboxen der ersten Spalte. Dann wird Ihnen ein Button zum Entfernen über der Liste angezeigt.
 
 ![course_planner_implementations_tab_content_v1_de.png](assets/course_planner_implementations_tab_content_v1_de.png){ class="shadow lightbox" }
+
+<br>
+
+**Kurstemplates als Kursinhalt**<br>
+Wenn es dem gewählten Durchführungstyp (Einzelkurs erforderlich) entspricht, besteht die Möglichkeit auch ein Kurstemplate hinzuzufügen, das zu einem späteren Zeitpunkt instanziert werden kann. Das heisst, zum Zeitpunkt der Planung im Course Planner ist ein Kurs nur angekündigt, aber noch nicht hinzugefügt. Erst wenn die Kursdurchführung tatsächlich stattfindet, weil z.B. genügend Buchungsaufträge vorhanden sind, wird der Kurs der Durchführung hinzugefügt (instanziert). 
+
+Die Verwendung eines Templates zur Instanzierung empfiehlt sich, wenn es sich um einen immer wiederkehrenden gleichen Kurs handelt.
+
+![course_planner_implementations_tab_content_template1_v1_de.png](assets/course_planner_implementations_tab_content_template1_v1_de.png){ class="shadow lightbox" }
+
+Die Buttons "Kurs hinzufügen" und "Kurstemplates hinzufügen" werden inaktiv, sobald die Anzahl Kurse oder Templates hinzugefügt ist, die dem gewählten Durchführungstyp entsprechen.
+
+**Erstellung von Kurstemplates**<br>
+Kurstemplates werden erstellt, indem im Kurs unter **Administration > Einstellungen > Freigabe > Verwendungszweck** die Option "Template" gewählt wird. 
+Die Templates für Kursinhalte im Course Planner sind ohne eigenständige Mitgliederverwaltung, da die Mitglieder für jede Durchführung im Course Planner hinzugefügt werden.
+
+
+!!! hint "Hinweis"
+
+    Templates werden kopiert. Bei späterer Änderung des Templates bleibt die früher erstellte Kopie unverändert.
 
 [zum Seitenanfang ^](#implementations)
 
@@ -225,7 +246,8 @@ Für jede Durchführung können hier separat Einstellungen vorgenommen werden f�
 
 ### Tab Absenzen {: #tab_absences}
 
-Dieser Tab erscheint nur, wenn auf dem Element die Absenzen aktiviert wurden.
+Dieser Tab erscheint nur, wenn auf dem Element die Absenzen aktiviert wurden. 
+<Wie wird aktiviert?>
 
 ![course_planner_implementations_tab_absences_v1_de.png](assets/course_planner_implementations_tab_absences_v1_de.png){ class="shadow lightbox" }
 

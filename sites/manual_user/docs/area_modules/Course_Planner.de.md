@@ -24,6 +24,12 @@ Sie können natürlich auch ohne Course Planner OpenOlat-Kurse erstellen. Mit de
 | x                                | zentrale Steuerung und Verwaltung mehrerer Kurse          |
 
 
+Mit dem Course Planner gemanaged werden können
+
+* Einzelkurse
+* Course Bundles
+* strukturierte Bildungsgänge/Produkte
+
 [Zum Seitenanfang ^](#course_planner)
 
 ---
@@ -53,13 +59,13 @@ Mit dem Course Planner können für einen Kurs mehrere Durchführungen erstellt 
 
 Diese administrative Planungsarbeit kann von einem/einer Kursplaner:in auch schon gemacht werden, wenn der Kurs noch nicht erstellt wurde oder noch nicht in endgültiger Version vorliegt.
 
-![course_planner_planning_single_course1_v1_de.png](assets/course_planner_planning_single_course1_v1_de.png){ class="shadow lightbox" } 
+![course_planner_planning_single_course1_v2_de.png](assets/course_planner_planning_single_course1_v2_de.png){ class="shadow lightbox" } 
 
 Unabhängig von diesen administrativen Aufgaben (durchgeführt von einem/einer Kursplaner:in) kann ein Kurs von Autor:innen als Template erstellt und dann in alle Durchführungen eingebunden werden. 
 
 Die Instanzierung der Kurse kann auch automatisch auf einen bestimmbaren Termin vorgenommen werden.
 
-![course_planner_planning_single_course2_v1_de.png](assets/course_planner_planning_single_course2_v1_de.png){ class="shadow lightbox" } 
+![course_planner_planning_single_course2_v2_de.png](assets/course_planner_planning_single_course2_v2_de.png){ class="shadow lightbox" } 
 
 Die Mitglieder können z.B. direkt durch Selbstbuchung eines Angebots im Katalog zu den einzelnen Durchführungen hinzugefügt werden.
 
@@ -67,7 +73,7 @@ Die Mitglieder können z.B. direkt durch Selbstbuchung eines Angebots im Katalog
 
     Kursmitglied im Template-Kurs sind dann lediglich noch die Kurs-Besitzer:innen mit Autor:innen-Rolle.
 
-![course_planner_planning_single_course3_v1_de.png](assets/course_planner_planning_single_course3_v1_de.png){ class="shadow lightbox" } 
+![course_planner_planning_single_course3_v2_de.png](assets/course_planner_planning_single_course3_v2_de.png){ class="shadow lightbox" } 
 
 
 [Zum Seitenanfang ^](#course_planner)

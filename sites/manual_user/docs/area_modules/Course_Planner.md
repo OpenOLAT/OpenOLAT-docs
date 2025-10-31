@@ -25,6 +25,11 @@ Of course, you can also create OpenOlat courses without Course Planner. However,
 | x                                | Central tendering of several courses                    |
 | x                                | Central control and management of multiple courses          |
 
+The Course Planner can be used to manage
+
+* single courses
+* course bundles
+* structured educational programs/products
 
 [To the top of the page ^](#course_planner)
 
@@ -53,13 +58,13 @@ The Course Planner can be used to create several courses for a course and offer 
 
 This administrative planning work can be done by a course planner even if the course has not yet been created or is not yet available in its final version.
 
-![course_planner_planning_single_course1_v1_de.png](assets/course_planner_planning_single_course1_v1_de.png){ class="shadow lightbox" } 
+![course_planner_planning_single_course1_v2_de.png](assets/course_planner_planning_single_course1_v2_de.png){ class="shadow lightbox" } 
 
 Independently of these administrative tasks (carried out by a course planner), a course can be created by authors as a template and then integrated into all courses.
 
 The courses can also be instantiated automatically on a definable date.
 
-![course_planner_planning_single_course2_v1_de.png](assets/course_planner_planning_single_course2_v1_de.png){ class="shadow lightbox" } 
+![course_planner_planning_single_course2_v2_de.png](assets/course_planner_planning_single_course2_v2_de.png){ class="shadow lightbox" } 
 
 For example, members can be added directly to the individual tours by booking an offer themselves in the catalog.
 
@@ -67,7 +72,7 @@ For example, members can be added directly to the individual tours by booking an
 
     Course members in the template course are then only the course owners with the author role.
 
-![course_planner_planning_single_course3_v1_de.png](assets/course_planner_planning_single_course3_v1_de.png){ class="shadow lightbox" } 
+![course_planner_planning_single_course3_v2_de.png](assets/course_planner_planning_single_course3_v2_de.png){ class="shadow lightbox" } 
 
 [To the top of the page ^](#course_planner)
 
