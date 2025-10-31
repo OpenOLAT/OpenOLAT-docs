@@ -80,9 +80,26 @@ Die Mitglieder können z.B. direkt durch Selbstbuchung eines Angebots im Katalog
 
 ---
 
+
+## Planung für Course Bundles {: #planning_course_bundles}
+
+So wie für einen Einzelkurs mehrere Durchführungen erstellt werden können, können auch für ein ganzes Kurspaket (Course Bundle) Durchführungen erstellt und im Katalog angeboten werden.
+
+Wenn gewünscht, kann in den einzelnen Durchführungen die Zusammenstellung der Kurse/Lernressourcen auch modifiziert werden und abweichend von der Standarddurchführung ("Kopiervorlage") zusammengesetzt sein.
+
+![course_planner_planning_course_bundles_v1_de.png](assets/course_planner_planning_course_bundles_v1_de.png){ class="shadow lightbox" } 
+
+[Zum Seitenanfang ^](#course_planner)
+
+---
+
+
 ## Planung für strukturierte Bildungsgänge {: #planning_structured_product}
 
-Auch wenn Teilnehmer:innen ein Bildungsprodukt bestehend aus mehreren Kursen absolvieren sollen, werden sie zu Mitgliedern einer bestimmten Durchführung gemacht. (Nicht zu Mitgliedern einzelner Kurse oder zu Mitgliedern des Bildungsprodukt-Templates.) 
+Strukturierte Produkte/Bildungsgänge weisen gegenüber Course Bundles zusätzlich eine 
+Gliederung in Baumstruktur auf. Sie enthalten Strukturelemente. 
+
+Auch wenn Teilnehmer:innen ein Bildungsprodukt absolvieren sollen, werden sie zu Mitgliedern einer bestimmten Durchführung gemacht. (Nicht zu Mitgliedern einzelner Kurse oder zu Mitgliedern der Bildungsprodukt-Vorlage.) 
 
 ![course_planner_planning_structured_product1_v1_de.png](assets/course_planner_planning_structured_product1_v1_de.png){ class="shadow lightbox" }  
 
