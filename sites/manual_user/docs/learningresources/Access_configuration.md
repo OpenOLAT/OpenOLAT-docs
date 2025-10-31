@@ -52,13 +52,15 @@ By default, users can leave a course or learning resource at any time.
 
 ### Administrative release
 
-Here you can define for which organization/sub-organization (if set up) the course is released for the administrative roles. These include: other authors(depending on rights), learning resource administrators, principals, administrators.
+Here you can define for which organization/sub-organization (if set up) the course is released for the administrative roles. These include: other authors (depending on rights), learning resource administrators, principals, administrators.
 
-Furthermore, the tab "Share" can be used to define which additional rights other authors have to the learning resource.
+Furthermore, the tab "Share" can be used to define which additional rights other authors have to the learning resource or course.
+These rights generally apply to all OpenOlat authors in the instance! 
+The only requirement for visibility to other authors is that the learning resource is no longer in ‘Preparation’ status.
 
 Authors can | Description  
 ---|---  
-reference | Learning resources such as glossary, form or test can be integrated in courses of other authors.  
+reference | Learning resources such as glossary, form, video or test can be integrated in courses of other authors. Complete courses can also be integrated into groups. 
 copy | The learning resource can be copied by other authors.  
 download | The learning resource is available for download by other authors and can also be imported back into OpenOlat.  
 

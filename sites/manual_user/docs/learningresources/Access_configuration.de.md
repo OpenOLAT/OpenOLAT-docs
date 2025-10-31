@@ -60,12 +60,13 @@ Standardmässig können Benutzer einen Kurs bzw. eine Lernressource zu jeder Zei
 Hier kann festgelegt werden, für welche Organisation / Unterorganisation (wenn eingerichtet) der Kurs für die Administrativen Rollen freigegeben ist. Diese umfassen: Andere Autoren (je nach Recht), Lernressourcenverwalter, Principals, Administratoren.
 
 Des Weiteren kann im Tab "Freigabe" festgelegt werden, welche zusätzlichen
-Rechte andere OpenOlat Autoren an der Lernressource bzw. dem Kurs haben. Dabei
-gelten die Rechte generell für alle OpenOlat Autoren der Instanz!
+Rechte andere OpenOlat Autor:innen an der Lernressource bzw. dem Kurs haben. Dabei
+gelten die Rechte generell für alle OpenOlat Autor:innen der Instanz! 
+Voraussetzung für die Sichtbarkeit für andere Autor:innen ist dann nur, dass die Lernressource nicht mehr im Status "Vorbereitung" ist.
 
 Autoren können | Erklärung  
 :-----|:------------------
-referenzieren | Lernressourcen wie zum Beispiel Glossar, Formular oder Test können in Kursen anderer Autoren eingebunden werden kann.   
+referenzieren | Lernressourcen wie zum Beispiel Glossar, Formular, Video oder Test können in Kursen anderer Autoren eingebunden werden kann. Komplette Kurse können auch in Gruppen eingebunden werden.
 kopieren | Die Lernressource kann von allen anderen Autoren kopiert und so weitergenutzt und in der kopierten Variante auch verändert werden. 
 exportieren | Die Lernressource ist für alle andere Autoren zum Download freigegeben und kann auch wieder in OpenOlat importiert werden. 
   
