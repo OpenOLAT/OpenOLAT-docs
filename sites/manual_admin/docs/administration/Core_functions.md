@@ -1,6 +1,6 @@
 # Core functions: Overview {: #core_config}
 
-![admin_core_config_overview_v1_de.png](assets/admin_core_config_overview_v1_de.png){ class="shadow lightbox aside-left-lg" }
+![admin_core_config_overview_v2_de.png](assets/admin_core_config_overview_v2_de.png){ class="shadow lightbox aside-left-lg" }
 
 In the Core Configuration area, administrators have access to the adjacent menu.
 
