@@ -8,6 +8,7 @@ In this area, the OpenOlat administrators can switch various external tools on a
 
 ## BigBlueButton {: #bbb}
 
+BigBlueButton is software that enables online conferences or can serve as a virtual classroom.
 To enable web conferences with BigBlueButton in OpenOlat, BBB must be activated and configured in the administration.
  
 [See the details >](BigBlueButton_module.md)<br>
@@ -18,16 +19,9 @@ To enable web conferences with BigBlueButton in OpenOlat, BBB must be activated 
 
 OpenMeetings is a solution for web conferences.
 
-In the OpenOlat system administration you can configure the OpenMeetings
-module and activate the functionality. To configure the OpenMeetings module,
-enter the URL of the OpenMeetings server in the tab "Configuration", as well
-as the username of the web service previously created in OpenMeetings and the
-corresponding password. Then save the data and press the "Check the
-connection" button to check the connection data.
+In the OpenOlat system administration you can configure the OpenMeetings module and activate the functionality. To configure the OpenMeetings module, enter the URL of the OpenMeetings server in the tab "Configuration", as well as the username of the web service previously created in OpenMeetings and the corresponding password. Then save the data and press the "Check the connection" button to check the connection data.
 
-If the module is switched on and the connection parameters to the OpenMeetings
-server are correct, OpenOlat can create and use OpenMeetings rooms in the
-following locations:
+If the module is switched on and the connection parameters to the OpenMeetings server are correct, OpenOlat can create and use OpenMeetings rooms in the following locations:
 
   * In courses with the course element OpenMeetings. Each course element creates a corresponding room on the OpenMeetings server.
   * In groups with the OpenMeetings group tool. Each group has its own OpenMeetings room that can be used like any other group tool.
@@ -65,6 +59,7 @@ The prerequisite is that the required licenses are available.
 
 ## Zoom {: #zoom}
 
+Zoom is software that can be used to hold video conferences, meetings, and webinars.
 To enable Zoom meetings in OpenOlat, Zoom must be activated and configured in the administration. 
 
 [View more details >](Zoom.md)
@@ -215,7 +210,7 @@ Possibility to activate external analytics services., e.g. Google Analytics.
 [To the top of the page ^](#ext_tools)
 
 
-## KI Modul {: #ki_modul}
+## AI Module {: #ki_modul}
 
 This is where you activate and configure the artificial intelligence tools that can be integrated into OpenOlat. 
 

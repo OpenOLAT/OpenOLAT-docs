@@ -1,6 +1,6 @@
 # Course Element "SCORM Learning Content" {: #course_element_scorm}
 
-## Profile
+## Profile {: #profile}
 
 Name | SCORM learning content
 ---------|----------
@@ -15,7 +15,7 @@ SCORM means "Sharable Content Object Reference Model" and is another standardize
 
 Go to your course and add a course element "SCORM learning content" to the course. Afterwards you can configure the course in the tab "Learning content".
 
-## Tab Learning Content
+## Tab Learning Content {: #learning_content}
 
 In the first step, select or import a SCORM content. Click "Import" to upload a new SCORM package, or select an existing SCORM package from your entries. SCORM packages can either be imported to the course editor or by means of the "Authoring;" for further information please go to the chapter "Actions in the 'Authoring' section", section ["Import"](../area_modules/authoring_new_course.md#import-learning-resources). If you have not selected a ZIP file as SCORM learning content yet the message _No SCORM learning content selected_ will appear in the title **Selected SCORM learning content**.
 
@@ -84,7 +84,7 @@ In the "Layout" tab you can define the settings for the display of the SCORM pac
     SCORM learning content will always be presented with a homepage. If such content contains tasks as well as tests you will learn from that homepage more about your score and remaining attempts to take tests.
 
 
-### Tab Badges
+### Tab Badges {: #badges}
 
 If the course owner has activated the assignment of badges under **Administration > Settings > Assessment tab > Badges section**, the ‘Badges’ tab is displayed in the course editor for this course element and a specific badge can be created for this course element.
 

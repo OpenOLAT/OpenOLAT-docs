@@ -19,7 +19,7 @@ You will find the Video Collection in the main menu of the header. It is a kind 
 
 The Video Collection lists video learning resources of your OpenOlat instance.
 
-* This includes
+This includes
   * videos uploaded in OpenOlat
   * videos imbedded by url.
 * provided they are released.

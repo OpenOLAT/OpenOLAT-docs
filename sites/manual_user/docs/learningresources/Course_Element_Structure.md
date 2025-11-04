@@ -1,6 +1,6 @@
 # Course Element "Structure" {: #course_element_structure}
 
-## Profile
+## Profile {: #profile}
 
 Name | Structure
 ---------|----------
@@ -42,14 +42,14 @@ The central settings are made in the "Overview" tab.You can choose between four 
 
     If you have chosen your own HTML page and this contains links to graphics or other files stored in OpenOlat, you must select the option "Allow links in the entire storage folder" under "Security settings". You can also allow coaches to edit the HTML page without access to the course editor.
 
-## Tab Highscore
+## Tab Highscore {: #highscore}
 
 Here you can activate and configure the high score display. You can display a congratulation title, a winner's podium, a histogram as well as a highscore list. An anonymized representation is also possible here.
 
 Auch hier ist eine anonymisierte Darstellung möglich. It also contains the tab "[Reminders](../learningresources/Course_Reminders.md)" and can neither be deleted nor moved.
 
 
-## Tab Badges
+## Tab Badges {: #badges}
 
 If the course owner has activated the assignment of badges under **Administration > Settings > Assessment tab > Badges section**, the "Badges" tab is displayed in the course editor for this course element and a specific badge can be created for this course element.
 
@@ -60,7 +60,7 @@ If the course owner has activated the assignment of badges under **Administratio
 ## Special settings of the course element structure depending on the course type
 
 
-### Settings for learning path courses
+### Settings for learning path courses {: #learning_path_course_settings}
 
 The settings in the tab "Learning path" basically differ from the settings in other course elements. For learning path courses, the course element structure defines whether the sequence of learning steps is sequential (one after the other) or not. There is no specific completion criterion for structure elements.
 
@@ -68,7 +68,7 @@ The settings in the tab "Learning path" basically differ from the settings in ot
 
 Further information on the tab can be found [here](../learningresources/Learning_path_course_Course_editor.md) 
 
-### Settings for conventional courses
+### Settings for conventional courses {: #conventional_course_settings}
 
 #### Tab Score  {: #score}
 
@@ -107,7 +107,8 @@ For the user, the performance overview is as follows:
     Use distinct short titles for all of your assessable course elements to be able to clearly distinguish them in the tab "Score."
 
 
-#### Tab Access
+#### Tab Access {: #access}
+
 The course element "Structure" and thus its subordinate course elements can be protected with a password.
 
 !!! warning "Attention"

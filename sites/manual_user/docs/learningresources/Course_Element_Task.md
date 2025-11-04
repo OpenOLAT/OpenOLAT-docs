@@ -465,7 +465,7 @@ All steps of a task (workflow) are displayed to course participants directly in 
 
 ![course_element_task_participant_view1_v1_de.png](assets/course_element_task_participant_view1_v1_de.png){ class="shadow lightbox" }
 
-!!! note "Quick Links: Complete tasks (Course participant perspective)
+!!! note "Quick Links: Complete tasks (Course participant perspective)"
 
     * [Download assigned tasks](#process_task_download)
     * [Who coaches me?](#process_task_my_coach)

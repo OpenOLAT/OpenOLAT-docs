@@ -1,6 +1,6 @@
 # Course Element "Survey" {: #course_element_survey}
 
-## Profile
+## Profile {: #profile}
 
 Name | Survey
 ---------|----------
@@ -27,14 +27,14 @@ If you have not yet created a form for surveys, take a look at the [How-to secti
 
 Further information on the subject of questionnaires and surveys can be found in the chapter "[Forms](../learningresources/Form.md)" and the corresponding subchapters.
 
-## Forms in surveys
+## Forms in surveys {: #forms_in_surveys}
 
 The learning resource form is used in the course element "Survey" in the form of a questionnaire. Course owners can thus include questionnaires in their course and learners can complete the surveys provided. The results are displayed to the course owners and coaches then accordingly.
 
 OpenOlat ensures that course participants can only fill out the survey or questionnaire once. The results are stored anonymously by default. However, personalization is possible by selecting the appropriate form elements [Form Editor](../learningresources/Form_Editor.md)
 
 
-### Course editor
+### Course editor {: #course_editor}
 
 Go to the course editor and add the course element Survey. After you have added the course element Survey to the course, the following tabs will be available in the course editor:
 
@@ -44,7 +44,7 @@ In the tab "Title and description" as well as "Layout" general descriptions and 
 
 Classic courses, on the other hand, have the Visibility and Access tabs. Here you define who can see or edit this course element.
 
-#### Tab "Survey"
+#### Tab "Survey" {: #survey}
 
 The central configuration is done in the "Survey" tab. Here, in the first step, either a new form is created or an existing one is selected. In the overview that appears, all forms for which one is the owner are displayed and can be selected simply by clicking on the checkmark and thus added to the course.
 
@@ -81,7 +81,7 @@ Also the results can be released to all these groups and associated with a start
  
 If a form is included as a survey in a course, the form can be modified in a limited way in the course via the "edit" button. Texts can be changed but individual blocks can no longer be moved or new areas can be created or deleted. The message "The resource is already used..." appears in the form.
 
-### View
+### View {: #view}
 
 What owners, coaches and participants see when the editor is closed depends on what user permissions are selected in the Survey tab. If the respective group of persons has the right to fill in the questionnaire (participation by...), then they will see the respective questionnaire first. As soon as the person has filled out the questionnaire, the questionnaire statistics overview appears directly at the respective survey module, provided that the results are also visible for the user group.
 
@@ -95,7 +95,7 @@ The survey can be filled out only once and cannot be changed after it has been s
 
 If a group of persons is neither authorized to fill in the questionnaire nor to see the results, the message "no access" appears.
 
-### View the results of a survey
+### View the results of a survey {: #view_survey_results}
 
 The following evaluation tabs are available for the authorized persons:
 
@@ -115,7 +115,7 @@ The same assessment can be found in the menu `Administration > Questionnaire sta
 
 The results can also be saved as part of the [course archiving](../learningresources//Course_Archiving.md). It is even possible to bundle the results of several course elements in one zip file.
 
-### Reset surveys
+### Reset surveys {: #reset surveys}
 
 Course owners can also "Reset" already completed questionnaires via the link in the 3-point menu of the respective course element. In this case, all questionnaires already submitted for this survey will be deleted. It is not possible to reset individual questionnaires, as the submission is anonymous.
 

@@ -1,6 +1,6 @@
 # Kursbaustein "SCORM-Lerninhalt" {: #course_element_scorm}
 
-## Steckbrief
+## Steckbrief {: #profile}
 
 Name | SCORM-Lerninhalt
 ---------|----------
@@ -15,7 +15,7 @@ SCORM steht für "Sharable Content Object Reference Model" und ist ein standardi
 
 Gehen Sie in Ihren Kurs und fügen Sie einen Kursbaustein "SCORM-Lerninhalt" dem Kurs hinzu. Anschließend können Sie im Tab "Lerninhalt" die weitere Konfiguration vornehmen.
 
-## Tab Lerninhalt
+## Tab Lerninhalt {: #learning_content}
 
 Wählen oder importieren Sie im ersten Schritt einen SCORM Inhalt. Klicken Sie auf "Importieren", um ein neues SCORM-Paket hochzuladen, oder wählen Sie ein bestehendes SCORM-Paket aus Ihren Einträgen aus. SCORM-Pakete können nicht nur im Kurseditor, sondern auch im "Autorenbereich" importiert werden, was im Kapitel "Aktionen im Autorenbereich" unter dem Punkt ["Importieren"](../area_modules/authoring_new_course.de.md#lernressourcen-importieren) erklärt wird. Wenn Sie noch keine ZIP-Datei als SCORM-Lerninhalt ausgewählt haben, erscheint beim Titel **Gewählter SCORM-Lerninhalt** die Meldung _Kein SCORM-Lerninhalt ausgewählt_.
 
@@ -84,7 +84,8 @@ Im Tab "Layout" definieren Sie die Einstellungen für die Anzeige des SCORM- Ler
     SCORM-Lerninhalte werden stets mit Startseite angezeigt. Wenn ein SCORM-Lerninhalt Aufgaben und Tests beinhaltet, werden auf dieser Startseite die erreichte Punktzahl und die verbleibenden Versuche, den Lerninhalt erfolgreich zu absolvieren, ermittelt.
 
 
-### Tab Badges
+### Tab Badges {: #badges}
+
 Wurde von dem/der Kursbesitzer:in unter **Administration > Einstellungen > Tab Bewertung > Abschnitt Badges** die Vergabe von Badges aktiviert, wird im Kurseditor zu diesem Kursbaustein der Tab "Badges" angezeigt und es kann ein spezifischer Badge für diesen Kursbaustein erstellt werden.
 
 [Zum Seitenanfang ^](#course_element_scorm)

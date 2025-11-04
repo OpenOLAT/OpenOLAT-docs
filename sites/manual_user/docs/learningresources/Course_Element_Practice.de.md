@@ -1,6 +1,6 @@
 # Kursbaustein "Übung" {: #course_element_uebung}
 
-## Steckbrief
+## Steckbrief {: #profile}
 
 Name | Übung
 ---------|----------
@@ -13,7 +13,7 @@ Spezialität / Hinweis | Übungsfragen können im Fragenpool verwaltet werden
 
 ---
 
-## Funktionsprinzip
+## Funktionsprinzip {: #operating_principle}
 
 :octicons-device-camera-video-24: **Video-Einführung**: [Der Kursbaustein Übung](<https://www.youtube.com/embed/ljbqzYLn0Zs>){:target="_blank”} 
 
@@ -27,7 +27,7 @@ Der Kursbaustein "Übung" funktioniert nach dem Prinzip einer Lernkartei. Die F�
 
 ---
 
-### Level
+### Level {: #level}
 
 Um auch ohne Bewertung (Punkte) die eigene Leistung einschätzen zu können, wird zu jeder Frage ein Lernstand als Level angezeigt.
 Ein Level zeigt an, wie erfolgreich eine Frage beantwortet wurde.
@@ -45,7 +45,7 @@ Das kann sogar bedeuten, dass jemand einen Kurs zum ersten Mal betritt und dort 
 
 ---
 
-### Übungsserien
+### Übungsserien {: #exercise_series}
 
 Fragen werden immer in Übungsserien von beispielsweise 10 Fragen gestellt. Die Anzahl der Fragen kann pro Übungsserie festgelegt werden.
 
@@ -62,7 +62,7 @@ Auch die Zusammenstellung eigener Fragenserien durch Teilnehmer:innen ist mögli
 
 ---
 
-### Challenges
+### Challenges {: #challenge}
 
 Mehrere Übungsserien ergeben eine Challenge. Eine Challenge ist ein Zwischenziel, erreichbar durch Abarbeiten einer bestimmten Anzahl Serien.
 
@@ -72,14 +72,14 @@ Nach Abschluss einer Challenge sind neben der Einordnung in Ranglisten detaillie
 
 ---
 
-## Konfiguration
+## Konfiguration {: #configuration}
 
 Wie bei allen Kursbausteinen wird zur Konfiguration vom Autor der Kursbaustein Übung im Kursmenü ausgewählt. Vor allem im **Tab "Konfiguration“** finden sich dann die Einstellmöglichkeiten und Settings.
 
 ![course_element_practice_konfig_v1_de.png](assets/course_element_practice_konfig_v1_de.png){ class="shadow lightbox" }
 
 
-### Ressourcen
+### Ressourcen {: #resources}
 
 Im Unterschied zu den meisten anderen Kursbausteinen, können im Kursbaustein Übung **mehrere Lernressourcen** eingebunden werden. Die im Kursbaustein Übung verwendeten Fragen entstammen dem Fragenpool oder Test-Lernressourcen. 
 
@@ -92,11 +92,11 @@ Aktuell gibt es 2 Möglichkeiten, Fragen in den Kursbaustein Übung einzufügen:
 Späteres Ändern oder Hinzufügen von Fragen ist möglich.
 
 
-### Kriterien
+### Kriterien {: #criteria}
   Durch die Festlegung von Kriterien für Taxonomie und Metadaten lassen sich gezielt die gewünschten Fragen herausfiltern.
 
 
-### Übungssettings
+### Übungssettings {: #practice_settings}
 
 In den Übungssettings wird von den Autor:innen festgelegt:
 
@@ -115,9 +115,9 @@ In einer Übersicht sind alle zur Verfügung stehenden Fragen angezeigt (nach Fa
 
 ---
 
-## Üben praktisch
+## Praktisch üben {: #practice_practically}
 
-### Vorgegebene Übungen
+### Vorgegebene Übungen {: #given_practices}
 
 Betreuer:innen können in der Konfiguration des Kursbausteins steuern, welche Fragen die automatisch zusammengesetzten Übungsserien enthalten.
 
@@ -135,7 +135,7 @@ Ausserdem können die Teilnehmer:innen auch nach Fachbereich üben, die entsprec
 ![course_element_practice_ueben_fachbereich_v1_de.png](assets/course_element_practice_ueben_fachbereich_v1_de.png){ class="shadow lightbox" }
 
 
-### Selbst zusammengestellte Übungen
+### Selbst zusammengestellte Übungen {: #self_compiled_exercises}
 
 Lernende können sich aus dem enthaltenen Fragenpaket auch eine eigene Fragenserie zusammenstellen oder eine vorgegebene Auswahl, eine individuelle Übungsserie, benutzen.
 
@@ -153,7 +153,7 @@ Für das individuelle Üben nach eigenen Bedürfnissen können die Teilnehmer:in
 ![course_element_individual_practice_v1_de.png](assets/course_element_individual_practice_v1_de.png){ class="shadow lightbox" }
 
 
-### Feedbacks
+### Feedbacks {: #feedbacks}
 
 Die Rückmeldung an den Lernenden, ob er eine Frage richtig oder falsch beantwortet hat, wird unmittelbar im Anschluss an die Bearbeitung einer Frage gegeben. 
 
@@ -167,7 +167,7 @@ Da von Betreuer:innen keine manuellen Bewertungen vorgenommen werden, sind auch 
 
 ---
 
-## Vergleich: Test - Selbsttest - Übung
+## Vergleich: Test - Selbsttest - Übung {: #comparison}
 
 
 Kursbaustein Test | Kursbaustein Selbsttest | Kursbaustein Übung

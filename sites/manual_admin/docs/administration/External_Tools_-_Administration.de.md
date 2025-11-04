@@ -8,6 +8,7 @@ In diesem Bereich können die OpenOlat-Administrator:innen diverse externe Tools
 
 ## BigBlueButton {: #bbb}
 
+BigBlueButton ist eine Software, welche Online-Konferenzen ermöglicht oder als virtueller Klassenraum dienen kann.
 Um Webkonferenzen mit BigBlueButton in OpenOlat zu ermöglichen, muss BBB in der Administration aktiviert und konfiguriert worden sein.
  
 [Zu den Details >](BigBlueButton_module.de.md)<br>
@@ -67,6 +68,7 @@ Voraussetzung ist, dass die erforderlichen Lizenzen vorhanden sind.
 
 ## Zoom {: #zoom}
 
+Zoom ist eine Software, in welcher Videokonferenzen, Meetings und Webinare durchgeführt werden können.
 Um Zoom Meetings in OpenOlat zu ermöglichen, muss Zoom in der Administration aktiviert und konfiguriert worden sein. 
 
 [Zu den Details >](Zoom.de.md)<br>

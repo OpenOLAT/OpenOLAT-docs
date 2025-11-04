@@ -44,13 +44,14 @@ Die zentralen Einstellungen werden im Tab "Übersicht" vorgenommen. Sie können 
 
     Wenn Sie sich für eine eigene HTML-Seite entschieden haben und diese Verknüpfungen zu in OpenOlat abgelegten Grafiken oder sonstigen Dateien beinhaltet, müssen Sie unter "Sicherheitseinstellungen" die Option "Link im gesamten Ablageordner erlauben" wählen. Ferner können Sie auch Betreuern erlauben die HTML-Seite ohne Zugriff auf den Kurseditor zu bearbeiten.
 
-## Tab Highscore
+## Tab Highscore {: #highscore}
 
 Hier können Sie die Anzeige der Highscore-Darstellung aktivieren und konfigurieren. Sie können einen Gratulationstitel, ein Siegertreppchen, ein Histogramm sowie eine Bestenliste anzeigen lassen. Auch eine anonymisierte Darstellung ist hier möglich.
 
 Einen Sonderfall des Bausteins Struktur stellt der Hauptkursknoten dar. Er enthält zusätzlich den Tab "[Erinnerungen](../learningresources/Course_Reminders.de.md)" und kann weder gelöscht noch verschoben werden.
 
-## Tab Badges
+## Tab Badges {: #badges}
+
 Wurde von dem/der Kursbesitzer:in unter **Administration > Einstellungen > Tab Bewertung > Abschnitt Badges** die Vergabe von Badges aktiviert, wird im Kurseditor zu diesem Kursbaustein der Tab "Badges" angezeigt und es kann ein spezifischer Badge für diesen Kursbaustein erstellt werden.
 
 [Zum Seitenanfang ^](#course_element_structure)
@@ -59,7 +60,7 @@ Wurde von dem/der Kursbesitzer:in unter **Administration > Einstellungen > Tab B
 
 ## Spezielle Einstellungen des Kursbausteins Struktur je nach Kurstyp
 
-### Einstellungen für Lernpfad Kurse
+### Einstellungen für Lernpfad Kurse {: #learning_path_course_settings}
 
 Die Einstellungen im Tab "Lernpfad" unterscheiden sich grundsätzlich von den Einstellungen der anderen Kursbausteinen in Lernpfad Kursen. Bei Lernpfad Kursen wird im Kursbaustein Struktur definiert ob die Abfolge der Lernschritte der untergeordneten Kursbausteine sequenziell (nacheinander) oder flexibel, ohne Reihenfolge, erfolgt. Bei Strukturbausteinen gibt es kein spezifisches Erledigungskriterium.
 
@@ -67,7 +68,8 @@ Die Einstellungen im Tab "Lernpfad" unterscheiden sich grundsätzlich von den Ei
 
 Weitere Informationen zum Tab findet man [hier](../learningresources/Learning_path_course_Course_editor.de.md) 
 
-### Einstellungen für herkömmliche Kurse
+### Einstellungen für herkömmliche Kurse {: #conventional_course_settings}
+
 
 #### Tab Punkte   {: #score}
 
@@ -103,7 +105,7 @@ Für den User zeigt sich die Leistungsübersicht wie folgt:
     Verwenden Sie für alle bewertbaren Kursbausteine eindeutige Kurztitel, um diese in der Auswahl im Tab "Punkte" rasch voneinander unterscheiden zu können.
 
 
-#### Tab Zugang
+#### Tab Zugang {: #access}
 
 Der Kursbaustein "Struktur" und damit seine untergeordneten Kursbausteine können bei herkömmlichen Kursen mit einem Passwort geschützt werden. Setzen Sie dafür den Haken bei "Passwort" und hinterlegen Sie den gewünschten Code. 
 

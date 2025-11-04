@@ -1,7 +1,7 @@
 # Kursbaustein "Selbsttest" {: #course_element_self_test}
 
 
-## Steckbrief
+## Steckbrief {: #profile}
 
 Name | Selbsttest
 ---------|----------

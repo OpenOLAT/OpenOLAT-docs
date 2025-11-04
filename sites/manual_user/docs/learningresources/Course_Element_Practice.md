@@ -1,7 +1,7 @@
 # Course Element "Practice" {: #course_element_uebung}
 
 
-## Profile
+## Profile {: #profile}
 
 Name | Task
 ---------|----------
@@ -14,7 +14,7 @@ Specialty / Note | Exercise questions can be managed in the question pool
 
 ---
 
-## Operating principle
+## Operating principle {: #operating_principle}
 
 The course element "Practice" works according to the principle of a flashcard. The subjects correspond to levels.
 
@@ -26,7 +26,7 @@ The course element "Practice" works according to the principle of a flashcard. T
 
 ---
 
-### Level
+### Level {: #level}
 
 In order to be able to assess one's own performance even without evaluation (points), a learning level is displayed for each question. A level indicates how successfully a question was answered.
 
@@ -42,7 +42,7 @@ This can even mean that someone enters a course for the first time and discovers
 
 ---
 
-### Übungsserien
+### Exercise series {: #exercise_series}
 
 Questions are always asked in exercise series of, for example, 10 questions. The number of questions can be set per exercise series.
 
@@ -58,7 +58,7 @@ It is also possible for participants to compile their own series of questions. L
 
 ---
 
-### Challenges
+### Challenges {: #challenge}
 
 Several series of exercises make up a challenge. A challenge is an intermediate goal that can be reached by completing a certain number of series.
 
@@ -68,14 +68,14 @@ After completion of a challenge, detailed statistics on the learning status as w
 
 ---
 
-## Configuration
+## Configuration {: #configuration}
 
 As with all course elements, the author selects the course element Exercise in the course menu for configuration. Especially in the **tab "Configuration"** you will find the setting options and settings.
 
 ![course_element_practice_konfig_v1_de.png](assets/course_element_practice_konfig_v1_de.png){ class="shadow lightbox" }
 
 
-### Ressources
+### Ressources {: #resources}
 
 In contrast to most other course elements, the course element Practice allows you to integrate **several learning resources**. The questions used in the course element practice come from the question pool or test learning resources.
 
@@ -88,13 +88,13 @@ Currently there are 2 ways to insert questions into the Course element Practice:
 Later modification or addition of questions is possible.
 
 
-### Criteria
+### Criteria {: #criteria}
   By defining criteria for taxonomy and metadata, the desired questions can be specifically filtered out.
 
 
-### Practice settings
+### Practice settings {: #practice_settings}
 
-In the exercise settings, the author determines:
+In the practice settings, the author determines:
 
 * Number of levels 
 * Number of questions per series
@@ -111,9 +111,9 @@ All available questions are displayed in an overview (grouped by subject/taxonom
 
 ---
 
-## Practice practically
+## Practice practically {: #practice_practically}
 
-### Given practices
+### Given practices {: #given_practices}
 
 In the configuration of the course element, coaches can control which questions are included in the automatically assembled series of exercises.
 
@@ -131,7 +131,7 @@ In addition, the participants can also practice by subject area, which will be o
 ![course_element_practice_ueben_fachbereich_v1_de.png](assets/course_element_practice_ueben_fachbereich_v1_de.png){ class="shadow lightbox" }
 
 
-### Selbst zusammengestellte Übungen
+### Self compiled exercises {: #self_compiled_exercises}
 
 Learners can also compose their own question series from the included question set or use a predefined selection, an individual practice series.
 
@@ -149,7 +149,7 @@ For individual practice according to their own needs, participants can therefore
 ![course_element_individual_practice_v1_de.png](assets/course_element_individual_practice_v1_de.png){ class="shadow lightbox" }
 
 
-### Feedbacks
+### Feedbacks {: #feedbacks}
 
 Feedback to the learner on whether he or she answered a question correctly or incorrectly is provided immediately following the completion of a question.
 
@@ -163,7 +163,7 @@ Since no manual evaluations are carried out by coaches, no feedbacks by coaches 
 
 ---
 
-## Comparison: Test - Self-test - Practice
+## Comparison: Test - Self-test - Practice {: #comparison}
 
 
 Course element Test | Course element Self-test | Course element Practice

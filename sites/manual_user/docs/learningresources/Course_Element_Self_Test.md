@@ -1,7 +1,7 @@
 # Course Element "Self-test" {: #course_element_self_test}
 
 
-## Profile
+## Profile {: #profile}
 
 Name | Self-test
 ---------|----------

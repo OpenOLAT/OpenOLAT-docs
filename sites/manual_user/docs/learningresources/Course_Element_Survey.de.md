@@ -1,6 +1,6 @@
 # Kursbaustein "Umfrage" {: #course_element_survey}
 
-## Steckbrief
+## Steckbrief {: #profile}
 
 Name | Umfrage
 ---------|----------
@@ -27,13 +27,13 @@ Wenn Sie noch kein Formular für Befragungen erstellt haben, schauen Sie im [How
 
 Eine Übersicht über weitere Informationen rund um das Thema "Formulare" finden Sie [hier](../learningresources/Form.de.md). 
 
-## Formular in Umfragen
+## Formular in Umfragen {: #forms_in_surveys}
 
 Die Lernressource Formular wird im Kursbaustein "Umfrage" in Form eines Fragebogens verwendet. Kursbesitzer:innen können so Fragebögen in ihren Kurs einbinden und Lernende können die bereitgestellten Umfragen ausfüllen. Die Ergebnisse werden den Kursbesitzenden und Betreuenden, dann entsprechend angezeigt.
 
 OpenOlat stellt sicher, dass Kursteilnehmende die Umfrage bzw. den Fragebogen nur einmal ausfüllen können. Die Resultate werden standardmässig anonymisiert gespeichert. Eine Personalisierung ist jedoch durch die Auswahl der passenden Formular Elemente [Formular Editor](../learningresources/Form_Editor.de.md) möglich.
 
-### Im Kurseditor
+### Im Kurseditor {: #course_editor}
 
 Gehen Sie in den Kurseditor und fügen Sie den Kursbaustein Umfrage hinzu. Nachdem Sie den Kursbaustein Umfrage dem Kurs hinzugefügt haben stehen Ihnen im Kurseditor folgende Tabs zur Verfügung:
 
@@ -43,7 +43,7 @@ Im Tab "Titel und Beschreibung" sowie "Layout" können allgemeine Beschreibungen
 
 Klassische bzw. herkömmliche Kurs verfügen dagegen über die Tabs Sichtbarkeit und Zugang. Hier wird definiert, wer den Kursbaustein sehen bzw. bearbeiten kann.
 
-#### Tab "Umfrage"
+#### Tab "Umfrage" {: #survey}
 
 Die zentrale Konfiguration erfolgt im Tab "Umfrage". Hier wird im ersten Schritt entweder ein neues Formular erstellt oder ein existierendes ausgewählt. In der erscheinenden Übersicht werden alle Formulare, bei denen man Besitzer:in ist, angezeigt und können einfach per Klick auf den Haken ausgewählt und so dem Kurs hinzugefügt werden.
 
@@ -81,7 +81,7 @@ Auch die Ergebnisse können für all diese Gruppen frei gegeben und in der erwei
 Wird ein Formular als Umfrage in einem Kurs eingebunden, kann das Formular im Kurs über den Button "bearbeiten" eingeschränkt geändert werden. Texte können geändert aber einzelne Blöcke nicht mehr verschoben oder neue Bereiche angelegt oder gelöscht werden. Im Formular erscheint die Meldung "Die Ressource wird bereits verwendet...".
 
 
-### Ansicht
+### Ansicht {: #view}
 
 Was Besitzer:innen, Betreuer:innen und Teilnehmende bei geschlossenem Editor sehen ist davon abhängig welche Benutzerberechtigungen im Tab Umfrage ausgewählt wurden. Hat die jeweilige Personengruppe das Recht den Fragebogen auszufüllen (Teilnahme durch...), dann sieht sie als erstes auch den jeweiligen Fragebogen.  Sobald die Person aber selbst den Fragebogen ausgefüllt hat, erscheint die Fragebogen Statistik Übersicht direkt bei dem jeweiligen Umfrage Baustein, sofern für die Benutzergruppe auch die Anzeige der Resultate freigegeben ist.
 
@@ -95,7 +95,7 @@ Die Umfrage kann nur einmal ausgefüllt und nach dem abschicken nicht mehr geän
 
 Ist eine Personengruppe weder berechtigt den Fragebogen auszufüllen noch die Resultate zu sehen, erscheint die Meldung "Kein Zugang".
 
-### Ansicht der Resultate einer Umfrage
+### Ansicht der Resultate einer Umfrage {: #view_survey_results}
 
 Folgende Auswertungstabs stehen den Berechtigten zur Verfügung:
 
@@ -115,7 +115,7 @@ Dieselbe Auswertung finden Sie übrigens auch im Menü `Administration > Fragebo
 
 Die Ergebnisse können auch als Teil der [Kursarchivierung](../learningresources//Course_Archiving.de.md) gespeichert werden. Dabei ist es sogar möglich die Ergebnisse mehrere Kursbausteine in einem zip file zu bündeln.
 
-### Umfragen zurücksetzen
+### Umfragen zurücksetzen {: #reset surveys}
 
 Kursbesitzer:innen können schon ausgefüllte Fragebögen auch über den Link im 3-Punkte Menü des jeweiligen Kursbaustein "Zurücksetzen". In diesem Fall werden alle bereits eingereichten Fragebögen für diese Umfrage gelöscht. Ein Zurücksetzen von einzelnen Fragebögen ist nicht möglich, da die Abgabe anonym erfolgt.
 
