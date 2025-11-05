@@ -4,7 +4,8 @@
 
 ## Settings for implementation  {: #config_execution}
 
-**Implementation period**<br>
+**Implementation period**
+
 - The implementation period is displayed in the course information.
 - It is independent of course status and access rights.
 - It has no effect on visibility and access for course members.

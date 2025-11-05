@@ -91,7 +91,8 @@ Im Tab "Freigabe" definieren Sie, wie und für wen ein Kurs oder eine Lernressou
 * Ob ein Angebot im Katalog zum Kurs gemacht wird und wenn ja, welches
 * Ob der Kurs auch von einem anderen LMS aus via LTI genutzt werden kann
 
-[Details zur **Freigabe** >](Access_configuration.de.md)<br>
+[Details zum **Tab Freigabe** >](Course_Settings_Share.de.md)<br>
+[Mehr zur **Freigabe** >](Access_configuration.de.md)<br>
 [Zum Seitenanfang ^](#course_settings)
 
 

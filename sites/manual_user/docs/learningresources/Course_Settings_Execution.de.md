@@ -1,11 +1,12 @@
-# Einstellungen - Tab Durchführung {: #tab_execution}
+# Kurseinstellungen - Tab Durchführung {: #tab_execution}
 
 ![course_settings_execution1_v1_de.png](assets/course_settings_execution1_v1_de.png){ class="shadow lightbox"}
 
 
 ## Einstellungen zur Durchführung {: #config_execution}
 
-**Durchführungszeitraum**<br>
+**Durchführungszeitraum**
+
 - Der Durchführungszeitraum wird in den Informationen der Kursinfo angezeigt. 
 - Er ist unabhängig vom Kursstatus und den Zugangsrechten. 
 - Er hat keine Auswirkungen auf die Sichtbarkeit und den Zugang für die Kursmitglieder.

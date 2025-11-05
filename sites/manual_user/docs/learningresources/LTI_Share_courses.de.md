@@ -1,6 +1,4 @@
-# LTI Zugang zu einem Kurs konfigurieren
-
-:octicons-tag-24: Release 15.5 
+# Kurseinstellungen - Tab Freigabe:<br> LTI Zugang zu einem Kurs konfigurieren
 
 OpenOlat ermöglicht es anderen LMS, via LTI auf einzelne OpenOlat-Kurse zuzugreifen. Ihre OpenOlat-Kurse können so auch von Personen besucht werden, die auf einem anderen LMS arbeiten.
 
@@ -171,15 +169,15 @@ Auch für den Kursbaustein LTI kann das Bewertungsformular ausgefüllt und angep
 
 
 
-##  Links
+##  Weiterführende Informationen {: #further_information}
 
-Benutzerhandbuch: [LTI-Zugang zu einer Gruppe konfigurieren](https://docs.openolat.org/de/manual_user/groups/LTI_Share_groups/)
+Benutzerhandbuch: [LTI-Zugang zu einer Gruppe konfigurieren >](https://docs.openolat.org/de/manual_user/groups/LTI_Share_groups/)
 
-Benutzerhandbuch: [Kursbaustein "LTI-Seite"](http://docs.openolat.org/de/manual_user/learningresources/Course_Element_LTI_Page/)
+Benutzerhandbuch: [Kursbaustein "LTI-Seite" >](http://docs.openolat.org/de/manual_user/learningresources/Course_Element_LTI_Page/)
 
-Administrationshandbuch: [LTI 1.3 Integrationen im Überblick](http://docs.openolat.org/de/manual_admin/administration/LTI_Integrations/)
+Administrationshandbuch: [LTI 1.3 Integrationen im Überblick >](http://docs.openolat.org/de/manual_admin/administration/LTI_Integrations/)
 
-Administrationshandbuch: [LTI - Externe Werkzeuge](http://docs.openolat.org/de/manual_admin/administration/LTI_External_tools/)
+Administrationshandbuch: [LTI - Externe Werkzeuge >](http://docs.openolat.org/de/manual_admin/administration/LTI_External_tools/)
 
-Administrationshandbuch: [LTI - Externe Plattformen](http://docs.openolat.org/de/manual_admin/administration/LTI_External_platforms/)
+Administrationshandbuch: [LTI - Externe Plattformen >](http://docs.openolat.org/de/manual_admin/administration/LTI_External_platforms/)
 

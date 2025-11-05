@@ -193,10 +193,11 @@ nav:
         - Settings:
           - Overview: "learningresources/Course_Settings.md"
           - Tab Execution: "learningresources/Course_Settings_Execution.md"
+          - Tab Share: "learningresources/Course_Settings_Share.md"
+          - Tab Share - LTI Access: "learningresources/LTI_Share_courses.md"
           - Tab Toolbar: "learningresources/Course_Settings_Toolbar.md"
           - Tab Assessment: "learningresources/Course_Settings_Assessment.md"
           - Tab Options: "learningresources/Course_Settings_Options.md"
-          - LTI access: "learningresources/LTI_Share_courses.md"
           - Design possibilities of courses and course elements: "learningresources/Design_possibilities_of_courses_and_course_elements.md"
         - Members management: "learningresources/Members_management.md"
         - Files: "learningresources/Storage_folder.md"

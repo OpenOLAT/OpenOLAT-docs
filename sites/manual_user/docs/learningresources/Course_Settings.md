@@ -88,7 +88,8 @@ In the "Release" tab, you define how and for whom a course or learning resource 
 * Whether an offer is made in the catalog for the course and if so, which one
 * Ob der Kurs auch von einem anderen LMS aus via LTI genutzt werden kann
 
-[Details about the **Share** >](Access_configuration.md)<br>
+[Details about **Tab Share** >](Course_Settings_Share.md)<br>
+[More about the **Share** >](Access_configuration.md)<br>
 [To the top of the page ^](#course_settings)
 
 
