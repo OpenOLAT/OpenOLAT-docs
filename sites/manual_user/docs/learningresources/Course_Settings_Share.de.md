@@ -136,7 +136,7 @@ Wurde der Kurs im Course Planner einem Produkt zugeordnet, finden Sie die Verwen
 
 ## Weiterführende Informationen {: #further_information}
 
-[Zugangskonfiguration/Freigabe >](../learningresources/Acceess_configuration.de.md)<br>
+[Zugangskonfiguration/Freigabe >](../learningresources/Access_configuration.de.md)<br>
 [Katalog >](../area_modules/catalog2.0.de.md)<br>
 [Angebotsarten >](../learningresources/Offer_Types.de.md)<br>
 [Angebote erstellen >](../area_modules/catalog2.0_angebote.de.md)<br>

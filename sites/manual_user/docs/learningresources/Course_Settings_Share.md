@@ -53,7 +53,7 @@ tbd
 
 ## Further information {: #further_information}
 
-[Access configuration >](../learningresources/Acceess_configuration.md)<br>
+[Access configuration >](../learningresources/Access_configuration.md)<br>
 [Catalog >](../area_modules/catalog2.0.md)<br>
 [Offer types >](../learningresources/Offer_Types.md)<br>
 [Create offers >](../area_modules/catalog2.0_angebote.md)<br>
