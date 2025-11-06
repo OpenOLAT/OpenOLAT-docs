@@ -1,4 +1,4 @@
-# REST API
+# REST API {: #REST-API}
 
 Das Ziel des REST API ist es, einen einfachen Austausch von URLs zu
 ermöglichen. Es ist beispielsweise möglich, Benutzer und Lerngruppen zu
@@ -10,25 +10,79 @@ und Kreieren von verschiedensten strukturellen Eigenschaften.
 
 Das REST API kann unter Administration aktiviert / deaktiviert werden.
 
-![](assets/Bildschirmfoto 2019-10-10 um 16.20.10.png){ class="shadow lightbox" }
-  
+![admin_core_config_rest_api_v1_de.png](assets/admin_core_config_rest_api_v1_de.png){ class="shadow lightbox }
 
-## Konzept
+[Zum Seitenanfang ^](#REST-API)
 
-"Representational State Transfer", oder REST ist ein Architekturstil, der
-primär, aber nicht ausschliesslich, mit dem HTTP Protokoll genutzt werden
-soll. Im Falle von HTTP, benutzt es alle dessen Eigenschaften: URIs um
-Ressourcen zu beschreiben, HTTP Methoden als „Verben“ um Ressourcen zu
-manipulieren (GET um Ressourcen abzurufen, PUT um neue zu kreieren, POST um
-sie zu modifizieren, DELETE um sie zu löschen), HTTP Headers und Mediale Typen
-um Inhalt zu vermitteln…
+---
 
-In OpenOlat wird die JSR-311: JAX-RS (Das Java API für RESTful Web Services)
-als Backendimplementierung für das REST API genutzt. JSR-311 ist ein Standard
-von J2EE. Wir benutzten die Referenzimplementierung vom folgenden Standard:
-[Jersey](https://jersey.dev.java.net/).
 
-### Benutzung
+## Concept {: #concept}
+
+"Representational State Transfer" or REST is a style of architecture to be
+primarily used with the HTTP protocol, but not exclusively. In the case of
+HTTP, it utilizes all its features: URIs to describe resources, HTTP Methods
+as "verbs" to manipulate resources (GET to retrieve resources, PUT to create
+new ones, POST to modify them, DELETE...), HTTP Headers and Media Types for
+content negotiation...
+
+In OpenOlat, the JSR-311: JAX-RS (The Java API for RESTful Web Services) is
+used as a backend for the implementation of our REST API. JSR-311 is a
+standard from J2EE. We use the reference implementation from the following
+standard: [Jersey](https://jersey.dev.java.net/).
+
+
+
+### API Key for REST access 
+
+!!! warning "Attention"
+
+	This article is still under construction.
+
+	OO-7290
+
+With the introduction of Passkey and 2FA the current API access via a user-choosable (weak) password is not suitable anymore.
+
+The solution is to us a dedicated API Key for accessing the REST API. Since the API-key is a generated, long and thus {*}strong password{*}, it can be used even when 2FA is required in the UI.
+
+The API-Key is stored encrypted in OpenOlat the same way as the OpenOlat password using strong encryption. It is revealed to the user only on generation and can not be looked up again if the user looses the key. In this situation, the key needs to be deleted a new one must be generated.
+
+The API-Key can not be used to log into the OpenOlat web application, it is only valid when accessing the REST API.
+
+The REST API can still be accessed with a valid user-session, e.g. to access the course DB via Javascript.
+
+REST API-Keys can be generated in the user administration.
+
+In the REST admin configuration a new configuration can be activated to allow creation of API Keys also for users (disabled by default)
+
+Transition
+
+If the passkey feature is not enabled, the OpenOlat password can still be used also for the REST access
+
+
+### limit access to users with API key
+
+!!! warning "Attention"
+
+	This article is still under construction.
+
+	OO-8745
+
+
+Problem 
+The REST API - when enabled - can be used by all users with an authenticated user session. In many cases this is not desired, the REST API should only be usable by specific users.
+
+Solution 
+With OO-7290 we added specific authentication mechanism for the REST API with a so called API key. This can be used to authenticate when using the REST API independent of a login password (e.g. when using PassKey for login). The generation of such an API can be limited to the user management or allowed by all users.
+
+An option is added to the REST API config to limit the API usage to users that have an API key. In combination with the generation of the key only by user managers it offers an elegant wayt to grant access to the API only to specific users.
+
+[Zum Seitenanfang ^](#REST-API)
+
+---
+
+
+### Benutzung {: #usage}
 
 Das OpenOlat REST API wurde im Sinne von fernen Verwaltungsapplikationen
 entwickelt. Es beinhaltet nicht alle Funktionen, die im web UI vorhanden sind
@@ -46,7 +100,12 @@ Obwohl rein theoretisch möglich, ist es nicht im Sinne des Konzepts das API
 als Endbenutzer für eine Implementierung für einen alternativen UI Client zu
 benutzen.
 
-## Sicherheit
+[Zum Seitenanfang ^](#REST-API)
+
+---
+
+
+## Sicherheit {: #security}
 
 Die Sicherheit basiert auf einem Zwei-Level-Mechanismus, so wie es in OpenOlat
 entsprechend implementiert wurde.
@@ -84,7 +143,12 @@ gültige Benutzer Session. Sicherheitstechnisch gibt es besser Optionen um das
 selbe Resultat zu erhalten. Wir empfehlen oAuth als alternative, was ebenfalls
 von OpenOlat unterstützt wird.
 
-## Konfiguration
+[Zum Seitenanfang ^](#REST-API)
+
+---
+
+
+## Konfiguration {: #configuration}
 
 Ein Spring Bean erlaubt es Ressourcen, Singletons und Provider zu
 konfigurieren; entweder statisch mit der XML-Konfiguration des Beans (
@@ -118,8 +182,12 @@ Lerngruppe hinzufügen:
     Response: 200
 
   
+[Zum Seitenanfang ^](#REST-API)
 
-## Dokumentation
+---
+
+
+## Dokumentation {: #documentation}
 
 Die Dokumentation basiert auf der OpenAPI-Spezifikation (früher Swagger-
 Spezifikation), welche ein API-Beschreibungsformat ist für REST APIs. Das
@@ -137,7 +205,10 @@ möglich gelistete Anfragen auszuführen, indem Sie den "try it out" Button
 benutzen. Es muss Ihnen bewusst sein, dass diese Anfragen verbindlich sind und
 direkt mit dem adressierten System interagieren.
 
-  
+ [Zum Seitenanfang ^](#REST-API)
+
+---
+ 
 
 ##  Extern verwaltete (managed) Kurse und Gruppen {: #managed}
 
@@ -358,5 +429,7 @@ verwaltet werden.
 
   
 
-  
+[Zum Seitenanfang ^](#REST-API)
+
+
 

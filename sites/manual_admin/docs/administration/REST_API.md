@@ -1,4 +1,4 @@
-# REST API
+# REST API {: #REST-API}
 
 The goal of the REST API is to provide an easy way to exchange URLs. It is
 e.g. possible to manage users and learning groups, import courses, or assemble
@@ -9,10 +9,14 @@ specific objects and creating various amounts of structural behaviors.
 
 The REST API can be activated / deactivated under administration.
 
-![](assets/Bildschirmfoto 2019-10-10 um 16.18.32.png){ class="shadow lightbox" }
+![admin_core_config_rest_api_v1_de.png](assets/admin_core_config_rest_api_v1_de.png){ class="shadow lightbox }
+
+[To the top of the page ^](#REST-API)
+
+---
   
 
-## Concepts
+## Concept {: #concept}
 
 "Representational State Transfer" or REST is a style of architecture to be
 primarily used with the HTTP protocol, but not exclusively. In the case of
@@ -26,7 +30,58 @@ used as a backend for the implementation of our REST API. JSR-311 is a
 standard from J2EE. We use the reference implementation from the following
 standard: [Jersey](https://jersey.dev.java.net/).
 
-###  Usage
+
+
+### API Key for REST access 
+
+!!! warning "Attention"
+
+	This article is still under construction.
+
+	OO-7290
+
+With the introduction of Passkey and 2FA the current API access via a user-choosable (weak) password is not suitable anymore.
+
+The solution is to us a dedicated API Key for accessing the REST API. Since the API-key is a generated, long and thus {*}strong password{*}, it can be used even when 2FA is required in the UI.
+
+The API-Key is stored encrypted in OpenOlat the same way as the OpenOlat password using strong encryption. It is revealed to the user only on generation and can not be looked up again if the user looses the key. In this situation, the key needs to be deleted a new one must be generated.
+
+The API-Key can not be used to log into the OpenOlat web application, it is only valid when accessing the REST API.
+
+The REST API can still be accessed with a valid user-session, e.g. to access the course DB via Javascript.
+
+REST API-Keys can be generated in the user administration.
+
+In the REST admin configuration a new configuration can be activated to allow creation of API Keys also for users (disabled by default)
+
+Transition
+
+If the passkey feature is not enabled, the OpenOlat password can still be used also for the REST access
+
+
+### limit access to users with API key
+
+!!! warning "Attention"
+
+	This article is still under construction.
+
+	OO-8745
+
+
+Problem 
+The REST API - when enabled - can be used by all users with an authenticated user session. In many cases this is not desired, the REST API should only be usable by specific users.
+
+Solution 
+With OO-7290 we added specific authentication mechanism for the REST API with a so called API key. This can be used to authenticate when using the REST API independent of a login password (e.g. when using PassKey for login). The generation of such an API can be limited to the user management or allowed by all users.
+
+An option is added to the REST API config to limit the API usage to users that have an API key. In combination with the generation of the key only by user managers it offers an elegant wayt to grant access to the API only to specific users.
+
+
+[To the top of the page ^](#REST-API)
+
+---  
+
+###  Usage {: #usage}
 
 The OpenOlat REST API has been developed with remote management applications
 in mind. It does not implement all features available in the web UI and many
@@ -43,7 +98,12 @@ settings.
 While theoretically possible, it is not meant as an API to implement
 alternative UI clients for end users. Keep this in mind when using the API.
 
-##  Security
+[To the top of the page ^](#REST-API)
+
+---
+  
+
+##  Security {: #security}
 
 The security is based on a two level mechanism, as it is in OpenOlat.
 
@@ -81,9 +141,12 @@ create a valid user session. Security wise there are better options to achieve
 the same. We recommend using oAuth instead which is supported by OpenOlat as
 well.
 
-  
+[To the top of the page ^](#REST-API)
 
-##  Configuration
+---
+    
+
+##  Configuration {: #configuration}
 
 A spring bean allows to configure Resources, Singletons and Providers; either
 statically with the XML configuration of the bean (
@@ -115,7 +178,12 @@ group:
     PUT https://your.openolat.domain/olat/restapi/groups/{groupId}/users/{identityKey}
     Response: 200
 
-## Documentation
+[To the top of the page ^](#REST-API)
+
+---
+  
+
+## Documentation {: #documentation}
 
 The documentation is based on the OpenAPI specification (formerly Swagger
 Specification), which is an API description format for REST APIs. The OpenAPI
@@ -129,7 +197,10 @@ The OpenAPI allows to choose a custom server prefix in and it is possible to
 execute the listed requests by pressing the "try it out" button. Be aware that
 these requests are binding and directly interacting with the addressed system.
 
-  
+ [To the top of the page ^](#REST-API)
+
+---
+   
 
 ##  Externally managed courses and groups  {: #managed}
 
@@ -347,4 +418,8 @@ non managed resources can be used and managed within OpenOlat as usual.
 	
 	* all
 	    * delete
-	
+
+
+[To the top of the page ^](#REST-API)
+
+  
