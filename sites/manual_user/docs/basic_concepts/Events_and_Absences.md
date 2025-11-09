@@ -5,7 +5,7 @@
 There are basically two types of events in OpenOlat:
 
 - Basic events (without the option to record absences)
-- Events with absences (appointments in the course; they appear in the Course Planner and absence management)<br>
+- Events with absences: Appointments in the course; they appear in the [Course Planner](../area_modules/Course_Planner.md) and [absence management](../area_modules/Absence_Management.md).
 Lecturers can also be booked for these dates. (Only coaches can be made lecturers.)
 
 |                           | basic event | Event with absence |

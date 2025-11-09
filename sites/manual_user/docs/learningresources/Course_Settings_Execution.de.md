@@ -7,12 +7,18 @@
 
 **Durchführungszeitraum**
 
-- Der Durchführungszeitraum wird in den Informationen der Kursinfo angezeigt. 
-- Er ist unabhängig vom Kursstatus und den Zugangsrechten. 
-- Er hat keine Auswirkungen auf die Sichtbarkeit und den Zugang für die Kursmitglieder.
-- Das Enddatum wird für den Kurs-Lebenszyklus verwendet.
-- In herkömmlichen Kursen gilt bei der Berechnung von "Bestanden": Ein "Nicht bestanden" wird dann ausgegeben, wenn ein "Bestanden" nach dem Enddatum des Durchführungszeitraums nicht erreicht wurde.
-- Auch für viele relative Daten im Kurs werden die hier erfassten Start- und Enddaten benutzt. Z.B. für  Erinnerungen oder im Aufgabenbaustein für das automatische Einziehen der Aufgabe.
+Hier kann gewählt werden, ob der Kurs mit einem konkreten Beginn- und Enddatum versehen wird. 
+
+Ein gewählter Durchführungszeitraum wird in der  Kursinfo angezeigt. Diese Einstellung ist  nicht zu verwechseln mit dem Kursstatus und hat auch keine Auswirkungen auf die Sichtbarkeit oder den Zugang der Kursmitglieder. 
+
+Folgendes sollte man allerdings beachten: 
+
+Wird „mit Beginn- und Enddatum“ gewählt, gelten die hier eingetragenen Daten auch für verschiedene zeitabhängige Funktionen im Kurs, zum Beispiel für Erinnerungen oder im Aufgabenbaustein beim automatischen Einziehen von Aufgaben. 
+
+Das Enddatum des Durchführungszeitraums wird auch für den Kurs-Lebenszyklus verwendet. Welche genauen Konsequenzen damit verbunden sind legen die OpenOlat Administrator:innen fest. Z.B. könnte der Kurs 2 Tage nach dem Endtermin auf "beendet" gesetzt und/oder der Kurs 4 Wochen nach dem Termin gelöscht werden. Erkundigen Sie sich am besten, welche Einstellungen in Ihrer OpenOlat Instanz für den Kurs-Lebenszyklus gelten. 
+
+In herkömmlichen Kursen wird bei der Berechnung von „Bestanden“ berücksichtigt, ob das Ergebnis innerhalb des Durchführungszeitraums erreicht wurde. Wird kein „Bestanden“ bis zum Enddatum erzielt, erscheint automatisch „Nicht bestanden“.
+
 
 **Durchführungsort**<br>
 Die Eingabe in dieses Textfeld wird in der Kursinfo angezeigt.
@@ -25,7 +31,9 @@ Die Eingabe in dieses Textfeld wird in der Kursinfo angezeigt.
 ## Konfiguration Termin- und Absenzenverwaltung im Kurs {: #config_event_and_absence_management}
 
 **Termin- und Absenzenverwaltung einschalten**<br>
-Wird hier für den aktuellen Kurs das Termin- und Absenzenmanagement eingeschaltet, erscheint anschliessend die Option "Termine und Absenzen" unter der (Kurs-)Administration. Als **Kursbesitzer:in** können Sie dort nach Fertigstellung der Konfiguration (zur Laufzeit) Termine und Absenzen erfassen.<br>
+Wird hier für den aktuellen Kurs das Termin- und Absenzenmanagement eingeschaltet und es werden weitere Konfigurationsmöglichkeiten angezeigt. 
+
+Darüber hinaus erscheint anschliessend das Menü "Termine und Absenzen" unter der (Kurs-)Administration. Als **Kursbesitzer:in** können Sie dort nach Fertigstellung der Konfiguration (zur Laufzeit) Termine und Absenzen erfassen.<br>
 
 !!! tip "Hinweis"
 
@@ -73,6 +81,9 @@ Wenn Betreuer:innen oder Besitzer:innen einen Termin als "als Prüfung markieren
 **Erlaubte IP-Adressen**<br>
 Auch diese Angabe bezieht sich auf "Prüfungsmodus für Termine erlauben".
 
+**Safe Exam Browser Key**<br>
+Hier kann der Safe Exam Browser Key hinterlegt werden, sofern das Tool verwendet wird. 
+
 
 [Zum Seitenanfang ^](#tab_execution)
 
@@ -82,16 +93,16 @@ Auch diese Angabe bezieht sich auf "Prüfungsmodus für Termine erlauben".
 ## Zugriff Kursbausteine {: #access_course_elements}
 
 **Typ**<br>
-Es wird hier angezeigt, ob der aktuelle Kurs ein Lernpfadkurs oder ein herkömmlicher Kurs ist. Der Typ kann hier nicht bearbeitet und geändert werden.
+Zur Information wird hier angezeigt, ob der aktuelle Kurs ein Lernpfadkurs oder ein herkömmlicher (klassischer) Kurs ist. 
 
-**Lernfortschritt berechnen**<br>
-Der Lernfortschritt kann
+Herkömmliche Kurse können an dieser Stelle in einen Lernpfad-Kurs konvertiert werden. 
 
-- anhand der Anzahl der obligatorischen Kursbausteine
-oder
-- anhand der Bearbeitungszeit der obligatorischen Kursbausteine berechnet werden.
+**Lernfortschritt berechnen**
 
+Für Lernpfad Kurse kann definiert werden ob der angezeigte Kursfortschritt anhand der Anzahl der obligatorischen Kursbausteine oder anhand der Bearbeitungszeit der obligatorischen Kursbausteine berechnet wird. Wird die Bearbeitungszeit gewählt müssen alle obligatorischen Kursbausteine im Kurseditor mit entsprechenden Zeiten versehen werden. 
 Freiwillige Kursbausteine werden nicht berücksichtigt.
+
+Herkömmliche Kurse verfügen nicht über die Option "Lernfortschritt".
 
 
 [Zum Seitenanfang ^](#tab_execution)
