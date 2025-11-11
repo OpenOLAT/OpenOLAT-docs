@@ -2,7 +2,7 @@
 
 Under **Administration > Settings** you can make configurations that affect the course as a whole.
 
-![course_settings_menu_v1_de.png](assets/course_settings_menu_v1_de.png){ class="shadow lightbox" }
+![course_settings_menu_v2_de.png](assets/course_settings_menu_v2_de.png){ class="shadow lightbox" }
 
 !!! info "Notes"
 
@@ -167,10 +167,10 @@ In the Assessment tab, you can make settings for
 * Requirements for passing the course 
 * The role of coaches in the assessment process
 * Activate and configure course certificates
+* Activate and configure credit points
 * Activate and configure course certificates and also set up recertification
 * Award of badges
 
-![course_settings_assessment_v1_de.png](assets/course_settings_assessment_v1_de.png){ class="shadow lightbox" }
 
 
 !!! info 

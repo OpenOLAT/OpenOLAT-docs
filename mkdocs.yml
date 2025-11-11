@@ -529,10 +529,11 @@ plugins:
           Survey statistics : Fragebogen Statistiken
           System : System
           Tab Assessment : Tab Bewertung
+          Tab Assessment - Certificates and Recertification: Tab Bewertung - Zertifikate und Rezertifizierung
           Tab Execution : Tab Durchführung
           Tab Options : Tab Optionen
           Tab Share : Tab Freigabe
-          Tab Share - LTI Access : Tab Freigabe - LTI Zugang
+          Tab Share - LTI : Tab Freigabe - LTI
           Tab Toolbar : Tab Toolbar
           Tab users : Tab Teilnehmer
           Table concept: Tabellenkonzept

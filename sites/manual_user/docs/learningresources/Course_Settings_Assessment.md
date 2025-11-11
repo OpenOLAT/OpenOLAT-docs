@@ -3,7 +3,7 @@
 In learning path courses, the settings for the **assessment method** and the **pass** of the course are defined in this tab.<br>
 You can also activate the use of **credentials** and the awarding of **certificates** and **badges**. 
 
-![course_settings_assessment_v2_de.png](assets/course_settings_assessment_v2_de.png){ class="shadow lightbox" }
+![course_settings_assessment_v3_de.png](assets/course_settings_assessment_v3_de.png){ class="shadow lightbox" }
 
 
 

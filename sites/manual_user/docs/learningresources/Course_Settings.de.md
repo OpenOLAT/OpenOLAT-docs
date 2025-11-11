@@ -2,7 +2,7 @@
 
 Unter **Administration > Einstellungen** nehmen Sie Konfigurationen vor, die den Kurs als Ganzes betreffen.
 
-![course_settings_menu_v1_de.png](assets/course_settings_menu_v1_de.png){ class="shadow lightbox" }
+![course_settings_menu_v2_de.png](assets/course_settings_menu_v2_de.png){ class="shadow lightbox" }
 
 :octicons-device-camera-video-24: **Video-Einführung**: [Kursbausteine konfigurieren](<https://www.youtube.com/embed/SAkzzoOQEoQ>){:target="_blank”}
 
@@ -170,11 +170,9 @@ Im Tab Bewertung können Sie folgende Aspekte aktivieren bzw. konfigurieren:
 * Anforderungen für das Bestehen des Kurses 
 * die Rolle der Betreuenden im Bewertungsprozess
 * Leistungsnachweise aktivieren und konfigurieren
+* Kreditpunkte aktivieren und konfigurieren
 * Kurs-Zertifikate aktivieren, konfigurieren und auch eine Rezertifizierung einrichten
 * die Vergabe von Badges aktivieren
-
-![course_settings_assessment_v2_de.png](assets/course_settings_assessment_v2_de.png){ class="shadow lightbox" }
-
 
 
 !!! info "Hinweis"
