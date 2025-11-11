@@ -1,6 +1,6 @@
 # Course Planner: Products {: #products}
 
-![course_planner_products_v2_de.png](assets/course_planner_products_v2_de.png){ class="shadow lightbox" }
+![course_planner_products_v3_de.png](assets/course_planner_products_v3_de.png){ class="shadow lightbox" }
 
 
 ## What do we mean by a product in OpenOlat? {: #definition}
@@ -52,7 +52,7 @@ After activation, system administrators can activate and set up the module at:
 
 To create a product, open the Course Planner and then the "Products" subsection.
 
-![course_planner_products1_v2_de.png](assets/course_planner_products1_v2_de.png){ class="shadow lightbox" }  
+![course_planner_products1_v3_de.png](assets/course_planner_products1_v3_de.png){ class="shadow lightbox" }  
 
 ![course_planner_products2_v2_de.png](assets/course_planner_products2_v2_de.png){ class="shadow lightbox" }  
 
