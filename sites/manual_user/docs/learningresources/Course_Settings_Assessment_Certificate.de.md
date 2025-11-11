@@ -12,7 +12,7 @@ Die Konfiguration eines Zertifikates für einen Kurs erfolgt in den Einstellunge
 Als Bestätigung für den Besuch eines Kurses bzw. der Erreichung von bestimmten kursbezogenen Aktivitäten kann ein **PDF-Zertifikat** ausgestellt werden. Es ist auch möglich, ohne die Verwendung eines Leistungsnachweises ein Zertifikat auszustellen.
 
 Neben diesen Kurszertifikaten kann mit dem Zertifikatsprogramm auch ein Zertifikat für den Besuch mehrerer Kurse ausgestellt werden. Solche Zertifikate werden innerhalb des Course Planners (Durchführung) vergeben.<br>
-[Mehr zum Zertifizierungsprogramm >](../../manual_user/area_modules/Course_Planner_Certification_Programs.de.md) 
+[Mehr zu Zertifikatsprogrammen >](../../manual_user/area_modules/Course_Planner_Certification_Programs.de.md) 
 
 **Die nachfolgenden Ausführungen beziehen sich auf das Zertifikat in einem einzelnen Kurs.**
 
@@ -181,6 +181,6 @@ Leistungsnachweise und Zertifikate früherer Durchgänge bleiben erhalten.
 
 ## Weitere Informationen {: #further_information}
 
-[Zertifizierungsprogramm (Zertifikat für mehrere Kurse) >](../../manual_user/area_modules/Course_Planner_Certification_Programs.de.md)
+[Zertifikatsprogramme (Zertifikate für mehrere Kurse) >](../../manual_user/area_modules/Course_Planner_Certification_Programs.de.md)
 
 [Zum Seitenanfang ^](#certificate_and_recertification})
