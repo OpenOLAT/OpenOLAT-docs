@@ -1,6 +1,6 @@
 # Course Planner: Implementations {: #implementations}
 
-![course_planner_implementations_v2_de.png](assets/course_planner_implementations_v2_de.png){ class="shadow lightbox" } 
+![course_planner_implementations_v3_de.png](assets/course_planner_implementations_v3_de.png){ class="shadow lightbox" } 
 
 ## What is an implementation? {: #definition}
 
@@ -273,6 +273,7 @@ If you have already displayed an execution, you will also find the option to del
 [Course Planner: Overview >](../../manual_user/area_modules/Course_Planner.md)<br>
 [Course Planner: Products >](../../manual_user/area_modules/Course_Planner_Products.md)<br>
 [Course Planner: Events >](../../manual_user/area_modules/Course_Planner_Events.md)<br>
+[Course Planner: Certification programs >](../../manual_user/area_modules/Course_Planner_Certification_Programs.md)<br>
 [Course Planner: Reports >](../../manual_user/area_modules/Course_Planner_Reports.md)<br>
 [How can I plan and run courses with the Course Planner? >](../../manual_how-to/course_planner_courses/course_planner_courses.md)<br>
 [How can I plan and run a course with the Course Planner? >](../../manual_how-to/course_planner_curriculum/course_planner_curriculum.md)<br>

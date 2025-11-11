@@ -1,7 +1,7 @@
 # Course Planner: Termine {: #events}
 
 
-![course_planner_events_access_v2_de.png](assets/course_planner_events_access_v2_de.png){ class="shadow lightbox" }
+![course_planner_events_access_v3_de.png](assets/course_planner_events_access_v3_de.png){ class="shadow lightbox" }
 
 ## Um welche Termine geht es im Course Planner? {: #type_of_events}
 
@@ -18,7 +18,7 @@ Die im Course Planner erstellten und angezeigten Termine beziehen sich auf die i
 
 Eine Auswahl aktueller Termine finden Sie auf der **Übersicht des Course Planners**. 
 
-![course_planner_events_display1_v2_de.png](assets/course_planner_events_display1_v2_de.png){ class="shadow lightbox" }
+![course_planner_events_display1_v3_de.png](assets/course_planner_events_display1_v3_de.png){ class="shadow lightbox" }
 
 
 
@@ -26,7 +26,7 @@ Eine Auswahl aktueller Termine finden Sie auf der **Übersicht des Course Planne
 
 Die komplette Übersicht über alle Termine im Course Planner erhalten Sie im Bereich "Termine". Verwenden Sie die Tabs und Filter zur Eingrenzung und Auswahl.
 
-![course_planner_events_display2_v2_de.png](assets/course_planner_events_display2_v2_de.png){ class="shadow lightbox" }
+![course_planner_events_display2_v3_de.png](assets/course_planner_events_display2_v3_de.png){ class="shadow lightbox" }
 
 ![course_planner_events_display3_v1_de.png](assets/course_planner_events_display3_v1_de.png){ class="shadow lightbox" }
 
@@ -99,6 +99,7 @@ Bei Bedarf können die in der Liste angezeigten Termine auch als Excel-Datei her
 [Course Planner: Übersicht >](../../manual_user/area_modules/Course_Planner.de.md)<br>
 [Course Planner: Produkte >](../../manual_user/area_modules/Course_Planner_Products.de.md)<br>
 [Course Planner: Durchführungen >](../../manual_user/area_modules/Course_Planner_Implementations.de.md)<br>
+[Course Planner: Zertifikatsprogramme >](../../manual_user/area_modules/Course_Planner_Certification_Programs.de.md)<br>
 [Course Planner: Reports >](../../manual_user/area_modules/Course_Planner_Reports.de.md)<br>
 [Wie kann ich mit dem Course Planner Kursdurchführungen planen und durchführen? >](../../manual_how-to/course_planner_courses/course_planner_courses.de.md)<br>
 [Wie kann ich mit dem Course Planner einen Bildungsgang planen und durchführen? >](../../manual_how-to/course_planner_curriculum/course_planner_curriculum.de.md)<br>

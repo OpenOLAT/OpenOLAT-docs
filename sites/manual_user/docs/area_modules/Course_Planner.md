@@ -132,7 +132,7 @@ The overview shows
 - the buttons for accessing the areas/functions described below,
 - as well as the search.
 
-![course_planner_overview_v2_de.png](assets/course_planner_overview_v2_de.png){ class="shadow lightbox" }  
+![course_planner_overview_v3_de.png](assets/course_planner_overview_v3_de.png){ class="shadow lightbox" }  
 
 By entering a term in the search field, you can search for **performances, courses and dates**.<br>
 As with other searches, filters can be used to narrow down the search results.
@@ -149,7 +149,7 @@ An educational product is an inwardly or outwardly directed learning offer with 
 
 Curricula/products often consist of several courses and have a certain structure/sequence in which the included courses are combined.
 
-![course_planner_products_v2_de.png](assets/course_planner_products_v2_de.png){ class="shadow lightbox" }
+![course_planner_products_v3_de.png](assets/course_planner_products_v3_de.png){ class="shadow lightbox" }
 
 [See the details >](../area_modules/Course_Planner_Products.md)<br>
 [To the top of the page ^](#course_planner)
@@ -161,7 +161,7 @@ Curricula/products often consist of several courses and have a certain structure
 
 An (educational) product can be offered and implemented several times. For example, a single course can be repeated each semester, as can a structured educational program consisting of several courses.
 
-![course_planner_implementations_v2_de.png](assets/course_planner_implementations_v2_de.png){ class="shadow lightbox" }
+![course_planner_implementations_v3_de.png](assets/course_planner_implementations_v3_de.png){ class="shadow lightbox" }
 
 [See the details >](../area_modules/Course_Planner_Implementations.md)<br>
 [To the top of the page ^](#course_planner)
@@ -172,18 +172,30 @@ An (educational) product can be offered and implemented several times. For examp
 
 The dates specified here refer to one implementation or a part thereof.
 
-![course_planner_events_v2_de.png](assets/course_planner_events_v2_de.png){ class="shadow lightbox" }
+![course_planner_events_v3_de.png](assets/course_planner_events_v3_de.png){ class="shadow lightbox" }
 
 [See the details >](../area_modules/Course_Planner_Events.md)<br>
 [To the top of the page ^](#course_planner)
 
 ---
 
+### Certification programs {: #certification_programs}
+
+Certificate programs are used when a certificate is only awarded after completing several courses. 
+
+![course_planner_certification_programs_v1_de.png](assets/course_planner_certification_programs_v1_de.png){ class="shadow lightbox" }
+
+[See the details >](../area_modules/Course_Planner_Certification_Programs.md)<br>
+[To the top of the page ^](#course_planner)
+
+---
+
+
 ### Reports {: #reports}
 
 Various reports can be generated using report templates.
 
-![course_planner_reports1_v2_de.png](assets/course_planner_reports1_v2_de.png){ class="shadow lightbox" }
+![course_planner_reports1_v3_de.png](assets/course_planner_reports1_v3_de.png){ class="shadow lightbox" }
 
 [See the details >](../area_modules/Course_Planner_Reports.md)<br>
 [To the top of the page ^](#course_planner)

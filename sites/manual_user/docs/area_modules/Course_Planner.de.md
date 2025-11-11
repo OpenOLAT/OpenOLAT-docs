@@ -153,7 +153,7 @@ Die Übersicht zeigt
 - die Buttons zum Zugriff auf die nachstehend beschriebenen Bereiche/Funktionen,
 - sowie die Suche.
 
-![course_planner_overview_v2_de.png](assets/course_planner_overview_v2_de.png){ class="shadow lightbox" }  
+![course_planner_overview_v3_de.png](assets/course_planner_overview_v3_de.png){ class="shadow lightbox" }  
 
 Mit Eingabe eines Begriffes im Suchfeld kann nach **Durchführungen, Kursen und Terminen** gesucht werden.<br>
 Wie auch bei anderen Suchen, kann mit Filtern das Suchergebnis eingegrenzt werden.
@@ -171,7 +171,7 @@ Ein Bildungsprodukt ist ein nach innen oder aussen gerichtetes Lernangebot mit D
 
 Oft bestehen Curricula/Produkte aus mehreren Kursen und haben eine bestimmte Struktur/Abfolge, in der die enthaltenen Kurse kombiniert sind.
 
-![course_planner_products_v2_de.png](assets/course_planner_products_v2_de.png){ class="shadow lightbox" }
+![course_planner_products_v3_de.png](assets/course_planner_products_v3_de.png){ class="shadow lightbox" }
 
 [Zu den Details >](../area_modules/Course_Planner_Products.de.md)<br>
 [Zum Seitenanfang ^](#course_planner)
@@ -183,7 +183,7 @@ Oft bestehen Curricula/Produkte aus mehreren Kursen und haben eine bestimmte Str
 
 Ein (Bildungs-)Produkt kann mehrfach angeboten und durchgeführt werden. Z.B. kann sich jedes Semester sowohl ein einzelner Kurs wiederholen, als auch ein strukturierter Bildungsgang bestehend aus mehreren Kursen.
 
-![course_planner_implementations_v2_de.png](assets/course_planner_implementations_v2_de.png){ class="shadow lightbox" }
+![course_planner_implementations_v3_de.png](assets/course_planner_implementations_v3_de.png){ class="shadow lightbox" }
 
 [Zu den Details >](../area_modules/Course_Planner_Implementations.de.md)<br>
 [Zum Seitenanfang ^](#course_planner)
@@ -195,7 +195,7 @@ Ein (Bildungs-)Produkt kann mehrfach angeboten und durchgeführt werden. Z.B. ka
 
 Die hier bestimmten Termine beziehen sich auf eine Durchführung oder eines Teilbereiches daraus. 
 
-![course_planner_events_v2_de.png](assets/course_planner_events_v2_de.png){ class="shadow lightbox" }
+![course_planner_events_v3_de.png](assets/course_planner_events_v3_de.png){ class="shadow lightbox" }
 
 [Zu den Details >](../area_modules/Course_Planner_Events.de.md)<br>
 [Zum Seitenanfang ^](#course_planner)
@@ -203,11 +203,22 @@ Die hier bestimmten Termine beziehen sich auf eine Durchführung oder eines Teil
 ---
 
 
+### Zertifikatsprogramme {: #certificate_programs}
+
+Zertifikatsprogramme werden verwendet, wenn es ein Zertifikat erst für das Absolvieren mehrerer Kurse gibt. 
+
+![course_planner_certification_programs_v1_de.png](assets/course_planner_certification_programs_v1_de.png){ class="shadow lightbox" }
+
+[Zu den Details >](../area_modules/Course_Planner_Certification_Programs.de.md)<br>
+[Zum Seitenanfang ^](#course_planner)
+
+---
+
 ### Reports {: #reports}
 
 Anhand von Report-Vorlagen können verschiedene Reports erzeugt werden.
 
-![course_planner_reports1_v2_de.png](assets/course_planner_reports1_v2_de.png){ class="shadow lightbox" }
+![course_planner_reports1_v3_de.png](assets/course_planner_reports1_v3_de.png){ class="shadow lightbox" }
 
 [Zu den Details >](../area_modules/Course_Planner_Reports.de.md)<br>
 [Zum Seitenanfang ^](#course_planner)

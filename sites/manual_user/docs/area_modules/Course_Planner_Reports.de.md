@@ -1,6 +1,6 @@
 # Course Planner: Reports {: #reports}
 
-![course_planner_reports1_v2_de.png](assets/course_planner_reports1_v2_de.png){ class="shadow lightbox" }  
+![course_planner_reports1_v3_de.png](assets/course_planner_reports1_v3_de.png){ class="shadow lightbox" }  
 
 Für die Erstellung von Reports stehen verschiedene Vorlagen zur Verfügung, mit denen Sie sich einen Überblick über die eingegangenen Buchungsaufträge verschaffen können. 
 
@@ -32,6 +32,7 @@ Sie können kopiert und heruntergeladen werden.
 [Course Planner: Produkte >](../../manual_user/area_modules/Course_Planner_Products.de.md)<br>
 [Course Planner: Durchführungen >](../../manual_user/area_modules/Course_Planner_Implementations.de.md)<br>
 [Course Planner: Termine >](../../manual_user/area_modules/Course_Planner_Events.de.md)<br>
+[Course Planner: Zertifikatsprogramme >](../../manual_user/area_modules/Course_Planner_Certification_Programs.de.md)<br>
 [Wie kann ich mit dem Course Planner Kursdurchführungen planen und durchführen? >](../../manual_how-to/course_planner_courses/course_planner_courses.de.md)<br>
 [Wie kann ich mit dem Course Planner einen Bildungsgang planen und durchführen? >](../../manual_how-to/course_planner_curriculum/course_planner_curriculum.de.md)<br>
 [Course Planner aktivieren (Admin) >](../../manual_admin/administration/Modules_Course_Planner.de.md)<br>
