@@ -21,6 +21,7 @@ Ausführliche Informationen zur Funktionsweise des Media Centers finden Sie unte
 ## Weitere Informationen {: #further_information}
 
 [Ausführliche Informationen zum Media Center (Basiskonzept) >](../basic_concepts/Media_Center_Concept.de.md)<br>
+[Konfiguration des Media Centers (durch Administrator:innen) >](../../manual_admin/administration/Modules_Media_Center.de.md)<br>
 [File Hub (Basiskonzept) >](../basic_concepts/File_Hub_Concept.de.md)<br>
 [File Hub (Persönliches Menü) >](../personal_menu/File_Hub.de.md)<br>
 

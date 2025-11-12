@@ -21,6 +21,7 @@ Detailed information on how the Media Centre works can be found at [„Media Cen
 ## Further information {: #further_information}
 
 [Detailed information on the Media Center (basic concept) >](../basic_concepts/Media_Center_Concept.md)<br>
+[Configuration of Media Center (by administrators) >](../../manual_admin/administration/Modules_Media_Center.md)<br>
 [File Hub (basic concept) >](../basic_concepts/File_Hub_Concept.md)<br>
 [File Hub (personal menu) >](../personal_menu/File_Hub.md)<br>
 

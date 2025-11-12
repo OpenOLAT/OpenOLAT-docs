@@ -36,15 +36,14 @@ Weitere Informationen finden Sie im Kapitel [Taxonomie](Modules_Taxonomy.de.md).
 
 Werden Inhalte im Media Center abgelegt, können sie zur Verwendung durch andere freigeben werden (Share). Welche Freigabe-Optionen den Autor:innen und anderen Rollen zur Verfügung stehen, kann durch Administrator:innen im Abschnitt "Freigaben" festgelegt werden.
 
-Ansicht der Autor:innen:<br>
-![modules_media_center_share_v2_de.png](assets/modules_media_center_share_v2_de.png){ class="shadow lightbox" }
 
-Administrative Benutzer:innen, wie Lernressourcenverwalter:innen und Administrator:innen, haben aufgrund ihrer höher berechtigten Rollen **indirekt** Zugriff auf Medien. Sie haben **administrativen Zugriff** auf alle Medien, die in ihrer Organisation, den Gruppen, den Kursen und mit den Benutzer:innen geteilt werden.
+| Meine Rolle           | Wenn "Benutzer"<br>durch Admins erlaubt wurde | Wenn "Kurse"<br>durch Admins erlaubt wurde | Wenn "Gruppen"<br> durch Admins erlaubt wurde | Wenn "Organisation"<br> durch Admins erlaubt wurde |
+| ----------------- | ---------------------| ------ | ------ | ------------ |
+| Ich bin Benutzer:in (ohne zusätzliche Rollen)| Ich kann Mitbenutzer:innen Zugriff geben, wenn sie zu Organisationseinheiten gehören, in denen sie zur Nutzung des Media Centers berechtigt sind. | Ich kann Mitbenutzer:innen in allen Kursen Zugriff geben, wenn sie dort Kursbesitzer:in sind. | Ich kann Mitbenutzer:innen in allen Gruppen Zugriff geben, wenn die Mitbenutzer:innen Gruppenmitglieder sind. | Teilen/Freigabe von Mediendateien ist nicht möglich |
+| Ich bin Autor:in | Ich kann Mitbenutzer:innen Zugriff geben, wenn sie zu Organisationseinheiten gehören, in denen sie zur Nutzung des Media Centers berechtigt sind. | Ich kann Mitbenutzer:innen in allen Kursen Zugriff geben, wenn sie dort Kursbesitzer:in sind. | Ich kann Mitbenutzer:innen in allen Gruppen Zugriff geben, wenn die Mitbenutzer:innen Gruppenmitglieder sind. | Teilen/Freigabe von Mediendateien ist nicht möglich |  
+| Ich bin Lernressourcenverwalter:in | Ich kann Mitbenutzer:innen Zugriff geben, wenn sie zu Organisationseinheiten gehören, in denen sie zur Nutzung des Media Centers berechtigt sind. | Ich kann Mitbenutzer:innen in allen Kursen ihrer Organisationseinheiten Zugriff geben, wenn sie dort berechtigt sind, das Media Center zu nutzen. | Ich kann Mitbenutzer:innen in allen Gruppen Zugriff geben, wenn die Mitbenutzer:innen Gruppenmitglieder sind. | Ich kann Mitbenutzer:innen aus allen Organisationseinheiten Zugriff geben, wenn sie dort berechtigt sind, das Media Center zu nutzen. |
+| Ich bin Administrator:in  | Ich kann Mitbenutzer:innen Zugriff geben, wenn sie zu Organisationseinheiten gehören, in denen sie zur Nutzung des Media Centers berechtigt sind.| Ich kann Mitbenutzer:innen in allen Kursen ihrer Organisationseinheiten Zugriff geben, wenn sie dort berechtigt sind, das Media Center zu nutzen. | Ich kann Mitbenutzer:innen in allen Gruppen Zugriff geben. | Ich kann Mitbenutzer:innen aus allen Organisationseinheiten Zugriff geben, wenn sie dort berechtigt sind, das Media Center zu nutzen. |
 
-Zur besseren Abgrenzung des administrativen Zugriffs ist neben dem Bereich "Mein Media Center" zusätzlich noch die "Medienverwaltung" verfügbar.
-(Benutzer:innen ohne administrativen Zugriff finden dieses Tab nicht vor.)
-
-![modules_media_center_media_mgmt_v1_de.png](assets/modules_media_center_media_mgmt_v1_de.png){ class="shadow lightbox" }
 
 [Zum Seitenanfang ^](#module_media_center)
   

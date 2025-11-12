@@ -1,5 +1,7 @@
 # Media Center Concept {: #media_center_concept}
 
+## Functions {: #functions}
+
 The Media Center is a **central collection point** for different types of media.
 
 Media can be...
@@ -15,7 +17,7 @@ Media can be...
 * ... filtered (e.g. "My media")
 * ... searched by place of use
 
-![media_center_v1_de.png](assets/media_center_v1_de.png){ class=" shadow lightbox" }
+![media_center_concept_v1_de.png](assets/media_center_concept_v1_de.png){ class=" shadow lightbox" }
 
 [To the top of the page ^](#media_center_concept)
 
@@ -26,11 +28,16 @@ Media can be...
 
 The Media Center is initially an individual, personal area and can therefore also be found in the **personal menu**.
 
-![media_center_pers_menu1_v1_de.png](assets/media_center_pers_menu1_v1_de.png){ class=" shadow lightbox" }
+![media_center_concept_access1_v1_de.png](assets/media_center_concept_access1_v1_de.png){ class=" shadow lightbox" }
 
-![media_center_pers_menu2_v1_de.png](assets/media_center_pers_menu2_v1_de.png){ class=" shadow lightbox" }
+![media_center_concept_access2_v1_de.png](assets/media_center_concept_access2_v1_de.png){ class=" shadow lightbox" }
 
-Even if they are personal media, they can be shared with other people and used in various OpenOlat contexts.
+Even if they are personal media, they can be shared with other people and used in various OpenOlat contexts.<br>
+[More about sharing >](#share)
+
+### Administrative access {: #administrative_access}
+
+Administrative users, such as learning resource managers and administrators, have **indirect** access to media due to their higher-level roles. They have **administrative access** to all media shared within their organisation, groups, courses, and with users.
 
 [To the top of the page ^](#media_center_concept)
 
@@ -62,7 +69,7 @@ Different **file formats** and **content elements** are stored in the media cent
 
 ## Add media to the Media center {: #add_media}
 
-![media_center_upload_v1_de.png](assets/media_center_add_media_v1_de.jpg){ class=" shadow lightbox" } 
+![media_center_concept_add_media_v1_de.png](assets/media_center_concept_add_media_v1_de.png){ class=" shadow lightbox" } 
 
 There are various ways to store media in the Media center:
 
@@ -80,7 +87,7 @@ There are various ways to store media in the Media center:
 * **Record video:** Video recording function integrated in OpenOlat. If you click on "Record video", the recording function for the webcam is started directly, provided you allow access to the camera in the browser.
 * **Record Audio**:Audio recording function integrated in OpenOlat. If you click on "Record audio", the recording function is started, provided access has been permitted in the browser.
 
-### Create new media beyond the Media Center in the Content Editor {: #create_in_editor}
+### Create new media outside the Media Center in the Content Editor {: #create_in_editor}
 
 Media for the Media Center can also be created in the OpenOlat course or in the portfolio using the [content editor](../basic_concepts/Content_Editor.md). In the course, for example, this can be done via the course element ["Page"](../learningresources/Course_Element_Page.md). Go to edit mode and select "Add content". Among other things, a button for the "Media Center" will appear.  Click on the button and you will be taken to the Media Center with all the corresponding options. 
 
@@ -113,6 +120,14 @@ A page will then appear where you can enter the title, tags and a description fo
 
     Each media element must have a title and can then be provided with additional information and metadata. This information can be further configured later using the tabs of a media element.
 
+
+
+### Share with others {: #share}
+
+When you add a media file to Media Center, you have the option to share it with other people (co-users).
+
+Users view:<br>
+![media_center_concept_share_v1_de.png](assets/media_center_concept_share_v1_de.png){ class="shadow lightbox" }
 
 [To the top of the page ^](#media_center_concept)
 
@@ -181,11 +196,11 @@ The **filter functions** help you to find the media you are looking for quickly.
 
 ## Manage Media Center {: #media_center_administration}
 
-When accessing the Media Center, administrators have an additional "Media management" tab in which they can perform administrative tasks in the Media Center. All media except your own are listed there. 
+When accessing the Media Center, persons with administrative access (e.g. administrators) have an additional "Media management" tab in which they can perform administrative tasks in the Media Center. All media except your own are listed there. (Users without administrative access will not see this tab.)
 
 After clicking on a medium, the usage locations, releases, last views, etc. can be called up for each medium.
 
-![media_center_administration_v1_de](assets/media_center_administration_v1_de.png){ class=" shadow lightbox" }
+![media_center_concept_administration_v2_de](assets/media_center_concept_administration_v2_de.png){ class=" shadow lightbox" }
 
 [To the top of the page ^](#media_center_concept)
 
@@ -195,5 +210,6 @@ After clicking on a medium, the usage locations, releases, last views, etc. can 
 
 [Information and settings for individual media >](../basic_concepts/Media_Center_Items.md)<br>
 [Media Center in the personal menu >](../personal_menu/Media_Center.md)<br>
+[Configuration of Media Center (by administrators) >](../../manual_admin/administration/Modules_Media_Center.md)<br>
 
 [To the top of the page ^](#media_center_concept)

@@ -31,7 +31,12 @@ Das Media Center ist zunächst ein individueller, persönlicher Bereich und desh
 
 ![media_center_concept_access2_v1_de.png](assets/media_center_concept_access2_v1_de.png){ class=" shadow lightbox" }
 
-Auch wenn es sich um persönliche Medien handelt, können diese mit anderen Personen geteilt und in verschiedenen OpenOlat Kontexten verwendet werden. 
+Auch wenn es sich um persönliche Medien handelt, können diese mit anderen Personen geteilt und in verschiedenen OpenOlat Kontexten verwendet werden.<br>
+[Mehr über das Teilen (Freigabe) >](#share) 
+
+### Administrativer Zugriff {: #administrative_access}
+
+Administrative Benutzer:innen, wie Lernressourcenverwalter:innen und Administrator:innen, haben aufgrund ihrer höher berechtigten Rollen **indirekt** Zugriff auf Medien. Sie haben **administrativen Zugriff** auf alle Medien, die in ihrer Organisation, den Gruppen, den Kursen und mit den Benutzer:innen geteilt werden.
 
 [Zum Seitenanfang ^](#media_center_concept)
 
@@ -83,7 +88,7 @@ Um Medien im Media Center zu hinterlegen gibt es verschiedene Wege:
 * **Audio aufzeichnen:** In OpenOlat integrierte Audio-Recording-Funktion. Klickt man auf "Audio aufzeichnen" wird die Aufnahmefunktion gestartet, sofern im Browser der Zugriff erlaubt wurde.
 
 
-### Neue Medien jenseits des Media Centers im Content Editor erstellen {: #create_in_editor}
+### Neue Medien ausserhalb des Media Centers im Content Editor erstellen {: #create_in_editor}
 
 Medien für das Media Center können auch im OpenOlat Kurs oder im Portfolio per [Content Editor](../basic_concepts/Content_Editor.de.md) angelegt werden. Im Kurs geht das z.B. über den Kursbaustein ["Seite"](../learningresources/Course_Element_Page.de.md). Gehen Sie in den Bearbeitungsmodus und wählen Sie "Inhalt hinzufügen" aus. Es erscheint u.a. ein Button zum "Media Center".  Klicken Sie auf den Button und Sie gelangen zum Media Center mit allen entsprechenden Möglichkeiten. 
 
@@ -114,6 +119,14 @@ Es erscheint eine Seite, auf der Sie wie üblich Metadaten hinterlegen und alles
 !!! info "Pflichtangaben"
 
     Jedes Medienelement benötigt zwingend einen Titel und kann dann mit weiteren Informationen und Metadaten versehen werden. Später können diese Informationen über die Tabs eines Medienelements weiter konfiguriert werden.
+
+
+### Freigabe für andere {: #share}
+
+Wenn Sie eine Mediendatei im Media Center hinzufügen, haben Sie die Möglichkeit, es für andere Personen (Mitbenutzer:innen) frei zu geben.
+
+Ansicht der Benutzer:innen:<br>
+![media_center_concept_share_v1_de.png](assets/media_center_concept_share_v1_de.png){ class="shadow lightbox" }
 
 [Zum Seitenanfang ^](#media_center_concept)
 
@@ -184,12 +197,11 @@ Die **Filterfunktionen** helfen, die gesuchten Medien schnell zu finden. Suchen 
 
 ## Media Center verwalten {: #media_center_administration}
 
-Administrator:innen haben beim Aufruf des Media Centers einen zusätzlichen Tab "Medienverwaltung", in dem sie Verwaltungsaufgaben im Media Center wahrnehmen können. Es werden dort alle Medien ausser den eigenen aufgelistet. 
+Personen mit administrativem Zugriff (z.B. Administrator:innen) haben beim Aufruf des Media Centers einen zusätzlichen Tab "Medienverwaltung", in dem sie Verwaltungsaufgaben im Media Center wahrnehmen können. Es werden dort alle Medien ausser den eigenen aufgelistet. (Benutzer:innen ohne administrativen Zugriff finden dieses Tab nicht vor.)
 
 Nach Anklicken eines Mediums sind zu jedem Medium die Verwendungsorte, Freigaben, letzte Aufrufe, u.a. abrufbar.
 
-![media_center_administration_v1_de](assets/media_center_administration_v1_de.png){ class=" shadow lightbox" }
-
+![media_center_concept_administration_v2_de.png](assets/media_center_concept_administration_v2_de.png){ class=" shadow lightbox" }
 
 [Zum Seitenanfang ^](#media_center_concept)
 
@@ -199,5 +211,6 @@ Nach Anklicken eines Mediums sind zu jedem Medium die Verwendungsorte, Freigaben
 
 [Informationen und Einstellungen zu Einzelmedien >](../basic_concepts/Media_Center_Items.de.md)<br>
 [Media Center im persönlichen Menü >](../personal_menu/Media_Center.de.md)<br>
+[Konfiguration des Media Centers (durch Administrator:innen) >](../../manual_admin/administration/Modules_Media_Center.de.md)<br>
 
 [Zum Seitenanfang ^](#media_center_concept)
