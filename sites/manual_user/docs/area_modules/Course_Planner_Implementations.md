@@ -249,6 +249,12 @@ Click on the + in front of an element to display the courses and dates for the e
 
 ![course_planner_implementations_copy3_v1_de.png](assets/course_planner_implementations_copy3_v1_de.png){ class="shadow lightbox" }  
 
+An implementationn contains many different dates that are arranged in a specific order. When copying, all of this data can be automatically adjusted and moved together. It can be moved to a specific new start date (new reference point) or by a specified number of days.
+
+![course_planner_implementations_copy4_v1_de.png](assets/course_planner_implementations_copy4_v1_de.png){ class="shadow lightbox" }
+
+![course_planner_implementations_copy5_v1_de.png](assets/course_planner_implementations_copy5_v1_de.png){ class="shadow lightbox" } 
+
 [To the top of the page ^](#implementations)
 
 ---

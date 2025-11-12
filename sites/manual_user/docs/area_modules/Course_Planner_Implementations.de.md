@@ -292,6 +292,12 @@ Durch Klick auf das + vor einem Element zeigen Sie die Kurse und Termine des Ele
 
 ![course_planner_implementations_copy3_v1_de.png](assets/course_planner_implementations_copy3_v1_de.png){ class="shadow lightbox" }  
 
+In einer Durchführung hat es viele verschiedene Terminangaben, die in einer bestimmten Reihenfolge angelegt sind. Beim Kopieren können alle diese Daten automatisch angepasst werden und gemeinsam verschoben werden. Sie können als zu einem bestimmten neuen Anfangsdatum (neuer Bezugspunkt) verschoben werden oder um eine anzugebende Anzahl Tage.
+
+![course_planner_implementations_copy4_v1_de.png](assets/course_planner_implementations_copy4_v1_de.png){ class="shadow lightbox" }
+
+![course_planner_implementations_copy5_v1_de.png](assets/course_planner_implementations_copy5_v1_de.png){ class="shadow lightbox" } 
+
 [zum Seitenanfang ^](#implementations)
 
 ---
