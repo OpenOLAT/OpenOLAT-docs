@@ -233,6 +233,7 @@ nav:
         - Offer types : "learningresources/Offer_Types.md"
         - Copy (a course) : "learningresources/Course_Copy.md"
         - Copy with wizard : "learningresources/Course_Copy_Wizard.md"
+        - Save as template : "learningresources/Course_Copy_Template.md"
         - Export content : "learningresources/Export_Content.md"
         - Delete : "learningresources/Course_Delete.md"
         - Record of Course Activities: "learningresources/Record_of_Course_Activities.md"

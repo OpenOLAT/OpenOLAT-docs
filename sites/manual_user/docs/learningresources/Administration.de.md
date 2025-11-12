@@ -1,6 +1,6 @@
 # Administration: Übersicht {: #course_administration}
 
-![course_administration_v2_de.png](assets/course_administration_v2_de.png){ class="shadow lightbox aside-left-lg" }
+![course_administration_v3_de.png](assets/course_administration_v3_de.png){ class="shadow lightbox aside-left-lg" }
 
 :octicons-device-camera-video-24: **Video-Einführung**: [Admin-Funktionen](<https://www.youtube.com/embed/rWPcz6udUrI>){:target="_blank”} 
 
@@ -237,10 +237,19 @@ Wenn Sie einen Kurs mit Hilfe des Wizards kopieren, können Sie die zu kopierend
 [Zum Seitenanfang ^](#course_administration)
 
 
+## Als Template speichern {: #copy_template}
+
+![22_green_22.png](assets/21_green_24.png){ class=" aside-left-lg" }
+
+Soll ein bestehender Kurs für die Verwendung mit dem Course Planner zur Instanzierung in Durchführungen verwendet werden, speichern Sie ihn als Template.
+
+[Zu den Details >](Course_Copy_Template.de.md)<br> 
+[Zum Seitenanfang ^](#course_administration)
+
 
 ## In Lernpfad-Kurs konvertieren
 
-![22_green_24.png](assets/22_green_24.png){ class=" aside-left-lg" }
+![23_green_24.png](assets/23_green_24.png){ class=" aside-left-lg" }
 
 Herkömmliche Kurse (und damit u.a. alle Kurse die vor der OpenOlat Version 15 erstellt wurden), können über dieses Werkzeug in einen Lernpfad-Kurs konvertiert werden. Beim Konvertieren muss als erstes entschieden werden, ob ein der Kurs "mit Lernpfad" oder "Mit Fortschritt" erstellt werden soll. 
 
@@ -259,7 +268,7 @@ Diese Funktion ist nur für herkömmliche Kurse verfügbar.
 
 ## Inhalt exportieren {: #export_content}
 
-![23_green_24.png](assets/23_green_24.png){ class=" aside-left-lg" }
+![24_green_24.png](assets/24_green_24.png){ class=" aside-left-lg" }
 
 Exportieren Sie Ihre Lernressourcen als ZIP-Datei um eine Sicherungskopie zu erhalten oder um die Lernressource in einer anderen OpenOlat Instanz zu importieren.
 
@@ -269,7 +278,7 @@ Exportieren Sie Ihre Lernressourcen als ZIP-Datei um eine Sicherungskopie zu erh
 
 ## Löschen {: #delete}
 
-![24_green_24.png](assets/24_green_24.png){ class=" aside-left-lg" }
+![25_green_25.png](assets/24_green_24.png){ class=" aside-left-lg" }
 
 Beim Löschen wird ein Kurse zunächst in den Papierkorb verschoben und alle Benutzerdaten werden entfernt. (Das gilt auch für Lernressourcen.)
 

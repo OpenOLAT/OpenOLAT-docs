@@ -1,6 +1,6 @@
 # Administration: Overview {: #course_administration}
 
-![course_administration_v2_en.png](assets/course_administration_v2_de.png){ class="shadow lightbox aside-left-lg" }
+![course_administration_v3_en.png](assets/course_administration_v3_en.png){ class="shadow lightbox aside-left-lg" }
 
 :octicons-device-camera-video-24: **Video introduction (German)**: [Admin-Funktionen](<https://www.youtube.com/embed/rWPcz6udUrI>){:target="_blank”} 
 
@@ -227,7 +227,7 @@ When copying a course, the complete structure, folder contents, HTML pages and g
 [To the top of the page ^](#course_administration)
 
 
-## Kopieren mit Wizard {: #copy_wizard}
+## Copy with wizard {: #copy_wizard}
 
 ![21_green_24.png](assets/21_green_24.png){ class=" aside-left-lg" }
 
@@ -237,10 +237,20 @@ If you copy a course using the wizard, you can select the elements to be copied.
 [To the top of the page ^](#course_administration)
 
 
+## Save as template {: #copy_template}
+
+![22_green_22.png](assets/22_green_24.png){ class=" aside-left-lg" }
+
+If you want to use an existing course with Course Planner for instantiation in instances, save it as a template.
+
+[See the details >](Course_Copy_Template.md)<br> 
+[To the top of the page ^](#course_administration)
+
+
 
 ## Convert to learning path course
 
-![22_green_24.png](assets/22_green_24.png){ class=" aside-left-lg" }
+![23_green_24.png](assets/23_green_24.png){ class=" aside-left-lg" }
 
 Conventional courses (including all courses created before OpenOlat version 15) can be converted into a learning path course using this tool.
 
@@ -259,7 +269,7 @@ Translated with DeepL.com (free version)
 
 ## Export content {: #export_content}
 
-![23_green_24.png](assets/23_green_24.png){ class=" aside-left-lg" }
+![24_green_24.png](assets/24_green_24.png){ class=" aside-left-lg" }
 
 Export your learning resources as a ZIP file to get a backup copy or to import the learning resource in another OpenOlat instance.
 
@@ -269,7 +279,7 @@ Export your learning resources as a ZIP file to get a backup copy or to import t
 
 ## Delete {: #delete}
 
-![24_green_24.png](assets/24_green_24.png){ class=" aside-left-lg" }
+![25_green_24.png](assets/25_green_24.png){ class=" aside-left-lg" }
 
 When a course is deleted, it is first moved to the recycle bin and all user data is removed. (This also applies to learning resources).
 
