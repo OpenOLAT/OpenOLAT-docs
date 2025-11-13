@@ -9,12 +9,13 @@ It opens in the right margin by clicking on the small image in the upper right c
 You can find the following sections in the personal menu:
 
 ![1_green_20.png](assets/1_green_20.png) **Personal Tools**<br>
-![2_green_20.png](assets/2_green_20.png) **Configuration**<br>
-![3_green_20.png](assets/3_green_20.png) **Help**<br>
-![3_green_20.png](assets/4_green_20.png) **System**<br>
+![2_green_20.png](assets/2_green_20.png) **Achievements/Successes**<br>
+![3_green_20.png](assets/3_green_20.png) **Configuration**<br>
+![4_green_20.png](assets/4_green_20.png) **Help**<br>
+![5_green_20.png](assets/5_green_20.png) **System**<br>
 as well as the **Logout** function
 
-![pers_menu2_v2_en.png](assets/pers_menu2_v2_en.png){ class="shadow aside-right lightbox"}
+![pers_menu2_v3_en.png](assets/pers_menu2_v3_en.png){ class="shadow aside-right lightbox"}
 
 !!! note "Quick Links"
 
@@ -25,9 +26,7 @@ as well as the **Logout** function
     * [Personal folder (up to release 18)](../personal_menu/Personal_folders.md)
     * [File Hub (from release 19)](../personal_menu/File_Hub.md)
     * [Notes](../personal_menu/Notes.md)
-    * [Evidence of achievements](../personal_menu/Evidence_of_Achievements.md)
     * [Competences](../personal_menu/Competences.md)
-    * [Badges](../personal_menu/OpenBadges.md)
     * [Booking orders](../personal_menu/Bookings.md)
     * [Other users](../personal_menu/Other_users.md)
     * [Absences](../personal_menu/Absences.md)
@@ -35,6 +34,13 @@ as well as the **Logout** function
     * [Media Center](../personal_menu/Media_Center.md)
     * [To-Dos](../personal_menu/To-Dos.md)
     * [E-Mail](../personal_menu/E-Mail.md)
+
+    **Achievements/Successes**
+
+    * [Evidence of achievements](../personal_menu/Evidence_of_Achievements.md)
+    * Certificates
+    * [Badges](../personal_menu/OpenBadges.md)
+    * Credit points
 
     **Configuration**
 

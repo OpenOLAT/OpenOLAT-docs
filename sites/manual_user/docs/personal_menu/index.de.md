@@ -9,12 +9,13 @@ Es öffnet sich am rechten Rand durch Klick auf das kleine Bild rechts oben oder
 Im persönlichen Menü finden Sie die folgenden Abschnitte:
 
 ![1_green_20.png](assets/1_green_20.png) **Persönliche Werkzeuge** <br>
-![2_green_20.png](assets/2_green_20.png) **Konfiguration** <br>
-![3_green_20.png](assets/3_green_20.png) **Hilfe**<br>
-![4_green_20.png](assets/4_green_20.png) **System** <br>
+![2_green_20.png](assets/2_green_20.png) **Erfolge/Leistungen** <br>
+![3_green_20.png](assets/3_green_20.png) **Konfiguration**<br>
+![4_green_20.png](assets/4_green_20.png) **Hilfe** <br>
+![5_green_20.png](assets/5_green_20.png) **System** <br>
 sowie die **Logout**-Funktion
 
-![pers_menu2_v2_de.png](assets/pers_menu2_v2_de.png){ class="shadow aside-right lightbox"}
+![pers_menu2_v3_de.png](assets/pers_menu2_v3_de.png){ class="shadow aside-right lightbox"}
 
 !!! note "Quick Links"
 
@@ -25,9 +26,7 @@ sowie die **Logout**-Funktion
     * [Persönlicher Ordner (bis Release 18)](../personal_menu/Personal_folders.de.md)
     * [File Hub (ab Release 19)](../personal_menu/File_Hub.de.md)
     * [Notizen](../personal_menu/Notes.de.md)
-    * [Leistungsnachweise](../personal_menu/Evidence_of_Achievements.de.md)
     * [Kompetenzen](../personal_menu/Competences.de.md)
-    * [Badges](../personal_menu/OpenBadges.de.md)
     * [Buchungsaufträge](../personal_menu/Bookings.de.md)
     * [Personensuche](../personal_menu/Other_users.de.md)
     * [Absenzen](../personal_menu/Absences.de.md)
@@ -35,6 +34,13 @@ sowie die **Logout**-Funktion
     * [Media Center](../personal_menu/Media_Center.de.md)
     * [To-Dos](../personal_menu/To-Dos.de.md)
     * [E-Mail](../personal_menu/E-Mail.de.md)
+
+    **Erfolge/Leistungen**
+
+    * [Leistungsnachweise](../personal_menu/Evidence_of_Achievements.de.md)
+    * Zertifikate
+    * [Badges](../personal_menu/OpenBadges.de.md)
+    * Kreditpunkte
 
     **Konfiguration**
 
