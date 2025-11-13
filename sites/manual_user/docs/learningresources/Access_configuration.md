@@ -36,6 +36,8 @@ If the option **"Private"** is chosen, the participants are entered by the owner
 If the option **"Bookable and open offers"** is selected, learners can book a course/learning resource themselves, but may have to (depending on the setting) enter a password
 enter.
 
+[Details on tab "Share" >](../../manual_user/learningresources/Course_Settings_Share.md)
+
 ### Leaving a learning resource
 
 In the tab "Share" you can also define (if allowed by the administrator) if or when the users can leave a course or learning resource. The following options are available:

@@ -41,6 +41,8 @@ Bei der Wahl **"Privat"** werden die Teilnehmenden durch die Besitzer bzw. Perso
 Bei der Wahl der Option **"Buchbare und offene Angebote"** können die Lernenden einen Kurs/Lernressource selbst buchen, müssen aber eventuell (je nach Einstellung) ein Passwort
 eingeben.
 
+[Details zum Tab "Freigabe" >](../../manual_user/learningresources/Course_Settings_Share.de.md)
+
 ### Lernressource verlassen
 
 Im Tab "Freigabe" kann auch definiert werden (sofern vom Administrator erlaubt), ob bzw. wann die Benutzer einen Kurs bzw. eine Lernressource verlassen können. Folgende Optionen stehen zur Wahl:
