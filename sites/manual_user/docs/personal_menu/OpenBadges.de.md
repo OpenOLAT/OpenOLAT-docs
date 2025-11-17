@@ -1,6 +1,6 @@
 # Persönliche Werkzeuge: Badges {: #badges}
 
-![pers_menu_badges_v3_de.png](assets/pers_menu_badges_v3_de.png){ class="aside-right lightbox"}
+![pers_menu_badges_v4_de.png](assets/pers_menu_badges_v4_de.png){ class="aside-right lightbox"}
 
 ![icon_badges.png](assets/icon_badges.png)
 

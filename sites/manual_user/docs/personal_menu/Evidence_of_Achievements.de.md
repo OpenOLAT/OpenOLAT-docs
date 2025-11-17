@@ -1,6 +1,6 @@
 # Persönliche Werkzeuge: Leistungsnachweise {: #evidence_of_achievements}
 
-![pers_menu_evid_of_achiev_v3_de.png](assets/pers_menu_evid_of_achiev_v3_de.png){ class="aside-right lightbox"}
+![pers_menu_evid_of_achiev_v4_de.png](assets/pers_menu_evid_of_achiev_v4_de.png){ class="aside-right lightbox"}
 
 ![icon_icon_evidence_of_achievements.png](assets/icon_evidence_of_achievements.png)
 
