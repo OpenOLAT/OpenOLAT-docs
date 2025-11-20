@@ -15,13 +15,45 @@
 ??? abstract "Erwartete Vorkenntnisse"
 
     * Sie haben bereits Erfahrung als Autor:in.
-    * Sie können ein OpenOlat-Produkt erstellen und bearbeiten.
+    * Sie kennen sich mit dem Course Planner aus.
 
 
+## Ein Beispiel zum Verständnis {: #example}
 
-##  Vorgehen
+* Sie erwägen (in Präsenz oder online) die Teilnahme an einem **Kurs** "Spanisch Niveau A1".
+* Der gleiche Kurs wird mehrfach **durchgeführt**, z.B. an verschiedenen Orten oder zu verschiedenen Zeiten.
+* An den verschiedenen **Durchführungen** nehmen unterschiedliche Personen teil.
+* Das gleiche **Zertifikat** "Niveau A1" kann an jedem dieser Orte und zu verschiedenen Zeiten erworben werden.
 
-### Schritt 1:
+<br>
+
+Auch in OpenOlat gibt es Kurse die nur **einmalig** durchgeführt werden:<br>
+Kursadministration > Einstellungen > Freigabe > Verwendung: eigenständig
+
+* Für eine zweite Durchführung kann ein solcher Kurs im Autorenbereich kopiert werden. Dann müssen in der Kurskopie andere Mitglieder hinzugefügt werden.
+* Die Mitglieder werden direkt dem Kurs hinzugefügt.<br>
+(Administration > Mitgliederverwaltung des Kurses) 
+* Für das Bestehen dieses Kurses wird ein Zertifikat ausgestellt.<br> 
+(Administration > Einstellungen > Bewertung)
+
+<br>
+
+In OpenOlat können Kurse aber auch für die **mehrfache Verwendung** vorgesehen werden. 
+
+* Der **Course Planner** ist das Tool um OpenOlat-Kurse mehrfach durchzuführen.
+* Im Course Planner organisieren Sie mehrere **Durchführungen** eines (oder auch mehrerer) Kurse.
+* Damit ein Kurs für mehrere Durchführungen verwendet werden kann, muss er dafür vorgesehen werden: Administration > Einstellungen > Freigabe > **Verwendung: Course Planner**
+* In diesem Fall können die Mitglieder nicht mehr dem Kurs hinzugefügt werden, sondern müssen den Durchführungen zugeordnet werden. (Denn jede Durchführung hat andere Teilnehmende.)
+* Auch in OpenOlat kann das gleiche Zertifikat ausgestellt werden, aber Ort und Zeit des Erwerbs können variieren. Besitzer:innen eines Zertifikatsprogramms können bestimmen, in welchen Durchführung das Zertifikat erworben werden kann:<br> Course Planner > Zertifikatsprogramm > Tab "Durchführungen"
+
+[Zum Seitenanfang ^](#create_certification_programs)
+
+---
+
+
+##  Vorgehen {: #procedure}
+
+### Schritt 1: Course Planner öffnen {: #step1}
 
 Öffnen Sie in der Hauptnavigation (in der Kopfzeile) den Course Planner und darin den Button Zertifikatsprogramme.
 
@@ -32,9 +64,9 @@
 ---
 
 
-### Schritt 2:
+### Schritt 2: Neues Zertifikatsprogramm erstellen {: #step2}
 
-Erstellen Siie mit dem Button rechts oben ein neues Zertifikatsprogramm.
+Erstellen Sie mit dem Button rechts oben ein neues Zertifikatsprogramm.
 
 ![certification_programs_settings_config_step2_v1_de.png](assets/certification_programs_settings_config_step2_v1_de.png){ class="shadow lightbox" }
 
@@ -46,7 +78,7 @@ Beginnen Sie anschliessend mit der Einrichtung am besten hier:<br>
 ---
 
 
-### Schritt 3: Gültigkeitsdauer
+### Schritt 3: Gültigkeitsdauer {: #step3}
 
 Wünschen Sie, dass das vergebene Zertifikat eine begrenzte Gültigkeitsdauer hat?
 
@@ -61,7 +93,7 @@ Wünschen Sie, dass das vergebene Zertifikat eine begrenzte Gültigkeitsdauer ha
 ---
 
 
-### Schritt 4: Rezertifizierung?
+### Schritt 4: Rezertifizierung? {: #step4}
 Erst durch die Angabe einer Gültigkeitsdauer wird die Option zur Rezertifizierung auswählbar.
 
 Wird die Rezertifizerung gewünscht, geben Sie ein Zeitfenster für die Rezertifizierung an. So wird festgelegt, wie lange die Teilnehmer:innnen Zeit haben, ihr Zertifikat zu erneuern nachdem es abgelaufen ist.
@@ -73,7 +105,7 @@ Wird die Rezertifizerung gewünscht, geben Sie ein Zeitfenster für die Rezertif
 ---
 
 
-### Schritt 5: Kreditpunkte für die Rezertifizierung?
+### Schritt 5: Kreditpunkte für die Rezertifizierung? {: #step5}
 
 Wenn die Rezertifizierung aktiviert wurde, kann mit einem weiteren Toggle-Button entschieden werden, ob Kreditpunkte für die Rezertifizierung erforderlich sind. Wird dies gewünscht, machen Sie anschliessend Angaben dazu,
 
@@ -89,7 +121,7 @@ Wenn die Rezertifizierung aktiviert wurde, kann mit einem weiteren Toggle-Button
 ---
 
 
-### Schritt 6: Zertifikat auswählen
+### Schritt 6: Zertifikat auswählen {: #step6}
 
 Bestimmen Sie nun unter dem Button "Zertifikat, welches pdf-Zertifikat verschickt wird.
 Wählen Sie die passende Vorlage.
@@ -101,7 +133,7 @@ Wählen Sie die passende Vorlage.
 ---
 
 
-### Schritt 7: Metadaten
+### Schritt 7: Metadaten {: #step7}
 
 In den Metadaten können Sie Titel und Kennzeichen des Programms angeben und den administrativen Zugriff auf eine  bestimmte Organisationseinheiten eingrenzen.
 
@@ -112,7 +144,7 @@ In den Metadaten können Sie Titel und Kennzeichen des Programms angeben und den
 
 ---
 
-### Schritt 8: Durchführung hinzufügen
+### Schritt 8: Durchführung hinzufügen {: #step8}
 
 Bedingung für die Erlangung eines Zertifikates ist das erfolgreiche Absolvieren einer der hier aufgelisteten Durchführungen (ODER-Verknüpfung, es genügt eine der hier aufgelisteten Durchführungen).
 Fügen Sie also mit dem Button rechts oben eine Durchführung hinzu.
@@ -126,12 +158,20 @@ Ob es sich um mehrere Durchführungen des genau gleichen Produkts oder Kurses ha
 
 ---
 
-### Schritt 9: Mitglieder und Besitzer:innen hinzufügen
+### Schritt 9: Mitglieder und Besitzer:innen hinzufügen {: #step9}
 
 Sobald alle Bedingungen und Eigenschaften des Zertifikats geklärt sind, können Sie im Tab "Mitglieder" die Personen bestimmen, die es erwerben sollen.
 
 Soll eine weitere Person dieses Zertifikatsprogramm bearbeiten können, ergänzen Sie diese Person im Tab "Besitzer:innen".
 
+[Zum Seitenanfang ^](#create_certification_programs)
+
+---
+
+### Schritt 10: Meldungen ergänzen {: #step10}
+
+Ist geklärt, wie das Zertifikatsprogramm aufgebaut ist, können nach Bedarf automatische Benachrichtigungen eingerichtet werden. (Der Bedarf zeigt sich meist erst, wenn der Ablauf des Zertifikatsprogramms klar ist.)<br> 
+Für das Erstellen der Meldungen steht ein eigenes Tab zur Verfügung.
 
 
 [Zum Seitenanfang ^](#create_certification_programs)

@@ -7,7 +7,7 @@
 ## Planung
 
 1. [Wie kann ich mit dem Course Planner Kursdurchführungen planen und durchführen?](/de/manual_how-to/course_planner_courses/course_planner_courses)
-2. [Wie kann ich mit dem Course Planner einen Bildungsgang planen und durchführen?](/de/manual_how-to/course_planner_curriculum/course_planner_curriculum)
+2. [Wie kann ich mit dem Course Planner Zertifikatsprogramme erstellen?](/de/manual_how-to/certification_programs/certification_programs)
 
 ## Kurse erstellen
 
