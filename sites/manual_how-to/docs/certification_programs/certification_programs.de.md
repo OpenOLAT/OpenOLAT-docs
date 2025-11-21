@@ -27,7 +27,7 @@
 
 <br>
 
-Auch in OpenOlat gibt es Kurse die nur **einmalig** durchgeführt werden:<br>
+In OpenOlat gibt es Kurse die nur **einmalig** durchgeführt werden:<br>
 Kursadministration > Einstellungen > Freigabe > Verwendung: eigenständig
 
 * Für eine zweite Durchführung kann ein solcher Kurs im Autorenbereich kopiert werden. Dann müssen in der Kurskopie andere Mitglieder hinzugefügt werden.
@@ -41,9 +41,9 @@ Kursadministration > Einstellungen > Freigabe > Verwendung: eigenständig
 In OpenOlat können Kurse aber auch für die **mehrfache Verwendung** vorgesehen werden. 
 
 * Der **Course Planner** ist das Tool um OpenOlat-Kurse mehrfach durchzuführen.
-* Im Course Planner organisieren Sie mehrere **Durchführungen** eines (oder auch mehrerer) Kurse.
+* Im Course Planner organisieren Sie mehrere **Durchführungen** eines Kurses (oder auch mehrerer Kurse im Course Bundle).
 * Damit ein Kurs für mehrere Durchführungen verwendet werden kann, muss er dafür vorgesehen werden: Administration > Einstellungen > Freigabe > **Verwendung: Course Planner**
-* In diesem Fall können die Mitglieder nicht mehr dem Kurs hinzugefügt werden, sondern müssen den Durchführungen zugeordnet werden. (Denn jede Durchführung hat andere Teilnehmende.)
+* Wichtig: In diesem Fall können die Mitglieder nicht mehr dem Kurs hinzugefügt werden, sondern müssen den Durchführungen zugeordnet werden. (Denn jede Durchführung hat andere Teilnehmende.)
 * Auch in OpenOlat kann das gleiche Zertifikat ausgestellt werden, aber Ort und Zeit des Erwerbs können variieren. Besitzer:innen eines Zertifikatsprogramms können bestimmen, in welchen Durchführung das Zertifikat erworben werden kann:<br> Course Planner > Zertifikatsprogramm > Tab "Durchführungen"
 
 [Zum Seitenanfang ^](#create_certification_programs)
@@ -55,7 +55,7 @@ In OpenOlat können Kurse aber auch für die **mehrfache Verwendung** vorgesehen
 
 ### Schritt 1: Course Planner öffnen {: #step1}
 
-Öffnen Sie in der Hauptnavigation (in der Kopfzeile) den Course Planner und darin den Button Zertifikatsprogramme.
+Öffnen Sie in der Hauptnavigation (in der Kopfzeile) den Course Planner und klicken Sie darin den Button "Zertifikatsprogramme".
 
 ![certification_programs_settings_config_step1_v1_de.png](assets/certification_programs_settings_config_step1_v1_de.png){ class="shadow lightbox" }
 
@@ -135,7 +135,7 @@ Wählen Sie die passende Vorlage.
 
 ### Schritt 7: Metadaten {: #step7}
 
-In den Metadaten können Sie Titel und Kennzeichen des Programms angeben und den administrativen Zugriff auf eine  bestimmte Organisationseinheiten eingrenzen.
+In den Metadaten können Sie Titel und Kennzeichen des Programms angeben und den administrativen Zugriff auf eine  bestimmte Organisationseinheit eingrenzen.
 
 ![certification_programs_settings_config_step7_v1_de.png](assets/certification_programs_settings_config_step7_v1_de.png){ class="shadow lightbox" }
 
@@ -147,7 +147,7 @@ In den Metadaten können Sie Titel und Kennzeichen des Programms angeben und den
 ### Schritt 8: Durchführung hinzufügen {: #step8}
 
 Bedingung für die Erlangung eines Zertifikates ist das erfolgreiche Absolvieren einer der hier aufgelisteten Durchführungen (ODER-Verknüpfung, es genügt eine der hier aufgelisteten Durchführungen).
-Fügen Sie also mit dem Button rechts oben eine Durchführung hinzu.
+Fügen Sie also mit dem Button rechts oben mindestens eine Durchführung hinzu.
 
 Falls Sie mehrere Durchführungen angeben möchten, beachten Sie:<br>
 Ob es sich um mehrere Durchführungen des genau gleichen Produkts oder Kurses handelt, spielt keine Rolle. Deshalb ist die Auswahl mit Bedacht zu treffen um eine Gleichwertigkeit zu gewährleisten.
@@ -171,8 +171,10 @@ Soll eine weitere Person dieses Zertifikatsprogramm bearbeiten können, ergänze
 ### Schritt 10: Meldungen ergänzen {: #step10}
 
 Ist geklärt, wie das Zertifikatsprogramm aufgebaut ist, können nach Bedarf automatische Benachrichtigungen eingerichtet werden. (Der Bedarf zeigt sich meist erst, wenn der Ablauf des Zertifikatsprogramms klar ist.)<br> 
-Für das Erstellen der Meldungen steht ein eigenes Tab zur Verfügung.
+Für das Erstellen der Meldungen steht ein eigenes Tab zur Verfügung. 
+Einige typische Meldungen sind vorbereitet und Sie können den Versand einfach aktivieren oder deaktivieren. Im unteren Teil können Sie eigene Erinnerungen einrichten.
 
+![certification_programs_settings_config_step10_v1_de.png](assets/certification_programs_settings_config_step10_v1_de.png){ class="shadow lightbox" }
 
 [Zum Seitenanfang ^](#create_certification_programs)
 
