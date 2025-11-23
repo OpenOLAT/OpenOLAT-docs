@@ -25,7 +25,7 @@ Beim Suchen kommt es darauf an, von welchem **Ausgangspunkt** man sucht. Je nach
 ## Volltextsuche {: #full_text_search}
 
 Die Volltextsuche wird für die globale Suche verwendet. Mit ihr suchen Sie in verschiedenen Kurs- und Gruppen**inhalten** nach den Suchbegriffen, beispielsweise auch in Forumsbeiträgen, PDF- und Word-Dateien.
-Weiter können Sie auch nach Portfoliomappen und Artefakten, sowie nach Dokumenten in den [Benutzerordnern](../personal_menu/Personal_folders.de.md) suchen. Eine Ausnahme ist der private Ordner, welcher nicht indexiert wird.
+Weiter können Sie auch nach Portfoliomappen und Artefakten, sowie nach Dokumenten in den Persönlichen Dateien im [File Hub](../personal_menu/File_Hub.de.md) suchen. Eine Ausnahme ist der private Ordner, welcher nicht indexiert wird.
 
 ![](assets/generelle_Suche.png)
 

@@ -25,9 +25,9 @@ Innerhalb des persönlichen Ordners wird zwischen einem **privaten** und einem *
 
 In einem Kurs verwendete Dateien können im Ablageordner dieses Kurses hinterlegt werden. 
 
-Der Zugriff erfolgt im Kurs über **Administration > Dateien** oder über den [File Hub](../personal_menu/File_Hub.de.md) unter "Kurse".
+Der Zugriff erfolgt im Kurs über **Administration > Dateien > Ablageornder** oder im persönlichen Bereich über [File Hub](../personal_menu/File_Hub.de.md) unter "Kurse". Hier den passenden Kurs auswählen.
 
-Hier können z.B. auch Dateien hochgeladen werden, die später innerhalb des Kurses von einer Seite aus verlinkt und aufgerufen werden sollen.
+Im Ablageordner können z.B. Dateien hochgeladen werden, die später innerhalb des Kurses von einer Seite aus verlinkt und aufgerufen werden sollen.
 
 [Zu den Details >](../learningresources/Storage_folder.de.md)<br>
 [Zum Seitenanfang ^](#folders)
@@ -37,7 +37,7 @@ Hier können z.B. auch Dateien hochgeladen werden, die später innerhalb des Kur
 
 In einen Ressourcenordner können Dateien hochgeladen werden, die in mehreren Kursen verwendet verwendet sollen. So können diese zentral und nur an einer Stelle bearbeitet werden.
 
-Um den Ressourcenordner innerhalb eines Kurses zu nutzen, muss er über **Administration > Einstellungen > Tab Optionen** eingebunden werden. Anschliessend findet man im Ablageordner des Kurses den neuen Ordner "shared folder" und hat dort Zugriff auf die Dateien des Resssourcenordners. Pro Kurs kann nur ein Ressourcenordner verwendet werden.
+Um den Ressourcenordner innerhalb eines Kurses zu nutzen, muss er im Kurs über **Administration > Einstellungen > Tab Optionen** eingebunden werden. Anschliessend findet man im Ablageordner des Kurses den neuen Ordner "shared folder" und hat dort Zugriff auf die Dateien des Resssourcenordners. Pro Kurs kann nur ein Ressourcenordner verwendet werden.
 
 Der kursübergreifende "Ressourcenordner" ist eine Lernressource und deshalb auch im Autorenbereich aufgelistet und er kann dort bearbeitet werden. 
 
@@ -47,7 +47,7 @@ Der kursübergreifende "Ressourcenordner" ist eine Lernressource und deshalb auc
 
 ### Kursbaustein "Ordner" {: #course_element_folder}
 
-Der Kursbaustein "Ordner" ist eine Ablagemöglichkeit innerhalb eines Kurses oder einer Gruppe. Kursbetreuer:innen und Kursbesitzer:innen können dort Dateien zum Download bereitstellen. Auch Teilnehmer:innen des Kurses kann das Recht zum Upload erteilt werden.
+Der [Kursbaustein "Ordner"](../learningresources/Course_Element_Folder.de.md) ist eine Ablagemöglichkeit innerhalb eines Kurses. Kursbetreuer:innen und Kursbesitzer:innen können dort Dateien zum Download bereitstellen. Teilnehmende des Kurses können bei Bedarf ebenfalls das Upload Recht erhalten.
 
 [Zu den Details >](../learningresources/Course_Element_Folder.de.md)<br>
 [Zum Seitenanfang ^](#folders)
@@ -55,7 +55,7 @@ Der Kursbaustein "Ordner" ist eine Ablagemöglichkeit innerhalb eines Kurses ode
 
 ### Kursbaustein "Teilnehmer:innen-Ordner" {: #course_element_participant_folder}
 
-Der Kursbaustein "Teilnehmer:innen Ordner" ermöglicht einen Dateiaustausch zwischen einzelnen Teilnehmenden und Betreuenden. Dafür stehen zwei Unterordner zur Verfügung. Zum einen ist dies der "Teilnehmer:innen Abgabeorder", über den Teilnehmende Dateien an Betreuer:innen abgeben können. Zum anderen der "Betreuer:innen Rückgabeorder", in welchem die Betreuer:innen Dateien an alle Teilnehmer:innen gleichzeitig oder individuell zurückgeben können.
+Der [Kursbaustein "Teilnehmer:innen Ordner"](../learningresources/Course_Element_Participant_Folder.de.md) ermöglicht einen Dateiaustausch zwischen einzelnen Teilnehmenden und Betreuenden. Dafür stehen zwei Unterordner zur Verfügung. Zum einen ist dies der "Teilnehmer:innen Abgabeorder", über den Teilnehmende Dateien an Betreuer:innen abgeben können. Zum anderen der "Betreuer:innen Rückgabeorder", in welchem die Betreuer:innen Dateien an alle Teilnehmer:innen gleichzeitig oder individuell zurückgeben können.
 
 [Zu den Details >](../learningresources/Course_Element_Participant_Folder.de.md)<br>
 [Zum Seitenanfang ^](#folders)
@@ -63,7 +63,7 @@ Der Kursbaustein "Teilnehmer:innen Ordner" ermöglicht einen Dateiaustausch zwis
 
 ### Ordner im Kursbaustein "Aufgabe" bzw. "Gruppenaufgabe" {: #course_element_task}
 
-Innerhalb des Workflows eines Kursbausteins "Aufgabe" und "Gruppenaufgabe" werden verschiedene Dokument von Betreuenden oder Teilnehmenden hoch- und heruntergeladen: Aufgabenstellung, abgegebene Dokumente, zurück gegebene Dokumente, überarbeitete Dokumente und Musterlösung. 
+Innerhalb des Workflows eines [Kursbausteins "Aufgabe"](../learningresources/]Course_Element_Task.de.md) und ["Gruppenaufgabe"](../learningresources/Course_Element_Grouptask.de.md) werden verschiedene Dokument von Betreuenden oder Teilnehmenden hoch- und heruntergeladen: Aufgabenstellung, abgegebene Dokumente, zurück gegebene Dokumente, überarbeitete Dokumente und Musterlösung. 
 Für alle Dateien stehen innerhalb des Kursbausteins Ordner zur Verfügung, die nur innerhalb des Kursbausteins zugänglich sind.
 
 [Zu den Details >](../learningresources/Course_Element_Task.de.md#workflow)<br>
@@ -74,7 +74,7 @@ Für alle Dateien stehen innerhalb des Kursbausteins Ordner zur Verfügung, die 
 
 Innerhalb einer Gruppe können Gruppenmitglieder Dokumente im gemeinsamen Gruppenordner austauschen. Dort können Dateien hochgeladen, erstellt und heruntergeladen werden. Eine weitere Strukturierung mit Unterordnern ist ebenfalls möglich.
 
-Auch über den File Hub kann auf Gruppenordner zugegriffen werden. Der File Hub erkennt automatisch, ob Sie Mitglied einer Gruppe sind und welche Gruppenordner Ihnen deshalb im File Hub angezeigt werden. 
+Auch über den [File Hub](../personal_menu/File_Hub.de.md) kann auf Gruppenordner zugegriffen werden. Der File Hub erkennt automatisch, ob Sie Mitglied einer Gruppe sind und welche Gruppenordner Ihnen deshalb im File Hub angezeigt werden. 
 
 Der Zugriff auf einen Gruppenordner ist in jedem Fall an die Mitgliedschaft in der betreffenden Gruppe gebunden.
 
@@ -90,7 +90,7 @@ Eingerichtet wird dieser Ordner unter **Administration > Einstellungen > Tab Opt
 Es kann ein Unterordner aus dem Ablageordner des Kurses verwendet werden oder ein Ordner automatisch neu erstellt werden (_coachdocuments).
 
 Geöffnet werden kann der Ordner anschliessend unter **Administration > Unterlagen Betreuer:innen**.
-Auch via File Hub kann durch Auswahl des Kurses auf den Ordner zugegriffen werden.
+Auch via [File Hub](../personal_menu/File_Hub.de.md) kann durch Auswahl des Kurses auf den Ordner zugegriffen werden.
 
 [Zu den Details >](../learningresources/Course_Settings_Options.de.md#einstellungen-betreuerinnen)<br>
 [Zum Seitenanfang ^](#folders)
@@ -98,7 +98,7 @@ Auch via File Hub kann durch Auswahl des Kurses auf den Ordner zugegriffen werde
 
 ### Archive {: #archive}
 
-Wird ein ganzer Kurs archiviert oder nur aus einigen Kursbausteine ein Teilarchiv erstellt, sind diese im File Hub im Ordner "Kursarchiv" abgelegt.
+Wird ein ganzer Kurs archiviert oder nur aus einigen Kursbausteine ein Teilarchiv erstellt, sind diese im [File Hub](../personal_menu/File_Hub.de.md) im Ordner "Kursarchiv" abgelegt.
 
 [Zu den Details >](../learningresources/Course_Archiving.de.md)<br>
 [Zum Seitenanfang ^](#folders)

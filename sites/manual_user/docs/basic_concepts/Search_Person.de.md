@@ -2,7 +2,7 @@
 
 ## Personensuche im persönlichen Menü {: #personal_menu}
 
-Suchen Sie eine bestimmte Person (aus dem Personenkreis der auf Ihrer OpenOlat-Instanz registrierten Benutzer), dann verwenden Sie dazu am besten die [Personensuche im persönlichen Menü](../basic_concepts/Search_Person.de.md).
+Suchen Sie eine bestimmte Person (aus dem Personenkreis der auf Ihrer OpenOlat-Instanz registrierten Benutzer), dann verwenden Sie dazu am besten die Personensuche im persönlichen Menü.
 
 Das Suchformular enthält die entsprechenden Felder, mit denen die Suche eingegrenzt werden kann.
 
@@ -20,7 +20,7 @@ Das Suchformular enthält die entsprechenden Felder, mit denen die Suche eingegr
 
 ## Personensuche in der Benutzerverwaltung {: #user_management}
 
-Ist es Ihre Aufgabe, die Benutzer der OpenOlat-Instanz zu verwalten, benötigen Sie die Rolle der **Benutzerverwalter:in**. Damit erhalten Sie Zugang zur Benutzerverwaltung und können die Daten aller Benutzer:innen einsehen und bearbeiten.
+Ist es Ihre Aufgabe, die Benutzer:innen der OpenOlat-Instanz zu verwalten, benötigen Sie die Rolle der **Benutzerverwalter:in**. Damit erhalten Sie Zugang zur Benutzerverwaltung und können die Daten aller Benutzer:innen einsehen und bearbeiten.
 
 Zur effizienten Suche einer bestimmten Benutzer:in gibt es eine Kontosuche, in der Sie Personen sehr spezifisch nach bestimmten Kriterien suchen können.
 
@@ -36,7 +36,7 @@ Auch eine [Massensuche](Search_General.de.md#bulk_search) steht zur Verfügung.
 
 ## Personensuche im Coaching Tool {: #coachingtool}
 
-Das Coaching Tool dient der kursübergreifenden Betreuung von Teilnehmer:innen. Bei vielen Kursen und Teilnehmer:innen hilft eine [Personensuche](../area_modules/coaching_personensuche.de.md), die nur innerhalb des von Ihnen betreuten Personenkreises sucht.
+Das [Coaching Tool](../area_modules/Coaching.de.md) dient der kursübergreifenden Betreuung von Teilnehmer:innen. Bei vielen Kursen und Teilnehmer:innen hilft eine [Personensuche](../area_modules/Coaching_User_Search.de.md), die nur innerhalb des von Ihnen betreuten Personenkreises sucht.
 
 ![search_person_in_coachingtool_v1_de.png](assets/search_person_in_coachingtool_v1_de.png){ class="shadow lightbox"}
 

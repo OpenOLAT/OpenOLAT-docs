@@ -28,18 +28,18 @@ The following course elements can be seen by guests:
   * **Participant folder**: same as normal user
   * **SCORM**: do
   * **Test**: do it depending on configuration
-  * **Self test**: do (even if option is not selected)
+  * **Self test**: do 
   * Participate in **BigBlueButton**, **OpenMeetings** and similar meetings
   * Edit **Surveys**
 
 If you want to give a guest a direct access to a course, you can send him/her the external link for the course. 
 
-![Info page](assets/guest_infopage.png)
+![Info page](assets/Gast-link_20.jpg)
 
 
 !!! tip "Tip: Alternative to guests"
 
-    If you want to invite someone to an OpenOlat course who does not yet have an OpenOlat account, you can alternatively use the option "Invite external members" in the member administration. The invited person will then receive a registration link and limited access to OpenOlat, but has more possibilities than a guest. 
+    If you want to invite someone to an OpenOlat course who does not yet have an OpenOlat account, you can alternatively use the option "Invite external members" in the [member administration](../learningresources/Members_management.md). The invited person will then receive a registration link and limited access to OpenOlat, but has more possibilities than a guest. 
   
 !!! info "Info"  
 
