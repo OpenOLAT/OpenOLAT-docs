@@ -7,7 +7,7 @@
 ## Planning
 
 1. [How do I plan and run courses with the Course Planner?](/manual_how-to/course_planner_course/course_planner_course)
-2. [How do I plan and run a curriculum with the Course Planner?](/manual_how-to/course_planner_curriculum/course_planner_curriculum)
+2. [How can I create certification programs with the Course Planner?](/manual_how-to/certification_programs/certification_programs)
 
 ## Create Courses
 

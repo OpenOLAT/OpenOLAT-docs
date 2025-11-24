@@ -2,7 +2,7 @@
 
 ## People search in the personal menu
 
-If you are looking for a specific person (from the group of users registered on your OpenOlat instance), the best way to do this is to use the [Person search in the personal menu](../personal_menu/Other_users.md).
+If you are looking for a specific person (from the group of users registered on your OpenOlat instance), the best way to do this is to use the Person search in the personal menu.
 
 The search form contains the corresponding fields with which the search can be narrowed down.
 
@@ -26,8 +26,14 @@ The coaching tool is used for cross-course support of participants. For many cou
 
 [To the top of the page ^](#search_person)
 
+---
+
+## Further information
+
 [General things about the search >](Search_General.md)<br>
 [Local search >](Search_Local.md)<br>
 [Personal search >](Search_Person.md)<br>
 [Search in a course >](Search_in_Course.md)<br>
 [Search in FileHub >](Search_in_FileHub.md)<br>
+
+[To the top of the page ^](#search_person)
