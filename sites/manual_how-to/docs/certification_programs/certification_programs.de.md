@@ -61,7 +61,7 @@ Wünschen Sie, dass das vergebene Zertifikat eine begrenzte Gültigkeitsdauer ha
 ---
 
 
-### Schritt 4: Rezertifizierung?
+### Schritt 4: Rezertifizierung
 Erst durch die Angabe einer Gültigkeitsdauer wird die Option zur Rezertifizierung auswählbar.
 
 Wird die Rezertifizerung gewünscht, geben Sie ein Zeitfenster für die Rezertifizierung an. So wird festgelegt, wie lange die Teilnehmer:innnen Zeit haben, ihr Zertifikat zu erneuern nachdem es abgelaufen ist.
@@ -79,7 +79,7 @@ Wenn die Rezertifizierung aktiviert wurde, kann mit einem weiteren Toggle-Button
 
 * ob die Rezertifizierung automatisch oder manuell ausgelöst werden soll.
 * welches Kreditpunktesystem verwendet werden soll.
-* wieviele Kreditpunkte benötigt werden, um ein Zertifikat zu erlangen.
+* wie viele Kreditpunkte benötigt werden, um ein Zertifikat zu erlangen.
 * ob eine vorzeitige Rezertifizierung durch die Teilnehmenden möglich ist. (Teilnehmer:innen können dann ihr Zertifikat vorzeitig erneuern, auch wenn das Zertifikat noch gültig ist.)
 
 ![certification_programs_settings_config_step5_v1_de.png](assets/certification_programs_settings_config_step5_v1_de.png){ class="shadow lightbox" }

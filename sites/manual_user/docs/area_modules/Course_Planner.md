@@ -78,8 +78,22 @@ For example, members can be added directly to the individual tours by booking an
 
 ---
 
+## Planning for course bundles  {: #planning_course_bundles}
+
+Just as multiple instances can be created for an individual course, instances can also be created for an entire course bundle and offered in the catalog.
+
+If desired, the combination of courses/learning resources can also be modified in the individual implementations and deviate from the standard implementation ("copy template").
+
+![course_planner_planning_course_bundles_v1_de.png](assets/course_planner_planning_course_bundles_v1_de.png){ class="shadow lightbox" } 
+
+[To the top of the page ^](#course_planner)
+
+---
+
 
 ## Planning for structured educational programs {: #planning_structured_product}
+
+Structured products/educational programs have an additional tree structure compared to course bundles. They contain structural elements. 
 
 Even if participants are to complete an educational product consisting of several courses, they are made members of a specific implementation. (Not members of individual courses or members of the educational product template).
 
