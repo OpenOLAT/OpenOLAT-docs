@@ -211,7 +211,7 @@ In den Einstellungen definieren Sie,
 Wie bereits weiter oben erklärt, können Sie für eine Rezertifizierung zur Voraussetzung machen, dass eine bestimmte Anzahl Kreditpunkte vorher erworben wurde. Wieviele Kreditpunkte für den Erwerb des Zertifikats erforderlich sind, wird eingestellt unter<br>
 **Course Planner > Zertifikatsprogramm > Tab Einstellungen > Button "Konfiguration"**. 
 
-In Planung: **Kreditpunkte als Zahlungsmittel**<br>
+**Kreditpunkte als Zahlungsmittel**<br>
 Stellt das Zertifikatsprogramm ein Zertifikat aus, kann auch eine bestimmbare Anzahl Kreditpunkte vom Guthaben abgezogen werden. 
 
 
@@ -237,8 +237,14 @@ Die Buttons über der Liste helfen Ihnen mit vorsortierten Listen.
 ### Übersicht für Betreuer:innen
 Als Betreuer:in behalten Sie den Überblick über die Zertifikate Ihrer betreuten Teilnehmer:innen weiterhin am einfachsten
 
-* für einzelne Kurse im Bewertungswerkzeug
-* für mehrere Kurse im Coachingtool
+* für einzelne Kurse im **Bewertungswerkzeug**
+* für mehrere Kurse im **Coachingtool**
+
+
+### Übersicht für Bildungsverantwortliche
+
+Bildungsverantwortliche sehen alle Zertifikate aus unterschiedlichen Zertifikatsprogrammen und Kursen einzelner Teilnehmer:innen unter<br>
+**Coaching > Education Manager > Person wählen > Tab Zertifikate**
 
 
 ### Übersicht für Teilnehmer:innen
@@ -260,8 +266,14 @@ Erste Voraussetzung für eine Rezertifizierung mit einem Zertifikatsprogramm ist
 Zweite Voraussetzung ist ein vorhandenes Zertifikat mit einem Ablaufdatum.<br>
 (Course Planner > Zertifikatsprogramm > Tab Einstellungen > Button Konfiguration)
 
+Drittens kann es sein, dass eine bestimmte Anzahl Kreditpunkte vorhanden sein muss, bevor eine Rezertifizierung möglich ist.
+
+**Erneuerung durch Besitzer:innen des Zertifikatsprogramms**<br>
+Besitzer:innen des Zertifikatsprogramms können ein noch gültiges Zertifikat jederzeit erneuern und damit verlängern unter<br>
+Course Planner > Zertifikatsprogramm > Tab Mitglieder > Mitglied wählen > 3 Punkte
+
 **Rezertifizierungszeitraum**<br>
-Die Möglichkeit zur Rezertifizierung kann von den Besitzer:innen des Zertifikatsprogramms sinnvollerweise schon vor Ablauf des Zertifikats gegeben werden. In diesem Zusammenhang können auch entsprechende Informationen und Erinnerungen automatisch verschickt werden.<br>
+Die Möglichkeit zur Rezertifizierung durch Teilnehmer:innen kann von den Besitzer:innen des Zertifikatsprogramms sinnvollerweise schon vor Ablauf des Zertifikats gegeben werden. In diesem Zusammenhang können auch entsprechende Informationen und Erinnerungen automatisch verschickt werden.<br>
 (Course Planner > Zertifikatsprogramm > Tab Einstellungen > Button Konfiguration > Abschnitt Rezertifizierung)
 
 [Zum Seitenanfang ^](#certification_programs)
@@ -271,8 +283,8 @@ Die Möglichkeit zur Rezertifizierung kann von den Besitzer:innen des Zertifikat
 
 ## Zertifikate manuell ausstellen oder aberkennen {: #manual_certification}
 
-Das Recht zum manuellen Ausstellen oder Aberkennen von Zertifikaten haben Besitzer:innen des jeweiligen Zertifikatsprogramms.
-
+Das Recht zum manuellen Ausstellen oder Aberkennen von Zertifikaten haben in erster Linie Besitzer:innen des jeweiligen Zertifikatsprogramms.<br>
+Ausserdem haben auch Benutzer:innen mit den Rollen "Administrator:in" und "Course Planner:in" administrativen Zugriff.
 
 !!! info "Hinweis"
 
