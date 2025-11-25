@@ -145,6 +145,7 @@ Betreuenden kann gestattet werden ...
 ![course_settings_assessment_evidence_of_achievements_v1_de.png](assets/course_settings_assessment_evidence_of_achievements_v1_de.png){ class="lightbox" }
 
 ![course_settings_assessment_evidence_of_achievements_my_cours_v1_de.png](assets/course_settings_assessment_evidence_of_achievements_my_cours_v1_de.png){ class="aside-right lightbox" }
+
 Wenn Sie die Option "Leistungsnachweise verwenden" aktivieren, erscheint im Kurs im Toolbar Menü ["Mein Kurs"](../learningresources/Additional_Course_Features.de.md) die Option "Leistungsnachweis" und die Kursteilnehmenden sehen einen Überblick über die bewertbaren Kursbausteine mit ihrem jeweiligen aktuellen Bewertungsstatus.
 
 Der Link zum Leistungsnachweis erscheint im Kurs erst dann, wenn im Kurs mindestens ein bewertbarer Kursbaustein existiert, und der Kursteilnehmer bereits mindestens eine Bewertung erhalten hat. Dies kann z.B. der Lösungsversuch eines Tests sein oder die Bewertung einer Aufgabe.
@@ -186,7 +187,7 @@ Als Bestätigung für den Besuch eines Kurses bzw. der Erreichung von bestimmten
 
 [Details zu Zertifikaten in einem Kurs >](../learningresources/Course_Settings_Assessment_Certificate.de.md)<br>
 
-Wurde ein Zertifikat mit einer begrenzten Gütligkeitsdauer vergeben, kann ein **Rezertifizierungsprozess** aktivert werden.<br> 
+Wurde ein Zertifikat mit einer begrenzten Gültigkeitsdauer vergeben, kann ein **Rezertifizierungsprozess** aktivert werden.<br> 
 [Details zur Rezertifizierung >](../learningresources/Course_Settings_Assessment_Certificate.de.md#recertification)
 
 [Zum Seitenanfang ^](#tab_assessment)

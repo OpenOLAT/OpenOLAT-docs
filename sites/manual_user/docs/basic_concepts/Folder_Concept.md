@@ -28,7 +28,7 @@ Within the personal folder, a distinction is made between a **private** and a **
 
 Files used in a course can be stored in the storage folder of this course. 
 
-You can access the course via **Administration > Files** or via the [File Hub](../personal_menu/File_Hub.md) under "Courses".
+You can access the course via **Administration > Files > Storage folder** or via the [File Hub](../personal_menu/File_Hub.md) under "Courses".
 
 Files can also be uploaded here, for example, which are to be linked and accessed later within the course from a page.
 
@@ -51,7 +51,7 @@ The cross-course "resource folder" is a learning resource and is therefore also 
 
 ### Course element "Folder" {: #course_element_folder}
 
-The course element "Folder" is a storage option within a course or group. Course tutors and course owners can make files available for download there. Course participants can also be granted the right to upload files.
+The [course element "Folder"](../learningresources/Course_Element_Folder.md) is a storage option within a course or group. Course tutors and course owners can make files available for download there. Course participants can also be granted the right to upload files.
 
 [See the details >](../learningresources/Course_Element_Folder.md)<br>
 [To the top of the page ^](#folders)
@@ -59,7 +59,7 @@ The course element "Folder" is a storage option within a course or group. Course
 
 ### Course element "Participant folder" {: #course_element_participant_folder}
 
-The course element "Participant folder" enables the exchange of files between individual participants and coaches. Two subfolders are available for this purpose. One is the "Participants folder", which participants can use to submit files to coaches. The other is the "Coach return order", in which the coaches can return files to all participants simultaneously or individually.
+The [course element "Participant folder"](../learningresources/Course_Element_Participant_Folder.md) enables the exchange of files between individual participants and coaches. Two subfolders are available for this purpose. One is the "Participants folder", which participants can use to submit files to coaches. The other is the "Coach return order", in which the coaches can return files to all participants simultaneously or individually.
 
 [See the details >](../learningresources/Course_Element_Participant_Folder.md)<br>
 [To the top of the page ^](#folders)
@@ -67,7 +67,7 @@ The course element "Participant folder" enables the exchange of files between in
 
 ### Folder in "Task" and "Group task" {: #course_element_task}
 
-Within the workflow of a course element "Task" and "Group task", various documents are uploaded and downloaded by coaches or participants: Assignment, submitted documents, returned documents, revised documents and sample solution. 
+Within the workflow of a [course element "Task"](../learningresources/]Course_Element_Task.md) and ["Group task"](../learningresources/Course_Element_Grouptask.md), various documents are uploaded and downloaded by coaches or participants: Assignment, submitted documents, returned documents, revised documents and sample solution. 
 Folders are available for all files within the course element, which are only accessible within the course element.
 
 [See the details >](../learningresources/Course_Element_Task.md#workflow)<br>
@@ -78,7 +78,7 @@ Folders are available for all files within the course element, which are only ac
 
 Within a group, group members can exchange documents in the shared group folder. Files can be uploaded, created and downloaded there. Further structuring with subfolders is also possible.
 
-Group folders can also be accessed via the File Hub. The File Hub automatically recognizes whether you are a member of a group and which group folders are therefore displayed in the File Hub. 
+Group folders can also be accessed via the [File Hub](../personal_menu/File_Hub.md). The File Hub automatically recognizes whether you are a member of a group and which group folders are therefore displayed in the File Hub. 
 
 Access to a group folder is always linked to membership of the relevant group.
 
@@ -95,7 +95,7 @@ This folder is set up under **Administration > Settings > Options tab > "Coach s
 A subfolder from the course storage folder can be used or a new folder can be created automatically (_coachdocuments).
 
 The folder can then be opened under **Administration > Coach documents**.
-The folder can also be accessed via File Hub by selecting the course.
+The folder can also be accessed via [File Hub](../personal_menu/File_Hub.md) by selecting the course.
 
 [See the details >](../learningresources/Course_Settings_Options.md)<br>
 [To the top of the page ^](#folders)

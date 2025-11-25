@@ -1,8 +1,8 @@
 # Portal konfigurieren
 
-Sofern vom Administrator die Portalfunktion eingeschaltet wurde können
-OpenOlat Benutzer ihre Portalseite konfigurieren. Die Abschnitte auf dem
-Portal bestehen aus verschiedenen Schnellzugängen, beispielsweise zu Ihren
+Sofern von den Administrator:innen die Portalfunktion eingeschaltet wurde können
+OpenOlat Benutzer:innrn ihre Portalseite konfigurieren. Die Abschnitte auf dem
+Portal bestehen aus verschiedenen Schnellzugängen, beispielsweise zu persönlichen 
 Gruppen, Lernressourcen, zum Kalender, zu den Benachrichtigungen und zu
 Informationen rund um OpenOlat. Sie können selber bestimmen, welche Abschnitte
 in welcher Anordnung angezeigt werden sollen.

@@ -1,6 +1,6 @@
 # Kursbaustein "Aufgabe" {: #course_element_task}
 
-## Steckbrief
+## Steckbrief {: #profile}
 
 Name | Aufgabe
 ---------|----------

@@ -8,7 +8,7 @@ An educational program/product (consisting of one or more courses) can be offere
 
 In an educational program/product, one or more courses are assigned to each implementation.
 
-The course(s) used multiple times only exist once and are templates. The courses are instantiated for each execution (created from the template). This instantiation can also take place automatically on a specific date. For example, a few days before the start of a course. Until then, the course owners can still work on finalizing the courses (templates). However, the organizational aspects can already be prepared with the Course Planner.
+The course(s) used multiple times only exist once and are templates. The courses are instantiated for each implementation (created from the template). This instantiation can also take place automatically on a specific date. For example, a few days before the start of a course. Until then, the course owners can still work on finalizing the courses (templates). However, the organizational aspects can already be prepared with the Course Planner.
 
 From this conceptual idea, the same courses are generally assigned and used in each implementation. However, it is also possible in OpenOlat to adapt the content in each implementation.
 
@@ -19,7 +19,7 @@ From this conceptual idea, the same courses are generally assigned and used in e
 
 ## The list of implementations {: #listing}
 
-If you have selected the "Executions" button in the Courser Planner overview, you will first be taken to a list of all executions for this product. You can use the tabs to display sub-lists (e.g. "Active") and use filters to narrow down the selection further.
+If you have selected the "Implementations" button in the Courser Planner overview, you will first be taken to a list of all implementations for this product. You can use the tabs to display sub-lists (e.g. "Active") and use filters to narrow down the selection further.
 
 ![course_planner_implementations_list_v1_de.png](assets/course_planner_implementations_list_v1_de.png){ class="shadow lightbox" }  
 
@@ -31,11 +31,11 @@ If you have selected the "Executions" button in the Courser Planner overview, yo
 
 Once you have selected and opened an implementation in the list, you can
 
-![1_green_24.png](assets/1_green_24.png) click on the "**Go to**" button at the top right to jump to an element within the current execution.
+![1_green_24.png](assets/1_green_24.png) click on the "**Go to**" button at the top right to jump to an element within the current implementation.
 
 ![2_green_24.png](assets/2_green_24.png) use the **arrow buttons** at the top right to switch to other bushings.
 
-![3_green_24.png](assets/3_green_24.png) configure this execution by clicking on the various **tabs**.
+![3_green_24.png](assets/3_green_24.png) configure this implementation by clicking on the various **tabs**.
 
 ![4_green_24.png](assets/4_green_24.png) click on one of the **headings** to jump directly to the corresponding tab.
 
@@ -103,6 +103,26 @@ The option to **remove** an **individual course** from this implementation can b
 To **remove several courses**, select the courses with the checkboxes in the first column. A Remove button will then be displayed above the list.
 
 ![course_planner_implementations_tab_content_v1_de.png](assets/course_planner_implementations_tab_content_v1_de.png){ class="shadow lightbox" }
+
+<br>
+
+**Course template as course content**<br>
+If it corresponds to the selected implementation type (individual course required), it is also possible to add a course template that can be instantiated at a later date. This means that at the time of planning in the Course Planner, a course is only announced but not yet added. Only when the course is actually held, for example, because there are enough bookings, is the course added to the schedule (instantiated).
+
+Using a template for instancing is recommended if it is a recurring course that is always the same.
+
+![course_planner_implementations_tab_content_template1_v1_de.png](assets/course_planner_implementations_tab_content_template1_v1_de.png){ class="shadow lightbox" }
+
+The "Add course" and "Add course templates" buttons become inactive once the number of courses or templates corresponding to the selected delivery type has been added.
+
+**Creation of course templates**<br>
+Course templates are created by selecting the "Template" option in the course under **Administration > Settings > Shares > Intended use**. 
+The templates for course content in Course Planner do not have independent member management, as members are added to Course Planner for each course run.
+
+!!! hint "Note"
+
+    Templates are copied. If the template is changed later, the previously created copy remains unchanged.
+
 
 [To the top of the page ^](#implementations)
 
@@ -199,6 +219,8 @@ Separate settings can be made here for each implementation:
 - Absence management
 - Progress configuration
 
+![course_planner_implementations_tab_settings_options_v1_de.png](assets/course_planner_implementations_tab_settings_options_v1_de.png){ class="shadow lightbox" }
+
 [To the top of the page ^](#implementations)
 
 ---
@@ -207,6 +229,7 @@ Separate settings can be made here for each implementation:
 ### Tab Absences {: #tab_absences}
 
 This tab only appears if absences have been activated on the element.
+<How is it being activated?>
 
 ![course_planner_implementations_tab_absences_v1_de.png](assets/course_planner_implementations_tab_absences_v1_de.png){ class="shadow lightbox" }
 

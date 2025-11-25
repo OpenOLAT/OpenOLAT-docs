@@ -1,21 +1,51 @@
 # Course Settings - Tab Assessment {: #tab_assessment}
 
 In learning path courses, the settings for the **assessment method** and the **pass** of the course are defined in this tab.<br>
-You can also activate the use of **credentials** and the awarding of **certificates** and **badges**. 
+You can also enable the use of **performance records** and the awarding of **credit points**, **certificates**, and **badges**. 
+
+You can find the options for this in the sections
+
+![1_green_24.png](assets/1_green_24.png) [Assessment settings](#section_assessment_settings)<br>
+![2_green_24.png](assets/2_green_24.png) [Assessment rights](#section_assessment_rights)<br>
+![3_green_24.png](assets/3_green_24.png) [Evidence of achievement](#section_evidence_of_achievements)<br>
+![4_green_24.png](assets/4_green_24.png) [Credit points](#section_credit_points)<br>
+![5_green_24.png](assets/5_green_24.png) [Certificate](#section_certificate)<br>
+![6_green_24.png](assets/6_green_24.png) [Badges](#section_badges)<br>
 
 ![course_settings_assessment_v3_de.png](assets/course_settings_assessment_v3_de.png){ class="shadow lightbox" }
 
+[To the top of the page ^](#tab_assessment)
+
+---
 
 
+## ![1_green_24.png](assets/1_green_24.png) Section Assessment Settings {: #section_assessment_settings}
 
-## Course assessment with points (only for learning path courses) {: #evaluation_with_points}
+!!! info "Assessment in traditional courses"
 
-There are 3 options for the course assessment with points:
+    The following information refers to learning path courses. For conventional courses, the criteria for passing a course are set in the course editor on the top course element in the “Points” tab, and the result is displayed on the course start page.
 
-* Sum
-* Sum with weighting
-* Average
+There are two settings for course assessments:
 
+- **With points** (only with learning path courses) {: #evaluation_with_points}<br>
+    Here you can set whether and what type of points are displayed.
+    There are 3 options to choose from for course evaluation with points:
+
+    * [Sum](#evaluation_with_points_sum)
+    * [Sum with weighting](#evaluation_with_points_weighting) 
+    * [Average](#evaluation_with_points_average)
+
+    ![course_settings_assessment_points_percentage_v1_de](assets/course_settings_assessment_points_percentage_v1_de.png){ class="aside-right lightbox" }
+    If [learning path courses](Learning_path_course.md) are graded with **points**, this affects whether and what type of points are displayed in addition to the percentage display in the course. 
+
+    It can be graded with points, even if they are not relevant for passing the course.
+
+- **Mit "passed/didn't pass"**<br>
+  Here you can set when a course is considered passed. In addition to a certain number of points achieved, other criteria can also lead to a "pass."<br> [Find out more >](#evaluation_passed_failed)
+
+[To the top of the page ^](#tab_assessment)
+
+---
 
 ### Course assessment with points: Sum {: #evaluation_with_points_sum}
 
@@ -23,6 +53,10 @@ The sum of all points achieved in the course is calculated.
 
 ![course_settings_assessment_points_sum_v1_de.png](assets/course_settings_assessment_points_sum_v1_de.png){ class="shadow lightbox" }
 
+[Find out more about Assessment Settings ^](#section_assessment_settings)<br>
+[To the top of the page ^](#tab_assessment)
+
+---
 
 ### Course evaluation with points: Sum with weighting {: #evaluation_with_points_weighting}
 
@@ -38,6 +72,10 @@ In the **Course configuration overview**, the scaling for all assessable modules
 
 The weighted score is displayed to coaches in the assessment form. For participants, the weighted score is visible in the performance overview of the respective assessable module and in the performance record.
 
+[Find out more about Assessment Settings ^](#section_assessment_settings)<br>
+[To the top of the page ^](#tab_assessment)
+
+---
 
 
 ### Course evaluation with points: Average {: #evaluation_with_points_average}
@@ -49,7 +87,11 @@ The weighted score is displayed to coaches in the assessment form. For participa
     The "Highscore" tab of the top course element can only be configured in the course editor if **Total** or **average** has been selected under "Course assessment with points".
 
 
+[Find out more about Assessment Settings ^](#section_assessment_settings)<br>
 [To the top of the page ^](#tab_assessment)
+
+---
+
 
 
 ### Course assessment with "Passed/Failed" {: #evaluation_passed_failed}
@@ -74,38 +116,30 @@ A learning path course can be considered passed as soon as one of the criteria i
     When calculating "**passed**" and **points**, **mandatory and voluntary**, course elements count.
 
 
+[Find out more about Assessment Settings ^](#section_assessment_settings)<br>
 [To the top of the page ^](#tab_assessment)
 
+---
 
-### Assessment by coaches {: #assessment_by_coach}
+## ![2_green_24.png](assets/2_green_24.png) Section rights {: #section_assessment_rights}
 
-Coaches may be permitted ...
+![course_settings_assessment_user_rights_v1_de.png](assets/course_settings_assessment_user_rights_v1_de.png){ class="lightbox" }
 
-* Set "Passed/Failed" manually,<br>
-(This option is only available if the "Share assessment" field is activated. Only in this case can course coaches or owners manually set in the assessment tool whether course participants have passed the course or not).
+Coaches may be permitted to...
+
 * Reset participant data,
-* assign a classification and grades,
-* and to release the assessment for the participants. 
-
-![course_settings_assessment_coaches_v2_de.png](assets/course_settings_assessment_coaches_v2_de.png){ class="shadow lightbox" }
-
-
-!!! hint "Assessment for conventional courses"
-
-    For conventional courses, the criteria for passing a course are set in the course editor on the top course element in the "Points" tab and the result is displayed on the course start page.
-
-
-!!! hint "Points display"
-
-    Is assessed with **points** in [Learning_path_courses](Learning_path_course.md).
-    Here you can define whether or what type of points are displayed in addition to the percentage display in the course.
-    ![course_settings_assessment_points_percentage_v1_de](assets/course_settings_assessment_points_percentage_v1_de.png){ class="shadow lightbox" }
-
+* Assign a grade and marks,
+* And release the assessment to the participants. 
 
 [To the top of the page ^](#tab_assessment)
 
+---
 
-## Evidences of achievement {: #evidence_of_achievements}
+## ![3_green_24.png](assets/3_green_24.png) Evidences of achievement {: #section_evidence_of_achievements}
+
+![course_settings_assessment_evidence_of_achievements_v1_de.png](assets/course_settings_assessment_evidence_of_achievements_v1_de.png){ class="lightbox" }
+
+![course_settings_assessment_evidence_of_achievements_my_cours_v1_de.png](assets/course_settings_assessment_evidence_of_achievements_my_cours_v1_de.png){ class="aside-right lightbox" }
 
 If you activate the option "Use evidences of achievement", the option "Evidence of achievement" appears in the course in the toolbar menu ["My course"](../learningresources/Additional_Course_Features.md) and the course participants see an overview of the assessable course elements with their current assessment status.
 
@@ -115,180 +149,56 @@ If you deactivate this function, your course participants will no longer see any
 
 [To the top of the page ^](#tab_assessment)
 
+---
 
-## (Course) certificate {: #certificate}
+## ![4_green_24.png](assets/4_green_24.png) Section credit points {: #section_credit_points}
 
-**What is a certificate?**
+![course_settings_assessment_credit_points_v1_de.png](assets/course_settings_assessment_credit_points_v1_de.png){ class="lightbox" }
 
-A **PDF certificate** can be issued as confirmation that a course has been attended or that certain course-related activities have been achieved. It is also possible to issue a certificate without using a evidence of achievement.
+When credit points are enabled, participants are automatically credited with credit points after passing the course. Various credit point systems (defined by administrators) can be selected for this purpose.
 
-**Who issues a certificate?**
-
-As the author, you select whether the certificate is issued **manually** by the coach and/or **automatically** after passing the course.
-
-The "manual" selection also allows certificates to be used in courses without assessable course elements. If the certificate is to be issued manually, the coach can do this **in the assessment tool** in the performance overview of the individual users.
-
-**Where can the certificates be viewed?**
-
-As soon as the participant has fulfilled all the conditions for a passed course, the certificate is available in the **toolbar of the respective course** under "My course" in the transcript of records. Users will also automatically receive an **e-mail notification** as soon as a certificate has been issued.
-
-**How is the validity checked?**
-
-A **validity period** can be set for the certificate. You specify the validity period in days, weeks, months or years.
-
-To check the validity of the certificate, the "certificateVerificationUrl" attribute must be added to the template. This allows the certificate to be generated again at a later date using a QR code and compared with the current version. If both versions match, the certificate can be declared valid. However, the QR code for validation is only possible when using an HTML form.
-
-**What happens when a certificate expires?**
-
-[Reminders](../learningresources/Course_Reminders.md) can be triggered based on the date of issue and the expiration date of the certificate. For example, course participants can receive information that the certificate has expired or will expire in a few days or that **recertification** is now possible.
-
-**Create certificate template**
-
-A system-wide PDF template defined by the administrator is usually used as a template for the certificate. If you would like to use your own template, you can upload it in the course under **Administration > Settings > section "Certificate" > Certificate template**.
+As the course owner, you determine how many credits are awarded when this course is passed.<br>
+The validity period of credit points may also be limited. 
 
 !!! hint "Note"
 
-    When you use the ‘**Preview**’ button, only a dummy is displayed.
-    A preview always uses dummy data and not real values from the database. For example, the current date is displayed everywhere. It should not give the impression that this could be a real certificate. A preview must be deliberately and obviously incorrect.
+  The awarding of credit points is also important within a certificate program.
 
-A PDF template is not an ordinary PDF file, but must be created with HTML to ensure layout and variables.
-
-This [certificate bot](https://tools.vcrp.de/zertifikatsbot/){:target="_blank"} can be used to quickly and easily create certificate templates in HTML format. If you want to customize the bot to your needs, you can use the [Repository](https://gitlab.vcrp.de/openolat/zertifikatsbot){:target="_blank"} with the public code (MIT license).
-
-The form fields must contain certain variables that are later replaced by the system with the specific data. All attributes can be used as variables. For PDF templates, the variable names are used without a $ prefix, for HTML forms with a $ prefix.
-
-The "dateFormatter" object is available for formatting date formats. This can be used to format the "*Raw" formats using "formatDate()" or to add a specified period using formatDateRelative (Date baseLineDate, days, months, years).
-
-Signatures, logos, etc. can be integrated into the certificate as static graphics using the optional variables. The corresponding files must be available with the certificate template.
-
-???+ note "Overview of the most important variables:"
-
-    _User:_
-
-      * $fullName
-      * $firstName
-      * $lastName
-      * $birthDay
-      * $institutionalName
-      * $orgUnit
-      * $studySubject
-      * ...
-  
-         All user attributes are available as variables.
-
-    _Course:_
-
-      * $title
-      * $externalReference
-      * $authors
-      * $from (date)
-      * $fromLong (date)
-      * $location
-      * $to (date)
-      * $toLong (date)
-      * $expenditureOfWork
-      * $mainLanguage
-
-    _Data on the service (all course types):_
-
-      * $score
-      * $status
-      * $grade
-      * $gradeLabel
-      * $gradeCutValue
-
-    Performance data (learning path course only):_
-
-      * $maxScore
-      * $progress
-
-    _Data on the certificate:_
-
-      * $dateFirstCertification
-      * $dateFirstCertificationLong
-      * $dateFirstCertificationRaw
-      * $dateCertification
-      * $dateCertificationLong
-      * $dateCertificationRaw
-      * $dateNextRecertification
-      * $dateNextRecertificationLong
-      * $dateNextRecertificationRaw  
-
-      * $certificateVerificationUrl
-  
-    _Relative Date:_
-
-      Dates can be specified on the certificate that are calculated relative to a raw date:
-
-      Method and parameters | Example: $dateNextRecertificationRaw = 15.11.2021
-      ---------|----------
-      *Relative date short* | *Output: 22.09.2031*
-      $formatter.formatDateRelative(Original date, "Language code", +/- Days, +/-  Months, +/- Years) | $formatter.formatDateRelative
-      ($dateNextRecertificationRaw, "en", 7, -2, 10)
-      *Relative date long* | *Output: 22. September 2031*
-      $formatter.formatDateLongRelative(Original date, "Language code", +/- Days, +/- Months, +/- Years) | $formatter.formatDateRelative($dateNextRecertificationRaw, "en", 7, -2, 10)
-
-      _Data from the course description:_
-
-      * $!description  
-      * $!objectives  
-      * $!requirements  
-      * $!credits
-
-  
-    _Optionale Variablen:_
-
-      * $custom1
-      * $custom2
-      * $custom3
-
-If you would like a certificate template, please contact us at [support@frentix.com](mailto:support@frentix.com) for a cost estimate for a template according to your individual requirements.
+Further information:<br>
+[Activate credit points system-wide >](../../manual_admin/administration/e-Assessment_Credit_Points.md)<br>
 
 [To the top of the page ^](#tab_assessment)
 
-
-## Recertification {: #recertification}
-
-**Requirements**
-
-In order for a recertification process to be set up, certificate creation must first be activated. If a certificate for a course has expired, all affected participants can be offered recertification.
-
-The option for recertification is linked to
-
-* an existing previous (initial) certification
-* a defined indication of the earliest date from which recertification is possible.
-
-![course_settings_assessment_recertification_v2_de.png](assets/course_settings_assessment_recertification_v2_de.png){ class="shadow lightbox" }
+---
 
 
-**Activate recertification**
+## ![5_green_24.png](assets/5_green_24.png) Section (Course) certificate {: #section_certificate}
 
-If recertification is activated, a specification must be made as to when recertification should be possible: "at the earliest from ... days before the certificate expires".
+![course_settings_assessment_certificate_v1_de.png](assets/course_settings_assessment_certificate_v1_de.png){ class="lightbox" }
 
-(The value must be less than the validity period).
+A **PDF certificate** can be issued as confirmation of attendance at a course or completion of certain course-related activities.
 
-Please note that you can also display course elements only for the first certification or only for one of the recertifications. This can be determined in learning path courses via exceptions. [More >](../learningresources/Learning_path_course_Course_editor.md#exceptions)
+[Details about certificates in a course >](../learningresources/Course_Settings_Assessment_Certificate.md)<br>
 
-**Set up reminders**
-
-Before recertification is finally activated, you will be asked to set up reminders. Define automatically sent messages to affected participants, e.g. as soon as their recertification becomes possible and/or when the validity of the previous certificate has expired.
-
-The data of the participants will be reset upon recertification (course reset).
-
-Evidence of achievement and certificates from previous courses are retained.
+If a certificate with a limited period of validity has been issued, a **recertification process** can be activated.<br>
+[Details on recertification >](../learningresources/Course_Settings_Assessment_Certificate.md#recertification)
 
 [To the top of the page ^](#tab_assessment)
 
+---
+
+## ![6_green_24.png](assets/6_green_24.png) Section Badges {: #section_badges}
+
+![course_settings_assessment_badges_v1_de.png](assets/course_settings_assessment_badges_v1_de.png){ class="lightbox" }
+
+To use badges in courses, they must be activated here in the "Assessment" tab of the settings. A new menu item will then appear in the course administration, and the "Badge" tab will also appear when editing course elements under "Assessment."
+
+Course owners can always award badges manually, and supervisors can also be authorized to do so if desired.
 
 
-## Badges {: #badges}
-
-To be able to use badges in courses, they must be activated here in the "Assessment" tab of the settings. There is then a new menu item in the course administration and the "Badge" tab also appears for assessment course elements.
-
-Further information on badges can be found here: 
-
-* [Info for course owners:](../learningresources/OpenBadges.md) Creating and editing badges
-* [Info for users:](../personal_menu/OpenBadges.md) Badges in the "Personal tools: 
-* [Info for OpenOlat administrators](../../manual_admin/administration/e-Assessment_openBadges.md)
+Further information about badges can be found here:<br> 
+[Infos for course owners (Creation and editing of badges) >](../learningresources/OpenBadges.md)<br>
+[Infos for owners (Badges in "Personal Tools") >](../personal_menu/OpenBadges.md)<br> 
+[Infos for OpenOlat administrators >](../../manual_admin/administration/e-Assessment_openBadges.md)
 
 [To the top of the page ^](#tab_assessment)

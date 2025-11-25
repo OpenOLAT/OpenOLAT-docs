@@ -96,8 +96,7 @@ Wenn gewünscht, kann in den einzelnen Durchführungen die Zusammenstellung der 
 
 ## Planung für strukturierte Bildungsgänge {: #planning_structured_product}
 
-Strukturierte Produkte/Bildungsgänge weisen gegenüber Course Bundles zusätzlich eine 
-Gliederung in Baumstruktur auf. Sie enthalten Strukturelemente. 
+Strukturierte Produkte/Bildungsgänge weisen gegenüber Course Bundles zusätzlich eine Gliederung in Baumstruktur auf. Sie enthalten Strukturelemente. 
 
 Auch wenn Teilnehmer:innen ein Bildungsprodukt absolvieren sollen, werden sie zu Mitgliedern einer bestimmten Durchführung gemacht. (Nicht zu Mitgliedern einzelner Kurse oder zu Mitgliedern der Bildungsprodukt-Vorlage.) 
 
