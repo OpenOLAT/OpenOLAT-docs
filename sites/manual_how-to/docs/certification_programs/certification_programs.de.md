@@ -27,10 +27,11 @@
 
 <br>
 
+**Fall 1**<br>
 In OpenOlat gibt es Kurse die nur **einmalig** durchgeführt werden:<br>
 Kursadministration > Einstellungen > Freigabe > Verwendung: eigenständig
 
-* Für eine zweite Durchführung kann ein solcher Kurs im Autorenbereich kopiert werden. Dann müssen in der Kurskopie andere Mitglieder hinzugefügt werden.
+* Falls es doch eine zweite Durchführung geben soll, kann ein solcher Kurs im Autorenbereich kopiert werden. Dann müssen in der Kurskopie andere Mitglieder hinzugefügt werden.
 * Die Mitglieder werden direkt dem Kurs hinzugefügt.<br>
 (Administration > Mitgliederverwaltung des Kurses) 
 * Für das Bestehen dieses Kurses wird ein Zertifikat ausgestellt.<br> 
@@ -38,13 +39,14 @@ Kursadministration > Einstellungen > Freigabe > Verwendung: eigenständig
 
 <br>
 
+**Fall 2**<br>
 In OpenOlat können Kurse aber auch für die **mehrfache Verwendung** vorgesehen werden. 
 
 * Der **Course Planner** ist das Tool um OpenOlat-Kurse mehrfach durchzuführen.
 * Im Course Planner organisieren Sie mehrere **Durchführungen** eines Kurses (oder auch mehrerer Kurse im Course Bundle).
 * Damit ein Kurs für mehrere Durchführungen verwendet werden kann, muss er dafür vorgesehen werden: Administration > Einstellungen > Freigabe > **Verwendung: Course Planner**
 * Wichtig: In diesem Fall können die Mitglieder nicht mehr dem Kurs hinzugefügt werden, sondern müssen den Durchführungen zugeordnet werden. (Denn jede Durchführung hat andere Teilnehmende.)
-* Auch in OpenOlat kann das gleiche Zertifikat ausgestellt werden, aber Ort und Zeit des Erwerbs können variieren. Besitzer:innen eines Zertifikatsprogramms können bestimmen, in welchen Durchführung das Zertifikat erworben werden kann:<br> Course Planner > Zertifikatsprogramm > Tab "Durchführungen"
+* In OpenOlat kann das gleiche Zertifikat ausgestellt werden, auch wenn Ort und Zeit des Erwerbs variieren. Besitzer:innen eines Zertifikatsprogramms können bestimmen, in welchen Durchführungen das Zertifikat erworben werden kann:<br> Course Planner > Zertifikatsprogramm > Tab "Durchführungen"
 
 [Zum Seitenanfang ^](#create_certification_programs)
 
