@@ -1,4 +1,4 @@
-# Course Planner: Zertifizierungsprogramm {: #certification_programs}
+# Course Planner: Certification programs {: #certification_programs}
 
 
 
