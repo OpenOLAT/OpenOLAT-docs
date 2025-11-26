@@ -38,9 +38,9 @@ sowie die **Logout**-Funktion
     **Erfolge/Leistungen**
 
     * [Leistungsnachweise](../personal_menu/Evidence_of_Achievements.de.md)
-    * Zertifikate
+    * [Zertifikate](../personal_menu/Certificates.de.md)
     * [Badges](../personal_menu/OpenBadges.de.md)
-    * Kreditpunkte
+    * [Kreditpunkte](../personal_menu/Credit_Points.de.md) 
 
     **Konfiguration**
 

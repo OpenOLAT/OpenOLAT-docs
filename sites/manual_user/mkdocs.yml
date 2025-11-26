@@ -72,7 +72,9 @@ nav:
       - E-Mail: "personal_menu/E-Mail.md"
     - Achievements/Successes:
       - Evidence of Achievements: "personal_menu/Evidence_of_Achievements.md"
+      - Certificates: "personal_menu/Certificates.md"
       - Badges: "personal_menu/OpenBadges.md"
+      - Credit points: "personal_menu/Credit_Points.md"
     - Configuration:
       - Übersicht: "personal_menu/Personal_Configuration.md"
       - Profile: "personal_menu/Profile.md"

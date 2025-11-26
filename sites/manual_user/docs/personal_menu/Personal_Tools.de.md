@@ -1,6 +1,6 @@
 # Persönliche Werkzeuge {: #personal_tools}
 
-![pers_menu_tools_v3_de.png](assets/pers_menu_tools_v3_de.png){ class="aside-right shadow lightbox"}
+![pers_menu_tools_v4_de.png](assets/pers_menu_tools_v4_de.png){ class="aside-right shadow lightbox"}
 
 Die persönlichen Werkzeuge finden Sie als einen Abschnitt im [persönlichen Menü](../personal_menu/index.de.md).
 

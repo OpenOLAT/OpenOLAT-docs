@@ -1,6 +1,6 @@
 # Personal Tools {: #personal_tools}
 
-![pers_menu_tools_v3_en.png](assets/pers_menu_tools_v3_en.png){ class="aside-right shadow lightbox"}
+![pers_menu_tools_v4_en.png](assets/pers_menu_tools_v4_en.png){ class="aside-right shadow lightbox"}
 
 You can find the personal Tools as a section in the [Personal Menu](index.md).
 
