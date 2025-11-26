@@ -205,7 +205,7 @@ In den Einstellungen definieren Sie,
 ---
 
 
-## Zertifikatsprogramm und Kreditpunkte
+## Zertifikatsprogramm und Kreditpunkte {: #credit_points}
 
 **Kreditpunkte als Voraussetzung**<br>
 Wie bereits weiter oben erklärt, können Sie für eine Rezertifizierung zur Voraussetzung machen, dass eine bestimmte Anzahl Kreditpunkte vorher erworben wurde. Wieviele Kreditpunkte für den Erwerb des Zertifikats erforderlich sind, wird eingestellt unter<br>
