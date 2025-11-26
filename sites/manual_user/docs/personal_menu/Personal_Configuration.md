@@ -1,6 +1,6 @@
 # Personal Configuration {: #personal_configuration}
 
-![pers_menu_configuration_v2_de.png](assets/pers_menu_configuration_v2_de.png){ class="aside-right shadow lightbox"}
+![pers_menu_configuration_v3_de.png](assets/pers_menu_configuration_v3_de.png){ class="aside-right shadow lightbox"}
 
 The personal configurations can be found as a section in the [personal menu](index.md), below the personal tools.
 
