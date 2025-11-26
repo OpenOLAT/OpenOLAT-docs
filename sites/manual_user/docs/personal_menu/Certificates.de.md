@@ -5,7 +5,7 @@
 ![icon_certificate.png](assets/icon_certificate.png)
 
 
-Im persönlichen Menü werden Ihnen alle Ihre Zertifikate angezeigt. Auch bereits abgelaufene Zertifikate sind noch einsehbar.
+Im persönlichen Menü können Sie alle Ihre Zertifikate anzeigen lassen. Auch bereits abgelaufene Zertifikate sind noch einsehbar.
 
 Sie können die Zertifikate vorsortiert anzeigen lassen. (Alle - Gültig - Abgelaufen)
 
