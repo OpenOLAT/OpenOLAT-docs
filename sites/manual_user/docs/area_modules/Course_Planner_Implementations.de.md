@@ -161,7 +161,26 @@ Deshalb werden Teilnehmer:innen zu Mitgliedern einer bestimmten Durchführung ge
 Würden die Teilnehmer:innen zu Mitgliedern des Bildungsprodukts (der "Kopiervorlage") gemacht, wären sie in allen Durchführungen dieses Produkts als Teilnehmer:innen dabei. Dies ist nicht erwünscht. Deshalb können zu einem Produkt nur Besitzer:innen als Mitglieder hinzugefügt werden, keine Teilnehmer:innen.
 
 Weil die Mitgliederverwaltung bei Verwendung des Course Planners in der Durchführung gemacht wird, gibt es in den Einstellungen der Kurse die Einstellung "Einbindung in Curriculum/Produkt".<br>
-**(Kurs-)Administration > Einstellungen > Tab "Freigabe" > Abschnitt "Verwendung" > Button "Einbindung in Curriculum/Produkt"**<br>Der Kurs hat dann keine eigenständige Mitgliederverwaltung mehr, die Mitgliederverwaltung erfolgt in der Mitgliederverwaltung der Durchführung.
+**(Kurs-)Administration > Einstellungen > Tab "Freigabe" > Abschnitt "Verwendung" > Button "Einbindung in Produkt"**<br>Der Kurs hat dann keine eigenständige Mitgliederverwaltung mehr, die Mitgliederverwaltung erfolgt in der Mitgliederverwaltung der Durchführung.
+
+<br>
+
+#### Tab Mitglieder > Mitglieder hinzufügen {: #add_members}
+
+Um Teilnehmer:innen zu einer Durchführung als Mitglieder hinzuzufügen, verwenden Sie in der<br>
+**Durchführung > Tab Mitglieder > den Button "Teilnehmer:innen hinzufügen"**
+
+![course_planner_implementations_add_member_v1_de.png](assets/course_planner_implementations_add_member_v1_de.png){ class="shadow lightbox" }
+
+<br>
+
+#### Tab Mitglieder > Bestätigung der Mitgliedschaft durch Linienvorgesetze/Ausbildungsverantwortliche {: #confirm_membership}
+
+Im Course Planner kann eingerichtet werden, dass ein Buchungswunsch von einer administrativen Rolle (z.B. Linienvorgesetzte:r oder Ausbildungsverantwortliche:r) bestätigt werden muss. Mit dieser Einstellung können Benutzer:innen einen Kurs buchen, der/die Vorgesetzte muss aber in einem Zwischenschritt die Buchung bestätigen oder ablehnen.
+
+Dieser Genehmigungsschritt kann auch in allen Angeboten eingerichtet werden, ausser bei Bezahlung mit Paypal (denn dort wird sofort bezahlt/gebucht).
+
+![course_planner_implementations_confirm_member_v1_de.png](assets/course_planner_implementations_confirm_member_v1_de.png){ class="shadow lightbox" }
 
 
 [zum Seitenanfang ^](#implementations)
