@@ -18,10 +18,9 @@ The menu item "Participants" shows the list of **all the participants you are re
     * As Education manager
 
 
-!!! hint "Note on the role line manager"
+!!! hint "Note on the roles of line manager and education manager"
 
-    ![coaching_people_line_manager_v1_de.png](assets/coaching_people_line_manager_v1_de.png){ class="shadow lightbox" }
-    This role is only displayed in the Coaching Tool if the [Organization module](../../manual_admin/administration/Modules_Organisations.md) has been activated by the administrator. If you are a line manager, you can be informed about the learning progress within your organizational unit. Automatic notification of all certificates received is also possible.
+    These roles are only displayed in the coaching tool if the [Organization module](../../manual_admin/administration/Modules_Organisations.md) has been activated in the administration. 
 
 
 !!! hint "Note on other personal relationships"
@@ -76,9 +75,91 @@ To write an e-mail to **multiple people**, select the relevant people in the fir
 
 ![coaching_people_contact_v1_de.png](assets/coaching_people_contact_v1_de.png){ class="shadow lightbox" }
 
+### Requirements {: #linemanager_educationmanager_conditions}
+
+The following requirements must be met in order for an additional button labeled "Line Manager" and/or "Education manager" to be displayed.
+
+**Requirement 1:**
+The module "Organizational units" must be activated.<br>
+(Administration > Modules > Organizations)
+
+**Requirement 2:**
+The person in question must be assigned the role.<br>
+(User Management > Select person > Tab Roles)
+
+**Requirement 3:**
+In the administration section, the "Pending course bookings" option or other rights must be activated. 
+(Administration > Modules > Organizations > Tab Organizational structure > select organizational unit (top level) > Button line manager > Education manager > Activate option "Pending course bookings")
+
+---
+
+### Create account for employees {: #linemanager_educationmanager_create_account}
+
+As a line manager or training supervisor, you will find the **"Create account" button** in the top right-hand corner of the coaching tool. Clicking on this button opens a form for entering the necessary information to add previously unregistered persons to OpenOlat.
+
+(Whether this button is available is determined in: Administration > Modules > Organizations > Tab Organizational structure > Select an organizational unit (top level) > Button line manager or educational manager > Option "Create account")
+
+An account created by line managers/education managers automatically assigns the newly registered person to the organizational unit of the line manager/education managers.
+
+![coaching_people_line_manager2_v1_de.png](assets/coaching_people_line_manager2_v1_de.png){ class="shadow lightbox" }
+
+---
+
+### Register participants on behalf of someone else {: #linemanager_educationmanager_book_participants}
+
+If you are a line manager or education manager and would like to register a person already registered in OpenOlat for a course or session, select the person in the coaching tool and click on the **"Register on behalf of" button**. There you can then select the course in which the person should participate. 
+
+![coaching_people_line_manager3_v1_de.png](assets/coaching_people_line_manager3_v1_de.png){ class="shadow lightbox" }
+
+**Example 1:**<br>
+A new employee is scheduled to complete several introductory courses next month.
+
+**Example 2:**<br>
+Your employees are required to take safety or compliance courses. As their line manager or education manager, you are responsible for booking all participants yourself.
+
+---
+
+### Confirm pending memberships {: #linemanager_educationmanager_confirm_membership}
+
+Line managers and education managers often decide whether learners can participate in a training program. In OpenOlat, they can be given the option to accept or reject pending memberships. 
+
+To do this, select the relevant person in the coaching tool and open the **detail view** by clicking on the plus symbol at the beginning of the line.
+
+At the top right of the detailed view, you will find two buttons, "Accept" and "Reject," which you can use to decide whether to accept or reject the membership.
+
+Alternatively, you can simply use the **link within the notification**.
+
+![coaching_people_line_manager4_v1_de.png](assets/coaching_people_line_manager4_v1_de.png){ class="shadow lightbox" }
+
+!!! info "How do outstanding memberships arise?"
+
+    Memberships that still need to be approved by line managers or education managers are set up in the Course Planner for implementation.
+    More about that [here >](../../manual_user/area_modules/Course_Planner_Implementations.md#confirm_membership)
+
+---
+
+### Observational tasks {: #linemanager_educationmanager_observe}
+
+If you are a line manager or educational manager, you can use the coaching tool to check on learning progress within your organizational unit at any time. Automatic notifications about all certificates received are also possible.
+
+As a line manager or educational manager, you are generally granted read access, but editing is restricted and reserved for managers and course owners.
+
+**Examples:**<br>
+
+* You can see who is attending which courses, but you cannot access checklists, assignments, etc. within the courses to view participants' entries.
+* You can view badges you have earned and other performance data, but you cannot award badges yourself.
+* You can view absences, but you cannot record them yourself. This must be done by the course owners/managers. However, it is possible to create absence reports.
+
+If you, as a line manager or educational manager, would like to have certain rights, you can have these set up by administrators. The screen below shows which options can be configured by administrators. (The same options are available for educational manager.)
+
+![coaching_people_line_manager5_v1_de.png](assets/coaching_people_line_manager5_v1_de.png){ class="shadow lightbox" }
+
 [To the top of the page ^](#people)
 
 ---
+
+
+
 
 ## Further information {: #further_information}
 
@@ -95,3 +176,7 @@ To write an e-mail to **multiple people**, select the relevant people in the fir
 [Assessment tool >](../learningresources/Assessment_tool_overview.md)<br>
 
 [To the top of the page ^](#people)
+
+
+
+

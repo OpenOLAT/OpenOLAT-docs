@@ -99,7 +99,7 @@ Das Modul "Organisationseinheiten" muss aktiviert sein.<br>
 (Administration > Module > Organisationen)
 
 **Voraussetzung 2:**
-Die betreffende Person muss  die Rolle zugewiesen bekommen haben.<br>
+Die betreffende Person muss die Rolle zugewiesen bekommen haben.<br>
 (Benutzerverwaltung > Person auswählen > Tab Rollen)
 
 **Voraussetzung 3:**

@@ -22,7 +22,7 @@ Zu jedem Zertifikat sind genauere Angaben vorhanden:
 * Die Herkunftsangabe zeigt, in welchem OpenOlat-Kurs das Zertifikat erstellt wurde.
 * Ausstellungsdatum
 * Gültigkeitsdauer
-* Ob eine Rezertifizierungsmöglickeit besteht/bestand.
+* Ob eine Rezertifizierungsmöglichkeit besteht/bestand.
 * Welche Voraussetzungen für die Rezertifizierung verlangt wurden, z.B. eine bestimmte Anzahl Kreditpunkte.
 
 Ausserdem finden Sie rechts oben einen Button zum Herunterladen.
