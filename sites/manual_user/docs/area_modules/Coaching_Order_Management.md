@@ -1,7 +1,7 @@
 # Coaching - Order management {: #order_management}
 
 
-![coaching_auftragsverwaltung_v1_de.png](assets/coaching_auftragsverwaltung_v1_de.png){ class="shadow lightbox" }
+![coaching_auftragsverwaltung_v1_de.png](assets/coaching_order_management1_v1_de.png){ class="shadow lightbox" }
 
 This menu refers to the correction workflow for the manual assessment of OpenOlat tests. The [Correction workflow](../learningresources/Test_settings.md) can be activated in the learning resource "Test". You can then assign one or more people to tests as correctors. If you are at least the owner of a test for which this option has been activated, you will see the order management in the Coaching Tool and be able to manage the individual correctors and their activities.
 
@@ -39,8 +39,6 @@ It is also possible to add correctors directly to the respective [test learning 
 
 This tab only appears if you have been entered as a corrector for a test. You see an overview of the tests in the different courses that you still have to check and correct manually. Depending on the setting in the learning resource "Test", the assessment is anonymous or not.
 
-![Meine Korrekturaufträge](assets/Meine_Korrekturauftraege.png){ class="shadow lightbox" }
-
 This tab only appears if you have been registered as a proofreader for a test. You will see an overview of the tests in the various courses that still need to be checked and corrected manually. Depending on the settings in the "Test" learning resource, the assessment may be anonymous or not.
 
 Via the link "Correct", the corrector can directly access the test to be corrected and can make manual evaluations here and also overwrite automatic evaluations if necessary. It also makes sense to leave a corresponding comment.
@@ -68,7 +66,7 @@ The course elements (tests and tasks) with the respective persons, who have not 
 [Coaching: Courses >](../../manual_user/area_modules/Coaching_Courses.md)<br>
 [Coaching: Educational products >](../../manual_user/area_modules/Coaching_Educational_Products.md)<br>
 [Coaching: Events / Absences >](../../manual_user/area_modules/Coaching_Events_Absences.md)<br>
-[Coaching: Assessment orders >](../../manual_user/area_modules/Coaching_assessment_orders.md)<br>
+[Coaching: Assessment orders >](../area_modules/Coaching_assessment_orders.md)<br>
 [Coaching: Reports >](../../manual_user/area_modules/Coaching_Reports.md)<br>
 [Coaching: Groups >](../../manual_user/area_modules/Coaching_Groups.md)<br>
 [Roles >](../../manual_user/basic_concepts/Roles.md)<br>

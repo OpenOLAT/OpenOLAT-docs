@@ -176,7 +176,7 @@ If you want another person to be able to edit this certificate program, add that
 
 [Course Planner: Certificate program >](../../manual_user/area_modules/Course_Planner_Certification_Programs.md)<br>
 [Course Planner: Implementations >](../../manual_user/area_modules/Course_Planner_Implementations.md)<br>
-[Certificates in single courses >](../learningresources/Course_Settings_Assessment_Certificate.md)<br>
+[Certificates in single courses >](../../manual_user/learningresources/Course_Settings_Assessment_Certificate.md)<br>
 [Certificates in the personal menu >](../../manual_user/personal_menu/Certificates.md)<br>
 [Credit points in the personal menu >](../../manual_user/personal_menu/Credit_Points.md)<br>
 [Credit points (Administration) >](../../manual_admin/administration/e-Assessment_Credit_Points.md)<br>

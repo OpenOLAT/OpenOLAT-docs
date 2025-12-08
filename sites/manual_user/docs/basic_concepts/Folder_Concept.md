@@ -67,7 +67,7 @@ The [course element "Participant folder"](../learningresources/Course_Element_Pa
 
 ### Folder in "Task" and "Group task" {: #course_element_task}
 
-Within the workflow of a [course element "Task"](../learningresources/]Course_Element_Task.md) and ["Group task"](../learningresources/Course_Element_Grouptask.md), various documents are uploaded and downloaded by coaches or participants: Assignment, submitted documents, returned documents, revised documents and sample solution. 
+Within the workflow of a [course element "Task"](../learningresources/Course_Element_Task.md) and ["Group task"](../learningresources/Course_Element_Grouptask.md), various documents are uploaded and downloaded by coaches or participants: Assignment, submitted documents, returned documents, revised documents and sample solution. 
 Folders are available for all files within the course element, which are only accessible within the course element.
 
 [See the details >](../learningresources/Course_Element_Task.md#workflow)<br>

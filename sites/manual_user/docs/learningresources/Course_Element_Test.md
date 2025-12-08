@@ -222,7 +222,7 @@ Here, reminder e-mails can be configured according to certain criteria. More inf
 ### Tab "Badges" {: #tab_badges}
 
 If the course owner has activated the assignment of badges under **Administration > Settings > Assessment tab > Badges** section, the "Badges" tab will be displayed in the course editor for this course element and a specific badge can be created for this course element.
-For more information on badges and how they are awarded, see the chapter [“Badges”](../learningresources/OpenBadges.md).
+For more information on badges and how they are awarded, see the chapter ["Badges"](../learningresources/OpenBadges.md).
 
 
 [Beginning of test configuration section ^](#config)<br>
@@ -239,7 +239,7 @@ Attribute | ![Test](assets/test.png){ class=size16 } Test | ![Selbsttest](assets
  Question types QTI 2.1 | All [Question types](Test_question_types.md) possible | All [Question types](Test_question_types.md) possible, but only automatically assessable question types can be used for points.
  Integration with course module | Test | Self-test
  Number of views by course participants | configurable | unlimited
- Results | appear in [Assessment tool](../learningresources/Assessment_tool_overview.md) as well as in [Test statistics](../learningresources/Using_Course_Tools.md#statistics) and can be viewed by coaches | do _not_ appear in [Assessment tool](../learningresources/Assessment_tool_overview.md) and in the [Test statistics](../learningresources/Using_Course_Tools.md#test-statistics) and are not personalized for coaches and owners to view
+ Results | appear in [Assessment tool](../learningresources/Assessment_tool_overview.md) as well as in [Test statistics](../learningresources/Using_Course_Tools.md#statistics) and can be viewed by coaches | do _not_ appear in [Assessment tool](../learningresources/Assessment_tool_overview.md) and in the Test statistics and are not personalized for coaches and owners to view
  Data archiving | Yes, personalized | Yes, anonymized. However, personal allocation or feedback is not possible.
 
 !!! tip "Hint"
@@ -280,7 +280,7 @@ Before the replacement, a dialog box informs you of the effects. You must explic
 **Example:**
 ![course_element_test_replace_resource1_v1_de](assets/course_element_test_replace_resource1_v1_de.png){ class="shadow" }
 
-After the replacement, the link “Show history” also appears next to the ‘Replace’ button, see [“Test history”](#history). 
+After the replacement, the link "Show history" also appears next to the "Replace" button, see ["Test history"](#history). 
 
 [To the top of the page ^](#course_element_test)
 

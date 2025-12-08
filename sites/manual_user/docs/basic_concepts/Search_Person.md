@@ -20,7 +20,7 @@ The search form contains the corresponding fields with which the search can be n
 
 ## People search in the coaching tool {: #coachingtool}
 
-The coaching tool is used for cross-course support of participants. For many courses and participants, a [person search](../area_modules/coaching_personensuche.md), which only searches within the group of people you support, helps.
+The coaching tool is used for cross-course support of participants. For many courses and participants, a person search, which only searches within the group of people you support, helps.
 
 ![search_person_in_coachingtool_v1_de.png](assets/search_person_in_coachingtool_v1_de.png){ class="shadow lightbox"}
 

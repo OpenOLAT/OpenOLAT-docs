@@ -23,7 +23,7 @@ The Excel files created in this way are listed at the bottom of the screen. They
 [Coaching: Courses >](../../manual_user/area_modules/Coaching_Courses.md)<br>
 [Coaching: Educational products >](../../manual_user/area_modules/Coaching_Educational_Products.md)<br>
 [Coaching: Events / Absences >](../../manual_user/area_modules/Coaching_Events_Absences.md)<br>
-[Coaching: Assessment orders >](../../manual_user/area_modules/Coaching_assessment_orders.md)<br>
+[Coaching: Assessment orders >](../area_modules/Coaching_assessment_orders.md)<br>
 [Coaching: Groups >](../../manual_user/area_modules/Coaching_Groups.md)<br>
 [Roles >](../../manual_user/basic_concepts/Roles.md)<br>
 [Assessment tool >](../../manual_user/learningresources/Assessment_tool_overview.md)<br>

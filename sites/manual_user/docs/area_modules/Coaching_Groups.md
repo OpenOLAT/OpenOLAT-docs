@@ -41,7 +41,7 @@ When you click on a user name, the rating tool for that person opens again and y
 [Coaching: Courses >](../../manual_user/area_modules/Coaching_Courses.md)<br>
 [Coaching: Educational products >](../../manual_user/area_modules/Coaching_Educational_Products.md)<br>
 [Coaching: Events / Absences >](../../manual_user/area_modules/Coaching_Events_Absences.md)<br>
-[Coaching: Assessment orders >](../../manual_user/area_modules/Coaching_assessment_orders.md)<br>
+[Coaching: Assessment orders >](../area_modules/Coaching_assessment_orders.md)<br>
 [Coaching: Reports >](../../manual_user/area_modules/Coaching_Reports.md)<br>
 [Coaching: Order management >](../../manual_user/area_modules/Coaching_Order_Management.md)<br>
 [Roles >](../../manual_user/basic_concepts/Roles.md)<br>

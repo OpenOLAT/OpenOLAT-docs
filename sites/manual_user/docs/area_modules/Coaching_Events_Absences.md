@@ -143,7 +143,7 @@ When you click on one of the courses or products found, you will be taken to the
 [Coaching: People >](../../manual_user/area_modules/Coaching_People.md)<br>
 [Coaching: Courses >](../../manual_user/area_modules/Coaching_Courses.md)<br>
 [Coaching: Educational products >](../../manual_user/area_modules/Coaching_Educational_Products.md)<br>
-[Coaching: Assessment orders >](../../manual_user/area_modules/Coaching_assessment_orders.md)<br>
+[Coaching: Assessment orders >](../area_modules/Coaching_Assessment_Orders.md)<br>
 [Coaching: Reports >](../../manual_user/area_modules/Coaching_Reports.md)<br>
 [Coaching: Groups >](../../manual_user/area_modules/Coaching_Groups.md)<br>
 [Coaching: Order management >](../../manual_user/area_modules/Coaching_Order_Management.md)<br>

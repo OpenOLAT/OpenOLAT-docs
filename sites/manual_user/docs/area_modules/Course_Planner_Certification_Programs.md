@@ -280,9 +280,9 @@ In addition, users with the roles "Administrator" and "Course Planner" also have
 
 [How can I create certificate programs with the Course Planner? (Step-by-step instructions) >](../../manual_how-to/certification_programs/certification_programs.md)<br>
 [Certificates in single courses >](../learningresources/Course_Settings_Assessment_Certificate.md)<br>
-[Certificates in the personal menu >](../../manual_user/personal_menu/Certificates.md)<br>
-[Course Planner: Implementations >](../../manual_user/personal_menu/Course_Planner_Implementations.md)<br>
-[Credit points in the personal menu >](../../manual_user/personal_menu/Credit_Points.md)<br>
+[Certificates in the personal menu >](../personal_menu/Certificates.md)<br>
+[Course Planner: Implementations >](../personal_menu/Course_Planner_Implementations.md)<br>
+[Credit points in the personal menu >](../personal_menu/Credit_Points.md)<br>
 [Credit points (Administration) >](../../manual_admin/administration/e-Assessment_Credit_Points.md)<br>
 
 

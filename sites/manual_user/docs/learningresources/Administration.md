@@ -203,7 +203,6 @@ The survey statistics allow you to carry out a general course-related, anonymize
 Elements of the course can be archived here with the help of a wizard. A complete archive or a partial archive with selected course elements can be created, as well as course results, etc.
 
 [See the details >](Course_Archiving.md)<br> 
-[See more details >](Data_archiving.md)<br> 
 [To the top of the page ^](#course_administration)
 
 
