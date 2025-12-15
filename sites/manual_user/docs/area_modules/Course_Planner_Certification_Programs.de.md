@@ -87,13 +87,15 @@ Ein Zertifikationsprogramm kann vom Status "Aktiv" auf "Inaktiv" gesetzt werden.
 
 
 ### Tab Übersicht {: #config_tab_overview}
-tbd
 
+Auf der Übersicht sehen Sie auf einen Blick die Anzahl der Mitglieder sortiert nach Status:
 
-!!! warning "Attention"
+* Aktive
+* Zertifiziert
+* Zertifikat läuft bald ab
+* in Rezertifizierung
 
-    This article is still under construction.
-
+![course_planner_certification_programs_config_overview_v1_de.png](assets/course_planner_certification_programs_config_overview_v1_de.png){ class="shadow lightbox" }
 
 
 [Zum Seitenanfang ^](#certification_programs)

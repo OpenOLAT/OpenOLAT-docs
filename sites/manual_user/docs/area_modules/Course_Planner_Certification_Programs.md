@@ -79,14 +79,15 @@ A certification program can be set from "Active" to "Inactive" status. This is p
 ---
 
 ### Tab Overview {: #config_tab_overview}
-tbd
 
+The overview shows you the number of members sorted by status at a glance:
 
-!!! warning "Attention"
+* Active
+* Certified
+* Expiring soon
+* In recertification
 
-    This article is still under construction.
-
-
+![course_planner_certification_programs_config_overview_v1_de.png](assets/course_planner_certification_programs_config_overview_v1_de.png){ class="shadow lightbox" }
 
 [To the top of the page ^](#certification_programs)
 
