@@ -1,4 +1,4 @@
-# LTI-Zugang zu einer Gruppe konfigurieren
+# LTI-Zugang zu einer Gruppe konfigurieren {: #LTI_access_to_a group}
 
 :octicons-tag-24: Release 15.5 
 
@@ -106,16 +106,18 @@ Gruppen Deployment???
 
 xxxx
 
-##  Links
+##  Weiterführende Informationen {: #further_information}
 
 Benutzerhandbuch: [LTI-Zugang zu einem Kurs konfigurieren](https://docs.openolat.org/de/manual_user/learningresources/LTI_Share_courses/?h=lti)
 
 Benutzerhandbuch: [Kursbaustein "LTI-Seite"](http://docs.openolat.org/de/manual_user/learningresources/Course_Element_LTI_Page/)
-
-Benutzerhandbuch: [LTI Deep Linking](../../manual_admin/administration/LTI_Deeplinking.de.md)
 
 Administrationshandbuch: [LTI 1.3 Integrationen im Überblick](http://docs.openolat.org/de/manual_admin/administration/LTI_Integrations/)
 
 Administrationshandbuch: [LTI - Externe Werkzeuge](http://docs.openolat.org/de/manual_admin/administration/LTI_External_tools/)
 
 Administrationshandbuch: [LTI - Externe Plattformen](http://docs.openolat.org/de/manual_admin/administration/LTI_External_platforms/)
+
+Administrationshandbuch: [LTI - Deep Linking](../../manual_admin/administration/LTI_Deeplinking.de.md)
+
+Administrationshandbuch: [LTI - Rollen-Mapping](../../manual_admin/administration/LTI_Role_Mapping.de.md)

@@ -1,4 +1,4 @@
-# Course Settings - Tab Share:<br>Configure LTI access to course
+# Course Settings - Tab Share:<br>Configure LTI access to a course {: #LTI_share_course}
 
 OpenOlat allows other LMSs to access individual OpenOlat courses via LTI. Your OpenOlat courses can thus also be attended by people working on another LMS.
 
@@ -171,12 +171,16 @@ The evaluation form can also be filled in and customized for the course element 
 
 ##  Further information {: #further_information}
 
-User manual: [Configure LTI access to a group >](https://docs.openolat.org/manual_user/groups/LTI_Share_groups/)
+User manual: [Configure LTI access to a group >](../../manual_user/groups/LTI_Share_groups.md)
 
-User manual: [Course element "LTI page" >](http://docs.openolat.org/manual_user/learningresources/Course_Element_LTI_Page/)
+User manual: [Course element "LTI page" >](../../manual_user/learningresources/Course_Element_LTI_Page.md)
 
-User manual: [LTI 1.3 Integrations at a glance >](http://docs.openolat.org/manual_admin/administration/LTI_Integrations/)
+User manual: [LTI 1.3 Integrations at a glance >](../../manual_admin/administration/LTI_Integrations.md)
 
-Admin manual: [LTI - External tools >](http://docs.openolat.org/manual_admin/administration/LTI_External_tools/)
+Admin manual: [LTI - External tools >](../../manual_admin/administration/LTI_External_tools.md)
 
-Admin manual: [LTI - External platforms >](http://docs.openolat.org/manual_admin/administration/LTI_External_platforms/)
+Admin manual: [LTI - External platforms >](../../manual_admin/administration/LTI_External_platforms.md)
+
+Admin manual: [LTI - Deep Linking](../../manual_admin/administration/LTI_Deeplinking.md)
+
+Admin manual: [LTI - Role mapping](../../manual_admin/administration/LTI_Role_Mapping.md)

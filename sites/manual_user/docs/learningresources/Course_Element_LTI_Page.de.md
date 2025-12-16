@@ -89,3 +89,22 @@ Wurden von Ihren Administrator:innen Deep Links eingerichtet, können Sie unter 
 Wurde von dem/der Kursbesitzer:in unter **Administration > Einstellungen > Tab Bewertung > Abschnitt Badges** die Vergabe von Badges aktiviert, wird im Kurseditor zu diesem Kursbaustein der Tab "Badges" angezeigt und es kann ein spezifischer Badge für diesen Kursbaustein erstellt werden.
 
 [Zum Seitenanfang ^](#lti)
+
+
+
+##  Weiterführende Informationen {: #further_information}
+
+Benutzerhandbuch: [LTI-Zugang zu einer Gruppe konfigurieren >](https://docs.openolat.org/de/manual_user/groups/LTI_Share_groups/)
+
+Administrationshandbuch: [LTI 1.3 Integrationen im Überblick >](http://docs.openolat.org/de/manual_admin/administration/LTI_Integrations/)
+
+Administrationshandbuch: [LTI - Externe Werkzeuge >](http://docs.openolat.org/de/manual_admin/administration/LTI_External_tools/)
+
+Administrationshandbuch: [LTI - Externe Plattformen >](http://docs.openolat.org/de/manual_admin/administration/LTI_External_platforms/)
+
+Administrationshandbuch: [LTI - Deep Linking](../../manual_admin/administration/LTI_Deeplinking.de.md)
+
+Administrationshandbuch: [LTI - Rollen-Mapping](../../manual_admin/administration/LTI_Role_Mapping.de.md)
+
+
+[Zum Seitenanfang ^](#lti)

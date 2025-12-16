@@ -1,4 +1,4 @@
-# LTI - Externe Werkzeuge
+# LTI - Externe Werkzeuge  {: #LTI_external_tools}
 
 :octicons-tag-24: Release 15.5 
 
@@ -31,7 +31,7 @@ Für jedes externe Tool muss eine eigene Konfiguration eingerichtet werden. Verw
 
 
 
-## Konfiguration
+## Konfiguration {: #config}
 
 Ein Muster einer gesamten Konfiguration finden Sie unter [LTI-Zugang zu einem Kurs konfigurieren](../../manual_user/learningresources/LTI_Share_courses.de.md) 
 
@@ -52,7 +52,7 @@ In OpenOlat werden unter “Neues Tool hinzufügen” die folgenden Parameter de
 ![LTI_admin_tool_config_v1_de.png](assets/LTI_admin_tool_config_v1_de.png){ class="lightbox" }
 
 
-## Links
+## Weiterführende Informationen {: #further_information}
 
 IMS Global Learning Consortium: [Learning Tools Interoperability Core Specification](http://www.imsglobal.org/spec/lti/v1p3/)
 
@@ -60,11 +60,14 @@ Administrationshandbuch: [LTI 1.3 Integration](../administration/LTI_Integration
 
 Administrationshandbuch: [LTI - Externe Plattformen](../administration/LTI_External_platforms.de.md)
 
+Administrationshandbuch: [LTI - Deep Linking](../administration/LTI_Deeplinking.de.md)
+
+Administrationshandbuch: [LTI - Rollen-Mapping](../administration/LTI_Role_Mapping.de.md)
+
 Benutzerhandbuch: [LTI-Zugang zu einem Kurs konfigurieren](../../manual_user/learningresources/LTI_Share_courses.de.md)
 
 Benutzerhandbuch: [Kursbaustein "LTI-Seite“](../../manual_user/learningresources/Course_Element_LTI_Page.de.md)
 
 Benutzerhandbuch: [LTI-Zugang zu einer Gruppe konfigurieren](../../manual_user/groups/LTI_Share_groups.de.md)
 
-Benutzerhandbuch: [LTI Deep Linking](../administration/LTI_Deeplinking.de.md)
 

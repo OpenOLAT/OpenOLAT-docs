@@ -91,3 +91,19 @@ If your administrator has set up deep links, you can select preconfigured deep l
  [To the top of the page ^](#lti)
  
  
+ ##  Further information {: #further_information}
+
+User manual: [Configure LTI access to a group >](https://docs.openolat.org/manual_user/groups/LTI_Share_groups/)
+
+User manual: [LTI 1.3 Integrations at a glance >](http://docs.openolat.org/manual_admin/administration/LTI_Integrations/)
+
+Admin manual: [LTI - External tools >](http://docs.openolat.org/manual_admin/administration/LTI_External_tools/)
+
+Admin manual: [LTI - External platforms >](http://docs.openolat.org/manual_admin/administration/LTI_External_platforms/)
+
+Admin manual: [LTI - Deep Linking](../administration/LTI_Deeplinking.md)
+
+Admin manual: [LTI - Role mapping](../administration/LTI_Role_Mapping.md)
+
+
+[To the top of the page ^](#lti)

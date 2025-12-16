@@ -1,4 +1,4 @@
-# LTI 1.3 Integrationen
+# LTI 1.3 Integrationen {: #LTI_integrations}
 
 :octicons-tag-24: Release 15.5
 
@@ -37,7 +37,7 @@ bestimmen, wer Deployments hinzufügen darf:
 ![LTI_admin_deploy_v1_de.png](assets/LTI_admin_deploy_v1_de.png){ class="shadow lightbox" }
 
 
-## Links
+## Weiterführende Informationen {: #further_information}
 
 IMS Global Learning Consortium: [Learning Tools Interoperability Core Specification](http://www.imsglobal.org/spec/lti/v1p3/)
 
@@ -45,11 +45,15 @@ Administrationshandbuch: [LTI - Externe Werkzeuge](../administration/LTI_Externa
 
 Administrationshandbuch: [LTI - Externe Plattformen](../administration/LTI_External_platforms.de.md)
 
+Administrationshandbuch: [LTI - Deep Linking](../administration/LTI_Deeplinking.de.md)
+
+Administrationshandbuch: [LTI - Rollen-Mapping](../administration/LTI_Role_Mapping.de.md)
+
 Benutzerhandbuch: [LTI-Zugang zu einem Kurs konfigurieren](../../manual_user/learningresources/LTI_Share_courses.de.md)
 
 Benutzerhandbuch: [Kursbaustein "LTI-Seite“](../../manual_user/learningresources/Course_Element_LTI_Page.de.md)
 
 Benutzerhandbuch: [LTI-Zugang zu einer Gruppe konfigurieren](../../manual_user/groups/LTI_Share_groups.de.md)
 
-Benutzerhandbuch: [LTI Deep Linking](../administration/LTI_Deeplinking.de.md)
+
 

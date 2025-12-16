@@ -1,4 +1,4 @@
-# LTI - External Platforms
+# LTI - External Platforms {: #LTI_external_platforms}
 
 :octicons-tag-24: Release 15.5
 
@@ -19,7 +19,7 @@ A separate configuration must be set up for each external platform. Use the "New
 	(Course administration > Settings > Tab page content).
 
 
-## Configuration
+## Configuration {: #config}
 
 You can find a sample of an entire configuration under [Configuring LTI access to a course](../../manual_user/learningresources/LTI_Share_courses.md).
 
@@ -41,7 +41,7 @@ After completing the form, enter the public key on the external instance in the 
 
 
 
-## Links
+## Further information {: #further_information}
 
 IMS Global Learning Consortium: [Learning Tools Interoperability Core Specification](http://www.imsglobal.org/spec/lti/v1p3/)
 
@@ -49,11 +49,14 @@ Admin manual: [LTI 1.3 Integrations](../administration/LTI_Integrations.md)
 
 Admin manual: [LTI - External tools](../administration/LTI_External_tools.md)
 
+Admin manual: [LTI - Deep Linking](../administration/LTI_Deeplinking.md)
+
+Admin manual: [LTI - Role mapping](../administration/LTI_Role_Mapping.md)
+
 User manual: [Configure LTI access to course](../../manual_user/learningresources/LTI_Share_courses.md)
 
 User manual: [Course element "LTI Page"](../../manual_user/learningresources/Course_Element_LTI_Page.md)
 
 User manual: [Configure LTI access to a group](../../manual_user/groups/LTI_Share_groups.md)
 
-User manual: [LTI Deep Linking](../administration/LTI_Deeplinking.md)
 

@@ -1,4 +1,4 @@
-# LTI - Deep Linking
+# LTI - Deep Linking {: #LTI_deeplinking}
 
 
 OpenOlat unterstützt Deep Linking entsprechend dem [LTI 1.3 Deep-Linking Protokoll](https://www.imsglobal.org/spec/lti-dl/v2p0).
@@ -70,7 +70,7 @@ Wenn im Kursbaustein "LTI-Seite" der externe Inhalt sofort gestartet werden soll
 
 
 
-## Links
+## Weiterführende Informationen {: #further_information}
 
 IMS Global Learning Consortium: [Learning Tools Interoperability Core Specification](http://www.imsglobal.org/spec/lti/v1p3/)
 
@@ -81,6 +81,8 @@ Administrationshandbuch: [LTI 1.3 Integration](../administration/LTI_Integration
 Administrationshandbuch: [LTI - Externe Werkzeuge](../administration/LTI_External_tools.de.md)
 
 Administrationshandbuch: [LTI - Externe Plattformen](../administration/LTI_External_platforms.de.md)
+
+Administrationshandbuch: [LTI - Rollen-Mapping](../administration/LTI_Role_Mapping.de.md)
 
 Benutzerhandbuch: [LTI-Zugang zu einem Kurs konfigurieren](../../manual_user/learningresources/LTI_Share_courses.de.md)
 

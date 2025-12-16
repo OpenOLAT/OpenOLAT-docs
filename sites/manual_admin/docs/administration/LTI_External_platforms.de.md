@@ -1,4 +1,4 @@
-# LTI - Externe Plattformen
+# LTI - Externe Plattformen {: #LTI_external_platforms}
 
 :octicons-tag-24: Release 15.5
 
@@ -19,7 +19,7 @@ Für jede externe Plattform muss eine eigene Konfiguration eingerichtet werden. 
     Werden mehrere verschiedene OpenOlat-Kurse von der gleichen externen Plattform genutzt, genügt es, auf Administratorenebene die externe Plattform nur einmal zu konfigurieren. Die weiteren Konfiguration pro Kurs werden dann in den Einstellungen des jeweiligen Kurses durch die Kursbesitzer:innen vorgenommen<br> (Kursadministration > Einstellungen > Tab Seiteninhalt).
 
 
-## Konfiguration
+## Konfiguration {: #config}
 
 Ein Muster einer gesamten Konfiguration finden Sie unter [LTI-Zugang zu einem Kurs konfigurieren](../../manual_user/learningresources/LTI_Share_courses.de.md).
 
@@ -43,7 +43,7 @@ Tragen Sie nach Abschluss des Formulars den Öffentlichen Schlüssel auf der ext
 
 
 
-## Links
+## Weiterführende Informationen {: #further_information}
 
 IMS Global Learning Consortium: [Learning Tools Interoperability Core Specification](http://www.imsglobal.org/spec/lti/v1p3/)
 
@@ -51,11 +51,15 @@ Administrationshandbuch: [LTI 1.3 Integration](../administration/LTI_Integration
 
 Administrationshandbuch: [LTI - Externe Werkzeuge](../administration/LTI_External_tools.de.md)
 
+Administrationshandbuch: [LTI - Deep Linking](../administration/LTI_Deeplinking.de.md)
+
+Administrationshandbuch: [LTI - Rollen-Mapping](../administration/LTI_Role_Mapping.de.md)
+
 Benutzerhandbuch: [LTI-Zugang zu einem Kurs konfigurieren](../../manual_user/learningresources/LTI_Share_courses.de.md)
 
 Benutzerhandbuch: [Kursbaustein "LTI-Seite“](../../manual_user/learningresources/Course_Element_LTI_Page.de.md)
 
 Benutzerhandbuch: [LTI-Zugang zu einer Gruppe konfigurieren](../../manual_user/groups/LTI_Share_groups.de.md)
 
-Benutzerhandbuch: [LTI Deep Linking](../administration/LTI_Deeplinking.de.md)
+
 

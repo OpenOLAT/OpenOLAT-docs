@@ -497,6 +497,7 @@ plugins:
           REST API : REST API
           Resource folder : Ressourcenordner
           Review Process : Beurteilungsprozess
+          Role mapping : Rollen-Mapping
           Roles : Rollen
           Roles and Rights : Rollen und Rechte
           Role user to user : Personenbeziehungen
