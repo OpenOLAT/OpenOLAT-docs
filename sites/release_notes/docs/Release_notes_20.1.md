@@ -5,7 +5,7 @@
 
 * * *
 
-:material-calendar-month-outline: **Release date: 07/16/2025 • Last update: 09/03/2025**
+:material-calendar-month-outline: **Release date: 07/16/2025 • Last update: 10/12/2025**
 
 * * *
 
@@ -358,6 +358,17 @@ To correct typing errors or link an updated image, it is permitted to edit badge
 
 ## More information
 
+* [YouTrack Release notes 20.1.15](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.1.15&title=Release%20Notes%2020.1.15){:target="_blank"}
+* [YouTrack Release notes 20.1.14](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.1.14&title=Release%20Notes%2020.1.14){:target="_blank"}
+* [YouTrack Release notes 20.1.13](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.1.13&title=Release%20Notes%2020.1.13){:target="_blank"}
+* [YouTrack Release notes 20.1.12](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.1.12&title=Release%20Notes%2020.1.12){:target="_blank"}
+* [YouTrack Release notes 20.1.11](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.1.11&title=Release%20Notes%2020.1.11){:target="_blank"}
+* [YouTrack Release notes 20.1.10](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.1.10&title=Release%20Notes%2020.1.10){:target="_blank"}
+* [YouTrack Release notes 20.1.9](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.1.9&title=Release%20Notes%2020.1.9){:target="_blank"}
+* [YouTrack Release notes 20.1.8](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.1.8&title=Release%20Notes%2020.1.8){:target="_blank"}
+* [YouTrack Release notes 20.1.7](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.1.7&title=Release%20Notes%2020.1.7){:target="_blank"}
+* [YouTrack Release notes 20.1.6](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.1.6&title=Release%20Notes%2020.1.6){:target="_blank"}
+* [YouTrack Release notes 20.1.5](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.1.5&title=Release%20Notes%2020.1.5){:target="_blank"}
 * [YouTrack Release notes 20.1.4](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.1.4&title=Release%20Notes%2020.1.4){:target="_blank"}
 * [YouTrack Release notes 20.1.3](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.1.3&title=Release%20Notes%2020.1.3){:target="_blank"}
 * [YouTrack Release notes 20.1.2](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.1.2&title=Release%20Notes%2020.1.2){:target="_blank"}

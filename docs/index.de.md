@@ -15,10 +15,11 @@ Informationen betreffend OpenOlat, seiner Funktionen und neuesten Änderungen fi
 
 ## Aktuelle Versionen:
 
-- [OpenOlat 20.1 Benutzerhandbuch](manual_user/general/) | [Release Notes 20.1](release_notes/Release_notes_20.1.de.md)
+- [OpenOlat 20.2 Benutzerhandbuch](manual_user/general/) | [Release Notes 20.2](release_notes/Release_notes_20.2.de.md)
 
 ## Ältere Versionen:
 
+- [OpenOlat 20.1 Benutzerhandbuch](/archive_mkdocs/20.1.de/manual_user/general/) | [Release Notes 20.1](release_notes/Release_notes_20.1.de.md)
 - [OpenOlat 20.0 Benutzerhandbuch](/archive_mkdocs/20.0/de/manual_user/general/) | [Release Notes 20.0](release_notes/Release_notes_20.0.de.md)
 - [OpenOlat 19.1 Benutzerhandbuch](/archive_mkdocs/19.1/de/manual_user/general/) | [Release Notes 19.1](release_notes/Release_notes_19.1.de.md)
 - [OpenOlat 18.2 Benutzerhandbuch](/archive_mkdocs/18.2/de/manual_user/general/) | [Release Notes 18.2](release_notes/Release_notes_18.2.de.md)

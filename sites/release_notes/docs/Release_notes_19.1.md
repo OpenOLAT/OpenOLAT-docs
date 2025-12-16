@@ -5,7 +5,7 @@
 
 * * *
 
-:material-calendar-month-outline: **Release date: 11/27/2024 • Last update: 09/03/2025**
+:material-calendar-month-outline: **Release date: 11/27/2024 • Last update: 12/10/2025**
 
 * * *
 
@@ -250,6 +250,14 @@ The section for activating "Modifications (On / Off)" for subscribable course el
 
 ## More information
 
+* [YouTrack Release notes 19.1.28](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2019.1.28&title=Release%20Notes%2019.1.28){:target="_blank"}
+* [YouTrack Release notes 19.1.27](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2019.1.27&title=Release%20Notes%2019.1.27){:target="_blank"}
+* [YouTrack Release notes 19.1.26](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2019.1.26&title=Release%20Notes%2019.1.26){:target="_blank"}
+* [YouTrack Release notes 19.1.25](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2019.1.25&title=Release%20Notes%2019.1.25){:target="_blank"}
+* [YouTrack Release notes 19.1.24](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2019.1.24&title=Release%20Notes%2019.1.24){:target="_blank"}
+* [YouTrack Release notes 19.1.23](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2019.1.23&title=Release%20Notes%2019.1.23){:target="_blank"}
+* [YouTrack Release notes 19.1.22](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2019.1.22&title=Release%20Notes%2019.1.22){:target="_blank"}
+* [YouTrack Release notes 19.1.21](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2019.1.21&title=Release%20Notes%2019.1.21){:target="_blank"}
 * [YouTrack Release notes 19.1.20](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2019.1.20&title=Release%20Notes%2019.1.20){:target="_blank"}
 * [YouTrack Release notes 19.1.19](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2019.1.19&title=Release%20Notes%2019.1.19){:target="_blank"}
 * [YouTrack Release notes 19.1.18](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2019.1.18&title=Release%20Notes%2019.1.18){:target="_blank"}

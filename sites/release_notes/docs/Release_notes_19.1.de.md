@@ -5,7 +5,7 @@
 
 * * *
 
-:material-calendar-month-outline: **Releasedatum: 27.11.2024 • Letztes Update: 03.09.2025**
+:material-calendar-month-outline: **Releasedatum: 27.11.2024 • Letztes Update: 10.12.2025**
 
 * * *
 
@@ -250,6 +250,14 @@ Der Bereich zur Aktivierung von "Änderungen (Ein / Aus)" bei abonnierbaren Baus
 
 ## Weitere Informationen
 
+* [YouTrack Release Notes 19.1.28](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2019.1.28&title=Release%20Notes%2019.1.28){:target="_blank"}
+* [YouTrack Release Notes 19.1.27](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2019.1.27&title=Release%20Notes%2019.1.27){:target="_blank"}
+* [YouTrack Release Notes 19.1.26](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2019.1.26&title=Release%20Notes%2019.1.26){:target="_blank"}
+* [YouTrack Release Notes 19.1.25](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2019.1.25&title=Release%20Notes%2019.1.25){:target="_blank"}
+* [YouTrack Release Notes 19.1.24](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2019.1.24&title=Release%20Notes%2019.1.24){:target="_blank"}
+* [YouTrack Release Notes 19.1.23](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2019.1.23&title=Release%20Notes%2019.1.23){:target="_blank"}
+* [YouTrack Release Notes 19.1.22](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2019.1.22&title=Release%20Notes%2019.1.22){:target="_blank"}
+* [YouTrack Release Notes 19.1.21](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2019.1.21&title=Release%20Notes%2019.1.21){:target="_blank"}
 * [YouTrack Release Notes 19.1.20](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2019.1.20&title=Release%20Notes%2019.1.20){:target="_blank"}
 * [YouTrack Release Notes 19.1.19](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2019.1.19&title=Release%20Notes%2019.1.19){:target="_blank"}
 * [YouTrack Release Notes 19.1.18](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2019.1.18&title=Release%20Notes%2019.1.18){:target="_blank"}
