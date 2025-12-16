@@ -37,26 +37,26 @@ Seit Release 20.1 wurden über 130 neue Funktionen und Verbesserungen zu OpenOla
 
 ## Zertifikatsprogramm
 
-Das Zertifikatsprogramm bildet den zentralen Rahmen für Ausstellung, Gültigkeit und Rezertifizierung von Zertifikaten. Es steuert, wie Zertifikate vergeben, verlängert oder über Kreditpunkte erneuert werden und bietet zertifikatsverantwortlichen Personen eine klare Übersicht über alle relevanten Prozesse. Die folgenden Screens zeigen, wie Programme konfiguriert werden, wie Mitglieder verwaltet sind und wie Kreditpunkte in die Zertifikatslogik integriert werden.
+Das Zertifikatsprogramm bildet den zentralen Rahmen für Ausstellung, Gültigkeit und Rezertifizierung von Zertifikaten. Es steuert, wie Zertifikate vergeben, verlängert oder über Kreditpunkte erneuert werden und bietet zertifikatsverantwortlichen Personen eine klare Übersicht über alle relevanten Prozesse. Die folgenden Screens zeigen, wie Programme konfiguriert werden, wie Mitglieder:innen verwaltet sind und wie Kreditpunkte in die Zertifikatslogik integriert werden.
 
 ### Übersicht - Dashboard
 
-Die Übersichtsseite zeigt zertifikatsverantwortlichen Personen alle wichtigen Kennzahlen eines Zertifikatsprogramms auf einen Blick. Sie sehen, wie viele Personen aktiv sind, wie viele bereits zertifiziert wurden, welche Zertifikate bald ablaufen und wie viele sich im Rezertifizierungsprozess befinden. Eine Liste der zertifizierten Mitglieder mit Punktesaldo und Gültigkeitsdatum bietet zusätzlich schnelle Orientierung und erleichtert die Planung weiterer Schritte.
+Die Übersichtsseite zeigt zertifikatsverantwortlichen Personen alle wichtigen Kennzahlen eines Zertifikatsprogramms auf einen Blick. Sie sehen, wie viele Personen aktiv sind, wie viele bereits zertifiziert wurden, welche Zertifikate bald ablaufen und wie viele sich im Rezertifizierungsprozess befinden. Eine Liste der zertifizierten Mitglieder:innen mit Punktesaldo und Gültigkeitsdatum bietet zusätzlich schnelle Orientierung und erleichtert die Planung weiterer Schritte.
 
 ![Dashboard Zertifikatsprogramm](assets/202/CertificationProgram_dashboard_DE.png){ class="shadow lightbox" title="Dashboard Zertifikatsprogramm" }
 
 ### Einblick in die Einstellungen
 
-Die Konfiguration eines Zertifikatsprogramms ermöglicht es, zentrale Regeln für Gültigkeit, Rezertifizierung und Kreditpunkte festzulegen. Als Programmbesitzer bestimmen hier, wie lange Zertifikate gültig bleiben, ob Verlängerungen automatisch oder manuell erfolgen und welche Kreditpunkte für eine Rezertifizierung erforderlich sind.
+Die Konfiguration eines Zertifikatsprogramms ermöglicht es, zentrale Regeln für Gültigkeit, Rezertifizierung und Kreditpunkte festzulegen.  Programmbesitzer:innen bestimmen hier, wie lange Zertifikate gültig bleiben, ob Verlängerungen automatisch oder manuell erfolgen und welche Kreditpunkte für eine Rezertifizierung erforderlich sind.
 
-Über zusätzliche Tabs erhalten zertifikatsverantwortliche Personen einen umfassenden Überblick über Mitglieder, Durchführungen, Meldungen und Zertifikatsbesitzer:innen. So bleibt jederzeit sichtbar, wer sich im Prozess befindet, wer bereits zertifiziert ist und welche Schritte anstehen.
+Über zusätzliche Tabs erhalten zertifikatsverantwortliche Personen einen umfassenden Überblick über Mitglieder:innen, Durchführungen, Meldungen und Zertifikatsbesitzer:innen. So bleibt jederzeit sichtbar, wer sich im Prozess befindet, wer bereits zertifiziert ist und welche Schritte anstehen.
 
 ![Einstellungen Zertifikatsprogramm](assets/202/CertificationProgram_settings_DE.png){ class="shadow lightbox" title="Einstellungen Zertifikatsprogramm" }
 
 ### Mitgliederansicht
-Die Mitgliederansicht zeigt alle Personen, die einem Zertifikatsprogramm zugeordnet sind. Zertifikatsverantwortliche sehen hier auf einen Blick, wie viele Mitglieder aktiv sind, wie viele sich im Kandidat:innen-Status befinden und wie viele bereits als Alumni gelten. Über Filter wie Zertifiziert, In Rezertifizierung, Läuft bald ab oder Unzureichende Kreditpunkte lassen sich Gruppen gezielt anzeigen.
+Die Mitgliederansicht zeigt alle Personen, die einem Zertifikatsprogramm zugeordnet sind. Zertifikatsverantwortliche sehen hier auf einen Blick, wie viele Mitglieder:innen aktiv sind, wie viele sich im Kandidat:innen-Status befinden und wie viele bereits als Alumni gelten. Über Filter wie Zertifiziert, In Rezertifizierung, Läuft bald ab oder Unzureichende Kreditpunkte lassen sich Gruppen gezielt anzeigen.
 
-Die Tabelle bietet detaillierte Informationen pro Person: aktueller Zertifikatsstatus, Anzahl ausgestellter Zertifikate, Gültigkeitsdatum, nächste Rezertifizierungsfrist und individueller Kreditpunktbestand. So erkennen Verantwortliche sofort, bei wem Handlungsbedarf besteht oder welche Zertifikate demnächst erneuert werden müssen. Neue Mitglieder lassen sich direkt über die Schaltfläche „Mitglied hinzufügen“ einladen oder zuweisen.
+Die Tabelle bietet detaillierte Informationen pro Person: aktueller Zertifikatsstatus, Anzahl ausgestellter Zertifikate, Gültigkeitsdatum, nächste Rezertifizierungsfrist und individueller Kreditpunktbestand. So erkennen Verantwortliche sofort, bei wem Handlungsbedarf besteht oder welche Zertifikate demnächst erneuert werden müssen. Neue Mitglieder lassen sich direkt über die Schaltfläche "Mitglied hinzufügen" einladen oder zuweisen.
 
 ![Mitgliederansicht Zertifikatsprogramm](assets/202/CertificationProgram_members_DE.png){ class="shadow lightbox" title="Mitgliederansicht Zertifikatsprogramm" }
 
@@ -131,9 +131,9 @@ Kurse können neu als **Templates gespeichert, exportiert und erneut verwendet**
 ## Administratives / Technisches
 
 * Administration:
-    * Verschiebung “Kreditpunkte” von “Bezahlmodule” nach “e-Assessment”
-	* Neue Sortierung der Menüpunkte unter “e-Assessment”
-	* Modul “Legacy PayPal” komplett entfernt
+    * Verschiebung "Kreditpunkte" von "Bezahlmodule" nach "e-Assessment"
+	* Neue Sortierung der Menüpunkte unter "e-Assessment"
+	* Modul "Legacy PayPal" komplett entfernt
 * LTI:
 	* Rollen-Mapping zur globalen Konfiguration der LTI-Rollen sowie Definition der Rechte für Kurs-Besitzer:innen für die LTI-Konfiguration im Kurs (GUI + olat.local.properties)
 * Update MathJax auf Version 4.0 (erlaubt u.a. mehrzeilige Formeln)
