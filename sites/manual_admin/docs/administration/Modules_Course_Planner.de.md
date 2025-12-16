@@ -97,7 +97,7 @@ Es ist an dieser Stelle möglich, per CSS-Klasse ein nur für diesen Element-Typ
 Erklären Sie hier mit einem Beschreibungstext Ihren Elementtyp.
 
 ![5_green_24.png](assets/5_green_24.png) **Features**<br>
-Mit aktiviertem **Absenzenmanagement** haben Sie in der Rolle als Course Planner das Tab "Absenz" auf deiesem Element und können für alle Teilnehmer:innen dieses Elements die Absenzen einsehen. (Voraussetzung ist, dass das Modul "Absenzenverwaltung" aktiviert ist.)
+Mit aktiviertem **Absenzenmanagement** haben Sie in der Rolle als Course Planner das Tab "Absenz" auf diesem Element und können für alle Teilnehmer:innen dieses Elements die Absenzen einsehen. (Voraussetzung ist, dass das Modul "Absenzenverwaltung" aktiviert ist.)
 
 Ebenfalls kann für diesen Element-Typ die Anzeige des **Stundenplans**
 aktiviert werden. Dieser vereint alle Kurskalender-Termine der zu diesem
