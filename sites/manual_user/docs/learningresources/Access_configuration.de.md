@@ -112,7 +112,7 @@ Wählen Sie diese Option, wenn keine weiteren Einschränkungen gelten. Alle Open
 
 ![paypal](assets/cc-paypal.png){ class="size24" }   **PayPal und Kreditkarte**
   
-Diese Option ist nur verfügbar wenn sie vom [Administrator freigeschaltet](../../manual_admin/administration/PayPal_Configuration.de.md) wurde. Wählen Sie PayPal/Kreditkarten um einen Buchungsauftrag gegen eine finanzielle Vergütung zu ermöglichen. Dabei können Sie einen Betrag definieren, der mit einem PayPal Konto oder mit einer Kreditkarte (Visa/Mastercard) bezahlt werden muss. (Diese Funktion steht nur Benutzer:innen mit Autorenrechten zur Verfügung.)
+Diese Option ist nur verfügbar wenn sie vom [Administrator freigeschaltet](../../manual_admin/administration/Payment_PayPal.de.md) wurde. Wählen Sie PayPal/Kreditkarten um einen Buchungsauftrag gegen eine finanzielle Vergütung zu ermöglichen. Dabei können Sie einen Betrag definieren, der mit einem PayPal Konto oder mit einer Kreditkarte (Visa/Mastercard) bezahlt werden muss. (Diese Funktion steht nur Benutzer:innen mit Autorenrechten zur Verfügung.)
 
 ![notBooking](assets/notBooking.jpg){ class="size24" }  **Ohne Buchung**
 

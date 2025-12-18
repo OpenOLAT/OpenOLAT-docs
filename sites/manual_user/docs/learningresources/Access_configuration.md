@@ -18,7 +18,7 @@ Finished | All members still have access to the course, but can only read.
 
 !!! info "Note"
 
-    If a course has the status "Review", “Access for coach" or "Preparation", the course appears in the courses menu in the tab "In preparation". However, it is not possible to access the course with all integrated course elements. Access to the toolbar is also not (yet) possible.
+    If a course has the status "Review", "Access for coach" or "Preparation", the course appears in the courses menu in the tab "In preparation". However, it is not possible to access the course with all integrated course elements. Access to the toolbar is also not (yet) possible.
   
 The concrete variant of course access (or access to a learning resource in general) is set up in the "Share" menu of the "Administration" course. In the following, you will learn which options are available to you.
 
@@ -36,7 +36,7 @@ If the option **"Private"** is chosen, the participants are entered by the owner
 If the option **"Bookable and open offers"** is selected, learners can book a course/learning resource themselves, but may have to (depending on the setting) enter a password
 enter.
 
-[Details on tab "Share" >](../../manual_user/learningresources/Course_Settings_Share.md)
+[Details on tab "Share" >](../learningresources/Course_Settings_Share.md)
 
 ### Leaving a learning resource
 
@@ -58,7 +58,7 @@ Here you can define for which organization/sub-organization (if set up) the cour
 
 Furthermore, the tab "Share" can be used to define which additional rights other authors have to the learning resource or course.
 These rights generally apply to all OpenOlat authors in the instance! 
-The only requirement for visibility to other authors is that the learning resource is no longer in ‘Preparation’ status.
+The only requirement for visibility to other authors is that the learning resource is no longer in "Preparation" status.
 
 Authors can | Description  
 ---|---  
@@ -103,7 +103,7 @@ Select this option if no further restrictions apply. All OLAT users can open and
 
 ![paypal](assets/cc-paypal.png){ class="size24" } **PayPal and credit card**
   
-Is only available if enabled by the administrator: Select the PayPal/credit cards to enable booking orders against a financial payment. You can define an amount that has to be paid with a PayPal account or with a credit card (Visa/Mastercard). (This function is only available for users with author rights.)
+Is only available if enabled [by the administrator](../../manual_admin/administration/Payment_PayPal.md): Select the PayPal/credit cards to enable booking orders against a financial payment. You can define an amount that has to be paid with a PayPal account or with a credit card (Visa/Mastercard). (This function is only available for users with author rights.)
 
 ![notBooking](assets/notBooking.jpg){ class="size24" } **Without booking**
 
@@ -142,9 +142,7 @@ If the sharing is set according to the wishes, you can see compactly at the end 
 If a course has been completed and has expired, it can be finished and/or
 deleted.
 
-If a course is  **completed**, it is then in read mode. All user data is
-retained and all course members still have access to the course. The course is
-no longer in the tab "My Courses", but in the tab "Finished" next to it.
+If a course is  **completed**, it is then in read mode. All user data is retained and all course members still have access to the course. The course is no longer in the tab "My Courses", but in the tab "Finished" next to it.
 
 ![Finished courses](assets/lifecycle_finished.png)
 

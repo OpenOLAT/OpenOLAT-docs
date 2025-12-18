@@ -2,7 +2,7 @@
 
 OpenOlat zeichnet Kursaktivitäten der Kursteilnehmenden und Kursautoren in Logfiles auf.
 
-Innerhalb eines Kurses können über die [Datenarchivierung](Using_Course_Tools.de.md#datenarchivierung--archive) folgende Logfiles heruntergeladen werden:
+Innerhalb eines Kurses können über die [Datenarchivierung](../learningresources/Course_Archiving.de.md) folgende Logfiles heruntergeladen werden:
 
 * Admin-Logfile mit personalisierten Daten der Kursautoren
 * Statistik-Logfile mit den anonymisierten Daten der Kursteilnehmenden

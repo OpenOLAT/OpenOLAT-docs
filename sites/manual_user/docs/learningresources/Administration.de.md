@@ -203,7 +203,7 @@ Die Fragebogen-Statistiken erlauben Ihnen die generelle kursbezogene, anonymisie
 Hier können Elemente des Kurses mit Hilfe eines Wizards archiviert werden. Es kann ein Gesamtarchiv oder ein Teilarchiv mit ausgewählten Kursbausteinen erstellt werden, sowie Kursresultate u.a.
 
 [Zu den Details >](Course_Archiving.de.md)<br> 
-[Zu den Details 2 >](Data_archiving.de.md)<br> 
+[Zu den Details 2 >](../learningresources/Course_Archiving.de)<br> 
 [Zum Seitenanfang ^](#course_administration)
 
 

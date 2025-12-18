@@ -45,9 +45,9 @@ Auch die Ergebnisse können für all diese Gruppen frei gegeben und in der erwei
 
 !!! tip "Tipp"
 
-    Voraussetzung für die Bearbeitung der Umfrage ist jedoch, dass der gesamte Kurs auch für die jeweilige Personengruppe freigegeben ist. Soll also beispielsweise eine Umfrage auch von externen Personen (Gästen) ausfüllbar sein, muss auch der Kurs im Menü „Einstellungen“ > [Freigabe](../learningresources/Access_configuration.de.md) „offen ohne Buchung" für Gäste frei gegeben sein.
+    Voraussetzung für die Bearbeitung der Umfrage ist jedoch, dass der gesamte Kurs auch für die jeweilige Personengruppe freigegeben ist. Soll also beispielsweise eine Umfrage auch von externen Personen (Gästen) ausfüllbar sein, muss auch der Kurs im Menü "Einstellungen" > [Freigabe](../learningresources/Access_configuration.de.md) "offen ohne Buchung" für Gäste frei gegeben sein.
 
-Wird ein Formular als Umfrage in einem Kurs eingebunden, kann das Formular im Kurs über den Button „bearbeiten“ eingeschränkt geändert werden. Texte können geändert aber einzelne Blöcke nicht mehr verschoben oder neue Bereiche angelegt oder gelöscht werden. Im Formular erscheint die Meldung "Die Ressource wird bereits verwendet...".
+Wird ein Formular als Umfrage in einem Kurs eingebunden, kann das Formular im Kurs über den Button "bearbeiten" eingeschränkt geändert werden. Texte können geändert aber einzelne Blöcke nicht mehr verschoben oder neue Bereiche angelegt oder gelöscht werden. Im Formular erscheint die Meldung "Die Ressource wird bereits verwendet...".
 
 !!! warning "Achtung"
 
@@ -63,7 +63,7 @@ Ist eine Personengruppe (z.B. Lernende) berechtigt die Umfrage auszufüllen aber
 
 ![Meldung Umfrage ausgefüllt](assets/Umfrage_ausgefuellt.jpg){ class="shadow lightbox" }
 
-Die Umfrage kann nur einmal ausgefüllt und nach dem abschicken nicht mehr geändert werden. Der User sieht eine entsprechende Information. Soll der Fragebogen noch nicht direkt abgeschickt werden, kann die Option „Zwischenspeichern“ verwendet werden.
+Die Umfrage kann nur einmal ausgefüllt und nach dem abschicken nicht mehr geändert werden. Der User sieht eine entsprechende Information. Soll der Fragebogen noch nicht direkt abgeschickt werden, kann die Option "Zwischenspeichern" verwendet werden.
 
 Ist eine Personengruppe weder berechtigt den Fragebogen auszufüllen noch die Resultate zu sehen, erscheint die Meldung "kein Zugang".
 
@@ -83,11 +83,11 @@ Ferner können die Inhalte aller 4 Tabs auch ausgedruckt oder als Excel Tabelle 
 
 Dieselbe Auswertung finden Sie auch im Menü `Administration > Fragebogen Statistiken`.
 
-Die Ergebnisse können auch über das Menü "[Datenarchivierung](../learningresources/Using_Course_Tools.de.md)" > “Umfragen“ gespeichert werden. Es handelt sich dabei um dieselbe Datei wie unter „Export“ im Kursrun.
+Die Ergebnisse können auch über das Menü "[Datenarchivierung](../learningresources/Course_Archiving.de.md)" > "Umfragen" gespeichert werden. Es handelt sich dabei um dieselbe Datei wie unter "Export" im Kursrun.
 
 ### Umfragen zurücksetzen
 
-Kursbesitzer können schon ausgefüllte Fragebögen auch über den Link im 3-Punkte Menü des jeweiligen Kursbaustein „Zurücksetzen“. In diesem Fall werden alle bereits eingereichten Fragebögen für diese Umfrage gelöscht. Ein Zurücksetzen von einzelnen Fragebögen ist nicht möglich, da die Abgabe anonym erfolgt.
+Kursbesitzer können schon ausgefüllte Fragebögen auch über den Link im 3-Punkte Menü des jeweiligen Kursbaustein "Zurücksetzen". In diesem Fall werden alle bereits eingereichten Fragebögen für diese Umfrage gelöscht. Ein Zurücksetzen von einzelnen Fragebögen ist nicht möglich, da die Abgabe anonym erfolgt.
 
 ![Umfrage zurücksetzen](assets/Umfrage_zuruecksetzen.jpg){ class="shadow lightbox" }
 

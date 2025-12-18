@@ -115,7 +115,7 @@ Merkmal | ![Test](assets/test.png){ class=size16 } Test | ![Selbsttest](assets/s
  Fragetypen QTI 2.1 | Alle [Fragetypen](Test_question_types.de.md) möglich | Alle [Fragetypen](Test_question_types.de.md) möglich, aber nur automatisch auswertbare Fragetypten können auch für Punkte verwendet werden.
  Einbindung mit Kursbaustein | Test| Selbsttest
  Anzahl Aufrufe durch Kursteilnehmer | konfigurierbar | unlimitiert
- Ergebnisse | erscheinen im [Bewertungswerkzeug](../learningresources/Assessment_tool_overview.de.md) sowie in den [Test Statistiken](../learningresources/Using_Course_Tools.de.md#test-statistiken) und sind für Betreuer einsehbar | erscheinen _nicht_ im [Bewertungswerkzeug](../learningresources/Assessment_tool_overview.de.md) und in den [Test Statistiken](../learningresources/Using_Course_Tools.de.md#test-statistiken) und sind nicht personalisiert für Betreuer und Besitzer einsehbar
+ Ergebnisse | erscheinen im [Bewertungswerkzeug](../learningresources/Assessment_tool_overview.de.md) sowie in den [Test Statistiken](../learningresources/Statistics_Test.de.md) und sind für Betreuer einsehbar | erscheinen _nicht_ im [Bewertungswerkzeug](../learningresources/Assessment_tool_overview.de.md) und in den [Test Statistiken](../learningresources/Statistics_Test.de.md) und sind nicht personalisiert für Betreuer und Besitzer einsehbar
  Datenarchivierung| ja, personalisiert| ja, anonymisiert. Eine personenbezogene Zuordnung oder Feedbacks sind aber nicht möglich.
 
 !!! tip "Tipp"
@@ -144,8 +144,8 @@ Sofern für einen Test auch externe Korrektoren aktiviert wurden, können diese 
 
 ## Testergebnisse und Archivierung
 
-Wählen Sie in der Kursansicht aus der "Administration“ -> [Datenarchivierung](../learningresources/Using_Course_Tools.de.md#archive)“. Gehen Sie links zu "Tests" oder auch komplett zu "Kursresultate" und speichern Sie die angezeigte Datei. Die Resultate von Selbsttests werden anonymisiert gespeichert.
+Wählen Sie in der Kursansicht aus der "Administration" -> [Datenarchivierung](../learningresources/Course_Archiving.de.md). Gehen Sie links zu "Tests" oder auch komplett zu "Kursresultate" und speichern Sie die angezeigte Datei. Die Resultate von Selbsttests werden anonymisiert gespeichert.
 
 Nach der Archivierung finden Sie alle Angaben dazu, welche Person (bei Selbsttest anonymisiert durch eine Laufnummer) welche Fragen beantwortet hat, welche Antworten sie gegeben hat und beim Selbsttest wie viele Punkte erreicht wurden.
 
-Über Administration -> ["Test Statistiken"](../learningresources/Using_Course_Tools.de.md#test-statistiken) können Sie auch schnell auf die grafische Auswertung Ihrer Testdaten zugreifen.
+Über Administration -> ["Test Statistiken"](../learningresources/Statistics_Test.de.md) können Sie auch schnell auf die grafische Auswertung Ihrer Testdaten zugreifen.

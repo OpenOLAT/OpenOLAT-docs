@@ -3,7 +3,7 @@
 ## Bewertung
 
 Eine Reihe an Kursbausteinen kann entweder zur summativen oder formativen Bewertung genutzt werden, oder dient der Fortschrittskontrolle. Folgende Kursbausteine können im
-[Bewertungswerkzeug](../learningresources/Using_Course_Tools.de.md) eingesehen und bearbeitet werden. Weitere Informationen zu diesen Bausteinen finden Sie u.a. im Kapitel [Wissensüberprüfung](../learningresources/Assessment.de.md):
+[Bewertungswerkzeug](../learningresources/Assessment_tool_overview.de.md) eingesehen und bearbeitet werden. Weitere Informationen zu diesen Bausteinen finden Sie u.a. im Kapitel [Wissensüberprüfung](../learningresources/Assessment.de.md):
 
 * [Aufgabe](../learningresources/Course_Element_Assessment.de.md) (manuelle Bewertung)
 * [Gruppenaufgabe](../learningresources/Assessment.de.md)(manuelle Bewertung)
