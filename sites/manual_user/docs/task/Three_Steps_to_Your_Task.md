@@ -98,11 +98,11 @@ and submit their solution. Course authors and coaches can then view and return
 all submitted and corrected files. With an enabled revision phase, coaches can
 even place revision requests for their participants. Assessment can be carried
 out either directly in the course element or by means of the [assessment
-tool](../learningresources/Using_Course_Tools.md#UsingCourseTools-_bewertungswerkzeug).
+tool](../learningresources/Assessment_tool_overview.md).
 
 Subscribe to the course element in the course view. Whenever a course
 participant submits a file you will receive a corresponding e-mail or a
 notification in your personal menu, section "Subscriptions." The notifications
-is only sent if the action is finished. Alternatively you can subscribe for
+is only sent if the action is finished. Alternatively you can subscribe to
 all uploads and changes of assessible course elements in the [assessment
-tool](../learningresources/Using_Course_Tools.md#UsingCourseTools-_bewertungswerkzeug).
+tool](../learningresources/Assessment_tool_overview.md).

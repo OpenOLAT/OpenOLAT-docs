@@ -31,7 +31,7 @@ The new **Bento dashboard layout** provides a modern, flexible look in Coaching 
 
 ![Anzahl Features und Bugs in Release 20.2](assets/202/Features_Improvements_Labels_20.2_EN.png)
 
-As of release 20.1, over 130 new features and improvements have been added to OpenOlat. Here you will find a summary of the most important new features. Additionally, more than 150 bugs have been fixed. The complete list of changes in 20.1.x can be found [here](Release_notes_20.1.de.md){:target="_blank”}.
+As of release 20.1, over 130 new features and improvements have been added to OpenOlat. Here you will find a summary of the most important new features. Additionally, more than 150 bugs have been fixed. The complete list of changes in 20.1.x can be found [here](Release_notes_20.1.md){:target="_blank”}.
 
 * * *
 

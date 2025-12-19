@@ -34,7 +34,7 @@ You will also find a download button in the top right-hand corner.
 
 [Certificates in single courses >](../learningresources/Course_Settings_Assessment_Certificate.md)<br>
 [Certificates in certification programs >](../area_modules/Course_Planner_Certification_Programs.md)<br>
-[Evidence of achievements in courses >](../area_modules/Course_Settings_Assessment.md#section_evidence_of_achievements)<br>
+[Evidence of achievements in courses >](../learningresources/Course_Settings_Assessment.md#3_green_24png-evidences-of-achievement--section_evidence_of_achievements)<br>
 
 [To the top of the page ^](#certificates)
 

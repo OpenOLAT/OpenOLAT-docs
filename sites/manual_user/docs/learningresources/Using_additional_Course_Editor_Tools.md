@@ -17,13 +17,13 @@ that you can integrate into a course. Simply select and add to the course. Furth
 
 ## Quick-Add
 
-Je nach Größe Ihres Bildschirmfensters steht Ihnen auch die Funktion "Quick Add" zur Verfügung. Hierüber kann einfach der Name des gewünschten Kursbausteins in das Feld geschrieben und somit der Baustein noch schneller hinzugefügt werden. 
+Depending on the size of your screen window, the "Quick Add" function may also be available. This allows you to simply enter the name of the desired course element in the field and add the element even faster. 
 
-## Kursbausteine importieren
+## Import course elements
 
-An dieser Stelle können Sie Kursbausteine aus anderen Kursen mit Hilfe eines Wizards importieren. 
+Here you can import course elements from other courses using a wizard. 
 
-Wählen Sie einen Kurs aus bei dem Sie Besitzer sind und entscheiden Sie sich für einen oder mehrere Kursbausteine dieses Kurses. Teilweise können Sie auch noch weitere Konfigurationen vornehmen an den ausgewählten Bausteinen vornehmen. Abschliessend "Fertigstellen" auswählen und die gewünschten Kursbausteine werden dem aktuellen Kurs hinzugefügt. 
+Select a course that you own and choose one or more course modules from that course. In some cases, you can also make further configurations to the selected modules. Finally, select "Finish" and the desired course modules will be added to the current course. 
 
 
 ## Status
@@ -37,13 +37,13 @@ navigation.
 
 ![status problem course editor](assets/Status_19_en.jpg)
 
-Eventuelle Konfigurationsprobleme werden zusätzlich in der Kursnavigation bei den entsprechenden Kursbausteinen angezeigt.
+Any configuration problems are also displayed in the course navigation for the corresponding course elements.
 
-!!! note "Hinweis"
+!!! note "Note"
 
-    Verwechseln Sie den "Status" im Kurseditor nicht mit dem ["Status" bei geschlossenem Kurseditor](../learningresources/Access_configuration.de.md). Das sind zwei verschiedene Funktionen.
+    Do not confuse the "Status" in the course editor with the ["Status" when the course editor is closed](../learningresources/Access_configuration.md). These are two different functions.
 
-## Course preview (nur für herkömmliche Kurse) {: #preview}
+## Course preview (only for conventional courses) {: #preview}
 
 The editor tool "Course preview" enables you to see course settings and
 content from the course participant's point of view. By clicking on "Course
@@ -93,9 +93,9 @@ For more information:
 [AAI attributes ](Access_Restrictions_in_the_Expert_Mode.md)  
 [__ General information on AAI](http://www.switch.ch/aai/)
 
-!!! info "Hinweis"
+!!! info "Note"
 
-    In der Regel ist diese Vorschau aber nicht mehr notwendig, da bei geschlossenem Kurseditor einfach die "Teilnehmeransicht" gewählt werden kann. Dieser Weg bietet sich auch für Lernpfad Kurse an.
+    However, this preview is usually no longer necessary, as you can simply select “Participant view” when the course editor is closed. This method is also suitable for learning path courses.
 
 
 ## Publishing
@@ -107,9 +107,9 @@ the course editor at your leisure.
 Only once you have published your course it will become visible in the course run with closed editor. This does not mean that learners will already see your course. In order to be able to do that you have to publish your course and configure your access (see chapter
 "[Access configuration](Access_configuration.md)").
 
-Am einfachsten geht ein schnelles publizieren über das Schliessen des Kurseditors indem man einfach in der Bread-Crumb-Leiste auf den Titel des Kurses klickt. Hier wird man gefragt ob man automatisch, manuell oder nicht publizieren will. 
+The easiest way to publish quickly is to close the course editor by simply clicking on the course title in the breadcrumb bar. Here you will be asked whether you want to publish automatically, manually, or not at all. 
 
-Die Wahl des manuellen Publizierens entspricht der Wahl "Publizieren" im Kurseditor und erfolgt mit einem Wizard. 
+The option to publish manually corresponds to the "Publish" option in the course editor and is carried out using a wizard. 
 
 !!! warning
 
@@ -126,5 +126,5 @@ users should have access to your course. See
 section "[Course Settings](Course_Settings.md)" to learn more about those options at your disposal. Now you can complete your publishing process.
 Just click on "Finish".
 
-Eventuell gibt es noch Hinweise die angezeigt werden. Auch ein gezielter Eintrag in den Katalog ist bei Verwendung des [Katalog 1.0](../area_modules/catalog1.0.de.md) möglich. Bei Verwendung des [Katalog 2.0](../area_modules/catalog2.0.de.md) erfolgt der Eintrag automatisch entsprechend der Taxonomie Konfiguration.
+There may still be some notes that are displayed. A specific entry in the catalog is also possible when using the [Catalog 1.0](../area_modules/catalog1.0.md). When using the [catalog 2.0](../area_modules/catalog2.0.md), the entry is made automatically according to the taxonomy configuration.
 
