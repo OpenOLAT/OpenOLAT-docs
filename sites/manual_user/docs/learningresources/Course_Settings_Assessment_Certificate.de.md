@@ -106,9 +106,9 @@ Unterschriften, Logos o.ä. können über die optionalen Variablen als statische
       * $dateCertification
       * $dateCertificationLong
       * $dateCertificationRaw
-      * $dateNextRecertification
-      * $dateNextRecertificationLong
-      * $dateNextRecertificationRaw  
+      * $dateCertificateValidUntil
+      * $dateCertificateValidUntilLong
+      * $dateCertificateValidUntilRaw  
 
       * $certificateVerificationUrl
 

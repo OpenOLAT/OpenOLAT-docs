@@ -109,9 +109,9 @@ Signatures, logos, etc. can be integrated into the certificate as static graphic
       * $dateCertification
       * $dateCertificationLong
       * $dateCertificationRaw
-      * $dateNextRecertification
-      * $dateNextRecertificationLong
-      * $dateNextRecertificationRaw  
+      * $dateCertificateValidUntil
+      * $dateCertificateValidUntilLong
+      * $dateCertificateValidUntilRaw
 
       * $certificateVerificationUrl
 
