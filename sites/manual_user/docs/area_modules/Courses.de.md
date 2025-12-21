@@ -22,9 +22,9 @@ Für die Ansicht der Kurse haben Sie zwei Möglichkeiten. Sie können sich die g
 
 ![Search](assets/Kurs_Suche_20a.jpg)
 
-Wenn Sie mal einen Kurs nicht finden, achten Sie darauf eventuell noch ein nicht gewünschter Filter aktiviert ist z.B. nur Kurse gefunden, die Sie noch nicht bestanden haben. Entfernen Sie in diesem Fall den entsprechenden Filter.
+Wenn Sie einen Kurs nicht finden, prüfen Sie, ob möglicherweise noch ein unerwünschter Filter aktiv ist (z. B. „nur nicht bestandene Kurse anzeigen“). Entfernen Sie in diesem Fall den entsprechenden Filter.
 
-Markieren Sie den Kurs als Favorit, wenn Sie ihn gefunden haben. Klicken Sie dazu die weisse Flagge an, die sich dann rot färbt. Beim nächsten Login finden Sie den Kurs dann direkt in Ihren Favoriten.
+Sobald Sie den Kurs gefunden haben, können Sie ihn auch als Favorit markieren. Klicken Sie dazu auf die weiße Flagge, die sich anschließend rot färbt. Beim nächsten Login finden Sie den Kurs direkt in Ihren Favoriten.
 
 ![favorites](assets/Kurse_Bookmark.jpg)
 

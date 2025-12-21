@@ -42,7 +42,8 @@ Gruppen können für unterschiedliche Zwecke verwendet werden, z.B. vereinfachen
 
 ![4_green_24.png](assets/4_green_24.png){ class=" aside-left-lg" }
 
-Wird ein Katalog zum Anbieten der Kurse und Lernressourcen gewünscht, kann dies von OpenOlat [Administrator:innen aktiviert](../../manual_admin/administration/Modules_Catalog_2.0.de.md) werden. Je nach Version des Katalogs, erscheint er als eigener Menüpunkt [(Katalog V2)](../area_modules/catalog2.0.de.md) oder als Tab im Bereich Kurse [(Katalog V1)](../area_modules/catalog1.0.de.md). 
+Wird ein Katalog zum Anbieten der Kurse und Lernressourcen gewünscht, kann dies von OpenOlat [Administrator:innen aktiviert](../../manual_admin/administration/Modules_Catalog_2.0.de.md) werden. Der Katalog erscheint als eigener Menüpunkt. Das gilt sowoohl für den [Katalog 1.0](../area_modules/catalog1.0.de.md) als auch für den [Katalog 2.0](../area_modules/catalog2.0.de.md). 
+
 
 [Zu den Details >](catalog2.0.de.md)<br>
 [Zum Seitenanfang ^](#sites)
@@ -63,7 +64,7 @@ In diesem zentralen Bereich finden OpenOlat Autoren alles, was zum Erstellen neu
 
 ![6_green_24.png](assets/6_green_24.png){ class=" aside-left-lg" }
 
-Der Fragenpool ist ein Bereich, in dem Fragen zur Wiederverwendung gesammelt werden. OpenOlat bietet dazu ein Management der Zugriffsberechtigungen usw.
+Der Fragenpool ist ein Bereich, in dem Test-Fragen zur Wiederverwendung gesammelt werden. OpenOlat bietet dazu ein Management der Zugriffsberechtigungen usw.
 
 [Zu den Details >](Question_Bank.de.md)<br>
 [Zum Seitenanfang ^](#sites)
@@ -138,7 +139,7 @@ In der Benutzerverwaltung können neue Benutzer importiert oder angelegt und kon
 
 ![13_green_24.png](assets/13_green_24.png){ class=" aside-left-lg" }
 
-Das Coaching-Werkzeug ermöglicht es Betreuer:innen **kursübergreifende** Bewertungen und Aktionen durchzuführen. (Im Unterschied zum Bewertungswerkzeug, das innerhalb eines bestimmten Kurses verwendet wird.) 
+Das Coaching-Werkzeug ermöglicht es Betreuer:innen **kursübergreifende** Bewertungen und Aktionen durchzuführen. (Im Unterschied zum [Bewertungswerkzeug](../learningresources/Assessment_tool_overview.de.md), das innerhalb eines bestimmten Kurses verwendet wird.) 
 
 [Zu den Details >](Coaching.de.md)<br>
 [Zum Seitenanfang ^](#sites)
@@ -149,6 +150,7 @@ Das Coaching-Werkzeug ermöglicht es Betreuer:innen **kursübergreifende** Bewer
 ![14_green_24.png](assets/14_green_24.png){ class=" aside-left-lg" }
 
 Ab :octicons-tag-24: Relase 20 werden Absenzen in diesem separaten Modul verwaltet.
+
 
 [Zu den Details >](Absence_Management.de.md)<br>
 [Zum Seitenanfang ^](#sites)

@@ -44,7 +44,10 @@ Groups can be used for different purposes e.g. they simplify participant adminis
 
 ![4_green_24.png](assets/4_green_24.png){ class=" aside-left-lg" }
 
-If a catalog for offering the courses and learning resources is desired, this optional module can be activated by the [OpenOlat administrator](../../manual_admin/administration/Modules_Catalog_2.0.md). Depending on the version of the catalog, it appears as a separate menu item [(Catalog V2)](../area_modules/catalog2.0.md) or as a tab in the Courses area [(Catalog V1)](../area_modules/catalog1.0.md). 
+If a catalog for offering the courses and learning resources is desired, this optional module can be activated by the [OpenOlat administrator](../../manual_admin/administration/Modules_Catalog_2.0.md). The catalog appears as a separate menu item. This applies to both [Catalog 1.0](../area_modules/catalog1.0.md) and [Catalog 2.0](../area_modules/catalog2.0.md). 
+
+
+
 
 [See the details >](catalog2.0.md)<br>
 [To the top of the page ^](#sites)
@@ -143,7 +146,7 @@ New users can be imported or created and configured in the user management.
 
 ![13_green_24.png](assets/13_green_24.png){ class=" aside-left-lg" }
 
-The coaching tool allows cooaches to perform **cross-course** assessments and actions. (Unlike the assessment tool, which is used within a specific course).
+The coaching tool allows cooaches to perform **cross-course** assessments and actions. (Unlike the [assessment tool](../learningresources/Assessment_tool_overview.md), which is used within a specific course).
 
 [See the details >](Coaching.md)<br>
 [To the top of the page ^](#sites)
