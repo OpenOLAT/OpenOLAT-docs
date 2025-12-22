@@ -1,6 +1,6 @@
 # Administration: Overview {: #course_administration}
 
-![course_administration_v3_en.png](assets/course_administration_v3_en.png){ class="shadow lightbox aside-left-lg" }
+![course_administration_v4_en.png](assets/course_administration_v4_en.png){ class="shadow lightbox aside-left-lg" }
 
 :octicons-device-camera-video-24: **Video introduction (German)**: [Admin-Funktionen](<https://www.youtube.com/embed/rWPcz6udUrI>){:target="_blank”} 
 
@@ -247,11 +247,13 @@ If you want to use an existing course with Course Planner for instantiation in i
 
 
 
-## Convert to learning path course
+## Duplicate as learning path {: #duplicate_as_learning_path}
 
 ![23_green_24.png](assets/23_green_24.png){ class=" aside-left-lg" }
 
 Conventional courses (including all courses created before OpenOlat version 15) can be converted into a learning path course using this tool.
+The original conventional course is retained and a copy is created in which the additional features of a learning path course are added.
+When converting, the first decision to be made is whether to create a course “with learning path” or “with progress”. 
 
 The function is only available for conventional courses.
 

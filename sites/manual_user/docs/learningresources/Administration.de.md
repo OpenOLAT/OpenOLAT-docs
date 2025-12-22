@@ -1,6 +1,6 @@
 # Administration: Übersicht {: #course_administration}
 
-![course_administration_v3_de.png](assets/course_administration_v3_de.png){ class="shadow lightbox aside-left-lg" }
+![course_administration_v4_de.png](assets/course_administration_v4_de.png){ class="shadow lightbox aside-left-lg" }
 
 :octicons-device-camera-video-24: **Video-Einführung**: [Admin-Funktionen](<https://www.youtube.com/embed/rWPcz6udUrI>){:target="_blank”} 
 
@@ -247,11 +247,12 @@ Soll ein bestehender Kurs für die Verwendung mit dem Course Planner zur Instanz
 [Zum Seitenanfang ^](#course_administration)
 
 
-## In Lernpfad-Kurs konvertieren
+## Als Lernpfad duplizieren {: #duplicate_as_learning_path}
 
 ![23_green_24.png](assets/23_green_24.png){ class=" aside-left-lg" }
 
-Herkömmliche Kurse (und damit u.a. alle Kurse die vor der OpenOlat Version 15 erstellt wurden), können über dieses Werkzeug in einen Lernpfad-Kurs konvertiert werden. Beim Konvertieren muss als erstes entschieden werden, ob ein der Kurs "mit Lernpfad" oder "Mit Fortschritt" erstellt werden soll. 
+Herkömmliche Kurse (und damit u.a. alle Kurse die vor der OpenOlat Version 15 erstellt wurden), können über dieses Werkzeug in einen Lernpfad-Kurs konvertiert werden. Der ursprüngliche herkömmliche Kurs bleibt erhalten und es wird eine Kopie erzeugt, in der die zusätzlichen Eigenschaften eines Lernpfadkurses ergänzt werden.
+Beim Konvertieren muss als erstes entschieden werden, ob ein der Kurs "mit Lernpfad" oder "Mit Fortschritt" erstellt werden soll. 
 
 Diese Funktion ist nur für herkömmliche Kurse verfügbar.
 
