@@ -29,13 +29,15 @@ nav:
       - Labels & Tags: ux/label_tag.md
       - Object integration: ux/object_integration.md
       - Object representation: ux/object_representation.md
-      - Performance widget: ux/performence_widget.md
       - Pickers: ux/pickers.md
       - Scope: ux/scope.md
       - Status: ux/status.md
       - Switch & Sliders: ux/switch_slider.md
       - Tab / Tab pane: ux/tab.md
       - Table: ux/table.md
+    - Widgets:
+      - Dashboard widgets: ux/dashboard_widgets.md
+      - Performance widgets: ux/performence_widgets.md
   - Manual How-To:
     - documentation/index.md
     - Setup Visual Studio Code: documentation/howto-visual-studio.md
