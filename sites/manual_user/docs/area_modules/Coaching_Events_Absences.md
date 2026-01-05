@@ -48,7 +48,7 @@ Several filter functions are available to help you keep track of your many event
 
 At the top right above the list, you can select the desired columns using the gear icon. Customize the list view to suit your needs.
 
-**Example:**
+**Examples:**
 
 * Absences can be recorded by clicking on the **book icon** in the row of an event.
 
@@ -138,7 +138,6 @@ When you click on one of the courses or products found, you will be taken to the
 
 ## Further information {: #further_information}
 
-
 [Coaching: User search >](../../manual_user/area_modules/Coaching_User_Search.md)<br>
 [Coaching: People >](../../manual_user/area_modules/Coaching_People.md)<br>
 [Coaching: Courses >](../../manual_user/area_modules/Coaching_Courses.md)<br>
@@ -149,7 +148,5 @@ When you click on one of the courses or products found, you will be taken to the
 [Coaching: Order management >](../../manual_user/area_modules/Coaching_Order_Management.md)<br>
 [Roles >](../../manual_user/basic_concepts/Roles.md)<br>
 [Assessment tool >](../../manual_user/learningresources/Assessment_tool_overview.md)<br>
-
- [To the top of the page ^](#order_management)
 
 [To the top of the page ^](#events)
