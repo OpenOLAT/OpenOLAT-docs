@@ -277,6 +277,28 @@ In addition, users with the roles "Administrator" and "Course Planner" also have
 
 ---
 
+
+## Storage and download of certificates {: #download_certificates}
+
+Expired certificates are not simply deleted in OpenOlat, but stored in the database. They remain available to authorized persons.
+
+**Access by participants**<br>
+Participants can still find all certificates they have acquired in their **personal menu**.
+
+**Access by coaches**<br>
+Coaches can view expired certificates of the persons they coach in the **assessment tool** or in the **coaching tool**.
+
+**Access by owners**<br>
+Owners of a certificate program can still find all expired certificates for a certificate program under<br> **Course Planner > Certificate Program > Members tab > button Alumni** in the details of the individual members (click on the plus symbol in front of a line).<br> The PDF certificates (including expired ones) can be viewed and downloaded individually there.
+
+**Access by user managers**<br>
+If a participant is selected in user management, there is a **Certificates tab** where all of that person's certificates are listed.
+
+[To the top of the page ^](#certification_programs)
+
+---
+
+
 ## Further Information {: #further_information}
 
 [How can I create certificate programs with the Course Planner? (Step-by-step instructions) >](../../manual_how-to/certification_programs/certification_programs.md)<br>
@@ -286,4 +308,4 @@ In addition, users with the roles "Administrator" and "Course Planner" also have
 [Credit points in the personal menu >](../personal_menu/Credit_Points.md)<br>
 [Credit points (Administration) >](../../manual_admin/administration/e-Assessment_Credit_Points.md)<br>
 
-
+[To the top of the page ^](#certification_programs)

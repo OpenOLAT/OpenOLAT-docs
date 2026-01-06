@@ -297,6 +297,26 @@ Ausserdem haben auch Benutzer:innen mit den Rollen "Administrator:in" und "Cours
 ---
 
 
+## Ablage und Download von Zertifikaten {: #download_certificates}
+
+Abgelaufene Zertifikate werden in OpenOlat nicht einfach gelöscht, sondern in der Datenbank abgelegt. Sie sind weiterhin für berechtigte Personen abrufbar.
+
+**Zugriff durch Teilnehmer:innen**<br>
+Teilnehmer:innen finden alle einmal erworbenen Zertifikate weiterhin im **persönlichen Menü**.
+
+**Zugriff durch Betreuer:innen**<br>
+Betreuer:innen sehen abgelaufene Zertifikate ihrer betreuten Personen im **Bewertungswerkzeug** oder im **Coachingtool**.
+
+**Zugriff durch Besitzer:innen**<br>
+Besitzer:innen eines Zertifikatsprogramms finden alle abgelaufenen Zertifikate eines Zertifikatsprogramms weiterhin unter<br> **Course Planner > Zertifikatsprogramm > Tab Mitglieder > Button Alumni** in den Details der einzelnen Mitglieder (Klick auf Plus-Symbol vor einer Zeile).<br> Die PDF-Zertifikate (auch abgelaufene) können dort einzeln angesehen und heruntergeladen werden.
+
+**Zugriff durch Benutzerverwalter:innen**<br>
+Wird eine Teilnehmer:in in der Benutzerverwaltung ausgewählt, befindet sich dort ein **Tab "Zertifikate"**, unter dem alle Zertifikate dieser Person aufgelistet sind.
+
+[Zum Seitenanfang ^](#certification_programs)
+
+---
+
 
 ## Weitere Informationen {: #further_information}
 
