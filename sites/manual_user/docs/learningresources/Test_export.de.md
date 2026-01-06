@@ -6,6 +6,7 @@ Beim Exportieren von Tests ist zu unterscheiden zwischen
 - Test-**Kurs** (Prüfungskurs) exportieren
 - Test-**Lernressource** exportieren
 - einzelne **Fragen** exportieren
+- Test-**Ergebnisse** exportieren
 
 
 ## Kurs exportieren {: #export_course}
@@ -125,6 +126,50 @@ Haben Sie mehrere Fragen im Fragenpool ausgewählt, können diese Fragen gemeins
 ---
 
 
+## Testergebnisse exportieren {: #export_results}
+
+### Teststatistiken
+
+Eine Möglichkeit zur Auswertung der Testergebnisse, ist die in Statistiken aufbereitete Form. Verwenden Sie dazu den **Button "Test Statistiken"** innerhalb des Tab "Teilnehmer:innen". Der Button steht Betreuer:innen und Besitzer:innen zur Verfügung, wenn sie einen Kursbaustein "Test" im Run-Mode anwählen.
+
+![test_export_statistics1_v1_de.png](assets/test_export_statistics1_v1_de.png){ class="shadow lightbox"}
+
+* Sie können die verschiedenen Statistiken zu den Testergebnissen ausdrucken (evtl. auch in eine pdf-Datei "drucken") oder die Rohdaten als Excel-Datei herunterladen.
+* Wenn Sie die Sektionen eines Tests aufklappen, können Sie detaillierte Statistiken zu jeder einzelnen Frage abrufen. 
+
+![test_export_statistics2_v1_de.png](assets/test_export_statistics2_v1_de.png){ class="shadow lightbox"}
+
+
+### Testresultate der Teilnehmenden
+
+Mit dem **Button "Resultate exportieren"** wird eine zip-Datei erstellt, die sämtliche Testresultate aller Teilnehmenden im ausgewählten Kursbaustein enthält.
+
+![test_export_results1_v1_de.png](assets/test_export_results1_v1_de.png){ class="shadow lightbox"}
+
+Haben Sie sich für das Erstellen der zip-Datei entschieden, können Sie einen Namen für die zip-Datei angeben und eine der angebotenen Varianten für ihren Inhalt wählen.
+Es können 2 Varianten der zip-Datei erstellt werden:
+
+* Der **Standardexport** enthält detaillierte Testresultate für jede:n Teilnehmer:in in Form eines HTML-Dokuments und einer Excel-Datei mit den Rohdaten.
+* Die Option **"Erweitert - mit pdf"** erzeugt die gleiche zip-Datei, es werden jedoch zusätzlich noch pdf-Dateien mit den Ergebnissen ergänzt. 
+
+![test_export_results2_v1_de.png](assets/test_export_results2_v1_de.png){ class="shadow lightbox"}
+
+Klicken Sie auf den **Button "Export starten"** um die zip-Datei mit den Testresultaten zu erzeugen. 
+
+Erstellte zip-Dateien werden im unteren Bereich unter **"Exportverlauf"** aufgelistet.
+
+Öffnen bzw. entpacken Sie dann die erstellte zip-Datei um auf die benötigten Dateien zuzugreifen.
+
+
+!!! hint "Hinweis"
+
+    Auch in der Kursadministration gibt es eine Option zum Exportieren bzw. Archivieren von Testergebnissen. Mehr dazu unter [Testergebnisse archivieren](../learningresources/Course_Element_Test.de.md#archive).
+
+[Zum Seitenanfang ^](#test_export)
+
+---
+
+
 ## Weitere Informationen
 
 [Wie gehe ich vor, wenn ich einen Test erstelle? >](../../manual_how-to/test_creation_procedure/test_creation_procedure.de.md)<br>
@@ -133,7 +178,8 @@ Haben Sie mehrere Fragen im Fragenpool ausgewählt, können diese Fragen gemeins
 [Fragetypen >](../learningresources/Test_question_types.de.md)<br>
 [Test-Fragen konfigurieren >](Configure_test_questions.de.md)<br>
 [Test-Lernressourcen konfigurieren](Configure_tests.de.md)<br>
-[Test-Lernressourcen Einstellungen >](Test_settings.de.md)
+[Test-Lernressourcen Einstellungen >](Test_settings.de.md)<br>
+[Testergebnisse archivieren >](../learningresources/Course_Element_Test.de.md#archive)
 
 [Zum Seitenanfang ^](#test_export)
 

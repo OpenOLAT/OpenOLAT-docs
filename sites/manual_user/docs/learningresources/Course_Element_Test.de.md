@@ -350,9 +350,14 @@ Wurde die Test-Lernressource ausgewechselt, wird rechts oben ein Button zum Wech
 
 ## Testergebnisse archivieren {: #archive}
 
-Sie können die Ergebnisse von Tests archivieren. Wählen Sie dafür in der Administration [„Archivierung & Reporting“](../learningresources/Course_Archiving.de.md). Hier können Sie nun entweder alle Kursresultate von sämtlichen bewertbaren Kursbausteinen u.a. Tests herunterladen. 
+Sie können die Ergebnisse von Tests archivieren. Wählen Sie dafür in der Administration [„Archivierung & Reporting“](../learningresources/Course_Archiving.de.md). 
 
-Alternativ können Sie auch nur die Ergebnisse bestimmter Tests auswählen und nur diese speichern. Wählen Sie dafür die „Kursarchivierung“ -> „Teilarchive“ -> Archiv erstellen“ und markieren Sie den oder die gewünschten Test-Bausteine. Wählen Sie die Standard-Einstellungen oder passen Sie bestimmte Archivierungsoptionen an. Es wird eine Zip-Datei erstellt, die dann im Bereich Kursarchivierung für eine bestimmte Zeit, z.B. 10 Tage, bereitliegt und kopiert, heruntergeladen und gelöscht werden kann. 
+Dort können Sie alle Kursresultate von sämtlichen bewertbaren Kursbausteinen (u.a. Tests) herunterladen. Alternativ können Sie auch nur die Ergebnisse bestimmter Tests auswählen und nur diese speichern. Wählen Sie dafür die „Kursarchivierung“ -> „Teilarchive“ -> Archiv erstellen“ und markieren Sie den oder die gewünschten Test-Bausteine. Wählen Sie die Standard-Einstellungen oder passen Sie bestimmte Archivierungsoptionen an. 
+
+Es wird eine Zip-Datei erstellt, die dann im Bereich Kursarchivierung für eine bestimmte Zeit, z.B. 10 Tage, bereitliegt und kopiert, heruntergeladen und gelöscht werden kann. Für den Inhalt der zip-Datei gibt es 2 Varianten:
+
+* Das Archiv **Resultate** enthält detaillierte Testresultate für jede:n Teilnehmer:in in Form eines HTML-Dokuments und einer Excel-Datei mit den Rohdaten.
+* Die Option **"Resultate mit pdf"** erzeugt die gleiche zip-Datei, es werden jedoch zusätzlich noch pdf-Dateien mit den Ergebnissen ergänzt.<br>Achtung: Die Erstellung dieser zip-Datei kann je nach Anzahl der darin enthaltenen pdf-Dateien evtl. einige Zeit dauern.
 
 ![Tests archivieren](assets/Kurs_archivieren_20.jpg)
 

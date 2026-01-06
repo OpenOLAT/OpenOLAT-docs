@@ -5,6 +5,7 @@ When exporting tests, a distinction must be made between
 - export test **course** (Exam course)
 - export test **learning resource**
 - export single **questions**
+- export test **results**
 
 
 ## Export course {: #export_course}
@@ -121,7 +122,17 @@ If you have selected multiple questions from the question pool, these questions 
 
 ---
 
-## Further information
+
+## Export test results {: #export_results}
+
+tbd
+
+[To the top of the page ^](#test_export)
+
+---
+
+
+## Further information {: #further_information}
 
 [How do I procede when creating a test? >](../../manual_how-to/test_creation_procedure/test_creation_procedure.md)<br>
 [General information on tests >](../learningresources/General_Information_on_Tests.md)<br>
@@ -129,8 +140,8 @@ If you have selected multiple questions from the question pool, these questions 
 [Question types >](../learningresources/Test_question_types.md)<br>
 [Configure test questions >](Configure_test_questions.de.md)<br>
 [Configure test learning resources](Configure_tests.de.md)<br>
-[Test learning resource settings >](Test_settings.de.md)
-
+[Test learning resource settings >](Test_settings.de.md)<br>
+[Archive test results >](../learningresources/Course_Element_Test.md#archive)
 
 [To the top of the page ^](#test_export)
 
