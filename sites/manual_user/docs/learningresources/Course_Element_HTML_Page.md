@@ -16,7 +16,7 @@ The course element is used to display **texts, images and videos** (Knowledge Tr
 In the course element "HTML page", an **HTML file** is embedded as a **learning resource**.<br>
 You can design an HTML page in the **HTML editor**, which you can find in the tab "page content". The used files, as well as the HTML file itself, are put in the [Storage folder](../learningresources/Storage_folder.md) of the course. 
 
-## Example
+## Example {: #example}
 
 === "View in course"
 
@@ -40,7 +40,7 @@ You can design an HTML page in the **HTML editor**, which you can find in the ta
 
 
 
-## Tab Page content
+## Tab Page content {: #tab_page_content}
 
 Here you carry out the central configuration of this course element. There are three possibilities to embed a page's content in your course:
 
@@ -103,7 +103,7 @@ of a predefined character set (by default the same set will be used for content 
 
     As a rule, no changes are necessary in the "Layout" tab. The default settings are suitable for 90% of the courses.
 
-## The HTML editor
+## The HTML editor {: #html_editor}
 
 The **HTML editor Tiny MCE** is integrated at all points in OpenOlat where HTML pages are created and edited.
 
@@ -124,7 +124,7 @@ This externally developed editor is also open source. Further information can be
     For security reasons, not all HTML options can be made available. This applies in particular to integrated Javascript.
 
 
-## Elements and design of an HTML page
+## Elements and design of an HTML page {: #html_elements}
 
 The main available elements are described below.
 
@@ -220,10 +220,10 @@ Select whether the link should be displayed in the OpenOlat course content or in
     Do not open and save HTML pages that you have created with an external editor using the built-in HTML editor, as this may cause parts of the formatting to be lost. The OpenOlat HTML editor only contains the < body > area of an HTML page. If entries are to be made in the HTML < head >, this must be done in an external editor.
 
 
-## Differences: KB page - KB HTML page
+## Differences: Course element page - Course element HTML page {: #page_differences}
 
 
-|                        | KB page                       | KB HTML page                  |
+|                        | CE page                       | CE HTML page                  |
 | -----------------------| ------------------------------ | ------------------------------ |
 | Creation of the content | in Content Editor              | in HTML editor                 |
 | Design             | block-based approach          | HTML page                     |

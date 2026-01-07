@@ -125,7 +125,41 @@ If you have selected multiple questions from the question pool, these questions 
 
 ## Export test results {: #export_results}
 
-tbd
+### Test statistics
+
+One way to evaluate the test results is in statistical form. To do this, use the **"Test Statistics" button** in the "Participants" tab. The button is available to instructors and owners when they select a "Test" course element in run mode.
+
+![test_export_statistics1_v1_de.png](assets/test_export_statistics1_v1_de.png){ class="shadow lightbox"}
+
+* You can print out the various statistics on the test results (or "print" them to a PDF file) or download the raw data as an Excel file.
+* When you expand the sections of a test, you can view detailed statistics for each individual question. 
+
+![test_export_statistics2_v1_de.png](assets/test_export_statistics2_v1_de.png){ class="shadow lightbox"}
+
+### Test results of participants
+
+The **"Export results" button** creates a zip file containing all test results for all participants in the selected course module.
+
+![test_export_results1_v1_de.png](assets/test_export_results1_v1_de.png){ class="shadow lightbox"}
+
+If you have decided to create a zip file, you can specify a name for the zip file and choose one of the options offered for its contents.
+Two variants of a zip file can be created:
+
+* The **standard export** contains detailed test results for each participant in the form of an HTML document and an Excel file with the raw data.
+* The **"Advanced - with PDF"** option creates the same zip file, but also adds PDF files with the results. 
+
+![test_export_results2_v1_de.png](assets/test_export_results2_v1_de.png){ class="shadow lightbox"}
+
+Click on the **"Start export" button** to generate the zip file containing the test results. 
+
+Created zip files are listed in the lower section under **"Export history"**.
+
+Then open or unzip the created zip file to access the required files.
+
+!!! hint "Note"
+
+    There is also an option in the course administration to export or archive test results. For more information, see [Archiving test results](../learningresources/Course_Element_Test.md#archive).
+
 
 [To the top of the page ^](#test_export)
 

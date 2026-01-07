@@ -20,7 +20,7 @@ Der Kursbaustein bietet die Möglichkeit, Mitteilungen in der Kursstruktur einzu
 
 Während der Erstellung einer Mitteilung kann definiert werden, ob die Mitteilung zusätzlich per Mail an bestimmte Nutzergruppen des Kurses (Abonnierte, Kursbesitzer, Betreuer, Mitglieder oder Gruppen) erfolgen soll und ob die jeweilige Mitteilung sofort oder zu einem späteren Zeitpunkt versendet wird.
 
-## Konfiguration im Kurseditor Tab "Mitteilungs-Konfiguration"
+## Konfiguration im Kurseditor Tab "Mitteilungs-Konfiguration" {: #configuration_notification}
 
  **Anzeige:** Die maximale Anzahl Tage legt fest, wie lange (in Tagen) die
 Mitteilungen im Kurs angezeigt werden. Die maximale Anzahl Mitteilungen legt

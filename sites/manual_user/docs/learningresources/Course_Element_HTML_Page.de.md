@@ -16,7 +16,7 @@ Der Kursbaustein wird dazu verwendet, **Text, Bilder und Videos** zu präsentier
 Im Kursbaustein "HTML-Seite" ist eine **HTML-Datei als Lernressource**  eingebunden.<br>
 Die Gestaltung der HTML-Seite geschieht im **HTML-Editor**, der im Tab Seiteninhalt aufgerufen wird. Die verwendeten Dateien werden dabei im [Ablageordner](../learningresources/Storage_folder.de.md) des Kurses abgelegt. Auch die HTML-Datei selbst ist dort gespeichert.
 
-## Beispiel
+## Beispiel {: #example}
 
 === "Ansicht im Kurs"
     
@@ -40,7 +40,7 @@ Die Gestaltung der HTML-Seite geschieht im **HTML-Editor**, der im Tab Seiteninh
 
 
 
-## Tab Seiteninhalt
+## Tab Seiteninhalt {: #tab_page_content}
 
 Hier nehmen Sie die zentrale Konfiguration dieses Kursbausteins vor, indem Sie eine HTML-Datei als Lernressource einfügen. Sie haben verschiedene Möglichkeiten, den Inhalt mit Hilfe des Kursbausteins "HTML-Seite" in Ihren Kurs zu integrieren:
 
@@ -58,7 +58,7 @@ Unter "**Sicherheitseinstellungen**" können Sie festlegen, ob Verweise in Ihren
 
 Ferner können Sie definieren, **ob Betreuer die hinterlegte HTML-Datei bearbeiten dürfen**. Die Betreuer benötigen dafür keine Kursbesitzerrechte oder Zugang zum Kurseditor.
 
-## Tab Anzeige Inhalt
+## Tab Anzeige Inhalt {: #layout}
 
 Im Tab "**Anzeige Inhalt**" definieren Sie die Einstellungen für die Anzeige des Seiteninhalts. Hier legen Sie fest ob die Seite unverändert, oder optimiert für OpenOlat angezeigt werden soll. Der Anzeigemodus "Optimiert für OpenOlat" gestattet Ihnen z.B. das Kurslayout auf den Seiteninhalt anzuwenden, oder ein in den Kurs eingebundenes [Glossar](../learningresources/Using_Additional_Course_Features.de.md#glossary) für die Seite zu aktivieren.
 
@@ -102,7 +102,7 @@ Erlaubt die Kodierung des JavaScript Codes anhand eines vordefinierten Zeichensa
 
     In der Regel sind im Tab "Layout" keine Änderungen notwendig. Die Standardeinstellungen passen für 90% der Kurse.
 
-## Der HTML-Editor
+## Der HTML-Editor {: #html_editor}
 
 An allen Stellen in OpenOlat, an denen HTML-Seiten erzeugt und bearbeitet werden, ist der **HTML-Editor Tiny MCE** eingebunden.
 
@@ -125,7 +125,7 @@ Dieser extern entwickelte Editor ist ebenfalls Open Source. Weitere Informatione
 
 
 
-## Elemente und Gestaltung einer HTML-Seite
+## Elemente und Gestaltung einer HTML-Seite {: #html_elements}
 
 Nachstehend sind die wesentlichen verfügbaren Elemente beschrieben.
 
@@ -223,7 +223,7 @@ Wählen Sie, ob der Link im OpenOlat-Kursinhalt oder in einem neuen Fenster ange
 
 
 
-## Unterschiede: KB Seite - KB HTML-Seite
+## Unterschiede: Kursbaustein Seite - Kursbaustein HTML-Seite {: #page_differences}
 
 
 |                        | KB Seite                       | KB HTML-Seite                  |

@@ -13,7 +13,7 @@ Specialty / Note | OpenMeetings is an open source software. Server hosting is re
 
 
 
-## Tool-specific
+## Tool-specific {: #tool_specific}
 
 OpenMeetings has three different room types, all of which can also be used in
 OpenOlat:
@@ -32,7 +32,7 @@ Different functions are available depending on the room selected. The special th
 
     For more information about current features, see the URL <http://incubator.apache.org/openmeetings>  
   
-## Configuration in the course editor
+## Configuration in the course editor {: #editor_configuration}
 
 After adding the course element, you must first create an OpenMeetings room in the "Room" tab and configure the room settings. These settings can be adjusted later in the course editor as well as in the course unit.
 
@@ -50,7 +50,7 @@ Specifying a **maximum number of participants** limits the available seats in th
 
 Under "**Moderation**", you can define whether a moderator is required before the participants of a room can obtain further rights. If the option "**No moderation**" is selected, the first user who enters the room automatically receives moderation rights.  
   
-## Configuration in the course run (closed editor)
+## Configuration in the course run (closed editor) {: #course_run_configuration}
 
 ![openmeeting_courserun.png](assets/OPM_kursrun.png)
 

@@ -203,7 +203,7 @@ Sofern für in der Lernressource Test über den Korrektur-Workflow der Lernresso
 
 
 
-### Tab "E-Mail Bestätigung" 
+### Tab "E-Mail Bestätigung" {: #tab_email_confirmation}
 
 Aktivieren Sie die E-Mail Bestätigung, wenn die Lernenden nach Abgabe des Tests eine Bestätigung erhalten sollen. Eine Kopie der Mail kann auch an die Kursbesitzer:innen, zuständige Betreuer:innen oder externe E-Mail-Adressen verschickt werden.
 
@@ -270,7 +270,7 @@ Warum ist das so? Angenommen Sie könnten in einem eingebundenen Test noch Frage
 
 Die Frage ist also was man tun kann, wenn man doch mal einen Test aus triftigen Gründen ändern muss. Hierfür haben Sie folgende Möglichkeit:
 
-### Bereits bearbeitete Tests austauschen
+### Bereits bearbeitete Tests austauschen {: #tab_replace_tests}
 
 Wenn Sie einen Test nachträglich ändern möchten (z. B. neue Fragen hinzufügen oder fehlerhafte Antworten korrigieren), kopieren Sie zunächst die Lernressource Test im Autorenbereich und bearbeiten Sie die Kopie. Binden Sie diese anschliessend im gewünschten Kurs ein.
 
@@ -294,7 +294,7 @@ Nach dem Austausch erscheint beim Button "Ersetzen" auch der Link "Verlauf anzei
 ---
 
 
-## Tests einsehen und bewerten {: #evaluate}
+## Tests einsehen und bewerten {: #assess}
 
 Betreuer:innen und Kursbesitzer:innen haben im "[Bewertungswerkzeug](../learningresources/Assessment_tool_overview.de.md)" Zugriff auf alle bearbeiteten Tests. Das Bewertungswerkzeug finden Sie in der "Administration" des Kurses. Navigieren Sie zum gewünschten Kursbaustein Test. Im Tab  "Teilnehmer:innen" werden alle Kursteilnehmenden mit dem jeweiligen Bearbeitungsstand zu diesem Kursbaustein angezeigt und Sie erkennen in der Spalte "Status" ob eine Bewertung erforderlich ist. Auch werden offene Bewertungen bereits in der Übersicht unter "Offene Bewertungen angezeigt. 
 
@@ -350,9 +350,9 @@ Wurde die Test-Lernressource ausgewechselt, wird rechts oben ein Button zum Wech
 
 ## Testergebnisse archivieren {: #archive}
 
-Sie können die Ergebnisse von Tests archivieren. Wählen Sie dafür in der Administration [„Archivierung & Reporting“](../learningresources/Course_Archiving.de.md). 
+Sie können die Ergebnisse von Tests archivieren. Wählen Sie dafür in der Administration ["Archivierung & Reporting"](../learningresources/Course_Archiving.de.md). 
 
-Dort können Sie alle Kursresultate von sämtlichen bewertbaren Kursbausteinen (u.a. Tests) herunterladen. Alternativ können Sie auch nur die Ergebnisse bestimmter Tests auswählen und nur diese speichern. Wählen Sie dafür die „Kursarchivierung“ -> „Teilarchive“ -> Archiv erstellen“ und markieren Sie den oder die gewünschten Test-Bausteine. Wählen Sie die Standard-Einstellungen oder passen Sie bestimmte Archivierungsoptionen an. 
+Dort können Sie alle Kursresultate von sämtlichen bewertbaren Kursbausteinen (u.a. Tests) herunterladen. Alternativ können Sie auch nur die Ergebnisse bestimmter Tests auswählen und nur diese speichern. Wählen Sie dafür die "Kursarchivierung" -> "Teilarchive" -> "Archiv erstellen" und markieren Sie den oder die gewünschten Test-Bausteine. Wählen Sie die Standard-Einstellungen oder passen Sie bestimmte Archivierungsoptionen an. 
 
 Es wird eine Zip-Datei erstellt, die dann im Bereich Kursarchivierung für eine bestimmte Zeit, z.B. 10 Tage, bereitliegt und kopiert, heruntergeladen und gelöscht werden kann. Für den Inhalt der zip-Datei gibt es 2 Varianten:
 

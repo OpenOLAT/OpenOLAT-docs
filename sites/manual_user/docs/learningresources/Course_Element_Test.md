@@ -191,7 +191,7 @@ You can find more information on the topic of high scores [here](../learningreso
 [Beginning of test configuration section ^](#config)<br>
 [To the top of the page ^](#course_element_test)
 
-### Tab "Correctors"
+### Tab "Correctors" {: #tab_correctors}
 
 If correctors have been defined for the test in the learning resource via the correction workflow of the learning resource, an overview of the correctors and further information appears here. Changes can be made via a link to the learning resource of the test.
 
@@ -199,7 +199,7 @@ If correctors have been defined for the test in the learning resource via the co
 [To the top of the page ^](#course_element_test)
 
 
-### Tab "E-mail Confirmation" 
+### Tab "E-mail Confirmation" {: #tab_email_confirmation}
 
 Activate the e-mail confirmation if you want to confirm the submission of the test by e-mail. You can use different variables like name or score in the mail text. A copy of the mail can also be sent to the course owners, responsible coaches or external mail addresses.
 
@@ -262,7 +262,7 @@ Why is that? Assuming you could still add questions in an embedded test or mark 
 
 So the question is what you can do if you need to change a test for valid reasons. You have the following options:
 
-### Replacing tests that have already been edited
+### Replacing tests that have already been edited {: #tab_replace_tests}
 
 If you want to change a test retrospectively (e.g., add new questions or correct incorrect answers), first copy the Test learning resource in the authoring area and edit the copy. Then integrate it into the desired course.
 
@@ -286,7 +286,7 @@ After the replacement, the link "Show history" also appears next to the "Replace
 
 ---
 
-## View and assess tests {: #evaluate}
+## View and assess tests {: #assess}
 
 Access tests completed by course participants in the "[Assessment tool](../learningresources/Assessment_tool_overview.md)". The assessment tool can be found in the "Administration" of the course. Navigate to the desired course element Test. In the "Participants" tab, all course participants are displayed with the respective processing status for this course element and you can see in the "Status" column whether an assessment is required. Open reviews are also displayed in the overview under "Open reviews".
 
@@ -342,11 +342,22 @@ If the test learning resource has been replaced, a button for switching between 
 
 You can archive test results. To do this, select [Archiving & Reporting](../learningresources/Course_Archiving.md) in the administration area. Here you can download all course results from all assessable course elements, including tests.
 
-Alternatively, you can select only the results of certain tests and save only those. To do this, select “Course archiving” -> “Partial archives” -> “Create archive” and select the desired test element. Select the default settings or customize specific archiving options. A zip file will be created, which will then be available in the Course Archiving area for a certain period of time, e.g., 10 days, and can be copied, downloaded, and deleted. 
+There you can download all course results from all assessable course components (including tests). Alternatively, you can also select only the results of specific tests and save only those. To do this, select "Course archiving" -> "Subarchives" -> "Create archive" and select the desired test modules. Select the default settings or customize specific archiving options.
+
+A zip file is created, which is then available in the course archiving area for a certain period of time, e.g., 10 days, and can be copied, downloaded, and deleted. There are two variants for the content of the zip file:
+
+* The **Results** archive contains detailed test results for each participant in the form of an HTML document and an Excel file with the raw data.
+* * The option **"Results with PDF"** creates the same zip file, but also adds PDF files with the results.<br>Please note: Depending on the number of PDF files contained in the zip file, it may take some time to create.
+
 
 ![Tests archivieren](assets/Kurs_archivieren_20.jpg)
 
-It is still possible to download the raw data from tests via “[Test Statistics](../learningresources/Statistics_Test.md)” in the Administration area. Here you can also quickly access the graphical analysis of your test data. 
+It is still possible to download the raw data from tests via "[Test Statistics](../learningresources/Statistics_Test.md)" in the Administration area. Here you can also quickly access the graphical analysis of your test data.
+
+![Tests archivieren](assets/Kurs_archivieren_20.jpg)
+
+It is still possible to download the raw data from tests via "[Test Statistics](../learningresources/Statistics_Test.md)" in the Administration section. The graphical assessment can also be found here. 
+
 
 [To the top of the page ^](#course_element_test)
 
@@ -372,7 +383,7 @@ Tests can be used in the following scenarios, among others:
 * **Online exam**: Conducting exam-relevant online or e-exams
 
 
-### How to edit a test (Learners perspective)
+### How to edit a test (Learners perspective) {: #participate_as_learner}
 
 Let's switch to the learner's perspective.To start editing a test press "Start test". Answer the questions displayed and then click "Save answer" for each question. If generally visible, you can see in the left navigation which questions have already been answered, which questions have only been looked at and which have not been clicked at all.
 

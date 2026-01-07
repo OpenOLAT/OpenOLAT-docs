@@ -18,7 +18,7 @@ This course element allows you to embed notifications in your course structure. 
 
 During the creation of the notification it can be defined, if the message should be sent by email to certain user groups of the course (subscribers, course owners, coaches, members, groups) additionally.
 
-## Configuration in the course editor Tab "Notification configuration"
+## Configuration in the course editor Tab "Notification configuration" {: #configuration_notification}
 
  **Display:** The maximum number of days determines how long notifications shall be displayed in your course (in days). The maximum number of messages determines how many messages shall be displayed simultaneously in your course.
 

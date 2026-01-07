@@ -13,7 +13,7 @@ Spezialität / Hinweis | OpenMeetings ist eine OpenSource Software. Für die Nut
 
 
 
-## Tool Spezifisches
+## Tool Spezifisches {: #tool_specific}
 
 OpenMeetings verfügt über drei verschiedene Raumtypen, die alle auch in
 OpenOlat genutzt werden können:
@@ -32,7 +32,7 @@ Je nach Raumwahl stehen unterschiedliche Funktionen zur Verfügung. Kooperations
 
     Weitere Informationen zu aktuellen Features finden Sie unter der URL <http://incubator.apache.org/openmeetings>  
   
-## Konfiguration im Kurseditor
+## Konfiguration im Kurseditor {: #editor_configuration}
 
 Nach dem Hinzufügen des Kursbausteins muss zunächst im Tab "Raum" ein OpenMeetings Raum angelegt und die Raumeinstellungen konfiguriert werden. Diese Einstellungen können später sowohl im Kurseditor als auch im Kursun angepasst werden.
 
@@ -50,7 +50,7 @@ Die Angabe einer **maximalen Teilnehmerzahl** limitiert die verfügbaren Plätze
 
 Unter "**Moderation**" kann definiert werden, ob ein Moderator erforderlich ist, bevor die Teilnehmer eines Raums weitere Rechte erhalten können. Wird die Option "**Ohne Moderation**" gewählt, erhält der erster User der den Raum betritt automatisch Moderationsrechte.
 
-## Konfiguration im Kursrun (geschlossener Editor)
+## Konfiguration im Kursrun (geschlossener Editor) {: #course_run_configuration}
 
 ![openmeeting_kursrun.png](assets/OPM_kursrun.png)
 
