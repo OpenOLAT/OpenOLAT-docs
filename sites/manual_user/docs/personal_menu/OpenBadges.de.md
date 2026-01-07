@@ -1,4 +1,4 @@
-# Persönliche Werkzeuge: Badges {: #badges}
+# Persönliche Erfolge/Leistungen: Badges {: #badges}
 
 ![pers_menu_badges_v4_de.png](assets/pers_menu_badges_v4_de.png){ class="aside-right lightbox"}
 
