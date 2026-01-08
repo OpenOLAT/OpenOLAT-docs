@@ -9,14 +9,13 @@ In order to grant guests access the guest login has to be activated by the admin
 
 Generally, various learning resources, e.g. wikis, blogs, tests, videos or glossaries can be unlocked for guests.  
 
-## Course level
+## Course level {: #course_level}
 
 !!! warning "Attention"
 
     Guest access can only be activated for conventional courses, not for learning path courses.
 
-In a course, the course owner can set up the access configuration in the
-"Settings"→ "Access" tab so that guests can also access the course. The offer style must be activated as a setting and guest access must be selected in a second step.
+In a course, the course owner can set up the access configuration in the "Settings"→ "Access" tab so that guests can also access the course. The offer style must be activated as a setting and guest access must be selected in a second step.
 
 ![guest access](assets/Gastzugang_en.png)
 
@@ -37,7 +36,7 @@ If you want to give a guest a direct access to a course, you can send him/her th
 ![Info page](assets/Gast-link_20.jpg)
 
 
-!!! tip "Tip: Alternative to guests"
+!!! tip "Hint: Alternative to guests"
 
     If you want to invite someone to an OpenOlat course who does not yet have an OpenOlat account, you can alternatively use the option "Invite external members" in the [member administration](../learningresources/Members_management.md). The invited person will then receive a registration link and limited access to OpenOlat, but has more possibilities than a guest. 
   

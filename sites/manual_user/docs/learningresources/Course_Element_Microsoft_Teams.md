@@ -12,20 +12,20 @@ Assessable | no
 Specialty / Note | Microsoft Teams is commercial software. To use the course element, a separate license and server hosting is required.
 
 
-## Software functions
+## Software functions {: #software_functions}
 
 Microsoft Teams enables virtual rooms for synchronous meetings with webcam and audio support.
 
 
-## System requirements
+## System requirements {: #system_requirements}
 
 MS Teams can be used both as an app and in the MS Edge browser.
   
-## Configure room with closed course editor
+## Configure room with closed course editor {: #closed_editor_configuration}
 
 In the course, course owners and tutors can add new meetings in the previously created course element Microsoft Teams in the "**Meeting management**" via "**Add online meeting**".
 
-### The following variants are distinguished when creating online meetings:
+### The following variants are distinguished when creating online meetings: {: #meeting_variants}
 
 * Add single online meeting
 * Add permanent reservation
@@ -34,7 +34,7 @@ In the course, course owners and tutors can add new meetings in the previously c
 
 The variants differ only in the creation of the dates. Separate online appointments/reservations are created, which can then be edited in the "**Meeting management**" tab via the "**Edit**" link.
 
-## Add online meeting: The settings in detail
+## Add online meeting: The settings in detail {: #add_meeting}
 
 ### Configuration Online Meeting
 
@@ -63,11 +63,11 @@ In the configuration of a room, both during the creation as well as later when e
 
 Via the tab "**Online appointments**" you get access to a specific appointment or room.
 
-## Calendar display
+## Calendar view {: #calender_display}
 
 In addition, the online appointments created in the course element will be automatically entered in the course-specific calendar and subscribed to by the participants. You can also quickly move from the calendar to the appointment-based space.
 
-## Participant perspective
+## Participant perspective {: #participant_perspective}
 
 If a course participant calls up an MS Teams course element, they will see an overview of the current, the expired and the permanent rooms, if available. A click on "Select" leads to the login area of the respective room.
 

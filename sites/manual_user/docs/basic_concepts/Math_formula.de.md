@@ -2,7 +2,7 @@
 
 Formeln können in OpenOlat an verschiedenen Stellen eingefügt werden. Verwendet wird dabei entweder der HTML-Editor oder Content-Editor. 
 
-## Einfügen einer Formel per HTML-Editor
+## Einfügen einer Formel per HTML-Editor {: #insert_via_html}
 
 1. Man kann mathematische Formeln über `Einfügen> Mathematische Formel einfügen` im Kontextmenü des HTML-Editors oder direkt über den Formel-Button, falls aktiviert, hinzufügen.
 
@@ -29,7 +29,7 @@ Mathematische Formeln können in folgenden Kursbausteinen und Lernressourcen per
 
     Wortzählung bei Aufgaben: Die mathematische Formel zählt als ein Wort, unabhängig von Länge und Komplexität.
 
-## Einfügen einer Formel per Content Editor im Portfolio 2.0
+## Einfügen einer Formel per Content Editor im Portfolio 2.0 {: #insert_formula}
 
 
 1. Öffnen oder erstellen Sie einen Portfolio Eintrag und öffnen Sie den Inhaltseditor. Klicken Sie auf "Inhalt hinzufügen" und Sie erhalten u.a. die Möglichkeit den Formeleditor auszuwählen.

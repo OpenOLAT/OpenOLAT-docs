@@ -10,12 +10,11 @@ Damit Gäste Zugang erhalten, muss der Gastlogin vom Administrator der OpenOlat 
 
 Grundsätzlich können diverse Lernressourcen z.B.  Wikis, Blogs, Tests, Videos oder Glossare für Gäste freigeschaltet werden.  
 
-## Kursbereich 
+## Kursbereich {: #course_level}
 
 !!! warning "Hinweis"
 
-    Der Gastzugang ist nur bei herkömmlichen Kursen, nicht bei Lernpfad Kursen
-    aktivierbar.
+    Der Gastzugang ist nur bei herkömmlichen Kursen, nicht bei Lernpfad Kursen aktivierbar.
 
 In einem herkömmlichen Kurs können Kursbesitzende die Zugangskonfiguration in den
 "Einstellungen"→ Tab "Freigabe" so einrichten, dass auch Gäste Zugriff auf den Kurs erhalten. Als Einstellung muss dabei die Angebotsart aktiviert und in einem zweiten Schritt der Gastzugang ausgewählt werden.

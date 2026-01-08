@@ -1,4 +1,4 @@
-# Navigation
+# Navigation {: #navigation}
 
 Nach dem Login gelangen Sie entweder auf
 
@@ -12,7 +12,7 @@ Nach dem Login gelangen Sie entweder auf
 
     Falls Sie den Tab "Portal" nicht sehen, wurde diese Seite von ihrem Systemadministrator systemweit abgeschaltet.
 
-## Globale Navigation
+## Globale Navigation {: #global_navigation}
 
 In der oberen Navigationsleiste generell verfügbar ist der [Chat](Chat.de.md) (Instant Messenger). Welche weiteren Elemente in der Navigationsleiste rechts oben angezeigt werden, ist abhängig von Ihren Einstellungen.
 

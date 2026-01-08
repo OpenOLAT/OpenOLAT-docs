@@ -24,7 +24,7 @@ For pages that require authentication and whose source is hidden, you can activa
 
 It is recommended to use this course element when planning to include pages containing database queries (e.g. research tools, online exercises, etc.). It is only possible to link external pages via HTTP or HTTPS protocols.
 
-## External page: configuration
+## External page: configuration {: #external_page_config
 
 **URL:** You have to fill in this field. Here you indicate the site on which the desired external learning contents can be found (e.g._http://www.server.com/page.html_).
 

@@ -2,7 +2,7 @@
 
 Formulas can be inserted in OpenOlat in various places. Either the HTML editor or the content editor is used.
 
-## Insert math formula via HTML Editor
+## Insert math formula via HTML Editor {: #insert_via_html}
 
 1. You insert the math formula via `Insert>Insert math formula` in the context menu of the html editor or directly via formula button, if available. A new popup window will open.
 
@@ -26,17 +26,17 @@ Mathematical formulas can be inserted in the following course elements and learn
 * Learning resource Blog
 * Learning resource Test   
 
-!!! info "Info: Wordcounting"
+!!! info "Note"
 
-    The math formular counts as one word, regardless of length and complexity.
+    Word count for tasks: The mathematical formula counts as one word, regardless of length and complexity.
 
-## Insert a formula in Content Editor in the Portfolio 2.0
+## Insert a formula in Content Editor in the Portfolio 2.0 {: #insert_formula}
 
 1.  Open or create a portfolio entry and open the Content Editor. Click on add Content Block and (among other things) you get the possibility to select the formula editor.
 
     ![content editor question type](assets/mathjax-content-editor.jpg){class="shadow"}
 
-2. Choose `Formula` in the menu.
+2. Select `Mathematic Formula` in the menu.
 
 3. The graphical formula editor opens. Now you can create your ![formula](assets/Formeleditor_Portfolio_16_de.png){class="shadow"}.
 

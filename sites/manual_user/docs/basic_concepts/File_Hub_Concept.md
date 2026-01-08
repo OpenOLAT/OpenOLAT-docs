@@ -1,12 +1,12 @@
-# File Hub Concept
+# File Hub Concept {: #file_hub_concept}
 
-## What is the File Hub?
+## What is the File Hub? {: #what}
 
 As of Release 19, a file hub is available in OpenOlat as a **global file browser**, in which **all folders available in OpenOlat** are listed. (Course folders, group folders, archive folders, etc.) 
 
 ![file_hub_pers_menu_storage_locations_v3_de.png](assets/file_hub_pers_menu_storage_locations_v3_de.png){ class="shadow lightbox"}
 
-## Features of the File Hub
+## Features of the File Hub {: #features}
 
 * **Multi file upload** via drag & drop
 * If files are transferred to another location in the File Hub, they are **copied** in each case. <br>
@@ -14,12 +14,14 @@ As of Release 19, a file hub is available in OpenOlat as a **global file browser
 * Only folders in the File Hub to which the person currently logged in has **access permissions** are displayed.
 
 
-## Structure
+## Structure {: #structure}
 
 ![file_hub_concept_overview_v3_de.png](assets/file_hub_concept_overview_v3_de.png){ class="shadow lightbox"}
 
 
-## How do I open the file hub
+## How do I open the file hub {: #open_file_hub}
+
+### The File Hub in the personal menu {: #in_personal_menu}
 
 The folders and files are displayed in the File Hub according to individual, personal permissions, which is why the File Hub is also one of the **personal tools** and can be found in the **personal menu**.
 
@@ -28,15 +30,15 @@ The folders and files are displayed in the File Hub according to individual, per
 ![file_hub_pers_menu_marked_v3_de.png](assets/file_hub_pers_menu_marked_v3_de.png){ class=" shadow lightbox" }
 
 
-### The File Hub in other contexts
+### The File Hub in other contexts  {: #in_other contexts}
 
 The File Hub is displayed in many other places whenever **selected from files** is to be selected.<br>
 To **display the contents of a folder**, you can find the File Hub in the course administration under **Administration > Files**. (From release 19)
 
 
-## Sources
+## Sources {: #sources}
 
-### Document pool
+### Document pool {: #document_pool}
 
 The [Document pool](../../manual_admin/administration/Modules_Document_pool.md) is a document management system within OpenOlat.
 
@@ -50,18 +52,18 @@ In contrast to the File Hub, the document pool is a sub-area, a "partial contain
 In contrast, all folders and files in OpenOlat, including those in the [Document pool](../../manual_admin/administration/Modules_Document_pool.md), are managed comprehensively in the File Hub.
 
 
-### Groups
+### Groups  {: #groups}
 
 The [Group tools](../groups/Using_Group_Tools.md) also include folders that are only available to members of a specific group.
 The group folders can also be accessed via File Hub, provided you have the necessary authorization (group membership).
 
 
-### Course archive
+### Course archive {: #course_archive}
 
 In [course archives](../learningresources/Course_Archiving.md), participant data is stored separately from courses in zip files. The files and subfolders contained therein can be displayed in the File Hub.
 
 
-### Courses
+### Courses {: #courses}
 
 The files used in a course are located in a folder belonging to the course, the [storage folder](../learningresources/Storage_folder.md).<br>
 Up to Release 18, you can access this under **Course administration > Storage folder**.<br>
@@ -70,19 +72,24 @@ As of Release 19, access has been renamed and can be found under **Course admini
 The [storage folder](../learningresources/Storage_folder.md) is course-specific. In order to also be able to use files that are used several times in different courses, a **resource folder** can also be included in the course. 
 
 
-### Personal files
+### Personal files {: #personal_files}
 
 Only folders to which the person logged in has access authorization are displayed in the File Hub. Therefore, for example, the [Personal folder](../personal_menu/Personal_folders.md) can also be accessed via File Hub. (The files there can only be viewed by the person who is currently logged in).
+
+
+### Ressourcenordner {: #resource_folder}
+
+[Resource folders](../learningresources/Resource_Folder.en.md) serve as containers for files that are used multiple times across courses.
 
 * They are considered learning resources and are therefore listed in the authoring area. They can also be created and edited there. (Authoring area > "Create" button top right)
 * Resource folders can be maintained centrally in the authoring area. Resource folders have their own owners. (They can therefore also be maintained by someone other than the course owner who integrates the resource folder into a course).
 * The same resource folder can be included in different courses. If files are changed in the resource folder, they are changed in all courses.
-* 1 resource folder can be integrated per course. 
+* One resource folder can be integrated per course. 
 * Subfolders are possible within the resource folder.
 
 
 
-## Setting up the access conditions
+## Setting up the access conditions {: #access_conditions}
 
 As mentioned above, the File Hub only displays folders and files for which access permission has been granted. Access permissions are granted/set up **in the respective sources**.
 
@@ -95,7 +102,7 @@ Accordingly, only folders for which you are the course owner or which have been 
 
 
 
-## Further information
+## Further information {: #further_information}
 
 [File Hub in the personal menu](../personal_menu/File_Hub.md)<br>
 [Media Center](../personal_menu/Media_Center.md)<br>

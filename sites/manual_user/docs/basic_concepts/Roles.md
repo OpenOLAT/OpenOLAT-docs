@@ -23,7 +23,6 @@ Organisation roles include organisation-wide authorizations (as definied for the
 * **Role manager**: Role administrators have access to user management (separate menu item in the top navigation bar) and can view and organize all users in their own organizations. Role administrators can change, assign, and remove all user roles except for the roles of administrator and system administrator.
 * **Administrator**: The administrator has module and function management and has access to all areas of the system e.g. user management, catalog management, curriculum management, lectures management, except the administration page. This role can be limited to an organization. The administrator can delete users and also grant other people the right to manage the catalogue.
 * **Group manager**: The group manager has access to the "Group" section and in there the tab [Group Administration](../area_modules/Group_Management.md). 
-* **Question bank manager**: Question bank managers has access to the [Question Bank](../area_modules/Question_Bank.md). In there, they are able to open the administration section.
 * **Pool manager**: Pool administrators have access to the [Question pool](../area_modules/Question_Bank.md). In the question pool, they can open the Administration section.
 * **System administrator**: The system administrator has access to the administration side and is responsible for the technical system configuration and its monitoring. This is a global role that is not tied to an organization.
 
@@ -40,7 +39,7 @@ Organisation roles include organisation-wide authorizations (as definied for the
 
 ---
 
-## Roles in an organization {: #orgunit}
+## Roles in an organizational unit {: #orgunit}
 
 If the optional additional module "Organizational units" is activated, roles can also only be assigned for a specific organizational unit.
 
@@ -93,8 +92,7 @@ Within a course, we distinguish between the 3 course roles:
 
 ![Course rights](assets/course_rights.png){ class="shadow" }
 
-In addition to the course-related roles, depending on the configuration,
-[guests](guest_access.md) can also have access to a course without an OpenOlat account.
+In addition to the course-related roles, depending on the configuration, [guests](guest_access.md) can also have access to a course without an OpenOlat account.
 
 !!! success "Role change"
   
@@ -106,7 +104,7 @@ In addition to the course-related roles, depending on the configuration,
 
 ---
 
-### Roles in groups {: #groups} 
+## Roles in groups {: #groups} 
 
 If groups are used in courses, the members can be registered either as participants or as group coaches. 
 
@@ -116,9 +114,80 @@ The group coach has basically the same rights as the course coach, but only for 
 * **Group members**:<br>
 The group participant has the same rights as the course participant.
 
-In the rights management of the course, further *rights packages* can be assigned to either group participants or group coaches.
+In the course's rights management, more extensive *rights packages* can be assigned to course coaches, course participants, group participants, or group coaches (specific to each group).
 
 ![Course rights additional configuration](assets/memebers_managent.png)
+
+![1_green_24.png](assets/1_green_24.png){ class=" aside-left-lg" }
+**Group management**<br>
+This function is available when the checkbox under "Administration > Member Management > Groups" is activated. Existing groups that are already members of the course can be changed and removed. Additional groups (to which you have access rights) can be added, or new groups can be created.
+
+[More about groups >](../groups/index.md)<br>
+[More about the group administration >](../groups/Group_Administration.md)
+
+
+![2_green_24.png](assets/2_green_24.png){ class=" aside-left-lg" }
+**Member management**<br>
+This function is available when the checkbox under the "Administration" icon is activated. The available options correspond to those of the course owners. (Please note: To add new members to the course, all registered users can be viewed.)
+
+Note: The "Group Management" option described above is part of member management, even if the "Group Management" option is not activated.
+
+[More about member management >](../learningresources/Members_management.md)
+
+
+![3_green_24.png](assets/3_green_24.png){ class=" aside-left-lg" }
+**Course editor**<br>
+This function is available when the checkbox under the "Administration" icon is activated. Course members (e.g., coaches) can be granted access to the course editor. This allows them to edit this course and configure or add course elements. However, this authoring right is limited. No new courses or learning resources can be created.<br>
+**Note:** 
+A course for which you have been granted editing rights but do not own does not appear in the author area. (Provided you otherwise have author rights and access to the author area.) To edit it, go to the course in the main menu under "Courses" instead. The same rule applies here: the course is only displayed to coaches and participants if it has been published by the owner.
+
+[More about the course editor >](../learningresources/General_Configuration_of_Course_Elements.md)
+
+
+![4_green_24.png](assets/4_green_24.png){ class=" aside-left-lg" }
+**Data archiving**<br>
+This feature is available when the checkbox under the "Administration" icon is selected. The available options correspond to those of the course owner.
+
+[More about Course Archiving >](../learningresources/Course_Archiving.md)
+
+
+![5_green_24.png](assets/5_green_24.png){ class=" aside-left-lg" }
+**Assessment tool**<br>
+This function is available when the checkbox under the "Administration" icon is activated. 
+The assessment tool is part of the basic equipment of all caregivers. It can also be made available to other people here under the "Administration" icon.
+
+[More about assessment tool >](../learningresources/Assessment_tool_overview.md)
+
+
+![6_green_24.png](assets/6_green_24.png){ class=" aside-left-lg" }
+**Glossary tool**<br>
+The glossary function can be displayed as an icon in the toolbar. To make the icon appear there, the view must be activated under **Administration > Settings > Tab Toolbar** and a glossary must be selected or created under **Administration > Settings > Tab Options**.
+
+If the "Glossary tool" is activated here in the member management section of a course under "Rights," the relevant group members can add and edit glossary entries by clicking on the glossary icon in the toolbar. 
+
+If no glossary has been created yet (glossary icon not yet visible in the toolbar), access will not be possible even if the checkbox is activated. In this case, access to the course editor must first be granted so that a glossary can be created there under **Administration > Settings > Toolbar tab and Options tab**.
+
+[More about the glossary >](../learningresources/Glossary.md)
+
+
+![7_green_24.png](assets/7_green_24.png){ class=" aside-left-lg" }
+**Statistics**<br>
+This feature is available when the checkbox under the "Administration" icon is selected. The available options correspond to those of the course owner.
+
+[More about Course Statistics >](../learningresources/Statistics_Course.md)
+
+
+![8_green_24.png](assets/8_green_24.png){ class=" aside-left-lg" }
+**Assessment mode**<br>
+This feature is available when the checkbox under the "Administration" icon is selected. The available options correspond to those of the course owner.
+
+[More about Assessment Management >](../learningresources/Assessment_Management.md)
+
+
+![9_green_24.png](assets/9_green_24.png){ class=" aside-left-lg" }
+**Course data bank**<br>
+This function is available when the checkbox under the "Administration" icon is activated. The available options correspond to those of the course owners. Here you can create, reset, delete, and export course databases.
+
 
 !!! warning "Course/Group Roles"
 

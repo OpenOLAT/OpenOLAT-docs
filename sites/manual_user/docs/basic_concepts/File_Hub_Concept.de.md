@@ -1,15 +1,15 @@
-# Konzept des File Hub
+# Konzept des File Hub {: #file_hub_concept}
 
 
 
-## Was ist der File Hub?
+## Was ist der File Hub? {: #what}
 
 Ab Release 19 steht in OpenOlat ein File Hub als **globaler Dateibrowser** zur Verfügung, in dem **alle in OpenOlat vorhandenen Ordner** aufgelistet sind. (Kursordner, Gruppenordner, Archivordner, usw.) 
 
 ![file_hub_pers_menu_storage_locations_v3_de.png](assets/file_hub_pers_menu_storage_locations_v3_de.png){ class="shadow lightbox"}
 
 
-## Merkmale des File Hubs
+## Merkmale des File Hubs {: #features}
 
 * **Multi-File-Upload** per drag & drop
 * Werden im File Hub Dateien an einen anderen Ort übernommen, werden sie jeweils **kopiert**. <br>
@@ -17,16 +17,16 @@ Ab Release 19 steht in OpenOlat ein File Hub als **globaler Dateibrowser** zur V
 * Es werden nur Ordner im File Hub angezeigt, auf die die aktuell eingeloggte Person **Zugriffsberechtigungen** hat.
 
 
-## Struktur
+## Struktur {: #structure}
 
 
 ![file_hub_concept_overview_v3_de.png](assets/file_hub_concept_overview_v3_de.png){ class="shadow lightbox"}
 
 
 
-## Wie öffne ich den File Hub?
+## Wie öffne ich den File Hub? {: #open_file_hub}
 
-### Der File Hub im persönlichen Menü
+### Der File Hub im persönlichen Menü {: #in_personal_menu}
 
 Die Ordner und Dateien werden im File Hub entsprechend individuellen, persönlichen Berechtigungen angezeigt, deshalb gehört der File Hub auch zu den **persönlichen Werkzeugen** und ist im **persönlichen Menü** zu finden.
 
@@ -36,16 +36,16 @@ Die Ordner und Dateien werden im File Hub entsprechend individuellen, persönlic
 
 
 
-### Der File Hub in anderen Zusammenhängen
+### Der File Hub in anderen Zusammenhängen {: #in_other_contexts}
 
 Der File Hub wird an an vielen weiteren Stellen immer dann angezeigt, wenn **aus Dateien ausgewählt** werden soll.<br>
 Zur **Anzeige eines Ordnerinhalts** finden Sie den File Hub zum Beispiel in der Kursadministration unter **Administration > Dateien**. (Ab Release 19)
 
 
 
-## Quellen
+## Quellen  {: #sources}
 
-### Dokumentenpool
+### Dokumentenpool {: #document_pool}
 
 Der [Dokumentenpool](../../manual_admin/administration/Modules_Document_pool.de.md) ist eine Dokumentenverwaltung innerhalb OpenOlat.
 
@@ -59,18 +59,18 @@ Der Dokumentenpool ist im Unterschied zum File Hub ein Teilbereich, ein "Teil-Be
 Im File Hub werden dagegen umfassend alle Ordner und Dateien in OpenOlat verwaltet, auch die des [Dokumentenpools](../../manual_admin/administration/Modules_Document_pool.de.md).
 
 
-### Gruppen
+### Gruppen {: #groups}
 
 Zu den [Gruppenwerkzeugen](../groups/Using_Group_Tools.de.md) gehören auch Ordner, die nur für die Mitglieder einer bestimmten Gruppe zur Verfügung stehen.
 Auf die Gruppenordner kann auch via File Hub zugegriffen werden, sofern die Berechtigung dazu vorhanden ist (Gruppenmitgliedschaft). 
 
 
-### Kursarchiv
+### Kursarchiv {: #course_archive}
 
 In [Kursarchiven](../learningresources/Course_Archiving.de.md) werden Teilnehmerdaten separat von Kursen in zip-Dateien aufbewahrt. Die darin enthaltenen Dateien und Unterordner können im File Hub angezeigt werden.
 
 
-### Kurse
+### Kurse {: #courses}
 
 Die in einem Kurs verwendeten Dateien befinden sich in einem zum Kurs gehörenden Ordner, dem [Ablageordner](../learningresources/Storage_folder.de.md).<br>
 Bis Release 18 haben Sie darauf Zugriff unter **Kursadministration > Ablageordner**.<br>
@@ -79,12 +79,12 @@ Ab Release 19 ist der Zugriff umbenannt und unter **Kursadministration > Dateien
 Der [Ablageordner](../learningresources/Storage_folder.de.md) ist kursspezifisch. Um ausserdem auch mehrfach in verschiedenen Kursen genutzte Dateien verwenden zu können, kann ergänzend ein **Ressourcenordner** im Kurs eingebunden werden. 
 
 
-### Persönliche Dateien
+### Persönliche Dateien {: #personal_files}
 
 Es werden im File Hub nur Ordner angezeigt, auf die die eingeloggte Person auch Zugriffsberechtigung hat. Deshalb kann z.B. auch auf den [Persönlicher Ordner](../personal_menu/Personal_folders.de.md) via File Hub zugegriffen werden. (Die Dateien dort sind ausschliesslich für die gerade eingeloggte Person einsehbar.)
 
 
-### Ressourcenordner
+### Ressourcenordner {: #resource_folder}
 
 [Ressourcenordner](../learningresources/Resource_Folder.de.md) dienen als Behälter für kursübergreifend mehrfach genutzte Dateien.
 
@@ -96,7 +96,7 @@ Es werden im File Hub nur Ordner angezeigt, auf die die eingeloggte Person auch 
 
 
 
-## Einrichten der Zugriffsbedingungen
+## Einrichten der Zugriffsbedingungen {: #access_conditions}
 
 Wie oben bereits erwähnt, werden im File Hub nur Ordner und Dateien angezeigt, auf die eine Zugriffsberechtigung besteht. Das Erteilen/Einrichten der Zugriffsberechtigungen geschieht **in den jeweiligen Quellen**.
 
@@ -107,7 +107,7 @@ Beispiel Ablageordner<br>
 Im Ablageordner eines Kurses werden Dateien aus den Kursbausteinen des Kurses abgelegt. Die Menü-Option "Ablageordner" in der Kursadministration wird standardmässig nur den Kursbesitzer:innen angezeigt, die als Autor:innen den Kurs bearbeiten können. Entsprechend werden im File Hub auch nur Ablageordner angzeigt, bei denen man selbst Kursbesitzer:in ist oder die von anderen Kursbesitzer:innen in den Kurseinstellungen freigegeben wurden.
 
 
-## Weitere Informationen
+## Weitere Informationen {: #further_information}
 
 [File Hub im persönlichen Menü](../personal_menu/File_Hub.de.md)<br>
 [Media Center](../personal_menu/Media_Center.de.md)<br>
