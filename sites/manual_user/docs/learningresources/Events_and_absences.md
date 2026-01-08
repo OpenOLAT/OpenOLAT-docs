@@ -68,6 +68,8 @@ Example: An event lasts 2 hours, divided into 4 thematic units (4 x 0.5 hours).
 The online meeting takes over people and descriptions from the event (people, title, time, etc.).
 Learners can access it via the calendar or the ‘Events’ icon in the toolbar.
 
+**Subjects**: Here you can assign the event to one or more terms from a stored taxonomy. This makes it easier to find the event later.
+
 **Lecturers**: A course coach must be selected for each event. Only the selected course coach can carry out attendance checks. (Only a person who also has the role of "Coach" can be added as a lecturer.) If a course owner also wishes to take on this role, they must additionally register as a course coach for the course.
 
 **Description**: Here you can optionally add a description for the event.

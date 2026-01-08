@@ -39,7 +39,7 @@ Im Folgenden wird die Ansicht der Termine und Absenzen für **Kursbesitzer:innen
 
 ### Termine anzeigen {: #display_events}
 
-Im Tab "Termine" können dem Kurs Termine hinzugefügt und nach unterschiedlichen Kriterien gefiltert angezeigt werden. Um Details zu einem Termin anzuzeigen, klicken Sie auf das + zu Beginn der betreffenden Zeile.
+Im Tab "Termine" können dem Kurs Termine hinzugefügt und nach unterschiedlichen Kriterien gefiltert angezeigt werden. Wurde der Termin z.B. Fachbereichen zugeordnet (Taxonomie), kann nach diesen gefiltert werden. Um Details zu einem Termin anzuzeigen, klicken Sie auf das + zu Beginn der betreffenden Zeile.
 
 Im 3-Punkte Menü am Ende jeder Zeile finden Sie weitere Optionen für einen Termin. Hier können Sie den Termin bearbeiten, kopieren, löschen, als Prüfung markieren, PDF-Listen erstellen sowie weitere Downloads generieren. Auch können erledigte Termine wieder geöffnet werden.
 
@@ -78,6 +78,8 @@ Es öffnet sich ein Popup zur Erfassung aller Angaben zum Termin.
  **Online Meeting**: Soll der Termin online stattfinden, kann das Meeting direkt von hier aus organisiert werden. Man hat die Möglichkeit, aus einem Termin ein BigBlueButton-, Teams- oder z.B. Zoom-Meeting zu starten und es auch später wieder über "Termine" abzurufen.
  Das Online Meeting übernimmt dabei Personen und Beschreibungen aus dem Termin (Personen, Titel, Zeit...).
 Lernende haben Zugriff über den Kalender oder das Icon "Termine" in der Toolbar.
+
+**Fachbereich**: Hier können Sie den Termin einem oder mehreren Begriffen einer hinterlegten Taxonomie zuordnen. Dadurch kann der Termin dann schneller gefunden werden.
 
 **Dozent:innen**: Für jeden Termin muss ein:e Kursbetreuer:in ausgewählt werden. Nur die ausgewählten Kursbetreuer:innen können die Anwesenheitskontrolle durchführen. (Als Dozent:in kann nur eine Person hinzugefügt werden, die auch die Rolle "Betreuer:in" besitzt.) Möchte ein:e Kursbesitzer:in ebenfalls diese Funktion übernehmen, muss er/sie sich zusätzlich als Kursbetreuer:in in den Kurs eintragen.
 
