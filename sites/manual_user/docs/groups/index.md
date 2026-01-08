@@ -8,6 +8,7 @@
     * [Leave a group](Leave_a_Group.md)
     * [Using Group Tools](Using_Group_Tools.md)
     * [LTI Sharing](LTI_Share_groups.md)
+    * [Roles in groups](../basic_concepts/Roles.md#groups)
 
     For authorized persons with administrative tasks
 

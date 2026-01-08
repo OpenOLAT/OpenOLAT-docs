@@ -107,7 +107,7 @@ Neben den kursbezogenen Rollen können in herkömmlichen Kursen auch [Gäste](gu
 
 ## Rollen in Gruppen {: #groups} 
 
-Werden in Kursen Gruppen verwendet, können die Mitglieder entweder als Gruppenteilnehmer:innen oder Gruppenbetreuer:innen eingetragen werden.
+Werden in Kursen Gruppen verwendet, können die Mitglieder dort entweder als Gruppenteilnehmer:innen oder Gruppenbetreuer:innen eingetragen werden.
 
 * **Gruppenbetreuer:in**:<br>
 Gruppenbetreuer:innen haben praktisch die gleichen Rechte wie die Rolle Kursbetreuer:in, jedoch nur für ihre Gruppe. Sie haben im Kurs also Zugriff auf das Bewertungswerkzeug und die Test und Fragebogen Statistik. Im Bewertungswerkzeug sehen sie jedoch nur die Teilnehmer ihrer eigenen Gruppe.
@@ -115,9 +115,80 @@ Gruppenbetreuer:innen haben praktisch die gleichen Rechte wie die Rolle Kursbetr
 * **Gruppenteilnehmer:in**:<br>
 Gruppenteilnehmer:innen haben die gleichen Rechte wie die Rolle Kursteilnehmer:in.
 
-Im Rechtemanagement des Kurses können weitergehende *Rechtepakete* entweder an Gruppenteilnehmer:innen oder Gruppenbetreuer:innen vergeben werden.
+Im Rechtemanagement des Kurses können weitergehende *Rechtepakete* an Kursbetreuer:innen, Kursteilnehmer:innen, Gruppenteilnehmer:innen oder Gruppenbetreuer:innen (spezifisch je Gruppe) vergeben werden.
 
-![Zusätzliche Rechte im Kurs konfigurieren](assets/memebers_managent_DE.png){ class="shadow" }
+![roles_membermanagement_rights_v1_de.png](assets/roles_membermanagement_rights_v1_de.png){ class=" shadow lightbox" }
+
+![1_green_24.png](assets/1_green_24.png){ class=" aside-left-lg" }
+**Gruppenverwaltung**<br>
+Diese Funktion wird bei aktivierter Checkbox unter "Administration > Mitgliederverwaltung > Gruppen" zur Verfügung gestellt. Es können bestehende Gruppen, die bereits Mitglied im Kurs sind, geändert und entfernt werden. Weitere Gruppen (auf die Sie Zugriffsrechte haben) können hinzugefügt oder neue Gruppen erstellt werden.
+
+[Mehr zu Gruppen >](../groups/index.de.md)<br>
+[Mehr zur Gruppenadministration >](../groups/Group_Administration.de.md)
+
+
+![2_green_24.png](assets/2_green_24.png){ class=" aside-left-lg" }
+**Mitgliederverwaltung**<br>
+Diese Funktion wird bei aktivierter Checkbox unter dem Icon "Administration" zur Verfügung gestellt. Die verfügbaren Optionen entsprechen denen der Kursbesitzer:innen. (Achtung: Um neue Mitglieder dem Kurs hinzuzufügen, können alle registrierten Benutzer:innen eingesehen werden.)
+
+Hinweis: Die vorstehend beschriebene Option "Gruppenverwaltung" ist Bestandteil der Mitgliederverwaltung, auch wenn die Option "Gruppenverwaltung" nicht aktiviert ist.
+
+[Mehr zur Mitgliederverwaltung >](../learningresources/Members_management.de.md)
+
+
+![3_green_24.png](assets/3_green_24.png){ class=" aside-left-lg" }
+**Kurseditor**<br>
+Diese Funktion wird bei aktivierter Checkbox unter dem Icon "Administration" zur Verfügung gestellt. Kursmitgliedern (z.B. Betreuer:innen) kann der Zugriff auf den Kurseditor gewährt werden. Dadurch können Sie diesen Kurs bearbeiten und Kursbausteine konfigurieren oder hinzufügen. Dieses Autorenrecht ist aber beschränkt. Es können keine neuen Kurse oder Lernressourcen erstellt werden.<br>
+**Hinweis:** 
+Ein Kurs, in dem man hier das Recht zur Bearbeitung erhalten hat, aber nicht Besitzer:in dieses Kurses ist, erscheint nicht im Autorenbereich. (Falls man ansonsten Autorenrechte und Zugriff auf den Autorenbereich hat.) Zur Bearbeitung rufen Sie statt dessen den Kurs im Hauptmenü unter "Kurse" auf. Dann finden Sie unter dem Icon "Administration" den Kurseditor. Es gilt auch hier die Regel: Der Kurs wird Betreuer:innen und Teilnehmer:innen nur angezeigt, wenn er von dem/der Besitzer:in veröffentlicht wurde.
+
+[Mehr zum Kurseditor >](../learningresources/General_Configuration_of_Course_Elements.de.md)
+
+
+![4_green_24.png](assets/4_green_24.png){ class=" aside-left-lg" }
+**Datenarchivierung**<br>
+Diese Funktion wird bei aktivierter Checkbox unter dem Icon "Administration" zur Verfügung gestellt. Die verfügbaren Optionen entsprechen denen der Kursbesitzer:innen.
+
+[Mehr zur Archivierung & Reporting >](../learningresources/Course_Archiving.de.md)
+
+
+![5_green_24.png](assets/5_green_24.png){ class=" aside-left-lg" }
+**Bewertungswerkzeug**<br>
+Diese Funktion wird bei aktivierter Checkbox unter dem Icon "Administration" zur Verfügung gestellt. 
+Das Bewertungswerkzeug gehört zur Grundausrüstung aller Betreuer:innen. Es kann hier auch weiteren Personen unter dem Icon "Administration" zur Verfügung gestellt werden.
+
+[Mehr zum Bewertungswerkzeug >](../learningresources/Assessment_tool_overview.de.md)
+
+
+![6_green_24.png](assets/6_green_24.png){ class=" aside-left-lg" }
+**Glossarwerkzeug**<br>
+Die Glossarfunktion kann in der Werkzeugleiste als Icon angezeigt werden. Damit das Icon dort erscheint, muss die Ansicht unter **Administration > Einstellungen > Tab Toolbar** aktiviert werden und unter **Administration > Einstellungen > Tab Optionen** ein Glossar ausgewählt oder erstellt worden sein.
+
+Wird hier in der Mitgliederverwaltung eines Kurses unter "Rechte" das "Glossarwerkzeug" aktiviert, können die betrefffenden Gruppenmitglieder bei Klick auf das Glossar-Icon in der Werkzeugleiste Glossareinträge hinzufügen und bearbeiten. 
+
+Ist noch kein Glossar angelegt (Glossar-Icon in der Werkzeugleiste noch nicht sichtbar), besteht auch bei aktivierter Checkbox kein Zugriff. In diesem Fall muss zunächst zusätzlich Zugriff auf den Kurseditor gewährt werden, damit dort unter **Administration > Einstellungen > Tab Toolbar und Tab Optionen** ein Glossar angelegt werden kann.
+
+[Mehr zum Glossar >](../learningresources/Glossary.de.md)
+
+
+![7_green_24.png](assets/7_green_24.png){ class=" aside-left-lg" }
+**Statistiken**<br>
+Diese Funktion wird bei aktivierter Checkbox unter dem Icon "Administration" zur Verfügung gestellt. Die verfügbaren Optionen entsprechen denen der Kursbesitzer:innen.
+
+[Mehr zu Kurs-Statistiken >](../learningresources/Statistics_Course.de.md)
+
+
+![8_green_24.png](assets/8_green_24.png){ class=" aside-left-lg" }
+**Prüfungsmodus**<br>
+Diese Funktion wird bei aktivierter Checkbox unter dem Icon "Administration" zur Verfügung gestellt. Die verfügbaren Optionen entsprechen denen der Kursbesitzer:innen.
+
+[Mehr zur Prüfungsverwaltung >](../learningresources/Assessment_Management.de.md)
+
+
+![9_green_24.png](assets/9_green_24.png){ class=" aside-left-lg" }
+**Kursdatenbank**<br>
+Diese Funktion wird bei aktivierter Checkbox unter dem Icon "Administration" zur Verfügung gestellt. Die verfügbaren Optionen entsprechen denen der Kursbesitzer:innen. Sie können hier Kursdatenbanken erstellen, zurücksetzen, löschen und exportieren.
+
 
 !!! warning "Kurs-/Gruppenrollen"
 
@@ -178,18 +249,12 @@ Die Kontorollen sind nur für die Suchfunktion der Administrator:innen relevant.
 
 ---
 
-## Weiterführende Informationen
+## Weiterführende Informationen {: #further_information} 
 
-[Rollenzuweisung für Organisationsrollen](Assign_Roles.de.md#role_assignment_org)<br>
-
-[Rollenzuweisung für Kursrollen](Assign_Roles.de.md#role_assignment_course)<br> 
-
-[Rollenzuweisung für Gruppenrollen](Assign_Roles.de.md#role_assignment_group)<br> 
-
-[Rollenzuweisung der "Einladung"](Assign_Roles.de.md#role_assignment_invitee)<br> 
-
-[Eigene Rollen und Beziehungen definieren](Assign_Roles.de.md#role_assignment_relations)<br> 
-
-<br>
+[Rollenzuweisung für Organisationsrollen >](Assign_Roles.de.md#role_assignment_org)<br>
+[Rollenzuweisung für Kursrollen >](Assign_Roles.de.md#role_assignment_course)<br> 
+[Rollenzuweisung für Gruppenrollen >](Assign_Roles.de.md#role_assignment_group)<br> 
+[Rollenzuweisung der "Einladung" >](Assign_Roles.de.md#role_assignment_invitee)<br> 
+[Eigene Rollen und Beziehungen definieren >](Assign_Roles.de.md#role_assignment_relations)<br> 
 
 [zum Seitenanfang ^](#roles)

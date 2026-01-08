@@ -10,6 +10,7 @@
     * [Gruppe verlassen](Leave_a_Group.de.md)
     * [Gruppenadministration](Group_Administration.de.md)
     * [LTI Freigabe konfigurieren](LTI_Share_groups.de.md)
+    * [Rollen in Gruppen](../basic_concepts/Roles.de.md#groups)
   
     Für Berechtigte mit Verwaltungsaufgaben:
 
