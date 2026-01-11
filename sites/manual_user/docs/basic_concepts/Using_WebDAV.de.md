@@ -19,14 +19,14 @@ von Ihrem Rechner zu OpenOlat-Ordnern.
 Struktur, sobald die Elemente über OpenOlat angelegt wurden, automatisch
 erstellt:
 
-  * [Persönlicher Ordner](../personal_menu/Personal_folders.de.md) (jeder)
+  * [Persönliche Dateien](../personal_menu/File_Hub.de.md#personal_files) des File Hubs (jeder)
   * Ordner von [Gruppen](../groups/Using_Group_Tools.de.md)
   * [Ablageordner von Kursen](../learningresources/Storage_folder.de.md) (nur Kursbesitzer)
   * [Kursbaustein Ordner](../learningresources/Course_Element_Form.de.md)
-  * [Ressourcenordner](../learningresources/index.de.md#ressourcenordner) (nur Lernressourcenbesitzer)
+  * [Ressourcenordner](../learningresources/index.de.md#resource_folder) (nur Lernressourcenbesitzende)
 
 Wer in den jeweiligen Ordnern Dateien per WebDAV hochladen darf ist abhängig
-von der jeweiligen Konfiguration.
+von der konkreten Konfiguration.
 
 ## Voraussetzungen
 
@@ -62,7 +62,7 @@ Bei Problemen die nachfolgenden Punkte durchgehen:
 
 ## Einrichten der WebDAV-Verbindung
 
-??? abstract "Windows 10 (sowie 7 + 8)"
+??? abstract "Windows 11 (sowie 7, 8 und 10)"
 
     1. Starten Sie den Windows Explorer
     2. Klicken Sie mit der rechten Maus auf "Dieser PC"

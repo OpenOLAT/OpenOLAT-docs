@@ -16,11 +16,11 @@ helps you to easily transfer files from your computer to OpenOlat folders.
 
 Via WebDAV you can access the following OpenOlat folders. Thereby the structure of how the elements are generated in OpenOlat is taken automatically:
 
-  * [Personal folder](../personal_menu/Personal_folders.md) (every user)  
+  * [Personal folder](../personal_menu/File_Hub.md#personal_files) File Hub (every user)  
   * [Folders of groups](../groups/Using_Group_Tools.md)
   * [Folder - course element](../learningresources/Course_Element_Folder.md)
   * [Storage folders](../learningresources/Storage_folder.md) of courses (course owners only)
-  * [Resource folders](../learningresources/index.md#resource-folder) (only Learning Resource Owner)
+  * [Resource folders](../learningresources/index.md#resource_folder)  (only Learning Resource Owner)
 
 Who is allowed to upload files via WebDAV in the respective folders depends on the respective configuration.
 
@@ -54,7 +54,7 @@ In case of problems, go through the following points:
 
 ## WebDAV Connection Setup
 
-??? abstract "Windows 10 (also 7 + 8)"
+??? abstract "Windows 11 (also 7, 8 + 10)"
 
     1. Start the Windows Explorer
     2. Click on "Computer" in the start menu.
