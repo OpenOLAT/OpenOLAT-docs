@@ -28,7 +28,7 @@ Das genaue Vorgehen wird in Schritt 4 der Seite [Wie erstelle ich einen Podcast?
 
 ## Episoden kommentieren
 
-Alle Kursteilnehmende haben das Recht Episoden zu kommentieren und mit 1-5 Sternen bewerten. Um einen Kommentar zu verfassen oder bestehende Kommentare zu lesen, klicken Sie auf den Link "Kommentare".
+Alle Kursteilnehmenden haben das Recht Episoden zu kommentieren und mit 1-5 Sternen bewerten. Um einen Kommentar zu verfassen oder bestehende Kommentare zu lesen, klicken Sie auf den Link "Kommentare".
 
 !!! Tip "Tipp"
 

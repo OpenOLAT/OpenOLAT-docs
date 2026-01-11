@@ -6,88 +6,73 @@ Die folgenden Ausführungen zur Konfiguration beziehen sich auf Podcasts in Kurs
 
 Die Basis-Einstellungen werden im Kurseditor im Tab "Podcast-Lerninhalt" vorgenommen. 
 
-Wenn Sie einen neuen Kursbaustein Podcast Ihrem Kurs hinzugefügt haben, können Sie als erstes
+![Podcast anlegen](assets/Podcast-Lerninhalt1_20_3.jpg)
 
-* eine bereits erstellte Lernressource Podcast aus der angezeigten Liste auswählen oder
-* einen neuen Podcast und damit eine neue Lernressource Podcast erstellen oder
-* eine vorliegende Podcast Datei aus einem Backup oder einer anderen Instanz "importieren" oder
-* einen externen Podcast aus dem Internet importieren (Importieren URL)
+Wenn Sie einen neuen Kursbaustein Podcast Ihrem Kurs hinzugefügt haben, müssen Sie als erstes eine bereits erstellte Lernressource Podcast auswählen, eine neue Podcast Lernressource erstellen oder einen im Internet existierenden Podcast in eine neue Lernressource einbinden. 
 
-![Podcast anlegen](assets/Pocast_anlegen1.jpg)
+Über den Button "Auswählen" stehen Ihnen alle Optionen zur Verfügung. Sie können: 
 
-Generelle Infos zur Erstellung von Podcasts finden Sie in der [How to Podcast Anleitung](../../manual_how-to/podcast/podcast.de.md).
+a) Eine neue Lernressource Podcast **erstellen** 
 
-Wird die Option "Erstellen" gewählt [(vergl. Schritt 2 der How to Anleitung)](../../manual_how-to/podcast/podcast.de.md) bezieht sich das lediglich auf das Anlegen der Lernressource. Im nächsten Schritt muss immer noch definiert werden ob die Episoden selbst erstellt werden sollen oder ob ein bestehender Podcast eingebunden werden soll [(vergl. Schritt 4)](../../manual_how-to/podcast/podcast.de.md). Wählt man hier die externe Variante entspricht das der Wahl "Importieren URL" aus dem vorherigen Erstellungsmenü. 
+b) Eine existierende Lernressource Podcast hochladen und **importieren**
 
-Eine angelegte Verknüpfung kann jederzeit wieder ausgewechselt oder editiert werden. Über "Podcast auswechseln" kann auch wieder zwischen einem internen und einem externen Podcast gewechselt werden. 
-"Editieren" entspricht den Bearbeitungsmöglichkeiten bei geschlossenem Editor. Beachten Sie, dass die Bearbeitungsmöglichkeiten bei externen Podcasts eingeschränkt sind und in diesem Fall keine eigenen Dateien dem Podcast hinzugefügt werden können. 
+c) einen im Internet vorliegenden Podcast **per URL einbinden**. 
 
+Alternativ können Sie die Optionen auch direkt über die Links "Erstellen" (vergl. a), "Per URL einbinden" (vergl. c) bzw. "Import" (vergl. b) aufrufen.
 
-### Externen Podcast einbinden und anzeigen
+Die Optionen "Erstellen" oder "Importieren" beziehen sich immer auf OpenOlat interne Podcasts, die mit eigenen Audio- oder Video-Inhalten befüllt werden. 
 
-Möchten Sie einen externen Podcast aus dem Internet einbinden benötigen Sie den Link zum konkreten Podcast bzw. den RSS-Feed des Pod- oder Vodcasts. In der Regel ist dies eine URL mit der Erweiterung .xml. Achtung: Der Link ist nicht identisch mit einem Video- oder Audio-Link!
+Soll ein externer Podcast aus dem Internet über den Kursbaustein für den Kurs bereitgestellt werden muss dieser per URL eingebunden werden (Option c). Dabei wird für ihn ebenfalls eine Lernressource Podcast angelegt. 
 
-Um einen externen Podcast in den Kurs einzubinden wählen Sie im Kurseditor im Tab "Podcast-Inhalt" "Importieren URL" bzw. bei einem neu angelegten Podcast bei geschlossenem Kurseditor "Einen bestehenden externen Podcast einbinden".
-Im Feld "URL" geben Sie den Feed-Link des externen Podcast ein.  
+!!! warning "Hinweis"
 
-Externe Podcast enthalten in der Regel bereits konkrete Inhalte (Episoden). Im Kursbaustein werden dann bei geschlossenem Kurseditor die entsprechenden Episoden angezeigt.
+    Beachten Sie, dass in externe Podcasts keine eigenen Audio- oder Video-Episoden dem Podcast hinzugefügt werden können. 
 
+Eine im Kursbaustein angelegte Podcast-Verknüpfung kann jederzeit wieder ausgewechselt oder editiert werden. 
 
-### Benutzerberechtigungen
-
-Im Tab "Podcast-Lerninhalt" können sie auch definieren wer einen Podcast moderieren und wer Beiträge erstellen darf. Auf diesen Weg können auch Teilnehmende das Recht erhalten Audio- und Video-Podcasts in OpenOlat hochzuladen. Besitzer verfügen standardmässig über diese Rechte. 
-
-Das Moderationsrecht beinhaltet, dass die Personen den Podcast bearbeiten und alle Episoden und Kommentare löschen dürfen. Zudem können Moderatoren auch den Titel und die Beschreibung des ganzen Feeds anpassen. 
-
-Das Recht Beiträge zu erstellen bedeutet, dass die definierten Rollen bzw. Personen Audios und Videos in den Kursbaustein hochladen und mit Beschreibungen versehen dürfen. 
-
-Mit Hilfe der erweiterten Konfiguration der Berechtigungen können die Einstellungen noch differenzierter vorgenommen werden und beispielsweise bestimmten Rollen, Gruppen oder auch einzelnen Personen die Berechtigung zum erstellen der Podcasts oder das Moderationsrecht erteilt werden. 
-
-![podcast_berechtigungen.png](assets/erstellen_erweiterte_Konfig.png)
+![Podcast ersetzen](assets/Podcast_ersetzen.png)
 
 
-## Konfiguration im Kursrun (bei geschlossenem Kurseditor)
+### Externen Podcast einbinden 
 
-Wurde der Kursbaustein mit einer Lernressource Podcast verbunden bzw. ein externer Podcast gewählt können nun im Kursrun je nach Berechtigung folgende Aktionen vorgenommen werden:
+Möchten Sie einen externen Podcast aus dem Internet in Ihren Kurs einbinden, benötigen Sie den RSS-Feed des Podcasts oder Vodcasts. Dieser Feed-Link endet häufig auf .xml. Beachten Sie: Der Link zum Podcast-Feed unterscheidet sich vom direkten Audio- oder Video-Link!
 
-### Kursbesitzer, Betreuer mit Moderationsrechten 
+Um einen externen Podcast in den Kurs einzufügen, wählen Sie im Kurseditor unter dem Tab „Podcast-Inhalt“ die Option „Per URL einbinden. Im daraufhin erscheinenden Feld „URL“ geben Sie den RSS-Feed-Link des externen Podcast ein.
 
-* Können entscheiden ob Episoden selbst erstellt oder ein bestehender Podcast eingebunden werden soll, sofern nicht bereits ein externer Podcast gewählt wurde.
+Externe Podcast-Feeds enden häufig auf .xml oder .rss und enthalten meist die Begriffe „feed“, „rss“ oder „podcast“ in der URL (nicht immer, aber oft). Sobald der Podcast eingebunden ist, werden im Kursbaustein die entsprechenden Episoden angezeigt.
 
-!!! info "Wichtig"
+![Beispiel eines externen Podcasts](assets/Podcast_extern.png)
 
-    Solange die Entscheidung noch nicht getroffen und keine erste initiale Episode vorliegt können auch Personen mit der Berechtigung Episoden zu erstellen noch nichts hochladen!  
+### Metadaten anzeigen 
 
-* Unter "Podcast bearbeiten" kann ein Titel, eine Beschreibung und ein Bild für den Podcast festgelegt werden. Bei externen Podcasts wird automatisch ein Bild übertragen, das jedoch geändert werden kann. 
+Im Tab Podcast-Lerninhalt kann unter "Metadaten-Konfiguration" zusätzlich noch definiert werden ob auch weitere Infos wie Beschreibung, Titel oder Bild zum Podcast angezeigt werden sollen. Diese werden in der jeweiligen Podcast Lernressource hinterlegt bzw. werden bei externen Podcasts automatisch ausgelesen, können aber auch geändert werden.
 
-![Neuer Podcast im Kursrun](assets/Podcast1.jpg)
 
-* URL bearbeiten: Bei externen Podcasts kann die URL und damit der gewählte Podcast ausgewechselt werden.
+### Berechtigungen definieren
 
-![Externe Podcast](assets/Podcast2.jpg)
+Für OpenOlat-interne Podcasts wird im Tab „Podcast-Lerninhalt“ festgelegt, wer Episoden (Beiträge) erstellen und wer den gesamten Podcast moderieren darf.
 
-* Bei internen Podcasts können Episoden erstellt werden. Das bedeutet, es können Audio- und Videodateien für eine Episode hochgeladen und mit einer Beschreibung versehen werden. 
+Das **Moderationsrecht** erlaubt es, den Podcast zu bearbeiten, alle Episoden und Kommentare zu löschen sowie Titel und Beschreibung des Feeds anzupassen. Standardmässig besitzen Kursbesitzer:innen diese Rechte.
 
-![Episoden erstellen](assets/Podcast3.jpg)
+Das **Recht zum Erstellen von Beiträgen** gilt nur für interne OpenOlat Podcasts. Es ermöglicht es den zugewiesenen Rollen oder Personen, Audio- und Videoepisoden hochzuladen und mit Beschreibungen zu versehen. So können auch Teilnehmende Episoden einstellen, ohne Moderationsrechte für den gesamten Podcast zu erhalten.
+
+Über die erweiterte Berechtigungskonfiguration lassen sich die Einstellungen weiter differenzieren, etwa indem bestimmten Rollen, Gruppen oder einzelnen Personen das Erstellen von Episoden oder das Moderationsrecht zugewiesen wird.
 
 !!! warning "Achtung"
+Beachten Sie die von den OpenOlat Administrator:innen festgelegten Upload- und Speichergrenzen und laden Sie möglichst kleine Dateien hoch.
 
-    Beachten Sie auch die vom OpenOlat Administrator definierten Upload- und Speichergrenzen und versuchen Sie eher kleine Dateien hochzuladen.
+Ist der Kurseditor geschlossen, werden die bereitgestellten Podcast-Episoden sowie – sofern im Kurseditor aktiviert – die in der Lernressource hinterlegten Informationen (Titel, Beschreibung, Bild) angezeigt.
 
-### Kursteilnehmende
 
-... und generell alle Personen mit Zugriff auf den Podcast können: 
+### Rechte für Kursteilnehmende
+
+Teilnehmende können: 
 
 * Audio Episoden anhören bzw. Video-Dateien ansehen und durch die chronologischen Episoden navigieren
-* Kommentare und Sternchenbewertungen zu jeder Mediendatei hinterlassen. Kommentare können auch wieder gelöscht werden
-* Sich über Änderungen von OpenOlat informieren lassen (Änderungen einschalten) und zusätzlich  Podcast Episoden per RSS-Feed abonnieren. 
+* Kommentare und Sternchenbewertungen zu jeder Mediendatei hinterlassen. Eigene Kommentare können auch wieder gelöscht werden
+* Sich über Änderungen von OpenOlat informieren lassen (Abonnements einschalten) 
 
 Mit dem Recht "Beiträge erstellen" können auch Teilnehmende Episoden erstellen und somit Audios und Videos hochladen. 
-
-!!! info "Wichtig"
-
-    Damit die Lernenden eigene Audio oder Video-Episoden hinzufügen können, muss ein erstes Video vorhanden sein. Zum Beispiel könnte die Lehrperson ein erstes Audio/Video hochladen und hier kurz erläutern, was die Lernenden im Podcast machen sollen oder in das Thema mit spannenden Reflexionsfragen einführen.
-
 
 
 [zum Seitenanfang ^](#config)
@@ -95,7 +80,6 @@ Mit dem Recht "Beiträge erstellen" können auch Teilnehmende Episoden erstellen
 
 ## Weitere Informationen
 
-[Podcasts in Kursen erstellt >](../../manual_how-to/podcast/podcast.de.md)<br>
+[Podcasts in Kursen erstellen >](../../manual_how-to/podcast/podcast.de.md)<br>
 [Podcasts anhören und ansehen >](../learningresources/Podcast_listen_and_watch.de.md)<br>
-
-
+[How to Anleitung:"Wie erstelle ich einen Podcast"](../../manual_how-to/podcast/podcast.de.md)
