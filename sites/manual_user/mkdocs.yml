@@ -299,7 +299,6 @@ nav:
       - Selection: "learningresources/Course_Element_Selection.md"
     - Test:
       - Overview: "learningresources/Test.md"
-      - General Information on Tests: "learningresources/General_Information_on_Tests.md"
       - Test editor QTI 2.1: 
         - Overview: "learningresources/Test_editor_QTI_2.1.md"
         - Test question types: "learningresources/Test_question_types.md"
