@@ -6,94 +6,82 @@ The following information on configuration relates to podcasts in courses.
 
 The basic settings are made in the course editor in the "Podcast learning content" tab. 
 
-When you have added a new course element Podcast to your course, you can first
+![Podcast anlegen](assets/Podcast-Lerninhalt1_20_3.jpg)
 
-  * select an already created learning resource podcast,
-  * create a new podcast and thus a new learning resource podcast or
-  * "import" an existing podcast file from a backup or another instance or
-  * Import an external podcast from the Internet (Import URL)
+Once you have added a new podcast course element to your course, you must first select an existing podcast learning resource, create a new podcast learning resource, or integrate an existing podcast from the internet into a new learning resource. 
 
-![Podcast anlegen](assets/Pocast_anlegen1.jpg)
+The "Select" button gives you access to all options. You can: 
 
-You can find general information on creating podcasts in the [How to Podcast guide](../../manual_how-to/podcast/podcast.md).
+a) **Create** a new learning resource podcast 
 
-If the "Create" option is selected [(see step 2 of the How to guide)](../../manual_how-to/podcast/podcast.md), this only refers to the creation of the learning resource. In the next step, you still need to define whether you want to create the episodes yourself or whether you want to integrate an existing podcast [(see step 4)](../../manual_how-to/podcast/podcast.md). If you select the external variant here, this corresponds to the "Import URL" selection from the previous creation menu. 
+b) Upload and **import** an existing learning resource podcast
 
-A created link can be changed or edited at any time. You can also switch between an internal and an external podcast via "Change podcast". 
-"Edit" corresponds to the editing options when the editor is closed. Please note that the editing options for external podcasts are limited and in this case you cannot add your own files to the podcast. 
+c) **Embed** a podcast available on the Internet **via URL**. 
+
+Alternatively, you can also access the options directly via the links "Create" (see a), "Embed via URL" (see c), or "Import" (see b).
+
+The options "Create" or "Import" always refer to OpenOlat internal podcasts that are filled with your own audio or video content. 
+
+If an external podcast from the Internet is to be made available for the course via the course module, it must be integrated via URL (option c). A podcast learning resource is also created for it. 
+
+!!! warning "Note"
+
+    Please note that you cannot add your own audio or video episodes to external podcasts. 
+
+A podcast link created in the course module can be replaced or edited at any time. 
+
+![Podcast ersetzen](assets/Podcast_ersetzen.png)
+ 
 
 ### Include external podcast
 
 If you would like to integrate an external podcast from the Internet, you need the link to the specific podcast or the RSS feed of the podcast or vodcast. This is usually a URL with the extension .xml. Attention: The link is not identical to a video or audio link!
 
-To integrate an external podcast into the course, select "Import URL" in the "Podcast content" tab in the course editor or "Integrate an existing external podcast" for a newly created podcast when the course editor is closed.
-Enter the feed link of the external podcast in the "URL" field.
+To add an external podcast to the course, select the "Embed via URL" option in the course editor under the "Podcast content" tab. Enter the RSS feed link of the external podcast in the "URL" field that appears.
 
 External podcasts usually already contain specific content (episodes). The corresponding episodes are then displayed in the course element when the course editor is closed.
 
+![Beispiel eines externen Podcasts](assets/Podcast_extern.png)
 
 
-### User rights
+### Show metadata
 
-In the tab "Podcast learning content" you can also define the user rights and set who can moderate a podcast and who can create contributions. This way, participants can also be given the rights to upload podcasts to OpenOlat. Owners have these rights by default. 
-
-The moderation right means that people can edit the podcast and delete all episodes and comments. Moderators can also adjust the title and description of the entire feed. 
-
-The right to create contributions means that the defined roles or persons can upload audios and videos to the course element and add descriptions.
-
-With the help of the extended configuration of the authorizations, the settings can be made even more differentiated and, for example, certain roles, groups or even individual persons can be granted authorization to create podcasts or moderation rights. 
-
-![podcast_berechtigungen.png](assets/erstellen_erweiterte_Konfig.png)
+In the Podcast Learning Content tab, under "Metadata Configuration," you can also define whether additional information such as a description, title, or image for the podcast should be displayed. This information is stored in the respective podcast learning resource or is automatically read from external podcasts, but it can also be changed.
 
 
-## Configuration in the Course run (with closed course editor)
+### Define User rights
 
-If the course element has been linked to a podcast learning resource or an external podcast has been selected, the following actions can now be carried out in the course run depending on the authorization:
+For OpenOlat internal podcasts, the "Podcast learning content" tab is used to specify who is allowed to create episodes (contributions) and who is allowed to moderate the entire podcast.
 
-### Course owner, coach with moderator rights
+The **moderation right** allows you to edit the podcast, delete all episodes and comments, and customize the title and description of the feed. By default, course owners have these rights.
 
-* Can decide whether to create episodes themselves or integrate an existing podcast if an external podcast has not already been selected.
+The **right to create posts** only applies to internal OpenOlat podcasts. It allows assigned roles or individuals to upload audio and video episodes and add descriptions. This means that participants can also post episodes without being granted moderation rights for the entire podcast.
 
-!!! info "Important"
-
-    As long as the decision has not yet been made and there is no first initial episode, even people with the authorization to create episodes cannot upload anything!
-
-* Under "Edit podcast", a title, a description and an image can be defined for the podcast. An image is automatically transferred for external podcasts, but this can be changed. 
-
-![Neuer Podcast im Kursrun](assets/Podcast1.jpg)
-
-* Edit URL: For external podcasts, the URL and thus the selected podcast can be changed.
-
-![Externe Podcast](assets/Podcast2.jpg)
-
-* Episodes can be created for internal podcasts. This means that audio and video files can be uploaded for an episode and provided with a description. 
-
-![Episoden erstellen](assets/Podcast3.jpg)
+The advanced permission configuration allows you to further differentiate the settings, for example by assigning the right to create episodes or moderate to specific roles, groups, or individuals.
 
 !!! warning "Attention"
 
-    Please also note the upload and storage limits defined by the OpenOlat administrator and try to upload small files.
+        Please observe the upload and storage limits set by the OpenOlat administrators and upload files that are as small as possible.
+
+When the course editor is closed, the podcast episodes provided and—if activated in the course editor—the information stored in the learning resource (title, description, image) are displayed.
 
 
-### Course participants
+### Rights for course participants
 
-... and generally anyone with access to the podcast:
+Participants can...
 
-* Listen to audio episodes or watch video files and navigate through the chronological episodes
-* Leave comments and star ratings for each media file. Comments can also be deleted again
-* Be informed about changes to OpenOlat (switch on changes) and also subscribe to podcast episodes via RSS feed.
+* ... listen to audio episodes or watch video files and navigate through the chronological episodes
+* ... leave comments and star ratings for each media file. Comments can also be deleted again
+* ... be informed about changes to OpenOlat (switch on changes) and also subscribe to podcast episodes via RSS feed.
 
 With the "Create contributions" right, participants can also create episodes and thus upload audio and videos. 
 
-!!! info "Important"
-
-    An initial video must be available so that learners can add their own audio or video episodes. For example, the teacher could upload an initial audio/video and briefly explain what the learners should do in the podcast or introduce the topic with exciting reflection questions.
-
-
 [To the top of the page ^](#config)
+
 
 ## Further information
 
 [Create podcasts in courses >](../../manual_how-to/podcast/podcast.md)<br>
 [Listen to and view podcasts >](../learningresources/Podcast_listen_and_watch.md)<br>
+[How to Instruction: "How do I create a podcast?"](../../manual_how-to/podcast/podcast.md)
 

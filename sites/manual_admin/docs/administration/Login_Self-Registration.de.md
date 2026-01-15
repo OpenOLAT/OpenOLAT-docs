@@ -27,7 +27,7 @@ Bei der Selbstregistration eingegebene E-Mail-Adressen werden auf ihre Gültigke
 
 ### Abschnitt "Einschränkung auf Domäne"
 
-Die Festlegung der Domänen wird im Organisiationsmodul vorgenommen. <br>
+Die Festlegung der Domänen wird im Organisationsmodul vorgenommen. <br>
 Siehe [Modul Organisationen >](../administration/Modules_Organisations.de.md)
 
 
@@ -48,7 +48,7 @@ Die Gültigkeitsdauer der Logindaten kann separat für das GUI und die REST-API 
 
 ### Abschnitt "Konfiguration Konto"
 
-Bei neuen Konten werden die hier eingtragenen Konfigurationen übernommen:
+Bei neuen Konten werden die hier eingetragenen Konfigurationen übernommen:
 
 **Heimatorganisation der Benutzer:innen:**<br>
 Neue Benutzer:innen werden automatisch der hier angegebenen Organisation zugeordnet. Weitere Zuordnungen können später in der Benutzerverwaltung vorgenommen werden.

@@ -6,10 +6,10 @@ Dazu können im Kurs **Termine** angelegt werden, die sich in mehrere **Einheite
 
 Termine und Einheiten werden entweder von den Kursbesitzer:innen selbst erstellt oder über ein externes Verwaltungssystem mit OpenOlat synchronisiert. Alle Termine erscheinen auch im Kurskalender, sofern der Kurs einen Kalender beinhaltet.
 
-Bevor das Absenzenmanagement genutzt werden kann, muss es von den Kursbesitzenden aktiviert werden. Dies geschieht unter Administration > Einstellungen > Tab Durchführung. Nach der Aktivierung können weitere Einstellungen vorgenommen werden, und in der Toolbar erscheint zusätzlich die Option „Termine“.
+Bevor das Absenzenmanagement genutzt werden kann, muss es von den Kursbesitzenden aktiviert werden. Dies geschieht unter Administration > Einstellungen > Tab Durchführung. Nach der Aktivierung können weitere Einstellungen vorgenommen werden, und in der Toolbar erscheint zusätzlich die Option "Termine".
 
 
-## "Termine" in der Toolbar
+## "Termine" in der Toolbar {: #toolbar_events}
 
 **Kursbesitzer:innen** können hier "Termine hinzufügen" und Absenzen organisieren. Zusätzlich erscheint für Kursbesitzer:innen in der Kursadministration das Menü "Termine und Absenzen". Die Möglichkeiten sind dabei überwiegend identisch. 
 
@@ -23,7 +23,7 @@ Bevor das Absenzenmanagement genutzt werden kann, muss es von den Kursbesitzende
 
 ![Teilnehmersicht Toolbar Termine](assets/TN_Termine_Absenzen.jpg){ class="shadow lightbox" }
 
-Persönliche Fehlzeiten finden Teilnehmende dann bei den "Persönlichen Werkzeugen" im [Menü "Absenzen".](../personal_menu/Absences.de.md).
+Persönliche Fehlzeiten finden Teilnehmende dann bei den "Persönlichen Werkzeugen" im [Menü "Absenzen"](../personal_menu/Absences.de.md).
  
 
 

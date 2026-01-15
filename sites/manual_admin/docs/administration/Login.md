@@ -1,4 +1,4 @@
-# Login
+# Login: Overview {: #login}
 
 ![admin_login_overview_v1_de.png](assets/admin_login_overview_v1_de.png){ class="shadow lightbox aside-left-lg" }
 
@@ -40,10 +40,7 @@ Administrators can define whether and to what extent OpenOlat can be used by ano
 
 ## Self-registration {: #self-registration}
 
-Here administrators can activate self-registration and make further detailed
-settings in this context. Login forms can also be integrated into external
-websites. Furthermore, the validity period of the self-registration can be
-limited (default value for account validity).
+Here, administrators can activate self-registration and configure additional detailed settings in this context. Login forms can also be integrated into external websites. Furthermore, the validity period of an account can be restricted for self-registration, for example (default value for account validity).
 
 [See the details >](../administration/Login_Self-Registration.md)<br>
 [To the top of the page ^](#login)
@@ -51,6 +48,6 @@ limited (default value for account validity).
 
 ## SMS {: #sms}
 
-It is possible to configure an SMS service here. Notifications can then also be sent by SMS. Please note that costs are incurred for sending SMS messages in this context.
+Here you can configure an SMS service. Notifications can then also be sent via SMS. Please note that costs for sending SMS messages will be incurred in this context.
 
 [To the top of the page ^](#login)

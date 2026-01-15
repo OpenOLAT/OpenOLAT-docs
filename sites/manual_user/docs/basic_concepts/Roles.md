@@ -3,7 +3,7 @@
 The roles can be assigned to the following contexts according to the tasks:
 
 
-## Organisation wide roles {: #org} 
+## Organization wide roles {: #org} 
 
 Organisation roles include organisation-wide authorizations (as definied for the OpenOlat instance). The organisation roles are assigned in the user administration.
 
@@ -137,9 +137,9 @@ Note: The "Group Management" option described above is part of member management
 
 ![3_green_24.png](assets/3_green_24.png){ class=" aside-left-lg" }
 **Course editor**<br>
-This function is available when the checkbox under the "Administration" icon is activated. Course members (e.g., coaches) can be granted access to the course editor. This allows them to edit this course and configure or add course elements. However, this authoring right is limited. No new courses or learning resources can be created.<br>
+This function is available when the checkbox under the “Administration” icon is activated. Course members (e.g., coaches) can be granted access to the course editor. This allows you to edit this course and configure or add course elements. However, this authoring right is limited. You cannot create new courses or learning resources.<br>
 **Note:** 
-A course for which you have been granted editing rights but do not own does not appear in the author area. (Provided you otherwise have author rights and access to the author area.) To edit it, go to the course in the main menu under "Courses" instead. The same rule applies here: the course is only displayed to coaches and participants if it has been published by the owner.
+A course for which you have been granted editing rights but do not own does not appear in the authors area. (Provided you otherwise have author rights and access to the authors area.) To edit it, go to the course in the main menu under "Courses." Then you will find the course editor under the "Administration" icon. The same rule applies here: the course will only be displayed to coaches and participants if it has been published by the owner.
 
 [More about the course editor >](../learningresources/General_Configuration_of_Course_Elements.md)
 
@@ -209,6 +209,7 @@ In addition to the roles predefined in OpenOlat, administrators can also create 
 These freely definable roles can be assigned specific rights by administrators.
 
 For example, cross-course support functions such as mentors, learning guides and coaches can be set up for these roles with user-to-user relationships.<br>
+(Siehe [Coaching - People](../area_modules/Coaching_People.md))
 
 **Requirements**:<br>
 Before relationships between roles can be defined, the **roles** must first exist and a **system** must be in place (which role is superior or subordinate to which other role).

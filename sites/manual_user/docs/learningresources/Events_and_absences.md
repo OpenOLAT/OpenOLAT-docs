@@ -1,44 +1,54 @@
 # Events and absences {: #course_admin_events_and_absences}
 
-Absence management offers the option of keeping attendance lists online and documenting absences. Attendance is monitored for each course. To this end, appointments can be created for the course, which can then be divided into several units. For example, a morning (=appointment) can be divided into several time blocks (=units).
-The units allow participants to miss individual units on a date without being marked as absent for the entire date. These units are also created in the course by course owners (or synchronized with OpenOlat from an external administration system).
+Absence management allows attendance lists to be kept online and absences to be documented. Attendance is monitored on a course-by-course basis.
 
-If the course owner has enabled (configured) appointment and absence management for the course in **Administration > Settings > Implementation**, the menu item "Events and absences" is displayed to course owners in the course administration (for recording the duration data).
+For this purpose, **events** can be created in the course, which can be divided into several **units**. For example, a morning (events) can be divided into several time blocks (units). This makes it possible for participants to be marked as absent for individual units of an event without losing the entire event.
 
-Here you can create and edit course dates and record absences.
+Dates and units are either created by the course owners themselves or synchronized with OpenOlat via an external administration system. All events also appear in the course calendar, provided the course includes a calendar.
+
+Before absence management can be used, it must be activated by the course owner. This can be done under Administration > Settings > Implementation tab. After activation, further settings can be made, and the "Events" option will appear in the toolbar.
+
+
+
+## "Events" in the toolbar {: #toolbar_events}
+
+**Course owners** can "add events" and organize absences here. In addition, the "Events and absences" menu appears for course owners in the course administration. The options are largely identical. 
 
 ![events_and_absences_adminmenu_v1_de.png](assets/events_and_absences_adminmenu_v1_de.png){ class="shadow lightbox" }
 
-!!! info "Note"
+**Course administrators** only see the "Dates" menu in the toolbar, not in the course administration. They also cannot create new dates, only view existing ones and, if activated, record absences. It is also possible to filter by dates for which you are registered as an administrator.   
 
-    Course **coaches** will not find this item in the course administration menu. They can access the screen for recording absences via the icon in the toolbar.
+![events_and_absences_toolbar_for_coach_v1_de.png](assets/events_and_absences_toolbar_for_coach_v1_de.png){ class="shadow lightbox" }
 
-    Course owners can also use the icon in the toolbar to record data. However, in the menu under Administration, you will also find the option reserved for them to create appointments.
+**Participants** see the "Events" menu in the toolbar and can quickly identify synchronous face-to-face or online events, e.g., in the context of blended learning. 
 
-    ![events_and_absences_toolbar_for_coach_v1_de.png](assets/events_and_absences_toolbar_for_coach_v1_de.png){ class="shadow lightbox" }
+![Teilnehmersicht Toolbar Termine](assets/TN_Termine_Absenzen.jpg){ class="shadow lightbox" }
 
+Participants can find their personal absences under "Personal Tools" in the [Absences menu](../personal_menu/Absences.md).
 
 [To the top of the page ^](#course_admin_events_and_absences)
 
 ---
 
+The following section describes in more detail how **course owners** can view dates and absences. 
+
 
 ## Tab Events {: #tab_events}
 
+![Menü Termine für Kursbesitzernde](assets/Termine_Kursbesitzende_20.png){ class="shadow lightbox" }
+
 ### Display events {: #display_events}
 
-In this tab, event can be pre-filtered according to various criteria and new ones can be created.
+In the "Events" tab, dates can be added to the course and displayed filtered according to various criteria. If, for example, the date has been assigned to subject areas (taxonomy), it can be filtered according to these. To view details about a date, click on the + at the beginning of the relevant line.
 
-For details about an event, click on the + at the beginning of the relevant line.
+In the 3-point menu at the end of each line, you will find additional options for an event. Here you can edit, copy, delete, mark as a test, create PDF lists, and generate additional downloads for the event. Completed events can also be reopened.
 
-Under the three dots at the end of each line, you will find additional options for editing the respective event and creating lists.
 
 ![events_and_absences_tab_events_v1_de.png](assets/events_and_absences_tab_events_v1_de.png){ class="shadow lightbox" }
 
 [To the top of the page ^](#course_admin_events_and_absences)
 
 ---
-
 
 ### Create/Edit event {: #edit_events}
 
@@ -64,9 +74,9 @@ Example: An event lasts 2 hours, divided into 4 thematic units (4 x 0.5 hours).
 
 **Place**: This is where you specify where this event will take place. This could be a location or the exact room name, for example.
 
-**Online Meeting**: If the event is to take place online, the meeting can be organised directly from here. You have the option of starting a BigBlueButton, Teams or, for example, Zoom meeting from an event and also accessing it later via ‘Events’.
+**Online Meeting**: If the event is to take place online, the meeting can be organized directly from here. You have the option of starting a BigBlueButton, Teams or, for example, Zoom meeting from an event and also accessing it later via "Events".
 The online meeting takes over people and descriptions from the event (people, title, time, etc.).
-Learners can access it via the calendar or the ‘Events’ icon in the toolbar.
+Learners can access it via the calendar or the "Events" icon in the toolbar.
 
 **Subjects**: Here you can assign the event to one or more terms from a stored taxonomy. This makes it easier to find the event later.
 
