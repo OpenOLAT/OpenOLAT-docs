@@ -185,8 +185,7 @@ Mit "Bereich schliessen" schliessen Sie die Bewertung komplett ab. Vergessen Sie
 ![portfolio_assignment_grading_assess7_v1_de.png](assets/portfolio_assignment_grading_assess7_v1_de.png){ class="shadow lightbox" }
 
 
-Dem User wird nun der Status "Bestanden" oder "Nicht bestanden" und die eingetragene
-Punktzahl angezeigt.  
+Dem User wird nun der Status "Bestanden" oder "Nicht bestanden" und die eingetragene Punktzahl angezeigt.  
 
 !!! Tip "Hinweis"
 

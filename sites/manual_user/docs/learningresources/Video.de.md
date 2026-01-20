@@ -1,18 +1,18 @@
-# Video: Übersicht
+# Video: Übersicht {: #overview}
 
 Videos können in OpenOlat an vielen Stellen eingesetzt werden – als eigenständige Lernressource, eingebettet in Kurse oder als Bestandteil von Aufgaben, Tests und Portfolios. Diese Seite gibt einen kurzen Überblick über die Möglichkeiten, Videos in OpenOlat zu erstellen, einzubinden und didaktisch sinnvoll zu nutzen. Details erhalten Sie aus weiteren Seiten.
 
-## Grundsätzliches
+## Grundsätzliches {: #fundamentals}
 
 In OpenOlat wird zwischen der unabhängigen Nutzung von Videos und der Einbindung von Videos in andere Kontexte unterschieden.
 
 Das zentrale Element für die Bereitstellung von Videos ist die [Lernressource Video](../learningresources/Learning_resource_Video.de.md). Daneben können Videos in vielen weiteren Werkzeugen und Lernressourcen verwendet werden.
 
-## Videos erstellen, bereistellen und einbinden
+## Videos erstellen, bereitstellen und einbinden {: #create_publish_embed}
 
 Videos können in OpenOlat auf unterschiedliche Weise eingebunden werden:
 
-* Upload einer Videodatei (z. B. MP4)
+* Upload einer Videodatei (z.B. MP4)
 * Direkte [Aufnahme](../learningresources/Video_Recording.de.md) per Webcam oder Mobilgerät innerhalb von OpenOlat
 * Verknüpfung externer Videos über einen Link (z. B. YouTube)
 * Einbindung intern vorhandener Videos aus dem eigenen [Media Center](../personal_menu/Media_Center.de.md)
@@ -27,7 +27,7 @@ Das zentrale Element für Videos in OpenOlat ist die Lernressource Video mit opt
 
 ### Eingebunden in andere Lernressourcen
 
-* z. B. Integriert in den Lernressourcen [Podcast](../learningresources/Podcast.de.md), [Blog](../learningresources/Blog.de.md) oder [CP](../learningresources/CP_Editor.de.md)
+* z.B. Integriert in den Lernressourcen [Podcast](../learningresources/Podcast.de.md), [Blog](../learningresources/Blog.de.md) oder [CP Editor](../learningresources/CP_Editor.de.md)
 * als separate Datei in der Lernressource [Ressourcenordner](../learningresources/Resource_Folder.de.md) zur kursübergreifenden Nutzung
 
 ### In Kursen
