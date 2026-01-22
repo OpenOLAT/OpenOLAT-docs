@@ -1,4 +1,4 @@
-# Assessment tool - tab Users
+# Assessment tool - Tab Users {: #assessment_tool_users}
 
 You have two general options for the assessment in the assessment tool. Either you start from one person and assess the work done by this person or you start from the course structure and a concrete assessment element and assess all persons for this task, this test, and so on.
 
@@ -9,11 +9,11 @@ On the far left you will see the course structure with all assessable course ele
 The exact procedure is described in the chapters [Assessing participants](../learningresources/Assessment_of_learners.md) and [Assessment of course elements](../learningresources/Assessment_of_course_modules.md).
 
 
-## Participants tab in the assessment tool
+## Participants tab in the assessment tool {: #assessment_tool_participants}
 In the tab Participants, all course participants are listed that can be evaluated. In addition, specific people, e.g. all those who have not yet "passed" this course element, can be displayed in a filtered manner, or specific participant names can be searched for.
 
 
-### Display and column selection
+### Display and column selection {: #display_coulmn}
 
 The information displayed in the "Participants" tab can be further customized by selecting the desired columns. To do this, click on the gear wheel. 
 
@@ -38,7 +38,7 @@ Course element "Test"
 Course element "Task"
 
   
-### Activate further options
+### Activate further options {: #further_options}
 
 After selecting one or more people in an assessment module, further functions appear, e.g. the status can be set to completed, visibility can be activated, an e-mail can be sent or a test can be extended. The options vary depending on the assessment module.
 

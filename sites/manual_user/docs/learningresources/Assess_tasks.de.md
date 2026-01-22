@@ -1,10 +1,10 @@
-# Aufgaben bewerten
+# Aufgaben bewerten {: #assess_tasks}
 
 Betreuer und Kursbesitzer können sowohl über das Bewertungswerkzeug als auch direkt im Kursrun die Bewertung der Teilnehmenden bezüglich der eingereichten Aufgaben vornehmen.
 
 Wie Aufgaben und Gruppenaufgaben im Bewertungswerkezug bewertet werden erfahren Sie ausführlich im Kapitel ["Bewertungswerkzeug"](Assessment_tool_overview.de.md) → ["Aufgaben und Gruppenaufgaben bewerten"](Assessing_tasks_and_group_tasks.de.md). Im Folgenden wird kurz beschrieben, wie die Bewertung im Kursrun erfolgt:
 
-## Übersicht für Betreuer
+## Übersicht für Betreuer {: #coach_view}
 
 Im Kursrun gelangt man in den Bewertungsbereich durch Anklicken der entsprechenden Aufgabe. Es stehen die Tabs "Favoriten" und "Alle Teilnehmer" zur Verfügung. Sofern die Aufgabenstellung direkt in der Aufgabe hinterlegt ist, erscheint zusätzlich der Tab "Verwalten". Wenn ein Betreuer auch Aufgaben erstellen darf, ist für ihn ebenfalls der Tab "Verwalten" sichtbar.
 
@@ -24,7 +24,7 @@ Erfolgt bis zum gesetzten Abgabedatum keine Dateiabgabe wird dies entsprechend i
 
 Wie der Aufgabenbaustein aus Sicht der Kursteilnehmenden aussieht, erfahren Sie im Kapitel "Lernaktivitäten im Kurs“ unter dem Punkt ["Aufgabe & Gruppenaufgabe"](../learningresources/Course_Elements.de.md).
 
-### Rückgabe und Feedback-Dokumente ändern
+### Rückgabe und Feedback-Dokumente ändern {: #return_feedback}
 
 Um bei einer bereits abgeschlossenen Aufgabe die Feedback-Dokumente von einzelnen Teilnehmenden unter "Rückgabe und Feedback" zu ändern, können Betreuende wie folgt vorgehen:
 

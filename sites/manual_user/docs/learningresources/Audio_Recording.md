@@ -1,6 +1,6 @@
 # Audio recording
 
-## Requirements
+## Requirements {: #requirements}
 
 * If audio is to be recorded in OpenOlat, a microphone must first be available. It must always be activated in the device.
 
@@ -16,7 +16,7 @@
 
 
 
-## Where can audios be recorded in OpenOlat
+## Where can audios be recorded in OpenOlat {: #audios_recording}
 
 ### Recordings in the Media Center
 
@@ -64,7 +64,7 @@ For video recordings that are recorded in the course element "Task", there is cu
 
 The audio recording in the course element "Group task" works in the same way as in the course element "Task".
 
-## Where are the audio recordings saved?
+## Where are the audio recordings saved? {: #save_audio_recordings}
 
 **Audios** recorded within a course element are also saved with this course element. 
 The recordings are not listed in the author area, storage folder or in the Media Center (exception: course element page).
@@ -73,7 +73,7 @@ The recordings are not listed in the author area, storage folder or in the Media
 
 However, if the **Audio recording is started in the Media Center**, the audio is also saved in the Media Center.
 
-## In what format and quality are recordings saved?
+## In what format and quality are recordings saved? {: #audio_format_quality}
 
 Audio recordings made in OpenOlat are always saved as **m4a files**. This is due to the fact that only the m4a format is supported by all browsers.
 
@@ -83,11 +83,20 @@ Administrators can activate local audio conversion under<br>
 **Administration > Module > Audio/Video recordings > Tab "Recording configuration**<br>
 (See also: [Admin Manual](../../manual_admin/administration/Modules_Audio_Video_Recording.md).)
 
-## How much storage space is available for my audios?
+## How much storage space is available for my audios? {: #audio_storage}
 
 ### Download from the course element Task and Group task
 
-Both audio recordings from the task and audio recordings in the sample solution can be downloaded directly in the course element. To do this, use the option under the 3 dots at the end of a line.
+E.g.: Media Center
+In the lower left corner, you can see the available storage space (for the entire Media Center) and how much of it is already occupied. The available space can be determined by the administrators.
+
+![audio_recording_task_download_v3_de.png](assets/audio_recording_task_download_v3_de.png){ class=" shadow lightbox" }
+
+## How can audio recordings be exported? {: #audio_export}
+
+### Download from the course module Assignment and group assignment
+
+Both audio recordings from the assignment and audio recordings in the sample solution can be downloaded directly in the course module. To do this, use the option under the three dots at the end of a line. 
 
 ![audio_recording_task_download_v3_de.png](assets/audio_recording_task_download_v3_de.png){ class=" shadow lightbox" }
 

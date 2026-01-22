@@ -9,31 +9,18 @@ existieren vertiefende, separate Seiten oder Kapitel hier im Handbuch.
 
 OpenOlat stellt diverse Kursbausteine für die Wissensüberprüfung zur Verfügung. Die zentralen Kursbausteine hierfür sind die drei Kursbausteine die OpenOlat [Tests](../learningresources/Configure_tests.de.md) verwenden und die beiden Kursbausteine für [Einsendeaufgaben](Course_Element_Task.de.md). Aber auch die anderen Bausteine wie [Portfolioaufgabe](../learningresources/Creating_Portfolio_Tasks.de.md), [Bewertungen](Course_Element_Assessment.de.md) mit und ohne Bewertungsraster (Rubrik) oder die Checklisten bieten für bestimmte Szenarien viel Potenzial.
 
-Die meisten Kursbausteine der Kategorie Wissensüberprüfung können bei Bedarf
-auch mit Punkten versehen werden und erhalten dann den Konfigurations-Tab
-"Highscore". Mit der Vergabe von Punkten können weitere Features wie die
-Addition von Punkten oder das Bestehen/Nicht bestehen eines Kurses basierend
-auf den Bewertungen verschiedener Kursbausteine hinzugefügt werden. Verwendet
-wird hierfür ein Kursbaustein
-[Struktur](Course_Element_Structure.de.md) bei herkömmlichen
-Kursen.
+Die meisten Kursbausteine der Kategorie Wissensüberprüfung können bei Bedarf auch mit Punkten versehen werden und erhalten dann den Konfigurations-Tab "Highscore". Mit der Vergabe von Punkten können weitere Features wie die Addition von Punkten oder das Bestehen/Nicht bestehen eines Kurses basierend auf den Bewertungen verschiedener Kursbausteine hinzugefügt werden. Verwendet wird hierfür ein Kursbaustein [Struktur](Course_Element_Structure.de.md) bei herkömmlichen Kursen.
 
-Ein weiterer Konfigurations-Tab der bei den meisten Kursbausteinen der Wissensüberprüfung zur Verfügung steht (bis auf Selbsttest und Umfrage) ist der Tab "Erinnerung". Hier können in Abhängigkeit von der Bearbeitung des jeweiligen Kursbausteins E-Mails verschickt werden. Zum Beispiel kann eine
-Mail verschickt werden, wenn zu einem bestimmten Datum eine Aufgabe oder ein Test noch nicht bearbeitet wurde. Die Möglichkeiten sind ähnlich wie im Menü ["Erinnerung"](../learningresources/Course_Reminders.de.md) in
-der Kurs-Administration. 
+Ein weiterer Konfigurations-Tab der bei den meisten Kursbausteinen der Wissensüberprüfung zur Verfügung steht (bis auf Selbsttest und Umfrage) ist der Tab "Erinnerung". Hier können in Abhängigkeit von der Bearbeitung des jeweiligen Kursbausteins E-Mails verschickt werden. Zum Beispiel kann eine Mail verschickt werden, wenn zu einem bestimmten Datum eine Aufgabe oder ein Test noch nicht bearbeitet wurde. Die Möglichkeiten sind ähnlich wie im Menü ["Erinnerung"](../learningresources/Course_Reminders.de.md) in der Kurs-Administration. 
 
 In der Kategorie Wissensüberprüfung findet man auch die Kursbausteine "Umfrage" und "Formular" mit dem man OpenOlat [Formulare](../learningresources/Form_Editor.de.md) für Befragungen u.ä. in einen Kurs einbauen kann.
 
 ## Kursbaustein "Bewertung"  {: #course_element_assessment}
 ![Bewertung Icon](assets/manual_score.png)
 
-Der Kursbaustein "Bewertung" eignet sich, um Leistungen zu bewerten, welche
-nicht explizit elektronisch abgegeben werden, z.B. Präsenz-Referate oder
-Online-Webseiten. Auch eine Rubrik-Bewertung steht hier zur Verfügung.
+Der Kursbaustein "Bewertung" eignet sich, um Leistungen zu bewerten, welche nicht explizit elektronisch abgegeben werden, z.B. Präsenz-Referate oder Online-Webseiten. Auch eine Rubrik-Bewertung steht hier zur Verfügung.
 
-Auf separaten Seiten erfahren Sie wie man eine 
-[Bewertung](Course_Element_Assessment.de.md) einrichtet, durchführt und
-konfiguriert.
+Auf separaten Seiten erfahren Sie wie man eine  [Bewertung](Course_Element_Assessment.de.md) einrichtet, durchführt und konfiguriert.
 
   
 

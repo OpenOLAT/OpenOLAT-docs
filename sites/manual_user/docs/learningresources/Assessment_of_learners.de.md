@@ -1,6 +1,6 @@
-# Lernende bewerten
+# Lernende bewerten {: #assessment_of_learners}
 
-## So bewerten Sie alle bewertbaren Kursbausteine einer Person
+## So bewerten Sie alle bewertbaren Kursbausteine einer Person {: #assess_all_course_element}
 
 Gehen Sie in das Bewertungswerkzeug und folgen Sie diesen Schritten:
 
@@ -25,7 +25,7 @@ bewertbaren Kursbaustein für diese Person navigieren.
 
 ![Vor- und Zurück-Pfeile](assets/Bewertung_weiter.png)  
   
-## So bewerten Sie die Lösungen ausgehend von einem bestimmten Kursbaustein
+## So bewerten Sie die Lösungen ausgehend von einem bestimmten Kursbaustein {: #assess_solutions}
 
 1. Wählen Sie in der linken Navigation den gewünschten Kursbaustein aus und klicken Sie auf den Tab "Teilnehmer". 
 
@@ -40,12 +40,12 @@ bewertbaren Kursbaustein für diese Person navigieren.
 3. Über die Pfeile rechts oben können sie bei Bedarf zur nächsten bewertbaren
 Person für diesen Baustein navigieren.
 
-## Massenbewertung  
+## Massenbewertung {: #bulk_assessment}
 Die Kursbausteine ["Aufgabe"](Assessing_tasks_and_group_tasks.de.md) und ["Bewertung"](Assessment_of_course_modules.de.md) bieten auch die Möglichkeit der Massenbewertung.
 
 Wollen Sie alle oder sehr viele Benutzer auf einmal bewerten können Sie eine „Neue Massenbewertung starten“. Hierfür erstellen Sie eine Bewertung in einem Tabellenprogramm und fügen die Daten per copy+paste in das Feld der Massenbewertung ein. Weitere Informationen zur Massenbewertung finden Sie im Bereich [How to](../../manual_how-to/bulk_assessment/bulk_assessment.de.md).
 
-## Filtermöglichkeiten
+## Filtermöglichkeiten {: #filter_options}
 
 Sowohl für den gesamten Kurs als auch für Kursbausteine können auch Filter verwendet werden um eine Übersicht bestimmter Personengruppen zu generieren und diese dann zu bewerten. So können beispielsweise die Mitglieder einer bestimmten Gruppe, alle Personen die den Kurs oder Kursbaustein noch nicht bestanden haben oder nur die Mitglieder einer bestimmten Institution gefiltert angezeigt und dann gezielt bewertet werden.
 

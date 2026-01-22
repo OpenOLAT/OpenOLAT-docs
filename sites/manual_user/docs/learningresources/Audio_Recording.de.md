@@ -1,6 +1,6 @@
 # Audio aufnehmen
 
-## Voraussetzungen
+## Voraussetzungen {: #requirements}
 
 * Wenn in OpenOlat Audios aufgenommen werden sollen, muss zunächst ein Mikrofon verfügbar sein. Es muss grundsätzlich im Device aktiviert worden sein.
 
@@ -14,7 +14,7 @@
 * Auf der Gegenseite muss in OpenOlat die **Möglichkeit zu Audioaufnahmen** durch den/die Administrator:in aktiviert worden sein:<br>
 **Administration > Module > Audio-/Videoaufnahmen**
 
-## Wo können in OpenOlat Audios aufgenommen werden?
+## Wo können in OpenOlat Audios aufgenommen werden? {: #audios_recording}
 
 ### Aufnahme im Media Center
  
@@ -59,7 +59,7 @@ Für Videoaufnahmen, die im Kursbaustein "Aufgabe" aufgezeichnet werden, besteht
 
 Die Audioaufnahme im Kursbaustein "Gruppenaufgabe" funktioniert wie im Kursbaustein "Aufgabe".
 
-## Wo werden die Audioaufnahmen gespeichert?
+## Wo werden die Audioaufnahmen gespeichert? {: #save_audio_recordings}
 
 **Innerhalb eines Kursbausteins aufgenommene Audios** werden auch bei diesem Kursbaustein gespeichert. 
 Die Aufnahmen sind nicht im Autorenbereich, Ablageordner oder im Media Center aufgeführt (Ausnahme: Kursbaustein Seite).
@@ -68,7 +68,7 @@ Die Aufnahmen sind nicht im Autorenbereich, Ablageordner oder im Media Center au
 
 Wird dagegen die **Audioaufnahme im Media Center** gestartet, wird das Audio auch im Media Center gespeichert.
 
-## In welchem Format und welcher Qualität werden Aufnahmen gespeichert?
+## In welchem Format und welcher Qualität werden Aufnahmen gespeichert? {: #audio_format_quality}
 
 In OpenOlat gemachte Audioaufnahmen werden immer als **m4a-Dateien** gespeichert. Dies ist dadurch begründet, dass nur das m4a-Format von allen Browsern unterstützt wird.
 
@@ -78,14 +78,14 @@ Administrator:innen können eine lokale Audio-Konvertierung aktivieren unter<br>
 **Administration > Module > Audio/Video-Aufnahmen > Tab Aufnahmekonfiguration**<br>
 (Siehe auch den [Artikel im Administrations-Handbuch.](https://docs.openolat.org/de/manual_admin/administration/Modules_Audio_Video_Recording/#enable-audio-recording))
 
-## Wieviel Speicherplatz steht für meine Audios zur Verfügung?
+## Wieviel Speicherplatz steht für meine Audios zur Verfügung? {: #audio_storage}
 
 Bsp.: Media Center<br>
 In der linken unteren Ecke sehen Sie den verfügbaren Speicherplatz (für das gesamte Media Center) und wieviel davon bereits belegt ist. Der verfügbare Platz kann von den Administrator:innen bestimmt werden.
 
 ![audio_recording_space_v3_de.png](assets/audio_recording_space_v3_de.png){ class=" shadow lightbox" }
 
-## Wie lassen sich Audiaufnahmen exportieren?
+## Wie lassen sich Audiaufnahmen exportieren? {: #audio_export}
 
 ### Download aus dem Kursbaustein Aufgabe und Gruppenaufgabe
 

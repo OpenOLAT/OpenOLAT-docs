@@ -1,4 +1,4 @@
-#  Course Element "Blog" {: #blog}
+#  Course Element "Blog" {: #course_element_blog}
 
 
 ## Profile
@@ -18,7 +18,7 @@ Similar to the podcast, the blog also serves to provide the latest new content. 
 
 As the course owner / coach of a course, you can, for example, inform the participants of your course about current topics in a blog. You can also keep a more or less regular content blog and thus inform course participants about new aspects of the course topic.
 
-## Course element and learning resource
+## Course element and learning resource {: #course_element_learning_resources}
 
 A blog learning resource must be integrated into each blog course element.
 
@@ -44,7 +44,7 @@ Once the course element has been inserted, the **"Blog learning content"** tab c
     You can find instructions here (German): [Set up subscriptions (video instruction)](https://www.youtube.com/embed/h9gOqt7TR7Q)
 
 
-## Further information
+## Further information {: #further_information}
 
 [Create blogs](../learningresources/Blog_Create.md)<br>
 [Step-by-step instructions: How do I create a blog?](../../manual_how-to/blog/blog.md)<br>

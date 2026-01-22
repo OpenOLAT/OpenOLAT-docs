@@ -18,7 +18,7 @@ Spezialität / Hinweis |
 Als Kursbesitzer:innen / Betreuer:innen eines Kurses können Sie so z.B. in einem Blog die Teilnehmer:innen Ihres Kurses über aktuelle Themen informieren. Sie können auch mehr oder weniger regelmäßig einen inhaltlichen Blog führen und so die Kursteilnehmenden über neue Aspekte zum Veranstaltungsthema informieren.
 
 
-## Kursbaustein und Lernressource
+## Kursbaustein und Lernressource {: #course_element_learning_resources}
 
 In einen Blog-Kursbaustein muss jeweils eine Blog-Lernressource eingebunden werden.
 
@@ -43,7 +43,7 @@ Wurde der Kursbaustein eingefügt, kann im **Tab "Blog-Lerninhalt"**
     Abonnieren Sie den RSS-Feed des Blogs, um keine neuen Einträge zu verpassen. Eine Anleitung dazu finden Sie hier: [Abonnements einrichten (Video-Einführung)](https://www.youtube.com/embed/h9gOqt7TR7Q)
 
 
-## Weitere Informationen
+## Weitere Informationen {: #further_information}
 
 [Blog erstellen](../learningresources/Blog_Create.de.md)<br>
 [Schritt-für-Schritt-Anleitung: Wie erstelle ich einen Blog?](../../manual_how-to/blog/blog.de.md)<br>

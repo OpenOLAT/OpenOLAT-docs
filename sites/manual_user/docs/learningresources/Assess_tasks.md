@@ -1,10 +1,10 @@
-# Assess tasks
+# Assess tasks {: #assess_tasks}
 
 The assessment of handed in tasks can be done by coaches and course owners either in the assessment tool or directly in the course run.
 
 You can find out in detail how tasks and group tasks are evaluated in the assessment tool in the chapter ["Assessment tool"](../learningresources/Assessment_tool_overview.md) → ["Assessing tasks and group tasks"](../learningresources/Assessing_tasks_and_group_tasks.md). The following is a brief description of how the assessment is performed in the run time view:
 
-## Coach view
+## Coach view {: #coach_view}
 
 In the run time view you get to the assessment area by clicking on the corresponding task. If the coach or course owner is participant at the same time in the course the tabs "Favorites" and "All participants" appear. If the assignment is stored directly in the task, the tab "Edit tasks and sample solutions" also appears. If a coach may also create tasks, the tab "Edit tasks and sample solutions" is also visible for him.
 
@@ -24,7 +24,7 @@ If no file is uploaded until the submission deadline it is marked in the overvie
 
 How course participants will see the course element "Task" will be explained in the chapter "Learning Activities in Courses," section ["Task and Group Task"](../learningresources/Course_Elements.md).
 
-### Changing return and feedback documents
+### Changing return and feedback documents {: #return_feedback}
 
 To change the feedback documents of individual participants under "Return and feedback" for a task that has already been completed, coaches can proceed as follows:
 
