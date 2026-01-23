@@ -14,12 +14,14 @@ The Organizations module is optionally available in OpenOlat and must be activat
 
 ## Tab Configuration {: #tab_configuration}
 
-![organisations_tab_config_v1_de.png](assets/organisations_tab_config_v1_de.png){ class="shadow lightbox" }
+![organisations_tab_config_v2_de.png](assets/organisations_tab_config_v2_de.png){ class="shadow lightbox" }
 
 In the Configuration tab
 
 * the organizational structures module is activated
 * e-mail domain mapping is activated (available from Release 20, can only be activated if the Organizations module is activated)
+* the folder for legal documents is activated 
+* in the section "status" informationen for administrators is displayed
 
 The company structure can be mapped in the "Organizations" module. Roles, rights and visibility of courses and content can then be made dependent on membership of a specific organizational unit.
 
@@ -42,6 +44,13 @@ The "Organizational structure" tab shows the organizations that have already bee
 New organizations can be created using the "Create new organization" button, or for existing organizations using the cogwheel and "Create sub-organization". In addition to the designation and the name, a description for the element can be entered. Furthermore, the assignment of the organization type is done here.
 
 If an organizational element is selected in the tree structure, the metadata of the organizational element and other assignments can be adjusted or supplemented. 
+
+![organisations_tab_structure_legal_documents_v1_de.png](assets/organisations_tab_structure_legal_documents_v1_de.png){ class="shadow lightbox" }
+
+**Tab organization structure > tab "Legal documents"**<br>
+If the folder has been activated under Administration > Organizations > Configuration tab, this tab will be displayed for administrators and other administrative roles. Administrators can store documents relating to organization-specific matters in this folder. Other administrative roles only have read access.
+
+
 
 ### Metadaten {: #edit_metadata}
 

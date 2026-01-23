@@ -13,12 +13,14 @@ Das Modul "Organisationen" ist optional in OpenOlat verfügbar und muss in der A
 
 ## Tab Konfiguration {: #tab_configuration}
 
-![organisations_tab_config_v1_de.png](assets/organisations_tab_config_v1_de.png){ class="shadow lightbox" }
+![organisations_tab_config_v2_de.png](assets/organisations_tab_config_v2_de.png){ class="shadow lightbox" }
 
 Im Tab Konfiguration erfolgt
 
 * die Aktivierung des Moduls Organisationsstrukturen
 * die Aktivierung der E-Mail-Domänen-Zuordnung (verfügbar ab Release 20, nur aktivierbar bei aktiviertem Modul Organisationen)
+* die Aktivierung des Ordners für rechtliche Dokumente
+* den Abschnitt "Status", in dem Informationen für Administrator:innen angezeigt werden
 
 Im Modul "Organisationen" kann die Unternehmensstruktur abgebildet werden. Anschliessend können Rollen, Rechte und Sichtbarkeit von Kursen und Inhalten von der Zugehörigkeit zu einer bestimmten Organisationseinheit abhängig gemacht werden.
 
@@ -39,7 +41,13 @@ Im Tab "Organisationsstruktur" finden sich die bereits erstellten Organisationen
 
 Neue Organisationen können über den Button "Neue Organisation erstellen" rechts oben oder bei bestehenden Organisationen durch Klick auf die 3 Punkte und "Unterorganisation erstellen" hinzugefügt werden.  Es ist auch möglich, das Element im Organisationsbaum zu verschieben bzw. direkt eine neue Unterorganisation zu erstellen.
 
-Wird in der Baumstruktur ein Organisationselement ausgewählt, können die Metadaten des Organisationselementes und weitere Zuordnungen angepasst oder ergänzt werden. 
+Wird in der Baumstruktur ein Organisationselement ausgewählt, können die Metadaten des Organisationselementes und weitere Zuordnungen angepasst oder ergänzt werden.
+
+![organisations_tab_structure_legal_documents_v1_de.png](assets/organisations_tab_structure_legal_documents_v1_de.png){ class="shadow lightbox" }
+
+**Tab Organisationsstruktur > Tab "Rechtliche Dokumente"**<br>
+Ist der Ordner unter Administration > Organisationen > Tab Konfiguration aktiviert worden, wird dieses Tab für Administrator:innen und andere administrative Rollen angezeigt. Administrator:innen können darin Dokumente zu organisationsspezifischen Belangen ablegen. Andere administrative Rollen haben nur Lesezugriff.
+
 
 
 ### Metadaten {: #edit_metadata}
