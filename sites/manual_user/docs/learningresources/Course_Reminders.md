@@ -204,6 +204,13 @@ _Example_: A reminder will be sent out 3 days before the final peer review deadl
 This option only affects course elements of the type "Form" for which an end date for completion has been defined in the course editor. 
 _Example_: A reminder will be sent out 2 days before the deadline for completing the form.
 
+[To the top of the page ^](#course_reminders)
+
+---
+
+
+## Notes on configuration of reminders {: #notes}
+
 
 !!! info "When is the e-mail being sent, if I specify a date here?"
 
@@ -213,6 +220,10 @@ _Example_: A reminder will be sent out 2 days before the deadline for completing
     If **"Until date"** is checked, the condition may already be fulfilled at the time the reminder is created and e-mails are sent. This setting is particularly useful in conjunction with another condition, e.g. if "to date" is "the test has been passed", an e-mail is sent "You have qualified on time and will receive ...".
 
     If **"From date"** is used with a date after the time of reminder creation, the e-mails in the "Outbox" will be sent on the first possible sending date when the "By date" has been reached.
+
+    Please note:<br> 
+    An execution period begins at 0:00 a.m. on the start date and ends at 11:59 p.m. on the end date. <br>
+    This means that once the end of the execution period has been reached (the next day), no more reminders will be sent.
 
 
 

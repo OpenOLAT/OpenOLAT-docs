@@ -113,7 +113,7 @@ _Beispiel_: Die Mail wird versandt 1 Tag nachdem ein Zertifikat ausgestellt wurd
 Diese Option wird nur angezeigt, wenn die Zertifikatvergabe aktiviert ist (Kursadministration > Einstellungen > Tab "Bewertung").<br>
 _Beispiel_: Die Mail wird versandt 2 Wochen bevor das Zertifikat abläuft, so dass die Teilnehmenden daran erinnert werden die für das Zertifikat notwendigen Aktivitäten durchzuführen bevor das Zertifikat abläuft.
 
----
+<br>
 
 * **Gruppenmitglieder**<br>
 Auswahl einer bestimmten Gruppe. Nur deren Gruppenmitglieder erhalten die Mail. 
@@ -148,7 +148,7 @@ Die Erinnerungsempfänger:innen müssen einen bestimmten Wert zu einem der folge
     Voraussetzung ist, dass die Angaben auch eingetragen bzw. übertragen wurden.
   
 
----
+<br>
 
 * **Bis Datum**<br>
 Eingabefelder für Datum und Uhrzeit, als Eingabehilfe Button zur Anzeige des Kalenders. Diese Bedingung eignet sich häufig für die Kombination mit anderen Bedingungen.
@@ -156,7 +156,7 @@ Eingabefelder für Datum und Uhrzeit, als Eingabehilfe Button zur Anzeige des Ka
 * **Nach Datum**<br>
 Eingabefelder für Datum und Uhrzeit, als Eingaehilfe Button zur Anzeige des Kalenders. Diese Bedingung eignet sich häufig für die Kombination mit anderen Bedingungen, z.B. wenn bis zu einem bestimmten Termin ein bestimmter Kursfortschritt nicht erreicht wurde.
 
----
+<br>
 
 * **Datum des letzten Versuchs**<br>
 Diese Option bezieht sich auf bewertbare Kursbausteine.
@@ -186,8 +186,7 @@ _Beispiel_: Ein Test-Kursbaustein wurde mit "Bestanden" bewertet.
 Diese Option betrifft nur bewertbare Kursbausteine, für die eine Punktezahl definiert wurde. Der Versand kann dann in Abhängigkeit einer Punktzahl erfolgen.<br>
 _Beispiel_: In einer Checkliste wurden weniger als 3 Punkte erreicht.
 
-
----
+<br>
 
 * **Termin: Aufgabe Zuweisung**<br>
 Diese Option betrifft nur Kursbausteine vom Typ "Aufgabe", bei denen auch die Aufgabenstellung im Kursbaustein abgelegt wurde und ein Termin für die Zuweisung zugeordnet wurde. Der Versand der Erinnerungsmail bezieht sich dann auf den im Kurseditor hinterlegten Termin, z.B. x Tage, Wochen, Monate davor. 
@@ -199,13 +198,18 @@ Diese Option betrifft nur Kursbausteine vom Typ "Aufgabe" bei denen die "Abgabe"
 Diese Option betrifft nur Kursbausteine vom Typ "Aufgabe" bei denen im Workflow die Peer-Review Funktion aktiviert wurde und ein "bis" Datum mit dem Review verknüpft wurde. 
 _Beispiel_: Eine Erinnerung wird 3 Tage vor dem finalen Peer-Review Endtermin verschickt.
 
----
+<br>
 
 * **Termin: Formular ausfüllen**<br>
 Diese Option betrifft nur Kursbausteine vom Typ "Formular" bei denen im Kurseditor ein Endtermin für das Ausfüllen hinterlegt wurde. 
 _Beispiel_: Eine Erinnerung wird 2 Tage vor der Ausfülldeadline für das Formular verschickt.
 
-## Hinweise zur Konfiguration der Erinnerungen
+[Zum Seitenanfang ^](#course_reminders)
+
+---
+
+
+## Hinweise zur Konfiguration der Erinnerungen {: #notes}
 
 
 !!! info "Wann wird die Mail verschickt, wenn ich hier ein Datum angebe?"
@@ -216,6 +220,11 @@ _Beispiel_: Eine Erinnerung wird 2 Tage vor der Ausfülldeadline für das Formul
     Wenn **"Bis Datum"** abgeprüft wird, kann die Bedingung zum Zeitpunkt der Reminder-Erstellung schon erfüllt sein und es werden Mails verschickt. Sinn macht diese Einstellung vor allem in Verbindung mit einer weiteren Bedingung, z.B. Wenn "bis Datum" "der Test bestanden wurde", wird eine Mail verschickt "Sie haben sich termingerecht qualifiziert und erhalten dafür ...".
     
     Wenn **"Nach Datum"** mit einem Datum nach dem Zeitpunkt der Reminder-Erstellung verwendet wird, werden die Mails im "Ausgangskorb" zum erstmöglichen Versandtermin verschickt, wenn das "Nach Datum" erreicht wurde.
+
+    Beachten Sie:<br> 
+    Ein Durchführungszeitraum beginnt am Beginndatum um 0:00 Uhr und endet am Enddatum um 23:59 Uhr. <br>
+    Das bedeutet: Ist das Ende der Durchführung erreicht (nächster Tag), werden keine Erinnerungen mehr gesendet.
+    
 
 
 !!! info "Option davor/danach"
