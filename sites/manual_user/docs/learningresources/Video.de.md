@@ -1,12 +1,20 @@
 # Video: Übersicht {: #overview}
 
-Videos können in OpenOlat an vielen Stellen eingesetzt werden – als eigenständige Lernressource, eingebettet in Kurse oder als Bestandteil von Aufgaben, Tests und Portfolios. Diese Seite gibt einen kurzen Überblick über die Möglichkeiten, Videos in OpenOlat zu erstellen, einzubinden und didaktisch sinnvoll zu nutzen. Details erhalten Sie aus weiteren Seiten.
+Videos können in OpenOlat an vielen Stellen eingesetzt werden – als [eigenständige Lernressource](../learningresources/Learning_resource_Video.de.md), eingebettet in Kurse oder als Bestandteil von Aufgaben, Tests und Portfolios. Diese Seite gibt einen kurzen Überblick über die Möglichkeiten, Videos in OpenOlat zu erstellen, einzubinden und didaktisch sinnvoll zu nutzen. Details erhalten Sie auf weiteren Seiten.
 
 ## Grundsätzliches {: #fundamentals}
 
 In OpenOlat wird zwischen der unabhängigen Nutzung von Videos und der Einbindung von Videos in andere Kontexte unterschieden.
 
-Das zentrale Element für die Bereitstellung von Videos ist die [Lernressource Video](../learningresources/Learning_resource_Video.de.md). Daneben können Videos in vielen weiteren Werkzeugen und Lernressourcen verwendet werden.
+Das zentrale Element für die Bereitstellung von Videos in OpenOlat ist die [Lernressource Video](../learningresources/Learning_resource_Video.de.md).  
+
+Lernressourcen werden im Autorenbereich von OpenOlat erstellt, gemanagt und unter "Meine Einträge" aufgelistet. Weitere Beispiele für Lernressourcen sind Tests, Wikis oder Blogs.
+
+Eine Video-Lernressource kann durch den Upload einer Videodatei oder durch die Einbindung eines externen Videos per Link (z. B. zu YouTube oder Vimeo) angelegt werden. Sie besteht also aus mehr als nur der einzelnen Video-Datei.
+
+Video-Lernressourcen stehen kursübergreifend zur Verfügung. Das bedeutet, dass ein einmal angelegtes Video in mehreren Kursen eingebunden oder auch unabhängig von Kursen mit einer eigenen Freigabe bereitgestellt werden kann.
+
+Daneben können einzelne Videos in vielen weiteren Werkzeugen und Kursbausteinen jenseits der Lernressource Video einbunden werden.
 
 ## Videos erstellen, bereitstellen und einbinden {: #create_publish_embed}
 
@@ -17,13 +25,13 @@ Videos können in OpenOlat auf unterschiedliche Weise eingebunden werden:
 * Verknüpfung externer Videos über einen Link (z. B. YouTube)
 * Einbindung intern vorhandener Videos aus dem eigenen [Media Center](../personal_menu/Media_Center.de.md)
 
-Je nach Werkzeug werden Videos direkt angezeigt oder als anklickbares Element bereitgestellt.
+Welche Optionen konkret möglich sind hängt von der Art der Einbindung ab. Je nach Werkzeug werden Videos direkt angezeigt oder als anklickbares Element bereitgestellt.
 
 ## Wo können Videos in OpenOlat verwendet werden?
 
 ### Als Video Lernressource
 
-Das zentrale Element für Videos in OpenOlat ist die Lernressource Video mit optionalen interaktiven Erweiterungen wie Annotationen oder Quizfragen.
+Das zentrale Element für Videos in OpenOlat ist die [Lernressource Video](../learningresources/Learning_resource_Video.de.md) mit optionalen interaktiven Erweiterungen wie Annotationen oder Quizfragen.
 
 ### Eingebunden in andere Lernressourcen
 

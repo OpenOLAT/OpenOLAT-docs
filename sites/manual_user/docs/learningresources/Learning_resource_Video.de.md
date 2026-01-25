@@ -1,9 +1,10 @@
 # Lernressource: Video
 ![icon_video.png](assets/video_64_0_434343_none.png)
 
-Eine Video-Lernressource wird im Autorenbereich über die Funktion "[Importieren](../area_modules/authoring_new_course.de.md#lernressourcen-importieren)" oder "Importieren URL" erstellt. Dazu im Upload-Fenster die gewünschte Video-Datei auswählen, einen Titel vergeben und auf "Importieren" klicken. 
+Eine Video-Lernressource wird im Autorenbereich über die Funktion "Datei importieren" bzw. "Per URL importieren" [erstellt](../area_modules/authoring_new_course.de.md#lernressourcen-importieren). Dazu im Upload-Fenster die gewünschte Video-Datei auswählen, einen Titel vergeben und bestätigen.
 
-Es öffnet sich im nächsten Schritt die Eingabeseite der ["Einstellungen"](../learningresources/Course_Settings.de.md). 
+Es öffnet sich im nächsten Schritt das Menü ["Einstellungen"](../learningresources/Course_Settings.de.md). der Administration der Lernressource Video.  
+
 
 ![lernressource_video.png](assets/Video_Einstellungen.png)  
 
