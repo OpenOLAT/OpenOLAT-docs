@@ -9,7 +9,7 @@ If OpenOlat is used as a "tool" in the sense of the LTI terminology, existing co
 
 The interaction with the other platforms (also "platform" in the sense of LTI terminology) is configured in the "External platforms" tab. OpenOlat is then the **tool** into which the course from the platforms defined here is integrated.
 
-![LTI_admin_config_v1_de.png](assets/LTI_admin_platform_v1_de.png){ class="shadow lightbox" }
+![LTI_admin_config_v2_de.png](assets/LTI_admin_platform_v2_de.png){ class="shadow lightbox" }
 
 A separate configuration must be set up for each external platform. Use the "New external platform" button to create the connection to a new platform.
 
@@ -37,7 +37,7 @@ In OpenOlat, the following parameters of the external partner instance are recor
 
 After completing the form, enter the public key on the external instance in the tool configuration there.
 
-![LTI_admin_platform_config_v1_de.png](assets/LTI_admin_platform_config_v1_de.png){ class="lightbox" }
+![LTI_admin_platform_config_v2_de.png](assets/LTI_admin_platform_config_v2_de.png){ class="lightbox" }
 
 
 

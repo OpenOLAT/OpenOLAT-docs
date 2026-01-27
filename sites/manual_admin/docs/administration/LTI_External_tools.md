@@ -11,7 +11,7 @@ Administrators must always enable (activate) the integration of external tools (
 
 The communication and secure connection to this tool must then be set up via the configuration in the "External tools" tab.
 
-![LTI_admin_config_v1_de.png](assets/LTI_admin_tools_v1_de.png){ class="shadow lightbox" }
+![LTI_admin_config_v2_de.png](assets/LTI_admin_tools_v2_de.png){ class="shadow lightbox" }
 
 **Examples for external Tools:**
 
@@ -46,7 +46,7 @@ In OpenOlat, the following parameters of the external partner instance are enter
 | Redirect URL(s) 	|  |
 
 
-![LTI_admin_tool_config_v1_de.png](assets/LTI_admin_tool_config_v1_de.png){ class="lightbox" }
+![LTI_admin_tool_config_v2_de.png](assets/LTI_admin_tool_config_v2_de.png){ class="lightbox" }
 
 
 

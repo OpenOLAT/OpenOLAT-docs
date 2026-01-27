@@ -15,7 +15,7 @@ Important terms in LTI terminology:
 
 Before the LTI connection can be set up, LTI must first be activated. The checkbox for this is located at the top of the "Configuration" tab.
 
-![LTI_admin_config_v1_de.png](assets/LTI_admin_config_v1_de.png){ class="shadow lightbox" }
+![LTI_admin_config_v2_de.png](assets/LTI_admin_config_v2_de.png){ class="shadow lightbox" }
 
 ## Deployments
 
@@ -32,7 +32,7 @@ The deployment of a tool determines the extent to which the tool is made availab
 
 Under **Administration > External tools > LTI 1.3 > Tab "Configuration"** administrators can determine who can add deployments.
 
-![LTI_admin_deploy_v1_de.png](assets/LTI_admin_deploy_v1_de.png){ class="shadow lightbox" }
+![LTI_admin_deploy_v2_de.png](assets/LTI_admin_deploy_v2_de.png){ class="shadow lightbox" }
 
 
 ## Further information {: #further_information}

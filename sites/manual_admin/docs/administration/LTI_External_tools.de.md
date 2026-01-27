@@ -11,7 +11,7 @@ Von Administrator:innen muss die Einbindung der externen Tools grundsätzlich er
 
 Anschliessend muss dann durch die Konfiguration im Tab "Externe Tools" die Kommunikation und sichere Verbindung zu diesem Tool eingerichtet werden.
 
-![LTI_admin_config_v1_de.png](assets/LTI_admin_tools_v1_de.png){ class="shadow lightbox" }
+![LTI_admin_config_v2_de.png](assets/LTI_admin_tools_v2_de.png){ class="shadow lightbox" }
 
 **Beispiele für externe Tools:**
 
@@ -49,7 +49,7 @@ In OpenOlat werden unter “Neues Tool hinzufügen” die folgenden Parameter de
 
 
 
-![LTI_admin_tool_config_v1_de.png](assets/LTI_admin_tool_config_v1_de.png){ class="lightbox" }
+![LTI_admin_tool_config_v2_de.png](assets/LTI_admin_tool_config_v2_de.png){ class="lightbox" }
 
 
 ## Weiterführende Informationen {: #further_information}
