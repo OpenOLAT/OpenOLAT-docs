@@ -113,6 +113,9 @@ Die Aufgabe des/der Moderator:in kann auf jeden Fall von Kursbesitzer:innen übe
 
 Abonnieren Sie den RSS-Feed des Blogs, um keine neuen Einträge zu verpassen. Eine Anleitung dazu finden Sie hier: [Abonnements einrichten (Video-Einführung)](https://www.youtube.com/embed/h9gOqt7TR7Q)
 
+Wenn Sie benachrichtigt werden möchten, sobald irgendein neuer Beitrag eingefügt wurde, abonnieren Sie den Blog als Ganzes.
+Wenn Sie nur benachrichtigt werden möchten, sobald ein Kommentar zu einem Blogeintrag abgegeben wurde, können Sie auch ein solches Abo wählen.
+
 Wenn Sie den Link zum Blog weitergeben möchten, finden Sie den Link links über der Beitragsliste im Icon "RSS-Feed".
 
 Möchten Sie den direkten Link zu einem einzelnen Beitrag weitergeben, können Sie sich die URL aus Ihrem Browserfenster kopieren. Ab Release 19.0.2 wird dort der Direktlink angezeigt. 

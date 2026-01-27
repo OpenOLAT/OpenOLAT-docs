@@ -111,6 +111,9 @@ The role of moderator can be taken on by course owners in any case. However, the
 
 Subscribe to the blog's RSS feed to make sure you don't miss any new entries. You can find instructions here: [Set up subscriptions (video instrucions)](https://www.youtube.com/embed/h9gOqt7TR7Q) (German)
 
+If you would like to be notified as soon as a new post is added, subscribe to the blog as a whole.
+If you only want to be notified when a comment is posted on a blog entry, you can also choose this type of subscription.
+
 If you would like to pass on the link to the blog, you will find the link on the left above the list of posts in the "RSS feed" icon.
 
 If you would like to pass on the direct link to an individual post, you can copy the URL from your browser window. From release 19.0.2, the direct link will be displayed there. You can then transfer your blog post from there to your e-Portfolio, for example.
