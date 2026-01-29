@@ -42,12 +42,17 @@ In OpenOlat werden unter “Neues Tool hinzufügen” die folgenden Parameter de
 | Name des Tools		| Frei definierbar |
 | Tool URL				| URL zum externen Tool |
 | Client-ID				| Client ID aus dem Dialog «Platform configuration details» des externen Tools |
+| Mit Shared Deployment | Wenn aktiviert, wird eine Deployment ID generiert, die dazu verwendet werden kann, das Tool zu identifizieren. |
+| Deployment ID         | Einige LTI Tools verwenden eine Deployment ID, andere nicht.  |
 | Öffentlicher Schlüsseltyp | RSA-Schlüssel |
 | Öffentlicher Schlüssel |  |
 | URL der Authentifizierungsanforderung	| Aus der externen Instanz |
-| Umleitungs-URL(s) 	|  |
-
-
+| Umleitungs-URL(s) 	| Die Umleitungs-URL ist dazu da, bei erfolgreicher Authentisierung auf die eigentliche URL des Tools umzuleiten. OpenOlat ruft dazu diese URL in einem iFrame, separaten Browser-Window oder Tab auf. Diese URL wird dann mit einem HTTP 302 oder ähnlich weiterleiten zu einer anderen URL. Und dort wird am Ende das LTI Tool angezeigt. |
+| Deep Linking aktivieren | Deep Linking ist ein LTI Feature. Es erlaubt die bessere Integration von externen Lerninhalten von einem externen LTI tool in OpenOlat. |
+| Plattform-ID | Plattform-ID ist ein von OpenOlat generierte URL, die OpenOlat selber identifiziert.  |
+| URL der Authentifizierungsanforderung | Die URL der Authentifizierungsaufforderung ist Teil der OAuth Authentifizierung. Dazu macht das Tool einen Aufruf auf OpenOlat (also eine Art Callback). |
+| URL für Zugriffstoken | Die URL für das Zugriffstoken ist auch Teil der OAuth Authentifizierung. Damit kann das Tool von OpenOlat einen JWT Web Token anfordern. Es wird als 2. Schritt der OAuth Authentifizierung gebraucht.  |
+| URL des öffentlichen Schlüsselbundes | OAuth braucht Private Public Key Verschlüsselung. An diese URL liefert OpenOlat den Public Key, der oben definiert wurde, aus.  |
 
 ![LTI_admin_tool_config_v2_de.png](assets/LTI_admin_tool_config_v2_de.png){ class="lightbox" }
 

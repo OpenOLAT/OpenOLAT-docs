@@ -73,7 +73,7 @@ The administration of LTI 1.3 is located in OpenOlat under the following path:<b
 
 <details>
     <summary>Screen</summary>
-	<img src="../assets/LTI_share_coures_moodle-setup5_v1_en.png" />
+	<img src="../assets/LTI_share_coures_moodle-setup5_v2_de.png" />
 </details>
 
 Under "External platform" the Moodle instance can be recorded:
@@ -93,7 +93,7 @@ After completing the form, enter the public key on Moodle in the tool configurat
 
 <details>
     <summary>Screen</summary>
-	<img src="../assets/LTI_share_coures_moodle-setup6_v1_en.png" />
+	<img src="../assets/LTI_share_coures_moodle-setup6_v2_en.png" />
 </details>
 
 <br>
@@ -105,7 +105,7 @@ The release of an OpenOlat course (or an OpenOlat group) is done in the settings
 
 <details>
     <summary>Screen</summary>
-	<img src="../assets/LTI_share_coures_moodle-setup7_v1_en.png" />
+	<img src="../assets/LTI_share_coures_moodle-setup7_v2_en.png" />
 </details>
 
 
@@ -118,7 +118,7 @@ Add a deployment for the course (or group):
 
 <details>
     <summary>Screen</summary>
-	<img src="../assets/LTI_share_coures_moodle-setup8_v1_en.png" />
+	<img src="../assets/LTI_share_coures_moodle-setup8_v2_en.png" />
 </details>
 
 <br>

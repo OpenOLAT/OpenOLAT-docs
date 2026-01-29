@@ -73,7 +73,7 @@ Die Administration von LTI 1.3 befindet sich in OpenOlat unter folgendem Pfad:<b
 
 <details>
     <summary>Screen</summary>
-	<img src="../assets/LTI_share_coures_moodle-setup5_v1_en.png" />
+	<img src="../assets/LTI_share_coures_moodle-setup5_v2_de.png" />
 </details>
 
 Unter “Externe Plattorm” kann die Moodle-Instanz erfasst werden:
@@ -93,7 +93,7 @@ Tragen Sie nach Abschluss des Formulars den Öffentlichen Schlüssel auf Moodle 
 
 <details>
     <summary>Screen</summary>
-	<img src="../assets/LTI_share_coures_moodle-setup6_v1_en.png" />
+	<img src="../assets/LTI_share_coures_moodle-setup6_v2_en.png" />
 </details>
 
 <br>
@@ -105,7 +105,7 @@ Die Freigabe eines OpenOlat-Kurses (oder einer OpenOlat-Gruppe) erfolgt in den E
 
 <details>
     <summary>Screen</summary>
-	<img src="../assets/LTI_share_coures_moodle-setup7_v1_en.png" />
+	<img src="../assets/LTI_share_coures_moodle-setup7_v2_en.png" />
 </details>
 
 
@@ -118,7 +118,7 @@ Ergänzen Sie ein Deployment für den Kurs (oder die Gruppe):
 
 <details>
     <summary>Screen</summary>
-	<img src="../assets/LTI_share_coures_moodle-setup8_v1_en.png" />
+	<img src="../assets/LTI_share_coures_moodle-setup8_v2_en.png" />
 </details>
 
 <br>
