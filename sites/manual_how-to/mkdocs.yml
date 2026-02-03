@@ -34,6 +34,8 @@ nav:
     - How do I perform a peer review?: "peer_review/peer_review.md"
     - Communication during an exam: "communication_during_exam/communication_during_exam.md"
     - How do I prepare an exam with the Safe Exam Browser?: "SEB/SEB.md"
+  - Making successes and achievements visible:
+    - How do I make successes and achievements visible?: "achievements/achievements.md"
   - Adjust OpenOlat:
     - Reduce storage consumption: "reduce_storage_consumption/reduce_storage_consumption.md"
     - Lifecycle management: "lifecycle/lifecycle.md"

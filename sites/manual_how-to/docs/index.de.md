@@ -46,6 +46,9 @@
 4. [Kommunikation während einer Prüfung](/de/manual_how-to/communication_during_exam/communication_during_exam)
 5. [Wie bereite ich eine Prüfung mit dem Safe Exam Browser vor?](/de/manual_how-to/SEB/SEB)
 
+## Erfolge und Leistungen sichtbar machen
+1. [Wie mache ich Erfolge und Leistungen sichtbar?](/de/manual_how-to/achievements/achievements)
+
 ## OpenOlat anpassen
 
 1. [Mit welchen Massnahmen kann ich den Speicherverbrauch reduzieren?](/de/manual_how-to/reduce_storage_consumption/reduce_storage_consumption)
