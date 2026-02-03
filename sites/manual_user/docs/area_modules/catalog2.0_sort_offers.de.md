@@ -37,7 +37,7 @@ Es erfolgt keine automatische Sortierung.
 
 **Launchertyp "Beliebte Kurse":**<br>
 Die Reihenfolge der Angebote wird durch die Anzahl der Klicks auf Kursbausteine während den letzten 28 Tage bestimmt. 
-Dabei werden nur Kurse mit Status „Publiziert“ berücksichtigt.
+Dabei werden nur Kurse mit Status "Publiziert" berücksichtigt.
 
 **Launchertyp "Zuletzt veröffentlicht":**<br>
 Die Angebote sind nach Veröffentlichungsdatum geordnet.
