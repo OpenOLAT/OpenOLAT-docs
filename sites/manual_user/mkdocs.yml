@@ -90,6 +90,7 @@ nav:
     - Catalog:
       - Overview: "area_modules/catalog2.0.md"
       - Offers: "area_modules/catalog2.0_angebote.md"
+      - Sort offers: "area_modules/catalog2.0_sort_offers.md"
       - Design: "area_modules/catalog2.0_design.md"
       - External catalog: "area_modules/catalog2.0_web.md"
     - Groups:
