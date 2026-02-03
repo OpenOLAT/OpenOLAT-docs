@@ -30,36 +30,77 @@ Wenn Sie den Katalog V1 einschalten, erscheint der Tab "Konfiguration" und Sie k
 
 ### Tab Startseite {: #tab_start_page}
 
-Auf der Startseite kann man sogenannte **"Launcher"** hinzufügen. Launcher sind die konfigurierbaren Zeilen der Startseite. Standardmässig ist ein Launcher vom Typ "Zuletzt hinzugefügt" aktiviert. Die Launcher kommen in 3 Typen: Statischer Text, Statisch (Manuell auswählen), Taxonomie-Ebenen.
-Allen Launcher kann ich einen sprachabhängigen Namen geben. Dieser Name erscheint dann als Headline über den Kacheln. Die Launcher können auch nur für spezifische Organisationen freigegeben werden. Dies erreiche ich über das Label "Einschränkung auf Organisation".
+Auf der Startseite kann man sogenannte **"Launcher"** hinzufügen. Launcher sind die konfigurierbaren Abschnitte der Startseite. 
 
-#### Taxonomie Launcher
+Die in einem Launcher angezeigten Inhalte werden automatisch je nach gewähltem Launchertyp ausgewählt. Die verfügbaren Launchertypen sind nachstehend beschrieben. Standardmässig ist ein Launcher vom Typ "Zuletzt veröffentlicht" aktiviert. 
 
-Taxonomie Launcher nutzen die Katalogfachbereichsstruktur, um die verschiedenen Taxonomielevel als Baum anzuzeigen.
+Allen Launchern kann ein Name in verschiedenen Sprachen gegeben werden. Der Name erscheint dann als Kopfzeile über den Kacheln. Launcher können auch nur für spezifische Organisationen freigegeben werden. Wählen Sie dazu "Einschränkung auf Organisation". Ausserdem kann separat bestimmt werden, ob ein Launcher im internen und/oder externen Katalig angezeigt wird.
 
-#### (Taxonomie-) Microsite
+![modules_catalog_tab_settings_add_launcher_v1_de.png](assets/modules_catalog_tab_settings_add_launcher_v1_de.png){ class="shadow lightbox" }
 
-Klickt man auf einen Level bei einem Launcher kommt man auf die Taxonomie Microsite. Hier werden alle Kurse angezeigt, die unter diesem Level eingeordnet wurden. Hat die Fachbereichstaxonomie mehrere Level in diesem Strang werden die weiteren Level angezeigt.
 
-Man kann die Kursliste weiter durch Filter oder Suche verfeinern.
+#### Launchertyp "Statischer Text"
 
-#### Statischer Launcher
+In diesem Launcher kann manuell statischer Text hinzufügt werden.
 
-In diesem Launcher kann man statischen Text hinzufügen. Einige Optionen beinhalten: Fett, Kursiv, Textgrösse, Schriftart, Bild hinzufügen, Video hinzufügen, Trennstriche ...
+
+#### Launchertyp "Beliebte Kurse"
+
+Die Reihenfolge der Angebote in diesem Launcher wird durch die Anzahl der Klicks auf Kursbausteine während den letzten 28 Tage bestimmt. Dabei werden nur Kurse mit Status „Publiziert“ berücksichtigt.
+
+
+#### Launchertyp "Zuletzt veröffentlicht"
+
+Die Angebote sind nach Veröffentlichungsdatum geordnet.
+
+
+#### Launchertyp "Zufallsgenerator"
+
+In diesem Lauchner angezeigte Angebote werden in zufälliger Reihenfolge angezeigt.
+
+
+#### Launchertyp "Taxonomieebene"
+
+Taxonomie-Launcher nutzen die Katalogfachbereichsstruktur, um die verschiedenen Taxonomielevel anzuzeigen.
+Die Angebote werden entsprechend dem definierten Taxonomielevel automatisch ausgewählt und dann alphabetisch geordnet angezeigt.
+
+Klickt man in einem Taxonomie-Launcher auf eine der angezeigten Kategorien (Taxonomie-Level), gelangt man auf eine Microsite. Hier werden alle Kurse angezeigt, die unter diesem Level eingeordnet wurden. Hat die Fachbereichstaxonomie mehrere Level in diesem Strang werden die weiteren Level angezeigt.
+
+
+#### Launchertyp "Ausgewählte Lernressourcen"
+
+Die manuell hinzugefügten Lernressourcen können durch Klick auf Doppelpfeile vor den Einträgen geordnet werden.  
+
+
+#### Launchertyp "Ausgewählte Durchführungen"
+
+Die manuell hinzugefügten Durchführungen können durch Klick auf Doppelpfeile vor den Einträgen geordnet werden.
+
+[Zum Seitenanfang ^](#modul_catalog)
+
+---
+
 
 ### Tab Filter {: #tab_filter}
 
+Man kann die Kursliste weiter durch Filter oder Suche verfeinern.
 Dieser Tab steuert, welche Filter auf den Microseiten und der Suchergebnisseite verfügbar sind und vom User genutzt werden können. Filter können z.B. Fachbereiche, Taxonomieebene, Angebotsart, Durchführungsformat, Semester, Lizenz, Hauptsprache, Lernressourcentyp, Autor usw. sein. 
 
 ### Tab Layout {: #tab_layout}
 
 Dieser Tab beinhaltet alles, was das Erscheinungsbild des Katalogs V2 angeht. Man kann den Anzeigetitel des Katalogs anpassen und ein Hintergrundbild für den Header der Startseite auswählen.
 
-Unter **Kacheln Taxonomieebenen Launcher**, kann man das Aussehen der Kacheln der Microsites beeinflussen.
+Unter **Kacheln Taxonomieebenen Launcher**, kann man die Form der Kacheln der Microsites wählen.
 
-Die **Anzeige der Lernressourcen Card** steuert, welche Metadaten auf der Card der Startseite angezeigt werden sollen. Diese Metadaten müssen in der jeweiligen Lernressource unter `Einstellungen > Metadaten` ausgefüllt werden.
+Die **angezeigten Informationen auf der Karte** sind Texte aus den Metadaten, die auf den Karten der Startseite angezeigt werden. Die Metadaten müssen in der jeweiligen Lernressource unter `Einstellungen > Metadaten` ausgefüllt werden.
 
-![Course card administration Options](assets/course-card-admin.de.jpg){class="lightbox"}
+
+![modules_catalog_tab_layout_v1_de.png](assets/modules_catalog_tab_layout_v1_de.png){ class="shadow lightbox" }
+
+[Zum Seitenanfang ^](#modul_catalog)
+
+---
+
 
 ### Verwalten des Kataloges {: #v2_admin}
 
