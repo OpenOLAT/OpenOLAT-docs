@@ -2,7 +2,7 @@
 
 :octicons-tag-24: Release 15.5
 
-## Grundlagen
+## Grundlagen {: #basics}
 
 Wichtige Begriffe in der LTI-Terminologie:
 
@@ -12,13 +12,13 @@ Wichtige Begriffe in der LTI-Terminologie:
 
 ![LTI_share_groups_platform_tool_v1_de.png](assets/LTI_platform_tool_v1_de.png){ class="lightbox" }
 
-## LTI aktivieren
+## LTI aktivieren {: #activate_lti}
 
 Bevor die LTI-Verbindung eingerichtet werden kann, muss zuerst LTI aktiviert werden. Die Checkbox dazu befindet sich im Tab "Konfiguration" an oberster Stelle.
 
 ![LTI_admin_config_v2_de.png](assets/LTI_admin_config_v2_de.png){ class="shadow lightbox" }
 
-## Deployments
+## Deployments {: #deployments}
 
 **Was ist ein Deployment?**
 

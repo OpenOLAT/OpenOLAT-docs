@@ -11,7 +11,7 @@ Das Modul Course Planner ist ab Release 20 optional an Stelle des Moduls Curricu
 		
 	:material-alert: **Nicht Hosting-Kunde von frentix?** Fragen Sie Ihren Systembetreiber!
  
-### Tab Course Planner
+### Tab Course Planner {: #tab_course_planner}
 
 ![modules_course_planner_tab_cp_v2_de.png](assets/modules_course_planner_tab_cp_v2_de.png){ class="shadow lightbox" }
 
@@ -52,7 +52,7 @@ Kurse können für eigenständige Verwendung oder zur Einbindung in ein Produkt 
 [Zum Seitenanfang ^](#module_course_planner)
   
 ---
-## Tab Elementtypen
+## Tab Elementtypen {: #tab_element_types}
 
 ### Definieren von Element-Typen {: #define_element_types}
 
@@ -124,7 +124,7 @@ Typen untergeordnet werden.
   
 ---
 
-## Weitere Informationen
+## Weitere Informationen {: #further_information}
 
 [Wie kann ich mit dem Course Planner Kursdurchführungen planen und durchführen? >](../../manual_how-to/course_planner_courses/course_planner_courses.de.md)<br>
 [Wie kann ich mit dem Course Planner einen Bildungsgang planen und durchführen? >](../../manual_how-to/course_planner_curriculum/course_planner_curriculum.de.md)<br>

@@ -1,4 +1,4 @@
-# Module Catalog
+# Module Catalog {: #modul_catalog}
 
 ## Tab Settings {: #tab_settings}
 

@@ -3,7 +3,7 @@
 :octicons-tag-24: Release 15.5 
 
 
-## OpenOlat als "Platform"
+## OpenOlat als "Platform" {: #openolat_platform}
 
 Wird OpenOlat im Sinn der LTI-Terminologie als "Platform" eingesetzt, werden Kurse von anderen LMS oder andere Applikationen (Tools) auf OpenOlat dargestellt. Typischerweise kann dazu in OpenOlat der Kursbaustein LTI verwendet werden.
 

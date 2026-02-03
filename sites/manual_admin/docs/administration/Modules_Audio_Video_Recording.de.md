@@ -1,6 +1,6 @@
-# Modul Audio-/Video-Recording
+# Modul Audio-/Video-Recording {: #module_audio_video_recording}
 
-## Aufnahmekonfigurationen
+## Aufnahmekonfigurationen {: #recording_config}
 
 ### Videoaufzeichnung aktivieren
   
@@ -26,6 +26,6 @@ Es ist möglich, diese Konvertierung direkt auf dem Server, auf dem OpenOlat lä
 
 Wie Sie ffmpeg lokal installieren, erfahren Sie im Kapitel [ffmpeg](../installation/ffmpeg.md).
 
-## Umstellungsarbeiten
+## Umstellungsarbeiten {: #conversion_jobs}
 
 Dieser Bereich enthält Audio- und Videodateien, die auf eine Konvertierung warten oder die nicht erfolgreich konvertiert werden konnten.

@@ -3,7 +3,7 @@
 
 OpenOlat unterstützt Deep Linking entsprechend dem [LTI 1.3 Deep-Linking Protokoll](https://www.imsglobal.org/spec/lti-dl/v2p0).
 
-## Funktionsbeschreibung
+## Funktionsbeschreibung {: #functional_description}
 
 Deep Linking ist ein Service des LTI 1.3, der es Autor:innen ermöglicht, in den externen Inhalten, die via LTI eingebunden werden, die Kursteilnehmer:innen direkt an eine bestimmte Stelle zu führen.  
 
@@ -12,7 +12,7 @@ Statt im Kursbaustein einen Link zu einem Buch anzugeben und die Lernenden ein e
 
 Damit die OpenOlat-Autor:innen die Deep Links zum externen Tool in den Kursbausteinen ermöglichen können, ohne immer wieder Angaben zu Anmeldung und Parameterübergabe machen zu müssen, kann die Deep Linking Funktion von den Administrator:innen der OpenOlat-Instanz aktiviert werden. Dies vereinfacht die Arbeit der Autor:innen bei der Konfiguration eines LTI-Kursbausteins.
 
-## Verfügbare Features
+## Verfügbare Features {: #available_features}
 
 Zwischen OpenOlat und dem eingebundenen Tool können verschiedene Informationen zu Kurs und Kursteilnehmer:in ausgetauscht werden. In OpenOlat umfasst dies:
 
@@ -32,7 +32,7 @@ Zwischen OpenOlat und dem eingebundenen Tool können verschiedene Informationen 
 * iframe
 
 
-## Konfiguration 
+## Konfiguration {: #configuration}
 
 ### Globale Konfiguration 
 

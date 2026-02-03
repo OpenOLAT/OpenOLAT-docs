@@ -12,7 +12,7 @@ From Release 20, the Course Planner module is optionally available in OpenOlat i
     :material-alert: **Not a hosting client of frentix?** Ask your system operator!
 
 
-### Tab Course Planner
+### Tab Course Planner {: #tab_course_planner}
 
 ![modules_course_planner_tab_cp_v2_de.png](assets/modules_course_planner_tab_cp_v2_de.png){ class="shadow lightbox" }
 
@@ -53,7 +53,7 @@ Courses can be intended for stand-alone use or for integration into a product. A
 
 ---
 
-## Tab "Element types"
+## Tab "Element types" {: #tab_element_types}
 
 ### Define element types {: #define_element_types}
 
@@ -116,7 +116,7 @@ After activation, existing element types can also be subordinated to the new typ
   
 ---
 
-## Further information
+## Further information {: #further_information}
 
 [How can I plan and run courses with the Course Planner? >](../../manual_how-to/course_planner_courses/course_planner_courses.md)<br>
 [How can I plan and run a course with the Course Planner? >](../../manual_how-to/course_planner_curriculum/course_planner_curriculum.md)<br>

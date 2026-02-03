@@ -1,6 +1,6 @@
-# Module Audio/Video Recording
+# Module Audio/Video Recording {: #module_audio_video_recording}
 
-## Recording configuration
+## Recording configuration {: #recording_config}
 
 ### Enable video recording
   
@@ -26,6 +26,6 @@ It is possible to perform this conversion directly on the server running OpenOla
 
 For information on how to install ffmpeg locally, see the chapter [ffmpeg](../installation/ffmpeg.md).
 
-## Conversion jobs
+## Conversion jobs {: #conversion_jobs}
 
 This section contains audio and video files that are waiting to be converted or that failed to be converted successfully.

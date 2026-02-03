@@ -1,7 +1,7 @@
-# Module Contact Tracing
+# Module Contact Tracing {: #contact_tracing}
 
-With this module, OpenOlat enables software-supported physical contact tracing
-at an institution.
+With this module, OpenOlat enables software-supported physical contact tracing at an institution.
+
 
 >  **Wikipedia:** _" In public health,  **contact tracing**  is the process of
 > identifying persons who may have come into contact with an infected person
@@ -9,7 +9,7 @@ at an institution.
 > contacts._ _"_
 
 
-## Overview and practical use
+## Overview and practical use {: #overview_practical}
 
 The Contact Tracing module works with the following five steps:
 
@@ -27,14 +27,9 @@ and is automatically deleted after the time period defined by you.
 <iframe width="300" height="200" src="https://www.youtube.com/embed/4fO16U6iaiU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   
 
-## Activation of the module
+## Activation of the module {: #module_activation}
 
-The "Contact Tracing" module is accessible for the "System Administrator" role
-(Administration → Modules → Contact Tracing). In the "Configuration" tab, the
-module as a whole will be activated and also a retention period and default
-retention period will be defined. The optional and mandatory fields of the
-contact tracing questionnaire are configured here and additional texts and
-messages can be configured.
+The "Contact Tracing" module is accessible for the "System Administrator" role (Administration → Modules → Contact Tracing). In the "Configuration" tab, the module as a whole will be activated and also a retention period and default retention period will be defined. The optional and mandatory fields of the contact tracing questionnaire are configured here and additional texts and messages can be configured.
 
 Locations can be imported or added in the "Locations" tab.
 

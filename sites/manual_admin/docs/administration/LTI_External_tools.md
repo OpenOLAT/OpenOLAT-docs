@@ -3,7 +3,7 @@
 :octicons-tag-24: Release 15.5
 
 
-## OpenOlat as a platform
+## OpenOlat as a platform {: #openolat_platform}
 
 If OpenOlat is used as a "platform" in the sense of LTI terminology, courses from other LMSs or other applications (tools) are displayed on OpenOlat. Typically, the LTI course element can be used in OpenOlat for this purpose.
 

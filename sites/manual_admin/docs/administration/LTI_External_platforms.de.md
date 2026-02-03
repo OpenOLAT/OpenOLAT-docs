@@ -3,7 +3,7 @@
 :octicons-tag-24: Release 15.5
 
 
-## OpenOlat als "Tool"
+## OpenOlat als "Tool" {: #openolat_tool}
 
 Wird OpenOlat im Sinn der LTI-Terminologie als "Tool" eingesetzt, werden in OpenOlat vorhandene Kurse auf einem anderen LMS dargestellt. Seitens OpenOlat müssen für die reibungslose Kommunikation der beiden Systeme Angaben zur empfangenden Plattform (consumer) gemacht werden. 
 
