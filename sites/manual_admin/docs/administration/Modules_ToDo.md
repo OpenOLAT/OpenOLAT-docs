@@ -1,7 +1,7 @@
 # Module To-do {: #To-Do}
 
 
-## Activation
+## Activation {: #activation}
 
 The module "To-Do" as a personal tool must be activated in the administration.
 

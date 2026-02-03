@@ -1,4 +1,4 @@
-# Modul Projekte
+# Modul Projekte {: #module_projects}
 
 :octicons-tag-24: Release 18.0
 
@@ -10,24 +10,24 @@ Administrator:innen können
 ![projects_admin_v1_de.png](assets/projects_admin_v1_de.png){ class="shadow lightbox" }
 
 
-## Einstellungen (Aktivierung des Moduls)
+## Einstellungen (Aktivierung des Moduls) {: #settings}
 
 Projekte können erst erstellt werden, wenn das Modul "Projekte" durch einen/eine Administrator:in eingeschaltet wurde.
 
-## Berechtigungen
+## Berechtigungen {: #authorization}
 
 Als Administrator:in bestimmen Sie, ob **alle registrierten OpenOlat-Benutzer:innen** oder nur **bestimmte Rollen** neue Projekte und Projektvorlagen erstellen dürfen. 
 
 Sollen nur bestimmte Rollen dieses Recht erhalten, können diese genauer spezifiziert werden.
 
-## Rollen
+## Rollen {: #roles}
 
 Als Administrator:in sehen Sie hier neben den **Autor:innen** nur die beiden Systemrollen **Projektverwalter:in** und **Administrator:in**, weil es Rollen sind, die über mehrere Projekte hinweg agieren können (Organisationsrollen).
 
 Die übrigen Rollen und ihre Rechte werden im jeweiligen Projekt bestimmt.
 
 
-## Rollen, projektübergreifend
+## Rollen, projektübergreifend {: #roles_cross_project}
 
 **Projektverwalter:in**
 
@@ -42,7 +42,7 @@ Die übrigen Rollen und ihre Rechte werden im jeweiligen Projekt bestimmt.
 * Administrator:innen können sich zwar selbst zum Mitglied machen, aber das ist dann protokolliert. Auf diese Art soll missbräuchlicher Zugriff eingedämmt werden.
 
 
-## Rollen, projektspezifisch
+## Rollen, projektspezifisch 
 
 Innerhalb eines Projektes können verschiedene Rollen vergeben werden, die nur für das jeweilige Projekt gelten.
 
@@ -84,7 +84,7 @@ Innerhalb eines Projektes können verschiedene Rollen vergeben werden, die nur f
 * Mitglieder des Lenkungsausschusses sind nicht operativ tätig und haben deshalb in OpenOlat nur Leserecht.
 
 
-## Projektmitglieder
+## Projektmitglieder  {: #project_members}
 
 Die Projektmitglieder werden in der Regel durch die Projektleiter:innen zu Projektmitgliedern gemacht. (In der Regel liegt die Projektleitung bei der Person, die das neue Projekt anlegt.) Dabei wird auch die Rolle im Projekt zugewiesen.
 
@@ -95,7 +95,7 @@ Sobald ein Projektmitglied erfasst ist, erhält es einen Link. Nach Aufruf des L
 ![projects_membersmanagements_members_v1_de.png](assets/projects_membersmanagements_members_v1_de.png){ class="shadow lightbox" }
 
 
-## Externe Mitglieder
+## Externe Mitglieder  {: #external_members}
 
 Sollen auch Personen im Projekt mitarbeiten, die nicht in OpenOlat als Benutzer registriert sind, können sie als externe Mitglieder eingeladen werden. Die Nutzungsdauer ist für sie auf 180 Tage begrenzt.
 

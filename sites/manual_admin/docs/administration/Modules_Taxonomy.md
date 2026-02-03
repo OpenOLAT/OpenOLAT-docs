@@ -1,4 +1,4 @@
-# Module Taxonomy
+# Module Taxonomy {: #module_taxonomy}
 
 !!! info "What is a taxonomy?"
 
@@ -33,14 +33,14 @@ If you display a taxonomy, you will get to the following overview:
 
 ![](assets/Tax Metatdata EN.png){ class="shadow lightbox" }
 
-## Metadata
+## Metadata {: #metadata}
 
 When creating the metadata identifier, name and if desired a description can
 be inserted. These data can be edited in the tab "Metadata" afterward.
 Additionally an ID is created automatically and if an external management
 system has created the taxonomy, an external ID is created as well.
 
-## Level types
+## Level types {: #level_types}
 
 Level types are used to give a significance to the taxonomy structure. The can
 for example be created for competence → sphere of activity → subject and sub
@@ -63,7 +63,7 @@ In the tab "Level types" a new type can be created with "Add new level type".
 
 ![overview over taxonomy leveltypes tab](assets/taxonomy-leveltypes.jpg){ class="shadow lightbox" }
 
-## Taxonomy
+## Taxonomy {: #taxonomy}
 
 In this tab the single taxonomy levels are created, imported, exported and shown.
 
@@ -100,14 +100,14 @@ shortly:
 ![overview over the taxonomy gui](assets/taxonomy-overview.jpg){ class="shadow lightbox" }
 
 
-### Export taxonomy
+### Export taxonomy  {: #export}
 
 ![Taxonomie exportieren](assets/Taxonomie_exportieren.png)
 
 The taxonomy is downloaded as a .zip archive by clicking on the menu item. This contains an EXCEL table with the hierarchical structure of the taxonomy level and a folder structure (media/level1/background;media/level1/teaser;) with teaser and background images of the taxonomy, if any are available. (more under -> [Catalog 2.0](../../manual_user/area_modules/catalog2.0.md))
 
 
-### Import taxonomy
+### Import taxonomy {: #import}
 
 **Insert data**
 
@@ -128,7 +128,7 @@ After the import, the taxonomy and the added images are reviewed again in the se
 
 Here you can decide whether you want to overwrite the existing taxonomy levels or just add new taxonomy levels. If you want to add media, you _must_ overwrite the changes here.
 
-### Import/add taxonomy structure only
+### Import/add taxonomy structure only {: #import_add_structure}
 
 1. First download the current taxonomy. If you don't have one yet, use the template.
 
@@ -149,6 +149,6 @@ If you have activated different languages in OpenOlat and use the [Catalog 2.0](
 
 Alternatively, it is also possible to download the existing templates under the respective links and adapt them accordingly.
 
-## Lost+Found
+## Lost+Found {: #lost_found}
 
 All deleted elements of the tab "Taxonomy" end up here. For the moment they cannot be reset.

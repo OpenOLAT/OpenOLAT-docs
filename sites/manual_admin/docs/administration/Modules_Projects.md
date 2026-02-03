@@ -1,4 +1,4 @@
-# Module Projects
+# Module Projects {: #module_projects}
 
 :octicons-tag-24: Release 18.0
 
@@ -9,23 +9,23 @@ Administrators can
 
 ![projects_admin_v1_de.png](assets/projects_admin_v1_de.png){ class="shadow lightbox" }
 
-## Settings (activation of the module)
+## Settings (activation of the module) {: #settings}
 
 Projects can only be created once the "Projects" module has been activated by an administrator.
 
-## Authorizations
+## Authorizations {: #authorization}
 
 As an administrator, you determine whether **all registered OpenOlat users** or only **specific roles** are allowed to create new projects and project templates.
 
 If only certain roles are to receive this right, these can be specified in more detail.
 
-## Roles
+## Roles {: #roles}
 
 As an administrator, you will only see the two system roles **Project administrator** and **Administrator** in addition to the **Authors**, because these are roles that can act across several projects (organizational roles).
 
 The other roles and their rights are determined in the respective project.
 
-## Roles, cross-project
+## Roles, cross-project {: #roles_cross_project}
 
 **Project manager**
 
@@ -80,7 +80,7 @@ Within a project, various roles can be assigned that only apply to the respectiv
 * It is a role in project management, not an OpenOlat role with specific rights.
 * Members of the Steering Committee are not operationally active and therefore only have read-only rights in OpenOlat.
 
-## Project members
+## Project members {: #project_members}
 
 The project members are usually made project members by the project manager. (As a rule, the project manager is the person who creates the new project). The role in the project is also assigned.
 
@@ -90,7 +90,7 @@ As soon as a project member is registered, they receive a link. After clicking o
 
 ![projekte_mitgliederverwaltung_v1_de.png](../administration/assets/projects_membersmanagements_members_v1_de.png){ class="shadow lightbox" }
 
-## External members
+## External members {: #external_members}
 
 If people who are not registered as users in OpenOlat are also to work on the project, they can be invited as external members. The usage period is for them limited to 180 days.
 

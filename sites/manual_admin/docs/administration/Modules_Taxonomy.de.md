@@ -1,4 +1,4 @@
-# Modul Taxonomie
+# Modul Taxonomie {: #module_taxonomy}
 
 !!! info "Was ist eine Taxonomie?"
 
@@ -36,7 +36,7 @@ Lässt man sich eine Taxonomie anzeigen gelangt man zur folgenden Übersicht:
 
 ![](assets/Tax Metatdata DE.png){ class="shadow lightbox" }
 
-## Metadaten
+## Metadaten {: #metadata}
 
 Beim Erstellen werden die Metadaten Kennzeichen und Name, und falls gewünscht
 die Beschreibung eingetragen. Diese Daten können anschliessend im Tab
@@ -44,7 +44,7 @@ die Beschreibung eingetragen. Diese Daten können anschliessend im Tab
 und sofern ein externes Verwaltungssystem die Ebenen angelegt hat, wird die
 Externe ID erstellt.
 
-## Ebenentypen
+## Ebenentypen {: #level_types}
 
 Ebenentypen werden gebraucht, um der Taxonomiestruktur eine Bedeutung zu
 geben. So können beispielsweise die Ebenentypen Kompetenz → Handlungsfeld →
@@ -68,7 +68,7 @@ erstellt werden.
 
 ![Übersicht über die Taxonomy leveltypen](assets/taxonomy-leveltypes.de.jpg){ class="shadow lightbox" }
 
-## Taxonomie
+## Taxonomie {: #taxonomy}
 
 In diesem Tab werden nun die einzelnen Taxonomieebenen erstellt, importiert, exportiert und angezeigt.
 
@@ -104,13 +104,13 @@ kurz umrissen:
 
 ![taxonomy overview](assets/taxonomy-overview.de.jpg){ class="shadow lightbox" }
 
-### Taxonomie exportieren
+### Taxonomie exportieren {: #export}
 
 ![Taxonomie exportieren](assets/Taxonomie_exportieren.png)
 
 Die Taxonomie wird mit Klick auf den Menüpunkt als .zip Archiv heruntergeladen. Darin enthalten ist eine EXCEL-Tabelle mit der hierarchischen Struktur der Taxonomieebenen und eine Ordnerstruktur (media/ebene1/background;media/ebene1/teaser;) mit Teaser- und Hintergrundbildern der Taxonomie, wenn welche vorhanden sind. (mehr unter -> [Katalog 2.0](../../manual_user/area_modules/catalog2.0.de.md))
 
-### Taxonomie importieren
+### Taxonomie importieren {: #import}
 
 **Daten Einfügen**
 
@@ -130,7 +130,7 @@ Nach dem Import werden im zweiten Schritt die Taxonomie und die hinzugefügten B
 
 Hier kann man entscheiden, ob man die existierenden Taxonomieebenen überschreiben lassen will oder nur neue Taxonomieebenen hinzufügen. Falls man Medien hinzufügen möchte, _müssen_ hier die Änderungen überschrieben werden.
 
-### Nur Taxonomie Struktur importieren/hinzufügen
+### Nur Taxonomie Struktur importieren/hinzufügen {: #import_add_structure}
 
 1. Laden Sie die aktuelle Taxonomie herunter oder nutzen Sie die Vorlage unter dem entsprechenden Punkt
 
@@ -152,6 +152,6 @@ Hier kann man entscheiden, ob man die existierenden Taxonomieebenen überschreib
 Alternativ ist es auch möglich, die vorhandene Vorlagen unter den jeweiligen Links herunterzuladen und diese entsprechend anzupassen.
 
 
-## Lost+Found
+## Lost+Found {: #lost_found}
 
 Hier werden alle gelöschten Elemente aus dem Tab "Taxonomie" abgelegt. Momentan können diese jedoch nicht wiederhergestellt werden.

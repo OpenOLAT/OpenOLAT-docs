@@ -8,7 +8,7 @@ Die Konfiguration des Moduls kann von Administrator:innen vorgenommen werden unt
 
 ![modules_quality_management_v1_de.png](assets/modules_quality_management_v1_de.png){ class="shadow lightbox" }
 
-## Einstellungen Qualitätsmanagement
+## Einstellungen Qualitätsmanagement {: #settings_qm}
 
 Mit der ersten Checkbox wird das gesamte Modul aktiviert.
 
@@ -18,12 +18,12 @@ Die Mails werden grundsätzlich von OpenOlat mit der Standardadresse (no-reply) 
 Durch Angabe einer anderen E-Mail in diesem Abschnitt, kann diese Adresse übersteuert werden.
 
 
-## Einstellungen Verbesserungsvorschlag
+## Einstellungen Verbesserungsvorschlag {: #settings_improvement}
 
 Wird die Option aktiviert, wird unter dem Menüpunkt Qualitätsmanagment die Option zur Erstellung von Verbesserungsvorschlägen angzeigt. Die dort erstellten Mails werden an die hier angegebene Mailadresse geschickt.
 
 
-## Datenerhebungsvorschau
+## Datenerhebungsvorschau {: #data_collection_preview}
 
 Diese Vorschau wird nach der Aktivierung angezeigt
 
@@ -40,14 +40,14 @@ Ausserdem kann die Datenerhebungsvorschau in Produkten aufgerufen werden und zei
 Die Datenerhebungsvorschau im Modul "Qualitätsmanagement" bezieht sich auf alle geplanten Erhebungen (nicht nur auf einzelne Kurse). 
 
 
-## Massnahmen To-dos
+## Massnahmen To-dos {: #to_do}
 
 In OpenOlat können an verschiedenen Stellen To-dos erstellt werden (Projekte, Aufgaben, usw.). Im Qualitätsmanagement redet man in der Regel eher von "Massnahmen" als Reaktion auf Erkenntnisse aus einer oder mehreren Erhebungen. Technisch gesehen, handelt es sich bei "Massnahmen" aus dem QM um To-do-Objekte. 
 
 Wird diese Option aktiviert, können Qualitätsmanager:innen To-dos (Massnahmen) erstellen.
 
 
-## Aktivierung der Site
+## Aktivierung der Site {: #site_activation}
 
 Nachdem das Modul aktiviert worden ist, muss noch unter<br>
 **Administration > Customizing > Sites**<br>

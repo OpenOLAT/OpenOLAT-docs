@@ -1,7 +1,7 @@
 # Modul To-do {: #To-Do}
 
 
-## Aktivierung des Moduls
+## Aktivierung des Moduls {: #activation}
 
 Das Modul "To-Do" als persönliches Werkzeug muss durch einen/eine Administrator:in vorgenommen werden.
 
