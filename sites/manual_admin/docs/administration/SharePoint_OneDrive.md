@@ -1,6 +1,6 @@
-# SharePoint / OneDrive
+# SharePoint / OneDrive {: #sharepoint_onedrive}
 
-## SharePoint
+## SharePoint {: #sharepoint}
 
 As of OpenOlat version 19.0, only a single Microsoft Azure app is set up for the integration of SSO via Microsoft Entra ID, Microsoft Teams Online Meetings and Microsoft SharePoint integration.
 
@@ -35,7 +35,7 @@ SharePoint and OneDrive can be integrated individually and independently of each
 
 ---
 
-## OneDrive
+## OneDrive {: #onedrive}
 
 The integration of OneDrive is very similar to SharePoint and can be carried out in the same way as described above.
 

@@ -34,7 +34,7 @@ Auf der Startseite kann man sogenannte **"Launcher"** hinzufügen. Launcher sind
 
 Die in einem Launcher angezeigten Inhalte werden automatisch je nach gewähltem Launchertyp ausgewählt. Die verfügbaren Launchertypen sind nachstehend beschrieben. Standardmässig ist ein Launcher vom Typ "Zuletzt veröffentlicht" aktiviert. 
 
-Allen Launchern kann ein Name in verschiedenen Sprachen gegeben werden. Der Name erscheint dann als Kopfzeile über den Kacheln. Launcher können auch nur für spezifische Organisationen freigegeben werden. Wählen Sie dazu "Einschränkung auf Organisation". Ausserdem kann separat bestimmt werden, ob ein Launcher im internen und/oder externen Katalig angezeigt wird.
+Allen Launchern kann ein Name in verschiedenen Sprachen gegeben werden. Der Name erscheint dann als Kopfzeile über den Kacheln. Launcher können auch nur für spezifische Organisationen freigegeben werden. Wählen Sie dazu "Einschränkung auf Organisation". Ausserdem kann separat bestimmt werden, ob ein Launcher im internen und/oder externen Katalog angezeigt wird.
 
 ![modules_catalog_tab_settings_add_launcher_v1_de.png](assets/modules_catalog_tab_settings_add_launcher_v1_de.png){ class="shadow lightbox" }
 
@@ -46,7 +46,7 @@ In diesem Launcher kann manuell statischer Text hinzufügt werden.
 
 #### Launchertyp "Beliebte Kurse"
 
-Die Reihenfolge der Angebote in diesem Launcher wird durch die Anzahl der Klicks auf Kursbausteine während den letzten 28 Tage bestimmt. Dabei werden nur Kurse mit Status „Publiziert“ berücksichtigt.
+Die Reihenfolge der Angebote in diesem Launcher wird durch die Anzahl der Klicks auf Kursbausteine während den letzten 28 Tage bestimmt. Dabei werden nur Kurse mit Status "Publiziert" berücksichtigt.
 
 
 #### Launchertyp "Zuletzt veröffentlicht"

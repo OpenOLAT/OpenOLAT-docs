@@ -32,22 +32,50 @@ If you activate the catalog V1 you see the tab "configuration" and can configure
 
 ### Tab "Launch page" {: #tab_start_page}
 
-On the start page you can add so-called "**launchers**". Launcher are the configurable lines of the start page.  By default, a launcher of the type "Last added" is activated. The launchers come in 3 types: Static Text, Static (Select Manually), Taxonomy Levels.
-I can give all launchers a language-dependent name. This name then appears as a headline above the tiles. The launchers can also be released for specific organizations only. I achieve this via the label "Restriction to organization".
+You can add so-called **"launchers"** to the start page. Launchers are the configurable sections of the start page.
 
-#### Taxonomy Launcher
+The content displayed in a launcher is automatically selected based on the selected launcher type. The available launcher types are described below. By default, a launcher of the type “Recently published” is activated. 
 
-Taxonomy launchers use the catalog subject area structure to display the different taxonomy levels as a tree.
+All launchers can be given a name in different languages. The name then appears as a header above the tiles. Launchers can also be released only for specific organizations. To do this, select "Restriction to organization." In addition, you can specify separately whether a launcher is displayed in the internal and/or external catalog.
 
-#### (Taxonomy) Microsite
+![modules_catalog_tab_settings_add_launcher_v1_de.png](assets/modules_catalog_tab_settings_add_launcher_v1_de.png){ class="shadow lightbox" }
 
-Clicking on a level in a launcher takes you to the taxonomy microsite. All courses that have been classified under this level are displayed here. If the subject area taxonomy has several levels in this strand, the other levels are displayed.
 
-You can further refine the course list by filtering or searching.
+#### Launcher type "Static text"
 
-#### Static Launcher
+Static text can be added manually in this launcher.
 
-In this launcher one can add static text. Some options include: Bold, Italic, Text size, Font, Add image, Add video, Hyphens ...
+#### Launcher type "Popular courses"
+
+The order of the offers in this launcher is determined by the number of clicks on course elements during the last 28 days. Only courses with the status "Published" are taken into account.
+
+#### Launcher type "Recently published"
+
+The offers are sorted by publication date.
+
+#### Launcher type "Random generator"
+
+The offers displayed in this Lauchner are shown in random order.
+
+#### Launcher type "Taxonomy level"
+
+Taxonomy launchers use the catalog department structure to display the various taxonomy levels.
+The offers are automatically selected according to the defined taxonomy level and then displayed in alphabetical order.
+
+Clicking on one of the categories (taxonomy levels) displayed in a taxonomy launcher takes you to a microsite. All courses classified under this level are displayed here. If the department taxonomy has several levels in this string, the other levels are displayed.
+
+#### Launcher type "Selected learning resources"
+
+The manually added learning resources can be sorted by clicking on the double arrows in front of the entries.  
+
+#### Launcher type "Selected implementations"
+
+The manually added entries can be sorted by clicking on the double arrows in front of the entries.
+
+[To the top of the page ^](#modul_catalog)
+
+---
+
 
 ### Tab Filters {: #tab_filter}
 
@@ -63,6 +91,10 @@ The **Learning Resources Card display** controls which metadata should be displa
 
 ![Course card administration Options](assets/course-card-admin.jpg){class="lightbox"}
 
+[To the top of the page ^](#modul_catalog)
+
+---
+
 ### Management of catalog V2 {: #v2_admin}
 
 Catalog V2 is fed from the subject taxonomy, who can be administrated  under `Administration > Taxonomy`. Users with the role [learning resource manager](../../manual_user/basic_concepts/Roles_Rights.md) and administrator can manage the keywording via the menu.
@@ -77,7 +109,7 @@ Deleting levels only deletes the keywording, not any linked learning resources. 
 
 ![modules_catalog_management2_v1_de.png](assets/modules_catalog_management2_v1_de.png){ class="shadow lightbox" }
 
-The right to manage a catalog or subject area section can be granted to different persons. (Initially, this right is assigned by administrators.) Select the desired subject area section and then the “management” tab.
+The right to manage a catalog or subject area section can be granted to different persons. (Initially, this right is assigned by administrators.) Select the desired subject area section and then the "management" tab.
 
 ![modules_catalog_management4_v1_de.png](assets/modules_catalog_management4_v1_de.png){ class="shadow lightbox" }
 

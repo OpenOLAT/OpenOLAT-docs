@@ -1,4 +1,4 @@
-# Module Video
+# Module Video {: #module_video}
 
 As an administrator activate/deactivate in the **Video configuration** tab,
 
@@ -16,19 +16,19 @@ From version 19.0, the original file (master) can also be deleted or replaced to
 
 
 
-## Tab Video Configuration
+## Tab Video Configuration {: #video_config}
 
 ![video_tab_video_config_v1_en.png](assets/video_tab_video_config_v1_en.png){ class="shadow lightbox" }
 
-## Tab Pending Transcodings
+## Tab Pending Transcodings {: #pending_transcodings}
 
 ![video_tab_pending_transcodings_v1_en.png](assets/video_tab_pending_transcodings_v1_en.png){ class="shadow lightbox" }
 
-## Tab Failed Transcodings
+## Tab Failed Transcodings {: #failed_transcodings}
 
 ![video_tab_failed_transcodings_v1_en.png](assets/video_tab_failed_transcodings_v1_en.png){ class="shadow lightbox" }
 
 
-## Tab Administer Transcodings
+## Tab Manage Transcodings {: #manage_transcodings}
 
 ![video_tab_admin_transcodings_v1_en.png](assets/video_tab_admin_transcodings_v1_en.png){ class="shadow lightbox" }

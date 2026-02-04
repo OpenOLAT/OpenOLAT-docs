@@ -21,11 +21,7 @@ Wird ein OpenOlat-Produkt angeboten, kann per Rechnung bestellt werden.
   
 ## Paypal {: #payment_paypal}
 
-Im Bereich "Paypal" wird Paypal aktiviert. Konfigurieren Sie die PayPal API-
-Berechtigung für den PayPal Zugang mit den Elementen Client ID und Client
-Secret. Diese zwei Sicherheitselemente müssen Sie zuerst in Ihrem PayPal
-Businesskonto erstellen. OpenOlat unterstützt nicht nachträgliche Anderungen
-am Bestellungen von Ihrem Paypal Konto.
+Im Bereich "Paypal" wird Paypal aktiviert. Konfigurieren Sie die PayPal API-Berechtigung für den PayPal Zugang mit den Elementen Client ID und Client Secret. Diese zwei Sicherheitselemente müssen Sie zuerst in Ihrem PayPal Businesskonto erstellen. OpenOlat unterstützt nicht nachträgliche Änderungen an Bestellungen von Ihrem Paypal Konto.
 
 [Zu den Details >](Payment_PayPal.de.md)<br>
 [Zum Seitenanfang ^](#payment)

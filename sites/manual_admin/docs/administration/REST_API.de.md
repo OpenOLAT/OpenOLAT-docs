@@ -1,12 +1,6 @@
 # REST API {: #REST-API}
 
-Das Ziel des REST API ist es, einen einfachen Austausch von URLs zu
-ermöglichen. Es ist beispielsweise möglich, Benutzer und Lerngruppen zu
-verwalten, Kurse zu importieren, oder Kataloge zusammenzustellen. Es kann auch
-zur Integration in andere Systeme benutzt werden, so wie Schülerverwaltung,
-externe Kursverwaltung und/oder externe Lerngruppen-Verwaltung. Es unterstützt
-ebenfalls den Prozess vom Hinzufügen von mehreren System-spezifischen Objekten
-und Kreieren von verschiedensten strukturellen Eigenschaften.
+Das Ziel des REST API ist es, einen einfachen Austausch von URLs zu ermöglichen. Es ist beispielsweise möglich, Benutzer und Lerngruppen zu verwalten, Kurse zu importieren, oder Kataloge zusammenzustellen. Es kann auch zur Integration in andere Systeme benutzt werden, so wie Schülerverwaltung, externe Kursverwaltung und/oder externe Lerngruppen-Verwaltung. Es unterstützt ebenfalls den Prozess vom Hinzufügen von mehreren System-spezifischen Objekten und Kreieren von verschiedensten strukturellen Eigenschaften.
 
 Das REST API kann unter Administration aktiviert / deaktiviert werden.
 
@@ -17,65 +11,57 @@ Das REST API kann unter Administration aktiviert / deaktiviert werden.
 ---
 
 
-## Concept {: #concept}
+## Konzept {: #concept}
 
-"Representational State Transfer" or REST is a style of architecture to be
-primarily used with the HTTP protocol, but not exclusively. In the case of
-HTTP, it utilizes all its features: URIs to describe resources, HTTP Methods
-as "verbs" to manipulate resources (GET to retrieve resources, PUT to create
-new ones, POST to modify them, DELETE...), HTTP Headers and Media Types for
-content negotiation...
+"Representational State Transfer" oder REST ist ein Architekturstil, der in erster Linie mit dem HTTP-Protokoll verwendet wird, jedoch nicht ausschließlich. Im Falle von HTTP nutzt es alle seine Funktionen: URIs zur Beschreibung von Ressourcen, HTTP-Methoden als „Verben“ zur Manipulation von Ressourcen (GET zum Abrufen von Ressourcen, PUT zum Erstellen neuer Ressourcen, POST zum Ändern von Ressourcen, DELETE ...), HTTP-Header und Medientypen für die Inhaltsaushandlung ...
 
-In OpenOlat, the JSR-311: JAX-RS (The Java API for RESTful Web Services) is
-used as a backend for the implementation of our REST API. JSR-311 is a
-standard from J2EE. We use the reference implementation from the following
-standard: [Jersey](https://jersey.dev.java.net/).
+In OpenOlat wird JSR-311: JAX-RS (die Java-API für RESTful-Webdienste) als Backend für die Implementierung unserer REST-API verwendet. JSR-311 ist ein Standard von J2EE. Wir verwenden die Referenzimplementierung aus dem folgenden Standard: [Jersey](https://jersey.dev.java.net/).
 
 
 
-### API Key for REST access 
+### API-Schlüssel für REST-Zugriff 
 
-!!! warning "Attention"
+!!! warning "Achtung"
 
-	This article is still under construction.
+	Dieser Artikel befindet sich noch im Aufbau.
 
 	OO-7290
 
-With the introduction of Passkey and 2FA the current API access via a user-choosable (weak) password is not suitable anymore.
+Mit der Einführung von Passkey und 2FA ist der derzeitige API-Zugriff über ein vom Benutzer wählbares (schwaches) Passwort nicht mehr geeignet.
 
-The solution is to us a dedicated API Key for accessing the REST API. Since the API-key is a generated, long and thus {*}strong password{*}, it can be used even when 2FA is required in the UI.
+Die Lösung besteht darin, einen dedizierten API-Schlüssel für den Zugriff auf die REST-API zu verwenden. Da der API-Schlüssel ein generiertes, langes und somit {*}starkes Passwort{*} ist, kann er auch dann verwendet werden, wenn in der Benutzeroberfläche eine 2FA erforderlich ist.
 
-The API-Key is stored encrypted in OpenOlat the same way as the OpenOlat password using strong encryption. It is revealed to the user only on generation and can not be looked up again if the user looses the key. In this situation, the key needs to be deleted a new one must be generated.
+Der API-Schlüssel wird in OpenOlat genauso wie das OpenOlat-Passwort mit einer starken Verschlüsselung gespeichert. Er wird dem Benutzer nur bei der Generierung angezeigt und kann nicht erneut abgerufen werden, wenn der Benutzer den Schlüssel verliert. In diesem Fall muss der Schlüssel gelöscht und ein neuer generiert werden.
 
-The API-Key can not be used to log into the OpenOlat web application, it is only valid when accessing the REST API.
+Der API-Key kann nicht zum Einloggen in die OpenOlat-Webanwendung verwendet werden, er ist nur für den Zugriff auf die REST-API gültig.
 
-The REST API can still be accessed with a valid user-session, e.g. to access the course DB via Javascript.
+Auf die REST-API kann weiterhin mit einer gültigen Benutzersitzung zugegriffen werden, z. B. um über Javascript auf die Kursdatenbank zuzugreifen.
 
-REST API-Keys can be generated in the user administration.
+REST-API-Schlüssel können in der Benutzerverwaltung generiert werden.
 
-In the REST admin configuration a new configuration can be activated to allow creation of API Keys also for users (disabled by default)
+In der REST-Admin-Konfiguration kann eine neue Konfiguration aktiviert werden, um die Erstellung von API-Schlüsseln auch für Benutzer zu ermöglichen (standardmäßig deaktiviert).
 
-Transition
+Übergang
 
-If the passkey feature is not enabled, the OpenOlat password can still be used also for the REST access
+Wenn die Passkey-Funktion nicht aktiviert ist, kann das OpenOlat-Passwort weiterhin auch für den REST-Zugriff verwendet werden.
 
 
-### limit access to users with API key
+### Zugriff auf Benutzer mit API-Schlüssel beschränken
 
-!!! warning "Attention"
+!!! warning "Achtung"
 
-	This article is still under construction.
+	Dieser Artikel befindet sich noch im Aufbau.
 
 	OO-8745
 
 
-Problem 
-The REST API - when enabled - can be used by all users with an authenticated user session. In many cases this is not desired, the REST API should only be usable by specific users.
+Problem
+Die REST-API kann – wenn sie aktiviert ist – von allen Benutzern mit einer authentifizierten Benutzersitzung verwendet werden. In vielen Fällen ist dies jedoch nicht erwünscht, da die REST-API nur für bestimmte Benutzer verfügbar sein sollte.
 
-Solution 
-With OO-7290 we added specific authentication mechanism for the REST API with a so called API key. This can be used to authenticate when using the REST API independent of a login password (e.g. when using PassKey for login). The generation of such an API can be limited to the user management or allowed by all users.
+Lösung 
+Mit OO-7290 haben wir einen spezifischen Authentifizierungsmechanismus für die REST-API mit einem sogenannten API-Schlüssel hinzugefügt. Dieser kann zur Authentifizierung bei der Verwendung der REST-API unabhängig von einem Anmeldepasswort verwendet werden (z. B. bei Verwendung von PassKey für die Anmeldung). Die Generierung eines solchen API-Schlüssels kann auf die Benutzerverwaltung beschränkt oder allen Benutzern gestattet werden.
 
-An option is added to the REST API config to limit the API usage to users that have an API key. In combination with the generation of the key only by user managers it offers an elegant wayt to grant access to the API only to specific users.
+Der REST-API-Konfiguration wurde eine Option hinzugefügt, um die API-Nutzung auf Benutzer mit einem API-Schlüssel zu beschränken. In Kombination mit der Generierung des Schlüssels ausschließlich durch Benutzermanager bietet dies eine elegante Möglichkeit, nur bestimmten Benutzern Zugriff auf die API zu gewähren.
 
 [Zum Seitenanfang ^](#REST-API)
 
@@ -84,21 +70,13 @@ An option is added to the REST API config to limit the API usage to users that h
 
 ### Benutzung {: #usage}
 
-Das OpenOlat REST API wurde im Sinne von fernen Verwaltungsapplikationen
-entwickelt. Es beinhaltet nicht alle Funktionen, die im web UI vorhanden sind
-und viele Anfragen sind limitiert auf administrative Benutzer so wie Admin,
-Benutzer- oder Gruppenverwalter und Autoren.
+Das OpenOlat REST API wurde im Sinne von fernen Verwaltungsapplikationen entwickelt. Es beinhaltet nicht alle Funktionen, die im web UI vorhanden sind und viele Anfragen sind limitiert auf administrative Benutzer so wie Admin, Benutzer- oder Gruppenverwalter und Autoren.
 
-Einige der Hauptfunktionen des OpenOlat REST API beinhalten beispielsweise das
-Kreieren und Organisieren von Benutzern, Kursen, Gruppen, Organisationen,
-Lehrgängen (Curriculum) oder Kalenderereignissen (Events).
+Einige der Hauptfunktionen des OpenOlat REST API beinhalten beispielsweise das Kreieren und Organisieren von Benutzern, Kursen, Gruppen, Organisationen, Lehrgängen (Curriculum) oder Kalenderereignissen (Events).
 
-Das REST API ist allerdings nicht in der Lage „Roll Calls“ auszuführen oder
-spezifische Einstellungen zu ändern.
+Das REST API ist allerdings nicht in der Lage „Roll Calls“ auszuführen oder spezifische Einstellungen zu ändern.
 
-Obwohl rein theoretisch möglich, ist es nicht im Sinne des Konzepts das API
-als Endbenutzer für eine Implementierung für einen alternativen UI Client zu
-benutzen.
+Obwohl rein theoretisch möglich, ist es nicht im Sinne des Konzepts das API als Endbenutzer für eine Implementierung für einen alternativen UI Client zu benutzen.
 
 [Zum Seitenanfang ^](#REST-API)
 
@@ -107,8 +85,7 @@ benutzen.
 
 ## Sicherheit {: #security}
 
-Die Sicherheit basiert auf einem Zwei-Level-Mechanismus, so wie es in OpenOlat
-entsprechend implementiert wurde.
+Die Sicherheit basiert auf einem Zwei-Level-Mechanismus, so wie es in OpenOlat entsprechend implementiert wurde.
 
   1. Das erste Level ist ein Servletfilter, der alle Anfragen des REST API sammelt. Dieser Filter entscheidet, ob die URI offen für jeden (`/api`, `/ping`, `/auth`…) ist, oder ob es  eine Authentifizierung benötigt. Die Authentifizierung selbst ist zu einem Web Service delegiert.
   2. Das zweite Level passiert in allen Eingangspunkten im REST API. Jede Methode überprüft, ob der Benutzer (wenn dieser authentifiziert sein muss) genügend Rechte hat, um auf der entsprechenden Ressource agieren zu können.

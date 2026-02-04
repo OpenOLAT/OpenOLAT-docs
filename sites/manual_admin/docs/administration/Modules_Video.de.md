@@ -1,4 +1,4 @@
-# Modul Video
+# Modul Video {: #module_video}
 
 Als Administrator:in aktivieren/deaktivieren Sie im **Tab Videokonfiguration**,
 
@@ -15,19 +15,19 @@ Ab Version 19.0 kann die Originaldatei (Master) zur Speicherplatzoptimierung auc
     Wird ein Transcoding-/Konvertierungsservice in einer Cloud genutzt, wird die lokale Audio- und Videokonvertierung deaktiviert.<br> Sind weder ein Service in der Cloud noch die lokale Audio- und Videokonvertierung aktiv, liegt es in der Regel daran, dass HandBrake oder ffmpeg nicht gefunden oder gestartet werden konnten.
 
 
-## Tab Videokonfiguration
+## Tab Videokonfiguration {: #video_config}
 
 ![video_tab_video_config_v1_de.png](assets/video_tab_video_config_v1_de.png){ class="shadow lightbox" }
 
-## Tab Warteschlange
+## Tab Warteschlange {: #pending_transcodings}
 
 ![video_tab_pending_transcodings_v1_de.png](assets/video_tab_pending_transcodings_v1_de.png){ class="shadow lightbox" }
 
-## Tab Fehlgeschlagene Transcodings
+## Tab Fehlgeschlagene Transcodings {: #failed_transcodings}
 
 ![video_tab_failed_transcodings_v1_de.png](assets/video_tab_failed_transcodings_v1_de.png){ class="shadow lightbox" }
 
 
-## Tab Transcodings verwalten
+## Tab Transcodings verwalten {: #manage_transcodings}
 
 ![video_tab_admin_transcodings_v1_de.png](assets/video_tab_admin_transcodings_v1_de.png){ class="shadow lightbox" }
