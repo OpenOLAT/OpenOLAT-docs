@@ -27,7 +27,7 @@
 
 * Punkte können auf Wunsch in [**Noten**](#grades) oder andere Systeme umgerechnet werden.
 
-* tbd  [**Leisungsnachweise**](#evidence_of_achievements) 
+* [**Leisungsnachweise**](#evidence_of_achievements) sind Bestätigungen einer erfolgten Leistungskontrolle, z.B. für absolvierte Tests, abgegebene und bewertete Aufgaben usw.
 
 * Ein erreichtes Ziel in einem Online-Lernprogramm kann mit einem [**Badge**](#badges) belohnt werden.
 
@@ -46,55 +46,58 @@
 
 | Punkte | Noten | Leistungsnachweise | Badges, kursbezogen | Globale Badges | Zertifikate | Kreditpunkte |
 | -------| ----- | ------------------ | ------------------- | -------------- | ----------- | ------------ |
-| tbd      | Bewertung von Leistungen innerhalb eines Kurses, Übersetzung von Punkten in Noten | tbd | Digitales Abzeichen innerhalb eines Kurses | Digitales Abzeichen, unabhängig von einzelnen Kursen | Offizieller Leistungsnachweis im PDF-Format | OpenOlat-interne Währung |
+| Grundlegendes Bewertungs-ystem in OpenOlat | Bewertung von Leistungen innerhalb eines Kurses, Übersetzung von Punkten in Noten | Kursteilnehmende sehen einen Überblick über die bewertbaren Kursbausteine mit ihrem jeweiligen aktuellen Bewertungsstatus | Digitales Abzeichen innerhalb eines Kurses | Digitales Abzeichen, unabhängig von einzelnen Kursen | Offizieller Leistungsnachweis im PDF-Format | OpenOlat-interne Währung |
 
 **Zweck**
 
 | Punkte | Noten | Leistungsnachweise | Badges, kursbezogen | Globale Badges | Zertifikate | Kreditpunkte |
 | -------| ----- | ------------------ | ------------------- | -------------- | ----------- | ------------ |
-| Vergleich der Ergebnisse | Transparente Bewertung der erbrachten Leistung in einem Kurs | tbd | Motivation, Fortschrittsanzeige, Nachweis einzelner Kursleistungen | Anerkennung von Leistungen, die kursübergreifend gelten (z.B. institutionelle Kompetenzen) | Formeller Nachweis für Kursabschluss oder Pflichtschulung | Als Gratifikation für Lernleistungen und Zahlungsmittel für OpenOlat-Kurse |
+| Vergleich der Ergebnisse | Transparente Bewertung der erbrachten Leistung in einem Kurs | Überblick über aktuellen Bewertungsstatus | Motivation, Fortschrittsanzeige, Nachweis einzelner Kursleistungen | Anerkennung von Leistungen, die kursübergreifend gelten (z.B. institutionelle Kompetenzen) | Formeller Nachweis für Kursabschluss oder Pflichtschulung | Als Gratifikation für Lernleistungen und Zahlungsmittel für OpenOlat-Kurse |
 
 **Vergabe**
 
 | Punkte | Noten | Leisungsnachweise | Badges, kursbezogen | Globale Badges | Zertifikate | Kreditpunkte |
 | -------| ----- | ----------------- | ------------------- | -------------- | ----------- | ------------ |
-| In Kursbausteinen (Test) und durch Betreuer:innen | Automatisch, basierend auf erreichten Punkten und der definierten Notenskala im Kurs | tbd | Automatisch oder manuell durch Lehrpersonen im Kurs | Zentral von Admins oder berechtigten Personen vergeben | Automatisch nach Erfüllung der festgelegten Kriterien | für erbrachte Lernleistungen oder durch Betreuer:innen |
+| Automatisch in bewertbaren Kursbausteinen (z.B. Tests) und durch Betreuer:innen | Automatisch, basierend auf erreichten Punkten und der definierten Notenskala im Kurs | Anzeige wird durch Kursbesitzer:innen in den Einstellungen aktiviert | Automatisch oder manuell durch Lehrpersonen im Kurs | Zentral von Admins oder berechtigten Personen vergeben | Automatisch nach Erfüllung der festgelegten Kriterien | für erbrachte Lernleistungen oder durch Betreuer:innen |
 
 
 **Inhalt**
 
 | Punkte | Noten | Leistungsnachweise | Badges, kursbezogen | Globale Badges | Zertifikate | Kreditpunkte |
 | -------| ----- | ------------------ | ------------------- | -------------- | ----------- | ------------ |
-| ganzzahliger Ergebniswert | Note (z.B. 5.0) und erreichte Punkte gemäss Bewertungsskala | tbd | Bild, Titel, Beschreibung, Vergabedatum, Link zur Überprüfung | Bild, Titel, Beschreibung, Vergabedatum, Link zur Überprüfung | Kursname, Name der TeilnehmerIn, Ausstellungsdatum, evtl. Unterschrift/Logo | Guthaben, evtl. in verschiedenen Währungen (Kreditpunktesystemen) |
+| ganzzahliger Ergebniswert | Note (z.B. 5.0) und erreichte Punkte gemäss Bewertungsskala | Fortschrittsanzeige, Punkte, Bestanden, Zertifikat, Gültigkeit des Zertifikats | Bild, Titel, Beschreibung, Vergabedatum, Link zur Überprüfung | Bild, Titel, Beschreibung, Vergabedatum, Link zur Überprüfung | Kursname, Name der TeilnehmerIn, Ausstellungsdatum, evtl. Unterschrift/Logo | Guthaben, evtl. in verschiedenen Währungen (Kreditpunktesystemen) |
 
 
 **Form**
 
 | Punkte | Noten | Leistungsnachweise | Badges, kursbezogen | Globale Badges | Zertifikate | Kreditpunkte |
 | -------| ----- | ------------------ | ------------------- | -------------- | ----------- | ------------ |
-| Zahlwert, sichtbar z.B. nach Abschluss eines Tests auf dem Kursbaustein | Zahlwert, sichtbar in der Bewertungsübersicht im Kurs | tbd | Digitaler Badge mit Metadaten und Link | Digitaler Badge mit Metadaten und Link | PDF-Dokument zum Download, druckbar | virtuelles Kreditpunkte-Guthaben |
+| Zahlwert, sichtbar z.B. nach Abschluss eines Tests auf dem Kursbaustein | Zahlwert, sichtbar in der Bewertungsübersicht im Kurs | Tabelle zur Beschreibung des Status in Grafik, Zahlen, Worten | Digitaler Badge mit Metadaten und Link | Digitaler Badge mit Metadaten und Link | PDF-Dokument zum Download, druckbar | virtuelles Kreditpunkte-Guthaben |
 
 
 **Verwendung**
 
 | Punkte | Noten | Leistungsnachweise | Badges, kursbezogen | Globale Badges | Zertifikate | Kreditpunkte |
 | -------| ----- | ------------------ | ------------------- | -------------- | ----------- | ------------ |
-| Grundsätzliche Methode zur Erfassung von Ergebnissen als Grundlage für Siegertreppchen u.a. | Für Lernende als Rückmeldung zur Leistung, für Lehrpersonen zur Bewertung | tbd | Online teilbar (z.B. LinkedIn, Portfolio) | Online teilbar (z.B. LinkedIn, Portfolio); stärkt institutionelle Reputation | Als formelles Dokument in Bewerbungen oder zur Archivierung nutzbar | als Gratifikation für bestandene Kurse oder als Teilnahmevoraussetzung |
+| Grundsätzliche Methode zur Erfassung von Ergebnissen als Grundlage für Siegertreppchen u.a. | Für Lernende als Rückmeldung zur Leistung, für Lehrpersonen zur Bewertung | Für Lernende als detailierte Rückmeldung | Online teilbar (z.B. LinkedIn, Portfolio) | Online teilbar (z.B. LinkedIn, Portfolio); stärkt institutionelle Reputation | Als formelles Dokument in Bewerbungen oder zur Archivierung nutzbar | als Gratifikation für bestandene Kurse oder als Teilnahmevoraussetzung |
 
 
 **Beispiel-Einsatz**
 
 | Punkte | Noten | Leistungsnachweise | Badges, kursbezogen | Globale Badges | Zertifikate | Kreditpunkte |
 | -------| ----- | ------------------ | ------------------- | -------------- | ----------- | ------------ |
-| Ergebnisse von Fragen, aufaddiert zur Punktesumme eines Tests und Gesamtpunktzahl eines Kurses | Punkte aus Tests oder Aufgaben können automatisch in Noten übersetzt werden (z.B. 50 Punkte = Note 3.0) | tbd | Teilnahme an Modulen, bestandene Aufgaben, Gamification | Auszeichnung für institutionelle Programme, globale Kompetenzen, Organisationsabzeichen | Abschluss eines Pflichtkurses, Nachweis einer Weiterbildung | Rezertifizierung ist erst möglich, wenn eine bestimmte Anzahl Kreditpunkte erworben wurde |
+| Ergebnisse von Fragen, aufaddiert zur Punktesumme eines Tests und Gesamtpunktzahl eines Kurses | Punkte aus Tests oder Aufgaben können automatisch in Noten übersetzt werden (z.B. 50 Punkte = Note 3.0) | Anzeigeoption unter "Mein Kurs" | Teilnahme an Modulen, bestandene Aufgaben, Gamification | Auszeichnung für institutionelle Programme, globale Kompetenzen, Organisationsabzeichen | Abschluss eines Pflichtkurses, Nachweis einer Weiterbildung | Rezertifizierung ist erst möglich, wenn eine bestimmte Anzahl Kreditpunkte erworben wurde |
 
 
 **Erstellung/Konfiguration**
 
 | Punkte | Noten | Leistungsnachweise | Badges, kursbezogen | Globale Badges | Zertifikate | Kreditpunkte |
 | -------| ----- | ------------------ | ------------------- | -------------- | ----------- | ------------ |
-| Durch Autor:innen beim Erstellen der Fragen und Kursbausteine | Im Bewertungswerkzeug des jeweiligen Kurses unter «Punkte in Noten umwandeln» | tbd | Im Kurseditor durch Lehrpersonen | Über OpenOlat-Administration > Open Badges > Globale Badges | Im Kurseditor bei Kurskonfiguration unter «Zertifikat» | innerhalb des Course Planners |
+| Durch Autor:innen beim Erstellen der Fragen und Kursbausteine | Im Bewertungswerkzeug des jeweiligen Kurses unter «Punkte in Noten umwandeln» | Link zum Leistungsnachweis erscheint im Kurs, wenn im Kurs mindestens ein bewertbarer Kursbaustein existiert | Im Kurseditor durch Lehrpersonen | Über OpenOlat-Administration > Open Badges > Globale Badges | Im Kurseditor bei Kurskonfiguration unter «Zertifikat» | innerhalb des Course Planners |
 
+
+
+[pdf zum Download](assets/OpenOlat_Erfolge_und_Leistungen_v1_de.pdf)
 
 [Zum Seitenanfang ^](#achievements)
 
@@ -222,17 +225,18 @@ In einem Kursbaustein oder Kurs erworbene Punkte werden (je nach Voreinstellung 
 ## Checkliste {: #checklist}
 
 - [x] Wurden innerhalb des Kurses die Instrumente zur Ergebnismitteilung konfiguriert? (Siegertreppchen usw.)
-- [x] H? Leisungsnachweise ...
+- [x] Sollen neben Punkten auch Noten oder andere Bewertungen/grafische Symbole vergeben werden?
+- [x] Sind die benötigten Bewertungssysteme eingerichtet?
+- [x] Sind Leistungsnachweise in der Kursadministration aktiviert?
 - [x] Sind Badges generell vom Administrator instanzweit aktiviert?
 - [x] Wurde im Kurs die Badge-Vergabe aktiviert?
 - [x] Soll ein Zertifikat ausgestellt werden?
 - [x] Wurde eine Zertifikatvorlage bereitgestellt?
 - [x] Soll das Zertifikat für einen einzelnen Kurs oder für mehrere Kurse ausgestellt werden?
-- [x] H?
+- [x] Sind Zertifikatsprogramme aktivert?
 - [x] Sollen Kreditpunkte zur Verfügung stehen? 
 - [x] Wurde mindestens ein Kreditpunktesystem eingerichtet? 
-- [x] Sollen verschiedene Kreditpunktesystem ("Währungen") zur vErfügung stehen?
-- [x] H?
+- [x] Sollen verschiedene Kreditpunktesystem ("Währungen") zur Verfügung stehen?
 - [x] Wurden die Kursteilnehmer:innen darüber informiert, wo sie ihre erworbenen Leisungsnachweise, Badges usw. einsehen können? 
 
 [Zum Seitenanfang ^](#achievements)
@@ -259,20 +263,15 @@ In einem Kursbaustein oder Kurs erworbene Punkte werden (je nach Voreinstellung 
   
 
 
-
 **Für Betreuer:innen**:<br>
 
 [Bewertungswerkzeug >](../../manual_user/learningresources/Assessment_tool_overview.de.md)<br>
+[Lernende bewerten >](../../manual_user/learningresources/Assessment_of_learners.de.md)<br>
 [Tests bewerten >](../../manual_user/learningresources/Assessing_tests.de.md)<br>
 [Aufgaben bewerten >](../../manual_user/learningresources/Assess_tasks.de.md)<br>
 [Formular als Rubrik-Bewertung >](../../manual_user/learningresources/Forms_in_Rubric_Scoring.de.md)<br>
-
-Zertifikat im Bewertungswerkzeug ausstellen
-
-Punkte 
-
-manual_user/learningresources/Course_Settings_Assessment/?h=punkte#section_assessment_settings
-
+[Kursbausteine zur Wissensüberprüfung >](../../manual_user/learningresources/Course_Elements.de.md#wissensuberprufung)<br>
+[Punkte >](../../manual_user/learningresources/Course_Settings_Assessment.de.md#section_assessment_settings)<br>
 [Kurseinstellungen, Tab Bewertung >](../../manual_user/learningresources/Course_Settings_Assessment.de.md)<br>
 [Einstufung/Noten >](../../manual_user/learningresources/Assessment_translate_points_in_grades.de.md)<br>
 [Prüfungseinsicht >](../../manual_user/learningresources/Assessment_tool_overview.de.md#prufungseinsicht)<br>
@@ -284,12 +283,6 @@ manual_user/learningresources/Course_Settings_Assessment/?h=punkte#section_asses
 [Ansicht der Zertifikate im persönlichen Menü >](../../manual_user/personal_menu/Certificates.de.md)<br>
 [Ansicht der Kreditpunkte im persönlichen Menü >](../../manual_user/personal_menu/Credit_Points.de.md)<br>
 
-Punkte 
-auf Kursbaustein Test, Startseite
-
-Highscore, Rangliste
-
-Noten
 
 
 [Zum Seitenanfang ^](#achievements)
