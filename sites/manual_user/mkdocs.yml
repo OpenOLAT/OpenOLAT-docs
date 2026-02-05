@@ -34,6 +34,11 @@ nav:
       - Events and absences: "basic_concepts/Events_and_Absences.md"
       - Content Editor: "basic_concepts/Content_Editor.md"
       - Working with media files: "basic_concepts/Working_with_Media_Files.md"
+      - Working with videos:
+        - Overview: "basic_concepts/Video.md"
+        - Video in HTML Pages: "basic_concepts/Video_in_HTML_Pages.md"
+        - Video Upload: "basic_concepts/Video_Upload.md"
+        - Video Recording: "basic_concepts/Video_Recording.md"
       - File Hub: "basic_concepts/File_Hub_Concept.md"
       - Media Center:
         - Concept: "basic_concepts/Media_Center_Concept.md"
@@ -323,11 +328,7 @@ nav:
     - Audio:
       - Audio Recording: "learningresources/Audio_Recording.md" 
     - Video:
-      - Overview: "learningresources/Video.md"
       - Learning resource Video: "learningresources/Learning_resource_Video.md"
-      - Video in HTML Pages: "learningresources/Video_in_HTML_Pages.md"
-      - Video Upload: "learningresources/Video_Upload.md"
-      - Video Recording: "learningresources/Video_Recording.md"
     - Resource folder:
       - Overview: "learningresources/Resource_Folder.md"
     - Form:
