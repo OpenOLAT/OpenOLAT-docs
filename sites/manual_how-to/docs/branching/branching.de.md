@@ -284,7 +284,7 @@ Kurs Administration -> Einstellungen -> Tab "Toolbar" -> "Toolbar sichtbar für 
 [Kursbaustein "Seite" >](../../manual_user/learningresources/Course_Element_Page.de.md)<br>
 [Einstellungen am Kurs >](../../manual_user/learningresources/Course_Settings.de.md)<br>
 [Kurseditor >](../../manual_user/learningresources/General_Configuration_of_Course_Elements.de.md)<br>
-[Videos in OpenOlat >](../../manual_user/learningresources/Video.de.md)<br>
+[Videos in OpenOlat >](../../manual_user/learningresources/Learning_Resource_Video.de.md)<br>
 Quiz bzw. [Test >](../../manual_user/learningresources/Test_editor_QTI_2.1.de.md)
 
 

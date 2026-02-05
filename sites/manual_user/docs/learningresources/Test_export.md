@@ -169,7 +169,7 @@ Then open or unzip the created zip file to access the required files.
 ## Further information {: #further_information}
 
 [How do I procede when creating a test? >](../../manual_how-to/test_creation_procedure/test_creation_procedure.md)<br>
-[General information on tests >](../learningresources/General_Information_on_Tests.md)<br>
+[General information on tests >](../learningresources/Test.md)<br>
 [The Test editor >](Test_editor_QTI_2.1.de.md)<br>
 [Question types >](../learningresources/Test_question_types.md)<br>
 [Configure test questions >](Configure_test_questions.de.md)<br>

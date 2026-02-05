@@ -173,7 +173,7 @@ Erstellte zip-Dateien werden im unteren Bereich unter **"Exportverlauf"** aufgel
 ## Weitere Informationen
 
 [Wie gehe ich vor, wenn ich einen Test erstelle? >](../../manual_how-to/test_creation_procedure/test_creation_procedure.de.md)<br>
-[Allgemeines zu Tests >](../learningresources/General_Information_on_Tests.de.md)<br>
+[Allgemeines zu Tests >](../learningresources/Test.de.md)<br>
 [Der Testeditor >](Test_editor_QTI_2.1.de.md)<br>
 [Fragetypen >](../learningresources/Test_question_types.de.md)<br>
 [Test-Fragen konfigurieren >](Configure_test_questions.de.md)<br>

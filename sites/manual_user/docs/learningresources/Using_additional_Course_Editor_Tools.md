@@ -7,7 +7,7 @@ In the course editor menu you have access to further configuration tools in the 
 ## Administration
 
 Here you have access to various other course tools. You will find information
-on the separate pages of the tools. More information you will find [here](../learningresources/Using_Course_Tools.md).
+on the separate pages of the tools. More information you will find [here](../learningresources/Using_additional_Course_Editor_Tools.md).
 
 
 ## Insert course elements

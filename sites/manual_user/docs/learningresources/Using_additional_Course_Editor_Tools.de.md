@@ -6,8 +6,7 @@ Im Menü des Kurseditors haben Sie Zugriff auf weiteren Konfigurationstools in d
 
 ## Administration
 
-Über die Administration des Kurses haben Sie Zugriff auf diverse weitere Kurswerkzeuge. Informationen dazu
-finden Sie unter "[Einsatz der Kurswerkzeuge](../learningresources/Using_Course_Tools.de.md)".
+Über die Administration des Kurses haben Sie Zugriff auf diverse weitere Kurswerkzeuge. Informationen dazu finden Sie unter "[Kurseditorwerkzeuge](../learningresources/Using_additional_Course_Editor_Tools.de.md)".
 
 
 ## Kursbaustein einfügen

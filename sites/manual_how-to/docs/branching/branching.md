@@ -272,7 +272,7 @@ Remove "Toolbar visible for participants" checkmark
 [Course element "page" >](../../manual_user/learningresources/Course_Element_Page.md)<br>
 [Course settings >](../../manual_user/learningresources/Course_Settings.md)<br>
 [Course editor >](../../manual_user/learningresources/General_Configuration_of_Course_Elements.md)<br>
-[Videos in OpenOlat >](../../manual_user/learningresources/Video.md)<br>
+[Videos in OpenOlat >](../../manual_user/learningresources/Learning_Resource_Video.md)<br>
 Quiz/[Test >](../../manual_user/learningresources/Test_editor_QTI_2.1.md)
 
 

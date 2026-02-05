@@ -1,22 +1,20 @@
 # Einzelne Seite: Video hinzufügen / editieren
 
-![video.png](assets/add_video.png)
 
 Eine weitere Möglichkeit Videos in OLAT Kursen einzubinden ist die Verwendung
-des Kursbausteins „**Einzelne Seite**“.
+des Kursbausteins "**Einzelne Seite**".
 
 Im Kursbaustein "Einzelne Seite" steht Ihnen ein Editor zur Verfügung über den
 Sie auch Videos in eine HTML-Seite einbinden können. Im Tab "Seiteninhalt"
 können Sie den Editor öffnen und gelangen zum Button „Video hinzufügen /
 editieren".
 
-![video_button.png](assets/video_button.png)  
 
 Für die Anzeige greift das Tool auf den in OpenOlat integrierten Mediaplayer
 zurück, was einige Vorteile hat.  
 1. Der Player erkennt das Format selbst, solange die Video- und Audio-Daten
 richtig codiert sind.  
-2. Der Player erkennt, ob ein Benutzer mit einem HTML5-fähigen und Codec-
+1. Der Player erkennt, ob ein Benutzer mit einem HTML5-fähigen und Codec-
 kompatiblen mobile-Browser auf das Video zugreift. In dem Fall werden die
 Filme mit einem HTML5-Tag versehen und können problemlos auch auf iPad o.ä.
 angezeigt werden.  
@@ -39,8 +37,6 @@ abspielen.
   
 
 Die folgenden Optionen stehen Ihnen zur Verfügung
-
-![video_typen.png](assets/Video_Audio_Typen_DE.png)
 
 | Option |  Beschreibung  | 
 ---|---  
@@ -95,23 +91,18 @@ YouTube Filme werden direkt verlinkt, d.h. die Auswahlbox für das Hochladen
 einer Datei wird hier nicht benötigt. Videos können mit dieser Konfiguration
 **direkt integriert** werden.
 
-![einbinden_youtube.png](assets/youtube_embed_DE.png)  
 
 Benutzen Sie als "Adresse" einen direkten Link zu dem Video, erhältlich unter
 dem Link "Teilen"
 
-![teilen_youtube.png](assets/youtube_share.png)
 
 ### Vimeo  
 
 Vimeo Videos werden in OpenOlat ebenfalls direkt verlinkt. Unter "Adresse"
-geben Sie den Link des gewünschten Videos ein.
-
-![einbinden_vimeo.png](assets/vimeo_embed_DE.png)  
+geben Sie den Link des gewünschten Videos ein. 
 
 Einen direkten Link zum Vimeo-Video finden Sie unter dem Link "**Share**".  
 
-![teilen_vimeo.png](assets/vimeo_share_DE.png)
 
 ### Nanoo.tv
 
@@ -119,7 +110,6 @@ Videos von der Plattform [Nanoo.tv](https://portal.nanoo.tv/) können direkt
 verlinkt werden. Für die Nutzung und Anzeige der Videos ist ein Nanoo.tv-
 Account notwendig.
 
-![nanootv.png](assets/Nanoo_tv_DE.png)
 
 Über die URL kann - unabhängig vom Browser - gesteuert werden, ob das Video
 sofort automatisch startet oder nicht. Dafür muss die URL hinter /link/

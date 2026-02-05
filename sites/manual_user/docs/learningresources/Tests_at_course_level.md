@@ -114,7 +114,7 @@ Intended use | Examination test, test with the possibility of examination by the
 Created with | Test editor QTI 2.1| Test editor QTI 2.1
 Question types QTI 2.1| all question types possible | All [question types](Test_question_types.md) possible, but only automatically scorable question types can also be used for points.
 Embedding with course element | Test | Self-test
-Results | appear in the [assessment tool](../learningresources/Assessing_tests.md) and in the [test statistics](../learningresources/Using_Course_Tools.md#test-statistics) and are visible for coaches | appaer _not_ in the [assessment tool](../learningresources/Assessing_tests.md) and in the [test statistics](../learningresources/Using_Course_Tools.md#test-statistics) and are thus not visible for coaches and owners
+Results | appear in the [assessment tool](../learningresources/Assessing_tests.md) and in the [test statistics](../learningresources/Statistics_Test.md) and are visible for coaches | appaer _not_ in the [assessment tool](../learningresources/Assessing_tests.md) and in the [test statistics](../learningresources/Using_additional_Course_Editor_Tools.md) and are thus not visible for coaches and owners
 Archiving of results | yes, personalized | yes, anonymized - however, a personal correlation or feedbacks are not possible
 
 !!! tip "Hint"

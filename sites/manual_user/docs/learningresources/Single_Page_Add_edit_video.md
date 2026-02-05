@@ -1,6 +1,5 @@
 # Single Page: Add / edit video
 
-![video_icon.png](assets/add_video.png)
 
 In the course element "Single page" you will find an editor which you can use
 to integrate videos into the single page. In the tab "Page content" you can
@@ -14,7 +13,7 @@ element. It accesses OpenOlats integrated media player, which has its
 advantages.  
 1. The player automatically detects the format, as long video and audio
 tracks are encoded correctly.  
-2. The player detects whether the user accesses the video with a HTML5
+1. The player detects whether the user accesses the video with a HTML5
 enabled and codec compatible mobile browser. If so, videos will receive a
 HTML5 tag and can be viewed without difficulty on iPad or similar devices.
 
@@ -38,7 +37,6 @@ video learning resource requires the mp4 format.
 
 These are the options available to you:  
 
-![video_types.pngg](assets/Video_Audio_Typen_EN.png)  
 
 | Option | Description  
 ---|---  
@@ -89,11 +87,9 @@ in the address field, or upload the audio file.
 YouTube movies are linked directly, thus bypassing the upload selection field.
 Videos are **directly embedded** this way.  
 
-![embed_youtube.png](assets/youtube_embed_DE.png)  
 
 Use the direct link to the video, available under "**Share**".
 
-![share_youtube.png](assets/youtube_share.png)
 
   
 
@@ -102,19 +98,16 @@ Use the direct link to the video, available under "**Share**".
 Vimeo movies are also linked directly. Enter the link to the desired movie in
 the "Address" field.  
 
-![embed_vimeo.png](assets/vimeo_embed_EN.png)
 
 The direct link to the vimeo video can be found when following the "**Share**"
 link in the homepage.
 
-![share_vimeo.png](assets/vimeo_share_EN.jpg)
 
 ### Nanoo.tv
 
 Videos from the [Nanoo.tv](https://portal.nanoo.tv/) platform can be linked
 directly. A Nanoo.tv account is required to use and display the videos.
 
-![nanootv.png](assets/Nanoo_tv_EN.png)
 
 The URL can be used to control whether the video starts automatically or not.
 Therefore the URL behind /link/ has to be adjusted accordingly.

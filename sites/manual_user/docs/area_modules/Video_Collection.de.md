@@ -74,7 +74,7 @@ Ausserdem kann an dieser Stelle bestimmt werden, ob das Video nur für Mitgliede
 
 [Funktionskonzept Kurse und Lernressourcen > ](../learningresources/General_Functions_Concept.de.md)<br>
 [Lernressource Video > ](../learningresources/Learning_resource_Video.de.md)<br>
-[Video hochladen > ](../learningresources/Video_Upload.de.md)<br>
-[Video aufnehmen > ](../learningresources/Video_Recording.de.md)<br>
-[Videos im Kursbaustein "HTML-Seite" > ](../learningresources/Video_in_HTML_Pages.de.md)<br>
+[Video hochladen > ](../basic_concepts/Video_Upload.de.md)<br>
+[Video aufnehmen > ](../basic_concepts/Video_Recording.de.md)<br>
+[Videos im Kursbaustein "HTML-Seite" > ](../basic_concepts/Video_in_HTML_Pages.de.md)<br>
 

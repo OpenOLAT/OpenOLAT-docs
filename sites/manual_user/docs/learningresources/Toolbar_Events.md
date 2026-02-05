@@ -112,7 +112,7 @@ Technically speaking, runtime data is recorded in these two screens, in contrast
 [Recording and managing absences in a course by course owners: >](../learningresources/Events_and_absences.md)<br>
 [Personal absences >](../personal_menu/Absences.md)<br>
 [Cross-course absence tracking in the coaching tool >](../area_modules/Coaching.md)<br>
-[Cross-course absence management by absence administrators >](../area_modules/Absence_Management.de.md)<br>
+[Cross-course absence management by absence administrators >](../area_modules/Absence_Management.md)<br>
 
 [To the top of the page ^](#toolbar_events)
 

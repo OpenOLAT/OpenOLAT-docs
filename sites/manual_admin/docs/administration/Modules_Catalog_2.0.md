@@ -89,7 +89,7 @@ Under **Tiles Taxonomy Levels Launcher**, one can influence the appearance of th
 
 The **Learning Resources Card display** controls which metadata should be displayed on the card of the start page. This metadata must be filled in in the respective learning resource under `Settings > Metadata`.
 
-![Course card administration Options](assets/course-card-admin.jpg){class="lightbox"}
+![modules_catalog_tab_layout_v1_de.png](assets/modules_catalog_tab_layout_v1_de.png){ class="shadow lightbox" }
 
 [To the top of the page ^](#modul_catalog)
 

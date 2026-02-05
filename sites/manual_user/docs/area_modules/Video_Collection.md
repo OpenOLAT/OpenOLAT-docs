@@ -71,8 +71,8 @@ You can also specify here whether the video should only be visible to members of
 
 [Functional concept courses and learning resources > ](../learningresources/General_Functions_Concept.md)<br>
 [Learning resource video > ](../learningresources/Learning_resource_Video.md)<br>
-[Video upload > ](../learningresources/Video_Upload.md)<br>
-[Video recording > ](../learningresources/Video_Recording.md)<br>
-[Videos in HTML pages > ](../learningresources/Video_in_HTML_Pages.md)<br>
+[Video upload > ](../basic_concepts/Video_Upload.md)<br>
+[Video recording > ](../basic_concepts/Video_Recording.md)<br>
+[Videos in HTML pages > ](../basic_concepts/Video_in_HTML_Pages.md)<br>
 
 
