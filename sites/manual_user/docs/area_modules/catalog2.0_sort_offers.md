@@ -111,6 +111,7 @@ When "Sort by Priority" is selected, a multi-stage sorting process takes place:<
 3. Criterion: Sorting by end date<br>
 4. Criterion: Sorting by title (alphabetically)
 
+If no date is specified, entries without a date are displayed after those with a date.
 
 [To the top of the page ^](#catalog_sort)
 
