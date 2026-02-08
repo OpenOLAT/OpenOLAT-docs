@@ -1,81 +1,77 @@
 # Video: Übersicht {: #overview}
 
-Videos können in OpenOlat an vielen Stellen eingesetzt werden – als [eigenständige Lernressource](../learningresources/Learning_resource_Video.de.md), eingebettet in Kurse oder als Bestandteil von Aufgaben, Tests und Portfolios. Diese Seite gibt einen kurzen Überblick über die Möglichkeiten, Videos in OpenOlat zu erstellen, einzubinden und didaktisch sinnvoll zu nutzen. Details erhalten Sie auf weiteren Seiten.
+Videos lassen sich in OpenOlat auf verschiedene Weise bereitstellen und in unterschiedliche Kontexte integrieren – teils auch direkt in OpenOlat erstellen. Auf dieser Seite erhalten Sie einen schnellen Überblick über die wichtigsten Möglichkeiten. Für weitere Details nutzen Sie die integrierten Links.
+
 
 ## Grundsätzliches {: #fundamentals}
 
-In OpenOlat wird zwischen der unabhängigen Nutzung von Videos und der Einbindung von Videos in andere Kontexte unterschieden.
+Videos können in OpenOlat entweder als eigenständiges Element (z. B. als [Lernressource Video](../learningresources/Learning_resource_Video.de.md) oder über die [Video-Collection](../area_modules/Video_Collection.de.md)) oder eingebettet in andere Kontexte (z. B. Kursbausteine, [Portfolio](../area_modules/The_portfolio_editor_17_1.de.md), [Projekte](../area_modules/Project_VideoAudio.de.md)) genutzt werden.
 
-Das zentrale Element für die Bereitstellung von Videos in OpenOlat ist die [Lernressource Video](../learningresources/Learning_resource_Video.de.md).  
+Je nach Einbindung werden Videos entweder direkt in OpenOlat angezeigt und können manuell oder automatisch gestartet werden – oder sie liegen als Datei vor und können heruntergeladen werden.
 
-Lernressourcen werden im Autorenbereich von OpenOlat erstellt, gemanagt und unter "Meine Einträge" aufgelistet. Weitere Beispiele für Lernressourcen sind Tests, Wikis oder Blogs.
+Das zentrale Element für die Bereitstellung von Videos ist die [Lernressource Video](../learningresources/Learning_resource_Video.de.md). Eine Video-Lernressource kann in Kursen über verschiedene Kursbausteine eingebunden werden,  mit Metadaten versehen und über den Video-Editor weiter ausgestaltet werden. Lernressourcen werden im Autorenbereich erstellt und verwaltet und unter „Meine Einträge“ aufgelistet.
 
-Eine Video-Lernressource kann durch den Upload einer Videodatei oder durch die Einbindung eines externen Videos per Link (z. B. zu YouTube oder Vimeo) angelegt werden. Sie besteht also aus mehr als nur der einzelnen Video-Datei.
+Weitere Details zur [Lernressource Video](../learningresources/Learning_resource_Video.de.md) finden Sie im zugehörigen Kapitel.  
 
-Video-Lernressourcen stehen kursübergreifend zur Verfügung. Das bedeutet, dass ein einmal angelegtes Video in mehreren Kursen eingebunden oder auch unabhängig von Kursen mit einer eigenen Freigabe bereitgestellt werden kann.
+## Wie gelangen Videos in OpenOlat? {: #create_publish_embed}
+Es gibt verschiedene Wege, Videos in OpenOlat bereitzustellen:
 
-Daneben können einzelne Videos in vielen weiteren Werkzeugen und Kursbausteinen jenseits der Lernressource Video einbunden werden.
+* Video als [Datei hochladen](../basic_concepts/Video_Upload.de.md)
+* Video als Link zu einem außerhalb von OpenOlat, im Internet, vorliegenden Video einbinden
+* Video direkt in OpenOlat z.B. per Webcam [aufnehmen](../learningresources/Video_Recording.de.md)
 
-## Videos erstellen, bereitstellen und einbinden {: #create_publish_embed}
 
-Videos können in OpenOlat auf unterschiedliche Weise eingebunden werden:
+Es stehen nicht in allen Kontexten alle drei Varianten zur Verfügung.
 
-* Upload einer Videodatei (z.B. MP4)
-* Direkte [Aufnahme](../learningresources/Video_Recording.de.md) per Webcam oder Mobilgerät innerhalb von OpenOlat
-* Verknüpfung externer Videos über einen Link (z. B. YouTube)
-* Einbindung intern vorhandener Videos aus dem eigenen [Media Center](../personal_menu/Media_Center.de.md)
-
-Welche Optionen konkret möglich sind hängt von der Art der Einbindung ab. Je nach Werkzeug werden Videos direkt angezeigt oder als anklickbares Element bereitgestellt.
-
-## Wo können Videos in OpenOlat verwendet werden?
-
-### Als Video Lernressource
-
-Das zentrale Element für Videos in OpenOlat ist die [Lernressource Video](../learningresources/Learning_resource_Video.de.md) mit optionalen interaktiven Erweiterungen wie Annotationen oder Quizfragen.
-
-### Eingebunden in andere Lernressourcen
-
-* z.B. Integriert in den Lernressourcen [Podcast](../learningresources/Podcast.de.md), [Blog](../learningresources/Blog.de.md) oder [CP Editor](../learningresources/CP_Editor.de.md)
-* als separate Datei in der Lernressource [Ressourcenordner](../learningresources/Resource_Folder.de.md) zur kursübergreifenden Nutzung
-
-### In Kursen
-
-Videos können in diversen Kursbausteinen eingesetzt werden. In den Kursbausteinen ...
-
-* Video
-* Videoaufgabe
-* Seite
-* HTML-Seite
-* Podcast
-* Blog
-* Ordner (als Datei)
-* Test (für Fragen und Antworten)
-
-### In weiteren Kontexten
-
-* OpenOlat [Projekte](../area_modules/Project_VideoAudio.de.md) (Datei-Upload)
-* [Gruppen](../groups/Using_Group_Tools.de.md) (im Ordner-Werkzeug als Datei-Upload und im Forum als Anhang)
-* [E-Portfolios](../area_modules/The_portfolio_editor_17_1.de.md) (als Element im Portfolio-Editor)
-* In den ["Persönlichen Werkzeugen"](../personal_menu/Personal_folders.md) Media Center und im File Hub zur Dateiablage
-* [Video Collection](../area_modules/Video_Collection.de.md) als Übersicht aller freigegebenen Video-Lernressourcen
-* Nutzung als Teaser-Video im Katalog und auf der [Info-Seite](../learningresources/Info_page.de.md) von Kursen und Lernressourcen
 
 ## Darstellung von Videos
 
-Videos können in OpenOlat unterschiedlich dargestellt werden:
+Je nach Einbindung werden Videos in OpenOlat unterschiedlich dargestellt:
 
-* Direkt eingebettet und abspielbar, z. B. im Kursbaustein Video oder Seite, in HTML-Seiten oder im E-Portfolio
-* Als Link oder Anhang, der per Klick geöffnet wird, z. B. im Ordner oder Forum (teilweise auch als Download)
+* Direkt eingebettet und abspielbar, z. B. im Kursbaustein Video oder Seite, in HTML-Seiten oder im E-Portfolio
+* Als Link oder Anhang, der per Klick geöffnet wird, z. B. im Kursbaustein Ordner oder Forum
 
-## Typische Einsatzszenarien
+## Wofür können Videos in OpenOlat verwendet werden?
 
-Videos können in OpenOlat genutzt werden...
+Videos können genutzt werden z.B. ...
 
-* als Informations- und Lehr-/Lerninhalte
-* als Feedback oder Musterlösung durch Lehrende
-* als Abgabeform bei Aufgaben durch Lernende
-* für interaktive Videos mit zusätzlichen Lernaktivitäten in der Lernressource Video oder in der Video-Aufgabe
-* als Sammlung von eigenen Lernreflexionen im Blog oder Portfolio
+
+* als Informations- und Lehr-/Lerninhalte, <br>
+z. B. in Kursen über den Kursbaustein Video und die Lernressource Video
+* als Abgabeform durch Lernende, über den Kursbaustein Aufgabe oder Gruppenaufgabe
+* als Feedback oder Musterlösung durch Lehrende, über den Kursbaustein Aufgabe oder Gruppenaufgabe
+* für interaktive Videos mit zusätzlichen Lernaktivitäten (Quizfragen, Kapitelstruktur, Anmerkungen), in der Lernressource Video oder in der Video-Aufgabe
+* als Sammlung eigener Lernreflexionen, z. B. im Blog oder Portfolio
+* für Fragen oder Antworten in OpenOlat Tests
+* als Teaser-Video im Katalog und auf der [Info-Seite](../learningresources/Info_page.de.md) von Kursen und veröffentlichten Lernressourcen
+
+
+
+## Videos in OpenOlat Kursbausteinen einbauen
+
+Videos können in diversen Kursbausteinen eingesetzt werden. Dabei werden unterschiedliche Wege verwendet: 
+
+* Kursbausteine: Video, Videoaufgabe
+
+Hier wird eine Verknüpfung zu einer Lernressource Video hergestellt bzw. eine neue Lernressource Video per Upload oder URL erstellt.
+
+* Kursbaustein: Seite
+
+Es wird eine Verknüpfung zum Media-Center hergestellt. Videos können hochgeladen, per URL eingebunden oder direkt aufgezeichnet werden.  
+
+* Kursbaustein: HTML-Seite
+
+Es wird der Tiny HMTL-Editor verwendet. Hier besteht die Möglichkeit bestimmte Video-Typen per URL einzubinden oder embed-Code im HTML-Quellcode Fenster zu verwenden. 
+
+* Kursbaustein: Podcast, Blog
+
+Hier kann ein Video direkt in die Lernressource hochgeladen werden. 
+
+* Kursbaustein: Ordner, Teilnehmer Ordner
+
+Es wird eine Video-Datei ohne direkte Anzeige bereitgestellt (z.B. als Download). Videos können hochgeladen oder aufgezeichnet werden. 
+
+Ferner sind Videos als Anhang eines Foren-Postings oder einer Mitteilung, als Diskussionselement der Datei-Diskussion oder als Teaser-Video bei der Themenbörse möglich.
 
 
 ## Links
@@ -84,24 +80,25 @@ Videos können in OpenOlat genutzt werden...
 * [Video hochladen](Video_Upload.de.md)
 * [Video aufnehmen](Video_Recording.de.md)
 
-* [Lernressource Video](Learning_resource_Video.de.md) und [Video Collection](Learning_resource_Video.de.md#menu-video-collection)
+* [Lernressource Video](../learningresources/Learning_resource_Video.de.md)
+* [Video Collection](../area_modules/Video_Collection.de.md)
 * Videos im [Media Center](../personal_menu/Media_Center.de.md)
 
 ### Videos in Kursen:
 
-* [im Kursbaustein "Video"](Course_Element_Video.de.md)
+* [im Kursbaustein "Video"](../learningresources/Course_Element_Video.de.md)
 
 * [im Kursbaustein "Videoaufgabe"](../learningresources/Course_Element_Video_Task.de.md)
 
-* [im Kursbaustein HTML-Seite](Video_in_HTML_Pages.de.md)
+* im Kursbaustein HTML-Seite
 
-* [im Kursbaustein "Seite"](Course_Element_Page.de.md)
+* [im Kursbaustein "Seite"](../learningresources/Course_Element_Page.de.md)
 
-* [im Kursbaustein "Video Livestream"](Course_Element_Video_Livestream.de.md)
+* [im Kursbaustein "Video Livestream"](../learningresources/Course_Element_Video_Livestream.de.md)
 
-* [im Kursbaustein "Podcast"](Course_Element_Podcast.de.md)
+* [im Kursbaustein "Podcast"](../learningresources/Course_Element_Podcast.de.md)
 
-* [im Kursbaustein "Mediasite"](Course_Element_Mediasite.de.md)
+* [im Kursbaustein "Mediasite"](../learningresources/Course_Element_Mediasite.de.md)
 
 
 !!! info "Info"
