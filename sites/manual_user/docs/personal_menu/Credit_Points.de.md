@@ -46,7 +46,7 @@ Kreditpunkte können auch als Währung verwendet werden. Die Möglichkeit, mit K
 
 [Kreditpunkte in Kursen vergeben >](../learningresources/Course_Settings_Assessment.de.md#4_green_24png-abschnitt-kreditpunkte--section_credit_points)<br>
 [Kreditpunkte systemweit aktivieren (Administration) >](../../manual_admin/administration/e-Assessment_Credit_Points.de.md)<br>
-
+[Wie mache ich Erfolge und Leistungen sichtbar? >](../../manual_how-to/achievements/achievements.de.md)<br>
 
 [Zum Seitenanfang ^](#credit_points)
 

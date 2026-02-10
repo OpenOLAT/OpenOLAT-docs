@@ -40,11 +40,9 @@ Es können die folgenden Angebotsarten/-typen erstellt werden:
 
 ## Angebotsarten für Durchführungen (im Course Planner)
 
-
 ![offer_types_course_planner1_v1_de.png](assets/offer_types_course_planner1_v1_de.png){ class="shadow lightbox" }
 
 ![offer_types_course_planner2_v1_de.png](assets/offer_types_course_planner2_v1_de.png){ class="shadow lightbox" }
-
 
 
 [zum Seitenanfang ^](#offer_types)

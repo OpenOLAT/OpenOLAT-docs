@@ -43,7 +43,7 @@ Credit points can also be used as currency. The option to pay for additional cou
 
 [Assigning credit points in courses >](../learningresources/Course_Settings_Assessment.md#4_green_24png-section-credit-points--section_credit_points)<br>
 [Activate credit points system-wide (administration) >](../../manual_admin/administration/e-Assessment_Credit_Points.md)<br>
-
+[How do I make successes and achievements visible? >](../../manual_how-to/achievements/achievements.md)<br>
 
 [To the top of the page ^](#credit_points)
 
