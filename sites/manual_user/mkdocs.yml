@@ -25,6 +25,7 @@ nav:
         - Search other users: "basic_concepts/Search_Person.md"
         - Search in a course:  "basic_concepts/Search_in_Course.md"
         - Search in the file hub:  "basic_concepts/Search_in_FileHub.md"
+      - Offer concepts: "basic_concepts/Offer_Concepts.md"
       - Portal configuration: "basic_concepts/Portal_configuration.md"
       - Chat: "basic_concepts/Chat.md"
       - Table concept: "basic_concepts/Table_Concept.md"
