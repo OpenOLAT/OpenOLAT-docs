@@ -39,15 +39,15 @@ Wenn Sie dann auf einen Benutzernamen klicken, öffnet sich wiederum das Bewertu
  
 ## Weiterführende Informationen {: #further_information}
  
-[Coaching: Personensuche >](../../manual_user/area_modules/Coaching_User_Search.de.md)<br>
-[Coaching: Personen >](../../manual_user/area_modules/Coaching_People.de.md)<br>
-[Coaching: Kurse >](../../manual_user/area_modules/Coaching_Courses.de.md)<br>
-[Coaching: Bildungsprodukte >](../../manual_user/area_modules/Coaching_Educational_Products.de.md)<br>
-[Coaching: Termine / Absenzen >](../../manual_user/area_modules/Coaching_Events_Absences.de.md)<br>
-[Coaching: Bewertungsaufträge >](../../manual_user/area_modules/Coaching_assessment_orders.de.md)<br>
-[Coaching: Reports >](../../manual_user/area_modules/Coaching_Reports.de.md)<br>
-[Coaching: Auftragsverwaltung >](../../manual_user/area_modules/Coaching_Order_Management.de.md)<br>
-[Rollen >](../../manual_user/basic_concepts/Roles.de.md)<br>
-[Bewertungswerkzeug >](../../manual_user/learningresources/Assessment_tool_overview.de.md)<br>
+[Coaching: Personensuche >](../area_modules/Coaching_User_Search.de.md)<br>
+[Coaching: Personen >](../area_modules/Coaching_People.de.md)<br>
+[Coaching: Kurse >](../area_modules/Coaching_Courses.de.md)<br>
+[Coaching: Bildungsprodukte >](../area_modules/Coaching_Educational_Products.de.md)<br>
+[Coaching: Termine / Absenzen >](../area_modules/Coaching_Events_Absences.de.md)<br>
+[Coaching: Bewertungsaufträge >](../area_modules/Coaching_assessment_orders.de.md)<br>
+[Coaching: Reports >](../area_modules/Coaching_Reports.de.md)<br>
+[Coaching: Auftragsverwaltung >](../area_modules/Coaching_Order_Management.de.md)<br>
+[Rollen >](../basic_concepts/Roles.de.md)<br>
+[Bewertungswerkzeug >](../learningresources/Assessment_tool_overview.de.md)<br>
  
 [Zum Seitenanfang ^](#groups)

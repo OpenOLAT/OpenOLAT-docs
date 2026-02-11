@@ -323,7 +323,7 @@ Wird eine Teilnehmer:in in der Benutzerverwaltung ausgewählt, befindet sich dor
 [Wie kann ich mit dem Course Planner Zertifikatsprogramme erstellen? (Schritt für Schritt-Anleitung) >](../../manual_how-to/certification_programs/certification_programs.de.md)<br>
 [Zertifikate in Einzelkursen >](../learningresources/Course_Settings_Assessment_Certificate.de.md)<br>
 [Zertifikate im persönlichen Menü >](../../manual_user/personal_menu/Certificates.de.md)<br>
-[Course Planner: Durchführungen >](../../manual_user/personal_menu/Course_Planner_Implementations.de.md)<br>
+[Course Planner: Durchführungen >](../area_modules/Course_Planner_Implementations.de.md)<br>
 [Kreditpunkte im persönlichen Menü >](../../manual_user/personal_menu/Credit_Points.de.md)<br>
 [Kreditpunkte (Administration) >](../../manual_admin/administration/e-Assessment_Credit_Points.de.md)<br>
 

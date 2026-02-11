@@ -63,7 +63,7 @@ Der [Kursbaustein "Teilnehmer:innen Ordner"](../learningresources/Course_Element
 
 ### Ordner im Kursbaustein "Aufgabe" bzw. "Gruppenaufgabe" {: #course_element_task}
 
-Innerhalb des Workflows eines [Kursbausteins "Aufgabe"](../learningresources/]Course_Element_Task.de.md) und ["Gruppenaufgabe"](../learningresources/Course_Element_Grouptask.de.md) werden verschiedene Dokument von Betreuenden oder Teilnehmenden hoch- und heruntergeladen: Aufgabenstellung, abgegebene Dokumente, zurück gegebene Dokumente, überarbeitete Dokumente und Musterlösung. 
+Innerhalb des Workflows eines [Kursbausteins "Aufgabe"](../learningresources/Course_Element_Task.de.md) und ["Gruppenaufgabe"](../learningresources/Course_Element_Grouptask.de.md) werden verschiedene Dokument von Betreuenden oder Teilnehmenden hoch- und heruntergeladen: Aufgabenstellung, abgegebene Dokumente, zurück gegebene Dokumente, überarbeitete Dokumente und Musterlösung. 
 Für alle Dateien stehen innerhalb des Kursbausteins Ordner zur Verfügung, die nur innerhalb des Kursbausteins zugänglich sind.
 
 [Zu den Details >](../learningresources/Course_Element_Task.de.md#workflow)<br>

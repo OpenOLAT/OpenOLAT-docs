@@ -9,7 +9,7 @@ Videos können in OpenOlat entweder als eigenständiges Element (z. B. als [Lern
 
 Je nach Einbindung werden Videos entweder direkt in OpenOlat angezeigt und können manuell oder automatisch gestartet werden – oder sie liegen als Datei vor und können heruntergeladen werden.
 
-Das zentrale Element für die Bereitstellung von Videos ist die [Lernressource Video](../learningresources/Learning_resource_Video.de.md). Eine Video-Lernressource kann in Kursen über verschiedene Kursbausteine eingebunden werden,  mit Metadaten versehen und über den Video-Editor weiter ausgestaltet werden. Lernressourcen werden im Autorenbereich erstellt und verwaltet und unter „Meine Einträge“ aufgelistet.
+Das zentrale Element für die Bereitstellung von Videos ist die [Lernressource Video](../learningresources/Learning_resource_Video.de.md). Eine Video-Lernressource kann in Kursen über verschiedene Kursbausteine eingebunden werden,  mit Metadaten versehen und über den Video-Editor weiter ausgestaltet werden. Lernressourcen werden im Autorenbereich erstellt und verwaltet und unter "Meine Einträge" aufgelistet.
 
 Weitere Details zur [Lernressource Video](../learningresources/Learning_resource_Video.de.md) finden Sie im zugehörigen Kapitel.  
 
@@ -18,7 +18,7 @@ Es gibt verschiedene Wege, Videos in OpenOlat bereitzustellen:
 
 * Video als [Datei hochladen](../basic_concepts/Video_Upload.de.md)
 * Video als Link zu einem außerhalb von OpenOlat, im Internet, vorliegenden Video einbinden
-* Video direkt in OpenOlat z.B. per Webcam [aufnehmen](../learningresources/Video_Recording.de.md)
+* Video direkt in OpenOlat z.B. per Webcam [aufnehmen](../basic_concepts/Video_Recording.de.md)
 
 
 Es stehen nicht in allen Kontexten alle drei Varianten zur Verfügung.
@@ -103,5 +103,5 @@ Ferner sind Videos als Anhang eines Foren-Postings oder einer Mitteilung, als Di
 
 !!! info "Info"
 
-    Wenn Sie in Ihrer OpenOlat Instanz weder den Kursbaustein noch die Lernressource "Video" finden oder das Menü "Video Collection nicht sehen, so wurde dies systemweit von den Administrator:innen ausgeschaltet.
+    Wenn Sie in Ihrer OpenOlat Instanz weder den Kursbaustein noch die Lernressource "Video" finden oder das Menü "Video Collection" nicht sehen, so wurde dies systemweit von den Administrator:innen ausgeschaltet.
 

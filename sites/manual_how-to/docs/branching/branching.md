@@ -269,7 +269,7 @@ Remove "Toolbar visible for participants" checkmark
 
 [Example course for branching "Select well" (created by vcrp) >](https://olat.vcrp.de/url/RepositoryEntry/4575461519?guest=true&lang=de) <br>
 [Course element "HTML page" >](../../manual_user/learningresources/Course_Element_HTML_Page.md)<br> 
-[Course element "page" >](../../manual_user/learningresources/Course_Element_Page.md)<br>
+[Course element "Page" >](../../manual_user/learningresources/Course_Element_Page.md)<br>
 [Course settings >](../../manual_user/learningresources/Course_Settings.md)<br>
 [Course editor >](../../manual_user/learningresources/General_Configuration_of_Course_Elements.md)<br>
 [Videos in OpenOlat >](../../manual_user/learningresources/Learning_Resource_Video.md)<br>

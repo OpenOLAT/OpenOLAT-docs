@@ -40,7 +40,7 @@ In der Video Collection werden Video-Lernressourcen Ihrer OpenOlat-Instanz aufge
 
 !!! info "Hinweis"
 
-    Im [Kursbaustein "HTML-Seite"](../learningresources/Video_in_HTML_Pages.de.md) direkt mit Angabe einer URL verlinkte Videos sind nicht als Lernressource in OpenOlat vorhanden und werden deshalb nicht in die Video Collection aufgenommen.
+    Im [Kursbaustein "HTML-Seite"](../basic_concepts/Video_in_HTML_Pages.de.md) direkt mit Angabe einer URL verlinkte Videos sind nicht als Lernressource in OpenOlat vorhanden und werden deshalb nicht in die Video Collection aufgenommen.
 
 
 [zum Seitenanfang ^](#video_collection)

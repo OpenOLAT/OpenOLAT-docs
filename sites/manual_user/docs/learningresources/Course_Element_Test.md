@@ -239,7 +239,7 @@ Attribute | ![Test](assets/test.png){ class=size16 } Test | ![Selbsttest](assets
  Question types QTI 2.1 | All [Question types](Test_question_types.md) possible | All [Question types](Test_question_types.md) possible, but only automatically assessable question types can be used for points.
  Integration with course module | Test | Self-test
  Number of views by course participants | configurable | unlimited
- Results | appear in [Assessment tool](../learningresources/Assessment_tool_overview.md) as well as in [Test statistics](../learningresources/Using_Course_Tools.md#statistics) and can be viewed by coaches | do _not_ appear in [Assessment tool](../learningresources/Assessment_tool_overview.md) and in the Test statistics and are not personalized for coaches and owners to view
+ Results | appear in [Assessment tool](../learningresources/Assessment_tool_overview.md) as well as in [Test statistics](../learningresources/Using_additional_Course_Editor_Tools.md) and can be viewed by coaches | do _not_ appear in [Assessment tool](../learningresources/Assessment_tool_overview.md) and in the Test statistics and are not personalized for coaches and owners to view
  Data archiving | Yes, personalized | Yes, anonymized. However, personal allocation or feedback is not possible.
 
 !!! tip "Hint"

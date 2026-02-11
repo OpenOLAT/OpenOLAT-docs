@@ -13,7 +13,7 @@ Im Tab "Info" haben Sie Möglichkeit eine Beschreibung einzutragen, die auch ang
 
 !!! info "Info"
 
-    Wird eine Datei importiert muss diese im .mp4 Format vorliegen. Weitere technische Infos finden Sie [hier](Video_Upload.de.md).
+    Wird eine Datei importiert muss diese im .mp4 Format vorliegen. Weitere technische Infos finden Sie [hier](../basic_concepts/Video_Upload.de.md).
 
 !!! note "Hinweis für YouTube Videos"
 
@@ -78,7 +78,7 @@ Segmente werden im Kursbaustein Videoaufgabe benötigt. Es sind Videoabschnitte,
 2. Öffnen Sie unter "Administration" den Kurseditor.
 3. Wählen Sie den Kursbaustein aus oder fügen Sie einen neuen Kursbaustein ein (Video oder Videoaufgabe).
 4. **a) Kursbaustein "Videoaufgabe"**:<br> Im Tab "Konfiguration" finden Sie den Abschnitt "Videoelemente anzeigen". Dort müssen Sie die Segmente aktiviert finden, denn eine Videoaufgabe braucht zwingend Segmente.<br>
-**b) Kursbaustein "Video"**:<br> Im Tab „Lerninhalt“ finden Sie den Abschnitt "Videoelemente anzeigen". Dort können Sie die Anzeige der Segmente ein- oder ausblenden.
+**b) Kursbaustein "Video"**:<br> Im Tab "Lerninhalt" finden Sie den Abschnitt "Videoelemente anzeigen". Dort können Sie die Anzeige der Segmente ein- oder ausblenden.
 
 ### Kommentare
 

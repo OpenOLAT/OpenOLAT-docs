@@ -159,7 +159,7 @@ Es können Video-Dateien hochgeladen (und in OpenOlat gespeichert) werden oder L
 
 Im Kurbaustein eingefügte Video-Dateien können bei Bedarf später auch wieder ausgetauscht werden.
 
-Detaillierte Information zum Einbinden von Videos finden Sie hier: ["Videos in HTML-Seiten"](../learningresources/Video_in_HTML_Pages.de.md).
+Detaillierte Information zum Einbinden von Videos finden Sie hier: ["Videos in HTML-Seiten"](../basic_concepts/Video_in_HTML_Pages.de.md).
 
 
 !!! tip "Tipp"
@@ -169,7 +169,7 @@ Detaillierte Information zum Einbinden von Videos finden Sie hier: ["Videos in H
 
 ### Videorecording
 
-Siehe ["Video aufnehmen"](../learningresources/Video_Recording.de.md).
+Siehe ["Video aufnehmen"](../basic_concepts/Video_Recording.de.md).
 
 
 ### Musik (.MP3)

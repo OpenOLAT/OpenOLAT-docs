@@ -140,7 +140,7 @@ In addition to the course elements, there are other tools and learning resources
 
 ## Performance assessment
 
-A number of course elements can be used either for summative or formative assessment, or serves as performance control tool. The assessable course elements can be viewed in the [assessment tool](../learningresources/Using_Course_Tools.md#UsingCourseTools-_bewertungswerkzeug). Further information on these modules can be found, among other things, in the chapter ["Assessment"](../learningresources/Assessment.md):
+A number of course elements can be used either for summative or formative assessment, or serves as performance control tool. The assessable course elements can be viewed in the [assessment tool](../learningresources/Using_additional_Course_Editor_Tools.md). Further information on these modules can be found, among other things, in the chapter ["Assessment"](../learningresources/Assessment.md):
 
 * [Task](../learningresources/Assessment.md) (manual assessment)
 * [Group task](../learningresources/Assessment.md)(Manual assessment)

@@ -156,7 +156,7 @@ The tool uses the media player integrated in OpenOlat for the display, which has
 Video files can be uploaded (and saved in OpenOlat) or links to external videos (e.g. YouTube) can be set.
 
 Video files inserted in the course module can also be replaced later if required.
-Detailed information on integrating videos can be found here: ["Videos in HTML pages"](../learningresources/Video_in_HTML_Pages.md).
+Detailed information on integrating videos can be found here: ["Videos in HTML pages"](../basic_concepts/Video_in_HTML_Pages.md).
 
 
 !!! tip "Hint"
@@ -166,7 +166,7 @@ Detailed information on integrating videos can be found here: ["Videos in HTML p
 
 ### Video recording
 
-See ["Video Recording"](../learningresources/Video_Recording.md).
+See ["Video Recording"](../basic_concepts/Video_Recording.md).
 
 
 ### Music (.mp3)

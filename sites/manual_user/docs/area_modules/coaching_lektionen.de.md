@@ -4,7 +4,7 @@
 
 !!! info "Hinweis"
 
-    Dieses Werkzeug wird im Coaching Tool nur angezeigt, wenn es von den Administrator:innen [aktiviert](../../../manual_admin/docs/administration/Modules_Events_and_Absences.de.md) wurde.
+    Dieses Werkzeug wird im Coaching Tool nur angezeigt, wenn es von den Administrator:innen [aktiviert](../../manual_admin/administration/Modules_Events_and_Absences.de.md) wurde.
 
     Ausserdem muss mindestens in einem Kurs die Termin- und Absenzverwaltung eingeschaltet sein. Das Einschalten erfolgt unter: Kursadaministration -> Tab "Durchführung" -> Haken bei "Termin und Absenzverwaltung einschalten" setzen.
     
