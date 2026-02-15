@@ -1,25 +1,132 @@
 # Lernressource: Video
 ![icon_video.png](assets/video_64_0_434343_none.png)
 
-Eine Video-Lernressource wird im Autorenbereich über die Funktion "Datei importieren" bzw. "Per URL importieren" [erstellt](../area_modules/authoring_new_course.de.md#lernressourcen-importieren). Dazu im Upload-Fenster die gewünschte Video-Datei auswählen, einen Titel vergeben und bestätigen.
+Eine Video-Lernressource wird im Autorenbereich über die Funktion "Datei importieren" bzw. "Per URL importieren" [erstellt](../area_modules/authoring_new_course.de.md#lernressourcen-importieren). 
 
-Es öffnet sich im nächsten Schritt das Menü ["Einstellungen"](../learningresources/Course_Settings.de.md). der Administration der Lernressource Video.  
+![Lernressource erstellen](assets/Video_Ressource_erstellen.jpg)
+
+!!! info "Hinweis"
+
+    Der Weg der Erstellung unterscheidet sie von den meisten anderen OpenOlat Lernressourcen die über den "Erstellen" Button erstellt werden. Dieser Weg ist sinnvoll, da da Video selbst nicht in OpenOlat erstellt, sondern nur über einen Lernressourcen Container bereitgestellt wird. 
+
+Im nächsten Schritt öffnet sich das Menü ["Einstellungen"](../learningresources/Course_Settings.de.md) der Administration der Lernressource Video.  
 
 
 ![lernressource_video.png](assets/Video_Einstellungen.png)  
 
+## "Einstellungen" der Lernressource Video - Überblick der Tabs
 
-Im Tab "Info" haben Sie Möglichkeit eine Beschreibung einzutragen, die auch angezeigt werden kann, wenn die Lernressource Video in einen Kurs eingebaut wird. Wie man Videos der Lernressource Video generell in einen Kurs einbindet erfahren Sie im Kapitel ["Kursbaustein Video"](Course_Element_Video.de.md).
+Die Tabs , "Freigabe" unterscheiden sich nicht weiter von denen anderer Ressourcen und werden in anderen Kapiteln näher erläutert. 
+
+Der Tab "Katalog" erscheint nur wenn der Katalog 1.0 in der OpenOlat Instanz aktiviert ist. 
+
+### Tab Info
+
+Im Tab "Info" haben Sie Möglichkeit eine Beschreibung einzutragen, die zusätzlich  angezeigt werden kann, wenn die Lernressource Video in einen Kurs eingebaut wird. Wie man Videos der Lernressource Video generell in einen Kurs einbindet erfahren Sie im Kapitel ["Kursbaustein Video"](Course_Element_Video.de.md).
 
 !!! info "Info"
 
-    Wird eine Datei importiert muss diese im .mp4 Format vorliegen. Weitere technische Infos finden Sie [hier](../basic_concepts/Video_Upload.de.md).
+    Wird eine Datei in die Lernrssource Video importiert muss diese im .mp4 Format vorliegen. Weitere technische Infos finden Sie [hier](../basic_concepts/Video_Upload.de.md).
 
 !!! note "Hinweis für YouTube Videos"
 
     Werden über "Importieren URL" YouTube Videos importiert, werden dabei auch Metadaten der YouTube Datei, wie der Titel oder ein Startbild übernommen.
 
-    
+
+### Metadaten
+
+Im Tab "Metadaten" finden Sie generelle Angaben zum Video wie Erstelldatum und Dateigrösse. Ferner haben Sie die Möglichkeit wie in anderen Lernressourcen auch, Informationen zu Autor*innen, Fachbereichen, Hauptsprache, Zeitaufwand und Lizenz zu hinterlegen.
+
+### Poster konfigurieren
+
+Im Tab "Poster konfigurieren" legen Sie fest, mit welchem Vorschaubild das Video im Kursbereich, im Katalog, auf der Video Collection-Seite, auf der Infoseite, im Autorenbereich sowie im Kurs angezeigt werden soll. 
+
+Mit Hilfe der Schaltfläche "Poster ersetzen" können Sie zwischen verschiedenen Standbildern des Videos wählen oder alternativ über die Schaltfläche "Poster hochladen" ein eigenes Bild als Startbild (Poster) hochladen. Falls kein Poster ausgewählt wurde, erscheint das Standbild vom Beginn des Videos.
+
+!!! info "Achtung"
+
+    Bitte beachten Sie, dass ein hochgeladenes Bild dieselben Abmessungen in Pixel haben sollte wie das Originalvideo. Die entsprechenden Daten dazu finden Sie im Tab "Metadaten".
+
+###  Tab "Untertitel konfigurieren"  {: #video_subtitles}
+
+Hier können Sie eine extern erstellte VTT-Datei dem Video zusweisen und die entsprechende Sprache auswählen. Laden Sie dafür einfach die entsprechenden Untertitel Dateien hoch.
+
+Einem Video können Untertitel in beliebig vielen Sprachen zugewiesen werden. Untertitel werden in OpenOlat im [WebVTT Format](https://w3c.github.io/webvtt/) hochgeladen ([Wikipedia- Artikel](https://en.wikipedia.org/wiki/WebVTT)). Die hochgeladene Datei muss .vtt abgespeichert sein. Dieses Format wird von der meisten Video-Player-Software unterstützt.
+
+#### Darauf sollten Sie achten:
+
+!!! note "Hinweis"
+
+    In der ersten Zeile des VTT-Dokuments muss das Schlüsselwort WEBVTT stehen, gefolgt von einer leeren Zeile.
+
+Vor jeder Untertitelzeile wird eine Zeitangabe benötigt, die im folgenden Format vorliegen muss:
+
+!!! note "Hinweis"
+
+    hh\:mm\:ss.msec 
+
+    Beispiel: 00:00:20.396 (Zeitangabe 0 Stunden, 0 Minuten, 20.396 Sekunden)
+
+    Millisekunden müssen bis auf die 3. Nachkomma-Stelle genau angegeben werden.
+
+!!! warning "Achtung"
+
+    Die Trennzeichen der Zeitangaben sind Doppelpunkt und Punkt (siehe Beispiel oben). 
+    Es dürfen keine Kommata verwendet werden.
+
+Das folgende Beispiel zeigt den Anfang einer typischen VTT-Datei:
+
+!!! note "Hinweis"
+
+    WEBVTT
+
+    00:00:00.000 --> 00:00:04.000<br>
+    Where did he go?
+
+    00:00:03.000 --> 00:00:06.500<br>
+    I think he went down this lane.
+
+    00:00:04.000 --> 00:00:06.500<br>
+    What are you waiting for?
+
+
+ 
+Bereits erstellte Untertitel werden in einer Tabelle aufgelistet und können dort auch gelöscht werden.
+
+#### Untertitel im Video anzeigen
+
+Standardmässig werden Videos in OpenOlat ohne Untertitel abgespielt. 
+
+Sobald Untertitel vorhanden sind, wird folgendes Icon im Video-Player angezeigt:
+![cc.png](assets/closed_caption_64_0_434343_none.png){ class=size16 }.
+
+CC steht für den amerikanischen Ausdruck "[Closed captions](https://de.wikipedia.org/wiki/Untertitel#Technische_Ausf.C3.BChrungen)" (Wikipedia), und bedeutet dass Untertitel unsichtbar sind bis diese vom Benutzer aktiviert werden. In OpenOlat sieht das dann folgendermassen aus:
+
+![Untertitel](assets/video_subtitle.png)
+
+Sobald Sie mit dem Mauszeiger über das Icon fahren, klappt sich die Liste der bestehenden Untertitel aus. Die aktuelle Auswahl ist dabei eingefärbt.
+
+###  Videoqualitäten {: #video_quality}
+
+Im Tab "Videoqualität"sehen Sie in welchen Auflösungen das Video vorliegt. Sobald ein Video hochgeladen wird, werden Videos in den verschiedenen Auflösungen erstellt. Dieser Prozess kann eine Weile dauern. Welche Auflösungen im Anschluss zur Verfügung stehen ist abhängig von den Einstellungen im Administrationsbereich. Ausstehende Videos können transkodiert und nicht verwendete Auflösungen gelöscht werden. 
+
+![video_quailty.png](assets/Video_qualitaten_20.png)
+
+Im Videoplayer können User dann die gewünschte Auflösung über den "Source Chooser" auswählen.
+
+![video_aufloesung.png](assets/video_aufloesung.png)
+
+!!! info "Info"
+
+    Für Videos, die über "Importieren URL" hinzugefügt wurden, können die Einstellungen nicht vorgenommen werden.
+
+### Download
+
+Im Tab Download kann eingestellt werden, ob die User das Video herunterladen dürfen oder nicht.
+
+!!! info "Info"
+
+    Für Videos, die über "Importieren URL" hinzugefügt wurden, können die Einstellungen nicht vorgenommen werden.    
 
 ##  Video Editor
 
@@ -110,106 +217,6 @@ Die Quiz-Fragen im Video werden direkt bei der Beantwortung der Frage "ausgewert
 !!! note "Hinweis"
 
     Weitere Informationen zu den generellen Einstellungen von Quiz und Tests finden Sie im Kapitel "[Testfragen konfigurieren](../learningresources/Configure_test_questions.de.md)". Weitere Informationen zu den unterschiedlichen Fragetypen im Kapitel "[Test Fragetypen](../learningresources/Test_question_types.de.md)".
-
-## Videokonfiguration in den "Einstellungen" der Lernressource
-
-Weitere Konfigurationen können in den "Einstellungen" im Bereich Administration vorgenommen werden.
-
-Die Tabs "Info", "Freigabe" und "Katalog" sind analog zu anderen Lernressourcen. Der Tab "Katalog" erscheint hier nur wenn der Katalog 1.0 in der OpenOlat Instanz aktiviert ist. Generelle Informationen zum Menü "Einstellungen"
-finden Sie [hier](../learningresources/Course_Settings.de.md).
-
-### Metadaten
-
-Im Tab "Metadaten" finden Sie generelle Angaben zum Video wie Erstelldatum und Dateigrösse. Ferner haben Sie die Möglichkeit wie in anderen Lernressourcen auch, Informationen zu Autoren, Fachbereichen, Hauptsprache, Zeitaufwand und Lizenz zu hinterlegen.
-
-### Poster konfigurieren
-
-Im Tab "Poster konfigurieren" legen Sie fest, mit welchem Vorschaubild das Video im Kursbereich, im Katalog, auf der Video Collection-Seite, auf der Infoseite, im Autorenbereich sowie im Kurs angezeigt werden soll. Mit Hilfe der Schaltfläche "Poster ersetzen" können Sie zwischen verschiedenen Standbildern des Videos wählen oder alternativ über die Schaltfläche "Poster hochladen" ein eigenes Bild als Startbild (Poster) hochladen. Falls kein Poster ausgewählt wurde, erscheint das Standbild vom Beginn des Videos.
-
-!!! info "Achtung"
-
-    Bitte beachten Sie, dass ein hochgeladenes Bild dieselben Abmessungen in Pixel haben sollte wie das Originalvideo. Die entsprechenden Daten dazu finden Sie im Tab "Metadaten".
-
-###  Untertitel konfigurieren  {: #video_subtitles}
-
-Einem Video können Untertitel in beliebig vielen Sprachen zugewiesen werden. Untertitel werden in OpenOlat im [WebVTT Format](https://w3c.github.io/webvtt/) hochgeladen ([Wikipedia- Artikel](https://en.wikipedia.org/wiki/WebVTT)). Die hochgeladene Datei muss .vtt abgespeichert sein. Untertitel können relativ einfach selbst erstellt werden. Dieses Format wird von der meisten Video-Player-Software unterstützt.
-
-!!! note "Hinweis"
-
-    In der ersten Zeile des VTT-Dokuments muss das Schlüsselwort WEBVTT stehen, gefolgt von einer leeren Zeile.
-
-Vor jeder Untertitelzeile wird eine Zeitangabe benötigt, die im folgenden Format vorliegen muss:
-
-!!! note "Hinweis"
-
-    hh\:mm\:ss.msec 
-
-    Beispiel: 00:00:20.396 (Zeitangabe 0 Stunden, 0 Minuten, 20.396 Sekunden)
-
-    Millisekunden müssen bis auf die 3. Nachkomma-Stelle genau angegeben werden.
-
-!!! warning "Achtung"
-
-    Die Trennzeichen der Zeitangaben sind Doppelpunkt und Punkt (siehe Beispiel oben). 
-    Es dürfen keine Kommata verwendet werden.
-
-Das folgende Beispiel zeigt den Anfang einer typischen VTT-Datei:
-
-!!! note "Hinweis"
-
-    WEBVTT
-
-    00:00:00.000 --> 00:00:04.000<br>
-    Where did he go?
-
-    00:00:03.000 --> 00:00:06.500<br>
-    I think he went down this lane.
-
-    00:00:04.000 --> 00:00:06.500<br>
-    What are you waiting for?
-
-
- **Untertitel hinzufügen**
-
-Um einem Video einen Untertitel hinzuzufügen,
-
-  1. Öffnen Sie "Administration &rarr; Einstellungen",
-  2. Navigieren Sie zum Tab "Untertitel konfigurieren" und
-  3. Klicken die Schaltfläche "Untertitel hinzufügen".
-  4. Wählen Sie im neuen Fenster die Sprache deren Untertitel Sie hochladen möchten, und
-  5. Selektieren dann die entsprechende Datei.
-  6. Klicken Sie "Hochladen". 
-
-Bereits erstellte Untertitel werden in einer Tabelle aufgelistet und können dort auch gelöscht werden.
-
- **Untertitel anzeigen**
-
-Standardmässig werden Videos in OpenOlat ohne Untertitel abgespielt. 
-
-Sobald Untertitel vorhanden sind, wird folgendes Icon im Video-Player angezeigt:
-![cc.png](assets/closed_caption_64_0_434343_none.png){ class=size16 }.
-
-CC steht für den amerikanischen Ausdruck "[Closed captions](https://de.wikipedia.org/wiki/Untertitel#Technische_Ausf.C3.BChrungen)" (Wikipedia), und bedeutet dass Untertitel unsichtbar sind bis diese vom Benutzer aktiviert werden. In OpenOlat sieht das dann folgendermassen aus:
-
-![Untertitel](assets/video_subtitle.png)
-
-Sobald Sie mit dem Mauszeiger über das Icon fahren, klappt sich die Liste der bestehenden Untertitel aus. Die aktuelle Auswahl ist dabei eingefärbt.
-
-###  Videoqualitäten {: #video_quality}
-
-Im Tab "Videoqualität"sehen Sie in welchen Auflösungen das Video vorliegt. Sobald ein Video hochgeladen wird, werden Videos in den verschiedenen Auflösungen erstellt. Dieser Prozess kann eine Weile dauern. Welche Auflösungen im Anschluss zur Verfügung stehen ist abhängig von den Einstellungen im Administrationsbereich. Ausstehende Videos können transkodiert und nicht verwendete Auflösungen gelöscht werden. Im Videoplayer können Sie die gewünschte Auflösung über den "Source Chooser" auswählen.
-
-![video_quailty.png](assets/Video_quality_de.png)
-
-![video_aufloesung.png](assets/videoaufloesung_DE.png)
-
-!!! info "Info"
-
-    Für Videos, die über "Importieren URL" hinzugefügt wurden, können die Einstellungen nicht vorgenommen werden.
-
-### Download
-
-Im Tab Download kann eingestellt werden, ob die User das Video herunterladen dürfen oder nicht.
 
 ##  Menü Video Collection
 
