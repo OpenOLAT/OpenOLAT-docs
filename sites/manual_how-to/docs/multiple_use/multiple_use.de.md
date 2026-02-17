@@ -18,7 +18,7 @@ Typische Beispiele für derartige Dateien sind:
 * mehrere Kurse
 * Dateien, die Sie mehrfach verwenden wollen
 
-## Vorgehensweise:
+## Vorgehensweise: {: #procedure} 
 
 ## 1. Ressourcenordner erstellen  
 

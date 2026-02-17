@@ -39,7 +39,7 @@ Based on these **general** presets, life cycles can then be activated **for indi
 
 <br>
 
-## Group lifecycle
+## Group lifecycle {: #group_lifestyle} 
 
 The group lifecycle is managed by group administrators in the menu **Groups > tab "Group management"**<br>
 (based on the administrator's preferences).
@@ -69,7 +69,7 @@ In the menu **"Groups" > tab "Group management"** click on the big arrows with t
 
 <br>
 
-## Course lifecycle<br>
+## Course lifecycle {: #course_lifestyle} 
 
 The course lifecycle can be used by anyone who has access to the authoring area.
 
@@ -87,7 +87,7 @@ The basis is the administrator's default settings:
 
 <br>
 
-## User account lifecycle
+## User account lifecycle {: #user_account_lifecycle} 
 
 The user account lifecycle can be used by anyone who has access to the user administration.
 
@@ -104,7 +104,7 @@ The basis for this is also the default settings of the administrator:
 
 ---
 
-## Checklist
+## Checklist {: #checklist} 
 
 **Group lifecycle**
 

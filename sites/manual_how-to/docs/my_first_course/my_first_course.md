@@ -1,4 +1,4 @@
-# How do I create my first OpenOlat course?
+# How do I create my first OpenOlat course? {: #my_first_course} 
 
 ## 1. Get author rights
 

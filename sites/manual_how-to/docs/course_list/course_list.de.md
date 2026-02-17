@@ -21,11 +21,11 @@
 Im Autorenbereich lassen sich alle erstellen Kurse (auch die noch nicht veröffentlichten) durchsuchen, filtern und sortieren. Für manche Zwecke benötigt es jedoch den Export einer Übersichtsliste als Excel-Datei. Gehen Sie dazu in den folgenden Schritten vor.
 
 
-## Schritt 1: Autorenbereich öffnen
+## Schritt 1: Autorenbereich öffnen {: #open_authoring}
 
 Um den Autorenbereich in Ihrem Hauptmenü angezeigt zu bekommen, müssen Sie Autorenrechte besitzen. Wenden Sie sich an Ihre Administrator:innen, falls Ihnen der Autorenbereich nicht angezeigt wird.
 
-## Schritt 2: Suche der Kurse
+## Schritt 2: Suche der Kurse {: #search_courses}
 
 * Verwenden Sie die Tabs "Favoriten", "Meine Kurse" oder "Meine Einträge", wenn diese Filter bereits eine Vorauswahl nach Ihren Vorstellungen enthalten.
 * Verwenden Sie den Tab "Suche", wenn nicht nur die eigenen Kurse angezeigt werden sollen.
@@ -36,7 +36,7 @@ Um den Autorenbereich in Ihrem Hauptmenü angezeigt zu bekommen, müssen Sie Aut
 
 [zum Seitenanfang ^](#course_list)
 
-## Schritt 3: Filtern der Suchergebnisse
+## Schritt 3: Filtern der Suchergebnisse {: #filter_results}
 
 Setzen Sie den Filter "Typ = Kurs".<br>
 Übernehmen Sie ihn mit Klick auf den Button "Übernehmen" am unteren Rand des Popups.
@@ -45,7 +45,7 @@ Setzen Sie den Filter "Typ = Kurs".<br>
 
 [zum Seitenanfang ^](#course_list)
 
-## Schritt 4: Reihenfolge festlegen
+## Schritt 4: Reihenfolge festlegen {: #set_order}
 
 Die im Schritt 5 erzeugte Excelliste enthält die Zeilen in der gleichen Reihenfolge, wie sie in OpenOlat angezeigt werden. Bereiten Sie deshalb die Liste in OpenOlat entsprechend vor.
 
@@ -54,7 +54,7 @@ Klicken Sie auf die Spaltentitel, um die angezeigte Liste auf- oder absteigend z
 Wenn Sie eine andere Sortierung benötigen, hilft es Ihnen vielleicht, weitere Spalten einzublenden und nach diesen zu sortieren. Für das Einblenden weiterer Spalten klicken Sie auf das Zahnrad-Icon rechts oben über der Liste.
 
 
-## Schritt 5: Erstellen einer Excel-Liste
+## Schritt 5: Erstellen einer Excel-Liste {: #create_list}
 
 Klicken Sie auf den Download-Button rechts oben über der Liste und speichern Sie die Excel-Liste.
 

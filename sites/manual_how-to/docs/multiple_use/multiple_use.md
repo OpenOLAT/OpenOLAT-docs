@@ -18,7 +18,7 @@ Typical examples for such files are:
 * multiple courses
 * files you want to use several times
 
-## Procedure:
+## Procedure: {: #procedure} 
 
 ## 1. Create a Ressource Folder  
 

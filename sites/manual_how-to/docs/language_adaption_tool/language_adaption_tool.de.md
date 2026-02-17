@@ -18,7 +18,7 @@
 	* Erfahrung mit der Verwendung von Variablen in Programmierumgebungen
 
 
-## Was ist möglich?
+## Was ist möglich? {: #possibilities}
 
 Oft wird innerhalb einer Institution oder Firma eine eigene, interne Ausdrucksweise verwendet. Es ist dann erwünscht, dass diese Ausdrucksweise auch in der Lernplattform verwendet wird. Wenn es die **Inhalte** betrifft, können die **Autor:innen** es berücksichtigen. Für spezifische **Anpassungen der OpenOlat-Oberfläche** selbst, kann das **Sprachanpassungswerkzeug** verwendet werden.
 
@@ -51,13 +51,13 @@ Eingebundene externe Tools können selbstverständlich nicht angepasst werden. W
 	Sind Sie sich also bewusst, dass Sie für die Sprachanpassung ein sehr mächtiges Werkzeug benutzen und setzen Sie es vorsichtig ein.
 
 
-## Welche Voraussetzungen muss ich mitbringen?
+## Welche Voraussetzungen muss ich mitbringen? {: #requirements}
 
   * Sie müssen in OpenOlat die Rolle als **Administrator:in** haben.
   * Es ist hilfreich, wenn Sie etwas Erfahrung im Umgang mit Variablen in Programmierumgebungen mitbringen.
 
 
-## Wo rufe ich das Sprachanpassungswerkzeug auf?
+## Wo rufe ich das Sprachanpassungswerkzeug auf? {: #language_adaption_tool}
 
 Sie finden das Werkzeug in<br>
 **Systemadministration > Customizing > Sprachanpassungswerkzeug**<br>

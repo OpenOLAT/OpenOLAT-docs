@@ -1,4 +1,4 @@
-# Wie kann ich meine Kurse durch Suchmaschinen finden lassen?
+# Wie kann ich meine Kurse durch Suchmaschinen finden lassen? {: #oai_pmh} 
 
 ??? abstract "Ziel und Inhalt dieser Anleitung"
 
@@ -107,7 +107,7 @@ Weitere Informationen finden Sie im Administrationshandbuch.
 
 ## Wie gibt OpenOlat die Daten weiter?
 
-OpenOlat verwendet das OAI-PMH zur Weitergabe von Metadaten an Suchmaschinen, Portale oder Kataloge. OAI-PMH steht für "Open Archives Initiative - Protocol for Metadata Harvesting“.<br> Weitergehende Informationen sind auf der Open Archives Webseite zu finden.
+OpenOlat verwendet das OAI-PMH zur Weitergabe von Metadaten an Suchmaschinen, Portale oder Kataloge. OAI-PMH steht für "Open Archives Initiative - Protocol for Metadata Harvesting".<br> Weitergehende Informationen sind auf der Open Archives Webseite zu finden.
 
 Von OpenOlat werden die Daten an einem API Endpoint zur Verfügung gestellt und können dort von aussen abgegriffen werden.
 

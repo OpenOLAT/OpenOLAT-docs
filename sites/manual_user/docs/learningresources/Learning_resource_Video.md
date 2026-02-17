@@ -101,7 +101,7 @@ To configure the quiz question, you can
 * and define whether there should be several solution attempts for a question, or whether these may be skipped
 
 The actual tabs displayed for the quiz question depend on the question type selected. The first tab contains the specific question and the answers. The tab **"Score"** defines the type of points to be awarded. 
-In the tab **"Feedback"** feedbacks based on different criteria can be added. In the tab **"Preview "** or **"Preview solution "** you can see how the question is displayed.
+In the tab **"Feedback"** feedbacks based on different criteria can be added. In the tab **"Preview"** or **"Preview solution"** you can see how the question is displayed.
 
 The quiz questions primarily serve to activate the learners. In order to reflect on what has just been seen, a question should be answered. If the answer is correct, the video continues (unless you are allowed to skip).
 
@@ -111,7 +111,7 @@ The quiz questions in the video are “evaluated” directly when the question i
 
     Further information on the general settings of quiz and tests can be found in the chapter "Configuring test questions". For more information on the different question types, see the "[Test Question Types](../learningresources/Test_question_types.md)" chapter.
 
-## Videokonfiguration in den "Einstellungen" der Lernressource
+## Video configuration of the "Settings" in the learning resource
 
 You can now further configure your video in the tabs of the "Settings" of the administration menu.
 

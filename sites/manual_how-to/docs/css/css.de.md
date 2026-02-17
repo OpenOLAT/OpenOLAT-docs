@@ -1,4 +1,4 @@
-# Wie kann ich eigene CSS für das Kursdesign erstellen?
+# Wie kann ich eigene CSS für das Kursdesign erstellen? {: #custom_css}
 
 ??? abstract "Ziel und Inhalt dieser Anleitung"
 
@@ -33,13 +33,13 @@
 	
 	Bitten Sie Ihren Systemanbieter, Kursthemen zu implementieren, die auf Systemebene unterstützt werden und nach jeder OpenOlat-Aktualisierung neu kompiliert werden und somit garantiert auch nach Aktualisierungen funktionieren.
 
-## Welche Voraussetzungen muss ich mitbringen?
+## Welche Voraussetzungen muss ich mitbringen? {: #requirements}
 
   * Vertiefte CSS-Kenntnisse
   * Erfahrungen mit Browser-Entwicklerwerkzeugen
   * evtl. HTML Grundkenntnisse
 
-## Welche Werkzeuge benötige ich, um das OpenOlat Design zu ändern?
+## Welche Werkzeuge benötige ich, um das OpenOlat Design zu ändern? {: #customize}
 
 Sie benötigen:
 
@@ -49,7 +49,7 @@ Sie benötigen:
 Möglich ist dies z.B. über die <b>Browser Option "Element untersuchen"</b>. In Firefox und Chrome ist dieses Werkzeug bereits integriert.
 Klicken Sie mit der rechten Maustaste in die Webseite und wählen Sie dann "Element untersuchen (Q)" bzw. "Untersuchen (Strg+Shift+I)". Wenn Sie z.B. auf die obere Navigationsleiste klicken, zeigt Ihnen die Information den Namen des Selektors an, in diesem Fall "#o_navbar_container".
 
-## Was ist möglich?
+## Was ist möglich? {: #possibilities}
 
 Sie möchten das Kursdesign individuell gestalten und Ihren Kurs optisch aufwerten oder an Ihr Corporate Design der Organisation anpassen?
 
@@ -60,14 +60,14 @@ Das Standard OpenOlat Layout lässt sich mit Hilfe von CSS beliebig anpassen und
 	Einige generelle Selektoren (z.B. h2, p) werden in OpenOlat mehrfach verwendet und so können Änderungen sehr weitreichend, jedoch nicht immer in der ganzen
 	Tragweite ersichtlich sein. Wird z.B. die Schriftfarbe in Blau geändert, kann es sein, dass die Schrift auf blauen Buttons nicht mehr lesbar ist (z.B. in einem Test). Überdenken Sie also vorab ihre Handlung und halten Sie sich immer an die Grundlagen des Webdesigns, wie beispielsweise ausreichenden Kontrast zwischen Schriftfarbe und Hintergrund.
 
-## Wo wird die CSS-Datei gespeichert und eingebunden?
+## Wo wird die CSS-Datei gespeichert und eingebunden? {: #storing}
 
 Um Ihre CSS-Datei für die Gestaltung Ihres OpenOlat Kurses nutzen zu können, müssen Sie im <b>Ablageordner</b> des Kurses einen <b>Unterordner „courseCSS"</b> anlegen und dort die erstellte Kurs CSS Datei ablegen. 
 
 Damit die Datei auch verwendet wird, wird im OpenOlat <b>Kursmenü "Layout"</b> die gewünschte Datei ausgewählt. Wenn Sie später doch wieder zu dem Standard OpenOlat Layout zurückkehren möchten,
 wählen Sie die Option "Standard" aus, oder löschen einfach ihre CSS aus dem Ablageordner.
 
-## Beispiele für individuelle Gestaltung
+## Beispiele für individuelle Gestaltung {: #design}
 
 Die Änderungsmöglichkeiten sind vielfältig.
 
@@ -75,7 +75,7 @@ Die Änderungsmöglichkeiten sind vielfältig.
 
 	Das Ändern von OpenOlat-CSS-Klassen kann zu unerwartetem Verhalten beim Aktualisieren des System führen. Die unten aufgeführten Klassennamen und Element-IDs sind nicht garantiert verfügbar und können sich mit OpenOlat-Updates ändern. Auch die zugrunde liegende DOM-Struktur von OpenOlat kann sich ändern. Es wird daher nicht empfohlen, CSS-Regeln zu erstellen, die die Stile im OpenOlat-DOM oder CSS-Namensraum ändern.
 
-## Beispiel: Hintergrund ändern
+## Beispiel: Hintergrund ändern {: #background}
 
 Um den Hintergrund mit CSS zu ändern, muss man erst den ID-Selektor `#o_body`
 benutzen und die Eigenschaft `background`, `background-color` oder
@@ -117,7 +117,7 @@ sehen:
 		background: transparent;  
 	}  
 
-## Beispiel: Kursbaustein Einzelseite  
+## Beispiel: Kursbaustein Einzelseite  {: #single_page}
 
 Oft kann es nötig sein den Hintergrund einer einzelnen HTML Seite dem Gesamtdesign anzupassen. Auch in diesem Fall wird das Gewünschte mit CSS-Code realisiert.
 
@@ -127,7 +127,7 @@ Um die HTML Seite beispielsweise transparent zu machen (damit der Hintergrund de
 		background-color: transparent;  
 	}
 
-## Beispiel: Klassen- und ID-Selektoren
+## Beispiel: Klassen- und ID-Selektoren {: #example}
 
 Im Folgenden sind einige Bereiche eines OpenOlat Kurses mit den entsprechenden
 Klassen und/oder ID-Selektoren aufgeführt, die häufig angepasst werden:
@@ -166,7 +166,7 @@ beispielsweise folgende CSS-Eigenschaften:
   *  `text-transform: uppercase;` beschreibt das Verhalten der Schrift (`uppercase` = nur Grossbuchstaben)
   *  `text-decoration: underline;` der Text wird unterstrichen dargestellt  
 
-## Weiterführende Informationen
+## Weiterführende Informationen  {: #further_links}
 
  **[W3school:](http://www.w3schools.com/css/default.asp)** Ressource über die CSS-Sprache  
  **[Notepad++:](https://notepad-plus-plus.org/)** kostenfreier Editor

@@ -1,4 +1,4 @@
-# How do I perform a peer review?
+# How do I perform a peer review? {: #peer_review} 
 
 ??? abstract "Objectives and content of this instruction"
 
@@ -21,7 +21,7 @@
 
 ---
 
-## How do I prepare a peer review?
+## How do I prepare a peer review? {: #prepare_peer_review} 
 
 In a peer review, course participants should review each other's assignment results. This can be prepared with the help of a **form** in the course element "**Task**".
 
@@ -118,7 +118,7 @@ For example, a weighting could be applied in which the participants' reviews cou
 
 ---
 
-## How do I coach a peer review?
+## How do I coach a peer review? {: #coach_peer_review} 
 
 If the peer review has been prepared by the course owner, as a coach you can simply click on the corresponding course element with the task in the course menu. As a coach, you will then see a different view than the participants.
 
@@ -135,18 +135,18 @@ The Workflow tab provides you with an overview of all peer reviews completed by 
 
 ---
 
-## Sample to download
+## Sample to download {: #sample} 
 
 [Sample form for peer reviews](assets/Musterformular_PeerReview.zip)
 
-## Further information
+## Further information {: #further_information} 
 
 [Course element "task"](../../manual_user/learningresources/Course_Element_Task.md)<br>
 [How do I create a form learning resource?](../../manual_how-to/create_a_form/create_a_form.md)<br>
 
 
 
-## Checklist
+## Checklist {: #checklist} 
 
 - [x] Has the desired process for the peer review been clarified and described?
 - [x] What role do coaches play in peer review?

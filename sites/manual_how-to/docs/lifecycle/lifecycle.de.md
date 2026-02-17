@@ -40,7 +40,7 @@ Auf Grundlage dieser **allgemeinen** Voreinstellungen können dann **für einzel
 
 <br>
 
-## Gruppen-Lifecycle
+## Gruppen-Lifecycle {: #group_lifestyle} 
 
 Die Betreuung des Gruppen-Lifecycles erfolgt durch Gruppenverwalter im Menü **Gruppen > Tab "Gruppenverwaltung"**<br>
 (auf Grundlage der Voreinstellungen des Administrators).
@@ -70,7 +70,7 @@ Klicken Sie im Menü **"Gruppen" > Tab "Gruppenverwaltung"** auf die grossen Pfe
 
 <br>
 
-## Kurs-Lifecycle<br>
+## Kurs-Lifecycle {: #course_lifestyle} 
 
 Die Nutzung des Kurs-Lifecycles kann durch alle Personen erfolgen, die Zugriff auf den Autorenbereich haben.
 
@@ -88,7 +88,7 @@ Grundlage sind die Voreinstellungen des Administrators:
 
 <br>
 
-## Benutzerkonten-Lifecycle<br>
+## Benutzerkonten-Lifecycle {: #user_account_lifecycle} 
 
 Die Nutzung des Benutzerkonten-Lifecycles kann durch alle Personen erfolgen, die Zugriff auf die Benutzerverwaltung haben.
 
@@ -105,7 +105,7 @@ Grundlage sind auch hier die Voreinstellungen des Administrators:
 
 ---
 
-## Checkliste
+## Checkliste {: #checklist} 
 
 **Gruppen-Lifecycle**
 

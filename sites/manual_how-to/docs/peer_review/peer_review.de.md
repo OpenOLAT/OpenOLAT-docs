@@ -1,4 +1,4 @@
-# Wie führe ich ein Peer-Review durch?
+# Wie führe ich ein Peer-Review durch? {: #peer_review} 
 
 ??? abstract "Ziel und Inhalt dieser Anleitung"
 
@@ -21,7 +21,7 @@
 
 ---
 
-## Wie bereite ich ein Peer-Review vor?
+## Wie bereite ich ein Peer-Review vor? {: #prepare_peer_review} 
 
 Bei einem Peer-Review sollen Kursteilnehmer:innen gegenseitig abgegebene Aufgabenergebnisse reviewen. Dies kann mit Hilfe eines **Formulars** im Kursbaustein "**Aufgabe**" vorbereitet werden. 
 
@@ -65,6 +65,7 @@ Auch eine Rückmeldung an die Reviewer:innen kann ermöglicht werden. Wird der T
 ---
 
 ### Empfohlener Musterprozess
+
 Als Standard empfehlen wir:
 
 - Führen Sie das Peer-Review mit einem **klar definierten Zeitraum** durch.
@@ -124,7 +125,7 @@ Zum Beispiel könnte eine Gewichtung vorgenommen werden bei der die Reviews der 
 
 ---
 
-## Wie betreue ich ein Peer-Review?
+## Wie betreue ich ein Peer-Review? {: #coach_peer_review} 
 
 Wurde das Peer-Review vom Kursbesitzer/der Kursbesitzerin vorbereitet, können Sie als Betreuer:in im Kursmenü einfach auf den entsprechenden Kursbaustein mit der Aufgabe klicken. Sie erhalten als Betreuer:in dann eine andere Ansicht als die Teilnehmer:innen. 
 
@@ -141,18 +142,18 @@ Im Tab Workflow erhalten Sie eine Übersicht über alle getätigten Peer-Reviews
 
 ---
 
-## Muster zum Download
+## Muster zum Download {: #sample} 
 
 [Musterformular für Peer-Review](assets/Musterformular_PeerReview.zip)
 
 
-## Weitere Informationen
+## Weitere Informationen {: #further_information} 
 
 [Kursbaustein Aufgabe](../../manual_user/learningresources/Course_Element_Task.de.md)<br>
 [Wie erstelle ich eine Formular-Lernressource?](../../manual_how-to/create_a_form/create_a_form.de.md)<br>
 
 
-## Checkliste
+## Checkliste {: #checklist} 
 
 - [x] Ist der gewünschte Prozess für das Peer-Review geklärt und beschrieben?
 - [x] Welche Rolle nehmen die Betreuer:innen beim Peer-Review ein?

@@ -18,7 +18,7 @@
     * Experience with the use of variables in programming environments
 
 
-## What is possible?
+## What is possible?  {: #possibilities}
 
 An institution or company often uses its own internal terminology. It is then desirable that this terminology is also used in the learning platform. If it concerns the **content**, the **authors** can take it into account. For specific **customizations of the OpenOlat interface** itself, the **language customization tool** can be used.
 
@@ -51,13 +51,13 @@ Of course, integrated external tools cannot be customized. If, for example, Micr
     So be aware that you are using a very powerful tool for language adaptation and use it carefully.
 
 
-## Which requirements should I bring?
+## Which requirements should I bring? {: #requirements}
 
   * You must have the role of **administrator** in OpenOlat.
   * It is helpful if you have some experience in dealing with variables in programming environments.
 
 
-## Where do I call up the language adaptation tool?
+## Where do I call up the language adaptation tool? {: #language_adaption_tool}
 
 You can find the tool under<br>
 **System administration > Customizing > Language adaption tool**<br>

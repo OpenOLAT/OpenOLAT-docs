@@ -1,4 +1,4 @@
-# How can I have my courses found by search engines?
+# How can I have my courses found by search engines? {: #oai_pmh} 
 
 ??? abstract "Objectives and content of this instruction"
 

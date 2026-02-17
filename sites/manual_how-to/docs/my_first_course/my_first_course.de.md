@@ -1,4 +1,4 @@
-# Wie erstelle ich meinen ersten OpenOlat-Kurs?
+# Wie erstelle ich meinen ersten OpenOlat-Kurs? {: #my_first_course} 
 
 
 ## 1. Autorenrechte besorgen

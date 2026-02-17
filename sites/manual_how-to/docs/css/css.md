@@ -1,4 +1,4 @@
-# How can I create custom CSS for my course design?
+# How can I create custom CSS for my course design? {: #custom_css}
 
 ??? abstract "Objectives and content of this instruction"
 
@@ -33,13 +33,13 @@
 	
 	Ask your system provider to implement course themes that are supported on system level and are recompiled after each OpenOlat update and thus guaranteed to work after updates.
 
-## What requirements do I have to meet?
+## What requirements do I have to meet? {: #requirements}
 
   * in-depth knowledge of CSS
   * experience with various browser developer tools
   * basic HTML knowledge
 
-## Which tools do I need to customize my OpenOlat design?
+## Which tools do I need to customize my OpenOlat design? {: #customize}
 
 You need:
 
@@ -51,7 +51,7 @@ Right-click in the web page and select "Examine Element
 (Q)" or "Examine (Ctrl+Shift+I)".
 For example, if you click on the top navigation bar, the information will show you the name of the selector, in this case "#o_navbar_container".
 
-## What is possible?
+## What is possible? {: #possibilities}
 
 You want to customize the course design and visually enhance your course or adapt it to your organization's corporate design?
 
@@ -59,16 +59,16 @@ The standard OpenOlat layout can be customized and changed as desired using CSS.
 
 !!! warning "Warning!!"
 
-	Some element selectors (e.g. “p” or “h2”) are often used throughout the platform. Changes can therefore apply far beyond their original purposes with unforeseen consequences. For instance, should the font color be changed to blue, the changes could also apply to blue buttons, thus rendering the text illegible. Please mind those unexpected consequences before changing the layout of a course. You should also follow the basics of web design, for example by keeping a sufficient contrast between the font color and the background.
+	Some element selectors (e.g. "p" or "h2") are often used throughout the platform. Changes can therefore apply far beyond their original purposes with unforeseen consequences. For instance, should the font color be changed to blue, the changes could also apply to blue buttons, thus rendering the text illegible. Please mind those unexpected consequences before changing the layout of a course. You should also follow the basics of web design, for example by keeping a sufficient contrast between the font color and the background.
 
-## Where is the CSS file stored and integrated?
+## Where is the CSS file stored and integrated? {: #storing}
 
 To be able to use your css file for the design of your OpenOlat course, you must create a <b>subfolder "courseCSS"</b> in the <b>course folder</b> and store the course CSS file there.
 
 To ensure that the file is also used, the desired file is
 selected in the OpenOlat <b>course menu "Layout"</b>. If you want to return to the standard OpenOlat layout later, select the option "Standard", or simply delete your CSS from the file folder.
 
-## Examples for individual design
+## Examples for individual design {: #design}
 
 The possibilities for change are manifold. 
 
@@ -77,7 +77,7 @@ The possibilities for change are manifold.
 	Modifying OpenOlat CSS classes might result in unexpected behavior when updating the system. The class names and element ID's listed below are not guaranteed to be available
 	between OpenOlat updates. The DOM tree of OpenOlat is subject of change and thus it is not recommended creating CSS rules that modify the styles in the OpenOlat DOM or CSS namespace.
 
-## Example: Customize the background
+## Example: Customize the background {: #background}
 
 To customize the background of a course, you need to use the ID selector
 `#o_body` and declare the property `background`, `background-color` or
@@ -116,7 +116,7 @@ make other sections of the website transparent:
 		background: transparent;  
 	}
   
-## Example: Course element "Single page"  
+## Example: Course element "Single page"  {: #single_page}
 
 It can often be necessary to adapt the background of a single HTML page to the overall design. In this case, too, the desired effect is realized with CSS code.
 
@@ -126,7 +126,7 @@ For example, to make the HTML page transparent (so that the background of the pa
 		background-color: transparent;  
 	}
 
-## Example: ID and class selectors
+## Example: ID and class selectors {: #example}
 
 Here are some sections of a course's site with the appropriate ID or class
 selectors:
@@ -161,7 +161,7 @@ Should you wish to change the font of titles in OpenOlat, then you should use th
   *  `font-weight: bold;` (defines the weight of the font, here `bold`)  
   *  `text-transform: uppercase;` (changes the text to uppercase/all caps)  
 
-## Further links
+## Further links {: #further_links}
 
  **[W3school:](http://www.w3schools.com/css/default.asp)** Useful resource on CSS selectors, elements and properties  
  **[Notepad++:](https://notepad-plus-plus.org/)** Free text editor adjusted for programming and markup languages such as CSS

@@ -21,11 +21,11 @@
 In the Authoring area, all created courses (including those not yet published) can be searched, filtered and sorted. For some purposes, however, it is necessary to export an overview list as an Excel file. To do this, follow the steps below.
 
 
-## Step 1: Open "Authoring"
+## Step 1: Open "Authoring" {: #open_authoring}
 
 To display the Authoring area in your main menu, you must have author rights. Contact your administrator if the Authoring area is not displayed.
 
-## Step 2: Search of the courses
+## Step 2: Search of the courses {: #search_courses}
 
 * Use the "Favorites", "My courses" or "My entries" tabs if these filters already contain a preselection according to your preferences.
 * Use the "Search" tab if you want to display more than just your own courses.
@@ -36,16 +36,16 @@ To display the Authoring area in your main menu, you must have author rights. Co
 
 [To the top of the page ^](#course_list)
 
-## Step 3: Filtering of the search
+## Step 3: Filtering of the search {: #filter_results}
 
-Set the filter "Type = Course ".<br>
+Set the filter "Type = Course".<br>
 Accept it by clicking on the "Accept" button at the bottom of the pop-up.
 
 ![course_list_filter_typ_v1_de.png](assets/course_list_filter_typ_v1_de.png){ class="shadow lightbox"}
 
 [To the top of the page ^](#course_list)
 
-## Step 4: Set sequence
+## Step 4: Set order {: #set_order}
 
 The Excel list created in step 5 contains the lines in the same order as they are displayed in OpenOlat. Therefore, prepare the list in OpenOlat accordingly.
 
@@ -53,7 +53,7 @@ Click on the column titles to sort the displayed list in ascending or descending
 
 If you require a different sorting, it may help to show additional columns and sort by them. To show additional columns, click on the cogwheel icon at the top right above the list.
 
-## Step 5: Creating an Excel list
+## Step 5: Creating an Excel list {: #create_list}
 
 Click on the download button at the top right above the list and save the Excel list.
 
