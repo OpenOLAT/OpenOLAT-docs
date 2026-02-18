@@ -69,9 +69,9 @@ Beispiel:<br>
 Mehr dazu finden Sie im Benutzerhandbuch unter 
 [Produkte >](../../manual_user/area_modules/Course_Planner_Products.de.md#create_products)
 
+!!! info "Hinweis"
 
-In der nachstehenden Anleitung beschränken wir uns zunächst auf einen einzelnen Kurs. Eine Anleitung mit mehreren Kursen finden Sie in einem weiteren How-To:<br> 
-[Wie kann ich mit dem Course Planner einen **Bildungsgang** planen und durchführen? >](../course_planner_curriculum/course_planner_curriculum.de.md)
+    In der nachstehenden Anleitung beschränken wir uns zunächst auf einen einzelnen Kurs. Es ist darüber hinaus auch möglich, in einer Durchführung mehrere Kurse einzubinden.
 
 
 [zum Seitenanfang ^](#plan_and_run_courses_with_course_planner)
@@ -380,7 +380,6 @@ Damit einhergehend besteht auch die Möglchkeit, den Kursstatus automatisch zu �
 [Course Planner: Durchführungen >](../../manual_user/area_modules/Course_Planner_Implementations.de.md)<br>
 [Course Planner: Termine >](../../manual_user/area_modules/Course_Planner_Events.de.md)<br>
 [Course Planner: Reports >](../../manual_user/area_modules/Course_Planner_Reports.de.md)<br>
-[Wie kann ich mit dem Course Planner einen Bildungsgang planen und durchführen? >](../course_planner_curriculum/course_planner_curriculum.de.md)<br>
 [Course Planner aktivieren (Admin) >](../../manual_admin/administration/Modules_Course_Planner.de.md)<br>
 
 [zum Seitenanfang ^](#plan_and_run_courses_with_course_planner)
