@@ -21,7 +21,7 @@
 
 ## Welche Möglichkeiten gibt es, den Teilnehmer:innen Erfolge und Leistungen mitzuteilen? {: #possibilities}
 
-## Überblick {: #overview}
+### Überblick {: #overview}
 
 * Grundsätzlich werden Leistungen und Testergebnisse in OpenOlat zunächst mit [**Punkten**](#points) bewertet und z.B. auf dem bearbeiteten Kursbaustein angezeigt.
 
