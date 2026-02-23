@@ -120,6 +120,5 @@ d) Wenn Sie alle gewünschten Felder ausgefüllt haben, veröffentlichen Sie die
   
 Gehen Sie dazu vor, wie in ["Wie erstelle ich meinen ersten OpenOlat-Kurs"](../my_first_course/my_first_course.de.md) beschrieben.
 
-Der Podcast ist nun eingebunden und Kursteilnehmende können die erste Episode
-herunterladen.
+Der Podcast ist nun eingebunden und Kursteilnehmende können die erste Episode herunterladen.
 

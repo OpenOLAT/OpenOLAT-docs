@@ -65,8 +65,7 @@ The standard OpenOlat layout can be customized and changed as desired using CSS.
 
 To be able to use your css file for the design of your OpenOlat course, you must create a <b>subfolder "courseCSS"</b> in the <b>course folder</b> and store the course CSS file there.
 
-To ensure that the file is also used, the desired file is
-selected in the OpenOlat <b>course menu "Layout"</b>. If you want to return to the standard OpenOlat layout later, select the option "Standard", or simply delete your CSS from the file folder.
+To ensure that the file is also used, the desired file is selected in the OpenOlat <b>course menu "Layout"</b>. If you want to return to the standard OpenOlat layout later, select the option "Standard", or simply delete your CSS from the file folder.
 
 ## Examples for individual design {: #design}
 
@@ -74,31 +73,23 @@ The possibilities for change are manifold.
 
 !!! danger "Be aware"
 
-	Modifying OpenOlat CSS classes might result in unexpected behavior when updating the system. The class names and element ID's listed below are not guaranteed to be available
-	between OpenOlat updates. The DOM tree of OpenOlat is subject of change and thus it is not recommended creating CSS rules that modify the styles in the OpenOlat DOM or CSS namespace.
+	Modifying OpenOlat CSS classes might result in unexpected behavior when updating the system. The class names and element ID's listed below are not guaranteed to be available between OpenOlat updates. The DOM tree of OpenOlat is subject of change and thus it is not recommended creating CSS rules that modify the styles in the OpenOlat DOM or CSS namespace.
 
 ## Example: Customize the background {: #background}
 
-To customize the background of a course, you need to use the ID selector
-`#o_body` and declare the property `background`, `background-color` or
-`background-image`. So you can define both the background image and the
-background color for this path. The desired background color can simply be
-stored in the course storage folder and linked appropriately.
+To customize the background of a course, you need to use the ID selector `#o_body` and declare the property `background`, `background-color` or `background-image`. So you can define both the background image and the background color for this path. The desired background color can simply be stored in the course storage folder and linked appropriately.
 
 The code could for instance look like this:  
   
 	#o_body {  
 		background-color: red; /* creates a red background */  
-		background-image: url(bild.svg); /* linkes to an image that is used as
-		background */  
+		background-image: url(bild.svg); /* linkes to an image that is used as background */  
 		background-position: center; /* sets the image centered */  
 	}
 
-Usually it makes sense to link either a background color or a background
-image. Place the image in a suitable location in the course storage folder.
+Usually it makes sense to link either a background color or a background image. Place the image in a suitable location in the course storage folder.
 
-Furthermore, it is recommended to use the following CSS settings in order to
-make other sections of the website transparent:
+Furthermore, it is recommended to use the following CSS settings in order to make other sections of the website transparent:
 
 	#o_main_wrapper, #o_main_wrapper #o_main_container {  
 		background: transparent;  
@@ -128,8 +119,7 @@ For example, to make the HTML page transparent (so that the background of the pa
 
 ## Example: ID and class selectors {: #example}
 
-Here are some sections of a course's site with the appropriate ID or class
-selectors:
+Here are some sections of a course's site with the appropriate ID or class selectors:
 
 ![css_structure_v1_en.png](assets/css_structure_v1_en.png){ class="shadow lightbox" }  
 

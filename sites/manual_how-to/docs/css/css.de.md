@@ -64,8 +64,7 @@ Das Standard OpenOlat Layout lässt sich mit Hilfe von CSS beliebig anpassen und
 
 Um Ihre CSS-Datei für die Gestaltung Ihres OpenOlat Kurses nutzen zu können, müssen Sie im <b>Ablageordner</b> des Kurses einen <b>Unterordner „courseCSS"</b> anlegen und dort die erstellte Kurs CSS Datei ablegen. 
 
-Damit die Datei auch verwendet wird, wird im OpenOlat <b>Kursmenü "Layout"</b> die gewünschte Datei ausgewählt. Wenn Sie später doch wieder zu dem Standard OpenOlat Layout zurückkehren möchten,
-wählen Sie die Option "Standard" aus, oder löschen einfach ihre CSS aus dem Ablageordner.
+Damit die Datei auch verwendet wird, wird im OpenOlat <b>Kursmenü "Layout"</b> die gewünschte Datei ausgewählt. Wenn Sie später doch wieder zu dem Standard OpenOlat Layout zurückkehren möchten, wählen Sie die Option "Standard" aus, oder löschen einfach ihre CSS aus dem Ablageordner.
 
 ## Beispiele für individuelle Gestaltung {: #design}
 
@@ -77,12 +76,7 @@ Die Änderungsmöglichkeiten sind vielfältig.
 
 ## Beispiel: Hintergrund ändern {: #background}
 
-Um den Hintergrund mit CSS zu ändern, muss man erst den ID-Selektor `#o_body`
-benutzen und die Eigenschaft `background`, `background-color` oder
-`background-image` deklarieren. Sie können also sowohl das Hintergrundbild als
-auch die Hintergrundfarbe auf diesem Weg definieren. Die gewünschte
-Hintergrundfarbe können Sie einfach im Ablageordner des Kurses hinterlegen und
-passend verlinken.
+Um den Hintergrund mit CSS zu ändern, muss man erst den ID-Selektor `#o_body` benutzen und die Eigenschaft `background`, `background-color` oder `background-image` deklarieren. Sie können also sowohl das Hintergrundbild als auch die Hintergrundfarbe auf diesem Weg definieren. Die gewünschte Hintergrundfarbe können Sie einfach im Ablageordner des Kurses hinterlegen und passend verlinken.
 
 Der Code für die genannten Selektoren können dann folgendermaßen aussehen:  
   
@@ -93,13 +87,9 @@ Der Code für die genannten Selektoren können dann folgendermaßen aussehen:
 		background-position: center; /* setzt das Bild mittig */  
 	}
 
-Meist macht es Sinn entweder eine Hintergrundfarbe oder ein Hintergrundbild zu
-verlinken. Hinterlegen Sie das Bild an einer geeigneten Stelle im Ablageordner
-des Kurses.
+Meist macht es Sinn entweder eine Hintergrundfarbe oder ein Hintergrundbild zu verlinken. Hinterlegen Sie das Bild an einer geeigneten Stelle im Ablageordner des Kurses.
 
-Es wird weiterhin empfohlen, folgende CSS-Einstellungen zu übernehmen, um
-andere Abschnitte transparent zu machen, um den gefärbten Hintergrund zu
-sehen:
+Es wird weiterhin empfohlen, folgende CSS-Einstellungen zu übernehmen, um andere Abschnitte transparent zu machen, um den gefärbten Hintergrund zu sehen:
 
 	#o_main_wrapper, #o_main_wrapper #o_main_container {  
 		background: transparent;  
@@ -154,11 +144,7 @@ angepasst werden:
 
  **5\. Benutzermenü (rechtes Ausklappmenü):** CSS ID-Selektor `#o_offcanvas_right`
 
-Sollen die Überschriften angepasst werden, wählen Sie das Element **h2**. Auch
-hier können alle Eigenschaften mit CSS-Befehlen den eigenen Ansprüchen
-entsprechend angepasst werden. Dasselbe gilt dies auch für das Element **p**
-oder auch für die Links **a.** Vorstellbar wären für diese Elemente
-beispielsweise folgende CSS-Eigenschaften:
+Sollen die Überschriften angepasst werden, wählen Sie das Element **h2**. Auch hier können alle Eigenschaften mit CSS-Befehlen den eigenen Ansprüchen entsprechend angepasst werden. Dasselbe gilt dies auch für das Element **p** oder auch für die Links **a.** Vorstellbar wären für diese Elemente beispielsweise folgende CSS-Eigenschaften:
 
   *  `color: red`; Änderung der Schriftfarbe. Hier kann der Hex Code `#ffffff` (=weiß) oder auch ein RGB Wert `rgb(87 , 53, 4)` angegeben werden.
   *  `font-family: verdana;` so lässt sich die Schriftart anpassen

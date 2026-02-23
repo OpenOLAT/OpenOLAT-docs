@@ -33,8 +33,9 @@ Mit dem Course Planner kann die **Planungsarbeit** von der **Inhaltserstellung**
 * Erstellung von Angeboten im Katalog
 * Reports zu den bereits eingegangenen Buchungsaufträgen
 * Planung von Terminen im Zusammenhang mit den verschiedenen Durchführungen (z.B. für Präsenzveranstaltungen oder Prüfungen)
-* ...
 * Terminierung einer automatischen Instanzierung der Kurse
+* ...
+
 
 Sie können natürlich auch ohne Course Planner OpenOlat-Kurse erstellen. Mit dem Course Planner steht Ihnen jedoch ein Werkzeug zur Verfügung, das die organisatorischen Aufgaben zusammenführt.
 
@@ -192,8 +193,7 @@ Wo findet der Termin statt, fall physische Präsenz geplant ist.
 
 ![6_green_24.png](assets/6_green_24.png) **Online-Meeting**: 
 Der Course Planner ermöglicht die Verwaltung und Pflege von Terminen für Online-Meetings bereits in der Planungsphase direkt am Produkt bzw. auf der Durchführung - auch ohne bereits hinterlegte Kursinhalte. Es können Online-Meetings mit BigBlueButton und Teams eingerichtet werden. (Es hängt davon ab, was bei Ihnen in OpenOlat eingerichtet ist.)<br>
-Die hinterlegten Termine werden später bei der Verknüpfung der Durchführung mit einem Kurs
-auf diesen appliziert und sind dann auch im Kurs verfügbar.
+Die hinterlegten Termine werden später bei der Verknüpfung der Durchführung mit einem Kurs auf diesen appliziert und sind dann auch im Kurs verfügbar.
 
 ![7_green_24.png](assets/7_green_24.png) **Dozenten**: 
 Um Dozenten auswählen zu können, müssen zuerst Betreuer:innen als Mitglieder hinzugefügt werden.

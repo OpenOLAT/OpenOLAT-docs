@@ -141,8 +141,8 @@ If external graders have also been activated for a test, they can use the [Coach
 
 ## Test results and archiving
 
-Select the link "[Data archiving](../learningresources/Using_Course_Tools.md#archive)" from the "Administration" in the course view. Go to "Tests" or "Course results" on the left and save the displayed file. The results of self-tests are saved anonymously.
+Select the link "[Data archiving](../learningresources/Using_additional_Course_Editor_Tools.md)" from the "Administration" in the course view. Go to "Tests" or "Course results" on the left and save the displayed file. The results of self-tests are saved anonymously.
 
 After archiving, you will find all information about who answered which questions, which answers were given and how many points were achieved during the self-test.
 
-Via "Administration" ->"[Test Statistics](../learningresources/Using_Course_Tools.md#test-statistics)" you can also quickly access the graphical evaluation of your test data.
+Via "Administration" ->"[Test Statistics](../learningresources/Statistics_Test.md)" you can also quickly access the graphical assessment of your test data.

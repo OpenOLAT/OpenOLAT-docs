@@ -13,7 +13,7 @@
 
 ??? abstract "Erwartete Vorkenntnisse"
 
-    * ["How do I create my first OpenOlat course? "](../my_first_course/my_first_course.md)
+    * ["How do I create my first OpenOlat course?"](../my_first_course/my_first_course.md)
    
 
 ---

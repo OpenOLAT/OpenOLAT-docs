@@ -44,7 +44,7 @@ Wenn Sie dann auf einen Benutzernamen klicken, öffnet sich wiederum das Bewertu
 [Coaching: Kurse >](../area_modules/Coaching_Courses.de.md)<br>
 [Coaching: Bildungsprodukte >](../area_modules/Coaching_Educational_Products.de.md)<br>
 [Coaching: Termine / Absenzen >](../area_modules/Coaching_Events_Absences.de.md)<br>
-[Coaching: Bewertungsaufträge >](../area_modules/Coaching_assessment_orders.de.md)<br>
+[Coaching: Bewertungsaufträge >](../area_modules/Coaching_Assessment_Orders.de.md)<br>
 [Coaching: Reports >](../area_modules/Coaching_Reports.de.md)<br>
 [Coaching: Auftragsverwaltung >](../area_modules/Coaching_Order_Management.de.md)<br>
 [Rollen >](../basic_concepts/Roles.de.md)<br>
