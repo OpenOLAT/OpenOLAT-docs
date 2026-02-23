@@ -35,7 +35,7 @@ gewählt.
 
 Über den Button "Temporär Benutzer erstellen" kann eine bestimmte Anzahl von
 Usern, z.B. für Testzwecke oder temporäre Events erstellt werden. Dabei kann
-die Anzahl der zu erstellenden Benutzer angegeben, Präfixe für die relevanten
+die Anzahl der zu erstellenden Benutzer angegeben (max. 4000), Präfixe für die relevanten
 Benutzerdaten sowie das Datum für den Ablauf der temporären Benutzer definiert
 werden. Auf diese Weise ist die Erstellung von vielen Accounts in kürzester
 Zeit möglich.

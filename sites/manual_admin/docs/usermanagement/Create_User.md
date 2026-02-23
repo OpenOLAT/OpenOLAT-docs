@@ -33,7 +33,7 @@ selected as the default setting for the import.
 
 The "Create temp. users" button can be used to create a certain number of
 users, e.g. for test purposes or temporary events. The number of users to be
-created can be specified, prefixes for the relevant user data as well as the
+created can be specified (max. 4000), prefixes for the relevant user data as well as the
 date for the expiration of the temporary users can be set. In this way, the
 creation of many accounts is possible in a very short time.
 
