@@ -14,7 +14,7 @@ Angebote können auch nur für bestimmte Organisationseinheiten im Katalog angez
 **Beispiel für Kursangebote im Katalog:**
 ![offer_concepts_example_v1_de.png](assets/offer_concepts_example_v1_de.png){ class=" shadow lightbox" }
 
-[Mehr zu Angeboten >](../../manual_user/area_modules/catalog2.0_angebote.de.md)
+[Mehr zu Angeboten >](../area_modules/catalog2.0.de.md)
 
 [zum Seitenanfang ^](#offer_concepts)
 
@@ -41,7 +41,7 @@ Was auf einer Karte im Katalog angezeigt wird, kann (für alle Karten einheitlic
 * Hauptsprache
 * Durchführungszeitraum
 * Durchführungsort
-* Fachbereiche /Katalog
+* Fachbereiche / Katalog
 
 [zum Seitenanfang ^](#offer_concepts)
 
@@ -200,7 +200,7 @@ Das PayPal Bezahlungsmodul erlaubt es Autor:innen Lerninhalte gegen Geld freizus
 
 Nach erfolgreicher Konfiguration des PayPal Moduls können Sie auf der Detailseite des Kurses oder in der Administrationsumgebung der Arbeitsgruppe die PayPal Angebotsart auswählen. 
 
-[Einrichtung des Bezahlungmoduls PayPal (Administration) >](../../manual_admin/administration/Payment_PayPal.de.md)
+[Einrichtung des Bezahlungsmoduls PayPal (Administration) >](../../manual_admin/administration/Payment_PayPal.de.md)
 
 
 ### Rechnung {: #offer_payed_invoice}
@@ -260,7 +260,7 @@ Das Angebot wird im angegebenen Zeitfenster unabhängig vom Status angezeigt und
 Die Mitgliedschaft ist sofort nach der Buchung des Angebots aktiv. 
 
 * **Mitgliedschaft mit Bestätigung:**<br>
-Die Mitgliedschaft ist zunächst ausstehend. Rie Reservierung muss von einer administrativen Rolle bestätigt werden.
+Die Mitgliedschaft ist zunächst ausstehend. Die Reservierung muss von einer administrativen Rolle bestätigt werden.
 
 * **Automatisches Buchen:**<br> 
 Die Mitgliedschaft wird automatisch erstellt, wenn der Kurs geöffnet wird.
