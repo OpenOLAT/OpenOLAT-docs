@@ -3,7 +3,7 @@
 :octicons-device-camera-video-24: **Video-Einführung**: [Voraussetzungen für Autoren](<https://www.youtube.com/embed/L0jc_LBKXLE>){:target="_blank”} <br>
 :octicons-device-camera-video-24: **Video-Einführung**: [Login](<https://www.youtube.com/embed/tI7ag7i6zXc>){:target="_blank”} <br>
 
-![Kurs erstellen](assets/create_course_161_DE.png){ class="shadow" }
+![creating_course_v1_de.png](assets/creating_course_v1_de.png){ class="shadow lightbox" }
 
 Dieses Kapitel ist für Kursautoren geschrieben und zeigt Ihnen wie man einen Kurs erstellt, einrichtet und konfiguriert.
 
@@ -31,8 +31,8 @@ Zusätzlich kann beim Anlegen eines Kurses auch ein Wizard für Einsteiger oder 
 Wenn Sie einen neuen Kurs erstellen, werden Sie gebeten, einen Verwendungszweck anzugeben:
 
 * **Eigenständig:** Ein solcher Kurs hat eine eigene Mitgliederverwaltung.
-* **Verwendung im Course Planner:** Wird ein Kurs in verschiedenen Durchführungen im Course Planner verwendet, müssen die Teilnehmer:innen den verschiedenen Durchführungen zugeordnet werden, nicht dem Kurs. (Sonst wären sie in allen Durchführungen Teilnehmer:innen.)
-* **Template:** Mit dem Course Planner können Kurse in verschiedenen Durchführungen vorab geplant und erst zu einem späteren Zeitpunkt aus einem Kurstemplate instanziert werden. Ein solches Template ist ohne eigene Mitgliederverwaltung.
+* **Verwendung im Course Planner:** Wird ein Kurs im Course Planner verwendet, werden die Mitgliedschaften durch den Course Planner eingetragen, sobald der Kurs im Course Planner einem Element zugeordnet wird.
+* **Template:** Ein Template kann sowohl für die Erstellung eigenständiger Kurse als auch im Course Planner verwendet werden. Ein Template ist ohne eigene Mitgliederverwaltung.
 
 !!! tip "Empfehlung"
 

@@ -497,6 +497,7 @@ plugins:
           Reports : Reports
           Requirements : Voraussetzungen
           Requirements when Working with OpenOlat : Voraussetzungen für die Arbeit mit OpenOlat
+          Reset data : Daten zurücksetzen
           REST API : REST API
           Resource folder : Ressourcenordner
           Review Process : Beurteilungsprozess

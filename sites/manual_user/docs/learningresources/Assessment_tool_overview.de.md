@@ -99,94 +99,10 @@ Ausführliche Informationen zur Bearbeitung und Bewertung im Tab Teilnehmer:inne
 
 ## Daten zurücksetzen {: #course_reset}
 
-![Daten zurücksetzen](assets/zuruecksezten1.jpg)
-
 Mit Hilfe des Wizards können die Daten von Teilnehmer:innen eines Kurses zurückgesetzt werden. Dabei kann das Zurücksetzen für den gesamten Kurs oder nur für ausgewählte Kursbausteine für alle oder ausgewählte Teilnehmer:innen erfolgen.
 
-Abhängig vom Kursbaustein bzw. der Kurskonfiguration werden z.B. der Fortschritt, die Versuchsanzahl, Punkte, Erfolgsstatuts, Bewertungsfreigaben und auch Erinnerungen zurückgesetzt. Bevor die Daten endgültig zurückgesetzt werden, können die alten Ergebnisse als zip Datei heruntergeladen und somit gespeichert werden.
+[Mehr dazu >](../../manual_user/learningresources/Assessment_tool_reset_data.de.md)
 
-Nachfolgend ein Überblick, wie sich der Reset auf die verschiedenen Kursbereiche auswirkt.
-
-### Bewertungsformular
-
-Attribut | Auswirkung
----------|----------
-Status | Auf "Nicht gestartet" gesetzt
-Freigabe Bewertungsstatus | Auf "Nicht freigegeben" gesetzt
-Anzahl Lösungsversuche | Auf 0 zurückgesetzt
-Punktzahl | Zurückgesetzt
-Erfolgsstatus | Auf "Keine Angabe" gesetzt
-Kommentar für andere Betreuende | Zurückgesetzt; Export "assessment_coach_comment.txt" ins Archiv
-Individueller Kommentar / Kommentar für Teilnehmer | Zurückgesetzt; Export "assessment_comment.txt" ins Archiv
-Individuelle Bewertungsdokumente | Zurückgesetzt
-
-### Kommentare & Bewertungen
-
-Kommentare und Bewertungen an Kursbausteinen und am Kurs bleiben erhalten.
-
-### Kurserinnerungen
-
-Die Informationen über gesendete Erinnerungen werden gelöscht. (Gilt nur, wenn der gesamte Kurs zurückgesetzt wird.)
-
-### Leistungsnachweis und Zertifikat
-
-Der Leistungsnachweis wird zum Zeitpunkt des Resets versioniert. Das Zertifikat wird nach erfolgreicher Kursdurchführung erneut ausgestellt. (Gilt nur, wenn der gesamte Kurs zurückgesetzt wird.)
-
-### Kursbausteine
-
-Das Zurücksetzen der Daten wirkt sich individuell auf einzelne Kursbausteine aus.
-
-Sofern der Kursbaustein einen Export ins Archiv auslöst, wird dieser immer erstellt, auch wenn keine Daten vorhanden sind.
-
-Baustein | Auswirkung
----------|----------
-Aufgabe | Alle Workflow-Daten (Zuweisung, Dokumente, Erweiterungen) zurückgesetzt; Export aller Dokumente ins Archiv
-Bewertung | Formular zurückgesetzt; Export der Ergebnisse ins Archiv
-Blog | Einträge bleiben erhalten
-Checkliste | Alle Checkboxen zurückgesetzt; Export der Ergebnisse ins Archiv
-Dateidiskussion | Dateien, Themen und Beiträge bleiben erhalten
-Einschreibung | Einschreibungen in Gruppen werden entfernt
-Formular | Formular zurückgesetzt; Export der Ergebnisse ins Archiv
-Forum | Themen und Beiträge bleiben erhalten
-Gruppenaufgabe | Wenn gesamte Gruppe zurückgesetzt wird: Alle Workflow-Daten (Zuweisung, Dokumente, Erweiterungen) zurückgesetzt; Export aller Dokumente für jeden Teilnehmer ins Archiv
-LTI | Bewertungsformular zurückgesetzt
-Ordner | Inhalte bleiben erhalten
-Podcast | Einträge bleiben erhalten
-Portfolio-Aufgabe | Link zur Portfolioaufgabe entfernt
-SCORM | Versuche zurückgesetzt; Export der Versuche (csv-Datei) ins Archiv
-Selbsttest | Alle Durchführungen zurückgesetzt
-Struktur | Punktestand zurückgesetzt (nur herkömmlicher Kurs)
-Teilnehmer-Ordner | Ordner zurückgesetzt; Export aller eingereichten und zurückgegebenen Dateien ins Archiv
-Terminplanung | Anmeldungen bleiben erhalten
-Test | Alle Versuche zurückgesetzt; Testdurchführungen bleiben bestehen und werden als ungültig markiert; Export der Testergebnisse ins Archiv
-Themenvergabe | Themen-Zuweisungen werden entfernt
-Übung | Übungsdaten und -versuche zurückgesetzt; Testdurchführungen bleiben bestehen und werden als ungültig markiert; Export der Testergebnisse ins Archiv
-Umfrage | Reset für alle Teilnehmenden: Zurückgesetzt und Export ins Archiv; Reset für einzelne Teilnehmende: Kein Zurücksetzen und Export, da Umfragen anonym sind
-Video-Aufgabe | Alle Versuche zurückgesetzt; Durchführungen bleiben bestehen und werden als ungültig markiert; Export der Testergebnisse ins Archiv
-Wiki | Einträge bleiben erhalten
-
-### Daten, die nicht zurückgesetzt werden
-
-Die folgenden Elemente werden beim Zurücksetzen nicht gelöscht:
-
-* Mitgliedschaftsdaten (Ausnahme: Gruppenmitgliedschaft im Einschreiben-Kursbaustein)
-* Logging-Daten
-* Benachrichtigungsabonnements
-* Chat-Protokolle
-* Hochgeladene Dateien in einem öffentlichen Bereich (z. B. Ordnerbaustein)
-* Forenbeiträge und andere Kommentare
-* Erstellte Blog- oder Podcast-Einträge der Benutzer:innen
-* Hinzugefügte Wiki-Einträge der Benutzer:innen
-* Hinzugefügte Glossareinträge der Benutzer:innen
-
-## Daten neu berechnen
-
-Über diesen Link des Menüs kann eine Neuberechnung des Kurses angestoßen
-werden. So können die Kursbewertungen und Leistungsnachweise aktualisiert, die
-Berechnung für bestanden und auch manuell gesetztes "bestanden" zurückgesetzt
-werden.
-
-![Daten neu berechnen](assets/neu_berechnen1.jpg)
 
 ## Massenbewertung
 
