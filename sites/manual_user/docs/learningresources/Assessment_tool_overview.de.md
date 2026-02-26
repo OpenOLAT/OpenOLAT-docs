@@ -1,4 +1,4 @@
-# Bewertungswerkzeug - Übersicht
+# Bewertungswerkzeug - Übersicht {: #assessment_tool_overview}
 
 Das Bewertungswerkzeug ist die zentrale Schaltstelle für die Bewertungen eines OpenOlat-Kurses. Kursbesitzer:innen und Betreuende erhalten hier einen Gesamtüberblick über sämtliche im Kurs enthaltenen bewertbaren Kursbausteine und können die Bewertungen vornehmen.
 

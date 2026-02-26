@@ -1,4 +1,4 @@
-# Assessment tool - overview
+# Assessment tool - overview {: #assessment_tool_overview}
 
 The assessment tool is the central switch point for assessments of an OpenOlat course. Here course owners and tutors will get a general overview of all assessable elements of their course and can carry out assessments.
 
