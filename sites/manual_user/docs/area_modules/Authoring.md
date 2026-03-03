@@ -8,8 +8,8 @@ All existing courses and learning resources are displayed in a table.
 
 ![autorenbereich_uebersicht1_v1_de.png](assets/autorenbereich_uebersicht1_v1_de.png){ class="shadow lightbox" }
 
-### 1. Favourites
-In the filter tab "**Favourites**", you will find all the learning resources you have marked as favourites. This view is displayed by default when you call up the "Authoring".
+### 1. Favorites
+In the filter tab "**Favorites**", you will find all the learning resources you have marked as favourites. This view is displayed by default when you call up the "Authoring".
 
 ### 2. My courses
 In the filter tab "**My courses**", you will find all the courses that you have or for which you are entered as owner (co-author). "My courses" is a subset of "My entries".

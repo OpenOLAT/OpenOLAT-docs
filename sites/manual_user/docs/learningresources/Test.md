@@ -51,8 +51,7 @@ You may have already exported a test file in IMS QTI format from another LMS and
 
 ## Further information {: #further_information}
 
-* [General Information on Tests](General_Information_on_Tests.md)
-  * [Changing from QTI 1.2 to QTI 2.1](Changing_from_QTI_1.2_to_QTI_2.1.md)
+* [Changing from QTI 1.2 to QTI 2.1](Changing_from_QTI_1.2_to_QTI_2.1.md)
 * [How do I proceed when I create a test?](../../manual_how-to/test_creation_procedure/test_creation_procedure.md)
 * [Test editor QTI 2.1](Test_editor_QTI_2.1.md)
   * [Test question types](Test_question_types.md)

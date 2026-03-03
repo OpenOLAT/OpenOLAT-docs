@@ -79,7 +79,7 @@ Only folders to which the person logged in has access authorization are displaye
 
 ### Ressourcenordner {: #resource_folder}
 
-[Resource folders](../learningresources/Resource_Folder.en.md) serve as containers for files that are used multiple times across courses.
+[Resource folders](../learningresources/Resource_Folder.md) serve as containers for files that are used multiple times across courses.
 
 * They are considered learning resources and are therefore listed in the authoring area. They can also be created and edited there. (Authoring area > "Create" button top right)
 * Resource folders can be maintained centrally in the authoring area. Resource folders have their own owners. (They can therefore also be maintained by someone other than the course owner who integrates the resource folder into a course).

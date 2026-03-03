@@ -99,7 +99,7 @@ In the "Release" tab, you define how and for whom a course or learning resource 
 
 The "Add to catalog" button can be used to enter the learning resource in the catalog and assign it to one or more predefined categories. To enter the course or learning resource in several catalog areas, the step must be repeated. All catalog entries then appear here in the "Catalog" tab and can also be removed here.
 
-The entire OpenOlat [catalog (version 1)](../area_modules/Courses.de.md) can be viewed by all users in the "Courses" menu.
+The entire OpenOlat [catalog (version 1)](../learningresources/General_Information.md) can be viewed by all users in the "Courses" menu.
 
 Only enter your courses in the catalog once they have been completed and should be visible to users.
 

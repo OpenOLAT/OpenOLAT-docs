@@ -11,7 +11,7 @@ If a description is indicated on the info page after the import, it can be shown
 
 !!! info
 
-    If a file is imported, it must be in .mp4 format. Further technical information can be found [here](Video_Upload.md).
+    If a file is imported, it must be in .mp4 format. Further technical information can be found [here](../basic_concepts/Video_Upload.md).
 
 !!! info "Note for YouTub videos"
 

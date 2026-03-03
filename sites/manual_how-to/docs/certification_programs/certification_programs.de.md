@@ -221,7 +221,7 @@ Einige typische Meldungen sind vorbereitet und Sie können den Versand einfach a
 
 [Course Planner: Zertifikatsprogramm >](../../manual_user/area_modules/Course_Planner_Certification_Programs.de.md)<br>
 [Course Planner: Durchführungen >](../../manual_user/area_modules/Course_Planner_Implementations.de.md)<br>
-[Zertifikate in Einzelkursen >](../learningresources/Course_Settings_Assessment_Certificate.de.md)<br>
+[Zertifikate in Einzelkursen >](../../manual_user/learningresources/Course_Settings_Assessment_Certificate.de.md)<br>
 [Zertifikate im persönlichen Menü >](../../manual_user/personal_menu/Certificates.de.md)<br>
 [Kreditpunkte im persönlichen Menü >](../../manual_user/personal_menu/Credit_Points.de.md)<br>
 [Kreditpunkte (Administration) >](../../manual_admin/administration/e-Assessment_Credit_Points.de.md)<br>

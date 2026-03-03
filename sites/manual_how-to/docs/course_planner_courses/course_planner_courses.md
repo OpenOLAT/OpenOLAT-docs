@@ -15,7 +15,7 @@
 ??? abstract "Erwartete Vorkenntnisse"
 
     * ["How do I create my first OpenOlat Course?"](../my_first_course/my_first_course.md)<br>
-    * [Familiarity with basic concepts of OpenOlat >](../../manual_user/basic_concepts.md)<br>
+    * [Familiarity with basic concepts of OpenOlat >](../../manual_user/basic_concepts/index.md)<br>
    
 
 ---

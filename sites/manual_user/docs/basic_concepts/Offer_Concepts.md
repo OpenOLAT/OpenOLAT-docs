@@ -120,7 +120,7 @@ The following types of offers can be created:
 | <b>PayPal Checkout</b> | Membership | With this offer, the resource can be booked for a fee using PayPal. Users receive a corresponding membership that gives them access to the resource. | Single course and implementation |
 | <b>Invoice</b> | Membership | With this offer, the resource can be booked for a fee via invoice. Users receive a corresponding membership that gives them access to the resource. | Implementation |
 
-[More about Offer Types >](../learningresources/Access_configuration.de.md#angebotsoptionen)
+[More about Offer Types >](../learningresources/Access_configuration.md#angebotsoptionen)
 
 [To the top of the page ^](#offer_concepts)
 

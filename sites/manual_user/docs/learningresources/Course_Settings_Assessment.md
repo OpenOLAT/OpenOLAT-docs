@@ -23,13 +23,13 @@ You can find the options for this in the sections
 
 !!! info "Assessment in traditional courses"
 
-    The following information refers to learning path courses. For conventional courses, the criteria for passing a course are set in the course editor on the top course element in the “Points” tab, and the result is displayed on the course start page.
+    The following information refers to learning path courses. For conventional courses, the criteria for passing a course are set in the course editor on the top course element in the "Points" tab, and the result is displayed on the course start page.
 
 There are two settings for course assessments:
 
 - **With points** (only with learning path courses) {: #evaluation_with_points}<br>
     Here you can set whether and what type of points are displayed.
-    There are 3 options to choose from for course evaluation with points:
+    There are 3 options to choose from for course assessment with points:
 
     * [Sum](#evaluation_with_points_sum)
     * [Sum with weighting](#evaluation_with_points_weighting) 
@@ -51,8 +51,6 @@ There are two settings for course assessments:
 
 The sum of all points achieved in the course is calculated.
 
-![course_settings_assessment_points_sum_v1_de.png](assets/course_settings_assessment_points_sum_v1_de.png){ class="shadow lightbox" }
-
 [Find out more about Assessment Settings ^](#section_assessment_settings)<br>
 [To the top of the page ^](#tab_assessment)
 
@@ -62,13 +60,9 @@ The sum of all points achieved in the course is calculated.
 
 The weighting is taken into account when calculating the sum.
 
-![course_settings_assessment_points_sum_with_weighting_v1_de.png](assets/course_settings_assessment_points_sum_with_weighting_v1_de.png){ class="shadow lightbox" }
-
 If there are several assessments to be completed in a course, these are sometimes included in the overall assessment of the course with different weightings. The "Sum with weighting" option for the course assessment allows you to enter a **scaling factor** for the points **for assessable modules**. The prerequisite is that these assessable modules are taken into account in the course assessment.
 
 In the **Course configuration overview**, the scaling for all assessable modules can be checked and set or edited directly if required. The "Assessable" pre-filter provides a compact view of the rateable blocks.
-
-![Kurs-Konfiguration](assets/course_setting_assessment_weighting_score_scale_factor_v1_de.png){ class="shadow lightbox" title="Kurs-Konfiguration" }
 
 The weighted score is displayed to coaches in the assessment form. For participants, the weighted score is visible in the performance overview of the respective assessable module and in the performance record.
 
@@ -79,8 +73,6 @@ The weighted score is displayed to coaches in the assessment form. For participa
 
 
 ### Course evaluation with points: Average {: #evaluation_with_points_average}
-
-![course_settings_assessment_points_sum_average_v1_de.png](assets/course_settings_assessment_points_sum_average_v1_de.png){ class="shadow lightbox" }
 
 !!! hint "Highscore"
 
@@ -103,7 +95,6 @@ A learning path course can be considered passed as soon as one of the criteria i
 * **Number of course elements passed**:<br> Here you can define how many and which course elements must be passed for the entire course to be considered passed. However, whether a course element is included in the overall assessment must be specified directly in the course editor for the respective course element (Assessment tab).
 * **Point threshold reached**:<br> Here you can define how many points learners must achieve for the entire course to be considered passed. You can also check which course elements the points must come from. Whether a course element is included in the overall assessment must be specified directly in the course editor for the respective course element (Assessment tab).
 
-![course_settings_assessment_passed_v2_de.png](assets/course_settings_assessment_passed_v2_de.png){ class="shadow lightbox" }
 
 !!! info "Passed criteria"
 
@@ -193,7 +184,7 @@ If a certificate with a limited period of validity has been issued, a **recertif
 
 To use badges in courses, they must be activated here in the "Assessment" tab of the settings. A new menu item will then appear in the course administration, and the "Badge" tab will also appear when editing course elements under "Assessment."
 
-Course owners can always award badges manually, and supervisors can also be authorized to do so if desired.
+Course owners can always award badges manually, and coaches can also be authorized to do so if desired.
 
 
 Further information about badges can be found here:<br> 

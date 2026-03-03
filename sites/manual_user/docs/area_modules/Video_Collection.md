@@ -38,7 +38,7 @@ This includes
 
 !!! info "Note"
 
-    Videos linked directly with a URL in the [course element "HTML page"](../learningresources/Video_in_HTML_Pages.md) are not available as a learning resource in OpenOlat and are therefore not included in the Video Collection.
+    Videos linked directly with a URL in the [course element "HTML page"](../basic_concepts/Video_in_HTML_Pages.md) are not available as a learning resource in OpenOlat and are therefore not included in the Video Collection.
 
 
 [To the top of the page ^](#video_collection)

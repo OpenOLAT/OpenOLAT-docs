@@ -38,7 +38,7 @@ Es besteht die Möglichkeit die Verbindung mit sozialen Netzwerken, wie LinkedIn
 
 Administrator:innen können festlegen, ob und in welchem Umfang OpenOlat von anonymen Gäste und externen Benutzer:innen genutzt werden kann.
 
-[Zu den Details >](../administration/Guest_and_Invitation.de.md)<br>
+[Zu den Details >](../administration/Guest_and_invitation.de.md)<br>
 [Zum Seitenanfang ^](#login)
 
 

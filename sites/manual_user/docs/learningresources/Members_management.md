@@ -29,7 +29,7 @@ When you select a person from the list, you will receive further information abo
 There are three specific course roles:
 
   *  **Owner**  
-Owners have all rights within a course and can access all menus of the [course administration](Using_Course_Tools.md). They create the course structure and usually create the OpenOlat course. The person who creates a course is automatically the course owner. Course owners can also add other owners to the course.
+Owners have all rights within a course and can access all menus of the [course administration](../learningresources/Using_additional_Course_Editor_Tools.md). They create the course structure and usually create the OpenOlat course. The person who creates a course is automatically the course owner. Course owners can also add other owners to the course.
 
   *  **Coaches**  
 Coaches typically play a role in course _delivery_, but are not involved in course creation. 

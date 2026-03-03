@@ -183,7 +183,7 @@ Audio files can be uploaded to OpenOlat and in some places can also be recorded 
 ### Video
 ![icon](assets/video_64_0_434343_none.png){class="size16"}
 
-A video is a learning content in the MPEG-4 format with the file extension .mp4, and is used for audio and video playback. The learning resource video can be added to OpenOLAT by importing or import URL and then further configured. OpenOlat supports the display of subtitles in multiple languages, integrated quizzes, annotations and jump labels. Further information can be found in the ["Creating Videos"](../learningresources/Video.md) chapter.
+A video is a learning content in the MPEG-4 format with the file extension .mp4, and is used for audio and video playback. The learning resource video can be added to OpenOLAT by importing or import URL and then further configured. OpenOlat supports the display of subtitles in multiple languages, integrated quizzes, annotations and jump labels. Further information can be found in the ["Creating Videos"](../basic_concepts/Video.md) chapter.
 
 [To the top of the page ^](#learning_resources)
 

@@ -33,21 +33,14 @@ Open portfolio. Depending on how the instructor has pre-structured the portfolio
 
 Click on a folder area in either the "Overview" or "Entries" tab and "Select a task for editing". Subsequently, the associated task and the editing editor are visible.
 (Open in "My portfolio binders" the corresponding portfolio template.)
-
-![](assets/3_Portfolio.png) 
-
-![](assets/3e_portfolio.png)  
   
-Now the tasks can be edited and suitable artefacts can be added within the portfolio editor and suitable content (text, images, videos, etc.) and artifacts can be added via the Portfolio editor.
-
-![](assets/5_Portfolio.png)  
+Now the tasks can be edited and suitable artefacts can be added within the portfolio editor and suitable content (text, images, videos, etc.) and artifacts can be added via the Portfolio editor. 
  
  If the portfolio task contains forms, these can also be completed. 
 
 If the configuration of the Portfolio 2.0 template allows, a user can add new
 entries or delete the collected binder.
 
-![](assets/5_Portfolio.png)  
 
   
 ## Bearbeitungsstatus 

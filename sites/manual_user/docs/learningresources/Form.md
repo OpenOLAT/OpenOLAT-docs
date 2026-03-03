@@ -12,7 +12,7 @@ The use depends on the objectives and application scenarios.
 Here you will find information on how to create and configure forms for the purposes mentioned.
 
 
-* [General information on forms >](../learningresources/General_information_on_Forms.md)<br>
+* [General information on forms >](../learningresources/Forms_General_Information.md)<br>
 * [How do I create a form learning resource? >](../../manual_how-to/create_a_form/create_a_form.md)
 
 [Form editor >](Form_Editor.md)<br>

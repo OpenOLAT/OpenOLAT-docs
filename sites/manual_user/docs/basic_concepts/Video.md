@@ -83,19 +83,19 @@ Videos can be used in OpenOlat...
 
 ### Videos in courses:
 
-* [in course element "Video"](Course_Element_Video.md)
+* [in course element "Video"](../learningresources/Course_Element_Video.md)
 
 * [in course element "Video task"](../learningresources/Course_Element_Video_Task.md)
 
 * [in course element HTML page](Video_in_HTML_Pages.md)
 
-* [in course element "Page"](Course_Element_Page.md)
+* [in course element "Page"](../learningresources/Course_Element_Page.md)
 
-* [in course element "Video Livestream"](Course_Element_Video_Livestream.md)
+* [in course element "Video Livestream"](../learningresources/Course_Element_Video_Livestream.md)
 
-* [in course element "Podcast"](Course_Element_Podcast.md)
+* [in course element "Podcast"](../learningresources/Course_Element_Podcast.md)
 
-* [in cours element "Mediasite"](Course_Element_Mediasite.md)
+* [in course element "Mediasite"](../learningresources/Course_Element_Mediasite.md)
 
 
 !!! info "Info"

@@ -83,7 +83,7 @@ Furthermore, the contents of all 4 tabs can also be printed or downloaded as an 
 
 The same evaluation can be found in the menu `Administration > Survey Statistics`.
 
-The results can also be saved via the menu "[Data archiving](../learningresources/Using_Course_Tools.md)" > "Surveys". This is the same file as under "Export" in the course run.
+The results can also be saved via the menu "[Data archiving](../learningresources/Using_additional_Course_Editor_Tools.md)" > "Surveys". This is the same file as under "Export" in the course run.
 
 ### Reset surveys
 

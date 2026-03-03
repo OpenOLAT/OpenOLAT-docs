@@ -148,7 +148,7 @@ Gehen Sie in den Tab "Seiteninhalt" und erstellen Sie eine neue Datei HTML-Seite
 
 ### Schritt 3: Startseite ausgestalten und Verzweigungen einbauen {: #step_3}
 
-Nun können Sie die angelegte HTML-Seite über den Link „Seite bearbeiten“ ausgestalten und mit Inhalten/Story und Wahlmöglichkeiten füllen.  
+Nun können Sie die angelegte HTML-Seite über den Link "Seite bearbeiten" ausgestalten und mit Inhalten/Story und Wahlmöglichkeiten füllen.  
 Damit ist die erste Seite fertig. 
 
 [Zum Seitenanfang ^](#branching)
@@ -270,7 +270,7 @@ Kurs Administration -> Einstellungen -> Tab "Toolbar" -> "Toolbar sichtbar für 
 * Nutzen Sie QR-Codes und hinterlegen Sie dort wichtige Informationen oder zusätzliche Infos, Rätsel oder Belohnungen. Das macht es spannender.
 * KI kann generell sehr bei der Entwicklung von Branching-Szenarien unterstützen, z.B. um eine zum Ziel passende Handlung, Wahlmöglichkeiten und sogar eine sinnvolle Verzweigungsstruktur für Ihr Vorhaben zu entwickeln und auch um passende Grafiken zu erstellen. 
 * Wer sich schwer tut die Struktur mit OpenOlat aufzubauen kann für die Strukturentwicklung auch zunächst spezifische Tools wie [Twine](https://twinery.org/) verwenden und anschliessend die Struktur in OpenOlat übertragen. 
-* Wenn Sie mit dem [Kursbaustein "Seite"](../../manual_user/learningresources/Course_Element_Page.de.md) arbeiten: Nutzen Sie doch für die Wahloptionen die „Hinweis-Box“ Typ, Benutzerdefiniert. So können die Wahlmöglichkeiten durchgehend einheitlich hervorgehoben werden. 
+* Wenn Sie mit dem [Kursbaustein "Seite"](../../manual_user/learningresources/Course_Element_Page.de.md) arbeiten: Nutzen Sie doch für die Wahloptionen die "Hinweis-Box" Typ, Benutzerdefiniert. So können die Wahlmöglichkeiten durchgehend einheitlich hervorgehoben werden. 
 
 [Zum Seitenanfang ^](#branching)
 
@@ -284,7 +284,7 @@ Kurs Administration -> Einstellungen -> Tab "Toolbar" -> "Toolbar sichtbar für 
 [Kursbaustein "Seite" >](../../manual_user/learningresources/Course_Element_Page.de.md)<br>
 [Einstellungen am Kurs >](../../manual_user/learningresources/Course_Settings.de.md)<br>
 [Kurseditor >](../../manual_user/learningresources/General_Configuration_of_Course_Elements.de.md)<br>
-[Videos in OpenOlat >](../../manual_user/learningresources/Learning_Resource_Video.de.md)<br>
+[Videos in OpenOlat >](../../manual_user/learningresources/Learning_resource_Video.de.md)<br>
 Quiz bzw. [Test >](../../manual_user/learningresources/Test_editor_QTI_2.1.de.md)
 
 

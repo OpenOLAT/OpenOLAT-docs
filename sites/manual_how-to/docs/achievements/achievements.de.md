@@ -148,7 +148,7 @@ Pro Kurs kann ein Zertifikat (pdf) ausgestellt werden, sobald der Kurs bestanden
 Wurde mit einem "Bestanden" auch ein Zertifikat erstellt, finden es Kursteilnehmer:innen anschliessend im persönlichen Menü. Dort sind alle Zertifikate einsehbar, auch bereits abgelaufene.
 Ein Zertifkat kann mit einem Ablaufdatum versehen werden und ggf. eine erforderliche Rezertifizierung angestossen werden.
 
-[Mehr zu Zertifikaten >](../../manual_user/Course_Settings_Assessment_Certificate.de.md)<br>
+[Mehr zu Zertifikaten >](../../manual_user/learningresources/Course_Settings_Assessment_Certificate.de.md)<br>
 [Zum Seitenanfang ^](#achievements)
 
 ---
@@ -253,7 +253,7 @@ In einem Kursbaustein oder Kurs erworbene Punkte werden (je nach Voreinstellung 
 [Kursbewertung mit Punkten: Durchschnitt >](../../manual_user/learningresources/Course_Settings_Assessment.de.md#evaluation_with_points_average)<br>
 [Einstufung/Noten >](../../manual_user/learningresources/Assessment_translate_points_in_grades.de.md)<br>
 [Notensysteme einrichten >](../../manual_admin/administration/Assessment_translate_points_in_grades_admin.de.md)<br>
-[Zertifikate und Rezertifizierung im Kurs >](../../manual_user/Course_Settings_Assessment_Certificate.de.md)<br>
+[Zertifikate und Rezertifizierung im Kurs >](../../manual_user/learningresources/Course_Settings_Assessment_Certificate.de.md)<br>
 [Zertifikatsprogramme >](../../manual_user/area_modules/Course_Planner_Certification_Programs.de.md)<br>
 [Wie kann ich mit dem Course Planner Zertifikatsprogramme erstellen? >](../../manual_how-to/certification_programs/certification_programs.de.md)
 [Badges im Bewertungswerkzeug >](../../manual_user/learningresources/OpenBadges.de.md)<br>
