@@ -18,7 +18,6 @@ In der (Kurs-)Administration unter **Archivierung & Reporting** können Sie Repo
 ![assessment_tool_reset_data_backup_course_v1_de.png](assets/assessment_tool_reset_data_backup_course_v1_de.png){ class="shadow lightbox" } 
 
 
-
 ### Sicherung eines Kursbausteins "Test"
 
 Die Daten eines Kursbausteins "Test" können im Bewertungswerkzeug als zip-Datei heruntergeladen und gespeichert werden.
@@ -29,6 +28,25 @@ Die erzeugten zip-Dateien sind dann im unteren Bereich des Bildschirms aufgelist
 
 ![assessment_tool_reset_data_backup_course_element_test2_v1_de.png](assets/assessment_tool_reset_data_backup_course_element_test2_v1_de.png){ class="shadow lightbox" }
 
+[Zum Seitenanfang ^](#reset_data})
+
+---
+
+
+## Voraussetzung/Berechtigung zum Zurücksetzen {: #authorization}
+
+**Kursbesitzer:innen** können Daten immer zurücksetzen.
+
+**Betreuende** können Daten nur zurücksetzen, wenn sie die Berechtigung dafür erhalten haben. Dazu muss ein:e Kursbesitzer:in
+
+1. Kurs öffnen → Administration → Einstellungen
+2. Tab "Bewertung" aufrufen
+3. Unter "Betreuer:innen können" die Option "Daten zurücksetzen" aktivieren
+4. Speichern
+
+[Zum Seitenanfang ^](#reset_data})
+
+---
 
 
 ## Daten zurücksetzen mit Wizard {: #wizard}
@@ -48,7 +66,32 @@ Wählen Sie im Wizard die Optionen "Ausgewählte Teilnehmer:innen" und "Ausgewä
 
 ## Daten bestimmter Teilnehmer:innen ohne Wizard zurücksetzen {: #members}
 
+### Zurücksetzen im Bewertungswerkzeug
+
 ![assessment_tool_reset_data_member1_v1_de.png](assets/assessment_tool_reset_data_member1_v1_de.png){ class="shadow lightbox" }
+
+1. Kurs öffnen → Administration → Bewertungswerkzeug → Kursbaustein wählen<br>
+(Bei Klick auf das Wurzelelement des Kurses (oberste Ebene) bezieht sich die nachfolgenden Schritte auf alle Kursbausteine.)
+2. Tab Teilnehmer:innen wählen
+3. Eine Teilnehmer:in in der Tabelle anklicken → Übersicht Teilnehmer:in öffnet sich.<br>
+Für mehrere Teilnehmer:innen selektieren Sie in der dersten Spalte die entsprechenden Checkboxen.
+4. Sobald mindestens 1 Person selektiert ist, erscheinen über der Tabelle weitere Buttons.
+Nach Klick auf den Button "Daten zurücksetzen" werden nach einer Sicherheitsabfrage die Daten der selektierten Personen zurückgesetzt.
+
+### Zurücksetzen im Lernpfad-Werkzeug
+
+1\. Kurs öffnen → Administration → Lernpfad-Tool auswählen
+
+![assessment_tool_reset_data_member2_v1_de.png](assets/assessment_tool_reset_data_member2_v1_de.png){ class="shadow lightbox" }
+
+2\. Es öffnet sich eine Teilnehmerliste. Wählen Sie eine:n Teilnehmer:in in der Tabelle.
+
+![assessment_tool_reset_data_member3_v1_de.png](assets/assessment_tool_reset_data_member3_v1_de.png){ class="shadow lightbox" }
+
+3\. Klicken Sie auf ein 3-Punkte-Icon am Ende einer Zeile. Dort finden Sie die Option "Daten zurücksetzen". Sie können Daten für einzelne Kursbausteine zurücksetzen oder für den Kurs als Ganzes, wenn Sie das oberste Icon für den Gesamtkurs wählen.
+
+![assessment_tool_reset_data_member4_v1_de.png](assets/assessment_tool_reset_data_member4_v1_de.png){ class="shadow lightbox" }
+
 
 [Zum Seitenanfang ^](#reset_data})
 
@@ -79,14 +122,14 @@ Beim Zurücksetzen wird eine entsprechende Archivdatei mit den relevanten Daten 
 
 Attribut | Auswirkung
 ---------|----------
-Status | Auf "Nicht gestartet" gesetzt
-Freigabe Bewertungsstatus | Auf "Nicht freigegeben" gesetzt
-Anzahl Lösungsversuche | Auf 0 zurückgesetzt
-Punktzahl | Zurückgesetzt
-Erfolgsstatus | Auf "Keine Angabe" gesetzt
-Kommentar für andere Betreuende | Zurückgesetzt; Export "assessment_coach_comment.txt" ins Archiv
-Individueller Kommentar / Kommentar für Teilnehmer | Zurückgesetzt; Export "assessment_comment.txt" ins Archiv
-Individuelle Bewertungsdokumente | Zurückgesetzt
+Status | wird auf "Nicht gestartet" gesetzt
+Freigabe Bewertungsstatus | wird auf "Nicht freigegeben" gesetzt
+Anzahl Lösungsversuche | wird auf 0 zurückgesetzt
+Punktzahl | wird zurückgesetzt
+Erfolgsstatus | wird auf "Keine Angabe" gesetzt
+Kommentar für andere Betreuende | wird zurückgesetzt; Export erfolgt als "assessment_coach_comment.txt" ins Archiv
+Individueller Kommentar / Kommentar für Teilnehmer | wird zurückgesetzt; Export erfolgt als "assessment_comment.txt" ins Archiv
+Individuelle Bewertungsdokumente | werden zurückgesetzt
 
 [Zum Seitenanfang ^](#reset_data})
 
