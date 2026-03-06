@@ -203,6 +203,8 @@ nav:
         - Overview: "learningresources/Administration.md"
         - Settings:
           - Overview: "learningresources/Course_Settings.md"
+          - Tab Info: "learningresources/Course_Settings_Info.md"
+          - Tab Metadata: "learningresources/Course_Settings_Metadata.md"
           - Tab Execution: "learningresources/Course_Settings_Execution.md"
           - Tab Share: "learningresources/Course_Settings_Share.md"
           - Tab Share - LTI: "learningresources/LTI_Share_courses.md"

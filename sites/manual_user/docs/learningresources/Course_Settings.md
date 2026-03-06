@@ -32,8 +32,8 @@ Here you define information about the course or learning resource. This includes
 This information is also visible to interested parties without course access under (course) info. 
 The learning resource appears under the title defined here in the alphabetical course list and is relevant for inquiries via the search mask.
 
-[Details about the **info page** >](../learningresources/Info_page.md)<br>
-[Details about the **Set up of the info page** >](../learningresources/Set_up_info_page.md)<br>
+[More about the **Set up of the info page** >](../learningresources/Course_Settings_Info.md)<br>
+[More about the **content of the info page** >](../learningresources/Info_page.md)<br>
 [To the top of the page ^](#course_settings)
 
 

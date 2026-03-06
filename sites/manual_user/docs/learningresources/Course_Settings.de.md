@@ -35,8 +35,8 @@ Hier definieren Sie Informationen 체ber den Kurs bzw. die Lernressource. Dazu z�
 Diese Infos sind f체r Interessierte auch ohne Kurszugang unter (Kurs-)Info sichtbar. 
 Unter dem hier definierten Titel erscheint die Lernressource in der alphabetischen Kursliste und ist f체r Anfragen 체ber die Suchmaske relevant.
 
-[Details 체ber die **Infoseite** >](../learningresources/Info_page.de.md)<br>
-[Details 체ber das **Setup der Infoseite** >](../learningresources/Set_up_info_page.de.md)<br>
+[Mehr 체ber das **Einrichten der Infoseite** >](../learningresources/Course_Settings_Info.de.md)<br>
+[Mehr 체ber die **Inhalte der Infoseite** >](../learningresources/Info_page.de.md)<br>
 [Zum Seitenanfang ^](#course_settings)
 
 
