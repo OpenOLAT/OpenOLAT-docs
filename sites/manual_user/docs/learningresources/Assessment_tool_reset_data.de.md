@@ -239,10 +239,7 @@ Die folgenden Elemente werden beim Zurücksetzen nicht gelöscht:
 
     Diese Funktion ist ab Release 20.2 entfernt worden, weil sie nicht mehr erforderlich ist.
 
-Über diesen Link des Menüs kann eine Neuberechnung des Kurses angestoßen
-werden. So können die Kursbewertungen und Leistungsnachweise aktualisiert, die
-Berechnung für bestanden und auch manuell gesetztes "bestanden" zurückgesetzt
-werden.
+Über diesen Link des Menüs kann eine Neuberechnung des Kurses angestoßen werden. So können die Kursbewertungen und Leistungsnachweise aktualisiert, die Berechnung für bestanden und auch manuell gesetztes "bestanden" zurückgesetzt werden.
 
 ![Daten neu berechnen](assets/neu_berechnen1.jpg)
 

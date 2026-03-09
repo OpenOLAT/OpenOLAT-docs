@@ -104,7 +104,7 @@ Mit Hilfe des Wizards können die Daten von Teilnehmer:innen eines Kurses zurüc
 [Mehr dazu >](../../manual_user/learningresources/Assessment_tool_reset_data.de.md)
 
 
-## Massenbewertung
+## Massenbewertung {: #mass_assessment}
 
 Mit dem Werkzeug "Massenbewertung" können für mehrere Teilnehmer Bewertungsdaten wie Punkte, Statusinformationen, Kommentare sowie Rückgabedateien in einem Schritt übermittelt werden. 
 

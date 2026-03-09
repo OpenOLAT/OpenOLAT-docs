@@ -18,7 +18,7 @@ Here you can see at a glance for which users one or more ratings are open.  It a
 
 Only the unfinished assessments are displayed here. Reviews that have already been completed are not listed here.
 
-### "Reviews to release! (Overview)
+### "Reviews to release" (Overview)
 
 If there are assessments in the course that have not yet been made visible to participants, they will appear here.
 ![reviews to release](assets/review_to_release.jpg)
@@ -35,8 +35,7 @@ If passed/not passed has been configured for the entire course, the number of co
 
 ## Assessment mode
 
-If the course is in [Assessment mode](../learningresources/Assessment_mode.md), this
-is also displayed in the assessment tool. You can also see how many people are already logged in and waiting for the exam to start.
+If the course is in [Assessment mode](../learningresources/Assessment_mode.md), this is also displayed in the assessment tool.
 
 ![Prüfungsmodus Überblick](assets/Pruefng1_Bewertungswerkzeug1.jpg)
 
@@ -46,9 +45,7 @@ You can also see how many people are already logged in and waiting for the test 
 
 ### "Notification Service"
 
-Here coaches can activate the option to receive an e-mail for new submissions,
-test results and other submissions.  Notifications about newly generated
-certificates (if generally activated) can also be subscribed to.
+Here coaches can activate the option to receive an e-mail for new submissions, test results and other submissions.  Notifications about newly generated certificates (if generally activated) can also be subscribed to.
 
 ![Benachrichtigungsservice aktivieren](assets/Benachrichtigungen_Bewertungswerkzeug20.jpg)
 
@@ -79,120 +76,38 @@ In the left navigation of the assessment tool you can see all assessable course 
 The overview tab displays similar information to the overview area of the assessment tool, only related to the course element, e.g. the distribution of points, number of assessments, information on passing, etc. 
 
 
-### Tab Teilnehmer:innen
+### Tab Participants
 
-Im Tab "Teilnehmer:innen" wird die eigentliche Bewertung vorgenommen und die Personen können ausgewählt, Punkte und Feedbacks hinterlegt und die Freigabe der Sichtbarkeit eingestellt werden. 
-Die Tabelle zeigt dann den Bearbeitungstand aller Teilnehmenden des konkreten Kursbausteins an.  
-Ferner können bei Aufgaben im Teilnehmenden Tab auch alle abgegebenen Dokumente heruntergeladen werden. 
+The actual evaluation is carried out in the "Participants" tab, where individuals can be selected, points and feedback can be entered, and visibility settings can be configured. 
+The table then shows the processing status of all participants in the specific course module.  
+Furthermore, all submitted documents can be downloaded from the Participant Tab. 
 
-Der automatisch generierte oberste Kursknoten zählt ebenfalls als bewertbarer Baustein. Er entspricht einem ["Struktur"](../learningresources/Knowledge_Transfer.de.md/#structure) Baustein.  
-Klickt man beim obersten Kursbaustein auf eine Person erhält man eine Gesamtübersichtübersicht über den Bearbeitungsstand der Assessmentbausteine des Kurses für diese Person und kann sich so auch den Leistungsnachweis der Person anzeigen lassen. 
+The automatically generated top course node also counts as an assessable module. It corresponds to a ["Structure"](../learningresources/Knowledge_Transfer.md/#structure) module.  
+Clicking on a person in the top course module gives you a complete overview of the progress made by that person in the assessment modules of the course, allowing you to view their performance record. 
 
-Ist auf dem oberersten Kursbaustein eine Punkteberechnung eingerichtet, können auf der obersten Ebene der Benutzeransicht auch die *Gesamtpunkte* eines Kurses bzw. die für den obersten Baustein definierten Punkte, angezeigt und die Gesamtergebnisse der Kursteilnehmenden heruntergeladen werden.
+If a point calculation is set up on the top course module, the *total points* for a course or the points defined for the top module can also be displayed at the top level of the user view, and the overall results of the course participants can be downloaded.
 
-!!! info "Tipp"
+!!! info "Hint"
 
-    Nutzen Sie die Filtereinstellungen um nur bestimmte Teilnehmende in der Tabelle anzuzeigen. Nutzen Sie auch die Spaltenkonfiguration über das Zahnrad um die für Sie relevanten Spalten anzuzeigen.   
+    Use the filter settings to display only certain participants in the table. You can also use the column configuration via the gear icon to display the columns that are relevant to you. 
 
  To learn how exactly assessments can be made, please refer to the chapter ["Assessment of course modules"](../learningresources/Assessment_of_course_modules.md) or ["User assessment](../learningresources/Assessment_tool_tab_Users.md).
 
-!!! info "Hinweis"
+!!! info "Note"
 
-    Sofern eine Prüfungseinsicht für Teilnehmende aktiviert wurde erscheint beim entsprechenden Kursbaustein auch noch der Tab "Prüfungseinsicht". 
+    If exam viewing has been enabled for participants, the "Exam viewing" tab will also appear for the corresponding course element. 
 
 
 ## Reset data {: #course_reset}
 
-![Daten zurücksetzen](assets/zuruecksezten1.jpg)
+With the help of the wizard, the data of course participants can be reset. The reset can be performed for the entire course or only for selected course modules, for all participants or selected participants.
 
-With the help of the wizard the data of participants of a course can be reset. The reset can be done for the whole course or only for selected course elements for all or selected participants.
+[Find out more >](../../manual_user/learningresources/Assessment_tool_reset_data.md)
 
-Depending on the course element or the course configuration, e.g. the progress, the number of attempts, score, success statuses, assessment releases and also reminders are reset. Before the data is finally reset, the old results can be downloaded as a zip file and thus saved.
+## Mass assessment {: #mass_assessment}
 
-Below is an overview of how the reset affects the different course areas.
-
-### Assessment form
-
-Attribute | Impact
----------|----------
-Status | Set to "Not started"
-Release assessment status | Set to "Not released"
-Number of attempts | Reset to 0
-Score | Reset
-Success status | Set to "Undefined"
-Comment for other coaches | Reset; Export "assessment_coach_comment.txt" to archive
-Individual comment / comment for participant | Reset; Export "assessment_comment.txt" to archive
-Individual assessment documents | Reset
-
-### Comments & ratings
-
-Comments and ratings on course elements and the course are retained.
-
-### Course reminders
-
-The information about sent reminders will be deleted. (Applies only if the entire course is reset).
-
-### Evidence of achievement and certificate
-
-The evidence of achievement will be versioned at the time of the reset. The certificate will be reissued after successful course completion. (Applies only if the entire course is reset).
-
-### Course elements
-
-Resetting the data has an individual effect on the course elements.
-
-If the course element triggers an export to the archive, this will always be created even if no data is available.
-
-Course element | Impact
----------|----------
-Appointment scheduling | Registrations retained
-Assessment | Form reset; Export of results to archive
-Blog | Entries retained
-Checklist | All checkboxes reset; Export results to archive
-Enrollment | Enrollments in groups are removed
-File discussion | Files, topics and posts are preserved
-Folder | Contents are preserved
-Form | Form reset; Export results to archive
-Forum | Topics and posts are preserved
-Group Task | When entire group is reset: All workflow data (assignment, documents, extensions) reset; Export of all documents for each participant to archive
-LTI | Assessment form reset
-Podcast | Entries are preserved
-Portfolio Task | Link to portfolio task removed
-Scorm | Attempts reset; Export of trials (csv file) to archive
-Self-test | All executions reset
-Structure | Score reset (conventional course only)
-Participant Folder | Folder reset; Export of all submitted and returned files to archive
-Practice | Exercise data and attempts reset; Test executions remain and are marked as invalid; Export of test results to archive
-Survey | Reset for all participants: Reset and export to archive; Reset for individual participants: No reset and export, because surveys are anonymous
-Task | All workflow data (assignment, documents, extensions) reset; Export of all documents to archive
-Test | All attempts reset; Test executions remain and are marked as invalid; Export of test results to archive
-Topic Assignment | Topic assignments are removed
-Video task | All attempts reset; Executions remain and are marked as invalid; Export test results to archive
-Wiki | Entries remain
-
-### Data that will not be reset
-
-The following items will not be deleted during the reset process:
-
-* Membership data (exception: group membership in enrollment course module)
-* Logging data
-* Notification subscriptions
-* Chat logs
-* Uploaded files in a public area (e.g., folder module)
-* Forum posts and other comments
-* Created blog or podcast entries by users
-* Added wiki entries by users
-* Added glossary entries by users
-
-## Recalculate data
-
-This link can be used to trigger a recalculation of the course. Thus, the course assessments and certificates of achievement can be updated, the calculation for passed and also manually set "passed" can be reset.
-
-![Daten neu berechnen](assets/neu_berechnen1.jpg)
-
-## Bulk assessment
-
-With the tool "bulk assessment", evaluation data such as points, status information, comments as well as return files can be transmitted for several participants in one step. 
+The "Mass Assessment" tool can be used to transfer assessment data such as points, status information, comments, and return files for multiple participants in a single step. 
 
 ![Massenbewertung](assets/Massenbewertung_wizard.png)
 
-You can find out how to create a mass evaluation in the [How to](../../manual_how-to/bulk_assessment/bulk_assessment.md) area.
+Find out how to create a mass assessment in the [How to](../../manual_how-to/bulk_assessment/bulk_assessment.md) section.

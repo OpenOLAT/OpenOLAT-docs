@@ -1,16 +1,122 @@
-# Assessment tool - reset data
+# Assessment tool - reset data {: #reset_data}
 
-## Reset data {: #course_reset}
+With the help of the **wizard** the data of participants of a course can be reset. The reset can be done for the whole course or only for selected course elements for all or selected participants.
 
-![Daten zurücksetzen](assets/zuruecksezten1.jpg)
+However, you can also reset data for specific participants or course elements selectively **without using the wizard**.
 
-With the help of the wizard the data of participants of a course can be reset. The reset can be done for the whole course or only for selected course elements for all or selected participants.
+Depending on the course module or course configuration, progress, number of attempts, points, success status, assessment approvals, and reminders, for example, are reset. 
 
-Depending on the course element or the course configuration, e.g. the progress, the number of attempts, score, success statuses, assessment releases and also reminders are reset. Before the data is finally reset, the old results can be downloaded as a zip file and thus saved.
 
-Below is an overview of how the reset affects the different course areas.
+## Back up your data before resetting {: #backup}
 
-### Assessment form
+Before the data is permanently reset, the old results can be downloaded and saved. 
+
+### Securing the entire course
+
+In the (course) administration under **Archiving & Reporting**, you can generate reports of the course results. 
+
+![assessment_tool_reset_data_backup_course_v1_de.png](assets/assessment_tool_reset_data_backup_course_v1_de.png){ class="shadow lightbox" } 
+
+### Saving a course element "Test"
+
+The data for a course element "Test" can be downloaded and saved as a zip file in the assessment tool.
+
+![assessment_tool_reset_data_backup_course_element_test1_v1_de.png](assets/assessment_tool_reset_data_backup_course_element_test1_v1_de.png){ class="shadow lightbox" }
+
+The generated zip files are then listed at the bottom of the screen and can be downloaded.
+
+![assessment_tool_reset_data_backup_course_element_test2_v1_de.png](assets/assessment_tool_reset_data_backup_course_element_test2_v1_de.png){ class="shadow lightbox" }
+
+[To the top of the page ^](#reset_data})
+
+---
+
+## Prerequisite/authorization for reset {: #authorization}
+
+**Course owners** can always reset data.
+
+**Coaches** can only reset data if they have been granted permission to do so. To do this, a course owner must:
+
+1. Open course → Administration → Settings
+2. Call up "Assessment" tab
+3. Under "Administrators can," activate the "Reset data" option.
+4. Save
+
+[To the top of the page  ^](#reset_data})
+
+---
+
+
+## Reset data with Wizard {: #wizard}
+
+![assessment_tool_reset_data_wizard1_v1_de.png](assets/assessment_tool_reset_data_wizard1_v1_de.png){ class="shadow lightbox" }
+
+![assessment_tool_reset_data_wizard2_v1_de.png](assets/assessment_tool_reset_data_wizard2_v1_de.png){ class="shadow lightbox" }
+
+If you select the options "Selected participants" and "Selected course elements" in the wizard, you will be guided through the sub-steps in the wizard and asked again at the end whether you want to proceed with the reset.
+
+![assessment_tool_reset_data_wizard3_v1_de.png](assets/assessment_tool_reset_data_wizard3_v1_de.png){ class="shadow lightbox" }
+
+[To the top of the page  ^](#reset_data})
+
+---
+
+
+## Reset data for specific participants without using the wizard {: #members}
+
+### Reset in the assessment tool
+
+![assessment_tool_reset_data_member1_v1_de.png](assets/assessment_tool_reset_data_member1_v1_de.png){ class="shadow lightbox" }
+
+1. Open course → Administration → Assessment tool → Select course element<br>
+(When you click on the root element of the course (top level), the following steps apply to all course elements.)
+2. Select tab participants
+3. Click on a participant in the table → Participant overview opens.<br>
+For multiple participants, select the corresponding checkboxes in the first column.
+4. As soon as at least one person is selected, additional buttons appear above the table.
+After clicking on the "Reset data" button, the data of the selected persons will be reset after a security prompt.
+
+
+### Reset in the Learning Path Tool
+
+1. Open course → Administration → Select Learning Path Tool
+
+![assessment_tool_reset_data_member2_v1_de.png](assets/assessment_tool_reset_data_member2_v1_de.png){ class="shadow lightbox" }
+
+2. A list of participants will open. Select a participant from the table.
+
+![assessment_tool_reset_data_member3_v1_de.png](assets/assessment_tool_reset_data_member3_v1_de.png){ class="shadow lightbox" }
+
+3. Click on the three-dot icon at the end of a line. There you will find the option "Reset data". You can reset data for individual course elements or for the course as a whole by selecting the top icon for the entire course.
+
+![assessment_tool_reset_data_member4_v1_de.png](assets/assessment_tool_reset_data_member4_v1_de.png){ class="shadow lightbox" }
+
+[To the top of the page  ^](#reset_data})
+
+---
+
+
+## Reset data for specific course elements without using the wizard {: #course_elements}
+
+Depending on the course module, the following data will be reset or canceled:
+
+* Progress
+* Number of tries
+* Test runs
+* Points and success status
+* Share rating
+* Reminders
+
+When resetting, a corresponding archive file containing the relevant data is created and then downloaded. The archive is also available for download in the participants' performance records.
+
+[To the top of the page  ^](#reset_data})
+
+---
+
+
+## Impact of resetting
+
+### Impact in the assessment form
 
 Attribute | Impact
 ---------|----------
@@ -23,17 +129,48 @@ Comment for other coaches | Reset; Export "assessment_coach_comment.txt" to arch
 Individual comment / comment for participant | Reset; Export "assessment_comment.txt" to archive
 Individual assessment documents | Reset
 
-### Comments & ratings
+[To the top of the page  ^](#reset_data})
+
+---
+
+
+### Impact on comments & ratings {: #impact_comments_ratings}
 
 Comments and ratings on course elements and the course are retained.
 
-### Course reminders
+[To the top of the page  ^](#reset_data})
+
+---
+
+
+### Impact on course reminders {: #impact_on_reminders}
 
 The information about sent reminders will be deleted. (Applies only if the entire course is reset).
 
-### Evidence of achievement and certificate
+[To the top of the page  ^](#reset_data})
 
-The evidence of achievement will be versioned at the time of the reset. The certificate will be reissued after successful course completion. (Applies only if the entire course is reset).
+---
+
+
+### Impact on evidence of achievement {: #impact_on_evidence_of_achievements}
+
+The performance record is versioned at the time of the reset. It remains visible in the personal menu.
+
+[To the top of the page  ^](#reset_data})
+
+---
+
+
+### Impact on evidence of achievement {: #impact_on_evidence_of_achievements}
+
+If the entire course is reset, the certificate will be reissued after successful completion of the course. 
+
+Once acquired, certificates are stored with the participant's data and can still be viewed in the personal menu, even if a certificate has expired or a course has been deleted entirely. 
+
+[To the top of the page  ^](#reset_data})
+
+---
+
 
 ### Course elements
 
@@ -68,6 +205,11 @@ Topic Assignment | Topic assignments are removed
 Video task | All attempts reset; Executions remain and are marked as invalid; Export test results to archive
 Wiki | Entries remain
 
+[To the top of the page  ^](#reset_data})
+
+---
+
+
 ### Data that will not be reset
 
 The following items will not be deleted during the reset process:
@@ -82,9 +224,32 @@ The following items will not be deleted during the reset process:
 * Added wiki entries by users
 * Added glossary entries by users
 
-## Recalculate data
+[To the top of the page  ^](#reset_data})
 
-This link can be used to trigger a recalculation of the course. Thus, the course assessments and certificates of achievement can be updated, the calculation for passed and also manually set "passed" can be reset.
+---
+
+
+## Recalculate data {: #recalculate}
+
+!!! info "Note"
+
+    This feature has been removed as of release 20.2 because it is no longer necessary.
+
+This link in the menu can be used to trigger a recalculation of the course. This allows course grades and performance records to be updated, and the calculation for "pass" and manually set "pass" to be reset.
 
 ![Daten neu berechnen](assets/neu_berechnen1.jpg)
+
+[To the top of the page  ^](#reset_data})
+
+---
+
+## Further information {: #further_information}
+
+[Assessment tool - Tab Participants >](../../manual_user/learningresources/Assessment_tool_tab_Users.md)<br>
+[Delete course >](../../manual_user/learningresources/Course_Delete.md)<br>
+[Delete user >](../../manual_admin/usermanagement/Delete_User.md)<br>
+
+[To the top of the page ^](#reset_data})
+
+
 

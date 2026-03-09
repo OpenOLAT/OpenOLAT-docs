@@ -148,7 +148,7 @@ A certificate (PDF) can be issued for each course once the course has been passe
 If a certificate was also created with a "Pass" grade, course participants will find it in their personal menu. All certificates can be viewed there, including those that have already expired.
 A certificate can be given an expiration date and, if necessary, a recertification process can be initiated.
 
-[More about certificates >](../../manual_user/Course_Settings_Assessment_Certificate.md)<br>
+[More about certificates >](../../manual_user/learningresources/Course_Settings_Assessment_Certificate.md)<br>
 [To the top of the page ^](#achievements)
 
 ---
@@ -244,12 +244,12 @@ Points earned in a course element or course are also displayed in the course ele
 
 **For Owners**:<br>
 [Course settings, Assessment tab >](../../manual_user/learningresources/Course_Settings_Assessment.md)<br>
-[Course assessment with points: Sum >](../../manual_user/learningresources/Course_Settings_Assessment.de.md#evaluation_with_points_sum)<br>
+[Course assessment with points: Sum >](../../manual_user/learningresources/Course_Settings_Assessment.md#evaluation_with_points_sum)<br>
 [Course assessment with points: Total and weighting >](../../manual_user/learningresources/Course_Settings_Assessment.md)<br>
 [Course assessment with points: Average >](../../manual_user/learningresources/Course_Settings_Assessment.md)<br>
 [Assessment/Grades >](../../manual_user/learningresources/Assessment_translate_points_in_grades.md)<br>
 [Set up grading systems >](../../manual_admin/administration/Assessment_translate_points_in_grades_admin.md)<br>
-[Certificates and recertification in the course >](../../manual_user/Course_Settings_Assessment_Certificate.md)<br>
+[Certificates and recertification in the course >](../../manual_user/learningresources/Course_Settings_Assessment_Certificate.md)<br>
 [Certificate programs >](../../manual_user/area_modules/Course_Planner_Certification_Programs.md)<br>
 [How can I create certificate programs with the Course Planner? >](../../manual_how-to/certification_programs/certification_programs.md)
 [Badges in the assessment tool >](../../manual_user/learningresources/OpenBadges.md)<br>
@@ -268,7 +268,7 @@ Points earned in a course element or course are also displayed in the course ele
 [Form as category rating >](../../manual_user/learningresources/Forms_in_Rubric_Scoring.md)<br>
 [Course modules for knowledge assessment >](../../manual_user/learningresources/Course_Elements.md#wissensuberprufung)<br>
 [Points >](../../manual_user/learningresources/Course_Settings_Assessment.md#section_assessment_settings)<br>
-[Course Settings, Tab Assessment >](../../manual_user/learningresources/Course_Settings_Assessment.de.md)<br>
+[Course Settings, Tab Assessment >](../../manual_user/learningresources/Course_Settings_Assessment.md)<br>
 [Assessment/Grades >](../../manual_user/learningresources/Assessment_translate_points_in_grades.md)<br>
 [Assessment view >](../../manual_user/learningresources/Assessment_tool_overview.md#prufungseinsicht)<br>
 
