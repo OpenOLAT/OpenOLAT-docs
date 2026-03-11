@@ -1,4 +1,6 @@
-# Infoseite
+# Toolbar: Infoseite {: #toolbar_infopage}
+
+![Infoseiten Link Toolbar](assets/Toolbar_Kursinfo.png)
 
 Jeder Kurs und jede OpenOlat Lernressource verfügt über eine Infoseite. Bei
 Kursen wird diese Seite als "Kursinfo" bezeichnet. Die hier eingestellten
@@ -46,6 +48,7 @@ Dieser Bereich ist besonders für die Teilnehmenden interessant. Unter "Meine Da
 
 ![Meine Daten ](assets/Meine_Daten_182.png)
 
+
 ### Technische Informationen
 
 ![Technische Infos](assets/Technische_infos18.jpg)
@@ -67,20 +70,9 @@ Der **letzte Zugriff** gibt an, wann die Lernressource das letzte Mal gestartet 
  **Anzahl Exporte:** Zählt automatisch, wie viel Male die Lernressource insgesamt heruntergeladen wurde.
 
 
+## Weiterführende Informationen  {: #further_information}
 
-## Wie findet man die Infoseite?
+[Aufbau der Infoseite > ](../learningresources/General_Functions_Infopage.de.de.md)<br>
+[Einrichten der Infoseite > ](../learningresources/Course_Settings.de.de.md)<br>
 
-Zur Infoseite einer Lernressource gelangen Sie, wenn Sie im Bereich "Kurse", "Lehrgänge"
-oder "Katalog" in der Liste auf den Link "Infoseite" klicken ...
-
-![Infoseiten Link unter Meine Kurse](assets/Infoseite_Link_Kurse.jpg)
-
-![Infoseiten Link unter Lehrgänge](assets/Infos-Link_Lehrgaenge.png)
-
-Oder wählen Sie, wenn Sie sich im Kurs befinden, das entsprechende Icon in der Toolbar. 
-
-![Infoseiten Link Toolbar](assets/Toolbar_Kursinfo.png)
-
-!!! note "Hinweis"
-
-    Wenn Sie als Teilnehmer kaum Informationen auf der Infoseite finden, dann liegt esdaran, dass Ihre Lehrperson diese Seite (noch) nicht weiter eingerichtet hat. Sprechen Sie ihn oder sie doch darauf an. 
+[Zum Seitenanfang ^](#general_functions_info)

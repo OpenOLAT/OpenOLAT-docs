@@ -1,10 +1,11 @@
 # Kurseinstellungen - Tab Info {: #tab_info}
 
-Jede Lernressource verfügt über eine [Infoseite](../learningresources/Info_page.de.md). Diese kann von den Besitzer:innen der Lernressource inhaltlich gefüllt werden und steht Interessierten nach Veröffentlichung der Lernressource, unabhängig von einer Buchung, bereits vor Betreten der Lernressource zur Verfügung. Das ist z.B. sinnvoll, wenn man die Zielgruppe bereits im Vorfeld informieren möchte.
+Jede Lernressource verfügt über eine [Infoseite](../learningresources/General_Functions_Infopage.de.md). Diese kann von den Besitzer:innen der Lernressource inhaltlich gefüllt werden und steht Interessierten nach Veröffentlichung der Lernressource, unabhängig von einer Buchung, bereits vor Betreten der Lernressource zur Verfügung. Das ist z.B. sinnvoll, wenn man die Zielgruppe bereits im Vorfeld informieren möchte.<br>
+Die Angaben in der Kursadministration im Tab "Info" sind die wesentlichen Bestandteile der Infoseite. Weitere Angaben der Infoeite kommen dann noch aus den Tabs "Metadaten" und "Durchführung" oder werden automatisch generiert. 
 
 ## Infoseite einrichten {: #configure_info}
 
-Die Einrichtung der [Infoseite](../learningresources/Info_page.de.md) erfolgt im Bereich "Einstellungen" des Menüs "Administration". Besonders die Tabs "Info", "Metadaten" und "Durchführung" sind hierfür relevant. Je ausführlicher Sie die Lernressource beschreiben, umso einfacher kann diese gefunden und desto besser sind Interessierte und spätere Teilnehmer:innen informiert.
+Die Einrichtung der [Infoseite](../learningresources/General_Functions_Infopage.de.md) erfolgt im Bereich "Einstellungen" des Menüs "Administration" in den Tabs "Info", "Metadaten" und "Durchführung". Je ausführlicher Sie die Lernressource beschreiben, umso einfacher kann diese gefunden und desto besser sind Interessierte und spätere Teilnehmer:innen informiert.
 
 (Der Screenshot zeigt die "Einstellungen" eines Kurses. Je nach Lernressource steht nur ein Teil der Tabs zur Verfügung.)
 
@@ -32,6 +33,7 @@ Sie sollten unbedingt ein Titelbild oder einen Teaser-Film einstellen. Dadurch g
 
 ## Weiterführende Informationen  {: #further_information}
 
-[Weitere Details zur Infoseite > ](../learningresources/Info_page.de.de.md)<br>
+[Allgemeines zur Infoseite >](../learningresources/General_Functions_Infopage.de.md)<br>
+[Weitere Details zur Infoseite > ](../learningresources/Info_page.de.md)<br>
 [Zum Seitenanfang ^](#tab_info)
 
