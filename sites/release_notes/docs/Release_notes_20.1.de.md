@@ -5,7 +5,7 @@
 
 * * *
 
-:material-calendar-month-outline: **Releasedatum: 16.07.2025 • Letztes Update: 10.12.2025**
+:material-calendar-month-outline: **Releasedatum: 16.07.2025 • Letztes Update: 26.02.2026**
 
 * * *
 
@@ -359,6 +359,10 @@ Zur Korrektur von Tippfehlern oder Verknüpfung eines aktualisierten Bildes ist 
 
 ## Weitere Informationen
 
+
+* [YouTrack Release notes 20.1.18](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.1.18&title=Release%20Notes%2020.1.18){:target="_blank"}
+* [YouTrack Release notes 20.1.17](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.1.17&title=Release%20Notes%2020.1.17){:target="_blank"}
+* [YouTrack Release notes 20.1.16](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.1.16&title=Release%20Notes%2020.1.16){:target="_blank"}
 * [YouTrack Release Notes 20.1.15](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.1.15&title=Release%20Notes%2020.1.15){:target="_blank"}
 * [YouTrack Release Notes 20.1.14](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.1.14&title=Release%20Notes%2020.1.14){:target="_blank"}
 * [YouTrack Release Notes 20.1.13](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.1.13&title=Release%20Notes%2020.1.13){:target="_blank"}

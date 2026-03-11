@@ -5,7 +5,7 @@
 
 * * *
 
-:material-calendar-month-outline: **Releasedatum: 11.12.2025 • Letztes Update: 11.12.2025**
+:material-calendar-month-outline: **Releasedate: 12/11/2025 • Letztes Update: 02/26/2026**
 
 * * *
 
@@ -156,6 +156,13 @@ Courses can now be **saved as templates, exported, and reused**. Based on these 
 
 * * *
 
-## Further informartion
+## Further information
 
 * [YouTrack Release Notes 20.2.0](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.2.0&title=Release%20Notes%2020.2.0){:target="_blank"}
+* [YouTrack Release Notes 20.2.1](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.2.1&title=Release%20Notes%2020.2.1){:target="_blank"}
+* [YouTrack Release Notes 20.2.2](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.2.2&title=Release%20Notes%2020.2.2){:target="_blank"}
+* [YouTrack Release Notes 20.2.3](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.2.3&title=Release%20Notes%2020.2.3){:target="_blank"}
+* [YouTrack Release Notes 20.2.4](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.2.4&title=Release%20Notes%2020.2.4){:target="_blank"}
+* [YouTrack Release Notes 20.2.5](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.2.5&title=Release%20Notes%2020.2.5){:target="_blank"}
+* [YouTrack Release Notes 20.2.6](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.2.6&title=Release%20Notes%2020.2.6){:target="_blank"}
+
