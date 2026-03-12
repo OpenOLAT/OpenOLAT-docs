@@ -72,7 +72,7 @@ Der **letzte Zugriff** gibt an, wann die Lernressource das letzte Mal gestartet 
 
 ## Weiterführende Informationen  {: #further_information}
 
-[Aufbau der Infoseite > ](../learningresources/General_Functions_Infopage.de.de.md)<br>
-[Einrichten der Infoseite > ](../learningresources/Course_Settings.de.de.md)<br>
+[Aufbau der Infoseite > ](../learningresources/General_Functions_Infopage.de.md)<br>
+[Einrichten der Infoseite > ](../learningresources/Course_Settings.de.md)<br>
 
 [Zum Seitenanfang ^](#general_functions_info)
