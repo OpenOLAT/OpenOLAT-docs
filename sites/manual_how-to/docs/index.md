@@ -46,6 +46,7 @@
 3. [How do I perform a peer review?](/manual_how-to/peer_review/peer_review)
 4. [Communication during an exam](/manual_how-to/communication_during_exam/communication_during_exam)
 5. [How do I prepare an exam with the Safe Exam Browser?](/manual_how-to/SEB/SEB)
+6. [How do I assess a test?](/manual_how-to/assessing_tests/assessing_tests)
 
 ## Making successes and achievements visible
 1. [How do I make successes and achievements visible??](/manual_how-to/achievements/achievements)
