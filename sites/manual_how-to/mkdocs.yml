@@ -30,10 +30,10 @@ nav:
     - Information on learning progress: "progress_information/progress_information.md"
   - Tests and Assessments:
     - How do I proceed when I create a test?: "test_creation_procedure/test_creation_procedure.md"
-    - How do I assess a test?: "assessing_tests/assessing_tests.md"
     - How do I perform a peer review?: "peer_review/peer_review.md"
     - Communication during an exam: "communication_during_exam/communication_during_exam.md"
     - How do I prepare an exam with the Safe Exam Browser?: "SEB/SEB.md"
+    - How do I assess a test?: "assessing_tests/assessing_tests.md"
   - Making successes and achievements visible:
     - How do I make successes and achievements visible?: "achievements/achievements.md"
   - Adjust OpenOlat:
