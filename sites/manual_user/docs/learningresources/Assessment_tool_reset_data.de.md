@@ -250,6 +250,25 @@ Die folgenden Elemente werden beim Zurücksetzen nicht gelöscht:
 ---
 
 
+## Unterschied: "Daten zurücksetzen" - "Alle Daten löschen" {: #reset_vs_delete}
+
+
+Wenn Sie im Bewertungswerkzeug einen Test-Kursbaustein gewählt haben, stehen Ihnen sowohl Möglichkeiten zum Zurücksetzen als auch zum Löschen der Daten zur Verfügung. Worin bestehen die Unterschiede?
+
+![assessment_tool_reset_data_distinguish_v1_de.png](assets/assessment_tool_reset_data_distinguish_v1_de.png){ class="shadow lightbox" }
+
+| ![1_green_24.png](assets/1_green_24.png)<br>Daten zurücksetzen<br>mit Wizard| ![2_green_24.png](assets/2_green_24.png)<br>Daten für ausgewählte einzelne Teilnehmer:innen ohne Wizard zurücksetzen | ![3_green_24.png](assets/3_green_24.png)<br>Alle Daten löschen<br>&nbsp; |
+| ----------------- | ----------------- | ----------------- |
+| Mit diesem Button öffnen Sie den Wizard.<br>Gemäss der dort gemachten Angaben werden die Daten dann zurückgesetzt. | Mit diesem Button werden nur die Daten der selektierten Teilnehmer:innen zurückgesetzt.<br>&nbsp; | Mit diesem Button werden alle bisher in diesem Kursbaustein gemachten Eingaben von allen Teilnehmer:innen komplett gelöscht. |
+|<b>Beispiel: |<b>Alle haben 3 Versuche, den Test zu bestehen.| |
+| Mit Klick auf "Daten zurücksetzen" wird die Zahl der bereits gemachten Versuche wieder auf 0 gesetzt. Auch "Bestanden" usw. werden zurückgesetzt (Reset). Die Daten der bereits gemachten Lösungsversuche ("Test-Runs") bleiben jedoch erhalten und weiterhin im Bewertungswerkzeug sichtbar. |  Mit Klick auf "Daten zurücksetzen" wird die Zahl der bereits gemachten Versuche wieder auf 0 gesetzt. Auch "Bestanden" usw. werden zurückgesetzt (Reset).Die Daten der bereits gemachten Lösungsversuche ("Test-Runs") bleiben jedoch erhalten und weiterhin im Bewertungswerkzeug sichtbar.| Alle Daten der bereits gemachten Lösungsversuche ("Test-Runs") werden bei allen Teilnehmer:innen gelöscht.<br>&nbsp;<br>&nbsp; |
+
+
+[Zum Seitenanfang ^](#reset_data})
+
+---
+
+
 ## Weitere Informationen {: #further_information}
 
 [Bewertungswerkzeug - Tab Teilnehmer >](../../manual_user/learningresources/Assessment_tool_tab_Users.de.md)<br>

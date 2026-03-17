@@ -243,6 +243,27 @@ This link in the menu can be used to trigger a recalculation of the course. This
 
 ---
 
+
+## Difference: “Reset data” - “Delete all data” {: #reset_vs_delete}
+
+
+If you have selected a test course module in the assessment tool, you have the option to either reset or delete the data. What are the differences?
+
+![assessment_tool_reset_data_distinguish_v1_de.png](assets/assessment_tool_reset_data_distinguish_v1_de.png){ class="shadow lightbox" }
+
+
+| ![1_green_24.png](assets/1_green_24.png)<br>Reset data<br>mit Wizard| ![2_green_24.png](assets/2_green_24.png)<br>Reset data of selected participants without wizard | ![3_green_24.png](assets/3_green_24.png)<br>Delete all data<br>&nbsp; |
+| ----------------- | ----------------- | ----------------- |
+| With this button you open the wizard.<br>According to the instructions provided there, the data will then be reset. | This button resets only the data for the selected participants.<br>&nbsp; | Clicking this button will completely delete all entries made so far in this course module by all participants. |
+|<b>Example: |<b>Everyone has three chances to pass the test.| |
+| Clicking “Reset Data” will reset the number of attempts made so far to 0. ‘Passed’ and other statuses will also be reset. However, the data from previous attempts (“test runs”) will be retained and will remain visible in the assessment tool. |  Clicking “Reset Data” will reset the number of attempts made so far to 0. ‘Passed’ and other statuses will also be reset. However, the data from previous attempts (“test runs”) will be retained and will remain visible in the assessment tool.| All data from previous attempts to solve the test (“test runs”) will be deleted for all participants.<br>&nbsp;<br>&nbsp; |
+
+
+[To the top of the page ^](#reset_data})
+
+---
+
+
 ## Further information {: #further_information}
 
 [Assessment tool - Tab Participants >](../../manual_user/learningresources/Assessment_tool_tab_Users.md)<br>
