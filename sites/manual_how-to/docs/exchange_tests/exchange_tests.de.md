@@ -159,7 +159,6 @@ Der Schritt "Publizieren" entfällt also in diesem Fall.
 ## Weiterführende Informationen {: #further_information}
 
 [Test erstellen >](../../manual_user/learningresources/Test.de.md)<br>
-[Tests und Fragebögen erstellen >](../../manual_user/learningresources/Test_and_Questionnaire.de.md)<br>
 [Daten zurücksetzen >](../../manual_user/learningresources/Assessment_tool_reset_data.de.md)<br>
 
 [zum Seitenanfang ^](#exchange_tests)
