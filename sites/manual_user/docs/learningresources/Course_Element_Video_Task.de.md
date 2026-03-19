@@ -135,6 +135,13 @@ Konfiguration - Was in der Lernressource? Was im Kursbaustein?
 * Auch Tests werden automatisch bewertet. Betreuer:innen können alle Lösungsversuche im Bewertungswerkzeug ansehen und über die Freigabe der Bewertung entscheiden.
 * In einer Video-Lernressource enthaltene Quizfragen sind derzeit nicht in der Auswertung berücksichtigt. Im Kursbaustein Videoaufgabe bezieht sich die Auswertung ausschliesslich auf die Segmente.
 * Bei Übungen sollen die Ergebnisse anonym bleiben. Betreuer:innen sehen deshalb nur anonym dargestellte  Ergebnisse. 
+* Die Gewichtung falscher Antworten erfolgt mit folgender Formel:<br>
+    t = total number of segments<br>
+    c = number of correctly identified segments<br>
+    w = wrong clicks<br>
+    g = Weighting wrong clicks<br>
+    Result % = (c / t) - (w / t * g)  -> Weniger als 0% gibt es jedoch nicht<br> 
+    Score = max. score * result 
 
 
 ### Ergebnis für Teilnehmer:innen

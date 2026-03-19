@@ -135,6 +135,13 @@ Configuration - What in the learning resource? What in the course element?
 * Tests are also assessed automatically. Coaches can view all solution attempts in the assessment tool and decide whether to approve the assessment.
 * Quiz questions contained in a video learning resource are currently not included in the evaluation. In the course element video task the evaluation refers exclusively to the segments.
 * In exercises, the results should remain anonymous. Coaches therefore only see anonymously presented results.
+* Incorrect answers are weighted using the following formula:<br>
+    t = total number of segments<br>
+    c = number of correctly identified segments<br>
+    w = wrong clicks<br>
+    g = Weighting wrong clicks<br>
+    Result % = (c / t) - (w / t * g)  -> However, it cannot be less than 0%<br> 
+    Score = max. score * result
 
 
 ### Result for participants
