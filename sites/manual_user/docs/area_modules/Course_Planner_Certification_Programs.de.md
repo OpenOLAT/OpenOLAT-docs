@@ -79,7 +79,7 @@ Um ein neues Zertifikatsprogramm zu erstellen, klicken Sie im<br>
 
 Ein Zertifikationsprogramm kann vom Status "Aktiv" auf "Inaktiv" gesetzt werden. Dies ist insbesondere während der Erstellung hilfreich.   
 
-![course_planner_certification_programs_config_status_v1_de.png](assets/course_planner_certification_programs_config_status_v1_de.png){ class="shadow lightbox" }
+![course_planner_certification_programs_config_status_v2_de.png](assets/course_planner_certification_programs_config_status_v2_de.png){ class="shadow lightbox" }
 
 [Zum Seitenanfang ^](#certification_programs)
 
@@ -95,7 +95,7 @@ Auf der Übersicht sehen Sie auf einen Blick die Anzahl der Mitglieder sortiert 
 * Zertifikat läuft bald ab
 * in Rezertifizierung
 
-![course_planner_certification_programs_config_overview_v1_de.png](assets/course_planner_certification_programs_config_overview_v1_de.png){ class="shadow lightbox" }
+![course_planner_certification_programs_config_overview_v2_de.png](assets/course_planner_certification_programs_config_overview_v2_de.png){ class="shadow lightbox" }
 
 
 [Zum Seitenanfang ^](#certification_programs)
@@ -115,7 +115,7 @@ Aus dem Zertifikatsprogramm ausgeschiedene Personen sind unter einem separaten B
 Unter den 3 Punkten am Ende eines Listenzeile besteht die Möglichkeit für die Zertifikatsprogrammbesitzer:innen mit der betreffenden Person Kontakt aufzunehmen.<br>
 Auch die Option zum Widerrufen ist hier zu finden. So können z.B. zu Unrecht automatisch ausgestellte Zertifikate manuell zurückgezogen werden.
 
-![course_planner_certification_programs_config_members_v1_de.png](assets/course_planner_certification_programs_config_members_v1_de.png){ class="shadow lightbox" }
+![course_planner_certification_programs_config_members_v2_de.png](assets/course_planner_certification_programs_config_members_v2_de.png){ class="shadow lightbox" }
 
 [Zum Seitenanfang ^](#certification_programs)
 
@@ -126,7 +126,7 @@ Auch die Option zum Widerrufen ist hier zu finden. So können z.B. zu Unrecht au
 
 Meldungen und Erinnerungen beziehen sich immer auf die aktuelle Konfiguration. Im oberen Bereich können Sie diese nochmals kontrollieren.
 
-![course_planner_certification_programs_config_messages_v1_de.png](assets/course_planner_certification_programs_config_messages_v1_de.png){ class="shadow lightbox" }
+![course_planner_certification_programs_config_messages_v2_de.png](assets/course_planner_certification_programs_config_messages_v2_de.png){ class="shadow lightbox" }
 
 **Benachrichtigungen**<br>
 Im Abschnitt Benachrichtigungen finden Sie **vorbereitete Benachrichtigungen** zum Zertifikatsprogramm gemäss der aktuellen Konfiguration. Sie können diese Benachrichtigungen nach Bedarf aktivieren/deaktivieren und die Standardvorlagen für die Nachrichten anpassen. (Sie finden den Button zur Anpassung einer Vorlage unter den 3 Punkten oder wenn Sie die Detailansicht geöffnet haben.)
@@ -143,7 +143,7 @@ Zusätzlich können Sie in einem weiteren Abschnitt eigene Erinnerungen anlegen,
 
 Bedingung für die Erlangung eines Zertifikates ist das erfolgreiche Absolvieren einer der hier aufgelisteten Durchführungen (ODER-Verknüpfung, es genügt eine der hier aufgelisteten Durchführungen). Ob es sich um Durchführungen des genau gleichen Produkts oder Kurses handelt, spielt keine Rolle. Deshalb ist die Auswahl mit Bedacht zu treffen um eine Gleichwertigkeit zu gewährleisten.
 
-![course_planner_certification_programs_config_implementations_v1_de.png](assets/course_planner_certification_programs_config_implementations_v1_de.png){ class="shadow lightbox" }
+![course_planner_certification_programs_config_implementations_v2_de.png](assets/course_planner_certification_programs_config_implementations_v2_de.png){ class="shadow lightbox" }
 
 Haben Sie mehrere Zertifikatsprogramme angelegt, können Sie gefilterte Listen anzeigen lassen:<br>
 Alle - Relevant - Abgebrochen - Beendet
@@ -171,7 +171,7 @@ Mit Klick auf das Glühbirnen-Symbol gelangen Sie zur Infoseite. (Sie müssen da
 
 Verwenden Sie diesen Tab, um dem aktuellen Zertifikatsprogramm weitere Besitzer:innen hinzuzufügen oder sie zu entfernen.
 
-![course_planner_certification_programs_config_owners_v1_de.png](assets/course_planner_certification_programs_config_owners_v1_de.png){ class="shadow lightbox" }
+![course_planner_certification_programs_config_owners_v2_de.png](assets/course_planner_certification_programs_config_owners_v2_de.png){ class="shadow lightbox" }
 
 [Zum Seitenanfang ^](#certification_programs)
 
@@ -188,19 +188,29 @@ In den Einstellungen definieren Sie,
 * welches pdf-Zertifikat vergeben wird
 
 **Button "Metadata"**<br>
-![course_planner_certification_programs_config_settings_metadata_v1_de.png](assets/course_planner_certification_programs_config_settings_metadata_v1_de.png){ class="shadow lightbox" }
+![course_planner_certification_programs_config_settings_metadata_v2_de.png](assets/course_planner_certification_programs_config_settings_metadata_v2_de.png){ class="shadow lightbox" }
 
 <br>
 
 **Button "Konfiguration"**<br>
-![course_planner_certification_programs_config_settings_config_v1_de.png](assets/course_planner_certification_programs_config_settings_config_v1_de.png){ class="shadow lightbox" }
+![course_planner_certification_programs_config_settings_config_v2_de.png](assets/course_planner_certification_programs_config_settings_config_v2_de.png){ class="shadow lightbox" }
 
 <br>
 
 **Button "Zertifikat"**<br>
-![course_planner_certification_programs_config_settings_certificate_v1_de.png](assets/course_planner_certification_programs_config_settings_certificate_v1_de.png){ class="shadow lightbox" }
+![course_planner_certification_programs_config_settings_certificate_v2_de.png](assets/course_planner_certification_programs_config_settings_certificate_v2_de.png){ class="shadow lightbox" }
 
 
+
+[Zum Seitenanfang ^](#certification_programs)
+
+---
+
+### Tab Aktivitätslog {: #config_tab_activitylog}
+
+In diesen Tab können Sie alle Aktivitäten im aktuellen Zertifikatsprogramm nachvollziehen. Verwenden Sie die Filter um gezielt in allen Aktivitäten zu suchen.
+
+![course_planner_certification_programs_config_activitylog_v1_de.png](assets/course_planner_certification_programs_config_activitylog_v1_de.png){ class="shadow lightbox" }
 
 [Zum Seitenanfang ^](#certification_programs)
 
