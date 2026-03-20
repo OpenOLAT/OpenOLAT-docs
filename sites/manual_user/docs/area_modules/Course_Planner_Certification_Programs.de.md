@@ -293,10 +293,16 @@ Die Möglichkeit zur Rezertifizierung durch Teilnehmer:innen kann von den Besitz
 ---
 
 
-## Zertifikate manuell ausstellen oder aberkennen {: #manual_certification}
+## Zertifikate manuell ausstellen oder aberkennen/widerrufen {: #manual_certification}
 
 Das Recht zum manuellen Ausstellen oder Aberkennen von Zertifikaten haben in erster Linie Besitzer:innen des jeweiligen Zertifikatsprogramms.<br>
 Ausserdem haben auch Benutzer:innen mit den Rollen "Administrator:in" und "Course Planner:in" administrativen Zugriff.
+
+* Öffnen Sie mit Klick auf den Tab "Mitglieder" die Liste der Teilnehmer:innen. 
+* Klicken Sie in der Zeile der betroffenen Teilnehmer:innen auf die 3 Punkt am Ende der Zeile.
+* Dort werden Ihnen die Optionen zum Erneuern oder Widerrufen des Zertifikats angezeigt.
+
+![course_planner_certification_programs_renew_redraw_v1_de.png](assets/course_planner_certification_programs_renew_redraw_v1_de.png){ class="shadow lightbox" }
 
 !!! info "Hinweis"
 
