@@ -1,4 +1,5 @@
-# Lernressource: Video
+# Lernressource: Video {: #learning_resource_video}
+
 ![icon_video.png](assets/video_64_0_434343_none.png)
 
 
@@ -12,7 +13,12 @@ Darüber hinaus können Video Lernressourcen auch mit dem OpenOlat Video-Editor 
 
 Weitere technische Hinweise zum Upload und Organisation von Videos finden Sie [hier](../basic_concepts/Video_Upload.de.md).
 
-## Administrations Menüs der Lernressource Video im Überblick
+[Zum Seitenanfang ^](#learning_resource_video)
+
+---
+
+
+## Administrations Menüs der Lernressource Video im Überblick {: #video_administration}
 
 Die Lernressource Video verfügt über folgende Administrations-Menüs:
 * **Einstellungen** (siehe unten)
@@ -24,7 +30,11 @@ Die Lernressource Video verfügt über folgende Administrations-Menüs:
 * **Inhalt exportieren**: Erstellt eine zip Datei der Lernressource, die lokal gespeichert werden und in andere OpenOlat Systeme importiert oder als Back up verwendet werden kann. 
 * **Video löschen**
 
-## Menü "Einstellungen" der Lernressource Video 
+[Zum Seitenanfang ^](#learning_resource_video)
+
+---
+
+## Menü "Einstellungen" der Lernressource Video {: #video_settings}
 
 ![lernressource_video.png](assets/Video_Einstellungen.png)  
 
@@ -149,7 +159,12 @@ Im Tab Download kann eingestellt werden, ob  User das Video herunterladen dürfe
 
 Der Tab "Katalog" erscheint nur wenn der [Katalog 1.0](../area_modules/catalog1.0.de.md) in der OpenOlat Instanz aktiviert ist. Es besteht dann die Möglichkeit die Lernressource entsprechend in den Katalog einzutragen. 
 
-##  Menü "Video-Editor"
+[Zum Seitenanfang ^](#learning_resource_video)
+
+---
+
+
+##  Menü "Video-Editor" {: #video_editor}
 
 In der Administration der Lernressource findet man den Link zum "Video-Editor". 
 
@@ -168,7 +183,7 @@ Der Video Editor umfasst drei Bearbeitungsbereiche:
 Konfiguriert werden können: Kapitel, Annotationen, Segmente, Kommentare und Quiz. 
 
 
-### Editor: Kapitel {: #video_chapter}
+### Video-Editor: Kapitel {: #video_chapter}
 
 Jedem Video können "Kapitel" als Sprungmarken hinzugefügt werden. Dies erleichtert die Navigation im Video und sollte bei längeren Videos möglichst ergänzt werden. Ein Kapitel wird im Tab Kapitel mit der Schaltfläche " hinzufügen" angelegt. 
 
@@ -181,7 +196,8 @@ Kapitel können anschliessend sowohl bearbeitet, als auch wieder gelöscht werde
 
 ![Kapitel in Videos](assets/Video_Kapitel.jpg)
 
-### Editor: Annotationen
+
+### Video-Editor: Annotationen {: #video_annotation}
 
 Anmerkungen bzw. Annotationen können an beliebigen Stellen im Video ebenfalls hinterlegt werden, z.B. um besonders wichtige Stellen hervorzuheben oder bestimmte Aspekte zu ergänzen z.B. Literaturangaben. Neben Text können auch Links gesetzt werden, die z.B. zu weiteren Informationen führen. 
 
@@ -194,7 +210,7 @@ Geben Sie den gewünschten Text ein, legen Sie die Dauer der Anzeige fest und w�
 Sie können beliebig viele Annotationen hinzufügen und über die Pfeile zwischen ihnen wechseln. Über das 3-Punkte Menü können Annotationen auch wieder gelöscht werden. 
 
 
-### Editor: Segmente
+### Video-Editor: Segmente {: #video_segments}
 
 Segmente sind spezifische Bereiche im Video, die z.B. einem übergeordneten Ansatz oder einer Strukturierung zugeordnet werden. Die Segmente sind besonders in Kursen für die Kursbausteine "Video" und "Videoaufgabe" relevant und können hier eingeblendet und verwendet werden. 
 
@@ -203,14 +219,20 @@ Segmente sind spezifische Bereiche im Video, die z.B. einem übergeordneten Ansa
 
 Im Video-Editor wählen Sie den Tab "Segmente" und klicken auf "Hinzufügen". Es erscheint das Konfigurationsmenü. 
 
-![learning_resource_video_segments_v1_de.png](assets/learning_resource_video_segments_v1_de.png){ class="shadow lightbox" }
+![learning_resource_video_segments1_v1_de.png](assets/learning_resource_video_segments1_v1_de.png){ class="shadow lightbox" }
 
-Für jedes Segment muss mit "Hinzufügen" ein Element angelegt und mit passendem Zeitslot und Begriff versehen werden.  Die Segmente dürfen sich dabei zeitlich nicht überschneiden. Also einem zeitlichen  Segment wird genau ein Begriff zugeordnet.  
+Für jedes Segment muss mit "Hinzufügen" ein Element angelegt und mit passendem Zeitslot und **Begriff** versehen werden.  Die Segmente dürfen sich dabei zeitlich nicht überschneiden. Also einem zeitlichen  Segment wird genau ein Begriff zugeordnet.  
 
-Sie können entweder direkt alle relevanten Video-Segmentbegriffe eingeben und diese dann im zweiten Schritt den konkreten zeitlichen Positionen zuordnen. Gehen Sie dafür wie folgt vor:
+Sie können direkt alle relevanten Video-Segmentbegriffe eingeben und diese dann im zweiten Schritt den konkreten zeitlichen Positionen zuordnen. Gehen Sie dafür wie folgt vor:
 
-* "Hinzufügen" anklicken um das Konfigurationsmenü zu erreichen
-* Button "Begriffe" anklicken und über das Plus-Zeichen alle relevanten Begriffe einfügen. Möglichst schon passend in der Reihenfolge in der sie im Video auftauchen. Dann können sie später leichter zugeordnet werden
+* Button "Begriffe" anklicken. 
+
+![learning_resource_video_segments2_v1_de.png](assets/learning_resource_video_segments2_v1_de.png){ class="shadow lightbox" }
+
+* Über das Plus-Zeichen alle relevanten Begriffe einfügen. Möglichst schon passend in der Reihenfolge in der sie im Video auftauchen. Dann können sie später leichter zugeordnet werden.
+
+![learning_resource_video_segments3_v1_de.png](assets/learning_resource_video_segments3_v1_de.png){ class="shadow lightbox" }
+
 
 Alternative: Sie springen jeweils zum gewünschten Zeitpunkt in der Timeline des Videos und fügen dann denn passenden Begriff für das Segement hinzu. So geht´s: 
 
@@ -220,6 +242,8 @@ Alternative: Sie springen jeweils zum gewünschten Zeitpunkt in der Timeline des
 
 Eingefügte Segmente werden in der Timeline in einer separaten Spur angezeigt und können so auch rasch aufgerufen und dann bearbeitet werden. 
 
+![learning_resource_video_segments4_v1_de.png](assets/learning_resource_video_segments4_v1_de.png){ class="shadow lightbox" }
+
 !!! hint "Tipps"
 
     * Benutzen Sie den Abspielknopf des Videos um Ihre Arbeit zu kontrollieren.
@@ -228,11 +252,12 @@ Eingefügte Segmente werden in der Timeline in einer separaten Spur angezeigt un
 
 Die Segmente werden vor allem im Kursbaustein Video-Aufgabe verwendet. Wofür könnte man die Segmente hier verwenden? Hier ein paar Ideen:
 
-a) Lehrende könnten beispielsweise einen zentralen Begriff einem bestimmten Zeitslot im Video zuordnen. Die Lernenden müssen später im Kurs die konkrete Stelle finden, an denen dieser Aspekt auftaucht. 
-b) Lehrende definieren verschiedene Phasen eines Prozesses und kennzeichnen diese als Segmente. Die Lernenden müssen dann die passenden Bereiche im Video identifizieren. Das funktioniert ähnlich mit der Zuordnung von Theorien.
+a) Lehrende könnten beispielsweise einen zentralen Begriff einem bestimmten Zeitslot im Video zuordnen. Die Lernenden müssen später im Kurs die konkrete Stelle finden, an denen dieser Aspekt auftaucht. <br>
+b) Lehrende definieren verschiedene Phasen eines Prozesses und kennzeichnen diese als Segmente. Die Lernenden müssen dann die passenden Bereiche im Video identifizieren. Das funktioniert ähnlich mit der Zuordnung von Theorien.<br>
 c) Bei einem Beobachtungsvideo einer Kindergarten-Szene, eines Bewerbungsgesprächs oder sonstigen Realvideos sollen bestimmte typische Aspekte oder Fehler identifiziert werden.  
 
-### Editor: Kommentare
+
+### Video-Editor: Kommentare {: #video_comments}
 
 Kommentare lassen sich gezielt an einer bestimmten Stelle im Video platzieren. Sie können zentrale Kernaussagen hervorheben, zusätzliche Informationen ergänzen oder auf den folgenden Videoabschnitt vorbereiten. Jeder Kommentar wird mit dem Namen der erstellenden Person gekennzeichnet.
 
@@ -243,7 +268,7 @@ Kommentare können als Text oder als Video-Kommentar angelegt werden. Video-Komm
 
 ![Video-Kommentare hinzufügen](assets/Video_Kommentare.jpg)  
 
-### Editor: Quiz
+### Video-Editor: Quiz {: #video_quiz}
 
 Fügen Sie Ihrem Video einzelne Quizfragen hinzu. Aktuell stehen 12 verschiedene Fragetypen zur Auswahl. Wählen Sie   einfach einen Frage-Typ aus der Liste aus und Sie gelangen zum Quiz-Editor für die konkrete Quizfrage. Geben Sie hier die Frage und Antwortoptionen ein und speichern Sie alles.
 
@@ -272,3 +297,13 @@ Wenn eine Frage falsch beantwortet wird, es für die Frage nur einen Versuch gib
     Die Quizfragen dienen in erster Linie zur Aktivierung und kurzen Reflexion. sie eignen sich nicht für komplexe Prüfverfahren. 
 
 
+[Zum Seitenanfang ^](#learning_resource_video)
+
+---
+
+## Weiterführende Informationen {: #further_information}
+
+[Kursbaustein Video >](../../manual_user/learningresources/Course_Element_Video.de.md)<br>
+[Kursbaustein Videoaufgabe >](../../manual_user/learningresources/Course_Element_Video_Task.de.md)<br>
+
+[Zum Seitenanfang ^](#learning_resource_video))

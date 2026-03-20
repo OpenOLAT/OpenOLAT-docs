@@ -1,4 +1,4 @@
-# Kursbaustein "Videoaufgabe"
+# Kursbaustein "Videoaufgabe"  {: #video_task}
 
 
 ## Steckbrief
@@ -14,6 +14,11 @@ Spezialität / Hinweis | Zusätzliche im Video enthaltene Quizzes sind nicht bew
 
 
 Mit dem Kursbaustein "Videoaufgabe" können OpenOlat Video-Lernressourcen für interaktive (formative) Übungen oder Aufgaben mit Bewertungen (summativ) wiederverwendet werden. Dabei müssen Teilnehmende in einem Video relevante Situationen erkennen und einer Kategorie zuordnen. Die dafür notwendigen Platzhalter im Video (= Segmente) sowie die Kategorien werden in der Lernressource "Video" definiert (siehe Video Editor). Es steht ein Übungsmodus und ein scharfer Testmodus zur Verfügung. 
+
+[Zum Seitenanfang ^](#video_task)
+
+---
+
 
 ## Aufgabenstellungen
 
@@ -69,6 +74,8 @@ In diesem Modus sind die Segmente (Videoabschnitte) im Video **nicht markiert**.
     Neben den 3 Aufgabenstellungen mit Segmenten können auch Quizfragen zu verschiedenen Zeitpunkten im Video angezeigt werden. Sie werden in der Auswertung jedoch derzeit nicht berücksichtigt.
 
 
+[Zum Seitenanfang ^](#video_task)
+
 ---
 
 ## Übungsmodus - Testmodus
@@ -104,26 +111,40 @@ Um Segmente (Videoabschnitte) zuordnen zu können, benötigt eine Videoaufgabe z
 
     Wird für die Video-Lernressource ein Link (z.B. YouTube) benutzt, ist zu bedenken, dass bei einem nicht mehr gültigen Link die Videoaufgabe unbrauchbar wird. Wir empfehlen deshalb, möglichst eine mp4-Datei in OpenOlat hochzuladen. 
 
+[Zum Seitenanfang ^](#video_task)
+
 ---
 
 ## Videoaufgabe erstellen
 
 ### Schritt 1
-Fügen Sie einen Kursbaustein "Videoaufgabe" in den Kurs ein.
+Erstellen Sie im Autorenbereich eine Video-Lernressource. 
+Öffnen Sie den Video-Editor fügen Sie Segmente und Begriffe hinzu. 
+[Mehr dazu >](../../manual_user/learningresources/Learning_resource_Video.de.md#video-editor-segmente)<br>
+
 
 ### Schritt 2
-Im Tab "Konfiguration" 
-a) fügen Sie eine Video-Lernressource ein und 
-b) wählen den gewünschten Modus.
+Fügen Sie einen Kursbaustein "Videoaufgabe" in den Kurs ein.
 
 ### Schritt 3
-Klicken Sie im Tab "Konfiguration" auf "Lernressource bearbeiten". Sie öffnen damit den Video-Editor.
+Im Kursbaustein, Tab "Konfiguration" 
+a) fügen Sie die mit Segmenten vorbereitete Video-Lernressource ein und 
+b) wählen den gewünschten Modus.
+
 
 ### Schritt 4
-Im Video-Editor fügen Sie Segmente und Kategorien hinzu (siehe Video-Lernressource).
+Stellen Sie sicher, dass im Tab "Konfiguration" 
+
+* Segmente als Videoelemente angezeigt werden
+* die richtigen Begriffe verwendet werden
+* die Reihenfolge der Begriffe in der Videoaufgabe stimmt
+
+!!! hint "Tipp"
+
+    * Mit Klick auf "Lernressource bearbeiten" öffnen Sie den Video-Editor und können die Segmentzuordnung weiter bearbeiten.
 
 
-Konfiguration - Was in der Lernressource? Was im Kursbaustein?
+[Zum Seitenanfang ^](#video_task)
 
 ---
 
@@ -197,3 +218,14 @@ Wurde für die Videoaufgabe der Modus "Test" gewählt, erscheinen ausser den **T
 ![video_task_betreueransicht_test_v1_de.png](assets/video_task_betreueransicht_test_v1_de.png){ class="shadow lightbox" }
 
 Alle Resultate können von den Besitzer:innen und Betreuer:innen dieses Kurses im **Tab "Teilnehmer:innen"** detailliert für jeden/jede Teilnehmer:in eingesehen werden.
+
+[Zum Seitenanfang ^](#video_task)
+
+---
+
+## Weiterführende Informationen {: #further_information}
+
+[Lernressource Video >](../../manual_user/learningresources/Learning_resource_Video.de.md)<br>
+[Kursbaustein Video >](../../manual_user/learningresources/Course_Element_Video.de.md)<br>
+
+[Zum Seitenanfang ^](#video_task)
