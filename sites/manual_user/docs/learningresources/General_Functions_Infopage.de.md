@@ -113,8 +113,8 @@ Beispiel: Lernressource Formular
 
 ## Weiterführende Informationen  {: #further_information}
 
-[Weitere Details zur Infoseite > ](../learningresources/Info_page.de.de.md)<br>
-[Einrichten der Infoseite > ](../learningresources/Course_Settings.de.de.md)<br>
+[Weitere Details zur Infoseite > ](../learningresources/Info_page.de.md)<br>
+[Einrichten der Infoseite > ](../learningresources/Course_Settings.de.md)<br>
 
 [Zum Seitenanfang ^](#general_functions_info)
 

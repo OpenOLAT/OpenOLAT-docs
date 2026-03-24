@@ -3,8 +3,8 @@
 ??? abstract "Ziel und Inhalt dieser Anleitung"
 
     Sie haben bereits einen Kurs mit einem Test-Kursbaustein erstellt.<br>
-    Sie haben den Kurs veröffentlicht und die Kursteilnehmer haben den Test bearbeitet.<br>
-    Wie gehen Sie nun vor, um die Testergebnisse der Teilnehmer einzusehen, manuell zu bewerten, zu kommentieren und abzuschliessen? Die folgende Anleitung zeigt es Ihnen.
+    Sie haben den Kurs veröffentlicht und die Kursteilnehmenden haben den Test bearbeitet.<br>
+    Wie gehen Sie nun vor, um die Testergebnisse der Teilnehmenden einzusehen, manuell zu bewerten, zu kommentieren und abzuschliessen? Die folgende Anleitung zeigt es Ihnen.
 
 ??? abstract "Zielgruppe"
 
@@ -148,7 +148,7 @@ Dort können Sie
 * Punkte vergeben
 * bestanden/nicht bestanden definieren 
 * die Freigabe der Resultate für Lernende einstellen
-* Kommentare für andere Betreuter hinterlassen
+* Kommentare für andere Betreuende hinterlassen
 * Bewertungsdokumente verteilen
 * eine Bewertung abschliessen
 
@@ -178,8 +178,8 @@ Für **Tests** ist zusätzlich ein **Korrekturwerkzeug** verfügbar, in dem die 
 
 Es kann damit auf 2 Arten korrigiert werden:
 
-1. Eine bestimmte **Frage auswählen** und diese Frage bei allen Teilnehmern korrigieren.
-2. Einen **Teilnehmer auswählen** und dann nacheinander alle Fragen dieses Teilnehmers korrigieren, bevor Sie zum nächsten Teilnehmer wechseln.
+1. Eine bestimmte **Frage auswählen** und diese Frage bei allen Teilnehmenden korrigieren.
+2. Einen **Teilnehmenden auswählen** und dann nacheinander alle Fragen dieses Teilnehmenden korrigieren, bevor Sie zum nächsten Teilnehmenden wechseln.
 
 ![assessing_tests_correction_tool_process1_v1_de.png](assets/assessing_tests_correction_tool_process1_v1_de.png){ class="shadow lightbox" }
 
@@ -200,7 +200,7 @@ Die Endsumme der Punkte kann umgerechnet werden in
 
 * Noten (Details sind konfigurierbar, z.B. 1-6 oder 6-1)
 * Begriffe zur Bewertung (z.B. "sehr gut", "gut", usw. oder A1, B1, usw. für Sprachniveaus)
-* Grafische Bewertung (z.B. verschiedene Smileys)
+* Grafische Bewertung (z.B. verschiedene Emojis)
 
 Ob und wie eine Umwandlung der Punkte stattfindet, wird von dem/der Kursautor:in festgelegt und kann nicht von bewertenden Personen eingestellt werden.<br>
 [Mehr dazu >](../../manual_user/learningresources/Assessment_translate_points_in_grades.de.md)
@@ -222,6 +222,21 @@ Das Bewertungswerkzeug bietet **Sammelaktionen**, um den Status mehrerer Teilneh
 
 [zum Seitenanfang ^](#assessing_tests)
 
+
+---
+
+## Checkliste {: #checklist}
+
+- [x] Wurde der Test von allen Kursteilnehmer bearbeitet?
+- [x] Ist der späteste erlaubte Bearbeitungszeitpunkt bereits überschritten?
+- [x] Ist klar, wer die Testergebnisse bewertet?
+- [x] Soll eine Person korrigieren, die nicht Mitglied des Kurses ist? 
+- [x] Sollen Korrekturaufträge vergeben werden?
+- [x] Wurde der Test so konfiguriert, dass er automatisch bewertet wird oder soll er manuell bewertet werden?
+- [x] Enthält der Test ausschliesslich Fragen, die automatisch ausgewertet werden können?
+
+[zum Seitenanfang ^](#assessing_tests)
+
 ---
 
 
@@ -238,24 +253,10 @@ Das Bewertungswerkzeug bietet **Sammelaktionen**, um den Status mehrerer Teilneh
 [Bewertung von Kursbausteinen >](../../manual_user/learningresources/Assessment_of_course_modules.de.md)<br>
 [Test erstellen >](../../manual_user/learningresources/Test.de.md)<br>
 [Test konfigurieren >](../../manual_user/learningresources/Configure_tests.de.md)<br>
-[Tests bewerten >](../../manual_user/learningresources/Assessing_testsde.md)<br>
+[Tests bewerten >](../../manual_user/learningresources/Assessing_tests.de.md)<br>
 [Das Bewertungsformnular >](../../manual_user/learningresources/The_assessment_form.de.md)<br>
 [Einstufung/Noten >](../../manual_user/learningresources/Assessment_translate_points_in_grades.de.md)<br>
 [Daten zurücksetzen >](../../manual_user/learningresources/Assessment_tool_reset_data.de.md)<br>
 [Korrektur-Workflow >](../../manual_user/learningresources/Test_settings.de.md#korrektur-workflow)<br>
-
-[zum Seitenanfang ^](#assessing_tests)
-
----
-
-## Checkliste {: #checklist}
-
-- [x] Wurde der Test von allen Kursteilnehmer bearbeitet?
-- [x] Ist der späteste erlaubte Bearbeitungszeitpunkt bereits überschritten?
-- [x] Ist klar, wer die Testergebnisse bewertet?
-- [x] Soll eine Person korrigieren, die nicht Mitglied des Kurses ist? 
-- [x] Sollen Korrekturaufträge vergeben werden?
-- [x] Wurde der Test so konfiguriert, dass er automatisch bewertet wird oder soll er manuell bewertet werden?
-- [x] Enthält der Test ausschliesslich Fragen, die automatisch ausgewertet werden können?
 
 [zum Seitenanfang ^](#assessing_tests)

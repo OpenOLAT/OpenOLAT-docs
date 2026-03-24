@@ -25,11 +25,11 @@ Ein gewählter Durchführungszeitraum wird in der Kursinfo angezeigt.
 
 Folgendes sollte man allerdings beachten: 
 
-Wird „mit Beginn- und Enddatum“ gewählt, gelten die hier eingetragenen Daten auch für verschiedene zeitabhängige Funktionen im Kurs, zum Beispiel für Erinnerungen oder im Aufgabenbaustein beim automatischen Einziehen von Aufgaben. 
+Wird "mit Beginn- und Enddatum" gewählt, gelten die hier eingetragenen Daten auch für verschiedene zeitabhängige Funktionen im Kurs, zum Beispiel für Erinnerungen oder im Aufgabenbaustein beim automatischen Einziehen von Aufgaben. 
 
 Das Enddatum des Durchführungszeitraums wird auch für den Kurs-Lebenszyklus verwendet. Welche genauen Konsequenzen damit verbunden sind, legen die OpenOlat-Administrator:innen fest. Z.B. könnte der Kurs 2 Tage nach dem Endtermin auf "beendet" gesetzt und/oder der Kurs 4 Wochen nach dem Termin gelöscht werden. Erkundigen Sie sich am besten, welche Einstellungen in Ihrer OpenOlat-Instanz für den Kurs-Lebenszyklus gelten. 
 
-In herkömmlichen Kursen wird bei der Berechnung von „Bestanden“ berücksichtigt, ob das Ergebnis innerhalb des Durchführungszeitraums erreicht wurde. Wird kein „Bestanden“ bis zum Enddatum erzielt, erscheint automatisch „Nicht bestanden“.
+In herkömmlichen Kursen wird bei der Berechnung von "Bestanden" berücksichtigt, ob das Ergebnis innerhalb des Durchführungszeitraums erreicht wurde. Wird kein "Bestanden" bis zum Enddatum erzielt, erscheint automatisch "Nicht bestanden".
 
 !!! note "Hinweis"
 
@@ -96,7 +96,7 @@ Wird der Prüfungsmodus für Termine erlaubt, kann man bei Terminen im 3-Punkte-
 Die Vorlaufzeit bezieht sich auf "Prüfungsmodus für Termine erlauben".<br>
 Wenn Betreuer:innen oder Besitzer:innen einen Termin "als Prüfung markieren", wird ein Prüfungsmodus mit dieser Vorgabe erstellt. (Alle so erstellen Prüfungsmodi des Kurses haben die gleiche Vorlaufzeit.)
 
- ![13_green_24.png](assets/13_green_24.png) **Nachlaufzeit**<br>
+![13_green_24.png](assets/13_green_24.png) **Nachlaufzeit**<br>
 Die Nachlaufzeit bezieht sich auf "Prüfungsmodus für Termine erlauben".<br>
 Wenn Betreuer:innen oder Besitzer:innen einen Termin als "als Prüfung markieren", wird ein Prüfungsmodus mit dieser Vorgabe erstellt. (Alle so erstellen Prüfungsmodi des Kurses haben die gleiche Nachlaufzeit.)
 

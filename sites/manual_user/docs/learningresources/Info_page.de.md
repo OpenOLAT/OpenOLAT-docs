@@ -2,13 +2,9 @@
 
 ![Infoseiten Link Toolbar](assets/Toolbar_Kursinfo.png)
 
-Jeder Kurs und jede OpenOlat Lernressource verfügt über eine Infoseite. Bei
-Kursen wird diese Seite als "Kursinfo" bezeichnet. Die hier eingestellten
-Informationen sind bereits sichtbar bevor ein Kurs bzw. Lernressource
-überhaupt von Lernenden gebucht oder betreten wird.  
+Jeder Kurs und jede OpenOlat Lernressource verfügt über eine Infoseite. Bei Kursen wird diese Seite als "Kursinfo" bezeichnet. Die hier eingestellten Informationen sind bereits sichtbar bevor ein Kurs bzw. Lernressource überhaupt von Lernenden gebucht oder betreten wird.  
 
-Lehrende können auf diese Weise der Zielgruppe schon im Vorfeld zentrale
-Informationen zur Verfügung stellen. Hierzu zählen z.B.
+Lehrende können auf diese Weise der Zielgruppe schon im Vorfeld zentrale Informationen zur Verfügung stellen. Hierzu zählen z.B.
 
 * Namen der beteiligten Lehrenden
 * Beschreibung der Veranstaltung
@@ -21,9 +17,7 @@ Die Infoseite enthält auch einen Link um den Kurs zu starten bzw. zu buchen.
 
 ![Beispiel für die Infoseite](assets/Infoseite_Beispiel.png)
 
-Viele Lehrende ergänzen ein Bild oder Video zur Veranstaltung. Dieses Bild
-sowie ein erster Teil der Beschreibung erscheinen dann auch in der Übersicht
-unter "Meine Kurse" bzw. "Favoriten" sofern nicht die Tabellenansicht gewählt wurde.
+Viele Lehrende ergänzen ein Bild oder Video zur Veranstaltung. Dieses Bild sowie ein erster Teil der Beschreibung erscheinen dann auch in der Übersicht unter "Meine Kurse" bzw. "Favoriten" sofern nicht die Tabellenansicht gewählt wurde.
 
 ![Infoseite in Kursübersicht](assets/Infoseite_Kurse.jpg)
 
@@ -59,15 +53,15 @@ Die technischen Informationen sind nur für die Besitzer der Lernressource sicht
 
 Die Infoseite von Lernressourcen jenseits eines Kurses enthält auch noch "Informationen zur Verwendung". Dazu gehören: 
 
- **Referenzen**: Hier sehen Sie, welche Kurse diese Lernressource verwenden. Solange die Lernressource in einem Kurs verwendet wird, kann sie nicht gelöscht werden.
+**Referenzen**: Hier sehen Sie, welche Kurse diese Lernressource verwenden. Solange die Lernressource in einem Kurs verwendet wird, kann sie nicht gelöscht werden.
 
 Der **letzte Zugriff** gibt an, wann die Lernressource das letzte Mal gestartet wurde.
 
- **Momentane Benutzer**: Gibt an, wie viele Benutzer diese Lernressource zurzeit in OpenOlat gestartet haben.
+**Momentane Benutzer**: Gibt an, wie viele Benutzer diese Lernressource zurzeit in OpenOlat gestartet haben.
 
- **Anzahl Aufrufe**: Zählt automatisch, wie viel Male die Lernressource insgesamt gestartet wurde. Wenn die Lernressource nicht in OpenOlat gestartet werden kann, erscheint der Eintrag _Ausführung nicht unterstützt_.
+**Anzahl Aufrufe**: Zählt automatisch, wie viel Male die Lernressource insgesamt gestartet wurde. Wenn die Lernressource nicht in OpenOlat gestartet werden kann, erscheint der Eintrag _Ausführung nicht unterstützt_.
 
- **Anzahl Exporte:** Zählt automatisch, wie viel Male die Lernressource insgesamt heruntergeladen wurde.
+**Anzahl Exporte:** Zählt automatisch, wie viel Male die Lernressource insgesamt heruntergeladen wurde.
 
 
 ## Weiterführende Informationen  {: #further_information}
