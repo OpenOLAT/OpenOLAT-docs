@@ -82,6 +82,10 @@ Im Tab "Konfiguration" werden die Rahmenbedingungen der Themenwahl und Einschrei
 **Auswahlzeitraum**<br>
 Der Auswahlzeitraum ist das Zeitfenster, innerhalb dessen die Teilnehmer:innen ihre Themenwünsche abgeben müssen. Nach Ende des Auswahlzeitraums wird die Einschreibung ausgelöst.
 
+!!! hint "Hinweis"
+
+    Kursbesitzer:innen können den Auswahlzeitraum auch noch ändern, wenn bereits Einschreibungen vorgenommen wurden. In diesem Fall ändert sich der Status wieder auf "Auswahl im Gange". Bereits vorgenommene Einschreibungen bleiben unverändert, die Teilnehmer:innen können sie jedoch nun wieder anpassen. 
+
 **Auswahl/Prioritäten pro Teilnehmer:in**<br>
 Wenn die Teilnehmer:innen mehrere Themen angegeben haben, können sie eine Auswahl als ihre Priorität/bevorzugter Wunsch markieren. In diesem Feld geben Sie an, wie viele Themen maximal als bevorzugtes Wunschthema angegeben werden können.
 
@@ -102,7 +106,8 @@ Den Teilnehmer:innen kann auch erlaubt werden, Einschreibungen wieder **zurückz
 Aktuell ist nur die Methode ["Faire Auswahl"](#topic_broker_algorithm) verfügbar. Es ist geplant, dass weitere Methoden zur Auswahl hinzukommen. 
 
  ![6_green_24.png](assets/6_green_24.png) **Überschneidung der Durchführungszeiträume**<br>
-Generell können Wahlthemen auch mit einem Durchführungszeitraum versehen werden. Ist dies der Fall kann es wichtig sein zeitliche Überschneidungen bei der Wahl zu vermeiden. Durch das Setzen des Hakens wird eine Überschneidung im Einschreibeprozess vermieden.
+Generell können Wahlthemen auch mit einem Durchführungszeitraum versehen werden. Ist dies der Fall, kann es wichtig sein, zeitliche Überschneidungen bei der Wahl zu vermeiden. Z.B. wenn Themen mit einer Präsenzveranstaltung verbunden sind. Bei der Zuweisung dürfen einer Person dann keine sich überschneidende Themen (=Termine) zugewiesen werden.<br> 
+Durch das Setzen des Hakens wird eine Überschneidung im Einschreibeprozess vermieden und der Durchführungszeitraum wird im Algorithmus berücksichtigt. 
 
 ![7_green_24.png](assets/7_green_24.png) **Einschreibung nach Ablauf der Frist auslösen**<br>
 Grundsätzlich gibt es zwei Möglichkeiten, nach Ablauf der Einschreibefrist die Verteilung der Teilnehmenden auszulösen: Entweder manuell durch die Kursitzer:innen (siehe unten) oder automatisch durch das System nach Ende des Auswahlzeitraums. 
@@ -214,7 +219,7 @@ Die Mediendateien müssen beim Import dem richtigen Thema zugeordnet werden. Die
 
 Die wählbaren Themen können schon durch Kursbesitzer:innen hinzugefügt und beschrieben worden sein (im Kurseditor im Tab "Themen"). Alternativ kann dies **auch durch Kursbetreuer:innen** geschehen. Dazu wählen Sie als Betreuer:in den Kursbaustein und den Tab "Themen". Die Themen können hier neu erstellt oder aus einer Excel-Tabelle importiert werden. (Unter der Auswahloption "Themen importieren" finden Sie auch eine Excel-Vorlage zum Download.)
 
-![course_element_topic_broker_topics_coach_v1_de.png](assets/course_element_topic_broker_topics_coach_v1_de.png){ class="shadow lightbox" }
+![course_element_topic_broker_topics_coach_v2_de.png](assets/course_element_topic_broker_topics_coach_v2_de.png){ class="shadow lightbox" }
 
 
 [nach oben (Perspektive Kursbetreuer:in) ^](#topic_broker_coaching)<br>
@@ -225,7 +230,7 @@ Die wählbaren Themen können schon durch Kursbesitzer:innen hinzugefügt und be
 
 Im Tab "Teilnehmer:innen" sehen Sie als Betreuer:in, wer seine Themenwünsche schon abgegeben hat, bzw. auf der Warteliste oder schon eingeschrieben ist. Mit Klick auf das + vor einem der Namen öffnet sich die Detailansicht.
 
-![course_element_topic_broker_participant_list1_v1_de.png](assets/course_element_topic_broker_participant_list1_v1_de.png){ class="shadow lightbox" }
+![course_element_topic_broker_participant_list1_v2_de.png](assets/course_element_topic_broker_participant_list1_v2_de.png){ class="shadow lightbox" }
 
 
 !!! tip "Hinweis"
@@ -278,21 +283,21 @@ Wurde von dem/der Kursbesitzer:in im Kurseditor im Tab "Konfiguration" die Optio
 
 Der Zeitpunkt, wann Sie die Einschreibung auslösen, ist nicht festgelegt. Während der Zuordnung befindet sich der Kursbaustein immer noch im Status "Definitive Einschreibung ausstehend".
 
-![course_element_topic_broker_enrollment_start_v1_de.png](assets/course_element_topic_broker_enrollment_start_v1_de.png){ class="shadow lightbox" }
+![course_element_topic_broker_enrollment_start_v2_de.png](assets/course_element_topic_broker_enrollment_start_v2_de.png){ class="shadow lightbox" }
 
 Bei manuellem Anstossen des Zuordnungsalgorithmus können **mehrere Durchläufe** gemacht werden. Die Ergebnisse weichen voneinander ab, weil im Algorithmus auch ein Zufallsfaktor enthalten ist. Sie werden in einem Dropdown aufgelistet und Betreuer:innen können daraus einen Durchlauf auswählen, der für die endgültige Einschreibung angewendet werden soll.
 
-![course_element_topic_broker_choose_a_run_v1_de.png](assets/course_element_topic_broker_choose_a_run_v1_de.png){ class="shadow lightbox" }
+![course_element_topic_broker_choose_a_run_v2_de.png](assets/course_element_topic_broker_choose_a_run_v2_de.png){ class="shadow lightbox" }
 
-Hat sich der/die Betreuer:in für einen Durchlauf (ein Zuordnungsergebnis) entschieden, wird mit Klick auf den Button "Anwenden" die **Einschreibung** anhand dieser Zuordnung vorgenommen. Es ist eine nochmalige Bestätigung erforderlich, denn die Einschreibung kann nicht mit einem anderen Zuordnungsergebnis/Durchlauf wiederholt werden.
+Hat sich der/die Betreuer:in für einen Durchlauf (ein Zuordnungsergebnis) entschieden, wird mit Klick auf den Button "Akzeptierenen" die **Einschreibung** anhand dieser Zuordnung vorgenommen. Es ist eine nochmalige Bestätigung erforderlich.
 
-![course_element_topic_broker_confirm_assignment_v1_de.png](assets/course_element_topic_broker_confirm_assignment_v1_de.png){ class="shadow lightbox" }
+![course_element_topic_broker_confirm_assignment_v2_de.png](assets/course_element_topic_broker_confirm_assignment_v2_de.png){ class="shadow lightbox" }
 
 Auch beim manuellen Anstoss kann bestimmt werden, dass im Anschluss die Teilnehmer:innen per Mail über die Einschreibung informiert werden.
 
 !!! tip "Hinweis"
 
-    Wenn nach Klick auf "Anwenden" noch Personen mit dem Status "Warteliste" oder "Offen" vorhanden sind, können Sie diese manuell zuordnen (siehe [Korrektur](Course_Element_Topic_Broker.de.md#topic_broker_adjustment)).<br>
+    Wenn nach Klick auf "Akzeptieren" noch Personen mit dem Status "Warteliste" oder "Offen" vorhanden sind, können Sie diese manuell zuordnen (siehe [Korrektur](Course_Element_Topic_Broker.de.md#topic_broker_adjustment)).<br>
     Dies kann z.B. erforderlich sein, wenn eine Person nach Ablauf des Zeitfensters noch keine Themenangabe gemacht hatte und deshalb vom Algorithmus nicht zugeordnet werden konnte. 
 
 
@@ -300,11 +305,33 @@ Auch beim manuellen Anstoss kann bestimmt werden, dass im Anschluss die Teilnehm
 [zum Seitenanfang ^](#topic_broker)
 
 
+### Optimierung durch Strategieanpassung {: #topic_broker_adapt_strategy}
+
+Die Vergabe der Themen kann nach verschiedenen Strategien vorgenommen werden. Sie können selbst eine Strategie wählen. Verwenden Sie dazu den Link "Strategie anpassen" am rechten Rand bei den Angaben zur Optimierungsstratgie.
+
+![course_element_topic_broker_strategy1_v1_de.png](assets/course_element_topic_broker_strategy1_v1_de.png){ class="shadow lightbox" }
+
+Es stehen dann folgende Strategien zur Auswahl:
+
+* Maximale Anzahl Einschreibungen (Hohe Einschreibequote bei minimaler Warteliste)
+* Maximale Prioritätsberücksichtigung (Hoher Grad an Erfüllung der Prioritäten der Teilnehmer:innen)
+* Maximale Themenanzahl (Hohe Themenquote durch ausreichende Teilnehmeranzahl)
+* Individuell (Definieren Sie Ihre eigene Gewichtung und Feineinstellung für die Prioritäten)
+
+![course_element_topic_broker_strategy2_v1_de.png](assets/course_element_topic_broker_strategy2_v1_de.png){ class="shadow lightbox" }
+
+![course_element_topic_broker_strategy3_v1_de.png](assets/course_element_topic_broker_strategy3_v1_de.png){ class="shadow lightbox" }
+
+[nach oben (Perspektive Kursbetreuer:in) ^](#topic_broker_coaching)<br>
+[zum Seitenanfang ^](#topic_broker)
+
+
+
 ### Einschreibung (Themenzuordnung) beeinflussen {: #topic_broker_boost}
 
 Mit einer **Boost-Funktion** können Betreuer:innen pro Einzelperson eine Gewichtung ergänzen und so korrigierend eingreifen. Die Zuordnungen der Teilnehmer:innen mit einem Boost werden vom Einschreibealgorithmus bevorzugt behandelt.
 
-![course_element_topic_broker_boost_v1_de.png](assets/course_element_topic_broker_boost_v1_de.png){ class="shadow lightbox" }
+![course_element_topic_broker_boost_v2_de.png](assets/course_element_topic_broker_boost_v2_de.png){ class="shadow lightbox" }
 
 [nach oben (Perspektive Kursbetreuer:in) ^](#topic_broker_coaching)<br>
 [zum Seitenanfang ^](#topic_broker)
@@ -318,7 +345,7 @@ Für eine Übersicht wählen Sie als Kursbetreuer:in den Kursbaustein und klicke
 
 Als Betreuer:in haben Sie die Möglichkeit, ein vorausgewähltes Thema zu entfernen oder (wenn Sie diese Themenzuordnung gut heissen) die Einschreibung manuell vorzunehmen. 
 
-![course_element_topic_broker_enrollment_manually_v1_de.png](assets/course_element_topic_broker_enrollment_manually_v1_de.png){ class="shadow lightbox" }
+![course_element_topic_broker_enrollment_manually_v2_de.png](assets/course_element_topic_broker_enrollment_manually_v2_de.png){ class="shadow lightbox" }
 
 
 [nach oben (Perspektive Kursbetreuer:in) ^](#topic_broker_coaching)<br>
@@ -331,7 +358,7 @@ Im Tab "Themen" kann mit dem Button "Daten exportieren" eine zip-Datei herunterg
 
 Der Button ist sowohl im Kurseditor (für Kursbesitzer:innen) als auch im Run-Mode für Betreuer:innen / Besitzer:innen verfügbar.
 
-![course_element_topic_broker_topic_export_coach_v1_de.png](assets/course_element_topic_broker_topic_export_coach_v1_de.png){ class="shadow lightbox" }
+![course_element_topic_broker_topic_export_coach_v2_de.png](assets/course_element_topic_broker_topic_export_coach_v2_de.png){ class="shadow lightbox" }
 
 
 [nach oben (Perspektive Kursbetreuer:in) ^](#topic_broker_coaching)<br>
@@ -344,7 +371,7 @@ Auch wenn bereits die Phase "Einschreibung abgeschlossen" erreicht ist, haben Si
 
 Wählen Sie dazu den Tab "Themen" und öffnen Sie durch Klick auf das "+" in der ersten Spalte ein Thema.
 
-![course_element_topic_broker_modify_enrollment1_v1_de.png](assets/course_element_topic_broker_modify_enrollment1_v1_de.png){ class="shadow lightbox" }
+![course_element_topic_broker_modify_enrollment1_v2_de.png](assets/course_element_topic_broker_modify_enrollment1_v2_de.png){ class="shadow lightbox" }
 
 Eine Einschreibung (auch automatisch vorgenommene) kann wieder rückgängig gemacht werden (ausgetragen werden). Klicken Sie auf "Austragen" in der Zeile der betreffenden Person.
 
@@ -355,6 +382,19 @@ Eine Einschreibung (auch automatisch vorgenommene) kann wieder rückgängig gema
 [zum Seitenanfang ^](#topic_broker)
 
 ---
+
+### Aktivitätslog {: #topic_broker_activitylog}
+
+Kursbesitzer:innen und Betreuer:innen können im Tab Aktivitätslog nachvollziehen, wann und von wem Änderung am Kursbaustein vorgenommen wurde.
+
+![course_element_topic_broker_activitylog_v1_de.png](assets/course_element_topic_broker_activitylog_v1_de.png){ class="shadow lightbox" }
+
+
+[nach oben (Perspektive Kursbetreuer:in) ^](#topic_broker_coaching)<br>
+[zum Seitenanfang ^](#topic_broker)
+
+---
+
 
 ## Themenwahl (Perspektive Kursteilnehmer:in) {: #topic_broker_participant}
 
