@@ -1,3 +1,4 @@
+
 # Authoring - Overview {: #authoring}
 
 :octicons-device-camera-video-24: **Video introduction (German)**: [Voraussetzungen für Autoren](<https://www.youtube.com/embed/L0jc_LBKXLE>){:target="_blank”}
@@ -30,7 +31,8 @@ Only administrators or learning resource managers can permanently delete learnin
 You can also completely recreate a frequently needed filter query in the line with the filter tabs (1-5).<br>By clicking on "Save filter" you can give your current filter combination a name of your own, which can then be called up again the same way. ![Filter](assets/Autorenbereich_Filter_172.png)
 
 ### 7. Filter buttons
-The second line already shows several **buttons** with filter options. By pressing "**More**", additional buttons will be displayed. For further filtering, click on the small arrow pointing downwards and the filter options will be displayed for selection.
+The second line already shows several **buttons** with filter options. By pressing "**More**", additional buttons will be displayed. For further filtering, click on the small arrow pointing downwards and the filter options will be displayed for selection.<br>
+The Author/Owner filter searches across the owner's first name, last name, username and email address. Searching by email is especially useful when multiple authors share the same last name.
 
 ### 8. Search box 
 In the **Search box** you can search directly for the title. Even parts of the title already provide a search result.
