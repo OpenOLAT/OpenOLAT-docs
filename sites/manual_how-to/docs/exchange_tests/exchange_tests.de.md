@@ -69,7 +69,7 @@ Bevor Sie den Test austauschen, sollten Sie sich im **Bewertungswerkzeug** einen
 
 !!! info "Hinweis"
 
-    Wenn in der Spalte „Versuche" für **alle** Teilnehmer:innen keine Veruche eingetragen sind und der Status **„Nicht gestartet"** ist, sind keine Vorbereitungen notwendig. Sie können direkt mit Schritt 3 fortfahren.
+    Wenn in der Spalte "Versuche" für **alle** Teilnehmer:innen keine Veruche eingetragen sind und der Status **„Nicht gestartet"** ist, sind keine Vorbereitungen notwendig. Sie können direkt mit Schritt 3 fortfahren.
 
 
 [zum Seitenanfang ^](#exchange_tests)

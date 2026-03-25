@@ -24,6 +24,19 @@ The following objects can be subscribed to:
 
 <br>
 
+## Abonnement einrichten {: #activate_abo}
+
+If you click the bell icon in the upper-right corner of a course module that you have subscribed to, you will see an overview of the updates that have been made to that course module.
+
+If you enable the subscription option in this pop-up window, you won’t have to manually click the bell icons for each course module you’re interested in; instead, you’ll automatically receive notifications about any updates to that course module.
+
+![pers_menu_subscriptions_activate_v1_de.png](assets/pers_menu_subscriptions_activate_v1_de.png){ class=" shadow lightbox" }
+
+[To the top of the page ^](#subscriptions)
+
+---
+
+
 ## View notifications from subscriptions {: #view_notifications}
 
 Under "Subscriptions" in the personal menu, you can view all your news in one place.
