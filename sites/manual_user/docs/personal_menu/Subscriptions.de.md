@@ -26,6 +26,19 @@ Folgende Objekte sind abonnierbar:
 
 <br>
 
+## Abonnement einrichten {: #activate_abo}
+
+Klicken Sie in einem abonnierbaren Kursbaustein auf das Glockensymbol rechts oben, wird Ihnen die Übersicht der  Neuerungen angezeigt, die in diesem Kursbaustein angefallen sind.
+
+Wenn Sie in diesem Popup-Fenster das Abonnieren einschalten, müssen Sie nicht jedes Mal aktiv die Glockensymbole aller interessanten Kursbausteine klicken, sondern alle Mitteilungen über Neuerungen, die in diesem Kursbaustein anfallen, werden automatisch an Sie verschickt.
+
+![pers_menu_subscriptions_activate_v1_de.png](assets/pers_menu_subscriptions_activate_v1_de.png){ class=" shadow lightbox" }
+
+[Zum Seitenanfang ^](#subscriptions)
+
+---
+
+
 ## Ansicht der Mitteilungen aus Abonnements {: #view_notifications}
 
 Unter "Abonnements" im persönlichen Menü können Sie alle ihre Neuigkeiten gesammelt einsehen.
