@@ -3,7 +3,7 @@
 ![icon_video.png](assets/video_64_0_434343_none.png)
 
 
-Die Lernressource Video ist das zentrale Element für Videos in OpenOlat. Sie wird im Autorenbereich über „Datei importieren“ (für den Upload einer MP4-Datei) oder „Per URL importieren“ (für die Einbindung eines externen Videos, z. B. YouTube oder Vimeo) [erstellt](../area_modules/authoring_new_course.de.md#lernressourcen-importieren) und ist anschliessend im Bereich „Meine Einträge“ im Autorenbereich zu finden.
+Die Lernressource Video ist das zentrale Element für Videos in OpenOlat. Sie wird im Autorenbereich über "Datei importieren" (für den Upload einer MP4-Datei) oder "Per URL importieren" (für die Einbindung eines externen Videos, z. B. YouTube oder Vimeo) [erstellt](../area_modules/authoring_new_course.de.md#lernressourcen-importieren) und ist anschliessend im Bereich "Meine Einträge" im Autorenbereich zu finden.
 
 ![Lernressource erstellen](assets/Video_Lernressource_anlegen.jpg)
 
@@ -24,7 +24,7 @@ Die Lernressource Video verfügt über folgende Administrations-Menüs:
 * **Einstellungen** (siehe unten)
 * [Mitgliederverwaltung](../learningresources/Members_management.de.md): In erster Linie relevant bei eigenständiger Verwendung der Video Lernressource. Wird das Video in einem Kurs verwendet brauchen die Mitglieder nicht separat organisiert werden. Lediglich weitere Besitzer*innen der Lernressource werden in diesem Menü hinzugefügt und verwaltet.
 * **Video-Editor** (siehe unten)
-* [Angebotsarten ](../learningresources/Offer_Types.de.md): Führt zu den Buchungsaufträgen
+* [Angebotsarten](../learningresources/Offer_Types.de.md): Führt zu den Buchungsaufträgen
 * **Video ersetzen**: Möglichkeit eine andere/neue Video Datei in der Lernressource zu hinterlegen. Das bietet sich z.B. für Aktualisierungen eines Videos an. Der Link zur Lernressource sowie eventuelle Einbindungen bleibt dabei erhalten, während das neue Video angezeigt wird. 
 * **Kopieren:** Erstellt eine Kopie der Lernressource inklusive aller ergänzten interaktiven Elemente des Video-Editors.
 * **Inhalt exportieren**: Erstellt eine zip Datei der Lernressource, die lokal gespeichert werden und in andere OpenOlat Systeme importiert oder als Back up verwendet werden kann. 
@@ -45,7 +45,7 @@ Im Tab "Info" haben Sie Möglichkeit eine Beschreibung, einen Teaser und ein Ken
 
 Weitere Infos zur Einrichtung der Infoseite finden Sie im Kapitel ["Infoseite einrichten"](../learningresources/Set_up_info_page.de.md).
 
-!!! Tip 
+!!! Tip "Hint"
 
     Da es sich bei der Lernressource bereits um ein Video handelt ist es in den meisten Fällen nicht sinnvoll oder notwendig noch ein Teaser-Film zu hinterlegen. Eine Ausnahme wäre eine kurze Zusammenfassung eines längeren Videos, das im Vorfeld schon auf den Inhalt hinweisen soll. Dieses Video wäre aber nur sichtbar, wenn die Lernressource Video eigenständig und nicht integriert in einen Kurs angeboten wird. Weitere Infos dazu findet man im Tab "Freigabe". 
 
@@ -139,7 +139,7 @@ Im Tab "Videoqualitäten" sehen Sie in welchen Auflösungen das Video vorliegt. 
 
 ![video_quailty.png](assets/Video_qualitaten_20.png)
 
-Im Videoplayer lässt sich bei Bedarf die gewünschte Auflösung über den „Source Chooser“ auswählen.
+Im Videoplayer lässt sich bei Bedarf die gewünschte Auflösung über den "Source Chooser" auswählen.
 
 ![video_aufloesung.png](assets/video_aufloesung.png)
 
@@ -185,7 +185,7 @@ Konfiguriert werden können: Kapitel, Annotationen, Segmente, Kommentare und Qui
 
 ### Video-Editor: Kapitel {: #video_chapter}
 
-Jedem Video können "Kapitel" als Sprungmarken hinzugefügt werden. Dies erleichtert die Navigation im Video und sollte bei längeren Videos möglichst ergänzt werden. Ein Kapitel wird im Tab Kapitel mit der Schaltfläche " hinzufügen" angelegt. 
+Jedem Video können "Kapitel" als Sprungmarken hinzugefügt werden. Dies erleichtert die Navigation im Video und sollte bei längeren Videos möglichst ergänzt werden. Ein Kapitel wird im Tab Kapitel mit der Schaltfläche "hinzufügen" angelegt. 
 
 Wählen Sie den Zeitpunkt für den Start des Kapitels und vergeben Sie einen Namen. OpenOlat setzt dann an der Stelle eine Kapitelmarke.
 
@@ -263,10 +263,11 @@ Kommentare lassen sich gezielt an einer bestimmten Stelle im Video platzieren. S
 
 Beim Abspielen stoppt das Video automatisch an der kommentierten Stelle. Um fortzufahren, muss der Kommentar aktiv geschlossen oder der Play-Button erneut angeklickt werden. Darin liegt der wesentliche Unterschied zu Annotationen.
 
-Kommentare können als Text oder als Video-Kommentar angelegt werden. Video-Kommentare lassen sich direkt per Webcam in OpenOlat aufnehmen, als Datei importieren oder per Link einbinden – so entsteht ein „Video im Video“ an der entsprechenden Stelle.
+Kommentare können als Text oder als Video-Kommentar angelegt werden. Video-Kommentare lassen sich direkt per Webcam in OpenOlat aufnehmen, als Datei importieren oder per Link einbinden – so entsteht ein "Video im Video" an der entsprechenden Stelle.
 
 
 ![Video-Kommentare hinzufügen](assets/Video_Kommentare.jpg)  
+
 
 ### Video-Editor: Quiz {: #video_quiz}
 

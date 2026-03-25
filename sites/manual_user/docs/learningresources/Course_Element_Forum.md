@@ -15,19 +15,28 @@ Specialty / Note |
 With the course element "Forum" you can easily enable asynchronous online discussions for different purposes in your course. For example, course participants could write posts with questions about the content of the course and answer each other's questions, or you could initiate a technical discussion or implement specific forum-based online methods. 
 
 ![Beispiel: Startposting](assets/Posting_beantworten.png)
+
+[To the top of the page ^](#forum})
+
+---
+
    
-## Tab Configuration
+## Tab Configuration {: #config}
 
 A forum is configured in the course editor in the "configuration" tab. Here you can set the user rights of the forum and define which course roles are allowed to create forum posts. You can choose between coaches, participants and guests. You can also define whether coaches are allowed to moderate the forum and whether pseudonymized postings are allowed in the forum. 
 
-### Forums with alias
+---
+
+
+### Forums with alias {: #pseudonym}
 
 In the case of pseudonymized forums, the posters can choose a pseudonym themselves. Once a pseudonym has been created, it will always remain active in the forum, but can be changed or switched off as required. The pseudonym can be protected by a user with a password, so that only this user can use this pseudonym. Without password protection the same pseudonym can be used by several users. Furthermore, it can be set that the use of a pseudonym is activated by default. To do this, select the checkbox "Pseudonym activated in individual forum posts".
 
 ![Configuration options for forum](assets/forum_config.png){ class="shadow" }
 
+---
 
-### Moderation ritghts
+### Moderation rights {: #moderator}
 
 All course owners and if enabled all [coaches](../basic_concepts/coach.md) have the following additional **moderation rights**. They can:
 
@@ -46,12 +55,16 @@ Persons with moderation rights can also move forum topics or individual posts. T
 
     Forum posts can also be moved to forums in which the creator of the post has no access.
 
-!!! info 
+!!! info "Info"
 
     It is possible for course participants to receive additional moderation rights in a forum from the teacher. 
 
+[To the top of the page ^](#forum})
 
-## Working with forums
+---
+
+
+## Working with forums {: #usage}
 
 Forums are the central tools for asynchronous discussion in online courses and also in OpenOlat groups. By default, all course participants have read and write access to a forum.
 
@@ -60,16 +73,18 @@ Participants can open topics in forums, archive topics and also customize the di
 ![Arbeiten mit Foren](assets/arbeiten_mit_Foren.png)
 
 
-!!! tip "Tip"
+!!! tip "Hint"
 
     Recommend that course participants **subscribe** to the forum in order to be notified of new posts. 
     All users should also enter a **profile photo** in the "[profile](../personal_menu/Configuration.md#profile--profile)", which will then be displayed together with the respective posting and thus make the contributions more personal.
 
-### Open discussion topic
+### Start discussion topic  {: #start_discussion}
 
 A forum can contain several different discussion topics (threads). The first posting that is created with "Open new topic" opens a new thread. All further postings in this thread should then refer to the main topic of the respective thread.
 
-### Create a post
+---
+
+### Create a post {: #posting}
 
 In order to maintain a real discussion in the forum, most posts should be made _within_ a thread and are thus created as a reply to the start post of the thread. Click on the "Reply with/without quote" button here. Title and post are mandatory information. Be sure to use a descriptive title and modify appropriately for reply posts.
 
@@ -77,29 +92,63 @@ With the help of the forum editor you can create and format your post and also a
 
 Depending on the configuration by the course owner, you may also be able to publish your post under a pseudonym.
 
-!!! info "Tip"
+!!! info "Hint"
 
     Always check at the beginning whether there is already a suitable thread for your contribution before you open a new discussion topic or prepare a suitable forum structure as the course owner. 
 
+---
 
-### Mark forum posts
+### Mark forum posts  {: #mark}
 
 Individual forum posts can be marked. To do so, click on the small flag in the upper right corner of a post in the detailed view of a topic. In the forum overview you can see how many posts per topic have been marked. This makes it easier to find individual posts again or mark them for a later reply.
 
-![](assets/Posting_markieren.png)
+![Posting markieren](assets/Posting_markieren.png)
+
+---
+
+### Export forum posts {: #export}
+
+If you have selected the "Forum" course module, you will find the options to export forum posts as a Word file under the button with the three dots. 
+
+![course_element_forum_export_v1_de.png](assets/course_element_forum_export_v1_de.png){ class="shadow lightbox" }
+
+With the user filter, you can search specifically for posts by certain users, such as just the most recent ones.
+
+![course_element_forum_export_person_v1_de.png](assets/course_element_forum_export_person_v1_de.png){ class="shadow lightbox" }
+
+The Excel file that can also be generated here contains a report with statistical data on the number of posts, their authors, etc., but does not include the posts themselves. It contains one row for each forum post written.
+
+---
+
+### Archive forum posts {: #archive}
+
+Posts in individual forum threads can also be archived. A ZIP archive is created that contains the forum posts as a Word file, as well as the attachments to the posts.
+
+* To create an archive, click on the discussion thread to open it. 
+* Above the displayed discussion topic, you will see the "Archive discussion topic" button.
+
+![course_element_forum_archive1_v1_de.png](assets/course_element_forum_archive1_v1_de.png){ class="shadow lightbox" }
+
+![course_element_forum_archive2_v1_de.png](assets/course_element_forum_archive2_v1_de.png){ class="shadow lightbox" }
 
 
-### Subscribe to forums
+---
 
-To be notified when new forum posts are made, set the "Changes" slider to "On" in the discussion topics overview. Then you will receive a notification by e-mail or under Subscriptions in the "Personal Tools" section. It does not matter whether a new contribution has been posted by a registered OLAT user or by a guest.
+
+### Subscribe to forums {: #abo}
+
+To receive notifications about new forum posts, set the "Changes" slider to "On" in the discussion topics overview. You will then receive a notification via email or under "Subscriptions" in the "Personal Tools" section. It doesn't matter who posted the new message.
+
+You will only receive a notification when a new post is created, not when an existing post is edited!
+
 
 !!! tip "Hint"
 
     Advise your course participants on subscribing to the forum to be up-to-date.
 
+---
 
-
-### Display options for forum threads
+### Display options for forum threads {: #display_threads}
 
 There are several display options:
 
@@ -115,7 +164,12 @@ Especially interesting for more complex discussions is also the view "one". The 
 
 ![Thread structure](assets/Forum_Aufbau-1a.png)
 
-## General further information
+[To the top of the page ^](#forum})
+
+---
+
+
+## General further information {: #general}
 
 ### Alternatives
 
@@ -124,3 +178,14 @@ a) You can also use the forum as an alternative for the [Notification element](.
 b) In addition to the course element "Forum", there is also the option of displaying a central forum for the entire course in the [Course Toolbar](../learningresources/Using_Additional_Course_Features.md). This is often useful if the course only includes _one_ forum that is to be permanently available. However, no further settings such as pseudonymization or assignment of moderation rights can be made here.
 
 c) The [File dialogue](../learningresources/Course_Element_File_Dialog.md) is a combination of forum and file provision. In courses, forum discussions can be created for specific documents, e.g. a draft of a seminar paper, an image, a concept or a content document. A forum is automatically created for each uploaded file. Further information on the course element can be found [here](../learningresources/Course_Element_File_Dialog.md).
+
+---
+
+[To the top of the page ^](#forum})
+
+## Further information {: #further_information}
+
+[Course Element File Dialog >](../../manual_user/learningresources/Course_Element_File_Dialog.md)<br>
+[Course Element Blog >](../../manual_user/learningresources/Course_Element_Blog.md)<br>
+
+[To the top of the page ^](#forum})

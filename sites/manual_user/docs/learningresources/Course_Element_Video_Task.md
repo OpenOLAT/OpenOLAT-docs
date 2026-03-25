@@ -15,6 +15,11 @@ Specialty / Note | Additional quizzes included in the video are not assessable
 
 With the course element "Video task" OpenOlat video learning resources can be reused for interactive (formative) exercises or tasks with assessments (summative). Participants have to identify relevant situations in a video and assign them to a category. The necessary placeholders in the video (= segments) and the categories are defined in the learning resource "Video" (see Video Editor). A practice mode and a sharp test mode are available.
 
+[To the top of the page ^](#video_task)
+
+---
+
+
 ## Tasks
 
 ### Exercise: Matching terms
@@ -33,7 +38,7 @@ In this mode, the segments (video sections) in the video are marked.
 
 ---
 
-### Exercise: Recognising situations
+### Exercise: Recognizing situations
 
 ![video_task_modus_uebung_situationen_erkennen_v1_de.png](assets/video_task_modus_uebung_situationen_erkennen_v1_de.png){ class="shadow lightbox" }
 
@@ -68,6 +73,7 @@ In this mode, the segments (video sections) in the video are **not marked**.<br>
 
     In addition to the 3 tasks with segments, quiz questions can also be displayed at different times in the video. However, they are currently not taken into account in the assessment.
 
+[To the top of the page ^](#video_task)
 
 ---
 
@@ -104,30 +110,44 @@ In order to be able to assign segments (video sections), a video task necessaril
 
     If a link (e.g. YouTube) is used for the video learning resource, it should be considered that if the link is no longer valid, the video task becomes unusable. We therefore recommend uploading an mp4 file to OpenOlat if possible. 
 
+[To the top of the page ^](#video_task)
+
 ---
+
 
 ## Create Video task
 
 ### Step 1
-Insert a course element "Video task" into the course.
+Create a video learning resource in the authoring area.
+Open the video editor and add segments and terms.
+[Find out more >](../../manual_user/learningresources/Learning_resource_Video.md)<br>
 
 ### Step 2
-In the "Configuration" tab 
-a) insert a video learning resource and 
-b) select the desired mode.
+Add a "Video Assignment" course block to the course.
 
 ### Step 3
-Click on "Edit Learning resource" in the "Configuration" tab. This will open the video editor.
+In the course element, "Configuration" tab 
+a) Insert the video learning resource that has been divided into segments,
+and 
+b) Select the desired mode.
 
 ### Step 4
-In the video editor, add segments and categories (see Video Learning Resource).
+Make sure that in the "Configuration" tab 
+
+* Segments are displayed as video elements
+* The correct terms are used
+* The order of the terms in the video assignment is correct
+
+!!! hint "Hint"
+
+    * Click "Edit Learning Resource" to open the video editor and continue editing the segment assignments.
 
 
-Configuration - What in the learning resource? What in the course element?
+[To the top of the page ^](#video_task)
 
 ---
 
-## Evaluation
+## Assessment
 
 ### Principles
 
@@ -197,3 +217,16 @@ If the mode "Test" was selected for the video task, the **Tabs "Participants" an
 ![video_task_betreueransicht_test_v1_de.png](assets/video_task_betreueransicht_test_v1_de.png){ class="shadow lightbox" }
 
 All results can be viewed by the owners and coaches of this course in detail for each participant in the **tab "Participants"**.
+
+[To the top of the page ^](#video_task)
+
+---
+
+
+## Further information {: #further_information}
+
+[Learning Resource Video >](../../manual_user/learningresources/Learning_resource_Video.md)<br>
+[Course element Video >](../../manual_user/learningresources/Course_Element_Video.md)<br>
+
+[To the top of the page ^](#video_task)
+

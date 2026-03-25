@@ -193,6 +193,16 @@ In the settings you can define the following:
 
 ---
 
+### Tab Activity Log {: #config_tab_activitylog}
+
+In this tab, you can view all activities in the current certificate program. Use the filters to search for specific activities.
+
+![course_planner_certification_programs_config_activitylog_v1_de.png](assets/course_planner_certification_programs_config_activitylog_v1_de.png){ class="shadow lightbox" }
+
+[To the top of the page ^](#certification_programs)
+
+---
+
 ## Certification program and Credit points {: #credit_points}
 
 **Credit points as requirement**<br>
@@ -268,6 +278,13 @@ It makes sense for the owners of the certificate program to give participants th
 
 The right to manually issue or revoke certificates lies primarily with the owners of the respective certificate program.<br>
 In addition, users with the roles "Administrator" and "Course Planner" also have administrative access.
+
+* Click the "Members" tab to open the list of participants. 
+* Click the three dots at the end of the row for the participant in question.
+* There, you will see the options for renewing or revoking the certificate.
+
+![course_planner_certification_programs_renew_redraw_v1_de.png](assets/course_planner_certification_programs_renew_redraw_v1_de.png){ class="shadow lightbox" }
+
 
 !!! info "Note"
 
