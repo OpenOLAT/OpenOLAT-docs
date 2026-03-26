@@ -8,7 +8,7 @@
 
 * * *
 
-Mit **OpenOlat 20.3** wurden zentrale Bereiche der Plattform gezielt weiterentwickelt. Im Fokus standen die flexible Gestaltung des persönlichen Dashboards, der neue Master-Import/Export im Course Planner sowie zahlreiche Verbesserungen für eine effizientere Nutzung im Alltag.
+Mit **OpenOlat 20.3** wurden zentrale Bereiche der Plattform gezielt weiterentwickelt. Im Fokus standen die flexible Gestaltung des **persönlichen Dashboards**, der neue **Master-Import/Export** im Course Planner sowie zahlreiche Verbesserungen für eine effizientere Nutzung im Alltag.
 
 Das persönliche Dashboard wurde neu individualisierbar gestaltet – Widgets können nun frei angeordnet, ein- oder ausgeblendet werden. Zudem wurde im Course Planner mit dem neuen Master-Import/Export erstmals der vollständige Austausch von Produktstrukturen, Durchführungen und Mitgliedschaften zwischen Instanzen ermöglicht und damit eine zentrale Grundlage für konsistente Daten und Prozesse geschaffen.
 
@@ -20,33 +20,37 @@ Das persönliche Dashboard wurde neu individualisierbar gestaltet – Widgets k�
 
 **Seiten-Baustein – Markdown-Import** – In einer ersten Version können Seiten direkt aus Markdown-Dateien importiert werden. Inhalte aus externen Quellen lassen sich so schnell übernehmen und strukturiert darstellen – eine effiziente Grundlage für die Erstellung und Weiterentwicklung von Kursinhalten.
 
+
 ![Anzahl Features und Bugs in Release 20.3](assets/203/Features_Improvements_Labels_20.3_DE.png)
 
-Seit Release 20.2 wurden über 100 neue Funktionen und Verbesserungen zu OpenOlat hinzugefügt. Hier finden Sie die wichtigsten Neuerungen zusammengefasst. Zusätzlich wurden zahlreiche Bugs behoben. Die komplette Liste der Änderungen in 20.2.x finden Sie [hier](Release_notes_20.2.de.md){:target="_blank"}.
+Seit Release 20.2 wurden über 105 neue Funktionen und Verbesserungen zu OpenOlat hinzugefügt. Hier finden Sie die wichtigsten Neuerungen zusammengefasst. Zusätzlich wurden zahlreiche Bugs behoben. Die komplette Liste der Änderungen in 20.2.x finden Sie [hier](Release_notes_20.2.de.md){:target="_blank"}.
 
 * * *
 
 ## Widgets
 
-### Dashboard: Widget-Konfiguration
+### Dashboard & Course Planner
 
-Nutzerinnen und Nutzer können ihr **persönliches Dashboard** nun vollständig selbst gestalten: Widgets lassen sich beliebig **umsortieren** sowie gezielt **aktivieren oder deaktivieren**. So stellt jede Person die für sie relevanten Informationen in den Vordergrund – ob Kursliste, Aufgaben, Ereignisse oder Mitgliederübersicht.
+Widgets wurden funktional erweitert und vereinheitlicht: Das persönliche **Dashboard** kann individuell gestaltet werden, indem Widgets frei angeordnet sowie ein- oder ausgeblendet werden. Gleichzeitig bieten Widgets wie das Tabellen- und Mitglieder-Widget erweiterte Konfigurationsmöglichkeiten bei einheitlicher Bedienung.
 
-Ergänzend bietet das **Tabellen-Widget** erweiterte Konfigurationsmöglichkeiten, das **Mitglieder-Widget** wurde überarbeitet und die Aktionen stehen nun bei allen Widgets einheitlich zur Verfügung.
+Im **Course Planner** sorgen neue Übersichts-Widgets dafür, dass relevante Informationen – wie laufende Durchführungen – direkt auf der Startseite sichtbar sind. Über die Einstellungen lassen sich Kennzahlen, Status und die Anzahl der angezeigten Einträge flexibel anpassen.
+
 
 ![Dashboard Widget Konfiguration](assets/203/Dashboard_widget_config_DE.png){ class="shadow lightbox" title="Dashboard: Individuelle Widget-Konfiguration" }
-
-### Course Planner: Durchführungs-Übersicht
-
-Das neue **Übersichts-Widget** auf der Course-Planner-Startseite zeigt Programmverantwortlichen beim Öffnen sofort alle laufenden Durchführungen auf einen Blick.
-
-![CPL Implementation Widget](assets/203/CPL_implementation_widget_DE.png){ class="shadow lightbox" title="Course Planner: Durchführungs-Übersicht" }
 
 ### Coaching Tool: Ereignis-Widget
 
 Das Coaching Tool wurde um ein neues **Ereignis-Widget** erweitert, das bevorstehende Termine übersichtlich anzeigt – mit direkten Links zu den jeweiligen Veranstaltungen. Kennzahlen und Standardeinstellungen im Kurs-Widget wurden überarbeitet.
 
 ![Coaching Tool Event Widget](assets/203/CoachingTool_event_widget_DE.png){ class="shadow lightbox" title="Coaching Tool: Ereignis-Widget" }
+
+### Coaching Tool: Kalender-Widget
+
+Das **Kalender-Widget** im Coaching Tool bietet eine übersichtliche Darstellung aller anstehenden Termine und erleichtert die zeitliche Orientierung im Arbeitsalltag. Relevante Veranstaltungen werden direkt im Kontext des Kalenders angezeigt, inklusive Datum, Uhrzeit und – falls vorhanden – Ort.
+
+Die Farbcodierung unterstützt die schnelle Einordnung: Orange markiert aktuell laufende Termine, während Blau den nächsten anstehenden Termin hervorhebt. So lassen sich Prioritäten auf einen Blick erkennen und Termine effizient planen.
+
+![Coaching Tool Event Widget](assets/203/CoachingTool_kalender_widget_DE.png){ class="shadow lightbox" title="Coaching Tool: Ereignis-Widget" }
 
 * * *
 
@@ -113,6 +117,7 @@ Mit OpenOlat 20.3 wird die Auffindbarkeit öffentlicher Kursseiten und InfoPages
 * * *
 
 ## Administratives / Technisches
+<mark style="background:#fff88f">@Mandy</mark>
 
 * Dependency-Updates:
     * commons-collections von 3.x auf 4.x migriert
@@ -131,6 +136,7 @@ Mit OpenOlat 20.3 wird die Auffindbarkeit öffentlicher Kursseiten und InfoPages
 * * *
 
 ## Systemadministratoren: Neue Funktionen aktivieren / konfigurieren
+<mark style="background:#fff88f">@Mandy</mark>
 
 !!! note "Checkliste nach Update auf 20.3"
 
@@ -144,5 +150,6 @@ Mit OpenOlat 20.3 wird die Auffindbarkeit öffentlicher Kursseiten und InfoPages
 * * *
 
 ## Weitere Informationen
+<mark style="background:#fff88f">@Mandy</mark>
 
 * [YouTrack Release Notes 20.3.0](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.3.0&title=Release%20Notes%2020.3.0){:target="_blank"}
