@@ -9,8 +9,6 @@ Im Bereich e-Assessment können Administrator:innen folgende Einstellungen vorne
 
 Hier wird das Coaching-Modul eingeschaltet.
 
-[Zum Seitenanfang ^](#e-assessments)
-
 
 ## Fragenpool {: #questionpool}
 
@@ -24,6 +22,7 @@ Hier können Sie als Administrator:in die grundsätzlichen Einstellungen zum Fra
 
 An dieser Stelle werden die Testquittung konfiguriert und Einstellungen für den Korrektur-Workflow von Tests definiert. Mit Hilfe des Korrektur-Workflows können Sie persönliche Korrekturaufträge generieren und diese definierten Korrektor:innen zuweisen. Die Korrektur über das Bewertungswerkzeug im Kurs ist dann nicht mehr möglich.
 
+[Zu den Details >](../administration/e-Assessment_Test.de.md) <br>
 [Zum Seitenanfang ^](#e-assessments)
 
   
@@ -37,8 +36,9 @@ Neben dem Bewertungssystem durch Punkte, kann das Modul "Einstufung/Noten" aktiv
 
 ## Prüfungsverwaltung {: #exam_admin}
 
-An dieser Stelle können Administratoren den Prüfungsmodus für die OpenOlat Instanz grundsätzlich aktivieren und nach Prüfungen suchen.
+An dieser Stelle können Administratoren Prüfungsmodus und Prüfungseinsicht für die OpenOlat Instanz grundsätzlich aktivieren und nach Prüfungen suchen. Ausserdem können Konfigurationsvorlagen für den Safe Exam Browser hinzugefügt und verwaltet werden.
 
+[Zu den Details >](../administration/e-Assessment_AssessmentMgmt.de.md)<br>
 [Zum Seitenanfang ^](#e-assessments)
 
 
@@ -50,6 +50,7 @@ Der Upload externer Zertifikate kann ebenfalls hier freigeschaltet werden.
 
 Zusätzlich ist diese Funktion auch für Benutzerverwalter, Linienvorgesetzte derselben Organisation oder für verantwortliche Personen, die über eine Benutzer-zu-Benutzer-Beziehungen verbunden sind, verfügbar und kann jeweils separat konfiguriert werden.
 
+[Zu den Details >](../administration/e-Assessment_Certificates.de.md) <br>
 [Zum Seitenanfang ^](#e-assessments)
 
 

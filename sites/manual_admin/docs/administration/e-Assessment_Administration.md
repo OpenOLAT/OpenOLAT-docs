@@ -39,6 +39,7 @@ In addition to the scoring system using points, the “Grading/grades” module 
 
 At this point, administrators can generally activate the check mode for the OpenOlat instance and search for checks.
 
+[See the details >](../administration/e-Assessment_AssessmentMgmt.md)<br>
 [To the top of the page ^](#e-assessments)
 
 

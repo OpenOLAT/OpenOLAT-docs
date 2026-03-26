@@ -49,7 +49,10 @@ nav:
     - e-Assessment Administration:
       - Overview: "administration/e-Assessment_Administration.md"
       - Question bank: "administration/eAssessment_Question_bank.md"
-      - Einstufung/Noten: "administration/Assessment_translate_points_in_grades_admin.md"
+      - Test: "administration/e-Assessment_Test.md"
+      - Levels/Grading: "administration/Assessment_translate_points_in_grades_admin.md"
+      - Assessment management: "administration/e-Assessment_AssessmentMgmt.md"
+      - Certificates: "administration/e-Assessment_Certificates.md"
       - OpenBadges: "administration/e-Assessment_openBadges.md"
       - Credit points: "administration/e-Assessment_Credit_Points.md"
       - ePortfolio: "administration/eAssessment_ePortfolio.md"

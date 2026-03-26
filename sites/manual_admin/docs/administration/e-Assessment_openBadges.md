@@ -1,4 +1,4 @@
-# OpenBadges {: #badges}
+# e-Assessment Administration: OpenBadges {: #badges}
 
 OpenBadges are implemented after the OpenBadges standard and fully compatible with it.
 More information [here](https://www.imsglobal.org/activity/openbadges).
