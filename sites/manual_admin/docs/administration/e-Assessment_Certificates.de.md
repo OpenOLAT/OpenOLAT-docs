@@ -1,13 +1,11 @@
 # e-Assessment Administration: Zertifikate {: #certificates}
 
-!!! warning "Achtung"
-
-    Dieser Artikel ist noch in Bearbeitung.
-
-
-
 
 ## Tab Zertifikate Konfiguration  {: #tab_config}
+
+In OpenOlat können auch anderweitig werworbene Zertifikate hochgeladen werden. Im Tab "Zertifikate Konfiguration" wird bestimmt, welche Rollen dies erlaubt wird. 
+
+Administrator:innen können ebenfalls einrichten, dass beim Ausstellen eines Zertifikates eine Kopie auch an Linienvorgesetzte oder an eine andere Mailadresse (z.B. die Personalabteilung) verschickt wird.
 
 ![e-assessment_certificates_tab_config_v1_de.png](assets/e-assessment_certificates_tab_config_v1_de.png){ class="shadow lightbox" }
 
@@ -17,6 +15,11 @@
 ---
 
 ## Tab Zertifikate Vorlage  {: #tab_templates}
+
+Wenn Kursbesitzer:innen ein Zertifikat für ihren Kurs ausstellen wollen, nehmen sie dazu eine Einstellung vor unter 
+(Kurs-)Administration > Einstellungen > Bewertung > Abschnitt "Zertifikat". Dort kann auch die zu verwendende Zertifikatsvorlage ausgewählt werden. Als Administrator:in können Sie die zur Auswahl stehenden Zertifikatsvorlagen bestimmen.
+
+Die gleiche Auswahl der Zertifikatsvorlagen steht auch in Zertifikatsprogrammen zur Verfügung.
 
 ![e-assessment_certificates_tab_templates_v1_de.png](assets/e-assessment_certificates_tab_templates_v1_de.png){ class="shadow lightbox" }
 
