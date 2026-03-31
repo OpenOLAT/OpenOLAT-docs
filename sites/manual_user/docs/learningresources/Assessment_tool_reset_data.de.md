@@ -11,14 +11,14 @@ Abhängig vom Kursbaustein bzw. der Kurskonfiguration werden z.B. der Fortschrit
 
 Bevor die Daten endgültig zurückgesetzt werden, können die alten Ergebnisse heruntergeladen und gespeichert werden. 
 
-### Sicherung des gesamten Kurses
+### Sicherung des gesamten Kurses {: #backup_course}
 
 In der (Kurs-)Administration unter **Archivierung & Reporting** können Sie Reports der Kursresultate generieren. 
 
 ![assessment_tool_reset_data_backup_course_v1_de.png](assets/assessment_tool_reset_data_backup_course_v1_de.png){ class="shadow lightbox" } 
 
 
-### Sicherung eines Kursbausteins "Test"
+### Sicherung eines Kursbausteins "Test" {: #backup_test}
 
 Die Daten eines Kursbausteins "Test" können im Bewertungswerkzeug als zip-Datei heruntergeladen und gespeichert werden.
 
@@ -28,7 +28,7 @@ Die erzeugten zip-Dateien sind dann im unteren Bereich des Bildschirms aufgelist
 
 ![assessment_tool_reset_data_backup_course_element_test2_v1_de.png](assets/assessment_tool_reset_data_backup_course_element_test2_v1_de.png){ class="shadow lightbox" }
 
-[Zum Seitenanfang ^](#reset_data})
+[Zum Seitenanfang ^](#reset_data)
 
 ---
 
@@ -59,14 +59,14 @@ Wählen Sie im Wizard die Optionen "Ausgewählte Teilnehmer:innen" und "Ausgewä
 
 ![assessment_tool_reset_data_wizard3_v1_de.png](assets/assessment_tool_reset_data_wizard3_v1_de.png){ class="shadow lightbox" }
 
-[Zum Seitenanfang ^](#reset_data})
+[Zum Seitenanfang ^](#reset_data)
 
 ---
 
 
 ## Daten bestimmter Teilnehmer:innen ohne Wizard zurücksetzen {: #members}
 
-### Zurücksetzen im Bewertungswerkzeug
+### Zurücksetzen im Bewertungswerkzeug {: #members_assessment_tool}
 
 ![assessment_tool_reset_data_member1_v1_de.png](assets/assessment_tool_reset_data_member1_v1_de.png){ class="shadow lightbox" }
 
@@ -78,7 +78,7 @@ Für mehrere Teilnehmer:innen selektieren Sie in der dersten Spalte die entsprec
 4. Sobald mindestens 1 Person selektiert ist, erscheinen über der Tabelle weitere Buttons.
 Nach Klick auf den Button "Daten zurücksetzen" werden nach einer Sicherheitsabfrage die Daten der selektierten Personen zurückgesetzt.
 
-### Zurücksetzen im Lernpfad-Werkzeug
+### Zurücksetzen im Lernpfad-Werkzeug {: #members_learning_path}
 
 1\. Kurs öffnen → Administration → Lernpfad-Tool auswählen
 
@@ -93,7 +93,7 @@ Nach Klick auf den Button "Daten zurücksetzen" werden nach einer Sicherheitsabf
 ![assessment_tool_reset_data_member4_v1_de.png](assets/assessment_tool_reset_data_member4_v1_de.png){ class="shadow lightbox" }
 
 
-[Zum Seitenanfang ^](#reset_data})
+[Zum Seitenanfang ^](#reset_data)
 
 ---
 
@@ -110,15 +110,15 @@ Je nach Kursbaustein werden folgende Daten zurückgesetzt, respektive annulliert
 
 Beim Zurücksetzen wird eine entsprechende Archivdatei mit den relevanten Daten erstellt und im Anschluss heruntergeladen. Das Archiv steht zusätzlich als Download im Leistungsnachweis der Teilnehmenden zur Verfügung.
 
-[Zum Seitenanfang ^](#reset_data})
+[Zum Seitenanfang ^](#reset_data)
 
 ---
 
 
-## Auswirkung des Zurücksetzens
+## Auswirkung des Zurücksetzens {: #impact}
 
 
-### Auswirkungen im Bewertungsformular
+### Auswirkungen im Bewertungsformular {: #impact_on_assessment_form}
 
 Attribut | Auswirkung
 ---------|----------
@@ -131,16 +131,16 @@ Kommentar für andere Betreuende | wird zurückgesetzt; Export erfolgt als "asse
 Individueller Kommentar / Kommentar für Teilnehmer | wird zurückgesetzt; Export erfolgt als "assessment_comment.txt" ins Archiv
 Individuelle Bewertungsdokumente | werden zurückgesetzt
 
-[Zum Seitenanfang ^](#reset_data})
+[Zum Seitenanfang ^](#reset_data)
 
 ---
 
 
-### Auswirkungen auf Kommentare & Bewertungen
+### Auswirkungen auf Kommentare & Bewertungen {: #impact_on_comments_ratings}
 
 Kommentare und Bewertungen an Kursbausteinen und am Kurs bleiben erhalten.
 
-[Zum Seitenanfang ^](#reset_data})
+[Zum Seitenanfang ^](#reset_data)
 
 ---
 
@@ -149,7 +149,7 @@ Kommentare und Bewertungen an Kursbausteinen und am Kurs bleiben erhalten.
 
 Die Informationen über gesendete Erinnerungen werden gelöscht. (Gilt nur, wenn der gesamte Kurs zurückgesetzt wird.)
 
-[Zum Seitenanfang ^](#reset_data})
+[Zum Seitenanfang ^](#reset_data)
 
 ---
 
@@ -158,7 +158,7 @@ Die Informationen über gesendete Erinnerungen werden gelöscht. (Gilt nur, wenn
 
 Der Leistungsnachweis wird zum Zeitpunkt des Resets versioniert. Er bleibt im persönlichen Menü einsehbar.
 
-[Zum Seitenanfang ^](#reset_data})
+[Zum Seitenanfang ^](#reset_data)
 
 ---
 
@@ -169,7 +169,7 @@ Wenn der gesamte Kurs zurückgesetzt ist, wird das Zertifikat nach erfolgreicher
 
 Einmal erworbene Zertifikate werden bei den Daten der Teilnehmer:in gespeichert und sind im persönlichen Menü weiterhin einsehbar. Auch wenn ein Zertifikat abgelaufen ist oder ein Kurs ganz gelöscht wurde. 
 
-[Zum Seitenanfang ^](#reset_data})
+[Zum Seitenanfang ^](#reset_data)
 
 ---
 
@@ -208,7 +208,7 @@ Umfrage | Reset für alle Teilnehmenden: Zurückgesetzt und Export ins Archiv; R
 Video-Aufgabe | Alle Versuche zurückgesetzt; Durchführungen bleiben bestehen und werden als ungültig markiert; Export der Testergebnisse ins Archiv
 Wiki | Einträge bleiben erhalten
 
-[Zum Seitenanfang ^](#reset_data})
+[Zum Seitenanfang ^](#reset_data)
 
 ---
 
@@ -227,7 +227,7 @@ Die folgenden Elemente werden beim Zurücksetzen nicht gelöscht:
 * Hinzugefügte Wiki-Einträge der Benutzer:innen
 * Hinzugefügte Glossareinträge der Benutzer:innen
 
-[Zum Seitenanfang ^](#reset_data})
+[Zum Seitenanfang ^](#reset_data)
 
 ---
 
@@ -245,7 +245,7 @@ Die folgenden Elemente werden beim Zurücksetzen nicht gelöscht:
 
 
 
-[Zum Seitenanfang ^](#reset_data})
+[Zum Seitenanfang ^](#reset_data)
 
 ---
 
@@ -264,7 +264,7 @@ Wenn Sie im Bewertungswerkzeug einen Test-Kursbaustein gewählt haben, stehen Ih
 | Mit Klick auf "Daten zurücksetzen" wird die Zahl der bereits gemachten Versuche wieder auf 0 gesetzt. Auch "Bestanden" usw. werden zurückgesetzt (Reset). Die Daten der bereits gemachten Lösungsversuche ("Test-Runs") bleiben jedoch erhalten und weiterhin im Bewertungswerkzeug sichtbar. |  Mit Klick auf "Daten zurücksetzen" wird die Zahl der bereits gemachten Versuche wieder auf 0 gesetzt. Auch "Bestanden" usw. werden zurückgesetzt (Reset).Die Daten der bereits gemachten Lösungsversuche ("Test-Runs") bleiben jedoch erhalten und weiterhin im Bewertungswerkzeug sichtbar.| Alle Daten der bereits gemachten Lösungsversuche ("Test-Runs") werden bei allen Teilnehmer:innen gelöscht.<br>&nbsp;<br>&nbsp; |
 
 
-[Zum Seitenanfang ^](#reset_data})
+[Zum Seitenanfang ^](#reset_data)
 
 ---
 
@@ -275,7 +275,7 @@ Wenn Sie im Bewertungswerkzeug einen Test-Kursbaustein gewählt haben, stehen Ih
 [Kurs löschen >](../../manual_user/learningresources/Course_Delete.de.md)<br>
 [Benutzer:in löschen >](../../manual_admin/usermanagement/Delete_User.de.md)<br>
 
-[Zum Seitenanfang ^](#reset_data})
+[Zum Seitenanfang ^](#reset_data)
 
 
 

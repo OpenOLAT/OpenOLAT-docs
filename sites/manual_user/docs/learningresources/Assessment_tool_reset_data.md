@@ -11,13 +11,13 @@ Depending on the course module or course configuration, progress, number of atte
 
 Before the data is permanently reset, the old results can be downloaded and saved. 
 
-### Securing the entire course
+### Securing the entire course {: #backup_course}
 
 In the (course) administration under **Archiving & Reporting**, you can generate reports of the course results. 
 
 ![assessment_tool_reset_data_backup_course_v1_de.png](assets/assessment_tool_reset_data_backup_course_v1_de.png){ class="shadow lightbox" } 
 
-### Saving a course element "Test"
+### Saving a course element "Test" {: #backup_test}
 
 The data for a course element "Test" can be downloaded and saved as a zip file in the assessment tool.
 
@@ -27,7 +27,7 @@ The generated zip files are then listed at the bottom of the screen and can be d
 
 ![assessment_tool_reset_data_backup_course_element_test2_v1_de.png](assets/assessment_tool_reset_data_backup_course_element_test2_v1_de.png){ class="shadow lightbox" }
 
-[To the top of the page ^](#reset_data})
+[To the top of the page ^](#reset_data)
 
 ---
 
@@ -42,7 +42,7 @@ The generated zip files are then listed at the bottom of the screen and can be d
 3. Under "Administrators can," activate the "Reset data" option.
 4. Save
 
-[To the top of the page  ^](#reset_data})
+[To the top of the page  ^](#reset_data)
 
 ---
 
@@ -57,14 +57,14 @@ If you select the options "Selected participants" and "Selected course elements"
 
 ![assessment_tool_reset_data_wizard3_v1_de.png](assets/assessment_tool_reset_data_wizard3_v1_de.png){ class="shadow lightbox" }
 
-[To the top of the page  ^](#reset_data})
+[To the top of the page  ^](#reset_data)
 
 ---
 
 
 ## Reset data for specific participants without using the wizard {: #members}
 
-### Reset in the assessment tool
+### Reset in the assessment tool {: #members_assessment_tool}
 
 ![assessment_tool_reset_data_member1_v1_de.png](assets/assessment_tool_reset_data_member1_v1_de.png){ class="shadow lightbox" }
 
@@ -77,7 +77,7 @@ For multiple participants, select the corresponding checkboxes in the first colu
 After clicking on the "Reset data" button, the data of the selected persons will be reset after a security prompt.
 
 
-### Reset in the Learning Path Tool
+### Reset in the Learning Path Tool {: #members_learning_path}
 
 1. Open course → Administration → Select Learning Path Tool
 
@@ -91,7 +91,7 @@ After clicking on the "Reset data" button, the data of the selected persons will
 
 ![assessment_tool_reset_data_member4_v1_de.png](assets/assessment_tool_reset_data_member4_v1_de.png){ class="shadow lightbox" }
 
-[To the top of the page  ^](#reset_data})
+[To the top of the page  ^](#reset_data)
 
 ---
 
@@ -109,14 +109,14 @@ Depending on the course module, the following data will be reset or canceled:
 
 When resetting, a corresponding archive file containing the relevant data is created and then downloaded. The archive is also available for download in the participants' performance records.
 
-[To the top of the page  ^](#reset_data})
+[To the top of the page  ^](#reset_data)
 
 ---
 
 
-## Impact of resetting
+## Impact of resetting {: #impact}
 
-### Impact in the assessment form
+### Impact in the assessment form {: #impact_on_assessment_form}
 
 Attribute | Impact
 ---------|----------
@@ -129,16 +129,16 @@ Comment for other coaches | Reset; Export "assessment_coach_comment.txt" to arch
 Individual comment / comment for participant | Reset; Export "assessment_comment.txt" to archive
 Individual assessment documents | Reset
 
-[To the top of the page  ^](#reset_data})
+[To the top of the page  ^](#reset_data)
 
 ---
 
 
-### Impact on comments & ratings {: #impact_comments_ratings}
+### Impact on comments & ratings {: #impact_on_comments_ratings}
 
 Comments and ratings on course elements and the course are retained.
 
-[To the top of the page  ^](#reset_data})
+[To the top of the page  ^](#reset_data)
 
 ---
 
@@ -147,7 +147,7 @@ Comments and ratings on course elements and the course are retained.
 
 The information about sent reminders will be deleted. (Applies only if the entire course is reset).
 
-[To the top of the page  ^](#reset_data})
+[To the top of the page  ^](#reset_data)
 
 ---
 
@@ -156,7 +156,7 @@ The information about sent reminders will be deleted. (Applies only if the entir
 
 The performance record is versioned at the time of the reset. It remains visible in the personal menu.
 
-[To the top of the page  ^](#reset_data})
+[To the top of the page  ^](#reset_data)
 
 ---
 
@@ -167,7 +167,7 @@ If the entire course is reset, the certificate will be reissued after successful
 
 Once acquired, certificates are stored with the participant's data and can still be viewed in the personal menu, even if a certificate has expired or a course has been deleted entirely. 
 
-[To the top of the page  ^](#reset_data})
+[To the top of the page  ^](#reset_data)
 
 ---
 
@@ -205,7 +205,7 @@ Topic Assignment | Topic assignments are removed
 Video task | All attempts reset; Executions remain and are marked as invalid; Export test results to archive
 Wiki | Entries remain
 
-[To the top of the page  ^](#reset_data})
+[To the top of the page  ^](#reset_data)
 
 ---
 
@@ -224,7 +224,7 @@ The following items will not be deleted during the reset process:
 * Added wiki entries by users
 * Added glossary entries by users
 
-[To the top of the page  ^](#reset_data})
+[To the top of the page  ^](#reset_data)
 
 ---
 
@@ -239,7 +239,7 @@ This link in the menu can be used to trigger a recalculation of the course. This
 
 ![Daten neu berechnen](assets/neu_berechnen1.jpg)
 
-[To the top of the page  ^](#reset_data})
+[To the top of the page  ^](#reset_data)
 
 ---
 
@@ -259,7 +259,7 @@ If you have selected a test course module in the assessment tool, you have the o
 | Clicking “Reset Data” will reset the number of attempts made so far to 0. ‘Passed’ and other statuses will also be reset. However, the data from previous attempts (“test runs”) will be retained and will remain visible in the assessment tool. |  Clicking “Reset Data” will reset the number of attempts made so far to 0. ‘Passed’ and other statuses will also be reset. However, the data from previous attempts (“test runs”) will be retained and will remain visible in the assessment tool.| All data from previous attempts to solve the test (“test runs”) will be deleted for all participants.<br>&nbsp;<br>&nbsp; |
 
 
-[To the top of the page ^](#reset_data})
+[To the top of the page ^](#reset_data)
 
 ---
 
@@ -270,7 +270,7 @@ If you have selected a test course module in the assessment tool, you have the o
 [Delete course >](../../manual_user/learningresources/Course_Delete.md)<br>
 [Delete user >](../../manual_admin/usermanagement/Delete_User.md)<br>
 
-[To the top of the page ^](#reset_data})
+[To the top of the page ^](#reset_data)
 
 
 
