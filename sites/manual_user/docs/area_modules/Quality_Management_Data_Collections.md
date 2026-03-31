@@ -1,7 +1,7 @@
 # Quality Management: Data collections {: #Quality_Management_Data_Collections}
 
 
-## What's a data collection?
+## What's a data collection? {: #definition}
 
 !!! info "Summary"
 
@@ -22,7 +22,12 @@
 
 ![quality_management_scheme_data_collection_v1_de.png](assets/quality_management_scheme_data_collection_v1_de.png){ class="lightbox" }
 
-## Create new data collections
+[To the top of the page ^](#Quality_Management_Data_Collections)
+
+---
+
+
+## Create new data collections {: #create_data_collections}
 
 If you have the appropriate authorization (role), **Quality management** will appear in your main navigation. Click on the link in the **"Data collection"** section.
 
@@ -81,11 +86,21 @@ This tab is only visible if a report is available.
 
 ![quality_management_data_collection_report_v1_de.png](assets/quality_management_data_collection_report_v1_de.png){ class="shadow lightbox" }
 
-## Execute data collection
+[To the top of the page ^](#Quality_Management_Data_Collections)
+
+---
+
+
+## Execute data collection {: #execute_data_collection}
 
 The process is triggered automatically. As soon as the defined time window begins ("Configuration" tab), the respondents can complete and submit the form. Once this period has expired, it is no longer possible to submit the form. 
 
-## Complete data collection
+[To the top of the page ^](#Quality_Management_Data_Collections)
+
+---
+
+
+## Complete data collection {: #complete_data_collection}
 
 Data collection closes automatically when the specified time window has expired. 
 
@@ -102,4 +117,6 @@ It is also possible to force the completion of an ongoing data collection manual
 
 ![quality_management_data_collection_close_manually_v1_de.png](assets/quality_management_data_collection_close_manually_v1_de.png){ class="shadow lightbox" }
 
+
+[To the top of the page ^](#Quality_Management_Data_Collections)
 

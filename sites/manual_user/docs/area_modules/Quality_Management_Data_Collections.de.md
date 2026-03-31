@@ -1,7 +1,7 @@
 # Qualitätsmanagement: Datenerhebung {: #Quality_Management_Data_Collections}
 
 
-## Was ist eine Datenerhebung? 
+## Was ist eine Datenerhebung? {: #definition}
 
 
 !!! info "Zusammenfassung"
@@ -23,7 +23,12 @@
 ![quality_management_scheme_data_collection_v1_de.png](assets/quality_management_scheme_data_collection_v1_de.png){ class="lightbox" }
 
 
-## Neue Datenerhebung erstellen
+[Zum Seitenanfang ^](#Quality_Management_Data_Collections)
+
+---
+
+
+## Neue Datenerhebung erstellen {: #create_data_collections}
 
 Bei entsprechender Berechtigung (Rolle) erscheint in Ihrer Hauptnavigation das **Qualitätsmanagement**. Klicken Sie auf den Link im Abschnitt **"Datenerhebungen"**.
 
@@ -45,13 +50,15 @@ Die Eigenschaften und Funktionsweise der Datenerhebung wird in 5 Tabs definiert.
 
 
 
-**Tab "Konfiguration"**<br>
+### Tab "Konfiguration" {: #tab_config}
+
 Nach Start der Datenerhebung können alle Teilnehmenden im angegebenen Zeitraum das hier ausgewählte Formular ausfüllen und abgeben. Nach Ablauf dieser Frist ist eine Abgabe nicht mehr möglich. 
 
 Nach Ende der Abgabefrist steht der Report allen Personen zur Verfügung, die im Tab "Berechtigungen Report" aufgelistet sind.
 
 
-**Tab "Teilnehmer:innen"**<br>
+### Tab "Teilnehmer:innen" {: #tab_participants}
+
 In diesem Tab wird die Gruppe der befragten Personen definiert, bzw. wer die Aufforderung zur Teilnahme mit dem Link zum Formular per Mail erhält.
 
 Unter dem Button "Teilnehmer:innen hinzufügen" können Personengruppen gesucht oder übernommen werden. Auch eine Einladung via Mail-Liste ist möglich. 
@@ -61,37 +68,85 @@ Durch Aktivierung des Toggle-Buttons "Zugang über öffentlichen Link" kann ein 
 ![quality_management_data_collection_config_tab_participants_v1_de.png](assets/quality_management_data_collection_config_tab_participants_v1_de.png){ class="shadow lightbox" }
 
 
-**Tab "Erinnerungen"**<br>
+### Tab "Erinnerungen" {: #tab_reminders}
+
 Es können verschiedene Erinnerungsmails vorbereitet werden, die bei Eintritt der gewählten Versandbedingungen automatisch verschickt werden.
 
 Die Einladung ist eine E-Mail an die Teilnehmer:innen mit dem Link zum Formular. Wird keine Angabe gemacht, wird keine E-Mail verschickt, die Teilnehmenden müssen anderweitig informiert werden. (Z.B. durch Dozierende im Unterricht.)
 
-**Tab "Massnahmen To-dos"**<br>
+
+### Tab "Massnahmen To-dos" {: #tab_action_to_dos}
+
 Auf die Ergebnisse von Datenerhebungen oder einer bestimmten Teilnehmerbefragung kann direkt mit entsprechenden Massnahmen reagiert werden. Notwendige To-dos können kontextbezogen angelegt und direkt an die betreffenden Personen delegiert werden. Sie werden per E-Mail über ein neues To-do informiert. Alle To-dos stehen im neuen Bereich ["Massnahmen (To-dos")](Quality_Management_To-dos.de.md) zur Verfügung.
 
-**Tab "Berechtigungen Report"**<br>
+
+### Tab "Berechtigungen Report" {: #tab_permission_report}
+
 Ist eine Datenerhebung abgeschlossen, kann von den aufgelisteten Personen auf die Reports zugegriffen werden. 
 Im Tab "Berechtigungen Report" kann bestimmt werden,<br>
 a) wer welche Reports sehen darf<br>
 b) und ob/wie darüber informiert wird.
 
-* **Online-Zugriff** = Die in der 1. Spalte genannten Empfänger können online auf Reports zugreifen.
-* **E-Mail bei Abschluss** = Die in der 1. Spalte genannten Empfänger erhalten eine E-Mail, sobald ein Report erzeugt wurde.
-* **E-Mail bei qualitativem Feedback** = Die in der 1. Spalte genannten Empfänger erhalten eine E-Mail, sobald ein Report erzeugt wurde und im Formular **Textfelder** ausgefüllt wurden oder eine Datei von den Befragten hochgeladen wurde.
+![quality_management_data_collection_tab_permission_report_v1_de.png](assets/quality_management_data_collection_tab_permission_report_v1_de.png){ class="shadow lightbox" }
+
+
+* Spalte **Online-Zugriff:**<br>Die in der 1. Spalte genannten Empfänger können online auf Reports zugreifen.
+* Spalte **E-Mail nach Abschluss:**<br> Die in der 1. Spalte genannten Empfänger erhalten eine E-Mail, sobald ein Report erzeugt wurde.
+* Spalte **E-Mail bei qualitativem Feedback:**<br> Die in der 1. Spalte genannten Empfänger erhalten eine E-Mail, sobald ein Report erzeugt wurde und im Formular **Textfelder** ausgefüllt wurden oder eine Datei von den Befragten hochgeladen wurde.
+* Abschnitt **Einzelne Benutzer*innen:**<br>Es kann auch frei bestimmbaren Benutzer:innen Zugriff gewährt werden, die nicht aufgrund einer Rolle Zugriff haben.
+
 
 Qualitätsmanager:innen haben auch schon vor Abschluss Zugriff auf den aktuellen Status der Datenerhebung.
 
-**Tab "Report"**<br>
+**Bedingungen einer Push-Nachricht**<br>
+Die Berechnung, in welchen Fällen eine "Push"-Notification ausgelöst werden soll, erfolgt auf Basis der verwendeten Rubrik-Elemente im Formular.<br>
+Pro Rubrik wird über alle Fragen anhand der Antworten der Durchschnitt berechnet. Dieser Durchschnitt wird dann anhand der Wertebereiche (Skala) in der Konfiguration des Rubriks in eine Klassierung umgewandet (ungenügend, neutral, gut). Wenn der Durchschnitt nicht innerhalb eines Wertebereiches liegt (z.B. weil diese gar nicht definiert sind), wird die Klassierung “ohne” ausgegeben.
+
+**Beispiel:**
+
+- Das Formular enthält 6 Rubriks.<br>
+- Bei den ersten beiden Rubriks sind keine Wertebereiche definiert, es wird also immer die Klassierung “ohne” ausgegeben.<br>
+- Für die anderen 4 werden Durchschnitte und Klassierungen ermittelt.
+- Das E-Mail wird bei der Einstellung “ungenügend” versendet, wenn für mindestens einen der Rubriks die Klassierung “ungenügend” berechnet wurde.
+- Das E-Mail wird bei der Einstellung “ungenügend oder neutral” versendet, wenn für mindestens einen der Rubriks die Klassierung “ungenügend” oder “neutral" berechnet wurde.
+- Wenn im vorliegenden Fall der Versand des E-Mail “ungenügend” konfiguriert ist, reicht es also, wenn eine der Fragen 3-6 im Durchschnitt als ungenügend klassiert wurde, um das E-Mail auszulösen.
+
+
+### Tab "Report" {: #tab_report}
+
 Dieser Tab wird erst sichtbar, wenn ein Report vorhanden ist.
 
 ![quality_management_data_collection_report_v1_de.png](assets/quality_management_data_collection_report_v1_de.png){ class="shadow lightbox" }
 
-## Datenerhebung ausführen
+[Zum Seitenanfang ^](#Quality_Management_Data_Collections)
+
+---
+
+### Empfohlene Formulare {: #recommended_forms}
+
+Für Umfragen im Rahmen des Qualitätsmanagements werden in OpenOlat erstellte **Formular-Lernressourcen** verwendet. Sie können im Content-Editor erstellt werden und enthalten idealerweise **Rubrik-Fragen**. Diese können nach einer Datenerhebung am besten ausgewertet werden. Es sind zwar z.B. auch Freitext-Felder möglich, doch dieser Fragetyp kann nicht automatisch ausgewertet werden. Es empfiehlt sich also in der Regel ein Formular mit mehreren Rubrik-Elementen und ergänzend ein oder zwei Freitext-Felder, in denen die Befragten ergänzende Kommentare selbst formulieren können.
+
+Mehr Informationen über die Erstellung geeigneter Formulare für das Qualitätsmanagement finden Sie hier:
+
+[Qualitätsmanagement: Umfragen >](../../manual_user/area_modules/Quality_Management_Surveys.de.md)<br>
+[Was sollte ein Qualitätsmanagements-Formular enthalten? >](../../manual_user/area_modules/Quality_Management_Surveys.de.md#was-sollte-ein-qualitatsmanagements-formular-enthalten)<br>
+[Formular als Rubrik Bewertung in einem Kurs >](../../manual_user/learningresources/Forms_in_Rubric_Scoring.de.md)<br>
+
+[Zum Seitenanfang ^](#Quality_Management_Data_Collections)
+
+---
+
+
+## Datenerhebung ausführen {: #execute_data_collection}
 
 Die Durchführung wird automatisch angestossen. Sobald das definierte Zeitfenster beginnt (Tab "Konfiguration"), können die befragten Personen das Formular ausfüllen und abgeben. Nach Ablauf dieser Frist ist eine Abgabe nicht mehr möglich. 
 
+[Zum Seitenanfang ^](#Quality_Management_Data_Collections)
 
-## Datenerhebung abschliessen
+---
+
+
+## Datenerhebung abschliessen {: #complete_data_collection}
 
 Eine Datenerhebung schliesst sich selbst ab, wenn das vorgegebene Zeitfenster abgelaufen ist. 
 
@@ -108,4 +163,6 @@ Es besteht die Möglichkeit, den Abschluss einer laufenden Datenerhebung auch ma
 
 ![quality_management_data_collection_close_manually_v1_de.png](assets/quality_management_data_collection_close_manually_v1_de.png){ class="shadow lightbox" }
 
+
+[Zum Seitenanfang ^](#Quality_Management_Data_Collections)
 
