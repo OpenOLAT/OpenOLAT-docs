@@ -32,6 +32,7 @@ Der Kursbaustein "Übung" funktioniert nach dem Prinzip einer Lernkartei. Die F�
 Um auch ohne Bewertung (Punkte) die eigene Leistung einschätzen zu können, wird zu jeder Frage ein Lernstand als Level angezeigt.
 Ein Level zeigt an, wie erfolgreich eine Frage beantwortet wurde.
 
+
 **Zurückstufung**<br>
 Wurde eine Frage z.B. 3 mal hintereinander richtig beantwortet, ist sie in Level 3. Wird sie dann einmal nicht richtig beantwortet, sinkt sie wieder in Level 2.
 
@@ -70,16 +71,18 @@ Die Gesamtanzahl der Challenges kann festgelegt werden.
 
 Nach Abschluss einer Challenge sind neben der Einordnung in Ranglisten detaillierte Statistiken zum Lernstand sowie eine zusammenfassende Übersicht verfügbar.
 
+[Zum Seitenanfang ^](#course_element_uebung)
+
 ---
 
-## Konfiguration {: #configuration}
+## Tab Konfiguration {: #configuration}
 
 Wie bei allen Kursbausteinen wird zur Konfiguration vom Autor der Kursbaustein Übung im Kursmenü ausgewählt. Vor allem im **Tab "Konfiguration“** finden sich dann die Einstellmöglichkeiten und Settings.
 
-![course_element_practice_konfig_v1_de.png](assets/course_element_practice_konfig_v1_de.png){ class="shadow lightbox" }
+![course_element_practice_config_v2_de.png](assets/course_element_practice_config_v2_de.png){ class="shadow lightbox" }
 
 
-### Ressourcen {: #resources}
+### ![1_green_24.png](assets/1_green_24.png) Ressourcen {: #resources}
 
 Im Unterschied zu den meisten anderen Kursbausteinen, können im Kursbaustein Übung **mehrere Lernressourcen** eingebunden werden. Die im Kursbaustein Übung verwendeten Fragen entstammen dem Fragenpool oder Test-Lernressourcen. 
 
@@ -87,33 +90,44 @@ Aktuell gibt es 2 Möglichkeiten, Fragen in den Kursbaustein Übung einzufügen:
 
 * Zum einen können Sie eine **Lernressource Test** einbinden, wie Sie es auch in den Kursbausteinen Test und Selbsttest tun. Dann können die Fragen aus den Tests geübt werden.
 
-* Zum anderen können via **Share** Fragen eingefügt werden. Shares sind freigegebene Fragenpakete aus dem Fragenpool (Listen, Freigaben, Gruppenfreigaben).
+* Zum anderen können aus dem **Fragenpool** Fragen eingefügt werden. Sie können Fragenpakete aus Listen, Freigaben und Gruppenfreigaben einfügen.
 
 Späteres Ändern oder Hinzufügen von Fragen ist möglich.
 
 
-### Kriterien {: #criteria}
-  Durch die Festlegung von Kriterien für Taxonomie und Metadaten lassen sich gezielt die gewünschten Fragen herausfiltern.
+### ![2_green_24.png](assets/2_green_24.png) Kriterien {: #criteria}
+
+Durch die Festlegung von Kriterien für Fachbereiche (Taxonomie) und Metadaten lassen sich gezielt die gewünschten Fragen herausfiltern.
+
+* Es können mehrere Fachbereiche der Taxonomie vorgegeben werden, denen die Fragen zugeordnet sein müssen.
+* Da nicht immer alle Fragen einem Fachbereich zugeordnet sind, kann auch erlaubt werden, zusätzlich die Fragen ohne Fachbereich mit einzubeziehen.
+* Für die Filterung nach Metadaten können gewählt werden: Testart, Schlagwort, Sprache und Level. (Filterkriterien mit diesen Metadaten können auch kombiniert werden.)
 
 
-### Übungssettings {: #practice_settings}
+### ![3_green_24.png](assets/3_green_24.png) Übungssettings {: #practice_settings}
 
 In den Übungssettings wird von den Autor:innen festgelegt:
 
-* Anzahl Levels 
-* Anzahl Fragen pro Serie
+* Anzahl Levels (wie oft eine Frage richtig beantwortet werden soll)
+* Anzahl Fragen pro Serie (wie viele Fragen pro Übungsserie zu beantworten sind)
 * Anzahl Serien pro Challenge
-* Anzahl Challenges, die als Erledigungskriterium erforderlich sind
+* Anzahl Challenges, deren Abschluss als Erledigungskriterium für den Kursbaustein erforderlich sind
 
-In einer Übersicht sind alle zur Verfügung stehenden Fragen angezeigt (nach Fachbereichen/Taxonomie gruppiert).
+
+### ![4_green_24.png](assets/4_green_24.png) Verwendete Fragen {: #questions}
+ 
+In einer Übersicht sind alle gemäss der Kriterien zur Verfügung stehenden Fragen zur Kontrolle angezeigt (nach Fachbereichen/Taxonomie gruppiert).
 
 
 !!! info "Beachten Sie:"
 
-    Es handelt sich um Verknüpfungen der Fragen. Es werden keine Kopien der Fragen im Kursbaustein abgelegt. Wenn also eine Frage verändert oder gelöscht wird, ist sie auch im Kursbaustein Übung entsprechend geändert oder weg.
+    Es handelt sich um Verknüpfungen der Fragen. Es werden keine Kopien der Fragen im Kursbaustein abgelegt. Wenn also eine Frage verändert oder gelöscht wird, ist sie auch im Kursbaustein Übung entsprechend geändert oder entfernt.
 
+
+[Zum Seitenanfang ^](#course_element_uebung)
 
 ---
+
 
 ## Praktisch üben {: #practice_practically}
 
@@ -165,6 +179,9 @@ Betreuer:innen können beim Anwählen des Kursbausteins einer Liste entnehmen, w
 
 Da von Betreuer:innen keine manuellen Bewertungen vorgenommen werden, sind auch keine Feedbacks durch Betreuer:innen vorhanden.
 
+
+[Zum Seitenanfang ^](#course_element_uebung)
+
 ---
 
 ## Vergleich: Test - Selbsttest - Übung {: #comparison}
@@ -177,3 +194,5 @@ mit Punkten | mit Punkten  | ohne Punkte
 einsehbar für Betreuer |  nicht einsehbar für Betreuer | einsehbare Level<br>Lernstand pro Level<br> Schwerpunktsetzung durch Teilnehmer:in
 1 Test-Lernressource | 1 Test-Lernressource | mehrere Lernressourcen<br>Freigaben/Shares aus dem Fragenpool<br>Filter mit Verwendung der Taxonomie
 
+
+[Zum Seitenanfang ^](#course_element_uebung)
