@@ -98,8 +98,8 @@ b) und ob/wie darüber informiert wird.
 
 Qualitätsmanager:innen haben auch schon vor Abschluss Zugriff auf den aktuellen Status der Datenerhebung.
 
-**Bedingungen einer Push-Nachricht**<br>
-Die Berechnung, in welchen Fällen eine "Push"-Notification ausgelöst werden soll, erfolgt auf Basis der verwendeten Rubrik-Elemente im Formular.<br>
+**Bedingungen einer E-Mail-Benachrichtigung**<br>
+Die Berechnung, in welchen Fällen eine E-Mail ausgelöst werden soll, erfolgt auf Basis der verwendeten Rubrik-Elemente im Formular.<br>
 Pro Rubrik wird über alle Fragen anhand der Antworten der Durchschnitt berechnet. Dieser Durchschnitt wird dann anhand der Wertebereiche (Skala) in der Konfiguration des Rubriks in eine Klassierung umgewandet (ungenügend, neutral, gut). Wenn der Durchschnitt nicht innerhalb eines Wertebereiches liegt (z.B. weil diese gar nicht definiert sind), wird die Klassierung “ohne” ausgegeben.
 
 **Beispiel:**
