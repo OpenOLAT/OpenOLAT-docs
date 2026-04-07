@@ -24,7 +24,14 @@ Mit **OpenOlat 20.3** wurden zentrale Bereiche weiterentwickelt. Der Fokus lag a
 
 Seit Release 20.2 wurden über 105 neue Funktionen und Verbesserungen zu OpenOlat hinzugefügt. Hier finden Sie die wichtigsten Neuerungen zusammengefasst. Zusätzlich wurden zahlreiche Bugs behoben. Die komplette Liste der Änderungen in 20.2.x finden Sie [hier](Release_notes_20.2.de.md){:target="_blank"}.
 
-**Vorankündigung:** Ab Release 21.0 wird eine strikte Trennung zwischen Lernen und Coaching eingeführt: Gelernt wird wie gewohnt im Bereich Kurse, während Betreuende, Kursbesitzer:innen und weitere Rollen – etwa Linienvorgesetzte oder Bildungsmanager – den Bereich Coaching nutzen.
+* * *
+
+
+## Ankündigung: Trennung zwischen Lernen und Coaching
+
+!!! warning "Kurse für Teilnehmende, CoachingTool für Betreuende"
+
+    Ab **Release 21.0** wird eine strikte Trennung zwischen Lernen und Coaching eingeführt: Gelernt wird wie gewohnt im Bereich Kurse, während Betreuende, Kursbesitzer:innen und weitere Rollen – etwa Linienvorgesetzte oder Bildungsmanager – den Bereich Coaching nutzen.
 
 * * *
 
