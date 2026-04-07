@@ -137,7 +137,7 @@ Updating the insider code:
 	pip install -e mkdocs-material-insiders -U
 
 
-### Markdown editor and Git client 
+### Markdown editor and Git clients
 
 Any Markdown editor and any Git client can be used. To make things simple we recommend to download [Visual Code Studio](https://code.visualstudio.com) that combines a Git client, a decent Markdown editor and a Markdown preview in one single tool. It is available for free for [Mac, Windows and Linux](https://code.visualstudio.com/#alt-downloads).
 
