@@ -30,7 +30,7 @@ Seit Release 20.2 wurden über 105 neue Funktionen und Verbesserungen zu OpenOla
 
 ## Widgets
 
-### Widget & Course Planner
+### Widgets & Course Planner
 
 Widgets wurden funktional erweitert und vereinheitlicht: Sie lassen sich frei anordnen sowie ein- oder ausblenden. Gleichzeitig bieten Widgets wie das Tabellen- und Mitglieder-Widget erweiterte Konfigurationsmöglichkeiten bei einheitlicher Bedienung.
 
@@ -152,7 +152,7 @@ Das Überblenden der Hintergrundbilder auf der Login Seite wurde vollständig ü
 
 - **Projekt-Tool:** Neu können persönliche Filter gespeichert werden und Dateien lassen sich über einen externen Link direkt referenzieren.
 
-- **Framework & Usability:** Der Login-Screen wurde visuell modernisiert und sorgt für einen zeitgemässen ersten Eindruck. Leere Ansichten wurden vereinheitlicht und bieten eine klarere Orientierung bei fehlenden Inhalten. Zudem wurde veralteter Code entfernt, um Stabilität und Wartbarkeit zu verbessern.
+- **Framework & Usability:** Der Login-Screen wurde visuell modernisiert und sorgt für einen zeitgemässen ersten Eindruck. Zudem wurde veralteter Code entfernt, um Stabilität und Wartbarkeit zu verbessern. Die Oberfläche wurde durchgehend für ein konsistenteres Nutzungserlebnis verfeinert.
 
 - **Barrierefreiheit:** Die Navigation per Tab in Dialogen mit Datumsauswahl sowie die Anzeige der Datepicker wurden verbessert.
 
@@ -161,41 +161,50 @@ Das Überblenden der Hintergrundbilder auf der Login Seite wurde vollständig ü
 * * *
 
 ## Administratives / Technisches
-<mark style="background:#fff88f">@Mandy</mark>
 
-* Dependency-Updates:
-    * commons-collections von 3.x auf 4.x migriert
-    * TinyMCE von 6.8.6 auf 7.x aktualisiert
-    * Fabric.js von 4.4.0 auf 6.4.0+ aktualisiert (CVE-2024-23634 behoben)
-    * Bootstrap-Migration von 3.x auf 5.x
+* Modernisierung theme.js und OpenOlat Theme Login-Seite
+* Video-Transkodierung:
+    * Standardauflösung 1080p für Videotranskodierung
+    * Unterstützung für externen Transcodingdienst mit verschiedenen Service-Queues zur Verarbeitung von Videos unterschiedlicher Größe
+    * Automatische Erstellung von Video-Untertiteln (*Teil des frentix Cloud Services. Nicht-Kunden melden sich bei Interesse beim Frentix Vertrieb.*)
+* Allgemeine Bibliotheks-Updates
+    * Hibernate 7.2.6, Jakarta persistence 3.2, Jakarta EE 11
+    * Infinispan 16.0.5
+    * Hibernate validator 9.1.0
+    * Spring framework 7.0.2
+    * Apache CXF 4.2.0
+    * Java HTML sanitizer 20260102.1
+    * Jackson und Jackson annotations 2.21.0
+    * Apache Artemis 2.52.0
+    * Undertow core 2.3.23
+    * PDFBox 3.0.7
+    * Webauthn4j 0.30.2
+    * PostgreSQL JDBC 42.7.9
+    * Nimbus Jose JWT 10.8
+    * iCal4j 4.2.3
+    * ical4j zone infos für Outlook 2.2.0
+    * Azure Identity 1.18.2
+    * Microsoft Graph API 6.59.0
+    * JSON, SwaggerUI, Selenium, AssertJ
+    * Fabric.js von 4.4.0 auf 6.4.0+
     * Prototype.js 1.7 entfernt
-    * Apache Lucene von 7.7.0 auf 9.x+ aktualisiert
-    * Apache HttpClient von 4.x auf 5.x migriert
-    * BeanShell in SCORM evaluiert und adressiert (CVE-2016-2510)
-    * Allgemeines Bibliotheks-Update
-* Sicherheits-Konfiguration:
-    * Content Security Policy wurde verschärft – nach dem Update sollte geprüft werden, ob eigene Konfigurationen und integrierte externe Tools kompatibel sind
-    * REST-API-Tokens werden neu gehasht gespeichert – bestehende Tokens behalten ihre Gültigkeit
 
 * * *
 
 ## Systemadministratoren: Neue Funktionen aktivieren / konfigurieren
-<mark style="background:#fff88f">@Mandy</mark>
 
 !!! note "Checkliste nach Update auf 20.3"
 
     Folgende Funktionen müssen nach einem Update auf Release 20.3 in der `Administration` aktiviert bzw. konfiguriert werden:
 
-    * [x] SEO & Seitenvorschau konfigurieren: `Module > Katalog / InfoPages > SEO`
-    * [x] Dashboard-Widget-Konfiguration durch Nutzer:innen aktivieren/deaktivieren: `Module > Dashboard`
-    * [x] SEB-Konfigurationsvorlagen erstellen und freigeben: `Administration > e-Assessment > Safe Exam Browser`
-    * [x] Content Security Policy nach Update auf Kompatibilität prüfen
-    * [x] Aktivieren von neuen KI Funktionen    
-    * [x] Animationen Loginscreen und Zoom Effekt
+    * [x] Standardeinstellung für Video-Auflösung festlegen: `Module > Video > Videokonfiguration`
+    * [x] SEO Metadaten (Organisation, Stichwörter) konfigurieren: `Module > SEO / OAI-PMH Metadaten > Suchmaschinenoptimierung`
+    * [x] SEB-Konfigurationsvorlagen erstellen und freigeben: `e-Assessment > Prüfungsverwaltung > Safe Exam Browser Konfiguration`
+    * [x] Content Security Policy nach Update auf Kompatibilität prüfen: `Login > Sicherheit > Konfiguration`
 
 * * *
 
 ## Weitere Informationen
-<mark style="background:#fff88f">@Mandy</mark>
 
+* [YouTrack Release Notes 20.3.1](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.3.1&title=Release%20Notes%2020.3.1){:target="_blank"}
 * [YouTrack Release Notes 20.3.0](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.3.0&title=Release%20Notes%2020.3.0){:target="_blank"}
