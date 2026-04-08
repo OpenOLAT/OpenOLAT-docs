@@ -20,7 +20,7 @@ The "Search" element in the Members management can be used to search for members
 Select the columns that are relevant for you via the cogwheel menu and sort the list according to your wishes.
 
 
-### Edit user information
+### Edit user information {: #edit_user_info}
 
 When you select a person from the list, you will receive further information about that person, e.g., you can see the number of course views and assign additional roles to that person.
 
@@ -46,16 +46,16 @@ A course member can have multiple roles in the course at the same time. In this 
 
 If the user has additional [system roles](../basic_concepts/Roles_Rights.md), such as learning resource manager or administrator, these are also displayed as selection elements for the corresponding perspective.
 
-### Adding members
+### Adding members {: #add_members}
 
 Users can be added to a course in several ways:
 
 * By manual entry by the course owner
 * By learners booking orders (see [Access configuration](../learningresources/Access_configuration.md))
 * By adding an OpenOlat group. All group members are automatically added to the course.  
-* via the Course Planner as part of a higher-level curriculum (CPL membership)
+* via the Course Planner as part of a higher-level education product (CPL membership)
 
-#### Manual entry by course owners:
+#### Manual entry by course owners: {: #add_members_manually}
 
 Use the “Add member” link to search for specific individuals with an OpenOlat account or use the bulk search function. A wizard will guide you through the steps for adding new course members.
 
@@ -146,7 +146,7 @@ Often, the specific assignment of certain rights, instead of the entry as owner,
     Group coaches basically also get access to the [assessment tool](Assessment_tool_overview.md) and can also assess all members of the group. Furthermore, they are allowed to make changes to the coached groups and have access to all things shared for coaches in the course run!
 
 
-### Assignment of additional rights
+### Assignment of additional rights {: #additional_rights}
 
 The following course rights can be assigned to individual user groups:
 

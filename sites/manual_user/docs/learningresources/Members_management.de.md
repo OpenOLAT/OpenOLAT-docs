@@ -19,7 +19,7 @@ Sie können die Rollenzuordnung der Personen bearbeiten, sie aus dem Kurs entfer
 Wählen Sie die für Sie relevanten Spalten über das Zahnrad Menü aus und sortieren Sie die Liste nach Ihren Wünschen.
   
 
-### Benutzerinformationen bearbeiten
+### Benutzerinformationen bearbeiten {: #edit_user_info}
 
 Wenn Sie eine Person aus der Liste auswählen, erhalten Sie weitere Informationen zu dieser Person z.B. sehen Sie die Anzahl der Kursaufrufe und können der Person weitere Rollen zuordnen.
 
@@ -44,7 +44,7 @@ Ein Kursmitglied kann in einem Kurs mehrere Rollen gleichzeitig besitzen. In die
 Besitzt der User noch darüberhinausgehende  [System-Rollen](../basic_concepts/Roles_Rights.de.md),  wie Lernressoucrenverwalter:in oder Administrator:in, werden diese ebenfalls als Auswahlelement für die entsprechende Perspektive angezeigt.
   
 
-### Mitglieder hinzufügen
+### Mitglieder hinzufügen {: #add_members}
 
 Personen können auf verschiedene Arten einem Kurs hinzugefügt werden:
 
@@ -52,10 +52,10 @@ Personen können auf verschiedene Arten einem Kurs hinzugefügt werden:
 * durch manuelles Eintragen durch die Kursbesitzer:innen  
 * durch Buchungsaufträge von Lernenden (siehe [Zugangskonfiguration](../learningresources/Access_configuration.de.md))  
 * durch das Hinzufügen einer OpenOlat-Gruppe. Alle Gruppenmitglieder werden dabei automatisch dem Kurs hinzugefügt.  
-* über den Course Planer im Rahmen eines übergeordneten Curriculums (CPL-Mitgliedschaft)
+* über den Course Planner im Rahmen eines übergeordneten Bildungsprodukts (CPL-Mitgliedschaft)
 
 
-#### Manuelles Eintragen durch Kurs-Besitzer:innen 
+#### Manuelles Eintragen durch Kurs-Besitzer:innen {: #add_members_manually}
 
 Über den Link "Mitglied hinzufügen" kann nach bestimmten Personen mit OpenOlat Account gesucht werden oder die Massensuche verwendet werden. Ein Wizard führt Sie durch die Schritte zum Hinzufügen neuer Kursmitglieder.
 
@@ -150,7 +150,7 @@ Vergeben Sie diese erweiterten Rechte aber am besten an die _Teilnehmenden_ eine
     Gruppenbetreuer:innen erhalten grundsätzlich auch Zugang zum [Bewertungswerkzeug](Assessment_tool_overview.de.md) und können alle Mitglieder der Gruppe auch bewerten. Ferner dürfen sie Änderungen an den betreuten Gruppen vornehmen und haben Zugriff auf alle für Betreuende im Kursrun freigegebenen Dinge!
     
 
-### Vergabe zusätzlicher Rechte 
+### Vergabe zusätzlicher Rechte {: #additional_rights}
 
 Folgende Kursrechte können an Gruppen vergeben werden:
 

@@ -21,7 +21,7 @@ Organisation roles include organisation-wide authorizations (as definied for the
 * **Quality manager**: The quality manager has access to the Quality Management area and can manage all settings and objects such as questionnaires, data collection generators and the analysis tool.
 * **User manager**:User managers have access to the [User management](../../manual_admin/usermanagement/index.md) and all users of the own organization. They can create, edit and inactivate users. They can also assign the Author role and other roles. User administrators have the menu item "User administration" in the top navigation bar. 
 * **Role manager**: Role administrators have access to user management (separate menu item in the top navigation bar) and can view and organize all users in their own organizations. Role administrators can change, assign, and remove all user roles except for the roles of administrator and system administrator.
-* **Administrator**: The administrator has module and function management and has access to all areas of the system e.g. user management, catalog management, curriculum management, lectures management, except the administration page. This role can be limited to an organization. The administrator can delete users and also grant other people the right to manage the catalogue.
+* **Administrator**: The administrator has module and function management and has access to all areas of the system e.g. user management, catalog management, course planner, except the administration page. This role can be limited to an organization. The administrator can delete users and also grant other people the right to manage the catalogue.
 * **Group manager**: The group manager has access to the "Group" section and in there the tab [Group Administration](../area_modules/Group_Management.md). 
 * **Pool manager**: Pool administrators have access to the [Question pool](../area_modules/Question_Bank.md). In the question pool, they can open the Administration section.
 * **System administrator**: The system administrator has access to the administration side and is responsible for the technical system configuration and its monitoring. This is a global role that is not tied to an organization.
@@ -29,7 +29,7 @@ Organisation roles include organisation-wide authorizations (as definied for the
 !!! warning "Note"
 
     The mentioned roles represent options to give normal users organisation-wide extensive additional rights. Usually an appropriate role composition is selected for an OpenOlat instance and not all specific roles are assigned.
-    Typical is a combination of user, author and administrator or system administrator. Additional roles result from the structure of the respective institution and the use of certain tools such as Curriculum or [Absences](../learningresources/Lectures_and_absences.md). It is therefore possible that not all potential OpenOlat roles are used in your instance.
+    Typical is a combination of user, author and administrator or system administrator. Additional roles result from the structure of the respective institution and the use of certain tools such as [Course Planner](../area_modules/Course_Planner.md). It is therefore possible that not all potential OpenOlat roles are used in your instance.
     
     If you have any questions regarding the role management please contact the support of your own OpenOlat instance.
 
@@ -56,7 +56,7 @@ The roles that can be limited to an organizational unit include
 * Question bank managers
 * User managers
 * Role managers
-* Curriculum managers
+* Course planners
 * Learning resource managers
 * Line managers
 * Principals
@@ -247,17 +247,10 @@ The account roles are only relevant for the administrator's search function.<br>
 
 ## Further information
 
-[Role assignment for organisational roles](Assign_Roles.md#role_assignment_org)<br>
-
-[Role assignment for course roles](Assign_Roles.md#role_assignment_course)<br> 
-
-[Role assignment for curricula](Assign_Roles.md#role_assignment_curriculum)<br>
-[Rights of the curriculum roles](../basic_concepts/Authorisation_Concept.md#rights-of-curriculum-roles-in-a-course)<br> 
-
-[Role assignment of the "Invitee"](Assign_Roles.md#role_assignment_invitee)<br>
-
-[Define your own roles and relationships](Assign_Roles.md#role_assignment_relations)<br> 
-
-<br>
+[Role assignment for organisational roles >](Assign_Roles.md#role_assignment_org)<br>
+[Role assignment for course roles >](Assign_Roles.md#role_assignment_course)<br>
+[Role assignment for group roles >](Assign_Roles.md#role_assignment_group)<br>  
+[Role assignment of the "Invitee" >](Assign_Roles.md#role_assignment_invitee)<br>
+[Define your own roles and relationships >](Assign_Roles.md#role_assignment_relations)<br> 
 
 [To the top of the page ^](#roles)
