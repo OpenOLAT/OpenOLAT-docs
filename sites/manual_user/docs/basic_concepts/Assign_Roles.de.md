@@ -109,7 +109,7 @@ Soll z.B. im ePortfolio eine externe Person Einsicht in eine Mappe erhalten, wir
 ## Eigene Rollen und Beziehungen definieren {: #role_assignment_relations} 
 
 Die Aktiverung und Definition eigener Rollen muss durch **Administrator:innen** erfolgen.<br>
-(**Administration > Module > Rolle Benutzer zu Benutzer**)<br>
+(**Administration > Module > Rolle Person zu Person**)<br>
 Z.B. Vorgesetzte:r, Untergebene:r, Expert:in, Zu Beurteilende:r, Elternteil, Ausbildungsverantwortliche:r, Schüler:in, Mentor:in, Lernbegleiter:in, usw.
 
 Anschliessend können durch **Benutzerverwalter:innen** in<br>
@@ -119,9 +119,9 @@ neue Beziehungen zwischen dem/der gewählten Benutzer:in und anderen OpenOlat-Nu
 
 Es kann nur die von Administrator:innen eingerichtete und definierte Systematik der Rollen verwendet werden.
 
-Mit der Benutzer-zu-Benutzerbeziehung in OpenOlat können in der Administration bzw. in der Benutzerverwaltung kursübergreifende Betreuungsfunktionen für beispielsweise Mentoren, Lernbegleiter und Vorgesetzte eingerichtet werden. Ist dies der Fall, können Betreuende im Coaching Tool einfach und übersichtlich auf die zu betreuenden Personen zugreifen und Bewertungen vornehmen.
+Mit der Person-zu-Personbeziehung in OpenOlat können in der Administration bzw. in der Benutzerverwaltung kursübergreifende Betreuungsfunktionen für beispielsweise Mentoren, Lernbegleiter und Vorgesetzte eingerichtet werden. Ist dies der Fall, können Betreuende im Coaching Tool einfach und übersichtlich auf die zu betreuenden Personen zugreifen und Bewertungen vornehmen.
 
-Für jede Benutzer-zu-Benutzerbeziehung können spezifische Rechte definiert und somit der Zugriff auf explizit freigegebene Inhalte der Betreuten erteilt werden, wie z.B. Kursliste, Kalender, Absenzenübersicht, Leistungsnachweise und Zertifikate. Analog wird auch die Rolle "Linienvorgesetzter" im Coaching Tool abgebildet. Hier kann ebenfalls auf definierte Inhalte von Benutzern der eigenen Organisationseinheit zugegriffen werden.
+Für jede Person-zu-Personbeziehung können spezifische Rechte definiert und somit der Zugriff auf explizit freigegebene Inhalte der Betreuten erteilt werden, wie z.B. Kursliste, Kalender, Absenzenübersicht, Leistungsnachweise und Zertifikate. Analog wird auch die Rolle "Linienvorgesetzter" im Coaching Tool abgebildet. Hier kann ebenfalls auf definierte Inhalte von Benutzer:innen der eigenen Organisationseinheit zugegriffen werden.
 
 [zum Seitenanfang ^](#role_assignment)
 

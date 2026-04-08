@@ -206,10 +206,10 @@ Diese Funktion wird bei aktivierter Checkbox unter dem Icon "Administration" zur
 ## Selbst definierte Rollen und Beziehungen {: #relations} 
 
 Neben den in OpenOlat vorgegebenen Rollen gibt es auch die Möglichkeit, dass Administrator:innen selbst Rollen erstellen.<br>
-(**Administration > Module > Rolle Benutzer zu Benutzer**)<br>
+(**Administration > Module > Rolle Person zu Person**)<br>
 Diese frei definierbaren Rollen können von Adminstrator:innen mit spezifischen Rechten ausgestattet werden.
 
-Für diese Rollen können mit Benutzer-zu-Benutzer-Beziehungen zum Beispiel kursübergreifende Betreuungsfunktionen wie Mentoren, Lernbegleiter und Vorgesetzte eingerichtet werden.<br>
+Für diese Rollen können mit Person-zu-Person-Beziehungen zum Beispiel kursübergreifende Betreuungsfunktionen wie Mentoren, Lernbegleiter und Vorgesetzte eingerichtet werden.<br>
 (Siehe [Coaching Personen](../area_modules/Coaching_People.de.md))
 
 **Voraussetzungen:**<br>
