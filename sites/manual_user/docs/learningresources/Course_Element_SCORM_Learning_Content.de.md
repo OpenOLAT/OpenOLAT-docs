@@ -11,81 +11,162 @@ Verwendungszweck | Integration von SCORM-Paketen, die mit anderen Autorenwerkzeu
 Bewertbar | ja
 Spezialität / Hinweis |
 
-SCORM steht für "Sharable Content Object Reference Model" und ist ein standardisiertes E-Learning-Format für interaktive E-Learning Module, das von OpenOlat unterstützt wird. Über den Kursbaustein "SCORM Lerninhalt" können SCORM-Pakete (SCORM Version 1.2) in OpenOlat Kurse eingebunden werden. Das SCORM-Paket muss extern erstellt werden, beispielsweise mit [eLML](http://www.elml.org "eLML").
+SCORM steht für "Sharable Content Object Reference Model" und ist ein standardisiertes E-Learning-Format für interaktive E-Learning Module, das von OpenOlat unterstützt wird. Über den Kursbaustein "SCORM Lerninhalt" können SCORM-Pakete (SCORM Version 1.2) in OpenOlat Kurse eingebunden werden. Das SCORM-Paket muss extern mit einem anderen Tool erstellt werden.
 
-Gehen Sie in Ihren Kurs und fügen Sie einen Kursbaustein "SCORM-Lerninhalt" dem Kurs hinzu. Anschließend können Sie im Tab "Lerninhalt" die weitere Konfiguration vornehmen.
+## Ansicht als Betreuer:in {: #coach_view}
 
-## Tab Lerninhalt {: #learning_content}
+![course_element_scorm_coach_v1_de.png](assets/course_element_scorm_coach_v1_de.png){ class="shadow lightbox" }
 
-Wählen oder importieren Sie im ersten Schritt einen SCORM Inhalt. Klicken Sie auf "Importieren", um ein neues SCORM-Paket hochzuladen, oder wählen Sie ein bestehendes SCORM-Paket aus Ihren Einträgen aus. SCORM-Pakete können nicht nur im Kurseditor, sondern auch im "Autorenbereich" importiert werden, was im Kapitel "Aktionen im Autorenbereich" unter dem Punkt ["Importieren"](../area_modules/authoring_new_course.de.md#lernressourcen-importieren) erklärt wird. Wenn Sie noch keine ZIP-Datei als SCORM-Lerninhalt ausgewählt haben, erscheint beim Titel **Gewählter SCORM-Lerninhalt** die Meldung _Kein SCORM-Lerninhalt ausgewählt_.
+[Zum Seitenanfang ^](#course_element_scorm)
+
+---
+
+## Ansicht als Besitzer:in {: #owner_view}
+
+Als Besitzer:in haben Sie im Vergleich zu Betreuer:innen im Run-Mode zusätzlich die Möglichkeit Erinnerungen einzurichten.
+
+![course_element_scorm_owner_v1_de.png](assets/course_element_scorm_owner_v1_de.png){ class="shadow lightbox" }
+
+[Zum Seitenanfang ^](#course_element_scorm)
+
+---
+
+## Bearbeitung im Editor {: #editor}
+
+Als Kursbesitzer:in erstellen und bearbeiten Sie den Kursbaustein "SCORM-Lerninhalt" wie alle anderen Kursbausteine nach Aufruf des **Kurseditors** unter **Administration**. Anschliessend können Sie in den Tabs die weitere Konfiguration vornehmen.
+
+### Tab "Lerninhalt" {: #editor_tab_learning_content}
+
+![course_element_scorm_tab_learning_content_v1_de.png](assets/course_element_scorm_tab_learning_content_v1_de.png){ class="shadow lightbox" }
+
+
+![1_green_24.png](assets/1_green_24.png) **SCORM**<br>
+
+Wählen oder importieren Sie einen SCORM-Inhalt. Klicken Sie auf "Importieren", um ein neues SCORM-Paket hochzuladen, oder wählen Sie ein bestehendes SCORM-Paket aus Ihren Einträgen aus. SCORM-Pakete können nicht nur im Kurseditor, sondern auch im "Autorenbereich" importiert werden, was im Kapitel "Aktionen im Autorenbereich" unter dem Punkt ["Importieren"](../area_modules/authoring_new_course.de.md#lernressourcen-importieren) erklärt wird. Wenn Sie noch keine ZIP-Datei als SCORM-Lerninhalt ausgewählt haben, erscheint beim Titel **Gewählter SCORM-Lerninhalt** die Meldung _Kein SCORM-Lerninhalt ausgewählt_.
 
 Wenn Sie schon einen SCORM-Lerninhalt hinzugefügt haben, erscheint dessen Name als Link. Folgen Sie dem Link um zur Vorschau zu gelangen. Um die Zuordnung eines SCORM-Lerninhaltes nachträglich zu ändern, klicken Sie im Tab "Lerninhalt" auf "SCORM-Lerninhalt auswechseln" und wählen anschliessend ein anderes SCORM-Paket aus.
 
-Unter "Einstellungen" im Tab "Lerninhalt" können Sie bestimmen, wie der Lerninhalt Ihren Kursteilnehmern angezeigt werden soll.
 
- **Menu anzeigen:** Bestimmen Sie, ob bei der Anzeige des Scorm-Packets links ein Navigations-Menu angezeigt werden soll.
+![2_green_24.png](assets/2_green_24.png) **Modul anzeigen**<br>
 
- **Inhalt automatisch starten:** Bestimmen Sie, ob der SCORM-Lerninhalt automatisch startet, wenn der entsprechende Menu-Punkt im Kurs ausgewählt wird. Wenn Sie diese Option nicht aktivieren, wird stattdessen eine Startseite angezeigt.
+Sie haben 4 Varianten zur Auswahl:
 
- **Navigationsbuttons anzeigen:** Bestimmen Sie, ob innerhalb des Scorm- Inhaltes mit Vor- und Zurückbuttons navigiert werden kann.
+**Modul innerhalb OpenOlat anzeigen:**<br>
+Zusätzlich zum SCORM-Modul wird das Navigations-Menu oben in der Kopfzeile angezeigt.
 
- **Nur Modul anzeigen, LMS ausblenden:** Ist diese Checkbox markiert, wird OpenOlat mit dem Öffnen des Kursbausteins ausgeblendet. Stattdessen wird das SCORM Modul im ganzen Browserfenster dargestellt.
+**Nur Modul anzeigen:**<br>
+Ist diese Checkbox markiert, wird OpenOlat und die Hauptnavigation mit dem Öffnen des Kursbausteins ausgeblendet. Stattdessen wird das SCORM Modul im ganzen Browserfenster dargestellt.
 
- **Modul automatisch schliessen wenn beendet:** Das SCORM Modul wird automatisch geschlossen sobald es beendet ist, und der Benutzer kehrt in die Kursansicht zurück.
+**Modul im Vollbildmodus anzeigen:**<br>
+\- Das Modul nimmt den gesamten Platz ein<br>
+\- Alle Navigationselemente, ausser "Zurück"-Link zum Kurs, werden ausgeblendet<br>
+\- Geeignet für Module mit einem einzigen "Sharable Content Object"
 
- **Resultat aus SCORM übertragen:** Bestimmen Sie, ob die Summe aller im Scorm-Packet erreichten Punkte an das OLAT-Bewertungssystem weitergegeben werden soll.
+**Modul im Vollbildmodus anzeigen, ohne "Zurück"-Link:** <br>
+\- Das Modul nimmt den gesamten Platz ein.<br>
+\- Alle Navigationselemente werden ausgeblendet.<br>
+\- Der "Zurück"-Link zum Kurs steht nicht zur Verfügung.<br>
+\- Geeignet für Module mit einem einzigen "Sharable Content Object" und eigener Navigation.
 
- **Notwendige Punktzahl für 'bestanden':** Geben Sie eine Ganzzahl ein, die aussagt, wieviele Punkte erreicht werden müssen, damit der Scorm-Test als bestanden gilt.
 
- **Reduzieren von Punkten bei erneutem Versuch verhindern:** Falls dem Benutzer mehrere Lösungsversuche zur Verfügung stehen, kann mit Markieren dieser Checkbox verhindert werden, dass ein erneuter Anlauf ein bereits bestehendes Resultat verschlechtert.
+![3_green_24.png](assets/3_green_24.png) **Modul-Menü anzeigen**<br>
+Es wird links das OpenOlat-Kursmenü angezeigt. Oft ist auch innerhalb eines SCORM-Inhalts ein eigenes Menü vorhanden. Dann kann das zusätzliche OpenOlat-Kursmenü evtl. ausgeblendet werden, um dem SCORM-Inhalt mehr Platz zu geben. Wird der SCORM-Inhalt verlassen (Klick auf "Zurück"), wird das Kursmenü wieder angzeigt.
 
- **Lösungsversuche nur zählen, wenn Punkte übertragen werden:** Die Lösungsversuche werden für den Benutzer nur dann gezählt, wenn auch Punkte vom Scorm an OpenOlat übertragen werden. Je nachdem, wann das Scorm die Punkte liefert (z.B. regelmässig oder nur am Ende der Bearbeitung), greift die Option bereits, wenn ein Benutzer einen Teil der Scorm-Aktivitäten bearbeitet hat, oder erst, wenn das Scorm geschlossen wird.
+![4_green_24.png](assets/4_green_24.png) **Modul-Navigationsbuttons anzeigen**<br>
+Besteht ein SCORM-Lerninhalt aus mehreren SCO (Single Content Objects) kann ermöglicht werden, dass auf Ebene OpenOlat mit Vor- und Zurückbuttons unter diesen SCO navigiert werden kann.
 
- **Maximale Anzahl Lösungsversuche:** Mittels des Drop-Down-Menus können Sie die Anzahl der Lösungsversuche einschränken. Der höchste zur Auswahl stehende Wert ist 20.
+![5_green_24.png](assets/5_green_24.png) **Inhalt automatisch starten**<br>
+Mit dieser Option startet der SCORM-Inhalt sofort, sobald im Kursmenü der Kursbaustein mit dem SCORM-Inhalt ausgewählt wird. Wenn Sie diese Option nicht aktivieren, wird stattdessen eine Startseite angezeigt.
 
-## Tab Anzeige Inhalt {: #layout}
+![6_green_24.png](assets/6_green_24.png) **Modul automatisch schliessen wenn beendet**<br>
+Der SCORM-Lerninhalt wird automatisch geschlossen, sobald er beendet ist und die Benutzer:innen kehren in die Kursansicht zurück.
 
-Im Tab "Layout" definieren Sie die Einstellungen für die Anzeige des SCORM- Lerninhaltes. Dazu können Sie entweder die Layout-Einstellungen der Lernressourcenverwaltung übernehmen, oder aber überschreiben. Wenn Sie die Option "Anpassen" wählen, stehen Ihnen die nachfolgenden Einstellungen zur Verfügung. So können Sie festlegen ob der SCORM-Lerninhalt unverändert, oder aber optimiert für OpenOlat angezeigt werden soll. Der Anzeigemodus "Optimiert für OpenOlat" gestattet Ihnen z.B. das Kurslayout auf den SCORM-Inhalt anzuwenden.
-	 
- * * *
- 
- **Standardwerte übernehmen:** Werden Lernressourcen aus der Lernressourcenverwaltung in Kursen eingebunden, so können die Einstellungen für die Darstellung aus der Lernressourcenverwaltung übernommen werden (Option "Aus Layouteinstellungen der Lernressource übernehmen"). Möchten Sie für diesen Kurs die Standardwerte überschreiben, so wählen Sie die Option "Anpassen".
+![7_green_24.png](assets/7_green_24.png) **Resultat aus SCORM übertragen**<br>
+Korrekt erstellte SCORM-Pakete können bestimmte Parameter (Punkte, Bestanden, ...) an das LMS übergeben. Mit dieser Option übernimmt das OpenOlat-Bewertungssystem die Resultate aus dem SCORM-Paket.<br>
+**Nicht übertragen:** Evtl. übergebene Werte aus dem SCORM-Paket werden in OpenOlat nicht berücksichtigt.<br>
+**Score übertragen:** Die vom SCORM-Paket übergebenen Punkte werden in die Punkteauswertung von OpenOlat übernommen.<br>
+**Passed übertragen:** Es wird nur ein vom SCORM-Paket gemeldetes "Bestanden" oder "Nicht bestanden" von OpenOlat übernommen, eine dafür zugrunde liegende Punktezahl ist nicht relevant. Entsprechend ist bei dieser Option auch eine Angabe der maximalen oder notwendigen Punktzahl obsolet und wird nicht angezeigt.
 
-* * *
+![8_green_24.png](assets/8_green_24.png) **Maximal erreichbare Punkte**<br>
+Wird ein Score (eine Punktzahl) an OpenOlat übertragen, kann hier ein Maximum angegeben werden. Diese Begrenzung ist erforderlich, wenn im SCORM-Lerninhalte z.B. sehr viel mehr Punkte vergeben werden, als im OpenOlat-Kurs. Wenn dann die Option "Bei Kursbewertung berücksichtigen" gewählt ist, könnte der Kursbaustein "SCORM-Lerninhalt" unverhältnismässig hohes Gewicht bekommen.  
 
- **Anzeigemodus:** Wählen Sie den Modus "Standard" um die Ressource unverändert anzuzeigen. Dieser Modus ist geeignet für Ressourcen, bei denen es im Modus "Optimiert für OpenOlat" zu Anzeigeproblemen kommt. Wählen Sie den Modus "Optimiert für OpenOlat" wenn Sie das Kurslayout in der Seite einbinden wollen, eine JavaScript Bibliothek verwenden möchten, das OpenOlat Glossar auf dieser Seite anwenden wollen oder die Höhe der Seite automatisch berechnet werden soll. Bei SCORM Modulen ist der Modus "Standard" empfohlen.
+![9_green_24.png](assets/9_green_24.png) **Notwendige Punktzahl für "bestanden"**<br>
+Wird ein Score (eine Punktzahl) an OpenOlat übertragen, kann hier mit einem ganzzahligen Wert festgelegt werden, wieviele Punkte ereicht sein müssen, damit der Kursbaustein als bestanden gilt. 
 
-* * *
+![10_green_24.png](assets/10_green_24.png) **Reduzieren von Punkten bei erneutem Versuch verhindern**<br>
+Wird der Kursbaustein mehrfach aufgerufen, werden einmal dort erreichte Punkte nicht zurückgesetzt, wenn bei einem neuen Versuch weniger Punkte erreicht werden. Ein erneuter Versuch kann also ein bereits bestehendes Resultat nicht verschlechtern.
 
- **JavaScript hinzufügen:** Um die Funktionen des Anzeigemodus "Optimiert für OpenOlat" nutzen zu können muss die JavaScript Bibliothek "jQuery" aktiviert sein. Die Option "Prototype" sollte nur gewählt werden wenn Ihre Inhalte diese Bibliothek voraussetzen. Wählen Sie keine Bibliothek wenn es zu Anzeigeproblemen mit Ihren Inhalten kommt.
+![11_green_24.png](assets/11_green_24.png) **Lösungsversuche nur zählen, wenn Punkte übertragen werden**<br>
+Die Lösungsversuche werden für Benutzer:innen nur dann gezählt, wenn auch Punkte vom SCORM-Paket an OpenOlat übertragen werden. Je nachdem, wann der SCORM-Lerninhalt die Punkte liefert (z.B. regelmässig oder nur am Ende der Bearbeitung), greift die Option bereits, wenn Benutzer:innen einen Teil im SCORM-Lerninhalt bearbeitet haben, oder erst wenn der SCORM-Lerninhalt geschlossen wird.
 
-* * *
+![12_green_24.png](assets/12_green_24.png) **Maximale Anzahl Lösungsversuche**<br>
+Sie können in einem Drop-Down-Menü angeben, wie viele Lösungsversuche für diesen SCORM-Kursbaustein zugelassen sind (unbegrenzt oder Werte zwischen 1 und 20).
 
- **Glossarbegriffe einbinden:** Wählen Sie diese Option um die Möglichkeit der Hervorhebung von Glossarbegriffen zu aktivieren falls Sie in Ihrem Kurs ein Glossar konfiguriert haben. Diese Option setzt die Verwendung der JavaScript Bibliothek "jQuery" voraus.
+![13_green_24.png](assets/13_green_24.png) **Bei Kursbewertung berücksichtigen**<br>
+Mit diesem Toggle-Button wird bestimmt, ob das Bestehen des Kursbausteins und die eventuell hier erreichten Punkte in die Gesamtbewertung des Kurses einfliessen.
 
-* * *
+[Zum Seitenanfang ^](#course_element_scorm)
 
- **Höhe Anzeigefläche:** Mittels des Drop-Down-Menus können Sie die Höhe der Inhalte bestimmen. Sie haben die Möglichkeit, diese via "Automatisch" auf die jeweilige Fensterhöhe zu setzen oder auf einen bestimmten Wert zu setzen.
+---
 
-* * *
 
- **Layout anpassen:** Wählen Sie die Option "OpenOlat Stylesheets" um das OpenOlat und Kurslayout in Ihre Seite zu übernehmen (Schriftart, Farben, Grösse etc.). Wenn Sie diese Anpassung nicht wünschen wählen Sie die Option "Keine".
+### Tab "Anzeige Inhalt" {: #editor_tab_display_content}
 
-* * *
+![course_element_scorm_tab_display_content_v1_de.png](assets/course_element_scorm_tab_display_content_v1_de.png){ class="shadow lightbox" }
 
- **Zeichensatz Inhalt:** OpenOlat versucht, den Zeichensatz automatisch zu erkennen. Wenn die Option "Automatisch" nicht zu der gewünschten Anzeige führt, kann die Kodierung des Inhalts anhand eines vordefinierten Zeichensatzes konfiguriert werden (ist keine Kodierung vorhanden, wird per Default der Zeichensatz ISO-8899-1 verwendet).
 
-* * *
+![1_green_24.png](assets/1_green_24.png) **Anzeigemodus**<br>
+Wählen Sie den Modus "Standard" um die Ressource unverändert anzuzeigen. Dieser Modus ist geeignet für Ressourcen, bei denen es im Modus "Optimiert für OpenOlat" zu Anzeigeproblemen kommt. Bei SCORM-Lerninhalten ist der Modus "Standard" empfohlen, denn auf die Gestaltung des SCORM-Inhalts (Seitenverhältnis usw.) hat OpenOlat keinen Einfluss.<br>
+Wählen Sie den Modus "Optimiert für OpenOlat", wenn Sie<br> 
+\- das Kurslayout in der Seite einbinden und auf den SCORM-Inhalt anwenden wollen,<br> 
+\- eine JavaScript-Bibliothek verwenden möchten,<br> 
+\- das OpenOlat-Glossar auf dieser Seite anwenden wollen<br> 
+\- oder die Höhe der Seite automatisch berechnet werden soll.
 
- **Zeichensatz Javascript:** Erlaubt die Kodierung des Javascript Codes anhand eines vordefinierten Zeichensatzes (per Default wird der gleiche Zeichensatz für Inhalt und Javascript verwendet).
+![2_green_24.png](assets/2_green_24.png) **JavaScript hinzufügen**<br>
+Um die Funktionen des Anzeigemodus "Optimiert für OpenOlat" nutzen zu können, muss die JavaScript-Bibliothek "jQuery" aktiviert sein. Wenn es zu Anzeigeproblemen mit Ihren Inhalten kommt, wählen Sie keine Bibliothek.
+
+![3_green_24.png](assets/3_green_24.png) **Glossarbegriffe einbinden**<br>
+Wählen Sie diese Option um die Möglichkeit der Hervorhebung von Glossarbegriffen zu aktivieren, falls Sie in Ihrem Kurs ein Glossar konfiguriert haben. Diese Option setzt die Verwendung der JavaScript Bibliothek "jQuery" voraus.
+
+![4_green_24.png](assets/4_green_24.png) **Höhe Anzeigefläche**<br>
+Mit diesem Drop-Down-Menü können Sie die Höhe der Flache zur Inhaltsanzeige bestimmen. Sie haben die Möglichkeit, sie via "Automatisch" auf die jeweilige Fensterhöhe zu setzen oder Sie weisen einen bestimmten Wert zu.
+
+![5_green_24.png](assets/5_green_24.png) **Layout anpassen**<br>
+Wählen Sie die Option "OpenOlat Stylesheets" um das in OpenOlat und im Kurs definiert Layout in Ihre Seite zu übernehmen (Schriftart, Farben, Grösse etc.). Wenn Sie diese Anpassung nicht wünschen, wählen Sie die Option "Keine".
+
+![6_green_24.png](assets/6_green_24.png) **Zeichensatz Inhalt**<br>
+OpenOlat versucht, den Zeichensatz automatisch zu erkennen. Wenn die Option "Automatisch" nicht zu der gewünschten Anzeige führt, kann die Kodierung des Inhalts anhand eines vordefinierten Zeichensatzes konfiguriert werden. (Ist keine Kodierung vorhanden, wird per Default der Zeichensatz ISO-8899-1 verwendet).
+
+![7_green_24.png](assets/7_green_24.png) **Zeichensatz JavaScript**<br>
+Erlaubt die Kodierung des Javascript-Codes anhand eines vordefinierten Zeichensatzes (per Default wird der gleiche Zeichensatz für Inhalt und Javascript verwendet).
+
 
 !!! info "Info"
 
-    SCORM-Lerninhalte werden stets mit Startseite angezeigt. Wenn ein SCORM-Lerninhalt Aufgaben und Tests beinhaltet, werden auf dieser Startseite die erreichte Punktzahl und die verbleibenden Versuche, den Lerninhalt erfolgreich zu absolvieren, ermittelt.
+    SCORM-Lerninhalte werden normalerweise mit Startseite angezeigt. Wenn ein SCORM-Lerninhalt Aufgaben und Tests beinhaltet, werden auf dieser Startseite die erreichte Punktzahl und die verbleibenden Versuche, den Lerninhalt erfolgreich zu absolvieren, ermittelt.
+
+[Zum Seitenanfang ^](#course_element_scorm)
+
+---
+
+### Tab "Erinnerungen" {: #editor_tab_reminders}
+
+Die Erstellung von Erinnerungen kann durch Kursbesitzer:innen innerhalb des Kurseditors vorgenommen werden oder auch im Run-Mode (bei Aufruf des Kursbausteins ausserhalb des Editors).
+
+Sie können ausser dem Erstellen von Erinnerungen sich über beide Zugangswege auch eine Vorschau und alle versendete Erinnerungen anzeigen lassen.
+
+![course_element_scorm_tab_reminders_v1_de.png](assets/course_element_scorm_tab_reminders_v1_de.png){ class="shadow lightbox" }
 
 
-### Tab Badges {: #badges}
+[Zum Seitenanfang ^](#course_element_scorm)
+
+---
+
+
+### Tab "Badges" {: #badges}
 
 Wurde von dem/der Kursbesitzer:in unter **Administration > Einstellungen > Tab Bewertung > Abschnitt Badges** die Vergabe von Badges aktiviert, wird im Kurseditor zu diesem Kursbaustein der Tab "Badges" angezeigt und es kann ein spezifischer Badge für diesen Kursbaustein erstellt werden.
 
 [Zum Seitenanfang ^](#course_element_scorm)
+
