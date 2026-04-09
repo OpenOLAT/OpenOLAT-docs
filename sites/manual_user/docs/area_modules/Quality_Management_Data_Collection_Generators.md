@@ -26,7 +26,7 @@ Create a new data collection generator there.
 
 By selecting a type, you determine the rule set according to which data collections are created.
 
-![quality_management_data_collection_generators_type_v1_de.png](assets/quality_management_data_collection_generators_type_v1_de.png){ class="shadow lightbox" }
+![quality_management_data_collection_generators_type_v2_de.png](assets/quality_management_data_collection_generators_type_v2_de.png){ class="shadow lightbox" }
 
 
 ## Generator Type "Course"
@@ -35,9 +35,9 @@ By selecting a type, you determine the rule set according to which data collecti
 
 ### Tab "Configuration" {: #Quality_Management_Data_Collection_Generators_Type_Course_Config}
 
-![quality_management_data_collection_generator_course_config_v1_de.png](assets/quality_management_data_collection_generator_course_config_v1_de.png){ class="shadow lightbox" }
+![quality_management_data_collection_generator_course_config_v2_de.png](assets/quality_management_data_collection_generator_course_config_v2_de.png){ class="shadow lightbox" }
 
-**Title**<br>
+![1_green_24.png](assets/1_green_24.png)**Title of the generator**<br>
 If possible, use a title that makes a statement about the content and use in order to enable clear assignment and differentiation from other generators.
 
 **Organizations**<br>
@@ -110,9 +110,9 @@ If a generator has been created, this results in a list of courses for which dat
     If data is only to be collected for a small proportion of the courses, a positive list is recommended. If data is to be collected for the majority of courses, a negative list is recommended.
 
 
-## Generator type "Lessons of a coach in a course"
+## Generator type "Events of a coach in a course"
 
-![quality_management_data_collection_generator_lectures_v1_de](assets/quality_management_data_collection_generator_lectures_v1_de.png){ class="shadow lightbox" }
+![quality_management_data_collection_generator_events_v1_de](assets/quality_management_data_collection_generator_events_v1_de.png){ class="shadow lightbox" }
 
 ### Tab "Configuration"
 
@@ -190,9 +190,9 @@ See [Type Course Negative list](#Quality_Management_Data_Collection_Generators_T
 
 
 
-## Generator Type "Curriculum element"
+## Generator Type "Element"
 
-![quality_management_data_collection_generator_curriculum_element_v1_de.png](assets/quality_management_data_collection_generator_curriculum_element_v1_de.png){ class="shadow lightbox" }
+![quality_management_data_collection_generator_element_v1_de.png](assets/quality_management_data_collection_generator_element_v1_de.png){ class="shadow lightbox" }
 
 ### Tab "Configuration"
 
