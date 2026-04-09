@@ -17,6 +17,6 @@ Ausserdem kann die **Datenerhebungsvorschau in Curricula** aufgerufen werden und
 Die **Datenerhebungsvorschau im Modul "Qualitätsmanagement"** bezieht sich auf **alle** geplanten Erhebungen, also auf
 
 * versch. Kurse im Überblick
-* Curriculumelemente
-* Lektionenblöcke
+* Elemente
+* Termine
 

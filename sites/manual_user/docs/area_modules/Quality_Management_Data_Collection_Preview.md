@@ -17,6 +17,6 @@ In addition, the **Data collection preview in curricula** can be called up and s
 The **data collection preview in the "Quality management"** module refers to **all** planned surveys, i.e. to
 
 * overview of different courses
-* curriculum elements
-* lection blocks
+* elements
+* events
 
