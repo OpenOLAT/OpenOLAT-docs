@@ -58,7 +58,7 @@ Before the lectures and absence management can be used it need to be activated i
 
 ![15_green_24.png](assets/15_green_24.png) **Daily recording absences**: yes or no
 
-![16_green_24.png](assets/16_green_24.png) **Allow holding partial lectures**: When completing a lesson block, the number of lessons that have actually been completed can be selected under "Effective lessons". This means that the attendance rate is only partially calculated.
+![16_green_24.png](assets/16_green_24.png) **Allow holding partial events**: When completing an event, the number of units that have actually been completed can be selected under "Effective units". This means that the attendance rate is only partially calculated.
 
 ![17_green_24.png](assets/17_green_24.png) **Lectures status**: If this option is selected lecture blocks can be cancelled. Thus this lecture block does not count for the attendance quote.
 

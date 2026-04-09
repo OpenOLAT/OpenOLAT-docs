@@ -57,7 +57,7 @@ Bevor das Modul "Termine und Absenzen" genutzt werden kann, muss es in der Admin
 
 ![15_green_24.png](assets/15_green_24.png) **Tageserfassung Absenzen**: ja oder nein
 
-![16_green_24.png](assets/16_green_24.png) **Termine partiell durchgeführt zulassen**: Beim Abschliessen eines Lektionenblocks kann unter "Effektive Lektionen" die Anzahl Lektionen ausgewählt werden, welche tatsächlich durchgeführt worden sind. Die Anwesenheitsquote wird dadurch auch nur partiell berechnet.
+![16_green_24.png](assets/16_green_24.png) **Termine partiell durchgeführt zulassen**: Beim Abschliessen eines Termins kann unter "Effektive Einheiten" die Anzahl Einheiten ausgewählt werden, welche tatsächlich durchgeführt worden sind. Die Anwesenheitsquote wird dadurch auch nur partiell berechnet.
 
 ![17_green_24.png](assets/17_green_24.png) **Terminstatus**: Wenn diese Option gewählt wird, können ganze Termine abgesagt werden. Dieser Termin zahlt dann nicht zur Anwesenheitsquote.
 
