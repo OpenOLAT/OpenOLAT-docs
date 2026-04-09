@@ -185,7 +185,7 @@ If the external management is enabled, the user elements in the OpenOlat user in
 	    * subTypes
 	    * delete
 	
-??? abstract "Managed curriculum"
+??? abstract "Managed products"
 	
 	* all
 	    * identifier
@@ -195,7 +195,7 @@ If the external management is enabled, the user elements in the OpenOlat user in
 	    * delete
 	    * members
 	
-??? abstract "Managed curriculum elements"
+??? abstract "Managed elements"
 	
 	* all
 	    * identifier
@@ -206,14 +206,14 @@ If the external management is enabled, the user elements in the OpenOlat user in
 	    * dates
 	    * type
 	    * calendars
-	    * lectures
+	    * units
 	    * members
 	    * resources
 	    * move
 	    * addChildren
 	    * delete
 	
-??? abstract "Managed curriculum element types"
+??? abstract "Managed element types"
 	
 	* all
 	    * identifier
@@ -222,7 +222,7 @@ If the external management is enabled, the user elements in the OpenOlat user in
 	    * description
 	    * externalId
 	    * calendars
-	    * lectures
+	    * units
 	    * subTypes
 	    * copy
 	    * delete
@@ -263,9 +263,9 @@ If the external management is enabled, the user elements in the OpenOlat user in
 	        * Efficiency statement settings (efficencystatement)
 	        * Calendar settings (calendar)
 	        * Glossary settings (glossary)
-	    * Lectures (lecture)
-	        * Lecture configurations (lectureconfig)
-	        * Lecture management (lecturemanagement)
+	    * Units (unit)
+	        * Unit configurations (unitconfig)
+	        * Unit management (unitmanagement)
 	    * Booking rules (bookings)
 	    * Members management (memebersmanagement)
 	    * Group management (groups)
@@ -273,13 +273,13 @@ If the external management is enabled, the user elements in the OpenOlat user in
 	    * Delete course (delete)
 	    * Cope Course (copy)
 	
-??? abstract "Managed lecture blocks"
+??? abstract "Managed events"
 	
 	* all
 	    * details
 	        * title
 	        * compulsory
-	        * plannedLectures
+	        * plannedUnits
 	        * teachers
 	        * groups
 	        * description

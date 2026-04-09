@@ -72,7 +72,7 @@ Der REST-API-Konfiguration wurde eine Option hinzugefügt, um die API-Nutzung au
 
 Das OpenOlat REST API wurde im Sinne von fernen Verwaltungsapplikationen entwickelt. Es beinhaltet nicht alle Funktionen, die im web UI vorhanden sind und viele Anfragen sind limitiert auf administrative Benutzer so wie Admin, Benutzer- oder Gruppenverwalter und Autoren.
 
-Einige der Hauptfunktionen des OpenOlat REST API beinhalten beispielsweise das Kreieren und Organisieren von Benutzern, Kursen, Gruppen, Organisationen, Lehrgängen (Curriculum) oder Kalenderereignissen (Events).
+Einige der Hauptfunktionen des OpenOlat REST API beinhalten beispielsweise das Kreieren und Organisieren von Benutzern, Kursen, Gruppen, Organisationen, Lehrgängen (Produkte) oder Kalenderereignissen (Events).
 
 Das REST API ist allerdings nicht in der Lage „Roll Calls“ auszuführen oder spezifische Einstellungen zu ändern.
 
@@ -236,17 +236,17 @@ verwaltet werden.
 	    * Untertypen Verwaltung (subTypes)
 	    * Typ löschen (delete)
 	
-??? abstract "Managed Curriculum"
+??? abstract "Managed Produkte"
 	
 	* Vollständige externe Verwaltung (all)
 	    * Bezeichnung (identifier)
 	    * Anzeigename (displayName)
 	    * Beschreibung (description)
 	    * Externe Id (exernalId)
-	    * Curriculum löschen (delete)
+	    * Produkt löschen (delete)
 	    * Mitgliederverwaltung (members)
 	
-??? abstract "Managed Curriculumelemente"
+??? abstract "Managed Elemente"
 	
 	* Vollständige externe Verwaltung (all)
 	    * Bezeichnung (identifier)
@@ -257,14 +257,14 @@ verwaltet werden.
 	    * Angaben zum Datum (dates)
 	    * Typ (type)
 	    * Kalender (calendars)
-	    * Lektionen (lectures)
+	    * Einheiten (units)
 	    * Mitgliederverwaltung (members)
 	    * Ressourcen (resources)
 	    * Element verschieben (move)
 	    * Unterelemente hinzufügen (addChildren)
 	    * Element löschen (delete)
 	
-??? abstract "Managed Curriculumelementtypen"
+??? abstract "Managed Elementtypen"
 	
 	* Vollständige externe Verwaltung (all)
 	    * Bezeichnung (identifier)
@@ -273,7 +273,7 @@ verwaltet werden.
 	    * Beschreibung (description)
 	    * Externe Id (externalId)
 	    * Kalender (calendars)
-	    * Lektionen (lectures)
+	    * Einheiten (units)
 	    * Untertypen (subTypes)
 	    * Kopieren (copy)
 	    * Den Typen löschen (delete)
@@ -314,9 +314,9 @@ verwaltet werden.
 	        * Einstellung für Leistungsnachweis (efficencystatement)
 	        * Einstellung für Kalender (calendar)
 	        * Einstellung für Glossar (glossary)
-	    * Lektion (lecture)
-	        * Lektionseinstellungen (lectureconfig)
-	        * Lektionenverwaltung (lecturemanagement)
+	    * Einheit (unit)
+	        * Einstellungen der Einheit (unitconfig)
+	        * Verwaltung der Einheit (unitmanagement)
 	    * Buchungsregeln (bookings)
 	    * Mitgliederverwaltung (memebersmanagement)
 	    * Gruppenverwaltung (groups)
@@ -324,13 +324,13 @@ verwaltet werden.
 	    * Kurs löschen (delete)
 	    * Kurs kopieren (copy)
 	
-??? abstract "Managed Lektionenblöcke"
+??? abstract "Managed Termine"
 	
 	* Vollständige externe Verwaltung (all)
 	    * Details (details)
 	        * Titel (title)
 	        * Anwesenheit obligatorisch (compulsory)
-	        * Geplante Lektionen (plannedLectures)
+	        * Geplante Einheiten (plannedUnits)
 	        * Dozenten (teachers)
 	        * Gruppen (groups)
 	        * Beschreibung (description)
@@ -338,7 +338,7 @@ verwaltet werden.
 	        * Angaben zum Ort (location)
 	        * Angaben zum Datum (dates)
 	    * Einstellungen (settings)
-	    * Lektionenblock löschen (delete)
+	    * Termine löschen (delete)
 	
 ??? abstract "Managed Taxonomien"
 	
