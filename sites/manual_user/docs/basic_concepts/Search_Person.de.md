@@ -44,6 +44,21 @@ Das [Coaching Tool](../area_modules/Coaching.de.md) dient der kursübergreifende
 
 ---
 
+## Personensuche im Kurs {: #course}
+
+Als **Betreuer:in** erhalten Sie bei Klick auf bewertbare Kursbausteine zunächst nicht direkt den Inhalt des Kursbausteins angezeigt, sondern Tabs, die mit Ihren Aufgaben als Betreuer:in zu tun haben. So können Sie im **Tab Teilnehmer:innen** eine bestimmte Person auswählen und deren Bearbeitungsstand und Ergebnisse in diesem Kursbausteins verfolgen.<br>
+Es stehen Ihnen Filterfunktionen mit verschiedener Vorauswahl zur Verfügung. Auch eine Eingabe eines bestimmten Namens ins Suchfeld ist möglich.
+
+**Beispiel:**<br>
+Kursmitglieder, die auf den gewählten Kursbaustein keinen Zugriff haben (weil sie ausgenommen sind), finden Sie in einer separaten Vorauswahl "Ausgenommen", aber nicht unter "Relevant".
+
+![search_person_in_course_v1_de.png](assets/search_person_in_course_v1_de.png){ class="shadow lightbox"}
+
+[zum Seitenanfang ^](#search_person)
+
+---
+
+
 ## Weitere Informationen
 
 [Allgemeines zur Suche >](Search_General.de.md)<br>
