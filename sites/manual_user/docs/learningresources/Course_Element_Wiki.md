@@ -73,7 +73,7 @@ Syntax | Result (Formatting)
 ---|---  
 [[Internal link]] | Internal link
 [[Link `|` Text]] | [Text](Course_Element_Wiki.md)
-[http://www.openolat.org](http://www.openolat.org/) | [http://www.openolat.org](http://www.openolat.org/)
+External link [[http://www.openolat.org](http://www.openolat.org/)] | [http://www.openolat.org](http://www.openolat.org/)
 [[http://www.openolat.org](http://www.openolat.org/) The Website of OpenOlat] | [The website of OpenOlat](http://www.openolat.org/)
 
 External addresses are automatically converted to a link if you provide the full address: [http://www.openolat.org](http://www.openolat.org/). If you want to specify a different term instead of the link, put the URL and the term together in square brackets, separated by a space.

@@ -76,7 +76,7 @@ Syntax | Ergebnis (Formatierung)
 ---|---  
 [[Interner link]] | Interner link
 [[Link `|` Text]] | [Text](Course_Element_Wiki.de.md)
-Externer Link [[http://www.openolat.org](http://www.openolat.org/) | [http://www.openolat.org](http://www.openolat.org/)
+Externer Link [[http://www.openolat.org](http://www.openolat.org/)] | [http://www.openolat.org](http://www.openolat.org/)
 [[http://www.openolat.org](http://www.openolat.org/) Die Website von OpenOlat] | [Die Website von OpenOlat](http://www.openolat.org/)
 
 Externe Adressen werden automatisch in einen Link umgewandelt, wenn Sie die volle Adresse angeben: [https://www.openolat.org](http://www.openolat.org/). Möchten Sie statt des Links einen anderen Begriff angeben, setzen Sie die URL und den Begriff gemeinsam in eckige Klammern, getrennt durch ein Leerzeichen.
