@@ -1,11 +1,11 @@
 
 # Release Notes 20.2
 
-![Release Grafik 20.1](assets/202/press-release-20.2.png)
+![Release Grafik 20.2](assets/202/press-release-20.2.png)
 
 * * *
 
-:material-calendar-month-outline: **Releasedatum: 11.12.2025 • Letztes Update: 26.02.2026**
+:material-calendar-month-outline: **Releasedatum: 11.12.2025 • Letztes Update: 15.04.2026**
 
 * * *
 
@@ -158,6 +158,7 @@ Kurse können neu als **Templates gespeichert, exportiert und erneut verwendet**
 
 ## Weitere Informationen
 
+* [YouTrack Release Notes 20.2.7](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.2.7&title=Release%20Notes%2020.2.7){:target="_blank"}
 * [YouTrack Release Notes 20.2.6](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.2.6&title=Release%20Notes%2020.2.6){:target="_blank"}
 * [YouTrack Release Notes 20.2.5](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.2.5&title=Release%20Notes%2020.2.5){:target="_blank"}
 * [YouTrack Release Notes 20.2.4](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.2.4&title=Release%20Notes%2020.2.4){:target="_blank"}

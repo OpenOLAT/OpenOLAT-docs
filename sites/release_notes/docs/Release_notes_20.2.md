@@ -1,11 +1,11 @@
 
 # Release Notes 20.2
 
-![Release Grafik 20.1](assets/202/press-release-20.2_EN.png)
+![Release Grafik 20.2](assets/202/press-release-20.2.png)
 
 * * *
 
-:material-calendar-month-outline: **Releasedate: 12/11/2025 • Letztes Update: 02/26/2026**
+:material-calendar-month-outline: **Release date: 12/11/2025 • Last update: 15/04/2026**
 
 * * *
 
@@ -29,7 +29,7 @@ The new **Bento dashboard layout** provides a modern, flexible look in Coaching 
 
 **OpenOlat 20.2** thus offers an expanded basis for flexible certification processes, clear control in complex educational structures, and an all-around improved user experience throughout the entire system.
 
-![Anzahl Features und Bugs in Release 20.2](assets/202/Features_Improvements_Labels_20.2_EN.png)
+![Number of features and bugs in release 20.2](assets/202/Features_Improvements_Labels_20.2_EN.png)
 
 As of release 20.1, over 130 new features and improvements have been added to OpenOlat. Here you will find a summary of the most important new features. Additionally, more than 150 bugs have been fixed. The complete list of changes in 20.1.x can be found [here](Release_notes_20.1.md){:target="_blank”}.
 
@@ -158,6 +158,7 @@ Courses can now be **saved as templates, exported, and reused**. Based on these 
 
 ## Further information
 
+* [YouTrack Release Notes 20.2.7](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.2.7&title=Release%20Notes%2020.2.7){:target="_blank"}
 * [YouTrack Release Notes 20.2.6](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.2.6&title=Release%20Notes%2020.2.6){:target="_blank"}
 * [YouTrack Release Notes 20.2.5](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.2.5&title=Release%20Notes%2020.2.5){:target="_blank"}
 * [YouTrack Release Notes 20.2.4](https://track.frentix.com/releaseNotes/OO?q=fix%20version:%2020.2.4&title=Release%20Notes%2020.2.4){:target="_blank"}
