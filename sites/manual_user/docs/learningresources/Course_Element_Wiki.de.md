@@ -64,7 +64,7 @@ Ihre Eingaben können Sie mit der folgenden Wiki-Syntax formatieren.
 
 Syntax | Ergebnis (Formatierung)  
 ---|---
-'''Fetter Text ''' | **Fetter Text**  
+'''Fetter Text''' | **Fetter Text**  
 ''Kursiver Text'' | _Kursiver Text_  
 ==Level 2 Überschrift== | <h2>Level 2 Überschrift</h2>
 * Liste | <li>Liste</li>  
