@@ -1,3 +1,3 @@
 <script>
-window.location.replace("Release_notes_20.2/");
+window.location.replace("Release_notes_20.3/");
 </script>
