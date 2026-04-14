@@ -70,7 +70,7 @@ Die Bearbeitungsmöglichkeiten der Fachbereiche (Taxonomieebenen) umfassen:
 - Löschen von Elementen der Taxonomieebene / Untertaxonomien
 - Erstellen neuer Unterebenen
 
-Unter den 3 Punkte rechts neben dem Button "Neue Taxonomieebene erstellen" finden Sie auch eine Möglichkeit, Taxonomieebenen zu importieren oder alle zu exportieren.
+Unter den 3 Punkten rechts neben dem Button "Neue Taxonomieebene erstellen" finden Sie auch eine Möglichkeit, Taxonomieebenen zu importieren oder alle zu exportieren. Ein Export kann als zip-Archiv heruntergeladen werden. Darin enthalten ist eine Excel-Tabelle mit der hierarchischen Struktur der Taxonomieebenen.
 
 ![catalog20_mgmt_edit_v1_de.png](assets/catalog20_mgmt_edit_v1_de.png){ class="shadow lightbox" }
 
@@ -90,15 +90,16 @@ Unter den 3 Punkte rechts neben dem Button "Neue Taxonomieebene erstellen" finde
 ![catalog20_mgmt_tab_metadata_v1_de.png](assets/catalog20_mgmt_tab_metadata_v1_de.png){ class="shadow lightbox" }
 
 
-**ID:**
+**ID:** Die ID wird automatisch erstellt und ermöglicht die eindeutige Identifikation des Objekts.
 
-**Excterne ID:**
+**Externe ID:** Falls ein externes Verwaltungssystem die Ebenen angelegt hat, wird zusätzlich zur automatisch erstellten ID die externe ID erstellt.
 
-**Kennzeichen:** (Pflichtfeld)
+**Kennzeichen:** (Pflichtfeld) Wählen Sie ein eindeutiges und logisches Kennzeichen
+als Kennung für die Taxonomieebene. Dieses Kennzeichen wird in der Tabelle im Tab "Taxonomie" in der Spalte "Ebenentyp" angezeigt und ist für viele Zwecke praktikabler als der ausführliche Titel (der dafür verständlicher, umgangssprachlicher sein kann).
 
-**Titel:** (Pflichtfeld)
+**Titel:** (Pflichtfeld) Der Titel wird an unterschiedlichen Stellen verwendet (Katalog 2.0, Dokumentenpool, e-Portfolio, Fragenpool). Er sollte die Taxonomieebene kurz und zutreffend beschreiben.
 
-**Beschreibung:**
+**Beschreibung:** Die Eingabe einer etwas ausführlicheren Beschreibung der Ebene ist optional.
 
 [Zum Seitenanfang ^](#catalog_mgmt)
 
@@ -113,21 +114,21 @@ Unter den 3 Punkte rechts neben dem Button "Neue Taxonomieebene erstellen" finde
 ![catalog20_mgmt_tab_leveltype_edit_v1_de.png](assets/catalog20_mgmt_tab_leveltype_edit_v1_de.png){ class="shadow lightbox" }
 
 
-**Identifier:**
+**Identifier:** Zusätzlich zum Titel muss ein Identifier angegeben werden.
 
-**Titel:**
+**Titel:** Formulieren Sie einen zutreffenden Titel zur Beschreibung des Ebenentyps.
 
-**CSS class:**
+**CSS class:** Sofern eine entsprechende CSS class im Theme hinterlegt ist, kann sie hier ausgewählt werden.
 
-**Sichtbar:**
+**Sichtbar:** Hier wird definiert, ob alle Taxonomieebenen dieses Typs sichtbar sein sollen.
 
-**Kompetenzen:** Schalte Taxonomieebenen mit diesem Leveltyp für die Nutzung als Kompetenz frei
+**Kompetenzen:** Benutzer:innen können in der Benutzerverwaltung Kompetenzen zugeteilt werden. Mit Wahl dieser Option werden Taxonomieebenen mit diesem Leveltyp für die Nutzung als Kompetenz freigeschaltet.
 
-**Leistungsnachweise:** Schalte Taxonomieebenen mit diesem Leveltyp für die Gruppierung von Leistungsnachweisen frei
+**Leistungsnachweise:** Mit Wahl dieser Option werden Taxonomieebenen mit diesem Leveltyp für die Gruppierung von Leistungsnachweisen freigeschaltet.
 
-**Beschreibung:**
+**Beschreibung:** Eine ausführlichere Beschreibung des Ebenentyps ist optional.
 
-**Untertypen:**
+**Untertypen:** Aus den bereits bestehenden Ebenentypen kann ein Untertyp ausgewählt werden. So ist es möglich, eine hierarchische Struktur zu schaffen. Sie wird dann beim Erstellen der Taxonomieebenen sichtbar.
 
 
 [Zum Seitenanfang ^](#catalog_mgmt)
