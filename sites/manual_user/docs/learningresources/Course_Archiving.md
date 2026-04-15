@@ -103,9 +103,10 @@ Storage of *old* OpenOlat questionnaires. Generally no longer relevant, as the q
 
 ### Tests
 
-All [tests](../learningresources/Course_Element_Test.md) and [self-tests](../learningresources/Course_Element_Self_Test.md) of the course are displayed. The desired elements to be archived can be selected and saved as a zip file. The individual selected tests are then stored in a separate folder in the zip file.
+All [tests](../learningresources/Course_Element_Test.md) of the course are displayed. The desired elements to be archived can be selected and saved as a zip file. The individual selected tests are then stored in a separate folder in the zip file.
 
-Archived self-tests contain anonymized user data, tests are saved on a personalized basis and contain all test results.
+Archived tests are saved on a personalized basis and contain all test results.
+
 
 !!! hint "Note"
 

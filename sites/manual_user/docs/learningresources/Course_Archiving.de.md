@@ -102,9 +102,10 @@ Speicherung der *alten* OpenOlat Fragebögen. In der Regel nicht mehr relevant, 
 
 ### Tests
 
-Es werden alle [Tests](../learningresources/Course_Element_Test.de.md) und [Selbsttests](../learningresources/Course_Element_Self_Test.de.md) des Kurses angezeigt. Die gewünschten zu archivierenden Elemente können ausgewählt und als Zip-Datei gespeichert werden. In der Zip-Datei liegen dann die einzelnen ausgewählten Tests in jeweils einem extra Ordner.
+Es werden alle [Tests](../learningresources/Course_Element_Test.de.md) des Kurses angezeigt. Die gewünschten zu archivierenden Elemente können ausgewählt und als Zip-Datei gespeichert werden. In der Zip-Datei liegen dann die einzelnen ausgewählten Tests in jeweils einem extra Ordner.
 
-Archivierte Selbsttests enthalten anonymisierte Benutzerdaten, Tests werden personalisiert gespeichert und enthalten alle Testergebnisse.
+Archivierte Tests werden personalisiert gespeichert und enthalten alle Testergebnisse.
+
 
 !!! note "Hinweis"
 
