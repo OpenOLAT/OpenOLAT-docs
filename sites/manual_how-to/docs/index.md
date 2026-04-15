@@ -48,6 +48,7 @@
 5. [How do I prepare an exam with the Safe Exam Browser?](/manual_how-to/SEB/SEB)
 6. [How do I assess a test?](/manual_how-to/assessing_tests/assessing_tests)
 7. [How do I exchange a test?](/manual_how-to/exchange_tests/exchange_tests)
+8. [How do I record an oral exam in OpenOlat?](/manual_how-to/oral_exam/oral_exam)
 
 ## Making successes and achievements visible
 1. [How do I make successes and achievements visible??](/manual_how-to/achievements/achievements)

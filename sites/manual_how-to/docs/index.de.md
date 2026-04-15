@@ -47,6 +47,7 @@
 5. [Wie bereite ich eine Prüfung mit dem Safe Exam Browser vor?](/de/manual_how-to/SEB/SEB)
 6. [Wie bewerte ich einen Test?](/de/manual_how-to/assessing_tests/assessing_tests)
 7. [Wie wechsle ich einen Test aus?](/de/manual_how-to/exchange_tests/exchange_tests)
+8. [Wie protokolliere ich eine mündliche Prüfung in OpenOlat?](/de/manual_how-to/oral_exam/oral_exam)
 
 ## Erfolge und Leistungen sichtbar machen
 1. [Wie mache ich Erfolge und Leistungen sichtbar?](/de/manual_how-to/achievements/achievements)
