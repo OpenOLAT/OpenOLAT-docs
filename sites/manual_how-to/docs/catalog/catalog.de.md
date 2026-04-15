@@ -175,6 +175,32 @@ In einem Launcher werden (vom Administrator so festgelegt) nur Angebote angezeig
 
 ---
 
+
+## Checkliste {: #checklist}
+
+- [x] Sind interner und/oder externer Katalog generell vom Administrator instanzweit aktiviert?
+- [x] Wurden Launcher eingerichtet, in denen Angebote gezeigt werden?
+- [x] Wurden in den Kursen jeweils mindestens 1 Angebot erstellt?
+- [x] Wurden den Kursen Taxonomiebegriffe zugeordnet?
+- [x] Werden die Kurse im richtigen Launcher angezeigt?
+- [x] Sind die Kurse für den Katalog bereits im Status "Veröffentlicht"?
+- [x] Sollen manchen Kurse vorerst bewusst noch im Status "Vorbereitung" bleiben?
+- [x] Wurde die Reihenfolge der Launcher im Katalog korrekt festgelegt?
+- [x] Wurden für die Kurse Durchführungszeiträume festgelegt?
+- [x] Sollen die Angbote jeweils in beiden Katalogen (intern und extern) angezeigt werden?
+- [x] Ist in den Angeboten festgelegt, dass sie nur für Mitglieder bestimmter Organisationseinheiten sichtbar sein sollen?
+- [x] Wurde die Anzeige im Katalog mit verschiedenen Rollen (z.B. Zugehörigkeit zu einer bestimmten Organisationseinheit) geprüft?
+- [x] Sollen Angebote nur während einem bestimmten Zeitraum im Katalog sichtbar sein?
+- [x] Wurde in allen Kursen, die im Katalog angezeigt werden sollen, die Freigabe in den Kurseinstellungen auf "buchbar" gesetzt?
+- [x] Sollen im Katalog auch Durchführungen aus dem Course Planner angeboten werden?
+- [x] Sind bereits Kurse in den Durchführungen eingebunden? (Durchführungen können zunächst auch ohne eingebundenen Kurs angeboten werden.)
+- [x] Sollen manche Kurse im Katalog kostenpflichtig angeboten werden? Ist ggf. das Zahlungsmodul aktiviert?
+
+
+[zum Seitenanfang ^](#catalog)
+
+---
+
 ## Weitere Informationen {: #further_information}
 
 [Übersicht zum Katalog V2 >](../../manual_user/area_modules/catalog2.0.de.md)<br>
