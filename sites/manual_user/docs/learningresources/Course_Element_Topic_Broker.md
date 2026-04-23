@@ -96,7 +96,7 @@ Both are mandatory fields.
 This defines how many subjects a participant will ultimately be enrolled in, regardless of the number of his/her priorities. This information is binding.
 
 ![3_green_24.png](assets/3_green_24.png) **Participant can ...**<br>
-If necessary, participants can also **reduce** the specified number of registrations themselves, e.g. if they do not want to work on multiple topics. 
+If necessary, participants can also **reduce** the specified number of registrations from ![2_green_24.png](assets/2_green_24.png) themselves, e.g. if they do not want to work on multiple topics. 
 
 ![4_green_24.png](assets/4_green_24.png)
 Participants may also be allowed to **withdraw** their registrations if allocation and registration have taken place after the selection period has expired. If this option is checked, a date can be entered by which a registration can be withdrawn.<br>
@@ -105,7 +105,8 @@ Participants may also be allowed to **withdraw** their registrations if allocati
 Currently, only the ["Fair Selection"] method is available. There are plans to add further selection methods in the future. 
 
 ![6_green_24.png](assets/6_green_24.png) **Enrolment after the deadline**<br>
-In general, election topics can also be assigned an implementation period. If this is the case, it may be important to avoid overlaps in the election schedule. By checking the box, you can avoid overlaps in the registration process.
+In general, election issues can also be assigned a timeframe. If this is the case, it may be important to avoid scheduling conflicts during the election. For example, when topics are linked to an in-person session. When assigning topics, a person must not be assigned any overlapping topics (=sessions).<br>
+Checking the box prevents overlapping during the registration process and ensures that the implementation period is taken into account by the algorithm. 
 
 ![7_green_24.png](assets/7_green_24.png) **Withdraw deadline**<br>
 There are basically two ways to trigger the distribution of participants after the registration deadline has expired: either manually by the course administrators (see below) or automatically by the system after the end of the selection period.
@@ -174,7 +175,7 @@ In the example below, the lower section also contains a field that was added in 
 ### Export/Import topics and data {: #topic_broker_export_import_topics}
 
 **Export topics**<br>
-To export the topics, select the relevant course element in the course editor, then the **Tab "Topics"** and there the **Button “Export data"**.<br>
+To export the topics, select the relevant course element in the course editor, then the **Tab "Topics"** and there the **Button "Export data"**.<br>
 The button is also available after leaving the course editor in run mode (header not hatched).
 
 When exporting, a zip file is created that contains an Excel file (with all topics) and the associated media files. The Participants’ tab in the Excel file shows which participants are registered for this topic.
@@ -190,7 +191,7 @@ You can import topics that have been exported from another course element "Topic
 - all associated media files,
 - as well as the necessary information for assigning the media files to the correct topics.
 
-To import the themes, select **“Import themes"** after you have clicked on the small arrow next to the ”Add theme" button.
+To import the themes, select **"Import themes"** after you have clicked on the small arrow next to the "Add theme" button.
 
 ![course_element_topic_broker_topics_v1_de.png](assets/course_element_topic_broker_topics_v1_de.png){ class="shadow lightbox" }
 
@@ -217,7 +218,7 @@ The media files must be assigned to the correct topic during import. The informa
 
 ### Capture topics {: #topic_broker_coaching_capture_topics}
 
-The selectable topics may have already been added and described by course owners (in the "Topics" tab in the course editor). Alternatively, this can also be done by **course tutors**. As a coach, select the course element and the "Topics" tab. The topics can be newly created here or imported from an Excel spreadsheet. (You will also find an Excel template for download under the "Import topics" selection option).
+The selectable topics may have already been added and described by course owners (in the "Topics" tab in the course editor). Alternatively, this can also be done by **course coaches**. As a coach, select the course element and the "Topics" tab. The topics can be newly created here or imported from an Excel spreadsheet. (You will also find an Excel template for download under the "Import topics" selection option).
 
 ![course_element_topic_broker_topics_coach_v1_de.png](assets/course_element_topic_broker_topics_coach_v1_de.png){ class="shadow lightbox" }
 
@@ -243,7 +244,7 @@ In the "Participants" tab, coaches can see who has already submitted their topic
 [To the top of the page ^](#topic_broker)
 
 
-### Topic assignment (final enrollment pending) {: #topic_broker_coaching_topic_assignment}
+### Topic assignment (final enrolment pending) {: #topic_broker_coaching_topic_assignment}
 
 The process proceeds in the following steps
 
@@ -279,11 +280,11 @@ After an automatic assignment, an e-mail is always sent to all course participan
 
 If the course owner has selected the "manual" option in the "Configuration" tab in the course editor, the execution of the assignment algorithm must be started by a course administrator.
 
-The time when they trigger enrolment is not fixed.
+There is no set time when you must initiate enrolment. During the assignment process, the course module still has the status "Final enrolment pending".
 
 ![course_element_topic_broker_enrollment_start_v1_de.png](assets/course_element_topic_broker_enrollment_start_v1_de.png){ class="shadow lightbox" }
 
-If the assignment algorithm is triggered manually, **several runs** can be made. The results differ because the algorithm also contains a random factor. They are listed in a dropdown and coaches can select a run to be used for the final enrolment.
+When the assignment algorithm is triggered manually, **multiple runs** can be performed. The results differ from one another because the algorithm includes a random component. They are listed in a dropdown menu, and advisors can select a run from this list to be used for final enrollment.
 
 ![course_element_topic_broker_choose_a_run_v1_de.png](assets/course_element_topic_broker_choose_a_run_v1_de.png){ class="shadow lightbox" }
 
@@ -302,6 +303,27 @@ In the case of manual kick-off, you can also specify that the participants are s
 
 [Up (Course owner perspective) ^](#topic_broker_coaching)<br>
 [To the top of the page ^](#topic_broker)
+
+
+### Optimierung durch Strategieanpassung {: #topic_broker_adapt_strategy}
+
+Die Vergabe der Themen kann nach verschiedenen Strategien vorgenommen werden. Sie können selbst eine Strategie wählen. Verwenden Sie dazu den Link "Strategie anpassen" am rechten Rand bei den Angaben zur Optimierungsstratgie.
+
+![course_element_topic_broker_strategy1_v1_de.png](assets/course_element_topic_broker_strategy1_v1_de.png){ class="shadow lightbox" }
+
+Es stehen dann folgende Strategien zur Auswahl:
+
+* Maximale Anzahl Einschreibungen (Hohe Einschreibequote bei minimaler Warteliste)
+* Maximale Prioritätsberücksichtigung (Hoher Grad an Erfüllung der Prioritäten der Teilnehmer:innen)
+* Maximale Themenanzahl (Hohe Themenquote durch ausreichende Teilnehmeranzahl)
+* Individuell (Definieren Sie Ihre eigene Gewichtung und Feineinstellung für die Prioritäten)
+
+![course_element_topic_broker_strategy2_v1_de.png](assets/course_element_topic_broker_strategy2_v1_de.png){ class="shadow lightbox" }
+
+![course_element_topic_broker_strategy3_v1_de.png](assets/course_element_topic_broker_strategy3_v1_de.png){ class="shadow lightbox" }
+
+[nach oben (Perspektive Kursbetreuer:in) ^](#topic_broker_coaching)<br>
+[zum Seitenanfang ^](#topic_broker)
 
 
 ### Influence topic assignment {: #topic_broker_boost}

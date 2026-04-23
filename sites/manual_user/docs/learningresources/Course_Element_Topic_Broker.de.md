@@ -191,7 +191,7 @@ Importiert werden können Themen, die aus einem anderen Kursbaustein "Themenbör
 - alle zugehörigen Mediendateien,
 - sowie die nötigen Informationen zur Zuordnung den Mediendateien zu den richtigen Themen.
 
-Zum Import der Themen wählen Sie **"Themen importieren**, nachdem Sie auf den kleinen Pfeil neben dem Button "Thema hinzufügen" geklickt haben.
+Zum Import der Themen wählen Sie **"Themen importieren"**, nachdem Sie auf den kleinen Pfeil neben dem Button "Thema hinzufügen" geklickt haben.
 
 ![course_element_topic_broker_topics_v1_de.png](assets/course_element_topic_broker_topics_v1_de.png){ class="shadow lightbox" }
 

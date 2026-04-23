@@ -43,13 +43,13 @@ Widgets have been enhanced and standardized: They can be freely arranged and sho
 
 In the Course Planner, the new **Overview Widget** displays active implementations directly on the start page. Key metrics, status, and the number of entries displayed can be flexibly configured.
 
-![Dashboard Widget Configuration](assets/203/Dashboard_widget_config_DE.png){ class="shadow lightbox" title="Dashboard: Custom Widget Configuration" }
+![Dashboard Widget Configuration](assets/203/Dashboard_widget_config.png){ class="shadow lightbox" title="Dashboard: Custom Widget Configuration" }
 
 ### Event Widget (Coaching Tool)
 
 The new **Event Widget** clearly displays upcoming dates—with direct links to the respective events. Key metrics and default settings in the Course Widget have been revised.
 
-![Coaching Tool Event Widget](assets/203/CoachingTool_event_widget_DE.png){ class="shadow lightbox" title="Coaching Tool: Event Widget" }
+![Coaching Tool Event Widget](assets/203/CoachingTool_event_widget.png){ class="shadow lightbox" title="Coaching Tool: Event Widget" }
 
 ### Calendar Widget
 
@@ -57,7 +57,7 @@ The **Calendar Widget** in the Coaching Tool (new) and Course Planner provides a
 
 Color coding helps you quickly identify events: Orange marks currently ongoing appointments, while blue highlights the next upcoming appointment. This allows you to identify priorities at a glance and plan appointments efficiently.
 
-![Coaching Tool Event Widget](assets/203/CoachingTool_kalender_widget_DE.png){ class="shadow lightbox" title="Coaching Tool: Calendar Widget" }
+![Coaching Tool Event Widget](assets/203/CoachingTool_kalender_widget.png){ class="shadow lightbox" title="Coaching Tool: Calendar Widget" }
 
 * * *
 
@@ -73,7 +73,7 @@ Images are directly integrated into the Media Center, where a duplicate check pr
     
     Markdown is a widely used text format that is supported by many tools and AI applications, enabling the seamless import and reuse of existing content without the need for additional formatting. At the same time, it promotes a clear structure and facilitates the ongoing development of learning content.
 
-![Content Editor Markdown Import](assets/203/ContentEditor_markdown_import_DE.png){ class="shadow lightbox" title="Content Editor: Markdown Import" }
+![Content Editor Markdown Import](assets/203/ContentEditor_markdown_import.png){ class="shadow lightbox" title="Content Editor: Markdown Import" }
 
 ### Support for SVG Graphics
 
@@ -109,7 +109,7 @@ With the **Master Import**, the Course Planner offers a central feature for effi
 
 **Typical use cases:** Efficiently create new implementations with dates and participants, add additional dates to existing implementations later, or add additional memberships.
 
-![CPL Master Import](assets/203/CPL_master_import_DE.png){ class="shadow lightbox" title="Course Planner: Master Import" }
+![CPL Master Import](assets/203/CPL_master_import.png){ class="shadow lightbox" title="Course Planner: Master Import" }
 
 * * *
 
@@ -133,7 +133,7 @@ The new **Activity Log** centrally records all relevant activities in the Certif
 
 OpenOlat 20.3 specifically improves the discoverability of public course pages and information pages. When sharing links on social media and messaging services, attractive previews with a title, description, and image are automatically displayed. At the same time, the presentation has been optimized for search engines, and keywords can be defined individually for each page or learning resource.
 
-![SEO Settings](assets/203/SEO_settings_DE.png){ class="shadow lightbox" title="SEO: Open Graph and Metadata Configuration" }
+![SEO Settings](assets/203/SEO_settings.png){ class="shadow lightbox" title="SEO: Open Graph and Metadata Configuration" }
 
 * * *
 
