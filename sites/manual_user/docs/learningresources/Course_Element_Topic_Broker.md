@@ -81,10 +81,14 @@ In the "Configuration" tab, the framework conditions for the choice of subject a
 **Selection period**<br>
 The selection period is the time frame within which participants must submit their topic requests. Registration will be triggered at the end of the selection period.
 
+!!! hint "Note"
+
+    Course owners can still change the selection period even after enrollments have been processed. In this case, the status will change back to "Selection in progress". Registrations that have already been submitted will remain unchanged, but participants can now edit them again. 
+
 **Selection/Priorities per participant**<br>
 If participants have specified several topics, they can mark a selection as their priority/preferred choice. In this field, you specify the maximum number of topics that can be specified as preferred topics.
 
-Both are mandatory fields
+Both are mandatory fields.
 
 #### Enrolment
 

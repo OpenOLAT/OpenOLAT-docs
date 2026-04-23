@@ -89,7 +89,7 @@ Der Auswahlzeitraum ist das Zeitfenster, innerhalb dessen die Teilnehmer:innen i
 **Auswahl/Prioritäten pro Teilnehmer:in**<br>
 Wenn die Teilnehmer:innen mehrere Themen angegeben haben, können sie eine Auswahl als ihre Priorität/bevorzugter Wunsch markieren. In diesem Feld geben Sie an, wie viele Themen maximal als bevorzugtes Wunschthema angegeben werden können.
 
-Beides sind Pflichtfelder
+Beides sind Pflichtfelder.
 
 #### Einschreibung
 

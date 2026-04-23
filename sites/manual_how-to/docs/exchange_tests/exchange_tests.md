@@ -84,7 +84,7 @@ Even if only one person has "clicked through" the test "just to try it out", the
 
 In such cases, the data can simply be reset so that the test learning resource is once again considered "unused" and can be replaced without any loss of data.
 To do this, use the **Reset Data** button. You can select the test course module directly or in the grading tool:
-**(Assessment Tool >) Select course element Test > Participants tab > Select participants > "Reset All Data" button**
+**(Assessment Tool >) Select course element Test > Participants tab > Select participants > "Reset all data" button**
 
 Course owners can also reset only specific tests for certain individuals. 
 

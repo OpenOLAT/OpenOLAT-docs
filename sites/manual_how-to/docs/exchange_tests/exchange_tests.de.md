@@ -63,7 +63,7 @@ Bevor Sie den Test austauschen, sollten Sie sich im **Bewertungswerkzeug** einen
 1. Öffnen Sie das Bewertungswerkzeug über **Administration > Bewertungswerkzeug**.
 2. Wählen Sie in der linken Seitenleiste den **Test-Kursbaustein**, dessen Test Sie austauschen möchten.
 3. Wählen Sie den Button **Teilnehmer:innen**.
-4. Prüfen Sie in der Tabelle, ob und wie viele Teilnehmer:innen den Test bereits gestartet oder abgeschlossen haben (Spalten **„Versuche"** und **„Status"**).
+4. Prüfen Sie in der Tabelle, ob und wie viele Teilnehmer:innen den Test bereits gestartet oder abgeschlossen haben (Spalten **"Versuche"** und **"Status"**).
 
 ![exchange_tests_check_data_v1_de.png](assets/exchange_tests_check_data_v1_de.png){ class="shadow lightbox" }
 
