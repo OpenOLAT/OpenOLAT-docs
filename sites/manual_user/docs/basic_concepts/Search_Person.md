@@ -20,7 +20,11 @@ The search form contains the corresponding fields with which the search can be n
 
 ## People search in the coaching tool {: #coachingtool}
 
-The coaching tool is used for cross-course support of participants. For many courses and participants, a person search, which only searches within the group of people you support, helps.
+If your job involves managing the users of the OpenOlat instance, you will need the **User Administrator** role. This role grants you access to user management and allows you to view and edit the data of all users.
+
+To efficiently find a specific user, there is an account search feature that allows you to search for people based on very specific criteria.
+
+A [bulk search](Search_General.md#bulk-search--bulk_search) is also available.
 
 ![search_person_in_coachingtool_v1_de.png](assets/search_person_in_coachingtool_v1_de.png){ class="shadow lightbox"}
 
@@ -28,7 +32,33 @@ The coaching tool is used for cross-course support of participants. For many cou
 
 ---
 
-## Further information
+
+## Search for people in the Coaching Tool {: #coachingtool}
+
+The [Coaching Tool](../area_modules/Coaching.md) is designed to support participants across courses. When dealing with many courses and participants, a [user search](../area_modules/Coaching_User_Search.md) that searches only within the group of people you are responsible for can be helpful.
+
+![search_person_in_coachingtool_v1_de.png](assets/search_person_in_coachingtool_v1_de.png){ class="shadow lightbox"}
+
+[To the top of the page ^](#search_person)
+
+---
+
+
+## Finding people in a course {: #course}
+
+As a **tutor**, when you click on a course module that can be graded, you won't immediately see the module's content; instead, you'll see tabs related to your duties as a tutor. In the **Participant tab**, you can select a specific person and track their progress and results in this course module.<br>
+Various filter options are available to you. You can also enter a specific name in the search field.
+
+**Example:**<br>
+Course members who do not have access to the selected course module (because they have been excluded) will appear in a separate preselection list titled "Excluded", but not under "Relevant".
+
+![search_person_in_course_v1_de.png](assets/search_person_in_course_v1_de.png){ class="shadow lightbox"}
+
+[To the top of the page ^](#search_person)
+
+---
+
+## Further information {: #further_information}
 
 [General things about the search >](Search_General.md)<br>
 [Local search >](Search_Local.md)<br>

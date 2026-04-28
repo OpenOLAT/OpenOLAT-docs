@@ -14,7 +14,7 @@ Spezialität / Hinweis |
 
 Nutzen Sie den Kursbaustein "CP-Lerninhalt", um einen Lerninhalt im IMS-CP-Format (IMS-CP Version 1.1.2) in Ihren Kurs einzubinden. Das CP können Sie entweder direkt in OpenOlat erstellen, was im Kapitel "[Wie erstelle ich ein Content Package?](../../manual_how-to/content_package/content_package.de.md)" erklärt wird. Oder Sie erstellen das CP extern.
 
-## Tab Lerninhalt
+## Tab Lerninhalt {: #tab_learning_content}
 
 Im Kurseditor wird der Kursbaustein "CP-Lerninhalt" als einzelner Kursbaustein angezeigt, dessen Inhalt (das Content Package) erstellt, bearbeitet oder ausgetauscht werden kann.
 

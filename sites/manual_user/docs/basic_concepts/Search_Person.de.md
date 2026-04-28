@@ -59,7 +59,7 @@ Kursmitglieder, die auf den gewählten Kursbaustein keinen Zugriff haben (weil s
 ---
 
 
-## Weitere Informationen
+## Weitere Informationen {: #further_information}
 
 [Allgemeines zur Suche >](Search_General.de.md)<br>
 [Globale Suche >](Search_Global.de.md)<br>

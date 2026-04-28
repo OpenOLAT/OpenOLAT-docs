@@ -274,7 +274,7 @@ Jeder neu erstellte Generator ist zunächst noch ausgeschaltet. So kann er in Ru
 
 !!! note "Hinweis"
 
-    Ein Editieren eines Generators ist nur möglich, wenn der Generator ausgeschaltet ist.
+    Das Editieren eines Generators ist nur möglich, wenn der Generator ausgeschaltet ist.
 
 [Zum Seitenanfang ^](#Quality_Management_Data_Collection_Generators)
 

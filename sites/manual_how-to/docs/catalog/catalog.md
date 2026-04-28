@@ -81,7 +81,7 @@ Not all existing courses and learning resources are automatically listed in the 
 
 <b>The author must for this purpose
 
-a) **release** the course for the catalog and
+a) **Share** the course to the catalog and
 
 b) create an [offer](../../manual_user/learningresources/Access_configuration.md) that promotes the course or learning resource in the catalog.
 
@@ -130,10 +130,15 @@ You can create multiple offers. For example, you can make one course freely avai
 ![offer_access_code_v1_en.png](assets/offer_access_code_v1_en.png){ class="shadow lightbox" }
 ![offers_v1_en.png](assets/offers_v1_en.png){ class="shadow lightbox" }
 
+!!! tip "Note"
+
+    The offers can be booked in the catalog as soon as their status is set to "Published".
+
 
 [To the top of the page ^](#catalog)
 
 ---
+
 
 ## The catalog structure {: #catalog_structure}
 
@@ -171,6 +176,33 @@ In a launcher, only offers that contain a specific taxonomy keyword are displaye
 [To the top of the page ^](#catalog)
 
 ---
+
+
+## Checklist {: #checklist}
+
+- [x] Are internal and/or external catalogs generally enabled system-wide by the administrator?
+- [x] Have launchers been set up to display offers?
+- [x] Was at least one bid submitted for each course?
+- [x] Have taxonomy terms been assigned to the courses?
+- [x] Are the courses displayed in the correct launcher?
+- [x] Do the courses already have the status "Published" in the catalog?
+- [x] Should some courses remain in "Preparation" status for the time being?
+- [x] Has the order of the launchers been set correctly in the catalog?
+- [x] Have specific time periods been set for the courses?
+- [x] Should the listings be displayed in both catalogs (internal and external)?
+- [x] Do the listings specify that they should only be visible to members of certain organizational units?
+- [x] Was the entry in the catalog checked using different roles (e.g., membership in a specific organizational unit)?
+- [x] Should offers only be visible in the catalog during a specific time period?
+- [x] Has the "Bookable" option been selected in the course settings for all courses that are to be displayed in the catalog?
+- [x] Should the catalog also include routes from the Course Planner?
+- [x] Are courses already included in the program? (Sessions can initially be offered even without a linked course.)
+- [x] Should some courses in the catalog be offered for a fee? If so, is the payment module enabled?
+
+
+[To the top of the page ^](#catalog)
+
+---
+
 
 
 ## Further information {: #further_information}

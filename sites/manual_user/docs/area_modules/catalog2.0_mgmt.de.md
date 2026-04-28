@@ -50,7 +50,7 @@ Administration > Module > Taxonomie > Klick auf "anzeigen/bearbeiten" in einer T
 Durch Benutzerverwalter:innen:<br>
 Benutzerverwaltung > Wahl einer Person > Tab Kompetenzen > Button "Kompetenz 'Verwalten' hinzufügen"
 
-Sobald die Kompetenz erteilt wurde erscheint für diese Person der Link „Katalog-Verwaltung“ rechts oben unter dem Katalog-Header.
+Sobald die Kompetenz erteilt wurde erscheint für diese Person der Link "Katalog-Verwaltung" rechts oben unter dem Katalog-Header.
 
 !!! hint "Hinweis"
 
@@ -94,8 +94,7 @@ Unter den 3 Punkten rechts neben dem Button "Neue Taxonomieebene erstellen" find
 
 **Externe ID:** Falls ein externes Verwaltungssystem die Ebenen angelegt hat, wird zusätzlich zur automatisch erstellten ID die externe ID erstellt.
 
-**Kennzeichen:** (Pflichtfeld) Wählen Sie ein eindeutiges und logisches Kennzeichen
-als Kennung für die Taxonomieebene. Dieses Kennzeichen wird in der Tabelle im Tab "Taxonomie" in der Spalte "Ebenentyp" angezeigt und ist für viele Zwecke praktikabler als der ausführliche Titel (der dafür verständlicher, umgangssprachlicher sein kann).
+**Kennzeichen:** (Pflichtfeld) Wählen Sie ein eindeutiges und logisches Kennzeichen als Kennung für die Taxonomieebene. Dieses Kennzeichen wird in der Tabelle im Tab "Taxonomie" in der Spalte "Ebenentyp" angezeigt und ist für viele Zwecke praktikabler als der ausführliche Titel (der dafür verständlicher, umgangssprachlicher sein kann).
 
 **Titel:** (Pflichtfeld) Der Titel wird an unterschiedlichen Stellen verwendet (Katalog 2.0, Dokumentenpool, e-Portfolio, Fragenpool). Er sollte die Taxonomieebene kurz und zutreffend beschreiben.
 

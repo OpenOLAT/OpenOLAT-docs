@@ -78,7 +78,7 @@ Angaben, die im Katalog-Layout nicht vorgesehen sind, können also beim Katalog 
 
 Es werden nicht automatisch alle vorhandenen Kurse und Lernressourcen im Katalog aufgeführt. Ob ein Katalogeintrag erzeugt wird, entscheidet die Autorin oder der Autor des Kurses.
 
-Die Autorin / der Autor  muss dazu
+Die Autorin / der Autor muss dazu
 
 a) den Kurs für den Katalog **frei geben** und
 
@@ -138,6 +138,7 @@ Sie können mehrere Angebote erstellen. Sie können z.B. für eine bestimmte Org
 
 ---
 
+
 ## Der Katalogaufbau {: #catalog_structure}
 
 Die Gestaltung des Katalogs wird einerseits durch die Angebote der Autor:innen bestimmt und andererseits durch die Vorgaben der Administratorin / des Administrators.
@@ -178,7 +179,7 @@ In einem Launcher werden (vom Administrator so festgelegt) nur Angebote angezeig
 
 ## Checkliste {: #checklist}
 
-- [x] Sind interner und/oder externer Katalog generell vom Administrator instanzweit aktiviert?
+- [x] Sind interner und/oder externer Katalog generell vom Administrator instanzenweit aktiviert?
 - [x] Wurden Launcher eingerichtet, in denen Angebote gezeigt werden?
 - [x] Wurden in den Kursen jeweils mindestens 1 Angebot erstellt?
 - [x] Wurden den Kursen Taxonomiebegriffe zugeordnet?
