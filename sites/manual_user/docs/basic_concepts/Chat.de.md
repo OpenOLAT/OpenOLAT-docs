@@ -58,5 +58,5 @@ Im Tab "Instant-Messaging" der persönlichen Einstellungen können Sie festlegen
  **Nach dem Einloggen ist mein Status:**
 Hier können Sie zwischen drei Einstellungen wählen, die zukünftig jeweils nach dem Login aktiv sein sollen. Wenn Sie Ihren momentanen Status ändern wollen, können Sie dies über das runde Status-Symbol rechts oben tun. Beim nächsten Login ist dann wieder der Status aktiv, den Sie hier festgelegt haben.
 
-## Chat-Protokolle {: #chat_history}
+## Chat-Protokolle {: #chat_logs}
 Um Chat-Protokolle einzusehen, öffnen Sie das Chatfenster des gewünschten Chat-Partners. Wählen Sie dann oben den Zeitraum des Protokolls aus. Sie können sich das Chatprotokoll des letzten Tages, der letzten Woche oder des letzten Monats anzeigen lassen.

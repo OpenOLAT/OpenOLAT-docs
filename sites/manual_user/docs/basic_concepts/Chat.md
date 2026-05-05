@@ -1,4 +1,4 @@
-# Chat
+# Chat {: #chat}
 
 ![Chat icon](assets/chat_icon.png)
 
@@ -6,7 +6,7 @@ Instant Messaging (IM) allows the exchange of messages with persons in real time
 
 ![Group chat window](assets/chat_group.gif)
 
-## Messaging Status
+## Messaging Status {: #status}
 
 ![Icon "Available"](assets/available.png)
 Available: Select this status to receive chat messages immediately. You are signaling that you are open for discussion.
@@ -24,7 +24,7 @@ By clicking on the round symbol you can change your Instant Messaging status. Th
 
 If you basically want to have a status other than "Available" after logging in, you can change this in the personal menu → Settings → Instant Messaging (see "Personal Settings" below).
 
-## Sending Messages
+## Sending Messages {: #send}
 By clicking on the two digits (xx/xx) on the top right of the menu bar next to the Instant Messaging status symbol (e.g. green dot) a list will pop up. There you will see all members of your groups logged on at that time. To start a chat you just have to click on the name of the one you would like to chat with. By selecting a name a new chat window will be opened. You can also send messages to offline users. After the next login, the respective user will receive your message as they will appear as a small envelope to the left of the chat icon.
 
 You will not see the two digits though if the direct chat with group peers has been disabled by a system administrator. Completing the following steps, you will still be able to send messages to other users. Search for the user either via the OpenOlat search or in your personal menu in the menu item "Other users". A click on the name opens the visiting card of this user. Below the profile image you will find a link to contact that user via chat. If that specific user has disabled the chat in his settings though, there will be no contact link available.
@@ -33,19 +33,19 @@ Of course, this approach also works with the enabled chat in order to contact Op
 
 Popular emoticons such as smiling, winking, cool, suprised or kissing are supported, as well as thumbs up ( + ) and thumbs down ( - )
 
-## Receiving messages
+## Receiving messages {: #receive}
 Messages can be received in two ways: In case your Instant Message status is "Available" a chat window will open upon receiving a new message. If your status is "Please do not disturb" or "Not available", messages will appear as a small envelope on the left next to the chat icon that can be found on the top right of the menu bar.
 
 When clicking on that small letter a chat window will open containing your message. In case the chat window is already open, all new messages will be displayed there.
 
 In case you receive a message while being offline, the message will be stored. The next time you log on, it will appear as small blinking letter next to the chat icon.
 
-## Manage group list contacts
+## Manage group list contacts {: #group_list}
 Contacts can be added or removed via the OpenOlat groups. Provided that you are the coach of a group you can invite or disinvite coaches or participants to your group. These persons will then appear on your group list of the OpenOlat chat if the group members display setting is properly configured. Group coaches are displayed in the contact list in bold font.
 
 How the members display settings can be modified is described in the [group administration](../groups/Group_Administration.md).
 
-## Join a group/course chat
+## Join a group/course chat {: #join_group}
 Links to chat rooms are found at different places in OpenOlat (e.g. group/course). Click on the link _Start chat_. A new window will be opened and you can start your group/course chat. If a chat history is available you can display it to learn what the discussion is about and what has already been said. Messages to a chat room are sent to all persons in that room. A list of all participants will be displayed next to your chat window. If you want to participate anonymously you can select a nick name. Chat participants will then not see your real identity. This option must be enabled by the system amdinistrator. It might not be available on your system. If you want to exit the chat room, just close that window.
 
 ## Personal Settings {: #settings}
@@ -54,5 +54,5 @@ In the tab "Instant Messaging" you can specify whether other users should be abl
  **Default status after login:**
 Here you can choose between 3 settings to be activated after your next login. If you want to change your current status you can do this by means of the status symbol in the top right corner. The status selected here will be reactivated upon your next login.
 
-## Chat logs
+## Chat logs {: #chat_logs}
 To view chat logs, open the chat window of the desired chat partner. In the top half of the window, select the time period for the protocol. You can view the chat transcript of the last day, the last week or last month.
