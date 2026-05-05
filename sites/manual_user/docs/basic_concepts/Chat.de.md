@@ -1,4 +1,4 @@
-# Chat
+# Chat {: #chat}
 
 ![Chat icon](assets/chat_icon.png)
 
@@ -9,7 +9,7 @@ Instant-Messaging (IM) erlaubt den Austausch von Nachrichten mit Personen in Ech
 
 ![Gruppenchat-Fenster](assets/chat_group_DE.gif)
 
-## Messaging Status
+## Messaging Status {: #status}
 Unterschieden wird zwischen:
 
 ![Icon "Verfügbar"](assets/available.png)
@@ -25,7 +25,7 @@ Durch einen Klick auf das runde Symbol können Sie Ihren Instant-Messaging- Stat
 
 Wenn Sie grundsätzlich nach dem Einloggen einen anderen Status als "Verfügbar" haben möchten, können Sie dies im persönlichen Menü → Einstellungen → Instant- Messaging ändern (siehe unten "Persönliche Chat Einstellungen").
 
-## Nachrichten senden
+## Nachrichten senden {: #send}
 Durch einen Klick auf die zwei Ziffern (xx/xx) oben rechts in der Menuzeile
 neben dem Instant-Messaging-Status-Symbol (z.B. grüner Punkt) öffnet sich eine Liste. Dort werden alle zurzeit eingeloggten Mitglieder Ihrer Gruppen angezeigt. Um den Chat zu starten, klicken Sie auf den Namen des gewünschten Chatpartners. Durch das Auswählen wird ein Chatfenster geöffnet. Wird der gewünschte OpenOlat Benutzer als Offline angezeigt, können Sie ihm ebenso eine Nachricht schicken. Beim nächsten Login erscheint die Nachricht als Briefchen links neben dem Chat-Icon.
 
@@ -36,19 +36,19 @@ Dies funktioniert selbstverständlich auch bei eingeschaltetem Chat, um OpenOlat
 
 Gängige Emoticons wie Lachen oder Augenzwinkern, Cool oder Erstaunt werden unterstützt. Ebenso Daumen hoch ( + ) und Daumen runter ( - )
 
-## Nachrichten empfangen
+## Nachrichten empfangen {: #receive}
 Nachrichten können auf zwei Arten empfangen werden: Wenn Ihr Status "Verfügbar" ist, öffnet sich beim Empfang neuer Nachrichten ein Chatfenster.
 Lautet Ihr Status "Bitte nicht stören" oder "Nicht verfügbar", erscheinen die Nachrichten als blinkendes Briefchen links neben dem Chat-Icon rechts oben in der Menuzeile. Wenn Sie auf das Briefchen klicken, geht ein Chatfenster mit der Nachricht auf. Ist das Chatfenster bereits offen, werden neue Nachrichten dort angezeigt.
 
 Falls Sie eine Nachricht erhalten während Sie offline sind, so wird diese Nachricht gespeichert und beim nächsten Einloggen als Briefchen angezeigt.
 
-## Kontakte der Gruppenliste verwalten
+## Kontakte der Gruppenliste verwalten {: #group_list}
 Kontakte können über die Gruppe von OpenOlat hinzugefügt oder entfernt werden.
 Sofern Sie Betreuer oder Betreuerin einer Gruppe sind, können Sie Betreuer und Betreuerinnen oder Teilnehmende in Ihre Gruppe ein- oder ausladen. Diese Personen erscheinen dann auf Ihrer Gruppenliste im Chat sofern die Gruppe die Anzeige der Gruppenmitglieder zulässt. Gruppenbetreuer werden in der Kontaktliste mit fetter Schrift dargestellt.
 
 Wie Sie die Anzeige der Gruppenmitglieder in Ihrer Gruppe konfigurieren erfahren Sie in der [Gruppenadministration](../groups/Group_Administration.de.md).
 
-## Einem Gruppen- oder Kurschat beitreten
+## Einem Gruppen- oder Kurschat beitreten {: #join_group}
 An verschiedenen Orten in OpenOlat gibt es Chaträume (z.B. Gruppe/Kurs).
 Klicken Sie auf den Link _Chatraum betreten_. Ein Chatfenster geht auf und Sie betreten den Gruppen-/Kurs-Chat. Ist bereits eine Historie vorhanden, können Sie diese anzeigen lassen um sich über den bisherigen Gesprächsverlauf zu informieren. Nachrichten an einen Chatraum werden an alle Personen im jeweiligen Raum gesendet. Die Liste der Teilnehmer ist neben dem Chatfenster ersichtlich. Möchten Sie sich anonym äussern so können Sie ein Pseudonym wählen. Teilnehmer des Chats sehen dann ihren richtigen Namen nicht. Diese Option muss vom Systemadministrator eingeschaltet werden und ist auf IhremSystem unter Umständen nicht verfügbar. Falls Sie den Raum wieder verlassenmöchten, schliessen Sie das Fenster.
 
@@ -58,5 +58,5 @@ Im Tab "Instant-Messaging" der persönlichen Einstellungen können Sie festlegen
  **Nach dem Einloggen ist mein Status:**
 Hier können Sie zwischen drei Einstellungen wählen, die zukünftig jeweils nach dem Login aktiv sein sollen. Wenn Sie Ihren momentanen Status ändern wollen, können Sie dies über das runde Status-Symbol rechts oben tun. Beim nächsten Login ist dann wieder der Status aktiv, den Sie hier festgelegt haben.
 
-## Chat-Protokolle
+## Chat-Protokolle {: #chat_history}
 Um Chat-Protokolle einzusehen, öffnen Sie das Chatfenster des gewünschten Chat-Partners. Wählen Sie dann oben den Zeitraum des Protokolls aus. Sie können sich das Chatprotokoll des letzten Tages, der letzten Woche oder des letzten Monats anzeigen lassen.
