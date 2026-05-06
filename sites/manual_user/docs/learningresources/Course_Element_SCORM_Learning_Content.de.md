@@ -11,7 +11,7 @@ Verwendungszweck | Integration von SCORM-Paketen, die mit anderen Autorenwerkzeu
 Bewertbar | ja
 Spezialität / Hinweis |
 
-SCORM steht für "Sharable Content Object Reference Model" und ist ein standardisiertes E-Learning-Format für interaktive E-Learning Module, das von OpenOlat unterstützt wird. Über den Kursbaustein "SCORM Lerninhalt" können SCORM-Pakete (SCORM Version 1.2) in OpenOlat Kurse eingebunden werden. Das SCORM-Paket muss extern mit einem anderen Tool erstellt werden.
+SCORM steht für "Shareable Content Object Reference Model" und ist ein standardisiertes E-Learning-Format für interaktive E-Learning Module, das von OpenOlat unterstützt wird. Über den Kursbaustein "SCORM Lerninhalt" können SCORM-Pakete (SCORM Version 1.2) in OpenOlat Kurse eingebunden werden. Das SCORM-Paket muss extern mit einem anderen Tool erstellt werden.
 
 ## Ansicht als Betreuer:in {: #coach_view}
 
@@ -60,13 +60,13 @@ Ist diese Checkbox markiert, wird OpenOlat und die Hauptnavigation mit dem Öffn
 **Modul im Vollbildmodus anzeigen:**<br>
 \- Das Modul nimmt den gesamten Platz ein<br>
 \- Alle Navigationselemente, ausser "Zurück"-Link zum Kurs, werden ausgeblendet<br>
-\- Geeignet für Module mit einem einzigen "Sharable Content Object"
+\- Geeignet für Module mit einem einzigen "Shareable Content Object"
 
 **Modul im Vollbildmodus anzeigen, ohne "Zurück"-Link:** <br>
 \- Das Modul nimmt den gesamten Platz ein.<br>
 \- Alle Navigationselemente werden ausgeblendet.<br>
 \- Der "Zurück"-Link zum Kurs steht nicht zur Verfügung.<br>
-\- Geeignet für Module mit einem einzigen "Sharable Content Object" und eigener Navigation.
+\- Geeignet für Module mit einem einzigen "Shareable Content Object" und eigener Navigation.
 
 
 ![3_green_24.png](assets/3_green_24.png) **Modul-Menü anzeigen**<br>

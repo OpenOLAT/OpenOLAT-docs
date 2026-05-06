@@ -8,8 +8,10 @@ On the far left you will see the course structure with all assessable course ele
 
 The exact procedure is described in the chapters [Assessing participants](../learningresources/Assessment_of_learners.md) and [Assessment of course elements](../learningresources/Assessment_of_course_modules.md).
 
+---
 
 ## Participants tab in the assessment tool {: #assessment_tool_participants}
+
 In the tab Participants, all course participants are listed that can be evaluated. In addition, specific people, e.g. all those who have not yet "passed" this course element, can be displayed in a filtered manner, or specific participant names can be searched for.
 
 
@@ -37,11 +39,47 @@ Course element "Test"
 
 Course element "Task"
 
+### View points earned {: #points}
+
+To check how many points specific participants have earned, open the (course) administration for the relevant course and then open the grading tool.
+The overview page offers several ways to access (pre-filtered) participant lists.
+If a list is open, click on the name of the person in question.
+
+![assessment_tool_tab_users_points1_v1_de](assets/assessment_tool_tab_users_points1_v1_de.png){ class="shadow lightbox" }
+
+#### Course Overview
+
+To view the grades for the entire course, select the course name on the left and then click the "Students" tab.
+
+![assessment_tool_tab_users_points2_v1_de](assets/assessment_tool_tab_users_points2_v1_de.png){ class="shadow lightbox" }
+
+The configuration may specify that instructors can assign points in the assessment tool but are not permitted to approve the results themselves. 
+In this case, these points are provisional and should not yet be included in the total.
+
+To help instructors see how many points participants will have once all points have been awarded, the provisional scores are shown in parentheses.
+
+Example:
+![assessment_tool_tab_users_points3_v1_de](assets/assessment_tool_tab_users_points3_v1_de.png){ class="shadow lightbox" }
+
+
+#### Points for a specific course module
+
+To view the points for a specific course module only, select the course module on the left and then select the desired person in the "Participants" tab.
+
+[To the top of the page ^](#assessment_tool_users)
+
+---
+
+
+
   
 ### Activate further options {: #further_options}
 
 After selecting one or more people in an assessment module, further functions appear, e.g. the status can be set to completed, visibility can be activated, an e-mail can be sent or a test can be extended. The options vary depending on the assessment module.
 
-![](assets/Bewerungswerkzeug_Funktionen_erscheinen.png)
+![Activate further options](assets/Bewerungswerkzeug_Funktionen_erscheinen.png)
+
+
+[To the top of the page ^](#assessment_tool_users)
 
 

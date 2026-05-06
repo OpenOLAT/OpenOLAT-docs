@@ -2,7 +2,7 @@
 
 Sie haben zwei generelle Möglichkeiten die Bewertung im Bewertungswerkzeug vorzunehmen. Entweder Sie gehen von einer Person aus und bewerten die von dieser Person vorgenommenen Bearbeitungen. Oder Sie gehen von der Kursstruktur und einem konkreten Assessment Baustein aus und bewerten alle Personen für diese Aufgabe, diesen Test bzw. sonstigen Assessment Kursbaustein. 
 
-In der linken Spalte im Bewertungswerkzeug sehen Sie die Kursstruktur mit allen bewertbaren Kursbausteinen. Hier können Sie direkt zu einem der Kursbausteine navigieren um Ihre Bewertung vorzunehmen. Für jeden Kursbaustein wird ein Tab mit der "Übersicht" und ein Tab mit den "Teilnehmern" angezeigt. 
+In der linken Spalte im Bewertungswerkzeug sehen Sie die Kursstruktur mit allen bewertbaren Kursbausteinen. Hier können Sie direkt zu einem der Kursbausteine navigieren um Ihre Bewertung vorzunehmen. Für jeden Kursbaustein wird ein Tab mit der "Übersicht" und ein Tab mit den "Teilnehmer:innen" angezeigt. 
 
 ![Bewertungswerkzeug Teilnehmer Übersicht](assets/Bewertungswerkzeug_Teilnehmer_172.png)
 

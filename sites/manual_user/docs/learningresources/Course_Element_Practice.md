@@ -66,16 +66,18 @@ The total number of challenges can be set.
 
 After completion of a challenge, detailed statistics on the learning status as well as a summary overview are available in addition to the ranking.
 
+[To the top of the page ^](#course_element_uebung)
+
 ---
 
-## Configuration {: #configuration}
+## Configuration tab {: #configuration}
 
 As with all course elements, the author selects the course element Exercise in the course menu for configuration. Especially in the **tab "Configuration"** you will find the setting options and settings.
 
 ![course_element_practice_konfig_v1_de.png](assets/course_element_practice_konfig_v1_de.png){ class="shadow lightbox" }
 
 
-### Ressources {: #resources}
+### ![1_green_24.png](assets/1_green_24.png) Ressources {: #resources}
 
 In contrast to most other course elements, the course element Practice allows you to integrate **several learning resources**. The questions used in the course element practice come from the question pool or test learning resources.
 
@@ -83,33 +85,43 @@ Currently there are 2 ways to insert questions into the Course element Practice:
 
 * On the one hand, you can include a **learning resource Test**, as you do in the course elements Test and Self-Test. Then the questions from the tests can be practiced.
 
-* On the other hand, questions can be inserted via **Share**. Shares are shared question packages from the question pool (lists, shares, group shares).
+* Second, you can insert questions from the **question pool**. You can insert question sets from lists, shared items, and group shares.
 
 Later modification or addition of questions is possible.
 
 
-### Criteria {: #criteria}
-  By defining criteria for taxonomy and metadata, the desired questions can be specifically filtered out.
+### ![2_green_24.png](assets/2_green_24.png) Criteria {: #criteria}
+
+By defining criteria for taxonomy and metadata, the desired questions can be specifically filtered out.
+
+* You can specify multiple taxonomy categories to which the questions must be assigned.
+* Since not all questions are assigned to a specific subject area, it may also be permissible to include questions that are not assigned to a subject area.
+* The following metadata options are available for filtering: test type, keyword, language, and level. (Filter criteria based on this metadata can also be combined.)
 
 
-### Practice settings {: #practice_settings}
+### ![3_green_24.png](assets/3_green_24.png) Practice settings {: #practice_settings}
 
 In the practice settings, the author determines:
 
-* Number of levels 
-* Number of questions per series
+* Number of levels (how many times a question should be answered correctly)
+* Number of questions per series (how many questions to answer per exercise set)
 * Number of series per challenge
 * Number of challenges required as completion criteria
 
-All available questions are displayed in an overview (grouped by subject/taxonomy).
+
+### ![4_green_24.png](assets/4_green_24.png) Used questions {: #questions}
+
+An overview displays all questions available for review based on the criteria (grouped by subject area/taxonomy).
 
 
 !!! info "Please note:"
 
-    These are links of the questions. No copies of the questions are stored in the course element. So if a question is changed or deleted, it is also changed or gone accordingly in the course element Practice.
+    These are links to the questions. No copies of the questions are stored in the course module. Therefore, if a question is modified or deleted, it is also modified or removed in the Exercise course module.
 
+[To the top of the page ^](#course_element_uebung)
 
 ---
+
 
 ## Practice practically {: #practice_practically}
 
@@ -144,7 +156,7 @@ For individual practice according to their own needs, participants can therefore
 
 **My mistakes**: Practice with questions that have already been answered incorrectly by the participant.
 
-**Own series**: Practice with a series of questions you put together yourself
+**Individual series**: Practice with a series of questions you put together yourself
 
 ![course_element_individual_practice_v1_de.png](assets/course_element_individual_practice_v1_de.png){ class="shadow lightbox" }
 
@@ -161,6 +173,8 @@ When selecting a course element, coaches can see from a list which participants 
 
 Since no manual evaluations are carried out by coaches, no feedbacks by coaches are available.
 
+[To the top of the page ^](#course_element_uebung)
+
 ---
 
 ## Comparison: Test - Self-test - Practice {: #comparison}
@@ -170,5 +184,7 @@ Course element Test | Course element Self-test | Course element Practice
 ---------|----------|----------
  ![course_element_practice_icon_test](assets/course_element_practice_icon_test.png){ class=size24  } | ![course_element_practice_icon_test](assets/course_element_practice_icon_test.png){ class=size24  } | ![Aufgabe Icon](assets/course_element_practice_icon.png){ class=size24  }
 with score | with score  | without score 
-viewable for coaches|  not visible for coaches | einsehbare Level<br>Learning level per level<br> Emphasis by participant:in
+visible for coaches|  not visible for coaches | einsehbare Level<br>Learning level per level<br> Emphasis by participant:in
 1 test learning resource | 1 test learning resource | multiple learning resources<br>Shares/Shares from the question pool<br>filter with use of taxonomy
+
+[To the top of the page ^](#course_element_uebung)

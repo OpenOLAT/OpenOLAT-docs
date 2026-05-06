@@ -37,13 +37,13 @@ In addition to the scoring system using points, the “Grading/grades” module 
 
 ## Assessment management {: #exam_admin}
 
-At this point, administrators can generally activate the check mode for the OpenOlat instance and search for checks.
+Here, administrators can enable exam mode and exam viewing for the OpenOlat instance and search for exams. They can also add and manage configuration templates for the Safe Exam Browser.
 
 [See the details >](../administration/e-Assessment_AssessmentMgmt.md)<br>
 [To the top of the page ^](#e-assessments)
 
 
-## Certificates
+## Certificates {: #certificates}
 
 An e-mail address can be stored here to which copies of the certificates created can be sent. Copies to line managers are also possible.
 
@@ -51,6 +51,7 @@ The upload of external certificates can also be enabled here.
 
 In addition, this function is also available for user administrators, line managers in the same organization or for responsible persons who are connected via a user-to-user relationship and can be configured separately in each case.
 
+[See the details >](../administration/e-Assessment_Certificates.md) <br>
 [To the top of the page ^](#e-assessments)
 
 
