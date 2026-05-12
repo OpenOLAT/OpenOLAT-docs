@@ -41,9 +41,16 @@ Im Lebenszyklus von Kursen kann festgelegt werden,
 
 Ähnlich dem automatisch gesteuerten Kurs-Lifecycle kann auch der Lebenszyklus von Konten der OpenOlat-Benutzer:innen automatisiert werden. 
 
-* In einem ersten Schritt können die Konten von Benutzer:innen, die über einen längeren Zeitraum nicht aktiv waren, zunächst deaktiviert und der Benutzerstatus auf "inaktiv" gesetzt werden. 
-* Erfolgt im festgelegten Zeitraum kein erneuter Login, so wird das Benutzerkonto gelöscht. Je nach Konfiguration können die Benutzer vor bzw. nach der Deaktivierung oder Löschung des Kontos eine E-Mail mit einem entsprechenden Hinweis erhalten.
-* Es kann eingerichtet werden, dass die unwiderrufliche Löschung im letzten Schritt automatisch oder ausschliesslich manuell erfolgen soll.
+!!!Der Lebenszyklus läuft in getrennten Schritten und wird aus teils Unterschiedlichen Einstellungen gefüttert. Folgende Tabelle soll der Übersicht dienen.
+
+| Variante | Einstellungsquelle | Mailaktionen für Automatisierungen | Version |
+|----------|-------------------|--------------|---------|
+| Kontoablauf | **a)** Benutzerverwaltung > Benutzer erstellen (Feld «Kontoablauf») oder nachträglich im Tab «Konto» **b)** Automatisch und damit Systemweit, in der Administration festlegen. **Wichtig** es können natürlich beide Wege aktiv sein, dann greift der zuerst dessen Zeit früher abläuft. | Vor und/oder nach Kontoablauf konfigurierbar | :octicons-tag-24:{ title="ab Release 15.4" } |
+| Deaktivierung | Automatisch: Administration > Lebenszyklen > Konto (Inaktivitätsfrist) oder Manuell: Benutzerverwaltung > Benutzer > Tab «Konto» | Vor und/oder nach der Deaktivierung konfigurierbar | :octicons-tag-24:{ title="verfügbar seit mindestens OO 20.1" } |
+| Löschung | Automatisch: Administration > Lebenszyklen > Konto (nach Deaktivierungsperiode) oder Manuell: Benutzerverwaltung > Benutzer löschen | Vor und/oder nach der Löschung konfigurierbar | :octicons-tag-24:{ title="verfügbar seit mindestens OO 20.1" } |
+
+!!!Generell gilt: Erfolgt im festgelegten Zeitraum kein erneuter Login, so wird das Benutzerkonto gelöscht. 
+Zusätzlich: Es kann eingerichtet werden, dass die unwiderrufliche Löschung im letzten Schritt automatisch oder ausschliesslich manuell erfolgen soll.
 
 Zu jedem Schritt können unterschiedliche Benachrichtigungen im Kontext der Schritte formuliert und der Zeitpunkt der Mailbenachrichtigung definiert werden.
 
