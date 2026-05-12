@@ -30,6 +30,7 @@ theme:
     - search.highlight
     - search.share
     - content.code.copy
+    - content.tooltips
     
 markdown_extensions:
   - meta
