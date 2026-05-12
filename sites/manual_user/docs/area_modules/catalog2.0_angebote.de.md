@@ -67,9 +67,16 @@ In einem **Angebot** wird definiert, wer sich unter welchen Umständen in die ge
 
 Es können zum gleichen Kurs mehrere verschiedene Angebote erstellt werden. Z.B. kann dann der gleiche Kurs für einige Teilnehmer kostenlos, für andere kostenpflichtig angeboten werden.
 
+![catalog20_2angebote_v1_de.png](assets/catalog20_2angebote_v1_de.png){ class="shadow lightbox" }
+
 Angebote können auch auf verschiedene Teilbereiche von Organisationen (Unterorganisationen) beschränkt werden.
 
-![catalog20_2angebote_v1_de.png](assets/catalog20_2angebote_v1_de.png){ class="shadow lightbox" }
+!!! info "Hinweis: Organisationszugehörigkeit"
+
+    Ist ein Angebot auf eine bestimmte Organisation oder Unterorganisation eingeschränkt, erscheint es im Katalog **nur für Benutzer:innen, die Mitglied dieser Organisation sind**. Benutzer:innen ausserhalb der Organisation sehen das Angebot nicht – auch wenn der Kurs veröffentlicht ist.
+
+    Die Organisationszugehörigkeit wird in der Benutzerverwaltung gepflegt (**Administration > Benutzerverwaltung**).
+
 
 [Zum Seitenanfang ^](#offers)
 
