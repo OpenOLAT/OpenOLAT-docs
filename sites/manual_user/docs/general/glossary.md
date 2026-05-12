@@ -472,6 +472,10 @@ Model answers or reference solutions provided within a Task course element.
 
 Internal file management area within a course for storing course files.
 
+### Subject
+
+A taxonomy-based classification term assigned to a learning resource to enable catalog filtering and grouping in taxonomy launchers.
+
 ### Teaser
 
 A short preview text used for compact announcements, currently available for courses.
@@ -479,6 +483,10 @@ A short preview text used for compact announcements, currently available for cou
 ### Template course
 
 A source course from which implementation instances are automatically created in Course Planner.
+
+### Trash can
+
+The area where deleted learning resources are moved before permanent deletion.
 
 ### Waiting list
 

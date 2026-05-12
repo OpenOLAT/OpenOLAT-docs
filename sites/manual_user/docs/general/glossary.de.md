@@ -472,9 +472,17 @@ Modellantworten oder Referenzlösungen, die innerhalb eines Aufgaben-Kursbaustei
 
 Interner Dateiverwaltungsbereich innerhalb eines Kurses zur Speicherung von Kursdateien.
 
+### Fachbereich
+
+Ein taxonomiebasierter Klassifizierungsbegriff, der einer Lernressource zugewiesen wird, um die Katalogfilterung und Gruppierung in Taxonomie-Launchern zu ermöglichen.
+
 ### Teaser
 
 Ein kurzer Vorschautext für platzsparende Ankündigungen, derzeit nur für Kurse verfügbar.
+
+### Papierkorb
+
+Der Bereich, in den gelöschte Lernressourcen vor der endgültigen Löschung verschoben werden.
 
 ### Vorlagekurs
 
