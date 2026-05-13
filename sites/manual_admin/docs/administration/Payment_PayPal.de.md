@@ -21,42 +21,24 @@ erfolgreicher Konfiguration des PayPal Moduls auf der Detailseite des Kurses ode
 
 ## PayPal API Berechtigung erstellen
 
-Loggen Sie sich in Ihr PayPal Firmenkonto ein und vollziehen Sie die folgenden Schritte nach:
-  
+Loggen Sie sich in Ihr PayPal Firmenkonto ein und vollziehen Sie Einstellungen zur Verbindung mit OpenOlat.
 
-- [x] Schritt 1: klicken Sie auf den Tab "Tools" (1) und wählen Sie den Punkt "Geschäftskonto einrichten" (2) aus. Klicken Sie auf den Button "Online Zahlungen einrichten" (3).  
-![](assets/OpenOlat-PayPal_Config_1.png){ class=" lightbox" } 
-  
-- [x] Schritt 2: klicken Sie auf den Button "Jetzt API-Berechtigung erhalten" (4).  
-![](assets/OpenOlat-PayPal_Config_2.png){ class=" lightbox" }  
-  
-- [x] Schritt 3: auf der Seite "API-Berechtigung kopieren" sehen Sie die Client-ID (5) und den Schlüssel (6). Kopieren Sie beide Werte in ein Dokument zum Zwischenspeichern. 
-  
-- [x] Schritt 4: Achten Sie darauf, dass die von Ihnen gewünschte Währung eingestellt ist.
-![](assets/paypalconfig4_en.png){ class="shadow lightbox" } 
+!!! Hinweis: Bitte berücksichtigen Sie dass wir keine Anleitung für Drittanbieter pflegen. Nachfolgenden finden Sie die Fixpunkte, damit Sie sich entsprechend orientieren können. Eine Schritt üfr Schrtt Anleitung bietet Ihnen möglicherweise die Anleitung des gewählten Tools.
 
-   -  Klicken Sie dafür im Menu auf die Einstellungen und dann auf "Profil und Einstellungen". Anschliessend links in der Navigation auf "Geld, Bankkoten und Kreditkarten". Unter "Währungen verwalten" sehen Sie die für Ihr Konto eingestellte Währung.  
-![](assets/Bildschirmfoto 2020-11-13 um 10.37.20.png){ class="shadow lightbox" }  
-  
-- [x] Schritt 5: Wenn Sie eine Währung erhalten, die von Ihnen nichtakzeptiert ist, wird die Buchung auf den Status "pendent" gestellt. Damit das nicht passiert, können Sie eine Einstellung anpassen.  
+- [x] Richten Sie eine Onlinezahlung in Ihrem Geschäftskonto ein.
+- [x] Lassen Sie sich eine API-Berechtigung ausstellen.
+- [x] Speichern Sie sich sowohl die Client-ID als auch den Schlüssel.
+- [x] Stellen Sie sicher, dass die richtige Währung eingestellt ist.
+- [x] Tipp:
+a) "Zahlungseingänge in einer anderen Währung zulassen und umrechnen in Schweizer Franken".
+b) "Doppelte Zahlungen sollten sie vermeiden".
+- [x] loggen Sie sich nun mit einem Systemadministrator-Account bei Ihrem OpenOlat System ein.
+a) Klicken Sie auf den Tab "Administration"
+b) Klicken Sie links in der Navigation auf "Bezahlungsmethode" und dann auf "PayPal".
+c) Aktivieren Sie das PayPal-Modul in OpenOlat, in dem Sie PayPal einschalten.
+d) Wählen Sie als Integration den Wert "PayPal Smart Buttons". Nur mit dieser Variante ist ein Bezahlen mit Kreditkarte möglich, ohne dass der Käufer ein PayPal-Konto eröffnen muss.
+e) Wählen Sie die Währung und geben anschliessend die "Client ID" sowie den "Client secret" (=Schlüssel) ein, den Sie zuvor Zwischengespeichert haben. 
 
-  -  Klicken Sie dafür wieder auf die Einstellungen und dann auf "Profil und Einstellungen". Anschliessend links in der Navigation auf "Zahlungseinstellungen". Unter "Zahlungen blockieren" klicken Sie auf "Bearbeiten". Es erscheint ein neues Fenster.    
-![](assets/Bildschirmfoto 2020-11-13 um 10.49.05.png){ class="shadow lightbox" }  
-  
-- [x]Schritt 6: In dem neuen Fenster klicken Sie bei "Zahlungseingänge in einer anderen Währung zulassen" auf "Ja, akzeptieren und umrechnen in Schweizer Franken". Bei "Doppelte Zahlungen vermeiden" sollte "Ja, versehentlich doppelt gesendete Zahlungen pro Rechnungsnummer ablehnen" angeklickt sein.  
-![](assets/Bildschirmfoto 2020-11-13 um 10.49.27.png){ class="shadow lightbox" }  
-  
-- [x] Schritt 7: loggen Sie sich nun mit einem Systemadministrator-Account bei Ihrem OpenOlat System ein.  
 
-   -  Klicken Sie auf den Tab "Administration" (7). Klicken Sie links in der Navigation auf "Bezahlungsmethode" (8) und dann auf "PayPal" (9).  
-
-   -  Aktivieren Sie das PayPal-Modul in OpenOlat, in dem Sie PayPal einschalten
-(10).  
-
-   -  Wählen Sie als Integration den Wert "PayPal Smart Buttons" (11). Nur mit dieser Variante ist ein Bezahlen mit Kreditkarte möglich, ohne dass der Käufer ein PayPal-Konto eröffnen muss.  
-
-   -  Wählen Sie die Währung und geben anschliessend die "Client ID" (12) und den "Client secret" (=Schlüssel) (13) ein, den Sie zuvor in einem Dokument zwischengespeichert haben.  
-
-![](assets/Paypal_config_4.png){ class=" lightbox" }
   
 [Zum Seitenanfang ^](#PayPal)
