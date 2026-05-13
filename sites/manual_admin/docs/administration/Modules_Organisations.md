@@ -19,13 +19,13 @@ The Organizations module is optionally available in OpenOlat and must be activat
 In the Configuration tab
 
 * the organizational structures module is activated
-* e-mail domain mapping is activated (available from Release 20, can only be activated if the Organizations module is activated)
+* email domain mapping is activated (available from Release 20, can only be activated if the Organizations module is activated)
 * the folder for legal documents is activated 
 * in the section "status" informationen for administrators is displayed
 
 The company structure can be mapped in the "Organizations" module. Roles, rights and visibility of courses and content can then be made dependent on membership of a specific organizational unit.
 
-The ability of course participants to register themselves can also be made dependent on membership of a specific organizational unit. This restriction is made by comparing the e-mail address of new users with the stored e-mail domains and automatically assigning them to a specific organizational unit.
+The ability of course participants to register themselves can also be made dependent on membership of a specific organizational unit. This restriction is made by comparing the email address of new users with the stored email domains and automatically assigning them to a specific organizational unit.
 
 [To the top of the page ^](#organisations)
 
@@ -116,10 +116,10 @@ Invoice addresses can be stored here for course and seminar management (availabl
 
 ### Mail domain assignment {: #edit_mail_domain}
 
-(Modules > Organizations > Tab "Organization structure" > Tab "E-mail domain assignment")
+(Modules > Organizations > Tab "Organization structure" > Tab "Email domain assignment")
 ![organisations_edit_tab_email_domain_v1_de.png](assets/organisations_edit_tab_email_domain_v1_de.png){ class="shadow lightbox" }
 
-An e-mail domain can be specified for each organizational element, which can be used to check the affiliation of users to this organizational unit. This is important if users can register for courses themselves, but the courses should only be available for a specific organizational unit. 
+An email domain can be specified for each organizational element, which can be used to check the affiliation of users to this organizational unit. This is important if users can register for courses themselves, but the courses should only be available for a specific organizational unit. 
 
 [To the top of the page ^](#organisations)
 
@@ -139,16 +139,16 @@ Further types can be created via "Create organization type". In addition to the 
 
 ---
 
-## Tab E-Mail domain assignment {: #tab_mail_domain_assignment}
+## Tab EMail domain assignment {: #tab_mail_domain_assignment}
 
 !!! info "Availability"
 
-	The e-mail domain mapping is available from Release 20.
+	The email domain mapping is available from Release 20.
 
-	This tab is also only displayed if the e-mail domain assignment has been activated in the “Configuration” tab.
+	This tab is also only displayed if the email domain assignment has been activated in the “Configuration” tab.
 
 ![organisations_tab_mail_domains_v1_de.png](assets/organisations_tab_mail_domains_v1_de.png){ class="shadow lightbox" }
 
-If organizational units exist, self-registration can be restricted to certain e-mail domains. New users are then automatically assigned to an organizational unit based on their e-mail domain and are only permitted to self-register for content/courses in this organizational unit.
+If organizational units exist, self-registration can be restricted to certain email domains. New users are then automatically assigned to an organizational unit based on their email domain and are only permitted to self-register for content/courses in this organizational unit.
 
 [To the top of the page ^](#organisations)

@@ -16,7 +16,7 @@ The Contact Tracing module works with the following five steps:
   1. Capturing the **locations** (manually or via import)
   2. Generation of **QR codes** for placement at the locations
   3.  **Registration** of existing OpenOlat users or guests at the locations
-  4. Sending an **e-mail confirmation** after registration
+  4. Sending an **email confirmation** after registration
   5.  **Export** of the data in case of an official request
 
 The data is stored in OpenOlat in accordance with data protection regulations

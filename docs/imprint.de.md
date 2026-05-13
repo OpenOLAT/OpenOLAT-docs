@@ -19,7 +19,7 @@ Handelsregister-Nummer: [CH-020.4.034.160-1](https://zh.chregister.ch/cr-portal/
  
 ## Kontaktdaten
 Tel.:    + 41 (0)43 544 90 00  
-E-Mail: contact[at]frentix.com  
+Email: contact[at]frentix.com  
 Web:  [www.frentix.com](https://www.frentix.com)
 
 ## Allgemeine Geschäftsbedingungen (AGB)

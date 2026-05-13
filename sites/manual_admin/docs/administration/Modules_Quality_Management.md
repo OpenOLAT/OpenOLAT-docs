@@ -12,14 +12,14 @@ The configuration of the module can be carried out by administrators under<br>
 
 The entire module is activated with the first checkbox.
 
-The optional e-mail address can be used for individual customization:<br>
-Each time data is collected, it is defined to whom e-mails are automatically sent.
+The optional email address can be used for individual customization:<br>
+Each time data is collected, it is defined to whom emails are automatically sent.
 The mails are always sent by OpenOlat with the standard address (no-reply).
-This address can be overridden by entering a different e-mail in this section.
+This address can be overridden by entering a different email in this section.
 
 ## Suggestion for improvement Settings {: #settings_improvement}
 
-If the option is activated, the option to create suggestions for improvement is displayed under the Quality management menu item. The e-mails created there are sent to the e-mail address specified here.
+If the option is activated, the option to create suggestions for improvement is displayed under the Quality management menu item. The emails created there are sent to the email address specified here.
 
 ## Data collection preview {: #data_collection_preview}
 

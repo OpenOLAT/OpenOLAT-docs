@@ -72,7 +72,7 @@ The result of the settings made is summarized both in the 3 arrows in the upper 
 
   *  **active:** The group is used and someone has visited it within the set period. (Standard 660 days without a visit).
 
-  *  **inactive:** The group is inactive. An e-mail has been sent (if configured). If no further changes are made to this group, it will be deleted.
+  *  **inactive:** The group is inactive. An email has been sent (if configured). If no further changes are made to this group, it will be deleted.
 
   *  **deleted:** In the "deleted" status, the group can be restored. However, not all data can be restored. This group is completely deleted after 2 days.
 
@@ -100,7 +100,7 @@ Group administrators have the option of explicitly excluding their group from th
 
 ## Who receives the notifications?
 
-As soon as an automatic notification has been triggered by the set conditions, OpenOlat checks to whom the notification is sent as an e-mail.
+As soon as an automatic notification has been triggered by the set conditions, OpenOlat checks to whom the notification is sent as an email.
 
 
 ![automatic_group_lifecycle_mailcascade_v2_en.png](assets/automatic_group_lifecycle_mailcascade_v2_en.png){ class="lightbox" }

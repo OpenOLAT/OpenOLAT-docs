@@ -105,11 +105,11 @@ Pro Rubrik wird über alle Fragen anhand der Antworten der Durchschnitt berechne
 **Beispiel:**
 
 - Das Formular enthält 6 Rubriks.<br>
-- Bei den ersten beiden Rubriks sind keine Wertebereiche definiert, es wird also immer die Klassierung “ohne” ausgegeben.<br>
+- Bei den ersten beiden Rubriks sind keine Wertebereiche definiert, es wird also immer die Klassierung "ohne" ausgegeben.<br>
 - Für die anderen 4 werden Durchschnitte und Klassierungen ermittelt.
-- Das E-Mail wird bei der Einstellung “ungenügend” versendet, wenn für mindestens einen der Rubriks die Klassierung “ungenügend” berechnet wurde.
-- Das E-Mail wird bei der Einstellung “ungenügend oder neutral” versendet, wenn für mindestens einen der Rubriks die Klassierung “ungenügend” oder “neutral" berechnet wurde.
-- Wenn im vorliegenden Fall der Versand des E-Mail “ungenügend” konfiguriert ist, reicht es also, wenn eine der Fragen 3-6 im Durchschnitt als ungenügend klassiert wurde, um das E-Mail auszulösen.
+- Das E-Mail wird bei der Einstellung "ungenügend" versendet, wenn für mindestens einen der Rubriks die Klassierung "ungenügend" berechnet wurde.
+- Das E-Mail wird bei der Einstellung "ungenügend oder neutral" versendet, wenn für mindestens einen der Rubriks die Klassierung "ungenügend" oder "neutral" berechnet wurde.
+- Wenn im vorliegenden Fall der Versand des E-Mail "ungenügend" konfiguriert ist, reicht es also, wenn eine der Fragen 3-6 im Durchschnitt als ungenügend klassiert wurde, um das E-Mail auszulösen.
 
 
 ### Tab "Report" {: #tab_report}

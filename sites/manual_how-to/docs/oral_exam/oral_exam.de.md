@@ -54,10 +54,10 @@ Erstellen Sie im Autorenbereich einen eigenständigen Kurs. Das Erstellen eines 
 
 ### Welcher Kursbaustein? {: #step_2a}
 
-In der Regel enthält das Protokoll einer mündlichen Prüfung eine manuell ausgefüllte Bewertung. Es kann ein Online-Formular oder eine ausgedruckte Version verwendet werde. Für beide Situationen ist besonders der [Kursbaustein „Bewertung](../../manual_user/learningresources/Course_Element_Assessment.de.md) geeignet.
+In der Regel enthält das Protokoll einer mündlichen Prüfung eine manuell ausgefüllte Bewertung. Es kann ein Online-Formular oder eine ausgedruckte Version verwendet werde. Für beide Situationen ist besonders der [Kursbaustein "Bewertung"](../../manual_user/learningresources/Course_Element_Assessment.de.md) geeignet.
 
 
-(Im Prinzip kann auch ein Kursbaustein „Formular“ verwendet werden, dieser gibt aber kein „Bestanden“ aus. Deshalb ist in diesem Fall dann ein zusätzlicher Kursbaustein „Bewertung“ erforderlich.)
+(Im Prinzip kann auch ein Kursbaustein "Formular" verwendet werden, dieser gibt aber kein "Bestanden" aus. Deshalb ist in diesem Fall dann ein zusätzlicher Kursbaustein "Bewertung" erforderlich.)
 
 
 ### Aufteilung der mündlichen Prüfungsthemen {: #step_2b}
@@ -65,10 +65,10 @@ In der Regel enthält das Protokoll einer mündlichen Prüfung eine manuell ausg
 Je nach Prüfungsgegenstand sollen meistens verschiedene Themenbereiche geprüft werden. Die Themenstruktur/Prüfungsbereiche bestimmen mit, wie eine sinnvolle Aufteilung der Formulare vorgenommen werden kann.
 
 **Beispiel 1:**<br>
-Es kann ein Kurs mit 1 Kursbaustein „Bewertung“ erstellt werden, der 1 Formular enthält, das dann 10 Rubrik-Elemente zu 10 Themenbereichen enthält.
+Es kann ein Kurs mit 1 Kursbaustein "Bewertung" erstellt werden, der 1 Formular enthält, das dann 10 Rubrik-Elemente zu 10 Themenbereichen enthält.
 
 **Beispiel 2:**<br>
-Es können 10 Kursbausteine vom Typ „Bewertung“ mit je 1 Formular erstellt werden.
+Es können 10 Kursbausteine vom Typ "Bewertung" mit je 1 Formular erstellt werden.
 
 
 ### Einstellungen im Tab "Bewertung"
@@ -147,12 +147,9 @@ Ein neu erstelltes Formular beinhaltet zunächst noch kein Rubrik-Element. Diese
 
 ### Layout und Inhalte des Formulars {: #step_3_layout_content}
 
-Mündliche Prüfungen bestehen oft aus einer Kombination verschiedener Formate, etwa Präsentationen,
-erklärenden Fachfragen, kurzen Abfragen von Inhalten, sowie Reflexions- und Transferfragen. Ein gutes
-Bewertungsraster bildet diese Vielfalt ab und macht sichtbar, was in welchem Teil geprüft wird und wie
-die Bewertung erfolgt.
+Mündliche Prüfungen bestehen oft aus einer Kombination verschiedener Formate, etwa Präsentationen, erklärenden Fachfragen, kurzen Abfragen von Inhalten, sowie Reflexions- und Transferfragen. Ein gutes Bewertungsraster bildet diese Vielfalt ab und macht sichtbar, was in welchem Teil geprüft wird und wie die Bewertung erfolgt.
 
-In OpenOlat können frei defnierbare Bewertungsraster am besten mit dem Rubrik-Element erstellt werden.
+In OpenOlat können frei definierbare Bewertungsraster am besten mit dem Rubrik-Element erstellt werden.
 Ein Rubrik-Element besteht aus einem Gitter mit Zeilen und Spalten. In den Zeilen werden die Bewertungskategorien bzw. Statements aufgeführt, während die Spaltenüberschriften die Bewertungsskalen wiedergeben. So können sich mehrere unterschiedliche Statements auf eine Bewertungsskala beziehen. Je nach konkreter Konfiguration können dabei sehr unterschiedliche Rubrik-Varianten entstehen.
 
 ![oral_exam_step3b_v1_de.png](assets/oral_exam_step3b_v1_de.png){ class="shadow lightbox" } 

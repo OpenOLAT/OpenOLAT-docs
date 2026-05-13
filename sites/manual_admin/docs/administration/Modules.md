@@ -122,7 +122,7 @@ You can define which system roles are allowed to see the administrative user pro
 
 You can also determine which system roles are allowed to see the user's last visit.
 
-The course element "External page" can transmit data about the current account to the external system in the HTTP header of the request in order to implement certain learning scenarios (login name, e-mail, first name, last name, current IP address of the user). Define here whether this data should be transmitted or not.
+The course element "External page" can transmit data about the current account to the external system in the HTTP header of the request in order to implement certain learning scenarios (login name, email, first name, last name, current IP address of the user). Define here whether this data should be transmitted or not.
 
 [To the top of the page ^](#modules)
 
@@ -140,7 +140,7 @@ Here you can display all booking orders for a specific booking number in a speci
 
 Here you can define if course authors and learners are allowed to create new groups. Possible rights for group administrators and learning resource administrators in the group context can also be defined.
 
-In order to meet data protection requirements, it can be defined whether an e-mail must be sent when inviting users to courses and groups and whether the invitation results in direct membership or must first be confirmed by the invited user.
+In order to meet data protection requirements, it can be defined whether an email must be sent when inviting users to courses and groups and whether the invitation results in direct membership or must first be confirmed by the invited user.
 
 Administrators can also purge course and group members here.
 
@@ -234,7 +234,7 @@ After activating "Person to person", OpenOlat roles can be linked by a (definabl
 
 ## Request account deletion {: #request_account_deletion}
 
-Requests to delete the account can be permitted here. An e-mail address can be entered for the deletion request.
+Requests to delete the account can be permitted here. An email address can be entered for the deletion request.
 
 [To the top of the page ^](#modules)
 
@@ -269,7 +269,7 @@ The project tool available in OpenOlat is activated here.
 
 ## Quality management {: #quality_management}
 
-Here you will find the activation of quality management and the necessary definition of special e-mail addresses, e.g. for suggestions for improvement. 
+Here you will find the activation of quality management and the necessary definition of special email addresses, e.g. for suggestions for improvement. 
 
 [See the details >](Modules_Quality_Management.md)<br>
 [To the top of the page ^](#modules)

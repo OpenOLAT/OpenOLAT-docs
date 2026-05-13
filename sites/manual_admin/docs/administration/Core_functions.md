@@ -38,9 +38,9 @@ At this point the system administrators can enable or disable the OpenOlat calen
 [To the top of the page ^](#core_config)
 
 
-## E-mail Settings
+## Email Settings
 
-As an administrator, you will find configuration options for the OpenOlat e-mail sending options and the mailbox, as well as the mail template.
+As an administrator, you will find configuration options for the OpenOlat email sending options and the mailbox, as well as the mail template.
 
 [See the details >](../administration/E-Mail_Settings.md)<br>
 [To the top of the page ^](#core_config)
@@ -88,7 +88,7 @@ Here you will find information on indexing the full text search.
 
 ## Notifications
 
-The notification e-mails for subscribed topics (e.g. forums) are sent once a day by default. Users can set shorter intervals. 
+The notification emails for subscribed topics (e.g. forums) are sent once a day by default. Users can set shorter intervals. 
 Administrators can arrange for them to be sent immediately.
 
 [To the top of the page ^](#core_config)

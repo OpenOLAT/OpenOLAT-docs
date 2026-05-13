@@ -52,7 +52,7 @@ The availability of stars for assessment can be switched on/off globally by admi
 ### Request membership
 
 If someone opens a course to which they do not have access, a screen with a note appears. 
-There is a button here that can be used to apply for membership. When clicked, an e-mail is sent to all course owners.
+There is a button here that can be used to apply for membership. When clicked, an email is sent to all course owners.
 
 ![modules_repository_request_membership_v1_de.png](assets/modules_repository_request_membership_v1_de.png){ class="shadow lightbox" }
 

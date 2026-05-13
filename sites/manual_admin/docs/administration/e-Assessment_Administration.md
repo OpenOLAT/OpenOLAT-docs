@@ -45,7 +45,7 @@ Here, administrators can enable exam mode and exam viewing for the OpenOlat inst
 
 ## Certificates {: #certificates}
 
-An e-mail address can be stored here to which copies of the certificates created can be sent. Copies to line managers are also possible.
+An email address can be stored here to which copies of the certificates created can be sent. Copies to line managers are also possible.
 
 The upload of external certificates can also be enabled here.
 

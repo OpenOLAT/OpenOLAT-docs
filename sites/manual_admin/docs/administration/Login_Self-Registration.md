@@ -55,8 +55,8 @@ New users are automatically assigned to the organization specified here. Further
 **Pending:** An administrator or user manager must activate the account after self-registration.
 **Pending if one of the following account attributes applies:**  If one of the conditions applies, the account is created with the status "Pending." If none of the conditions apply, the account status "Active" is assigned.
 
-**E-mail for outstanding accounts:**
-The e-mail address of a responsible person (preferably an administrator or user administrator) can be specified for checking and activating accounts with "pending" status.
+**Email for outstanding accounts:**
+The email address of a responsible person (preferably an administrator or user administrator) can be specified for checking and activating accounts with "pending" status.
 
 **Book courses**<br>
 If this option is enabled, people who register themselves can automatically be made members of the specified courses. 
