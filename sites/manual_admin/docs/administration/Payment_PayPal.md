@@ -16,41 +16,24 @@ In order to publish courses and project groups with payment restrictions you can
 
 ## Create the API Credentials
 
-Log into your PayPal business account and perform the following steps:
+Log into your PayPal business account and make the necessary settings to connect to OpenOlat.
 
-- [x] Step 1: Click on the "Tools" tab (1) and select the item "Set up business account" (2). Click on the button "Set up online payments" (3).
-![](assets/OpenOlat-PayPal_Config_1.png){ class=" lightbox" }
+!!! note "Note"
+	Please note that we do not maintain instructions for third-party providers. Below you will find the key reference points to help you get oriented. A step-by-step guide may be available in the documentation of the chosen tool.
 
-- [x]  Step 2: Click on the "Get API authorization now" button (4).
-![](assets/OpenOlat-PayPal_Config_2.png){ class=" lightbox" }   
+- [x] Set up online payments in your business account.
+- [x] Obtain API credentials.
+- [x] Save both the Client ID and the key.
+- [x] Make sure the correct currency is set.
+- [x] Tip:
+  a) "Allow incoming payments in another currency and convert to Swiss francs."
+  b) "Avoid duplicate payments."
+- [x] Log in to your OpenOlat system with a system administrator account.
+  a) Click on the "Administration" tab.
+  b) Click on "Payment method" in the navigation on the left, then on "PayPal".
+  c) Activate the PayPal module in OpenOlat by switching PayPal on.
+  d) Select "PayPal Smart Buttons" as the integration. Only with this variant is it possible to pay by credit card without the buyer having to open a PayPal account.
+  e) Select the currency and then enter the "Client ID" and "Client secret" (=key) that you previously saved.
 
-- [x] Step 3: On the "Copy API authorization" page, you will see the client ID (5) and the key (6). Copy both values into a document for
-cache.
-
-- [x] Step 4: selection option 2 to request the API-Credentials  
-![](assets/paypalconfig4_en.png){ class="shadow lightbox" } 
-	
-  -  To do this, click on the settings in the menu and then on "Profile and settings". Then click on "Money, bank cards and credit cards" in the navigation bar on the left. Under "Manage currencies" you can see the currency set for your account. 
-![](assets/Bildschirmfoto 2020-11-13 um 10.37.20.png){ class="shadow lightbox" } 
-
-- [x] Step 5: If you receive a currency that is not accepted by you, the booking is set to "pending" status. To prevent this from happening, you can adjust a setting.
-
-   -  To do this, click on the settings again and then on "Profile and settings". Then click on "Payment settings" in the navigation on the left. Under "Block payments", click on "Edit". A new window will appear.    
-![](assets/Bildschirmfoto 2020-11-13 um 10.49.05.png){ class="shadow lightbox" }
-
-- [x] Step 6: In the new window, click on "Yes, accept and convert to Swiss francs" under "Allow incoming payments in another currency". Under "Avoid duplicate payments", "Yes, reject accidentally duplicate payments per invoice number" should be ticked.
-![](assets/Bildschirmfoto 2020-11-13 um 10.49.27.png){ class="shadow lightbox" } 
-
-- [x] Step 7: Now log in to your OpenOlat system with a system administrator account.
   
-  - Click on the "Administration" tab (7). Click on "Payment method" (8) in the navigation on the left and then on "PayPal" (9).
-
-  -  Activate the PayPal module in OpenOlat by activating PayPal (10).  
-
-  - Select the value "PayPal Smart Buttons" (11) as the integration. Only with this variant is it possible to pay by credit card without the buyer having to open a PayPal account.
-
-  - Select the currency and then enter the "Client ID" (12) and the "Client secret" (=key) (13) that you have previously saved temporarily in a document. 
-
-![](assets/Paypal_config_4.png){ class=" lightbox" }
-
 [To the top of the page ^](#PayPal)

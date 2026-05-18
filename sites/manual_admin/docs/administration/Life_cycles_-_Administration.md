@@ -8,7 +8,7 @@ The following life cycles can be administered in this section:
 
 ## Groups {: #lifecycle_groups}
 
-In der OpenOlat-Administration können Einstellungen für den [Gruppen-Lebenszyklus](Automatic_Group_Lifecycle.md) vorgenommen werden. Dieser vollzieht sich in den Schritten
+In OpenOlat Administration, settings for the [group lifecycle](Automatic_Group_Lifecycle.md) can be configured. It proceeds in the following steps:
 
 * Inactivation
 * Deletion
@@ -38,9 +38,16 @@ Course owners can be automatically informed of any status changes.
 
 Similar to the automatically controlled course lifecycle, the lifecycle of OpenOlat users' accounts can also be automated. 
 
-* In a first step, the accounts of users who have not been active for a longer period of time can be deactivated and the user status set to "inactive".
-* If the user does not log in again within the specified period, the user account is deleted. Depending on the configuration, users may receive an email with a corresponding message before or after the account is deactivated or deleted.
-* It can be set up that the irrevocable deletion in the last step should take place automatically or exclusively manually.
+!!!The lifecycle runs in separate steps and is fed by partly different settings. The following table provides an overview.
+
+| Variant | Settings source | Mail actions for automations | Version |
+|---------|----------------|------------------------------|---------|
+| Account expiry | **a)** User Management > Create user (field "Account expiry") or subsequently in the "Account" tab **b)** Automatically and thus system-wide, configured in Administration. **Important:** Both paths can be active simultaneously; the one whose time expires first takes precedence. | Configurable before and/or after account expiry | :octicons-tag-24:{ title="Available since Release 15.4" } |
+| Deactivation | Automatically: Administration > Life cycles > Account (inactivity period) or Manually: User Management > Users > "Account" tab | Configurable before and/or after deactivation | :octicons-tag-24:{ title="Available since at least OO 20.1" } |
+| Deletion | Automatically: Administration > Life cycles > Account (after deactivation period) or Manually: User Management > Delete user | Configurable before and/or after deletion | :octicons-tag-24:{ title="Available since at least OO 20.1" } |
+
+!!!General rule: If no new login occurs within the specified period, the user account is deleted.
+Additionally: It can be set up that the irrevocable deletion in the last step takes place automatically or exclusively manually.
 
 Different notifications can be formulated for each step in the context of the steps and the time of the mail notification can be defined.
 

@@ -67,9 +67,15 @@ An **offer** defines who can register for or book the selected learning resource
 
 Several different offers can be created for the same course. For example, the same course can then be offered free of charge to some participants and for a fee to others.
 
+![catalog20_2angebote_v1_de.png](assets/catalog20_2angebote_v1_de.png){ class="shadow lightbox" }
+
 Offers can also be limited to different parts of organizations (sub-organizations).
 
-![catalog20_2angebote_v1_de.png](assets/catalog20_2angebote_v1_de.png){ class="shadow lightbox" }
+!!! info "Note: Organisation membership"
+
+    If an offer is restricted to a specific organisation or sub-organisation, it will appear in the catalog **only for users who are members of that organisation**. Users outside the organisation will not see the offer – even if the course is published.
+
+    Organisation membership is managed in the user administration (**Administration > User Management**).
 
 [To the top of the page ^](#offers)
 

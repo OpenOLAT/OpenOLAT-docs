@@ -25,3 +25,19 @@ After downloading a corresponding document, the metadata shows who edited the do
 !!! warning "Note"
 
     For video files the course element "Video" should be used and for HTML pages the course element "Single page" instead of "Document".
+
+As of Release 18.1, OpenOlat uses an integrated PDF viewer (pdf.js) :octicons-tag-16:{ title="since Release 18.1 (OO-6996)" } which provides significantly better rendering than the previous OnlyOffice view. Large PDF files are loaded progressively if the file supports this. The PDF viewer is read-only — a separate editor is required for editing.
+
+draw.io diagrams :octicons-tag-16:{ title="since Release 18.1 (OO-7090)" } support simultaneous editing by multiple users :octicons-tag-16:{ title="since Release 18.1 (OO-7091)" }. Multiple participants can open and edit a diagram at the same time — changes are synchronized in real time. This makes the Document course element with draw.io suitable for collaborative group work. To create a diagram, select **"Create document" → "Show more formats" → "Diagram"** or **"Whiteboard"**.
+
+!!! warning "Note"
+
+    Under heavy simultaneous use, synchronization may be briefly interrupted. Reloading the document restores the connection.
+
+### Configure preview height :octicons-tag-16:{ title="since Release 15.4 (OO-5116)" }
+
+In the "Document" tab of the course editor, the height of the document preview can be set. By default, **"Automatic"** is selected — the document uses the available page space. For certain formats (e.g. PowerPoint) this may result in black borders. A fixed height allows for precise adjustment of the display.
+
+### Document display in Lightbox mode :octicons-tag-16:{ title="since Release 18.1 (OO-6957)" }
+
+As of Release 18.1, documents, images and videos are displayed by default in **Lightbox mode** — as an overlay on the current page, without opening a new browser window. When switching to editing mode, the document continues to open in a separate window.
