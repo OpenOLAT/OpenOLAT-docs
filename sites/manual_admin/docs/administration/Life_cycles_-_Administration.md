@@ -47,8 +47,9 @@ Similar to the automatically controlled course lifecycle, the lifecycle of OpenO
 | Deactivation | Automatically: Administration > Life cycles > Account (inactivity period) or Manually: User Management > Users > "Account" tab | Configurable before and/or after deactivation | :octicons-tag-24:{ title="Available since at least OO 20.1" } |
 | Deletion | Automatically: Administration > Life cycles > Account (after deactivation period) or Manually: User Management > Delete user | Configurable before and/or after deletion | :octicons-tag-24:{ title="Available since at least OO 20.1" } |
 
-!!!General rule: If no new login occurs within the specified period, the user account is deleted.
-Additionally: It can be set up that the irrevocable deletion in the last step takes place automatically or exclusively manually.
+!!! note
+    General rule: If no new login occurs within the specified period, the user account is deleted.
+    Additionally: It can be set up that the irrevocable deletion in the last step takes place automatically or exclusively manually.
 
 Different notifications can be formulated for each step in the context of the steps and the time of the mail notification can be defined.
 
