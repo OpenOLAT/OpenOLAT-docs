@@ -86,13 +86,13 @@ To-dos relating to a specific course can be created directly here in the course.
 [To the top of the page ^](#course_administration)
 
 
-## Lectures and absences {: #events_and_absences_}
+## Events and absences {: #events_and_absences_}
 
 ![7_green_24.png](assets/7_green_24.png){ class=" aside-left-lg" }
   
-Here you will find the tool for the administration of participants' lectures and absences.
+Here you will find the tool for the administration of participants' events and absences.
 
-[See the details >](Lectures_and_absences.md)<br>
+[See the details >](Events_and_absences.md)<br>
 [To the top of the page ^](#course_administration)
 
 

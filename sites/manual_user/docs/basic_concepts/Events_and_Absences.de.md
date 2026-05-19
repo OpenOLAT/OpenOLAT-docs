@@ -5,12 +5,14 @@
 
 In OpenOlat gibt es grundsätzlich 2 Arten von Terminen:
 
-- einfache Termine (ohne die Möglichkeit zur Erfassung von Absenzen)
-- Termine mit Absenzen:  Termine im Kurs, sie erscheinen im [Course Planer](../area_modules/Course_Planner.de.md) und der [Absenzenverwaltung](../area_modules/Absence_Management.de.md).
-Auf diese Termine können auch Dozent:innen gebucht werden. (Nur Betreuer:innen können zu Dozent:innen gemacht werden.)
+- einfache Termine (Einträge in Kalendern)
+- Termine mit Zusatzoptionen: Sie erscheinen in [Kursen ](../learningresources/Events_and_absences.de.md), im [Course Planer](../area_modules/Course_Planner.de.md) und der [Absenzenverwaltung](../area_modules/Absence_Management.de.md).
+Diese Termine können mit Online-Meetings verknüpft werden und es besteht die Möglichkeit zur Erfassung von Absenzen. Auch Dozent:innen können auf diese Termine gebucht werden. (Hinweis: Nur Betreuer:innen können zu Dozent:innen gemacht werden.)
+
 
 |                           | einfacher Termin | Termin mit Absenzen |
 | ------------------------- |:-----------------:|:--------------------:|
+|[Termine in Kursen](../learningresources/Events_and_absences.de.md#edit_events)|   |x|
 |[Termine im Course Planner](../area_modules/Course_Planner_Events.de.md)|   |x|
 |[Termine in der Absenzenverwaltung](#access_absences)|   |x|
 |[Termine in Projekten](../area_modules/Project_Schedule.de.md)| x |  | 

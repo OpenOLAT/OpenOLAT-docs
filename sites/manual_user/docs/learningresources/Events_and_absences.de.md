@@ -59,7 +59,7 @@ Zum Hinzufügen (weiterer) Termine verwenden Sie den Button "Termin hinzufügen"
 
 Es öffnet sich ein Popup zur Erfassung aller Angaben zum Termin. 
 
-![events_and_absences_tab_events_create2_v2_de.png](assets/events_and_absences_tab_events_create2_v2_de.png){ class="shadow lightbox" }
+![events_and_absences_tab_events_create2_v3_de.png](assets/events_and_absences_tab_events_create2_v3_de.png){ class="shadow lightbox" }
 
  **Titel**: Vergeben Sie einen sinnvollen Namen.
 
@@ -78,6 +78,8 @@ Es öffnet sich ein Popup zur Erfassung aller Angaben zum Termin.
  **Online Meeting**: Soll der Termin online stattfinden, kann das Meeting direkt von hier aus organisiert werden. Man hat die Möglichkeit, aus einem Termin ein BigBlueButton-, Teams- oder z.B. Zoom-Meeting zu starten und es auch später wieder über "Termine" abzurufen.
  Das Online Meeting übernimmt dabei Personen und Beschreibungen aus dem Termin (Personen, Titel, Zeit...).
 Lernende haben Zugriff über den Kalender oder das Icon "Termine" in der Toolbar.
+
+**URL für Aufzeichnung**: Es kann eine beliebige URL angegeben werden, unter der eine Aufzeichnung des Meetings aufgerufen wird. Die URL kann auch angegeben werden, wenn der Toggle-Button "Online Meeting" ausgeschaltet ist.
 
 **Fachbereich**: Hier können Sie den Termin einem oder mehreren Begriffen einer hinterlegten Taxonomie zuordnen. Dadurch kann der Termin dann schneller gefunden werden.
 

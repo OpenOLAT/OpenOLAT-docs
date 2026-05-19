@@ -92,7 +92,7 @@ To-dos, die einen bestimmten Kurs betreffen, können direkt hier im Kurs erstell
   
 Hier finden Sie das Werkzeug zur Administration von Terminen und Abwesenheiten der Teilnehmenden.
 
-[Zu den Details >](Lectures_and_absences.de.md)<br>
+[Zu den Details >](Events_and_absences.de.md)<br>
 [Zum Seitenanfang ^](#course_administration)
 
 

@@ -58,7 +58,7 @@ To add further events, use the "Add event" button at the top right above the lis
 
 A pop-up window will open for you to enter all the details for the event.
 
-![events_and_absences_tab_events_create2_v2_de.png](assets/events_and_absences_tab_events_create2_v2_de.png){ class="shadow lightbox" }
+![events_and_absences_tab_events_create2_v3_de.png](assets/events_and_absences_tab_events_create2_v3_de.png){ class="shadow lightbox" }
 
 **Title**: Give it a meaningful name.
 
