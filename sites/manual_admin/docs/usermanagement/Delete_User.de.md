@@ -54,13 +54,17 @@ Auch über den Link "Konten löschen" können Benutzer:innen ausgewählt und der
 ![delete_user_var2_step1_v1_de.png](assets/delete_user_var2_step1_v1_de.png){ class="shadow lightbox" }
 
 **Schritt 2:**<br>
-Hier finden Sie zunächst die potenziellen Kanditat:innen für eine Löschung in 3 Tabs vorsortiert (dem Lebenszyklus-Mangement entsprechend). Sie finden so schneller alle Benutzer:innen ohne Aktivität oder bereits deaktivierte Benutzer:innen.
+Die potenziellen Kandidat:innen für eine Löschung sind auf 3 Tabs vorsortiert — entsprechend den Phasen des Benutzerkonten-Lebenszyklus:
 
-**Tab "Konten ohne Aktivität":** Hier werden alle Benutzer:innen angezeigt, die über einen bestimmten Zeitraum nicht mehr in OpenOlat aktiv waren. Der Zeitraum, der zu einer Auflistung hier führt, kann von Administrator:innen festgelegt werden. 
+**Tab "Konten ohne Aktivität":** Benutzer:innen, die seit einem konfigurierten Zeitraum nicht mehr aktiv waren. Die Inaktivitätsfrist legt die Administration fest.
 
-**Tab "Deaktivierte Konten":** Hier werden alle Benutzer:innen angezeigt, deren Konto bereits automatisch oder manuell deaktiviert wurden. Sie können sich auch Konten anzeigen lassen, deren Inaktivierung in einer bestimmten Zeit ansteht.
+**Tab "Deaktivierte Konten":** Benutzer:innen, deren Konto bereits automatisch oder manuell deaktiviert wurde, sowie Konten mit bevorstehender Deaktivierung.
 
-**Tab "Bereit zu löschen":** tbd
+**Tab "Bereit zu löschen":** Benutzer:innen, deren Konto die konfigurierte Deaktivierungsperiode überschritten hat und zur endgültigen Löschung bereit ist.
+
+!!! info "Konfiguration des Benutzerkonten-Lebenszyklus"
+    Der Lebenszyklus läuft in drei Phasen: **Kontoablauf**, **Deaktivierung** und **Löschung**. Welche Fristen und Benachrichtigungen gelten, wird unter Administration > Lebenszyklen > Konto festgelegt.<br>
+    [Details zum Benutzerkonten-Lebenszyklus](../administration/Life_cycles_-_Administration.de.md#lifecycle_accounts)
 
 ![delete_user_var2_step2_v1_de.png](assets/delete_user_var2_step2_v1_de.png){ class="shadow lightbox" }
 

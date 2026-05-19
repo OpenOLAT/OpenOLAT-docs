@@ -88,20 +88,27 @@ Grundlage sind die Voreinstellungen des Administrators:
 
 <br>
 
-## Benutzerkonten-Lifecycle {: #user_account_lifecycle} 
+## Benutzerkonten-Lifecycle {: #user_account_lifecycle}
 
 Die Nutzung des Benutzerkonten-Lifecycles kann durch alle Personen erfolgen, die Zugriff auf die Benutzerverwaltung haben.
 
-Grundlage sind auch hier die Voreinstellungen des Administrators:
+Grundlage sind die Voreinstellungen der Administration:
 
 ![lifecycle_benutzer2_admin_v1_de.png](assets/lifecycle_benutzer2_admin_v1_de.png){ class="shadow lightbox" }
 
 <br>
 
-* Im ersten Schritt können die Konten von Benutzern, die über einen längeren Zeitraum nicht aktiv waren, zunächst deaktiviert und der Benutzerstatus auf "inaktiv" gesetzt werden. Diese Konten erscheinen nun in der Liste "inaktive Benutzer".
-* Erfolgt im festgelegten Zeitraum kein erneuter Login, so kann das Benutzerkonto automatisch gelöscht werden.
-* Je nach Konfiguration können die Benutzer vor bzw. nach der Deaktivierung oder Löschung des Kontos eine E-Mail mit einem entsprechenden Hinweis erhalten.
-* Es können die unterschiedlichen Benachrichtigungstexte im Zusammenhang mit der Kontendeaktivierung formuliert und der Zeitpunkt der Mailbenachrichtigung definiert werden. Ferner kann definiert werden, ob inaktive Benutzer gelöscht werden sollen.
+Der Lebenszyklus eines Benutzerkontos läuft in drei Phasen ab:
+
+* **Kontoablauf** — Ein festes Ablaufdatum wird pro Konto oder systemweit festgelegt. Läuft das Datum ab, wird das Konto deaktiviert oder gelöscht.
+* **Deaktivierung** — Konten ohne Login-Aktivität während der konfigurierten Inaktivitätsfrist werden automatisch oder manuell deaktiviert.
+* **Löschung** — Nach der Deaktivierungsperiode erfolgt die endgültige Löschung automatisch oder manuell. Je nach Konfiguration kann sie auch ausschliesslich manuell ausgelöst werden.
+
+Zu jeder Phase können Benachrichtigungsmails konfiguriert werden — vor oder nach dem jeweiligen Schritt.
+
+!!! info "Konfiguration in der Administration"
+    Fristen, Mailbenachrichtigungen und Automatisierungsgrad für alle drei Phasen werden unter Administration > Lebenszyklen > Konto eingestellt.<br>
+    [Details zum Benutzerkonten-Lebenszyklus](../../manual_admin/administration/Life_cycles_-_Administration.de.md#lifecycle_accounts)
 
 ---
 
