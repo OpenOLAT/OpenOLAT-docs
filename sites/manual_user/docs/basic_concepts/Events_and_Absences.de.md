@@ -10,15 +10,16 @@ In OpenOlat gibt es grundsätzlich 2 Arten von Terminen:
 Diese Termine können mit Online-Meetings verknüpft werden und es besteht die Möglichkeit zur Erfassung von Absenzen. Auch Dozent:innen können auf diese Termine gebucht werden. (Hinweis: Nur Betreuer:innen können zu Dozent:innen gemacht werden.)
 
 
-|                           | einfacher Termin | Termin mit Absenzen |
+|                           | einfache Termine | Termine mit Zusatzoptionen |
 | ------------------------- |:-----------------:|:--------------------:|
 |[Termine in Kursen](../learningresources/Events_and_absences.de.md#edit_events)|   |x|
+|[Termine im Kursbaustein Terminplanung](../learningresources/Course_Element_Appointment_Scheduling.de.md)|   |x|
 |[Termine im Course Planner](../area_modules/Course_Planner_Events.de.md)|   |x|
 |[Termine in der Absenzenverwaltung](#access_absences)|   |x|
-|[Termine in Projekten](../area_modules/Project_Schedule.de.md)| x |  | 
+|[Terminplan in Projekten](../area_modules/Project_Schedule.de.md)| x |  | 
 |[Termine in (Projekt-)To-dos](../area_modules/Project_Schedule.de.md)| x |  | 
 |[Termine im persönlichen Menü](../personal_menu/To-Dos.de.md)| x | x | 
-|[Termine in Kalendern](../personal_menu/Calendar.de.md#create_entry)| x | x | 
+|[Termine in Kalendern](../personal_menu/Calendar.de.md#create_entry)| x |  | 
 |[Termine in BigBlueButton](../../manual_admin/administration/BigBlueButton_module.de.md#tab_online-meetings)| x |  | 
 |[Termine in Microsoft Teams](../learningresources/Course_Element_Microsoft_Teams.de.md#raum-konfigurieren-bei-geschlossenem-kurseditor)| x |  | 
 
