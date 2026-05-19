@@ -38,7 +38,8 @@ Course owners can be automatically informed of any status changes.
 
 Similar to the automatically controlled course lifecycle, the lifecycle of OpenOlat users' accounts can also be automated. 
 
-!!!The lifecycle runs in separate steps and is fed by partly different settings. The following table provides an overview.
+!!! note
+    The lifecycle runs in separate steps and is fed by partly different settings. The following table provides an overview.
 
 | Variant | Settings source | Mail actions for automations | Version |
 |---------|----------------|------------------------------|---------|
