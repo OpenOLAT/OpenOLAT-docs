@@ -87,20 +87,27 @@ The basis is the administrator's default settings:
 
 <br>
 
-## User account lifecycle {: #user_account_lifecycle} 
+## User account lifecycle {: #user_account_lifecycle}
 
 The user account lifecycle can be used by anyone who has access to the user administration.
 
-The basis for this is also the default settings of the administrator:
+The basis is the default settings of the administration:
 
 ![lifecycle_user2_admin_v1_en.png](assets/lifecycle_user2_admin_v1_en.png){ class="shadow lightbox" }
 
 <br>
 
-* In the first step, the accounts of users who have not been active for a longer period of time can first be deactivated and the user status set to "inactive". These accounts will now appear in the list under "inactive users".
-* If there is no new login within the specified period, the user account can be deleted automatically.
-* Depending on the configuration, users may receive an e-mail with an appropriate notice before or after account deactivation or deletion.
-* The different notification texts related to account deactivation can be formulated and the time of mail notification can be defined. Furthermore, it can be defined whether inactive users should be deleted.
+The lifecycle of a user account runs through three phases:
+
+* **Account expiry** — A fixed expiry date is set per account or system-wide. When the date expires, the account is deactivated or deleted.
+* **Deactivation** — Accounts without login activity during the configured inactivity period are deactivated automatically or manually.
+* **Deletion** — After the deactivation period, the account is permanently deleted automatically or manually. Depending on the configuration, deletion can also be restricted to manual action only.
+
+Notification emails can be configured for each phase — before or after the respective step.
+
+!!! info "Configuration in the administration"
+    Deadlines, email notifications and the degree of automation for all three phases are configured under Administration > Life Cycles > Account.<br>
+    [Details on the user account lifecycle](../../manual_admin/administration/Life_cycles_-_Administration.md#lifecycle_accounts)
 
 ---
 
