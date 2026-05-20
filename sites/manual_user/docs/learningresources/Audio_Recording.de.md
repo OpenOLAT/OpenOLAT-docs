@@ -14,7 +14,7 @@
 * Auf der Gegenseite muss in OpenOlat die **Möglichkeit zu Audioaufnahmen** durch den/die Administrator:in aktiviert worden sein:<br>
 **Administration > Module > Audio-/Videoaufnahmen**
 
-## Wo können in OpenOlat Audios aufgenommen werden? {: #audios_recording}
+## Wo können in OpenOlat Audios aufgenommen werden? :octicons-tag-16:{ title="ab Release 17.1 (OO-6327)" } {: #audios_recording}
 
 ### Aufnahme im Media Center
  

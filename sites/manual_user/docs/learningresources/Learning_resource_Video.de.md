@@ -197,7 +197,7 @@ Kapitel können anschliessend sowohl bearbeitet, als auch wieder gelöscht werde
 ![Kapitel in Videos](assets/Video_Kapitel.jpg)
 
 
-### Video-Editor: Annotationen {: #video_annotation}
+### Video-Editor: Annotationen :octicons-tag-16:{ title="ab Release 17.2 (OO-6344)" } {: #video_annotation}
 
 Anmerkungen bzw. Annotationen können an beliebigen Stellen im Video ebenfalls hinterlegt werden, z.B. um besonders wichtige Stellen hervorzuheben oder bestimmte Aspekte zu ergänzen z.B. Literaturangaben. Neben Text können auch Links gesetzt werden, die z.B. zu weiteren Informationen führen. 
 
@@ -210,7 +210,7 @@ Geben Sie den gewünschten Text ein, legen Sie die Dauer der Anzeige fest und w�
 Sie können beliebig viele Annotationen hinzufügen und über die Pfeile zwischen ihnen wechseln. Über das 3-Punkte Menü können Annotationen auch wieder gelöscht werden. 
 
 
-### Video-Editor: Segmente {: #video_segments}
+### Video-Editor: Segmente :octicons-tag-16:{ title="ab Release 17.2 (OO-6598)" } {: #video_segments}
 
 Segmente sind spezifische Bereiche im Video, die z.B. einem übergeordneten Ansatz oder einer Strukturierung zugeordnet werden. Die Segmente sind besonders in Kursen für die Kursbausteine "Video" und "Videoaufgabe" relevant und können hier eingeblendet und verwendet werden. 
 
@@ -257,7 +257,7 @@ b) Lehrende definieren verschiedene Phasen eines Prozesses und kennzeichnen dies
 c) Bei einem Beobachtungsvideo einer Kindergarten-Szene, eines Bewerbungsgesprächs oder sonstigen Realvideos sollen bestimmte typische Aspekte oder Fehler identifiziert werden.  
 
 
-### Video-Editor: Kommentare {: #video_comments}
+### Video-Editor: Kommentare :octicons-tag-16:{ title="ab Release 17.2 (OO-6766)" } {: #video_comments}
 
 Kommentare lassen sich gezielt an einer bestimmten Stelle im Video platzieren. Sie können zentrale Kernaussagen hervorheben, zusätzliche Informationen ergänzen oder auf den folgenden Videoabschnitt vorbereiten. Jeder Kommentar wird mit dem Namen der erstellenden Person gekennzeichnet.
 
