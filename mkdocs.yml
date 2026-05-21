@@ -325,6 +325,7 @@ plugins:
           General information on the search : Allgemeines zur Suche
           Global search : Globale Suche
           Glossary : Glossar
+          Glossary alphabetical : Glossar alphabetisch
           GoToMeeting : GoToMeeting
           Grading / Evaluation Scale : Noten / Bewertungskala 
           Group Administration : Gruppenadministration
@@ -497,6 +498,7 @@ plugins:
           Question Bank Administration : Fragenpool-Administration
           Question rules : Frageregeln
           Record of Course Activities : Aufzeichnung der Kursaktivitäten
+          Reference glossary : Referenzglossar
           Reduce storage consumption : Speicherverbrauch reduzieren
           Registration, Login and Logout : Registrierung, Login und Logout
           Release notes: Release Notes
@@ -642,7 +644,8 @@ nav:
   - User manual: '!include ./sites/manual_user/mkdocs.yml' 
   - How to: '!include ./sites/manual_how-to/mkdocs.yml' 
   - Admin manual: '!include ./sites/manual_admin/mkdocs.yml' 
-  - Developer cookbook: '!include ./sites/manual_dev/mkdocs.yml' 
+  - Developer cookbook: '!include ./sites/manual_dev/mkdocs.yml'
+  - Reference glossary: '!include ./sites/reference_glossary/mkdocs.yml'
 # Invisible fake pages to fix incompatibility between monorepo and i18n plugin
   - '': '!include ./sites/en/mkdocs.yml' 
   - '': '!include ./sites/de/mkdocs.yml' 

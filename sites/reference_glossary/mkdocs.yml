@@ -1,0 +1,5 @@
+site_name: reference_glossary
+
+nav:
+  - Glossary: "glossary.md"
+  - Glossary alphabetical: "alphabetical/glossary_alphabetical.md"
