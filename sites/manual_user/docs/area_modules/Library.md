@@ -7,7 +7,7 @@
 * There is only one library per OpenOlat instance.
 * It usually appears as a menu item in the top navigation bar.
 * Technically speaking, the library is a linked resource folder that can be edited in the authoring area.
-* Documents in the library can be commented on by users, downloaded or sent directly by e-mail.
+* Documents in the library can be commented on by users, downloaded or sent directly by email.
 
 [To the top of the page  ^](#library)
 
@@ -47,7 +47,7 @@ After uploading a document, it is first checked by default before it is displaye
 
 Owners of the resource folder linked to the library are informed of a new upload and must approve the document.
 
-Alternatively, another person can be designated for the check and an e-mail address can be entered by the administrator in (Administration > Modules > Library). If no address is entered there, the owner of the learning resource will receive the check request.
+Alternatively, another person can be designated for the check and an email address can be entered by the administrator in (Administration > Modules > Library). If no address is entered there, the owner of the learning resource will receive the check request.
 
 As of release 19.1, administrators can also deactivate this check process (Administration > Modules > Library). However, if you deactivate the check, you should be aware that anyone who has access to the library can upload documents there without checking them.
 

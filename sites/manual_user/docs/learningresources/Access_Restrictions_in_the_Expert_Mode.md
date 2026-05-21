@@ -193,7 +193,7 @@ gender| Gender||| countryCode| Country code
 Organization|| Professional contact details|| Miscellaneous  ||
 institutionalName| Institution| department| Department / Company | typeOfUser| Type of user  
 institutionalUserIdentifier| Institution identifier (registration number) | officeStreet| Address / P.O. box | rank| Service grade / employment title  
-| institutionalEmail| Institutional e-mail | extendedOfficeAddress| Extended office address | socialSecurityNumber| Social security number  
+| institutionalEmail| Institutional email | extendedOfficeAddress| Extended office address | socialSecurityNumber| Social security number  
 | orgUnit| Organizational unit / study group | officeZipCode| Office ZIP | degree| Academic degree  
 | studySubject| Field of studies | officeCity| Office city | position| Role / position
 | graduation| Graduation year| officeCountry| Office country | userInterests| Expertise
@@ -346,22 +346,22 @@ Returns the value TRUE if the course is within an assessment.
 
  **hasUserProperty("email","john.doe@[openolat.org](http://openolat.org/)")  
 ** Generates TRUE, if the course participant is registered in OpenOlat with
-the listed e-mail address.  
+the listed email address.  
 
  **hasUserProperty("typeOfUser","staff", " , ")**  
 Generates TRUE, if the student also has the value "staff" in the "Type of
 user" field, e.g. "staff, student".  
 
  **userPropertyEndswith("email","@openolat.org")**  
-Generates TRUE, if the e-mail address of the course participant ends with
+Generates TRUE, if the email address of the course participant ends with
 _@openolat.org_.  
 
  **isInUserProperty("email","doe@openo")**  
-Generates TRUE, if the term _doe@openo_ is a part of the e-mail address of the
+Generates TRUE, if the term _doe@openo_ is a part of the email address of the
 course participant.  
 
  **isNotInUserProperty("email","doe@openo")**  
-Generates FALSE, if the term _doe@openo_ is a part of the e-mail address of the
+Generates FALSE, if the term _doe@openo_ is a part of the email address of the
 course participant.  
 
 !!! warning "Attention"
@@ -413,7 +413,7 @@ Variable: You can retrieve AAI attributes by using the syntax **_hasAttribute("_
 swissEduPersonUniqueID| [845938727494@uzh.ch](mailto:845938727494@uzh.ch)|Unambiguous personal identification number  
 surname| Doe| Last name  
 givenName| John| First name  
-mail| [john.doe@uzh.ch](mailto:john.doe@uzh.ch)| Preferred e-mail address  
+mail| [john.doe@uzh.ch](mailto:john.doe@uzh.ch)| Preferred email address  
 swissEduPersonHomeOrganization| [uzh.ch](http://uzh.ch)| Home organisation/university  
 swissEduPersonHomeOrganizationType| university| Type of home organisation  
 eduPersonAffiliation| student| Position within this organisation  

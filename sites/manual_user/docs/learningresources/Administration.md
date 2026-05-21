@@ -120,7 +120,7 @@ If activated, course-related badges can be created, edited and displayed here.
 
 ![10_green_24.png](assets/10_green_24.png){ class=" aside-left-lg" }
 
-The reminder function is used to organize the automatic sending of e-mails. If activated, course-related badges can be created, edited and displayed here.
+The reminder function is used to organize the automatic sending of emails. If activated, course-related badges can be created, edited and displayed here.
 
 [See the details >](Course_Reminders.md)<br>
 [To the top of the page ^](#course_administration)

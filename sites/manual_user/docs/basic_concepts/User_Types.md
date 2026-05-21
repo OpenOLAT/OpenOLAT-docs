@@ -16,7 +16,7 @@ Registered users can also be assigned one or more additional roles. Each of thes
 ### Further user types
 
 * **External users**<br>
-are known in OpenOlat with their e-mail address. However, there is no complete data record with user data, as is the case with registered users. Accordingly, external users cannot take on most roles in OpenOlat as they require full registration.
+are known in OpenOlat with their email address. However, there is no complete data record with user data, as is the case with registered users. Accordingly, external users cannot take on most roles in OpenOlat as they require full registration.
 External users can be converted to full registered users if required.
 
 
@@ -28,5 +28,5 @@ Guests have limited access to OpenOlat without registering. They can view learni
 
 !!! info "Note"
 
-    It goes without saying that almost all roles can only be assigned to registered users. Anonymous guests and external users (only known by e-mail) cannot take on any tasks (such as coach or administrator) within OpenOlat.
+    It goes without saying that almost all roles can only be assigned to registered users. Anonymous guests and external users (only known by email) cannot take on any tasks (such as coach or administrator) within OpenOlat.
 

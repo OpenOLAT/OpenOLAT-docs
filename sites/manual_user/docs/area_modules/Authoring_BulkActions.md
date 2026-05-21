@@ -16,15 +16,15 @@ Clicking on the 3 dots at the end of a table row (10) displays options, which ar
 
 ---
 
-### 1. Send e-mail
+### 1. Send email
 
-Select the desired learning resources and click on "Send e-mail". A dialog opens. You can now define to whom the e-mail should be sen. Possible recipients are **all course owners, all course coaches and all participants**.
+Select the desired learning resources and click on "Send email". A dialog opens. You can now define to whom the email should be sen. Possible recipients are **all course owners, all course coaches and all participants**.
 
 Add a subject and the desired message. If necessary, an attachment and a copy for the sender can be added. 
 
 !!! info "Note"
 
-    You can send the e-mail to all courses that are displayed to you. This also includes courses, which are visible to **all authors**. You do not have to be a member of the course to use this function. 
+    You can send the email to all courses that are displayed to you. This also includes courses, which are visible to **all authors**. You do not have to be a member of the course to use this function. 
 
 ### 2. Change status
 
@@ -32,7 +32,7 @@ Select the publication status that should apply to all selected learning resourc
 
 ### 3. Modify owners
 
-All **owners of the selected learning resources** are displayed here. You can remove them from several courses at the same time or add new owners to the selected learning resources. An e-mail notification option completes the editing.
+All **owners of the selected learning resources** are displayed here. You can remove them from several courses at the same time or add new owners to the selected learning resources. An email notification option completes the editing.
 
 ### 4. Metadata and settings
 
@@ -66,7 +66,7 @@ A learning resource can only be deleted by the owner of the learning resource, l
 With the **button above the table** you can quickly delete **several learning resources at once**.<br>
 If you only want to delete a **single learning resource**, you can also click on the **3 dots at the end of the respective table row** and then on the option "Delete".
 
-You must confirm this action again in the menu for the sake of safety. The owners of the learning resource will be notified by e-mail, if configured.
+You must confirm this action again in the menu for the sake of safety. The owners of the learning resource will be notified by email, if configured.
 
 After deletion, the learning resources will only appear in the ["**Deleted**" tab](../area_modules/Authoring.md#authoring-deleted) (trash function) for the respective owners, learning resource managers, and administrators.
 

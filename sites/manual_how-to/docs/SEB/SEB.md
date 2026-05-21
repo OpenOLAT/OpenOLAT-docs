@@ -233,7 +233,7 @@ Beispiel: SEBClientSettings.seb
 ---
 
 ### Step 7: Send configuration file {: #distribute_SEB_configfile}
-In order for the test participants to be able to start a test in the SEB, they must run a configuration file on their computer. (Beispiel: SEBClientSettings.seb) The file can be sent to the exam participants by e-mail, for example, or offered for download via a page.
+In order for the test participants to be able to start a test in the SEB, they must run a configuration file on their computer. (Beispiel: SEBClientSettings.seb) The file can be sent to the exam participants by email, for example, or offered for download via a page.
 
 !!! tip "Note for download"
 
@@ -269,7 +269,7 @@ The installation file can be found on the [manufacturer's website](http://www.sa
 In order to identify difficulties, a trial test organized by the coaches in advance is recommended. This ensures that the SEB is installed on all computers in advance.
 
 **Step 2: Receiving the configuration file**<br>
-All exam participants must receive the configuration file from their coaches (e.g. by e-mail or as a download).
+All exam participants must receive the configuration file from their coaches (e.g. by email or as a download).
 
 
 **Step 3: Start test by calling up the configuration file**<br>

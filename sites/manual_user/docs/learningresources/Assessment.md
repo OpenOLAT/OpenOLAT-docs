@@ -9,7 +9,7 @@ OpenOlat provides various course elements for knowledge testing. The central cou
 
 Most course elements in the assessment category can also be given points if required and then will be given the "Highscore" configuration tab. With the allocation of points, further features such as the addition of points or the passing/failing of a course based on the assessments of different course elements can be added. A course element [structure](Knowledge_Transfer.md#course-element-structure--structure) is used for this.
 
-Another configuration tab that is available for most assessment course elements (except for self-test and survey) is the tab "Reminder". Here, e-mails can be sent depending on the progress of the respective course element. For example, a mail can be sent if a task has not yet been worked on by a certain date. The possibilities are similar to those in the menu "Reminder" in the course administration for which you can find more information [here](../learningresources/Course_Reminders.md).
+Another configuration tab that is available for most assessment course elements (except for self-test and survey) is the tab "Reminder". Here, emails can be sent depending on the progress of the respective course element. For example, a mail can be sent if a task has not yet been worked on by a certain date. The possibilities are similar to those in the menu "Reminder" in the course administration for which you can find more information [here](../learningresources/Course_Reminders.md).
 
 The OpenOlat [Questionnaire](../learningresources/Form_Elements.md#question-rules) or the course element Survey can also be found in the assessment category.
 
@@ -152,7 +152,7 @@ Es steht ein Übungsmodus und ein scharfer Testmodus zur Verfügung.
 
 Using the course element "Form" you can add the learning resource form to a course. The form works similar to the course element "Survey" and can also be filled out only once. However, with the form it is visible which participant has filled in what in the form. Thus, in contrast to the survey (at least in the standard setting), filling in the form is not anonymous. 
 
-For the completion of the course element, a last deadline can be defined in the tab "Form". A [course reminder](../learningresources/Course_Reminders.md) can also be linked in addition. In contrast to the survey module, participants automatically receive a confirmation e-mail with the date and time of submission as well as their completed form as a PDF attachment when they submit the completed form.
+For the completion of the course element, a last deadline can be defined in the tab "Form". A [course reminder](../learningresources/Course_Reminders.md) can also be linked in addition. In contrast to the survey module, participants automatically receive a confirmation email with the date and time of submission as well as their completed form as a PDF attachment when they submit the completed form.
 
 Coaches can see in the overview table in the course run which participants have already completed the form and which have not. Forms that have already been submitted can be reopened by the coach for further processing by the participant, or they can be completely reset. By clicking on the participant, the completed form can be viewed. The form data of all participants are available as Excel export.
 
@@ -160,7 +160,7 @@ The use of this course element makes sense e.g. if the learners have to fill in 
 
 !!! Info 
 
-    Anders als beim Kursbaustein Umfrage erfolgt für diesen Kursbaustein allerdings keine spezifische grafische Auswertungsübersicht. 
+    Unlike the Survey course module, however, this course module does not generate a specific graphical summary of the results. 
 
 ##  Course Element: Survey {: #course_element_survey}
 

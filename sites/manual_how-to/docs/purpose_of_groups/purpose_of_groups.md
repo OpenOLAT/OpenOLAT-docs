@@ -107,7 +107,7 @@ There are many reasons and intentions why groups are formed. Depending on the pu
 **Tools in OpenOlat:**
 
 * access control to courses (access only in a certain time window)
-* collaboration tools: chat, messages, e-mail
+* collaboration tools: chat, messages, email
 * course element group task
 * course element topic assignment
 * course element documents (for joint editing of a document)
@@ -184,7 +184,7 @@ There are many reasons and intentions why groups are formed. Depending on the pu
 * course element scheduling
 * different calendars, also with calendar import
 * course element topic assignment
-* collaboration tools: chat, messages, e-mail
+* collaboration tools: chat, messages, email
 * ...
 
 
@@ -208,7 +208,7 @@ There are many reasons and intentions why groups are formed. Depending on the pu
 * course element participant list
 * course element file discussion
 * course element assessment
-* collaboration tools: chat, messages, e-mail
+* collaboration tools: chat, messages, email
 * ...
 
 
@@ -350,7 +350,7 @@ There are many reasons and intentions why groups are formed. Depending on the pu
 * course element wiki (wiki entry per group)
 * group folder
 * group coach
-* collaboration tools: chat, messages, e-mail
+* collaboration tools: chat, messages, email
 * ...
 
 
@@ -368,7 +368,7 @@ There are many reasons and intentions why groups are formed. Depending on the pu
 
 * virtual classrooms (BBB, Teams, etc.)
 * video recording
-* collaboration tools: chat, messaging, e-mail
+* collaboration tools: chat, messaging, email
 * course element video task
 * ...
 
@@ -426,7 +426,7 @@ There are many reasons and intentions why groups are formed. Depending on the pu
 
 * course element group task
 * course element video (e.g. for presentation of game situation)
-* collaboration tools: chat, messages, e-mail
+* collaboration tools: chat, messages, email
 * course element discussion forum
 * course element checklist
 * group folder

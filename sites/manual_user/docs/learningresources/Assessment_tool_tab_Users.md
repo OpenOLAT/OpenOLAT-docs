@@ -75,7 +75,7 @@ To view the points for a specific course module only, select the course module o
   
 ### Activate further options {: #further_options}
 
-After selecting one or more people in an assessment module, further functions appear, e.g. the status can be set to completed, visibility can be activated, an e-mail can be sent or a test can be extended. The options vary depending on the assessment module.
+After selecting one or more people in an assessment module, further functions appear, e.g. the status can be set to completed, visibility can be activated, an email can be sent or a test can be extended. The options vary depending on the assessment module.
 
 ![Activate further options](assets/Bewerungswerkzeug_Funktionen_erscheinen.png)
 

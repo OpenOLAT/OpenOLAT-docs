@@ -43,7 +43,7 @@ The following tools are available for group use.
 Tool | | Description
 ---|---|---
 :fontawesome-solid-circle-info: | Information to members| If the tool "Information" is activated, you can define if only group coaches or group members can create messages. Own messages can always be edited. As a group owner, all messages can be edited and deleted.  
-:fontawesome-regular-envelope:| E-Mail| If the "E-Mail" tool is enabled, non-members can access the e-mail functionality and send messages to group members (coaches, participants or all members).  
+:fontawesome-regular-envelope:| Email| If the "Email" tool is enabled, non-members can access the email functionality and send messages to group members (coaches, participants or all members).  
 :fontawesome-solid-calendar-days: | Calendar| You can provide the group with a calendar where you can enter common dates. Once the calendar is activated and saved, you can configure the write permissions for it, i.e. specify who can enter appointments. For more general information about calendar functions, see [Calendar](../personal_menu/Calendar.md).  
 :fontawesome-regular-folder: | Folder| With a folder you enable the exchange of files between the members of your group. Joint editing of office documents is also possible, depending on the configuration by the OpenOlat administrator. Once the folder is activated and saved, you can configure the write permissions for it, i.e. define who can upload and create files.   
 :fontawesome-brands-rocketchat:| Forum| Here you provide your group with a forum for discussions. As the group's coach, you have the right to edit and delete posts as well as create new ones.  
@@ -86,7 +86,7 @@ The members of the group are displayed under "Members". They can also be filtere
 
 **Add member**
 
-Depending on the course role, users have different options for adding group members. Users can use "Add member" to search for people who have an account in OpenOlat.  OpenOlat authors can also use the "bulk search" and add several people with their OpenOlat ID, e-mail or institution number and also invite external members by entering an e-mail address. <br>
+Depending on the course role, users have different options for adding group members. Users can use "Add member" to search for people who have an account in OpenOlat.  OpenOlat authors can also use the "bulk search" and add several people with their OpenOlat ID, email or institution number and also invite external members by entering an email address. <br>
 
 <details>
     <summary>Screen</summary>

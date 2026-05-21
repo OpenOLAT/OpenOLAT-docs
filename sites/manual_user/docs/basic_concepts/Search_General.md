@@ -57,7 +57,7 @@ From the results list, you can jump directly to the learning content with the se
 
 ## Bulk search {: #bulk_search}
 
-In some search forms it is possible to switch to a bulk search. Instead of the search form with individual input fields, a single large field will appear into which you can copy several e-mail addresses that you have copied from an Office document to the clipboard, for example.
+In some search forms it is possible to switch to a bulk search. Instead of the search form with individual input fields, a single large field will appear into which you can copy several email addresses that you have copied from an Office document to the clipboard, for example.
 
 ![search_general_bulk_search1_v1_de.png](assets/search_general_bulk_search1_v1_de.png){ class="shadow lightbox"}
 

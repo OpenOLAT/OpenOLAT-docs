@@ -71,17 +71,17 @@ actual number of HTML code is used.
 
 ![contact.png](assets/contact.png)
 
-By means of the course element "E-Mail" you provide your course participants
-with the possibility to send an e-mail to pre-defined recipients.
+By means of the course element "Email" you provide your course participants
+with the possibility to send an email to pre-defined recipients.
 
 There are two possibilities to send messages. You can either select the pre-
 defined groups of recipients you want to send a message to in the tab
-"Recipients" or you directly indicate your e-mail addresses. You can select
+"Recipients" or you directly indicate your email addresses. You can select
 whether you wish to address owners, coaches and /or participants of either
 course, groups or both.
 
-In order to enter several addresses in the field "E-mail addresses" you have
-to separate them by line breaks, i.e. each e-mail address has to be put into
+In order to enter several addresses in the field "Email addresses" you have
+to separate them by line breaks, i.e. each email address has to be put into
 one separate row.
 
 ### Distribution to owners/coaches/participants
@@ -94,7 +94,7 @@ sent).
 
 In the fields "Subject (form)" and "Message (form)" you can optionally pre-
 define default values to be edited later on by your course participants when
-sending e-mails.
+sending emails.
 
 In the fields "Subject (form)" and "Message (form)", you can
 optionally specify default values. 
@@ -102,14 +102,14 @@ optionally specify default values.
  * *Subject*: If the subject is predefined, it cannot be changed by the participants. 
 If the subject is left empty in the template, the participants have to define their 
 own subject (mandatory field).
- * *Message*: The predefined message can be edited by the participants when sending an e-mail. 
+ * *Message*: The predefined message can be edited by the participants when sending an email. 
 
 In addition, the message / subject can be designed with the use of variables
 personal and course-related.
 
 ### Use of variables
 
-The following variables can be used in the subject and text of the e-mail:
+The following variables can be used in the subject and text of the email:
 
 variable | description
 ---|--- 
@@ -124,16 +124,16 @@ $coursedescription | The description of the course as defined in the course info
   
 !!! info ""
 
-    The user variables refer to the person who triggers and sends the e-mail via the **"Send" button**.
+    The user variables refer to the person who triggers and sends the email via the **"Send" button**.
 
 By means of a suitable short title for the course element "E-mail" you can
 provide your course participants with information to whom they can send
 messages. For privacy reasons they will not be able to see the recipients'
-addresses in your e-mail form.
+addresses in your email form.
 
 !!! tip "Tip"
 
-    An element "E-mail" with similar functions, but without specific configuration, can also be found in the [toolbar](../learningresources/Using_Additional_Course_Features.md).
+    An element "Email" with similar functions, but without specific configuration, can also be found in the [toolbar](../learningresources/Using_Additional_Course_Features.md).
 
   
 

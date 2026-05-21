@@ -10,7 +10,7 @@ If the findings have been obtained from the reports, a measure must generally be
 
 To-dos already exist in other places in OpenOlat, e.g. in projects or as personal to-dos.
 
-The to-do infrastructure can be used to respond directly to the results of data surveys or a specific participant survey with appropriate measures. Necessary to-dos can be created contextually and delegated directly to the relevant persons. They are informed of a new to-do by e-mail.
+The to-do infrastructure can be used to respond directly to the results of data surveys or a specific participant survey with appropriate measures. Necessary to-dos can be created contextually and delegated directly to the relevant persons. They are informed of a new to-do by email.
 
 All quality management to-dos are listed under "Measures to-dos".
 

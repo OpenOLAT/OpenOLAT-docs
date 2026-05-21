@@ -60,7 +60,7 @@ You can define the displayed columns yourself by clicking on the cogwheel icon a
 * **Certificates**<br>
     Number of certificates received / Number of possible certificates
 * **Further actions** (Icon with three dots)<br>
-  * Contact (per E-mail)
+  * Contact (per email)
 
 [To the top of the page ^](#people)
 
@@ -69,9 +69,9 @@ You can define the displayed columns yourself by clicking on the cogwheel icon a
 
 ## Contact of coach persons {: #contact}
 
-To send an e-mail to **a specific person**, simply click on the three dots at the end of the relevant line.
+To send an email to **a specific person**, simply click on the three dots at the end of the relevant line.
 
-To write an e-mail to **multiple people**, select the relevant people in the first column. A "Contact" button will then appear above the list.
+To write an email to **multiple people**, select the relevant people in the first column. A "Contact" button will then appear above the list.
 
 ![coaching_people_contact_v1_de.png](assets/coaching_people_contact_v1_de.png){ class="shadow lightbox" }
 

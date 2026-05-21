@@ -83,9 +83,9 @@ The terms of use can be printed both during the login process in the "Terms of U
 
 ![Print Terms of use in user system settings](assets/Nutzungsbedingungen_drucken1_EN-2.png){ class="shadow lightbox thumbnail-lg" }
 
-### Visibility of e-mail addresses in OpenOlat {: #visibility_of_e-mail}
+### Visibility of email addresses in OpenOlat {: #visibility_of_e-mail}
 
-E-mail addresses of other users are only visible in OpenOlat for administrative users, not for normal users.
+Email addresses of other users are only visible in OpenOlat for administrative users, not for normal users.
 
 [To the top of the page ^](#data_protection)
 

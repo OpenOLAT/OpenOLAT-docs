@@ -19,7 +19,7 @@ Course coaches and course owners have the possibility to...
 * set the task's status to "completed" for all or several selected learners, thus finalizing the assessment
 * to set the assessments of the task to visible or invisible for all or several selected participants at one go
 * to extend the time for processing the test
-* send an e-mail to one or more participants
+* send an email to one or more participants
 * correct the tests question by question ("Correct" button)
 * set up rating scale, which can be adjusted once again
 

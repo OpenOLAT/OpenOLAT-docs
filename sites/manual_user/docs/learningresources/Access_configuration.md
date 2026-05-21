@@ -95,7 +95,7 @@ Select the button "Create offer" to add offers.
 
 ![key](assets/key.png){ class="size24" } **Access code**
 
-Select access code to restrict the booking orders to a specific group of people. Only people who have this access code can book the resource. Before opening the course for the first time, the user must enter this code, which may have been sent in advance by e-mail or written on the whiteboard in the case of blended learning events. The code needs to be entered only once.
+Select access code to restrict the booking orders to a specific group of people. Only people who have this access code can book the resource. Before opening the course for the first time, the user must enter this code, which may have been sent in advance by email or written on the whiteboard in the case of blended learning events. The code needs to be entered only once.
 
 ![gift](assets/gift.png){ class="size24" } **Free available**
 

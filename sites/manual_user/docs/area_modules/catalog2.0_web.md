@@ -67,7 +67,7 @@ If there are to be differences between the internal and external catalog (e.g. i
 
 ### Direct link to an offer {: #web_catalog_direct_link}
 
-If you want to send a direct link to a specific offer, e.g. by e-mail (external or internal catalog), you will find the links in the overview of offers.
+If you want to send a direct link to a specific offer, e.g. by email (external or internal catalog), you will find the links in the overview of offers.
 
 **Example: Links to an offer for an implementation**
 

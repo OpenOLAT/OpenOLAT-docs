@@ -45,7 +45,7 @@ You can also see how many people are already logged in and waiting for the test 
 
 ### "Notification Service"
 
-Here coaches can activate the option to receive an e-mail for new submissions, test results and other submissions.  Notifications about newly generated certificates (if generally activated) can also be subscribed to.
+Here coaches can activate the option to receive an email for new submissions, test results and other submissions.  Notifications about newly generated certificates (if generally activated) can also be subscribed to.
 
 ![Benachrichtigungsservice aktivieren](assets/Benachrichtigungen_Bewertungswerkzeug20.jpg)
 

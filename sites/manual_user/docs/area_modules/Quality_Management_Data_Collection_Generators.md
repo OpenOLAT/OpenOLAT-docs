@@ -183,7 +183,7 @@ In some cases, it makes sense for coaches, for example, to receive an announceme
 
 ![13_green_24.png](assets/13_green_24.png) **Invitation (days after the start of data collection)**<br>
 
-The invitation is an e-mail to the participants with a link to the form. If no information is provided, no e-mail will be sent and participants must be informed by other means. (E.g. by lecturers in class.)
+The invitation is an email to the participants with a link to the form. If no information is provided, no email will be sent and participants must be informed by other means. (E.g. by lecturers in class.)
 
 
 ![14_green_24.png](assets/14_green_24.png) **Reminder (days after the start of data collection)**<br>

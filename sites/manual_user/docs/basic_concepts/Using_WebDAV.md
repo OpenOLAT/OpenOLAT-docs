@@ -26,7 +26,7 @@ Microsoft Windows, Mac OSX, iOS, Android and Linux usually support WebDAV for dr
 In order to get access to a folder in OpenOlat via WebDAV you need:
 
   * WebDAV link: WebDAV address of OpenOlat server as indicated below WebDAV compatible folders, or in your personal menu under Settings / WebDAV
-  * Your OpenOlat username or e-mail adress
+  * Your OpenOlat username or email adress
   * Your OpenOlat/WebDAV password
 
 If you access OpenOlat via Shibboleth or another Cloud Login you can set your WebDAV password on your homepage, section "Settings." Just select the link "Settings" before clicking on the button "Set password" in the tab "WebDAV." If you already have an OpenOlat password, you can use this one to access WebDAV.

@@ -5,11 +5,11 @@ Group **participants** will then see the following items in the group menu on th
 
 | Icon | Name |   | Description |
 | ---- | ---- | - | ----------- |
-| ![](assets/infomessage.png){ class=size32 } | Information | :material-rss: | The "Information" is similar to the "Participant info" of the toolbar or the course element "Messages" in courses. Those who have the appropriate authorization can create messages for all group members and, if desired, also send this information by e-mail to subscribers, coaches and participants. The group administrator can set whether group members can also create and send information. |
+| ![](assets/infomessage.png){ class=size32 } | Information | :material-rss: | The "Information" is similar to the "Participant info" of the toolbar or the course element "Messages" in courses. Those who have the appropriate authorization can create messages for all group members and, if desired, also send this information by email to subscribers, coaches and participants. The group administrator can set whether group members can also create and send information. |
 | ![](assets/calendar.png){ class=size32 } | Calendar | :material-rss: | Manage your group's appointments via the group calendar. Depending on the configuration, you have write or read-only rights. More general information about the calendar can be found [here](../personal_menu/Calendar.md). |  
 | ![](assets/course.png){ class=size32 } | Course |  | If the group is linked to one or more courses, these can be displayed and accessed via the link in the group navigation. |
 | ![](assets/group.png){ class=size32 } | Members |  | Here you will see a list containing all group participants and/or its coaches if activated. Depending on the settings, the waiting list might be visible too. Depending on the configuration the list can be downloaded and printed. E-mails can be sent to the members. |  
-| ![](assets/contact.png){ class=size32 } | E-Mail |  | Send all group owners or participants an e-mail. |
+| ![](assets/contact.png){ class=size32 } | E-Mail |  | Send all group owners or participants an email. |
 | ![](assets/folder.png){ class=size32 } | Folder | :material-rss: | Exchange documents with other group members via the folder. Files can be uploaded or created. Further structuring with subordination is also possible.  |
 | ![](assets/forum.png){ class=size32 } | Forum | :material-rss: | Here you can discuss with other group members.  
 | ![](assets/chat_icon.png){ class=size32 } | Chat |  | You will see who else is present in the group chat. Enter the chat room to communicate with others in real time. |  

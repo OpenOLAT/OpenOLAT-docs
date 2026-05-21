@@ -190,7 +190,7 @@ Participants find their badges
 
 * top right in the toolbar under "My course"
 * in the personal menu
-* If you qualify for a badge, it will also be sent by e-mail and can be saved or forwarded as required (e.g. upload to LinkedIn).
+* If you qualify for a badge, it will also be sent by email and can be saved or forwarded as required (e.g. upload to LinkedIn).
 
 [To the top of the page ^](#badges)
 

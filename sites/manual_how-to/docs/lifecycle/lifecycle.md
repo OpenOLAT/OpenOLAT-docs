@@ -97,6 +97,7 @@ The basis is the default settings of the administration:
 
 <br>
 
+<<<<<<< Updated upstream
 The lifecycle of a user account runs through three phases:
 
 * **Account expiry** — A fixed expiry date is set per account or system-wide. When the date expires, the account is deactivated or deleted.
@@ -108,6 +109,12 @@ Notification emails can be configured for each phase — before or after the res
 !!! info "Configuration in the administration"
     Deadlines, email notifications and the degree of automation for all three phases are configured under Administration > Life Cycles > Account.<br>
     [Details on the user account lifecycle](../../manual_admin/administration/Life_cycles_-_Administration.md#lifecycle_accounts)
+=======
+* In the first step, the accounts of users who have not been active for a longer period of time can first be deactivated and the user status set to "inactive". These accounts will now appear in the list under "inactive users".
+* If there is no new login within the specified period, the user account can be deleted automatically.
+* Depending on the configuration, users may receive an email with an appropriate notice before or after account deactivation or deletion.
+* The different notification texts related to account deactivation can be formulated and the time of mail notification can be defined. Furthermore, it can be defined whether inactive users should be deleted.
+>>>>>>> Stashed changes
 
 ---
 
