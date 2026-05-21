@@ -9,6 +9,7 @@ nav:
   - Planning:
     - How do I plan and run courses with the Course Planner?: "course_planner_courses/course_planner_courses.md"
     - How can I create certification programs with the Course Planner?: "certification_programs/certification_programs.md"
+    - How do I comply with legal consent requirements?: "legal_consents/legal_consents.md"
   - Create Courses:
     - My first course: "my_first_course/my_first_course.md"
     - How do I use course element "selection"?: "course_element_selection/course_element_selection.md"
