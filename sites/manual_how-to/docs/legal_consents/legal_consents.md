@@ -1,23 +1,29 @@
 # How do I comply with legal consent requirements? {: #legal_consents}
 
+!!! warning "Attention"
+
+    This article is still under construction.
+
+    
+
 ??? abstract "Objectives and content of this instruction"
 
-    If you have already created an OpenOlat course, you can award participants a badge as a reward for passing the course. These instructions show you how to do this.
+     Als Autor:in eines Kurses, in dem mit sensiblen Daten gearbeitet werden muss, benötigen Sie eine rechtliche Absicherung. Es stellen sich die Fragen:<br> 
+     Wie hole ich rechtliche Einwilligungen ein? Wie setze ich rechtliche Zustimmungspflichten um?<br>
+     Diese Anleitung zeigt Ihnen, wo und wie Sie dies in OpenOlat tun können.
 
 
 ??? abstract "Target group"
 
     [x] Authors [x] Coaches  [ ] Participants
 
-    [ ] Beginners [x] Amateurs  [ ] Experts
+    [x] Beginners [x] Amateurs  [x] Experts
 
 
 ??? abstract "Expected previous knowledge"
 
-    * ["How do I create my first OpenOlat course?"](../my_first_course/my_first_course.md)<br>
-    * Familiarity with basic concepts of OO: Bulk actions, filters, tables (show/hide columns), wizards
-
-    https://docs.openolat.org/manual_user/basic_concepts/Table_Concept/
+    * 
+    *
 
 
 ---
@@ -46,7 +52,6 @@ tbd
 
 ## Further information {: #further_information}
 
-[Badges in the assessment tool >](../../manual_user/learningresources/OpenBadges.md)<br>
-[OpenBadges Administration >](../../manual_admin/administration/e-Assessment_openBadges.md)<br>
+
 
 [To the top of the page ^](#legal_consents)

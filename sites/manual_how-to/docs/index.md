@@ -8,7 +8,7 @@
 
 1. [How do I plan and run courses with the Course Planner?](/manual_how-to/course_planner_course/course_planner_course)
 2. [How can I create certification programs with the Course Planner?](/manual_how-to/certification_programs/certification_programs)
-3. [How do I make successes and achievements visible?](/manual_how-to/achievements/achievements)
+3. [How do I comply with legal consent requirements?](/manual_how-to/legal_consents/legal_consents)
 
 ## Create Courses
 
@@ -51,7 +51,7 @@
 8. [How do I record an oral exam in OpenOlat?](/manual_how-to/oral_exam/oral_exam)
 
 ## Making successes and achievements visible
-1. [How do I make successes and achievements visible??](/manual_how-to/achievements/achievements)
+1. [How do I make successes and achievements visible?](/manual_how-to/achievements/achievements)
 
 
 ## Adjust OpenOlat

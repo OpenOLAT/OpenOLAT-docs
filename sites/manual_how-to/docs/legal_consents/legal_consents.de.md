@@ -2,8 +2,9 @@
 
 ??? abstract "Ziel und Inhalt dieser Anleitung"
 
-    Als Autor:in eines Kurses, in dem mit sensiblen Daten gearbeitet werden muss, benötigen Sie eine rechtliche Absicherung. Es stellen sich die Fragen: 
-    Wie hole ich rechtliche Einwilligungen ein? Wie setze ich rechtliche Zustimmungspflichten um? Diese Anleitung zeigt Ihnen, wo und wie Sie dies in OpenOlat tun können. 
+    Als Autor:in eines Kurses, in dem mit sensiblen Daten gearbeitet werden muss, benötigen Sie eine rechtliche Absicherung. Es stellen sich die Fragen:<br> 
+    Wie hole ich rechtliche Einwilligungen ein? Wie setze ich rechtliche Zustimmungspflichten um?<br>
+    Diese Anleitung zeigt Ihnen, wo und wie Sie dies in OpenOlat tun können. 
 
 
 ??? abstract "Zielgruppe"
@@ -36,24 +37,30 @@ Nachstehend finden Sie mögliche OpenOlat-Bordmittel und ihren Verwendungszweck 
 
 ---
 
-## Abklärung 1: Ziel? {: #clarify_objective}
+## Abklärung 1: Ziel {: #clarify_objective}
 
-Klären Sie ab, welchen Nutzungsbedingungen und Datenschutzerklärungen die Kursteilnehmer:innen zustimmen müssen. Zum Besipiel 
+Klären Sie ab, welchen Nutzungsbedingungen und Datenschutzerklärungen die Kursteilnehmer:innen zustimmen müssen. Zum Beispiel: 
 
-- Lernende müssen eine "Eidesstattliche Erklärung" /
+WAS?
+
+- Müssen Lernende eine "Eidesstattliche Erklärung" abgeben?
 - Muss eine Erklärung abgegeben werden, dass eine abgegebene Arbeit eigenständig erstellt wurde?
-- "Nutzung & Datenweitergabe" usw.) bestätigen
+- Muss ein NDA abgegeben werden?
+- Müssen spezifische Zustimmungen zu Nutzung und Datenweitergabe bestätigt werden?
+- ...
 
-bevor sie auf bestimmte Inhalte zugreifen (sensible Daten etc.)
-bevor oder nachdem sie Prüfungen absolvieren, Arbeiten abgeben etc.
+WANN?
 
+- Müssen die Zustimmungen eingeholt werden, bevor die Teilnehmer:innen auf bestimmte Inhalte zugreifen können?
+- Müssen die Zustimmungen erst eingeholt werden, wenn ein bestimmter Inhalt aufgerufen wird? Z.B. bevor oder nachdem die Teilnehmer:innen Prüfungen absolvieren, Arbeiten abgeben etc.
+- ...
 
 [zum Seitenanfang ^](#legal_consents)
 
 ---
 
 
-## Abklärung 2: Plattform OpenOlat? {: #platform}
+## Abklärung 2: Plattform OpenOlat {: #platform}
 
 Beim ersten Aufruf von OpenOlat werden alle Benutzer:innen um Bestätigung der Nutzungsbedingungen und Datenschutzerklärung gebeten. Sie können also nachsehen:
 
@@ -61,7 +68,7 @@ Beim ersten Aufruf von OpenOlat werden alle Benutzer:innen um Bestätigung der N
 - Müssten schon auf dieser Ebene Korrekturen angebracht werden?
 - Welche Zustimmungen müssen bei dem besonders sensiblen Thema Ihres Kurses zusätzlich eingeholt werden?
 
-Alle Benutzer:innen können die Nutzungsbestimmungen und Datenschutzerklärung, denen sie einmal zugestimmt haben, in ihrem persönlichen Menü jederzeit nachlesen:
+Alle Benutzer:innen können die Nutzungsbestimmungen und Datenschutzerklärung, denen sie einmal zugestimmt haben, in ihrem persönlichen Menü jederzeit nachlesen:<br>
 **Persönliches Menü > Einstellungen > Tab "Nutzungsbedingungen"**
 
 Information zur Einrichtung der Nutzungsbedingungen/Datenschutzerklärung der OpenOlat-Plattform und die Bestätigung durch OpenOlat-Benutzer:innen beim ersten Aufruf finden Sie hier: [Nutzungsbedingungen der OpenOlat-Plattform >](../../manual_user/basic_concepts/Terms_Of_Use.de.md#terms_of_use_platform).
@@ -70,72 +77,71 @@ Information zur Einrichtung der Nutzungsbedingungen/Datenschutzerklärung der Op
 
 ---
 
-## Abklärung 3: Berechtigungen innerhalb OpenOlat?
+## Abklärung 3: Berechtigungen innerhalb OpenOlat {: #rights}
 
-Innerhalb
+Innerhalb OpenOlat arbeiten Sie mit vielen verschiedenen Personen zusammen. Unter anderem gibt es auch administrative Rollen, wie Benutzerverwalter:innen, Lernressourcenverwalter:innen, Administrator:innen u.a., die evtl. aufgrund ihrer Rolle Einblick in ihre sensiblen Kursinhalte bekommen könnten.
 
+In OpenOlat gibt es deshalb unter<br>
+**Administration > Module > Datenschutz**<br>
+die Möglichkeit, Einschränkungen für diese administrativen Rollen vorzunehmen.
 
-Administration > Module > Datenschutz
+Es kann festlegt werden, welche Systemrollen, die administrativen Benutzer:innen-Properties z.B. bei der Kontensuche oder in Listen sehen dürfen und welche Benutzer:innen-Properties als administrativ gelten.
 
-
-Datenschutz
-
-Sie können festlegen, welche Systemrollen, die administrativen Benutzer:innen-Properties z.B. bei der Kontensuche oder in Listen sehen dürfen. Welche Benutzer:innen-Properties als administrativ gelten, wird bei den Benutzer:innen-Properties konfiguriert.
-
-Ebenso kann bestimmt werden, welche Systemrollen den letzten Besuch der Benutzer:innen sehen dürfen.
-
-Der Kursbaustein "Externe Seite" kann im HTTP Header der Anfrage Daten zum aktuellen Konto an das externe System übermitteln um gewisse Lernszenarien umzusetzen (Anmeldename, E-Mail, Vorname, Nachname, aktuelle IP-Adresse der Benutzer*innen). Definieren Sie hier ob diese Daten übermittelt werden sollen oder nicht.
-
-
-
-[Modul Datenschutz (Administration) )>](../../manual_admin/administration/Modules/#data_privacy.de.md)
-
+Wenden Sie sich bei Fragen an Ihre Administrator:innen.<br>
+Informationen finden Sie hier: [Modul Datenschutz (Administration) )>](../../manual_admin/administration/Modules/#data_privacy.de.md)
 
 [zum Seitenanfang ^](#legal_consents)
 
 ---
 
-## Abklärung 4: Kurs?
+## Abklärung 4: Kurs {: #course}
 
-Stellt sich heraus, dass zusätzliche Einwilligungen für diesen Kurs von allen Teilnehmer:innen eingeholt werden müssen? 
+Stellt sich heraus, dass zusätzliche Einwilligungen speziell für Ihren Kurs von allen Teilnehmer:innen eingeholt werden müssen?
 
 Dann gibt es in OpenOlat die Möglichkeit, zusätzlich kurspezifische Nutzungsbedingung zu erstellen. Als Kursbesitzer:in können Sie für ihren Kurs eigene Einwilligungen einholen unter **Administration > Einstellungen > Tab "Nutzungsbedingungen"**.
 
 Informationen dazu finden Sie hier: 
 [Nutzungsbedingungen eines Kurses >](../../manual_user/basic_concepts/Terms_Of_Use.de.md#terms_of_use_course)
 
+[zum Seitenanfang ^](#legal_consents)
+
+---
+
+
+## Abklärung 5: Kursinterne Bereiche {: #areas}
+
+In Lernpfadkursen können Sie auch die Möglichkeiten des Lernpfads nutzen, um den Zugriff auf bestimmte Inhalte einzuschränken oder vorher eine Einwilligung bei den Teilnehmer:innen einzuholen.
+
+
+Lernpfad: ohne Bestätigung (z.B. KB Seite mit Hinweisen) geht es nicht weiter
+
+oder mit Ausnahmen KB für bestimmte Personengruppen unsichtbar machen
+
 
 [zum Seitenanfang ^](#legal_consents)
 
 ---
 
 
-## Abklärung 5: Kursinterne Bereiche?
+## Abklärung 6: Einzelne Kursbausteine {: #course_elements}
 
-Innerhalb
-
-Lernpfad: ohne Bestätigung geht es nicht weiter
-
-
-[zum Seitenanfang ^](#legal_consents)
-
----
-
-
-## Abklärung 6: Einzelne Kursbausteine?
-
-
-
+**Kursbaustein Aufgabe**<br>
 Aufgabenbaustein: Bestätigung durch User bei Abgabe
 
+**Kursbaustein Checkliste**<br>
 Checkliste zur Bestätigung
+
+**Kursbaustein Externe Seite**<br>
+Der Kursbaustein "Externe Seite" kann im HTTP Header der Anfrage Daten zum aktuellen Konto an das externe System übermitteln um gewisse Lernszenarien umzusetzen (Anmeldename, E-Mail, Vorname, Nachname, aktuelle IP-Adresse der Benutzer*innen). Definieren Sie hier ob diese Daten übermittelt werden sollen oder nicht.
+
+u.a.
 
 [zum Seitenanfang ^](#legal_consents)
 
 ---
 
 
-## Abklärung 7: Formulare?
+## Abklärung 7: Formulare {: #forms}
 
 tbd
 
@@ -146,7 +152,7 @@ tbd
 ---
 
 
-## Abklärung 8: Externe Tools?
+## Abklärung 8: Externe Tools {: #external_tools}
 
 tbd
 
@@ -172,12 +178,11 @@ Bsp.: LTI-Nutzung
 
 ---
 
-## Abklärung 9: Verbundene Lernplattformen?
+## Abklärung 9: Verbundene Lernplattformen {: #LTI}
 
-tbd
-LTI-Nutzung
+Es ist mit OpenOlat möglich, dass Kurse aufgerufen werden, die technisch auf einer anderen Plattform laufen (anderes OpenOlat oder sonstiges LMS). Die Technik dazu liefert die [LTI-Verbindung](../../manual_admin/administration/LTI_Integrations.de.md). Es handelt sich also um etwas Ähnliches, wie eine externe Seite. Allerdings nicht nur eine Einzelseite, sondern ganze Kurse, die aussehen, als wären sie Bestandteil des eigenen LMS.
 
-
+Zwischen den verbunden Plattformen werden - mit strengen Sciherheitsvorkehrungen - auch Daten ausgetauscht. Evtl. müsste auch abgeklärt werden, ob bei besonders sensiblen Daten zusätzliche Informationen und Einwilligungen der Teilnehmer:innen erforderlich sind. 
 
 [zum Seitenanfang ^](#legal_consents)
 
