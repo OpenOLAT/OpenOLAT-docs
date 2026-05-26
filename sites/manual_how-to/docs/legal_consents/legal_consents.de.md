@@ -3,7 +3,7 @@
 ??? abstract "Ziel und Inhalt dieser Anleitung"
 
     Als Autor:in eines Kurses, in dem mit sensiblen Daten gearbeitet werden muss, benötigen Sie eine rechtliche Absicherung. Es stellen sich die Fragen:<br> 
-    Wie hole ich rechtliche Einwilligungen ein? Wie setze ich rechtliche Zustimmungspflichten um?<br>
+    - Wie hole ich rechtliche Einwilligungen ein?<br>- Wie setze ich rechtliche Zustimmungspflichten um?<br>
     Diese Anleitung zeigt Ihnen, wo und wie Sie dies in OpenOlat tun können. 
 
 
@@ -81,14 +81,12 @@ Information zur Einrichtung der Nutzungsbedingungen/Datenschutzerklärung der Op
 
 Innerhalb OpenOlat arbeiten Sie mit vielen verschiedenen Personen zusammen. Unter anderem gibt es auch administrative Rollen, wie Benutzerverwalter:innen, Lernressourcenverwalter:innen, Administrator:innen u.a., die evtl. aufgrund ihrer Rolle Einblick in ihre sensiblen Kursinhalte bekommen könnten.
 
-In OpenOlat gibt es deshalb unter<br>
-**Administration > Module > Datenschutz**<br>
-die Möglichkeit, Einschränkungen für diese administrativen Rollen vorzunehmen.
+In OpenOlat gibt es deshalb unter **Administration > Module > Datenschutz** die Möglichkeit, Einschränkungen für diese administrativen Rollen vorzunehmen.
 
 Es kann festlegt werden, welche Systemrollen, die administrativen Benutzer:innen-Properties z.B. bei der Kontensuche oder in Listen sehen dürfen und welche Benutzer:innen-Properties als administrativ gelten.
 
 Wenden Sie sich bei Fragen an Ihre Administrator:innen.<br>
-Informationen finden Sie hier: [Modul Datenschutz (Administration) )>](../../manual_admin/administration/Modules/#data_privacy.de.md)
+Informationen finden Sie hier: [Modul Datenschutz (Administration) )>](../../manual_admin/administration/Modules.de.md#data_privacy)
 
 [zum Seitenanfang ^](#legal_consents)
 
@@ -112,11 +110,9 @@ Informationen dazu finden Sie hier:
 
 In Lernpfadkursen können Sie auch die Möglichkeiten des Lernpfads nutzen, um den Zugriff auf bestimmte Inhalte einzuschränken oder vorher eine Einwilligung bei den Teilnehmer:innen einzuholen.
 
+Mit Hilfe der Lernpfad-Einstellungen (Kurseditor > Kursbausteine wählen > Tab Lernpfad) kann z.B. eine Seite mit Hinweisen zu Datenschutz und Datenverwendung zur Pflicht (obligatorisch) gemacht werden. Die Teilnehmer:innen müssen dann bestätigen, dass sie diese Seite "erledigt" haben, bevor sie zu den nachfolgenden Kursbausteinen des Kursmenüs gelangen. 
 
-Lernpfad: ohne Bestätigung (z.B. KB Seite mit Hinweisen) geht es nicht weiter
-
-oder mit Ausnahmen KB für bestimmte Personengruppen unsichtbar machen
-
+Ebenfalls mit dem Lernpfad-Feature lässt sich durch Ausnahmeregeln konfigurieren, dass ein Kursbaustein nur für bestimmte Personengruppen sichtbar ist.
 
 [zum Seitenanfang ^](#legal_consents)
 
@@ -125,16 +121,16 @@ oder mit Ausnahmen KB für bestimmte Personengruppen unsichtbar machen
 
 ## Abklärung 6: Einzelne Kursbausteine {: #course_elements}
 
-**Kursbaustein Aufgabe**<br>
-Aufgabenbaustein: Bestätigung durch User bei Abgabe
+Betreffen Datenschutzbestimmungen oder Hinweise nur ganz spezifisch einzelne Kursbausteine, bestehen in OpenOlat auch innerhalb bestimmter Kursbausteine Möglichkeiten, Zustimmungen der Kursteilnehmer:innen einzuholen. 
 
-**Kursbaustein Checkliste**<br>
-Checkliste zur Bestätigung
+**Beispiel: Kursbaustein Aufgabe**<br>
+Innerhalb des Aufgabenbausteins existiert ein eigener Workflow. In mehreren Schritten geht es von der Aufgabenstellung, über das Hochladen von Antwortdokumenten bis zu Feedback und Einsichtnahme in die Musterlösung.<br>
+Es besteht die Möglichkeit, z.B. mit der Aufgabenzuweisung eine Mitteilung an die Teilnehmer:innen mit entsprechenden Hinweisen zu erstellen. ("Mit dem "Herunterladen dieser Aufgabenstellung verpflichten Sie sich ...")<br>
+Im Schritt "Abgabe" kann die Aufgabenstellung als Vorlage bestimmt werden. Auf diesem Weg könnte auch ein Einverständniserklärung Bestandteil sein. ("Durch das Hochladen Ihrer Dateien könnten andere Personen Einsicht in ... bekommen. Prüfen Sie deshalb ...")
 
-**Kursbaustein Externe Seite**<br>
-Der Kursbaustein "Externe Seite" kann im HTTP Header der Anfrage Daten zum aktuellen Konto an das externe System übermitteln um gewisse Lernszenarien umzusetzen (Anmeldename, E-Mail, Vorname, Nachname, aktuelle IP-Adresse der Benutzer*innen). Definieren Sie hier ob diese Daten übermittelt werden sollen oder nicht.
-
-u.a.
+**Beispiel: Kursbaustein Checkliste**<br>
+Im Kursbaustein "Checkliste" können Checkboxen für erforderliche Bestätigungen eingefügt werden.
+Es können auch Punkte vergeben werden, die als Kriterium für "Bestanden" gelten. Eine "bestandene" Checkliste kann dann als eines der Kriterien für das Bestehen des Gesamtkurses verwendet werden. 
 
 [zum Seitenanfang ^](#legal_consents)
 
@@ -143,7 +139,7 @@ u.a.
 
 ## Abklärung 7: Formulare {: #forms}
 
-tbd
+Auch beim Ausfüllen eines Formulars kann der erfasste Inhalt es erforderlich machen, dass die Teilnehmer:innen eine Erklärung zu den Nutzungsbedingungen akzeptieren. Deshalb gibt es innerhalb der Lernressource "Formular" ein eigenes Inhaltselement, das im Formulareditor von Autor:innen eingefügt werden kann.
 
 [Nutzungsbedingungen eines Formulars >](../../manual_user/basic_concepts/Terms_Of_Use.de.md#terms_of_use_form)
 
@@ -154,29 +150,22 @@ tbd
 
 ## Abklärung 8: Externe Tools {: #external_tools}
 
-tbd
+Werden externe Tools verwendet, also Programme, die nicht Bestandteil von OpenOlat selbst sind, sondern dort eingebunden, besteht keine Kontrollmöglichkeit seitens OpenOlat, dass an diese Tools übergebene Daten irgendwo sonst gespeichert und weiter verwendet werden.
 
+**Beispiel: Office-Programme**<br>
+Sollen z.B. die Microsoft-Produkte Word, Excel und Powerpoint verwendet werden und sie sind von den Administrator:innen nach entsprechendener Lizenzbeschaffung eingebunden worden, kann damit z.B. gemeinsam am gleichen Dokument gearbeitet werden. Während des gemeinsamen Bearbeitens liegen die Dateien auf Servern von Microsoft und nicht in OpenOlat. Dass dies datenschutzrechtlich von Bedeutung sein kann, sollte Ihnen einfach bewusst sein.
 
-**Kursbaustein "Externe Seite"**<br>
-Der Kursbaustein "Externe Seite" kann im HTTP Header der Anfrage Daten zum aktuellen Konto an das externe System übermitteln um gewisse Lernszenarien umzusetzen (Anmeldename, E-Mail, Vorname, Nachname, aktuelle IP-Adresse der Benutzer*innen). Definieren Sie unter
-Administration > Module > Datenschutz > Abschnitt "Datenübermittlung bei Kursbaustein Externe Seite"
-ob diese Daten übermittelt werden sollen oder nicht.
+**Beispiel: Kursbaustein Externe Seite**<br>
+Der Kursbaustein "Externe Seite" kann im HTTP-Header der Anfrage Daten zum aktuellen Konto an das externe System übermitteln, um gewisse Lernszenarien umzusetzen (Anmeldename, E-Mail, Vorname, Nachname, aktuelle IP-Adresse der Benutzer:innen). 
+In der **Systemadministration > Module > Externe Seite** definieren Administrator:innen, ob diese Daten übermittelt werden sollen oder nicht. Alternativ kann die Einstellung auch vorgenommen werden unter **Administration > Module > Datenschutz > Abschnitt "Datenübermittlung bei Kursbaustein Externe Seite"**.<br>
+Was dann jedoch auf der externen Seite mit diesen Daten gemacht wird, kann von OpenOlat nicht mehr gesteuert werden.
 
-alternativ unter
-Administration > Module > Externe Seite
--> Weitergabe von Daten über Benutzer:innen erlauben
-
-Externe Tools wie Word, ...
-Alle tools unter
-Administration > Externe Werkzeuge > ...
-
-Bsp.: LTI-Nutzung
-
-
+Seitens OpenOlat werden alle externen Tools konfiguriert unter **(System-)Administration > Externe Werkzeuge > ...**.
 
 [zum Seitenanfang ^](#legal_consents)
 
 ---
+
 
 ## Abklärung 9: Verbundene Lernplattformen {: #LTI}
 
@@ -199,11 +188,10 @@ Zwischen den verbunden Plattformen werden - mit strengen Sciherheitsvorkehrungen
 - [x] Sind die kursspezifischen Erklärungen schon in den OpenOlat-Kurs integriert?
 - [x] Sind sie so integriert, dass eine Bearbeitung des Kurses ohne vorherige Einwilligung ausgeschlossen ist?
 - [x] Müssen die Einwilligungen irgendwo abgelegt und archiviert werden?
-- [x] Müssen ...Formular
-- [x] Müssen
+- [x] Werden Formulare verwendet? Soll dort eine Erklärung zu Nutzungsbedingungen eingefügt werden?
 - [x] Werden im Kurs externe Werkzeuge verwendet, die auf weitere externe Server zugreifen?
 - [x] Müssen für diese externen Werkzeuge separat weitere Einwilligungen gegeben werden?
-- [x] Müssen
+- [x] Werden Kurse via LTI mit anderen Lernplattformen geteilt? Ist die Datenübertragung von dort oder dorthin rechtlich problematisch?
 
 [zum Seitenanfang ^](#legal_consents)
 
@@ -217,6 +205,7 @@ Zwischen den verbunden Plattformen werden - mit strengen Sciherheitsvorkehrungen
 [Nutzungsbedingungen eines Kurses >](../../manual_user/basic_concepts/Terms_Of_Use.de.md#terms_of_use_course)<br>
 [Nutzungsbedingungen eines Formulars >](../../manual_user/basic_concepts/Terms_Of_Use.de.md#terms_of_use_form)<br>
 [Nutzungsbedingungen externer Werkzeuge >](../../manual_user/basic_concepts/Terms_Of_Use.de.md#terms_of_use_external_tools)<br>
-[Modul Datenschutz (Administration) )>](../../manual_admin/administration/Modules/#data_privacy.de.md)<br>
+[Datenschutz in der Benutzerverwaltung >](../../manual_admin/usermanagement/Data_protection.de.md)<br>
+[Modul Datenschutz (Administration) >](../../manual_admin/administration/Modules.de.md#data_privacy)<br>
 
 [zum Seitenanfang ^](#legal_consents)
