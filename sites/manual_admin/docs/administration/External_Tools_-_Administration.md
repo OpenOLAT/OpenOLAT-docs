@@ -210,10 +210,11 @@ Possibility to activate external analytics services., e.g. Google Analytics.
 [To the top of the page ^](#ext_tools)
 
 
-## AI Module {: #ki_modul}
+## AI Module {: #ai_modul}
 
 This is where you activate and configure the artificial intelligence tools that can be integrated into OpenOlat. 
 
+[Further details >](External_Tools_AI.md)<br>
 [To the top of the page ^](#ext_tools)
 
 

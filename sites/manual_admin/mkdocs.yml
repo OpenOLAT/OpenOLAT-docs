@@ -61,14 +61,15 @@ nav:
       - BigBlueButton module: "administration/BigBlueButton_module.md"
       - SharePoint / OneDrive: "administration/SharePoint_OneDrive.md"
       - Zoom integration: "administration/Zoom.md"
-      - Analytics module: "administration/Analytics_module.md"
       - LTI 1.3 Integrations: 
         - Overview: "administration/LTI_Integrations.md"
         - External tools : "administration/LTI_External_tools.md"
         - External platforms : "administration/LTI_External_platforms.md"
         - Deep Linking : "administration/LTI_Deeplinking.md"
         - Role mapping : "administration/LTI_Role_Mapping.md"
-        
+      - Analytics module: "administration/Analytics_module.md"
+      - AI module: "administration/External_Tools_AI.md"
+
     - Customizing: "administration/Customizing.md"
 
   - User management:

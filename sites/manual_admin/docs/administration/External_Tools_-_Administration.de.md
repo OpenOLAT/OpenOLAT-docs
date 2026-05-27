@@ -249,10 +249,11 @@ Hier besteht die Möglichkeit, externe Analyse Services zu aktivieren, wie z.B. 
 
 
 
-## KI Modul {: #ki_modul}
+## KI Modul {: #ai_modul}
 
 Hier aktiveren und konfigurieren Sie die Werkzeuge der Künstlichen Intelligenz, die in OpenOlat eingebunden werden können. 
 
+[Zu den Details > >](External_Tools_AI.de.md)<br>
 [Zum Seitenanfang ^](#ext_tools)
 
 
