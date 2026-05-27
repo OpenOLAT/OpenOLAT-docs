@@ -109,7 +109,7 @@ Die Kursrollen Teilnehmer:in sowie Betreuer:in stehen stellvertretend auch für 
 | Exportieren                                                 | :material-check:              |                            |                               |
 | **Module**                                                                                                                                               |
 | Coaching                                                    | Vollzugriff                   | :material-cancel:          | :material-cancel:             |
-| Lektionenverwaltung                                         | :material-cancel:             | :material-cancel:          | Vollzugriff                   |
+| Absenzenverwaltung                                         | :material-cancel:             | :material-cancel:          | Vollzugriff                   |
 
 
 [Zum Seitenanfang ^](#rights_in_courses)

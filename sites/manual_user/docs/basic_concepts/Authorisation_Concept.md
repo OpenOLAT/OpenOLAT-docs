@@ -107,7 +107,7 @@ The course roles participants as well as the coaches also stand for the group pa
 | Export                                                 | :material-check:              |                            |                               |
 | **Modules**                                                                                                                                               |
 | Coaching                                                    | Full access                   | :material-cancel:          | :material-cancel:             |
-| Lessons management                                         | :material-cancel:             | :material-cancel:          | Full access                   |
+| Absence management                                         | :material-cancel:             | :material-cancel:          | Full access                   |
 
 [To the top of the page ^](#rights_in_courses)
 
