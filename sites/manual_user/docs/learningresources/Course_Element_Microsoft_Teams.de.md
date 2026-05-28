@@ -5,7 +5,7 @@
 Name | Microsoft Teams
 ---------|----------
 Icon | ![Microsoft Teams Icon](assets/course_element_microsoft_teams_icon.png){ class=size24  }
-Verfügbar seit | 
+Verfügbar seit | Release 15.4
 Funktionsgruppe | Kommunikation und Kollaboration
 Verwendungszweck | Integration der Webkonferenz-Software Microsoft Teams
 Bewertbar | nein
@@ -49,8 +49,8 @@ separate Online-Termine/Reservierungen erstellt, welche anschliessend im Tab
   *  **Hauptmoderator:** Hier kann der Name einer Person eingetragen werden.
   *  **Zugang externe Benutzer:** Hinterlegen sie hier ein Kennzeichen/Wort
   *  **Raumbuchungen anzeigen** : Kalenderansicht zur Prüfung von belegten Online-Meetings
-  *  **Teilnehmer dürfen das Meeting eröffnen:** Wenn Teilnehmer das Meeting auch ohne Betreuer eröffnen dürfen, stehen keine Gruppenräume zur Verfügung.
-  *  **Teilnehmer dürfen das Meeting eröffnen:** Teilnehmer mit einem Microsoft Account der Institution dürfen das Meeting mit eingeschränkten Berechtigungen eröffnen
+  *  **Teilnehmer dürfen das Meeting eröffnen:** Teilnehmer mit einem Microsoft-Account der Institution dürfen das Meeting mit eingeschränkten Präsentationsberechtigungen eröffnen, ohne dass ein Betreuer anwesend sein muss.
+  *  **Gäste zulassen:** Nicht angemeldete Personen können am Meeting teilnehmen. Diese Option ist nur sichtbar, wenn der Kurs öffentlich zugänglich und der Gastzugang aktiviert ist.
   *  **Moderator** : Hier wird definiert welche Personengruppen Moderator des Meetings sind.
 
 #### **Bei termingebundenen Räumen:**
@@ -65,9 +65,9 @@ separate Online-Termine/Reservierungen erstellt, welche anschliessend im Tab
     Bei täglich oder wöchentlich wiederkehrenden Terminen muss zusätzlich das Start und Enddatum definiert werden. Im Anschluss werden sämtliche Termine für diese Zeitspanne angezeigt und es können noch einzelne Termine aus der Liste gelöscht oder hinzugefügt werden.
 
 In der Konfiguration eines Raums kann sowohl während der Erstellung als auch
-später beim editieren über den Link "**Raumbuchungen anzeigen**", eine Übersicht
-über alle gebuchten BigBlueButton Räume der Instanz eingesehen werden. Das
-erleichtert es zeitliche Engpässe bzw. eine starke Auslastung des Systems
+später beim Editieren über den Link "**Raumbuchungen anzeigen**", eine Übersicht
+über alle gebuchten Microsoft Teams Räume der Instanz eingesehen werden. Das
+erleichtert es, zeitliche Engpässe bzw. eine starke Auslastung des Systems
 frühzeitig zu erkennen und gegebenenfalls einen anderen Termin zu wählen.
 
 Über den Tab "**Online-Termine**" erhält man Zugang zu einem bestimmten Termin
@@ -85,20 +85,21 @@ termingebundenen Raum gelangen.
 ## Teilnehmerperspektive {: #participant_perspective}
 
 Ruft ein Kursteilnehmer einen MS Teams Kursbaustein auf, sieht er eine
-Übersicht der aktuellen, der abgelaufenen und der permanenten Räume, sofern
-vorhanden. Ein Klick auf "Auswählen" führt zum Login-Bereich des jeweiligen
-Raums.
+Übersicht der bevorstehenden und der abgelaufenen Termine, sofern vorhanden.
+Ein Klick auf "**Auswählen**" öffnet die Detailansicht des jeweiligen Meetings.
 
-![BBB_uebersicht.png](assets/BBB_Uebersicht.png)
+![course_element_teams_overview_v1_de.png](assets/course_element_teams_overview_v1_de.png)
 
-Aktuelle Sessions können durch "**Meeting beitreten**" gestartet und der konkrete
-Raum aufgerufen werden.
+Läuft ein Meeting, kann es über "**Meeting beitreten**" gestartet werden. Ob
+Teilnehmende das Meeting auch ohne Betreuer eröffnen dürfen, hängt von der
+Konfiguration des Termins ab (siehe oben).
 
-![BBB_meeting_beitreten.png](assets/BBB_Meeting_beitreten.png)
+![course_element_teams_join_v1_de.png](assets/course_element_teams_join_v1_de.png)
 
-Bei abgelaufenen Meetings können die Räume nicht mehr betreten werden, aber
-man erhält hier Zugriff auf eventuelle Aufzeichnungen des Meetings. Betreuer
-und Kursbesitzer können hier auch Aufzeichnungen löschen.  
+Bei abgelaufenen Meetings ist der Beitritt nicht mehr möglich. Aufzeichnungen
+stehen in OpenOlat nicht zur Verfügung; Aufzeichnungen, die direkt in
+Microsoft Teams erstellt wurden, sind ausschliesslich über Microsoft Teams
+abrufbar.
 
   
 
