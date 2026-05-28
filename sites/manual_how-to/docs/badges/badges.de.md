@@ -269,4 +269,6 @@ Die Löschung kann dann auf 2 Arten erfolgen:
 
 [Badges im Bewertungswerkzeug >](../../manual_user/learningresources/OpenBadges.de.md)<br>
 [OpenBadges Administration >](../../manual_admin/administration/e-Assessment_openBadges.de.md)<br>
+[Badges verifizieren >](../../manual_admin/administration/e-Assessment_openBadges.de.md#verification)<br>
 
+[Zum Seitenanfang ^](#badges)

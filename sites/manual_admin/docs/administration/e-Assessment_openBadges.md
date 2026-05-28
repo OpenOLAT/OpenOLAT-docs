@@ -3,12 +3,12 @@
 OpenBadges are implemented after the OpenBadges standard and fully compatible with it.
 More information [here](https://www.imsglobal.org/activity/openbadges).
 
-## Tab Configuration
+## Tab Configuration {: #tab_config}
 
 * Here you can switch badges on/off for the entire instance of your OpenOlat.
 * In addition, organizations that use badges can be added here.
 
-![badges_global_config_v1_de.png](assets/badges_global_config_v1_de.png){ class="shadow lightbox" }
+![badges_global_config_v2_de.png](assets/badges_global_config_v2_de.png){ class="shadow lightbox" }
 
 
 [To the top of the page ^](#badges)
@@ -16,11 +16,11 @@ More information [here](https://www.imsglobal.org/activity/openbadges).
 ---
 
 
-## Tab "Templates"
+## Tab "Templates" {: #tab_templates}
 
 A standard set of templates is already instantiated on the OpenOlat instance.
 
-![badges_global_templates_v1_de.png](assets/badges_global_templates_v1_de.png){ class="shadow lightbox" }
+![badges_global_templates_v2_de.png](assets/badges_global_templates_v2_de.png){ class="shadow lightbox" }
 
 Additional templates can be created by specifying the image, name and a description of the template.
 
@@ -44,11 +44,11 @@ The scope defines whether a badge should be available globally (for issuing at i
 ---
 
 
-## Tab "Global Badges" {: #global_badges}
+## Tab "Global Badges" {: #tab_global_badges}
 
 Global badges can be viewed here. The status (active / in preparation) and whether they have already been awarded. They can also be edited and deleted. Global badges are not linked to a course and can be assigned manually.
 
-![badges_global_tab_globalBadges_v1_de.png](assets/badges_global_tab_globalBadges_v1_de.png){ class="shadow lightbox" }
+![badges_global_tab_globalBadges_v2_de.png](assets/badges_global_tab_globalBadges_v2_de.png){ class="shadow lightbox" }
 
 ### Creating and editing a badge
 
@@ -69,7 +69,7 @@ Global badges can be viewed here. The status (active / in preparation) and wheth
 Manual assignment is possible under<br>
 **Settings > Tab e-Assessment > OpenBadges > Tab "Global Badges" > Button "Assign badge maually"**.
 
-![badges_global_manually_v1_de.png](assets/badges_global_manually_v1_de.png){ class="shadow lightbox" }
+![badges_global_manually_v2_de.png](assets/badges_global_manually_v2_de.png){ class="shadow lightbox" }
 
 ### Assign global badges automatically
 
@@ -79,7 +79,7 @@ Automatic assignment is set up in the wizard during creation.
 
 ---
 
-## Tab "Awarded Global badges"
+## Tab "Awarded Global badges" {: #tab_awarded}
 
 This tab lists **global badges** that have been awarded. (The course badges are not included here).
 
@@ -96,6 +96,15 @@ This tab lists **global badges** that have been awarded. (The course badges are 
 
 
 ---
+
+## Tab "Verification" {: #verification}
+
+In the “Verification” tab, you can upload a badge file. (You can simply drag and drop it into a field.) After clicking the “Verify badge” button, OpenOlat checks whether the badge was issued legitimately.
+
+[To the top of the page ^](#badges)
+
+---
+
 
 ## Further information  {: #further_information}
 

@@ -262,5 +262,8 @@ The deletion can then be carried out in 2 ways:
 
 [Badges in the assessment tool >](../../manual_user/learningresources/OpenBadges.md)<br>
 [OpenBadges Administration >](../../manual_admin/administration/e-Assessment_openBadges.md)<br>
+[Verify badges >](../../manual_admin/administration/e-Assessment_openBadges.md#verification)<br>
+
+[To the top of the page ^](#badges)
 
 

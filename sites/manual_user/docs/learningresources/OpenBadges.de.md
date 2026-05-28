@@ -202,9 +202,24 @@ Ein ähnliches Verfahren wird zur Überprüfung des Zertifikats oder Badges verw
 
 ---
 
+## Echtheit eines Badges überprüfen {: #verification}}
+
+Administrator:innen können eine Badge-Datei hochladen und OpenOlat prüft dann, ob es sich um einen rechtmässig ausgestellen Badge handelt.
+
+Siehe [Badges verifizieren >](../../manual_admin/administration/e-Assessment_openBadges.de.md#verification)<br>
+
+[Zum Seitenanfang ^](#badges)
+
+---
+
+
 ## Weiterführende Informationen  {: #further_information}
 
 [Wie vergebe ich in meinem Kurs Badges? >](../../manual_how-to/badges/badges.de.md)<br>
 [Globale Badges >](../../manual_admin/administration/e-Assessment_openBadges.de.md#global_badges)<br>
 [OpenBadges Administration >](../../manual_admin/administration/e-Assessment_openBadges.de.md)<br>
 [Der OpenBadges-Standard >](https://www.imsglobal.org/activity/openbadges)<br>
+[Badges verifizieren >](../../manual_admin/administration/e-Assessment_openBadges.de.md#verification)<br>
+
+[Zum Seitenanfang ^](#badges)
+

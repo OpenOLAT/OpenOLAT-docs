@@ -208,9 +208,25 @@ A similar process is used to verify the certificate or badge.
 
 ---
 
+## Verify the authenticity of a badge {: #verification}}
+
+Administrators can upload a badge file, and OpenOlat will then verify whether it is a validly issued badge.
+
+See [Verify badges >](../../manual_admin/administration/e-Assessment_openBadges.md#verification)<br>
+
+[To the top of the page ^](#badges)
+
+---
+
+
 ## Further information  {: #further_information}
 
 [How do I award badges in my course? >](../../manual_how-to/badges/badges.md)<br>
 [Global Badges >](../../manual_admin/administration/e-Assessment_openBadges.md#global_badges)<br>
 [OpenBadges administration >](../../manual_admin/administration/e-Assessment_openBadges.md)<br>
 [The OpenBadges standard >](https://www.imsglobal.org/activity/openbadges)<br>
+[Verify badges >](../../manual_admin/administration/e-Assessment_openBadges.md#verification)<br>
+
+[To the top of the page ^](#badges)
+
+
