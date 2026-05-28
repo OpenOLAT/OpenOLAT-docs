@@ -2,7 +2,7 @@
 
 ## Abfolge der Lernschritte {: #learning_steps_order}
 
-### Sequenziell oder ohne Reihenfolge
+### Sequenziell oder ohne Reihenfolge {: #sequential_or_not}
 
 Lernpfad Kurse können grundsätzlich so konfiguriert werden, dass sie sequenziell oder in beliebiger Reihenfolge von den Lernenden durchlaufen werden. Die Grundeinstellung wird auf dem obersten Kursbaustein, der beim Erstellen eines Kurses automatisch erstellt wird, eingestellt. Diese Einstellung gilt dann zunächst für den gesamten Kurs.
 
@@ -25,7 +25,11 @@ Lernpfad Kurse haben im Gegensatz zu herkömmlichen Kursen nicht die Tabs "Sicht
     *  **Obligatorisch**: Die Erledigung des Kursbausteins ist verbindlich und wird bei der prozentualen Auswertung des Lernfortschritts berücksichtigt.
     *  **Freiwillig**: Die Erledigung wird nicht bei der prozentualen Anzeige berücksichtigt.
     * **Ausgenommen**: Die Erledigung ist nicht Teil des Lernpfades und nur durch Ausnahmen steuerbar. Der Kursbaustein ist für die Teilnehmenden nicht sichtbar.
-  *  **Freigabedatum**: Der Kursbaustein ist vor dem Freigabedatum zwar sichtbar, aber nicht zugänglich. Ab dem angegebenen Zeitpunkt ist das Öffnen und Arbeiten darin möglich. Wird keine Angabe gemacht, bleibt der Kursbaustein ab dem Freigabdatum dauerhaft verfügbar, sofern man Zutritt zum Kurs hat.
+  *  **Freigabedatum**: In Lernpfadkursen ist es teilweise möglich, den Teilnehmer:innen einen zeitlich limitierten Zugang auf einen Kurs zu geben:<br>
+  \- auf Ebene Kursbaustein: ja (Editor > Tab Lernpfad > relatives Datum)<br>
+  \- auf Strukturbausteinen: nein<br>
+  \- auf dem oberstem Knoten (Gesamtkurs): nein<br>
+  Der Kursbaustein ist vor dem Freigabedatum zwar sichtbar, aber nicht zugänglich. Ab dem angegebenen Zeitpunkt ist das Öffnen und Arbeiten darin möglich. Wird keine Angabe gemacht, bleibt der Kursbaustein ab dem Freigabdatum dauerhaft verfügbar, sofern man Zutritt zum Kurs hat.
   *  **Zu bearbeiten bis**: Der Baustein kann bis zum angegeben Zeitpunkt geöffnet und bearbeitet werden. Wird keine Angabe gemacht, bleibt der Kursbaustein ab dem Freigabdatum dauerhaft verfügbar, sofern man Zutritt zum Kurs hat.
   *  **Bearbeitungszeit**: Hier kann eingetragen werden, wie lang der Ersteller die Bearbeitungszeit für den jeweiligen Baustein einschätzt. Die Bearbeitungszeit ist unabhängig davon, wieviel Zeit der/die Teilnehmer:in wirklich für den Baustein benötigt. Die geschätzte Zeitangabe kann jedoch für die Berechnung des Lernfortschritts verwendet werden.
 

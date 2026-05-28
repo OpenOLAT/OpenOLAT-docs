@@ -1,8 +1,8 @@
 # Learning path course - Course editor
 
-## Sequence of learning steps
+## Sequence of learning steps {: #learning_steps_order}
 
-### Sequential or no sequence
+### Sequential or no sequence {: #sequential_or_not}
 
 Learning path courses can be configured to be followed sequentially or in any order by learners. The basic setting is set on the top course element, which is automatically created when a course is created. This setting then initially applies to the entire course.
 
@@ -12,7 +12,7 @@ Examples and a further introduction can also be found in our [Whitepaper for lea
 
 If certain areas of the course are to be given a different setting, this can be done by adding and configuring the course element "Structure". The selected setting will then apply to all course elements subordinate to this [course element "Structure"](../learningresources/Course_Element_Structure.md). For example, a course can be configured as sequential by default, but a certain area in the course can be permanently accessed in any order.
 
-## Tab "Learning path"
+## Tab "Learning path" {: #tab_learning_path}
 
 Learning paths, unlike conventional courses, do not have the tabs "Visibility" and "Access", but the tab "Learning path". The following things can be configured here:
 
@@ -22,7 +22,11 @@ Learning paths, unlike conventional courses, do not have the tabs "Visibility" a
   *  **Mandatory**: The completion of the course element is binding and will be considered in the percentage evaluation.
   *  **Optional**: Completion will not be taken into account when displaying percentages.
   * **Excluded**: Completion is not part of the learning path and is only controllable by exception. The course element is not visible for the participants.
-  *  **Release date**: The course element is visible but not accessible before the release date. It can be opened and worked in from the specified date. If no entry is made, the course element remains permanently available from the release date, provided you have access to the course.
+  *  **Release date**: In learning path courses, it is sometimes possible to grant participants time-limited access to a course:<br>
+  \- at the course module level: yes (Editor > Learning Path tab > relative date)<br>
+  \- at the structure module level: no<br>
+  \- at the top-level node (overall course): no<br>
+  The course element is visible but not accessible before the release date. It can be opened and worked in from the specified date. If no entry is made, the course element remains permanently available from the release date, provided you have access to the course.
   *  **Due date**: The course element can be opened and worked through up to the specified date. If no entry is made, the course element remains permanently available from the release date, provided you have access to the course.
   *  **Learning time (minutes)**: Here you can enter how long the author estimates the processing time for a given element. The processing time is independent of how much time the user really needs for the course element. However, the estimated time can be used to calculate the learning progress.
 
@@ -57,7 +61,7 @@ c) The course element is mandatory. For those who have passed a certain checklis
 
 ![Example C: Exception with course elements](assets/Ausnahme_c.png)
 
-### Learning time
+### Learning time {: #learning_time}
 
 The learning time is particularly relevant if the learning progress is determined on the basis of the learning time in the course settings for the execution (see [Create learning path courses](../learningresources/Creating_learning_path_courses.md)). In this case, all time entries of the individual course elements are summed up and the total sum is taken as the basis for 100%.
 
@@ -65,7 +69,7 @@ If a time has been entered for a course element, this learning time will also be
 
 The time display is independent of the type of learning progress calculation selected in the course settings. So even if progress is based on the number of course elements, the learning time will be displayed for the structure element and for the subordinate course elements.
 
-### Completion criterion
+### Completion criterion {: #completion_criterion}
 
 Except for the course element "Structure", all course elements offer the possibility that the element is considered
 "done" when it is opened or when the user explicitly confirms the processing. Depending on your course element there are also other criteria for completion.

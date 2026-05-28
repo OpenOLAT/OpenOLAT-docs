@@ -45,6 +45,12 @@ Im Administrationsmenü "Einstellungen" werden die benötigten Einstellungen fü
 	  * [Zugangskonfiguration](Access_configuration.de.md)
 	  * [Kurseinstellungen](Course_Settings.de.md)
 
+In Lernpfadkursen ist es teilweise möglich, den Teilnehmer:innen einen zeitlich limitierten Zugang auf einen Kurs zu geben:
+
+* auf Ebene Kursbaustein: ja (Editor > Tab Lernpfad > relatives Datum)
+* auf Strukturbausteinen: nein
+* auf dem oberstem Knoten (Gesamtkurs): nein
+
 ### 4. Kurs Status veröffentlichen {: #stage4}
 
 In der Kurs Toolbar den Status auf "Veröffentlicht" setzen, damit der Kurs

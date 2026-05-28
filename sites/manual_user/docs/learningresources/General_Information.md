@@ -40,7 +40,13 @@ In the administration menu "Settings" the necessary settings for the access are 
 !!! info "Further Information"
 	  * [Access configuration](Access_configuration.md)
 	  * [Course Settings](Course_Settings.md)
-  
+
+In learning path courses, it is partially possible to grant participants time-limited access to a course:
+
+* At the course module level: yes (Editor > Learning Path tab > relative date)
+* At the structure module level: no
+* At the top-level node (overall course): no
+
 ### 4. Publish course status {: #stage4}
 
 In the course toolbar set the status to "Published" in order for students to see the course.
