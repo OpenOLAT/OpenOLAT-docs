@@ -49,7 +49,7 @@ separate Online-Termine/Reservierungen erstellt, welche anschliessend im Tab
   *  **Hauptmoderator:** Hier kann der Name einer Person eingetragen werden.
   *  **Zugang externe Benutzer:** Hinterlegen sie hier ein Kennzeichen/Wort
   *  **Raumbuchungen anzeigen** : Kalenderansicht zur Prüfung von belegten Online-Meetings
-  *  **Teilnehmer dürfen das Meeting eröffnen:** Teilnehmer mit einem Microsoft-Account der Institution dürfen das Meeting mit eingeschränkten Präsentationsberechtigungen eröffnen, ohne dass ein Betreuer anwesend sein muss.
+  *  **Teilnehmer dürfen das Meeting eröffnen:** :octicons-tag-16:{ title="ab Release 15.4.1 (OO-5250)" } Teilnehmer mit einem Microsoft-Account der Institution dürfen das Meeting mit eingeschränkten Präsentationsberechtigungen eröffnen, ohne dass ein Betreuer anwesend sein muss.
   *  **Gäste zulassen:** Nicht angemeldete Personen können am Meeting teilnehmen. Diese Option ist nur sichtbar, wenn der Kurs öffentlich zugänglich und der Gastzugang aktiviert ist.
   *  **Moderator** : Hier wird definiert welche Personengruppen Moderator des Meetings sind.
 
@@ -78,7 +78,10 @@ bzw. Raum.
 Zusätzlich werden die in dem Kursbaustein erstellten Online-Termine
 automatisch in den kursspezifischen Kalender eingetragen und von den
 Teilnehmenden abonniert werden. Auch kann man rasch aus dem Kalender in den
-termingebundenen Raum gelangen.  
+termingebundenen Raum gelangen.
+
+!!! info "Hinweis"
+    Im Kurskalender erscheinen nur Termine mit einem definierten Start- und Enddatum. Permanente Reservierungen ohne Datum werden im Kalender nicht angezeigt.
 
   :octicons-device-camera-video-24: **Video-Einführung**: [Abonnements](<https://www.youtube.com/embed/h9gOqt7TR7Q>){:target="_blank”}
 
