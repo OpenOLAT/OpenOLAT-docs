@@ -208,7 +208,7 @@ A similar process is used to verify the certificate or badge.
 
 ---
 
-## Verify the authenticity of a badge {: #verification}}
+## Verify the authenticity of a badge {: #verification}
 
 Administrators can upload a badge file, and OpenOlat will then verify whether it is a validly issued badge.
 

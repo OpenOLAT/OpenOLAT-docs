@@ -202,7 +202,7 @@ Ein ähnliches Verfahren wird zur Überprüfung des Zertifikats oder Badges verw
 
 ---
 
-## Echtheit eines Badges überprüfen {: #verification}}
+## Echtheit eines Badges überprüfen {: #verification}
 
 Administrator:innen können eine Badge-Datei hochladen und OpenOlat prüft dann, ob es sich um einen rechtmässig ausgestellen Badge handelt.
 
