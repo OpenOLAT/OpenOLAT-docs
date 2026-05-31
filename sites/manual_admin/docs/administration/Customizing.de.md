@@ -91,8 +91,7 @@ Ausserdem können die Übersetzungen bearbeitet werden.
 
 Sites/Bereiche entsprechen den Menüpunkte des Hauptmenüs in der Kopfzeile.
 
-Administrator:innen können definieren, welche OpenOlat-Bereiche dort angezeigt und systemweit zur Verfügung gestellt
-werden. Die Anzeige im Hauptmenü/der Zugriff kann auf bestimmte Rechte- und Rollengruppen beschränkt werden.
+Administrator:innen können definieren, welche OpenOlat-Bereiche dort angezeigt und systemweit zur Verfügung gestellt werden. Die Anzeige im Hauptmenü/der Zugriff kann auf bestimmte Rechte- und Rollengruppen beschränkt werden.
 
 Mit den Pfeilen am rechten Rand kann die Anzeigereihenfolge festgelegt werden.
 

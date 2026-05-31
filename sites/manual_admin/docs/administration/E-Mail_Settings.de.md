@@ -1,13 +1,10 @@
 # E-Mail Einstellungen
 
-Hier kann definiert werden, welche Einschränkungen Benutzer in Bezug auf die
-E-Mail-Adresse haben.
+Hier kann definiert werden, welche Einschränkungen Benutzer in Bezug auf die E-Mail-Adresse haben.
 
 ### Obligatorisch
 
-Wenn diese Option _nicht_ aktiviert ist, bedeutet dies, dass Benutzer keine
-E-Mail-Adresse haben müssen. Dies führt jedoch zu Einschränkungen, da OpenOlat
-darauf ausgelegt ist, dass jeder Benutzer eine E-Mail-Adresse hinterlegt hat.
+Wenn diese Option _nicht_ aktiviert ist, bedeutet dies, dass Benutzer keine E-Mail-Adresse haben müssen. Dies führt jedoch zu Einschränkungen, da OpenOlat darauf ausgelegt ist, dass jeder Benutzer eine E-Mail-Adresse hinterlegt hat.
 Folgende Einschränkungen treten auf (Liste nicht abschliessend):
 
   * Es werden keine realen E-Mails versendet.
@@ -29,25 +26,18 @@ auf (Liste nicht abschliessend):
 !!! warning "Warnung"
 
 	In beiden Fällen können entweder keine oder keine eindeutigen E-Mails
-	verschickt werden. Deshalb ist es zwingend empfohlen, das interne OpenOlat
-	Postfach zu aktivieren! Ansonsten können unerwartete Fehler auftreten!
+	verschickt werden. Deshalb ist es zwingend empfohlen, das interne OpenOlat Postfach zu aktivieren! Ansonsten können unerwartete Fehler auftreten!
 
 ## E-Mail: Postfach und Versand
 
-OpenOlat verfügt über ein internes E-Mail-Postfach-System, das alle in dem
-System gesendeten und empfangenen E-Mails im Homebereich jedes Benutzers im
-persönlichen Postfach auflistet. Das E-Mail-Postfach in OpenOlat ist eine
-optionale Komponente.
+OpenOlat verfügt über ein internes E-Mail-Postfach-System, das alle in dem System gesendeten und empfangenen E-Mails im Homebereich jedes Benutzers im persönlichen Postfach auflistet. Das E-Mail-Postfach in OpenOlat ist eine optionale Komponente.
 
 ### OpenOlat Postfach aktivieren:
 
   * Ist das OpenOlat Postfach ausgeschaltet, so werden alle in OpenOlat erstellten E-Mails ausschliesslich an die persönliche E-Mail-Adresse versandt. Das OpenOlat Postfach ist im Home nicht sichtbar.
   * Ist das OpenOlat Postfach eingeschaltet, so werden alle empfangenen und gesendeten E-Mails im Homebereich jedes Benutzers im persönlichen Postfach aufgelistet.
 
-Jeder Benutzer kann zudem in den Systemeinstellungen konfigurieren, ob
-empfangene E-Mails nur intern oder auch an die persönliche E-Mail-Adresse
-zugestellt werden soll. Als Administrator können Sie das Standardverhalten
-festlegen:
+Jeder Benutzer kann zudem in den Systemeinstellungen konfigurieren, ob empfangene E-Mails nur intern oder auch an die persönliche E-Mail-Adresse zugestellt werden soll. Als Administrator können Sie das Standardverhalten festlegen:
 
   * E-Mails an das interne OpenOlat Postfach zustellen
   * E-Mails an das interne OpenOlat Postfach und die persönliche E-Mail-Adresse zustellen  
@@ -56,9 +46,7 @@ festlegen:
 ##  Tab E-Mail-Vorlage {: #template}
 
 OpenOlat versendet für verschiedene Ereignisse E-Mails. Um die E-Mails
-attraktiver zu gestalten werden diese als HTML-Mails inklusive Formatierung
-versendet. Mit der E-Mail-Vorlage können Sie das allgemeine Aussehen der
-E-Mails anpassen.
+attraktiver zu gestalten werden diese als HTML-Mails inklusive Formatierung versendet. Mit der E-Mail-Vorlage können Sie das allgemeine Aussehen der E-Mails anpassen.
 
 Die folgenden Variablen müssen in der Vorlage vorkommen:
 

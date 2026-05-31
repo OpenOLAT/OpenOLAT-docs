@@ -57,8 +57,28 @@ In addition, this function is also available for user administrators, line manag
 
 ## OpenBadges {: #openbadges}
 
-The use of badges can be enabled here.
-Global badges are also created and managed here by administrators.
+Here, administrators can enable exam mode and exam viewing for the OpenOlat instance and search for exams. They can also add and manage configuration templates for the Safe Exam Browser.
+
+
+[See the details >](../administration/e-Assessment_AssessmentMgmt.md)<br>
+[To the top of the page ^](#e-assessments)
+
+## Certificates {: #certificates}
+
+You can enter an email address here to which copies of the generated certificates will be sent. Copies can also be sent to line managers. 
+
+You can also enable the upload of external certificates here. 
+
+In addition, this feature is also available to user administrators, line managers within the same organization, or responsible individuals linked via user-to-user relationships, and can be configured separately in each case.
+
+[See the details >](../administration/e-Assessment_Certificates.md) <br>
+[To the top of the page ^](#e-assessments)
+
+
+## OpenBadges {: #openbadges}
+
+Badges can be enabled here. 
+Administrators are also responsible for creating and managing global badges here.
 
 [See the details >](../administration/e-Assessment_openBadges.md)<br>
 [To the top of the page ^](#e-assessments)

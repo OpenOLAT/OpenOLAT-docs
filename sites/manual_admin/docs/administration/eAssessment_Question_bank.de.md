@@ -8,28 +8,16 @@ konfigurieren. Einige der Einstellungen können auch in der
 
 ## Tab Fragenpool
 
-Im ersten Tab Fragenpool werden grundlegende Einstellungen vom Fragenpool
-vorgenommen. Es wird definiert, ob der Beurteilungsprozess aktiviert ist und
-ob Listen, Pools und Gruppen zur Verfügung stehen sollen. Standardmässig ist
-der Beurteilungsprozess ausgeschaltet, Listen, Pools und Gruppen dafür
-aktiviert.
+Im ersten Tab Fragenpool werden grundlegende Einstellungen vom Fragenpool vorgenommen. Es wird definiert, ob der Beurteilungsprozess aktiviert ist und ob Listen, Pools und Gruppen zur Verfügung stehen sollen. Standardmässig ist der Beurteilungsprozess ausgeschaltet, Listen, Pools und Gruppen dafür aktiviert.
 
-Wenn nun beispielsweise die Listen deaktiviert werden, werden im Fragenpool
-keine Listen mehr angezeigt und Fragen können nicht mehr zu Listen hinzugefügt
-werden. Fragen, welche in Listen waren, sind weiterhin unter "Meine Fragen"
-sichtbar, sie werden nicht gelöscht. Wenn die Listen wieder aktiviert werden,
-sind dieselben Fragen wie zuvor in den entsprechenden Listen verknüpft. Genau
-gleich verhält es sich mit Pools und Gruppen.
+Wenn nun beispielsweise die Listen deaktiviert werden, werden im Fragenpool keine Listen mehr angezeigt und Fragen können nicht mehr zu Listen hinzugefügt werden. Fragen, welche in Listen waren, sind weiterhin unter "Meine Fragen" sichtbar, sie werden nicht gelöscht. Wenn die Listen wieder aktiviert werden, sind dieselben Fragen wie zuvor in den entsprechenden Listen verknüpft. Genau gleich verhält es sich mit Pools und Gruppen.
 
 Weitere Informationen zum
 [Beurteilungsprozess](../../manual_user/area_modules/Question_Bank_Review_Process.de.md) finden Sie im entsprechenden Kapitel.
 
   * Taxonomie: Jedem Fragenpool ist die Taxonomie "Question pool" zugeordnet. Diese Taxonomie wurde automatisch aus den ehemaligen Fachbereichen erstellt. Änderungen können im Tab "Fachbereiche" vorgenommen werden. Weitere Informationen zur Taxonomie finden Sie [hier](Modules_Taxonomy.de.md).
   * Auswählbare Fachbereiche: Wenn "Alle Fachbereiche" ausgewählt ist, kann bei einer Frage jeder Fachbereich ausgewählt werden, unabhängig von den eigenen Kompetenzen.   
-Wenn jedoch "Fachbereiche mit der Kompetenz "Dozieren" oder "Verwalten""
-ausgewählt ist, können im Fragenpool die Fragen nur denjenigen Fachbereichen
-zugeordnete werden, bei denen man selbst über eine gewissen Kompetenz verfügt.
-Diese Kompetenzen werden entweder unter `Administration → Modules → Taxonomie`
+Wenn jedoch "Fachbereiche mit der Kompetenz "Dozieren" oder "Verwalten"" ausgewählt ist, können im Fragenpool die Fragen nur denjenigen Fachbereichen zugeordnete werden, bei denen man selbst über eine gewissen Kompetenz verfügt. Diese Kompetenzen werden entweder unter `Administration → Modules → Taxonomie`
 oder in der Benutzerverwaltung hinzugefügt.
   * Fachbereich beim Import erzeugen: Fragen können via Excel-Import im Fragenpool hinzugefügt werden. Bei jeder Frage kann als Metadaten der Fachbereich importiert werden. Wenn diese Option aktiviert ist, bedeutet dies, dass durch den Import neue Fachbereiche angelegt werden, sofern diese noch nicht bestehen. Wenn es sich nur um einen Tippfehler handelt, wird auch ein neuer Fachbereich erstellt.
   * Stufen: Hier kann die Verwendung von [Stufen](../administration/Assessment_translate_points_in_grades_admin.de.md) aktiviert werden.
@@ -37,26 +25,15 @@ oder in der Benutzerverwaltung hinzugefügt.
 
 !!! tip "Tipp"
 
-	Wenn Sie mit einer Taxonomie und Kompetenzen arbeiten, ist es empfohlen, die
-	Option "Fachbereich beim Import erzeugen" _nicht_ zu aktivieren. Nur so haben
-	Sie die Möglichkeit, einen Wildwuchs der Taxonomiestufen zu vermeiden und die
-	Kontrolle und Struktur zu behalten.
+	Wenn Sie mit einer Taxonomie und Kompetenzen arbeiten, ist es empfohlen, die Option "Fachbereich beim Import erzeugen" _nicht_ zu aktivieren. Nur so haben Sie die Möglichkeit, einen Wildwuchs der Taxonomiestufen zu vermeiden und die Kontrolle und Struktur zu behalten.
 
 ### Rechte Poolverwalter
 
-Im Folgenden können die Rechte des Poolverwalters konfiguriert werden. Die
-Rolle des Poolverwalters wird in der Benutzerverwaltung vergeben. Das
-Bearbeiten der Einstellungen bezieht sich auf die Tabs, die hier in der
-Administration sichtbar sind. Der Poolverwalter kann die aktivierten Optionen
-in der Administration im Fragenpool bearbeiten.
+Im Folgenden können die Rechte des Poolverwalters konfiguriert werden. Die Rolle des Poolverwalters wird in der Benutzerverwaltung vergeben. Das Bearbeiten der Einstellungen bezieht sich auf die Tabs, die hier in der Administration sichtbar sind. Der Poolverwalter kann die aktivierten Optionen in der Administration im Fragenpool bearbeiten.
 
 ## Tab Infoseite
 
-Hier können Sie eine Infoseite erstellen. Diese Infoseite wird angezeigt, wenn
-man die Site Fragenpool öffnet und sich dann auf der obersten Ebene "Mein
-Fragenpool" befindet. Es empfiehlt sich hier beispielsweise eine Erklärung zum
-spezifischen Beurteilungsprozess des eigenen Systems zu hinterlegen. Dies
-erleichtert den Benutzern des Fragenpools das Zurechtfinden.
+Hier können Sie eine Infoseite erstellen. Diese Infoseite wird angezeigt, wenn man die Site Fragenpool öffnet und sich dann auf der obersten Ebene "Mein Fragenpool" befindet. Es empfiehlt sich hier beispielsweise eine Erklärung zum spezifischen Beurteilungsprozess des eigenen Systems zu hinterlegen. Dies erleichtert den Benutzern des Fragenpools das Zurechtfinden.
 
 ## Tab Beurteilungsprozess
 
@@ -69,15 +46,11 @@ erleichtert den Benutzern des Fragenpools das Zurechtfinden.
 
 ## Tab Fachbereiche
 
-Hier können neue Fachbereiche hinzugefügt, bearbeitet, zusammengefügt und
-gelöscht werden. Weitere Informationen finden Sie unter
-[Taxonomie](Modules_Taxonomy.de.md).
+Hier können neue Fachbereiche hinzugefügt, bearbeitet, zusammengefügt und gelöscht werden. Weitere Informationen finden Sie unter [Taxonomie](Modules_Taxonomy.de.md).
 
 ## Tab Pool-Verwaltung
 
-Hier können neue Pools erstellt, bearbeitet und gelöscht werden. Pools wie
-auch Gruppen ermöglichen es, sich gegenseitig Fragen freizugeben und zu
-teilen.
+Hier können neue Pools erstellt, bearbeitet und gelöscht werden. Pools wie auch Gruppen ermöglichen es, sich gegenseitig Fragen freizugeben und zu teilen.
 
   * **Öffentliche Pools**: Auf diese Pools haben alle Zugriff
   * **Private Pools**: auf diese Pools hat nur Zugriff, wer als Besitzer hinzugefügt worden ist

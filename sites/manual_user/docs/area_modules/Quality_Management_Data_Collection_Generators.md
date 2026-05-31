@@ -130,7 +130,7 @@ If a generator has been created, this results in a list of courses for which dat
 
 ### Tab "Configuration"
 
-![quality_management_data_collection_generator_lectures_config_v1_de.png](assets/quality_management_data_collection_generator_lectures_config_v1_de.png){ class="shadow lightbox" }
+![quality_management_data_collection_generator_events_config_v1_de.png](assets/quality_management_data_collection_generator_events_config_v1_de.png){ class="shadow lightbox" }
 
 
 See also [Course Configuration](#Quality_Management_Data_Collection_Generators_Type_Course_Config).
@@ -175,6 +175,10 @@ Data will only be collected if the coach does not exceed the maximum number of l
 ![10_green_24.png](assets/10_green_24.png) **Start x minutes before the end of the lesson block**<br>
 
 If the survey is conducted shortly before the end, a higher participation rate can generally be expected.
+
+![11_green_24.png](assets/11_green_24.png) **Duration of data collection (days)**
+
+Once data collection has begun, all participants may complete and submit the form during the specified time period. After this deadline has passed, submissions will no longer be accepted.
 
 ![12_green_24.png](assets/12_green_24.png) **Announcement for coaches (days before the start of data collection)**<br>
 

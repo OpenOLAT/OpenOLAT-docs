@@ -28,19 +28,14 @@ If this option is not activated, it means, that several users can have the same 
 
 ## Email inbox and outbox
 
-OLAT has an internal email inbox system that lists all sent and received
-emails of each user in his personal home area. The OLAT email inbox system
-is an optional component.
+OLAT has an internal email inbox system that lists all sent and receive emails of each user in his personal home area. The OLAT email inbox system is an optional component.
 
 ### Enable your OLAT email inbox:
 
   * If the OLAT inbox system is disabled, all OLAT emails will be sent exclusively to the personal email address. The OLAT inbox is not visible in the home area with this configuration.
   * If the OLAT inbox system is enabled, all received and sent emails will be listed in the users personal inbox.
 
-In addition, each user can configure in his preferences wether he wants to
-receive emails from OLAT to his personal email address or if he prefers to
-read the email within OLAT. As administrator you can define the default
-behavior.
+In addition, each user can configure in his preferences wether he wants to receive emails from OLAT to his personal email address or if he prefers to read the email within OLAT. As administrator you can define the default behavior.
 
   * Send emails to the internal OLAT inbox
   * Send emails to the internal OLAT inbox and the personal email address
@@ -48,9 +43,7 @@ behavior.
   
 ##  Email template {: #template}
 
-OpenOlat is sending emails for various events. To make the emails look more
-attractive, those emails are sent as HTML emails including formatting. Using
-the email template you can modify the general appearance of all emails.
+OpenOlat is sending emails for various events. To make the emails look more attractive, those emails are sent as HTML emails including formatting. Using the email template you can modify the general appearance of all emails.
 
 The following variable have to be in the template:
 

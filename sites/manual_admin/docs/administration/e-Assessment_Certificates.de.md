@@ -16,8 +16,7 @@ Administrator:innen können ebenfalls einrichten, dass beim Ausstellen eines Zer
 
 ## Tab Zertifikate Vorlage  {: #tab_templates}
 
-Wenn Kursbesitzer:innen ein Zertifikat für ihren Kurs ausstellen wollen, nehmen sie dazu eine Einstellung vor unter 
-(Kurs-)Administration > Einstellungen > Bewertung > Abschnitt "Zertifikat". Dort kann auch die zu verwendende Zertifikatsvorlage ausgewählt werden. Als Administrator:in können Sie die zur Auswahl stehenden Zertifikatsvorlagen bestimmen.
+Wenn Kursbesitzer:innen ein Zertifikat für ihren Kurs ausstellen wollen, nehmen sie dazu eine Einstellung vor unter (Kurs-)Administration > Einstellungen > Bewertung > Abschnitt "Zertifikat". Dort kann auch die zu verwendende Zertifikatsvorlage ausgewählt werden. Als Administrator:in können Sie die zur Auswahl stehenden Zertifikatsvorlagen bestimmen.
 
 Die gleiche Auswahl der Zertifikatsvorlagen steht auch in Zertifikatsprogrammen zur Verfügung.
 

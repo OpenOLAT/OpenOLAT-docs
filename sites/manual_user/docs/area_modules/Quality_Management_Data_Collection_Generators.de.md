@@ -154,7 +154,7 @@ Der Generator trägt in der [Datenerhebung](Quality_Management_Data_Collections.
     Gibt es in einem Kurs mehrere Betreuer:innen, welche die übrigen Kriterien erfüllen, wird pro Betreuer:in eine [Datenerhebung](Quality_Management_Data_Collections.de.md) initiiert.
 
 ![7_green_24.png](assets/7_green_24.png) **Minimale Anzahl Einheiten Betreuer:in**<br>
-Die Datenerhebung findet nur statt, wenn der/die Betreuer:in die hier angegebene minmale Anzahl Einheiten in einem Kurs insgesamt hat. (Nicht nur die bereits durchgeführten Lektionen.)
+Die Datenerhebung findet nur statt, wenn der/die Betreuer:in die hier angegebene minimale Anzahl Einheiten in einem Kurs insgesamt hat. (Nicht nur die bereits durchgeführten Lektionen.)
 
 ![8_green_24.png](assets/8_green_24.png) **Maximale Anzahl Einheiten Betreuer:in**<br>
 Die Datenerhebung findet nur statt, wenn der/die Betreuer:in die hier angegebene maximale Anzahl Einheiten in einem Kurs insgesamt nicht überschreitet.
@@ -173,6 +173,11 @@ Die Datenerhebung findet nur statt, wenn der/die Betreuer:in die hier angegebene
 ![10_green_24.png](assets/10_green_24.png) **Start x Minuten vor dem Ende des Termins**<br>
 
 Wird die Befragung kurz vor dem Ende durchgeführt, ist in der Regel mit einer höheren Beteiligung zu rechnen.
+
+
+![11_green_24.png](assets/11_green_24.png) **Dauer der Datenerhebung (Tage)**
+
+Nach Start der Datenerhebung können alle Teilnehmenden im angegebenen Zeitraum das Formular ausfüllen und abgeben. Nach Ablauf dieser Frist ist eine Abgabe nicht mehr möglich.
 
 ![12_green_24.png](assets/12_green_24.png) **Ankündigung für Betreuer:innen (Tage vor Start der Datenerhebung)**<br>
 
