@@ -199,7 +199,7 @@ A small wizard guides you through the import process.
 
 ![course_element_topic_broker_topic_import1_v1_dn.png](assets/course_element_topic_broker_topic_import1_v1_en.png){ class="shadow lightbox" }
 
-The topics and media files must be entered in two different fields. Sample files are also available to download for both fields. Normally, however, you will use the zip file exported elsewhere from an OpenOlat course element "Topic exchange".
+The topics and media files must be entered in two different fields. Sample files are also available to download for both fields. Normally, however, you will use the zip file exported elsewhere from an OpenOlat course element "Topic broker".
 
 **a) Topics**<br>
 The topics to be imported are entered here as texts (e.g. titles).
@@ -284,7 +284,7 @@ There is no set time when you must initiate enrolment. During the assignment pro
 
 ![course_element_topic_broker_enrollment_start_v1_de.png](assets/course_element_topic_broker_enrollment_start_v1_de.png){ class="shadow lightbox" }
 
-When the assignment algorithm is triggered manually, **multiple runs** can be performed. The results differ from one another because the algorithm includes a random component. They are listed in a dropdown menu, and advisors can select a run from this list to be used for final enrollment.
+When the assignment algorithm is triggered manually, **multiple runs** can be performed. The results differ from one another because the algorithm includes a random component. They are listed in a dropdown menu, and coaches can select a run from this list to be used for final enrollment.
 
 ![course_element_topic_broker_choose_a_run_v1_de.png](assets/course_element_topic_broker_choose_a_run_v1_de.png){ class="shadow lightbox" }
 
@@ -297,7 +297,7 @@ In the case of manual kick-off, you can also specify that the participants are s
 
 !!! tip "Note"
 
-    If there are still people with the status "Waiting list" or "Open" after clicking on "Apply", you can assign them manually (see [Adjustment](Course_Element_Topic_Broker.md#topic_broker_adjustment)).<br>
+    If there are still people with the status "Waiting list" or "Open" after clicking on "Accept", you can assign them manually (see [Adjustment](Course_Element_Topic_Broker.md#topic_broker_adjustment)).<br>
     This may be necessary, for example, if a person has not yet entered a topic after the time window has expired and therefore could not be assigned by the algorithm.
 
 
@@ -305,25 +305,25 @@ In the case of manual kick-off, you can also specify that the participants are s
 [To the top of the page ^](#topic_broker)
 
 
-### Optimierung durch Strategieanpassung {: #topic_broker_adapt_strategy}
+### Adapt strategy {: #topic_broker_adapt_strategy}
 
-Die Vergabe der Themen kann nach verschiedenen Strategien vorgenommen werden. Sie können selbst eine Strategie wählen. Verwenden Sie dazu den Link "Strategie anpassen" am rechten Rand bei den Angaben zur Optimierungsstratgie.
+Topics can be assigned using various strategies. You can choose a strategy yourself. To do so, use the "Customize Strategy" link on the right-hand side of the optimization strategy details.
 
 ![course_element_topic_broker_strategy1_v1_de.png](assets/course_element_topic_broker_strategy1_v1_de.png){ class="shadow lightbox" }
 
-Es stehen dann folgende Strategien zur Auswahl:
+The following strategies are available:
 
-* Maximale Anzahl Einschreibungen (Hohe Einschreibequote bei minimaler Warteliste)
-* Maximale Prioritätsberücksichtigung (Hoher Grad an Erfüllung der Prioritäten der Teilnehmer:innen)
-* Maximale Themenanzahl (Hohe Themenquote durch ausreichende Teilnehmeranzahl)
-* Individuell (Definieren Sie Ihre eigene Gewichtung und Feineinstellung für die Prioritäten)
+* Maximum number of registrations (high registration rate with a minimal waiting list)
+* Maximum consideration of priorities (High degree of alignment with participants' priorities)
+* Maximum number of topics (High topic coverage due to sufficient number of participants)
+* Custom (Define your own weighting and fine-tune the priorities)
 
 ![course_element_topic_broker_strategy2_v1_de.png](assets/course_element_topic_broker_strategy2_v1_de.png){ class="shadow lightbox" }
 
 ![course_element_topic_broker_strategy3_v1_de.png](assets/course_element_topic_broker_strategy3_v1_de.png){ class="shadow lightbox" }
 
-[nach oben (Perspektive Kursbetreuer:in) ^](#topic_broker_coaching)<br>
-[zum Seitenanfang ^](#topic_broker)
+[Up (Coach Perspective) ^](#topic_broker_coaching)<br>
+[To the top of the page ^](#topic_broker)
 
 
 ### Influence topic assignment {: #topic_broker_boost}
@@ -332,21 +332,20 @@ With a **boost function**, coaches can add a weighting for each individual and t
 
 ![course_element_topic_broker_boost_v1_de.png](assets/course_element_topic_broker_boost_v1_de.png){ class="shadow lightbox" }
 
-[Up (Course owner perspective) ^](#topic_broker_coaching)<br>
+[Up (Coach perspective) ^](#topic_broker_coaching)<br>
 [To the top of the page ^](#topic_broker)
 
 
 ### Correction of topic assignment/enrolment by coaches {: #topic_broker_adjustment}
 
-For an overview, select the course element as the course coach and then click on the plus symbol in front of a name in the list in the "Participants" tab. The view of the selection and prioritization of this person opens.
+If the process is in the "Pending Final Enrollment" phase, coaches can correct the assignments that have been made.
 
-As a coach, you have the option of making the enrolment manually or removing a pre-selected topic. 
+To view an overview, select the course module as the course instructor, then click the plus icon next to a name in the list under the "Participants" tab. This will open a view showing that person's selections and priority settings.
 
-![course_element_topic_broker_enrollment_manually_v1_de.png](assets/course_element_topic_broker_enrollment_manually_v1_de.png){ class="shadow lightbox" }
+As an instructor, you have the option to remove a preselected topic or (if you approve of this topic assignment) to manually enroll students. 
 
-Enrolment (including automatic enrolment) can be canceled by coaches (deregistration).
+![course_element_topic_broker_enrollment_manually_v2_de.png](assets/course_element_topic_broker_enrollment_manually_v2_de.png){ class="shadow lightbox" }
 
-![course_element_topic_broker_modify_enrollment2_v1_de.png](assets/course_element_topic_broker_modify_enrollment2_v1_de.png){ class="shadow lightbox" }
 
 [Up (Course owner perspective) ^](#topic_broker_coaching)<br>
 [To the top of the page ^](#topic_broker)
@@ -365,6 +364,37 @@ The button is available both in the course editor (for course owners) and in run
 [To the top of the page ^](#topic_broker)
 
 ---
+
+### Adjust enrolment {: #topic_broker_adjust_enrollment}
+
+Even if the "Enrolment Closed" phase has already been reached, you, as the course owner or instructor, can still make changes to enrolments. (Instructors, provided they have been granted the necessary permissions.)
+
+To do this, select the "Topics" tab and click the "+" in the first column to open a topic.
+
+![course_element_topic_broker_modify_enrollment1_v2_de.png](assets/course_element_topic_broker_modify_enrollment1_v2_de.png){ class="shadow lightbox" }
+
+A registration (including those made automatically) can be canceled (removed). Click "Unsubscribe" in the row for the person in question.
+
+![course_element_topic_broker_modify_enrollment2_v1_de.png](assets/course_element_topic_broker_modify_enrollment2_v1_de.png){ class="shadow lightbox" }
+
+
+[nach oben (Perspektive Kursbetreuer:in) ^](#topic_broker_coaching)<br>
+[zum Seitenanfang ^](#topic_broker)
+
+---
+
+### Activity log {: #topic_broker_activitylog}
+
+Course owners and instructors can use the Activity Log tab to see when changes were made to a course module and by whom.
+
+![course_element_topic_broker_activitylog_v1_de.png](assets/course_element_topic_broker_activitylog_v1_de.png){ class="shadow lightbox" }
+
+
+[Up (Coach perspective) ^](#topic_broker_coaching)<br>
+[To the top of the page ^](#topic_broker)
+
+---
+
 
 ## Choice of topic (student perspective) {: #topic_broker_participant}
 

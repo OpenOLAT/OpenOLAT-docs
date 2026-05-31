@@ -402,7 +402,7 @@ Als Teilnehmer:in wählen Sie einfach den Kursbaustein Themenbörse in Ihrem Kur
 
 ### 1. Schritt: Themen wählen {: #topic_broker_participant_step1}
 
-Klicken Sie bei einer Themenbeschreibung, für die Sie sich gern einschreiben würden,  auf den Button "Hinzufügen", dann wird er in die Liste Ihrer ausgewählten Themen übernommen. 
+Klicken Sie bei einer Themenbeschreibung, für die Sie sich gern einschreiben würden, auf den Button "Hinzufügen", dann wird er in die Liste Ihrer ausgewählten Themen übernommen. 
 
 Je nach voreingestellter Berechtigung können Teilnehmer:innen auch eine Einschreibung zurückziehen oder die Anzahl der Einschreibungen reduzieren.
 

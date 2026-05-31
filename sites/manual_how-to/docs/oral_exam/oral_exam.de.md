@@ -174,9 +174,7 @@ Zur Erstellung eines Rubrik-Formulars finden Sie hier ausführliche Informatione
 
 
 Im Kopfbereich des Formulars wird die allgemeine Anzeige eines Benutzers verwendet.
-Diese wird an ganz vielen anderen Stellen im OpenOlat verwendet (Termine,
-Coaching, Tests, Aufgabe, Lernpfadübersicht, Portfolio, Projekt, ...). Es ist
-nicht möglich, das nur im Formular zu ändern. (Die allgemeine Anzeige des Benutzers wird über User Property Context "UserShortDescription" gesteuert.)
+Diese wird an ganz vielen anderen Stellen im OpenOlat verwendet (Termine, Coaching, Tests, Aufgabe, Lernpfadübersicht, Portfolio, Projekt, ...). Es ist nicht möglich, das nur im Formular zu ändern. (Die allgemeine Anzeige des Benutzers wird über User Property Context "UserShortDescription" gesteuert.)
 
 Fügen Sie im Inhaltseditor des Formulars für 
 
@@ -206,7 +204,7 @@ Wurde das Formular nicht sofort beim Einrichten des Kursbausteins erstellt (Schr
 
 Sind Formular und Kurs inhaltlich fertig gestellt, können die Prüfungsteilnehmer:innen der mündlichen Prüfung zugeordnet werden.
 
-**Kurs > Administration >Mitgliederverwaltung > Mitglied hinzufügen**
+**Kurs > Administration > Mitgliederverwaltung > Mitglied hinzufügen**
 
 Prüfer:innen weisen Sie die Kursrolle "Betreuer:in" zu.
 
@@ -349,7 +347,7 @@ Alternativ sind die gleichen Buttons auch im Bewertungswerkzeug zu finden.<br>
 - [x] Sind die Sichtbarkeitsregeln abgestimmt (sofortige Anzeige oder Freigabe nach Abschluss)?
 - [x] Sind alle Prüfungsteilnehmer:innen als Mitglieder im Prüfungskurs erfasst?
 - [x] Sind alle Prüfer:innen (auch externe) als Mitglieder im Prüfungskurs erfasst?
-- [x] Haben alle Prüfer:innen die Rolle „Betreuer:in“ und können sie das Bewertungswerkzeug öffnen?
+- [x] Haben alle Prüfer:innen die Rolle "Betreuer:in" und können sie das Bewertungswerkzeug öffnen?
 - [x] Ist der Kurs publiziert und für Prüfer:innen zugänglich?
 - [x] Sind die Prüfungstermine vergeben und allen Beteiligten bekannt?
 - [x] Wurde eine Testprüfung mit einem Dummy-Teilnehmer erfolgreich durchgeführt?
@@ -368,10 +366,10 @@ Ja. Als Betreuer oder Besitzer öffnen Sie den/die Teilnehmer:in erneut im Bewer
 Im Bewertungswerkzeug gibt es oben rechts die Aktion „Export“. Sie erhalten eine Excel- bzw. CSV-Datei mit allen Punkten, Noten und Kommentaren.
 
 **Was tun, wenn ein Teilnehmer nicht erschienen ist?**<br>
-Tragen Sie im Bewertungsbaustein „0 Punkte“ und „Nicht bestanden“ ein und halten Sie in der internen Notiz „nicht erschienen“ fest. Alternativ können Sie den Status „Nicht teilgenommen“ setzen, falls dies im Notensystem konfiguriert ist.
+Tragen Sie im Bewertungsbaustein "0 Punkte" und "Nicht bestanden" ein und halten Sie in der internen Notiz "nicht erschienen" fest. Alternativ können Sie den Status "Nicht teilgenommen" setzen, falls dies im Notensystem konfiguriert ist.
 
 **Können Teilnehmer ihre Bewertung herunterladen?**<br>
-Ja, über *"Mein Kurs" > Leistungsnachweis* erhalten Sie ein PDF mit den erzielten Ergebnissen aller bewerteten Bausteine.
+Ja, über *”Mein Kurs” > Leistungsnachweis* erhalten Sie ein PDF mit den erzielten Ergebnissen aller bewerteten Bausteine.
 
 **Ist eine Online-Prüfung über Video möglich?**<br>
 Ja. Kombinieren Sie den Kurs mit einem Videokonferenz-System (z. B. dem integrierten BigBlueButton-Baustein), um die Prüfung remote durchzuführen. Die Bewertung bleibt im Bewertungsbaustein.

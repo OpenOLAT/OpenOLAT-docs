@@ -5,11 +5,13 @@
 There are basically two types of events in OpenOlat:
 
 - Basic events (without the option to record absences)
-- Events with absences: Appointments in the course; they appear in the [Course Planner](../area_modules/Course_Planner.md) and [absence management](../area_modules/Absence_Management.md).
-Lecturers can also be booked for these dates. (Only coaches can be made lecturers.)
+- Events with additional options: They appear in [Courses](../learningresources/Events_and_absences.md), in the [Course Planner](../area_modules/Course_Planner.md), and in [Absence Management](../area_modules/Absence_Management.md).
 
-|                           | basic event | Event with absence |
+
+|                           | Basic event | Event with absence |
 | ------------------------- |:-----------------:|:--------------------:|
+|[Events in courses](../learningresources/Events_and_absences.md#edit_events)|   |x|
+|[Events in course element appointment scheduling](../learningresources/Course_Element_Appointment_Scheduling.md)|   |x|
 |[Events in Course Planner](../area_modules/Course_Planner_Events.md)|   |x|
 |[Events in the Absence management](#access_absences)|   |x|
 |[Events in Projects](../area_modules/Project_Schedule.md)| x |  | 
@@ -27,8 +29,7 @@ Lecturers can also be booked for these dates. (Only coaches can be made lecturer
 
 !!! info "General note"
 
-    Administrators can configure the options in absence management in great detail. If one of the options described is not available to you, please contact your administrator.
-
+    Administrators can configure the settings in [Absence Management](../area_modules/Absence_Management.md) in great detail. If any of the options described are not available to you, please contact your administrator.
 
 !!! info "General note"
 
