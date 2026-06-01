@@ -147,8 +147,8 @@ Konfiguration des Termins ab (siehe oben).
 
 ![course_element_teams_join_v1_de.png](assets/course_element_teams_join_v1_de.png)
 
-!!! warning "Achtung":
-  
+!!! warning "Achtung"
+
     Bei abgelaufenen Meetings ist der Beitritt nicht mehr möglich. Aufzeichnungen stehen in OpenOlat nicht zur Verfügung; Aufzeichnungen, die direkt in Microsoft Teams erstellt wurden, sind ausschliesslich über Microsoft Teams abrufbar.
 
 ## Bei Problemen {: #troubleshooting}
