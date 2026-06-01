@@ -44,6 +44,7 @@ nav:
       - Media Center:
         - Concept: "basic_concepts/Media_Center_Concept.md"
         - Media items: "basic_concepts/Media_Center_Items.md"
+      - Virtual classrooms: "basic_concepts/Virtual_classrooms.md"
     - Technology:
       - basic_concepts/Technology.md 
       - Using WebDAV: "basic_concepts/Using_WebDAV.md" 
