@@ -2,7 +2,7 @@
 
 The reminder function organizes the automatic sending of e-mails.
 
-![course_reminder_access_v1_de.png](assets/course_reminder_access_v1_de.png){ class="shadow lightbox" }
+![course_reminder_access1_v1_de.png](assets/course_reminder_access1_v1_de.png){ class="shadow lightbox" }
 
 All reminders for a course are displayed under Course administration → Reminders and can also be created there. In addition, all course elements that can be linked to the reminder function have their own "Reminders" tab directly on the element.
 
