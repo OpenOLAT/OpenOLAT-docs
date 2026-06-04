@@ -22,7 +22,8 @@ In einem optionalen Schritt kann ab :octicons-tag-24: Release 20 geprüft werden
 Wird durch Administrator:innen die Prüfoption ausgewählt, werden die bereits bekannten Benutzer:innen nach einem bestehenden Konto gefragt und es wird ein Support-Formular zur Verfügung gestellt.
 
 **Schritt E-Mail Validierung**<br>
-Bei der Selbstregistration eingegebene E-Mail-Adressen werden auf ihre Gültigkeit überprüft.
+Bei der Selbstregistration eingegebene E-Mail-Adressen werden auf ihre Gültigkeit überprüft.<br>
+Variante: Die Validierung kann auch durch das Organisationsmodul gesteuert werden.
 
 
 ### Abschnitt "Einschränkung auf Domäne"

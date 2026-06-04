@@ -22,7 +22,8 @@ In an optional step, starting with :octicons-tag-24: Release 20, it is possible 
 If administrators select the verification option, users who are already known will be asked for an existing account and a support form will be provided.
 
 **Step E-Mail Validation**<br>
-E-mail addresses entered during self-registration are checked for validity.
+E-mail addresses entered during self-registration are checked for validity.<br>
+Alternative: Validation can also be controlled through the organization module.
 
 
 ### Section "Restriction to domain"
