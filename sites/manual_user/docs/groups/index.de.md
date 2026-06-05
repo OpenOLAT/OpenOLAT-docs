@@ -1,4 +1,4 @@
-# :fontawesome-solid-user-group: Gruppen
+# :fontawesome-solid-user-group: Gruppen {: #groups}
 
 :octicons-device-camera-video-24: **Video-Einführung**: [Arbeit mit Gruppen](<https://www.youtube.com/embed/7LAPedqB9tk>){:target="_blank”} 
 
@@ -21,7 +21,12 @@ Gruppen nach Wunsch zu konfigurieren und dem Verwendungszweck anzupassen.
 Dieses Kapitel beschreibt, wie Sie Gruppen für verschiedene Verwendungszwecke
 konfigurieren und nutzen können.
 
-## Wo findet man die OpenOlat Gruppen?
+[Zum Seitenanfang ^](#groups)
+
+---
+
+
+## Wo findet man die OpenOlat Gruppen? {: #where}
 
 In der Hauptnavigation finden Sie auch "Gruppen".
 Nach Klick darauf sehen Sie z.B. im Tab "Meine Gruppen" alle Gruppen, bei denen Sie als Mitglied eingetragen sind. 
@@ -38,8 +43,12 @@ Sie können dort
 * (Nach Wahl einer Gruppe) die Mitglieder sehen und evtl. mit jemandem Kontakt aufnehmen
 * In der Gruppe zur Verfügung stehende Werkzeuge nutzen usw.
 
+[Zum Seitenanfang ^](#groups)
 
-## Welche Gruppentypen gibt es?
+---
+
+
+## Welche Gruppentypen gibt es? {: #types}
 
 ### Lerngruppen innerhalb eines Kurses
 
@@ -63,3 +72,7 @@ Mit Hilfe einer zusätzlichen Software (Syncher) ist es möglich, die Gruppenbil
     Die Informationen dieses Kapitels richten sich vor allem an Kursteilnehmer:innen, Betreuer:innen und Kursbesitzer:innen (Autor:innen).
 
     Sind Sie ausserdem mit der Verwaltung der Gruppen beauftragt, stehen Ihnen weitere Aktionen zur Verfügung. Sie finden weitere Informationen dazu im Kapitel [Gruppenverwaltung](../area_modules/Group_Management.de.md).
+
+
+[Zum Seitenanfang ^](#groups)
+

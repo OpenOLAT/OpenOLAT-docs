@@ -1,4 +1,4 @@
-# :fontawesome-solid-user-group: Groups
+# :fontawesome-solid-user-group: Groups {: #groups}
 
 !!! note "Quick Links"
 
@@ -17,7 +17,12 @@
 OpenOlat works with a comprehensive group system which allows to configure
 groups as desired in order to meet different requirements. This chapter describes how to configure and use groups for different purposes.
 
-## Where to find OpenOlat groups?
+[To the top of the page ^](#groups)
+
+---
+
+
+## Where to find OpenOlat groups? {: #where}
 
 In the main navigation you will also find "Groups". After clicking on it, you will see all groups where you are registered as a member, in the tab "My groups".
 
@@ -32,7 +37,12 @@ There you can
 * See the members of a group (after selecting a group) and get in contact with them
 * Use tools available in the group, etc.
 
-## What types of groups are there?
+[To the top of the page ^](#groups)
+
+---
+
+
+## What types of groups are there?  {: #types}
 
 ### Learning groups within a course
 
@@ -56,3 +66,6 @@ With the help of additional software (Syncher), it is also possible to carry out
     The information in this chapter is primarily intended for course participants, coaches and course owners (authors).
 
     If you are also in charge of managing the groups, further actions are available to you. You will find more information about this in the chapter [Group management](../area_modules/Group_Management.md).
+
+[To the top of the page ^](#groups)
+
