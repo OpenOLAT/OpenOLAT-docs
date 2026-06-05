@@ -159,6 +159,9 @@ Dort können Sie
 
 ## Das Korrekturwerkzeug {: #correction_tool}
 
+In OpenOlat wird unterschieden zwischen **Bewertungswerkzeug** und **Korrekturwerkzeug**.<br>
+Mit Hilfe des Korrekturworkflows können Sie persönliche Korrekturaufträge generieren und diese definierten Korrektoren zuweisen. Die Korrektur über das Bewertungswerkzeug ist dann nicht mehr möglich.
+
 Mit dem **Bewertungswerkzeug** können verschiedene **bewertbare Kursbausteine** bewertet werden:
 
 * Checkliste
@@ -184,6 +187,8 @@ Es kann damit auf 2 Arten korrigiert werden:
 ![assessing_tests_correction_tool_process1_v1_de.png](assets/assessing_tests_correction_tool_process1_v1_de.png){ class="shadow lightbox" }
 
 ![assessing_tests_correction_tool_process2_v1_de.png](assets/assessing_tests_correction_tool_process2_v1_de.png){ class="shadow lightbox" }
+
+Es ist möglich, Tests in OpenOlat auch anonym korrigieren zu lassen. Mehr darüber erfahren Sie im How-to [Wie macht man in OpenOlat eine anonyme Test-Korrektur?  >](../../manual_how-to/assessing_tests_anonymously/assessing_tests_anonymously.de.md)
 
 [zum Seitenanfang ^](#assessing_tests)
 
@@ -258,5 +263,6 @@ Das Bewertungswerkzeug bietet **Sammelaktionen**, um den Status mehrerer Teilneh
 [Einstufung/Noten >](../../manual_user/learningresources/Assessment_translate_points_in_grades.de.md)<br>
 [Daten zurücksetzen >](../../manual_user/learningresources/Assessment_tool_reset_data.de.md)<br>
 [Korrektur-Workflow >](../../manual_user/learningresources/Test_settings.de.md#korrektur-workflow)<br>
+[Wie macht man in OpenOlat eine anonyme Test-Korrektur?  >](../../manual_how-to/assessing_tests_anonymously/assessing_tests_anonymously.de.md)<br>
 
 [zum Seitenanfang ^](#assessing_tests)

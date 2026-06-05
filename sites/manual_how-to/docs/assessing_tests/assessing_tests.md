@@ -162,7 +162,10 @@ There you can:
 
 ## The correction tool {: #correction_tool}
 
-The **grading tool** can be used to grade various **gradable course modules**:
+In OpenOlat, a distinction is made between **assessment tool** and **correction tool**.<br>
+Using the correction workflow, you can generate individual correction requests and assign them to specific correctors. Corrections via the assessment tool are then no longer possible.
+
+The **assessment tool** can be used to grade various **gradable course elements**:
 
 * Checklist
 * Assessment
@@ -173,7 +176,7 @@ The **grading tool** can be used to grade various **gradable course modules**:
 * Task and group task
 * Tests
 
-For **tests**, a **grading tool** is also available, which allows you to grade tests **question by question**. You can access it, for example, via the assessment tool.
+For **tests**, a **correction tool** is also available, which allows you to grade tests **question by question**. You can access it, for example, via the assessment tool.
 
 **Select course > Administration > Assessment tool > Select course element > Tab "Participant" > Button "Correction tool"**
 
@@ -187,6 +190,8 @@ There are two ways to correct this:
 ![assessing_tests_correction_tool_process1_v1_de.png](assets/assessing_tests_correction_tool_process1_v1_de.png){ class="shadow lightbox" }
 
 ![assessing_tests_correction_tool_process2_v1_de.png](assets/assessing_tests_correction_tool_process2_v1_de.png){ class="shadow lightbox" }
+
+It is also possible to have tests graded anonymously in OpenOlat. You can learn more about this in the how-to guide [How do you grade an anonymous test in OpenOlat? >](../../manual_how-to/assessing_tests_anonymously/assessing_tests_anonymously.md)
 
 [To the top of the page ^](#assessing_tests)
 
@@ -260,5 +265,6 @@ The assessment tool offers **batch actions** to set the status of multiple parti
 [Grading >](../../manual_user/learningresources/Assessment_translate_points_in_grades.md)<br>
 [Reset data >](../../manual_user/learningresources/Assessment_tool_reset_data.md)<br>
 [Correction workflow >](../../manual_user/learningresources/Test_settings.md#korrektur-workflow)<br>
+[How do you grade an anonymous test in OpenOlat?  >](../../manual_how-to/assessing_tests_anonymously/assessing_tests_anonymously.md)<br>
 
 [To the top of the page ^](#assessing_tests)
