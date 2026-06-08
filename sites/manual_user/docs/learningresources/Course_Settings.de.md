@@ -70,7 +70,7 @@ Metadaten eines Kurses sind
 Hier können Sie 
 
 * den Durchführungszeitraum des Kurses definieren, 
-* das "[Lektionen- und Absenzmanagement](../learningresources/Lectures_and_absences.de.md)" einschalten und weiter konfigurieren (sofern vom Administrator aktiviert), 
+* das "[Absenzmanagement](../area_modules/Absence_Management.de.md)" einschalten und weiter konfigurieren (sofern vom Administrator aktiviert), 
 * existierende herkömmliche Kurse in Lernpfad Kurse konvertieren 
 * bzw. bei [Lernpfad Kursen](Learning_path_course.de.md) definieren, wie der Lernfortschritt berechnet wird, anhand der Anzahl der Kursbausteine oder anhand der Bearbeitungsdauer der Kursbausteine.
 

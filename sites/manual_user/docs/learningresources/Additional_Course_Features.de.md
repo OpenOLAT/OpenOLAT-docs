@@ -2,7 +2,7 @@
 
 ![Toolbar](assets/Toolbar_20.jpg)
 
-In der Toolbar eines Kurses stehen Usern eine Reihe von weiteren Kursfunktionen zur Verfügung. Einige Elemente wie  ["Kursinfo"](../learningresources/Info_page.de.md), "Mein Kurs" oder der Bereich "Lernpfad" (bei Lernpfad Kursen) werden automatisch angelegt. Auch das Element "Termine" erscheint automatisch in der Toolbar, wenn die ["Termine und Absenzen"](../learningresources/Lectures_and_absences.de.md) im Kurs aktiviert wurden. 
+In der Toolbar eines Kurses stehen Usern eine Reihe von weiteren Kursfunktionen zur Verfügung. Einige Elemente wie  ["Kursinfo"](../learningresources/Info_page.de.md), "Mein Kurs" oder der Bereich "Lernpfad" (bei Lernpfad Kursen) werden automatisch angelegt. Auch das Element "Termine" erscheint automatisch in der Toolbar, wenn die ["Termine und Absenzen"](../learningresources/Events_and_absences.de.md) im Kurs aktiviert wurden. 
 
 Andere Werkzeuge können von den Kursbesitzenden unter "Administration" -> "Einstellungen" -> "Toolbar" zusätzlich aktiviert werden. Weitere Infos zu diesen aktivierbaren Werkzeugen finden Sie auf der separaten Seite ["Einsatz weiterer Kursfunktionen der Toolbar"](../learningresources/Using_additional_Course_Editor_Tools.de.md). 
 

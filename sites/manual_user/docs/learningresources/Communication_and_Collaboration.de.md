@@ -1,5 +1,5 @@
 # Kommunikation und Kollaboration
-Mehr Informationen zu [Virtuelle Klassenzimmer](../course_elements/Virtual_classrooms.de.md)
+Mehr Informationen zu [Virtuelle Klassenzimmer](../basic_concepts/Virtual_classrooms.de.md)
 
 ## Kursbaustein "Wiki" {: #wiki}
 ![Wiki Icon](../assets/wiki_icon.png)

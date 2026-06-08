@@ -14,7 +14,7 @@
 
 ??? abstract "Erwartete Vorkenntnisse"
 
-    * [Wie gehe ich vor, wenn ich einen Test erstelle?  >](../../manual_how-to/test_creation_procedure/test_creation_procedure.de.md)
+    * [Wie gehe ich vor, wenn ich einen Test erstelle? >](../../manual_how-to/test_creation_procedure/test_creation_procedure.de.md)
     * Sie kennen das Bewertungswerkzeug in OpenOlat.
     * Sie haben als Betreuer:in schon Tests in OpenOlat korrigiert.
 

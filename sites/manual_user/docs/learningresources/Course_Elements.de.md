@@ -87,7 +87,7 @@ Kursbausteine dieser Kategorie werden vor allem für kollaboratives Arbeiten und
 ![Vitero](assets/vitero.png)
 
 Mit den Kursbausteinen 
-[Adobe Connect](Course_Element_Adobe_Connect.de.md), [BigBlueButton](Course_Element_BigBlueButton.de.md), [GoToMeeting](Course_Element_GoToMeeting.de.md), [Microsoft Teams](Course_Element_Microsoft_Teams.de.md), [OpenMeetings](Course_Element_OpenMeetings.de.md), [Vitero](Course_Element_vitero.de.md) und [Zoom](Course_Element_Zoom.de.md) können in OpenOlat unterschiedliche [Virtuelle Klassenzimmer](../course_elements/Virtual_classrooms.de.md) für synchrone Meetings, Video-Konferenzen oder Webinare eingesetzt werden.
+[Adobe Connect](Course_Element_Adobe_Connect.de.md), [BigBlueButton](Course_Element_BigBlueButton.de.md), [GoToMeeting](Course_Element_GoToMeeting.de.md), [Microsoft Teams](Course_Element_Microsoft_Teams.de.md), [OpenMeetings](Course_Element_OpenMeetings.de.md), [Vitero](Course_Element_vitero.de.md) und [Zoom](Course_Element_Zoom.de.md) können in OpenOlat unterschiedliche [Virtuelle Klassenzimmer](../basic_concepts/Virtual_classrooms.de.md) für synchrone Meetings, Video-Konferenzen oder Webinare eingesetzt werden.
 
 Welche Kursbausteine für diese Zwecke verfügbar sind und welche Funktionalitäten jeweils zur Verfügung stehen, hängt von der Konfiguration ihres OpenOlat-Systems ab.
 

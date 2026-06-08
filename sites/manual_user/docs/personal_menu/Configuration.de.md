@@ -64,7 +64,7 @@ In der Auswahl "Sitzung wiederherstellen" legen Sie fest, was direkt nach dem Lo
 
 Wenn Sie die Einstellung "Ja, automatisch" gewählt haben, wird das Feld zur Eingabe der Startseite ausgeblendet. Dieses Feld gestattet Ihnen, jede beliebige Seite innerhalb OpenOlat als Ihre persönliche Startseite festzulegen und damit die systemweit eingestellte Startseite zu überschreiben. Seitenspezifische Links finden Sie in der Social Sharing - Leiste links unten unter "Link kopieren". Noch einfacher ist es auf der gewünschten Startseite einfach das Startseiten Icon anzuklicken. Hierfür kann jede OpenOlat Seite auf die Sie Zugriff haben, gewählt werden.
 
-![](assets/DE_startseite_festlegen.png)
+![](assets/change_startpage_EN.png)
 
   
 

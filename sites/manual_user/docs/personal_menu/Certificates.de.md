@@ -36,7 +36,7 @@ Ausserdem finden Sie rechts oben einen Button zum Herunterladen.
 
 [Zertifikate in Einzelkursen >](../../manual_user/learningresources/Course_Settings_Assessment_Certificate.de.md)<br>
 [Zertifikate in Zertifikatsprogrammen >](../../manual_user/area_modules/Course_Planner_Certification_Programs.de.md)<br>
-[Leistungsnachweise in den persönlichen Werkzeugen >](../../manual_user/lpersonal_menu/Evidence_of_Achievements.de.md)<br>
+[Leistungsnachweise in den persönlichen Werkzeugen >](../../manual_user/personal_menu/Evidence_of_Achievements.de.md)<br>
 
 [Zum Seitenanfang ^](#certificates)
 
