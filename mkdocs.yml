@@ -629,7 +629,7 @@ plugins:
           ... create a bulk assessment for submission tasks : ... eine Massenbewertung für Einsendeaufgaben erstellen
           ... customize the course design with CSS (Expert) : ... Kursdesign mittels CSS manipulieren (Expert)
           ... use the same files in several courses : ... dieselben Dateien in mehreren Kursen einsetzen
-  - git-revision-date          
+  - git-revision-date-localized
 #  - tags
 # search plugin must be after i18n plugin to make it index both languages
   - search:
