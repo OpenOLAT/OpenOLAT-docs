@@ -72,15 +72,17 @@ Vergessen Sie nicht die Konfiguration zu speichern.
 
 ### Schritt 6
 
-Im Tab "Korrektor:innen" werden die Personen hinzugefügt, die einen Test bewerten sollen. Dabei ist es egal, welche Rolle die Person in OpenOlat besitzt. Auch Benutzer:innen, die sonst keine Betreuer:innen-Rolle haben, können als Korrektor:innen hinzugefügt werden. Über das Zahnrad können weitere Konfigurationen vorgenommen werden. Es kann z.B. Korrektor:innen kontaktiert, deaktiviert oder entfernt werden. sowie die jeweiligen Korrekturaufträge angezeigt werden.
+Im Tab "Korrektor:innen" werden die Personen hinzugefügt, die diese Test-Lernressource bewerten sollen. Dabei ist es egal, welche Rolle die Person in OpenOlat besitzt. Auch Benutzer:innen, die sonst keine Betreuer:innen-Rolle haben, können als Korrektor:innen hinzugefügt werden. Über das Zahnrad können weitere Konfigurationen vorgenommen werden. Es können z.B. Korrektor:innen kontaktiert, deaktiviert oder entfernt werden, sowie die jeweiligen Korrekturaufträge angezeigt werden.
 
-screen
+![assessing_tests_anonymously_workflow_tab_correctors1_v1_de.png](assets/assessing_tests_anonymously_workflow_tab_correctors1_v1_de.png){ class="shadow lightbox" }
+
+![assessing_tests_anonymously_workflow_tab_correctors2_v1_de.png](assets/assessing_tests_anonymously_workflow_tab_correctors2_v1_de.png){ class="shadow lightbox" }
 
 ### Schritt 7
 
 Im Tab "Korrekturaufträge" kann der Bearbeitungsstand der Korrekturaufträge der unterschiedlichen Korrektor:innen angezeigt und nach verschiedenen Kriterien gefiltert werden.
 
-screen
+![assessing_tests_anonymously_workflow_tab_assignments_v1_de.png](assets/assessing_tests_anonymously_workflow_tab_assignments_v1_de.png){ class="shadow lightbox" }
 
 [zum Seitenanfang ^](#assessing_tests_anonymously)
 
@@ -92,32 +94,37 @@ screen
 Wenn **Kursbesitzer:innen** einen Korrektur-Workflow einrichten, arbeiten sie an der Test-**Lernressource**.<br>
 **Betreuer:innen** arbeiten dagegen im Kurs im **Test-Kursbaustein**, in dem die so konfigurierte Test-Lernressource eingebunden ist.
 
+Das Korrekturwerkzeug kann aufgerufen werden durch:<br>
+**Kurs wählen > Kursbaustein wählen > Tab "Teilnehmer" > Button "Korrekturwerkzeug"**
 
+![assessing_tests_anonymously_correction_tool1_v1_de.png](assets/assessing_tests_anonymously_correction_tool1_v1_de.png){ class="shadow lightbox" }
 
-Sie gelangen z.B. über das Bewertungswerkzeug dorthin.
-
+Alternativ gelangen Sie auch über das Bewertungswerkzeug zum Korrekturwerkzeug:<br>
 **Kurs wählen > Administration > Bewertungswerkzeug > Kursbaustein wählen > Tab "Teilnehmer" > Button "Korrekturwerkzeug"**
 
-![assessing_tests_correction_tool1_v1_de.png](assets/assessing_tests_correction_tool1_v1_de.png){ class="shadow lightbox" }
+![assessing_tests_anonymously_correction_tool2_v1_de.png](assets/assessing_tests_anonymously_correction_tool2_v1_de.png){ class="shadow lightbox" }
 
-Es kann damit auf 2 Arten korrigiert werden:
+
+Im Korrekturwerkzeug kann auf 2 Arten korrigiert werden:
 
 1. Eine bestimmte **Frage auswählen** und diese Frage bei allen Teilnehmenden korrigieren.
 2. Einen **Teilnehmenden auswählen** und dann nacheinander alle Fragen dieses Teilnehmenden korrigieren, bevor Sie zum nächsten Teilnehmenden wechseln.
 
-![assessing_tests_correction_tool_process1_v1_de.png](assets/assessing_tests_correction_tool_process1_v1_de.png){ class="shadow lightbox" }
+![assessing_tests_anonymously_correction_tool_process1_v1_de.png](assets/assessing_tests_anonymously_correction_tool_process1_v1_de.png){ class="shadow lightbox" }
 
-![assessing_tests_correction_tool_process2_v1_de.png](assets/assessing_tests_correction_tool_process2_v1_de.png){ class="shadow lightbox" }
+![assessing_tests_anonymously_correction_tool_process2_v1_de.png](assets/assessing_tests_anonymously_correction_tool_process2_v1_de.png){ class="shadow lightbox" }
 
-Wurde die oben beschriebene Option "Anonym" ausgewählt, werden den Korrektor:innen statt der im Korrekturtool und Korrektur-Workflow keine Namen, sondern nur eine anonyme 7-stellige anonyme Kennung im Format ABC-DEF. (Seit OpenOlat 19.1.26 / 20.1.12, in vorhergehenden Versionen wurde statt der Kennung eine Zahl angezeigt.)
+Wurde die oben beschriebene Option "Anonym" ausgewählt, werden den Korrektor:innen im Korrekturwerkzeug und Korrektur-Workflow keine Namen, sondern nur eine anonyme 7-stellige anonyme Kennung im Format ABC-DEF angezeigt. (Seit OpenOlat 19.1.26 / 20.1.12, in vorhergehenden Versionen wurde statt der Kennung eine Zahl angezeigt.)
 
-Diese Kennung bleibt konstant und wird an mehreren Stellen angezeigt. Korrektor:innen können so einzelne Teilnehmende über verschiedene Fragen hinweg konsistent identifizieren, ohne aber deren echte Identität zu kennen.
+Diese Kennung bleibt konstant und wird an mehreren Stellen angezeigt. Korrektor:innen können so einzelne Teilnehmende über verschiedene Fragen hinweg zwar konsistent identifizieren, ihre echte Identität bleibt aber verborgen.
 
-screen
+**Beispiel:**
+![assessing_tests_anonymously_correction_tool_process3_v1_de.png](assets/assessing_tests_anonymously_correction_tool_process3_v1_de.png){ class="shadow lightbox" }
+
 
 !!! hint "Hinweis"
 
-    Informationen zur kursübergreifenden Korrektur findet man im [Coaching Tool >](../../manual_user/area_modules/Coaching.de.md)
+    Informationen zur **kursübergreifenden** Korrektur finden Sie im [Coaching Tool >](../../manual_user/area_modules/Coaching.de.md)
 
 
 [zum Seitenanfang ^](#assessing_tests_anonymously)
@@ -127,9 +134,14 @@ screen
 
 ## Checkliste {: #checklist}
 
-- [x] Test-Lernressource: Korrektur-Workflow aktiviert?
-- [x] Test-Lernressource: Korrektur-Workflow konfiguriert?
-- [x] Test-Lernressource: Korrektur-Workflow > Tab Konfiguration > Option "anonym" gewählt?
+- [x] Wurde der Korrektur-Workflow in der Test-Lernressource aktiviert?
+- [x] Wurde entschieden, ob die Teilnehmer:innen den Korrektor:innen namentlich bekannt sein sollen oder nicht?<br>
+    (Test-Lernressource: Korrektur-Workflow > Tab Konfiguration)   
+- [x] Wurde ein Korrekturzeitraum festgelegt?<br>
+    (Test-Lernressource: Korrektur-Workflow > Tab Konfiguration)
+- [x] Wurden die verschiedenen Benachrichtigungen an die Korrektor:innen konfiguriert?
+- [x] Wurden alle Korrektor:innen bestimmt und hinzugefügt?<br>
+    (Test-Lernressource: Korrektur-Workflow > Tab Korrektor:innen)
 
 [zum Seitenanfang ^](#assessing_tests_anonymously)
 
@@ -140,5 +152,7 @@ screen
 
 [Wie gehe ich vor, wenn ich einen Test erstelle? >](../../manual_how-to/test_creation_procedure/test_creation_procedure.de.md)<br>
 [Wie bewerte ich einen Test? >](../../manual_how-to/assessing_tests/assessing_tests.de.md)<br>
+[Bewertungswerkzeug >](../../manual_user/learningresources/Assessment_tool_overview.de.md)<br>
+[Coaching Tool >](../../manual_user/area_modules/Coaching.de.md)<br>
 
 [zum Seitenanfang ^](#assessing_tests_anonymously)

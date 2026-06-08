@@ -47,7 +47,7 @@
 4. [Communication during an exam](/manual_how-to/communication_during_exam/communication_during_exam)
 5. [How do I prepare an exam with the Safe Exam Browser?](/manual_how-to/SEB/SEB)
 6. [How do I assess a test?](/manual_how-to/assessing_tests/assessing_tests)
-7. [How do you assess an anonymous test in OpenOlat?](/manual_how-to/assessing_tests/assessing_tests_anonymously)
+7. [How do you assess an anonymous test in OpenOlat?](/manual_how-to/assessing_tests_anonymously/assessing_tests_anonymously)
 8. [How do I exchange a test?](/manual_how-to/exchange_tests/exchange_tests)
 9. [How do I record an oral exam in OpenOlat?](/manual_how-to/oral_exam/oral_exam)
 

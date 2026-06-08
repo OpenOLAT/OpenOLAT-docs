@@ -1,4 +1,4 @@
-# Test Einstellungen - Administration
+# Test Einstellungen - Administration {: #test_settings}
 
 Im Bereich "Administration" eines Tests findet man, ähnlich wie bei anderen Lernressourcen weitere Menüs. Hier kann man den Test näher konfigurieren. Besonders wichtig sind dabei die Menüs "Einstellungen" und "Inhalt editieren". 
 
@@ -30,8 +30,12 @@ Auf dieser Seite finden Sie nähere Erläuterungen zu folgenden Administrationsm
 * Handschriftliche Prüfungen generieren
 * Als Worddatei speichern
 
+[zum Seitenanfang ^](#test_settings)
+
+---
+
   
-## "Einstellungen" eines Tests
+## "Einstellungen" eines Tests {: #settings}
 
 Wichtig für Tests ist vor allem der Tab "Optionen". Hier konfigurieren Sie den gesamten Test.  
 
@@ -132,7 +136,7 @@ Wenn diese Checkbox ausgewählt ist, wird das Resultat nach Beenden des Tests an
     Ob die Ergebnisse auf der Test-Startseite im Kurs dargestellt werden, wird ebenfalls direkt im Kurs konfiguriert.     
 
 
-## Korrektur-Workflow 
+## Korrektur-Workflow {: #correction-workflow}
 
 Um einem Test weitere, auch kursübergreifende, Korrektoren hinzufügen zu können, muss in der Administration des Tests im Menü "Korrektur" die Korrektur eingeschaltet werden. Anschließend können die Korrektoren hinzugefügt, Korrekturaufträge vergeben und weitere Einstellungen vorgenommen werden.
 
@@ -152,8 +156,12 @@ Hier kann der Bearbeitungsstand der Korrekturaufträge der unterschiedlichen Kor
 
 Weitere Informationen zur kursübergreifenden Korrektur findet man im [Coaching Tool](../area_modules/Coaching.de.md).
 
+[zum Seitenanfang ^](#test_settings)
 
-## Handschriftliche Prüfungen generieren
+---
+
+
+## Handschriftliche Prüfungen generieren {: #create_paper_pencil}
 
 Wenn sie offline eine Prüfung durchführen wollen, können sie in diesem Wizard ein Deckblatt und verschiedene Versionen von ihrer Testressource mit zufällig gewählten Antworten generieren lassen.
 
@@ -173,6 +181,26 @@ Wenn sie offline eine Prüfung durchführen wollen, können sie in diesem Wizard
 
     ![Offline Test Zusammenfassung](assets/Test_offline_Zusammenfassung_DE.png){ class="shadow" }
 
-## Als Worddatei exportieren 
+[zum Seitenanfang ^](#test_settings)
+
+---
+
+
+## Als Worddatei exportieren {: #export_word}
 
 Der Test wird dann im Zip-Format mit zwei Word-Dateien heruntergeladen, von denen eine Datei nur die Fragen, die andere zusätzlich noch die Lösungen enthält. Die exportierte Datei enthält alle wichtigen Informationen zum Test inklusive der Punktzahl, so dass Sie das Dokument direkt auch weiterverwenden können.
+
+[zum Seitenanfang ^](#test_settings)
+
+---
+
+
+## Weitere Informationen {: #further_information}
+
+[Wie gehe ich vor, wenn ich einen Test erstelle? >](../../manual_how-to/test_creation_procedure/test_creation_procedure.de.md)<br>
+[Wie bewerte ich einen Test? >](../../manual_how-to/assessing_tests/assessing_tests.de.md)<br>
+[Wie macht man in OpenOlat eine anonyme Test-Korrektur? >](../../manual_how-to/assessing_tests_anonymously/assessing_tests_anonymously.de.md)<br>
+[Bewertungswerkzeug >](../../manual_user/learningresources/Assessment_tool_overview.de.md)<br>
+[Coaching Tool >](../../manual_user/area_modules/Coaching.de.md)<br>
+
+[zum Seitenanfang ^](#test_settings)
