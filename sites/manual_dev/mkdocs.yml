@@ -39,8 +39,8 @@ nav:
       - Dashboard widgets: ux/dashboard_widgets.md
       - Performance widgets: ux/performence_widgets.md
     - Icons:
-      - Icon-Map: icons/reference_map.md
-      - Icon-Course-Elements: icons/course_elements_icons.md
+      - Icon Map: icons/reference_map.md
+      - Course Element Icons: icons/course_elements_icons.md
   - Manual How-To:
     - documentation/index.md
     - Setup Visual Studio Code: documentation/howto-visual-studio.md
