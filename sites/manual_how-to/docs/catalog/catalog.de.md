@@ -152,6 +152,11 @@ Im Katalog V2 werden Abschnitte mit Katalogeinträgen (Kacheln, Karten) als Laun
 Innerhalb der Launcher (diesen Abschnitten im Katalog) können die Katalogeinträge nach bestimmten Kriterien zusammengestellt werden (je nach Launchertyp und Launcherkonfiguration).
 Sie werden deshalb als Launcher (engl. Starter, Startrampe) bezeichnet, weil in ihnen die Katalogeinträge (Kacheln, Karten) meistens dynamisch zusammengestellt werden.
 
+**Launcher mit Unterordnern/Kategorien:**<br>
+In einem Launcher vom Typ "Taxonomielevel" werden keine Kurse und Lernressourcen direkt angezeigt, die angezeigten Taxonomielevel entsprechen vielmehr Ordnern, in denen dann erst die Kurse und Lernressourcen zu finden sind. Aufgelistet in einer Microsite, die sich beim Klick auf einen der Taxonimielevel in einem Taxonomie-Launcher öffnet.<br>
+(Beispiel: siehe 2. Launcher auf dem vorangehenden gezeigten Screen.) 
+
+
 [zum Seitenanfang ^](#catalog)
 
 ---

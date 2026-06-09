@@ -28,14 +28,15 @@ Wenn Bilder bereits in geeigneter Grösse in OpenOlat importiert werden, müssen
 ---
 
 ### Kategorien {: #image_size_categories}
+(Launcher vom Typ "Taxonomielevel")
 
-**Verwendung:**
+**Verwendung:**<br>
 ![catalog20_design_categories_v1_de.png](assets/catalog20_design_categories_v1_de.png){ class="shadow lightbox" }
 
 **Empfohlene Bildgrösse:** 240 x 155 px (Rechteck),  240 x 240 px (Quadrat)<br>
 **Quadratisch oder rechteckig:** Die Bilder zu den Katagorien können quadratisch oder rechteckig gewählt werden. Diese Konfiguration ist einheitlich für alle Bilder zu den Kategorien und wird eingestellt unter **Administration > Module > Katalog > Tab "Layout"**.<br>
 **Bemerkungen:** Der Text wird über dem unteren Bereich des Bildes angezeigt. Die Fläche dafür ist 240 x 35 px, weiss, halbtransparent und wird von OpenOlat über das Bild gelegt. <br>
-**Einfügen:** Die Bilder für Kategorien werden (mit Administratorenrecht) hochgeladen unter **Administration > Module > Taxonomie > Tab "Metadaten"**.<br>
+**Einfügen:** Die Bilder für Taxonomie-Launcher (Kategorien) werden (mit Administratorenrecht) hochgeladen unter **Administration > Module > Taxonomie > Tab "Metadaten"**.<br>
 **Muster:** [halbtransparentes png zum Download >](assets/catalog20_image_pattern_categories.zip)
 
 
@@ -81,14 +82,14 @@ Es ist zu empfehlen, aus Platzgründen nicht alle Informationen gleichzeitig auf
 
 ---
 
-### Microsite (nach Wahl einer Kategorie) {: #image_size_microsite}
+### Microsite (nach Wahl eines Taxonomie-Levels/einer Kategorie)) {: #image_size_microsite}
 
 **Verwendung:** 
 ![catalog20_design_microsite_v1_de.png](assets/catalog20_design_microsite_v1_de.png){ class="shadow lightbox" }
 
 **Empfohlene Bildgrösse:** 1324 x 240 px <br>
 **Bemerkungen:** Ist das Bild höher als 240 px, wird ein passender Ausschnitt aus der Mitte heraus genommen.<br>
-**Einfügen:** Die Header-Bilder für Microsites (Kategorien) werden (mit Administratorenrecht) hochgeladen unter **Administration > Module > Taxonomie > Tab "Metadaten"**.<br>  
+**Einfügen:** Die Header-Bilder für Microsites (in Taxonomy-Launchern/Kategorien) werden (mit Administratorenrecht) hochgeladen unter **Administration > Module > Taxonomie > Tab "Metadaten"**.<br>  
 **Muster:** [halbtransparentes png zum Download >](assets/catalog20_image_pattern_header.zip)
 
 [Zum Seitenanfang ^](#catalog_design)

@@ -61,10 +61,11 @@ In diesem Lauchner angezeigte Angebote werden in zufälliger Reihenfolge angezei
 
 #### Launchertyp "Taxonomieebene"
 
-Taxonomie-Launcher nutzen die Katalogfachbereichsstruktur, um die verschiedenen Taxonomielevel anzuzeigen.
-Die Angebote werden entsprechend dem definierten Taxonomielevel automatisch ausgewählt und dann alphabetisch geordnet angezeigt.
+Taxonomie-Launcher nutzen die Katalogfachbereichsstruktur, um die verschiedenen Taxonomielevel anzuzeigen. In einem Launcher vom Typ "Taxonomie" werden keine Kurse und Lernressourcen direkt angezeigt, die angezeigten Taxonomielevel entsprechen vielmehr Ordnern, in denen dann erst die Lernressourcen zu finden sind.
 
 Klickt man in einem Taxonomie-Launcher auf eine der angezeigten Kategorien (Taxonomie-Level), gelangt man auf eine Microsite. Hier werden alle Kurse angezeigt, die unter diesem Level eingeordnet wurden. Hat die Fachbereichstaxonomie mehrere Level in diesem Strang werden die weiteren Level angezeigt.
+
+Die Angebote werden entsprechend dem definierten Taxonomielevel automatisch ausgewählt und dann alphabetisch geordnet angezeigt.
 
 
 #### Launchertyp "Ausgewählte Lernressourcen"

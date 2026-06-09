@@ -62,14 +62,16 @@ Wird in der Kopfzeile der Katalog (2.0) aufgerufen, dann gelangt man zunächst a
 Im Suchfeld kann direkt nach bestimmten Lernressourcen gesucht werden. Indexiert sind dafür der Titel, der Teaser-Text und die Taxonomie. Sie können aber auch die angezeigten Kacheln/Karten anklicken, die in den Launchern gruppiert sind.
 
 **Seite/Ansicht 2:**<br>
-Bei Klick auf eine Karte/Kachel in einem Kategorie-Launcher öffnet sich eine Microsite (Listenansicht) mit den Kursen und Lernressourcen dieser Kategorie. Zu einer Kategorie gehören alle Kurse und Lernressourcen die dem gleichen Taxonomie-Begriff zugeordnet sind. Auch Unterkategorien sind möglich.
+Bei Klick auf eine Karte/Kachel in einem Launcher vom Typ "Taxonomielevel" (Kategorie) öffnet sich eine Microsite (Listenansicht) mit den Kursen und Lernressourcen dieser Kategorie. Zu einer Kategorie gehören alle Kurse und Lernressourcen die dem gleichen Taxonomie-Begriff (Level) zugeordnet sind. Auch Unterkategorien sind möglich.
 
-![catalog20_katagorielauncher_v1_de.png](assets/catalog20_katagorielauncher_v1_de.png){ class="shadow lightbox" }
+In einem Launcher vom Typ "Taxonomielevel" werden also keine Kurse und Lernressourcen direkt angezeigt, sondern Unterordner (Taxonomielevel), in denen dann die Kurse und Lernressourcen enthalten sind.
 
-Erfolgt der Klick auf eine Karte/Kachel in einem anderen Launcher (nicht vom Typ Kategorie-Launcher) oder in einer Microsite öffnet sich die Info-Seite oder sofort der Kurs.
+![catalog20_categorielauncher_v1_de.png](assets/catalog20_categorielauncher_v1_de.png){ class="shadow lightbox" }
+
+Erfolgt der Klick auf eine Karte/Kachel in einem anderen Launcher (nicht vom Typ Taxonomie-Launcher) oder in einer Microsite öffnet sich die Info-Seite oder sofort der Kurs.
 
 **Seite/Ansicht 3:**<br>
-Wird zuerst eine Microsite geöffnet, können Sie in der Liste die [Infoseiten](../learningresources/Info_page.de.md) anzeigen lassen oder die Kurs bzw. Lernressourcen gleich starten. 
+Wird zuerst eine Microsite geöffnet, können Sie in der Liste die [Infoseiten](../learningresources/Info_page.de.md) anzeigen lassen oder die Kurs bzw. Lernressourcen gleich starten.
 
 ![catalog20_microsite_v1_de.png](assets/catalog20_microsite_v1_de.png){ class="shadow lightbox" }
 

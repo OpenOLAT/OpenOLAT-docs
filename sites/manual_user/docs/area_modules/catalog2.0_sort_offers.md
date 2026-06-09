@@ -43,8 +43,9 @@ The order of offers is determined by publishing date.
 **Launcher type "Random":**<br>
 Random order.
 
-**Launcher type "Taxonomy":**<br>
-The offers are automatically selected according to the taxonomy and then displayed in alphabetical order.
+**Launcher type "Taxonomy level":**<br>
+In a “Taxonomy Level” launcher, courses and learning resources are not displayed directly; rather, the taxonomy levels shown correspond to folders where the courses and learning resources can be found.<br> 
+The offerings are automatically selected based on the taxonomy and then listed alphabetically on a microsite that opens when you click on one of the taxonomy levels in a taxonomy launcher.
 
 **Launcher type "Selected learning resources":**<br>
 The manually added learning resources can be sorted by clicking on the double arrows in front of the entries.  

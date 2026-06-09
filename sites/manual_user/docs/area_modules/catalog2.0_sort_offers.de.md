@@ -46,7 +46,8 @@ Die Angebote sind nach Veröffentlichungsdatum geordnet.
 Zufallsreihenfolge
 
 **Launchertyp "Taxonomieebene":**<br>
-Die Angebote werden nach der Taxonomie automatisch ausgewählt und dann alphabetisch geordnet angezeigt.
+In einem Launcher vom Typ "Taxonomielevel" werden keine Kurse und Lernressourcen direkt angezeigt, die angezeigten Taxonomielevel entsprechen vielmehr Ordnern, in denen dann erst die Kurse und Lernressourcen zu finden sind.<br> 
+Die Angebote werden nach der Taxonomie automatisch ausgewählt und dann alphabetisch geordnet in einer Microsite aufgelistet,  die sich beim Klick auf einen der Taxonimielevel in einem Taxonomie-Launcher öffnet.
 
 **Launchertyp "Ausgewählte Lernressourcen":**<br>
 Die manuell hinzugefügten Lernressourcen können durch Klick auf Doppelpfeile vor den Einträgen geordnet werden.  

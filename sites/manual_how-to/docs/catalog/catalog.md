@@ -153,6 +153,12 @@ In catalog V2, sections with catalog entries (tiles, maps) are called launchers.
 Within the launchers (these sections in the catalog), the catalog entries can be compiled according to certain criteria (depending on the launcher type and launcher configuration).
 They are called launchers because the catalog entries (tiles, cards) are usually dynamically compiled in them.
 
+**Launcher with Subfolders/Categories:**<br>
+In a “Taxonomy Level” launcher, courses and learning resources are not displayed directly; rather, the taxonomy levels shown correspond to folders where the courses and learning resources can be found. Listed on a microsite that opens when you click on one of the taxonomy levels in a taxonomy launcher.<br>
+(Example: see the second launcher on the screen shown above.) 
+
+Translated with DeepL.com (free version)
+
 [To the top of the page ^](#catalog)
 
 ---

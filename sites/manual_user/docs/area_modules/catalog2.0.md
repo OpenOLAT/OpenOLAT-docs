@@ -65,9 +65,11 @@ If you call up the catalog (2.0) in the header, you will first be taken to the l
 Specific learning resources can be searched for directly in the search field. The title, teaser text and taxonomy are indexed for this purpose. However, you can also click on the displayed tiles/maps that are grouped in the launchers.
 
 **Page/Display 2:**<br>
-Clicking on a card/tile in a category launcher opens a microsite (list view) with the courses and learning resources in this category. A category includes all courses and learning resources that are assigned to the same taxonomy term. Subcategories are also possible.
+Clicking on a card/tile in a launcher of type "taxonomy level" (category) opens a microsite (list view) with the courses and learning resources in this category. A category includes all courses and learning resources that are assigned to the same taxonomy term (level). Subcategories are also possible.
 
-![catalog20_katagorielauncher_v1_de.png](assets/catalog20_katagorielauncher_v1_de.png){ class="shadow lightbox" }
+In a “taxonomy level” launcher, courses and learning resources are not displayed directly; instead, subfolders (taxonomy levels) are shown, which then contain the courses and learning resources.
+
+![catalog20_categorielauncher_v1_de.png](assets/catalog20_categorielauncher_v1_de.png){ class="shadow lightbox" }
 
 If you click on a card/tile in another launcher (not of the category launcher type) or in a microsite, the info page or the course opens immediately.
 

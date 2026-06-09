@@ -28,14 +28,15 @@ If images are already imported into OpenOlat in a suitable size, OpenOlat no lon
 ---
 
 ### Categories {: #image_size_categories}
+(Launchers of type "taxonomy level")
 
-**Usage**
+**Usage**<br>
 ![catalog20_design_categories_v1_de.png](assets/catalog20_design_categories_v1_de.png){ class="shadow lightbox" }
 
 **Recommended image size:** 240 x 155 px (Rectangle), 240 x 240 px (square)<br>
 **Squared or rectangular:** The images for the categories can be square or rectangular. This configuration is standardized for all category images and is set under **Administration > Module > Catalog > Tab "Layout"**.<br>
 **Remarks:** The text is displayed above the lower area of the image. The area for this is 240 x 35 px, white, semi-transparent and is placed over the image by OpenOlat. <br>
-**Insert:** The images for categories are uploaded (with administrator rights) under **Administration > Module > Taxonomy > Tab "Meta data"**<br>
+**Insert:** The images for taxonomy launchers (categories) are uploaded (with administrator rights) under **Administration > Module > Taxonomy > Tab "Meta data"**<br>
 **Sample:** [half-transparent png to download >](assets/catalog20_image_pattern_categories.zip)
 
 
@@ -80,7 +81,7 @@ For space reasons, it is recommended not to display all information on the tile 
 
 ---
 
-### Microsite (after selecting a category) {: #image_size_microsite}
+### Microsite (after selecting a taxonomy level/a category) {: #image_size_microsite}
 
 **Usage**
 ![catalog20_design_microsite_v1_de.png](assets/catalog20_design_microsite_v1_de.png){ class="shadow lightbox" }
@@ -88,7 +89,7 @@ For space reasons, it is recommended not to display all information on the tile 
 
 **Recommended image size:** 1324 x 240 px <br>
 **Remarks:** If the image is higher than 240 px, a suitable section is taken from the center.<br>
-**Insert:** The header images for microsites (categories) are uploaded (with administrator rights) under **Administration > Module > Taxonomy > "Meta data"**. <br>
+**Insert:** The header images for microsites (in taxonomy launchers/categories) are uploaded (with administrator rights) under **Administration > Module > Taxonomy > "Meta data"**. <br>
 **Sample:** [half-transparent png to download >](assets/catalog20_image_pattern_course.zip)
 
 [To the top of the page ^](#catalog-20---design---catalog_design)

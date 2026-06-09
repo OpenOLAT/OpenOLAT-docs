@@ -60,9 +60,11 @@ The offers displayed in this Lauchner are shown in random order.
 #### Launcher type "Taxonomy level"
 
 Taxonomy launchers use the catalog department structure to display the various taxonomy levels.
-The offers are automatically selected according to the defined taxonomy level and then displayed in alphabetical order.
+In a “taxonomy” launcher, courses and learning resources are not displayed directly; instead, the taxonomy levels shown correspond to folders where the learning resources can be found.
 
 Clicking on one of the categories (taxonomy levels) displayed in a taxonomy launcher takes you to a microsite. All courses classified under this level are displayed here. If the department taxonomy has several levels in this string, the other levels are displayed.
+
+The offers are automatically selected according to the defined taxonomy level and then displayed in alphabetical order.
 
 #### Launcher type "Selected learning resources"
 

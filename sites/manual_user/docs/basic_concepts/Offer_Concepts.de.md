@@ -52,7 +52,7 @@ Was auf einer Karte im Katalog angezeigt wird, kann (für alle Karten einheitlic
 
 In OpenOlat gibt es einen **internen** und einen **externen** Katalog. Es kann bestimmt werden, ob ein Angebot nur in einem oder in beiden Katalogen angezeigt wird.
 
-Innerhalb des Katalogs gibt es Abschnitte, sogenannte **Launcher**. Als Besitzer:in eines Kurses oder einer Durchführung können Sie bestimmen, in welchem Launcher Ihr Angebot erscheinen soll. Vom Katalog (V2) werden die Angebote dann dynamisch zusammengestellt und den verschiedenen Launchern zugeordnet. 
+Innerhalb des Katalogs gibt es Abschnitte, sogenannte **Launcher**. Als Besitzer:in eines Kurses oder einer Durchführung können Sie bestimmen, in welchem Launcher Ihr Angebot erscheinen soll. Vom Katalog (V2) werden die Angebote dann dynamisch zusammengestellt und den verschiedenen Launchern zugeordnet. In Taxonomie-Launchern können zudem Ordner angezeigt werden, die bestimmten Taxonomie-Leveln entsprechen. So lassen sich die Kurse und Lernressourcen nach Taxonomiebegriffen sortiert anzeigen.
 
 Eine Anzeige kann auch **in mehreren verschiedenen Launchern des Katalogs** (V2) erfolgen. Z.B. in einem Launcher "Beliebte Kurse" und einem Launcher, der thematisch Kurse anhand einer bestimmten Taxonomie zusammenstellt. 
 
@@ -65,7 +65,7 @@ Die Freigabe-Einstellungen können vorgenommen werden unter<br>
 
 !!! hint "Hinweis"
 
-    Die Angebote sind im Katalog buchbar, sobald der Status auf "Veröffentlicht" gestellt wurde.
+    Die Angebote sind im Katalog buchbar, sobald der Status auf "Veröffentlicht" gestellt wurde. (Bzw. "provisorisch" oder "bestätigt" bei Durchführungen.)
 
 !!! tip "Tipp"
 

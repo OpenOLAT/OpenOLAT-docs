@@ -52,7 +52,7 @@ What is displayed on a card in the catalog can be specified (uniformly for all c
 
 OpenOlat has an **internal** and an **external** catalog. You can specify whether an offer is displayed in only one or in both catalogs.
 
-Within the catalog, there are sections called **launchers**. As the owner of a course or session, you can determine in which launcher your offering should appear. The offerings are then dynamically compiled from the catalog (V2) and assigned to the various launchers. 
+Within the catalog, there are sections called **launchers**. As the owner of a course or session, you can determine in which launcher your offering should appear. The offerings are then dynamically compiled from the catalog (V2) and assigned to the various launchers. Taxonomy launchers can also display folders that correspond to specific taxonomy levels. This allows courses and learning resources to be displayed sorted by taxonomy terms.
 
 An advertisement can also appear in **several different launchers in the catalog** (V2). For example, in a launcher called "Popular Courses" and a launcher that compiles courses thematically based on a specific taxonomy. 
 
@@ -65,7 +65,7 @@ The release settings can be configured under<br>
 
 !!! hint "Note"
 
-    Offers can be booked in the catalog as soon as their status has been set to "Published".
+    Offers can be booked in the catalog as soon as their status has been set to "Published". (“Provisional” or “confirmed” for implementations.)
 
 !!! tip "Hint"
 
