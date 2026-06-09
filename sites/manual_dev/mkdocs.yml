@@ -38,8 +38,8 @@ nav:
     - Widgets:
       - Dashboard widgets: ux/dashboard_widgets.md
       - Performance widgets: ux/performence_widgets.md
-    - Course Elements:
-      - course_elements/index.md
+    - Icons:
+      - Course Elements: course_elements/index.md
   - Manual How-To:
     - documentation/index.md
     - Setup Visual Studio Code: documentation/howto-visual-studio.md
