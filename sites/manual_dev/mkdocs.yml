@@ -39,6 +39,7 @@ nav:
       - Dashboard widgets: ux/dashboard_widgets.md
       - Performance widgets: ux/performence_widgets.md
     - Icons:
+      - Icon-Map: icons/reference_map.md
       - Course Elements: course_elements/index.md
   - Manual How-To:
     - documentation/index.md
