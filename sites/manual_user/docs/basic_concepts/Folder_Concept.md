@@ -86,7 +86,7 @@ Access to a group folder is always linked to membership of the relevant group.
 [To the top of the page ^](#folders)
 
 
-### Folder for coahces (Coach folders) {: #coach_folder}
+### Folder for coaches (Coach folders) {: #coach_folder}
 
 A folder can be set up within a course that is only accessible to the coaches of this course. Documents can be exchanged there, for example, or files relating to the course that should not be accessible to participants can simply be stored there.
 
