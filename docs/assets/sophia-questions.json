@@ -1,0 +1,17 @@
+{
+  "_comment": "Start-page question proposals for the Sophia chat sidebar. Shown when the search field is focused on the manual start page. Maintained by the docs team — changes go live with the next site build, no fxKnowledge deployment needed.",
+  "de": [
+    "Wie erstelle ich meinen ersten Kurs?",
+    "Wie veröffentliche ich meinen Kurs im Katalog?",
+    "Was ist neu im aktuellen OpenOlat-Release?",
+    "Wie erstelle ich einen Test mit Fragen?",
+    "Wie funktioniert die Bewertung von Aufgaben?"
+  ],
+  "en": [
+    "How do I create my first course?",
+    "How do I publish my course in the catalogue?",
+    "What is new in the latest OpenOlat release?",
+    "How do I create a test with questions?",
+    "How does assessing tasks work?"
+  ]
+}

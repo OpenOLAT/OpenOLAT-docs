@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{#
+  Sophia chat sidebar (fxKnowledge). Two parts:
+  1. Pre-paint restore: if the sidebar was open on the previous page, set the
+     layout class BEFORE first paint so the content column never jumps and the
+     sidebar restores without any flicker (design: fxKnowledge docs/manual-sidebar.html §5).
+  2. The widget script tag. data-* attributes cannot be expressed in
+     mkdocs.yml extra_javascript, hence this template override.
+  The /sophia/* paths are relative on purpose: the web server in front of this
+  site reverse-proxies  location /sophia/ -> the fxKnowledge host  (prefix is
+  stripped), so widget and API are same-origin. No host to configure here.
+#}
+{% block extrahead %}
+<script>try{var fxkSt=JSON.parse(sessionStorage.getItem('fxk-sophia-v1')||'{}');if(fxkSt.open){document.documentElement.classList.add('fxk-sidebar-open');if(fxkSt.w)document.documentElement.style.setProperty('--fxk-sbw',fxkSt.w+'px')}}catch(e){}</script>
+<style>@media(min-width:1100px){html.fxk-sidebar-open body{padding-right:var(--fxk-sbw,400px)}}</style>
+<script src="/sophia/public/sophia.js" defer
+        data-mode="sidebar"
+        data-api-base="/sophia/"></script>
+{% endblock %}
