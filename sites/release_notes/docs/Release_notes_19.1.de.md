@@ -1,5 +1,5 @@
 
-# Release Notes 19.1
+# Release Notes OpenOlat 19.1
 
 ![Release Grafik 19.1](assets/191/press-release-19.1.png)
 

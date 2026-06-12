@@ -1,4 +1,4 @@
-# Release Notes 15.4
+# Release Notes OpenOlat 15.4
 ![](assets/154/press-release.png)  
 
 Mit der Integration von **Microsoft Teams Online Meetings** wird die Palette
@@ -283,7 +283,7 @@ _Gruppen_ bzw. _Curricula_ ausgewählt werden.
 
   
 
-## Release Notes - Versionen
+## Release Notes OpenOlat - Versionen
 
 * [YouTrack release notes 15.4](https://track.frentix.com/releaseNotes/OO?q=%2315.4)
 * [YouTrack release notes 15.4 - 15.4.7](https://track.frentix.com/releaseNotes/OO?q=%2315.4.*&title=Release%20notes%2015.4.*)

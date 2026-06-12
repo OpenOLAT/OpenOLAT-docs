@@ -68,12 +68,15 @@ extra:
     provider: google
     property: G-65NJX5QBES
   consent:
-    title: Cookie consent
+    title: Cookie and AI chat consent
     description: >- 
       We use cookies to recognize your repeated visits and preferences, as well
       as to measure the effectiveness of our documentation and whether users
       find what they're searching for. With your consent, you're helping us to
-      make our documentation better.
+      make our documentation better. If you are using the Sophia chat, your AI 
+      search tool, you agree that we might store and analyze your conversation. 
+      This helpss us better understand the topics of interrest and improve the 
+      chat experience. 
     cookies:
       analytics:
         name: Google Analytics
@@ -82,7 +85,7 @@ extra:
       - accept
       - reject
       
-copyright: Copyright &copy; 2006 - 2024 <a href="https://frentix.com">frentix GmbH</a>
+copyright: Copyright &copy; 2006 - 2026 <a href="https://frentix.com">frentix GmbH</a>
       
            
 extra_css:

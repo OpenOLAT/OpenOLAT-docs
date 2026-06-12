@@ -1,7 +1,7 @@
 ---
 ᴴₒᴴₒᴴₒ: true
 ---
-# Release notes 17.2
+# Release Notes OpenOlat 17.2
 
 <!--![Release image](assets/172/press-release-17.2.png)-->
 ![Release image](assets/172/press-release-17.2-alt.jpg)

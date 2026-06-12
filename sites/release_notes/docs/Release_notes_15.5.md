@@ -1,4 +1,4 @@
-# Release notes 15.5
+# Release Notes OpenOlat 15.5
 ![](assets/155/press-release-15.5.png)
 
 With OpenOlat 16.1 we release our next major release.
@@ -385,7 +385,7 @@ the upper left corner.
 
 * * *
 
-## Release notes - versions
+## Release Notes OpenOlat - versions
 
 * [YouTrack release notes 15.5](https://track.frentix.com/releaseNotes/OO?q=%2315.5.0&title=Release%20notes%2015.5)
 * [YouTrack release notes 15.5 - 15.5.22](https://track.frentix.com/releaseNotes/OO?q=%2315.5.*&title=Release%20Notes%2015.5.*)

@@ -1,4 +1,4 @@
-# Release Notes 16.2
+# Release Notes OpenOlat 16.2
 
 ![Release Grafik](assets/162/press-release-16.2.png)
 

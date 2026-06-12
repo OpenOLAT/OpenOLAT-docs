@@ -1,7 +1,7 @@
 ---
 ᴴₒᴴₒᴴₒ: true
 ---
-# Release Notes 18.1
+# Release Notes OpenOlat 18.1
 
 ![Release Grafik 18.1](assets/181/press-release-18.1.png)
 

@@ -1,4 +1,4 @@
-# Release Notes 15.3
+# Release Notes OpenOlat 15.3
 
 Mit OpenOlat 15.3 geben wir unseren nächsten Major Release frei. Aufgrund der
 aktuellen Pandemie-Lage wurde ein Modul "Kontaktverfolgung" (Contact Tracing)
@@ -265,7 +265,7 @@ Organisationseinheit zugegriffen werden.
 
   
 
-## Release Notes - Versionen
+## Release Notes OpenOlat - Versionen
 
 * [YouTrack release notes 15.3](https://track.frentix.com/releaseNotes/OO?q=%2315.3&title=Release%20notes%2015.3)
 * [YouTrack release notes 15.3 - 15.3.18](https://track.frentix.com/releaseNotes/OO?q=%2315.3.*&title=Release%20Notes%2015.3.*)

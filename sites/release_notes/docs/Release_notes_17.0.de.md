@@ -1,4 +1,4 @@
-# Release Notes 17.0
+# Release Notes OpenOlat 17.0
 
 ![Release Grafik](assets/170/press-release-17.0.png)
 

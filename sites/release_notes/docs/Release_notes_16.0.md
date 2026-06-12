@@ -1,4 +1,4 @@
-# Release notes 16.0
+# Release Notes OpenOlat 16.0
 ![](assets/160/press-release-16.png)
 
 With OpenOlat 16.1 we release our next major release.
@@ -382,7 +382,7 @@ accordingly with its own icon.
 
   
 
-## Release notes - versions
+## Release Notes OpenOlat - versions
 
 * [YouTrack release notes 16.0](https://track.frentix.com/releaseNotes/OO?q=%2316.0.0&title=Release%20Notes%2016.0)
 * [YouTrack release notes 16.0 - 16.0.9](https://track.frentix.com/releaseNotes/OO?q=%2316.0.*&title=Release%20notes%2016.0.*)

@@ -1,4 +1,4 @@
-# Release notes 16.1
+# Release Notes OpenOlat 16.1
 ![](assets/161/press-release-16.1.png)
 
 With OpenOlat 16.1 we release our next major release.

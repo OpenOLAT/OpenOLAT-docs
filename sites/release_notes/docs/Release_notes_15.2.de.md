@@ -1,4 +1,4 @@
-# Release Notes 15.2
+# Release Notes OpenOlat 15.2
 
 Mit OpenOlat 15.2 geben wir unseren nächsten Major Release frei. Dieser bringt
 Erweiterungen im BigBlueButton-Baustein mit sich, so können zum Beispiel
@@ -94,7 +94,7 @@ oder ganze Serien eingebunden werden.
 
   
 
-## Release Notes - Versionen
+## Release Notes OpenOlat - Versionen
 
 * [YouTrack release notes 15.2](https://track.frentix.com/releaseNotes/OO?q=%2315.2%20&title=Release%20Notes%2015.2)
 * [YouTrack release notes 15.2 - 15.2.13](https://track.frentix.com/issues/OO?q=%2315.2.*)

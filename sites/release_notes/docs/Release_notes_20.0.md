@@ -1,5 +1,5 @@
 
-# Release notes 20.0
+# Release Notes OpenOlat 20.0
 
 ![Release Grafik 20.0](assets/200/press-release-20.0.png)
 

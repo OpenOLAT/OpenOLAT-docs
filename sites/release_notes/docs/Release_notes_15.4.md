@@ -1,4 +1,4 @@
-# Release notes 15.4
+# Release Notes OpenOlat 15.4
 ![](assets/154/press-release-15.4.png)
 
 With the integration of **Microsoft Teams Online Meetings** , the range of
@@ -280,7 +280,7 @@ selected as _recipients_.
 
   
 
-## Release notes - versions
+## Release Notes OpenOlat - versions
 
 * [YouTrack release notes 15.4](https://track.frentix.com/releaseNotes/OO?q=%2315.4)
 * [YouTrack release notes 15.4 - 15.4.7](https://track.frentix.com/releaseNotes/OO?q=%2315.4.*&title=Release%20notes%2015.4.*)
