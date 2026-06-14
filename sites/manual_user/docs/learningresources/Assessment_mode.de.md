@@ -35,7 +35,7 @@ Prüfungskonfigurationen werden vorab erstellt und enthalten
 Ein Prüfungsmodus kann gelten
 
 * nur für Kursteilnehmende,
-* nur für Gruppenteilnehmer ausgewählter Gruppen
+* nur für Gruppenteilnehmende ausgewählter Gruppen
 * oder für beides. 
 
 Dadurch ist es möglich, zeitgleich unterschiedlich konfigurierte Prüfungen für verschiedene Nutzergruppen desselben Kurses abzuhalten. 
