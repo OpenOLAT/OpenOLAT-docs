@@ -117,6 +117,15 @@ Ausserdem kann definiert werden, ob bzw. welche Taxonomie mit dem Media Center v
 
 
 
+## Externe Seite {: #external_page}
+
+Insbesondere wegen der Möglichkeit, Daten an andere Websites zu übertragen, kann der Kursbausteins "Externe Seite" generell konfiguriert werden.
+
+[Zu den Details >](Modules_External_Page.de.md)<br>
+[Zum Seitenanfang ^](#modules)
+
+
+
 ## Datenschutz {: #data_privacy}
 
 Sie können festlegen, welche Systemrollen, die administrativen Benutzer:innen-Properties z.B. bei der Kontensuche oder in Listen sehen dürfen. Welche Benutzer:innen-Properties als administrativ gelten, wird bei den Benutzer:innen-Properties konfiguriert. 

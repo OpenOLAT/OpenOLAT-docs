@@ -104,7 +104,6 @@ instead of a date for course durations. The time period created here can be used
 
 
 
-
 ## Media Center {: #media_center}
 
 Media in the Media Center can be shared with others. Here you can define which sharing options the respective roles have.
@@ -112,6 +111,15 @@ Media in the Media Center can be shared with others. Here you can define which s
 You can also define whether or which taxonomy should be connected to the Media Center
 
 [See the details >](Modules_Media_Center.md)<br>
+[To the top of the page ^](#modules)
+
+
+
+## External page {: #external_page}
+
+The “External Page” course element can be configured in general, particularly because of the ability to transfer data to other websites.
+
+[See the details >](Modules_External_Page.md)<br>
 [To the top of the page ^](#modules)
 
 

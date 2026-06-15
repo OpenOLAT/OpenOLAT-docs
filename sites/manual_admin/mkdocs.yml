@@ -28,6 +28,7 @@ nav:
       - Module Document pool: "administration/Modules_Document_pool.md"
       - Module Taxonomy: "administration/Modules_Taxonomy.md"
       - Module Media Center: "administration/Modules_Media_Center.md"
+      - Module External page: "administration/Modules_External_Page.md"
       - Module Events / Absences: "administration/Modules_Events_and_Absences.md"
       - Module Course: "administration/Modules_Course.md"
       - Module Catalog: "administration/Modules_Catalog_2.0.md"
