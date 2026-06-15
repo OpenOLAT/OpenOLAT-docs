@@ -2,9 +2,8 @@
 
 :octicons-tag-16: ab Release 21
 
-In OpenOlat erstellte Fragen können auch KI-unterstützt erstellt werden. Dazu müssen die verwendeten KI-Tools in den externen Werkzeugen konfiguriert werden. 
+In OpenOlat werden Sie an verschiedenen Stellen durch KI unterstützt. Dazu müssen die verwendeten KI-Tools in den externen Werkzeugen konfiguriert werden. 
 
-Kopieren Sie einen Fachtext in das vorgesehen Eingabefeld. Direkt in OpenOlat werden dann z.B. Multiple-Choice-Fragen mit Antwortmöglichkeiten erstellt, sowie eine Reihe von Metadaten zu den einzelnen Frage-Items (Schlagworte, Thema und Taxonomie) vorausgefüllt.
 
 
 ## Tab Konfiguration {: #config}
@@ -18,7 +17,9 @@ Kopieren Sie einen Fachtext in das vorgesehen Eingabefeld. Direkt in OpenOlat we
 
 ### KI Anbieter {: #ai_provider}
 
-Aktivieren und konfigurieren Sie die KI Anbieter, die Sie verwenden möchten mit dem **Button "KI Anbieter hinzufügen"** rechts oben.
+In OpenOlat bezieht sich der Begriff „KI Anbieter“ auf den Dienstleister, dessen KI-Modelle für die verschiedenen KI-gestützten Funktionen in der Plattform genutzt werden.
+
+Aktivieren und konfigurieren Sie die verschiedenen KI Anbieter, die Sie verwenden möchten mit dem **Button "KI Anbieter hinzufügen"** rechts oben.
 
 !!! hint "Beachten Sie:"
 
@@ -66,7 +67,9 @@ Zur weiteren Spezifizierung geben Sie in einer Liste die auf diesem Server verf�
 
 ### KI Funktionen {: #ai_functions}
 
-In OpenOlat können KI-Modell an verschiedenen Stellen eingebunden werden. Im Abschnitt "KI Funktionen" bestimmen Sie für alle Einsatzorte bzw. mit KI erweiterbare Funktionen in OpenOlat
+Die Konfiguration der KI-Integration erfolgt individuell pro Funktion, wobei die verfügbaren Modelle direkt vom jeweiligen Anbieter geladen werden.
+
+Im Abschnitt "KI Funktionen" bestimmen Sie für alle Einsatzorte bzw. mit KI erweiterbare Funktionen in OpenOlat
 
 * ob KI verwendet werden soll (Toggle-Button zur Aktivierung),
 * welcher KI Anbieter
@@ -78,6 +81,8 @@ Derzeit kann KI in den folgenden Funktionen eingebunden werden:
 * Bildbeschreibungsgenerator (Erstellung von Bildbeschreibungen, Alternativ-Texten, Schlagwörtern)
 * Essay-Fragengenerator
 * Essay-Bewertung
+
+Kopieren Sie einen Fachtext in das vorgesehen Eingabefeld. Direkt in OpenOlat werden dann z.B. Multiple-Choice-Fragen mit Antwortmöglichkeiten erstellt, sowie eine Reihe von Metadaten zu den einzelnen Frage-Items (Schlagworte, Thema und Taxonomie) vorausgefüllt.
 
 Zu jeder Funktion kann unter dem Link "Test ausführen" ein KI-generiertes Muster angesehen werden.
 

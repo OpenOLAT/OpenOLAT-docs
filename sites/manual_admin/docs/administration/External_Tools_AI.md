@@ -2,9 +2,7 @@
 
 :octicons-tag-16: as of Release 21
 
-Questions created in OpenOlat can also be generated with AI support. To do this, the AI tools used must be configured in the external tools. 
-
-Copy a subject-specific text into the designated input field. OpenOlat will then automatically generate multiple-choice questions with answer options, as well as pre-fill a range of metadata for each question item (keywords, topic, and taxonomy).
+In OpenOlat you are supported by AI at different points. To do this, the AI tools used must be configured in the external tools. 
 
 
 ## Tab Configuration {: #config}
@@ -17,7 +15,9 @@ Copy a subject-specific text into the designated input field. OpenOlat will then
 
 ### AI provider {: #ai_provider}
 
-Enable and configure the AI providers you want to use by clicking the **"Add AI Provider" button** in the upper-right corner.
+In OpenOlat, the term “AI provider” refers to the service provider whose AI models are used for the various AI-powered features on the platform.
+
+Enable and configure the various AI providers you want to use by clicking the **"Add AI Provider" button** in the upper-right corner.
 
 !!! hint "Please note:"
 
@@ -61,7 +61,9 @@ For further specification, list the model names available on this server.
 
 ### AI functions {: #ai_functions}
 
-In OpenOlat, AI models can be integrated in various places. In the "AI Functions" section, you can configure all locations and functions in OpenOlat that can be enhanced with AI.
+The AI integration is configured individually for each function, with the available models being downloaded directly from the respective provider.
+
+In the "AI functions" section, you can configure all locations and functions in OpenOlat that can be enhanced with AI.
 
 * whether to use AI (toggle button to enable it),
 * which AI provider
@@ -73,6 +75,8 @@ Currently, AI can be integrated into the following functions:
 * Image description generator (creation of image descriptions, alternative text, and keywords)
 * Essay Question Generator
 * Essay assessment
+
+Copy a subject-specific text into the designated input field. OpenOlat will then automatically generate multiple-choice questions with answer options, as well as pre-fill a range of metadata for each question item (keywords, topic, and taxonomy).
 
 For each function, you can view an AI-generated sample by clicking the "Run Test" link.
 
